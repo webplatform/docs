@@ -1,14 +1,8 @@
-'''MediaWiki has been successfully installed.'''
+This page houses a record of all activities being undertaken in past, present or future by the Web Education Community Group, split into sub groups.</p>
 
-Consult the [//meta.wikimedia.org/wiki/Help:Contents User's Guide] for information on using the wiki software.
-
-== Getting started ==
-* [//www.mediawiki.org/wiki/Manual:Configuration_settings Configuration settings list]
-* [//www.mediawiki.org/wiki/Manual:FAQ MediaWiki FAQ]
-* [https://lists.wikimedia.org/mailman/listinfo/mediawiki-announce MediaWiki release mailing list]
-
-==WebPlatform tutorials==
-
-In our tutorials section, we have the following different sections:
-
-* [[general-concepts]]
+* [Learning material]
+* [Curricula]
+* [Outreach]
+* [Training and certification]
+* [Membership and policy]
+* [International education for (insert name of country/language)]
