@@ -1,7 +1,7 @@
 This page houses a record of all activities being undertaken in past, present or future by the Web Education Community Group, split into sub groups.
 
 * [[Learning material]]
-* [[Curricula]]
+* [[Curriculum]]
 * [[Outreach]]
 * [[Training and certification]]
 * [[Membership and policy]]
