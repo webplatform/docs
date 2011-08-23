@@ -36,3 +36,7 @@ The below articles were written from the point of view of a short, low level set
 * [[Your first web site Part 5 - Getting your stuff on to the Web]]
 
 As it stands, the material needs a good deal of editing and updating, but it could well be useful.
+
+=== Web standards and accessibility course for marketers ===
+
+We should also consider creating a course for marketers and other non-technical business people to help them understand what they need to know about web standards, accessibility etc. Misunderstanding of technical properties by non-technical team members is a common cause of problems in the effectiveness of web projects. It's not just developers/designers we need to target.
