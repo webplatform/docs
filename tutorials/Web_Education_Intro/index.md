@@ -34,3 +34,5 @@ The below articles were written from the point of view of a short, low level set
 * [[Your first web site Part 3 - CSS, the styling languge of the Web]]
 * [[Your first web site Part 4 - Styling the template with CSS]]
 * [[Your first web site Part 5 - Getting your stuff on to the Web]]
+
+As it stands, the material needs a good deal of editing and updating, but it could well be useful.
