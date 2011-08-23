@@ -18,3 +18,7 @@ IMPORTANT: Please don't pollute this section with random stuff - if you just wan
 Feel free to record ideas here.
 
 * [[Example page]]
+
+===Train the trainers ===
+
+* [[Train the trainers]]
