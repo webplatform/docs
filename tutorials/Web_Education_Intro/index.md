@@ -11,6 +11,8 @@ IMPORTANT: Please don't pollute this section with random stuff - if you just wan
 * [[Outreach]]
 * [[Training and certification]]
 * [[Membership and policy]]
+* International projects
+** [[French international project]]
 
 == Ideas Playground ==
 
