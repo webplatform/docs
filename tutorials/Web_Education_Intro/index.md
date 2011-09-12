@@ -11,7 +11,6 @@ IMPORTANT: Please don't pollute this section with random stuff - if you just wan
 * [[Outreach]]
 * [[Training and certification]]
 * [[Membership and policy]]
-* [[International education for (insert name of country/language)]]
 
 == Ideas Playground ==
 
@@ -40,3 +39,7 @@ As it stands, the material needs a good deal of editing and updating, but it cou
 === Web standards and accessibility course for marketers ===
 
 We should also consider creating a course for marketers and other non-technical business people to help them understand what they need to know about web standards, accessibility etc. Misunderstanding of technical properties by non-technical team members is a common cause of problems in the effectiveness of web projects. It's not just developers/designers we need to target.
+
+=== Templates and stuff ===
+
+* [[International education for (insert name of country/language)]] ##TEMPLATE
