@@ -1,6 +1,6 @@
 Welcome to the Web Education Community Group Wiki!
 
-== Subgroup activities ==
+== Project activities ==
 
 This section houses a record of all activities being undertaken in past, present or future by the Web Education Community Group, split into projects.
 
