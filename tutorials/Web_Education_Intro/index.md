@@ -13,6 +13,7 @@ IMPORTANT: Please don't pollute this section with random stuff - if you just wan
 * [[Membership and policy]]
 * International projects
 ** [[French international project]]
+** [[Croatian international project]]
 
 == Ideas Playground ==
 
