@@ -43,6 +43,12 @@ As it stands, the material needs a good deal of editing and updating, but it cou
 
 We should also consider creating a course for marketers and other non-technical business people to help them understand what they need to know about web standards, accessibility etc. Misunderstanding of technical properties by non-technical team members is a common cause of problems in the effectiveness of web projects. It's not just developers/designers we need to target.
 
+=== WebED Trainer Pack ===
+
+This idea would have us put together a “pack” of materials that could either be distributed on a CD or downloaded freely. Those participating in the “train the trainers” program could distribute the information when getting support from academic groups, and those interested in training internally (at organisation or corporate level) could get the most recent ISO image of the materials directly.
+
+Contents within this pack could include PDF’s, videos, podcasts, PowerPoint slides, documents or sample materials to promote the benefits of our training (and any applicable courses), recommended teaching methods (of W3C specs), ideas for classroom sessions and more. Essentially, a getting started pack for anyone thinking about teaching the courses to students. This would also give us (post outreach) something to take away and discuss with peers and bosses.
+
 === Templates and stuff ===
 
 * [[International education for (insert name of country/language)]] ##TEMPLATE
