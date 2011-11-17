@@ -6,7 +6,7 @@ In web design tables are a good way to organize data into a tabular form. In oth
  
 Back in the Jurassic Age of the Internet before CSS was popularised as a method of separating the presentation from structure of the HTML, tables were used as a way to lay out web pages — to create columns, boxes, and generally arrange the content. This is the wrong way to go about it; tables for layout resulted in bloated, messy pages with tons of nested tables — larger file sizes, hard to maintain, hard to modify after the fact. You’ll still see sites like this on the Web, but rest assured that these days you should just use tables for what they are designed for — tabular data — and use CSS to control layout.
  
-In this article of the [http://www.w3.org/wiki/Web_Standards_Curriculum Web Standards Curriculum] we will cover how to use HTML tables properly.
+In this article we will cover how to use HTML tables properly.
 
 == The most basic table ==
  
