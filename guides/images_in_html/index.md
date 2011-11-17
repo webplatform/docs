@@ -137,6 +137,7 @@ The data file [http://dev.opera.com/articles/view/17-images-in-html/fruitconsump
 The two different data representations side by side look like that seen in Figure 3.
 
 [[Image:images-h.jpg|A document next to its longdesc output]] 
+
 Figure 3: You can link a document with complex data to an image by using the <code>longdesc</code> attribute.
  
 Note that there is no visual clue that there is a long description file connected with this image. Assistive technologies however will let their users know there is an alternative available. Some people think that <code>longdesc</code> is pointless, and that you should just provide an alternative linked via a normal link. This may be appropriate sometimes, as it is often useful to give all users a choice of how they consume your information. There are situations however where you'll want to not show the text link by default.
