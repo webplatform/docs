@@ -1,6 +1,6 @@
 == Introduction ==
  
-In this article of the [http://www.w3.org/wiki/Web_Standards_Curriculum Web Standards Curriculum] we will take you through the basics of using HTML to
+In this article we will take you through the basics of using HTML to
 markup the content within the body of your document.
  
 We will look at general structural elements such as headings and
@@ -9,7 +9,7 @@ at inline content, such as short quotes and emphasis, and finish with
 a quick examination of old-fashioned presentational content.
 
 '''Note''': You can [http://devfiles.myopera.com/articles/379/HTMLtext_examples.html view all the examples in this article running live].
- 
+
 == Space—the final frontier ==
  
 An important point to cover before I start discussing text, though,
