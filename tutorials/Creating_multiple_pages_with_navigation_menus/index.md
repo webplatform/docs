@@ -1,6 +1,6 @@
 == Introduction ==
  
-In this article of the [http://www.w3.org/wiki/Web_Standards_Curriculum Web Standards Curriculum] we’ll talk about web site navigation and menus. You’ll learn about different types of menus and how to create them in HTML. We’ll also touch on the subject of menu usability and accessibility. We won’t go into styling menus yet, but this article will lay the foundations. There are [http://dev.opera.com/articles/view/23-creating-multiple-pages-with-navigat/menu_examples.zip code examples to download] to go along with this article — we will refer to these throughout the tutorial.
+In this article we’ll talk about web site navigation and menus. You’ll learn about different types of menus and how to create them in HTML. We’ll also touch on the subject of menu usability and accessibility. We won’t go into styling menus yet, but this article will lay the foundations. There are [http://dev.opera.com/articles/view/23-creating-multiple-pages-with-navigat/menu_examples.zip code examples to download] to go along with this article — we will refer to these throughout the tutorial.
 
 == the HTML5 <code>&lt;nav&gt;</code> menu ==
 
