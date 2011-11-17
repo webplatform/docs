@@ -14,7 +14,7 @@ Note #2: Many of the links below currently point to the [http://dev.opera.com de
 
 === The beginning ===
 
-[[Introduction to the Web Standards Curriculum]]. [http://dev.opera.com/articles/view/1-introduction-to-the-web-standards-cur-he/ Hebrew translation] | [http://dev.opera.com/articles/view/1-bevezeto-a-webes-szabvanyokba/ Hungarian translation] | [http://dev.opera.com/articles/view/1-introduction-to-the-web-standards-cur-it/ Italian translation] | [http://dev.opera.com/articles/view/1-introduction-to-the-web-standards-cur-ja/ Japanese translation] | [http://mosaic.uoc.edu/ac/le/ca/ Catalan translation] | [http://mosaic.uoc.edu/ac/le/es/ Spanish translation]
+[[Introduction to the Web Standards Curriculum]] | [http://dev.opera.com/articles/view/1-introduction-to-the-web-standards-cur-he/ Hebrew translation] | [http://dev.opera.com/articles/view/1-bevezeto-a-webes-szabvanyokba/ Hungarian translation] | [http://dev.opera.com/articles/view/1-introduction-to-the-web-standards-cur-it/ Italian translation] | [http://dev.opera.com/articles/view/1-introduction-to-the-web-standards-cur-ja/ Japanese translation] | [http://mosaic.uoc.edu/ac/le/ca/ Catalan translation] | [http://mosaic.uoc.edu/ac/le/es/ Spanish translation]
 
 === Introduction to the world of web standards ===
 
