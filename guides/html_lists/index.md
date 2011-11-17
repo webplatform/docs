@@ -4,7 +4,7 @@ Lists are used to group related pieces of information together, so they are clea
  
 Lists are good from a structural point of view as they help create a well-structured, more accessible, easy-to-maintain document. They are also useful for a purely practical reason — they give you extra elements to attach CSS styles to, for a whole variety of styling (we'll get on to CSS later in the course - check out the [[Styling lists and links]] first, and then visit the [Web Standards Curriculum] table of contents for the full list of CSS articles available.).
  
-In this part of the [http://www.w3.org/wiki/Web_Standards_Curriculum Web Standards Curriculum], we will cover the different list types available in HTML, when and how you should use them, with a couple of practical examples at the end.
+In this part, we will cover the different list types available in HTML, when and how you should use them, with a couple of practical examples at the end.
 
 == The three list types ==
  
