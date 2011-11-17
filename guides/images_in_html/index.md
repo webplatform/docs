@@ -194,7 +194,7 @@ In HTML4, the most common thing to do to achieve this is put the image inside a 
 
 Another new addition to HTML5 is an element for containing figure captions. Previously this was done using <code>&lt;p&gt;</code>, or some other not wholly appropriate element, but now we have the <code>&lt;figcaption&gt;</code> element. Nested inside a <code>&lt;figure&gt;</code>, it says "this is the caption to go along with the contents of this figure." For example:
 
-&lt;html lang="en-GB"&gt;
+<pre>&lt;html lang="en-GB"&gt;
 
   ...
   
@@ -211,7 +211,7 @@ Another new addition to HTML5 is an element for containing figure captions. Prev
 Note that the contents of the figure caption do not necessarily act as a replacement for the contents of the <code>alt</code> attribute or the <code>title</code> attribute: it depends on whether the caption accurately describes everything in the image or not, or provides the same supplementary information that the <code>title</code> attribute does. In this case, we need an <code>alt</code> attribute as well, as sighted users can see what is in the image by looking at it. The <code>alt</code> attribute says exactly what the image contains for the benefit of people who can't see it, while the caption gives some more context.
 
 Note: this example can be found at [http://dev.opera.com/articles/view/17-images-in-html/figandfigcaption.html inlineimagewithdimensions.html]
- 
+
 == Background images with CSS ==
  
 It is pretty safe to say that web design became a lot more fun when browsers started supporting CSS. Instead of hacking around in the HTML using table cells for positioning items on the page, non-breaking-spaces (&amp;nbsp;) to preserve spacing, and spacer GIFs (transparent 1x1 pixel GIF images that were resized to create margins) we can now use padding, margin, dimensions and positioning in CSS and leave the HTML free to just worry about the content structure.
