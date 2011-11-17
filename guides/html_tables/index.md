@@ -1,13 +1,12 @@
-{{Flags}}
-{{Summary_Section|In this article we will cover how to use HTML tables correctly.}}
-{{Guide
-|Content=== Introduction ==
+== Introduction ==
  
 “Ack!” — how do you use web standards to organize reams of data? The very idea of tons of nested elements needed to get all the data into nice little rows and boxes ought to put your brain into “Ack!” mode, but there is a solution — tables to the rescue!
  
 In web design tables are a good way to organize data into a tabular form. In other words, think of tables, charts, and other information graphics that help you to see and process a great deal of information in a summary that allows you to compare and contrast different pieces of data. You see them all the time on websites, whether they are giving a summary or comparison of political election results, sports statistics, price comparisons, size charts, or other data.
  
 Back in the Jurassic Age of the Internet before CSS was popularised as a method of separating the presentation from structure of the HTML, tables were used as a way to lay out web pages — to create columns, boxes, and generally arrange the content. This is the wrong way to go about it; tables for layout resulted in bloated, messy pages with tons of nested tables — larger file sizes, hard to maintain, hard to modify after the fact. You’ll still see sites like this on the Web, but rest assured that these days you should just use tables for what they are designed for — tabular data — and use CSS to control layout.
+ 
+In this article of the [http://www.w3.org/wiki/Web_Standards_Curriculum Web Standards Curriculum] we will cover how to use HTML tables properly.
 
 == The most basic table ==
  
@@ -42,34 +41,34 @@ Let's start with the semantic HTML code required to render a basic table — thi
  
 This code renders roughly like so:
                          
-{{{!}} border="1"
-{{!}}-
-{{!}}Volcano Name
-{{!}}Location
-{{!}}Last Major Eruption
-{{!}}Type of Eruption
-{{!}}-
-{{!}}Mt. Lassen
-{{!}}California
-{{!}}1914-17
-{{!}}Explosive Eruption
-{{!}}-
-{{!}}Mt. Hood
-{{!}}Oregon
-{{!}}1790s
-{{!}}Pyroclastic flows and Mudflows
-{{!}}-
-{{!}}Mt .St. Helens
-{{!}}Washington
-{{!}}1980
-{{!}}Explosive Eruption
-{{!}}}
+{| border="1"
+|-
+|Volcano Name
+|Location
+|Last Major Eruption
+|Type of Eruption
+|-
+|Mt. Lassen
+|California
+|1914-17
+|Explosive Eruption
+|-
+|Mt. Hood
+|Oregon
+|1790s
+|Pyroclastic flows and Mudflows
+|-
+|Mt .St. Helens
+|Washington
+|1980
+|Explosive Eruption
+|} 
 
 Let’s start by breaking down the HTML markup used in the above code:
  
 * <code>&lt;table&gt;&lt;/table&gt;</code>:  The <code>&lt;table&gt;</code> wrapper element is necessary to indicate to the browser that you wish to arrange the content in a tabular fashion.
 * <code>&lt;tr&gt;&lt;/tr&gt;</code>:  The <code>&lt;tr&gt;</code> element establishes a table row. This allows the browser to organize any content between the <code>&lt;tr&gt;</code> and <code>&lt;/tr&gt;</code> tags in a horizontal fashion, or all in a row.
-* <code>&lt;td&gt;&lt;/td&gt;</code>: The <code>&lt;td&gt;</code> element defines the table cell or each individual space for content within the row. Only use as many <code>&lt;td&gt;</code> table cells as needed for actual data. Don’t use empty <code>&lt;td&gt;</code> cells for white space or padding — you use CSS to create any white space or padding needed, as this is not only a good way to separate presentation from structure; keeping the HTML clean and simple also makes the table easier to understand for people with visual impairments who are using screen readers to read the table contents out to them.
+* <code>&lt;td&gt;&lt;/td&gt;</code>: The <code>&lt;td&gt;</code> element defines the table cell or each individual space for content within the row. Only use as many <code>&lt;td&gt;</code> table cells as needed for actual data. Don’t use empty <code>&lt;td&gt;</code> cells for white space or padding — you use CSS to create any white space or padding needed, as this is not only a good way to separate presentation from structure; keeping the HTML clean and simple also makes the table easier to understand for people with visual impairments who are using screenreaders to read the table contents out to them.
  
 Note that the basic elements must be nested as follows:
  
@@ -79,7 +78,8 @@ Note that the basic elements must be nested as follows:
         &lt;td&gt;content&lt;/td&gt;
         &lt;td&gt;content&lt;/td&gt;
     &lt;/tr&gt;
-&lt;/table&gt;</pre>
+&lt;/table&gt;
+</pre>
  
 To order them in another fashion will cause the browser to spit up the equivalent of an internet hair ball and render the table in a very odd fashion, if at all.
 
@@ -117,30 +117,29 @@ Now the basic table is in place, we can add some slightly more complex table fea
  
 This code is rendered as:
                            
-{{{!}} border="1"
-{{!}}+Recent Major Volcanic Eruptions in the Pacific Northwest
-{{!}}-
+{| border="1"
+|+Recent Major Volcanic Eruptions in the Pacific Northwest
+|-
 !Volcano Name
 !Location
 !Last Major Eruption
 !Type of Eruption
-{{!}}-
-{{!}}Mt. Lassen
-{{!}}California
-{{!}}1914-17
-{{!}}Explosive Eruption
-{{!}}-
-{{!}}Mt. Hood
-{{!}}Oregon
-{{!}}1790s
-{{!}}Pyroclastic flows and Mudflows
-{{!}}-
-{{!}}Mt. St. Helens
-{{!}}Washington
-{{!}}1980
-{{!}}Explosive Eruption
-{{!}}}
-
+|-
+|Mt. Lassen
+|California
+|1914-17
+|Explosive Eruption
+|-
+|Mt. Hood
+|Oregon
+|1790s
+|Pyroclastic flows and Mudflows
+|-
+|Mt. St. Helens
+|Washington
+|1980
+|Explosive Eruption
+|} 
 The new elements used here are:
  
 * <code>&lt;caption&gt;&lt;/caption&gt;</code>: The <code>&lt;caption&gt;</code> element allows you to give the table data a caption. Most browsers will center the caption and render it the same width as the table by default.
@@ -188,31 +187,32 @@ As a final step in structuring our table, we will define header and body table s
 &lt;/table&gt;</pre>
  
 This table code looks like so in a browser:
-{{{!}} border="1"
-{{!}}+Recent Major Volcanic Eruptions in the Pacific Northwest
-{{!}}-
+                                
+{| border="1"
+|+Recent Major Volcanic Eruptions in the Pacific Northwest
+|-
 !Volcano Name
 !Location
 !Last Major Eruption
 !Type of Eruption
-{{!}}-
+|-
 !Mt. Lassen
-{{!}}California
-{{!}}1914-17
-{{!}}Explosive Eruption
-{{!}}-
+|California
+|1914-17
+|Explosive Eruption
+|-
 !Mt. Hood
-{{!}}Oregon
-{{!}}1790s
-{{!}}Pyroclastic flows and Mudflows
-{{!}}-
+|Oregon
+|1790s
+|Pyroclastic flows and Mudflows
+|-
 !Mt. St. Helens
-{{!}}Washington
-{{!}}1980
-{{!}}Explosive Eruption
-{{!}}}
-
-                                
+|Washington
+|1980
+|Explosive Eruption
+|-
+|colspan="4"|Compiled in 2008 by Ms Jen
+|} 
 
 The new elements/attributes are as follows:
  
@@ -280,12 +280,24 @@ In this article we have gone through all you need to know to create effective HT
  
 * It is important that tables are correctly coded to be readable by a variety web browsers, mobile, accessible, and other devices.  Table HTML is best kept to a minimum, and you should use CSS to style the tables. You’ll learn a lot more about CSS later on in the course.
 * Tables can be accessible to mobile devices and users that use screen reading software by keeping the code clean, using attributes such as <code>scope</code> and <code>summary</code> as well as the <code>&lt;caption&gt;</code> element to help announce clearly and semantically what the respective sections are for. Also important for accessibility is to not use empty table cells for spacing (use CSS for this instead).
-}}
-{{See_Also_Section}}
-{{Topics}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+ 
+== Further reading ==
+ 
+* [http://www.w3.org/TR/html401/struct/tables.html W3C HTML 4 Tables Recommendation]
+* [http://www.w3.org/TR/CSS21/tables.html W3C CSS 2 tables recommendation]
+* [http://www.456bereastreet.com/archive/200410/bring_on_the_tables/ Roger Johansson’s “Bring on the Tables”]
+
+== Exercise questions ==
+ 
+* Start by coding a simple table with only the 3 main table elements: <code>table</code>, <code>tr</code>, and <code>td</code>.  Save it and view it in a browser.
+* Much like the second example above, add a caption, header, and footer to your table.  How does that change what you see in the browser?
+* What can you do to make your table more accessible to screen readers and mobile devices?
+* Now create a CSS file.  Try styling the borders, padding, and cell spacing of your table with only CSS and no attributes in your HTML markup.  Add background colour and style the fonts.
+ 
+Have fun.
+
+Note: This material was originally published as part of the Opera Web Standards Curriculum, available as [http://dev.opera.com/articles/view/19-html-tables/ 19: HTML tables], written by Jenifer Hanen. Like the original, it is published under the [http://creativecommons.org/licenses/by-nc-sa/2.5/ Creative Commons Attribution, Non Commercial - Share Alike 2.5] license.
+
+[[Category:Tutorials]]
+[[Category:WSC]]
+[[Category:HTML]]
