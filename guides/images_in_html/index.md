@@ -137,10 +137,10 @@ The data file [http://dev.opera.com/articles/view/17-images-in-html/fruitconsump
 The two different data representations side by side look like that seen in Figure 3.
 
 [[Image:images-h.jpg|A document next to its longdesc output]] 
- Figure 3: You can link a document with complex data to an image by using the <code>longdesc</code> attribute.
+Figure 3: You can link a document with complex data to an image by using the <code>longdesc</code> attribute.
  
 Note that there is no visual clue that there is a long description file connected with this image. Assistive technologies however will let their users know there is an alternative available. Some people think that <code>longdesc</code> is pointless, and that you should just provide an alternative linked via a normal link. This may be appropriate sometimes, as it is often useful to give all users a choice of how they consume your information. There are situations however where you'll want to not show the text link by default.
- 
+
 === Faster image display by defining the dimensions using width and height ===
  
 When the user agent finds an <code>&lt;img&gt;</code> element in the HTML, it starts loading the image the <code>src</code> attribute points to. By default, it doesn’t know the image’s dimensions, so it’ll just display all the text lumped together, then shift the rest of the document around when the images finally load and appear. This can slow down page loading and looks a bit confusing and unsightly to page visitors that see it happening. To stop this you can tell the browser to allocate the right amount of space for the images before they load by giving it the image’s dimensions using the <code>width</code> and <code>height</code> attributes ([http://dev.opera.com/articles/view/17-images-in-html/inlineimagewithdimensions.html inlineimagewithdimensions.html]):
