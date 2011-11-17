@@ -11,7 +11,7 @@ with those capabilities in mind. While many designers feel comfortable
 designing a site for many users, those same designers might
 feel inadequate when it comes to choosing colours and graphics.
  
-In this part of the [http://www.w3.org/wiki/Web_Standards_Curriculum Web Standards Curriculum], I’ll cover colour basics and three simple
+In this article, I’ll cover colour basics and three simple
 colour schemes
 so that you can feel confident
 about choosing colours for your site. I’ll follow up this article with
