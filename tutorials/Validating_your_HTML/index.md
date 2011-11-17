@@ -9,7 +9,7 @@ Validation is the answer! There are many tools available, from the W3C and other
 * [http://validator.w3.org/checklink The W3C Link Checker]: This looks through a document you give it to check, and tests all the links inside that document to make sure they are not broken (ie the <code>&lt;href&gt;</code> values point to resources that don’t exist).
 * [http://jigsaw.w3.org/css-validator/ The W3C CSS Validator]: As you’ve probably guessed, this will go through a CSS (or HTML/CSS) document and check that the CSS follows the CSS specs properly.
  
-In this [http://www.w3.org/wiki/Web_Standards_Curriculum Web Standards Curriculum] article, we will cover how to use the first two of these, showing you how to validate markup, interpreting the typical kinds of results the validator gives you. The link checker is very obvious, and we'll cover debugging CSs later on in the course.
+In this article, we will cover how to use the first two of these, showing you how to validate markup, interpreting the typical kinds of results the validator gives you. The link checker is very obvious, and we'll cover debugging CSs later on in the course.
 
 == Errors ==
  
