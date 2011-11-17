@@ -84,7 +84,8 @@ Most browsers will display the value of an <code>&lt;img&gt;</code> element’s 
  
 If you load this code in your browser, you will see the display shown in Figure 2.
 
- [[Image:images-g.jpg|title attribute contents shown as a tool tip]] 
+[[Image:images-g.jpg|title attribute contents shown as a tool tip]]
+
 Figure 2: <code>title</code> attributes are shown as tool tips in a lot of browsers.
  
 === Using longdesc to provide an alternative for complex images ===
@@ -135,9 +136,8 @@ The data file [http://dev.opera.com/articles/view/17-images-in-html/fruitconsump
  
 The two different data representations side by side look like that seen in Figure 3.
 
- [[Image:images-h.jpg|A document next to its longdesc output]] 
- 
-Figure 3: You can link a document with complex data to an image by using the <code>longdesc</code> attribute.
+[[Image:images-h.jpg|A document next to its longdesc output]] 
+ Figure 3: You can link a document with complex data to an image by using the <code>longdesc</code> attribute.
  
 Note that there is no visual clue that there is a long description file connected with this image. Assistive technologies however will let their users know there is an alternative available. Some people think that <code>longdesc</code> is pointless, and that you should just provide an alternative linked via a normal link. This may be appropriate sometimes, as it is often useful to give all users a choice of how they consume your information. There are situations however where you'll want to not show the text link by default.
  
@@ -221,7 +221,7 @@ CSS also means you can use background images in a very versatile way — you can
  
 The CSS to apply images as backgrounds is pretty easy. Before you look at the CSS code below, load the [http://dev.opera.com/articles/view/17-images-in-html/imagesandcss.html imagesandcss.html] example file in your browser, or look at Figure 4 to get an idea of all the different things that are possible with background images in CSS.
 
- [[Image:images-f.gif|CSS background examples]] 
+[[Image:images-f.gif|CSS background examples]] 
 Figure 4: Backgrounds with CSS.
  
 The different boxes are actually styled <code>&lt;h2&gt;</code> heading elements with some padding and borders applied through CSS to give us enough space to show the background image. If you check out the HTML file, you’ll see that each <code>&lt;h2&gt;</code> element has a unique <code>&lt;id&gt;</code> so each one can have a different CSS rule applied to it. The CSS for the first example is the following:
