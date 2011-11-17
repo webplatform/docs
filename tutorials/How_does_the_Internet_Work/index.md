@@ -1,6 +1,6 @@
 == Introduction ==
  
-Every so often, you get offered a behind-the-scenes look at the cogs and fan belts behind the action. Today’s your lucky day. In this part of the [http://www.w3.org/wiki/Web_Standards_Curriculum Web Standards Curriculum] we'll usher you behind the scenes of one of the hottest technologies that you might already be familiar with: the World Wide Web. Cue theme music.
+Every so often, you get offered a behind-the-scenes look at the cogs and fan belts behind the action. Today’s your lucky day. In this article we'll usher you behind the scenes of one of the hottest technologies that you might already be familiar with: the World Wide Web. Cue theme music.
  
 This article covers the underlying technologies that power the World Wide Web:
  
