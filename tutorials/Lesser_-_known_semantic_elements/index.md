@@ -1,6 +1,6 @@
 == Introduction ==
  
-In this article of the [http://www.w3.org/wiki/Web_Standards_Curriculum Web Standards Curriculum] we will look at some of the more obscure
+In this article we will look at some of the more obscure
 and less well-known and used semantic elements in HTML. We’ll look
 at marking up programming code, interaction with computers,
 citations and abbreviations, showing changes made to documents and 
