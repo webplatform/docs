@@ -48,7 +48,7 @@ This is the HTML educational materials for beginners.
 * [http://www.w3.org/TR/html5 HTML5 Specification]
 * [[MathML/Elements|List of MathML Elements]]
 * [[SVG/Elements|List of SVG elements]]
-* [[Web Standards Curriculum]]
+* [[Main_Page|Web Standards Curriculum]]
 
 
 [[Category:Tutorials]]
