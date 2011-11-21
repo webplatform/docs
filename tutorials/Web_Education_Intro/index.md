@@ -10,19 +10,17 @@ Note: This material was originally published as part of the Opera Web Standards 
 
 Note #2: Many of the links below currently point to the [http://dev.opera.com dev.opera] versions, but we'll change these over to the W3C versions as we add more to the site. We are very happy to add these to the W3C pages, for a wider readership and more maintenance help.
 
-== Table of contents ==
-
-=== The beginning ===
+== The beginning ==
 
 [[Introduction to the Web Standards Curriculum]] | [http://dev.opera.com/articles/view/1-introduction-to-the-web-standards-cur-he/ Hebrew translation] | [http://dev.opera.com/articles/view/1-bevezeto-a-webes-szabvanyokba/ Hungarian translation] | [http://dev.opera.com/articles/view/1-introduction-to-the-web-standards-cur-it/ Italian translation] | [http://dev.opera.com/articles/view/1-introduction-to-the-web-standards-cur-ja/ Japanese translation] | [http://mosaic.uoc.edu/ac/le/ca/ Catalan translation] | [http://mosaic.uoc.edu/ac/le/es/ Spanish translation]
 
-=== Introduction to the world of web standards ===
+== Introduction to the world of web standards ==
 
 # [[The history of the Web|The history of the Internet and the web, and the evolution of web standards]]. [http://dev.opera.com/articles/view/2-the-history-of-the-internet-and-the-w-he/ Hebrew translation] | [http://dev.opera.com/articles/view/2-az-internet-es-a-web-tortenete/ Hungarian translation] | [http://dev.opera.com/articles/view/2-the-history-of-the-internet-and-the-w-it/ Italian translation] | [http://dev.opera.com/articles/view/2-the-history-of-the-internet-and-the-w-ja/ Japanese translation] | [http://mosaic.uoc.edu/ac/le/ca/m1/ud1/index.html Catalan translation] | [http://mosaic.uoc.edu/ac/le/es/m1/ud1/index.html Spanish translation]
 # [[How does the Internet work]]? [http://dev.opera.com/articles/view/3-hogyan-mukodik-az-internet/ Hungarian translation] | [http://dev.opera.com/articles/view/3-how-does-the-internet-work-ja/ Japanese translation]| [http://mosaic.uoc.edu/ac/le/ca/m1/ud2/index.html Catalan translation] | [http://mosaic.uoc.edu/ac/le/es/m1/ud2/index.html Spanish translation]
 # [[The web standards model - HTML CSS and JavaScript]]. [http://dev.opera.com/articles/view/4-a-webes-szabvanyok-modellje/ Hungarian translation] | [http://dev.opera.com/articles/view/4-the-web-standards-model-html-css-a-ja/ Japanese translation]| [http://mosaic.uoc.edu/ac/le/ca/m1/ud3/index.html Catalan translation] | [http://mosaic.uoc.edu/ac/le/ca/m1/ud3/index.html Catalan translation] | [http://mosaic.uoc.edu/ac/le/es/m1/ud3/index.html Spanish translation]
 
-=== Web Design Concepts ===
+== Web Design Concepts ==
 
 This section won't go into any code or markup details, and will act as an introduction to the design process before you start to create any graphics or code, as well as concepts of web design such as IA, navigation, usability etc.
 
@@ -33,14 +31,14 @@ This section won't go into any code or markup details, and will act as an introd
 # [[Colour schemes and design mockups]]. [http://dev.opera.com/articles/view/10-szinsemak-es-designtervek/ Hungarian translation] | [http://mosaic.uoc.edu/ac/le/ca/m2/ud5/index.html Catalan translation] | [http://mosaic.uoc.edu/ac/le/es/m2/ud5/index.html Spanish translation]
 # [[Typography on the Web]]. [http://dev.opera.com/articles/view/11-tipografia-a-weben/ Hungarian translation] | [http://mosaic.uoc.edu/ac/le/ca/m2/ud6/index.html Catalan translation] | [http://mosaic.uoc.edu/ac/le/es/m2/ud6/index.html Spanish translation]
 
-=== HTML beginnings ===
+== HTML beginnings ==
 
 # [[The basics of HTML]]. [http://dev.opera.com/articles/view/12-a-html-alapjai/ Hungarian translation] | [http://dev.opera.com/articles/view/12-the-basics-of-html-ja/ Japanese translation]
 # [[Doctypes and markup styles]]
 # [[The_HTML_head_element|The HTML &lt;head&gt; element]]. [http://dev.opera.com/articles/view/13-a-html-head-eleme/ Hungarian translation] | [http://dev.opera.com/articles/view/13-the-html-head-element-ja/ Japanese translation] | [http://mosaic.uoc.edu/ac/le/ca/m3/ud1/index.html Catalan translation] | [http://mosaic.uoc.edu/ac/le/es/m3/ud1/index.html Spanish translation]
 # [[More_about_the_document_head|More about the document &lt;head&gt;]]
 
-=== The HTML body ===
+== The HTML body ==
 
 # [[Marking up textual content in HTML]]. [http://dev.opera.com/articles/view/15-szoveges-reszek-megjelolese/ Hungarian translation] | [http://mosaic.uoc.edu/ac/le/ca/m4/ud1/index.html Catalan translation] | [http://mosaic.uoc.edu/ac/le/es/m4/ud1/index.html Spanish translation]
 # [[HTML lists|HTML Lists]]. [http://dev.opera.com/articles/view/16-html-listak/ Hungarian translation] | [http://mosaic.uoc.edu/ac/le/ca/m4/ud2/index.html Catalan translation] | [http://mosaic.uoc.edu/ac/le/es/m4/ud2/index.html Spanish translation]
@@ -54,12 +52,12 @@ This section won't go into any code or markup details, and will act as an introd
 # [[Creating multiple pages with navigation menus]]. [http://mosaic.uoc.edu/ac/le/ca/m4/ud9/index.html Catalan translation] | [http://mosaic.uoc.edu/ac/le/es/m4/ud9/index.html Spanish translation]
 # [[Validating your HTML]]. [http://mosaic.uoc.edu/ac/le/ca/m4/ud10/index.html Catalan translation] | [http://mosaic.uoc.edu/ac/le/es/m4/ud10/index.html Spanish translation]
 
-=== Accessibility ===
+== Accessibility ==
 
 # [[Accessibility basics]]. [http://mosaic.uoc.edu/ac/le/ca/m5/ud1/index.html Catalan translation] | [http://mosaic.uoc.edu/ac/le/es/m5/ud1/index.html Spanish translation]
 # [[Accessibility testing]]. [http://mosaic.uoc.edu/ac/le/ca/m5/ud2/index.html Catalan translation] | [http://mosaic.uoc.edu/ac/le/es/m5/ud2/index.html Spanish translation]
 
-=== CSS ===
+== CSS ==
 
 # [[CSS_basics|CSS basics]]. [http://mosaic.uoc.edu/ac/le/ca/m6/ud1/index.html Catalan translation] | [http://mosaic.uoc.edu/ac/le/es/m6/ud1/index.html Spanish translation]
 # [[Inheritance and cascade]]. [http://mosaic.uoc.edu/ac/le/ca/m6/ud2/index.html Catalan translation] | [http://mosaic.uoc.edu/ac/le/es/m6/ud2/index.html Spanish translation]
@@ -74,11 +72,11 @@ This section won't go into any code or markup details, and will act as an introd
 # [[CSS absolute and fixed positioning]]. [http://mosaic.uoc.edu/ac/le/ca/m6/ud11/index.html Catalan translation] | [http://mosaic.uoc.edu/ac/le/es/m6/ud11/index.html | Spanish translation]
 # [[Debugging CSS]]
 
-=== Advanced CSS study ===
+== Advanced CSS study ==
 
 # [[Headers_footers_columns_and_templates|Headers, footers, columns, and templates]]. [http://mosaic.uoc.edu/ac/le/ca/m7/ud1/index.html Catalan translation] | [http://mosaic.uoc.edu/ac/le/es/m7/ud1/index.html Spanish translation]
 
-=== JavaScript core skills ===
+== JavaScript core skills ==
 
 # [[Programming_-_the_real_basics|Programming - the real basics!]]
 # [[What can you do with JavaScript]]
@@ -94,17 +92,17 @@ This section won't go into any code or markup details, and will act as an introd
 # [[JavaScript animation]]
 # [[Graceful degredation versus progressive enhancement]]
 
-=== Mobile web development ===
+== Mobile web development ==
 
 # [[Introduction_to_mobile_web|Mobile 1: Introduction to mobile web]]
 
-=== Supplementary articles ===
+== Supplementary articles ==
 
 * [[Getting your content online]]
 * [[Common HTML entities used for typography]]
 * [[The web standards curriculum glossary]]
 
-=== Proposed Updates and Additions to Web Standards Curriculum ===
+== Proposed Updates and Additions to Web Standards Curriculum ==
 
 * [[WSC_proposed_updates|Web standards curriculum on W3C Wiki: plan for updates 2011]]
 
