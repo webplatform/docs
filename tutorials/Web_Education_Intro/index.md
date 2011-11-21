@@ -111,6 +111,10 @@ This section won't go into any code or markup details, and will act as an introd
 [[Category:Tutorials]]
 [[Category:WSC]]
 
+= References =
+
+[[HTML]]
+[[CSS]]
 
 = Project activities =
 
