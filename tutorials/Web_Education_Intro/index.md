@@ -113,8 +113,8 @@ This section won't go into any code or markup details, and will act as an introd
 
 = References =
 
-[[HTML]]
-[[CSS]]
+* [[HTML]]
+* [[CSS]]
 
 = Project activities =
 
