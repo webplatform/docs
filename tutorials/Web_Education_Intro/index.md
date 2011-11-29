@@ -118,7 +118,7 @@ This section won't go into any code or markup details, and will act as an introd
 
 This section houses a record of all activities being undertaken in past, present or future by the Web Education Community Group, split into projects.
 
-IMPORTANT: Please don't pollute this section with random stuff - if you just want to doodle or record random thoughts, put it in the below section.
+IMPORTANT: Please don't pollute these pages with random stuff - if you just want to doodle or record random thoughts, put it in the [[ Ideas playground ]].
 
 * [[Learning material]]
 * [[Curriculum]]
