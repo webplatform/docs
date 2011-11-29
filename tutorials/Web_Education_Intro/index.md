@@ -131,4 +131,4 @@ IMPORTANT: Please don't pollute these pages with random stuff - if you just want
 ** [[Spanish and Catalan international project]]
 * [[ Ideas Playground ]]
 
-[http://creativecommons.org/licenses/by-sa/3.0/ [[Image:88x31.png|Creative Commons License]]]<br /><span>W3C learning material</span> is licensed under a [http://creativecommons.org/licenses/by-sa/3.0/ Creative Commons Attribution-ShareAlike 3.0 Unported License].
+[http://creativecommons.org/licenses/by-sa/3.0/ [[Image:88x31.png|Creative Commons License|Center]]]<br /><span>W3C learning material</span> is licensed under a [http://creativecommons.org/licenses/by-sa/3.0/ Creative Commons Attribution-ShareAlike 3.0 Unported License].
