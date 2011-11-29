@@ -128,4 +128,5 @@ IMPORTANT: Please don't pollute this section with random stuff - if you just wan
 * International projects
 ** [[French international project]]
 ** [[Croatian international project]]
+** [[Spanish and Catalan international project]]
 * [[ Ideas Playground ]]
