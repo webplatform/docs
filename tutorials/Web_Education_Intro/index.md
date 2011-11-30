@@ -134,13 +134,3 @@ Other available resources are as follows:
 
 * [[ Ideas Playground ]]
 * [[ Web Education community group style guide ]]
-
-
-
-
-
-----
-
-<center>[http://creativecommons.org/licenses/by-sa/3.0/ [[Image:88x31.png|Creative Commons License]]]<br /><span>W3C learning material</span> is licensed under a [http://creativecommons.org/licenses/by-sa/3.0/ Creative Commons Attribution-ShareAlike 3.0 Unported License].</center>
-
-----
