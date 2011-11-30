@@ -129,7 +129,11 @@ IMPORTANT: Please don't pollute these pages with random stuff - if you just want
 ** [[French international project]]
 ** [[Croatian international project]]
 ** [[Spanish and Catalan international project]]
+
+Other available resources are as follows:
+
 * [[ Ideas Playground ]]
+* [[ Web Education community group style guide ]]
 
 
 
