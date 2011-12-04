@@ -133,5 +133,5 @@ IMPORTANT: Please don't pollute these pages with random stuff - if you just want
 
 Other available resources are as follows:
 
-* [[ Web Education Supplementary Toolkit ]]
+* [[ WEST | Web Education Supplementary Toolkit ]]
 * [[ Web Education community group style guide ]]
