@@ -158,7 +158,7 @@ border-color: black;</pre>
  
 === Comparing individual and shorthand values ===
  
-Consider the following margin rule (padding and border shorthand works in the same way):
+Consider the following margin rule:
  
 <pre>div.foo {
   margin-top: 1em;
@@ -170,7 +170,7 @@ Consider the following margin rule (padding and border shorthand works in the sa
 Such a rule could also be written as:
  
 <pre>div.foo {
-	margin: 1em 1.5em 2em 2.5em;
+  margin: 1em 1.5em 2em 2.5em;
 }</pre>
  
 These types of property can take less than four values too, as follows:
@@ -180,7 +180,7 @@ These types of property can take less than four values too, as follows:
 # First and third values applied to the top and bottom respectively, second value applied to the left and right — <code>margin: 2px 5px 1px;</code>.
  
 There are a number of properties that work like this, including <code>padding</code>, <code>margin</code> and <code>outline</code>. You'll find more out about these later on.
- 
+
 === Making the choice to use a single property or a shorthand value ===
  
 Shorthand <code>margin</code> and <code>padding</code> properties tend to get the greatest share of use, though there are situations in which the shorthand properties are best avoided, or at least considered carefully, such as in the following situations:
