@@ -72,6 +72,7 @@ This section won't go into any code or markup details, and will act as an introd
 # [[CSS static and relative positioning]]. [http://mosaic.uoc.edu/ac/le/ca/m6/ud10/index.html Catalan translation] | [http://mosaic.uoc.edu/ac/le/es/m6/ud10/index.html Spanish translation]
 # [[CSS absolute and fixed positioning]]. [http://mosaic.uoc.edu/ac/le/ca/m6/ud11/index.html Catalan translation] | [http://mosaic.uoc.edu/ac/le/es/m6/ud11/index.html | Spanish translation]
 # [[Debugging CSS]]
+# [[CSS shorthand reference]]
 
 == Advanced CSS study ==
 
