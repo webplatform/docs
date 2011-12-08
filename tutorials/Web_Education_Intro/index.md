@@ -118,8 +118,18 @@ This section won't go into any code or markup details, and will act as an introd
 
 = Curriculum structures =
 
+* [http://www.w3.org/community/webed/wiki/InterAct/Internet_Fundamentals Internet Fundamentals]
 * [http://www.w3.org/community/webed/wiki/Interact/Digital_Design_Production Digital Design Production]
 * [http://www.w3.org/community/webed/wiki/Interact/Findability Findability]
+* [http://www.w3.org/community/webed/wiki/Interact/Writing_for_the_Web Writing for the Web]
+
+* [http://www.w3.org/community/webed/wiki/Interact/Web_Design_1 Web Design 1]
+* [http://www.w3.org/community/webed/wiki/Interact/Web_Design_2 Web Design 2]
+* [http://www.w3.org/community/webed/wiki/Interact/Accessibility Accessibility]
+
+* [http://www.w3.org/community/webed/wiki/Interact/DOM_Scripting_1 DOM Scripting 1]
+
+* [http://www.w3.org/community/webed/wiki/Interact_Permissions Permissions list]
 
 = Project activities =
 
