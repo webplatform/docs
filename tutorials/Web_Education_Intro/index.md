@@ -128,8 +128,6 @@ This section won't go into any code or markup details, and will act as an introd
 * [http://www.w3.org/community/webed/wiki/Interact/Independent_Study Independent Study]
 * [http://www.w3.org/community/webed/wiki/Interact/Internship Internship]
 
-
-
 == Web design ==
 
 * [http://www.w3.org/community/webed/wiki/Interact/Web_Design_1 Web Design 1]
