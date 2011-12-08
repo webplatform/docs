@@ -120,7 +120,7 @@ This section won't go into any code or markup details, and will act as an introd
 
 == Basics and "soft" skills ==
 
-* [http://www.w3.org/community/webed/wiki/InterAct/Internet_Fundamentals Internet Fundamentals]
+* [http://www.w3.org/community/webed/wiki/Interact/Internet_Fundamentals Internet Fundamentals]
 * [http://www.w3.org/community/webed/wiki/Interact/Digital_Design_Production Digital Design Production]
 * [http://www.w3.org/community/webed/wiki/Interact/Writing_for_the_Web Writing for the Web]
 * [http://www.w3.org/community/webed/wiki/Interact/Project_Management Project Management]
