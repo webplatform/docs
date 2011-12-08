@@ -116,6 +116,10 @@ This section won't go into any code or markup details, and will act as an introd
 * [[HTML]]
 * [[CSS]]
 
+= Curriculum structures =
+
+* [[Digital Design Production]]
+
 = Project activities =
 
 This section houses a record of all activities being undertaken in past, present or future by the Web Education Community Group, split into projects.
