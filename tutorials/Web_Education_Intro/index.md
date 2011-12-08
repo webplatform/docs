@@ -118,7 +118,7 @@ This section won't go into any code or markup details, and will act as an introd
 
 = Curriculum structures =
 
-* [[http://www.w3.org/community/webed/wiki/Interact/Digital_Design_Production Digital Design Production]]
+* [http://www.w3.org/community/webed/wiki/Interact/Digital_Design_Production Digital Design Production]
 
 = Project activities =
 
