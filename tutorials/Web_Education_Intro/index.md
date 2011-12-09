@@ -118,6 +118,8 @@ This section won't go into any code or markup details, and will act as an introd
 
 = Curriculum structures =
 
+* [http://www.w3.org/community/webed/wiki/Interact_Curriculum Overview of InterACT curriculum articles]
+
 == Basics and "soft" skills ==
 
 * [http://www.w3.org/community/webed/wiki/Interact/Internet_Fundamentals Internet Fundamentals]
