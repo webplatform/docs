@@ -18,9 +18,9 @@ In most cases common sense will tell you which properties are inherited and whic
  
 === Why inheritance is useful ===
  
-So why does CSS have an inheritance mechanism? The easiest way to answer that is probably to consider what it’d be like if there was no such thing as inheritance. You would have to specify things like font family, font size and text colour individually — for every single element type.
+So why does CSS have an inheritance mechanism? The easiest way to answer that is probably to consider what it’d be like if there was no such thing as inheritance. You would have to specify things like font family, font size and text color individually — for every single element type.
  
-Using inheritance, you can for example specify the font properties for the <code>html</code> or <code>body</code> elements and they will be inherited by all other elements. You can specify background and text colours for a specific container element and the text colour will automatically be inherited by any child elements in that container. The background colour isn’t inherited, but the initial value for <code>background-color</code> is <code>transparent</code>, which means the parent’s background will shine through. The effect is similar to what you’d get if the background colour were inherited.
+Using inheritance, you can for example specify the font properties for the <code>html</code> or <code>body</code> elements and they will be inherited by all other elements. You can specify background and text colors for a specific container element and the text color will automatically be inherited by any child elements in that container. The background color isn’t inherited, but the initial value for <code>background-color</code> is <code>transparent</code>, which means the parent’s background will shine through. The effect is similar to what you’d get if the background color were inherited.
 
 Note: consider what would happen if background ''images'' were inherited? Every child would have the same background image as its parent and the result would look like a jigsaw puzzle put together by someone with a serious drug problem, since the background would be redrawn inside each subsequent child element.
  
@@ -93,7 +93,7 @@ And ''that'' is the value that is inherited by <code>&lt;body&gt;</code> and pas
   color: white;'''
 }</pre>
 
-# Save the CSS file and reload the document in your browser. Now the background of the whole document is bright blue, and all the text is white. The white text colour is inherited by the <code>&lt;body&gt;</code> element and passed on to all children of <code>body</code> — in this case the heading and the paragraph. The heading and paragraph don’t however inherit the background but instead will default to <code>transparent</code>, so the net visual result will be white text on a blue background.
+# Save the CSS file and reload the document in your browser. Now the background of the whole document is bright blue, and all the text is white. The white text color is inherited by the <code>&lt;body&gt;</code> element and passed on to all children of <code>body</code> — in this case the heading and the paragraph. The heading and paragraph don’t however inherit the background but instead will default to <code>transparent</code>, so the net visual result will be white text on a blue background.
 
 # Add another new rule to the style sheet:
 
@@ -144,9 +144,9 @@ To display this list of links as a horizontal menu, you could use the following 
   text-decoration: none;
 }</pre>
  
-Here the background colour of the whole list is set to blue in the rule for <code>#nav</code>. This also sets the foreground colour to white, and this is inherited by each list item and each link. The rule for the list items sets a right border, but doesn’t specify the border colour, which means it will use the inherited foreground colour, white. For the links we’ve used <code>color:inherit;</code> to force inheritance and override the browser's default link colour.
+Here the background color of the whole list is set to blue in the rule for <code>#nav</code>. This also sets the foreground color to white, and this is inherited by each list item and each link. The rule for the list items sets a right border, but doesn’t specify the border color, which means it will use the inherited foreground color, white. For the links we’ve used <code>color:inherit;</code> to force inheritance and override the browser's default link color.
 
-Of course I could just as well have specified the border colour as white and the link text colour as white, but the beauty of letting inheritance do the job is that you now have only one place to change the colours if you decide to update the colour scheme at a later date.
+Of course I could just as well have specified the border color as white and the link text color as white, but the beauty of letting inheritance do the job is that you now have only one place to change the colors if you decide to update the color scheme at a later date.
 
 == The cascade ==
  
@@ -174,7 +174,7 @@ The importance of a CSS declaration depends on ''where'' it is specified. The co
  
 A user agent style sheet is the built-in style sheet of the browser. Every browser has its default rules for how to display various HTML elements if no style is specified by the user or designer of the page. For instance, unvisited links are usually blue and underlined.
  
-A user style sheet is a style sheet that the ''user'' has specified. Not all browsers support user style sheets, but they can be very useful, especially for users with certain types of disabilities. For instance, a dyslexic person can have a user style sheet that specifies certain fonts and colours that help reading.
+A user style sheet is a style sheet that the ''user'' has specified. Not all browsers support user style sheets, but they can be very useful, especially for users with certain types of disabilities. For instance, a dyslexic person can have a user style sheet that specifies certain fonts and colors that help reading.
  
 Note: Opera allows you to specify user stylesheets by going to Tools (or the Opera menu on the Mac) &gt; Preferences… &gt; Advanced tab &gt; Content, clicking on the Style Options… button, then pointing to your user style sheet in the My style sheet text field inside the Display tab of this dialog box. You can also specify if you want the user style sheet to override the author (web designer’s) stylesheet in the Presentation tab, and even add a button into the user interface that allows you to switch between the user and author style sheet.
 
@@ -270,7 +270,7 @@ Let’s look at how this works in practice.
   '''&lt;p&gt;A second paragraph of text.&lt;/p&gt;'''
 &lt;/body&gt;</code> </pre>
 
-# Add a rule to your stylesheet to make the paragraph text have a different colour:
+# Add a rule to your stylesheet to make the paragraph text have a different color:
 
 <pre><code>p {
   color: cyan;
@@ -293,11 +293,11 @@ Let’s look at how this works in practice.
   color: yellow;
 }</pre>
 
-# Save both files and reload the document in your browser to see the now rather colourful result.
+# Save both files and reload the document in your browser to see the now rather colorful result.
  
 Let’s look at the declarations that apply to the two paragraphs.
  
-The first rule you added sets a text colour of cyan for ''all'' paragraphs. The second rule sets a red background colour and a yellow text colour for the single element that has the <code>id</code> of <code>special</code>. Your first paragraph matches both of those rules; it is a paragraph and it has an <code>id</code> of <code>special</code>.
+The first rule you added sets a text color of cyan for ''all'' paragraphs. The second rule sets a red background color and a yellow text color for the single element that has the <code>id</code> of <code>special</code>. Your first paragraph matches both of those rules; it is a paragraph and it has an <code>id</code> of <code>special</code>.
  
 The red background isn’t a problem, because it’s only specified for <code>#special</code>. Both rules contain a declaration of the <code>color</code> property, though, which means there is a conflict. Both rules have the same importance — they are normal declarations in the author style sheet — so you have to look at the specificity of the two selectors.
 
@@ -337,7 +337,7 @@ All else being equal, the source order makes the final distinction.
 == Exercise Questions ==
  
 * Is the <code>border</code>  property inherited? Think about it first—would it make sense?—then look up the correct answer in the [http://www.w3.org/TR/CSS21/ CSS specification].
-* If we add <code>!important</code> to the <code>color:black</code> declaration in the last rule in our [http://dev.opera.com/articles/view/28-inheritance-and-cascade/inheritance_cascade_code.zip example style sheet], will this have any effect on the text colour in the first, “special” paragraph?
+* If we add <code>!important</code> to the <code>color:black</code> declaration in the last rule in our [http://dev.opera.com/articles/view/28-inheritance-and-cascade/inheritance_cascade_code.zip example style sheet], will this have any effect on the text color in the first, “special” paragraph?
 * Which selector is more specific, “<code>#special</code>” or “<code>html&gt;head+body&gt;h1+p</code>”?
 * What should a user style sheet look like to make our test document display in black Comic Sans MS on a white background, regardless of the author style sheet?
 
