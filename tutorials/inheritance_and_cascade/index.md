@@ -2,8 +2,7 @@
  
 Inheritance and the cascade are two fundamental concepts in CSS, which everyone using the technology needs to understand. The two concepts are closely related, yet different:
 
-* Inheritance is associated with how the elements in the HTML markup inherit properties
-from their parent (containing) elements and pass them on to their children
+* Inheritance is associated with how the elements in the HTML markup inherit properties from their parent (containing) elements and pass them on to their children
 * The cascade has to do with the CSS declarations being applied to a document, and how conflicting rules do or don’t override each other.
  
 Here we will look closely at both concepts. [http://dev.opera.com/articles/view/28-inheritance-and-cascade/inheritance_cascade_code.zip Download the source code for the examples] in this article; the zip contains the finished CSS and HTML, as well as the initial HTML template for you to work with as you go through the examples.
