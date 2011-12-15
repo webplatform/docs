@@ -261,7 +261,7 @@ Note #2: There is a huge difference in specificity between an <code>id</code> se
  
 Let’s look at how this works in practice.
  
-# Start by adding another paragraph to your HTML document.
+First of all, start by adding another paragraph to your HTML document.
 
 <pre><code>&lt;body&gt;
   &lt;h1&gt;Heading&lt;/h1&gt;
@@ -269,15 +269,15 @@ Let’s look at how this works in practice.
   '''&lt;p&gt;A second paragraph of text.&lt;/p&gt;'''
 &lt;/body&gt;</code> </pre>
 
-# Add a rule to your stylesheet to make the paragraph text have a different color:
+Next, add a rule to your stylesheet to make the paragraph text have a different color:
 
 <pre><code>p {
   color: cyan;
 }</code> </pre>
 
-# Save both files and reload the document in your browser; there should now be two paragraphs with cyan text.
+Now save both files and reload the document in your browser; there should now be two paragraphs with cyan text.
 
-# Set an <code>id</code> on the first paragraph so you can target it easily with a CSS selector.
+Set an <code>id</code> on the first paragraph so you can target it easily with a CSS selector.
 
 <pre>&lt;body&gt;
   &lt;h1&gt;Heading&lt;/h1&gt;
@@ -285,14 +285,14 @@ Let’s look at how this works in practice.
   &lt;p&gt;A second paragraph of text.&lt;/p&gt;
 &lt;/body&gt;</pre>
 
-# Add a rule for the special paragraph in your style sheet:
+Carry on by adding a rule for the special paragraph in your style sheet:
 
 <pre>#special {
   background-color: red;
   color: yellow;
 }</pre>
 
-# Save both files and reload the document in your browser to see the now rather colorful result.
+Finally, save both files and reload the document in your browser to see the now rather colorful result.
  
 Let’s look at the declarations that apply to the two paragraphs.
  
@@ -301,7 +301,7 @@ The first rule you added sets a text color of cyan for ''all'' paragraphs. The s
 The red background isn’t a problem, because it’s only specified for <code>#special</code>. Both rules contain a declaration of the <code>color</code> property, though, which means there is a conflict. Both rules have the same importance — they are normal declarations in the author style sheet — so you have to look at the specificity of the two selectors.
 
 The selector of the first rule is <code>&lt;p&gt;</code>, which has a specificity of 0,0,0,1 according to the rules above since it contains a single element type. The selector of the second rule is <code>#special</code>, which has a specificity of 0,1,0,0 since it consists of an <code>id</code> selector. 0,1,0,0 is much more specific than 0,0,0,1 so the <code>color: yellow;</code> declaration wins and you get yellow text on a red background.
- 
+
 === Source order ===
  
 If two declarations affect the same element, have the same importance and the same specificity, the final distinguishing mark is the source order. The declaration that appears later in the style sheets will “win” over those that come before it.
