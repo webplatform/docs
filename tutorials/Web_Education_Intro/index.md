@@ -62,7 +62,7 @@ This section won't go into any code or markup details, and will act as an introd
 # [[CSS_basics|CSS basics]]. [http://mosaic.uoc.edu/ac/le/ca/m6/ud1/index.html Catalan translation] | [http://mosaic.uoc.edu/ac/le/es/m6/ud1/index.html Spanish translation]
 # [[Advanced CSS selectors]]
 # [[Inheritance and cascade]]. [http://mosaic.uoc.edu/ac/le/ca/m6/ud2/index.html Catalan translation] | [http://mosaic.uoc.edu/ac/le/es/m6/ud2/index.html Spanish translation]
-# [[Text styling with CSS]]. [http://mosaic.uoc.edu/ac/le/ca/m6/ud3/index.html Catalan translation] | [http://mosaic.uoc.edu/ac/le/es/m6/ud3/index.html Spanish translation]
+# [[CSS text styling part 1]]
 # [[The_CSS_layout_model_-_boxes_borders_margins_padding|The CSS layout model - boxes, borders, margins, padding]]. [http://mosaic.uoc.edu/ac/le/ca/m6/ud4/index.html Catalan translation] | [http://mosaic.uoc.edu/ac/le/es/m6/ud4/index.html Spanish translation]
 # [[CSS background images]]. [http://mosaic.uoc.edu/ac/le/ca/m6/ud5/index.html Catalan translation] | [http://mosaic.uoc.edu/ac/le/es/m6/ud5/index.html Spanish translation]
 # [[Styling_lists_and_links|Styling lists and links]]. [http://mosaic.uoc.edu/ac/le/ca/m6/ud6/index.html Catalan translation] | [http://mosaic.uoc.edu/ac/le/es/m6/ud6/index.html Spanish translation]
