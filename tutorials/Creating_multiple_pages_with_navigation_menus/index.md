@@ -109,7 +109,7 @@ One golden rule of web development and navigation is that the current document s
 
 In [[HTML links - lets build a web]], we stated that a link is an agreement and a liability: you offer visitors a way to reach more information that they need, but you need to be careful — you’ll lose credibility and trust if that link doesn’t give the users what they want, and/or results in unexpected behaviour. If you offer for example a link that points to the current document, activating it will reload the document. As a user this is something you don’t expect — what purpose did clicking this link have? This results in users getting confused.
  
-This is the reason why the current page should never be linked to from the menu. You could remove it altogether, or even better highlight it as well (eg by surrounding it with a <code>&lt;strong&gt;</code> element) — this gives users a visual clue and also tells blind visitors that this is extra important — this [http://dev.opera.com/articles/view/23-creating-multiple-pages-with-navigat/about.html current page highlight example] illustrates this.
+This is the reason why the current page should never be linked to from the menu. You could remove it altogether, or even better highlight it as well (eg. by surrounding it with a <code>&lt;strong&gt;</code> element) — this gives users a visual clue and also tells blind visitors that this is extra important — this [http://dev.opera.com/articles/view/23-creating-multiple-pages-with-navigat/about.html current page highlight example] illustrates this.
  
 ==== How many options should you give users at one time? ====
  
@@ -152,7 +152,7 @@ Pagination is different from other types of navigation because it does normally 
  
 Figure 2: Pagination menus allow visitors to go through large sets of data without losing track of where they are.
  
-The HTML is nothing ground-breaking — once again you offer a list of links with the current link (indicating which chunk of data is shown and how far down in your pagination you are) being highlighted (eg with a <code>&lt;strong&gt;</code> element) and not linked.
+The HTML is nothing ground-breaking — once again you offer a list of links with the current link (indicating which chunk of data is shown and how far down in your pagination you are) being highlighted (eg. with a <code>&lt;strong&gt;</code> element) and not linked.
  
 The main difference to site navigation is that there is a lot of programming logic going on with pagination. Depending on where you are in the whole data set you need to show or hide the previous, next, first and last links. If you have really massive amounts of information to navigate through you will also want to offer links to landmarks like 0-100 results, 101-200 results, etc. This is why you are not very likely to hard-code menus like these in HTML but instead create them on the server-side. This does not change the rules however — the current chunk should not link to itself and you shouldn’t offer links that lead nowhere.
  
