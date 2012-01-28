@@ -9,7 +9,7 @@ That’s usually the first question that gets asked about web standards. You can
 # '''Efficiency of code''':  The larger your files are, the longer they will take to download, and the more they will cost some people to view (some people still pay for downloads by the megabyte.) You therefore don’t want to waste your bandwidth on large pages cluttered up with styling and layout information in every HTML file. A much better alternative is to make the HTML files stripped down and neat, and include the styling and layout information just once in a separate CSS file. To see an actual case of this in action, check out [http://www.alistapart.com/articles/slashdot/ the A List Apart Slashdot rewrite article]  where the author took a very popular web site and re-wrote it in XHTML/CSS.
 # '''Ease of maintenance''':  Following on from the last point, if your styling and layout information is only specified in one place, it means you only have to make updates in one place if you want to change your site’s appearance. Would you prefer to update this information on every page of your site? I didn’t think so.
 # '''Accessibility''': Web users who are visually impaired can use a piece of software known as a “screen reader” to access the information through sound rather than sight — it literally reads the page out to them, and it can do a much better job of helping people to find their way around your web page if it has a proper semantic structure, such as headings and paragraphs. In addition keyboard controls on web pages (important for those with mobility impairments that can't use a mouse) work much better if they are built using best practices. As a final example,  screen readers can’t access text locked away in images, and find some uses of JavaScript confusing.  Make sure that your critical content is available to everyone.
-# '''Device compatibility''':  Because your HTML/XHTML page is just plain markup, with no style information, it can be reformatted for different devices with vastly differing attributes (eg screen size) by simply applying an alternative style sheet — you can do this in a few different ways (look at the [[http://dev.opera.com/articles/mobile/ mobile articles on dev.opera.com]] for resources on this).  CSS also natively allows you to specify different style sheets for different presentation methods/media types (eg viewing on the screen, printing out, viewing on a mobile device.)
+# '''Device compatibility''':  Because your HTML/XHTML page is just plain markup, with no style information, it can be reformatted for different devices with vastly differing attributes (eg. screen size) by simply applying an alternative style sheet — you can do this in a few different ways (look at the [[http://dev.opera.com/articles/mobile/ mobile articles on dev.opera.com]] for resources on this).  CSS also natively allows you to specify different style sheets for different presentation methods/media types (eg. viewing on the screen, printing out, viewing on a mobile device.)
 # '''Web crawlers/search engines''':  Chances are you will want your pages to be easy to find by searching on Google, or other search engines.  A search engine uses a “crawler”, which is a specialized piece of software, to read through your pages.  If that crawler has trouble finding the content of your pages, or mis-interprets what’s important because you haven’t defined headings as headings and so on, then your rankings in relevant search results will probably suffer.
 # '''It’s just good practice''':  This is a bit of a “because I said so” reason, but talk to any professional standards-aware web developer or designer, and they’ll tell you that separating content, style, and behaviour is the best way to develop a web application.
  
@@ -36,17 +36,17 @@ Table 1 shows the main syntax differences between HTML and XHTML.
 !HTML 
 !XHTML
 |-
-| Elements and attributes are case insensitive, eg <code>&lt;h1&gt;</code> is the same thing as <code>&lt;H1&gt;</code>.
+| Elements and attributes are case insensitive, eg. <code>&lt;h1&gt;</code> is the same thing as <code>&lt;H1&gt;</code>.
 | Elements and attributes are case sensitive; they are all lowercase. 
 |-
-| Certain elements don’t need a closing tag (eg paragraphs, <code>&lt;p&gt;</code>), while others (called “empty elements”) shouldn't have a closing tag (eg images, <code>&lt;img&gt;</code>).
-| All elements must be explicitly closed (eg <code>&lt;p&gt;A paragraph&lt;/p&gt;</code>). Elements without content should be closed using a slash in the start tag (eg <code>&lt;hr&gt;&lt;/hr&gt;</code> and <code>&lt;hr/&gt;</code> mean the same thing).
+| Certain elements don’t need a closing tag (eg. paragraphs, <code>&lt;p&gt;</code>), while others (called “empty elements”) shouldn't have a closing tag (eg. images, <code>&lt;img&gt;</code>).
+| All elements must be explicitly closed (eg. <code>&lt;p&gt;A paragraph&lt;/p&gt;</code>). Elements without content should be closed using a slash in the start tag (eg. <code>&lt;hr&gt;&lt;/hr&gt;</code> and <code>&lt;hr/&gt;</code> mean the same thing).
 |-
 | Attribute values may be written without being enclosed in quotes.
 | Attribute values must be enclosed by quotes.
 |-
 | Shorthand can be used for certain attributes (ie <code>&lt;input required&gt;</code>).
-| The full attribute form must be used for all attributes (eg <code>&lt;input required="required"&gt;</code>).
+| The full attribute form must be used for all attributes (eg. <code>&lt;input required="required"&gt;</code>).
 |-
 |} 
 
@@ -222,7 +222,7 @@ Something you should bear in mind when learning web standards is that what we ar
 
 If you talked to many of those who do things using the old methods about updating their skill set, they would probably say "why bother - my way works, and I don't have time to learn new skills, so I'm just sticking to what I know." You can understand this argument, but if they could just take the time to update their skills, I'm sure they would find creating cross browser web sites and maintaining their code a lot easier. They would also get better accessibility and SEO thrown into the bargain. For now, I'd advise those of you learning to do things right from the start with courses like this to carry on doing what you are doing! Also, if you get the chance to pass on some of these modern best practices to others, then you will be doing the Web a favour.
 
-And in terms of web browser support, all modern browsers now support HTML, CSS and JavaScript really well. The problem lies in legacy support for old versions of Internet Explorer - IE 6, 7 and 8 still have significant usage figures, so you may still be called upon to support these in web projects. You can work around lack of support for various features, and sometimes lack of support will mean a lesser (eg, it may not look as nice) experience that still works ok, rather than the site not working at all. This may still be fine, depending on your particular situation.
+And in terms of web browser support, all modern browsers now support HTML, CSS and JavaScript really well. The problem lies in legacy support for old versions of Internet Explorer - IE 6, 7 and 8 still have significant usage figures, so you may still be called upon to support these in web projects. You can work around lack of support for various features, and sometimes lack of support will mean a lesser (eg. it may not look as nice) experience that still works ok, rather than the site not working at all. This may still be fine, depending on your particular situation.
 
 We'll include more details on what to do with older browser support in subsequent chapters.
 
