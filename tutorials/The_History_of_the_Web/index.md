@@ -74,7 +74,7 @@ The early method of spreading the call to action was to use a traditional advert
  
 Another technique the WaSP used was to ridicule the companies involved with the W3C (and other standards bodies) that focused more on creating new, often self-serving, features rather than working to get the basic existing standards supported correctly in their products to start with (this includes some browser companies that shall remain nameless here). This doesn't mean that the WaSP ridiculed the W3C themselves, rather they ridiculed the companies that became W3C members and then misbehaved.
  
-The W3C has a few full time staff, but most of the people who work on the standards are volunteers from member companies, eg Microsoft, Opera, Mozilla, Apple, Google, IBM and Adobe, to name a few of the bigger ones.
+The W3C has a few full time staff, but most of the people who work on the standards are volunteers from member companies, eg. Microsoft, Opera, Mozilla, Apple, Google, IBM and Adobe, to name a few of the bigger ones.
  
 This all sounds a bit negative, but the WaSP didn’t just sit there criticising people — they also helped. Seven members formed the CSS Samurai, who identified the top ten problems with the CSS support in Opera and other browsers (Opera fixed their problems, others did not).
 
@@ -94,7 +94,7 @@ That was a little optimistic — not all sites, even in 2008, are built with web
  
 Also in 2003, Dave Shea launched a site called the [http://www.csszengarden.com/ CSS Zen Garden]. This was to have more impact on web professionals than anything else, by truly illustrating that the entire design can change just by changing the style of the page; the content could remain identical.
  
-Since then, web standards usage have become de rigeur in the professional web development community. And in this series, we will give you an excellent grounding in these techniques so that you can develop clean, semantic, accessible and standards-compliant websites!
+Since then, web standards usage have become &quot;de rigeur&quot; in the professional web development community. And in this series, we will give you an excellent grounding in these techniques so that you can develop clean, semantic, accessible and standards-compliant websites!
 
 == The new breed of web standards ==
  
@@ -102,7 +102,7 @@ After 2003, web standards didn't just sit still. New practices started to really
  
 When HTML 4 was nearing completion, the W3C decided (in a [http://www.w3.org/MarkUp/future/ workshop run in 1998]) that in terms of markup languages, the future of the Web was XML and XHTML, not HTML ([http://www.w3.org/wiki/The_web_standards_model_-_HTML_CSS_and_JavaScript#What_is_XHTML.3F comparison of XHTML and HTML]). So the W3C drew a line under HTML 4.01 and instead concentrated on the [http://www.w3.org/TR/xhtml1/ XHTML 1.0] spec, finished in early 2000. XHTML 1.0 is just the same as HTML 4.01, except that it uses the stricter markup syntax rules of XML (more on this later). [http://www.w3.org/TR/xhtml2/ XHTML 2.0] soon followed, which added a whole bunch of new powerful features, and aimed to be the next big thing on the Web.
 
-The trouble with XHTML 2.0 is that it wasn't backwards compatible with the markup already on the Web — the elements worked differently, XHTML did not work properly in Internet Explorer, which still has the majority browser marketshare as of the time of writing, the developer tools available weren't ready for working with XML, and it didn't reflect what web developers were REALLY doing out there in the wild wild web.
+The trouble with XHTML 2.0 is that it wasn't backwards compatible with the markup already on the Web — the elements worked differently, XHTML did not work properly in Internet Explorer, which still has the majority browser market share as of the time of writing, the developer tools available weren't ready for working with XML, and it didn't reflect what web developers were REALLY doing out there in the wild wild web.
  
 In 2004, a group of like minded developers and implementers (including representatives from Opera, Mozilla and slightly later, Apple) got together and formed a breakaway spec group called the [http://www.whatwg.org/ WHATWG], with the aim of writing a better HTML markup spec that could handle authoring the new breed of web applications, without — crucially — breaking backwards compatibility.
  
