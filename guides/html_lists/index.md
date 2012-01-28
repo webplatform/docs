@@ -110,7 +110,7 @@ It is possible to get an ordered list to start with a number other than 1 (or i,
   &lt;li&gt;Place ingredients in a baking dish&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p class="note"&gt;Before you place the ingredients in the baking dish, preheat the oven to 180 degrees centigrade/350 degrees farenheit in readiness for the next step&lt;/p&gt;
+&lt;p class="note"&gt;Before you place the ingredients in the baking dish, preheat the oven to 180 degrees centigrade/350 degrees fahrenheit in readiness for the next step&lt;/p&gt;
 
 &lt;ol start="4"&gt;
   &lt;li&gt;Bake in oven for an hour&lt;/li&gt;
@@ -128,7 +128,7 @@ This gives the following result:
   <li>Place ingredients in a baking dish</li>
 </ol>
 
-<p class="note">Before you place the ingredients in the baking dish, preheat the oven to 180 degrees centigrade/350 degrees farenheit in readiness for the next step</p>
+<p class="note">Before you place the ingredients in the baking dish, preheat the oven to 180 degrees centigrade/350 degrees fahrenheit in readiness for the next step</p>
 
 <ol start="4">
   <li>Bake in oven for an hour</li>
