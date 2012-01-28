@@ -4,12 +4,12 @@ So you’ve written a few HTML pages, and they seem to display ok to you, but th
 
 Validation is the answer! There are many tools available, from the W3C and other places, that allow you to validate the code on your sites. The most common three validators you’ll use are:
 
-* [http://html5.validator.nu/ Validator.nu]: A new-school validator that validates HTML5, ARIA, SVG 1.1 and MathML 2.0: it goes through the entire document pointing out places where your markup doesn’t follow that doctype correctly (ie where there are errors). This is the one we recommend if you are using the HTML5 doctype, like we do throughout most of this course.
+* [http://html5.validator.nu/ Validator.nu]: A new-school validator that validates HTML5, ARIA, SVG 1.1 and MathML 2.0: it goes through the entire document pointing out places where your markup doesn’t follow that doctype correctly (ie. where there are errors). This is the one we recommend if you are using the HTML5 doctype, like we do throughout most of this course.
 * [http://validator.w3.org/ The W3C MarkUp Validator]: This looks at the (X)HTML doctype you are using for the document you give it to check, and then checks your markup accordingly. This is the one we recommend if you are using an HTML4 or XHTML1.x doctype. It does validate HTML5, but validator.nu is arguably more up to date.
-* [http://validator.w3.org/checklink The W3C Link Checker]: This looks through a document you give it to check, and tests all the links inside that document to make sure they are not broken (ie the <code>&lt;href&gt;</code> values point to resources that don’t exist).
+* [http://validator.w3.org/checklink The W3C Link Checker]: This looks through a document you give it to check, and tests all the links inside that document to make sure they are not broken (ie. the <code>&lt;href&gt;</code> values point to resources that don’t exist).
 * [http://jigsaw.w3.org/css-validator/ The W3C CSS Validator]: As you’ve probably guessed, this will go through a CSS (or HTML/CSS) document and check that the CSS follows the CSS specs properly.
  
-In this article, we will cover how to use the first two of these, showing you how to validate markup, interpreting the typical kinds of results the validator gives you. The link checker is very obvious, and we'll cover debugging CSs later on in the course.
+In this article, we will cover how to use the first two of these, showing you how to validate markup, interpreting the typical kinds of results the validator gives you. The link checker is very obvious, and we'll cover debugging CSS later on in the course.
 
 == Errors ==
  
@@ -40,14 +40,14 @@ There is some wisdom in this attitude. The HTML4 specification is not perfect, a
 
 There are two very powerful reasons to validate your HTML as you author it:
  
-* You are not always perfect, and neither is your code — we all make mistakes, and your web pages will be higher quality (ie, work more consistently) if you weed out all the mistakes.
+* You are not always perfect, and neither is your code — we all make mistakes, and your web pages will be higher quality (ie. work more consistently) if you weed out all the mistakes.
 * Browsers change. In the future, it is likely that browsers will be less forgiving when parsing invalid code, not more forgiving.
  
 Validation is your early-warning system about introducing bugs into your markup that can manifest in interesting and hard-to-determine ways. When a browser encounters invalid HTML, it has to take an educated guess as to what you meant to do—and different browsers can come up with different answers.
 
 == Different browsers interpret invalid HTML differently ==
  
-Valid HTML is the only contract you have with the browser manufacturers. The HTML specification says how you should write it, and how they should interpret your document. In recent times, standards compliance of browsers has reached the point where, as long as you write valid code, all the major browsers should interpet your code the same. This is almost always the case for HTML anyway, with other standards having a few more differences in support here and there.
+Valid HTML is the only contract you have with the browser manufacturers. The HTML specification says how you should write it, and how they should interpret your document. In recent times, standards compliance of browsers has reached the point where, as long as you write valid code, all the major browsers should interpret your code the same. This is almost always the case for HTML anyway, with other standards having a few more differences in support here and there.
 
 But what if you pass a browser invalid code? What happens then? The answer is that the browser error handling comes into play to work out what to do with the code. It basically says “ok, this code doesn’t validate, so how do we present this page to the end user? Let's fill in the gaps like this!”
 
