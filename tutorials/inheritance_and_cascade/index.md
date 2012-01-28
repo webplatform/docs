@@ -13,7 +13,7 @@ Inheritance is the mechanism by which certain properties are passed on from a pa
  
 Not all CSS properties are inherited, because it doesn’t make sense for some of them to be. For instance, margins and width are not inherited, since it’s unlikely that a child element should need the same margins as its parent. Imagine if you set the content block of a site to be 70% of the browser window width, and then had all of it's children adopting a width of 70% of their parents? Doing page layouts with CSS would be a nightmare.
 
-In most cases common sense will tell you which properties are inherited and which aren’t: if you are not sure you can look up all of the properties present in CSS 2 in the [http://www.w3.org/TR/CSS21/propidx.html CSS 2.1 specification property summary table]. For CSS3 properties, you'll have to consult the individual CSS3 module specifications, available in the [http://www.w3.org/Style/CSS/current-work CSS current work page].
+In most cases common sense will tell you which properties are inherited and which aren’t: if you are not sure you can look up all of the properties present in CSS2 in the [http://www.w3.org/TR/CSS21/propidx.html CSS 2.1 specification property summary table]. For CSS3 properties, you'll have to consult the individual CSS3 module specifications, available in the [http://www.w3.org/Style/CSS/current-work CSS current work page].
  
 === Why inheritance is useful ===
  
