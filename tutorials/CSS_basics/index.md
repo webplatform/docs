@@ -34,7 +34,7 @@ Without further ado, let’s have a look at a CSS code example, and then dissect
  
 The pertinent parts are as follows:
 
-* The selector identifies the HTML elements that the rule will be applied to, using actual element names, eg <code>&lt;body&gt;</code>, or another identifier such as <code>class</code> attribute values. We’ll look at the different types of selectors available later on.
+* The selector identifies the HTML elements that the rule will be applied to, using actual element names, eg. <code>&lt;body&gt;</code>, or another identifier such as <code>class</code> attribute values. We’ll look at the different types of selectors available later on.
 * The curly braces contain the property/value pairs, which are separated from each other by semi-colons; the properties are separated from their respective values by colons.
 * The properties define what you want to do to the element(s) you have selected. These come in wide varieties, which can affect text colour, background colour, position on the page, font type, border colour and thickness and many other things.
 * The values are the values that you want to set for each property of the selected elements. The values are dependent on the property, for example properties that affect colour can take hexadecimal colours like #336699, RGB values like rgb(12,134,22) or colour names like red, green or blue. Properties that affect position, margins, width, height etc. can be measured in pixels, ems, percentages, centimeters or other such units.
