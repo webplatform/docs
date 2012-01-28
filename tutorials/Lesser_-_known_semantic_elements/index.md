@@ -186,7 +186,7 @@ prose. So, let's look at an example of using <code>&lt;dfn&gt;</code>:
 the language used to describe the contents of web documents.&lt;/p&gt;
 </pre>
  
-The term HTML appears, and is followed immediately by a definition of what it is, therefore this is an ideal place for the <code>&lt;dfn&gt;</code> eement to be used. You should only really use it once on a page, where a term is first defined, but terms should only really be defined once on a page anyway, so this is not too troubling.
+The term HTML appears, and is followed immediately by a definition of what it is, therefore this is an ideal place for the <code>&lt;dfn&gt;</code> element to be used. You should only really use it once on a page, where a term is first defined, but terms should only really be defined once on a page anyway, so this is not too troubling.
  
 This is all well and good, but an isolated example is not very practical - the use of <code>&lt;dfn&gt;</code> is recommended when an abbreviation is used more than
 once on a page. For example, in the article [[The basics of HTML]] earlier in
