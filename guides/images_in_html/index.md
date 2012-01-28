@@ -90,7 +90,7 @@ Figure 2: <code>title</code> attributes are shown as tool tips in a lot of brows
  
 === Using longdesc to provide an alternative for complex images ===
  
-If the image is a very complex image, like for example a chart, you can offer a more lengthy description of it using the <code>longdesc</code> attribute, so that people using screenreaders or browsing with images turned off can still access the information conveyed by the image.
+If the image is a very complex image, like for example a chart, you can offer a more lengthy description of it using the <code>longdesc</code> attribute, so that people using screen readers or browsing with images turned off can still access the information conveyed by the image.
 
 This attribute contains a URL that points to a document containing the same information. For example, if you have a chart showing a set of data, you can link it to a data table with the same information using <code>&lt;longdesc&gt;</code> ([http://dev.opera.com/articles/view/17-images-in-html/inlineimagelongdesc.html inlineimagelongdesc.html]):
  
