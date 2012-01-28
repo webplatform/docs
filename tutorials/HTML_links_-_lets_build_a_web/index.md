@@ -198,7 +198,7 @@ One of the biggest success factors of a web product is not keeping people guessi
   &lt;/body&gt;
 &lt;/html&gt;</pre>
  
-By providing such information about linked files and their nature you leave the decision of what to do with them to your visitors rather than expecting them to have certain browser settings or installed software. If you mix that with clever styling you can even make such links look pretty and intuitive (for example, by giving different types of link different easily-recognisable icons - find more out about this in [[Styling lists and links]]). If you want to be very safe, also offer a help section that explains what the different file formats are and where you could get the software needed to display them.
+By providing such information about linked files and their nature you leave the decision of what to do with them to your visitors rather than expecting them to have certain browser settings or installed software. If you mix that with clever styling you can even make such links look pretty and intuitive (for example, by giving different types of link different easily recognisable icons - find more out about this in [[Styling lists and links]]). If you want to be very safe, also offer a help section that explains what the different file formats are and where you could get the software needed to display them.
 
 === External vs. internal links ===
  
@@ -290,7 +290,7 @@ HTML5 removes this restriction, allowing you to put a link round any amount of c
 &lt;/body&gt;
 &lt;/html&gt;</pre>
 
-Here you can see that I've got the <code>&lt;a&gt;</code> element wrapping both a heading and a paragraph. To make this work correcly I've set it to <code>display: block;</code> in the CSS. If you [[http://devfiles.myopera.com/articles/373/blocklevellink.html try the example out yourself]], you'll see that the entire block is part of the clickable link area. I have added a colour changing hover effect to make this more visible.
+Here you can see that I've got the <code>&lt;a&gt;</code> element wrapping both a heading and a paragraph. To make this work correctly I've set it to <code>display: block;</code> in the CSS. If you [[http://devfiles.myopera.com/articles/373/blocklevellink.html try the example out yourself]], you'll see that the entire block is part of the clickable link area. I have added a colour changing hover effect to make this more visible.
 
 == Summary ==
  
