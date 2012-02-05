@@ -8,7 +8,7 @@ The <code>body</code> (the <code>&lt;body&gt;&lt;/body&gt;</code> tags and every
 
 == Setting the document’s primary language ==
  
-One piece of information about the document goes on the parent of the <code>head</code>, the <code>html</code> element. It is here that we define the primary natural language of the document. By natural language, we mean ''human'' language, such as French, Thai or even English. This helps screenreaders, because for example the word "six" is pronounced very differently in French and English. It's a good idea to define the primary language of a document, especially when you are writing pages for an international audience; you don't tend to see that many pages that use it, however. You set it as follows:
+One piece of information about the document goes on the parent of the <code>head</code>, the <code>html</code> element. It is here that we define the primary natural language of the document. By natural language, we mean ''human'' language, such as French, Thai or even English. This helps screen readers, because for example the word "six" is pronounced very differently in French and English. It's a good idea to define the primary language of a document, especially when you are writing pages for an international audience; you don't tend to see that many pages that use it, however. You set it as follows:
  
 <pre>&lt;html lang="en-GB"&gt;
   ...
