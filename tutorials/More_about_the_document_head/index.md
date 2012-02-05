@@ -171,7 +171,7 @@ Translations are a great candidate for document interlinking. It might for examp
  
 As a recap, the <code>hreflang</code> attribute on links and anchors defines the human language of the linked document and the <code>lang</code> attribute defines the language of the text inside the element that has this attribute. This is very important for accessibility as text-to-speech software needs to switch the pronounciation voice from language to language.
 
-Different languages have obviously been around since the Internet first existed (and thousands of years before that), but there is another type of alternative web page that you’ll see a lot as you trawl the web—feeds (eg RSS feeds). These are very popular, especially for documents that change constantly, such as news sites. We’ll look at these next.
+Different languages have obviously been around since the Internet first existed (and thousands of years before that), but there is another type of alternative web page that you’ll see a lot as you trawl the web—feeds (eg. RSS feeds). These are very popular, especially for documents that change constantly, such as news sites. We’ll look at these next.
 
 === Feeds ===
  
