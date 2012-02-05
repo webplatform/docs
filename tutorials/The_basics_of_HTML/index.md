@@ -20,7 +20,7 @@ between versions.
 [[HTML]] (“HyperText Markup Language”) is a language to describe the 
 contents of web documents. It uses a special syntax containing
 markers (called “elements”) which are wrapped around the text within
-the document to indicate how user agents (eg web browsers) should interpret that
+the document to indicate how user agents (eg. web browsers) should interpret that
 portion of the document.
  
 A user agent is any software that is used to access web
