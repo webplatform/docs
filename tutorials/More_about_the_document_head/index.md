@@ -175,7 +175,7 @@ Different languages have obviously been around since the Internet first existed 
 
 === Feeds ===
  
-A feed is a document containing condensed information detailing the new additions to your site in chronological order. Users can subscribe to it and get to know what has changed on your site recently without having to visit it. They do this by using tools like feed readers, eg [http://reader.google.com/ Google Reader], [http://www.netvibes.com/ Netvibes] or [http://www.bloglines.com/ Bloglines]. Some modern browsers (such as Opera and Firefox) and e-mail clients (such as Mac Mail, or Outlook on Windows) can also process and display feeds. You can recognize that a web site offers a feed by the RSS icon next to the location as shown in Figure 2:
+A feed is a document containing condensed information detailing the new additions to your site in chronological order. Users can subscribe to it and get to know what has changed on your site recently without having to visit it. They do this by using tools like feed readers, eg. [http://reader.google.com/ Google Reader], [http://www.netvibes.com/ Netvibes] or [http://www.bloglines.com/ Bloglines]. Some modern browsers (such as Opera and Firefox) and e-mail clients (such as Mac Mail, or Outlook on Windows) can also process and display feeds. You can recognize that a web site offers a feed by the RSS icon next to the location as shown in Figure 2:
  
 [[Image:morehead.gif|Screenshot of the Opera browser showing a RSS icon in the navigation bar]]
  
