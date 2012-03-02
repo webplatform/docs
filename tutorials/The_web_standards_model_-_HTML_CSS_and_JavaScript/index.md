@@ -204,7 +204,7 @@ I went a little overboard with styling up this page, adding some neat background
  
 Line 1 sets some defaults for the document such as text and background color, width of border to add around the text, etc. Some people won’t bother to explicitly state defaults like these, and most modern browsers will apply their own defaults, but it is a good idea, as it allows you more control over how your web site will look across different browsers.
  
-On the next line I’ve set the page to be 800 pixels wide (although I could have specified a percentage here to have the page expand/contract based on the size of the browser window. The margin setting I’ve used here will ensure that the page content stays centered in the window.
+On the next line I’ve set the page to be 800 pixels wide (although I could have specified a percentage here to have the page expand/contract based on the size of the browser window). The margin setting I’ve used here will ensure that the page content stays centered in the window.
  
 Next let’s turn our attention to the background images used in the page (these are applied using the <code>background: url</code> declarations.) I’ve got 3 different background elements on this page. The first is a gradient that tiles across the top of the page giving us the nice blue fade. Second, I’ve used a semi-transparent PNG for the pen graphic in order to provide enough contrast with the text above it and to pick up the gradient (semi-transparent PNG images don’t work in Internet Explorer 6 or below, but they work in pretty much every modern browser; see [http://code.google.com/p/ie7-js/ Dean Edward's IE-fixing JavaScript] for an IE6 solution to this issue, which also fixes some of IE6’s CSS support issues.)
 
