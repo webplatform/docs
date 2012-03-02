@@ -24,7 +24,7 @@ There are two main ways to add images to a document: content images using the <c
  
 == The img element and its attributes ==
  
-Adding an image to an HTML document is very easy using the <code>&lt;img&gt;</code> element. The following HTML document ([http://dev.opera.com/articles/view/17-images-in-html/inlineimageexample.html inlineimageexample.html] in the zip file) displays the photo balconyview.jpg in a browser (provided that you have the image in the same folder as the HTML file.)
+Adding an image to an HTML document is very easy using the <code>&lt;img&gt;</code> element: you include the location of the image you want to display inside a <code>src</code> (source) attribute, and away you go. The following HTML document ([http://dev.opera.com/articles/view/17-images-in-html/inlineimageexample.html inlineimageexample.html] in the zip file) displays the photo balconyview.jpg in a browser (provided that you have the image in the same folder as the HTML file.)
 
 <pre>&lt;!DOCTYPE html&gt;
 
