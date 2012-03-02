@@ -81,7 +81,7 @@ JavaScript is a more complicated and expansive subject than HTML and CSS, so to 
  
 There are a lot of details I haven’t covered here, but we’ll get through everything during this web design course! For now, I’ll present you with a real page example, just to give you a taste of what you’ll be working with in the rest of the articles.
  
-The example I present below is a references page, which you could use to cite references at the end of say, a psychology essay on the group dynamics of a web development team, or a report for work on broadband Internet use in the United States. Please note, that if you’re a stickler for strict academic writing, this example shows APA formatting (I had to pick one) [http://dev.opera.com/articles/view/4-the-web-standards-model-html-css-a/article4_examples.zip download the example code].
+The example I present below is a references page, which you could use to cite references at the end of say, a psychology essay on the group dynamics of a web development team, or a report for work on broadband Internet use in the United States. Please note, that if you’re a stickler for strict academic writing, this example shows APA formatting (I had to pick one). You can [http://dev.opera.com/articles/view/4-the-web-standards-model-html-css-a/article4_examples.zip download a zip file containing the example HTML and CSS for this example].
  
 === index.html ===
  
