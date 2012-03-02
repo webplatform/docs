@@ -109,7 +109,7 @@ although W3C will continue to make those specifications and
 their DTDs available at the W3C Web site.&lt;/p&gt;
 &lt;/blockquote&gt;</pre>
 
-The <code>cite</code> attribute doesn't really do anything on its own, although it is useful to keep a record of where the quotes are taken from. You could just JavaScript to extract this information from the <code>cite</code> and do something meaningful with it, like open a new tab with that page loaded in it, for example.
+The <code>cite</code> attribute doesn't really do anything on its own, although it is useful to keep a record of where the quotes are taken from. You could just JavaScript to extract this information from the <code>cite</code> attribute and do something meaningful with it, like open a new tab with that page loaded in it, for example.
 
 === Preformatted text ===
  
