@@ -74,7 +74,7 @@ The early method of spreading the call to action was to use a traditional advert
  
 Another technique the WaSP used was to ridicule the companies involved with the W3C (and other standards bodies) that focused more on creating new, often self-serving, features rather than working to get the basic existing standards supported correctly in their products to start with (this includes some browser companies that shall remain nameless here). This doesn't mean that the WaSP ridiculed the W3C themselves, rather they ridiculed the companies that became W3C members and then misbehaved.
  
-The W3C has a few full time staff, but most of the people who work on the standards are volunteers from member companies, eg. Microsoft, Opera, Mozilla, Apple, Google, IBM and Adobe, to name a few of the bigger ones.
+The W3C has a few full time staff, but most of the people who work on the standards are volunteers from member companies, eg. Microsoft, Opera, Mozilla, Apple, Google, IBM and Adobe, to name a few of the biggest ones.
  
 This all sounds a bit negative, but the WaSP didn’t just sit there criticising people — they also helped. Seven members formed the CSS Samurai, who identified the top ten problems with the CSS support in Opera and other browsers (Opera fixed their problems, others did not).
 
