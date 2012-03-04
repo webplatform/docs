@@ -123,7 +123,7 @@ You can find more out about CSS3 and HTML5 later on in the course.
 
 == Summary ==
 
-In this article we’ve looked at how the modern Internet was created as a result of the space race, how Tim Berners-Lee defined hypertext for a generation and how the commercial interests of two companies caused one of the most notable developer backlashes ever seen. The term web standards is now more widely used by web professionals that any other term applied by the [http://www.w3.org/ W3C] (in fact the W3C have started to use the term on their own pages), so that is what we are going to teach you — the ''standards'' way to build web sites.
+In this article we’ve looked at how the modern Internet was created as a result of the space race, how Tim Berners-Lee defined hypertext for a generation and how the commercial interests of two companies caused one of the most notable developer backlashes ever seen. The term web standards is now more widely used by web professionals than any other term applied by the [http://www.w3.org/ W3C] (in fact the W3C have started to use the term on their own pages), so that is what we are going to teach you — the ''standards'' way to build web sites.
 
 == Further reading ==
  
