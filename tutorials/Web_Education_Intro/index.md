@@ -4,7 +4,7 @@ Welcome to the Web Education Community Group Wiki!
 
 == Introduction ==
 
-What follows is a list of all the articles within the web standards curriculum, which will give you an essential grounding in Hypertext Markup Lanaguage (HTML), Cascading Stylesheets (CSS), JavaScript, accessibility, and the other topics you need to be a modern web developer/designer. Reading them in order makes the most sense, but they are written to work individually, so you can dip in and out as it suits you, if you need to hone individual skills.
+What follows is a list of all the articles within the web standards curriculum, which will give you an essential grounding in Hypertext Markup Language (HTML), Cascading Stylesheets (CSS), JavaScript, accessibility, and the other topics you need to be a modern web developer/designer. Reading them in order makes the most sense, but they are written to work individually, so you can dip in and out as it suits you, if you need to hone individual skills.
 
 Note: This material was originally published as part of the Opera Web Standards Curriculum, available as [http://dev.opera.com/articles/view/1-introduction-to-the-web-standards-cur/#toc Introductory material], written by Chris Mills. Like the original, it is published under the [http://creativecommons.org/licenses/by-nc-sa/2.5/ Creative Commons Attribution, Non Commercial - Share Alike 2.5] license.
 
