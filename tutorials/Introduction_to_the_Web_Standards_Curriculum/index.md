@@ -35,10 +35,10 @@ In the old days, people used to do things like:
  
 And the list goes on, including many other crimes against web development. The worst thing is that I say "in the old days" above, but the fact is that a lot of people are still doing things like this! Web development is a messy skill at the best of times, but bad practices like these just make it harder. Using web standards and best practices, as outlined in this course, is the best way to go.
 
-== Article structure ==
+== Estructura de los artículos ==
  
-The course is composed of several articles; each article focuses on a specific microtopic, including background on the topic, essential theory, practical examples and walkthrough tutorials to follow, and exercise questions to test your knowledge.
- 
+El curso se compone de varios artículos. Cada artículo trata sobre un microtema específico, incluyendo antecedentes sobre el tema, teoría esencial, ejemplos prácticos y guías paso a paso, además de preguntas de repaso para comprobar los conocimientos adquiridos.
+
 == Who should use this course? ==
  
 This course is aimed at pretty much anyone who wants to learn web standards–based web design from scratch. It is intended to take the reader from nothing more than a basic familiarity with browsing the Web to being competent with HTML, CSS and JavaScript, including cutting edge HTML5/CSS3 features, and having a good degree of knowledge of surrounding concepts such as information architecture, UX, mobile optimization/adaptive design and typography.
