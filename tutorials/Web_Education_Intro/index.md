@@ -195,6 +195,8 @@ IMPORTANT: Please don't pollute these pages with random stuff - if you just want
 ** [[Croatian international project]]
 ** [[Spanish and Catalan international project]]
 ** [[Turkish international project]]
+** [[Japanese international project]]
+
 
 Other available resources are as follows:
 
