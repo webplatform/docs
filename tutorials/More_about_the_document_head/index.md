@@ -6,7 +6,7 @@ In [http://www.w3.org/community/webed/wiki/The_HTML_head_element The HTML &lt;he
  
 One feature of HTML that stems from the origins of the web as a document repository are document relationships. These define how one document relates to another, for example if it is the previous or next document in a logical chain or if it is the index of a whole series of documents.
  
-In a sense, you’ve already done this in [http://www.w3.org/wiki/The_HTML_head_element The HTML &lt;head&gt; element article], when you applied a style sheet to a document to give it a different look and feel with the <code>link</code> element:
+In a sense, you’ve already done this in [http://www.w3.org/community/webed/wiki/The_HTML_head_element The HTML &lt;head&gt; element article], when you applied a style sheet to a document to give it a different look and feel with the <code>link</code> element:
  
 <pre>&lt;!DOCTYPE html&gt;
 &lt;html lang="en-GB"&gt;
