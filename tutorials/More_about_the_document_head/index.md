@@ -225,7 +225,7 @@ If you open this document in a browser it should show the Opera icon next to the
 
 == Summary ==
  
-That’s all for this article, and for the <code>head</code> section of an HTML document. There are other things we could cover, but they tend to be fairly advanced subjects, and often not a good idea — what we have covered here, and in [http://www.w3.org/wiki/The_HTML_head_element The HTML &lt;head&gt; element article], should give you all you need to get on.
+That’s all for this article, and for the <code>head</code> section of an HTML document. There are other things we could cover, but they tend to be fairly advanced subjects, and often not a good idea — what we have covered here, and in [http://www.w3.org/community/webed/wiki/The_HTML_head_element The HTML &lt;head&gt; element article], should give you all you need to get on.
 
 == Exercise questions ==
  
