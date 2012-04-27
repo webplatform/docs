@@ -188,7 +188,7 @@ This section won't go into any code or markup details, and will act as an introd
 
 = Teaching materials =
 
-Each page in this section includes teaching notes, examples, slidedecks and other materials for teachers to use to for hands-on teaching of the curriculum structures outlined in the [[#Curriculum_structures Curriculum structures]] section.
+Each page in this section includes teaching notes, examples, slidedecks and other materials for teachers to use to for hands-on teaching of the curriculum structures outlined in the [[#Curriculum_structures|Curriculum structures]] section.
 
 * [[HTML Basics and Web Standards Concepts]] (learning competency included in [http://www.w3.org/community/webed/wiki/Interact/Web_Design_1 Web Design 1])
 
