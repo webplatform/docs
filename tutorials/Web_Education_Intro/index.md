@@ -188,6 +188,8 @@ This section won't go into any code or markup details, and will act as an introd
 
 = Teaching materials =
 
+* [[HTML Basics and Web Standards Concepts]] —learning competency included in [[Web Design 1]]
+
 = Project activities =
 
 This section houses a record of all activities being undertaken in past, present or future by the Web Education Community Group, split into projects.
