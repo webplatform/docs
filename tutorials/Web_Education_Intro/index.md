@@ -186,6 +186,8 @@ This section won't go into any code or markup details, and will act as an introd
 * [http://www.w3.org/community/webed/wiki/Interact/DOM_Scripting_1 DOM Scripting 1]
 * [http://www.w3.org/community/webed/wiki/Interact/Server-Side_Scripting_1 Server-side Scripting 1]
 
+= Teaching materials =
+
 = Project activities =
 
 This section houses a record of all activities being undertaken in past, present or future by the Web Education Community Group, split into projects.
