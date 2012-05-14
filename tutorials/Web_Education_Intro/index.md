@@ -204,11 +204,13 @@ IMPORTANT: Please don't pollute these pages with random stuff - if you just want
 * [[Training and certification]]
 * [[Membership and policy]]
 * International projects
-** [[French international project]]
 ** [[Croatian international project]]
+** [[French international project]]
+** [[Japanese international project]]
+** [[fa/|Persian language international project]]
 ** [[Es/|Spanish international project]]
 ** [[Turkish international project]]
-** [[Japanese international project]]
+
 
 
 Other available resources are as follows:
