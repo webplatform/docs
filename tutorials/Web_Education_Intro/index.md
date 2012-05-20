@@ -144,6 +144,7 @@ This section won't go into any code or markup details, and will act as an introd
 * [[Getting your content online]]
 * [[Common HTML entities used for typography]]
 * [[The web standards curriculum glossary]]
+* [[Optimizing content for different browsers: the RIGHT way]]
 
 == Proposed Updates and Additions to Web Standards Curriculum ==
 
