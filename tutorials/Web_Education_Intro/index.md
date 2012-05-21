@@ -218,3 +218,5 @@ Other available resources are as follows:
 
 * [[ WEST | Web Education Supplementary Toolkit ]]
 * [[ Web Education community group style guide ]]
+* [[How to write an article]]
+* [[How to review an article]]
