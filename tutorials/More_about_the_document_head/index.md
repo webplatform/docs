@@ -160,7 +160,7 @@ Translations are a great candidate for document interlinking. It might for examp
   &lt;/ul&gt;
   &lt;ul&gt;
     &lt;li&gt;Other languages:
-      &lt;uL&gt;
+      &lt;ul&gt;
         &lt;li&gt;&lt;a href="../de/start.html" lang="de" hreflang="de"&gt;Deutsch&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href="../de/start.html" lang="nl" hreflang="nl"&gt;Nederlands&lt;/a&gt;&lt;/li&gt;
       &lt;/ul&gt;
