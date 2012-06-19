@@ -3,7 +3,7 @@
 Web accessibility testing is a subset of usability testing where the users under consideration have disabilities that affect how they use the web. The end goal, in both usability and accessibility, is to discover how easily people can use a web site and feed that information back into improving future designs and implementations.
  
 Accessibility evaluation is more formalized than usability testing generally.
-Laws and public opinion frown upon discriminating against people with disabilities. In order to be fair to all, governments and other organizations try to adhere to various web accessibility standards, such as the US federal government’s [http://dev.opera.com/articles/view/25-accessibility-basics/#section508 Section 508 legislation] and the W3C’s [http://dev.opera.com/articles/view/25-accessibility-basics/#WCAG1 Web Content Accessibility Guidelines (WCAG)].
+Laws and public opinion frown upon discriminating against people with disabilities. In order to be fair to all, governments and other organizations try to adhere to various web accessibility standards, such as the US federal government’s [http://dev.opera.com/articles/view/25-accessibility-basics/#section508 Section 508 legislation].
  
 However, it is important to distinguish between complying with a standard and maximizing the accessibility of a web site. Ideally, the two would be the same, but any given standard may fail to:
 
