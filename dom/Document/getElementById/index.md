@@ -21,7 +21,8 @@
 </body>
 </html>
 |Return value=element
-|See also=id, getElementsByTagName
+|Related fields=id
+|Related methods=getElementsByTagName
 }}
 ==Notes==
 
