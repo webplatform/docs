@@ -1,5 +1,5 @@
 {{Method
-|Class=DOM
+|Class=DOMDocument
 |API=element = document.getElementById(id);
 |Summary=Returns a reference to the element by its ID.
 |Sample call=<!DOCTYPE HTML>
