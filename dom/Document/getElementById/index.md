@@ -24,7 +24,6 @@
 |Related fields=id
 |Related methods=getElementsByTagName
 }}
-==Notes==
 
 New users should note that the capitalization of 'Id' in the name of this method must be correct for the code to function - 'getElementByID' does not work, however natural it may seem.
 
