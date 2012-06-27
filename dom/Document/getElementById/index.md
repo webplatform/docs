@@ -1,3 +1,5 @@
+{{Major_Style_Issue|main_message=This article does not include a complete compatibility table.}}
+
 {{Method
 |Class=DOMDocument
 |API=element = document.getElementById(id);
