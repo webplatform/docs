@@ -7,7 +7,7 @@
 |Animatable=No
 |Values={{CSS Property Value
 |Name=xx-small, x-small, small, medium, large, x-large, xx-large
-|Description=A set of absolute size keywords based on the user's default font size (which is medium). Similar to presentational HTML's <font size="1"> through <font size="7"> where the user's default font size is <font size="3">.
+|Description=A set of absolute size keywords based on the user's default font size (which is medium). Similar to presentational HTML's &lt;font size="1"> through &lt;font size="7"> where the user's default font size is &lt;font size="3">.
 }}{{CSS Property Value
 |Name=larger, smaller
 |Description=Larger or smaller than the parent element's font size, by roughly the ratio used to separate the absolute size keywords above.
