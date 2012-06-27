@@ -1,3 +1,5 @@
+{{Major_Style_Issue|main_message=This article does not include a complete compatibility table.}}
+
 {{CSS Property
 |Initial value=medium
 |Applies to=all elements
