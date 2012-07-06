@@ -28,7 +28,7 @@ border-radius: inherit
 == Example ==
 
 <syntaxhighlight lang="css" line start="0" highlight="2">
-solid 10px;
+border: solid 10px;
 border-radius: 40px 10px;
 </syntaxhighlight>
 
