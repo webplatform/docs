@@ -1,3 +1,41 @@
+Home:
+<splist
+ parent=
+ showparent=yes
+ sort=desc
+ sortby=title
+ liststyle=unordered
+ showpath=no
+ kidsonly=yes
+ debug=1
+/>
+
+CSS:
+<splist
+ parent=css
+ showparent=yes
+ sort=desc
+ sortby=title
+ liststyle=unordered
+ showpath=no
+ kidsonly=yes
+ debug=1
+/>
+
+properties:
+<splist
+ parent=css/properties
+ showparent=yes
+ sort=desc
+ sortby=title
+ liststyle=unordered
+ showpath=no
+ kidsonly=yes
+ debug=1
+/>
+
+
+
 {{CSS Property
 |Initial value=0
 |Applies to=all elements, except the 'table' element when border-collapse is collapse
