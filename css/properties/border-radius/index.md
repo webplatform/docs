@@ -1,19 +1,8 @@
-Home:
-<splist
- parent=
- showparent=yes
- sort=desc
- sortby=title
- liststyle=unordered
- showpath=no
- kidsonly=yes
- debug=1
-/>
+CSS level:
 
-CSS:
 <splist
  parent=css
- showparent=yes
+ showparent=no
  sort=desc
  sortby=title
  liststyle=unordered
@@ -22,10 +11,11 @@ CSS:
  debug=1
 />
 
-properties:
+properties level:
+
 <splist
  parent=css/properties
- showparent=yes
+ showparent=no
  sort=desc
  sortby=title
  liststyle=unordered
@@ -33,7 +23,7 @@ properties:
  kidsonly=yes
  debug=1
 />
-
+----
 
 
 {{CSS Property
