@@ -1,3 +1,7 @@
+{{Flags
+|High-level issues=Stub
+|Content=Outdated, Incomplete, Needs Best Practices
+}}
 {{CSS Property
 |Initial value=medium
 |Applies to=all elements
@@ -21,7 +25,6 @@
 |Syntax=font-size: xx-small
 |Value_Name=percentage
 }}
-
 ==History==
 {{Incorrect spelling}}
 This property has a lot of hystory!
