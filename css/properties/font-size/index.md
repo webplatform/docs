@@ -1,6 +1,8 @@
 {{Flags
 |High-level issues=Stub
 |Content=Outdated, Incomplete, Needs Best Practices
+|Compatibility=Missing
+|Examples=Examples have errors
 }}
 {{CSS Property
 |Initial value=medium
