@@ -25,6 +25,3 @@
 |Syntax=font-size: xx-small
 |Value_Name=percentage
 }}
-==History==
-{{Incorrect spelling}}
-This property has a lot of hystory!
