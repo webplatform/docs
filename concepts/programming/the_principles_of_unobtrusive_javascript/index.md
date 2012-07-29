@@ -39,7 +39,7 @@ As you learned in the last article, embedded scripts are bits of JavaScript code
  
 Inline event handlers, such as <code>&lt;a href="somewhere.html" onmouseover="hideAll()"&gt;</code> are slightly harder to remove. This defines which event handlers (JavaScript functions) should run when a certain event takes place. What we have to do to make this unobtrusive is port the event handler assignment to a separate script file. That means the external script first has to find the correct element, and then assign an event handler to it.
  
-To learn more about event handlers, check out our [http://www.w3.org/community/webed/wiki/Handling_events_with_JavaScript] article.
+To learn more about event handlers, check out our [http://www.w3.org/community/webed/wiki/Handling_events_with_JavaScript Handling Events With Javascript] article.
  
 The easiest way of allowing an element to be found is giving it an ID. For instance:
  
