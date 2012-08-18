@@ -13,6 +13,7 @@
 |Computed value=absolute length
 |Animatable=No
 |CSS object model property=fontSize
+|CSS percentages=Relative to parent element's font size
 |Values={{CSS Property Value
 |Data Type=xx-small, x-small, small, medium, large, x-large, xx-large
 |Description=A set of absolute size keywords based on the user's default font size (which is medium). Similar to presentational HTML's &lt;font size="1"> through &lt;font size="7"> where the user's default font size is &lt;font size="3">.
