@@ -90,22 +90,22 @@ The em is a very useful unit in CSS, since it can adapt automatically to the fon
 |Name=CSS Fonts Module Level 3
 |URL=http://dev.w3.org/csswg/css3-fonts/#font-size-prop
 |Status=Working Draft
-|Related_changes=No change
+|Relevant_changes=No change
 }}{{Related Specification
 |Name=CSS Transitions
 |URL=http://dev.w3.org/csswg/css3-transitions/#animatable-css
 |Status=Working Draft
-|Related_changes=Defines <code>font-size</code> as animatable
+|Relevant_changes=Defines <code>font-size</code> as animatable
 }}{{Related Specification
 |Name=CSS 2 (Revision 1)
 |URL=http://www.w3.org/TR/CSS2/fonts.html#propdef-font-size
 |Status=Recommendation
-|Related_changes=No change
+|Relevant_changes=No change
 }}{{Related Specification
 |Name=CSS Level 1
 |URL=http://www.w3.org/TR/CSS1/#font-size
 |Status=Recommendation
-|Related_changes=Original specification
+|Relevant_changes=Original specification
 }}
 |Value_Name=percentage
 }}
