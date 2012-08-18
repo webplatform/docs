@@ -11,7 +11,7 @@
 |Inherited=Yes
 |Media=visual
 |Computed value=absolute length
-|Animatable=No
+|Animatable=Yes
 |CSS object model property=fontSize
 |CSS percentages=Relative to parent element's font size
 |Values={{CSS Property Value
