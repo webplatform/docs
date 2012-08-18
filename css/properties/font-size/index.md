@@ -58,16 +58,8 @@ Setting the font size in pixel values (<code>px</code>) is a good choice when yo
 
 Font sizing settings can also be used in combination. For example, if a parent element is set to <code>16px</code> and its child element is set to <code>larger</code>, the child element displays larger than the parent element in the page.
 
-<div style="background: none repeat scroll 0 0 #FAF9E2;
-    border-color: #DDDAAA;
-    border-style: solid;
-    border-width: 1px 0;
-    color: #5D5636;
-    line-height: 1.5em;
-    margin-bottom: 1.286em;
-    padding: 0.75em 15px;">
-Note: Defining font sizes in pixel is ''not accessible'', because the user cannot change the font size from the browser. (For example, users with limited vision may wish to set the font size much larger than the size chosen by a web designer.) Therefore, avoid using pixels for font sizes if you wish to create an inclusive design.
-</div>
+{{Note|Defining font sizes in pixel is ''not accessible'', because the user cannot change the font size from the browser. (For example, users with limited vision may wish to set the font size much larger than the size chosen by a web designer.) Therefore, avoid using pixels for font sizes if you wish to create an inclusive design.}}
+
 
 ===Ems===
 
