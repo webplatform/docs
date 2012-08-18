@@ -47,5 +47,51 @@ span { font-size: 16px; }
 var ele = document.getElementyById("my-paragraph");
 ele.style.fontSize = "small";
 </syntaxhighlight>
+|Usage=There are several ways to specify the font size, with keywords or numerical values for pixels or ems. Choose the appropriate method based on the needs for the particular web page.
+
+===Keywords===
+
+Keywords are a good way to set the size of fonts on the web. By setting a keyword font size on the body element, you can set relative font-sizing everywhere else on the page, giving you the ability to easily scale the font up or down on the entire page accordingly.
+Pixels
+
+Setting the font size in pixel values (<code>px</code>) is a good choice when you need pixel accuracy. A <code>px</code> value is static. This is an OS-independent and cross-browser way of literally telling the browsers to render the letters at exactly the number of pixels in height that you specified. The results may vary slightly across browsers, as they may use different algorithms to achieve a similar effect.
+
+Font sizing settings can also be used in combination. For example, if a parent element is set to <code>16px</code> and its child element is set to <code>larger</code>, the child element displays larger than the parent element in the page.
+
+<div style="background: none repeat scroll 0 0 #FAF9E2;
+    border-color: #DDDAAA;
+    border-style: solid;
+    border-width: 1px 0;
+    color: #5D5636;
+    line-height: 1.5em;
+    margin-bottom: 1.286em;
+    padding: 0.75em 15px;">
+Note: Defining font sizes in pixel is ''not accessible'', because the user cannot change the font size from the browser. (For example, users with limited vision may wish to set the font size much larger than the size chosen by a web designer.) Therefore, avoid using pixels for font sizes if you wish to create an inclusive design.
+</div>
+
+===Ems===
+
+Another way of setting the font size is with <code>em</code> values. The size of an <code>em</code> value is dynamic. When defining the <code>font-size</code> property, an <code>em</code> is equal to the size of the font that applies to the parent of the element in question. If you haven't set the font size anywhere on the page, then it is the browser default, which is probably 16px. So, by default 1em = 16px, and 2em = 32px. If you set a font-size of 20px on the body element, then 1em = 20px and 2em = 40px. Note that the value 2 is essentially a multiplier of the current <code>em</code> size.
+
+In order to calculate the <code>em</code> equivalent for any pixel value required, you can use this formula:
+
+<syntaxhighlight lang="css">
+em = desired element pixel value / parent element font-size in pixels
+</syntaxhighlight>
+
+For example, suppose the font-size of the body of the page is set to 1em, with the browser standard of 1em = 16px; if the font-size you want is 12px, then you should specify 0.75em (because 12/16 = 0.75). Similarly, if you want a font size of 10px, then specify 0.625em (10/16 = 0.625); for 22px, specify 1.375em (22/16).
+
+A popular technique to use throughout the document is to set the the font-size of the body to 62.5% (that is 62.5% of the default of 16px), which equates to 10px, or 0.625em. Now you can set the font-size for any elements using em units, with an easy-to-remember conversion, by dividing the px value by 10. This way 6px = 0.6em, 8px = 0.8em, 12px = 1.2em, 14px = 1.4em, 16px = 1.6em. For example:
+
+<syntaxhighlight lang="css">
+body {
+  font-size: 62.5%; /* font-size 1em = 10px */
+}
+p {
+  font-size: 1.6em; /* 1.6em = 16px */
+}
+</syntaxhighlight>
+
+The em is a very useful unit in CSS, since it can adapt automatically to the font that the reader chooses to use.
 |Value_Name=percentage
 }}
