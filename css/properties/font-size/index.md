@@ -1,5 +1,5 @@
 {{Flags
-|High-level issues=Stub
+|High-level issues=Stub, Copyright Issue
 |Content=Outdated, Incomplete, Needs Best Practices
 |Compatibility=Missing
 |Examples=Examples have errors
@@ -118,3 +118,4 @@ The em is a very useful unit in CSS, since it can adapt automatically to the fon
 }}
 |Value_Name=percentage
 }}
+{{Editorial |type='Copyright'| This page includes content from MDN and needs to be tagged appropriately}}
