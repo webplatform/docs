@@ -118,6 +118,7 @@ The em is a very useful unit in CSS, since it can adapt automatically to the fon
 }}
 |Compatibility_mobile_rows={{Compatibility Table Mobile Row
 |Feature=Basic Support
+|Android={{Compat_Supported}}
 |Firefox_mobile=1.0
 |IE_phone=6.0
 |Opera_mobile=6.0
