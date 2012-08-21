@@ -116,6 +116,14 @@ The em is a very useful unit in CSS, since it can adapt automatically to the fon
 |Opera=7.0
 |Safari=1.0
 }}
+|Compatibility_mobile_rows={{Compatibility Table Mobile Row
+|Feature=Basic Support
+|Android=1.0
+|Firefox_mobile=1.0
+|IE_phone=6.0
+|Opera_mobile=6.0
+|Safari_mobile=1.0
+}}
 |Value_Name=percentage
 }}
 {{Editorial |type='Copyright'| This page includes content from MDN and needs to be tagged appropriately}}
