@@ -124,6 +124,15 @@ The em is a very useful unit in CSS, since it can adapt automatically to the fon
 |Opera_mobile=6.0
 |Safari_mobile=1.0
 }}
+|Compatibility_notes_rows={{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=6+
+|Note=When using the <code>!DOCTYPE</code> declaration to specify standards-compliant mode, the default value for this property is <code>medium</code>, not <code>small</code>.
+}}{{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=4+
+|Note=Possible length values specified in a relative measurement, using the height of the element's font (em) or the height of the letter "x" (ex)
+}}
 |Value_Name=percentage
 }}
 {{Editorial |type='Copyright'| This page includes content from MDN and needs to be tagged appropriately}}
