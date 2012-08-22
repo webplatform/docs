@@ -7,4 +7,4 @@ Consult the [//meta.wikimedia.org/wiki/Help:Contents User's Guide] for informati
 * [//www.mediawiki.org/wiki/Manual:FAQ MediaWiki FAQ]
 * [https://lists.wikimedia.org/mailman/listinfo/mediawiki-announce MediaWiki release mailing list]
 
-* [Chris Mills test page]
+* [[Chris Mills test page]]
