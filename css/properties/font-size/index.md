@@ -86,27 +86,7 @@ p {
 
 The em is a very useful unit in CSS, since it can adapt automatically to the font that the reader chooses to use.
 |Notes=The <code>em</code> and <code>ex</code> units on the font-size property are relative to the parent element's font size (unlike all other properties, where they're relative to the font size on the element). This means em units and percentages do the same thing for font-size.
-|Specifications={{Related Specification
-|Name=CSS Fonts Module Level 3
-|URL=http://dev.w3.org/csswg/css3-fonts/#font-size-prop
-|Status=Working Draft
-|Relevant_changes=No change
-}}{{Related Specification
-|Name=CSS Transitions
-|URL=http://dev.w3.org/csswg/css3-transitions/#animatable-css
-|Status=Working Draft
-|Relevant_changes=Defines <code>font-size</code> as animatable
-}}{{Related Specification
-|Name=CSS 2 (Revision 1)
-|URL=http://www.w3.org/TR/CSS2/fonts.html#propdef-font-size
-|Status=Recommendation
-|Relevant_changes=No change
-}}{{Related Specification
-|Name=CSS Level 1
-|URL=http://www.w3.org/TR/CSS1/#font-size
-|Status=Recommendation
-|Relevant_changes=Original specification
-}}
+|Specifications=
 |Compatibility_desktop_rows={{Compatibility Table Desktop Row
 |Feature=Basic Support
 |Chrome=5.0
