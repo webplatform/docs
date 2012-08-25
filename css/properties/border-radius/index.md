@@ -1,31 +1,3 @@
-'''Breadcrumbs Experiment'''
-
-CSS level:
-<splist
- parent=css
- showparent=no
- sort=desc
- sortby=title
- liststyle=unordered
- showpath=no
- kidsonly=yes
- debug=1
-/>
-
-properties level:
-<splist
- parent=css/properties
- showparent=no
- sort=desc
- sortby=title
- liststyle=unordered
- showpath=no
- kidsonly=yes
- debug=1
-/>
-----
-
-
 {{CSS Property
 |Initial value=0
 |Applies to=all elements, except the 'table' element when border-collapse is collapse
