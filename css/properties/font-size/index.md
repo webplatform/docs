@@ -27,7 +27,6 @@
 |Data Type=percentage
 |Description=A positive percentage of the parent element's font size.
 }}
-|Syntax=font-size: xx-small
 |Examples=[[CSS/examples | View live examples]]
 <syntaxhighlight>
 /* LANGUAGE-TAG: CSS */
@@ -133,9 +132,11 @@ The em is a very useful unit in CSS, since it can adapt automatically to the fon
 |Version=4+
 |Note=Possible length values specified in a relative measurement, using the height of the element's font (em) or the height of the letter "x" (ex)
 }}
+|Syntax=font-size: xx-small
 |Value_Name=percentage
 }}
 {{Editorial | Some content is under CC-BY-SA, but we haven't wrapped which pieces. }}
 {{External_Attribution
 |Is_CC-BY-SA=Yes
+|Sources=MDN, MSDN
 }}
