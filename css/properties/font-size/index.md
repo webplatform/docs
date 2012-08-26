@@ -139,4 +139,5 @@ The em is a very useful unit in CSS, since it can adapt automatically to the fon
 {{External_Attribution
 |Is_CC-BY-SA=Yes
 |Sources=MDN, MSDN
+|MDN_link=https://developer.mozilla.org/en-US/docs/CSS/font-size
 }}
