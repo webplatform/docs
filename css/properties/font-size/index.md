@@ -135,9 +135,10 @@ The em is a very useful unit in CSS, since it can adapt automatically to the fon
 |Syntax=font-size: xx-small
 |Value_Name=percentage
 }}
-{{Editorial | Some content is under CC-BY-SA, but we haven't wrapped which pieces. }}
+{{Editorial/Copyright Issue | Some content is under CC-BY-SA, but we haven't wrapped which pieces. }}
 {{External_Attribution
 |Is_CC-BY-SA=Yes
 |Sources=MDN, MSDN
 |MDN_link=https://developer.mozilla.org/en-US/docs/CSS/font-size
+|HTML5Rocks_link=
 }}
