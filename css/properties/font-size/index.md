@@ -81,6 +81,7 @@ h1 { font-size: 250% }
  
 /* Sets text enclosed within span tag to be 16px */
 span { font-size: 16px; }
+|LiveURL=http://www.google.com
 }}{{Single Example
 |Code=//LANGUAGE-TAG: JavaScript
 var ele = document.getElementyById("my-paragraph");
