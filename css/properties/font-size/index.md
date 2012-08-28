@@ -106,32 +106,6 @@ The em is a very useful unit in CSS, since it can adapt automatically to the fon
 |Status=Recommendation
 |Relevant_changes=Original specification
 }}
-|Compatibility_desktop_rows={{Compatibility Table Desktop Row
-|Feature=Basic Support
-|Chrome=5.0
-|Chrome_prefixed=4.0
-|Firefox=1.0
-|Internet_explorer=5.5
-|Opera=7.0
-|Safari=1.0
-}}
-|Compatibility_mobile_rows={{Compatibility Table Mobile Row
-|Feature=Basic Support
-|Android={{Compat_Supported}}
-|Firefox_mobile=1.0
-|IE_phone=6.0
-|Opera_mobile=6.0
-|Safari_mobile=1.0
-}}
-|Compatibility_notes_rows={{Compatibility Notes Row
-|Browser=Internet Explorer
-|Version=6+
-|Note=When using the <code>!DOCTYPE</code> declaration to specify standards-compliant mode, the default value for this property is <code>medium</code>, not <code>small</code>.
-}}{{Compatibility Notes Row
-|Browser=Internet Explorer
-|Version=4+
-|Note=Possible length values specified in a relative measurement, using the height of the element's font (em) or the height of the letter "x" (ex)
-}}
 |Syntax=font-size: xx-small
 |Value_Name=percentage
 }}
