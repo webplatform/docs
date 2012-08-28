@@ -89,10 +89,25 @@ The em is a very useful unit in CSS, since it can adapt automatically to the fon
 |Value_Name=percentage
 }}
 {{Related_Specifications_Section|{{Related Specification
-|Name=test
-|URL=test
-|Status=test
-|Relevant_changes=test
+|Name=CSS Fonts Module Level 3
+|URL=http://dev.w3.org/csswg/css3-fonts/#font-size-prop
+|Status=Working Draft
+|Relevant_changes=No change
+}}{{Related Specification
+|Name=CSS Transitions
+|URL=http://dev.w3.org/csswg/css3-transitions/#animatable-css
+|Status=Working Draft
+|Relevant_changes=Defines <code>font-size</code> as animatable
+}}{{Related Specification
+|Name=CSS 2 (Revision 1)
+|URL=http://www.w3.org/TR/CSS2/fonts.html#propdef-font-size
+|Status=Recommendation
+|Relevant_changes=No change
+}}{{Related Specification
+|Name=CSS Level 1
+|URL=http://www.w3.org/TR/CSS1/#font-size
+|Status=Recommendation
+|Relevant_changes=Original specification
 }}}}
 {{Compatibility_Section
 |Desktop_rows={{Compatibility Table Desktop Row
