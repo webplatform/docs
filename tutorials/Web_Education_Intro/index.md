@@ -7,4 +7,8 @@ Consult the [//meta.wikimedia.org/wiki/Help:Contents User's Guide] for informati
 * [//www.mediawiki.org/wiki/Manual:FAQ MediaWiki FAQ]
 * [https://lists.wikimedia.org/mailman/listinfo/mediawiki-announce MediaWiki release mailing list]
 
-* [[Chris Mills test page]]
+==WebPlatform tutorials==
+
+In our tutorials section, we have the following different sections:
+
+* [[general-concepts]]
