@@ -69,6 +69,27 @@ The em is a very useful unit in CSS, since it can adapt automatically to the fon
 |Syntax=font-size: xx-small
 |Value_Name=percentage
 }}
+{{Examples_Section
+|Examples=[[CSS/examples | View live examples]]
+<syntaxhighlight>
+/* LANGUAGE-TAG: CSS */
+/* Set paragraph text to be very large. */
+p { font-size: xx-large }
+ 
+/* Set h1 (level 1 heading) text to be 2.5 times the size
+ * of the text around it. */
+h1 { font-size: 250% }
+ 
+/* Sets text enclosed within span tag to be 16px */
+span { font-size: 16px; }
+</syntaxhighlight>
+
+<syntaxhighlight>
+//LANGUAGE-TAG: JavaScript
+var ele = document.getElementyById("my-paragraph");
+ele.style.fontSize = "small";
+</syntaxhighlight>
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Fonts Module Level 3
@@ -90,7 +111,8 @@ The em is a very useful unit in CSS, since it can adapt automatically to the fon
 |URL=http://www.w3.org/TR/CSS1/#font-size
 |Status=Recommendation
 |Relevant_changes=Original specification
-}}}}
+}}
+}}
 {{Compatibility_Section
 |Desktop_rows={{Compatibility Table Desktop Row
 |Feature=Basic Support
