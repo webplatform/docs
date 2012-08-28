@@ -88,7 +88,8 @@ The em is a very useful unit in CSS, since it can adapt automatically to the fon
 |Syntax=font-size: xx-small
 |Value_Name=percentage
 }}
-{{Related_Specifications_Section|{{Related Specification
+{{Related_Specifications_Section
+|Specifications={{Related Specification
 |Name=CSS Fonts Module Level 3
 |URL=http://dev.w3.org/csswg/css3-fonts/#font-size-prop
 |Status=Working Draft
