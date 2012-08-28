@@ -27,25 +27,6 @@
 |Data Type=percentage
 |Description=A positive percentage of the parent element's font size.
 }}
-|Examples=[[CSS/examples | View live examples]]
-<syntaxhighlight>
-/* LANGUAGE-TAG: CSS */
-/* Set paragraph text to be very large. */
-p { font-size: xx-large }
- 
-/* Set h1 (level 1 heading) text to be 2.5 times the size
- * of the text around it. */
-h1 { font-size: 250% }
- 
-/* Sets text enclosed within span tag to be 16px */
-span { font-size: 16px; }
-</syntaxhighlight>
-
-<syntaxhighlight>
-//LANGUAGE-TAG: JavaScript
-var ele = document.getElementyById("my-paragraph");
-ele.style.fontSize = "small";
-</syntaxhighlight>
 |Usage=There are several ways to specify the font size, with keywords or numerical values for pixels or ems. Choose the appropriate method based on the needs for the particular web page.
 
 ===Keywords===
