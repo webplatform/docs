@@ -33,6 +33,17 @@
 {{Examples_Section
 |Examples={{Single Example
 |Language=CSS
+|Code=em = desired element pixel value / parent element font-size in pixels
+}}{{Single Example
+|Language=CSS
+|Code=body {
+  font-size: 62.5%; /* font-size 1em = 10px */
+}
+p {
+  font-size: 1.6em; /* 1.6em = 16px */
+}
+}}{{Single Example
+|Language=CSS
 |Description=This is a block of CSS examples.
 |Code=/* Set paragraph text to be very large. */
 p { font-size: xx-large }
@@ -71,18 +82,13 @@ Another way of setting the font size is with <code>em</code> values. The size of
 
 In order to calculate the <code>em</code> equivalent for any pixel value required, you can use this formula:
 
-{{Single_Example|Code=em = desired element pixel value / parent element font-size in pixels|Language=CSS}}
+
 
 For example, suppose the font-size of the body of the page is set to 1em, with the browser standard of 1em = 16px; if the font-size you want is 12px, then you should specify 0.75em (because 12/16 = 0.75). Similarly, if you want a font size of 10px, then specify 0.625em (10/16 = 0.625); for 22px, specify 1.375em (22/16).
 
 A popular technique to use throughout the document is to set the the font-size of the body to 62.5% (that is 62.5% of the default of 16px), which equates to 10px, or 0.625em. Now you can set the font-size for any elements using em units, with an easy-to-remember conversion, by dividing the px value by 10. This way 6px = 0.6em, 8px = 0.8em, 12px = 1.2em, 14px = 1.4em, 16px = 1.6em. For example:
 
-{{Single_Example|Code=body {
-  font-size: 62.5%; /* font-size 1em = 10px */
-}
-p {
-  font-size: 1.6em; /* 1.6em = 16px */
-}|Language=CSS}}
+
 
 The em is a very useful unit in CSS, since it can adapt automatically to the font that the reader chooses to use.
 |Notes=The <code>em</code> and <code>ex</code> units on the font-size property are relative to the parent element's font size (unlike all other properties, where they're relative to the font size on the element). This means em units and percentages do the same thing for font-size.
@@ -137,6 +143,28 @@ The em is a very useful unit in CSS, since it can adapt automatically to the fon
 |Version=4+
 |Note=Possible length values specified in a relative measurement, using the height of the element's font (em) or the height of the letter "x" (ex)
 }}
+}}
+{{See_Also_Section
+|Content====Related CSS Properties===
+* <code>[[CSS/properties/font | font]]</code>
+* <code>[[CSS/properties/font-family | font-family]]</code>
+* <code>[[CSS/properties/font-size | font-size]]</code>
+* <code>[[CSS/properties/font-size-adjust | font-size-adjust]]</code>
+* <code>[[CSS/properties/font-stretch | font-stretch]]</code>
+* <code>[[CSS/properties/font-style | font-style]]</code>
+* <code>[[CSS/properties/font-variant | font-variant]]</code>
+* <code>[[CSS/properties/font-weight | font-weight]]</code>
+
+===Related CSS At Rules===
+* <code>[[CSS/atrules/@font-face | @font-face]]</code>
+
+===Related DOM Interfaces===
+* <code>[[DOM/element/CSSStyleDeclaration | CSSStyleDeclaration]]</code>
+
+===Related DOM properties===
+* <code>[[DOM/element/properties/currentStyle | element.currentStyle]]</code>
+* <code>[[DOM/element/properties/defaults | element.defaults]]</code> ''IE Only''
+
 }}
 {{Editorial/Copyright Issue | Some content is under CC-BY-SA, but we haven't wrapped which pieces. }}
 {{External_Attribution
