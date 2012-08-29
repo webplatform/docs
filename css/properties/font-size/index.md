@@ -112,28 +112,7 @@ The em is a very useful unit in CSS, since it can adapt automatically to the fon
 }}
 }}
 {{Compatibility_Section
-|Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Yes
-|Chrome=5.0
-|Chrome_prefixed_supported=Yes
-|Chrome_prefixed=4.0
-|Firefox_supported=Yes
-|Firefox=1.0
-|Firefox_prefixed_supported=Unknown
-|Firefox_prefixed=
-|Internet_explorer_supported=Yes
-|Internet_explorer=5.5
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed=
-|Opera_supported=Yes
-|Opera=7.0
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed=
-|Safari_supported=Yes
-|Safari=1.0
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed=
-}}
+|Desktop_rows=
 |Mobile_rows={{Compatibility Table Mobile Row
 |Android={{Compat_Supported}}
 |Firefox_mobile=1.0
