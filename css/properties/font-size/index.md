@@ -78,7 +78,7 @@ For example, suppose the font-size of the body of the page is set to 1em, with t
 
 A popular technique to use throughout the document is to set the the font-size of the body to 62.5% (that is 62.5% of the default of 16px), which equates to 10px, or 0.625em. Now you can set the font-size for any elements using em units, with an easy-to-remember conversion, by dividing the px value by 10. This way 6px = 0.6em, 8px = 0.8em, 12px = 1.2em, 14px = 1.4em, 16px = 1.6em. For example:
 
-{[Inline_Example|Code=body {
+{{Inline_Example|Code=body {
   font-size: 62.5%; /* font-size 1em = 10px */
 }
 p {
