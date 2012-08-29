@@ -134,13 +134,7 @@ The em is a very useful unit in CSS, since it can adapt automatically to the fon
 |Safari_prefixed_supported=No
 |Safari_prefixed_version=
 }}
-|Mobile_rows={{Compatibility Table Mobile Row
-|Android={{Compat_Supported}}
-|Firefox_mobile=1.0
-|IE_phone=6.0
-|Opera_mobile=6.0
-|Safari_mobile={{Compat_Unsupported}}
-}}
+|Mobile_rows=
 |Notes_rows={{Compatibility Notes Row
 |Browser=Internet Explorer
 |Version=6+
