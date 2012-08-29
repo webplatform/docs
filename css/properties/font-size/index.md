@@ -72,7 +72,7 @@ The em is a very useful unit in CSS, since it can adapt automatically to the fon
 {{Examples_Section
 |Examples={{Single Example
 |Language=CSS
-|Descrption=This is a block of CSS examples.
+|Description=This is a block of CSS examples.
 |Code=/* Set paragraph text to be very large. */
 p { font-size: xx-large }
  
