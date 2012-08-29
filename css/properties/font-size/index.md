@@ -71,6 +71,8 @@ The em is a very useful unit in CSS, since it can adapt automatically to the fon
 }}
 {{Examples_Section
 |Examples={{Single Example
+|Language=CSS
+|Descrption=This is a block of CSS examples.
 |Code=/* Set paragraph text to be very large. */
 p { font-size: xx-large }
  
@@ -81,11 +83,10 @@ h1 { font-size: 250% }
 /* Sets text enclosed within span tag to be 16px */
 span { font-size: 16px; }
 |LiveURL=http://www.google.com
-|Language=CSS
 }}{{Single Example
+|Language=JavaScript
 |Code=var ele = document.getElementyById("my-paragraph");
 ele.style.fontSize = "small";
-|Language=JavaScript
 }}
 }}
 {{Related_Specifications_Section
