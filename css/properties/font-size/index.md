@@ -3,6 +3,7 @@
 |Content=Outdated, Incomplete, Needs Best Practices
 |Compatibility=Missing
 |Examples=Examples have errors
+|Editorial notes={{Editorial/Copyright Issue | Some content is under CC-BY-SA, but we haven't wrapped which pieces. }}
 }}
 {{Summary_Section|The <code>font-size</code> CSS properties specifies the size of the font used for text in the object. Setting the font size may, in turn, change the size of other items, since it is used to compute the value of <code>em</code> and <code>ex</code> length units.}}
 {{CSS Property
@@ -164,9 +165,8 @@ The em is a very useful unit in CSS, since it can adapt automatically to the fon
 ===Related DOM properties===
 * <code>[[DOM/element/properties/currentStyle | element.currentStyle]]</code>
 * <code>[[DOM/element/properties/defaults | element.defaults]]</code> ''IE Only''
-
 }}
-{{Editorial/Copyright Issue | Some content is under CC-BY-SA, but we haven't wrapped which pieces. }}
+
 {{External_Attribution
 |Is_CC-BY-SA=Yes
 |Sources=MDN, MSDN
