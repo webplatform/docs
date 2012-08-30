@@ -210,6 +210,7 @@ IMPORTANT: Please don't pollute these pages with random stuff - if you just want
 * International projects
 ** [[Croatian international project]]
 ** [[French international project]]
+** [[it/|Italian international project]]
 ** [[Japanese international project]]
 ** [[fa/|Persian language international project]]
 ** [[Es/|Spanish international project]]
