@@ -8,11 +8,8 @@
 
 Before I look specifically at accessibility on the web, let’s start by looking at accessibility in general terms—after all, accessibility isn’t just a concern associated with web sites; it is potentially a concern with every service, object or technology you’ll come across in life.
 
-Note that an associated topic to learn about is [http://www.w3.org/WAI/intro/aria WAI ARIA]—the Web Accessibility Initiative’s Accessible Rich Internet Applications initiative, which is basically a methodology to allow the creation of more accessible Ajax/JavaScript-powered applications. You can find a [http://dev.opera.com/articles/view/introduction-to-wai-aria/ great introductory article] covering ARIA on dev.opera.com. {{citation needed}}
+Note that an associated topic to learn about is [http://www.w3.org/WAI/intro/aria WAI ARIA]—the Web Accessibility Initiative’s Accessible Rich Internet Applications initiative, which is basically a methodology to allow the creation of more accessible Ajax/JavaScript-powered applications. You can find a [http://dev.opera.com/articles/view/introduction-to-wai-aria/ great introductory article] covering ARIA on dev.opera.com. 
 
-
-{{TODO| Create flag that this article is needed in WPD }}
- 
 Stella Systems have made a wonderful video that uses the text from the first part of this article as spoken word dialog, along with fantastic illustrations, and English and Russian subtitles. [http://www.youtube.com/watch?v=B-ERNJgAJ7s Watch the video on YouTube]. Thanks to Dmitry Nechiporenko, Anton Pashchenko, Lucy Stepanovska and Leonid Strorozhuk for this.
 
 ==What is Accessibility?== 
