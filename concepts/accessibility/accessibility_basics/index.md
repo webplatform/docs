@@ -2,11 +2,9 @@
 |High-level issues=Copyright Issue
 |Content=Outdated
 }}
-{{Summary_Section}}
+{{Summary_Section|When you create a web site, accessibility—making the web site usable by everyone, regardless of their ability or disability—should always be a central concern. In this article I’ll look at accessibility explicitly, so you can understand fully what it is, why it is important, how to ensure that sites are accessible, and what guidelines exist to define accessible sites.}}
 {{Tutorial
 |Content===Introduction==
-
-When you create a web site, accessibility—making the web site usable by everyone, regardless of their ability or disability—should always be a central concern. So far in this course accessibility has always been implicit in all the examples you’ve seen, even if you didn’t realise it; in this article I’ll look at accessibility explicitly, so you can understand fully what it is, why it is important, how to ensure that sites are accessible, and what guidelines exist to define accessible sites.
 
 Before I look specifically at accessibility on the web, let’s start by looking at accessibility in general terms—after all, accessibility isn’t just a concern associated with web sites; it is potentially a concern with every service, object or technology you’ll come across in life.
 
@@ -294,7 +292,6 @@ Accessibility is an important topic for both economic and social reasons. It is 
 *Explain how you would design an interaction on a web page to be accessible. Create the step by step instructions for creating a tree control (you don’t actually have to make it).
 
 Note: This material was originally published as part of the Opera Web Standards Curriculum, available as [http://dev.opera.com/articles/view/25-accessibility-basics/ Accessibility basics], written by Tom Hughes-Croucher. Like the original, it is published under the [http://creativecommons.org/licenses/by-nc-sa/2.5/ Creative Commons Attribution, Non Commercial - Share Alike 2.5] license.
-
 }}
 {{Compatibility_Section
 |Desktop_rows=
