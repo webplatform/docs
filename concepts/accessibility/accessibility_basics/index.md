@@ -172,6 +172,8 @@ In this example the <code>selected</code> class would be used to specify which t
 
 This structure is fine for informational content. In this example, the <code>class</code> of <code>selected</code> would be used to signify which tab is the active tab, ie, the one that is open and displaying its information; the others would be closed (ie, their paragraphs hidden) until their corresponding links are clicked on. The dogs tab is the default active tab, as shown in Figure 1.
 
+[[File:Accessibility_figure10.png|516px|tab control showing the default dogs tab active]] 
+
 {{TODO| Add image: Accessibility_figure10.png title="tab control showing the default dogs tab active" alt="tab control showing the default dogs tab active" width="516" height="58" border="0" }}
 
 Figure 1: A simple tab control showing the dogs tab, the default, active.
@@ -290,7 +292,6 @@ Accessibility is an important topic for both economic and social reasons. It is 
 *Create an example of an accessible use of alternative content using some of your own content, such as a photo.
 *Use the internet to research how you would make a technology like Flash or Silverlight accessible and write a comparison between making them accessible, and how you make HTML accessible.
 *Explain how you would design an interaction on a web page to be accessible. Create the step by step instructions for creating a tree control (you don’t actually have to make it).
-
 }}
 {{Compatibility_Section
 |Desktop_rows=
