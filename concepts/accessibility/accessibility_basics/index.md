@@ -174,8 +174,6 @@ This structure is fine for informational content. In this example, the <code>cla
 
 [[File:Accessibility_figure10.png|516px|tab control showing the default dogs tab active]] 
 
-{{TODO| Add image: Accessibility_figure10.png title="tab control showing the default dogs tab active" alt="tab control showing the default dogs tab active" width="516" height="58" border="0" }}
-
 Figure 1: A simple tab control showing the dogs tab, the default, active.
 
 Once another link is clicked on (as shown in Figure 2) JavaScript would then be used to dynamically move the <code>class="selected"</code> to that link, at which point style would be applied to that tab to display it, and the one that was previously displayed would be hidden.
