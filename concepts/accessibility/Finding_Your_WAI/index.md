@@ -21,11 +21,11 @@ We think you'll find some documents that you didn't even know existed on the WAI
 
  
 * '''[[http://www.w3.org/WAI/demos/bad/ BAD - the Before and After Demonstration]]''' shows an inaccessible website and a retrofitted version of the same   website with the accessibility barriers fixed. It includes in-line notes   (&quot;annotations&quot;) for you to get more information, and evaluation reports   that list the accessibility problems for each page.
-* [[http://www.w3.org/WAI/training/accessible How to Make Presentations Accessible to All]] helps you make your presentations, talks, meetings, and training accessible to all of your potential audience, including people with disabilities and others.
-* [[http://www.w3.org/WAI/users/inaccessible Contacting Organizations about Inaccessible Websites]] includes tips and sample e-mails for telling organizations about accessibility barriers on their website.
-* [[http://www.w3.org/WAI/bcase/resources.html Resources for Developing a Web Accessibility Business Case for Your Organization]] has statistics, case studies, and articles.
-* [[http://www.w3.org/WAI/users/involving.html Involving Users in Web Projects for Better, Easier Accessibility]] describes how project managers, designers, and developers can better understand accessibility issues and implement more effective accessibility solutions in their websites,  tools,  and technical specifications.
-* [[http://www.w3.org/WAI/training/Overview.html Developing Web Accessibility Presentations and Training]] offers materials for speakers and trainers to help their participants understand more about web accessibility.
+* '''[[http://www.w3.org/WAI/training/accessible How to Make Presentations Accessible to All]]''' helps you make your presentations, talks, meetings, and training accessible to all of your potential audience, including people with disabilities and others.
+*''' [[http://www.w3.org/WAI/users/inaccessible Contacting Organizations about Inaccessible Websites]]''' includes tips and sample e-mails for telling organizations about accessibility barriers on their website.
+* '''[[http://www.w3.org/WAI/bcase/resources.html Resources for Developing a Web Accessibility Business Case for Your Organization]]''' has statistics, case studies, and articles.
+* '''[[http://www.w3.org/WAI/users/involving.html Involving Users in Web Projects for Better, Easier Accessibility]]''' describes how project managers, designers, and developers can better understand accessibility issues and implement more effective accessibility solutions in their websites,  tools,  and technical specifications.
+* '''[[http://www.w3.org/WAI/training/Overview.html Developing Web Accessibility Presentations and Training]]''' offers materials for speakers and trainers to help their participants understand more about web accessibility.
  
 To find more new and developing resources, see:
 
