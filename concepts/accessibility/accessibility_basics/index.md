@@ -178,7 +178,7 @@ Figure 1: A simple tab control showing the dogs tab, the default, active.
 
 Once another link is clicked on (as shown in Figure 2) JavaScript would then be used to dynamically move the <code>class="selected"</code> to that link, at which point style would be applied to that tab to display it, and the one that was previously displayed would be hidden.
 
-{{TODO| Add image: Accessibility_figure20.png title="tab control showing a new active tab after its link has been clicked on" alt="tab control showing a new active tab after its link has been clicked on" width="517" height="59" border="0" }}
+[[File:Accessibility figure20.png|517px|tab control showing a new active tab after its link has been clicked on]]
 
 Figure 2: Now a different link has been clicked on, its corresponding tab becomes active.
 
