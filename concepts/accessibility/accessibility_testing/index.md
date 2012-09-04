@@ -147,7 +147,7 @@ Here’s a cautionary tale. Section 508 (§ 1194.22) includes a requirement that
 
 Unfortunately, many people reading such guidance misunderstand what a genuine text equivalent for a spacer and decorative elements should be, and produce markup like this:
 
-<pre>&lt;img alt=&quot;fancy border&quot; src=&quot;fancy-border.gif&quot; border=&quot;0&quot;&gt;</pre>
+<syntaxhighlight>&lt;img alt=&quot;fancy border&quot; src=&quot;fancy-border.gif&quot; border=&quot;0&quot;&gt;</syntaxhighlight>
 
 In fact, since these images convey no new information and have no functionality, the right text equivalent for those images would be an empty string (<code>alt=""</code>), which causes the screenreader to just skip over the alt attribute and not read it out. It is very annoying for a screenreader user to have to listen to text such as "fancy border" read out over and over again, when it does not provide them with any useful information.
 
@@ -267,8 +267,7 @@ Beyond that, a good way to test the operability of websites is simply to try to 
 
 Screen readers and other assistive technology can make use of the semantic structure of (X)HTML to correctly associate content and to enable navigation of content. For example, screen readers can allow users to jump to the next occurrence of headings or other element type, or they can list all occurrences of a certain type. Correct use of <code>label</code> and <code>legend</code> elements allows assistive technology to associate labels with the correct form fields; correct use of <code>th</code> elements and <code>header</code>, <code>scope</code>, and <code>axis</code> attributes allows it to associate table headings with table data cells. Semantic structure may be evaluated with a document object model (DOM) inspector like the one found in Opera Dragonfly. Accessibility inspection tools like the Firefox Accessibility Extension can make such tasks easier by, for example, listing the headings on the page, or listing the attributes of form fields (quickly showing which ones are missing associated labels). See Figure 1 for an example.
 
-{{TODO| Add image from http://www.w3.org/wiki/File:Firefox-.gif using the following title, alt, etc.}}
-<a href="/wiki/File:Firefox-.gif" class="image" title="Screenshot of Firefox Accessibility Extensions forms information window with the new BBC homepage"><img alt="Screenshot of Firefox Accessibility Extensions forms information window with the new BBC homepage" src="/wiki/images/1/1a/Firefox-.gif" width="550" height="393" border="0" /></a>
+[[File:Firefox-.gif|550px|Screenshot of Firefox Accessibility Extensions forms information window with the new BBC homepage]]
 
 Figure 1: Screenshot of Firefox Accessibility Extension’s forms information window with the new BBC homepage.
 
