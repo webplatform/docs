@@ -1,9 +1,7 @@
 {{Flags
 |Content=Outdated
 }}
-{{Summary_Section|Web accessibility testing is a subset of usability testing where the users under consideration have disabilities that affect how they use the web. The end goal, in both usability and accessibility, is to discover how easily people can use a web site and feed that information back into improving future designs and implementations.
-
-}}
+{{Summary_Section|Web accessibility testing is a subset of usability testing where the users under consideration have disabilities that affect how they use the web. The end goal, in both usability and accessibility, is to discover how easily people can use a web site and feed that information back into improving future designs and implementations.}}
 {{Tutorial
 |Content===Introduction==
 
@@ -120,7 +118,7 @@ You can take these personas and incorporate disabilities including (for example)
 
 For example, you might decide that James is also deaf and wants commentary on match videos to be captioned, and Sarah has poor eyesight and struggles to read fancy fonts and tiny text. These personas guide your rejection of prototypes that fail to include the facility for closed captions in the video player, or use elaborate text headings that would require images.
 
-The WAI’s [http://www.w3.org/WAI/EO/Drafts/PWD-Use-Web/ How People with Disablities Use the Web] and Shawn Lawton Henry’s [http://www.uiaccess.com/accessucd/personas.html] Just Ask: Integrating Accessibility Throughout Design] contain some more example disability-inflected personas to get you started.
+The WAI’s [http://www.w3.org/WAI/EO/Drafts/PWD-Use-Web/ How People with Disablities Use the Web] and Shawn Lawton Henry’s [http://www.uiaccess.com/accessucd/personas.html Just Ask: Integrating Accessibility Throughout Design] contain some more example disability-inflected personas to get you started.
 
 It shouldn’t need saying, but don’t assume people with disabilities are interchangeable. Disability is an incredibly varied phenomenon, and on top of that people with disabilities have all the variety that people without disabilities have, differing (for example) in gender, age, interests, values, and skills (perhaps most relevantly, in their computing expertise).
 
@@ -388,8 +386,6 @@ Not every webpage will receive an accessibility evaluation by experts and a suit
 *Turn off CSS and do your normal browsing for a day. What problems do you encounter?
 *Turn off JavaScript and do your normal browsing for a day. What problems do you encounter?
 *Pick a favourite site, design some personas for the site, then evaluate its conformance with WCAG 1.0 and general accessibility as an expert tester. Design a user testing plan for a site, and include recruit requirements and tasks to test. Write up a report on how it could improve its accessibility.
-
-
 }}
 {{Compatibility_Section
 |Desktop_rows=
