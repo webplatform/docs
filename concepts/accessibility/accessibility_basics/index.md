@@ -291,7 +291,6 @@ Accessibility is an important topic for both economic and social reasons. It is 
 *Use the internet to research how you would make a technology like Flash or Silverlight accessible and write a comparison between making them accessible, and how you make HTML accessible.
 *Explain how you would design an interaction on a web page to be accessible. Create the step by step instructions for creating a tree control (you don’t actually have to make it).
 
-Note: This material was originally published as part of the Opera Web Standards Curriculum, available as [http://dev.opera.com/articles/view/25-accessibility-basics/ Accessibility basics], written by Tom Hughes-Croucher. Like the original, it is published under the [http://creativecommons.org/licenses/by-nc-sa/2.5/ Creative Commons Attribution, Non Commercial - Share Alike 2.5] license.
 }}
 {{Compatibility_Section
 |Desktop_rows=
