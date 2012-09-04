@@ -129,10 +129,10 @@ The one disability group that a text alternative can’t necessarily support is 
 
 How should you implement text alternatives on your site? The first step is to identify things that aren’t already text. In HTML there are only so many things that aren’t already text. Images are the most obvious ones. Here is an example of an accessible use of an image:
 
-<pre>&lt;p&gt;An interesting piece of art is Michelangelo’s “God creates Adam”
+<syntaxhighlight>&lt;p&gt;An interesting piece of art is Michelangelo’s “God creates Adam”
 &lt;img src=&quot;images/adam.jpg&quot; alt=&quot;A painting of a man reaching up to touch God’s hand
 reaching down. It is cracked with age.&quot; longdesc=&quot;adam.html&quot;&gt;.&lt;/p&gt;
-</pre>
+</syntaxhighlight>
 
 The image in this example is an integral part of the content. The <code>alt</code> attribute contains a short description of the image for people (or search engines) that might not be able to see the image correctly. The <code>longdesc</code> attribute allows you to link to an HTML page containing a full description of the image. This is generally only used to describe complex images that are used as central content. It also suffer from poor support in browsers. Most of the time you will only use the <code>alt</code> attribute.
 
@@ -297,7 +297,4 @@ Accessibility is an important topic for both economic and social reasons. It is 
 {{See_Also_Section}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
