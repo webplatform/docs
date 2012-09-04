@@ -6,7 +6,7 @@
 Presentations you can copy, business case resources, what to do when you come across an inaccessible website, and much much more are available on the [http://www.w3.org/WAI/ WAI website] for '''managers, policy makers, presenters, developers, designers, and people with disabilities'''.
 
  
-Whether you already use WAI resources or you're new to web accessibility, we encourage you to look around and find more information that is useful to you. This page explains strategies for finding what you're looking for on the WAI website. (A separate page provides [[Help with the WAI Web Site]], such as navigating with headings.)
+Whether you already use WAI resources or you're new to web accessibility, we encourage you to look around and find more information that is useful to you. This page explains strategies for finding what you're looking for on the WAI website. (A separate page provides [[http://www.w3.org/WAI/sitehelp.html Help with the WAI Web Site]], such as navigating with headings.)
 
  
 If you don't find what you're looking for or have any suggestions on what you do find, please let us know by sending e-mail to:
@@ -66,8 +66,6 @@ We would appreciate your helping spread the word about WAI resources. Here are s
  
 * This page (Finding Your WAI) &mdash; [[http://bit.ly/yourWAI http://bit.ly/yourWAI]]
 * [[http://www.w3.org/WAI/participation Participating in WAI]] &mdash; [[http://bit.ly/ComeThisWAI http://bit.ly/ComeThisWAI]]
- 
-
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
