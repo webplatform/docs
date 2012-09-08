@@ -9,8 +9,3 @@
 |MSDN_link=
 |HTML5Rocks_link=
 }}
-{{Compatibility_Section
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
