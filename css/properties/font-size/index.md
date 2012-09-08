@@ -6,6 +6,7 @@
 |Editorial notes={{Editorial/Copyright Issue | Some content is under CC-BY-SA, but we haven't wrapped which pieces. }}
 }}
 {{Standardization_Status|W3C Recommendation}}
+{{API_Name}}
 {{Summary_Section|The <code>font-size</code> CSS properties specifies the size of the font used for text in the object. Setting the font size may, in turn, change the size of other items, since it is used to compute the value of <code>em</code> and <code>ex</code> length units.}}
 {{CSS Property
 |Initial value=medium
@@ -33,6 +34,7 @@
 |Value_Name=percentage
 }}
 {{Examples_Section
+|Not_required=No
 |Examples={{Single Example
 |Language=CSS
 |Description=This is a block of CSS examples.
@@ -113,6 +115,7 @@ The em is a very useful unit in CSS, since it can adapt automatically to the fon
 }}
 }}
 {{Compatibility_Section
+|Not_required=No
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
 |Chrome_version=5.0
