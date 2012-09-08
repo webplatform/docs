@@ -1,10 +1,8 @@
 {{Flags}}
-{{Glossary
-|Topics=CSS
-}}
+{{Glossary}}
 {{Notes_Section}}
 {{See_Also_Section}}
-{{Topics}}
+{{Topics|No}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
