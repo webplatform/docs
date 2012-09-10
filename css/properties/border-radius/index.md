@@ -1,3 +1,7 @@
+{{Flags}}
+{{Standardization_Status}}
+{{API_Name}}
+{{Summary_Section}}
 {{CSS Property
 |Initial value=0
 |Applies to=all elements, except the 'table' element when border-collapse is collapse
@@ -24,6 +28,28 @@ The syntax of the second radius also allows one to four values
 
 border-radius: inherit
 |Value_Name=percentage
+}}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
+{{Notes_Section}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section}}
+{{Topics}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
 }}
 == Example ==
 
