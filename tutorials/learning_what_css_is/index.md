@@ -59,7 +59,7 @@ This is some sample text to allow me to see how this will be rendered in the fin
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
+|Sources=MSDN
 |MDN_link=
-|MSDN_link=
 |HTML5Rocks_link=
 }}
