@@ -22,12 +22,7 @@ For example, the document that you are reading now is not stored in a file. When
 
 For more information about documents and markup languages, see other parts of this web site—for example:
 
-{|
-This is a table
-|}
-
-
-{|
+<!--{|
 |-
 | [[HTML]] || for web pages
 |-
@@ -36,7 +31,7 @@ This is a table
 | [[SVG]] || for graphics
 |-
 | [[XUL]] || for user interfaces in Mozilla
-|}
+|}-->
 
 In Part II of this tutorial you will see examples of these markup languages.
 
