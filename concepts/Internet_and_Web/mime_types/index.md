@@ -1,0 +1,25 @@
+{{Flags
+|High-level issues=Stub
+}}
+{{API_Name}}
+{{Summary_Section}}
+{{Concept_Page
+|Content===MIME Types==
+Stub.
+}}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
+{{Notes_Section}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{See_Also_Section}}
+{{Topics|Web Services}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
+}}
