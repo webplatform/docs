@@ -8,10 +8,9 @@
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=CSS Font
-|Manual_links=* [[http://www.google.com Google]]
-* [[http://www.mozilla.org Mozilla]]
-* [[http://www.opera.com Opera]]
+|Manual_links=* [http://www.google.com Google]
+* [http://www.mozilla.org Mozilla]
+* [http://www.opera.com Opera]
 }}
 {{Topics}}
 {{External_Attribution
