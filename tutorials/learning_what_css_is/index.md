@@ -21,8 +21,8 @@ A document is not the same as a file. It might or might not be stored in a file.
 For example, the document that you are reading now is not stored in a file. When your web browser requests this page, the server queries a database and generates the document, gathering parts of the document from many files. However, in this tutorial you will work with documents that are stored in files.
 
 For more information about documents and markup languages, see other parts of this web site—for example:
-                    
-{| 
+
+{|
 |-
 | [[HTML]] || for web pages
 |-
@@ -34,7 +34,7 @@ For more information about documents and markup languages, see other parts of th
 |}
 
 In Part II of this tutorial you will see examples of these markup languages.
-  
+
 ''Presenting'' a document to a user means converting it into a form that humans can make use of. Browsers, like Firefox, Chrome or Internet Explorer, are designed to present documents visually — for example, on a computer screen, projector or printer.
 
 CSS is not just for browsers, and not just for visual presentation. In formal CSS terminology, the program that presents a document to a user is called a ''user agent'' (UA). A browser is just one kind of UA. However, in Part I of this tutorial you will only work with CSS in a browser.
@@ -76,37 +76,27 @@ What you see in your browser might not look exactly the same as this, because of
 |Feature=CSS
 |Chrome_supported=Yes
 |Chrome_prefixed_supported=No
-|Chrome_prefixed_version=
 |Firefox_supported=Yes
 |Firefox_prefixed_supported=No
-|Firefox_prefixed_version=
 |Internet_explorer_supported=Yes
 |Internet_explorer_prefixed_supported=No
-|Internet_explorer_prefixed_version=
 |Opera_supported=Yes
 |Opera_prefixed_supported=No
-|Opera_prefixed_version=
 |Safari_supported=Yes
 |Safari_prefixed_supported=No
-|Safari_prefixed_version=
 }}
 |Mobile_rows={{Compatibility Table Mobile Row
 |Feature=CSS
 |Android_supported=Yes
 |Android_prefixed_supported=No
-|Android_prefixed_version=
 |Firefox_mobile_supported=Yes
 |Firefox_mobile_prefixed_supported=No
-|Firefox_mobile_prefixed_version=
 |IE_phone_supported=Yes
 |IE_phone_prefixed_supported=No
-|IE_phone_prefixed_version=
 |Opera_mobile_supported=Yes
 |Opera_mobile_prefixed_supported=No
-|Opera_mobile_prefixed_version=
 |Safari_mobile_supported=Yes
 |Safari_mobile_prefixed_supported=No
-|Safari_mobile_prefixed_version=
 }}
 |Notes_rows={{Compatibility Notes Row
 |Browser=Lynx
@@ -129,6 +119,4 @@ This is some sample text to allow me to see how this will be rendered in the fin
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MDN_link=
-|HTML5Rocks_link=
 }}
