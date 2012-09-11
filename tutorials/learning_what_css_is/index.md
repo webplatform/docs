@@ -48,7 +48,7 @@ For some formal definitions of terminology relating to CSS, see [[Definitions]] 
 # Use your computer to create a new directory and a new text file there. The file will contain your document.
 # Copy and paste the HTML shown below. Save the file using the name <code>doc1.html</code>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre><code>&lt;!DOCTYPE html&gt;
 &lt;html&gt;
   &lt;head&gt;
     &lt;meta charset="UTF-8"&gt;
@@ -62,7 +62,7 @@ For some formal definitions of terminology relating to CSS, see [[Definitions]] 
       &lt;strong&gt;S&lt;/strong&gt;heets
     &lt;/p&gt;
   &lt;/body&gt;
-&lt;/html&gt;</pre>
+&lt;/html&gt;</code></pre>
 
 # In your browser, open a new tab or a new window, and open the file there.
 
