@@ -68,7 +68,7 @@ pasted-in table
 |A manual attirbution block at bottom?
 |}
 
-
+end pasted-in table
 
 }}
 {{Examples_Section
