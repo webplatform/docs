@@ -24,18 +24,15 @@ For more information about documents and markup languages, see other parts of th
                     
 {| border="1"
 |-
-|[[HTML]]
-|for web pages
+| [[HTML]] || for web pages
 |-
-|[[XML]]
-|for structured documents in general
+| [[XML]] || for structured documents in general
 |-
-|[[SVG]]
-|for graphics
+| [[SVG]] || for graphics
 |-
-|[[XUL]]
-|for user interfaces in Mozilla
-|} 
+| [[XUL]] || for user interfaces in Mozilla
+|}
+
 In Part II of this tutorial you will see examples of these markup languages.
   
 ''Presenting'' a document to a user means converting it into a form that humans can make use of. Browsers, like Firefox, Chrome or Internet Explorer, are designed to present documents visually — for example, on a computer screen, projector or printer.
