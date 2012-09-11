@@ -24,6 +24,51 @@ Pre-table text.
 
 Post-table text.
 
+pasted-in table
+
+{| class="wikitable"
+! TOPIC
+! Subtopic
+! Owner
+! Status
+! Note
+|-
+|Figure out locations for all articles
+|
+| Chris
+|
+| Blocked on finalizing the URL structure. First step is to break up the list of articles to set up. Then assign people to take responsibility for each section.
+|-
+| Migrate test article from MSDN
+|
+| Doug*, work will be done by Yaron 
+|
+| 
+|-
+|Migrate existing articles
+|
+| Doug*, work will be done by Yaron
+|
+|
+|-
+|rowspan="3"|Figure out concrete MDN licensing flow
+|New pages
+| Janet
+|
+|
+|-
+|Merging content in
+| Janet
+|
+|
+|-
+|SA License
+| Janet
+|
+|A manual attirbution block at bottom?
+|}
+
+
 }}
 {{Examples_Section
 |Not_required=Yes
