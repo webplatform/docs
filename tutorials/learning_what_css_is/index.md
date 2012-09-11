@@ -22,6 +22,8 @@ For example, the document that you are reading now is not stored in a file. When
 
 For more information about documents and markup languages, see other parts of this web site—for example:
 
+THERE SHOULD BE A TABLE HERE, BUT IT WON'T RENDER FOR SOME REASON - I REALLY DON'T KNOW WHY.
+
 <!--{|
 |-
 | [[HTML]] || for web pages
