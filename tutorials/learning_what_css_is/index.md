@@ -14,7 +14,7 @@
 |External_links=* [http://www.google.com Google]
 * [http://www.mozilla.org Mozilla]
 * [http://www.opera.com Opera]
-|Manual_sections===Another section==
+|Manual_sections====Another section===
 
 This is some sample text to allow me to see how this will be rendered in the final page.
 }}
