@@ -56,7 +56,7 @@
 
 This is some sample text to allow me to see how this will be rendered in the final page.
 }}
-{{Topics}}
+{{Topics|Accessibility, CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
