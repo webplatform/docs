@@ -1,8 +1,7 @@
 {{Flags}}
 {{Summary_Section|The article introduces you to Cascading style sheets, or CSS, defining what they are, and what they are used for on the Web.}}
 {{Tutorial
-|Content=
-{{ CSSTutorialTOC() }}
+|Content={{ CSSTutorialTOC() }}
 
  
 This is the first section of the [[CSS Getting Started]] tutorial and explains what CSS is. You create a simple document that you will work with on the following pages.
@@ -88,8 +87,6 @@ For some formal definitions of terminology relating to CSS, see [[Definitions]] 
 == What next? ==
  
 {{nextPage("/en-US/docs/CSS/Getting_Started/Why_use_CSS", "Why use CSS?")}}Your document does not yet use CSS. On the [[next section]] you use CSS to specify its style.
-
- 
 }}
 {{Compatibility_Section
 |Not_required=No
