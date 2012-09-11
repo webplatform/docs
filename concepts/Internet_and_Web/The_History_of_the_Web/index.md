@@ -1,7 +1,6 @@
 {{Flags}}
 {{API_Name}}
-{{Summary_Section|== Introduction ==
- <blockquote> 
+{{Summary_Section|<blockquote> 
 Where shall I begin, please your Majesty?
  
 Begin at the beginning, the King said gravely, and go on till you come to the end: then stop.
@@ -13,6 +12,19 @@ Begin at the beginning, the King said gravely, and go on till you come to the en
 Everything has to begin somewhere, so lets start with a focused history lesson. Below we'll give you a brief overview of the creation of the Internet, the World Wide Web, and the web standards that this entire series focuses upon.
  
 If any terms are unfamiliar to you, don’t worry: if they’re important for learning web development they’ll be defined in the later articles that go into more depth on each subject, and you can always search them out using your search engine of choice! If you are already familiar with the history of the Internet or the World Wide Web, feel free to skip to the section on [[http://www.w3.org/wiki/The_history_of_the_Web#The_coming_of_web_standards web standards]]. 
+|== Introduction ==
+ <blockquote> 
+Where shall I begin, please your Majesty?
+ 
+Begin at the beginning, the King said gravely, and go on till you come to the end: then stop.
+ 
+''Alice’s Adventures in Wonderland; Lewis Caroll''
+
+ </blockquote> 
+
+Everything has to begin somewhere, so lets start with a focused history lesson. Below we'll give you a brief overview of the creation of the Internet, the World Wide Web, and the web standards that this entire series focuses upon.
+ 
+If any terms are unfamiliar to you, don’t worry: if they’re important for learning web development they’ll be defined in the later articles that go into more depth on each subject, and you can always search them out using your search engine of choice! If you are already familiar with the history of the Internet or the World Wide Web, feel free to skip to the section on [[http://www.w3.org/wiki/The_history_of_the_Web#The_coming_of_web_standards web standards]].
 }}
 {{Concept_Page
 |Content=== The Internet’s origins ==
