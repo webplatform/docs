@@ -22,7 +22,7 @@ For example, the document that you are reading now is not stored in a file. When
 
 For more information about documents and markup languages, see other parts of this web site—for example:
                     
-{| border="1"
+{| 
 |-
 | [[HTML]] || for web pages
 |-
