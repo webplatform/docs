@@ -1,7 +1,7 @@
 {{Flags}}
 {{Glossary_Item
 |Term=ascender
-|Definition=The upward-pointing stem of a glyph, such as "d" or "h", that extends toward the cap line.
+|Definition=The upward-pointing stem of a letter, such as "d" or "h", that extends toward the cap line.
 }}
 {{Notes_Section}}
 {{See_Also_Section}}
