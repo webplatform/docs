@@ -3,7 +3,7 @@
 |Term=weight
 |Definition=In typography, the relative heaviness or lightness of rules, borders, and character strokes.
 
-In CSS, the importance or lack thereof of a directive such as a style rule.
+In CSS, the importance or lack thereof of a directive, such as a style rule.
 }}
 {{Notes_Section}}
 {{See_Also_Section}}
