@@ -11,10 +11,9 @@ This article covers the underlying technologies that power the World Wide Web:
 * Static and dynamic content
  
 While most of what’s covered here won’t help you to build a better web site, it will give you the proper language to use when speaking with clients and with others about the Web. It’s like a wise nun-turned-nanny once said in ''The Sound of Music'': “When we read we begin with ABC. When we sing we begin with Do Re Mi.”. In this article I will briefly look at how computers actually communicate, then go on to look at the different languages that go together to create the web pages that make up the Web.
-
 }}
 {{Concept_Page
-|Content= == How do computers communicate via the Internet? ==
+|Content=== How do computers communicate via the Internet? ==
  
 Thankfully, we have kept things simple for computers. When it comes to the World Wide Web, most pages are written using the same language, HTML, which is passed around using a common protocol — HTTP. HTTP is the common internet language (dialect, or specification), allowing a Windows machine, for example, to sing in harmony with a machine running the latest and greatest version of Linux (Do Re Mi!). Through the use of a web browser, a special piece of software that interprets HTTP and renders HTML into a human-readable form, web pages authored in HTML on any type of computer can be read anywhere, including telephones, PDAs and even popular games consoles.
 
@@ -49,7 +48,7 @@ Hypertext Markup Language is actually a pretty good name as far as communicating
 
 Cascading Style Sheets give you complete control over how an element is styled and positioned. It’s easy, using style declarations, to change all paragraphs to be double-spaced (<code>line-height: 2em;</code>), or to make all second-level headings green (<code>color: green;</code>). There are a ton of advantages to separating the structure from the style, and we’ll look at this in more detail [[http://dev.opera.com/articles/view/4-the-web-standards-model-html-css-a/ in the next article]]. To demonstrate the power of HTML and CSS used together, Figure 2 shows some plain HTML on the left, with no formatting added to it at all, while on the right you can see exactly the same HTML with some CSS styles applied to it.
 
-[[Image:article4.gif|successful request response cycle]] 
+[[Image:article4.gif|an image of an HTML page without and with CSS applied]] 
 
 Figure 2: Plain HTML on the left, HTML with CSS applied to it on the right.
  
