@@ -11,19 +11,14 @@ Stub.
 
 Pre-table text.
 
-{| class="wikitable"
-|-
+{{{!}} class="wikitable"
+{{!}}-
 ! Header text !! Header text !! Header text
-|-
-| Example || Example || Example
-|-
-| Example || Example || Example
-|-
-| Example || Example || Example
-|}
+{{!}}-
+{{!}}} Example {{!}}{{!}} Example {{!}}{{!}} Example
+{{!}}}
 
 Post-table text.
-
 }}
 {{Examples_Section
 |Not_required=Yes
