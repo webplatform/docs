@@ -2,7 +2,7 @@
 |High-level issues=Stub
 }}
 {{Basic Page}}
-==Network Architecture==
+==Network architecture==
 Stub.
 {{Topics|Web Services}}
 {{External_Attribution
