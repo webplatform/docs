@@ -1,0 +1,14 @@
+{{Flags}}
+{{Glossary_Item
+|Term=flush
+|Definition=In a layout, a state in which no whitespace is present between two content elements, or between a content element and the edge of its container element.
+}}
+{{Notes_Section}}
+{{See_Also_Section}}
+{{Topics}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
+}}
