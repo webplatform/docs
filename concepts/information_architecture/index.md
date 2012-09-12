@@ -25,7 +25,7 @@ Raul McCoffee, the front man of the group, points out that it would be nice to b
  
 There are two general groups of people who will visit the site—people who know TDB already and like them (fans), and people who are unsure. You’ve got to cater to both those groups in different ways; potential fans need to be “sold” on the group, whereas current fans want to “feed their addiction” (so to speak). What sort of information is each of these groups going to be looking for? Figure 1 gives an indication of this—this is a typical sketch of the type that you’ll want to make at this point in future web site projects. From this, you’ll work out what pages the web site needs, and how they should link to one another.
 
-[[Image:article6.gif|a rough sketch of what your web site should contain]] 
+[[Image:Article6.gif|a rough sketch of what your web site should contain]] 
 
 Figure 1: What your web site visitors want.
  
@@ -37,13 +37,13 @@ A lot of people will throw together a site map at this stage—this looks like a
  
 Now let’s get started with the basics: one of those org charts that I mentioned above. Figure 2 shows my attempt at taking the brainstorm and turning it into a site org chart:
 
-[[Image:article7.gif|the first iteration of the site structure]] 
+[[Image:Article7.gif|the first iteration of the site structure]] 
 
 Figure 2: First iteration of site structure.
  
 That definitely captures all of the pages we’ll need, but there’s no real grouping going on here. It’s just a big mess of pages now, and at this point I hadn’t really given a lot of thought to what things are called. I did one more pass and try to “chunk” the information into slightly larger groupings—Figure 3 shows what I did:
 
-[[Image:article8.gif|the site structure grouped more logically]] 
+[[Image:Article8.gif|the site structure grouped more logically]] 
 
 Figure 3: Site structure, revised.
  
@@ -65,7 +65,7 @@ Here’s an example. Let’s say you’re a car company, and you have a model ca
  
 You don’t have to figure out everything at this point, but you need to at least provide a brief description of what you have in mind for each page. After you’ve got the site structure, number each of your pages and provide a brief description for each page, like I’ve done in Figure 4 for the home page (you’ll get a chance to do this for the other pages in one of the exercises questions at the end of the article.)
 
-[[Image:article9.gif|page details for the home page]] 
+[[Image:Article9.gif|page details for the home page]] 
 
 Figure 4: Page Details for the Home page.
  
