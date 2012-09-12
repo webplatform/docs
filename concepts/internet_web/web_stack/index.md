@@ -2,7 +2,7 @@
 |High-level issues=Stub
 }}
 {{Basic Page}}
-==How Web Fits on Top of Internet==
+==How Web fits on top of Internet==
 Stub.
 {{Topics|Web Services}}
 {{External_Attribution
