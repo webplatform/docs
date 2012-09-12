@@ -13,9 +13,13 @@ Pre-table text.
 
 {{{!}} class="wikitable"
 {{!}}-
-! Header text !! Header text !! Header text
+! Header text
+! Header text
+! Header text
 {{!}}-
-{{!}}} Example {{!}}{{!}} Example {{!}}{{!}} Example
+{{!}} Example 
+{{!}} Example
+{{!}} Example
 {{!}}}
 
 Post-table text.
@@ -42,3 +46,4 @@ Post-table text.
 |MSDN_link=
 |HTML5Rocks_link=
 }}
+}
