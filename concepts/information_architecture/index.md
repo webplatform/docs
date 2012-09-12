@@ -82,7 +82,7 @@ This article has looked at the web site as a whole, and how you should think abo
 # The last thing you do before you actually start going ahead and coding your web site is work out the visual design of it—the page layouts, and the colour scheme, etc.
 }}
 {{Examples_Section
-|Not_required=No
+|Not_required=Yes
 |Examples=
 }}
 {{Notes_Section}}
