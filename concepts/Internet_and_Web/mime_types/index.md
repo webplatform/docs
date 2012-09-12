@@ -4,7 +4,7 @@
 {{API_Name}}
 {{Summary_Section}}
 {{Concept_Page
-|Content===MIME Types==
+|Content===MIME types==
 Stub.
 }}
 {{Examples_Section
