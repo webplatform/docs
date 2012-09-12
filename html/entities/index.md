@@ -5,7 +5,7 @@
 {{API_Name}}
 {{Summary_Section}}
 {{Markup_Structure
-|Content===Common HTML Entities used for Typography==
+|Content===Common HTML entities used for typography==
 Stub.
 
 
