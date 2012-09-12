@@ -105,14 +105,15 @@ The example I present below is a references page, which you could use to cite re
     &lt;h1&gt;References&lt;/h1&gt;
   &lt;/div&gt;
   &lt;div id="references"&gt;
-    &lt;cite class="article"&gt;Adams, J. R. (2008). The Benefits of Valid Markup: A Post-Modernistic Approach to Developing
+    &lt;cite class="article"&gt;Adams, J. R. (2008). The Benefits of Valid Markup: A Post-Modernistic
+    Approach to Developing
     Web Sites. &lt;em&gt;The Journal of Awesome Web Standards, 15:7,&lt;/em&gt; 57-62.&lt;/cite&gt;
-    &lt;cite class="book"&gt;Baker, S. (2006). &lt;em&gt;Validate Your Pages.... Or Else!.&lt;/em&gt; Detroit, MI: Are you out
-    of your mind publishers.&lt;/cite&gt;
-    &lt;cite class="article"&gt;Lane, J. C. (2007). Dude, HTML 4, that's like so 2000. &lt;em&gt;The Journal that Publishes Genius,
-    1:2, &lt;/em&gt; 12-34.&lt;/cite&gt;
-    &lt;cite class="website"&gt;Smith, J. Q. (2005). &lt;em&gt;Web Standards and You.&lt;/em&gt; Retrieved May 3, 2007 from
-    Web standards and you.&lt;/cite&gt;
+    &lt;cite class="book"&gt;Baker, S. (2006). &lt;em&gt;Validate Your Pages.... Or Else!.&lt;/em&gt;
+    Detroit, MI: Are you out of your mind publishers.&lt;/cite&gt;
+    &lt;cite class="article"&gt;Lane, J. C. (2007). Dude, HTML 4, that's like so 2000. &lt;em&gt;The
+     Journal that Publishes Genius, 1:2, &lt;/em&gt; 12-34.&lt;/cite&gt;
+    &lt;cite class="website"&gt;Smith, J. Q. (2005). &lt;em&gt;Web Standards and You.&lt;/em&gt;
+    Retrieved May 3, 2007 from Web standards and you.&lt;/cite&gt;
   &lt;/div&gt;
   &lt;div id="footer"&gt;
     &lt;p&gt;The content of this page is copyright © 2007 &lt;a href="mailto:jonathan.lane@gmail.com"&gt;J. Lane&lt;/a&gt;&lt;/p&gt;
@@ -128,7 +129,7 @@ Lines 5 to 7 import a CSS file into the page — the styles contained in this fi
 
 The page looks like Figure 2 without the CSS applied:
 
-[[Image:examplewithoutHTML.png|The finished example]] 
+[[Image:examplewithoutHTML.png|The example without any HTML applied]] 
 
 Figure 2: the raw HTML, without any CSS styling
  
@@ -257,7 +258,4 @@ Aside from getting the satisfaction of a job well done, web standards developmen
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
