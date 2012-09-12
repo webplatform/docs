@@ -1,7 +1,7 @@
 {{Flags}}
 {{Glossary_Item
 |Term=absolute unit
-|Definition=In CSS, length units that are dependent on the output medium (contrast with [[relative_unit|relative unit]]). Available absolute units include in (inch), cm (centimeter), mm (millimeter), pt (point), and pc (pica).
+|Definition=In CSS, length units that are dependent on the output medium (contrast with [[relative_unit|relative unit]]). Absolute units include in (inch), cm (centimeter), mm (millimeter), pt (point), and pc (pica).
 }}
 {{Notes_Section}}
 {{See_Also_Section}}
