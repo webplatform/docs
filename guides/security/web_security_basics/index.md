@@ -3,7 +3,7 @@
 }}
 {{Summary_Section}}
 {{Guide
-|Content===Web Security Basics==
+|Content===Web security basics==
 Stub.
 }}
 {{See_Also_Section}}
