@@ -1,7 +1,7 @@
 {{Flags}}
 {{Glossary_Item
 |Term=glyph
-|Definition=A single letter, number, symbol, or ligature within a given font. Usually, but not always, a synonym for <i>character</i>.
+|Definition=A single letter, number, symbol, or ligature within a given font. Usually, but not always, a synonym for character.
 }}
 {{Notes_Section}}
 {{See_Also_Section}}
