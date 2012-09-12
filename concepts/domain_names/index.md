@@ -2,7 +2,7 @@
 |High-level issues=Stub
 }}
 {{Basic Page}}
-==Domain Names and DNS==
+==Domain names and DNS==
 Stub.
 {{Topics|Web Services}}
 {{External_Attribution
