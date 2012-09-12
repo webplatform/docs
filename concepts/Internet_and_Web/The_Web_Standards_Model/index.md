@@ -216,7 +216,7 @@ Finally, I’ve used another semi-transparent PNG for the background of our page
  
 The fully styled example looks like Figure 3.
 
-[[Image:article4.jpg|The finished example]] 
+[[Image:final-html-and-css-example.jpg|The finished example]] 
 
 Figure 3: The finished example with styles applied.
 
