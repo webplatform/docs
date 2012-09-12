@@ -1,7 +1,7 @@
 {{Flags}}
 {{Glossary_Item
 |Term=flush left
-|Definition=A form of typographical justification that positions an element horizontally at the left edge of its container element. As applied to text, also called <i>ragged right</i>.
+|Definition=A form of typographical justification that positions an element horizontally at the left edge of its container element. As applied to text, also called ragged right.
 }}
 {{Notes_Section}}
 {{See_Also_Section}}
