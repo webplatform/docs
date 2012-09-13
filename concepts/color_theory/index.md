@@ -159,7 +159,7 @@ you at the upper right. You can mix and match any pure colour (the colour
 at the top) and its tint, tone or shade and feel great about choosing a
 solid colour scheme.
  
-[[Image:greenpea.jpg|Greenpeace]]
+[[Image:Greenpea.jpg|Greenpeace]]
  
 Figure 7: The Greenpeace site—a good
 example of a complementary colour scheme.
