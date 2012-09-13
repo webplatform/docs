@@ -1,16 +1,13 @@
-{{Flags
-|High-level issues=Stub
-}}
+{{Flags}}
 {{API_Name}}
 {{Summary_Section}}
 {{Concept_Page
 |Content===MIME types==
-Stub.
 
-Applicable MDN content [[https://developer.mozilla.org/en-US/docs/Properly_Configuring_Server_MIME_Types here]].
+Please see Mozilla Developer Network article [[https://developer.mozilla.org/en-US/docs/Properly_Configuring_Server_MIME_Types here]].
 }}
 {{Examples_Section
-|Not_required=No
+|Not_required=Yes
 |Examples=
 }}
 {{Notes_Section}}
