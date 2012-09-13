@@ -1,8 +1,6 @@
 {{Flags}}
 {{API_Name}}
-{{Summary_Section|In this article of the we will explore the different doctypes you are likely to come across on your journey around the Web, as well as looking at how XHTML and HTML differ.
-
-}}
+{{Summary_Section|In this article of the we will explore the different doctypes you are likely to come across on your journey around the Web, as well as looking at how XHTML and HTML differ.}}
 {{Concept_Page
 |Content=== Introduction ==
 
@@ -78,7 +76,7 @@ You may also occasionally see other doctypes on your travels, but they are not m
 
 Table 1 shows the main syntax differences between HTML and XHTML:
                           
-{| border="1"
+<!--{| border="1"
 |-
 !HTML 
 !XHTML
@@ -95,9 +93,9 @@ Table 1 shows the main syntax differences between HTML and XHTML:
 | Shorthand can be used for certain attributes (ie <code>&lt;input required&gt;</code>).
 | The full attribute form must be used for all attributes (eg <code>&lt;input required="required"&gt;</code>).
 |-
-|} 
+|} -->
 
-Table 1: Differences between HTML and XHTML.
+Table 1: Differences between HTML and XHTML. (current commented out because tables won't render at the moment)
 
 In terms of what syntax style you should use, pick something you are comfortable with. We'd recommend that you start off using strict XML syntax, as it is guaranteed to work in any situation. Later on you can adjust your style to suit, when you understand what you are doing a bit better. Just remember these rules:
 
