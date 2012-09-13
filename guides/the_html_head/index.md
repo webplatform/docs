@@ -1,7 +1,5 @@
 {{Flags}}
-{{Summary_Section|This article covers the most common parts that can be included in the <code>&lt;head&gt;</code> section of HTML documents. Making sure that all of these are correct will result in your document being fast, and easy to find and understand.
-
-}}
+{{Summary_Section|This article covers the most common parts that can be included in the <code>&lt;head&gt;</code> section of HTML documents. Making sure that all of these are correct will result in your document being fast, and easy to find and understand.}}
 {{Guide
 |Content=== Introduction ==
  
@@ -53,7 +51,7 @@ One of the most important elements in the <code>head</code> is the <code>title</
  
 You’ll see that the text in the <code>title</code> is displayed in the bar above the browser navigation as shown in Figure 1.
 
-[[Image:head-fig.gif|The title is displayed in the title bar of the web browser]] 
+[[Image:Head-fig.gif|The title is displayed in the title bar of the web browser]] 
 
 Figure 1: Displaying a title in a browser.
  
@@ -67,7 +65,8 @@ The next thing to do might seem superfluous at first as it will never be directl
 &lt;html lang="en-GB"&gt;
 &lt;head&gt;
   &lt;meta charset="utf-8"&gt;
-  &lt;title&gt;Yahoo! UK &amp; Ireland Eurosport—Sports News | Live Scores | Sport&lt;/title&gt;
+  &lt;title&gt;Yahoo! UK &amp; Ireland Eurosport—Sports News
+|Sport&lt;/title&gt;
   &lt;meta name="description" content="Latest sports news and live scores from Yahoo! Eurosport UK. Complete sport coverage with Football results, Cricket scores, F1, Golf, Rugby, Tennis and more."&gt;
   &lt;meta name="keywords" content="eurosport,sports,sport,sports news,live scores,football,cricket,f1,golf,rugby,tennis,uk,yahoo"&gt;
 &lt;/head&gt;
@@ -251,7 +250,6 @@ The other benefits of keeping styles and scripts in their own files are:
 * How can you benefit from your browser’s caching and what do you need to do to make it work for you?
 * As search engines give the title of a document much love, wouldn’t it be useful to cram it full of relevant keywords? What are the downsides of this practice?
 * As the title display can be a bit boring, wouldn’t it make sense to bold some words with a <code>b</code> element? Is that possible?
-
 }}
 {{Topics}}
 {{External_Attribution
