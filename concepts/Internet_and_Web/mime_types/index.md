@@ -6,6 +6,8 @@
 {{Concept_Page
 |Content===MIME types==
 Stub.
+
+Applicable MDN content [[https://developer.mozilla.org/en-US/docs/Properly_Configuring_Server_MIME_Types here]].
 }}
 {{Examples_Section
 |Not_required=No
