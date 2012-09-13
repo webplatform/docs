@@ -1,4 +1,6 @@
-{{Flags}}
+{{Flags
+|High-level issues=Stub
+}}
 {{API_Name}}
 {{Summary_Section}}
 {{Concept_Page
