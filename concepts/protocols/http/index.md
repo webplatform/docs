@@ -1,6 +1,4 @@
-{{Flags
-|High-level issues=Stub
-}}
+{{Flags}}
 {{Basic Page}}
 ==HTTP==
 
