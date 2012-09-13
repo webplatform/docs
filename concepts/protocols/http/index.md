@@ -5,9 +5,7 @@
 ==HTTP==
 Stub.
 
-Applicable MDN content [[http://webplatform.org/docs/concepts/protocols/http|here]].
-
-
+Applicable MDN content [[http://webplatform.org/docs/concepts/protocols/http here]].
 {{Topics|Web Services}}
 {{External_Attribution
 |Is_CC-BY-SA=No
