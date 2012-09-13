@@ -332,7 +332,7 @@ also provides you with four monochromatic colour schemes. These schemes
 are shown both in the column to the right as well as in each square
 within the larger square.
  
-[[Image:goodall0.jpg|Jane Goodall site]]
+[[Image:Goodall0.jpg|Jane Goodall site]]
 
 Figure 17: The Jane Goodall Institute
 site—a good tetradic colour scheme example.
@@ -360,8 +360,7 @@ carry certain "rules." These guidelines make it easy to understand
 which colours work together to add interest and contrast to a Web site.
  
 The reason colour wheels exist are for people to use them.
-Colour
-wheels and tools like the online Color Generator make colour-picking
+Colour wheels and tools like the online Color Generator make colour-picking
 easy even for the inexperienced designer.
  
 The four colour schemes covered in this article are monochromatic, complementary, triadic, and tetradic. Although other colour schemes exist, these four colour schemes are the easiest to understand and implement.
