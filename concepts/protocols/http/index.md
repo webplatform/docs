@@ -3,9 +3,8 @@
 }}
 {{Basic Page}}
 ==HTTP==
-Stub.
 
-Applicable MDN content [[http://webplatform.org/docs/concepts/protocols/http here]].
+Please see Mozilla Developer Network article [https://developer.mozilla.org/en-US/docs/HTTP here].
 {{Topics|Web Services}}
 {{External_Attribution
 |Is_CC-BY-SA=No
