@@ -133,7 +133,7 @@ The web designer often wears many hats, because Web site design is based upon ma
 So, beyond colour and graphics, a foundation needs to be laid to build that Web site upon. The business of building a site affects the design, and any issues that might become problems down the road can be ironed out in the planning phases. This ability to resolve issues before they arise makes for a professional designer. Once the foundation has been laid and the architecture and wireframe of the site has been developed, the designer then can begin to work with colour schemes to develop the full Web site for client approval.
 }}
 {{Examples_Section
-|Not_required=No
+|Not_required=Yes
 |Examples=
 }}
 {{Notes_Section}}
@@ -163,7 +163,4 @@ So, beyond colour and graphics, a foundation needs to be laid to build that Web 
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
