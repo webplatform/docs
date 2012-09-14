@@ -1,6 +1,6 @@
 {{Flags}}
 {{Summary_Section|This article discusses some of the lesser known and more
-infrequently used semantic elements available in HTML. 
+infrequently used semantic elements available in HTML.
 }}
 {{Guide
 |Content=== Introduction ==
@@ -51,12 +51,12 @@ It is *incorrect* to use the <code>&lt;address&gt;</code> element to indicate an
 type of addresses, such as this:
  
 <pre>&lt;p&gt; Our company address: &lt;/p&gt;
-  &lt;address&gt;
-    Opera Software ASA,
-    Waldemar Thranes gate 98,
-    NO-0175 OSLO,
-    NORWAY
-  &lt;/address&gt;</pre>
+&lt;address&gt;
+  Opera Software ASA,
+  Waldemar Thranes gate 98,
+  NO-0175 OSLO,
+  NORWAY
+&lt;/address&gt;</pre>
 
 (Of course, if Opera was taking collective responsibility for
 this article, this would be correct, even though Opera is not the author of this particular page.)
@@ -110,7 +110,7 @@ to see if a computer likely to be running is reachable.&lt;/p&gt;
   --- google.com ping statistics ---
   1 packets transmitted, 1 packets received, 0% packet loss
   round-trip min/avg/max/stddev = 108.995/108.995/108.995/0.000 ms
-  &lt;/samp&gt;&lt;/pre&gt;</pre>
+&lt;/samp&gt;&lt;/pre&gt;</pre>
 
 The <code>&lt;samp&gt;</code> element indicates sample output from a computer program. As 
 shown in the example, different types of output can be indicated using
@@ -340,17 +340,17 @@ timestamp, which is generally of the form “YYYY-MM-DD HH:MM:SS
 An example using both attributes:
  
 <pre>&lt;p&gt;We should only solve problems that actually arise. As
-  &lt;cite&gt;&lt;del datetime="2008-03-25 18:26:55 Z"
-  cite="/changes.html#revision-4"&gt;Donald Knuth&lt;/del&gt;&lt;ins
-  datetime="2008-03-25 18:26:55 Z"
-  cite="/changes.html#revision-4"&gt;C. A. R. Hoare&lt;/ins&gt;&lt;/cite&gt;
-  said: &lt;q&gt;premature optimization is the root of all 
-  evil&lt;/q&gt;.&lt;/p&gt;</pre>
+&lt;cite&gt;&lt;del datetime="2008-03-25 18:26:55 Z"
+cite="/changes.html#revision-4"&gt;Donald Knuth&lt;/del&gt;&lt;ins
+datetime="2008-03-25 18:26:55 Z"
+cite="/changes.html#revision-4"&gt;C. A. R. Hoare&lt;/ins&gt;&lt;/cite&gt;
+said: &lt;q&gt;premature optimization is the root of all 
+evil&lt;/q&gt;.&lt;/p&gt;</pre>
 
 
 In addition, we can also use the <code>&lt;s&gt;</code> element to markup content that is outdated, perhaps if you want to mark it for updating or deletion. For example:
 
-<pre>&lt;p&gt;&lt;s&gt;The president of the USA is currently George W. Bush&lt;/s&gt;.&lt;/p&gt;</pre>
+<pre>&lt;p&gt;&lt;s&gt;The president of the USA is currently Barack Obama&lt;/s&gt;.&lt;/p&gt;</pre>
 }}
 {{See_Also_Section}}
 {{Topics|HTML}}
