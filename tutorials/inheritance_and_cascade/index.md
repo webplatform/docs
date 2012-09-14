@@ -1,4 +1,7 @@
-== Introduction ==
+{{Flags}}
+{{Summary_Section|This guide explain inheritance and the cascade, two fundamental concepts in CSS.}}
+{{Guide
+|Content=== Introduction ==
  
 Inheritance and the cascade are two fundamental concepts in CSS, which everyone using the technology needs to understand. The two concepts are closely related, yet different:
 
@@ -32,8 +35,9 @@ Whether or not the inherited properties will have any effect depends on other th
 inherited properties in CSS can be overridden.
  
 === An example of inheritance ===
- 
-# Copy the following HTML document into a new file in your favourite text editor and save it as inherit.html.
+
+<ol>
+<li><p>Copy the following HTML document into a new file in your favourite text editor and save it as inherit.html.</p>
 
 <pre>&lt;!DOCTYPE html&gt;
 &lt;html lang="en"&gt;
@@ -47,19 +51,23 @@ inherited properties in CSS can be overridden.
   &lt;/body&gt;
 &lt;/html&gt;</pre>
 
-If you open the document in your web browser you will see a rather boring document displayed according to your browser’s default styling.
-
-# Create a new empty file in your text editor, copy the CSS rule below into it, and save the file as style.css in the same location as the HTML file.
+<p>If you open the document in your web browser you will see a rather boring document displayed according to your browser’s default styling.</p>
+</li>
+<li>
+<p>Create a new empty file in your text editor, copy the CSS rule below into it, and save the file as style.css in the same location as the HTML file.</p>
 
 <pre>html {
   font: 75% Verdana, sans-serif;
 }</pre>
-
-# Link the style sheet to your HTML document by inserting the following line before the <code>&lt;/head&gt;</code> tag:
+</li>
+<li>
+<p>Link the style sheet to your HTML document by inserting the following line before the <code>&lt;/head&gt;</code> tag:</p>
 
 <pre>&lt;link rel="stylesheet" type="text/css" href="style.css"&gt;</pre>
-
-# Save the modified HTML file and reload the document in your browser.
+</li>
+<li><p>Save the modified HTML file and reload the document in your browser.</p>
+</li>
+</ol>
 
 The font will change from the browser’s default (often Times or Times New Roman) to Verdana.
 
@@ -84,23 +92,31 @@ The computed value is, in the case of font size, an absolute value measured in p
 
 And ''that'' is the value that is inherited by <code>&lt;body&gt;</code> and passed on to the heading and the paragraph. (The font size of the heading is larger, because the browser applies some built-in styling of its own. See the discussion about the cascade, below.)
 
-# Add two more declarations to the rule in your CSS style sheet:
+Let's go a bit further with our example
+
+<ol>
+<li><p>Add two more declarations to the rule in your CSS style sheet:</p>
 
 <pre>html {
   font: 75% Verdana,sans-serif;
   '''background-color: blue;
   color: white;'''
 }</pre>
-
-# Save the CSS file and reload the document in your browser. Now the background of the whole document is bright blue, and all the text is white. The white text color is inherited by the <code>&lt;body&gt;</code> element and passed on to all children of <code>body</code> — in this case the heading and the paragraph. The heading and paragraph don’t however inherit the background but instead will default to <code>transparent</code>, so the net visual result will be white text on a blue background.
-
-# Add another new rule to the style sheet:
+</li>
+<li>
+<p>Save the CSS file and reload the document in your browser. Now the background of the whole document is bright blue, and all the text is white. The white text color is inherited by the <code>&lt;body&gt;</code> element and passed on to all children of <code>body</code> — in this case the heading and the paragraph. The heading and paragraph don’t however inherit the background but instead will default to <code>transparent</code>, so the net visual result will be white text on a blue background.</p>
+</li>
+<li>
+<p>Add another new rule to the style sheet:</p>
 
 <pre>h1 {
   font-size: 300%;
 }</pre>
-
-Save and reload the document: this rule sets the font size for the heading. The percentage is applied to the inherited font size — 12px, as we discussed above — so the heading size will be 300% of 12px, or 36px.
+</li>
+<li>
+<p>Save and reload the document: this rule sets the font size for the heading. The percentage is applied to the inherited font size — 12px, as we discussed above — so the heading size will be 300% of 12px, or 36px.</p>
+</li>
+</ol>
 
 === Forcing inheritance ===
  
@@ -213,43 +229,43 @@ After a bit of counting, we can thus string those four components together to ge
 Let’s look at a few examples — after this it should be quite clear how this works.
 
                                     
-{| border="1"
-|-
+{{{!}} border="1"
+{{!}}-
 !Selector
 !a
 !b
 !c
 !d
 !Specificity
-|-
-|<code>h1</code>
-| 
-| 
-| 
-|1
-|0,0,0,1
-|-
-|<code>.foo</code>
-| 
-| 
-|1
-| 
-|0,0,1,0
-|-
-|<code>#bar</code>
-| 
-|1
-| 
-| 
-|0,1,0,0
-|-
-|<code>html&gt;head+body ul#nav *.home a:link</code> 
-| 
-|1
-|2
-|5
-|0,1,2,5
-|}
+{{!}}-
+{{!}}<code>h1</code>
+{{!}} 
+{{!}} 
+{{!}} 
+{{!}}1
+{{!}}0,0,0,1
+{{!}}-
+{{!}}<code>.foo</code>
+{{!}} 
+{{!}} 
+{{!}}1
+{{!}} 
+{{!}}0,0,1,0
+{{!}}-
+{{!}}<code>#bar</code>
+{{!}} 
+{{!}}1
+{{!}} 
+{{!}} 
+{{!}}0,1,0,0
+{{!}}-
+{{!}}<code>html&gt;head+body ul#nav *.home a:link</code> 
+{{!}} 
+{{!}}1
+{{!}}2
+{{!}}5
+{{!}}0,1,2,5
+{{!}}}
 
 Let’s look at the last example in some more detail. a = 0 since it’s a selector, not a declaration in a <code>style</code> attribute. There is one ID selector (<code>#nav</code>), so b = 1. There is one attribute selector (<code>.home</code>) and one pseudo-class (<code>:link </code> ), so c = 2. There are five element types (<code>&lt;html&gt;</code>, <code>&lt;head&gt;</code>, <code>&lt;body&gt;</code>, <code>&lt;ul&gt;</code> and <code>&lt;a&gt;</code>), so d = 5.
 
@@ -260,39 +276,46 @@ Note: Combinators (like <code>&gt;</code>, <code>+</code> and white space) do no
 Note #2: There is a huge difference in specificity between an <code>id</code> selector and an attribute selector that happens to refer to an <code>id</code> attribute. Although they match the same element, they have very different specificities. The specificity of <code>#nav</code> is 0,1,0,0 while the specificity of <code>[id="nav"]</code> is only 0,0,1,0.
  
 Let’s look at how this works in practice.
- 
-First of all, start by adding another paragraph to your HTML document.
+
+<ol>
+<li><p>First of all, start by adding another paragraph to your HTML document.</p>
 
 <pre><code>&lt;body&gt;
   &lt;h1&gt;Heading&lt;/h1&gt;
   &lt;p&gt;A paragraph of text.&lt;/p&gt;
   '''&lt;p&gt;A second paragraph of text.&lt;/p&gt;'''
 &lt;/body&gt;</code> </pre>
+</li>
+<li>
+<p>Next, add a rule to your stylesheet to make the paragraph text have a different color:</p>
 
-Next, add a rule to your stylesheet to make the paragraph text have a different color:
-
-<pre><code>p {
+<pre>p {
   color: cyan;
-}</code> </pre>
-
-Now save both files and reload the document in your browser; there should now be two paragraphs with cyan text.
-
-Set an <code>id</code> on the first paragraph so you can target it easily with a CSS selector.
+}</pre>
+</li>
+<li>
+<p>Now save both files and reload the document in your browser; there should now be two paragraphs with cyan text.</p>
+</li>
+<li><p>Set an <code>id</code> on the first paragraph so you can target it easily with a CSS selector.</p>
 
 <pre>&lt;body&gt;
   &lt;h1&gt;Heading&lt;/h1&gt;
   &lt;p '''id="special"'''&gt;A paragraph of text.&lt;/p&gt;
   &lt;p&gt;A second paragraph of text.&lt;/p&gt;
 &lt;/body&gt;</pre>
-
-Carry on by adding a rule for the special paragraph in your style sheet:
+</li>
+<li>
+<p>Carry on by adding a rule for the special paragraph in your style sheet:</p>
 
 <pre>#special {
   background-color: red;
   color: yellow;
 }</pre>
-
-Finally, save both files and reload the document in your browser to see the now rather colorful result.
+</li>
+<li>
+<p>Finally, save both files and reload the document in your browser to see the now rather colorful result.</p>
+</li>
+</ol>
  
 Let’s look at the declarations that apply to the two paragraphs.
  
@@ -310,15 +333,19 @@ If you have a single external style sheet, then the declarations at the end of t
 
 In that case, the order in which the style sheets are linked, included or imported controls what declaration will be applied, so if you have two stylesheets linked in a document <code>&lt;head&gt;</code>, the one linked to further down will override the one linked to higher up. Let’s look at a practical example of how this works.
  
-# Add a new rule to your style sheet at the very end of the file, like so:
+<ol>
+<li><p>Add a new rule to your style sheet at the very end of the file, like so:</p>
 
 <pre>p {
   background-color: yellow;
   color: black;
 }</pre>
+</li>
+<li>
+<p>Save and reload the web page. you will now have ''two'' rules that match all paragraphs. They have the same importance and the same specificity (since the selector is the same), therefore the final mechanism for choosing which one wins will be the source order. The last rule specifies <code>color:black</code> and that will override <code>color:cyan</code> from the earlier rule.</p>
+</li>
+</ol>
 
-# Save and reload the web page. you will now have ''two'' rules that match all paragraphs. They have the same importance and the same specificity (since the selector is the same), therefore the final mechanism for choosing which one wins will be the source order. The last rule specifies <code>color:black</code> and that will override <code>color:cyan</code> from the earlier rule.
- 
 Note how the first paragraph isn’t affected at all by this new rule.
 
 Although the new rule appears last, its selector has lower specificity than the one for <code>#special</code>. This shows clearly how specificity trumps source order.
@@ -332,15 +359,16 @@ Inheritance lets us declare properties on high-level elements and allows those p
 The cascade sorts out all conflicts when multiple declarations would affect a given element. Important declarations will override less important ones. Among declarations with equal importance, the rule’s specificity controls which one will apply.
 
 All else being equal, the source order makes the final distinction.
- 
-== Exercise Questions ==
+}}
+{{See_Also_Section
+|Manual_sections==== Exercise Questions ===
  
 * Is the <code>border</code>  property inherited? Think about it first—would it make sense?—then look up the correct answer in the [http://www.w3.org/TR/CSS21/ CSS specification].
 * If we add <code>!important</code> to the <code>color:black</code> declaration in the last rule in our [http://dev.opera.com/articles/view/28-inheritance-and-cascade/inheritance_cascade_code.zip example style sheet], will this have any effect on the text color in the first, “special” paragraph?
 * Which selector is more specific, “<code>#special</code>” or “<code>html&gt;head+body&gt;h1+p</code>”?
 * What should a user style sheet look like to make our test document display in black Comic Sans MS on a white background, regardless of the author style sheet?
-
-Note: This material was originally published as part of the Opera Web Standards Curriculum, available as [http://dev.opera.com/articles/view/28-inheritance-and-cascade/ 28: Inheritance and Cascade], written by Tommy Olsson. Like the original, it is published under the [http://creativecommons.org/licenses/by-nc-sa/2.5/ Creative Commons Attribution, Non Commercial - Share Alike 2.5] license.
-
-[[Category:Tutorials]]
-[[Category:WSC]]
+}}
+{{Topics|CSS}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+}}
