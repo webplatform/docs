@@ -32,7 +32,7 @@ For the sake of portability, Unicode entity references should be reserved for us
 {{!}}<code>&amp;#163;</code>
 {{!}}<code> </code>
 {{!}}-
-!Section [[#note-sect|<sup>1</sup>]]
+!Section <sup>[[#note-sect|1]]</sup>
 {{!}}§
 {{!}}<code>&amp;sect;</code>
 {{!}}<code>&amp;#167;</code>
@@ -44,7 +44,7 @@ For the sake of portability, Unicode entity references should be reserved for us
 {{!}}<code>&amp;#169;</code>
 {{!}}<code>(c)</code>
 {{!}}-
-!Guillemets [[#note-laquo|<sup>2</sup>]]
+!Guillemets <sup>[[#note-laquo|2]]</sup>
 {{!}}« »
 {{!}}<code>&amp;laquo; &amp;raquo;</code>
 {{!}}<code>&amp;#171; &amp;#187;</code>
@@ -68,55 +68,55 @@ For the sake of portability, Unicode entity references should be reserved for us
 {{!}}<code>&amp;#177;</code>
 {{!}}<code>+/-</code>
 {{!}}-
-!Pilcrow (paragraph) [[#note-para|<sup>3</sup>]]
+!Pilcrow (paragraph) <sup>[[#note-para|3]]</sup>
 {{!}}¶
 {{!}}<code>&amp;para;</code>
 {{!}}<code>&amp;#182;</code>
 {{!}}<code> </code>
 {{!}}-
-!Middle dot [[#note-middot|<sup>4</sup>]]
+!Middle dot <sup>[[#note-middot|4]]</sup>
 {{!}}·
 {{!}}<code>&amp;middot;</code>
 {{!}}<code>&amp;#183;</code>
 {{!}}<code> </code>
 {{!}}-
-!Fractional half [[#note-frac12|<sup>5</sup>]]
+!Fractional half <sup>[[#note-frac12|5]]</sup>
 {{!}}½
 {{!}}<code>&amp;frac12;</code>
 {{!}}<code>&amp;#188;</code>
 {{!}}<code>1/2</code>
 {{!}}-
-!En dash [[#note-ndash|<sup>6</sup>]], [[#note-linebreak|<sup>7</sup>]]
+!En dash <sup>[[#note-ndash|6]], [[#note-linebreak|7]]</sup>
 {{!}}–
 {{!}}<code>&amp;ndash;</code>
 {{!}}<code>&amp;#8211;</code>
 {{!}}<code>-</code> for ranges
 {{!}}-
-!Em (long) dash [[#note-linebreak|<sup>7</sup>]], [[#note-mdash|<sup>8</sup>]]
+!Em (long) dash <sup>[[#note-linebreak|7]], [[#note-mdash|8]]</sup>
 {{!}}—
 {{!}}<code>&amp;mdash;</code>
 {{!}}<code>&amp;#8212;</code>
 {{!}}<code>-</code> enclosed by spaces, or <code>--</code>
 {{!}}-
-!Single quotes [[#note-smart_quotes|<sup>9</sup>]], [[#note-rsquo|<sup>10</sup>]]
+!Single quotes <sup>[[#note-smart_quotes|9]], [[#note-rsquo|10]]</sup>
 {{!}}‘ ’
 {{!}}<code>&amp;lsquo; &amp;rsquo;</code>
 {{!}}<code>&amp;#8216; &amp;#8217;</code>
 {{!}}<code>'</code> or <code>&amp;apos;</code>
 {{!}}-
-!Single low quote [[#note-low_quotes|<sup>11</sup>]]
+!Single low quote <sup>[[#note-low_quotes|11]]</sup>
 {{!}}‚
 {{!}}<code>&amp;sbquo;</code>
 {{!}}<code>&amp;#8218;</code>
 {{!}}<code>'</code> or comma
 {{!}}-
-!Double quotes [[#note-smart_quotes|<sup>9</sup>]]
+!Double quotes <sup>[[#note-smart_quotes|9]]</sup>
 {{!}}“ ”
 {{!}}<code>&amp;ldquo; &amp;rdquo;</code>
 {{!}}<code>&amp;#8220; &amp;#8221;</code>
 {{!}}<code>", &amp;quot;</code>, <code>''</code>, or <code>``</code>
 {{!}}-
-!Double low quote [[#note-low_quotes|<sup>11</sup>]]
+!Double low quote <sup>[[#note-low_quotes|11]]</sup>
 {{!}}„
 {{!}}<code>&amp;bdquo;</code>
 {{!}}<code>&amp;#8222;</code>
@@ -134,13 +134,13 @@ For the sake of portability, Unicode entity references should be reserved for us
 {{!}}<code>&amp;#8226;</code>
 {{!}}<code>*</code>
 {{!}}-
-!Ellipsis [[#note-hellip|<sup>12</sup>]]
+!Ellipsis <sup>[[#note-hellip|12]]</sup>
 {{!}}…
 {{!}}<code>&amp;hellip;</code>
 {{!}}<code>&amp;#8230;</code>
 {{!}}<code>...</code>
 {{!}}-
-!Prime &amp; double prime [[#note-prime|<sup>13</sup>]]
+!Prime &amp; double prime <sup>[[#note-prime|13]]</sup>
 {{!}}′ ″
 {{!}}<code>&amp;prime; &amp;Prime;</code>
 {{!}}<code>&amp;#8242; &amp;#8243;</code>
