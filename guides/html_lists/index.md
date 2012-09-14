@@ -382,6 +382,7 @@ Method
    &lt;li&gt;100g castor sugar&lt;/li&gt;
    &lt;li&gt;85g self-raising flour&lt;/li&gt;
  &lt;/ul&gt;</pre></li>
+
 <li>The notes on the ingredients are there to properly define what some of the ingredients are. You need to associate the ingredient — the name — with its value. A description list is right for this purpose. Add the following to your HTML, below the unordered list in the previous step:
 
 <pre>&lt;h3&gt;Notes on ingredients&lt;/h3&gt;
