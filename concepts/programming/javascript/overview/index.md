@@ -45,7 +45,7 @@ In contrast, JavaScript descends in spirit from a line of smaller, dynamically t
 {{!}}}
 
 
-For more information on the differences between JavaScript and Java, see the chapter [[/guides/JavaScript/About_the_object_model About the object model]].
+For more information on the differences between JavaScript and Java, see the chapter [[/guides/JavaScript/About_the_object_model|About the object model]].
 
 =JavaScript and the ECMAScript Specification=
 
@@ -70,19 +70,16 @@ Netscape worked closely with Ecma International to produce the ECMAScript Specif
 <br>(2) ECMA-262 adds two new features: internationalization using Unicode, and uniform behavior across all platforms. Several features of JavaScript 1.2, such as the Date object, were platform-dependent and used platform-specific behavior.
 {{!}}-
 {{!}} JavaScript 1.3
-{{!}} JavaScript 1.3 is fully compatible with ECMA-262, Edition 1.
-{{!}}-
-{{!}} JavaScript 1.3 resolved the inconsistencies that JavaScript 1.2 had with ECMA-262, while keeping all the additional features of JavaScript 1.2 except == and !=, which were changed to conform with ECMA-262.
+{{!}} JavaScript 1.3 is fully compatible with ECMA-262, Edition 1. <br>JavaScript 1.3 resolved the inconsistencies that JavaScript 1.2 had with ECMA-262, while keeping all the additional features of JavaScript 1.2 except == and !=, which were changed to conform with ECMA-262.
 {{!}}-
 {{!}} JavaScript 1.4
-{{!}} JavaScript 1.4 is fully compatible with ECMA-262, Edition 1.<br>
-The third version of the ECMAScript specification was not finalized when JavaScript 1.4 was released.
+{{!}} JavaScript 1.4 is fully compatible with ECMA-262, Edition 1.<br>The third version of the ECMAScript specification was not finalized when JavaScript 1.4 was released.
 {{!}}-
 {{!}} JavaScript 1.5 	
 {{!}} JavaScript 1.5 is fully compatible with ECMA-262, Edition 3.
 {{!}}}
 
-{{Note{{!}}ECMA-262, Edition 2 consisted of minor editorial changes and bug fixes to the Edition 1 specification. The  current release by the TC39 working group of Ecma International is ECMAScript Edition 5.1}}
+{{Note|ECMA-262, Edition 2 consisted of minor editorial changes and bug fixes to the Edition 1 specification. The  current release by the TC39 working group of Ecma International is ECMAScript Edition 5.1}}
 
 The [[/js|JavaScript Reference]] indicates which features of the language are ECMAScript-compliant.
 
@@ -102,7 +99,6 @@ The JavaScript documentation describes aspects of the language that are appropri
 
 * The Global Object is not discussed in the JavaScript documentation because you do not use it directly. The methods and properties of the Global Object, which you do use, are discussed in the JavaScript documentation but are called top-level functions and properties.
 * The no parameter (zero-argument) constructor with the <code>Number</code> and <code>String</code> objects is not discussed in the JavaScript documentation, because what is generated is of little use. A <code>Number</code> constructor without an argument returns +0, and a <code>String</code> constructor without an argument returns "" (an empty string).
-
 }}
 {{See_Also_Section}}
 {{Topics|JavaScript}}
