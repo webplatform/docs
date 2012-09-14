@@ -42,7 +42,7 @@ You should only use these elements when there isn't a more appropriate, semantic
 
 So, to mark up the example site, you could use the following elements:
 
-[[File:htmlstructure3.png]]
+[[File:htmlstructure3.jpg]]
 
 Figure 3: The example site, with appropriate HTML4 elements indicated for different major structural sections.
 
@@ -98,7 +98,7 @@ The new HTML5 elements we will cover in this article are:
 
 we will discuss these in more detail a little later on, but for now, let's look at how our example could look when structured using HTML5 elements:
 
-[[File:htmlstructure4.png]]
+[[File:htmlstructure4.jpg]]
   
 Figure 4: The example site, with appropriate HTML5 elements indicated for different major structural sections.
 
