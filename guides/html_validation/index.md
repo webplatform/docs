@@ -121,38 +121,40 @@ You’ll notice that the validator has three tabs available across the top of th
  
 Whichever method you use should give you the same result; it’s easiest to test the example page from here by copying the full example code from above, and pasting it into the third tab along. Doing so should give you the result shown in Figure 1:
 
-[[Image:figure10.gif|The results of validating the sample document is 17 errors]] 
+[[Image:validatehtml1.gif|The results of validating the sample document is 17 errors]] 
 
 Figure 1: The results of validating the sample document — 17 errors!
  
 This may sound worrying, especially when we tell you that there aren’t 17 errors in the document! Don’t despair — it is reporting more errors than there actually are because often an error at the top of the page will cascade, making the validator report more errors further down, as it looks like more elements are not closed or incorrectly nested. You just have to think about what the error messages mean, and look for obvious errors in the markup. Table 1 below shows all of the errors we fixed to make the page validate, along with our logic for working out what was wrong, and the fixes we applied to solve the problem.
                                 
-{| border="1"
-|+Table 1: The errors I fixed to make the example page validate
-|-
+{{{!}} border="1"
+{{!}}+Table 1: The errors I fixed to make the example page validate
+{{!}}-
 !Error message
 !Logic
 !Fix made
-|-
-|Line 8, Column 461: there is no attribute "colspan"
-|We know that there is a <code>colspan</code> attribute, and it is valid HTML, so why is it saying it doesn’t exist? Wait, maybe it means it is being used on an element that you shouldn’t use it on? Sure enough, it is being used on an <code>&lt;a&gt;</code> element — wrong!
-|Removed the <code>colspan</code> attribute from the <code>&lt;a&gt;</code> element.
-|-
-|Line 13, Column 7: document type does not allow element "h3" here; missing one of "object", "applet", "map", "iframe", "button", "ins", "del" start-tag . &lt;h3&gt;My possessions&lt;/h3&gt;
-|Again, from first glance this seems strange — the <code>&lt;h3&gt;</code> element is properly closed, and allowed in this context. You should note that often, this error message means that there is an unclosed element nearby…
-|Added a closing <code>&lt;p&gt;</code> tag to the line above the heading in question.
-|-
-|Line 19, Column 40: document type does not allow element "li" here; missing one of "ul", "ol", "menu", "dir" start-tag. &lt;li&gt;A diary, from the year 1874&lt;li&gt;
-|This one is pretty easy — you can see from the line it is pointing you to, at a glance, that the end <code>&lt;li&gt;</code> tag has a missing closing slash (/)
-|Added a closing slash to the line in question.
-|-
-|Line 23, Column 9: end tag for "html" omitted, but OMITTAG NO was specified . &lt;/body&gt;
-|Again, it doesn’t take much to work out that this means the end <code>&lt;html&gt;</code> tag is missing. The error message explanation even starts with You may have neglected to close an element.
-|Added the missing end <code>&lt;html&gt;</code> element.
-|} 
+{{!}}-
+{{!}}Line 8, Column 461: there is no attribute "colspan"
+{{!}}We know that there is a <code>colspan</code> attribute, and it is valid HTML, so why is it saying it doesn’t exist? Wait, maybe it means it is being used on an element that you shouldn’t use it on? Sure enough, it is being used on an <code>&lt;a&gt;</code> element — wrong!
+{{!}}Removed the <code>colspan</code> attribute from the <code>&lt;a&gt;</code> element.
+{{!}}-
+{{!}}Line 13, Column 7: document type does not allow element "h3" here; missing one of "object", "applet", "map", "iframe", "button", "ins", "del" start-tag . &lt;h3&gt;My possessions&lt;/h3&gt;
+{{!}}Again, from first glance this seems strange — the <code>&lt;h3&gt;</code> element is properly closed, and allowed in this context. You should note that often, this error message means that there is an unclosed element nearby…
+{{!}}Added a closing <code>&lt;p&gt;</code> tag to the line above the heading in question.
+{{!}}-
+{{!}}Line 19, Column 40: document type does not allow element "li" here; missing one of "ul", "ol", "menu", "dir" start-tag. &lt;li&gt;A diary, from the year 1874&lt;li&gt;
+{{!}}This one is pretty easy — you can see from the line it is pointing you to, at a glance, that the end <code>&lt;li&gt;</code> tag has a missing closing slash (/)
+{{!}}Added a closing slash to the line in question.
+{{!}}-
+{{!}}Line 23, Column 9: end tag for "html" omitted, but OMITTAG NO was specified . &lt;/body&gt;
+{{!}}Again, it doesn’t take much to work out that this means the end <code>&lt;html&gt;</code> tag is missing. The error message explanation even starts with You may have neglected to close an element.
+{{!}}Added the missing end <code>&lt;html&gt;</code> element.
+{{!}}} 
+
+
 With these errors fixed, the validator now gives a rather satisfying success message, as shown in Figure 2:
 
-[[Image:figure20.gif|A success message to say that all my errors have been fixed]] 
+[[Image:validatehtml2.gif|A success message to say that all my errors have been fixed]] 
 
 Figure 2: A success message to say that all my errors have been fixed.
  
