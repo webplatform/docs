@@ -76,24 +76,24 @@ You may also occasionally see other doctypes on your travels, but they are not m
 
 Table 1 shows the main syntax differences between HTML and XHTML:
                           
-<!--{| border="1"
-|-
+{{{!}} border="1"
+{{!}}-
 !HTML 
 !XHTML
-|-
-| Elements and attributes are case insensitive, eg <code>&lt;h1&gt;</code> is the same thing as <code>&lt;H1&gt;</code>.
-| Elements and attributes are case sensitive; they are all lowercase. 
-|-
-| Certain elements don’t need a closing tag (eg paragraphs, <code>&lt;p&gt;</code>), while others (called “empty elements”) shouldn't have a closing tag (eg images, <code>&lt;img&gt;</code>).
-| All elements must be explicitly closed (eg <code>&lt;p&gt;A paragraph&lt;/p&gt;</code>). Elements without content should be closed using a slash in the start tag (eg <code>&lt;hr&gt;&lt;/hr&gt;</code> and <code>&lt;hr/&gt;</code> mean the same thing).
-|-
-| Attribute values may be written without being enclosed in quotes.
-| Attribute values must be enclosed by quotes.
-|-
-| Shorthand can be used for certain attributes (ie <code>&lt;input required&gt;</code>).
-| The full attribute form must be used for all attributes (eg <code>&lt;input required="required"&gt;</code>).
-|-
-|} -->
+{{!}}-
+{{!}} Elements and attributes are case insensitive, eg <code>&lt;h1&gt;</code> is the same thing as <code>&lt;H1&gt;</code>.
+{{!}} Elements and attributes are case sensitive; they are all lowercase. 
+{{!}}-
+{{!}} Certain elements don’t need a closing tag (eg paragraphs, <code>&lt;p&gt;</code>), while others (called “empty elements”) shouldn't have a closing tag (eg images, <code>&lt;img&gt;</code>).
+{{!}} All elements must be explicitly closed (eg <code>&lt;p&gt;A paragraph&lt;/p&gt;</code>). Elements without content should be closed using a slash in the start tag (eg <code>&lt;hr&gt;&lt;/hr&gt;</code> and <code>&lt;hr/&gt;</code> mean the same thing).
+{{!}}-
+{{!}} Attribute values may be written without being enclosed in quotes.
+{{!}} Attribute values must be enclosed by quotes.
+{{!}}-
+{{!}} Shorthand can be used for certain attributes (ie <code>&lt;input required&gt;</code>).
+{{!}} The full attribute form must be used for all attributes (eg <code>&lt;input required="required"&gt;</code>).
+{{!}}-
+{{!}}}
 
 Table 1: Differences between HTML and XHTML. (current commented out because tables won't render at the moment)
 
