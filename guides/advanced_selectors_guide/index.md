@@ -91,7 +91,7 @@ You could select it using the following selector:
 
 <pre>article[id|="english"]</pre>
 
-The | character dictates that this selector should select an <code>&lt;article&gt;</code> element whose <code>id</code> attribute value is a list of hyphen-separated values, but only if the leftmost one of those values is <code>english</code>. 
+The {{!}} character dictates that this selector should select an <code>&lt;article&gt;</code> element whose <code>id</code> attribute value is a list of hyphen-separated values, but only if the leftmost one of those values is <code>english</code>. 
 
 Note that these are not supported by IE8 and below.
 
@@ -100,7 +100,7 @@ Note that these are not supported by IE8 and below.
 You can use a child selector to select specific elements that are children of other specific elements. For example, the following rule will turn the text of <code>&lt;strong&gt;</code> elements that are children of <code>&lt;h3&gt;</code> elements blue, but no other <code>&lt;strong&gt;</code> elements:
  
 <pre>h3 > strong {
-  color: blue;
+  colour: blue;
 }</pre>
  
 Note that child selectors are not supported in IE 6 or below.
@@ -109,7 +109,7 @@ Note also that the > character is often referred to as a combinator in this cont
  
 == Descendent selector ==
  
-Descendent selectors are very similar to child selectors, except that child selectors only select immediate descendents; descendent selectors select matching elements anywhere in the element hierarchy, not just direct descendents. Let's look at what this means more carefully. Consider the following HTML snippet:
+Descendent selectors are very similar to child selectors, except that child selectors only select immediate descendants; descendent selectors select matching elements anywhere in the element hierarchy, not just direct descendants. Let's look at what this means more carefully. Consider the following HTML snippet:
  
 <pre>&lt;div&gt;
   &lt;p&gt;hello&lt;/p&gt;
@@ -123,13 +123,13 @@ In this snippet, the <code>&lt;div&gt;</code> element is the parent of all other
 You could use a child selector to select just the <code>&lt;p&gt;</code> immediately inside the <code>&lt;div&gt;</code>, like so:
  
 <pre>div > p {
- ...
+ …
 }</pre>
  
 If you instead used a descendent selector, as follows:
  
 <pre>div p {
- ...
+ …
 }</pre>
  
 Both of the <code>&lt;p&gt;</code> elements would be selected.
@@ -435,7 +435,7 @@ These selectors are not supported in IE 7 or below. Also note that you shouldn't
 
 === CSS3 pseudo-element double colon syntax ===
 
-Please note that the new CSS3 way of writing pseudo-elements is to use a double colon, eg <code>a::after { ... }</code>, to set them apart from pseudo-classes. You may see this sometimes in CSS. CSS3 however also still allows for single colon pseudo-elements, for the sake of backwards compatibility, and we would advise that you stick with this syntax for the time being.
+Please note that the new CSS3 way of writing pseudo-elements is to use a double colon, e.g. <code>a::after { … }</code>, to set them apart from pseudo-classes. You may see this sometimes in CSS. CSS3 however also still allows for single colon pseudo-elements, for the sake of backwards compatibility, and we would advise that you stick with this syntax for the time being.
 
 |character dictates that this selector should select an <code>&lt;article&gt;</code> element whose <code>id</code> attribute value is a list of hyphen-separated values, but only if the leftmost one of those values is <code>english</code>_ 
 
