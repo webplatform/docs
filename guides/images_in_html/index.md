@@ -1,4 +1,7 @@
-== Introduction ==
+{{Flags}}
+{{Summary_Section|This article provides all you need to know to add images to an HTML document using the <code>&lt;img&gt;</code> tag.}}
+{{Guide
+|Content=== Introduction ==
  
 In this article we will discuss one of the things that makes web design pretty — images. At the end of this tutorial you’ll know how to add imagery to web documents in an accessible way (so that people with visual impairments can still use the information on your site) and how and when to use inline images for delivering information or background images for page layout. You can [http://dev.opera.com/articles/view/17-images-in-html/code.zip download the example files used in this article here] — we'll look at these files over the course of the tutorial.
 
@@ -22,7 +25,7 @@ There are two main ways to add images to a document: content images using the <c
 # If the image is crucial to the content of the document, for example a photo of the author or a graph showing some data, it should be added as an <code>&lt;img&gt;</code> element with proper alternative text.
 # If the image is there as “eye candy” you should use CSS background images. These images should not have any alternative text (what use is “round green corner with a twinkle” to a blind person?) and you have a lot more options to deal with image styling in CSS than in HTML.
  
-== The img element and its attributes ==
+== The <code>&lt;img&gt;</code> element and its attributes ==
  
 Adding an image to an HTML document is very easy using the <code>&lt;img&gt;</code> element: you include the location of the image you want to display inside a <code>src</code> (source) attribute, and away you go. The following HTML document ([http://dev.opera.com/articles/view/17-images-in-html/inlineimageexample.html inlineimageexample.html] in the zip file) displays the photo balconyview.jpg in a browser (provided that you have the image in the same folder as the HTML file.)
 
@@ -88,7 +91,7 @@ If you load this code in your browser, you will see the display shown in Figure 
 
 Figure 2: <code>title</code> attributes are shown as tool tips in a lot of browsers.
  
-=== Using longdesc to provide an alternative for complex images ===
+=== Using <code>longdesc</code> to provide an alternative for complex images ===
  
 If the image is a very complex image, like for example a chart, you can offer a more lengthy description of it using the <code>longdesc</code> attribute, so that people using screen readers or browsing with images turned off can still access the information conveyed by the image.
 
@@ -222,7 +225,7 @@ CSS also means you can use background images in a very versatile way — you can
  
 The CSS to apply images as backgrounds is pretty easy. Before you look at the CSS code below, load the [http://dev.opera.com/articles/view/17-images-in-html/imagesandcss.html imagesandcss.html] example file in your browser, or look at Figure 4 to get an idea of all the different things that are possible with background images in CSS.
 
-[[Image:images-f.gif|CSS background examples]] 
+[[Image:images-f.gif|CSS background examples]]
 Figure 4: Backgrounds with CSS.
  
 The different boxes are actually styled <code>&lt;h2&gt;</code> heading elements with some padding and borders applied through CSS to give us enough space to show the background image. If you check out the HTML file, you’ll see that each <code>&lt;h2&gt;</code> element has a unique <code>&lt;id&gt;</code> so each one can have a different CSS rule applied to it. The CSS for the first example is the following:
@@ -231,30 +234,29 @@ The different boxes are actually styled <code>&lt;h2&gt;</code> heading elements
  
 You add the image with the <code>&lt;background-image&gt;</code> property and give it a URL in parenthesis to specify the image to be included. By default, background images will be repeated both horizontally and vertically to fill up the whole element space. You can however define a different repetition with the <code>&lt;background-repeat&gt;</code> property:
  
-* Don’t repeat the image at all: <code>&lt;background-repeat:no-repeat;&gt;</code>
-* Just repeat the image horizontally: <code>&lt;background-repeat:repeat-x; &gt;</code>
-* Just repeat the image vertically: <code>&lt;background-repeat:repeat-y; &gt;</code>
+* Don’t repeat the image at all: <code>background-repeat:no-repeat;</code>
+* Just repeat the image horizontally: <code>background-repeat:repeat-x;</code>
+* Just repeat the image vertically: <code>background-repeat:repeat-y;</code>
  
 By default the background image (if not repeated) will be positioned at the top and left corner of the element. You can however use <code>&lt;background-position&gt;</code> to move the background image around. The easiest values to choose are <code>&lt;top&gt;</code>, <code>&lt;center&gt;</code>, and <code>&lt;bottom&gt;</code> for the vertical alignment and <code>&lt;left&gt;</code>, <code>&lt;center&gt;</code>, and <code>&lt;right&gt;</code> for the horizontal alignment. For example, to position the image on the bottom right you need to use 
 <code>&lt;background-position:bottom-right; &gt;</code>, while to centre the image vertically and apply it to the right you would use
 <code>&lt;background-position:center-right;&gt;</code>.
  
 By controlling the repetition and the position of background images and using clever images you can create a lot of stunning effects that were not possible before CSS, and by keeping the background definitions in a separate CSS file you make it very easy to change the look and feel of a whole site by changing some lines of code. This will all be covered later on.
-
-== Summary ==
- 
-That’s all you need to know to get you going when it comes to adding images to HTML. There are a lot more tricks available using images and CSS, but for now have a go with what you learnt here and concentrate on best-practice application of images.
-
-== Exercise Questions ==
+}}
+{{See_Also_Section
+|Manual_sections==== Exercise Questions ===
  
 * Why is it important to add good text to an image in an <code>alt</code> attribute? Are there any situations in which you don't need to?
 * If you have an image that is 1280x786 pixels large and you want to display it as a 40x30 pixel thumbnail, can you do that in HTML and is it wise to do so?
 * What does the <code>longdesc</code> attribute do, and how do browsers show it?
 * What do the <code>valign</code> and the <code>align</code> attributes do and why weren’t they covered here?
 * Where are CSS background images positioned inside an element by default, and how do they get repeated by default?
- 
-Note: This material was originally published as part of the Opera Web Standards Curriculum, available as [http://dev.opera.com/articles/view/17-images-in-html/ 17: Images in HTML], written by Christian Heilmann. Like the original, it is published under the [http://creativecommons.org/licenses/by-nc-sa/2.5/ Creative Commons Attribution, Non Commercial - Share Alike 2.5] license.
-
-[[Category:Tutorials]]
-[[Category:WSC]]
-[[Category:HTML]]
+}}
+{{Topics|HTML}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
+}}
