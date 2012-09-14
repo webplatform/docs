@@ -211,6 +211,32 @@ This table code looks like so in a browser:
 {{!}}Washington
 {{!}}1980
 {{!}}Explosive Eruption
+{{{!}} border="1"
+{{!}}+Recent Major Volcanic Eruptions in the Pacific Northwest
+{{!}}-
+!Volcano Name
+!Location
+!Last Major Eruption
+!Type of Eruption
+{{!}}-
+!Mt. Lassen
+{{!}}California
+{{!}}1914-17
+{{!}}Explosive Eruption
+{{!}}-
+!Mt. Hood
+{{!}}Oregon
+{{!}}1790s
+{{!}}Pyroclastic flows and Mudflows
+{{!}}-
+!Mt. St. Helens
+{{!}}Washington
+{{!}}1980
+{{!}}Explosive Eruption
+{{!}}-
+{{!}}+colspan="4"|Compiled in 2008 by Ms Jen
+{{!}}}
+
 {{!}}}
                                 
 
