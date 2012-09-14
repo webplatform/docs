@@ -42,7 +42,7 @@ Let's start with the semantic HTML code required to render a basic table — thi
  
 This code renders roughly like so:
                          
-{| border="1"
+<!--{| border="1"
 |-
 |Volcano Name
 |Location
@@ -63,7 +63,7 @@ This code renders roughly like so:
 |Washington
 |1980
 |Explosive Eruption
-|} 
+|} -->
 
 Let’s start by breaking down the HTML markup used in the above code:
  
@@ -79,8 +79,7 @@ Note that the basic elements must be nested as follows:
         &lt;td&gt;content&lt;/td&gt;
         &lt;td&gt;content&lt;/td&gt;
     &lt;/tr&gt;
-&lt;/table&gt;
-</pre>
+&lt;/table&gt;</pre>
  
 To order them in another fashion will cause the browser to spit up the equivalent of an internet hair ball and render the table in a very odd fashion, if at all.
 
@@ -118,7 +117,7 @@ Now the basic table is in place, we can add some slightly more complex table fea
  
 This code is rendered as:
                            
-{| border="1"
+<!--{| border="1"
 |+Recent Major Volcanic Eruptions in the Pacific Northwest
 |-
 !Volcano Name
@@ -140,7 +139,8 @@ This code is rendered as:
 |Washington
 |1980
 |Explosive Eruption
-|} 
+|} -->
+
 The new elements used here are:
  
 * <code>&lt;caption&gt;&lt;/caption&gt;</code>: The <code>&lt;caption&gt;</code> element allows you to give the table data a caption. Most browsers will center the caption and render it the same width as the table by default.
@@ -189,7 +189,7 @@ As a final step in structuring our table, we will define header and body table s
  
 This table code looks like so in a browser:
                                 
-{| border="1"
+<!--{| border="1"
 |+Recent Major Volcanic Eruptions in the Pacific Northwest
 |-
 !Volcano Name
@@ -213,7 +213,7 @@ This table code looks like so in a browser:
 |Explosive Eruption
 |-
 |colspan="4"|Compiled in 2008 by Ms Jen
-|} 
+|} -->
 
 The new elements/attributes are as follows:
  
