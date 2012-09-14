@@ -42,28 +42,28 @@ Let's start with the semantic HTML code required to render a basic table — thi
  
 This code renders roughly like so:
                          
-<!--{| border="1"
-|-
-|Volcano Name
-|Location
-|Last Major Eruption
-|Type of Eruption
-|-
-|Mt. Lassen
-|California
-|1914-17
-|Explosive Eruption
-|-
-|Mt. Hood
-|Oregon
-|1790s
-|Pyroclastic flows and Mudflows
-|-
-|Mt .St. Helens
-|Washington
-|1980
-|Explosive Eruption
-|} -->
+{{{!}} border="1"
+{{!}}-
+{{!}}Volcano Name
+{{!}}Location
+{{!}}Last Major Eruption
+{{!}}Type of Eruption
+{{!}}-
+{{!}}Mt. Lassen
+{{!}}California
+{{!}}1914-17
+{{!}}Explosive Eruption
+{{!}}-
+{{!}}Mt. Hood
+{{!}}Oregon
+{{!}}1790s
+{{!}}Pyroclastic flows and Mudflows
+{{!}}-
+{{!}}Mt .St. Helens
+{{!}}Washington
+{{!}}1980
+{{!}}Explosive Eruption
+{{!}}}
 
 Let’s start by breaking down the HTML markup used in the above code:
  
