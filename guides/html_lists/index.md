@@ -1,10 +1,13 @@
-== Introduction ==
+{{Flags}}
+{{Summary_Section|This article will give a clear understanding of the three different list types in HTML. Using the step-by-step example, you should have created all three and learned how to nest lists inside list items.}}
+{{Guide
+|Content=== Introduction ==
  
 Lists are used to group related pieces of information together, so they are clearly associated with each other and easy to read. In modern web development lists are workhorse elements, frequently used for navigation as well as general content.
  
-Lists are good from a structural point of view as they help create a well-structured, more accessible, easy-to-maintain document. They are also useful for a purely practical reason — they give you extra elements to attach CSS styles to, for a whole variety of styling (we'll get on to CSS later in the course - check out the [[Styling lists and links]] first, and then visit the [Web Standards Curriculum] table of contents for the full list of CSS articles available.).
- 
-In this part, we will cover the different list types available in HTML, when and how you should use them, with a couple of practical examples at the end.
+Lists are good from a structural point of view as they help create a well-structured, more accessible, easy-to-maintain document. They are also useful for a purely practical reason — they give you extra elements to attach CSS styles to, for a whole variety of styling (we'll get on to CSS later in the course.)
+
+Once you know how to use HTML lists properly, you will probably discover that you use them all the time. There is a lot of content on the web that should have been placed into a list, but was just thrown into a generic element with some line break tags. It’s a lazy practice that causes far more problems than it solves — so don’t do it! You should always create semantically correct lists to help people read your websites. It is a better practice for everyone, not least yourself when you need to maintain your sites later on.
 
 == The three list types ==
  
@@ -38,13 +41,12 @@ You can use CSS to change the bullet to one of several default styles, use your 
  
 Unordered lists use one set of <code>&lt;ul&gt;&lt;/ul&gt;</code> tags, wrapped around many sets of <code>&lt;li&gt;&lt;/li&gt;</code>:
  
-<pre><code>&lt;ul&gt;
+<pre>&lt;ul&gt;
   &lt;li&gt;bread&lt;/li&gt;
   &lt;li&gt;coffee beans&lt;/li&gt;
   &lt;li&gt;milk&lt;/li&gt;
   &lt;li&gt;butter&lt;/li&gt;
-&lt;/ul&gt;</code>
-</pre>
+&lt;/ul&gt;</pre>
 
 === Ordered lists ===
  
@@ -74,7 +76,6 @@ Ordered lists can be displayed with one of several numbering or alphabetic syste
 ** Lowercase ascii letters (a, b, c…)
 ** Uppercase ascii letters (A, B, C…).
 ** Lowercase classical Greek: (έ, ή, ί…)
-*
 * Numbers
 ** Decimal numbers (1, 2, 3…)
 ** Decimal numbers with leading zeros (01, 02, 03…)
@@ -89,7 +90,7 @@ Again, you can use CSS to change the style of your ordered lists.
  
 Ordered lists use one set of <code>&lt;ol&gt;&lt;/ol&gt;</code> tags, wrapped around many sets of <code>&lt;li&gt;&lt;/li&gt;</code>:
  
-<pre><code>&lt;ol&gt;
+<pre>&lt;ol&gt;
   &lt;li&gt;Gather ingredients&lt;/li&gt;
   &lt;li&gt;Mix ingredients together&lt;/li&gt;
   &lt;li&gt;Place ingredients in a baking dish&lt;/li&gt;
@@ -97,14 +98,13 @@ Ordered lists use one set of <code>&lt;ol&gt;&lt;/ol&gt;</code> tags, wrapped ar
   &lt;li&gt;Remove from oven&lt;/li&gt;
   &lt;li&gt;Allow to stand for ten minutes&lt;/li&gt;
   &lt;li&gt;Serve&lt;/li&gt;
-&lt;/ol&gt;</code>
-</pre>
+&lt;/ol&gt;</pre>
  
 ==== Beginning ordered lists with numbers other than 1 ====
  
 It is possible to get an ordered list to start with a number other than 1 (or i, or I, etc.). This is done using the <code>&lt;start&gt;</code> attribute, which takes a numeric value, even if you’re using CSS to change the the list counters to be alphabetic, roman or. This is useful if you have a single list of items, but you want to break the list up with some kind of note, or some other related information. For example, we could do this with the previous example:
  
-<pre><code>&lt;ol&gt;
+<pre>&lt;ol&gt;
   &lt;li&gt;Gather ingredients&lt;/li&gt;
   &lt;li&gt;Mix ingredients together&lt;/li&gt;
   &lt;li&gt;Place ingredients in a baking dish&lt;/li&gt;
@@ -117,8 +117,7 @@ It is possible to get an ordered list to start with a number other than 1 (or i,
   &lt;li&gt;Remove from oven&lt;/li&gt;
   &lt;li&gt;Allow to stand for ten minutes&lt;/li&gt;
   &lt;li&gt;Serve&lt;/li&gt;
-&lt;/ol&gt;</code>
-</pre>
+&lt;/ol&gt;</pre>
  
 This gives the following result:
  
@@ -219,7 +218,7 @@ In this example, we associate more than one value with a name, and vice versa:
 Which would render as follows:
 
 <pre>Name
-  Value that applies to the preceding name</pre>
+  Value that applies to the preceding name
 Name
 Name
   Value that applies to both of the preceding names
@@ -231,15 +230,21 @@ Name that can have one of the following values
  
 When trying to decide what type of list to use, you can usually decide by asking two simple questions:
 
-# Am I defining terms or associating other name/value pairs?
-#* If yes, use a description list.
-#* If no, don’t use a description list — go on to the next question.
-#
-# Is the order of the list items important?
-#* If yes, use an ordered list.
-#* If no, use an unordered list.
-#
- 
+<ol>
+  <li>Am I defining terms or associating other name/value pairs?
+    <ul>
+      <li>If yes, use a description list.</li>
+      <li>If no, don’t use a description list — go on to the next question.</li>
+    </ul>
+  </li>
+  <li>Is the order of the list items important?
+    <ul>
+      <li>If yes, use an ordered list.</li>
+      <li>If no, use an unordered list.</li>
+    </ul>
+  </li>
+</ol> 
+
 == The difference between HTML lists and text ==
  
 You may be wondering what the difference is between an HTML list and some text with bullets or numbers written in by hand. Well, there are several advantages to using an HTML list:
@@ -258,13 +263,12 @@ A list item can contain another entire list — this is known as "nesting" a lis
 ## Section One
 ## Section Two
 ## Section Three
-#
 # Chapter Two
 # Chapter Three
  
 The key to nesting lists is to remember that the nested list should relate to one specific list item. To reflect that in the code, the nested list is contained inside that list item. The code for the list above looks something like this:
  
-<pre><code>&lt;ol&gt;
+<pre>&lt;ol&gt;
   &lt;li&gt;Chapter One
     &lt;ol&gt;
       &lt;li&gt;Section One&lt;/li&gt;
@@ -274,8 +278,7 @@ The key to nesting lists is to remember that the nested list should relate to on
   &lt;/li&gt;
   &lt;li&gt;Chapter Two&lt;/li&gt;
   &lt;li&gt;Chapter Three  &lt;/li&gt;
-&lt;/ol&gt;</code>
-</pre>
+&lt;/ol&gt;</pre>
  
 Note how the nested list starts after the <code>&lt;li&gt;</code> and the text of the containing list item (“Chapter One”); then ends before the <code>&lt;/li&gt;</code> of the containing list item. Nested lists often form the basis for website navigation menus, as they are a good way to define the hierarchical structure of the website.
  
@@ -296,13 +299,14 @@ The client doesn’t mind what order the categories and recipes are shown; they 
 Let’s step through the process of creating this site.
  
 === Main page markup ===
- 
-# Create a properly-formed HTML page, including a doctype, <code>&lt;html&gt;</code>, <code>&lt;head&gt;</code> and <code>&lt;body&gt;</code> elements, and save it as ''stepbystep-main.html''. Add a main heading (<code>&lt;h1&gt;</code>) of “HTML Cooking School”, and a subheading (<code>&lt;h2&gt;</code>) of “Recipes”:   
+
+<ol> 
+<li><p>Create a properly-formed HTML page, including a doctype, <code>&lt;html&gt;</code>, <code>&lt;head&gt;</code> and <code>&lt;body&gt;</code> elements, and save it as ''stepbystep-main.html''. Add a main heading (<code>&lt;h1&gt;</code>) of “HTML Cooking School”, and a subheading (<code>&lt;h2&gt;</code>) of “Recipes”:</p>
 
 <pre>&lt;h1&gt;HTML Cooking School&lt;/h1&gt;
-&lt;h2&gt;Recipes&lt;/h2&gt;</pre>
+&lt;h2&gt;Recipes&lt;/h2&gt;</pre></li>
 
-# You have three categories of recipe to represent, and the order is not important — an unordered list is most appropriate for these, so add the following to your page:
+<li><p>You have three categories of recipe to represent, and the order is not important — an unordered list is most appropriate for these, so add the following to your page:</p>
 
 <pre>&lt;h2&gt;Recipes&lt;/h2&gt;
    &lt;ul&gt;
@@ -311,9 +315,9 @@ Let’s step through the process of creating this site.
    &lt;li&gt;Quickbreads&lt;/li&gt;
  &lt;/ul&gt;</pre>
 
-Indenting the <code>&lt;li&gt;</code> elements makes the code more readable, but it is not required.
+<p>Indenting the <code>&lt;li&gt;</code> elements makes the code more readable, but it is not required.</p></li>
 
-# Now you need to add the recipes as sub-items, for example “Plain Sponge”, “Chocolate Cake” and “Apple Tea Cake” are all part of the “Cakes” category. To do this, you need to create a nested list within each item. Since the order is not important, once again unordered lists are appropriate. To make things easier for the tutorial, I’ll get you to link all of the recipes to one single recipe page ([[html links lets build a web]] explains HTML links in depth].):
+<li><p>Now you need to add the recipes as sub-items, for example “Plain Sponge”, “Chocolate Cake” and “Apple Tea Cake” are all part of the “Cakes” category. To do this, you need to create a nested list within each item. Since the order is not important, once again unordered lists are appropriate. To make things easier for the tutorial, I’ll get you to link all of the recipes to one single recipe page ([[html links lets build a web]] explains HTML links in depth].):</p>
 
 <pre>&lt;h2&gt;Recipes&lt;/h2&gt;
  &lt;ul&gt;
@@ -337,9 +341,10 @@ Indenting the <code>&lt;li&gt;</code> elements makes the code more readable, but
        &lt;li&gt;&lt;a href="stepbystep-recipe.html"&gt;Scones&lt;/a&gt;&lt;/li&gt;
      &lt;/ul&gt;
    &lt;/li&gt;
- &lt;/ul&gt;</pre>
- 
-The final result should be something similar to Figure 1:
+ &lt;/ul&gt;</pre></li>
+ </ol>
+
+<p>The final result should be something similar to Figure 1:</p>
 
 [[Image:mainpage.png|Screenshot of main page]]
  
@@ -372,23 +377,23 @@ Method
 
 === Recipe page markup ===
  
-# Create another properly-formed HTML document, and save it as stepbystep-recipe.html. Add the following headings to it:
+<ol>
+<li><p>Create another properly-formed HTML document, and save it as stepbystep-recipe.html. Add the following headings to it:</p>
 
 <pre>&lt;h1&gt;Simple Sponge Cake&lt;/h1&gt;
  &lt;h2&gt;Ingredients&lt;/h2&gt;
  &lt;h3&gt;Notes on ingredients&lt;/h3&gt;
- &lt;h2&gt;Method&lt;/h2&gt;</pre>
-
-# The ingredients list has several items but the order isn’t important. An unordered list therefore makes sense. Add the following into the <code>&lt;body&gt;</code> of your HTML:
+ &lt;h2&gt;Method&lt;/h2&gt;</pre></li>
+<li>The ingredients list has several items but the order isn’t important. An unordered list therefore makes sense. Add the following into the <code>&lt;body&gt;</code> of your HTML:
 
 <pre>&lt;h2&gt;Ingredients&lt;/h2&gt;
  &lt;ul&gt;
    &lt;li&gt;3 eggs&lt;/li&gt;
    &lt;li&gt;100g castor sugar&lt;/li&gt;
    &lt;li&gt;85g self-raising flour&lt;/li&gt;
- &lt;/ul&gt;</pre>
+ &lt;/ul&gt;</pre></li>
 
-# The notes on the ingredients are there to properly define what some of the ingredients are. You need to associate the ingredient — the name — with its value. A description list is right for this purpose. Add the following to your HTML, below the unordered list in the previous step:
+<li><p>The notes on the ingredients are there to properly define what some of the ingredients are. You need to associate the ingredient — the name — with its value. A description list is right for this purpose. Add the following to your HTML, below the unordered list in the previous step:</p>
 
 <pre>&lt;h3&gt;Notes on ingredients&lt;/h3&gt;
  &lt;dl&gt;
@@ -396,9 +401,8 @@ Method
      &lt;dd&gt;Finely granulated white sugar.&lt;/dd&gt;
    &lt;dt&gt;Self-raising flour&lt;/dt&gt;
      &lt;dd&gt;A pre-mixed combination of flour and leavening agents (usually salt and baking powder).&lt;/dd&gt;
- &lt;/dl&gt; </pre>
-
-# The method must obviously follow a single correct order, so it should be an ordered list — add the following to your HTML, below the description list: 
+ &lt;/dl&gt; </pre></li>
+<li><p>The method must obviously follow a single correct order, so it should be an ordered list — add the following to your HTML, below the description list: </p>
 
 <pre>&lt;h2&gt;Method&lt;/h2&gt;
  &lt;ol&gt;
@@ -409,8 +413,9 @@ Method
    &lt;li&gt;Pour mixture into the prepared pan.&lt;/li&gt;
    &lt;li&gt;Bake for 20 minutes in the preheated oven, or until the top of the cake springs back when lightly pressed.&lt;/li&gt;
    &lt;li&gt;Cool in the pan over a wire rack.&lt;/li&gt;
- &lt;/ol&gt;</pre>
- 
+ &lt;/ol&gt;</pre></li>
+ </ol>
+
 The page should look something like Figure 2:
  
 [[Image:recipepa.png|Screenshot showing the recipe page]]
@@ -420,27 +425,21 @@ Figure 2: The finished recipe page.
 You can also [http://dev.opera.com/articles/view/16-html-lists/stepbystep-recipe.html view the live example page here].
  
 You’re done!
-
-== Summary ==
- 
-By this stage you should have a clear understanding of the three different list types in HTML. Using the step-by-step example, you should have created all three and learned how to nest lists inside list items.
- 
-Once you know how to use HTML lists properly, you will probably discover that you use them all the time. There is a lot of content on the web that should have been placed into a list, but was just thrown into a generic element with some line break tags. It’s a lazy practice that causes far more problems than it solves — so don’t do it! You should always create semantically correct lists to help people read your websites. It is a better practice for everyone, not least yourself when you need to maintain your sites later on.
- 
-== Further reading ==
- 
-* [http://www.alistapart.com/articles/taminglists/ A List Apart: Taming Lists]
+}}
+{{See_Also_Section
+|External_links=* [http://www.alistapart.com/articles/taminglists/ A List Apart: Taming Lists]
 * [http://www.w3.org/TR/REC-CSS2/generate.html#lists W3C CSS2: list-style-type definition]
-
-== Exercise questions ==
+|Manual_sections==== Exercise questions ===
  
 * What are the three types of HTML list?
 * When would you use each type of list? How would you choose between them?
 * How do you nest lists?
 * Why should you use CSS rather than HTML to style your lists?
- 
-Note: This material was originally published as part of the Opera Web Standards Curriculum, available as [http://dev.opera.com/articles/view/16-html-lists/ 16: HTML lists], written by Ben Buchanan. Like the original, it is published under the [http://creativecommons.org/licenses/by-nc-sa/2.5/ Creative Commons Attribution, Non Commercial - Share Alike 2.5] license.
-
-[[Category:Tutorials]]
-[[Category:WSC]]
-[[Category:HTML]]
+}}
+{{Topics|HTML}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
+}}
