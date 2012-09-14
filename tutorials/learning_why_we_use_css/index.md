@@ -46,7 +46,7 @@ In general with HTML, you use the markup language to describe the information co
  
 <li><p>Save the file and refresh your browser's display. The stylesheet makes the initial letters red, like this:</p>
 
-<p><b style="color:red;">C</b>ascading '''S'''tyle '''S'''heets</p>
+<p><b style="color:red;">C</b>ascading <b style="color:red;">S</b>tyle <b style="color:red;">S</b>heets</p>
 </li>
 </ol>
 
