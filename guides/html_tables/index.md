@@ -236,8 +236,6 @@ This table code looks like so in a browser:
 {{!}}-
 {{!}}+ Compiled in 2008 by Ms Jen
 {{!}}}
-
-{{!}}}
                                 
 
 The new elements/attributes are as follows:
