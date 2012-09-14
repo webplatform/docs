@@ -246,7 +246,7 @@ You can try rearranging the lines in your CSS file to show that the order has no
  }</pre>
 </li> 
 <li><p>Save the files and refresh your browser to see the result (put the mouse over the following link to see the effect):</p>
-<p clas="note">Ahain, need to add in example screenshots!</p>
+<p class="note">Again, need to add in example screenshots!</p>
 </ol> 
 
 == Action: Using selectors based on relationships and pseudo-classes ==
