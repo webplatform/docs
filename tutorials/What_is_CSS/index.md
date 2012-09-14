@@ -38,7 +38,7 @@ For more information about documents and markup languages, see other parts of th
 
 In Part II of this tutorial you will see examples of these markup languages.
 
-  ''Presenting'' a document to a user means converting it into a form that humans can make use of. Browsers, like Firefox, Chrome or Internet Explorer, are designed to present documents visually — for example, on a computer screen, projector or printer.
+''Presenting'' a document to a user means converting it into a form that humans can make use of. Browsers, like Firefox, Chrome or Internet Explorer, are designed to present documents visually — for example, on a computer screen, projector or printer.
 
 CSS is not just for browsers, and not just for visual presentation. In formal CSS terminology, the program that presents a document to a user is called a ''user agent'' (UA). A browser is just one kind of UA. However, in Part I of this tutorial you will only work with CSS in a browser.
 
@@ -66,7 +66,7 @@ For some formal definitions of terminology relating to CSS, see [[Definitions]] 
  &lt;/html&gt;</pre></li>
 <li><p>In your browser, open a new tab or a new window, and open the file there. You should see the text with the initial letters bold, like this:</p>
 
-<pre>'''C'''ascending '''S'''tyle '''S'''heets</pre>
+<pre><strong>C</strong>ascending <strong>S</strong>tyle <strong>S</strong>heets</pre>
 
 <p>What you see in your browser might not look exactly the same as this, because of settings in your browser and in this wiki. If there are some differences in the font, spacing and colors that you see, they are not important.</p>
 </li>
@@ -75,7 +75,6 @@ For some formal definitions of terminology relating to CSS, see [[Definitions]] 
 == What next? ==
  
 Your document does not yet use CSS. In the next article you will use CSS to specify its style.
-
 }}
 {{Compatibility_Section
 |Not_required=Yes
