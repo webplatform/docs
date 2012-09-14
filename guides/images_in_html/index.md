@@ -225,7 +225,7 @@ CSS also means you can use background images in a very versatile way — you can
  
 The CSS to apply images as backgrounds is pretty easy. Before you look at the CSS code below, load the [http://dev.opera.com/articles/view/17-images-in-html/imagesandcss.html imagesandcss.html] example file in your browser, or look at Figure 4 to get an idea of all the different things that are possible with background images in CSS.
 
-[[Image:images-f.gif|CSS background examples]] 
+[[Image:images-f.gif|CSS background examples]]
 Figure 4: Backgrounds with CSS.
  
 The different boxes are actually styled <code>&lt;h2&gt;</code> heading elements with some padding and borders applied through CSS to give us enough space to show the background image. If you check out the HTML file, you’ll see that each <code>&lt;h2&gt;</code> element has a unique <code>&lt;id&gt;</code> so each one can have a different CSS rule applied to it. The CSS for the first example is the following:
@@ -234,9 +234,9 @@ The different boxes are actually styled <code>&lt;h2&gt;</code> heading elements
  
 You add the image with the <code>&lt;background-image&gt;</code> property and give it a URL in parenthesis to specify the image to be included. By default, background images will be repeated both horizontally and vertically to fill up the whole element space. You can however define a different repetition with the <code>&lt;background-repeat&gt;</code> property:
  
-* Don’t repeat the image at all: <code>&lt;background-repeat:no-repeat;&gt;</code>
-* Just repeat the image horizontally: <code>&lt;background-repeat:repeat-x; &gt;</code>
-* Just repeat the image vertically: <code>&lt;background-repeat:repeat-y; &gt;</code>
+* Don’t repeat the image at all: <code>background-repeat:no-repeat;</code>
+* Just repeat the image horizontally: <code>background-repeat:repeat-x;</code>
+* Just repeat the image vertically: <code>background-repeat:repeat-y;</code>
  
 By default the background image (if not repeated) will be positioned at the top and left corner of the element. You can however use <code>&lt;background-position&gt;</code> to move the background image around. The easiest values to choose are <code>&lt;top&gt;</code>, <code>&lt;center&gt;</code>, and <code>&lt;bottom&gt;</code> for the vertical alignment and <code>&lt;left&gt;</code>, <code>&lt;center&gt;</code>, and <code>&lt;right&gt;</code> for the horizontal alignment. For example, to position the image on the bottom right you need to use 
 <code>&lt;background-position:bottom-right; &gt;</code>, while to centre the image vertically and apply it to the right you would use
