@@ -297,6 +297,7 @@ Let’s step through the process of creating this site.
 
 <pre>&lt;h1&gt;HTML Cooking School&lt;/h1&gt;
 &lt;h2&gt;Recipes&lt;/h2&gt;</pre></li>
+
 <li>You have three categories of recipe to represent, and the order is not important — an unordered list is most appropriate for these, so add the following to your page:
 
 <pre>&lt;h2&gt;Recipes&lt;/h2&gt;
@@ -307,6 +308,7 @@ Let’s step through the process of creating this site.
  &lt;/ul&gt;</pre>
 
 Indenting the <code>&lt;li&gt;</code> elements makes the code more readable, but it is not required.</li>
+
 <li>Now you need to add the recipes as sub-items, for example “Plain Sponge”, “Chocolate Cake” and “Apple Tea Cake” are all part of the “Cakes” category. To do this, you need to create a nested list within each item. Since the order is not important, once again unordered lists are appropriate. To make things easier for the tutorial, I’ll get you to link all of the recipes to one single recipe page ([[html links lets build a web]] explains HTML links in depth].):
 
 <pre>&lt;h2&gt;Recipes&lt;/h2&gt;
