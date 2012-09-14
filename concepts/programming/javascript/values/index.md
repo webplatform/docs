@@ -466,7 +466,7 @@ var x = "\u00A9 Netscape Communications";</pre>
 <h3 id="Displaying_characters_with_Unicode">Displaying characters with Unicode</h3>
 <p>You can use Unicode to display the characters in different languages or technical symbols. For characters to be displayed properly, a client such as Mozilla Firefox or Netscape needs to support Unicode. Moreover, an appropriate Unicode font must be available to the client, and the client platform must support Unicode. Often, Unicode fonts do not display all the Unicode characters. Some platforms, such as Windows 95, provide partial support for Unicode.</p>
 <p>To receive non-ASCII character input, the client needs to send the input as Unicode. Using a standard enhanced keyboard, the client cannot easily input the additional characters supported by Unicode. Sometimes, the only way to input Unicode characters is by using Unicode escape sequences.</p>
-<p>For more information on Unicode, see the [http://www.unicode.org/|Unicode Home Page] and The Unicode Standard, Version 2.0, published by Addison-Wesley, 1996.</p>
+<p>For more information on Unicode, see the [http://www.unicode.org/ Unicode Home Page] and The Unicode Standard, Version 2.0, published by Addison-Wesley, 1996.</p>
 <h2 id="Resources">Resources</h2>
 <ul>
   <li>[http://0xcc.net/jsescape/ Text Escaping and Unescaping in JavaScript] – an utility to convert characters in JavaScript unicode values</li>
