@@ -117,29 +117,29 @@ Now the basic table is in place, we can add some slightly more complex table fea
  
 This code is rendered as:
                            
-<!--{| border="1"
-|+Recent Major Volcanic Eruptions in the Pacific Northwest
-|-
+{{{!}} border="1"
+{{!}}+Recent Major Volcanic Eruptions in the Pacific Northwest
+{{!}}-
 !Volcano Name
 !Location
 !Last Major Eruption
 !Type of Eruption
-|-
-|Mt. Lassen
-|California
-|1914-17
-|Explosive Eruption
-|-
-|Mt. Hood
-|Oregon
-|1790s
-|Pyroclastic flows and Mudflows
-|-
-|Mt. St. Helens
-|Washington
-|1980
-|Explosive Eruption
-|} -->
+{{!}}-
+{{!}}Mt. Lassen
+{{!}}California
+{{!}}1914-17
+{{!}}Explosive Eruption
+{{!}}-
+{{!}}Mt. Hood
+{{!}}Oregon
+{{!}}1790s
+{{!}}Pyroclastic flows and Mudflows
+{{!}}-
+{{!}}Mt. St. Helens
+{{!}}Washington
+{{!}}1980
+{{!}}Explosive Eruption
+{{!}}}
 
 The new elements used here are:
  
@@ -188,32 +188,33 @@ As a final step in structuring our table, we will define header and body table s
 &lt;/table&gt;</pre>
  
 This table code looks like so in a browser:
-                                
-<!--{| border="1"
-|+Recent Major Volcanic Eruptions in the Pacific Northwest
-|-
+
+{{{!}} border="1"
+{{!}}+Recent Major Volcanic Eruptions in the Pacific Northwest
+{{!}}-
 !Volcano Name
 !Location
 !Last Major Eruption
 !Type of Eruption
-|-
+{{!}}-
 !Mt. Lassen
-|California
-|1914-17
-|Explosive Eruption
-|-
+{{!}}California
+{{!}}1914-17
+{{!}}Explosive Eruption
+{{!}}-
 !Mt. Hood
-|Oregon
-|1790s
-|Pyroclastic flows and Mudflows
-|-
+{{!}}Oregon
+{{!}}1790s
+{{!}}Pyroclastic flows and Mudflows
+{{!}}-
 !Mt. St. Helens
-|Washington
-|1980
-|Explosive Eruption
-|-
-|colspan="4"|Compiled in 2008 by Ms Jen
-|} -->
+{{!}}Washington
+{{!}}1980
+{{!}}Explosive Eruption
+{{!}}-
+{{!}}colspan="4"|Compiled in 2008 by Ms Jen
+{{!}}}
+                                
 
 The new elements/attributes are as follows:
  
