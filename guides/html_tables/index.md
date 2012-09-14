@@ -233,7 +233,7 @@ This table code looks like so in a browser:
 {{!}}Washington
 {{!}}1980
 {{!}}Explosive Eruption
-{{!}}+ Compiled in 2008 by Ms Jen
+{{!}}-
 {{!}}}
                                 
 
@@ -304,17 +304,7 @@ In this article we have gone through all you need to know to create effective HT
 * It is important that tables are correctly coded to be readable by a variety web browsers, mobile, accessible, and other devices.  Table HTML is best kept to a minimum, and you should use CSS to style the tables. You’ll learn a lot more about CSS later on in the course.
 * Tables can be accessible to mobile devices and users that use screen reading software by keeping the code clean, using attributes such as <code>scope</code> and <code>summary</code> as well as the <code>&lt;caption&gt;</code> element to help announce clearly and semantically what the respective sections are for. Also important for accessibility is to not use empty table cells for spacing (use CSS for this instead).
 }}
-{{See_Also_Section
-|External_links=* [http://www.w3.org/TR/html401/struct/tables.html W3C HTML 4 Tables Recommendation]
-* [http://www.w3.org/TR/CSS21/tables.html W3C CSS 2 tables recommendation]
-* [http://www.456bereastreet.com/archive/200410/bring_on_the_tables/ Roger Johansson’s “Bring on the Tables”]
-|Manual_sections==== Exercise questions ===
- 
-* Start by coding a simple table with only the 3 main table elements: <code>table</code>, <code>tr</code>, and <code>td</code>.  Save it and view it in a browser.
-* Much like the second example above, add a caption, header, and footer to your table.  How does that change what you see in the browser?
-* What can you do to make your table more accessible to screen readers and mobile devices?
-* Now create a CSS file.  Try styling the borders, padding, and cell spacing of your table with only CSS and no attributes in your HTML markup.  Add background colour and style the fonts.
-}}
+{{See_Also_Section}}
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
