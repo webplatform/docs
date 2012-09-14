@@ -17,13 +17,13 @@ Before you read any further, go and have a look at 5-10 of your favourite web si
 
 Lets visualise this a bit more with a specific example. The web site of [http://www.conquestofsteel.co.uk Conquest of Steel] (Chris Mills' band!) looks like so
 
-[[File:htmlstructure1.png]]
+[[File:htmlstructure1.jpg]]
 
 Figure 1: A typical example web site.
 
 We could break this up into the sections we have just discussed, like so:
 
-[[File:htmlstructure2.png]]
+[[File:htmlstructure2.jpg]]
 
 Figure 2: the example site, with distinct sections overlaid.
 
@@ -260,7 +260,6 @@ This way, you can work with whatever is thrown at you on different projects, plu
 * A full story page for a news site (eg. one news story, listed in full)
 # What content would be appropriate for putting into the header and footer of a blog post contained in an article?
 # What element should you use for the main content column, if JavaScript is turned off?
-
 }}
 {{Topics}}
 {{External_Attribution
