@@ -305,9 +305,11 @@ I’ve also applied a little bit of CSS to this form, to style the structural ma
  
 What does it do? The first line styles the fieldset border to not take up the whole page; you could also set the border to none using <code>{border: none;}</code> if you didn’t want one. The second line puts a margin of 10 pixels on the <code>&lt;li&gt;</code> elements to help give a little visual room between each list item, and gets rid of the bullet points. The third and fourth lines set a left margin on the <code>&lt;input&gt;</code> and <code>&lt;textarea&gt;</code> elements so that they don’t crowd the labels and line up slightly better. 
 
-You can see that this little bit of CSS make it look better, but there is still a lot to do before it will really look nice. If you would like more information on the styling of a form please consult [[Styling forms]] or [http://alistapart.com/articles/prettyaccessibleforms Nick Rigby’s A List Apart article on “Prettier Accessible Forms”]. You will also be able to find more information on margins and borders later on in this course.
+You can see that this little bit of CSS make it look better, but there is still a lot to do before it will really look nice.
 }}
 {{See_Also_Section
+|Manual_links=* [[Styling forms]]
+|External_links=* [http://alistapart.com/articles/prettyaccessibleforms Nick Rigby’s A List Apart article on “Prettier Accessible Forms”]
 |Manual_sections==== Exercise questions ===
  
 It's time to code your own contact form.
