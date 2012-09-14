@@ -234,7 +234,7 @@ This table code looks like so in a browser:
 {{!}}1980
 {{!}}Explosive Eruption
 {{!}}-
-{{!}}+colspan="4"|Compiled in 2008 by Ms Jen
+{{!}}+ Compiled in 2008 by Ms Jen
 {{!}}}
 
 {{!}}}
