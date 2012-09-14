@@ -1,7 +1,5 @@
 {{Flags}}
 {{Summary_Section|This article provides a walkthrough of the new form additions present in HTML5.}}
-{{Guide
-|Content
 
 == Introduction ==
  
@@ -197,7 +195,7 @@ For other text entry fields that nonetheless need to follow a certain structure 
 On the desktop, [[http://www.opera.com Opera] currently has the most complete implementation of new input types and native client-side validation, but support is on the roadmap for all other major browsers as well, so it won't be long before we can take advantage of these new powerful tools in our projects. But what about older browser versions?
  
 By design, browsers that don't understand the new input types (like <code>date</code> or <code>number</code>) will simply fall back to treating them as standard text inputs – not as user-friendly as their advanced HTML5 counterparts, but at the very least they allow for a form to be filled in. 
-}}
+
 {{See_Also_Section}}
 {{Topics|HTML}}
 {{External_Attribution
