@@ -22,7 +22,7 @@ Let’s start building up a comment form, the sort of form you would use on a we
  
 If you enter this into an HTML document and then open that document in a browser, the code is rendered as shown in Figure 1.
  
-[[Image:figure10.png|the first form example]]
+[[Image:Form1.png|the first form example]]
 
 Figure 1: The first, basic form example.
  
@@ -107,7 +107,7 @@ Let’s go back to the drawing board, with a new form:
  
 This form looks like Figure 2 when rendered in a browser:
 
-[[Image:figure20.png|the second form example]]
+[[Image:Form2.png|the second form example]]
  
 Figure 2: The second form example — looking better.
  
@@ -201,7 +201,7 @@ The next version of the form looks like this:
  
 When rendered in a browser, this form looks as shown in Figure 3.
  
-[[Image:figure30.png|the third form example]]
+[[Image:Form3.png|the third form example]]
  
 Figure 3: Some new, more complex form elements!
  
@@ -284,7 +284,7 @@ The [http://dev.opera.com/articles/view/20-html-forms-the-basics/step-4-form.htm
 
 When rendered in a browser, these look as shown in Figure 4.
  
-[[Image:form4.png|the fourth and final form example]]
+[[Image:Form4.png|the fourth and final form example]]
  
 Figure 4: More structuring with fieldset and legend.
 
