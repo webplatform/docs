@@ -1,7 +1,7 @@
 {{Flags
 |Content=Outdated, Not Neutral
 |Compatibility=Outdated, Incomplete
-|Editorial notes=The table that maps JavaScript versions to Navigator/Firefox versions could be expanded to include other browsers, or just deleted. The table of NES versions should be deleted.
+|Editorial notes=The table that maps JavaScript versions to Navigator/Firefox versions could be expanded to include other browsers, or just deleted. The table of NES versions should be deleted. Discussion of browser tools should be made cross-browser.
 }}
 {{Summary_Section|JavaScript is a cross-platform, object-based scripting language. This guide explains everything you need to know about using JavaScript.}}
 {{Guide
@@ -26,27 +26,51 @@ Some programming experience with a language such as C or Visual Basic is useful,
 == JavaScript versions == 
 '''Table 1: JavaScript and Navigator versions'''
 
-{|
-|'''JavaScript version''' || '''Navigator version'''
-|JavaScript 1.0 || Navigator 2.0
-|JavaScript 1.1 || Navigator 3.0
-|JavaScript 1.2 || Navigator 4.0-4.05
-|JavaScript 1.3 || Navigator 4.06-4.7x
-|JavaScript 1.4 ||	 
-|JavaScript 1.5 || Navigator 6.0, Mozilla (open source browser)
-|JavaScript 1.6 || Firefox 1.5, other Mozilla 1.8-based products
-|JavaScript 1.7 || Firefox 2, other Mozilla 1.8.1-based products
-|JavaScript 1.8 || Firefox 3, other Gecko 1.9-based products
-|}
+{{{!}}
+!JavaScript version
+!Navigator version'''
+{{!}}-
+{{!}} JavaScript 1.0 
+{{!}} Navigator 2.0
+{{!}}-
+{{!}} JavaScript 1.1 
+{{!}} Navigator 3.0
+{{!}}-
+{{!}} JavaScript 1.2 
+{{!}} Navigator 4.0-4.05
+{{!}}-
+{{!}} JavaScript 1.3 
+{{!}} Navigator 4.06-4.7x
+{{!}}-
+{{!}} JavaScript 1.4 
+{{!}}  
+{{!}}-
+{{!}} JavaScript 1.5 
+{{!}} Navigator 6.0, Mozilla (open source browser)
+{{!}}-
+{{!}} JavaScript 1.6 
+{{!}} Firefox 1.5, other Mozilla 1.8-based products
+{{!}}-
+{{!}} JavaScript 1.7 
+{{!}} Firefox 2, other Mozilla 1.8.1-based products
+{{!}}-
+{{!}} JavaScript 1.8 
+{{!}} Firefox 3, other Gecko 1.9-based products
+{{!}}}
 
 Each version of the Netscape Enterprise Server also supports a different version of JavaScript. To help you write scripts that are compatible with multiple versions of the Enterprise Server, this manual uses an abbreviation to indicate the server version in which each feature was implemented.
 
 '''Table 2 Abbreviations of Netscape Enterprise Server versions'''
-{|
-|'''Abbreviation'''|| '''Enterprise Server version'''
-|NES 2.0 || Netscape Enterprise Server 2.0
-|NES 3.0 || Netscape Enterprise Server 3.0
-|}
+{{{!}}
+!Abbreviation
+!Enterprise Server version
+{{!}}-
+{{!}} NES 2.0 
+{{!}} Netscape Enterprise Server 2.0
+{{!}}-
+{{!}} NES 3.0 
+{{!}} Netscape Enterprise Server 3.0
+{{!}}}
 
 == Where to find JavaScript information ==
 JavaScript documentation includes the following books:
