@@ -302,7 +302,7 @@ We covered a lot this time, but it is very important to remember how links work 
 {{See_Also_Section
 |Manual_sections==== Exercise questions ===
  
-* What is wrong with the following link: <code>&lt;&lt;a href="report.pdf" title="report as PDF, 2.3MB"&gt;get our latest report&lt;/a&gt;&gt;</code>?
+* What is wrong with the following link: <code>&lt;a href="report.pdf" title="report as PDF, 2.3MB"&gt;get our latest report&lt;/a&gt;</code>?
 * What is the <code>target</code> attribute in links for and are there any good uses for it?
 * I’ve talked about link relationships and connections between links and anchors. Is there an attribute for links that describes relationships between documents, too?
 * How can you write a link that sends the visitors to an element further down the page when they click it? What do you need to make sure of beforehand?
