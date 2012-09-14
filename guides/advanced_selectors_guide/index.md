@@ -83,7 +83,7 @@ You could select it using any of the following selectors:
 article[class~="archive"]
 article[class~="english"]</pre>
 
-The ~ character dictates that these selectors should select an <code>&lt;article&gt;</code> element whose <code>class</code> attribute value is a list of whitespace-separated values, but only if one of those values is the value given inside the quotes. 
+The  character dictates that these selectors should select an <code>&lt;article&gt;</code> element whose <code>class</code> attribute value is a list of whitespace-separated values, but only if one of those values is the value given inside the quotes. 
 
 Now lets look at an element on a page with an ID value in the form of hyphen-separated list:
 
