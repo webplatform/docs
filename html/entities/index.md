@@ -32,7 +32,7 @@ For the sake of portability, Unicode entity references should be reserved for us
 {{!}}<code>&amp;#163;</code>
 {{!}}<code> </code>
 {{!}}-
-!Section <sup>1</sup>
+!Section [[#citations|<sup>1</sup>]]
 {{!}}§
 {{!}}<code>&amp;sect;</code>
 {{!}}<code>&amp;#167;</code>
@@ -187,7 +187,7 @@ For the sake of portability, Unicode entity references should be reserved for us
 
 === HTML entity usage notes ===
  
-# Citations of statute law, e.g., “29 USC § 794 (d),” are the matter most likely to reference this character.
+# <span id="citations">Citations of statute law, e.g., “29 USC § 794 (d),” are the matter most likely to reference this character.</span>
 # Guillemets often enclose the names of stories, songs, films, public accommodations (e.g., «Rick’s Café Americain»), and popular toponyms in European languages, particularly those of the Romance sub-family. They are also used for quotes in certain European languages (such as French and Norsk); in these situations, you should always use <code>q</code> elements instead.
 # The pilcrow, used to mark the beginning of paragraphs that might otherwise be ambiguous, is useful when setting teaser copy. The print distribution of Rolling Stone magazine has often used such an approach. In technical writing, it might also be useful for marking an orphaned first line of a paragraph. ¶ Paragraphs marked with this symbol will most often be assigned a <code>display</code> value of <code>inline</code>, which will be explained in the introduction to the CSS layout model.
 # The middle dot is an anachronistic analogue to the decimal point, still used by some designers to enumerate amounts of decimalized currency.
