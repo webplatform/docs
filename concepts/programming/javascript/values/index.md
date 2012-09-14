@@ -4,14 +4,14 @@
 |Content=<h2 id="Values">Values</h2>
 <p>JavaScript recognizes the following types of values:</p>
 <ul>
-  <li><a href="/js/data-types/number" title="/js/data-types/number">Numbers</a>, such as 42 or 3.14159</li>
-  <li><a href="/js/data-types/boolean" title="/js/data-types/boolean">Logical (Boolean)</a> values, either <code>true</code> or <code>false</code></li>
-  <li><a href="/js/data-types/string" title="js/data-types/string">Strings</a>, such as "Howdy!"</li>
+  <li>[[/js/data-types/number|Numbers]], such as 42 or 3.14159</li>
+  <li>[[/js/data-types/boolean|Logical (Boolean)]] values, either <code>true</code> or <code>false</code></li>
+  <li>[[/js/data-types/string|Strings]], such as "Howdy!"</li>
   <li><code>null</code>, a special keyword denoting a null value; <code>null</code> is also a primitive value. Because JavaScript is case-sensitive, <code>null</code> is not the same as <code>Null</code>, <code>NULL</code>, or any other variant</li>
-  <li><code><a href="/js/objects/undefined" title="/js/objects/undefined">undefined</a></code>, a top-level property whose value is undefined; <code>undefined</code> is also a primitive value.</li>
+  <li><code>[[/js/objects/undefined|undefined]]</code>, a top-level property whose value is undefined; <code>undefined</code> is also a primitive value.</li>
 </ul>
-<p>This relatively small set of types of values, or <em>data types</em>, enables you to perform useful functions with your applications. There is no explicit distinction between integer and real-valued numbers. Nor is there an explicit date data type in JavaScript. However, you can use the <code><a href="/js/objects/Date" title="/js/objects/Date">Date</a></code> object and its methods to handle dates.</p>
-<p><a href="/js/objects/Object" title="/js/objects/Object">Objects</a> and <a href="/js/objects/Function" title="/js/objects/Function">functions</a> are the other fundamental elements in the language. You can think of objects as named containers for values, and functions as procedures that your application can perform.</p>
+<p>This relatively small set of types of values, or <em>data types</em>, enables you to perform useful functions with your applications. There is no explicit distinction between integer and real-valued numbers. Nor is there an explicit date data type in JavaScript. However, you can use the <code>[[/js/objects/Date|Date]]</code> object and its methods to handle dates.</p>
+<p>[[/js/objects/Object|Objects]] and [[/js/objects/Function|functions]] are the other fundamental elements in the language. You can think of objects as named containers for values, and functions as procedures that your application can perform.</p>
 <h3 id="Data_type_conversion">Data type conversion</h3>
 <p>JavaScript is a dynamically typed language. That means you do not have to specify the data type of a variable when you declare it, and data types are converted automatically as needed during script execution. So, for example, you could define a variable as follows:</p>
 <div style="overflow:hidden;">
@@ -39,7 +39,7 @@ y = 42 + " is the answer" // returns "42 is the answer"
 <h3 id="Converting_strings_to_numbers">Converting strings to numbers</h3>
 <p>In the case that a value representing a number is in memory as a string, there are methods for conversion.</p>
 <h4 id="parseInt()_and_parseFloat()"><code>parseInt()</code> and <code>parseFloat()</code></h4>
-<p>See: <code><a href="/js/functions/parseInt" title="/js/functions/parseInt">parseInt()</a></code> and <code><a href="/js/functions/parseFloat" title="/js/functions/parseFloat">parseFloat()</a></code> pages.</p>
+<p>See: <code>[[/js/functions/parseInt|parseInt()]]</code> and <code>[[/js/functions/parseFloat|parseFloat()]]</code> pages.</p>
 <p><code>parseInt</code> will only return whole numbers, so its use is diminished for decimals. Additionally, a best practice for <code>parseInt</code> is to always include the radix parameter.</p>
 <h4 id="Plus_operator">Plus operator</h4>
 <p>An alternative method of retrieving a number from a string is with the <code>+</code> operator.</p>
@@ -54,18 +54,18 @@ y = 42 + " is the answer" // returns "42 is the answer"
 <h3 id="Declaring_variables">Declaring variables</h3>
 <p>You can declare a variable in two ways:</p>
 <ul>
-  <li>With the keyword <a href="/js/statements/var" title="/js/statements/var">var</a>. For example, <code>var x = 42</code>. This syntax can be used to declare both <a href="#Variable_Scope">local and global</a> variables.</li>
-  <li>By simply assigning it a value. For example, <code>x = 42</code>. This always declares a <a href="#Global_Variables">global variable</a> and generates a strict JavaScript warning. You shouldn't use this variant.</li>
+  <li>With the keyword [[/js/statements/var|var]]. For example, <code>var x = 42</code>. This syntax can be used to declare both [[#Variable_Scope|local and global]] variables.</li>
+  <li>By simply assigning it a value. For example, <code>x = 42</code>. This always declares a [[#Global_Variables|global variable]] and generates a strict JavaScript warning. You shouldn't use this variant.</li>
 </ul>
 <h3 id="Evaluating_variables">Evaluating variables</h3>
-<p>A variable declared using the <code>var</code> statement with no initial value specified has the value <code><a href="/js/objects/undefined" title="/js/objects/undefined">undefined</a></code>.</p>
+<p>A variable declared using the <code>var</code> statement with no initial value specified has the value <code>[[/js/objects/undefined|undefined]]</code>.</p>
 <p>An attempt to access an undeclared variable will result in a <code>ReferenceError</code> exception being thrown:</p>
 <pre class="brush: js">
 var a;
 console.log("The value of a is " + a); // prints "The value of a is undefined"
 console.log("The value of b is " + b); // throws ReferenceError exception
 </pre>
-<p>You can use <code>undefined</code> to determine whether a variable has a value. In the following code, the variable <code>input</code> is not assigned a value, and the <code><a href="/js/statements/if...else" title="/js/statements/if...else">if</a></code> statement evaluates to <code>true</code>.</p>
+<p>You can use <code>undefined</code> to determine whether a variable has a value. In the following code, the variable <code>input</code> is not assigned a value, and the <code>[[/js/statements/if...else|if]]</code> statement evaluates to <code>true</code>.</p>
 <pre class="brush: js">
 var input;
 if(input === undefined){
@@ -91,7 +91,7 @@ console.log(n * 32); // prints 0
 </pre>
 <h3 id="Variable_scope">Variable scope</h3>
 <p>When you declare a variable outside of any function, it is called a <em>global</em> variable, because it is available to any other code in the current document. When you declare a variable within a function, it is called a <em>local</em> variable, because it is available only within that function.</p>
-<p>JavaScript does not have <a href="/js/guide/Statements#Block_Statement" title="/js/guide/Statements#Block Statement">block statement</a> scope; rather, it will be local to the code that the block resides within. For example the following code will log <code>5</code>, because the scope of <code>x</code> is the function (or global context) within which <code>x</code> is declared, not the block, which in this case is an <code>if</code> statement.</p>
+<p>JavaScript does not have [[/js/guide/Statements#Block_Statement|block statement]] scope; rather, it will be local to the code that the block resides within. For example the following code will log <code>5</code>, because the scope of <code>x</code> is the function (or global context) within which <code>x</code> is declared, not the block, which in this case is an <code>if</code> statement.</p>
 <pre class="brush: js">
 if (true) {
   var x = 5;
@@ -129,10 +129,10 @@ var myvar = "my value";
 })();</pre>
 <p>Because of hoisting, all <code>var</code> statements in a function should be placed as near to the top of the function as possible. This best practice increases the clarity of the code.</p>
 <h3 id="Global_variables">Global variables</h3>
-<p><span class="comment">need links to pages discussing scope chains and the global object</span> Global variables are in fact properties of the <em>global object</em>. In web pages the global object is <code><a href="/dom/window" title="/dom/window">window</a></code>, so you can set and access global variables using the <code>window.<em>variable</em></code> syntax.</p>
+<p><span class="comment">need links to pages discussing scope chains and the global object</span> Global variables are in fact properties of the <em>global object</em>. In web pages the global object is <code>[[/dom/window|window]]</code>, so you can set and access global variables using the <code>window.<em>variable</em></code> syntax.</p>
 <p>Consequently, you can access global variables declared in one window or frame from another window or frame by specifying the window or frame name. For example, if a variable called <code>phoneNumber</code> is declared in a <code>FRAMESET</code> document, you can refer to this variable from a child frame as <code>parent.phoneNumber</code>.</p>
 <h2 id="Constants">Constants</h2>
-<p>You can create a read-only, named constant with the <code><a href="/js/statements/const" title="/js/statements/const">const</a></code> keyword. The syntax of a constant identifier is the same as for a variable identifier: it must start with a letter or underscore and can contain alphabetic, numeric, or underscore characters.</p>
+<p>You can create a read-only, named constant with the <code>[[/js/statements/const|const]]</code> keyword. The syntax of a constant identifier is the same as for a variable identifier: it must start with a letter or underscore and can contain alphabetic, numeric, or underscore characters.</p>
 <pre class="brush: js">
 const prefix = '212';
 </pre>
@@ -168,9 +168,9 @@ function f() {
 <pre class="brush: js">
 var coffees = ["French Roast", "Colombian", "Kona"];
 </pre>
-<p><strong>Note</strong> An array literal is a type of object initializer. See <a href="/js/guide/About_objects#Using_Object_Initializers" title="/js/guide/About_objects#Using Object Initializers">Using Object Initializers</a>.</p>
+<p><strong>Note</strong> An array literal is a type of object initializer. See [[/js/guide/About_objects#Using_Object_Initializers|Using Object Initializers]].</p>
 <p>If an array is created using a literal in a top-level script, JavaScript interprets the array each time it evaluates the expression containing the array literal. In addition, a literal used in a function is created each time the function is called.</p>
-<p>Array literals are also <code>Array</code> objects. See <a href="/js/guide/About_predefined_core_objects#Array_Object" title="/js/guide/About_predefined Core Objects#Array Object">Array Object</a> for details on <code>Array</code> objects.</p>
+<p>Array literals are also <code>Array</code> objects. See [[/js/guide/About_predefined_core_objects#Array_Object|Array Object]] for details on <code>Array</code> objects.</p>
 <h4 id="Extra_commas_in_array_literals">Extra commas in array literals</h4>
 <p>You do not have to specify all elements in an array literal. If you put two commas in a row, the array is created with <code>undefined</code> for the unspecified elements. The following example creates the <code>fish</code> array:</p>
 <pre class="brush: js">
@@ -192,7 +192,7 @@ var myList = ['home', , 'school', , ];
 <p>Understanding the behavior of extra commas is important to understanding JavaScript as a language, however when writing your own code: explicitly declaring the missing elements as <code>undefined</code> will increase your code's clarity and maintainability.</p>
 <h3 id="Boolean_literals">Boolean literals</h3>
 <p>The Boolean type has two literal values: <code>true</code> and <code>false</code>.</p>
-<p>Do not confuse the primitive Boolean values <code>true</code> and <code>false</code> with the true and false values of the Boolean object. The Boolean object is a wrapper around the primitive Boolean data type. See <a href="/js/guide/About_predefined_Core_Objects#Boolean_Object" title="/js/guide/About_predefined Core Objects#Boolean Object">Boolean Object</a> for more information.</p>
+<p>Do not confuse the primitive Boolean values <code>true</code> and <code>false</code> with the true and false values of the Boolean object. The Boolean object is a wrapper around the primitive Boolean data type. See [[/js/guide/About_predefined_Core_Objects#Boolean_Object|Boolean Object]] for more information.</p>
 <h3 id="Integers">Integers</h3>
 <p>Integers can be expressed in decimal (base 10), hexadecimal (base 16), and octal (base 8).</p>
 <ul>
@@ -275,7 +275,7 @@ console.log(foo["2"]); // two
 <pre class="brush: js">
 "John's cat".length
 </pre>
-<p>You should use string literals unless you specifically need to use a String object. See <a href="/js/guide/About _predefined_Core_Objects#String_Object" title="/js/guide/About_predefined Core Objects#String Object">String Object</a> for details on <code>String</code> objects.</p>
+<p>You should use string literals unless you specifically need to use a String object. See [[/js/guide/About _predefined_Core_Objects#String_Object|String Object]] for details on <code>String</code> objects.</p>
 <h4 id="Using_special_characters_in_strings">Using special characters in strings</h4>
 <p>In addition to ordinary characters, you can also include special characters in strings, as shown in the following example.</p>
 <pre class="brush: js">
@@ -462,14 +462,14 @@ var x = "\u00A9 Netscape Communications";</pre>
 </table>
 <p>The JavaScript use of the Unicode escape sequence is different from Java. In JavaScript, the escape sequence is never interpreted as a special character first. For example, a line terminator escape sequence inside a string does not terminate the string before it is interpreted by the function. JavaScript ignores any escape sequence if it is used in comments. In Java, if an escape sequence is used in a single comment line, it is interpreted as an Unicode character. For a string literal, the Java compiler interprets the escape sequences first. For example, if a line terminator escape character (e.g., \u000A) is used in Java, it terminates the string literal. In Java, this leads to an error, because line terminators are not allowed in string literals. You must use \n for a line feed in a string literal. In JavaScript, the escape sequence works the same way as \n.</p>
 <h3 id="Unicode_characters_in_JavaScript_files">Unicode characters in JavaScript files</h3>
-<p>Earlier versions of Gecko assumed the Latin-1 character encoding for JavaScript files loaded from XUL. Starting with Gecko 1.8, the character encoding is inferred from the XUL file's encoding. Please see <a href="https:/developer.mozilla.org/en-US/docs/International_characters_in_XUL_JavaScript" title="en-US/docs/International_characters_in_XUL_JavaScript">International characters in XUL JavaScript</a> for more information.</p>
+<p>Earlier versions of Gecko assumed the Latin-1 character encoding for JavaScript files loaded from XUL. Starting with Gecko 1.8, the character encoding is inferred from the XUL file's encoding. Please see [https:/developer.mozilla.org/en-US/docs/International_characters_in_XUL_JavaScript International characters in XUL JavaScript] for more information.</p>
 <h3 id="Displaying_characters_with_Unicode">Displaying characters with Unicode</h3>
 <p>You can use Unicode to display the characters in different languages or technical symbols. For characters to be displayed properly, a client such as Mozilla Firefox or Netscape needs to support Unicode. Moreover, an appropriate Unicode font must be available to the client, and the client platform must support Unicode. Often, Unicode fonts do not display all the Unicode characters. Some platforms, such as Windows 95, provide partial support for Unicode.</p>
 <p>To receive non-ASCII character input, the client needs to send the input as Unicode. Using a standard enhanced keyboard, the client cannot easily input the additional characters supported by Unicode. Sometimes, the only way to input Unicode characters is by using Unicode escape sequences.</p>
-<p>For more information on Unicode, see the <a href="http://www.unicode.org/">Unicode Home Page</a> and The Unicode Standard, Version 2.0, published by Addison-Wesley, 1996.</p>
+<p>For more information on Unicode, see the [http://www.unicode.org/|Unicode Home Page] and The Unicode Standard, Version 2.0, published by Addison-Wesley, 1996.</p>
 <h2 id="Resources">Resources</h2>
 <ul>
-  <li><a href="http://0xcc.net/jsescape/" title="Text Escaping and Unescaping in JavaScript">Text Escaping and Unescaping in JavaScript</a> – an utility to convert characters in JavaScript unicode values</li>
+  <li>[http://0xcc.net/jsescape/ Text Escaping and Unescaping in JavaScript] – an utility to convert characters in JavaScript unicode values</li>
 </ul>
 }}
 {{See_Also_Section}}
