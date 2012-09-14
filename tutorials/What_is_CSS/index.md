@@ -58,7 +58,7 @@ For some formal definitions of terminology relating to CSS, see [[Definitions]] 
  
    &lt;body&gt;
      &lt;p&gt;
-       &lt;strong&gt;C&lt;/strong&gt;ascending
+       &lt;strong&gt;C&lt;/strong&gt;ascading
        &lt;strong&gt;S&lt;/strong&gt;tyle
        &lt;strong&gt;S&lt;/strong&gt;heets
      &lt;/p&gt;
@@ -66,7 +66,7 @@ For some formal definitions of terminology relating to CSS, see [[Definitions]] 
  &lt;/html&gt;</pre></li>
 <li><p>In your browser, open a new tab or a new window, and open the file there. You should see the text with the initial letters bold, like this:</p>
 
-<pre><strong>C</strong>ascending <strong>S</strong>tyle <strong>S</strong>heets</pre>
+'''C'''ascading '''S'''tyle '''S'''heets
 
 <p>What you see in your browser might not look exactly the same as this, because of settings in your browser and in this wiki. If there are some differences in the font, spacing and colors that you see, they are not important.</p>
 </li>
