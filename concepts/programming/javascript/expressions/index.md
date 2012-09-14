@@ -381,13 +381,13 @@ var a7 = "Cat" &amp;&amp; false;    // t &amp;&amp; f returns false
 </pre>
 <p>The following code shows examples of the {{!}}{{!}} (logical OR) operator.</p>
 <pre class="brush: js">
-var o1 =  true {{!}}{{!}} true;     // t {{!}}{{!}} t returns true
-var o2 = false {{!}}{{!}} true;     // f {{!}}{{!}} t returns true
-var o3 =  true {{!}}{{!}} false;    // t {{!}}{{!}} f returns true
-var o4 = false {{!}}{{!}} (3 == 4); // f {{!}}{{!}} f returns false
-var o5 = "Cat" {{!}}{{!}} "Dog";    // t {{!}}{{!}} t returns Cat
-var o6 = false {{!}}{{!}} "Cat";    // f {{!}}{{!}} t returns Cat
-var o7 = "Cat" {{!}}{{!}} false;    // t {{!}}{{!}} f returns Cat
+var o1 =  true || true;     // t || t returns true
+var o2 = false || true;     // f || t returns true
+var o3 =  true || false;    // t || f returns true
+var o4 = false || (3 == 4); // f || f returns false
+var o5 = "Cat" || "Dog";    // t || t returns Cat
+var o6 = false || "Cat";    // f || t returns Cat
+var o7 = "Cat" || false;    // t || f returns Cat
 </pre>
 <p>The following code shows examples of the ! (logical NOT) operator.</p>
 <pre class="brush: js">
@@ -523,7 +523,7 @@ if (theDay instanceof Date) {
 <pre class="brush: js">
 var objectName = new objectType([param1, param2, ..., paramN]);
 </pre>
-<p>You can also create objects using object initializers, as described in {{ web.link("Working_with_objects#Using_object_initializers", "using object initializers") }}.</p>
+<p>You can also create objects using object initializers, as described in [[/js/guide/Working_with_objects#Using_object_initializers|using object initializers]].</p>
 <p>See the <code>[[/js/operators/new|new]]</code> operator</a> page in the Core JavaScript Reference for more information.</p>
 <h4 id="this" name="this"><code>this</code></h4>
 <p>Use the <code>this</code> keyword to refer to the current object. In general, <code>this</code> refers to the calling object in a method. Use <code>this</code> as follows:</p>
@@ -537,7 +537,7 @@ this.propertyName
   Suppose a function called <code>validate</code> validates an object's <code>value</code> property, given the object and the high and low values:</p>
 <pre class="brush: js">
 function validate(obj, lowval, hival){
-  if ((obj.value &lt; lowval) {{!}}{{!}} (obj.value &gt; hival))
+  if ((obj.value &lt; lowval) || (obj.value &gt; hival))
     alert("Invalid Value!");
 }
 </pre>
@@ -645,7 +645,7 @@ Click here to submit&lt;/A&gt;</pre>
 <h3 id="Operator_precedence">Operator precedence</h3>
 <p>The <em>precedence</em> of operators determines the order they are applied when evaluating an expression. You can override operator precedence by using parentheses.</p>
 <p>The following table describes the precedence of operators, from highest to lowest.</p>
-<p><small><em>In accordance with [https://developer.mozilla.org/Talk:en-US/docs/JavaScript/Guide/Obsolete_Pages/Operators#Precedence_Table|relevant discussion]], this table was reversed to list operators in <strong>decreasing</strong> order of priority.</em></small></p>
+<p><small><em>In accordance with [https://developer.mozilla.org/Talk:en-US/docs/JavaScript/Guide/Obsolete_Pages/Operators#Precedence_Table relevant discussion], this table was reversed to list operators in <strong>decreasing</strong> order of priority.</em></small></p>
 <table class="standard-table">
   <caption style="text-align: left;">
     Table 3.7 Operator precedence</caption>
