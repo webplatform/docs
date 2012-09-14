@@ -1,7 +1,7 @@
 {{Flags}}
 {{Summary_Section|This chapter describes JavaScript expressions and operators, including assignment, comparison, arithmetic, bitwise, logical, string, and special operators.}}
 {{Guide
-|Content=<p>This chapter describes JavaScript expressions and operators, including assignment, comparison, arithmetic, bitwise, logical, string, and special operators.</p>
+|Content=
 <h2 id="Expressions">Expressions</h2>
 <p>An <em>expression</em> is any valid unit of code that resolves to a value.</p>
 <p>Conceptually, there are two types of expressions: those that assign a value to a variable, and those that simply have a value. For example, the expression <code>x = 7</code> is an expression that assigns x the value seven. This expression itself evaluates to seven. Such expressions use <em>assignment operators</em>. On the other hand, the expression <code>3 + 4</code> simply evaluates to seven; it does not perform an assignment. The operators used in such expressions are referred to simply as <em>operators</em>.</p>
@@ -382,15 +382,23 @@ var a7 = "Cat" &amp;&amp; false;    // t &amp;&amp; f returns false
 </pre>
 <p>The following code shows examples of the {{!}}{{!}} (logical OR) operator.</p>
 <pre class="brush: js">
-var o1 =  true || true;     // t || t returns true
-var o2 = false || true;     // f || t returns true
-var o3 =  true || false;    // t || f returns true
-var o4 = false || (3 == 4); // f || f returns false
-var o5 = "Cat" || "Dog";    // t || t returns Cat
-var o6 = false || "Cat";    // f || t returns Cat
-var o7 = "Cat" || false;    // t || f returns Cat
+var o1 =  true
+|t returns true
+var o2=false
+|t returns true
+var o3=true
+|f returns true
+var o4=false
+|(3== 4); // f
+|f returns false
+var o5="Cat"
+|t returns Cat
+var o6=false
+|t returns Cat
+var o7="Cat"
+|f returns Cat
 </pre>
-<p>The following code shows examples of the ! (logical NOT) operator.</p>
+<p>The following code shows examples of the ! (logical NOT) operator_</p>
 <pre class="brush: js">
 var n1 = !true;  // !t returns false
 var n2 = !false; // !f returns true
