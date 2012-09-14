@@ -230,13 +230,21 @@ Name that can have one of the following values
  
 When trying to decide what type of list to use, you can usually decide by asking two simple questions:
 
-# Am I defining terms or associating other name/value pairs?
-** If yes, use a description list.
-** If no, don’t use a description list — go on to the next question.
-# Is the order of the list items important?
-** If yes, use an ordered list.
-** If no, use an unordered list.
- 
+<ol>
+  <li>Am I defining terms or associating other name/value pairs?
+    <ul>
+      <li>If yes, use a description list.</li>
+      <li>If no, don’t use a description list — go on to the next question.</li>
+    </ul>
+  </li>
+  <li>Is the order of the list items important?
+    <ul>
+      <li>If yes, use an ordered list.</li>
+      <li>If no, use an unordered list.</li>
+    </ul>
+  </li>
+</ol> 
+
 == The difference between HTML lists and text ==
  
 You may be wondering what the difference is between an HTML list and some text with bullets or numbers written in by hand. Well, there are several advantages to using an HTML list:
@@ -293,12 +301,12 @@ Let’s step through the process of creating this site.
 === Main page markup ===
 
 <ol> 
-<li>Create a properly-formed HTML page, including a doctype, <code>&lt;html&gt;</code>, <code>&lt;head&gt;</code> and <code>&lt;body&gt;</code> elements, and save it as ''stepbystep-main.html''. Add a main heading (<code>&lt;h1&gt;</code>) of “HTML Cooking School”, and a subheading (<code>&lt;h2&gt;</code>) of “Recipes”:   
+<li><p>Create a properly-formed HTML page, including a doctype, <code>&lt;html&gt;</code>, <code>&lt;head&gt;</code> and <code>&lt;body&gt;</code> elements, and save it as ''stepbystep-main.html''. Add a main heading (<code>&lt;h1&gt;</code>) of “HTML Cooking School”, and a subheading (<code>&lt;h2&gt;</code>) of “Recipes”:</p>
 
 <pre>&lt;h1&gt;HTML Cooking School&lt;/h1&gt;
 &lt;h2&gt;Recipes&lt;/h2&gt;</pre></li>
 
-<li>You have three categories of recipe to represent, and the order is not important — an unordered list is most appropriate for these, so add the following to your page:
+<li><p>You have three categories of recipe to represent, and the order is not important — an unordered list is most appropriate for these, so add the following to your page:</p>
 
 <pre>&lt;h2&gt;Recipes&lt;/h2&gt;
    &lt;ul&gt;
@@ -307,7 +315,7 @@ Let’s step through the process of creating this site.
    &lt;li&gt;Quickbreads&lt;/li&gt;
  &lt;/ul&gt;</pre>
 
-Indenting the <code>&lt;li&gt;</code> elements makes the code more readable, but it is not required.</li>
+<p>Indenting the <code>&lt;li&gt;</code> elements makes the code more readable, but it is not required.</p></li>
 
 <li><p>Now you need to add the recipes as sub-items, for example “Plain Sponge”, “Chocolate Cake” and “Apple Tea Cake” are all part of the “Cakes” category. To do this, you need to create a nested list within each item. Since the order is not important, once again unordered lists are appropriate. To make things easier for the tutorial, I’ll get you to link all of the recipes to one single recipe page ([[html links lets build a web]] explains HTML links in depth].):</p>
 
@@ -336,7 +344,7 @@ Indenting the <code>&lt;li&gt;</code> elements makes the code more readable, but
  &lt;/ul&gt;</pre></li>
  </ol>
 
-The final result should be something similar to Figure 1:
+<p>The final result should be something similar to Figure 1:</p>
 
 [[Image:mainpage.png|Screenshot of main page]]
  
@@ -370,7 +378,7 @@ Method
 === Recipe page markup ===
  
 <ol>
-<li>Create another properly-formed HTML document, and save it as stepbystep-recipe.html. Add the following headings to it:
+<li><p>Create another properly-formed HTML document, and save it as stepbystep-recipe.html. Add the following headings to it:</p>
 
 <pre>&lt;h1&gt;Simple Sponge Cake&lt;/h1&gt;
  &lt;h2&gt;Ingredients&lt;/h2&gt;
@@ -385,7 +393,7 @@ Method
    &lt;li&gt;85g self-raising flour&lt;/li&gt;
  &lt;/ul&gt;</pre></li>
 
-<li>The notes on the ingredients are there to properly define what some of the ingredients are. You need to associate the ingredient — the name — with its value. A description list is right for this purpose. Add the following to your HTML, below the unordered list in the previous step:
+<li><p>The notes on the ingredients are there to properly define what some of the ingredients are. You need to associate the ingredient — the name — with its value. A description list is right for this purpose. Add the following to your HTML, below the unordered list in the previous step:</p>
 
 <pre>&lt;h3&gt;Notes on ingredients&lt;/h3&gt;
  &lt;dl&gt;
@@ -394,7 +402,7 @@ Method
    &lt;dt&gt;Self-raising flour&lt;/dt&gt;
      &lt;dd&gt;A pre-mixed combination of flour and leavening agents (usually salt and baking powder).&lt;/dd&gt;
  &lt;/dl&gt; </pre></li>
-<li>The method must obviously follow a single correct order, so it should be an ordered list — add the following to your HTML, below the description list: 
+<li><p>The method must obviously follow a single correct order, so it should be an ordered list — add the following to your HTML, below the description list: </p>
 
 <pre>&lt;h2&gt;Method&lt;/h2&gt;
  &lt;ol&gt;
