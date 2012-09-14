@@ -42,7 +42,7 @@ Let's start with the semantic HTML code required to render a basic table — thi
  
 This code renders roughly like so:
                          
-<!--{| border="1"
+{| border="1"
 |-
 |Volcano Name
 |Location
@@ -63,7 +63,7 @@ This code renders roughly like so:
 |Washington
 |1980
 |Explosive Eruption
-|} -->
+|} 
 
 Let’s start by breaking down the HTML markup used in the above code:
  
