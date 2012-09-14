@@ -233,7 +233,6 @@ This table code looks like so in a browser:
 {{!}}Washington
 {{!}}1980
 {{!}}Explosive Eruption
-{{!}}-
 {{!}}+ Compiled in 2008 by Ms Jen
 {{!}}}
                                 
