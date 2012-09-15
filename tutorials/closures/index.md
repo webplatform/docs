@@ -228,7 +228,7 @@ Using closures in this way provides a number of benefits that are normally assoc
  
 == Creating closures in loops: A common mistake ==
  
-Prior to the introduction of the [[let keyword]] in JavaScript 1.7, a common problem with closures occurred when they were created inside a loop. Consider the following example:
+Prior to the introduction of the let keyword in JavaScript 1.7, a common problem with closures occurred when they were created inside a loop. Consider the following example:
 
  
 <pre>&lt;p id="help"&gt;Helpful notes will appear here&lt;/p&gt;
@@ -368,7 +368,7 @@ MyObject.prototype.getMessage = function() {
 
 </pre>
  
-In the two previous examples, the inherited prototype can be shared by all objects and the method definitions need not occur at every object creation. 
+In the two previous examples, the inherited prototype can be shared by all objects and the method definitions need not occur at every object creation.
 }}
 {{Compatibility_Section
 |Not_required=No
