@@ -1,7 +1,4 @@
-{{Flags}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section}}
+{{Flags}}{{Standardization_Status}}{{API_Name}}{{Summary_Section}}
 {{Markup_Structure|Content===Common HTML entities used for typography==
 
 === Introduction ===
