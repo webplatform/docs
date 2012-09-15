@@ -134,7 +134,7 @@ document.getElementById('size-16').onclick = size16;
 
 </pre>
  
-[[View on jsFiddle]]
+[[http://jsfiddle.net/vnkuZ View on jsFiddle]]
 
  
  
