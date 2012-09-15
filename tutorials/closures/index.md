@@ -148,7 +148,7 @@ Languages such as Java provide the ability to declare methods private, meaning t
 JavaScript does not provide a native way of doing this, but it is possible to emulate private methods using closures. Private methods aren't just useful for restricting access to code: they also provide a powerful way of managing your global namespace, keeping non-essential methods from cluttering up the public interface to your code.
 
  
-Here's how to define some public functions that can access private functions and variables, using closures which is also known as the [[module pattern]]:
+Here's how to define some public functions that can access private functions and variables, using closures which is also known as the module pattern:
 
  
 <pre>var Counter = (function() {
@@ -368,7 +368,7 @@ MyObject.prototype.getMessage = function() {
 
 </pre>
  
-In the two previous examples, the inherited prototype can be shared by all objects and the method definitions need not occur at every object creation. See [[Details of the Object Model]] for more details.
+In the two previous examples, the inherited prototype can be shared by all objects and the method definitions need not occur at every object creation. 
 }}
 {{Compatibility_Section
 |Not_required=No
