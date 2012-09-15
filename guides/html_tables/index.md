@@ -1,6 +1,4 @@
-{{Flags}}
-{{Summary_Section|In this article we will cover how to use HTML tables correctly.}}
-{{Guide|Content=== Introduction ==
+{{Flags}}{{Summary_Section|In this article we will cover how to use HTML tables correctly.}}{{Guide|Content=== Introduction ==
 “Ack!” — how do you use web standards to organize reams of data? The very idea of tons of nested elements needed to get all the data into nice little rows and boxes ought to put your brain into “Ack!” mode, but there is a solution — tables to the rescue!
  
 In web design tables are a good way to organize data into a tabular form. In other words, think of tables, charts, and other information graphics that help you to see and process a great deal of information in a summary that allows you to compare and contrast different pieces of data. You see them all the time on websites, whether they are giving a summary or comparison of political election results, sports statistics, price comparisons, size charts, or other data.
