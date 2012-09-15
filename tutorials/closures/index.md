@@ -261,7 +261,7 @@ setupHelp();
 
 </pre>
  
-[[View on jsFiddle]]
+[[http://jsfiddle.net/v7gjv View on jsFiddle]]
 
  
 The <code>helpText</code> array defines three helpful hints, each associated with the ID of an input field in the document. The loop cycles through these definitions, hooking up an onfocus event to each one that shows the associated help method.
@@ -303,7 +303,7 @@ setupHelp();
 
 </pre>
  
-[[View on jsFiddle]]
+[[http://jsfiddle.net/v7gjv/1 View on jsFiddle]]
 
  
 This works as expected. Rather than the callbacks all sharing a single environment, the <code>makeHelpCallback</code> function creates a new environment for each one in which <code>help</code> refers to the corresponding string from the <code>helpText</code> array.
