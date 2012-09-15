@@ -1,12 +1,9 @@
 {{Flags}}
 {{Summary_Section}}
 {{Tutorial
-|Content=
-Closures are often considered an advanced feature in JavaScript, but understanding them is essential to mastering the language.
-
+|Content=Closures are often considered an advanced feature in JavaScript, but understanding them is essential to mastering the language.
  
 Consider the following function:
-
   
 <pre>function init() {
   var name = "Mozilla";
@@ -372,10 +369,6 @@ MyObject.prototype.getMessage = function() {
 </pre>
  
 In the two previous examples, the inherited prototype can be shared by all objects and the method definitions need not occur at every object creation. See [[Details of the Object Model]] for more details.
-
- 
-
-  
 }}
 {{Compatibility_Section
 |Not_required=No
