@@ -2,8 +2,7 @@
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section}}
-{{Markup_Structure
-|Content===Common HTML entities used for typography==
+{{Markup_Structure|Content===Common HTML entities used for typography==
 
 === Introduction ===
  
