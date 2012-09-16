@@ -23,8 +23,6 @@ Below is the <code>draw()</code> function from the previous page, but now I've a
  
 ==== Rectangular shape example ====
  
-[[View this example]]
- 
 <pre>function draw(){
   var canvas = document.getElementById('tutorial');
   if (canvas.getContext){
@@ -38,7 +36,7 @@ Below is the <code>draw()</code> function from the previous page, but now I've a
 
 </pre>
  
-[[Image:=Canvas_rect.png|=Canvas_rect.png]]The result should look something like the image on the right. The <code>fillRect</code> function draws a large black square 100x100 pixels. The <code>clearRect</code> function removes a 60x60 pixels square from the center and finally the <code>strokeRect</code> draws a rectangular outline 50x50 pixels inside the cleared square. In the following pages we'll see two alternative methods for the <code>clearRect</code> function and we'll also see how to change the color and stroke style of the rendered shapes.
+[[File:Canvas rect.png|right|Concentric rectangles on a canvas ]]The result should look something like the image on the right. The <code>fillRect</code> function draws a large black square 100x100 pixels. The <code>clearRect</code> function removes a 60x60 pixels square from the center and finally the <code>strokeRect</code> draws a rectangular outline 50x50 pixels inside the cleared square. In the following pages we'll see two alternative methods for the <code>clearRect</code> function and we'll also see how to change the color and stroke style of the rendered shapes.
  
 Unlike the path functions we'll see in the next section, all three rectangle functions draw immediately to the canvas.
  
