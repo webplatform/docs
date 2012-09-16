@@ -171,7 +171,7 @@ The next type of paths available are [[Bézier curves]], available in the cubic 
   
 <code>'''quadraticCurveTo'''(cp1x, cp1y, x, y) // BROKEN in Firefox 1.5 (see work around below)</code><br> <code>'''bezierCurveTo'''(cp1x, cp1y, cp2x, cp2y, x, y)</code>
   
-[[Image:=Canvas_curves.png|=Canvas_curves.png]]The difference between these can best be described using the image on the right. A quadratic Bézier curve has a start and an end point (blue dots) and just one ''control point'' (red dot) while a cubic Bézier curve uses two control points.
+[[File:Canvas curves.png|right|Quadratic and Bezier curves on a canvas]]The difference between these can best be described using the image on the right. A quadratic Bézier curve has a start and an end point (blue dots) and just one ''control point'' (red dot) while a cubic Bézier curve uses two control points.
  
 The <code>x</code> and <code>y</code> parameters in both these methods are the coordinates of the end point. <code>cp1x</code> and <code>cp1y</code> are the coordinates of the first control point, and <code>cp2x</code> and <code>cp2y</code> are the coordinates of the second control point.
  
