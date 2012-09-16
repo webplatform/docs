@@ -73,7 +73,7 @@ One very useful function, which doesn't actually draw anything, but is part of t
   
 The <code>moveTo</code> function takes two arguments, <code>x</code> and <code>y, </code>which are the coordinates of the new starting point.
  
-[[Image:=Canvas_smiley.png|=Canvas_smiley.png]]When the canvas is initialized or the <code>beginPath</code> method is called, you typically will want to use the <code>moveTo</code> method to place the starting point somewhere else. We could also use the <code>moveTo</code> method to draw unconnected paths. Take a look at the smiley face on the right. I've marked the places where I used the <code>moveTo</code> method (the red lines).
+[[File:Canvas smiley.png|right|Canvas with a smiley face drawn on it, demonstrating moveTo]]When the canvas is initialized or the <code>beginPath</code> method is called, you typically will want to use the <code>moveTo</code> method to place the starting point somewhere else. We could also use the <code>moveTo</code> method to draw unconnected paths. Take a look at the smiley face on the right. I've marked the places where I used the <code>moveTo</code> method (the red lines).
  
 To try this for yourself, you can use the code snippet below. Just paste it into the <code>draw</code> function we saw earlier.
  
