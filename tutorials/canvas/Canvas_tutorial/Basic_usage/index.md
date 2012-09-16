@@ -100,7 +100,7 @@ If you look at the script you'll see I've made a function called <code>draw</cod
  
 To start off, here's a simple example that draws two intersecting rectangles, one of which has alpha transparency. We'll explore how this works in more detail in later examples.
  
-[[File:canvas ex1.png|right|Two overlapping rectangles on a canvas]]
+[[File:canvas ex1.png|Two overlapping rectangles on a canvas]]
  
 <pre>&lt;html&gt;
  &lt;head&gt;
