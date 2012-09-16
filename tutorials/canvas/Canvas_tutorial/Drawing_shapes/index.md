@@ -47,9 +47,7 @@ To make shapes using paths, we need a couple of extra steps.
 <code>'''beginPath'''()<br> '''closePath'''()<br> '''stroke'''()<br> '''fill'''()</code>
   
 The first step to create a path is calling the <code>beginPath</code> method. Internally, paths are stored as a list of sub-paths (lines, arcs, etc) which together form a shape. Every time this method is called, the list is reset and we can start drawing new shapes.
-
 {{Note|When the current path is empty, such as immediately after calling <code>beginPath()</code>, or on a newly created canvas, the first path construction command is always treated as a <code>moveTo()</code>, regardless of what it actually is. For that reason, you will almost always want to specifically set your starting position after resetting a path.}}
- 
 The second step is calling the methods that actually specify the paths to be drawn. We'll see these shortly.
  
 The third, and an optional step, would be to call the <code>closePath</code> method. This method tries to close the shape by drawing a straight line from the current point to the start. If the shape has already been closed or there's only one point in the list, this function does nothing.
