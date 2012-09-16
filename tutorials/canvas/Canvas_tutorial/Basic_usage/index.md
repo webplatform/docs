@@ -17,7 +17,7 @@ The <code>&lt;canvas&gt;</code> element can be styled just like any normal image
  
 ==== Fallback content ====
  
-Because the <code>&lt;canvas&gt;</code> element is still relatively new and isn't implemented in some browsers (such as Internet Explorer versions below IE9), we need a means of providing fallback content when a browser doesn't support the element.
+Because the <code>&lt;canvas&gt;</code> element is still relatively new, we need a means of providing fallback content when a browser doesn't support the element.
  
 This is very straightforward: we just provide alternative content inside the canvas element. Browsers which don't support <code>&lt;canvas&gt;</code> will ignore the container and render the fallback content inside it. Browsers which do support <code>&lt;canvas&gt;</code> will ignore the content inside the container, and just render the canvas normally.
  
