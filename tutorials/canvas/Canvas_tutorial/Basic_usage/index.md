@@ -1,11 +1,9 @@
 {{Flags}}
 {{Summary_Section}}
 {{Tutorial
-|Content=
-== The <canvas> element ==
+|Content=== The <canvas> element ==
  
 Let's start this tutorial by looking at the <code>&lt;canvas&gt;</code> element itself.
-
   
 <pre>&lt;canvas id="tutorial" width="150" height="150"&gt;&lt;/canvas&gt;
 
@@ -148,7 +146,6 @@ To start off, here's a simple example that draws two intersecting rectangles, on
 &lt;/html&gt;
 
 </pre>
- 
 }}
 {{Compatibility_Section
 |Not_required=No
