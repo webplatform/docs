@@ -6,31 +6,24 @@
 Before we can start drawing, we need to talk about the canvas grid or ''coordinate space''. The HTML template on the previous page had a canvas element 150 pixels wide and 150 pixels high. I've drawn this image with the default grid overlayed. Normally 1 unit in the grid corresponds to 1 pixel on the canvas. The origin of this grid is positioned in the top left corner (coordinate (0,0)). All elements are placed relative to this origin. So the position of the top left corner of the blue square becomes x pixels from the left and y pixels from the top (coordinate (x,y)). Later in this tutorial we'll see how we can translate the origin to a different position, rotate the grid and even scale it. For now we'll stick to the default.
 
 [[File:Canvas default grid.png|Basic canvas grid with coordinates]]
-
  
 == Drawing shapes ==
  
 Unlike [[SVG]], canvas only supports one primitive shape - rectangles. All other shapes must be created by combining one or more paths. Luckily, we have a collection of path drawing functions which make it possible to compose very complex shapes.
-
  
 === Rectangles ===
  
 First let's look at the rectangle. There are three functions that draw rectangles on the canvas:
-
   
 <code>'''fillRect'''(x,y,width,height)</code> : Draws a filled rectangle<br> <code>'''strokeRect'''(x,y,width,height)</code> : Draws a rectangular outline<br> <code>'''clearRect'''(x,y,width,height)</code> : Clears the specified area and makes it fully transparent
-
   
 Each of these three functions takes the same parameters. <code>x</code> and <code>y</code> specify the position on the canvas (relative to the origin) of the top-left corner of the rectangle. <code>width</code> and <code>height</code> are pretty obvious. Let's see these functions in action.
-
  
 Below is the <code>draw()</code> function from the previous page, but now I've added the three functions above.
-
  
 ==== Rectangular shape example ====
  
 [[View this example]]
-
  
 <pre>function draw(){
   var canvas = document.getElementById('tutorial');
@@ -46,33 +39,26 @@ Below is the <code>draw()</code> function from the previous page, but now I've a
 </pre>
  
 [[Image:=Canvas_rect.png|=Canvas_rect.png]]The result should look something like the image on the right. The <code>fillRect</code> function draws a large black square 100x100 pixels. The <code>clearRect</code> function removes a 60x60 pixels square from the center and finally the <code>strokeRect</code> draws a rectangular outline 50x50 pixels inside the cleared square. In the following pages we'll see two alternative methods for the <code>clearRect</code> function and we'll also see how to change the color and stroke style of the rendered shapes.
-
  
 Unlike the path functions we'll see in the next section, all three rectangle functions draw immediately to the canvas.
-
  
 == Drawing paths ==
  
 To make shapes using paths, we need a couple of extra steps.
-
   
 <code>'''beginPath'''()<br> '''closePath'''()<br> '''stroke'''()<br> '''fill'''()</code>
-
   
 The first step to create a path is calling the <code>beginPath</code> method. Internally, paths are stored as a list of sub-paths (lines, arcs, etc) which together form a shape. Every time this method is called, the list is reset and we can start drawing new shapes.
 
   '''Note:''' When the current path is empty, such as immediately after calling <code>beginPath()</code>, or on a newly created canvas, the first path construction command is always treated as a <code>moveTo()</code>, regardless of what it actually is. For that reason, you will almost always want to specifically set your starting position after resetting a path. 
 The second step is calling the methods that actually specify the paths to be drawn. We'll see these shortly.
-
  
 The third, and an optional step, would be to call the <code>closePath</code> method. This method tries to close the shape by drawing a straight line from the current point to the start. If the shape has already been closed or there's only one point in the list, this function does nothing.
-
  
 The final step will be calling the <code>stroke</code> and/or <code>fill</code> methods. Calling one of these will actually draw the shape to the canvas. <code>stroke</code> is used to draw an outlined shape, while <code>fill</code> is used to paint a solid shape.
 
   '''Note:''' When calling the <code>fill</code> method, any open shapes will be closed automatically and it isn't necessary to use the <code>closePath</code> method. 
 For example, the code for drawing a triangle would look something like this:
-
  
 <pre>ctx.beginPath();
 ctx.moveTo(75,50);
@@ -85,25 +71,19 @@ ctx.fill();
 === moveTo ===
  
 One very useful function, which doesn't actually draw anything, but is part of the path list described above, is the <code>moveTo</code> function. You can probably best think of this as lifting a pen or pencil from one spot on a piece of paper and placing it on the next.
-
   
 <code>'''moveTo'''(x, y)</code>
-
   
 The <code>moveTo</code> function takes two arguments, <code>x</code> and <code>y, </code>which are the coordinates of the new starting point.
-
  
 [[Image:=Canvas_smiley.png|=Canvas_smiley.png]]When the canvas is initialized or the <code>beginPath</code> method is called, you typically will want to use the <code>moveTo</code> method to place the starting point somewhere else. We could also use the <code>moveTo</code> method to draw unconnected paths. Take a look at the smiley face on the right. I've marked the places where I used the <code>moveTo</code> method (the red lines).
-
  
 To try this for yourself, you can use the code snippet below. Just paste it into the <code>draw</code> function we saw earlier.
-
  
 ==== moveTo example ====
  
 [[View this example]]
 
- 
 <pre>ctx.beginPath();
 ctx.arc(75,75,50,0,Math.PI*2,true); // Outer circle
 ctx.moveTo(110,75);
@@ -117,29 +97,22 @@ ctx.stroke();
 </pre>
  
 '''Note''': remove the <code>moveTo</code> methods to see the connecting lines.<br> '''Note''': For a description of the <code>arc</code> function and its parameters look below.
-
  
 === Lines ===
  
 For drawing straight lines we use the <code>lineTo</code> method.
-
   
 <code>'''lineTo'''(x, y)</code>
-
   
 This method takes two arguments - <code>x</code> and <code>y</code>, - which are the coordinates of the line's end point. The starting point is dependent on previous drawn paths, where the end point of the previous path is the starting point for the following, etc. The starting point can also be changed by using the <code>moveTo</code> method.
-
  
 ==== lineTo example ====
  
 [[Image:=Canvas_lineTo.png|=Canvas_lineTo.png]]In the example below two triangles are drawn, one filled and one outlined. (The result can be seen in the image on the right). First the <code>beginPath</code> method is called to begin a new shape path. We then use the <code>moveTo</code> method to move the starting point to the desired position. Below this two lines are drawn which make up two sides of the triangle.
-
  
 You'll notice the difference between the filled and stroked triangle. This is, as mentioned above, because shapes are automatically closed when a path is filled, but not when they are stroked. If we would have left out the closePath() for the stroked triangle, only two lines would have been drawn, not a complete triangle.
-
  
 [[View this example]]
-
  
 <pre>// Filled triangle
 ctx.beginPath();
@@ -161,27 +134,20 @@ ctx.stroke();
 === Arcs ===
  
 For drawing arcs or circles we use the <code>arc</code> method. The specification also describes the <code>arcTo</code> method, which is supported by Safari and Firefox, but wasn't implemented in the older Gecko browsers.
-
-  
+ 
 <code>'''arc'''(x, y, radius, startAngle, endAngle, anticlockwise)</code>
-
   
 This method takes five parameters: <code>x</code> and <code>y</code> are the coordinates of the circle's center. Radius is self explanatory. The <code>startAngle</code> and <code>endAngle</code> parameters define the start and end points of the arc in radians. The starting and closing angle are measured from the x axis. The <code>anticlockwise</code> parameter is a Boolean value which when <code>true</code> draws the arc anticlockwise, otherwise in a clockwise direction.
-
  
 '''Note''': Angles in the <code>arc</code> function are measured in radians, not degrees. To convert degrees to radians you can use the following JavaScript expression: <code>var radians = (Math.PI/180)*degrees</code>.
-
  
 ==== arc example ====
  
 [[Image:=Canvas_arc.png|=Canvas_arc.png]]The following example is a little more complex than the ones we've seen above. I've drawn 12 different arcs all with different angles and fills. If I would have written this example just like the smiley face above, firstly this would have become a very long list of statements and secondly, when drawing arcs, I would need to know every single starting point. For arcs of 90, 180 and 270 degrees, like the ones I used here, this wouldn't be to much of a problem, but for more complex ones this becomes way too difficult.
-
  
 The two <code>for</code> loops are for looping through the rows and columns of arcs. For every arc I start a new path using <code>beginPath</code>. Below this I've written out all the parameters as variables, so it's easier to read what's going on. Normally this would be just one statement. The <code>x</code> and <code>y</code> coordinates should be clear enough. <code>radius</code> and <code>startAngle</code> are fixed. The <code>endAngle</code> starts of as 180 degrees (first column) and is increased with steps of 90 degrees to form a complete circle (last column). The statement for the <code>clockwise</code> parameter results in the first and third row being drawn as clockwise arcs and the second and fourth row as counterclockwise arcs. Finally, the <code>if</code> statement makes the top half stroked arcs and the bottom half filled arcs.
-
  
 [[View this example]]
-
  
 <pre>for(var i=0;i&lt;4;i++){
   for(var j=0;j&lt;3;j++){
@@ -208,27 +174,20 @@ The two <code>for</code> loops are for looping through the rows and columns of a
 === Bezier and quadratic curves ===
  
 The next type of paths available are [[Bézier curves]], available in the cubic and quadratic varieties. These are generally used to draw complex organic shapes.
-
   
 <code>'''quadraticCurveTo'''(cp1x, cp1y, x, y) // BROKEN in Firefox 1.5 (see work around below)</code><br> <code>'''bezierCurveTo'''(cp1x, cp1y, cp2x, cp2y, x, y)</code>
-
   
 [[Image:=Canvas_curves.png|=Canvas_curves.png]]The difference between these can best be described using the image on the right. A quadratic Bézier curve has a start and an end point (blue dots) and just one ''control point'' (red dot) while a cubic Bézier curve uses two control points.
-
  
 The <code>x</code> and <code>y</code> parameters in both these methods are the coordinates of the end point. <code>cp1x</code> and <code>cp1y</code> are the coordinates of the first control point, and <code>cp2x</code> and <code>cp2y</code> are the coordinates of the second control point.
-
  
 Using quadratic and cubic Bézier curves can be quite challenging, because unlike vector drawing software like Adobe Illustrator, we don't have direct visual feedback as to what we're doing. This makes it pretty hard to draw complex shapes. In the following example, we'll be drawing some simple organic shapes, but if you have the time and, most of all, the patience, much more complex shapes can be created.
-
  
 There's nothing very difficult in these examples. In both cases we see a succession of curves being drawn which finally result in a complete shape.
-
  
 ==== quadraticCurveTo example ====
  
 [[View this example]] [[Image:=Canvas_quadratic.png|=Canvas_quadratic.png]]
-
  
 <pre>// Quadratric curves example
 ctx.beginPath();
@@ -245,12 +204,10 @@ ctx.stroke();
  
 It is possible to convert any quadratic Bézier curve to a cubic Bézier curve by correctly computing both cubic Bézier control points from the single quadratic Bézier control point, although the reverse is NOT true. An exact conversion of a cubic Bézier curve to a quadratic Bézier curve is only possible if the cubic term is zero, more commonly a subdivision method is used to approximate a cubic Bézier using multiple quadratic Bézier curves.
 
- 
 ==== bezierCurveTo example ====
  
 [[View this example]] [[Image:=Canvas_bezier.png|=Canvas_bezier.png]]
 
- 
 <pre>// Bezier curves example
 ctx.beginPath();
 ctx.moveTo(75,40);
@@ -267,7 +224,6 @@ ctx.fill();
 === Firefox 1.5 quadraticCurveTo() bug workaround ===
  
 There is a bug in the Firefox 1.5 implementation of quadatricCurveTo(). It does NOT draw a quadratic curve, as it is just calling the same cubic curve function bezierCurveTo() calls, and repeating the single quadratic control point (x,y) coordinate twice. For this reason quadraticCurveTo() will yield incorrect results. If you require the use of quadraticCurveTo() you must convert your quadratic Bézier curve to a cubic Bézier curve yourself, so you can use the working bezierCurveTo() method.
-
  
 <pre>var currentX, currentY;  // set to last x,y sent to lineTo/moveTo/bezierCurveTo or quadraticCurveToFixed()
 
@@ -319,30 +275,23 @@ function quadraticCurveToFixed( cpx, cpy, x, y ) {
 === Rectangles ===
  
 Besides the three methods we saw above which draw rectangular shapes directly to the canvas, we also have a method <code>rect</code> which adds a rectangular path to the path list.
-
   
 <code>'''rect'''(x, y, width, height)</code>
-
   
 This method takes four arguments. The <code>x</code> and <code>y</code> parameters define the coordinate of the top left corner of the new rectangular path. <code>width</code> and <code>height</code> define the width and the height of the rectangle.
 
- 
 When this method is executed, the <code>moveTo</code> method is automatically called with the parameters (0,0) (i.e. it resets the starting point to its default location).
-
  
 === Making combinations ===
  
 In all examples on this page I've only used one type of path function per shape. However there's absolutely no limitation to the amount or type of paths you can use to create a shape. So in this last example I've tried to combine all of the path functions to make a set of very famous game characters.
-
  
 ==== Example ====
  
 I'm not going to run through this complete script, but the most important things to note are the function <code>roundedRect</code> and the use of the <code>fillStyle</code> property. It can be very useful and time saving to define your own functions to draw more complex shapes. In this script it would have taken me twice as many lines of code as I have now.<br>
 We will look at the <code>fillStyle</code> property in greater depth later in this tutorial. Here I'm using it to change the fill color from the default black, to white, and back again.
-
  
 [[View this example]]
-
  
 <pre>function draw() {
   var ctx = document.getElementById('canvas').getContext('2d');
