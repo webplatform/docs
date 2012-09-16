@@ -70,7 +70,7 @@ if (canvas.getContext){
  
 == A skeleton template ==
  
-Here is a minimalistic template, which we'll be using as a starting point for later examples. You can [[download this file]] to work with on your system.
+Here is a minimalistic template, which we'll be using as a starting point for later examples. 
  
 <pre>&lt;html&gt;
   &lt;head&gt;
