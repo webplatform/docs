@@ -78,8 +78,6 @@ The <code>moveTo</code> function takes two arguments, <code>x</code> and <code>y
 To try this for yourself, you can use the code snippet below. Just paste it into the <code>draw</code> function we saw earlier.
  
 ==== moveTo example ====
- 
-[[View this example]]
 
 <pre>ctx.beginPath();
 ctx.arc(75,75,50,0,Math.PI*2,true); // Outer circle
@@ -93,7 +91,8 @@ ctx.stroke();
 
 </pre>
  
-'''Note''': remove the <code>moveTo</code> methods to see the connecting lines.<br> '''Note''': For a description of the <code>arc</code> function and its parameters look below.
+{{Note|Remove the <code>moveTo</code> methods to see the connecting lines.
+For a description of the <code>arc</code> function and its parameters look below.}}
  
 === Lines ===
  
