@@ -54,7 +54,7 @@ The third, and an optional step, would be to call the <code>closePath</code> met
  
 The final step will be calling the <code>stroke</code> and/or <code>fill</code> methods. Calling one of these will actually draw the shape to the canvas. <code>stroke</code> is used to draw an outlined shape, while <code>fill</code> is used to paint a solid shape.
 
-  '''Note:''' When calling the <code>fill</code> method, any open shapes will be closed automatically and it isn't necessary to use the <code>closePath</code> method. 
+{{Note|When calling the <code>fill</code> method, any open shapes will be closed automatically and it isn't necessary to use the <code>closePath</code> method.}} 
 For example, the code for drawing a triangle would look something like this:
  
 <pre>ctx.beginPath();
@@ -104,12 +104,10 @@ This method takes two arguments - <code>x</code> and <code>y</code>, - which are
  
 ==== lineTo example ====
  
-[[Image:=Canvas_lineTo.png|=Canvas_lineTo.png]]In the example below two triangles are drawn, one filled and one outlined. (The result can be seen in the image on the right). First the <code>beginPath</code> method is called to begin a new shape path. We then use the <code>moveTo</code> method to move the starting point to the desired position. Below this two lines are drawn which make up two sides of the triangle.
+[[File:Canvas lineTo.png|right|Two triangles on a canvas, used to demonstrate lineTo]]In the example below two triangles are drawn, one filled and one outlined. (The result can be seen in the image on the right). First the <code>beginPath</code> method is called to begin a new shape path. We then use the <code>moveTo</code> method to move the starting point to the desired position. Below this two lines are drawn which make up two sides of the triangle.
  
 You'll notice the difference between the filled and stroked triangle. This is, as mentioned above, because shapes are automatically closed when a path is filled, but not when they are stroked. If we would have left out the closePath() for the stroked triangle, only two lines would have been drawn, not a complete triangle.
- 
-[[View this example]]
- 
+
 <pre>// Filled triangle
 ctx.beginPath();
 ctx.moveTo(25,25);
