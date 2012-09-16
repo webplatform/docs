@@ -9,7 +9,7 @@ This tutorial describes how to implement the <code>&lt;canvas&gt;</code> element
  
 == Before you start ==
  
-Using the <code>&lt;canvas&gt;</code> element isn't very difficult but you do need a basic understanding of [[HTML]] and [[js|JavaScript]].
+Using the <code>&lt;canvas&gt;</code> element isn't very difficult but you do need a basic understanding of [[HTML]] and [[js JavaScript]].
 
  
 The <code>&lt;canvas&gt;</code> element isn't supported in some older browsers, but is supported in Chrome 4 and later, Firefox 1.5 and later, Internet Explorer 9 and later, Opera 9 and later, and Safari 3.1 and later.
