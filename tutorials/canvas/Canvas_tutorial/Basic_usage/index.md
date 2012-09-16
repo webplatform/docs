@@ -43,7 +43,7 @@ If fallback content is desired, some CSS tricks must be employed to mask the fal
  
 == The rendering context ==
  
-<code>&lt;canvas&gt;</code> creates a fixed size drawing surface that exposes one or more ''rendering contexts'', which are used to create and manipulate the content shown. We'll focus on the 2D rendering context. Other contexts may provide different types of rendering; for example, there is a [[3D context]] ("experimental-webgl") based on [[OpenGL ES]].
+<code>&lt;canvas&gt;</code> creates a fixed size drawing surface that exposes one or more ''rendering contexts'', which are used to create and manipulate the content shown. We'll focus on the 2D rendering context. Other contexts may provide different types of rendering; for example, there is a 3D context ("experimental-webgl") based on OpenGL ES.
  
 The <code>&lt;canvas&gt;</code> is initially blank, and to display something a script first needs to access the rendering context and draw on it. The canvas element has a DOM method called <code>getContext</code>, used to obtain the rendering context and its drawing functions. <code>getContext()</code> takes one parameter, the type of context.
  
