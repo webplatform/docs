@@ -13,7 +13,7 @@ The <code>&lt;canvas&gt;</code> element isn't supported in some older browsers, 
  
 == In this tutorial ==
  
-* [[canvas/tutorial/Canvas_tutorial/Basic_usage Basic usage]]
+* [[canvas/tutorial/Canvas_tutorial/Basic_usage|Basic usage]]
 * [[Drawing shapes]]
 * [[Using images]]
 * [[Applying styles and colors]]
