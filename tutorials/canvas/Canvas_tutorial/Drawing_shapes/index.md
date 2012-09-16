@@ -181,7 +181,7 @@ There's nothing very difficult in these examples. In both cases we see a success
  
 ==== quadraticCurveTo example ====
  
-[[View this example]] [[Image:=Canvas_quadratic.png|=Canvas_quadratic.png]]
+[[Image:=Canvas_quadratic.png|=Canvas_quadratic.png]]
  
 <pre>// Quadratric curves example
 ctx.beginPath();
