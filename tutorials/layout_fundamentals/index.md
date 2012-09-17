@@ -155,7 +155,7 @@ If you are designing stylesheets to work in many browsers, then you also need to
 <ol> 
 <li><p>Change your sample document, <code>doc2.html</code>, and stylesheet, <code>style2.css</code>, using the examples above in the sections [[Document structure]] and [[Floats]].</p></li>
 <li><p>In the [[Floats]] example, add padding to separate the text from the right border by 0.5 em.</p></li>
-</ol>  
+</ol>
 }}
 {{Compatibility_Section
 |Not_required=Yes
@@ -188,5 +188,7 @@ If you are designing stylesheets to work in many browsers, then you also need to
 }}
 {{Topics|CSS}}
 {{External_Attribution
-|Is_CC-BY-SA=No
+|Is_CC-BY-SA=Yes
+|Sources=MDN
+|MDN_link=https://developer.mozilla.org/en-US/docs/CSS/Getting_Started/Layout
 }}
