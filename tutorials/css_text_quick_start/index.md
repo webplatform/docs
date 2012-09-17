@@ -1,8 +1,7 @@
 {{Flags}}
-{{Summary_Section}}
+{{Summary_Section|This tutorial provides a quick instruction on styling text with CSS.}}
 {{Tutorial
-|Content=
-== Information on text styles ==
+|Content=== Information on text styles ==
  
 CSS has several properties for styling text.
  
