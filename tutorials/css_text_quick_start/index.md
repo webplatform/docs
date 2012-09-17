@@ -1,7 +1,7 @@
 {{Flags}}
 {{Summary_Section}}
 {{Tutorial
-|Content={{Note:test to see if you can use &#61; equals in a note.}}
+|Content={{Note|test to see if you can use &#61; equals in a note.}}
 }}
 {{Compatibility_Section
 |Not_required=No
