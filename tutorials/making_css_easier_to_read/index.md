@@ -46,9 +46,9 @@ Some people like everything to line up vertically (but a layout like this is dif
 
 <pre>.carrot
 {
-  color:                          orange;
+  color:                 orange;
   text-decoration:       underline;
-  font-style:                  italic;
+  font-style:            italic;
 }</pre>
   
 Some people use tabs for the layout. Some people only use spaces.
@@ -89,7 +89,7 @@ p {color: blue;}</pre></li>
 <li><p>Make it more readable by rearranging it in a way that you find logical, and by adding white space and comments in whatever way you think best.</p></li>
 <li><p>Save the file and refresh your browser's display, to make sure that your changes do not affect how the stylesheet works.</p></li>
 
-<p class="note">Need to add a screenshot to show what it should look like.</p>  
+<p class="note">Need to add a screenshot to show what it should look like.</p>
 }}
 {{Compatibility_Section
 |Not_required=No
