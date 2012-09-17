@@ -536,7 +536,7 @@ As a matter of course, it’s vital to know which elements correspond to which t
 {{!}} 
 {{!}}-
 !<code>table</code>
-|block
+{{!}}block
 {{!}} 
 {{!}} 
 {{!}}-
