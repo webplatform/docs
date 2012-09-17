@@ -92,7 +92,7 @@ p {color: blue;}</pre></li>
 <p class="note">Need to add a screenshot to show what it should look like.</p>
 }}
 {{Compatibility_Section
-|Not_required=No
+|Not_required=Yes
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
