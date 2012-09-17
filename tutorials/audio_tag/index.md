@@ -61,7 +61,7 @@ We can add as many "source" lines and formats as we want. If the browser doesn't
  
 To be safe, we need to add the fallback to a Flash audio player, in case the browser doesn't support any of the formats we specified. For instance, Firefox 3.5 only supports the audio tag with ''Ogg'' format, but we might only have the ''mp3'' file available.
 
-''Note:'' There are also tools and [[online converters]] you can use if you want to create ogg files from your mp3 and add support for ogg too.
+''Note:'' There are also tools and [http://audio.online-convert.com/convert-to-ogg online converters] you can use if you want to create ogg files from your mp3 and add support for ogg too.
 
 <pre>&lt;audio> &lt;source src="test.mp3" type="audio/mpeg" />
   
@@ -96,7 +96,7 @@ To be safe, we need to add the fallback to a Flash audio player, in case the bro
 &lt;/script>
 </pre>
  
-To make it easier, we are using the [[SWFObject]] library to insert the Flash player via JavaScript. To include the library you can simply use the [[Google AJAX Libraries API]] inserting these two lines in your header:
+To make it easier, we are using the [http://code.google.com/p/swfobject/ SWFObject] library to insert the Flash player via JavaScript. To include the library you can simply use the [http://code.google.com/apis/ajaxlibs/ Google AJAX Libraries API] inserting these two lines in your header:
 
 <pre>&lt;script src="http://www.google.com/jsapi">&lt;/script>
 &lt;script>google.load("swfobject", "2.2");&lt;/script>
@@ -243,9 +243,9 @@ If you don't want to start your customized player from the scratch you can take 
 
 You are all set!
 
-Flash MP3 player is from [[neolao production]].
-MP3 sample is '''Modal Blues''' by [[Rushus]] and
-is licensed under a [[Creative Commons Attribution License]].
+Flash MP3 player is from [http://flash-mp3-player.net/ neolao productions].
+MP3 sample is '''Modal Blues''' by [http://freemusicarchive.org/music/Rushus/ Rushus] and
+is licensed under a [http://creativecommons.org/licenses/by/3.0/ Creative Commons Attribution License].
 |[];_gaq_push([&#39;_setAccount&#39;,&#39;UA-15028909-1&#39;]);_gaq_push([&#39;_setSiteSpeedSampleRate&#39;,50]);_gaq_push([&#39;_trackPageview&#39;]);(function(){var ga=document.createElement(&#39;script&#39;);ga.type=&#39;text/javascript&#39;;ga.async=true;ga.src=(&#39;https:&#39;==document.location.protocol?&#39;<a class="externallink" href="https://ssl&#39;:&#39;http://www&#39;" rel="nofollow" title="https://ssl&#39;:&#39;http://www&#39;">https://ssl&#39;:&#39;http://www&#39;</a>)+&#39;.google-analytics.com/ga.js&#39;;var s=document.getElementsByTagName(&#39;script&#39;)[0];s.parentNode.insertBefore(ga,s);})();&#60;/script&#62;
 &#60;script defer src=&#34;<a class="externallink" href="http://1-ps.googleusercontent.com/x/s.html5rocks-hrd.appspot.com/www.html5rocks.com/static/js/app.min.js.pagespeed.ce.IlL62AP3Y-.js" rel="nofollow" title="http://1-ps.googleusercontent.com/x/s.html5rocks-hrd.appspot.com/www.html5rocks.com/static/js/app.min.js.pagespeed.ce.IlL62AP3Y-.js">http://1-ps.googleusercontent.com/x/s.html5rocks-hrd.appspot.com/www.html5rocks.com/static/js/app.min.js.pagespeed.ce.IlL62AP3Y-.js</a>&#34;&#62;&#60;/script&#62;
 &#60;script defer src=&#34;<a class="externallink" href="http://1-ps.googleusercontent.com/x/s.html5rocks-hrd.appspot.com/www.html5rocks.com/static/js/search.min.js.pagespeed.ce.hdMERthVbk.js" rel="nofollow" title="http://1-ps.googleusercontent.com/x/s.html5rocks-hrd.appspot.com/www.html5rocks.com/static/js/search.min.js.pagespeed.ce.hdMERthVbk.js">http://1-ps.googleusercontent.com/x/s.html5rocks-hrd.appspot.com/www.html5rocks.com/static/js/search.min.js.pagespeed.ce.hdMERthVbk.js</a>&#34;&#62;&#60;/script&#62;
