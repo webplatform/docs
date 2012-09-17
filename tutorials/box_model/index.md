@@ -159,18 +159,18 @@ To get the result you want, you might have to change your document's markup. The
 <p>Refresh your browser to see the result:</p>
 
 <p class="note">Need to add in a screenshot to show what this should look like.</p>       
-
-===Exercise questions===
-
-Add one rule to your stylesheet, making a wide border all around the oceans in a color that reminds you of the sea.
 }}
 {{Compatibility_Section
-|Not_required=No
+|Not_required=Yes
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Manual_sections====Exercise questions===
+
+Add one rule to your stylesheet, making a wide border all around the oceans in a color that reminds you of the sea.
+}}
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=Yes
