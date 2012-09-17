@@ -239,7 +239,7 @@ The following example will fallback to the Flash player in those browsers that d
 
 You can play with this code and see it in action in the [[http://playground.html5rocks.com/?mode=frame&hu=180&hl=180#audio_tag_with_fallback_to_flash HTML5Rocks! Playground]].
   
-If you don't want to start your customized player from the scratch you can take a [[basic one]] and style it from there.
+If you don't want to start your customized player from the scratch you can take a [[http://www.jezra.net/code_examples/html5_audio/ basic one]] and style it from there.
 
 You are all set!
 
