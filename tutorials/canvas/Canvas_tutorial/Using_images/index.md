@@ -1,32 +1,25 @@
 {{Flags
 |High-level issues=Needs Flags
 }}
-{{Summary_Section}}
+{{Summary_Section|One of the more fun features of the canvas is the ability to use images. These can be used to do dynamic photo compositing or used as backdrops of graphs etc. External images can be used in any format supported by the browser (e.g. PNG, GIF or JPEG format). Other canvas elements on the same page can also be used as the source.}}
 {{Tutorial
-|Content= 
-One of the more fun features of the canvas is the ability to use images. These can be used to do dynamic photo compositing or used as backdrops of graphs etc. External images can be used in any format supported by [[Gecko]] (e.g. PNG, GIF or JPEG format). Other canvas elements on the same page can also be used as the source.
-
- 
-== Importing images ==
+|Content=== Importing images ==
  
 Importing images is basically a two step process:
-
  
 * Firstly we need a reference to a JavaScript Image object or other canvas element as a source. It isn't possible to use images by simply providing a URL/path to them.
 * Secondly we draw the image on the canvas using the <code>drawImage</code> function.
  
 Let's look at step one first. There are basically four options available:
-
  
 ==== Using images which are on the same page ====
  
-We can access all images on a page by using either the <code>[[document.images]]</code> collection, the <code>[[document.getElementsByTagName]]</code> method, or if we know the ID attribute of the image, the <code>[[document.getElementById]]</code> method.
-
+We can access all images on a page by using either the <code>document.images</code> collection, the <code>document.getElementsByTagName</code> method, or if we know the ID attribute of the image, the <code>document.getElementById</code> method.
  
 ==== Using images from other domains ====
  
-Using the [[crossOrigin]] attribute on an <code>[[Image]]</code>, you can request permission to load an image from another domain for use in your call to <code>drawImage()</code>. If the hosting domain permits cross-domain access to the image, the image can be used in your canvas without tainting it; otherwise using the image will [[taint the canvas]].
-
+Using the <code>crossOrigin</code> attribute on an <code>Image</code>, you can request permission to load an image from another domain for use in your call to <code>drawImage()</code>. If the hosting domain permits cross-domain access to the image, the image can be used in your canvas without tainting it; otherwise using the image will taint the canvas.
+{{Note| Need description for "taint the canvas"}}
  
 ==== Using other canvas elements ====
  
@@ -240,7 +233,6 @@ Gecko 1.9.2 introduced the <code>mozImageSmoothingEnabled</code> property to the
 <pre>ctx.mozImageSmoothingEnabled = false;
 
 </pre>
- 
 }}
 {{Compatibility_Section
 |Not_required=No
