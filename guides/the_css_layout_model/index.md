@@ -66,7 +66,7 @@ h1 { color:red;; font-size:2em; }</pre>
  
 It creates the output shown in Figure 2:
  
-[[Image:negativemargins1.jpg|Two elements with no negative margins applied]]
+[[Image:layout_fig2.jpg|Two elements with no negative margins applied]]
  
 Figure 2: The two elements from our simple example. Nothing special to see here.
  
@@ -76,7 +76,7 @@ Here comes the interesting part. Now we’ll add a fairly sizeable negative marg
  
 This gives us the visual effect of shifting the element up so it overlaps with the heading, as shown in Figure 3 (see the [[negativemargins2.html example file]] for a live example).
  
-[[Image:negativemargins2.jpg|Two elements with negative margins applied]]
+[[Image:layout_fig3.jpg|Two elements with negative margins applied]]
  
 Figure 3: With a negative margin applied, the bottom element shifts upwards and overlaps the heading.
 
@@ -888,7 +888,4 @@ This discussion of the <code>clear</code> property is intended as a simple intro
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
