@@ -2,18 +2,8 @@
 {{Summary_Section}}
 {{Tutorial
 |Content=<h1>Quick Guide to Implementing the HTML5 Audio Tag</h1>
-<p>&#60;section class=&#34;byline&#34;&#62;
-<a href="/profiles/#ernestd">&#60;script type=&#34;text/javascript&#34;&#62;(function(){var d=window,e=document,f=&#34;documentElement&#34;,g=&#34;scrollTop&#34;,h=&#34;prototype&#34;,j=&#34;body&#34;,k=&#34;&#34;,l=&#34;data&#34;,m=&#34;load&#34;,n=&#34;number&#34;,p=&#34;on&#34;,r=&#34;onload&#34;,s=&#34;pagespeed_lazy_position&#34;,t=&#34;pagespeed_lazy_src&#34;,u=&#34;position&#34;,v=&#34;relative&#34;,w=&#34;scroll&#34;;d.pagespeed=d.pagespeed||{};var x=d.pagespeed,y=function(a){this.b=[];this.d=0;this.a=!1;this.h=a};
-y[h].l=function(){var a=0;typeof d.pageYOffset==n?a=d.pageYOffset:e[j]&#38;&#38;e[j][g]?a=e[j][g]:e[f]&#38;&#38;e[f][g]&#38;&#38;(a=e[f][g]);var b=d.innerHeight||e[f].clientHeight||e[j].clientHeight;return{top:a,bottom:a+b,height:b}};y[h].g=function(a){var b=a.getAttribute(s);if(b)return parseInt(b,0);var b=a.offsetTop,c=a.offsetParent;c&#38;&#38;(b+=this.g(c));b=Math.max(b,0);a.setAttribute(s,b);return b};y[h].k=function(a){var b=this.g(a);return{top:b,bottom:b+a.offsetHeight}};
-y[h].j=function(a,b){if(a.currentStyle)return a.currentStyle[b];if(e.defaultView&#38;&#38;e.defaultView.getComputedStyle){var c=e.defaultView.getComputedStyle(a,null);if(c)return c.getPropertyValue(b)}return a.style&#38;&#38;a.style[b]?a.style[b]:k};y[h].i=function(a){if(this.j(a,u)==v)return!0;var b=this.l(),c=a.getBoundingClientRect();c?(a=c.top-b.height,b=c.bottom):(c=this.k(a),a=c.top-b.bottom,b=c.bottom-b.top);return a&#60;=this.d&#38;&#38;0&#60;=b+this.d};
-y[h].f=function(a){var b=this;d.setTimeout(function(){var c=a.getAttribute(t);if(null!=c)if((b.a||b.i(a))&#38;&#38;a.src==b.h){var i=a.parentNode,q=a.nextSibling;i.removeChild(a);a.removeAttribute(t);a.removeAttribute(r);a.src=c;q?i.insertBefore(a,q):i.appendChild(a)}else b.b.push(a)},0)};y[h].loadIfVisible=y[h].f;y[h].m=function(){this.a=!0;this.c()};y[h].loadAllImages=y[h].m;y[h].c=function(){var a=this.b,b=a.length;this.b=[];for(var c=0;c&#60;b;++c)this.f(a[c])};
-x.e=function(a,b,c){if(a.addEventListener)a.addEventListener(b,c,!1);else if(a.attachEvent)a.attachEvent(p+b,c);else{var i=a[p+b];a[p+b]=function(){c.call(this);i&#38;&#38;i.call(this)}}};x.n=function(a,b){var c=new y(b);x.lazyLoadImages=c;0!=b.indexOf(l)&#38;&#38;((new Image).src=b);x.e(d,m,function(){d.setTimeout(function(){c.a=a;c.c()},200)});a||x.e(d,w,function(){c.c()})};x.lazyLoadInit=x.n;})();
-
-pagespeed.lazyLoadInit(false, &#34;<a class="externallink" href="http://1-ps.googleusercontent.com/h/www.gstatic.com/psa/static/1.gif" rel="nofollow" title="http://1-ps.googleusercontent.com/h/www.gstatic.com/psa/static/1.gif">http://1-ps.googleusercontent.com/h/www.gstatic.com/psa/static/1.gif</a>&#34;);
-&#60;/script&#62;&#60;img pagespeed_lazy_src=&#34;<a class="externallink" href="http://1-ps.googleusercontent.com/x/s.html5rocks-hrd.appspot.com/www.html5rocks.com/static/images/profiles/75/wernestd.75.png.pagespeed.ic.hlfuQmfKSM.jpg" rel="nofollow" title="http://1-ps.googleusercontent.com/x/s.html5rocks-hrd.appspot.com/www.html5rocks.com/static/images/profiles/75/wernestd.75.png.pagespeed.ic.hlfuQmfKSM.jpg">http://1-ps.googleusercontent.com/x/s.html5rocks-hrd.appspot.com/www.html5rocks.com/static/images/profiles/75/wernestd.75.png.pagespeed.ic.hlfuQmfKSM.jpg</a>&#34; itemprop=&#34;photo&#34; alt=&#34;Ernest Delgado&#34; title=&#34;Ernest Delgado&#34; width=&#34;75&#34; height=&#34;75&#34; src=&#34;<a class="externallink" href="http://1-ps.googleusercontent.com/h/www.gstatic.com/psa/static/1.gif" rel="nofollow" title="http://1-ps.googleusercontent.com/h/www.gstatic.com/psa/static/1.gif">http://1-ps.googleusercontent.com/h/www.gstatic.com/psa/static/1.gif</a>&#34; onload=&#34;pagespeed.lazyLoadImages.loadIfVisible(this);&#34;&#62;</a>
-&#60;hgroup&#62;
-</p><h2>
-By <strong><a href="/profiles/#ernestd">Ernest Delgado</a></strong>
+<h2>
+By Ernest Delgado
 </h2>
 <p>&#60;/hgroup&#62;
 </p>
