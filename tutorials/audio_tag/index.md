@@ -5,19 +5,7 @@
 <h2>
 By Ernest Delgado
 </h2>
-<p>&#60;/hgroup&#62;
-</p>
-<div class="date">
-<p>&#60;time pubdate&#62;Published <strong>Feb. 5, 2010</strong>&#60;/time&#62;
-</p></div>
-<p>&#60;/section&#62;
-&#60;aside id=&#34;html5badge&#34;&#62;
-<a href="http://www.w3.org/html/logo/" rel="nofollow">
-&#60;img pagespeed_lazy_src=&#34;<a class="externallink" href="http://1-ps.googleusercontent.com/x/s.html5rocks-hrd.appspot.com/www.html5rocks.com/static/images/identity/133x64whtml5-badge-h-multimedia.png.pagespeed.ic.4TOw_zhcFG.png" rel="nofollow" title="http://1-ps.googleusercontent.com/x/s.html5rocks-hrd.appspot.com/www.html5rocks.com/static/images/identity/133x64whtml5-badge-h-multimedia.png.pagespeed.ic.4TOw_zhcFG.png">http://1-ps.googleusercontent.com/x/s.html5rocks-hrd.appspot.com/www.html5rocks.com/static/images/identity/133x64whtml5-badge-h-multimedia.png.pagespeed.ic.4TOw_zhcFG.png</a>&#34; width=&#34;133&#34; height=&#34;64&#34; alt=&#34;This article is powered by HTML5 Multimedia&#34; title=&#34;This article is powered by HTML5 Multimedia&#34; src=&#34;<a class="externallink" href="http://1-ps.googleusercontent.com/h/www.gstatic.com/psa/static/1.gif" rel="nofollow" title="http://1-ps.googleusercontent.com/h/www.gstatic.com/psa/static/1.gif">http://1-ps.googleusercontent.com/h/www.gstatic.com/psa/static/1.gif</a>&#34; onload=&#34;pagespeed.lazyLoadImages.loadIfVisible(this);&#34;/&#62;
-</a>
-&#60;/aside&#62;
-&#60;section class=&#34;browser_support&#34;&#62;
-</p><h2>Supported browsers:</h2>
+Published Feb. 5, 2010<h2>Supported browsers:</h2>
 <p><span class="browsers">
 <span class="browser opera supported">
 <span class="browser_name">Opera</span>
