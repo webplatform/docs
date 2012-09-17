@@ -1,38 +1,26 @@
-{{Flags}}
-{{Summary_Section}}
+{{Flags
+|High-level issues=Needs Flags
+}}
+{{Summary_Section|An introduction to using web databases.}}
 {{Tutorial
 |Content== A Simple TODO list using HTML5 WebDatabases =
 == By Paul Kinlan ==
-Published '''Feb. 17, 2010'''    [[]]   
-== Supported browsers: ==
-   Opera 
-supported
-   IE 
-unsupported
-   Safari 
-supported
-   Firefox 
-unsupported
-   Chrome 
-supported
-    
+Published '''Feb. 17, 2010'''
+
 == Introduction ==
  
-[[Web Databases]] are new
+[http://dev.w3.org/html5/webdatabase Web Databases] are new
 in HTML5. Web Databases are hosted and persisted inside a user's browser.
 By allowing developers to create applications with rich query abilities
 it is envisioned that a new breed of web applications will emerge that
 have the ability to work online and off-line.
  
-On November 18, 2010, the [[W3C announced]] that Web SQL database is a deprecated specification. This is a
+On November 18, 2010, the [http://www.w3.org/TR/webdatabase/ W3C announced] that Web SQL database is a deprecated specification. This is a
 recommendation for web developers to no longer use the technology as
 effectively the spec will receive no new updates and browser vendors aren't
 encouraged to support this technology. Many major browsers including Chrome,
 Safari, Opera and nearly all Webkit based mobile devices support WebSQL and
 will likely maintain support for the foreseeable future.
- 
-This tutorial is also [[available written using "IndexedDB"]], the replacement offline storage
-technology.
  
 The example code in this article demonstrates how to create a very simple
 todo list manager. It is a very high level tour of some of the features
@@ -49,7 +37,7 @@ html5rocks.webdb = {};
 == Asynchronous and Transactional ==
  
 In the majority of cases where you are using Web Database
-support you will be using the [[Asynchronous API]]. The Asynchronous API
+support you will be using the http://dev.w3.org/html5/webdatabase/#asynchronous-database-api Asynchronous API]. The Asynchronous API
 is a non-blocking system and as such will not get data
 through return values, but rather will get data delivered to a defined
 callback function.
@@ -215,21 +203,145 @@ call the html5rocks.webdb.addTodo method
 </pre>
  
 == The final product ==
-     
 
-                
+<pre>
+var html5rocks = {};
+html5rocks.webdb = {};
+html5rocks.webdb.db = null;
+
+html5rocks.webdb.open = function() {
+  var dbSize = 5 * 1024 * 1024; // 5MB
+  html5rocks.webdb.db = openDatabase("Todo", "1.0", "Todo manager", dbSize);
+}
+
+html5rocks.webdb.createTable = function() {
+  var db = html5rocks.webdb.db;
+  db.transaction(function(tx) {
+    tx.executeSql("CREATE TABLE IF NOT EXISTS todo(ID INTEGER PRIMARY KEY ASC, todo TEXT, added_on DATETIME)", []);
+  });
+}
+
+html5rocks.webdb.addTodo = function(todoText) {
+  var db = html5rocks.webdb.db;
+  db.transaction(function(tx){
+    var addedOn = new Date();
+    tx.executeSql("INSERT INTO todo(todo, added_on) VALUES (?,?)",
+        [todoText, addedOn],
+        html5rocks.webdb.onSuccess,
+        html5rocks.webdb.onError);
+   });
+}
+
+html5rocks.webdb.onError = function(tx, e) {
+  alert("There has been an error: " + e.message);
+}
+
+html5rocks.webdb.onSuccess = function(tx, r) {
+  // re-render the data.
+  html5rocks.webdb.getAllTodoItems(loadTodoItems);
+}
+
+
+html5rocks.webdb.getAllTodoItems = function(renderFunc) {
+  var db = html5rocks.webdb.db;
+  db.transaction(function(tx) {
+    tx.executeSql("SELECT * FROM todo", [], renderFunc,
+        html5rocks.webdb.onError);
+  });
+}
+
+html5rocks.webdb.deleteTodo = function(id) {
+  var db = html5rocks.webdb.db;
+  db.transaction(function(tx){
+    tx.executeSql("DELETE FROM todo WHERE ID=?", [id],
+        html5rocks.webdb.onSuccess,
+        html5rocks.webdb.onError);
+    });
+}
+
+function loadTodoItems(tx, rs) {
+  var rowOutput = "";
+  var todoItems = document.getElementById("todoItems");
+  for (var i=0; i < rs.rows.length; i++) {
+    rowOutput += renderTodo(rs.rows.item(i));
+  }
+
+  todoItems.innerHTML = rowOutput;
+}
+
+function renderTodo(row) {
+  return "<li>" + row.todo  + " [<a href='javascript:void(0);'  onclick='html5rocks.webdb.deleteTodo(" + row.ID +");'>Delete</a>]</li>";
+}
+
+function init() {
+  html5rocks.webdb.open();
+  html5rocks.webdb.createTable();
+  html5rocks.webdb.getAllTodoItems(loadTodoItems);
+}
+
+function addTodo() {
+  var todo = document.getElementById("todo");
+  html5rocks.webdb.addTodo(todo.value);
+  todo.value = "";
+}​
+</pre>
+
+You can run this code in the [http://playground.html5rocks.com/?mode=frame&hu=210&hl=150#a_simple_todo_list_using_web_sql_database HTML5Rocks! Playground].
 }}
 {{Compatibility_Section
 |Not_required=No
-|Desktop_rows=
-|Mobile_rows=
+|Desktop_rows={{Compatibility Table Desktop Row
+|Chrome_supported=Yes
+|Chrome_version=20
+|Chrome_prefixed_supported=Unknown
+|Chrome_prefixed_version=
+|Firefox_supported=No
+|Firefox_version=
+|Firefox_prefixed_supported=Unknown
+|Firefox_prefixed_version=
+|Internet_explorer_supported=No
+|Internet_explorer_version=
+|Internet_explorer_prefixed_supported=Unknown
+|Internet_explorer_prefixed_version=
+|Opera_supported=Yes
+|Opera_version=12
+|Opera_prefixed_supported=Unknown
+|Opera_prefixed_version=
+|Safari_supported=Yes
+|Safari_version=5.1
+|Safari_prefixed_supported=Unknown
+|Safari_prefixed_version=
+}}
+|Mobile_rows={{Compatibility Table Mobile Row
+|Android_supported=Yes
+|Android_version=2.1
+|Android_prefixed_supported=Unknown
+|Android_prefixed_version=
+|Firefox_mobile_supported=Unknown
+|Firefox_mobile_version=
+|Firefox_mobile_prefixed_supported=Unknown
+|Firefox_mobile_prefixed_version=
+|IE_phone_supported=Unknown
+|IE_phone_version=
+|IE_phone_prefixed_supported=Unknown
+|IE_phone_prefixed_version=
+|Opera_mobile_supported=No
+|Opera_mobile_version=
+|Opera_mobile_prefixed_supported=Unknown
+|Opera_mobile_prefixed_version=
+|Safari_mobile_supported=Yes
+|Safari_mobile_version=3.2
+|Safari_mobile_prefixed_supported=Unknown
+|Safari_mobile_prefixed_version=
+}}
 |Notes_rows=
 }}
 {{See_Also_Section}}
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
+|Sources=HTML5Rocks
 |MDN_link=
 |MSDN_link=
-|HTML5Rocks_link=
+|HTML5Rocks_link=http://www.html5rocks.com/en/tutorials/webdatabase/todo/
 }}
