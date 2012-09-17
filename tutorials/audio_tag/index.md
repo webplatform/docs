@@ -166,9 +166,78 @@ Alternatively, you can create your own player using JavaScript and CSS.
 &lt;/script>
 </pre>
  
-== Examples ==
+== Example ==
  
-The following two examples will fallback to the Flash player in those browsers that don't support the audio tag nor can play mp3 in it.
+The following example will fallback to the Flash player in those browsers that don't support the audio tag nor can play mp3 in it.
+
+<pre>
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      h3 {
+        font-family: 'Droid Sans', Arial, sans-serif;
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <h3 id="toc-player-default">Player with default controls</h3>
+      <audio id="audio_with_controls" controls>
+        <source src="http://www.html5rocks.com/en/tutorials/audio/quick/test.mp3" type="audio/mpeg" />
+        <source src="http://www.html5rocks.com/en/tutorials/audio/quick/test.ogg" type="audio/ogg" />
+        <object class="playerpreview" type="application/x-shockwave-flash" data="http://www.html5rocks.com/en/tutorials/audio/quick/player_mp3_mini.swf" width="200" height="20">
+          <param name="movie" value="http://www.html5rocks.com/en/tutorials/audio/quick/player_mp3_mini.swf" />
+          <param name="bgcolor" value="#085c68" />
+          <param name="FlashVars" value="mp3=http://www.html5rocks.com/en/tutorials/audio/quick/test.mp3" />
+          <embed href="http://www.html5rocks.com/en/tutorials/audio/quick/player_mp3_mini.swf" bgcolor="#085c68" width="200" height="20" name="movie" align="" type="application/x-shockwave-flash" flashvars="mp3=http://www.html5rocks.com/en/tutorials/audio/quick/test.mp3" />
+        </object>
+      </audio>
+    <div id="default_player_fallback"></div>
+
+    <h3 id="toc-player-custom">Player with customized controls</h3>
+    <audio id="audio">
+      <source src="http://www.html5rocks.com/en/tutorials/audio/quick/test.mp3" type="audio/mpeg" />
+      <source src="http://www.html5rocks.com/en/tutorials/audio/quick/test.ogg" type="audio/ogg" />
+      <object id="flash_obj" class="playerpreview" type="application/x-shockwave-flash" data="http://www.html5rocks.com/en/tutorials/audio/quick/player_mp3_mini.swf" width="200" height="20">
+        <param name="movie" value="http://www.html5rocks.com/en/tutorials/audio/quick/player_mp3_mini.swf" /><param name="bgcolor" value="#085c68" />
+        <param name="FlashVars" value="mp3=http://www.html5rocks.com/en/tutorials/audio/quick/test.mp3" />
+        <embed href="http://www.html5rocks.com/en/tutorials/audio/quick/player_mp3_mini.swf" bgcolor="#085c68" width="200" height="20" name="movie" align="" type="application/x-shockwave-flash" flashvars="mp3=http://www.html5rocks.com/en/tutorials/audio/quick/test.mp3" />
+      </object>
+    </audio>
+    <div id="custom_player_fallback"></div>
+    <div id="player" style="display: none">
+      <button onClick="document.getElementById('audio').play()">Play</button>
+      <button onClick="document.getElementById('audio').pause()">Pause</button>
+    </div>
+
+    <script>
+      if (document.createElement('audio').canPlayType) {
+        if (!document.createElement('audio').canPlayType('audio/mpeg') &&
+            !document.createElement('audio').canPlayType('audio/ogg')) {
+          swfobject.embedSWF("http://www.html5rocks.com/en/tutorials/audio/quick/player_mp3_mini.swf",
+                             "default_player_fallback", "200", "20", "9.0.0", "",
+                             {"mp3":"http://www.html5rocks.com/en/tutorials/audio/quick/test.mp3"},
+                             {"bgcolor":"#085c68"}
+                            );
+          swfobject.embedSWF("http://www.html5rocks.com/en/tutorials/audio/quick/player_mp3_mini.swf",
+                             "custom_player_fallback", "200", "20", "9.0.0", "",
+                             {"mp3":"http://www.html5rocks.com/en/tutorials/audio/quick/test.mp3"},
+                             {"bgcolor":"#085c68"}
+                            );
+          document.getElementById('audio_with_controls').style.display = 'none';
+        } else {
+          // HTML5 audio + mp3 support
+          document.getElementById('player').style.display = 'block';
+        }
+      }
+    </script>
+
+  </body>
+</html>​
+</pre>
+
+You can play with this code and see it in action in the [[http://playground.html5rocks.com/?mode=frame&hu=180&hl=180#audio_tag_with_fallback_to_flash HTML5Rocks! Playground]].
   
 If you don't want to start your customized player from the scratch you can take a [[basic one]] and style it from there.
 
