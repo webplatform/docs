@@ -20,7 +20,6 @@ supported
  
 Those browsers that don't recognize the audio tag will load the Flash content instead.
 
- 
 <pre> &lt;audio>
 
     &lt;object class="playerpreview" type="application/x-shockwave-flash" 
@@ -41,7 +40,6 @@ Those browsers that don't recognize the audio tag will load the Flash content in
  
 We can add as many "source" lines and formats as we want. If the browser doesn't support one specific format it will fallback to the next one and so forth.
 
- 
 <pre> &lt;audio> &lt;source src="test.mp3" type="audio/mpeg" />
   &lt;source src="test.ogg" type="audio/ogg" />
     
@@ -63,10 +61,8 @@ We can add as many "source" lines and formats as we want. If the browser doesn't
  
 To be safe, we need to add the fallback to a Flash audio player, in case the browser doesn't support any of the formats we specified. For instance, Firefox 3.5 only supports the audio tag with ''Ogg'' format, but we might only have the ''mp3'' file available.
 
- 
 ''Note:'' There are also tools and [[online converters]] you can use if you want to create ogg files from your mp3 and add support for ogg too.
 
- 
 <pre>&lt;audio> &lt;source src="test.mp3" type="audio/mpeg" />
   
   &lt;object class="playerpreview" type="application/x-shockwave-flash" 
@@ -102,7 +98,6 @@ To be safe, we need to add the fallback to a Flash audio player, in case the bro
  
 To make it easier, we are using the [[SWFObject]] library to insert the Flash player via JavaScript. To include the library you can simply use the [[Google AJAX Libraries API]] inserting these two lines in your header:
 
- 
 <pre>&lt;script src="http://www.google.com/jsapi">&lt;/script>
 &lt;script>google.load("swfobject", "2.2");&lt;/script>
 </pre>
@@ -111,7 +106,6 @@ To make it easier, we are using the [[SWFObject]] library to insert the Flash pl
  
 These controls are not customizable (see examples at the end). Since these default controls will show up regardless of the supported format we will need to handle its visibility with the conditional we previously created.
 
- 
 <pre>&lt;audio id="audio_with_controls" controls> &lt;source src="test.mp3" type="audio/mpeg" />
     
   &lt;object class="playerpreview" type="application/x-shockwave-flash" 
@@ -140,7 +134,6 @@ These controls are not customizable (see examples at the end). Since these defau
  
 Alternatively, you can create your own player using JavaScript and CSS.
 
- 
 <pre>&lt;audio id="audio"> &lt;source src="test.mp3" type="audio/mpeg" />
 
   &lt;object class="playerpreview" type="application/x-shockwave-flash" 
@@ -176,14 +169,11 @@ Alternatively, you can create your own player using JavaScript and CSS.
 == Examples ==
  
 The following two examples will fallback to the Flash player in those browsers that don't support the audio tag nor can play mp3 in it.
-
   
 If you don't want to start your customized player from the scratch you can take a [[basic one]] and style it from there.
 
- 
 You are all set!
 
-  
 Flash MP3 player is from [[neolao production]].
 MP3 sample is '''Modal Blues''' by [[Rushus]] and
 is licensed under a [[Creative Commons Attribution License]].
