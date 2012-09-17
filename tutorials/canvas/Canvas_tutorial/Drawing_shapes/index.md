@@ -133,8 +133,8 @@ For drawing arcs or circles we use the <code>arc</code> method. The specificatio
   
 This method takes five parameters: <code>x</code> and <code>y</code> are the coordinates of the circle's center. Radius is self explanatory. The <code>startAngle</code> and <code>endAngle</code> parameters define the start and end points of the arc in radians. The starting and closing angle are measured from the x axis. The <code>anticlockwise</code> parameter is a Boolean value which when <code>true</code> draws the arc anticlockwise, otherwise in a clockwise direction.
  
-{{Note|Angles in the <code>arc</code> function are measured in radians, not degrees. To convert degrees to radians you can use the following JavaScript expression: <code>var radians = (Math.PI/180)*degrees</code>.}}
- 
+{{Note|Angles in the <code>arc</code> function are measured in radians, not degrees. To convert degrees to radians you can use the following JavaScript expression: <code>var radians {{=}} (Math.PI/180)*degrees</code>.}}
+
 ==== arc example ====
  
 [[File:Canvas arc.png|right|A canvas with a series of arcs and sections of filled circles]]The following example is a little more complex than the ones we've seen above. I've drawn 12 different arcs all with different angles and fills. If I would have written this example just like the smiley face above, firstly this would have become a very long list of statements and secondly, when drawing arcs, I would need to know every single starting point. For arcs of 90, 180 and 270 degrees, like the ones I used here, this wouldn't be to much of a problem, but for more complex ones this becomes way too difficult.
