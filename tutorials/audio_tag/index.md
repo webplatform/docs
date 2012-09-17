@@ -1,20 +1,11 @@
-{{Flags}}
-{{Summary_Section}}
+{{Flags
+|High-level issues=Needs Flags
+}}
+{{Summary_Section|Guide to implementing the audio tag in HTML.}}
 {{Tutorial
 |Content== Quick Guide to Implementing the HTML5 Audio Tag =
 == By Ernest Delgado ==
 Published '''Feb. 5, 2010'''
-== Supported browsers: ==
-   Opera 
-supported
-   IE 
-unsupported
-   Safari 
-supported
-   Firefox 
-supported
-   Chrome 
-supported
  
 == Step 1: Wrap your Flash object with the audio tag ==
  
@@ -246,6 +237,18 @@ You are all set!
 Flash MP3 player is from [http://flash-mp3-player.net/ neolao productions].
 MP3 sample is '''Modal Blues''' by [http://freemusicarchive.org/music/Rushus/ Rushus] and
 is licensed under a [http://creativecommons.org/licenses/by/3.0/ Creative Commons Attribution License].
+
+== Supported browsers: ==
+   Opera 
+supported
+   IE 
+unsupported
+   Safari 
+supported
+   Firefox 
+supported
+   Chrome 
+supported
 |[];_gaq_push([&#39;_setAccount&#39;,&#39;UA-15028909-1&#39;]);_gaq_push([&#39;_setSiteSpeedSampleRate&#39;,50]);_gaq_push([&#39;_trackPageview&#39;]);(function(){var ga=document.createElement(&#39;script&#39;);ga.type=&#39;text/javascript&#39;;ga.async=true;ga.src=(&#39;https:&#39;==document.location.protocol?&#39;<a class="externallink" href="https://ssl&#39;:&#39;http://www&#39;" rel="nofollow" title="https://ssl&#39;:&#39;http://www&#39;">https://ssl&#39;:&#39;http://www&#39;</a>)+&#39;.google-analytics.com/ga.js&#39;;var s=document.getElementsByTagName(&#39;script&#39;)[0];s.parentNode.insertBefore(ga,s);})();&#60;/script&#62;
 &#60;script defer src=&#34;<a class="externallink" href="http://1-ps.googleusercontent.com/x/s.html5rocks-hrd.appspot.com/www.html5rocks.com/static/js/app.min.js.pagespeed.ce.IlL62AP3Y-.js" rel="nofollow" title="http://1-ps.googleusercontent.com/x/s.html5rocks-hrd.appspot.com/www.html5rocks.com/static/js/app.min.js.pagespeed.ce.IlL62AP3Y-.js">http://1-ps.googleusercontent.com/x/s.html5rocks-hrd.appspot.com/www.html5rocks.com/static/js/app.min.js.pagespeed.ce.IlL62AP3Y-.js</a>&#34;&#62;&#60;/script&#62;
 &#60;script defer src=&#34;<a class="externallink" href="http://1-ps.googleusercontent.com/x/s.html5rocks-hrd.appspot.com/www.html5rocks.com/static/js/search.min.js.pagespeed.ce.hdMERthVbk.js" rel="nofollow" title="http://1-ps.googleusercontent.com/x/s.html5rocks-hrd.appspot.com/www.html5rocks.com/static/js/search.min.js.pagespeed.ce.hdMERthVbk.js">http://1-ps.googleusercontent.com/x/s.html5rocks-hrd.appspot.com/www.html5rocks.com/static/js/search.min.js.pagespeed.ce.hdMERthVbk.js</a>&#34;&#62;&#60;/script&#62;
@@ -256,15 +259,58 @@ is licensed under a [http://creativecommons.org/licenses/by/3.0/ Creative Common
 }}
 {{Compatibility_Section
 |Not_required=No
-|Desktop_rows=
-|Mobile_rows=
+|Desktop_rows={{Compatibility Table Desktop Row
+|Chrome_supported=Yes
+|Chrome_version=20
+|Chrome_prefixed_supported=Unknown
+|Chrome_prefixed_version=
+|Firefox_supported=Yes
+|Firefox_version=12
+|Firefox_prefixed_supported=Unknown
+|Firefox_prefixed_version=
+|Internet_explorer_supported=Yes
+|Internet_explorer_version=9
+|Internet_explorer_prefixed_supported=Unknown
+|Internet_explorer_prefixed_version=
+|Opera_supported=Yes
+|Opera_version=12.0
+|Opera_prefixed_supported=Unknown
+|Opera_prefixed_version=
+|Safari_supported=Yes
+|Safari_version=5.1
+|Safari_prefixed_supported=Unknown
+|Safari_prefixed_version=
+}}
+|Mobile_rows={{Compatibility Table Mobile Row
+|Android_supported=Yes
+|Android_version=2.1
+|Android_prefixed_supported=Unknown
+|Android_prefixed_version=
+|Firefox_mobile_supported=Unknown
+|Firefox_mobile_version=
+|Firefox_mobile_prefixed_supported=Unknown
+|Firefox_mobile_prefixed_version=
+|IE_phone_supported=Unknown
+|IE_phone_version=
+|IE_phone_prefixed_supported=Unknown
+|IE_phone_prefixed_version=
+|Opera_mobile_supported=No
+|Opera_mobile_version=
+|Opera_mobile_prefixed_supported=Unknown
+|Opera_mobile_prefixed_version=
+|Safari_mobile_supported=Yes
+|Safari_mobile_version=4.0
+|Safari_mobile_prefixed_supported=Unknown
+|Safari_mobile_prefixed_version=
+}}
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics}}
+{{Topics|Audio, HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
+|Sources=HTML5Rocks
 |MDN_link=
 |MSDN_link=
-|HTML5Rocks_link=
+|HTML5Rocks_link=http://www.html5rocks.com/en/tutorials/audio/quick/
 }}
