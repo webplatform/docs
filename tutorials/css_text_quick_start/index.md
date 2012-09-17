@@ -1,0 +1,19 @@
+{{Flags}}
+{{Summary_Section}}
+{{Tutorial
+|Content={{Note:test to see if you can use = equals in a note.}}
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section}}
+{{Topics}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
+}}
