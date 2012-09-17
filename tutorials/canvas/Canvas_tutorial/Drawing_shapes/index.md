@@ -133,15 +133,13 @@ For drawing arcs or circles we use the <code>arc</code> method. The specificatio
   
 This method takes five parameters: <code>x</code> and <code>y</code> are the coordinates of the circle's center. Radius is self explanatory. The <code>startAngle</code> and <code>endAngle</code> parameters define the start and end points of the arc in radians. The starting and closing angle are measured from the x axis. The <code>anticlockwise</code> parameter is a Boolean value which when <code>true</code> draws the arc anticlockwise, otherwise in a clockwise direction.
  
-'''Note''': Angles in the <code>arc</code> function are measured in radians, not degrees. To convert degrees to radians you can use the following JavaScript expression: <code>var radians = (Math.PI/180)*degrees</code>.
+{{Note|Angles in the <code>arc</code> function are measured in radians, not degrees. To convert degrees to radians you can use the following JavaScript expression: <code>var radians = (Math.PI/180)*degrees</code>.}}
  
 ==== arc example ====
  
-[[Image:=Canvas_arc.png|=Canvas_arc.png]]The following example is a little more complex than the ones we've seen above. I've drawn 12 different arcs all with different angles and fills. If I would have written this example just like the smiley face above, firstly this would have become a very long list of statements and secondly, when drawing arcs, I would need to know every single starting point. For arcs of 90, 180 and 270 degrees, like the ones I used here, this wouldn't be to much of a problem, but for more complex ones this becomes way too difficult.
+[[File:Canvas arc.png|right|A canvas with a series of arcs and sections of filled circles]]The following example is a little more complex than the ones we've seen above. I've drawn 12 different arcs all with different angles and fills. If I would have written this example just like the smiley face above, firstly this would have become a very long list of statements and secondly, when drawing arcs, I would need to know every single starting point. For arcs of 90, 180 and 270 degrees, like the ones I used here, this wouldn't be to much of a problem, but for more complex ones this becomes way too difficult.
  
 The two <code>for</code> loops are for looping through the rows and columns of arcs. For every arc I start a new path using <code>beginPath</code>. Below this I've written out all the parameters as variables, so it's easier to read what's going on. Normally this would be just one statement. The <code>x</code> and <code>y</code> coordinates should be clear enough. <code>radius</code> and <code>startAngle</code> are fixed. The <code>endAngle</code> starts of as 180 degrees (first column) and is increased with steps of 90 degrees to form a complete circle (last column). The statement for the <code>clockwise</code> parameter results in the first and third row being drawn as clockwise arcs and the second and fourth row as counterclockwise arcs. Finally, the <code>if</code> statement makes the top half stroked arcs and the bottom half filled arcs.
- 
-[[View this example]]
  
 <pre>for(var i=0;i&lt;4;i++){
   for(var j=0;j&lt;3;j++){
@@ -167,7 +165,7 @@ The two <code>for</code> loops are for looping through the rows and columns of a
  
 === Bezier and quadratic curves ===
  
-The next type of paths available are [[Bézier curves]], available in the cubic and quadratic varieties. These are generally used to draw complex organic shapes.
+The next type of paths available are Bézier curves, available in the cubic and quadratic varieties. These are generally used to draw complex organic shapes.
   
 <code>'''quadraticCurveTo'''(cp1x, cp1y, x, y) // BROKEN in Firefox 1.5 (see work around below)</code><br> <code>'''bezierCurveTo'''(cp1x, cp1y, cp2x, cp2y, x, y)</code>
   
@@ -181,7 +179,7 @@ There's nothing very difficult in these examples. In both cases we see a success
  
 ==== quadraticCurveTo example ====
  
-[[Image:=Canvas_quadratic.png|=Canvas_quadratic.png]]
+[[File:Canvas quadratic.png|right|Quadratic curveTo example on a canvas]]
  
 <pre>// Quadratric curves example
 ctx.beginPath();
@@ -200,7 +198,7 @@ It is possible to convert any quadratic Bézier curve to a cubic Bézier curve b
 
 ==== bezierCurveTo example ====
  
-[[View this example]] [[Image:=Canvas_bezier.png|=Canvas_bezier.png]]
+[[File:Canvas bezier.png|right|Heart-shaped Bezier curve filled shape on a canvas]]
 
 <pre>// Bezier curves example
 ctx.beginPath();
@@ -284,8 +282,6 @@ In all examples on this page I've only used one type of path function per shape.
  
 I'm not going to run through this complete script, but the most important things to note are the function <code>roundedRect</code> and the use of the <code>fillStyle</code> property. It can be very useful and time saving to define your own functions to draw more complex shapes. In this script it would have taken me twice as many lines of code as I have now.<br>
 We will look at the <code>fillStyle</code> property in greater depth later in this tutorial. Here I'm using it to change the fill color from the default black, to white, and back again.
- 
-[[View this example]]
  
 <pre>function draw() {
   var ctx = document.getElementById('canvas').getContext('2d');
