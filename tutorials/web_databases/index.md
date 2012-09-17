@@ -37,7 +37,7 @@ html5rocks.webdb = {};
 == Asynchronous and Transactional ==
  
 In the majority of cases where you are using Web Database
-support you will be using the http://dev.w3.org/html5/webdatabase/#asynchronous-database-api Asynchronous API]. The Asynchronous API
+support you will be using the [http://dev.w3.org/html5/webdatabase/#asynchronous-database-api Asynchronous API]. The Asynchronous API
 is a non-blocking system and as such will not get data
 through return values, but rather will get data delivered to a defined
 callback function.
