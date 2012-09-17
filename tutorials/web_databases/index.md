@@ -74,7 +74,7 @@ html5rocks.webdb.onSuccess = function(tx, r) {
 == Step 2. Creating a table ==
  
 You can only create a table by executing a CREATE TABLE SQL statement
-inside a [[transaction]].
+inside a transaction.
 
 We have defined a function that will create a table in the body onload
 event. If the table doesn't already exist, a table will be created.
