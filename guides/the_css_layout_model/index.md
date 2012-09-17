@@ -366,7 +366,7 @@ The last of these items in turn includes the other five. However, for simplicity
  
 The basic rule is that the computed width or height of an element is equal to:
  
-<code>margin + border + padding + (width|height)</code>
+<code>margin + border + padding + (width{{!}}height)</code>
  
 In many cases the <code>width</code> and/or <code>height</code> will be set to its default value of <code>auto</code>, meaning that the canvas area put aside for content is equal to:
  
@@ -381,13 +381,264 @@ Consider the following style sheet rule:
   margin: 1.5em auto 1.5em auto;
   border: .1em;
   padding: .9em;
-}</pre>
+}
+</pre>
  
 As discussed during the explanation of margin properties above, one can expect <code>#myLayoutColumn</code> to center itself within its container element, whether that container is <code>body</code>, or something created by the production team.
  
 Furthermore, if the activation of “strict mode” (through the use of an appropriate <code>!DOCTYPE</code> declaration) causes the W3C box model to be used, one can also expect the computed ''non-marginal'' width to be:
  
 <code>.1em + .9em + 50em + .9em + .1em = 52em</code>
+ 
+In <code>screen</code> media the browser will then take this value, round all of the values separately to the nearest pixel, and render the result accordingly.
+ 
+==== Proportional margins and padding in the W3C box model ====
+ 
+When the W3C box model is in use, proportional margins and padding are computed relative to the computed <code>width</code> of the ''containing'' element. To give one example, if you specify <code>margin: 20%</code> for an element that’s contained within an element that is 800 pixels wide, the margin rendered around the first element will be 160 pixels on all sides (as 20% of 800 is 160).
+ 
+If that same element is assigned <code>padding: 5%</code>, its computed content width will be 400 pixels:
+ 
+<pre><code>20% + 5% + 5% + 20% = ''50%'' ''0.50'' × 800 = ''400''
+800 − ''400'' = ''400''</code>
+</pre>
+ 
+== Working with document flow ==
+ 
+Upcoming tutorials discuss the creation of multi-column layouts, so there are three CSS properties left to introduce in this article: <code>display</code>, <code>float</code>, and <code>clear</code>.
+ 
+=== Element types and the display property ===
+ 
+With the exception of <code>html</code>, <code>body</code>, and <code>table</code> parts, each element in the HTML 4.01 Recommendation that relates to primary content has an associated type of inline or block. Each type determines default layout behaviour in different ways:
+
+==== Inline ====  
+
+* Text and images that immediately follow and/or precede inline elements are rendered on a common baseline with the content of the inline element, unless they're so long that they would otherwise overlap the edge of the containing element, in which case the inline content will wrap onto a new baseline underneath the first one.
+* Lines of text within inline elements are laid out with soft linebreaks as needed (or allowed), except where this behaviour is modified by use of the <code>white-space</code> property.
+* <code>margin</code>, <code>width</code>, <code>height</code>, and <code>float</code> properties in style sheet rules applicable to these elements (except <code>img</code> and <code>object</code>) are ignored.
+* Inline elements can only contain text or other inline elements.
+
+==== Block ====  
+
+* These elements are rendered as discrete blocks within their containers.
+* Unless assigned a <code>float</code> value of <code>left</code> or <code>right</code>, will always be rendered with preceding and following linebreaks.
+* Linebreaks between nested block elements that don’t have any content between them will typically be collapsed.
+* block elements with a width of <code>auto</code> (the default) will always expand to fill the entire width available to them.
+   
+The <code>display</code> property has three commonly used values — <code>block</code>, <code>inline</code>, and <code>none</code> — of which two refer to the corresponding element types. The effect of changing an element’s <code>display</code> value is to cause an inline element to behave like a block element, to make a block element behave like an inline one, or to alter the rendering of the document as if the element (and all of its contents) did not exist at all.
+ 
+As a matter of course, it’s vital to know which elements correspond to which types by default, relationships laid out briefly in Table 2:
+                                                                                                                                                
+{{{!}} border="1"
+{{!}}-
+!Element
+!Type
+!Subtype
+!Notes
+{{!}}-
+!<code>a</code>
+{{!}}inline
+{{!}}special
+{{!}} 
+{{!}}-
+!<code>abbr</code>
+{{!}}inline
+{{!}}phrase
+{{!}} 
+{{!}}-
+!<code>acronym</code>
+{{!}}inline
+{{!}}phrase
+{{!}} 
+{{!}}-
+!<code>address</code>
+{{!}}block
+{{!}} 
+{{!}}Behaves similarly to <code>p</code> in common practice
+{{!}}-
+!<code>blockquote</code>
+{{!}}block
+{{!}} 
+{{!}}Must contain at least one block element when the declared <code>!DOCTYPE</code> is <code>Strict</code>
+{{!}}-
+!<code>body</code>
+{{!}} 
+{{!}} 
+{{!}}Encloses the entire document canvas; commonly takes on a margin (in IE, Firefox, and Safari) or padding (in Opera) of <code>10px</code> in <code>screen</code> media
+{{!}}-
+!<code>cite</code>
+{{!}}inline
+{{!}}phrase
+{{!}} 
+{{!}}-
+!<code>div</code>
+{{!}}block
+{{!}} 
+{{!}} 
+{{!}}-
+!<code>em</code>
+{{!}}inline
+{{!}}phrase
+{{!}} 
+{{!}}-
+!<code>fieldset</code>
+{{!}}block
+{{!}} 
+{{!}}Commonly rendered by default with <code>border: 1px black;</code>
+{{!}}-
+!<code>form</code>
+{{!}}block
+{{!}} 
+{{!}} 
+{{!}}-
+!<code>h1 … h6</code>
+{{!}}block
+{{!}}heading
+{{!}} 
+{{!}}-
+!<code>input</code>
+{{!}}inline
+{{!}}formctrl
+{{!}} 
+{{!}}-
+!<code>img</code>
+{{!}}inline
+{{!}}special
+{{!}} 
+{{!}}-
+!<code>label</code>
+{{!}}inline
+{{!}}formctrl
+{{!}} 
+{{!}}-
+!<code>li</code>
+{{!}}block
+{{!}} 
+{{!}}Element type not specified in Document Type Definition, but this element may contain either block or inline elements; the complete CSS 2.1 Recommendation sets aside a <code>display</code> value for list items
+{{!}}-
+!<code>ol</code>
+{{!}}block
+{{!}}list
+{{!}} 
+{{!}}-
+!<code>p</code>
+{{!}}block
+{{!}} 
+{{!}}May only contain inline elements; commonly rendered with top and bottom margins
+{{!}}-
+!<code>span</code>
+{{!}}inline
+{{!}}special
+{{!}} 
+{{!}}-
+!<code>strong</code>
+{{!}}inline
+{{!}}phrase
+{{!}} 
+{{!}}-
+!<code>table</code>
+|block
+{{!}} 
+{{!}} 
+{{!}}-
+!<code>ul</code>
+{{!}}block
+{{!}}list
+{{!}} 
+{{!}}} 
+
+Table 2: Frequently used HTML elements and their types. Only margins between two adjacent block elements of the same subtype will collapse.
+
+==== Demonstration 5 ====
+ 
+How about removing the “Prologue” annotation from the title, just for demonstration’s sake?
+ 
+===== Links: =====
+ 
+* [http://dev.opera.com/articles/view/30-the-css-layout-model-boxes-border/demo_rev5.html Remove the extraneous bit from the title]
+* [http://dev.opera.com/articles/view/30-the-css-layout-model-boxes-border/layout_05.css Demo 5 stylesheet]
+
+===== New rules: =====
+ 
+<pre>.sectionNote { display: none; }</pre>
+ 
+=== Causing elements to flow around others: the float property ===
+
+[[Image:box_baco.jpg|a cat with bacon taped to his back]] 
+
+A photo is positioned to the left of this paragraph. Practically all of you will see that the following copy flows naturally ''around'' it, though some might need first to cease wondering why a well-known science fiction novelist would tape bacon to his cat—even if he was having a slow day. HTML attributes can be used to specify the layout behaviour you see, but in this instance the results were accomplished with CSS.
+ 
+As one can imagine, the property/value pair that works this magic is <code>float: left;</code>. The finer points of working with floats will be addressed in later articles, but it’s necessary to touch on the basics here. <code>float: right</code> is also a perfectly serviceable property/value pair, and for those occasions when you need to contradict a <code>class</code> assignment that invokes <code>float</code>, you can specify <code>float: none</code>.
+ 
+The <code>float</code> property ''does'' come with a few use instructions:
+ 
+* A <code>float</code> value will only matter if it’s applied to a block element with an explicit <code>width</code>.
+* <code>float</code>, <code>clear</code>, and <code>margin</code> properties all appear ''together'' in style sheet rules meant to create columns within a layout.
+* Causing a floated element to stretch to the bottom of its container is a tricky matter, but not impossible. The common way to do this is referred to as [[faux-columns]].
+ 
+==== Demonstration 6 ====
+ 
+Placement of a <code>float</code> value on the pullquote has been talked about, so now it gets done and the results can be seen. While we're at it, let's add some background colour to help distinguish it from the main content.
+ 
+===== Links: =====
+ 
+* [http://dev.opera.com/articles/view/30-the-css-layout-model-boxes-border/demo_rev6.html Float the pullquote over at the right margin]
+* [http://dev.opera.com/articles/view/30-the-css-layout-model-boxes-border/layout_06.css Demo 6 stylesheet]
+
+===== New rules: =====
+ 
+<pre>.pullQuote { float: right;
+background-color: rgb(204,204,204); }
+</pre>
+ 
+=== Forcing elements below their floated predecessors: the clear property ===
+ 
+Like the <code>float</code> property, the <code>clear</code> property can be assigned one of the <code>left</code>, <code>right</code>, or <code>none</code> values. The <code>both</code> value is also supported.
+ 
+While the <code>float</code> property directs how the content of subsequent elements should flow around it, the <code>clear</code> property directs how an element should flow around all of its neighbours—in many practical cases, not at all.
+ 
+Figure 6 illustrates the behaviour of <code>clear: left;</code> in a layout where two initial consecutive elements have been assigned identical <code>height</code> values, and <code>float</code> values of <code>left</code> and <code>right</code>:
+ 
+[[Image:figure60.png|clear left allows the bottom box to clear both columns as they are the same height]]
+ 
+Figure 6: <code>clear:left </code> allows the bottom box to clear both columns, as they are the same height.
+
+In the preceding demonstration, the ''default'' flow of <code>#cLeftWidget</code> would place it just below the Latin text — that is, ''between'' <code>#fLeftWidget</code> and <code>#fRightWidget</code>.
+ 
+Consider what happens when the first of the same collection of elements is made shorter than its flush-right sibling, as seen in Figure 7.
+ 
+[[Image:figure70.png|When the right column is longer than the left column clear left will not clear both columns and so clear both must be used instead]]
+ 
+Figure 7: When the right column is longer than the left column, <code>clear:left </code> will not clear both columns and so <code>clear:both </code> must be used instead
+ 
+In the first example, the <code>clear</code> value of the trailing element is set to <code>left</code> in order to make a point: because both of the <code>float</code>ed elements are the same height, the <code>clear</code>ed element will be pushed below both. However, the second example proves that in order to achieve the same result with <code>float</code>ed elements of differing heights, <code>clear: both;</code> must be used.
+ 
+This discussion of the <code>clear</code> property is intended as a simple introduction to its effects, while later articles discuss the finer points of technique associated with its use.
+ 
+== Summary ==
+ 
+Between differences in rendering engines, the need to cover a wide swathe of traditionally defined ground, and the inability to predict the certain dimensions of a browser window, the layout of Web documents is fraught with hassles and caveats. However, the common level of CSS support has advanced to the point where Web documents are not hard to get to give decent results across browsers.
+|height)</code>
+ 
+In many cases the <code>width</code> and/or <code>height</code> will be set to its default value of <code>auto</code>, meaning that the canvas area put aside for content is equal to:
+ 
+<code>available_canvas − margin − padding − border</code>
+ 
+In such an equation, <code>available_canvas</code> is itself a discrete (if often auto-computed) value, less the amount of margins, borders and padding_ This number is most important for the ''width'' of elements, because width calculation errors on the part of a designer will have the undesirable result of causing a horizontal scrollbar to appear in the browser window_ Additionally, browsers always place elements at the left margin of the browser canvas that would otherwise overflow beyond the right margin of the browser window, unless instructed to do otherwise_
+ 
+Consider the following style sheet rule:
+ 
+<pre>#myLayoutColumn {
+  width: 50em;
+  margin: 1_5em auto 1_5em auto;
+  border: _1em;
+  padding: _9em;
+}</pre>
+ 
+As discussed during the explanation of margin properties above, one can expect <code>#myLayoutColumn</code> to center itself within its container element, whether that container is <code>body</code>, or something created by the production team_
+ 
+Furthermore, if the activation of “strict mode” (through the use of an appropriate <code>!DOCTYPE</code> declaration) causes the W3C box model to be used, one can also expect the computed ''non-marginal'' width to be:
+ 
+<code>_1em + _9em + 50em + _9em + _1em=52em</code>
  
 In <code>screen</code> media the browser will then take this value, round all of the values separately to the nearest pixel, and render the result accordingly.
  
@@ -612,7 +863,6 @@ Figure 7: When the right column is longer than the left column, <code>clear:left
 In the first example, the <code>clear</code> value of the trailing element is set to <code>left</code> in order to make a point: because both of the <code>float</code>ed elements are the same height, the <code>clear</code>ed element will be pushed below both. However, the second example proves that in order to achieve the same result with <code>float</code>ed elements of differing heights, <code>clear: both;</code> must be used.
  
 This discussion of the <code>clear</code> property is intended as a simple introduction to its effects, while later articles discuss the finer points of technique associated with its use.
-
 }}
 {{See_Also_Section
 |External_links=* Bergevin, Holly, and Gallant, John. 2006. [http://positioniseverything.net/explorer.html Explorer exposed]. Position Is Everything. (accessed 1 July 2008).
