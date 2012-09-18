@@ -1,5 +1,5 @@
 {{Flags}}
-{{Summary_Section}}
+{{Summary_Section|This article provides a guide to the fundamental styling options available for tables.}}
 {{Tutorial
 |Content=== Introduction ==
  
@@ -618,13 +618,9 @@ If you use a caption and set a margin on <code>table</code>, you need to be awar
 To combat this in Firefox, you can set the margin on three sides of <code>table</code>, set the <code>caption-side</code> explicitly, then add the fourth margin to the <code>caption</code>. Unfortunately, this solution will invoke the bug in Safari. So, this isn’t really a fix unless you are willing to live with the bug in either Firefox or Safari.
  
 The only way to avoid a problem in both Firefox ''and'' Safari is to set a zero margin on the side with the caption. For example, if your caption is at the top you could just set your margin on the right, bottom and left sides; or just the bottom. This may work if you set all of your margins on the same side of content elements, so the margin isn’t required to space the table from adjacent content.
- 
-== Summary ==
- 
-By now you should have a good grasp of the fundamental styling options available for tables. There are some limitations imposed by browser inconsistencies, but in general you should be able to create clear and readable tables without any trouble. Just pay attention to your borders, give the text some breathing room, and be careful with backgrounds.
 }}
 {{Compatibility_Section
-|Not_required=No
+|Not_required=Yes
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
