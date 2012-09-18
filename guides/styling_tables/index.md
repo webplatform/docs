@@ -25,31 +25,32 @@ You do not have to follow these style conventions, however, you should ensure th
  
 Consider the way this unstyled table is rendered (this is the same example you met in [http://www.w3.org/wiki/HTML_tables HTML tables]):
                                 
-{| border="1"
-|+Recent Major Volcanic Eruptions in the Pacific Northwest
-|-
+{{{!}} border="1"
+{{!}}+Recent Major Volcanic Eruptions in the Pacific Northwest
+{{!}}-
 !Volcano Name
 !Location
 !Last Major Eruption
 !Type of Eruption
-|-
-|Compiled in 2008 by Ms Jen
-|-
+{{!}}-
+{{!}}Compiled in 2008 by Ms Jen
+{{!}}-
 !Mt. Lassen
-|California
-|1914-17
-|Explosive Eruption
-|-
+{{!}}California
+{{!}}1914-17
+{{!}}Explosive Eruption
+{{!}}-
 !Mt. Hood
-|Oregon
-|1790s
-|Pyroclastic flows and Mudflows
-|-
+{{!}}Oregon
+{{!}}1790s
+{{!}}Pyroclastic flows and Mudflows
+{{!}}-
 !Mt. St. Helens
-|Washington
-|1980
-|Explosive Eruption
-|} 
+{{!}}Washington
+{{!}}1980
+{{!}}Explosive Eruption
+{{!}}} 
+
 The data is understandable, but it does takes some effort to work out what’s happening. Let’s add some style to make it easier to read.
 
 === Table and cell width ===
@@ -183,7 +184,7 @@ th, td {
   vertical-align: top; 
   border: 1px solid #000;
   border-collapse: collapse;
-  }</pre>
+}</pre>
  
 This will produce a table with a 1px border, like in Figure 6:
  
@@ -328,8 +329,7 @@ In your main stylesheet, set the normal style:
   border-collapse: separate;
   border-spacing: 5px;
   background: #000 url("gradient.gif") bottom left repeat-x;
-}
-</pre>
+}</pre>
  
 Then set your IE-only style in <code>ie-only.css</code>:
  
@@ -396,7 +396,7 @@ The simplest way to accomplish zebra stripes is to add a class to alternate tabl
 
 &lt;tr class="even"&gt;
 
-  ...</pre>
+...</pre>
  
 You can skip the heading row as it already has its own style. You then add a contextual class to set the background for all cells inside odd class rows:
 
@@ -514,7 +514,7 @@ To accomplish this for all current browsers, you need to add a class to the <cod
   &lt;th scope="col" class="last"&gt;Type of Eruption&lt;/th&gt;
 &lt;/tr&gt;
 
-  ...</pre>
+...</pre>
  
 Then we use that class to remove the right border from those cells. The full CSS is:
  
