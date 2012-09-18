@@ -151,17 +151,11 @@ I took a different approach to the loading of the images than the example above.
  
 == Art gallery example ==
  
-[[Image:=Canvas_art_gallery.jpg|=Canvas_art_gallery.jpg]]In the final example of this chapter I've made a little art gallery. The gallery consists of a table containing several images. When the page is loaded, for each image in the page a canvas element is inserted and a frame is drawn arround it.
-
+[[File:Canvas art gallery.jpg|right|A group of four canvas images, each in a frame, on a brown background]]In the final example of this chapter I've made a little art gallery. The gallery consists of a table containing several images. When the page is loaded, for each image in the page a canvas element is inserted and a frame is drawn arround it.
  
 In my case, all images have a fixed width and height, and so does the frame that's drawn around it. You could enhance the script so that it uses the image's width and height to make the frame fit perfectly around it.
-
  
 The code below should be self-explanatory. We loop through the images array and add new canvas elements accordingly. Probably the only thing to note, for those not so familar with the DOM, is the use of the [[insertBefore]] method. <code>insertBefore</code> is a method of the parent node (a table cell) of the element (the image) before which we want to insert our new node (the canvas element).
-
- 
-[[View this example]]
-
  
 <pre>function draw() {
 
@@ -194,16 +188,11 @@ The code below should be self-explanatory. We loop through the images array and 
  
 == Controlling image scaling behavior ==
   
-Introduced in Gecko 1.9.2
-
-  
-    (Firefox 3.6 / Thunderbird 3.1 / Fennec 1.0) 
+Introduced in Gecko 1.9.2 (Firefox 3.6 / Thunderbird 3.1 / Fennec 1.0) 
  
 Gecko 1.9.2 introduced the <code>mozImageSmoothingEnabled</code> property to the canvas element; if this Boolean value is <code>false</code>, images won't be smoothed when scaled. This property is <code>true</code> by default.
-
  
 <pre>ctx.mozImageSmoothingEnabled = false;
-
 </pre>
 }}
 {{Compatibility_Section
