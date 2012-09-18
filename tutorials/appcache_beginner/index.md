@@ -6,7 +6,7 @@
 |Content==A Beginner's Guide to Using the Application Cache=
 ==By Eric Bidelman==
 
-Published '''June 18, 2010''' Updated '''May 27, 2011''
+Published May 27, 2011
 
 ==Introduction==
 
@@ -218,7 +218,6 @@ The good news: you can avoid this double reload headache. To update users to the
 
 As you may expect, additional events are exposed to monitor the cache's state. The browser fires events for things like download progress, updating the app cache, and error conditions. The following snippet sets up event listeners for each type of cache event:
 
- 
  function handleCacheEvent(e) {
    //...
  }
@@ -258,24 +257,61 @@ If the manifest file or a resource specified in it fails to download, the entire
 ==References==
 
 * [http://www.whatwg.org/specs/web-apps/current-work/#applicationcache ApplicationCache] API specification
-
-
-==Supported browsers:==
-
-<span class="browsers"> <span class="browser opera supported"> <span class="browser_name">Opera</span> <span class="support"> supported </span> </span> <span class="browser ie "> <span class="browser_name">IE</span> <span class="support"> unsupported </span> </span> <span class="browser safari supported"> <span class="browser_name">Safari</span> <span class="support"> supported </span> </span> <span class="browser ff supported"> <span class="browser_name">Firefox</span> <span class="support"> supported </span> </span> <span class="browser chrome supported"> <span class="browser_name">Chrome</span> <span class="support"> supported </span> </span> </span><div class="compatible-block">
-
 }}
 {{Compatibility_Section
 |Not_required=No
-|Desktop_rows=
-|Mobile_rows=
+|Desktop_rows={{Compatibility Table Desktop Row
+|Chrome_supported=Yes
+|Chrome_version=20
+|Chrome_prefixed_supported=Unknown
+|Chrome_prefixed_version=
+|Firefox_supported=Yes
+|Firefox_version=12
+|Firefox_prefixed_supported=Unknown
+|Firefox_prefixed_version=
+|Internet_explorer_supported=Yes
+|Internet_explorer_version=10
+|Internet_explorer_prefixed_supported=Unknown
+|Internet_explorer_prefixed_version=
+|Opera_supported=Yes
+|Opera_version=12.0
+|Opera_prefixed_supported=Unknown
+|Opera_prefixed_version=
+|Safari_supported=Yes
+|Safari_version=5.1
+|Safari_prefixed_supported=Unknown
+|Safari_prefixed_version=
+}}
+|Mobile_rows={{Compatibility Table Mobile Row
+|Android_supported=Yes
+|Android_version=2.1
+|Android_prefixed_supported=Unknown
+|Android_prefixed_version=
+|Firefox_mobile_supported=Unknown
+|Firefox_mobile_version=
+|Firefox_mobile_prefixed_supported=Unknown
+|Firefox_mobile_prefixed_version=
+|IE_phone_supported=Unknown
+|IE_phone_version=
+|IE_phone_prefixed_supported=Unknown
+|IE_phone_prefixed_version=
+|Opera_mobile_supported=No
+|Opera_mobile_version=
+|Opera_mobile_prefixed_supported=Unknown
+|Opera_mobile_prefixed_version=
+|Safari_mobile_supported=Yes
+|Safari_mobile_version=3.2
+|Safari_mobile_prefixed_supported=Unknown
+|Safari_mobile_prefixed_version=
+}}
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics}}
+{{Topics|Appcache, Mobile}}
 {{External_Attribution
 |Is_CC-BY-SA=No
+|Sources=HTML5Rocks
 |MDN_link=
 |MSDN_link=
-|HTML5Rocks_link=
+|HTML5Rocks_link=http://www.html5rocks.com/en/tutorials/appcache/beginner/
 }}
