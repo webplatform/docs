@@ -1,7 +1,7 @@
 {{Flags}}
 {{Summary_Section|This chapter describes the predefined objects in core JavaScript: <code>Array</code>, <code>Boolean</code>, <code>Date</code>, <code>Function</code>, <code>Math</code>, <code>Number</code>, <code>RegExp</code>, and <code>String</code>.}}
-{{Guide|Content
-==Array Object==
+{{Guide
+|Content===Array Object==
 
 JavaScript does not have an explicit array data type. However, you can use the predefined <code>Array</code> object and its methods to work with arrays in your applications. The <code>Array</code> object has methods for manipulating arrays in various ways, such as joining, reversing, and sorting them. It has a property for determining the array length and other properties for use with regular expressions.
 
@@ -134,9 +134,8 @@ This avoids the overhead of checking the length of the array, and ensures that t
 
 {{Note|Introduced in JavaScript 1.6}}
 
-</div>
 
-The [/js/objects/Array/forEach|<code>forEach()</code>] method, introduced in JavaScript 1.6, provides another way of iterating over an array:
+The [[/js/objects/Array/forEach|<code>forEach()</code>]] method, introduced in JavaScript 1.6, provides another way of iterating over an array:
 
  var colors = ['red', 'green', 'blue'];
  colors.forEach(function(color) {
@@ -153,7 +152,7 @@ The <code>Array</code> object has the following methods:
 
 * [[/js/objects/Array/concat|<code>concat()</code>]] joins two arrays and returns a new array.  var myArray = new Array("1", "2", "3");
  myArray = myArray.concat("a", "b", "c"); // myArray is now ["1", "2", "3", "a", "b", "c"]
-* [/js/objects/Array/join|<code>join(deliminator = ",")</code>]] joins all elements of an array into a string.  var myArray = new Array("Wind", "Rain", "Fire");
+* [[/js/objects/Array/join|<code>join(deliminator = ",")</code>]] joins all elements of an array into a string.  var myArray = new Array("Wind", "Rain", "Fire");
  var list = myArray.join(" - "); // list is "Wind - Rain - Fire"
 * [[/js/objects/Array/push|<code>push()</code>]] adds one or more elements to the end of an array and returns the resulting length of the array.  var myArray = new Array("1", "2");
  myArray.push("3"); // MyArray is now ["1", "2", "3"]
@@ -354,7 +353,7 @@ The <code>Boolean</code> object is a wrapper around the primitive Boolean data t
 
  var booleanObjectName = new Boolean(value);
 
-Do not confuse the primitive Boolean values <code>true</code> and <code>false</code> with the true and false values of the <code>Boolean</code> object. Any object whose value is not <code>undefined</code> , <code>null</code>, <code>0</code>, <code>NaN</code>, or the empty string , including a <code>Boolean</code> object whose value is false, evaluates to true when passed to a conditional statement. See [guides/JavaScript/Statements#if...else_Statement|if...else Statement]] for more information.
+Do not confuse the primitive Boolean values <code>true</code> and <code>false</code> with the true and false values of the <code>Boolean</code> object. Any object whose value is not <code>undefined</code> , <code>null</code>, <code>0</code>, <code>NaN</code>, or the empty string , including a <code>Boolean</code> object whose value is false, evaluates to true when passed to a conditional statement. See [[guides/JavaScript/Statements#if...else_Statement|if...else Statement]] for more information.
 
 ==Date Object==
 
@@ -468,7 +467,7 @@ To create a <code>Function</code> object:
 
 <code>Function</code> objects are evaluated each time they are used. This is less efficient than declaring a function and calling it within your code, because declared functions are compiled.
 
-In addition to defining functions as described here, you can also use the [http://docs.webplatform.org/en-US/docs/JavaScript/Reference/Statements/function <code>function</code> statement] and the function expression. See the [[/js|JavaScript Reference]] for more information.
+In addition to defining functions as described here, you can also use the [[/js/statements/function|<code>function</code> statement]] and the function expression. See the [[/js|JavaScript Reference]] for more information.
 
 The following code assigns a function to the variable <code>setBGColor</code>. This function sets the current document's background color.
 
@@ -623,7 +622,7 @@ The Number prototype provides methods for retrieving information from Number obj
 
 ==RegExp Object==
 
-The <code>RegExp</code> object lets you work with regular expressions. It is described in [http://docs.webplatform.org/en-US/docs/JavaScript/Guide/Regular_Expressions Regular Expressions].
+The <code>RegExp</code> object lets you work with regular expressions. It is described in [[/guides/JavaScript/RegExp|Regular Expressions]].
 
 ==String Object==
 
@@ -667,7 +666,7 @@ The following table summarizes the methods of <code>String</code> objects.
 {{!}} <code>[[/js/objects/String/anchor|anchor]]</code>
 {{!}} Creates HTML named anchor.
 {{!}}-
-{{!}} <code>[[/js/objects/String/big|big]]</code>, <code>[[/js/objects/String/blink|blink]]</code>, <code>[[/js/objects/String/bold|bold]]</code>, <code>[http://docs.webplatform.org/en-US/docs/JavaScript/Reference/Global_Objects/String/fixed fixed]</code>, <code>[[/js/objects/String/italics|italics]]</code>, <code>[[/js/objects/String/small|small]]</code>, <code>[[/js/objects/String/strike|strike]]</code>, <code>[[/js/objects/String/sub|sub]]</code>, <code>[[/js/objects/String/sup|sup]]</code>
+{{!}} <code>[[/js/objects/String/big|big]]</code>, <code>[[/js/objects/String/blink|blink]]</code>, <code>[[/js/objects/String/bold|bold]]</code>, <code>[[/js/objects/String/fixed|fixed]]</code>, <code>[[/js/objects/String/italics|italics]]</code>, <code>[[/js/objects/String/small|small]]</code>, <code>[[/js/objects/String/strike|strike]]</code>, <code>[[/js/objects/String/sub|sub]]</code>, <code>[[/js/objects/String/sup|sup]]</code>
 {{!}} Create HTML formatted string.
 {{!}}-
 {{!}} <code>[[/js/objects/String/charAt|charAt]]</code>, <code>[[/js/objects/String/charCodeAt|charCodeAt]]</code>
@@ -676,7 +675,7 @@ The following table summarizes the methods of <code>String</code> objects.
 {{!}} <code>[[/js/objects/String/indexOf|indexOf]]</code>, <code>[[/js/objects/String/lastIndexOf|lastIndexOf]]</code>
 {{!}} Return the position of specified substring in the string or last position of specified substring, respectively.
 {{!}}-
-{{!}} <code>[[/objects/String/link|link]]</code>
+{{!}} <code>[[/js/objects/String/link|link]]</code>
 {{!}} Creates HTML hyperlink.
 {{!}}-
 {{!}} <code>[[/js/objects/String/concat|concat]]</code>
@@ -697,13 +696,13 @@ The following table summarizes the methods of <code>String</code> objects.
 {{!}} <code>[[/js/objects/String/match|match]]</code>, <code>[[/js/objects/String/replace|replace]]</code>, <code>[[/js/objects/String/search|search]]</code>
 {{!}} Work with regular expressions.
 {{!}}-
-{{!}} <code>[[/js/ojects/String/toLowerCase|toLowerCase]]</code>, <code>[[/js/objects/String/toUpperCase|toUpperCase]]</code>
+{{!}} <code>[[/js/objects/String/toLowerCase|toLowerCase]]</code>, <code>[[/js/objects/String/toUpperCase|toUpperCase]]</code>
 {{!}} Return the string in all lowercase or all uppercase, respectively.
 {{!}}}
 
 <div>
 
-<span style="float: left">[[/guides/JavaScript/Working_with_Objects |&laquo; Previous]]</span>[[/guides/JavaScript/Details_of_the_Object_Model|Next &raquo;]
+<span style="float: left">[[/guides/JavaScript/Working_with_Objects |&laquo; Previous]]</span>[[/guides/JavaScript/Details_of_the_Object_Model|Next &raquo;]]
 
 </div>
 }}
