@@ -69,10 +69,6 @@ Where <code>image</code> is a reference to our image or canvas object. <code>x</
  
 [[File:Canvas backdrop.png|right|basic graph drawn on a canvas]]In the following example I will be using an external image as the backdrop of a small line graph. Using backdrops can make your script considerably smaller because we don't need to draw an elaborate background. I'm only using one image here so I use the image object's <code>onload</code> event handler to execute the drawing statements. The <code>drawImage</code> method places the backdrop on the coordinate (0,0) which is the top left corner of the canvas.
 
- 
-[[View this example]]
-
- 
 <pre>  function draw() {
     var ctx = document.getElementById('canvas').getContext('2d');
     var img = new Image();
@@ -93,24 +89,18 @@ Where <code>image</code> is a reference to our image or canvas object. <code>x</
 == Scaling ==
  
 The second variant of the <code>drawImage</code> method adds two new parameters and it allows us to place scaled images on the canvas.
-
   
 <code>'''drawImage'''(image, x, y, width, height)</code>
-
   
 Where <code>width</code> and <code>height</code> is the image's size on the target canvas.
-
  
 ==== drawImage example 2 ====
  
-[[Image:=Canvas_scale_image.png|=Canvas_scale_image.png]] In this example I'm going to use an image as a wallpaper and repeat it several times on the canvas. This is done simply by looping and placing the scaled images at different positions. In the code below the first <code>for</code> loops through the rows the second <code>for</code> loop the columns. The image is scaled one third of its original size which is 50x38 pixels. We'll see how this could also have been achieved, by creating a custom pattern, later in this tutorial.
-
+[[File:Canvas rhino.jpg|right|An image of a rhino wading in water]]
+[[File:Canvas scale image.png|right|Wallpaper made from an image of a rhino]]
+In this example I'm going to use an image as a wallpaper and repeat it several times on the canvas. This is done simply by looping and placing the scaled images at different positions. In the code below the first <code>for</code> loops through the rows the second <code>for</code> loop the columns. The image is scaled one third of its original size which is 50x38 pixels. We'll see how this could also have been achieved, by creating a custom pattern, later in this tutorial.
  
-'''Note''': Images can become blurry when scaling up or grainy if they're scaled down too much. Scaling is probably best not done if you've got some text in it which needs to remain legible.
-
- 
-[[View this example]] [[Image:=Canvas_rhino.jpg|Source image]]
-
+{{Note|Images can become blurry when scaling up or grainy if they're scaled down too much. Scaling is probably best not done if you've got some text in it which needs to remain legible.}}
  
 <pre>  function draw() {
     var ctx = document.getElementById('canvas').getContext('2d');
