@@ -120,27 +120,20 @@ In this example I'm going to use an image as a wallpaper and repeat it several t
 == Slicing ==
  
 The third and last variant of the <code>drawImage</code> method has eight new parameters. We can use this method to slice parts of a source image and draw them to the canvas.
-
   
 <code>'''drawImage'''(image, sx, sy, sWidth, sHeight, dx, dy, dWidth, dHeight)</code>
-
   
-[[Image:=Canvas_drawimage.jpg|=Canvas_drawimage.jpg]]The first parameter <code>image</code>, just as with the other variants, is either a reference to an image object or a reference to a different canvas element. For the other eight parameters it's best to look at the image on the right. The first four parameters define the location and size of the slice on the source image. The last four parameters define the position and size on the destination canvas.
-
+[[File:Canvas drawimage.jpg|right|Using drawImage to slice parts of an image]]The first parameter <code>image</code>, just as with the other variants, is either a reference to an image object or a reference to a different canvas element. For the other eight parameters it's best to look at the image on the right. The first four parameters define the location and size of the slice on the source image. The last four parameters define the position and size on the destination canvas.
  
 Slicing can be a useful tool when you want to make compositions. You could have all elements in a single image file and use this method to composite a complete drawing. For instance, if you want to make a chart you could have a PNG image containing all the necessary text in a single file and depending on your data could change the scale of your chart without very much diffculty. Another advantage is that you don't need to load every image individually.
-
  
 ==== drawImage example 3 ====
  
-[[Image:=Canvas_drawimage2.jpg|=Canvas_drawimage2.jpg]]In this example I'm going to use the same rhino as we've seen above, but now I'm going to slice its head out and composite it into a picture frame. The image of the picture frame includes a dropshadow which has been saved as a 24-bit PNG image. Because 24-bit PNG images include a full 8-bit alpha channel, unlike GIF and 8-bit PNG images, I can place it onto any background and don't have to worry about a matte color.
-
+[[File:Canvas drawimage2.jpg|right|Cropped image of a rhino in a gilt frame]]In this example I'm going to use the same rhino as we've seen above, but now I'm going to slice its head out and composite it into a picture frame. The image of the picture frame includes a dropshadow which has been saved as a 24-bit PNG image. Because 24-bit PNG images include a full 8-bit alpha channel, unlike GIF and 8-bit PNG images, I can place it onto any background and don't have to worry about a matte color.
  
 I took a different approach to the loading of the images than the example above. I just placed the images directly in my HTML document and used a CSS rule to hide them from view (<code>display:none</code>). I assigned both images an <code>id</code> attribute to make them easier to select. The script itself is very simple. I first draw the sliced and scaled image on the canvas (first <code>drawImage</code> statement), and then place the frame on top (second <code>drawImage</code> statement).
-
  
-[[View this example]] [[Image:=Canvas_picture_frame.png|Source image]]
-
+[[File:Canvas picture frame.png|right|An empty gilt picture frame]]
  
 <pre>function draw() {
   var canvas = document.getElementById('canvas');
