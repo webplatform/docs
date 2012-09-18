@@ -579,7 +579,7 @@ a:active {
  
 This should produce something like Figure 27:
  
-[[Image:lvfha-bo.gif|Example rendering of the styles set above]]
+[[Image:Lvfha-bo.gif|Example rendering of the styles set above]]
  
 Figure 27: The faux-underline in action.
  
@@ -627,13 +627,13 @@ a:active {
  
 This should produce something like Figure 28:
  
-[[Image:lvfha-mu.gif|Example rendering showing how the borders differentiate the different link states]]
+[[Image:Lvfha-mu.gif|Example rendering showing how the borders differentiate the different link states]]
  
 Figure 28: Changing the border style for each link state.
  
 Accepting focus and hover as equivalent styled states, this method means the link states are distinguished with more than colour. Even if you were to view these links in black and white, you could identify the different link states, as shown in Figure 29:
  
-[[Image:lvfha-mv.gif|The same example all in black, to emphasise the border differences]]
+[[Image:Lvfha-mv.gif|The same example all in black, to emphasise the border differences]]
  
 Figure 29: The link states are now distinguishable even in black and white.
  
@@ -643,7 +643,7 @@ Some sites use icons and symbols to add information about their links. For examp
  
 These effects are simple to achieve with background images, as shown in Figure 30:
  
-[[Image:links-wi.gif|Example rendering of links with icons]]
+[[Image:Links-wi.gif|Example rendering of links with icons]]
  
 Figure 30: An example of links with distinguishing icons.
  
@@ -671,7 +671,7 @@ Combining classes and states opens up a wide range of creative possibilities for
  
 To illustrate one way to bring lists and links together, the examples zip includes a [[simple flyout navigation menu]], as seen in Figure 31. Flyout menus are a very common navigation system.
  
-[[Image:flyout-l.gif|Screenshot of the flyout list example.]]
+[[Image:Flyout-l.gif|Screenshot of the flyout list example.]]
  
 Figure 31: Screenshot of the example flyout menu.
 }}
@@ -698,7 +698,4 @@ Figure 31: Screenshot of the example flyout menu.
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
