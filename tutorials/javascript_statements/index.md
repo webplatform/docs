@@ -1,13 +1,12 @@
 {{Flags}}
 {{Summary_Section|JavaScript supports a compact set of statements that you can use to incorporate a great deal of interactivity in Web pages. This chapter provides an overview of these statements.}}
 {{Guide
-|Content=<p>Any expression is also a statement. See <a href="/en-US/docs/JavaScript/Guide/Expressions_and_Operators" title="en-US/docs/JavaScript/Guide/Expressions and Operators">Expressions and Operators</a> for complete information about statements.</p>
+|Content=<p>Any expression is also a statement. See [[/guides/js/Expressions|Expressions and Operators]] for complete information about statements.</p>
 <p>Use the semicolon (<code>;</code>) character to separate statements in JavaScript code.</p>
-<p>See the <a href="/en-US/docs/JavaScript/Reference/Statements" title="en-US/docs/JavaScript/Reference/Statements">JavaScript Reference</a> for details about the statements in this chapter.</p>
+<p>See the [[/js/statements|JavaScript Reference]] for details about the statements in this chapter.</p>
 <h2 id="Block_Statement">Block Statement</h2>
 <p>A block statement is used to group statements. The block is delimited by a pair of curly brackets:</p>
-<div style="margin-right:270px;">
-  <pre class="brush: js">
+  <pre >
 {
    statement_1;
    statement_2;
@@ -17,19 +16,19 @@
    statement_n;
 }
 </pre>
-</div>
+
 <p><strong>Example</strong><br />
   Block statements are commonly used with control flow statements (e.g. <code>if</code>, <code>for</code>, <code>while</code>).</p>
-<div style="margin-right:270px;">
-  <pre class="brush: js">
+  <pre >
 while (x &lt; 10){
   x++;
 }
 </pre>
-</div>
+
+
 <p>Here, <code>{ x++; }</code> is the block statement.</p>
 <p><strong>Important</strong>: JavaScript does <strong>not</strong> have block scope. Variables introduced with a block are scoped to the containing function or script, and the effects of setting them persist beyond the block itself. In other words, block statements do not introduce a scope. Although "standalone" blocks are valid syntax, you do not want to use standalone blocks in JavaScript, because they don't do what you think they do, if you think they do anything like such blocks in C or Java. For example:</p>
-<pre class="brush: js">
+<pre >
 var x = 1;
 {
   var x = 2;
@@ -41,7 +40,7 @@ alert(x); // outputs 2
 <p>A conditional statement is a set of commands that executes if a specified condition is true. JavaScript supports two conditional statements: <code>if...else</code> and <code>switch</code>.</p>
 <h3 id="if...else_Statement">if...else Statement</h3>
 <p>Use the <code>if</code> statement to execute a statement if a logical condition is true. Use the optional <code>else</code> clause to execute a statement if the condition is false. An <code>if</code> statement looks as follows:</p>
-<pre class="brush: js">
+<pre >
 if (condition)
   statement_1
 [else
@@ -49,7 +48,7 @@ if (condition)
 </pre>
 <p><code>condition</code> can be any expression that evaluates to true or false. If <code>condition</code> evaluates to true, <code>statement_1</code> is executed; otherwise, <code>statement_2</code> is executed. <code>statement_1</code> and <code>statement_2</code> can be any statement, including further nested <code>if</code> statements.</p>
 <p>You may also compound the statements using <code>else if</code> to have multiple conditions tested in sequence, as follows:</p>
-<pre class="brush: js">
+<pre >
 if (condition)
   statement_1
 [else if (condition_2)
@@ -61,7 +60,7 @@ if (condition)
   statement_n]
 </pre>
 <p>To execute multiple statements, use a block statement (<code>{ ... }</code>) to group those statements. In general, it is a good practice to always use block statements, especially in code involving nested <code>if</code> statements:</p>
-<pre class="brush: js">
+<pre >
 if (condition) {
   statements_1
 } else {
@@ -69,13 +68,13 @@ if (condition) {
 }
 </pre>
 <p>It is advisable to not use simple assignments in a conditional expression, because the assignment can be confused with equality when glancing over the code. For example, do not use the following code:</p>
-<pre class="brush: js">
+<pre >
 if (x = y) {
   /* do the right thing */
 }
 </pre>
 <p>If you need to use an assignment in a conditional expression, a common practice is to put additional parentheses around the assignment. For example:</p>
-<pre class="brush: js">
+<pre >
 if ((x = y)) {
   /* do the right thing */
 }
@@ -91,13 +90,13 @@ if ((x = y)) {
 </ul>
 <p>All other values, including all objects evaluate to true when passes to a conditional statement.</p>
 <p>Do not confuse the primitive boolean values <code>true</code> and <code>false</code> with the true and false values of the Boolean object. For example:</p>
-<pre class="brush: js">
+<pre >
 var b = new Boolean(false);
 if (b) // this condition evaluates to true
 </pre>
 <p><strong>Example</strong><br />
   In the following example, the function <code>checkData</code> returns true if the number of characters in a <code>Text</code> object is three; otherwise, it displays an alert and returns false.</p>
-<pre class="brush: js">
+<pre >
 function checkData() {
   if (document.form1.threeChar.value.length == 3) {
     return true;
@@ -110,7 +109,7 @@ function checkData() {
 </pre>
 <h3 id="switch_Statement">switch Statement</h3>
 <p>A <code>switch</code> statement allows a program to evaluate an expression and attempt to match the expression's value to a case label. If a match is found, the program executes the associated statement. A <code>switch</code> statement looks as follows:</p>
-<pre class="brush: js">
+<pre >
 switch (expression) {
    case label_1:
       statements_1
@@ -128,7 +127,7 @@ switch (expression) {
 <p>The optional <code>break</code> statement associated with each <code>case</code> clause ensures that the program breaks out of <code>switch</code> once the matched statement is executed and continues execution at the statement following switch. If <code>break</code> is omitted, the program continues execution at the next statement in the <code>switch</code> statement.</p>
 <p><strong>Example</strong><br />
   In the following example, if <code>fruittype</code> evaluates to "Bananas", the program matches the value with case "Bananas" and executes the associated statement. When <code>break</code> is encountered, the program terminates <code>switch</code> and executes the statement following <code>switch</code>. If <code>break</code> were omitted, the statement for case "Cherries" would also be executed.</p>
-<pre class="brush: js">
+<pre >
 switch (fruittype) {
    case "Oranges":
       document.write("Oranges are $0.59 a pound.&lt;br&gt;");
@@ -155,16 +154,16 @@ document.write("Is there anything else you'd like?&lt;br&gt;");</pre>
 <p>Another statement, <code>for...in</code>, executes statements repeatedly but is used for object manipulation. See {{ linkToFragment("Object Manipulation Statements") }}.</p>
 <p>The loop statements are:</p>
 <ul>
-  <li>{{ linkToFragment("for Statement") }}</li>
-  <li>{{ linkToFragment("do...while Statement") }}</li>
-  <li>{{ linkToFragment("while Statement") }}</li>
-  <li>{{ linkToFragment("label Statement") }}</li>
-  <li>{{ linkToFragment("break Statement") }}</li>
-  <li>{{ linkToFragment("continue Statement") }}</li>
+  <li>[[#for_Statement|for Statement]]</li>
+  <li>[[#do...while_Statement|do...while Statement]]</li>
+  <li>[[#while_Statement|while Statement]]</li>
+  <li>[[#label_Statement|label Statement]]</li>
+  <li>[[#break_Statement|break Statement]]</li>
+  <li>[[#continue_Statement|continue Statement]]</li>
 </ul>
 <h3 id="for_Statement">for Statement</h3>
 <p>A <code>for</code> loop repeats until a specified condition evaluates to false. The JavaScript for loop is similar to the Java and C <code>for</code> loop. A <code>for</code> statement looks as follows:</p>
-<pre class="brush: js">
+<pre >
 for ([initialExpression]; [condition]; [incrementExpression])
    statement
 </pre>
@@ -177,7 +176,7 @@ for ([initialExpression]; [condition]; [incrementExpression])
 </ol>
 <p><strong>Example</strong><br />
   The following function contains a <code>for</code> statement that counts the number of selected options in a scrolling list (a <code>Select</code> object that allows multiple selections). The <code>for</code> statement declares the variable <code>i</code> and initializes it to zero. It checks that <code>i</code> is less than the number of options in the <code>Select</code> object, performs the succeeding <code>if</code> statement, and increments <code>i</code> by one after each pass through the loop.</p>
-<pre class="brush: html">
+<pre >
 &lt;script type="text/javascript"&gt;
 
 function howMany(selectObject) {
@@ -210,7 +209,7 @@ function howMany(selectObject) {
 &lt;/form&gt;</pre>
 <h3 id="do...while_Statement">do...while Statement</h3>
 <p>The <code>do...while</code> statement repeats until a specified condition evaluates to false. A <code>do...while</code> statement looks as follows:</p>
-<pre class="brush: js">
+<pre >
 do
    statement
 while (condition);
@@ -404,8 +403,8 @@ you can put whatever you want here. */</pre>
 <p>You can throw exceptions using the <code>throw</code> statement and handle them using the <code>try...catch</code> statements.</p>
 <p>You can also use the <code>try...catch</code> statement to handle Java exceptions (though there is a {{ bug("391642") }} with this). See <a href="/en-US/docs/JavaScript/Guide/LiveConnect_Overview#Handling_Java_Exceptions_in_JavaScript" title="en-US/docs/JavaScript/Guide/LiveConnect Overview#Handling Java Exceptions in JavaScript">Handling Java Exceptions in JavaScript</a> and <a href="/en-US/docs/JavaScript/Guide/LiveConnect_Overview#JavaScript_to_Java_Communication" title="en-US/docs/JavaScript/Guide/LiveConnect Overview#JavaScript to Java Communication">JavaScript to Java Communication</a> for information.</p>
 <ul>
-  <li>{{ linkToFragment("throw Statement") }}</li>
-  <li>{{ linkToFragment("try...catch Statement") }}</li>
+  <li>[[#throw_Statement|throw Statement]]</li>
+  <li>[[#try...catch_Statement|try...catch Statement]]</li>
 </ul>
 <h3 id="Exception_Types">Exception Types</h3>
 <p>Just about any object can be thrown in JavaScript. Nevertheless, not all thrown objects are created equal. While it is fairly common to throw numbers or strings as errors it is frequently more effective to use one of the exception types specifically created for this purpose:</p>
