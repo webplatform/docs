@@ -14,20 +14,18 @@ Let's look at step one first. There are basically four options available:
  
 ==== Using images which are on the same page ====
  
-We can access all images on a page by using either the <code>document.images</code> collection, the <code>document.getElementsByTagName</code> method, or if we know the ID attribute of the image, the <code>document.getElementById</code> method.
+We can access all images on a page by using either the <code>[[document.images]]</code> collection, the <code>[[document.getElementsByTagName]]</code> method, or if we know the ID attribute of the image, the <code>[[document.getElementById]]</code> method.
  
 ==== Using images from other domains ====
  
-Using the <code>crossOrigin</code> attribute on an <code>Image</code>, you can request permission to load an image from another domain for use in your call to <code>drawImage()</code>. If the hosting domain permits cross-domain access to the image, the image can be used in your canvas without tainting it; otherwise using the image will taint the canvas.
+Using the <code>[[crossOrigin]]</code> attribute on an <code>[[Image]]</code>, you can request permission to load an image from another domain for use in your call to <code>drawImage()</code>. If the hosting domain permits cross-domain access to the image, the image can be used in your canvas without tainting it; otherwise using the image will taint the canvas.
 {{Note| Need description for "taint the canvas"}}
  
 ==== Using other canvas elements ====
  
 Just as with normal images we access other canvas elements using either the <code>[[document.getElementsByTagName]]</code> method or the <code>[[document.getElementById]]</code> method. Make sure you've drawn something to the source canvas before using it in your target canvas.
-
  
 One of the more practical uses of this would be to use a second canvas element as a thumbnail view of the other larger canvas.
-
  
 ==== Creating an image from scratch ====
  
@@ -35,7 +33,6 @@ Another option is to create new <code>Image</code> objects in our script.
 
  
 Basically to create a new image object we do this:
-
  
 <pre>var img = new Image();   // Create new img element
 img.src = 'myImage.png'; // Set source path
@@ -43,7 +40,6 @@ img.src = 'myImage.png'; // Set source path
 </pre>
  
 When this script gets executed, the image starts loading. Trying to call <code>drawImage</code> before the image has finished loading will throw in Gecko 1.9.2 and earlier, and silently do nothing in Gecko 2.0 and later.  So you must use an <code>onload</code> event handler:
-
  
 <pre>var img = new Image();   // Create new img element
 img.onload = function(){
@@ -53,8 +49,7 @@ img.src = 'myImage.png'; // Set source path
 
 </pre>
  
-If you're only using one external image this can be a good approach but once you need to track more than one we need to resort to something more cunning. It's beyond the scope of this tutorial to look at image preloading tactics but you can check out [[JavaScript Image Preloader]] for a complete solution.
-
+If you're only using one external image this can be a good approach but once you need to track more than one we need to resort to something more cunning. It's beyond the scope of this tutorial to look at image preloading tactics but you can check out [http://www.webreference.com/programming/javascript/gr/column3/index.html JavaScript Image Preloader] for a complete solution.
  
 ==== Embedding an image via data: url ====
  
