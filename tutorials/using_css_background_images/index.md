@@ -21,36 +21,36 @@ First, let’s learn a little more about the different properties at our disposa
  
 === Background Properties ===
                                      
-{| border="1"
-|-
+{{{!}} border="1"
+{{!}}-
 !Property
 !Definition
 !Description
-|-
-|<code>background-color</code>
-|Sets the background colour of the HTML element.
-|
+{{!}}-
+{{!}}<code>background-color</code>
+{{!}}Sets the background colour of the HTML element.
+{{!}}
 There are several ways to indicate <code>background-color</code>, including RGB values and keywords. Most people use hexadecimal notation, a pound/hash symbol (#) followed by six characters. The first pair indicates the red levels, and the second and third indicate the green and blue levels respectively—<code>#RRGGBB</code>.
  
 Many colour picker tools will help you find the hexadecimal notation of a given colour. Pure red, for example would be #FF0000.
  
 [[Image:color_pi.jpg|Photoshop colour picker will give you the hex value of your colour]]
  
-Valid values include a <code>color</code> value, <code>transparent</code>, or <code>inherit</code>.
+Valid values include a <code>colour</code> value, <code>transparent</code>, or <code>inherit</code>.
 
-|-
-|<code>image</code>
-|Indicates the path'' or URL '' of the background image.
-|
+{{!}}-
+{{!}}<code>image</code>
+{{!}}Indicates the path'' or URL '' of the background image.
+{{!}}
 
 Set the <code>background-image</code> by showing the browser where to find the image, using the URL. For example; <code>url(alert.png)</code>. Note that the path is prefaced with they keyword <code>url</code> and wrapped in parenthesis. This syntax is important to the browser understanding that you mean to indicate a location.
  
 Valid values include a <code>URL</code>, <code>none</code>, or <code>inherit</code>.
 
-|-
-|<code>repeat</code>
-|Indicates in which direction the background image should be tiled.
-|
+{{!}}-
+{{!}}<code>repeat</code>
+{{!}}Indicates in which direction the background image should be tiled.
+{{!}}
 
 
 Images can be tiled vertically, horizontally, or both, to fill the entire width or height of an HTML element. Use <code>background-repeat</code> to instruct the browser to repeat a background image.
@@ -58,16 +58,16 @@ Images can be tiled vertically, horizontally, or both, to fill the entire width 
 Valid values include <code>repeat</code>, <code>repeat-x</code>, <code>repeat-y</code>, and <code>no-repeat</code>.
 
 
-|-
-|<code>attachment</code>
-|Sets the behaviour of the background image when the user scrolls.
-|
+{{!}}-
+{{!}}<code>attachment</code>
+{{!}}Sets the behaviour of the background image when the user scrolls.
+{{!}}
 Images can either scroll with their content, or stay fixed in place in the view screen. Valid values include <code>scroll</code>, <code>fixed</code>, and <code>inherit</code>.
  
-|-
-|<code>position</code>
-|Tells the browser where to position the background image.
-|
+{{!}}-
+{{!}}<code>position</code>
+{{!}}Tells the browser where to position the background image.
+{{!}}
 Images can be displayed anywhere within the borders of the HTML element on which they are applied. Use <code>background-position</code> to precisely place your images for visual effect and layering.
  
 There are many useful ways to indicate background position, keywords and numeric values. Keywords (such as <code>top</code> and <code>bottom</code>) are very useful and easy to read. Pixel values are very precise, but don’t adapt to changing heights and widths. Negative pixel values are useful when using CSS sprites, as you’ll find out later.
@@ -76,10 +76,10 @@ When percentages and pixels are used, the starting point is always the top left 
  
 Valid values include <code>length</code> (generally in pixels), <code>percentage</code> (of the width of the element), and the keywords <code>top</code>, <code>right</code>, <code>bottom</code>, <code>left</code>, and <code>center</code>. Note that center can be used to indicate both vertical and horizontal center. Note also that you can mix percentages and pixels in rules, but not keywords and pixels or keywords and percentages.
 
-|-
-|<code>background</code>
-|The shorthand property that can be used to describe all the other properties in one line.
-|
+{{!}}-
+{{!}}<code>background</code>
+{{!}}The shorthand property that can be used to describe all the other properties in one line.
+{{!}}
 Shorthand properties are very nifty indeed. Most developers use them to keep the CSS as lean as possible and group related properties. You can write a general rule using shorthand, and then override it as needed with specific properties.
  
 The properties should always be indicated in the same order, to allow browsers to easily interpret the intended styles:
@@ -95,7 +95,8 @@ An example of this shorthand with all the properties used (except <code>attachme
  
 <code>background: green url(logo.gif) no-repeat left top;</code>
 
-|} 
+{{!}}} 
+
 == Building an Alert message ==
  
 Now I’ve gone through the basic syntax involved, I’ll walk you through building up a complete alert box example, which will demonstrate all the aspects of background images.
@@ -128,15 +129,14 @@ First you need to create a class <code>alert</code>, for the CSS to hook on to. 
  
 The CSS:
  
- .alert { ... } 
+<pre>.alert { ... } </pre>
 
  
 The HTML:
  
-<pre><p class="alert">
+<pre>&lt;p class="alert"&gt;
   &lt;strong&gt;Alert!&lt;/strong&gt; The text of our alert message goes here.
-</p> </pre>
-
+&lt;/p&gt;</pre>
  
 Here I am styling the alert with a <code>class</code>, rather than an <code>id</code>, because I could have ''more than one alert'' in the page, for example a form element with several errors. You want to make your CSS as flexible as possible and constrain things to correspond to the design when building the HTML.
  
@@ -150,8 +150,7 @@ You already learned about using background colour in text treatments in [http://
  
 Let’s add the light orange background colour to the alert box to make it stand out from the text around it. You don’t want it to be too dark because it is important that you keep a reasonable level of [http://www.w3.org/TR/2006/WD-WCAG20-20060427/guidelines.html#visual-audio-contrast contrast between the text and the background colour]. Add the following property inside your CSS rule
  
-<pre>.alert{'''background-color: #FFFFCC;'''}
-</pre>
+<pre>.alert{'''background-color: #FFFFCC;'''}</pre>
  
 The Alert box should now look more like Figure 3.
  
@@ -166,8 +165,7 @@ Now let’s add the image to the alert. The path to the background image needs t
 <pre>.alert{
   background-color: #FFFFCC;
   '''background-image: url(alert.png);'''
-}
-</pre>
+}</pre>
  
 The alert box will now look like Figure 4.
  
@@ -191,8 +189,7 @@ Found it? Note that there is a section for each background property including [h
   background-color: #FFFFCC;
   background-image: url(alert.png);
   '''background-repeat: no-repeat;'''
-}
-</pre>
+}</pre>
  
 The alert box will now look like Figure 6.
  
@@ -214,8 +211,7 @@ Figure 8: A repeating example from my own web site.
 
 The CSS I used to add this decorative effect is relatively simple. I made the background repeat horizontally using <code>repeat-x</code>:
  
-<pre>body{background-repeat: '''repeat-x'''}
-</pre>
+<pre>body{background-repeat: '''repeat-x''';}</pre>
 
 ==== Attachment ====
  
@@ -230,8 +226,7 @@ This step will have no effect on our display, because browsers set background im
   background-image: url(alert.png);
   background-repeat: no-repeat;
   '''background-attachment: scroll;'''
-}
-</pre>
+}</pre>
  
 As shown in Figure 9, the visual display of the alert box is not much different to how it was before.
 
@@ -257,8 +252,7 @@ So let’s position the background image. You want it to be in the top left corn
   background-repeat: no-repeat;
   background-attachment: scroll;
   '''background-position: 10px 10px;'''
-}
-</pre>
+}</pre>
  
 The first value is the horizontal offset, the second is the vertical. In this case they are the same. Your alert box should now look like Figure 11.
  
@@ -272,8 +266,7 @@ Tip: Stick to either keywords or number values—older browsers may ignore your 
  
 As you have already seen, certain CSS properties can be grouped together. Background and all of its sub properties are among them. The CSS code we’ve written so far can be rewritten in shortened form, as follows:
  
-<pre>.alert{'''background: #FFFFCC url(alert.png) no-repeat scroll 10px 10px''';}
-</pre>
+<pre>.alert{'''background: #FFFFCC url(alert.png) no-repeat scroll 10px 10px''';}</pre>
  
 Tip: When grouping sub properties of <code>background</code>, always put the properties in the following order—this is important for both cross browser compatibility and stylesheet organisation and maintenance:
  
@@ -357,8 +350,7 @@ The HTML for the list is an unordered list containing links. Note the empty <cod
   &lt;li id="links"&gt;
     &lt;a href="#"&gt;&lt;span&gt;&lt;/span&gt;Links&lt;/a&gt;
   &lt;/li&gt;
-&lt;/ul&gt;
-</pre>
+&lt;/ul&gt;</pre>
  
 The CSS makes use of both background images. First, take a look at the gradient background image. There are three interesting things to note about it:
  
