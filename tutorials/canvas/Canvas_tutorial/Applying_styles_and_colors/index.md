@@ -1,5 +1,6 @@
 {{Flags
 |High-level issues=Needs Flags
+|Content=Not Neutral
 }}
 {{Summary_Section}}
 {{Tutorial
@@ -152,18 +153,12 @@ I could describe these in detail, but it will probably be made clearer by just l
  
 ==== A lineWidth example ====
  
-[[Image:=Canvas_linewidth.png|=Canvas_linewidth.png]]This property sets the current line thickness. Values must be positive numbers. By default this value is set to 1.0 units.
-
+[[File:Canvas linewidth.png|right|A canvas with vertical lines of varied thickness, thinner at left and thicker at right.]]This property sets the current line thickness. Values must be positive numbers. By default this value is set to 1.0 units.
  
 The line width is the thickness of the stroke centered on the given path. In other words, the area that's drawn extends to half the line width on either side of the path. Because canvas coordinates do not directly reference pixels, special care must be taken to obtain crisp horizontal and vertical lines.
-
  
 In the example below, 10 straight lines are drawn with increasing line widths. The line on the far left is 1.0 units wide. However, the leftmost and all other odd-integer-width thickness lines do not appear crisp, because of the path's positioning.
 
- 
-[[View this example]]
-
- 
 <pre>function draw() {
   var ctx = document.getElementById('canvas').getContext('2d');
   for (var i = 0; i &lt; 10; i++){
@@ -174,46 +169,31 @@ In the example below, 10 straight lines are drawn with increasing line widths. T
     ctx.stroke();
   }
 }
-
 </pre>
  
 Obtaining crisp lines requires understanding how paths are stroked. In the images below, the grid represents the canvas coordinate grid. The squares between gridlines are actual on-screen pixels. In the first grid image below, a rectangle from (2,1) to (5,5) is filled. The entire area between them (light red) falls on pixel boundaries, so the resulting filled rectangle will have crisp edges.
-
  
-[[Image:=Canvas-grid.png|=Canvas-grid.png]]
-
+[[File:canvas-grid.png|right|Three canvas elements on grids, showing aspects of line width.]]
  
 If you consider a path from (3,1) to (3,5) with a line thickness of 1.0, you end up with the situation in the second image. The actual area to be filled (dark blue) only extends halfway into the pixels on either side of the path. An approximation of this has to be rendered, which means that those pixels being only partially shaded, and results in the entire area (the light blue and dark blue) being filled in with a color only half as dark as the actual stroke color. This is what happens with the 1.0 width line in the previous example code.
-
  
 To fix this, you have to be very precise in your path creation. Knowing that a 1.0 width line will extend half a unit to either side of the path, creating the path from (3.5,1) to (3.5,5) results in the situation in the third image — the 1.0 line width ends up completely and precisely filling a single pixel vertical line.
-
   
-'''Note :''' be aware that in our vertical line example, the Y position still referenced an integer gridline position — if it hadn't, we would see pixels with half coverage at the endpoints (but note also that this behavior depends on the current <code>lineCap</code> style whose default value is <code>butt</code>; you may want to compute consistant strokes with half-pixel coordinates for odd-width lines, by setting the <code>lineCap</code> style to <code>square</code>, so that the outer border of the stroke around the endpoint will be automatically extended to cover the whole pixel exactly).
-
+{{Note|Be aware that in our vertical line example, the Y position still referenced an integer gridline position — if it hadn't, we would see pixels with half coverage at the endpoints (but note also that this behavior depends on the current <code>lineCap</code> style whose default value is <code>butt</code>; you may want to compute consistant strokes with half-pixel coordinates for odd-width lines, by setting the <code>lineCap</code> style to <code>square</code>, so that the outer border of the stroke around the endpoint will be automatically extended to cover the whole pixel exactly).
  
-Note also that only start and final endpoints of a path are affected: if a path is closed with <code>closePath()</code>, there's no start and final endpoint; instead, all endpoints in the path are connected to their attached previous and next segment using the current setting of the <code>lineJoin</code> style, whose default value is <code>miter</code>, with the effect of automatically extending the outer borders of the connected segments to their intersection point, so that the rendered stroke will exactly cover full pixels centered at each endpoint if those connected segments are horizontal and/or vertical). See the next two sections for demonstrations of these additional line styles.
-
+Note also that only start and final endpoints of a path are affected: if a path is closed with <code>closePath()</code>, there's no start and final endpoint; instead, all endpoints in the path are connected to their attached previous and next segment using the current setting of the <code>lineJoin</code> style, whose default value is <code>miter</code>, with the effect of automatically extending the outer borders of the connected segments to their intersection point, so that the rendered stroke will exactly cover full pixels centered at each endpoint if those connected segments are horizontal and/or vertical). See the next two sections for demonstrations of these additional line styles.}}
   
 For even-width lines, each half ends up being an integer amount of pixels, so you want a path that is between pixels (that is, (3,1) to (3,5)), instead of down the middle of pixels.
-
  
 While slightly painful when initially working with scalable 2D graphics, paying attention to the pixel grid and the position of paths ensures that your drawings will look correct regardless of scaling or any other transformations involved. A 1.0-width vertical line drawn at the correct position will become a crisp 2-pixel line when scaled up by 2, and will appear at the correct position.
-
  
 ==== A lineCap example ====
  
-[[Image:=Canvas_linecap.png|=Canvas_linecap.png]]The <code>lineCap</code> property determines how the end points of every line are drawn. There are three possible values for this property and those are: <code>butt</code>, <code>round</code> and <code>square</code>. By default this property is set to <code>butt</code>.
-
+[[File:Canvas linecap.png|right|Different line caps on vertical lines on a canvas]]The <code>lineCap</code> property determines how the end points of every line are drawn. There are three possible values for this property and those are: <code>butt</code>, <code>round</code> and <code>square</code>. By default this property is set to <code>butt</code>.
  
 In this example, I've drawn three lines, each with a different value for the <code>lineCap</code> property. I also added two guides to see the exact differences between the three. Each of these lines starts and ends exactly on these guides.
-
  
 The line on the left uses the default <code>butt</code> option. You'll notice that it's drawn completely flush with the guides. The second is set to use the <code>round</code> option. This adds a semicircle to the end that has a radius half the width of the line. The line on the right uses the <code>square</code> option. This adds a box with an equal width and half the height of the line thickness.
-
- 
-[[View this example]]
-
  
 <pre>function draw() {
   var ctx = document.getElementById('canvas').getContext('2d');
@@ -239,27 +219,20 @@ The line on the left uses the default <code>butt</code> option. You'll notice th
     ctx.stroke();
   }
 }
-
 </pre>
  
 ==== A lineJoin example ====
  
-[[Image:=Canvas_linejoin.png|=Canvas_linejoin.png]]The <code>lineJoin</code> property determines how two connecting segments (of lines, arcs or curves) with non-zero lengths in a shape are joined together (degenerate segments with zero lengths, whose specified endpoints and control points are exactly at the same position, are skipped).
-
+[[File:Canvas linejoin.png|right|Zigzag pattern of lines that are joined segments]]The <code>lineJoin</code> property determines how two connecting segments (of lines, arcs or curves) with non-zero lengths in a shape are joined together (degenerate segments with zero lengths, whose specified endpoints and control points are exactly at the same position, are skipped).
  
 There are three possible values for this property: <code>round</code>, <code>bevel</code> and <code>miter</code>. By default this property is set to <code>miter</code>. Note that the <code>lineJoin</code> setting has no effect if the two connected segments have the same direction, because no joining area will be added in this case.
-
  
 Again I've drawn three different paths, each with a different <code>lineJoin</code> property setting:
-
  
 * The top path uses the <code>round</code> option. This setting rounds off the corners of a shape by filling an additional sector of disc centered at the common endpoint of connected segments. The radius for these rounded corners is equal to the line width.
 * The path at the middle uses the <code>bevel</code> option. This setting fills an additional triangular area between the common endpoint of connected segments, and the separate outside rectangular corners of each segment.
 * The path at the bottom uses the <code>miter</code> option. With this setting, connected segments are joined by extending their outside edges to connect at a single point, with the effect of filling an additional lozenge-shaped area. This setting is effected by the <code>miterLimit</code> property which is explained below.
- 
-[[View this example]]
 
- 
 <pre>function draw() {
   var ctx = document.getElementById('canvas').getContext('2d');
   var lineJoin = ['round','bevel','miter'];
@@ -275,19 +248,15 @@ Again I've drawn three different paths, each with a different <code>lineJoin</co
     ctx.stroke();
   }
 }
-
 </pre>
  
 ==== A demo of the miterLimit property ====
  
-[[Image:=Canvas_miterlimit.png|=Canvas_miterlimit.png]]As you've seen in the previous example, when joining two lines with the <code>miter</code> option, the outside edges of the two joining lines are extended up to the point where they meet. For lines which are at large angles with each other, this point is not far from the inside connection point. However, when the angles between each line decreases, the distance (miter length) between these points increases exponentially.
-
+[[File:Canvas miterlimit.png|right|Lines joined with the miterLimit property]]As you've seen in the previous example, when joining two lines with the <code>miter</code> option, the outside edges of the two joining lines are extended up to the point where they meet. For lines which are at large angles with each other, this point is not far from the inside connection point. However, when the angles between each line decreases, the distance (miter length) between these points increases exponentially.
  
 The <code>miterLimit</code> property determines how far the outside connection point can be placed from the inside connection point. If two lines exceed this value, a bevel join will be drawn. Note that the maximum miter length is the product of the line width measured in the current coordinate system, by the value of this <code>miterLimit</code> property (whose default value is 10.0 in the HTML canvas), so the <code>miterLimit</code> can be set independantly from the current display scale or any affine transforms of paths: it only influences the effectively rendered shape of line edges.
-
  
 More exactly, the miter limit is the maximum allowed ratio of the extension length (in the HTML canvas, it is measured between the outside corner of the joined edges of the line and the common endpoint of connecting segments specified in the path) to half the line width. It can equivalently be defined as the maximum allowed ratio of the distance between the inside and outside points of jonction of edges, to the total line width. It is then equal to the cosecant of half the minimum inner angle of connecting segments below which no miter join will be rendered, but only a bevel join:
-
  
 * <code>miterLimit</code> = '''max''' <code>miterLength</code> / <code>lineWidth</code> = 1 / '''sin''' ( '''min''' ''θ'' / 2 )
 * The default miter limit of 10.0 will strip all miters for sharp angles below about 11 degrees.
@@ -296,14 +265,9 @@ More exactly, the miter limit is the maximum allowed ratio of the extension leng
 * Values below 1.0 are invalid for the miter limit.
  
 I've made a little demo in which you can set miterLimit dynamically and see how this effects the shapes on the canvas. The blue lines show where the start and endpoints for each of the lines in the zig-zag pattern are.
-
  
 If you specify a <code>miterLimit</code> value below 4.2 in this demo, none of the visible corners will join with a miter extension, but only with a small bevel near the blue lines; with a <code>miterLimit</code> above 10, most corners in this demo should join with a miter far away from the blue lines, and whose height is decreasing between corners from left to right because they connect with growing angles; with intermediate values, the corners on the left side will only join with a bevel near the blue lines, and the corners on the right side with a miter extension (also with a decreasing height).
 
- 
-[[View this example]]
-
- 
 <pre>function draw() {
   var ctx = document.getElementById('canvas').getContext('2d');
   // Clear canvas
