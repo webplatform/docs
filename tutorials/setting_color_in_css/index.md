@@ -1,5 +1,5 @@
 {{Flags}}
-{{Summary_Section|This article explains in detail the different ways you can specify color in CSS. }}
+{{Summary_Section|This article explains in detail the different ways you can specify color in CSS.}}
 {{Tutorial
 |Content=== Information: Color ==
  
@@ -213,7 +213,7 @@ strong {
 <li><p>Save the file and refresh your browser to see the result.</p></li>
 </ol> 
 
-<p class="note">Note: need to add screenshot fo the result?</p>
+<p class="note">Need to add screenshot of the result?</p>
 }}
 {{Compatibility_Section
 |Not_required=Yes
