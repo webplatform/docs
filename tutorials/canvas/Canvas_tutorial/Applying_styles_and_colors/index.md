@@ -83,7 +83,8 @@ The <code>rgba()</code> function is similar to the <code>rgb()</code> function b
  
 [[File:Canvas globalalpha.png|right|A background of four different colored squares, on top of which is drawn a set of semi-transparent circles.]]In this example I've drawn a background of four different colored squares. On top of these, I've draw a set of semi-transparent circles. The <code>globalAlpha</code> property is set at 0.2 which will be used for all shapes from that point on. Every step in the <code>for</code> loop draws a set of circles with an increasing radius. The final result is a radial gradient. By overlaying ever more circles on top of each other, we effectively reduce the transparency of the circles that have already been drawn. By increasing the step count and in effect drawing more circles, the background would completely disappear from the center of the image.
 
-{{Note|* This example doesn't work in Firefox 1.5 beta 1. You'll need a nightly branch build or wait for a newer release to see this in action.
+{{Note|
+* This example doesn't work in Firefox 1.5 beta 1. You'll need a nightly branch build or wait for a newer release to see this in action.
 * This example is broken on Safari as the colour is not specified correctly. Colour in example is specified as '#09F)' which is invalid according to the specification. Firefox, however, accepts the malformed colour definition.}}
   
 <pre>function draw() {
