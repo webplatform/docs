@@ -67,7 +67,7 @@ Where <code>image</code> is a reference to our image or canvas object. <code>x</
  
 ==== drawImage example 1 ====
  
-[[Image:=Canvas_backdrop.png|=Canvas_backdrop.png]]In the following example I will be using an external image as the backdrop of a small line graph. Using backdrops can make your script considerably smaller because we don't need to draw an elaborate background. I'm only using one image here so I use the image object's <code>onload</code> event handler to execute the drawing statements. The <code>drawImage</code> method places the backdrop on the coordinate (0,0) which is the top left corner of the canvas.
+[[File:Canvas backdrop.png|right|basic graph drawn on a canvas]]In the following example I will be using an external image as the backdrop of a small line graph. Using backdrops can make your script considerably smaller because we don't need to draw an elaborate background. I'm only using one image here so I use the image object's <code>onload</code> event handler to execute the drawing statements. The <code>drawImage</code> method places the backdrop on the coordinate (0,0) which is the top left corner of the canvas.
 
  
 [[View this example]]
