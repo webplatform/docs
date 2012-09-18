@@ -30,7 +30,6 @@ One of the more practical uses of this would be to use a second canvas element a
 ==== Creating an image from scratch ====
  
 Another option is to create new <code>Image</code> objects in our script.
-
  
 Basically to create a new image object we do this:
  
@@ -53,23 +52,18 @@ If you're only using one external image this can be a good approach but once you
  
 ==== Embedding an image via data: url ====
  
-Another possible way to include images is via the [[data: url]]. Data urls allow you to completely define an image as a Base64 encoded string of characters directly in your code. One advantage of data urls is that the resulting image is available immediately without another round trip to the server. ( Another advantage is that it is then possible to encapsulate in one file all of your CSS, Javascript, HTML, and images, making it more portable to other locations. ) Some disadvantages of this method are that your image is not cached, and for larger images the encoded url can become quite long:
-
+Another possible way to include images is via the [[data: url]]. Data urls allow you to completely define an image as a Base64 encoded string of characters directly in your code. One advantage of data urls is that the resulting image is available immediately without another round trip to the server. (Another advantage is that it is then possible to encapsulate in one file all of your CSS, Javascript, HTML, and images, making it more portable to other locations.) Some disadvantages of this method are that your image is not cached, and for larger images the encoded url can become quite long:
  
 <pre>var img_src = 'data:image/gif;base64,R0lGODlhCwALAIAAAAAA3pn/ZiH5BAEAAAEALAAAAAALAAsAAAIUhA+hkcuO4lmNVindo7qyrIXiGBYAOw==';
-
 </pre>
  
 == drawImage ==
  
 Once we have a reference to our source image object we can use the <code>drawImage</code> method to render it to the canvas. As we we'll see later the <code>drawImage</code> method is overloaded and has three different variants. In its most basic form it looks like this.
-
   
 <code>'''drawImage'''(image, x, y)</code>
-
   
 Where <code>image</code> is a reference to our image or canvas object. <code>x</code> and <code>y</code> form the coordinate on the target canvas where our image should be placed.
-
  
 ==== drawImage example 1 ====
  
