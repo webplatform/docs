@@ -3,46 +3,33 @@
 }}
 {{Summary_Section}}
 {{Tutorial
-|Content=
-In the chapter about [[drawing shapes]] I used only the default line and fill styles. In this chapter we will explore ''all'' the canvas options we have at our disposal to make our drawings a little more attractive.
-
+|Content=In the chapter about [[drawing shapes]] I used only the default line and fill styles. In this chapter we will explore ''all'' the canvas options we have at our disposal to make our drawings a little more attractive.
  
 == Colors ==
  
 Up until now we've only seen methods of the drawing context. If we want to apply colors to a shape, there are two important properties we can use: <code>fillStyle</code> and <code>strokeStyle</code>.
-
   
 <code>'''fillStyle''' = color</code><br> <code>'''strokeStyle''' = color</code>
-
   
 <code>strokeStyle</code> is used for setting the shape outline color and <code>fillStyle</code> is for the fill color. <code>color</code> can be a string representing a CSS color value, a gradient object, or a pattern object. We'll look at gradient and pattern objects later. By default, the stroke and fill color are set to black (CSS color value #000000).
-
  
 The valid strings you can enter should, according to the specification, be [[CSS3 color values]]. Each of the following examples describe the same color.
-
  
 <pre>// these all set the fillStyle to 'orange'
 ctx.fillStyle = "orange";
 ctx.fillStyle = "#FFA500";
 ctx.fillStyle = "rgb(255,165,0)";
 ctx.fillStyle = "rgba(255,165,0,1)";
-
 </pre>
  
-'''Note:''' Currently not all CSS 3 color values are supported in the Gecko engine. For instance the color values <code>hsl(100%,25%,0)</code> or <code>rgb(0,100%,0)</code> are not allowed. If you stick to the ones above, you won't run into any problems.
-
+{{Note|Currently not all CSS 3 color values are supported in the Gecko engine. For instance the color values <code>hsl(100%,25%,0)</code> or <code>rgb(0,100%,0)</code> are not allowed. If you stick to the ones above, you won't run into any problems.}}
  
-'''Note:''' If you set the <code>strokeStyle</code> and/or <code>fillStyle</code> property, the new value becomes the default for all shapes being drawn from then on. For every shape you want in a different color, you will need to reassign the <code>fillStyle</code> or <code>strokeStyle</code> property.
-
+{{Note|If you set the <code>strokeStyle</code> and/or <code>fillStyle</code> property, the new value becomes the default for all shapes being drawn from then on. For every shape you want in a different color, you will need to reassign the <code>fillStyle</code> or <code>strokeStyle</code> property.}}
  
 ==== A fillStyle example ====
  
-[[Image:=Canvas_fillstyle.png|=Canvas_fillstyle.png]]In this example, I once again use two <code>for</code> loops to draw a grid of rectangles, each in a different color. The resulting image should look something like the image on the right. There is nothing too spectacular happening here. I use the two variables <code>i</code> and <code>j</code> to generate a unique RGB color for each square. I only modify the red and green values. The blue channel has a fixed value. By modifying the channels, you can generate all kinds of palettes. By increasing the steps, you can achieve something that looks like the color palettes Photoshop uses.
+[[File:Canvas fillstyle.png|right|A canvas filled with different colored squares]]In this example, I once again use two <code>for</code> loops to draw a grid of rectangles, each in a different color. The resulting image should look something like the image on the right. There is nothing too spectacular happening here. I use the two variables <code>i</code> and <code>j</code> to generate a unique RGB color for each square. I only modify the red and green values. The blue channel has a fixed value. By modifying the channels, you can generate all kinds of palettes. By increasing the steps, you can achieve something that looks like the color palettes Photoshop uses.
 
- 
-[[View this example]]
-
- 
 <pre>function draw() {
   var ctx = document.getElementById('canvas').getContext('2d');
   for (var i=0;i&lt;6;i++){
@@ -53,12 +40,8 @@ ctx.fillStyle = "rgba(255,165,0,1)";
     }
   }
 }
-
 </pre>
- 
- 
 
- 
 ==== A strokeStyle example ====
  
 [[Image:=Canvas_strokestyle.png|=Canvas_strokestyle.png]]This example is similar to the one above but now using the <code>strokeStyle</code> property. Here I use the <code>arc</code> method to draw circles instead of squares.
@@ -600,7 +583,6 @@ This example draws a text string with a shadowing effect.
 </pre>
  
 [[canvas/tutorial/Canvas tutorial/Using images|&lt;&lt;Previous      ||    ]][[canvas/tutorial/Canvas tutorial/Transformations|   Next&gt;&gt;]]
-
 }}
 {{Compatibility_Section
 |Not_required=No
