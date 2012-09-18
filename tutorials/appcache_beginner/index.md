@@ -1,14 +1,12 @@
-{{Flags}}
-{{Summary_Section}}
+{{Flags
+|High-level issues=Needs Flags
+}}
+{{Summary_Section|An introduction to using the appcache interface for offline application functionality.}}
 {{Tutorial
 |Content==A Beginner's Guide to Using the Application Cache=
 ==By Eric Bidelman==
 
 Published '''June 18, 2010''' Updated '''May 27, 2011''
-
-==Supported browsers:==
-
-<span class="browsers"> <span class="browser opera supported"> <span class="browser_name">Opera</span> <span class="support"> supported </span> </span> <span class="browser ie "> <span class="browser_name">IE</span> <span class="support"> unsupported </span> </span> <span class="browser safari supported"> <span class="browser_name">Safari</span> <span class="support"> supported </span> </span> <span class="browser ff supported"> <span class="browser_name">Firefox</span> <span class="support"> supported </span> </span> <span class="browser chrome supported"> <span class="browser_name">Chrome</span> <span class="support"> supported </span> </span> </span><div class="compatible-block">
 
 ==Introduction==
 
@@ -260,6 +258,12 @@ If the manifest file or a resource specified in it fails to download, the entire
 ==References==
 
 * [http://www.whatwg.org/specs/web-apps/current-work/#applicationcache ApplicationCache] API specification
+
+
+==Supported browsers:==
+
+<span class="browsers"> <span class="browser opera supported"> <span class="browser_name">Opera</span> <span class="support"> supported </span> </span> <span class="browser ie "> <span class="browser_name">IE</span> <span class="support"> unsupported </span> </span> <span class="browser safari supported"> <span class="browser_name">Safari</span> <span class="support"> supported </span> </span> <span class="browser ff supported"> <span class="browser_name">Firefox</span> <span class="support"> supported </span> </span> <span class="browser chrome supported"> <span class="browser_name">Chrome</span> <span class="support"> supported </span> </span> </span><div class="compatible-block">
+
 }}
 {{Compatibility_Section
 |Not_required=No
