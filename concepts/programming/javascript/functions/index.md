@@ -25,7 +25,7 @@ The function <code>square</code> takes one argument, called <code>number</code>.
 
 Primitive parameters (such as a number) are passed to functions '''by value'''; the value is passed to the function, but if the function changes the value of the parameter, this change is not reflected globally or in the calling function.
 
-If you pass an object (i.e. a [[/glossary/non-primitive value|/glossary/non-primitive value]], such as <code>[[/js/objects/Array|Array]]</code> or a user-defined object) as a parameter, and the function changes the object's properties, that change is visible outside the function, as shown in the following example:
+If you pass an object (i.e. a [[/glossary/non-primitive value|non-primitive value]], such as <code>[[/js/objects/Array|Array]]</code> or a user-defined object) as a parameter, and the function changes the object's properties, that change is visible outside the function, as shown in the following example:
 
  function myFunc(theObject) {
    theObject.make = "Toyota";
@@ -70,7 +70,7 @@ If <code>num</code> does not equal 0, the function is not defined, and any attem
 
 Note that ECMAScript does not allow functions to appear in such contexts such as this, only directly inside other functions or at the top level of a program, so this example is invalid as ECMAScript.
 
-<div class="warning">'''Warning:''' Different implementations of JavaScript handle this non-standard construct differently, so it is best avoided when writing portable code. Otherwise, your code may work in some browsers but not in others.</div>
+{{Note|Different implementations of JavaScript handle this non-standard construct differently, so it is best avoided when writing portable code. Otherwise, your code may work in some browsers but not in others.}}
 
 In addition to defining functions as described here, you can also use the  <code>[[js/objects/Function_Object|Function]]</code> constructor to create functions from a string at runtime, much like <code>[[js/Functions#eval_Function|eval()]]</code>.
 
@@ -128,7 +128,7 @@ The arguments of a function are not limited to strings and numbers. You can pass
 A function can be recursive; that is, it can call itself. For example, here is a function that computes factorials recursively:
 
  function factorial(n){
-   if ((n == 0) || (n == 1))
+   if ((n == 0) {{!}}{{!}} (n == 1))
      return 1;
    else
      return (n * factorial(n - 1));
@@ -143,7 +143,7 @@ You could then compute the factorials of one through five as follows:
  d = factorial(4); // d gets the value 24
  e = factorial(5); // e gets the value 120
 
-There are other ways to call functions. There are often cases where a function needs to be called dynamically, or the number of arguments to a function vary, or in which the context of the function call needs to be set to a specific object determined at runtime. It turns out that functions are, themselves, objects, and these objects in turn have methods (see the <code>[[/js/objects/Function_Object Function]]</code> object). One of these, the  <code>[[/js/objects/Function/apply|apply()]]</code> method, can be used to achieve this goal.
+There are other ways to call functions. There are often cases where a function needs to be called dynamically, or the number of arguments to a function vary, or in which the context of the function call needs to be set to a specific object determined at runtime. It turns out that functions are, themselves, objects, and these objects in turn have methods (see the <code>[[/js/objects/Function_Object|Function]]</code> object). One of these, the  <code>[[/js/objects/Function/apply|apply()]]</code> method, can be used to achieve this goal.
 
 ==Function scope==
 
@@ -209,7 +209,7 @@ It can be much more complex than the code above. An object containing methods fo
      },
      
      setSex: function(newSex) {
-       if(typeof newSex == "string" && (newSex.toLowerCase() == "male" || newSex.toLowerCase() == "female")) {
+       if(typeof newSex == "string" && (newSex.toLowerCase() == "male" {{!}}{{!}} newSex.toLowerCase() == "female")) {
          sex = newSex;
        }
      }
@@ -296,7 +296,7 @@ JavaScript has several top-level predefined functions:
 * [[#Number_and_String_functions|Number and String]]
 * [[#escape_and_unescape_functions|encodeURI, decodeURI, encodeURIComponent, and decodeURIComponent]] (all available with Javascript 1.5 and later).
 
-The following sections introduce these functions. See the [/js|JavaScript Reference]] for detailed information on all of these functions.
+The following sections introduce these functions. See the [[/js|JavaScript Reference]] for detailed information on all of these functions.
 
 ===eval Function===
 
