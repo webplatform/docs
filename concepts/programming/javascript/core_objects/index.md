@@ -21,7 +21,7 @@ To create an <code>Array</code> object, the following three statements are equiv
 
 <code>element0, element1, ..., elementN</code> is a list of values for the array's elements. When this form is specified, the array is initialized with the specified values as its elements, and the array's <code>length</code> property is set to the number of arguments.
 
-The bracket syntax is called "array literal" or "array initializer". It is shorter and so is generally preferred. See [http://docs.webplatform.org/en-US/docs/JavaScript/Guide/Values,_Variables,_and_Literals#Array_Literals Array Literals] for details on array literals.
+The bracket syntax is called "array literal" or "array initializer". It is shorter and so is generally preferred. See [[/guides/js/Values#Array_Literals|Array Literals]] for details on array literals.
 
 To create an Array with non-zero length, but without any items, either of the following can be used:
 
@@ -86,7 +86,7 @@ You refer to an array's elements by using the element's ordinal number. For exam
 
 You then refer to the first element of the array as <code>myArray[0]</code> and the second element of the array as <code>myArray[1]</code>. The index of the elements begins with zero.
 
-'''Note:''' the array operator (square brackets) is also used for accessing the array's properties (arrays are also objects in JavaScript). For example,
+{{Note| The array operator (square brackets) is also used for accessing the array's properties (arrays are also objects in JavaScript). For example,}}
 
   var arr = ["one", "two", "three"];
  arr[2];  // three
@@ -94,7 +94,7 @@ You then refer to the first element of the array as <code>myArray[0]</code> and 
 
 ===Understanding length===
 
-At the implementation level, JavaScript's arrays actually store their elements as standard object properties, using the array index as the property name. The <code>length</code> property is special; it always returns the index of the last element. Remember, Javascript Array indexs are 0-based: they start at 0, not 1. This means that the <code><code>length</code></code> property will be one more than the highest index stored in the array:
+At the implementation level, JavaScript's arrays actually store their elements as standard object properties, using the array index as the property name. The <code>length</code> property is special; it always returns the index of the last element. Remember, Javascript Array indexes are 0-based: they start at 0, not 1. This means that the <code><code>length</code></code> property will be one more than the highest index stored in the array:
 
  var cats = [];
  cats[30] = ['Dusty'];
@@ -123,7 +123,7 @@ A common operation is to iterate over the values of an array, processing each on
    console.log(colors[i]);
  }
 
-If you know that none of the elements in your array evaluate to <code>false</code> in a boolean context — if your array consists only of [http://docs.webplatform.org/en-US/docs/DOM DOM] nodes for example, you can use a more efficient idiom:
+If you know that none of the elements in your array evaluate to <code>false</code> in a boolean context — if your array consists only of [[/dom|DOM]] nodes for example, you can use a more efficient idiom:
 
  var divs = document.getElementsByTagName('div');
  for (var i = 0, div; div = divs[i]; i++) {
@@ -132,13 +132,11 @@ If you know that none of the elements in your array evaluate to <code>false</cod
 
 This avoids the overhead of checking the length of the array, and ensures that the <code>div</code> variable is reassigned to the current item each time around the loop for added convenience.
 
-<div class="overheadIndicator jsMinVerHeader standardNote">
-
-Introduced in [http://developer.mozilla.org/en-US/docs/JavaScript/New_in_JavaScript/1.6 JavaScript 1.6]
+{{Note|Introduced in JavaScript 1.6}}
 
 </div>
 
-The [http://docs.webplatform.org/en-US/docs/JavaScript/Reference/Global_Objects/Array/forEach <code>forEach()</code>] method, introduced in JavaScript 1.6, provides another way of iterating over an array:
+The [/js/objects/Array/forEach|<code>forEach()</code>] method, introduced in JavaScript 1.6, provides another way of iterating over an array:
 
  var colors = ['red', 'green', 'blue'];
  colors.forEach(function(color) {
@@ -153,28 +151,28 @@ Since JavaScript elements are saved as standard object properties, it is not adv
 
 The <code>Array</code> object has the following methods:
 
-* [http://docs.webplatform.org/en-US/docs/JavaScript/Reference/Global_Objects/Array/concat <code>concat()</code>] joins two arrays and returns a new array.  var myArray = new Array("1", "2", "3");
+* [[/js/objects/Array/concat|<code>concat()</code>]] joins two arrays and returns a new array.  var myArray = new Array("1", "2", "3");
  myArray = myArray.concat("a", "b", "c"); // myArray is now ["1", "2", "3", "a", "b", "c"]
-* [http://docs.webplatform.org/en-US/docs/JavaScript/Reference/Global_Objects/Array/join <code>join(deliminator = ",")</code>] joins all elements of an array into a string.  var myArray = new Array("Wind", "Rain", "Fire");
+* [/js/objects/Array/join|<code>join(deliminator = ",")</code>]] joins all elements of an array into a string.  var myArray = new Array("Wind", "Rain", "Fire");
  var list = myArray.join(" - "); // list is "Wind - Rain - Fire"
-* [http://docs.webplatform.org/en-US/docs/JavaScript/Reference/Global_Objects/Array/push <code>push()</code>] adds one or more elements to the end of an array and returns the resulting length of the array.  var myArray = new Array("1", "2");
+* [[/js/objects/Array/push|<code>push()</code>]] adds one or more elements to the end of an array and returns the resulting length of the array.  var myArray = new Array("1", "2");
  myArray.push("3"); // MyArray is now ["1", "2", "3"]
-* [http://docs.webplatform.org/en-US/docs/JavaScript/Reference/Global_Objects/Array/pop <code>pop()</code>] removes the last element from an array and returns that element.  var myArray = new Array("1", "2", "3");
+* [[/js/objects/Array/pop|<code>pop()</code>]] removes the last element from an array and returns that element.  var myArray = new Array("1", "2", "3");
  var last = myArray.pop(); // MyArray is now ["1", "2"], last = "3"
-* [http://docs.webplatform.org/en-US/docs/JavaScript/Reference/Global_Objects/Array/shift <code>shift()</code>] removes the first element from an array and returns that element  var myArray = new Array ("1", "2", "3");
+* [[/js/objects/Array/shift|<code>shift()</code>]] removes the first element from an array and returns that element  var myArray = new Array ("1", "2", "3");
  var first = myArray.shift(); // MyArray is now ["2", "3"], first is "1"
-* [http://docs.webplatform.org/en-US/docs/JavaScript/Reference/Global_Objects/Array/unshift <code>unshift()</code>] adds one or more elements to the front of an array and returns the new length of the array.  var myArray = new Array ("1", "2", "3");
+* [[/js/objects/Array/unshift|<code>unshift()</code>]] adds one or more elements to the front of an array and returns the new length of the array.  var myArray = new Array ("1", "2", "3");
  myArray.unshift("4", "5"); // myArray becomes ["4", "5", "1", "2", "3"]
-* [http://docs.webplatform.org/en-US/docs/JavaScript/Reference/Global_Objects/Array/slice <code>slice(start_index, upto_index)</code>] extracts a section of an array and returns a new array.  var myArray = new Array ("a", "b", "c", "d", "e");
+* [[/js/objects/Array/slice|<code>slice(start_index, upto_index)</code>]] extracts a section of an array and returns a new array.  var myArray = new Array ("a", "b", "c", "d", "e");
  myArray = myArray.slice(1, 4); /* starts at index 1 and extracts all elements
    until index 3, returning [ "b", "c", "d"] */
-* [http://docs.webplatform.org/en-US/docs/JavaScript/Reference/Global_Objects/Array/splice <code>splice(index, count_to_remove, addelement1, addelement2, ...)</code>] removes elements from an array and (optionally) replaces them.<br /> var myArray = new Array ("1", "2", "3", "4", "5");
+* [[/js/objects/Array/splice|<code>splice(index, count_to_remove, addelement1, addelement2, ...)</code>]] removes elements from an array and (optionally) replaces them.<br /> var myArray = new Array ("1", "2", "3", "4", "5");
  myArray.splice(1, 3, "a", "b", "c", "d"); // MyArray is now ["1", "a", "b", "c", "d", "5"]
    // This code started at index one (or where the "2" was), removed 3 elements there, 
    // and then inserted all consecutive elements in its place.
-* [http://docs.webplatform.org/en-US/docs/JavaScript/Reference/Global_Objects/Array/reverse <code>reverse()</code>] transposes the elements of an array: the first array element becomes the last and the last becomes the first.  var myArray = new Array ("1", "2", "3");
+* [[/js/objects/Array/reverse|<code>reverse()</code>]] transposes the elements of an array: the first array element becomes the last and the last becomes the first.  var myArray = new Array ("1", "2", "3");
  myArray.reverse(); // transposes the array so that myArray = [ "3", "2", "1" ]
-* [http://docs.webplatform.org/en-US/docs/JavaScript/Reference/Global_Objects/Array/sort <code>sort()</code>] sorts the elements of an array.  var myArray = new Array("Wind", "Rain", "Fire");
+* [[/js/objects/Array/sort|<code>sort()</code>]] sorts the elements of an array.  var myArray = new Array("Wind", "Rain", "Fire");
  myArray.sort(); // sorts the array so that myArrray = [ "Fire", "Rain", "Wind" ]
 <code>sort()</code> can also take a callback function to determine how array elements are compared. The function compares two values and returns one of three values:
 ** if <code>a</code> is less than <code>b</code> by the sorting system, return -1 (or any negative number)
@@ -186,40 +184,37 @@ The <code>Array</code> object has the following methods:
  }
  myArray.sort(sortFn); // sorts the array so that myArray = ["Wind","Fire","Rain"]
 
-<div class="overheadIndicator jsMinVerHeader standardNote">
+{{Note|Introduced in JavaScript 1.6}}
 
-Introduced in [http://developer.mozilla.org/en-US/docs/JavaScript/New_in_JavaScript/1.6 JavaScript 1.6]
 
-</div>
+Compatibility code for older browsers can be found for each of these functions on the individual pages. Native browser support for these features in various browsers can be found [http://www.robertnyman.com/javascript/  here.]
 
-Compatibility code for older browsers can be found for each of these functions on the individual pages. Native browser support for these features in various browsers can be found[http://www.robertnyman.com/javascript/  here.]
-
-* [http://docs.webplatform.org/en-US/docs/JavaScript/Reference/Global_Objects/Array/indexOf <code>indexOf(searchElement[, fromIndex])</code>] searches the array for <code>searchElement</code> and returns the index of the first match.  var a = ['a', 'b', 'a', 'b', 'a'];
+* [[/js/objects/Array/indexOf|<code>indexOf(searchElement[, fromIndex])</code>]] searches the array for <code>searchElement</code> and returns the index of the first match.  var a = ['a', 'b', 'a', 'b', 'a'];
  alert(a.indexOf('b')); // Alerts 1
  // Now try again, starting from after the last match
  alert(a.indexOf('b', 2)); // Alerts 3
  alert(a.indexOf('z')); // Alerts -1, because 'z' was not found
-* [http://docs.webplatform.org/en-US/docs/JavaScript/Reference/Global_Objects/Array/lastIndexOf <code>lastIndexOf(searchElement[, fromIndex])</code>] works like <code>indexOf</code>, but starts at the end and searches backwards.  var a = ['a', 'b', 'c', 'd', 'a', 'b'];
+* [[/js/objects/Array/lastIndexOf|<code>lastIndexOf(searchElement[, fromIndex])</code>]] works like <code>indexOf</code>, but starts at the end and searches backwards.  var a = ['a', 'b', 'c', 'd', 'a', 'b'];
  alert(a.lastIndexOf('b')); // Alerts 5
  // Now try again, starting from before the last match
  alert(a.lastIndexOf('b', 4)); // Alerts 1
  alert(a.lastIndexOf('z')); // Alerts -1
-* [http://docs.webplatform.org/en-US/docs/JavaScript/Reference/Global_Objects/Array/forEach <code>forEach(callback[, thisObject])</code>] execute <code>callback</code> on every array item.  var a = ['a', 'b', 'c'];
+* [[/js/objects/Array/forEach|<code>forEach(callback[, thisObject])</code>]] execute <code>callback</code> on every array item.  var a = ['a', 'b', 'c'];
  a.forEach(alert); // Alerts each item in turn
-* [http://docs.webplatform.org/en-US/docs/JavaScript/Reference/Global_Objects/Array/map <code>map(callback[, thisObject])</code>] returns a new array of the return value from executing <code>callback</code> on every array item.  var a1 = ['a', 'b', 'c'];
+* [[/js/objects/Array/map|<code>map(callback[, thisObject])</code>]] returns a new array of the return value from executing <code>callback</code> on every array item.  var a1 = ['a', 'b', 'c'];
  var a2 = a1.map(function(item) { return item.toUpperCase(); });
  alert(a2); // Alerts A,B,C
-* [http://docs.webplatform.org/en-US/docs/JavaScript/Reference/Global_Objects/Array/filter <code>filter(callback[, thisObject])</code>] returns a new array containing the items for which callback returned true.  var a1 = ['a', 10, 'b', 20, 'c', 30];
+* [[/js/objects/Array/filter|<code>filter(callback[, thisObject])</code>]] returns a new array containing the items for which callback returned true.  var a1 = ['a', 10, 'b', 20, 'c', 30];
  var a2 = a1.filter(function(item) { return typeof item == 'number'; });
  alert(a2); // Alerts 10,20,30
-* [http://docs.webplatform.org/en-US/docs/JavaScript/Reference/Global_Objects/Array/every <code>every(callback[, thisObject])</code>] returns true if <code>callback</code> returns true for every item in the array.  function isNumber(value){
+* [[/js/objects/Array/every|<code>every(callback[, thisObject])</code>]] returns true if <code>callback</code> returns true for every item in the array.  function isNumber(value){
    return typeof value == 'number';
  }
  var a1 = [1, 2, 3];
  alert(a1.every(isNumber)); // Alerts true
  var a2 = [1, '2', 3];
  alert(a2.every(isNumber)); // Alerts false
-* [http://docs.webplatform.org/en-US/docs/JavaScript/Reference/Global_Objects/Array/some <code>some(callback[, thisObject])</code>] returns true if <code>callback</code> returns true for at least one item in the array.  function isNumber(value){
+* [[/js/objects/Array/some|<code>some(callback[, thisObject])</code>]] returns true if <code>callback</code> returns true for at least one item in the array.  function isNumber(value){
    return typeof value == 'number';
  }
  var a1 = [1, 2, 3];
@@ -233,16 +228,13 @@ The methods above that take a callback are known as ''iterative methods'', becau
 
 The callback function is actually called with three arguments. The first is the value of the current item, the second is its array index and the third is a reference to the array itself. JavaScript functions ignore any arguments that are not named in the parameter list so it is safe to provide a callback function that only takes a single argument, such as <code>alert</code>.
 
-<div class="overheadIndicator jsMinVerHeader standardNote">
+{{Note: Introduced in JavaScript 1.8}}
 
-Introduced in [http://developer.mozilla.org/en-US/docs/JavaScript/New_in_JavaScript/1.8 JavaScript 1.8]
 
-</div>
-
-* [http://docs.webplatform.org/en-US/docs/JavaScript/Reference/Global_Objects/Array/Reduce <code>reduce(callback[, initialValue])</code>] applies <code>callback(firstValue, secondValue)</code> to reduce the list of items down to a single value.  var a = [10, 20, 30];
+* [[/js/objects/Array/Reduce|<code>reduce(callback[, initialValue])</code>]] applies <code>callback(firstValue, secondValue)</code> to reduce the list of items down to a single value.  var a = [10, 20, 30];
  var total = a.reduce(function(first, second) { return first + second; }, 0);
  alert(total) // Alerts 60
-* [http://docs.webplatform.org/en-US/docs/JavaScript/Reference/Global_Objects/Array/ReduceRight <code>reduceRight(callback[, initialValue])</code>] works like <code>reduce()</code>, but starts with the last element.
+* [[/js/objects/Array/ReduceRight <code>reduceRight(callback[, initialValue])</code>]] works like <code>reduce()</code>, but starts with the last element.
 
 <code>reduce</code> and <code>reduceRight</code> are the least obvious of the iterative array methods. They should be used for algorithms that combine two values recursively in order to reduce a sequence down to a single value.
 
@@ -269,17 +261,13 @@ This example creates an array with the following rows:
 
 ===Arrays and Regular Expressions===
 
-When an array is the result of a match between a regular expression and a string, the array returns properties and elements that provide information about the match. An array is the return value of [http://docs.webplatform.org/en-US/docs/JavaScript/Reference/Global_Objects/RegExp/exec <code>RegExp.exec()</code>], [http://docs.webplatform.org/en-US/docs/JavaScript/Reference/Global_Objects/String/match <code>String.match()</code>], and [http://docs.webplatform.org/en-US/docs/JavaScript/Reference/Global_Objects/String/split <code>String.split()</code>]. For information on using arrays with regular expressions, see [http://docs.webplatform.org/en-US/docs/JavaScript/Guide/Regular_Expressions Regular Expressions].
+When an array is the result of a match between a regular expression and a string, the array returns properties and elements that provide information about the match. An array is the return value of [[/js/objects/RegExp/exec|<code>RegExp.exec()</code>]], [[/js/objects/String/match|<code>String.match()</code>]], and [[/js/objects/String/split|<code>String.split()</code>]]. For information on using arrays with regular expressions, see [[/guides/JavaScript/RegEx|Regular Expressions]].
 
 ===Working with Array-like objects===
 
-<div class="overheadIndicator jsMinVerHeader standardNote">
+{{Note: Introduced in JavaScript 1.6}}
 
-Introduced in [http://developer.mozilla.org/en-US/docs/JavaScript/New_in_JavaScript/1.6 JavaScript 1.6]
-
-</div>
-
-Some JavaScript objects, such as the [http://docs.webplatform.org/en-US/docs/DOM/NodeList <code>NodeList</code>] returned by [http://docs.webplatform.org/en-US/docs/DOM/document.getElementsByTagName <code>document.getElementsByTagName()</code>] or the [http://docs.webplatform.org/en-US/docs/JavaScript/Reference/Functions_and_function_scope/arguments <code>arguments</code>] object made available within the body of a function, look and behave like arrays on the surface but do not share all of their methods. The <code>arguments</code> object provides a [http://docs.webplatform.org/en-US/docs/JavaScript/Reference/Functions_and_function_scope/arguments/length <code>length</code>] attribute but does not implement the [http://docs.webplatform.org/en-US/docs/JavaScript/Reference/Global_Objects/Array/forEach <code>forEach()</code>] method, for example.
+Some JavaScript objects, such as the [[/dom/NodeList|<code>NodeList</code>]] returned by [[/dom/document.getElementsByTagName|<code>document.getElementsByTagName()</code>]] or the [[/sj/functions/arguments|<code>arguments</code>]] object made available within the body of a function, look and behave like arrays on the surface but do not share all of their methods. The <code>arguments</code> object provides a [[/js/functions/arguments/length|<code>length</code>]] attribute but does not implement the [[/js/objects/Array/forEach|<code>forEach()</code>]] method, for example.
 
 Array generics, introduced in JavaScript 1.6, provide a way of running <code>Array</code> methods against other array-like objects. Each standard array method has a corresponding method on the <code>Array</code> object itself; for example:
 
@@ -301,7 +289,7 @@ Array generic methods can be used on strings as well, since they provide sequent
     alert(chr);
  });
 
-Here are some further examples of applying array methods to strings, also taking advantage of [http://docs.webplatform.org/en-US/docs/JavaScript/New_in_JavaScript/1.8#Expression_closures JavaScript 1.8 expression closures]<nowiki>:</nowiki>
+Here are some further examples of applying array methods to strings, also taking advantage of expression closures<nowiki>:</nowiki>
 
  <nowiki>var str = 'abcdef';
  var consonantsOnlyStr = Array.filter(str, function (c) !(/[aeiou]/i).test(c)).join(''); // 'bcdf'
@@ -316,11 +304,8 @@ Note that <code>filter</code> and <code>map</code> do not automatically return t
 
 ===Array comprehensions===
 
-<div class="overheadIndicator jsMinVerHeader standardNote">
+{{Note: Introduced in JavaScript 1.7}}
 
-Introduced in [http://developer.mozilla.org/en-US/docs/JavaScript/New_in_JavaScript/1.7 JavaScript 1.7]
-
-</div>
 
 Introduced in JavaScript 1.7, array comprehensions provide a useful shortcut for constructing a new array based on the contents of another. Comprehensions can often be used in place of calls to <code>map()</code> and <code>filter()</code>, or as a way of combining the two.
 
@@ -352,7 +337,7 @@ Comprehensions can also be used to select items that match a particular expressi
 
 The square brackets of an array comprehension introduce an implicit block for scoping purposes. New variables (such as i in the example) are treated as if they had been declared using <code>let</code>. This means that they will not be available outside of the comprehension.
 
-The input to an array comprehension does not itself need to be an array; [http://docs.webplatform.org/en-US/docs/JavaScript/Guide/Iterators_and_Generators iterators and generators] can also be used.
+The input to an array comprehension does not itself need to be an array; [[/guides/JavaScript/Iterators| iterators and generators]] can also be used.
 
 Even strings may be used as input; to achieve the filter and map actions (under Array-like objects) above:
 
@@ -369,7 +354,7 @@ The <code>Boolean</code> object is a wrapper around the primitive Boolean data t
 
  var booleanObjectName = new Boolean(value);
 
-Do not confuse the primitive Boolean values <code>true</code> and <code>false</code> with the true and false values of the <code>Boolean</code> object. Any object whose value is not <code>undefined</code> , <code>null</code>, <code>0</code>, <code>NaN</code>, or the empty string , including a <code>Boolean</code> object whose value is false, evaluates to true when passed to a conditional statement. See [http://docs.webplatform.org/en-US/docs/JavaScript/Guide/Statements#if...else_Statement if...else Statement] for more information.
+Do not confuse the primitive Boolean values <code>true</code> and <code>false</code> with the true and false values of the <code>Boolean</code> object. Any object whose value is not <code>undefined</code> , <code>null</code>, <code>0</code>, <code>NaN</code>, or the empty string , including a <code>Boolean</code> object whose value is false, evaluates to true when passed to a conditional statement. See [guides/JavaScript/Statements#if...else_Statement|if...else Statement]] for more information.
 
 ==Date Object==
 
@@ -483,7 +468,7 @@ To create a <code>Function</code> object:
 
 <code>Function</code> objects are evaluated each time they are used. This is less efficient than declaring a function and calling it within your code, because declared functions are compiled.
 
-In addition to defining functions as described here, you can also use the [http://docs.webplatform.org/en-US/docs/JavaScript/Reference/Statements/function <code>function</code> statement] and the function expression. See the [http://docs.webplatform.org/en-US/docs/JavaScript/Reference JavaScript Reference] for more information.
+In addition to defining functions as described here, you can also use the [http://docs.webplatform.org/en-US/docs/JavaScript/Reference/Statements/function <code>function</code> statement] and the function expression. See the [[/js|JavaScript Reference]] for more information.
 
 The following code assigns a function to the variable <code>setBGColor</code>. This function sets the current document's background color.
 
@@ -531,45 +516,45 @@ Note that all trigonometric methods of <code>Math</code> take arguments in radia
 
 The following table summarizes the <code>Math</code> object's methods.
 
-{| class="standard-table"
-|+  Table 7.1 Methods of Math
-|-
-! scope="col" | Method
-! scope="col" | Description
-|-
-| <code>abs</code>
-| Absolute value
-|-
-| <code>sin</code>, <code>cos</code>, <code>tan</code>
-| Standard trigonometric functions; argument in radians
-|-
-| <code>acos</code>, <code>asin</code>, <code>atan</code>, <code>atan2</code>
-| Inverse trigonometric functions; return values in radians
-|-
-| <code>exp</code>, <code>log</code>
-| Exponential and natural logarithm, base <code>e</code>
-|-
-| <code>ceil</code>
-| Returns least integer greater than or equal to argument
-|-
-| <code>floor</code>
-| Returns greatest integer less than or equal to argument
-|-
-| <code>min</code>, <code>max</code>
-| Returns greater or lesser (respectively) of two arguments
-|-
-| <code>pow</code>
-| Exponential; first argument is base, second is exponent
-|-
-| <code>random</code>
-| Returns a random number between 0 and 1.
-|-
-| <code>round</code>
-| Rounds argument to nearest integer
-|-
-| <code>sqrt</code>
-| Square root
-|}
+{{{!}} class="standard-table"
+{{!}}+  Table 7.1 Methods of Math
+{{!}}-
+! scope="col" {{!}} Method
+! scope="col" {{!}} Description
+{{!}}-
+{{!}} <code>abs</code>
+{{!}} Absolute value
+{{!}}-
+{{!}} <code>sin</code>, <code>cos</code>, <code>tan</code>
+{{!}} Standard trigonometric functions; argument in radians
+{{!}}-
+{{!}} <code>acos</code>, <code>asin</code>, <code>atan</code>, <code>atan2</code>
+{{!}} Inverse trigonometric functions; return values in radians
+{{!}}-
+{{!}} <code>exp</code>, <code>log</code>
+{{!}} Exponential and natural logarithm, base <code>e</code>
+{{!}}-
+{{!}} <code>ceil</code>
+{{!}} Returns least integer greater than or equal to argument
+{{!}}-
+{{!}} <code>floor</code>
+{{!}} Returns greatest integer less than or equal to argument
+{{!}}-
+{{!}} <code>min</code>, <code>max</code>
+{{!}} Returns greater or lesser (respectively) of two arguments
+{{!}}-
+{{!}} <code>pow</code>
+{{!}} Exponential; first argument is base, second is exponent
+{{!}}-
+{{!}} <code>random</code>
+{{!}} Returns a random number between 0 and 1.
+{{!}}-
+{{!}} <code>round</code>
+{{!}} Rounds argument to nearest integer
+{{!}}-
+{{!}} <code>sqrt</code>
+{{!}} Square root
+{{!}}}
 
 Unlike many other objects, you never create a <code>Math</code> object of your own. You always use the predefined <code>Math</code> object.
 
@@ -587,54 +572,54 @@ You always refer to a property of the predefined <code>Number</code> object as s
 
 The following table summarizes the <code>Number</code> object's properties.
 
-{| class="standard-table"
-|+  Table 7.2 Properties of Number
-|-
-! scope="col" | Property
-! scope="col" | Description
-|-
-| <code>MAX_VALUE</code>
-| The largest representable number
-|-
-| <code>MIN_VALUE</code>
-| The smallest representable number
-|-
-| <code>NaN</code>
-| Special "not a number" value
-|-
-| <code>NEGATIVE_INFINITY</code>
-| Special negative infinite value; returned on overflow
-|-
-| <code>POSITIVE_INFINITY</code>
-| Special positive infinite value; returned on overflow
-|}
+{{{!}} class="standard-table"
+{{!}}+  Table 7.2 Properties of Number
+{{!}}-
+! scope="col" {{!}} Property
+! scope="col" {{!}} Description
+{{!}}-
+{{!}} <code>MAX_VALUE</code>
+{{!}} The largest representable number
+{{!}}-
+{{!}} <code>MIN_VALUE</code>
+{{!}} The smallest representable number
+{{!}}-
+{{!}} <code>NaN</code>
+{{!}} Special "not a number" value
+{{!}}-
+{{!}} <code>NEGATIVE_INFINITY</code>
+{{!}} Special negative infinite value; returned on overflow
+{{!}}-
+{{!}} <code>POSITIVE_INFINITY</code>
+{{!}} Special positive infinite value; returned on overflow
+{{!}}}
 
 The Number prototype provides methods for retrieving information from Number objects in various formats. The following table summarizes the methods of <code>Number.prototype</code>.
 
-{| class="fullwidth-table"
-|+  Table 7.3 Methods of Number.prototype
-|-
-! scope="col" | Method
-! scope="col" | Description
-|-
-| <code>toExponential</code>
-| Returns a string representing the number in exponential notation.
-|-
-| <code>toFixed</code>
-| Returns a string representing the number in fixed-point notation.
-|-
-| <code>toPrecision</code>
-| Returns a string representing the number to a specified precision in fixed-point notation.
-|-
-| <code>toSource</code>
-| Returns an object literal representing the specified <code>Number</code> object; you can use this value to create a new object. Overrides the <code>Object.toSource</code> method.
-|-
-| <code>toString</code>
-| Returns a string representing the specified object. Overrides the <code>Object.toString </code>method.
-|-
-| <code>valueOf</code>
-| Returns the primitive value of the specified object. Overrides the <code>Object.valueOf </code>method.
-|}
+{{{!}} class="fullwidth-table"
+{{!}}+  Table 7.3 Methods of Number.prototype
+{{!}}-
+! scope="col" {{!}} Method
+! scope="col" {{!}} Description
+{{!}}-
+{{!}} <code>toExponential</code>
+{{!}} Returns a string representing the number in exponential notation.
+{{!}}-
+{{!}} <code>toFixed</code>
+{{!}} Returns a string representing the number in fixed-point notation.
+{{!}}-
+{{!}} <code>toPrecision</code>
+{{!}} Returns a string representing the number to a specified precision in fixed-point notation.
+{{!}}-
+{{!}} <code>toSource</code>
+{{!}} Returns an object literal representing the specified <code>Number</code> object; you can use this value to create a new object. Overrides the <code>Object.toSource</code> method.
+{{!}}-
+{{!}} <code>toString</code>
+{{!}} Returns a string representing the specified object. Overrides the <code>Object.toString </code>method.
+{{!}}-
+{{!}} <code>valueOf</code>
+{{!}} Returns the primitive value of the specified object. Overrides the <code>Object.valueOf </code>method.
+{{!}}}
 
 ==RegExp Object==
 
@@ -665,7 +650,7 @@ A <code>String</code> object has two types of methods: those that return a varia
 
 For example, using the previous example, both <code>mystring.toUpperCase()</code> and <code>"hello, world!".toUpperCase()</code> return the string "HELLO, WORLD!"
 
-The <code>substring</code> method takes two arguments and returns a subset of the string between the two arguments. Using the previous example, <code>mystring.substring(4, 9)</code> returns the string "o, Wo". See the [http://docs.webplatform.org/en-US/docs/JavaScript/Reference/Global_Objects/String/substring <code>substring</code>] method of the <code>String</code> object in the JavaScript Reference for more information.
+The <code>substring</code> method takes two arguments and returns a subset of the string between the two arguments. Using the previous example, <code>mystring.substring(4, 9)</code> returns the string "o, Wo". See the [[/js/objects/String/substring|<code>substring</code>]] method of the <code>String</code> object in the JavaScript Reference for more information.
 
 The <code>String</code> object also has a number of methods for automatic HTML formatting, such as <code>bold</code> to create boldface text and <code>link</code> to create a hyperlink. For example, you could create a hyperlink to a hypothetical URL with the <code>link</code> method as follows:
 
@@ -673,58 +658,57 @@ The <code>String</code> object also has a number of methods for automatic HTML f
 
 The following table summarizes the methods of <code>String</code> objects.
 
-{| class="fullwidth-table"
-|+  Table 7.4 Methods of String Instances
-|-
-! scope="col" | Method
-! scope="col" | Description
-|-
-| <code>[http://docs.webplatform.org/en-US/docs/JavaScript/Reference/Global_Objects/String/anchor anchor]</code>
-| Creates HTML named anchor.
-|-
-| <code>[http://docs.webplatform.org/en-US/docs/JavaScript/Reference/Global_Objects/String/big big]</code>, <code>[http://docs.webplatform.org/en-US/docs/JavaScript/Reference/Global_Objects/String/blink blink]</code>, <code>[http://docs.webplatform.org/en-US/docs/JavaScript/Reference/Global_Objects/String/bold bold]</code>, <code>[http://docs.webplatform.org/en-US/docs/JavaScript/Reference/Global_Objects/String/fixed fixed]</code>, <code>[http://docs.webplatform.org/en-US/docs/JavaScript/Reference/Global_Objects/String/italics italics]</code>, <code>[http://docs.webplatform.org/en-US/docs/JavaScript/Reference/Global_Objects/String/small small]</code>, <code>[http://docs.webplatform.org/en-US/docs/JavaScript/Reference/Global_Objects/String/strike strike]</code>, <code>[http://docs.webplatform.org/en-US/docs/JavaScript/Reference/Global_Objects/String/sub sub]</code>, <code>[http://docs.webplatform.org/en-US/docs/JavaScript/Reference/Global_Objects/String/sup sup]</code>
-| Create HTML formatted string.
-|-
-| <code>[http://docs.webplatform.org/en-US/docs/JavaScript/Reference/Global_Objects/String/charAt charAt]</code>, <code>[http://docs.webplatform.org/en-US/docs/JavaScript/Reference/Global_Objects/String/charCodeAt charCodeAt]</code>
-| Return the character or character code at the specified position in string.
-|-
-| <code>[http://docs.webplatform.org/en-US/docs/JavaScript/Reference/Global_Objects/String/indexOf indexOf]</code>, <code>[http://docs.webplatform.org/en-US/docs/JavaScript/Reference/Global_Objects/String/lastIndexOf lastIndexOf]</code>
-| Return the position of specified substring in the string or last position of specified substring, respectively.
-|-
-| <code>[http://docs.webplatform.org/en-US/docs/JavaScript/Reference/Global_Objects/String/link link]</code>
-| Creates HTML hyperlink.
-|-
-| <code>[http://docs.webplatform.org/en-US/docs/JavaScript/Reference/Global_Objects/String/concat concat]</code>
-| Combines the text of two strings and returns a new string.
-|-
-| <code>[http://docs.webplatform.org/en-US/docs/JavaScript/Reference/Global_Objects/String/fromCharCode fromCharCode]</code>
-| Constructs a string from the specified sequence of Unicode values. This is a method of the String class, not a String instance.
-|-
-| <code>[http://docs.webplatform.org/en-US/docs/JavaScript/Reference/Global_Objects/String/split split]</code>
-| Splits a <code>String</code> object into an array of strings by separating the string into substrings.
-|-
-| <code>[http://docs.webplatform.org/en-US/docs/JavaScript/Reference/Global_Objects/String/slice slice]</code>
-| Extracts a section of an string and returns a new string.
-|-
-| <code>[http://docs.webplatform.org/en-US/docs/JavaScript/Reference/Global_Objects/String/substring substring]</code>, <code>[http://docs.webplatform.org/en-US/docs/JavaScript/Reference/Global_Objects/String/substr substr]</code>
-| Return the specified subset of the string, either by specifying the start and end indexes or the start index and a length.
-|-
-| <code>[http://docs.webplatform.org/en-US/docs/JavaScript/Reference/Global_Objects/String/match match]</code>, <code>[http://docs.webplatform.org/en-US/docs/JavaScript/Reference/Global_Objects/String/replace replace]</code>, <code>[http://docs.webplatform.org/en-US/docs/JavaScript/Reference/Global_Objects/String/search search]</code>
-| Work with regular expressions.
-|-
-| <code>[http://docs.webplatform.org/en-US/docs/JavaScript/Reference/Global_Objects/String/toLowerCase toLowerCase]</code>, <code>[http://docs.webplatform.org/en-US/docs/JavaScript/Reference/Global_Objects/String/toUpperCase toUpperCase]</code>
-|
-Return the string in all lowercase or all uppercase, respectively.
-|}
+{{{!}} class="fullwidth-table"
+{{!}}+  Table 7.4 Methods of String Instances
+{{!}}-
+! scope="col" {{!}} Method
+! scope="col" {{!}} Description
+{{!}}-
+{{!}} <code>[[/js/objects/String/anchor|anchor]]</code>
+{{!}} Creates HTML named anchor.
+{{!}}-
+{{!}} <code>[[/js/objects/String/big|big]]</code>, <code>[[/js/objects/String/blink|blink]]</code>, <code>[[/js/objects/String/bold|bold]]</code>, <code>[http://docs.webplatform.org/en-US/docs/JavaScript/Reference/Global_Objects/String/fixed fixed]</code>, <code>[[/js/objects/String/italics|italics]]</code>, <code>[[/js/objects/String/small|small]]</code>, <code>[[/js/objects/String/strike|strike]]</code>, <code>[[/js/objects/String/sub|sub]]</code>, <code>[[/js/objects/String/sup|sup]]</code>
+{{!}} Create HTML formatted string.
+{{!}}-
+{{!}} <code>[[/js/objects/String/charAt|charAt]]</code>, <code>[[/js/objects/String/charCodeAt|charCodeAt]]</code>
+{{!}} Return the character or character code at the specified position in string.
+{{!}}-
+{{!}} <code>[[/js/objects/String/indexOf|indexOf]]</code>, <code>[[/js/objects/String/lastIndexOf|lastIndexOf]]</code>
+{{!}} Return the position of specified substring in the string or last position of specified substring, respectively.
+{{!}}-
+{{!}} <code>[[/objects/String/link|link]]</code>
+{{!}} Creates HTML hyperlink.
+{{!}}-
+{{!}} <code>[[/js/objects/String/concat|concat]]</code>
+{{!}} Combines the text of two strings and returns a new string.
+{{!}}-
+{{!}} <code>[[/js/objects/String/fromCharCode|fromCharCode]]</code>
+{{!}} Constructs a string from the specified sequence of Unicode values. This is a method of the String class, not a String instance.
+{{!}}-
+{{!}} <code>[[/js/objects/String/split|split]]</code>
+{{!}} Splits a <code>String</code> object into an array of strings by separating the string into substrings.
+{{!}}-
+{{!}} <code>[[/js/objects/String/slice|slice]]</code>
+{{!}} Extracts a section of an string and returns a new string.
+{{!}}-
+{{!}} <code>[[/js/objects/String/substring|substring]]</code>, <code>[[/js/objects/String/substr|substr]]</code>
+{{!}} Return the specified subset of the string, either by specifying the start and end indexes or the start index and a length.
+{{!}}-
+{{!}} <code>[[/js/objects/String/match|match]]</code>, <code>[[/js/objects/String/replace|replace]]</code>, <code>[[/js/objects/String/search|search]]</code>
+{{!}} Work with regular expressions.
+{{!}}-
+{{!}} <code>[[/js/ojects/String/toLowerCase|toLowerCase]]</code>, <code>[[/js/objects/String/toUpperCase|toUpperCase]]</code>
+{{!}} Return the string in all lowercase or all uppercase, respectively.
+{{!}}}
 
 <div>
 
-<span style="float: left">[http://docs.webplatform.org/en-US/docs/JavaScript/Guide/Working_with_Objects « Previous]</span>[http://docs.webplatform.org/en-US/docs/JavaScript/Guide/Details_of_the_Object_Model Next »]
+<span style="float: left">[[/guides/JavaScript/Working_with_Objects |&laquo; Previous]]</span>[[/guides/JavaScript/Details_of_the_Object_Model|Next &raquo;]
 
 </div>
 }}
 {{See_Also_Section}}
-{{Topics}}
+{{Topics|JavaScript}}
 {{External_Attribution
 |Is_CC-BY-SA=Yes
 |Sources=MDN
