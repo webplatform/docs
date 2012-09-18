@@ -1,257 +1,219 @@
 {{Flags}}
-{{Summary_Section}}
+{{Summary_Section|This article explains in detail the different ways you can specify color in CSS. }}
 {{Tutorial
-|Content=
-{{ CSSTutorialTOC() }}
-
- 
-{{previousPage("/en-US/docs/CSS/Getting_Started/Text_styles", "Text styles")}}This is the 8th section of the [[CSS Getting Started]] tutorial; it explains in details about how you can specify color in CSS. In your sample stylesheet, you introduce background colors.
-
- 
-== Information: Color ==
+|Content=== Information: Color ==
  
 In this tutorial so far, you have used a limited number of named colors. CSS 2 supports 17 named colors in all. Some of the names might not be what you expect:
 
-                                                  
-{| border="1"
-|-
-| 
-|black
-| 
-|gray
-| 
-|silver
-| 
-|white
-| 
-|-
-|primaries
-|red
-| 
-|lime
-| 
-|blue
-| 
-|-
-|secondaries
-|yellow
-| 
-|aqua
-| 
-|fuchsia
-| 
-|-
-| 
-|maroon
-| 
-|orange
-| 
-|olive
-| 
-|purple
-| 
-|green
-| 
-|navy
-| 
-|teal
-| 
-|}   
-    Details 
+{{{!}} border="1"
+{{!}}-
+{{!}} 
+{{!}}<p style="color:black;">black</p>
+{{!}} 
+{{!}}<p style="color:gray;">gray</p>
+{{!}} 
+{{!}}<p style="color:silver;">silver</p>
+{{!}} 
+{{!}}<p style="color:white;background-color:black;">white</p>
+{{!}} 
+{{!}}-
+{{!}}primaries
+{{!}}<p style="color:red;">red</p>
+{{!}} 
+{{!}}<p style="color:lime;">lime</p>
+{{!}} 
+{{!}}<p style="color:blue;">blue</p>
+{{!}} 
+{{!}}-
+{{!}}secondaries
+{{!}}<p style="color:yellow;">yellow</p>
+{{!}} 
+{{!}}<p style="color:aqua;">aqua</p>
+{{!}} 
+{{!}}<p style="color:fuchsia;">fuchsia</p>
+{{!}} 
+{{!}}-
+{{!}} 
+{{!}}<p style="color:maroon;">maroon</p>
+{{!}} 
+{{!}}<p style="color:orange;">orange</p>
+{{!}} 
+{{!}}<p style="color:olive;">olive</p>
+{{!}} 
+{{!}}<p style="color:purple;">purple</p>
+{{!}} 
+{{!}}<p style="color:green;">green</p>
+{{!}} 
+{{!}}<p style="color:navy;">navy</p>
+{{!}} 
+{{!}}<p style="color:teal;">teal</p>
+{{!}} 
+{{!}}}                                                  
+   
+===Further color keyword details===
 Your browser might support many more named colors, like:
 
-                
-{| border="1"
-|-
-|dodgerblue
-| 
-|peachpuff
-| 
-|tan
-| 
-|firebrick
-| 
-|aquamarine
-| 
-|} 
-For details of this extended list, see: [[SVG color keywords]] in the CSS 3 Color Module. Beware of using color names that your reader's browsers might not support.
+{{{!}} border="1"
+{{!}}-
+{{!}}<p style="color:dodgerblue;">dodgerblue</p>
+{{!}} 
+{{!}}<p style="color:peachpuff;">peachpuff</p>
+{{!}} 
+{{!}}<p style="color:tan;">tan</p>
+{{!}} 
+{{!}}<p style="color:firebrick;">firebrick</p>
+{{!}} 
+{{!}}<p style="color:aquamarine;">aquamarine
+{{!}} 
+{{!}}} 
 
+For details of this extended list, see: [[SVG color keywords]] in the CSS 3 Color Module. Beware of using color names that your reader's browsers might not support.
   
 For a larger palette, specify the red, green and blue components of the color you want by using a number sign (hash) and three ''hexadecimal'' digits in the range 0 – 9, a – f. The letters a – f represent the values 10 – 15:
 
-                             
-{| border="1"
-|-
-|black
-| 
-|<code>#000</code>
-|-
-|pure red
-| 
-|<code>#f00</code>
-|-
-|pure green
-| 
-|<code>#0f0</code>
-|-
-|pure blue
-| 
-|<code>#00f</code>
-|-
-|white
-| 
-|<code>#fff</code>
-|} 
-<br>
-For the full palette, specify two hexadecimal digits for each component:
+{{{!}} border="1"
+{{!}}-
+{{!}}black
+{{!}} 
+{{!}}<code style="color:#000;">#000</code>
+{{!}}-
+{{!}}pure red
+{{!}} 
+{{!}}<code style="color:#f00;">#f00</code>
+{{!}}-
+{{!}}pure green
+{{!}} 
+{{!}}<code style="color:#0f0;">#0f0</code>
+{{!}}-
+{{!}}pure blue
+{{!}} 
+{{!}}<code style="color:#00f;">#00f</code>
+{{!}}-
+{{!}}white
+{{!}} 
+{{!}}<code style="color:#fff;background-color:#000">#fff</code>
+{{!}}} 
 
+For the full palette, specify two hexadecimal digits for each component:
                              
-{| border="1"
-|-
-|black
-| 
-|<code>#000000</code>
-|-
-|pure red
-| 
-|<code>#ff0000</code>
-|-
-|pure green
-| 
-|<code>#00ff00</code>
-|-
-|pure blue
-| 
-|<code>#0000ff</code>
-|-
-|white
-| 
-|<code>#ffffff</code>
-|} 
+{{{!}} border="1"
+{{!}}-
+{{!}}black
+{{!}} 
+{{!}}<code style="color:#000000;">#000000</code>
+{{!}}-
+{{!}}pure red
+{{!}} 
+{{!}}<code style="color:#ff0000;">#ff0000</code>
+{{!}}-
+{{!}}pure green
+{{!}} 
+{{!}}<code style="color:#00ff00;">#00ff00</code>
+{{!}}-
+{{!}}pure blue
+{{!}} 
+{{!}}<code style="color:#0000ff;">#0000ff</code>
+{{!}}-
+{{!}}white
+{{!}} 
+{{!}}<code style="color:#ffffff;background-color:#000000;">#ffffff</code>
+{{!}}} 
+
 You can usually get these six-digit hexadecimal codes from your graphics program or some other tool.
 
   
-    Example 
-With a little practice, you can adjust the three-digit colors manually for most purposes:
+===Further hex examples=== 
 
+With a little practice, you can adjust the three-digit colors manually for most purposes:
                                   
-{| border="1"
-|-
-|Start with pure red:
-| 
-|<code>#f00</code>
-|-
-|To make it paler, add some green and blue:
-| 
-|<code>#f77</code>
-|-
-|To make it more orange, add a little extra green:
-| 
-|<code>#fa7</code>
-|-
-|To darken it, reduce all its components:
-| 
-|<code>#c74</code>
-|-
-|To reduce its saturation, make its components more equal:
-| 
-|<code>#c98</code>
-|-
-|If you make them exactly equal, you get gray:
-| 
-|<code>#ccc</code>
-|} 
+{{{!}} border="1"
+{{!}}-
+{{!}}Start with pure red:
+{{!}} 
+{{!}}<code style="color:#f00;">#f00</code>
+{{!}}-
+{{!}}To make it paler, add some green and blue:
+{{!}} 
+{{!}}<code style="color:#f77;">#f77</code>
+{{!}}-
+{{!}}To make it more orange, add a little extra green:
+{{!}} 
+{{!}}<code style="color:#fa7;">#fa7</code>
+{{!}}-
+{{!}}To darken it, reduce all its components:
+{{!}} 
+{{!}}<code style="color:#c74;">#c74</code>
+{{!}}-
+{{!}}To reduce its saturation, make its components more equal:
+{{!}} 
+{{!}}<code style="color:#c98;">#c98</code>
+{{!}}-
+{{!}}If you make them exactly equal, you get gray:
+{{!}} 
+{{!}}<code style="color:#ccc;">#ccc</code>
+{{!}}} 
+
 For a pastel shade like pale blue:
 
               
-{| border="1"
-|-
-|Start with pure white:
-| 
-|<code>#fff</code>
-|-
-|Reduce the other components a little:
-| 
-|<code>#eef</code>
-|}   
-    More details 
-You can also specify a color using decimal RGB values in the range 0 – 255, or percentages.
+{{{!}} border="1"
+{{!}}-
+{{!}}Start with pure white:
+{{!}} 
+{{!}}<code style="color:#fff;background-color:black;">#fff</code>
+{{!}}-
+{{!}}Reduce the other components a little:
+{{!}} 
+{{!}}<code style="color:#eef;">#eef</code>
+{{!}}}   
 
+==RGB colors== 
+
+You can also specify a color using decimal RGB values in the range 0 – 255, or percentages. For example, this is maroon (dark red):
+
+<pre>rgb(128, 0, 0)</pre>
  
-For example, this is maroon (dark red):
+For full details of how to specify colors, see: [[Colors]] in the CSS Specification. For information on matching system colors like Menu and ThreeDFace, see: [[CSS2 System Colors]] in the CSS Specification.
 
- 
-<pre>
-rgb(128, 0, 0)
-
-</pre>
- 
-For full details of how to specify colors, see: [[Colors]] in the CSS Specification.
-
- 
-For information on matching system colors like Menu and ThreeDFace, see: [[CSS2 System Colors]] in the CSS Specification.
-
-  
 === Color properties ===
  
-You have already used the {{ cssxref("color") }} property on text.
+You have already used the [color] property on text.You can also use the [background-color] property to change elements' backgrounds. Backgrounds can be set to <code>transparent</code> to explicitly remove any color, revealing the parent element's background.
 
- 
-You can also use the {{ cssxref("background-color") }} property to change elements' backgrounds.
-
- 
-Backgrounds can be set to <code>transparent</code> to explicitly remove any color, revealing the parent element's background.
-
-  
-    Example 
-The '''Example''' boxes in this tutorial use this pale yellow background:
-
- 
-<pre>
-background-color: #fffff4;
-
-</pre>
+<pre style="background-color: #fffff4;">background-color: #fffff4;</pre>
  
 The '''More details''' boxes use this pale gray:
 
  
-<pre>
-background-color: #f4f4f4;
-
-</pre>
+<pre style="background-color: #f4f4f4;">background-color: #f4f4f4;</pre>
    
 == Action: Using color codes ==
  
-# Edit your CSS file.
-# Make the change shown here in bold, to give the initial letters a pale blue background. (The layout and comments in your file probably differ from the file shown here. Keep the layout and comments the way you prefer them.)
-     <pre>
- /*** CSS Tutorial: Color page ***/
+<ol>
+<li><p>Edit your CSS file; make the change shown here in bold, to give the initial letters a pale blue background. (The layout and comments in your file probably differ from the file shown here. Keep the layout and comments the way you prefer them.)</p>
+
+<pre>/*** CSS Tutorial: Color page ***/
   
- /* page font */
- body {font: 16px "Comic Sans MS", cursive;}
+/* page font */
+body {font: 16px "Comic Sans MS", cursive;}
   
- /* paragraphs */
- p {color: blue;}
- #first {font-style: italic;}
+/* paragraphs */
+p {color: blue;}
+#first {font-style: italic;}
  
- /* initial letters */
- strong {
-   color: red;
-   background-color: #ddf;
-   font: 200% serif;
-   }
+/* initial letters */
+strong {
+  color: red;
+  background-color: #ddf;
+  font: 200% serif;
+}
  
- .carrot {color: red;}
- .spinach {color: green;}
-  </pre>
-# Save the file and refresh your browser to see the result.
-          
-{| border="1"
-|-
-|'''C'''ascading '''S'''tyle '''S'''heets
-|-
-|'''C'''ascading '''S'''tyle '''S'''heets
-|}  
+.carrot {color: red;}
+.spinach {color: green;}</pre></li>
+
+<li><p>Save the file and refresh your browser to see the result.</p></li>
+</ol> 
+
+<p class="note">Note: need to add screenshot fo the result?</p>
 }}
 {{Compatibility_Section
 |Not_required=Yes
