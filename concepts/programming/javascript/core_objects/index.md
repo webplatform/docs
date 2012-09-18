@@ -1,7 +1,7 @@
 {{Flags}}
 {{Summary_Section|This chapter describes the predefined objects in core JavaScript: <code>Array</code>, <code>Boolean</code>, <code>Date</code>, <code>Function</code>, <code>Math</code>, <code>Number</code>, <code>RegExp</code>, and <code>String</code>.}}
-{{Guide
-|Content===Array Object==
+{{Guide|Content
+==Array Object==
 
 JavaScript does not have an explicit array data type. However, you can use the predefined <code>Array</code> object and its methods to work with arrays in your applications. The <code>Array</code> object has methods for manipulating arrays in various ways, such as joining, reversing, and sorting them. It has a property for determining the array length and other properties for use with regular expressions.
 
@@ -228,7 +228,7 @@ The methods above that take a callback are known as ''iterative methods'', becau
 
 The callback function is actually called with three arguments. The first is the value of the current item, the second is its array index and the third is a reference to the array itself. JavaScript functions ignore any arguments that are not named in the parameter list so it is safe to provide a callback function that only takes a single argument, such as <code>alert</code>.
 
-{{Note: Introduced in JavaScript 1.8}}
+{{Note|Introduced in JavaScript 1.8}}
 
 
 * [[/js/objects/Array/Reduce|<code>reduce(callback[, initialValue])</code>]] applies <code>callback(firstValue, secondValue)</code> to reduce the list of items down to a single value.  var a = [10, 20, 30];
@@ -265,7 +265,7 @@ When an array is the result of a match between a regular expression and a string
 
 ===Working with Array-like objects===
 
-{{Note: Introduced in JavaScript 1.6}}
+{{Note|Introduced in JavaScript 1.6}}
 
 Some JavaScript objects, such as the [[/dom/NodeList|<code>NodeList</code>]] returned by [[/dom/document.getElementsByTagName|<code>document.getElementsByTagName()</code>]] or the [[/sj/functions/arguments|<code>arguments</code>]] object made available within the body of a function, look and behave like arrays on the surface but do not share all of their methods. The <code>arguments</code> object provides a [[/js/functions/arguments/length|<code>length</code>]] attribute but does not implement the [[/js/objects/Array/forEach|<code>forEach()</code>]] method, for example.
 
@@ -304,7 +304,7 @@ Note that <code>filter</code> and <code>map</code> do not automatically return t
 
 ===Array comprehensions===
 
-{{Note: Introduced in JavaScript 1.7}}
+{{Note|Introduced in JavaScript 1.7}}
 
 
 Introduced in JavaScript 1.7, array comprehensions provide a useful shortcut for constructing a new array based on the contents of another. Comprehensions can often be used in place of calls to <code>map()</code> and <code>filter()</code>, or as a way of combining the two.
