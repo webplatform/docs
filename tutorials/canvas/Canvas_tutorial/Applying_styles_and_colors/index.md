@@ -44,12 +44,8 @@ ctx.fillStyle = "rgba(255,165,0,1)";
 
 ==== A strokeStyle example ====
  
-[[Image:=Canvas_strokestyle.png|=Canvas_strokestyle.png]]This example is similar to the one above but now using the <code>strokeStyle</code> property. Here I use the <code>arc</code> method to draw circles instead of squares.
+[[File:Canvas strokestyle.png|right|Canvas filled with empty circles with different colored lines]]This example is similar to the one above but now using the <code>strokeStyle</code> property. Here I use the <code>arc</code> method to draw circles instead of squares.
 
- 
-[[View this example]]
-
- 
 <pre>  function draw() {
     var ctx = document.getElementById('canvas').getContext('2d');
     for (var i=0;i&lt;6;i++){
@@ -62,34 +58,26 @@ ctx.fillStyle = "rgba(255,165,0,1)";
       }
     }
   }
-
 </pre>
  
 == Transparency ==
  
 Besides drawing opaque shapes to the canvas, we can also draw semi-transparent shapes. This is done by setting the <code>globalAlpha</code> property, or we could assign a semi-transparent color to the stroke and/or fill style.
-
   
 <code>'''globalAlpha''' = transparency value</code>
-
   
 This property applies a transparency value to all shapes drawn on the canvas. The valid range of values is from 0.0 (fully transparent) to 1.0 (fully opaque). By default, this property is set to 1.0 (fully opaque).
-
  
 The <code>globalAlpha</code> property can be useful if you want to draw a lot of shapes on the canvas with similar transparency. I think, however, that the next option is a little more practical.
-
  
 Because the <code>strokeStyle</code> and <code>fillStyle</code> properties accept CSS 3 color values, we can use the following notation to assign a transparent color to them.
-
  
 <pre>// Assigning transparent colors to stroke and fill style
 ctx.strokeStyle = "rgba(255,0,0,0.5)";
 ctx.fillStyle = "rgba(255,0,0,0.5)";
-
 </pre>
  
 The <code>rgba()</code> function is similar to the <code>rgb()</code> function but it has one extra parameter. The last parameter sets the transparency value of this particular color. The valid range is again between 0.0 (fully transparent) and 1.0 (fully opaque).
-
  
 ==== A globalAlpha example ====
  
