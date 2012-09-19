@@ -127,7 +127,7 @@ The <code>calculateDistance()</code> function performs a geometric algorithm to 
 </pre>
 
 ==The Final Product==
-The final result is shown below. Of course, you'll need to go some distance in order to get the distance figure going, so try this out while you're on the move. It's recommended you try this test on a GPS-equipped device (e.g. most modern smartphones) for accuracy.
+Please see the [http://www.html5rocks.com/en/tutorials/geolocation/trip_meter/ original HTML5Rocks! article] for a live trip meter demo using the geolocation feature.
 }}
 {{Compatibility_Section
 |Not_required=No
