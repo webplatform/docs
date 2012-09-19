@@ -300,7 +300,7 @@ These tables have a pale green background. Their cells have a pale gray backgrou
   </li>
 </ul>
 </li>
-</ul>
+</ol>
 }}
 {{Compatibility_Section
 |Not_required=Yes
