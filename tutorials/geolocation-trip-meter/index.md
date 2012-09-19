@@ -17,7 +17,7 @@ The example here is a trip meter showing the initial location and maintaining a 
 ==Step 1. Check for Compatibility==
 You can easily check for compatibility by testing for the presence of the geolocation object:
 
-<pre class="prettyprint">
+<pre>
 // check for Geolocation support
 if (navigator.geolocation) {
   console.log('Geolocation is supported!');
@@ -33,7 +33,7 @@ In this example, you're building a trip meter, so declare the following HTML:
  &lt;div id="tripmeter"&gt;
    &lt;p&gt;
      Starting Location (lat, lon):&lt;br/&gt;
-     &lt;span id="startLat"&gt;???&lt;/span&gt;�, &lt;span id="startLon"&gt;???&lt;/span&gt;�
+     &lt;span id="startLat"&gt;???&lt;/span&gt;&deg;, &lt;span id="startLon"&gt;???&lt;/span&gt;�
    &lt;/p&gt;
    &lt;p&gt;
      Current Location (lat, lon):&lt;br/&gt;
@@ -128,7 +128,6 @@ The <code>calculateDistance()</code> function performs a geometric algorithm to 
 
 ==The Final Product==
 The final result is shown below. Of course, you'll need to go some distance in order to get the distance figure going, so try this out while you're on the move. It's recommended you try this test on a GPS-equipped device (e.g. most modern smartphones) for accuracy.
-
 }}
 {{Compatibility_Section
 |Not_required=No
