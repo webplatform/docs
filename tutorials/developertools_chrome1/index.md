@@ -1,14 +1,12 @@
-{{Flags}}
-{{Summary_Section}}
+{{Flags
+|High-level issues=Needs Flags
+}}
+{{Summary_Section|An introduction to Chrome Developer Tools}}
 {{Tutorial
 |Content==Introduction to Chrome Developer Tools, Part One=
 
 ====original by Seth Ladd====
 ====published June 18, 2010====
-
-==Supported browsers:==
-
-<span class="browsers"> <span class="browser opera "> <span class="browser_name">Opera</span> <span class="support"> unsupported </span> </span> <span class="browser ie "> <span class="browser_name">IE</span> <span class="support"> unsupported </span> </span> <span class="browser safari supported"> <span class="browser_name">Safari</span> <span class="support"> supported </span> </span> <span class="browser ff "> <span class="browser_name">Firefox</span> <span class="support"> unsupported </span> </span> <span class="browser chrome supported"> <span class="browser_name">Chrome</span> <span class="support"> supported </span> </span> </span>
 
 ==Introduction==
 
@@ -229,11 +227,30 @@ For more information on the Developer Tools, we can recommend the following:
 And of course, stay tuned to HTML5Rocks!.com for Part 2 of this article, along with lots of other great HTML5 and Chrome content.
 
 Except as otherwise [http://code.google.com/policies.html#restrictions noted], the content of this page is licensed under the [http://creativecommons.org/licenses/by/3.0/ Creative Commons Attribution 3.0 License], and code samples are licensed under the [http://www.apache.org/licenses/LICENSE-2.0 Apache 2.0 License].
-
 }}
 {{Compatibility_Section
 |Not_required=No
-|Desktop_rows=
+|Desktop_rows={{Compatibility Table Desktop Row
+|Chrome_supported=Yes
+|Chrome_prefixed_supported=Unknown
+|Chrome_prefixed_version=
+|Firefox_supported=No
+|Firefox_version=
+|Firefox_prefixed_supported=No
+|Firefox_prefixed_version=
+|Internet_explorer_supported=No
+|Internet_explorer_version=
+|Internet_explorer_prefixed_supported=No
+|Internet_explorer_prefixed_version=
+|Opera_supported=No
+|Opera_version=
+|Opera_prefixed_supported=No
+|Opera_prefixed_version=
+|Safari_supported=No
+|Safari_version=
+|Safari_prefixed_supported=No
+|Safari_prefixed_version=
+}}
 |Mobile_rows=
 |Notes_rows=
 }}
