@@ -8,9 +8,6 @@
 ====original by Michael Mahemoff====
 ====published May 24, 2010====
 
-==Supported browsers==
-<span class="browsers"> <span class="browser opera supported"> <span class="browser_name">Opera</span> <span class="support"> supported </span> </span> <span class="browser ie "> <span class="browser_name">IE</span> <span class="support"> unsupported </span> </span> <span class="browser safari supported"> <span class="browser_name">Safari</span> <span class="support"> supported </span> </span> <span class="browser ff supported"> <span class="browser_name">Firefox</span> <span class="support"> supported </span> </span> <span class="browser chrome supported"> <span class="browser_name">Chrome</span> <span class="support"> supported </span> </span> </span>
-
 ==Introduction==
 The [http://dev.w3.org/geo/api/ Geolocation API] lets you find out where the user is and keep tabs on them as they move around, always with the user's consent. This functionality could be used as part of user queries, e.g., to guide someone to a destination point. It could also be used for "geo-tagging" some content the user has created, e.g., to mark where a photo was taken. The API is device-agnostic; it doesn't care how the browser determines location, so long as clients can request and receive location data in a standard way. The underlying mechanism might be GPS, wifi, or simply asking the user to enter their location manually. Since any of these lookups is going to take some time, the API is asynchronous; you pass it a callback method whenever you request a location.
 
