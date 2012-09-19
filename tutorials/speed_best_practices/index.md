@@ -131,15 +131,15 @@ Some possible situations where you could use Web Workers:
 
 ==Tip 8: HTML5 Form attributes and input types==
 
-HTML5 introduces a new set of input types, upgrading our set of <code>text</code>, <code>password</code>, and <code>file</code> to include <code>search</code>, <code>tel</code>, <code>url</code>, <code>email</code>, <code>datetime</code>, <code>date</code>, <code>month</code>, <code>week</code>, <code>time</code>, <code>datetime-local</code>, <code>number</code>, <code>range</code> and <code>color</code>. Browser support for these vary, with Opera implementing most at the moment. With feature detection you can determine if the browser has native support (and will offer a UI like a datepicker or color picker) and if not, you can continue to use the JS widgets to accomplish these common tasks.
+HTML5 introduces a new set of input types, upgrading our set of <code>text</code>, <code>password</code>, and <code>file</code> to include <code>search</code>, <code>tel</code>, <code>url</code>, <code>email</code>, <code>datetime</code>, <code>date</code>, <code>month</code>, <code>week</code>, <code>time</code>, <code>datetime-local</code>, <code>number</code>, <code>range</code>, and <code>color</code>. Browser support for these varies, with Opera implementing most at the moment. With feature detection you can determine if the browser has native support (and will offer a UI like a datepicker or color picker) and, if not, you can continue to use the JS widgets to accomplish these common tasks.
 
-In addition to the types, a few useful features have been added to our normal input fields. The input <code>placeholder</code> offers default text that clears when you click into them and <code>autofocus</code> focuses the caret on page load so you can interact immediately with that field. Input validation is another thing making its way in with HTML5. Adding the <code>required</code> attribute means the browser won't let the form submit until that field is filled in. Also the <code>pattern</code> attribute lets you specify a custom regular expression for the input to be tested against; with invalid values blocking form submission. This declarative syntax is a big upgrade not only in source readability but also a significant reduction of JavaScript necessary. Again, you can use feature detection to serve a fallback solution if there isn't native support for these present.
+In addition to the types, a few useful features have been added to our normal input fields. The input <code>placeholder</code> offers default text that clears when you click into a field, and <code>autofocus</code> focuses the caret on page load so you can interact immediately with that field. Input validation is another thing making its way in with HTML5. Adding the <code>required</code> attribute means the browser won't let the form be submitted until that field is filled in. Also, the <code>pattern</code> attribute lets you specify a custom regular expression for the input to be tested against, with invalid values blocking form submission. This declarative syntax is a big upgrade not only in source readability but is also a significant reduction in the amount of JavaScript necessary. Again, you can use feature detection to serve a fallback solution if native support for these features is not present.
 
-Using the native widgets here means you don't need to send the heavy javascript and css required to pull off these widgets, speeding up page load and likely improving widget responsiveness. To try out some of these input enhancements check out the [http://slides.html5rocks.com/#new-form-types HTML5 Slide deck].
+Using the native widgets here means you don't need to send the heavy JavaScript and CSS required to pull off these widgets, speeding up page load and likely improving widget responsiveness. To try out some of these input enhancements, check out the [http://slides.html5rocks.com/#new-form-types HTML5 Slide deck].
 
 ==Tip 9: Use CSS3 effects instead of requesting heavy image sprites==
 
-CSS3 delivers many new styling possibilities that supplant our use of images to represent the visual design accurately. Replacing a 2k image with 100 bytes of CSS is a huge win, not to mention you've removed yet another HTTP request. A few of the properties to familiarize yourself with are:
+CSS3 delivers many new styling possibilities that supplant our use of images to represent the visual design accurately. Replacing a 2k image with 100 bytes of CSS is a huge win&mdash;not to mention you've removed yet another HTTP request. A few of the properties to familiarize yourself with are:
 
 * Linear and radial gradients
 * Border-radius for rounded corners
@@ -148,21 +148,22 @@ CSS3 delivers many new styling possibilities that supplant our use of images to 
 * Transforms for rotation
 * CSS masks
 
-For example you, can create very [http://cubiq.org/dropbox/cssgrad.html polished buttons via gradients] and [http://www.phpied.com/css-performance-ui-with-fewer-images/ replicate many other effects] sans-images. Browser support for most of these is very solid, and you can use a library like [http://www.modernizr.com/ Modernizr] to catch browsers that don't support the features in order to use images in a fallback case.
+For example, you can create very [http://cubiq.org/dropbox/cssgrad.html polished buttons via gradients] and [http://www.phpied.com/css-performance-ui-with-fewer-images/ replicate many other effects] sans images. Browser support for most of these is very solid, and you can use a library like [http://www.modernizr.com/ Modernizr] to catch browsers that don't support the features in order to use images in a fallback case.
 
 ==Tip 10: WebSockets for faster delivery with less bandwidth than XHR==
 
-[http://dev.w3.org/html5/websockets/ WebSockets] was designed in response to the growing popularity of [http://en.wikipedia.org/wiki/Comet_(programming) Comet]. There are indeed advantages to using WebSockets now, instead of the Comet over XHR model.
+[http://dev.w3.org/html5/websockets/ WebSockets] was designed in response to the growing popularity of [http://en.wikipedia.org/wiki/Comet_(programming) Comet]. There are indeed advantages to using WebSockets now, instead of the Comet-over-XHR model.
 
-WebSockets has very light framing, and so the bandwidth it consumes is often lighter than that of XHR. [http://axod.blogspot.com/2009/12/websocket-some-numbers.html Some reports] indicate a 35% reduction in bytes sent across the wire. Additionally, in higher volume the performance difference when it comes to message delivery is more apparent; XHR has been recorded [http://bloga.jp/ws/jq/wakachi/mecab/wakachi.html in this test] with having an aggregate time of 3500% longer than WebSockets. Lastly, [http://www.youtube.com/watch?v=Z897fkPn7Rw Ericcson Labs considered the performance of WebSockets] and found the ping times over HTTP were 3-5 times larger than over WebSockets due to more substantial processing requirements. They concluded that the WebSocket protocol was clearly more suitable for realtime applications.
+WebSockets has very light framing, so the bandwidth it consumes is often lighter than that of XHR. [http://axod.blogspot.com/2009/12/websocket-some-numbers.html Some reports] indicate a 35% reduction in bytes sent across the wire. Additionally, in higher volume the performance difference when it comes to message delivery is more apparent; XHR has been recorded [http://bloga.jp/ws/jq/wakachi/mecab/wakachi.html in this test] as having an aggregate time of 3500% longer than WebSockets. Lastly, [http://www.youtube.com/watch?v=Z897fkPn7Rw Ericsson Labs considered the performance of WebSockets] and found the ping times over HTTP were 3-5 times larger than over WebSockets due to more substantial processing requirements. They concluded that the WebSocket protocol was clearly more suitable for realtime applications.
 
 ==Additional Resources==
 
 For measurement and performance recommendations, you should certainly be using the Firefox extensions [http://code.google.com/speed/page-speed/ Page Speed] and [http://developer.yahoo.com/yslow/ YSlow]. Additionally, [http://code.google.com/webtoolkit/speedtracer/ Speed Tracer for Chrome] and [http://ajax.dynatrace.com/pages/ DynaTrace Ajax for IE] provide a more detailed level of logging of analysis.
 
-The [/tutorials/developertools/part1/ guide to Chrome's Developer Tools] should help orient you with the resources tab and will soon cover the [http://webkit.org/blog/1091/more-web-inspector-updates/#audits_panel new Audits panel].
+The [http://www.html5rocks.com/tutorials/developertools/part1/ guide to Chrome's Developer Tools] should help orient you with the resources tab and will soon cover the [http://webkit.org/blog/1091/more-web-inspector-updates/#audits_panel new Audits panel].
 
 Except as otherwise [http://code.google.com/policies.html#restrictions noted], the content of this page is licensed under the [http://creativecommons.org/licenses/by/3.0/ Creative Commons Attribution 3.0 License], and code samples are licensed under the [http://www.apache.org/licenses/LICENSE-2.0 Apache 2.0 License].
+
 }}
 {{Compatibility_Section
 |Not_required=No
