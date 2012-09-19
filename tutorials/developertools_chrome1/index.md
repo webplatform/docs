@@ -84,7 +84,7 @@ Selecting '''Inspect Element''' will bring up the Developer Tools, which should 
 
 [[Image:icdt10-inside.jpg]] ''Inside the element inspector''
 
-Notice how the Developer Tools opens inside of the Elements tab and automatically drills down to, and highlights, the &lt;img&gt; tag for the Google logo. This is very useful when you are curious which HTML generated a particular page element.
+Notice how the Developer Tools opens inside of the Elements tab and automatically drills down to, and highlights, the <code>&lt;img&gt;</code> tag for the Google logo. This is very useful when you are curious which HTML generated a particular page element.
 
 You may also open the Developer Tools with a simple keyboard shortcut. Depending on your operating system, try the following:
 
@@ -111,7 +111,7 @@ The first tab in the Developer Tools is Elements. This is your window into the s
 
 ===DOM Browsing===
 
-You will often visit the Elements tab when you need to identify the HTML snippet for some aspect of the page. For example, you may be curious if an image has an HTML <code>id<code> attribute, and what that attribute's value is.
+You will often visit the Elements tab when you need to identify the HTML snippet for some aspect of the page. For example, you may be curious if an image has an HTML <code>id</code> attribute, and what that attribute's value is.
 
 The Elements tab is sometimes a better way to "view source" for a page. Inside the Elements tab, the page's DOM will be nicely formatted, showing you HTML elements, their ancestors, and their descendants. Too often, pages you visit will have minified or simply ugly HTML which makes it hard to see how the page is structured. The Elements tab is your solution for viewing the real underlying structure of the page.
 
@@ -227,7 +227,6 @@ For more information on the Developer Tools, we recommend the following:
 And of course, stay tuned for Part 2 of this article, along with lots of other great HTML5 and Chrome content.
 
 Except as otherwise [http://code.google.com/policies.html#restrictions noted], the content of this page is licensed under the [http://creativecommons.org/licenses/by/3.0/ Creative Commons Attribution 3.0 License], and code samples are licensed under the [http://www.apache.org/licenses/LICENSE-2.0 Apache 2.0 License].
-
 }}
 {{Compatibility_Section
 |Not_required=No
