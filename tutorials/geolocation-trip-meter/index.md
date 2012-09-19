@@ -10,9 +10,9 @@
 <span class="browsers"> <span class="browser opera supported"> <span class="browser_name">Opera</span> <span class="support"> supported </span> </span> <span class="browser ie "> <span class="browser_name">IE</span> <span class="support"> unsupported </span> </span> <span class="browser safari supported"> <span class="browser_name">Safari</span> <span class="support"> supported </span> </span> <span class="browser ff supported"> <span class="browser_name">Firefox</span> <span class="support"> supported </span> </span> <span class="browser chrome supported"> <span class="browser_name">Chrome</span> <span class="support"> supported </span> </span> </span>
 
 ==Introduction==
-The [http://dev.w3.org/geo/api/ Geolocation API] lets you find out where the user is and keep tabs on them as they move around, always with the user's consent. This functionality could be used as part of user queries, e.g. to guide someone to a destination point. It could also be used for "geo-tagging" some content the user has created, e.g. to mark where a photo was taken. The API is device-agnostic; it doesn't care how the browser determines location, so long as clients can request and receive location data in a standard way. The underlying mechanism might be via GPS, wifi, or simply asking the user to enter their location manually. Since any of these lookups is going to take some time, the API is asynchronous; you pass it a callback method whenever you request a location.
+The [http://dev.w3.org/geo/api/ Geolocation API] lets you find out where the user is and keep tabs on them as they move around, always with the user's consent. This functionality could be used as part of user queries, e.g., to guide someone to a destination point. It could also be used for "geo-tagging" some content the user has created, e.g., to mark where a photo was taken. The API is device-agnostic; it doesn't care how the browser determines location, so long as clients can request and receive location data in a standard way. The underlying mechanism might be GPS, wifi, or simply asking the user to enter their location manually. Since any of these lookups is going to take some time, the API is asynchronous; you pass it a callback method whenever you request a location.
 
-The example here is a trip meter showing the initial location and maintaining a display of the distance they have travelled since the page was loaded.
+The example here is a trip meter showing the initial location and maintaining a display of the distance travelled since the page was loaded.
 
 ==Step 1. Check for Compatibility==
 You can easily check for compatibility by testing for the presence of the geolocation object:
@@ -37,7 +37,7 @@ In this example, you're building a trip meter, so declare the following HTML:
    &lt;/p&gt;
    &lt;p&gt;
      Current Location (lat, lon):&lt;br/&gt;
-     &lt;span id="currentLat"&gt;???&lt;/span&gt;�, &lt;span id="currentLon"&gt;???&lt;/span&gt;�
+     &lt;span id="currentLat"&gt;???&lt;/span&gt;°, &lt;span id="currentLon"&gt;???&lt;/span&gt;°
    &lt;/p&gt;
    &lt;p&gt;
      Distance from starting location:&lt;br/&gt;
@@ -49,7 +49,7 @@ In this example, you're building a trip meter, so declare the following HTML:
 The next few steps will use the Geolocation API to populate all those empty spans.
 
 ==Step 3. Determine the User's Current Location==
-<code>getCurrentPosition()</code> will asynchronously report on the user's current location. Call it as soon as the page loads, so that it will correctly populate - and save for later - the starting position:
+<code>getCurrentPosition()</code> will asynchronously report on the user's current location. Call it as soon as the page loads, so that it will correctly populate&mdash;and save for later&mdash;the starting position:
 
 <pre>
  window.onload = function() {
@@ -62,9 +62,9 @@ The next few steps will use the Geolocation API to populate all those empty span
  };
 </pre>
 
-If this is the first time an application on this domain has requested permissions, the browser will typically check for user consent. Depending on the browser, there may also be preferences to always allow - or disallow - permission lookups, in which case the confirmation process will be bypassed.
+If this is the first time an application on this domain has requested permissions, the browser will typically check for user consent. Depending on the browser, there may also be preferences to always allow or disallow permission lookups, in which case the confirmation process will be bypassed.
 
-Having run this code, you should now be able to see the starting position. Depending on the location device your browser is using, the position object might actually contain a lot more than just latitude and longitude, e.g. it could include an altitude or a direction. You can explore further by logging the position variable to the console.
+Having run this code, you should now be able to see the starting position. Depending on the location device your browser is using, the position object might actually contain a lot more than just latitude and longitude, e.g., it could include an altitude or a direction. You can explore further by logging the position variable to the console.
 
 ==Step 4. Handle Errors==
 Unfortunately, not all location lookups are successful. Perhaps a GPS could not be located or the user has suddenly disabled location lookups. A second, optional, argument to <code>getCurrentPosition()</code> will be called in the event of an error, so you can notify the user inside the callback:
@@ -86,7 +86,7 @@ Unfortunately, not all location lookups are successful. Perhaps a GPS could not 
 </pre>
 
 ==Step 5. Monitor the User's Location==
-The previous call to <code>getCurrentPosition()</code> was only executed once, on page load. To track changes, use <code>watchPosition()</code>. It will automatically notify a callback function whenever the user moves:
+The previous call to <code>getCurrentPosition()</code> is only executed once, on page load. To track changes, use <code>watchPosition()</code>. It will automatically notify a callback function whenever the user moves:
 
 <pre> 
  navigator.geolocation.watchPosition(function(position) {
