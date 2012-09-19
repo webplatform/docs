@@ -1,5 +1,7 @@
-{{Flags}}
-{{Summary_Section}}
+{{Flags
+|High-level issues=Needs Flags
+}}
+{{Summary_Section|Tips to improve HTML5 web app performance.}}
 {{Tutorial
 |Content==Best Practices for a Faster Web App with HTML5=
 ====original by Paul Irish====
@@ -163,7 +165,6 @@ For measurement and performance recommendations, you should certainly be using t
 The [http://www.html5rocks.com/tutorials/developertools/part1/ guide to Chrome's Developer Tools] should help orient you with the resources tab and will soon cover the [http://webkit.org/blog/1091/more-web-inspector-updates/#audits_panel new Audits panel].
 
 Except as otherwise [http://code.google.com/policies.html#restrictions noted], the content of this page is licensed under the [http://creativecommons.org/licenses/by/3.0/ Creative Commons Attribution 3.0 License], and code samples are licensed under the [http://www.apache.org/licenses/LICENSE-2.0 Apache 2.0 License].
-
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -172,10 +173,11 @@ Except as otherwise [http://code.google.com/policies.html#restrictions noted], t
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics}}
+{{Topics|Developer Tools, Performance}}
 {{External_Attribution
 |Is_CC-BY-SA=No
+|Sources=HTML5Rocks
 |MDN_link=
 |MSDN_link=
-|HTML5Rocks_link=
+|HTML5Rocks_link=http://www.html5rocks.com/en/tutorials/speed/quick/
 }}
