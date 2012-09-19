@@ -1,5 +1,5 @@
 {{Flags}}
-{{Summary_Section|This article describes more advanced selectors, and some specific ways that you can style tables. }}
+{{Summary_Section|This article describes more advanced selectors, and some specific ways that you can style tables.}}
 {{Tutorial
 |Content=== Information: Tables ==
  
@@ -29,7 +29,7 @@ Table border example
 
 Here are three tables.
 
- The table on the left has 0.5 em border spacing. The table in the center has zero border spacing. The table on the right has collapsed borders:
+The table on the left has 0.5 em border spacing. The table in the center has zero border spacing. The table on the right has collapsed borders:
 
 {{{!}} border="1"
 {{!}}-
@@ -64,7 +64,7 @@ Here are three tables.
         
 === Captions ===
  
-A <code>[[<caption>]]</code> element is a label that applies to the entire table. By default, it is displayed at the top of the table.
+A <code>&lt;caption&gt;</code> element is a label that applies to the entire table. By default, it is displayed at the top of the table.
  
 To move it to the bottom, set its <code>[[caption-side]]</code> property to <code>bottom</code>. The property is inherited, so alternatively you can set it on the table or another ancestor element.
  
@@ -357,7 +357,7 @@ Change the stylesheet to make the table look like this:
 Oceans
 
   
-{{!}}}  
+{{!}}}
 }}
 {{Topics|CSS}}
 {{External_Attribution
