@@ -181,7 +181,7 @@ Ironically, running the Resources tab affects page load performance, so it is di
 
 [[Image:icdt21-tracking.jpg]] ''Enabling resources tracking''
 
-I recommend you leave the default "Only enable for this session" option selected, as you do not want to needlessly incur the small performance penalty. Once you click '''Enable resource tracking''', the page will reload, and the Developer Tools will monitor and display the resources sent from the server.
+I recommend you leave the default '''Only enable for this session''' option selected, as you do not want to needlessly incur the small performance penalty. Once you click '''Enable resource tracking''', the page will reload, and the Developer Tools will monitor and display the resources sent from the server.
 
 The following screen shot shows the resources required, and loaded for, the Google homepage.
 
