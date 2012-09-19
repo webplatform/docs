@@ -7,15 +7,15 @@
 
 ==Introduction==
 
-Much of HTML5 aims to deliver native browser support for components and techniques that we have achieved through JavaScript libraries thus far. Using these features, when present, can end up delivering a much faster experience for your users. In this tutorial, I won't recap the excellent performance research that you've seen at Yahoo's [http://developer.yahoo.com/performance/rules.html Exceptional Performance site] or Google's [http://code.google.com/speed/page-speed/docs/rules_intro.html Page Speed docs] and [http://code.google.com/speed/index.html Let's make the web faster] site. Instead I'll focus on how putting HTML5 and CSS3 to use today can make your web apps more responsive.
+Much of HTML5 aims to deliver native browser support for components and techniques that we have achieved through JavaScript libraries thus far. Using these features, when present, can end up delivering a much faster experience for your users. In this tutorial, I won't recap the excellent performance research that you've seen at Yahoo's [http://developer.yahoo.com/performance/rules.html Exceptional Performance site] or Google's [http://code.google.com/speed/page-speed/docs/rules_intro.html Page Speed docs] and [http://code.google.com/speed/index.html Let's make the web faster] sites. Instead I'll focus on how putting HTML5 and CSS3 to use today can make your web apps more responsive.
 
 ==Tip 1: Use web storage in place of cookies==
 
 While cookies have been used to track unique user data for years, they have serious disadvantages. The largest flaw is that all of your cookie data is added to every HTTP request header. This can end up having a [http://yuiblog.com/blog/2007/03/01/performance-research-part-3/ measurable impact on response time], especially during XHRs. So a best practice is to [http://developer.yahoo.com/performance/rules.html#cookie_size reduce cookie size]. In HTML5 we can do better than that: use <code>sessionStorage</code> and <code>localStorage</code> in place of cookies.
 
-These two web storage objects can be used to persist user data on the clientside for the length of the session or indefinitely. Their data is not transferred to the server via every HTTP request, either. They have an API that will make you happy to be rid of cookies. Here are both APIs, using cookies as a fallback.
+These two web storage objects can be used, respectively, to persist user data on the client side for the length of the session or indefinitely. Their data is not transferred to the server via every HTTP request, either. They have an API that will make you happy to be rid of cookies. Here are both APIs, using cookies as a fallback.
 
-<pre> 
+<pre>
  // if localStorage is present, use that
  if (('localStorage' in window) &amp;&amp; window.localStorage !== null) {
  
@@ -37,7 +37,7 @@ These two web storage objects can be used to persist user data on the clientside
 
 ==Tip 2: Use CSS Transitions instead of JavaScript animation==
 
-CSS Transitions give you an attractive visual transition between two states. Most style properties can be transitioned, like manipulating the text-shadow, position, background or color. You can use transitions into pseudo-selector states like <code><nowiki>:hover</nowiki></code> or from HTML5 forms, <code><nowiki>:invalid</nowiki></code> and <code><nowiki>:valid</nowiki></code> ([http://bradshawenterprises.com/tests/formdemo.php example with form validation states]). But they're much more powerful and can be triggered when you add any class to an element.
+CSS Transitions give you an attractive visual transition between two states. Most style properties can be transitioned, like manipulating the text-shadow, position, background, or color. You can use transitions into pseudo-selector states like <code><nowiki>:hover</nowiki></code> or from HTML5 forms, <code><nowiki>:invalid</nowiki></code> and <code><nowiki>:valid</nowiki></code> ([http://bradshawenterprises.com/tests/formdemo.php example with form validation states]). But they're much more powerful and can be triggered when you add any class to an element.
 
 <pre>
  div.box {
@@ -55,13 +55,13 @@ By adding the toggling the classes of <code>totheleft</code> and <code>totherigh
 
 ==Tip 3: Use client-side databases instead of server roundtrips==
 
-[http://dev.w3.org/html5/webdatabase/ Web SQL Database] and [http://www.w3.org/TR/IndexedDB/ IndexedDB] introduce databases to the clientside. Instead of the common pattern of posting data to the server via <code>XMLHttpRequest</code> or form submission, you can leverage these clientside databases. Decreasing HTTP requests is a primary target of all performance engineers, so using these as a datastore can save many trips via XHR or form posts back to the server. <code>localStorage</code> and <code>sessionStorage</code> could be used in some cases, like capturing form submission progress, and have seen to be noticeably faster than the client-side database APIs.
+[http://dev.w3.org/html5/webdatabase/ Web SQL Database] and [http://www.w3.org/TR/IndexedDB/ IndexedDB] introduce databases to the client side. Instead of the common pattern of posting data to the server via <code>XMLHttpRequest</code> or form submission, you can leverage these client-side databases. Decreasing HTTP requests is a primary target of all performance engineers, so using these as a datastore can save many trips via XHR or form posts back to the server. <code>localStorage</code> and <code>sessionStorage</code> could be used in some cases, like capturing form submission progress, and have been seen to be noticeably faster than the client-side database APIs.
 
 For example, if you have a data grid component or an inbox with hundreds of messages, storing the data locally in a database will save you HTTP roundtrips when the user wishes to search, filter, or sort. A list of friends or a text input autocomplete could be filtered on each keystroke, making for a much more responsive user experience. Certainly view the [/tutorials/webdatabase/todo/ Web SQL Database tutorial] for a comprehensive guide at putting this to work.
 
 ==Tip 4: JavaScript improvements lend considerable performance advantages==
 
- Many [https://developer.mozilla.org/En/Core_JavaScript_1.5_Reference/Objects/Array#Methods additional methods were added to the Array protoype] in JavaScript 1.6. These are available in most browsers now, except for IE. For example:
+Many [https://developer.mozilla.org/En/Core_JavaScript_1.5_Reference/Objects/Array#Methods additional methods were added to the Array protoype] in JavaScript 1.6. These are available in most browsers now, except for IE. For example:
 
 <pre>
  // Give me a new array of all values multiplied by 10.
@@ -87,11 +87,11 @@ For example, if you have a data grid component or an inbox with hundreds of mess
  });
 </pre>
 
-In most cases, using these native methods yield significantly faster speeds than your typical for loop like: <code>for (var i = 0, len = arr.length; i &lt; len; i++)</code>.
+In most cases, these native methods yield significantly faster speeds than your typical <code>for</code> loop like: <code>for (var i = 0, len = arr.length; i &lt; len; i++)</code>.
 
-Native JSON parsing (via <code>JSON.parse()</code>) replaces the json2.js file we've been used to including for a while. Native JSON is much faster and safer than using an external script and it's already in IE8, Opera 10.50, Firefox 3.5, Safari 4.0.3 and Chrome.
+Native JSON parsing (via <code>JSON.parse()</code>) replaces the json2.js file we've been used to including for a while. Native JSON is much faster and safer than using an external script and it's already in IE8, Opera 10.50, Firefox 3.5, Safari 4.0.3, and Chrome.
 
-Native <code>String.trim</code> is another good example of being not only faster than the longhand JS equivalents, but also potentially more correct. None of these JavaScript additions are technically HTML5, but they fall within the umbrella of technologies that are coming available recently.
+Native <code>String.trim</code> is another good example of being not only faster than the longhand JS equivalents, but also potentially more correct. None of these JavaScript additions are technically HTML5, but they fall within the umbrella of technologies that are now becoming available.
 
 ==Tip 5: Use cache manifest for live sites, not just offline apps==
 
@@ -101,7 +101,7 @@ The app cache has a slight advantage over setting <code>Expires</code> headers; 
 
 Consider your site's basic structure as a template. You have data that may change but the HTML around it typically remains pretty consistent. With the app cache you could treat your HTML as a series of pure templates, cache the markup via the cache.manifest, and then deliver JSON over the wire to update the content. This model is very similar to what an iPhone or Android native news app does.
 
-Read the [/tutorials/appcache/beginner/ application cache tutorial] for a guide on putting this to use.
+Read the [http://www.html5rocks.com/tutorials/appcache/beginner/ application cache tutorial] for a guide on putting this to use.
 
 ==Tip 6: Enable hardware acceleration to enhance visual experience==
 
@@ -110,12 +110,12 @@ In leading browsers, many visual operations can leverage GPU-level acceleration,
 GPU acceleration kicks in only under a fairly restricted set of conditions, but 3D transforms and animated opacity are the most common ways to trip the switch. A somewhat hacky but unobtrusive way to turn it on is:
 
 <pre>
-   .hwaccel {  -webkit-transform: translateZ(0); }
+   .hwaccel { -webkit-transform: translateZ(0); }
 </pre>
 
 No guarantees, though. :)
 
-With hardware acceleration supported and enabled, animated translation, rotation, scaling and opacity will definitely be smoother with GPU compositing. They will have the benefit of being handled directly on the GPU and don't require redrawing of the layer contents. However, any property that affects the layout of the page will still be ''relatively'' slow.
+With hardware acceleration supported and enabled, animated translation, rotation, scaling, and opacity will definitely be smoother with GPU compositing. They have the benefit of being handled directly on the GPU and don't require redrawing of the layer contents. However, any property that affects the layout of the page will still be ''relatively'' slow.
 
 ==Tip 7: For CPU-heavy operations, Web Workers deliver==
 
@@ -163,7 +163,6 @@ For measurement and performance recommendations, you should certainly be using t
 The [/tutorials/developertools/part1/ guide to Chrome's Developer Tools] should help orient you with the resources tab and will soon cover the [http://webkit.org/blog/1091/more-web-inspector-updates/#audits_panel new Audits panel].
 
 Except as otherwise [http://code.google.com/policies.html#restrictions noted], the content of this page is licensed under the [http://creativecommons.org/licenses/by/3.0/ Creative Commons Attribution 3.0 License], and code samples are licensed under the [http://www.apache.org/licenses/LICENSE-2.0 Apache 2.0 License].
-
 }}
 {{Compatibility_Section
 |Not_required=No
