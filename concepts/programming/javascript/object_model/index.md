@@ -64,9 +64,7 @@ The following table gives a short summary of some of these differences. The rest
 
 The remainder of this chapter uses the employee hierarchy shown in the following figure.
 
-[[Image:=figure8.1.png]]
-
-<small>'''Figure 8.1: A simple object hierarchy'''</small>
+[[File:figure8.1.png|Figure 8.1: A simple object hierarchy]]
 
 This example uses the following objects:
 
@@ -84,7 +82,7 @@ This section shows how to use very simple (and comparatively inflexible) definit
 
 In a real application, you would probably define constructors that allow you to provide property values at object creation time (see [[#More_Flexible_Constructors More|Flexible Constructors]] for information). For now, these simple definitions demonstrate how the inheritance occurs.
 
-[[Image:=figure8.2.png|figure8.2.png]]<br /><small>'''Figure 8.2: The Employee object definitions'''</small>
+[[File:figure8.2.png|Figure 8.2: The Employee object definitions]]
 
 The following Java and JavaScript <code>Employee</code> definitions are similar. The only differences are that you need to specify the type for each property in Java but not in JavaScript, and you need to create an explicit constructor method for the Java class.
 
@@ -186,7 +184,7 @@ Using these definitions, you can create instances of these objects that get the 
 
 <div class="note">'''Note:''' The term ''''instance'''' has a specific technical meaning in class-based languages. In these languages, an instance is an individual member of a class and is fundamentally different from a class. In JavaScript, "instance" does not have this technical meaning because JavaScript does not have this difference between classes and instances. However, in talking about JavaScript, "instance" can be used informally to mean an object created using a particular constructor function. So, in this example, you could informally say that <code><code>jane</code></code> is an instance of <code><code>Engineer</code></code>. Similarly, although the terms ''''parent'', ''child'', ''ancestor'''', and ''''descendant'''' do not have formal meanings in JavaScript; you can use them informally to refer to objects higher or lower in the prototype chain.</div>
 
-[[Image:=figure8.3.png|figure8.3.png]]<br /><small>'''Figure 8.3: Creating objects with simple definitions'''</small>
+[[File:figure8.3.png|Figure 8.3: Creating objects with simple definitions]]
 
 ==Object properties==
 
@@ -228,13 +226,13 @@ If you add a new property to an object that is being used as the prototype for a
 
 As soon as JavaScript executes this statement, the <code>mark</code> object also has the <code>specialty</code> property with the value of <code>"none"</code>. The following figure shows the effect of adding this property to the <code>Employee</code> prototype and then overriding it for the <code>Engineer</code> prototype.
 
-[[Image:=figure8.4.png]]<br /><small>'''Figure 8.4: Adding properties'''</small>
+[[File:figure8.4.png|Figure 8.4: Adding properties]]
 
 ==More flexible constructors==
 
 The constructor functions shown so far do not let you specify property values when you create an instance. As with Java, you can provide arguments to constructors to initialize property values for instances. The following figure shows one way to do this.
 
-[[Image:=figure8.5.png]]<br /><small>'''Figure 8.5: Specifying properties in a constructor, take 1'''</small>
+[[File:figure8.5.png|Figure 8.5: Specifying properties in a constructor, take 1]]
 
 The following table shows the Java and JavaScript definitions for these objects.
 
@@ -311,7 +309,7 @@ These JavaScript definitions use a special idiom for setting default values:
 
  this.name = name {{!}}{{!}} "";
 
-The JavaScript logical OR operator (<code><nowiki>||</nowiki></code>) evaluates its first argument. If that argument converts to true, the operator returns it. Otherwise, the operator returns the value of the second argument. Therefore, this line of code tests to see if <code>name</code> has a useful value for the <code>name</code> property. If it does, it sets <code>this.name</code> to that value. Otherwise, it sets <code>this.name</code> to the empty string. This chapter uses this idiom for brevity; however, it can be puzzling at first glance.
+The JavaScript logical OR operator (<code>{{!}}{{!}}</code>) evaluates its first argument. If that argument converts to true, the operator returns it. Otherwise, the operator returns the value of the second argument. Therefore, this line of code tests to see if <code>name</code> has a useful value for the <code>name</code> property. If it does, it sets <code>this.name</code> to that value. Otherwise, it sets <code>this.name</code> to the empty string. This chapter uses this idiom for brevity; however, it can be puzzling at first glance.
 
 <div class="note">'''Note:''' This may not work as expected if the constructor function is called with arguments which convert to <code><code>false</code></code> (like <code>0</code> (zero) and empty string (<code><code>""</code></code>). In this case the default value will be chosen.</div>
 
@@ -330,7 +328,7 @@ Notice that with these definitions, you cannot specify an initial value for an i
 
 So far, the constructor function has created a generic object and then specified local properties and values for the new object. You can have the constructor add more properties by directly calling the constructor function for an object higher in the prototype chain. The following figure shows these new definitions.
 
-[[Image:=figure8.6.png]]<br /><small>'''Figure 8.6 Specifying properties in a constructor, take 2'''</small>
+[[File:figure8.6.png|Figure 8.6 Specifying properties in a constructor, take 2]]
 
 Let's look at one of these definitions in detail. Here's the new definition for the <code>Engineer</code> constructor:
 
