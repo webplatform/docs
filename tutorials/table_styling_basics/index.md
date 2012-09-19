@@ -282,7 +282,49 @@ These tables have a pale green background. Their cells have a pale gray backgrou
 <li>
 <p>Open the document in your browser. It should look very similar to this:</p>
 
-{{{!}} border="1" {{!}}- {{!}}  Oceans                                                    {{{!}} border="1" {{!}}- ! !Area !Mean depth {{!}}- ! !million km<sup>2</sup> !m {{!}}- !Arctic: {{!}}13,000 {{!}}1,200 {{!}}- !Atlantic: {{!}}87,000 {{!}}3,900 {{!}}- !Pacific: {{!}}180,000 {{!}}4,000 {{!}}- !Indian: {{!}}75,000 {{!}}3,900 {{!}}- !Southern: {{!}}20,000 {{!}}4,500 {{!}}- !Total: {{!}}361,000 {{!}} {{!}}- !Mean: {{!}}72,000 {{!}}3,800 {{!}}}   {{!}}}
+{{{!}} border="1"
+{{!}}-
+{{!}}  Oceans
+{{{!}} border="1"
+{{!}}-
+!
+!Area
+!Mean depth
+{{!}}-
+!
+!million km<sup>2</sup>
+! m
+{{!}}-
+!Arctic:
+{{!}}13,000
+{{!}}1,200
+{{!}}-
+! Atlantic:
+{{!}}87,000
+{{!}}3,900
+{{!}}-
+!Pacific:
+{{!}} 180,000
+{{!}} 4,000
+{{!}}-
+! Indian:
+{{!}}75,000
+{{!}}3,900
+{{!}}-
+!Southern:
+{{!}} 20,000
+{{!}} 4,500
+{{!}}-
+! Total:
+{{!}} 361,000
+{{!}}
+{{!}}-
+! Mean:
+{{!}} 72,000
+{{!}} 3,800
+{{!}}}
+{{!}}}
+
 </li>
 <li><p>Compare the rules in the stylesheet with the displayed table, to ensure that you understand the effect of each rule. If you find a rule that you are not sure about, comment it out and refresh your browser to see what happens. Here are some notes about this table:</p>
 <ul>
