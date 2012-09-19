@@ -33,7 +33,7 @@ In this example, you're building a trip meter, so declare the following HTML:
  &lt;div id="tripmeter"&gt;
    &lt;p&gt;
      Starting Location (lat, lon):&lt;br/&gt;
-     &lt;span id="startLat"&gt;???&lt;/span&gt;&deg;, &lt;span id="startLon"&gt;???&lt;/span&gt;�
+     &lt;span id="startLat"&gt;???&lt;/span&gt;°, &lt;span id="startLon"&gt;???&lt;/span&gt;°
    &lt;/p&gt;
    &lt;p&gt;
      Current Location (lat, lon):&lt;br/&gt;
