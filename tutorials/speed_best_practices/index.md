@@ -165,9 +165,11 @@ For measurement and performance recommendations, you should certainly be using t
 The [http://www.html5rocks.com/tutorials/developertools/part1/ guide to Chrome's Developer Tools] should help orient you with the resources tab and will soon cover the [http://webkit.org/blog/1091/more-web-inspector-updates/#audits_panel new Audits panel].
 
 Except as otherwise [http://code.google.com/policies.html#restrictions noted], the content of this page is licensed under the [http://creativecommons.org/licenses/by/3.0/ Creative Commons Attribution 3.0 License], and code samples are licensed under the [http://www.apache.org/licenses/LICENSE-2.0 Apache 2.0 License].
+
+Please note that browser compatibility will vary from feature to feature. For up-to-date feature compatibility information for HTML5, CSS3, SVG, and more, see [http://caniuse.com/ caniuse.com].
 }}
 {{Compatibility_Section
-|Not_required=No
+|Not_required=Yes
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
