@@ -5,7 +5,7 @@
 {{Tutorial
 |Content==A Simple Trip Meter using the Geolocation API=
 
-====by Michael Mahemoff====
+====original by Michael Mahemoff====
 ====published May 24, 2010====
 
 ==Supported browsers==
