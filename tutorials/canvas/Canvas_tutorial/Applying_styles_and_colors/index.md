@@ -268,6 +268,8 @@ I've made a little demo in which you can set miterLimit dynamically and see how 
  
 If you specify a <code>miterLimit</code> value below 4.2 in this demo, none of the visible corners will join with a miter extension, but only with a small bevel near the blue lines; with a <code>miterLimit</code> above 10, most corners in this demo should join with a miter far away from the blue lines, and whose height is decreasing between corners from left to right because they connect with growing angles; with intermediate values, the corners on the left side will only join with a bevel near the blue lines, and the corners on the right side with a miter extension (also with a decreasing height).
 
+{{Note|Working sample from original page missing here}}
+
 <pre>function draw() {
   var ctx = document.getElementById('canvas').getContext('2d');
   // Clear canvas
@@ -299,52 +301,37 @@ If you specify a <code>miterLimit</code> value below 4.2 in this demo, none of t
 == Gradients ==
  
 Just like any normal drawing program, we can fill and stroke shapes using linear and radial gradients. We create a <code>canvasGradient</code> object by using one of the following methods. We use this object to assign it to the <code>fillStyle</code> or <code>strokeStyle</code> properties.
-
   
 <code>'''createLinearGradient'''(x1,y1,x2,y2)</code><br> <code>'''createRadialGradient'''(x1,y1,r1,x2,y2,r2)</code>
-
   
 The <code>createLinearGradient</code> method takes four arguments representing the starting point (x1,y1) and end point (x2,y2) of the gradient.<br>
 The <code>createRadialGradient</code> method takes six arguments. The first three arguments define a circle with coordinates (x1,y1) and radius r1 and the second a circle with coordinates (x2,y2) and radius r2.
-
  
 <pre>var lineargradient = ctx.createLinearGradient(0,0,150,150);
 var radialgradient = ctx.createRadialGradient(75,75,0,75,75,100);
-
 </pre>
  
 Once we've created a <code>canvasGradient</code> object we can assign colors to it by using the <code>addColorStop</code> method.
-
   
 <code>'''addColorStop'''(position, color)</code>
-
   
 This method takes two arguments. The <code>position</code> must be a number between 0.0 and 1.0 and defines the relative position of the color in the gradient. Setting this to 0.5 for instance would place the color precisely in the middle of the gradient. The <code>color</code> argument must be a string representing a CSS color (ie #FFF, rgba(0,0,0,1),etc).
-
  
 You can add as many color stops to a gradient as you need. Below is a very simple linear gradient from white to black.
-
  
 <pre>var lineargradient = ctx.createLinearGradient(0,0,150,150);
 lineargradient.addColorStop(0,'white');
 lineargradient.addColorStop(1,'black');
-
 </pre>
  
 ==== A createLinearGradient example ====
  
-[[Image:=Canvas_lineargradient.png|=Canvas_lineargradient.png]]In this example, I've created two different gradients. In the first, I create the background gradient. As you can see, I've assigned two colors at the same position. You do this to make very sharp color transitions - in this case from white to green. Normally, it doesn't matter in what order you define the color stops, but in this special case, it does significantly. If you keep the assignments in the order you want them to appear, this won't be a problem.
-
+[[File:Canvas lineargradient.png|right|Canvas with two linear gradeients]]In this example, I've created two different gradients. In the first, I create the background gradient. As you can see, I've assigned two colors at the same position. You do this to make very sharp color transitions - in this case from white to green. Normally, it doesn't matter in what order you define the color stops, but in this special case, it does significantly. If you keep the assignments in the order you want them to appear, this won't be a problem.
  
 In the second gradient, I didn't assign the starting color (at position 0.0) since it wasn't strictly necessary. Assigning the black color at position 0.5 automatically makes the gradient, from the start to this stop, black.
-
  
 As you can see here, both the <code>strokeStyle</code> and <code>fillStyle</code> properties can accept a <code>canvasGradient</code> object as valid input.
 
- 
-[[View this example]]
-
- 
 <pre>function draw() {
   var ctx = document.getElementById('canvas').getContext('2d');
 
@@ -368,23 +355,16 @@ As you can see here, both the <code>strokeStyle</code> and <code>fillStyle</code
   ctx.strokeRect(50,50,50,50);
 
 }
-
 </pre>
  
 ==== A createRadialGradient example ====
  
-[[Image:=Canvas_radialgradient.png|=Canvas_radialgradient.png]]In this example, I've defined four different radial gradients. Because we have control over the start and closing points of the gradient, we can achieve more complex effects than we would normally have in the 'classic' radial gradients we see in, for instance, Photoshop. (i.e. a gradient with a single center point where the gradient expands outward in a circular shape.)
+[[File:Canvas radialgradient.png|right|Canvas with four different radial gradients]]In this example, I've defined four different radial gradients. Because we have control over the start and closing points of the gradient, we can achieve more complex effects than we would normally have in the 'classic' radial gradients we see in, for instance, Photoshop. (i.e. a gradient with a single center point where the gradient expands outward in a circular shape.)
 
- 
 In this case, I've offset the starting point slightly from the end point to achieve a spherical 3D effect. It's best to try to avoid letting the inside and outside circles overlap because this results in strange effects which are hard to predict.
 
- 
 The last color stop in each of the four gradients uses a fully transparent color. If you want to have a nice transition from this to the previous color stop, both colors should be equal. This isn't very obvious from the code because I've used two different CSS color methods, but in the first gradient <code>#019F62 = rgba(1,159,98,1)</code>
 
- 
-[[View this example]]
-
- 
 <pre>function draw() {
   var ctx = document.getElementById('canvas').getContext('2d');
 
@@ -419,45 +399,32 @@ The last color stop in each of the four gradients uses a fully transparent color
   ctx.fillStyle = radgrad;
   ctx.fillRect(0,0,150,150);
 }
-
 </pre>
  
 == Patterns ==
  
 In one of the examples on the previous page, I used a series of loops to create a pattern of images. There is, however, a much simpler method: the <code>createPattern</code> method.
-
   
 <code>'''createPattern'''(image,type)</code>
-
   
 This method takes two arguments. Image is either a reference to an <code>Image</code> object or a different canvas element. Type must be a string containing one of the following values: <code>repeat</code>, <code>repeat-x</code>, <code>repeat-y</code> and <code>no-repeat</code>.
 
-  '''Note:''' Using a canvas element as the <code>Image</code> argument does not work in Firefox 1.5 (Gecko 1.8). Also, specifying a zero-sized canvas throws a <code>NS_ERROR_DOM_INVALID_STATE_ERR</code> exception starting in Gecko 10.0 (Firefox 10.0 / Thunderbird 10.0 / SeaMonkey 2.7). 
-We use this method to create a Pattern object which is very similar to the gradient methods we've seen above. Once we've created a pattern, we can assign it to the <code>fillStyle</code> or <code>strokeStyle</code> properties.
+{{Note|Using a canvas element as the <code>Image</code> argument does not work in Firefox 1.5 (Gecko 1.8). Also, specifying a zero-sized canvas throws a <code>NS_ERROR_DOM_INVALID_STATE_ERR</code> exception starting in Gecko 10.0 (Firefox 10.0 / Thunderbird 10.0 / SeaMonkey 2.7).}}
 
+We use this method to create a Pattern object which is very similar to the gradient methods we've seen above. Once we've created a pattern, we can assign it to the <code>fillStyle</code> or <code>strokeStyle</code> properties.
  
 <pre>var img = new Image();
 img.src = 'someimage.png';
 var ptrn = ctx.createPattern(img,'repeat');
-
 </pre>
  
-'''Note:''' Unlike the <code>drawImage()</code> method, you must make sure the image you use is loaded before calling this method or the pattern may be drawn incorrectly.
+{{Note|Unlike the <code>drawImage()</code> method, you must make sure the image you use is loaded before calling this method or the pattern may be drawn incorrectly.}}
 
- 
-'''Note:''' Firefox currently only supports the <code>repeat</code> property. If you assign anything else, you won't see any changes.
-
+{{Note|Firefox currently only supports the <code>repeat</code> property. If you assign anything else, you won't see any changes.}}
  
 ==== A createPattern example ====
  
-In this last example, I created a pattern which I assigned to the <code>fillStyle</code> property. The only thing worth noting is the use of the Image object <code>onload</code> handler. This is to make sure the image is loaded before it is assigned to the pattern.
-
- 
-[[View this example]]
-
- 
-[[Image:=Canvas_createpattern.png|Source image]]
-
+[[File:Canvas createpattern.png|right|Wallpaper image used on a canvas]]In this last example, I created a pattern which I assigned to the <code>fillStyle</code> property. The only thing worth noting is the use of the Image object <code>onload</code> handler. This is to make sure the image is loaded before it is assigned to the pattern.
  
 <pre>function draw() {
   var ctx = document.getElementById('canvas').getContext('2d');
@@ -476,38 +443,26 @@ In this last example, I created a pattern which I assigned to the <code>fillStyl
 }
 
 </pre>
- Requires Gecko 1.9.1 (Firefox 3.5 / Thunderbird 3.0 / SeaMonkey 2.0) 
+
 == Shadows ==
   
 Using shadows involves just four properties:
-
   
 <code>'''shadowOffsetX''' = float</code><br> <code>'''shadowOffsetY''' = </code><code>float</code><br> <code>'''shadowBlur''' = </code><code>float</code><br> <code>'''shadowColor''' = </code><code>color</code>
 
-  
 <code>shadowOffsetX</code> and <code>shadowOffsetY</code> indicate how far the shadow should extend from the object in the X and Y directions; these values aren't affected by the current transformation matrix.  Use negative values to cause the shadow to extend up or to the left, and positive values to cause the shadow to extend down or to the right.  These are both 0 by default.
 
- 
 <code>shadowBlur</code> indicates the size of the blurring effect; this value doesn't correspond to a number of pixels and is not affected by the current transformation matrix.  The default value is 0.
-
  
 <code>shadowColor</code> is a standard CSS color value indicating the color of the shadow effect; by default, it is fully-transparent black.
-
    
-Gecko 7.0 note 
-(Firefox 7.0 / Thunderbird 7.0 / SeaMonkey 2.4)  
-Starting in Gecko 7.0 (Firefox 7.0 / Thunderbird 7.0 / SeaMonkey 2.4), shadows are only drawn for <code>source-over</code> [[compositing operations]]. This is per proposed changes to the specification.
-
+{{Note|Starting in Gecko 7.0 (Firefox 7.0 / Thunderbird 7.0 / SeaMonkey 2.4), shadows are only drawn for <code>source-over</code> [[compositing operations]]. This is per proposed changes to the specification.}}
   
 === A shadowed text example ===
  
 This example draws a text string with a shadowing effect.
 
- 
-[[View this example]]
-
- 
-[[Image:=shadowed-string.png|Source image]]
+[[File:shadowed-string.png|right|Text with a shadow]]
 
  
 <pre>function draw() {
