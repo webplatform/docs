@@ -92,7 +92,7 @@ Many [https://developer.mozilla.org/En/Core_JavaScript_1.5_Reference/Objects/Arr
 
 In most cases, these native methods yield significantly faster speeds than your typical <code>for</code> loop like: <code>for (var i = 0, len = arr.length; i &lt; len; i++)</code>.
 
-Native JSON parsing (via <code>JSON.parse()</code>) replaces the json2.js file we've been used to including for a while. Native JSON is much faster and safer than using an external script and it's already in IE8, Opera 10.50, Firefox 3.5, Safari 4.0.3, and Chrome.
+Native JSON parsing (via <code>JSON.parse()</code>) replaces the json2.js file we've been used to including for a while. Native JSON is much faster and safer than using an external script.
 
 Native <code>String.trim</code> is another good example of being not only faster than the longhand JS equivalents, but also potentially more correct. None of these JavaScript additions are technically HTML5, but they fall within the umbrella of technologies that are now becoming available.
 
@@ -255,6 +255,28 @@ The [http://www.html5rocks.com/tutorials/developertools/part1/ guide to Chrome's
 |Safari_version=
 |Safari_prefixed_supported=No
 |Safari_prefixed_version=
+}}{{Compatibility Table Desktop Row
+|Feature=JSON Parsing
+|Chrome_supported=Yes
+|Chrome_version=20.0
+|Chrome_prefixed_supported=Unknown
+|Chrome_prefixed_version=
+|Firefox_supported=Yes
+|Firefox_version=12.0
+|Firefox_prefixed_supported=Unknown
+|Firefox_prefixed_version=
+|Internet_explorer_supported=Yes
+|Internet_explorer_version=8.0
+|Internet_explorer_prefixed_supported=Unknown
+|Internet_explorer_prefixed_version=
+|Opera_supported=Yes
+|Opera_version=12.0
+|Opera_prefixed_supported=Unknown
+|Opera_prefixed_version=
+|Safari_supported=Yes
+|Safari_version=5.1
+|Safari_prefixed_supported=Unknown
+|Safari_prefixed_version=
 }}
 |Mobile_rows={{Compatibility Table Mobile Row
 |Feature=Web Storage
@@ -342,6 +364,28 @@ The [http://www.html5rocks.com/tutorials/developertools/part1/ guide to Chrome's
 |Opera_mobile_prefixed_version=
 |Safari_mobile_supported=Unknown
 |Safari_mobile_version=
+|Safari_mobile_prefixed_supported=Unknown
+|Safari_mobile_prefixed_version=
+}}{{Compatibility Table Mobile Row
+|Feature=JSON Parsing
+|Android_supported=Yes
+|Android_version=2.1
+|Android_prefixed_supported=Unknown
+|Android_prefixed_version=
+|Firefox_mobile_supported=Unknown
+|Firefox_mobile_version=
+|Firefox_mobile_prefixed_supported=Unknown
+|Firefox_mobile_prefixed_version=
+|IE_phone_supported=Unknown
+|IE_phone_version=
+|IE_phone_prefixed_supported=Unknown
+|IE_phone_prefixed_version=
+|Opera_mobile_supported=Yes
+|Opera_mobile_version=5.0
+|Opera_mobile_prefixed_supported=Unknown
+|Opera_mobile_prefixed_version=
+|Safari_mobile_supported=Yes
+|Safari_mobile_version=4.0
 |Safari_mobile_prefixed_supported=Unknown
 |Safari_mobile_prefixed_version=
 }}
