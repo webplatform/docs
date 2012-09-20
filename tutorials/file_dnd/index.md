@@ -63,13 +63,15 @@ The most straightforward way to load a file is to use a standard <code>&lt;input
  &lt;/script&gt;
 </pre>
 
-'''Example''': Using form input for selecting. Try it!
+'''Example''': Using form input for selecting. Try it [http://www.html5rocks.com/en/tutorials/file/dndfiles/ here]!
 
-<nowiki><div class="example"> </div>
+<pre>
+<div class="example"> </div>
 <div class="example">
 <input type="file" id="files1" name="files1[]" multiple />
 <output id="file_list"></output>
-</div></nowiki>
+</div>
+</pre>
 
 ===Using drag and drop for selecting===
 
