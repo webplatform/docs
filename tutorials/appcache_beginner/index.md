@@ -267,8 +267,8 @@ If the manifest file or a resource specified in it fails to download, the entire
 |Chrome_prefixed_version=
 |Firefox_supported=Yes
 |Firefox_version=12
-|Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
+|Firefox_prefixed_supported=Yes
+|Firefox_prefixed_version=4
 |Internet_explorer_supported=Yes
 |Internet_explorer_version=10
 |Internet_explorer_prefixed_supported=Unknown
@@ -289,8 +289,8 @@ If the manifest file or a resource specified in it fails to download, the entire
 |Android_prefixed_version=
 |Firefox_mobile_supported=Unknown
 |Firefox_mobile_version=
-|Firefox_mobile_prefixed_supported=Unknown
-|Firefox_mobile_prefixed_version=
+|Firefox_mobile_prefixed_supported=Yes
+|Firefox_mobile_prefixed_version=4
 |IE_phone_supported=Unknown
 |IE_phone_version=
 |IE_phone_prefixed_supported=Unknown
