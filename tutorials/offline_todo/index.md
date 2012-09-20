@@ -161,11 +161,11 @@ We have also seen the extra things that you can do to drastically improve the us
 
 But the best thing of all is, your application will still work online with browsers that don't support App Cache.
 
-Except as otherwise [http://code.google.com/policies.html#restrictions noted], the content of this page is licensed under the [http://creativecommons.org/licenses/by/3.0/ Creative Commons Attribution 3.0 License], and code samples are licensed under the [http://www.apache.org/licenses/LICENSE-2.0 Apache 2.0 License].
 }}
 {{Compatibility_Section
 |Not_required=No
 |Desktop_rows={{Compatibility Table Desktop Row
+|Feature=Offline Web Applications
 |Chrome_supported=Yes
 |Chrome_version=20.0
 |Chrome_prefixed_supported=No
@@ -188,6 +188,7 @@ Except as otherwise [http://code.google.com/policies.html#restrictions noted], t
 |Safari_prefixed_version=
 }}
 |Mobile_rows={{Compatibility Table Mobile Row
+|Feature=Offline Web Applications
 |Android_supported=Yes
 |Android_version=2.1
 |Android_prefixed_supported=No
