@@ -246,7 +246,7 @@ And of course, stay tuned for Part 2 of this article, along with lots of other g
 |Opera_prefixed_supported=Unknown
 |Opera_prefixed_version=
 |Safari_supported=Yes
-|Safari_prefixed_supported=No
+|Safari_prefixed_supported=Unknown
 |Safari_prefixed_version=
 }}
 |Mobile_rows=
