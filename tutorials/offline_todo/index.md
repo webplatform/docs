@@ -1,14 +1,12 @@
-{{Flags}}
-{{Summary_Section}}
+{{Flags
+|High-level issues=Needs Flags
+}}
+{{Summary_Section|A guide to taking web apps offline.}}
 {{Tutorial
-|Content==Practical Guide to Take Your TODO List Offline=
+|Content==A Practical Guide to Taking Your TODO List Offline=
 
 ====original by Paul Kinlan====
 ====published June 18, 2010, updated Sept. 4, 2012====
-
-==REMOVE - Supported browsers:==
-
-<span class="browsers"> <span class="browser opera supported"> <span class="browser_name">Opera</span> <span class="support"> supported </span> </span> <span class="browser ie "> <span class="browser_name">IE</span> <span class="support"> unsupported </span> </span> <span class="browser safari supported"> <span class="browser_name">Safari</span> <span class="support"> supported </span> </span> <span class="browser ff supported"> <span class="browser_name">Firefox</span> <span class="support"> supported </span> </span> <span class="browser chrome supported"> <span class="browser_name">Chrome</span> <span class="support"> supported </span> </span> </span><div class="compatible-block">
 
 ==Introduction==
 
@@ -19,7 +17,7 @@ There are two main components to Offline support in HTML.
 
 This sample demonstrates how to take your applications offline using the Applications cache, by extending the Database functionality in the HTML5Rocks! [http://www.html5rocks.com/en/tutorials/webdatabase/todo/ to-do list manager] tutorial.
 
-The TODO list manager already demonstrates the use of client-side databases, so combining this with the Application Cache and using all the same Javascript and HTML will give you a really clear indication of how simple it can be to take your applications offline.
+The TODO list manager already demonstrates the use of client-side databases, so combining this with the Application Cache and using all the same Javascript and HTML will give you a clear indication of how simple it can be to take your applications offline.
 
 ==What is the Application Cache?==
 
@@ -37,9 +35,9 @@ Because we already have an application on the web, it is a simple process to add
  base.css
 </pre>
 
-As you can see, it is pretty simple. The manifest file contains a comment (the line beginning with "#") and a simple list of the three files that we will be using.
+The manifest file contains a comment (the line beginning with "#") and a list of the three files that we will be using.
 
-The browser will re-download all the files in the manifest if it detects a single change in the manifest file. Therefore, if you are deploying software and making changes, you can use the comment line to ensure that all your users download the latest application.
+The browser will re-download all the files in the manifest if it detects any change in the manifest file. Therefore, if you are deploying software and making changes, you can use the comment line to ensure that all your users download the latest application.
 
 ==Step 2. Attaching the manifest==
 
@@ -164,19 +162,61 @@ We have also seen the extra things that you can do to drastically improve the us
 But the best thing of all is, your application will still work online with browsers that don't support App Cache.
 
 Except as otherwise [http://code.google.com/policies.html#restrictions noted], the content of this page is licensed under the [http://creativecommons.org/licenses/by/3.0/ Creative Commons Attribution 3.0 License], and code samples are licensed under the [http://www.apache.org/licenses/LICENSE-2.0 Apache 2.0 License].
-
 }}
 {{Compatibility_Section
 |Not_required=No
-|Desktop_rows=
-|Mobile_rows=
+|Desktop_rows={{Compatibility Table Desktop Row
+|Chrome_supported=Yes
+|Chrome_version=20.0
+|Chrome_prefixed_supported=No
+|Chrome_prefixed_version=
+|Firefox_supported=Yes
+|Firefox_version=12.0
+|Firefox_prefixed_supported=No
+|Firefox_prefixed_version=
+|Internet_explorer_supported=Yes
+|Internet_explorer_version=10.0
+|Internet_explorer_prefixed_supported=No
+|Internet_explorer_prefixed_version=
+|Opera_supported=Yes
+|Opera_version=12.0
+|Opera_prefixed_supported=No
+|Opera_prefixed_version=
+|Safari_supported=Yes
+|Safari_version=5.1
+|Safari_prefixed_supported=No
+|Safari_prefixed_version=
+}}
+|Mobile_rows={{Compatibility Table Mobile Row
+|Android_supported=Yes
+|Android_version=2.1
+|Android_prefixed_supported=No
+|Android_prefixed_version=
+|Firefox_mobile_supported=Unknown
+|Firefox_mobile_version=
+|Firefox_mobile_prefixed_supported=Unknown
+|Firefox_mobile_prefixed_version=
+|IE_phone_supported=Unknown
+|IE_phone_version=
+|IE_phone_prefixed_supported=Unknown
+|IE_phone_prefixed_version=
+|Opera_mobile_supported=No
+|Opera_mobile_version=
+|Opera_mobile_prefixed_supported=No
+|Opera_mobile_prefixed_version=
+|Safari_mobile_supported=Yes
+|Safari_mobile_version=3.2
+|Safari_mobile_prefixed_supported=No
+|Safari_mobile_prefixed_version=
+}}
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics}}
+{{Topics|Appcache}}
 {{External_Attribution
 |Is_CC-BY-SA=No
+|Sources=HTML5Rocks
 |MDN_link=
 |MSDN_link=
-|HTML5Rocks_link=
+|HTML5Rocks_link=http://www.html5rocks.com/en/tutorials/offline/takingappoffline/
 }}
