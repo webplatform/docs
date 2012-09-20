@@ -65,11 +65,11 @@ The most straightforward way to load a file is to use a standard <code>&lt;input
 
 '''Example''': Using form input for selecting. Try it!
 
-<div class="example"> </div>
+<nowiki><div class="example"> </div>
 <div class="example">
 <input type="file" id="files1" name="files1[]" multiple />
 <output id="file_list"></output>
-</div>
+</div></nowiki>
 
 ===Using drag and drop for selecting===
 
@@ -127,18 +127,16 @@ After you've obtained a <code>File</code> reference, instantiate a [http://dev.w
 
 <code>FileReader</code> includes four options for reading a file, asynchronously:
 
-* <code>FileReader.readAsBinaryString(Blob|File)</code> - The <code>result</code> property will contain the file/blob's data as a binary string. Every byte is represented by an integer in the range [0..255].
-* <code>FileReader.readAsText(Blob|File, opt_encoding)</code> - The <code>result</code> property will contain the file/blob's data as a text string. By default the string is decoded as 'UTF-8'. Use the optional encoding parameter can specify a different format.
-* <code>FileReader.readAsDataURL(Blob|File)</code> - The <code>result</code> property will contain the file/blob's data encoded as a [http://en.wikipedia.org/wiki/Data_URI_scheme data URL].
-* <code>FileReader.readAsArrayBuffer(Blob|File)</code> - The <code>result</code> property will contain the file/blob's data as an [https://cvs.khronos.org/svn/repos/registry/trunk/public/webgl/doc/spec/TypedArray-spec.html ArrayBuffer] object.
+* <code>FileReader.readAsBinaryString(Blob
+|File)</code> - The <code>result</code> property will contain the file/blob's data as an [https://cvs_khronos_org/svn/repos/registry/trunk/public/webgl/doc/spec/TypedArray-spec_html ArrayBuffer] object_
 
-Once one of these read methods is called on your <code>FileReader</code> object, the <code>onloadstart</code>, <code>onprogress</code>, <code>onload</code>, <code>onabort</code>, <code>onerror</code>, and <code>onloadend</code> events can be used to track its progress.
+Once one of these read methods is called on your <code>FileReader</code> object, the <code>onloadstart</code>, <code>onprogress</code>, <code>onload</code>, <code>onabort</code>, <code>onerror</code>, and <code>onloadend</code> events can be used to track its progress_
 
-The example below filters out images from the user's selection, calls <code>reader.readAsDataURL()</code> on the file, and renders a thumbnail by setting the 'src' attribute to a data URL.
+The example below filters out images from the user's selection, calls <code>reader_readAsDataURL()</code> on the file, and renders a thumbnail by setting the 'src' attribute to a data URL_
 
 <pre>
  &lt;style&gt;
-   .thumb {
+   _thumb {
      height: 75px;
      border: 1px solid #000;
      margin: 10px 5px 0 0;
@@ -392,7 +390,6 @@ The example below demonstrates displaying a progress bar to monitor the status o
 * [http://www.w3.org/TR/progress-events/#Progress ProgressEvent] specification
 
 Except as otherwise [http://code.google.com/policies.html#restrictions noted], the content of this page is licensed under the [http://creativecommons.org/licenses/by/3.0/ Creative Commons Attribution 3.0 License], and code samples are licensed under the [http://www.apache.org/licenses/LICENSE-2.0 Apache 2.0 License].
-
 }}
 {{Compatibility_Section
 |Not_required=No
