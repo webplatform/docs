@@ -1,6 +1,6 @@
 {{Flags
 |High-level issues=Copyright Issue
-|Content=Outdated
+|Content=Outdated, Grammar/Spelling
 }}
 {{Summary_Section|When you create a web site, accessibility—making the web site usable by everyone, regardless of their ability or disability—should always be a central concern. In this article I’ll look at accessibility explicitly, so you can understand fully what it is, why it is important, how to ensure that sites are accessible, and what guidelines exist to define accessible sites.}}
 {{Tutorial
@@ -290,11 +290,13 @@ Accessibility is an important topic for both economic and social reasons. It is 
 *Explain how you would design an interaction on a web page to be accessible. Create the step by step instructions for creating a tree control (you don’t actually have to make it).
 }}
 {{Compatibility_Section
+|Not_required=No
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
 }}
 {{See_Also_Section}}
+{{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
