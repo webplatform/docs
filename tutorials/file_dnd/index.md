@@ -117,7 +117,7 @@ After you've obtained a <code>File</code> reference, instantiate a [http://dev.w
 <code>FileReader</code> includes four options for reading a file, asynchronously:
 
 * <code>FileReader.readAsBinaryString(Blob
-|File)</code> - The <code>result</code> property will contain the file/blob's data as an [https://cvs_khronos_org/svn/repos/registry/trunk/public/webgl/doc/spec/TypedArray-spec_html ArrayBuffer] object_
+<nowiki>|</nowiki>File)</code> - The <code>result</code> property will contain the file/blob's data as an [https://cvs_khronos_org/svn/repos/registry/trunk/public/webgl/doc/spec/TypedArray-spec_html ArrayBuffer] object_
 
 Once one of these read methods is called on your <code>FileReader</code> object, the <code>onloadstart</code>, <code>onprogress</code>, <code>onload</code>, <code>onabort</code>, <code>onerror</code>, and <code>onloadend</code> events can be used to track its progress_
 
