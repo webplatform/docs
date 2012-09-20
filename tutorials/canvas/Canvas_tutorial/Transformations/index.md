@@ -74,7 +74,7 @@ It's a good idea to save the canvas state before doing any transformations. In m
 
 ====A <code>translate</code> example====
 
-[[Image:=Canvas_translate.png]]This example demonstrates some of the benefits of translating the canvas origin. I've made a function <code>drawSpirograph</code> that draws spirograph patterns. These are drawn around the origin. If I didn't use the <code>translate</code> function, I would only see a quarter of the pattern on the canvas. The <code>translate</code> method also gives me the freedom to place it anywhere on the canvas without having to manually adjust coordinates in the spirograph function. This makes it a little easier to understand and use.
+[[File:Canvas scale.png|right|Canvas with spirograpgh images on it]]This example demonstrates some of the benefits of translating the canvas origin. I've made a function <code>drawSpirograph</code> that draws spirograph patterns. These are drawn around the origin. If I didn't use the <code>translate</code> function, I would only see a quarter of the pattern on the canvas. The <code>translate</code> method also gives me the freedom to place it anywhere on the canvas without having to manually adjust coordinates in the spirograph function. This makes it a little easier to understand and use.
 
 In the <code>draw</code> function I call the <code>drawSpirograph</code> nine times using two <code>for</code> loops. In each loop the canvas is translated, the spirograph is drawn, and the canvas is returned back to its original state.
 
