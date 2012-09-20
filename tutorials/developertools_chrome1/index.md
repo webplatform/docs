@@ -225,27 +225,25 @@ For more information on the Developer Tools, we recommend the following:
 * [http://www.chromium.org/devtools/google-chrome-developer-tools-tutorial Chrome Developer Tools Tutorial]
 
 And of course, stay tuned for Part 2 of this article, along with lots of other great HTML5 and Chrome content.
-
-Except as otherwise [http://code.google.com/policies.html#restrictions noted], the content of this page is licensed under the [http://creativecommons.org/licenses/by/3.0/ Creative Commons Attribution 3.0 License], and code samples are licensed under the [http://www.apache.org/licenses/LICENSE-2.0 Apache 2.0 License].
 }}
 {{Compatibility_Section
 |Not_required=No
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
 |Chrome_version=6.0
-|Chrome_prefixed_supported=No
+|Chrome_prefixed_supported=Unknown
 |Chrome_prefixed_version=
-|Firefox_supported=No
+|Firefox_supported=Unknown
 |Firefox_version=
-|Firefox_prefixed_supported=No
+|Firefox_prefixed_supported=Unknown
 |Firefox_prefixed_version=
-|Internet_explorer_supported=No
+|Internet_explorer_supported=Unknown
 |Internet_explorer_version=
-|Internet_explorer_prefixed_supported=No
+|Internet_explorer_prefixed_supported=Unknown
 |Internet_explorer_prefixed_version=
-|Opera_supported=No
+|Opera_supported=Unknown
 |Opera_version=
-|Opera_prefixed_supported=No
+|Opera_prefixed_supported=Unknown
 |Opera_prefixed_version=
 |Safari_supported=Yes
 |Safari_prefixed_supported=No
