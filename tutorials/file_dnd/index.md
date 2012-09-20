@@ -179,7 +179,7 @@ In some cases reading the entire file into memory isn't the best option. For exa
 
 Luckily for us, the <code>File</code> interface supports a slice method to support this use case. The method takes a starting byte as its first argument, an ending byte as its second, and an optional content type string as a third.
 
-<pre> 
+<pre>
  var blob = file.slice(<var>startingByte</var>, <var>endindByte</var>);
  reader.readAsBinaryString(blob);
 </pre>
@@ -246,19 +246,8 @@ The following example demonstrates reading chunks of a file. Something worth not
  &lt;/script&gt;
 </pre>
 
-'''Example''': Slicing a file. Try it!
-
-<div class="example">
-<input type="file" id="file4" name="file4"/> Read bytes:
-<span class="readBytesButtons">
-<button data-startbyte="0" data-endbyte="4">1-5</button>
-<button data-startbyte="5" data-endbyte="14">6-15</button>
-<button data-startbyte="6" data-endbyte="7">7-8</button>
-<button>entire file</button>
-</span>
-<div id="byte_range"></div>
-<div id="byte_content"></div>
-</div>
+'''Example''': Slicing a file. Try it
+[http://www.html5rocks.com/en/tutorials/file/dndfiles/ here]!
 
 ===Monitoring the progress of a read===
 
@@ -369,7 +358,6 @@ The example below demonstrates displaying a progress bar to monitor the status o
 * [http://www.w3.org/TR/progress-events/#Progress ProgressEvent] specification
 
 Except as otherwise [http://code.google.com/policies.html#restrictions noted], the content of this page is licensed under the [http://creativecommons.org/licenses/by/3.0/ Creative Commons Attribution 3.0 License], and code samples are licensed under the [http://www.apache.org/licenses/LICENSE-2.0 Apache 2.0 License].
-
 |File)</code> - The <code>result</code> property will contain the file/blob's data as an [https://cvs_khronos_org/svn/repos/registry/trunk/public/webgl/doc/spec/TypedArray-spec_html ArrayBuffer] object_
 
 Once one of these read methods is called on your <code>FileReader</code> object, the <code>onloadstart</code>, <code>onprogress</code>, <code>onload</code>, <code>onabort</code>, <code>onerror</code>, and <code>onloadend</code> events can be used to track its progress_
