@@ -251,7 +251,6 @@ The sooner you accept this and move on, the sooner you can begin to develop bett
 * How do you mark-up a telephone number as a link?
  
 Note: This material was originally published as part of the Opera Web Standards Curriculum, available as [http://dev.opera.com/articles/view/introduction-to-the-mobile-web/ Mobile 1: Introduction to the mobile web], written by Brian Suda. Like the original, it is published under the [http://creativecommons.org/licenses/by-nc-sa/2.5/ Creative Commons Attribution, Non Commercial - Share Alike 2.5] license.
-
 }}
 {{Examples_Section
 |Not_required=No
@@ -262,7 +261,7 @@ Note: This material was originally published as part of the Opera Web Standards 
 |Specifications=
 }}
 {{See_Also_Section}}
-{{Topics}}
+{{Topics|Mobile}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
