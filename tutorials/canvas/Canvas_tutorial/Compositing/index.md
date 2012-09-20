@@ -21,29 +21,29 @@ We can not only draw new shapes behind existing shapes but we can also use it to
 {{!}} style="padding: 5px; vertical-align: top" {{!}}
 '''source-over''' (default)<br /> This is the default setting and draws new shapes on top of the existing canvas content.
 {{!}} style="padding: 5px; vertical-align: top" {{!}}
-[[Image:=Canvas_composite_srcovr.png{{!}}Image:Canvas_composite_srcovr.png]]
+[[File:Canvas composite srcovr.png{{!}}Canvas with a red circle over a blue square]]
 {{!}} style="padding: 5px; vertical-align: top" {{!}}
 '''destination-over'''<br /> New shapes are drawn behind the existing canvas content.
 {{!}} style="padding: 5px; vertical-align: top" {{!}}
-[[Image:=Canvas_composite_destovr.png{{!}}Image:Canvas_composite_destovr.png]]
+[[File:Canvas composite destovr.png{{!}}Canvas with a blue square in front of a red circle]]
 {{!}}-
 {{!}} style="padding: 5px; vertical-align: top" {{!}}
 '''source-in'''<br /> The new shape is drawn only where both the new shape and the destination canvas overlap. Everything else is made transparent
 {{!}} style="padding: 5px; vertical-align: top" {{!}}
-[[Image:=Canvas_composite_srcin.png{{!}}Image:Canvas_composite_srcin.png]]
+[[File:Canvas composite srcin.png{{!}}Canvas showing only the northwest quadrant of a red circle]]
 {{!}} style="padding: 5px; vertical-align: top" {{!}}
 '''destination-in'''<br /> The existing canvas content is kept where both the new shape and existing canvas content overlap. Everything else is made transparent.
 {{!}} style="padding: 5px; vertical-align: top" {{!}}
-[[Image:=Canvas_composite_destin.png{{!}}Image:Canvas_composite_destin.png]]
+[[File:Canvas composite destin.png{{!}}Canvas showing only the northwest quadrant of a blue circle]]
 {{!}}-
 {{!}} style="padding: 5px; vertical-align: top" {{!}}
 '''source-out'''<br /> The new shape is drawn where it doesn't overlap the existing canvas content.
 {{!}} style="padding: 5px; vertical-align: top" {{!}}
-[[Image:=Canvas_composite_srcout.png{{!}}Image:Canvas_composite_srcout.png]]
+[[File:Canvas composite srcout.png{{!}}Canvas with a red circle that has a white square blocking out the northwest section of the circle]]
 {{!}} style="padding: 5px; vertical-align: top" {{!}}
 '''destination-out'''<br /> The existing content is kept where it doesn't overlap the new shape.
 {{!}} style="padding: 5px; vertical-align: top" {{!}}
-[[Image:=Canvas_composite_destout.png{{!}}Image:Canvas_composite_destout.png]]
+[[File:Canvas composite destout.png{{!}}Canvas with a blue square that has a semicircle of white in the southwest corner]]
 {{!}}-
 {{!}} style="padding: 5px; vertical-align: top" {{!}}
 '''source-atop'''<br /> The new shape is only drawn where it overlaps the existing canvas content.
