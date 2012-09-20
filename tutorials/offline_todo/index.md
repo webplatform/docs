@@ -15,13 +15,13 @@ There are two main components to Offline support in HTML.
 * The Application Cache, used for caching application files such as HTML, images, JavaScript and CSS
 * Databases, used for data access and key-based lookups such as localStorage and sessionStorage
 
-This sample demonstrates how to take your applications offline using the Applications cache, by extending the Database functionality in the HTML5Rocks! [http://www.html5rocks.com/en/tutorials/webdatabase/todo/ to-do list manager] tutorial.
+This sample demonstrates how to take your applications offline using the Application Cache, by extending the Database functionality in the HTML5Rocks! [http://www.html5rocks.com/en/tutorials/webdatabase/todo/ to-do list manager] tutorial.
 
 The TODO list manager already demonstrates the use of client-side databases, so combining this with the Application Cache and using all the same Javascript and HTML will give you a clear indication of how simple it can be to take your applications offline.
 
 ==What is the Application Cache?==
 
-The Application Cache (or App Cache for short) is designed to let you declaratively specify your web application's required resources in a manifest file. The resources listed in the manifest will be proactively downloaded and stored by the browser.
+The Application Cache (App Cache for short) is designed to let you declaratively specify your web application's required resources in a manifest file. The resources listed in the manifest will be proactively downloaded and stored by the browser.
 
 ==Step 1. Creating a basic manifest==
 
