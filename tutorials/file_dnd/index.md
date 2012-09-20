@@ -357,7 +357,6 @@ The example below demonstrates displaying a progress bar to monitor the status o
 * [http://www.w3.org/TR/file-upload/#dfn-fileerror FileError] interface specification
 * [http://www.w3.org/TR/progress-events/#Progress ProgressEvent] specification
 
-Except as otherwise [http://code.google.com/policies.html#restrictions noted], the content of this page is licensed under the [http://creativecommons.org/licenses/by/3.0/ Creative Commons Attribution 3.0 License], and code samples are licensed under the [http://www.apache.org/licenses/LICENSE-2.0 Apache 2.0 License].
 |File)</code> - The <code>result</code> property will contain the file/blob's data as an [https://cvs_khronos_org/svn/repos/registry/trunk/public/webgl/doc/spec/TypedArray-spec_html ArrayBuffer] object_
 
 Once one of these read methods is called on your <code>FileReader</code> object, the <code>onloadstart</code>, <code>onprogress</code>, <code>onload</code>, <code>onabort</code>, <code>onerror</code>, and <code>onloadend</code> events can be used to track its progress_
@@ -886,6 +885,7 @@ Except as otherwise [http://code.google.com/policies.html#restrictions noted], t
 {{Compatibility_Section
 |Not_required=No
 |Desktop_rows={{Compatibility Table Desktop Row
+|Feature=File API
 |Chrome_supported=Yes
 |Chrome_version=20.0
 |Chrome_prefixed_supported=No
@@ -908,6 +908,7 @@ Except as otherwise [http://code.google.com/policies.html#restrictions noted], t
 |Safari_prefixed_version=
 }}
 |Mobile_rows={{Compatibility Table Mobile Row
+|Feature=File API
 |Android_supported=Yes
 |Android_version=3.0 (partial)
 |Android_prefixed_supported=No
