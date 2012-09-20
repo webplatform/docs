@@ -65,14 +65,6 @@ The most straightforward way to load a file is to use a standard <code>&lt;input
 
 '''Example''': Using form input for selecting. Try it [http://www.html5rocks.com/en/tutorials/file/dndfiles/ here]!
 
-<pre>
-<div class="example"> </div>
-<div class="example">
-<input type="file" id="files1" name="files1[]" multiple />
-<output id="file_list"></output>
-</div>
-</pre>
-
 ===Using drag and drop for selecting===
 
 Another technique for loading files is native drag and drop from the desktop to the browser. We can modify the previous example slightly to include drag and drop support.
@@ -112,12 +104,7 @@ Another technique for loading files is native drag and drop from the desktop to 
  &lt;/script&gt;
 </pre>
 
-'''Example''': Using drag and drop for selecting. Try it!
-
-<div class="example">
-<div id="drop_zone">Drop files here</div>
-<output id="file_list2"></output>
-</div>
+'''Example''': Using drag and drop for selecting. Try it[http://www.html5rocks.com/en/tutorials/file/dndfiles/ here]!
 
 '''Note:''' Some browsers treat <code>&lt;input type="file"&gt;</code> elements as native drop targets. Try dragging files onto the input field in the previous example.
 
