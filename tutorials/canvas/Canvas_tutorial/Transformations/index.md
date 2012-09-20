@@ -35,8 +35,6 @@ So far this is pretty similar to what we've done in previous sections. However o
 
 When the second <code>restore</code> statement is called, the original state (the one we set up before the first call to <code>save</code>) is restored and the last rectangle is once again drawn in black.
 
-[/samples/canvas-tutorial/5_1_canvas_savestate.html View this example]
-
  function draw() {
    var ctx = document.getElementById('canvas').getContext('2d');
  
@@ -130,8 +128,6 @@ The rotation center point is always the canvas origin. To change the center poin
 
 Again we have two loops. The first determines the number of rings, and the second determines the number of dots drawn in each ring. Before drawing each ring, I save the canvas state, so I can easily retrieve it. For each dot that is drawn, I rotate the canvas coordinate space by an angle that is determined by the number of dots in the ring. The innermost circle has six dots, so in each step, I rotate over an angle of 360/6 = 60 degrees. With each additional ring, the number of dots is doubled, and the angle in turn is halved.
 
-[/samples/canvas-tutorial/5_3_canvas_rotate.html View this example]
-
  function draw() {
    var ctx = document.getElementById('canvas').getContext('2d');
    ctx.translate(75,75);
@@ -167,7 +163,7 @@ By default one unit on the canvas is exactly one pixel. If we apply, for instanc
 
 ====A <code>scale</code> example====
 
-[[Image:=Canvas_scale.png]]In this last example I've used the spirograph function from one of the previous examples to draw nine shapes with different scaling factors. The top left shape has been drawn with no scaling applied. The yellow shapes to the right both have a uniform scaling factor (the same value for <var>x</var> and <var>y</var> parameters). If you look at the code below you'll see that I've used the <code>scale</code> method twice with equal parameter values for the second and third spirograph. Because I didn't restore the canvas state, the third shape is drawn with a scaling factor of 0.75 � 0.75 = 0.5625.
+[[File:Canvas scale.png|right|Canvas with spirograpgh images on it]]In this last example I've used the spirograph function from one of the previous examples to draw nine shapes with different scaling factors. The top left shape has been drawn with no scaling applied. The yellow shapes to the right both have a uniform scaling factor (the same value for <var>x</var> and <var>y</var> parameters). If you look at the code below you'll see that I've used the <code>scale</code> method twice with equal parameter values for the second and third spirograph. Because I didn't restore the canvas state, the third shape is drawn with a scaling factor of 0.75 � 0.75 = 0.5625.
 
 The second row of blue shapes have a non-uniform scaling applied in a vertical direction. Each of the shapes has the <var>x</var> scaling factor set to 1.0 which means no scaling. The <var>y</var> scaling factor is set to 0.75. This results in the three shapes being squashed down. The original circular shape has now become an ellipse. If you look closely you'll see that the line width has also been reduced in the vertical direction.
 
