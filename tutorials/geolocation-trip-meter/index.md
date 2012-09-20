@@ -167,7 +167,7 @@ Please see the [http://www.html5rocks.com/en/tutorials/geolocation/trip_meter/ o
 |IE_phone_prefixed_version=
 |Opera_mobile_supported=No
 |Opera_mobile_version=
-|Opera_mobile_prefixed_supported=No
+|Opera_mobile_prefixed_supported=Unknown
 |Opera_mobile_prefixed_version=
 |Safari_mobile_supported=Yes
 |Safari_mobile_version=3.2
