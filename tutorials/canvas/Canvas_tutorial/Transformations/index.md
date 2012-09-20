@@ -27,7 +27,7 @@ Every time the <code>restore</code> method is called, the last saved state is re
 
 ====A save and restore canvas state example====
 
-[[Image:=Canvas_savestate.png]]This example tries to illustrate how the stack of drawing states functions by drawing a set of consecutive rectangles.
+[[File:Canvas savestate.png|right|A stack of concentric rectangles on a canvas.]]This example tries to illustrate how the stack of drawing states functions by drawing a set of consecutive rectangles.
 
 The first step is to draw a large rectangle with the default settings. Next we save this state and make changes to the fill color. We then draw the second and smaller blue rectangle and save the state. Again we change some drawing settings and draw the third semi-transparent white rectangle.
 
@@ -60,7 +60,7 @@ When the second <code>restore</code> statement is called, the original state (th
 
 ==Translating==
 
-[[Image:=Canvas_grid_translate.png]]The first of the transformation methods we'll look at is <code>translate</code>. This method is used to move the canvas and its origin to a different point in the grid.
+[[File:Canvas grid translate.png|right|Grid showing translation coordinates along x and y axes]]The first of the transformation methods we'll look at is <code>translate</code>. This method is used to move the canvas and its origin to a different point in the grid.
 
 <div style="border: 1px solid rgb(208, 221, 158); background: rgb(239, 248, 206) none repeat scroll 0% 0%; padding-left: 10px">
 
@@ -78,7 +78,6 @@ It's a good idea to save the canvas state before doing any transformations. In m
 
 In the <code>draw</code> function I call the <code>drawSpirograph</code> nine times using two <code>for</code> loops. In each loop the canvas is translated, the spirograph is drawn, and the canvas is returned back to its original state.
 
-[/samples/canvas-tutorial/5_2_canvas_translate.html View this example]
 
  function draw() {
    var ctx = document.getElementById('canvas').getContext('2d');
@@ -113,7 +112,7 @@ In the <code>draw</code> function I call the <code>drawSpirograph</code> nine ti
 
 ==Rotating==
 
-[[Image:=Canvas_grid_rotate.png]]The second transformation method is <code>rotate</code>. We use it to rotate the canvas around the current origin.
+[[File:Canvas grid rotate.png|right|Grid showing how a canvas image is rotated by radians]]The second transformation method is <code>rotate</code>. We use it to rotate the canvas around the current origin.
 
 <div style="border: 1px solid rgb(208, 221, 158); background: rgb(239, 248, 206) none repeat scroll 0% 0%; padding-left: 10px">
 
@@ -127,7 +126,7 @@ The rotation center point is always the canvas origin. To change the center poin
 
 ====A <code>rotate</code> example====
 
-[[Image:=Canvas_rotate.png]]In the example, you can see on the right, I used the <code>rotate</code> method to draw shapes in a circular pattern. You could also have calculated the individual <var>x</var> and <var>y</var> coordinates (<code>x = r*Math.cos(a); y = r*Math.sin(a)</code>). In this case it doesn't really matter which method you choose, because we're drawing circles. Calculating the coordinates results in only rotating the center positions of the circles and not the circles themselves, while using <code>rotate</code> results in both, but of course circles look the same no matter how far they are rotated about their centers.
+[[File:Canvas rotate.png|right|Canvas covered in circles of differing colors, drawn in concentric pattern using the rotate method]]In the example, you can see on the right, I used the <code>rotate</code> method to draw shapes in a circular pattern. You could also have calculated the individual <var>x</var> and <var>y</var> coordinates (<code>x = r*Math.cos(a); y = r*Math.sin(a)</code>). In this case it doesn't really matter which method you choose, because we're drawing circles. Calculating the coordinates results in only rotating the center positions of the circles and not the circles themselves, while using <code>rotate</code> results in both, but of course circles look the same no matter how far they are rotated about their centers.
 
 Again we have two loops. The first determines the number of rings, and the second determines the number of dots drawn in each ring. Before drawing each ring, I save the canvas state, so I can easily retrieve it. For each dot that is drawn, I rotate the canvas coordinate space by an angle that is determined by the number of dots in the ring. The innermost circle has six dots, so in each step, I rotate over an angle of 360/6 = 60 degrees. With each additional ring, the number of dots is doubled, and the angle in turn is halved.
 
@@ -173,8 +172,6 @@ By default one unit on the canvas is exactly one pixel. If we apply, for instanc
 The second row of blue shapes have a non-uniform scaling applied in a vertical direction. Each of the shapes has the <var>x</var> scaling factor set to 1.0 which means no scaling. The <var>y</var> scaling factor is set to 0.75. This results in the three shapes being squashed down. The original circular shape has now become an ellipse. If you look closely you'll see that the line width has also been reduced in the vertical direction.
 
 The third row of green shapes is similar to the one above but now I've applied a scaling in the horizontal direction.
-
-[/samples/canvas-tutorial/5_4_canvas_scale.html View this example]
 
  function draw() {
    var ctx = document.getElementById('canvas').getContext('2d');
@@ -260,7 +257,7 @@ This method must reset the current transform to the identity matrix, and then in
 
 ====<code>transform</code> / <code>setTransform</code> examples====
 
-[[Image:=Canvas_transform.png]]
+[[File:Canvas transform.png|right|Canvas with a rectangle rotated around a point via transforms, with a pink rectangle in the lower left quadrant]]
 
  function draw() {
    var canvas = document.getElementById("canvas");
@@ -284,7 +281,6 @@ This method must reset the current transform to the identity matrix, and then in
 
 
 [[canvas/tutorial/Canvas tutorial/Applying styles and colors|&lt;&lt;Previous      ||    ]][[canvas/tutorial/Canvas tutorial/Compositing|   Next&gt;&gt;]]
-
 }}
 {{Compatibility_Section
 |Not_required=No
