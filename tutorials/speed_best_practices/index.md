@@ -242,8 +242,8 @@ The [http://www.html5rocks.com/tutorials/developertools/part1/ guide to Chrome's
 |Android_prefixed_version=2.1
 |Firefox_mobile_supported=Unknown
 |Firefox_mobile_version=
-|Firefox_mobile_prefixed_supported=Unknown
-|Firefox_mobile_prefixed_version=
+|Firefox_mobile_prefixed_supported=Yes
+|Firefox_mobile_prefixed_version=3
 |IE_phone_supported=Unknown
 |IE_phone_version=
 |IE_phone_prefixed_supported=Unknown
