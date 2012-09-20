@@ -10,7 +10,7 @@
 
 ==Introduction==
 
-Much of HTML5 aims to deliver native browser support for components and techniques that we have achieved through JavaScript libraries thus far. Using these features, when present, can end up delivering a much faster experience for your users. In this tutorial, I won't recap the excellent performance research that you've seen at Yahoo's [http://developer.yahoo.com/performance/rules.html Exceptional Performance site] or Google's [http://code.google.com/speed/page-speed/docs/rules_intro.html Page Speed docs] and [http://code.google.com/speed/index.html Let's make the web faster] sites. Instead I'll focus on how putting HTML5 and CSS3 to use today can make your web apps more responsive.
+Much of HTML5 aims to deliver native browser support for components and techniques that we have achieved through JavaScript libraries thus far. Using these features, when present, can end up delivering a much faster experience for your users. In this tutorial, we won't recap the excellent performance research that you've seen at Yahoo's [http://developer.yahoo.com/performance/rules.html Exceptional Performance site] or Google's [http://code.google.com/speed/page-speed/docs/rules_intro.html Page Speed docs] and [http://code.google.com/speed/index.html Let's make the web faster] sites. Instead we'll focus on how putting HTML5 and CSS3 to use today can make your web apps more responsive.
 
 ==Tip 1: Use web storage in place of cookies==
 
@@ -277,6 +277,28 @@ The [http://www.html5rocks.com/tutorials/developertools/part1/ guide to Chrome's
 |Safari_version=5.1
 |Safari_prefixed_supported=Unknown
 |Safari_prefixed_version=
+}}{{Compatibility Table Desktop Row
+|Feature=Offline Web Applications
+|Chrome_supported=Yes
+|Chrome_version=20.0
+|Chrome_prefixed_supported=Unknown
+|Chrome_prefixed_version=
+|Firefox_supported=Yes
+|Firefox_version=12.0
+|Firefox_prefixed_supported=Unknown
+|Firefox_prefixed_version=
+|Internet_explorer_supported=Yes
+|Internet_explorer_version=10.0
+|Internet_explorer_prefixed_supported=Unknown
+|Internet_explorer_prefixed_version=
+|Opera_supported=Yes
+|Opera_version=12.0
+|Opera_prefixed_supported=Unknown
+|Opera_prefixed_version=
+|Safari_supported=Yes
+|Safari_version=5.1
+|Safari_prefixed_supported=Unknown
+|Safari_prefixed_version=
 }}
 |Mobile_rows={{Compatibility Table Mobile Row
 |Feature=Web Storage
@@ -386,6 +408,28 @@ The [http://www.html5rocks.com/tutorials/developertools/part1/ guide to Chrome's
 |Opera_mobile_prefixed_version=
 |Safari_mobile_supported=Yes
 |Safari_mobile_version=4.0
+|Safari_mobile_prefixed_supported=Unknown
+|Safari_mobile_prefixed_version=
+}}{{Compatibility Table Mobile Row
+|Feature=Offline Web Applications
+|Android_supported=Yes
+|Android_version=2.1
+|Android_prefixed_supported=Unknown
+|Android_prefixed_version=
+|Firefox_mobile_supported=Unknown
+|Firefox_mobile_version=
+|Firefox_mobile_prefixed_supported=Unknown
+|Firefox_mobile_prefixed_version=
+|IE_phone_supported=Unknown
+|IE_phone_version=
+|IE_phone_prefixed_supported=Unknown
+|IE_phone_prefixed_version=
+|Opera_mobile_supported=No
+|Opera_mobile_version=
+|Opera_mobile_prefixed_supported=Unknown
+|Opera_mobile_prefixed_version=
+|Safari_mobile_supported=Yes
+|Safari_mobile_version=3.2
 |Safari_mobile_prefixed_supported=Unknown
 |Safari_mobile_prefixed_version=
 }}
