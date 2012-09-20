@@ -92,7 +92,9 @@ Relative positioning is a positioning scheme in CSS, but it is more closely rela
 
 The thing to remember about relative positioning is that it’s only the generated box that is shifted. The element still remains where it was in the static document flow. That’s where it “takes up space” as far as other elements are concerned. This means that the shifted box may end up overlapping other elements’ boxes, because they still act like the relatively positioned element has remained where it should be, before the positioning was applied. As far as the document flow is concerned, the element has not moved—it is just the end visual result that shows the box being moved. Let’s look at it in practice.
 
-# Copy the HTML code below into a new document in your favourite text editor and save it as relative.html.
+<ol>
+<li>
+<p>Copy the HTML code below into a new document in your favourite text editor and save it as relative.html.</p>
 
 <pre>&lt;!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"&gt;
  &lt;html&gt;
@@ -118,10 +120,12 @@ The thing to remember about relative positioning is that it’s only the generat
      Proin lectus purus, vehicula et, cursus ut, nonummy et, diam.&lt;/p&gt;
    &lt;/body&gt;
  &lt;/html&gt;</pre>
-
-# Open the file in your web browser to see how it looks at this stage—you should just see a plain paragraph of text.
-
-# Create a new document in your editor, copy the CSS code below into it and save the file as style.css.
+</li>
+<li>
+<p>Open the file in your web browser to see how it looks at this stage—you should just see a plain paragraph of text.</p>
+</li>
+<li>
+<p>Create a new document in your editor, copy the CSS code below into it and save the file as style.css.</p>
 
 <pre>p {
   width: 20em;
@@ -130,21 +134,29 @@ The thing to remember about relative positioning is that it’s only the generat
 span {
   background-color: lime;
 }</pre>
-
-# Link the style sheet to the HTML document by inserting the following line just before the <code>&lt;/head&gt;</code> tag:
+</li>
+<il>
+<p>Link the style sheet to the HTML document by inserting the following line just before the <code>&lt;/head&gt;</code> tag:</p>
 
 <pre>&lt;link rel="stylesheet" type="text/css" href="style.css"&gt;</pre>
-
-# Save both files and reload the page in your browser. I have narrowed the paragraph to make the line breaks occur at the same position even in small browser windows. The <code>span</code> element now has a migraine-inducing background colour to make it more visible.
-
-# Next, let’s modify the style sheet by adding three declarations to the rule for the <code>span</code> element:
+</li>
+<li>
+<p>Save both files and reload the page in your browser. I have narrowed the paragraph to make the line breaks occur at the same position even in small browser windows. The <code>span</code> element now has a migraine-inducing background colour to make it more visible.</p>
+</li>
+<li>
+<p>Next, let’s modify the style sheet by adding three declarations to the rule for the <code>span</code> element:</p>
 
 <pre>span {
    '''position: relative;''' '''top: 1em;''' '''left: 2em;'''
    background-color: lime;
  }</pre>
+</li>
+<li>
+<p>Save and reload the page in the browser to see the effects of relative positioning. You have shifted the <code>span</code> element both vertically and horizontally. Notice how it now overlaps the next line of text, and how there is an empty hole where it used to be. The way the generated box has been shifted may not be what you expected from the code. You specified <code>top:1em</code>, but the box was shifted ''downward''. Also, the box was shifted to the ''right'', even though you specified <code>left:2em</code>. </p>
+</li>
+</ol>
 
-# Save and reload the page in the browser to see the effects of relative positioning. You have shifted the <code>span</code> element both vertically and horizontally. Notice how it now overlaps the next line of text, and how there is an empty hole where it used to be. The way the generated box has been shifted may not be what you expected from the code. You specified <code>top:1em</code>, but the box was shifted ''downward''. Also, the box was shifted to the ''right'', even though you specified <code>left:2em</code>. Why is this?
+Why is this?
  
 The key to understanding how these properties work with relative positioning is to realise that they specify the ''edge'' that the movement is applied to, not the direction of movement. In other words, the <code>top</code> property shifts the box relative to its top edge, the <code>left</code> property shifts the box relative to its left edge, and so on. The box is shifted ''away'' from the specified edge, so <code>top:1em</code> shifts the box 1em away from the top position—in other words, downwards. Negative numbers shift the box in the opposite direction, so <code>bottom:-1em</code> is the same as <code>top:1em</code>.
 
@@ -166,7 +178,9 @@ This type of layout used to be created with layout tables back in the Dark Ages 
  
 The problem with floats is that they only shift to the left or right until they touch the edge of the parent block, or another float. That means floated columns have to appear in the right order in your markup. But sometimes it’s desirable to have a presentational order that is different from the source order. You may want to have the content before the navigation, for instance, to enhance usability for keyboard navigation and to improve search engine optimisation. This is possible to achieve, even with floats, with some judicious use of negative margins and relative positioning—let’s have a look at how to do this. Let’s begin with a skeleton, or wireframe, HTML document.
  
-# Copy the code below into your text editor and save the file as layout.html.
+<ol>
+<li>
+<p>Copy the code below into your text editor and save the file as layout.html.</p>
 
 <pre>&lt;!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"&gt;
  &lt;html lang="en"&gt;
@@ -183,8 +197,9 @@ The problem with floats is that they only shift to the left or right until they 
      &lt;div id="footer"&gt;Footer&lt;/div&gt;
    &lt;/body&gt;
  &lt;/html&gt;</pre>
-
-# Next, you’ll create the embryo of a style sheet. Copy the code below into your text editor and save the file as layout.css.
+</li>
+<il>
+<p>Next, you’ll create the embryo of a style sheet. Copy the code below into your text editor and save the file as layout.css.</p>
 
 <pre>#header {
    background-color: #369;
@@ -202,10 +217,12 @@ The problem with floats is that they only shift to the left or right until they 
  #footer {
    border-top: 1px solid #369;
  }</pre>
-
-# Save both files and load the page in your browser. The five divisions appear in order, from top to bottom.   Imagine your design department has specified that the navigation must be on the left and the sidebar on the right, with the main content column in the middle. The header and footer should extend across the whole page width and we don’t know which of the three columns in between will be the longest. The source order is mandated by your accessibility and usability experts and isn’t negotiable. How can you combine all those requirements into a working layout?   You are going to have to add an extra element into the markup for this to work. It’s unavoidable, but one extra element is something you ought to be able to live with. You need an element that wraps around the three “columns”.
-
-# Insert the two highlighted lines below into the HTML document:
+</li>
+<li>
+<p>Save both files and load the page in your browser. The five divisions appear in order, from top to bottom.   Imagine your design department has specified that the navigation must be on the left and the sidebar on the right, with the main content column in the middle. The header and footer should extend across the whole page width and we don’t know which of the three columns in between will be the longest. The source order is mandated by your accessibility and usability experts and isn’t negotiable. How can you combine all those requirements into a working layout?   You are going to have to add an extra element into the markup for this to work. It’s unavoidable, but one extra element is something you ought to be able to live with. You need an element that wraps around the three “columns”.</p>
+</li>
+<li>
+<p>Insert the two highlighted lines below into the HTML document:</p>
 
 <pre>&lt;div id="header"&gt;Header&lt;/div&gt;
    '''&lt;div id="wrapper"&gt;'''
@@ -215,9 +232,10 @@ The problem with floats is that they only shift to the left or right until they 
    '''&lt;/div&gt;'''
  &lt;div id="footer"&gt;Footer&lt;/div&gt;</pre>
 
-The designers (who, fortunately, understand accessibility and device independence) have stipulated that the navigation needs to be 12em wide while the sidebar should be 14em. The main content column should have a fluid width, so that the layout adapts to different window sizes, since fixed-width layouts aren’t very user friendly. To prevent lines of text from being too long, impeding readability, you need to constrain the layout to a maximum width. In order to prevent overlap in extremely narrow windows you also need to constrain the layout to a minimum width. Within those constraints, the layout should be centred horizontally within the browser window.
-
-# Next, assign the widths to the navigation and the sidebar and set the width constraints and general centering by adding the following rules to the bottom of the CSS file:
+<p>The designers (who, fortunately, understand accessibility and device independence) have stipulated that the navigation needs to be 12em wide while the sidebar should be 14em. The main content column should have a fluid width, so that the layout adapts to different window sizes, since fixed-width layouts aren’t very user friendly. To prevent lines of text from being too long, impeding readability, you need to constrain the layout to a maximum width. In order to prevent overlap in extremely narrow windows you also need to constrain the layout to a minimum width. Within those constraints, the layout should be centred horizontally within the browser window.</p>
+</li>
+<li>
+<p>Next, assign the widths to the navigation and the sidebar and set the width constraints and general centering by adding the following rules to the bottom of the CSS file:</p>
 
 <pre>'''body {
    margin: 0 auto;
@@ -234,12 +252,16 @@ The designers (who, fortunately, understand accessibility and device independenc
    '''width: 11em;''' '''padding: 0 0.5em;'''
    background-color: #ddd;
  }</pre>
+</li>
+<li>
+<p>Save the files and reload—you should see that the yellow sidebar and the grey navigation elements have the widths you want. If your browser window is wide enough, you will also see that the whole page is constrained in width and is centred horizontally.</p>
+</li>
+<li>
+<p>Try changing the window size and see how the layout adapts.</p>
+</li>
+</ol>
 
-# Save the files and reload—you should see that the yellow sidebar and the grey navigation elements have the widths you want. If your browser window is wide enough, you will also see that the whole page is constrained in width and is centred horizontally.
-
-# Try changing the window size and see how the layout adapts.
-
-Note: if you are using Microsoft Internet Explorer version 6 or older, you won’t see the effects of any width constraints. That’s because those versions of IE don’t support minimum and maximum widths (or heights). We will look at a workaround for that at the end of the example. In fact, you will get odd results throughout this example, even with IE7, because Internet Explorer has many strange rendering bugs. I will focus on the standards-compliant way to do things in the example, and turn to workarounds at the end.
+<p class="note">Note: if you are using Microsoft Internet Explorer version 6 or older, you won’t see the effects of any width constraints. That’s because those versions of IE don’t support minimum and maximum widths (or heights). We will look at a workaround for that at the end of the example. In fact, you will get odd results throughout this example, even with IE7, because Internet Explorer has many strange rendering bugs. I will focus on the standards-compliant way to do things in the example, and turn to workarounds at the end.</p>
  
 If you look closely at the code you’ll see that the widths were set to 13em and 11em instead of 14em and 12em. That’s because you need some horizontal padding; you don’t want the content of those columns to lie flush with the edges, because it doesn’t look very nice. Padding adds to the width, so 13em + 0.5em + 0.5em adds up to the 14em you want.
  
