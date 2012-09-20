@@ -235,7 +235,7 @@ The final transformation methods allow modifications directly to the transformat
 
 This method must multiply the current transformation matrix with the matrix described by:
 
-[[File:canvas equation.png|left|Equation for the transform described in this section, with two matrices multiplied]]
+[[File:canvas equation.png|Equation for the transform described in this section, with two matrices multiplied]]
 
  m11 	m21 	dx
  m12 	m22 	dy
