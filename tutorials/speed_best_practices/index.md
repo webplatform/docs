@@ -166,7 +166,7 @@ For measurement and performance recommendations, you should certainly be using t
 The [http://www.html5rocks.com/tutorials/developertools/part1/ guide to Chrome's Developer Tools] should help orient you with the resources tab and will soon cover the [http://webkit.org/blog/1091/more-web-inspector-updates/#audits_panel new Audits panel].
 }}
 {{Compatibility_Section
-|Not_required=Yes
+|Not_required=No
 |Desktop_rows={{Compatibility Table Desktop Row
 |Feature=Web Storage
 |Chrome_supported=Yes
