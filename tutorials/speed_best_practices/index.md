@@ -64,7 +64,7 @@ For example, if you have a data grid component or an inbox with hundreds of mess
 
 ==Tip 4: JavaScript improvements lend considerable performance advantages==
 
-Many [https://developer.mozilla.org/En/Core_JavaScript_1.5_Reference/Objects/Array#Methods additional methods were added to the Array protoype] in JavaScript 1.6. These are available in most browsers now, except for IE. For example:
+Many [https://developer.mozilla.org/En/Core_JavaScript_1.5_Reference/Objects/Array#Methods additional methods were added to the Array protoype] in JavaScript 1.6. For example:
 
 <pre>
  // Give me a new array of all values multiplied by 10.
@@ -211,6 +211,28 @@ The [http://www.html5rocks.com/tutorials/developertools/part1/ guide to Chrome's
 |Safari_version=
 |Safari_prefixed_supported=Yes
 |Safari_prefixed_version=5.1
+}}{{Compatibility Table Desktop Row
+|Feature=Web SQL Database
+|Chrome_supported=Yes
+|Chrome_version=20.0
+|Chrome_prefixed_supported=Unknown
+|Chrome_prefixed_version=
+|Firefox_supported=No
+|Firefox_version=
+|Firefox_prefixed_supported=No
+|Firefox_prefixed_version=
+|Internet_explorer_supported=Unknown
+|Internet_explorer_version=
+|Internet_explorer_prefixed_supported=Unknown
+|Internet_explorer_prefixed_version=
+|Opera_supported=Yes
+|Opera_version=12.0
+|Opera_prefixed_supported=Unknown
+|Opera_prefixed_version=
+|Safari_supported=Yes
+|Safari_version=5.1
+|Safari_prefixed_supported=Unknown
+|Safari_prefixed_version=
 }}
 |Mobile_rows={{Compatibility Table Mobile Row
 |Feature=Web Storage
@@ -256,6 +278,28 @@ The [http://www.html5rocks.com/tutorials/developertools/part1/ guide to Chrome's
 |Safari_mobile_version=
 |Safari_mobile_prefixed_supported=Yes
 |Safari_mobile_prefixed_version=3.2
+}}{{Compatibility Table Mobile Row
+|Feature=Web SQL Database
+|Android_supported=Yes
+|Android_version=2.1
+|Android_prefixed_supported=Unknown
+|Android_prefixed_version=
+|Firefox_mobile_supported=Unknown
+|Firefox_mobile_version=
+|Firefox_mobile_prefixed_supported=Unknown
+|Firefox_mobile_prefixed_version=
+|IE_phone_supported=Unknown
+|IE_phone_version=
+|IE_phone_prefixed_supported=Unknown
+|IE_phone_prefixed_version=
+|Opera_mobile_supported=No
+|Opera_mobile_version=
+|Opera_mobile_prefixed_supported=No
+|Opera_mobile_prefixed_version=
+|Safari_mobile_supported=Yes
+|Safari_mobile_version=3.2
+|Safari_mobile_prefixed_supported=Unknown
+|Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
 }}
