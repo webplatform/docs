@@ -81,26 +81,6 @@ In this example I'm going to animate a mini simulation of our solar system.
    ctx.drawImage(sun,0,0,300,300);
  }
 
-{| class="gallery"
-|
-<div class="gallerybox" style="width: 150px"><div>Canvas sun.png</div><div class="gallerytext">
-
-source image sun
-
-</div></div>
-|
-<div class="gallerybox" style="width: 150px"><div>Canvas earth.png</div><div class="gallerytext">
-
-source image earth
-
-</div></div>
-|
-<div class="gallerybox" style="width: 150px"><div>Canvas moon.png</div><div class="gallerytext">
-
-source image moon
-
-</div></div>
-|}
 
 ====An animation example 2====
 
