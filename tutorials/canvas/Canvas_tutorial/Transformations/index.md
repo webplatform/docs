@@ -60,6 +60,7 @@ When the second <code>restore</code> statement is called, the original state (th
 
 [[File:Canvas grid translate.png|right|Grid showing translation coordinates along x and y axes]]The first of the transformation methods we'll look at is <code>translate</code>. This method is used to move the canvas and its origin to a different point in the grid.
 
+
 <div style="border: 1px solid rgb(208, 221, 158); background: rgb(239, 248, 206) none repeat scroll 0% 0%; padding-left: 10px">
 
 <code>'''translate(x, y)'''</code>
