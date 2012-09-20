@@ -1,6 +1,6 @@
 {{Flags
 |High-level issues=Needs Flags
-|Compatibility=Missing
+|Compatibility=Incomplete
 }}
 {{Summary_Section|Tips to improve HTML5 web app performance.}}
 {{Tutorial
@@ -164,12 +164,99 @@ WebSockets has very light framing, so the bandwidth it consumes is often lighter
 For measurement and performance recommendations, you should certainly be using the Firefox extensions [http://code.google.com/speed/page-speed/ Page Speed] and [http://developer.yahoo.com/yslow/ YSlow]. Additionally, [http://code.google.com/webtoolkit/speedtracer/ Speed Tracer for Chrome] and [http://ajax.dynatrace.com/pages/ DynaTrace Ajax for IE] provide a more detailed level of logging of analysis.
 
 The [http://www.html5rocks.com/tutorials/developertools/part1/ guide to Chrome's Developer Tools] should help orient you with the resources tab and will soon cover the [http://webkit.org/blog/1091/more-web-inspector-updates/#audits_panel new Audits panel].
-
 }}
 {{Compatibility_Section
 |Not_required=Yes
-|Desktop_rows=
-|Mobile_rows=
+|Desktop_rows={{Compatibility Table Desktop Row
+|Feature=Web Storage
+|Chrome_supported=Yes
+|Chrome_version=20
+|Chrome_prefixed_supported=Unknown
+|Chrome_prefixed_version=
+|Firefox_supported=Yes
+|Firefox_version=12
+|Firefox_prefixed_supported=Unknown
+|Firefox_prefixed_version=
+|Internet_explorer_supported=Yes
+|Internet_explorer_version=8
+|Internet_explorer_prefixed_supported=Unknown
+|Internet_explorer_prefixed_version=
+|Opera_supported=Yes
+|Opera_version=12
+|Opera_prefixed_supported=Unknown
+|Opera_prefixed_version=
+|Safari_supported=Yes
+|Safari_version=5.1
+|Safari_prefixed_supported=Unknown
+|Safari_prefixed_version=
+}}{{Compatibility Table Desktop Row
+|Feature=CSS Transitions
+|Chrome_supported=Unknown
+|Chrome_version=
+|Chrome_prefixed_supported=Yes
+|Chrome_prefixed_version=20
+|Firefox_supported=Yes
+|Firefox_version=16
+|Firefox_prefixed_supported=Yes
+|Firefox_prefixed_version=12
+|Internet_explorer_supported=Yes
+|Internet_explorer_version=10
+|Internet_explorer_prefixed_supported=Unknown
+|Internet_explorer_prefixed_version=
+|Opera_supported=Yes
+|Opera_version=12.1
+|Opera_prefixed_supported=Yes
+|Opera_prefixed_version=12.0
+|Safari_supported=Unknown
+|Safari_version=
+|Safari_prefixed_supported=Yes
+|Safari_prefixed_version=5.1
+}}
+|Mobile_rows={{Compatibility Table Mobile Row
+|Feature=Web Storage
+|Android_supported=Yes
+|Android_version=2.1
+|Android_prefixed_supported=Unknown
+|Android_prefixed_version=
+|Firefox_mobile_supported=Unknown
+|Firefox_mobile_version=
+|Firefox_mobile_prefixed_supported=Unknown
+|Firefox_mobile_prefixed_version=
+|IE_phone_supported=Unknown
+|IE_phone_version=
+|IE_phone_prefixed_supported=Unknown
+|IE_phone_prefixed_version=
+|Opera_mobile_supported=Yes
+|Opera_mobile_version=12
+|Opera_mobile_prefixed_supported=Unknown
+|Opera_mobile_prefixed_version=
+|Safari_mobile_supported=Yes
+|Safari_mobile_version=3.2
+|Safari_mobile_prefixed_supported=Unknown
+|Safari_mobile_prefixed_version=
+}}{{Compatibility Table Mobile Row
+|Feature=CSS Transitions
+|Android_supported=Unknown
+|Android_version=
+|Android_prefixed_supported=Yes
+|Android_prefixed_version=2.1
+|Firefox_mobile_supported=Unknown
+|Firefox_mobile_version=
+|Firefox_mobile_prefixed_supported=Unknown
+|Firefox_mobile_prefixed_version=
+|IE_phone_supported=Unknown
+|IE_phone_version=
+|IE_phone_prefixed_supported=Unknown
+|IE_phone_prefixed_version=
+|Opera_mobile_supported=No
+|Opera_mobile_version=
+|Opera_mobile_prefixed_supported=Unknown
+|Opera_mobile_prefixed_version=
+|Safari_mobile_supported=Unknown
+|Safari_mobile_version=
+|Safari_mobile_prefixed_supported=Yes
+|Safari_mobile_prefixed_version=3.2
+}}
 |Notes_rows=
 }}
 {{See_Also_Section}}
