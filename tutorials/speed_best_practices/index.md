@@ -108,7 +108,7 @@ Read the [http://www.html5rocks.com/tutorials/appcache/beginner/ application cac
 
 ==Tip 6: Enable hardware acceleration to enhance visual experience==
 
-In leading browsers, many visual operations can leverage GPU-level acceleration, which can make highly dynamic visual operations much smoother. Hardware acceleration has been announced for [http://www.basschouten.com/blog1.php/2010/03/02/presenting-direct2d-hardware-acceleratio Firefox Minefield] and [http://blogs.msdn.com/b/ie/archive/2010/03/16/html5-hardware-accelerated-first-ie9-platform-preview-available-for-developers.aspx IE9] and Safari added hardware-level acceleration in version 5. (It arrived in Mobile Safari much earlier.) Chromium has [http://groups.google.com/group/chromium-dev/browse_thread/thread/291aa79568684c70 just added] 3D transforms and hardware acceleration for Windows, with the other two platforms coming soon.
+In leading browsers, many visual operations can leverage GPU-level acceleration, which can make highly dynamic visual operations much smoother.
 
 GPU acceleration kicks in only under a fairly restricted set of conditions, but 3D transforms and animated opacity are the most common ways to trip the switch. A somewhat hacky but unobtrusive way to turn it on is:
 
@@ -299,6 +299,28 @@ The [http://www.html5rocks.com/tutorials/developertools/part1/ guide to Chrome's
 |Safari_version=5.1
 |Safari_prefixed_supported=Unknown
 |Safari_prefixed_version=
+}}{{Compatibility Table Desktop Row
+|Feature=Web Workers
+|Chrome_supported=Yes
+|Chrome_version=20.0
+|Chrome_prefixed_supported=Unknown
+|Chrome_prefixed_version=
+|Firefox_supported=Yes
+|Firefox_version=12.0
+|Firefox_prefixed_supported=Unknown
+|Firefox_prefixed_version=
+|Internet_explorer_supported=Yes
+|Internet_explorer_version=10.0
+|Internet_explorer_prefixed_supported=Unknown
+|Internet_explorer_prefixed_version=
+|Opera_supported=Yes
+|Opera_version=12.0
+|Opera_prefixed_supported=Unknown
+|Opera_prefixed_version=
+|Safari_supported=Yes
+|Safari_version=5.1
+|Safari_prefixed_supported=Unknown
+|Safari_prefixed_version=
 }}
 |Mobile_rows={{Compatibility Table Mobile Row
 |Feature=Web Storage
@@ -430,6 +452,28 @@ The [http://www.html5rocks.com/tutorials/developertools/part1/ guide to Chrome's
 |Opera_mobile_prefixed_version=
 |Safari_mobile_supported=Yes
 |Safari_mobile_version=3.2
+|Safari_mobile_prefixed_supported=Unknown
+|Safari_mobile_prefixed_version=
+}}{{Compatibility Table Mobile Row
+|Feature=Web Workers
+|Android_supported=No
+|Android_version=
+|Android_prefixed_supported=Unknown
+|Android_prefixed_version=
+|Firefox_mobile_supported=Unknown
+|Firefox_mobile_version=
+|Firefox_mobile_prefixed_supported=Unknown
+|Firefox_mobile_prefixed_version=
+|IE_phone_supported=Unknown
+|IE_phone_version=
+|IE_phone_prefixed_supported=Unknown
+|IE_phone_prefixed_version=
+|Opera_mobile_supported=No
+|Opera_mobile_version=
+|Opera_mobile_prefixed_supported=Unknown
+|Opera_mobile_prefixed_version=
+|Safari_mobile_supported=Yes
+|Safari_mobile_version=5.0
 |Safari_mobile_prefixed_supported=Unknown
 |Safari_mobile_prefixed_version=
 }}
