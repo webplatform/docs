@@ -233,6 +233,28 @@ The [http://www.html5rocks.com/tutorials/developertools/part1/ guide to Chrome's
 |Safari_version=5.1
 |Safari_prefixed_supported=Unknown
 |Safari_prefixed_version=
+}}{{Compatibility Table Desktop Row
+|Feature=IndexedDB
+|Chrome_supported=Unknown
+|Chrome_version=
+|Chrome_prefixed_supported=Yes
+|Chrome_prefixed_version=20.0
+|Firefox_supported=Yes
+|Firefox_version=16.0
+|Firefox_prefixed_supported=Yes
+|Firefox_prefixed_version=12.0
+|Internet_explorer_supported=Yes
+|Internet_explorer_version=10.0
+|Internet_explorer_prefixed_supported=Unknown
+|Internet_explorer_prefixed_version=
+|Opera_supported=No
+|Opera_version=
+|Opera_prefixed_supported=No
+|Opera_prefixed_version=
+|Safari_supported=No
+|Safari_version=
+|Safari_prefixed_supported=No
+|Safari_prefixed_version=
 }}
 |Mobile_rows={{Compatibility Table Mobile Row
 |Feature=Web Storage
@@ -298,6 +320,28 @@ The [http://www.html5rocks.com/tutorials/developertools/part1/ guide to Chrome's
 |Opera_mobile_prefixed_version=
 |Safari_mobile_supported=Yes
 |Safari_mobile_version=3.2
+|Safari_mobile_prefixed_supported=Unknown
+|Safari_mobile_prefixed_version=
+}}{{Compatibility Table Mobile Row
+|Feature=IndexedDB
+|Android_supported=No
+|Android_version=
+|Android_prefixed_supported=No
+|Android_prefixed_version=
+|Firefox_mobile_supported=Unknown
+|Firefox_mobile_version=
+|Firefox_mobile_prefixed_supported=Unknown
+|Firefox_mobile_prefixed_version=
+|IE_phone_supported=Unknown
+|IE_phone_version=
+|IE_phone_prefixed_supported=Unknown
+|IE_phone_prefixed_version=
+|Opera_mobile_supported=No
+|Opera_mobile_version=
+|Opera_mobile_prefixed_supported=No
+|Opera_mobile_prefixed_version=
+|Safari_mobile_supported=Unknown
+|Safari_mobile_version=
 |Safari_mobile_prefixed_supported=Unknown
 |Safari_mobile_prefixed_version=
 }}
