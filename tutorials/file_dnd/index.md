@@ -1,13 +1,12 @@
-{{Flags}}
-{{Summary_Section}}
+{{Flags
+|High-level issues=Needs Flags
+}}
+{{Summary_Section|An introduction to HTML5 JavaScript file API.}}
 {{Tutorial
 |Content==Reading files in JavaScript using the File APIs=
 
 ====original by Eric Bidelman====
 ====published June 18, 2010====
-
-==Supported browsers (remove)==
-<span class="browsers"> <span class="browser opera supported"> <span class="browser_name">Opera</span> <span class="support"> supported </span> </span> <span class="browser ie supported"> <span class="browser_name">IE</span> <span class="support"> supported </span> </span> <span class="browser safari supported"> <span class="browser_name">Safari</span> <span class="support"> supported </span> </span> <span class="browser ff supported"> <span class="browser_name">Firefox</span> <span class="support"> supported </span> </span> <span class="browser chrome supported"> <span class="browser_name">Chrome</span> <span class="support"> supported </span> </span> </span><div class="compatible-block">
 
 ==Introduction==
 
@@ -104,7 +103,7 @@ Another technique for loading files is native drag and drop from the desktop to 
  &lt;/script&gt;
 </pre>
 
-'''Example''': Using drag and drop for selecting. Try it[http://www.html5rocks.com/en/tutorials/file/dndfiles/ here]!
+'''Example''': Using drag and drop for selecting. Try it [http://www.html5rocks.com/en/tutorials/file/dndfiles/ here]!
 
 '''Note:''' Some browsers treat <code>&lt;input type="file"&gt;</code> elements as native drop targets. Try dragging files onto the input field in the previous example.
 
@@ -117,13 +116,13 @@ After you've obtained a <code>File</code> reference, instantiate a [http://dev.w
 <code>FileReader</code> includes four options for reading a file, asynchronously:
 
 * <code>FileReader.readAsBinaryString(Blob{{!}}File)</code> - The <code>result</code> property will contain the file/blob's data as a binary string. Every byte is represented by an integer in the range [0..255].
-* <code>FileReader.readAsText(Blob{{!}}File, opt_encoding)</code> - The <code>result</code> property will contain the file/blob's data as a text string. By default the string is decoded as 'UTF-8'. Use the optional encoding parameter can specify a different format.
+* <code>FileReader.readAsText(Blob{{!}}File, opt_encoding)</code> - The <code>result</code> property will contain the file/blob's data as a text string. By default the string is decoded as UTF-8. Use the optional encoding parameter can specify a different format.
 * <code>FileReader.readAsDataURL(Blob{{!}}File)</code> - The <code>result</code> property will contain the file/blob's data encoded as a [http://en.wikipedia.org/wiki/Data_URI_scheme data URL].
 * <code>FileReader.readAsArrayBuffer(Blob{{!}}File)</code> - The <code>result</code> property will contain the file/blob's data as an [https://cvs.khronos.org/svn/repos/registry/trunk/public/webgl/doc/spec/TypedArray-spec.html ArrayBuffer] object.
 
 Once one of these read methods is called on your <code>FileReader</code> object, the <code>onloadstart</code>, <code>onprogress</code>, <code>onload</code>, <code>onabort</code>, <code>onerror</code>, and <code>onloadend</code> events can be used to track its progress.
 
-The example below filters out images from the user's selection, calls <code>reader.readAsDataURL()</code> on the file, and renders a thumbnail by setting the 'src' attribute to a data URL.
+The example below filters out images from the user's selection, calls <code>reader.readAsDataURL()</code> on the file, and renders a thumbnail by setting the <code>src</code> attribute to a data URL.
 
 <pre>
  &lt;style&gt;
@@ -171,13 +170,8 @@ The example below filters out images from the user's selection, calls <code>read
  &lt;/script&gt;
 </pre>
 
-'''Example''': Reading files. Try it!
-
-<div class="example">
-<p>Try this example with a directory of images!</p>
-<input type="file" id="files3" name="files3[]" multiple /><br>
-<output id="thumbnails"></output>
-</div>
+'''Example''': Reading files. Try it
+[http://www.html5rocks.com/en/tutorials/file/dndfiles/ here]!
 
 ===Slicing a file===
 
@@ -363,14 +357,8 @@ The example below demonstrates displaying a progress bar to monitor the status o
  &lt;/script&gt;
 </pre>
 
-'''Example''': Monitoring the progress of a read. Try it!
-
-<div class="example">
-<input type="file" id="file5" name="file5"/>
-<button onclick="example5.abortRead();">Cancel read</button>
-<div id="progress_bar"><div class="percent">0%</div></div>
-<p><strong>Tip</strong>: To really see this progress indicator in action, try a large file or a resource on a remote drive.</p>
-</div>
+'''Example''': Monitoring the progress of a read. Try it
+[http://www.html5rocks.com/en/tutorials/file/dndfiles/ here]!
 
 ==References==
 
@@ -909,15 +897,58 @@ Except as otherwise [http://code.google.com/policies.html#restrictions noted], t
 }}
 {{Compatibility_Section
 |Not_required=No
-|Desktop_rows=
-|Mobile_rows=
+|Desktop_rows={{Compatibility Table Desktop Row
+|Chrome_supported=Yes
+|Chrome_version=20.0
+|Chrome_prefixed_supported=No
+|Chrome_prefixed_version=
+|Firefox_supported=Yes
+|Firefox_version=12.0
+|Firefox_prefixed_supported=No
+|Firefox_prefixed_version=
+|Internet_explorer_supported=Yes
+|Internet_explorer_version=10.0 (partial)
+|Internet_explorer_prefixed_supported=No
+|Internet_explorer_prefixed_version=
+|Opera_supported=Yes
+|Opera_version=12.0
+|Opera_prefixed_supported=No
+|Opera_prefixed_version=
+|Safari_supported=Yes
+|Safari_version=6.0
+|Safari_prefixed_supported=No
+|Safari_prefixed_version=
+}}
+|Mobile_rows={{Compatibility Table Mobile Row
+|Android_supported=Yes
+|Android_version=3.0 (partial)
+|Android_prefixed_supported=No
+|Android_prefixed_version=
+|Firefox_mobile_supported=Unknown
+|Firefox_mobile_version=
+|Firefox_mobile_prefixed_supported=Unknown
+|Firefox_mobile_prefixed_version=
+|IE_phone_supported=Unknown
+|IE_phone_version=
+|IE_phone_prefixed_supported=Unknown
+|IE_phone_prefixed_version=
+|Opera_mobile_supported=No
+|Opera_mobile_version=
+|Opera_mobile_prefixed_supported=No
+|Opera_mobile_prefixed_version=
+|Safari_mobile_supported=Yes
+|Safari_mobile_version=6.0
+|Safari_mobile_prefixed_supported=No
+|Safari_mobile_prefixed_version=
+}}
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics}}
+{{Topics|FileAPI, HTML, JavaScript}}
 {{External_Attribution
 |Is_CC-BY-SA=No
+|Sources=HTML5Rocks
 |MDN_link=
 |MSDN_link=
-|HTML5Rocks_link=
+|HTML5Rocks_link=http://www.html5rocks.com/en/tutorials/file/dndfiles/
 }}
