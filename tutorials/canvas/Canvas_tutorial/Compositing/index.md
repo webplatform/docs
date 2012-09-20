@@ -17,63 +17,63 @@ We can not only draw new shapes behind existing shapes but we can also use it to
 
 '''Note:''' In all of the examples below the blue square is drawn first and referred to as 'existing canvas content'. The red circle is drawn second and referred to as 'new shape'.
 
-{| style="width: 100%"
-| style="padding: 5px; vertical-align: top" |
+{{{!}} style="width: 100%"
+{{!}} style="padding: 5px; vertical-align: top" {{!}}
 '''source-over''' (default)<br /> This is the default setting and draws new shapes on top of the existing canvas content.
-| style="padding: 5px; vertical-align: top" |
-[[Image:=Canvas_composite_srcovr.png|Image:Canvas_composite_srcovr.png]]
-| style="padding: 5px; vertical-align: top" |
+{{!}} style="padding: 5px; vertical-align: top" {{!}}
+[[Image:=Canvas_composite_srcovr.png{{!}}Image:Canvas_composite_srcovr.png]]
+{{!}} style="padding: 5px; vertical-align: top" {{!}}
 '''destination-over'''<br /> New shapes are drawn behind the existing canvas content.
-| style="padding: 5px; vertical-align: top" |
-[[Image:=Canvas_composite_destovr.png|Image:Canvas_composite_destovr.png]]
-|-
-| style="padding: 5px; vertical-align: top" |
+{{!}} style="padding: 5px; vertical-align: top" {{!}}
+[[Image:=Canvas_composite_destovr.png{{!}}Image:Canvas_composite_destovr.png]]
+{{!}}-
+{{!}} style="padding: 5px; vertical-align: top" {{!}}
 '''source-in'''<br /> The new shape is drawn only where both the new shape and the destination canvas overlap. Everything else is made transparent
-| style="padding: 5px; vertical-align: top" |
-[[Image:=Canvas_composite_srcin.png|Image:Canvas_composite_srcin.png]]
-| style="padding: 5px; vertical-align: top" |
+{{!}} style="padding: 5px; vertical-align: top" {{!}}
+[[Image:=Canvas_composite_srcin.png{{!}}Image:Canvas_composite_srcin.png]]
+{{!}} style="padding: 5px; vertical-align: top" {{!}}
 '''destination-in'''<br /> The existing canvas content is kept where both the new shape and existing canvas content overlap. Everything else is made transparent.
-| style="padding: 5px; vertical-align: top" |
-[[Image:=Canvas_composite_destin.png|Image:Canvas_composite_destin.png]]
-|-
-| style="padding: 5px; vertical-align: top" |
+{{!}} style="padding: 5px; vertical-align: top" {{!}}
+[[Image:=Canvas_composite_destin.png{{!}}Image:Canvas_composite_destin.png]]
+{{!}}-
+{{!}} style="padding: 5px; vertical-align: top" {{!}}
 '''source-out'''<br /> The new shape is drawn where it doesn't overlap the existing canvas content.
-| style="padding: 5px; vertical-align: top" |
-[[Image:=Canvas_composite_srcout.png|Image:Canvas_composite_srcout.png]]
-| style="padding: 5px; vertical-align: top" |
+{{!}} style="padding: 5px; vertical-align: top" {{!}}
+[[Image:=Canvas_composite_srcout.png{{!}}Image:Canvas_composite_srcout.png]]
+{{!}} style="padding: 5px; vertical-align: top" {{!}}
 '''destination-out'''<br /> The existing content is kept where it doesn't overlap the new shape.
-| style="padding: 5px; vertical-align: top" |
-[[Image:=Canvas_composite_destout.png|Image:Canvas_composite_destout.png]]
-|-
-| style="padding: 5px; vertical-align: top" |
+{{!}} style="padding: 5px; vertical-align: top" {{!}}
+[[Image:=Canvas_composite_destout.png{{!}}Image:Canvas_composite_destout.png]]
+{{!}}-
+{{!}} style="padding: 5px; vertical-align: top" {{!}}
 '''source-atop'''<br /> The new shape is only drawn where it overlaps the existing canvas content.
-| style="padding: 5px; vertical-align: top" |
-[[Image:=Canvas_composite_srcatop.png|Image:Canvas_composite_srcatop.png]]
-| style="padding: 5px; vertical-align: top" |
+{{!}} style="padding: 5px; vertical-align: top" {{!}}
+[[Image:=Canvas_composite_srcatop.png{{!}}Image:Canvas_composite_srcatop.png]]
+{{!}} style="padding: 5px; vertical-align: top" {{!}}
 '''destination-atop'''<br /> The existing canvas is only kept where it overlaps the new shape. The new shape is drawn behind the canvas content.
-| style="padding: 5px; vertical-align: top" |
-[[Image:=Canvas_composite_destatop.png|Image:Canvas_composite_destatop.png]]
-|-
-| style="padding: 5px; vertical-align: top" |
+{{!}} style="padding: 5px; vertical-align: top" {{!}}
+[[Image:=Canvas_composite_destatop.png{{!}}Image:Canvas_composite_destatop.png]]
+{{!}}-
+{{!}} style="padding: 5px; vertical-align: top" {{!}}
 '''lighter'''<br /> Where both shapes overlap the color is determined by adding color values.
-| style="padding: 5px; vertical-align: top" |
-[[Image:=Canvas_composite_lighten.png|Image:Canvas_composite_lighten.png]]
-| style="padding: 5px; vertical-align: top" |
+{{!}} style="padding: 5px; vertical-align: top" {{!}}
+[[Image:=Canvas_composite_lighten.png{{!}}Image:Canvas_composite_lighten.png]]
+{{!}} style="padding: 5px; vertical-align: top" {{!}}
 '''darker''' <span class="unimplementedInline">Unimplemented</span><br /> Where both shapes overlap the color is determined by subtracting color values.
 
 This value is supported until (Firefox 3.6 / Thunderbird 3.1 / Fennec 1.0). Support has been removed from later versions (due to removal from the canvas specification).
-| style="padding: 5px; vertical-align: top" |
-[[Image:=Canvas_composite_darken.png|Image:Canvas_composite_darken.png]]
-|-
-| style="padding: 5px; vertical-align: top" |
+{{!}} style="padding: 5px; vertical-align: top" {{!}}
+[[Image:=Canvas_composite_darken.png{{!}}Image:Canvas_composite_darken.png]]
+{{!}}-
+{{!}} style="padding: 5px; vertical-align: top" {{!}}
 '''xor'''<br /> Shapes are made transparent where both overlap and drawn normal everywhere else.
-| style="padding: 5px; vertical-align: top" |
-[[Image:=Canvas_composite_xor.png|Image:Canvas_composite_xor.png]]
-| style="padding: 5px; vertical-align: top" |
+{{!}} style="padding: 5px; vertical-align: top" {{!}}
+[[Image:=Canvas_composite_xor.png{{!}}Image:Canvas_composite_xor.png]]
+{{!}} style="padding: 5px; vertical-align: top" {{!}}
 '''copy'''<br /> Only draws the new shape and removes everything else.
-| style="padding: 5px; vertical-align: top" |
-[[Image:=Canvas_composite_copy.png|Image:Canvas_composite_copy.png]]
-|}
+{{!}} style="padding: 5px; vertical-align: top" {{!}}
+[[Image:=Canvas_composite_copy.png{{!}}Image:Canvas_composite_copy.png]]
+{{!}}}
 
 '''Note:''' Currently the <code>copy</code> setting doesn't do anything in the Gecko 1.8 based browsers (Firefox 1.5 betas, etc).
 
@@ -152,7 +152,6 @@ Everything that's drawn after creating the clipping path will only appear inside
  }
 
 [[canvas/tutorial/Canvas tutorial/Transformations|&lt;&lt;Previous      ||    ]][[canvas/tutorial/Canvas tutorial/Basic animations|   Next&gt;&gt;]]
-
 }}
 {{Compatibility_Section
 |Not_required=No
