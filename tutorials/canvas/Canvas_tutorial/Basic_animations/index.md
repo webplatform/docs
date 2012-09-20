@@ -253,7 +253,7 @@ html code. Canvas width and height should match the CanvasXSize, CanvasYSize.
 * [http://www.gartic.net/ Gartic]<br /> Multi-player drawing game 
 * [http://www.abrahamjoffe.com.au/ben/canvascape/ Canvascape<br />]A 3D adventure game (first-person shooter).
 * [http://www.freeciv.net/ Freeciv.net]<br /> A multiplayer strategy game with isometric graphics, created using HTML5 canvas.
-* [/en/A_Basic_RayCaster A Basic RayCaster]<br /> A good example of how to do animations using keyboard controls.
+* https://developer.mozilla.org/en/A_Basic_RayCaster]<br /> A good example of how to do animations using keyboard controls.
 * [http://andrewwooldridge.com/canvas/canvasgame001/canvasgame002.html canvas adventure]<br /> Also a nice example that uses keyboard controls.
 * [http://www.blobsallad.se/ An interactive Blob]<br /> Have fun with the blob.
 * [http://arapehlivanian.com/wp-content/uploads/2007/02/canvas.html Flying through a starfield]<br /> Fly through stars, circles or squares.
