@@ -35,7 +35,7 @@ In the examples below I'm using the first method to control the animation. At th
 
 In this example I'm going to animate a mini simulation of our solar system.
 
-[[Image:=Canvas_animation1.png]]
+[[File:Canvas animation1.png|A dark universe with a planet orbiting around a sun]]
 
  var sun = new Image();
  var moon = new Image();
@@ -104,7 +104,7 @@ source image moon
 
 ====An animation example 2====
 
-[[Image:=Canvas_animation2.png]]
+[[File:Canvas animation2.png|An analog clock with hour, minute, and second hands]]
 
  function init(){
    clock();
