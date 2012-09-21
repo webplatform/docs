@@ -45,6 +45,53 @@ After creating the worker, start it by calling the <code>postMessage()</code> me
  worker.postMessage(); // Start the worker.
 </pre>
 
+==Getting Started==
+
+Web Workers run in an isolated thread. As a result, the code that they execute needs to be contained in a separate file. But before we do that, the first thing to do is create a new <code>Worker</code> object in your main page. The constructor takes the name of the worker script:
+
+<pre>
+ var worker = new Worker('task.js');
+</pre>
+
+If the specified file exists, the browser will spawn a new worker thread, which is downloaded asynchronously. The worker will not begin until the file has completely downloaded and executed. If the path to your worker returns an 404, the worker will fail silently.
+
+After creating the worker, start it by calling the <code>postMessage()</code> method:
+
+<pre>
+ worker.postMessage(); // Start the worker.
+</pre>
+
+===Communicating with a Worker via Message Passing===
+
+Communication between a worker and its parent page is done using an event model and the <code>postMessage()</code> method. Depending on your browser/version, <code>postMessage()</code> can accept either a string or JSON object as its single argument. 
+
+Below is a example of using a string to pass "Hello World" to a worker in doWork.js. The worker simply returns the message that is passed to it. 
+
+Main script:
+
+<pre>
+ var worker = new Worker('doWork.js');
+ 
+ worker.addEventListener('message', function(e) {
+   console.log('Worker said: ', e.data);
+ }, false);
+ 
+ worker.postMessage('Hello World'); // Send data to our worker.
+</pre>
+
+doWork.js (the worker):
+
+<pre>
+ self.addEventListener('message', function(e) {
+   self.postMessage(e.data);
+ }, false);
+</pre>
+
+When <code>postMessage()</code> is called from the main page, our worker handles that message by defining an <code>onmessage</code> handler for the <code>message</code> event. The message payload (in this case "Hello World") is accessible in <code>Event.data</code>. Although this particular example isn't very exciting, it demonstrates that <code>postMessage()</code> is also your means for passing data back to the main thread. Convenient!
+
+Messages passed between the main page and workers are copied, not shared. For example, in the next example the <code>msg</code> property of the JSON message is accessible in both locations. It appears that the object is being passed directly to the worker even though it's running in a separate, dedicated space. In actuality, what is happening is that the object is being serialized as it's handed to the worker and subsequently de-serialized on the other end. The page and worker do not share the same instance, so the end result is that a duplicate is created on each pass. Most browsers implement this feature by automatically JSON encoding/decoding the value on either end.
+
+The following is a more complex example that passes messages using JSON objects.
 
 
 }}
