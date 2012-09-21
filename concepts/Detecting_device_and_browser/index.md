@@ -1,4 +1,6 @@
-{{Flags}}
+{{Flags
+|High-level issues=Copyright Issue
+}}
 {{Summary_Section}}
 {{Guide
 |Content=For many years, the only way to detect a mobile device and its browser was to read the User-Agent string and then to consult a database for the device capabilities. Today most devices support basic functionality, such as JavaScript, that enables developers to adapt pages and content based on device characteristics.
@@ -61,11 +63,10 @@ One disadvantage of client-side detection are is that it often runs the risk of 
 
 Server-side and client-side detection techniques can be used together to enable the developer to drop content that is not supported by the device while allowing the browser to take care of applying the correct style and layout depending upon the current context.
 
-== Additional developer resources ==
-
-The following Web sites contain additional information on device and browser detection and mobile Web optimization techniques:
-
-http://www.developer.nokia.com/Community/Wiki/index.ph/Device_and_feature_detection_on_the_mobile_web
+Note: This material was originally published as part of the Nokia Developer Web Development Library, available as [http://www.developer.nokia.com/Resources/Library/Web/#!nokia-browsers/common-elements-of-nokia-browsers/device-and-browser-detection.html Device and browser detection]
+}}
+{{See_Also_Section
+|External_links=http://www.developer.nokia.com/Community/Wiki/index.ph/Device_and_feature_detection_on_the_mobile_web
 
 http://mobiforge.com/developing/story/lightweight-device-detection-php
 
@@ -78,11 +79,8 @@ http://mobiforge.com/designing/story/a-very-modern-mobile-switching-algorithm-pa
 http://calendar.perfplanet.com/2010/high-performance-mobile/
 
 http://www.cloudfour.com/css-media-query-for-mobile-is-fools-gold/
-
-
 }}
-{{See_Also_Section}}
-{{Topics}}
+{{Topics|Mobile}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
