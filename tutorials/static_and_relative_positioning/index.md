@@ -269,7 +269,9 @@ If you look closely at the code you’ll see that the widths were set to 13em an
  
 Okay, you have your basic building blocks, but they just appear one after the other. You want three columns, so you need to start floating them.
 
-# Add the following rules to your CSS file:
+<ol>
+<li>
+<p>Add the following rules to your CSS file:</p>
 
 <pre>#main {
    '''float: left;'''
@@ -290,36 +292,42 @@ Okay, you have your basic building blocks, but they just appear one after the ot
  }</pre>
 
 That floats them, all right, but they’re in the wrong order. Also, the main content column is too narrow. And what happened to our footer?
-
-# Let’s deal with the footer first. The problem is that the three columns are floated, which takes them out of the document flow. The footer is pushed up against the header and the line box containing the text is shortened so that the word “Footer” appears to the right of the floats. You can remedy this by making sure the footer is cleared from all the floated columns. Add the following rule to the CSS file:
+</li>
+<li>
+<p>Let’s deal with the footer first. The problem is that the three columns are floated, which takes them out of the document flow. The footer is pushed up against the header and the line box containing the text is shortened so that the word “Footer” appears to the right of the floats. You can remedy this by making sure the footer is cleared from all the floated columns. Add the following rule to the CSS file:</p>
 
 <pre>#footer {
    '''clear: left;'''
    border-top: 1px solid #369;
  }</pre>
-
-# Now for the three columns. This will be done step by step, and it’s going to look rather ugly for a while, but don’t despair—It’ll be sorted out by the end. The key to this whole trick is the wrapper element. We will set a left and right margin on it that corresponds to the widths of your side columns (the navigation and the sidebar). The main content column will occupy the whole width of the wrapper, while the side columns will be shifted into the space vacated by the margins. Does that sound complicated? Don’t worry, I’ll take you through it in small increments.
-
-
-# First, set up the margins for the wrapper, by adding the following rule to the CSS file:
+</li>
+<li>
+<p>Now for the three columns. This will be done step by step, and it’s going to look rather ugly for a while, but don’t despair—It’ll be sorted out by the end. The key to this whole trick is the wrapper element. We will set a left and right margin on it that corresponds to the widths of your side columns (the navigation and the sidebar). The main content column will occupy the whole width of the wrapper, while the side columns will be shifted into the space vacated by the margins. Does that sound complicated? Don’t worry, I’ll take you through it in small increments.</p>
+</li>
+<li>
+<p>First, set up the margins for the wrapper, by adding the following rule to the CSS file:</p>
 
 <pre>#wrapper {
    margin: 0 14em 0 12em;
    padding: 0 1em;
  }</pre>
-
-Remember that the values in the <code>margin</code> shorthand property are specified in '''TRouBLe''' order: top, right, bottom, left. We are setting the top and bottom margins to 0, the right margin to 14em (for the sidebar) and the left margin to 12em (for the navigation). You’ve also added 1em of horizontal padding, because you don’t want your content to be flush with the side columns; it needs to breathe.
-
-# The next step is to make the main content column take up the full width of its wrapper parent; the code also sets a garish background colour to it, temporarily, so we’re doing:
+</li>
+<li>
+<p>Remember that the values in the <code>margin</code> shorthand property are specified in '''TRouBLe''' order: top, right, bottom, left. We are setting the top and bottom margins to 0, the right margin to 14em (for the sidebar) and the left margin to 12em (for the navigation). You’ve also added 1em of horizontal padding, because you don’t want your content to be flush with the side columns; it needs to breathe.</p>
+</li>
+<li>
+<p>The next step is to make the main content column take up the full width of its wrapper parent; the code also sets a garish background colour to it, temporarily, so we’re doing:</p>
 
 <pre>#main {
    float: left;
    '''width: 100%;''' '''background-color: lime;'''
  }</pre>
-
-# Save and reload—you’ll see a bright lime green content column, with the sidebar and navigation below it. You’ll also notice that there is a lot of white space on both sides. The trick is to get our side columns to slip into that white space.   Next I’ll move you on to the sidebar—it’s floated and it has the right width, but since the <code>#main</code> column is 100% wide, it pushes the sidebar down. How do you get it to go up and stay next to <code>#main</code>, although <code>#main</code> occupies the whole width? Let’s do it in two small steps: first, you’ll move it up; then you’ll shift it out into the margin.
-
-# Here you’ll use a nifty trick to get the floated sidebar, which has been pushed down, to move back up again—make the following addition to the <code>#sidebar</code> rule:
+</li>
+<li>
+<p>Save and reload—you’ll see a bright lime green content column, with the sidebar and navigation below it. You’ll also notice that there is a lot of white space on both sides. The trick is to get our side columns to slip into that white space.   Next I’ll move you on to the sidebar—it’s floated and it has the right width, but since the <code>#main</code> column is 100% wide, it pushes the sidebar down. How do you get it to go up and stay next to <code>#main</code>, although <code>#main</code> occupies the whole width? Let’s do it in two small steps: first, you’ll move it up; then you’ll shift it out into the margin.</p>
+</li>
+<li>
+<p>Here you’ll use a nifty trick to get the floated sidebar, which has been pushed down, to move back up again—make the following addition to the <code>#sidebar</code> rule:</p>
 
 <pre>#sidebar {
    float: left;
@@ -328,10 +336,12 @@ Remember that the values in the <code>margin</code> shorthand property are speci
    background-color: #ff6;
    '''margin-left: -14em;'''
  }</code> </pre>
-
-# Save and reload, and you’ll see that the sidebar is now on the same vertical level as the content column. By setting a negative left margin equal to the width of the sidebar, we move the element back into the wrapper and it isn’t pushed down. The problem is that it overlaps the content.
-
-# You need to shift it out into the margin without making it drop down again, and this is where relative positioning—finally—comes in. It does precisely what we want: it shifts the generated box without moving the element itself. Add the highlighted properties below into the rule for <code>#sidebar</code>:
+</li>
+<li>
+<p>Save and reload, and you’ll see that the sidebar is now on the same vertical level as the content column. By setting a negative left margin equal to the width of the sidebar, we move the element back into the wrapper and it isn’t pushed down. The problem is that it overlaps the content.</p>
+</li>
+<li>
+<p>You need to shift it out into the margin without making it drop down again, and this is where relative positioning—finally—comes in. It does precisely what we want: it shifts the generated box without moving the element itself. Add the highlighted properties below into the rule for <code>#sidebar</code>:</p>
 
 <pre>#sidebar {
    float: left;
@@ -342,9 +352,10 @@ Remember that the values in the <code>margin</code> shorthand property are speci
    '''position: relative;''' '''left: 15em;'''
  }</pre>
 
-Note that you had to shift it 15em, not 14em—that’s because there’s 1em of right padding on the wrapper that you need to get past. The sidebar is now where it belongs: out in the margin, next to the content column, lining up nicely with the right-hand edges of the header and the footer.
-
-# Now you need to do the same with the navigation this is done in a similar way, but it has a twist of its own. Moving and shifting the sidebar was easy, because the movements were essentially the same as the column’s width: 14em negative margin and a 14em+1em shift to the right. But the navigation column needs to be moved all the way across the content column and then be shifted even further out into the margin.   Our friend here is percentages. A percentage value on the margins of the navigation column will be relative to the width of its parent, the wrapper. You want to move the column all the way across the wrapper—add the property highlighted below to the rule for <code>#nav</code>:
+<p>Note that you had to shift it 15em, not 14em—that’s because there’s 1em of right padding on the wrapper that you need to get past. The sidebar is now where it belongs: out in the margin, next to the content column, lining up nicely with the right-hand edges of the header and the footer.</p>
+</li>
+<li>
+<p>Now you need to do the same with the navigation this is done in a similar way, but it has a twist of its own. Moving and shifting the sidebar was easy, because the movements were essentially the same as the column’s width: 14em negative margin and a 14em+1em shift to the right. But the navigation column needs to be moved all the way across the content column and then be shifted even further out into the margin.   Our friend here is percentages. A percentage value on the margins of the navigation column will be relative to the width of its parent, the wrapper. You want to move the column all the way across the wrapper—add the property highlighted below to the rule for <code>#nav</code>:</p>
 
 <pre>#nav {
    float: left;
@@ -353,8 +364,9 @@ Note that you had to shift it 15em, not 14em—that’s because there’s 1em of
    background-color: #ddd;
    '''margin-left: -100%;'''
  }</pre>
-
-# Hey presto! Save and reload again, and you should see the navigation overlapping the left-hand side of the content column. All you need to do now is to shift it out into the margin. Add the following highlighted properties to the rule for <code>#nav</code>:
+</li>
+<li>
+<p>Hey presto! Save and reload again, and you should see the navigation overlapping the left-hand side of the content column. All you need to do now is to shift it out into the margin. Add the following highlighted properties to the rule for <code>#nav</code>:</p>
 
 <pre>#nav {
    float: left;
@@ -365,23 +377,28 @@ Note that you had to shift it 15em, not 14em—that’s because there’s 1em of
    '''position: relative;''' '''right: 13em;'''
  }</pre>
 
-Again, the width of the navigation is 12em, but you have 1em of wrapper padding to get past so you need to shift the box 13em. You’re shifting it to the left, in other words ''from'' the right edge, which is why the <code>right</code> property is being used.
-
-# Remove the lime green background from the content column, and you’re all set to go.
-
+<p>Again, the width of the navigation is 12em, but you have 1em of wrapper padding to get past so you need to shift the box 13em. You’re shifting it to the left, in other words ''from'' the right edge, which is why the <code>right</code> property is being used.</p>
+</li>
+<li>
+<p>Remove the lime green background from the content column, and you’re all set to go.</p>
+</li>
+</ol>
 ==== Working around quirks in Internet Explorer ====
  
 There are two things about Internet Explorer that cause this layout that cause it to fail in that browser on Windows. One is that IE6 doesn’t support the <code>min-width</code> and <code>max-width</code> properties, the other is that IS is notoriously bad at percentages. You can use Microsoft’s proprietary <code>expression()</code> notation to emulate the width constraints. It takes a JScript expression as its argument and returns the return value of that expression. This can cause performance problems if the expression requires a lot of computing, since it is evaluated every time the browser needs to get the width of <code>body</code>. It also requires JScript to be enabled, but you can add graceful degradation, so that if say, JScript is not available, the design will falllback to something that is still usable. In this example, you’ll make the layout fully elastic instead of the constrained fluid design created above if JScript is disabled.
  
 The recommended way of serving bug-fix style rules to Internet Explorer is to make use of “conditional comments”. That’s a Microsoft-only feature that embeds conditional logic into HTML comments (there is a [http://dev.opera.com/articles/view/supporting-ie-with-conditional-comments/ dedicated conditional comments article on dev.opera.com]).
- 
-# Add the following lines to your HTML code, just before the <code>&lt;/head&gt;</code> tag:
+
+<ol>
+<li>
+<p>Add the following lines to your HTML code, just before the <code>&lt;/head&gt;</code> tag:</p>
 
 <pre>&lt;!--[if lte IE 6]&gt;
    &lt;link rel="stylesheet" type="text/css" href="layout-ie6.css"&gt;
  &lt;![endif]--&gt;</pre>
-
-# Next, create a new file named layout-ie6.css with the following content:
+</li>
+<li>
+<p>Next, create a new file named layout-ie6.css with the following content:</p>
 
 <pre>body {
    width: 50em;
@@ -397,6 +414,8 @@ The recommended way of serving bug-fix style rules to Internet Explorer is to ma
    margin-left: expression((-(document.getElementById("wrapper").clientWidth))+"px");
    left: 13em;
  }</pre>
+</li>
+</ol>
  
 This sorts out the two problems in IE6. You’re using JScript expressions to emulate the <code>min-width</code> and <code>max-width</code> properties that IE6 doesn’t support, with an elastic fallback value of 50em. Then you use another JScript expression to set a left margin in pixels instead of percents, again with an elastic fallback. The height for <code>#wrapper</code> is just to trigger the Microsoft-specific <code>hasLayout</code>, which it needs to have for the relative positioning of the navigation element to work properly. Microsoft has documented <code>hasLayout</code> on MSDN, but it’s not all that easy to understand.
 
