@@ -24,20 +24,19 @@ To illustrate how the Audit Panel can recommend web app performance improvements
 
 Starting Developer Tools is as easy as using the wrench icon (upper right of the Chrome window) and selecting '''Tools > Developer tools'''.
 
-[[Image:auditspeed01.png|Chrome Developer Tools]] 
-
+[[Image:auditspeed01.png|Chrome Developer Tools]]<br/>
 ''The Developer Tools are accessible from the Wrench menu''
 
 For more information on how to get started with Developer Tools, please see [http://docs.webplatform.org/wiki/tutorials/developertools_chrome1 Introduction to Chrome Developer Tools, Part One].
 
 The Audit Panel is located in the main tools button panel. You'll notice that, once selected, the Audit Panel has not yet run through its analysis of your web app. Running all of the heuristics can be slow, especially for a large web app such as GMail, so the tool is disabled by default.
 
-[[Image:auditspeed02.png|Audit Panel]]
+[[Image:auditspeed02.png|Audit Panel]]<br/>
 ''The Audit Panel''
 
 Let's dive in by clicking the ''Run'' button, which reloads the web app with the performance heuristics turned on. After the page reloads, you'll see a list of recommendations similar to the screen shot below.
 
-[[Image:auditspeed03b.png|Improvement recommendations]]
+[[Image:auditspeed03b.png|Improvement recommendations]]<br/>
 ''Recommendations of performance improvements from the Audit Panel''
 
 You'll notice that the Audit Panel classifies the suggestions by severity, with the most severe marked with a red dot, and the medium severity suggestions marked with a yellow dot. This color-coding helps you prioritize the suggestions, focusing on the most important (those providing the biggest gains) first.
@@ -67,7 +66,7 @@ Let's look at one of the strategies we can focus on to improve performance at HT
 
 Let's first dive into the recommendation to leverage browser caching. What does this mean, specifically? Opening up the option in the UI, we are presented with the following details:
 
-[[Image:auditspeed04b.png|Audit Panel recommendations]]
+[[Image:auditspeed04b.png|Audit Panel recommendations]]<br/>
 ''The Audit Panel gives you recommendations for performance improvements''
 
 * The following resources are missing a cache expiration. Resources that do not specify an expiration may not be cached by browsers.
@@ -86,17 +85,17 @@ Let's look at one recommendation in depth, and learn how to connect the Audit re
 
 Because caching is accomplished via the HTTP protocol, we need to look at the HTTP request and response for the http://www.html5rocks.com/ resource. Simply click on the resource to view the original request and its response headers and details.
 
-[[Image:auditspeed05.png|Navigating recommendations]]
+[[Image:auditspeed05.png|Navigating recommendations]]<br/>
 ''Navigating the recommendations''
 
 You are then taken to the Resources Panel with the contents of the resources in view. Click the ''Headers'' tab, next to Content, to view the headers used in the request and the response.
 
-[[Image:auditspeed06.png|Viewing header information]]
+[[Image:auditspeed06.png|Viewing header information]]<br/>
 ''Viewing header information''
 
 We are trying to confirm that the server has told the client "do not cache the home page of html5rocks.com". To do this, we need to look at the Response Headers, as these are the headers and instructions sent by the server.
 
-[[Image:auditspeed07.png|The Cache-Control header]]
+[[Image:auditspeed07.png|The Cache-Control header]]<br/>
 ''The <code>Cache-Control</code> header''
 
 Sure enough, the server sent the "Cache-Control: no-cache" header to the client. This, as you would imagine, tells the client to always ask for the resource and to not cache it locally. Specifically, the HTTP specification for [http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.9.1 no-cache] reads:
