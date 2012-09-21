@@ -25,6 +25,12 @@ The [http://www.whatwg.org/specs/web-workers/current-work/ Web Workers] specific
 
 Web Workers utilize thread-like message passing to achieve parallelism. They're perfect for keeping your UI refresh, performant, and responsive for users.
 
+===Types of Web Workers===
+
+It's worth noting that the [http://www.whatwg.org/specs/web-workers/current-work/ specification] discusses two kinds of Web Workers, [http://www.whatwg.org/specs/web-workers/current-work/#dedicated-workers-and-the-worker-interface Dedicated Workers] and [http://www.whatwg.org/specs/web-workers/current-work/#sharedworker Shared Workers]. This article will only cover Dedicated Workers, and will refer to them as "web workers" or "workers" throughout.
+
+
+
 }}
 {{Compatibility_Section
 |Not_required=No
