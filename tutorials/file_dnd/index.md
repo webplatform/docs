@@ -899,7 +899,7 @@ Except as otherwise [http://code.google.com/policies.html#restrictions noted], t
 |Internet_explorer_prefixed_version=
 |Opera_supported=Yes
 |Opera_version=12.0
-|Opera_prefixed_supported=No
+|Opera_prefixed_supported=Unknown
 |Opera_prefixed_version=
 |Safari_supported=Yes
 |Safari_version=6.0
