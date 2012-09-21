@@ -6,7 +6,7 @@
 |Content==Stub=
 ====dag====
 
-Does <code>this|this</code> work?
+Does <code>this {{!}} that</code> work?
 
 }}
 {{Compatibility_Section
