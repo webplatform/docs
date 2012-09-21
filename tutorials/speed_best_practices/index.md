@@ -218,7 +218,7 @@ The [http://www.html5rocks.com/tutorials/developertools/part1/ guide to Chrome's
 |Chrome_prefixed_version=
 |Firefox_supported=No
 |Firefox_version=
-|Firefox_prefixed_supported=No
+|Firefox_prefixed_supported=Unknown
 |Firefox_prefixed_version=
 |Internet_explorer_supported=Unknown
 |Internet_explorer_version=
