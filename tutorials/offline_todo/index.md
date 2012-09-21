@@ -1,5 +1,6 @@
 {{Flags
 |High-level issues=Needs Flags
+|Editorial notes=Links point to HTML5Rocks! that should point to internal copies.
 }}
 {{Summary_Section|A guide to taking web apps offline.}}
 {{Tutorial
@@ -167,30 +168,30 @@ But the best thing of all is, your application will still work online with brows
 |Feature=Offline Web Applications
 |Chrome_supported=Yes
 |Chrome_version=20.0
-|Chrome_prefixed_supported=No
+|Chrome_prefixed_supported=Unknown
 |Chrome_prefixed_version=
 |Firefox_supported=Yes
 |Firefox_version=12.0
-|Firefox_prefixed_supported=No
+|Firefox_prefixed_supported=Unknown
 |Firefox_prefixed_version=
 |Internet_explorer_supported=Yes
 |Internet_explorer_version=10.0
-|Internet_explorer_prefixed_supported=No
+|Internet_explorer_prefixed_supported=Unknown
 |Internet_explorer_prefixed_version=
 |Opera_supported=Yes
 |Opera_version=12.0
-|Opera_prefixed_supported=No
+|Opera_prefixed_supported=Unknown
 |Opera_prefixed_version=
 |Safari_supported=Yes
 |Safari_version=5.1
-|Safari_prefixed_supported=No
+|Safari_prefixed_supported=Unknown
 |Safari_prefixed_version=
 }}
 |Mobile_rows={{Compatibility Table Mobile Row
 |Feature=Offline Web Applications
 |Android_supported=Yes
 |Android_version=2.1
-|Android_prefixed_supported=No
+|Android_prefixed_supported=Unknown
 |Android_prefixed_version=
 |Firefox_mobile_supported=Unknown
 |Firefox_mobile_version=
@@ -206,7 +207,7 @@ But the best thing of all is, your application will still work online with brows
 |Opera_mobile_prefixed_version=
 |Safari_mobile_supported=Yes
 |Safari_mobile_version=3.2
-|Safari_mobile_prefixed_supported=No
+|Safari_mobile_prefixed_supported=Unknown
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
