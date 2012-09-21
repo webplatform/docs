@@ -3,7 +3,7 @@
 }}
 {{Summary_Section}}
 {{Tutorial
-|Content==The Basics of Web Workers=
+|Content=The Basics of Web Workers=
 
 ====original by Eric Bidelman====
 ====published July 26, 2010, updated Aug. 21, 2012====
