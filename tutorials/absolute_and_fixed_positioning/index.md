@@ -68,7 +68,9 @@ It’s absolutely crucial to know what your containing block is when you’re us
  
 Let’s try an example out to see how it works.
  
-# Copy the code below into your text editor and save the document as absolute.html.
+<ol>
+<li>
+<p>Copy the code below into your text editor and save the document as absolute.html.</p>
 
 <pre>&lt;!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"&gt;
  &lt;html&gt;
@@ -83,7 +85,9 @@ Let’s try an example out to see how it works.
      &lt;/div&gt;
    &lt;/body&gt;
  &lt;/html&gt;</pre>
-# Next, copy the following code into a new file and save it as absolute.css.
+</li>
+<li>
+<p>Next, copy the following code into a new file and save it as absolute.css.</p>
 
 <pre>html, body {
    margin: 0;
@@ -100,11 +104,14 @@ Let’s try an example out to see how it works.
    height: 4em;
    background-color: #999;
  }</pre>
+</li>
+<li>
+<p>Save both files and load the HTML document into your browser. You will see a grey rectangle surrounded by a somewhat wider red border.</p>
 
-# Save both files and load the HTML document into your browser. You will see a grey rectangle surrounded by a somewhat wider red border.
- The <code>#inner</code> element has a specified width and height and a grey background colour. The <code>#outer</code> element, which is the structural parent of <code>#inner</code>, has a red border. It also has a 5em margin all around, to shift it away from the edges of the browser window and let us see more clearly what is going on.   Nothing surprising so far, right? The height of the <code>#outer</code> element is given by its child element (<code>#inner</code>) and the width by the horizontal margins.
-
-# Now watch what happens if you make <code>#inner</code> absolutely positioned! Add the following highlighted declaration to the <code>#inner</code> rule:
+<p>The <code>#inner</code> element has a specified width and height and a grey background colour. The <code>#outer</code> element, which is the structural parent of <code>#inner</code>, has a red border. It also has a 5em margin all around, to shift it away from the edges of the browser window and let us see more clearly what is going on.   Nothing surprising so far, right? The height of the <code>#outer</code> element is given by its child element (<code>#inner</code>) and the width by the horizontal margins.</p>
+</li>
+<li>
+<p>Now watch what happens if you make <code>#inner</code> absolutely positioned! Add the following highlighted declaration to the <code>#inner</code> rule:</p>
 
 <pre>#inner {
    width: 6em;
@@ -112,14 +119,21 @@ Let’s try an example out to see how it works.
    background-color: #999;
    '''position: absolute;'''
  }</pre>
+</li>
+<li>
+<p>Save and reload. Instead of a red border around the grey rectangle, there is now what looks like a thicker top border only. And the grey box didn’t move at all! Did you expect that?</p>
+</li>
+</ol>
 
-# Save and reload. Instead of a red border around the grey rectangle, there is now what looks like a thicker top border only. And the grey box didn’t move at all! Did you expect that?   There are two interesting things happening here.
+There are two interesting things happening here.
 
 First of all, making <code>#inner</code> absolutely positioned removed it entirely from the document flow. That means its parent, <code>#outer</code>, now has no children that are in the normal flow, so therefore its height collapses to zero. What looks like a 2px-thick red line is actually a 1px border around an element with zero height—you’re seeing the top and bottom borders with nothing inbetween.
 
 The second interesting thing is that the absolutely positioned box didn’t move. The default value for the <code>top</code>, <code>right</code>, <code>bottom</code> and <code>left</code> properties is <code>auto</code>, which means the absolutely positioned box will appear exactly where it would have had if it wasn’t positioned. Since it’s removed from the flow it will overlap any elements in the normal flow that follow it, though.   This is actually very useful—you can rely on this if you only want to move a generated box in one dimension. For instance, in a CSS-driven drop-down menu, the “drop-down” panes can be absolutely positioned with only the <code>top</code> property specified. They will then appear at the expected co-ordinate along the X axis (the same as their parent), automatically.
 
-# Next, let’s set a height for the <code>#outer</code> element so that it looks like a rectangle again, and move <code>#inner</code> sideways. Add the following highlighted lines to your CSS rules:
+<ol>
+<li>
+<p>Next, let’s set a height for the <code>#outer</code> element so that it looks like a rectangle again, and move <code>#inner</code> sideways. Add the following highlighted lines to your CSS rules:</p>
 
 <pre>#outer {
    margin: 5em;
@@ -134,10 +148,12 @@ The second interesting thing is that the absolutely positioned box didn’t move
    position: absolute;
    '''left: 1em;'''
  }</pre>
-
-# Save and reload, and you’ll see some changes. The <code>#outer</code> element is now a rectangle again, since you set a height for it. The <code>#inner</code> element has shifted sideways, but not to where you might have expected it to go. It’s not 1em from the left border of its parent, but 1em from the left edge of the window!   The reason is that, as explained above, <code>#inner</code> has no positioned ancestor, so its containing block is the initial containing block. If you specify a position other than <code>auto</code>, it’s relative to the corresponding edge of the containing block. When you set <code>left:1em</code>, the left edge of <code>#inner</code> ended up 1em from the left edge of the window.
-
-# If you want it 1em from the left edge of its parent element instead, you must make the parent the containing block. To do this, you’ll now use the trick I mentioned earlier in this article—making the parent block relatively positioned. Add the following highlighted line to the <code>#outer</code> rule:
+</li>
+<li>
+<p>Save and reload, and you’ll see some changes. The <code>#outer</code> element is now a rectangle again, since you set a height for it. The <code>#inner</code> element has shifted sideways, but not to where you might have expected it to go. It’s not 1em from the left border of its parent, but 1em from the left edge of the window!   The reason is that, as explained above, <code>#inner</code> has no positioned ancestor, so its containing block is the initial containing block. If you specify a position other than <code>auto</code>, it’s relative to the corresponding edge of the containing block. When you set <code>left:1em</code>, the left edge of <code>#inner</code> ended up 1em from the left edge of the window.</p>
+<li>
+</li>
+<p>If you want it 1em from the left edge of its parent element instead, you must make the parent the containing block. To do this, you’ll now use the trick I mentioned earlier in this article—making the parent block relatively positioned. Add the following highlighted line to the <code>#outer</code> rule:</p>
 
 <pre>#outer {
    margin: 5em;
@@ -145,8 +161,11 @@ The second interesting thing is that the absolutely positioned box didn’t move
    height: 4em;
    '''position: relative;'''
  }</pre>
-
-# Save and reload—lo and behold! The grey rectangle is now 1em from the left border of the parent element. Setting <code>position:relative</code> on the <code>#outer</code> rule has made it positioned and set it as the containing block for any absolutely positioned descendants it might have. The <code>left:1em</code> you set for <code>#inner</code> now counts from the left edge of <code>#outer</code>, not the left edge of the browser window.
+</li>
+<li>
+<p>Save and reload—lo and behold! The grey rectangle is now 1em from the left border of the parent element. Setting <code>position:relative</code> on the <code>#outer</code> rule has made it positioned and set it as the containing block for any absolutely positioned descendants it might have. The <code>left:1em</code> you set for <code>#inner</code> now counts from the left edge of <code>#outer</code>, not the left edge of the browser window.</p>
+</li>
+</ol>
 
 === Specifying dimensions ===
  
@@ -158,7 +177,9 @@ For an absolutely positioned element, percentage values for the <code>left</code
  
 Internet Explorer 6 and older, and also Opera 8 and older, got this entirely wrong and used the dimensions of the ''parent'' block instead. Let’s experiment with another example to see how that can make a big difference.
  
-# Begin by specifying the dimensions of <code>#inner</code> using percentage values—make the following changes to the <code>#inner</code> rule:
+<ol>
+<li>
+<p>Begin by specifying the dimensions of <code>#inner</code> using percentage values—make the following changes to the <code>#inner</code> rule:</p>
 
 <pre>#inner {
    '''width: 50%;''' '''height: 50%;'''
@@ -166,10 +187,12 @@ Internet Explorer 6 and older, and also Opera 8 and older, got this entirely wro
    position: absolute;
    left: 1em;
  }</pre>
-
-# Save and reload, and you’ll see that the grey rectangle becomes wider and shorter (at least if you’re using a modern browser).The containing block is still <code>#outer</code>, since it has <code>position:relative</code> . The <code>#inner</code> element’s width is now half that of <code>#outer</code>, and its height is half the height of <code>#outer</code>.
-
-# Let’s make the viewport the containing block again, to see the difference! Make the following change to <code>#outer</code>:
+</li>
+<li>
+<p>Save and reload, and you’ll see that the grey rectangle becomes wider and shorter (at least if you’re using a modern browser).The containing block is still <code>#outer</code>, since it has <code>position:relative</code> . The <code>#inner</code> element’s width is now half that of <code>#outer</code>, and its height is half the height of <code>#outer</code>.</p>
+</li>
+<li>
+<p>Let’s make the viewport the containing block again, to see the difference! Make the following change to <code>#outer</code>:</p>
 
 <pre>#outer {
    margin: 5em;
@@ -177,8 +200,11 @@ Internet Explorer 6 and older, and also Opera 8 and older, got this entirely wro
    height: 4em;
    '''position: static;'''
  }</pre>
-
-# Save and reload—quite a difference, eh? The grey box is now half as wide and half as tall as the browser window. As you can see, knowing your containing blocks is absolutely essential!
+</li>
+<li>
+<p>Save and reload—quite a difference, eh? The grey box is now half as wide and half as tall as the browser window. As you can see, knowing your containing blocks is absolutely essential!</p>
+</li>
+</ol>
  
 === The third dimension—z-index ===
  
@@ -210,7 +236,9 @@ The highlighted entries are the elements whose stack level we can change using t
 
 This whole thing can be rather difficult to imagine, so let’s do some practical experiments to illustrate Z-index.
  
-# Begin by adding the following highlighted line to your little sample document:
+<ol>
+<li>
+<p>Begin by adding the following highlighted line to your little sample document:</p>
 
 <pre>&lt;body&gt;
    &lt;div id="outer"&gt;
@@ -218,8 +246,9 @@ This whole thing can be rather difficult to imagine, so let’s do some practica
      '''&lt;div id="second"&gt;&lt;/div&gt;'''
    &lt;/div&gt;
  &lt;/body&gt;</pre>
-
-# Next, I’ll get you to restore your CSS so that <code>#outer</code> is the containing block and set non-percentage dimensions of <code>#inner</code>. Let’s make <code>#outer</code> a little taller, too, to give you more room to experiment. Make the following highlighted changes to the two rules:
+</li>
+<li>
+<p>Next, I’ll get you to restore your CSS so that <code>#outer</code> is the containing block and set non-percentage dimensions of <code>#inner</code>. Let’s make <code>#outer</code> a little taller, too, to give you more room to experiment. Make the following highlighted changes to the two rules:</p>
 
 <pre>#outer {
    margin: 5em;
@@ -233,8 +262,9 @@ This whole thing can be rather difficult to imagine, so let’s do some practica
    position: absolute;
    left: 1em;
  }</pre>
-
-# Add a rule for the <code>#second</code> element, too:
+</li>
+<li>
+<p>Add a rule for the <code>#second</code> element, too:</p>
 
 <pre>#second {
    width: 5em;
@@ -244,8 +274,9 @@ This whole thing can be rather difficult to imagine, so let’s do some practica
    top: 1em;
    left: 2em;
  }</pre>
-
-# Save and reload, and you’ll see a bright blue box overlapping a grey one. Both boxes have the same stack level (<code>auto</code>, the initial value, which means stack level 0) but the blue box is rendered in front of the grey box, because it appears later in the source code. You can make the grey box appear in front by giving it a positive stack level. You only have to set it larger than 0—there’s no need to go overboard and use a value like 10000. Add the following highlighted line to the <code>#inner</code> rule:
+</li>
+<li>
+<p>Save and reload, and you’ll see a bright blue box overlapping a grey one. Both boxes have the same stack level (<code>auto</code>, the initial value, which means stack level 0) but the blue box is rendered in front of the grey box, because it appears later in the source code. You can make the grey box appear in front by giving it a positive stack level. You only have to set it larger than 0—there’s no need to go overboard and use a value like 10000. Add the following highlighted line to the <code>#inner</code> rule:</p>
 
 <pre>#inner {
    width: 5em;
@@ -255,9 +286,12 @@ This whole thing can be rather difficult to imagine, so let’s do some practica
    left: 1em;
    '''z-index: 1;'''
  }</pre>
+</li>
+<li>
+<p>Save and reload, and you will now see the grey box appear in front of the blue box.</p>
+</li>
+ </ol>
 
-# Save and reload, and you will now see the grey box appear in front of the blue box.
- 
 ==== Local stacking contexts ====
  
 The rest of this section discusses local stacking contexts. This probably isn’t something you will encounter in your normal design work unless you attempt to do some really advanced things with absolute positioning, but I thought I’d include it for completeness. You can elect to skip this if you wish.
@@ -273,8 +307,10 @@ A local stacking context is analogous to such an envelope. It keeps related elem
 Each time you assign an integer value to the <code>z-index</code> property for an element, you create an “envelope” that contains that element and its descendants.
  
 Let’s look at how those local stacking contexts work. It may look confusing, but it’s really not much different from what you’ve already seen. If you follow the examples, you should be able to get a feel for how things work.
- 
-# Begin by adding some content to your two inner elements—add the highlighted lines to your HTML document:
+
+<ol>
+<li>
+<p>Begin by adding some content to your two inner elements—add the highlighted lines to your HTML document:</p>
 
 <pre>&lt;div id="inner"&gt;
    '''&lt;span&gt;&lt;/span&gt;'''
@@ -282,8 +318,9 @@ Let’s look at how those local stacking contexts work. It may look confusing, b
  &lt;div id="second"&gt;
    '''&lt;span&gt;&lt;/span&gt;'''
  &lt;/div&gt;</pre>
-
-# Add a CSS rule that will apply to both those <code>span</code> elements:
+</li>
+<li>
+<p>Add a CSS rule that will apply to both those <code>span</code> elements:</p>
 
 <pre>span {
    position: absolute;
@@ -293,9 +330,10 @@ Let’s look at how those local stacking contexts work. It may look confusing, b
    height: 3em;
  }</pre>
 
-This makes the <code>span</code> elements absolutely positioned and sets their positions and dimensions. Wait a second though—<code>span</code> elements are inline—how can you specify dimensions for inline elements? The answer is that absolutely positioned elements, like floated elements, automatically generate block boxes.   The positions you specify will apply relative to each <code>span</code>’s containing block. Since both <code>span</code> elements have an absolutely positioned <code>div</code> as a parent, those parents take on the role of containing blocks.
-
-# Let’s now add some colour to the <code>span</code> elements so you can see where they appear’add the following rules to your style sheet:  
+<p>This makes the <code>span</code> elements absolutely positioned and sets their positions and dimensions. Wait a second though—<code>span</code> elements are inline—how can you specify dimensions for inline elements? The answer is that absolutely positioned elements, like floated elements, automatically generate block boxes.   The positions you specify will apply relative to each <code>span</code>’s containing block. Since both <code>span</code> elements have an absolutely positioned <code>div</code> as a parent, those parents take on the role of containing blocks.</p>
+</li>
+<li>
+<p>Let’s now add some colour to the <code>span</code> elements so you can see where they appear’add the following rules to your style sheet: </p>
 
  <pre>#inner span {
    background-color: #ff0;
@@ -304,30 +342,39 @@ This makes the <code>span</code> elements absolutely positioned and sets their p
  #second span {
    background-color: #0ff;
  } </pre>
-
-# Save and reload, and you should see a yellow square in the bottom right-hand corner of the larger grey square, and a cyan-coloured square in the bottom right-hand corner of the larger blue square. The grey and yellow squares appear in front of the blue and cyan squares, since the grey square has <code>z-index:1</code>.
-
-# What if you want the cyan square in front of all the other squares? All you need to do is to give it a higher stack level than the grey square. Actually, it’s enough to give it the ''same'' stack level as the grey square, since the cyan square appears later in the markup. Let’s try that—make the following change to your CSS:
+</li>
+<li>
+<p>Save and reload, and you should see a yellow square in the bottom right-hand corner of the larger grey square, and a cyan-coloured square in the bottom right-hand corner of the larger blue square. The grey and yellow squares appear in front of the blue and cyan squares, since the grey square has <code>z-index:1</code>.</p>
+</li>
+<li>
+<p>What if you want the cyan square in front of all the other squares? All you need to do is to give it a higher stack level than the grey square. Actually, it’s enough to give it the ''same'' stack level as the grey square, since the cyan square appears later in the markup. Let’s try that—make the following change to your CSS:</p>
 
 <pre>#second span {
    background-color: #0ff;
    '''z-index: 1;'''
  }</pre>
-
-# Save and reload. If your browser supports the CSS recommendation properly, the cyan square should now be at the front.   The grey square has <code>z-index:1</code> , which means it establishes a local stacking context. In other words, you’ve created one of those “envelopes” and put the grey square and its yellow child square inside.
+</li>
+<li>
+<p>Save and reload. If your browser supports the CSS recommendation properly, the cyan square should now be at the front.   The grey square has <code>z-index:1</code> , which means it establishes a local stacking context. In other words, you’ve created one of those “envelopes” and put the grey square and its yellow child square inside.</p>
+</li>
+</ol>
  
 Confused yet? The next experiment should make things clearer.
- 
-# Set a high stack level for the yellow square to bring it to the front—make the following change to your CSS:
+
+<ol>
+<li>
+<p>Set a high stack level for the yellow square to bring it to the front—make the following change to your CSS:</p>
 
 <pre>#inner span {
    background-color: #ff0;
    '''z-index: 4;'''
 }</pre>
-
-# If you save and reload you’ll see…no change at all! The stack level we specified for the yellow square applies within the local stacking context established by the grey square—the yellow square is inside an envelope together with its grey parent. You could move the cyan square to the front because its parent (the blue square) doesn’t establish a local stacking context—it has an implied <code>z-index:auto</code> . The blue square is a loose paper in the stack. The yellow and cyan squares area actually in little envelopes all by themselves (they have an integer stack level and establish local stacking contexts of their own).
-
-# If you make the blue square establish a local stacking context, you won’t be able to move the cyan square to the front unless you also bring its parent (the blue square) to the front. Let’s try it—make the following changes to your CSS:
+</li>
+<li>
+<p>If you save and reload you’ll see…no change at all! The stack level we specified for the yellow square applies within the local stacking context established by the grey square—the yellow square is inside an envelope together with its grey parent. You could move the cyan square to the front because its parent (the blue square) doesn’t establish a local stacking context—it has an implied <code>z-index:auto</code> . The blue square is a loose paper in the stack. The yellow and cyan squares area actually in little envelopes all by themselves (they have an integer stack level and establish local stacking contexts of their own).</p>
+</li>
+<li>
+<p>If you make the blue square establish a local stacking context, you won’t be able to move the cyan square to the front unless you also bring its parent (the blue square) to the front. Let’s try it—make the following changes to your CSS:</p>
 
 <pre>#inner {
    
@@ -349,8 +396,11 @@ Confused yet? The next experiment should make things clearer.
    
    '''z-index: 3;'''
  }</pre>
-
-# Save and reload. Now both the grey square and the blue square establish local stacking contexts, giving us two envelopes. At the bottom of the stack is an envelope with stack level 1, containing two inner envelopes (the blue square and the cyan square). At the top of the stack is an envelope with stack level 2, containing two inner envelopes (the grey square and the yellow square). In the first envelope, the blue square has local stack level 0 so therefore appears behind the cyan square, which has local stack level 3. In the second envelope, the grey square has local stack level 0 so therefore appears behind the yellow square with local stack level 4.   Figure 1 shows the four boxes and the two local stacking contexts from the side, along the Z axis.
+</li>
+<li>
+<p>Save and reload. Now both the grey square and the blue square establish local stacking contexts, giving us two envelopes. At the bottom of the stack is an envelope with stack level 1, containing two inner envelopes (the blue square and the cyan square). At the top of the stack is an envelope with stack level 2, containing two inner envelopes (the grey square and the yellow square). In the first envelope, the blue square has local stack level 0 so therefore appears behind the cyan square, which has local stack level 3. In the second envelope, the grey square has local stack level 0 so therefore appears behind the yellow square with local stack level 4.   Figure 1 shows the four boxes and the two local stacking contexts from the side, along the Z axis.</p>
+</li>
+</ol>
 
 [[Image:stacking.png|The blue box is at the bottom, followed by the cyan, grey and yellow boxes]]
 
@@ -368,7 +418,9 @@ Note that Internet Explorer versions 6 and older do not support fixed positionin
  
 Whereas the position and dimensions of an element with <code>position:absolute</code> are relative to its containing block, the position and dimensions of an element with <code>position:fixed</code> are always relative to the initial containing block. This is normally the viewport: the browser window or the paper’s page box. To demonstrate this, in the example below you will make one of your elements fixed. You will make the other one very tall in order to cause a scrollbar, to make it easier to see the effect it has.
  
-# Make the following changes to your CSS code:
+<ol>
+<li>
+<p>Make the following changes to your CSS code:</p>
 
 <pre>#inner {
    width: 5em;
@@ -386,8 +438,11 @@ Whereas the position and dimensions of an element with <code>position:absolute</
    top: 1em;
    left: 2em;
  }</pre>
-
-# Save and reload. If you don’t get a vertical scrollbar, increase the <code>height</code> value for <code>#second</code>. (What kind of giant monitor do you have, anyway?) The tall blue element extends beyond the bottom of the window. Scroll the page downward, and keep an eye on the grey square in the top left-hand corner. <code>#inner</code> is now fixed in position 1em from the top of the window and 1em from the left side, therefore as you scroll, the grey box stays in the same place on the screen.
+</li>
+<li>
+<p>Save and reload. If you don’t get a vertical scrollbar, increase the <code>height</code> value for <code>#second</code>. (What kind of giant monitor do you have, anyway?) The tall blue element extends beyond the bottom of the window. Scroll the page downward, and keep an eye on the grey square in the top left-hand corner. <code>#inner</code> is now fixed in position 1em from the top of the window and 1em from the left side, therefore as you scroll, the grey box stays in the same place on the screen.</p>
+</li>
+</ol>
  
 == Conclusion ==
  
@@ -418,3 +473,4 @@ All positioned elements are rendered at a certain stack level within a stacking 
 |MSDN_link=
 |HTML5Rocks_link=
 }}
+}
