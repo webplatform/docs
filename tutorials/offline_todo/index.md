@@ -160,7 +160,6 @@ We have seen that it is pretty simple to take your existing applications offline
 We have also seen the extra things that you can do to drastically improve the user experience of your applications with enhancements such as NETWORK whitelisting, FALLBACK support, and capturing events.
 
 But the best thing of all is, your application will still work online with browsers that don't support App Cache.
-
 }}
 {{Compatibility_Section
 |Not_required=No
