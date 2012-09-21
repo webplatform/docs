@@ -214,7 +214,7 @@ For an sample of how to spawn a subworker, see the [http://www.whatwg.org/specs/
 What if you want to create your worker script on the fly, or create a self-contained page without having to create separate worker files? With <code>Blob()</code>, you can "inline" your worker in the same HTML file as your main logic by creating a URL handle to the worker code as a string:
 
 <pre>
- window.URL = window.URL || window.webkiURL;
+ window.URL = window.URL {{!}}{{!}} window.webkiURL;
  
  var blob = new Blob(["onmessage = function(e) { postMessage('msg from worker'); }"]);
  
@@ -269,7 +269,7 @@ Taking this one step further, we can get clever with how the worker's JavaScript
    &lt;/script&gt;
  
    &lt;script&gt;
-     window.URL = window.URL || window.webkiURL;
+     window.URL = window.URL {{!}}{{!}} window.webkiURL;
  
      function log(msg) {
        // Use a fragment: browser will only render/reflow once.
