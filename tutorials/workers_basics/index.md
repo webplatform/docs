@@ -29,6 +29,22 @@ Web Workers utilize thread-like message passing to achieve parallelism. They're 
 
 It's worth noting that the [http://www.whatwg.org/specs/web-workers/current-work/ specification] discusses two kinds of Web Workers, [http://www.whatwg.org/specs/web-workers/current-work/#dedicated-workers-and-the-worker-interface Dedicated Workers] and [http://www.whatwg.org/specs/web-workers/current-work/#sharedworker Shared Workers]. This article will only cover Dedicated Workers, and will refer to them as "web workers" or "workers" throughout.
 
+==Getting Started==
+
+Web Workers run in an isolated thread. As a result, the code that they execute needs to be contained in a separate file. But before we do that, the first thing to do is create a new <code>Worker</code> object in your main page. The constructor takes the name of the worker script:
+
+<pre>
+ var worker = new Worker('task.js');
+</pre>
+
+If the specified file exists, the browser will spawn a new worker thread, which is downloaded asynchronously. The worker will not begin until the file has completely downloaded and executed. If the path to your worker returns an 404, the worker will fail silently.
+
+After creating the worker, start it by calling the <code>postMessage()</code> method:
+
+<pre>
+ worker.postMessage(); // Start the worker.
+</pre>
+
 
 
 }}
