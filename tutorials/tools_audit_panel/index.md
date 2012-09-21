@@ -22,7 +22,7 @@ Luckily, the Chrome Developer Tools (included in every instance of Chrome) provi
 
 To illustrate how the Audit Panel can recommend web app performance improvements, we'll turn the tool toward our very own [http://www.html5rocks.com/ HTML5Rocks!]. We'll use the Audit Panel to help make our site even faster.
 
-Starting Developer Tools is as easy as using the wrench icon (upper right of the Chrome window) and selecting ''Tools > Developer tools''.
+Starting Developer Tools is as easy as using the wrench icon (upper right of the Chrome window) and selecting '''Tools > Developer tools'''.
 
 [[Image:auditspeed01.png|Chrome Developer Tools]]
 ''The Developer Tools are accessible from the Wrench menu''
@@ -31,7 +31,7 @@ For more information on how to get started with Developer Tools, please see [htt
 
 The Audit Panel is located in the main tools button panel. You'll notice that, once selected, the Audit Panel has not yet run through its analysis of your web app. Running all of the heuristics can be slow, especially for a large web app such as GMail, so the tool is disabled by default.
 
-[[Image:auditspeed02.jpg|Audit Panel]]
+[[Image:auditspeed02.png|Audit Panel]]
 ''The Audit Panel''
 
 Let's dive in by clicking the ''Run'' button, which reloads the web app with the performance heuristics turned on. After the page reloads, you'll see a list of recommendations similar to the screen shot below.
@@ -90,7 +90,7 @@ Because caching is accomplished via the HTTP protocol, we need to look at the HT
 
 You are then taken to the Resources Panel with the contents of the resources in view. Click the ''Headers'' tab, next to Content, to view the headers used in the request and the response.
 
-[[Image:auditspeed06.jpg|Viewing header information]]
+[[Image:auditspeed06.png|Viewing header information]]
 ''Viewing header information''
 
 We are trying to confirm that the server has told the client "do not cache the home page of html5rocks.com". To do this, we need to look at the Response Headers, as these are the headers and instructions sent by the server.
