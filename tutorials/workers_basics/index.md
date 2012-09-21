@@ -16,6 +16,15 @@ One thing that's remained a hindrance for JavaScript is actually the language it
 
 Developers mimic concurrency by using techniques like <code>setTimeout()</code>, <code>setInterval()</code>, <code>XMLHttpRequest</code>, and event handlers. Yes, all of these features run asynchronously, but non-blocking doesn't necessarily mean concurrency. Asynchronous events are processed after the current executing script has yielded. The good news is that HTML5 gives us something better than these hacks!
 
+==Introducing Web Workers: Bring Threading to JavaScript==
+
+The [http://www.whatwg.org/specs/web-workers/current-work/ Web Workers] specification defines an API for spawning background scripts in your web application. Web Workers allow you to do things like fire up long-running scripts to handle computationally intensive tasks, but without blocking the UI or other scripts to handle user interactions. They're going to help put and end to that nasty "unresponsive script" dialog that we've all come to love:
+
+[[Image:unresponsivescript.png|Unresponsive script dialog]]
+''Common unresponsive script dialog''
+
+Web Workers utilize thread-like message passing to achieve parallelism. They're perfect for keeping your UI refresh, performant, and responsive for users.
+
 }}
 {{Compatibility_Section
 |Not_required=No
