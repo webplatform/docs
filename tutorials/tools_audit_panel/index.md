@@ -36,7 +36,7 @@ The Audit Panel is located in the main tools button panel. You'll notice that, o
 
 Let's dive in by clicking the ''Run'' button, which reloads the web app with the performance heuristics turned on. After the page reloads, you'll see a list of recommendations similar to the screen shot below.
 
-[[Image:auditspeed03.png|Improvement recommendations]]
+[[Image:auditspeed03b.png|Improvement recommendations]]
 ''Recommendations of performance improvements from the Audit Panel''
 
 You'll notice that the Audit Panel classifies the suggestions by severity, with the most severe marked with a red dot, and the medium severity suggestions marked with a yellow dot. This color-coding helps you prioritize the suggestions, focusing on the most important (those providing the biggest gains) first.
@@ -66,7 +66,7 @@ Let's look at one of the strategies we can focus on to improve performance at HT
 
 Let's first dive into the recommendation to leverage browser caching. What does this mean, specifically? Opening up the option in the UI, we are presented with the following details:
 
-[[Image:auditspeed04.png|Audit Panel recommendations]]
+[[Image:auditspeed04b.png|Audit Panel recommendations]]
 ''The Audit Panel gives you recommendations for performance improvements''
 
 * The following resources are missing a cache expiration. Resources that do not specify an expiration may not be cached by browsers.
