@@ -25,6 +25,7 @@ To illustrate how the Audit Panel can recommend web app performance improvements
 Starting Developer Tools is as easy as using the wrench icon (upper right of the Chrome window) and selecting '''Tools > Developer tools'''.
 
 [[Image:auditspeed01.png|Chrome Developer Tools]] 
+
 ''The Developer Tools are accessible from the Wrench menu''
 
 For more information on how to get started with Developer Tools, please see [http://docs.webplatform.org/wiki/tutorials/developertools_chrome1 Introduction to Chrome Developer Tools, Part One].
