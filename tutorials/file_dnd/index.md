@@ -356,7 +356,6 @@ The example below demonstrates displaying a progress bar to monitor the status o
 * [http://www.w3.org/TR/file-upload/#dfn-Blob Blob] interface specification
 * [http://www.w3.org/TR/file-upload/#dfn-fileerror FileError] interface specification
 * [http://www.w3.org/TR/progress-events/#Progress ProgressEvent] specification
-
 |File)</code> - The <code>result</code> property will contain the file/blob's data as an [https://cvs_khronos_org/svn/repos/registry/trunk/public/webgl/doc/spec/TypedArray-spec_html ArrayBuffer] object_
 
 Once one of these read methods is called on your <code>FileReader</code> object, the <code>onloadstart</code>, <code>onprogress</code>, <code>onload</code>, <code>onabort</code>, <code>onerror</code>, and <code>onloadend</code> events can be used to track its progress_
@@ -888,15 +887,15 @@ Except as otherwise [http://code.google.com/policies.html#restrictions noted], t
 |Feature=File API
 |Chrome_supported=Yes
 |Chrome_version=20.0
-|Chrome_prefixed_supported=No
+|Chrome_prefixed_supported=Unknown
 |Chrome_prefixed_version=
 |Firefox_supported=Yes
 |Firefox_version=12.0
-|Firefox_prefixed_supported=No
+|Firefox_prefixed_supported=Unknown
 |Firefox_prefixed_version=
 |Internet_explorer_supported=Yes
 |Internet_explorer_version=10.0 (partial)
-|Internet_explorer_prefixed_supported=No
+|Internet_explorer_prefixed_supported=Unknown
 |Internet_explorer_prefixed_version=
 |Opera_supported=Yes
 |Opera_version=12.0
@@ -904,14 +903,14 @@ Except as otherwise [http://code.google.com/policies.html#restrictions noted], t
 |Opera_prefixed_version=
 |Safari_supported=Yes
 |Safari_version=6.0
-|Safari_prefixed_supported=No
+|Safari_prefixed_supported=Unknown
 |Safari_prefixed_version=
 }}
 |Mobile_rows={{Compatibility Table Mobile Row
 |Feature=File API
 |Android_supported=Yes
 |Android_version=3.0 (partial)
-|Android_prefixed_supported=No
+|Android_prefixed_supported=Unknown
 |Android_prefixed_version=
 |Firefox_mobile_supported=Unknown
 |Firefox_mobile_version=
@@ -921,13 +920,13 @@ Except as otherwise [http://code.google.com/policies.html#restrictions noted], t
 |IE_phone_version=
 |IE_phone_prefixed_supported=Unknown
 |IE_phone_prefixed_version=
-|Opera_mobile_supported=No
+|Opera_mobile_supported=Unknown
 |Opera_mobile_version=
-|Opera_mobile_prefixed_supported=No
+|Opera_mobile_prefixed_supported=Unknown
 |Opera_mobile_prefixed_version=
 |Safari_mobile_supported=Yes
 |Safari_mobile_version=6.0
-|Safari_mobile_prefixed_supported=No
+|Safari_mobile_prefixed_supported=Unknown
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
