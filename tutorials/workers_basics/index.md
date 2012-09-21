@@ -196,6 +196,35 @@ doWork2.js:
 '''Example''': Run this worker 
 [http://www.html5rocks.com/en/tutorials/workers/basics/ here]!
 
+
+==The Worker Environment==
+
+===Worker Scope===
+
+In the context of a worker, both <code>self</code> and <code>this</code> reference the global scope for the worker. Thus, the previous example could also be written as:
+
+<pre>
+ addEventListener('message', function(e) {
+   var data = e.data;
+   switch (data.cmd) {
+     case 'start':
+       postMessage('WORKER STARTED: ' + data.msg);
+       break;
+     case 'stop':
+   ...
+   }
+ }, false);
+</pre>
+
+Alternatively, you could set the <code>onmessage</code> event handler directly (although <code>addEventListener</code> is always encouraged by JavaScript ninjas).
+
+<pre>
+ onmessage = function(e) {
+   var data = e.data;
+   ...
+ };
+</pre>
+
 }}
 {{Compatibility_Section
 |Not_required=No
