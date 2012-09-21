@@ -272,6 +272,36 @@ Workers do NOT have access to:
 * The <code>document</code> object
 * The <code>parent</code> object
 
+===Loading External Scripts===
+
+You can load external script files or libraries into a worker with the <code>importScripts()</code> function. The method takes zero or more strings representing the filenames for the resources to import.
+
+This example loads <code>script1.js</code> and <code>script2.js</code> into the worker:
+
+worker.js:
+
+<pre>
+ importScripts('script1.js');
+ importScripts('script2.js');
+</pre>
+
+This can also be written as a single import statement:
+
+<pre>
+ importScripts('script1.js', 'script2.js');
+</pre>
+
+===Subworkers===
+
+Workers have the ability to spawn child workers. This is great for further breaking up large tasks at runtime. However, subworkers come with a few caveats:
+
+* Subworkers must be hosted within the same origin as the parent page.
+* URIs within subworkers are resolved relative to their parent worker's location (as opposed to the location of the main page).
+
+Keep in mind that most browsers spawn separate processes for each worker. Before you go spawning a worker farm, be cautious about hogging too many of the user's system resources. One reason for this is that messages passed between main pages and workers are copied, not shared. See [http://www.html5rocks.com/en/tutorials/workers/basics/#toc-gettingstarted-workercomm Communicating with a Worker via Message Passing].
+
+For a sample of how to spawn a subworker, see the [http://www.whatwg.org/specs/web-workers/current-work/#delegation example] in the specification.
+
 }}
 {{Compatibility_Section
 |Not_required=No
