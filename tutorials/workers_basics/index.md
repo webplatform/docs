@@ -3,8 +3,7 @@
 }}
 {{Summary_Section}}
 {{Tutorial
-|Content=
-=The Basics of Web Workers=
+|Content==The Basics of Web Workers=
 
 ====original by Eric Bidelman====
 ====published July 26, 2010, updated Aug. 21, 2012====
@@ -298,7 +297,7 @@ In my opinion, this new approach is a bit cleaner and more legible. It defines a
 
 When using these techniques to inline your worker code, <code>importScripts()</code> will only work if you supply an absolute URI. If you attempt to pass a relative URI, the browser will complain with a security error. This is because the worker (now created from a blob URL) will be resolved with a <code>blob:</code> prefix, while your app will be running from a different (presumably <code>http://</code>) scheme. Hence, the failure will be due to cross-origin restrictions.
 
-One way to utilize <code>importScripts()</code> in an inline worker is to "inject" the current URL your main script is running from by passing it to the inline worker and constructing the absolute URL manually. This will insure the external script is imported from the same origin. For example, assuming your main app is running from http://example.com/index.html:
+One way to utilize <code>importScripts()</code> in an inline worker is to "inject" the current URL your main script is running from by passing it to the inline worker and constructing the absolute URL manually. This will insure the external script is imported from the same origin. For example, assuming your main app is running from http://example.com/index.html (not a real site):
 
 <pre>
  ...
@@ -398,7 +397,6 @@ So what kind of application would utilize web workers? Unfortunately, web worker
 * [http://www.whatwg.org/specs/web-workers/current-work/ Web Workers] specification
 * [http://developer.mozilla.org/en/Using_web_workers Using web workers] from Mozilla Developer Network
 * [http://dev.opera.com/articles/view/web-workers-rise-up/ Web Workers rise up!] from Dev.Opera
-
 |window_webkiURL;
  
  var blob=new Blob(["onmessage = function(e) { postMessage('msg from worker'); }"]);
