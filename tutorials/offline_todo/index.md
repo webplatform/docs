@@ -201,9 +201,9 @@ But the best thing of all is, your application will still work online with brows
 |IE_phone_version=
 |IE_phone_prefixed_supported=Unknown
 |IE_phone_prefixed_version=
-|Opera_mobile_supported=No
+|Opera_mobile_supported=Unknown
 |Opera_mobile_version=
-|Opera_mobile_prefixed_supported=No
+|Opera_mobile_prefixed_supported=Unknown
 |Opera_mobile_prefixed_version=
 |Safari_mobile_supported=Yes
 |Safari_mobile_version=3.2
