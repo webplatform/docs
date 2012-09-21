@@ -1,4 +1,10 @@
-{{Flags}}
+{{Flags
+|High-level issues=Stub, Deletion Candidate
+|Content=Outdated
+|Compatibility=Outdated
+|Examples=Examples needed
+|Accessibility=Needs Translation
+}}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section}}
