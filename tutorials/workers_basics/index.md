@@ -5,6 +5,9 @@
 {{Tutorial
 |Content==Stub=
 ====dag====
+
+Does <code>this|this</code> work?
+
 }}
 {{Compatibility_Section
 |Not_required=No
