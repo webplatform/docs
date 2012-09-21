@@ -196,6 +196,34 @@ doWork2.js:
 '''Example''': Run this worker 
 [http://www.html5rocks.com/en/tutorials/workers/basics/ here]!
 
+==The Worker Environment==
+
+===Worker Scope===
+
+In the context of a worker, both <code>self</code> and <code>this</code> reference the global scope for the worker. Thus, the previous example could also be written as:
+
+<pre>
+ addEventListener('message', function(e) {
+   var data = e.data;
+   switch (data.cmd) {
+     case 'start':
+       postMessage('WORKER STARTED: ' + data.msg);
+       break;
+     case 'stop':
+   ...
+   }
+ }, false);
+</pre>
+
+Alternatively, you could set the <code>onmessage</code> event handler directly (although <code>addEventListener</code> is always encouraged by JavaScript ninjas).
+
+<pre>
+ onmessage = function(e) {
+   var data = e.data;
+   ...
+ };
+</pre>
+
 
 ==The Worker Environment==
 
@@ -224,6 +252,25 @@ Alternatively, you could set the <code>onmessage</code> event handler directly (
    ...
  };
 </pre>
+
+===Features Available to Workers===
+
+Due to their multi-threaded behavior, web workers only have access to a subset of JavaScript's features:
+
+* The <code>navigator</code> object
+* The <code>location</code> object (read-only)
+* <code>XMLHttpRequest</code>
+* <code>setTimeout()/clearTimeout()</code> and <code>setInterval()/clearInterval()</code>
+* The [http://www.html5rocks.com/tutorials/appcache/beginner/ Application Cache]
+* Importing external scripts using the <code>importScripts()</code> method
+* [http://www.html5rocks.com/en/tutorials/workers/basics/#toc-enviornment-subworkers Spawning other web workers]
+
+Workers do NOT have access to:
+
+* The DOM (it's not thread-safe)
+* The <code>window</code> object
+* The <code>document</code> object
+* The <code>parent</code> object
 
 }}
 {{Compatibility_Section
