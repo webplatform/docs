@@ -3,9 +3,11 @@
 }}
 {{Summary_Section}}
 {{Tutorial
-|Content==The Basics of Web Workers=
+|Content==The Basics of Web Workers==
 
-==original by Eric Bidelman==
+=The Basics of Web Workers=
+
+====original by Eric Bidelman====
 ====published July 26, 2010, updated Aug. 21, 2012====
 
 ==The Problem: JavaScript Concurrency==
@@ -128,7 +130,8 @@ doWork2.js:
 
 '''Note''': There are two ways to stop a worker: by calling <code>worker.terminate()</code> from the main page or by calling <code>self.close()</code> inside of the worker itself.
 
-'''Example''': Run this worker! BUBBA LINK TO ORIGINAL ARTICLE GOES HERE BUBBA
+'''Example''': Run this worker 
+[http://www.html5rocks.com/en/tutorials/workers/basics/ here]!
 
 ==The Worker Environment==
 
@@ -227,7 +230,9 @@ What if you want to create your worker script on the fly, or create a self-conta
 
 ===Blob URLs===
 
-The magic comes with the call to [http://dev.w3.org/2006/webapi/FileAPI/#dfn-createObjectURL <code>window.URL.createObjectURL()</code>]. This method creates a simple URL string which can be used to reference data stored in a DOM <code>File</code> or <code>Blob</code> object. For example:
+The magic comes with the call to 
+[http://dev.w3.org/2006/webapi/FileAPI/#dfn-createObjectURL <code>window.URL.createObjectURL()</code>]. 
+This method creates a simple URL string which can be used to reference data stored in a DOM <code>File</code> or <code>Blob</code> object. For example:
 
 <pre>
  blob:http://localhost/c745ef73-ece9-46da-8f66-ebes574789b1
@@ -390,8 +395,9 @@ So what kind of application would utilize web workers? Unfortunately, web worker
 ==References==
 
 * [http://www.whatwg.org/specs/web-workers/current-work/ Web Workers] specification
-* [http://developer.mozilla.org/en/Using_web_workers "Using web workers"] from Mozilla Developer Network
-* [http://dev.opera.com/articles/view/web-workers-rise-up/ "Web Workers rise up!"] from Dev.Opera
+* [http://developer.mozilla.org/en/Using_web_workers Using web workers] from Mozilla Developer Network
+* [http://dev.opera.com/articles/view/web-workers-rise-up/ Web Workers rise up!] from Dev.Opera
+
 
 }}
 {{Compatibility_Section
