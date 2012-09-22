@@ -125,9 +125,9 @@ The em is a very useful unit in CSS, since it can adapt automatically to the fon
 |Firefox_version=1.0
 |Firefox_prefixed_supported=Yes
 |Firefox_prefixed_version=2.0
-|Internet_explorer_supported=No
-|Internet_explorer_version=
-|Internet_explorer_prefixed_supported=No
+|Internet_explorer_supported=Yes
+|Internet_explorer_version=5.5
+|Internet_explorer_prefixed_supported=Unknown
 |Internet_explorer_prefixed_version=
 |Opera_supported=Yes
 |Opera_version=7.0
