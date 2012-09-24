@@ -1,7 +1,8 @@
 {{Flags}}
 {{Basic Page}}
-These are the CSS ''properties'' that let you style selected markup content:
-{{#ask:[[Category:CSS Properties]]|?API name|?Summary|link=none|format=template|template=Summary_Table_Body|introtemplate=Summary_Table_Header|outrotemplate=Summary_Table_Footer}}
+{{API_Listing|Query=[[Category:CSS Properties]]}}
+
+{{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
