@@ -170,6 +170,12 @@ Offline storage has many potential applications well beyond the obvious "I want 
 
 [http://html5rocks.com HTML5Rocks] has resources on offline technologies in the [http://www.html5rocks.com/tutorials/ tutorials section], where you can get hands-on with code examples.
 }}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
 {{See_Also_Section}}
 {{Topics|FileAPI, IndexedDB, Webworkers}}
 {{External_Attribution
