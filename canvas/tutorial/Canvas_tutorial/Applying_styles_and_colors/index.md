@@ -1,1 +1,0 @@
-#REDIRECT [[tutorials/canvas/Canvas tutorial/Applying styles and colors]]
