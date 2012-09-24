@@ -15,17 +15,17 @@ The <code>&lt;canvas&gt;</code> element isn't supported in some older browsers, 
  
 == In this tutorial ==
  
-* [[canvas/tutorial/Canvas_tutorial/Basic_usage|Basic usage]]
-* [[canvas/tutorial/Canvas tutorial/Drawing shapes|Drawing shapes]]
-* [[canvas/tutorial/Canvas tutorial/Using images|Using images]]
-* [[canvas/tutorial/Canvas tutorial/Applying styles and colors|Applying styles and colors]]
-* [[canvas/tutorial/Canvas tutorial/Transformations|Transformations]]
-* [[canvas/tutorial/Canvas tutorial/Compositing|Compositing]]
-* [[canvas/tutorial/Canvas tutorial/Basic animations|Basic animations]]
-* [[canvas/tutorial/Canvas tutorial/Optimizing canvas|Optimizing the canvas]]
+* [[tutorials/canvas/Canvas_tutorial/Basic_usage|Basic usage]]
+* [[tutorials/canvas/Canvas tutorial/Drawing shapes|Drawing shapes]]
+* [[tutorials/canvas/Canvas tutorial/Using images|Using images]]
+* [[tutorials/canvas/Canvas tutorial/Applying styles and colors|Applying styles and colors]]
+* [[tutorials/canvas/Canvas tutorial/Transformations|Transformations]]
+* [[tutorials/canvas/Canvas tutorial/Compositing|Compositing]]
+* [[tutorials/canvas/Canvas tutorial/Basic animations|Basic animations]]
+* [[tutorials/canvas/Canvas tutorial/Optimizing canvas|Optimizing the canvas]]
 
 
-[[canvas/tutorial/Canvas tutorial/Basic usage|   Next &gt;&gt;]]
+[[tutorials/canvas/Canvas tutorial/Basic usage|   Next &gt;&gt;]]
 }}
 {{Compatibility_Section
 |Not_required=No
