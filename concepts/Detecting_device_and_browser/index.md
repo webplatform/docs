@@ -23,6 +23,22 @@ The ability to identify a device, browser or feature enables the developer to pe
 
 Device detection can be accomplished server-side, before the content is delivered to the client, or client-side, after the content and related files have been loaded to the device itself. Both approaches have advantages and disadvantages, which are described in this topic. Server-side and client-side device detection are not mutually exclusive; they can work efficiently together to provide a “best of both worlds” solution.
 
+== Client-side detection ==
+
+Client-side detection employs JavaScript technology to detect the type of browser as well as DOM objects and properties such as screen.width, screen.pixelDepth, navigator.userAgent, and navigator.cookieEnabled. Using CSS, it is now also possible to implement “progressive enhancement”, which is a Web design strategy that enables every browser to access the basic content of a Web page, serving the complete feature set of the page only to those browsers that support advanced technologies. For more information on progressive enhancement, see Wikipedia, Dev,Opera, and A List Apart.
+
+Media queries are another common strategy for adapting content to a device based on media type and device width or display size. For more information on media query techniques, see Client-side detection of Nokia devices.
+
+Advantages of client-side detection
+
+The main advantage of client-side detection is the ability to react promptly to exact client conditions such as size, orientation, and support for extra tags and APIs. It is simple to execute using a combination of JavaScript and CSS and is an integral part of the Web page design; there are no requirements for Java, PHP, .NET software to dynamically modify your Web pages. Another advantage is that installing and maintaining a database is not required.
+
+Client-side detection can provide a useful fallback and can implement last-minute tweaks related to real-time behavior such as changes in device orientation. On more advanced devices, client-side Ajax and CSS can be used to download additional content and enhancements without having to refresh the entire page.
+
+Disadvantages of client-side detection
+
+One disadvantage of client-side detection are is that it often runs the risk of sending content that is not supported by the device. The user is notified that the browser is not capable of rendering the content only after time has been wasted delivering it. Because JavaScript and CSS execute locally, the entire page may download before the script can process and manipulate the Document Object Model (DOM). Another disadvantage is that JavaScript and media queries are not supported on older devices. A third disadvantage is the time lag that elapses between the initial loading and the execution of the client-side adaptation.
+
 == Server-side detection ==
 
 Server-side detection is usually performed by analysing the HTTP request headers received from the client (also called the user agent). In most cases, only the User-Agent string is needed, but sometimes a combination of more than one header is required.
@@ -43,21 +59,6 @@ Disadvantages of server-side detection
 
 The disadvantages of server-side detection are that the databases require frequent updating, are not always accurate, and do not include user settings or personalizations. Employing a device database requires implementing an API and maintaining it. The simplest solution is to employ a short script containing only very basic information, such as the one shown in WordPress Mobile Pack's lite-detection php script.
 
-== Client-side detection ==
-
-Client-side detection employs JavaScript technology to detect the type of browser as well as DOM objects and properties such as screen.width, screen.pixelDepth, navigator.userAgent, and navigator.cookieEnabled. Using CSS, it is now also possible to implement “progressive enhancement”, which is a Web design strategy that enables every browser to access the basic content of a Web page, serving the complete feature set of the page only to those browsers that support advanced technologies. For more information on progressive enhancement, see Wikipedia, Dev,Opera, and A List Apart.
-
-Media queries are another common strategy for adapting content to a device based on media type and device width or display size. For more information on media query techniques, see Client-side detection of Nokia devices.
-
-Advantages of client-side detection
-
-The main advantage of client-side detection is the ability to react promptly to exact client conditions such as size, orientation, and support for extra tags and APIs. It is simple to execute using a combination of JavaScript and CSS and is an integral part of the Web page design; there are no requirements for Java, PHP, .NET software to dynamically modify your Web pages. Another advantage is that installing and maintaining a database is not required.
-
-Client-side detection can provide a useful fallback and can implement last-minute tweaks related to real-time behavior such as changes in device orientation. On more advanced devices, client-side Ajax and CSS can be used to download additional content and enhancements without having to refresh the entire page.
-
-Disadvantages of client-side detection
-
-One disadvantage of client-side detection are is that it often runs the risk of sending content that is not supported by the device. The user is notified that the browser is not capable of rendering the content only after time has been wasted delivering it. Because JavaScript and CSS execute locally, the entire page may download before the script can process and manipulate the Document Object Model (DOM). Another disadvantage is that JavaScript and media queries are not supported on older devices. A third disadvantage is the time lag that elapses between the initial loading and the execution of the client-side adaptation.
 
 == Best of both worlds ==
 
