@@ -1,6 +1,4 @@
-{{Flags
-|High-level issues=Copyright Issue
-}}
+{{Flags}}
 {{Summary_Section}}
 {{Guide
 |Content=Device detection enables developers to identify device properties and characteristics in order to determine the best content, layout, mark-up or application to serve to a given device. These characteristics include screen size, browser type (or version), media support, and the level of support for Cascading Style Sheets (CSS), HTML and JavaScript technology.
