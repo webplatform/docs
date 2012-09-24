@@ -2,7 +2,7 @@
 {{Basic Page}}
 {{API_Listing|Query=[[Category:CSS Properties]]}}
 
-[[Category:API_Listing]]
+[[Category:API_Listings]]
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
