@@ -39,58 +39,6 @@ Then put it to use:
 
 In this @font-face declaration we're using the <code>font-family</code> property to explicitly name the font. It can be anything, regardless of what the font is actually called; <code>font-family: 'SuperDuperComicSans';</code> would work just fine, though perhaps not for your reputation. In the <code>src</code> property, we point to where the browser can find the font asset. Depending on the browser, some valid font types are eot, ttf, otf, svg, or a [http://en.wikipedia.org/wiki/Data_URI_scheme data URI] embedding the entire font data inline. 
 
-<!--See the table below for a summary of browser support for @font-face formats.
-
-{{{!}} 
-!
-! scope="col" {{!}} otf &amp; ttf
-! scope="col" {{!}} svg
-! scope="col" {{!}} woff
-! scope="col" {{!}} eot
-{{!}}-
-! scope="row" {{!}} IE
-{{!}} IE9
-{{!}}
-{{!}} IE9
-{{!}} IE5+
-{{!}}-
-! scope="row" {{!}} Firefox
-{{!}} FF3.5
-{{!}} FF3.5
-{{!}} FF3.6
-{{!}}
-{{!}}-
-! scope="row" {{!}} Chrome
-{{!}} Chrome 4
-{{!}} Chrome 0.3
-{{!}} Chrome 5
-{{!}}
-{{!}}-
-! scope="row" {{!}} Safari
-{{!}} 3.1
-{{!}} 3.1
-{{!}}
-{{!}}
-{{!}}-
-! scope="row" {{!}} Opera
-{{!}} Opera 10.00
-{{!}} Opera 9
-{{!}}
-{{!}}
-{{!}}-
-! scope="row" {{!}} iOS
-{{!}}
-{{!}} iOS 1
-{{!}}
-{{!}}
-{{!}}-
-! scope="row" {{!}} Android
-{{!}} 2.2
-{{!}}
-{{!}}
-{{!}}
-{{!}}}
--->
 Of course, nothing is ever as simple as it should be. The initial limitation of the above code was that it did not serve an EOT to IE 6-8. The [http://paulirish.com/2009/bulletproof-font-face-implementation-syntax/ bulletproof @font-face syntax] proposed a way of solving this; a robust version follows.
 
 <pre>
@@ -111,7 +59,6 @@ The [http://www.fontsquirrel.com/fontface/generator Font Squirrel generator]
 
 ===Mobile support?===
 
-<!--Mobile Safari [http://mwhenry.com/blog/2009/12/font-face-support-table/ supports] SVG webfonts as of iOS 3.1 and Android supports otf/ttf as of version 2.2.-->
 Some mobile operating systems support SVG webfonts and some don't. But regardless, should your mobile users get this enhanced typographic experience? I'd recommend no. The predominant reason is due to how WebKit handles text that is awaiting a custom font via @font-face: the text is invisible. So on a low-bandwidth mobile connection, your users will see no text at all until the ~50k of font data has loaded. The Webkit team is pursuing a solution of turning on a fallback font after a few seconds have expired, but until that has landed, I wouldn't consider it fair to subject your users to such roadblocks between them and your content.
 
 ==Webfont services==
@@ -164,7 +111,6 @@ A more lightweight but less effective solution is the <code>[https://developer.m
 ==Summary==
 
 Webfonts deliver quite a bit of freedom to designers, and with upcoming features like [http://hacks.mozilla.org/2009/10/font-control-for-designers/ discretionary ligatures and stylistic alternates], they will have a lot more flexibility. For now, you can feel confident implementing this part of CSS3, as it covers 98% of deployed browsers. Enjoy!
-
 }}
 {{Compatibility_Section
 |Not_required=No
