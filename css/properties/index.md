@@ -13,7 +13,3 @@
 |MSDN_link=
 |HTML5Rocks_link=
 }}
-{{Basic Page}}
-
-
-[[Category:API_Listings]]
