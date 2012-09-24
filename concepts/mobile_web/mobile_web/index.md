@@ -2,11 +2,7 @@
 {{API_Name}}
 {{Summary_Section}}
 {{Concept_Page
-|Content=== Introduction ==
- 
-The [http://www.w3.org/wiki/Web_Standards_Curriculum Web Standards Curriculum Table of contents] is about advocating best practices for the web and providing complete coverage of all the skills you need to create modern Web sites, in doing so making the Web a better place for all of us to work and browse. This mini series expands the core web standards curriculum articles, look at all the skills and concepts you should take on board to help optimize your Web sites so that they run successfully on mobile (and other alternative) devices. I’ll start by taking a look at the subject area in general and special considerations for marking up and running pages on mobile devices, then move on to styling, scripting and testing as they relate to '''mobile web development'''.
- 
-== A definition of the mobile web ==
+|Content=== A definition of the mobile web ==
  
 The mobile web is one of those over-used terms that has lost all of its meaning, or worse yet, continues to confuse and perpetuate the mobile myth. If you were to ask web developers to define what the mobile web means, you would get as many different answers as people you asked. It is important then, to define what I mean by the mobile web and how you should be discussing and thinking about it.
  
