@@ -4,6 +4,8 @@
 |Content==Client-Side Storage=
 ==By Michael Mahemoff==
 Published '''Oct. 1, 2010
+=Client-Side Storage=
+==By Michael Mahemoff==
 
 ==Introduction==
 
@@ -45,42 +47,42 @@ Synchronous mode is okay for low-impact situations, e.g. maintaining a set of pr
 
 Web Storage is an example of a [http://en.wikipedia.org/wiki/NoSQL#Key-value_store NoSQL key-value store].
 
-{|
+{{{!}}
 ! Strengths of Web Storage
 ! Weakness of Web Storage
-|-
-|
+{{!}}-
+{{!}}
 # Supported on all modern browsers, as well as on iOS and Android, for several years (IE since version 8).
 # Simple API signature.
 # Simple call flow, being a synchronous API.
 # Semantic events available to keep other tabs/windows in sync.
-|
+{{!}}
 # Poor performance for large/complex data, when using the synchronous API (which is the most widely supported mode).
 # Poor performance when searching large/complex data, due to lack of indexing. (Search operations have to manually iterate through all items.)
 # Poor performance when storing and retrieving large/complex data structures, because it's necessary to manually serialize and de-serialize to/from string values. The major browser implementations only support string values (even though the spec says otherwise).
 # Need to ensure data consistency and integrity, since data is effectively unstructured.
-|}
+{{!}}}
 
 ===Web SQL Database===
 
 [http://www.w3.org/TR/webdatabase/ Web SQL Database] is a structured database with all the functionality - and complexity - of a typical [http://en.wikipedia.org/wiki/Structured_Query_Language SQL-powered relational database]. Indexed Database sits somewhere between the two. It has free-form key-value pairs, like Web Storage, but also the capability to index fields from those values, so searching is much faster.
 
-{|
+{{{!}}
 ! Strengths of Web SQL Database
 ! Weakness of Web SQL Database
-|-
-|
+{{!}}-
+{{!}}
 # Supported on major mobile browsers (Android Browser, Mobile Safari, Opera Mobile) as well as several desktop browsers (Chrome, Firefox, Opera).
 # Good performance generally, being an asynchronous API. Database interaction won't lock up the user interface. (Synchronous API is also available for WebWorkers.)
 # Good search performance, since data can be indexed according to search keys.
 # Robust, since it supports a [http://en.wikipedia.org/wiki/Database_transaction transactional database model].
 # Easier to maintain integrity of data, due to rigid data structure.
-|
+{{!}}
 # Deprecated. Will not be supported on IE or Firefox, and will probably be phased out from the other browsers at some stage.
 # Steep learning curve, requiring knowledge of relational databases and SQL.
 # Suffers from [http://en.wikipedia.org/wiki/Object-relational_impedance_mismatch object-relational impedence mismatch].
 # Diminishes agility, as database schema must be defined upfront, with all records in a table matching the same structure.
-|}
+{{!}}}
 
 ===Indexed Database (IndexedDB)===
 
@@ -88,38 +90,38 @@ So far, we have seen that Web Storage and Web SQL Database both have major stren
 
 An Indexed Database is a collection of "object stores" which you can just drop objects into. The stores are something like SQL tables, but in this case, there's no constraints on the object structure and so no need to define anything upfront. So this is similar to Web Storage, with the advantage that you can have as many databases as you like, and as many stores within each database. But unlike Web Storage, there are important performance benefits: An asynchronous API, and you can create indexes on stores to improve search speed.
 
-{|
+{{{!}}
 ! Strengths of IndexedDB
 ! Weakness of IndexedDB
-|-
-|
+{{!}}-
+{{!}}
 # Good performance generally, being an asynchronous API. Database interaction won't lock up the user interface. (Synchronous API is also available for WebWorkers.)
 # Good search performance, since data can be indexed according to search keys.
 # Supports agile development, with no need to flexible data structures.
 # Robust, since it supports a [http://en.wikipedia.org/wiki/Database_transaction transactional database model].
 # Fairly easy learning curve, due to a simple data model.
 # Decent browser support: Chrome, Firefox, mobile FF, IE10.
-|
+{{!}}
 # Somewhat complex API.
 # Need to ensure data consistency and integrity, since data is effectively unstructured. (This is the standard flipside weakness to the typical strengths of NOSQL structures.)
-|}
+{{!}}}
 
 ===FileSystem===
 
 The previous formats are all suitable for text and structured data, but when it comes to large files and binary content, we need something else. Fortunately, we now have a [http://dev.w3.org/2009/dap/file-system/pub/FileSystem/ FileSystem API standard]. It gives each domain a full hierarchical filesystem, and in Chrome at least, these are real files sitting on the user's hard drive. For reading and writing of individual files, the API builds on the existing [http://www.w3.org/TR/FileAPI/ File API].
 
-{|
+{{{!}}
 ! Strengths of FileSystem API
 ! Weakness of FileSystem API
-|-
-|
+{{!}}-
+{{!}}
 # Can store large content and binary files, so it's suitable for images, audio, video, PDFs, etc.
 # Good performance, being an asynchronous API.
-|
+{{!}}
 # Very early standard. Only available in Chrome.
 # No transaction support.
 # No built-in search/indexing support.
-|}
+{{!}}}
 
 ==Show Me the Code==
 
