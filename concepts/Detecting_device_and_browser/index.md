@@ -3,9 +3,7 @@
 }}
 {{Summary_Section}}
 {{Guide
-|Content=For many years, the only way to detect a mobile device and its browser was to read the User-Agent string and then to consult a database for the device capabilities. Today most devices support basic functionality, such as JavaScript, that enables developers to adapt pages and content based on device characteristics.
-
-Device detection enables developers to identify device properties and characteristics in order to determine the best content, layout, mark-up or application to serve to a given device. These characteristics include screen size, browser type (or version), media support, and the level of support for Cascading Style Sheets (CSS), HTML and JavaScript technology.
+|Content=Device detection enables developers to identify device properties and characteristics in order to determine the best content, layout, mark-up or application to serve to a given device. These characteristics include screen size, browser type (or version), media support, and the level of support for Cascading Style Sheets (CSS), HTML and JavaScript technology.
 
 == Why use device and feature detection? ==
 
@@ -21,7 +19,7 @@ The ability to identify a device, browser or feature enables the developer to pe
 
 == Common approaches to device detection ==
 
-Device detection can be accomplished server-side, before the content is delivered to the client, or client-side, after the content and related files have been loaded to the device itself. Both approaches have advantages and disadvantages, which are described in this topic. Server-side and client-side device detection are not mutually exclusive; they can work efficiently together to provide a “best of both worlds” solution.
+Device detection can be accomplished server-side, before the content is delivered to the client, or client-side, after the content and related files have been loaded to the device itself. Both approaches have advantages and disadvantages, which are described in this topic. Depending on the browser features, smartphone browsers are generally more capable to better client-side detection and give more flexibility to Web developers to apply different design approaches, for example responsive design approach. On the other hand, many feature phone browsers are designed to provide speed, performance and bandwidth optimization, and may lack advance features to handle certain design approaches.
 
 == Client-side detection ==
 
