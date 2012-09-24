@@ -1,1 +1,0 @@
-#REDIRECT [[tutorials/canvas/Canvas tutorial/Drawing shapes]]
