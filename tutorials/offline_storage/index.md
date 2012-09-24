@@ -156,7 +156,6 @@ For '''Web SQL Database''', we need to create the database structure if it doesn
 '''Indexed Database''' setup takes some work, because it enforces a database version system; if we attempt to open a new database, the result will be a database whose version is null, which is our cue to set it up. And in setting it up, we obviously want to set the version so it doesn't return null next time! Thus, we must call <code>setVersion()</code> and we set up the database once the version has been set.
 
 Another thing we do here is creating a mood index, so we will later be able to quickly search for all checkins matching a particular mood.
-
  
  setup: function(handler) {
  
@@ -209,7 +208,6 @@ Another thing we do here is creating a mood index, so we will later be able to q
 Finally, '''FileSystem''' setup. We'll store each checkin in its own file, JSON-encoded, and all of them inside a "checkins/" directory. Again, this is not the most appropriate use of FileSystem API, but good for demonstration purposes.
 
 The setup gets a handle on the overall FileSystem, using it to check for the "checkins" directory. If it's not there, we create it with getDirectory.
-
  
  setup: function(handler) {
    requestFileSystem(
@@ -371,6 +369,7 @@ With Web SQL Database, we could retrieve each row in the database (<tt>select * 
      },
      store.onError
    );
+  }
 
 Unfortunately, Indexed Database doesn't offer any counting facility, so we have to iterate through all checkins.
 
