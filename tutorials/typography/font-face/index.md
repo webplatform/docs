@@ -115,6 +115,7 @@ Webfonts deliver quite a bit of freedom to designers, and with upcoming features
 {{Compatibility_Section
 |Not_required=No
 |Desktop_rows={{Compatibility Table Desktop Row
+|Feature=@font-face (Web fonts)
 |Chrome_supported=Yes
 |Chrome_version=20.0
 |Chrome_prefixed_supported=Unknown
