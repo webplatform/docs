@@ -338,7 +338,7 @@ As with many traditional filesystems, there's no indexing, so a search algorithm
      if (fileCount == files.length) return;
      reader.onload = function(e) {
        var checkin = JSON.parse(this.result);
-       if (moodQuery==checkin.mood||!moodQuery) handler(checkin);
+       if (moodQuery==checkin.mood{{!}}{{!}}moodQuery) handler(checkin);
        readNextFile();
      };
      files[fileCount++].file(function(file) { reader.readAsText(file); });
