@@ -93,7 +93,7 @@ Another issue with the .mp4 format is that the <code>type</code> attribute needs
 
 Even though Microsoft announced the support of the video tag, as well as other HTML5 elements, its user migration rate to newer versions is typically slower than the other major browsers. Hence the following section:
 
-==3. What happens with current IE versions that don't support the video tag?==
+==3. What happens with IE versions that don't support the video tag?==
 
 There are two plugins that can be used as possible solutions:
 
