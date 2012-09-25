@@ -3,8 +3,7 @@
 }}
 {{Summary_Section|An introduction to native drag-and-drop download.}}
 {{Tutorial
-|Content=
-=Case Study: Drag and Drop Download in Chrome=
+|Content==Case Study: Drag and Drop Download in Chrome=
 
 ====original by David Tong====
 ====published Sept. 25, 2010====
@@ -55,7 +54,7 @@ Based on a jQuery [http://dev.blog.salesking.eu/coding/jquery-plugin-to-drag-fil
      var files = this;
      if (files.length &gt; 0) {
        $(files).each(function() {
-         var url = (this.dataset &amp;&amp; this.dataset.downloadurl) {{!}}{{!}}
+         var url = (this.dataset &amp;&amp; this.dataset.downloadurl) ||
                     this.getAttribute("data-downloadurl");
          if (this.addEventListener) {
            this.addEventListener("dragstart", function(e) {
@@ -106,7 +105,7 @@ The jQuery plugin in iteration 1 is abandoned now because we need to tightly int
           // setData on DownloadURL returns true on Chrome, and false on Safari
           if (e.dataTransfer &amp;&amp; e.dataTransfer.constructor == Clipboard &amp;&amp;
               e.dataTransfer.setData('DownloadURL','http://www.box.net')) {
-            var url = (this.dataset &amp;&amp; this.dataset.downloadurl) {{!}}{{!}}
+            var url = (this.dataset &amp;&amp; this.dataset.downloadurl) ||
                        this.getAttribute("data-downloadurl");
             e.dataTransfer.setData("DownloadURL", url);
           }
@@ -129,10 +128,10 @@ DnD Download only works on actual URLs that point directly to a resource. If red
 To better illustrate the differences between an ''actual URL'' and a ''redirect URL'', see the screen shots below:
 
 [[Image:dnd01-redirect.png|302 Redirect URL]]<br/>
-302 redirect URL   
+''302 redirect URL''
 
-[[Image:dnd02-actualurl.png|Actual URL]]</br>
-Actual URL
+[[Image:dnd02-actualurl.png|Actual URL]]<br/>
+''Actual URL''
 
 ==Iteration 3==
 
@@ -153,7 +152,7 @@ We slightly modified the code in the previous iteration and came up with the fol
        // setData on DownloadURL returns true on Chrome, and false on Safari
        if (e.dataTransfer &amp;&amp; e.dataTransfer.constructor == Clipboard &amp;&amp;
            e.dataTransfer.setData('DownloadURL', 'http://www.box.net')) {
-         var url = (this.dataset &amp;&amp; this.dataset.downloadurl) {{!}}{{!}}
+         var url = (this.dataset &amp;&amp; this.dataset.downloadurl) ||
                     this.getAttribute("data-downloadurl");
          $.ajax({
            complete: function(data) {
@@ -208,10 +207,10 @@ For a demo of this feature, feel free to upload a static file to a Box.net accou
 With this feature, you can be creative and make a lot of things possible. Dragging an image to a Windows printer dialog will immediately have the image printed. You can copy a song from Box to your mobile phone's drive, drag a file from Box to your IM client in order to transfer it directly to your friend, etc. This opens up endless possibilities to increase your productivity. See the screen shots below for some examples.
 
 [[Image:dnd03-dragtoprint.png|Dragging a file to the printer]]<br/>
-Dragging a file to the printer.
+''Dragging a file to the printer''
 
 [[Image:dnd04-dragtoim.png|Dragging a file to an IM client]]<br/>
-Dragging a file to IM client.
+''Dragging a file to an IM client''
 
 ==Thoughts and future improvements==
 
