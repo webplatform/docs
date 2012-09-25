@@ -60,7 +60,7 @@ Think of a <span style="color:green">video format</span> as a zip file that cont
 * <span style="color:green">.ogg/.ogv</span> = <span style="color:blue">Theora</span> + <span style="color:red">Vorbis</span>
 * <span style="color:green">.webm</span> = <span style="color:blue">VP8</span> + <span style="color:red">Vorbis</span>
 
-The speed of evolution of the video tag is really encouraging. Just a year ago the only browser that supported the video tag in its stable version was Safari. Now, most modern browsers support HTML5 video.
+The speed of evolution of the video tag is really encouraging. Not long ago, hardly any browsers supported the video tag; now, most modern browsers support HTML5 video.
 
 In [http://www.html5rocks.com/en/tutorials/video/basics/ this HTML5Rocks! article] you can see which of these formats your browser can render (you should feel lucky if you see all three of them!).
 
