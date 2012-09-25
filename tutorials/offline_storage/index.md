@@ -9,7 +9,7 @@ Published Oct. 1, 2010
 
 ==Introduction==
 
-This is an overview of client-side storage, a general term for several separate but related APIs: Web Storage, Web SQL Database, Indexed Database, and File Access. Each of these techniques provides a distinct way to store data on the user's hard drive, instead of the server, where data usually resides. There are two main reasons to do this: (a) to make the web app available offline; (b) to improve performance. For a detailed explanation of the use cases for client-side storage, see the HTML5Rocks article, [http://www.html5rocks.com/tutorials/offline/whats-offline/ "Offline": What does it mean and why should I care?].
+This is an overview of client-side storage, a general term for several separate but related APIs: Web Storage, Web SQL Database, Indexed Database, and File Access. Each of these techniques provides a distinct way to store data on the user's hard drive, instead of the server, where data usually resides. There are two main reasons to do this: (a) to make the web app available offline; (b) to improve performance. For a detailed explanation of the use cases for client-side storage, see the article, [http://docs.webplatform.org/wiki/tutorials/about_offline "Offline": What does it mean and why should I care?].
 
 The APIs share a similar scope and similar principles. So let's first understand what they have in common before launching to the specifics of each.
 
