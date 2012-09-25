@@ -127,7 +127,7 @@ The previous formats are all suitable for text and structured data, but when it 
 
 This section compares how the various APIs tackle the same problem. The example is a "geo-mood" checkin system, where you can track your mood across time and place. The interface lets you switch between database types. Of course, this is slightly contrived as in real world situations, one database type will always make more sense than the rest, and FileSystem API is not suited to this kind of application at all! But for demonstration purposes, it's helpful indeed if we can see the different means we can use to achieve the same end. Note too that some of the code snippets have been refactored for readability.
 
-[./demo.html Try the Geo-Mood demo now.]
+[http://www.html5rocks.com/en/tutorials/offline/storage/demo.html Try the Geo-Mood demo now.]
 
 To make the demo interesting, we'll isolate the data storage aspects using [http://en.wikipedia.org/wiki/Polymorphism_in_object-oriented_programming standard object-oriented design techniques], more specifically [TODO the Strategy pattern]. The UI logic will only know there is a "store"; it won't need to know how the store is implemented, because each store has exactly the same methods on it. So the UI code can just call <tt>store.setup()</tt>, <tt>store.count()</tt>, and so on. In reality, there are four implementations of the store, one for each storage type. When the app starts up, it inspects the URL and instantiates the right store.
 
@@ -138,12 +138,10 @@ In the walkthroughs below, we'll skip the UI and geolocation logic to focus on t
 ===Setting up the Store===
 
 For '''localStorage''', we do a simple check to see if the store exists. If not, we'll create a new array and store it against the localStorage "checkins" key. We use JSON to convert the structure to a string first, since, in most browsers, localStorage only stores strings.
-
  
  if (!localStorage.checkins) localStorage.checkins = JSON.stringify([]);
 
 For '''Web SQL Database''', we need to create the database structure if it doesn't exist. <tt>openDatabase</tt> fortunately creates the database automatically if it doesn't exist, and, likewise, we use the SQL phrase "if not exists" to ensure the new checkins table is not overridden if it is already present. We have to define the structure of the data upfront, i.e. the name and type of each column in the checkins table. Each row will represent a single checkin.
-
  
  this.db = openDatabase('geomood', '1.0', 'Geo-Mood Checkins', 8192);
  this.db.transaction(function(tx) {
@@ -245,14 +243,12 @@ The setup gets a handle on the overall FileSystem, using it to check for the "ch
 ===Saving a Checkin===
 
 With localStorage, we simply pull the checkins array out, add a new one to the end, and save it again. We also have to do the JSON dance to store it in string form.
-
  
  var checkins = JSON.parse(localStorage["checkins"]);
  checkins.push(checkin);
  localStorage["checkins"] = JSON.stringify(checkins);
 
 With Web SQL Database, we run everything inside a transaction. We're going to create a new row in the checkins table, It's a straightforward SQL call, and instead of including the checkin data in the "insert" command, we use "?" syntax because it's cleaner and more secure. The actual data - the four values we want to store as columns in the new checkins row - are specified in the second row. The "?" elements will be replaced by those values (<tt>checkin.time</tt>, <tt>checkin.latitude</tt>, etc.). The next two arguments indicate functions which will be called when the operation has completed, one for success and one for failure. In this app, we use the same generic error handler for all transactions. In this case, the success function is simply the handler that was passed into the search function - we ensure the handler will be called on success so that the UI logic can be notified when the operation has been completed (e.g. to update the count of checkins so far).
-
  
  store.db.transaction(function(tx) {
    tx.executeSql(
@@ -265,14 +261,12 @@ With Web SQL Database, we run everything inside a transaction. We're going to cr
  });
 
 Once the store is set up, saving in IndexedDB is almost as simple as Web Storage, with the advantage of working asynchronously, in a transaction:
-
  
  var store = db.transaction(["checkins"], 'readwrite').objectStore("checkins");
  var request = store.put(checkin);
  request.onsuccess = handler;
 
 With FileStore, once we create a file and get a handle on it, we can use [http://www.w3.org/TR/file-writer-api/ the FileWriter API] to populate it:
-
  
  fs.root.getFile("checkins/" + checkin.time, {create: true, exclusive: true}, function(file) {
    file.createWriter(function(writer) {
@@ -351,12 +345,10 @@ As with many traditional filesystems, there's no indexing, so a search algorithm
 Finally, we need to count all checkins.
 
 For localStorage, we simply de-serialize the checkins array structure and find its length.
-
  
  handler(JSON.parse(localStorage["checkins"]).length);
 
 With Web SQL Database, we could retrieve each row in the database (<tt>select * from checkins</tt>) and look at the length of the result set, but if we know our way around SQL, there's an easier - and faster - way. We can perform a special select statement to retrieve the count. It will return exactly one row, having one column containing the count.
-
  
  store.db.transaction(function(tx) {
    tx.executeSql(
@@ -370,7 +362,6 @@ With Web SQL Database, we could retrieve each row in the database (<tt>select * 
   }
 
 Unfortunately, Indexed Database doesn't offer any counting facility, so we have to iterate through all checkins.
-
  
  var count = 0;
  var request = db.transaction(["checkins"], 'readonly').objectStore("checkins").openCursor();
@@ -380,7 +371,6 @@ Unfortunately, Indexed Database doesn't offer any counting facility, so we have 
  };
 
 For FileSystem, a directory reader's <code>readEntries()</code> method provides a list of files, so we can just return the length of that list.
-
  
  checkinsDir.createReader().readEntries(function(files) {
    handler(files.length);
@@ -388,7 +378,7 @@ For FileSystem, a directory reader's <code>readEntries()</code> method provides 
 
 ==Summary==
 
-This has been a high-level overview of modern client-side storage techniques. You should also check out the [../whats-offline overview on offline apps] and, for more detailed introductions to specific APIs, see the tutorials on [../../#offline offline] and [../../#storage storage] topics.
+This has been a high-level overview of modern client-side storage techniques. You should also check out the [tutorials/about_offline overview on offline apps].
 }}
 {{Compatibility_Section
 |Not_required=No
