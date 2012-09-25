@@ -378,7 +378,7 @@ For FileSystem, a directory reader's <code>readEntries()</code> method provides 
 
 ==Summary==
 
-This has been a high-level overview of modern client-side storage techniques. You should also check out the [tutorials/about_offline overview on offline apps].
+This has been a high-level overview of modern client-side storage techniques. You should also check out the [http://docs.webplatform.org/wiki/tutorials/about_offline overview on offline apps].
 }}
 {{Compatibility_Section
 |Not_required=No
