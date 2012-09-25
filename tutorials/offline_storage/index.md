@@ -287,7 +287,6 @@ With FileStore, once we create a file and get a handle on it, we can use [http:/
 ===Searching for Matching Checkins===
 
 The next function fishes out all checkins matching a particular mood, so the user can see where and when they were happy recently, for example. With localStorage, we have to manually walk through each checkin and compare it to the mood, building up a list of matches. It's good practice to return clones of the data that's stored, rather than the actual objects, since searching should be a read-only operation; hence we pass each matching checkin object through a generic <tt>clone()</tt> operation.
-
  
  var allCheckins = JSON.parse(localStorage["checkins"]);
  var matchingCheckins = [];
@@ -299,7 +298,6 @@ The next function fishes out all checkins matching a particular mood, so the use
  handler(matchingCheckins);
 
 With Web SQL Database, we perform a query that returns only the checkin rows that we need. However, we still have to manually walk through that list to accumulate the checkin structures, as the database API returns database rows, rather than an array. (This is a good thing for large result sets, but right now, it adds some work for us to do!)
-
  
  var matchingCheckins = [];
  store.db.transaction(function(tx) {
@@ -317,7 +315,6 @@ With Web SQL Database, we perform a query that returns only the checkin rows tha
  });
 
 Naturally enough, the IndexedDB solution uses an index, the index on "mood we created earlier, called "moodIndex". We use a cursor to iterate through each checkin matching the query. Note that this cursor pattern can also be used against an entire store; so, with indexes, it's like we get a window into the store where we can only see matching objects (similar to a "view" in traditional databases).
-
  
  var store = db.transaction(["checkins"], 'readonly').objectStore("checkins");
  var request = moodQuery ?
@@ -333,7 +330,6 @@ Naturally enough, the IndexedDB solution uses an index, the index on "mood we cr
  };
 
 As with many traditional filesystems, there's no indexing, so a search algorithm (like that used by the Unix "grep" command) must iterate through each file. We extract a [http://www.w3.org/TR/FileAPI/#dfn-filereader Reader] from the checkins directory, which lets us walk through each file via <code>readEntries()</code>. For each file, we again extract a reader, and inspect its contents via <code>readAsText()</code>. As these operations are asynchronous, we need to chain calls together, which is the function served by <code>readNext()</code>.
-
  
  checkinsDir.createReader().readEntries(function(files) {
    var reader, fileCount=0, checkins=[];
