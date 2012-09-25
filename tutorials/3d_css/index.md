@@ -54,7 +54,7 @@ We then add an iframe and apply a 30 degree rotation around the Z and Y axis.
 [[Image:3dperspectivetransp.gif]]<br/>
 ''A 3D 30 degree rotation''
 
-BAM! That is it, the element is fully interactive, and in all respects it is a fully fledged DOM element (excpect that it now looks even cooler). You can see a live demo in [http://www.html5rocks.com/en/tutorials/3d/css/ this HTML5Rocks! article].
+BAM! That is it, the element is fully interactive, and in all respects it is a fully fledged DOM element (except that it now looks even cooler). You can see a live demo in [http://www.html5rocks.com/en/tutorials/3d/css/ this HTML5Rocks! article].
 
 If your browser doesn't support 3D transformations, nothing will happen. You will just see a simple iframe with no rotation applied. If your browser supports 3D transformations but without hardware acceleration, it might look a little odd.
 
@@ -62,7 +62,7 @@ If your browser doesn't support 3D transformations, nothing will happen. You wil
 
 The thing that I love about CSS3 3D transformations is that it ties in so beautifully with the CSS Transition module. Animations and transitions are easy to define in CSS, and applying these to 3D is no exception.
 
-To animate elements that have a 3D perspective, simply set the "transition" style to be "transform" and attach a duration and an animation function. From then on, any change to the "tranform" style will be animated.
+To animate elements that have a 3D perspective, simply set the "transition" style to be "transform" and attach a duration and an animation function. From then on, any change to the "transform" style will be animated.
 
 We have re-factored the previous examples to use document styles, rather than inline styles. Not only does it make the example more clear, it allows the sample to take advantage of the the CSS <code>:hover</code> pseudo class. By using <code>:hover</code>, transitions can be initiated by simply moving the mouse over the element. Awesome!
 
