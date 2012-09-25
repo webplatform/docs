@@ -53,17 +53,12 @@ If your app is being served in a Google App Engine app then you would need to ad
 In order to improve the client side performance it's important to remember to specify the <code>type</code> attribute in the <code>source</code> tags when dealing with multiple formats. This way, the browser can decide which format it can download and play. In other words, it won't download the ones it can't play, in order to increase the performance of the site.
 
 ==2. Video Formats==
-<style>
-.file_format  { color:green; }
-.video_stream { color:blue; }
-.audio_stream { color:red; }
-</style>
 
-Think of a <span class="file_format">video format</span> as a zip file that contains the encoded <span class="video_stream">video stream</span> and an <span class="audio_stream">audio stream</span>. The three formats you should care about for the web are webm, mp4 and ogv:
+Think of a <span style="color:green">video format</span> as a zip file that contains the encoded <span style="color:blue">video stream</span> and an <span class="audio_stream">audio stream</span>. The three formats you should care about for the web are webm, mp4 and ogv:
 
-* <span class="file_format">.mp4</span> = <span class="video_stream">H.264</span> + <span class="audio_stream">AAC</span>
-* <span class="file_format">.ogg/.ogv</span> = <span class="video_stream">Theora</span> + <span class="audio_stream">Vorbis</span>
-* <span class="file_format">.webm</span> = <span class="video_stream">VP8</span> + <span class="audio_stream">Vorbis</span>
+* <span style="color:green">.mp4</span> = <span style="color:blue">H.264</span> + <span style="color:red">AAC</span>
+* <span style="color:green">.ogg/.ogv</span> = <span style="color:blue">Theora</span> + <span style="color:red">Vorbis</span>
+* <span style="color:green">.webm</span> = <span style="color:blue">VP8</span> + <span style="color:red">Vorbis</span>
 
 The speed of evolution of the video tag is really encouraging. Just a year ago the only browser that supported the video tag in its stable version was Safari. Now, most modern browsers support HTML5 video.
 
@@ -236,7 +231,6 @@ One more example can be found in [http://www.html5rocks.com/en/tutorials/video/b
 There's no doubt that having the video tag as a native element gives the best environment to integrate video with the rest of your web application. [http://www.craftymind.com/2010/04/20/blowing-up-html5-video-and-mapping-it-into-3d-space/ More] and [http://demos.hacks.mozilla.org/openweb/WARMCSS/ more samples], [http://dev.opera.com/articles/view/custom-html5-video-player-with-css3-and-jquery/ video controls], and [http://yayquery.github.com/jquery-singalong/ related UI components] are being created every day.
 
 It's almost inevitable that comparisons arise between the video element and other technologies which have been around much longer and provide capabilities like fullscreen view, access to [http://dev.w3.org/html5/html-device/ microphones and cameras], or support for [http://www.whatwg.org/specs/web-apps/current-work/#stream-api streaming video]. All these capabilities are currently being addressed both in the specification and browser support. If the video capabilities continue to evolve as fast as they have so far, it won't be long before we have all these features supported and ready for production across the modern browser market.
-
 }}
 {{Compatibility_Section
 |Not_required=No
