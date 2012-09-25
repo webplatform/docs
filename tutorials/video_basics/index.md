@@ -64,7 +64,7 @@ The speed of evolution of the video tag is really encouraging. Not long ago, har
 
 In [http://www.html5rocks.com/en/tutorials/video/basics/ this HTML5Rocks! article] you can see which of these formats your browser can render (you should feel lucky if you see all three of them!).
 
-At the time of this writing (August 2010) this is the snippet that has the safest combination of formats so you can be sure your video is displayed in all browsers:
+For now, here is the snippet that has the safest combination of formats so you can be sure your video is displayed in all browsers:
 
 <pre>
  &lt;video&gt;
@@ -75,7 +75,7 @@ At the time of this writing (August 2010) this is the snippet that has the safes
  &lt;video&gt;
 </pre>
 
-''Note'': Because of a bug in the iPad you will need to put .mp4 as the first option if you want the video to be loaded in that device, until the bug is fixed.
+''Note'': Because of a bug in the iPad you need to put .mp4 as the first option if you want the video to be loaded in that device, until the bug is fixed.
 
 As mentioned before, most browser vendors have agreed to support a common video format. So, here is the code which will most likely be used across the web soon:
 
