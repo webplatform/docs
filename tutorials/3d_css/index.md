@@ -5,7 +5,7 @@
 {{Tutorial
 |Content==3D and CSS=
 
-====original by Paul Kinlan]====
+====original by Paul Kinlan====
 ====published Sept. 7, 2010====
 
 ==Introduction==
@@ -16,7 +16,7 @@ Commonly, 3D is primarily used as a device for gaming or for some advanced user 
 
 The [http://www.w3.org/TR/css3-3d-transforms/ CSS 3D Transform Model] was introduced as a Draft specification in March 2009 to allow web developers to create interesting and compelling user interfaces that take advantage of 3D by allowing application authors to apply 3D perspective transformations to any visual DOM element.
 
-The CSS 3D Transformation Working Draft is a logical extension to the [http://www.w3.org/TR/css3-2d-transforms CSS 2D Transformation Model], introducing some extra properties, including perspectives, rotations, and transforms in a 3D space.
+The CSS 3D Transformation Working Draft is a logical extension to the [http://www.w3.org/TR/css3-2d-transforms CSS 2D Transform Model], introducing some extra properties, including perspectives, rotations, and transforms in a 3D space.
 Never before have we been able build 3D interfaces so easily. These technologies have lowered the barrier to entry. No longer do you have to be a mathematical whizz to build 3D elements.
 
 It must be noted that the CSS 3D module is designed to help developers build rich and visually interesting applications; it is not designed to enable you to build immersive 3D worlds.
