@@ -103,7 +103,7 @@ The advantage of using the [http://code.google.com/chrome/chromeframe/ Chrome Fr
 
 ===Flash fallback===
 
-You can also use Flash as a fallback case. Depending on the format of your video you might need to encode it again to a compatible format for the Flash player. The good news is that Adobe has committed to support the ''webm'' format in their Flash player, although that timeline is still not clear. The biggest drawback of this solution compared to the Chrome Frame plugin is that you will get the Flash player as the degraded version of what ever custom UI or enhanced features you have built for your video tag. The details of this technique can be seen in the [http://tutorials.html5rocks.com/tutorials/audio/quick/#toc-step3 Quick Guide to Implementing the HTML5 Audio] tutorial.
+You can also use Flash as a fallback case. Depending on the format of your video you might need to encode it again to a compatible format for the Flash player. The good news is that Adobe has committed to support the ''webm'' format in their Flash player, although that timeline is still not clear. The biggest drawback of this solution compared to the Chrome Frame plugin is that you will get the Flash player as the degraded version of whatever custom UI or enhanced features you have built for your video tag. The details of this technique can be seen in the [http://tutorials.html5rocks.com/tutorials/audio/quick/#toc-step3 Quick Guide to Implementing the HTML5 Audio] tutorial.
 
 ==4. Encode Your Videos==
 
