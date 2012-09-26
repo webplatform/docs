@@ -197,7 +197,6 @@ For the sake of portability, Unicode entity references should be reserved for us
 # <span id="note-hellip">Since the ellipsis is a single character, the tracking of its constituent glyphs will ''not'' be affected by any value set for the <code>letter-spacing</code> or <code>text-align</code> properties.</span>
 # <span id="note-prime">Primes are used to denote minutes (of both time elapsed and arc) and feet as units of measurement; the double prime in its turn denotes seconds and inches. The use of these characters in relation to units of time elapsed has decreased in popularity in recent years, a decrease that correlates strongly with the increased availability of word processing systems (and their common use by non-specialist operators). Many fonts use prime and double prime characters indistinguishable from single and double close quotes, but for reasons of portability these entities should still be used when called for, notwithstanding the characteristics of the intended display face.</span>
  
-''Note:'' This material was originally published as part of the Opera Web Standards Curriculum, available as [http://dev.opera.com/articles/view/supplementary-common-html-entities-used/ Supplementary: Common HTML entities used for typography], written by Ben Henick. Like the original, it is published under the [http://creativecommons.org/licenses/by-nc-sa/2.5/ Creative Commons Attribution, Non Commercial - Share Alike 2.5] license.
 }}
 {{Examples_Section
 |Not_required=Yes
@@ -221,4 +220,3 @@ For the sake of portability, Unicode entity references should be reserved for us
 |MSDN_link=
 |HTML5Rocks_link=
 }}
-}
