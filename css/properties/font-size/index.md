@@ -1,8 +1,6 @@
 {{Flags
 |High-level issues=Stub, Copyright Issue
 |Content=Outdated, Incomplete, Needs Best Practices
-|Compatibility=Missing
-|Examples=Examples have errors
 |Editorial notes={{Editorial/Copyright Issue | Some content is under CC-BY-SA, but we haven't wrapped which pieces. }}
 }}
 {{Standardization_Status|W3C Recommendation}}
