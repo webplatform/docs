@@ -100,15 +100,13 @@ There are several steps you can take to determine the correct MIME type value to
 ** For ASP, you should have the line <code>response.ContentType = "text/html";</code> before any other output lines.
 ** For a Java servlet, you should have the line <code>response.setContentType("text/html");</code> at the top of your <code>doGet</code> or <code>doPost</code> method, where <code>response</code> is a reference to the <code>HttpServletResponse</code>.
 
-==Related Links====
+==Related Links==
 
 * [https://developer.mozilla.org/en/Incorrect_MIME_Type_for_CSS_Files Incorrect MIME Type for CSS Files]
 * [http://www.iana.org/assignments/media-types/index.html IANA/MIME Media Types]
 * [http://www.w3.org/Protocols/HTTP/1.1/spec.html Hypertext Transfer Protocol&mdash;HTTP/1.1]
-* [http://support.microsoft.com/default.aspx?sd=msdn&scid=kb;en-us;293336 Microsoft - 293336 - INFO: WebCast: MIME Type Handling 
-in Microsoft Internet Explorer]
-* [http://msdn.microsoft.com/workshop/networking/moniker/overview/appendix_a.asp Microsoft - Appendix A: MIME Type Detection in 
-Internet Explorer]
+* [http://support.microsoft.com/default.aspx?sd=msdn&scid=kb;en-us;293336 Microsoft - 293336 - INFO: WebCast: MIME Type Handling in Microsoft Internet Explorer]
+* [http://msdn.microsoft.com/workshop/networking/moniker/overview/appendix_a.asp Microsoft - Appendix A: MIME Type Detection in Internet Explorer]
 * [http://www.microsoft.com/windows/ie/downloads/critical/q290108/ Microsoft - Security Update, March 29, 2001]
 * [http://www.microsoft.com/windows/ie/downloads/critical/Q313675/ Microsoft - Security Update, December 13, 2001]
 
