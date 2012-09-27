@@ -365,7 +365,7 @@ What is not shown here is the code to reconstruct the file on the server.
 * [http://dev.w3.org/2006/waf/access-control/ Cross Origin Resource Sharing (CORS)] specification
 * [http://www.w3.org/TR/file-upload/ File API] specification
 * [http://dev.w3.org/2009/dap/file-system/pub/FileSystem/ FileSystem API] specification
-}}
+
 {{Compatibility_Section
 |Not_required=No
 |Desktop_rows={{Compatibility Table Desktop Row
@@ -424,5 +424,4 @@ What is not shown here is the code to reconstruct the file on the server.
 |MDN_link=
 |MSDN_link=
 |HTML5Rocks_link=http://www.html5rocks.com/en/tutorials/file/xhr2/
-}}
 }}
