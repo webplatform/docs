@@ -323,7 +323,7 @@ Let's say you have an image gallery and want to fetch a bunch of images then sav
  
  xhr.send();
 
-'''Note:''' to use this code, see [[/tutorials/file
+'''Note:''' to use this code, see [[tutorials/file
 _filesystem#Browser_support_&_storage_limitations|Browser support & storage limitations] in the [[tutorials/file_filesystem|Exploring the FileSystem APIs]] tutorial.
 
 ===Slicing a file and uploading each portion===
