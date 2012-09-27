@@ -33,7 +33,7 @@ A web app can request access to a sandboxed file system by calling <code>window.
 
 <pre>
  // Note: The file system is prefixed in Google Chrome:
- window.requestFileSystem  = window.requestFileSystem {{!}}{{!}} window.webkitRequestFileSystem;
+ window.requestFileSystem  = window.requestFileSystem &#124;&#124; window.webkitRequestFileSystem;
  
  window.requestFileSystem(type, size, successCallback, opt_errorCallback);
 </pre>
@@ -605,7 +605,6 @@ The specification lists several use cases:
 * [http://dev.w3.org/2006/webapi/FileAPI/#dfn-filereader FileReader]
 * [http://dev.w3.org/2006/webapi/FileAPI/ File]
 * [http://dev.w3.org/2006/webapi/FileAPI/#dfn-Blob Blob]
-
 |window_webkitRequestFileSystem;
  
  window_requestFileSystem(type, size, successCallback, opt_errorCallback);
