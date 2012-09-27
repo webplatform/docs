@@ -123,7 +123,7 @@ Syntax analysis is the applying of the language syntax rules.
 
 Parsers usually divide the work between two components - the '''lexer''' (sometimes called tokenizer) that is responsible for breaking the input into valid tokens, and the '''parser''' that is responsible for constructing the parse tree by analyzing the document structure according to the language syntax rules. The lexer knows how to strip irrelevant characters like white spaces and line breaks.
 
-[[Image:image011.png.pagespeed.ce.yyU1s1o5di.png]]  Figure 6: from source document to parse trees</nowiki>
+[[Image:image011.png.pagespeed.ce.yyU1s1o5di.png|Figure 6: from source document to parse trees]]
 
 The parsing process is iterative. The parser will usually ask the lexer for a new token and try to match the token with one of the syntax rules. If a rule is matched, a node corresponding to the token will be added to the parse tree and the parser will ask for another token.
 
@@ -133,7 +133,7 @@ If no rule matches, the parser will store the token internally, and keep asking 
 
 Many times the parse tree is not the final product. Parsing is often used in translation - transforming the input document to another format. An example is compilation. The compiler that compiles a source code into machine code first parses it into a parse tree and then translates the tree into a machine code document.
 
- [[Image:image013.png.pagespeed.ce.EGqDLSzaGw.png]] Figure 7: compilation flow
+ [[Image:image013.png.pagespeed.ce.EGqDLSzaGw.png|Figure 7: compilation flow]]
 
 ====Parsing example====
 
