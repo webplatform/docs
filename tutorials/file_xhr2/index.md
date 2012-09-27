@@ -366,7 +366,6 @@ What is not shown here is the code to reconstruct the file on the server.
 * [http://www.w3.org/TR/file-upload/ File API] specification
 * [http://dev.w3.org/2009/dap/file-system/pub/FileSystem/ FileSystem API] specification
 
-Except as otherwise [http://code.google.com/policies.html#restrictions noted], the content of this page is licensed under the [http://creativecommons.org/licenses/by/3.0/ Creative Commons Attribution 3.0 License], and code samples are licensed under the [http://www.apache.org/licenses/LICENSE-2.0 Apache 2.0 License].
 }}
 {{Compatibility_Section
 |Not_required=No
