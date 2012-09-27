@@ -9,23 +9,23 @@
 <h2>Read our Docs</h2>  
 
 <ul>
-  <li><a href="">HTML reference</a></li>
-  <li><a href="">HTML tutorials</a></li>
+  <li>[HTML reference]</li>
+  <li>[HTML tutorials]</li>
 </ul>
 
 <ul>
-  <li><a href="">CSS reference</a></li>
-  <li><a href="">CSS tutorials</a></li>
+  <li>[CSS reference]</li>
+  <li>[CSS tutorials]</li>
 </ul>
 
 <ul>
-  <li><a href="">JavaScript reference</a></li>
-  <li><a href="">JavaScript tutorials</a></li>
+  <li>[JavaScript reference]</li>
+  <li>[JavaScript tutorials]</li>
 </ul>
 
 <ul>
-  <li><a href="">SVG reference</a></li>
-  <li><a href="">SVG tutorials</a></li>
+  <li>[SVG reference]</li>
+  <li>[SVG tutorials]</li>
 </ul>
 
 <p>etc… how do we want to display this info?</p>
@@ -33,17 +33,17 @@
 <h2>Contribute to Web Platform Docs</h2>
 
 <ul>
-  <li><a href="">Web Platform Docs getting started guide</a></li>
-  <li><a href="">Wikipedia gotchas</a></li>
-  <li><a href="">Wikipedia markup guide</a></li>
-  <li><a href="">Web Platform Docs language and style guide</a></li>
-  <li>Read the <a href="">Web Platform Docs blog</a> for upcoming news</li>
+  <li>[Web Platform Docs getting started guide]</li>
+  <li>[Wikipedia gotchas]</li>
+  <li>[Wikipedia markup guide]</li>
+  <li>[Web Platform Docs language and style guide]</li>
+  <li>Read the [Web Platform Docs blog] for upcoming news</li>
 </ul>
 
 <h2>Contact us!</h2>
 
 <ul>
-  <li><a href="">Web Platform Docs public mailing list</a></li>
-  <li><a href="">Web Platform Docs Forums</a></li>
-  <li><a href="">Web Platform Docs chat</a></li>
+  <li>[Web Platform Docs public mailing list]</li>
+  <li>[Web Platform Docs Forums]</li>
+  <li>[Web Platform Docs chat]</li>
 </ul>
