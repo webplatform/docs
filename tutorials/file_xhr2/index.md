@@ -328,7 +328,7 @@ _filesystem#Browser_support_&_storage_limitations|Browser support & storage limi
 
 ===Slicing a file and uploading each portion===
 
-Using the [[tutorials/file_dndfiles|File APIs]], we can minimize the work to upload a large file. The technique is to slice the upload into multiple chunks, spawn an XHR for each portion, and put the file together on the server. This is similar to how GMail uploads large attachments so quickly. Such a technique could also be used to get around Google App Engine's 32MB http request limit.
+Using the [[tutorials/file_dnd|File APIs]], we can minimize the work to upload a large file. The technique is to slice the upload into multiple chunks, spawn an XHR for each portion, and put the file together on the server. This is similar to how GMail uploads large attachments so quickly. Such a technique could also be used to get around Google App Engine's 32MB http request limit.
  
  function upload(blobOrFile) {
    var xhr = new XMLHttpRequest();
