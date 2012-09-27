@@ -57,7 +57,7 @@ The browser's main components are:
 # '''JavaScript interpreter'''. Used to parse and execute the JavaScript code.
 # '''Data storage'''. This is a persistence layer. The browser needs to save all sorts of data on the hard disk, for examples, cookies. The new HTML specification (HTML5) defines 'web database' which is a complete (although light) database in the browser.
 
-[[Image:layers.png.pagespeed.ce.mFE5F8CtAV.png]] <caption>Figure 1: Browser main components.</caption>
+[[Image:layers.png.pagespeed.ce.mFE5F8CtAV.png|Figure 1: Browser main components.]]
 
 It is important to note that Chrome, unlike most browsers, holds multiple instances of the rendering engine - one for each tab. Each tab is a separate process.
 
