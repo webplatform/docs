@@ -1,7 +1,7 @@
 {{Flags
 |High-level issues=Needs Flags
 }}
-{{Summary_Section|}}
+{{Summary_Section}}
 {{Tutorial
 |Content=
 =New Tricks in XMLHttpRequest2=
@@ -12,7 +12,7 @@ Published May 27, 2011
 
 One of the unsung heros in the HTML5 universe is <code>XMLHttpRequest</code>. Strictly speaking XHR2 isn't HTML5. However, it's part of the incremental improvements browser vendors are making to the core platform. I'm including XHR2 in our new bag of goodies because it plays such an integral part in today's complex web apps.
 
-Turns out our old friend got a huge makeover but many folks are unaware of its new features. [http://dev.w3.org/2006/webapi/XMLHttpRequest-2/ XMLHttpRequest Level 2] introduces a slew of new capabilities which put an end to crazy hacks in our web apps; things like cross-origin requests, uploading progress events, and support for uploading/downloading binary data. These allow AJAX to work in concert with many of the bleeding edge HTML5 APIs such as [[wiki/tutorials/file_filesystem|File System API]], [http://chromium.googlecode.com/svn/trunk/samples/audio/specification/specification.html Web Audio API], and WebGL.
+Turns out our old friend got a huge makeover but many folks are unaware of its new features. [http://dev.w3.org/2006/webapi/XMLHttpRequest-2/ XMLHttpRequest Level 2] introduces a slew of new capabilities which put an end to crazy hacks in our web apps; things like cross-origin requests, uploading progress events, and support for uploading/downloading binary data. These allow AJAX to work in concert with many of the bleeding edge HTML5 APIs such as [[tutorials/file_filesystem|File System API]], [http://chromium.googlecode.com/svn/trunk/samples/audio/specification/specification.html Web Audio API], and WebGL.
 
 This tutorial highlights some of the new features in <code>XMLHttpRequest</code>, especially those that can be used for [[tutorials/file_dnd|working with files]].
 
@@ -115,11 +115,11 @@ If you want to work directly with a [https://developer.mozilla.org/en/DOM/Blob <
  
  xhr.send();
 
-A <code>Blob</code> can be used in a number of places, including writing it to the HTML5 [[/tutorials/file_filesystem/ File System]], or [[/tutorials/workers_basics#BlobURLs creating an Blob URL]], as seen in this example.
+A <code>Blob</code> can be used in a number of places, including writing it to the HTML5 [[tutorials/file_filesystem|File System]], or [[tutorials/workers_basics#BlobURLs|creating a Blob URL]], as seen in this example.
 
 ==Sending data==
 
-Being able to [#toc-response download data in different formats] is great, but it doesn't get us anywhere if we can't send these rich formats back to home base (the server). <code>XMLHttpRequest</code> has limited us to sending <code>DOMString</code> or <code>Document</code> (XML) data for some time. Not anymore. A revamped <code>send()</code> method has been overridden to accept any of the following types: <code>DOMString</code>, <code>Document</code>, <code>FormData</code>, <code>Blob</code>, <code>File</code>, <code>ArrayBuffer</code>. The examples in the rest of this section demonstrate sending data using each type.
+Being able to download data in different formats is great, but it doesn't get us anywhere if we can't send these rich formats back to home base (the server). <code>XMLHttpRequest</code> has limited us to sending <code>DOMString</code> or <code>Document</code> (XML) data for some time. Not anymore. A revamped <code>send()</code> method has been overridden to accept any of the following types: <code>DOMString</code>, <code>Document</code>, <code>FormData</code>, <code>Blob</code>, <code>File</code>, <code>ArrayBuffer</code>. The examples in the rest of this section demonstrate sending data using each type.
 
 ===Sending string data: xhr.send(DOMString)===
  
@@ -291,7 +291,7 @@ If the server endpoint has enabled CORS, making the cross-origin request is no d
 
 ===Download + save files to the HTML5 file system===
 
-Let's say you have an image gallery and want to fetch a bunch of images then save them locally using the [[tutorials/file_filesystem/ HTML5 File System]]. One way to accomplish this would be to request images as <code>Blob</code>s and write them out using <code>FileWriter</code><nowiki>:</nowiki>
+Let's say you have an image gallery and want to fetch a bunch of images then save them locally using the [[tutorials/file_filesystem|HTML5 File System]]. One way to accomplish this would be to request images as <code>Blob</code>s and write them out using <code>FileWriter</code><nowiki>:</nowiki>
  
  window.requestFileSystem  = window.requestFileSystem {{!}}{{!}} window.webkitRequestFileSystem;
  
@@ -324,11 +324,11 @@ Let's say you have an image gallery and want to fetch a bunch of images then sav
  xhr.send();
 
 '''Note:''' to use this code, see [[/tutorials/file
-_filesystem#Browser_support_&_storage_limitations Browser support & storage limitations] in the [[tutorials/file_filesystem/ Exploring the FileSystem APIs]] tutorial.
+_filesystem#Browser_support_&_storage_limitations|Browser support & storage limitations] in the [[tutorials/file_filesystem|Exploring the FileSystem APIs]] tutorial.
 
 ===Slicing a file and uploading each portion===
 
-Using the [[tutorials/file_dndfiles/ File APIs]], we can minimize the work to upload a large file. The technique is to slice the upload into multiple chunks, spawn an XHR for each portion, and put the file together on the server. This is similar to how GMail uploads large attachments so quickly. Such a technique could also be used to get around Google App Engine's 32MB http request limit.
+Using the [[tutorials/file_dndfiles|File APIs]], we can minimize the work to upload a large file. The technique is to slice the upload into multiple chunks, spawn an XHR for each portion, and put the file together on the server. This is similar to how GMail uploads large attachments so quickly. Such a technique could also be used to get around Google App Engine's 32MB http request limit.
  
  function upload(blobOrFile) {
    var xhr = new XMLHttpRequest();
