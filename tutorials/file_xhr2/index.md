@@ -3,7 +3,9 @@
 }}
 {{Summary_Section}}
 {{Tutorial
-|Content==New Tricks in XMLHttpRequest2===By Eric Bidelman==
+|Content=
+=New Tricks in XMLHttpRequest2=
+==By Eric Bidelman==
 Published May 27, 2011
 
 ==Introduction==
@@ -423,34 +425,3 @@ What is not shown here is the code to reconstruct the file on the server.
 |MSDN_link=
 |HTML5Rocks_link=http://www.html5rocks.com/en/tutorials/file/xhr2/
 }}
-}
-
-
-
-
-}
-
-
-
-
-}
-
-
-
-
-}
-
-
-
-
-}
-
-
-
-
-}
-
-
-
-
-}
