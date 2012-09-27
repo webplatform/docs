@@ -185,27 +185,27 @@ The bottom up parser will scan the input until a rule is matched it will then re
 {{!}}-
 {{!}}
 {{!}}
-2 + 3 - 1
+<code>2 + 3 - 1</code>
 {{!}}-
 {{!}} term
 {{!}}
-+ 3 - 1
+<code>+ 3 - 1</code>
 {{!}}-
 {{!}} term operation
 {{!}}
-3 - 1
+<code>3 - 1</code>
 {{!}}-
 {{!}} expression
 {{!}}
-- 1
+<code>- 1</code>
 {{!}}-
 {{!}} expression operation
 {{!}}
-1
+<code>1</code>
 {{!}}-
 {{!}} expression
 {{!}}
-
+<code></code>
 {{!}}}
 
  This type of bottom up parser is called a shift-reduce parser, because the input is shifted to the right (imagine a pointer pointing first at the input start and moving to the right) and is gradually reduced to syntax rules.
