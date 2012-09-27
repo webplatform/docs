@@ -115,7 +115,7 @@ If you want to work directly with a [https://developer.mozilla.org/en/DOM/Blob <
  
  xhr.send();
 
-A <code>Blob</code> can be used in a number of places, including writing it to the HTML5 [/tutorials/file_filesystem/ File System], or [/tutorials/workers_basics#BlobURLs creating an Blob URL], as seen in this example.
+A <code>Blob</code> can be used in a number of places, including writing it to the HTML5 [[/tutorials/file_filesystem/ File System]], or [[/tutorials/workers_basics#BlobURLs creating an Blob URL]], as seen in this example.
 
 ==Sending data==
 
@@ -302,7 +302,7 @@ If the server endpoint has enabled CORS, making the cross-origin request is no d
 
 ===Download + save files to the HTML5 file system===
 
-Let's say you have an image gallery and want to fetch a bunch of images then save them locally using the [/tutorials/file/filesystem/ HTML5 File System]. One way to accomplish this would be to request images as <code>Blob</code>s and write them out using <code>FileWriter</code><nowiki>:</nowiki>
+Let's say you have an image gallery and want to fetch a bunch of images then save them locally using the [[/tutorials/file_filesystem/ HTML5 File System]]. One way to accomplish this would be to request images as <code>Blob</code>s and write them out using <code>FileWriter</code><nowiki>:</nowiki>
 
  
  window.requestFileSystem  = window.requestFileSystem {{!}}{{!}} window.webkitRequestFileSystem;
@@ -335,11 +335,11 @@ Let's say you have an image gallery and want to fetch a bunch of images then sav
  
  xhr.send();
 
-'''Note:''' to use this code, see [/tutorials/file/filesystem/#toc-support browser support & storage limitations] in the "[/tutorials/file/filesystem/ Exploring the FileSystem APIs]" tutorial.
+'''Note:''' to use this code, see [/tutorials/file/filesystem/#toc-support browser support & storage limitations] in the [/tutorials/file_filesystem/ Exploring the FileSystem APIs] tutorial.
 
 ===Slicing a file and uploading each portion===
 
-Using the [/tutorials/file/dndfiles/ File APIs], we can minimize the work to upload a large file. The technique is to slice the upload into multiple chunks, spawn an XHR for each portion, and put the file together on the server. This is similar to how GMail uploads large attachments so quickly. Such a technique could also be used to get around Google App Engine's 32MB http request limit.
+Using the [[/tutorials/file_dndfiles/ File APIs]], we can minimize the work to upload a large file. The technique is to slice the upload into multiple chunks, spawn an XHR for each portion, and put the file together on the server. This is similar to how GMail uploads large attachments so quickly. Such a technique could also be used to get around Google App Engine's 32MB http request limit.
 
  
  function upload(blobOrFile) {
@@ -401,4 +401,9 @@ What is not shown here is the code to reconstruct the file on the server.
 |MSDN_link=
 |HTML5Rocks_link=
 }}
+}
+
+
+
+
 }
