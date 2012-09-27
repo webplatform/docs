@@ -82,7 +82,7 @@ After that this is the basic flow of the rendering engine:
 
 [[Image:flow.png.pagespeed.ce.pK__f2HjCm.png|Figure 2: Rendering engine basic flow.]]
 
-The rendering engine will start parsing the HTML document and turn the tags to [#DOM DOM] nodes in a tree called the "content tree". It will parse the style data, both in external CSS files and in style elements. The styling information together with visual instructions in the HTML will be used to create another tree - the [#Render_tree_construction render tree].
+The rendering engine will start parsing the HTML document and turn the tags to [[#DOM DOM]] nodes in a tree called the "content tree". It will parse the style data, both in external CSS files and in style elements. The styling information together with visual instructions in the HTML will be used to create another tree - the [[#Render_tree_construction render tree]].
 
 The render tree contains rectangles with visual attributes like color and dimensions. The rectangles are in the right order to be displayed on the screen.
 
@@ -92,7 +92,7 @@ It's important to understand that this is a gradual process. For better user exp
 
 ====Main flow examples====
 
-[[Image:webkitflow.png.pagespeed.ce.KhQEkvbb3q.png|Figure 3: Webkit main flow]] [[Image:image008.jpg.pagespeed.ce.ntM9Ajv-KW.jpg|Figure 4: Mozilla's Gecko rendering engine main flow([#3_6 3.6])
+[[Image:webkitflow.png.pagespeed.ce.KhQEkvbb3q.png|Figure 3: Webkit main flow]] [[Image:image008.jpg.pagespeed.ce.ntM9Ajv-KW.jpg|Figure 4: Mozilla's Gecko rendering engine main flow([[#3_6 3.6]])]]
 
 From figures 3 and 4 you can see that although Webkit and Gecko use slightly different terminology, the flow is basically the same.
 
