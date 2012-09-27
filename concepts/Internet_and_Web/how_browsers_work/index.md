@@ -82,7 +82,7 @@ After that this is the basic flow of the rendering engine:
 
 [[Image:flow.png.pagespeed.ce.pK__f2HjCm.png|Figure 2: Rendering engine basic flow.]]
 
-The rendering engine will start parsing the HTML document and turn the tags to [[#DOM|DOM]] nodes in a tree called the "content tree". It will parse the style data, both in external CSS files and in style elements. The styling information together with visual instructions in the HTML will be used to create another tree - the [[#Render_tree_construction render tree]].
+The rendering engine will start parsing the HTML document and turn the tags to [[#DOM|DOM]] nodes in a tree called the "content tree". It will parse the style data, both in external CSS files and in style elements. The styling information together with visual instructions in the HTML will be used to create another tree - the [[#Render_tree_construction|render tree]].
 
 The render tree contains rectangles with visual attributes like color and dimensions. The rectangles are in the right order to be displayed on the screen.
 
@@ -104,7 +104,7 @@ Since parsing is a very significant process within the rendering engine, we will
 
 Parsing a document means translating it to some structure that makes sense - something the code can understand and use. The result of parsing is usually a tree of nodes that represent the structure of the document. It is called a parse tree or a syntax tree.
 
-Example - parsing the expression 2 + 3 - 1 could return this tree:
+Example - parsing the expression {{{2 + 3 - 1}}} could return this tree:
 
 [[Image:400x155ximage009.png.pagespeed.ic.KNewBFnKFk.png|Figure 5: mathematical expression tree node]]
 
@@ -156,7 +156,6 @@ Vocabulary is usually expressed by [http://www.regular-expressions.info/ regular
 
 For example our language will be defined as:
 
- 
  INTEGER :0{{!}}[1-9][0-9]*
  PLUS : +
  MINUS: -
@@ -164,7 +163,6 @@ For example our language will be defined as:
  As you see, integers are defined by a regular expression.
 
 Syntax is usually defined in a format called [http://en.wikipedia.org/wiki/Backus%E2%80%93Naur_Form BNF]. Our language will be defined as:
-
  
  expression :=  term  operation  term
  operation :=  PLUS {{!}} MINUS
