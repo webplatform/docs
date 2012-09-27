@@ -62,6 +62,12 @@ Server-side and client-side detection techniques can be used together to enable 
 
 Note: This material was originally published as part of the Nokia Developer Web Development Library, available as [http://www.developer.nokia.com/Resources/Library/Web/#!nokia-browsers/common-elements-of-nokia-browsers/device-and-browser-detection.html Device and browser detection]
 }}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
 {{See_Also_Section
 |External_links=http://www.developer.nokia.com/Community/Wiki/index.ph/Device_and_feature_detection_on_the_mobile_web
 
