@@ -7,20 +7,9 @@
 |Content===By Tali Garsiel & Paul Irish==
 Published Aug. 5, 2011
 
-===Localizations===
-
-This article is additionally available in the following languages:
-
-* [/ru/tutorials/internals/howbrowserswork/ Pусский]
-* [/ja/tutorials/internals/howbrowserswork/ 日本語]
-* [/zh/tutorials/internals/howbrowserswork/ 中文 (简体)]
-* [/de/tutorials/internals/howbrowserswork/ Deutsch]
-* [/pt/tutorials/internals/howbrowserswork/ Português (Brasil)]
-* [/es/tutorials/internals/howbrowserswork/ Español]
-
 ==Preface==
 
-This comprehensive primer on the internal operations of WebKit and Gecko is the result of much research done by Israeli developer Tali Garsiel. Over a few years, she reviewed all the published data about browser internals <small>(see [#Resources Resources])</small> and spent a lot of time reading web browser source code. She wrote:
+This comprehensive primer on the internal operations of WebKit and Gecko is the result of much research done by Israeli developer Tali Garsiel. Over a few years, she reviewed all the published data about browser internals and spent a lot of time reading web browser source code. She wrote:
 
 <blockquote> In the years of IE 90% dominance there was nothing much to do but regard the browser as a "black box", but now, with open source browsers having [http://techcrunch.com/2011/08/01/open-web-browsers/ more than half of the usage share], it's a good time to take a peek under the engine's hood and see what's inside a web browser. Well, what's inside are millions of C++ lines... </blockquote> Tali published her research on [http://taligarsiel.com/ her site], but we knew it deserved a larger audience, so we've cleaned it up and republished it here.
 
@@ -68,7 +57,8 @@ The browser's main components are:
 # '''JavaScript interpreter'''. Used to parse and execute the JavaScript code.
 # '''Data storage'''. This is a persistence layer. The browser needs to save all sorts of data on the hard disk, for examples, cookies. The new HTML specification (HTML5) defines 'web database' which is a complete (although light) database in the browser.
 
- [[Image:layers.png.pagespeed.ce.mFE5F8CtAV.png]] Figure 1: Browser main components.
+[[Image:layers.png.pagespeed.ce.mFE5F8CtAV.png]]
+Figure 1: Browser main components.
 
 It is important to note that Chrome, unlike most browsers, holds multiple instances of the rendering engine - one for each tab. Each tab is a separate process.
 
