@@ -10,7 +10,7 @@
 
 ==Introduction==
 
-Mobile devices such as smartphones and tablets usually have a capacitive touch-sensitive screen to capture interactions made with the user's fingers. As the mobile web evolves to enable increasingly sophisticated applications, web developers need a way to handle these events. For example, nearly any fast-paced game requires the player to press multiple buttons at once, which, in the context of a touchscreen, implies multi-touch.
+Mobile devices such as smartphones and tablets usually have a capacitive touch-sensitive screen to capture interactions made with the user's fingers. As the mobile web evolves to enable increasingly sophisticated applications, web developers need a way to handle these events. For example, nearly any fast-paced game requires the player to press multiple buttons at once which, in the context of a touchscreen, implies multi-touch.
 
 Apple introduced their [http://developer.apple.com/library/safari/#documentation/UserExperience/Reference/TouchEventClassReference/TouchEvent/TouchEvent.html#//apple_ref/doc/uid/TP40009358 touch events API] in iOS 2.0. Android has been catching up to this de-facto standard and closing the gap. Recently a W3C working group has come together to work on this [http://dvcs.w3.org/hg/webevents/raw-file/tip/touchevents.html touch events specification].
 
@@ -136,7 +136,7 @@ But this technique does not scale with number of fingers on the screen. Instead,
 
 ===Make use of targetTouches and changedTouches===
 
-Remember that <code>event.touches</code> is an array of '''ALL''' fingers in contact with the screen, not just the ones on the DOM element's target. You might find it more useful to use <code>event.targetTouches</code> or <code>event.changedTouches</code> instead.
+Remember that <code>event.touches</code> is an array of ''all'' fingers in contact with the screen, not just the ones on the DOM element's target. You might find it more useful to use <code>event.targetTouches</code> or <code>event.changedTouches</code> instead.
 
 Finally, because you are developing for mobile, you should be aware of general mobile best practices, which are covered in [http://www.html5rocks.com/mobile/mobifying.html Eric Bidelman's article], as well as this [http://www.w3.org/TR/mwabp/ W3C document].
 
