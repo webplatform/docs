@@ -6,6 +6,7 @@
 {{Summary_Section}}
 {{Tutorial
 |Content=By Tali Garsiel & Paul Irish
+
 Published Aug. 5, 2011
 
 ==Preface==
@@ -132,7 +133,7 @@ If no rule matches, the parser will store the token internally, and keep asking 
 
 Many times the parse tree is not the final product. Parsing is often used in translation - transforming the input document to another format. An example is compilation. The compiler that compiles a source code into machine code first parses it into a parse tree and then translates the tree into a machine code document.
 
- [[Image:image013.png.pagespeed.ce.EGqDLSzaGw.png]] Figure 7: compilation flow</nowiki>
+ [[Image:image013.png.pagespeed.ce.EGqDLSzaGw.png]] Figure 7: compilation flow
 
 ====Parsing example====
 
@@ -148,7 +149,7 @@ Syntax:
 # An operation is a plus token or a minus token
 # A term is an integer token or an expression
 
-Let's analyze the input 2 + 3 - 1. <br /> The first substring that matches a rule is 2, according to rule #5 it is a term. The second match is 2 + 3 this matches the third rule - a term followed by an operation followed by another term. The next match will only be hit at the end of the input. 2 + 3 - 1 is an expression because we already know that 2+3 is a term so we have a term followed by an operation followed by another term. 2 + + will not match any rule and therefore is an invalid input.
+Let's analyze the input <code>2 + 3 - 1</code>. The first substring that matches a rule is <code>2</code>, according to rule #5 it is a term. The second match is <code>2 + 3</code> this matches the third rule - a term followed by an operation followed by another term. The next match will only be hit at the end of the input. <code>2 + 3 - 1</code> is an expression because we already know that <code>2+3</code> is a term so we have a term followed by an operation followed by another term. <code>2 + +</code> will not match any rule and therefore is an invalid input.
 
 ====Formal definitions for vocabulary and syntax====
 
@@ -160,7 +161,7 @@ For example our language will be defined as:
  PLUS : +
  MINUS: -
 
- As you see, integers are defined by a regular expression.
+As you see, integers are defined by a regular expression.
 
 Syntax is usually defined in a format called [http://en.wikipedia.org/wiki/Backus%E2%80%93Naur_Form BNF]. Our language will be defined as:
  
