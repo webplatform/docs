@@ -1,7 +1,7 @@
 {{Flags
 |High-level issues=Needs Flags
 }}
-{{Summary_Section}}
+{{Summary_Section|}}
 {{Tutorial
 |Content=
 =New Tricks in XMLHttpRequest2=
