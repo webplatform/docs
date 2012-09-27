@@ -1,12 +1,3 @@
-<!DOCTYPE HTML>
-<html lang="en-US">
-<head>
-	<meta charset="UTF-8">
-	<title></title>
-	<link rel="stylesheet" href="http://docs.webplatform.org/w/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.webplatform&amp;only=styles&amp;skin=webplatform&amp;*" />
-</head>
-<body>
-
 <h1>Welcome to Web Platform Docs</h1>
   
 <p>Web Platform Docs is your canonical resource for up-to-date information on open web standards. We have a wealth of information available, including reference docs to look up syntax and the latest browser support information, and tutorials and guides to teach and learn web design techniques.</p>
@@ -56,6 +47,3 @@
   <li><a href="">Web Platform Docs Forums</a></li>
   <li><a href="">Web Platform Docs chat</a></li>
 </ul>
-	
-</body>
-</html>
