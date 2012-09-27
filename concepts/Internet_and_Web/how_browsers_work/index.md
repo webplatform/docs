@@ -21,8 +21,6 @@ This article has been [http://helloworld.naver.com/helloworld/59361 translated i
 
 You can also watch [http://vimeo.com/44182484 Tali Garsiel give a talk on this topic] on Vimeo.
 
-----
-
 ==Introduction==
 
 Web browsers are probably the most widely used software. In this primer, I will explain how they work behind the scenes. We will see what happens when you type <code>google.com</code> in the address bar until you see the Google page on the browser screen.
