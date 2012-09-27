@@ -6,75 +6,8 @@
 {{Tutorial
 |Content==How Browsers Work: Behind the scenes of modern web browsers=
 
-==By '''Tali Garsiel''' & '''Paul Irish'''==
+==By Tali Garsiel & Paul Irish==
 Published Aug. 5, 2011
-
-
-
-===Table of Contents===
-
-* [#Introduction Introduction]
-** [#The_browsers_we_will_talk_about The browsers we will talk about]
-** [#The_browser_main_functionality The browser's main functionality]
-** [#The_browser_high_level_structure The browser's high level structure]
-* [#The_rendering_engine The rendering engine]
-** [#Rendering_engines Rendering engines]
-** [#The_main_flow The main flow]
-*** [#Main_flow_examples Main flow examples]
-** [#Parsing_general Parsing - general]
-*** [#Grammars Grammars]
-*** [#Parser_Lexer_combination Parser - Lexer combination]
-*** [#Translation Translation]
-*** [#Parsing_example Parsing example]
-*** [#Formal_definitions_for_vocabulary_and_syntax Formal definitions for vocabulary and syntax]
-*** [#Types_of_parsers Types of parsers]
-*** [#Generating_parsers_automatically Generating parsers automatically]
-** [#HTML_Parser HTML Parser]
-*** [#The_HTML_grammar_definition The HTML grammar definition]
-*** [#Not_a_context_free_grammar Not a context free grammar]
-*** [#HTML_DTD HTML DTD]
-*** [#DOM DOM]
-*** [#The_parsing_algorithm The parsing algorithm]
-*** [#The_tokenization_algorithm The tokenization algorithm]
-*** [#Tree_construction_algorithm Tree construction algorithm]
-*** [#Actions_when_the_parsing_is_finished Actions when the parsing is finished]
-*** [#Browsers_error_tolerance Browsers' error tolerance]
-** [#CSS_parsing CSS parsing]
-*** [#Webkit_CSS_parser Webkit CSS parser]
-** [#The_order_of_processing_scripts_and_style_sheets The order of processing scripts and style sheets]
-*** [#Scripts Scripts]
-*** [#Speculative_parsing Speculative parsing]
-*** [#Style_sheets Style sheets]
-** [#Render_tree_construction Render tree construction]
-*** [#Style_Computation Style Computation]
-*** [#Gradual_process Gradual process]
-** [#Layout Layout]
-*** [#Dirty_bit_system Dirty bit system]
-*** [#Global_and_incremental_layout Global and incremental layout]
-*** [#Asynchronous_and_Synchronous_layout Asynchronous and Synchronous layout]
-*** [#Optimizations Optimizations]
-*** [#The_layout_process The layout process]
-*** [#Width_calculation Width calculation]
-*** [#Line_Breaking Line Breaking]
-** [#Painting Painting]
-*** [#Global_and_Incremental Global and Incremental]
-*** [#The_painting_order The painting order]
-*** [#Firefox_display_list Firefox display list]
-*** [#Webkit_rectangle_storage Webkit rectangle storage]
-** [#Dynamic_changes Dynamic changes]
-** [#The_rendering_engines_threads The rendering engine's threads]
-*** [#Event_loop Event loop]
-** [#css CSS2 visual model]
-*** [#The_canvas The canvas]
-*** [#CSS_Box_model CSS Box model]
-*** [#Positioning_scheme Positioning scheme]
-*** [#Box_types Box types]
-** [#Positioning Positioning]
-*** [#Relative Relative]
-*** [#Floats Floats]
-*** [#Absolute_and_fixed Absolute and fixed]
-** [#Layered_representation Layered representation]
-** [#Resources Resources]
 
 ===Localizations===
 
@@ -87,8 +20,6 @@ This article is additionally available in the following languages:
 * [/pt/tutorials/internals/howbrowserswork/ Português (Brasil)]
 * [/es/tutorials/internals/howbrowserswork/ Español]
 
-</div><div class="preface">
-
 ==Preface==
 
 This comprehensive primer on the internal operations of WebKit and Gecko is the result of much research done by Israeli developer Tali Garsiel. Over a few years, she reviewed all the published data about browser internals <small>(see [#Resources Resources])</small> and spent a lot of time reading web browser source code. She wrote:
@@ -97,97 +28,15 @@ This comprehensive primer on the internal operations of WebKit and Gecko is the 
 
 As a web developer, '''learning the internals of browser operations helps you make better decisions and know the justifications behind development best practices'''. While this is a rather lengthy document, we recommend you spend some time digging in; we guarantee you'll be glad you did. <cite>Paul Irish, Chrome Developer Relations</cite>
 
-<div style="border-left: 3px solid hsl(177, 27%, 43%); padding: 3px">
-
 This article has been [http://helloworld.naver.com/helloworld/59361 translated into Korean] by the community. HTML5 Rocks hosts the [http://www.html5rocks.com/de/tutorials/internals/howbrowserswork/ German], [http://www.html5rocks.com/es/tutorials/internals/howbrowserswork/ Spanish], [http://www.html5rocks.com/ja/tutorials/internals/howbrowserswork/ Japanese], [http://www.html5rocks.com/pt/tutorials/internals/howbrowserswork/ Portugese], [http://www.html5rocks.com/ru/tutorials/internals/howbrowserswork/ Russian] and [http://www.html5rocks.com/zh/tutorials/internals/howbrowserswork/ Simplified Chinese] versions.
 
 You can also watch [http://vimeo.com/44182484 Tali Garsiel give a talk on this topic] on Vimeo.
 
-</div></div>
 ----
 
 ==Introduction==
 
 Web browsers are probably the most widely used software. In this primer, I will explain how they work behind the scenes. We will see what happens when you type <code>google.com</code> in the address bar until you see the Google page on the browser screen.
-
-===Table of Contents===
-
-# [#Introduction Introduction]
-## [#The_browsers_we_will_talk_about The browsers we will talk about]
-## [#The_browser_main_functionality The browser's main functionality]
-## [#The_browser_high_level_structure The browser's high level structure]
-# [#The_rendering_engine The rendering engine]
-## [#Rendering_engines Rendering engines]
-## [#The_main_flow The main flow]
-## [#Main_flow_examples Main flow examples]
-# [#Parsing_general Parsing and DOM tree construction]
-## [#Parsing_general Parsing - general]
-### [#Grammars Grammars]
-### [#Parser_Lexer_combination Parser - Lexer combination]
-### [#Translation Translation]
-### [#Parsing_example Parsing example]
-### [#Formal_definitions_for_vocabulary_and_syntax Formal definitions for vocabulary and syntax]
-### [#Types_of_parsers Types of parsers]
-### [#Generating_parsers_automatically Generating parsers automatically]
-## [#HTML_Parser HTML Parser]
-### [#The_HTML_grammar_definition The HTML grammar definition]
-### [#Not_a_context_free_grammar Not a context free grammar]
-### [#HTML_DTD HTML DTD]
-### [#DOM DOM]
-### [#The_parsing_algorithm The parsing algorithm]
-### [#The_tokenization_algorithm The tokenization algorithm]
-### [#Tree_construction_algorithm Tree construction algorithm]
-### [#Actions_when_the_parsing_is_finished Actions when the parsing is finished]
-### [#Browsers_error_tolerance Browsers' error tolerance]
-## [#CSS_parsing CSS parsing]
-### [#Webkit_CSS_parser Webkit CSS parser]
-## [#The_order_of_processing_scripts_and_style_sheets The order of processing scripts and style sheets]
-### [#Scripts Scripts]
-### [#Speculative_parsing Speculative parsing]
-### [#Style_sheets Style sheets]
-# [#Render_tree_construction Render tree construction]
-## [#The_render_tree_relation_to_the_DOM_tree The render tree relation to the DOM tree]
-## [#The_flow_of_constructing_the_tree The flow of constructing the tree]
-## [#Style_Computation Style Computation]
-### [#Sharing_style_data Sharing style data]
-### [#Firefox_rule_tree Firefox rule tree]
-#### [#Division_into_structs Division into structs]
-#### [#Computing_the_style_contexts_using_the_rule_tree Computing the style contexts using the rule tree]
-### [#Manipulating_the_rules_for_an_easy_match Manipulating the rules for an easy match]
-### [#Applying_the_rules_in_the_correct_cascade_order Applying the rules in the correct cascade order]
-#### [#Style_sheet_cascade_order Style sheet cascade order]
-#### [#Specificity Specificity]
-#### [#Sorting_the_rules Sorting the rules]
-## [#Gradual_process Gradual process]
-# [#Layout Layout]
-## [#Dirty_bit_system Dirty bit system]
-## [#Global_and_incremental_layout Global and incremental layout]
-## [#Asynchronous_and_Synchronous_layout Asynchronous and Synchronous layout]
-## [#Optimizations Optimizations]
-## [#The_layout_process The layout process]
-## [#Width_calculation Width calculation]
-## [#Line_Breaking Line Breaking]
-# [#Painting Painting]
-## [#Global_and_Incremental Global and Incremental]
-## [#The_painting_order The painting order]
-## [#Firefox_display_list Firefox display list]
-## [#Webkit_rectangle_storage Webkit rectangle storage]
-# [#Dynamic_changes Dynamic changes]
-# [#The_rendering_engines_threads The rendering engine's threads]
-## [#Event_loop Event loop]
-# [#css CSS2 visual model]
-## [#The_canvas The canvas]
-## [#CSS_Box_model CSS Box model]
-## [#Positioning_scheme Positioning scheme]
-## [#Box_types Box types]
-## [#Positioning Positioning]
-### [#Relative Relative]
-### [#Floats Floats]
-### [#Absolute_and_fixed Absolute and fixed]
-## [#Layered_representation Layered representation]
-# [#Resources Resources]
-
-<div>
 
 ===The browsers we will talk about===
 
@@ -197,7 +46,7 @@ There are five major browsers used today - Internet Explorer, Firefox, Safari, C
 
 The browser main functionality is to present the web resource you choose, by requesting it from the server and displaying it on the browser window. The resource is usually an HTML document, but may also be a PDF, image, or other type. The location of the resource is specified by the user using a URI (Uniform resource Identifier).
 
-The way the browser interprets and displays HTML files is specified in the HTML and CSS specifications. These specifications are maintained by the W3C (World Wide Web Consortium) organization, which is the standards organization for the web. <br /> For years browsers conformed to only a part of the specifications and developed their own extensions. That caused serious compatibility issues for web authors. Today most of the browsers more or less conform to the specifications.
+The way the browser interprets and displays HTML files is specified in the HTML and CSS specifications. These specifications are maintained by the W3C (World Wide Web Consortium) organization, which is the standards organization for the web. For years browsers conformed to only a part of the specifications and developed their own extensions. That caused serious compatibility issues for web authors. Today most of the browsers more or less conform to the specifications.
 
 Browsers' user interface have a lot in common with each other. Among the common user interface elements are:
 
@@ -211,7 +60,7 @@ Strangely enough, the browser's user interface is not specified in any formal sp
 
 ===The browser's high level structure===
 
-The browser's main components are ([#1_1 1.1]):
+The browser's main components are:
 
 # '''The user interface '''- this includes the address bar, back/forward button, bookmarking menu etc. Every part of the browser display except the main window where you see the requested page.
 # '''The browser engine '''- marshalls the actions between the UI and the rendering engine.
@@ -221,7 +70,7 @@ The browser's main components are ([#1_1 1.1]):
 # '''JavaScript interpreter'''. Used to parse and execute the JavaScript code.
 # '''Data storage'''. This is a persistence layer. The browser needs to save all sorts of data on the hard disk, for examples, cookies. The new HTML specification (HTML5) defines 'web database' which is a complete (although light) database in the browser.
 
- [[Image:layers.png.pagespeed.ce.mFE5F8CtAV.png]] Figure <nowiki>: Browser main components.</nowiki>
+ [[Image:layers.png.pagespeed.ce.mFE5F8CtAV.png]] Figure 1: Browser main components.
 
 It is important to note that Chrome, unlike most browsers, holds multiple instances of the rendering engine - one for each tab. Each tab is a separate process.
 
