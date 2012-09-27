@@ -254,7 +254,7 @@ The DOM has an almost one-to-one relation to the markup. For example, this marku
  <html>
    <body>
      <p>
-       Hello World
+        Hello World
      </p>
      <div> <img src="example.png"/></div>
    </body>
@@ -304,7 +304,7 @@ When the <code>></code> tag is reached, the current token is emitted and the sta
 
 We are now back at the '''"Tag open state"'''. Consuming the next input <code>/</code> will cause creation of an <code>end tag token</code> and a move to the '''"Tag name state"'''. Again we stay in this state until we reach <code>></code>.Then the new tag token will be emitted and we go back to the '''"Data state"'''. The <code></html></code> input will be treated like the previous case.
 
- [[Image:image019.png.pagespeed.ce.Xgw2vziEPX.png]] Figure <nowiki>: Tokenizing the example input</nowiki>
+ [[Image:image019.png.pagespeed.ce.Xgw2vziEPX.png | Figure 10: Tokenizing the example input]]
 
 ====Tree construction algorithm====
 
@@ -315,7 +315,7 @@ Let's see the tree construction process for the example input:
  
  <html>
    <body>
-     Hello world
+      Hello world
    </body>
  </html>
 
@@ -329,7 +329,7 @@ The character tokens of the "Hello world" string are now received. The first one
 
 The receiving of the body end token will cause a transfer to '''"after body"''' mode. We will now receive the html end tag which will move us to '''"after after body"''' mode. Receiving the end of file token will end the parsing.
 
- [[Image:532x769ximage022.gif.pagespeed.ic.dHZWTV4ADF.png]] Figure <nowiki>: tree construction of example html</nowiki>
+[[Image:532x769ximage022.gif.pagespeed.ic.dHZWTV4ADF.png|Figure 11: tree construction of example html]]
 
 ====Actions when the parsing is finished====
 
@@ -401,9 +401,8 @@ A stray table is a table inside another table contents but not inside a table ce
      <tr><td>outer table</td></tr>
  </table>
 
- Webkit will change the hierarchy to two sibling tables:
+Webkit will change the hierarchy to two sibling tables:
 
- 
  <table>
      <tr><td>outer table</td></tr>
  </table>
@@ -411,18 +410,16 @@ A stray table is a table inside another table contents but not inside a table ce
      <tr><td>inner table</td></tr>
  </table>
 
- The code:
-
+The code:
  
  if (m_inStrayTableContent && localName == tableTag)
          popBlock(tableTag);
 
- Webkit uses a stack for the current element contents - it will pop the inner table out of the outer table stack. The tables will now be siblings.
+Webkit uses a stack for the current element contents - it will pop the inner table out of the outer table stack. The tables will now be siblings.
 
 =====Nested form elements=====
 
 In case the user puts a form inside another form, the second form is ignored. <br /> The code:
-
  
  if (!m_currentFormElement) {
          m_currentFormElement = new HTMLFormElement(formTag,    m_document);
@@ -464,7 +461,6 @@ Remember the parsing concepts in the introduction? Well, unlike HTML, CSS is a c
 
 Let's see some examples: <br /> The lexical grammar (vocabulary) is defined by regular expressions for each token:
 
- 
  comment   \/\*[^*]*\*+([^/*][^*]*\*+)*\/
  num   [0-9]+{{!}}[0-9]*"."[0-9]+
  nonascii  [\200-\377]
@@ -476,7 +472,6 @@ Let's see some examples: <br /> The lexical grammar (vocabulary) is defined by r
 "ident" is short for identifier, like a class name. "name" is an element id (that is referred by "#" )
 
 The syntax grammar is described in BNF.
-
  
  ruleset
    : selector [ ',' S* selector ]*
@@ -503,15 +498,14 @@ The syntax grammar is described in BNF.
    : ':' [ IDENT {{!}} FUNCTION S* [IDENT S*] ')' ]
    ;
 
- Explanation: A ruleset is this structure:
-
+Explanation: A ruleset is this structure:
  
  div.error , a.error {
    color:red;
    font-weight:bold;
  }
 
- div.error and a.error are selectors. The part inside the curly braces contains the rules that are applied by this ruleset. This structure is defined formally in this definition:
+div.error and a.error are selectors. The part inside the curly braces contains the rules that are applied by this ruleset. This structure is defined formally in this definition:
 
  
  ruleset
@@ -519,7 +513,7 @@ The syntax grammar is described in BNF.
      '{' S* declaration [ ';' S* declaration ]* '}' S*
    ;
 
- This means a ruleset is a selector or optionally number of selectors separated by a coma and spaces (S stands for white space). A ruleset contains curly braces and inside them a declaration or optionally a number of declarations separated by a semicolon. "declaration" and "selector" will be defined in the following BNF definitions.
+This means a ruleset is a selector or optionally number of selectors separated by a coma and spaces (S stands for white space). A ruleset contains curly braces and inside them a declaration or optionally a number of declarations separated by a semicolon. "declaration" and "selector" will be defined in the following BNF definitions.
 
 ====Webkit CSS parser====
 
@@ -598,7 +592,7 @@ There are DOM elements which correspond to several visual objects. These are usu
 
 Some render objects correspond to a DOM node but not in the same place in the tree. Floats and absolutely positioned elements are out of flow, placed in a different place in the tree, and mapped to the real frame. A placeholder frame is where they should have been.
 
-  [[Image:image025.png.pagespeed.ce.3lhNd6H7V4.png]] Figure <nowiki>: The render tree and the corresponding DOM tree (</nowiki>[#3_1 3.1]). The "Viewport" is the initial containing block. In Webkit it will be the "RenderView" object.
+[[Image:image025.png.pagespeed.ce.3lhNd6H7V4.png]] Figure <nowiki>: The render tree and the corresponding DOM tree (</nowiki>[#3_1 3.1]). The "Viewport" is the initial containing block. In Webkit it will be the "RenderView" object.
 
 =====The flow of constructing the tree=====
 
