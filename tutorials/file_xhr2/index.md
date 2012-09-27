@@ -1,4 +1,6 @@
-{{Flags}}
+{{Flags
+|High-level issues=Needs Flags
+}}
 {{Summary_Section}}
 {{Tutorial
 |Content==New Tricks in XMLHttpRequest2=
@@ -394,13 +396,19 @@ What is not shown here is the code to reconstruct the file on the server.
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics}}
+{{Topics|FileAPI, IndexedDB, Webworkers, XHR}}
 {{External_Attribution
 |Is_CC-BY-SA=No
+|Sources=HTML5Rocks
 |MDN_link=
 |MSDN_link=
-|HTML5Rocks_link=
+|HTML5Rocks_link=http://www.html5rocks.com/en/tutorials/file/xhr2/
 }}
+}
+
+
+
+
 }
 
 
