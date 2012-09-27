@@ -1,12 +1,10 @@
-{{Page_Title}}
+{{Page_Title| How Browsers Work: Behind the scenes of modern web browsers}}
 {{Flags
 |High-level issues=Needs Flags
 }}
 {{Summary_Section}}
 {{Tutorial
-|Content==How Browsers Work: Behind the scenes of modern web browsers=
-
-==By Tali Garsiel & Paul Irish==
+|Content===By Tali Garsiel & Paul Irish==
 Published Aug. 5, 2011
 
 ===Localizations===
