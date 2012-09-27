@@ -13,7 +13,7 @@ One of the unsung heros in the HTML5 universe is <code>XMLHttpRequest</code>. St
 
 Turns out our old friend got a huge makeover but many folks are unaware of its new features. [http://dev.w3.org/2006/webapi/XMLHttpRequest-2/ XMLHttpRequest Level 2] introduces a slew of new capabilities which put an end to crazy hacks in our web apps; things like cross-origin requests, uploading progress events, and support for uploading/downloading binary data. These allow AJAX to work in concert with many of the bleeding edge HTML5 APIs such as [/tutorials/file_filesystem File System API], [http://chromium.googlecode.com/svn/trunk/samples/audio/specification/specification.html Web Audio API], and WebGL.
 
-This tutorial highlights some of the new features in <code>XMLHttpRequest</code>, especially those that can be used for [/tutorials/file_dnd working with files].
+This tutorial highlights some of the new features in <code>XMLHttpRequest</code>, especially those that can be used for [[/tutorials/file_dnd working with files[].
 
 ==Fetching data==
 
@@ -53,7 +53,6 @@ In the previous example, we downloaded the image as a binary "file" by overridin
 : After a successful request, the xhr's response property will contain the requested data as a <code>DOMString</code>, <code>ArrayBuffer</code>, <code>Blob</code>, or <code>Document</code> (depending on what was set for <code>responseType</code>.)
 
 With this new awesomeness, we can rework the previous example, but this time, fetch the image as an <code>Blob</code> instead of a string:
-
  
  var xhr = new XMLHttpRequest();
  xhr.open('GET', '/path/to/image.png', true);
@@ -76,7 +75,6 @@ Much nicer!
 An [https://developer.mozilla.org/en/JavaScript_typed_arrays/ArrayBuffer <code>ArrayBuffer</code>] is a generic fixed-length container for binary data. They are super handy if you need a generalized buffer of raw data, but the real power behind these guys is that you can create "views" of the underlying data using [https://developer.mozilla.org/en/JavaScript_typed_arrays JavaScript typed arrays]. In fact, multiple views can be created from a single <code>ArrayBuffer</code> source. For example, you could create an 8-bit integer array that shares the same <code>ArrayBuffer</code> as an existing 32-bit integer array from the same data. The underlying data remains the same, we just create different representations of it.
 
 As an example, the following fetches our same image as an <code>ArrayBuffer</code>, but this time, creates an unsigned 8-bit integer array from that data buffer:
-
  
  var xhr = new XMLHttpRequest();
  xhr.open('GET', '/path/to/image.png', true);
@@ -93,7 +91,6 @@ As an example, the following fetches our same image as an <code>ArrayBuffer</cod
 ====Blob responses====
 
 If you want to work directly with a [https://developer.mozilla.org/en/DOM/Blob <code>Blob</code>] and/or don't need to manipulate any of the file's bytes, use <code>xhr.responseType='blob'</code><nowiki>:</nowiki>
-
  
  window.URL = window.URL {{!}}{{!}} window.webkitURL;  // Take care of vendor prefixes.
  
@@ -124,7 +121,6 @@ A <code>Blob</code> can be used in a number of places, including writing it to t
 Being able to [#toc-response download data in different formats] is great, but it doesn't get us anywhere if we can't send these rich formats back to home base (the server). <code>XMLHttpRequest</code> has limited us to sending <code>DOMString</code> or <code>Document</code> (XML) data for some time. Not anymore. A revamped <code>send()</code> method has been overridden to accept any of the following types: <code>DOMString</code>, <code>Document</code>, <code>FormData</code>, <code>Blob</code>, <code>File</code>, <code>ArrayBuffer</code>. The examples in the rest of this section demonstrate sending data using each type.
 
 ===Sending string data: xhr.send(DOMString)===
-
  
  function sendText(txt) {
    var xhr = new XMLHttpRequest();
@@ -160,7 +156,6 @@ There's nothing new here, though the right snippet is slightly different. It set
 ===Submitting forms: xhr.send(FormData)===
 
 Many people are probably accustomed to using [http://jquery.malsup.com/form/ jQuery plugins] or other libraries to handle AJAX form submissions. Instead, we can use [https://developer.mozilla.org/en/XMLHttpRequest/FormData <code>FormData</code>], another new data type conceived for XHR2. <code>FormData</code> is convenient for creating an HTML <code><form></code> on-the-fly, in JavaScript. That form can then be submitted using AJAX:
-
  
  function sendForm() {
    var formData = new '''FormData'''();
@@ -177,14 +172,12 @@ Many people are probably accustomed to using [http://jquery.malsup.com/form/ jQu
 Essentially, we're just dynamically creating a <code><form></code> and tacking on <code><input></code> values to it by calling the append method.
 
 Of course, you don't need to create a <code><form></code> from scratch. <code>FormData</code> objects can be initialized from and existing <code>HTMLFormElement</code> on the page. For example:
-
  
  <form id="myform" name="myform" action="/server">
    <input type="text" name="username" value="johndoe">
    <input type="number" name="id" value="123456">
    <input type="submit" onclick="'''return sendForm(this.form);'''">
  </form>
-
  
  function sendForm(form) {
    var formData = new '''FormData'''(form);
@@ -201,7 +194,6 @@ Of course, you don't need to create a <code><form></code> from scratch. <code>Fo
  }
 
 An HTML form can include file uploads (e.g. <code><input type="file"></code>) and <code>FormData</code> can handle that too. Simply append the file(s) and the browser will construct a <code>multipart/form-data</code> request when <code>send()</code> is called:
-
  
  function uploadFiles(url, files) {
    var formData = new '''FormData'''();
@@ -226,10 +218,8 @@ An HTML form can include file uploads (e.g. <code><input type="file"></code>) an
 We can also send <code>File</code> or <code>Blob</code> data using XHR. Keep in mind all <code>File</code>s are <code>Blob</code>s, so either works here.
 
 This example creates a new text file from scratch using the <code>Blob()</code> constructor and uploads that <code>Blob</code> to the server. The code also sets up a handler to inform the user of the upload's progress:
-
  
  <progress min="0" max="100" value="0">0% complete</progress>
-
  
  function upload(blobOrFile) {
    var xhr = new XMLHttpRequest();
@@ -253,7 +243,6 @@ This example creates a new text file from scratch using the <code>Blob()</code> 
 ===Uploading a chunk of bytes: xhr.send(ArrayBuffer)===
 
 Last but not least, we can send <code>ArrayBuffer</code>s as the XHR's payload.
-
  
  function sendArrayBuffer() {
    var xhr = new XMLHttpRequest();
@@ -272,25 +261,22 @@ Last but not least, we can send <code>ArrayBuffer</code>s as the XHR's payload.
 ===Enabling CORS requests===
 
 Let's say your application lives on <code>example.com</code> and you want to pull data from <code>www.example2.com</code>. Normally if you tried to make this type of AJAX call, the request would fail and the browser would throw an origin mismatch error. With CORS, <code>www.example2.com</code> can choose to allow requests from <code>example.com</code> by simply adding a header:
-
  
  Access-Control-Allow-Origin: http://example.com
 
 <code>Access-Control-Allow-Origin</code> can be added to a single resource under a site or across the entire domain. To allow ''any'' domain to make a request to you, set:
-
  
  Access-Control-Allow-Origin: '''<nowiki>*</nowiki>'''
 
-In fact, this site (html5rocks.com) has enabled CORS on all of its pages. Fire up the Developer Tools and you'll see the <code>Access-Control-Allow-Origin</code> in our response:
+If a site has enabled CORS on its pages, you can fire up the Developer Tools and you'll see the <code>Access-Control-Allow-Origin</code> in our response:
 
- [[Image:access_control_header.png.pagespeed.ce.QPR4kHOZ9r.png|Access-Control-Allow-Origin]] <code>Access-Control-Allow-Origin</code> header on html5rocks.com
+ [[Image:access_control_header.png.pagespeed.ce.QPR4kHOZ9r.png|Access-Control-Allow-Origin]] <code>Access-Control-Allow-Origin</code> header on html5rocks.com.
 
 Enabling cross-origin requests is easy, so please, please, please [http://enable-cors.org/ enable CORS] if your data is public!
 
 ===Making a cross-domain request===
 
 If the server endpoint has enabled CORS, making the cross-origin request is no different than a normal <code>XMLHttpRequest</code> request. For example, here is a request <code>example.com</code> can now make to <code>www.example2.com</code><nowiki>:</nowiki>
-
  
  var xhr = new XMLHttpRequest();
  xhr.open('GET', 'http://www.example2.com/hello.json');
@@ -305,7 +291,6 @@ If the server endpoint has enabled CORS, making the cross-origin request is no d
 ===Download + save files to the HTML5 file system===
 
 Let's say you have an image gallery and want to fetch a bunch of images then save them locally using the [[/tutorials/file_filesystem/ HTML5 File System]]. One way to accomplish this would be to request images as <code>Blob</code>s and write them out using <code>FileWriter</code><nowiki>:</nowiki>
-
  
  window.requestFileSystem  = window.requestFileSystem {{!}}{{!}} window.webkitRequestFileSystem;
  
@@ -337,12 +322,11 @@ Let's say you have an image gallery and want to fetch a bunch of images then sav
  
  xhr.send();
 
-'''Note:''' to use this code, see [/tutorials/file/filesystem/#toc-support browser support & storage limitations] in the [/tutorials/file_filesystem/ Exploring the FileSystem APIs] tutorial.
+'''Note:''' to use this code, see [/tutorials/file/filesystem/#toc-support browser support & storage limitations] in the [[/tutorials/file_filesystem/ Exploring the FileSystem APIs]] tutorial.
 
 ===Slicing a file and uploading each portion===
 
 Using the [[/tutorials/file_dndfiles/ File APIs]], we can minimize the work to upload a large file. The technique is to slice the upload into multiple chunks, spawn an XHR for each portion, and put the file together on the server. This is similar to how GMail uploads large attachments so quickly. Such a technique could also be used to get around Google App Engine's 32MB http request limit.
-
  
  function upload(blobOrFile) {
    var xhr = new XMLHttpRequest();
@@ -374,20 +358,12 @@ What is not shown here is the code to reconstruct the file on the server.
 
 '''Try it!'''
 
-<div class="example"> #bytes/chunk:  <div id="bars"></div></div>
-
 ==References==
 
 * [http://dev.w3.org/2006/webapi/XMLHttpRequest-2/ XMLHttpRequest Level 2] specification
 * [http://dev.w3.org/2006/waf/access-control/ Cross Origin Resource Sharing (CORS)] specification
 * [http://www.w3.org/TR/file-upload/ File API] specification
 * [http://dev.w3.org/2009/dap/file-system/pub/FileSystem/ FileSystem API] specification
-
-
-
-==Supported browsers:==
-
-<span class="browsers"> <span class="browser opera supported"> <span class="browser_name">Opera</span> <span class="support"> supported </span> </span> <span class="browser ie supported"> <span class="browser_name">IE</span> <span class="support"> supported </span> </span> <span class="browser safari supported"> <span class="browser_name">Safari</span> <span class="support"> supported </span> </span> <span class="browser ff supported"> <span class="browser_name">Firefox</span> <span class="support"> supported </span> </span> <span class="browser chrome supported"> <span class="browser_name">Chrome</span> <span class="support"> supported </span> </span> </span><div class="compatible-block">
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -448,6 +424,11 @@ What is not shown here is the code to reconstruct the file on the server.
 |MSDN_link=
 |HTML5Rocks_link=http://www.html5rocks.com/en/tutorials/file/xhr2/
 }}
+}
+
+
+
+
 }
 
 
