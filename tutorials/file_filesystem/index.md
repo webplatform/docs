@@ -353,7 +353,7 @@ The following code creates a new hierarchy ("music/genres/jazz") in the root of 
  
  function createDir(rootDirEntry, folders) {
    // Throw out './' or '/' and move on to prevent something like '/foo/.//bar'.
-   if (folders[0] == '.' {{!}}{{!}} folders[0] == '') {
+   if (folders[0] == '.' &#124;&#124; folders[0] == '') {
      folders = folders.slice(1);
    }
    rootDirEntry.getDirectory(folders[0], {create: true}, function(dirEntry) {
@@ -392,7 +392,7 @@ That means you need to keep calling <code>DirectoryReader.readEntries()</code> u
 
 <pre>
  function toArray(list) {
-   return Array.prototype.slice.call(list {{!}}{{!}} [], 0);
+   return Array.prototype.slice.call(list &#124;&#124; [], 0);
  }
  
  function listResults(entries) {
@@ -542,7 +542,7 @@ The FileSystem API exposes a new URL scheme, <code>filesystem:</code>, that can 
 Alternatively, if you already have a <code>filesystem:</code> URL, <code>resolveLocalFileSystemURL()</code> will get you back the [http://dev.w3.org/2009/dap/file-system/pub/FileSystem/#the-fileentry-interface <code>fileEntry</code>]:
 
 <pre>
- window.resolveLocalFileSystemURL = window.resolveLocalFileSystemURL {{!}}{{!}}
+ window.resolveLocalFileSystemURL = window.resolveLocalFileSystemURL &#124;&#124;
                                     window.webkitResolveLocalFileSystemURL;
  
  var url = 'filesystem:http://example.com/temporary/myfile.png';
@@ -605,6 +605,7 @@ The specification lists several use cases:
 * [http://dev.w3.org/2006/webapi/FileAPI/#dfn-filereader FileReader]
 * [http://dev.w3.org/2006/webapi/FileAPI/ File]
 * [http://dev.w3.org/2006/webapi/FileAPI/#dfn-Blob Blob]
+
 |window_webkitRequestFileSystem;
  
  window_requestFileSystem(type, size, successCallback, opt_errorCallback);
