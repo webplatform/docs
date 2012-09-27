@@ -1,4 +1,5 @@
 {{Flags}}
+{{Page_Title}}
 {{Summary_Section|This short article covers the various bits of CSS shorthand you'll encounter in your day to day work.}}
 {{Guide
 |Content=== Border ==
@@ -134,7 +135,12 @@ list-style-image: none;</pre>
 == Color ==
  
 When specifying hexadecimal color values, you can use shorthand if both hex values are the same for each color channel. For example, <code>#000</code> is equivalent to the longhand <code>#000000</code>. Let's look at a more complicated example too: <code>#6c9</code> is the same as <code>#66cc99</code>.
-
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section}}
 {{Topics|CSS}}
