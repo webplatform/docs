@@ -86,7 +86,7 @@ The rendering engine will start parsing the HTML document and turn the tags to [
 
 The render tree contains rectangles with visual attributes like color and dimensions. The rectangles are in the right order to be displayed on the screen.
 
-After the construction of the render tree it goes through a "[#layout layout]" process. This means giving each node the exact coordinates where it should appear on the screen. The next stage is [#Painting painting] - the render tree will be traversed and each node will be painted using the UI backend layer.
+After the construction of the render tree it goes through a "[[#layout|layout]]" process. This means giving each node the exact coordinates where it should appear on the screen. The next stage is [[#Painting|painting]] - the render tree will be traversed and each node will be painted using the UI backend layer.
 
 It's important to understand that this is a gradual process. For better user experience, the rendering engine will try to display contents on the screen as soon as possible. It will not wait until all HTML is parsed before starting to build and layout the render tree. Parts of the content will be parsed and displayed, while the process continues with the rest of the contents that keeps coming from the network.
 
@@ -225,7 +225,7 @@ The job of the HTML parser is to parse the HTML markup into a parse tree.
 
 ====The HTML grammar definition====
 
-The vocabulary and syntax of HTML are defined in [#w3c specifications] created by the W3C organization. The current version is HTML4 and work on HTML5 is in progress.
+The vocabulary and syntax of HTML are defined in [[#w3c|specifications]] created by the W3C organization. The current version is HTML4 and work on HTML5 is in progress.
 
 ====Not a context free grammar====
 
