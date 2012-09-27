@@ -5,7 +5,7 @@
 }}
 {{Summary_Section}}
 {{Tutorial
-|Content===By Tali Garsiel & Paul Irish==
+|Content=By Tali Garsiel & Paul Irish
 Published Aug. 5, 2011
 
 ==Preface==
@@ -104,7 +104,7 @@ Since parsing is a very significant process within the rendering engine, we will
 
 Parsing a document means translating it to some structure that makes sense - something the code can understand and use. The result of parsing is usually a tree of nodes that represent the structure of the document. It is called a parse tree or a syntax tree.
 
-Example - parsing the expression {{{2 + 3 - 1}}} could return this tree:
+Example - parsing the expression <code>2 + 3 - 1</code> could return this tree:
 
 [[Image:400x155ximage009.png.pagespeed.ic.KNewBFnKFk.png|Figure 5: mathematical expression tree node]]
 
