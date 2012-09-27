@@ -4,6 +4,7 @@
 {{Summary_Section|A guide to using the XMLHttpRequest2 API.}}
 {{Tutorial
 |Content==New Tricks in XMLHttpRequest2=
+
 ==By Eric Bidelman==
 Published May 27, 2011
 
@@ -366,7 +367,6 @@ What is not shown here is the code to reconstruct the file on the server.
 * [http://www.w3.org/TR/file-upload/ File API] specification
 * [http://dev.w3.org/2009/dap/file-system/pub/FileSystem/ FileSystem API] specification
 
-}}
 {{Compatibility_Section
 |Not_required=No
 |Desktop_rows={{Compatibility Table Desktop Row
