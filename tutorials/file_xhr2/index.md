@@ -93,7 +93,7 @@ As an example, the following fetches our same image as an <code>ArrayBuffer</cod
 If you want to work directly with a [https://developer.mozilla.org/en/DOM/Blob <code>Blob</code>] and/or don't need to manipulate any of the file's bytes, use <code>xhr.responseType='blob'</code><nowiki>:</nowiki>
 
  
- window.URL = window.URL || window.webkitURL;  // Take care of vendor prefixes.
+ window.URL = window.URL {{!}}{{!}} window.webkitURL;  // Take care of vendor prefixes.
  
  var xhr = new XMLHttpRequest();
  xhr.open('GET', '/path/to/image.png', true);
@@ -305,7 +305,7 @@ If the server endpoint has enabled CORS, making the cross-origin request is no d
 Let's say you have an image gallery and want to fetch a bunch of images then save them locally using the [/tutorials/file/filesystem/ HTML5 File System]. One way to accomplish this would be to request images as <code>Blob</code>s and write them out using <code>FileWriter</code><nowiki>:</nowiki>
 
  
- window.requestFileSystem  = window.requestFileSystem || window.webkitRequestFileSystem;
+ window.requestFileSystem  = window.requestFileSystem {{!}}{{!}} window.webkitRequestFileSystem;
  
  function onError(e) {
    console.log('Error', e);
