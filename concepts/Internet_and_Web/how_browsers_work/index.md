@@ -131,7 +131,7 @@ If no rule matches, the parser will store the token internally, and keep asking 
 
 Many times the parse tree is not the final product. Parsing is often used in translation - transforming the input document to another format. An example is compilation. The compiler that compiles a source code into machine code first parses it into a parse tree and then translates the tree into a machine code document.
 
- [[Image:image013.png.pagespeed.ce.EGqDLSzaGw.png|Figure 7: compilation flow]]
+[[Image:image013.png.pagespeed.ce.EGqDLSzaGw.png|Figure 7: compilation flow]]
 
 ====Parsing example====
 
@@ -208,7 +208,7 @@ The bottom up parser will scan the input until a rule is matched it will then re
 <code></code>
 {{!}}}
 
- This type of bottom up parser is called a shift-reduce parser, because the input is shifted to the right (imagine a pointer pointing first at the input start and moving to the right) and is gradually reduced to syntax rules.
+This type of bottom up parser is called a shift-reduce parser, because the input is shifted to the right (imagine a pointer pointing first at the input start and moving to the right) and is gradually reduced to syntax rules.
 
 ====Generating parsers automatically====
 
@@ -242,7 +242,7 @@ Apparently this seemingly small difference makes a world of a difference. On one
 
 HTML definition is in a DTD format. This format is used to define languages of the [http://en.wikipedia.org/wiki/Standard_Generalized_Markup_Language SGML] family. The format contains definitions for all allowed elements, their attributes and hierarchy. As we saw earlier, the HTML DTD doesn't form a context free grammar.
 
-There are a few variations of the DTD. The strict mode conforms solely to the specifications but other modes contain support for markup used by browsers in the past. The purpose is backwards compatibility with older content. The current strict DTD is here: [http://www.w3.org/TR/html4/strict.dtd www.w3.org/TR/html4/strict.dtd]
+There are a few variations of the DTD. The strict mode conforms solely to the specifications but other modes contain support for markup used by browsers in the past. The purpose is backwards compatibility with older content. The current strict DTD is [http://www.w3.org/TR/html4/strict.dtd www.w3.org/TR/html4/strict.dtd here].
 
 ====DOM====
 
@@ -260,9 +260,9 @@ The DOM has an almost one-to-one relation to the markup. For example, this marku
    </body>
  </html>
 
- Would be translated to the following DOM tree:   [[Image:image015.png.pagespeed.ce.OZcOUqth9Q.png]]  Figure <nowiki>: DOM tree of the example markup</nowiki>
+Would be translated to the following DOM tree: [[Image:image015.png.pagespeed.ce.OZcOUqth9Q.png]]  Figure 8: DOM tree of the example markup.
 
-Like HTML, DOM is specified by the W3C organization. See [http://www.w3.org/DOM/DOMTR www.w3.org/DOM/DOMTR]. It is a generic specification for manipulating documents. A specific module describes HTML specific elements. The HTML definitions can be found here: [http://www.w3.org/TR/2003/REC-DOM-Level-2-HTML-20030109/idl-definitions.html www.w3.org/TR/2003/REC-DOM-Level-2-HTML-20030109/idl-definitions.html].
+Like HTML, DOM is specified by the W3C organization. See [http://www.w3.org/DOM/DOMTR www.w3.org/DOM/DOMTR this]. It is a generic specification for manipulating documents. A specific module describes HTML specific elements. The HTML definitions can be found here: [http://www.w3.org/TR/2003/REC-DOM-Level-2-HTML-20030109/idl-definitions.html www.w3.org/TR/2003/REC-DOM-Level-2-HTML-20030109/idl-definitions.html].
 
 When I say the tree contains DOM nodes, I mean the tree is constructed of elements that implement one of the DOM interfaces. Browsers use concrete implementations that have other attributes used by the browser internally.
 
@@ -284,7 +284,7 @@ Tokenization is the lexical analysis, parsing the input into tokens. Among HTML 
 
 The tokenizer recognizes the token, gives it to the tree constructor, and consumes the next character for recognizing the next token, and so on until the end of the input.
 
- [[Image:308x400ximage017.png.pagespeed.ic.BGy2jYmiQr.jpg]] Figure <nowiki>: HTML parsing flow (taken from HTML5 spec)</nowiki>
+[[Image:308x400ximage017.png.pagespeed.ic.BGy2jYmiQr.jpg|Figure 9: HTML parsing flow (taken from HTML5 spec)]]
 
 ====The tokenization algorithm====
 
@@ -292,7 +292,6 @@ The algorithm's output is an HTML token. The algorithm is expressed as a state m
 
 Basic example - tokenizing the following HTML:
 
- 
  <html>
    <body>
      Hello world
