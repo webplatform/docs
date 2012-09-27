@@ -1,5 +1,5 @@
 {{Flags}}
-{{Page_Title}}
+{{Page_Title|Barble Boo}}
 {{Summary_Section|This short article covers the various bits of CSS shorthand you'll encounter in your day to day work.}}
 {{Guide
 |Content=== Border ==
