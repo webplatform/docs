@@ -115,7 +115,7 @@ If you want to work directly with a [https://developer.mozilla.org/en/DOM/Blob <
  
  xhr.send();
 
-A <code>Blob</code> can be used in a number of places, including saving it to [/tutorials/indexeddb/todo/ indexedDB], writing it to the HTML5 [/tutorials/file/filesystem/ File System], or [/tutorials/workers/basics/#toc-inlineworkers-bloburis creating an Blob URL], as seen in this example.
+A <code>Blob</code> can be used in a number of places, including writing it to the HTML5 [/tutorials/file_filesystem/ File System], or [/tutorials/workers_basics#BlobURLs creating an Blob URL], as seen in this example.
 
 ==Sending data==
 
@@ -386,7 +386,6 @@ What is not shown here is the code to reconstruct the file on the server.
 ==Supported browsers:==
 
 <span class="browsers"> <span class="browser opera supported"> <span class="browser_name">Opera</span> <span class="support"> supported </span> </span> <span class="browser ie supported"> <span class="browser_name">IE</span> <span class="support"> supported </span> </span> <span class="browser safari supported"> <span class="browser_name">Safari</span> <span class="support"> supported </span> </span> <span class="browser ff supported"> <span class="browser_name">Firefox</span> <span class="support"> supported </span> </span> <span class="browser chrome supported"> <span class="browser_name">Chrome</span> <span class="support"> supported </span> </span> </span><div class="compatible-block">
-
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -402,3 +401,4 @@ What is not shown here is the code to reconstruct the file on the server.
 |MSDN_link=
 |HTML5Rocks_link=
 }}
+}
