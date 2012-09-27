@@ -57,8 +57,7 @@ The browser's main components are:
 # '''JavaScript interpreter'''. Used to parse and execute the JavaScript code.
 # '''Data storage'''. This is a persistence layer. The browser needs to save all sorts of data on the hard disk, for examples, cookies. The new HTML specification (HTML5) defines 'web database' which is a complete (although light) database in the browser.
 
-[[Image:layers.png.pagespeed.ce.mFE5F8CtAV.png]]
-Figure 1: Browser main components.
+[[Image:layers.png.pagespeed.ce.mFE5F8CtAV.png]] <caption>Figure 1: Browser main components.</caption>
 
 It is important to note that Chrome, unlike most browsers, holds multiple instances of the rendering engine - one for each tab. Each tab is a separate process.
 
@@ -80,7 +79,7 @@ The rendering engine will start getting the contents of the requested document f
 
 After that this is the basic flow of the rendering engine:
 
- [[Image:flow.png.pagespeed.ce.pK__f2HjCm.png]] Figure <nowiki>: Rendering engine basic flow.</nowiki>
+ [[Image:flow.png.pagespeed.ce.pK__f2HjCm.png]] Figure 2: Rendering engine basic flow.
 
 The rendering engine will start parsing the HTML document and turn the tags to [#DOM DOM] nodes in a tree called the "content tree". It will parse the style data, both in external CSS files and in style elements. The styling information together with visual instructions in the HTML will be used to create another tree - the [#Render_tree_construction render tree].
 
