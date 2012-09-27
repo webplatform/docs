@@ -2,8 +2,7 @@
 {{API_Name}}
 {{Summary_Section}}
 {{Concept_Page
-|Content= 
-When optimising JavaScript, it is important to first understand
+|Content=When optimising JavaScript, it is important to first understand
 the big picture and the major stack components affecting the performance.
 Equally important is to understand what can and cannot be optimised
 in JavaScript without touching the browser code base. A good starting
@@ -50,8 +49,6 @@ and Symbian^3. This framework provides a unified user interface system
 across popular mobile device platforms, built on jQuery and the jQuery
 UI. For the complete list of supported platforms, see [[jQuery Mobile Graded Browser Support]]. jQuery Mobile's lightweight code has
 a flexible, easily themeable design.
-
-  
 }}
 {{Examples_Section
 |Not_required=No
