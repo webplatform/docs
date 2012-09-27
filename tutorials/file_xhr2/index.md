@@ -12,7 +12,7 @@ Published May 27, 2011
 
 One of the unsung heros in the HTML5 universe is <code>XMLHttpRequest</code>. Strictly speaking XHR2 isn't HTML5. However, it's part of the incremental improvements browser vendors are making to the core platform. I'm including XHR2 in our new bag of goodies because it plays such an integral part in today's complex web apps.
 
-Turns out our old friend got a huge makeover but many folks are unaware of its new features. [http://dev.w3.org/2006/webapi/XMLHttpRequest-2/ XMLHttpRequest Level 2] introduces a slew of new capabilities which put an end to crazy hacks in our web apps; things like cross-origin requests, uploading progress events, and support for uploading/downloading binary data. These allow AJAX to work in concert with many of the bleeding edge HTML5 APIs such as [[tutorials/file_filesystem File System API]], [http://chromium.googlecode.com/svn/trunk/samples/audio/specification/specification.html Web Audio API], and WebGL.
+Turns out our old friend got a huge makeover but many folks are unaware of its new features. [http://dev.w3.org/2006/webapi/XMLHttpRequest-2/ XMLHttpRequest Level 2] introduces a slew of new capabilities which put an end to crazy hacks in our web apps; things like cross-origin requests, uploading progress events, and support for uploading/downloading binary data. These allow AJAX to work in concert with many of the bleeding edge HTML5 APIs such as [[wiki/tutorials/file_filesystem File System API]], [http://chromium.googlecode.com/svn/trunk/samples/audio/specification/specification.html Web Audio API], and WebGL.
 
 This tutorial highlights some of the new features in <code>XMLHttpRequest</code>, especially those that can be used for [[tutorials/file_dnd working with files]].
 
