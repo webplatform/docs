@@ -1105,7 +1105,7 @@ Although the red div precedes the green one in the markup, and would have been p
 ## Firefox. https://developer.mozilla.org/en/Build_Documentation
 ## Webkit. http://webkit.org/building/build.html
 
-[[Image:wtaligarsiel.png.pagespeed.ic.5YF-a4gz3t.jpeg]]
+[[Image:308x400wimage017.png.pagespeed.ic.BGy2jYmiQr.jpeg]]
 
 [http://taligarsiel.com/ Tali Garsiel] is a developer in Israel. She started as a web developer in 2000, and became aquainted with Netscape's "evil" layer model. Just like Richard Feynmann, she had a fascination for figuring out how things work so she began digging into browser internals and documenting what she found. Tali also has published a short [http://taligarsiel.com/ClientSidePerformance.html guide on client-side performance].
 
