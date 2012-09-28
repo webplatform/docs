@@ -1,8 +1,10 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section}}
-{{Tutorial|Content
-==New Tricks in XMLHttpRequest2==
+{{Flags
+|High-level issues=Needs Flags
+}}
+{{Summary_Section|An introduction to XMLHttpRequest2.}}
+{{Tutorial
+|Content==New Tricks in XMLHttpRequest2=
 ==By Eric Bidelman==
 Published May 27, 2011
 
