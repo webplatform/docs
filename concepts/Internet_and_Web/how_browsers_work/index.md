@@ -657,7 +657,11 @@ The style contexts contain end values. The values are computed by applying all t
 
 All the matched rules are stored in a tree. The bottom nodes in a path have higher priority. The tree contains all the paths for rule matches that were found. Storing the rules is done lazily. The tree isn't calculated at the beginning for every node, but whenever a node style needs to be computed the computed paths are added to the tree.
 
-The idea is to see the tree paths as words in a lexicon. Lets say we already computed this rule tree:  [[Image:tree.png.pagespeed.ce.OWyl1y_9-K.png]]  Suppose we need to match rules for another element in the content tree, and find out the matched rules (in the correct order) are B - E - I. We already have this path in the tree because we already computed path A - B - E - I - L. We will now have less work to do.
+The idea is to see the tree paths as words in a lexicon. Lets say we already computed this rule tree:  
+
+[[Image:tree.png.pagespeed.ce.OWyl1y_9-K.png]] 
+
+Suppose we need to match rules for another element in the content tree, and find out the matched rules (in the correct order) are B - E - I. We already have this path in the tree because we already computed path A - B - E - I - L. We will now have less work to do.
 
 Let's see how the tree saves us work.
 
