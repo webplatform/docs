@@ -3,7 +3,7 @@
 {{Summary_Section|Summary}}
 {{Basic Page}}
 Content
-{{Special:PrefixIndex}}
+{{Special:PrefixIndex/tutorials/}}
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
