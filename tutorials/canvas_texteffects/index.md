@@ -1,4 +1,4 @@
-{{Page_Title|Typographic Effects in &lt;canvas&gt;}}
+{{Page_Title|Typographic effects in &lt;canvas&gt;}}
 {{Flags
 |High-level issues=Needs Flags
 }}
@@ -17,7 +17,7 @@ These experiments eventually led to the creation of the startup Mugtug with my l
 
 [[Image:typ01-canvas.png]]
 
-&lt;canvas&gt; brings Javascript programmers full control of the colors, vectors, and pixels on their screens&mdash;the visual makeup of the monitor.
+The &lt;canvas&gt; element brings Javascript programmers full control of the colors, vectors, and pixels on their screens&mdash;the visual makeup of the monitor.
 
 The following examples deal with one area in &lt;canvas&gt; that hasn't gotten much attention: creating '''text-effects'''. The variety of text-effects that can be created in &lt;canvas&gt; is as vast as you can imagine; these demos cover a sub-section of what is possible. Although we're dealing with text in this article, the methods can be applied to any vector objects, creating exciting visuals in games and other applications, such as:
 
