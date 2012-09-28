@@ -1,7 +1,7 @@
 {{Flags
-|High-level issues=Stub, Copyright Issue
-|Content=Outdated
-|Editorial notes={{Editorial/Copyright Issue | Some content is under CC-BY-SA, but we haven't wrapped which pieces. }}
+|High-level issues=Stub,Copyright Issue
+|Content=Outdated,Examples Errors
+}}
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
