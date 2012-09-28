@@ -261,7 +261,9 @@ The DOM has an almost one-to-one relation to the markup. For example, this marku
  </html>
 </source>
 
-Would be translated to the following DOM tree: [[Image:image015.png.pagespeed.ce.OZcOUqth9Q.png|Figure 8: DOM tree of the example markup]].
+Would be translated to the following DOM tree:
+
+[[Image:image015.png.pagespeed.ce.OZcOUqth9Q.png|Figure 8: DOM tree of the example markup]].
 
 Like HTML, DOM is specified by the W3C organization. See [http://www.w3.org/DOM/DOMTR www.w3.org/DOM/DOMTR this]. It is a generic specification for manipulating documents. A specific module describes HTML specific elements. The HTML definitions can be found here: [http://www.w3.org/TR/2003/REC-DOM-Level-2-HTML-20030109/idl-definitions.html www.w3.org/TR/2003/REC-DOM-Level-2-HTML-20030109/idl-definitions.html].
 
@@ -593,7 +595,9 @@ There are DOM elements which correspond to several visual objects. These are usu
 
 Some render objects correspond to a DOM node but not in the same place in the tree. Floats and absolutely positioned elements are out of flow, placed in a different place in the tree, and mapped to the real frame. A placeholder frame is where they should have been.
 
-[[Image:image025.png.pagespeed.ce.3lhNd6H7V4.png]] Figure 13: The render tree and the corresponding DOM tree ([[#3_1|3.1]]). The "Viewport" is the initial containing block. In Webkit it will be the "RenderView" object.
+[[Image:image025.png.pagespeed.ce.3lhNd6H7V4.png|Figure 13: The render tree and the corresponding DOM tree ([[#3_1|3.1]]).]]
+
+The "Viewport" is the initial containing block. In Webkit it will be the "RenderView" object.
 
 =====The flow of constructing the tree=====
 
@@ -815,7 +819,7 @@ Some examples:
   #x34y         {}  /* a=0 b=1 c=0 d=0 -> specificity = 0,1,0,0 */
   style=""          /* a=1 b=0 c=0 d=0 -> specificity = 1,0,0,0 */
 
-=====Sorting the rules=====
+'''Sorting the rules'''
 
 After the rules are matched, they are sorted according to the cascade rules. Webkit uses bubble sort for small lists and merge sort for big ones. Webkit implements sorting by overriding the ">" operator for the rules:
 
