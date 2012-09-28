@@ -22,7 +22,9 @@ or
  
 <pre>m dx dy</pre>
  
-It's good to draw examples as we go here. Unfortunately, we haven't drawn anything yet. All we've done is move the start point for our path, so we won't see anything yet. I am going to show each of the points we draw as we go to 'em, so in the following example we just have a point at (10,10). Note though, that it wouldn't show up if you were just drawing the path. [[Image:=Blank_Path_Area.png|=Blank_Path_Area.png]]
+It's good to draw examples as we go here. Unfortunately, we haven't drawn anything yet. All we've done is move the start point for our path, so we won't see anything yet. I am going to show each of the points we draw as we go to 'em, so in the following example we just have a point at (10,10). Note though, that it wouldn't show up if you were just drawing the path. 
+
+[[Image:Blank_Path_Area.png]]
 
  
 <pre>&lt;?xml version="1.0" standalone="no"?&gt;
@@ -45,7 +47,9 @@ There are two abbreviated forms for this when you're just drawing a horizontal o
 <pre>H x (or h dx)
  V y (or v dy)</pre>
  
-So now we know enough commands to start to draw something. An easy place to start is just drawing a plain old rectangle (the same type that could more easily be made with a <code>&lt;rect&gt;</code> element). Its composed of only horizontal and vertical lines, so its a pretty good example of all three of the previous "Line To" bits: [[Image:=Path_Line_Commands.png|=Path_Line_Commands.png]]
+So now we know enough commands to start to draw something. An easy place to start is just drawing a plain old rectangle (the same type that could more easily be made with a <code>&lt;rect&gt;</code> element). Its composed of only horizontal and vertical lines, so its a pretty good example of all three of the previous "Line To" bits:
+
+[[Image:Path_Line_Commands.png]]
  
 <pre>&lt;?xml version="1.0" standalone="no"?&gt;
 
@@ -87,7 +91,9 @@ So we'll start with the slightly more complex Bezier curve, the cubic one, C. Cu
  
 <pre> C x1 y1, x2 y2, x y (or c dx1 dy1, dx2 dy2, dx dy)</pre>
  
-The last set of coordinates here (x,y) are where you want the line to end. The other two are control points. (x1,y1) is the control point for the start of your curve, and (x2,y2) for the end point of your curve. If you are familiar with algebra or calculus, the control points essentially describe the slope of your line starting at each point. The Bezier function then creates a smooth curve that transfers you from the slope you established at the beginning of your line, to the slope at the other end. [[Image:=Cubic_Bezier_Curves.png|=Cubic_Bezier_Curves.png]]
+The last set of coordinates here (x,y) are where you want the line to end. The other two are control points. (x1,y1) is the control point for the start of your curve, and (x2,y2) for the end point of your curve. If you are familiar with algebra or calculus, the control points essentially describe the slope of your line starting at each point. The Bezier function then creates a smooth curve that transfers you from the slope you established at the beginning of your line, to the slope at the other end. 
+
+[[Image:Cubic_Bezier_Curves.png]]
  
 <pre>&lt;?xml version="1.0" standalone="no"?&gt;
 
@@ -113,9 +119,7 @@ You can string several Bezier curves to create long smooth shapes. Often in this
  
 <code>S</code> produces the same type of curve as earlier, but if it follows another <code>S</code> command or a <code>C</code> command, the first control point is assumed to be a reflection of the one used previously. If the <code>S</code> command doesn't follow another <code>S</code> or <code>C</code> command, then it is assumed that both control points for the curve are the same. An example of this syntax is shown below, and in the figure to the left the specified control points are shown in red, and the inferred control point in blue.
 
- 
-[[Image:=ShortCut_Cubic_Bezier.png|=ShortCut_Cubic_Bezier.png]]
-
+[[Image:ShortCut_Cubic_Bezier.png]]
  
 <pre>&lt;?xml version="1.0" standalone="no"?&gt;
 &lt;svg width="190px" height="160px" version="1.1" xmlns="http://www.w3.org/2000/svg"&gt;
@@ -126,7 +130,7 @@ The other type of Bezier curve that is available is a quadratic Bezier, Q. Its a
 
 <pre>Q x1 y1, x y (or q dx1 dy1, dx dy)</pre>
  
-[[Image:=Quadratic_Bezier.png|=Quadratic_Bezier.png]]
+[[Image:Quadratic_Bezier.png]]
 
 <pre>&lt;?xml version="1.0" standalone="no"?&gt;
 &lt;svg width="190px" height="160px" version="1.1" xmlns="http://www.w3.org/2000/svg""&gt;
@@ -139,7 +143,7 @@ As with the cubic Bezier curve, there is a shortcut for stringing together long 
  
 As before, the shortcut looks at the previous control point you used, and infers a new one from it. This means that after your first control point, you can make fairly complex shapes by specifying only end points. Note that this only works if the previous command was a Q or a T command. If it is not, then the control point is assumed to be the same as the previous point, and you'll only draw lines.
 
-[[Image:=Shortcut_Quadratic_Bezier.png|=Shortcut_Quadratic_Bezier.png]]
+[[Image:Shortcut_Quadratic_Bezier.png]]
 
  <pre>&lt;?xml version="1.0" standalone="no"?&gt;
 &lt;svg width="190px" height="160px" version="1.1" xmlns="http://www.w3.org/2000/svg"&gt;
@@ -157,7 +161,7 @@ The other type of curved line you can create using SVG is the arc, A. Arcs are e
  
 At its start the arc element takes in two arguments for the x-radius and y-radius of the arc. Those seem pretty self explanatory, but if you need to, look up [[ellipses]] to see how they behave. The third parameter describes the rotation of the arc. This is best explained with an example:
  
-[[Image:=SVGArcs_XAxisRotation.png|=SVGArcs_XAxisRotation.png]]
+[[Image:SVGArcs_XAxisRotation.png]]
  
 <pre>&lt;?xml version="1.0" standalone="no"?&gt;
 &lt;svg width="320px" height="320px" version="1.1" xmlns="http://www.w3.org/2000/svg"&gt;
@@ -173,7 +177,7 @@ The example shows a path element that goes diagonally across the page. In the mi
  
 The four different paths mentioned above are determined by next two flags in the argument. As mentioned earlier, there are still two possible ellipses for the path to travel around, and two different possible paths on both those ellipses giving four possible paths. The first argument here is the large-arc-sweep-flag. It simply determines if the arc that should be drawn should be greater than, or less than 180 degrees, and in the end determines which direction the arc will travel around a given circle. The second argument determines if the arc should begin moving at negative angles or positive ones, which essentially picks which of the two circles you will travel around. The example below shows all four possible combinations, along with the two circles for each case.
  
-[[Image:=SVGArcs_Flags.png|=SVGArcs_Flags.png]]
+[[Image:SVGArcs_Flags.png]]
 
 <pre>&lt;?xml version="1.0" standalone="no"?&gt;
 &lt;svg width="325px" height="325px" version="1.1" xmlns="http://www.w3.org/2000/svg"&gt;
