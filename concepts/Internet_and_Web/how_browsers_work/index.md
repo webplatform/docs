@@ -305,7 +305,7 @@ When the <code>></code> tag is reached, the current token is emitted and the sta
 
 We are now back at the '''"Tag open state"'''. Consuming the next input <code>/</code> will cause creation of an <code>end tag token</code> and a move to the '''"Tag name state"'''. Again we stay in this state until we reach <code>></code>.Then the new tag token will be emitted and we go back to the '''"Data state"'''. The <code></html></code> input will be treated like the previous case.
 
- [[Image:image019.png.pagespeed.ce.Xgw2vziEPX.png | Figure 10: Tokenizing the example input]]
+[[Image:image019.png.pagespeed.ce.Xgw2vziEPX.png | Figure 10: Tokenizing the example input]]
 
 ====Tree construction algorithm====
 
@@ -378,9 +378,9 @@ We have to take care of at least the following error conditions:
 
 Let's see some Webkit error tolerance examples:
 
-===</br> instead of <br>===
+'''<code></br></code> instead of </code><br></code>'''
 
-Some sites use </br> instead of \<br\>. In order to be compatible with IE and Firefox, Webkit treats this like <br>. <br /> The code:
+Some sites use <code></br></code> instead of <code><br></code>. In order to be compatible with IE and Firefox, Webkit treats this like <code><br></code>. The code:
 
  if (t->isCloseTag(brTag) && m_document->inCompatMode()) {
       reportError(MalformedBRError);
@@ -389,25 +389,29 @@ Some sites use </br> instead of \<br\>. In order to be compatible with IE and Fi
 
  Note - the error handling is internal - it won't be presented to the user.
 
-===A stray table===
+'''A stray table'''
 
-A stray table is a table inside another table contents but not inside a table cell. <br /> Like this example:
+A stray table is a table inside another table contents but not inside a table cell. Like this example:
 
+<source>
  <table>
      <table>
          <tr><td>inner table</td></tr>
      </table>
      <tr><td>outer table</td></tr>
  </table>
+</source>
 
 Webkit will change the hierarchy to two sibling tables:
 
+<source>
  <table>
      <tr><td>outer table</td></tr>
  </table>
  <table>
      <tr><td>inner table</td></tr>
  </table>
+</source>
 
 The code:
  
@@ -416,19 +420,21 @@ The code:
 
 Webkit uses a stack for the current element contents - it will pop the inner table out of the outer table stack. The tables will now be siblings.
 
-=====Nested form elements=====
+'''Nested form elements'''
 
-In case the user puts a form inside another form, the second form is ignored. <br /> The code:
+In case the user puts a form inside another form, the second form is ignored.
+
+The code:
  
  if (!m_currentFormElement) {
          m_currentFormElement = new HTMLFormElement(formTag,    m_document);
  }
 
-=====A too deep tag hierarchy=====
+'''A too deep tag hierarchy'''
 
-The comment speaks for itself. <br />
+The comment speaks for itself.
 
-<blockquote> www.liceo.edu.mx is an example of a site that achieves a level of nesting of about 1500 tags, all from a bunch of <b>s. We will only allow at most 20 nested tags of the same type before just ignoring them all together. </blockquote
+<blockquote> www.liceo.edu.mx is an example of a site that achieves a level of nesting of about 1500 tags, all from a bunch of <code><b></code>s. We will only allow at most 20 nested tags of the same type before just ignoring them all together. </blockquote>
  
  bool HTMLParser::allowNestedRedundantTag(const AtomicString& tagName)
  {
