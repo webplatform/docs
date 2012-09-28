@@ -378,7 +378,7 @@ We have to take care of at least the following error conditions:
 
 Let's see some Webkit error tolerance examples:
 
-'''<code></br></code> instead of </code><br></code>'''
+'''<code></br></code> instead of <code><br></code>'''
 
 Some sites use <code></br></code> instead of <code><br></code>. In order to be compatible with IE and Firefox, Webkit treats this like <code><br></code>. The code:
 
