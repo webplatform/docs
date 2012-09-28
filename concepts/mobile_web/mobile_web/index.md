@@ -1,8 +1,9 @@
+{{Page_Title}}
 {{Flags}}
+{{API_Name}}
 {{Summary_Section|This concept page explains in general terms what mobile web is and its brief history.}}
 {{Concept_Page
-|Content=
-== Introduction ==
+|Content=== Introduction ==
  
 The [http://www.w3.org/wiki/Web_Standards_Curriculum Web Standards Curriculum Table of contents] is about advocating best practices for the web and providing complete coverage of all the skills you need to create modern Web sites, in doing so making the Web a better place for all of us to work and browse. This mini series expands the core web standards curriculum articles, look at all the skills and concepts you should take on board to help optimize your Web sites so that they run successfully on mobile (and other alternative) devices. I’ll start by taking a look at the subject area in general and special considerations for marking up and running pages on mobile devices, then move on to styling, scripting and testing as they relate to '''mobile web development'''.
 
@@ -78,8 +79,8 @@ Mobiles (and laptops for that matter) can go with you wherever you go, which ope
 Mobile devices have many hardware features that desktop computers don’t. The two most obvious are:
  
 * '''Camera''': You’ll be hard-pressed to buy a phone that doesn’t have a built-in camera these days and we are beginning to see APIs to allow web applications to interface with such devices.
-* '''Phone''': Let’s not forget that the primary purpose of a mobile phone is to call people! This can be smoothly integrated into your website by using the little known <code>tel:</code> protocol. Just like you use a <code>mailto:</code> to link to an email address, you use <code>tel:</code> to link to a phone number. When you click the <code>tel:</code> link it causes the phone to dial   <pre><code>&lt;a href="tel:5121234567"&gt;Phone 5121234567 to book a table&lt;/a&gt;</code> </pre>  Note the inclusion of the phone number in the link text as well — while this may seem a little repetitious, bear in mind that some browsing devices won’t support the <code>tel:</code> protocol, such as our old friend the desktop computer.
- 
+* '''Phone''': Let’s not forget that the primary purpose of a mobile phone is to call people! This can be smoothly integrated into your website by using the little known <code>tel:</code> protocol. Just like you use a <code>mailto:</code> to link to an email address, you use <code>tel:</code> to link to a phone number. When you click the <code>tel:</code> link it causes the phone to dial   <pre>&lt;a href="tel:5121234567"&gt;Phone 5121234567 to book a table&lt;/a&gt;</pre>  Note the inclusion of the phone number in the link text as well — while this may seem a little repetitious, bear in mind that some browsing devices won’t support the <code>tel:</code> protocol, such as our old friend the desktop computer.
+
 == Mobile web technologies ==
 
 Your knowledge of Web Standards as applied to creating traditional web sites can easily be applied to developing mobile sites. There are however some additional acronyms and a bit of history to fully understand where we are today and how we got here. Depending on your target audience and the types of phones they are using, you might just be able to stick to standard HTML and CSS, or you might need to take a step back to something different.
@@ -92,7 +93,8 @@ Just like web browsers use HTML for content structure, older mobile device brows
  
 The following is an example WML file:
  
-<pre><code>&lt;?xml version="1.0"?&gt;
+<pre>
+&lt;?xml version="1.0"?&gt;
 &lt;!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
 "http://www.wapforum.org/DTD/wml_1.1.xml"&gt;
 &lt;wml&gt;
@@ -102,7 +104,7 @@ The following is an example WML file:
   &lt;card id="contact" title="Example Contact Page"&gt;
     &lt;p&gt;Welcome to the Example Contact page&lt;/p&gt;
   &lt;/card&gt;
-&lt;/wml&gt;</code>
+&lt;/wml&gt;
 </pre>
  
 There are several downsides to using WML. Even though it does have a scripting language, it does not allow for very rich interactions or applications to be built. It was designed for very small screen and low-resolution devices. Older WML browsers do not support more widespread image formats such as GIF and JPEG. The corresponding image format, WBMP, supports only a black and white color scheme and it is difficult to create WBMPs as they are not easily supported in modern image manipulation tools. WML is also not easily interoperable with other markup formats, so having a WML version of your site does mean that you need to maintain two separate versions of a web site, which adds complexity, overhead and cost to the project.
@@ -125,7 +127,8 @@ Since XHTML-MP and XHTML-Basic are a subset of XHTML, they have more restriction
  
 the below code shows an example XHTML-MP document (note the different doctype):
  
-<pre><code>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+<pre>
+&lt;?xml version="1.0" encoding="UTF-8"?&gt;
 &lt;!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.1//EN"
  "http://www.openmobilealliance.org/tech/DTD/xhtml-mobile11.dtd"&gt;
 &lt;html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"&gt;
@@ -135,7 +138,7 @@ the below code shows an example XHTML-MP document (note the different doctype):
   &lt;body&gt;
     &lt;h1&gt;Example XHTML-MP page&lt;/h1&gt;
   &lt;/body&gt;
-&lt;/html&gt;</code>
+&lt;/html&gt;
 </pre>
  
 Note that one subtle difference between XHTML-MP and XHTML-Basic is that XHTML-Basic needs to be served up with a mimetype of <code>application/xhtml+xml</code>. Doing so tends to break older versions of Internet Explorer, which attempt to download or display the file as XML, rather than render it as a Web page. XHTML-MP on the other hand commonly uses a mimetype of <code>application/vnd.wap.xhtml+xml</code>, but can also be served as <code>application/xhtml+xml</code> or even <code>text/html</code> so that any browser can display it.
@@ -162,13 +165,13 @@ Let's look at simple image replacement use case, to give you more of an idea of 
  
 Figure 1 shows the final result we'd like.
 
-[[Image:mobile_figure1.jpg|finished heading with background gradient and image replacement]] 
+[[File:Mobile figure1.jpg|finished heading with background gradient and image replacement]] 
 
 Figure 1: Our finished heading, with background gradient and image replacement.
  
 The markup for this heading looks like so:
  
-<pre><code>&lt;h1&gt;&lt;span&gt;ABC co.&lt;/span&gt;&lt;/h1&gt;</code></pre>
+<pre>&lt;h1&gt;&lt;span&gt;ABC co.&lt;/span&gt;&lt;/h1&gt;</pre>
  
 The process by which we would optimize this heading might go something like this.
 
