@@ -522,7 +522,7 @@ This means a ruleset is a selector or optionally number of selectors separated b
 
 Webkit uses [#parser_generators Flex and Bison] parser generators to create parsers automatically from the CSS grammar files. As you recall from the parser introduction, Bison creates a bottom up shift-reduce parser. Firefox uses a top down parser written manually. In both cases each CSS file is parsed into a StyleSheet object, each object contains CSS rules. The CSS rule objects contain selector and declaration objects and other object corresponding to CSS grammar.
 
-[[Image:image023.png.pagespeed.ce.uVfINk36yE.png|Figure 12: parsing CSS]]
+[[Image:image023.png.pagespeed.ce.uVfINk36yE.png]] Figure 12: parsing CSS
 
 ===The order of processing scripts and style sheets===
 
@@ -593,11 +593,9 @@ There are DOM elements which correspond to several visual objects. These are usu
 
 Some render objects correspond to a DOM node but not in the same place in the tree. Floats and absolutely positioned elements are out of flow, placed in a different place in the tree, and mapped to the real frame. A placeholder frame is where they should have been.
 
-[[Image:image025.png.pagespeed.ce.3lhNd6H7V4.png|Figure 13: The render tree and the corresponding DOM tree ([[#3_1|3.1]])]].
+[[Image:image025.png.pagespeed.ce.3lhNd6H7V4.png]] Figure 13: The render tree and the corresponding DOM tree ([[#3_1|3.1]]). The "Viewport" is the initial containing block. In Webkit it will be the "RenderView" object.
 
-The "Viewport" is the initial containing block. In Webkit it will be the "RenderView" object.
-
-'''The flow of constructing the tree'''
+=====The flow of constructing the tree=====
 
 In Firefox, the presentation is registered as a listener for DOM updates. The presentation delegates frame creation to the <code>FrameConstructor</code> and the constructor resolves style (see [#style style computation]) and creates a frame.
 
@@ -649,7 +647,7 @@ Webkit nodes references style objects (RenderStyle) These objects can be shared 
 
 Firefox has two extra trees for easier style computation - the rule tree and style context tree. Webkit also has style objects but they are not stored in a tree like the style context tree, only the DOM node points to its relevant style.
 
-[[Image:image035.png.pagespeed.ce.OBCNQe7-zP.png|Figure 14: Firefox style context tree ([[#2_2|2.2]])]]
+[[Image:image035.png.pagespeed.ce.OBCNQe7-zP.png]] Figure 14: Firefox style context tree ([[#2_2|2.2]])
 
 The style contexts contain end values. The values are computed by applying all the matching rules in the correct order and performing manipulations that transform them from logical to concrete values. For example - if the logical value is percentage of the screen it will be calculated and transformed to absolute units. The rule tree idea is really clever. It enables sharing these values between nodes to avoid computing them again. This also saves space.
 
@@ -706,17 +704,17 @@ Lets see an example: Suppose we have this HTML
  </nowiki>
 </source>
 
-To simplify things let's say we need to fill out only two structs - the color struct and the margin struct. The color struct contains only one member - the color The margin struct contains the four sides. The resulting rule tree will look like this (the nodes are marked with the node name : the # of rule they point at):  
+To simplify things let's say we need to fill out only two structs - the color struct and the margin struct. The color struct contains only one member - the color The margin struct contains the four sides. <br /> The resulting rule tree will look like this (the nodes are marked with the node name : the # of rule they point at):  
 
-[[Image:image027.png.pagespeed.ce.TLG6gekZu0.png|Figure 15: The rule tree]
+[[Image:image027.png.pagespeed.ce.TLG6gekZu0.png]] Figure <nowiki>: The rule tree
 
 The context tree will look like this (node name : rule node they point to):  
 
-[[Image:image029.png.pagespeed.ce.eMpvvZaI8B.png|Figure 16: The context tree]
+[[Image:image029.png.pagespeed.ce.eMpvvZaI8B.png]]  Figure <nowiki>: The context tree
 
-Suppose we parse the HTML and get to the second <code>&lt;div&gt;</code> tag. We need to create a style context for this node and fill its style structs.
+Suppose we parse the HTML and get to the second <div> tag. We need to create a style context for this node and fill its style structs.
 
-We will match the rules and discover that the matching rules for the <code>&lt;div&gt;</code> are 1 ,2 and 6. This means there is already an existing path in the tree that our element can use and we just need to add another node to it for rule 6 (node F in the rule tree). 
+We will match the rules and discover that the matching rules for the <div> are 1 ,2 and 6. This means there is already an existing path in the tree that our element can use and we just need to add another node to it for rule 6 (node F in the rule tree). 
 
 We will create a style context and put it in the context tree. The new style context will point to node F in the rule tree.
 
@@ -726,11 +724,11 @@ We do have a definition for the color struct, so we can't use a cached struct. S
 
 The work on the second <span> element is even easier. We will match the rules and come to the conclusion that it points to rule G, like the previous span. Since we have siblings that point to the same node, we can share the entire style context and just point to the context of the previous span.
 
-For structs that contain rules that are inherited from the parent, caching is done on the context tree (the color property is actually inherited, but Firefox treats it as reset and caches it on the rule tree). For instance if we added rules for fonts in a paragraph:
+For structs that contain rules that are inherited from the parent, caching is done on the context tree (the color property is actually inherited, but Firefox treats it as reset and caches it on the rule tree). <br /> For instance if we added rules for fonts in a paragraph:
  
  p {font-family:Verdana;font size:10px;font-weight:bold}
 
-Then the paragraph element, which is a child of the div in the context tree, could have shared the same font struct as his parent. This is if no font rules where specified for the paragraph.
+ Then the paragraph element, which is a child of the div in the context tree, could have shared the same font struct as his parent. This is if no font rules where specified for the paragraph.
 
 In Webkit, who does not have a rule tree, the matched declarations are traversed 4 times. First non important high priority properties (properties that should be applied first because others depend on them - like display) are applied, than high priority important, then normal priority non important, then normal priority important rules. This means that properties that appear multiple times will be resolved according to the correct cascade order. The last wins. <br />
 
@@ -772,7 +770,7 @@ We will first try to find rules for the p element. The class map will contain an
 
 Both Webkit and Firefox do this manipulation.
 
-'''Applying the rules in the correct cascade order'''
+=====Applying the rules in the correct cascade order=====
 
 The style object has properties corresponding to every visual attribute (all css attributes but more generic). If the property is not defined by any of the matched rules - then some properties can be inherited by the parent element style object. Other properties have default values.
 
@@ -790,7 +788,7 @@ The problem begins when there is more than one definition - here comes the casca
 
 The browser declarations are least important and the user overrides the author only if the declaration was marked as important. Declarations with the same order will be sorted by [#Specificity specificity] and then the order they are specified. The HTML visual attributes are translated to matching CSS declarations . They are treated as author rules with low priority.
 
-'''Specificity'''
+=====Specificity=====
 
 The selector specificity is defined by the [http://www.w3.org/TR/CSS2/cascade.html#specificity CSS2 specification] as follows:
 
@@ -817,7 +815,7 @@ Some examples:
   #x34y         {}  /* a=0 b=1 c=0 d=0 -> specificity = 0,1,0,0 */
   style=""          /* a=1 b=0 c=0 d=0 -> specificity = 1,0,0,0 */
 
-'''Sorting the rules'''
+=====Sorting the rules=====
 
 After the rules are matched, they are sorted according to the cascade rules. Webkit uses bubble sort for small lists and merge sort for big ones. Webkit implements sorting by overriding the ">" operator for the rules:
 
