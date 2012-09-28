@@ -1,9 +1,11 @@
-{{Flags}}
+{{Page_Title}}
+{{Flags
+|Content=Not Neutral, Examples Errors
+|Editorial notes=Need to check the compatibility of the code example that contains (typeof object == 'xml'); might be Gecko-specific.
+}}
 {{Summary_Section|JavaScript is an object-based language based on prototypes, rather than being class-based. Because of this different basis, it can be less apparent how JavaScript allows you to create hierarchies of objects and to have inheritance of properties and their values. This chapter attempts to clarify the situation.
 
 This chapter assumes that you are already somewhat familiar with JavaScript and that you have used JavaScript functions to create simple objects.
-
-
 }}
 {{Guide
 |Content===Class-based vs. prototype-based languages==
@@ -182,7 +184,7 @@ The <code>Engineer</code> and <code>SalesPerson</code> definitions create object
 
 Using these definitions, you can create instances of these objects that get the default values for their properties. Figure 8.3 illustrates using these JavaScript definitions to create new objects and shows the property values for the new objects.
 
-<div class="note">'''Note:''' The term ''''instance'''' has a specific technical meaning in class-based languages. In these languages, an instance is an individual member of a class and is fundamentally different from a class. In JavaScript, "instance" does not have this technical meaning because JavaScript does not have this difference between classes and instances. However, in talking about JavaScript, "instance" can be used informally to mean an object created using a particular constructor function. So, in this example, you could informally say that <code><code>jane</code></code> is an instance of <code><code>Engineer</code></code>. Similarly, although the terms ''''parent'', ''child'', ''ancestor'''', and ''''descendant'''' do not have formal meanings in JavaScript; you can use them informally to refer to objects higher or lower in the prototype chain.</div>
+{{Note|The term ''''instance'''' has a specific technical meaning in class-based languages. In these languages, an instance is an individual member of a class and is fundamentally different from a class. In JavaScript, "instance" does not have this technical meaning because JavaScript does not have this difference between classes and instances. However, in talking about JavaScript, "instance" can be used informally to mean an object created using a particular constructor function. So, in this example, you could informally say that <code><code>jane</code></code> is an instance of <code><code>Engineer</code></code>. Similarly, although the terms ''''parent'', ''child'', ''ancestor'''', and ''''descendant'''' do not have formal meanings in JavaScript; you can use them informally to refer to objects higher or lower in the prototype chain.}}
 
 [[File:figure8.3.png|Figure 8.3: Creating objects with simple definitions]]
 
@@ -311,7 +313,7 @@ These JavaScript definitions use a special idiom for setting default values:
 
 The JavaScript logical OR operator (<code>{{!}}{{!}}</code>) evaluates its first argument. If that argument converts to true, the operator returns it. Otherwise, the operator returns the value of the second argument. Therefore, this line of code tests to see if <code>name</code> has a useful value for the <code>name</code> property. If it does, it sets <code>this.name</code> to that value. Otherwise, it sets <code>this.name</code> to the empty string. This chapter uses this idiom for brevity; however, it can be puzzling at first glance.
 
-<div class="note">'''Note:''' This may not work as expected if the constructor function is called with arguments which convert to <code><code>false</code></code> (like <code>0</code> (zero) and empty string (<code><code>""</code></code>). In this case the default value will be chosen.</div>
+{{Note|This may not work as expected if the constructor function is called with arguments which convert to <code><code>false</code></code> (like <code>0</code> (zero) and empty string (<code><code>""</code></code>). In this case the default value will be chosen.}}
 
 With these definitions, when you create an instance of an object, you can specify values for the locally defined properties. As shown in [[#figure8.5|Figure 8.5]], you can use the following statement to create a new <code>Engineer</code><nowiki>:</nowiki>
 
@@ -495,7 +497,7 @@ Given this, you could write an <code>instanceOf</code> function as follows:
     return false;
  }./
 
-{{Note| The implementation above checks the type of the object against "xml" in order to work around a quirk of how XML objects are represented in recent versions of JavaScript. See [https://bugzilla.mozilla.org/show_bug.cgi?id=634150 bug 634150] if you want the nitty-gritty details.}}
+{{Note|The implementation above checks the type of the object against "xml" in order to work around a quirk of how XML objects are represented in recent versions of JavaScript.}}
 
  instanceOf (chris, Engineer)
  instanceOf (chris, WorkerBee)
@@ -602,6 +604,12 @@ The <code>dennis</code> object does not inherit this new property.
 <span style="float: left">[[/guides/JavaScript/core_objects|&laquo; Previous]]</span>[[/guides/JavaScript/Inheritance|Next &raquo;]]
 
 </div>
+}}
+{{Compatibility_Section
+|Not_required=Yes
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section}}
 {{Topics|Inheritance, JavaScript}}
