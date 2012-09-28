@@ -206,9 +206,11 @@ If you're transitioning to SVG from [[Canvas]], arcs can be the hardest thing to
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics}}
+{{Topics|SVG}}
 {{External_Attribution
 |Is_CC-BY-SA=Yes
 |Sources=MDN
 |MDN_link=https://developer.mozilla.org/en-US/docs/SVG/Tutorial/Paths
+|MSDN_link=
+|HTML5Rocks_link=
 }}
