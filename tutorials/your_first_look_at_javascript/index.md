@@ -196,6 +196,9 @@ As the environment JavaScript is being applied to is very much unknown (users ca
 {{Topics|JavaScript}}
 {{External_Attribution
 |Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
 }}
 == Introduction ==
  
