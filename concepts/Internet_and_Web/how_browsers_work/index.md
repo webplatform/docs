@@ -452,10 +452,8 @@ Again - the comment speaks for itself.
 
 <blockquote> Support for really broken html. We never close the body tag, since some stupid web pages close it before the actual end of the doc. Let's rely on the end() call to close things. </blockquote>
 
- 
  if (t->tagName == htmlTag {{!}}{{!}} t->tagName == bodyTag )
-         return;
- 
+         return; 
 
 So web authors beware - unless you want to appear as an example in a Webkit error tolerance code snippet - write well formed HTML.
 
@@ -513,7 +511,6 @@ Explanation: A ruleset is this structure:
 
 div.error and a.error are selectors. The part inside the curly braces contains the rules that are applied by this ruleset. This structure is defined formally in this definition:
 
- 
  ruleset
    : selector [ ',' S* selector ]*
      '{' S* declaration [ ';' S* declaration ]* '}' S*
@@ -546,7 +543,6 @@ Style sheets on the other hand have a different model. Conceptually it seems tha
 While the DOM tree is being constructed, the browser constructs another tree, the render tree. This tree is of visual elements in the order in which they will be displayed. It is the visual representation of the document. The purpose of this tree is to enable painting the contents in their correct order.
 
 Firefox calls the elements in the render tree "frames". Webkit uses the term renderer or render object. A renderer knows how to layout and paint itself and its children. Webkits RenderObject class, the base class of the renderers, has the following definition:
-
  
  class RenderObject{
    virtual void layout();
@@ -558,7 +554,6 @@ Firefox calls the elements in the render tree "frames". Webkit uses the term ren
  }
 
 Each renderer represents a rectangular area usually corresponding to the node's CSS box, as described by the CSS2 spec. It contains geometric information like width, height and position. The box type is affected by the "display" style attribute that is relevant for the node (see the [#style_computation style computation] section). Here is Webkit code for deciding what type of renderer should be created for a DOM node, according to the display attribute.
-
  
  RenderObject* RenderObject::createObject(Node* node, RenderStyle* style)
  {
@@ -598,7 +593,7 @@ There are DOM elements which correspond to several visual objects. These are usu
 
 Some render objects correspond to a DOM node but not in the same place in the tree. Floats and absolutely positioned elements are out of flow, placed in a different place in the tree, and mapped to the real frame. A placeholder frame is where they should have been.
 
-[[Image:image025.png.pagespeed.ce.3lhNd6H7V4.png]] Figure <nowiki>: The render tree and the corresponding DOM tree (</nowiki>[#3_1 3.1]). The "Viewport" is the initial containing block. In Webkit it will be the "RenderView" object.
+[[Image:image025.png.pagespeed.ce.3lhNd6H7V4.png]] Figure 13: The render tree and the corresponding DOM tree ([[#3_1|3.1]]). The "Viewport" is the initial containing block. In Webkit it will be the "RenderView" object.
 
 =====The flow of constructing the tree=====
 
