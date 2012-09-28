@@ -91,7 +91,9 @@ It's important to understand that this is a gradual process. For better user exp
 
 ====Main flow examples====
 
-[[Image:webkitflow.png.pagespeed.ce.KhQEkvbb3q.png|Figure 3: Webkit main flow]] [[Image:image008.jpg.pagespeed.ce.ntM9Ajv-KW.jpg|Figure 4: Mozilla's Gecko rendering engine main flow([[#3_6|3.6]])]]
+[[Image:webkitflow.png.pagespeed.ce.KhQEkvbb3q.png|Figure 3: Webkit main flow]]
+
+[[Image:image008.jpg.pagespeed.ce.ntM9Ajv-KW.jpg|Figure 4: Mozilla's Gecko rendering engine main flow([[#3_6|3.6]])]]
 
 From figures 3 and 4 you can see that although Webkit and Gecko use slightly different terminology, the flow is basically the same.
 
