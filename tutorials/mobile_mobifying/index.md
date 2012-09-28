@@ -19,35 +19,35 @@ The mobile battlefield is still uncharted waters for a large number of developer
 
 As an exercise I thought it would be interesting to take HTML5Rocks!, already an HTML5 site, and augment it with a mobile-friendly version. I was mainly concerned with the minimum amount of work required to target smart phones. The goal of my exercise was not to create an entirely new mobile site and maintain two codebases. That would take forever and be a huge waste of time. We had already defined the site's structure (markup). We had a look and feel (CSS). The core functionality (JS) was there. The point is, many sites are in the same boat.
 
-This article examines how we created a mobile version of HTML5Rocks! optimized for Android and iOS devices. Just load html5rocks.com on a device that supports one of those OSs to see the difference. There are no redirects to a specific mobile version such as "m.html5rocks.com" or other tomfoolery of that nature. You get HTML5Rocks! as is... with the added benefit of something that looks great and works well on a mobile device.
+This article examines how we created a mobile version of HTML5Rocks! optimized for Android and iOS devices. Just load html5rocks.com on a device that supports one of those OSs to see the difference. There are no redirects to a specific mobile version such as "m.html5rocks.com" or other tomfoolery. You get HTML5Rocks! as is... with the added benefit of something that looks great and works well on a mobile device.
 
 [[Image:mob01-h5r.png|Desktop and mobile html5rocks.com]]<br/>
 ''html5rocks.com on desktop (left) and mobile (right)''
 
 ==CSS3 Media queries==
 
-HTML4 and CSS2 have supported [http://www.w3.org/TR/CSS2/media.html media-dependent style sheets] for some time. For example, this stylesheet reference:
+HTML4 and CSS2 have supported [http://www.w3.org/TR/CSS2/media.html media-dependent style sheets] for some time. For example:
 
 <pre>
  <link rel="stylesheet" media="print" href="printer.css">
 </pre>
 
-would target print devices and provide specific styling for the page content when it is printed. CSS3 takes the idea of media types one step further and enhances their functionality with [http://www.w3.org/TR/css3-mediaqueries/ media queries]. Media queries extend the usefulness of media types by allowing more precise labeling of style sheets. This enables the content's presentation to be customized to a specific range of output devices ''without having to change the content''. Sounds perfect for an existing layout that needs modifying!
+This stylesheet reference targets print devices and provides specific styling for the page content when it is printed. CSS3 takes the idea of media types one step further and enhances their functionality with [http://www.w3.org/TR/css3-mediaqueries/ media queries]. Media queries extend the usefulness of media types by allowing more precise labeling of style sheets. This enables the content's presentation to be customized to a specific range of output devices ''without having to change the content''. Sounds perfect for an existing layout that needs modifying!
 
 You can use media queries in the <code>media</code> attribute of your external stylesheets to target screen width, device width, orientation, etc. For the full list, see the [http://www.w3.org/TR/css3-mediaqueries/ W3C media query specification].
 
 ===Targeting screen sizes===
 
-In the following example, <code>phone.css</code> would apply to devices that the browser considers "handheld" or devices with screens less than or equal to 320px wide.
+In the following example, <code>phone.css</code> would apply to devices that the browser considers "handheld" or devices with screen widths no more than 320px.
 
 <pre>
  <link rel="stylesheet"
    media="handheld, only screen and (max-device-width: 320px)" href="phone.css">
 </pre>
 
-Prefixing a media queries with the "<code>only</code>" keyword will cause non CSS3-compliant browsers to ignore the rule.
+Prefixing media queries with the "<code>only</code>" keyword causes non-CSS3-compliant browsers to ignore the rule.
 
-The following would target screen sizes between 641px and 800px:
+The following targets screen widths between 641px and 800px:
 
 <pre>
  <link rel="stylesheet"
@@ -73,17 +73,17 @@ It would be ideal to use this feature to target mobile devices, but various brow
 * Some read both the handheld style sheet and the screen style sheet.
 * Some read only the screen style sheet.
 
-Opera Mini does '''not''' ignore <code>media="handheld"</code>. The trick to getting Windows Mobile to recognize <code>media="handheld"</code> is to capitalize on the media attribute value for the screen stylesheet:
+Opera Mini, for example, does '''not''' ignore <code>media="handheld"</code>. The trick to getting Windows Mobile to recognize <code>media="handheld"</code> is to capitalize on the media attribute value for the screen stylesheet:
 
 <pre>
  <!-- media="handheld" trick for Windows Mobile -->
- <link rel="stylesheet" href="screen.css" media="Screen">
+ <link rel="stylesheet" href="screen.css" media="screen">
  <link rel="stylesheet" href="mobile.css" media="handheld">
 </pre>
 
 ===How html5rocks.com uses media queries===
 
-Media queries are used heavily throughout mobile HTML5Rocks!. They allow us tweak the layout without having to make significant changes to our Django template markup&mdash;a real lifesaver! In addition, [http://caniuse.com/#search=media%20queries their support] across the various browsers is pretty good.
+Media queries are used heavily throughout mobile HTML5Rocks!. They allow us tweak the layout without having to make significant changes to our Django template markup&mdash;a real lifesaver! In addition, their support across the various browsers is pretty good. (See the compatibility tables at the end of this article for specific information.)
 
 In the <code><head></code> of each page you'll see the following stylesheets:
 
@@ -94,15 +94,15 @@ In the <code><head></code> of each page you'll see the following stylesheets:
    media="only screen and (max-width: 800px)" href="/static/css/mobile.min.css" />
 </pre>
 
-[/static/css/base.css <code>base.css</code>] has always defined the main look and feel of html5rocks.com, but now we're applying new styles (in [/static/css/mobile.css <code>mobile.css</code>]) for screen widths under 800px. Its media query covers smart phones (~320px) and the iPad (~768px). The effect: we're incrementally overriding styles in <code>base.css</code> only as necessary to make things look better in mobile.
+[http://www.html5rocks.com/static/css/base.css <code>base.css</code>] has always defined the main look and feel of html5rocks.com, but now we're applying new styles (in [http://www.html5rocks.com/static/css/mobile.css <code>mobile.css</code>]) for screen widths under 800px. Its media query covers smart phones (~320px) and the iPad (~768px). The effect: we're incrementally overriding styles in <code>base.css</code> only as necessary to make things look better in mobile.
 
-Some of the styling changes that <code>mobile.css</code> enforces:
+Some of the styling changes that <code>mobile.css</code> enforces are:
 
-* Reduces extra whitespace/padding across the site. Small screens means space is at a premium!
+* Reduces extra whitespace/padding across the site. Small screens mean space is at a premium!
 * Removes <code>:hover</code> states. They'll never been seen on touch devices.
 * Adjusts the layout to be single-column. More on this later.
 * Removes the <code>box-shadow</code> around the site's main container div. Large box shadows reduce page performance.
-* Used CSS flex box model <code>box-ordinal-group</code> to change the ordering of each section on the homepage. You'll notice that "LEARN BY MAJOR HTML5 FEATURE GROUPS" comes before the "TUTORIALS" section on the homepage but after it on the mobile version. This ordering made more sense for mobile and didn't require markup changes. CSS flexbox FTW!
+* Uses CSS flex box model <code>box-ordinal-group</code> to change the ordering of each section on the homepage. You'll notice that "LEARN BY MAJOR HTML5 FEATURE GROUPS" comes before the "TUTORIALS" section on the homepage but after it on the mobile version. This ordering made more sense for mobile and didn't require markup changes. CSS flexbox FTW!
 * Removes <code>opacity</code> changes. Changing alpha values is a performance hit on mobile.
 
 ==Mobile meta tags==
@@ -162,7 +162,7 @@ iOS and Android devices also accept <code>rel="apple-touch-icon"</code> (iOS) an
 
 ===How html5rocks uses mobile meta tags===
 
-Putting everything together, here is a snippet from the <code><head></code> section of html5rocks:
+Putting everything together, here is a snippet from the <code><head></code> section of html5rocks.com:
 
 <pre>
  <head>
@@ -198,7 +198,7 @@ One easy way to deal with that is to scroll the page using JavaScript. Even doin
 [[Image:mob03-uab.png|Ugly address bar]]<br/>
 ''Ugly address bar takes up screen real estate''
 
-The code to fix that:
+Here is the code to fix that:
 
 <pre>
  {% if is_mobile % }
@@ -218,8 +218,8 @@ It's a known fact that reducing the number of HTTP requests can greatly improve 
 The following are some of the approaches we took to minimize network requests and reduce bandwidth on html5rocks.com.
 
 * '''Remove iframes''' &mdash; iframes are slow! A large amount of our latency came from 3rd-party sharing widgets (Buzz, Google Friend Connect, Twitter, Facebook) on tutorial pages. These APIs were included via <code>&lt;script&gt;</code> tags and created iframes that diminish the speed of the page. The widgets were removed for mobile.
-* <code>'''display:none'''</code> &mdash; In certain cases, we were hiding markup if it didn't fit the mobile profile. A good example were the four rounded boxes at the top of the homepage:<br/>[[Image:mob04-bbh.png|Box buttons on homepage]]<br/>Box buttons on homepage.<br/>They're missing from the mobile site. It's important to remember that the browser still makes a request for each icon, despite their container being hidden with <code>display:none</code>. Therefore, it wasn't sufficient to simply hide these buttons. Not only would that be wasting bandwidth, but the user wouldn't even see the fruits of that wasted bandwidth! The solution was to create an "is_mobile" boolean in our Django template to conditionally omit sections of HTML. When the user is viewing the site on a smart device, the buttons are left out.
-* '''[#toc-optimizations-appcache Application Cache]''' &mdash; Not only does this give us offline support, but it also creates a faster startup.
+* <code>'''display:none'''</code> &mdash; In certain cases, we were hiding markup if it didn't fit the mobile profile. A good example were the four rounded boxes at the top of the homepage:<br/>[[Image:mob04-bbh.png|Box buttons on homepage]]<br/>''Box buttons on homepage''<br/>They're missing from the mobile site. It's important to remember that the browser still makes a request for each icon, despite their container being hidden with <code>display:none</code>. Therefore, it wasn't sufficient to simply hide these buttons. Not only would that be wasting bandwidth, but the user wouldn't even see the fruits of that wasted bandwidth! The solution was to create an "is_mobile" boolean in our Django template to conditionally omit sections of HTML. When the user is viewing the site on a smart device, the buttons are left out.
+* '''Application Cache''' &mdash; Not only does this give us offline support, but it also creates a faster startup.
 * '''CSS/JS compression''' &mdash; We're using YUI compressor instead of [http://code.google.com/closure/compiler/ Closure compiler] mainly because it handles both CSS and JS. One issue that we ran into was that inline media queries (media queries that appear inside a stylesheet) barfed in YUI compressor 2.4.2 (see [http://www.456bereastreet.com/archive/201012/yui_compressor_and_css_media_queries/ this issue]). Using YUI Compressor 2.4.4+ fixed the problem.
 * Used CSS image sprites where possible.
 * Used pngcrush for image compression.
@@ -232,16 +232,8 @@ Additional performance tweaks:
 * Moved JS to the bottom of the page where possible.
 * Removed inline <code>&lt;style&gt;</code> tags.
 * '''Cached DOM lookups and minimized DOM manipulations''' &mdash; Every time you touch the DOM the browser performs a [http://dev.opera.com/articles/view/efficient-javascript/?page=3 reflow]. Reflows are even more costly on a mobile device.
-* Offloaded wasteful client-side code to the server. Specifically, the check to set the navigation styling of the current page:<br/><pre>
- var lis = document.querySelectorAll('header nav li');
- var i = lis.length;
- while (i--) {
-   var a = lis[i].querySelector('a');
-   var section = a.getAttribute("data-section");
-   if (new RegExp(section).test(document.location.href)) {
-     a.className = 'current';
-   }
- }</pre>
+* Offloaded wasteful client-side code to the server. Specifically, the check to set the navigation styling of the current page:<br/><pre> var lis = document.querySelectorAll('header nav li');<br/> var i = lis.length;<br/> while (i--) {<br/>
+   var a = lis[i].querySelector('a');<br/>   var section = a.getAttribute("data-section");<br/>   if (new RegExp(section).test(document.location.href)) {<br/>     a.className = 'current';<br/>   }<br/> }</pre>
 * Elements with fixed widths were replaced with fluid <code>width:100%</code> or <code>width:auto</code>.
 
 ===Application Cache===
@@ -275,6 +267,24 @@ Second, we used the JS API to inform the user when a new manifest has finished d
 
 To save network traffic, keep your manifest simple. That is, don't call out every page on your site. Just list the important images, CSS, and JavaScript files. The last thing you want to do is force the mobile browser to download a large number of assets on every appcache update. Instead, remember that the browser will implicitly cache an html page when the user visits it (and if it includes a <code><html manifest="..."></code> attribute).
 
+|manifest))
+   expiration: "0s"
+</pre>
+
+Second, we used the JS API to inform the user when a new manifest has finished downloading_ They're prompted to refresh the page:
+
+<pre>
+ window_applicationCache_addEventListener('updateready', function(e) {
+   if (window_applicationCache_status== window.applicationCache.UPDATEREADY) {
+     '''window.applicationCache.swapCache();'''
+     if (confirm('A new version of this site is available. Load it?')) {
+       '''window.location.reload();'''
+     }
+   }
+ }, false);
+</pre>
+
+To save network traffic, keep your manifest simple. That is, don't call out every page on your site. Just list the important images, CSS, and JavaScript files. The last thing you want to do is force the mobile browser to download a large number of assets on every appcache update. Instead, remember that the browser will implicitly cache an html page when the user visits it (and if it includes a <code><html manifest="..."></code> attribute).
 }}
 {{Compatibility_Section
 |Not_required=No
