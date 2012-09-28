@@ -2,7 +2,8 @@
 {{Flags}}
 {{Summary_Section}}
 {{Tutorial
-|Content==New Tricks in XMLHttpRequest2==
+|Content
+==New Tricks in XMLHttpRequest2==
 ==By Eric Bidelman==
 Published May 27, 2011
 
