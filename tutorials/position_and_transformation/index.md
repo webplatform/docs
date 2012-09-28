@@ -4,7 +4,9 @@
 {{Tutorial
 |Content=== The grid ==
  
-[[Image:=Canvas_default_grid.png|=Canvas_default_grid.png]]For all elements, SVG uses a coordinate system or grid system similar to the one used by [[canvas]] (and by a whole lot of other computer drawing routines). That is, the top left corner of the document is considered to be the point (0,0). Positions are then measured in pixels from the top left corner, with the positive x direction being to the right, and the positive y direction being to the bottom. Note, that this is the opposite of the way you're taught to graph as a kid. However, this is the same way elements in HTML are positioned.
+[[Image:=Canvas_default_grid.png]]
+
+For all elements, SVG uses a coordinate system or grid system similar to the one used by [[canvas]] (and by a whole lot of other computer drawing routines). That is, the top left corner of the document is considered to be the point (0,0). Positions are then measured in pixels from the top left corner, with the positive x direction being to the right, and the positive y direction being to the bottom. Note, that this is the opposite of the way you're taught to graph as a kid. However, this is the same way elements in HTML are positioned.
 
 ==== Example: ====
  
