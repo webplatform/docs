@@ -727,7 +727,7 @@ For structs that contain rules that are inherited from the parent, caching is do
  
  p {font-family:Verdana;font size:10px;font-weight:bold}
 
- Then the paragraph element, which is a child of the div in the context tree, could have shared the same font struct as his parent. This is if no font rules where specified for the paragraph.
+Then the paragraph element, which is a child of the div in the context tree, could have shared the same font struct as his parent. This is if no font rules where specified for the paragraph.
 
 In Webkit, who does not have a rule tree, the matched declarations are traversed 4 times. First non important high priority properties (properties that should be applied first because others depend on them - like display) are applied, than high priority important, then normal priority non important, then normal priority important rules. This means that properties that appear multiple times will be resolved according to the correct cascade order. The last wins.
 
@@ -756,16 +756,18 @@ Let's see for example the following style rules:
  #messageDiv {height:50px}
  div {margin:5px}
 
- The first rule will be inserted into the class map. The second into the id map and the third into the tag map. <br /> For the following HTML fragment;
+ The first rule will be inserted into the class map. The second into the id map and the third into the tag map. For the following HTML fragment;
 
+<source>
  <p class="error">an error occurred </p>
  <div id=" messageDiv">this is a message</div>
+</source>
 
-We will first try to find rules for the p element. The class map will contain an "error" key under which the rule for "p.error" is found. The div element will have relevant rules in the id map (the key is the id) and the tag map. So the only work left is finding out which of the rules that were extracted by the keys really match. <br /> For example if the rule for the div was
+We will first try to find rules for the p element. The class map will contain an "error" key under which the rule for "p.error" is found. The div element will have relevant rules in the id map (the key is the id) and the tag map. So the only work left is finding out which of the rules that were extracted by the keys really match. For example if the rule for the div was
 
  table div {margin:5px}
 
- it will still be extracted from the tag map, because the key is the rightmost selector, but it would not match our div element, who does not have a table ancestor.
+it will still be extracted from the tag map, because the key is the rightmost selector, but it would not match our div element, who does not have a table ancestor.
 
 Both Webkit and Firefox do this manipulation.
 
@@ -777,7 +779,7 @@ The problem begins when there is more than one definition - here comes the casca
 
 '''Style sheet cascade order'''
 
- A declaration for a style property can appear in several style sheets, and several times inside a style sheet. This means the order of applying the rules is very important. This is called the "cascade" order. According to CSS2 spec, the cascade order is (from low to high):
+A declaration for a style property can appear in several style sheets, and several times inside a style sheet. This means the order of applying the rules is very important. This is called the "cascade" order. According to CSS2 spec, the cascade order is (from low to high):
 
 # Browser declarations
 # User normal declarations
@@ -802,7 +804,6 @@ The number base you need to use is defined by the highest count you have in one 
 
 Some examples:
 
- 
   *             {}  /* a=0 b=0 c=0 d=0 -> specificity = 0,0,0,0 */
   li            {}  /* a=0 b=0 c=0 d=1 -> specificity = 0,0,0,1 */
   li:first-line {}  /* a=0 b=0 c=0 d=2 -> specificity = 0,0,0,2 */
@@ -818,7 +819,6 @@ Some examples:
 
 After the rules are matched, they are sorted according to the cascade rules. Webkit uses bubble sort for small lists and merge sort for big ones. Webkit implements sorting by overriding the ">" operator for the rules:
 
- 
  static bool operator >(CSSRuleData& r1, CSSRuleData& r2)
  {
      int spec1 = r1.selector()->specificity();
@@ -859,15 +859,15 @@ Layout can be triggered on the entire render tree - this is "global" layout. Thi
 
 Layout can be incremental, only the dirty renderers will be layed out (this can cause some damage which will require extra layouts). <br /> Incremental layout is triggered (asynchronously) when renderers are dirty. For example when new renderers are appended to the render tree after extra content came from the network and was added to the DOM tree.
 
- [[Image:reflow.png.pagespeed.ce.Gq6DrRBdK_.png]]  Figure <nowiki>: Incremental layout - only dirty renderers and their children are layed out (</nowiki>[#3_6 3.6]).
+[[Image:reflow.png.pagespeed.ce.Gq6DrRBdK_.png|Figure 17: Incremental layout - only dirty renderers and their children are layed out ([[#3_6|3.6]])]].
 
 ====Asynchronous and Synchronous layout====
 
- Incremental layout is done asynchronously. Firefox queues "reflow commands" for incremental layouts and a scheduler triggers batch execution of these commands. Webkit also has a timer that executes an incremental layout - the tree is traversed and "dirty" renderers are layout out. <br /> Scripts asking for style information, like "offsetHeight" can trigger incremental layout synchronously. <br /> Global layout will usually be triggered synchronously. <br /> Sometimes layout is triggered as a callback after an initial layout because some attributes , like the scrolling position changed.
+ Incremental layout is done asynchronously. Firefox queues "reflow commands" for incremental layouts and a scheduler triggers batch execution of these commands. Webkit also has a timer that executes an incremental layout - the tree is traversed and "dirty" renderers are layout out. <br /> Scripts asking for style information, like "offsetHeight" can trigger incremental layout synchronously. <br /> Global layout will usually be triggered synchronously. Sometimes layout is triggered as a callback after an initial layout because some attributes , like the scrolling position changed.
 
 ====Optimizations====
 
- When a layout is triggered by a "resize" or a change in the renderer position(and not size), the renders sizes are taken from a cache and not recalculated.. <br /> In some cases - only a sub tree is modified and layout does not start from the root. This can happen in cases where the change is local and does not affect its surroundings - like text inserted into text fields (otherwise every keystroke would have triggered a layout starting from the root).
+ When a layout is triggered by a "resize" or a change in the renderer position(and not size), the renders sizes are taken from a cache and not recalculated. In some cases - only a sub tree is modified and layout does not start from the root. This can happen in cases where the change is local and does not affect its surroundings - like text inserted into text fields (otherwise every keystroke would have triggered a layout starting from the root).
 
 ====The layout process====
 
@@ -880,16 +880,15 @@ The layout usually has the following pattern:
 # Parent uses children accumulative heights and the heights of the margins and paddings to set it's own height - this will be used by the parent renderer's parent.
 # Sets its dirty bit to false.
 
-Firefox uses a "state" object(nsHTMLReflowState) as a parameter to layout (termed "reflow"). Among others the state includes the parents width. <br /> The output of the Firefox layout is a "metrics" object(nsHTMLReflowMetrics). It will contain the renderer computed height.
+Firefox uses a "state" object(nsHTMLReflowState) as a parameter to layout (termed "reflow"). Among others the state includes the parents width. The output of the Firefox layout is a "metrics" object(nsHTMLReflowMetrics). It will contain the renderer computed height.
 
 ====Width calculation====
 
-The renderer's width is calculated using the container block's width, the renderer's style "width" property, the margins and borders. <br /> For example the width of the following div:
+The renderer's width is calculated using the container block's width, the renderer's style "width" property, the margins and borders. For example the width of the following div:
 
- 
  <div style="width:30%"/>
 
- Would be calculated by Webkit as the following(class RenderBox method calcWidth):
+Would be calculated by Webkit as the following(class RenderBox method calcWidth):
 
 * The container width is the maximum of the containers availableWidth and 0. The availableWidth in this case is the contentWidth which is calculated as:  
  clientWidth() - paddingLeft() - paddingRight()
@@ -897,7 +896,7 @@ The renderer's width is calculated using the container block's width, the render
 * The elements width is the "width" style attribute. It will be calculated as an absolute value by computing the percentage of the container width.
 * The horizontal borders and paddings are now added.
 
- So far this was the calculation of the "preferred width". Now the minimum and maximum widths will be calculated. <br /> If the preferred width is higher then the maximum width - the maximum width is used. If it is lower then the minimum width (the smallest unbreakable unit) then the minimum width is used.
+So far this was the calculation of the "preferred width". Now the minimum and maximum widths will be calculated. <br /> If the preferred width is higher then the maximum width - the maximum width is used. If it is lower then the minimum width (the smallest unbreakable unit) then the minimum width is used.
 
 The values are cached, in case a layout is needed but the width does not change.
 
@@ -911,7 +910,7 @@ In the painting stage, the render tree is traversed and the renderers "paint" me
 
 ====Global and Incremental====
 
- Like layout, painting can also be global - the entire tree is painted - or incremental. In incremental painting, some of the renderers change in a way that does not affect the entire tree. The changed renderer invalidates it's rectangle on the screen. This causes the OS to see it as a "dirty region" and generate a "paint" event. The OS does it cleverly and coalesces several regions into one. In Chrome it is more complicated because the renderer is in a different process then the main process. Chrome simulates the OS behavior to some extent. The presentation listens to these events and delegates the message to the render root. The tree is traversed until the relevant renderer is reached. It will repaint itself (and usually its children).
+Like layout, painting can also be global - the entire tree is painted - or incremental. In incremental painting, some of the renderers change in a way that does not affect the entire tree. The changed renderer invalidates it's rectangle on the screen. This causes the OS to see it as a "dirty region" and generate a "paint" event. The OS does it cleverly and coalesces several regions into one. In Chrome it is more complicated because the renderer is in a different process then the main process. Chrome simulates the OS behavior to some extent. The presentation listens to these events and delegates the message to the render root. The tree is traversed until the relevant renderer is reached. It will repaint itself (and usually its children).
 
 ====The painting order====
 
@@ -925,26 +924,25 @@ In the painting stage, the render tree is traversed and the renderers "paint" me
 
 ====Firefox display list====
 
- Firefox goes over the render tree and builds a display list for the painted rectangular. It contains the renderers relevant for the rectangular, in the right painting order (backgrounds of the renderers, then borders etc). That way the tree needs to be traversed only once for a repaint instead of several times - painting all backgrounds, then all images , then all borders etc.
+Firefox goes over the render tree and builds a display list for the painted rectangular. It contains the renderers relevant for the rectangular, in the right painting order (backgrounds of the renderers, then borders etc). That way the tree needs to be traversed only once for a repaint instead of several times - painting all backgrounds, then all images , then all borders etc.
 
 Firefox optimizes the process by not adding elements that will be hidden, like elements completely beneath other opaque elements.
 
 ====Webkit rectangle storage====
 
- Before repainting, webkit saves the old rectangle as a bitmap. It then paints only the delta between the new and old rectangles. <br />
+Before repainting, webkit saves the old rectangle as a bitmap. It then paints only the delta between the new and old rectangles. <br />
 
 ===Dynamic changes===
 
- The browsers try to do the minimal possible actions in response to a change. So changes to an elements color will cause only repaint of the element. Changes to the element position will cause layout and repaint of the element, its children and possibly siblings. Adding a DOM node will cause layout and repaint of the node. Major changes, like increasing font size of the "html" element, will cause invalidation of caches, relayout and repaint of the entire tree.
+The browsers try to do the minimal possible actions in response to a change. So changes to an elements color will cause only repaint of the element. Changes to the element position will cause layout and repaint of the element, its children and possibly siblings. Adding a DOM node will cause layout and repaint of the node. Major changes, like increasing font size of the "html" element, will cause invalidation of caches, relayout and repaint of the entire tree.
 
 ===The rendering engine's threads===
 
- The rendering engine is single threaded. Almost everything, except network operations, happens in a single thread. In Firefox and safari this is the main thread of the browser. In chrome it's the tab process main thread. <br /> Network operations can be performed by several parallel threads. The number of parallel connections is limited (usually 2 - 6 connections. Firefox 3, for example, uses 6).
+The rendering engine is single threaded. Almost everything, except network operations, happens in a single thread. In Firefox and safari this is the main thread of the browser. In chrome it's the tab process main thread. <br /> Network operations can be performed by several parallel threads. The number of parallel connections is limited (usually 2 - 6 connections. Firefox 3, for example, uses 6).
 
 ====Event loop====
 
- The browser main thread is an event loop. Its an infinite loop that keeps the process alive. It waits for events (like layout and paint events) and processes them. This is Firefox code for the main event loop:
-
+The browser main thread is an event loop. Its an infinite loop that keeps the process alive. It waits for events (like layout and paint events) and processes them. This is Firefox code for the main event loop:
  
  while (!mExiting)
      NS_ProcessNextEvent(thread);
@@ -963,12 +961,11 @@ The [http://www.w3.org/TR/CSS2/box.html CSS box model] describes the rectangular
 
 Each node generates 0..n such boxes. <br /> All elements have a "display" property that determines their type of box that will be generated. Examples:
 
- 
  block  - generates a block box.
  inline - generates one or more inline boxes.
  none - no box is generated.
 
- The default is inline but the browser style sheet set other defaults. For example - the default display for "div" element is block. <br /> You can find a default style sheet example here: [http://www.w3.org/TR/CSS2/sample.html www.w3.org/TR/CSS2/sample.html]
+The default is inline but the browser style sheet set other defaults. For example - the default display for "div" element is block. You can find a default style sheet example here: [http://www.w3.org/TR/CSS2/sample.html www.w3.org/TR/CSS2/sample.html]
 
 ====Positioning scheme====
 
@@ -983,7 +980,7 @@ The positioning scheme is set by the "position" property and the "float" attribu
 * static and relative cause a normal flow
 * absolute and fixed cause an absolute positioning
 
-<br /> In static positioning no position is defined and the default positioning is used. In the other schemes, the author specifies the position - top,bottom,left,right.
+In static positioning no position is defined and the default positioning is used. In the other schemes, the author specifies the position - top,bottom,left,right.
 
 The way the box is layed out is determined by:
 
@@ -996,19 +993,19 @@ The way the box is layed out is determined by:
 
 Block box: forms a block - have their own rectangle on the browser window.
 
- [[Image:image057.png.pagespeed.ce.8bssXmKD6t.png]]  Figure <nowiki>: Block box</nowiki>
+[[Image:image057.png.pagespeed.ce.8bssXmKD6t.png|Figure 19: Block box]]
 
 Inline box: does not have its own block, but is inside a containing block.
 
- [[Image:image059.png.pagespeed.ce.VRjBCB8itJ.png]] Figure <nowiki>: Inline boxes</nowiki>
+[[Image:image059.png.pagespeed.ce.VRjBCB8itJ.png|Figure 20: Inline boxes]]
 
 Blocks are formatted vertically one after the other. Inlines are formatted horizontally.
 
- [[Image:image061.png.pagespeed.ce.lncfVd0-qM.png]] Figure <nowiki>: Block and Inline formatting</nowiki>
+[[Image:image061.png.pagespeed.ce.lncfVd0-qM.png|Figure 21: Block and Inline formatting]]
 
 Inline boxes are put inside lines or "line boxes". The lines are at least as tall as the tallest box but can be taller, when the boxes are aligned "baseline" - meaning the bottom part of an element is aligned at a point of another box other then the bottom. In case the container width is not enough, the inlines will be put in several lines. This is usually what happens in a paragraph.
 
- [[Image:image063.png.pagespeed.ce.dx-MWRwbSv.png]] Figure <nowiki>: Lines</nowiki>
+[[Image:image063.png.pagespeed.ce.dx-MWRwbSv.png|Figure 22: Lines]]
 
 ===Positioning===
 
@@ -1016,23 +1013,24 @@ Inline boxes are put inside lines or "line boxes". The lines are at least as tal
 
 Relative positioning - positioned like usual and then moved by the required delta.
 
- [[Image:image065.png.pagespeed.ce.hNn85ms8VR.png]] Figure <nowiki>: Relative positioning</nowiki>
+[[Image:image065.png.pagespeed.ce.hNn85ms8VR.png|Figure 23: Relative positioning]]
 
 ====Floats====
 
 A float box is shifted to the left or right of a line. The interesting feature is that the other boxes flow around it The HTML:
-
  
+<source>
  <p>
    <img style="float:right" src="images/image.gif" width="100" height="100">
    Lorem ipsum dolor sit amet, consectetuer...
  </p>
+</source>
 
- Will look like:   [[Image:image067.png.pagespeed.ce.SRkyPOG7Mt.png]] Figure <nowiki>: Float</nowiki>
+Will look like: [[Image:image067.png.pagespeed.ce.SRkyPOG7Mt.png|Figure 24: Float]]
 
 ====Absolute and fixed====
 
-The layout is defined exactly regardless of the normal flow. The element does not participate in the normal flow. The dimensions are relative to the container. In fixed - the container is the view port.  [[Image:image069.png.pagespeed.ce.K_Jx9RHe6H.png]] Figure <nowiki>: Fixed positioning</nowiki> <br /> Note - the fixed box will not move even when the document is scrolled!
+The layout is defined exactly regardless of the normal flow. The element does not participate in the normal flow. The dimensions are relative to the container. In fixed - the container is the view port.  [[Image:image069.png.pagespeed.ce.K_Jx9RHe6H.png|Figure <nowiki>: Fixed positioning</nowiki> <br /> Note - the fixed box will not move even when the document is scrolled!]]
 
 ===Layered representation===
 
@@ -1042,7 +1040,7 @@ The boxes are divided to stacks (called stacking contexts). In each stack the ba
 
 Example:
 
- 
+<source> 
  <style type="text/css">
        div {
          position: absolute;
@@ -1050,7 +1048,9 @@ Example:
          top: 2in;
        }
  </style>
+</source>
  
+<source>
  <p>
      <div
           style="z-index: 3;background-color:red; width: 1in; height: 1in; ">
@@ -1059,14 +1059,15 @@ Example:
           style="z-index: 1;background-color:green;width: 2in; height: 2in;">
      </div>
   </p>
+</source>
 
- The result will be this:   [[Image:254x227ximage071.png.pagespeed.ic.L7ebADPhYj.png]] Figure <nowiki>: Fixed positioning</nowiki>
+The result will be this: 
+
+[[Image:254x227ximage071.png.pagespeed.ic.L7ebADPhYj.png|Figure 25: Fixed positioning]]
 
 Although the red div precedes the green one in the markup, and would have been painted before in the regular flow, the z-index property is higher, so it is more forward in the stack held by the root box.
 
 ===Resources===
-
-<div class="autonum">
 
 # Browser architecture
 ## Grosskurth, Alan. [http://grosskurth.ca/papers/browser-refarch.pdf A Reference Architecture for Web Browsers (pdf)]
@@ -1095,7 +1096,7 @@ Although the red div precedes the green one in the markup, and would have been p
 ## Firefox. https://developer.mozilla.org/en/Build_Documentation
 ## Webkit. http://webkit.org/building/build.html
 
-</div></div> [[Image:xtaligarsiel.png.pagespeed.ic.5YF-a4gz3t.jpg]]
+[[Image:xtaligarsiel.png.pagespeed.ic.5YF-a4gz3t.jpg]]
 
 [http://taligarsiel.com/ Tali Garsiel] is a developer in Israel. She started as a web developer in 2000, and became aquainted with Netscape's "evil" layer model. Just like Richard Feynmann, she had a fascination for figuring out how things work so she began digging into browser internals and documenting what she found. Tali also has published a short [http://taligarsiel.com/ClientSidePerformance.html guide on client-side performance].
 
