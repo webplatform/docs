@@ -38,8 +38,9 @@ The old way to fetch an image:
      }
    }
  };
- </pre>
+ 
  xhr.send();
+</pre>
 
 While this works, what you actually get back in the <code>responseText</code> is not a binary blob. It is a binary string representing the image file. We're tricking the server into passing the data back, unprocessed. Even though this little gem works, I'm going to call it black magic and advise against it. Anytime you resort to character code hacks and string manipulation for coercing data into a desirable format, that's a problem.
 
