@@ -1,12 +1,10 @@
-{{Page_Title|Mobifying your HTML5 site}}
+{{Page_Title|&quot;Mobifying&quot; your HTML5 site}}
 {{Flags
 |High-level issues=Needs Flags
 }}
 {{Summary_Section|An introduction to HTML5 enhancement techniques for mobile devices.}}
 {{Tutorial
-|Content=="Mobifying" Your HTML5 Site=
-
-====original by Eric Bidelman====
+|Content=====original by Eric Bidelman====
 ====published March 3, 2011====
 
 ==Introduction==
@@ -256,28 +254,7 @@ When implementing AppCache on your site, it's '''very important''' that you don'
 To prevent caching for our site, we first set App Engine to never cache manifest files:
 
 <pre>
- - url: /(.*\.(appcache|manifest))
-   static_files: \1
-   mime_type: text/cache-manifest
-   upload: (.*\.(appcache|manifest))
-   expiration: "0s"
-</pre>
-
-Second, we used the JS API to inform the user when a new manifest has finished downloading. They're prompted to refresh the page:
-
-<pre>
- window.applicationCache.addEventListener('updateready', function(e) {
-   if (window.applicationCache.status == window.applicationCache.UPDATEREADY) {
-     '''window.applicationCache.swapCache();'''
-     if (confirm('A new version of this site is available. Load it?')) {
-       '''window.location.reload();'''
-     }
-   }
- }, false);
-</pre>
-
-To save network traffic, keep your manifest simple. That is, don't call out every page on your site. Just list the important images, CSS, and JavaScript files. The last thing you want to do is force the mobile browser to download a large number of assets on every appcache update. Instead, remember that the browser will implicitly cache an html page when the user visits it (and if it includes a <code><html manifest="..."></code> attribute).
-
+ - url: /(.*\.(appcache
 |manifest))
    expiration: "0s"
 </pre>
