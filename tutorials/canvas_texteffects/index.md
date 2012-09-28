@@ -11,13 +11,14 @@
 
 ==My background==
 
-The &lt;canvas&gt; element entered my awareness in 2006 when Firefox v2.0 was released. An article on [http://ajaxian.com/ Ajaxian] describing the transformation matrix inspired me to create my first &lt;canvas&gt; web-app; [http://www.colorjack.com/sphere/ Color Sphere] (2007). This immersed me into the world of colors and graphic primitives, inspiring the creation of [http://mugtug.com/sketchpad/ Sketchpad] (2007-2008) in an effort to put together an application ''better than Paint'' in the browser.
+The &lt;canvas&gt; element entered my awareness in 2006 when Firefox v2.0 was released. An article on [http://ajaxian.com/ Ajaxian] describing the transformation matrix inspired me to create my first &lt;canvas&gt; web-app, [http://www.colorjack.com/sphere/ Color Sphere] (2007). This immersed me into the world of colors and graphic primitives, inspiring the creation of [http://mugtug.com/sketchpad/ Sketchpad] (2007-2008) in an effort to put together an application ''better than Paint'' in the browser.
 
 These experiments eventually led to the creation of the startup Mugtug with my long-time friend Charles Pritchard. We are developing [http://mugtug.com/darkroom/ Darkroom] in HTML5 &lt;canvas&gt;. Darkroom is a non-destructive photo-sharing app, combining the powers of pixel-based filters with vector-based typography and drawing.
 
 ==Introduction==
 
-[[Image:typ01-canvas.png|Canvas]]
+[[Image:typ01-canvas.png]]
+[[Image:typ02-css3d.png]]
 
 &lt;canvas&gt; brings Javascript programmers full control of the colors, vectors, and pixels on their screens&mdash;the visual makeup of the monitor.
 
@@ -51,7 +52,7 @@ CSS uses two methods, ''box-shadow'' for box elements such as div, span, and so 
 
 To get things started, let's see how &lt;canvas&gt; can emulate CSS effects. Searching through Google images for "css text-shadow" led to a few great demos for us to emulate, [http://line25.com/articles/using-css-text-shadow-to-create-cool-text-effects Line25], [http://lab.simurai.com/css/css3d/ Stereoscopic], and [http://pgwebdesign.net/blog/3d-css-shadow-text-tutorial Shadow 3D].
 
-[http://lab.simurai.com/css/css3d/ [[Image:typ02-css3d.png|typ02-css3d.png]]]
+[http://lab.simurai.com/css/css3d/ [[Image:typ02-css3d.png]]]
 
 The stereoscopic 3D effect (see [http://en.wikipedia.org/wiki/Anaglyph_image Anaglyph image] for more) is an example of a simple line of code put to great use. With the following line of CSS, we can create the illusion of depth when viewed with 3D red/cyan glasses (the kind they give you at 3D movies):
 
