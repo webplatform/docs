@@ -1,8 +1,12 @@
 {{Flags}}
-{{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|This concept page explains in general terms what mobile web is and its brief history.}}
 {{Concept_Page
-|Content=== A definition of the mobile web ==
+|Content=
+== Introduction ==
+ 
+The [http://www.w3.org/wiki/Web_Standards_Curriculum Web Standards Curriculum Table of contents] is about advocating best practices for the web and providing complete coverage of all the skills you need to create modern Web sites, in doing so making the Web a better place for all of us to work and browse. This mini series expands the core web standards curriculum articles, look at all the skills and concepts you should take on board to help optimize your Web sites so that they run successfully on mobile (and other alternative) devices. I’ll start by taking a look at the subject area in general and special considerations for marking up and running pages on mobile devices, then move on to styling, scripting and testing as they relate to '''mobile web development'''.
+
+== A definition of the mobile web ==
  
 The mobile web is one of those over-used terms that has lost all of its meaning, or worse yet, continues to confuse and perpetuate the mobile myth. If you were to ask web developers to define what the mobile web means, you would get as many different answers as people you asked. It is important then, to define what I mean by the mobile web and how you should be discussing and thinking about it.
  
@@ -10,7 +14,7 @@ The W3C has been pushing the idea of One Web. [This] means making, as far as is 
 
 Having a second web just for mobile devices is contrary to the W3C’s vision and is not what we mean by mobile web. You should refrain as much as is possible from maintaining a second version of your web sites specifically targeted at mobile devices. This requires a bigger initial outlay and becomes a maintenance nightmare. You should be able to create a Web site that offers an acceptable user experience on desktop and mobile browsers.
  
-Using Web Standards and best practices, you should be able to make your site mobile friendly without too much extra work. The mobile web is an ever-growing corner of the market that businesses cannot afford to ignore. In a number of countries, more people use mobile phones to access the Web than desktop computers, and somewhere in 2008 the percentage of the world's population that carries mobile phones broke past the 50% barrier - an estimated 4 billion phones. An estimated 1 billion of these are capable of Internet access — too big a market to ignore. ([http://www.forum.nokia.com/I_Want_To/Mobilise_Websites/Why_mobilise_websites.xhtml Source: Forum Nokia].)
+Using Web Standards and best practices, you should be able to make your site mobile friendly without too much extra work, for example using [[Graceful degradation versus progressive enhancement]]. The mobile web is an ever-growing corner of the market that businesses cannot afford to ignore. In a number of countries, more people use mobile phones to access the Web than desktop computers, and somewhere in 2008 the percentage of the world's population that carries mobile phones broke past the 50% barrier - an estimated 4 billion phones.
 
 == Challenges associated with the mobile web ==
  
@@ -22,7 +26,7 @@ While that sounds daunting, you shouldn’t let it scare you. As a web developer
  
 == Mobile limitations ==
  
-While creating a site that will work on mobile devices largely involves sticking to the same web standards and best practices as you need to use for desktop browser-compatible sites, you still need to consider the limitations imposed by such compact devices. While the mobile infrastructure is getting better and more devices are equipped with WiFi, there are still some issues. Hopefully, over time, the following points will become obsolete, but for the near future these are still critical considerations today, and will remain so for some time. You must realize that the capabilities of mobile devices differ greatly and that the top of the range smartphones, such as the iPhone, HTC Touch Diamond and Samsung Omnia (and other S60 and Windows Mobile-based phones), constitute only a small percentage world-wide of the overall Web-enabled phone population.
+While creating a site that will work on mobile devices largely involves sticking to the same web standards and best practices as you need to use for desktop browser-compatible sites, you still need to consider the limitations imposed by such compact devices. While the mobile infrastructure is getting better and more devices are equipped with WiFi, there are still some issues. Hopefully, over time, the following points will become obsolete, but for the near future these are still critical considerations today, and will remain so for some time. You must realize that the capabilities of mobile devices differ greatly and that the top of the range smartphones, such as the iPhone, HTC One X, Nokia Lumina and Samsung Galaxy (and other Android, S60 and Windows Phone-based phones), constitute only a small percentage world-wide of the overall Web-enabled phone population.
  
 === Screen size/resolution ===
  
@@ -50,11 +54,11 @@ Along with limited fonts, some devices have a limited colour palette, although t
  
 === Web standards support ===
  
-Not all phones are equipped with web browsers that share the capabilities of today’s modern desktop browsers. Some have full support for the common Web Standards like HTML, CSS and JavaScript. Some only support a certain subset of these standards or use different standards entirely (see the next section for a discussion of WML, cHTML and XHTML-MP). Some support HTML, but not CSS or JavaScript. Other mobile browsers such as [http://www.opera.com/mini/ Opera Mini] use a proxy system in which a server farm retrieves the requested web page, optimizes and reduces it in file size, then sends it to the browser for display.
+Not all phones are equipped with web browsers that share the capabilities of today’s modern desktop browsers. Some have full support for the common Web Standards like HTML, CSS and JavaScript. Some only support a certain subset of these standards or use different standards entirely (see the next section for a discussion of WML, cHTML and XHTML-MP). Some support HTML, but not CSS or JavaScript. Other mobile browsers such as [http://www.opera.com/mini/ Opera Mini] or [http://www.developer.nokia.com/Develop/Series_40/Nokia_Browser_for_Series_40/ Nokia Browser for Series 40] use a proxy system in which a server farm retrieves the requested web page, optimizes and reduces it in file size, then sends it to the browser for display.
  
 The strategy here is to test, test, test, and make sure your Web sites degrade gracefully on lower-capability browsers.
  
-Note that you can test web sites on Opera Mini using the [http://www.opera.com/mini/demo/ Opera Mini Simulator] if you haven't got a phone handy.
+Note that you can test web sites on Opera Mini using the [http://www.opera.com/mini/demo/ Opera Mini Simulator] or Nokia Browser using the [http://www.developer.nokia.com/Develop/Series_40/Series_40_web_apps/Tools/#article1 Nokia Web Tools] if you haven't got a phone handy.
 
 == Mobile advantages ==
  
