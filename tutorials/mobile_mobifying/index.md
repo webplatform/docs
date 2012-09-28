@@ -232,8 +232,20 @@ Additional performance tweaks:
 * Moved JS to the bottom of the page where possible.
 * Removed inline <code>&lt;style&gt;</code> tags.
 * '''Cached DOM lookups and minimized DOM manipulations''' &mdash; Every time you touch the DOM the browser performs a [http://dev.opera.com/articles/view/efficient-javascript/?page=3 reflow]. Reflows are even more costly on a mobile device.
-* Offloaded wasteful client-side code to the server. Specifically, the check to set the navigation styling of the current page:<br/><pre> var lis = document.querySelectorAll('header nav li');<br/> var i = lis.length;<br/> while (i--) {<br/>   var a = lis[i].querySelector('a');<br/>   var section = a.getAttribute("data-section");<br/>   if (new RegExp(section).test(document.location.href)) {<br/>     a.className = 'current';<br/>   }<br/> }</pre>
 * Elements with fixed widths were replaced with fluid <code>width:100%</code> or <code>width:auto</code>.
+* Offloaded wasteful client-side code to the server. Specifically, the check to set the navigation styling of the current page:
+
+<pre>
+ var lis = document.querySelectorAll('header nav li');
+ var i = lis.length;
+ while (i--) {
+   var a = lis[i].querySelector('a');
+   var section = a.getAttribute("data-section");
+   if (new RegExp(section).test(document.location.href)) {
+     a.className = 'current';
+   }
+ }
+</pre>
 
 ===Application Cache===
 
