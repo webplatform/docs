@@ -242,7 +242,7 @@ Apparently this seemingly small difference makes a world of a difference. On one
 
 HTML definition is in a DTD format. This format is used to define languages of the [http://en.wikipedia.org/wiki/Standard_Generalized_Markup_Language SGML] family. The format contains definitions for all allowed elements, their attributes and hierarchy. As we saw earlier, the HTML DTD doesn't form a context free grammar.
 
-There are a few variations of the DTD. The strict mode conforms solely to the specifications but other modes contain support for markup used by browsers in the past. The purpose is backwards compatibility with older content. The current strict DTD is [http://www.w3.org/TR/html4/strict.dtd www.w3.org/TR/html4/strict.dtd here].
+There are a few variations of the DTD. The strict mode conforms solely to the specifications but other modes contain support for markup used by browsers in the past. The purpose is backwards compatibility with older content. The current strict DTD is [http://www.w3.org/TR/html4/strict.dtd www.w3.org/TR/html4/strict.dtd].
 
 ====DOM====
 
@@ -260,7 +260,7 @@ The DOM has an almost one-to-one relation to the markup. For example, this marku
    </body>
  </html>
 
-Would be translated to the following DOM tree: [[Image:image015.png.pagespeed.ce.OZcOUqth9Q.png]]  Figure 8: DOM tree of the example markup.
+Would be translated to the following DOM tree: [[Image:image015.png.pagespeed.ce.OZcOUqth9Q.png|Figure 8: DOM tree of the example markup]].
 
 Like HTML, DOM is specified by the W3C organization. See [http://www.w3.org/DOM/DOMTR www.w3.org/DOM/DOMTR this]. It is a generic specification for manipulating documents. A specific module describes HTML specific elements. The HTML definitions can be found here: [http://www.w3.org/TR/2003/REC-DOM-Level-2-HTML-20030109/idl-definitions.html www.w3.org/TR/2003/REC-DOM-Level-2-HTML-20030109/idl-definitions.html].
 
@@ -292,11 +292,11 @@ The algorithm's output is an HTML token. The algorithm is expressed as a state m
 
 Basic example - tokenizing the following HTML:
 
- <html>
-   <body>
-     Hello world
-   </body>
- </html>
+  <html>
+    <body>
+      Hello world
+    </body>
+  </html>
 
 The initial state is the "Data state". When the <code><</code> character is encountered, the state is changed to '''"Tag open state"'''. Consuming an <code>a-z</code> character causes creation of a "Start tag token", the state is changed to '''"Tag name state"'''. We stay in this state until the <code>></code> character is consumed. Each character is appended to the new token name. In our case the created token is an <code>html</code> token.
 
