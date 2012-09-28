@@ -4,7 +4,7 @@
 {{Summary_Section|A guide to using the XMLHttpRequest2 API.}}
 {{Tutorial
 |Content= =New Tricks in XMLHttpRequest2=
-}}
+
 ==By Eric Bidelman==
 Published May 27, 2011
 
