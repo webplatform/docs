@@ -79,7 +79,7 @@ The rendering engine will start getting the contents of the requested document f
 
 After that this is the basic flow of the rendering engine:
 
-[[Image:flow.png.pagespeed.ce.pK__f2HjCm.png|Figure 2: Rendering engine basic flow.]]
+[[Image:pagespeed.ce.pKf2HjCm.png|Figure 2: Rendering engine basic flow.]]
 
 The rendering engine will start parsing the HTML document and turn the tags to [[#DOM|DOM]] nodes in a tree called the "content tree". It will parse the style data, both in external CSS files and in style elements. The styling information together with visual instructions in the HTML will be used to create another tree - the [[#Render_tree_construction|render tree]].
 
