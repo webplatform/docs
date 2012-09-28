@@ -1105,17 +1105,13 @@ Although the red div precedes the green one in the markup, and would have been p
 ## Firefox. https://developer.mozilla.org/en/Build_Documentation
 ## Webkit. http://webkit.org/building/build.html
 
-[[Image:xtaligarsiel.png.pagespeed.ic.5YF-a4gz3t.jpeg]]
+[[Image:wtaligarsiel.png.pagespeed.ic.5YF-a4gz3t.jpeg]]
 
 [http://taligarsiel.com/ Tali Garsiel] is a developer in Israel. She started as a web developer in 2000, and became aquainted with Netscape's "evil" layer model. Just like Richard Feynmann, she had a fascination for figuring out how things work so she began digging into browser internals and documenting what she found. Tali also has published a short [http://taligarsiel.com/ClientSidePerformance.html guide on client-side performance].
 
 ====Translations====
 
 This page has been translated into Japanese, twice! [http://cou929.nu/docs/how-browsers-work/ How Browsers Work - Behind the Scenes of Modern Web Browsers (ja)] by [https://twitter.com/#!/_kosei_ @_kosei_] and also [http://shanon-tech.blogspot.com/2011/09/web.html ブラウザってどうやって動いてるの？（モダンWEBブラウザシーンの裏側] by [https://twitter.com/#!/ikeike443 @ikeike443] and [https://twitter.com/#!/kiyoto01 @kiyoto01]. Thanks everyone!
-
-==Supported browsers:==
-
-<span class="browsers"> <span class="browser opera supported"> <span class="browser_name">Opera</span> <span class="support"> supported </span> </span> <span class="browser ie supported"> <span class="browser_name">IE</span> <span class="support"> supported </span> </span> <span class="browser safari supported"> <span class="browser_name">Safari</span> <span class="support"> supported </span> </span> <span class="browser ff supported"> <span class="browser_name">Firefox</span> <span class="support"> supported </span> </span> <span class="browser chrome supported"> <span class="browser_name">Chrome</span> <span class="support"> supported </span> </span> </span><div class="compatible-block">
 }}
 {{Compatibility_Section
 |Not_required=Yes
