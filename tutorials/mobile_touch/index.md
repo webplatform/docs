@@ -1,3 +1,4 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Flags
 }}
@@ -58,7 +59,7 @@ This snippet lets you drag a DOM element around using single-finger touch:
 
 Below is a [https://github.com/borismus/MagicTouch/blob/master/samples/tracker.html sample] that displays all current touches on the screen. It's useful just to get a feeling for the responsiveness of the device.
 
-[https://github.com/borismus/MagicTouch/blob/master/samples/tracker.html [[Image:xfinger.jpg]] ]
+[https://github.com/borismus/MagicTouch/blob/master/samples/tracker.html [[Image:mtfinger.jpg]] ]
 
 <pre>
  // Set up canvas and expose context via ctx variable
@@ -77,11 +78,11 @@ Below is a [https://github.com/borismus/MagicTouch/blob/master/samples/tracker.h
 
 A number of interesting multi-touch demos are already in the wild, such as this [http://paulirish.com/demo/multi canvas-based drawing] demo by Paul Irish and others.
 
-[http://paulirish.com/demo/multi [[Image:xdraw.jpg]] ]
+[http://paulirish.com/demo/multi [[Image:mtdraw.jpg]] ]
 
 And [http://smus.com/x/browser-ninja/ Browser Ninja], a tech demo that is a Fruit Ninja clone using CSS3 transforms and transitions, as well as canvas.
 
-[http://smus.com/x/browser-ninja  [[Image:xninja.jpg]] ]
+[http://smus.com/x/browser-ninja  [[Image:mtninja.jpg]] ]
 
 ==Best practices==
 
@@ -237,7 +238,6 @@ If your computer does not have multi-touch input, you can simulate touch events 
 Note that your gestures might be identical to OS-level multi-touch gestures. On OS X, you can configure system-wide events by going to the Trackpad preference pane in System Preferences.
 
 As multi-touch features become more widely supported across mobile browsers, I'm very excited to see new web applications take full advantage of this rich API.
-
 }}
 {{Compatibility_Section
 |Not_required=No
