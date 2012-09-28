@@ -51,7 +51,7 @@ CSS uses two methods, ''box-shadow'' for box elements such as div, span, and so 
 
 To get things started, let's see how &lt;canvas&gt; can emulate CSS effects. Searching through Google images for "css text-shadow" led to a few great demos for us to emulate, [http://line25.com/articles/using-css-text-shadow-to-create-cool-text-effects Line25], [http://lab.simurai.com/css/css3d/ Stereoscopic], and [http://pgwebdesign.net/blog/3d-css-shadow-text-tutorial Shadow 3D].
 
-[http://lab.simurai.com/css/css3d/ [[Image:typ02-css3d.png]]]
+[[Image:typ02-css3d.png]]
 
 The stereoscopic 3D effect (see [http://en.wikipedia.org/wiki/Anaglyph_image Anaglyph image] for more) is an example of a simple line of code put to great use. With the following line of CSS, we can create the illusion of depth when viewed with 3D red/cyan glasses (the kind they give you at 3D movies):
 
@@ -73,7 +73,7 @@ There are two things to notice when converting this string to &lt;canvas&gt;:
  ctx.fillText(text, 7, 0);
 </pre>
 
-(2) The ''em'' unit isn't supported in &lt;canvas&gt; so they'll have to be converted to ''px'' (pixels). We can find the conversion ratio for converting between PT, PC, EM, EX, PX and so forth by creating an element with the same font-properties in the DOM and setting the width to the format to be measured. For instance, to capture the EM-to-PX conversion, we would measure the DOM element with a height of 1em; the resulting offsetHeight would be how many PXs are in each EM.
+(2) The ''em'' unit isn't supported in &lt;canvas&gt; so it must be converted to ''px'' (pixels). We can find the conversion ratio for converting between PT, PC, EM, EX, PX and so forth by creating an element with the same font-properties in the DOM and setting the width to the format to be measured. For instance, to capture the EM-to-PX conversion, we would measure the DOM element with a height of 1em; the resulting offsetHeight would be how many PXs are in each EM.
 
 <pre>
  var font = "20px sans-serif";
@@ -81,6 +81,7 @@ There are two things to notice when converting this string to &lt;canvas&gt;:
  d.style.cssText = "font: " + font + " height: 1em; display: block";
  // the value to multiply PXs by to convert to EMs
  var EM2PX = 1 / d.offsetHeight;
+</pre>
 
 ===Preventing alpha-multiplication===
 
@@ -169,7 +170,7 @@ Since you're not going to want to enter all these &lt;canvas&gt; commands manual
 
 View [http://www.html5rocks.com/en/tutorials/canvas/texteffects/Text-Effects.html Text-Shadows in &lt;canvas&gt;] effects.
 
-===Intermission (tangent on pixel-pushing)===
+===Intermission (a tangent on pixel-pushing)===
 
 In writing this section of the article, the Stereoscopic example made me curious. How hard it would be to create a 3D-movie-screen effect using &lt;canvas&gt; and two images taken from slightly different perspectives?  Apparently, not too hard. The following kernel combines the red channel of the first image (data) with the cyan channel of the second image (data2):
 
@@ -187,7 +188,7 @@ Visit the [http://www.html5rocks.com/en/tutorials/canvas/texteffects/Stereoscopy
 
 Chaining multiple effects in &lt;canvas&gt; can be simple, but a basic knowledge of the globalCompositeOperation (GCO) is required. To compare the operations to GIMP (or Photoshop): there are 12 GCOs in &lt;canvas&gt;: ''darker'' and ''lighter'' can be thought of as layer blend-modes; the other 10 operations are applied to the layers as alpha masks (one layer removes the pixels of the other layer). The globalCompositeOperation ties ''layers'' (or in our case, strings of code) together, combining them in new and exciting ways:
 
-[Image:typ06-global.png]]
+[[Image:typ06-global.png]]
 
 The [http://www.html5rocks.com/en/tutorials/canvas/texteffects/globalCompositeOperation.html globalCompositeOperation chart] shows GCO modes at work; this chart uses a large portion of the color-spectrum and multiple levels of alpha transparency in order to see in detail what to expect. I would recommend checking out Mozilla's [https://developer.mozilla.org/en/Canvas_tutorial/Compositing globalCompositeOperation reference] for textual descriptions. For further research, you can learn how the operation works in Porter Duff's [http://keithp.com/~keithp/porterduff/ Compositing Digital Images].
 
@@ -340,7 +341,7 @@ View [http://www.html5rocks.com/en/tutorials/canvas/texteffects/Text-Effects.htm
 
 The &lt;canvas&gt; spec doesn't touch on the subject of ''inner'' vs. ''outer'' shadows. In fact, at first appearance, you may expect that inner shadow isn't supported. This is not the case, it's just a bit tricker to enable. As proposed in a recent post from [http://weblog.bocoup.com/can-i-draw-an-inset-shadow-with-the-html5-canvas-api F1LT3R], you can create inner-shadows using the unique properties of clockwise vs. anti-clockwise winding rules. To do this, you create an inner-shadow by drawing a container rectangle and then, using opposite winding rules, draw a cutout shape, creating the inverse of the shape.
 
-The following example allows for the inner-shadow and fillStyle to be stylized with color+gradient+pattern simultaneously. You can specify pattern rotation individually; notice the zebra stripes are now perpendicular to each-other. A clipping mask the size of the bounding-box is used, removing the need for a super-large container to enclose the cutout shape, and improving the speed by preventing the unnecessary parts of the shadow from being processed.
+The following example allows for the inner-shadow and fillStyle to be stylized with color+gradient+pattern simultaneously. You can specify pattern rotation individually; notice the zebra stripes are now perpendicular to each other. A clipping mask the size of the bounding-box is used, removing the need for a super-large container to enclose the cutout shape, and improving the speed by preventing the unnecessary parts of the shadow from being processed.
 
 [[Image:typ09-inner.png]]
 
@@ -440,7 +441,7 @@ View [http://www.html5rocks.com/en/tutorials/canvas/texteffects/Text-Effects.htm
  };
 </pre>
 
-From these examples you can see, using globalCompositeOperation, we can chain-effects together, producing more elaborate effects (utilizing masking and blending). The screen is your oyster! ;-)
+From these examples you can see that, using globalCompositeOperation, we can chain effects together, producing more elaborate effects (utilizing masking and blending). The screen is your oyster! ;-)
 
 ==Spaceage&mdash;generative effects.==
 
@@ -512,7 +513,7 @@ Because HSL is a recent standard, you may wish to continue supporting older brow
 
 ===Creating animations with requestAnimationFrame===
 
-In the past, to create animations in Javascript, there were two choices; <code>setTimeout</code> and <code>setInterval</code>.
+In the past, to create animations in Javascript there were two choices, <code>setTimeout</code> and <code>setInterval</code>.
 
 <code>window.requestAnimationFrame</code> is the new standard here to replace both; saving the world electricity (and your computer a few heartbeats) by allowing the browser to regulate animations based on available resources. Some important features include:
 
@@ -561,13 +562,15 @@ View [http://www.html5rocks.com/en/tutorials/canvas/texteffects/Text-Effects.htm
  })();
 </pre>
 
-[[Image:typ14-spaceage.png]]<br/>
-[[Image:typ15-spaceage.png]]<br/>
+[[Image:typ14-spaceage.png]]
+
+[[Image:typ15-spaceage.png]]
+
 [[Image:typ16-spaceage.png]]
 
 ==Source code==
 
-With support from across the browser vendor-sphere, there is no question about the future of &lt;canvas&gt;. It can be ported to the iPhone/Android/Desktop executables using [http://www.phonegap.com/ PhoneGap], or [http://www.appcelerator.com/products/titanium-cross-platform-application-development/ Titanium].
+With support from across the browser vendor-sphere, there is no question about the future of &lt;canvas&gt;. It can be ported to the iPhone/Android/Desktop executables using [http://www.phonegap.com/ PhoneGap] or [http://www.appcelerator.com/products/titanium-cross-platform-application-development/ Titanium].
 
 Source code can be found in [http://www.html5rocks.com/en/tutorials/canvas/texteffects/CanvasTextEffects.zip CanvasTextEffects.zip].
 
