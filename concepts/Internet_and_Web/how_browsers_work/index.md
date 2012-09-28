@@ -250,7 +250,7 @@ The output tree - the "parse tree" is a tree of DOM element and attribute nodes.
 
 The DOM has an almost one-to-one relation to the markup. For example, this markup:
 
- 
+<source>
  <html>
    <body>
      <p>
@@ -259,6 +259,7 @@ The DOM has an almost one-to-one relation to the markup. For example, this marku
      <div> <img src="example.png"/></div>
    </body>
  </html>
+</source>
 
 Would be translated to the following DOM tree: [[Image:image015.png.pagespeed.ce.OZcOUqth9Q.png|Figure 8: DOM tree of the example markup]].
 
