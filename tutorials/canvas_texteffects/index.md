@@ -1,12 +1,10 @@
-{{Page_Title|Typographic Effects in Canvas}}
+{{Page_Title|Typographic Effects in &lt;canvas&gt;}}
 {{Flags
 |High-level issues=Needs Flags
 }}
 {{Summary_Section|An introduction to typographic effects using the &lt;canvas&gt; element.}}
 {{Tutorial
-|Content==Typographic effects in canvas=
-
-====original by Michael Deal====
+|Content=====original by Michael Deal====
 ====published March 1, 2011====
 
 ==My background==
@@ -573,7 +571,6 @@ View [http://www.html5rocks.com/en/tutorials/canvas/texteffects/Text-Effects.htm
 With support from across the browser vendor-sphere, there is no question about the future of &lt;canvas&gt;. It can be ported to the iPhone/Android/Desktop executables using [http://www.phonegap.com/ PhoneGap] or [http://www.appcelerator.com/products/titanium-cross-platform-application-development/ Titanium].
 
 Source code can be found in [http://www.html5rocks.com/en/tutorials/canvas/texteffects/CanvasTextEffects.zip CanvasTextEffects.zip].
-
 }}
 {{Compatibility_Section
 |Not_required=No
