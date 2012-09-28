@@ -164,7 +164,7 @@ where style.css looks something like:
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics}}
+{{Topics|SVG}}
 {{External_Attribution
 |Is_CC-BY-SA=Yes
 |Sources=MDN
