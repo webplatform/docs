@@ -1,15 +1,15 @@
 {{Page_Title|Iterators and generators}}
-{{Flags}}
-{{Summary_Section|Processing each of the items in a collection is a very common operation. JavaScript provides a number of ways of iterating over a collection, from simple <code>[http://docs.webplatform.org/en/JavaScript/Reference/Statements/for for]</code> and <code>[http://docs.webplatform.org/en/JavaScript/Reference/Statements/for_each...in for each]</code> loops to <code>[http://docs.webplatform.org/en/JavaScript/Reference/Global_Objects/Array/map map()]</code>, <code>[http://docs.webplatform.org/en/JavaScript/Reference/Global_Objects/Array/filter filter()]</code> and [http://docs.webplatform.org/en/JavaScript/Guide/Predefined_Core_Objects#Array_comprehensions array comprehensions]. Iterators and Generators, introduced in JavaScript 1.7, bring the concept of iteration directly into the core language and provide a mechanism for customizing the behavior of <code>[http://docs.webplatform.org/en/JavaScript/Reference/Statements/for...in for...in]</code> and <code>[http://docs.webplatform.org/en/JavaScript/Reference/Statements/for_each...in for each]</code> loops.
-
+{{Flags
+|Content=Not Neutral
+|Editorial notes=Remove XUL-specific info.
 }}
+{{Summary_Section|Processing each of the items in a collection is a very common operation. JavaScript provides a number of ways of iterating over a collection, from simple <code>[[/js/reference/statements/for|for]]</code> and <code>[[/js/reference/statements/for_each...in|for each]]</code> loops to <code>[[/js/reference/objects/Array/map|map()]]</code>, <code>[[/js/reference/objects/Array/filter|filter()]]</code> and [[/guides/JavaScript/objects#Array_comprehensions|array comprehensions]]. Iterators and Generators, introduced in JavaScript 1.7, bring the concept of iteration directly into the core language and provide a mechanism for customizing the behavior of <code>[[/js/reference/statements/for...in|for...in]]</code> and <code>[[/js/reference/statements/for_each...in|for each]]</code> loops.}}
 {{Guide
-|Content=
-==Iterators==
+|Content===Iterators==
 
 An Iterator is an object that knows how to access items from a collection one at a time, while keeping track of its current position within that sequence. In JavaScript an iterator is an object that provides a <code>next()</code> method which returns the next item in the sequence. This method can optionally raise a <code>StopIteration</code> exception when the sequence is exhausted.
 
-Once created, an iterator object can be used either explicitly by repeatedly calling <code>next()</code>, or implicitly using JavaScript's <code>[http://docs.webplatform.org/en/JavaScript/Reference/Statements/for...in for...in]</code> and <code>[http://docs.webplatform.org/en/JavaScript/Reference/Statements/for_each...in for each]</code> constructs.
+Once created, an iterator object can be used either explicitly by repeatedly calling <code>next()</code>, or implicitly using JavaScript's <code>[[/js/reference/statements/for...in|for...in]]</code> and <code>[[/js/reference/statements/for_each...in|for each]]</code> constructs.
 
 Simple iterators for objects and arrays can be created using the <code>Iterator()</code> function:
 
@@ -22,7 +22,7 @@ Once initialized, the <code>next()</code> method can be called to access key-val
  pair = it.next(); // Pair is ["birthYear", 1995]
  pair = it.next(); // A StopIteration exception is thrown
 
-A <code>[http://docs.webplatform.org/en/JavaScript/Reference/Statements/for...in for...in]</code> loop can be used instead of calling the <code>next()</code> method directly. The loop will automatically terminate when the <code>StopIteration</code> exception is raised.
+A <code>for...in</code> loop can be used instead of calling the <code>next()</code> method directly. The loop will automatically terminate when the <code>StopIteration</code> exception is raised.
 
  var it = Iterator(lang);
  for (var pair in it)
@@ -108,7 +108,8 @@ While custom iterators are a useful tool, their creation requires careful progra
 
 A generator is a special type of function that works as a factory for iterators. A function becomes a generator if it contains one or more <code>yield</code> expressions.
 
-<div class="note">'''Note:''' The <code>yield</code> keyword is only available to code blocks in HTML wrapped in a <code>script</code> element with attribute <code> type="application/javascript;version=1.7"</code>  (or higher version). XUL script tags have access to these features without needing this special block.</div>
+
+The <code>yield</code> keyword is only available to code blocks in HTML wrapped in a <code>script</code> element with attribute <code> type=&quot;application/javascript;version=1.7&quot;</code>  (or higher version). XUL script tags have access to these features without needing this special block.
 
 When a generator function is called the body of the function does not execute straight away; instead, it returns a generator-iterator object. Each call to the generator-iterator's <code>next()</code> method will execute the body of the function up to the next <code>yield</code> expression and return its result. When either the end of the function or a <code>return</code> statement is reached, a <code>StopIteration</code> exception is thrown.
 
@@ -232,15 +233,11 @@ Generators have a <code>close()</code> method that forces the generator to close
 
 ==Generator expressions==
 
-<div class="overheadIndicator jsMinVerHeader standardNote">
+{{Note|Introduced in JavaScript 1.8}}
 
-Introduced in [http://developer.mozilla.org/en-US/docs/JavaScript/New_in_JavaScript/1.8 JavaScript 1.8]
+A significant drawback of [[/guides/js/objects#Array_comprehensions|array comprehensions]] is that they cause an entire new array to be constructed in memory. When the input to the comprehension is itself a small array the overhead involved is insignificant &mdash; but when the input is a large array or an expensive (or indeed infinite) generator the creation of a new array can be problematic.
 
-</div>
-
-A significant drawback of [http://docs.webplatform.org/en/JavaScript/Guide/Predefined_Core_Objects#Array_comprehensions array comprehensions] is that they cause an entire new array to be constructed in memory. When the input to the comprehension is itself a small array the overhead involved is insignificant — but when the input is a large array or an expensive (or indeed infinite) generator the creation of a new array can be problematic.
-
-Generators enable lazy computation of sequences, with items calculated on-demand as they are needed. ''Generator expressions'' are syntactically almost identical to array comprehensions — they use parenthesis instead of braces (and <code>for...in</code> instead of <code>for each...in</code>) — but instead of building an array they create a generator that can execute lazily. You can think of them as short hand syntax for creating generators.
+Generators enable lazy computation of sequences, with items calculated on-demand as they are needed. ''Generator expressions'' are syntactically almost identical to array comprehensions &mdash; they use parenthesis instead of braces (and <code>for...in</code> instead of <code>for each...in</code>) &mdash; but instead of building an array they create a generator that can execute lazily. You can think of them as short hand syntax for creating generators.
 
 Suppose we have an iterator <code>it</code> which iterates over a large sequence of integers. We want to create a new iterator that will iterate over their doubles. An array comprehension would create a full array in memory containing the doubled values:
 
@@ -256,7 +253,7 @@ When a generator expression is used as the argument to a function, the parenthes
 
  var result = doSomething(i * 2 for (i in it));
 
-<span style="float: left">[http://docs.webplatform.org/en-US/docs/JavaScript/Guide/Inheritance_Revisited « Previous]</span>[http://docs.webplatform.org/en-US/docs/JavaScript/Guide/Closures Next »]
+<span style="float: left">[[/guides/js/inheritance|&laquo; Previous]]</span>[[/guides/JavaScript/Closures|Next &raquo]]
 }}
 {{Compatibility_Section
 |Not_required=Yes
