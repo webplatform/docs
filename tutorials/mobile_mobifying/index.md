@@ -4,7 +4,7 @@
 }}
 {{Summary_Section|An introduction to HTML5 enhancement techniques for mobile devices.}}
 {{Tutorial
-|Content=Stub.
+|Content=Stub...
 }}
 {{Compatibility_Section
 |Not_required=No
