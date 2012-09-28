@@ -107,7 +107,7 @@ Parsing a document means translating it to some structure that makes sense - som
 
 Example - parsing the expression <code>2 + 3 - 1</code> could return this tree:
 
-[[Image:400x155ximage009.png.pagespeed.ic.KNewBFnKFk.png|Figure 5: mathematical expression tree node]]
+[[Image:400x155wimage009.png.pagespeed.ic.KNewBFnKFk.png|Figure 5: mathematical expression tree node]]
 
 ====Grammars====
 
