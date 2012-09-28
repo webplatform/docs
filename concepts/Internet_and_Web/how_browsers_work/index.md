@@ -583,11 +583,11 @@ Each renderer represents a rectangular area usually corresponding to the node's 
      return o;
  }
 
- The element type is also considered, for example form controls and tables have special frames. In Webkit if an element wants to create a special renderer it will override the <code>createRenderer</code> method. The renderers points to style objects that contains the non geometric information.
+The element type is also considered, for example form controls and tables have special frames. In Webkit if an element wants to create a special renderer it will override the <code>createRenderer</code> method. The renderers points to style objects that contains the non geometric information.
 
 '''The render tree relation to the DOM tree'''
 
- The renderers correspond to the DOM elements, but the relation is not one to one. Non visual DOM elements will not be inserted in the render tree. An example is the "head" element. Also elements whose display attribute was assigned to "none" will not appear in the tree (elements with "hidden" visibility attribute will appear in the tree).
+The renderers correspond to the DOM elements, but the relation is not one to one. Non visual DOM elements will not be inserted in the render tree. An example is the "head" element. Also elements whose display attribute was assigned to "none" will not appear in the tree (elements with "hidden" visibility attribute will appear in the tree).
 
 There are DOM elements which correspond to several visual objects. These are usually elements with complex structure that cannot be described by a single rectangle. For example, the "select" element has 3 renderers - one for the display area, one for the drop down list box and one for the button. Also when text is broken into multiple lines because the width is not sufficient for one line, the new lines will be added as extra renderers. Another example of several renderers is broken HTML. According to CSS spec an inline element must contain either only block element or only inline elements. In case of mixed content, anonymous block renderers will be created to wrap the inline elements.
 
@@ -617,13 +617,16 @@ Style computation brings up a few difficulties:
 
 # Style data is a very large construct, holding the numerous style properties, this can cause memory problems.
 # Finding the matching rules for each element can cause performance issues if it's not optimized. Traversing the entire rule list for each element to find matches is a heavy task. Selectors can have complex structure that can cause the matching process to start on a seemingly promising path that is proven to be futile and another path has to be tried.For example - this compound selector: 
+
  div div div div{
    ...
  }
- Means the rules apply to a <code><div></code> who is the descendant of 3 divs. Suppose you want to check if the rule applies for a given <code><div></code> element. You choose a certain path up the tree for checking. You may need to traverse the node tree up just to find out there are only two divs and the rule does not apply. You then need to try other paths in the tree.
+
+Means the rules apply to a <code><div></code> who is the descendant of 3 divs. Suppose you want to check if the rule applies for a given <code><div></code> element. You choose a certain path up the tree for checking. You may need to traverse the node tree up just to find out there are only two divs and the rule does not apply. You then need to try other paths in the tree.
+
 # Applying the rules involves quite complex cascade rules that define the hierarchy of the rules.
 
- Let's see how the browsers face these issues:
+Let's see how the browsers face these issues:
 
 '''Sharing style data'''
 
@@ -644,7 +647,7 @@ Webkit nodes references style objects (RenderStyle) These objects can be shared 
 
 Firefox has two extra trees for easier style computation - the rule tree and style context tree. Webkit also has style objects but they are not stored in a tree like the style context tree, only the DOM node points to its relevant style.
 
-[[Image:image035.png.pagespeed.ce.OBCNQe7-zP.png]] Figure <nowiki>: Firefox style context tree(</nowiki>[#2_2 2.2])
+[[Image:image035.png.pagespeed.ce.OBCNQe7-zP.png]] Figure 14: Firefox style context tree ([[#2_2|2.2]])
 
 The style contexts contain end values. The values are computed by applying all the matching rules in the correct order and performing manipulations that transform them from logical to concrete values. For example - if the logical value is percentage of the screen it will be calculated and transformed to absolute units. The rule tree idea is really clever. It enables sharing these values between nodes to avoid computing them again. This also saves space.
 
