@@ -1116,7 +1116,7 @@ This page has been translated into Japanese, twice! [http://cou929.nu/docs/how-b
 <span class="browsers"> <span class="browser opera supported"> <span class="browser_name">Opera</span> <span class="support"> supported </span> </span> <span class="browser ie supported"> <span class="browser_name">IE</span> <span class="support"> supported </span> </span> <span class="browser safari supported"> <span class="browser_name">Safari</span> <span class="support"> supported </span> </span> <span class="browser ff supported"> <span class="browser_name">Firefox</span> <span class="support"> supported </span> </span> <span class="browser chrome supported"> <span class="browser_name">Chrome</span> <span class="support"> supported </span> </span> </span><div class="compatible-block">
 }}
 {{Compatibility_Section
-|Not_required=No
+|Not_required=Yes
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
