@@ -1,3 +1,4 @@
+{{Page_Title|Introduction to user experience design}}
 {{Flags
 |High-level issues=Stub
 }}
@@ -16,4 +17,7 @@
 {{Topics|Design}}
 {{External_Attribution
 |Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
 }}
