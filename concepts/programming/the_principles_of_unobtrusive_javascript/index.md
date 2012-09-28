@@ -225,8 +225,3 @@ Further, unobtrusive JavaScript
 Unobtrusive JavaScript is not that hard. It’s mostly a trick of the mind; once you’ve spent a few hours in planning one unobtrusive JavaScript, you’ll find that making the right decisions becomes easier and easier.
  
 Once you’ve grown used to unobtrusive JavaScript, you won’t want to go back to the old obtrusive model.
- 
-Note: This material was originally published as part of the Opera Web Standards Curriculum, available as [http://dev.opera.com/articles/view/unobtrusive-javascript/ 43: The principles of unobtrusive JavaScript], written by PPK. Like the original, it is published under the [http://creativecommons.org/licenses/by-nc-sa/2.5/ Creative Commons Attribution, Non Commercial - Share Alike 2.5] license.
-
-[[Category:Tutorials]]
-[[Category:WSC]]
