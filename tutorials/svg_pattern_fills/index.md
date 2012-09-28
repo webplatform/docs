@@ -56,6 +56,8 @@ Neither of these uses is what one would normally think of when you think of a pa
    &lt;rect x="0" y="0" width="25" height="25" fill="url(#Gradient2)"/&gt;
    &lt;circle cx="25" cy="25" r="20" fill="url(#Gradient1)" fill-opacity="0.5"/&gt;
  &lt;/pattern&gt;</pre>
+
+[[Image:SVG_Pattern_Comparison_of_Units.png]]
  
 Of course, this means that the pattern won't scale if you change your object size later. All three of the above examples are shown below on a rectangle that has been slightly elongated to a height of 300px, but I should note its not an exhaustive picture, and there are other options available depending on your application.
 }}
