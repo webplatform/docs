@@ -18,7 +18,6 @@ These experiments eventually led to the creation of the startup Mugtug with my l
 ==Introduction==
 
 [[Image:typ01-canvas.png]]
-[[Image:typ02-css3d.png]]
 
 &lt;canvas&gt; brings Javascript programmers full control of the colors, vectors, and pixels on their screens&mdash;the visual makeup of the monitor.
 
