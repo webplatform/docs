@@ -560,11 +560,11 @@ View [http://www.html5rocks.com/en/tutorials/canvas/texteffects/Text-Effects.htm
  })();
 </pre>
 
-[[Image:typ14-spaceage.png]]
+[[Image:typ14-spaceage1.png]]
 
-[[Image:typ15-spaceage.png]]
+[[Image:typ15-spaceage2.png]]
 
-[[Image:typ16-spaceage.png]]
+[[Image:typ16-spaceage3.png]]
 
 ==Source code==
 
