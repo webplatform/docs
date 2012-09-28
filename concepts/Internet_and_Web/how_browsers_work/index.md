@@ -677,7 +677,6 @@ In case an element has a sibling or a brother that points to the same tree node 
 
 Lets see an example: Suppose we have this HTML
 
- 
 <source>
  <html>
    <body>
@@ -693,7 +692,7 @@ Lets see an example: Suppose we have this HTML
  </html>
 </source>
 
- And the following rules:
+And the following rules:
 
 <source>
  <nowiki>
@@ -799,13 +798,12 @@ The selector specificity is defined by the [http://www.w3.org/TR/CSS2/cascade.ht
 * count the number of other attributes and pseudo-classes in the selector (= c)
 * count the number of element names and pseudo-elements in the selector (= d)
 
- Concatenating the four numbers a-b-c-d (in a number system with a large base) gives the specificity.
+Concatenating the four numbers a-b-c-d (in a number system with a large base) gives the specificity.
 
 The number base you need to use is defined by the highest count you have in one of the categories. <br /> For example, if a=14 you can use hexadecimal base. In the unlikely case where a=17 you will need a 17 digits number base. The later situation can happen with a selector like this: html body div div p ... (17 tags in your selector.. not very likely).
 
 Some examples:
 
- 
   *             {}  /* a=0 b=0 c=0 d=0 -> specificity = 0,0,0,0 */
   li            {}  /* a=0 b=0 c=0 d=1 -> specificity = 0,0,0,1 */
   li:first-line {}  /* a=0 b=0 c=0 d=2 -> specificity = 0,0,0,2 */
@@ -821,7 +819,6 @@ Some examples:
 
 After the rules are matched, they are sorted according to the cascade rules. Webkit uses bubble sort for small lists and merge sort for big ones. Webkit implements sorting by overriding the ">" operator for the rules:
 
- 
  static bool operator >(CSSRuleData& r1, CSSRuleData& r2)
  {
      int spec1 = r1.selector()->specificity();
@@ -889,7 +886,6 @@ Firefox uses a "state" object(nsHTMLReflowState) as a parameter to layout (terme
 
 The renderer's width is calculated using the container block's width, the renderer's style "width" property, the margins and borders. <br /> For example the width of the following div:
 
- 
  <div style="width:30%"/>
 
  Would be calculated by Webkit as the following(class RenderBox method calcWidth):
@@ -948,7 +944,6 @@ Firefox optimizes the process by not adding elements that will be hidden, like e
 
  The browser main thread is an event loop. Its an infinite loop that keeps the process alive. It waits for events (like layout and paint events) and processes them. This is Firefox code for the main event loop:
 
- 
  while (!mExiting)
      NS_ProcessNextEvent(thread);
 
@@ -965,7 +960,6 @@ According to [http://www.w3.org/TR/CSS2/zindex.html www.w3.org/TR/CSS2/zindex.ht
 The [http://www.w3.org/TR/CSS2/box.html CSS box model] describes the rectangular boxes that are generated for elements in the document tree and laid out according to the visual formatting model. <br /> Each box has a content area (e.g., text, an image, etc.) and optional surrounding padding, border, and margin areas.  [[Image:image046.jpg.pagespeed.ce.eWiQlHBuY5.jpg]]  Figure <nowiki>: CSS2 box model</nowiki>
 
 Each node generates 0..n such boxes. <br /> All elements have a "display" property that determines their type of box that will be generated. Examples:
-
  
  block  - generates a block box.
  inline - generates one or more inline boxes.
@@ -1045,7 +1039,6 @@ The boxes are divided to stacks (called stacking contexts). In each stack the ba
 
 Example:
 
- 
  <style type="text/css">
        div {
          position: absolute;
