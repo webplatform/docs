@@ -270,7 +270,7 @@ Let's say your application lives on <code>example.com</code> and you want to pul
 
 If a site has enabled CORS on its pages, you can fire up the Developer Tools and you'll see the <code>Access-Control-Allow-Origin</code> in our response:
 
- [[Image:access_control_header.png.pagespeed.ce.QPR4kHOZ9r.png|Access-Control-Allow-Origin]] <code>Access-Control-Allow-Origin</code> header on html5rocks.com.
+ [[Image:access_control_header.png|Access-Control-Allow-Origin]] <code>Access-Control-Allow-Origin</code> header on html5rocks.com.
 
 Enabling cross-origin requests is easy, so please, please, please [http://enable-cors.org/ enable CORS] if your data is public!
 
