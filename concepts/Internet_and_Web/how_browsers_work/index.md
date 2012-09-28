@@ -647,7 +647,7 @@ Webkit nodes references style objects (RenderStyle) These objects can be shared 
 
 Firefox has two extra trees for easier style computation - the rule tree and style context tree. Webkit also has style objects but they are not stored in a tree like the style context tree, only the DOM node points to its relevant style.
 
-[[Image:image035.png.pagespeed.ce.OBCNQe7-zP.png]] Figure 14: Firefox style context tree ([[#2_2|2.2]])
+[[Image:image035.png.pagespeed.ce.OBCNQe7-zP.png|Figure 14: Firefox style context tree ([[#2_2|2.2]])]]
 
 The style contexts contain end values. The values are computed by applying all the matching rules in the correct order and performing manipulations that transform them from logical to concrete values. For example - if the logical value is percentage of the screen it will be calculated and transformed to absolute units. The rule tree idea is really clever. It enables sharing these values between nodes to avoid computing them again. This also saves space.
 
@@ -675,7 +675,6 @@ In case an element has a sibling or a brother that points to the same tree node 
 
 Lets see an example: Suppose we have this HTML
 
- 
 <source>
  <html>
    <body>
@@ -691,7 +690,7 @@ Lets see an example: Suppose we have this HTML
  </html>
 </source>
 
- And the following rules:
+And the following rules:
 
 <source>
  <nowiki>
@@ -704,17 +703,17 @@ Lets see an example: Suppose we have this HTML
  </nowiki>
 </source>
 
-To simplify things let's say we need to fill out only two structs - the color struct and the margin struct. The color struct contains only one member - the color The margin struct contains the four sides. <br /> The resulting rule tree will look like this (the nodes are marked with the node name : the # of rule they point at):  
+To simplify things let's say we need to fill out only two structs - the color struct and the margin struct. The color struct contains only one member - the color The margin struct contains the four sides. The resulting rule tree will look like this (the nodes are marked with the node name : the # of rule they point at):  
 
-[[Image:image027.png.pagespeed.ce.TLG6gekZu0.png]] Figure <nowiki>: The rule tree
+[[Image:image027.png.pagespeed.ce.TLG6gekZu0.png|Figure 15: The rule tree]]
 
 The context tree will look like this (node name : rule node they point to):  
 
-[[Image:image029.png.pagespeed.ce.eMpvvZaI8B.png]]  Figure <nowiki>: The context tree
+[[Image:image029.png.pagespeed.ce.eMpvvZaI8B.png|Figure 16: The context tree]]
 
-Suppose we parse the HTML and get to the second <div> tag. We need to create a style context for this node and fill its style structs.
+Suppose we parse the HTML and get to the second <code>&lt;div&gt;</code> tag. We need to create a style context for this node and fill its style structs.
 
-We will match the rules and discover that the matching rules for the <div> are 1 ,2 and 6. This means there is already an existing path in the tree that our element can use and we just need to add another node to it for rule 6 (node F in the rule tree). 
+We will match the rules and discover that the matching rules for the <code>&lt;div&gt;</code> are 1 ,2 and 6. This means there is already an existing path in the tree that our element can use and we just need to add another node to it for rule 6 (node F in the rule tree). 
 
 We will create a style context and put it in the context tree. The new style context will point to node F in the rule tree.
 
@@ -722,7 +721,7 @@ We now need to fill the style structs. We will begin by filling out the margin s
 
 We do have a definition for the color struct, so we can't use a cached struct. Since color has one attribute we don't need to go up the tree to fill other attributes. We will compute the end value (convert string to RGB etc) and cache the computed struct on this node.
 
-The work on the second <span> element is even easier. We will match the rules and come to the conclusion that it points to rule G, like the previous span. Since we have siblings that point to the same node, we can share the entire style context and just point to the context of the previous span.
+The work on the second <code>&lt;span&gt;</code> element is even easier. We will match the rules and come to the conclusion that it points to rule G, like the previous span. Since we have siblings that point to the same node, we can share the entire style context and just point to the context of the previous span.
 
 For structs that contain rules that are inherited from the parent, caching is done on the context tree (the color property is actually inherited, but Firefox treats it as reset and caches it on the rule tree). <br /> For instance if we added rules for fonts in a paragraph:
  
@@ -730,7 +729,7 @@ For structs that contain rules that are inherited from the parent, caching is do
 
  Then the paragraph element, which is a child of the div in the context tree, could have shared the same font struct as his parent. This is if no font rules where specified for the paragraph.
 
-In Webkit, who does not have a rule tree, the matched declarations are traversed 4 times. First non important high priority properties (properties that should be applied first because others depend on them - like display) are applied, than high priority important, then normal priority non important, then normal priority important rules. This means that properties that appear multiple times will be resolved according to the correct cascade order. The last wins. <br />
+In Webkit, who does not have a rule tree, the matched declarations are traversed 4 times. First non important high priority properties (properties that should be applied first because others depend on them - like display) are applied, than high priority important, then normal priority non important, then normal priority important rules. This means that properties that appear multiple times will be resolved according to the correct cascade order. The last wins.
 
 So to summarize - sharing the style objects (entirely or some of the structs inside them) solves issues [[#issue1|1]] and [[#issue3|3]]. Firefox rule tree also helps in applying the properties in the correct order.
 
@@ -747,7 +746,7 @@ There are several sources for style rules:
 
 The last two are easily matched to the element since he owns the style attributes and HTML attributes can be mapped using the element as the key.
 
-As noted previously in [#issue2 issue #2], the CSS rule matching can be trickier. To solve the difficulty, the rules are manipulated for easier access.
+As noted previously in [[#issue2|issue #2]], the CSS rule matching can be trickier. To solve the difficulty, the rules are manipulated for easier access.
 
 After parsing the style sheet, the rules are added to one of several hash maps, according to the selector. There are maps by id, by class name, by tag name and a general map for anything that doesn't fit into those categories. If the selector is an id, the rule will be added to the id map, if it's a class it will be added to the class map etc. <br /> This manipulation makes it much easier to match rules. There is no need to look in every declaration - we can extract the relevant rules for an element from the maps. This optimization eliminates 95+% of the rules, so that they need not even be considered during the matching process([#4_1 4.1]).
 
