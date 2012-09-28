@@ -246,7 +246,7 @@ There are a few variations of the DTD. The strict mode conforms solely to the sp
 
 ====DOM====
 
-The output tree - the "parse tree" is a tree of DOM element and attribute nodes. DOM is short for Document Object Model. It is the object presentation of the HTML document and the interface of HTML elements to the outside world like JavaScript. <br /> The root of the tree is the "[http://www.w3.org/TR/1998/REC-DOM-Level-1-19981001/level-one-core.html#i-Document Document]" object.
+The output tree - the "parse tree" is a tree of DOM element and attribute nodes. DOM is short for Document Object Model. It is the object presentation of the HTML document and the interface of HTML elements to the outside world like JavaScript.
 
 The DOM has an almost one-to-one relation to the markup. For example, this markup:
 
@@ -434,7 +434,7 @@ The code:
 
 The comment speaks for itself.
 
-<blockquote> www.liceo.edu.mx is an example of a site that achieves a level of nesting of about 1500 tags, all from a bunch of <code><b></code>s. We will only allow at most 20 nested tags of the same type before just ignoring them all together. </blockquote>
+<blockquote> www.liceo.edu.mx is an example of a site that achieves a level of nesting of about 1500 tags, all from a bunch of <code>&lt;b&gt;</code>s. We will only allow at most 20 nested tags of the same type before just ignoring them all together. </blockquote>
  
  bool HTMLParser::allowNestedRedundantTag(const AtomicString& tagName)
  {
@@ -457,13 +457,15 @@ Again - the comment speaks for itself.
          return;
  
 
- So web authors beware - unless you want to appear as an example in a Webkit error tolerance code snippet - write well formed HTML.
+So web authors beware - unless you want to appear as an example in a Webkit error tolerance code snippet - write well formed HTML.
 
 ===CSS parsing===
 
 Remember the parsing concepts in the introduction? Well, unlike HTML, CSS is a context free grammar and can be parsed using the types of parsers described in the introduction. In fact [http://www.w3.org/TR/CSS2/grammar.html the CSS specification defines CSS lexical and syntax grammar].
 
-Let's see some examples: <br /> The lexical grammar (vocabulary) is defined by regular expressions for each token:
+Let's see some examples:
+
+The lexical grammar (vocabulary) is defined by regular expressions for each token:
 
  comment   \/\*[^*]*\*+([^/*][^*]*\*+)*\/
  num   [0-9]+{{!}}[0-9]*"."[0-9]+
@@ -543,7 +545,7 @@ Style sheets on the other hand have a different model. Conceptually it seems tha
 
 While the DOM tree is being constructed, the browser constructs another tree, the render tree. This tree is of visual elements in the order in which they will be displayed. It is the visual representation of the document. The purpose of this tree is to enable painting the contents in their correct order.
 
-Firefox calls the elements in the render tree "frames". Webkit uses the term renderer or render object. <br /> A renderer knows how to layout and paint itself and its children. <br /> Webkits RenderObject class, the base class of the renderers, has the following definition:
+Firefox calls the elements in the render tree "frames". Webkit uses the term renderer or render object. A renderer knows how to layout and paint itself and its children. Webkits RenderObject class, the base class of the renderers, has the following definition:
 
  
  class RenderObject{
@@ -555,7 +557,7 @@ Firefox calls the elements in the render tree "frames". Webkit uses the term ren
    RenderLayer* containgLayer; //the containing z-index layer
  }
 
-Each renderer represents a rectangular area usually corresponding to the node's CSS box, as described by the CSS2 spec. It contains geometric information like width, height and position. <br /> The box type is affected by the "display" style attribute that is relevant for the node (see the [#style_computation style computation] section). Here is Webkit code for deciding what type of renderer should be created for a DOM node, according to the display attribute.
+Each renderer represents a rectangular area usually corresponding to the node's CSS box, as described by the CSS2 spec. It contains geometric information like width, height and position. The box type is affected by the "display" style attribute that is relevant for the node (see the [#style_computation style computation] section). Here is Webkit code for deciding what type of renderer should be created for a DOM node, according to the display attribute.
 
  
  RenderObject* RenderObject::createObject(Node* node, RenderStyle* style)
@@ -586,13 +588,13 @@ Each renderer represents a rectangular area usually corresponding to the node's 
      return o;
  }
 
- The element type is also considered, for example form controls and tables have special frames. <br /> In Webkit if an element wants to create a special renderer it will override the <code>createRenderer</code> method. The renderers points to style objects that contains the non geometric information.
+ The element type is also considered, for example form controls and tables have special frames. In Webkit if an element wants to create a special renderer it will override the <code>createRenderer</code> method. The renderers points to style objects that contains the non geometric information.
 
 =====The render tree relation to the DOM tree=====
 
  The renderers correspond to the DOM elements, but the relation is not one to one. Non visual DOM elements will not be inserted in the render tree. An example is the "head" element. Also elements whose display attribute was assigned to "none" will not appear in the tree (elements with "hidden" visibility attribute will appear in the tree).
 
-There are DOM elements which correspond to several visual objects. These are usually elements with complex structure that cannot be described by a single rectangle. For example, the "select" element has 3 renderers - one for the display area, one for the drop down list box and one for the button. Also when text is broken into multiple lines because the width is not sufficient for one line, the new lines will be added as extra renderers. <br /> Another example of several renderers is broken HTML. According to CSS spec an inline element must contain either only block element or only inline elements. In case of mixed content, anonymous block renderers will be created to wrap the inline elements.
+There are DOM elements which correspond to several visual objects. These are usually elements with complex structure that cannot be described by a single rectangle. For example, the "select" element has 3 renderers - one for the display area, one for the drop down list box and one for the button. Also when text is broken into multiple lines because the width is not sufficient for one line, the new lines will be added as extra renderers. Another example of several renderers is broken HTML. According to CSS spec an inline element must contain either only block element or only inline elements. In case of mixed content, anonymous block renderers will be created to wrap the inline elements.
 
 Some render objects correspond to a DOM node but not in the same place in the tree. Floats and absolutely positioned elements are out of flow, placed in a different place in the tree, and mapped to the real frame. A placeholder frame is where they should have been.
 
@@ -665,7 +667,7 @@ The tree helps us by caching entire structs (containing the computed end values)
 
 =====Computing the style contexts using the rule tree=====
 
-When computing the style context for a certain element, we first compute a path in the rule tree or use an existing one. We then begin to apply the rules in the path to fill the structs in our new style context. We start at the bottom node of the path - the one with the highest precedence (usually the most specific selector) and traverse the tree up until our struct is full. If there is no specification for the struct in that rule node, then we can greatly optimize - we go up the tree until we find a node that specifies it fully and simply point to it - that's the best optimization - the entire struct is shared. This saves computation of end values and memory. <br /> If we find partial definitions we go up the tree until the struct is filled.
+When computing the style context for a certain element, we first compute a path in the rule tree or use an existing one. We then begin to apply the rules in the path to fill the structs in our new style context. We start at the bottom node of the path - the one with the highest precedence (usually the most specific selector) and traverse the tree up until our struct is full. If there is no specification for the struct in that rule node, then we can greatly optimize - we go up the tree until we find a node that specifies it fully and simply point to it - that's the best optimization - the entire struct is shared. This saves computation of end values and memory. If we find partial definitions we go up the tree until the struct is filled.
 
 If we didn't find any definitions for our struct, then in case the struct is an "inherited" type - we point to the struct of our parent in the '''context tree''', in this case we also succeeded in sharing structs. If its a reset struct then default values will be used.
 
