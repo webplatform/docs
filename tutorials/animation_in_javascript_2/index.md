@@ -183,8 +183,3 @@ This concludes our look at animating web page functionality using JavaScript - I
 # If <code>setInterval</code> didn't exist, how could you emulate it?
 # How would you make an element fade from fully visible to fully invisible in 20 steps over the course of 1.5 seconds?
 # How would you make an element fade from fully visible to fully invisible ''and then back to visible again'' in 20 steps over the course of 1.5 seconds?
- 
-Note: This material was originally published as part of the Opera Web Standards Curriculum, available as [http://dev.opera.com/articles/view/javascript-animation/ 50: JavaScript animation], written by Stuart Langridge. Like the original, it is published under the [http://creativecommons.org/licenses/by-nc-sa/2.5/ Creative Commons Attribution, Non Commercial - Share Alike 2.5] license.
-
-[[Category:Tutorials]]
-[[Category:WSC]]
