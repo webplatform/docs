@@ -313,7 +313,6 @@ When the parser is created the Document object is created. During the tree const
 
 Let's see the tree construction process for the example input:
 
- 
  <html>
    <body>
       Hello world
@@ -344,7 +343,7 @@ You never get an "Invalid Syntax" error on an HTML page. Browsers fix any invali
 
 Take this HTML for example:
 
- 
+<source>
  <html>
    <mytag>
    </mytag>
@@ -354,6 +353,7 @@ Take this HTML for example:
      Really lousy HTML
    </p>
  </html>
+</source>
 
 I must have violated about a million rules ("mytag" is not a standard tag, wrong nesting of the "p" and "div" elements and more) but the browser still shows it correctly and doesn't complain. So a lot of the parser code is fixing the HTML author mistakes.
 
@@ -378,11 +378,10 @@ We have to take care of at least the following error conditions:
 
 Let's see some Webkit error tolerance examples:
 
-=====</br> instead of <br>=====
+===</br> instead of <br>===
 
-Some sites use </br> instead of <br>. In order to be compatible with IE and Firefox, Webkit treats this like <br>. <br /> The code:
+Some sites use </br> instead of \<br\>. In order to be compatible with IE and Firefox, Webkit treats this like <br>. <br /> The code:
 
- 
  if (t->isCloseTag(brTag) && m_document->inCompatMode()) {
       reportError(MalformedBRError);
       t->beginTag = true;
@@ -390,11 +389,10 @@ Some sites use </br> instead of <br>. In order to be compatible with IE and Fire
 
  Note - the error handling is internal - it won't be presented to the user.
 
-=====A stray table=====
+===A stray table===
 
 A stray table is a table inside another table contents but not inside a table cell. <br /> Like this example:
 
- 
  <table>
      <table>
          <tr><td>inner table</td></tr>
@@ -430,8 +428,7 @@ In case the user puts a form inside another form, the second form is ignored. <b
 
 The comment speaks for itself. <br />
 
-<div class="comment"><blockquote> www.liceo.edu.mx is an example of a site that achieves a level of nesting of about 1500 tags, all from a bunch of <b>s. We will only allow at most 20 nested tags of the same type before just ignoring them all together. </blockquote></div>
-
+<blockquote> www.liceo.edu.mx is an example of a site that achieves a level of nesting of about 1500 tags, all from a bunch of <b>s. We will only allow at most 20 nested tags of the same type before just ignoring them all together. </blockquote
  
  bool HTMLParser::allowNestedRedundantTag(const AtomicString& tagName)
  {
@@ -443,7 +440,7 @@ The comment speaks for itself. <br />
  return i != cMaxRedundantTagDepth;
  }
 
-=====Misplaced html or body end tags=====
+====Misplaced html or body end tags====
 
 Again - the comment speaks for itself.
 
