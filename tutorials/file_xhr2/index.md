@@ -21,7 +21,7 @@ This tutorial highlights some of the new features in <code>XMLHttpRequest</code>
 Fetching a file as a binary blob has been painful with XHR. Technically, it wasn't even possible. One trick that has been well documented involves overriding the mime type with a user-defined charset as seen below.
 
 The old way to fetch an image:
-<pre>
+
  var xhr = new XMLHttpRequest();
  xhr.open('GET', '/path/to/image.png', true);
  
@@ -40,7 +40,6 @@ The old way to fetch an image:
  };
  
  xhr.send();
-</pre>
 
 While this works, what you actually get back in the <code>responseText</code> is not a binary blob. It is a binary string representing the image file. We're tricking the server into passing the data back, unprocessed. Even though this little gem works, I'm going to call it black magic and advise against it. Anytime you resort to character code hacks and string manipulation for coercing data into a desirable format, that's a problem.
 
@@ -49,13 +48,12 @@ While this works, what you actually get back in the <code>responseText</code> is
 In the previous example, we downloaded the image as a binary "file" by overriding the server's mime type and processing the response text as a binary string. Instead, let's leverage <code>XMLHttpRequest</code>'s new <code>responseType</code> and <code>response</code> properties to inform the browser what format we want the data returned as.
 
 ; xhr.'''responseType'''
-;
 : Before sending a request, set the <code>xhr.responseType</code> to "text", "arraybuffer", "blob", or "document", depending on your data needs. Note, setting <code><nowiki>xhr.responseType = ''</nowiki></code> (or omitting) will default the response to "text".
 ; xhr.'''response'''
 : After a successful request, the xhr's response property will contain the requested data as a <code>DOMString</code>, <code>ArrayBuffer</code>, <code>Blob</code>, or <code>Document</code> (depending on what was set for <code>responseType</code>.)
 
 With this new awesomeness, we can rework the previous example, but this time, fetch the image as an <code>Blob</code> instead of a string:
- <pre>
+
  var xhr = new XMLHttpRequest();
  xhr.open('GET', '/path/to/image.png', true);
  '''xhr.responseType = 'blob';'''
@@ -69,7 +67,7 @@ With this new awesomeness, we can rework the previous example, but this time, fe
  };
  
  xhr.send();
-</pre>
+
 Much nicer!
 
 ====ArrayBuffer responses====
@@ -77,7 +75,7 @@ Much nicer!
 An [https://developer.mozilla.org/en/JavaScript_typed_arrays/ArrayBuffer <code>ArrayBuffer</code>] is a generic fixed-length container for binary data. They are super handy if you need a generalized buffer of raw data, but the real power behind these guys is that you can create "views" of the underlying data using [https://developer.mozilla.org/en/JavaScript_typed_arrays JavaScript typed arrays]. In fact, multiple views can be created from a single <code>ArrayBuffer</code> source. For example, you could create an 8-bit integer array that shares the same <code>ArrayBuffer</code> as an existing 32-bit integer array from the same data. The underlying data remains the same, we just create different representations of it.
 
 As an example, the following fetches our same image as an <code>ArrayBuffer</code>, but this time, creates an unsigned 8-bit integer array from that data buffer:
- <pre>
+
  var xhr = new XMLHttpRequest();
  xhr.open('GET', '/path/to/image.png', true);
  '''xhr.responseType = 'arraybuffer';'''
@@ -89,12 +87,11 @@ As an example, the following fetches our same image as an <code>ArrayBuffer</cod
  };
  
  xhr.send();
-</pre>
 
 ====Blob responses====
 
 If you want to work directly with a [https://developer.mozilla.org/en/DOM/Blob <code>Blob</code>] and/or don't need to manipulate any of the file's bytes, use <code>xhr.responseType='blob'</code><nowiki>:</nowiki>
- <pre>
+
  window.URL = window.URL {{!}}{{!}} window.webkitURL;  // Take care of vendor prefixes.
  
  var xhr = new XMLHttpRequest();
@@ -116,7 +113,7 @@ If you want to work directly with a [https://developer.mozilla.org/en/DOM/Blob <
  };
  
  xhr.send();
-</pre>
+
 A <code>Blob</code> can be used in a number of places, including writing it to the HTML5 [[tutorials/file_filesystem|File System]], or [[tutorials/workers_basics#BlobURLs|creating a Blob URL]], as seen in this example.
 
 ==Sending data==
@@ -124,7 +121,7 @@ A <code>Blob</code> can be used in a number of places, including writing it to t
 Being able to download data in different formats is great, but it doesn't get us anywhere if we can't send these rich formats back to home base (the server). <code>XMLHttpRequest</code> has limited us to sending <code>DOMString</code> or <code>Document</code> (XML) data for some time. Not anymore. A revamped <code>send()</code> method has been overridden to accept any of the following types: <code>DOMString</code>, <code>Document</code>, <code>FormData</code>, <code>Blob</code>, <code>File</code>, <code>ArrayBuffer</code>. The examples in the rest of this section demonstrate sending data using each type.
 
 ===Sending string data: xhr.send(DOMString)===
- <pre>
+
  function sendText(txt) {
    var xhr = new XMLHttpRequest();
    xhr.open('POST', '/server', true);
@@ -153,13 +150,13 @@ Being able to download data in different formats is great, but it doesn't get us
  }
  
  sendTextNew(''''test string'''');
-</pre>
+
 There's nothing new here, though the right snippet is slightly different. It sets <code>responseType='text'</code> for comparison. Again, omitting that line yields the same results.
 
 ===Submitting forms: xhr.send(FormData)===
 
 Many people are probably accustomed to using [http://jquery.malsup.com/form/ jQuery plugins] or other libraries to handle AJAX form submissions. Instead, we can use [https://developer.mozilla.org/en/XMLHttpRequest/FormData <code>FormData</code>], another new data type conceived for XHR2. <code>FormData</code> is convenient for creating an HTML <code><form></code> on-the-fly, in JavaScript. That form can then be submitted using AJAX:
- <pre>
+
  function sendForm() {
    var formData = new '''FormData'''();
    '''formData.append'''('username', 'johndoe');
@@ -171,11 +168,11 @@ Many people are probably accustomed to using [http://jquery.malsup.com/form/ jQu
  
    xhr.send('''formData''');
  }
-</pre>
+
 Essentially, we're just dynamically creating a <code><form></code> and tacking on <code><input></code> values to it by calling the append method.
 
 Of course, you don't need to create a <code><form></code> from scratch. <code>FormData</code> objects can be initialized from and existing <code>HTMLFormElement</code> on the page. For example:
- <pre>
+
  <form id="myform" name="myform" action="/server">
    <input type="text" name="username" value="johndoe">
    <input type="number" name="id" value="123456">
@@ -195,9 +192,9 @@ Of course, you don't need to create a <code><form></code> from scratch. <code>Fo
  
    return false; // Prevent page from submitting.
  }
-</pre>
+
 An HTML form can include file uploads (e.g. <code><input type="file"></code>) and <code>FormData</code> can handle that too. Simply append the file(s) and the browser will construct a <code>multipart/form-data</code> request when <code>send()</code> is called:
- <pre>
+
  function uploadFiles(url, files) {
    var formData = new '''FormData'''();
  
@@ -215,7 +212,7 @@ An HTML form can include file uploads (e.g. <code><input type="file"></code>) an
  document.querySelector('input[type="file"]').addEventListener('change', function(e) {
    uploadFiles('/server', this.files);
  }, false);
-</pre>
+
 ===Uploading a file or blob: xhr.send(Blob)===
 
 We can also send <code>File</code> or <code>Blob</code> data using XHR. Keep in mind all <code>File</code>s are <code>Blob</code>s, so either works here.
@@ -223,7 +220,7 @@ We can also send <code>File</code> or <code>Blob</code> data using XHR. Keep in 
 This example creates a new text file from scratch using the <code>Blob()</code> constructor and uploads that <code>Blob</code> to the server. The code also sets up a handler to inform the user of the upload's progress:
  
  <progress min="0" max="100" value="0">0% complete</progress>
- <pre>
+
  function upload(blobOrFile) {
    var xhr = new XMLHttpRequest();
    xhr.open('POST', '/server', true);
@@ -242,11 +239,11 @@ This example creates a new text file from scratch using the <code>Blob()</code> 
  }
  
  upload('''new Blob(['hello world'], {type: 'text/plain'})''');
-</pre>
+
 ===Uploading a chunk of bytes: xhr.send(ArrayBuffer)===
 
 Last but not least, we can send <code>ArrayBuffer</code>s as the XHR's payload.
- <pre>
+
  function sendArrayBuffer() {
    var xhr = new XMLHttpRequest();
    xhr.open('POST', '/server', true);
@@ -256,7 +253,7 @@ Last but not least, we can send <code>ArrayBuffer</code>s as the XHR's payload.
  
    xhr.send('''uInt8Array.buffer''');
  }
-</pre>
+
 ==Cross Origin Resource Sharing (CORS)==
 
 [http://dev.w3.org/2006/waf/access-control/ CORS] allows web applications on one domain to make cross domain AJAX requests to another domain. It's dead simple to enable, only requiring a single response header to be sent by the server.
@@ -280,7 +277,7 @@ Enabling cross-origin requests is easy, so please, please, please [http://enable
 ===Making a cross-domain request===
 
 If the server endpoint has enabled CORS, making the cross-origin request is no different than a normal <code>XMLHttpRequest</code> request. For example, here is a request <code>example.com</code> can now make to <code>www.example2.com</code><nowiki>:</nowiki>
- <pre>
+
  var xhr = new XMLHttpRequest();
  xhr.open('GET', 'http://www.example2.com/hello.json');
  xhr.onload = function(e) {
@@ -288,13 +285,13 @@ If the server endpoint has enabled CORS, making the cross-origin request is no d
    ...
  }
  xhr.send();
-</pre>
+
 ==Practical examples==
 
 ===Download + save files to the HTML5 file system===
 
 Let's say you have an image gallery and want to fetch a bunch of images then save them locally using the [[tutorials/file_filesystem|HTML5 File System]]. One way to accomplish this would be to request images as <code>Blob</code>s and write them out using <code>FileWriter</code><nowiki>:</nowiki>
- <pre>
+
  window.requestFileSystem  = window.requestFileSystem {{!}}{{!}} window.webkitRequestFileSystem;
  
  function onError(e) {
@@ -324,14 +321,14 @@ Let's say you have an image gallery and want to fetch a bunch of images then sav
  };
  
  xhr.send();
-</pre>
+
 '''Note:''' to use this code, see [[tutorials/file
 _filesystem#Browser_support_&_storage_limitations|Browser support & storage limitations] in the [[tutorials/file_filesystem|Exploring the FileSystem APIs]] tutorial.
 
 ===Slicing a file and uploading each portion===
 
 Using the [[tutorials/file_dnd|File APIs]], we can minimize the work to upload a large file. The technique is to slice the upload into multiple chunks, spawn an XHR for each portion, and put the file together on the server. This is similar to how GMail uploads large attachments so quickly. Such a technique could also be used to get around Google App Engine's 32MB http request limit.
- <pre>
+
  function upload(blobOrFile) {
    var xhr = new XMLHttpRequest();
    xhr.open('POST', '/server', true);
@@ -357,7 +354,7 @@ Using the [[tutorials/file_dnd|File APIs]], we can minimize the work to upload a
  }, false);
  
  })();
-</pre>
+
 What is not shown here is the code to reconstruct the file on the server.
 
 '''Try it!'''
