@@ -756,7 +756,7 @@ Let's see for example the following style rules:
  #messageDiv {height:50px}
  div {margin:5px}
 
- The first rule will be inserted into the class map. The second into the id map and the third into the tag map. For the following HTML fragment;
+The first rule will be inserted into the class map. The second into the id map and the third into the tag map. For the following HTML fragment;
 
 <source>
  <p class="error">an error occurred </p>
@@ -857,17 +857,17 @@ Layout can be triggered on the entire render tree - this is "global" layout. Thi
 # A global style change that affects all renderers, like a font size change.
 # As a result of a screen being resized
 
-Layout can be incremental, only the dirty renderers will be layed out (this can cause some damage which will require extra layouts). <br /> Incremental layout is triggered (asynchronously) when renderers are dirty. For example when new renderers are appended to the render tree after extra content came from the network and was added to the DOM tree.
+Layout can be incremental, only the dirty renderers will be layed out (this can cause some damage which will require extra layouts). Incremental layout is triggered (asynchronously) when renderers are dirty. For example when new renderers are appended to the render tree after extra content came from the network and was added to the DOM tree.
 
 [[Image:reflow.png.pagespeed.ce.Gq6DrRBdK_.png|Figure 17: Incremental layout - only dirty renderers and their children are layed out ([[#3_6|3.6]])]].
 
 ====Asynchronous and Synchronous layout====
 
- Incremental layout is done asynchronously. Firefox queues "reflow commands" for incremental layouts and a scheduler triggers batch execution of these commands. Webkit also has a timer that executes an incremental layout - the tree is traversed and "dirty" renderers are layout out. <br /> Scripts asking for style information, like "offsetHeight" can trigger incremental layout synchronously. <br /> Global layout will usually be triggered synchronously. Sometimes layout is triggered as a callback after an initial layout because some attributes , like the scrolling position changed.
+Incremental layout is done asynchronously. Firefox queues "reflow commands" for incremental layouts and a scheduler triggers batch execution of these commands. Webkit also has a timer that executes an incremental layout - the tree is traversed and "dirty" renderers are layout out. <br /> Scripts asking for style information, like "offsetHeight" can trigger incremental layout synchronously. <br /> Global layout will usually be triggered synchronously. Sometimes layout is triggered as a callback after an initial layout because some attributes , like the scrolling position changed.
 
 ====Optimizations====
 
- When a layout is triggered by a "resize" or a change in the renderer position(and not size), the renders sizes are taken from a cache and not recalculated. In some cases - only a sub tree is modified and layout does not start from the root. This can happen in cases where the change is local and does not affect its surroundings - like text inserted into text fields (otherwise every keystroke would have triggered a layout starting from the root).
+When a layout is triggered by a "resize" or a change in the renderer position(and not size), the renders sizes are taken from a cache and not recalculated. In some cases - only a sub tree is modified and layout does not start from the root. This can happen in cases where the change is local and does not affect its surroundings - like text inserted into text fields (otherwise every keystroke would have triggered a layout starting from the root).
 
 ====The layout process====
 
@@ -957,9 +957,9 @@ According to [http://www.w3.org/TR/CSS2/zindex.html www.w3.org/TR/CSS2/zindex.ht
 
 ====CSS Box model====
 
-The [http://www.w3.org/TR/CSS2/box.html CSS box model] describes the rectangular boxes that are generated for elements in the document tree and laid out according to the visual formatting model. <br /> Each box has a content area (e.g., text, an image, etc.) and optional surrounding padding, border, and margin areas.  [[Image:image046.jpg.pagespeed.ce.eWiQlHBuY5.jpg]]  Figure <nowiki>: CSS2 box model</nowiki>
+The [http://www.w3.org/TR/CSS2/box.html CSS box model] describes the rectangular boxes that are generated for elements in the document tree and laid out according to the visual formatting model. Each box has a content area (e.g., text, an image, etc.) and optional surrounding padding, border, and margin areas.  [[Image:image046.jpg.pagespeed.ce.eWiQlHBuY5.jpg|Figure 18: CSS2 box model]]
 
-Each node generates 0..n such boxes. <br /> All elements have a "display" property that determines their type of box that will be generated. Examples:
+Each node generates 0..n such boxes. All elements have a "display" property that determines their type of box that will be generated. Examples:
 
  block  - generates a block box.
  inline - generates one or more inline boxes.
@@ -1030,7 +1030,9 @@ Will look like: [[Image:image067.png.pagespeed.ce.SRkyPOG7Mt.png|Figure 24: Floa
 
 ====Absolute and fixed====
 
-The layout is defined exactly regardless of the normal flow. The element does not participate in the normal flow. The dimensions are relative to the container. In fixed - the container is the view port.  [[Image:image069.png.pagespeed.ce.K_Jx9RHe6H.png|Figure <nowiki>: Fixed positioning</nowiki> <br /> Note - the fixed box will not move even when the document is scrolled!]]
+The layout is defined exactly regardless of the normal flow. The element does not participate in the normal flow. The dimensions are relative to the container. In fixed - the container is the view port.  [[Image:image069.png.pagespeed.ce.K_Jx9RHe6H.png|Figure 25: Fixed positioning]] 
+
+Note - the fixed box will not move even when the document is scrolled!
 
 ===Layered representation===
 
@@ -1048,9 +1050,6 @@ Example:
          top: 2in;
        }
  </style>
-</source>
- 
-<source>
  <p>
      <div
           style="z-index: 3;background-color:red; width: 1in; height: 1in; ">
