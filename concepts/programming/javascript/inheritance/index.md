@@ -1,6 +1,6 @@
 {{Page_Title|Inheritance revisited}}
 {{Flags}}
-{{Summary_Section|Inheritance has always been available in JavaScript, but the examples on this page use some methods introduced in ECMAScript 5. }}
+{{Summary_Section|Inheritance has always been available in JavaScript, but the examples on this page use some methods introduced in ECMAScript 5.}}
 {{Guide
 |Content===Example==
 
@@ -80,7 +80,7 @@ it checks whether <code>o</code> has a property <code>someProp</code>. If not it
 {{External_Attribution
 |Is_CC-BY-SA=Yes
 |Sources=MDN
-|MDN_link=
+|MDN_link=https://developer.mozilla.org/en-US/docs/JavaScript/Guide/Inheritance_Revisited
 |MSDN_link=
 |HTML5Rocks_link=
 }}
