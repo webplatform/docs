@@ -289,7 +289,7 @@ Tokenization is the lexical analysis, parsing the input into tokens. Among HTML 
 
 The tokenizer recognizes the token, gives it to the tree constructor, and consumes the next character for recognizing the next token, and so on until the end of the input.
 
-[[Image:308x400ximage017.png.pagespeed.ic.BGy2jYmiQr.jpg|Figure 9: HTML parsing flow (taken from HTML5 spec)]]
+[[Image:308x400ximage017.png.pagespeed.ic.BGy2jYmiQr.png|Figure 9: HTML parsing flow (taken from HTML5 spec)]]
 
 ====The tokenization algorithm====
 
