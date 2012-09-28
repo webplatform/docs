@@ -378,9 +378,9 @@ We have to take care of at least the following error conditions:
 
 Let's see some Webkit error tolerance examples:
 
-'''<code></br></code> instead of <code>&lt;b&gt;</code>'''
+'''<code></br></code> instead of <code>&lt;br&gt;</code>'''
 
-Some sites use <code></br></code> instead of <code><br></code>. In order to be compatible with IE and Firefox, Webkit treats this like <code><br></code>. The code:
+Some sites use <code></br></code> instead of <code>&lt;br&gt;</code>. In order to be compatible with IE and Firefox, Webkit treats this like <code>&lt;br&gt;</code>. The code:
 
  if (t->isCloseTag(brTag) && m_document->inCompatMode()) {
       reportError(MalformedBRError);
