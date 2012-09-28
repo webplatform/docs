@@ -622,7 +622,7 @@ Style computation brings up a few difficulties:
    ...
  }
 
-Means the rules apply to a <code><div></code> who is the descendant of 3 divs. Suppose you want to check if the rule applies for a given <code><div></code> element. You choose a certain path up the tree for checking. You may need to traverse the node tree up just to find out there are only two divs and the rule does not apply. You then need to try other paths in the tree.
+Means the rules apply to a <code>&lt;div&gt;</code> who is the descendant of 3 divs. Suppose you want to check if the rule applies for a given <code>&lt;div&gt;</code> element. You choose a certain path up the tree for checking. You may need to traverse the node tree up just to find out there are only two divs and the rule does not apply. You then need to try other paths in the tree.
 
 # Applying the rules involves quite complex cascade rules that define the hierarchy of the rules.
 
