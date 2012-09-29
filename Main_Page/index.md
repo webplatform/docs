@@ -13,6 +13,7 @@ We would love your help in improving the content in any way you can — if you s
 *[[CSS|CSS Reference]]
 *[[js|JavaScript Reference]]
 *[[SVG|SVG reference]]
+* [[SVG/Tutorials|SVG tutorials]]
 
 == Contribute to Web Platform Docs ==
 
