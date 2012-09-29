@@ -1,5 +1,6 @@
+{{Page_Title}}
 {{Flags}}
-{{Summary_Section|This guide explain inheritance and the cascade, two fundamental concepts in CSS.}}
+{{Summary_Section|This guide explains inheritance and the cascade, two fundamental concepts in CSS.}}
 {{Guide
 |Content=== Introduction ==
  
@@ -360,6 +361,12 @@ The cascade sorts out all conflicts when multiple declarations would affect a gi
 
 All else being equal, the source order makes the final distinction.
 }}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
 {{See_Also_Section
 |Manual_sections==== Exercise Questions ===
  
@@ -371,4 +378,7 @@ All else being equal, the source order makes the final distinction.
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
 }}
