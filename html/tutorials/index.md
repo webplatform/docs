@@ -27,7 +27,7 @@
 
 ==Applied techniques==
 
-* [[Creating basic navigation menus]]
+* [[tutorials/Creating basic navigation menus|Creating navigation menus]]
 * [[HTML validation]]
 {{Topics|HTML}}
 {{External_Attribution
