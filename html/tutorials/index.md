@@ -1,8 +1,8 @@
 {{Page_Title}}
 {{Flags}}
 {{Summary_Section|HTML is a markup language, used to give content structure and meaning. This page lists all of our HTML tutorials — perfect for learning HTML from scratch, or diving into learning more complex HTML topics. }}
-{{Basic Page|Content=PAGE CONTENT GOES HERE
-}}
+{{Basic Page|Content=
+
 This is the HTML educational materials for beginners.
 
 == Week 1 ==
@@ -54,7 +54,7 @@ This is the HTML educational materials for beginners.
 * [[MathML/Elements|List of MathML Elements]]
 * [[SVG/Elements|List of SVG elements]]
 * [[Main_Page|Web Standards Curriculum]]
-
+}}
 
 [[Category:Tutorials]]
 [[Category:HTML]]
