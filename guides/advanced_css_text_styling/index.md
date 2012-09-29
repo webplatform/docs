@@ -1,3 +1,4 @@
+{{Page_Title|Advanced CSS text styling}}
 {{Flags
 |High-level issues=Stub
 }}
