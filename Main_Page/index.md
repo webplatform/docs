@@ -9,8 +9,7 @@
 <h2>Read our Docs</h2>  
 
 <ul>
-  <li>[[HTML]]</li>
-  <li>[[html]]</li>
+  <li>[[HTML|HTML Reference]] ([[html]])
   <li>[HTML tutorials]</li>
 </ul>
 
