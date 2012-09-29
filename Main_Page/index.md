@@ -9,6 +9,7 @@ We would love your help in improving the content in any way you can &mdash; if y
 == Read our Docs ==
 
 * [[concepts|Concept pages]]: General concepts related to the Web, and web design and development
+* [[Accessibility]]
 * [[HTML/tutorials|HTML tutorials]]
 *[[HTML|HTML Reference]]
 *[[CSS|CSS Reference]]
