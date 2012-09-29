@@ -1,3 +1,4 @@
+{{Page_Title|How does the Internet work? }}
 {{Flags}}
 {{API_Name}}
 {{Summary_Section|Every so often, you get offered a behind-the-scenes look at the cogs and fan belts behind the action. Today’s your lucky day. In this article we'll usher you behind the scenes of one of the hottest technologies that you might already be familiar with: the World Wide Web. Cue theme music.
