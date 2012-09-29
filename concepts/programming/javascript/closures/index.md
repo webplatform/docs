@@ -300,7 +300,7 @@ Or as follows:
 
 In the two previous examples, the inherited prototype can be shared by all objects and the method definitions need not occur at every object creation. See [[guides/JavaScript/objects|Details of the Object Model]] for more details.
 
-<span style="float: left">[[/guides/JavaScript/iterators|&laquo; Previous]]</span>[[guides/JavaScript/LiveConnect|Next &rquo;]]
+<span style="float: left">[[/guides/JavaScript/iterators|&laquo; Previous]]</span>[[guides/JavaScript/LiveConnect|Next &raquo;]]
 }}
 {{Compatibility_Section
 |Not_required=Yes
