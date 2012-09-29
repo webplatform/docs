@@ -21,6 +21,10 @@
 * [[tutorials/CSS text quick start|CSS text quick start]]
 * [[tutorials/CSS text styling advanced|Advanced CSS text styling]]
 
+==Graphics==
+
+* [[tutorials/Background images|Background images]]
+
 ==CSS layout==
 
 * [[The_CSS_layout_model|The CSS layout model: border, boxes, margin and padding]]
