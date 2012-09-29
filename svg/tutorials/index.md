@@ -3,11 +3,9 @@
 |High-level issues=Needs Topics, Missing Relevant Sections
 |Content=Incomplete, Grammar/Spelling
 }}
-{{Summary_Section}}
+{{Summary_Section|This page lists SVG tutorials, to teach beginning and advanced SVG concepts and techniques.}}
 {{Basic Page}}
-If you want to learn SVG, we have a set of tutorials to help you
-
-== Learning SVG ==
+== SVG basics ==
 
 * [[SVG primer]]
 
@@ -17,6 +15,9 @@ If you want to learn SVG, we have a set of tutorials to help you
 * [[tutorials/Building SVG paths|Building SVG paths]]
 * [[tutorials/Styling SVG with CSS|Styling SVG with CSS]]
 * [[tutorials/Using text in SVG|Using text in SVG]]
+
+== Advanced SVG ===
+
 * [[tutorials/SVG clipping and masking|SVG clipping and masking]]
 * [[tutorials/SVG gradients|SVG gradients]]
 * [[tutorials/SVG pattern fills|SVG pattern fills]]
