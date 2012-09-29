@@ -16,10 +16,10 @@ We would love your help in improving the content in any way you can — if you s
 
 == Contribute to Web Platform Docs ==
 
-* [Web Platform Docs getting started guide]
+* [[WPD:Getting_Started|Web Platform Docs getting started guide]]
 * [Wikipedia gotchas]
 * [Wikipedia markup guide]
-* [Web Platform Docs language and style guide]
+* [[WPD:Manual_Of_Style|Web Platform Docs language and style guide]]
 * Read the [http://blog.webplatform.org/ Web Platform Docs blog] for upcoming news
 
 == Contact us! ==
