@@ -1,4 +1,4 @@
-=== Introduction ==
+== Introduction ==
  
 The [http://www.w3.org/wiki/Web_Standards_Curriculum Web Standards Curriculum Table of contents] is about advocating best practices for the web and providing complete coverage of all the skills you need to create modern Web sites, in doing so making the Web a better place for all of us to work and browse. This mini series expands the core web standards curriculum articles, look at all the skills and concepts you should take on board to help optimize your Web sites so that they run successfully on mobile (and other alternative) devices. I’ll start by taking a look at the subject area in general and special considerations for marking up and running pages on mobile devices, then move on to styling, scripting and testing as they relate to '''mobile web development'''.
 
