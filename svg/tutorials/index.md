@@ -16,7 +16,7 @@
 * [[tutorials/Styling SVG with CSS|Styling SVG with CSS]]
 * [[tutorials/Using text in SVG|Using text in SVG]]
 
-== Advanced SVG ===
+== Advanced SVG ==
 
 * [[tutorials/SVG clipping and masking|SVG clipping and masking]]
 * [[tutorials/SVG gradients|SVG gradients]]
