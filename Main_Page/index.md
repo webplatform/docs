@@ -9,26 +9,11 @@
 <h2>Read our Docs</h2>  
 
 <ul>
+  <li>[[concepts|Concept pages]]: General concepts related to the Web, and web design and development</li>
   <li>[[HTML|HTML Reference]] ([[html]])
   <li>[HTML tutorials]</li>
 </ul>
 
-<ul>
-  <li>[[CSS]]</li>
-  <li>[[css]]</li>
-</ul>
-
-<ul>
-  <li>[JavaScript reference]</li>
-  <li>[JavaScript tutorials]</li>
-</ul>
-
-<ul>
-  <li>[[SVG|SVG reference]]</li>
-  <li>[[SVG/Tutorials|SVG tutorials]]</li>
-</ul>
-
-<p>etc… how do we want to display this info?</p>
 
 <h2>Contribute to Web Platform Docs</h2>
 
