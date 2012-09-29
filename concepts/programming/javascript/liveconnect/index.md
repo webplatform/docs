@@ -36,7 +36,8 @@ When you refer to a Java package or class, or work with a Java object or array, 
 {{!}} A JavaScript reference to a Java package.
 {{!}}}
 
-{{Note|Because Java is a strongly typed language and JavaScript is weakly typed, the JavaScript runtime engine converts argument values into the appropriate data types for the other language when you use LiveConnect. See [[/guide/JavaScript/values#Data_Type_Conversion Data Type Conversion] for complete information.}}
+{{Note|Because Java is a strongly typed language and JavaScript is weakly typed, the JavaScript runtime engine converts argument values into the appropriate data types for the other language when you use LiveConnect. See [[#Data_Type_Conversion|Data Type Conversion]] for complete information.}}
+
 
 In some ways, the existence of the LiveConnect objects is transparent, because you interact with Java in a fairly intuitive way. For example, you can create a Java <code>String</code> object and assign it to the JavaScript variable <code>myString</code> by using the <code>new</code> operator with the Java constructor, as follows:
 
@@ -142,8 +143,8 @@ See [http://docs.webplatform.org/en-US/docs/JavaScript/Guide/Statements#Exceptio
 
 If you want to use JavaScript objects in Java, you must import the <code>netscape.javascript</code> package into your Java file. This package defines the following classes:
 
-* <code>[https://developer.mozilla.org/en-US/JavaScript/Reference/LiveConnect/JSObject netscape.javascript.JSObject]</code> allows Java code to access JavaScript methods and properties.
-* <code>[http://docs.webplatform.org/en-US/docs/JavaScript/Reference/LiveConnect/JSException netscape.javascript.JSException]</code> allows Java code to handle JavaScript errors.
+* <code>[https://developer.mozilla.org/docs/JavaScript/Reference/LiveConnect/JSObject netscape.javascript.JSObject]</code> allows Java code to access JavaScript methods and properties.
+* <code>[https://developer.mozilla.org/docs/JavaScript/Reference/LiveConnect/JSException netscape.javascript.JSException]</code> allows Java code to handle JavaScript errors.
 
 
 ===Locating the LiveConnect classes===
@@ -165,7 +166,7 @@ You can specify an environment variable in Windows NT by double-clicking the Sys
 
 See the Sun JDK documentation for more information about <code>CLASSPATH</code>.
 
-{{Note| Because Java is a strongly typed language and JavaScript is weakly typed, the JavaScript runtime engine converts argument values into the appropriate data types for the other language when you use LiveConnect. See [[#Data_Type_Conversions| Data Type Conversions]] for complete information.
+{{Note| Because Java is a strongly typed language and JavaScript is weakly typed, the JavaScript runtime engine converts argument values into the appropriate data types for the other language when you use LiveConnect. See [[#Data_Type_Conversions| Data Type Conversions]] for complete information.}}
 
 ===Using the LiveConnect Classes===
 
@@ -336,10 +337,10 @@ When you pass JavaScript number types as parameters to Java methods, Java conver
 {{!}}-
 {{!}}
 byte<br />
-
-char<br /> int<br /> long
-
- short
+char<br /> 
+int<br />
+long<br />
+short
 {{!}}
 * Values are rounded using round-to-negative-infinity mode.
 * Values which are too large or small to be represented result in a run-time error.
@@ -382,10 +383,12 @@ Values are converted to strings. For example:
 {{!}}-
 {{!}}
 byte<br />
-
-char<br /> double<br /> float<br /> int<br /> long
-
- short
+char<br />
+double<br />
+float<br /> 
+int<br /> 
+long<br />
+short
 {{!}}
 * true becomes 1
 * false becomes 0
@@ -412,11 +415,12 @@ JavaScript 1.3 and earlier:
 * A JavaScript string is converted to an instance of <code>java.lang.String</code> with an ASCII value.
 {{!}}-
 {{!}}
-byte
-
-double<br /> float<br /> int<br /> long
-
- short
+byte<br />
+double<br /> 
+float<br />
+int<br /> 
+long<br /> 
+short<br />
 {{!}} All values are converted to numbers as described in ECMA-262. The JavaScript string value is converted to a number according to the rules described in ECMA-262.
 {{!}}-
 {{!}} char
@@ -455,10 +459,10 @@ When you pass undefined JavaScript values as parameters to Java methods, Java co
 {{!}}-
 {{!}}
 byte<br />
-
-char<br /> int<br /> long
-
- short
+char<br /> 
+int<br /> 
+long<br />
+short
 {{!}} The value becomes 0.
 {{!}}}
 
@@ -479,10 +483,12 @@ When you pass null JavaScript values as parameters to Java methods, Java convert
 {{!}}-
 {{!}}
 byte<br />
-
-char<br /> double<br /> float<br /> int<br /> long
-
- short
+char<br /> 
+double<br /> 
+float<br /> 
+int<br /> 
+long<br />
+short
 {{!}} The value becomes 0.
 {{!}}-
 {{!}} boolean
@@ -505,10 +511,12 @@ In most situations, when you pass a JavaScript <code>JavaArray</code> or <code>J
 {{!}}-
 {{!}}
 byte<br />
-
-char<br /> double<br /> float<br /> int<br /> long
-
- short
+char<br /> 
+double<br /> 
+float<br /> 
+int<br /> 
+long<br />
+short
 {{!}}
 The object is unwrapped, and either of the following situations occur:
 
@@ -578,10 +586,12 @@ When you pass any other JavaScript object as a parameter to a Java method, Java 
 {{!}}-
 {{!}}
 byte<br />
-
-char<br /> double<br /> float<br /> int<br /> long
-
- short
+char<br /> 
+double<br /> 
+float<br /> 
+int<br /> 
+long<br />
+short
 {{!}} The object is converted to a value using the logic of the <code>ToPrimitive</code> operator described in ECMA-262. The ''PreferredType'' hint used with this operator is Number.
 {{!}}-
 {{!}} boolean
@@ -618,11 +628,9 @@ Java <code>String</code> objects also correspond to JavaScript wrappers. If you 
  var JavaString = JavaObj.methodThatReturnsAString();
  var JavaScriptString = JavaString + "";
 
-<div>
 
-<span style="float: left">[[/guides/JavaScript/closures|&laquo; Previous]]</span>[http://docs.webplatform.org/en-US/docs/E4X/Processing_XML_with_E4X Next »]
+<span style="float: left">[[/guides/JavaScript/closures|&laquo; Previous]]</span>
 
-</div>
 }}
 {{Compatibility_Section
 |Not_required=Yes
