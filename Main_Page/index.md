@@ -11,8 +11,8 @@ We would love your help in improving the content in any way you can — if you s
 * [[concepts|Concept pages]]: General concepts related to the Web, and web design and development
 *[[HTML|HTML Reference]]
 *[[CSS|CSS Reference]]
+*[[js|JavaScript Reference]]
 *[[SVG|SVG reference]]
-
 
 == Contribute to Web Platform Docs ==
 
