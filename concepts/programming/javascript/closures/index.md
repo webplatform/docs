@@ -1,15 +1,13 @@
 {{Page_Title|About closures}}
 {{Flags}}
-{{Summary_Section|Closures are often considered an advanced feature in JavaScript, but understanding them is essential to mastering the language.
-
-}}
+{{Summary_Section|Closures are often considered an advanced feature in JavaScript, but understanding them is essential to mastering the language.}}
 {{Guide
 |Content=Consider the following function:
 
 <div style="width: auto; overflow: hidden">
 
  function init() {
-   var name = "Mozilla";
+   var name = "Hello world!";
    function displayName() {
      alert(name);
    }
@@ -19,14 +17,14 @@
 
 </div>
 
-The <code>init()</code> function creates a local variable called <code>name</code>, and then defines a function called <code>displayName()</code>. <code>displayName()</code> is an inner function — it is defined inside <code>init()</code>, and is only available within the body of that function. <code>displayName()</code> has no local variables of its own, but reuses the <code>name</code> variable declared in the outer function.
+The <code>init()</code> function creates a local variable called <code>name</code>, and then defines a function called <code>displayName()</code>. <code>displayName()</code> is an inner function &mdash; it is defined inside <code>init()</code>, and is only available within the body of that function. <code>displayName()</code> has no local variables of its own, but reuses the <code>name</code> variable declared in the outer function.
 
-This works just fine — try running the code to see what happens. This is an example of ''functional'' ''scoping''<nowiki>: in JavaScript, the scope of a variable is defined by its location within the source code, and nested functions have access to variables declared in their outer scope.</nowiki>
+This works just fine &mdash; try running the code to see what happens. This is an example of ''functional'' ''scoping'': in JavaScript, the scope of a variable is defined by its location within the source code, and nested functions have access to variables declared in their outer scope.
 
 Now consider the following example:
 
  function makeFunc() {
-   var name = "Mozilla";
+   var name = "Hello world!";
    function displayName() {
      alert(name);
    }
@@ -36,13 +34,13 @@ Now consider the following example:
  var myFunc = makeFunc();
  myFunc();
 
-If you run this code it will have exactly the same effect as the previous <code>init()</code> example: the string "Mozilla" will be displayed in a JavaScript alert box. What's different — and interesting — is that the <code>displayName()</code> inner function was returned from the outer function before being executed.
+If you run this code it will have exactly the same effect as the previous <code>init()</code> example: the string "Hello world!" will be displayed in a JavaScript alert box. What's different &mdash; and interesting &mdash; is that the <code>displayName()</code> inner function was returned from the outer function before being executed.
 
 That the code still works may seem unintuitive. Normally, the local variables within a function only exist for the duration of that function's execution. Once <code>makeFunc()</code> has finished executing, it is reasonable to expect that the name variable will no longer be necessary. Since the code still works as expected, this is obviously not the case.
 
-The solution to this puzzle is that <code>myFunc</code> has become a ''closure''. A closure is a special kind of object that combines two things: a function, and the environment in which that function was created. The environment consists of any local variables that were in-scope at the time that the closure was created. In this case, <code>myFunc</code> is a closure that incorporates both the <code>displayName</code> function and the "Mozilla" string that existed when the closure was created.
+The solution to this puzzle is that <code>myFunc</code> has become a ''closure''. A closure is a special kind of object that combines two things: a function, and the environment in which that function was created. The environment consists of any local variables that were in-scope at the time that the closure was created. In this case, <code>myFunc</code> is a closure that incorporates both the <code>displayName</code> function and the "Hello world!" string that existed when the closure was created.
 
-Here's a slightly more interesting example — a <code>makeAdder</code> function:
+Here's a slightly more interesting example &mdash; a <code>makeAdder</code> function:
 
  function makeAdder(x) {
    return function(y) {
@@ -58,17 +56,17 @@ Here's a slightly more interesting example — a <code>makeAdder</code> function
 
 In this example, we have defined a function <code>makeAdder(x)</code> which takes a single argument <code>x</code> and returns a new function. The function it returns takes a single argument <code>y</code>, and returns the sum of <code>x</code> and <code>y</code>.
 
-In essence, <code>makeAdder</code> is a function factory — it creates functions which can add a specific value to their argument. In the above example we use our function factory to create two new functions — one that adds 5 to its argument, and one that adds 10.
+In essence, <code>makeAdder</code> is a function factory &mdash; it creates functions which can add a specific value to their argument. In the above example we use our function factory to create two new functions &mdash; one that adds 5 to its argument, and one that adds 10.
 
 <code>add5</code> and <code>add10</code> are both closures. They share the same function body definition, but store different environments. In <code>add5</code>'s environment, <code>x</code> is 5. As far as <code>add10</code> is concerned, <code>x</code> is 10.
 
 ==Practical closures==
 
-That's the theory out of the way — but are closures actually useful? Let's consider their practical implications. A closure lets you associate some data (the environment) with a function that operates on that data. This has obvious parallels to object oriented programming, where objects allow us to associate some data (the object's properties) with one or more methods.
+That's the theory out of the way &mdash; but are closures actually useful? Let's consider their practical implications. A closure lets you associate some data (the environment) with a function that operates on that data. This has obvious parallels to object oriented programming, where objects allow us to associate some data (the object's properties) with one or more methods.
 
 Consequently, you can use a closure anywhere that you might normally use an object with only a single method.
 
-Situations where you might want to do this are particularly common on the web. Much of the code we write in web JavaScript is event-based — we define some behavior, then attach it to an event that is triggered by the user (such as a click or a keypress). Our code is generally attached as a callback: a single function which is executed in response to the event.
+Situations where you might want to do this are particularly common on the web. Much of the code we write in web JavaScript is event-based &mdash; we define some behavior, then attach it to an event that is triggered by the user (such as a click or a keypress). Our code is generally attached as a callback: a single function which is executed in response to the event.
 
 Here's a practical example: suppose we wish to add some buttons to a page that adjust the text-size. One way of doing this is to specify the font-size of the body element in pixels, then set the size of the other elements on the page (such as headers) using the relative em unit:
 
@@ -116,7 +114,7 @@ Languages such as Java provide the ability to declare methods private, meaning t
 
 JavaScript does not provide a native way of doing this, but it is possible to emulate private methods using closures. Private methods aren't just useful for restricting access to code: they also provide a powerful way of managing your global namespace, keeping non-essential methods from cluttering up the public interface to your code.
 
-Here's how to define some public functions that can access private functions and variables, using closures which is also known as the [http://www.google.com/search?q=javascript+module+pattern module pattern]<nowiki>:</nowiki>
+Here's how to define some public functions that can access private functions and variables, using closures which is also known as the [http://www.google.com/search?q=javascript+module+pattern module pattern]:
 
  var Counter = (function() {
    var privateCounter = 0;
@@ -185,13 +183,13 @@ Using closures in this way provides a number of benefits that are normally assoc
 
 ==Creating closures in loops: A common mistake==
 
-Prior to the introduction of the [http://docs.webplatform.org/en-US/docs/JavaScript/Reference/Statements/let <code>let</code> keyword] in JavaScript 1.7, a common problem with closures occurred when they were created inside a loop. Consider the following example:
-<nowiki>
- &lt;p id="help">Helpful notes will appear here</p>
- &lt;p>E-mail: <input type="text" id="email" name="email"></p>
- &lt;p>Name: <input type="text" id="name" name="name"></p>
- &lt;p>Age: <input type="text" id="age" name="age"></p>
-</nowiki>
+Prior to the introduction of the [[/js/reference/statements/let|<code>let</code> keyword]] in JavaScript 1.7, a common problem with closures occurred when they were created inside a loop. Consider the following example:
+<syntaxhighlight>
+ <p id="help">Helpful notes will appear here</p>
+ <p>E-mail: <input type="text" id="email" name="email"></p>
+ <p>Name: <input type="text" id="name" name="name"></p>
+ <p>Age: <input type="text" id="age" name="age"></p>
+</syntaxhighlight>
  function showHelp(help) {
    document.getElementById('help').innerHTML = help;
  }
@@ -300,9 +298,9 @@ Or as follows:
    return this.message;
  };
 
-In the two previous examples, the inherited prototype can be shared by all objects and the method definitions need not occur at every object creation. See [http://docs.webplatform.org/en-US/docs/JavaScript/Guide/Details_of_the_Object_Model Details of the Object Model] for more details.
+In the two previous examples, the inherited prototype can be shared by all objects and the method definitions need not occur at every object creation. See [[guides/JavaScript/objects|Details of the Object Model]] for more details.
 
-<span style="float: left">[http://docs.webplatform.org/en-US/docs/JavaScript/Guide/Iterators_and_Generators « Previous]</span>[http://docs.webplatform.org/en-US/docs/JavaScript/Guide/LiveConnect_Overview Next »]
+<span style="float: left">[[/guides/JavaScript/iterators|&laquo; Previous]]</span>[[guides/JavaScript/LiveConnect|Next &rquo;]]
 }}
 {{Compatibility_Section
 |Not_required=Yes
