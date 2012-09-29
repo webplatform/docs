@@ -9,6 +9,9 @@ If you want to learn SVG, we have a set of tutorials to help you
 
 == Learning SVG ==
 
+* [[SVG primer]]
+
+* [[tutorials/SVG introduction|SVG introduction]]
 * [[tutorials/SVG syntax and deployment|SVG syntax and deployment]]
 * [[tutorials/Fills and strokes in SVG|Fills and strokes in SVG]]
 * [[tutorials/Building SVG paths|Building SVG paths]]
@@ -28,7 +31,6 @@ If you want to learn SVG, we have a set of tutorials to help you
 == External content ==
 
 TBD
-
 {{Topics|SVG}}
 {{External_Attribution
 |Is_CC-BY-SA=No
