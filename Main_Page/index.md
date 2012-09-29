@@ -20,7 +20,7 @@ We would love your help in improving the content in any way you can — if you s
 * [Wikipedia gotchas]
 * [Wikipedia markup guide]
 * [Web Platform Docs language and style guide]
-* Read the [Web Platform Docs blog] for upcoming news
+* Read the [http://blog.webplatform.org/ Web Platform Docs blog] for upcoming news
 
 == Contact us! ==
 
