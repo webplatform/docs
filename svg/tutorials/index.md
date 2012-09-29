@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page_Title|SVG tutorials}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections
 |Content=Incomplete, Grammar/Spelling
