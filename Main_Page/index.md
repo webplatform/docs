@@ -25,8 +25,8 @@
 </ul>
 
 <ul>
-  <li>[SVG reference]</li>
-  <li>[SVG tutorials]</li>
+  <li>[[SVG|SVG reference]]</li>
+  <li>[[SVG/Tutorials|SVG tutorials]]</li>
 </ul>
 
 <p>etc… how do we want to display this info?</p>
