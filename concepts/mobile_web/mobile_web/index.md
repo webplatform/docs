@@ -185,7 +185,7 @@ The process by which we would optimize this heading might go something like this
 
 This gives us the rendering shown in Figure 2.
 
-[[Image:mobile_figure2.jpg|heading text has been replaced with a background image]]
+[[File:Mobile figure2.jpg|heading text has been replaced with a background image]]
 
 Figure 2: Our heading text has been replaced with a background image.
 
@@ -195,7 +195,7 @@ Figure 2: Our heading text has been replaced with a background image.
 
 This results in display along the lines of Figure 3.
 
-[[Image:mobile_figure3.jpg| the company logo, and our background gradient]]
+[[File:Mobile figure3.jpg| the company logo, and our background gradient]]
 
 Figure 3: We now have the company logo, and our background gradient.
  
@@ -203,13 +203,13 @@ We have achieved our basic goal, but need to remember how this looks in browsers
  
 Some browsers don't support CSS background images (even desktop web-browsers don't always support them when printed), because of this your company logo would not appear and the text is still positioned off the page so the header would end-up looking like Figure 4:
 
-[[Image:mobile_figure4.jpg|No background image means we do not see the company logo]] 
+[[File:Mobile figure4.jpg|No background image means we do not see the company logo]] 
 
 Figure 4: If the browser does not support CSS background images, we don't see the company logo!
  
 Other browsers mess up the text indenting, so you see both, which doesn't look great - see Figure 5.
 
-[[Image:mobile_figure5.jpg|In some browsers we see the original text as well as the background image]] 
+[[File:Mobile figure5.jpg|In some browsers we see the original text as well as the background image]] 
 
 Figure 5: In some browsers we see the original text as well as the background image
  
@@ -219,19 +219,19 @@ The only way around this is to avoid using the text-swapping trip and change the
  
 This would give you the rendering shown in Figure 6 - the same as when we started - but the mark-up isn't as clean.
 
-[[Image:mobile_figure6.jpg|HTML img element means more heading support but the markup is less clean]] 
+[[File:Mobile figure6.jpg|HTML img element means more heading support but the markup is less clean]] 
 
 Figure 6: Using an HTML <code>img</code> element means more support for heading, but the markup is less clean.
  
 However, some poorer devices can't even render background colors, so your fancy transparent logo image ready for any background style will appear as white text on a white background - see Figure 7!
 
-[[Image:mobile_figure7.jpg|no background colours means white on white]] 
+[[File:Mobile figure7.jpg|no background colours means white on white]] 
 
 Figure 7: No support for background colours means that your image will appear white on white - terrible!
  
 As a last resort, we'll reluctantly decide to make the logo background color solid blue instead to make it visible across as many browser types as possible and drop the use of the gradient background image altogether - see Figure 8.
 
-[[Image:mobile_figure8.jpg|The logo background is now solid blue, so it is visible on devices without background colour support]] 
+[[File:Mobile figure8.jpg|The logo background is now solid blue, so it is visible on devices without background colour support]] 
 
 Figure 8: The logo background is now solid blue, so it is visible on devices without background colour support.
  
