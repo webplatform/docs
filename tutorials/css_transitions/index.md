@@ -17,8 +17,8 @@
 |Firefox_prefixed_version=4.0
 |Internet_explorer_supported=Yes
 |Internet_explorer_version=10
-|Internet_explorer_prefixed_supported=No
-|Internet_explorer_prefixed_version=
+|Internet_explorer_prefixed_supported=Yes
+|Internet_explorer_prefixed_version=9
 |Opera_supported=No
 |Opera_version=
 |Opera_prefixed_supported=Yes
