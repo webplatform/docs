@@ -110,7 +110,7 @@ You can test for <code>Infinity</code>, <code>-Infinity</code> and <code>NaN</co
  > isFinite(NaN)
  false
 
-{{Note|The [[/js/objects/parseInt|<code>parseInt()</code>]] and <code>[[/js/objects/parseFloat|parseFloat()]]</code> functions parse a string until they reach a character that isn't valid for the specified number format, then return the number parsed up to that point. However the "+" operator simply converts the string to <code>NaN</code> if there is any invalid character in it. Just try parsing the string "10.2abc" with each method by yourself in the console and you'll understand the differences better.</div>
+{{Note|The [[/js/objects/parseInt|<code>parseInt()</code>]] and <code>[[/js/objects/parseFloat|parseFloat()]]</code> functions parse a string until they reach a character that isn't valid for the specified number format, then return the number parsed up to that point. However the "+" operator simply converts the string to <code>NaN</code> if there is any invalid character in it. Just try parsing the string "10.2abc" with each method by yourself in the console and you'll understand the differences better.}}
 
 ==Strings==
 
@@ -150,7 +150,7 @@ You can perform this conversion explicitly using the <code>Boolean()</code> func
 
 However, this is rarely necessary, as JavaScript will silently perform this conversion when it expects a boolean, such as in an <code>if</code> statement (see below). For this reason, we sometimes speak simply of "true values" and "false values," meaning values that become <code>true</code> and <code>false</code>, respectively, when converted to booleans. Alternatively, such values can be called "truthy" and "falsy", respectively.
 
-Boolean operations such as <code>&amp;&amp;</code> (logical ''and''), <code><nowiki>{{!}}{{!}}</nowiki></code> (logical ''or''), and <code><nowiki>!</nowiki></code> (logical ''not'') are supported; see below.
+Boolean operations such as <code>&amp;&amp;</code> (logical ''and''), <code>{{!}}{{!}}</code> (logical ''or''), and <code><nowiki>!</nowiki></code> (logical ''not'') are supported; see below.
 
 ==Variables==
 
@@ -610,7 +610,7 @@ This works, but it's pretty ugly. You end up with dozens of functions in your gl
  > s.fullNameReversed()
  Willison, Simon
 
-There's something here we haven't seen before: the '<code>[[/js/operators/this|this]]</code>' keyword. Used inside a function, '<code>this</code>' refers to the current object. What that actually means is specified by the way in which you called that function. If you called it using [/js/operators/member_operators|dot notation or bracket notation]] on an object, that object becomes '<code>this</code>'. If dot notation wasn't used for the call, '<code>this</code>' refers to the global object. This is a frequent cause of mistakes. For example:
+There's something here we haven't seen before: the '<code>[[/js/operators/this|this]]</code>' keyword. Used inside a function, '<code>this</code>' refers to the current object. What that actually means is specified by the way in which you called that function. If you called it using [[/js/operators/member_operators|dot notation or bracket notation]] on an object, that object becomes '<code>this</code>'. If dot notation wasn't used for the call, '<code>this</code>' refers to the global object. This is a frequent cause of mistakes. For example:
 
  > s = makePerson("Simon", "Willison")
  > var fullName = s.fullName;
@@ -809,9 +809,6 @@ Closures make it easy to create a memory leak without meaning to. Consider this:
  }
 
 The above code sets up the element to turn red when it is clicked. It also creates a memory leak. Why? Because the reference to <code>el</code> is inadvertently caught in the closure created for the anonymous inner function. This creates a circular reference between a JavaScript object (the function) and a native object (<code>el</code>).
-
- <font size="16px">needsTechnicalReview();
- </font>
 
 There are a number of workarounds for this problem. The simplest is not to use the <code>el</code> variable:
 
