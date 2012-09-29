@@ -15,8 +15,8 @@
 </ul>
 
 <ul>
-  <li>[CSS reference]</li>
-  <li>[CSS tutorials]</li>
+  <li>[[CSS]]</li>
+  <li>[[css]]</li>
 </ul>
 
 <ul>
