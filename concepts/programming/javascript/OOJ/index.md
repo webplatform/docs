@@ -3,12 +3,11 @@
 {{Summary_Section|JavaScript has strong object-oriented programming capabilities, even though some debates have taken place due to the differences in object-oriented JavaScript compared to other languages.
 
 This article starts with an introduction to object-oriented programming, then reviews the JavaScript object model, and finally demonstrates concepts of object-oriented programming in JavaScript.
-
 }}
 {{Guide
 |Content===JavaScript review==
 
-If you don't feel confident about JavaScript concepts such as variables, types, functions, and scope you can read about those topics in [[/tutorials/js/reintroduction|A re-introduction to JavaScript]]. You can also consult the [[/guides/JavaScript|JavaScript Guide]].
+If you don't feel confident about JavaScript concepts such as variables, types, functions, and scope you can read about those topics in [[/tutorials/JavaScript/reintroduction|A re-introduction to JavaScript]]. You can also consult the [[/guides/JavaScript|JavaScript Guide]].
 
 ==Object-oriented programming==
 
@@ -16,7 +15,7 @@ Object-oriented programming is a programming paradigm that uses abstraction to c
 
 Object-oriented programming may be seen as the design of software using a collection of cooperating objects, as opposed to a traditional view in which a program may be seen as a collection of functions, or simply as a list of instructions to the computer. In OOP, each object is capable of receiving messages, processing data, and sending messages to other objects. Each object can be viewed as an independent little machine with a distinct role or responsibility.
 
-Object-oriented programming is intended to promote greater flexibility and maintainability in programming, and is widely popular in large-scale software engineering. By virtue of its strong emphasis on modularity, object oriented code is intended to be simpler to develop and easier to understand later on, lending itself to more direct analysis, coding, and understanding of complex situations and procedures than less modular programming methods.<sup>[[#Reference|2]]</sup>
+Object-oriented programming is intended to promote greater flexibility and maintainability in programming, and is widely popular in large-scale software engineering. By virtue of its strong emphasis on modularity, object oriented code is intended to be simpler to develop and easier to understand later on, lending itself to more direct analysis, coding, and understanding of complex situations and procedures than less modular programming methods.<sup>[[#Reference|1]]</sup>
 
 ==Terminology==
 
@@ -238,7 +237,7 @@ There are other techniques that make even more advanced object-oriented programm
 
 ==References==
 
-# <sup>[#endnote_ []]</sup> Wikipedia. "Prototype-based programming", [http://en.wikipedia.org/wiki/Prototype-based_programming http://en.wikipedia.org/wiki/Prototype-based_programming]
+# Wikipedia. "Prototype-based programming", [http://en.wikipedia.org/wiki/Prototype-based_programming http://en.wikipedia.org/wiki/Prototype-based_programming]
 
 <div class="originaldocinfo">
 
@@ -247,7 +246,6 @@ There are other techniques that make even more advanced object-oriented programm
 * Author(s): Fernando Trasvi&ntilde;a &lt;f_trasvina at hotmail dot com&gt;
 
 </div>
-
 }}
 {{Compatibility_Section
 |Not_required=Yes
