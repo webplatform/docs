@@ -5,30 +5,30 @@
 }}
 ==HTML fundamentals==
 
-[[concepts/The basics of HTML|The basics of HTML]]
-[[concepts/Doctypes and markup styles|DOCTYPES and markup styles]]
+* [[concepts/The basics of HTML|The basics of HTML]]
+* [[concepts/Doctypes and markup styles|DOCTYPES and markup styles]]
 
 ==The HTML head==
 
-[[The HTML head]]
-[[More about the HTML head]]
+* [[The HTML head]]
+* [[More about the HTML head]]
 
 ==The HTML body==
 
-[[HTML text]]
-[[HTML lists]]
-[[Images in HTML]]
-[[HTML links]]
-[[HTML tables]]
-[[HTML forms basics]]
-[[HTML5 form features]]
-[[HTML structural elements]]
-[[Lesser-known semantic elements]]
+* [[HTML text]]
+* [[HTML lists]]
+* [[Images in HTML]]
+* [[HTML links]]
+* [[HTML tables]]
+* [[HTML forms basics]]
+* [[HTML5 form features]]
+* [[HTML structural elements]]
+* [[Lesser-known semantic elements]]
 
 ==Applied techniques==
 
-[[Creating basic navigation menus]]
-[[HTML validation]]
+* [[Creating basic navigation menus]]
+* [[HTML validation]]
 {{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
