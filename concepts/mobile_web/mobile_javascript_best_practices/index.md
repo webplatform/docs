@@ -1,5 +1,7 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|Content=Outdated
+}}
 {{API_Name}}
 {{Summary_Section}}
 {{Concept_Page}}
