@@ -1,5 +1,7 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|Content=Errors
+}}
 {{API_Name}}
 {{Summary_Section}}
 {{Concept_Page
@@ -32,7 +34,7 @@ In the table below you can find examples of common reasons for slow JavaScript p
 The jQuery Mobile touch-optimized web framework for smartphones & tablets supports Symbian including S60 5th Edition and Symbian^3. This framework provides a unified user interface system across popular mobile device platforms, built on jQuery and the jQuery UI. For the complete list of supported platforms, see jQuery Mobile Graded Browser Support. jQuery Mobile's lightweight code has a flexible, easily themeable design.
 }}
 {{Examples_Section
-|Not_required=No
+|Not_required=Yes
 |Examples=
 }}
 {{Notes_Section}}
