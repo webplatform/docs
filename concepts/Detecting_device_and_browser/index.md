@@ -1,4 +1,6 @@
+{{Page_Title}}
 {{Flags}}
+{{Byline}}
 {{Summary_Section|The concept page describes usual techniques for detecting mobile browsers, both on client and server sides.}}
 {{Guide
 |Content=Device detection enables developers to identify device properties and characteristics in order to determine the best content, layout, mark-up or application to serve to a given device. These characteristics include screen size, browser type (or version), media support, and the level of support for Cascading Style Sheets (CSS), HTML and JavaScript technology.
@@ -65,7 +67,29 @@ Note: This material was originally published as part of the Nokia Developer Web 
 {{Compatibility_Section
 |Not_required=No
 |Desktop_rows=
-|Mobile_rows=
+|Mobile_rows={{Compatibility Table Mobile Row
+|Feature=Media query
+|Android_supported=Yes
+|Android_version=Now
+|Android_prefixed_supported=Unknown
+|Android_prefixed_version=
+|Firefox_mobile_supported=Yes
+|Firefox_mobile_version=Now
+|Firefox_mobile_prefixed_supported=Unknown
+|Firefox_mobile_prefixed_version=
+|IE_phone_supported=Yes
+|IE_phone_version=Now
+|IE_phone_prefixed_supported=Unknown
+|IE_phone_prefixed_version=
+|Opera_mobile_supported=Yes
+|Opera_mobile_version=Now
+|Opera_mobile_prefixed_supported=Unknown
+|Opera_mobile_prefixed_version=
+|Safari_mobile_supported=Yes
+|Safari_mobile_version=Now
+|Safari_mobile_prefixed_supported=Unknown
+|Safari_mobile_prefixed_version=
+}}
 |Notes_rows=
 }}
 {{See_Also_Section
