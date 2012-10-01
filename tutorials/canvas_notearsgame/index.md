@@ -278,7 +278,7 @@ Now it's time to add enemies in the same way as we added the bullets.
    enemies = [];
  
  function Enemy(I) {
-   I = I || {};
+   I = I {{!}}{{!}} {};
  
    I.active = true;
    I.age = Math.floor(Math.random() * 128);
@@ -461,4 +461,18 @@ I hope you enjoyed learning the basics of making a simple game in JavaScript and
 
 * [http://blog.nihilogic.dk/2009/02/html5-canvas-cheat-sheet.html HTML5 Canvas Cheat Sheet]
 * [https://gist.github.com/768272 HTML5 Game Engines]
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section}}
+{{Topics}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
 }}
