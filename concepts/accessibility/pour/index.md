@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page_Title|POUR – Perceivable, Operable, Understandable, Robust}}
 {{Flags
 |High-level issues=Stub
 }}
