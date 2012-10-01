@@ -90,7 +90,7 @@ You may also decide to build a landing page or layer yourself. To do so:
 * Append a redirect parameter to the URL to send users back to your site after installation is complete: http://www.google.com/chromeframe/?redirect=http://www.google.com/
 * Instead of going to the Chrome Frame landing page, you can also send the users directly to the EULA thus saving one step in the installation process: http://www.google.com/chromeframe/eula.html
 
-===No admin-rights needed===
+===No administrator rights needed===
 
 To enable users to install Chrome Frame without having administrative privileges on their machines, append the <code>user=true</code> parameter to enable user level installation of Chrome Frame, as shown here:
  http://www.google.com/chromeframe/?user=true
