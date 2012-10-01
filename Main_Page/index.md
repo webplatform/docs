@@ -10,7 +10,7 @@ We would love your help in improving the content in any way you can &mdash; if y
 
 * [[concepts|Concept pages]]: General concepts related to the Web, and web design and development
 * [[Accessibility]]
-* [[HTML/tutorials|HTML tutorials]]
+* [[html/tutorials|HTML tutorials]]
 *[[HTML|HTML Reference]]
 *[[CSS|CSS Reference]]
 * [[CSS/tutorials|CSS tutorials]]
