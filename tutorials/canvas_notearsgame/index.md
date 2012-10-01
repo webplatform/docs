@@ -11,7 +11,7 @@
 
 ==Introduction==
 
-So you want to make a game using Canvas and HTML5? Follow the steps in this tutorial and you'll be on your way in no time. The tutorial assumes at least an intermediate level of knowledge of JavaScript.
+This tutorial shows you how to build a game using HTML5 and the <canvas> element, and assumes you have an intermediate level of knowledge of JavaScript.
 
 [[File:space-demo.png]]
 
@@ -41,7 +41,7 @@ In order to simulate the appearance of smooth and continuous gameplay, we want t
    draw();
  }, 1000/FPS);
 
-For now we can leave the update and draw methods blank. The important thing to know is that <code>setInterval()</code> takes care of calling them periodically.
+For now we can leave the update and draw methods blank. The important thing to know is that the line we included, <code>setInterval()</code>, takes care of calling them periodically.
 
  
  function update() { ... }
@@ -49,7 +49,7 @@ For now we can leave the update and draw methods blank. The important thing to k
 
 ==Hello world==
 
-Now that we have a game loop going, let's update our draw method to actually draw some text on the screen.
+Now that we have a game loop going, let's update our draw method to draw some text on the screen.
 
  
  function draw() {
@@ -59,7 +59,7 @@ Now that we have a game loop going, let's update our draw method to actually dra
 
 Pro Tip: Be sure to run your app after making changes. If something breaks, it's a lot easier to track down when there's only a few lines of changes to debug.
 
-That's pretty cool for stationary text, but because we have a game loop already set up, we should be able to make it move quite easily.
+What you see now is pretty cool for stationary text, but because we have a game loop already set up, we should be able to make this text move quite easily.
 
  
  var textX = 50;
@@ -75,7 +75,9 @@ That's pretty cool for stationary text, but because we have a game loop already 
    canvas.fillText("Sup Bro!", textX, textY);
  }
 
-Now give that a whirl. If you're following along, it should be moving, but also leaving the previous times it was drawn on the screen. Take a moment to guess why that may be the case. The previous drawings are being left behind because we are not clearing the screen. So let's add some screen clearing code to the draw method.
+Now give that a whirl. The text should now be moving, but also leaving the previous times it was drawn on the screen. Take a moment to guess why that may be the case. Hint: The previous drawings are being left behind because we are not clearing the screen.
+
+Let's add code to the draw method to clear the screen.
 
  
  function draw() {
@@ -84,12 +86,11 @@ Now give that a whirl. If you're following along, it should be moving, but also 
    canvas.fillText("Sup Bro!", textX, textY);
  }
 
-Now that you've got some text moving around on the screen, you're halfway to having a real game. Just tighten up the controls, improve the gameplay, touch up the graphics...OK, maybe 1/7th of the way to having a real game, but the good news is that there's much more to the tutorial.
+Now that you've created a canvas and added text that moves around on the screen, you're halfway to having a real game. Just tighten up the controls, improve the gameplay, touch up the graphics...OK, you're maybe 1/7th of the way to having a real game, but the good news is: there's much more to this tutorial.
 
 ==Creating the player==
 
-Create an object to hold the player data and be responsible for things like drawing. Here we create a player object using a simple object literal to hold all the info.
-
+Create an object to hold the player data and be responsible for things like drawing. 
  
  var player = {
    color: "#00A",
@@ -103,7 +104,7 @@ Create an object to hold the player data and be responsible for things like draw
    }
  };
 
-We're using a simple colored rectangle to represent the player for now. When we draw the game, we'll clear the canvas and draw the player.
+For now, we're using a simple colored rectangle to represent the player. When we draw the game, we'll clear the canvas and draw the player.
 
  
  function draw() {
@@ -120,15 +121,15 @@ The [https://github.com/tzuryby/jquery.hotkeys jQuery Hotkeys plugin] makes key 
  
  $(document).bind("keydown", "left", function() { ... });
 
-Not having to worry about the details of which keys have which codes is a big win. We just want to be able to say things like "when the player presses the up button, do something." jQuery Hotkeys allows you to do this nicely.
+Not having to worry about the details of which keys have which codes is a big win. We just want to be able add events like "when the player presses the up button, do something." jQuery Hotkeys allows you to do this nicely.
 
 ===Player movement===
 
-The way JavaScript handles keyboard events is completely event driven, which means that there is no built-in query for checking whether a key is down. We'll have to use our own.
+The way JavaScript handles keyboard events is completely event driven, which means that there is no built-in query for checking whether a key is down. To address this, we'll create our own.
 
-You may be asking, "Why not just use an event-driven way of handling keys?" Well, it's because the keyboard repeat rate varies across systems and is not bound to the timing of the game loop, so gameplay could vary greatly from system to system. To create a consistent experience, it is important to have the keyboard event detection tightly integrated with the game loop.
+You may be asking, "Why not just use an event-driven way of handling keys?" Because the keyboard repeat rate varies across systems and is not bound to the timing of the game loop, gameplay could vary greatly from system to system. To create a consistent experience, it is important to tightly integrate the keyboard event detection with the game loop.
 
-The good news is that I've included a 16-line JS wrapper that will make event querying available. It's called key_status.js and you can query the status of a key at any time by checking <code>keydown.left</code>, etc.
+I've included a 16-line JaveScript wrapper called key_status.js that will make event querying available. With this wrapper, you can query the status of a key at any time by checking <code>keydown.left</code>, and so on.
 
 Now that we have the ability to query whether keys are down, we can use this simple update method to move the player around.
 
@@ -188,7 +189,7 @@ Adding more inputs will be just as easy, so let's add some sort of projectiles.
 
 ===Projectiles===
 
-Let's now add the projectiles for real. First, we need a collection to store them all in:
+Let's now add the projectiles for real. First, we need a collection to store them all:
 
  
  var playerBullets = [];
@@ -245,7 +246,7 @@ When the player shoots, we should create a bullet instance and add it to the col
    };
  };
 
-We now need to add the updating of the bullets to the update step function. To prevent the collection of bullets from filling up indefinitely, we filter the list of bullets to only include the active bullets. This also allows us to remove bullets that have collided with an enemy.
+We now need to add the updating of the bullets to the update step function. To prevent the collection of bullets from filling up indefinitely, we filter the list of bullets to only include the active bullets. Filtering this list also allows us to remove bullets that have collided with an enemy.
 
  
  function update() {
@@ -271,7 +272,7 @@ The final step is to draw the bullets:
 
 ===Enemies===
 
-Now it's time to add enemies in much the same way as we added the bullets.
+Now it's time to add enemies in the same way as we added the bullets.
 
  
    enemies = [];
@@ -342,7 +343,7 @@ Now it's time to add enemies in much the same way as we added the bullets.
 
 ==Loading and drawing images==
 
-It's cool watching all those boxes flying around, but having images for them would be even cooler. Loading and drawing images on canvas is usually a tearful experience. To prevent that pain and misery, we can use a simple utility class.
+It's cool watching all those boxes flying around, but using images for would be even cooler. Loading and drawing images on canvas is usually a tearful experience. To prevent that pain and misery, we can use a simple utility class.
 
  
  player.sprite = Sprite("player");
@@ -365,7 +366,7 @@ It's cool watching all those boxes flying around, but having images for them wou
 
 ==Collision detection==
 
-We've got all these dealies flying around on the screen, but they're not interacting with each other. In order to let everything know when to blow up, we'll need to add some sort of collision detection.
+Now that we have images flying around on the screen, notice that they're not interacting with each other. Let's add collision detection to let the objects know when they've collided, and therefore when to blow up.
 
 Let's use a simple rectangular collision detection algorithm:
 
@@ -408,7 +409,7 @@ Let's make a method to handle the collisions which we can call from the update m
    handleCollisions();
  }
 
-Now we need to add the explode methods to the player and the enemies. This will flag them for removal and add an explosion.
+Now we need to add the explode methods to the player and the enemies. These methods will flag them for removal and add an explosion.
 
  
  function Enemy(I) {
@@ -469,16 +470,93 @@ Except as otherwise [http://code.google.com/policies.html#restrictions noted], t
 }}
 {{Compatibility_Section
 |Not_required=No
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
+|Desktop_rows={{Compatibility Table Desktop Row
+|Feature=Canvas (basic support)
+|Chrome_supported=Yes
+|Chrome_version=20.0
+|Chrome_prefixed_supported=Unknown
+|Chrome_prefixed_version=
+|Firefox_supported=Yes
+|Firefox_version=12.0
+|Firefox_prefixed_supported=Unknown
+|Firefox_prefixed_version=
+|Internet_explorer_supported=Yes
+|Internet_explorer_version=9.0
+|Internet_explorer_prefixed_supported=Unknown
+|Internet_explorer_prefixed_version=
+|Opera_supported=Yes
+|Opera_version=12.0
+|Opera_prefixed_supported=Unknown
+|Opera_prefixed_version=
+|Safari_supported=Yes
+|Safari_version=5.1
+|Safari_prefixed_supported=Unknown
+|Safari_prefixed_version=
+}}{{Compatibility Table Desktop Row
+|Feature=Text API for Canvas
+|Chrome_supported=Yes
+|Chrome_version=20.0
+|Chrome_prefixed_supported=Unknown
+|Chrome_prefixed_version=
+|Firefox_supported=Yes
+|Firefox_version=12.0
+|Firefox_prefixed_supported=Unknown
+|Firefox_prefixed_version=
+|Internet_explorer_supported=Yes
+|Internet_explorer_version=9.0
+|Internet_explorer_prefixed_supported=Unknown
+|Internet_explorer_prefixed_version=
+|Opera_supported=Yes
+|Opera_version=12.0
+|Opera_prefixed_supported=Unknown
+|Opera_prefixed_version=
+|Safari_supported=Yes
+|Safari_version=5.1
+|Safari_prefixed_supported=Unknown
+|Safari_prefixed_version=
 }}
-{{See_Also_Section}}
-{{Topics|Canvas}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=HTML5Rocks
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=http://www.html5rocks.com/en/tutorials/canvas/notearsgame/
+|Mobile_rows={{Compatibility Table Mobile Row
+|Feature=Canvas (basic support)
+|Android_supported=Yes
+|Android_version=2.1
+|Android_prefixed_supported=Unknown
+|Android_prefixed_version=
+|Firefox_mobile_supported=Unknown
+|Firefox_mobile_version=
+|Firefox_mobile_prefixed_supported=Unknown
+|Firefox_mobile_prefixed_version=
+|IE_phone_supported=Unknown
+|IE_phone_version=
+|IE_phone_prefixed_supported=Unknown
+|IE_phone_prefixed_version=
+|Opera_mobile_supported=Yes
+|Opera_mobile_version=5.0 (partial)
+|Opera_mobile_prefixed_supported=Unknown
+|Opera_mobile_prefixed_version=
+|Safari_mobile_supported=Yes
+|Safari_mobile_version=3.2
+|Safari_mobile_prefixed_supported=Unknown
+|Safari_mobile_prefixed_version=
+}}{{Compatibility Table Mobile Row
+|Feature=Text API for Canvas
+|Android_supported=Yes
+|Android_version=2.1
+|Android_prefixed_supported=Unknown
+|Android_prefixed_version=
+|Firefox_mobile_supported=Unknown
+|Firefox_mobile_version=
+|Firefox_mobile_prefixed_supported=Unknown
+|Firefox_mobile_prefixed_version=
+|IE_phone_supported=Unknown
+|IE_phone_version=
+|IE_phone_prefixed_supported=Unknown
+|IE_phone_prefixed_version=
+|Opera_mobile_supported=No
+|Opera_mobile_version=
+|Opera_mobile_prefixed_supported=Unknown
+|Opera_mobile_prefixed_version=
+|Safari_mobile_supported=Yes
+|Safari_mobile_version=3.2
+|Safari_mobile_prefixed_supported=Unknown
+|Safari_mobile_prefixed_version=
 }}
