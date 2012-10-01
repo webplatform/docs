@@ -1,8 +1,7 @@
-{{Page_Title}}
 {{Flags
-|High-level issues=Stub, Copyright Issue
-|Content=Outdated, Examples Errors
-|Editorial notes={{Editorial/Content_Incomplete}}
+|High-level issues=Stub,Copyright Issue
+|Content=Outdated,Examples Errors
+}}
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -199,5 +198,4 @@ The em is a very useful unit in CSS, since it can adapt automatically to the fon
 |Sources=MDN, MSDN
 |MDN_link=https://developer.mozilla.org/en-US/docs/CSS/font-size
 |HTML5Rocks_link=
-}}
 }}
