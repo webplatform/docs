@@ -1,4 +1,6 @@
+{{Page_Title}}
 {{Flags}}
+{{Byline}}
 {{Summary_Section|This article provides a tour through the elements available in HTML to structure and group your content, from old favourites like <code>&lt;dev&gt;</code> to new HTML5 additions such as <code>&lt;article&gt;</code> and <code>&lt;aside&gt;</code>.}}
 {{Guide
 |Content=== Introduction ==
@@ -250,6 +252,56 @@ Don't worry if you don't understand this now - it will be come clearer as you pr
 You may be wondering which style of structural elements to choose, now you've had a tour of the two options. We'd advise that you learn both, and use the HTML5 elements where you can, falling back to the HTML 4 elements for projects where you are worried about the site's audience having JavaScript support (remember that the HTML5 fix discussed above requires JavaScript to work), or where you can't use HTML5 (eg. because the brief specifies HTML4, or because you are using some kind of content management system that won't work with HTML5). 
 
 This way, you can work with whatever is thrown at you on different projects, plus your HTML5 sites will be nicely future proofed for when browsers do start to support HTML5 structural elements.
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows={{Compatibility Table Desktop Row
+|Feature=HTML5 structural elements
+|Chrome_supported=Yes
+|Chrome_version=6.0
+|Chrome_prefixed_supported=No
+|Chrome_prefixed_version=
+|Firefox_supported=Yes
+|Firefox_version=4.0
+|Firefox_prefixed_supported=No
+|Firefox_prefixed_version=
+|Internet_explorer_supported=Yes
+|Internet_explorer_version=9.0
+|Internet_explorer_prefixed_supported=No
+|Internet_explorer_prefixed_version=
+|Opera_supported=Yes
+|Opera_version=11.1
+|Opera_prefixed_supported=No
+|Opera_prefixed_version=
+|Safari_supported=Yes
+|Safari_version=5.0
+|Safari_prefixed_supported=Unknown
+|Safari_prefixed_version=
+}}
+|Mobile_rows={{Compatibility Table Mobile Row
+|Feature=HTML5 structural elements
+|Android_supported=Yes
+|Android_version=2.2
+|Android_prefixed_supported=No
+|Android_prefixed_version=
+|Firefox_mobile_supported=Yes
+|Firefox_mobile_version=15.0
+|Firefox_mobile_prefixed_supported=No
+|Firefox_mobile_prefixed_version=
+|IE_phone_supported=Unknown
+|IE_phone_version=
+|IE_phone_prefixed_supported=Unknown
+|IE_phone_prefixed_version=
+|Opera_mobile_supported=Unknown
+|Opera_mobile_version=
+|Opera_mobile_prefixed_supported=Unknown
+|Opera_mobile_prefixed_version=
+|Safari_mobile_supported=Yes
+|Safari_mobile_version=4.0
+|Safari_mobile_prefixed_supported=Unknown
+|Safari_mobile_prefixed_version=
+}}
+|Notes_rows=
 }}
 {{See_Also_Section
 |Manual_sections==== Exercise questions ===
