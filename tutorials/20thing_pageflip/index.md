@@ -304,7 +304,7 @@ This is only one example of what can be accomplished by utilizing HTML5 features
 * [http://developers.whatwg.org/the-canvas-element.html#the-canvas-element Canvas] API specification
 }}
 {{Compatibility_Section
-|Not_required=No
+|Not_required=Yes
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
