@@ -294,6 +294,28 @@ This makes the size of the text inside bigger — this should be achieved with C
 |Safari_supported=Yes
 |Safari_prefixed_supported=No
 |Safari_prefixed_version=
+}}{{Compatibility Table Desktop Row
+|Feature=time
+|Chrome_supported=Yes
+|Chrome_version=6.0
+|Chrome_prefixed_supported=No
+|Chrome_prefixed_version=
+|Firefox_supported=Yes
+|Firefox_version=4.0
+|Firefox_prefixed_supported=No
+|Firefox_prefixed_version=
+|Internet_explorer_supported=Yes
+|Internet_explorer_version=9.0
+|Internet_explorer_prefixed_supported=No
+|Internet_explorer_prefixed_version=
+|Opera_supported=Yes
+|Opera_version=11.1
+|Opera_prefixed_supported=No
+|Opera_prefixed_version=
+|Safari_supported=Yes
+|Safari_version=5.0
+|Safari_prefixed_supported=No
+|Safari_prefixed_version=
 }}
 |Mobile_rows={{Compatibility Table Mobile Row
 |Feature=em
@@ -310,6 +332,28 @@ This makes the size of the text inside bigger — this should be achieved with C
 |Opera_mobile_prefixed_supported=No
 |Opera_mobile_prefixed_version=
 |Safari_mobile_supported=Yes
+|Safari_mobile_prefixed_supported=No
+|Safari_mobile_prefixed_version=
+}}{{Compatibility Table Mobile Row
+|Feature=time
+|Android_supported=Yes
+|Android_version=2.2
+|Android_prefixed_supported=Unknown
+|Android_prefixed_version=
+|Firefox_mobile_supported=Yes
+|Firefox_mobile_version=15.0
+|Firefox_mobile_prefixed_supported=No
+|Firefox_mobile_prefixed_version=
+|IE_phone_supported=Unknown
+|IE_phone_version=
+|IE_phone_prefixed_supported=No
+|IE_phone_prefixed_version=
+|Opera_mobile_supported=No
+|Opera_mobile_version=
+|Opera_mobile_prefixed_supported=No
+|Opera_mobile_prefixed_version=
+|Safari_mobile_supported=Yes
+|Safari_mobile_version=4.0
 |Safari_mobile_prefixed_supported=No
 |Safari_mobile_prefixed_version=
 }}
