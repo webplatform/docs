@@ -2,12 +2,16 @@
 {{Flags
 |High-level issues=Needs Flags
 }}
-{{Summary_Section|An introduction to the FileSystem APIs.}}
+{{Byline
+|Name=Eric Bidelman
+|URL=http://www.html5rocks.com/profiles/#ericbidelman
+}}
+{{Summary_Section|An introduction to the HTML5 FileSystem API.
+
+Published '''Jan. 4, 2011''', updated '''Jan. 27, 2012'''
+}}
 {{Tutorial
 |Content==Exploring the FileSystem APIs=
-
-====original by Eric Bidelman====
-====published Jan. 4, 2011, updated Jan. 27, 2012====
 
 ==Introduction==
 
@@ -1230,11 +1234,11 @@ The specification lists several use cases:
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|FileAPI}}
+{{Topics|FileAPI, Webstorage}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=HTML5Rocks
 |MDN_link=
 |MSDN_link=
-|HTML5Rocks_link=http://www.html5rocks.com/en/tutorials/file/filesystem/
+|HTML5Rocks_link=http://www.html5rocks.com/tutorials/file/filesystem/
 }}
