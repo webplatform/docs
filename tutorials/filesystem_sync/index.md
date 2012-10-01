@@ -57,8 +57,7 @@ the absence of success and error callbacks.
 
 As with the normal FileSystem API, methods are prefixed at the moment:
 
-<pre>self.requestFileSystemSync = self.webkitRequestFileSystemSync
-|self_requestFileSystemSync;
+<pre>self.requestFileSystemSync = self.webkitRequestFileSystemSync ||self_requestFileSystemSync;
 </pre>===Dealing with quota=== 
 
 Currently, it's not possible to [/wiki/tutorials/file_filesystem#toc-requesting-quota request <code>PERSISTENT</code> quota] in a Worker context. I recommend taking care of quota issues outside of Workers.
