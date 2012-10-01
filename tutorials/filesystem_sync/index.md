@@ -12,8 +12,8 @@
 |Not_required=No
 |Desktop_rows={{Compatibility Table Desktop Row
 |Feature=Synchronous Filesystem API
-|Chrome_supported=Yes
-|Chrome_version=9
+|Chrome_supported=No
+|Chrome_version=
 |Chrome_prefixed_supported=Yes
 |Chrome_prefixed_version=9
 |Firefox_supported=No
