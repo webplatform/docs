@@ -344,8 +344,8 @@ This makes the size of the text inside bigger — this should be achieved with C
 |Firefox_mobile_version=15.0
 |Firefox_mobile_prefixed_supported=No
 |Firefox_mobile_prefixed_version=
-|IE_phone_supported=Unknown
-|IE_phone_version=
+|IE_phone_supported=Yes
+|IE_phone_version=7.5
 |IE_phone_prefixed_supported=No
 |IE_phone_prefixed_version=
 |Opera_mobile_supported=No
