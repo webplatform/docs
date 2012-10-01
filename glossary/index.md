@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags}}
-{{Summary_Section|Index page for MathML.}}
+{{Summary_Section|Glossary}}
 {{Basic Page}}
 {{Special:PrefixIndex/glossary/}}
 {{Topics}}
