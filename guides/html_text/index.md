@@ -2,7 +2,7 @@
 {{Flags}}
 {{Byline}}
 {{Summary_Section|This article talks about some of the most common elements used when marking up textual content using HTML.}}
-{{Guide
+{{Tutorial
 |Content=== Introduction ==
  
 In this article we will take you through the basics of using HTML to
