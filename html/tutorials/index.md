@@ -6,12 +6,12 @@
 ==HTML fundamentals==
 
 * [[tutorials/the basics of html|The basics of HTML]]
-* [[concepts/Doctypes and markup styles|DOCTYPES and markup styles]]
+* [[tutorials/doctypes and markup styles|DOCTYPES and markup styles]]
 
 ==The HTML head==
 
-* [[The HTML head]]
-* [[More about the HTML head]]
+* [[tutorials/the html head|The HTML &lt;head&gt;]]
+* [[tutorials/more about the html head|More about the HTML &lt;head&gt;]]
 
 ==The HTML body==
 
