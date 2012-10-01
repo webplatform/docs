@@ -1,4 +1,9 @@
-{{Flags}}{{Summary_Section|In this article we will cover how to use HTML tables correctly.}}{{Guide|Content=== Introduction ==
+{{Page_Title|HTML tables}}
+{{Flags}}
+{{Byline}}
+{{Summary_Section|In this article we will cover how to use HTML tables correctly.}}
+{{Guide
+|Content=== Introduction ==
 “Ack!” — how do you use web standards to organize reams of data? The very idea of tons of nested elements needed to get all the data into nice little rows and boxes ought to put your brain into “Ack!” mode, but there is a solution — tables to the rescue!
  
 In web design tables are a good way to organize data into a tabular form. In other words, think of tables, charts, and other information graphics that help you to see and process a great deal of information in a summary that allows you to compare and contrast different pieces of data. You see them all the time on websites, whether they are giving a summary or comparison of political election results, sports statistics, price comparisons, size charts, or other data.
@@ -276,6 +281,12 @@ In this article we have gone through all you need to know to create effective HT
  
 * It is important that tables are correctly coded to be readable by a variety web browsers, mobile, accessible, and other devices.  Table HTML is best kept to a minimum, and you should use CSS to style the tables. You’ll learn a lot more about CSS later on in the course.
 * Tables can be accessible to mobile devices and users that use screen reading software by keeping the code clean, using attributes such as <code>scope</code> and <code>summary</code> as well as the <code>&lt;caption&gt;</code> element to help announce clearly and semantically what the respective sections are for. Also important for accessibility is to not use empty table cells for spacing (use CSS for this instead).
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section}}
 {{Topics}}
