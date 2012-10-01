@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page_Title|Testing process}}
 {{Flags
 |High-level issues=Stub
 }}
