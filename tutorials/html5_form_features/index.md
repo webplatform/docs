@@ -164,42 +164,6 @@ These two new elements are very similar, both resulting in a gauge/bar being pre
  
 Figure 9: A progress indicator bar.
 
-
-
-
-== Validation ==
- 
-Form validation is very important on both client- and server-side, to help legitimate users avoid and correct mistakes, and to stop malicious users submitting data that could cause damage to our application. As browsers can now get an idea of what type of values are expected from the various form controls (be it their <code>type</code>, or any upper/lower bounds set on numerical values, dates and times), they can also offer native form validation – another tedious task that, up to now, required authors to write reams of JavaScript or use some ready-made validation script/library.
- 
-Note: for form controls to be validated, they need to have a <code>name</code> attribute, as without it they wouldn't be submitted as part of the form anyway.
- 
-=== required ===
- 
-One of the most common aspects of form validation is the enforcement of required fields – not allowing a form to be submitted until certain pieces of information have been entered. This can now simply be achieved by adding the <code>required</code> attribute to an <code>input</code>, <code>select</code> or <code>textarea</code> element.
- 
-<pre>&lt;input type="text" ... required&gt;</pre>
- 
-[[Image:html5formfig10.png|Opera's client-side validation in action, showing an error for a required field that was left empty]]
-
-Figure 10: Opera's client-side validation in action, showing an error for a required field that was left empty.
-
-=== type and pattern ===
- 
-As we've seen, authors can now specify the kinds of entries they expect from their form fields – rather than simply defining text inputs, authors can explicitly create inputs for things like numbers, email addresses and URLs. As part of their client-side validation, browsers can now check that what the user entered in these more specific fields matches the expected structure – in essence, browsers evaluate the input values against a built-in pattern that defines what valid entries in those types of inputs look like, and will warn a user when their entry didn't match the criteria.
- 
-[[Image:html5formfig11.png|Opera's error message for invalid email addresses in an email input]]
- 
-Figure 11: Opera's error message for invalid email addresses in an <code>email</code> input.
- 
-For other text entry fields that nonetheless need to follow a certain structure (for instance, login forms where the usernames can only contain a specific sequence of lowercase letters and numbers), authors can use the <code>pattern</code> attribute to specify their own custom regular expression.
- 
-<pre>&lt;input type="text" ... pattern="[a-z]{3}[0-9]{3}"&gt;</pre>
-
-== Browser support ==
- 
-On the desktop, [[http://www.opera.com Opera] currently has the most complete implementation of new input types and native client-side validation, but support is on the roadmap for all other major browsers as well, so it won't be long before we can take advantage of these new powerful tools in our projects. But what about older browser versions?
- 
-By design, browsers that don't understand the new input types (like <code>date</code> or <code>number</code>) will simply fall back to treating them as standard text inputs – not as user-friendly as their advanced HTML5 counterparts, but at the very least they allow for a form to be filled in.
 }}
 {{Compatibility_Section
 |Not_required=No
