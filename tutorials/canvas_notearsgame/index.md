@@ -1,60 +1,25 @@
 {{Page_Title|No Tears Guide to HTML5 Games}}
-{{Flags}}
-{{Byline
-|Name=Original by Daniel X. Moore
+{{Flags
+|High-level issues=Needs Flags
 }}
 {{Summary_Section|An intermediate tutorial for creating games using HTML5 and Canvas.}}
 {{Tutorial
-|Content=<div class="date">Published '''Feb. 1, 2011'''</div>  [http://www.w3.org/html/logo/  [[Image:133x64xhtml5-badge-h-graphics.png.pagespeed.ic.IB7MV9PMeL.png|133px|This article is powered by HTML5 Graphics, 3D & Effects]] ]
+|Content==No Tears Guide to HTML5 Games=
 
-==Supported browsers:==
-
-<span class="browsers"> <span class="browser opera supported"> <span class="browser_name">Opera</span> <span class="support"> supported </span> </span> <span class="browser ie "> <span class="browser_name">IE</span> <span class="support"> unsupported </span> </span> <span class="browser safari supported"> <span class="browser_name">Safari</span> <span class="support"> supported </span> </span> <span class="browser ff supported"> <span class="browser_name">Firefox</span> <span class="support"> supported </span> </span> <span class="browser chrome supported"> <span class="browser_name">Chrome</span> <span class="support"> supported </span> </span> </span><div class="compatible-block">
-
-Your browser may not support all of the functionality in this article.
-
-Your browser appears to support all of the functionality in this article.
-
-</div> [#disqus_thread Leave a comment]  <span class="share">
-
-* <div class="g-plusone"></div>
-*
-* [http://twitter.com/share Tweet]
-
-</span>  <div class="outline_nav_toggle">[[Image:L8uDRe8Lr0B6MD1Xc3vi+KvAAMAMUEG36eXLzcAAAAASUVORK5CYII=]] [[Image:+75XTbuAAAAAElFTkSuQmCC]]
-
-===Table of Contents===
-
-* [#toc-introduction Introduction]
-* [#toc-creating-canvas Creating the canvas]
-* [#toc-game-loop Game loop]
-* [#toc-hello-world Hello world]
-* [#toc-creating-the-player Creating the player]
-* [#toc-keyboard-controls Keyboard controls]
-** [#toc-jquery-hotkeys Using jQuery Hotkeys]
-** [#toc-player-movement Player movement]
-* [#toc-adding-more-game-objects Adding more game objects]
-** [#toc-projectiles Projectiles]
-** [#toc-enemies Enemies]
-* [#toc-loading-and-drawing-images Loading and drawing images]
-* [#toc-collision-detection Collision detection]
-* [#toc-sound Sound]
-* [#toc-farewell Farewell]
-* [#toc-references References]
-
-</div>
+====original by Daniel X. Moore====
+====published Feb. 1, 2011====
 
 ==Introduction==
 
-So you want to make a game using Canvas and HTML5? Follow along with this tutorial and you'll be on your way in no time.
+So you want to make a game using Canvas and HTML5? Follow the steps in this tutorial and you'll be on your way in no time. The tutorial assumes at least an intermediate level of knowledge of JavaScript.
 
-The tutorial assumes at least an intermediate level of knowledge of JavaScript.
+[[File:space-demo.png]]
 
-You can first [http://strd6.com/space_demo/ play the game] or jump directly to the article and [http://strd6.com/wp-content/uploads/2010/12/space_demo.zip view the source code for the game].
+You can first [http://strd6.com/space_demo/ play the game] or [http://strd6.com/wp-content/uploads/2010/12/space_demo.zip view the source code for the game].
 
 ==Creating the canvas==
 
-In order to draw things, we'll need to create a canvas. Because this is a No Tears guide we'll be using jQuery.
+In order to draw objects on the page, we'll need to create a canvas. Because this is a No Tears guide, we'll be using jQuery.
 
  
  var CANVAS_WIDTH = 480;
@@ -92,7 +57,7 @@ Now that we have a game loop going, let's update our draw method to actually dra
    canvas.fillText("Sup Bro!", 50, 50);
  }
 
-Pro Tip: Be sure to run your app after making changes. If something breaks it's a lot easier to track down when there's only a few lines of changes to look at.
+Pro Tip: Be sure to run your app after making changes. If something breaks, it's a lot easier to track down when there's only a few lines of changes to debug.
 
 That's pretty cool for stationary text, but because we have a game loop already set up, we should be able to make it move quite easily.
 
@@ -110,7 +75,7 @@ That's pretty cool for stationary text, but because we have a game loop already 
    canvas.fillText("Sup Bro!", textX, textY);
  }
 
-Now give that a whirl. If you're following along, it should be moving, but also leaving the previous times it was drawn on the screen. Take a moment to guess why that may be the case. This is because we are not clearing the screen. So let's add some screen clearing code to the draw method.
+Now give that a whirl. If you're following along, it should be moving, but also leaving the previous times it was drawn on the screen. Take a moment to guess why that may be the case. The previous drawings are being left behind because we are not clearing the screen. So let's add some screen clearing code to the draw method.
 
  
  function draw() {
@@ -119,7 +84,7 @@ Now give that a whirl. If you're following along, it should be moving, but also 
    canvas.fillText("Sup Bro!", textX, textY);
  }
 
-Now that you've got some text moving around on the screen, you're halfway to having a real game. Just tighten up the controls, improve the gameplay, touch up the graphics.... Ok maybe 1/7th of the way to having a real game, but the good news is that there's much more to the tutorial.
+Now that you've got some text moving around on the screen, you're halfway to having a real game. Just tighten up the controls, improve the gameplay, touch up the graphics...OK, maybe 1/7th of the way to having a real game, but the good news is that there's much more to the tutorial.
 
 ==Creating the player==
 
@@ -155,11 +120,11 @@ The [https://github.com/tzuryby/jquery.hotkeys jQuery Hotkeys plugin] makes key 
  
  $(document).bind("keydown", "left", function() { ... });
 
-Not having to worry about the details of which keys have which codes is a big win. We just want to be able to say things like "when the player presse the up button, do something." jQuery Hotkeys allows that nicely.
+Not having to worry about the details of which keys have which codes is a big win. We just want to be able to say things like "when the player presses the up button, do something." jQuery Hotkeys allows you to do this nicely.
 
 ===Player movement===
 
-The way JavaScript handles keyboard events is completely event driven. That means that there is no built in query for checking whether a key is down, so we'll have to use our own.
+The way JavaScript handles keyboard events is completely event driven, which means that there is no built-in query for checking whether a key is down. We'll have to use our own.
 
 You may be asking, "Why not just use an event-driven way of handling keys?" Well, it's because the keyboard repeat rate varies across systems and is not bound to the timing of the game loop, so gameplay could vary greatly from system to system. To create a consistent experience, it is important to have the keyboard event detection tightly integrated with the game loop.
 
