@@ -6,7 +6,16 @@
 
 * [[concepts/accessibility/accessibility_basics|Accessibility basics]]
 * [[concepts/accessibility/accessibility_testing|Accessibility testing]]
+
+==Index==
+
+{{API_Listing
+|Query=[[Category:Accessibility]]
+}}
 {{Topics|Accessibility}}
 {{External_Attribution
 |Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
 }}
