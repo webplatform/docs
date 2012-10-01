@@ -33,4 +33,4 @@ We would love your help in improving the content in any way you can &mdash; if y
 * [http://talk.webplatform.org/chat/ Web Platform Docs chat]
 
 TEST OF ALL TOP-LEVEL INDEX PAGE:
-{{Special:PrefixIndex///}}
+{{Special:PrefixIndex/}}
