@@ -450,9 +450,11 @@ To round out the experience, we're going to add some sweet sound effects. Sounds
 
 Though the API is now tear-free, adding sounds is currently the quickest way to crash your application. It's not uncommon for sounds to cut-out or take down the entire browser tab, so get your tissues ready.
 
-==Farewell==
+==Source Code==
 
-Again, here is the [http://strd6.com/space_demo/ full working game demo]. You can download [http://strd6.com/wp-content/uploads/2010/12/space_demo.zip the source code as a zip], too.
+Here is the [http://strd6.com/space_demo/ full working game demo]. You can download [http://strd6.com/wp-content/uploads/2010/12/space_demo.zip the source code as a zip], too.
+
+==Summary==
 
 I hope you enjoyed learning the basics of making a simple game in JavaScript and HTML5. By programming at the right level of abstraction, we can insulate ourselves from the more difficult parts of the APIs, as well as be resilient in the face of future changes.
 
