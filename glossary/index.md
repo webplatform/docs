@@ -1,8 +1,8 @@
 {{Page_Title}}
 {{Flags}}
-{{Summary_Section|Glossary}}
+{{Summary_Section|SUMMARY GOES HERE}}
 {{Basic_Page
-|Content=
+|Content=PAGE CONTENT GOES HERE
 }}
 {{Compatibility_Section
 |Not_required=Yes
