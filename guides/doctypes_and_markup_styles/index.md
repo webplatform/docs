@@ -1,5 +1,6 @@
+{{Page_Title}}
 {{Flags}}
-{{API_Name}}
+{{Byline}}
 {{Summary_Section|In this article of the we will explore the different doctypes you are likely to come across on your journey around the Web, as well as looking at how XHTML and HTML differ.}}
 {{Tutorial
 |Content=== Introduction ==
@@ -137,6 +138,23 @@ We wouldn't recommend that you this however: old versions of Internet Explorer (
 
 Therefore you should just stick to not trying to serve documents as proper XHTML! Carry on people, nothing to see here.
 }}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section}}
+{{Topics|DOCTYPE, HTML}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
+}}
+{{API_Name}}
+
+
 {{Examples_Section
 |Not_required=Yes
 |Examples=
@@ -144,12 +162,4 @@ Therefore you should just stick to not trying to serve documents as proper XHTML
 {{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications=
-}}
-{{See_Also_Section}}
-{{Topics|HTML}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
