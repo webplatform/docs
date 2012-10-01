@@ -1,11 +1,12 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Stub
 }}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|This article will give an overview of proxy based browsers. Some solution transform web pages into compact formats. Some solution only provides data compression.}}
 {{Concept_Page}}
 {{Examples_Section
-|Not_required=No
+|Not_required=Yes
 |Examples=
 }}
 {{Notes_Section}}
