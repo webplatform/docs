@@ -1,10 +1,6 @@
 {{Page_Title|Bringing Accessibility Into Your Organization}}
 {{Flags
-|High-level issues=Stub, Move Candidate
-|Editorial notes={{Editorial/Move_Candidate
-| omitted /accessibility/ in url path
-| move to concepts/accessibility/bringing_accessibility_into_your_organization
-}}
+|High-level issues=Stub
 }}
 {{API_Name}}
 {{Summary_Section}}
@@ -28,7 +24,7 @@
 |Specifications=
 }}
 {{See_Also_Section}}
-{{Topics}}
+{{Topics|Accessibility}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
