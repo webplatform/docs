@@ -6,9 +6,14 @@
 |Content=== General introductory articles ==
 [[About mobile web]]
 
-== Mobile web design techniques ==
+[[About mobile JavaScript best practices]]
 
-== List of all mobile web ==
+== Mobile web design techniques ==
+[[Best practices when writing for mobile]]
+
+[[Considerations for mobile JavaScript]]
+
+== List of all mobile web related articles ==
 {{API_Listing |Query=[[Category:Mobile]] }}
 }}
 {{Examples_Section
