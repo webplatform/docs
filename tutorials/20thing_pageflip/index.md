@@ -295,7 +295,7 @@ The page flip effect is all about communicating the right interactive feel, so l
 ==Next Steps==
 
 [[Image:pf07.jpg|Hrad-flip]]<br/>
- ''The soft page flip in this tutorial becomes even more powerful when paired with other book-like features such as an interactive hard cover''
+''The soft page flip in this tutorial becomes even more powerful when paired with other book-like features such as an interactive hard cover''
 
 This is only one example of what can be accomplished by utilizing HTML5 features such as the canvas element. I recommend you have a look at the more refined book experience, from which this technique is an excerpt, at: [http://www.20thingsilearned.com www.20thingsilearned.com]. There you will see how the page flips can be applied in a real application and how powerful it becomes when paired with other HTML5 features.
 
