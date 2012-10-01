@@ -4,7 +4,19 @@
 }}
 {{API_Name}}
 {{Summary_Section}}
-{{Concept_Page}}
+{{Concept_Page
+|Content==== Screen readers === 
+
+=== Braille output === 
+
+=== Screen magnifiers === 
+
+=== High Contrast === 
+
+=== Voice input/ Voice recognition === 
+
+=== Onscreen keyboards / alternative switching devices === 
+}}
 {{Examples_Section
 |Not_required=No
 |Examples=
