@@ -2,7 +2,7 @@
 {{Flags}}
 {{Byline}}
 {{Summary_Section|This article covers the most common parts that can be included in the <code>&lt;head&gt;</code> section of HTML documents. Making sure that all of these are correct will result in your document being fast, and easy to find and understand.}}
-{{Guide
+{{Tutorial
 |Content=== Introduction ==
  
 This article deals with a part of the HTML document that does not get the attention it deserves: the markup that goes inside the <code>head</code> element. By the end of this tutorial you’ll have learnt about the different parts of this section and what they all do, including the <code>title</code> element, keywords and description (which are handled by <code>meta</code> elements) and more. You’ll also learn about JavaScript and CSS styles (both internal and external) and about what not to leave in the <code>head</code>. You can [http://dev.opera.com/articles/view/13-the-html-head-element/headtutorial.zip download some demo files here], which we will refer to during the article; feel free to play with them however you like once you have finished working through it. Make sure you go through the full tutorial from start to finish, as it builds up a series of best practices to follow when dealing with the HTML <code>head</code>. Whilst each part is valid in itself, there is a conclusion at the end about the best practices that will make you reconsider some of the earlier advice.
