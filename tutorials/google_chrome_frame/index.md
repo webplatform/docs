@@ -111,7 +111,28 @@ For more information see the [http://www.google.com/url?q=http%3A%2F%2Fwww.chrom
 }}
 {{Compatibility_Section
 |Not_required=No
-|Desktop_rows=
+|Desktop_rows={{Compatibility Table Desktop Row
+|Chrome_supported=Unknown
+|Chrome_version=
+|Chrome_prefixed_supported=Unknown
+|Chrome_prefixed_version=
+|Firefox_supported=Unknown
+|Firefox_version=
+|Firefox_prefixed_supported=Unknown
+|Firefox_prefixed_version=
+|Internet_explorer_supported=Yes
+|Internet_explorer_version=6, 7, 8, and 9
+|Internet_explorer_prefixed_supported=Unknown
+|Internet_explorer_prefixed_version=
+|Opera_supported=Unknown
+|Opera_version=
+|Opera_prefixed_supported=Unknown
+|Opera_prefixed_version=
+|Safari_supported=Unknown
+|Safari_version=
+|Safari_prefixed_supported=Unknown
+|Safari_prefixed_version=
+}}
 |Mobile_rows=
 |Notes_rows=
 }}
