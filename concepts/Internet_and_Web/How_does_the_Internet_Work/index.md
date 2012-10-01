@@ -1,4 +1,4 @@
-{{Page_Title|How does the Internet work? }}
+{{Page_Title|How does the Internet work?}}
 {{Flags}}
 {{API_Name}}
 {{Summary_Section|Every so often, you get offered a behind-the-scenes look at the cogs and fan belts behind the action. Today’s your lucky day. In this article we'll usher you behind the scenes of one of the hottest technologies that you might already be familiar with: the World Wide Web. Cue theme music.
@@ -92,6 +92,8 @@ We won’t be covering dynamic languages any further in this course, but I have 
 == Summary ==
  
 That’s it for the behind-the-scenes tour of how the Internet works. This article really just scratches the surface of a lot of the topics covered, but it is useful as it puts them all in perspective, showing how they all relate and work together. There is still a lot left to learn about the actual language syntax that makes up HTML, CSS and JavaScript, and this is where we’ll go to next — the next article focuses on the HTML, CSS and JavaScript “web standards” model of web development, and takes a look at web page code.
+
+[[Category:Internet]]
 }}
 {{Examples_Section
 |Not_required=Yes
