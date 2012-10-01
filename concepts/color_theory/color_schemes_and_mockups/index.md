@@ -1,3 +1,4 @@
+{{Page_Title}}
 {{Flags}}
 {{API_Name}}
 {{Summary_Section|After a web designer presents a site’s architecture, or wireframe, to a client for approval, the next step is to determine the look and feel of the site through colour and graphics. In this [http://www.w3.org/wiki/Web_Standards_Curriculum Web Standards Curriculum] article, I’ll demonstrate how I keep this process as simple as possible, both for myself and for the client. I believe in the KISS philosophy—Keep It Simple, Sweetie. There are two reasons for the use of this tactic: First, life is complicated enough without adding more curves; secondly, a simple plan also helps to keep a site more accessible and usable for all concerned. In this article, you will:
@@ -189,7 +190,6 @@ While colour and layout hold great appeal to the designer, other design elements
 Even more frustrating is the lack of compatibility among different browsers. Although progress has been made over the past decade toward more compatibility, you must understand that the finished design may seem to take on a life of its own in various browsers. In addition, you should realise that users can change a web site with the click of a button in some browsers. Images can be eliminated, backgrounds and text colour changed, and anything with a hint of Javascript can be ignored by users.
  
 On the other hand, the progress toward a more compatible environment and an exciting new era of web functionality can prove an exciting challenge to web designers today. And to think—it’s been less than thirty years since home computers were widely available on the retail market. Think about what the next decade might bring to the designer who is willing to stay abreast of all the changes!
-
 }}
 {{Examples_Section
 |Not_required=Yes
@@ -213,7 +213,10 @@ On the other hand, the progress toward a more compatible environment and an exci
 * Why is it important to check the spelling on a web page?
 * Name four ways to test a site before it goes “live”.
 }}
-{{Topics}}
+{{Topics|CSS, Design, Graphics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
 }}
