@@ -1,5 +1,6 @@
 {{Page_Title}}
 {{Flags}}
+{{Byline}}
 {{Summary_Section|In this article, you will learn the basics of HTML, where it has
 evolved from and have some insight into the structure and content of an HTML
 document.
@@ -235,7 +236,7 @@ which is the character entity reference, or as "&amp;#38;" which is
 the numeric reference. [http://www.evolt.org/article/A_Simple_Character_Entity_Chart/17/21234/ A full chart of character references can be found on evolt.org].
 }}
 {{Compatibility_Section
-|Not_required=No
+|Not_required=Yes
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
