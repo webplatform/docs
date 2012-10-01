@@ -15,20 +15,20 @@
 
 ==The HTML body==
 
-* [[HTML text]]
-* [[HTML lists]]
-* [[Images in HTML]]
-* [[HTML links]]
-* [[HTML tables]]
-* [[HTML forms basics]]
-* [[HTML5 form features]]
-* [[HTML structural elements]]
-* [[Lesser-known semantic elements]]
+* [[tutorials/html text|HTML text]]
+* [[tutorials/html lists|HTML lists]]
+* [[tutorials/images in html|Images in HTML]]
+* [[tutorials/html links|HTML links]]
+* [[tutorials/html tables|HTML tables]]
+* [[tutorials/html forms basics|HTML forms basics]]
+* [[tutorials/html5 form features|HTML5 form features]]
+* [[tutorials/html structural elements|HTML structural elements]]
+* [[tutorials/lesser-known semantic elements|Lesser-known semantic elements]]
 
 ==Applied techniques==
 
-* [[tutorials/Creating basic navigation menus|Creating navigation menus]]
-* [[HTML validation]]
+* [[tutorials/creating basic navigation menus|Creating navigation menus]]
+* [[tutorials/html validation|HTML validation]]
 {{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
