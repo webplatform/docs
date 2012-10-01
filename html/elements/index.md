@@ -1,3 +1,3 @@
 Here is a list of HTML elements:
 
-{{Special:PrefixIndex/guides/}}
+{{Special:PrefixIndex/html/elements/}}
