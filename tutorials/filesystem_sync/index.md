@@ -13,7 +13,7 @@ Published '''Oct. 25, 2011''', updated '''May. 14, 2012'''
 {{Tutorial
 |Content===Introduction==
 
-The [http://dev.w3.org/2009/dap/file-system/file-dir-sys.html HTML5 FileSystem API] and [http://www.whatwg.org/specs/web-apps/current-work/multipage/workers.html Web Workers] are massively
+The [http://dev.w3.org/2009/dap/file-system/file-dir-sys.html|HTML5 FileSystem API] and [http://www.whatwg.org/specs/web-apps/current-work/multipage/workers.html|Web Workers] are massively
 powerful in their own regard. The FileSystem API finally brings hierarchical storage and
 file I/O to web applications and Workers bring true asynchronous 'multi-threading'
 to JavaScript. However, when you use these APIs together, you can build some truly interesting apps.
@@ -22,14 +22,14 @@ This tutorial provides a guide and code examples for leveraging the HTML5
 FileSystem inside of a Web Worker. It assumes a working knowledge of
 both APIs. If you're not quite ready to dive in or are interested in learning
 more about those APIs, read two great tutorials that discuss the basics:
-[/tutorials/file_filesystem Exploring the FileSystem APIs] and [http://www.html5rocks.com/tutorials/workers/basics/ Basics of Web Workers].
+[/tutorials/file_filesystem|Exploring the FileSystem APIs] and [http://www.html5rocks.com/tutorials/workers/basics/|Basics of Web Workers].
 
 ==Synchronous vs. Asynchronous APIs== 
 
 Asynchronous JavaScript APIs can be tough to use. They're large. They're complex.
 But what's most frustrating is that they offer plenty of opportunities for things to go wrong.
 The last thing you want to deal with is layering on a complex asynchronous API (FileSystem)
-in an already asynchronous world (Workers)! The good news is that the [http://dev.w3.org/2009/dap/file-system/file-dir-sys.html FileSystem API] defines a synchronous version to ease the pain in Web Workers.
+in an already asynchronous world (Workers)! The good news is that the [http://dev.w3.org/2009/dap/file-system/file-dir-sys.html|FileSystem API] defines a synchronous version to ease the pain in Web Workers.
 
 For the most part, the synchronous API is exactly the same as its asynchronous cousin.
 The methods, properties, features, and functionality will be familiar. The major deviations are:
@@ -57,11 +57,9 @@ the absence of success and error callbacks.
 
 As with the normal FileSystem API, methods are prefixed at the moment:
 
-<pre>self.requestFileSystemSync = self.webkitRequestFileSystemSync ||
-                             self.requestFileSystemSync;
-</pre>
-
-===Dealing with quota=== 
+<pre>self.requestFileSystemSync = self.webkitRequestFileSystemSync
+|self_requestFileSystemSync;
+</pre>===Dealing with quota=== 
 
 Currently, it's not possible to [/wiki/tutorials/file_filesystem#toc-requesting-quota request <code>PERSISTENT</code> quota] in a Worker context. I recommend taking care of quota issues outside of Workers.
 
@@ -272,10 +270,10 @@ to a <code>FileEntrySync</code>/<code>DirectoryEntrySync</code> object.
 &lt;/head&gt;
 &lt;body&gt;
 &lt;script&gt;
-  window.resolveLocalFileSystemURL = window.resolveLocalFileSystemURL ||
-                                     window.webkitResolveLocalFileSystemURL;
+  window.resolveLocalFileSystemURL = window.resolveLocalFileSystemURL
+|window_webkitResolveLocalFileSystemURL;
 
-  var worker = new Worker('worker.js');
+  var worker=new Worker('worker.js');
   worker.onmessage = function(e) {
     var urls = e.data.entries;
     urls.forEach(function(url, i) {
@@ -293,10 +291,10 @@ to a <code>FileEntrySync</code>/<code>DirectoryEntrySync</code> object.
 
 '''worker.js'''
 
-<pre>self.requestFileSystemSync = self.webkitRequestFileSystemSync ||
-                             self.requestFileSystemSync;
+<pre>self.requestFileSystemSync = self.webkitRequestFileSystemSync
+|self_requestFileSystemSync;
 
-var paths = []; // Global to hold the list of entry filesystem URLs.
+var paths=[]; // Global to hold the list of entry filesystem URLs.
 
 function getAllEntries(dirReader) {
   var entries = dirReader.readEntries();
@@ -366,12 +364,12 @@ expanding it to download a set of files.
 
 '''downloader.js:'''
 
-<pre>self.requestFileSystemSync = self.webkitRequestFileSystemSync ||
-                             self.requestFileSystemSync;
+<pre>self.requestFileSystemSync = self.webkitRequestFileSystemSync
+|self_requestFileSystemSync;
 
 function makeRequest(url) {
   try {
-    var xhr = new XMLHttpRequest();
+    var xhr=new XMLHttpRequest();
     xhr.open('GET', url, false); // Note: synchronous
     xhr.responseType = 'arraybuffer';
     xhr.send();
@@ -429,7 +427,6 @@ If you're skeptical (as I was), I hope this article has helped change your mind.
 Offloading things like disc operations (Filesystem API calls) or HTTP requests to a Worker
 are a natural fit and also help compartmentalize your code. The HTML5 File APIs
 inside of Workers opens a whole new can of awesomeness for web apps that a lot of folks haven't explored.
-
 }}
 {{Compatibility_Section
 |Not_required=No
