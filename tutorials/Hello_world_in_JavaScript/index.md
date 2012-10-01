@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Stub
+|High-level issues=Stub, Needs Flags
 }}
 {{Byline}}
 {{Summary_Section}}
