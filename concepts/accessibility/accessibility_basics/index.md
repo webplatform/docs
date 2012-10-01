@@ -1,3 +1,4 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Copyright Issue
 |Content=Outdated, Grammar/Spelling
