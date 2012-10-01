@@ -6,7 +6,7 @@
 {{API_Name}}
 {{Summary_Section}}
 {{Concept_Page
-|Content=This chapter discusses values that JavaScript recognizes and describes the fundamental building blocks of JavaScript expressions: variables, constants, and literals.
+{{!}}Content=This chapter discusses values that JavaScript recognizes and describes the fundamental building blocks of JavaScript expressions: variables, constants, and literals.
 
 ==Values==
 
