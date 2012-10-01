@@ -4,7 +4,18 @@
 }}
 {{API_Name}}
 {{Summary_Section}}
-{{Concept_Page}}
+{{Concept_Page
+|Content==== Plan ===
+
+=== Design ===
+
+=== Develop ===
+
+=== Author ===
+
+=== Test ===
+
+}}
 {{Examples_Section
 |Not_required=No
 |Examples=
