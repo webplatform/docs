@@ -22,7 +22,7 @@ This tutorial provides a guide and code examples for leveraging the HTML5
 FileSystem inside of a Web Worker. It assumes a working knowledge of
 both APIs. If you're not quite ready to dive in or are interested in learning
 more about those APIs, read two great tutorials that discuss the basics:
-[/tutorials/file_filesystem Exploring the FileSystem APIs] and [http://www.html5rocks.com/tutorials/workers/basics/ Basics of Web Workers].
+[/wiki/tutorials/file_filesystem Exploring the FileSystem APIs] and [http://www.html5rocks.com/tutorials/workers/basics/ Basics of Web Workers].
 
 ==Synchronous vs. Asynchronous APIs== 
 
@@ -429,7 +429,6 @@ If you're skeptical (as I was), I hope this article has helped change your mind.
 Offloading things like disc operations (Filesystem API calls) or HTTP requests to a Worker
 are a natural fit and also help compartmentalize your code. The HTML5 File APIs
 inside of Workers opens a whole new can of awesomeness for web apps that a lot of folks haven't explored.
-
 |self_requestFileSystemSync;</pre>===Dealing with quota=== 
 
 Currently, it's not possible to [/wiki/tutorials/file_filesystem#toc-requesting-quota request <code>PERSISTENT</code> quota] in a Worker context. I recommend taking care of quota issues outside of Workers.
