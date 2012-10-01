@@ -5,21 +5,22 @@
 {{API_Name}}
 {{Summary_Section}}
 {{Concept_Page
-|Content=This chapter discusses values that JavaScript recognizes and describes the fundamental building blocks of JavaScript expressions: variables, constants, and literals.
+|Content=
+This chapter discusses values that JavaScript recognizes and describes the fundamental building blocks of JavaScript expressions: variables, constants, and literals.
 
 h2. Values
 
 JavaScript recognizes the following types of values:
 
-* [Numbers|/en-US/docs/JavaScript/Reference/Global_Objects/Number], such as 42 or 3.14159
-* [Logical (Boolean)|/en-US/docs/JavaScript/Reference/Global_Objects/Boolean] values, either true or false
-* [Strings|/en-US/docs/JavaScript/Reference/Global_Objects/String], such as "Howdy!"
+* [Numbers{{!}}/en-US/docs/JavaScript/Reference/Global_Objects/Number], such as 42 or 3.14159
+* [Logical (Boolean){{!}}/en-US/docs/JavaScript/Reference/Global_Objects/Boolean] values, either true or false
+* [Strings{{!}}/en-US/docs/JavaScript/Reference/Global_Objects/String], such as "Howdy!"
 * null, a special keyword denoting a null value; null is also a primitive value. Because JavaScript is case-sensitive, null is not the same as Null, NULL, or any other variant
-* [undefined|/en-US/docs/JavaScript/Reference/Global_Objects/undefined], a top-level property whose value is undefined; undefined is also a primitive value.
+* [undefined{{!}}/en-US/docs/JavaScript/Reference/Global_Objects/undefined], a top-level property whose value is undefined; undefined is also a primitive value.
 
-This relatively small set of types of values, or _data types_, enables you to perform useful functions with your applications. There is no explicit distinction between integer and real-valued numbers. Nor is there an explicit date data type in JavaScript. However, you can use the [Date|/en-US/docs/JavaScript/Reference/Global_Objects/Date] object and its methods to handle dates.
+This relatively small set of types of values, or _data types_, enables you to perform useful functions with your applications. There is no explicit distinction between integer and real-valued numbers. Nor is there an explicit date data type in JavaScript. However, you can use the [Date{{!}}/en-US/docs/JavaScript/Reference/Global_Objects/Date] object and its methods to handle dates.
 
-[Objects|/en-US/docs/JavaScript/Reference/Global_Objects/Object] and [functions|/en-US/docs/JavaScript/Reference/Global_Objects/Function] are the other fundamental elements in the language. You can think of objects as named containers for values, and functions as procedures that your application can perform.
+[Objects{{!}}/en-US/docs/JavaScript/Reference/Global_Objects/Object] and [functions{{!}}/en-US/docs/JavaScript/Reference/Global_Objects/Function] are the other fundamental elements in the language. You can think of objects as named containers for values, and functions as procedures that your application can perform.
 
 h3. Data type conversion
 
@@ -49,7 +50,7 @@ In the case that a value representing a number is in memory as a string, there a
 
 h4. parseInt() and parseFloat()
 
-See: [parseInt()|/en-US/docs/JavaScript/Reference/Global_Objects/parseInt] and [parseFloat()|/en-US/docs/JavaScript/Reference/Global_Objects/parseFloat] pages.
+See: [parseInt(){{!}}/en-US/docs/JavaScript/Reference/Global_Objects/parseInt] and [parseFloat(){{!}}/en-US/docs/JavaScript/Reference/Global_Objects/parseFloat] pages.
 
 parseInt will only return whole numbers, so its use is diminished for decimals. Additionally, a best practice for parseInt is to always include the radix parameter.
 
@@ -66,7 +67,7 @@ You use variables as symbolic names for values in your application. The names of
 
 A JavaScript identifier must start with a letter, underscore (_), or dollar sign ($); subsequent characters can also be digits (0-9). Because JavaScript is case sensitive, letters include the characters "A" through "Z" (uppercase) and the characters "a" through "z" (lowercase).
 
-Starting with JavaScript 1.5, you can use ISO 8859-1 or Unicode letters such as å and ü in identifiers. You can also use the \uXXXX [Unicode escape sequences|#Unicode_escape_sequences] as characters in identifiers.
+Starting with JavaScript 1.5, you can use ISO 8859-1 or Unicode letters such as å and ü in identifiers. You can also use the \uXXXX [Unicode escape sequences{{!}}#Unicode_escape_sequences] as characters in identifiers.
 
 Some examples of legal names are Number_hits, temp99, and _name.
 
@@ -74,12 +75,12 @@ h3. Declaring variables
 
 You can declare a variable in two ways:
 
-* With the keyword [var|/en-US/docs/JavaScript/Reference/Statements/var]. For example, var x = 42. This syntax can be used to declare both [local and global|#Variable_Scope] variables.
-* By simply assigning it a value. For example, x = 42. This always declares a [global variable|#Global_Variables] and generates a strict JavaScript warning. You shouldn't use this variant.
+* With the keyword [var{{!}}/en-US/docs/JavaScript/Reference/Statements/var]. For example, var x = 42. This syntax can be used to declare both [local and global{{!}}#Variable_Scope] variables.
+* By simply assigning it a value. For example, x = 42. This always declares a [global variable{{!}}#Global_Variables] and generates a strict JavaScript warning. You shouldn't use this variant.
 
 h3. Evaluating variables
 
-A variable declared using the var statement with no initial value specified has the value [undefined|/en-US/docs/JavaScript/Reference/Global_Objects/undefined].
+A variable declared using the var statement with no initial value specified has the value [undefined{{!}}/en-US/docs/JavaScript/Reference/Global_Objects/undefined].
 
 An attempt to access an undeclared variable will result in a ReferenceError exception being thrown:
 
@@ -87,7 +88,7 @@ var a;
 console.log("The value of a is " + a); // prints "The value of a is undefined"
 console.log("The value of b is " + b); // throws ReferenceError exception
 
-You can use undefined to determine whether a variable has a value. In the following code, the variable input is not assigned a value, and the [if|/en-US/docs/JavaScript/Reference/Statements/if...else] statement evaluates to true.
+You can use undefined to determine whether a variable has a value. In the following code, the variable input is not assigned a value, and the [if{{!}}/en-US/docs/JavaScript/Reference/Statements/if...else] statement evaluates to true.
 
 var input;
 if(input === undefined){
@@ -117,7 +118,7 @@ h3. Variable scope
 
 When you declare a variable outside of any function, it is called a _global_ variable, because it is available to any other code in the current document. When you declare a variable within a function, it is called a _local_ variable, because it is available only within that function.
 
-JavaScript does not have [block statement|/en-US/docs/JavaScript/Guide/Statements#Block_Statement] scope; rather, it will be local to the code that the block resides within. For example the following code will log 5, because the scope of x is the function (or global context) within which x is declared, not the block, which in this case is an if statement.
+JavaScript does not have [block statement{{!}}/en-US/docs/JavaScript/Guide/Statements#Block_Statement] scope; rather, it will be local to the code that the block resides within. For example the following code will log 5, because the scope of x is the function (or global context) within which x is declared, not the block, which in this case is an if statement.
 
 if (true) {
   var x = 5;
@@ -157,13 +158,13 @@ Because of hoisting, all var statements in a function should be placed as near t
 
 h3. Global variables
 
-need links to pages discussing scope chains and the global object Global variables are in fact properties of the _global object_. In web pages the global object is [window|/en-US/docs/DOM/window], so you can set and access global variables using the window._variable_ syntax.
+need links to pages discussing scope chains and the global object Global variables are in fact properties of the _global object_. In web pages the global object is [window{{!}}/en-US/docs/DOM/window], so you can set and access global variables using the window._variable_ syntax.
 
 Consequently, you can access global variables declared in one window or frame from another window or frame by specifying the window or frame name. For example, if a variable called phoneNumber is declared in a FRAMESET document, you can refer to this variable from a child frame as parent.phoneNumber.
 
 h2. Constants
 
-You can create a read-only, named constant with the [const|/en-US/docs/JavaScript/Reference/Statements/const] keyword. The syntax of a constant identifier is the same as for a variable identifier: it must start with a letter or underscore and can contain alphabetic, numeric, or underscore characters.
+You can create a read-only, named constant with the [const{{!}}/en-US/docs/JavaScript/Reference/Statements/const] keyword. The syntax of a constant identifier is the same as for a variable identifier: it must start with a letter or underscore and can contain alphabetic, numeric, or underscore characters.
 
 const prefix = '212';
 
@@ -189,12 +190,12 @@ h2. Literals
 
 You use literals to represent values in JavaScript. These are fixed values, not variables, that you _literally_ provide in your script. This section describes the following types of literals:
 
-* [Array literals|#Array_literals]
-* [Boolean literals|#Boolean_literals]
-* [Floating-point literals|#Floating-point_literals]
-* [Integers|#Integers]
-* [Object literals|#Object_literals]
-* [String literals|#String_literals]
+* [Array literals{{!}}#Array_literals]
+* [Boolean literals{{!}}#Boolean_literals]
+* [Floating-point literals{{!}}#Floating-point_literals]
+* [Integers{{!}}#Integers]
+* [Object literals{{!}}#Object_literals]
+* [String literals{{!}}#String_literals]
 
 h3. Array literals
 
@@ -204,11 +205,11 @@ The following example creates the coffees array with three elements and a length
 
 var coffees = ["French Roast", "Colombian", "Kona"];
 
-*Note* An array literal is a type of object initializer. See [Using Object Initializers|/en-US/docs/JavaScript/Guide/Working_with_Objects#Using_Object_Initializers].
+*Note* An array literal is a type of object initializer. See [Using Object Initializers{{!}}/en-US/docs/JavaScript/Guide/Working_with_Objects#Using_Object_Initializers].
 
 If an array is created using a literal in a top-level script, JavaScript interprets the array each time it evaluates the expression containing the array literal. In addition, a literal used in a function is created each time the function is called.
 
-Array literals are also Array objects. See [Array Object|/en-US/docs/JavaScript/Guide/Predefined_Core_Objects#Array_Object] for details on Array objects.
+Array literals are also Array objects. See [Array Object{{!}}/en-US/docs/JavaScript/Guide/Predefined_Core_Objects#Array_Object] for details on Array objects.
 
 h4. Extra commas in array literals
 
@@ -236,7 +237,7 @@ h3. Boolean literals
 
 The Boolean type has two literal values: true and false.
 
-Do not confuse the primitive Boolean values true and false with the true and false values of the Boolean object. The Boolean object is a wrapper around the primitive Boolean data type. See [Boolean Object|/en-US/docs/JavaScript/Guide/Predefined_Core_Objects#Boolean_Object] for more information.
+Do not confuse the primitive Boolean values true and false with the true and false values of the Boolean object. The Boolean object is a wrapper around the primitive Boolean data type. See [Boolean Object{{!}}/en-US/docs/JavaScript/Guide/Predefined_Core_Objects#Boolean_Object] for more information.
 
 h3. Integers
 
@@ -269,7 +270,7 @@ Some examples of floating-point literals are 3.1415, -3.1E12, .1e12, and 2E-12.
 
 More succinctly, the syntax is:
 
-[digits][.digits][(E|e)[(+|-)]digits]
+[digits][.digits][(E{{!}}e)[(+{{!}}-)]digits]
 
 For example:
 
@@ -328,7 +329,7 @@ You can call any of the methods of the String object on a string literal value�
 
 "John's cat".length
 
-You should use string literals unless you specifically need to use a String object. See [String Object|/en-US/docs/JavaScript/Guide/Predefined_Core_Objects#String_Object] for details on String objects.
+You should use string literals unless you specifically need to use a String object. See [String Object{{!}}/en-US/docs/JavaScript/Guide/Predefined_Core_Objects#String_Object] for details on String objects.
 
 h4. Using special characters in strings
 
@@ -338,7 +339,7 @@ In addition to ordinary characters, you can also include special characters in s
 
 The following table lists the special characters that you can use in JavaScript strings.
 
- Table 2.1 JavaScript special charactersCharacterMeaning\bBackspace\fForm feed\nNew line\rCarriage return\tTab\vVertical tab\'Apostrophe or single quote\"Double quote\\Backslash character (\).\_XXX_The character with the Latin-1 encoding specified by up to three octal digits _XXX_ between 0 and 377. For example, \251 is the octal sequence for the copyright symbol.\x_XX_The character with the Latin-1 encoding specified by the two hexadecimal digits _XX_ between 00 and FF. For example, \xA9 is the hexadecimal sequence for the copyright symbol.\u_XXXX_The Unicode character specified by the four hexadecimal digits _XXXX_. For example, \u00A9 is the Unicode sequence for the copyright symbol. See [Unicode escape sequences|#Unicode_escape_sequences].
+ Table 2.1 JavaScript special charactersCharacterMeaning\bBackspace\fForm feed\nNew line\rCarriage return\tTab\vVertical tab\'Apostrophe or single quote\"Double quote\\Backslash character (\).\_XXX_The character with the Latin-1 encoding specified by up to three octal digits _XXX_ between 0 and 377. For example, \251 is the octal sequence for the copyright symbol.\x_XX_The character with the Latin-1 encoding specified by the two hexadecimal digits _XX_ between 00 and FF. For example, \xA9 is the hexadecimal sequence for the copyright symbol.\u_XXXX_The Unicode character specified by the four hexadecimal digits _XXXX_. For example, \u00A9 is the Unicode sequence for the copyright symbol. See [Unicode escape sequences{{!}}#Unicode_escape_sequences].
 
 h4. Escaping characters
 
@@ -407,7 +408,7 @@ The JavaScript use of the Unicode escape sequence is different from Java. In Jav
 
 h3. Unicode characters in JavaScript files
 
-Earlier versions of [Gecko|/en-US/docs/Gecko] assumed the Latin-1 character encoding for JavaScript files loaded from XUL. Starting with Gecko 1.8, the character encoding is inferred from the XUL file's encoding. Please see [International characters in XUL JavaScript|/en-US/docs/International_characters_in_XUL_JavaScript] for more information.
+Earlier versions of [Gecko{{!}}/en-US/docs/Gecko] assumed the Latin-1 character encoding for JavaScript files loaded from XUL. Starting with Gecko 1.8, the character encoding is inferred from the XUL file's encoding. Please see [International characters in XUL JavaScript{{!}}/en-US/docs/International_characters_in_XUL_JavaScript] for more information.
 
 h3. Displaying characters with Unicode
 
@@ -415,11 +416,12 @@ You can use Unicode to display the characters in different languages or technica
 
 To receive non-ASCII character input, the client needs to send the input as Unicode. Using a standard enhanced keyboard, the client cannot easily input the additional characters supported by Unicode. Sometimes, the only way to input Unicode characters is by using Unicode escape sequences.
 
-For more information on Unicode, see the [Unicode Home Page|http://www.unicode.org/] and The Unicode Standard, Version 2.0, published by Addison-Wesley, 1996.
+For more information on Unicode, see the [Unicode Home Page{{!}}http://www.unicode.org/] and The Unicode Standard, Version 2.0, published by Addison-Wesley, 1996.
 
 h2. Resources
 
-* [Text Escaping and Unescaping in JavaScript|http://0xcc.net/jsescape/] – an utility to convert characters in JavaScript unicode values
+* [Text Escaping and Unescaping in JavaScript{{!}}http://0xcc.net/jsescape/] – an utility to convert characters in JavaScript unicode values.
+
 }}
 {{Examples_Section
 |Not_required=No
