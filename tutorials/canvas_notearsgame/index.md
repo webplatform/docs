@@ -57,7 +57,7 @@ Now that we have a game loop going, let's update our draw method to draw some te
    canvas.fillText("Sup Bro!", 50, 50);
  }
 
-Pro Tip: Be sure to run your app after making changes. If something breaks, it's a lot easier to track down when there's only a few lines of changes to debug.
+Pro Tip: Be sure to run your app after making changes. If something breaks, it's a lot easier to track down when there are only a few lines of changes to debug.
 
 What you see now is pretty cool for stationary text, but because we have a game loop already set up, we should be able to make this text move quite easily.
 
