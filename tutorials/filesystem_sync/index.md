@@ -22,7 +22,7 @@ This tutorial provides a guide and code examples for leveraging the HTML5
 FileSystem inside of a Web Worker. It assumes a working knowledge of
 both APIs. If you're not quite ready to dive in or are interested in learning
 more about those APIs, read two great tutorials that discuss the basics:
-[[file filesystem]] and [[workers basics]].
+[[tutorials/file_filesystem]] and [tutorials/workers_basics].
 
 ==Synchronous vs. Asynchronous APIs== 
 
