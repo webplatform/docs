@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page_Title|Exploring the FileSystem APIs}}
 {{Flags
 |High-level issues=Needs Flags
 }}
@@ -11,9 +11,7 @@
 Published '''Jan. 4, 2011''', updated '''Jan. 27, 2012'''
 }}
 {{Tutorial
-|Content==Exploring the FileSystem APIs=
-
-==Introduction==
+|Content===Introduction==
 
 I've always thought it would be handy if web applications could read and write files and directories. As we move from offline to online, applications are becoming more complex and the lack of file system APIs has been a hindrance for moving the web forward. Storing or interacting with binary data shouldn't be limited to the desktop. Thankfully, it no longer is, thanks to the [http://dev.w3.org/2009/dap/file-system/pub/FileSystem/ FileSystem API]. With the FileSystem API, a web app can safely create, read, navigate, and write to a sandboxed section of the user's local file system.
 
