@@ -13,7 +13,7 @@ Published '''Oct. 25, 2011''', updated '''May. 14, 2012'''
 {{Tutorial
 |Content===Introduction==
 
-The [http://dev.w3.org/2009/dap/file-system/file-dir-sys.html|HTML5 FileSystem API] and [http://www.whatwg.org/specs/web-apps/current-work/multipage/workers.html|Web Workers] are massively
+The [http://dev.w3.org/2009/dap/file-system/file-dir-sys.html|HTML5 FileSystem API] and [http://www.whatwg.org/specs/web-apps/current-work/multipage/workers.html Web Workers] are massively
 powerful in their own regard. The FileSystem API finally brings hierarchical storage and
 file I/O to web applications and Workers bring true asynchronous 'multi-threading'
 to JavaScript. However, when you use these APIs together, you can build some truly interesting apps.
@@ -22,7 +22,7 @@ This tutorial provides a guide and code examples for leveraging the HTML5
 FileSystem inside of a Web Worker. It assumes a working knowledge of
 both APIs. If you're not quite ready to dive in or are interested in learning
 more about those APIs, read two great tutorials that discuss the basics:
-[/tutorials/file_filesystem|Exploring the FileSystem APIs] and [http://www.html5rocks.com/tutorials/workers/basics/|Basics of Web Workers].
+[/tutorials/file_filesystem Exploring the FileSystem APIs] and [http://www.html5rocks.com/tutorials/workers/basics/ Basics of Web Workers].
 
 ==Synchronous vs. Asynchronous APIs== 
 
