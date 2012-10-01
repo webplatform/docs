@@ -91,6 +91,78 @@ The <code>search</code> input type is arguably nothing more than a differently-s
 [[Image:html5formfig6.png|A search input as it appears in Opera on OS X]]
  
 Figure 6: A <code>search</code> input as it appears in Opera on OS X.
+
+=== The &lt;datalist&gt; element and list attribute ===
+ 
+Up until now we have been used to using <code>&lt;select&gt;</code> and <code>&lt;option&gt;</code> elements to create dropdown lists of options for our users to choose from. But what if we wanted to create a list that allowed users to choose from a list of suggested options, as well as being able to type in their own? That used to require fiddly scripting – but now you can simply use the <code>list</code> attribute to connect an ordinary input to a list of options, defined inside a <code>&lt;datalist&gt;</code> element.
+
+<pre>&lt;input type=&quot;text&quot; list=&quot;mydata&quot; … &gt;
+&lt;datalist id=&quot;mydata&quot;&gt;
+    &lt;option label=&quot;Mr&quot; value=&quot;Mister&quot;&gt;
+    &lt;option label=&quot;Mrs&quot; value=&quot;Mistress&quot;&gt;
+    &lt;option label=&quot;Ms&quot; value=&quot;Miss&quot;&gt;
+&lt;/datalist&gt;</pre>
+ 
+[[Image:html5formfig7.png|Creating an input element with preset options using datalist]]
+ 
+Figure 7: Creating an input element with suggestions using <code>datalist</code>.
+
+=== &lt;input type="tel"&gt;, &lt;input type="email"&gt; and &lt;input type="url"&gt; ===
+ 
+As their names imply, these new input types relate to telephone numbers, email addresses and URLs. Browsers will render these as normal text inputs, but explicitly stating what kind of text we're expecting in these fields plays an important role in client-side form validation. Additionally, on certain mobile devices the browser will switch from its regular text entry on-screen keyboard to the more context-relevant variants. Again, it's conceivable that in the future browsers will take further advantage of these explicitly marked-up inputs to offer additional functionality, such as autocompleting email addresses and telephone numbers based on the user's contacts list or address book.
+
+== New attributes ==
+ 
+In addition to explicit new input types, HTML5 defines a series of new attributes for form controls that help simplify some common tasks and further specify the expected values for certain entry fields.
+ 
+=== placeholder ===
+ 
+A common usability trick in web forms is to have placeholder content in text entry fields – for instance, to give more information about the expected type of information we want the user to enter – which disappears when the form control gets focus. While this used to require some JavaScript (clearing the contents of the form field on focus and resetting it to the default text if the user left the field without entering anything), we can now simply use the <code>placeholder</code> attribute:
+ 
+<pre>&lt;input type=&quot;text&quot;… placeholder=&quot;John Doe&quot;&gt;</pre>
+ 
+[[Image:html5formfig8.png|A text input with placeholder text]]
+ 
+Figure 8: A text input with <code>placeholder</code> text.
+
+=== autofocus ===
+ 
+Another common feature that previously had to rely on scripting is having a form field automatically focused when a page is loaded. This can now be achieved with the <code>autofocus</code> attribute:
+ 
+<pre>&lt;input type="text" autofocus … &gt;</pre>
+ 
+Keep in mind that you shouldn't have more than one <code>autofocus</code> form control on a single page. You should also use this sort of functionality with caution, in situations where a form represents the main area of interest in a page. A search page is a good example – provided that there isn't a lot of content and explanatory text, it makes sense to set the focus automatically to the text input of the search form.
+ 
+=== min and max ===
+ 
+As their name suggests, this pair of attributes allows you to set a lower and upper bound for the values that can be entered into a numerical form field, for example number, range, time or date input types (yes, you can even use it to set upper and lower bounds for dates – for instance, on a travel booking form you could limit the datepicker to only allow the user to select future dates). For <code>range</code> inputs, <code>min</code> and <code>max</code> are actually necessary to define what values are returned when the form is submitted. The code is pretty simple and self-explanatory:
+ 
+<pre>&lt;input type="number" … min="1" max="10"&gt;</pre>
+ 
+=== step ===
+ 
+The <code>step</code> attribute can be used with a numerical input value to dictate how granular the values you can input are. For example, you might want users to enter a particular time, but only in 30 minute increments. In this case, we can use the <code>step</code> attribute, keeping in mind that for <code>time</code> inputs the value of the attribute is in seconds:
+ 
+<pre>&lt;input type=&quot;time&quot; … step=&quot;1800&quot;&gt;</pre>
+ 
+== New output mechanisms ==
+ 
+Beyond the new form controls that users can interact with, HTML5 defines a series of new elements specifically meant to display and visualise information to the user.
+ 
+=== &lt;output&gt; ===
+ 
+We already mentioned the <code>&lt;output&gt;</code> element when talking about the <code>range</code> input type – this element serves as a way to display the result of a calculation, or more generally to provide an explicitly identified output of a script (rather than simply pushing some text into in a random <code>span</code> or <code>div</code>). To make it even more explicit what particular form controls the <code>&lt;output&gt;</code> relates to, we can – in a similar way to <code>&lt;label&gt;</code> – pass a list of <code>ID</code>s in the element's optional <code>for</code> attribute.
+ 
+<pre>&lt;input type=&quot;range&quot; id=&quot;rangeexample&quot; … &gt;
+&lt;output onforminput=&quot;value=rangeexample.value&quot; for=&quot;rangeexample&quot;&gt;&lt;/output&gt;</pre>
+ 
+=== &lt;progress&gt; and &lt;meter&gt; ===
+ 
+These two new elements are very similar, both resulting in a gauge/bar being presented to the user. Their distinction is in their intended purpose. As the name suggests, <code>progress</code> is meant to represent a progress bar, to indicate the percentage of completion of a particular task, while meter is a more generic indicator of a scalar measurement or fractional value.
+ 
+[[Image:html5formfig9.png|A progress indicator bar]]
+ 
+Figure 9: A progress indicator bar.
 }}
 {{Compatibility_Section
 |Not_required=Yes
