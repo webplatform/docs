@@ -1,4 +1,6 @@
+{{Page_Title}}
 {{Flags}}
+{{Byline}}
 {{Summary_Section|This article discusses some of the lesser known and more
 infrequently used semantic elements available in HTML.
 }}
@@ -352,8 +354,34 @@ In addition, we can also use the <code>&lt;s&gt;</code> element to markup conten
 
 <pre>&lt;p&gt;&lt;s&gt;The president of the USA is currently Barack Obama&lt;/s&gt;.&lt;/p&gt;</pre>
 }}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows={{Compatibility Table Desktop Row
+|Feature=adress
+|Chrome_supported=Yes
+|Chrome_prefixed_supported=No
+|Chrome_prefixed_version=
+|Firefox_supported=Yes
+|Firefox_prefixed_supported=No
+|Firefox_prefixed_version=
+|Internet_explorer_supported=Yes
+|Internet_explorer_prefixed_supported=No
+|Internet_explorer_prefixed_version=
+|Opera_supported=Yes
+|Opera_prefixed_supported=No
+|Opera_prefixed_version=
+|Safari_supported=Yes
+|Safari_prefixed_supported=No
+|Safari_prefixed_version=
+}}
+|Mobile_rows=
+|Notes_rows=
+}}
 {{See_Also_Section}}
 {{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
 }}
