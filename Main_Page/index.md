@@ -6,16 +6,16 @@ Bear in mind that this is an early alpha release. In the future, there will be a
 
 We would love your help in improving the content in any way you can &mdash; if you see problems on any pages, fix them, add a note to the article, or get in contact with us using any of the other methods available below. We are also looking for people to contribute new material!
 
-== Read our Docs ==
+== Read our docs ==
 
 * [[concepts|Concept pages]]: General concepts related to the Web, and web design and development
 * [[Accessibility]]: Summary of Accessibility, including introduction to the basics and testing
 * [[html/tutorials|HTML tutorials]]: List of all of our HTML tutorials, from general introductions to complex topics
-*[[HTML|HTML Reference]]: Summary of HTML, including links to specifications, educational materials, and our HTML topics
-*[[CSS|CSS Reference]]: Summary of CSS, including links to specifications, educational materials, and our CSS topics
+*[[HTML|HTML reference]]: Summary of HTML, including links to specifications, educational materials, and our HTML topics
+*[[CSS|CSS reference]]: Summary of CSS, including links to specifications, educational materials, and our CSS topics
 * [[CSS/tutorials|CSS tutorials]]: List of all of our CSS tutorials, from general introductions to complex topics
-*[[js|JavaScript Reference]]: List of all of our JavaScript tutorials, from general introductions to complex topics
-* [[concepts/mobile_web|Mobile Web]]: List of all of our mobile web tutorials, from general introductions to complex topics
+*[[js|JavaScript reference]]: List of all of our JavaScript tutorials, from general introductions to complex topics
+* [[concepts/mobile_web|Mobile web]]: List of all of our mobile web tutorials, from general introductions to complex topics
 *[[SVG|SVG reference]]: Summary of SVG, including links to specifications, educational materials, and our HTML topics
 * [[SVG/Tutorials|SVG tutorials]]: List of all of our SVG tutorials, from general introductions to complex topics
 
