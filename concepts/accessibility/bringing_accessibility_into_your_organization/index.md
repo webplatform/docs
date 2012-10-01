@@ -1,4 +1,4 @@
-{{Page_Title|bringing Accessibility Into Your Organization}}
+{{Page_Title|Bringing Accessibility Into Your Organization}}
 {{Flags
 |High-level issues=Stub, Move Candidate
 |Editorial notes={{Editorial/Move_Candidate
