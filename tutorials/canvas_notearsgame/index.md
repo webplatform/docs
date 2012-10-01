@@ -16,11 +16,11 @@ This tutorial shows you how to build a game using HTML5 and the <canvas> element
 
 [[File:space-demo.png]]
 
-You can first [http://strd6.com/space_demo/ play the game] or [http://strd6.com/wp-content/uploads/2010/12/space_demo.zip view the source code for the game].
+Before you get started, try [http://strd6.com/space_demo/ playing the game] and [http://strd6.com/wp-content/uploads/2010/12/space_demo.zip viewing the source code for the game].
 
 ==Creating the canvas==
 
-In order to draw objects on the page, we'll need to create a canvas. Because this is a No Tears guide, we'll be using jQuery.
+To draw objects on the page, we'll need to first create a canvas. Because this is a No Tears guide, we'll use jQuery.
 
  
  var CANVAS_WIDTH = 480;
@@ -33,8 +33,7 @@ In order to draw objects on the page, we'll need to create a canvas. Because thi
 
 ==Game loop==
 
-In order to simulate the appearance of smooth and continuous gameplay, we want to update the game and redraw the screen just faster than the human mind and eye can perceive.
-
+To simulate the appearance of smooth and continuous gameplay, let's update the game and redraw the screen just faster than the human mind and eye can perceive.
  
  var FPS = 30;
  setInterval(function() {
@@ -42,7 +41,7 @@ In order to simulate the appearance of smooth and continuous gameplay, we want t
    draw();
  }, 1000/FPS);
 
-For now we can leave the update and draw methods blank. The important thing to know is that the line we included, <code>setInterval()</code>, takes care of calling them periodically.
+For now we can leave the update() and draw() methods blank, since <code>setInterval()</code>, calls them periodically.
 
  
  function update() { ... }
@@ -50,7 +49,7 @@ For now we can leave the update and draw methods blank. The important thing to k
 
 ==Hello world==
 
-Now that we have a game loop going, let's update our draw method to draw some text on the screen.
+Now, let's update the draw() method to draw text on the screen.
 
  
  function draw() {
@@ -58,9 +57,8 @@ Now that we have a game loop going, let's update our draw method to draw some te
    canvas.fillText("Sup Bro!", 50, 50);
  }
 
-Pro Tip: Be sure to run your app after making changes. If something breaks, it's a lot easier to track down when there are only a few lines of changes to debug.
-
-What you see now is pretty cool for stationary text, but because we have a game loop already set up, we should be able to make this text move quite easily.
+Pro Tip: Be sure to run your app after making changes. It's much easier to debug a few lines of code than a completed app.
+What you see now is pretty cool for stationary text. Since we have a game loop already set up, let's enhance this text by making it move.
 
  
  var textX = 50;
@@ -76,9 +74,9 @@ What you see now is pretty cool for stationary text, but because we have a game 
    canvas.fillText("Sup Bro!", textX, textY);
  }
 
-Now give that a whirl. The text should now be moving, but also leaving the previous times it was drawn on the screen. Take a moment to guess why that may be the case. Hint: The previous drawings are being left behind because we are not clearing the screen.
+Try running the app now. You should see the text move, but you may be seeing some odd results. Because we are not clearing the screen, the previous drawings are being left behind.
 
-Let's add code to the draw method to clear the screen.
+Let's add code to the draw() method to clear the screen.
 
  
  function draw() {
@@ -87,7 +85,7 @@ Let's add code to the draw method to clear the screen.
    canvas.fillText("Sup Bro!", textX, textY);
  }
 
-Now that you've created a canvas and added text that moves around on the screen, you're halfway to having a real game. Just tighten up the controls, improve the gameplay, touch up the graphics...OK, you're maybe 1/7th of the way to having a real game, but the good news is: there's much more to this tutorial.
+Now that you've created a canvas and added text that moves around on the screen, let's turn this into a game with players and interaction between the players.
 
 ==Creating the player==
 
@@ -105,7 +103,7 @@ Create an object to hold the player data and be responsible for things like draw
    }
  };
 
-For now, we're using a simple colored rectangle to represent the player. When we draw the game, we'll clear the canvas and draw the player.
+At the moment, we're using a simple colored rectangle to represent the player. When we draw the game, we'll clear the canvas and draw the player.
 
  
  function draw() {
@@ -117,22 +115,22 @@ For now, we're using a simple colored rectangle to represent the player. When we
 
 ===Using jQuery Hotkeys===
 
-The [https://github.com/tzuryby/jquery.hotkeys jQuery Hotkeys plugin] makes key handling across browsers much much easier. Rather than crying over indecipherable cross-browser <code>keyCode</code> and <code>charCode</code> issues, we can bind events like so:
+The [https://github.com/tzuryby/jquery.hotkeys jQuery Hotkeys plugin] makes key handling across browsers very easy. Instead of using difficult-to-use cross-browser <code>keyCode</code> and <code>charCode</code>, we can bind events like so:
 
  
  $(document).bind("keydown", "left", function() { ... });
 
-Not having to worry about the details of which keys have which codes is a big win. We just want to be able add events like "when the player presses the up button, do something." jQuery Hotkeys allows you to do this nicely.
+By binding events, we don't have to worry specifically about key and code combinations. Instead, we can use jQuery Hotkeys to add events like "when the player presses the Up arrow leu, move forward." 
 
 ===Player movement===
 
-The way JavaScript handles keyboard events is completely event driven, which means that there is no built-in query for checking whether a key is down. To address this, we'll create our own.
+Because the way JavaScript handles keyboard events is completely event driven, there is no built-in query for checking whether a key is pressed. To address this, we'll create our own query.
 
-You may be asking, "Why not just use an event-driven way of handling keys?" Because the keyboard repeat rate varies across systems and is not bound to the timing of the game loop, gameplay could vary greatly from system to system. To create a consistent experience, it is important to tightly integrate the keyboard event detection with the game loop.
+Pro Tip: The reason why we don't use an event-driven way of handling keys is because the keyboard repeat rate varies across systems. Since these rates are not bound to the timing of the game loop, gameplay could vary greatly from system to system. To create a consistent experience, it is important to tightly integrate the keyboard event detection with the game loop.
 
-I've included a 16-line JaveScript wrapper called key_status.js that will make event querying available. With this wrapper, you can query the status of a key at any time by checking <code>keydown.left</code>, and so on.
+With the source code, I've included a 16-line JaveScript wrapper called key_status.js that will make event querying available. With this wrapper, you can query the status of a key at any time. For example, you can check <code>keydown.left</code>.
 
-Now that we have the ability to query whether keys are down, we can use this simple update method to move the player around.
+Now that we have the ability to query the status of keys, we can use this simple update() method to move the player on the canvas.
 
  
  function update() {
@@ -145,9 +143,7 @@ Now that we have the ability to query whether keys are down, we can use this sim
    }
  }
 
-Go ahead and give it a whirl.
-
-You might notice that the player is able to be moved off of the screen. Let's clamp the player's position to keep them within the bounds. Additionally, the player seems kind of slow, so let's bump up the speed, too.
+When you test this snippet, you may notice that you can move player off the screen. Let's clamp the player's position to keep it within the bounds. We can also increase the speed of the player's movement on the screen.
 
  
  function update() {
@@ -162,7 +158,7 @@ You might notice that the player is able to be moved off of the screen. Let's cl
    player.x = player.x.clamp(0, CANVAS_WIDTH - player.width);
  }
 
-Adding more inputs will be just as easy, so let's add some sort of projectiles.
+Let's start working with sample projectiles to see how the key binding works.
 
  
  function update() {
@@ -190,12 +186,12 @@ Adding more inputs will be just as easy, so let's add some sort of projectiles.
 
 ===Projectiles===
 
-Let's now add the projectiles for real. First, we need a collection to store them all:
+Now, let's add proper projectiles (or bullets, since this is, after all, a game). First, create a collection to store them:
 
  
  var playerBullets = [];
 
-Next, we need a constructor to create bullet instances.
+Next, create a constructor to create bullet instances.
 
  
  function Bullet(I) {
@@ -227,7 +223,7 @@ Next, we need a constructor to create bullet instances.
    return I;
  }
 
-When the player shoots, we should create a bullet instance and add it to the collection of bullets.
+When the player shoots, create a bullet instance and add it to the collection of bullets.
 
  
  player.shoot = function() {
@@ -247,7 +243,7 @@ When the player shoots, we should create a bullet instance and add it to the col
    };
  };
 
-We now need to add the updating of the bullets to the update step function. To prevent the collection of bullets from filling up indefinitely, we filter the list of bullets to only include the active bullets. Filtering this list also allows us to remove bullets that have collided with an enemy.
+Finally, we need to add the status of the bullets to the update step function. To prevent the collection of bullets from filling up indefinitely, we filter the list of bullets to only include the active bullets. Filtering this list also allows us to remove bullets that have collided with an enemy.
 
  
  function update() {
@@ -273,7 +269,7 @@ The final step is to draw the bullets:
 
 ===Enemies===
 
-Now it's time to add enemies in the same way as we added the bullets.
+Now that we have bullets, let's add enemies to interact with our players.
  
    enemies = [];
  
@@ -343,7 +339,7 @@ Now it's time to add enemies in the same way as we added the bullets.
 
 ==Loading and drawing images==
 
-It's cool watching all those boxes flying around, but using images for would be even cooler. Loading and drawing images on canvas is usually a tearful experience. To prevent that pain and misery, we can use a simple utility class.
+Now that we have the enemy-player interaction set with box images, let's draw actual players to make this game more interesting. To avoid what is usually a painful experience with loading and drawing images on canvas, we can use a simple utility class.
 
  
  player.sprite = Sprite("player");
@@ -383,7 +379,7 @@ There are a couple collisions we want to check:
 # Player Bullets => Enemy Ships
 # Player => Enemy Ships
 
-Let's make a method to handle the collisions which we can call from the update method.
+Now, create a method to handle the collisions which we can call from the update method.
  
  function handleCollisions() {
    playerBullets.forEach(function(bullet) {
@@ -408,7 +404,7 @@ Let's make a method to handle the collisions which we can call from the update m
    handleCollisions();
  }
 
-Now we need to add the explode methods to the player and the enemies. These methods will flag them for removal and add an explosion.
+Finally, to make the interaction realistic, we'll add the explode() methods to the player and the enemies to remove the players and enemies that have been hit, and to display an explosion graphic.
 
  
  function Enemy(I) {
@@ -429,7 +425,7 @@ Now we need to add the explode methods to the player and the enemies. These meth
 
 ==Sound==
 
-To round out the experience, we're going to add some sweet sound effects. Sounds, like images, can be somewhat of a pain to use in HTML5, but thanks to our magic no-tears formula sound.js, sound can be made super-simple.
+To round out the experience, we''ll add some sweet sound effects. Sounds, like images, can be somewhat of a pain to use in HTML5, but thanks to our magic no-tears formula sound.js, sound can be made super-simple.
 
  
  player.shoot = function() {
