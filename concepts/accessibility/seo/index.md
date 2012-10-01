@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page_Title|Accessibility and SEO}}
 {{Flags
 |High-level issues=Stub
 }}
