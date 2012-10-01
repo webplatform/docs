@@ -1,4 +1,6 @@
+{{Page_Title|HTML links}}
 {{Flags}}
+{{Byline}}
 {{Summary_Section|In this article we provide a complete treatment of HTML anchors, or <code>&lt;a&gt;</code> elements, more commonly known as HTML links.}}
 {{Guide
 |Content=== Introduction ==
@@ -298,6 +300,12 @@ Here you can see that I've got the <code>&lt;a&gt;</code> element wrapping both 
 == Summary ==
  
 We covered a lot this time, but it is very important to remember how links work and what they should do. You will learn a lot of tricks and techniques in your career as a web developer to override this default behaviour and I hope you’ll stop and wonder if what you are trying to do is really necessary.
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
 |Manual_sections==== Exercise questions ===
