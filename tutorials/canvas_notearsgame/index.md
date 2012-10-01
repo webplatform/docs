@@ -374,12 +374,12 @@ Let's use a simple rectangular collision detection algorithm:
           a.y + a.height > b.y;
  }
 
-There are a couple collisions we want to check:
+We want to check specifically collisions between:
 
 # Player Bullets => Enemy Ships
 # Player => Enemy Ships
 
-Now, create a method to handle the collisions which we can call from the update method.
+To check these specific collisions, create a method to handle the collisions which we can call from the update() method.
  
  function handleCollisions() {
    playerBullets.forEach(function(bullet) {
