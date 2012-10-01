@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page_Title|Lesser-known semantic elements}}
 {{Flags}}
 {{Byline}}
 {{Summary_Section|This article discusses some of the lesser known and more
