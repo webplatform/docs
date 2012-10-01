@@ -22,7 +22,7 @@ This tutorial provides a guide and code examples for leveraging the HTML5
 FileSystem inside of a Web Worker. It assumes a working knowledge of
 both APIs. If you're not quite ready to dive in or are interested in learning
 more about those APIs, read two great tutorials that discuss the basics:
-[/wiki/tutorials/file_filesystem Exploring the FileSystem APIs] and [http://www.html5rocks.com/tutorials/workers/basics/ Basics of Web Workers].
+[[/wiki/tutorials/file_filesystem]] and [http://www.html5rocks.com/tutorials/workers/basics/|Basics of Web Workers].
 
 ==Synchronous vs. Asynchronous APIs== 
 
@@ -67,11 +67,11 @@ Currently, it's not possible to [/wiki/tutorials/file_filesystem#toc-requesting-
 
 The process could look like something this:
 
-1. worker.js: Wrap any FileSystem API code in a <code>try/catch</code> so any
+# worker.js: Wrap any FileSystem API code in a <code>try/catch</code> so any
 <code>QUOTA_EXCEED_ERR</code> errors are caught.
-2. worker.js: If you catch a <code>QUOTA_EXCEED_ERR</code>, send a <code>postMessage('get me more quota')</code> back to the main app.
-3. main app: Go through the <code>window.webkitStorageInfo.requestQuota()</code> dance when #2 is received.
-4. main app: After the user grants more quota, send <code>postMessage('resume writes')</code> back
+# worker.js: If you catch a <code>QUOTA_EXCEED_ERR</code>, send a <code>postMessage('get me more quota')</code> back to the main app.
+# main app: Go through the <code>window.webkitStorageInfo.requestQuota()</code> dance when #2 is received.
+# main app: After the user grants more quota, send <code>postMessage('resume writes')</code> back
 to the worker to inform it of additional storage space.
 
 That's a fairly involved workaround, but it should work. See [/wiki/tutorials/file_filesystem#toc-requesting-quota requesting quota] for more information on using <code>PERSISTENT</code> storage with the FileSystem API.
@@ -429,6 +429,7 @@ If you're skeptical (as I was), I hope this article has helped change your mind.
 Offloading things like disc operations (Filesystem API calls) or HTTP requests to a Worker
 are a natural fit and also help compartmentalize your code. The HTML5 File APIs
 inside of Workers opens a whole new can of awesomeness for web apps that a lot of folks haven't explored.
+
 |self_requestFileSystemSync;</pre>===Dealing with quota=== 
 
 Currently, it's not possible to [/wiki/tutorials/file_filesystem#toc-requesting-quota request <code>PERSISTENT</code> quota] in a Worker context. I recommend taking care of quota issues outside of Workers.
