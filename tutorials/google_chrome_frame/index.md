@@ -80,7 +80,8 @@ Use server-side detection to look for this token and determine whether Chrome Fr
  </html>
 
 Then, display a button to prompt users to install Chrome Frame:
- <button onclick="GCF_Install()">Install Chrome Frame (If not in IE, does nothing)</button>
+ <button onclick="GCF_Install()">Install Chrome Frame
+ (for IE only)</button>
 
 ===Prompt yourself===
 
