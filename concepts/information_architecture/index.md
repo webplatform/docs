@@ -99,6 +99,13 @@ This article has looked at the web site as a whole, and how you should think abo
 * Another activity that is sometimes useful when planning out a web site is to check out the competition.  Do a search for band web sites (bonus points for tribute bands), and take a look at what they’re offering.  Did we miss anything?
 * Take a look at Figure 4 and try to develop similar figures for the other pages I’ve identified on the web site.
 }}
+
+== Index of other information architecture pages ==
+
+{{API_Listing
+|Query=[[Category:Information Architecture]]
+}}
+
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
