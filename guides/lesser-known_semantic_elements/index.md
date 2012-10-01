@@ -4,7 +4,7 @@
 {{Summary_Section|This article discusses some of the lesser known and more
 infrequently used semantic elements available in HTML.
 }}
-{{Guide
+{{Tutorial
 |Content=== Introduction ==
  
 In this article we will look at some of the more obscure
