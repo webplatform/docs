@@ -384,7 +384,6 @@ There are a couple collisions we want to check:
 # Player => Enemy Ships
 
 Let's make a method to handle the collisions which we can call from the update method.
-
  
  function handleCollisions() {
    playerBullets.forEach(function(bullet) {
@@ -462,6 +461,7 @@ I hope you enjoyed learning the basics of making a simple game in JavaScript and
 * [http://blog.nihilogic.dk/2009/02/html5-canvas-cheat-sheet.html HTML5 Canvas Cheat Sheet]
 * [https://gist.github.com/768272 HTML5 Game Engines]
 }}
+
 {{Compatibility_Section
 |Not_required=No
 |Desktop_rows=
