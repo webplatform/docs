@@ -1,13 +1,14 @@
-{{Page_Title}}
+{{Page_Title|Quick Guide to Implementing the HTML5 Audio Tag}}
 {{Flags
 |High-level issues=Needs Flags
 }}
-{{Byline}}
+{{Byline
+|Name=Ernest Delgado
+|URL=http://www.html5rocks.com/profiles/#ernestd
+}}
 {{Summary_Section|Guide to implementing the audio tag in HTML.}}
 {{Tutorial
-|Content== Quick Guide to Implementing the HTML5 Audio Tag =
-== By Ernest Delgado ==
-Published '''Feb. 5, 2010'''
+|Content=Published '''Feb. 5, 2010'''
  
 == Step 1: Wrap your Flash object with the audio tag ==
  
