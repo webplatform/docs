@@ -179,6 +179,18 @@ One of the most common aspects of form validation is the enforcement of required
 [[Image:html5formfig10.png|Opera's client-side validation in action, showing an error for a required field that was left empty]]
 
 Figure 10: Opera's client-side validation in action, showing an error for a required field that was left empty.
+
+=== type and pattern ===
+ 
+As we've seen, authors can now specify the kinds of entries they expect from their form fields – rather than simply defining text inputs, authors can explicitly create inputs for things like numbers, email addresses and URLs. As part of their client-side validation, browsers can now check that what the user entered in these more specific fields matches the expected structure – in essence, browsers evaluate the input values against a built-in pattern that defines what valid entries in those types of inputs look like, and will warn a user when their entry didn't match the criteria.
+ 
+[[Image:html5formfig11.png|Opera's error message for invalid email addresses in an email input]]
+ 
+Figure 11: Opera's error message for invalid email addresses in an <code>email</code> input.
+ 
+For other text entry fields that nonetheless need to follow a certain structure (for instance, login forms where the usernames can only contain a specific sequence of lowercase letters and numbers), authors can use the <code>pattern</code> attribute to specify their own custom regular expression.
+ 
+<pre>&lt;input type="text" ... pattern="[a-z]{3}[0-9]{3}"&gt;</pre>
 }}
 {{Compatibility_Section
 |Not_required=No
