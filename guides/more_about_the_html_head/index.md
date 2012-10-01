@@ -1,4 +1,6 @@
+{{Page_Title|More about the HTML <head>}}
 {{Flags}}
+{{Byline}}
 {{Summary_Section|This article delves deeper into the possibilities the HTML <code>&lt;head&gt;</code> has to offer, looking at some less common uses.}}
 {{Guide
 |Content=== Introduction ==
@@ -225,6 +227,12 @@ The biggest obstacle to adding your shortcut icon is actually creating it in the
 &lt;/html&gt;</pre>
  
 If you open this document in a browser it should show the Opera icon next to the address in the location toolbar. If you bookmark it, the same icon will appear next to the bookmark.
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
 |Manual_sections==== Exercise questions ===
