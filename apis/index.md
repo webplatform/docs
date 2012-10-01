@@ -2,7 +2,9 @@
 {{Flags}}
 {{Summary_Section}}
 {{Basic Page}}
-{{Special:PrefixIndex/apis/}}
+{{API_Listing
+|Query=[[Category:API_Objects]]
+}}
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
