@@ -21,7 +21,7 @@ We would love your help in improving the content in any way you can &mdash; if y
 == Contribute to Web Platform Docs ==
 
 * [[WPD:Getting_Started|Web Platform Docs getting started guide]]
-* [[WPD:Manual_Of_Style/Gotchas]|MediaWiki Gotchas]
+* [[WPD:Manual_Of_Style/Gotchas|MediaWiki Gotchas]]
 * [Wikipedia markup guide]
 * [[WPD:Manual_Of_Style|Web Platform Docs language and style guide]]
 * Read the [http://blog.webplatform.org/ Web Platform Docs blog] for upcoming news
