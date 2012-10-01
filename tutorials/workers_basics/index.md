@@ -1,14 +1,17 @@
+{{Page_Title|The Basics of Web Workers}}
 {{Flags
 |High-level issues=Stub
 }}
-{{Summary_Section}}
+{{Byline
+|Name=Eric Bidelman
+|URL=http://www.html5rocks.com/profiles/#ericbidelman
+}}
+{{Summary_Section|Web Workers are a means of spawning background scripts in your application, giving thread-like message passing for handling computationally intensive tasks.
+
+Published ""July 26, 2010"", updated ""Aug. 21, 2012""
+}}
 {{Tutorial
-|Content==The Basics of Web Workers=
-
-====original by Eric Bidelman====
-====published July 26, 2010, updated Aug. 21, 2012====
-
-==The Problem: JavaScript Concurrency==
+|Content===The Problem: JavaScript Concurrency==
 
 There are a number of bottlenecks preventing interesting applications from being ported (say, from server-heavy implementations) to client-side JavaScript. Some of these include browser compatibility, static typing, accessibility, and performance. Fortunately, the latter is quickly becoming a thing of the past as browser vendors rapidly improve the speed of their JavaScript engines.
 
@@ -636,7 +639,8 @@ So what kind of application would utilize web workers? Unfortunately, web worker
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
+|Sources=HTML5Rocks
 |MDN_link=
 |MSDN_link=
-|HTML5Rocks_link=
+|HTML5Rocks_link=http://www.html5rocks.com/tutorials/workers/basics/
 }}
