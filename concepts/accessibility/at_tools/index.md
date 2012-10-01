@@ -1,6 +1,10 @@
-{{Page_Title}}
+{{Page_Title|Assistve Technology (AT) Tools}}
 {{Flags
-|High-level issues=Stub
+|High-level issues=Stub, Move Candidate
+|Editorial notes={{Editorial/Move_Candidate
+| ommitted /accessibility/ in the url path
+| move to concepts/accessibility/at_tools
+}}
 }}
 {{API_Name}}
 {{Summary_Section}}
@@ -15,7 +19,7 @@
 
 === Voice input/ Voice recognition === 
 
-=== Onscreen keyboards / alternative switching devices === 
+=== Onscreen keyboards / alternative switching devices ===
 }}
 {{Examples_Section
 |Not_required=No
