@@ -36,7 +36,7 @@ Notice the <code>ws:</code> prefix, which the new URL schema for WebSocket conne
 
 Immediately attaching event handlers to the connection allows you to know when the connection is opened, received incoming messages, or if there is an error.
 
-The second argument, protocols, accepts optional subprotocols. The [http://tools.ietf.org/html/rfc6455 WebSocket Protocol] refers to protocols that you can use over WebSocket as subprotocols. This argument can be a string or an array of strings. Each string should represent a subprotocol name, and the server accepts only one of passed subprotocols in the array. The accepted subprotocol can be determined by accessing the <code>protocol</code> property of WebSocket object.
+The second argument, protocol, accepts optional subprotocols. The [http://tools.ietf.org/html/rfc6455 WebSocket Protocol] refers to protocols that you can use over WebSocket as subprotocols. This argument can be a string or an array of strings. Each string should represent a subprotocol name, and the server accepts only one of passed subprotocols in the array. The accepted subprotocol can be determined by accessing the <code>protocol</code> property of WebSocket object.
 
 The subprotocol names must be one of the registered subprotocol names in the [http://www.iana.org/assignments/websocket/websocket.xml IANA registry]. 
 
