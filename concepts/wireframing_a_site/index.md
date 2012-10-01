@@ -7,7 +7,7 @@
 * You also need to know more about the company’s previous marketing efforts, including branding. This information will have a bearing on the Web site design.
 * Based upon all the information gathered from the client, you will create the visual design for the site so that the client can visualize the foundation for his additional graphics and content.
 }}
-{{Concept_Page
+{{Tutorial
 |Content=== What you need to know ==
  
 Usually before a Web site design is decided upon, the individual or business should have a plan in place about what the Web site should accomplish. While colour and graphics are important, a plan should be in place for a budget, the intended market and projected goals as well as resources to accomplish these tasks. Is the site just going to give the user information, or is it intended to sell them products or services as well? Will this Web site expand, or is it intended to be a short-term effort to reach a niche market (such as a political campaign site or a site that intends to tap in on a current trend). Will the site include a blog, legal and information pages, photo gallery, e-mail contact form? What else does it need? How does this site compare to the competition?
