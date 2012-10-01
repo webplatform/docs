@@ -2,7 +2,7 @@
 {{Flags}}
 {{Byline}}
 {{Summary_Section|After reading this article, you should be comfortable with the basic idea of validation, and using the online W3C validator to validate your HTML.}}
-{{Guide
+{{Tutorial
 |Content=== Introduction ==
  
 So you’ve written a few HTML pages, and they seem to display ok to you, but there are a few things not quite right with them. What is the best way to start finding out what is wrong, and ensure that these pages (and any future pages you write) will be displayed properly across browsers, with no errors?
