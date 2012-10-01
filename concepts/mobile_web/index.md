@@ -1,10 +1,16 @@
 {{Page_Title|Mobile Web}}
-{{Flags
-|High-level issues=Stub
-}}
+{{Flags}}
 {{API_Name}}
-{{Summary_Section}}
-{{Concept_Page}}
+{{Summary_Section|The concept page lists articles covering general concepts of the mobile web. This section is meant to provide a starting point of the mobile web development and collection of mobile development techniques.}}
+{{Concept_Page
+|Content=== General introductory articles ==
+[[About mobile web]]
+
+== Mobile web design techniques ==
+
+== List of all mobile web ==
+{{API_Listing |Query=[[Category:Mobile]] }}
+}}
 {{Examples_Section
 |Not_required=No
 |Examples=
