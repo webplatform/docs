@@ -8,12 +8,7 @@
 == General introductory articles ==
 [[About mobile web]]
 
-[[About mobile JavaScript best practices]]
-
-== Mobile web design techniques ==
-[[Best practices when writing for mobile]]
-
-[[Considerations for mobile JavaScript]]
+[[/tutorials/mobile_mobifying|&quot;Mobifying&quot; your HTML5 site]]
 
 == List of all mobile web related articles ==
 {{API_Listing
