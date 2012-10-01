@@ -164,6 +164,21 @@ These two new elements are very similar, both resulting in a gauge/bar being pre
  
 Figure 9: A progress indicator bar.
 
+== Validation ==
+ 
+Form validation is very important on both client- and server-side, to help legitimate users avoid and correct mistakes, and to stop malicious users submitting data that could cause damage to our application. As browsers can now get an idea of what type of values are expected from the various form controls (be it their <code>type</code>, or any upper/lower bounds set on numerical values, dates and times), they can also offer native form validation – another tedious task that, up to now, required authors to write reams of JavaScript or use some ready-made validation script/library.
+ 
+Note: for form controls to be validated, they need to have a <code>name</code> attribute, as without it they wouldn't be submitted as part of the form anyway.
+ 
+=== required ===
+ 
+One of the most common aspects of form validation is the enforcement of required fields – not allowing a form to be submitted until certain pieces of information have been entered. This can now simply be achieved by adding the <code>required</code> attribute to an <code>input</code>, <code>select</code> or <code>textarea</code> element.
+ 
+<pre>&lt;input type="text" ... required&gt;</pre>
+ 
+[[Image:html5formfig10.png|Opera's client-side validation in action, showing an error for a required field that was left empty]]
+
+Figure 10: Opera's client-side validation in action, showing an error for a required field that was left empty.
 }}
 {{Compatibility_Section
 |Not_required=No
