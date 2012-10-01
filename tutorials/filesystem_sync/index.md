@@ -11,7 +11,7 @@
 Published '''Oct. 25, 2011''', updated '''May. 14, 2012'''
 }}
 {{Tutorial
-|Content===Introduction==
+|Content=<h2 id="toc-intro">Introduction</h2>
 
 The [http://dev.w3.org/2009/dap/file-system/file-dir-sys.html HTML5 FileSystem API] and [http://www.whatwg.org/specs/web-apps/current-work/multipage/workers.html Web Workers] are massively
 powerful in their own regard. The FileSystem API finally brings hierarchical storage and
@@ -34,26 +34,19 @@ in an already asynchronous world (Workers)! The good news is that the [http://de
 For the most part, the synchronous API is exactly the same as its asynchronous cousin.
 The methods, properties, features, and functionality will be familiar. The major deviations are:
 
-* The synchronous API can only be used within a Web Worker context, whereas the
-asynchronous API can be used in and out of a Worker.
+* The synchronous API can only be used within a Web Worker context, whereas the asynchronous API can be used in and out of a Worker.
 * Callbacks are out. API methods now return values.
-* The global methods on the window object (<code>requestFileSystem()</code> and
-<code>resolveLocalFileSystemURL()</code>) become <code>requestFileSystemSync()</code> and
-<code>resolveLocalFileSystemSyncURL()</code>. <em>Note:</em> These methods are members of the
-worker's global scope, not the <code>window</code> object.
+* The global methods on the window object (<code>requestFileSystem()</code> and <code>resolveLocalFileSystemURL()</code>) become <code>requestFileSystemSync()</code> and <code>resolveLocalFileSystemSyncURL()</code>. <em>Note:</em> These methods are members of the worker's global scope, not the <code>window</code> object.
 
 Apart from these exceptions, the APIs are the same. OK, we're good to go!
 
 ==Requesting a filesystem==
 
-A web application obtains access to the synchronous filesystem by requesting a
-<code>LocalFileSystemSync</code> object from within a Web Worker. The <code>requestFileSystemSync()</code>
-is exposed to the Worker's global scope:
+A web application obtains access to the synchronous filesystem by requesting a <code>LocalFileSystemSync</code> object from within a Web Worker. The <code>requestFileSystemSync()</code> is exposed to the Worker's global scope:
 
 <pre>var fs = requestFileSystemSync(TEMPORARY, 1024*1024 /*1MB*/);</pre>
 
-Notice the new return value now that we're using the synchronous API as well as
-the absence of success and error callbacks.
+Notice the new return value now that we're using the synchronous API as well as the absence of success and error callbacks.
 
 As with the normal FileSystem API, methods are prefixed at the moment:
 
@@ -67,12 +60,10 @@ Currently, it's not possible to [[tutorials/file_filesystem#toc-requesting-quota
 
 The process could look like something this:
 
-# worker.js: Wrap any FileSystem API code in a <code>try/catch</code> so any
-<code>QUOTA_EXCEED_ERR</code> errors are caught.
+# worker.js: Wrap any FileSystem API code in a <code>try/catch</code> so any <code>QUOTA_EXCEED_ERR</code> errors are caught.
 # worker.js: If you catch a <code>QUOTA_EXCEED_ERR</code>, send a <code>postMessage('get me more quota')</code> back to the main app.
 # main app: Go through the <code>window.webkitStorageInfo.requestQuota()</code> dance when #2 is received.
-# main app: After the user grants more quota, send <code>postMessage('resume writes')</code> back
-to the worker to inform it of additional storage space.
+# main app: After the user grants more quota, send <code>postMessage('resume writes')</code> back to the worker to inform it of additional storage space.
 
 That's a fairly involved workaround, but it should work. See [[tutorials/file_filesystem#toc-requesting-quota|requesting quota]] for more information on using <code>PERSISTENT</code> storage with the FileSystem API.
 
