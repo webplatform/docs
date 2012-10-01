@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page_Title|HTML text}}
 {{Flags}}
 {{Byline}}
 {{Summary_Section|This article talks about some of the most common elements used when marking up textual content using HTML.}}
