@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Stub, Needs Flags
+|High-level issues=Needs Flags
 }}
 {{API_Name}}
 {{Summary_Section}}
@@ -300,7 +300,7 @@ Some examples of floating-point literals are 3.1415, -3.1E12, .1e12, and 2E-12.
 More succinctly, the syntax is:
 
  
- [digits][.digits][(E|e)[(+|-)]digits]
+ [digits][.digits][(E{{!}}e)[(+{{!}}-)]digits]
 
 For example:
 
@@ -375,48 +375,48 @@ In addition to ordinary characters, you can also include special characters in s
 
 The following table lists the special characters that you can use in JavaScript strings.
 
-{| class="standard-table"
-|+ style="text-align: left" | Table 2.1 JavaScript special characters
-|-
-! scope="col" | Character
-! scope="col" | Meaning
-|-
-| <code>\b</code>
-| Backspace
-|-
-| <code>\f</code>
-| Form feed
-|-
-| <code>\n</code>
-| New line
-|-
-| <code>\r</code>
-| Carriage return
-|-
-| <code>\t</code>
-| Tab
-|-
-| <code>\v</code>
-| Vertical tab
-|-
-| <code>\'</code>
-| Apostrophe or single quote
-|-
-| <code>\"</code>
-| Double quote
-|-
-| <code>\\</code>
-| Backslash character (\).
-|-
-| <code>\''XXX''</code>
-| The character with the Latin-1 encoding specified by up to three octal digits ''XXX'' between 0 and 377. For example, \251 is the octal sequence for the copyright symbol.
-|-
-| <code>\x''XX''</code>
-| The character with the Latin-1 encoding specified by the two hexadecimal digits ''XX'' between 00 and FF. For example, \xA9 is the hexadecimal sequence for the copyright symbol.
-|-
-| <code>\u''XXXX''</code>
-| The Unicode character specified by the four hexadecimal digits ''XXXX''<nowiki>. For example, \u00A9 is the Unicode sequence for the copyright symbol. See {{anch("Unicode escape sequences")}}.</nowiki>
-|}
+{{{!}} class="standard-table"
+{{!}}+ style="text-align: left" {{!}} Table 2.1 JavaScript special characters
+{{!}}-
+! scope="col" {{!}} Character
+! scope="col" {{!}} Meaning
+{{!}}-
+{{!}} <code>\b</code>
+{{!}} Backspace
+{{!}}-
+{{!}} <code>\f</code>
+{{!}} Form feed
+{{!}}-
+{{!}} <code>\n</code>
+{{!}} New line
+{{!}}-
+{{!}} <code>\r</code>
+{{!}} Carriage return
+{{!}}-
+{{!}} <code>\t</code>
+{{!}} Tab
+{{!}}-
+{{!}} <code>\v</code>
+{{!}} Vertical tab
+{{!}}-
+{{!}} <code>\'</code>
+{{!}} Apostrophe or single quote
+{{!}}-
+{{!}} <code>\"</code>
+{{!}} Double quote
+{{!}}-
+{{!}} <code>\\</code>
+{{!}} Backslash character (\).
+{{!}}-
+{{!}} <code>\''XXX''</code>
+{{!}} The character with the Latin-1 encoding specified by up to three octal digits ''XXX'' between 0 and 377. For example, \251 is the octal sequence for the copyright symbol.
+{{!}}-
+{{!}} <code>\x''XX''</code>
+{{!}} The character with the Latin-1 encoding specified by the two hexadecimal digits ''XX'' between 00 and FF. For example, \xA9 is the hexadecimal sequence for the copyright symbol.
+{{!}}-
+{{!}} <code>\u''XXXX''</code>
+{{!}} The Unicode character specified by the four hexadecimal digits ''XXXX''<nowiki>. For example, \u00A9 is the Unicode sequence for the copyright symbol. See {{anch("Unicode escape sequences")}}.</nowiki>
+{{!}}}
 
 ====Escaping characters====
 
@@ -485,61 +485,61 @@ The following code returns the copyright symbol and the string "Netscape Communi
 
 The following table lists frequently used special characters and their Unicode value.
 
-{| class="standard-table"
-|+ style="text-align: left" | Table 2.2 Unicode values for special characters
-|-
-! scope="col" | Category
-! scope="col" | Unicode value
-! scope="col" | Name
-! scope="col" | Format name
-|-
-| rowspan="4" | White space values
-| \u0009
-| Tab
-| <TAB>
-|-
-| \u000B
-| Vertical Tab
-| <VT>
-|-
-| \u000C
-| Form Feed
-| <FF>
-|-
-| \u0020
-| Space
-| <SP>
-|-
-| rowspan="2" | Line terminator values
-| \u000A
-| Line Feed
-| <LF>
-|-
-| \u000D
-| Carriage Return
-| <CR>
-|-
-| rowspan="5" | Additional Unicode escape sequence values
-| \u0008
-| Backspace
-| <BS>
-|-
-| \u0009
-| Horizontal Tab
-| <HT>
-|-
-| \u0022
-| Double Quote
-| "
-|-
-| \u0027
-| Single Quote
-| '
-|-
-| \u005C
-| Backslash
-| \
-|}
+{{{!}} class="standard-table"
+{{!}}+ style="text-align: left" {{!}} Table 2.2 Unicode values for special characters
+{{!}}-
+! scope="col" {{!}} Category
+! scope="col" {{!}} Unicode value
+! scope="col" {{!}} Name
+! scope="col" {{!}} Format name
+{{!}}-
+{{!}} rowspan="4" {{!}} White space values
+{{!}} \u0009
+{{!}} Tab
+{{!}} <TAB>
+{{!}}-
+{{!}} \u000B
+{{!}} Vertical Tab
+{{!}} <VT>
+{{!}}-
+{{!}} \u000C
+{{!}} Form Feed
+{{!}} <FF>
+{{!}}-
+{{!}} \u0020
+{{!}} Space
+{{!}} <SP>
+{{!}}-
+{{!}} rowspan="2" {{!}} Line terminator values
+{{!}} \u000A
+{{!}} Line Feed
+{{!}} <LF>
+{{!}}-
+{{!}} \u000D
+{{!}} Carriage Return
+{{!}} <CR>
+{{!}}-
+{{!}} rowspan="5" {{!}} Additional Unicode escape sequence values
+{{!}} \u0008
+{{!}} Backspace
+{{!}} <BS>
+{{!}}-
+{{!}} \u0009
+{{!}} Horizontal Tab
+{{!}} <HT>
+{{!}}-
+{{!}} \u0022
+{{!}} Double Quote
+{{!}} "
+{{!}}-
+{{!}} \u0027
+{{!}} Single Quote
+{{!}} '
+{{!}}-
+{{!}} \u005C
+{{!}} Backslash
+{{!}} \
+{{!}}}
 
 The JavaScript use of the Unicode escape sequence is different from Java. In JavaScript, the escape sequence is never interpreted as a special character first. For example, a line terminator escape sequence inside a string does not terminate the string before it is interpreted by the function. JavaScript ignores any escape sequence if it is used in comments. In Java, if an escape sequence is used in a single comment line, it is interpreted as an Unicode character. For a string literal, the Java compiler interprets the escape sequences first. For example, if a line terminator escape character (e.g., \u000A) is used in Java, it terminates the string literal. In Java, this leads to an error, because line terminators are not allowed in string literals. You must use \n for a line feed in a string literal. In JavaScript, the escape sequence works the same way as \n.
 
@@ -558,8 +558,6 @@ For more information on Unicode, see the [http://www.unicode.org/ Unicode Home P
 ==Resources==
 
 * [http://0xcc.net/jsescape/ Text Escaping and Unescaping in JavaScript] – an utility to convert characters in JavaScript unicode values
-
-<div><nowiki> {{autoPreviousNext("JSGChapters")}}</nowiki></div>
 }}
 {{Examples_Section
 |Not_required=No
@@ -572,9 +570,8 @@ For more information on Unicode, see the [http://www.unicode.org/ Unicode Home P
 {{See_Also_Section}}
 {{Topics}}
 {{External_Attribution
-|Is_CC-BY-SA=Yes
-|Sources=MDN
-|MDN_link=https://developer.mozilla.org/en-US/docs/JavaScript/Guide/Values,_variables,_and_literals
+|Is_CC-BY-SA=No
+|MDN_link=
 |MSDN_link=
 |HTML5Rocks_link=
 }}
