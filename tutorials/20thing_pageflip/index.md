@@ -13,7 +13,7 @@
 In 2010, [http://www.f-i.com F-i.com] and the Google Chrome team collaborated on an HTML5-based educational web app called 20 Things I Learned about Browsers and the Web ([http://www.20thingsilearned.com www.20thingsilearned.com]). One of the key ideas behind this project was that it would best be presented in the [http://chrome.blogspot.com/2010/11/curious-guide-to-browsers-and-web.html context of a book]. Since the book is very much about open web technologies we felt it was important to stay true to that by making the container itself an example of what these technologies allow us to accomplish today.
 
 [[Image:pf01.jpg|Book cover and homepage of '20 Things I Learned About Browsers and the Web']]<br/>
-'''Book cover and homepage of "20 Things I Learned About Browsers and the Web" ([http://www.20thingsilearned.com www.20thingsilearned.com])'''
+''Book cover and homepage of "20 Things I Learned About Browsers and the Web" ([http://www.20thingsilearned.com www.20thingsilearned.com])''
 
 We decided that the best way to achieve the feeling of a real world book is to simulate the good parts of the analogue reading experience while still leveraging the benefits of the digital realm in areas such as navigation. A lot of effort went into the graphical and interactive treatment of the reading flow &mdash; especially how the pages of the books flip from one page to another.
 
@@ -42,7 +42,7 @@ It's always important to remember that what we draw on canvas can't be indexed b
 We have one main container element for the book, which in turn contains the different pages of our book and the <code>canvas</code> element that we will be drawing the flipping pages on. Inside the <code>section</code> element there is a <code>div</code> wrapper for the content &mdash; we need this to be able to change the width of the page without affecting the layout of its contents. The <code>div</code> has a fixed width and the <code>section</code> is set to hide its overflow, this results in the width of the <code>section</code> acting as a horizontal mask for the <code>div</code>.
 
 [[Image:pf02.jpg|Open Book]]<br/>
-'''A background image containing the paper texture and brown book jacket is added to the book element'''
+''A background image containing the paper texture and brown book jacket is added to the book element''
 
 ==Logic==
 
@@ -60,7 +60,7 @@ The code required to power the page flip is not very complex, but it is quite ex
 The <code>CANVAS_PADDING</code> is added around the canvas so that we can have the paper extend outside of the book when flipping. Note that some of the constants defined here are also set in CSS, so if you want to change the size of the book you will also need to update the values there.
 
 [[Image:pf03.jpg|Constants]]<br/>
-'''The constant values used throughout the code to track interaction and draw the page flip'''
+''The constant values used throughout the code to track interaction and draw the page flip''
 
 Next we need to define a flip object for each page. These will constantly be updated as we interact with the book to reflect the current status of the flip.
 
@@ -86,7 +86,7 @@ Next we need to define a flip object for each page. These will constantly be upd
 First we need to make sure the pages are layered correctly by organizing the z-indexes of the section elements so that the first page is on top and the last page is on the bottom. The most important properties of the flip objects are the <code>progress</code> and <code>target</code> values. These are used to determine how far the page should currently be folded: -1 means all the way to the left, 0 means the dead center of the book and +1 means the right most edge of the book.
 
 [[Image:pf04.jpg|Progress]]<br/>
-'''The progress and target values of the flips are used to determine where the folding page should be drawn on a -1 to +1 scale'''
+''The progress and target values of the flips are used to determine where the folding page should be drawn on a -1 to +1 scale''
 
 Now that we have a flip object defined for each page, we need to start capturing and using the user's input to update the state of the flip.
 
@@ -202,7 +202,7 @@ Now that all of the logic is in place, we need to draw the graphical representat
 This section of the code starts by calculating a number of visual variables that we need in order to draw the fold in a realistic manner. The <code>progress</code> value of the flip we are drawing plays a big part here, because that is where we want the page fold to appear. To add depth to the page flip effect, we make the paper extend outside of the top and bottom edges of the book. This effect is at its peak when a flip is close to the book's spine.
 
 [[Image:pf05.jpg|Flip]]<br/>
-'''This is what the page fold looks like when the page is flipping or being dragged'''
+''This is what the page fold looks like when the page is flipping or being dragged''
 
 Now that all of the values are prepared, all that remains is drawing the paper!
 
@@ -276,7 +276,7 @@ Now that all of the values are prepared, all that remains is drawing the paper!
 The canvas API's <code>translate(x,y)</code> method is used to offset the co-ordinate system so that we can draw our page flip with the top of the spine acting as the 0,0 position. Note that we also need to <code>save()</code> the current transformation matrix of the canvas and <code>restore()</code> to it when we are done drawing.
 
 [[Image:pdf06.jpg|Translate]]<br/>
-'''This is the point from which we draw the page flip. The original 0,0 point is in the top left of the image, but by changing that via translate(x,y), we simplify the drawing logic.
+''This is the point from which we draw the page flip. The original 0,0 point is in the top left of the image, but by changing that via translate(x,y), we simplify the drawing logic.''
 
 The <code>foldGradient</code> is what we will fill the shape of the folded paper with to give it realistic highlights and shadows. We also add a very thin line around the paper drawing so that the paper doesn't disappear when put against light backgrounds.
 
@@ -295,14 +295,13 @@ The page flip effect is all about communicating the right interactive feel, so l
 ==Next Steps==
 
 [[Image:pf07.jpg|Hrad-flip]]<br/>
- '''The soft page flip in this tutorial becomes even more powerful when paired with other book-like features such as an interactive hard cover'''
+ ''The soft page flip in this tutorial becomes even more powerful when paired with other book-like features such as an interactive hard cover''
 
 This is only one example of what can be accomplished by utilizing HTML5 features such as the canvas element. I recommend you have a look at the more refined book experience, from which this technique is an excerpt, at: [http://www.20thingsilearned.com www.20thingsilearned.com]. There you will see how the page flips can be applied in a real application and how powerful it becomes when paired with other HTML5 features.
 
 ==References==
 
 * [http://developers.whatwg.org/the-canvas-element.html#the-canvas-element Canvas] API specification
-
 }}
 {{Compatibility_Section
 |Not_required=No
