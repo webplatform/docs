@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags}}
-{{Summary_Section|Index page for CSS keywords.}}
+{{Summary_Section|Index page for HTML attributes.}}
 {{Basic Page}}
 {{Special:PrefixIndex/html/attributes/}}
 {{Topics}}
