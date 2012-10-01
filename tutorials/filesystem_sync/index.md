@@ -63,7 +63,7 @@ As with the normal FileSystem API, methods are prefixed at the moment:
 
 ===Dealing with quota=== 
 
-Currently, it's not possible to [/wiki/tutorials/file_filesystem#toc-requesting-quota request <code>PERSISTENT</code> quota] in a Worker context. I recommend taking care of quota issues outside of Workers.
+Currently, it's not possible to [[tutorials/file_filesystem#toc-requesting-quota|request <code>PERSISTENT</code> quota]] in a Worker context. I recommend taking care of quota issues outside of Workers.
 
 The process could look like something this:
 
@@ -74,7 +74,7 @@ The process could look like something this:
 # main app: After the user grants more quota, send <code>postMessage('resume writes')</code> back
 to the worker to inform it of additional storage space.
 
-That's a fairly involved workaround, but it should work. See [/wiki/tutorials/file_filesystem#toc-requesting-quota requesting quota] for more information on using <code>PERSISTENT</code> storage with the FileSystem API.
+That's a fairly involved workaround, but it should work. See [[tutorials/file_filesystem#toc-requesting-quota|requesting quota]] for more information on using <code>PERSISTENT</code> storage with the FileSystem API.
 
 ==Working with files and directories==
 
@@ -131,7 +131,7 @@ The following example passes a user-selected list of files to an dedicated Worke
 The Worker simply passes through the file list (simple to show the returned data
 is actually a <code>FileList</code>) and the main app reads each file as an <code>ArrayBuffer</code>.
 
-The sample also uses an improved version of the [/wiki//tutorials/workers_basics#toc-inlineworkers"]inline Web Worker technique] described in [/wiki//tutorials/workers_basics Basics of Web Workers].
+The sample also uses an improved version of the [[tutorials/workers_basics#toc-inlineworkers|inline Web Worker technique]] described in [[tutorials/workers_basics|The Basics of Web Workers]].
 
 <pre>&lt;!DOCTYPE html&gt;
 &lt;html&gt;
@@ -256,7 +256,7 @@ are nice and certainly make things more readable. The real downside of the
 synchronous API stems from the limitations of Workers.
 
 For security reasons, data between the calling app and a Web Worker thread is
-never shared. Data is always copied to and from the Worker when <code>postMessage()</code> is called. As a result, not every data type can be passed. Unfortunately, <code>FileEntrySync</code> and <code>DirectoryEntrySync</code> don't currently fall into the accepted types. So how can you get entries back to the calling app? One way to circumvent the limitation is to return a list of [/wiki/tutorials/file_filesystem#toc-filesystemurls filesystem: URLs] instead of a list of entries. <code>filesystem:</code> URLs are just strings,
+never shared. Data is always copied to and from the Worker when <code>postMessage()</code> is called. As a result, not every data type can be passed. Unfortunately, <code>FileEntrySync</code> and <code>DirectoryEntrySync</code> don't currently fall into the accepted types. So how can you get entries back to the calling app? One way to circumvent the limitation is to return a list of [[tutorials/file_filesystem#toc-filesystemurls|filesystem: URLs]] instead of a list of entries. <code>filesystem:</code> URLs are just strings,
 so they're super easy to pass around. Furthermore, they can be resolved to 
 entries in the main app using <code>resolveLocalFileSystemURL()</code>. That gets you back
 to a <code>FileEntrySync</code>/<code>DirectoryEntrySync</code> object.
@@ -337,7 +337,7 @@ self.onmessage = function(e) {
 
 ==Example: Downloading files using XHR2==
 
-A common use case for Workers is to download a bunch of files using [http://www.html5rocks.com/tutorials/file/xhr2/ XHR2], and write those files to the HTML5 FileSystem. This is a perfect task for a Worker thread!
+A common use case for Workers is to download a bunch of files using [[tutorials/file_xhr2|New Tricks in XMLHttpRequest2]], and write those files to the HTML5 FileSystem. This is a perfect task for a Worker thread!
 
 The following example only fetches and writes one file, but you can image
 expanding it to download a set of files.
