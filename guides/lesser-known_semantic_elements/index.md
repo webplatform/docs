@@ -395,6 +395,27 @@ In addition, we can also use the <code>&lt;s&gt;</code> element to markup conten
 |Safari_supported=Yes
 |Safari_prefixed_supported=No
 |Safari_prefixed_version=
+}}{{Compatibility Table Desktop Row
+|Feature=abbr
+|Chrome_supported=Yes
+|Chrome_version=2.0
+|Chrome_prefixed_supported=No
+|Chrome_prefixed_version=
+|Firefox_supported=Yes
+|Firefox_version=1.0
+|Firefox_prefixed_supported=No
+|Firefox_prefixed_version=
+|Internet_explorer_supported=Yes
+|Internet_explorer_version=7.0
+|Internet_explorer_prefixed_supported=No
+|Internet_explorer_prefixed_version=
+|Opera_supported=Yes
+|Opera_version=1.3
+|Opera_prefixed_supported=No
+|Opera_prefixed_version=
+|Safari_supported=Yes
+|Safari_prefixed_supported=No
+|Safari_prefixed_version=
 }}
 |Mobile_rows={{Compatibility Table Mobile Row
 |Feature=address
@@ -416,6 +437,23 @@ In addition, we can also use the <code>&lt;s&gt;</code> element to markup conten
 |Safari_mobile_prefixed_version=
 }}{{Compatibility Table Mobile Row
 |Feature=code
+|Android_supported=Yes
+|Android_prefixed_supported=No
+|Android_prefixed_version=
+|Firefox_mobile_supported=Yes
+|Firefox_mobile_prefixed_supported=No
+|Firefox_mobile_prefixed_version=
+|IE_phone_supported=Yes
+|IE_phone_prefixed_supported=No
+|IE_phone_prefixed_version=
+|Opera_mobile_supported=Yes
+|Opera_mobile_prefixed_supported=No
+|Opera_mobile_prefixed_version=
+|Safari_mobile_supported=Yes
+|Safari_mobile_prefixed_supported=No
+|Safari_mobile_prefixed_version=
+}}{{Compatibility Table Mobile Row
+|Feature=abbr
 |Android_supported=Yes
 |Android_prefixed_supported=No
 |Android_prefixed_version=
