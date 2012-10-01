@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page_Title|The market for web accessibility}}
 {{Flags
 |High-level issues=Stub
 }}
