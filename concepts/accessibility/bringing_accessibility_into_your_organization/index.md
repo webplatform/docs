@@ -1,6 +1,10 @@
-{{Page_Title}}
+{{Page_Title|bringing Accessibility Into Your Organization}}
 {{Flags
-|High-level issues=Stub
+|High-level issues=Stub, Move Candidate
+|Editorial notes={{Editorial/Move_Candidate
+| omitted /accessibility/ in url path
+| move to concepts/accessibility/bringing_accessibility_into_your_organization
+}}
 }}
 {{API_Name}}
 {{Summary_Section}}
@@ -14,7 +18,6 @@
 === Author ===
 
 === Test ===
-
 }}
 {{Examples_Section
 |Not_required=No
