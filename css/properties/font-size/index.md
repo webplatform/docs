@@ -1,6 +1,7 @@
+{{Page_Title}}
 {{Flags
-|High-level issues=Stub,Copyright Issue
-|Content=Outdated,Examples Errors
+|High-level issues=Stub, Copyright Issue
+|Content=Outdated, Examples Errors
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
