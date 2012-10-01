@@ -1,8 +1,8 @@
+{{Page_Title}}
 {{Flags}}
-{{API_Name}}
 {{Summary_Section|In this article, you will learn the basics of HTML, where it has
 evolved from and have some insight into the structure and content of an HTML
-document. 
+document.
 }}
 {{Tutorial
 |Content=== Introduction ==
@@ -234,6 +234,23 @@ An actual ampersand has to be entered into a document as "&amp;amp;",
 which is the character entity reference, or as "&amp;#38;" which is
 the numeric reference. [http://www.evolt.org/article/A_Simple_Character_Entity_Chart/17/21234/ A full chart of character references can be found on evolt.org].
 }}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section}}
+{{Topics|HTML}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
+}}
+{{API_Name}}
+
+
 {{Examples_Section
 |Not_required=Yes
 |Examples=
@@ -241,9 +258,4 @@ the numeric reference. [http://www.evolt.org/article/A_Simple_Character_Entity_C
 {{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications=
-}}
-{{See_Also_Section}}
-{{Topics|HTML}}
-{{External_Attribution
-|Is_CC-BY-SA=No
 }}
