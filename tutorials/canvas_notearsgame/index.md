@@ -14,7 +14,8 @@
 
 This tutorial shows you how to build a game using HTML5 and the <canvas> element, and assumes you have an intermediate level of knowledge of JavaScript.
 
-[[File:space-demo.png]]
+[[File:space-demo.png]]<br/>
+''Space Demo main screen''
 
 Before you get started, try [http://strd6.com/space_demo/ playing the game] and [http://strd6.com/wp-content/uploads/2010/12/space_demo.zip viewing the source code for the game].
 
