@@ -2,7 +2,6 @@
 |High-level issues=Stub,Copyright Issue
 |Content=Outdated,Examples Errors
 }}
-}}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|The <code>font-size</code> CSS properties specifies the size of the font used for text in the object. Setting the font size may, in turn, change the size of other items, since it is used to compute the value of <code>em</code> and <code>ex</code> length units.}}
