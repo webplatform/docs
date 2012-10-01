@@ -1,0 +1,1 @@
+#REDIRECT [[tutorials/creating basic navigation menus]]
