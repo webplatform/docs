@@ -425,7 +425,7 @@ Finally, to make the interaction realistic, we'll add the explode() methods to t
 
 ==Sound==
 
-To round out the experience, we''ll add some sweet sound effects. Sounds, like images, can be somewhat of a pain to use in HTML5, but thanks to our magic no-tears formula sound.js, sound can be made very easily.
+To round out the experience, we'll add some sweet sound effects. Sounds, like images, can be somewhat of a pain to use in HTML5, but thanks to our magic no-tears formula sound.js, sound can be made very easily.
 
  
  player.shoot = function() {
@@ -448,7 +448,7 @@ You can also play with the [http://strd6.com/space_demo/ full working game demo]
 
 ==Source Code==
 
-You can download [http://strd6.com/wp-content/uploads/2010/12/space_demo.zip the source code as a zip]. 
+The source code is available [http://strd6.com/wp-content/uploads/2010/12/space_demo.zip here]. 
 
 ==Summary==
 
