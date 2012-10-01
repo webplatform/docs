@@ -33,7 +33,7 @@ Option 1: HTTP-Header (you can add this to your [http://www.chromium.org/develop
 
  X-UA-Compatible: chrome=1
 
- Option 2: Meta-tag (Just paste this into your HTML <head> section)<br />
+Option 2: Meta-tag (Just paste this into your HTML <head> section)<br />
 
  <meta http-equiv="X-UA-Compatible" content="chrome=1">
 
@@ -53,30 +53,30 @@ Chrome Frame transmits that it is available by extending the host's User-Agent h
 
 Use server-side detection to look for this token and determine whether Chrome Frame can be used for a page. If Chrome Frame is present, you can insert the required meta tag; if not, you can redirect users to a page that explains how to install Chrome Frame. As an alternative to server-side sniffing, you can use the CFInstall.js script to detect Chrome Frame and prompt users to install the plug-in without restarting their browsers. Using the script is straightforward. Just add the script tags and optional styles to your page as in the following example:
 
-<html>
-<body>
-<script type="text/javascript"
-      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">
-</script>
+ <html>
+ <body>
+ <script type="text/javascript"
+       src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1 /CFInstall.min.js">
+ </script>
  
-<style>
-   /*
-   CSS rules to use for styling the overlay:
-      .chromeFrameOverlayContent
-      .chromeFrameOverlayContent iframe
-      .chromeFrameOverlayCloseBar
-      .chromeFrameOverlayUnderlay
-   */
-</style>
- 
-<script>
-   // You may want to place these lines inside an onload handler
-   CFInstall.check({
-      mode: "overlay",
-      destination: "http://www.waikiki.com"
-   });
-</script>
-</body>
+ <style>
+    /*
+    CSS rules to use for styling the overlay:
+       .chromeFrameOverlayContent
+       .chromeFrameOverlayContent iframe
+       .chromeFrameOverlayCloseBar
+       .chromeFrameOverlayUnderlay
+    */
+ </style>
+  
+ <script>
+    // You may want to place these lines inside an onload handler
+    CFInstall.check({
+       mode: "overlay",
+       destination: "http://www.waikiki.com"
+    });
+ </script>
+ </body>
  </html>
 
 Install Chrome Frame (Will do nothing if not in Internet Explorer)
