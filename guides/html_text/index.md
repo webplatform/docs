@@ -1,4 +1,6 @@
+{{Page_Title}}
 {{Flags}}
+{{Byline}}
 {{Summary_Section|This article talks about some of the most common elements used when marking up textual content using HTML.}}
 {{Guide
 |Content=== Introduction ==
@@ -271,6 +273,47 @@ The text within is presented in a “teletype” or monospaced font — this sho
 === &lt;big&gt; ===
 
 This makes the size of the text inside bigger — this should be achieved with CSS.
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows={{Compatibility Table Desktop Row
+|Feature=em
+|Chrome_supported=Yes
+|Chrome_version=1.0
+|Chrome_prefixed_supported=No
+|Chrome_prefixed_version=
+|Firefox_supported=Yes
+|Firefox_prefixed_supported=No
+|Firefox_prefixed_version=
+|Internet_explorer_supported=Yes
+|Internet_explorer_prefixed_supported=No
+|Internet_explorer_prefixed_version=
+|Opera_supported=Yes
+|Opera_prefixed_supported=No
+|Opera_prefixed_version=
+|Safari_supported=Yes
+|Safari_prefixed_supported=No
+|Safari_prefixed_version=
+}}
+|Mobile_rows={{Compatibility Table Mobile Row
+|Feature=em
+|Android_supported=Yes
+|Android_prefixed_supported=No
+|Android_prefixed_version=
+|Firefox_mobile_supported=Yes
+|Firefox_mobile_prefixed_supported=No
+|Firefox_mobile_prefixed_version=
+|IE_phone_supported=Yes
+|IE_phone_prefixed_supported=No
+|IE_phone_prefixed_version=
+|Opera_mobile_supported=Yes
+|Opera_mobile_prefixed_supported=No
+|Opera_mobile_prefixed_version=
+|Safari_mobile_supported=Yes
+|Safari_mobile_prefixed_supported=No
+|Safari_mobile_prefixed_version=
+}}
+|Notes_rows=
 }}
 {{See_Also_Section}}
 {{Topics|HTML}}
