@@ -1,4 +1,6 @@
+{{Page_Title|HTML validation}}
 {{Flags}}
+{{Byline}}
 {{Summary_Section|After reading this article, you should be comfortable with the basic idea of validation, and using the online W3C validator to validate your HTML.}}
 {{Guide
 |Content=== Introduction ==
@@ -159,6 +161,12 @@ With these errors fixed, the validator now gives a rather satisfying success mes
 Figure 2: A success message to say that all my errors have been fixed.
  
 This is about all there is to it really. You just need to keep your wits about you, and remember what doctype your page is being validated against. [http://dev.opera.com/articles/view/24-validating-your-html/example_validation_fixed.html Download or view a fixed version of the HTML]
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
 |External_links=* [http://www.opera.com/dragonfly/ Opera Dragonfly] (built into Opera)
