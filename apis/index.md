@@ -3,7 +3,7 @@
 {{Summary_Section}}
 {{Basic Page}}
 {{API_Listing
-|Query=[[Category:API_Objects]]
+|Query=[[Category:API_Objects | API_Object_Methods]] | [[Category:API_Object_Properties]]
 }}
 {{Topics}}
 {{External_Attribution
