@@ -15,7 +15,7 @@ We would love your help in improving the content in any way you can &mdash; if y
 *[[CSS|CSS Reference]]
 * [[CSS/tutorials|CSS tutorials]]
 *[[js|JavaScript Reference]]
-* [[mobile web|Mobile Web]]
+* [[concepts/mobile_web|Mobile Web]]
 *[[SVG|SVG reference]]
 * [[SVG/Tutorials|SVG tutorials]]
 
