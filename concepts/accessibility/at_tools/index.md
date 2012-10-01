@@ -1,10 +1,6 @@
 {{Page_Title|Assistve Technology (AT) Tools}}
 {{Flags
 |High-level issues=Stub
-|Editorial notes={{Editorial/Move_Candidate
-| ommitted /accessibility/ in the url path
-| move to concepts/accessibility/at_tools
-}}
 }}
 {{API_Name}}
 {{Summary_Section}}
@@ -30,7 +26,7 @@
 |Specifications=
 }}
 {{See_Also_Section}}
-{{Topics}}
+{{Topics|Accessibility}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
