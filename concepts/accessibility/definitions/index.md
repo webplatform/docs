@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page_Title|Definitions / Types of disability}}
 {{Flags
 |High-level issues=Stub
 }}
