@@ -5,7 +5,7 @@
 }}
 ==HTML fundamentals==
 
-* [[concepts/The basics of HTML|The basics of HTML]]
+* [[tutorials/the basics of html|The basics of HTML]]
 * [[concepts/Doctypes and markup styles|DOCTYPES and markup styles]]
 
 ==The HTML head==
