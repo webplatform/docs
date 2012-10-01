@@ -33,7 +33,7 @@ To draw objects on the page, we'll need to first create a canvas. Because this i
 
 ==Game loop==
 
-To simulate the appearance of smooth and continuous gameplay, let's update the game and redraw the screen just faster than the human mind and eye can perceive.
+To simulate the appearance of smooth and continuous gameplay, let's update the game and redraw the screen slightly faster than the human mind and eye can perceive.
  
  var FPS = 30;
  setInterval(function() {
@@ -58,7 +58,7 @@ Now, let's update the draw() method to draw text on the screen.
  }
 
 Pro Tip: Be sure to run your app after making changes. It's much easier to debug a few lines of code than a completed app.
-What you see now is pretty cool for stationary text. Since we have a game loop already set up, let's enhance this text by making it move.
+What you see now is pretty cool for stationary text. Since we have a game loop already set up, though, let's enhance this text by adding movement.
 
  
  var textX = 50;
@@ -120,7 +120,7 @@ The [https://github.com/tzuryby/jquery.hotkeys jQuery Hotkeys plugin] makes key 
  
  $(document).bind("keydown", "left", function() { ... });
 
-By binding events, we don't have to worry specifically about key and code combinations. Instead, we can use jQuery Hotkeys to add events like "when the player presses the Up arrow leu, move forward." 
+By binding events, we don't have to worry specifically about key and code combinations. Instead, we can use jQuery Hotkeys to add events like "when the player presses the Up arrow key, move forward." 
 
 ===Player movement===
 
@@ -128,7 +128,7 @@ Because the way JavaScript handles keyboard events is completely event driven, t
 
 Pro Tip: The reason why we don't use an event-driven way of handling keys is because the keyboard repeat rate varies across systems. Since these rates are not bound to the timing of the game loop, gameplay could vary greatly from system to system. To create a consistent experience, it is important to tightly integrate the keyboard event detection with the game loop.
 
-With the source code, I've included a 16-line JaveScript wrapper called key_status.js that will make event querying available. With this wrapper, you can query the status of a key at any time. For example, you can check <code>keydown.left</code>.
+With the source code, I've included a 16-line JavaScript wrapper called key_status.js that will make event querying available. With this wrapper, you can query the status of a key at any time. For example, you can check <code>keydown.left</code>.
 
 Now that we have the ability to query the status of keys, we can use this simple update() method to move the player on the canvas.
 
@@ -143,7 +143,7 @@ Now that we have the ability to query the status of keys, we can use this simple
    }
  }
 
-When you test this snippet, you may notice that you can move player off the screen. Let's clamp the player's position to keep it within the bounds. We can also increase the speed of the player's movement on the screen.
+When you test this snippet, you may notice that you can move player off the screen. Let's keep the player's position within the bounds. We can also increase the speed of the player's movement on the screen.
 
  
  function update() {
