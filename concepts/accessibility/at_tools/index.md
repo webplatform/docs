@@ -1,6 +1,6 @@
 {{Page_Title|Assistve Technology (AT) Tools}}
 {{Flags
-|High-level issues=Stub, Move Candidate
+|High-level issues=Stub
 |Editorial notes={{Editorial/Move_Candidate
 | ommitted /accessibility/ in the url path
 | move to concepts/accessibility/at_tools
