@@ -14,7 +14,7 @@
 |Specifications=
 }}
 {{See_Also_Section}}
-{{Topics|Mobile}}
+{{Topics|Design, Mobile}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
