@@ -1,3 +1,12 @@
-Here is a list of HTML elements:
-
-{{Special:PrefixIndex/html/elements/}}
+{{Page_Title}}
+{{Flags}}
+{{Summary_Section|Index page for HTML elements.}}
+{{Basic Page}}
+{{Special:PrefixIndex/css/elements/}}
+{{Topics}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
+}}
