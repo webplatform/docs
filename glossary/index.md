@@ -2,7 +2,7 @@
 {{Flags}}
 {{Summary_Section|Glossary}}
 {{Basic_Page
-|Content={{Special:PrefixIndex/glossary/}}
+|Content=
 }}
 {{Compatibility_Section
 |Not_required=Yes
