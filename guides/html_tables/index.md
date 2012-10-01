@@ -2,7 +2,7 @@
 {{Flags}}
 {{Byline}}
 {{Summary_Section|In this article we will cover how to use HTML tables correctly.}}
-{{Guide
+{{Tutorial
 |Content=== Introduction ==
 “Ack!” — how do you use web standards to organize reams of data? The very idea of tons of nested elements needed to get all the data into nice little rows and boxes ought to put your brain into “Ack!” mode, but there is a solution — tables to the rescue!
  
