@@ -1,4 +1,6 @@
+{{Page_Title|HTML lists}}
 {{Flags}}
+{{Byline}}
 {{Summary_Section|This article will give a clear understanding of the three different list types in HTML. Using the step-by-step example, you should have created all three and learned how to nest lists inside list items.}}
 {{Guide
 |Content=== Introduction ==
@@ -425,6 +427,12 @@ Figure 2: The finished recipe page.
 You can also [http://dev.opera.com/articles/view/16-html-lists/stepbystep-recipe.html view the live example page here].
  
 You’re done!
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
 |External_links=* [http://www.alistapart.com/articles/taminglists/ A List Apart: Taming Lists]
