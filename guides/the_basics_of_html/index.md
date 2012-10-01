@@ -4,7 +4,7 @@
 evolved from and have some insight into the structure and content of an HTML
 document. 
 }}
-{{Tutorials
+{{Tutorial
 |Content=== Introduction ==
  
 This article summarises the purpose and structure of HTML in a very high-level fashion, including how elements work, and what character references are. The articles that follow will drill down into much more detail on specific parts of the HTML language.
