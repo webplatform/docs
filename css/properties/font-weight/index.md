@@ -1,4 +1,4 @@
-{{Page_Title|OMG CUSTOM TITLE}}
+{{Page_Title|font-weight}}
 {{Flags
 |High-level issues=Stub
 }}
