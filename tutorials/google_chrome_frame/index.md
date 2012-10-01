@@ -51,7 +51,7 @@ Chrome Frame may provide a strategy to continue giving users of old browsers a w
 
 Chrome Frame transmits that it is available by extending the host's User-Agent header with the string "chromeframe". For more information see [http://www.google.com/url?q=http%3A%2F%2Fwww.chromium.org%2Fdevelopers%2Fhow-tos%2Fchrome-frame-getting-started%2Funderstanding-chrome-frame-user-agent Chrome Frame User Agent.]
 
-Use server-side detection to look for this token and determine whether Chrome Frame can be used for a page. If Chrome Frame is present, you can insert the required meta tag; if not, you can redirect users to a page that explains how to install Chrome Frame. As an alternative to server-side sniffing, you can use the CFInstall.js script to detect Chrome Frame and prompt users to install the plug-in without restarting their browsers. Using the script is straightforward. Just add the script tags and optional styles to your page as in the following example:
+Use server-side detection to look for this token and determine whether Chrome Frame can be used for a page. If Chrome Frame is present, you can insert the required meta tag; if not, you can redirect users to a page that explains how to install Chrome Frame. As an alternative to server-side sniffing, you can use the CFInstall.js script to detect Chrome Frame and prompt users to install the plug-in without restarting their browsers. Using the script is straightforward. Just add the script tags and optional styles to your page as shown in the following example:
 
  <html>
  <body>
@@ -79,18 +79,19 @@ Use server-side detection to look for this token and determine whether Chrome Fr
  </body>
  </html>
 
-Install Chrome Frame (Will do nothing if not in Internet Explorer)
+Then, display a button to prompt users to install Chrome Frame:
+ <button onclick="GCF_Install()">Install Chrome Frame (Will do nothing if not in Internet Explorer)</button>
 
 ===Prompt yourself===
 
-You might also decide to build a landing page or layer yourself. To do so:
-* Send users to this URL: http://www.google.com/chromeframe/ which can be put in an IFRAME.
-* Append a redirect parameter to send users back to your site after installation is complete: http://www.google.com/chromeframe/?redirect=http://www.google.com/
+You may also decide to build a landing page or layer yourself. To do so:
+* Send users to this URL: http://www.google.com/chromeframe/ which you can place in an IFRAME.
+* Append a redirect parameter to the URL to send users back to your site after installation is complete: http://www.google.com/chromeframe/?redirect=http://www.google.com/
 * Instead of going to the Chrome Frame landing page, you can also send the users directly to the EULA thus saving one step in the installation process: http://www.google.com/chromeframe/eula.html
 
 ===No admin-rights needed===
 
-To enable users to install Chrome Frame without having administrative privileges on their machines, append the <code>user=true</code> parameter to enable user level installation of Chrome Frame, as in the following: http://www.google.com/chromeframe/?user=true
+To enable users to install Chrome Frame without having administrative privileges on their machines, append the <code>user=true</code> parameter to enable user level installation of Chrome Frame, as shown here: http://www.google.com/chromeframe/?user=true
 
 ===Enterprise installation===
 
