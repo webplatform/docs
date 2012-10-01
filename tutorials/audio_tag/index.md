@@ -1,6 +1,8 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Flags
 }}
+{{Byline}}
 {{Summary_Section|Guide to implementing the audio tag in HTML.}}
 {{Tutorial
 |Content== Quick Guide to Implementing the HTML5 Audio Tag =
@@ -300,5 +302,5 @@ is licensed under a [http://creativecommons.org/licenses/by/3.0/ Creative Common
 |Sources=HTML5Rocks
 |MDN_link=
 |MSDN_link=
-|HTML5Rocks_link=http://www.html5rocks.com/en/tutorials/audio/quick/
+|HTML5Rocks_link=http://www.html5rocks.com/tutorials/audio/quick/
 }}
