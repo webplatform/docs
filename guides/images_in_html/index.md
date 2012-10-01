@@ -1,4 +1,6 @@
+{{Page_Title}}
 {{Flags}}
+{{Byline}}
 {{Summary_Section|This article provides all you need to know to add images to an HTML document using the <code>&lt;img&gt;</code> tag.}}
 {{Guide
 |Content=== Introduction ==
@@ -243,6 +245,100 @@ By default the background image (if not repeated) will be positioned at the top 
 <code>&lt;background-position:center-right;&gt;</code>.
  
 By controlling the repetition and the position of background images and using clever images you can create a lot of stunning effects that were not possible before CSS, and by keeping the background definitions in a separate CSS file you make it very easy to change the look and feel of a whole site by changing some lines of code. This will all be covered later on.
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows={{Compatibility Table Desktop Row
+|Feature=figure
+|Chrome_supported=Yes
+|Chrome_version=6.0
+|Chrome_prefixed_supported=No
+|Chrome_prefixed_version=
+|Firefox_supported=Yes
+|Firefox_version=4.0
+|Firefox_prefixed_supported=No
+|Firefox_prefixed_version=
+|Internet_explorer_supported=Yes
+|Internet_explorer_version=9.0
+|Internet_explorer_prefixed_supported=No
+|Internet_explorer_prefixed_version=
+|Opera_supported=Yes
+|Opera_version=11.1
+|Opera_prefixed_supported=No
+|Opera_prefixed_version=
+|Safari_supported=Yes
+|Safari_version=5.0
+|Safari_prefixed_supported=No
+|Safari_prefixed_version=
+}}{{Compatibility Table Desktop Row
+|Feature=figcaption
+|Chrome_supported=Yes
+|Chrome_version=6.0
+|Chrome_prefixed_supported=No
+|Chrome_prefixed_version=
+|Firefox_supported=Yes
+|Firefox_version=4.0
+|Firefox_prefixed_supported=No
+|Firefox_prefixed_version=
+|Internet_explorer_supported=Yes
+|Internet_explorer_version=9.0
+|Internet_explorer_prefixed_supported=No
+|Internet_explorer_prefixed_version=
+|Opera_supported=Yes
+|Opera_version=11.1
+|Opera_prefixed_supported=No
+|Opera_prefixed_version=
+|Safari_supported=Yes
+|Safari_version=5.0
+|Safari_prefixed_supported=No
+|Safari_prefixed_version=
+}}
+|Mobile_rows={{Compatibility Table Mobile Row
+|Feature=figure
+|Android_supported=Yes
+|Android_version=2.2
+|Android_prefixed_supported=No
+|Android_prefixed_version=
+|Firefox_mobile_supported=Yes
+|Firefox_mobile_version=15.0
+|Firefox_mobile_prefixed_supported=No
+|Firefox_mobile_prefixed_version=
+|IE_phone_supported=Unknown
+|IE_phone_version=
+|IE_phone_prefixed_supported=No
+|IE_phone_prefixed_version=
+|Opera_mobile_supported=Unknown
+|Opera_mobile_version=
+|Opera_mobile_prefixed_supported=No
+|Opera_mobile_prefixed_version=
+|Safari_mobile_supported=Yes
+|Safari_mobile_version=4.0
+|Safari_mobile_prefixed_supported=No
+|Safari_mobile_prefixed_version=
+}}{{Compatibility Table Mobile Row
+|Feature=figcaption
+|Android_supported=Yes
+|Android_version=2.2
+|Android_prefixed_supported=No
+|Android_prefixed_version=
+|Firefox_mobile_supported=Yes
+|Firefox_mobile_version=15.0
+|Firefox_mobile_prefixed_supported=No
+|Firefox_mobile_prefixed_version=
+|IE_phone_supported=Unknown
+|IE_phone_version=
+|IE_phone_prefixed_supported=Unknown
+|IE_phone_prefixed_version=
+|Opera_mobile_supported=Unknown
+|Opera_mobile_version=
+|Opera_mobile_prefixed_supported=Unknown
+|Opera_mobile_prefixed_version=
+|Safari_mobile_supported=Yes
+|Safari_mobile_version=4.0
+|Safari_mobile_prefixed_supported=Unknown
+|Safari_mobile_prefixed_version=
+}}
+|Notes_rows=
 }}
 {{See_Also_Section
 |Manual_sections==== Exercise Questions ===
