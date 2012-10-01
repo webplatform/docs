@@ -57,9 +57,7 @@ the absence of success and error callbacks.
 
 As with the normal FileSystem API, methods are prefixed at the moment:
 
-<pre>self.requestFileSystemSync = self.webkitRequestFileSystemSync {{!}}{{!}}
-                             self.requestFileSystemSync;
-</pre>
+<pre>self.requestFileSystemSync = self.webkitRequestFileSystemSync || self.requestFileSystemSync;</pre>
 
 ===Dealing with quota=== 
 
@@ -429,7 +427,6 @@ If you're skeptical (as I was), I hope this article has helped change your mind.
 Offloading things like disc operations (Filesystem API calls) or HTTP requests to a Worker
 are a natural fit and also help compartmentalize your code. The HTML5 File APIs
 inside of Workers opens a whole new can of awesomeness for web apps that a lot of folks haven't explored.
-
 |self_requestFileSystemSync;
 </pre>===Dealing with quota=== 
 
