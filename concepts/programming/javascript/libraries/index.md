@@ -2,8 +2,7 @@
 {{Flags}}
 {{Summary_Section|Index page for JavaScript libraries}}
 {{Basic Page}}
-{{Special:PrefixIndex/dom/}}
-
+{{Special:PrefixIndex/js/libraries/}}
 {{Topics|JavaScript}}
 {{External_Attribution
 |Is_CC-BY-SA=No
