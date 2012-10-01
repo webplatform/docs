@@ -32,6 +32,10 @@
 == External content ==
 
 TBD
+
+{{API_Listing
+|Query=[[Category:Tutorials]][[Category:SVG]]
+}}
 {{Topics|SVG}}
 {{External_Attribution
 |Is_CC-BY-SA=No
