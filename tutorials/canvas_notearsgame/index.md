@@ -454,18 +454,12 @@ Though the API is now tear-free, adding sounds is currently the quickest way to 
 
 Again, here is the [http://strd6.com/space_demo/ full working game demo]. You can download [http://strd6.com/wp-content/uploads/2010/12/space_demo.zip the source code as a zip], too.
 
-Well, I hope you enjoyed learning the basics of making a simple game in JavaScript and HTML5. By programming at the right level of abstraction, we can insulate ourselves from the more difficult parts of the APIs, as well as be resilient in the face of future changes.
+I hope you enjoyed learning the basics of making a simple game in JavaScript and HTML5. By programming at the right level of abstraction, we can insulate ourselves from the more difficult parts of the APIs, as well as be resilient in the face of future changes.
 
 ==References==
 
 * [http://blog.nihilogic.dk/2009/02/html5-canvas-cheat-sheet.html HTML5 Canvas Cheat Sheet]
 * [https://gist.github.com/768272 HTML5 Game Engines]
-
-Except as otherwise [http://code.google.com/policies.html#restrictions noted], the content of this page is licensed under the [http://creativecommons.org/licenses/by/3.0/ Creative Commons Attribution 3.0 License], and code samples are licensed under the [http://www.apache.org/licenses/LICENSE-2.0 Apache 2.0 License].
-
- <div id="disqus_thread"></div>
-
-''' [http://disqus.com/?ref_noscript Please enable JavaScript to view the comments powered by Disqus.] '''
 }}
 {{Compatibility_Section
 |Not_required=No
