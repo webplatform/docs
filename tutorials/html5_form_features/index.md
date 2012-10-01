@@ -1,6 +1,11 @@
 {{Flags}}
-{{Summary_Section|This article provides a walkthrough of the new form additions present in HTML5.}}
-{{Tutorial|Content=HTML5 includes many new features to make web forms a lot easier to write, and a lot more powerful and consistent across the Web. This article gives a brief overview of some of the new form controls and functionalities that have been introduced.
+{{Summary_Section|In this tutorial we will take you through how to create different types of basic navigation menu using HTML lists and links.}}
+{{Tutorial
+|Content=== Introduction ==
+ 
+In this article we’ll talk about web site navigation and menus. You’ll learn about different types of menus and how to create them in HTML. We’ll also touch on the subject of menu usability and accessibility. We won’t go into styling menus yet, but this article will lay the foundations. There are [http://dev.opera.com/articles/view/23-creating-multiple-pages-with-navigat/menu_examples.zip code examples to download] to go along with this article — we will refer to these throughout the tutorial.
+
+HTML5 includes many new features to make web forms a lot easier to write, and a lot more powerful and consistent across the Web. This article gives a brief overview of some of the new form controls and functionalities that have been introduced.
  
 == Why did we need new form features? ==
  
