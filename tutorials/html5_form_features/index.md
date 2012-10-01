@@ -1,8 +1,7 @@
 {{Flags}}
 {{Summary_Section|This article provides a walkthrough of the new form additions present in HTML5.}}
 {{Tutorial
-|Content=== Introduction ==
- 
+|Content=
 HTML5 includes many new features to make web forms a lot easier to write, and a lot more powerful and consistent across the Web. This article gives a brief overview of some of the new form controls and functionalities that have been introduced.
  
 == Why did we need new form features? ==
@@ -194,9 +193,23 @@ For other text entry fields that nonetheless need to follow a certain structure 
  
 On the desktop, [[http://www.opera.com Opera] currently has the most complete implementation of new input types and native client-side validation, but support is on the roadmap for all other major browsers as well, so it won't be long before we can take advantage of these new powerful tools in our projects. But what about older browser versions?
  
-By design, browsers that don't understand the new input types (like <code>date</code> or <code>number</code>) will simply fall back to treating them as standard text inputs – not as user-friendly as their advanced HTML5 counterparts, but at the very least they allow for a form to be filled in. 
-
-{{See_Also_Section}}
+By design, browsers that don't understand the new input types (like <code>date</code> or <code>number</code>) will simply fall back to treating them as standard text inputs – not as user-friendly as their advanced HTML5 counterparts, but at the very least they allow for a form to be filled in.
+}}
+{{Compatibility_Section
+|Not_required=Yes
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section
+|Manual_sections==== Exercise Questions ===
+ 
+* Why is it a good idea to mark up menus as lists?
+* When you design a navigation menu, what do you need to plan for in the future?
+* What are the benefits of using <code>&lt;select&gt;</code> elements for menus, and what are the problems?
+* What do you define with <code>&lt;area&gt;</code> elements, and what is the <code>nohref</code> attribute of an area element for (this is not in here, you'd need to do some online research)
+* What are the benefits of skip links?
+}}
 {{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
