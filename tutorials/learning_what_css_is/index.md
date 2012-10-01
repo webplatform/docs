@@ -1,10 +1,11 @@
 {{Page_Title|What is CSS?}}
 {{Flags}}
+{{Byline}}
 {{Summary_Section|The article introduces you to Cascading style sheets, or CSS, defining what they are, and what they are used for on the Web.}}
 {{Tutorial
 |Content=This tutorial explains what CSS is. You create a simple document that you will work with on the following pages.
  
-== Information: What is CSS ==
+== About CSS ==
  
 Cascading Style Sheets (CSS) is a language for specifying how documents are presented to users. A ''document'' is a collection of information that is structured using a ''markup language''.
 
