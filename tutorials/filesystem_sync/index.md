@@ -24,7 +24,7 @@ both APIs. If you're not quite ready to dive in or are interested in learning
 more about those APIs, read two great tutorials that discuss the basics:
 [[tutorials/file_filesystem|Exploring the FileSystem APIs]] and [[tutorials/workers_basics|The Basics of Web Workers]].
 
-==Synchronous vs. Asynchronous APIs== 
+<h2 id="toc-vs">Synchronous vs. Asynchronous APIs</h2>
 
 Asynchronous JavaScript APIs can be tough to use. They're large. They're complex.
 But what's most frustrating is that they offer plenty of opportunities for things to go wrong.
@@ -40,7 +40,7 @@ The methods, properties, features, and functionality will be familiar. The major
 
 Apart from these exceptions, the APIs are the same. OK, we're good to go!
 
-==Requesting a filesystem==
+<h2 id="toc-requesting">Requesting a filesystem</h2>
 
 A web application obtains access to the synchronous filesystem by requesting a <code>LocalFileSystemSync</code> object from within a Web Worker. The <code>requestFileSystemSync()</code> is exposed to the Worker's global scope:
 
@@ -54,7 +54,7 @@ As with the normal FileSystem API, methods are prefixed at the moment:
                              self.requestFileSystemSync;
 </pre>
 
-===Dealing with quota=== 
+<h3 id="toc-quota">Dealing with quota</h3>
 
 Currently, it's not possible to [[tutorials/file_filesystem#toc-requesting-quota|request <code>PERSISTENT</code> quota]] in a Worker context. I recommend taking care of quota issues outside of Workers.
 
@@ -67,7 +67,7 @@ The process could look like something this:
 
 That's a fairly involved workaround, but it should work. See [[tutorials/file_filesystem#toc-requesting-quota|requesting quota]] for more information on using <code>PERSISTENT</code> storage with the FileSystem API.
 
-==Working with files and directories==
+<h2 id="toc-files-dirs">Working with files and directories</h2>
 
 The synchronous version of <code>getFile()</code> and <code>getDirectory()</code> return a <code>FileEntrySync</code> and <code>DirectoryEntrySync</code>, respectively.
 
@@ -80,7 +80,7 @@ The following creates a new directory in the root folder.
 
 <pre>var dirEntry = fs.root.getDirectory('mydir', {create: true});</pre>
 
-==Handling errors==
+<h2 id="toc-errors">Handling errors</h2>
 
 If you've never had to debug Web Worker code, I envy you! It can be a real pain
 to figure out what is going wrong.
@@ -103,7 +103,7 @@ try {
 }
 </pre>
 
-==Passing around Files, Blobs, and ArrayBuffers==
+<h2 id="toc-passing-data">Passing around Files, Blobs, and ArrayBuffers</h2>
 
 When Web Workers first came on the scene, they only allowed string data to be
 sent in <code>postMessage()</code>. Later, browsers began accepting serializable data, which
@@ -181,7 +181,7 @@ function loadInlineWorker(selector, callback) {
 &lt;/html&gt;
 </pre>
 
-==Reading files in a Worker==
+<h2 id="toc-readingsync">Reading files in a Worker</h2>
 
 It's perfectly acceptable to use the asynchronous [http://www.html5rocks.com/tutorials/file/dndfiles/#toc-reading-files <code>FileReader</code> API to read files] in a Worker. However, there's a better way. In Workers, there's a
 synchronous API (<code>FileReaderSync</code>) that streamlines reading files:
@@ -240,7 +240,7 @@ As expected, callbacks are gone with the synchronous <code>FileReader</code>. Th
 the amount of callback nesting when reading files. Instead, the readAs* methods
 returns the read file.
 
-==Example: Fetching all entries==
+<h2 id="toc-listing">Example: Fetching all entries</h2>
 
 In some cases, the synchronous API is much cleaner for certain tasks. Fewer callbacks
 are nice and certainly make things more readable. The real downside of the
@@ -326,7 +326,7 @@ self.onmessage = function(e) {
 };
 </pre>
 
-==Example: Downloading files using XHR2==
+<h2 id="toc-download-xhr2">Example: Downloading files using XHR2</h2>
 
 A common use case for Workers is to download a bunch of files using [[tutorials/file_xhr2|New Tricks in XMLHttpRequest2]], and write those files to the HTML5 FileSystem. This is a perfect task for a Worker thread!
 
@@ -411,7 +411,7 @@ onmessage = function(e) {
 };
 </pre>
 
-==Conclusion==
+<h2 id="toc-conclusion">Conclusion</h2>
 
 Web Workers are an underutilized and under-appreciated feature
 of HTML5. Most developers I talk to don't need the extra computational benefits, 
