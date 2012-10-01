@@ -2,7 +2,7 @@
 {{Flags}}
 {{Summary_Section|Index page for HTML elements.}}
 {{Basic Page}}
-{{Special:PrefixIndex/css/elements/}}
+{{Special:PrefixIndex/html/elements/}}
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
