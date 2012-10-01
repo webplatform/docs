@@ -2,7 +2,7 @@
 {{Flags}}
 {{Byline}}
 {{Summary_Section|This article provides all you need to know to add images to an HTML document using the <code>&lt;img&gt;</code> tag.}}
-{{Guide
+{{Tutorial
 |Content=== Introduction ==
  
 In this article we will discuss one of the things that makes web design pretty — images. At the end of this tutorial you’ll know how to add imagery to web documents in an accessible way (so that people with visual impairments can still use the information on your site) and how and when to use inline images for delivering information or background images for page layout. You can [http://dev.opera.com/articles/view/17-images-in-html/code.zip download the example files used in this article here] — we'll look at these files over the course of the tutorial.
