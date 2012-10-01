@@ -80,7 +80,7 @@ Use server-side detection to look for this token and determine whether Chrome Fr
  </html>
 
 Then, display a button to prompt users to install Chrome Frame:
- <button onclick="GCF_Install()">Install Chrome Frame (Will do nothing if not in Internet Explorer)</button>
+ <button onclick="GCF_Install()">Install Chrome Frame (If not in IE, does nothing)</button>
 
 ===Prompt yourself===
 
@@ -91,11 +91,12 @@ You may also decide to build a landing page or layer yourself. To do so:
 
 ===No admin-rights needed===
 
-To enable users to install Chrome Frame without having administrative privileges on their machines, append the <code>user=true</code> parameter to enable user level installation of Chrome Frame, as shown here: http://www.google.com/chromeframe/?user=true
+To enable users to install Chrome Frame without having administrative privileges on their machines, append the <code>user=true</code> parameter to enable user level installation of Chrome Frame, as shown here:
+ http://www.google.com/chromeframe/?user=true
 
 ===Enterprise installation===
 
-Enterprises can deploy Chrome Frame company-wide using the MSI installer which can be downloaded here: http://www.google.com/chromeframe/eula.html?msi=true.
+Enterprises can deploy Chrome Frame company-wide using the MSI installer which can be downloaded from here: http://www.google.com/chromeframe/eula.html?msi=true.
 
 For more information on Chrome and enterprise deployments see http://www.chromium.org/administrators.
 
@@ -105,7 +106,7 @@ Many major websites such as [http://yahoo.com yahoo.com], [http://wordpress.com 
 
 ==More information==
 
-For more Information see the [http://www.google.com/url?q=http%3A%2F%2Fwww.chromium.org%2Fdevelopers%2Fhow-tos%2Fchrome-frame-getting-started Getting Started Guide] or watch [http://www.youtube.com/watch?feature=player_embedded&v=3YkEUpJQP3o this video] from Google IO 2011.
+For more information see the [http://www.google.com/url?q=http%3A%2F%2Fwww.chromium.org%2Fdevelopers%2Fhow-tos%2Fchrome-frame-getting-started Getting Started Guide] or watch [http://www.youtube.com/watch?feature=player_embedded&v=3YkEUpJQP3o this video] from Google IO 2011.
 }}
 {{Compatibility_Section
 |Not_required=No
