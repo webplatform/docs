@@ -1,3 +1,24 @@
+{{Page_Title}}
+{{Flags
+|High-level issues=Merge Candidate
+|Editorial notes=http://docs.webplatform.org/wiki/concepts/accessibility/accessibility_basics
+}}
+{{Summary_Section}}
+{{Tutorial}}
+{{Compatibility_Section
+|Not_required=Yes
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section}}
+{{Topics}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
+}}
 == Introduction ==
  
 When you create a web site, accessibility—making the web site usable by everyone, regardless of their ability or disability—should always be a central concern. So far in this course accessibility has always been implicit in all the examples you’ve seen, even if you didn’t realise it; in this [http://www.w3.org/wiki/Web_Standards_Curriculum Web Standards Curriculum] article I’ll now look at accessibility explicitly, so you can understand fully what it is, why it is important, how to ensure that sites are accessible, and what guidelines exist to define accessible sites.
