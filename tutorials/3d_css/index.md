@@ -1,12 +1,13 @@
+{{Page_Title|3D and CSS}}
 {{Flags
 |High-level issues=Needs Flags
 }}
+{{Byline
+|Name=Paul Kinlan
+}}
 {{Summary_Section|An introduction to CSS 3D transforms.}}
 {{Tutorial
-|Content==3D and CSS=
-
-====original by Paul Kinlan====
-====published Sept. 7, 2010====
+|Content=====published Sept. 7, 2010====
 
 ==Introduction==
 
@@ -69,7 +70,6 @@ We have re-factored the previous examples to use document styles, rather than in
 ==Summary==
 
 This was just a quick glance over some of the cool effects that can be applied to any visible DOM element using CSS 3D transformations. There are still many things that can be done that have not been covered in this tutorial.
-
 }}
 {{Compatibility_Section
 |Not_required=No
