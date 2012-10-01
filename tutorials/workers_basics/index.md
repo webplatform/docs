@@ -8,7 +8,7 @@
 }}
 {{Summary_Section|Web Workers are a means of spawning background scripts in your application, giving thread-like message passing for handling computationally intensive tasks.
 
-Published '''July 26, 2010''', updated ''Aug. 21, 2012'''
+Published '''July 26, 2010''', updated '''Aug. 21, 2012'''
 }}
 {{Tutorial
 |Content===The Problem: JavaScript Concurrency==
