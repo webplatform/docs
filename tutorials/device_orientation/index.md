@@ -194,9 +194,9 @@ The HTML5 DeviceOrientation event returns three pieces of data:
 * <code>beta</code> the angle in degrees the device is tilted front-to-back
 * <code>gamma</code> the angle in degrees the device is tilted left-to-right.
 
- The angles values increase as you tilt the device to the right or toward you.
+The angles' values increase as you tilt the device to the right or toward you.
 
-Since Firefox uses the <code>MozOrientationEvent</code> which returns similar data but using different parameters and a different measurement system, we want to normalize that before we pass it to our <code>deviceOrientationHandler</code> function.
+Because Firefox uses the <code>MozOrientationEvent</code> which returns similar data but using different parameters and a different measurement system, we want to normalize that before we pass it to our <code>deviceOrientationHandler</code> function.
  
  if (window.DeviceOrientationEvent) {
    document.getElementById("doEvent").innerHTML = "DeviceOrientation";
