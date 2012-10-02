@@ -1,3 +1,4 @@
+{{Page_Title|Color theory}}
 {{Flags}}
 {{API_Name}}
 {{Summary_Section|Without much colour or graphics, every site would become [http://www.useit.com/ Jakob Nielsen]’s
