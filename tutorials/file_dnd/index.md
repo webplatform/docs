@@ -1,12 +1,14 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Flags
+}}
+{{Byline
+|Name=Eric Bidelman
+|Published=June 18, 2010
 }}
 {{Summary_Section|An introduction to HTML5 JavaScript file API.}}
 {{Tutorial
 |Content==Reading files in JavaScript using the File APIs=
-
-====original by Eric Bidelman====
-====published June 18, 2010====
 
 ==Introduction==
 
@@ -938,5 +940,5 @@ Except as otherwise [http://code.google.com/policies.html#restrictions noted], t
 |Sources=HTML5Rocks
 |MDN_link=
 |MSDN_link=
-|HTML5Rocks_link=http://www.html5rocks.com/en/tutorials/file/dndfiles/
+|HTML5Rocks_link=http://www.html5rocks.com/tutorials/file/dndfiles/
 }}
