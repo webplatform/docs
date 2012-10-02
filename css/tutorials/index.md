@@ -41,6 +41,10 @@
 ==Advanced CSS techniques==
 
 * [[tutorials/Generated content|Generated content]]
+
+==Applied styling exercises==
+
+* [[tutorials/styling lists and links|Styling lists and links]]
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
