@@ -1,12 +1,14 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Flags
+}}
+{{Byline
+|Name=Michael Mahemoff
+|Published=published Aug. 2, 2010, updated Oct. 13, 2011
 }}
 {{Summary_Section|An introduction to offline applications.}}
 {{Guide
 |Content=="Offline": What does it mean and why should I care?=
-
-====original by Michael Mahemoff====
-====published Aug. 2, 2010, updated Oct. 13, 2011====
 
 ==Introduction: The Meaning of "Offline"==
 
@@ -359,5 +361,5 @@ Offline storage has many potential applications well beyond the obvious "I want 
 |Sources=HTML5Rocks
 |MDN_link=
 |MSDN_link=
-|HTML5Rocks_link=http://www.html5rocks.com/en/tutorials/offline/whats-offline/
+|HTML5Rocks_link=http://www.html5rocks.com/tutorials/offline/whats-offline/
 }}
