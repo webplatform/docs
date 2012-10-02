@@ -1,6 +1,8 @@
 {{Page_Title|HTML5 form features}}
 {{Flags}}
-{{Byline}}
+{{Byline
+|Published=
+}}
 {{Summary_Section|In this tutorial we will take you through how to create different types of basic navigation menu using HTML lists and links.}}
 {{Guide
 |Content=== Introduction ==
@@ -246,6 +248,28 @@ By design, browsers that don't understand the new input types (like <code>date</
 |Safari_version=3.1
 |Safari_prefixed_supported=Unknown
 |Safari_prefixed_version=
+}}{{Compatibility Table Desktop Row
+|Feature=<input type="date">
+|Chrome_supported=No
+|Chrome_version=
+|Chrome_prefixed_supported=No
+|Chrome_prefixed_version=
+|Firefox_supported=No
+|Firefox_version=
+|Firefox_prefixed_supported=No
+|Firefox_prefixed_version=
+|Internet_explorer_supported=No
+|Internet_explorer_version=
+|Internet_explorer_prefixed_supported=No
+|Internet_explorer_prefixed_version=
+|Opera_supported=Yes
+|Opera_version=9.5
+|Opera_prefixed_supported=No
+|Opera_prefixed_version=
+|Safari_supported=No
+|Safari_version=
+|Safari_prefixed_supported=No
+|Safari_prefixed_version=
 }}
 |Mobile_rows={{Compatibility Table Mobile Row
 |Feature=<input type="number">
@@ -271,6 +295,28 @@ By design, browsers that don't understand the new input types (like <code>date</
 |Safari_mobile_prefixed_version=
 }}{{Compatibility Table Mobile Row
 |Feature=<input type="range">
+|Android_supported=No
+|Android_version=
+|Android_prefixed_supported=No
+|Android_prefixed_version=
+|Firefox_mobile_supported=No
+|Firefox_mobile_version=
+|Firefox_mobile_prefixed_supported=No
+|Firefox_mobile_prefixed_version=
+|IE_phone_supported=No
+|IE_phone_version=
+|IE_phone_prefixed_supported=No
+|IE_phone_prefixed_version=
+|Opera_mobile_supported=No
+|Opera_mobile_version=
+|Opera_mobile_prefixed_supported=No
+|Opera_mobile_prefixed_version=
+|Safari_mobile_supported=Yes
+|Safari_mobile_version=5.0
+|Safari_mobile_prefixed_supported=No
+|Safari_mobile_prefixed_version=
+}}{{Compatibility Table Mobile Row
+|Feature=<input type="date">
 |Android_supported=No
 |Android_version=
 |Android_prefixed_supported=No
