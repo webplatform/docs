@@ -1,4 +1,6 @@
+{{Page_Title|Exploring the CSS layout model}}
 {{Flags}}
+{{Byline}}
 {{Summary_Section|This article describes some fundamental ways to adjust the layout of your document, using padding, floats, and more.}}
 {{Tutorial
 |Content=== Information: Layout ==
@@ -191,4 +193,6 @@ If you are designing stylesheets to work in many browsers, then you also need to
 |Is_CC-BY-SA=Yes
 |Sources=MDN
 |MDN_link=https://developer.mozilla.org/en-US/docs/CSS/Getting_Started/Layout
+|MSDN_link=
+|HTML5Rocks_link=
 }}
