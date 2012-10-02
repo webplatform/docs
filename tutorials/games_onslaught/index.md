@@ -218,8 +218,7 @@ To address these many issues, we began playing with a single-input method of gam
  }
  
  // Move the player
- if ((move.x !== 0)
-|(move_y !== 0)) {
+ if ((move.x !== 0) {{!}}{{!}} (move_y !== 0)) {
    player.setDirection(move);
  }
 
