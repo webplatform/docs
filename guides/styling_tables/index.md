@@ -1,4 +1,6 @@
+{{Page_Title|Styling HTML tables}}
 {{Flags}}
+{{Byline}}
 {{Summary_Section|This article provides a guide to the fundamental styling options available for tables.}}
 {{Tutorial
 |Content=== Introduction ==
