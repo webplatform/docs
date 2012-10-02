@@ -1,16 +1,15 @@
-{{Page_Title}}
+{{Page_Title|HTML5 Video}}
 {{Flags
 |High-level issues=Needs Flags
 }}
 {{Byline
 |Name=Ernest Delgado
-|Published=published Aug. 3, 2010
+|URL=http://www.html5rocks.com/profiles/#ernestd
+|Published=Aug. 3, 2010
 }}
 {{Summary_Section|An introduction to the HTML5 video tag.}}
 {{Tutorial
-|Content==HTML5 Video=
-
-==Introduction==
+|Content===Introduction==
 
 The video tag is one of those HTML5 features that gets a lot of attention. Often presented in the media as an alternative to Flash, the video tag actually goes beyond that. Although it's recently joined the rest of the ubiquitous HTML tags, its capabilities and support across browsers have increased at an amazing speed. As you will see in this tutorial, its main advantage is the natural integration with the other layers of the web development stack such as CSS and JavaScript, as well as with the other HTML tags.
 
