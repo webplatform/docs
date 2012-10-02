@@ -2,7 +2,7 @@
 {{Flags}}
 {{Byline}}
 {{Summary_Section|This guide gives a detailed explanation of most of the advanced CSS selectors available.}}
-{{Guide
+{{Tutorial
 |Content=== Introduction ==
  
 In our [CSS basics] article, we introduced the most basic of CSS selectors: element, class and id selectors. With these selectors you can accomplish a lot, but this certainly isn’t the be all and end all of selectors — there are other selectors that allow you to select elements to style based on various more specific criteria, and we'll look at most them throughout the course of this article.
