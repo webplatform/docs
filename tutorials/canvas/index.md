@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page_Title|Canvas Tutorials}}
 {{Flags}}
 {{Summary_Section|Index of tutorials related to canvas.}}
 {{Basic Page}}
