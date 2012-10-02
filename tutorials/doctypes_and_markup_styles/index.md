@@ -1,1 +1,0 @@
-#REDIRECT [[guides/doctypes and markup styles]]
