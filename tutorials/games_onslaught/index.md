@@ -424,7 +424,7 @@ Except as otherwise [http://code.google.com/policies.html#restrictions noted], t
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows={{Compatibility Notes Row
-|Browser=Opera Mini
+|Browser=Opera Mobile
 |Version=5.0-7.0
 |Note=Canvas partially supported.
 }}
