@@ -8,9 +8,7 @@
 }}
 {{Summary_Section|Take your application offline using HTML5 Application Cache}}
 {{Tutorial
-|Content==HTML5 Rocks=
-
-=Working Off the Grid with HTML5 Offline=
+|Content==Working Off the Grid with HTML5 Offline=
 
 ==Introduction==
 
