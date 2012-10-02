@@ -1,194 +1,12 @@
+{{Page_Title}}
 {{Flags}}
+{{Byline
+|Name=Paul Kinlan
+|Published=Feb. 17, 2010
+}}
 {{Summary_Section}}
 {{Tutorial
-|Content=                       Please click [[here]] if you are not redirected within a few seconds.   
-= HTML5 Rocks =
-  
-* [[Home]]
-* [[Posts & Tutorials]]
-* [[HTML5 Features]]
-* [[Slides]]
-* [[Resources]]
-* [[Why HTML5?]]
-* [[Who We Are]]
-* [[Contribute]]
-* [[Search]]
-      Search:       
-== Features ==
- 
-* [[]] === Offline ===
-* [[]] === Storage ===
-* [[]] === Connectivity ===
-* [[]] === File Access ===
-* [[]] === Semantics ===
-* [[]] === Audio/Video ===
-* [[]] === 3D/Graphics ===
-* [[]] === Presentation ===
-* [[]] === Performance ===
-* [[]] === Nuts & Bolts ===
-    [[]]  
-* [[Mobile]]
- 
-* [[Home]]
-* [[Gaming]]
- 
-* [[Mobile]]
-* [[Business]]
- 
-* [[Gaming]]
-   
-* [[Storage]]
- 
-* [[Offline]]
-* [[Connectivity]]
- 
-* [[Storage]]
-* [[File Access]]
- 
-* [[Connectivity]]
-* [[Semantics]]
- 
-* [[File Access]]
-* [[Audio/Video]]
- 
-* [[Semantics]]
-* [[3D/Graphics]]
- 
-* [[Audio/Video]]
-* [[Presentation]]
- 
-* [[3D/Graphics]]
-* [[Performance]]
- 
-* [[Presentation]]
-* [[Nuts & Bolts]]
- 
-* [[Performance]]
-      
-=== HTML5 Features ===
- 
-*  [[Offline]]
-** [[Intro]]
-** [[Browser Support]]
-** [[What&rsquo;s New]]
-** [[Demos]]
-** [[In the Wild]]
-** [[Resources]]
-*
-*  [[Storage]]
-** [[Intro]]
-** [[Browser Support]]
-** [[What&rsquo;s New]]
-** [[Demos]]
-** [[In the Wild]]
-** [[Resources]]
-*
-*  [[Connectivity]]
-** [[Intro]]
-** [[Browser Support]]
-** [[What&rsquo;s New]]
-** [[Demos]]
-** [[In the Wild]]
-** [[Resources]]
-*
-*  [[File Access]]
-** [[Intro]]
-** [[Browser Support]]
-** [[What&rsquo;s New]]
-** [[Demos]]
-** [[In the Wild]]
-** [[Resources]]
-*
-*  [[Semantics]]
-** [[Intro]]
-** [[Browser Support]]
-** [[What&rsquo;s New]]
-** [[Demos]]
-** [[In the Wild]]
-** [[Resources]]
-*
-*  [[Audio/Video]]
-** [[Intro]]
-** [[Browser Support]]
-** [[What&rsquo;s New]]
-** [[Demos]]
-** [[In the Wild]]
-** [[Resources]]
-*
-*  [[3D/Graphics]]
-** [[Intro]]
-** [[Browser Support]]
-** [[What&rsquo;s New]]
-** [[Demos]]
-** [[In the Wild]]
-** [[Resources]]
-*
-*  [[Presentation]]
-** [[Intro]]
-** [[Browser Support]]
-** [[What&rsquo;s New]]
-** [[Demos]]
-** [[In the Wild]]
-** [[Resources]]
-*
-*  [[Performance]]
-** [[Intro]]
-** [[What&rsquo;s New]]
-** [[Themes]]
-** [[Technologies]]
-** [[Techniques]]
-** [[Tools]]
-** [[Further Reading]]
-*
-*  [[Nuts & Bolts]]
-** [[Intro]]
-** [[Browser Support]]
-** [[What&rsquo;s New]]
-** [[Demos]]
-** [[In the Wild]]
-** [[Resources]]
-*
-      
-= HTML5 Rocks =
- 
-== Tutorials ==
-   
-= A Simple TODO list using HTML5 WebDatabases =
-  [[Image:1.gif|Paul Kinlan]]  
-== By Paul Kinlan ==
-   Published '''Feb. 17, 2010'''    [[]]   
-== Supported browsers: ==
-   Opera 
-supported
-   IE 
-unsupported
-   Safari 
-supported
-   Firefox 
-unsupported
-   Chrome 
-supported
-    
-Your browser may not support all of the functionality in this article.
-
- 
-Your browser appears to support all of the functionality in this article.
-
-   [[Leave a comment]]   
-* [[Tweet]]
-        
-=== Table of Contents ===
- 
-* [[Introduction]]
-* [[Pre-requisites]]
-* [[Asynchronous and Transactional]]
-* [[Step 1. Opening the database]]
-* [[Step 2. Creating a table]]
-* [[Step 3. Adding data to a table]]
-* [[Step 4. Selecting data from a table]]
-* [[Step 5. Deleting data from a table]]
-* [[Step 6. Hooking it all up]]
-* [[The final product]]
+|Content== A Simple TODO list using HTML5 WebDatabases =
     
 == Introduction ==
  
@@ -197,7 +15,6 @@ in HTML5. Web Databases are hosted and persisted inside a user's browser.
 By allowing developers to create applications with rich query abilities
 it is envisioned that a new breed of web applications will emerge that
 have the ability to work online and off-line.
-
  
 On November 18, 2010, the [[W3C announced]] that Web SQL database is a deprecated specification. This is a
 recommendation for web developers to no longer use the technology as
@@ -205,12 +22,10 @@ effectively the spec will receive no new updates and browser vendors aren't
 encouraged to support this technology. Many major browsers including Chrome,
 Safari, Opera and nearly all Webkit based mobile devices support WebSQL and
 will likely maintain support for the foreseeable future.
-
  
 This tutorial is also [[available written using "IndexedDB"]], the replacement offline storage
 technology.
 
- 
 The example code in this article demonstrates how to create a very simple
 todo list manager. It is a very high level tour of some of the features
 available in HTML5.
@@ -219,7 +34,6 @@ available in HTML5.
 == Pre-requisites ==
  
 This sample uses a namespace to encapsulate the database logic.
-
  
 <pre>var html5rocks = {};
 html5rocks.webdb = {};
@@ -232,20 +46,17 @@ support you will be using the [[Asynchronous API]]. The Asynchronous API
 is a non-blocking system and as such will not get data
 through return values, but rather will get data delivered to a defined
 callback function.
-
  
 The Web Database support through HTML is transactional. It is not
 possible to execute SQL statements outside of a transaction.
 There are two types of transactions: read/write transactions
 (''transaction()'') and read
 only transactions (''readTransaction()''). Please note, read/write will lock the entire database.
-
  
 == Step 1. Opening the database ==
  
 The database needs to be opened before it can be accessed.
 You need to define the name, version, description and the size of the database.
-
  
 <pre>html5rocks.webdb.db = null;
 
@@ -270,11 +81,9 @@ html5rocks.webdb.onSuccess = function(tx, r) {
 You can only create a table by executing a CREATE TABLE SQL statement
 inside a [[transaction]].
 
- 
 We have defined a function that will create a table in the body onload
 event. If the table doesn't already exist, a table will be created.
 The table is called todo and has 3 columns.
-
 
 * ID - a incrementing sequential ID column
 * todo - a text column that is the body of the item
@@ -294,15 +103,12 @@ The table is called todo and has 3 columns.
 We are building a todo list manager so it is pretty important that
 we are able to add todo items in to the database.
 
- 
 A transaction is created, inside the transaction an INSERT into the todo
 table is performed.
 
- 
 executeSql takes several parameters, the SQL to execute and the parameters
 values to bind the query.
 
- 
 <pre>html5rocks.webdb.addTodo = function(todoText) {
   var db = html5rocks.webdb.db;
   db.transaction(function(tx){
@@ -320,7 +126,6 @@ values to bind the query.
 Now that the data is in the database, you need a function that gets
 the data back out. In Chrome, Webdatabase's use standard SQLite SELECT
 queries.
-
  
 <pre>html5rocks.webdb.getAllTodoItems = function(renderFunc) {
   var db = html5rocks.webdb.db;
@@ -336,18 +141,15 @@ are asynchronous and as such the data is not returned from the transaction
 or the executeSql call. The results are passed through to the success
 callback.
 
- 
 == Step 4a. Rendering data from a table ==
  
 Once the data has been fetched from the table, the loadTodoItems method
 will be called.
 
- 
 The onSuccess callback takes two parameters. The first being the
 transaction of the query and the second being the result set. It is
 fairly simple to iterate across the data:
 
- 
 <pre>function loadTodoItems(tx, rs) {
   var rowOutput = "";
   var todoItems = document.getElementById("todoItems");
@@ -367,7 +169,6 @@ function renderTodo(row) {
 The effect of this method call is that the todo list is rendered into
 a DOM Element called "todoItems".
 
- 
 == Step 5. Deleting data from a table ==
  
 <pre>html5rocks.webdb.deleteTodo = function(id) {
@@ -385,7 +186,6 @@ a DOM Element called "todoItems".
 When the page loads, open the database and create the table (if
 needed) and render any todo items that might already be in the database.
 
- 
 <pre>....
 function init() {
   html5rocks.webdb.open();
@@ -400,22 +200,13 @@ function init() {
 A function that takes the data out of the DOM is needed so,
 call the html5rocks.webdb.addTodo method
 
- 
 <pre>function addTodo() {
   var todo = document.getElementById("todo");
   html5rocks.webdb.addTodo(todo.value);
   todo.value = "";
 }
 </pre>
- 
-== The final product ==
-     
-Except as otherwise [[noted]], the content of this page is licensed under the [[Creative Commons Attribution 3.0 License]], and code samples are licensed under the [[Apache 2.0 License]].
 
-     
-''' [[Please enable JavaScript to view the comments powered by Disqus.]] '''
-
-                
 }}
 {{Compatibility_Section
 |Not_required=No
