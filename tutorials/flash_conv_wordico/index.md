@@ -173,13 +173,13 @@ With <code>Bounds</code>, we can detect the intersection of two rectangular elem
  }
  
  Bounds.prototype.intersects = function (bounds) {
-   return this.contains(bounds.topleft) ||
-     this.contains(bounds.topright) ||
-     this.contains(bounds.bottomleft) ||
-     this.contains(bounds.bottomright) ||
-     bounds.contains(this.topleft) ||
-     bounds.contains(this.topright) ||
-     bounds.contains(this.bottomleft) ||
+   return this.contains(bounds.topleft) {{!}}{{!}}
+     this.contains(bounds.topright) {{!}}{{!}}
+     this.contains(bounds.bottomleft) {{!}}{{!}}
+     this.contains(bounds.bottomright) {{!}}{{!}}
+     bounds.contains(this.topleft) {{!}}{{!}}
+     bounds.contains(this.topright) {{!}}{{!}}
+     bounds.contains(this.bottomleft) {{!}}{{!}}
      bounds.contains(this.bottomright);
  }
  
@@ -238,7 +238,7 @@ We use <code>Point</code> to determine the absolute coordinate (top-left corner)
  
  // static
  Point.fromEvent = function (evt) {
-   return new Point(evt.x || evt.clientX, evt.y || evt.clientY);
+   return new Point(evt.x {{!}}{{!}} evt.clientX, evt.y {{!}}{{!}} evt.clientY);
  }
 
 These functions form the basis of drag-and-drop and animation capabilities. For example, we use <code>Bounds.intersects()</code> to determine if a tile overlaps a space on the gameboard; we use <code>Point.vector()</code> to determine the direction of a dragged tile; and we use <code>Point.interpolate()</code> in combination with a timer to create a motion tween, or easing effect.
@@ -294,13 +294,13 @@ In JavaScript, we attempt to detect the embedded Flash player. If that fails, we
  
    // Flash
    try {
-     var swf = window["swfplayer"] || document["swfplayer"];
+     var swf = window["swfplayer"] {{!}}{{!}} document["swfplayer"];
      swf.playSound(src);
    }
    // or HTML5 audio
    catch (e) {
      var sound = document.getElementById(soundId);
-     if (sound == null || sound == undefined) {
+     if (sound == null {{!}}{{!}} sound == undefined) {
        var sound = document.createElement("audio");
        sound.id = soundId;
        sound.src = src;
