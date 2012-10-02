@@ -75,7 +75,7 @@ The device motion event is a superset of the device orientation event; it return
 For a laptop in its normal position, with the screen facing up, the data returned would be:<br/>
 
 {{{!}}
-! 
+! style="background:transparent;" {{!}}
 ! Not accelerating
 ! Accelerating up
 ! Accelerating forward
@@ -436,5 +436,5 @@ Here are a few other resources and demos you can check out that use the HTML5 de
 |Sources=HTML5Rocks
 |MDN_link=
 |MSDN_link=
-|HTML5Rocks_link=http://www.html5rocks.com/en/tutorials/device/orientation/
+|HTML5Rocks_link=http://www.html5rocks.com/tutorials/device/orientation/
 }}
