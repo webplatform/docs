@@ -1,1 +1,0 @@
-#REDIRECT [[tutorials/styling svg with css]]
