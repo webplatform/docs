@@ -1,1 +1,0 @@
-#REDIRECT [[guides/lesser-known semantic elements]]
