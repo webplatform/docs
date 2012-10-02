@@ -360,5 +360,5 @@ This is only one example of what can be accomplished by utilizing HTML5 features
 |Sources=HTML5Rocks
 |MDN_link=
 |MSDN_link=
-|HTML5Rocks_link=http://www.html5rocks.com/en/tutorials/casestudies/20things_pageflip/
+|HTML5Rocks_link=http://www.html5rocks.com/tutorials/casestudies/20things_pageflip/
 }}
