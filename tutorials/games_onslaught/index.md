@@ -32,7 +32,7 @@ Here's a scenario that we considered:
 
 This method would consist of 1x1 sprites instead of doubling them up on the asset creation side. From there, CSS would take over and resize the canvas itself. Our benchmarks revealed that this method can be about twice as fast as rendering larger (doubled-up) images, but unfortunately CSS resizing includes anti-aliasing, something we couldn't find a way to prevent.
 
- [[Image:resize_assets_or_css.png|700px|Canvas resizing options]Left: pixel-perfect assets doubled-up in Photoshop. Right: CSS resizing added a blurry effect.] 
+ [[Image:resize_assets_or_css.png|alt=Canvas resizing options|Left: pixel-perfect assets doubled-up in Photoshop. Right: CSS resizing added a blurry effect.]] 
 
 This was a deal breaker for our game since individual pixels are so important but if you need to resize your canvas and anti-aliasing is appropriate for your project, you could consider this approach for performance reasons.
 
