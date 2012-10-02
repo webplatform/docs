@@ -46,7 +46,7 @@
 ==Applied styling exercises==
 
 * [[tutorials/styling lists and links|Styling lists and links]]
-* [[guides/styling html tables|Styling HTML tables]]
+* [[guides/styling tables|Styling HTML tables]]
 * [[tutorials/table styling basics|Table styling basics]]
 * [[guides/styling forms guide|Styling forms — the ultimate guide]]
 {{Topics|CSS}}
