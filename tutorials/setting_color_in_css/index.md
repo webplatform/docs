@@ -1,4 +1,6 @@
+{{Page_Title|Setting color in CSS}}
 {{Flags}}
+{{Byline}}
 {{Summary_Section|This article explains in detail the different ways you can specify color in CSS.}}
 {{Tutorial
 |Content=== Information: Color ==
