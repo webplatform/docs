@@ -6,23 +6,16 @@ Bear in mind that this is an early alpha release. In the future, there will be a
 
 We would love your help in improving the content in any way you can &mdash; if you see problems on any pages, fix them, add a note to the article, or get in contact with us using any of the other methods available below. We are also looking for people to contribute new material!
 
-== New to the web? ==
+== Explore our docs ==
 
-Check out our [[concepts|Concept pages]]. These pages describe general concepts related to the Web, and web design and development.
-
-== Primary web technologies ==
-
+*[[concepts|Web Development Concepts]]
 *[[HTML|HTML]]: HyperText Markup Language is used to describe the content of webpages.
 *[[CSS|CSS]]: Cascading Style Sheets are used to control the look and formatting of webpages.
 *[[js|JavaScript]]: JavaScript is a scripting language used to make webpages interactive.
-*[[SVG|SVG]]: Scalable Vector Graphics is a family of specifications for two-dimensional vector graphics.
-
-These pages include links to specifications and educational materials.
-
-== Specific topics ==
-
+*[[SVG|SVG]]: Scalable Vector Graphics is a set of specifications for two-dimensional vector graphics.
 * [[Accessibility]]: Summary of Accessibility, including introduction to the basics and testing
-* [[concepts/mobile_web|Mobile web]]: List of all of our mobile web tutorials, from general introductions to complex topics
+
+These pages include links to references and tutorial materials.
 
 == Contribute to Web Platform Docs ==
 
