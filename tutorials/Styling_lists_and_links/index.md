@@ -1,1 +1,0 @@
-#REDIRECT [[tutorials/styling lists and links]]
