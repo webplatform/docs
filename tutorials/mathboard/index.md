@@ -49,7 +49,7 @@ When porting the application to HTML5 for PC usage, we had to make several modif
 
 The iPad MathBoard is exclusively vertically oriented, which was not optimal for PC displays as they are generally used in a horizontal fashion. Consequently, we reorganized the UI design and moved the settings panel to the right side, on a sliding view (animated by CSS3 transitions).
 
- [[Image:xMathBoard-CaseStudy-03-iPad-vs-HTML5.png.pagespeed.ic.CpH2GkHPN9.jpg|500px|Screen Orientation]] iPad vs. HTML5 screen orientation
+ [[Image:MathBoard-CaseStudy-03-iPad-vs-HTML5.png|500px|Screen Orientation]] iPad vs. HTML5 screen orientation
 
 ===Input: keyboard/mouse vs. touch===
 
