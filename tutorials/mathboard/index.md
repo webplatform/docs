@@ -31,7 +31,7 @@ The key requirements for this HTML5 porting project were the following:
 # Make the application "server-less" so that the application runs entirely on the client and could be hosted on a static server or Google Chrome packaged application.
 # Make a 1.0 version with all the features but the problem solver in less than a month.
 
-==Architecture==
+<h2 id="toc-architecture">Architecture</h2>
 
 [[Image:MathBoard-CaseStudy-02-Architecture.png|Architecture]]
 
@@ -65,7 +65,7 @@ TAB support was added to move from one input field to another and the ‚Üê and ‚Ü
 
 One feature in the iPad version that didn't make much sense for the PC interface was the drawing board. While it could have been fancy to implement it, drawing numbers with a mouse is not very practical. Instead, we decided to spend more time polishing the keyboard interface than implementing the drawing board.
 
-==HTML5 features==
+<h2 id="toc-features">HTML5 features</h2>
 
 In the Web version of MathBoard, we use many HTML5 features:
 
@@ -247,7 +247,7 @@ When users answer a quiz, the application makes a success or fail sound. The sim
  <audio id="audioCorrect" src="correct.mp3" preload="auto" autobuffer></audio>
  <audio id="audioWrong" src="wrong.mp3" preload="auto" autobuffer></audio>
 
-==Conclusion==
+<h2 id="toc-conclusion">Conclusion</h2>
 
 HTML5 is truly enabling a new breed of Web, desktop, and mobile applications. CSS3 was instrumental in customizing the look and feel of the application to closely match the high sophistication of MathBoard for iPad, HTML5 storage was a perfect fit for our data persistence, and the simplicity of HTML5 audio allowed us to closely replicate the iPad app.
 }}
