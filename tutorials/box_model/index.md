@@ -1,4 +1,6 @@
+{{Page_Title|Exploring the CSS box model}}
 {{Flags}}
+{{Byline}}
 {{Summary_Section|This article describes how you can use CSS to control the space that an element takes up when it is displayed.}}
 {{Tutorial
 |Content=== Information: Boxes ==
@@ -158,7 +160,7 @@ To get the result you want, you might have to change your document's markup. The
 <li> 
 <p>Refresh your browser to see the result:</p>
 
-<p class="note">Need to add in a screenshot to show what this should look like.</p>       
+<p class="note">Need to add in a screenshot to show what this should look like.</p>
 }}
 {{Compatibility_Section
 |Not_required=Yes
@@ -176,4 +178,6 @@ Add one rule to your stylesheet, making a wide border all around the oceans in a
 |Is_CC-BY-SA=Yes
 |Sources=MDN
 |MDN_link=https://developer.mozilla.org/en-US/docs/CSS/Getting_Started/Boxes
+|MSDN_link=
+|HTML5Rocks_link=
 }}
