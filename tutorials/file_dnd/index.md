@@ -1,16 +1,15 @@
-{{Page_Title}}
+{{Page_Title|Reading files in JavaScript using the File APIs}}
 {{Flags
 |High-level issues=Needs Flags
 }}
 {{Byline
 |Name=Eric Bidelman
+|URL=http://www.html5rocks.com/profiles/#ericbidelman
 |Published=June 18, 2010
 }}
 {{Summary_Section|An introduction to HTML5 JavaScript file API.}}
 {{Tutorial
-|Content==Reading files in JavaScript using the File APIs=
-
-==Introduction==
+|Content===Introduction==
 
 HTML5 finally provides a standard way to interact with local files, via the [http://www.w3.org/TR/file-upload/ File API] specification. As examples of its capabilities, the File API could be used to create a thumbnail preview of images as they're sent to the server, or to allow an app to save a file reference while the user is offline. Additionally, you could use client-side logic to verify that an upload's MIME type matches its file extension or to restrict the size of an upload.
 
