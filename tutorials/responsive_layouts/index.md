@@ -1,6 +1,8 @@
+{{Page_Title|Creating responsive layouts}}
 {{Flags
 |High-level issues=Stub
 }}
+{{Byline}}
 {{Summary_Section}}
 {{Tutorial}}
 {{Compatibility_Section
