@@ -1,1 +1,0 @@
-#REDIRECT [[tutorials/creating gradients in css]]
