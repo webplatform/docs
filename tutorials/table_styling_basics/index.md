@@ -1,4 +1,6 @@
+{{Page_Title|Table styling basics}}
 {{Flags}}
+{{Byline}}
 {{Summary_Section|This article describes more advanced selectors, and some specific ways that you can style tables.}}
 {{Tutorial
 |Content=== Information: Tables ==
