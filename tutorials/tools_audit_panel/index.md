@@ -1,12 +1,14 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Stub
+}}
+{{Byline
+|Name=Seth Ladd
+|Published=July 28, 2010
 }}
 {{Summary_Section|How to audit a web app for speed.}}
 {{Tutorial
 |Content==Auditing Your Web App For Speed=
-
-====original by Seth Ladd====
-====published July 28, 2010====
 
 ==Introduction==
 
@@ -135,5 +137,5 @@ The Audit Panel is an excellent and easy-to-use tool that will quickly show you 
 |Sources=HTML5Rocks
 |MDN_link=
 |MSDN_link=
-|HTML5Rocks_link=http://www.html5rocks.com/en/tutorials/developertools/auditpanel/
+|HTML5Rocks_link=http://www.html5rocks.com/tutorials/developertools/auditpanel/
 }}
