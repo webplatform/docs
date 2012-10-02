@@ -1,6 +1,11 @@
+{{Page_Title}}
 {{Flags
-|High-level issues=Stub
+|High-level issues=Stub, Merge Candidate
+|Editorial notes={{Editorial/Merge_Candidate
+|Other=http://docs.webplatform.org/wiki/concepts/mobile_web/About_mobile_JavaScript_best_practices
 }}
+}}
+{{Byline}}
 {{Summary_Section}}
 {{Tutorial}}
 {{Compatibility_Section
