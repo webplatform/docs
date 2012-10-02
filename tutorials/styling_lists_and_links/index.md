@@ -1,4 +1,6 @@
+{{Page_Title|Styling lists and links}}
 {{Flags}}
+{{Byline}}
 {{Summary_Section|This article covers styling fundamentals for lists and links.}}
 {{Tutorial
 |Content=== Introduction ==
