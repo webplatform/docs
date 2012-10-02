@@ -20,7 +20,7 @@
 * [[guides/html lists|HTML lists]]
 * [[guides/images in html|Images in HTML]]
 * [[guides/html links|HTML links]]
-* [[guide/html tables|HTML tables]]
+* [[guides/html tables|HTML tables]]
 * [[guides/html forms basics|HTML forms basics]]
 * [[guides/html5 form features|HTML5 form features]]
 * [[guides/html structural elements|HTML structural elements]]
