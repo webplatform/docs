@@ -2,7 +2,7 @@
 {{Flags}}
 {{Byline}}
 {{Summary_Section|This guide covers the basic fundamentals of CSS, including CSS anatomy, selectors, comments, and how to apply it to HTML.}}
-{{Guide
+{{Tutorial
 |Content=== Introduction ==
 
 Here we'll turn our attention to the basics of CSS, looking at how you can get started with this powerful styling language. You will learn about applying CSS to HTML documents, either as inline styles using <code>style</code> attributes, embedded styles in a <code>&lt;style&gt;</code> element in the document <code>&lt;head&gt;</code> or as external files in their own document.
