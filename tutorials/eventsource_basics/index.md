@@ -302,7 +302,6 @@ A [http://googlecodesamples.com/html5/sse/sse.html demo app] written in PHP is a
 
 * [http://dev.w3.org/html5/eventsource/ Server-Sent Events specification]
 * [http://www.whatwg.org/specs/web-apps/current-work/multipage/comms.html#authors Cross-document messaging security]
-
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -359,5 +358,5 @@ A [http://googlecodesamples.com/html5/sse/sse.html demo app] written in PHP is a
 |Sources=HTML5Rocks
 |MDN_link=
 |MSDN_link=
-|HTML5Rocks_link=http://www.html5rocks.com/en/tutorials/eventsource/basics/
+|HTML5Rocks_link=http://www.html5rocks.com/tutorials/eventsource/basics/
 }}
