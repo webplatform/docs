@@ -444,7 +444,7 @@ By design, browsers that don't understand the new input types (like <code>date</
 |Safari_prefixed_supported=No
 |Safari_prefixed_version=
 }}{{Compatibility Table Desktop Row
-|Feature= min, max and step
+|Feature=min, max and step
 |Chrome_supported=Yes
 |Chrome_version=5.0
 |Chrome_prefixed_supported=No
@@ -464,6 +464,28 @@ By design, browsers that don't understand the new input types (like <code>date</
 |Safari_supported=Yes
 |Safari_version=5.0
 |Safari_prefixed_supported=Unknown
+|Safari_prefixed_version=
+}}{{Compatibility Table Desktop Row
+|Feature=output
+|Chrome_supported=Yes
+|Chrome_version=13.0
+|Chrome_prefixed_supported=No
+|Chrome_prefixed_version=
+|Firefox_supported=Yes
+|Firefox_version=6.0
+|Firefox_prefixed_supported=No
+|Firefox_prefixed_version=
+|Internet_explorer_supported=Yes
+|Internet_explorer_version=10.0
+|Internet_explorer_prefixed_supported=No
+|Internet_explorer_prefixed_version=
+|Opera_supported=Yes
+|Opera_version=9.2
+|Opera_prefixed_supported=No
+|Opera_prefixed_version=
+|Safari_supported=Yes
+|Safari_version=5.1
+|Safari_prefixed_supported=No
 |Safari_prefixed_version=
 }}
 |Mobile_rows={{Compatibility Table Mobile Row
@@ -709,7 +731,7 @@ By design, browsers that don't understand the new input types (like <code>date</
 |Safari_mobile_prefixed_supported=No
 |Safari_mobile_prefixed_version=
 }}{{Compatibility Table Mobile Row
-|Feature= min, max and step
+|Feature=min, max and step
 |Android_supported=No
 |Android_version=
 |Android_prefixed_supported=No
@@ -729,6 +751,28 @@ By design, browsers that don't understand the new input types (like <code>date</
 |Safari_mobile_supported=No
 |Safari_mobile_version=
 |Safari_mobile_prefixed_supported=No
+|Safari_mobile_prefixed_version=
+}}{{Compatibility Table Mobile Row
+|Feature=output
+|Android_supported=Yes
+|Android_version=2.1
+|Android_prefixed_supported=Unknown
+|Android_prefixed_version=
+|Firefox_mobile_supported=Yes
+|Firefox_mobile_version=4.0
+|Firefox_mobile_prefixed_supported=Unknown
+|Firefox_mobile_prefixed_version=
+|IE_phone_supported=Unknown
+|IE_phone_version=
+|IE_phone_prefixed_supported=Unknown
+|IE_phone_prefixed_version=
+|Opera_mobile_supported=Unknown
+|Opera_mobile_version=
+|Opera_mobile_prefixed_supported=Unknown
+|Opera_mobile_prefixed_version=
+|Safari_mobile_supported=Yes
+|Safari_mobile_version=5
+|Safari_mobile_prefixed_supported=Unknown
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
