@@ -5,11 +5,9 @@
 {{Byline
 |Name=Eric Bidelman
 |URL=http://www.html5rocks.com/profiles/#ericbidelman
+|Published=Jan. 4, 2011, updated Jan. 27, 2012
 }}
-{{Summary_Section|An introduction to the HTML5 FileSystem API.
-
-Published '''Jan. 4, 2011''', updated '''Jan. 27, 2012'''
-}}
+{{Summary_Section|An introduction to the HTML5 FileSystem API.}}
 {{Tutorial
 |Content===Introduction==
 
