@@ -44,7 +44,7 @@ While browser support for WebSockets is straightforward, server-side support is 
     periodic_timer :check_activities, :every => 15
  
     def check_activities
-      @latest_activity ||= nil
+      @latest_activity {{!}}{{!}}= nil
       new_activities = find_activities_since(@latest_activity)
       @latest_activity = new_activities.first unless new_activities.empty?
       render new_activities.to_json
@@ -101,7 +101,7 @@ In recent months, Cramp has added support for EventSource. The code is very simi
    periodic_timer :latest, :every => 15
  
    def latest
-     @latest_activity ||= nil
+     @latest_activity &#124;&#124;= nil
      new_activities = find_activities_since(@latest_activity)
      @latest_activity = new_activities.first unless new_activities.empty?
      render new_activities.to_json
