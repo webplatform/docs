@@ -1,6 +1,8 @@
+{{Page_Title|Decorating fancy borders with CSS border-image}}
 {{Flags
 |High-level issues=Stub
 }}
+{{Byline}}
 {{Summary_Section|Article to cover CSS border-image in detail}}
 {{Tutorial}}
 {{Compatibility_Section
