@@ -290,9 +290,10 @@ If the server endpoint has enabled CORS, making the cross-origin request is no d
 
 ===Download + save files to the HTML5 file system===
 
-Let's say you have an image gallery and want to fetch a bunch of images then save them locally using the [[tutorials/file_filesystem|HTML5 File System]]. One way to accomplish this would be to request images as <code>Blob</code>s and write them out using <code>FileWriter</code><nowiki>:</nowiki>
+Let's say you have an image gallery and want to fetch a bunch of images then save them locally using the [[tutorials/file_filesystem|HTML5 File System]]. One way to accomplish this would be to request images as <code>Blob</code>s and write them out using <code>FileWriter</code>:
 
- window.requestFileSystem  = window.requestFileSystem {{!}}{{!}} window.webkitRequestFileSystem;
+<pre>
+ window.requestFileSystem  = window.requestFileSystem &#124;&#124; window.webkitRequestFileSystem;
  
  function onError(e) {
    console.log('Error', e);
