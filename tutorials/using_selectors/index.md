@@ -1,4 +1,6 @@
+{{Page_Title|Selectors fundamentals}}
 {{Flags}}
+{{Byline}}
 {{Summary_Section|This guide looks at CSS selectors — the mechanism you use to select which element receives styles — in detail, the different types of selector available, and how different kinds of selectors have different priorities.}}
 {{Guide
 |Content=== Information: Selectors ==
@@ -292,6 +294,12 @@ to be applied to an HTML structure like the following:
 &lt;/div&gt;</pre>
  
 See see our complete [[CSS-based drop down menu example]] for a possible cue.
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section}}
 {{Topics|CSS}}
