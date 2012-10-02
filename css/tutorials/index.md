@@ -43,7 +43,7 @@
 ==CSS best practices==
 
 * [[tutorials/making css easier to read|Making CSS easier to read]]
-* [[tutorials/optimising css|Optimising CSS]]
+* [[tutorials/optimizing css|Optimizing CSS]]
 * [[tutorials/state in css|State in CSS]]
 
 ==CSS transforms and animation==
