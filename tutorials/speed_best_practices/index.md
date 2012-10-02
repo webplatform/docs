@@ -1,11 +1,14 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Flags
+}}
+{{Byline
+|Name=Paul Irish
+|Published=June 18, 2010
 }}
 {{Summary_Section|Tips to improve HTML5 web app performance.}}
 {{Tutorial
 |Content==Best Practices for a Faster Web App with HTML5=
-====original by Paul Irish====
-====published June 18, 2010====
 
 ==Introduction==
 
@@ -617,5 +620,5 @@ The [http://www.html5rocks.com/tutorials/developertools/part1/ guide to Chrome's
 |Sources=HTML5Rocks
 |MDN_link=
 |MSDN_link=
-|HTML5Rocks_link=http://www.html5rocks.com/en/tutorials/speed/quick/
+|HTML5Rocks_link=http://www.html5rocks.com/tutorials/speed/quick/
 }}
