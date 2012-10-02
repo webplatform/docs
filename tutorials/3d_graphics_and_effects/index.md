@@ -8,7 +8,7 @@
 * [[tutorials/Basic_shapes|Basic shapes]]
 }}
 {{Compatibility_Section
-|Not_required=No
+|Not_required=Yes
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
