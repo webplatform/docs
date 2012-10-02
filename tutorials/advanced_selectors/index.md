@@ -1,1 +1,0 @@
-#REDIRECT [[guides/advanced selectors guide]]
