@@ -1,5 +1,6 @@
-{{Page_Title}}
+{{Page_Title|Inheritance and cascade}}
 {{Flags}}
+{{Byline}}
 {{Summary_Section|This guide explains inheritance and the cascade, two fundamental concepts in CSS.}}
 {{Guide
 |Content=== Introduction ==
