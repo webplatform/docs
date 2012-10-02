@@ -6,6 +6,14 @@
 |Content=* [[tutorials/20thing_pageflip|Case study: page flip effect from 20thingsilearned.com]]
 * [[tutorials/3d_css|3D and CSS]]
 * [[tutorials/Basic_shapes|Basic shapes]]
+* [[tutorials/canvas/Canvas_tutorial|Introduction to Canvas]]
+* [[tutorials/canvas_notearsgame|No tears guide to HTML5 game development (using canvas)]]
+* [[tutorials/canvas_texteffects|Canvas text effects]]
+
+See also:
+
+* [[SVG/tutorials|SVG Tutorials]]
+* [[CSS/tutorials|CSS Tutorials]]
 }}
 {{Compatibility_Section
 |Not_required=Yes
