@@ -13,45 +13,33 @@
 JavaScript recognizes the following types of values:
 
 * [[js/data-types/number|Numbers]], such as 42 or 3.14159
-* [js/data-types/boolean Logical (Boolean)] values, either <code>true</code> or <code>false</code>
-* [js/data-types/string Strings], such as "Howdy!"
+* [[js/data-types/boolean|Logical (Boolean)]] values, either <code>true</code> or <code>false</code>
+* [[js/data-types/string|Strings]], such as "Howdy!"
 * <code>null</code>, a special keyword denoting a null value; <code>null</code> is also a primitive value. Because JavaScript is case-sensitive, <code>null</code> is not the same as <code>Null</code>, <code>NULL</code>, or any other variant
-* <code>[/en-US/docs/JavaScript/Reference/Global_Objects/undefined undefined]</code>, a top-level property whose value is undefined; <code>undefined</code> is also a primitive value.
+* <code>[[js/objects/undefined|undefined]]</code>, a top-level property whose value is undefined; <code>undefined</code> is also a primitive value.
 
-This relatively small set of types of values, or ''data types'', enables you to perform useful functions with your applications. There is no explicit distinction between integer and real-valued numbers. Nor is there an explicit date data type in JavaScript. However, you can use the <code>[/en-US/docs/JavaScript/Reference/Global_Objects/Date Date]</code> object and its methods to handle dates.
+This relatively small set of types of values, or ''data types'', enables you to perform useful functions with your applications. There is no explicit distinction between integer and real-valued numbers. Nor is there an explicit date data type in JavaScript. However, you can use the <code>[[js/objects/date|Date]]</code> object and its methods to handle dates.
 
-[/en-US/docs/JavaScript/Reference/Global_Objects/Object Objects] and [/en-US/docs/JavaScript/Reference/Global_Objects/Function functions] are the other fundamental elements in the language. You can think of objects as named containers for values, and functions as procedures that your application can perform.
+[[js/objects|Objects]] and [[js/functions|functions]] are the other fundamental elements in the language. You can think of objects as named containers for values, and functions as procedures that your application can perform.
 
 ===Data type conversion===
 
 JavaScript is a dynamically typed language. That means you do not have to specify the data type of a variable when you declare it, and data types are converted automatically as needed during script execution. So, for example, you could define a variable as follows:
 
-<div style="overflow: hidden">
-
- 
  var answer = 42;
-
-</div>
 
 And later, you could assign the same variable a string value, for example:
 
-<div style="overflow: hidden">
-
- 
  answer = "Thanks for all the fish...";
 
-</div>
-
-Because JavaScript is dynamically typed, this assignment does not cause an error message.
+Because JavaScript is dynamically typed, this assignment does not cause an error message. But abusing dynamic typing may cause a performance problem. 
 
 In expressions involving numeric and string values with the + operator, JavaScript converts numeric values to strings. For example, consider the following statements:
-
  
  x = "The answer is " + 42 // returns "The answer is 42"
  y = 42 + " is the answer" // returns "42 is the answer"
 
 In statements involving other operators, JavaScript does not convert numeric values to strings. For example:
-
  
  "37" - 7 // returns 30
  "37" + 7 // returns "377"
@@ -62,14 +50,13 @@ In the case that a value representing a number is in memory as a string, there a
 
 ====<code>parseInt()</code> and <code>parseFloat()</code>====
 
-See: <code>[/en-US/docs/JavaScript/Reference/Global_Objects/parseInt parseInt()]</code> and <code>[/en-US/docs/JavaScript/Reference/Global_Objects/parseFloat parseFloat()]</code> pages.
+See: <code>[[js/objects/parseInt|parseInt()]]</code> and <code>[[js/objects/parseFloat|parseFloat()]]</code> pages.
 
 <code>parseInt</code> will only return whole numbers, so its use is diminished for decimals. Additionally, a best practice for <code>parseInt</code> is to always include the radix parameter.
 
 ====Plus operator====
 
 An alternative method of retrieving a number from a string is with the <code>+</code> operator.
-
  
  "1.1" + "1.1" = "1.11.1"
  (+"1.1") + (+"1.1") = 2.2   // Note: the parentheses are added for clarity, not required.
@@ -88,7 +75,7 @@ Some examples of legal names are <code>Number_hits</code>, <code>temp99</code>, 
 
 You can declare a variable in two ways:
 
-* With the keyword [/en-US/docs/JavaScript/Reference/Statements/var var]. For example, <code>var x = 42</code>. This syntax can be used to declare both [#Variable_Scope local and global] variables.
+* With the keyword [[js/statements/var|var]]. For example, <code>var x = 42</code>. This syntax can be used to declare both [#Variable_Scope local and global] variables.
 * By simply assigning it a value. For example, <code>x = 42</code>. This always declares a [#Global_Variables global variable] and generates a strict JavaScript warning. You shouldn't use this variant.
 
 ===Evaluating variables===
