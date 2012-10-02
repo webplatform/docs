@@ -14,6 +14,8 @@
 * [[tutorials/using selectors|Using selectors]]
 * [[guides/advanced selectors guide|Advanced selectors guide]]
 * [[tutorials/inheritance and cascade|Inheritance and cascade]]
+* [[guides/css shorthand|CSS shorthand guide]]
+* [[tutorials/debugging css|Debugging CSS]]
 
 ==Working with fonts and text==
 
@@ -36,14 +38,27 @@
 * [[tutorials/layout fundamentals|Exploring CSS layout fundamentals]]
 * [[tutorials/floats and clearing|Page layout with floats and clearing]]
 * [[tutorials/static and relative positioning|Understanding static and relative positioning]]
+* [[tutorials/absolute and fixed positioning|Advanced layouts with absolute and fixed positioning]]
 
 ==CSS best practices==
 
 * [[tutorials/making css easier to read|Making CSS easier to read]]
+* [[tutorials/optimising css|Optimising CSS]]
+* [[tutorials/state in css|State in CSS]]
+
+==CSS transforms and animation==
+
+* [[tutorials/css transforms|Using CSS3 transforms]]
+* [[tutorials/css transitions|Dynamic visual effects with CSS3 transitions]]
+* [[tutorials/css animations|Making things move with CSS3 animations]]
 
 ==Advanced CSS techniques==
 
 * [[tutorials/generated content|Generating content with CSS]]
+* [[tutorials/manipulating css with javascript|Manipulating CSS with JavaScript]]
+* [[tutorials/styling svg with css|Styling SVG with CSS]]
+* [[tutorials/styling xml with css|Styling XML data with CSS]]
+* [[tutorials/object fit|Manipulating replaced content with object-fit]]
 
 ==Applied styling exercises==
 
@@ -51,6 +66,12 @@
 * [[guides/styling tables|Styling HTML tables]]
 * [[tutorials/table styling basics|Table styling basics]]
 * [[guides/styling forms guide|Styling forms — the ultimate guide]]
+
+==CSS for mobile and devices==
+
+* [[tutorials/targetting css at different media|Targetting CSS at different media types]] 
+* [[tutorials/media queries|Targetting CSS with media queries]]
+* [[tutorials/responsive layouts|Creating responsive layouts]]
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
