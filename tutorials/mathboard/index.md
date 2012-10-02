@@ -1,17 +1,13 @@
-{{Page_Title}}
+{{Page_Title|HTML5 MathBoard}}
 {{Flags}}
-{{Byline}}
-{{Summary_Section}}
+{{Byline
+|Name=Jeremy Chone
+|URL=http://www.html5rocks.com/profiles/#jeremychone
+|Published=January 28, 2011
+}}
+{{Summary_Section|[http://itunes.apple.com/us/app/mathboard/id373909837?mt=8 MathBoard on iPad], a [http://www.palasoftware.com/MathBoard.html PalaSoftware] application, is a highly polished application with many subtle but natural animations and a unique realistic look and feel. The goal was to do the highest fidelity port of the iPad application to HTML5.}}
 {{Tutorial
-|Content==Case Study: HTML5 MathBoard=
-
- [/profiles/#jeremychone [[Image:xjeremychone.75.png.pagespeed.ic.u12WmL96Ms.jpg|75px|Jeremy Chone]]]
-
-==By '''[/profiles/#jeremychone Jeremy Chone]'''==
-
-<div class="date">Published '''Jan. 28, 2011'''</div>  [http://www.w3.org/html/logo/  [[Image:133x64xhtml5-badge-h-graphics.png.pagespeed.ic.IB7MV9PMeL.png|133px|This article is powered by HTML5 Graphics, 3D & Effects]] ]
-
-==Introduction==
+|Content===Introduction==
 
 [[Image:146x203xMathBoard-CaseStudy-01-iPad-Screenshot.png.pagespeed.ic.eUzO0GFG8D.jpg|146px|MathBoard application]]
 
@@ -263,7 +259,6 @@ Except as otherwise [http://code.google.com/policies.html#restrictions noted], t
 </div>
 
 <span class="browsers"> <span class="browser opera supported"> <span class="browser_name">Opera</span> <span class="support"> supported </span> </span> <span class="browser ie "> <span class="browser_name">IE</span> <span class="support"> unsupported </span> </span> <span class="browser safari supported"> <span class="browser_name">Safari</span> <span class="support"> supported </span> </span> <span class="browser ff supported"> <span class="browser_name">Firefox</span> <span class="support"> supported </span> </span> <span class="browser chrome supported"> <span class="browser_name">Chrome</span> <span class="support"> supported </span> </span> </span><div class="compatible-block">
-
 }}
 {{Compatibility_Section
 |Not_required=No
