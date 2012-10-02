@@ -83,14 +83,12 @@ You can declare a variable in two ways:
 A variable declared using the <code>var</code> statement with no initial value specified has the value <code>[/en-US/docs/JavaScript/Reference/Global_Objects/undefined undefined]</code>.
 
 An attempt to access an undeclared variable will result in a <code>ReferenceError</code> exception being thrown:
-
  
  var a;
  console.log("The value of a is " + a); // prints "The value of a is undefined"
  console.log("The value of b is " + b); // throws ReferenceError exception
 
 You can use <code>undefined</code> to determine whether a variable has a value. In the following code, the variable <code>input</code> is not assigned a value, and the <code>[/en-US/docs/JavaScript/Reference/Statements/if...else if]</code> statement evaluates to <code>true</code>.
-
  
  var input;
  if(input === undefined){
@@ -102,19 +100,16 @@ You can use <code>undefined</code> to determine whether a variable has a value. 
 <span class="comment">The following is related to "Variables" section as potential values in assignment.</span>
 
 The <code>undefined</code> value behaves as <code>false</code> when used in a boolean context. For example, the following code executes the function <code>myFunction</code> because the <code>myArray</code> element is not defined:
-
  
  var myArray = new Array();
  if (!myArray[0]) myFunction(); 
 
 The <code>undefined</code> value converts to <code>NaN</code> when used in numeric context.
-
  
  var a;
  a + 2 = NaN
 
 When you evaluate a null variable, the null value behaves as 0 in numeric contexts and as false in boolean contexts. For example:
-
  
  var n = null;
  console.log(n * 32); // prints 0
@@ -124,7 +119,6 @@ When you evaluate a null variable, the null value behaves as 0 in numeric contex
 When you declare a variable outside of any function, it is called a ''global'' variable, because it is available to any other code in the current document. When you declare a variable within a function, it is called a ''local'' variable, because it is available only within that function.
 
 JavaScript does not have [/en-US/docs/JavaScript/Guide/Statements#Block_Statement block statement] scope; rather, it will be local to the code that the block resides within. For example the following code will log <code>5</code>, because the scope of <code>x</code> is the function (or global context) within which <code>x</code> is declared, not the block, which in this case is an <code>if</code> statement.
-
  
  if (true) {
    var x = 5;
@@ -132,14 +126,12 @@ JavaScript does not have [/en-US/docs/JavaScript/Guide/Statements#Block_Statemen
  console.log(x);
 
 Another unusual thing about variables in JavaScript is that you can refer to a variable declared later, without getting an exception. This concept is known as hoisting; variables in JavaScript are in a sense "hoisted" or lifted to the top of the function or statement. However, variables that aren't initialized yet will return a value of <code>undefined</code>.
-
  
  /**
   * Example 1
   */
  console.log(x === undefined); // logs "true"
  var x = 3;
- 
  
  /**
   * Example 2
@@ -153,7 +145,6 @@ Another unusual thing about variables in JavaScript is that you can refer to a v
  })();
 
 Example 2, above, will be interpreted the same as:
-
  
  var myvar = "my value";
  
@@ -174,7 +165,6 @@ Consequently, you can access global variables declared in one window or frame fr
 ==Constants==
 
 You can create a read-only, named constant with the <code>[/en-US/docs/JavaScript/Reference/Statements/const const]</code> keyword. The syntax of a constant identifier is the same as for a variable identifier: it must start with a letter or underscore and can contain alphabetic, numeric, or underscore characters.
-
  
  const prefix = '212';
 
@@ -183,7 +173,6 @@ A constant cannot change value through assignment or be re-declared while the sc
 The scope rules for constants are the same as those for variables, except that the <code>const</code> keyword is always required, even for global constants. If the keyword is omitted, the identifier is assumed to represent a variable.
 
 You cannot declare a constant with the same name as a function or variable in the same scope. For example:
-
  
  // THIS WILL CAUSE AN ERROR
  function f() {};
@@ -213,7 +202,6 @@ You use literals to represent values in JavaScript. These are fixed values, not 
 An array literal is a list of zero or more expressions, each of which represents an array element, enclosed in square brackets ([]). When you create an array using an array literal, it is initialized with the specified values as its elements, and its length is set to the number of arguments specified.
 
 The following example creates the <code>coffees</code> array with three elements and a length of three:
-
  
  var coffees = ["French Roast", "Colombian", "Kona"];
 
@@ -226,24 +214,20 @@ Array literals are also <code>Array</code> objects. See [/en-US/docs/JavaScript/
 ====Extra commas in array literals====
 
 You do not have to specify all elements in an array literal. If you put two commas in a row, the array is created with <code>undefined</code> for the unspecified elements. The following example creates the <code>fish</code> array:
-
  
  var fish = ["Lion", , "Angel"];
 
 This array has two elements with values and one empty element (<code>fish[0]</code> is "Lion", <code>fish[1]</code> is <code>undefined</code>, and <code>fish[2]</code> is "Angel").
 
 If you include a trailing comma at the end of the list of elements, the comma is ignored. In the following example, the length of the array is three. There is no <code>myList[3]</code>. All other commas in the list indicate a new element. ('''Note''' trailing commas can create errors in older browser versions and it is a best practice to remove them)
-
  
  var myList = ['home', , 'school', ];
 
 In the following example, the length of the array is four, and <code>myList[0]</code> and <code>myList[2]</code> are missing.
-
  
  var myList = [ , 'home', , 'school'];
 
 In the following example, the length of the array is four, and <code>myList[1]</code> and <code>myList[3]</code> are missing. Only the last comma is ignored.
-
  
  var myList = ['home', , 'school', , ];
 
@@ -266,7 +250,6 @@ Integers can be expressed in decimal (base 10), hexadecimal (base 16), and octal
 Octal integer literals are deprecated and have been removed from the ECMA-262, Edition 3 standard (in ''strict mode''). JavaScript 1.5 still supports them for backward compatibility.
 
 Some examples of integer literals are:
-
  
  0, 117 and -345 (decimal, base 10)
  015, 0001 and -077 (octal, base 8) 
@@ -286,12 +269,10 @@ The exponent part is an "e" or "E" followed by an integer, which can be signed (
 Some examples of floating-point literals are 3.1415, -3.1E12, .1e12, and 2E-12.
 
 More succinctly, the syntax is:
-
  
  [digits][.digits][(E{{!}}e)[(+{{!}}-)]digits]
 
 For example:
-
  
  3.14
  2345.789
@@ -302,7 +283,6 @@ For example:
 An object literal is a list of zero or more pairs of property names and associated values of an object, enclosed in curly braces ({}). You should not use an object literal at the beginning of a statement. This will lead to an error or not behave as you expect, because the { will be interpreted as the beginning of a block.
 
 The following is an example of an object literal. The first element of the <code>car</code> object defines a property, <code>myCar</code><nowiki>; the second element, the </nowiki><code>getCar</code> property, invokes a function <code>(CarTypes("Honda"));</code> the third element, the <code>special</code> property, uses an existing variable (<code>Sales</code>).
-
  
  var Sales = "Toyota";
  
@@ -319,7 +299,6 @@ The following is an example of an object literal. The first element of the <code
  console.log(car.special); // Toyota 
 
 Additionally, you can use a numeric or string literal for the name of a property or nest an object inside another. The following example uses these options.
-
  
  var car = { manyCars: {a: "Saab", "b": "Jeep"}, 7: "Mazda" };
  
@@ -327,7 +306,6 @@ Additionally, you can use a numeric or string literal for the name of a property
  console.log(car[7]); // Mazda
 
 Please note:
-
  
  var foo = {a: "alpha", 2: "two"};
  console.log(foo.a);    // alpha
@@ -348,7 +326,6 @@ A string literal is zero or more characters enclosed in double (<code>"</code>) 
 * <code>"John's cat"</code>
 
 You can call any of the methods of the String object on a string literal value—JavaScript automatically converts the string literal to a temporary String object, calls the method, then discards the temporary String object. You can also use the <code>String.length</code> property with a string literal:
-
  
  "John's cat".length
 
@@ -357,7 +334,6 @@ You should use string literals unless you specifically need to use a String obje
 ====Using special characters in strings====
 
 In addition to ordinary characters, you can also include special characters in strings, as shown in the following example.
-
  
  "one line \n another line"
 
@@ -411,23 +387,19 @@ The following table lists the special characters that you can use in JavaScript 
 For characters not listed in Table 2.1, a preceding backslash is ignored, but this usage is deprecated and should be avoided.
 
 You can insert a quotation mark inside a string by preceding it with a backslash. This is known as ''escaping'' the quotation mark. For example:
-
  
  var quote = "He read \"The Cremation of Sam McGee\" by R.W. Service.";
  console.log(quote);
 
 The result of this would be:
-
  
  He read "The Cremation of Sam McGee" by R.W. Service.
 
 To include a literal backslash inside a string, you must escape the backslash character. For example, to assign the file path <code>c:\temp</code> to a string, use the following:
-
  
  var home = "c:\\temp";
 
 You can also escape line breaks by preceding them with backslash. The backslash and line break are both removed from the value of the string.
-
  
  var str = "this string \
  is broken \
@@ -436,7 +408,6 @@ You can also escape line breaks by preceding them with backslash. The backslash 
  <span class="objectBox objectBox-text ">console.log(str);</span>   // <span class="objectBox objectBox-text ">this string is broken across multiplelines.</span>
 
 Although JavaScript does not have "heredoc" syntax, you can get close by adding a linebreak escape and an escaped linebreak at the end of each line:
-
  
  var poem = 
  "Roses are red,\n\
@@ -467,7 +438,6 @@ JavaScript and Navigator support for UTF-8/Unicode means you can use non-Latin, 
 You can use the Unicode escape sequence in string literals, regular expressions, and identifiers. The escape sequence consists of six ASCII characters: \u and a four-digit hexadecimal number. For example, \u00A9 represents the copyright symbol. Every Unicode escape sequence in JavaScript is interpreted as one character.
 
 The following code returns the copyright symbol and the string "Netscape Communications".
-
  
  var x = "\u00A9 Netscape Communications";
 
