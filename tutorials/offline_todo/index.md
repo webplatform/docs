@@ -1,13 +1,15 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Flags
 |Editorial notes=Links point to HTML5Rocks! that should point to internal copies.
 }}
+{{Byline
+|Name=Paul Kinlan
+|Published=published June 18, 2010, updated Sept. 4, 2012
+}}
 {{Summary_Section|A guide to taking web apps offline.}}
 {{Tutorial
 |Content==A Practical Guide to Taking Your TODO List Offline=
-
-====original by Paul Kinlan====
-====published June 18, 2010, updated Sept. 4, 2012====
 
 ==Introduction==
 
@@ -219,5 +221,5 @@ But the best thing of all is, your application will still work online with brows
 |Sources=HTML5Rocks
 |MDN_link=
 |MSDN_link=
-|HTML5Rocks_link=http://www.html5rocks.com/en/tutorials/offline/takingappoffline/
+|HTML5Rocks_link=http://www.html5rocks.com/tutorials/offline/takingappoffline/
 }}
