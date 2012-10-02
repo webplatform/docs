@@ -1,4 +1,6 @@
+{{Page_Title|Advanced selectors}}
 {{Flags}}
+{{Byline}}
 {{Summary_Section|This guide gives a detailed explanation of most of the advanced CSS selectors available.}}
 {{Guide
 |Content=== Introduction ==
@@ -436,7 +438,6 @@ These selectors are not supported in IE 7 or below. Also note that you shouldn't
 === CSS3 pseudo-element double colon syntax ===
 
 Please note that the new CSS3 way of writing pseudo-elements is to use a double colon, e.g. <code>a::after { … }</code>, to set them apart from pseudo-classes. You may see this sometimes in CSS. CSS3 however also still allows for single colon pseudo-elements, for the sake of backwards compatibility, and we would advise that you stick with this syntax for the time being.
-
 |character dictates that this selector should select an <code>&lt;article&gt;</code> element whose <code>id</code> attribute value is a list of hyphen-separated values, but only if the leftmost one of those values is <code>english</code>_ 
 
 Note that these are not supported by IE8 and below_== Child selector ==
@@ -781,8 +782,17 @@ These selectors are not supported in IE 7 or below. Also note that you shouldn't
 
 Please note that the new CSS3 way of writing pseudo-elements is to use a double colon, eg <code>a::after { ... }</code>, to set them apart from pseudo-classes. You may see this sometimes in CSS. CSS3 however also still allows for single colon pseudo-elements, for the sake of backwards compatibility, and we would advise that you stick with this syntax for the time being.
 }}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
 {{See_Also_Section}}
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
 }}
