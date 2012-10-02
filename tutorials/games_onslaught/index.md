@@ -1,6 +1,8 @@
 {{Page_Title|Onslaught! Arena}}
 {{Flags}}
 {{Byline
+|Name=Matt Hackett
+|URL=http://www.html5rocks.com/profiles/#matthackett
 |Published=Februrary 10, 2011
 }}
 {{Summary_Section}}
