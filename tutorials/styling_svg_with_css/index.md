@@ -1,4 +1,6 @@
+{{Page_Title|Styling SVG with CSS}}
 {{Flags}}
+{{Byline}}
 {{Summary_Section|This article covers the basics of styling SVG content with CSS.}}
 {{Tutorial
 |Content==== Information: SVG ===
@@ -177,7 +179,6 @@ Notes:
 |Manual_sections===Exercise question==
 
 Change the stylesheet so that the inner petals all turn pink when the mouse pointer is over any one of them, without changing the way the outer petals work.
-
 }}
 {{Topics|CSS}}
 {{External_Attribution
