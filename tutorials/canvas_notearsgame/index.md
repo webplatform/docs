@@ -517,5 +517,5 @@ I hope you enjoyed learning the basics of making a simple game in JavaScript and
 |Sources=HTML5Rocks
 |MDN_link=
 |MSDN_link=
-|HTML5Rocks_link=http://www.html5rocks.com/en/tutorials/canvas/notearsgame/
+|HTML5Rocks_link=http://www.html5rocks.com/tutorials/canvas/notearsgame/
 }}
