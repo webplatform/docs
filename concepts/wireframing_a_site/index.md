@@ -1,5 +1,6 @@
+{{Page_Title|Wireframing a site}}
 {{Flags}}
-{{API_Name}}
+{{Byline}}
 {{Summary_Section|Every web designer should know and understand a Web site’s parameters before lifting a finger to start designing the site. In this section of the Web Standards Curriculum, you will learn the basics required to start designing business Web sites. While this information is useful if you want to build sites for others, it can also serve as a checklist article for sites you want to build for yourself. This is usually the stage that comes after [http://www.w3.org/wiki/Information_Architecture_-_planning_out_a_web_site information architecture]—you should collect information on what the client wants on their site and how it should be structured, what kind of branding that company uses, and then use that information to build up a visual design mockup that you can ok with the client before you add graphics and colour schemes on to it. Specifically, I’ll cover the following:
  
 * Although colour and design are important, you need to understand what the client wants to accomplish with his or her Web site. This information will have a heavy bearing on the site’s look and feel.
@@ -132,13 +133,11 @@ The web designer often wears many hats, because Web site design is based upon ma
  
 So, beyond colour and graphics, a foundation needs to be laid to build that Web site upon. The business of building a site affects the design, and any issues that might become problems down the road can be ironed out in the planning phases. This ability to resolve issues before they arise makes for a professional designer. Once the foundation has been laid and the architecture and wireframe of the site has been developed, the designer then can begin to work with colour schemes to develop the full Web site for client approval.
 }}
-{{Examples_Section
-|Not_required=Yes
-|Examples=
-}}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications=
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
 |Manual_links=* [http://www.diveindesigns.com/home/dd1/page_17 Dive In Designs checklist]
@@ -163,4 +162,18 @@ So, beyond colour and graphics, a foundation needs to be laid to build that Web 
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
+}}
+{{API_Name}}
+
+
+{{Examples_Section
+|Not_required=Yes
+|Examples=
+}}
+{{Notes_Section}}
+{{Related_Specifications_Section
+|Specifications=
 }}
