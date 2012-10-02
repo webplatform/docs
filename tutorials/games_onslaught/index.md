@@ -430,7 +430,7 @@ Except as otherwise [http://code.google.com/policies.html#restrictions noted], t
 }}
 }}
 {{See_Also_Section}}
-{{Topics}}
+{{Topics|Audio, Canvas, CSS, Design, Graphics, Performance, Webstorage}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=HTML5Rocks
