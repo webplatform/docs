@@ -33,7 +33,7 @@ Fetching a file as a binary blob has been painful with XHR. Technically, it wasn
   xhr.onreadystatechange = function(e) {
    if (this.readyState == 4 && this.status == 200) {
      var binStr = this.responseText;
-     for (var i = 0, len = binStr.length; i < len; ++i) {
+     for (var i = 0, len = binStr.length; i &lt; len; ++i) {
        var c = binStr.charCodeAt(i);
        //String.fromCharCode(c & 0xff);
        var byte = c & 0xff;  // byte at offset i
@@ -189,9 +189,9 @@ Of course, you don't need to create a <code><form></code> from scratch. <code>Fo
 
 <pre>
  &lt;form id="myform" name="myform" action="/server">
-   <input type="text" name="username" value="johndoe">
-   <input type="number" name="id" value="123456">
-   <input type="submit" onclick="return sendForm(this.form);">
+   &lt;input type="text" name="username" value="johndoe">
+   &lt;input type="number" name="id" value="123456">
+   &lt;input type="submit" onclick="return sendForm(this.form);">
  &lt;/form>
  
  function sendForm(form) {
@@ -317,7 +317,7 @@ If the server endpoint has enabled CORS, making the cross-origin request is no d
 Let's say you have an image gallery and want to fetch a bunch of images then save them locally using the [[tutorials/file_filesystem|HTML5 File System]]. One way to accomplish this would be to request images as <code>Blob</code>s and write them out using <code>FileWriter</code>:
 
 <pre>
- window.requestFileSystem  = window.requestFileSystem {{!}}{{!}} window.webkitRequestFileSystem;
+ window.requestFileSystem  = window.requestFileSystem &#124;&#124; window.webkitRequestFileSystem;
  
  function onError(e) {
    console.log('Error', e);
@@ -372,7 +372,7 @@ Using the [[tutorials/file_dnd|File APIs]], we can minimize the work to upload a
    var start = 0;
    var end = BYTES_PER_CHUNK;
  
-   while(start < SIZE) {
+   while(start &lt; SIZE) {
      upload(blob.slice(start, end));
  
      start = end;
