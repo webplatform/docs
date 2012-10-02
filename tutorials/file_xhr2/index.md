@@ -44,6 +44,34 @@ Fetching a file as a binary blob has been painful with XHR. Technically, it wasn
 
 While this works, what you actually get back in the <code>responseText</code> is not a binary blob. It is a binary string representing the image file. We're tricking the server into passing the data back, unprocessed. Even though this little gem works, I'm going to call it black magic and advise against it. Anytime you resort to character code hacks and string manipulation for coercing data into a desirable format, that's a problem.
 
+<h3 id="toc-response">Specifying a response format</h3>
+
+In the previous example, we downloaded the image as a binary "file" by overriding the server's mime type and processing the response text as a binary string. Instead, let's leverage <code>XMLHttpRequest</code>'s new <code>responseType</code> and <code>response</code> properties to inform the browser what format we want the data returned as.
+
+; xhr.'''responseType'''
+: Before sending a request, set the <code>xhr.responseType</code> to "text", "arraybuffer", "blob", or "document", depending on your data needs. Note, setting <code>xhr.responseType = ''</code> (or omitting) will default the response to "text".
+; xhr.'''response'''
+: After a successful request, the xhr's response property will contain the requested data as a <code>DOMString</code>, <code>ArrayBuffer</code>, <code>Blob</code>, or <code>Document</code> (depending on what was set for <code>responseType</code>.)
+
+With this new awesomeness, we can rework the previous example, but this time, fetch the image as an <code>Blob</code> instead of a string:
+
+<pre>
+ var xhr = new XMLHttpRequest();
+ xhr.open('GET', '/path/to/image.png', true);
+ '''xhr.responseType = 'blob';'''
+ 
+ '''xhr.onload''' = function(e) {
+   if (this.status == 200) {
+     // Note: .response instead of .responseText
+     var blob = new Blob([this.response], {type: 'image/png'});
+     ...
+   }
+ };
+ 
+ xhr.send();
+</pre>
+
+Much nicer!
 }}
 {{Compatibility_Section
 |Not_required=No
