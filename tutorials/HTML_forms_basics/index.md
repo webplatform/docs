@@ -1,1 +1,0 @@
-#REDIRECT [[guides/html forms basics]]
