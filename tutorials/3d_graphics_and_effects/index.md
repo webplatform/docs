@@ -12,7 +12,7 @@
 
 See also:
 
-* [[SVG/tutorials|SVG Tutorials]]
+* [[SVG/Tutorials|SVG Tutorials]]
 * [[CSS/tutorials|CSS Tutorials]]
 }}
 {{Compatibility_Section
