@@ -1,4 +1,6 @@
+{{Page_Title|CSS text quick start}}
 {{Flags}}
+{{Byline}}
 {{Summary_Section|This tutorial provides a quick instruction on styling text with CSS.}}
 {{Tutorial
 |Content=== Information on text styles ==
