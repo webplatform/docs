@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |Content=Outdated, Not Neutral
-|Editorial notes=The table that maps JavaScript versions to Navigator/Firefox versions could be expanded to include other browsers, or just deleted. The table of NES versions should be deleted. Discussion of browser tools should be made cross-browser.
+|Editorial notes=The table that maps JavaScript versions to Navigator/Firefox versions could be expanded to include other browsers, or just deleted. Mentioning of ECMAScript would be nice.
 |Compatibility=Outdated, Incomplete
 }}
 {{Byline}}
@@ -58,20 +58,6 @@ Some programming experience with a language such as C or Visual Basic is useful,
 {{!}}-
 {{!}} JavaScript 1.8 
 {{!}} Firefox 3, other Gecko 1.9-based products
-{{!}}}
-
-Each version of the Netscape Enterprise Server also supports a different version of JavaScript. To help you write scripts that are compatible with multiple versions of the Enterprise Server, this manual uses an abbreviation to indicate the server version in which each feature was implemented.
-
-'''Table 2 Abbreviations of Netscape Enterprise Server versions'''
-{{{!}}
-!Abbreviation
-!Enterprise Server version
-{{!}}-
-{{!}} NES 2.0 
-{{!}} Netscape Enterprise Server 2.0
-{{!}}-
-{{!}} NES 3.0 
-{{!}} Netscape Enterprise Server 3.0
 {{!}}}
 
 == Where to find JavaScript information ==
