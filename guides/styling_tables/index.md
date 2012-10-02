@@ -2,7 +2,7 @@
 {{Flags}}
 {{Byline}}
 {{Summary_Section|This article provides a guide to the fundamental styling options available for tables.}}
-{{Tutorial
+{{Guide
 |Content=== Introduction ==
  
 At times it seems that tables are a little misunderstood in modern web development. So much attention is given to "don’t use tables!" that people sometimes forget the issue is actually "don’t use tables ''for layout''". Tables are excellent for their true purpose—displaying tabular data. So it makes sense to know how to style them properly.
