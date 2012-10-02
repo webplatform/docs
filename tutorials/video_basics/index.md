@@ -1,12 +1,14 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Flags
+}}
+{{Byline
+|Name=Ernest Delgado
+|Published=published Aug. 3, 2010
 }}
 {{Summary_Section|An introduction to the HTML5 video tag.}}
 {{Tutorial
 |Content==HTML5 Video=
-
-====original by Ernest Delgado====
-====published Aug. 3, 2010====
 
 ==Introduction==
 
@@ -289,5 +291,5 @@ It's almost inevitable that comparisons arise between the video element and othe
 |Sources=HTML5Rocks
 |MDN_link=
 |MSDN_link=
-|HTML5Rocks_link=http://www.html5rocks.com/en/tutorials/video/basics/
+|HTML5Rocks_link=http://www.html5rocks.com/tutorials/video/basics/
 }}
