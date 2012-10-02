@@ -49,7 +49,7 @@ When porting the application to HTML5 for PC usage, we had to make several modif
 
 The iPad MathBoard is exclusively vertically oriented, which was not optimal for PC displays as they are generally used in a horizontal fashion. Consequently, we reorganized the UI design and moved the settings panel to the right side, on a sliding view (animated by CSS3 transitions).
 
- [[Image:MathBoard-CaseStudy-03-iPad-vs-HTML5.png|500px|Screen Orientation]] iPad vs. HTML5 screen orientation
+ [[Image:MathBoard-CaseStudy-03-iPad-vs-HTML5.png|500px|Screen Orientation]]
 
 ===Input: keyboard/mouse vs. touch===
 
@@ -57,7 +57,7 @@ Another key difference between the iPad and Web version is the input interface. 
 
 The MathBoard input controls on the iPad are highly polished. We wanted the same high fidelity representation in the Web interface. The solution was adding support for keyboard shortcuts and replicating UI controls using CSS positioning. The port to HTML5 was pixel perfect:
 
- [[Image:MathBoard-CaseStudy-04-DialogSettings.png|UI Controls]] iPad vs. HTML5 Version Settings
+ [[Image:MathBoard-CaseStudy-04-DialogSettings.png|iPad vs. HTML5 Version Settings]] 
 
 As in the iPad interface, we allow the user to click on the left and right arrow to change the value of a control. The vertical line can also be dragged to quickly change values. A repeat behavior was implemented for <code>click</code> and <code>keydown</code> so that users can accelerate the value change when the mouse or the keyboard is pressed.
 
