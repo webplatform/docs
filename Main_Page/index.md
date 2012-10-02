@@ -1,19 +1,23 @@
 = Welcome to Web Platform Docs =
   
-Web Platform Docs is your canonical resource for up-to-date information on open web standards. We have a wealth of information available, including reference docs to look up syntax and the latest browser support information, and tutorials and guides to teach and learn web design techniques.
-  
-Bear in mind that this is an early alpha release. In the future, there will be a lot more features for example translation facilities, resources for teachers, live code examples and more.
+Web Platform Docs is a new community-driven site that aims to become a comprehensive and authoritative source for web developer documentation. 
 
-We would love your help in improving the content in any way you can &mdash; if you see problems on any pages, fix them, add a note to the article, or get in contact with us using any of the other methods available below. We are also looking for people to contribute new material!
+Even though Web Platform Docs is still in alpha, you can already find lots of valuable content on the site, including information on:
+
+* How to use features of the open web, with syntax and examples
+* What platforms and devices you can use various technologies on
+* What is the current standardization, stability and implementation status of each technology specification
+
+In the future, Web Platform Docs will include even more content for you to explore such as live code examples, resources for educators and much more. To get there faster, we’d like to invite you to also contribute your knowledge. We hope you will join us!
 
 == Explore our docs ==
 
 *[[concepts|Web Development Concepts]]
-*[[HTML|HTML]]: HyperText Markup Language is used to describe the content of webpages.
-*[[CSS|CSS]]: Cascading Style Sheets are used to control the look and formatting of webpages.
-*[[js|JavaScript]]: JavaScript is a scripting language used to make webpages interactive.
-*[[SVG|SVG]]: Scalable Vector Graphics is a set of specifications for two-dimensional vector graphics.
-* [[Accessibility]]: Summary of Accessibility, including introduction to the basics and testing
+*[[HTML|HTML Reference & Tutorials ]]
+*[[CSS|CSS Reference & Tutorials]]
+*[[js|JavaScript Reference & Tutorials]]
+*[[SVG|SVG Reference & Tutorials]]
+*[[Accessibility]]
 
 These pages include links to references and tutorial materials.
 
