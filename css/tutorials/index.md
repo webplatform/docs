@@ -5,13 +5,13 @@
 }}
 ==Beginning with CSS==
 
-* [[tutorials/What is CSS|What is CSS?]]
-* [[tutorials/Why use CSS|Why use CSS?]]
-* [[Getting started with CSS]]
+* [[tutorials/what is css|What is CSS?]]
+* [[tutorials/why use css|Why use CSS?]]
+* [[tutorials/getting started with css|Getting started with CSS]]
 
 ==CSS fundamentals==
 
-* [[Selectors fundamentals]]
+* [[tutorials/selectors fundamentals|Selectors fundamentals]]
 * [[Advanced selectors]]
 * [[Inheritance and cascade]]
 
