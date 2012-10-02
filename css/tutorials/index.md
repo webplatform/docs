@@ -19,7 +19,7 @@
 
 * [[guides/css text styling fundamentals|Text styling fundamentals]]
 * [[tutorials/css text quick start|CSS text quick start]]
-* [[tutorials/advanced css text styling advanced|Advanced CSS text styling]]
+* [[tutorials/advanced css text styling|Advanced CSS text styling]]
 
 ==Graphics==
 
