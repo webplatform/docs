@@ -20,7 +20,7 @@ N2N-Apps is a Software Development company focusing on building next generation 
 
 [https://chrome.google.com/webstore/detail/ocjpbdojdmdmnoijibadlmpiamcmmmcj Download MathBoard for the Chrome Web Store] (free version)
 
-==Requirements==
+<h2 id="toc-requirements">Requirements</h2>
 
 The key requirements for this HTML5 porting project were the following:
 
@@ -41,7 +41,7 @@ Given the requirements, we decided to go with the following architecture:
 # jQuery: While HTML5 has many of the advanced selectors that make jQuery so great, we decided to stick with jQuery anyway as it gave us a very robust and mature way to manipulate the DOM and related events. jQuery also has the benefit of being more DOM centric, which tends to make the design and implementation of an application closer to HTML.
 # [https://github.com/jeremychone/snowUI SnowUI]<nowiki>: jQuery provides a great API and best practice to work with the DOM, however, for the HTML5 MathBoard application we needed an MVC or MVP style framework to orchestrate all of the different views. SnowUI is a simple yet powerful MVC framework on top of jQuery. It provides a DOM centric MVC mechanism and a flexible way to build custom components while leaving the opportunity for the application developer to use any widget/controls library or custom code he or she deems optimal.</nowiki>
 
-==iPad to PC considerations==
+<h2 id="toc-ipadtopc">iPad to PC considerations</h2>
 
 When porting the application to HTML5 for PC usage, we had to make several modifications to the design and user-interaction of the application.
 
