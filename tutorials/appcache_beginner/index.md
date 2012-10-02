@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page_Title|Appcache Beginner}}
 {{Flags
 |High-level issues=Needs Flags
 }}
