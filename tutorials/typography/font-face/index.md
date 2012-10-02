@@ -1,12 +1,14 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Flags
+}}
+{{Byline
+|Name=Paul Irish
+|Published=published Aug. 2, 2010
 }}
 {{Summary_Section|An introduction to webfonts and @font-face.}}
 {{Tutorial
 |Content==Quick Guide to Webfonts Via @font-face=
-
-====original by Paul Irish====
-====published Aug. 2, 2010====
 
 ==Introduction==
 
@@ -166,7 +168,8 @@ Webfonts deliver quite a bit of freedom to designers, and with upcoming features
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
+|Sources=HTML5Rocks
 |MDN_link=
 |MSDN_link=
-|HTML5Rocks_link=
+|HTML5Rocks_link=http://www.html5rocks.com/tutorials/webfonts/quick/
 }}
