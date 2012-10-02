@@ -5,7 +5,7 @@
 |URL=http://www.html5rocks.com/profiles/#matthackett
 |Published=Februrary 10, 2011
 }}
-{{Summary_Section}}
+{{Summary_Section|Learn how to use the <canvas> element to create an interactive game with retro-looking graphics.}}
 {{Tutorial
 |Content=<h2 id="toc-introduction">Introduction</h2>
 
