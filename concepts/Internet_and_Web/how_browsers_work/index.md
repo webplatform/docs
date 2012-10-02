@@ -527,7 +527,7 @@ This means a ruleset is a selector or optionally number of selectors separated b
 
 Webkit uses [#parser_generators Flex and Bison] parser generators to create parsers automatically from the CSS grammar files. As you recall from the parser introduction, Bison creates a bottom up shift-reduce parser. Firefox uses a top down parser written manually. In both cases each CSS file is parsed into a StyleSheet object, each object contains CSS rules. The CSS rule objects contain selector and declaration objects and other object corresponding to CSS grammar.
 
-[[Image:image023.png.pagespeed.ce.uVfINk36yE.png]] Figure 12: parsing CSS
+[[Image:image023.png.pagespeed.ce.uVfINk36yE.png|Figure 12: parsing CSS]]
 
 ===The order of processing scripts and style sheets===
 
