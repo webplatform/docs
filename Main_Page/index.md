@@ -13,7 +13,7 @@ In the future, Web Platform Docs will include even more content for you to explo
 *[[concepts|Web Development Concepts]]
 *[[HTML|HTML Reference & Tutorials ]]
 *[[CSS|CSS Reference & Tutorials]]
-*[[js|JavaScript Reference & Tutorials]]
+*[[javascript|JavaScript Reference & Tutorials]]
 *[[SVG|SVG Reference & Tutorials]]
 *[[Accessibility]]
 
