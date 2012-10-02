@@ -1,4 +1,4 @@
-{{Page_Title|About the history of the web}}
+{{Page_Title|The history of the web}}
 {{Flags}}
 {{API_Name}}
 {{Summary_Section|<blockquote> 
