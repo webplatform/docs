@@ -6,10 +6,9 @@
 }}
 {{Summary_Section}}
 {{Tutorial
-|Content== A Simple TODO list using HTML5 WebDatabases =
+|Content== A Simple To-do list using HTML5 WebDatabases =
     
-== Introduction ==
- 
+== Introduction == 
 [[Web Databases]] are new
 in HTML5. Web Databases are hosted and persisted inside a user's browser.
 By allowing developers to create applications with rich query abilities
@@ -206,7 +205,6 @@ call the html5rocks.webdb.addTodo method
   todo.value = "";
 }
 </pre>
-
 }}
 {{Compatibility_Section
 |Not_required=No
