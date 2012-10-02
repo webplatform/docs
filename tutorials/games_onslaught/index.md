@@ -13,7 +13,7 @@ In June of 2010, it came to our attention that local publishing "zine" [http://b
 
 It was important that our game look and feel like a retro ''Nintendo Entertainment System'' game, given the [http://www.boingboing.net/2010/06/14/games-inspired-by-mu.html contest premise] to develop a game based on a [http://en.wikipedia.org/wiki/Chiptune chiptune]. Most games don't have this requirement, but it's still a common artistic style (especially among indie developers) due to its ease of asset creation and natural appeal to nostalgic gamers.
 
- [[Image:pixels.png|584px|Onslaught! Arena pixel sizes]Increasing pixel size can decrease graphic design work.]
+[[Image:pixels.png|584px|alt=Onslaught!|Arena pixel sizes]Increasing pixel size can decrease graphic design work.]]
 
 Given how small these sprites are we decided to double-up our pixels, meaning that a 16x16 sprite would now be 32x32 pixels and so forth. From the beginning we had been doubling-up on the asset creation side of things instead of making the browser do the heavy lifting. This was simply easier to implement but also had some definite appearance advantages.
 
