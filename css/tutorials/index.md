@@ -12,13 +12,13 @@
 ==CSS fundamentals==
 
 * [[tutorials/selectors fundamentals|Selectors fundamentals]]
-* [[Advanced selectors]]
-* [[Inheritance and cascade]]
+* [[tutorials/advanced selectors|Advanced selectors]]
+* [[tutorials/inheritance and cascade|Inheritance and cascade]]
 
 ==Working with fonts and text==
 
-* [[tutorials/CSS text styling fundamentals|Text styling fundamentals]]
-* [[tutorials/CSS text quick start|CSS text quick start]]
+* [[tutorials/css text styling fundamentals|Text styling fundamentals]]
+* [[tutorials/css text quick start|CSS text quick start]]
 * [[tutorials/CSS text styling advanced|Advanced CSS text styling]]
 
 ==Graphics==
