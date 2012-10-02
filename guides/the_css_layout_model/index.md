@@ -1,4 +1,6 @@
+{{Page_Title|The CSS layout model: borders, boxes, margins and padding}}
 {{Flags}}
+{{Byline}}
 {{Summary_Section|This article covers the CSS layout model in some detail, including box model, borders, margin and padding, and how they all work.}}
 {{Guide
 |Content=== Introduction ==
@@ -864,6 +866,12 @@ In the first example, the <code>clear</code> value of the trailing element is se
  
 This discussion of the <code>clear</code> property is intended as a simple introduction to its effects, while later articles discuss the finer points of technique associated with its use.
 }}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
 {{See_Also_Section
 |External_links=* Bergevin, Holly, and Gallant, John. 2006. [http://positioniseverything.net/explorer.html Explorer exposed]. Position Is Everything. (accessed 1 July 2008).
 * Bos, Bert, ''et al.'' 2007. [http://www.w3.org/TR/2007/CR-CSS21-20070719 Cascading style sheets level 2 revision 1 (CSS 2.1) specification]. World Wide Web Consortium. ''etc.'' (accessed 30 June 2008).
@@ -888,4 +896,7 @@ This discussion of the <code>clear</code> property is intended as a simple intro
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
 }}
