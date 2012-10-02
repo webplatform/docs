@@ -34,6 +34,8 @@
 * [[guides/the css layout model|The CSS layout model: border, boxes, margin and padding]]
 * [[tutorials/box model|Exploring the CSS box model]]
 * [[tutorials/layout fundamentals|Exploring CSS layout fundamentals]]
+* [[tutorials/floats and clearing|Page layout with floats and clearing]]
+* [[tutorials/static and relative positioning|Understanding static and relative positioning]]
 
 ==CSS best practices==
 
