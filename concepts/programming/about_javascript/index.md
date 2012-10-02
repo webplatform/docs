@@ -122,3 +122,4 @@ var s = "";
 </pre>
 <p></p>
 {{MDN_Attribution|copr_date=2012|src_url=https://developer.mozilla.org/en/JavaScript/Guide/About|src_title=About this guide}}
+{{Topics|JavaScript}}
