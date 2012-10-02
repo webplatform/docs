@@ -1,5 +1,10 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Flags
+}}
+{{Byline
+|Name=Michael Mahemoff
+|Published=May 24, 2010
 }}
 {{Summary_Section|An introduction to the geolocation API using a simple trip meter.}}
 {{Tutorial
@@ -184,5 +189,5 @@ Please see the [http://www.html5rocks.com/en/tutorials/geolocation/trip_meter/ o
 |Sources=HTML5Rocks
 |MDN_link=
 |MSDN_link=
-|HTML5Rocks_link=http://www.html5rocks.com/en/tutorials/geolocation/trip_meter/
+|HTML5Rocks_link=http://www.html5rocks.com/tutorials/geolocation/trip_meter/
 }}
