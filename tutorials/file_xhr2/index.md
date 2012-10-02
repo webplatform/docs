@@ -55,21 +55,19 @@ In the previous example, we downloaded the image as a binary "file" by overridin
 
 With this new awesomeness, we can rework the previous example, but this time, fetch the image as an <code>Blob</code> instead of a string:
 
-<pre>
- var xhr = new XMLHttpRequest();
- xhr.open('GET', '/path/to/image.png', true);
- '''xhr.responseType = 'blob';'''
- 
- '''xhr.onload''' = function(e) {
+  var xhr = new XMLHttpRequest();
+  xhr.open('GET', '/path/to/image.png', true);
+  '''xhr.responseType = 'blob';'''
+
+  '''xhr.onload''' = function(e) {
    if (this.status == 200) {
      // Note: .response instead of .responseText
      var blob = new Blob([this.response], {type: 'image/png'});
      ...
    }
- };
- 
- xhr.send();
-</pre>
+  };
+
+  xhr.send();
 
 Much nicer!
 }}
