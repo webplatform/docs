@@ -75,7 +75,7 @@ The device motion event is a superset of the device orientation event; it return
 For a laptop in its normal position, with the screen facing up, the data returned would be:<br/>
 
 {{{!}}
-! style="background-color:transparent;" {{!}}
+! 
 ! Not accelerating
 ! Accelerating up
 ! Accelerating forward
