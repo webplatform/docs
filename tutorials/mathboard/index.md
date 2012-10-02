@@ -5,11 +5,12 @@
 |URL=http://www.html5rocks.com/profiles/#jeremychone
 |Published=January 28, 2011
 }}
-{{Summary_Section|[http://itunes.apple.com/us/app/mathboard/id373909837?mt=8 MathBoard on iPad], a [http://www.palasoftware.com/MathBoard.html PalaSoftware] application, is a highly polished application with many subtle but natural animations and a unique realistic look and feel. The goal was to do the highest fidelity port of the iPad application to HTML5.}}
+{{Summary_Section|[http://itunes_apple_com/us/app/mathboard/id373909837?mt=8 MathBoard on iPad], a [http://www.palasoftware.com/MathBoard.html PalaSoftware] application, is a highly polished application with many subtle but natural animations and a unique realistic look and feel. The goal was to do the highest fidelity port of the iPad application to HTML5.
+}}
 {{Tutorial
 |Content===Introduction==
 
-[[Image:146x203xMathBoard-CaseStudy-01-iPad-Screenshot.png.pagespeed.ic.eUzO0GFG8D.jpg|146px|MathBoard application]]
+[[Image:146x203xMathBoard-CaseStudy-01-iPad-Screenshot.png|146px|MathBoard application]]
 
 [http://itunes.apple.com/us/app/mathboard/id373909837?mt=8 MathBoard on iPad], a [http://www.palasoftware.com/MathBoard.html PalaSoftware] application, is a highly polished application with many subtle but natural animations and a unique realistic look and feel. The goal was to do the highest fidelity port of the iPad application to HTML5.
 
