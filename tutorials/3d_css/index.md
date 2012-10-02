@@ -4,12 +4,11 @@
 }}
 {{Byline
 |Name=Paul Kinlan
+|Published=Sept. 7, 2010
 }}
 {{Summary_Section|An introduction to CSS 3D transforms.}}
 {{Tutorial
-|Content=====published Sept. 7, 2010====
-
-==Introduction==
+|Content===Introduction==
 
 For a long time 3D has been the preserve of desktop applications. Recently with the introduction of advanced smart-phones that have access to native GPU acceleration we have started to see 3D used nearly everywhere.
 
@@ -125,7 +124,8 @@ This was just a quick glance over some of the cool effects that can be applied t
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
+|Sources=HTML5Rocks
 |MDN_link=
 |MSDN_link=
-|HTML5Rocks_link=
+|HTML5Rocks_link=http://www.html5rocks.com/tutorials/3d/css/
 }}
