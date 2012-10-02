@@ -1,4 +1,6 @@
+{{Page_Title|Page layout with floats and clearing}}
 {{Flags}}
+{{Byline}}
 {{Summary_Section|In this article you will get acquainted with floating and clearing — two must-have tools for web pages layout.}}
 {{Tutorial
 |Content=== What are float and clear for? ==
