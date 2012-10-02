@@ -1,1 +1,0 @@
-#REDIRECT [[guides/images in html]]
