@@ -19,17 +19,13 @@ These pages include links to references and tutorial materials.
 
 == Contribute to Web Platform Docs ==
 
-* [[WPD:Getting_Started|Web Platform Docs getting started guide]]
-* [[WPD:Manual_Of_Style/Gotchas|MediaWiki Gotchas]]
-* [Wikipedia markup guide]
-* [[WPD:Manual_Of_Style|Web Platform Docs language and style guide]]
-* Read the [http://blog.webplatform.org/ Web Platform Docs blog] for upcoming news
+We’d love to have your help in improving Web Platform Docs. Even the slightest effort can have significant impact on the site; from alerting fellow developers about errors in our documentation, to fixing these errors, porting existing articles or even contributing completely new content. To learn more, please read our [[WPD:Getting_Started|Getting Started Guide]].
 
-=== Contact us! ===
+== Stay in touch ==
 
-* [Web Platform Docs public mailing list]
-* [http://talk.webplatform.org/forums/ Web Platform Docs Forums]
-* [http://talk.webplatform.org/chat/ Web Platform Docs chat]
+* Join our [http://talk.webplatform.org/forums/ forums]
+* Meet the team on [http://talk.webplatform.org/chat/ chat]
+* Subscribe to our [http://blog.webplatform.org/ blog]
 
 == Index ==
 
