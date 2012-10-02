@@ -1,21 +1,15 @@
 {{Page_Title|Onslaught! Arena}}
 {{Flags}}
-{{Byline}}
+{{Byline
+|Published=Februrary 10, 2011
+}}
 {{Summary_Section}}
 {{Tutorial
-|Content==Case Study: Onslaught! Arena=
-
- [/profiles/#matthackett [[Image:matthackett.75.png.pagespeed.ce.iMEAV4fNri.png|135px|Matt Hackett]]]
-
-==By '''[/profiles/#matthackett Matt Hackett]''' & '''[/profiles/#geoffblair Geoff Blair]'''==
-
-<div class="date">Published '''Feb. 10, 2011'''</div>  [http://www.w3.org/html/logo/  [[Image:133x64xhtml5-badge-h-graphics.png.pagespeed.ic.IB7MV9PMeL.png|133px|This article is powered by HTML5 Graphics, 3D & Effects]] ]
-
-==Introduction==
+|Content=<h2 id="toc-introduction">Introduction</h2>
 
 In June of 2010, it came to our attention that local publishing "zine" [http://boingboing.net/ Boing Boing] was having a [http://boingboing.net/arcade/ game development competition]. We saw this as a perfectly good excuse to make a quick, simple game in JavaScript and <code><canvas></code>, so we set to work. After the competition we still had a lot of ideas and wanted to finish what we started. Here's the case study of the result, a little game called [https://chrome.google.com/webstore/detail/khodnfbkbanejphecblcofbghjdgfaih Onslaught! Arena].
 
-==The retro, pixelated look==
+<h2 id="toc-pixelated">The retro, pixelated look</h2>
 
 It was important that our game look and feel like a retro ''Nintendo Entertainment System'' game, given the [http://www.boingboing.net/2010/06/14/games-inspired-by-mu.html contest premise] to develop a game based on a [http://en.wikipedia.org/wiki/Chiptune chiptune]. Most games don't have this requirement, but it's still a common artistic style (especially among indie developers) due to its ease of asset creation and natural appeal to nostalgic gamers.
 
@@ -42,7 +36,7 @@ This method would consist of 1x1 sprites instead of doubling them up on the asse
 
 This was a deal breaker for our game since individual pixels are so important but if you need to resize your canvas and anti-aliasing is appropriate for your project, you could consider this approach for performance reasons.
 
-==Fun canvas tricks==
+<h2 id="toc-canvas-tricks">Fun canvas tricks</h2>
 
 We all know that <code><canvas></code> is the new hotness, but sometimes [http://paulbakaus.com/2010/07/19/why-canvas-is-not-an-obvious-choice-for-web-games/ developers still recommend using DOM]. If you're on the fence about which to use, here's an example of how <code><canvas></code> saved us lots of time and energy.
 
@@ -72,7 +66,7 @@ First we draw the monster to a hidden "buffer" <code><canvas></code>, overlay it
  // Copy the buffer onto the visible canvas
  document.getElementById("stage").getContext("2d").drawImage(bufferCanvas, x, y);
 
-==The Game Loop==
+<h2 id="toc-the-game-loop">The Game Loop</h2>
 
 Game development has some notable differences from web development. In the web stack, it's common to react to events that happened via event listeners. So initialization code may do nothing other than listen for input events. A game's logic is different, as it's necessary to constantly be updating itself. If, for example, a player hasn't moved, that shouldn't stop goblins from getting him!
 
@@ -131,7 +125,7 @@ Lastly, once everything has been computed, it's time to redraw the screen! In DO
    );
  };
 
-==Time-Based Modeling==
+<h2 id="toc-time-based-modeling">Time-Based Modeling</h2>
 
 Time-based modeling is the concept of moving sprites based on the amount of elapsed time since the last frame update. This technique allows your game to run as fast as possible while ensuring that sprites move at consistent speeds.
 
@@ -181,7 +175,7 @@ With these variables in mind here's how we'd move an instance of the above sprit
 
 Note that the <code>direction.x</code> and <code>direction.y</code> values should be ''normalized'' which means they should always fall between <code>-1</code> and <code>1</code>.
 
-==Controls==
+<h2 id="toc-controls">Controls</h2>
 
 Controls have been possibly the biggest stumbling block while developing '''Onslaught! Arena'''. The very first demo only supported the keyboard; players moved the main character around the screen with the arrow keys and fired in the direction he was facing with the space bar. While somewhat intuitive and easy to grasp, this made the game almost unplayable at more difficult levels. With dozens of enemies and projectiles flying at the player at any given time, it's imperative to be able to weave between bad guys ''while'' firing in any which direction.
 
@@ -224,7 +218,8 @@ To address these many issues, we began playing with a single-input method of gam
  }
  
  // Move the player
- if ((move.x !== 0) || (move.y !== 0)) {
+ if ((move.x !== 0)
+|(move_y !== 0)) {
    player.setDirection(move);
  }
 
@@ -334,7 +329,6 @@ HTML5 is amazing to work with. Most implementations handle everything a game dev
  [[Image:xam_html5.png|Onslaught! Arena with a hidden HTML5 logo]] You can get an HTML5 shield by typing "html5" when playing Onslaught! Arena.
 
 Except as otherwise [http://code.google.com/policies.html#restrictions noted], the content of this page is licensed under the [http://creativecommons.org/licenses/by/3.0/ Creative Commons Attribution 3.0 License], and code samples are licensed under the [http://www.apache.org/licenses/LICENSE-2.0 Apache 2.0 License].
-
 }}
 {{Compatibility_Section
 |Not_required=No
