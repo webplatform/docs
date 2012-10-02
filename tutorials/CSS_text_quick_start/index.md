@@ -1,1 +1,0 @@
-#REDIRECT [[tutorials/css text quick start]]
