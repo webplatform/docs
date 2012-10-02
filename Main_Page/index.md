@@ -6,9 +6,7 @@ Bear in mind that this is an early alpha release. In the future, there will be a
 
 We would love your help in improving the content in any way you can &mdash; if you see problems on any pages, fix them, add a note to the article, or get in contact with us using any of the other methods available below. We are also looking for people to contribute new material!
 
-== Read our docs ==
-
-
+== Primary Web Technologies ==
 
 *[[HTML|HTML]]: HyperText Markup Language is used to describe the content of webpages.
 *[[CSS|CSS]]: Cascading Style Sheets are used to control the look and formatting of webpages.
