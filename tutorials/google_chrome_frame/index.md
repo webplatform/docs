@@ -151,5 +151,5 @@ For more information see the [http://www.google.com/url?q=http%3A%2F%2Fwww.chrom
 |Sources=HTML5Rocks
 |MDN_link=
 |MSDN_link=
-|HTML5Rocks_link=http://www.html5rocks.com/en/tutorials/google-chrome-frame/
+|HTML5Rocks_link=http://www.html5rocks.com/tutorials/google-chrome-frame/
 }}
