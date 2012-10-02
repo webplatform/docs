@@ -1,19 +1,15 @@
-{{Page_Title}}
-{{Flags}}
-{{Byline}}
-{{Summary_Section}}
+{{Page_Title|Real-time updates in stream congress}}
+{{Flags
+|High-level issues=Needs Flags
+}}
+{{Byline
+|Name=Luigi Montanez
+|URL=http://www.html5rocks.com/profiles/#luigimontanez
+|Published=March 17, 2011
+}}
+{{Summary_Section|How to build web apps that communicate in real time with a server.}}
 {{Tutorial
-|Content==Case Study: Real-time Updates in Stream Congress=
-
- [/profiles/#luigimontanez [[Image:xluigimontanez.75.png.pagespeed.ic.zOa2RwYplB.jpg|75px|Luigi Montanez]]]
-
-==By '''[/profiles/#luigimontanez Luigi Montanez]'''==
-
-<div class="date">Published '''March 17, 2011'''</div>  [http://www.w3.org/html/logo/  [[Image:133x64xhtml5-badge-h-connectivity.png.pagespeed.ic.7tm7Yvyp4P.png|133px|This article is powered by HTML5 Connectivity / Realtime]] ]
-
-==Introduction==
-
-Through [http://www.html5rocks.com/tutorials/websockets/basics/ WebSockets] and [http://www.html5rocks.com/tutorials/eventsource/basics/ EventSource], HTML5 enables developers to build web apps that communicate in real time with a server. [http://streamcongress.com Stream Congress] (available in the [https://chrome.google.com/webstore/detail/ahebmhmbjonbglfkghfennmigkcmpbjp Chrome Web Store]) provides live updates about the workings of the United States Congress. It streams floor updates from both the House and Senate, relevant news updates, tweets from members of Congress, and other social media updates. The app is meant to be left open all day as it captures the business of Congress.
+|Content=Through [http://www.html5rocks.com/tutorials/websockets/basics/ WebSockets] and [http://www.html5rocks.com/tutorials/eventsource/basics/ EventSource], HTML5 enables developers to build web apps that communicate in real time with a server. [http://streamcongress.com Stream Congress] (available in the [https://chrome.google.com/webstore/detail/ahebmhmbjonbglfkghfennmigkcmpbjp Chrome Web Store]) provides live updates about the workings of the United States Congress. It streams floor updates from both the House and Senate, relevant news updates, tweets from members of Congress, and other social media updates. The app is meant to be left open all day as it captures the business of Congress.
 
 ==Starting with WebSockets==
 
@@ -148,32 +144,107 @@ One of the most significant advantages of EventSource over WebSockets is that fa
 ==Conclusion==
 
 HTML5 opens the door to many new and exciting web development possibilities. With WebSockets and EventSource, web developers now have clean, well-defined standards to enable real-time web apps. But not all users run modern browsers. Graceful degradation must be considered when choosing to implement these technologies. And tooling on the server side for WebSockets and EventSource is still in the early stages. It’s important to keep these factors in mind when developing real-time HTML5 apps.
-
-Except as otherwise [http://code.google.com/policies.html#restrictions noted], the content of this page is licensed under the [http://creativecommons.org/licenses/by/3.0/ Creative Commons Attribution 3.0 License], and code samples are licensed under the [http://www.apache.org/licenses/LICENSE-2.0 Apache 2.0 License].
-
- <div id="disqus_thread"></div>
-
-''' [http://disqus.com/?ref_noscript Please enable JavaScript to view the comments powered by Disqus.] '''
-
-</div>
-
-
-==Supported browsers:==
-
-<span class="browsers"> <span class="browser opera supported"> <span class="browser_name">Opera</span> <span class="support"> supported </span> </span> <span class="browser ie "> <span class="browser_name">IE</span> <span class="support"> unsupported </span> </span> <span class="browser safari supported"> <span class="browser_name">Safari</span> <span class="support"> supported </span> </span> <span class="browser ff "> <span class="browser_name">Firefox</span> <span class="support"> unsupported </span> </span> <span class="browser chrome supported"> <span class="browser_name">Chrome</span> <span class="support"> supported </span> </span> </span><div class="compatible-block">
-
 }}
 {{Compatibility_Section
 |Not_required=No
-|Desktop_rows=
-|Mobile_rows=
+|Desktop_rows={{Compatibility Table Desktop Row
+|Feature=WebSockets
+|Chrome_supported=Yes
+|Chrome_version=21
+|Chrome_prefixed_supported=Unknown
+|Chrome_prefixed_version=
+|Firefox_supported=Yes
+|Firefox_version=14
+|Firefox_prefixed_supported=Unknown
+|Firefox_prefixed_version=
+|Internet_explorer_supported=Yes
+|Internet_explorer_version=10
+|Internet_explorer_prefixed_supported=Unknown
+|Internet_explorer_prefixed_version=
+|Opera_supported=Yes
+|Opera_version=12
+|Opera_prefixed_supported=Unknown
+|Opera_prefixed_version=
+|Safari_supported=Yes
+|Safari_version=5.1
+|Safari_prefixed_supported=Unknown
+|Safari_prefixed_version=
+}}{{Compatibility Table Desktop Row
+|Feature=EventSource (Server-sent Events)
+|Chrome_supported=Yes
+|Chrome_version=21
+|Chrome_prefixed_supported=Unknown
+|Chrome_prefixed_version=
+|Firefox_supported=Yes
+|Firefox_version=14
+|Firefox_prefixed_supported=Unknown
+|Firefox_prefixed_version=
+|Internet_explorer_supported=Unknown
+|Internet_explorer_version=
+|Internet_explorer_prefixed_supported=Unknown
+|Internet_explorer_prefixed_version=
+|Opera_supported=Yes
+|Opera_version=12
+|Opera_prefixed_supported=Unknown
+|Opera_prefixed_version=
+|Safari_supported=Yes
+|Safari_version=5.1
+|Safari_prefixed_supported=Unknown
+|Safari_prefixed_version=
+}}
+|Mobile_rows={{Compatibility Table Mobile Row
+|Feature=WebSockets
+|Android_supported=No
+|Android_version=
+|Android_prefixed_supported=Unknown
+|Android_prefixed_version=
+|Firefox_mobile_supported=Unknown
+|Firefox_mobile_version=
+|Firefox_mobile_prefixed_supported=Unknown
+|Firefox_mobile_prefixed_version=
+|IE_phone_supported=Unknown
+|IE_phone_version=
+|IE_phone_prefixed_supported=Unknown
+|IE_phone_prefixed_version=
+|Opera_mobile_supported=No
+|Opera_mobile_version=
+|Opera_mobile_prefixed_supported=Unknown
+|Opera_mobile_prefixed_version=
+|Safari_mobile_supported=Yes
+|Safari_mobile_version=4.2
+|Safari_mobile_prefixed_supported=Unknown
+|Safari_mobile_prefixed_version=
+}}{{Compatibility Table Mobile Row
+|Feature=EventSource (Server-sent Events)
+|Android_supported=No
+|Android_version=
+|Android_prefixed_supported=Unknown
+|Android_prefixed_version=
+|Firefox_mobile_supported=Unknown
+|Firefox_mobile_version=
+|Firefox_mobile_prefixed_supported=Unknown
+|Firefox_mobile_prefixed_version=
+|IE_phone_supported=Unknown
+|IE_phone_version=
+|IE_phone_prefixed_supported=Unknown
+|IE_phone_prefixed_version=
+|Opera_mobile_supported=No
+|Opera_mobile_version=
+|Opera_mobile_prefixed_supported=Unknown
+|Opera_mobile_prefixed_version=
+|Safari_mobile_supported=Yes
+|Safari_mobile_version=4.0
+|Safari_mobile_prefixed_supported=Unknown
+|Safari_mobile_prefixed_version=
+}}
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics}}
+{{Topics|DOMEvents, Webworkers}}
 {{External_Attribution
 |Is_CC-BY-SA=No
+|Sources=HTML5Rocks
 |MDN_link=
 |MSDN_link=
-|HTML5Rocks_link=
+|HTML5Rocks_link=http://www.html5rocks.com/tutorials/casestudies/sunlight_streamcongress/
 }}
