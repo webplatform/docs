@@ -1,1 +1,0 @@
-#REDIRECT [[guides/css shorthand]]
