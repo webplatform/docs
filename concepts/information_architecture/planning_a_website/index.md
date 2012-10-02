@@ -1,3 +1,4 @@
+{{Page_Title|Planning a website}}
 {{Flags
 |High-level issues=Stub
 }}
