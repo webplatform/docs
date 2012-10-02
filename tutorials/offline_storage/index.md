@@ -1,11 +1,14 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Flags
+}}
+{{Byline
+|Name=Michael Mahemoff
+|Published=Oct. 1, 2010
 }}
 {{Summary_Section|A high-level overview of modern client-side storage techniques.}}
 {{Tutorial
 |Content==Client-Side Storage=
-==By Michael Mahemoff==
-Published Oct. 1, 2010
 
 ==Introduction==
 
@@ -569,5 +572,5 @@ This has been a high-level overview of modern client-side storage techniques. Yo
 |Sources=HTML5Rocks
 |MDN_link=
 |MSDN_link=
-|HTML5Rocks_link=http://www.html5rocks.com/en/tutorials/offline/storage/
+|HTML5Rocks_link=http://www.html5rocks.com/tutorials/offline/storage/
 }}
