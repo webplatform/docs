@@ -40,7 +40,7 @@
 
 ==Advanced CSS techniques==
 
-* [[tutorials/Generated content|Generated content]]
+* [[tutorials/generated content|Generating content with CSS]]
 
 ==Applied styling exercises==
 
