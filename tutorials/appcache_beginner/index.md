@@ -1,16 +1,15 @@
-{{Page_Title|Appcache Beginner}}
+{{Page_Title|A Beginner's Guide to Using the Application Cache}}
 {{Flags
 |High-level issues=Needs Flags
 }}
 {{Byline
 |Name=Eric Bidelman
+|URL=http://www.html5rocks.com/profiles/#ericbidelman
 |Published=May 27, 2011
 }}
 {{Summary_Section|An introduction to using the appcache interface for offline application functionality.}}
 {{Tutorial
-|Content==A Beginner's Guide to Using the Application Cache=
-
-==Introduction==
+|Content===Introduction==
 
 It's becoming increasingly important for web-based applications to be accessible offline. Yes, all browsers have caching mechanisms, but they're unreliable and don't always work as you might expect. HTML5 addresses some of the annoyances of being offline with the [http://www.whatwg.org/specs/web-apps/current-work/#applicationcache ApplicationCache] interface.
 
