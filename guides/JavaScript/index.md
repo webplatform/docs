@@ -1,0 +1,1 @@
+{{Special:PrefixIndex/guides/JavaScript/}}
