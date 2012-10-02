@@ -1,6 +1,8 @@
+{{Page_Title|Manipulating replaced content with object-fit}}
 {{Flags
 |High-level issues=Stub
 }}
+{{Byline}}
 {{Summary_Section}}
 {{Tutorial}}
 {{Compatibility_Section
