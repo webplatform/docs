@@ -1,4 +1,6 @@
+{{Page_Title|Using CSS background images}}
 {{Flags}}
+{{Byline}}
 {{Summary_Section|This article covers CSS backgrounds in detail: background colour, image, repeat, attachment, and position. Near the end, it also looks at advanced techniques such as CSS sprites.}}
 {{Tutorial
 |Content=== Introduction ==
