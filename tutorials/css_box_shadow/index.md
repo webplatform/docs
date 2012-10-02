@@ -1,4 +1,6 @@
+{{Page_Title|Adding depth with CSS box-shadow}}
 {{Flags}}
+{{Byline}}
 {{Summary_Section|Article to cover CSS3 box-shadow in detail.}}
 {{Tutorial}}
 {{Compatibility_Section
@@ -11,4 +13,7 @@
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
 }}
