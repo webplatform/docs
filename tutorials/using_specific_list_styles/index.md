@@ -1,4 +1,6 @@
+{{Page_Title|Using specific list styles}}
 {{Flags}}
+{{Byline}}
 {{Summary_Section|This article shows the basics of using list-specific CSS to control things like bullet appearance.}}
 {{Tutorial
 |Content===Information: Lists==
