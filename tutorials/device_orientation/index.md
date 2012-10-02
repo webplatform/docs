@@ -10,10 +10,6 @@
 {{Tutorial
 |Content==This End Up: Using Device Orientation=
 
- [/profiles/#petele [[Image:xpetele.75.png.pagespeed.ic.IxfSzPUgZP.jpg{{!}}75px{{!}}Pete LePage]]]
-
-==By '''[http://www.html5rocks.com/profiles/#petele Pete LePage]'''==
-
 ==Introduction==
 
 Many new computers, mobile phones, and other devices are now shipping standard with accelerometers, gyroscopes, compasses, and other hardware designed to determine and capture motion and orientation data. At the same time, web browsers are providing increasingly more access to that new hardware. Examples of that are the new [http://dev.w3.org/geo/api/spec-source-orientation HTML5 DeviceOrientation and DeviceMotion events]. These events provide developers with information about the orientation, motion, and acceleration of the device.
@@ -384,7 +380,6 @@ Here are a few other resources and demos you can check out that use the HTML5 de
 ===A neat demo===
 
 [http://petelepage.com/scratch/pong/ Pong] An experiment to try out device orientation in gaming.
-
 }}
 {{Compatibility_Section
 |Not_required=No
