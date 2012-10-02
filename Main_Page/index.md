@@ -10,14 +10,11 @@ We would love your help in improving the content in any way you can &mdash; if y
 
 * [[concepts|Concept pages]]: General concepts related to the Web, and web design and development
 * [[Accessibility]]: Summary of Accessibility, including introduction to the basics and testing
-* [[html/tutorials|HTML tutorials]]: List of all of our HTML tutorials, from general introductions to complex topics
-*[[HTML|HTML reference]]: Summary of HTML, including links to specifications, educational materials, and our HTML topics
-*[[CSS|CSS reference]]: Summary of CSS, including links to specifications, educational materials, and our CSS topics
-* [[CSS/tutorials|CSS tutorials]]: List of all of our CSS tutorials, from general introductions to complex topics
-*[[js|JavaScript reference]]: List of all of our JavaScript tutorials, from general introductions to complex topics
+*[[HTML|HTML]]: Summary of HTML, including links to specifications, educational materials, and our HTML topics
+*[[CSS|CSS]]: Summary of CSS, including links to specifications, educational materials, and our CSS topics
+*[[js|JavaScript]]: List of all of our JavaScript tutorials, from general introductions to complex topics
 * [[concepts/mobile_web|Mobile web]]: List of all of our mobile web tutorials, from general introductions to complex topics
-*[[SVG|SVG reference]]: Summary of SVG, including links to specifications, educational materials, and our HTML topics
-* [[SVG/Tutorials|SVG tutorials]]: List of all of our SVG tutorials, from general introductions to complex topics
+*[[SVG|SVG]]: Summary of SVG, including links to specifications, educational materials, and our HTML topics
 
 == Contribute to Web Platform Docs ==
 
