@@ -1,1 +1,0 @@
-#REDIRECT [[tutorials/table styling basics]]
