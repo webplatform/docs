@@ -1,5 +1,10 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Flags
+}}
+{{Byline
+|Name=Paul Kinlan
+|Published=Feb. 17, 2010
 }}
 {{Summary_Section|An introduction to using web databases.}}
 {{Tutorial
@@ -343,5 +348,5 @@ You can run this code in the [http://playground.html5rocks.com/?mode=frame&hu=21
 |Sources=HTML5Rocks
 |MDN_link=
 |MSDN_link=
-|HTML5Rocks_link=http://www.html5rocks.com/en/tutorials/webdatabase/todo/
+|HTML5Rocks_link=http://www.html5rocks.com/tutorials/webdatabase/todo/
 }}
