@@ -1041,7 +1041,9 @@ Will look like: [[Image:image067.png.pagespeed.ce.SRkyPOG7Mt.png|Figure 24: Floa
 
 ====Absolute and fixed====
 
-The layout is defined exactly regardless of the normal flow. The element does not participate in the normal flow. The dimensions are relative to the container. In fixed - the container is the view port.  [[Image:25.png|Figure 25: Fixed positioning]] 
+The layout is defined exactly regardless of the normal flow. The element does not participate in the normal flow. The dimensions are relative to the container. In fixed - the container is the view port.
+
+[[Image:25.png|Figure 25: Fixed positioning]] 
 
 Note - the fixed box will not move even when the document is scrolled!
 
