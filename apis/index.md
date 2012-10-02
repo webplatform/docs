@@ -6,6 +6,7 @@
 {{API_Listing
 |Query=[[Category:API_Object_Methods]] OR [[Category:API_Object_Properties]] OR [[Category:API_Objects]]
 }}
+Extra text.
 {{See_Also_Section}}
 {{Topics}}
 {{External_Attribution
