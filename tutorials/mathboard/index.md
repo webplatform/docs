@@ -346,7 +346,7 @@ HTML5 is truly enabling a new breed of Web, desktop, and mobile applications. CS
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics}}
+{{Topics|CSS, Webstorage}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
