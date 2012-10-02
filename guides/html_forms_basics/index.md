@@ -2,7 +2,7 @@
 {{Flags}}
 {{Byline}}
 {{Summary_Section|In this article, we will covered the creation of standards compliant, best practice HTML forms!}}
-{{Tutorial
+{{Guide
 |Content=== Introduction ==
  
 Everyone has seen a form. Everyone has used one. But have you coded one?
