@@ -1,4 +1,6 @@
+{{Page_Title|Generating content with CSS}}
 {{Flags}}
+{{Byline}}
 {{Summary_Section|This article describes generated content — away in which you can use CSS to add content when a document is displayed.}}
 {{Tutorial
 |Content=== Information: Content ==
@@ -97,4 +99,6 @@ This image is a white square with a blue line at the bottom:
 |Is_CC-BY-SA=Yes
 |Sources=MDN
 |MDN_link=https://developer.mozilla.org/en-US/docs/CSS/Getting_Started/Content
+|MSDN_link=
+|HTML5Rocks_link=
 }}
