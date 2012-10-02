@@ -1,4 +1,4 @@
-{{Page_Title|Selectors fundamentals}}
+{{Page_Title|Using selectors}}
 {{Flags}}
 {{Byline}}
 {{Summary_Section|This guide looks at CSS selectors — the mechanism you use to select which element receives styles — in detail, the different types of selector available, and how different kinds of selectors have different priorities.}}
