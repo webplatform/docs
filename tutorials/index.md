@@ -1,11 +1,11 @@
 {{Page_Title|Tutorials}}
 {{Flags}}
-{{Summary_Section|Tutorials explain web technologies and design best practices. This page lists our most popular tutorials.}}
+{{Summary_Section|Tutorials are hands-on guides to using web technology.}}
 {{Basic Page}}
 ==Core Tutorials==
 
 * [[CSS/Training|CSS]]
-* [[js/tutorials|JavaScript]]
+* [[javascript/tutorials|JavaScript]]
 * [[html/tutorials|HTML]]
 
 ==Semantics==
