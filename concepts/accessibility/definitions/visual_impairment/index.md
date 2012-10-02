@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page_Title|Visual Impairment}}
 {{Flags
 |High-level issues=Stub
 }}
