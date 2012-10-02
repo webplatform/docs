@@ -13,21 +13,21 @@ HTML5 adds a multitude of new awesome tools to the web developer toolbox, includ
 * CSS3 for rounded corners, gradients, etc.
 * More expressive markup
 
-This list is, of course, not comprehensive; the web platform has moved forward massively, and the gap between old browsers and modern ones is widening every day. Every major desktop browser version supports significant parts of HTML5, but old browsers continue to linger and create a challenge for adopting the latest and greatest features today.
+This list is, of course, not comprehensive; the web platform has moved forward massively, and the gap between old browsers and modern ones is widening every day. Every major desktop browser supports significant parts of HTML5, and increases its support with each new version. However, old browsers continue to linger and create a challenge for adopting the latest and greatest features today.
 
 [http://www.google.com/chromeframe Google Chrome Frame] can help you build state-of-the-art HTML5 pages while still enabling people using older browsers to see your content.
 
 ==What is Google Chrome Frame==
 
-Google Chrome Frame is a plugin for Internet Explorer that enables rendering the full browser canvas using Google Chrome’s rendering engine. It seamless integrates all the HTML5 features supported by Chrome into the Internet Explorer user experience. Chrome Frame is available for Internet Explorer 6, 7, 8, and 9. Chrome Frame is certainly more useful when supporting old browser such as IE6-to-IE8 but if you, for example, require WebGL for your application, requiring Chrome Frame for IE9 users might be useful as well.
+Google Chrome Frame is a plugin for Internet Explorer that enables rendering the full browser canvas using Google Chrome’s rendering engine. It seamless integrates all the HTML5 features supported by Chrome into the Internet Explorer user experience. Chrome Frame is available for Internet Explorer 6, 7, 8, and 9. Chrome Frame is certainly more useful when supporting old browser such as IE6-to-IE8, but can be useful for IE9 users, as well.
 
-HTML5 polyfills provide another way to smooth out the transition to newer browsers. Unfortunately, they cannot emulate every feature, and they slow down your page in old browsers, which are already slower that the new generation, even more.
+Even if your site does not need HTML5 features, using Chrome Frame can still provide a better user experience. For example, page rendering is generally faster in Chrome Frame.
 
-Even if your site does not need HTML5 features, using Chrome Frame can still provide a better user experience. For users who already have it installed, page rendering is generally faster and they can get access to features that are not supported in older browsers. You can, of course, still decide to support old browsers for users who do not have Chrome Frame on their machine.
+Alternatively, HTML5 polyfills provide another way to smooth out the transition to newer browsers. Unfortunately, they cannot emulate every feature, and they slow down your page in old browsers, which are already slower that the new generation, even more.
 
 ==Opting in==
 
-You can enable Chrome Frame to render a page by adding an HTML metatag or using an HTTP header. This is very important. It means no site will break if a user has Chrome Frame installed, because the site is in full control of using the plugin or default rendering. The following code snippets show how a site can opt into being rendered by Chrome Frame.
+You can enable Chrome Frame to render a page by adding an HTML meta tag or using an HTTP header. By using one of these two methods, no site will break if a user has Chrome Frame installed, because the site is in full control of using the plugin or default rendering. The following two code snippets show how a site can opt into being rendered by Chrome Frame.
 
 Option 1: HTTP-Header (you can add this to your [http://www.chromium.org/developers/how-tos/chrome-frame-getting-started#TOC-Making-Your-Pages-Work-With-Google- HTTP server (e.g. Apache) configuration)]<nowiki>: </nowiki>
 
@@ -47,7 +47,7 @@ You may decide to fully deprecate support for old browsers for many reasons, suc
 * Development time spent on old browsers is too high
 * Speed up development time for new features
 
-Chrome Frame may provide a strategy to continue giving users of old browsers a way to still use your site.
+Chrome Frame may provide a strategy to continue giving users of old browsers a way to still use your site, while continuing to enhance your site with HTML5 features.
 
 Chrome Frame transmits that it is available by extending the host's User-Agent header with the string "chromeframe". For more information see [http://www.google.com/url?q=http%3A%2F%2Fwww.chromium.org%2Fdevelopers%2Fhow-tos%2Fchrome-frame-getting-started%2Funderstanding-chrome-frame-user-agent Chrome Frame User Agent.]
 
@@ -97,7 +97,7 @@ To enable users to install Chrome Frame without having administrative privileges
 
 ===Enterprise installation===
 
-Enterprises can deploy Chrome Frame company-wide using the MSI installer which can be downloaded from here: http://www.google.com/chromeframe/eula.html?msi=true.
+Enterprises can deploy Chrome Frame company-wide using the MSI installer which you can download from here: http://www.google.com/chromeframe/eula.html?msi=true.
 
 For more information on Chrome and enterprise deployments see http://www.chromium.org/administrators.
 
