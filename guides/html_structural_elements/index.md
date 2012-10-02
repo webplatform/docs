@@ -2,7 +2,7 @@
 {{Flags}}
 {{Byline}}
 {{Summary_Section|This article provides a tour through the elements available in HTML to structure and group your content, from old favourites like <code>&lt;dev&gt;</code> to new HTML5 additions such as <code>&lt;article&gt;</code> and <code>&lt;aside&gt;</code>.}}
-{{Tutorial
+{{Guide
 |Content=== Introduction ==
 
 Now we've gotten to grips with the very basics of HTML, what is contained inside the document <code>&lt;head&gt;</code>, and the different building blocks you'll most commonly use to structure different items of content inside the <code>&lt;body&gt;</code>, at this point we will start to look at the overall structure of the HTML content, and what distinct sections the page contains.
