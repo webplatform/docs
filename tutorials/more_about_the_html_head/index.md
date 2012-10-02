@@ -1,0 +1,1 @@
+#REDIRECT [[guides/more about the html head]]
