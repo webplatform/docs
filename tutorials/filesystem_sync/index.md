@@ -5,11 +5,9 @@
 {{Byline
 |Name=Eric Bidelman
 |URL=http://www.html5rocks.com/profiles/#ericbidelman
+|Published=Published '''Oct. 25, 2011''', updated '''May. 14, 2012'''
 }}
-{{Summary_Section|The HTML5 FileSystem API offers an synchronous version to be used in the context of Web Workers. The tutorial introduces the Synchronous API, and gives practical examples of using it.
-
-Published '''Oct. 25, 2011''', updated '''May. 14, 2012'''
-}}
+{{Summary_Section|The HTML5 FileSystem API offers an synchronous version to be used in the context of Web Workers. The tutorial introduces the Synchronous API, and gives practical examples of using it.}}
 {{Tutorial
 |Content=<h2 id="toc-intro">Introduction</h2>
 
