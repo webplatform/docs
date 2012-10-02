@@ -1,4 +1,6 @@
+{{Page_Title|Styling XML data with CSS}}
 {{Flags}}
+{{Byline}}
 {{Summary_Section|This article shows how you can use CSS to style XML data.}}
 {{Tutorial
 |Content==== Information: XML data ===
