@@ -1,4 +1,6 @@
+{{Page_Title|Styling forms — the ultimate guide}}
 {{Flags}}
+{{Byline}}
 {{Summary_Section|This article provides a thoughtful grounding in form styling and layout — one of the more difficult aspects of styling web pages.}}
 {{Guide
 |Content=== Introduction ==
@@ -937,7 +939,7 @@ Values closest to zero are on the left side of the table, and progress toward on
 {{!}}.8125
 {{!}}.875
 {{!}}.9375
-{{!}}} 
+{{!}}}
 }}
 {{Compatibility_Section
 |Not_required=Yes
