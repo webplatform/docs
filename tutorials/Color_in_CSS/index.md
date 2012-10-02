@@ -1,1 +1,0 @@
-#REDIRECT [[tutorials/setting color in css]]
