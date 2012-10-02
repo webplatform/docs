@@ -1,0 +1,1 @@
+#REDIRECT [[concepts/design theory]]
