@@ -1,4 +1,4 @@
-{{Page_Title|Advanced selectors}}
+{{Page_Title|Advanced selectors guide}}
 {{Flags}}
 {{Byline}}
 {{Summary_Section|This guide gives a detailed explanation of most of the advanced CSS selectors available.}}
