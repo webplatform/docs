@@ -1,1 +1,0 @@
-#REDIRECT [[guides/the basics of html]]
