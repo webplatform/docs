@@ -1,8 +1,6 @@
 = Welcome to Web Platform Docs =
   
-Web Platform Docs is a new community-driven site that aims to become a comprehensive and authoritative source for web developer documentation. 
-
-Even though Web Platform Docs is still in alpha, you can already find lots of valuable content on the site, including information on:
+Web Platform Docs is a new community-driven site that aims to become a comprehensive and authoritative source for web developer documentation. Even though Web Platform Docs is still in alpha, you can already find lots of valuable content on the site, including information on:
 
 * How to use features of the open web, with syntax and examples
 * What platforms and devices you can use various technologies on
