@@ -1,1 +1,0 @@
-#REDIRECT [[tutorials/manipulating css with javascript]]
