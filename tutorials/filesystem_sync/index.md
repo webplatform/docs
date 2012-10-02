@@ -50,7 +50,7 @@ Notice the new return value now that we're using the synchronous API as well as 
 
 As with the normal FileSystem API, methods are prefixed at the moment:
 
-<pre>self.requestFileSystemSync = self.webkitRequestFileSystemSync ||
+<pre>self.requestFileSystemSync = self.webkitRequestFileSystemSync &#124;&#124;
                              self.requestFileSystemSync;
 </pre>
 
@@ -169,7 +169,7 @@ document.querySelector('input[type="file"]').addEventListener('change', function
 }, false);
 
 function loadInlineWorker(selector, callback) {
-  window.URL = window.URL {{!}}{{!}} window.webkitURL {{!}}{{!}} null;
+  window.URL = window.URL &#124;&#124; window.webkitURL &#124;&#124;null;
 
   var script = document.querySelector(selector);
   if (script.type === 'javascript/worker') {
@@ -263,7 +263,7 @@ to a <code>FileEntrySync</code>/<code>DirectoryEntrySync</code> object.
 &lt;/head&gt;
 &lt;body&gt;
 &lt;script&gt;
-  window.resolveLocalFileSystemURL = window.resolveLocalFileSystemURL {{!}}{{!}}
+  window.resolveLocalFileSystemURL = window.resolveLocalFileSystemURL &#124;&#124;
                                      window.webkitResolveLocalFileSystemURL;
 
   var worker = new Worker('worker.js');
@@ -284,7 +284,7 @@ to a <code>FileEntrySync</code>/<code>DirectoryEntrySync</code> object.
 
 '''worker.js'''
 
-<pre>self.requestFileSystemSync = self.webkitRequestFileSystemSync {{!}}{{!}}
+<pre>self.requestFileSystemSync = self.webkitRequestFileSystemSync &#124;&#124;
                              self.requestFileSystemSync;
 
 var paths = []; // Global to hold the list of entry filesystem URLs.
@@ -310,7 +310,7 @@ self.onmessage = function(e) {
   var data = e.data;
 
   // Ignore everything else except our 'list' command.
-  if (!data.cmd {{!}}{{!}} data.cmd != 'list') {
+  if (!data.cmd &#124;&#124; data.cmd != 'list') {
     return;
   }
 
@@ -357,7 +357,7 @@ expanding it to download a set of files.
 
 '''downloader.js:'''
 
-<pre>self.requestFileSystemSync = self.webkitRequestFileSystemSync {{!}}{{!}}
+<pre>self.requestFileSystemSync = self.webkitRequestFileSystemSync &#124;&#124;
                              self.requestFileSystemSync;
 
 function makeRequest(url) {
@@ -380,7 +380,7 @@ onmessage = function(e) {
   var data = e.data;
 
   // Make sure we have the right parameters.
-  if (!data.fileName {{!}}{{!}} !data.url {{!}}{{!}} !data.type) {
+  if (!data.fileName &#124;&#124; !data.url &#124;&#124; !data.type) {
     return;
   }
 
