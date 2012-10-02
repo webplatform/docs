@@ -1,6 +1,8 @@
+{{Page_Title|Creating gradients in CSS}}
 {{Flags
 |High-level issues=Stub
 }}
+{{Byline}}
 {{Summary_Section|Article to cover CSS3 gradients - linear and radial.}}
 {{Tutorial}}
 {{Compatibility_Section
