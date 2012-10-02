@@ -1,1 +1,0 @@
-#REDIRECT [[concepts/color theory/color schemes and mockups]]
