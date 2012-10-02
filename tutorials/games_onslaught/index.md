@@ -44,7 +44,7 @@ When an enemy gets hit in '''Onslaught! Arena''', it flashes red and briefly dis
 
 An obvious solution would be to draw a pain frame for each boss in each of the eight directions, but this would have been very time-consuming. Thanks to <code><canvas></code>, we were able to solve this problem in the code:
 
- [[Image:beholder_pain.png|600px|Beholder taking damage in Onslaught! Arena] Interesting effects can be made using context.globalCompositeOperation.]
+ [[Image:beholder_pain.png|600px|alt=Beholder taking damage in Onslaught! Arena|Interesting effects can be made using context.globalCompositeOperation.]]
 
 First we draw the monster to a hidden "buffer" <code><canvas></code>, overlay it with red, then render the result back to the screen. The code looks something like this:
 
@@ -181,11 +181,11 @@ Controls have been possibly the biggest stumbling block while developing '''Onsl
 
 In order to compare with similar games in its genre we added mouse support to control a targeting reticle, which the character would use to aim his attacks. The character could still be moved with the keyboard, but after this change he could simultaneously fire in any full 360-degree direction. Hardcore players appreciated this feature but it had the unfortunate side effect of frustrating trackpad users.
 
- [[Image:controls_modal.png|640px|Onslaught! Arena controls modal (deprecated)] An old controls or "how to play" modal in Onslaught! Arena.]
+ [[Image:controls_modal.png|640px|alt=Onslaught! Arena controls modal (deprecated)|An old controls or "how to play" modal in Onslaught! Arena.]]
 
 To accommodate trackpad users, we brought back arrow key controls, this time to allow firing in the pressed direction(s). While we felt that we were catering to all types of players, we were also unknowingly introducing too much complexity to our game. To our surprise, we'd later hear that some players weren't aware of the optional mouse (or keyboard!) controls for attacking, despite tutorial modals, which were largely ignored.
 
- [[Image:controls_tutorial.png|Onslaught! Arena controls tutorial] Players mostly ignore the tutorial overlay; they'd rather play and have fun!]
+ [[Image:controls_tutorial.png|alt=Onslaught! Arena controls tutorial|Players mostly ignore the tutorial overlay; they'd rather play and have fun!]]
 
 We also are fortunate to have some European fans, but we've heard frustrations from them that they may not have typical QWERTY keyboards and are unable to use the WASD keys for directional movement. Left-handed players have expressed similar complaints.
 
@@ -291,7 +291,7 @@ It may also be important for a game to support browsers that will not play MP3 f
 
 You can't have an arcade-style shoot 'em up without high scores! We knew we'd need some of our game data to persist, and while we could have used something old-hat like cookies, we wanted to dig into the fun new HTML5 technologies. There is certainly no shortage of options, including Local storage, Session storage and Web SQL Databases.
 
- [[Image:game_saved.png|640px|Saving your game in Onslaught! Arena] High scores are saved, as well as your place in the game after defeating each boss.]
+ [[Image:game_saved.png|640px|alt=Saving your game in Onslaught! Arena|High scores are saved, as well as your place in the game after defeating each boss.]]
 
 We decided to use <code>localStorage</code> since it's new, awesome and easy to use. It supports saving basic key/value pairs which is all our simple game needed. Here's a straightforward example of how to use it:
 
@@ -325,7 +325,7 @@ There are some "gotchas" to be aware of. No matter what you pass in, values are 
 
 HTML5 is amazing to work with. Most implementations handle everything a game developer needs, from graphics to saving the game state. While there are some growing pains (such as <code><audio></code> tag woes), browser developers are moving quickly and with things already as great as they are, the future looks bright for games built on HTML5.
 
- [[Image:xam_html5.png|Onslaught! Arena with a hidden HTML5 logo]You can get an HTML5 shield by typing "html5" when playing Onslaught! Arena.] 
+ [[Image:xam_html5.png|alt=Onslaught! Arena with a hidden HTML5 logo|You can get an HTML5 shield by typing "html5" when playing Onslaught! Arena.]]
 
 Except as otherwise [http://code.google.com/policies.html#restrictions noted], the content of this page is licensed under the [http://creativecommons.org/licenses/by/3.0/ Creative Commons Attribution 3.0 License], and code samples are licensed under the [http://www.apache.org/licenses/LICENSE-2.0 Apache 2.0 License].
 }}
