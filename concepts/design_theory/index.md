@@ -1,3 +1,4 @@
+{{Page_Title|Design theory}}
 {{Flags
 |High-level issues=Stub
 }}
