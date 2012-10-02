@@ -2,7 +2,7 @@
 {{Flags}}
 {{Byline}}
 {{Summary_Section|This guide explains inheritance and the cascade, two fundamental concepts in CSS.}}
-{{Guide
+{{Tutorial
 |Content=== Introduction ==
  
 Inheritance and the cascade are two fundamental concepts in CSS, which everyone using the technology needs to understand. The two concepts are closely related, yet different:
