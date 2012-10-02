@@ -4,7 +4,7 @@
 |Name=Paul Kinlan
 |Published=Feb. 17, 2010
 }}
-{{Summary_Section}}
+{{Summary_Section|Using Web databases}}
 {{Tutorial
 |Content== A Simple To-do list using HTML5 WebDatabases =
     
@@ -216,7 +216,8 @@ call the html5rocks.webdb.addTodo method
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
+|Sources=HTML5Rocks
 |MDN_link=
 |MSDN_link=
-|HTML5Rocks_link=
+|HTML5Rocks_link=http://www.html5rocks.com/tutorials/webdatabase/todo/
 }}
