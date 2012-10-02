@@ -1,4 +1,6 @@
+{{Page_Title|Understanding static and relative positioning}}
 {{Flags}}
+{{Byline}}
 {{Summary_Section|This article provides a guide to static and relative positioning.}}
 {{Tutorial
 |Content=== Introduction ==
