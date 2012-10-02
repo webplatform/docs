@@ -17,7 +17,7 @@ Check out our [[concepts|Concept pages]]. These pages describe general concepts 
 *[[js|JavaScript]]: JavaScript is a scripting language used to make webpages interactive.
 *[[SVG|SVG]]: Scalable Vector Graphics is a family of specifications for two-dimensional vector graphics.
 
-These pages include links to specifications, educational materials, tutorials, and our nested topics.
+These pages include links to specifications and educational materials.
 
 == Specific topics ==
 
