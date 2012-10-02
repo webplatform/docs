@@ -1,7 +1,8 @@
-{{Page_Title}}
+{{Page_Title|Dynamic visual effects with CSS3 transitions}}
 {{Flags
 |High-level issues=Stub
 }}
+{{Byline}}
 {{Summary_Section}}
 {{Tutorial}}
 {{Compatibility_Section
