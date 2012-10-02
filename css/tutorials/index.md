@@ -5,35 +5,38 @@
 }}
 ==Beginning with CSS==
 
-* [[tutorials/what is css|What is CSS?]]
-* [[tutorials/why use css|Why use CSS?]]
-* [[tutorials/getting started with css|Getting started with CSS]]
+* [[tutorials/learning what css is|What is CSS?]]
+* [[tutorials/learning why we use css|Why use CSS?]]
+* [[guides/getting started with css|Getting started with CSS]]
 
 ==CSS fundamentals==
 
-* [[tutorials/selectors fundamentals|Selectors fundamentals]]
-* [[tutorials/advanced selectors|Advanced selectors]]
+* [[tutorials/using selectors|Using selectors]]
+* [[guides/advanced selectors guide|Advanced selectors guide]]
 * [[tutorials/inheritance and cascade|Inheritance and cascade]]
 
 ==Working with fonts and text==
 
-* [[tutorials/css text styling fundamentals|Text styling fundamentals]]
+* [[guides/css text styling fundamentals|Text styling fundamentals]]
 * [[tutorials/css text quick start|CSS text quick start]]
-* [[tutorials/CSS text styling advanced|Advanced CSS text styling]]
+* [[tutorials/advanced css text styling advanced|Advanced CSS text styling]]
 
 ==Graphics==
 
-* [[tutorials/Background images|Background images]]
+* [[tutorials/using css background images|Using CSS background images]]
+* [[tutorials/creating gradients in css|Creating gradients in CSS]]
+* [[tutorials/css border image|Decorating fancy borders with CSS border-image]]
+* [[tutorials/css box shadow|Adding depth with CSS box-shadow]]
 
 ==CSS layout==
 
-* [[The_CSS_layout_model|The CSS layout model: border, boxes, margin and padding]]
-* [[tutorials/Box model|Box model]]
-* [[tutorials/Layout fundamentals|CSS layout fundamentals]]
+* [[guides/the css layout model|The CSS layout model: border, boxes, margin and padding]]
+* [[tutorials/box model|Exploring the CSS box model]]
+* [[tutorials/layout fundamentals|Exploring CSS layout fundamentals]]
 
 ==CSS best practices==
 
-* [[tutorials/Making CSS easier to read|Making CSS easier to read]]
+* [[tutorials/making css easier to read|Making CSS easier to read]]
 
 ==Advanced CSS techniques==
 
