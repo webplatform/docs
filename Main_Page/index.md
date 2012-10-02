@@ -12,7 +12,7 @@ We would love your help in improving the content in any way you can &mdash; if y
 
 *[[HTML|HTML]]: HyperText Markup Language is used to describe the content of webpages.
 *[[CSS|CSS]]: Cascading Style Sheets are used to control the look and formatting of webpages.
-*[[js|JavaScript]]: JavaScript is a client-side scripting language used to make webpages interactive.
+*[[js|JavaScript]]: JavaScript is a scripting language used to make webpages interactive.
 *[[SVG|SVG]]: Scalable Vector Graphics is a family of specifications for two-dimensional vector graphics.
 
 These pages include links to specifications, educational materials, tutorials, and our nested topics.
