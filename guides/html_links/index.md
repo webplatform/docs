@@ -2,7 +2,7 @@
 {{Flags}}
 {{Byline}}
 {{Summary_Section|In this article we provide a complete treatment of HTML anchors, or <code>&lt;a&gt;</code> elements, more commonly known as HTML links.}}
-{{Tutorial
+{{Guide
 |Content=== Introduction ==
  
 In this article you’ll learn all about one of the most ground-breaking inventions in the history of the Web — links. Links allow the reader of a document to follow them to another document and jump from server to server without having to disconnect and connect all over again. A lot has happened since they were first invented but one thing stayed the same: links are a very important part of the web experience and you can make accessing your content and functionality easy or hard for your web site’s visitors, depending on how you use them.
