@@ -1,6 +1,8 @@
-{{Page_Title}}
-{{Flags}}
-{{Summary_Section|Index page for Events.}}
+{{Page_Title|Events}}
+{{Flags
+|Content=Incomplete
+}}
+{{Summary_Section|Event handling enables web applications to respond to events in HTML.}}
 {{Basic Page}}
 {{Special:PrefixIndex/events}}
 {{Topics}}
