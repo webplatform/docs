@@ -1,12 +1,14 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Flags
+}}
+{{Byline
+|Name=Seth Ladd
+|Published=June 18, 2010
 }}
 {{Summary_Section|An introduction to Chrome Developer Tools}}
 {{Tutorial
 |Content==Introduction to Chrome Developer Tools, Part One=
-
-====original by Seth Ladd====
-====published June 18, 2010====
 
 ==Introduction==
 
@@ -259,5 +261,5 @@ And of course, stay tuned for Part 2 of this article, along with lots of other g
 |Sources=HTML5Rocks
 |MDN_link=
 |MSDN_link=
-|HTML5Rocks_link=http://www.html5rocks.com/en/tutorials/developertools/part1/
+|HTML5Rocks_link=http://www.html5rocks.com/tutorials/developertools/part1/
 }}
