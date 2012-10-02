@@ -1,5 +1,6 @@
+{{Page_Title|CSS shorthand guide}}
 {{Flags}}
-{{Page_Title}}
+{{Byline}}
 {{Summary_Section|This short article covers the various bits of CSS shorthand you'll encounter in your day to day work.}}
 {{Guide
 |Content=== Border ==
