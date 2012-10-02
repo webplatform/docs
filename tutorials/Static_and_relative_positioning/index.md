@@ -1,1 +1,0 @@
-#REDIRECT [[tutorials/static and relative positioning]]
