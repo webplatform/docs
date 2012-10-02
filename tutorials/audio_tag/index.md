@@ -5,10 +5,10 @@
 {{Byline
 |Name=Ernest Delgado
 |URL=http://www.html5rocks.com/profiles/#ernestd
+|Published=Feb. 5, 2010
 }}
 {{Summary_Section|Guide to implementing the audio tag in HTML.
 
-Published '''Feb. 5, 2010'''
 }}
 {{Tutorial
 |Content=== Step 1: Wrap your Flash object with the audio tag ==
