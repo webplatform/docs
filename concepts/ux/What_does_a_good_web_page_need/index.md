@@ -1,3 +1,4 @@
+{{Page_Title|What does a good web page need?}}
 {{Flags}}
 {{API_Name}}
 {{Summary_Section|Continuing on from [http://www.w3.org/wiki/Information_Architecture_-_planning_out_a_web_site the previous article], here we will look at the content of The Dung Beatles’ web site to give you a flavour of what good web sites and pages need to contain.
@@ -5,7 +6,6 @@
 You won’t be looking into the actual underlying code yet; instead you’ll just 
 start to examine the different pages, thinking about what items should appear on them,
 and considering issues such as consistency, usability, and accessibility.
-
 }}
 {{Concept_Page
 |Content=== The home page ==
@@ -275,7 +275,6 @@ their preferred way.
 == Summary ==
  
 In this article I’ve discussed in broad terms what you will need to bear in mind as you start creating actual web pages, to make them more usable, more accessible, and run more smoothly. All of the concepts will be explained in greater detail as this series progresses.
-
 }}
 {{Examples_Section
 |Not_required=Yes
