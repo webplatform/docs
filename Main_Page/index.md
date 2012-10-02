@@ -6,6 +6,10 @@ Bear in mind that this is an early alpha release. In the future, there will be a
 
 We would love your help in improving the content in any way you can &mdash; if you see problems on any pages, fix them, add a note to the article, or get in contact with us using any of the other methods available below. We are also looking for people to contribute new material!
 
+== New to the web? ==
+
+Check out our [[concepts|Concept pages]]. These pages describe general concepts related to the Web, and web design and development.
+
 == Primary web technologies ==
 
 *[[HTML|HTML]]: HyperText Markup Language is used to describe the content of webpages.
@@ -15,9 +19,8 @@ We would love your help in improving the content in any way you can &mdash; if y
 
 These pages include links to specifications, educational materials, tutorials, and our nested topics.
 
-== Read our docs ==
+== Specific topics ==
 
-* [[concepts|Concept pages]]: General concepts related to the Web, and web design and development
 * [[Accessibility]]: Summary of Accessibility, including introduction to the basics and testing
 * [[concepts/mobile_web|Mobile web]]: List of all of our mobile web tutorials, from general introductions to complex topics
 
@@ -29,7 +32,7 @@ These pages include links to specifications, educational materials, tutorials, a
 * [[WPD:Manual_Of_Style|Web Platform Docs language and style guide]]
 * Read the [http://blog.webplatform.org/ Web Platform Docs blog] for upcoming news
 
-== Join us! ==
+=== Contact us! ===
 
 * [Web Platform Docs public mailing list]
 * [http://talk.webplatform.org/forums/ Web Platform Docs Forums]
