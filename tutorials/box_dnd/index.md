@@ -1,13 +1,14 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Flags
+}}
+{{Byline
+|Name=David Tong
+|Published=Sept. 25, 2010
 }}
 {{Summary_Section|An introduction to native drag-and-drop download.}}
 {{Tutorial
 |Content==Case Study: Drag and Drop Download in Chrome=
-
-====original by David Tong====
-====published Sept. 25, 2010====
-
 ==Introduction==
 
 Drag and Drop (DnD) is one of the many great features of HTML5. Google recently rolled out a [http://gmailblog.blogspot.com/2010/08/drag-and-drop-attachments-to-save-them.html new feature] that allows Google Chrome users to drag and drop files from the browser to the desktop. It is an extremely convenient feature, but it was not widely known until Ryan Seddon posted an article on the [http://www.thecssninja.com/javascript/gmail-dragout discoveries] of his reverse engineering on this new feature.
@@ -228,7 +229,6 @@ I also hope that the capability of multi-file download will be added to the API 
 ==References==
 
 * [http://www.whatwg.org/specs/web-apps/current-work/multipage/dnd.html#dnd Drag and Drop] specification
-
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -287,5 +287,5 @@ I also hope that the capability of multi-file download will be added to the API 
 |Sources=HTML5Rocks
 |MDN_link=
 |MSDN_link=
-|HTML5Rocks_link=http://www.html5rocks.com/en/tutorials/casestudies/box_dnd_download/
+|HTML5Rocks_link=http://www.html5rocks.com/tutorials/casestudies/box_dnd_download/
 }}
