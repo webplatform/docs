@@ -333,7 +333,7 @@ The character tokens of the "Hello world" string are now received. The first one
 
 The receiving of the body end token will cause a transfer to '''"after body"''' mode. We will now receive the html end tag which will move us to '''"after after body"''' mode. Receiving the end of file token will end the parsing.
 
-[[11.png|Figure 11: tree construction of example html]]
+[[Image:11.png|Figure 11: tree construction of example html]]
 
 ====Actions when the parsing is finished====
 
