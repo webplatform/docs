@@ -9,8 +9,7 @@
 }}
 {{Summary_Section|A guide to using the XMLHttpRequest2 API.}}
 {{Tutorial
-|Content=
-
+|Content=test
 }}
 {{Compatibility_Section
 |Not_required=No
