@@ -1,4 +1,6 @@
+{{Page_Title|CSS text styling fundamentals}}
 {{Flags}}
+{{Byline}}
 {{Summary_Section|This article covers the fundamentals of styling text on the web, including web fonts, font size, line height and more.}}
 {{Tutorial
 |Content=== Introduction ==
@@ -292,4 +294,7 @@ See [http://people.opera.com/cmills/css-text-styling/zappa6.html zappa6.html] fo
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
 }}
