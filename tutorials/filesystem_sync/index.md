@@ -50,7 +50,7 @@ Notice the new return value now that we're using the synchronous API as well as 
 
 As with the normal FileSystem API, methods are prefixed at the moment:
 
-<pre>self.requestFileSystemSync = self.webkitRequestFileSystemSync ||
+<pre>self.requestFileSystemSync = self.webkitRequestFileSystemSync |
                              self.requestFileSystemSync;
 </pre>
 
