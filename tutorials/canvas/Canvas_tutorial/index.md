@@ -1,6 +1,8 @@
+{{Page_Title|Introduction to Canvas}}
 {{Flags
 |High-level issues=Needs Flags
 }}
+{{Byline}}
 {{Summary_Section|'''<code><canvas></code>''' is an [[HTML]] element which can be used to draw graphics using scripting (usually [[JavaScript]]). It can, for instance, be used to draw graphs, make photo compositions or do simple (and not so simple) animations.}}
 {{Tutorial
 |Content=<code>&lt;canvas&gt;</code> was first introduced by Apple for the Mac OS X Dashboard and later implemented in Safari and Google Chrome. Gecko 1.8-based browsers, such as Firefox 1.5, also support this element. The <code>&lt;canvas&gt;</code> element is part of [http://dev.w3.org/html5/spec/the-canvas-element.html#the-canvas-element HTML5].
