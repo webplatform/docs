@@ -20,6 +20,7 @@
 * [[guides/css text styling fundamentals|Text styling fundamentals]]
 * [[tutorials/css text quick start|CSS text quick start]]
 * [[guides/advanced css text styling|Advanced CSS text styling]]
+* [[tutorials/using specific list styles|Using specific list styles]]
 
 ==Graphics==
 
@@ -45,6 +46,9 @@
 ==Applied styling exercises==
 
 * [[tutorials/styling lists and links|Styling lists and links]]
+* [[guides/styling HTML tables|Styling HTML tables]]
+* [[tutorials/table styling basics|Table styling basics]]
+* [[guides/styling forms guide|Styling forms — the ultimate guide]]
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
