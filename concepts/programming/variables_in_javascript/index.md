@@ -12,7 +12,7 @@
 
 JavaScript recognizes the following types of values:
 
-* [js/data-types/number Numbers], such as 42 or 3.14159
+* [[js/data-types/number{{!}}Numbers]], such as 42 or 3.14159
 * [js/data-types/boolean Logical (Boolean)] values, either <code>true</code> or <code>false</code>
 * [js/data-types/string Strings], such as "Howdy!"
 * <code>null</code>, a special keyword denoting a null value; <code>null</code> is also a primitive value. Because JavaScript is case-sensitive, <code>null</code> is not the same as <code>Null</code>, <code>NULL</code>, or any other variant
