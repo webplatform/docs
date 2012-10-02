@@ -1,12 +1,14 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Flags
+}}
+{{Byline
+|Name=Eric Bidelman
+|Published=May 27, 2011
 }}
 {{Summary_Section|An introduction to using the appcache interface for offline application functionality.}}
 {{Tutorial
 |Content==A Beginner's Guide to Using the Application Cache=
-==By Eric Bidelman==
-
-Published May 27, 2011
 
 ==Introduction==
 
@@ -313,5 +315,5 @@ If the manifest file or a resource specified in it fails to download, the entire
 |Sources=HTML5Rocks
 |MDN_link=
 |MSDN_link=
-|HTML5Rocks_link=http://www.html5rocks.com/en/tutorials/appcache/beginner/
+|HTML5Rocks_link=http://www.html5rocks.com/tutorials/appcache/beginner/
 }}
