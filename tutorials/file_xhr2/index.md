@@ -23,13 +23,13 @@ Fetching a file as a binary blob has been painful with XHR. Technically, it wasn
 
 <p id="toc-old-download">The old way to fetch an image:</p>
 
- var xhr = new XMLHttpRequest();
- xhr.open('GET', '/path/to/image.png', true);
+  var xhr = new XMLHttpRequest();
+  xhr.open('GET', '/path/to/image.png', true);
  
- // Hack to pass bytes through unprocessed.
- '''xhr.overrideMimeType('text/plain; charset=x-user-defined');'''
+  // Hack to pass bytes through unprocessed.
+  '''xhr.overrideMimeType('text/plain; charset=x-user-defined');'''
  
- xhr.onreadystatechange = function(e) {
+  xhr.onreadystatechange = function(e) {
    if (this.readyState == 4 && this.status == 200) {
      var binStr = this.responseText;
      for (var i = 0, len = binStr.length; i < len; ++i) {
@@ -38,9 +38,9 @@ Fetching a file as a binary blob has been painful with XHR. Technically, it wasn
        '''var byte = c & 0xff;  // byte at offset i'''
      }
    }
- };
+  };
  
- xhr.send();
+  xhr.send();
 
 While this works, what you actually get back in the <code>responseText</code> is not a binary blob. It is a binary string representing the image file. We're tricking the server into passing the data back, unprocessed. Even though this little gem works, I'm going to call it black magic and advise against it. Anytime you resort to character code hacks and string manipulation for coercing data into a desirable format, that's a problem.
 
@@ -55,11 +55,12 @@ In the previous example, we downloaded the image as a binary "file" by overridin
 
 With this new awesomeness, we can rework the previous example, but this time, fetch the image as an <code>Blob</code> instead of a string:
 
+<pre>
   var xhr = new XMLHttpRequest();
   xhr.open('GET', '/path/to/image.png', true);
-  '''xhr.responseType = 'blob';'''
+  <b>xhr.responseType = 'blob';</b>
 
-  '''xhr.onload''' = function(e) {
+  <b>xhr.onload</b> = function(e) {
    if (this.status == 200) {
      // Note: .response instead of .responseText
      var blob = new Blob([this.response], {type: 'image/png'});
@@ -68,8 +69,60 @@ With this new awesomeness, we can rework the previous example, but this time, fe
   };
 
   xhr.send();
+</pre>
 
 Much nicer!
+
+<h4 id="toc-reponseTypeArrayBuffer">ArrayBuffer responses</h4>
+
+An [https://developer.mozilla.org/en/JavaScript_typed_arrays/ArrayBuffer <code>ArrayBuffer</code>] is a generic fixed-length container for binary data. They are super handy if you need a generalized buffer of raw data, but the real power behind these guys is that you can create "views" of the underlying data using [https://developer.mozilla.org/en/JavaScript_typed_arrays JavaScript typed arrays]. In fact, multiple views can be created from a single <code>ArrayBuffer</code> source. For example, you could create an 8-bit integer array that shares the same <code>ArrayBuffer</code> as an existing 32-bit integer array from the same data. The underlying data remains the same, we just create different representations of it.
+
+As an example, the following fetches our same image as an <code>ArrayBuffer</code>, but this time, creates an unsigned 8-bit integer array from that data buffer:
+
+<pre>
+ var xhr = new XMLHttpRequest();
+ xhr.open('GET', '/path/to/image.png', true);
+ <b>xhr.responseType = 'arraybuffer';</b>
+ 
+ <b>xhr.onload</b> = function(e) {
+   var uInt8Array = new <b>Uint8Array</b>(<b>this.response</b>); // this.response == uInt8Array.buffer
+   // var byte3 = uInt8Array[4]; // byte at offset 4
+   ...
+ };
+ 
+ xhr.send();
+</pre>
+
+<h4 id="toc-reponseTypeBlob">Blob responses</h4>
+
+If you want to work directly with a [https://developer.mozilla.org/en/DOM/Blob <code>Blob</code>] and/or don't need to manipulate any of the file's bytes, use <code>xhr.responseType='blob'</code><nowiki>:</nowiki>
+
+<pre>
+ window.URL = window.URL &#124;&#124; window.webkitURL;  // Take care of vendor prefixes.
+ 
+ var xhr = new XMLHttpRequest();
+ xhr.open('GET', '/path/to/image.png', true);
+ <b>xhr.responseType = 'blob';</b>
+ 
+ <b>xhr.onload''' = function(e) {
+   if (this.status == 200) {
+     var blob = <b>this.response</b>;
+ 
+     var img = document.createElement('img');
+     img.onload = function(e) {
+       <b>window.URL.revokeObjectURL(img.src);</b> // Clean up after yourself.
+     };
+     img.src = <b>window.URL.createObjectURL(blob);</b>
+     document.body.appendChild(img);
+     ...
+   }
+ };
+ 
+ xhr.send();
+</pre>
+
+A <code>Blob</code> can be used in a number of places, including writing it to the HTML5 [[tutorials/file_filesystem|File System]], or [[tutorials/workers_basics#BlobURLs|creating a Blob URL]], as seen in this example.
+
 }}
 {{Compatibility_Section
 |Not_required=No
