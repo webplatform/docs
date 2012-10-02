@@ -8,13 +8,20 @@ We would love your help in improving the content in any way you can &mdash; if y
 
 == Read our docs ==
 
+
+
+*[[HTML|HTML]]: HyperText Markup Language is used to describe the content of webpages.
+*[[CSS|CSS]]: Cascading Style Sheets are used to control the look and formatting of webpages.
+*[[js|JavaScript]]: JavaScript is a client-side scripting language used to make webpages interactive.
+*[[SVG|SVG]]: Scalable Vector Graphics is a family of specifications for two-dimensional vector graphics.
+
+These pages include links to specifications, educational materials, tutorials, and our nested topics.
+
+== Read our docs ==
+
 * [[concepts|Concept pages]]: General concepts related to the Web, and web design and development
 * [[Accessibility]]: Summary of Accessibility, including introduction to the basics and testing
-*[[HTML|HTML]]: Summary of HTML, including links to specifications, educational materials, and our HTML topics
-*[[CSS|CSS]]: Summary of CSS, including links to specifications, educational materials, and our CSS topics
-*[[js|JavaScript]]: List of all of our JavaScript tutorials, from general introductions to complex topics
 * [[concepts/mobile_web|Mobile web]]: List of all of our mobile web tutorials, from general introductions to complex topics
-*[[SVG|SVG]]: Summary of SVG, including links to specifications, educational materials, and our HTML topics
 
 == Contribute to Web Platform Docs ==
 
