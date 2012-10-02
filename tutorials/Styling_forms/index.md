@@ -1,1 +1,0 @@
-#REDIRECT [[guides/styling forms guide]]
