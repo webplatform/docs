@@ -1,6 +1,6 @@
 {{Flags}}
 {{Summary_Section|This article provides a thoughtful grounding in form styling and layout — one of the more difficult aspects of styling web pages.}}
-{{Tutorial
+{{Guide
 |Content=== Introduction ==
  
 The [http://www.w3.org/wiki/HTML_forms_-_the_basics HTML forms article] introduced you to the basics of form creation and styling. This article of the [http://www.w3.org/wiki/Web_Standards_Curriculum Web Standards Curriculum] carries on where that left off, providing more details about form elements and styles, and how forms are included in real-world Web application designs.
