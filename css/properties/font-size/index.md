@@ -172,7 +172,7 @@ The em is a very useful unit in CSS, since it can adapt automatically to the fon
 }}
 {{See_Also_Section
 |Topic_clusters=CSS Font, CSS Layout
-|Manual_sections====Related CSS Properties===
+|Manual_sections====Related CSS properties===
 * <code>[[CSS/properties/font | font]]</code>
 * <code>[[CSS/properties/font-family | font-family]]</code>
 * <code>[[CSS/properties/font-size | font-size]]</code>
@@ -182,10 +182,10 @@ The em is a very useful unit in CSS, since it can adapt automatically to the fon
 * <code>[[CSS/properties/font-variant | font-variant]]</code>
 * <code>[[CSS/properties/font-weight | font-weight]]</code>
 
-===Related CSS At Rules===
+===Related CSS at rules===
 * <code>[[CSS/atrules/@font-face | @font-face]]</code>
 
-===Related DOM Interfaces===
+===Related DOM interfaces===
 * <code>[[DOM/element/CSSStyleDeclaration | CSSStyleDeclaration]]</code>
 
 ===Related DOM properties===
