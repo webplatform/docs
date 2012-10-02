@@ -32,7 +32,8 @@ Here's a scenario that we considered:
 
 This method would consist of 1x1 sprites instead of doubling them up on the asset creation side. From there, CSS would take over and resize the canvas itself. Our benchmarks revealed that this method can be about twice as fast as rendering larger (doubled-up) images, but unfortunately CSS resizing includes anti-aliasing, something we couldn't find a way to prevent.
 
- [[Image:resize_assets_or_css.png.pagespeed.ce.H1FEOh9ZFi.png|700px|Canvas resizing options]] Left: pixel-perfect assets doubled-up in Photoshop. Right: CSS resizing added a blurry effect.
+ [[Image:resize_assets_or_css.png|700px|Canvas resizing options]] 
+Left: pixel-perfect assets doubled-up in Photoshop. Right: CSS resizing added a blurry effect.
 
 This was a deal breaker for our game since individual pixels are so important but if you need to resize your canvas and anti-aliasing is appropriate for your project, you could consider this approach for performance reasons.
 
@@ -44,7 +45,7 @@ When an enemy gets hit in '''Onslaught! Arena''', it flashes red and briefly dis
 
 An obvious solution would be to draw a pain frame for each boss in each of the eight directions, but this would have been very time-consuming. Thanks to <code><canvas></code>, we were able to solve this problem in the code:
 
- [[Image:beholder_pain.png.pagespeed.ce.iAJuYWB3d4.png|600px|Beholder taking damage in Onslaught! Arena]] Interesting effects can be made using context.globalCompositeOperation.
+ [[Image:beholder_pain.png|600px|Beholder taking damage in Onslaught! Arena]] Interesting effects can be made using context.globalCompositeOperation.
 
 First we draw the monster to a hidden "buffer" <code><canvas></code>, overlay it with red, then render the result back to the screen. The code looks something like this:
 
@@ -181,7 +182,7 @@ Controls have been possibly the biggest stumbling block while developing '''Onsl
 
 In order to compare with similar games in its genre we added mouse support to control a targeting reticle, which the character would use to aim his attacks. The character could still be moved with the keyboard, but after this change he could simultaneously fire in any full 360-degree direction. Hardcore players appreciated this feature but it had the unfortunate side effect of frustrating trackpad users.
 
- [[Image:controls_modal.png.pagespeed.ce.fFrImNrwfI.png|640px|Onslaught! Arena controls modal (deprecated)]] An old controls or "how to play" modal in Onslaught! Arena.
+ [[Image:controls_modal.png|640px|Onslaught! Arena controls modal (deprecated)]] An old controls or "how to play" modal in Onslaught! Arena.
 
 To accommodate trackpad users, we brought back arrow key controls, this time to allow firing in the pressed direction(s). While we felt that we were catering to all types of players, we were also unknowingly introducing too much complexity to our game. To our surprise, we'd later hear that some players weren't aware of the optional mouse (or keyboard!) controls for attacking, despite tutorial modals, which were largely ignored.
 
