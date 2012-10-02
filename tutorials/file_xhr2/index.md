@@ -209,7 +209,7 @@ Of course, you don't need to create a <code><form></code> from scratch. <code>Fo
  }
 </pre>
 
-An HTML form can include file uploads (e.g. <code>&lt;input type="file">&gt;</code>) and <code>FormData</code> can handle that too. Simply append the file(s) and the browser will construct a <code>multipart/form-data</code> request when <code>send()</code> is called:
+An HTML form can include file uploads (e.g. <code>&lt;input type="file"&gt;</code>) and <code>FormData</code> can handle that too. Simply append the file(s) and the browser will construct a <code>multipart/form-data</code> request when <code>send()</code> is called:
 
 <pre>
  function uploadFiles(url, files) {
@@ -385,7 +385,7 @@ Using the [[tutorials/file_dnd|File APIs]], we can minimize the work to upload a
 
 What is not shown here is the code to reconstruct the file on the server.
 
-'''Try it!'''
+[http://www.html5rocks.com/tutorials/file/xhr2/#toc-example-slicingfiles '''Try it!'''] on HTML5Rocks!
 
 <h2 id="toc-references">References</h2>
 
@@ -453,3 +453,4 @@ What is not shown here is the code to reconstruct the file on the server.
 |MSDN_link=
 |HTML5Rocks_link=http://www.html5rocks.com/tutorials/file/xhr2/
 }}
+}
