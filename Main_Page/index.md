@@ -19,8 +19,6 @@ In the future, Web Platform Docs will include even more content for you to explo
 *[[SVG|SVG Reference & Tutorials]]
 *[[Accessibility]]
 
-These pages include links to references and tutorial materials.
-
 == Contribute to Web Platform Docs ==
 
 We’d love to have your help in improving Web Platform Docs. Even the slightest effort can have significant impact on the site; from alerting fellow developers about errors in our documentation, to fixing these errors, porting existing articles or even contributing completely new content. To learn more, please read our [[WPD:Getting_Started|Getting Started Guide]].
