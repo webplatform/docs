@@ -280,7 +280,7 @@ For example:
 
 ===Object literals===
 
-An object literal is a list of zero or more pairs of property names and associated values of an object, enclosed in curly braces ({}). You should not use an object literal at the beginning of a statement. This will lead to an error or not behave as you expect, because the { will be interpreted as the beginning of a block.
+An object literal is a list of zero or more pairs of property names and associated values of an object, enclosed in curly braces ({}). You should not use an object literal at the beginning of a statement. This will lead to an error or not behave as you expect, because the <nowiki>{</nowiki> will be interpreted as the beginning of a block.
 
 The following is an example of an object literal. The first element of the <code>car</code> object defines a property, <code>myCar</code><nowiki>; the second element, the </nowiki><code>getCar</code> property, invokes a function <code>(CarTypes("Honda"));</code> the third element, the <code>special</code> property, uses an existing variable (<code>Sales</code>).
  
