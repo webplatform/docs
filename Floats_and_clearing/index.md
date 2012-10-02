@@ -1,3 +1,27 @@
+{{Page_Title}}
+{{Flags
+|High-level issues=Merge Candidate
+|Editorial notes={{Editorial/Merge_Candidate
+|Other=[[tutorials/Floats_and_clearing]]
+}}
+}}
+{{Byline}}
+{{Summary_Section}}
+{{Tutorial}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section}}
+{{Topics}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
+}}
 == Introduction ==
  
 In this article of the [http://www.w3.org/wiki/Web_Standards_Curriculum Web Standards Curriculum] you will get acquainted with floating and clearing—two must-have tools for the modern web designer. They are versatile tools that you can use to allow text to flow around images or even create multi-column layouts.
