@@ -9,7 +9,7 @@
 * [[tutorials/Typography_on_the_Web|Typography on the web]]
 }}
 {{Compatibility_Section
-|Not_required=No
+|Not_required=Yes
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
