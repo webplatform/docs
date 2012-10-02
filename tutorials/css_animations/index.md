@@ -1,6 +1,8 @@
+{{Page_Title|Making things move with CSS3 animations}}
 {{Flags
 |High-level issues=Stub
 }}
+{{Byline}}
 {{Summary_Section}}
 {{Tutorial}}
 {{Compatibility_Section
