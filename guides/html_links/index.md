@@ -304,8 +304,33 @@ We covered a lot this time, but it is very important to remember how links work 
 {{Compatibility_Section
 |Not_required=No
 |Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
+|Mobile_rows={{Compatibility Table Mobile Row
+|Android_supported=Unknown
+|Android_version=
+|Android_prefixed_supported=Unknown
+|Android_prefixed_version=
+|Firefox_mobile_supported=Unknown
+|Firefox_mobile_version=
+|Firefox_mobile_prefixed_supported=Unknown
+|Firefox_mobile_prefixed_version=
+|IE_phone_supported=Unknown
+|IE_phone_version=
+|IE_phone_prefixed_supported=Unknown
+|IE_phone_prefixed_version=
+|Opera_mobile_supported=Unknown
+|Opera_mobile_version=
+|Opera_mobile_prefixed_supported=Unknown
+|Opera_mobile_prefixed_version=
+|Safari_mobile_supported=Unknown
+|Safari_mobile_version=
+|Safari_mobile_prefixed_supported=Unknown
+|Safari_mobile_prefixed_version=
+}}
+|Notes_rows={{Compatibility Notes Row
+|Browser=Opera Mini
+|Version=7
+|Note=Test support
+}}
 }}
 {{See_Also_Section
 |Manual_sections==== Exercise questions ===
