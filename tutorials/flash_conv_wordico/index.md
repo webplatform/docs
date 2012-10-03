@@ -13,7 +13,7 @@ When we converted our [http://www.wordico.com Wordico] crossword game from Flash
 
 We developed the original version of Wordico using only vector graphics: lines, curves, fills, and gradients. The result was both highly compact and infinitely scalable:
 
- [[Image:xwordico-flash-wireframe.jpg|600px|Wordico Wireframe]] In Flash, every display object was made of vector shapes.
+ [[Image:wordico-flash-wireframe.jpg|600px|Wordico Wireframe]] In Flash, every display object was made of vector shapes.
 
 We also took advantage of the Flash timeline to create objects having multiple states. For example, we used nine named keyframes for the <code>Space</code> object:
 
