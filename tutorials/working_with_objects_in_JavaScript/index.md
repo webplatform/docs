@@ -451,19 +451,20 @@ Which of the two forms to choose depends on your programming style and task at h
 
 {{note | Prior to Firefox 3.0, getter and setter are not supported for DOM Elements. Older versions of Firefox silently fail. If exceptions are needed for those, changing the prototype of HTMLElement <code>(HTMLElement.prototype.__define[SG]etter__)</code> and throwing an exception is a workaround.
 
- With Firefox 3.0, defining getter or setter on an already-defined property will throw an exception. The property must be deleted beforehand, which is not the case for older versions of Firefox.}}
+With Firefox 3.0, defining getter or setter on an already-defined property will throw an exception. The property must be deleted beforehand, which is not the case for older versions of Firefox.}}
 
 ====See also====
 
-* <code>[/en-US/docs/JavaScript/Reference/Global_Objects/Object/defineGetter __defineGetter__]</code>
-* <code>[/en-US/docs/JavaScript/Reference/Global_Objects/Object/defineSetter __defineSetter__]</code>
-* <code>[/en-US/docs/JavaScript/Reference/Operators/get get]</code>
-* <code>[/en-US/docs/JavaScript/Reference/Operators/set set]</code>
+* <code>[/https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Object/defineGetter __defineGetter__]</code>
+* <code>[https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Object/defineSetter __defineSetter__]</code>
+* <code>[https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Operators/get get]</code>
+* <code>[https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Operators/set set]</code>
 
 ===Deleting properties===
 
 You can remove a property by using the <code>delete</code> operator. The following code shows how to remove a property.
 
+<syntaxhighlight lang="javascript">
  //Creates a new object, myobj, with two properties, a and b.
  var myobj = new Object;
  myobj.a = 5;
@@ -471,24 +472,21 @@ You can remove a property by using the <code>delete</code> operator. The followi
  
  //Removes the a property, leaving myobj with only the b property.
  delete myobj.a;
+</syntaxhighlight>
 
 You can also use <code>delete</code> to delete a global variable if the <code>var</code> keyword was not used to declare the variable:
 
+<syntaxhighlight lang="javascript">
  g = 17;
  delete g;
+</syntaxhighlight>
 
-See <code>[Expressions_and_operators#delete delete]</code> for more information.
+See <code>[[#Expressions_and_operators#delete | delete]]</code> for more information.
 
 ==See also==
 
 * [http://es5.github.com/#x4.2 ECMAScript 5.1 spec: Language Overview]
 * [http://dmitrysoshnikov.com/ecmascript/javascript-the-core JavaScript. The core. (Dmitry A. Soshnikov ECMA-262 article series)]
-
-<div>
-
-<span style="float: left">[/en-US/docs/JavaScript/Guide/Functions « Previous]</span>[/en-US/docs/JavaScript/Guide/Predefined_Core_Objects Next »]
-
-</div>
 }}
 {{Compatibility_Section
 |Not_required=No
