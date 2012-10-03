@@ -15,9 +15,9 @@ Once you know how to use HTML lists properly, you will probably discover that yo
  
 There are three list types in HTML:
  
-* '''unordered list''' — used to group a set of related items, in no particular order.
-* '''ordered list''' — used to group a set of related items, in a specific order.
-* '''description list''' — used to display name/value pairs such as terms and their definitions, or times and events.
+* '''[[Meta:HTML/Elements/ul unordered list]]''' — used to group a set of related items, in no particular order.
+* '''[[Meta:HTML/Elements/ol ordered list]]''' — used to group a set of related items, in a specific order.
+* '''[[Meta:HTML/Elements/dl description list]]''' — used to display name/value pairs such as terms and their definitions, or times and events.
  
 Each one has a specific purpose and meaning — they are not interchangeable.
  
