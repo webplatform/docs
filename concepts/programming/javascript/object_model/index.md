@@ -7,7 +7,7 @@
 
 This chapter assumes that you are already somewhat familiar with JavaScript and that you have used JavaScript functions to create simple objects.
 }}
-{{Concepts
+{{Concept
 |Content===Class-based vs. prototype-based languages==
 
 Class-based object-oriented languages, such as Java and C++, are founded on the concept of two distinct entities: classes and instances.
