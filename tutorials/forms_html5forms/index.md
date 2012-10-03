@@ -22,31 +22,50 @@ At the time of writing, support for all the new form and input elements, attribu
 
 HTML5 introduces 5 new elements related to input and forms.
 
-{| class="alternating"
-! scope="col" | Element
-! scope="col" | Purpose
-! scope="col" | Notes
-|-
-| <code>[http://dev.w3.org/html5/spec/Overview.html#the-progress-element progress]</code>
-| Represents completion of a task.
-| The <code>progress</code> element could represent the progress of a file being uploaded.
-|-
-| <code>[http://dev.w3.org/html5/spec/Overview.html#the-meter-element meter]</code>
-| Represents a scalar measurement within a known range.
-| The <code>meter</code> element could be used to represent something like a temperature or weight measurement.
-|-
-| <code>[http://dev.w3.org/html5/spec/Overview.html#the-datalist-element datalist]</code>
-| Represents a set of <code>option</code> elements that can be used in combination with the new <code>list</code> attribute for input to make dropdown menus.
-| When the input with the associated datalist gets focus, a dropdown menu appears and contains the values from the <code>datalist</code>.
-|-
-| <code>[http://dev.w3.org/html5/spec/Overview.html#the-keygen-element keygen]</code>
-| A control for key-pair generation.
-| When the form is submitted, the private key gets stored in the local keystore, and the public key is sent to the server.
-|-
-| <code>[http://dev.w3.org/html5/spec/Overview.html#the-output-element output]</code>
-| Displays the results of a calculation.
-| An example use of the <code>output</code> element could be to display the sum of the values of two input elements.
-|}
+<table class="alternating">
+<thead>
+<tr>
+<th scope="col">Element</th>
+<th scope="col">Purpose</th>
+<th scope="col">Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code><a href="http://dev.w3.org/html5/spec/Overview.html#the-progress-element" target="_blank">progress</a></code></td>
+<td>Represents completion of a task.</td>
+<td>The <code>progress</code> element could represent the progress of a
+file being uploaded.</td>
+</tr>
+<tr>
+<td><code><a href="http://dev.w3.org/html5/spec/Overview.html#the-meter-element" target="_blank">meter</a></code></td>
+<td>Represents a scalar measurement within a known range.</td>
+<td>The <code>meter</code> element could be used to represent something
+like a temperature or weight measurement.</td>
+</tr>
+<tr>
+<td><code><a href="http://dev.w3.org/html5/spec/Overview.html#the-datalist-element" target="_blank">datalist</a></code></td>
+<td>Represents a set of <code>option</code> elements that can be used in
+combination with the new <code>list</code> attribute for input to make
+dropdown menus.</td>
+<td>When the input with the associated datalist gets focus, a dropdown
+menu appears and contains the values from the <code>datalist</code>.
+</td>
+</tr>
+<tr>
+<td><code><a href="http://dev.w3.org/html5/spec/Overview.html#the-keygen-element" target="_blank">keygen</a></code></td>
+<td>A control for key-pair generation.</td>
+<td>When the form is submitted, the private key gets stored in the local
+keystore, and the public key is sent to the server.</td>
+</tr>
+<tr>
+<td><code><a href="http://dev.w3.org/html5/spec/Overview.html#the-output-element" target="_blank">output</a></code></td>
+<td>Displays the results of a calculation.</td>
+<td>An example use of the <code>output</code> element could be to
+display the sum of the values of two input elements.</td>
+</tr>
+</tbody>
+</table>
 
 ===New input types===
 
@@ -360,7 +379,6 @@ This is the CSS that goes with the form code:
 
 * [http://www.w3.org/TR/html5/forms.html W3C Specification]
 * [http://wufoo.com/html5/ The Current State of HTML5 Forms]
-
 }}
 {{Compatibility_Section
 |Not_required=No
