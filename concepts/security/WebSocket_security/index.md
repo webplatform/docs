@@ -17,7 +17,7 @@ http://blog.kaazing.com/2012/02/28/html5-websocket-security-is-strong/
 |Specifications=
 }}
 {{See_Also_Section}}
-{{Topics|Security}}
+{{Topics|Connectivity, Security}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
