@@ -259,7 +259,7 @@ HTTP Request:
 
 <syntaxhighlight lang="yaml">
  GET /cors HTTP/1.1
- '''Origin: http://api.bob.com'''
+ Origin: http://api.bob.com
  Host: api.alice.com
  Accept-Language: en-US
  Connection: keep-alive
@@ -273,9 +273,9 @@ Here’s a valid server response; the CORS-specific headers are bolded
 HTTP Response:
 
 <syntaxhighlight lang="yaml">
- '''Access-Control-Allow-Origin: http://api.bob.com'''
- '''Access-Control-Allow-Credentials: true'''
- '''Access-Control-Expose-Headers: FooBar'''
+ Access-Control-Allow-Origin: http://api.bob.com
+ Access-Control-Allow-Credentials: true
+ Access-Control-Expose-Headers: FooBar
  Content-Type: text/html; charset=utf-8
 </syntaxhighlight>
 
@@ -324,9 +324,9 @@ Preflight Request:
 
  
  OPTIONS /cors HTTP/1.1
- '''Origin: http://api.bob.com'''
- '''Access-Control-Request-Method: PUT'''
- '''Access-Control-Request-Headers: X-Custom-Header'''
+ Origin: http://api.bob.com
+ Access-Control-Request-Method: PUT
+ Access-Control-Request-Headers: X-Custom-Header
  Host: api.alice.com
  Accept-Language: en-US
  Connection: keep-alive
@@ -346,9 +346,9 @@ Preflight Request:
 
 <syntaxhighlight lang="yaml">
  OPTIONS /cors HTTP/1.1
- '''Origin: http://api.bob.com'''
- '''Access-Control-Request-Method: PUT'''
- '''Access-Control-Request-Headers: X-Custom-Header'''
+ Origin: http://api.bob.com
+ Access-Control-Request-Method: PUT
+ Access-Control-Request-Headers: X-Custom-Header
  Host: api.alice.com
  Accept-Language: en-US
  Connection: keep-alive
@@ -358,9 +358,9 @@ Preflight Request:
 Preflight Response:
 
 <syntaxhighlight lang="yaml">
- '''Access-Control-Allow-Origin: http://api.bob.com'''
- '''Access-Control-Allow-Methods: GET, POST, PUT'''
- '''Access-Control-Allow-Headers: X-Custom-Header'''
+ Access-Control-Allow-Origin: http://api.bob.com
+ Access-Control-Allow-Methods: GET, POST, PUT
+ Access-Control-Allow-Headers: X-Custom-Header
  Content-Type: text/html; charset=utf-8
 </syntaxhighlight>
 
@@ -380,9 +380,9 @@ Actual Request:
 
 <syntaxhighlight lang="yaml">
  PUT /cors HTTP/1.1
- '''Origin: http://api.bob.com'''
+ Origin: http://api.bob.com
  Host: api.alice.com
- '''X-Custom-Header: value'''
+ X-Custom-Header: value
  Accept-Language: en-US
  Connection: keep-alive
  User-Agent: Mozilla/5.0...
@@ -391,7 +391,7 @@ Actual Request:
 Actual Response:
 
 <syntaxhighlight lang="yaml">
- '''Access-Control-Allow-Origin: http://api.bob.com'''
+ Access-Control-Allow-Origin: http://api.bob.com
  Content-Type: text/html; charset=utf-8
 </syntaxhighlight>
 
@@ -401,9 +401,9 @@ Preflight Request:
 
 
 <syntaxhighlight lang="JavaScript">
- '''Origin: http://api.bob.com'''
- '''Access-Control-Request-Method: PUT'''
- '''Access-Control-Request-Headers: X-Custom-Header'''
+ Origin: http://api.bob.com
+ Access-Control-Request-Method: PUT
+ Access-Control-Request-Headers: X-Custom-Header
  Host: api.alice.com
  Accept-Language: en-US
  Connection: keep-alive
