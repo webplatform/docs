@@ -1,4 +1,4 @@
-{{Page_Title|Case Study: Getting Entangled with HTML5 Canvas}}
+{{Page_Title|Getting entangled with HTML5 canvas}}
 {{Flags
 |High-level issues=Needs Flags
 }}
