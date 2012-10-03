@@ -43,12 +43,12 @@ You can use CSS to change the bullet to one of several default styles, use your 
  
 Unordered lists use one set of <code>&lt;ul&gt;&lt;/ul&gt;</code> tags, wrapped around many sets of <code>[[Meta:HTML/Elements/li|&lt;li&gt;&lt;/li&gt;]]</code>:
  
-<pre>&lt;ul&gt;
+<syntaxhighlight lang="html5">&lt;ul&gt;
   &lt;li&gt;bread&lt;/li&gt;
   &lt;li&gt;coffee beans&lt;/li&gt;
   &lt;li&gt;milk&lt;/li&gt;
   &lt;li&gt;butter&lt;/li&gt;
-&lt;/ul&gt;</pre>
+&lt;/ul&gt;</syntaxhighlight>
 
 === Ordered lists ===
  
@@ -92,7 +92,7 @@ Again, you can use CSS to change the style of your ordered lists.
  
 Ordered lists use one set of <code>&lt;ol&gt;&lt;/ol&gt;</code> tags, wrapped around many sets of <code>&lt;li&gt;&lt;/li&gt;</code>:
  
-<pre>&lt;ol&gt;
+<syntaxhighlight lang="html5">&lt;ol&gt;
   &lt;li&gt;Gather ingredients&lt;/li&gt;
   &lt;li&gt;Mix ingredients together&lt;/li&gt;
   &lt;li&gt;Place ingredients in a baking dish&lt;/li&gt;
@@ -100,13 +100,13 @@ Ordered lists use one set of <code>&lt;ol&gt;&lt;/ol&gt;</code> tags, wrapped ar
   &lt;li&gt;Remove from oven&lt;/li&gt;
   &lt;li&gt;Allow to stand for ten minutes&lt;/li&gt;
   &lt;li&gt;Serve&lt;/li&gt;
-&lt;/ol&gt;</pre>
+&lt;/ol&gt;</syntaxhighlight>
  
 ==== Beginning ordered lists with numbers other than 1 ====
  
 It is possible to get an ordered list to start with a number other than 1 (or i, or I, etc.). This is done using the <code>&lt;start&gt;</code> attribute, which takes a numeric value, even if you’re using CSS to change the the list counters to be alphabetic, roman or. This is useful if you have a single list of items, but you want to break the list up with some kind of note, or some other related information. For example, we could do this with the previous example:
  
-<pre>&lt;ol&gt;
+<syntaxhighlight lang="html5">&lt;ol&gt;
   &lt;li&gt;Gather ingredients&lt;/li&gt;
   &lt;li&gt;Mix ingredients together&lt;/li&gt;
   &lt;li&gt;Place ingredients in a baking dish&lt;/li&gt;
