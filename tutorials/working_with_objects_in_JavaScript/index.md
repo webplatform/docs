@@ -160,7 +160,7 @@ The following example creates <code>myHonda</code> with three properties. Note t
 
 You can also use object initializers to create arrays. See [https://developer.mozilla.org/en-US/docs/JavaScript/Guide/Values%2C_variables%2C_and_literals#Array_literals array literals].
 
-In JavaScript 1.1 and earlier, you cannot use object initializers. You can create objects only using their constructor functions or using a function supplied by some other object for that purpose. See [[Using a constructor function]].
+In JavaScript 1.1 and earlier, you cannot use object initializers. You can create objects only using their constructor functions or using a function supplied by some other object for that purpose. See [[#Using a constructor function]].
 
 ===Using a constructor function===
 
