@@ -313,39 +313,29 @@ Note: Do not enable the GPU compositing on all pages option. The FPS counter onl
 
 If you view [http://slidfast.appspot.com/slide-flip-rotate.html this page] in your souped up version of Chrome, you will see the red FPS counter in the top left hand corner.
 
-<figure>
-  <img src="/static/images/screenshots/optimizing-and-performance/chrome-fps.png" width="154" height="31" alt="Chrome FPS" title="Chrome FPS">
-</figure>
+[[File:chrome-fps.png|200px|31px|Chrome FPS]]
 
 This is how we know hardware acceleration is turned on. It also gives us an idea on how the animation runs and if you have any leaks (continuous running animations that should be stopped).
 
 Another way to actually visualize the hardware acceleration is if you open the same page in Safari (with the environment variables I mentioned above). Every accelerated DOM element have a red tint to it. This shows us exactly what is being composited by layer.
 Notice the white navigation is not red because it is not accelerated.
 
-<figure>
-<img src="/static/images/screenshots/optimizing-and-performance/composited-contact.png" width="300" alt="Composited Contact" title="Composited Contact Page">
-</figure>
+[[File:composited-contact.png|300px|Composited Contact Page]]
 
 A similar setting for Chrome is also available in the <code>about:flags</code> “Composited render layer borders”.
 
 Another great way to see the composited layers is to view the [http://www.webkit.org/blog-files/leaves/ WebKit falling leaves demo] while this mod is applied.
 
-<figure>
-  <img src="/static/images/screenshots/optimizing-and-performance/composited-leaves.png" width="300" alt="Composited Leaves" title="Composited Leaves Demo">
-</figure>
+[[File:composited-leaves.png|300px|Composited Leaves Demo]]
 
 And finally, to truly understand the graphics hardware performance of our application, let’s take a look at how memory is being consumed.
 Here we see that we are pushing 1.38MB of drawing instructions to the CoreAnimation buffers on Mac OS. The Core Animation memory buffers are shared between OpenGL ES and the GPU to create the final pixels you see on the screen.
 
-<figure>
-<img src="/static/images/screenshots/optimizing-and-performance/coreanimation-1.png" width="500" alt="Coreanimation 1" title="Coreanimation 1">
-</figure>
+[[File:coreanimation-1.png|500px|Coreanimation 1]]
 
 When we simply resize or maximize the browser window, we see the memory expand as well.
 
-<figure>
-<img src="/static/images/screenshots/optimizing-and-performance/coreanimation-2.png" width="500" alt="Coreanimation 2" title="Coreanimation 2">
-</figure>
+[[File:coreanimation-2.png|500px|Coreanimation 2]]
 
 This gives you an idea of how memory is being consumed on your mobile device only if you resize the browser to the correct dimensions. If you were debugging or testing for iPhone environments resize to 480px by 320px.
 We now understand exactly how hardware acceleration works and what it takes to debug. It’s one thing to read about it, but to actually see the GPU memory buffers working visually really brings things into perspective.
@@ -362,9 +352,7 @@ Let’s address a few core mobile web problems and the reasons why we need to do
 
 Building on the code from the [http://slidfast.appspot.com/slide-flip-rotate.html Slide, Flip, and Rotate demo], we start out by adding some secondary pages and linking to them. We’ll then parse the links and create transitions on the fly.
 
-<figure>
-<img src="/static/images/screenshots/optimizing-and-performance/iphone-home.png" width="372" height="335" alt="iPhone Home" title="iPhone Home">
-</figure>
+[[File:iphone-home.png|372px|335px|iPhone Home]]
 
 [http://slidfast.appspot.com/fetch-cache.html View the Fetch and Cache demo here.]
 
@@ -598,15 +586,11 @@ There are numerous adjustments we could make to our fetchAndCache process, but a
 
 Edge (Synchronous) Request Timeline
 
-<figure>
-<img src="/static/images/screenshots/optimizing-and-performance/edge-sync.png" width="700" alt="Edge Sync" title="Edge Sync">
-</figure>
+[[File:edge-sync.png|700px|Edge Sync]]
 
 WIFI (Asynchronous) Request Timeline
 
-<figure>
-<img src="/static/images/screenshots/optimizing-and-performance/wifi-async.png" width="700" alt="WIFI Async" title="WIFI Async">
-</figure>
+[[File:wifi-async.png|700px|WIFI Async]]
 
 This allows for at least some method of user experience adjustment based on slow or fast connections.
 This is by no means is an end-all-be-all solution. Another todo would be to throw up a loading modal when a link is clicked (on slow connections) while the app still may be fetching that link’s page in the background.
