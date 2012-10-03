@@ -24,11 +24,11 @@ CSS can insert text content before or after an element. To specify this, make a 
 
 This rule adds the text Reference: before every element with the class <code>ref</code>:
 
-<pre>.ref:before {
+<syntaxhighlight lang="css">.ref:before {
   font-weight: bold;
   color: navy;
   content: "Reference: ";
-}</pre>
+}</syntaxhighlight>
    
 ==== More details==== 
 The character set of a stylesheet is UTF-8 by default, but it can be specified in the link, or in the stylesheet itself, or in other ways. For details, see [[4.4 CSS style sheet representation]] in the CSS Specification.
@@ -43,13 +43,13 @@ To add an image before or after an element, you can specify the URL of an image 
 
 This rule adds a space and an icon after every link that has the class <code>glossary</code>:
  
-<pre>a.glossary:after {content: " " url("../images/glossary-icon.gif");}</pre>
+<syntaxhighlight lang="css">a.glossary:after {content: " " url("../images/glossary-icon.gif");}</syntaxhighlight>
   
 To add an image as an element's background, specify the URL of an image file in the value of the {{ cssxref("background") }} property. This is a shorthand property that specifies the background color, the image, how the image repeats, and some other details.
   
 The following element rule sets the background of a specific element, using a URL to specify an image file. The selector specifies the element's id. The value <code>no-repeat</code> makes the image appear only once:
  
-<pre>#sidebar-box {background: url("../images/sidebar-ground.png") no-repeat;}</pre>
+<syntaxhighlight lang="css">#sidebar-box {background: url("../images/sidebar-ground.png") no-repeat;}</syntaxhighlight>
    
 ====More details====
  
@@ -65,7 +65,7 @@ This image is a white square with a blue line at the bottom:
 <li><p>Download the image file into the same directory as your CSS file. (For example, right-click it to get a context menu, then choose Save Image As and specify the directory that you are using for this tutorial.)</p></li>
 <li><p>Edit your CSS file and add this rule to the body, setting a background image for the entire page.</p>
 
-<pre>background: url("Blue-rule.png");</pre>
+<syntaxhighlight lang="css">background: url("Blue-rule.png");</syntaxhighlight>
 </li>
 </ol>
 
