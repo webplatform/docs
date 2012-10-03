@@ -1,15 +1,15 @@
-{{Page_Title}}
+{{Page_Title|Multi-touch Web Development}}
 {{Flags
 |High-level issues=Needs Flags
 }}
+{{Byline
+|Name=Boris Smus
+|URL=http://www.html5rocks.com/profiles/#smus
+|Published=Aug. 21, 2011
+}}
 {{Summary_Section|An introduction to multi-touch mobile web development.}}
 {{Tutorial
-|Content==Multi-touch Web Development=
-
-====original by Boris Smus====
-====published Aug. 21, 2011====
-
-==Introduction==
+|Content===Introduction==
 
 Mobile devices such as smartphones and tablets usually have a capacitive touch-sensitive screen to capture interactions made with the user's fingers. As the mobile web evolves to enable increasingly sophisticated applications, web developers need a way to handle these events. For example, nearly any fast-paced game requires the player to press multiple buttons at once which, in the context of a touchscreen, implies multi-touch.
 
@@ -298,5 +298,5 @@ As multi-touch features become more widely supported across mobile browsers, I'm
 |Sources=HTML5Rocks
 |MDN_link=
 |MSDN_link=
-|HTML5Rocks_link=http://www.html5rocks.com/en/mobile/touch/
+|HTML5Rocks_link=http://www.html5rocks.com/mobile/touch/
 }}
