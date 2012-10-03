@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page_Title|Working Off the Grid with HTML5 Offline}}
 {{Flags
 |High-level issues=Needs Flags
 }}
@@ -8,9 +8,7 @@
 }}
 {{Summary_Section|Take your application offline using HTML5 Application Cache}}
 {{Tutorial
-|Content==Working Off the Grid with HTML5 Offline=
-
-==Introduction==
+|Content===Introduction==
 
 When your web browser was tied to your desktop, there was never really a time that you couldn't get an Internet connection whenever you wanted to.
 
