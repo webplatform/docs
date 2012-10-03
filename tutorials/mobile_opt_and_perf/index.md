@@ -399,7 +399,7 @@ var fetchAndCache = function() {
 };
 </pre>
 
-We ensure proper asynchronous post-processing through the use of the “AJAX” object. There is a more advanced explanation of using localStorage within an AJAX call in [http://www.html5rocks.com/mobile/workingoffthegrid.html Working Off the Grid with HTML5 Offline]. In this example, you see the basic usage of caching on each request and providing the cached objects when the server returns anything but a successful (200) response.
+We ensure proper asynchronous post-processing through the use of the “AJAX” object. There is a more advanced explanation of using localStorage within an AJAX call in [[tutorials/mobile_offline|Working Off the Grid with HTML5 Offline]]. In this example, you see the basic usage of caching on each request and providing the cached objects when the server returns anything but a successful (200) response.
 
 <pre>
 function processRequest () {
@@ -602,7 +602,28 @@ The journey down the road of mobile HTML5 apps is just beginning. Now you see th
 }}
 {{Compatibility_Section
 |Not_required=No
-|Desktop_rows=
+|Desktop_rows={{Compatibility Table Desktop Row
+|Chrome_supported=Yes
+|Chrome_version=20
+|Chrome_prefixed_supported=Unknown
+|Chrome_prefixed_version=
+|Firefox_supported=Unknown
+|Firefox_version=
+|Firefox_prefixed_supported=Unknown
+|Firefox_prefixed_version=
+|Internet_explorer_supported=Unknown
+|Internet_explorer_version=
+|Internet_explorer_prefixed_supported=Unknown
+|Internet_explorer_prefixed_version=
+|Opera_supported=Unknown
+|Opera_version=
+|Opera_prefixed_supported=Unknown
+|Opera_prefixed_version=
+|Safari_supported=Yes
+|Safari_version=5.1
+|Safari_prefixed_supported=Unknown
+|Safari_prefixed_version=
+}}
 |Mobile_rows=
 |Notes_rows=
 }}
