@@ -5,7 +5,7 @@
 
 This chapter describes how to use objects, properties, functions, and methods, and how to create your own objects.
 }}
-{{Guide
+{{Tutorial
 |Content===Objects overview==
 
 Objects in JavaScript, just as many other programming languages, can be compared to objects in real life. The concept of objects in JavaScript can be understood with real life, tangible objects.
