@@ -22,12 +22,3 @@
 |MSDN_link=
 |HTML5Rocks_link=http://www.html5rocks.com/tutorials/games/assetmanager/
 }}
-}
-
-
-
-
-}
-
-
-}}
