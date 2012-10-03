@@ -81,7 +81,7 @@ To get started, you will first need to create the appropriate request object. Ni
 
 The original XmlHttpRequest object had only one event handler, <code>onreadystatechange</code>, which handled all responses. Although <code>onreadystatechange</code> is still available, XmlHttpRequest2 introduces a bunch of new event handlers. Here is a complete list:
 
-{| border="1" cellpadding="4"
+{{{!}} border="1" cellpadding="4"
 ! Event Handler
 ! Description
 {{!}}-
