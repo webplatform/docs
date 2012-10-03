@@ -8,7 +8,7 @@ Web Platform Docs is a new community-driven site that aims to become a comprehen
 
 In the future, Web Platform Docs will include even more content for you to explore such as live code examples, resources for educators and much more. To get there faster, we’d like to invite you to also contribute your knowledge. We hope you will join us!
 
-== Explore our wed development docs ==
+== Explore our web development docs ==
 
 *[[tutorials|Tutorials]]
 *[[concepts|Concepts]]
