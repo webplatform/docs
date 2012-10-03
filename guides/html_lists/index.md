@@ -41,7 +41,7 @@ You can use CSS to change the bullet to one of several default styles, use your 
 
 ==== Unordered list markup ====
  
-Unordered lists use one set of <code>&lt;ul&gt;&lt;/ul&gt;</code> tags, wrapped around many sets of <code>&lt;li&gt;&lt;/li&gt;</code>:
+Unordered lists use one set of <code>&lt;ul&gt;&lt;/ul&gt;</code> tags, wrapped around many sets of <code>[[Meta:HTML/Elements/li|&lt;li&gt;&lt;/li&gt;]]</code>:
  
 <pre>&lt;ul&gt;
   &lt;li&gt;bread&lt;/li&gt;
