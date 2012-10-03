@@ -1,4 +1,4 @@
-{{Page_Title|New Tricks in XMLHttpRequest2}}
+{{Page_Title|Overview of new features in XMLHttpRequest2}}
 {{Flags
 |High-level issues=Needs Flags
 }}
@@ -453,4 +453,9 @@ What is not shown here is the code to reconstruct the file on the server.
 |MSDN_link=
 |HTML5Rocks_link=http://www.html5rocks.com/tutorials/file/xhr2/
 }}
+}
+
+
+
+
 }
