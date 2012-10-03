@@ -84,10 +84,13 @@ var y = 6;
 var z = 20;
 var multiply = x * y * z;
 // multiply will be 600 
+
 var divide = x / y;
 // divide will be 0.8333333333333334
+
 var addAndDivide = (x + z) / y;
 // addAndDivide = 4.166666666666667
+
 var half = (y + z) / 2;
 // half will be 13
 &lt;/script&gt;</pre>
@@ -200,7 +203,7 @@ You can access the properties with dot notation (<code>person.age</code> would g
 </code> gets you “Chris”). You will learn more about JavaScript objects later on in the course.
  
 That is about the short and long of what value types variables can be. Another big part of programming is the structure and logic of your program. This is where two more programming ideas come into play: conditions and loops.
- 
+
 == Conditions ==
  
 A condition is a test for something. Conditions are very important for programming, in several ways:
