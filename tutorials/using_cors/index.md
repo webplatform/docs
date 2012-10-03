@@ -10,7 +10,6 @@
 {{Summary_Section|Tutorial on Cross Origin Resource Sharing}}
 {{Tutorial
 |Content==Using CORS=
-==By '''[/profiles/#monsurhossain Monsur Hossain]'''==
 
 <div class="date">Published '''Oct. 26, 2011''' Updated '''Sept. 21, 2012'''</div>  [http://www.w3.org/html/logo/  [[Image:html5-badge-h-solo.png.pagespeed.ce.G2VPivYozq.png|63px|HTML5 Powered]] ]
 
@@ -153,7 +152,7 @@ And thats it! Assuming the server is properly configured to respond to CORS requ
 
 Here is a full working sample of a CORS request.
 
-<center><font size="20px">[# Run Sample]</font></center>
+<center><font size="14px">Run Sample</font></center>
 
  
  // Create the XHR object.
