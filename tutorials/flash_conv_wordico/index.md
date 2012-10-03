@@ -104,7 +104,7 @@ Here's the corresponding CSS:
 
 We apply CSS3 effects when the tile is being dragged (shadow, opacity, and scaling) and when the tile is sitting on the rack (reflection):
 
- [[Image:wordico-html-tiles.png]] The dragged tile is slightly larger, slightly transparent, and has a drop shadow.
+ [[Image:wordico-html-tiles.jpg]] The dragged tile is slightly larger, slightly transparent, and has a drop shadow.
 
 Using raster images has some obvious advantages. First, the result is pixel-precise. Second, these images can be cached by the browser. Third, with a little extra work, we can swap out the images to create new tile designs—such as a metal tile—and this design work can be done in Photoshop instead of in Flash.
 
