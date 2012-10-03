@@ -23,8 +23,8 @@ In the future, Web Platform Docs will include even more content for you to explo
 </ul>
 </li>
 <li><p>'''[[tutorials|Learn web design and development]]''' Learn basic and advanced web design and development techniques by reading our comprehensive tutorials and references.</p>
+* [[beginners|Web development for beginners]]: start here if you have no previous knowledge, and want to learn the art of web design and development.
 * Fundamentals
-** [[tutorials/basics|Web programming essentials]]
 ** [[CSS/tutorials|CSS]]
 ** [[javascript/tutorials|JavaScript]]
 ** [[html/tutorials|HTML]]
