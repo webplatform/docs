@@ -271,12 +271,12 @@ There is actually another way to import external style sheets into HTML files - 
  
 You'll sometimes see import statements without the brackets, but it does the same thing. Another thing to be aware of is that <code>@import</code> should always be first in an embedded style sheet. Finally, you can specify that the imported style sheet be applied only to certain types of media by including the media type at the end of the import statement (this works in every browser except IE6 and below). The following does the same thing as the previous code example:
  
-<syntaxhighlight lang="html">&lt;style type="text/css"&gt;
+<syntaxhighlight lang="html"><style type="text/css">
   @import url("styles.css") screen;
 
   ...other import statements or CSS styles could go here...
    
-&lt;/style&gt;</syntaxhighlight>
+</style></syntaxhighlight>
  
 The first question you'll be asking is "why on earth do I need another way to apply external style sheets to my HTML documents?" Well, you don't really - I am mainly including information on <code>@import</code> here for the sake of completeness. There are a few minor advantages/disadvantages of using <code>@import</code> over <code>&lt;link&gt;</code> elements, but they are ''very minor'', so it's really up to you which way you go. <code>&lt;link&gt;</code> elements are the recognised best way to do things these days.
  
