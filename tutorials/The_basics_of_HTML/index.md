@@ -87,7 +87,7 @@ instead adopted many of the creations of the then-popular browsers
 Mosaic and Netscape Navigator.
  
 In 1997, the W3C published HTML 4.0 as a recommendation that adopted
-more browser-specific extensions but also attempted to rationalise and
+more browser-specific extensions but also attempted to rationalize and
 clean up HTML. This was done by marking various elements as 
 deprecated—which means the elements are obsolete and whilst they
 still exist in this version they will be removed in a later revision.
@@ -101,9 +101,7 @@ drafted.
 In 2000, the W3C also published the XHTML 1.0 specification, which was
 HTML re-structured to be a valid XML document.
 
-In 2007, the W3C restarted the work on HTML by creating a new working group and adopting the work started by the [[WhatWG]] as [[HTML5]]. In this course we will be using HTML5, but don't worry — if you have already done some work in HTML4, you won't need to relearn everything. HTML5 contains all of HTML4 (albeit with some features redefined), and also adds some new powerful features on top. We'll make it clear when something we are talking about is new in HTML5.
-
-You may also want to read [[HTML/Training/What_is_HTML|What is HTML?]]
+In 2007, the W3C restarted the work on HTML by creating a new working group and adopting the work started by the [http://whatwg.org/ WhatWG] as HTML5. In this course we will be using HTML5, but don't worry — if you have already done some work in HTML4, you won't need to relearn everything. HTML5 contains all of HTML4 (albeit with some features redefined), and also adds some new powerful features on top. We'll make it clear when something we are talking about is new in HTML5.
 
 == The structure of an HTML document ==
  
