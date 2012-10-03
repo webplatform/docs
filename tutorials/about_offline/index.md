@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page_Title|Intorudction to offline web applications}}
 {{Flags
 |High-level issues=Needs Flags
 }}
@@ -8,9 +8,7 @@
 }}
 {{Summary_Section|An introduction to offline applications.}}
 {{Guide
-|Content=="Offline": What does it mean and why should I care?=
-
-==Introduction: The Meaning of "Offline"==
+|Content===Introduction: The Meaning of "Offline"==
 
 "Web" and "online" are two closely associated terms, downright synonymous to many people. So why on earth would we talk about "offline" web technologies, and what does the term even mean?
 
