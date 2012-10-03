@@ -7,17 +7,15 @@
 |URL=http://www.html5rocks.com/profiles/#monsurhossain
 |Published=Oct 26, 2011
 }}
-{{Summary_Section|An introduction to Cross Origin Resource Sharing (CORS)}}
+{{Summary_Section|An introduction to Cross Origin Resource Sharing (CORS).}}
 {{Tutorial
-|Content==Using CORS=
-
-==Introduction==
+|Content===Introduction==
 
 APIs comprise the threads that enable you to stitch together a rich web experience. However, it's difficult to translate this experience to the browser, where the options for cross-domain requests are limited to techniques like [http://en.wikipedia.org/wiki/JSONP JSON-P] (which has limited use due to security concerns) or setting up a custom proxy (which can be a pain to set up and maintain).
 
 [http://www.w3.org/TR/cors/ Cross-Origin Resource Sharing] (CORS) is a W3C spec that allows cross-domain communication from the browser. By building on top of the XmlHttpRequest object, CORS allows developers to work with the same idioms as same-domain requests.
 
-The use case for CORS is simple. Imagine the site alice.com has some data that the site bob.com wants to access. This type of request traditionally wouldn’t be allowed under the browser’s [http://en.wikipedia.org/wiki/Same_origin_policy same origin policy]. However, by supporting CORS requests, alice.com can add a few special response headers that allows bob.com to access the data.
+The use case for CORS is simple. Imagine the site '''alice.com''' has some data that the site '''bob.com''' wants to access. This type of request traditionally wouldn’t be allowed under a browser’s [http://en.wikipedia.org/wiki/Same_origin_policy same origin policy]. However, by supporting CORS requests, '''alice.com''' can add a few special response headers that allow '''bob.com''' to access the data.
 
 As you will see in this tutorial, CORS support requires coordination between both the server and client. Luckily, if you are a client-side developer, you are shielded from most of these details. The rest of this article shows how clients can make cross-origin requests, and how servers can be configured to support CORS.
 
