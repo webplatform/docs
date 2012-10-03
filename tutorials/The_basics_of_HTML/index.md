@@ -122,8 +122,7 @@ This looks like so when rendered in a web browser:
 
 [[File:HTMLrender.png]]
  
-The document first starts with a document type element, or doctype (described in
-more detail in [[Choosing the right doctype for your HTML documents]]). This mainly serves to get the browser to render the HTML in what is called "standards mode", so it will work correctly. It also lets validation software know what version of HTML to validate your code against. Don't worry too much about what this all means for now. We will come back to this later. What you can see here is the HTML5 doctype.
+The document first starts with a document type element, or doctype. This mainly serves to get the browser to render the HTML in what is called "standards mode", so it will work correctly. It also lets validation software know what version of HTML to validate your code against. Don't worry too much about what this all means for now. We will come back to this later. What you can see here is the HTML5 doctype.
  
 After this, you can see the opening tag of the <code>html</code> element. This
 is a wrapper around the entire document. The closing <code>html</code> tag is the last
