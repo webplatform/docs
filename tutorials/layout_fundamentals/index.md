@@ -1,5 +1,7 @@
 {{Page_Title|Exploring the CSS layout model}}
-{{Flags}}
+{{Flags
+|Content=Cleanup
+}}
 {{Byline}}
 {{Summary_Section|This article describes some fundamental ways to adjust the layout of your document, using padding, floats, and more.}}
 {{Tutorial
@@ -58,10 +60,11 @@ For other devices, other length units are appropriate. There is more information
  
 Two properties specify how the content of an element is aligned. You can use them for simple layout adjustments:
 
-    {{ cssxref("text-align") }} 
-    Aligns the content. Use one of these values: <code>left</code>, <code>right</code>, <code>center</code>, <code>justify</code> 
-    {{ cssxref("text-indent") }} 
-    Indents the content by an amount that you specify.  
+{{ cssxref("text-align") }} 
+Aligns the content. Use one of these values: <code>left</code>, <code>right</code>, <code>center</code>, <code>justify</code> 
+{{ cssxref("text-indent") }} 
+Indents the content by an amount that you specify. 
+ 
 These properties apply to any text-like content in the element, not only to actual text. Remember that they are inherited by the element's children, so you might have to explicitly turn them off in the children to avoid surprising results.
 
 ===Text align example===
@@ -83,7 +86,7 @@ In an HTML document, the content that you see below a heading is not structurall
  
 The {{ cssxref("float") }} property forces an element to the left or right. This is a simple way to control its position and size.
 
- The rest of the document's content normally flows around the floated element. You can control this by using the {{ cssxref("clear") }} property on other elements to make them stay clear of floats.
+The rest of the document's content normally flows around the floated element. You can control this by using the {{ cssxref("clear") }} property on other elements to make them stay clear of floats.
  
 ===Floats example===
  
