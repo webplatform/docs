@@ -99,10 +99,9 @@ In JavaScript, almost everything is an object. All primitive types except <code>
 
 Starting with [/en-US/docs/JavaScript/ECMAScript_5_support_in_Mozilla ECMAScript 5], there are three native ways to list/traverse object properties:
 
-* [https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Statements/for...in for...in for...in] loops 
-This method traverses all enumerable properties of an object and its prototype chain
-* [/en-US/docs/JavaScript/Reference/Global_Objects/Object/keys Object.keys(o)]<br /> This method returns an array with all the own (not in the prototype chain) enumerable properties names ("keys") of an object <code>o</code>.
-* [/en-US/docs/JavaScript/Reference/Global_Objects/Object/getOwnPropertyNames Object.getOwnPropertyNames(o)]<br /> This method returns an array containing all own properties names (enumerable or not) of an object <code>o</code>.
+* [https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Statements/for...in for...in for...in] loops: this method traverses all enumerable properties of an object and its prototype chain
+* [https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Object/keys Object.keys(o)]: this method returns an array with all the own (not in the prototype chain) enumerable properties names ("keys") of an object <code>o</code>.
+* [https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Object/getOwnPropertyNames Object.getOwnPropertyNames(o)]: this method returns an array containing all own properties names (enumerable or not) of an object <code>o</code>.
 
 In ECMAScript 5, there is no native way to list all properties of an object. However, this can be achieved with the following function:
 
