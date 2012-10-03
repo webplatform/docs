@@ -10,14 +10,19 @@ In the future, Web Platform Docs will include even more content for you to explo
 
 == Explore our web development docs ==
 
-*[[concepts|Concepts]]
-*Reference
-** [[HTML|HTML]]
-** [[CSS|CSS]]
-** [[javascript|JavaScript]]
-** [[SVG|SVG]]
-** [[Accessibility]]
-*[[tutorials|Tutorials]]
+<ul>
+<li><p>'''[[concepts|Concepts]]''' Explore detailed documents that explain fundamental concepts behind the Web, and web design.</p></li>
+<li>
+<p>'''Reference''' Find all the open web technology data you could possibly need for your day-to-day work.</p>
+<ul>
+  <li><p>[[HTML|HTML]]</p></li>
+  <li><p>[[CSS|CSS]]</p></li>
+  <li><p>[[javascript|JavaScript]]</p></li>
+  <li><p>[[SVG|SVG]]</p></li>
+  <li><p>[[Accessibility]]</p></li>
+</li>
+<li><p>'''[[tutorials|Learn web design and development]]''' Learn basic and advanced web design and development techniques by reading our comprehensive tutorials and references</p></li>
+</ul>
 
 == Contribute to Web Platform Docs ==
 
