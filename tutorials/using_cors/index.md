@@ -277,7 +277,7 @@ All CORS related headers are prefixed with "Access-Control-". Here’s some more
 
 <code>Access-Control-Allow-Credentials</code> (optional) - By default, cookies are not included in CORS requests. Use this header to indicate that cookies should be included in CORS requests. The only valid value for this header is <code>true</code> (all lowercase). If you don't need cookies, don't include this header (rather than setting its value to <code>false</code>).
 
-The Access-Control-Allow-Credentials header works in conjunction with the [#withCredentials withCredentials property] on the XmlHttpRequest2 object. Both these properties must be set to <code>true</code> in order for the CORS request to succeed. If .withCredentials is <code>true</code>, but there is no <code>Access-Control-Allow-Credentials</code> header, the request will fail (and vice versa).
+The Access-Control-Allow-Credentials header works in conjunction with the [[#withCredentials|withCredentials property]] on the XmlHttpRequest2 object. Both these properties must be set to <code>true</code> in order for the CORS request to succeed. If .withCredentials is <code>true</code>, but there is no <code>Access-Control-Allow-Credentials</code> header, the request will fail (and vice versa).
 
 Its recommended that you don’t set this header unless you are sure you want cookies to be included in CORS requests.
 
