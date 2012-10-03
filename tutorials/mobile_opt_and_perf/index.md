@@ -301,17 +301,17 @@ Open the Terminal and type the following:
 * $&gt; export CA_LOG_MEMORY_USAGE=1
 * $&gt; /Applications/Safari.app/Contents/MacOS/Safari
 
-This starts Safari with a couple of debugging helpers. CA_COLOR_OPAQUE shows us which elements are actually composited or accelerated. CA_LOG_MEMORY_USAGE shows us how much memory we are using when sending our drawing operations to the [http://ariya.blogspot.com/2011/06/progressive-rendering-via-tiled-backing.html">backing store]. This tells you exactly how much strain you are putting on the mobile device, and possibly give hints to how your GPU usage might be draining the target device’s battery.
+This starts Safari with a couple of debugging helpers. CA_COLOR_OPAQUE shows us which elements are actually composited or accelerated. CA_LOG_MEMORY_USAGE shows us how much memory we are using when sending our drawing operations to the [http://ariya.blogspot.com/2011/06/progressive-rendering-via-tiled-backing.html backing store]. This tells you exactly how much strain you are putting on the mobile device, and possibly give hints to how your GPU usage might be draining the target device’s battery.
 
 Now let’s fire up Chrome so we can see some good frames per second (FPS) information:
 
 # Open the Google Chrome web browser.
-# In the URL bar, type [about:flags">about:flags].
+# In the URL bar, type <code>about:flags</code>.
 # Scroll down a few items and click on “Enable” for FPS Counter.
 
 Note: Do not enable the GPU compositing on all pages option. The FPS counter only appear in the left-hand corner if the browser detects compositing in your markup—and that is what we want in this case.
 
-If you view [http://slidfast.appspot.com/slide-flip-rotate.html">this page] in your souped up version of Chrome, you will see the red FPS counter in the top left hand corner.
+If you view [http://slidfast.appspot.com/slide-flip-rotate.html this page] in your souped up version of Chrome, you will see the red FPS counter in the top left hand corner.
 
 <figure>
   <img src="/static/images/screenshots/optimizing-and-performance/chrome-fps.png" width="154" height="31" alt="Chrome FPS" title="Chrome FPS">
@@ -328,7 +328,7 @@ Notice the white navigation is not red because it is not accelerated.
 
 A similar setting for Chrome is also available in the <code>about:flags</code> “Composited render layer borders”.
 
-Another great way to see the composited layers is to view the [http://www.webkit.org/blog-files/leaves/">WebKit falling leaves demo] while this mod is applied.
+Another great way to see the composited layers is to view the [http://www.webkit.org/blog-files/leaves/ WebKit falling leaves demo] while this mod is applied.
 
 <figure>
   <img src="/static/images/screenshots/optimizing-and-performance/composited-leaves.png" width="300" alt="Composited Leaves" title="Composited Leaves Demo">
@@ -358,9 +358,9 @@ Let’s address a few core mobile web problems and the reasons why we need to do
 
 * Fetching: Pre-fetching our pages allows users to take the app offline and also enables no waiting between navigation actions. Of course, we don’t want to choke the device’s bandwidth when the device comes online, so we need to use this feature sparingly.
 * Caching: Next, we want a concurrent or asynchronous approach when fetching and caching these pages. We also need to use localStorage (since it’s well supported amongst devices) which unfortunately isn’t asynchronous.
-* AJAX and parsing the response: Using innerHTML() to insert the AJAX response into the DOM is dangerous (and [http://martinkou.blogspot.com/2011/05/alternative-workaround-for-mobile.html">unreliable]?). We instead use a [http://community.jboss.org/people/wesleyhales/blog/2011/08/28/fixing-ajax-on-mobile-devices">reliable mechanism] for AJAX response insertion and handling concurrent calls. We also leverage some new features of HTML5 for parsing the <code>xhr.responseText</code>.
+* AJAX and parsing the response: Using innerHTML() to insert the AJAX response into the DOM is dangerous (and [http://martinkou.blogspot.com/2011/05/alternative-workaround-for-mobile.html unreliable]?). We instead use a [http://community.jboss.org/people/wesleyhales/blog/2011/08/28/fixing-ajax-on-mobile-devices reliable mechanism] for AJAX response insertion and handling concurrent calls. We also leverage some new features of HTML5 for parsing the <code>xhr.responseText</code>.
 
-Building on the code from the [http://slidfast.appspot.com/slide-flip-rotate.html">Slide, Flip, and Rotate demo], we start out by adding some secondary pages and linking to them. We’ll then parse the links and create transitions on the fly.
+Building on the code from the [http://slidfast.appspot.com/slide-flip-rotate.html Slide, Flip, and Rotate demo], we start out by adding some secondary pages and linking to them. We’ll then parse the links and create transitions on the fly.
 
 <figure>
 <img src="/static/images/screenshots/optimizing-and-performance/iphone-home.png" width="372" height="335" alt="iPhone Home" title="iPhone Home">
@@ -476,7 +476,7 @@ var insertPages = function(text, originalLink) {
 
 Safari correctly refuses to implicitly move a node from one document to another. An error is raised if the new child node was created in a different document. So here we use <code>adoptNode</code> and all is well.
 
-So why iframe? Why not just use innerHTML? Even though innerHTML is now part of the HTML5 spec, it is a dangerous practice to insert the response from a server (evil or good) into an unchecked area. During the writing of this article, I couldn’t find *anyone* using anything but innerHTML. I know JQuery uses it at it’s core with an append fallback on exception only. And JQuery Mobile uses it as well. However I haven’t done any heavy testing in regards to innerHTML [http://martinkou.blogspot.com/2011/05/alternative-workaround-for-mobile.html">“stops working randomly”], but it would be very interesting to see all the platforms this affects. It would also be interesting to see which approach is more performant... I’ve heard claims from both sides on this as well.
+So why iframe? Why not just use innerHTML? Even though innerHTML is now part of the HTML5 spec, it is a dangerous practice to insert the response from a server (evil or good) into an unchecked area. During the writing of this article, I couldn’t find *anyone* using anything but innerHTML. I know JQuery uses it at it’s core with an append fallback on exception only. And JQuery Mobile uses it as well. However I haven’t done any heavy testing in regards to innerHTML "[http://martinkou.blogspot.com/2011/05/alternative-workaround-for-mobile.html stops working randomly]", but it would be very interesting to see all the platforms this affects. It would also be interesting to see which approach is more performant... I’ve heard claims from both sides on this as well.
 
 <h2 id="toc-network-detection">Network type detection, handling, and profiling</h2>
 
