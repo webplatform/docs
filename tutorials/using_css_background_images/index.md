@@ -131,14 +131,13 @@ First you need to create a class <code>alert</code>, for the CSS to hook on to. 
  
 The CSS:
  
-<pre>.alert { ... } </pre>
-
+<syntaxhighlight lang="css">.alert { ... } </syntaxhighlight>
  
 The HTML:
  
-<pre>&lt;p class="alert"&gt;
-  &lt;strong&gt;Alert!&lt;/strong&gt; The text of our alert message goes here.
-&lt;/p&gt;</pre>
+<syntaxhighlight lang="html5"><p class="alert">
+  <strong>Alert!</strong> The text of our alert message goes here.
+</p></syntaxhighlight>
  
 Here I am styling the alert with a <code>class</code>, rather than an <code>id</code>, because I could have ''more than one alert'' in the page, for example a form element with several errors. You want to make your CSS as flexible as possible and constrain things to correspond to the design when building the HTML.
  
@@ -152,7 +151,9 @@ You already learned about using background colour in text treatments in [http://
  
 Let’s add the light orange background colour to the alert box to make it stand out from the text around it. You don’t want it to be too dark because it is important that you keep a reasonable level of [http://www.w3.org/TR/2006/WD-WCAG20-20060427/guidelines.html#visual-audio-contrast contrast between the text and the background colour]. Add the following property inside your CSS rule
  
-<pre>.alert{'''background-color: #FFFFCC;'''}</pre>
+<syntaxhighlight lang="css">.alert{
+  background-color: #FFFFCC;
+}</syntaxhighlight>
  
 The Alert box should now look more like Figure 3.
  
@@ -164,10 +165,12 @@ Figure 3: An alert box with background colour added.
  
 Now let’s add the image to the alert. The path to the background image needs to be wrapped in <code>url()</code>, as shown in the code below. Add the highlighted line to the CSS rule.
  
-<pre>.alert{
+<syntaxhighlight lang="css">.alert{
   background-color: #FFFFCC;
-  '''background-image: url(alert.png);'''
-}</pre>
+
+  /* Add the background image */
+  background-image: url(alert.png);
+}</syntaxhighlight>
  
 The alert box will now look like Figure 4.
  
@@ -187,11 +190,13 @@ Reading specifications can certainly be intimidating, but the specification is a
 
 Found it? Note that there is a section for each background property including [http://www.w3.org/TR/CSS21/colors.html#propdef-background-repeat background-repeat]. Under '''Value''', you’ll see all the possible choices including; <code>repeat</code>, <code>repeat-x</code>, <code>repeat-y</code>, <code>no-repeat</code>, and <code>inherit</code>. By default ('''initial''') background images are set to repeat. No direction is specified, which means that that the image will tile both horizontally and vertically. You have most likely guessed that '''<code>no-repeat</code>''' is the value you are looking for to prevent the image from tiling in either direction. Add the following highlighted line to the CSS rule.
  
-<pre>.alert{
+<syntaxhighlight lang="css">.alert{
   background-color: #FFFFCC;
   background-image: url(alert.png);
-  '''background-repeat: no-repeat;'''
-}</pre>
+
+  /* Set the background repeat */
+  background-repeat: no-repeat;
+}</syntaxhighlight>
  
 The alert box will now look like Figure 6.
  
@@ -213,7 +218,12 @@ Figure 8: A repeating example from my own web site.
 
 The CSS I used to add this decorative effect is relatively simple. I made the background repeat horizontally using <code>repeat-x</code>:
  
-<pre>body{background-repeat: '''repeat-x''';}</pre>
+<syntaxhighlight lang="css">
+  body {
+    /* set to repeat-x */
+    background-repeat: repeat-x;
+  }
+</syntaxhighlight>
 
 ==== Attachment ====
  
@@ -223,12 +233,14 @@ On the other hand, setting <code>background-attachment</code> to <code>fixed</co
  
 This step will have no effect on our display, because browsers set background images to scroll by default, but let’s add it to the code anyway so that you can see how the property is used. Add the highlighted line to the CSS rule:
  
-<pre>.alert{
+<syntaxhighlight lang="css">.alert{
   background-color: #FFFFCC;
   background-image: url(alert.png);
   background-repeat: no-repeat;
-  '''background-attachment: scroll;'''
-}</pre>
+
+  /* add background-attachment */
+  background-attachment: scroll;
+}</syntaxhighlight>
  
 As shown in Figure 9, the visual display of the alert box is not much different to how it was before.
 
@@ -248,13 +260,15 @@ Figure 10: Various examples of background position using keywords, percentages, 
  
 So let’s position the background image. You want it to be in the top left corner, but not touching the sides, so you need to offset it by 10 pixels from both the top and left—this can be done by adding the following highlighted line to the CSS rule. Do this now.
  
-<pre>.alert{
+<syntaxhighlight lang="css">.alert{
   background-color: #FFFFCC;
   background-image: url(alert.png);
   background-repeat: no-repeat;
   background-attachment: scroll;
-  '''background-position: 10px 10px;'''
-}</pre>
+  
+  /* Add the background position */
+  background-position: 10px 10px;
+}</syntaxhighlight>
  
 The first value is the horizontal offset, the second is the vertical. In this case they are the same. Your alert box should now look like Figure 11.
  
@@ -268,7 +282,12 @@ Tip: Stick to either keywords or number values—older browsers may ignore your 
  
 As you have already seen, certain CSS properties can be grouped together. Background and all of its sub properties are among them. The CSS code we’ve written so far can be rewritten in shortened form, as follows:
  
-<pre>.alert{'''background: #FFFFCC url(alert.png) no-repeat scroll 10px 10px''';}</pre>
+<syntaxhighlight lang="css">
+  .alert{
+    /* change to the shorthand form */
+    background: #FFFFCC url(alert.png) no-repeat scroll 10px 10px;
+  }
+</pre>
  
 Tip: When grouping sub properties of <code>background</code>, always put the properties in the following order—this is important for both cross browser compatibility and stylesheet organisation and maintenance:
  
@@ -339,20 +358,22 @@ Figure 16: The slice for our gradient background.
  
 The HTML for the list is an unordered list containing links. Note the empty <code>span</code> elements inside the links. It is very important not to have fixed <code>height</code> and <code>width</code> on elements that contain text—after all, you have no idea how large the text will be. What happens if the site gets translated to German? You can use these extra spans to display the logos. As an alternative, you may decide that you don’t want to have extraneous non-semantic markup cluttering up your HTML. In this case you will need to use a larger sprite and leave white space between the icons. Keep in mind that this will be slower for users on slow connections, especially those on mobile phones. The code for the list looks like so—add this to an HTML template:
  
-<pre>&lt;ul class="navigation"&gt;
-  &lt;li id="resume"&gt;
-    &lt;a href="#"&gt;&lt;span&gt;&lt;/span&gt;Resume&lt;/a&gt;
-  &lt;/li&gt;
-  &lt;li id="rss"&gt;
-    &lt;a href="#"&gt;&lt;span&gt;&lt;/span&gt;RSS Feed&lt;/a&gt;
-  &lt;/li&gt;
-  &lt;li id="photos"&gt;
-    &lt;a href="#"&gt;&lt;span&gt;&lt;/span&gt;Photos&lt;/a&gt;
-  &lt;/li&gt;<br>
-  &lt;li id="links"&gt;
-    &lt;a href="#"&gt;&lt;span&gt;&lt;/span&gt;Links&lt;/a&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</pre>
+<syntaxhighlight lang="html5">
+  <ul class="navigation">
+    <li id="resume">
+      <a href="#"><span></span>Resume</a>
+    </li>
+    <li id="rss">
+      <a href="#"><span></span>RSS Feed</a>
+    </li>
+    <li id="photos">
+      <a href="#"><span></span>Photos</a>
+    </li><br>
+    <li id="links">
+      <a href="#"><span></span>Links</a>
+    </li>
+  </ul>
+</syntaxhighlight>
  
 The CSS makes use of both background images. First, take a look at the gradient background image. There are three interesting things to note about it:
  
@@ -362,7 +383,8 @@ The CSS makes use of both background images. First, take a look at the gradient 
  
 Add the following CSS to a new CSS file, and link it to the HTML file:
  
-<pre>.navigation, .navigation li {
+<syntaxhighlight lang="css">
+.navigation, .navigation li {
   margin:0; 
   padding:0;
 }
@@ -386,13 +408,15 @@ Add the following CSS to a new CSS file, and link it to the HTML file:
 
 .navigation li a:hover,, .navigation li a:focus {
   '''background: transparent none;'''
-}</pre>
+}
+</syntaxhighlight>
  
 The last line means that the element should have no background colour or image when the user hovers using the mouse, or focuses using the keyboard. Perhaps you are wondering why I applied the background properties to the link rather than the list item? The answer is that Internet Explorer 6 and earlier do not support pseudo classes like <code>hover</code> on elements other than links. I’ve made the adjustment to accommodate this constraint.
  
 Next you can create the CSS for the little logos. As usual, you can start by defining the most general case for all <code>span</code> elements within your navigation module. It is here that you define the image to be used by all spans, the repeat, and the background position (each is different, so lets use the first). You can use shorthand for this rule. Note that I’m using CSS comments to divide sections of our code into manageable chunks. Add the following code to the bottom of the CSS file:
  
-<pre>/* general case */
+<syntaxhighlight lang="css">
+/* general case */
 
 .navigation span {
   '''background:url (sprite_logo.gif) no-repeat left top;'''
@@ -402,11 +426,12 @@ Next you can create the CSS for the little logos. As usual, you can start by def
   display:-moz-inline-box; 
   display:inline--block;
   vertical-align: middle;
-}</pre>
+}</syntaxhighlight>
  
 With the general case well in hand, you can now define the exceptions, or ''what is different '' about each specific logo. In this case, the only CSS that changes is the <code>background-position</code>. Each respective list item needs to have the image pulled 15 pixels more to the left, because each of the logos are 15 pixels wide. Add the following to the bottom of the CSS file:
  
-<pre>/* exceptions */
+<syntaxhighlight lang="css">
+/* exceptions */
 
 #rss span {
   '''background-position: -15px 0;'''
@@ -418,7 +443,8 @@ With the general case well in hand, you can now define the exceptions, or ''what
 
 #links span {
   '''background-position: -45px 0;'''
-}</pre>
+}
+</syntaxhighlight>
  
 This example might seem intimidating at first. Keep your focus on the background images. In this case, I’ve used negative pixel values to pull the background image left so that the relevant part of the image is seen. Positive values push the background image down and right, negative values pull the image up and left.
  
