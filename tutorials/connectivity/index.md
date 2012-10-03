@@ -5,7 +5,7 @@
 {{Tutorial
 |Content=* [[tutorials/eventsource basics|Stream updates with server-sent events]]
 * [[tutorials/realtime stream|Realtime stream]]
-* [[tutorials/websockets basics|Websockets]]
+* [[tutorials/websockets basics|WebSocket]]
 }}
 {{Compatibility_Section
 |Not_required=Yes
