@@ -90,7 +90,7 @@ The original XmlHttpRequest object had only one event handler, <code>onreadystat
 
 * starred items are not supported by IE's XDomainRequest<br /> source: http://www.w3.org/TR/XMLHttpRequest2/#events
 
-For most cases, you will at the very least want to handle the <code>onload</code> and <code>onerror</code> events:
+For most cases, you will at least want to handle the <code>onload</code> and <code>onerror</code> events:
 
 <syntaxhighlight lang="JavaScript">
  xhr.onload = function() {
@@ -104,7 +104,7 @@ For most cases, you will at the very least want to handle the <code>onload</code
  };
 </syntaxhighlight>
 
-Browsers don't do a good job of reporting what went wrong when there is an error. For example, Firefox reports a status of 0 and an empty statusText for all errors. Browsers also report an error message to the console log, but this message cannot be accessed from JavaScript. When handling <code>onerror</code>, you will know that an error occurred, but not much else.
+Browsers don't do a good job of reporting what went wrong when there is an error. Browsers also report an error message to the console log, but this message cannot be accessed from JavaScript. When handling <code>onerror</code>, you will know that an error occurred, but not much else.
 
 ===withCredentials===
 
@@ -114,7 +114,7 @@ Standard CORS requests do not send or set any cookies by default. In order to in
  xhr.withCredentials = true;
 </syntaxhighlight>
 
-In order for this to work, the server must also enable credentials by setting the Access-Control-Allow-Credentials response header to “true”. See the [#toc-adding-cors-support-to-the-server server section] for details.
+In order for this to work, the server must also enable credentials by setting the Access-Control-Allow-Credentials response header to “true”. See the "Adding CORS support to the server" section below for details.
 
 <syntaxhighlight lang="JavaScript">
  Access-Control-Allow-Credentials: true
@@ -137,8 +137,6 @@ And that's it! Assuming the server is properly configured to respond to CORS req
 ===End-to-End Example===
 
 Here is a full working sample of a CORS request.
-
-<center><strong>Run Sample</strong></center>
 
 <syntaxhighlight lang="JavaScript">
  // Create the XHR object.
@@ -202,7 +200,7 @@ Browser manufacturers are responsible for the browser-side implementation. This 
 Cross-origin requests come in two flavors:
 
 # simple requests
-# "not-so-simple requests" (a term I just made up)
+# not-so-simple requests (a term I just made up)
 
 Simple requests are requests that meet the following criteria:
 
@@ -260,7 +258,7 @@ HTTP Response:
  Content-Type: text/html; charset=utf-8
 </syntaxhighlight>
 
-All CORS related headers are prefixed with "Access-Control-". Here’s some more details about each header.
+All CORS related headers are prefixed with "Access-Control-". Here are some more details about each header.
 
 <code>Access-Control-Allow-Origin</code> (required) - This header must be included in all valid CORS responses; omitting the header will cause the CORS request to fail. The value of the header can either echo the Origin request header (as in the example above), or be a '*' to allow requests from any origin. If you’d like any site to be able to access your data, using '*' is fine. But if you’d like finer control over who can access your data, use an actual value in the header.
 
@@ -268,7 +266,7 @@ All CORS related headers are prefixed with "Access-Control-". Here’s some more
 
 The Access-Control-Allow-Credentials header works in conjunction with the [[#withCredentials|withCredentials property]] on the XmlHttpRequest2 object. Both these properties must be set to <code>true</code> in order for the CORS request to succeed. If .withCredentials is <code>true</code>, but there is no <code>Access-Control-Allow-Credentials</code> header, the request will fail (and vice versa).
 
-Its recommended that you don’t set this header unless you are sure you want cookies to be included in CORS requests.
+It's recommended that you don’t set this header unless you are sure you want cookies to be included in CORS requests.
 
 <code>Access-Control-Expose-Headers</code> (optional) - The XmlHttpRequest2 object has a getResponseHeader() method that returns the value of a particular response header. During a CORS request, the getResponseHeader() method can only access simple response headers. Simple response headers are defined as follows:
 
@@ -281,11 +279,11 @@ Its recommended that you don’t set this header unless you are sure you want co
 
 If you want clients to be able to access other headers, you have to use the <code>Access-Control-Expose-Headers</code> header. The value of this header is a comma-delimited list of response headers you want to expose to the client.
 
-As of this writing, all browsers have buggy <code>getRequestHeader()</code> implementations, so the headers may not be accessible to clients even after you set the Access-Control-Expose-Headers header. See the [#toc-known-bugs Known Bugs] section below for more details.
+As of this writing, most browsers have buggy <code>getRequestHeader()</code> implementations, so the headers may not be accessible to clients even after you set the Access-Control-Expose-Headers header. See the Known bugs section below for more details.
 
 ===Handling a not-so-simple request===
 
-So that takes care of a simple GET request, but what if you want to do something more? Maybe you want to support other HTTP verbs like PUT or DELETE, or you want to support JSON using Content-Type: application/json. Then you need to handle what we’re calling a not-so-simple request.
+That takes care of a simple GET request, but what if you want to do something more? Maybe you want to support other HTTP verbs like PUT or DELETE, or you want to support JSON using Content-Type: application/json. Then you need to handle what we’re calling a not-so-simple request.
 
 A not-so-simple request looks like a single request to the client, but it actually consists of two requests under the hood. The browser first issues a preflight request, which is like asking the server for permission to make the actual request. Once permissions have been granted, the browser makes the actual request. The browser handles the details of these two requests transparently. The preflight response can also be cached so that it is not issued on every request.
 
@@ -302,7 +300,6 @@ JavaScript:
 </syntaxhighlight>
 
 Preflight Request:
-
  
  OPTIONS /cors HTTP/1.1
  Origin: http://api.bob.com
@@ -380,7 +377,6 @@ If the server wants to deny the CORS request, it can just return a generic respo
 
 Preflight Request:
 
-
 <syntaxhighlight lang="JavaScript">
  Origin: http://api.bob.com
  Access-Control-Request-Method: PUT
@@ -392,14 +388,13 @@ Preflight Request:
 </syntaxhighlight>
 
 Preflight Response:
-
  
  // ERROR - No CORS headers, this is an invalid request!
  Content-Type: text/html; charset=utf-8
 
 If there is an error in the CORS request, the browser will fire the client's <code>onerror</code> event handler. It will also print the following error to the console log:
 
-<code> XMLHttpRequest cannot load http://api.alice.com. Origin http://api.bob.com is not allowed by Access-Control-Allow-Origin. </code>
+<code>XMLHttpRequest cannot load http://api.alice.com. Origin http://api.bob.com is not allowed by Access-Control-Allow-Origin.</code>
 
 The browser doesn't give you a lot of details on why the error occurred, it only tells you that something went wrong.
 
@@ -407,24 +402,24 @@ The browser doesn't give you a lot of details on why the error occurred, it only
 
 While CORS lays the groundwork for making cross-domain requests, the CORS headers are not a substitute for sound security practices. You shouldn't rely on the CORS header for securing resources on your site. Use the CORS headers to give the browser directions on cross-domain access, but use some other security mechanism, such as cookies or [http://oauth.net/2/ OAuth2], if you need additional security restrictions on your content.
 
-==Cross-Domain from Chrome Extensions==
+==Cross-domain from Chrome Extensions==
 
 Chrome extensions support cross-domain requests in a two different ways:
 
-# Include domain in manifest.json - Chrome extensions can make cross-domain requests to any domain *if* the domain is included in the "permissions" section of the manifest.json file:<br> <code>"permissions": [ "http://*.html5rocks.com"]</code><br>The server doesn't need to include any additional CORS headers or do any more work in order for the request to succeed.
+# Include domain in manifest.json - Chrome extensions can make cross-domain requests to any domain ''if'' the domain is included in the "permissions" section of the manifest.json file:<br/> <code>"permissions": [ "http://*.html5rocks.com"]</code><br/>The server doesn't need to include any additional CORS headers or do any more work in order for the request to succeed.
 # CORS request - If the domain is not in the manifest.json file, then the Chrome extension makes a standard CORS request. The value of the Origin header is "chrome-extension://[CHROME EXTENSION ID]". This means requests from Chrome extensions are subject to the same CORS rules described in this article.
 
-==Known Bugs==
+==Known bugs==
 
 CORS support is still being actively developed in all browsers; here's a list of known bugs (as of 11/13/2011):
 
-# XMLHttpRequests' getAllResponseHeaders() doesn't honor Access-Control-Expose-Headers - The getAlLResponseHeaders() method on the XMLHttpRequest object should return all simple response headers and any response header included in the Access-Control-Expose-Headers response header. In Chrome/Safari, only simple response headers are included, while Firefox doesn't return ANY response headers (Link to: [https://bugzilla.mozilla.org/show_bug.cgi?id=608735 Firefox bug], [https://bugs.webkit.org/show_bug.cgi?id=41210 WebKit bug]).
-# Non-simple headers on GET/POST requests bypass preflight request - In Safari, a request with a simple HTTP method (GET or POST), but non-simple request headers, do not issue a preflight request, and the non-simple header is not included as part of the request (Link to: [https://bugs.webkit.org/show_bug.cgi?id=50773 WebKit bug]).
-# No error information provided to onerror handler - When the onerror handler is fired, the status code is 0, and there is no statusText. This may be by design, but it can be confusing when trying to debug why CORS requests are failing.
+# XMLHttpRequest's getAllResponseHeaders() doesn't honor Access-Control-Expose-Headers &mdash; The getAlLResponseHeaders() method on the XMLHttpRequest object should return all simple response headers and any response header included in the Access-Control-Expose-Headers response header. In Chrome/Safari, only simple response headers are included, while Firefox doesn't return ANY response headers (Link to: [https://bugzilla.mozilla.org/show_bug.cgi?id=608735 Firefox bug], [https://bugs.webkit.org/show_bug.cgi?id=41210 WebKit bug]).
+# Non-simple headers on GET/POST requests bypass preflight request &mdash; In Safari, a request with a simple HTTP method (GET or POST), but non-simple request headers, do not issue a preflight request, and the non-simple header is not included as part of the request (Link to: [https://bugs.webkit.org/show_bug.cgi?id=50773 WebKit bug]).
+# No error information provided to onerror handler &mdash; When the onerror handler is fired, the status code is 0, and there is no statusText. This may be by design, but it can be confusing when trying to debug why CORS requests are failing.
 
-==CORS Server Flowchart==
+==CORS server flowchart==
 
-The flowchart below shows how a server should make the decisions as to which headers to add to a CORS response. Click the image to see a larger version.
+The flowchart below shows how a server should make the decisions as to which headers to add to a CORS response.
 
 [[Image:cors_server_flowchart.png|CORS Server Flowchart]]
 
