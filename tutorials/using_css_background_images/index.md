@@ -287,7 +287,7 @@ As you have already seen, certain CSS properties can be grouped together. Backgr
     /* change to the shorthand form */
     background: #FFFFCC url(alert.png) no-repeat scroll 10px 10px;
   }
-</pre>
+</syntaxhighlight>
  
 Tip: When grouping sub properties of <code>background</code>, always put the properties in the following order—this is important for both cross browser compatibility and stylesheet organisation and maintenance:
  
