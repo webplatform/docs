@@ -1,6 +1,6 @@
 {{Page_Title|Tutorials}}
 {{Flags}}
-{{Summary_Section|Tutorials are hands-on guides to using web technology.}}
+{{Summary_Section|Tutorials are hands-on lessons about using web technology.}}
 {{Basic Page}}
 ==Basics==
 * [[tutorials/Introduction_to_the_Web_Standards_Curriculum|Introduction to the Web Standards]]
