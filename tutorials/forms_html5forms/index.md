@@ -335,10 +335,9 @@ The [http://dev.w3.org/html5/spec/association-of-controls-and-forms.html#the-con
 
 Here's an example for a reservation request form that pulls together different input types, form validation, and CSS selectors and styling.
 
-Full name:Email address:Repeat email address:Arrival date:Number of nights (rooms are $99.00 per night):Number of guests (each additional guest adds $10.00 per night):Estimated total: $99.00 <br /><br />Promo code:
-
 This is the HTML and JavaScript for the form:
 
+<nowiki>
 <form oninput="total.value = (nights.valueAsNumber * 99) +
   ((guests.valueAsNumber - 1) * 10)">
  
@@ -382,6 +381,7 @@ This is the HTML and JavaScript for the form:
    }
  }
  </script>
+</nowiki>
 
 This is the CSS that goes with the form code:
 
