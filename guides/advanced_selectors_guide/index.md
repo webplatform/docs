@@ -9,23 +9,23 @@ In our [CSS basics] article, we introduced the most basic of CSS selectors: elem
 
 Note: We are saying "most" here because although most modern browsers support all the selectors listed in the [http://www.w3.org/TR/selectors/ CSS3 selectors module], new selectors are being added/modified all the time (keep checking the [http://www.w3.org/TR/selectors4/ CSS4 selectors draft] for updates). We will aim to update this resource with new selectors as and when they receive more widespread browser support.
  
-You will see many of these selectors used throughout our articles as you read on. Don't worry if you don't understand them all immediately: keep coming referencing this article if you need more help. 
+You will see many of these selectors used throughout our articles as you read on. Don't worry if you don't understand them all immediately: keep referencing this article if you need more help. 
  
 == Universal selectors ==
  
 Universal selectors select every element on a page. For example, the following rule says that every element on the page should be given a solid 1 pixel black border:
  
-<pre>* {
+<syntaxhighlight lang="css">* {
   border: 1px solid #000000;
-}</pre>
+}</syntaxhighlight>
  
 == Attribute selectors ==
  
 Attribute selectors allow you to select elements based on the attributes they contain. For example, you can select every <code>&lt;img&gt;</code> element with an <code>alt</code> attribute using the following selector:
  
-<pre>img[alt] {
+<syntaxhighlight lang="css">img[alt] {
   border: 1px solid #000000;
-}</pre>
+}</syntaxhighlight>
  
 Note the square brackets.
  
@@ -35,9 +35,9 @@ Using the above selector, you could perhaps choose to put a black border around 
  
 Attribute selectors instantly get more useful when you consider that you can select by ''attribute value'', not just attribute name. The following rule selects all images with an <code>src</code> attribute value of <code>alert.gif</code>:
  
-<pre>img[src="alert.gif"] {
+<syntaxhighlight lang="css">img[src="alert.gif"] {
   border: 1px solid #000000;
-}</pre>
+}</syntaxhighlight>
  
 Again this can be useful for debugging purposes, and perhaps styling important icons or links without needing to add additional classes/IDs.
 
@@ -47,25 +47,25 @@ Note that this is not supported by IE6 and below.
 
 This is where attribute selectors become even more useful. To start with, you could select and style our <code>&lt;img src="alert.gif"&gt;</code> element using the following:
 
-<pre>img[src^="alert"] {
+<syntaxhighlight lang="css">img[src^="alert"] {
   border: 1px solid #000000;
-}</pre>
+}</syntaxhighlight>
 
 The ^ character dictates that this selector should select <code>&lt;img&gt;</code> elements only if they have the string <code>alert</code> at the start of the <code>src</code> attribute value.
 
 Next, we could also select our <code>&lt;img src="alert.gif"&gt;</code> element using this:
 
-<pre>img[src$="gif"] {
+<syntaxhighlight lang="css">img[src$="gif"] {
   border: 1px solid #000000;
-}</pre>
+}</syntaxhighlight>
 
 The $ character dictates that this selector should select <code>&lt;img&gt;</code> elements only if they have the string <code>gif</code> at the end of the <code>src</code> attribute value. This is really useful for styling links that point to specific types of resources, like PDFs or word documents. 
 
 Finally, we could select our <code>&lt;img src="alert.gif"&gt;</code> element like this:
 
-<pre>img[src*="ert"] {
+<syntaxhighlight lang="css">img[src*="ert"] {
   border: 1px solid #000000;
-}</pre>
+}</syntaxhighlight>
 
 The * character dictates that this selector should select <code>&lt;img&gt;</code> elements only if they have the string <code>ert</code> anywhere within the <code>src</code> attribute value.
 
@@ -79,9 +79,9 @@ If you had an element on a page with a number of classes applied to it, for exam
 
 You could select it using any of the following selectors:
 
-<pre>article[class~="featured"]
+<syntaxhighlight lang="css">>article[class~="featured"]
 article[class~="archive"]
-article[class~="english"]</pre>
+article[class~="english"]</syntaxhighlight>
 
 The ~ character dictates that these selectors should select an <code>&lt;article&gt;</code> element whose <code>class</code> attribute value is a list of whitespace-separated values, but only if one of those values is the value given inside the quotes. 
 
@@ -91,7 +91,7 @@ Now lets look at an element on a page with an ID value in the form of hyphen-sep
 
 You could select it using the following selector:
 
-<pre>article[id|="english"]</pre>
+<syntaxhighlight lang="css">article[id|="english"]</syntaxhighlight>
 
 The {{!}} character dictates that this selector should select an <code>&lt;article&gt;</code> element whose <code>id</code> attribute value is a list of hyphen-separated values, but only if the leftmost one of those values is <code>english</code>. 
 
@@ -101,9 +101,9 @@ Note that these are not supported by IE8 and below.
  
 You can use a child selector to select specific elements that are children of other specific elements. For example, the following rule will turn the text of <code>&lt;strong&gt;</code> elements that are children of <code>&lt;h3&gt;</code> elements blue, but no other <code>&lt;strong&gt;</code> elements:
  
-<pre>h3 > strong {
+<syntaxhighlight lang="css">h3 > strong {
   colour: blue;
-}</pre>
+}</syntaxhighlight>
  
 Note that child selectors are not supported in IE 6 or below.
 
@@ -113,26 +113,26 @@ Note also that the > character is often referred to as a combinator in this cont
  
 Descendent selectors are very similar to child selectors, except that child selectors only select immediate descendants; descendent selectors select matching elements anywhere in the element hierarchy, not just direct descendants. Let's look at what this means more carefully. Consider the following HTML snippet:
  
-<pre>&lt;div&gt;
-  &lt;p&gt;hello&lt;/p&gt;
-  &lt;article&gt; 
-    &lt;p&gt;In this paragraph I will say goodbye&lt;/p&gt;.
-  &lt;/article&gt;
-&lt;/div&gt;</pre>
+<syntaxhighlight lang="hmtl5"><div>
+  <p>hello</p>
+  <article> 
+    <p>In this paragraph I will say goodbye</p>.
+  </article>
+</div></syntaxhighlight>
  
 In this snippet, the <code>&lt;div&gt;</code> element is the parent of all other elements. It has two children, a <code>&lt;p&gt;</code> and an <code>&lt;article&gt;</code>. The <code>&lt;article&gt;</code> element has a single child element: another <code>&lt;p&gt;</code>.
 
 You could use a child selector to select just the <code>&lt;p&gt;</code> immediately inside the <code>&lt;div&gt;</code>, like so:
  
-<pre>div > p {
+<syntaxhighlight lang="css">div > p {
  …
-}</pre>
+}</syntaxhighlight>
  
 If you instead used a descendent selector, as follows:
  
-<pre>div p {
+<syntaxhighlight lang="css">div p {
  …
-}</pre>
+}</syntaxhighlight>
  
 Both of the <code>&lt;p&gt;</code> elements would be selected.
  
@@ -140,18 +140,18 @@ Both of the <code>&lt;p&gt;</code> elements would be selected.
  
 This selector allows you to select a specific element that comes directly after another specific element, on the same level in the element hierarchy. Take the following example:
 
-<pre>&lt;h2&gt;My heading&lt;/h2&gt;
-&lt;p&gt;My first paragraph&lt;/p&gt;
-&lt;p&gt;My second paragraph&lt;/p&gt;
-&lt;p&gt;My third paragraph&lt;/p&gt;
-&lt;p&gt;My fourth paragraph&lt;/p&gt;
-&lt;p&gt;My fifth paragraph&lt;/p&gt;</pre>
+<syntaxhighlight lang="html5"><h2>My heading</h2>
+<p>My first paragraph</p>
+<p>My second paragraph</p>
+<p>My third paragraph</p>
+<p>My fourth paragraph</p>
+<p>My fifth paragraph</p></syntaxhighlight>
 
 <p>If you wanted to select just the <code>&lt;p&gt;</code> element that comes immediately after the <code>&lt;h2&gt;</code> element (and any other such <code>&lt;p&gt;</code> elements that might appear later in the document) you could use the following rule:
  
-<pre><code>h2 + p {
+<syntaxhighlight lang="css">h2 + p {
  ...
-}</code></pre>
+}</syntaxhighlight>
  
 Note that the adjacent sibling selector is not supported in IE6 or below.
 
@@ -161,15 +161,15 @@ Note also that the + character is often referred to as a combinator in this cont
  
 The general sibling selector is very similar to the adjacent sibling selector, except that it allows you to select all siblings of the specified element type, not just the one immediate next to the element on the left hand side. the syntax looks like this:
 
-<pre><code>h2 ~ p {
+<syntaxhighlight lang="css">h2 ~ p {
  ...
-}</code></pre>
+}</syntaxhighlight>
 
 Returning to our previous example, this ruleset would select all five paragraph elements, not just the first one. It would also select the paragraph shown below:
 
-<pre>&lt;h2&gt;My heading&lt;/h2&gt;
-&lt;h3&gt;My sub heading&lt;/h3&gt;
-&lt;p&gt;My paragraph&lt;/p&gt;</pre>
+<syntaxhighlight lang="html5"><h2>My heading</h2>
+<h3>My sub heading</h3>
+<p>My paragraph</p></syntaxhighlight>
  
 Note that the general sibling selector is not supported in IE8 or below.
 
@@ -194,7 +194,7 @@ Note that the last three of these (these are the "user action pseudo-classes" �
 Let's look at some examples. The following CSS rules make it so that by default, links are blue (the default in most browsers anyway). When hovered over, the default link underline disappears. We want the same effect when the link is focused via the keyboard, so we duplicate the <code>:hover </code> rule with <code>:focus </code> . When a link has already been visited, it turns grey. Finally, when a link is active, it is bolded, as an extra clue that something significant is happening.
 
  
-<pre>a:link {
+<syntaxhighlight lang="css">a:link {
  color: blue;
 }
 
@@ -208,40 +208,44 @@ text-decoration: none;
 
 a:active {
  font-weight: bold;
-}</pre>
+}</syntaxhighlight>
  
 Take care if you don't specify these rules in the same order as they are shown in above, otherwise they might not work as you expect. This is due to the way specificity causes later rules in the stylesheet to override earlier rules. You’ll learn more about specificity in [[Inheritance and cascade]].
  
 As another example, the <code>:focus</code> pseudo-class is also useful as a usability aid in forms. For example, you can highlight the input field that has the active blinking cursor inside it with a rule like this:
 
  
-<pre>input:focus  {
+<syntaxhighlight lang="css">input:focus  {
   border: 2px solid black;
   background color: lightgray;
-}</pre>
+}</syntaxhighlight>
  
 === The negation (not) pseudo-class ===
 
 The negation pseudo-class can be used to explicitly apply styles to elements that '''are not''' selected by a simple selector. Let's say we wanted to apply some styling to a number of content blocks, all except one. The blocks could look like so:   
  
-<pre>&lt;section id="abstract"&gt; ... &lt;/section&gt;
-&lt;section id="experiment"&gt; ... &lt;/section&gt;
-&lt;section id="tests"&gt; ... &lt;/section&gt;
-&lt;section id="results"&gt; ... &lt;/section&gt;
-&lt;section id="conclusion"&gt; ... &lt;/section&gt;
-&lt;section id="references"&gt; ... &lt;/section&gt;</pre>
+<syntaxhighlight lang="html5"><section id="abstract"> ... </section>
+<section id="experiment"> ... </section>
+<section id="tests"> ... </section>
+<section id="results"> ... </section>
+<section id="conclusion"> ... </section>
+<section id="references"> ... </section></syntaxhighlight>
 
 We could apply the styling to all sections except the references by doing this:
 
+<syntaxhighlight lang="css">
 #abstract, #experiment, #tests, #results, #conclusion {
   ...
 }
+</syntaxhighlight>
 
 Or instead, we could use the negation selector, like so:
 
+<syntaxhighlight lang="css">
 section:not(#references) {
   ...
 }
+</syntax>
 
 Which is much shorter and simpler.
 
@@ -251,27 +255,27 @@ Note: The negation selector is not supported by IE8 and below.
  
 The <code>:lang</code> pseudo-class selects elements whose languages have been set to the specified language using the <code>lang</code> attribute. For example, the following element:
  
-<pre>&lt;p lang="en-US"&gt;A paragraph of American text, gee whiz!&lt;p&gt;</pre>
+<syntaxhighlight lang="html5"><p lang="en-US">A paragraph of American text, gee whiz!<p></syntaxhighlight>
  
 Could be selected using the following:
  
-<pre>p:lang(en-US) {
+<syntaxhighlight lang="css">p:lang(en-US) {
  ...
-}</pre>
+}</syntaxhighlight>
 
 === The target pseudo-class ===
 
 The target pseudo-class allows you to select an element if it is the '''target''' of the current page URL. This is really useful and allows for some cool effects, because it effectively allows you to set styles to be applied when links are clicked. For example:
 
-<pre>&lt;a href="#target"&gt;Click me&lt;/a&gt;
+<syntaxhighlight lang="html5"><a href="#target">Click me</a>
 
-<div id="target">Woot!</div></pre>
+<div id="target">Woot!</div></syntaxhighlight>
 
 Here we have a simple link followed by a <code>&lt;div&gt;</code> — the link references the <code>&lt;div&gt;</code> via it's ID. The current URL only targets the <code>&lt;div&gt;</code> upon the link being clicked. To style the <code>&lt;div&gt;</code> only when the link is clicked, you could use the following:
 
-<pre>div:target {
+<syntaxhighlight lang="css">div:target {
   ...
-}</pre>
+}</syntaxhighlight>
 
 To see a much more involved example of <code>:target</code> usage, read [http://dev.opera.com/articles/view/css3-target-based-interfaces/ CSS3 target-based interfaces] by Corey Mwamba.
 
@@ -281,27 +285,27 @@ These pseudo-classes are all concerned with styling advanced states of UI elemen
 
 Let's say we are styling a basic form input with a <code>valid</code> attribute for validation:
 
-<pre>&lt;input type="text" required&gt;</pre>
+<syntaxhighlight lang="html5"><input type="text" required></syntaxhighlight>
 
 We could style it only when the information entered into it is valid or invalid using
 
-<pre>input:valid {}</pre>
+<syntaxhighlight lang="css">input:valid {}</syntaxhighlight>
 
 and 
 
-<pre>input:invalid {}</pre>
+<syntaxhighlight lang="css">input:invalid {}</syntaxhighlight>
 
 We could style it depending on whether it is enabled (default) or disabled (using the <code>disabled</code> attribute), using
 
-<pre>input:enabled {}</pre>
+<syntaxhighlight lang="css">input:enabled {}</syntaxhighlight>
 
 and 
 
-<pre>input:disabled {}</pre>
+<syntaxhighlight lang="css">input:disabled {}</syntaxhighlight>
 
 Finally, we could style a checkbox only when checked like so:
 
-input[type="checkbox"]:checked {}
+<syntaxhighlight lang="css">input[type="checkbox"]:checked {}</syntaxhighlight>
 
 
 === Structural pseudo-classes ===
@@ -310,36 +314,36 @@ Structural pseudo-classes are advanced selectors allowing you to target specific
 
 <code>:root</code> selects the root element of the document, which is usually the <code>&lt;html&gt;</code> element. For example:
 
-<pre>html:root{ ... }</pre>
+<syntaxhighlight lang="css">html:root{ ... }</syntaxhighlight>
 
 <p><code>:nth-child(n)</code> allows you to select a repeating pattern of elements inside an continuous set of like elements, for example several list items, or several paragraphs or articles next to one another. Let's look at an example:
 
-<pre>&lt;ul&gt;
-  &lt;li&gt;First&lt;/li&gt;
-  &lt;li&gt;Second&lt;/li&gt;
-  &lt;li&gt;Third&lt;/li&gt;
-  &lt;li&gt;Fourth&lt;/li&gt;  
-  &lt;li&gt;Fifth&lt;/li&gt;
-  &lt;li&gt;Sixth&lt;/li&gt;
-  &lt;li&gt;Seventh&lt;/li&gt;
-  &lt;li&gt;Eighth&lt;/li&gt;
-  &lt;li&gt;Ninth&lt;/li&gt;
-  &lt;li&gt;Tenth&lt;/li&gt;
-&lt;/ul&gt;</pre>
+<syntaxhighlight lang="html5"><ul>
+  <li>First</li>
+  <li>Second</li>
+  <li>Third</li>
+  <li>Fourth</li>  
+  <li>Fifth</li>
+  <li>Sixth</li>
+  <li>Seventh</li>
+  <li>Eighth</li>
+  <li>Ninth</li>
+  <li>Tenth</li>
+</ul></syntaxhighlight>
 
 <code>n</code> is set to the pattern we want to select. In this case, to select list items we do this:
 
-<pre>li:nth-child(n)</pre>
+<syntaxhighlight lang="css">li:nth-child(n)</syntaxhighlight>
 
 To select just the odd or even list items, we'd use these:
 
-<pre>li:nth-child(odd)
-li:nth-child(even)</pre>
+<syntaxhighlight lang="css">li:nth-child(odd)
+li:nth-child(even)</syntaxhighlight>
 
 Or we could use
 
-<pre>li:nth-child(2n+1)
-li:nth-child(2n+0)</pre>
+<syntaxhighlight lang="css">li:nth-child(2n+1)
+li:nth-child(2n+0)</syntaxhighlight>
 
 To do the same thing.
 
@@ -355,17 +359,17 @@ Next let's move on to <code>nth-last-child(n)</code>. This does the same thing a
 
 Let's have a look at another example:
 
-<pre>&lt;div&gt;
-  1. &lt;article class="abstract"&gt; ... &lt;/article&gt;
-  2. &lt;article class="abstract"&gt; ... &lt;/article&gt;
-  3. &lt;article class="abstract"&gt; ... &lt;/article&gt;
-  4. &lt;article class="abstract"&gt; ... &lt;/article&gt;
-  5. &lt;article class="abstract"&gt; ... &lt;/article&gt;
-  6. &lt;blockquote&gt;&lt;p&gt; ... &lt;/p&gt;&lt;/blockquote&gt;
-  7. &lt;article class="abstract"&gt; ... &lt;/article&gt;
-  8. &lt;article class="abstract"&gt; ... &lt;/article&gt;
-  9. &lt;article class="abstract"&gt; ... &lt;/article&gt;
-&lt;/div&gt;</pre>
+<syntaxhighlight lang="html5"><div>
+  1. <article class="abstract"> ... </article>
+  2. <article class="abstract"> ... </article>
+  3. <article class="abstract"> ... </article>
+  4. <article class="abstract"> ... </article>
+  5. <article class="abstract"> ... </article>
+  6. <blockquote><p> ... </p></blockquote>
+  7. <article class="abstract"> ... </article>
+  8. <article class="abstract"> ... </article>
+  9. <article class="abstract"> ... </article>
+</div></syntaxhighlight>
 
 In this example we've got a <code>&lt;element&gt;</code> with eight child <code>&lt;article&gt;</code> elements, and a single <code>&lt;blockquote&gt;</code> element sat in the middle of them: this is child number six. There are a total of nine child elements.
 
@@ -376,9 +380,9 @@ If you used <code>article:nth-of-type(2n+0)</code> as your selector, you would s
 Next, we’ll have a look at <code>:first-child</code> and <code>:last-child</code> — these pseudo-classes select only the first or last instance of an element that is the first or last child element of its parent. So, considering the above example again, we could use the following to select - respectively - the first and last <code>&lt;article&gt;</code> element:
 
  
-<pre>article:first-child { ... }
+<syntaxhighlight lang="css">article:first-child { ... }
 
-article:last-child { ... }</pre>
+article:last-child { ... }</syntaxhighlight>
 
 <code>blockquote:first-child</code> would select nothing, because the first child is not a <code>&lt;blockquote&gt;</code>.
 
@@ -398,11 +402,11 @@ Pseudo elements differ from pseudo-classes in that they don't select states of e
 
 First of all, you can select the first letter inside a given element using the following rule:
  
-<pre>p:first-letter {
+<syntaxhighlight lang="css">p:first-letter {
   font-weight: bold;
   font-size: 300%
   background-color: red;
-}</pre>
+}</syntaxhighlight>
  
 The first letter of every paragraph will now be bolded, 300% bigger than the rest of the paragraph, and have a red background. This is a good start towards creating a decent drop cap effect.
 
@@ -410,24 +414,23 @@ The first letter of every paragraph will now be bolded, 300% bigger than the res
  
 To make the first line of every paragraph bold, you could use the following rule:
  
-<pre>p:first-line {
+<syntaxhighlight lang="css">p:first-line {
   font-weight: bold;
-}</pre>
+}</syntaxhighlight>
 
 === Generated content using :before and :after ===
  
 You can use the <code>:before</code> and <code>:after</code> pseudo-elements to specify that content should be inserted before and after the element you are selecting. You then specify what content you want to insert or generate. As a simple example, you can use the following rule to insert a decorative image after every link on the page:
 
-<pre>a:after {
+<syntaxhighlight lang="css">a:after {
   content: " " url(flower.gif);
-}</pre>
+}</syntaxhighlight>
  
 You can also use the <code>attr()</code> function to insert the values of attributes of the elements after the element. For example, you could insert the target of every link in your document in brackets after each one using the following:
  
-<pre><code>a:after {
+<syntaxhighlight lang="css">a:after {
   content: "" "(" attr(href) ")";
-}</code>
-</pre>
+}</syntaxhighlight>
  
 This is a great technique to use in a print stylesheet, where you want to just show the URLs in the document rather than have them hidden inside links (useless on a printed page).
 
