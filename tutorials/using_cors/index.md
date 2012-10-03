@@ -11,12 +11,6 @@
 {{Tutorial
 |Content==Using CORS=
 
-<div class="date">Published '''Oct. 26, 2011''' Updated '''Sept. 21, 2012'''</div>  [http://www.w3.org/html/logo/  [[Image:html5-badge-h-solo.png.pagespeed.ce.G2VPivYozq.png|63px|HTML5 Powered]] ]
-
-==Supported browsers:==
-
-<span class="browsers"> <span class="browser opera supported"> <span class="browser_name">Opera</span> <span class="support"> supported </span> </span> <span class="browser ie supported"> <span class="browser_name">IE</span> <span class="support"> supported </span> </span> <span class="browser safari supported"> <span class="browser_name">Safari</span> <span class="support"> supported </span> </span> <span class="browser ff supported"> <span class="browser_name">Firefox</span> <span class="support"> supported </span> </span> <span class="browser chrome supported"> <span class="browser_name">Chrome</span> <span class="support"> supported </span> </span> </span><div class="compatible-block">
-
 ==Introduction==
 
 APIs are the thread that let you stitch together a rich web experience. But this experience has a hard time translating to the browser, where the options for cross-domain requests are limited to techniques like [http://en.wikipedia.org/wiki/JSONP JSON-P] (which has limited use due to security concerns) or setting up a custom proxy (which can be a pain to set up and maintain).
