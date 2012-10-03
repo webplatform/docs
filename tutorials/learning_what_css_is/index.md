@@ -50,21 +50,21 @@ For some formal definitions of terminology relating to CSS, see [[Definitions]] 
 # Use your computer to create a new directory and a new text file there. The file will contain your document.
 # Copy and paste the HTML shown below. Save the file using the name <code>doc1.html</code>
 
-<syntaxhighlight lang="html5">&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-  &lt;head&gt;
-    &lt;meta charset="UTF-8"&gt;
-    &lt;title&gt;Sample document&lt;/title&gt;
-  &lt;/head&gt;
- 
-  &lt;body&gt;
-    &lt;p&gt;
-      &lt;strong&gt;C&lt;/strong&gt;ascending
-      &lt;strong&gt;S&lt;/strong&gt;tyle
-      &lt;strong&gt;S&lt;/strong&gt;heets
-    &lt;/p&gt;
-  &lt;/body&gt;
-&lt;/html&gt;</syntaxhighlight>
+<syntaxhighlight lang="html5"><!DOCTYPE html>
+ <html>
+   <head>
+   <meta charset="UTF-8">
+   <title>Sample document</title>
+   <link rel="stylesheet" href="style1.css">
+   </head>
+   <body>
+     <p>
+       <strong>C</strong>ascending
+       <strong>S</strong>tyle
+       <strong>S</strong>heets
+     </p>
+   </body>
+ </html></syntaxhighlight>
 
 # In your browser, open a new tab or a new window, and open the file there.
 
