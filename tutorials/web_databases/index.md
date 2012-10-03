@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page_Title|Building a to-do list using web databases}}
 {{Flags
 |High-level issues=Needs Flags
 }}
@@ -8,11 +8,7 @@
 }}
 {{Summary_Section|An introduction to using web databases.}}
 {{Tutorial
-|Content== A Simple TODO list using HTML5 WebDatabases =
-== By Paul Kinlan ==
-Published '''Feb. 17, 2010'''
-
-== Introduction ==
+|Content=== Introduction ==
  
 [http://dev.w3.org/html5/webdatabase Web Databases] are new
 in HTML5. Web Databases are hosted and persisted inside a user's browser.
