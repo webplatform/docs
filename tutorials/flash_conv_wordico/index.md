@@ -66,7 +66,7 @@ Converting the tile object was a similar exercise. In Flash, we used [http://liv
 
 In HTML5, we combine three image sprites on a single <code><canvas></code> element at runtime:
 
- [[Image:wordico-html-tile.png.pagespeed.ce.UfqcdMlAYp.png]] The HTML tile is a composite of three images.
+ [[Image:wordico-html-tile.png]] The HTML tile is a composite of three images.
 
 Now we have 100 canvases (one for each tile) plus a canvas for the gameboard. Here's the markup for an "H" tile:
 
