@@ -23,9 +23,9 @@ WebSocket is comprised of an [http://dev.w3.org/html5/websockets/ API] that enab
 
 In this example, we'll use a publicly available WebSocket server ([http://websockets.org WebSockets.org]). You open up a WebSocket connection to this server simply by calling the WebSocket constructor:
 
-<pre>
+<syntaxhighlight lang="JavaScript">
  var connection = new WebSocket('ws://html5rocks.websocket.org/echo', ['soap', 'xmpp']);
-</pre>
+</syntaxhighlight>
 
 Notice the <code>ws:</code> prefix, which the new URL schema for WebSocket connections. You can alternatively use <code>wss:</code> for secure WebSocket connections (WebSocket over TLS), used in the same way as <code>https:</code> is used for secure HTTP connections.
 
@@ -35,7 +35,7 @@ The second argument, protocol, accepts optional subprotocols. The [http://tools.
 
 The subprotocol names must be one of the registered subprotocol names in the [http://www.iana.org/assignments/websocket/websocket.xml IANA registry]. 
 
-<pre>
+<syntaxhighlight lang="JavaScript">
  // When the connection is open, send some data to the server
  connection.onopen = function () {
    connection.send('Ping'); // Send the message 'Ping' to the server
@@ -50,13 +50,13 @@ The subprotocol names must be one of the registered subprotocol names in the [ht
  connection.onmessage = function (e) {
    console.log('Server: ' + e.data);
  };
-</pre>
+</syntaxhighlight>
 
 ===Communicating with the Server===
 
 Once the connection is established to the server (when the <code>open</code> event is fired) we can start sending data to the server using the <code>send('your message')</code> method on the connection object. In the past, this method supported only strings, the latest spec allows you to send binary messages, as well. To send binary data, you can use either the <code>Blob</code> or the <code>ArrayBuffer</code> object.
 
-<pre>
+<syntaxhighlight lang="JavaScript">
  // Sending a String
  connection.send('your message');
  
@@ -71,26 +71,26 @@ Once the connection is established to the server (when the <code>open</code> eve
  // Sending a file as Blob
  var file = document.querySelector('input[type="file"]').files[0];
  connection.send(file);
-</pre>
+</syntaxhighlight>
 
 Similarly, the server might send us messages at any time. When this happens, the <code>onmessage</code> callback fires. The callback receives an event object and the actual message is accessible via the <code>data</code> property.
 
 WebSocket can also receive binary messages in the latest spec. Binary frames can be received in <code>Blob</code> or <code>ArrayBuffer</code> format. To specify the format of the received binary, set the <code>binaryType</code> property of the WebSocket object to either <code>'blob'</code> or <code>'arraybuffer'</code>. The default format is <code>'blob'</code>. (You don't have to align the <code>binaryType</code> param on sending.)
 
-<pre>
+<syntaxhighlight lang="JavaScript">
  // Setting binaryType to accept received binary as either 'blob' or 'arraybuffer'
  connection.binaryType = 'arraybuffer';
  connection.onmessage = function(e) {
    console.log(e.data.byteLength); // ArrayBuffer object if binary
  };
-</pre>
+</syntaxhighlight>
 
 Another newly added feature of WebSocket is extensions. Using extensions, it is possible to send frames [http://tools.ietf.org/html/draft-tyoshino-hybi-websocket-perframe-deflate-05 compressed], [http://tools.ietf.org/html/draft-tamplin-hybi-google-mux-02 multiplexed], etc. You can find server-accepted extensions by examining the <code>extensions</code> property of the WebSocket object after the <code>open</code> event. There is no officially published extensions spec (as of February 2012).
 
-<pre>
+<syntaxhighlight lang="JavaScript">
  // Determining accepted extensions
  console.log(connection.extensions);
-</pre>
+</syntaxhighlight>
 
 ==Cross-Origin Communication==
 
@@ -116,6 +116,7 @@ Using WebSocket creates a whole new usage pattern for server-side applications. 
 ** [https://github.com/Worlize/WebSocket-Node WebSocket-Node]
 ** [https://github.com/einaros/ws ws]
 * Java
+** [http://kaazing.com Kaazing]
 ** [http://www.eclipse.org/jetty/ Jetty]
 * Ruby
 ** [http://github.com/igrigorik/em-websocket EventMachine]
@@ -148,6 +149,7 @@ Use WebSocket whenever you need a truly low latency, near real-time connection b
 * [http://paintwith.me/ Paint With Me]
 * [http://connorhd.co.uk/project/pixelatr/ Pixelatr]
 * [http://www.dashed.com/ Dashed]
+* [http://demo.kaazing.com/racer Racer with iPhone RC]
 * [http://scrabb.ly/ Massively multiplayer online crossword]
 * [http://www.websockets.org/echo.html Ping server] (used in examples above)
 * [http://html5demos.com/web-socket HTML5demos sample]
