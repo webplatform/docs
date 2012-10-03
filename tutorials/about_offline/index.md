@@ -1,4 +1,4 @@
-{{Page_Title|Intorudction to offline web applications}}
+{{Page_Title|Introduction to offline web applications}}
 {{Flags
 |High-level issues=Needs Flags
 }}
