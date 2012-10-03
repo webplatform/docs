@@ -109,16 +109,16 @@ You may also want to read [[HTML/Training/What_is_HTML|What is HTML?]]
  
 A typical example HTML document looks like so:
  
-<pre>&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-  &lt;head&gt;
-    &lt;title&gt;Example page&lt;/title&gt;
-  &lt;/head&gt;
-  &lt;body&gt;
-    &lt;h1&gt;Hello world&lt;/h1&gt;
-  &lt;/body&gt;
-&lt;/html&gt;
-</pre>
+<syntaxhighlight lang="html5"><!DOCTYPE html>
+<html>
+  <head>
+    <title>Example page</title>
+  </head>
+  <body>
+    <h1>Hello world</h1>
+  </body>
+</html>
+</syntaxhighlight syn>
 
 This looks like so when rendered in a web browser:
 
