@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page_Title|Introduction to Chrome developer tools, part one}}
 {{Flags
 |High-level issues=Needs Flags
 }}
@@ -8,9 +8,7 @@
 }}
 {{Summary_Section|An introduction to Chrome Developer Tools}}
 {{Tutorial
-|Content==Introduction to Chrome Developer Tools, Part One=
-
-==Introduction==
+|Content===Introduction==
 
 Google Chrome is a rich and powerful web browser, pioneering what is possible for applications on the web. Google has worked hard to deliver a very fast, very stable, feature rich browsing experience for end users. Google has also ensured that developers like you have a great experience with Chrome. The Developer Tools, bundled and available in Chrome and Safari, allow web developers and programmers deep access into the internals of the browser and their web applications.
 
