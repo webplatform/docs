@@ -1,7 +1,7 @@
 {{Page_Title|Inheritance revisited}}
 {{Flags}}
 {{Summary_Section|Inheritance has always been available in JavaScript, but the examples on this page use some methods introduced in ECMAScript 5.}}
-{{Guide
+{{Tutorial
 |Content===Example==
 
 <code>B</code> shall inherit from <code>A</code><nowiki>:</nowiki>
