@@ -1,4 +1,4 @@
-{{Page_Title|Multi-touch Web Development}}
+{{Page_Title|Introduction to multi-touch Web development}}
 {{Flags
 |High-level issues=Needs Flags
 }}
