@@ -88,24 +88,24 @@ The original XmlHttpRequest object had only one event handler, <code>onreadystat
 {{!}} onloadstart*
 {{!}} When the request starts.
 {{!}}-
-| onprogress
-| While loading and sending data.
-|-
-| onabort*
-| When the request has been aborted. For instance, by invoking the abort() method.
-|-
-| onerror
-| When the request has failed.
-|-
-| onload
-| When the request has successfully completed.
-|-
-| ontimeout
-| When the author specified timeout has passed before the request could complete.
-|-
-| onloadend*
-| When the request has completed (either in success or failure).
-|}
+{{!}} onprogress
+{{!}} While loading and sending data.
+{{!}}-
+{{!}} onabort*
+{{!}} When the request has been aborted. For instance, by invoking the abort() method.
+{{!}}-
+{{!}} onerror
+{{!}} When the request has failed.
+{{!}}-
+{{!}} onload
+{{!}} When the request has successfully completed.
+{{!}}-
+{{!}} ontimeout
+{{!}} When the author specified timeout has passed before the request could complete.
+{{!}}-
+{{!}} onloadend*
+{{!}} When the request has completed (either in success or failure).
+{{!}}}
 
 * starred items are not supported by IE's XDomainRequest<br /> source: http://www.w3.org/TR/XMLHttpRequest2/#events
 
