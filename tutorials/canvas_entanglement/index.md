@@ -76,7 +76,7 @@ Now that we have our hexagon drawn to the canvas, we want to draw a few lines on
 
 We also want a nice curve so, using a little trial and error, I found that, if I make a perpendicular line from the edge at each endpoint, the intersection from each pair of endpoints around a given angle of the hexagon makes a nice bezier control point for the given endpoints:
 
-[[Image:en04.jpg|Control points on hexagonal tile]]<br/>
+[[Image:en04.png|Control points on hexagonal tile]]<br/>
 ''Control points on hexagonal tile''
 
 Now, we map both the endpoints and the control points to a Cartesian plane corresponding with our canvas image and we're ready to get back to the code. To keep it simple, we will start with one line. We will begin by drawing a path from the top left endpoint to the bottom right endpoint. With our earlier hexagon image being 400x346, that will make our top endpoint 150 pixels across and 0 pixels down, shorthand (150, 0). It's control point will be (150, 86). The bottom edge endpoint is (250, 346) with a control point of (250, 260):
