@@ -2,12 +2,14 @@
 {{Flags
 |High-level issues=Needs Flags
 }}
+{{Byline
+|Name=Eric Bidelman
+|URL=http://www.html5rocks.com/profiles/#ericbidelman
+|Published=March 3, 2011
+}}
 {{Summary_Section|An introduction to HTML5 enhancement techniques for mobile devices.}}
 {{Tutorial
-|Content=====original by Eric Bidelman====
-====published March 3, 2011====
-
-==Introduction==
+|Content===Introduction==
 
 Developing for the mobile web is a hot topic these days. In 2011, for the first time ever, [http://www.google.com/hostednews/ap/article/ALeqM5jbHjxzXq6y9RhP8LBGniMEAzeFSw?docId=8003d946cb934722b3f814c5909bbdc4 smart phones out-sold PCs]. More and more users are using a mobile device to traverse the web, which means it's becoming critical for developers to optimize their sites for mobile browsers.
 
@@ -330,5 +332,5 @@ To save network traffic, keep your manifest simple. That is, don't call out ever
 |Sources=HTML5Rocks
 |MDN_link=
 |MSDN_link=
-|HTML5Rocks_link=http://www.html5rocks.com/en/mobile/mobifying/
+|HTML5Rocks_link=http://www.html5rocks.com/mobile/mobifying/
 }}
