@@ -16,7 +16,7 @@ There is a convenient shorthand property, [font], which you can use to specify s
   
 Let's look at an example:
 
-<pre>p {font: italic 75%/125% "Comic Sans MS", cursive;}</pre>
+<syntaxhighlight lang="css">p {font: italic 75%/125% "Comic Sans MS", cursive;}</syntaxhighlight>
  
 <p style="font: italic 75%/125% "Comic Sans MS", cursive;">This rule sets various font properties, making all paragraphs italic.</p>
 
@@ -75,7 +75,7 @@ For a simple document, you can set the font of the <code>&lt;body&gt;</code> ele
 <ol>
 <li><p>Edit your CSS file.</p></li>
 <li><p>Add the following rule to change the font throughout the document. The top of the CSS file is a logical place for it, but it has the same effect wherever you put it:</p>
-<pre> body {font: 16px "Comic Sans MS", cursive;}</pre></li>
+<syntaxhighlight lang="css">body {font: 16px "Comic Sans MS", cursive;}</syntaxhighlight></li>
 <li><p>Add a comment explaining the rule, and add white space to make it match your preferred layout.</p></li>
 <li><p>Save the file and refresh your browser to see the effect. If your system has Comic Sans MS, or another cursive font that does not support italic, then your browser chooses a different font face for the italic text in the first line</p>
 <p class="note">Include screenshot to show what it should look like.</p></li>
