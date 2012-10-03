@@ -1,4 +1,4 @@
-{{Page_Title|How Browsers Work: Behind the scenes of modern web browsers}}
+{{Page_Title|How browsers work: behind the scenes of modern web browsers}}
 {{Flags
 |High-level issues=Needs Flags
 |Content=Broken Links
