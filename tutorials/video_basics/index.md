@@ -1,4 +1,4 @@
-{{Page_Title|HTML5 Video}}
+{{Page_Title|Overview of HTML5 video}}
 {{Flags
 |High-level issues=Needs Flags
 }}
