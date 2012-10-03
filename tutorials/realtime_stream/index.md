@@ -15,10 +15,12 @@
 
 The WebSockets spec has gotten quite a bit of attention for what it enables: a stable, bi-directional [http://www.csc.villanova.edu/~mdamian/Sockets/TcpSockets.htm TCP socket] between the browser and server. There is no data format imposed on the TCP socket; the developer is free to define a messaging protocol. In practice, passing JSON objects around as strings is most convenient. The client-side JavaScript code to listen for live updates is clean and simple:
  
+<syntaxhighlight lang="JavaScript">
  var liveSocket = new WebSocket("ws://streamcongress.com:8080/live");
  liveSocket.onmessage = function(payload) {
    addToStream(JSON.parse(payload.data).reverse());
  };
+<syntaxhighlight>
 
 While browser support for WebSockets is straightforward, server-side support is still in the formative stage. [http://socket.io/ Socket.IO] on Node.js provides one of the most mature and robust server-side solutions. An event-driven server like Node.js is the right fit for WebSockets. For alternative implementations, Python developers can use [http://twistedmatrix.com/trac/ Twisted] and [http://www.tornadoweb.org/ Tornado], while Ruby developers have [http://rubyeventmachine.com/ EventMachine].
 
@@ -26,6 +28,7 @@ While browser support for WebSockets is straightforward, server-side support is 
 
 [https://github.com/lifo/cramp Cramp] is an asynchronous Ruby web framework that runs on top of EventMachine. It’s written by [http://m.onkey.org/ Pratik Naik], a member of the Ruby on Rails core team. Providing a simple domain specific language (DSL) for real-time web apps, Cramp is an ideal choice for Ruby web developers. Those familiar with writing controllers in Ruby on Rails will recognize Cramp's style:
  
+<syntaxhighlight lang="yaml">
  require "rubygems"
  require "bundler"
  Bundler.require
@@ -51,6 +54,7 @@ While browser support for WebSockets is straightforward, server-side support is 
    add('/live').to(LiveSocket)
  end
  run routes
+</syntaxhighlight>
 
 Because Cramp sits on top of the non-blocking EventMachine, there are several considerations to keep in mind:
 
@@ -66,12 +70,14 @@ WebSockets suffered a setback on December 8, 2010 when a security vulnerability 
 
 The decision was made to move away from WebSockets and back to “old-school” AJAX polling. While much less efficient from a disk and network I/O perspective, AJAX polling simplified the technical implementation of Stream Congress. Most significantly, the need for a separate Cramp app was eliminated. The AJAX endpoint was instead provided by the Rails app. The client-side code was modified to support jQuery AJAX polling:
  
+<syntaxhighlight>
  var fillStream = function(mostRecentActivity) {
    $.getJSON(requestURL, function(data) {
      addToStream(data.reverse());
      setTimeout(function() {fillStream(recentActivities.last());}, 15000);
    });
  };
+</syntaxhighlight>
 
 AJAX polling, though, is not without its downsides. Relying on the HTTP request/response cycle means that the server sees constant load even when there aren’t any new updates. And of course, AJAX polling doesn’t take advantage of what HTML5 has to offer.
 
@@ -91,6 +97,7 @@ Enter EventSource, also called Server-Sent Events. The specification compares fa
 
 In recent months, Cramp has added support for EventSource. The code is very similar to the WebSockets implementation:
  
+<syntaxhighlight>
  class LiveEvents < Cramp::Action
    self.transport = :sse
  
@@ -108,9 +115,11 @@ In recent months, Cramp has added support for EventSource. The code is very simi
    add('/').to(LiveEvents)
  end
  run routes
+</syntaxhighlight>
 
 A significant issue to keep in mind with EventSource is that cross-domain connections are not allowed. This means that the Cramp app must be served from the same streamcongress.com domain as the main Rails app. This can be accomplished with proxying at the web server. Assuming the Cramp app is powered by Thin and running on port 8000, the Apache configuration looks like so:
  
+<syntaxhighlight>
  LoadModule  proxy_module         /usr/lib/apache2/modules/mod_proxy.so
  LoadModule  proxy_http_module    /usr/lib/apache2/modules/mod_proxy_http.so
  LoadModule  proxy_balancer_module    /usr/lib/apache2/modules/mod_proxy_balancer.so
@@ -134,6 +143,7 @@ A significant issue to keep in mind with EventSource is that cross-domain connec
    ProxyPreserveHost on
  
  </VirtualHost>
+</syntaxhighlight>
 
 This configuration sets an EventSource endpoint at <code>streamcongress.com/live</code>.
 
