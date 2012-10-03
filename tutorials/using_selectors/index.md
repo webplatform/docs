@@ -7,9 +7,9 @@
  
 CSS has its own terminology to describe the CSS language. Previously in this tutorial, you created a line in your stylesheet like this:
  
-<pre>strong {
+<syntaxhighlight lang="css">strong {
   color: red;
-}</pre>
+}</syntaxhighlight>
  
 In CSS terminology, this entire line is a ''rule''. This rule starts with <code>strong</code>, which is a ''selector''. It selects which elements in the DOM the rule applies to.
   
@@ -37,21 +37,21 @@ In your stylesheet, type a number sign (hash) before the ID when you use it in a
 
 This HTML tag has both a <code>class</code> attribute and an <code>id</code> attribute:
   
-<pre>&lt;p class="key" id="principal"&gt;</pre>
+<syntaxhighlight lang="html5"><p class="key" id="principal"></syntaxhighlight>
  
 The '''id''' value, <code>principal</code>, must be unique in the document, but other tags in the document can have the same '''class''' name, <code>key</code>.
  
 In a CSS stylesheet, this rule makes all the elements with class <code>key</code> green. (They might not all be {{ HTMLElement("p") }} elements.)
  
-<pre>.key {
+<syntaxhighlight lang="css">.key {
   colour: green;
-}</pre>
+}</syntaxhighlight>
  
 This rule makes the one element with the '''id''' <code>principal</code> bold:
  
-<pre>#principal {
+<syntaxhighlight lang="css">#principal {
   font-weight: bolder;
-}</pre>
+}</syntaxhighlight>
   
 If more than one rule applies to an element and specifies the same property, then CSS gives priority to the rule that has the more specific selector. An ID selector is more specific than a class selector, which in turn is more specific than a tag selector.
   
@@ -73,9 +73,9 @@ A CSS [[pseudo-class]] is a keyword added to selectors that specifies a special 
  
 Pseudo-classes, together with pseudo-elements, let you apply a style to an element not only in relation to the content of the document tree, but also in relation to external factors like the history of the navigator ({{ cssxref(":visited") }}, for example), the status of its content (like {{ cssxref(":checked") }} on some form elements), or the position of the mouse (like {{ cssxref(":hover") }} which lets you know if the mouse is over an element or not). To see a complete list of selectors, visit [[CSS3 Selectors working spec]].
  
-<pre>selector:pseudo-class {
+<syntaxhighlight lang="css">selector:pseudo-class {
   property: value;
-} </pre>
+} </syntaxhighlight>
   
 ==== List of pseudo-classes ====
  
@@ -109,7 +109,7 @@ CSS has some ways to select elements based on the relationships between elements
 {{!}}<code>A E</code>
 {{!}}Any E element that is a ''descendant'' of an A element (that is: a child, or a child of a child, ''etc''.)
 {{!}}-
-{{!}}<code>A &gt; E</code>
+{{!}}<code>A > E</code>
 {{!}}Any E element that is a child of an A element
 {{!}}-
 {{!}}<code>E:first-child</code>
@@ -127,19 +127,19 @@ You can combine these to express complex relationships.
 
 An HTML table has an <code>id</code> attribute, but its rows and cells do not have individual identifiers:
  
-<pre>&lt;table id="data-table-1"&gt;
+<syntaxhighlight lang="html5"><table id="data-table-1">
 …
-&lt;tr&gt;
-&lt;td&gt;Prefix&lt;/td&gt;
-&lt;td&gt;0001&lt;/td&gt;
-&lt;td&gt;default&lt;/td&gt;
-&lt;/tr&gt;
-…</pre>
+<tr>
+<td>Prefix</td>
+<td>0001</td>
+<td>default</td>
+</tr>
+…</syntaxhighlight>
  
 These rules make the first cell in each row bold, and the second cell in each row monospaced. They only affect one specific table in the document:
  
-<pre>data-table-1 td:first-child {font-weight: bolder;}
-data-table-1 td:first-child + td {font-family: monospace;}</pre>
+<syntaxhighlight lang="css">data-table-1 td:first-child {font-weight: bolder;}
+data-table-1 td:first-child + td {font-family: monospace;}</syntaxhighlight>
  
 The result looks like:
        
@@ -170,33 +170,33 @@ For more examples about tables, see [[Tables]] in the CSS Reference page.
 <li><p>Edit your HTML file, and duplicate the paragraph by copying and pasting it.</p></li>
 <li><p>Then add '''id''' and '''class''' attributes to the first copy, and an '''id''' attribute to the second copy as shown below. Alternatively, copy and paste the entire file again:</p>
 
-<pre>&lt;!doctype html&gt;
- &lt;html&gt;
-   &lt;head&gt;
-   &lt;meta charset="UTF-8"&gt;
-   &lt;title&gt;Sample document&lt;/title&gt;
-   &lt;link rel="stylesheet" href="style1.css"&gt;
-   &lt;/head&gt;
-   &lt;body&gt;
-     &lt;p id="first"&gt;
-       &lt;strong class="carrot"&gt;C&lt;/strong&gt;ascending
-       &lt;strong class="spinach"&gt;S&lt;/strong&gt;tyle
-       &lt;strong class="spinach"&gt;S&lt;/strong&gt;heets
-     &lt;/p&gt;
-     &lt;p id="second"&gt;
-           &lt;strong&gt;C&lt;/strong&gt;ascending
-           &lt;strong&gt;S&lt;/strong&gt;tyle
-           &lt;strong&gt;S&lt;/strong&gt;heets
-         &lt;/p&gt;
-   &lt;/body&gt;
- &lt;/html&gt;</pre>
+<syntaxhighlight lang="html5"><!doctype html>
+ <html>
+   <head>
+   <meta charset="UTF-8">
+   <title>Sample document</title>
+   <link rel="stylesheet" href="style1.css">
+   </head>
+   <body>
+     <p id="first">
+       <strong class="carrot">C</strong>ascending
+       <strong class="spinach">S</strong>tyle
+       <strong class="spinach">S</strong>heets
+     </p>
+     <p id="second">
+           <strong>C</strong>ascending
+           <strong>S</strong>tyle
+           <strong>S</strong>heets
+         </p>
+   </body>
+ </html></syntaxhighlight>
 </li>
 <li><p>Now edit your CSS file. Replace the entire contents with:</p>
 
-<pre>strong { colour: red; }
+<syntaxhighlight lang="css">strong { colour: red; }
  .carrot { color: orange; }
  .spinach { colour: green; }
- #first { font-style: italic; }</pre>
+ #first { font-style: italic; }</syntaxhighlight>
 </li>
 <li><p>Save the files and refresh your browser to see the result:</p>
 
@@ -217,21 +217,21 @@ You can try rearranging the lines in your CSS file to show that the order has no
 <ol>
 <li><p>Create an HTML like the following:</p>
 
-<pre>&lt;!doctype html&gt;
- &lt;html&gt;
-   &lt;head&gt;
-   &lt;meta charset="UTF-8"&gt;
-   &lt;title&gt;Sample document&lt;/title&gt;
-   &lt;link rel="stylesheet" href="style1.css"&gt;
-   &lt;/head&gt;
-   &lt;body&gt;
-     &lt;p&gt;Go to our &lt;a class="homepage" href="http://www.example.com/" title="Home page"&gt;Home page&lt;/a&gt;.&lt;/p&gt;
-   &lt;/body&gt;
- &lt;/html&gt;</pre></li>
+<syntaxhighlight lang="html5"><!doctype html>
+ <html>
+   <head>
+   <meta charset="UTF-8">
+   <title>Sample document</title>
+   <link rel="stylesheet" href="style1.css">
+   </head>
+   <body>
+     <p>Go to our <a class="homepage" href="http://www.example.com/" title="Home page">Home page</a>.</p>
+   </body>
+ </html></syntaxhighlight></li>
  
 <li><p>Now edit your CSS file. Replace the entire contents with:</p>
 
-<pre>a.homepage:link, a.homepage:visited {
+<syntaxhighlight lang="css">a.homepage:link, a.homepage:visited {
    padding: 1px 10px 1px 10px;
    color: #fff;
    background: #555;
@@ -245,7 +245,7 @@ You can try rearranging the lines in your CSS file to show that the order has no
  
  a.homepage:hover, a.homepage:focus, a.homepage:active {
    background-color: #666;
- }</pre>
+ }</syntaxhighlight>
 </li> 
 <li><p>Save the files and refresh your browser to see the result (put the mouse over the following link to see the effect):</p>
 <p class="note">Again, need to add in example screenshots!</p>
@@ -255,43 +255,43 @@ You can try rearranging the lines in your CSS file to show that the order has no
  
 With selectors based on relationships and pseudo-classes you can create complex cascade algorithms. This is a common technique used, for example, in order to create '''pure-CSS drop down menus''' (that is only CSS, without using [[JavaScript]]). The essence of this technique is the creation of a rule like the following:
  
-<pre>div.menu-bar ul ul {
+<syntaxhighlight lang="css">div.menu-bar ul ul {
   display: none;
 }
 
-div.menu-bar li:hover &gt; ul {
+div.menu-bar li:hover > ul {
   display: block;
-}</pre>
+}</syntaxhighlight>
  
 to be applied to an HTML structure like the following:
 
-<pre>&lt;div class="menu-bar"&gt;
-  &lt;ul&gt;
-    &lt;li&gt;
-      &lt;a href="example.html"&gt;Menu&lt;/a&gt;
-      &lt;ul&gt;
-        &lt;li&gt;
-          &lt;a href="example.html"&gt;Link&lt;/a&gt;
-        &lt;/li&gt;
-        &lt;li&gt;
-          &lt;a class="menu-nav" href="example.html"&gt;Submenu&lt;/a&gt;
-          &lt;ul&gt;
-            &lt;li&gt;
-              &lt;a class="menu-nav" href="example.html"&gt;Submenu&lt;/a&gt;
-              &lt;ul&gt;
-                &lt;li&gt;&lt;a href="example.html"&gt;Link&lt;/a&gt;&lt;/li&gt;
-                &lt;li&gt;&lt;a href="example.html"&gt;Link&lt;/a&gt;&lt;/li&gt;
-                &lt;li&gt;&lt;a href="example.html"&gt;Link&lt;/a&gt;&lt;/li&gt;
-                &lt;li&gt;&lt;a href="example.html"&gt;Link&lt;/a&gt;&lt;/li&gt;
-              &lt;/ul&gt;
-            &lt;/li&gt;
-            &lt;li&gt;&lt;a href="example.html"&gt;Link&lt;/a&gt;&lt;/li&gt;
-          &lt;/ul&gt;
-        &lt;/li&gt;
-      &lt;/ul&gt;
-    &lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/div&gt;</pre>
+<syntaxhighlight lang="html5"><div class="menu-bar">
+  <ul>
+    <li>
+      <a href="example.html">Menu</a>
+      <ul>
+        <li>
+          <a href="example.html">Link</a>
+        </li>
+        <li>
+          <a class="menu-nav" href="example.html">Submenu</a>
+          <ul>
+            <li>
+              <a class="menu-nav" href="example.html">Submenu</a>
+              <ul>
+                <li><a href="example.html">Link</a></li>
+                <li><a href="example.html">Link</a></li>
+                <li><a href="example.html">Link</a></li>
+                <li><a href="example.html">Link</a></li>
+              </ul>
+            </li>
+            <li><a href="example.html">Link</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div></syntaxhighlight>
  
 See see our complete [[CSS-based drop down menu example]] for a possible cue.
 }}
