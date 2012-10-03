@@ -20,21 +20,21 @@ In your sample document, the numbered paragraphs under the second heading do not
 To fix this structural problem, you can add a {{ HTMLElement("div") }} tag around the paragraphs. This tag is unique, so it can by identified by an <code>id</code> attribute:
 
  
-<pre>&lt;h3&gt;Numbered paragraphs&lt;/h3&gt;
-&lt;div id="numbered"&gt;
-  &lt;p&gt;Lorem ipsum&lt;/p&gt;
-  &lt;p&gt;Dolor sit&lt;/p&gt;
-  &lt;p&gt;Amet consectetuer&lt;/p&gt;
-  &lt;p&gt;Magna aliquam&lt;/p&gt;
-  &lt;p&gt;Autem veleum&lt;/p&gt;
-&lt;/div&gt;</pre>
+<syntaxhighlight lang="html5"><h3>Numbered paragraphs</h3>
+<div id="numbered">
+  <p>Lorem ipsum</p>
+  <p>Dolor sit</p>
+  <p>Amet consectetuer</p>
+  <p>Magna aliquam</p>
+  <p>Autem veleum</p>
+</div></syntaxhighlight>
  
 Now your stylesheet can use one rule to specify borders around both lists:
 
-<pre>ul, #numbered {
+<syntaxhighlight lang="css">ul, #numbered {
   border: 1em solid #69b;
   padding-right:1em;
-}</pre>
+}</syntaxhighlight>
  
 The result looks like:
 
@@ -68,10 +68,10 @@ These properties apply to any text-like content in the element, not only to actu
 
 To center headings:
 
-<pre>h3 {
+<syntaxhighlight lang="css">h3 {
   border-top: 1px solid gray;
   text-align: center;
-}</pre>
+}</syntaxhighlight>
  
 Resulting in:
 
@@ -89,8 +89,8 @@ The {{ cssxref("float") }} property forces an element to the left or right. This
  
 In your sample document, the lists stretch across the window. You can prevent this by floating them to the left. To keep the headings in place, you must also specify that they stay clear of floats on their left:
 
-<pre>ul, #numbered {float: left;}
-h3 {clear: left;}</pre>
+<syntaxhighlight lang="css">ul, #numbered {float: left;}
+h3 {clear: left;}</syntaxhighlight>
   
 The result looks like:
 
@@ -115,14 +115,14 @@ Along with these values of the <code>position</code> property (except for <code>
  
 To position two elements on top of each other, create a parent container in your document with the two elements inside it:
  
-<pre>&lt;div id="parent-div"&gt;
-  &lt;p id="forward"&gt;/&lt;/p&gt;
-  &lt;p id="back"&gt;\&lt;/p&gt;
-&lt;/div&gt;</pre>
+<syntaxhighlight lang="html5"><div id="parent-div">
+  <p id="forward">/</p>
+  <p id="back">\</p>
+</div></syntaxhighlight>
  
 In your stylesheet, make the parent's position <code>relative</code>. There is no need to specify any actual shift. Make the children's position <code>absolute</code>:
  
-<pre>#parent-div {
+<syntaxhighlight lang="css">#parent-div {
   position: relative;
   font: bold 200% sans-serif;
 }
@@ -140,7 +140,7 @@ In your stylesheet, make the parent's position <code>relative</code>. There is n
 
 #back {
   color: red;
-}</pre>
+}</syntaxhighlight>
  
 The result looks like this, with the backslash on top of the forward slash:
 
