@@ -43,12 +43,12 @@ You can use CSS to change the bullet to one of several default styles, use your 
  
 Unordered lists use one set of <code>&lt;ul&gt;&lt;/ul&gt;</code> tags, wrapped around many sets of <code>[[Meta:HTML/Elements/li|&lt;li&gt;&lt;/li&gt;]]</code>:
  
-<syntaxhighlight lang="html5">&lt;ul&gt;
-  &lt;li&gt;bread&lt;/li&gt;
-  &lt;li&gt;coffee beans&lt;/li&gt;
-  &lt;li&gt;milk&lt;/li&gt;
-  &lt;li&gt;butter&lt;/li&gt;
-&lt;/ul&gt;</syntaxhighlight>
+<syntaxhighlight lang="html5"><ul>
+  <li> bread</li>
+  <li> coffee beans</li>
+  <li> milk</li>
+  <li> butter</li>
+</ul></syntaxhighlight>
 
 === Ordered lists ===
  
@@ -185,15 +185,14 @@ Description lists are different from the other kinds of list, as they use names 
  
 A simple description list of single names with single values would look like this:
 
-<pre>&lt;dl&gt;
-  &lt;dt&gt;Name&lt;/dt&gt;
-  &lt;dd&gt;Value&lt;/dd&gt;
-  &lt;dt&gt;Name&lt;/dt&gt;
-  &lt;dd&gt;Value&lt;/dd&gt;
-  &lt;dt&gt;Name&lt;/dt&gt;
-  &lt;dd&gt;Value&lt;/dd&gt;
-&lt;/dl&gt;
-</pre>
+<syntaxhighlight lang="html5"><dl>
+  <dt>Name</dt>
+  <dd>Value</dd>
+  <dt>Name</dt>
+  <dd>Value</dd>
+  <dt>Name</dt>
+  <dd>Value</dd>
+</dl></syntaxhighlight>
  
 This is rendered as follows:
 
@@ -206,17 +205,16 @@ Name
 
 In this example, we associate more than one value with a name, and vice versa:
  
-<pre>&lt;dl&gt;
-  &lt;dt&gt;Name&lt;/dt&gt;
-  &lt;dd&gt;Value that applies to the preceding name&lt;/dd&gt;
-  &lt;dt&gt;Name&lt;/dt&gt;
-  &lt;dt&gt;Name&lt;/dt&gt;
-  &lt;dd&gt;Value that applies to both of the preceding name&lt;/dd&gt;
-  &lt;dt&gt;Name that can have both of the following values&lt;/dt&gt;
-  &lt;dd&gt;One value of the name&lt;/dd&gt;
-  &lt;dd&gt;Another value of the name&lt;/dd&gt;
-&lt;/dl&gt;
-</pre>
+<syntaxhighlight lang="html5"><dl>
+  <dt>Name</dt>
+  <dd>Value that applies to the preceding name</dd>
+  <dt>Name</dt>
+  <dt>Name</dt>
+  <dd>Value that applies to both of the preceding name</dd>
+  <dt>Name that can have both of the following values</dt>
+  <dd>One value of the name</dd>
+  <dd>Another value of the name</dd>
+</dl></syntaxhighlight>
  
 Which would render as follows:
 
@@ -271,17 +269,17 @@ A list item can contain another entire list — this is known as "nesting" a lis
  
 The key to nesting lists is to remember that the nested list should relate to one specific list item. To reflect that in the code, the nested list is contained inside that list item. The code for the list above looks something like this:
  
-<pre>&lt;ol&gt;
-  &lt;li&gt;Chapter One
-    &lt;ol&gt;
-      &lt;li&gt;Section One&lt;/li&gt;
-      &lt;li&gt;Section Two &lt;/li&gt;
-      &lt;li&gt;Section Three &lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Chapter Two&lt;/li&gt;
-  &lt;li&gt;Chapter Three  &lt;/li&gt;
-&lt;/ol&gt;</pre>
+<syntaxhighlight lang="html5"><ol>
+  <li>Chapter One
+    <ol>
+      <li>Section One</li>
+      <li>Section Two </li>
+      <li>Section Three </li>
+    </ol>
+  </li>
+  <li>Chapter Two</li>
+  <li>Chapter Three  </li>
+</ol></syntaxhighlight>
  
 Note how the nested list starts after the <code>&lt;li&gt;</code> and the text of the containing list item (“Chapter One”); then ends before the <code>&lt;/li&gt;</code> of the containing list item. Nested lists often form the basis for website navigation menus, as they are a good way to define the hierarchical structure of the website.
  
@@ -306,45 +304,45 @@ Let’s step through the process of creating this site.
 <ol> 
 <li><p>Create a properly-formed HTML page, including a doctype, <code>&lt;html&gt;</code>, <code>&lt;head&gt;</code> and <code>&lt;body&gt;</code> elements, and save it as ''stepbystep-main.html''. Add a main heading (<code>&lt;h1&gt;</code>) of “HTML Cooking School”, and a subheading (<code>&lt;h2&gt;</code>) of “Recipes”:</p>
 
-<pre>&lt;h1&gt;HTML Cooking School&lt;/h1&gt;
-&lt;h2&gt;Recipes&lt;/h2&gt;</pre></li>
+<syntaxhighlight lang="html5"><h1>HTML Cooking School</h1>
+<h2>Recipes</h2></syntaxhighlight>
 
 <li><p>You have three categories of recipe to represent, and the order is not important — an unordered list is most appropriate for these, so add the following to your page:</p>
 
-<pre>&lt;h2&gt;Recipes&lt;/h2&gt;
-   &lt;ul&gt;
-   &lt;li&gt;Cakes&lt;/li&gt;
-   &lt;li&gt;Biscuits&lt;/li&gt;
-   &lt;li&gt;Quickbreads&lt;/li&gt;
- &lt;/ul&gt;</pre>
+<syntaxhighlight lang="html5"><h2>Recipes</h2>
+   <ul>
+   <li>Cakes</li>
+   <li>Biscuits</li>
+   <li>Quickbreads</li>
+ </ul></syntaxhighlight>
 
 <p>Indenting the <code>&lt;li&gt;</code> elements makes the code more readable, but it is not required.</p></li>
 
 <li><p>Now you need to add the recipes as sub-items, for example “Plain Sponge”, “Chocolate Cake” and “Apple Tea Cake” are all part of the “Cakes” category. To do this, you need to create a nested list within each item. Since the order is not important, once again unordered lists are appropriate. To make things easier for the tutorial, I’ll get you to link all of the recipes to one single recipe page ([[html links lets build a web]] explains HTML links in depth].):</p>
 
-<pre>&lt;h2&gt;Recipes&lt;/h2&gt;
- &lt;ul&gt;
-   &lt;li&gt;Cakes
-     &lt;ul&gt;
-       &lt;li&gt;&lt;a href="stepbystep-recipe.html"&gt;Plain Sponge&lt;/a&gt;&lt;/li&gt;
-       &lt;li&gt;&lt;a href="stepbystep-recipe.html"&gt;Chocolate Cake&lt;/a&gt;&lt;/li&gt;
-       &lt;li&gt;&lt;a href="stepbystep-recipe.html"&gt;Apple Tea Cake&lt;/a&gt;&lt;/li&gt;
-     &lt;/ul&gt;
-   &lt;/li&gt;
-   &lt;li&gt;Biscuits
-     &lt;ul&gt;
-       &lt;li&gt;&lt;a href="stepbystep-recipe.html"&gt;ANZAC Biscuits&lt;/a&gt;&lt;/li&gt;
-       &lt;li&gt;&lt;a href="stepbystep-recipe.html"&gt;Jam Drops&lt;/a&gt;&lt;/li&gt;
-       &lt;li&gt;&lt;a href="stepbystep-recipe.html"&gt;Melting Moments&lt;/a&gt;&lt;/li&gt;
-     &lt;/ul&gt;
-   &lt;/li&gt;
-   &lt;li&gt;Breads/quickbreads
-     &lt;ul&gt;
-       &lt;li&gt;&lt;a href="stepbystep-recipe.html"&gt;Damper&lt;/a&gt;&lt;/li&gt;
-       &lt;li&gt;&lt;a href="stepbystep-recipe.html"&gt;Scones&lt;/a&gt;&lt;/li&gt;
-     &lt;/ul&gt;
-   &lt;/li&gt;
- &lt;/ul&gt;</pre></li>
+<syntaxhighlight lang="html5"><h2>Recipes</h2>
+ <ul>
+   <li>Cakes
+     <ul>
+       <li><a href="stepbystep-recipe.html">Plain Sponge</a></li>
+       <li><a href="stepbystep-recipe.html">Chocolate Cake</a></li>
+       <li><a href="stepbystep-recipe.html">Apple Tea Cake</a></li>
+     </ul>
+   </li>
+   <li>Biscuits
+     <ul>
+       <li><a href="stepbystep-recipe.html">ANZAC Biscuits</a></li>
+       <li><a href="stepbystep-recipe.html">Jam Drops</a></li>
+       <li><a href="stepbystep-recipe.html">Melting Moments</a></li>
+     </ul>
+   </li>
+   <li>Breads/quickbreads
+     <ul>
+       <li><a href="stepbystep-recipe.html">Damper</a></li>
+       <li><a href="stepbystep-recipe.html">Scones</a></li>
+     </ul>
+   </li>
+ </ul></syntaxhighlight></li>
  </ol>
 
 <p>The final result should be something similar to Figure 1:</p>
