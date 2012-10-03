@@ -4,7 +4,7 @@
 |Editorial notes=Update to cover ES5
 }}
 {{Summary_Section|Why a re-introduction? Because JavaScript has a reasonable claim to being the world's most misunderstood programming language. While often derided as a toy, beneath its deceptive simplicity lie some powerful language features. Deeper knowledge of this technology is an important skill for any web developer.}}
-{{Guide
+{{Concept
 |Content=It's useful to start with an idea of the language's history. JavaScript was created in 1995 by Brendan Eich, an engineer at Netscape, and first released with Netscape 2 early in 1996. It was originally going to be called LiveScript, but was renamed in an ill-fated marketing decision to try to capitalize on the popularity of Sun Microsystem's Java language — despite the two having very little in common. This has been a source of confusion ever since.
 
 Microsoft released a mostly-compatible version of the language called JScript with IE 3 several months later. Netscape submitted the language to [http://www.ecma-international.org/ Ecma International], a European standards organization, which resulted in the first edition of the ECMAScript standard in 1997. The standard received a significant update as [http://www.ecma-international.org/publications/standards/Ecma-262.htm ECMAScript edition 3] in 1999, and has stayed pretty much stable ever since. The fourth edition was abandoned, due to political differences concerning language complexity. Many parts of the fourth edition formed a basis of the new ECMAScript edition 5, published in December of 2009.
