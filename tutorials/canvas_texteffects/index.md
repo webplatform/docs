@@ -1,13 +1,14 @@
-{{Page_Title|Typographic effects in &lt;canvas&gt;}}
+{{Page_Title|Achieving typographic effects with the canvas tag}}
 {{Flags
 |High-level issues=Needs Flags
 }}
+{{Byline
+|Name=Michael Deal
+|Published=March 1, 2011
+}}
 {{Summary_Section|An introduction to typographic effects using the &lt;canvas&gt; element.}}
 {{Tutorial
-|Content=====original by Michael Deal====
-====published March 1, 2011====
-
-==My background==
+|Content===My background==
 
 The &lt;canvas&gt; element entered my awareness in 2006 when Firefox v2.0 was released. An article on [http://ajaxian.com/ Ajaxian] describing the transformation matrix inspired me to create my first &lt;canvas&gt; web-app, [http://www.colorjack.com/sphere/ Color Sphere] (2007). This immersed me into the world of colors and graphic primitives, inspiring the creation of [http://mugtug.com/sketchpad/ Sketchpad] (2007-2008) in an effort to put together an application ''better than Paint'' in the browser.
 
