@@ -28,7 +28,3 @@ We’d love to have your help in improving Web Platform Docs. Even the slightest
 * Join our [http://talk.webplatform.org/forums/ forums]
 * Meet the team on [http://talk.webplatform.org/chat/ chat]
 * Subscribe to our [http://blog.webplatform.org/ blog]
-
-== Index ==
-
-{{Special:PrefixIndex/}}
