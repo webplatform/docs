@@ -223,7 +223,7 @@ Cross-origin requests come in two flavors:
 # simple requests
 # "not-so-simple requests" (a term I just made up)
 
- Simple requests are requests that meet the following criteria:
+Simple requests are requests that meet the following criteria:
 
 * HTTP Method matches (case-sensitive) one of:
 ** HEAD
