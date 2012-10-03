@@ -4,7 +4,7 @@
 {{Summary_Section}}
 {{Tutorial
 |Content=* [[tutorials/mobile mobifying|"Mobifying" an HTML5 site]]
-* [[tutorials/mobile mobifying|Mobile offline]]
+* [[tutorials/mobile mobifying|Working Off the Grid with HTML5 Offline]]
 * [[tutorials/mobile mobifying|Multi-touch web development]]
 }}
 {{Compatibility_Section
