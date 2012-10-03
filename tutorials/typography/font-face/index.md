@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page_Title|Overview of web fonts using @font-face}}
 {{Flags
 |High-level issues=Needs Flags
 }}
@@ -8,9 +8,7 @@
 }}
 {{Summary_Section|An introduction to webfonts and @font-face.}}
 {{Tutorial
-|Content==Quick Guide to Webfonts Via @font-face=
-
-==Introduction==
+|Content===Introduction==
 
 The @font-face feature from CSS3 allows us to use custom typefaces on the web in an accessible, manipulable, and scalable way. "But," you might ask, "why would we use @font-face if we have Cufon, sIFR, and using text in images?"
 
