@@ -271,7 +271,7 @@ There is actually another way to import external style sheets into HTML files - 
  
 You'll sometimes see import statements without the brackets, but it does the same thing. Another thing to be aware of is that <code>@import</code> should always be first in an embedded style sheet. Finally, you can specify that the imported style sheet be applied only to certain types of media by including the media type at the end of the import statement (this works in every browser except IE6 and below). The following does the same thing as the previous code example:
  
-<syntaxhighlight lang="html"><style type="text/css">
+<syntaxhighlight lang="html5"><style type="text/css">
   @import url("styles.css") screen;
 
   ...other import statements or CSS styles could go here...
