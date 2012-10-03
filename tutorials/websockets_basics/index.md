@@ -1,16 +1,11 @@
-{{Page_Title}}
+{{Page_Title|Introducing web sockets}}
 {{Flags
 |High-level issues=Needs Flags
 }}
 {{Byline}}
 {{Summary_Section|An introduction to WebSocket.}}
 {{Tutorial
-|Content==Introducing WebSockets: Bringing Sockets to the Web=
-
-====original by Malte Ubl &amp; Eiji Kitamura====
-====published Oct. 20, 2010====
-
-==The Problem: Low Latency Client-Server and Server-Client Connections==
+|Content===The Problem: Low Latency Client-Server and Server-Client Connections==
 
 The Web has been largely built around the so-called request/response paradigm of HTTP. A client loads up a web page and then nothing happens until the user clicks onto the next page. Around 2005, AJAX started to make the Web feel more dynamic. Still, all HTTP communication was steered by the client, which required either user interaction or periodic polling to load new data from the server.
 
