@@ -2,8 +2,9 @@
 {{Flags}}
 {{Byline
 |Name=Adam Mark & Adrian Gould
+|Published=March 10, 2011
 }}
-{{Summary_Section}}
+{{Summary_Section|Learn techniques and approaches for converting a crossword game from Flash to HTML5.}}
 {{Tutorial
 |Content=<h2 id="toc-introduction">Introduction</h2>
 
@@ -383,10 +384,11 @@ Except as otherwise [http://code.google.com/policies.html#restrictions noted], t
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics}}
+{{Topics|Canvas, CSS, Developer Tools, DOM, Graphics, HTML, JavaScript, UI}}
 {{External_Attribution
 |Is_CC-BY-SA=No
+|Sources=HTML5Rocks
 |MDN_link=
 |MSDN_link=
-|HTML5Rocks_link=
+|HTML5Rocks_link=http://www.html5rocks.com/en/tutorials/casestudies/wordico/
 }}
