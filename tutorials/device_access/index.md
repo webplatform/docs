@@ -1,0 +1,27 @@
+{{Page_Title|Device access tutorials}}
+{{Flags}}
+{{Byline}}
+{{Summary_Section}}
+{{Tutorial
+|Content=* [[tutorials/detection|Detection]]
+* [[tutorials/file dnd|File drag 'n drop]]
+* [[tutorials/file filesystem|Filesystem APIs]]
+* [[tutorials/filesystem sync|The synchronous FileSystem API for workers]]
+* [[tutorials/device orientation|Device orientation]]
+* [[tutorials/geolocation-trip-meter|Geolocation API]]
+* [[tutorials/notifications api|Notifications API]]
+}}
+{{Compatibility_Section
+|Not_required=Yes
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section}}
+{{Topics}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
+}}
