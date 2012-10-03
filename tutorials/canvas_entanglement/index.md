@@ -115,12 +115,12 @@ Because we want the line to have a nice border, we will stroke this path twice u
 We now have a hexagonal tile with the first line meandering across:
 
 [[Image:en06.jpg|Solitary line on hexagonal tile]]<br/>
-'''Solitary line on hexagonal tile''
+''Solitary line on hexagonal tile''
 
 Entering coordinates for the other 10 endpoints as well as the corresponding bezier curve control points, we can repeat the steps above and might create a tile something like this:
 
 [[Image:en07.jpg|Completed hexagonal tile]]<br/>
-''Completed hexagonal tile'''
+''Completed hexagonal tile''
 
 ===Rotating the Canvas===
 
