@@ -1,4 +1,4 @@
-{{Page_Title|Case Study: Page Flip Effect from 20thingsilearned.com}}
+{{Page_Title|Building the page flip effect from 20thingsilearned.com}}
 {{Flags
 |High-level issues=Needs Flags
 }}
