@@ -1,4 +1,4 @@
-{{Page_Title|Stream Updates with Server-Sent Events}}
+{{Page_Title|Streaming updates with server-sent events}}
 {{Flags
 |High-level issues=Needs Flags
 }}
