@@ -17,41 +17,41 @@ The layout you choose is usually a personal preference, but if your stylesheets 
 
 Some people like the compact layout that we have been using, only splitting a line when it becomes very long:
 
-<pre>.carrot {color: orange; text-decoration: underline; font-style: italic;}</pre>
+<syntaxhighlight lang="css">.carrot {color: orange; text-decoration: underline; font-style: italic;}</syntaxhighlight>
  
 Some people prefer one property-value (selector, curly brace, etc.) per line:
 
-<pre>.carrot
+<syntaxhighlight lang="css">.carrot
 {
 color: orange;
 text-decoration: underline;
 font-style: italic;
-}</pre>
+}</syntaxhighlight>
 
 Some people prefer to put the first bracket on the same line as the selector:
 
-<pre>.carrot {
+<syntaxhighlight lang="css">.carrot {
   color: orange;
   text-decoration: underline;
   font-style: italic;
-}</pre>
+}</syntaxhighlight>
  
 Some people use indention—two spaces, four spaces, or a tab are common:
  
-<pre>.carrot {
+<syntaxhighlight lang="css">.carrot {
   color: orange;
   text-decoration: underline;
   font-style: italic;
-}</pre>
+}</syntaxhighlight>
  
 Some people like everything to line up vertically (but a layout like this is difficult to maintain):
 
-<pre>.carrot
+<syntaxhighlight lang="css">.carrot
 {
   color:                 orange;
   text-decoration:       underline;
   font-style:            italic;
-}</pre>
+}</syntaxhighlight>
   
 Some people use tabs for the layout. Some people only use spaces.
  
@@ -59,12 +59,12 @@ Some people use tabs for the layout. Some people only use spaces.
  
 Comments in CSS begin with <code>/*</code> and end with <code>*/</code>. You can use comments to make actual comments in your stylesheet, and also to ''comment out'' parts of it temporarily for testing purposes. To comment out part of a stylesheet, place that part in a comment so that the browser ignores it. Be careful where you start and end the comment. The rest of the stylesheet must still have correct syntax.
 
-<pre>/* style for initial letter C in first paragraph */
+<syntaxhighlight lang="css">/* style for initial letter C in first paragraph */
 .carrot {
   color: orange;
   text-decoration: underline;
   font-style: italic;
-}</pre>
+}</syntaxhighlight>
   
 === Grouped selectors ===
  
@@ -74,20 +74,20 @@ Elsewhere in your stylesheet you can specify the same selectors again individual
 
 This rule makes [h1], [h2], and [h3] elements the same color — it is convenient to specify the color in only one place, in case it has to be changed:
 
-<pre>/* color for headings */
+<syntaxhighlight lang="css">/* color for headings */
 h1, h2, h3 {color: navy;}
-</pre>
+</syntaxhighlight>
   
 == Action: Adding comments and improving the layout ==
  
 <ul>
 <li><p>Edit your CSS file, and ensure that it has these rules in it (in any order):<p>
 
-<pre>strong {color: red;}
+<syntaxhighlight lang="css">strong {color: red;}
 .carrot {color: orange;}
 .spinach {color: green;}
 #first {font-style: italic;}
-p {color: blue;}</pre></li>
+p {color: blue;}</syntaxhighlight></li>
 <li><p>Make it more readable by rearranging it in a way that you find logical, and by adding white space and comments in whatever way you think best.</p></li>
 <li><p>Save the file and refresh your browser's display, to make sure that your changes do not affect how the stylesheet works.</p></li>
 
