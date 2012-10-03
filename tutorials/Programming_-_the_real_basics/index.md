@@ -8,15 +8,18 @@ It will also help novice web developers to take on board some generic programmin
  
 Programming in the most basic form is issuing commands and seeing that they get executed. It is a mixture of math and linguistics: you define a lot of calculations and you need to tell machines to solve them by giving orders using the right grammar. Grammar in programming is syntax and differs a lot from language to language.
  
-For example, the following two code snippets fulfill the same task, but the former is JavaScript and the latter is PHP:
+For example, the following two code snippets fulfill the same task. The former code is JavaScript, the latter is PHP:
  
-<pre>var fahrenheit = prompt('Enter temperature in Fahrenheit',0);
+<syntaxhighlight lang="javascript">var fahrenheit = prompt('Enter temperature in Fahrenheit',0);
 var celsius = (fahrenheit - 32) * 5 / 9;
 alert(celsius);
+</syntaxhighlight>
 
+
+<syntaxhighlight lang="php">
 $fahrenheit = $_GET['fahrenheit'];
 $celsius = ($fahrenheit - 32) * 5 / 9;
-echo $celsius;</pre>
+echo $celsius;</syntaxhighlight>
  
 Try out the JavaScript [http://dev.opera.com/articles/view/programming-the-real-basics/fahrenheit.html farenheit to celsius conversion example].
  
