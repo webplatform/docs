@@ -249,7 +249,7 @@ Here's a similiar implementation using [http://nodejs.org Node JS]:
 
 ====sse-node.html:====
 
-<syntaxhighlight lang="html">
+<syntaxhighlight>
  <!DOCTYPE html>
  <html>
  <head>
