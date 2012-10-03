@@ -69,13 +69,9 @@ We now have animation plus hardware acceleration with just a few lines of CSS. T
 }
 </pre>
 
-
-<code>translate3d(0,0,0)</code> is known as the “silver bullet” approach.
-
-
+<code>translate3d(0,0,0)</code> is known as the "silver bullet" approach.
 
 When the user clicks a navigation element, we execute the following JavaScript to swap the classes. No third-party frameworks are being used, this is straight up JavaScript! ;)
-
 
 <pre>
 function getElement(id) {
@@ -114,9 +110,7 @@ function slideTo(id) {
 }
 </pre>
 
-
 <code>stage-left</code> or <code>stage-right</code> becomes <code>stage-center</code> and forces the page to slide into the center view port. We are completely depending on CSS3 to do the heavy lifting.
-
 
 <pre>
 .stage-left {
@@ -133,11 +127,9 @@ function slideTo(id) {
 }
 </pre>
 
-
 Next, let’s take a look at the CSS which handles mobile device detection and orientation.
 We could address every device and every resolution (see [http://www.w3.org/TR/css3-mediaqueries/#resolution media query resolution]). I used just a few simple examples in this demo to cover most portrait and landscape views on mobile devices. This is also useful for applying hardware acceleration per device. For example, since the desktop version of WebKit accelerates all transformed elements (regardless if it’s 2-D or 3-D), it makes sense to create a media query and exclude acceleration at that level.
 Note that hardware acceleration tricks do not provide any speed improvement under Android Froyo 2.2+. All composition is done within the software.
-
 
 <pre>
 /* iOS/android phone landscape screen width*/
@@ -158,14 +150,9 @@ Note that hardware acceleration tricks do not provide any speed improvement unde
 
 <h3 id="toc-flipping">Flipping</h3>
 
-
 On mobile devices, flipping is known as actually swiping the page away. Here we use some simple JavaScript to handle this event on iOS and Android (WebKit-based) devices.
 
-
-
 View it in action [http://slidfast.appspot.com/slide-flip-rotate.html http://slidfast.appspot.com/slide-flip-rotate.html].
-
-
 
 When dealing with touch events and transitions, the first thing you’ll want is to get a handle on the current position of the element. See this doc for more information on WebKitCSSMatrix.
 
@@ -178,8 +165,6 @@ function pageMove(event) {
 </pre>
 
 Since we are using a CSS3 ease-out transition for the page flip, the usual <code>element.offsetLeft</code> will not work.
-
-
 
 Next we want to figure out which direction the user is flipping and set a threshold for an event (page navigation) to take place.
 
@@ -206,10 +191,7 @@ if (pagePosition &gt;= 0) {
 
 You’ll also notice that we are measuring the <code>swipeTime</code> in milliseconds as well. This allows the navigation event to fire if the user quickly swipes the screen to turn a page.
 
-
-
 To position the page and make the animations look native while a finger is touching the screen, we use CSS3 transitions after each event firing.
-
 
 <pre>
 function positionPage(end) {
@@ -224,13 +206,9 @@ function positionPage(end) {
 }
 </pre>
 
-
 I tried to play around with cubic-bezier to give the best native feel to the transitions, but ease-out did the trick.
 
-
-
 Finally, to make the navigation happen, we must call our previously defined <code>slideTo()</code> methods that we used in the last demo.
-
 
 <pre>
 track.ontouchend = function(event) {
@@ -245,14 +223,10 @@ track.ontouchend = function(event) {
 
 <h3 id="toc-rotating">Rotating</h3>
 
-
 Next, let’s take a look at the rotate animation being used in this demo. At any time, you can rotate the page you’re currently viewing 180 degrees to reveal the reverse side by tapping on the “Contact” menu option. Again, this only takes a few lines of CSS and some JavaScript to assign a transition class <code>onclick</code>.
 NOTE: The rotate transition isn't rendered correctly on most versions of Android because it lacks 3D CSS transform capabilities. Unfortunately, instead of ignoring the flip, Android makes the page "cartwheel" away by rotating instead of flipping. We recommend using this transition sparingly until support improves.
 
-
-
 The markup (basic concept of front and back):
-
 
 <pre>
 &lt;div id=&quot;front&quot; class=&quot;normal&quot;&gt;
@@ -265,9 +239,7 @@ The markup (basic concept of front and back):
 &lt;/div&gt;
 </pre>
 
-
 The JavaScript:
-
 
 <pre>
 function flip(id) {
@@ -293,9 +265,7 @@ function flip(id) {
 }
 </pre>
 
-
 The CSS:
-
 
 <pre>
 /*----------------------------flip transition */
@@ -321,123 +291,85 @@ The CSS:
 
 <h2 id="toc-debugging-hw-acceleration">Debugging hardware acceleration</h2>
 
-
 Now that we have our basic transitions covered, let’s take a look at the mechanics of how they work and are composited.
-
-
 
 To make this magical debugging session happen, let’s fire up a couple of browsers and your IDE of choice.
 First start Safari from the command line to make use of some debugging environment variables. I’m on Mac, so the commands might differ based on your OS.
 Open the Terminal and type the following:
-<ul>
-<li>$&gt; export CA_COLOR_OPAQUE=1</li>
-<li>$&gt; export CA_LOG_MEMORY_USAGE=1</li>
-<li>$&gt; /Applications/Safari.app/Contents/MacOS/Safari</li>
-</ul>
 
-
+* $&gt; export CA_COLOR_OPAQUE=1
+* $&gt; export CA_LOG_MEMORY_USAGE=1
+* $&gt; /Applications/Safari.app/Contents/MacOS/Safari
 
 This starts Safari with a couple of debugging helpers. CA_COLOR_OPAQUE shows us which elements are actually composited or accelerated. CA_LOG_MEMORY_USAGE shows us how much memory we are using when sending our drawing operations to the [http://ariya.blogspot.com/2011/06/progressive-rendering-via-tiled-backing.html">backing store]. This tells you exactly how much strain you are putting on the mobile device, and possibly give hints to how your GPU usage might be draining the target device’s battery.
 
-
-
 Now let’s fire up Chrome so we can see some good frames per second (FPS) information:
-<ol>
-<li>Open the Google Chrome web browser.</li>
-<li>In the URL bar, type [about:flags">about:flags].</li>
-<li>Scroll down a few items and click on “Enable” for FPS Counter.</li>
-</ol>
+
+# Open the Google Chrome web browser.
+# In the URL bar, type [about:flags">about:flags].
+# Scroll down a few items and click on “Enable” for FPS Counter.
+
 Note: Do not enable the GPU compositing on all pages option. The FPS counter only appear in the left-hand corner if the browser detects compositing in your markup—and that is what we want in this case.
 
-
-
 If you view [http://slidfast.appspot.com/slide-flip-rotate.html">this page] in your souped up version of Chrome, you will see the red FPS counter in the top left hand corner.
-
 
 <figure>
   <img src="/static/images/screenshots/optimizing-and-performance/chrome-fps.png" width="154" height="31" alt="Chrome FPS" title="Chrome FPS">
 </figure>
 
-
 This is how we know hardware acceleration is turned on. It also gives us an idea on how the animation runs and if you have any leaks (continuous running animations that should be stopped).
-
-
 
 Another way to actually visualize the hardware acceleration is if you open the same page in Safari (with the environment variables I mentioned above). Every accelerated DOM element have a red tint to it. This shows us exactly what is being composited by layer.
 Notice the white navigation is not red because it is not accelerated.
-
 
 <figure>
 <img src="/static/images/screenshots/optimizing-and-performance/composited-contact.png" width="300" alt="Composited Contact" title="Composited Contact Page">
 </figure>
 
-
-A similar setting for Chrome is also available in the [about:flags">about:flags] “Composited render layer borders”.
-
-
+A similar setting for Chrome is also available in the <code>about:flags</code> “Composited render layer borders”.
 
 Another great way to see the composited layers is to view the [http://www.webkit.org/blog-files/leaves/">WebKit falling leaves demo] while this mod is applied.
-
 
 <figure>
   <img src="/static/images/screenshots/optimizing-and-performance/composited-leaves.png" width="300" alt="Composited Leaves" title="Composited Leaves Demo">
 </figure>
 
-
 And finally, to truly understand the graphics hardware performance of our application, let’s take a look at how memory is being consumed.
 Here we see that we are pushing 1.38MB of drawing instructions to the CoreAnimation buffers on Mac OS. The Core Animation memory buffers are shared between OpenGL ES and the GPU to create the final pixels you see on the screen.
-
 
 <figure>
 <img src="/static/images/screenshots/optimizing-and-performance/coreanimation-1.png" width="500" alt="Coreanimation 1" title="Coreanimation 1">
 </figure>
 
-
 When we simply resize or maximize the browser window, we see the memory expand as well.
-
 
 <figure>
 <img src="/static/images/screenshots/optimizing-and-performance/coreanimation-2.png" width="500" alt="Coreanimation 2" title="Coreanimation 2">
 </figure>
 
-
 This gives you an idea of how memory is being consumed on your mobile device only if you resize the browser to the correct dimensions. If you were debugging or testing for iPhone environments resize to 480px by 320px.
 We now understand exactly how hardware acceleration works and what it takes to debug. It’s one thing to read about it, but to actually see the GPU memory buffers working visually really brings things into perspective.
 
-
-
 <h2 id="toc-fetching-caching">Behind the Scenes: Fetching and Caching</h2>
-
 
 Now it’s time to take our page and resource caching to the next level. Much like the approach that JQuery Mobile and similar frameworks use, we are going to pre-fetch and cache our pages with concurrent AJAX calls.
 
-
-
 Let’s address a few core mobile web problems and the reasons why we need to do this:
 
-
-<ul>
-<li>Fetching: Pre-fetching our pages allows users to take the app offline and also enables no waiting between navigation actions. Of course, we don’t want to choke the device’s bandwidth when the device comes online, so we need to use this feature sparingly.</li>
-<li>Caching: Next, we want a concurrent or asynchronous approach when fetching and caching these pages. We also need to use localStorage (since it’s well supported amongst devices) which unfortunately isn’t asynchronous.</li>
-<li>AJAX and parsing the response: Using innerHTML() to insert the AJAX response into the DOM is dangerous (and [http://martinkou.blogspot.com/2011/05/alternative-workaround-for-mobile.html">unreliable]?). We instead use a [http://community.jboss.org/people/wesleyhales/blog/2011/08/28/fixing-ajax-on-mobile-devices">reliable mechanism] for AJAX response insertion and handling concurrent calls. We also leverage some new features of HTML5 for parsing the <code>xhr.responseText</code>.</li>
-</ul>
-
+* Fetching: Pre-fetching our pages allows users to take the app offline and also enables no waiting between navigation actions. Of course, we don’t want to choke the device’s bandwidth when the device comes online, so we need to use this feature sparingly.
+* Caching: Next, we want a concurrent or asynchronous approach when fetching and caching these pages. We also need to use localStorage (since it’s well supported amongst devices) which unfortunately isn’t asynchronous.
+* AJAX and parsing the response: Using innerHTML() to insert the AJAX response into the DOM is dangerous (and [http://martinkou.blogspot.com/2011/05/alternative-workaround-for-mobile.html">unreliable]?). We instead use a [http://community.jboss.org/people/wesleyhales/blog/2011/08/28/fixing-ajax-on-mobile-devices">reliable mechanism] for AJAX response insertion and handling concurrent calls. We also leverage some new features of HTML5 for parsing the <code>xhr.responseText</code>.
 
 Building on the code from the [http://slidfast.appspot.com/slide-flip-rotate.html">Slide, Flip, and Rotate demo], we start out by adding some secondary pages and linking to them. We’ll then parse the links and create transitions on the fly.
-
 
 <figure>
 <img src="/static/images/screenshots/optimizing-and-performance/iphone-home.png" width="372" height="335" alt="iPhone Home" title="iPhone Home">
 </figure>
 
-
-[http://slidfast.appspot.com/fetch-cache.html">View the Fetch and Cache demo here.]
-
-
+[http://slidfast.appspot.com/fetch-cache.html View the Fetch and Cache demo here.]
 
 As you can see, we are leveraging semantic markup here. Just a link to another page. The child page follows the same node/class structure as its parent. We could take this a step further and use the data-* attribute for “page” nodes, etc...
 And here is the detail page (child) located in a separate html file (/demo2/home-detail.html) which will be loaded, cached and set up for transition on app load.
-
 
 <pre>
 &lt;div id=&quot;home-page&quot; class=&quot;page&quot;&gt;
@@ -446,10 +378,8 @@ And here is the detail page (child) located in a separate html file (/demo2/home
 &lt;/div&gt;
 </pre>
 
-
 Now lets take a look at the JavaScript. For simplicity sake, I am leaving any helpers or optimizations out of the code. All we are doing here is looping through a specified array of DOM nodes to dig out links to fetch and cache.
 Note—For this demo, this method <code>fetchAndCache()</code> is being called on page load. We rework it in the next section when we detect the network connection and determine when it should be called.
-
 
 <pre>
 var fetchAndCache = function() {
@@ -481,9 +411,7 @@ var fetchAndCache = function() {
 };
 </pre>
 
-
 We ensure proper asynchronous post-processing through the use of the “AJAX” object. There is a more advanced explanation of using localStorage within an AJAX call in [http://www.html5rocks.com/mobile/workingoffthegrid.html Working Off the Grid with HTML5 Offline]. In this example, you see the basic usage of caching on each request and providing the cached objects when the server returns anything but a successful (200) response.
-
 
 <pre>
 function processRequest () {
@@ -505,19 +433,13 @@ function processRequest () {
 }
 </pre>
 
-
 Unfortunately, since localStorage uses UTF-16 for character encoding, each single byte is stored as 2 bytes bringing our storage limit from 5MB to [https://twitter.com/#!/wesleyhales/status/104992809534238721 2.6MB total]. The whole reason for fetching and caching these pages/markup outside of the application cache scope is revealed in the next section.
 
-
-
 With the recent advances in the [http://dev.w3.org/html5/spec-author-view/the-iframe-element.html iframe element] with HTML5, we now have a simple and effective way to parse the <code>responseText</code> we get back from our AJAX call. There are plenty of 3000-line JavaScript parsers and regular expressions which removes script tags and so on. But why not let the browser do what it does best? In this example, we are going to write the <code>responseText</code> into a temporary hidden iframe. We are using the HTML5 “sandbox” attribute which disables scripts and offers many security features...
-
-
 
 From the spec:
 The sandbox attribute, when specified, enables a set of extra restrictions on any content hosted by the iframe. Its value must be an unordered set of unique space-separated tokens that are ASCII case-insensitive. The allowed values are allow-forms, allow-same-origin, allow-scripts, and allow-top-navigation. When the attribute is set, the content is treated as being from a unique origin, forms and scripts are disabled, links are prevented from targeting other browsing contexts, and plugins are disabled.
 To limit the damage that can be caused by hostile HTML content, it should be served using the [http://dev.w3.org/html5/spec-author-view/iana.html#text-html-sandboxed text/html-sandboxed] MIME type.
-
 
 <pre>
 var insertPages = function(text, originalLink) {
@@ -552,38 +474,26 @@ var insertPages = function(text, originalLink) {
 };
 </pre>
 
-
 Safari correctly refuses to implicitly move a node from one document to another. An error is raised if the new child node was created in a different document. So here we use <code>adoptNode</code> and all is well.
-
-
 
 So why iframe? Why not just use innerHTML? Even though innerHTML is now part of the HTML5 spec, it is a dangerous practice to insert the response from a server (evil or good) into an unchecked area. During the writing of this article, I couldn’t find *anyone* using anything but innerHTML. I know JQuery uses it at it’s core with an append fallback on exception only. And JQuery Mobile uses it as well. However I haven’t done any heavy testing in regards to innerHTML [http://martinkou.blogspot.com/2011/05/alternative-workaround-for-mobile.html">“stops working randomly”], but it would be very interesting to see all the platforms this affects. It would also be interesting to see which approach is more performant... I’ve heard claims from both sides on this as well.
 
-
-
 <h2 id="toc-network-detection">Network type detection, handling, and profiling</h2>
-
 
 Now that we have the ability to buffer (or predictive cache) our web app, we must provide the proper connection detection features that makes our app smarter. This is where mobile app development gets extremely sensitive to online/offline modes and connection speed.
 Enter [http://dev.w3.org/2009/dap/netinfo/ The Network Information API]. Every time I show this feature in a presentation, someone in the audience raises their hand and asks “What would I use that for?”. So here is a possible way to setup an extremely smart mobile web app.
 
-
-
 Boring common sense scenario first...
 While interacting with the Web from a mobile device on a high-speed train, the network may very well go away at various moments and different geographies might support different transmission speeds (e.g., HSPA or 3G might be available in some urban areas, but remote areas might support much slower 2G technologies). The following code addresses most of the connection scenarios.
 
-
 The following code provides:
-<ul>
-<li>Offline access through <code>applicationCache</code>.</li>
-<li>Detects if bookmarked and offline.</li>
-<li>Detects when switching from offline to online and vice versa.</li>
-<li>Detects slow connections and fetches content based on network type.</li>
-</ul>
 
+* Offline access through <code>applicationCache</code>.
+* Detects if bookmarked and offline.
+* Detects when switching from offline to online and vice versa.
+* Detects slow connections and fetches content based on network type.
 
 Again, all of these features require very little code. First we detect our events and loading scenarios:
-
 
 <pre>
 window.addEventListener(&#x27;load&#x27;, function(e) {
@@ -607,13 +517,9 @@ window.addEventListener(&quot;online&quot;, function(e) {
 }, false);
 </pre>
 
-
 In the EventListeners above, we must tell our code if it is being called from an event or an actual page request or refresh. The main reason is because the body <code>onload</code> event won’t be fired when switching between the online and offline modes.
 
-
-
 Next, we have a simple check for an <code>ononline</code> or <code>onload</code> event. This code resets disabled links when switching from offline to online, but if this app were more sophisticated, you might insert logic that would resume fetching content or handle the UX for intermittent connections.
-
 
 <pre>
 function processOnline(eventType) {
@@ -630,9 +536,7 @@ function processOnline(eventType) {
 }
 </pre>
 
-
 The same goes for <code>processOffline()</code>. Here you would manipulate your app for offline mode and try to recover any transactions that were going on behind the scenes. This code below digs out all of our external links and disables them—trapping users in our offline app FOREVER muhahaha!
-
 
 <pre>
 function processOffline() {
@@ -658,9 +562,7 @@ function processOffline() {
 }
 </pre>
 
-
 OK, so on to the good stuff. Now that our app knows what connected state it’s in, we can also check the type of connection when it’s online and adjust accordingly. I have listed typical North American providers download and latencies in the comments for each connection.
-
 
 <pre>
 function setupApp(){
@@ -692,32 +594,24 @@ function setupApp(){
 }
 </pre>
 
-
 There are numerous adjustments we could make to our fetchAndCache process, but all I did here was tell it to fetch the resources asynchronous (true) or synchronous (false) for a given connection.
 
-
-
 Edge (Synchronous) Request Timeline
-
 
 <figure>
 <img src="/static/images/screenshots/optimizing-and-performance/edge-sync.png" width="700" alt="Edge Sync" title="Edge Sync">
 </figure>
 
-
 WIFI (Asynchronous) Request Timeline
-
 
 <figure>
 <img src="/static/images/screenshots/optimizing-and-performance/wifi-async.png" width="700" alt="WIFI Async" title="WIFI Async">
 </figure>
 
-
 This allows for at least some method of user experience adjustment based on slow or fast connections.
 This is by no means is an end-all-be-all solution. Another todo would be to throw up a loading modal when a link is clicked (on slow connections) while the app still may be fetching that link’s page in the background.
 The big point here is to cut down on latencies while leveraging the full capabilities of the user’s connection with the latest and greatest HTML5 has to offer.
 [http://slidfast.appspot.com/network-detection.html View the network detection demo here].
-
 
 <h2 id="toc-conclusion">Conclusion</h2>
 The journey down the road of mobile HTML5 apps is just beginning. Now you see the very simple and basic underpinnings of a mobile “framework” built solely around HTML5 and it’s supporting technologies. I think it’s important for developers to work with and address these features at their core and not masked by a wrapper.
