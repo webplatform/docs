@@ -432,7 +432,7 @@ CORS support is still being actively developed in all browsers; here's a list of
 
 The flowchart below shows how a server should make the decisions as to which headers to add to a CORS response. Click the image to see a larger version.
 
-[/static/images/cors_server_flowchart.png [[Image:800xNxcors_server_flowchart.png.pagespeed.ic.wgxu13Vymh.jpg]]] CORS Server Flowchart
+[[cors_server_flowchart.png|CORS Server Flowchart]]
 
 ==Resources==
 
