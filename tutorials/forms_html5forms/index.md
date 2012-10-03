@@ -157,63 +157,99 @@ browsers that support it.</td>
 
 HTML5 also introduces several new attributes for the input and form elements.
 
-{| class="alternating"
-! scope="col" | Attribute
-! scope="col" | Purpose
-! scope="col" | Notes
-|-
-| <code>autofocus</code>
-| Focuses the input on the element when the page is loaded.
-| <code>autofocus</code> can be applied to input, select, textarea, and button.
-|-
-| <code>placeholder</code>
-| Gives the user a hint about what sort of data they should enter.
-| The placeholder value is displayed in light text until the element gets focus and the user enters some data. It can be specified on input and textarea.
-|-
-| <code>form</code>
-| Specifies one or more forms to which the input element belongs.
-| By using the <code>form</code> attribute, the input elements can be placed anywhere on the page, not just within the form element. Also, a single input element can be associated with more than one form.
-|-
-| <code>required</code>
-| A boolean attribute that means the element is required.
-| The <code>required</code> attribute is helpful for doing browser-based validation without using custom JavaScript.
-|-
-| <code>autocomplete</code>
-| For specifying that a field should not autocomplete or be pre-filled by the browser based on a user's past entries.
-| The <code>autocomplete</code> attribute for fields like a credit card number or one-time password, which you don't want autocomplete. By default, <code>autocomplete</code> is in the <code>on</code> state, so if you want to disable it, set it to <code>off</code>.
-|-
-| <code>pattern</code>
-| For validating an element's value against a regular expression.
-| When using a <code>pattern</code>, you should also specify a <code>title</code> value to give the user a description of the pattern that's expected.
-|-
-| <code>dirname</code>
-| For submitting the directionality of the control with the form.
-| For example, if the user entered text data with right-to-left directionality and the input element contained the <code>dirname</code> attribute, then an indication of the right-to-left directionality would be submitted along with the input value.
-|-
-| <code>novalidate</code>
-| For disabling form submission validation when specified on a form element.
-|
-|-
-| <code>formaction</code>
-| For overriding the action attribute on the form element.
-| This attribute is supported on <code>input</code> and <code>button</code> elements.
-|-
-| <code>formenctype</code>
-| For overriding the enctype attribute on the form element.
-| This attribute is supported on <code>input</code> and <code>button</code> elements.
-|-
-| <code>formmethod</code>
-| For overriding the method attribute on the form element.
-| This attribute is supported on <code>input</code> and <code>button</code> elements.
-|-
-| <code>formnovalidate</code>
-| For overriding the novalidate attribute on the form element.
-| This attribute is supported on <code>input</code> and <code>button</code> elements.
-|-
-| <code>formtarget</code>
-| For overriding the target attribute on the form element.
-| This attribute is supported on <code>input</code> and <code>button</code> elements.
-|}
+<table class="alternating">
+<tr>
+<th scope="col">Attribute</th>
+<th scope="col">Purpose</th>
+<th scope="col">Notes</th>
+</tr>
+<tr>
+<td><code>autofocus</code></td>
+<td>Focuses the input on the element when the page is loaded.</td>
+<td><code>autofocus</code> can be applied to input, select, textarea,
+and button.</td>
+</tr>
+<tr>
+<td><code>placeholder</code></td>
+<td>Gives the user a hint about what sort of data they should enter.</td>
+<td>The placeholder value is displayed in light text
+until the element gets focus and the user enters some data. It can be
+specified on input and textarea.</td>
+</tr>
+<tr>
+<td><code>form</code></td>
+<td>Specifies one or more forms to which the input element belongs.</td>
+<td>By using the <code>form</code> attribute, the input elements can be
+placed anywhere on the page, not just within the form element. Also, a
+single input element can be associated with more than one form.</td>
+</tr>
+<tr>
+<td><code>required</code></td>
+<td>A boolean attribute that means the element is required.</td>
+<td>The <code>required</code> attribute is helpful for doing
+browser-based validation without using custom JavaScript.</td>
+</tr>
+<tr>
+<td><code>autocomplete</code></td>
+<td>For specifying that a field should not autocomplete or be pre-filled
+by the browser based on a user's past entries.</td>
+<td>The <code>autocomplete</code> attribute for fields like a credit
+card number or one-time password, which you don't want autocomplete. By
+default, <code>autocomplete</code> is in the <code>on</code> state, so
+if you want to disable it, set it to <code>off</code>.</td>
+</tr>
+<tr>
+<td><code>pattern</code></td>
+<td>For validating an element's value against a regular expression.</td>
+<td>When using a <code>pattern</code>, you should also specify a
+<code>title</code> value to give the user a description of the pattern
+that's expected.</td>
+</tr>
+<tr>
+<td><code>dirname</code></td>
+<td>For submitting the directionality of the control with the form.</td>
+<td>For example, if the user entered text data with right-to-left
+directionality and the input element contained the <code>dirname</code>
+attribute, then an indication of the right-to-left directionality would
+be submitted along with the input value.</td>
+</tr>
+<tr>
+<td><code>novalidate</code></td>
+<td>For disabling form submission validation when specified on a form
+element.</td>
+<td></td>
+</tr>
+<tr>
+<td><code>formaction</code></td>
+<td>For overriding the action attribute on the form element.</td>
+<td>This attribute is supported on <code>input</code> and
+<code>button</code> elements.</td>
+</tr>
+<tr>
+<td><code>formenctype</code></td>
+<td>For overriding the enctype attribute on the form element.</td>
+<td>This attribute is supported on <code>input</code> and
+<code>button</code> elements.</td>
+</tr>
+<tr>
+<td><code>formmethod</code></td>
+<td>For overriding the method attribute on the form element.</td>
+<td>This attribute is supported on <code>input</code> and
+<code>button</code> elements.</td>
+</tr>
+<tr>
+<td><code>formnovalidate</code></td>
+<td>For overriding the novalidate attribute on the form element.</td>
+<td>This attribute is supported on <code>input</code> and
+<code>button</code> elements.</td>
+</tr>
+<tr>
+<td><code>formtarget</code></td>
+<td>For overriding the target attribute on the form element.</td>
+<td>This attribute is supported on <code>input</code> and
+<code>button</code> elements.</td>
+</tr>
+</table>
 
 ===The FormData object===
 
