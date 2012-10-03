@@ -1,7 +1,7 @@
 {{Page_Title|About closures}}
 {{Flags}}
 {{Summary_Section|Closures are often considered an advanced feature in JavaScript, but understanding them is essential to mastering the language.}}
-{{Guide
+{{Concept
 |Content=Consider the following function:
 
 <div style="width: auto; overflow: hidden">
