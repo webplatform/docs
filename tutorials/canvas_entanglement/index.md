@@ -71,7 +71,7 @@ We have successfully copied part of the image to the canvas with this as the res
 
 Now that we have our hexagon drawn to the canvas, we want to draw a few lines on it. First, we will look at some geometry regarding the hexagon tile. We want two line ends per side with each ending 1/4 from the ends along the each edge and 1/2 of the edge apart from one another, like so:
 
-[[Image:en03.jpg|Line endpoints on hexagonal tile]]<br/>
+[[Image:en03.png|Line endpoints on hexagonal tile]]<br/>
 ''Line endpoints on hexagonal tile''
 
 We also want a nice curve so, using a little trial and error, I found that, if I make a perpendicular line from the edge at each endpoint, the intersection from each pair of endpoints around a given angle of the hexagon makes a nice bezier control point for the given endpoints:
