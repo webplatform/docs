@@ -1,6 +1,6 @@
 {{Flags}}
 {{Summary_Section|This chapter describes JavaScript expressions and operators, including assignment, comparison, arithmetic, bitwise, logical, string, and special operators.}}
-{{Guide
+{{Tutorial
 |Content=<h2 id="Expressions">Expressions</h2>
 <p>An <em>expression</em> is any valid unit of code that resolves to a value.</p>
 <p>Conceptually, there are two types of expressions: those that assign a value to a variable, and those that simply have a value. For example, the expression <code>x = 7</code> is an expression that assigns x the value seven. This expression itself evaluates to seven. Such expressions use <em>assignment operators</em>. On the other hand, the expression <code>3 + 4</code> simply evaluates to seven; it does not perform an assignment. The operators used in such expressions are referred to simply as <em>operators</em>.</p>
