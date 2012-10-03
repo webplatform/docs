@@ -152,7 +152,7 @@ And thats it! Assuming the server is properly configured to respond to CORS requ
 
 Here is a full working sample of a CORS request.
 
-<center><font size="14px">Run Sample</font></center>
+<center><strong>Run Sample</strong></center>
 
  
  // Create the XHR object.
@@ -417,7 +417,7 @@ Chrome extensions support cross-domain requests in a two different ways:
 
 # Include domain in manifest.json - Chrome extensions can make cross-domain requests to any domain *if* the domain is included in the "permissions" section of the manifest.json file:  
  "permissions": [ "http://*.html5rocks.com"]
- The server doesn't need to include any additional CORS headers or do any more work in order for the request to succeed. <br /><br />
+ The server doesn't need to include any additional CORS headers or do any more work in order for the request to succeed.
 # CORS request - If the domain is not in the manifest.json file, then the Chrome extension makes a standard CORS request. The value of the Origin header is "chrome-extension://[CHROME EXTENSION ID]". This means requests from Chrome extensions are subject to the same CORS rules described in this article.
 
 ==Known Bugs==
