@@ -381,40 +381,40 @@ Method
 <ol>
 <li><p>Create another properly-formed HTML document, and save it as stepbystep-recipe.html. Add the following headings to it:</p>
 
-<pre>&lt;h1&gt;Simple Sponge Cake&lt;/h1&gt;
- &lt;h2&gt;Ingredients&lt;/h2&gt;
- &lt;h3&gt;Notes on ingredients&lt;/h3&gt;
- &lt;h2&gt;Method&lt;/h2&gt;</pre></li>
+<syntaxhighlight lang="html5"><h1>Simple Sponge Cake</h1>
+ <h2>Ingredients</h2>
+ <h3>Notes on ingredients</h3>
+ <h2>Method</h2></syntaxhighlight></li>
 <li>The ingredients list has several items but the order isn’t important. An unordered list therefore makes sense. Add the following into the <code>&lt;body&gt;</code> of your HTML:
 
-<pre>&lt;h2&gt;Ingredients&lt;/h2&gt;
- &lt;ul&gt;
-   &lt;li&gt;3 eggs&lt;/li&gt;
-   &lt;li&gt;100g castor sugar&lt;/li&gt;
-   &lt;li&gt;85g self-raising flour&lt;/li&gt;
- &lt;/ul&gt;</pre></li>
+<syntaxhighlight lang="html5"><h2>Ingredients</h2>
+ <ul>
+   <li>3 eggs</li>
+   <li>100g castor sugar</li>
+   <li>85g self-raising flour</li>
+ </ul></syntaxhighlight></li>
 
 <li><p>The notes on the ingredients are there to properly define what some of the ingredients are. You need to associate the ingredient — the name — with its value. A description list is right for this purpose. Add the following to your HTML, below the unordered list in the previous step:</p>
 
-<pre>&lt;h3&gt;Notes on ingredients&lt;/h3&gt;
- &lt;dl&gt;
-   &lt;dt&gt;Castor Sugar&lt;/dt&gt;
-     &lt;dd&gt;Finely granulated white sugar.&lt;/dd&gt;
-   &lt;dt&gt;Self-raising flour&lt;/dt&gt;
-     &lt;dd&gt;A pre-mixed combination of flour and leavening agents (usually salt and baking powder).&lt;/dd&gt;
- &lt;/dl&gt; </pre></li>
+<syntaxhighlight lang="html5"><h3>Notes on ingredients</h3>
+ <dl>
+   <dt>Castor Sugar</dt>
+     <dd>Finely granulated white sugar.</dd>
+   <dt>Self-raising flour</dt>
+     <dd>A pre-mixed combination of flour and leavening agents (usually salt and baking powder).</dd>
+ </dl></syntaxhighlight></li>
 <li><p>The method must obviously follow a single correct order, so it should be an ordered list — add the following to your HTML, below the description list: </p>
 
-<pre>&lt;h2&gt;Method&lt;/h2&gt;
- &lt;ol&gt;
-   &lt;li&gt;Preheat the oven to 190°C.&lt;/li&gt;
-   &lt;li&gt;Grease a 20cm round cake pan.&lt;/li&gt;
-   &lt;li&gt;In a medium bowl, whip together the eggs and castor sugar until fluffy.&lt;/li&gt;
-   &lt;li&gt;Fold in flour.&lt;/li&gt;
-   &lt;li&gt;Pour mixture into the prepared pan.&lt;/li&gt;
-   &lt;li&gt;Bake for 20 minutes in the preheated oven, or until the top of the cake springs back when lightly pressed.&lt;/li&gt;
-   &lt;li&gt;Cool in the pan over a wire rack.&lt;/li&gt;
- &lt;/ol&gt;</pre></li>
+<syntaxhighlight lang="html5"><h2>Method</h2>
+ <ol>
+   <li>Preheat the oven to 190°C.</li>
+   <li>Grease a 20cm round cake pan.</li>
+   <li>In a medium bowl, whip together the eggs and castor sugar until fluffy.</li>
+   <li>Fold in flour.</li>
+   <li>Pour mixture into the prepared pan.</li>
+   <li>Bake for 20 minutes in the preheated oven, or until the top of the cake springs back when lightly pressed.</li>
+   <li>Cool in the pan over a wire rack.</li>
+ </ol></syntaxhighlight></li>
  </ol>
 
 The page should look something like Figure 2:
