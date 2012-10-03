@@ -67,66 +67,92 @@ display the sum of the values of two input elements.</td>
 
 HTML5 introduces 13 new input types. When viewed in a browser that doesn't support them, these input types fall back to text input.
 
-{| class="alternating"
-! scope="col" | Input Type
-! scope="col" | Purpose
-! scope="col" | Notes
-|-
-| <code>tel</code>
-| For entering a telephone number.
-| <code>tel</code> does not enforce a particular syntax, so if you want to ensure a particular format, you can use <code>pattern</code> or <code>setCustomValidity()</code> to do additional validation.
-|-
-| <code>search</code>
-| To prompt users to enter text that they want to search for.
-| The difference between <code>search</code> and <code>text</code> is primarily stylistic. Using an input type of <code>search</code> might result in the input field being styled in a way that is consistent with that platform's search fields.
-|-
-| <code>url</code>
-| For entering a single URL.
-|
-<code>url</code> is intended for entering a single, [http://www.w3.org/TR/html5/urls.html#absolute-url  absolute URL], which represents a pretty wide range of values.
-|-
-| <code>email</code>
-| For entering either a single email address or a list of email addresses.
-| If the <code>multiple</code> attribute is specified, then multiple email addresses can be entered, separated by commas.
-|-
-| <code>datetime</code>
-| For entering a date and time with the time zone set to UTC.
-|
-|-
-| <code>date</code>
-| For entering a date with no time zone.
-|
-|-
-| <code>month</code>
-| For entering a date with a year and a month, but no time zone.
-|
-|-
-| <code>week</code>
-| For entering a date that consists of a week-year number and a week number, but no time zone.
-| An example of this format is 2011-W05 for the fifth week of 2011.
-|-
-| <code>time</code>
-| For entering a time value with hour, minute, seconds, and fractional seconds, but no time zone.
-|
-|-
-| <code>datetime-local</code>
-| For entering a date and time with no time zone.
-|
-|-
-| <code>number</code>
-| For numerical input.
-|
-Valid values are [http://www.w3.org/TR/html5/common-microsyntaxes.html#valid-floating-point-number floating point numbers].
-|-
-| <code>range</code>
-| For numerical input, but unlike <code>number</code>, the actual is not important.
-| The implementation of the range control is a slider in most browsers that support it.
-|-
-| <code>color</code>
-| For choosing color through a color well control.
-|
-The value must be a [http://www.w3.org/TR/html5/common-microsyntaxes.html#valid-lowercase-simple-color valid lowercase simple color] such as #ffffff.
-|}
+<table class="alternating">
+<tr>
+<th>Input Type</th>
+<th>Purpose</th>
+<th>Notes</th>
+</tr>
+<tr>
+<td><code>tel</code></td>
+<td>For entering a telephone number.</td>
+<td><code>tel</code> does not enforce a particular syntax, so if you
+want to ensure a particular format, you can use <code>pattern</code> or
+<code>setCustomValidity()</code> to do additional validation.</td>
+</tr>
+<tr>
+<td><code>search</code></td>
+<td>To prompt users to enter text that they want to search for.</td>
+<td>The difference between <code>search</code> and <code>text</code> is
+primarily stylistic. Using an input type of <code>search</code> might
+result in the input field being styled in a way that is consistent with
+that platform's search fields.</td>
+</tr>
+<tr>
+<td><code>url</code></td>
+<td>For entering a single URL.</td>
+<td><code>url</code> is intended for entering a single, [http://www.w3.org/TR/html5/urls.html#absolute-url 
+absolute URL], which represents a pretty wide range of values.</td>
+</tr>
+<tr>
+<td><code>email</code></td>
+<td>For entering either a single email address or a list of email
+addresses.</td>
+<td>If the <code>multiple</code> attribute is specified, then multiple
+email addresses can be entered, separated by commas.</td>
+</tr>
+<tr>
+<td><code>datetime</code></td>
+<td>For entering a date and time with the time zone set to UTC.</td>
+<td></td>
+</tr>
+<tr>
+<td><code>date</code></td>
+<td>For entering a date with no time zone.</td>
+<td></td>
+</tr>
+<tr>
+<td><code>month</code></td>
+<td>For entering a date with a year and a month, but no time zone.</td>
+<td></td>
+</tr>
+<tr>
+<td><code>week</code></td>
+<td>For entering a date that consists of a week-year number and a week
+number, but no time zone.</td>
+<td>An example of this format is 2011-W05 for the fifth week of 2011.
+</td>
+</tr>
+<tr>
+<td><code>time</code></td>
+<td>For entering a time value with hour, minute, seconds, and fractional
+seconds, but no time zone.</td>
+<td></td>
+</tr>
+<tr>
+<td><code>datetime-local</code></td>
+<td>For entering a date and time with no time zone.</td>
+<td></td>
+</tr>
+<tr>
+<td><code>number</code></td>
+<td>For numerical input.</td>
+<td>Valid values are [http://www.w3.org/TR/html5/common-microsyntaxes.html#valid-floating-point-number floating point numbers].</td>
+</tr>
+<tr>
+<td><code>range</code></td>
+<td>For numerical input, but unlike <code>number</code>, the actual
+is not important.</td>
+<td>The implementation of the range control is a slider in most
+browsers that support it.</td>
+</tr>
+<tr>
+<td><code>color</code></td>
+<td>For choosing color through a color well control.</td>
+<td>The value must be a
+<a href="http://www.w3.org/TR/html5/common-microsyntaxes.html#valid-lowercase-simple-color" target="_blank">valid lowercase simple color</a> such as #ffffff.</td>
+</tr>
+</table>
 
 ===New input attributes===
 
