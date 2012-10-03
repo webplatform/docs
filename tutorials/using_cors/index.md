@@ -453,9 +453,11 @@ Here are some resources if you'd like to learn more about CORS:
 |Not_required=No
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
+|Chrome_version=21
 |Chrome_prefixed_supported=Unknown
 |Chrome_prefixed_version=
 |Firefox_supported=Yes
+|Firefox_version=14
 |Firefox_prefixed_supported=Unknown
 |Firefox_prefixed_version=
 |Internet_explorer_supported=Yes
@@ -473,6 +475,7 @@ Here are some resources if you'd like to learn more about CORS:
 }}
 |Mobile_rows={{Compatibility Table Mobile Row
 |Android_supported=Yes
+|Android_version=2.1
 |Android_prefixed_supported=Unknown
 |Android_prefixed_version=
 |Firefox_mobile_supported=Unknown
@@ -488,6 +491,7 @@ Here are some resources if you'd like to learn more about CORS:
 |Opera_mobile_prefixed_supported=Unknown
 |Opera_mobile_prefixed_version=
 |Safari_mobile_supported=Yes
+|Safari_mobile_version=3.2
 |Safari_mobile_prefixed_supported=Unknown
 |Safari_mobile_prefixed_version=
 }}
