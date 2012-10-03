@@ -1,4 +1,4 @@
-{{Page_Title|Basic tutorials}}
+{{Page_Title|Web programming essentials}}
 {{Flags}}
 {{Byline}}
 {{Summary_Section}}
