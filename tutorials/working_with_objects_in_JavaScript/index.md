@@ -26,23 +26,24 @@ A JavaScript object has properties associated with it. A property of an object c
 
 Like all JavaScript variables, both the object name (which could be a normal variable) and property name are case sensitive. You define a property by assigning it a value. For example, let's create an object named <code>myCar</code> and give it properties named <code>make</code>, <code>model</code>, and <code>year</code> as follows:
 
-<pre>
-
+<syntaxhighlight lang="javascript">
  var myCar = new Object();
  myCar.make = "Ford";
  myCar.model = "Mustang";
  myCar.year = 1969;
-
-</pre>
+</syntaxhighlight>
 
 Properties of JavaScript objects can also be accessed or set using a bracket notation. Objects are sometimes called ''associative arrays'', since each property is associated with a string value that can be used to access it. So, for example, you could access the properties of the <code>myCar</code> object as follows:
 
+<syntaxhighlight lang="javascript">
  myCar["make"] = "Ford";
  myCar["model"] = "Mustang";
  myCar["year"] = 1969;
+</syntaxhighlight>
 
 Object properties names can be valid JavaScript string, or anything that can be converted to string, including the empty string. However, any property name that is not a valid JavaScript identifier (for example, a property name that has space or dash, or starts with a number) can only be accessed using the square bracket notation. This notation is also very useful when property names are to be dynamically determined (when the property name is not determined until runtime). Examples are as follows:
 
+<syntaxhighlight lang="javascript">
  var myObj = new Object(),
      str = "myString",
      rand = Math.random(),
@@ -56,21 +57,21 @@ Object properties names can be valid JavaScript string, or anything that can be 
  myObj[""]               = "Even an empty string";
  
  console.log(myObj);
+</syntaxhighlight>
 
 You can also access properties by using a string value that is stored in a variable:
 
-<div style="width: auto">
-
+<syntaxhighlight lang="javascript">
  var propertyName = "make";
  myCar[propertyName] = "Ford";
  
  propertyName = "model";
  myCar[propertyName] = "Mustang";
-
-</div>
+</syntaxhighlight>
 
 You can use the bracket notation with [/en-US/docs/JavaScript/Guide/Statements#for...in_Statement for...in] to iterate over all the enumerable properties of an object. To illustrate how this works, the following function displays the properties of the object when you pass the object and the object's name as arguments to the function:
 
+<syntaxhighlight lang="javascript">
  function showProps(obj, objName) {
    var result = "";
    for (var i in obj) {
@@ -80,12 +81,15 @@ You can use the bracket notation with [/en-US/docs/JavaScript/Guide/Statements#f
    }
    return result;
  }
+</syntaxhighlight>
 
 So, the function call <code>showProps(myCar, "myCar")</code> would return the following:
 
+<syntaxhighlight lang="javascript">
  myCar.make = Ford
  myCar.model = Mustang
  myCar.year = 1969
+</syntaxhighlight>
 
 ==Object everything==
 
@@ -101,6 +105,7 @@ Starting with [/en-US/docs/JavaScript/ECMAScript_5_support_in_Mozilla ECMAScript
 
 In ECMAScript 5, there is no native way to list all properties of an object. However, this can be achieved with the following function:
 
+<syntaxhighlight lang="javascript">
  function listAllProperties(o){     
  	var objectToInspect;     
  	var result = [];
@@ -111,6 +116,7 @@ In ECMAScript 5, there is no native way to list all properties of an object. How
  	
  	return result; 
  }
+</syntaxhighlight>
 
 This can be useful to reveal "hidden" properties (properties in the prototype chain which are not accessible through the object, because another property has the same name earlier in the prototype chain). Listing accessible properties only can easily be done by removing duplicates in the array.
 
@@ -124,10 +130,12 @@ In addition to creating objects using a constructor function, you can create obj
 
 The syntax for an object using an object initializer is:
 
+<syntaxhighlight lang="javascript">
  var obj = { property_1:   value_1,   // property_# may be an identifier...
              2:            value_2,   // or a number...
              // ...,
              "property n": value_n }; // or a string
+</syntaxhighlight>
 
 where <code>obj</code> is the name of the new object, each <code>property_''i''</code> is an identifier (either a name, a number, or a string literal), and each <code>value_''i''</code> is an expression whose value is assigned to the <code>property_''i''</code>. The <code>obj</code> and assignment is optional; if you do not need to refer to this object elsewhere, you do not need to assign it to a variable. (Note that you may need to wrap the object literal in parentheses if the object appears where a statement is expected, so as not to have the literal be confused with a block statement.)
 
@@ -135,10 +143,13 @@ If an object is created with an object initializer in a top-level script, JavaSc
 
 The following statement creates an object and assigns it to the variable <code>x</code> if and only if the expression <code>cond</code> is true.
 
+<syntaxhighlight lang="javascript">
  if (cond) var x = {hi: "there"};
+</syntaxhighlight>
 
 The following example creates <code>myHonda</code> with three properties. Note that the <code>engine</code> property is also an object with its own properties.
 
+<syntaxhighlight lang="javascript">
  var myHonda = {color: "red", wheels: 4, engine: {cylinders: 4, size: 2.2}};
 
 You can also use object initializers to create arrays. See [Values%2C_variables%2C_and_literals#Array_literals array literals].
@@ -154,59 +165,77 @@ Alternatively, you can create an object with these two steps:
 
 To define an object type, create a function for the object type that specifies its name, properties, and methods. For example, suppose you want to create an object type for cars. You want this type of object to be called <code>car</code>, and you want it to have properties for make, model, and year. To do this, you would write the following function:
 
+<syntaxhighlight lang="javascript">
  function Car(make, model, year) {
    this.make = make;
    this.model = model;
    this.year = year;
  }
+</syntaxhighlight>
 
 Notice the use of <code>this</code> to assign values to the object's properties based on the values passed to the function.
 
 Now you can create an object called <code>mycar</code> as follows:
 
+<syntaxhighlight lang="javascript">
  var mycar = new Car("Eagle", "Talon TSi", 1993);
+</syntaxhighlight>
 
 This statement creates <code>mycar</code> and assigns it the specified values for its properties. Then the value of <code>mycar.make</code> is the string "Eagle", <code>mycar.year</code> is the integer 1993, and so on.
 
 You can create any number of <code>car</code> objects by calls to <code>new</code>. For example,
 
+<syntaxhighlight lang="javascript">
  var kenscar = new Car("Nissan", "300ZX", 1992);
  var vpgscar = new Car("Mazda", "Miata", 1990);
+</syntaxhighlight>
 
 An object can have a property that is itself another object. For example, suppose you define an object called <code>person</code> as follows:
 
+<syntaxhighlight lang="javascript">
  function Person(name, age, sex) {
    this.name = name;
    this.age = age;
    this.sex = sex;
  }
+</syntaxhighlight>
 
 and then instantiate two new <code>person</code> objects as follows:
 
+<syntaxhighlight lang="javascript">
  var rand = new Person("Rand McKinnon", 33, "M");
  var ken = new Person("Ken Jones", 39, "M");
+</syntaxhighlight>
 
 Then, you can rewrite the definition of <code>car</code> to include an <code>owner</code> property that takes a <code>person</code> object, as follows:
 
+<syntaxhighlight lang="javascript">
  function Car(make, model, year, owner) {
    this.make = make;
    this.model = model;
    this.year = year;
    this.owner = owner;
  }
+</syntaxhighlight>
 
 To instantiate the new objects, you then use the following:
 
+<syntaxhighlight lang="javascript">
  var car1 = new Car("Eagle", "Talon TSi", 1993, rand);
  var car2 = new Car("Nissan", "300ZX", 1992, ken);
+</syntaxhighlight>
 
 Notice that instead of passing a literal string or integer value when creating the new objects, the above statements pass the objects <code>rand</code> and <code>ken</code> as the arguments for the owners. Then if you want to find out the name of the owner of car2, you can access the following property:
 
+<syntaxhighlight lang="javascript">
  car2.owner.name
+</syntaxhighlight>
 
 Note that you can always add a property to a previously defined object. For example, the statement
 
+<syntaxhighlight lang="javascript">
  car1.color = "black";
+</syntaxhighlight>
 
 adds a property <code>color</code> to car1, and assigns it a value of "black." However, this does not affect any other objects. To add the new property to all objects of the same type, you have to add the property to the definition of the <code>car</code> object type.
 
@@ -230,8 +259,10 @@ The exception to this rule is objects reflected from HTML, such as the <code>for
 
 You can add a property to a previously defined object type by using the <code>prototype</code> property. This defines a property that is shared by all objects of the specified type, rather than by just one instance of the object. The following code adds a <code>color</code> property to all objects of type <code>car</code>, and then assigns a value to the <code>color</code> property of the object <code>car1</code>.
 
+<syntaxhighlight lang="javascript">
  Car.prototype.color = null;
  car1.color = "black";
+</syntaxhighlight>
 
 See the [/en-US/docs/JavaScript/Reference/Global_Objects/Function/prototype <code>prototype</code> property] of the <code>Function</code> object in the [/en-US/docs/JavaScript/Reference JavaScript Reference] for more information.
 
@@ -239,6 +270,7 @@ See the [/en-US/docs/JavaScript/Reference/Global_Objects/Function/prototype <cod
 
 A ''method'' is a function associated with an object, or, simply put, a method is a property of an object that is a function. Methods are defined the way normal functions are defined, except that they have to be assigned as the property of an object. Examples are:
 
+<syntaxhighlight lang="javascript">
  objectName.methodname = function_name;
  
  var myObj = {
@@ -246,29 +278,37 @@ A ''method'' is a function associated with an object, or, simply put, a method i
      // ...do something
    }
  };
+</syntaxhighlight>
 
 where <code>objectName</code> is an existing object, <code>methodname</code> is the name you are assigning to the method, and <code>function_name</code> is the name of the function.
 
 You can then call the method in the context of the object as follows:
 
+<syntaxhighlight lang="javascript">
  object.methodname(params);
+</syntaxhighlight>
 
 You can define methods for an object type by including a method definition in the object constructor function. For example, you could define a function that would format and display the properties of the previously-defined <code>car</code> objects; for example,
 
+<syntaxhighlight lang="javascript">
  function displayCar() {
    var result = "A Beautiful " + this.year + " " + this.make
      + " " + this.model;
    pretty_print(result);
  }
+</syntaxhighlight>
 
 where <code>pretty_print</code> is a function to display a horizontal rule and a string. Notice the use of <code>this</code> to refer to the object to which the method belongs.
 
 You can make this function a method of <code>car</code> by adding the statement
 
+<syntaxhighlight lang="javascript">
  this.displayCar = displayCar;
+</syntaxhighlight>
 
 to the object definition. So, the full definition of <code>car</code> would now look like
 
+<syntaxhighlight lang="javascript">
  function Car(make, model, year, owner) {
    this.make = make;
    this.model = model;
@@ -276,11 +316,14 @@ to the object definition. So, the full definition of <code>car</code> would now 
    this.owner = owner;
    this.displayCar = displayCar;
  }
+</syntaxhighlight>
 
 Then you can call the <code>displayCar</code> method for each of the objects as follows:
 
+<syntaxhighlight lang="javascript">
  car1.displayCar();
  car2.displayCar();
+</syntaxhighlight>
 
 This produces the output shown in the following figure.
 
@@ -292,26 +335,32 @@ This produces the output shown in the following figure.
 
 JavaScript has a special keyword, <code>this</code>, that you can use within a method to refer to the current object. For example, suppose you have a function called <code>validate</code> that validates an object's <code>value</code> property, given the object and the high and low values:
 
+<syntaxhighlight lang="javascript">
  function validate(obj, lowval, hival) {
    if ((obj.value < lowval) || (obj.value > hival))
      alert("Invalid Value!");
  }
+</syntaxhighlight>
 
 Then, you could call <code>validate</code> in each form element's <code>onchange </code> event handler, using <code>this</code> to pass it the element, as in the following example:
 
+<syntaxhighlight lang="html">
  <input type="text" name="age" size="3"
    onChange="validate(this, 18, 99)">
+</syntaxhighlight>
 
 In general, <code>this</code> refers to the calling object in a method.
 
 When combined with the <code>form</code> property, <code>this</code> can refer to the current object's parent form. In the following example, the form <code>myForm</code> contains a <code>Text</code> object and a button. When the user clicks the button, the value of the <code>Text</code> object is set to the form's name. The button's <code>onclick</code> event handler uses <code>this.form</code> to refer to the parent form, <code>myForm</code>.
 
+<syntaxhighlight lang="html">
  <form name="myForm">
  <p><label>Form name:<input type="text" name="text1" value="Beluga"></label>
  <p><input name="button1" type="button" value="Show Form Name"
       onclick="this.form.text1.value = this.form.name">
  </p>
  </form>
+</syntaxhighlight>
 
 ===Defining getters and setters===
 
@@ -442,7 +491,4 @@ See <code>[Expressions_and_operators#delete delete]</code> for more information.
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
