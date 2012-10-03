@@ -339,7 +339,7 @@ Full name:Email address:Repeat email address:Arrival date:Number of nights (room
 
 This is the HTML and JavaScript for the form:
 
- <nowiki><form oninput="total.value = (nights.valueAsNumber * 99) +
+<form oninput="total.value = (nights.valueAsNumber * 99) +
   ((guests.valueAsNumber - 1) * 10)">
  
    <label>Full name:</label>
@@ -382,7 +382,6 @@ This is the HTML and JavaScript for the form:
    }
  }
  </script>
- </nowiki>
 
 This is the CSS that goes with the form code:
 
