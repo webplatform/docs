@@ -1,5 +1,7 @@
-{{Page_Title|Onslaught! Arena}}
-{{Flags}}
+{{Page_Title|Building the Onslaught! Arena game}}
+{{Flags
+|High-level issues=Needs Flags
+}}
 {{Byline
 |Name=Matt Hackett & Geoff Blair
 |URL=http://www.html5rocks.com/profiles/#matthackett
