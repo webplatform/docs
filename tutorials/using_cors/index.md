@@ -9,7 +9,7 @@
 }}
 {{Summary_Section|Tutorial on Cross Origin Resource Sharing}}
 {{Tutorial
-|Content= [/en/ [[Image:PzEJtkxBQAAAABJRU5ErkJggg==|HTML5 Rocks]]]
+|Content=[/en/ [[Image:PzEJtkxBQAAAABJRU5ErkJggg==|HTML5 Rocks]]]
 
 =[/en/ HTML5 Rocks]=
 
@@ -646,20 +646,19 @@ Except as otherwise [http://code.google.com/policies.html#restrictions noted], t
 |Chrome_supported=Yes
 |Chrome_prefixed_supported=Unknown
 |Chrome_prefixed_version=
-|Firefox_supported=Unknown
-|Firefox_version=
+|Firefox_supported=Yes
 |Firefox_prefixed_supported=Unknown
 |Firefox_prefixed_version=
-|Internet_explorer_supported=Unknown
-|Internet_explorer_version=
+|Internet_explorer_supported=Yes
+|Internet_explorer_version=IE8 (partial), IE9 (partial), IE10
 |Internet_explorer_prefixed_supported=Unknown
 |Internet_explorer_prefixed_version=
-|Opera_supported=Unknown
-|Opera_version=
+|Opera_supported=Yes
+|Opera_version=12.0
 |Opera_prefixed_supported=Unknown
 |Opera_prefixed_version=
-|Safari_supported=Unknown
-|Safari_version=
+|Safari_supported=Yes
+|Safari_version=5.1, 6.0
 |Safari_prefixed_supported=Unknown
 |Safari_prefixed_version=
 }}
@@ -675,12 +674,11 @@ Except as otherwise [http://code.google.com/policies.html#restrictions noted], t
 |IE_phone_version=
 |IE_phone_prefixed_supported=Unknown
 |IE_phone_prefixed_version=
-|Opera_mobile_supported=Unknown
+|Opera_mobile_supported=No
 |Opera_mobile_version=
 |Opera_mobile_prefixed_supported=Unknown
 |Opera_mobile_prefixed_version=
-|Safari_mobile_supported=Unknown
-|Safari_mobile_version=
+|Safari_mobile_supported=Yes
 |Safari_mobile_prefixed_supported=Unknown
 |Safari_mobile_prefixed_version=
 }}
