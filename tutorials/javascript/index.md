@@ -1,3 +1,5 @@
+
+{{Summary_Section|JavaScript tutorials index page.}}
 == JavaScript tutorials ==
 
 {{API_Listing
