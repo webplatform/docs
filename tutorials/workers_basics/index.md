@@ -1,4 +1,4 @@
-{{Page_Title|The Basics of Web Workers}}
+{{Page_Title|Introduction to web workers}}
 {{Flags
 |High-level issues=Stub
 }}
@@ -7,9 +7,7 @@
 |URL=http://www.html5rocks.com/profiles/#ericbidelman
 |Published=July 26, 2010, updated Aug. 21, 2012
 }}
-{{Summary_Section|Web Workers are a means of spawning background scripts in your application, giving thread-like message passing for handling computationally intensive tasks.
-
-}}
+{{Summary_Section|Web Workers are a means of spawning background scripts in your application, giving thread-like message passing for handling computationally intensive tasks.}}
 {{Tutorial
 |Content===The Problem: JavaScript Concurrency==
 
