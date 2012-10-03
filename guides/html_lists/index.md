@@ -43,12 +43,12 @@ You can use CSS to change the bullet to one of several default styles, use your 
  
 Unordered lists use one set of <code>&lt;ul&gt;&lt;/ul&gt;</code> tags, wrapped around many sets of <code>[[Meta:HTML/Elements/li|&lt;li&gt;&lt;/li&gt;]]</code>:
  
-<syntaxhighlight lang="html5"><ul>
-  <li>bread</li>
-  <li>coffee beans</li>
-  <li>milk</li>
-  <li>butter</li>
-</ul></syntaxhighlight>
+<syntaxhighlight lang="html5">&lt;ul&gt;
+  &lt;li&gt;bread&lt;/li&gt;
+  &lt;li&gt;coffee beans&lt;/li&gt;
+  &lt;li&gt;milk&lt;/li&gt;
+  &lt;li&gt;butter&lt;/li&gt;
+&lt;/ul&gt;</syntaxhighlight>
 
 === Ordered lists ===
  
@@ -91,35 +91,36 @@ Again, you can use CSS to change the style of your ordered lists.
 ==== Ordered list markup ====
  
 Ordered lists use one set of <code>&lt;ol&gt;&lt;/ol&gt;</code> tags, wrapped around many sets of <code>&lt;li&gt;&lt;/li&gt;</code>:
- 
-<pre>&lt;ol&gt;
-  &lt;li&gt;Gather ingredients&lt;/li&gt;
-  &lt;li&gt;Mix ingredients together&lt;/li&gt;
-  &lt;li&gt;Place ingredients in a baking dish&lt;/li&gt;
-  &lt;li&gt;Bake in oven for an hour&lt;/li&gt;
-  &lt;li&gt;Remove from oven&lt;/li&gt;
-  &lt;li&gt;Allow to stand for ten minutes&lt;/li&gt;
-  &lt;li&gt;Serve&lt;/li&gt;
-&lt;/ol&gt;</pre><syntaxhighlight lang="html5"></syntaxhighlight>
+
+<syntaxhighlight lang="html5"><ol>
+  <li>Gather ingredients</li>
+  <li>Mix ingredients together</li>
+  <li>Place ingredients in a baking dish</li>
+  <li>Bake in oven for an hour</li>
+  <li>Remove from oven</li>
+  <li>Allow to stand for ten minutes</li>
+  <li>Serve</li>
+</ol>
+</syntaxhighlight>
  
 ==== Beginning ordered lists with numbers other than 1 ====
  
 It is possible to get an ordered list to start with a number other than 1 (or i, or I, etc.). This is done using the <code>&lt;start&gt;</code> attribute, which takes a numeric value, even if you’re using CSS to change the the list counters to be alphabetic, roman or. This is useful if you have a single list of items, but you want to break the list up with some kind of note, or some other related information. For example, we could do this with the previous example:
- 
-<syntaxhighlight lang="html5">&lt;ol&gt;
-  &lt;li&gt;Gather ingredients&lt;/li&gt;
-  &lt;li&gt;Mix ingredients together&lt;/li&gt;
-  &lt;li&gt;Place ingredients in a baking dish&lt;/li&gt;
-&lt;/ol&gt;
 
-&lt;p class="note"&gt;Before you place the ingredients in the baking dish, preheat the oven to 180 degrees centigrade/350 degrees fahrenheit in readiness for the next step&lt;/p&gt;
+<syntaxhighlight lang="html5"><ol>
+  <li>Gather ingredients</li>
+  <li>Mix ingredients together</li>
+  <li>Place ingredients in a baking dish</li>
+</ol>
 
-&lt;ol start="4"&gt;
-  &lt;li&gt;Bake in oven for an hour&lt;/li&gt;
-  &lt;li&gt;Remove from oven&lt;/li&gt;
-  &lt;li&gt;Allow to stand for ten minutes&lt;/li&gt;
-  &lt;li&gt;Serve&lt;/li&gt;
-&lt;/ol&gt;</pre>
+<p class="note">Before you place the ingredients in the baking dish, preheat the oven to 180 degrees centigrade/350 degrees fahrenheit in readiness for the next step</p>
+
+<ol start="4">
+  <li>Bake in oven for an hour</li>
+  <li>Remove from oven</li>
+  <li>Allow to stand for ten minutes</li>
+  <li>Serve</li>
+</ol></pre>
  
 This gives the following result:
  
