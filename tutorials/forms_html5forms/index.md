@@ -25,14 +25,14 @@ HTML5 introduces 5 new elements related to input and forms.
 <table class="alternating">
 <thead>
 <tr>
-<th scope="col">Element</th>
-<th scope="col">Purpose</th>
-<th scope="col">Notes</th>
+<th>Element</th>
+<th>Purpose</th>
+<th>Notes</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><code>[http://dev.w3.org/html5/spec/Overview.html#the-progress-element|progress]</code></td>
+<td><code>progress</code></td>
 <td>Represents completion of a task.</td>
 <td>The <code>progress</code> element could represent the progress of a
 file being uploaded.</td>
