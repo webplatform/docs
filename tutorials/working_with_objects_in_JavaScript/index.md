@@ -151,6 +151,7 @@ The following example creates <code>myHonda</code> with three properties. Note t
 
 <syntaxhighlight lang="javascript">
  var myHonda = {color: "red", wheels: 4, engine: {cylinders: 4, size: 2.2}};
+</syntaxhighlight>
 
 You can also use object initializers to create arrays. See [https://developer.mozilla.org/en-US/docs/JavaScript/Guide/Values%2C_variables%2C_and_literals#Array_literals array literals].
 
