@@ -7,36 +7,25 @@
 |URL=http://www.html5rocks.com/profiles/#monsurhossain
 |Published=Oct 26, 2011
 }}
-{{Summary_Section|Tutorial on Cross Origin Resource Sharing}}
+{{Summary_Section|An introduction to Cross Origin Resource Sharing (CORS)}}
 {{Tutorial
 |Content==Using CORS=
 
 ==Introduction==
 
-APIs are the thread that let you stitch together a rich web experience. But this experience has a hard time translating to the browser, where the options for cross-domain requests are limited to techniques like [http://en.wikipedia.org/wiki/JSONP JSON-P] (which has limited use due to security concerns) or setting up a custom proxy (which can be a pain to set up and maintain).
+APIs comprise the threads that enable you to stitch together a rich web experience. However, it's difficult to translate this experience to the browser, where the options for cross-domain requests are limited to techniques like [http://en.wikipedia.org/wiki/JSONP JSON-P] (which has limited use due to security concerns) or setting up a custom proxy (which can be a pain to set up and maintain).
 
 [http://www.w3.org/TR/cors/ Cross-Origin Resource Sharing] (CORS) is a W3C spec that allows cross-domain communication from the browser. By building on top of the XmlHttpRequest object, CORS allows developers to work with the same idioms as same-domain requests.
 
-The use-case for CORS is simple. Imagine the site alice.com has some data that the site bob.com wants to access. This type of request traditionally wouldn’t be allowed under the browser’s [http://en.wikipedia.org/wiki/Same_origin_policy same origin policy]. However, by supporting CORS requests, alice.com can add a few special response headers that allows bob.com to access the data.
+The use case for CORS is simple. Imagine the site alice.com has some data that the site bob.com wants to access. This type of request traditionally wouldn’t be allowed under the browser’s [http://en.wikipedia.org/wiki/Same_origin_policy same origin policy]. However, by supporting CORS requests, alice.com can add a few special response headers that allows bob.com to access the data.
 
-As you can see from this example, CORS support requires coordination between both the server and client. Luckily if you are a client-side developer, you are shielded from most of these details. The rest of this article shows how clients can make cross-origin requests, and how servers can configure themselves to support CORS.
+As you will see in this tutorial, CORS support requires coordination between both the server and client. Luckily, if you are a client-side developer, you are shielded from most of these details. The rest of this article shows how clients can make cross-origin requests, and how servers can be configured to support CORS.
 
 ==Making a CORS Request==
 
 This section shows how to make a cross-domain request in JavaScript.
 
 ===Creating the XmlHttpRequest object===
-
-CORS is supported in the following browsers:
-
-* Chrome 3+
-* Firefox 3.5+
-* Safari 4+
-* Internet Explorer 8+
-
-(source: http://en.wikipedia.org/wiki/Cross-Origin_Resource_Sharing)
-
-Chrome, Firefox and Safari all use the [http://www.html5rocks.com/en/tutorials/file/xhr2/ XmlHttpRequest2 object]. Internet Explorer uses the similar XDomainRequest object, which works in much the same way as its XmlHttpRequest counterpart, but adds additional [http://blogs.msdn.com/b/ieinternals/archive/2010/05/13/xdomainrequest-restrictions-limitations-and-workarounds.aspx security precautions]. CORS support is [http://my.opera.com/core/blog/2011/10/28/cors-goes-mainline coming soon to Opera]<nowiki>; but as of this writing, it is not yet available. </nowiki>
 
 To get started, you will first need to create the appropriate request object. Nicholas Zakas wrote [http://www.nczonline.net/blog/2010/05/25/cross-domain-ajax-with-cross-origin-resource-sharing/ a simple helper method] to help sort out the browser differences:
 
@@ -117,7 +106,7 @@ For most cases, you will at the very least want to handle the <code>onload</code
  };
 </syntaxhighlight>
 
-Browers don't do a good job of reporting what went wrong when there is an error. For example, Firefox reports a status of 0 and an empty statusText for all errors. Browsers also report an error message to the console log, but this message cannot be accessed from JavaScript. When handling <code>onerror</code>, you will know that an error occurred, but not much else.
+Browsers don't do a good job of reporting what went wrong when there is an error. For example, Firefox reports a status of 0 and an empty statusText for all errors. Browsers also report an error message to the console log, but this message cannot be accessed from JavaScript. When handling <code>onerror</code>, you will know that an error occurred, but not much else.
 
 ===withCredentials===
 
@@ -137,7 +126,7 @@ The <code>.withCredentials</code> property will include any cookies from the rem
 
 ===Making the request===
 
-Now that your CORS request is configured, you are ready to make the request. This is done by calling the <code>send()</code> method:
+Now that your CORS request is configured, you are ready to make the request. To do so, call the <code>send()</code> method:
 
 <syntaxhighlight lang="JavaScript">
  xhr.send();
@@ -145,7 +134,7 @@ Now that your CORS request is configured, you are ready to make the request. Thi
 
 If the request has a body, it can be specified as an argument to <code>send()</code>.
 
-And thats it! Assuming the server is properly configured to respond to CORS requests, your <code>onload</code> handler will fire with the response, just like the standard same-domain XHR you are so familiar with.
+And that's it! Assuming the server is properly configured to respond to CORS requests, your <code>onload</code> handler will fire with the response, just like the standard same-domain XHR you are so familiar with.
 
 ===End-to-End Example===
 
