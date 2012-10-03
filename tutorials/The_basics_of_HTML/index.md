@@ -118,7 +118,7 @@ A typical example HTML document looks like so:
     <h1>Hello world</h1>
   </body>
 </html>
-</syntaxhighlight syn>
+</syntaxhighlight>
 
 This looks like so when rendered in a web browser:
 
