@@ -1,5 +1,7 @@
 {{Page_Title|Adding depth with CSS box-shadow}}
-{{Flags}}
+{{Flags
+|High-level issues=Stub
+}}
 {{Byline}}
 {{Summary_Section|Article to cover CSS3 box-shadow in detail.}}
 {{Tutorial}}
