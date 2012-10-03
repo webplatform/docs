@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page_Title|Introductory Guide to JavaScript}}
 {{Flags
 |Content=Outdated, Not Neutral
 |Editorial notes=The table that maps JavaScript versions to Navigator/Firefox versions could be expanded to include other browsers, or just deleted. Mentioning of ECMAScript would be nice.
