@@ -2,7 +2,11 @@
 {{Flags
 |High-level issues=Needs Flags
 }}
-{{Byline}}
+{{Byline
+|Name=Malte Ubi and Eiji Kitamura
+|URL=http://www.html5rocks.com/profiles/#malteubl
+|Published=Oct 20, 2010
+}}
 {{Summary_Section|An introduction to WebSocket.}}
 {{Tutorial
 |Content===The Problem: Low Latency Client-Server and Server-Client Connections==
