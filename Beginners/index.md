@@ -11,7 +11,7 @@ In this course, you'll be writing a lot of code, and testing it out in web brows
   <li>A decent text editor. Reasonable free options are [[http://notepad-plus-plus.org/ Notepad++]] for Windows, [[http://www.barebones.com/products/TextWrangler/ Text Wrangler]], for Mac, and [[http://bluefish.openoffice.nl/index.html Bluefish]] for Linux.</li>
 </ol>
 
-Now roll your sleeves up and let's get ready to learn.
+Now roll your sleeves up and let's get ready to learn. [[http://docs.webplatform.org/wiki/tutorials Browse our full list of learning articles]] if you exhaust the list of articles here, and want to learn more!
 
 ==Beginning fundamentals==
 
