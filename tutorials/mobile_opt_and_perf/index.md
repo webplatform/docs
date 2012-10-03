@@ -326,7 +326,7 @@ A similar setting for Chrome is also available in the <code>about:flags</code> �
 
 Another great way to see the composited layers is to view the [http://www.webkit.org/blog-files/leaves/ WebKit falling leaves demo] while this mod is applied.
 
-[[File:composited-leaves.png|300px|Composited Leaves Demo]]
+[[File:composited-leaves.jpeg|300px|Composited Leaves Demo]]
 
 And finally, to truly understand the graphics hardware performance of our application, let’s take a look at how memory is being consumed.
 Here we see that we are pushing 1.38MB of drawing instructions to the CoreAnimation buffers on Mac OS. The Core Animation memory buffers are shared between OpenGL ES and the GPU to create the final pixels you see on the screen.
@@ -352,7 +352,7 @@ Let’s address a few core mobile web problems and the reasons why we need to do
 
 Building on the code from the [http://slidfast.appspot.com/slide-flip-rotate.html Slide, Flip, and Rotate demo], we start out by adding some secondary pages and linking to them. We’ll then parse the links and create transitions on the fly.
 
-[[File:iphone-home.png|372x335px|iPhone Home]]
+[[File:iphone-home.jpeg|372x335px|iPhone Home]]
 
 [http://slidfast.appspot.com/fetch-cache.html View the Fetch and Cache demo here.]
 
