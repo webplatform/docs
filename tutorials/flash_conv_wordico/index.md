@@ -4,9 +4,8 @@
 |Name=Adam Mark & Adrian Gould
 |Published=March 10, 2011
 }}
-{{Summary_Section|Learn techniques and approaches for converting a crossword game from Flash to HTML5.}}
 {{Tutorial
-|Content=sdfsdf<h2 id="toc-introduction">Introduction</h2>
+|Content=<h2 id="toc-introduction">Introduction</h2>
 
 When we converted our [http://www.wordico.com Wordico] crossword game from Flash to HTML5, our first task was to unlearn everything we knew about creating a rich user experience in the browser. While Flash offered a single, comprehensive API for all aspects of application development—from vector drawing to polygon hit detection to XML parsing—HTML5 offered a jumble of specifications with varying browser support. We also wondered if HTML, a document-specific language, and CSS, a box-centric language, were suitable for building a game. Would the game display uniformly across browsers, as it did in Flash, and would it look and behave as nicely? For Wordico, the answer was ''yes.''
 
