@@ -159,6 +159,7 @@ A handful of apps are running on Sencha, including [Kiva Touch](http://www.sench
 {{Topics|Developer Tools, HTML, JavaScript}}
 {{External_Attribution
 |Is_CC-BY-SA=No
+|Sources=Facebook HTML5 Resource Center
 |MDN_link=
 |MSDN_link=
 |HTML5Rocks_link=
