@@ -428,10 +428,9 @@ The cache is populated at the end of <code>downloadAll()</code>, as shown below:
       this.cache[path] = img;
   }
 </pre>
-
 }}
 {{Compatibility_Section
-|Not_required=No
+|Not_required=Yes
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
