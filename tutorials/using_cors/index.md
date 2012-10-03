@@ -111,7 +111,7 @@ The original XmlHttpRequest object had only one event handler, <code>onreadystat
 
 For most cases, you will at the very least want to handle the <code>onload</code> and <code>onerror</code> events:
 
-<syntaxhighlight lang="JavaScript"> 
+<syntaxhighlight lang="JavaScript">
  xhr.onload = function() {
   var responseText = xhr.responseText;
   console.log(responseText);
@@ -129,13 +129,13 @@ Browers don't do a good job of reporting what went wrong when there is an error.
 
 Standard CORS requests do not send or set any cookies by default. In order to include cookies as part of the request, you need to set the XmlHttpRequest’s <code>.withCredentials</code> property to true:
 
-<syntaxhighlight lang="JavaScript">  
+<syntaxhighlight lang="JavaScript">
  xhr.withCredentials = true;
 </syntaxhighlight>
 
 In order for this to work, the server must also enable credentials by setting the Access-Control-Allow-Credentials response header to “true”. See the [#toc-adding-cors-support-to-the-server server section] for details.
 
-<syntaxhighlight lang="JavaScript">  
+<syntaxhighlight lang="JavaScript">
  Access-Control-Allow-Credentials: true
 </syntaxhighlight>
 
@@ -145,7 +145,7 @@ The <code>.withCredentials</code> property will include any cookies from the rem
 
 Now that your CORS request is configured, you are ready to make the request. This is done by calling the <code>send()</code> method:
 
-<syntaxhighlight lang="JavaScript">  
+<syntaxhighlight lang="JavaScript">
  xhr.send();
 </syntaxhighlight>
 
@@ -159,7 +159,7 @@ Here is a full working sample of a CORS request.
 
 <center><strong>Run Sample</strong></center>
 
-<syntaxhighlight lang="JavaScript">  
+<syntaxhighlight lang="JavaScript">
  // Create the XHR object.
  function createCORSRequest(method, url) {
    var xhr = new XMLHttpRequest();
@@ -249,7 +249,7 @@ Lets start by examining a simple request from the client. The table below shows 
 
 JavaScript:
 
-<syntaxhighlight lang="JavaScript">  
+<syntaxhighlight lang="JavaScript">
  var url = 'http://api.alice.com/cors';
  var xhr = createCORSRequest('GET', url);
  xhr.send();
@@ -257,7 +257,7 @@ JavaScript:
 
 HTTP Request:
 
-<syntaxhighlight lang="yaml">  
+<syntaxhighlight lang="yaml">
  GET /cors HTTP/1.1
  '''Origin: http://api.bob.com'''
  Host: api.alice.com
@@ -272,7 +272,7 @@ Here’s a valid server response; the CORS-specific headers are bolded
 
 HTTP Response:
 
-<syntaxhighlight lang="yaml">  
+<syntaxhighlight lang="yaml">
  '''Access-Control-Allow-Origin: http://api.bob.com'''
  '''Access-Control-Allow-Credentials: true'''
  '''Access-Control-Expose-Headers: FooBar'''
@@ -312,7 +312,7 @@ Here’s an example of a not-so-simple request:
 
 JavaScript:
 
-<syntaxhighlight lang="JavaScript">  
+<syntaxhighlight lang="JavaScript">
  var url = 'http://api.alice.com/cors';
  var xhr = createCORSRequest('PUT', url);
  xhr.setRequestHeader(
@@ -344,7 +344,7 @@ If the HTTP method and headers are valid, the server should respond with the fol
 
 Preflight Request:
 
-<syntaxhighlight lang="yaml">  
+<syntaxhighlight lang="yaml">
  OPTIONS /cors HTTP/1.1
  '''Origin: http://api.bob.com'''
  '''Access-Control-Request-Method: PUT'''
@@ -357,7 +357,7 @@ Preflight Request:
 
 Preflight Response:
 
-<syntaxhighlight lang="yaml">  
+<syntaxhighlight lang="yaml">
  '''Access-Control-Allow-Origin: http://api.bob.com'''
  '''Access-Control-Allow-Methods: GET, POST, PUT'''
  '''Access-Control-Allow-Headers: X-Custom-Header'''
@@ -390,7 +390,7 @@ Actual Request:
 
 Actual Response:
 
-<syntaxhighlight lang="yaml">  
+<syntaxhighlight lang="yaml">
  '''Access-Control-Allow-Origin: http://api.bob.com'''
  Content-Type: text/html; charset=utf-8
 </syntaxhighlight>
@@ -400,7 +400,7 @@ If the server wants to deny the CORS request, it can just return a generic respo
 Preflight Request:
 
 
-<syntaxhighlight lang="JavaScript">  
+<syntaxhighlight lang="JavaScript">
  '''Origin: http://api.bob.com'''
  '''Access-Control-Request-Method: PUT'''
  '''Access-Control-Request-Headers: X-Custom-Header'''
