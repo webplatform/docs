@@ -161,6 +161,7 @@ If the asset manager is done downloading all the assets, we will call a callback
 <pre>
 AssetManager.prototype.downloadAll = function(downloadCallback) {
     ...
+}
 </pre>
 
 We will call the downloadCallback method inside of our event listeners:
@@ -315,6 +316,7 @@ If the asset manager is done downloading all the assets, we will call a callback
 <pre>
 AssetManager.prototype.downloadAll = function(downloadCallback) {
     ...
+}
 </pre>
 
 We will call the downloadCallback method inside of our event listeners:
@@ -383,6 +385,7 @@ You can accommodate this scenario by adding the following code to <code>download
       downloadCallback();
   }
  ...
+}
 </pre>
 
 If no assets are queued, the callback is called immediately. Bug fixed!
