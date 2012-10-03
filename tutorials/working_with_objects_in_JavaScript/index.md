@@ -455,7 +455,7 @@ With Firefox 3.0, defining getter or setter on an already-defined property will 
 
 ====See also====
 
-* <code>[/https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Object/defineGetter __defineGetter__]</code>
+* <code>[https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Object/defineGetter __defineGetter__]</code>
 * <code>[https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Object/defineSetter __defineSetter__]</code>
 * <code>[https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Operators/get get]</code>
 * <code>[https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Operators/set set]</code>
