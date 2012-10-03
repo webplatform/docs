@@ -46,7 +46,7 @@ Chrome, Firefox and Safari all use the [http://www.html5rocks.com/en/tutorials/f
 
 To get started, you will first need to create the appropriate request object. Nicholas Zakas wrote [http://www.nczonline.net/blog/2010/05/25/cross-domain-ajax-with-cross-origin-resource-sharing/ a simple helper method] to help sort out the browser differences:
 
- 
+<syntaxhighlight lang="JavaScript"> 
  function createCORSRequest(method, url) {
    var xhr = new XMLHttpRequest();
    if ("withCredentials" in xhr) {
@@ -75,6 +75,7 @@ To get started, you will first need to create the appropriate request object. Ni
  if (!xhr) {
    throw new Error('CORS not supported');
  }
+</syntaxhighlight>
 
 ===Event handlers===
 
