@@ -84,10 +84,10 @@ The original XmlHttpRequest object had only one event handler, <code>onreadystat
 {| border="1" cellpadding="4"
 ! Event Handler
 ! Description
-|-
-| onloadstart*
-| When the request starts.
-|-
+{{!}}-
+{{!}} onloadstart*
+{{!}} When the request starts.
+{{!}}-
 | onprogress
 | While loading and sending data.
 |-
