@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page_Title|Auditing your web app for speed}}
 {{Flags
 |High-level issues=Stub
 }}
