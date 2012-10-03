@@ -10,11 +10,12 @@ In the future, Web Platform Docs will include even more content for you to explo
 
 == Explore our docs ==
 
+*[[tutorials|Tutorials]]
 *[[concepts|Web Development Concepts]]
-*[[HTML|HTML Reference & Tutorials ]]
-*[[CSS|CSS Reference & Tutorials]]
-*[[javascript|JavaScript Reference & Tutorials]]
-*[[SVG|SVG Reference & Tutorials]]
+*[[HTML|HTML]]
+*[[CSS|CSS]]
+*[[javascript|JavaScript]]
+*[[SVG|SVG]]
 *[[Accessibility]]
 
 == Contribute to Web Platform Docs ==
