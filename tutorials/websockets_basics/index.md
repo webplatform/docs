@@ -1,4 +1,4 @@
-{{Page_Title|Introducing web sockets}}
+{{Page_Title|Using WebSocket}}
 {{Flags
 |High-level issues=Needs Flags
 }}
