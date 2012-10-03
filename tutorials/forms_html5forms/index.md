@@ -38,13 +38,13 @@ HTML5 introduces 5 new elements related to input and forms.
 file being uploaded.</td>
 </tr>
 <tr>
-<td><code><a href="http://dev.w3.org/html5/spec/Overview.html#the-meter-element" target="_blank">meter</a></code></td>
+<td><code>[http://dev.w3.org/html5/spec/Overview.html#the-meter-element meter]</code></td>
 <td>Represents a scalar measurement within a known range.</td>
 <td>The <code>meter</code> element could be used to represent something
 like a temperature or weight measurement.</td>
 </tr>
 <tr>
-<td><code><a href="http://dev.w3.org/html5/spec/Overview.html#the-datalist-element" target="_blank">datalist</a></code></td>
+<td><code>[http://dev.w3.org/html5/spec/Overview.html#the-datalist-element datalist]</code></td>
 <td>Represents a set of <code>option</code> elements that can be used in
 combination with the new <code>list</code> attribute for input to make
 dropdown menus.</td>
@@ -53,13 +53,13 @@ menu appears and contains the values from the <code>datalist</code>.
 </td>
 </tr>
 <tr>
-<td><code><a href="http://dev.w3.org/html5/spec/Overview.html#the-keygen-element" target="_blank">keygen</a></code></td>
+<td><code>[http://dev.w3.org/html5/spec/Overview.html#the-keygen-element keygen]</code></td>
 <td>A control for key-pair generation.</td>
 <td>When the form is submitted, the private key gets stored in the local
 keystore, and the public key is sent to the server.</td>
 </tr>
 <tr>
-<td><code><a href="http://dev.w3.org/html5/spec/Overview.html#the-output-element" target="_blank">output</a></code></td>
+<td><code>[http://dev.w3.org/html5/spec/Overview.html#the-output-element output]</code></td>
 <td>Displays the results of a calculation.</td>
 <td>An example use of the <code>output</code> element could be to
 display the sum of the values of two input elements.</td>
