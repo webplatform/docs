@@ -120,7 +120,7 @@ It is possible to get an ordered list to start with a number other than 1 (or i,
   <li>Remove from oven</li>
   <li>Allow to stand for ten minutes</li>
   <li>Serve</li>
-</ol></pre>
+</ol></syntaxhighlight>
  
 This gives the following result:
  
