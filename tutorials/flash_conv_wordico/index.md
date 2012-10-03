@@ -114,7 +114,7 @@ The downside? By using images, we give up programmatic access to the text fields
 
 We wanted to make full use of the browser window at any size—and avoid scrolling. This was a relatively simple operation in Flash, since the entire game was drawn in vectors and could be scaled up or down without losing fidelity. But it was trickier in HTML. We tried using CSS scaling but ended up with a blurred canvas:
 
- [[Image:wordico-html-canvas.png]] CSS scaling (left) vs. redrawing (right).
+ [[Image:wordico-html-canvas.jpg]] CSS scaling (left) vs. redrawing (right).
 
 Our solution is to redraw the gameboard, rack, and tiles whenever the user resizes the browser:
 
