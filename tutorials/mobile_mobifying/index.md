@@ -265,9 +265,9 @@ Second, we used the JS API to inform the user when a new manifest has finished d
 <pre>
  window_applicationCache_addEventListener('updateready', function(e) {
    if (window_applicationCache_status== window.applicationCache.UPDATEREADY) {
-     '''window.applicationCache.swapCache();'''
+     window.applicationCache.swapCache();
      if (confirm('A new version of this site is available. Load it?')) {
-       '''window.location.reload();'''
+       window.location.reload();
      }
    }
  }, false);
