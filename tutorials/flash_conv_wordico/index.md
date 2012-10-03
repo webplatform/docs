@@ -14,15 +14,15 @@ When we converted our [http://www.wordico.com Wordico] crossword game from Flash
 
 We developed the original version of Wordico using only vector graphics: lines, curves, fills, and gradients. The result was both highly compact and infinitely scalable:
 
- [[Image:wordico-flash-wireframe.jpg|600px|Wordico Wireframe]] In Flash, every display object was made of vector shapes.
+ [[Image:wordico-flash-wireframe.jpg|600px|Wordico Wireframe| In Flash, every display object was made of vector shapes.]]
 
 We also took advantage of the Flash timeline to create objects having multiple states. For example, we used nine named keyframes for the <code>Space</code> object:
 
- [[Image:wordico-flash-space.png]] A triple-letter space in Flash.
+ [[Image:wordico-flash-space.png|A triple-letter space in Flash.]] 
 
 In HTML5, however, we use a bitmapped sprite:
 
- [[Image:wordico-html-space.png]] A PNG sprite showing all nine spaces.
+ [[Image:wordico-html-space.png]|A PNG sprite showing all nine spaces.] 
 
 To create the 15x15 gameboard from individual spaces, we iterate over a 225-character string notation in which each space is represented by a different character (such as "t" for triple letter and "T" for triple word). This was a straightforward operation in Flash; we simply stamped out spaces and arranged them in a grid:
 
@@ -59,15 +59,15 @@ In HTML5, it's a bit more complicated. We use the [http://diveintohtml5.info/can
 
 Here's the result in the web browser. Note that the canvas itself has a CSS drop shadow:
 
- [[Image:wordico-board.png]] In HTML5, the gameboard is a single canvas element.
+ [[Image:wordico-board.png|In HTML5, the gameboard is a single canvas element.]] 
 
 Converting the tile object was a similar exercise. In Flash, we used [http://livedocs.adobe.com/flash/9.0/ActionScriptLangRefV3/flash/text/TextField.html text fields] and vector shapes:
 
- [[Image:wordico-flash-tile.png]] The Flash tile was a combination of text fields and vector shapes.
+ [[Image:wordico-flash-tile.png|The Flash tile was a combination of text fields and vector shapes.]]
 
 In HTML5, we combine three image sprites on a single <code><canvas></code> element at runtime:
 
- [[Image:wordico-html-tile.png]] The HTML tile is a composite of three images.
+ [[Image:wordico-html-tile.png|The HTML tile is a composite of three images.]] 
 
 Now we have 100 canvases (one for each tile) plus a canvas for the gameboard. Here's the markup for an "H" tile:
 
@@ -105,7 +105,7 @@ Here's the corresponding CSS:
 
 We apply CSS3 effects when the tile is being dragged (shadow, opacity, and scaling) and when the tile is sitting on the rack (reflection):
 
- [[Image:wordico-html-tiles.jpg]] The dragged tile is slightly larger, slightly transparent, and has a drop shadow.
+ [[Image:wordico-html-tiles.jpg|The dragged tile is slightly larger, slightly transparent, and has a drop shadow.]] 
 
 Using raster images has some obvious advantages. First, the result is pixel-precise. Second, these images can be cached by the browser. Third, with a little extra work, we can swap out the images to create new tile designs—such as a metal tile—and this design work can be done in Photoshop instead of in Flash.
 
@@ -115,7 +115,7 @@ The downside? By using images, we give up programmatic access to the text fields
 
 We wanted to make full use of the browser window at any size—and avoid scrolling. This was a relatively simple operation in Flash, since the entire game was drawn in vectors and could be scaled up or down without losing fidelity. But it was trickier in HTML. We tried using CSS scaling but ended up with a blurred canvas:
 
- [[Image:wordico-html-canvas.jpg]] CSS scaling (left) vs. redrawing (right).
+ [[Image:wordico-html-canvas.jpg|CSS scaling (left) vs. redrawing (right).]] 
 
 Our solution is to redraw the gameboard, rack, and tiles whenever the user resizes the browser:
 
@@ -133,7 +133,7 @@ Our solution is to redraw the gameboard, rack, and tiles whenever the user resiz
 
 We end up with crisp images and pleasing layouts at any screen size:
 
- [[Image:wordico-html-scale.jpg]] The gameboard fills the vertical space; other page elements flow around it.
+ [[Image:wordico-html-scale.jpg|The gameboard fills the vertical space; other page elements flow around it.]]
 
 <h2 id="toc-gettothepoint">Get to the point</h2>
 
@@ -248,7 +248,7 @@ These functions form the basis of drag-and-drop and animation capabilities. For 
 
 While fixed-size layouts are easier to produce in Flash, fluid layouts are much easier to generate with HTML and the CSS box model. Consider the following grid view, with its variable width and height:
 
- [[Image:wordico-html-grid.jpg]] This layout has no fixed dimensions: thumbnails flow left to right, top to bottom.
+ [[Image:wordico-html-grid.jpg| This layout has no fixed dimensions: thumbnails flow left to right, top to bottom.]]
 
 Or consider the chat panel. The Flash version required multiple event handlers to respond to mouse actions, a mask for the scrollable area, math for computing the scroll position, and a lot of other code to glue it together.
 
@@ -256,7 +256,7 @@ Or consider the chat panel. The Flash version required multiple event handlers t
 
 The HTML version, by comparison, is just a <code>&lt;div></code> with a fixed height and the overflow property set to hidden. Scrolling costs us nothing.
 
- [[Image:wordico-html-chat.jpg]] The CSS box model at work.
+ [[Image:wordico-html-chat.jpg|The CSS box model at work.]] 
 
 In cases like this—ordinary layout tasks—HTML and CSS outshine Flash.
 
