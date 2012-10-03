@@ -68,7 +68,9 @@ That's it. Your client is now ready to process events from <code>stream.php</cod
 
 Sending an event stream from the source is a matter of constructing a plaintext response, served with a <code>text/event-stream</code> Content-Type, that follows the SSE format. In its basic form, the response should contain a "<code>data:</code>" line, followed by your message, followed by two "\n" characters to end the stream:
 
+<syntaxhighlight lang="yaml">
  data: My message\n\n
+</syntaxhighlight>
 
 ===Multiline Data===
 
