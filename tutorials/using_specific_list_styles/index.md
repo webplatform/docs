@@ -100,7 +100,8 @@ This rule displays and increments the counter for every {{ HTMLELement("p") }} e
 <syntaxhighlight lang="css">p.numbered:before {
    content: counter(mynum) ": ";
    counter-increment: mynum;
-   font-weight: bold;}</syntaxhighlight>
+   font-weight: bold;
+}</syntaxhighlight>
 
 The result looks like this:
 
