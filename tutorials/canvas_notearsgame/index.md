@@ -1,16 +1,14 @@
-{{Page_Title|No Tears Guide to HTML5 Games}}
+{{Page_Title|Introduction to HTML5 Games}}
 {{Flags
 |High-level issues=Needs Flags
 }}
-{{Byline}}
+{{Byline
+|Name=Daniel X Moore
+|Published=Feb 1, 2011
+}}
 {{Summary_Section|An intermediate tutorial for creating games using HTML5 and Canvas.}}
 {{Tutorial
-|Content==No Tears Guide to HTML5 Games=
-
-====original by Daniel X. Moore====
-====published Feb. 1, 2011====
-
-==Introduction==
+|Content===Introduction==
 
 This tutorial shows you how to build a game using HTML5 and the <canvas> element, and assumes you have an intermediate level of knowledge of JavaScript.
 
