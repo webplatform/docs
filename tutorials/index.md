@@ -5,7 +5,7 @@
 ==Basics==
 * [[tutorials/basics|Web programming essentials]]
 * [[CSS/Training|CSS]]
-* [[js/tutorials|JavaScript]]
+* [[javascript/tutorials|JavaScript]]
 * [[html/tutorials|HTML]]
 * [[SVG/Tutorials|SVG]]
 
