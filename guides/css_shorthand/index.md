@@ -7,26 +7,26 @@
  
 <code>border</code> allows you to set border width, style and, color all in one single property. So for example:
 
-<pre>border: 1px solid black;</pre>
+<syntaxhighlight lang="css">border: 1px solid black;</syntaxhighlight>
 
 is equivalent to the following three rules:
 
-<pre>border-width: 1px;
+<syntaxhighlight lang="css">border-width: 1px;
 border-style: solid;
-border-color: black;</pre>
+border-color: black;</syntaxhighlight>
 
 You can also break these down further into even more specific rules, for a single border of the element it is applied to, like so:
 
-<pre>border-left: 1px solid black;
+<syntaxhighlight lang="css">border-left: 1px solid black;
 border-right: 1px solid black;
 border-top: 1px solid black;
-border-bottom: 1px solid black;</pre>
+border-bottom: 1px solid black;</syntaxhighlight>
 
 or even:
 
-<pre>border-left-width: 2px;
+<syntaxhighlight lang="css">border-left-width: 2px;
 border-left-style: solid;
-border-left-color: black;</pre>
+border-left-color: black;</syntaxhighlight>
 
 You will very rarely want to go this granular; you will probably use simply <code>border</code> or <code>border-left/right-top-bottom</code> in most cases. The more granular options will likely be used only if you want to override an earlier border declaration.
 
@@ -35,18 +35,18 @@ You will very rarely want to go this granular; you will probably use simply <cod
  
 Shorthand for <code>margin</code>, <code>padding</code>,  and <code>outline</code> all works in the same way. Consider the following <code>margin</code> rule:
  
-<pre>div.foo {
+<syntaxhighlight lang="css">div.foo {
   margin-top: 1em;
   margin-right: 1.5em;
   margin-bottom: 2em;
   margin-left: 2.5em;
-}</pre>
+}</syntaxhighlight>
  
 Such a rule could also be written as:
  
-<pre>div.foo {
+<syntaxhighlight lang="css">div.foo {
   margin: 1em 1.5em 2em 2.5em;
-}</pre>
+}</syntaxhighlight>
  
 These types of property can take less than four values too, as follows:
 
@@ -58,16 +58,16 @@ These types of property can take less than four values too, as follows:
 
 You can specify the font size, weight, style, family, and line height using one line of shorthand. Consider the following CSS:
 
-<pre>font-weight: bold;
+<syntaxhighlight lang="css">font-weight: bold;
 font-style: italic;
 font-variant: small-caps;
 font-size: 1.5em;
 line-height: 200%;
-font-family: Georgia, "Times New Roman", serif;</pre>
+font-family: Georgia, "Times New Roman", serif;</syntaxhighlight>
  
 You could specify all of this using the following line:
 
-<pre>font: bold italic small-caps 1.5em/200% Georgia, "Times New Roman", serif;</pre>
+<syntaxhighlight lang="css">font: bold italic small-caps 1.5em/200% Georgia, "Times New Roman", serif;</syntaxhighlight>
 
 Note that it doesn't really matter about the order of many of these, although you should make sure that <code>font-size</code>/<code>line-height</code> and <code>font-family</code> come in the positions shown, plus both <code>font-size</code> and <code>font-family</code> should be specified. If not, this shorthand may not work in some browsers.
 
@@ -77,29 +77,29 @@ Note also that if <code>font-weight</code>, <code>font-style</code> or <code>fon
 
 In CSS 2, you can specify background color, background image, image repeat and image position with one line of CSS. Take the following:
 
-<pre>background-color: #000;
+<syntaxhighlight lang="css">background-color: #000;
 background-image: url(image.gif);
 background-repeat: no-repeat;
 background-position: top left;
-background-attachment: fixed;</pre>
+background-attachment: fixed;</syntaxhighlight>
  
 This can all be represented using the following shorthand:
 
-<pre>background: #000 url(image.gif) no-repeat top left fixed;</pre>
+<syntaxhighlight lang="css">background: #000 url(image.gif) no-repeat top left fixed;</syntaxhighlight>
 
 Note that if any of the values are left out, the following defaults are assumed:
 
-<pre>background-color: transparent;
+<syntaxhighlight lang="css">background-color: transparent;
 background-image: none;
 background-repeat: repeat;
 background-position: top left;
-background-attachment: scroll;</pre>
+background-attachment: scroll;</syntaxhighlight>
 
 === Enhancements in CSS3 ===
 
 CSS3 introduces three new properties: [http://www.w3.org/TR/css3-background/#the-background-size <code>background-size</code>], [http://www.w3.org/TR/css3-background/#the-background-origin <code>background-origin</code>], and [http://www.w3.org/TR/css3-background/#the-background-clip <code>background-clip</code>]. You can include them in the <code>background</code> shorthand like so:
 
-<pre>background: #000 url(image.gif); no-repeat top left / 50% 20% border-box content-box;</pre>
+<syntaxhighlight lang="css">background: #000 url(image.gif); no-repeat top left / 50% 20% border-box content-box;</syntaxhighlight>
 
 Notice the slash between <code>top left</code> and <code>50% 20%</code>; it separates the values for <code>background-position</code> and <code>background-size</code> since these two properties share some value units (lengths and percentage); without it we cannot distinguish which values are for which.
 
@@ -119,19 +119,19 @@ Note: CSS3 gradients are a special, advanced value of <code>background-image</co
 
 You can specify the list bullet type, position, and image on a single line. Take the following CSS:
 
-<pre>list-style-type: circle;
+<syntaxhighlight lang="css">list-style-type: circle;
 list-style-position: inside;
-list-style-image: url(bullet.gif);</pre>
+list-style-image: url(bullet.gif);</syntaxhighlight>
  
 This is the equivalent of:
 
-<pre>list-style: circle inside url(bullet.gif);</pre>
+<syntaxhighlight lang="css">list-style: circle inside url(bullet.gif);</syntaxhighlight>
  
 Note that if any of the values are left out, the following defaults are assumed:
 
-<pre>list-style-type: circle;
+<syntaxhighlight lang="css">list-style-type: circle;
 list-style-position: outside;
-list-style-image: none;</pre>
+list-style-image: none;</syntaxhighlight>
 
 == Color ==
  
