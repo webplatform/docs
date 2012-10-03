@@ -1,5 +1,6 @@
 {{Page_Title|Why use CSS?}}
 {{Flags}}
+{{Byline}}
 {{Summary_Section|This tutorial looks at why we should use CSS, and why using CSS for styling our documents is better than using presentational HTML.}}
 {{Tutorial
 |Content=== Information: Why use CSS? ==
@@ -20,7 +21,7 @@ In general with HTML, you use the markup language to describe the information co
 <li><p>Create another text file in the same directory as before. This file will be your stylesheet. Name it <code>style1.css</code></p></li>
 <li><p>In your CSS file, copy and paste this one line, then save the file:</p>
 
-<pre>strong {colour: red;}</pre>
+<syntaxhighlight lang="css">strong {colour: red;}</syntaxhighlight>
 </li>
 </ol>
  
@@ -29,7 +30,7 @@ In general with HTML, you use the markup language to describe the information co
 <ol> 
 <li><p>To link your document to your stylesheet, edit your HTML file. Add the line highlighted here:</p>
 
-<pre>&lt;!DOCTYPE html&gt;
+<syntaxhighlight lang="html">&lt;!DOCTYPE html&gt;
  &lt;html&gt;
    &lt;head&gt;
    &lt;meta charset="UTF-8"&gt;
@@ -43,7 +44,7 @@ In general with HTML, you use the markup language to describe the information co
        &lt;strong&gt;S&lt;/strong&gt;heets
      &lt;/p&gt;
    &lt;/body&gt;
- &lt;/html&gt;</pre></li>
+ &lt;/html&gt;</syntaxhighlight></li>
  
 <li><p>Save the file and refresh your browser's display. The stylesheet makes the initial letters red, like this:</p>
 
