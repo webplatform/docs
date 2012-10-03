@@ -113,7 +113,7 @@ The W3C Web Accessibility Initiative (WAI) brings together people from industry,
 
 * [[concepts/accessibility/accessibility_basics|Accessibility basics]]
 * [[concepts/accessibility/accessibility_testing|Accessibility testing]]
-* [http://www.w3.org/WAI/EO/wiki/Web_Accessibility_Basics|This page originally available at W3C WAI]
+* [http://www.w3.org/WAI/EO/wiki/Web_Accessibility_Basics This page originally available at W3C WAI]
 {{Topics|Accessibility}}
 {{External_Attribution
 |Is_CC-BY-SA=No
