@@ -1,4 +1,4 @@
-{{Page_Title|Introduction to HTML5 Games}}
+{{Page_Title|Introduction to HTML5 games}}
 {{Flags
 |High-level issues=Needs Flags
 }}
