@@ -4,7 +4,6 @@
 |Name=Adam Mark & Adrian Gould
 |Published=March 10, 2011
 }}
-{{Summary_Section|Learn techniques and approaches for converting a crossword game from Flash to HTML5.}}
 {{Tutorial
 |Content=sdfsdf<h2 id="toc-introduction">Introduction</h2>
 
