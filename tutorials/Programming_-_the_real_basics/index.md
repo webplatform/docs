@@ -338,32 +338,32 @@ Loops are repetitive conditions where one variable in the loop changes. The easi
  
 Normally what you do with a <code>for</code> loop is to execute the code in the curly braces several times. For this you need to define an iterator variable and keep changing it during the loop until the variable value meets the end condition (which causes the interpreter to exit the loop and carry on to the next part of the code). For example:
  
-<pre>&lt;script type="text/javascript" charset="utf-8"&gt;
+<syntaxhighlight lang="javascript">
   for(var i = 0;i &lt; 11;i = i + 1){
     // do it, do it now
   }
-&lt;/script&gt;</pre>
+</syntaxhighlight>
  
 Here we define a variable <code>i</code> as having an initial value of 0 and then do a check to see if it has reached 11 yet (is it smaller than 11?). The change equation—<code>i = i + 1</code>—adds one to <code>i</code> every time the loop executes and goes through another iteration. This means that this loop executes 11 times. If you add two to <code>i</code> on every iteration it executes only 6 times:
  
-<pre>&lt;script type="text/javascript"&gt;
+<syntaxhighlight lang="javascript">
   for(var i = 0;i &lt; 11;i = i + 2){
     // do it, do it now
   }
-&lt;/script&gt;</pre>
+</syntaxhighlight>
  
 Using a loop the paragraph adding example we saw above gets a lot shorter and simpler:
  
-<pre>&lt;script type="text/javascript"&gt;
+<syntaxhighlight lang="javascript">
   var names = new Array('Chris','Dion','Ben','Brendan');
   var all = names.length;
   for(var i=0;i&lt;all;i=i+1){
     names[i] = '&lt;p&gt;' + names[i] + '&lt;/p&gt;';
   }
-&lt;/script&gt;</pre>
+</syntaxhighlight>
  
 Notice that you can use the value of <code>i</code> as the array counter inside the loop. This is the power of loops—not only can you do the same thing over and over again; you also know in every iteration how many times you have already done it.
- 
+
 == Summary ==
  
 This—in a very small nutshell—is programming. You take variables and user input and change them, compare them, loop over them and return them in one way or another. No black magic, not too confusing, just a very simplified view of how things work. We haven’t covered functions here, but let’s just say that once you’ve programmed a task that makes sense to re-use over and over again, you can turn this code into a function, which allows it to be executed repeatedly wherever such functionality is needed. Functions will be covered in much greater detail later on in the course. For now, I hope things are a bit clearer than they were at the beginning.
