@@ -27,7 +27,7 @@ CSS has a number of properties beginning with <code>font-</code>, which allow yo
 
 <code>font-family</code> allows you to specify which font, or fonts, a selection of elements will use. Take the Zappa example linked to above and try adding the following CSS line to the existing <code>body</code> rule, then save and reload:
 
-<pre>font-family: Arial;</pre>
+<syntaxhighlight lang="css">font-family: Arial;</syntaxhighlight>
 
 This will apply Arial &mdash; a sans-serif font (no serifs, the little decorative features at the end of the strokes of the text) &mdash; to the whole document, rather than the default serif font (fonts that <em>have</em> got serifs), provided this font is available on user's systems.
 
@@ -49,7 +49,7 @@ There are about 11 fonts that are installed across pretty much all systems, term
 
 If you want, you can also apply a number of fonts to a single element selection, known as a <strong>font stack</strong>. Try changing the line you added above to the following:
 
-<pre>font-family: 'helvetica neue', arial, verdana, sans-serif;</pre>
+<syntaxhighlight lang="css">font-family: 'helvetica neue', arial, verdana, sans-serif;</syntaxhighlight>
 
 You'll probably not see much difference from what was there before, so let's explain it. When you specify a font stack like this, the browser goes through them from left to right, until it finds a font that is installed on the system, and therefore can be used.
 
@@ -68,17 +68,21 @@ So far we've set fonts on the <code>&lt;body&gt;</code> element, which sets a pa
 
 For a start, it is often a good idea to use a different font for at least some of your headings, to make them stand out and give your site a bit more character. Add the following to your styles:
 
-<pre>h1, h2 {
+<syntaxhighlight lang="css">
+h1, h2 {
   font-family: impact; 
-}</pre>
+}
+</syntaxhighlight>
 
 Save and reload and you'll see that the page now has a very different look. 
 
 As for other fonts we could affect, how about the emphasised text? I've used <code>&lt;em&gt;</code> for all references involving dates to make them stand out a bit. As it is, the browser gives emphasis a default italic look, but this doesn't stand out as much as it could, so let's add the following to our styles:
 
-<pre>em {
+<syntaxhighlight lang="css">
+em {
   font-family: georgia;
-}</pre>
+}
+</syntaxhighlight>
 
 Your fonts (especially your headings) are one of the biggest contributors to the overall personality of your site, so choose them carefully to fit. This may sound difficult to begin with, but you'll soon get the hang of it. As a rule, Times new roman is good for corporate sites, whereas a serif like Arial might be better for a less formal site. Cursive fonts need to be used sparingly &mdash; for example comic sans is hated by many designers, but it is suitable sometimes, for example if you want to give a chalk on blackboard effect on a children's site.
 
@@ -92,11 +96,13 @@ Image replacement is a very common technique for having better looking headings 
 
 Create an image of how you want your heading to look. You can [http://people.opera.com/cmills/css-text-styling/zappa.png use my Frank Zappa image]. Now, try adding the following rule to your CSS, and save and reload, making sure my image is in the same directory as the zappa.html file:
 
-<pre>h1 {
+<syntaxhighlight lang="css">
+h1 {
   background-image: url(zappa.png);
   height: 55px;
   text-indent: -9000px;
-}</pre>
+}
+</syntaxhighlight>
 
 There are lots of variations on image replacement, but this is basically how most of them work: first of all, we include our image as a background image on the element we want to replace, setting the dimensions of the element to make sure the image can be fully seen (I've made my image 600 x 55 px - it's the same width as my content column.) Then we use a very large negative text indent to push the actual heading text right off the page so you can't see it, just leaving the background image in view. Don't worry about the unfamiliar CSS properties: you'll learn more about these later in the course.
 
@@ -112,16 +118,17 @@ See [http://people.opera.com/cmills/css-text-styling/zappa3.html zappa3.html] fo
 
 CSS3 introduces Web fonts, a feature that allows us to specify our own custom font files to download along with our web pages. This is great, as it complete gets around the problem of fonts not being available on user's machines. To specify a web font for download on a page, you reference the font in a special <code>@font-face</code> block that goes at the top of the page, and looks something like this:
 
-<pre>@font-face {
+<syntaxhighlight lang="css">
+@font-face {
   font-family: 'My font';
   src: url('myfont.ttf') format('truetype');
-}</pre>
+}</syntaxhighlight>
 
 There are more available options, but let's keep it simple for now. You basically specify what you want your font family to be called, and then point to the font file you want to download along with your web page. This should always go at the top of your CSS file, so you can use it afterwards.
 
 You then include the font in your page in exactly the same way as you would other fonts:
 
-<pre>font-family: 'My font';</pre>
+<syntaxhighlight lang="css">font-family: 'My font';</syntaxhighlight>
 
 Simple huh? Well, not quite. the reality is that not all browsers support the same font formats, so the syntax to make this work across browsers is more complicated. Luckily, you'll not have to write it yourself, as there are a number of services available that will do the hard work for you. We'll look at a free service called [http://www.fontsquirrel.com Font Squirrel], which not only has lot of great fonts available for you to use, but also generates all the CSS and font files you'll need.
 
@@ -141,7 +148,8 @@ Let's use this now.
 
 * Open the <code>stylesheet.css</code> file and copy the CSS rule inside it into the top of your example file styles. It should look like so:
 
-<pre>@font-face {
+<syntaxhighlight lang="css">
+@font-face {
   font-family: 'RomantiquesRegular';
   src: url('romantiques-webfont.eot');
   src: url('romantiques-webfont.eot?#iefix') format('embedded-opentype'),
@@ -150,7 +158,8 @@ Let's use this now.
        url('romantiques-webfont.svg#RomantiquesRegular') format('svg');
   font-weight: normal;
   font-style: normal;
-}</pre>
+}
+</syntaxhighlight>
 
 # Again, the <code>font-family</code> dictates what we need to call the font in the code.
 # The <code>src</code> values specify the locations of the font files. Different browsers coming across this keep going through the list until they find a format they understand, at which point they download that font file and use it in the page (although some browsers are a bit buggy, and may download more than just the one they need, wasting bandwidth in the process). IE uses the <code>.eot</code> version; most modern browsers will use the <abbr title="Web Open Font Format"><code>.woff</code>, which is smaller in file size than the others; older browsers that aren't IE and don't support <code>.woff</code> will use the <code>.ttf</code> or <code>.svg</code> files.
@@ -160,13 +169,13 @@ Note: if you didn't put the font files in the same directory as your example fil
 
 * Delete the <code>h1</code> rule we added previously, and replace it with this:
 
-<pre>h1, h2 {
+<syntaxhighlight lang="css">h1, h2 {
   font-family: RomantiquesRegular;
-}</pre>
+}</syntaxhighlight>
 
 Now save and reload, and you'll see the font applied to all first and second level headings in the page. Very useful, and much more flexible than image replacement! Try adding a color to your headings:
 
-<pre>color: #530FAD;</pre>
+<syntaxhighlight lang="css">color: #530FAD;</syntaxhighlight>
 
 There are some issues with using custom fonts in this manner, to be aware of:
 
@@ -193,7 +202,7 @@ Then they will always stay proportionate to one another, regardless of what font
 
 The first thing you'll want to do is set a base font size for the whole document. This is usually done on the <code>&lt;body&gt;</code> element, so add the following to your <code>body</code> rule:
 
-<pre>font-size: 62.5%</pre>
+<syntaxhighlight lang="css">font-size: 62.5%</syntaxhighlight>
 
 Why 62.5%? The answer is that the default font-size for most browsers is 16px. 62.5% of 16 is 10, so by doing this we are setting the base font for the whole site to 10px, which makes subsequent maths easier.
 
@@ -207,29 +216,29 @@ We'll stick to ems for now.
 
 First of all, add the following rules to your styles:
 
-<pre>h1 {
+<syntaxhighlight lang="css">h1 {
   font-size: 5.5em;
 }
     
 h2 {
   font-size: 3em;
-}</pre>
+}</syntaxhighlight>
 
-If you try this in different browsers, you'll notice that this rather complex font looks better in some than others, and none look quite as good at the image replacement version, with the heading created in Adobe Fireworks. This is the kind of testing you should do before embarking too far into a project with a chosen font. Also, it doesn't look that great at a smaller size on the <code>&lt;h2&gt;</code>s. But we'll leave as is for the purposes of this example.
+If you try this in different browsers, you'll notice that this rather complex font looks better in some than others, and none look quite as good at the image replacement version, with the heading created in Adobe Fireworks. This is the kind of testing you should do before embarking too far into a project with a chosen font. Also, it doesn't look that great at a smaller size on the <code>h2</code>s. But we'll leave as is for the purposes of this example.
 
 Next, let's set the body text and list to something a bit more readable:
 
-<pre>p, ul {
+<syntaxhighlight lang="css">p, ul {
   font-size: 1.6em;
-}</pre>
+}</syntaxhighlight>
 
 Here we've actually just set the body copy back to the default browser size, but it's good and readable.
 
 We'll also set the emphasis slightly smaller, to make it stand out even more nicely:
 
-<pre>em {
+<syntaxhighlight lang="css">em {
   font-size: 0.8em;
-}</pre>
+}</syntaxhighlight>
 
 You might be wondering why we had to set it to 0.8em to get it slightly smaller, rather than say 1.5 or 1.4? Well, try it and see!
 
@@ -260,9 +269,9 @@ Most of these don't really do anything, especially not at small sizes, and when 
 
 For this example, let's add the following to highlight the first lines below each heading:
 
-<pre>h1 + p:first-line, h2 + p:first-line {
+<syntaxhighlight lang="css">h1 + p:first-line, h2 + p:first-line {
   font-weight: bold;
-}</pre>
+}</syntaxhighlight>
 
 save, reload and check it out.
 
@@ -274,13 +283,13 @@ Note: <code>bold</code> is equivalent to <code>600</code>.
 
 Let's add the following line to the rule we added in the previous section:
 
-<pre>font-style: italic;</pre>
+<syntaxhighlight lang="css">font-style: italic;</syntaxhighlight>
 
 ==== font-variant ====
 
 <code>font-variant</code> can take two values, <code>normal</code>, which is the default as you'd expect, and <code>small-caps</code>, which uses all capital characters, but large ones for the capital letters, and small ones for the lower case letters. Add the following to the <code>em</code> rule and see what effect it gives:
 
-<pre>font-variant: small-caps;</pre>
+<syntaxhighlight lang="css">font-variant: small-caps;</syntaxhighlight>
 
 See [http://people.opera.com/cmills/css-text-styling/zappa6.html zappa6.html] for the additions at this point.
 }}
