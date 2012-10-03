@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page_Title|Taking your to-do list offline}}
 {{Flags
 |High-level issues=Needs Flags
 |Editorial notes=Links point to HTML5Rocks! that should point to internal copies.
@@ -9,9 +9,7 @@
 }}
 {{Summary_Section|A guide to taking web apps offline.}}
 {{Tutorial
-|Content==A Practical Guide to Taking Your TODO List Offline=
-
-==Introduction==
+|Content===Introduction==
 
 There are two main components to Offline support in HTML.
 
