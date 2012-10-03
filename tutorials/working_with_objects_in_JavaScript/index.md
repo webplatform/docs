@@ -20,18 +20,22 @@ In JavaScript, an object is a standalone entity, with properties and type. Compa
 
 A JavaScript object has properties associated with it. A property of an object can be explained as variables that are attached to the object. Object properties are basically the same with ordinary JavaScript variables, except for the attachment to objects. The properties of an object define the characteristics of the object. You access the properties of an object with a simple dot-notation:
 
-<pre><div style="margin-right: 270px">
-
+<pre>
+<syntaxhighlight lang="javascript">
  objectName.propertyName
-
-</div></pre>
+</syntaxhighlight>
+</pre>
 
 Like all JavaScript variables, both the object name (which could be a normal variable) and property name are case sensitive. You define a property by assigning it a value. For example, let's create an object named <code>myCar</code> and give it properties named <code>make</code>, <code>model</code>, and <code>year</code> as follows:
+
+<pre>
 
  var myCar = new Object();
  myCar.make = "Ford";
  myCar.model = "Mustang";
  myCar.year = 1969;
+
+</pre>
 
 Properties of JavaScript objects can also be accessed or set using a bracket notation. Objects are sometimes called ''associative arrays'', since each property is associated with a string value that can be used to access it. So, for example, you could access the properties of the <code>myCar</code> object as follows:
 
