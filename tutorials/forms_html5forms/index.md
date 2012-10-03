@@ -91,8 +91,7 @@ that platform's search fields.</td>
 <tr>
 <td><code>url</code></td>
 <td>For entering a single URL.</td>
-<td><code>url</code> is intended for entering a single, [http://www.w3.org/TR/html5/urls.html#absolute-url 
-absolute URL], which represents a pretty wide range of values.</td>
+<td><code>url</code> is intended for entering a single, [http://www.w3.org/TR/html5/urls.html#absolute-url absolute URL], which represents a pretty wide range of values.</td>
 </tr>
 <tr>
 <td><code>email</code></td>
@@ -150,7 +149,7 @@ browsers that support it.</td>
 <td><code>color</code></td>
 <td>For choosing color through a color well control.</td>
 <td>The value must be a
-<a href="http://www.w3.org/TR/html5/common-microsyntaxes.html#valid-lowercase-simple-color" target="_blank">valid lowercase simple color</a> such as #ffffff.</td>
+[http://www.w3.org/TR/html5/common-microsyntaxes.html#valid-lowercase-simple-color valid lowercase simple color] such as #ffffff.</td>
 </tr>
 </table>
 
