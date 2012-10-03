@@ -253,7 +253,7 @@ Or consider the chat panel. The Flash version required multiple event handlers t
 
  [[Image:xwordico-flash-chat.jpg.pagespeed.ic._PIgSdvpA0.jpg]] The chat panel in Flash was pretty but complex.
 
-The HTML version, by comparison, is just a <code>&lt;div&gt;></code> with a fixed height and the overflow property set to hidden. Scrolling costs us nothing.
+The HTML version, by comparison, is just a <code>&lt;div></code> with a fixed height and the overflow property set to hidden. Scrolling costs us nothing.
 
  [[Image:wordico-html-chat.jpg]] The CSS box model at work.
 
