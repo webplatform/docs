@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags}}
 {{Summary_Section|This article shows how to use JavaScript to modify the CSS applied to an HTML page, and create new styles.}}
-{{Guide
+{{Tutorial
 |Content=== Introduction ==
  
 At this point in the JavaScript section of the [http://www.w3.org/wiki/Web_Standards_Curriculum Web Standards Curriculum], you’ve already covered the real basics of JavaScript usage, looked at how to target elements using the DOM, and seen how to manipulate them once you’ve successfully targeted them.
