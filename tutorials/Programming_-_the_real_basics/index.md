@@ -214,7 +214,7 @@ The other thing conditions can do for you is allow for branching. You might have
  
 The easiest condition is an <code>if</code> statement and its syntax is <code>if(condition){ do this … }</code>. The condition has to be true for the code inside the curly braces to be executed. You can for example test a string and set the value of another string dependent on its value:
  
-<pre>&lt;script type="text/javascript"&gt;
+<syntaxhighlight lang="javascript">
 var country = 'France';
 var weather;
 var food;
@@ -238,7 +238,7 @@ var message = 'this is ' + country + ', the weather is ' +
               weather + ', the food is ' + food + ' and the ' +
               'currency is ' + currency;
 alert(message);
-&lt;/script&gt;</pre>
+</syntaxhighlight>
  
 Try it out yourself in my [http://dev.opera.com/articles/view/programming-the-real-basics/weather.html Weather if statement example]. Change the value of the country variable to see the different messages.
  
@@ -254,7 +254,7 @@ Other conditional test examples:
  
 Conditions can also be nested. Say for example you want to make sure that the country variable is set in the earlier example; you can do that this way:
  
-<pre>&lt;script type="text/javascript"&gt;
+<syntaxhighlight lang="javascript">
 var country = 'Germany';
 var weather;
 var food;
@@ -280,7 +280,7 @@ if(country){
                 'currency is ' + currency;
   alert(message);
 }
-&lt;/script&gt;</pre>
+</syntaxhighlight>
  
 Try it out yourself in my [http://dev.opera.com/articles/view/programming-the-real-basics/saferweather.html Safe-weather if statement example]. Change the value of the country variable to see the different messages.
  
@@ -290,19 +290,18 @@ Furthermore you can concatenate different conditions with “or” or “and” 
  
 There is also an <code>else</code> clause that will be applied every time the first condition isn’t true. This is very powerful if you want to react to any value, but single out one in particular for special treatment:
 
- 
-<pre>&lt;script type="text/javascript"&gt;
+<syntaxhighlight lang="javascript">
   var umbrellaMandatory;
   if(country == 'England'){
     umbrellaMandatory = true;
   } else {
     umbrellaMandatory = false;
   }
-&lt;/script&gt;</pre>
+</syntaxhighlight>
  
 Conditions are great, but they are a bit limited. What if you want to do something over and over again? Say your job is to add a paragraph tag around each of the values in an array? Using only conditions you’d need to hard-code cases for arrays of all the different lengths you'd be likely to come across:
  
-<pre>&lt;script type="text/javascript"&gt;
+<syntaxhighlight lang="javascript">
   var names = new Array('Chris','Dion','Ben','Brendan');
   var all = names.length;
   if(all == 1){
@@ -323,7 +322,7 @@ Conditions are great, but they are a bit limited. What if you want to do somethi
     names[2] = '&lt;p&gt;' + names[2] + '&lt;/p&gt;';
     names[3] = '&lt;p&gt;' + names[3] + '&lt;/p&gt;';
   }
-&lt;/script&gt;</pre>
+</syntaxhighlight>
  
 This is just terrible and inflexible. Programming is meant to make our life easier and if you find yourself writing the same code over and over again, you are probably doing something wrong. Good programming means leaving the boring tasks to the machines and focusing on what you want to achieve.
  
