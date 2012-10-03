@@ -245,7 +245,7 @@ HTTP Request:
  User-Agent: Mozilla/5.0...
 </syntaxhighlight>
 
-The first thing to note is that a valid CORS request *always* contains an Origin header. This [http://tools.ietf.org/html/draft-abarth-origin-09 Origin header] is added by the browser, and can not be controlled by the user. The value of this header is the scheme (e.g. http), domain (e.g. bob.com) and port (included only if it is not a default port, e.g. 81) from which the request originates; for example: http://api.alice.com.
+The first thing to note is that a valid CORS request ''always'' contains an Origin header. This [http://tools.ietf.org/html/draft-abarth-origin-09 Origin header] is added by the browser, and can not be controlled by the user. The value of this header is the scheme (e.g. http), domain (e.g. bob.com) and port (included only if it is not a default port, e.g. 81) from which the request originates; for example: http://api.alice.com.
 
 Here’s a valid server response; the CORS-specific headers are bolded
 
