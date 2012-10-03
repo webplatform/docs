@@ -1,5 +1,7 @@
 {{Page_Title|Converting Wordico from Flash to HTML5}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Flags
+}}
 {{Byline
 |Name=Adam Mark & Adrian Gould
 |Published=March 10, 2011
