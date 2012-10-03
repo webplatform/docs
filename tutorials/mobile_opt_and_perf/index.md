@@ -313,7 +313,7 @@ Note: Do not enable the GPU compositing on all pages option. The FPS counter onl
 
 If you view [http://slidfast.appspot.com/slide-flip-rotate.html this page] in your souped up version of Chrome, you will see the red FPS counter in the top left hand corner.
 
-[[File:chrome-fps.png|200px|31px|Chrome FPS]]
+[[File:chrome-fps.png|200x31px|Chrome FPS]]
 
 This is how we know hardware acceleration is turned on. It also gives us an idea on how the animation runs and if you have any leaks (continuous running animations that should be stopped).
 
@@ -352,7 +352,7 @@ Let’s address a few core mobile web problems and the reasons why we need to do
 
 Building on the code from the [http://slidfast.appspot.com/slide-flip-rotate.html Slide, Flip, and Rotate demo], we start out by adding some secondary pages and linking to them. We’ll then parse the links and create transitions on the fly.
 
-[[File:iphone-home.png|372px|335px|iPhone Home]]
+[[File:iphone-home.png|372x335px|iPhone Home]]
 
 [http://slidfast.appspot.com/fetch-cache.html View the Fetch and Cache demo here.]
 
