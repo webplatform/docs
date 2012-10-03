@@ -1,4 +1,4 @@
-{{Page_Title|Reading files in JavaScript using the File APIs}}
+{{Page_Title|Reading files in JavaScript using the file APIs}}
 {{Flags
 |High-level issues=Needs Flags
 }}
