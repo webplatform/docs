@@ -59,7 +59,7 @@ AssetManager.prototype.queueDownload = function(path) {
 
 After you have queued up all the assets to be downloaded, you can ask the asset manager to start downloading everything.
 
-The web browser can parallelize the downloads, luckily—usually up to 4 connections per host. One way to speed up asset downloading is to use a range of domain names for asset hosting. For example, instead of serving everything from assets.example.com, try using assets1.example.com, assets2.example.com, assets3.example.com, and so on. Even if each of those domain names is simply a CNAME to the same web server, the web browser sees them as separate servers and increases the number of connections used for asset downloading. Learn more about this technique from <a href="http://developer.yahoo.com/performance/rules.html#split">Split Components Across Domains</a> at <a href="http://developer.yahoo.com/performance/rules.html">Best Practices for Speeding Up Your Web Site</a>.
+The web browser can parallelize the downloads, luckily—usually up to 4 connections per host. One way to speed up asset downloading is to use a range of domain names for asset hosting. For example, instead of serving everything from assets.example.com, try using assets1.example.com, assets2.example.com, assets3.example.com, and so on. Even if each of those domain names is simply a CNAME to the same web server, the web browser sees them as separate servers and increases the number of connections used for asset downloading. Learn more about this technique from [http://developer.yahoo.com/performance/rules.html#split Split Components Across Domains] at [http://developer.yahoo.com/performance/rules.html Best Practices for Speeding Up Your Web Site].
 
 Our method for download initialization is called <code>downloadAll()</code>. We’ll build it up over time. For now, here is the first logic to just start the downloads.
 
@@ -269,7 +269,7 @@ Please post improvements, forks, and links to code in the comments below.
 
 ==Full Source== 
 
-The source for this asset manager, and the game it’s abstracted from, is open source under the Apache License and can be found in the <a href="https://github.com/sethladd/Bad-Aliens">Bad Aliens GitHub account</a>. The <a href="http://bad-aliens.appspot.com/">Bad Aliens game</a> can be played in your HTML5 compatible browser. This game was the subject for my Google IO talk titled Super Browser 2 Turbo HD Remix: Introduction to HTML5 Game Development (<a href="http://io-2011-html5-games-hr.appspot.com">slides</a>, <a href="http://www.youtube.com/watch?v=yEocRtn_j9s">video</a>).
+The source for this asset manager, and the game it’s abstracted from, is open source under the Apache License and can be found in the [https://github.com/sethladd/Bad-Aliens Bad Aliens GitHub account]. The [http://bad-aliens.appspot.com/ Bad Aliens game] can be played in your HTML5 compatible browser. This game was the subject for my Google IO talk titled Super Browser 2 Turbo HD Remix: Introduction to HTML5 Game Development ([http://io-2011-html5-games-hr.appspot.com slides], [http://www.youtube.com/watch?v=yEocRtn_j9s video]).
 
 ==Summary==
 
@@ -371,7 +371,22 @@ The cache is populated at the end of <code>downloadAll()</code>, as shown below:
       img.src = path;
       this.cache[path] = img;
   }
-}
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section}}
+{{Topics}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=HTML5Rocks
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=http://www.html5rocks.com/tutorials/games/assetmanager/
+}}
 </pre>
 
 ==Bonus: Bug Fix==
@@ -431,19 +446,4 @@ The source for this asset manager, and the game it’s abstracted from, is open 
 Most games have some sort of asset manager, but HTML5 games require an asset manager that loads assets over a network and handles failures. This article outlined a simple asset manager that should be easy for you to use and adapt for your next HTML5 game. Have fun, and please let us know what you think in the comments below. Thanks!
 
 
-}}
-{{Compatibility_Section
-|Not_required=No
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=HTML5Rocks
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=http://www.html5rocks.com/tutorials/games/assetmanager/
 }}
