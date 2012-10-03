@@ -41,31 +41,31 @@ inherited properties in CSS can be overridden.
 <ol>
 <li><p>Copy the following HTML document into a new file in your favourite text editor and save it as inherit.html.</p>
 
-<pre>&lt;!DOCTYPE html&gt;
-&lt;html lang="en"&gt;
-  &lt;head&gt;
-    &lt;meta charset="UTF-8"&gt;
-    &lt;title&gt;Inheritance&lt;/title&gt;
-  &lt;/head&gt;
-  &lt;body&gt;
-   &lt;h1&gt;Heading&lt;/h1&gt;
-   &lt;p&gt;A paragraph of text.&lt;/p&gt;
-  &lt;/body&gt;
-&lt;/html&gt;</pre>
+<syntaxhighlight lang="html5"><!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Inheritance</title>
+  </head>
+  <body>
+   <h1>Heading</h1>
+   <p>A paragraph of text.</p>
+  </body>
+</html></syntaxhighlight>
 
 <p>If you open the document in your web browser you will see a rather boring document displayed according to your browser’s default styling.</p>
 </li>
 <li>
 <p>Create a new empty file in your text editor, copy the CSS rule below into it, and save the file as style.css in the same location as the HTML file.</p>
 
-<pre>html {
+<syntaxhighlight lang="css">html {
   font: 75% Verdana, sans-serif;
-}</pre>
+}</syntaxhighlight>
 </li>
 <li>
 <p>Link the style sheet to your HTML document by inserting the following line before the <code>&lt;/head&gt;</code> tag:</p>
 
-<pre>&lt;link rel="stylesheet" type="text/css" href="style.css"&gt;</pre>
+<syntaxhighlight lang="html5"><link rel="stylesheet" type="text/css" href="style.css"></syntaxhighlight>
 </li>
 <li><p>Save the modified HTML file and reload the document in your browser.</p>
 </li>
@@ -77,14 +77,14 @@ If you don’t have Verdana installed on your computer, the text will be display
 
 We’ve only specified two of them — the font size and the font family—but that rule is equivalent to the following:
 
-<pre>html {
+<syntaxhighlight lang="css">html {
   font-style: normal;
   font-variant: normal;
   font-weight: normal;
   font-size: 75%;
   line-height: normal;
   font-family: Verdana,sans-serif;
-}</pre>
+}</syntaxhighlight>
 
 All of those properties are inherited, so the <code>&lt;body&gt;</code> element will inherit them from the <code>&lt;html&gt;</code> element and then pass them on to its children — the heading and the paragraph. But wait a second! There’s something fishy going on with the inheritance of font size, isn’t there?
 
@@ -99,11 +99,11 @@ Let's go a bit further with our example
 <ol>
 <li><p>Add two more declarations to the rule in your CSS style sheet:</p>
 
-<pre>html {
+<syntaxhighlight lang="css">html {
   font: 75% Verdana,sans-serif;
   '''background-color: blue;
   color: white;'''
-}</pre>
+}</syntaxhighlight>
 </li>
 <li>
 <p>Save the CSS file and reload the document in your browser. Now the background of the whole document is bright blue, and all the text is white. The white text color is inherited by the <code>&lt;body&gt;</code> element and passed on to all children of <code>body</code> — in this case the heading and the paragraph. The heading and paragraph don’t however inherit the background but instead will default to <code>transparent</code>, so the net visual result will be white text on a blue background.</p>
@@ -111,9 +111,9 @@ Let's go a bit further with our example
 <li>
 <p>Add another new rule to the style sheet:</p>
 
-<pre>h1 {
+<syntaxhighlight lang="css">h1 {
   font-size: 300%;
-}</pre>
+}</syntaxhighlight>
 </li>
 <li>
 <p>Save and reload the document: this rule sets the font size for the heading. The percentage is applied to the inherited font size — 12px, as we discussed above — so the heading size will be 300% of 12px, or 36px.</p>
@@ -126,23 +126,23 @@ You can force inheritance — even for properties that aren’t inherited by def
  
 The following rule will make all paragraphs inherit all background properties from their parents:
  
-<pre>p {
+<syntaxhighlight lang="css">p {
   background: inherit;
-}</pre>
+}</syntaxhighlight>
   
 Forcing inheritance isn’t something you need to do every day. It can be useful for “undoing” a declaration in a conflicting rule, or to avoid hardcoding certain values. As an example, consider a typical navigation menu:
  
-<pre>&lt;ul id="nav"&gt;
-  &lt;li&gt;&lt;a href="/"&gt;Home&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="/news/"&gt;News&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="/products/"&gt;Products&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="/services/"&gt;Services&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="/about/"&gt;About Us&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</pre>
+<syntaxhighlight lang="html5"><ul id="nav">
+  <li><a href="/">Home</a></li>
+  <li><a href="/news/">News</a></li>
+  <li><a href="/products/">Products</a></li>
+  <li><a href="/services/">Services</a></li>
+  <li><a href="/about/">About Us</a></li>
+</ul></syntaxhighlight>
  
 To display this list of links as a horizontal menu, you could use the following CSS:
  
-<pre>#nav {
+<syntaxhighlight lang="css">#nav {
   background: blue;
   color: white;
   margin: 0;
@@ -159,7 +159,7 @@ To display this list of links as a horizontal menu, you could use the following 
 #nav li a {
   color: inherit;
   text-decoration: none;
-}</pre>
+}</syntaxhighlight>
  
 Here the background color of the whole list is set to blue in the rule for <code>#nav</code>. This also sets the foreground color to white, and this is inherited by each list item and each link. The rule for the list items sets a right border, but doesn’t specify the border color, which means it will use the inherited foreground color, white. For the links we’ve used <code>color:inherit;</code> to force inheritance and override the browser's default link color.
 
@@ -205,9 +205,9 @@ Normal declarations are just that: normal declarations.
 
 The opposite is important declarations, which are declarations followed by an <code>!important</code> directive. A dyslexic user might, for instance, want all text to be displayed in Comic Sans MS if he finds that font easier to read. He could then have a user style sheet containing the following rule:
  
-<pre>* {
+<syntaxhighlight lang="css">* {
   font-family: "Comic Sans MS" !important;
-}</pre>
+}</syntaxhighlight>
 
 Important declarations in a user style sheet will trump everything else, which is logical. In this case, no matter what the designer specified, and no matter what the browser’s default font family is set to, everything will be displayed in Comic Sans MS. The default browser rendering will only apply if those declarations aren’t overridden by any rules in a user style sheet or an author style sheet, since the user agent style sheet has the lowest precedence.
  
@@ -282,37 +282,37 @@ Let’s look at how this works in practice.
 <ol>
 <li><p>First of all, start by adding another paragraph to your HTML document.</p>
 
-<pre><code>&lt;body&gt;
-  &lt;h1&gt;Heading&lt;/h1&gt;
-  &lt;p&gt;A paragraph of text.&lt;/p&gt;
-  '''&lt;p&gt;A second paragraph of text.&lt;/p&gt;'''
-&lt;/body&gt;</code> </pre>
+<syntaxhighlight lang="html5"><body>
+  <h1>Heading</h1>
+  <p>A paragraph of text.</p>
+  '''<p>A second paragraph of text.</p>'''
+</body></syntaxhighlight>
 </li>
 <li>
 <p>Next, add a rule to your stylesheet to make the paragraph text have a different color:</p>
 
-<pre>p {
+<syntaxhighlight lang="css">p {
   color: cyan;
-}</pre>
+}</syntaxhighlight>
 </li>
 <li>
 <p>Now save both files and reload the document in your browser; there should now be two paragraphs with cyan text.</p>
 </li>
 <li><p>Set an <code>id</code> on the first paragraph so you can target it easily with a CSS selector.</p>
 
-<pre>&lt;body&gt;
-  &lt;h1&gt;Heading&lt;/h1&gt;
-  &lt;p '''id="special"'''&gt;A paragraph of text.&lt;/p&gt;
-  &lt;p&gt;A second paragraph of text.&lt;/p&gt;
-&lt;/body&gt;</pre>
+<syntaxhighlight lang="css"><body>
+  <h1>Heading</h1>
+  <p '''id="special"'''>A paragraph of text.</p>
+  <p>A second paragraph of text.</p>
+</body></syntaxhighlight>
 </li>
 <li>
 <p>Carry on by adding a rule for the special paragraph in your style sheet:</p>
 
-<pre>#special {
+<syntaxhighlight lang="css">#special {
   background-color: red;
   color: yellow;
-}</pre>
+}</syntaxhighlight>
 </li>
 <li>
 <p>Finally, save both files and reload the document in your browser to see the now rather colorful result.</p>
@@ -338,10 +338,10 @@ In that case, the order in which the style sheets are linked, included or import
 <ol>
 <li><p>Add a new rule to your style sheet at the very end of the file, like so:</p>
 
-<pre>p {
+<syntaxhighlight lang="css">p {
   background-color: yellow;
   color: black;
-}</pre>
+}</syntaxhighlight>
 </li>
 <li>
 <p>Save and reload the web page. you will now have ''two'' rules that match all paragraphs. They have the same importance and the same specificity (since the selector is the same), therefore the final mechanism for choosing which one wins will be the source order. The last rule specifies <code>color:black</code> and that will override <code>color:cyan</code> from the earlier rule.</p>
