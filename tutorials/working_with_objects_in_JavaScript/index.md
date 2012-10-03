@@ -97,9 +97,9 @@ In JavaScript, almost everything is an object. All primitive types except <code>
 
 ==Enumerating all properties of an object==
 
-Starting with [/en-US/docs/JavaScript/ECMAScript_5_support_in_Mozilla ECMAScript 5], there are three native ways to list/traverse object properties:
+Starting with ECMAScript 5, there are three native ways to list/traverse object properties:
 
-* [https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Statements/for...in for...in for...in] loops: this method traverses all enumerable properties of an object and its prototype chain
+* [https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Statements/for...in for...in] loops: this method traverses all enumerable properties of an object and its prototype chain
 * [https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Object/keys Object.keys(o)]: this method returns an array with all the own (not in the prototype chain) enumerable properties names ("keys") of an object <code>o</code>.
 * [https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Object/getOwnPropertyNames Object.getOwnPropertyNames(o)]: this method returns an array containing all own properties names (enumerable or not) of an object <code>o</code>.
 
@@ -152,7 +152,7 @@ The following example creates <code>myHonda</code> with three properties. Note t
 <syntaxhighlight lang="javascript">
  var myHonda = {color: "red", wheels: 4, engine: {cylinders: 4, size: 2.2}};
 
-You can also use object initializers to create arrays. See [Values%2C_variables%2C_and_literals#Array_literals array literals].
+You can also use object initializers to create arrays. See [https://developer.mozilla.org/en-US/docs/JavaScript/Guide/Values%2C_variables%2C_and_literals#Array_literals array literals].
 
 In JavaScript 1.1 and earlier, you cannot use object initializers. You can create objects only using their constructor functions or using a function supplied by some other object for that purpose. See [#Using_a_constructor_function Using a constructor function].
 
