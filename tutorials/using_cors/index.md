@@ -18,7 +18,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|JavaScript}}
+{{Topics|JavaScript, Security}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=HTML5Rocks
