@@ -14,8 +14,7 @@ When we converted our [http://www.wordico.com Wordico] crossword game from Flash
 
 We developed the original version of Wordico using only vector graphics: lines, curves, fills, and gradients. The result was both highly compact and infinitely scalable:
 
- [[Image:wordico-flash-wireframe.jpg|600px|Wordico Wireframe]] 
-In Flash, every display object was made of vector shapes.
+ [[Image:wordico-flash-wireframe.jpg|600px|Wordico Wireframe]] In Flash, every display object was made of vector shapes.
 
 We also took advantage of the Flash timeline to create objects having multiple states. For example, we used nine named keyframes for the <code>Space</code> object:
 
@@ -255,7 +254,7 @@ Or consider the chat panel. The Flash version required multiple event handlers t
 
  [[Image:wordico-flash-chat.jpg|The chat panel in Flash was pretty but complex]] .
 
-The HTML version, by comparison, is just a <code><div></code> with a fixed height and the overflow property set to hidden. Scrolling costs us nothing.
+The HTML version, by comparison, is just a <code>&lt;div></code> with a fixed height and the overflow property set to hidden. Scrolling costs us nothing.
 
  [[Image:wordico-html-chat.jpg]] The CSS box model at work.
 
