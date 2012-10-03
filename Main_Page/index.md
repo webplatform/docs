@@ -13,11 +13,11 @@ In the future, Web Platform Docs will include even more content for you to explo
 *[[tutorials|Web Development Tutorials]]
 *[[concepts|Web Development Concepts]]
 *Topics
- *[[HTML|HTML]]
- *[[CSS|CSS]]
- *[[javascript|JavaScript]]
- *[[SVG|SVG]]
- *[[Accessibility]]
+** [[HTML|HTML]]
+** [[CSS|CSS]]
+** [[javascript|JavaScript]]
+** [[SVG|SVG]]
+** [[Accessibility]]
 
 == Contribute to Web Platform Docs ==
 
