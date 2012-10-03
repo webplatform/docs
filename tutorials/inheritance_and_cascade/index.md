@@ -101,8 +101,10 @@ Let's go a bit further with our example
 
 <syntaxhighlight lang="css">html {
   font: 75% Verdana,sans-serif;
-  '''background-color: blue;
-  color: white;'''
+
+  /* Add these */
+  background-color: blue;
+  color: white;
 }</syntaxhighlight>
 </li>
 <li>
@@ -285,7 +287,9 @@ Let’s look at how this works in practice.
 <syntaxhighlight lang="html5"><body>
   <h1>Heading</h1>
   <p>A paragraph of text.</p>
-  '''<p>A second paragraph of text.</p>'''
+  
+  <!-- Add this -->
+  <p>A second paragraph of text.</p>
 </body></syntaxhighlight>
 </li>
 <li>
@@ -302,7 +306,8 @@ Let’s look at how this works in practice.
 
 <syntaxhighlight lang="css"><body>
   <h1>Heading</h1>
-  <p '''id="special"'''>A paragraph of text.</p>
+  <!-- Add the id of "special" to this paragraph -->
+  <p id="special">A paragraph of text.</p>
   <p>A second paragraph of text.</p>
 </body></syntaxhighlight>
 </li>
