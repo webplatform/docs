@@ -350,7 +350,7 @@ JavaScript has a special keyword, <code>this</code>, that you can use within a m
 
 Then, you could call <code>validate</code> in each form element's <code>onchange </code> event handler, using <code>this</code> to pass it the element, as in the following example:
 
-<syntaxhighlight lang="html">
+<syntaxhighlight lang="html5">
  <input type="text" name="age" size="3"
    onChange="validate(this, 18, 99)">
 </syntaxhighlight>
@@ -359,7 +359,7 @@ In general, <code>this</code> refers to the calling object in a method.
 
 When combined with the <code>form</code> property, <code>this</code> can refer to the current object's parent form. In the following example, the form <code>myForm</code> contains a <code>Text</code> object and a button. When the user clicks the button, the value of the <code>Text</code> object is set to the form's name. The button's <code>onclick</code> event handler uses <code>this.form</code> to refer to the parent form, <code>myForm</code>.
 
-<syntaxhighlight lang="html">
+<syntaxhighlight lang="html5">
  <form name="myForm">
  <p><label>Form name:<input type="text" name="text1" value="Beluga"></label>
  <p><input name="button1" type="button" value="Show Form Name"
