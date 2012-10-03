@@ -6,7 +6,7 @@
 }}
 {{Byline}}
 {{Summary_Section|JavaScript is a cross-platform, object-based scripting language. This guide explains everything you need to know about using JavaScript.}}
-{{Guide
+{{Concept
 |Content=== New features in JavaScript versions ==
 
 * New in JavaScript 1.5
