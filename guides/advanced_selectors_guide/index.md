@@ -79,7 +79,7 @@ If you had an element on a page with a number of classes applied to it, for exam
 
 You could select it using any of the following selectors:
 
-<syntaxhighlight lang="css">>article[class~="featured"]
+<syntaxhighlight lang="css">article[class~="featured"]
 article[class~="archive"]
 article[class~="english"]</syntaxhighlight>
 
@@ -113,7 +113,7 @@ Note also that the > character is often referred to as a combinator in this cont
  
 Descendent selectors are very similar to child selectors, except that child selectors only select immediate descendants; descendent selectors select matching elements anywhere in the element hierarchy, not just direct descendants. Let's look at what this means more carefully. Consider the following HTML snippet:
  
-<syntaxhighlight lang="hmtl5"><div>
+<syntaxhighlight lang="html5"><div>
   <p>hello</p>
   <article> 
     <p>In this paragraph I will say goodbye</p>.
@@ -245,7 +245,7 @@ Or instead, we could use the negation selector, like so:
 section:not(#references) {
   ...
 }
-</syntax>
+</syntaxhighlight>
 
 Which is much shorter and simpler.
 
