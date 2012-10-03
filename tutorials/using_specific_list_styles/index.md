@@ -27,19 +27,20 @@ Alternatively, you can specify the URL of an image.
 
 These rules specify different markers for different classes of list item:
 
- 
-<pre>li.open {list-style: circle;}
- li.closed {list-style: disc;}</pre>
+<syntaxhighlight lang="css">li.open {list-style: circle;}
+li.closed {list-style: disc;}</syntaxhighlight>
 
 When these classes are used in a list, they distinguish between open and closed items (for example, in a to-do list):
 
- &lt;ul&gt;
-   &lt;li class="open"&gt;Lorem ipsum&lt;/li&gt;
-   &lt;li class="closed"&gt;Dolor sit&lt;/li&gt;
-   &lt;li class="closed"&gt;Amet consectetuer&lt;/li&gt;
-   &lt;li class="open"&gt;Magna aliquot&lt;/li&gt;
-   &lt;li class="closed"&gt;Autem vellum&lt;/li&gt;
- &lt;/ul&gt; 
+<syntaxhighlight lang="html5">
+ <ul>
+   <li class="open">Lorem ipsum</li>
+   <li class="closed">Dolor sit</li>
+   <li class="closed">Amet consectetuer</li>
+   <li class="open">Magna aliquot</li>
+   <li class="closed">Autem vellum</li>
+ </ul>
+</syntaxhighlight>
 
 The result might look like:
 
@@ -73,8 +74,6 @@ If you are using a markup language like HTML that provides conventional tags for
 
 Browsers differ in the way they implement the styles for lists. Do not expect your stylesheet to give identical results in all browsers.
 
-</div>
-
 ===Counters===
 
 '''Note: ''' Some browsers do not support counters. The [http://www.quirksmode.org/css/contents.html CSS contents and browser compatibility] page on the [http://www.quirksmode.org/ Quirks Mode site] contains a detailed chart of browser compatibility for this and other CSS features. Individual pages in the [/en/CSS_Reference CSS Reference] on this site also have browser compatibility tables.
@@ -93,15 +92,15 @@ In the value of the <code>content</code> property, specify <code>counter()</code
 
 Normally the element that displays the counter also increments it.
 
-<pre>h3.numbered {counter-reset: mynum;}</pre>
+<syntaxhighlight lang="css">h3.numbered {counter-reset: mynum;}</syntaxhighlight>
 
 This rule displays and increments the counter for every {{ HTMLELement("p") }} element with the class <code>numbered</code><nowiki>:</nowiki>
 
  
-<pre>p.numbered:before {
+<syntaxhighlight lang="css">p.numbered:before {
    content: counter(mynum) ": ";
    counter-increment: mynum;
-   font-weight: bold;}</pre>
+   font-weight: bold;}</syntaxhighlight>
 
 The result looks like this:
 
@@ -118,45 +117,44 @@ You can also use counters in more complex ways—for example, to number sections
 <ol>
 <li><p>Make a new HTML document, <code>doc2.html</code>. Copy and paste the content from here:</p>
 
- 
-<pre> &lt;!DOCTYPE html&gt;
- &lt;html&gt;
-   &lt;head&gt;
-     &lt;meta charset="UTF-8"&gt;
-     &lt;title&gt;Sample document 2&lt;/title&gt;
-     &lt;link rel="stylesheet" href="style2.css"&gt;
-   &lt;/head&gt;
-   &lt;body&gt;
+<syntaxhighlight lang="html5"> <!DOCTYPE html>
+ <html>
+   <head>
+     <meta charset="UTF-8">
+     <title>Sample document 2</title>
+     <link rel="stylesheet" href="style2.css">
+   </head>
+   <body>
   
-     &lt;h3 id="oceans"&gt;The oceans&lt;/h3&gt;
-     &lt;ul&gt;
-       &lt;li&gt;Arctic&lt;/li&gt;
-       &lt;li&gt;Atlantic&lt;/li&gt;
-       &lt;li&gt;Pacific&lt;/li&gt;
-       &lt;li&gt;Indian&lt;/li&gt;
-       &lt;li&gt;Southern&lt;/li&gt;
-     &lt;/ul&gt;
+     <h3 id="oceans">The oceans</h3>
+     <ul>
+       <li>Arctic</li>
+       <li>Atlantic</li>
+       <li>Pacific</li>
+       <li>Indian</li>
+       <li>Southern</li>
+     </ul>
   
-     &lt;h3 class="numbered"&gt;Numbered paragraphs&lt;/h3&gt;
-     &lt;p class="numbered"&gt;Lorem ipsum&lt;/p&gt;
-     &lt;p class="numbered"&gt;Dolor sit&lt;/p&gt;
-     &lt;p class="numbered"&gt;Amet consectetuer&lt;/p&gt;
-     &lt;p class="numbered"&gt;Magna aliquot&lt;/p&gt;
-     &lt;p class="numbered"&gt;Autem vellum&lt;/p&gt;
+     <h3 class="numbered">Numbered paragraphs</h3>
+     <p class="numbered">Lorem ipsum</p>
+     <p class="numbered">Dolor sit</p>
+     <p class="numbered">Amet consectetuer</p>
+     <p class="numbered">Magna aliquot</p>
+     <p class="numbered">Autem vellum</p>
   
-   &lt;/body&gt;
- &lt;/html&gt;</pre></li>
+   </body>
+ </html></syntaxhighlight></li>
 
 <li><p>Make a new stylesheet, <code>style2.css</code>. Copy and paste the content from here:</p>
 
-<pre> /* numbered paragraphs */
+<syntaxhighlight lang="css">/* numbered paragraphs */
  h3.numbered {counter-reset: mynum;}
   
  p.numbered:before {
    content: counter(mynum) ": ";
    counter-increment: mynum;
    font-weight: bold;
- }</pre>
+ }</syntaxhighlight>
 
 <p>If the layout and comment are not to your taste, change them.</p>
 </li>
