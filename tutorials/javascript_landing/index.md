@@ -1,1 +1,1 @@
-#REDIRECT [[tutorials/javascript]]
+stub
