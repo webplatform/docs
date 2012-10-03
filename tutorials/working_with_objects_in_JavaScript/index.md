@@ -372,16 +372,12 @@ When combined with the <code>form</code> property, <code>this</code> can refer t
 
 A ''getter'' is a method that gets the value of a specific property. A ''setter'' is a method that sets the value of a specific property. You can define getters and setters on any predefined core object or user-defined object that supports the addition of new properties. The syntax for defining getters and setters uses the object literal syntax.
 
-<div class="blockIndicator standardNote standardNoteBlock">
 
-[https://developer.mozilla.org/en-US/docs/JavaScript/New_in_JavaScript/1.8.1 JavaScript 1.8.1] note
+{{note|Starting in [https://developer.mozilla.org/en-US/docs/JavaScript/New_in_JavaScript/1.8.1 JavaScript 1.8.1], setters are no longer called when setting properties in object and array initializers.}} 
 
-Starting in JavaScript 1.8.1, setters are no longer called when setting properties in object and array initializers.
+The following [https://developer.mozilla.org/en-US/docs/SpiderMonkey/Introduction_to_the_JavaScript_shell JS shell] session illustrates how getters and setters could work for a user-defined object <code>o</code>. The JS shell is an application that allows developers to test JavaScript code in batch mode or interactively.
 
-</div>
-
-The following [/en-US/docs/SpiderMonkey/Introduction_to_the_JavaScript_shell JS shell] session illustrates how getters and setters could work for a user-defined object <code>o</code>. The JS shell is an application that allows developers to test JavaScript code in batch mode or interactively.
-
+<syntaxhighlight lang="javascript">
  js> var o = {a: 7, get b() {return this.a + 1;}, set c(x) {this.a = x / 2}};
  [object Object]
  js> o.a;
@@ -391,6 +387,7 @@ The following [/en-US/docs/SpiderMonkey/Introduction_to_the_JavaScript_shell JS 
  js> o.c = 50;
  js> o.a;
  25
+</syntaxhighlight>
 
 The <code>o</code> object's properties are:
 
@@ -398,18 +395,21 @@ The <code>o</code> object's properties are:
 * <code>o.b</code> — a getter that returns <code>o.a</code> plus 1
 * <code>o.c</code> — a setter that sets the value of <code>o.a</code> to half of the value <code>o.c</code> is being set to
 
-Please note that function names of getters and setters defined in an object literal using "[gs]et ''property''()" (as opposed to <code>__define[GS]etter__</code> below) are not the names of the getters themselves, even though the <code>[gs]et ''propertyName''(){ }</code> syntax may mislead you to think otherwise. To name a function in a getter or setter using the "[gs]et ''property''()" syntax, define an explicitly named function programmatically using <code>[/en-US/docs/JavaScript/Reference/Global_Objects/Object/defineProperty Object.defineProperty]</code> (or the <code>[/en-US/docs/JavaScript/Reference/Global_Objects/Object/defineGetter Object.prototype.__defineGetter__]</code> legacy fallback).
+Please note that function names of getters and setters defined in an object literal using "[gs]et ''property''()" (as opposed to <code>__define[GS]etter__</code> below) are not the names of the getters themselves, even though the <code>[gs]et ''propertyName''(){ }</code> syntax may mislead you to think otherwise. To name a function in a getter or setter using the "[gs]et ''property''()" syntax, define an explicitly named function programmatically using <code>[https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Object/defineProperty Object.defineProperty]</code> (or the <code>[https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Object/defineGetter Object.prototype.__defineGetter__]</code> legacy fallback).
 
 This JavaScript shell session illustrates how getters and setters can extend the <code>Date</code> prototype to add a <code>year</code> property to all instances of the predefined <code>Date</code> class. It uses the <code>Date</code> class's existing <code>getFullYear</code> and <code>setFullYear</code> methods to support the <code>year</code> property's getter and setter.
 
 These statements define a getter and setter for the year property:
 
+<syntaxhighlight lang="javascript">
  js> var d = Date.prototype;
  js> d.__defineGetter__("year", function() { return this.getFullYear(); });
  js> d.__defineSetter__("year", function(y) { this.setFullYear(y); });
+</syntaxhighlight>
 
 These statements use the getter and setter in a <code>Date</code> object:
 
+<syntaxhighlight lang="javascript">
  js> var now = new Date;
  js> print(now.year);
  2000
@@ -417,6 +417,7 @@ These statements use the getter and setter in a <code>Date</code> object:
  987617605170
  js> print(now);
  Wed Apr 18 11:13:25 GMT-0700 (Pacific Daylight Time) 2001
+</syntaxhighlight>
 
 ====Obsolete syntaxes====
 
@@ -426,29 +427,31 @@ In the past, JavaScript supported several other syntaxes for defining getters an
 
 In principle, getters and setters can be either
 
-* defined using [#Using_object_initializers object initializers], or
+* defined using [[#Using_object_initializers | object initializers]], or
 * added later to any object at any time using a getter or setter adding method.
 
-When defining getters and setters using [#Using_object_initializers object initializers] all you need to do is to prefix a getter method with <code>get</code> and a setter method with <code>set</code>. Of course, the getter method must not expect a parameter, while the setter method expects exactly one parameter (the new value to set). For instance:
+When defining getters and setters using [[#Using_object_initializers | object initializers]] all you need to do is to prefix a getter method with <code>get</code> and a setter method with <code>set</code>. Of course, the getter method must not expect a parameter, while the setter method expects exactly one parameter (the new value to set). For instance:
 
+<syntaxhighlight lang="javascript">
  var o = {
    a: 7,
    '''get''' b() { return this.a + 1; },
    '''set''' c(x) { this.a = x / 2; }
  };
+</syntaxhighlight>
 
 Getters and setters can also be added to an object at any time after creation using two special methods called <code>__defineGetter__</code> and <code>__defineSetter__</code>. Both methods expect the name of the getter or setter as their first parameter, in the form of a string. The second parameter is the function to call as the getter or setter. For instance (following the previous example):
 
+<syntaxhighlight lang="javascript">
  o.__defineGetter__("b", function() { return this.a + 1; });
  o.__defineSetter__("c", function(x) { this.a = x / 2; });
+</syntaxhighlight>
 
 Which of the two forms to choose depends on your programming style and task at hand. If you already go for the object initializer when defining a prototype you will probably most of the time choose the first form. This form is more compact and natural. However, if you need to add getters and setters later — because you did not write the prototype or particular object — then the second form is the only possible form. The second form probably best represents the dynamic nature of JavaScript — but it can make the code hard to read and understand.
 
-<div class="tip">
+{{note | Prior to Firefox 3.0, getter and setter are not supported for DOM Elements. Older versions of Firefox silently fail. If exceptions are needed for those, changing the prototype of HTMLElement <code>(HTMLElement.prototype.__define[SG]etter__)</code> and throwing an exception is a workaround.
 
-Prior to Firefox 3.0, getter and setter are not supported for DOM Elements. Older versions of Firefox silently fail. If exceptions are needed for those, changing the prototype of HTMLElement <code>(HTMLElement.prototype.__define[SG]etter__)</code> and throwing an exception is a workaround.
-
- With Firefox 3.0, defining getter or setter on an already-defined property will throw an exception. The property must be deleted beforehand, which is not the case for older versions of Firefox.</div>
+ With Firefox 3.0, defining getter or setter on an already-defined property will throw an exception. The property must be deleted beforehand, which is not the case for older versions of Firefox.}}
 
 ====See also====
 
