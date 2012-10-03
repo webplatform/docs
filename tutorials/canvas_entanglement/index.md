@@ -81,7 +81,7 @@ We also want a nice curve so, using a little trial and error, I found that, if I
 
 Now, we map both the endpoints and the control points to a Cartesian plane corresponding with our canvas image and we're ready to get back to the code. To keep it simple, we will start with one line. We will begin by drawing a path from the top left endpoint to the bottom right endpoint. With our earlier hexagon image being 400x346, that will make our top endpoint 150 pixels across and 0 pixels down, shorthand (150, 0). It's control point will be (150, 86). The bottom edge endpoint is (250, 346) with a control point of (250, 260):
 
-[[Image:en05.jpg|Coordinates for first bezier curve]]<br/>
+[[Image:en05.png|Coordinates for first bezier curve]]<br/>
 ''Coordinates for first bezier curve''
 
 With our coordinates in hand, we are now prepared to begin drawing. We will start fresh with ctx.beginPath() and then move to the first endpoint using:
@@ -114,12 +114,12 @@ Because we want the line to have a nice border, we will stroke this path twice u
 
 We now have a hexagonal tile with the first line meandering across:
 
-[[Image:en06.jpg|Solitary line on hexagonal tile]]<br/>
+[[Image:en06.png|Solitary line on hexagonal tile]]<br/>
 ''Solitary line on hexagonal tile''
 
 Entering coordinates for the other 10 endpoints as well as the corresponding bezier curve control points, we can repeat the steps above and might create a tile something like this:
 
-[[Image:en07.jpg|Completed hexagonal tile]]<br/>
+[[Image:en07.png|Completed hexagonal tile]]<br/>
 ''Completed hexagonal tile''
 
 ===Rotating the Canvas===
@@ -148,7 +148,7 @@ However, because our hexagon and lines are using the old (0,0) coordinates as th
 
 Putting the above translation and rotation before our rendering code causes it to now render the rotated tile:
 
-[[Image:en08.jpg|Rotated hexagonal tile]]<br/>
+[[Image:en08.pgn|Rotated hexagonal tile]]<br/>
 ''Rotated hexagonal tile''
 
 ==Summary==
