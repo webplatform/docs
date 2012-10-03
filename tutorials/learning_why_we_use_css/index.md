@@ -30,21 +30,21 @@ In general with HTML, you use the markup language to describe the information co
 <ol> 
 <li><p>To link your document to your stylesheet, edit your HTML file. Add the line highlighted here:</p>
 
-<syntaxhighlight lang="html5">&lt;!DOCTYPE html&gt;
- &lt;html&gt;
-   &lt;head&gt;
-   &lt;meta charset="UTF-8"&gt;
-   &lt;title&gt;Sample document&lt;/title&gt;
-   &lt;link rel="stylesheet" href="style1.css"&gt;
-   &lt;/head&gt;
-   &lt;body&gt;
-     &lt;p&gt;
-       &lt;strong&gt;C&lt;/strong&gt;ascending
-       &lt;strong&gt;S&lt;/strong&gt;tyle
-       &lt;strong&gt;S&lt;/strong&gt;heets
-     &lt;/p&gt;
-   &lt;/body&gt;
- &lt;/html&gt;</syntaxhighlight></li>
+<syntaxhighlight lang="html5"><!DOCTYPE html>
+ <html>
+   <head>
+   <meta charset="UTF-8">
+   <title>Sample document</title>
+   <link rel="stylesheet" href="style1.css">
+   </head>
+   <body>
+     <p>
+       <strong>C</strong>ascending
+       <strong>S</strong>tyle
+       <strong>S</strong>heets
+     </p>
+   </body>
+ </html></syntaxhighlight></li>
  
 <li><p>Save the file and refresh your browser's display. The stylesheet makes the initial letters red, like this:</p>
 
