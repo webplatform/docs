@@ -1,6 +1,6 @@
 {{Flags}}
 {{Summary_Section|This chapter describes the predefined objects in core JavaScript: <code>Array</code>, <code>Boolean</code>, <code>Date</code>, <code>Function</code>, <code>Math</code>, <code>Number</code>, <code>RegExp</code>, and <code>String</code>.}}
-{{Guide
+{{Tutorial
 |Content===Array Object==
 
 JavaScript does not have an explicit array data type. However, you can use the predefined <code>Array</code> object and its methods to work with arrays in your applications. The <code>Array</code> object has methods for manipulating arrays in various ways, such as joining, reversing, and sorting them. It has a property for determining the array length and other properties for use with regular expressions.
