@@ -58,7 +58,7 @@ Next, set up a handler for the <code>message</code> event. You can optionally li
      // Connection was closed.
    }
  }, false);
-<syntaxhighlight>
+</syntaxhighlight>
 
 When updates are pushed from the server, the <code>onmessage</code> handler fires and new data is available in its <code>e.data</code> property. The magical part is that whenever the connection is closed, the browser will automatically reconnect to the source after ~3 seconds. Your server implementation can even have control over this reconnection timeout. See "Controlling the reconnection timeout" in the next section.
 
