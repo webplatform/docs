@@ -15,7 +15,6 @@
 * [[SVG/Tutorials|SVG]]
 
 ==Topical tutorials==
-* [[tutorials/basics|Basics]]
 * [[tutorials/3d_graphics_and_effects|3D, Graphics, and Effects]]
 * [[tutorials/offline and storage|Offline and Storage]]
 * [[tutorials/device access|Device access]]
@@ -23,7 +22,6 @@
 * [[tutorials/multimedia|Multimedia]]
 * [[tutorials/tools|Tools]]
 * [[tutorials/mobile|Mobile]]
-
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
