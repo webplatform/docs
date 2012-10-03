@@ -251,7 +251,7 @@ While fixed-size layouts are easier to produce in Flash, fluid layouts are much 
 
 Or consider the chat panel. The Flash version required multiple event handlers to respond to mouse actions, a mask for the scrollable area, math for computing the scroll position, and a lot of other code to glue it together.
 
- [[Image:xwordico-flash-chat.jpg.pagespeed.ic._PIgSdvpA0.jpg]] The chat panel in Flash was pretty but complex.
+ [[Image:wordico-flash-chat.jpg|The chat panel in Flash was pretty but complex]] .
 
 The HTML version, by comparison, is just a <code>&lt;div></code> with a fixed height and the overflow property set to hidden. Scrolling costs us nothing.
 
