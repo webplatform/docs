@@ -208,7 +208,7 @@ There are three ways to apply CSS to an HTML document: inline styles, embedded s
  
 You can apply styles to a specific element using a <code>style</code> attribute, like so:
  
-<syntaxhighlight lang="html">&lt;p style="background:blue; color:white; padding:5px;"&gt;Paragraph&lt;/p&gt;</syntaxhighlight>
+<syntaxhighlight lang="html5"><p style="background:blue; color:white; padding:5px;">Paragraph</p></syntaxhighlight>
  
 Inside this attribute you list all the CSS properties and their values. Each property/value pair is separated from the others by a semi-colon, and each property is separated from its value within each pair by a colon. [http://dev.opera.com/articles/view/27-css-basics/example-inline.html Try viewing the source of this example].
  
@@ -228,13 +228,13 @@ In addition to the maintenance issue you don’t take advantage of the most powe
  
 Embedded styles are placed in the <code>&lt;head&gt;</code> of the document inside a <code>&lt;style&gt;</code> element [http://dev.opera.com/articles/view/27-css-basics/example-embedded.html as in this example]:
  
-<syntaxhighlight lang="css">&lt;style type="text/css" media="screen"&gt;
+<syntaxhighlight lang="css"><style type="text/css" media="screen">
   p {
     color:white;
     background:blue; 
     padding:5px;
   }
-&lt;/style&gt;</syntaxhighlight>
+</style></syntaxhighlight>
  
 If you open the above link in a browser you’ll see that the defined styles get applied to all the paragraphs in the document, as shown in Figure 2. Also try looking at the example page’s source to see the CSS inside the <code>head</code>.
  
@@ -248,7 +248,7 @@ The benefit with embedded styles is that you don’t need to add a <code>style</
  
 External style sheets means putting all your CSS definitions in their own file, saving it with a file extension of <code>.css</code>, and then applying it to your HTML documents using a <code>&lt;link&gt;</code> element inside the document <code>&lt;head&gt;</code>. View source of our [http://dev.opera.com/articles/view/27-css-basics/example-external.html example page], and note that the <code>&lt;head&gt;</code> contains a <code>&lt;link&gt;</code> element that references this [http://dev.opera.com/articles/view/27-css-basics/styles.css external CSS file], and verify that the styles defined in the external CSS file are applied to the HTML. Let’s have a closer look at that <code>&lt;link&gt;</code> element:
  
-<syntaxhighlight lang="html">&lt;link rel="stylesheet" href="styles.css" type="text/css" media="screen"&gt;</syntaxhighlight>
+<syntaxhighlight lang="html5"><link rel="stylesheet" href="styles.css" type="text/css" media="screen"></syntaxhighlight>
  
 We’ve talked about the <code>&lt;link&gt;</code> element before in this course. Just to recap: the <code>href</code> attribute points to the CSS file, the <code>media</code> attribute defines which media should get these styles applied to it (<code>screen</code> in this case as we don’t want a printout to look like this) and the <code>type</code> defines what the linked resource is (a file extension is not enough to determine that).
  
@@ -262,12 +262,12 @@ This is the best of all worlds: you keep your look and feel definitions all in o
  
 There is actually another way to import external style sheets into HTML files - the <code>@import</code> property. This is inserted into an embedded style sheet, in the same way as the embedded CSS shown above. The syntax looks as follows:
  
-<syntaxhighlight lang="html">&lt;style type="text/css" media="screen"&gt;
+<syntaxhighlight lang="html5"><style type="text/css" media="screen">
   @import url("styles.css");
 
   ...other import statements or CSS styles could go here...
    
-&lt;/style&gt;</syntaxhighlight>
+</style></syntaxhighlight>
  
 You'll sometimes see import statements without the brackets, but it does the same thing. Another thing to be aware of is that <code>@import</code> should always be first in an embedded style sheet. Finally, you can specify that the imported style sheet be applied only to certain types of media by including the media type at the end of the import statement (this works in every browser except IE6 and below). The following does the same thing as the previous code example:
  
