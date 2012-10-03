@@ -4,7 +4,7 @@
 
 This article starts with an introduction to object-oriented programming, then reviews the JavaScript object model, and finally demonstrates concepts of object-oriented programming in JavaScript.
 }}
-{{Guide
+{{Concepts
 |Content===JavaScript review==
 
 If you don't feel confident about JavaScript concepts such as variables, types, functions, and scope you can read about those topics in [[/tutorials/JavaScript/reintroduction|A re-introduction to JavaScript]]. You can also consult the [[/guides/JavaScript|JavaScript Guide]].
