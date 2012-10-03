@@ -1,5 +1,7 @@
 {{Page_Title|Exploring the CSS box model}}
-{{Flags}}
+{{Flags
+|Content=Cleanup
+}}
 {{Byline}}
 {{Summary_Section|This article describes how you can use CSS to control the space that an element takes up when it is displayed.}}
 {{Tutorial
@@ -98,11 +100,11 @@ To specify borders one side at a time, use the properties: {{ cssxref("border-to
 Border example 
 This rule sets the background color and the top border of heading elements:
 
-<pre>h3 {
+<syntaxhighlight lang="css">h3 {
   border-top: 4px solid #7c7; /* mid green */
   background-color: #efe;     /* pale green */
   color: #050;                /* dark green */
-}</pre>
+}</syntaxhighlight>
  
 The result looks like:
 
@@ -110,7 +112,7 @@ The result looks like:
  
 This rule makes images easier to see by giving them a mid-gray border all round:
 
-<pre>img {border: 2px solid #ccc;}</pre>
+<syntaxhighlight lang="css">img {border: 2px solid #ccc;}</syntaxhighlight>
   
 The result looks like:
 
@@ -126,11 +128,11 @@ If you specify one width, it applies all around the element (top, right, bottom 
 
 This rule marks out paragraphs with the class <code>remark</code> by giving them a red border all round. Padding all round separates the border from the text a little. A left margin indents the paragraph relative to the rest of the text:
 
-<pre>p.remark {
+<syntaxhighlight lang="css">p.remark {
   border: 2px solid red;
   padding: 4px;
   margin-left: 24px;
-}</pre>
+}</syntaxhighlight>
  
 The result looks like:
 
@@ -147,15 +149,15 @@ To get the result you want, you might have to change your document's markup. The
 <ul>
 <li><p>Edit your CSS file, <code>style2.css</code>. Add this rule to draw a line across the page over each heading:</p>
 
-<pre>h3 {border-top: 1px solid gray;}</pre>
+<syntaxhighlight lang="css">h3 {border-top: 1px solid gray;}</syntaxhighlight>
  </li>
 <li>
 <p>If you took the challenge on the last page, modify the rule you created, otherwise add this new rule to add space underneath each list item:</p>
  
-<pre>li {
+<syntaxhighlight lang="css">li {
   list-style: lower-roman;
   margin-bottom: 8px;
-}</pre>
+}</syntaxhighlight>
 </li>
 <li> 
 <p>Refresh your browser to see the result:</p>
