@@ -245,7 +245,7 @@ The other benefits of keeping styles and scripts in their own files are:
 # Next comes ease of maintenance. The style and script for the whole site — which could be thousands of documents — are in one single location, so if you need to change something you only need to change one file, and not thousands.
 }}
 {{Compatibility_Section
-|Not_required=No
+|Not_required=Yes
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
@@ -259,7 +259,7 @@ The other benefits of keeping styles and scripts in their own files are:
 * As search engines give the title of a document much love, wouldn’t it be useful to cram it full of relevant keywords? What are the downsides of this practice?
 * As the title display can be a bit boring, wouldn’t it make sense to bold some words with a <code>b</code> element? Is that possible?
 }}
-{{Topics}}
+{{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
