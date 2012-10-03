@@ -114,7 +114,7 @@ The downside? By using images, we give up programmatic access to the text fields
 
 We wanted to make full use of the browser window at any size—and avoid scrolling. This was a relatively simple operation in Flash, since the entire game was drawn in vectors and could be scaled up or down without losing fidelity. But it was trickier in HTML. We tried using CSS scaling but ended up with a blurred canvas:
 
- [[Image:xwordico-html-canvas.png.pagespeed.ic.nQQrlK6xZe.jpg]] CSS scaling (left) vs. redrawing (right).
+ [[Image:wordico-html-canvas.png]] CSS scaling (left) vs. redrawing (right).
 
 Our solution is to redraw the gameboard, rack, and tiles whenever the user resizes the browser:
 
@@ -132,7 +132,7 @@ Our solution is to redraw the gameboard, rack, and tiles whenever the user resiz
 
 We end up with crisp images and pleasing layouts at any screen size:
 
- [[Image:xwordico-html-scale.jpg.pagespeed.ic.tZGGENuii9.jpg]] The gameboard fills the vertical space; other page elements flow around it.
+ [[Image:wordico-html-scale.jpg]] The gameboard fills the vertical space; other page elements flow around it.
 
 <h2 id="toc-gettothepoint">Get to the point</h2>
 
@@ -247,7 +247,7 @@ These functions form the basis of drag-and-drop and animation capabilities. For 
 
 While fixed-size layouts are easier to produce in Flash, fluid layouts are much easier to generate with HTML and the CSS box model. Consider the following grid view, with its variable width and height:
 
- [[Image:xwordico-html-grid.jpg.pagespeed.ic.m92qulFzoW.jpg]] This layout has no fixed dimensions: thumbnails flow left to right, top to bottom.
+ [[Image:wordico-html-grid.jpg]] This layout has no fixed dimensions: thumbnails flow left to right, top to bottom.
 
 Or consider the chat panel. The Flash version required multiple event handlers to respond to mouse actions, a mask for the scrollable area, math for computing the scroll position, and a lot of other code to glue it together.
 
