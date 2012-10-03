@@ -41,7 +41,7 @@ CORS is supported in the following browsers:
 * Safari 4+
 * Internet Explorer 8+
 
- (source: http://en.wikipedia.org/wiki/Cross-Origin_Resource_Sharing)
+(source: http://en.wikipedia.org/wiki/Cross-Origin_Resource_Sharing)
 
 Chrome, Firefox and Safari all use the [http://www.html5rocks.com/en/tutorials/file/xhr2/ XmlHttpRequest2 object]. Internet Explorer uses the similar XDomainRequest object, which works in much the same way as its XmlHttpRequest counterpart, but adds additional [http://blogs.msdn.com/b/ieinternals/archive/2010/05/13/xdomainrequest-restrictions-limitations-and-workarounds.aspx security precautions]. CORS support is [http://my.opera.com/core/blog/2011/10/28/cors-goes-mainline coming soon to Opera]<nowiki>; but as of this writing, it is not yet available. </nowiki>
 
