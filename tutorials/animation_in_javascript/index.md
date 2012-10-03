@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags}}
 {{Summary_Section|This article discusses how to make simple animations in JavaScript.}}
-{{Tutorial
+{{Guide
 |Content=== Introduction ==
  
 In this [http://www.w3.org/wiki/Web_Standards_Curriculum Web Standards Curriculum] article, I will look at the art of creating animations using JavaScript — animation is often used to add to the user experience, for people using browsers than can support it. Common uses are things such as smoothly expanding and collapsing panels, progress bars, and visual feedback in forms.
