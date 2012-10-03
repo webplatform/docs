@@ -1075,7 +1075,7 @@ Example:
 
 The result will be this: 
 
-[[Image:26.png|Figure 26: Fixed positioning]]
+[[Image:254x227wimage071.png.pagespeed.ic.L7ebADPhYj.png|Figure 26: Fixed positioning]]
 
 Although the red div precedes the green one in the markup, and would have been painted before in the regular flow, the z-index property is higher, so it is more forward in the stack held by the root box.
 
