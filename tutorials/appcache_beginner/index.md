@@ -1,4 +1,4 @@
-{{Page_Title|A Beginner's Guide to Using the Application Cache}}
+{{Page_Title|Introduction to using the application cache}}
 {{Flags
 |High-level issues=Needs Flags
 }}
