@@ -5,7 +5,7 @@
 }}
 {{Byline}}
 {{Summary_Section|This chapter introduces JavaScript and discusses some of its fundamental concepts.}}
-{{Guide
+{{Concept
 |Content==What is JavaScript?=
 
 JavaScript is a cross-platform, object-oriented scripting language. JavaScript is a small, lightweight language; it is not useful as a standalone language, but is designed for easy embedding in other products and applications, such as web browsers. Inside a host environment, JavaScript can be connected to the objects of its environment to provide programmatic control over them.
