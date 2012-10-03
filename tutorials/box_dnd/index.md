@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page_Title|Overview of drag and drop download in Chrome}}
 {{Flags
 |High-level issues=Needs Flags
 }}
@@ -8,8 +8,7 @@
 }}
 {{Summary_Section|An introduction to native drag-and-drop download.}}
 {{Tutorial
-|Content==Case Study: Drag and Drop Download in Chrome=
-==Introduction==
+|Content===Introduction==
 
 Drag and Drop (DnD) is one of the many great features of HTML5. Google recently rolled out a [http://gmailblog.blogspot.com/2010/08/drag-and-drop-attachments-to-save-them.html new feature] that allows Google Chrome users to drag and drop files from the browser to the desktop. It is an extremely convenient feature, but it was not widely known until Ryan Seddon posted an article on the [http://www.thecssninja.com/javascript/gmail-dragout discoveries] of his reverse engineering on this new feature.
 
