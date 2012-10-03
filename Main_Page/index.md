@@ -15,14 +15,29 @@ In the future, Web Platform Docs will include even more content for you to explo
 <li>
 <p>'''Reference''' Find all the open web technology data you could possibly need for your day-to-day work.</p>
 <ul>
-  <li><p>[[HTML|HTML]]</p></li>
-  <li><p>[[CSS|CSS]]</p></li>
-  <li><p>[[javascript|JavaScript]]</p></li>
-  <li><p>[[SVG|SVG]]</p></li>
-  <li><p>[[Accessibility]]</p></li>
+  <li>[[HTML|HTML]]</li>
+  <li>[[CSS|CSS]]</li>
+  <li>[[javascript|JavaScript]]</li>
+  <li>[[SVG|SVG]]</li>
+  <li>[[Accessibility]]</li>
 </ul>
 </li>
-<li><p>'''[[tutorials|Learn web design and development]]''' Learn basic and advanced web design and development techniques by reading our comprehensive tutorials and references</p></li>
+<li><p>'''[[tutorials|Learn web design and development]]''' Learn basic and advanced web design and development techniques by reading our comprehensive tutorials and references.</p>
+* Basics
+** [[tutorials/basics|Web programming essentials]]
+** [[CSS/Training|CSS]]
+** [[javascript/tutorials|JavaScript]]
+** [[html/tutorials|HTML]]
+** [[SVG/Tutorials|SVG]]
+* Topical tutorials
+** [[tutorials/3d_graphics_and_effects|3D, Graphics, and Effects]]
+** [[tutorials/offline and storage|Offline and Storage]]
+** [[tutorials/device access|Device access]]
+** [[tutorials/connectivity|Connectivity]]
+** [[tutorials/multimedia|Multimedia]]
+** [[tutorials/tools|Tools]]
+** [[tutorials/mobile|Mobile]]
+</li>
 </ul>
 
 == Contribute to Web Platform Docs ==
