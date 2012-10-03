@@ -39,14 +39,16 @@ Depending upon the circumstances, provision of an <code>auto</code> value instru
  
 Given the following rule:
  
-<pre>.narrowWaisted {
-  width: 16.667em;
-  margin: 1em auto 1em auto;
-}</pre>
+<syntaxhighlight lang="css">
+  .narrowWaisted {
+    width: 16.667em;
+    margin: 1em auto 1em auto;
+  }
+</syntaxhighlight>
  
-…A block element of the <code>class</code> <code>narrowWaisted</code> will center itself in the middle of the available canvas.
+A block element of the <code>class</code> <code>narrowWaisted</code> will center itself in the middle of the available canvas.
  
-…Or the right margin of an applicable element can be set to some relatively small value, while the left margin is assigned an <code>auto</code> value.
+Or the right margin of an applicable element can be set to some relatively small value, while the left margin is assigned an <code>auto</code> value.
  
 When that’s done, such an element will instead appear nearly flush-right.
  
@@ -56,15 +58,29 @@ All of the margin properties can be assigned ''negative'' values. When this is d
  
 for example, consider the following simple <code>div</code> elements (taken from [http://dev.opera.com/articles/view/30-the-css-layout-model-boxes-border/negativemargins1.html example file negativemargin1.html].)
  
-<pre><code>&lt;div id="header"&gt;&lt;h1&gt;Lovely header&lt;/h1&gt;&lt;/div&gt;
-&lt;div id="content"&gt;&lt;p&gt;Overlapping text is entirely unreadable&lt;/p&gt;&lt;/div&gt;</code>
-</pre>
+<syntaxhighlight lang="css">
+  <div id="header">
+    <h1>Lovely header</h1>
+  </div>
+  <div id="content"><p>Overlapping text is entirely unreadable</p></div>
+</syntaxhighlight>
  
 When styled with the following CSS
  
-<pre>body {background-color:white; font-family:Geneva, Arial, Helvetica, sans-serif;}
-#header { background-color:yellow; }
-h1 { color:red;; font-size:2em; }</pre>
+<syntaxhighlight lang="css">
+  body {
+    background-color:white; font-family:Geneva, Arial, Helvetica, sans-serif;
+  }
+
+  #header { 
+    background-color: yellow;
+  }
+
+  h1 { 
+    color:red; 
+    font-size: 2em;
+  }
+</syntaxhighlight>
  
 It creates the output shown in Figure 2:
  
@@ -74,7 +90,10 @@ Figure 2: The two elements from our simple example. Nothing special to see here.
  
 Here comes the interesting part. Now we’ll add a fairly sizeable negative margin to the top of the bottom element, using the following rule:
  
-<pre>#content {margin-top:-3em;}</pre>
+<syntaxhighlight lang="css">#content {
+  margin-top:-3em;
+}
+</syntaxhighlight>
  
 This gives us the visual effect of shifting the element up so it overlaps with the heading, as shown in Figure 3 (see the [[negativemargins2.html example file]] for a live example).
  
@@ -86,9 +105,10 @@ Figure 3: With a negative margin applied, the bottom element shifts upwards and 
  
 In cases where two similar and adjacent block elements share margins that are greater than zero, only the larger of the two margins will be applied. For example, take the following rule:
  
-<pre>p {
+<syntaxhighlight lang="css">
+p {
   margin: 1em auto 1.5em auto;
-}</pre>
+}</syntaxhighlight>
  
 If a document including this style rule is rendered ''literally'', the resulting margin between two paragraphs in series wouild be <code>2.5em</code>, as the sum of the bottom margin of paragraph 1 (1.5em) and the top margin of paragraph 2 (1em). However, due to the application of collapsing margins, the margin between them is only <code>1.5em</code>.
  
@@ -109,12 +129,14 @@ For starters, margins will be added to all of the elements that will need them.
 
 ===== New rules: =====
  
-<pre>body { margin: 0; }
+<syntaxhighlight lang="css">
+  body { margin: 0; }
   #main { margin: 0 auto 0 auto; }
   h1 { margin: 0 0 1em 0; }
   .pullQuote { margin: auto 0 1em 1em; }
   p { margin: 0; }
-  .attribution { margin: 0 0 1.5em 0; }</pre>
+  .attribution { margin: 0 0 1.5em 0; }
+</syntaxhighlight>
  
 === Adding a border to an object: border properties ===
  
@@ -146,9 +168,9 @@ These properties behave exactly as one would expect: they assign explicit weight
  
 The <code>border-width</code> shorthand property accepts values in the same notation as the <code>margin</code> shorthand property, except that percentage values are unsupported. You might well see yourself writing a rule like the following:
  
-<pre>td {
+<syntaxhighlight lang="css">td {
   border-width: 1px 0 0 1px;
-}</pre>
+}</syntaxhighlight>
  
 ==== The border-style properties ====
  
@@ -175,11 +197,11 @@ Unlike the various <code>-width</code>, <code>-style</code>, and <code>-color</c
  
 Consider the following <code>border</code> rule:
  
-<pre>#borderShorthandExample {
+<syntaxhighlight lang="css">#borderShorthandExample {
   border: 2px outset rgb(160,0,0);
   padding: .857em;
   background-color: rgb(255,224,224);
-}</pre>
+}</syntaxhighlight>
  
 An element to which the above rule is applied would look exactly like this paragraph.
  
@@ -241,9 +263,9 @@ Gutters should be provided for the elements to which borders were previously add
 
 ===== New rules: =====
  
-<pre>body { padding: 0; }
+<syntaxhighlight lang="css">body { padding: 0; }
 h1 { padding: .5em 0 .5em 0; }
-.pullQuote { padding: .5em; }</pre>
+.pullQuote { padding: .5em; }</syntaxhighlight>
 
 == Working with element width and height ==
  
@@ -280,8 +302,8 @@ However, in the experience of this author, these properties have limited use (al
 
 ===== New rules: =====
  
-<pre>#main { width: 42em; }
-.pullQuote { width: 14em; }</pre>
+<syntaxhighlight lang="css">#main { width: 42em; }
+.pullQuote { width: 14em; }</syntaxhighlight>
  
 === overflow: fencing in content, or setting it free ===
  
@@ -378,13 +400,13 @@ In such an equation, <code>available_canvas</code> is itself a discrete (if ofte
  
 Consider the following style sheet rule:
  
-<pre>#myLayoutColumn {
+<syntaxhighlight lang="css">#myLayoutColumn {
   width: 50em;
   margin: 1.5em auto 1.5em auto;
   border: .1em;
   padding: .9em;
 }
-</pre>
+</syntaxhighlight>
  
 As discussed during the explanation of margin properties above, one can expect <code>#myLayoutColumn</code> to center itself within its container element, whether that container is <code>body</code>, or something created by the production team.
  
@@ -400,9 +422,8 @@ When the W3C box model is in use, proportional margins and padding are computed 
  
 If that same element is assigned <code>padding: 5%</code>, its computed content width will be 400 pixels:
  
-<pre><code>20% + 5% + 5% + 20% = ''50%'' ''0.50'' × 800 = ''400''
-800 − ''400'' = ''400''</code>
-</pre>
+<pre>20% + 5% + 5% + 20% = ''50%'' ''0.50'' × 800 = ''400''
+800 − ''400'' = ''400''</pre>
  
 == Working with document flow ==
  
@@ -561,7 +582,7 @@ How about removing the “Prologue” annotation from the title, just for demons
 
 ===== New rules: =====
  
-<pre>.sectionNote { display: none; }</pre>
+<syntaxhighlight lang="css">.sectionNote { display: none; }</syntaxhighlight>
  
 === Causing elements to flow around others: the float property ===
 
@@ -588,9 +609,9 @@ Placement of a <code>float</code> value on the pullquote has been talked about, 
 
 ===== New rules: =====
  
-<pre>.pullQuote { float: right;
+<syntaxhighlight lang="css">.pullQuote { float: right;
 background-color: rgb(204,204,204); }
-</pre>
+</syntaxhighlight>
  
 === Forcing elements below their floated predecessors: the clear property ===
  
