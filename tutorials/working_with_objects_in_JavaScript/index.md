@@ -373,7 +373,7 @@ When combined with the <code>form</code> property, <code>this</code> can refer t
 A ''getter'' is a method that gets the value of a specific property. A ''setter'' is a method that sets the value of a specific property. You can define getters and setters on any predefined core object or user-defined object that supports the addition of new properties. The syntax for defining getters and setters uses the object literal syntax.
 
 
-{{note|Starting in [https://developer.mozilla.org/en-US/docs/JavaScript/New_in_JavaScript/1.8.1 JavaScript 1.8.1], setters are no longer called when setting properties in object and array initializers.}} 
+{{Note|Starting in [https://developer.mozilla.org/en-US/docs/JavaScript/New_in_JavaScript/1.8.1 JavaScript 1.8.1], setters are no longer called when setting properties in object and array initializers.}} 
 
 The following [https://developer.mozilla.org/en-US/docs/SpiderMonkey/Introduction_to_the_JavaScript_shell JS shell] session illustrates how getters and setters could work for a user-defined object <code>o</code>. The JS shell is an application that allows developers to test JavaScript code in batch mode or interactively.
 
@@ -449,7 +449,7 @@ Getters and setters can also be added to an object at any time after creation us
 
 Which of the two forms to choose depends on your programming style and task at hand. If you already go for the object initializer when defining a prototype you will probably most of the time choose the first form. This form is more compact and natural. However, if you need to add getters and setters later — because you did not write the prototype or particular object — then the second form is the only possible form. The second form probably best represents the dynamic nature of JavaScript — but it can make the code hard to read and understand.
 
-{{note | Prior to Firefox 3.0, getter and setter are not supported for DOM Elements. Older versions of Firefox silently fail. If exceptions are needed for those, changing the prototype of HTMLElement <code>(HTMLElement.prototype.__define[SG]etter__)</code> and throwing an exception is a workaround.
+{{Note | Prior to Firefox 3.0, getter and setter are not supported for DOM Elements. Older versions of Firefox silently fail. If exceptions are needed for those, changing the prototype of HTMLElement <code>(HTMLElement.prototype.__define[SG]etter__)</code> and throwing an exception is a workaround.
 
 With Firefox 3.0, defining getter or setter on an already-defined property will throw an exception. The property must be deleted beforehand, which is not the case for older versions of Firefox.}}
 
