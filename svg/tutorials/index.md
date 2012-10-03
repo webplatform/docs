@@ -29,9 +29,7 @@
 * [[tutorials/External content in SVG|External content in SVG]]
 * [[tutorials/Animations in SVG|Animations in SVG]]
 
-== External content ==
-
-TBD
+== SVG tutorials index ==
 
 {{API_Listing
 |Query=[[Category:Tutorials]][[Category:SVG]]
