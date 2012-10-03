@@ -23,14 +23,11 @@ At the time of writing, support for all the new form and input elements, attribu
 HTML5 introduces 5 new elements related to input and forms.
 
 <table class="alternating">
-<thead>
 <tr>
 <th>Element</th>
 <th>Purpose</th>
 <th>Notes</th>
 </tr>
-</thead>
-<tbody>
 <tr>
 <td><code>[http://dev.w3.org/html5/spec/Overview.html#the-progress-element progress]</code></td>
 <td>Represents completion of a task.</td>
@@ -64,7 +61,6 @@ keystore, and the public key is sent to the server.</td>
 <td>An example use of the <code>output</code> element could be to
 display the sum of the values of two input elements.</td>
 </tr>
-</tbody>
 </table>
 
 ===New input types===
