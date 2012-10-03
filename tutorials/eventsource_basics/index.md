@@ -32,19 +32,19 @@ SSEs are sent over traditional HTTP. That means they ''do not require a special 
 
 To subscribe to an event stream, create an <code>EventSource</code> object and pass it the URL of your stream:
 
-<pre>
+<syntaxhighlight lang="JavaScript">
  if (!!window.EventSource) {
    var source = new EventSource('stream.php');
  } else {
    // Result to xhr polling :(
  }
-</pre>
+</syntaxhighlight>
 
 '''Note:''' If the URL passed to the <code>EventSource</code> constructor is an absolute URL, its origin (scheme, domain, port) must match that of the calling page.
 
 Next, set up a handler for the <code>message</code> event. You can optionally listen for <code>open</code> and <code>error</code>:
 
-<pre>
+<syntaxhighlight lang="JavaScript">
  source.addEventListener('message', function(e) {
    console.log(e.data);
  }, false);
@@ -58,7 +58,7 @@ Next, set up a handler for the <code>message</code> event. You can optionally li
      // Connection was closed.
    }
  }, false);
-</pre>
+<syntaxhighlight>
 
 When updates are pushed from the server, the <code>onmessage</code> handler fires and new data is available in its <code>e.data</code> property. The magical part is that whenever the connection is closed, the browser will automatically reconnect to the source after ~3 seconds. Your server implementation can even have control over this reconnection timeout. See "Controlling the reconnection timeout" in the next section.
 
@@ -74,10 +74,10 @@ Sending an event stream from the source is a matter of constructing a plaintext 
 
 If your message is longer, you can break it up by using multiple "<code>data:</code>" lines. Two or more consecutive lines beginning with "<code>data:</code>" will be treated as a single piece of data, meaning only one <code>message</code> event will be fired. Each line should end in a single "\n" (except for the last, which should end with two). The result passed to your <code>message</code> handler is a single string concatenated by newline characters. For example:
 
-<pre>
+<syntaxhighlight lang="yaml">
  data: first line\n
  data: second line\n\n
-</pre>
+</syntaxhighlight>
 
 will produce "first line\nsecond line" in <code>e.data</code>. One could then use <code>e.data.split('\n').join('')</code> to reconstruct the message sans "\n" characters.
 
@@ -85,31 +85,31 @@ will produce "first line\nsecond line" in <code>e.data</code>. One could then us
 
 Using multiple lines makes it easy to send JSON without breaking syntax:
 
-<pre>
+<syntaxhighlight lang="yaml">
  data: {\n
  data: "msg": "hello world",\n
  data: "id": 12345\n
  data: }\n\n
-</pre>
+</syntaxhighlight>
 
 and possible client-side code to handle that stream:
 
-<pre>
+<syntaxhighlight lang="JavaScript">
  source.addEventListener('message', function(e) {
    var data = JSON.parse(e.data);
    console.log(data.id, data.msg);
  }, false);
-</pre>
+</syntaxhighlight>
 
 ===Associating an ID with an Event===
 
 You can send a unique id with an stream event by including a line starting with "<code>id:</code>":
 
-<pre>
+<syntaxhighlight lang="yaml">
  id: 12345\n
  data: GOOG\n
  data: 556\n\n
-</pre>
+</syntaxhighlight>
 
 Setting an ID lets the browser keep track of the last event fired so that if, the connection to the server is dropped, a special HTTP header (<code>Last-Event-ID</code>) is set with the new request. This lets the browser determine which event is appropriate to fire. The <code>message</code> event contains a <code>e.lastEventId</code> property.
 
@@ -119,10 +119,10 @@ The browser attempts to reconnect to the source roughly 3 seconds after each con
 
 The following example attempts a reconnect after 10 seconds:
 
-<pre>
+<syntaxhighlight lang="yaml">
  retry: 10000\n
  data: hello world\n\n
-</pre>
+</syntaxhighlight>
 
 ===Specifying an event name===
 
@@ -130,17 +130,17 @@ A single event source can generate different types of events by including an eve
 
 For example, the following server output sends three types of events, a generic 'message' event, 'userlogon', and 'update' event:
 
-<pre>
+<syntaxhighlight lang="yaml">
  data: {"msg": "First message"}\n\n
  event: userlogon\n
  data: {"username": "John123"}\n\n
  event: update\n
  data: {"username": "John123", "emotion": "happy"}\n\n
-</pre>
+</syntaxhighlight>
 
 With event listeners setup on the client:
 
-<pre>
+<syntaxhighlight lang="JavaScript">
  source.addEventListener('message', function(e) {
    var data = JSON.parse(e.data);
    console.log(data.msg);
@@ -155,13 +155,13 @@ With event listeners setup on the client:
    var data = JSON.parse(e.data);
    console.log(data.username + ' is now ' + data.emotion);
  }, false);
-</pre>
+</syntaxhighlight>
 
 ==Server Examples==
 
 A simple server implementation in PHP:
 
-<pre>
+<syntaxhighlight lang="php">
  <?php
  header('Content-Type: text/event-stream');
  header('Cache-Control: no-cache'); // recommended to prevent caching of event data.
@@ -184,13 +184,13 @@ A simple server implementation in PHP:
  $serverTime = time();
  
  sendMsg($serverTime, 'server time: ' . date("h:i:s", time()));
-</pre>
+</syntaxhighlight>
 
 [http://www.html5rocks.com/en/tutorials/eventsource/basics/demo/sse.php Download the code]
 
 Here's a similiar implementation using [http://nodejs.org Node JS]:
 
-<pre>
+<syntaxhighlight lang="JavaScript">
  var http = require('http');
  var sys = require('sys');
  var fs = require('fs');
@@ -241,13 +241,13 @@ Here's a similiar implementation using [http://nodejs.org Node JS]:
    }
    sys.puts('\n\n');
  }
-</pre>
+</syntaxhighlight>
 
 [http://www.html5rocks.com/en/tutorials/eventsource/basics/demo/node-sse.js Download the code]
 
 ====sse-node.html:====
 
-<pre>
+<syntaxhighlight lang="JavaScript">
  <!DOCTYPE html>
  <html>
  <head>
@@ -262,7 +262,7 @@ Here's a similiar implementation using [http://nodejs.org Node JS]:
    </script>
  </body>
  </html>
-</pre>
+</syntaxhighlight>
 
 ==Cancel an event stream==
 
@@ -280,7 +280,7 @@ From the WHATWG's section on [http://www.whatwg.org/specs/web-apps/current-work/
 
 So as an extra level of precaution, be sure to verify that <code>e.origin</code> in your <code>message</code> handler matches your app's origin:
 
-<pre>
+<syntaxhighlight lang="JavaScript">
  source.addEventListener('message', function(e) {
    if (e.origin != 'http://example.com') {
      alert('Origin was not http://example.com');
@@ -288,7 +288,7 @@ So as an extra level of precaution, be sure to verify that <code>e.origin</code>
    }
    ...
  }, false);
-</pre>
+</syntaxhighlight>
 
 Another good idea is to check the integrity of the data you receive:
 
