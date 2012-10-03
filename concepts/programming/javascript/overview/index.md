@@ -1,7 +1,9 @@
+{{Page_Title}}
 {{Flags
 |Content=Outdated
 |Compatibility=Outdated, Incomplete
 }}
+{{Byline}}
 {{Summary_Section|This chapter introduces JavaScript and discusses some of its fundamental concepts.}}
 {{Guide
 |Content==What is JavaScript?=
@@ -99,6 +101,12 @@ The JavaScript documentation describes aspects of the language that are appropri
 
 * The Global Object is not discussed in the JavaScript documentation because you do not use it directly. The methods and properties of the Global Object, which you do use, are discussed in the JavaScript documentation but are called top-level functions and properties.
 * The no parameter (zero-argument) constructor with the <code>Number</code> and <code>String</code> objects is not discussed in the JavaScript documentation, because what is generated is of little use. A <code>Number</code> constructor without an argument returns +0, and a <code>String</code> constructor without an argument returns "" (an empty string).
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section}}
 {{Topics|JavaScript}}
