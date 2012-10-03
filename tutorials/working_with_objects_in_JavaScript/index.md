@@ -333,7 +333,7 @@ Then you can call the <code>displayCar</code> method for each of the objects as 
 
 This produces the output shown in the following figure.
 
-[[File:Obja.gif | Two lines saying: a beautiful 1993 Eagle Talon TSi and a beautiful 1992 Nissan 300ZX]]
+[[Image:Obja.gif | Two lines saying: a beautiful 1993 Eagle Talon TSi and a beautiful 1992 Nissan 300ZX]]
 
 <small>'''Figure 7.1: Displaying method output.'''</small>
 
