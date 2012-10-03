@@ -9,163 +9,7 @@
 }}
 {{Summary_Section|Tutorial on Cross Origin Resource Sharing}}
 {{Tutorial
-|Content=[/en/ [[Image:PzEJtkxBQAAAABJRU5ErkJggg==|HTML5 Rocks]]]
-
-=[/en/ HTML5 Rocks]=
-
-* [/en/ Home]
-* [/en/tutorials/ Posts &amp; Tutorials]
-* [#features HTML5 Features]
-* [/en/slides Slides]
-* [/en/resources Resources]
-* [/en/why Why HTML5?]
-* [/en/profiles Who We Are]
-* [https://github.com/html5rocks/www.html5rocks.com/blob/master/CONTRIBUTING.md Contribute]
-* [#search_form  Search [[Image:qang55z40xlsYvCEEugqEcbSqplutcBrCiZNw0ugU+zm0cQWreY7OVHC7DDN39WVmCmcDyZdNMBbzGx3AiYnu4CvAALKABcbyDrXxAAAAAElFTkSuQmCC]] ]
-
-<div id="search_form" class="subheader search" style="display: none"><div class="search">[[Image:tie+LQv74D2G0nQD7rdE5dnzZxjnWJCJQTXHP9MGrPJWtDJmu3knxUIePJb5luAAQDWPZwf40bkcAAAAABJRU5ErkJggg==]]Search:</div></div><div id="features" class="subheader features" style="display: none"><div class="features">[[Image:tie+LQv74D2G0nQD7rdE5dnzZxjnWJCJQTXHP9MGrPJWtDJmu3knxUIePJb5luAAQDWPZwf40bkcAAAAABJRU5ErkJggg==]]
-
-==Features==
-
-* [/en/features/offline ===Offline===]
-* [/en/features/storage ===Storage===]
-* [/en/features/connectivity ===Connectivity===]
-* [/en/features/file_access ===File Access===]
-* [/en/features/semantics ===Semantics===]
-* [/en/features/multimedia ===Audio/Video===]
-* [/en/features/graphics ===3D/Graphics===]
-* [/en/features/presentation ===Presentation===]
-* [/en/features/performance ===Performance===]
-* [/en/features/nuts_and_bolts ===Nuts &amp; Bolts===]
-
-</div></div>
-
-[/ ]
-
-* [/en/mobile Mobile]
-
-* [/en/ Home]
-* [/en/gaming Gaming]
-
-* [/en/mobile Mobile]
-* [/en/business Business]
-
-* [/en/gaming Gaming]
-
-* [/en/features/storage Storage]
-
-* [/en/features/offline Offline]
-* [/en/features/connectivity Connectivity]
-
-* [/en/features/storage Storage]
-* [/en/features/file_access File Access]
-
-* [/en/features/connectivity Connectivity]
-* [/en/features/semantics Semantics]
-
-* [/en/features/file_access File Access]
-* [/en/features/multimedia Audio/Video]
-
-* [/en/features/semantics Semantics]
-* [/en/features/graphics 3D/Graphics]
-
-* [/en/features/multimedia Audio/Video]
-* [/en/features/presentation Presentation]
-
-* [/en/features/graphics 3D/Graphics]
-* [/en/features/performance Performance]
-
-* [/en/features/presentation Presentation]
-* [/en/features/nuts_and_bolts Nuts &amp; Bolts]
-
-* [/en/features/performance Performance]
-
-<div class="outline_nav_toggle deactivated">[[Image:L8uDRe8Lr0B6MD1Xc3vi+KvAAMAMUEG36eXLzcAAAAASUVORK5CYII=]] [[Image:+75XTbuAAAAAElFTkSuQmCC]]
-
-===HTML5 Features===
-
-* [/en/features/offline Offline]
-** [/en/features/offline#intro Intro]
-** [/en/features/offline#support Browser Support]
-** [/en/features/offline#updates What’s New]
-** [/en/features/offline#demos Demos]
-** [/en/features/offline#in_the_wild In the Wild]
-** [/en/features/offline#resources Resources]
-* [/en/features/storage Storage]
-** [/en/features/storage#intro Intro]
-** [/en/features/storage#support Browser Support]
-** [/en/features/storage#updates What’s New]
-** [/en/features/storage#demos Demos]
-** [/en/features/storage#in_the_wild In the Wild]
-** [/en/features/storage#resources Resources]
-* [/en/features/connectivity Connectivity]
-** [/en/features/connectivity#intro Intro]
-** [/en/features/connectivity#support Browser Support]
-** [/en/features/connectivity#updates What’s New]
-** [/en/features/connectivity#demos Demos]
-** [/en/features/connectivity#in_the_wild In the Wild]
-** [/en/features/connectivity#resources Resources]
-* [/en/features/file_access File Access]
-** [/en/features/file_access#intro Intro]
-** [/en/features/file_access#support Browser Support]
-** [/en/features/file_access#updates What’s New]
-** [/en/features/file_access#demos Demos]
-** [/en/features/file_access#in_the_wild In the Wild]
-** [/en/features/file_access#resources Resources]
-* [/en/features/semantics Semantics]
-** [/en/features/semantics#intro Intro]
-** [/en/features/semantics#support Browser Support]
-** [/en/features/semantics#updates What’s New]
-** [/en/features/semantics#demos Demos]
-** [/en/features/semantics#in_the_wild In the Wild]
-** [/en/features/semantics#resources Resources]
-* [/en/features/multimedia Audio/Video]
-** [/en/features/multimedia#intro Intro]
-** [/en/features/multimedia#support Browser Support]
-** [/en/features/multimedia#updates What’s New]
-** [/en/features/multimedia#demos Demos]
-** [/en/features/multimedia#in_the_wild In the Wild]
-** [/en/features/multimedia#resources Resources]
-* [/en/features/graphics 3D/Graphics]
-** [/en/features/graphics#intro Intro]
-** [/en/features/graphics#support Browser Support]
-** [/en/features/graphics#updates What’s New]
-** [/en/features/graphics#demos Demos]
-** [/en/features/graphics#in_the_wild In the Wild]
-** [/en/features/graphics#resources Resources]
-* [/en/features/presentation Presentation]
-** [/en/features/presentation#intro Intro]
-** [/en/features/presentation#support Browser Support]
-** [/en/features/presentation#updates What’s New]
-** [/en/features/presentation#demos Demos]
-** [/en/features/presentation#in_the_wild In the Wild]
-** [/en/features/presentation#resources Resources]
-* [/en/features/performance Performance]
-** [/en/features/performance#intro Intro]
-** [/en/features/performance#updates What’s New]
-** [/en/features/performance#themes Themes]
-** [/en/features/performance#technologies Technologies]
-** [/en/features/performance#techniques Techniques]
-** [/en/features/performance#tools Tools]
-** [/en/features/performance#further_reading Further Reading]
-* [/en/features/nuts_and_bolts Nuts &amp; Bolts]
-** [/en/features/nuts_and_bolts#intro Intro]
-** [/en/features/nuts_and_bolts#support Browser Support]
-** [/en/features/nuts_and_bolts#updates What’s New]
-** [/en/features/nuts_and_bolts#demos Demos]
-** [/en/features/nuts_and_bolts#in_the_wild In the Wild]
-** [/en/features/nuts_and_bolts#resources Resources]
-
-</div><div id="tutorials-cors" class="page current loaded">
-
-=HTML5 Rocks=
-
-==[/en/tutorials/ Tutorials]==
-
-=Using CORS=
-
- [/profiles/#monsurhossain [[Image:monsurhossain.75.png.pagespeed.ce.V1kqYKIgsO.png|75px|Monsur Hossain]]]
-
+|Content==Using CORS=
 ==By '''[/profiles/#monsurhossain Monsur Hossain]'''==
 
 <div class="date">Published '''Oct. 26, 2011''' Updated '''Sept. 21, 2012'''</div>  [http://www.w3.org/html/logo/  [[Image:html5-badge-h-solo.png.pagespeed.ce.G2VPivYozq.png|63px|HTML5 Powered]] ]
@@ -173,39 +17,6 @@
 ==Supported browsers:==
 
 <span class="browsers"> <span class="browser opera supported"> <span class="browser_name">Opera</span> <span class="support"> supported </span> </span> <span class="browser ie supported"> <span class="browser_name">IE</span> <span class="support"> supported </span> </span> <span class="browser safari supported"> <span class="browser_name">Safari</span> <span class="support"> supported </span> </span> <span class="browser ff supported"> <span class="browser_name">Firefox</span> <span class="support"> supported </span> </span> <span class="browser chrome supported"> <span class="browser_name">Chrome</span> <span class="support"> supported </span> </span> </span><div class="compatible-block">
-
-Your browser may not support all of the functionality in this article.
-
-Your browser appears to support all of the functionality in this article.
-
-</div> [#disqus_thread Leave a comment]  <span class="share">
-
-* <div class="g-plusone"></div>
-*
-* [http://twitter.com/share Tweet]
-
-</span>  <div class="outline_nav_toggle">[[Image:L8uDRe8Lr0B6MD1Xc3vi+KvAAMAMUEG36eXLzcAAAAASUVORK5CYII=]] [[Image:+75XTbuAAAAAElFTkSuQmCC]]
-
-===Table of Contents===
-
-* [#toc-introduction Introduction]
-* [#toc-making-a-cors-request Making a CORS Request]
-** [#toc-creating-the-xmlhttprequest-object Creating the XmlHttpRequest object]
-** [#toc-event-handlers Event handlers]
-** [#toc-withcredentials withCredentials]
-** [#toc-making-the-request Making the request]
-** [#toc-end-to-end-example End-to-End Example]
-* [#toc-adding-cors-support-to-the-server Adding CORS support to the server]
-** [#toc-types-of-cors-requests Types of CORS requests]
-** [#toc-handling-a-simple-request Handling a simple request]
-** [#toc-handling-a-not-so-simple-request Handling a not-so-simple request]
-** [#toc-a-word-about-security A word about security]
-* [#toc-cross-domain-from-chrome-extensions Cross-Domain from Chrome Extensions]
-* [#toc-known-bugs Known Bugs]
-* [#toc-cors-server-flowchart CORS Server Flowchart]
-* [#toc-resources Resources]
-
-</div>
 
 ==Introduction==
 
@@ -631,14 +442,6 @@ Here are some resources if you'd like to learn more about CORS:
 * [http://www.w3.org/TR/cors/ The CORS Spec]
 * A [http://www.nczonline.net/blog/2010/05/25/cross-domain-ajax-with-cross-origin-resource-sharing/ good intro] to CORS from Nicholas Zakas
 * [http://enable-cors.org/ enable-cors.org] - More details on how to enable CORS on your server.
-
-Except as otherwise [http://code.google.com/policies.html#restrictions noted], the content of this page is licensed under the [http://creativecommons.org/licenses/by/3.0/ Creative Commons Attribution 3.0 License], and code samples are licensed under the [http://www.apache.org/licenses/LICENSE-2.0 Apache 2.0 License].
-
- <div id="disqus_thread"></div>
-
-''' [http://disqus.com/?ref_noscript Please enable JavaScript to view the comments powered by Disqus.] '''
-
-</div>
 }}
 {{Compatibility_Section
 |Not_required=No
