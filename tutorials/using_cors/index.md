@@ -431,7 +431,7 @@ While CORS lays the groundwork for making cross-domain requests, the CORS header
 Chrome extensions support cross-domain requests in a two different ways:
 
 # Include domain in manifest.json - Chrome extensions can make cross-domain requests to any domain *if* the domain is included in the "permissions" section of the manifest.json file:  
- "permissions": [ "http://*.html5rocks.com"]
+<code> "permissions": [ "http://*.html5rocks.com"]</code>
 
 The server doesn't need to include any additional CORS headers or do any more work in order for the request to succeed.
 
