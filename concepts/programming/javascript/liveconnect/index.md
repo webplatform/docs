@@ -6,7 +6,7 @@
 {{Summary_Section|This chapter describes using LiveConnect technology to let Java and JavaScript code communicate with each other. The chapter assumes you are familiar with Java programming.
 
 }}
-{{Guide
+{{Tutorial
 |Content===Working with Wrappers==
 
 In JavaScript, a ''wrapper'' is an object of the target language data type that encloses an object of the source language. When programming in JavaScript, you can use a wrapper object to access methods and fields of the Java object; calling a method or accessing a property on the wrapper results in a call on the Java object. On the Java side, JavaScript objects are wrapped in an instance of the class <code>netscape.javascript.JSObject</code> and passed to Java.
