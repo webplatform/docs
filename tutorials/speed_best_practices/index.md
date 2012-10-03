@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page_Title|Best practices for building faster Web apps with HTML5}}
 {{Flags
 |High-level issues=Needs Flags
 }}
@@ -8,9 +8,7 @@
 }}
 {{Summary_Section|Tips to improve HTML5 web app performance.}}
 {{Tutorial
-|Content==Best Practices for a Faster Web App with HTML5=
-
-==Introduction==
+|Content===Introduction==
 
 Much of HTML5 aims to deliver native browser support for components and techniques that we have achieved through JavaScript libraries thus far. Using these features, when present, can end up delivering a much faster experience for your users. In this tutorial, we won't recap the excellent performance research that you've seen at Yahoo's [http://developer.yahoo.com/performance/rules.html Exceptional Performance site] or Google's [http://code.google.com/speed/page-speed/docs/rules_intro.html Page Speed docs] and [http://code.google.com/speed/index.html Let's make the web faster] sites. Instead we'll focus on how putting HTML5 and CSS3 to use today can make your web apps more responsive.
 
