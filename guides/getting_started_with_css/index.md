@@ -35,11 +35,11 @@ CSS is not a programming language like JavaScript and it is not a markup languag
  
 Without further ado, let’s have a look at a CSS code example, and then dissect it:
 
-<syntaxhighlight lang="css">selector {
+<pre lang="css">selector {
   property1:value;
   property2:value;
   property3:value;
-}</syntaxhighlight>
+}</pre>
  
 The pertinent parts are as follows:
 
