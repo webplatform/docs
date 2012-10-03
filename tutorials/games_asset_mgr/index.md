@@ -7,9 +7,7 @@
 }}
 {{Summary_Section|Centralize and manage the asset downloads for your HTML5 game.}}
 {{Tutorial
-|Content
-
-==Introduction==
+|Content==Introduction==
 
 HTML5 has provided many useful APIs for building modern, responsive, and powerful web applications in the browser. This is great, but you really want to build and play games!  Luckily, HTML5 has also ushered in a new era of game development that uses APIs like Canvas and powerful JavaScript engines to deliver gaming straight to your browser without the need for plugins.
 
