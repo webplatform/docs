@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page_Title|Building a simple trip meter using the geolocation API}}
 {{Flags
 |High-level issues=Needs Flags
 }}
@@ -6,11 +6,9 @@
 |Name=Michael Mahemoff
 |Published=May 24, 2010
 }}
-{{Summary_Section|An introduction to the geolocation API using a simple trip meter.}}
+{{Summary_Section|An introduction to the geolocation API by building a simple trip meter.}}
 {{Tutorial
-|Content==A Simple Trip Meter using the Geolocation API=
-
-==Introduction==
+|Content===Introduction==
 The [http://dev.w3.org/geo/api/ Geolocation API] lets you find out where the user is and keep tabs on them as they move around, always with the user's consent. This functionality could be used as part of user queries, e.g., to guide someone to a destination point. It could also be used for "geo-tagging" some content the user has created, e.g., to mark where a photo was taken. The API is device-agnostic; it doesn't care how the browser determines location, so long as clients can request and receive location data in a standard way. The underlying mechanism might be GPS, wifi, or simply asking the user to enter their location manually. Since any of these lookups is going to take some time, the API is asynchronous; you pass it a callback method whenever you request a location.
 
 The example here is a trip meter showing the initial location and maintaining a display of the distance travelled since the page was loaded.
