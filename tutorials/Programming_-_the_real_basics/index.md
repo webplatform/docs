@@ -78,7 +78,7 @@ In English, this construct would be as follows:
  
 You can do all kind of calculations with variables by adding operators in between them. There are the classics like adding with a plus sign operator and subtracting with a minus sign operator. For multiplication you have to use an asterisk (*) and for dividing, a slash (/). The following example shows some calculations that are possible. Notice the texts preceded by a double slash //—these are JavaScript comments. When a JavaScript interpreter encounters these in a script it will not try to execute what follows on that line, and skips it—these are comments made for humans and not to be interpreted by the browser.
  
-<pre>&lt;script type="text/javascript"&gt;
+<syntaxhighlight lang="javascript">
 var x = 5;
 var y = 6;
 var z = 20;
@@ -93,7 +93,7 @@ var addAndDivide = (x + z) / y;
 
 var half = (y + z) / 2;
 // half will be 13
-&lt;/script&gt;</pre>
+</syntaxhighlight>
  
 As you can see you can mix and match any variable, and also use variables along with fixed values in calculations; you can also group them with parenthesis to override the natural order of operators (parentheses first, then multiplication or dividing, then adding or subtracting and all those Math lesson classics).
  
@@ -114,11 +114,11 @@ JavaScript is a “loosely typed” language, which means that you don't have to
  
 There is nothing magical or strange going on with these. You define variables and set their values to any number type.
  
-<pre>&lt;script type="text/javascript"&gt;
+<syntaxhighlight lang="javascript">
   var fahrenheit = 123;
   var celsius = (fahrenheit - 32) * 5/9; 
   var clue = 0.123123;
-&lt;/script&gt;</pre>
+</syntaxhighlight>
  
 Floats and integers can be modified with any mathematical operators.
  
@@ -126,25 +126,25 @@ Floats and integers can be modified with any mathematical operators.
  
 Booleans are simple “yes or no” definitions. You assign them by using the <code>true</code> or <code>false</code> keywords.
  
-<pre>&lt;script type="text/javascript"&gt;
+<syntaxhighlight lang="javascript">
   var doorClosed = true;
   var catCanLeave = false;
-&lt;/script&gt;</pre>
+</syntaxhighlight>
  
 ==== Strings ====
  
 Strings are lines of text that can contain any character. You define them in JavaScript by enclosing the text in single quotes or double quotes.
  
-<pre>&lt;script type="text/javascript"&gt;
+<syntaxhighlight lang="javascript">
   var surname = 'Heilmann';
   var name = "Christian";
   var age = '33';
   var hair = 'Flickr famous';
-&lt;/script&gt;</pre>
+</syntaxhighlight>
  
 You can concatenate (a technical term that means “join together”) strings using the + operator but you cannot subtract strings from one another. For string modification you need to use functions the language provides you with. Simple concatenation on the other hand is as easy as this:
  
-<pre>&lt;script type="text/javascript"&gt;
+<syntaxhighlight lang="javascript">
   var surname = 'Heilmann';
   var name = 'Christian';
   var age = '33';
@@ -152,7 +152,7 @@ You can concatenate (a technical term that means “join together”) strings us
   var message = 'Hi, I am ' + name + ' ' + surname + '. ';
   message += 'I am ' + age + 'years old and my hair is ' + hair;
   alert(message);
- &lt;/script&gt;</pre>
+</syntaxhighlight>
  
 Try out the [http://dev.opera.com/articles/view/programming-the-real-basics/flickrfamous.html string concatenation example].
  
@@ -162,22 +162,22 @@ There is a catch to remember when using concatenation versus adding values. If y
  
 Most languages will not care if you use single or double quotes to enclose the string, as long as you don’t mix them. To stop the JavaScript interpreter from becoming confused about where the end of the string is, you need to comment out quotes contained in the string with a backslash:
  
-<pre>&lt;script type="text/javascript"&gt;
+<syntaxhighlight lang="javascript">
   // this will cause an error, as the interpreter doesn't know 
   // what the things after the ' are. The string defined here is
   // 'Isn'.
   var stringWithError = 'Isn't it hard to get things right?';
   // This is not an error, all is fine
   var stringWithoutError = 'Isn\'t it hard to get things right?';
-&lt;/script&gt;</pre>
+</syntaxhighlight>
 
 ==== Arrays ====
  
 Arrays are very powerful constructs. An array is a collection of values, and each of the values can be a variable, or a real value. For example:
  
-<pre>&lt;script type="text/javascript"&gt;
+<syntaxhighlight lang="javascript">
   var pets = new Array('Boomer','Polly','Mr.Frisky');
-&lt;/script&gt;</pre>
+</syntaxhighlight>
  
 You can access each of the values with the '''array''' counter, which is the index number in the array—think of it as being like looking up chapters in a book. The syntax is <code>arrayname[index]</code>. So for example <code>pets[1]</code> would give you the string “Polly”. But wait! I hear you ask—shouldn’t it be <code>pets[2]</code> for Polly, given that it is the '''second''' value in the array? '''No'''—the counter is not 2, as computers start counting at 0, not at 1! This is a very common cause of confusion and errors.
  
@@ -191,13 +191,13 @@ If you have a collection of items that need more detailed descriptions than just
  
 Objects are a big and very clever and versatile part of programming and explaining them in detail here would be beyond the scope of this article. Let’s just say that an object is a thing that has several properties. Say for example you have a person object; you can define the different properties by appending them with a dot:
  
-<pre>&lt;script type="text/javascript"&gt;
+<syntaxhighlight lang="javascript">
   var person = new Object();
   person.name = 'Chris';
   person.surname = 'Heilmann';
   person.age = 33;
   person.hair = 'Flickr famous';
-&lt;/script&gt;</pre>
+</syntaxhighlight>
  
 You can access the properties with dot notation (<code>person.age</code> would give you 33) or with the square bracket notation (<code>person['name']
 </code> gets you “Chris”). You will learn more about JavaScript objects later on in the course.
