@@ -3,12 +3,7 @@
 {{Summary_Section|Tutorials are hands-on lessons about using web technology.}}
 {{Basic Page}}
 ==Basics==
-* [[tutorials/Introduction_to_the_Web_Standards_Curriculum|Introduction to the Web Standards]]
-* [[tutorials/Programming_-_the_real_basics|Basics of Programming]]
-* [[tutorials/Getting_your_content_online|Getting your content online]]
-* [[tutorials/How does the Internet work|How does the Internet work]]
-
-==Core tutorials==
+* [[tutorials/basics|Web programming essentials]]
 * [[CSS/Training|CSS]]
 * [[js/tutorials|JavaScript]]
 * [[html/tutorials|HTML]]
