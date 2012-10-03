@@ -111,7 +111,7 @@ The original XmlHttpRequest object had only one event handler, <code>onreadystat
 
 For most cases, you will at the very least want to handle the <code>onload</code> and <code>onerror</code> events:
 
- 
+<syntaxhighlight lang="JavaScript"> 
  xhr.onload = function() {
   var responseText = xhr.responseText;
   console.log(responseText);
@@ -121,6 +121,7 @@ For most cases, you will at the very least want to handle the <code>onload</code
  xhr.onerror = function() {
    console.log('There was an error!');
  };
+</syntaxhighlight>
 
 Browers don't do a good job of reporting what went wrong when there is an error. For example, Firefox reports a status of 0 and an empty statusText for all errors. Browsers also report an error message to the console log, but this message cannot be accessed from JavaScript. When handling <code>onerror</code>, you will know that an error occurred, but not much else.
 
@@ -128,13 +129,15 @@ Browers don't do a good job of reporting what went wrong when there is an error.
 
 Standard CORS requests do not send or set any cookies by default. In order to include cookies as part of the request, you need to set the XmlHttpRequest’s <code>.withCredentials</code> property to true:
 
- 
+<syntaxhighlight lang="JavaScript">  
  xhr.withCredentials = true;
+</syntaxhighlight>
 
 In order for this to work, the server must also enable credentials by setting the Access-Control-Allow-Credentials response header to “true”. See the [#toc-adding-cors-support-to-the-server server section] for details.
 
- 
+<syntaxhighlight lang="JavaScript">  
  Access-Control-Allow-Credentials: true
+</syntaxhighlight>
 
 The <code>.withCredentials</code> property will include any cookies from the remote domain in the request, and it will also set any cookies from the remote domain. Note that these cookies still honor same-origin policies, so your JavaScript code can’t access the cookies from document.cookie or the response headers. They can only be controlled by the remote domain.
 
@@ -142,8 +145,9 @@ The <code>.withCredentials</code> property will include any cookies from the rem
 
 Now that your CORS request is configured, you are ready to make the request. This is done by calling the <code>send()</code> method:
 
- 
+<syntaxhighlight lang="JavaScript">  
  xhr.send();
+</syntaxhighlight>
 
 If the request has a body, it can be specified as an argument to <code>send()</code>.
 
@@ -155,7 +159,7 @@ Here is a full working sample of a CORS request.
 
 <center><strong>Run Sample</strong></center>
 
- 
+<syntaxhighlight lang="JavaScript">  
  // Create the XHR object.
  function createCORSRequest(method, url) {
    var xhr = new XMLHttpRequest();
@@ -202,6 +206,7 @@ Here is a full working sample of a CORS request.
  
    xhr.send();
  }
+<syntaxhighlight>
 
 ==Adding CORS support to the server==
 
@@ -244,20 +249,22 @@ Lets start by examining a simple request from the client. The table below shows 
 
 JavaScript:
 
- 
+<syntaxhighlight lang="JavaScript">  
  var url = 'http://api.alice.com/cors';
  var xhr = createCORSRequest('GET', url);
  xhr.send();
+<syntaxhighlight lang="JavaScript"> 
 
 HTTP Request:
 
- 
+<syntaxhighlight lang="yaml">  
  GET /cors HTTP/1.1
  '''Origin: http://api.bob.com'''
  Host: api.alice.com
  Accept-Language: en-US
  Connection: keep-alive
  User-Agent: Mozilla/5.0...
+</syntaxhighlight>
 
 The first thing to note is that a valid CORS request *always* contains an Origin header. This [http://tools.ietf.org/html/draft-abarth-origin-09 Origin header] is added by the browser, and can not be controlled by the user. The value of this header is the scheme (e.g. http), domain (e.g. bob.com) and port (included only if it is not a default port, e.g. 81) from which the request originates; for example: http://api.alice.com.
 
@@ -265,11 +272,12 @@ Here’s a valid server response; the CORS-specific headers are bolded
 
 HTTP Response:
 
- 
+<syntaxhighlight lang="yaml">  
  '''Access-Control-Allow-Origin: http://api.bob.com'''
  '''Access-Control-Allow-Credentials: true'''
  '''Access-Control-Expose-Headers: FooBar'''
  Content-Type: text/html; charset=utf-8
+</syntaxhighlight>
 
 All CORS related headers are prefixed with "Access-Control-". Here’s some more details about each header.
 
@@ -304,12 +312,13 @@ Here’s an example of a not-so-simple request:
 
 JavaScript:
 
- 
+<syntaxhighlight lang="JavaScript">  
  var url = 'http://api.alice.com/cors';
  var xhr = createCORSRequest('PUT', url);
  xhr.setRequestHeader(
      'X-Custom-Header', 'value');
  xhr.send();
+</syntaxhighlight>
 
 Preflight Request:
 
@@ -335,7 +344,7 @@ If the HTTP method and headers are valid, the server should respond with the fol
 
 Preflight Request:
 
- 
+<syntaxhighlight lang="yaml">  
  OPTIONS /cors HTTP/1.1
  '''Origin: http://api.bob.com'''
  '''Access-Control-Request-Method: PUT'''
@@ -344,14 +353,16 @@ Preflight Request:
  Accept-Language: en-US
  Connection: keep-alive
  User-Agent: Mozilla/5.0...
+</syntaxhighlight>
 
 Preflight Response:
 
- 
+<syntaxhighlight lang="yaml">  
  '''Access-Control-Allow-Origin: http://api.bob.com'''
  '''Access-Control-Allow-Methods: GET, POST, PUT'''
  '''Access-Control-Allow-Headers: X-Custom-Header'''
  Content-Type: text/html; charset=utf-8
+</syntaxhighlight>
 
 <code>Access-Control-Allow-Origin</code> (required) - Like the simple response, the preflight response must include this header.
 
@@ -367,7 +378,7 @@ Once the preflight request gives permissions, the browser makes the actual reque
 
 Actual Request:
 
- 
+<syntaxhighlight lang="yaml">
  PUT /cors HTTP/1.1
  '''Origin: http://api.bob.com'''
  Host: api.alice.com
@@ -375,19 +386,21 @@ Actual Request:
  Accept-Language: en-US
  Connection: keep-alive
  User-Agent: Mozilla/5.0...
+</syntaxhighlight>
 
 Actual Response:
 
- 
+<syntaxhighlight lang="yaml">  
  '''Access-Control-Allow-Origin: http://api.bob.com'''
  Content-Type: text/html; charset=utf-8
+</syntaxhighlight>
 
 If the server wants to deny the CORS request, it can just return a generic response (like HTTP 200), without any CORS header. The server may want to deny the request if the HTTP method or headers requested in the preflight are not valid. Since there are no CORS-specific headers in the response, the browser assumes the request is invalid, and doesn’t make the actual request:
 
 Preflight Request:
 
- 
- OPTIONS /cors HTTP/1.1
+
+<syntaxhighlight lang="JavaScript">  
  '''Origin: http://api.bob.com'''
  '''Access-Control-Request-Method: PUT'''
  '''Access-Control-Request-Headers: X-Custom-Header'''
@@ -395,6 +408,7 @@ Preflight Request:
  Accept-Language: en-US
  Connection: keep-alive
  User-Agent: Mozilla/5.0...
+</syntaxhighlight>
 
 Preflight Response:
 
@@ -418,7 +432,9 @@ Chrome extensions support cross-domain requests in a two different ways:
 
 # Include domain in manifest.json - Chrome extensions can make cross-domain requests to any domain *if* the domain is included in the "permissions" section of the manifest.json file:  
  "permissions": [ "http://*.html5rocks.com"]
- The server doesn't need to include any additional CORS headers or do any more work in order for the request to succeed.
+
+The server doesn't need to include any additional CORS headers or do any more work in order for the request to succeed.
+
 # CORS request - If the domain is not in the manifest.json file, then the Chrome extension makes a standard CORS request. The value of the Origin header is "chrome-extension://[CHROME EXTENSION ID]". This means requests from Chrome extensions are subject to the same CORS rules described in this article.
 
 ==Known Bugs==
