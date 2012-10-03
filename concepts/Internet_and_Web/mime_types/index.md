@@ -1,12 +1,11 @@
+{{Page_Title|Introduction to MIME types}}
 {{Flags
 |High-level issues=Stub
 }}
 {{API_Name}}
 {{Summary_Section}}
 {{Concept_Page
-|Content==Introduction to MIME Types=
-
-====original by Bob Clary====
+|Content=====original by Bob Clary====
 ====published Feb. 20, 2003====
 
 ==What are MIME types?==
@@ -109,7 +108,6 @@ There are several steps you can take to determine the correct MIME type value to
 * [http://msdn.microsoft.com/workshop/networking/moniker/overview/appendix_a.asp Microsoft - Appendix A: MIME Type Detection in Internet Explorer]
 * [http://www.microsoft.com/windows/ie/downloads/critical/q290108/ Microsoft - Security Update, March 29, 2001]
 * [http://www.microsoft.com/windows/ie/downloads/critical/Q313675/ Microsoft - Security Update, December 13, 2001]
-
 }}
 {{Examples_Section
 |Not_required=Yes
