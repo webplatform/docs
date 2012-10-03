@@ -2,7 +2,7 @@
 {{Flags}}
 {{Summary_Section|Tutorials are hands-on lessons about implementing web technology.}}
 {{Basic Page}}
-==Basics==
+==Fundamentals==
 * [[tutorials/basics|Web programming essentials]]
 * [[CSS/Training|CSS]]
 * [[javascript/tutorials|JavaScript]]
