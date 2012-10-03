@@ -8,9 +8,7 @@
 }}
 {{Summary_Section|How to audit a web app for speed.}}
 {{Tutorial
-|Content==Auditing Your Web App For Speed=
-
-==Introduction==
+|Content===Introduction==
 
 A fast web app is a successful web app. Your job as a developer is not done until you have optimized both the real and perceived performance of your app. Not only is it simply the right thing to do to ensure that your users have an excellent experience, but there are very practical and important business reasons to optimize. Amazon measured a 1% drop in sales for every 100ms of site latency, and Google measured a 20% drop in traffic for every 0.5 second delay ([http://www.scribd.com/doc/4970486/Make-Data-Useful-by-Greg-Linden-Amazoncom citation]). Those are real numbers with real implications for your business and web apps.
 
