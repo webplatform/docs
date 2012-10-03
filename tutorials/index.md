@@ -1,6 +1,6 @@
 {{Page_Title|Tutorials}}
 {{Flags}}
-{{Summary_Section|Tutorials are hands-on lessons about using web technology.}}
+{{Summary_Section|Tutorials are hands-on lessons about implementing web technology.}}
 {{Basic Page}}
 ==Basics==
 * [[tutorials/basics|Web programming essentials]]
