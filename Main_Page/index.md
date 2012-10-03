@@ -19,7 +19,7 @@ In the future, Web Platform Docs will include even more content for you to explo
   <li>[[CSS|CSS]]</li>
   <li>[[javascript|JavaScript]]</li>
   <li>[[SVG|SVG]]</li>
-  <li>[[accessibility]]</li>
+  <li>[[accessibility|Accessibility]]</li>
 </ul>
 </li>
 <li><p>'''[[tutorials|Learn web design and development]]''' Learn basic and advanced web design and development techniques by reading our comprehensive tutorials and references.</p>
