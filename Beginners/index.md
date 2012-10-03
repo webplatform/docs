@@ -7,19 +7,37 @@
 In this course, you'll be writing a lot of code, and testing it out in web browsers. Before you start, you should at least have the following installed:
 
 <ol>
-  <li>The newest browsers you are able to install. If you don't have them already, grab them from the homepages of [[http://www.getfirefox.net/ Firefox]], [[http://www.opera.com Opera]], [[http://www.apple.com/safari/ Safari]], [[www.google.com/chrome Chrome]], and [[http://windows.microsoft.com/en-GB/internet-explorer/products/ie/home Internet Explorer]].</li>
+  <li>The newest browsers you are able to install. If you don't have them already, grab them from the homepages of [[http://www.getfirefox.net/ Firefox]], [[http://www.opera.com Opera]], [[http://www.apple.com/safari/ Safari]], [[http://www.google.com/chrome Chrome]], and [[http://windows.microsoft.com/en-GB/internet-explorer/products/ie/home Internet Explorer]].</li>
   <li>A decent text editor. Reasonable free options are [[http://notepad-plus-plus.org/ Notepad++]] for Windows, [[http://www.barebones.com/products/TextWrangler/ Text Wrangler]], for Mac, and [[http://bluefish.openoffice.nl/index.html Bluefish]] for Linux.</li>
 </ol>
 
 Now roll your sleeves up and let's get ready to learn. [[http://docs.webplatform.org/wiki/tutorials Browse our full list of learning articles]] if you exhaust the list of articles here, and want to learn more!
 
-==Beginning fundamentals==
-
+==Web fundamentals==
 
 * [[tutorials/Introduction_to_the_Web_Standards_Curriculum|Introduction to the Web Standards]]
 * [[tutorials/How does the Internet work|How does the Internet work]]
 * [[tutorials/Programming_-_the_real_basics|Basics of Programming]]
+* [[concepts/internet_and_web/the web standards model|The web standards model — HTML, CSS and JavaScript]]
 * [[tutorials/Getting_your_content_online|Getting your content online]]
+
+==HTML — structuring your web content==
+
+* [[guides/the basics of html|The basics of HTML]]
+* [[guides/doctypes and markup styles|DOCTYPES and markup styles]]
+* [[guides/html validation|HTML validation]]
+* [[guides/the html head|The HTML &lt;head&gt;]]
+* [[guides/html text|HTML text]]
+* [[guides/html lists|HTML lists]]
+* [[guides/images in html|Images in HTML]]
+* [[guides/html links|HTML links]]
+* [[guides/html structural elements|HTML structural elements]]
+* [[guides/html tables|HTML tables]]
+
+==CSS — styling your web content==
+
+* [[guides/getting started with css|Getting started with CSS]]
+
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
