@@ -30,7 +30,7 @@ In general with HTML, you use the markup language to describe the information co
 <ol> 
 <li><p>To link your document to your stylesheet, edit your HTML file. Add the line highlighted here:</p>
 
-<syntaxhighlight lang="html">&lt;!DOCTYPE html&gt;
+<syntaxhighlight lang="html5">&lt;!DOCTYPE html&gt;
  &lt;html&gt;
    &lt;head&gt;
    &lt;meta charset="UTF-8"&gt;
