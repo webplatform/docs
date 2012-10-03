@@ -1,9 +1,12 @@
 {{Page_Title|Working with objects in JavaScript}}
 {{Flags
+|High-level issues=Merge Candidate
 |Content=Errors, Cleanup, Broken Links
 |Editorial notes=Is marked as needing a technical review in MDN
 
 Links need to be changed to point to the WPD JS reference, once it's created
+
+Possible merge with http://docs.webplatform.org/wiki/Objects_in_JavaScript
 }}
 {{Byline}}
 {{Summary_Section}}
@@ -157,7 +160,7 @@ The following example creates <code>myHonda</code> with three properties. Note t
 
 You can also use object initializers to create arrays. See [https://developer.mozilla.org/en-US/docs/JavaScript/Guide/Values%2C_variables%2C_and_literals#Array_literals array literals].
 
-In JavaScript 1.1 and earlier, you cannot use object initializers. You can create objects only using their constructor functions or using a function supplied by some other object for that purpose. See [#Using_a_constructor_function Using a constructor function].
+In JavaScript 1.1 and earlier, you cannot use object initializers. You can create objects only using their constructor functions or using a function supplied by some other object for that purpose. See [[#Using_a_constructor_function Using a constructor function]].
 
 ===Using a constructor function===
 
@@ -494,4 +497,7 @@ See <code>[Expressions_and_operators#delete delete]</code> for more information.
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
 }}
