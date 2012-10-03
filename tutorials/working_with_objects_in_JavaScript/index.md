@@ -160,7 +160,7 @@ The following example creates <code>myHonda</code> with three properties. Note t
 
 You can also use object initializers to create arrays. See [https://developer.mozilla.org/en-US/docs/JavaScript/Guide/Values%2C_variables%2C_and_literals#Array_literals array literals].
 
-In JavaScript 1.1 and earlier, you cannot use object initializers. You can create objects only using their constructor functions or using a function supplied by some other object for that purpose. See [[#Using a constructor function]].
+In JavaScript 1.1 and earlier, you cannot use object initializers. You can create objects only using their constructor functions or using a function supplied by some other object for that purpose. See [[#Using a constructor function | Using a constructor function]].
 
 ===Using a constructor function===
 
@@ -247,7 +247,7 @@ adds a property <code>color</code> to car1, and assigns it a value of "black." H
 
 ===Using the Object.create method===
 
-Objects can also be created using the <code>Object.create</code> method. This method can be very useful, because it allows you to choose the prototype object for the object you want to create, without having to define a constructor function. For more detailed information on the method and how to use it, see [/en-US/docs/JavaScript/Reference/Global_Objects/Object/create Object.create method]
+Objects can also be created using the <code>Object.create</code> method. This method can be very useful, because it allows you to choose the prototype object for the object you want to create, without having to define a constructor function. For more detailed information on the method and how to use it, see [https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Object/create Object.create method]
 
 ===Inheritance===
 
@@ -270,7 +270,7 @@ You can add a property to a previously defined object type by using the <code>pr
  car1.color = "black";
 </syntaxhighlight>
 
-See the [/en-US/docs/JavaScript/Reference/Global_Objects/Function/prototype <code>prototype</code> property] of the <code>Function</code> object in the [/en-US/docs/JavaScript/Reference JavaScript Reference] for more information.
+See the [https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Function/prototype <code>prototype</code> property] of the <code>Function</code> object for more information.
 
 ===Defining methods===
 
