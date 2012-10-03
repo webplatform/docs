@@ -148,7 +148,7 @@ However, because our hexagon and lines are using the old (0,0) coordinates as th
 
 Putting the above translation and rotation before our rendering code causes it to now render the rotated tile:
 
-[[Image:en08.pgn|Rotated hexagonal tile]]<br/>
+[[Image:en08.png|Rotated hexagonal tile]]<br/>
 ''Rotated hexagonal tile''
 
 ==Summary==
