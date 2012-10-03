@@ -254,8 +254,7 @@ When implementing AppCache on your site, it's '''very important''' that you don'
 To prevent caching for our site, we first set App Engine to never cache manifest files:
 
 <pre>
- - url: /(.*\.(appcache
-|manifest))
+ - url: /(.*\.(appcache&#124;manifest))
    expiration: "0s"
 </pre>
 
