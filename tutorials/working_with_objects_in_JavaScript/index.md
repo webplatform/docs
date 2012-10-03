@@ -49,12 +49,12 @@ Object properties names can be valid JavaScript string, or anything that can be 
      rand = Math.random(),
      obj = new Object();
  
- myObj.type              = "Dot syntax";
- myObj["date created"]   = "String with space";
- myObj[str]              = "String value";
- myObj[rand]             = "Random Number";
- myObj[obj]              = "Object";
- myObj[""]               = "Even an empty string";
+ myObj.type = "Dot syntax";
+ myObj["date created"] = "String with space";
+ myObj[str] = "String value";
+ myObj[rand] = "Random Number";
+ myObj[obj] = "Object";
+ myObj[""] = "Even an empty string";
  
  console.log(myObj);
 </syntaxhighlight>
@@ -99,7 +99,8 @@ In JavaScript, almost everything is an object. All primitive types except <code>
 
 Starting with [/en-US/docs/JavaScript/ECMAScript_5_support_in_Mozilla ECMAScript 5], there are three native ways to list/traverse object properties:
 
-* [/en-US/docs/JavaScript/Reference/Statements/for...in for...in] loops<br /> This method traverses all enumerable properties of an object and its prototype chain
+* [https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Statements/for...in for...in for...in] loops 
+This method traverses all enumerable properties of an object and its prototype chain
 * [/en-US/docs/JavaScript/Reference/Global_Objects/Object/keys Object.keys(o)]<br /> This method returns an array with all the own (not in the prototype chain) enumerable properties names ("keys") of an object <code>o</code>.
 * [/en-US/docs/JavaScript/Reference/Global_Objects/Object/getOwnPropertyNames Object.getOwnPropertyNames(o)]<br /> This method returns an array containing all own properties names (enumerable or not) of an object <code>o</code>.
 
