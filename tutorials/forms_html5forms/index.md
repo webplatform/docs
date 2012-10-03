@@ -337,8 +337,7 @@ Here's an example for a reservation request form that pulls together different i
 
 This is the HTML and JavaScript for the form:
 
-<nowiki>
-<form oninput="total.value = (nights.valueAsNumber * 99) +
+<nowiki><form oninput="total.value = (nights.valueAsNumber * 99) +
   ((guests.valueAsNumber - 1) * 10)">
  
    <label>Full name:</label>
@@ -380,8 +379,7 @@ This is the HTML and JavaScript for the form:
      input.setCustomValidity('');
    }
  }
- </script>
-</nowiki>
+ </script></nowiki>
 
 This is the CSS that goes with the form code:
 
