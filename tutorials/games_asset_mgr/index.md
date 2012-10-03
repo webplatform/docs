@@ -7,7 +7,7 @@
 }}
 {{Summary_Section|Centralize and manage the asset downloads for your HTML5 game.}}
 {{Tutorial
-|Content===Introduction==
+|Content==Introduction==
 
 HTML5 has provided many useful APIs for building modern, responsive, and powerful web applications in the browser. This is great, but you really want to build and play games!  Luckily, HTML5 has also ushered in a new era of game development that uses APIs like Canvas and powerful JavaScript engines to deliver gaming straight to your browser without the need for plugins.
 
@@ -19,12 +19,12 @@ HTML5 games can’t assume their assets such as images or audio will be on the p
 
 The basic way to programmatically load an image in a web browser is the following code:
 
-<pre><code>var image = new Image();
+<pre>var image = new Image();
 image.addEventListener(“success”, function(e) {
   // do stuff with the image
 });
 image.src = "/some/image.png";
-</pre></code>
+</pre>
 
 Now imagine having a hundred images that need to be loaded and displayed when the game starts up. How do you know when all 100 images are ready?  Did they all successfully load?  When should the game actually start?
 
@@ -93,9 +93,9 @@ Another requirement is to track both success and failures, because unfortunately
     img.addEventListener("load", function() {
         // coming soon
     }, false);
-    <span class="highlight">img.addEventListener("error", function() {
-        // coming soon
-    }, false);</span>
+    img.addEventListener("error", function() {
+      // coming soon
+    }, false);
     img.src = path;
   }
 }
@@ -106,19 +106,19 @@ Our asset manager needs to know how many successes and failures we’ve encounte
 First up, we’ll add the counters to the object in the constructor, which now looks like this:
 
 <pre>function AssetManager() {
-    <span class="highlight">this.successCount = 0;
-    this.errorCount = 0;</span>
-    this.downloadQueue = [];
+  this.successCount = 0;
+  this.errorCount = 0;
+  this.downloadQueue = [];
 }
 </pre>
 
 Next, increment the counters in the event listeners, which now look like this:
 <pre>
 img.addEventListener("load", function() {
-    <span class="highlight">that.successCount += 1;</span>
+  that.successCount += 1;
 }, false);
 img.addEventListener("error", function() {
-    <span class="highlight">that.errorCount += 1;</span>
+  that.errorCount += 1;
 }, false);
 </pre>
 
@@ -142,15 +142,15 @@ Of course knowing if it’s done is only half the battle; the asset manager also
 <pre>img.addEventListener("load", function() {
     console.log(this.src + ' is loaded');
     that.successCount += 1;
-    <span class="highlight">if (that.isDone()) {
+    if (that.isDone()) {
         // ???
-    }</span>
+    }
 }, false);
 img.addEventListener("error", function() {
     that.errorCount += 1;
-    <span class="highlight">if (that.isDone()) {
+    if (that.isDone()) {
         // ???
-    }</span>
+    }
 }, false);
 </pre>
 
@@ -159,7 +159,7 @@ After the counters are incremented, we will see if that was the last asset in ou
 If the asset manager is done downloading all the assets, we will call a callback method, of course!  Let’s change <code>downloadAll()</code> and add a parameter for the callback:
 
 <pre>
-AssetManager.prototype.downloadAll = function(<span class="highlight">downloadCallback</span>) {
+AssetManager.prototype.downloadAll = function(downloadCallback) {
     ...
 </pre>
 
@@ -168,13 +168,13 @@ We will call the downloadCallback method inside of our event listeners:
 <pre>img.addEventListener("load", function() {
     that.successCount += 1;
     if (that.isDone()) {
-        <span class="highlight">downloadCallback();</span>
+        downloadCallback();
     }
 }, false);
 img.addEventListener("error", function() {
     that.errorCount += 1;
     if (that.isDone()) {
-        <span class="highlight">downloadCallback();</span>
+      downloadCallback();
     }
 }, false);
 </pre>
@@ -197,7 +197,7 @@ This cache object is initialized in the constructor, which now looks like this:
 <pre>function AssetManager() {
     this.successCount = 0;
     this.errorCount = 0;
-    <span class="highlight">this.cache = {};</span>
+    this.cache = {};
     this.downloadQueue = [];
 }
 </pre>
@@ -213,7 +213,7 @@ The cache is populated at the end of <code>downloadAll()</code>, as shown below:
           }
       }, false);
       img.src = path;
-      <span class="highlight">this.cache[path] = img;</span>
+      this.cache[path] = img;
   }
 }
 </pre>
@@ -225,9 +225,9 @@ Did you spot the bug?  As written above, the isDone method is only called when e
 You can accommodate this scenario by adding the following code to <code>downloadAll()</code>:
 
 <pre>AssetManager.prototype.downloadAll = function(downloadCallback) {
-  <span class="highlight">if (this.downloadQueue.length === 0) {
+  if (this.downloadQueue.length === 0) {
       downloadCallback();
-  }</span>
+  }
  ...
 </pre>
 
@@ -272,6 +272,7 @@ The source for this asset manager, and the game it’s abstracted from, is open 
 ==Summary==
 
 Most games have some sort of asset manager, but HTML5 games require an asset manager that loads assets over a network and handles failures. This article outlined a simple asset manager that should be easy for you to use and adapt for your next HTML5 game. Have fun, and please let us know what you think in the comments below. Thanks!
+
 
 }}
 {{Compatibility_Section
