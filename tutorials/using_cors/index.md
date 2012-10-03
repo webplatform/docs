@@ -206,7 +206,7 @@ Here is a full working sample of a CORS request.
  
    xhr.send();
  }
-<syntaxhighlight>
+</syntaxhighlight>
 
 ==Adding CORS support to the server==
 
