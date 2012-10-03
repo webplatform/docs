@@ -6,7 +6,7 @@ When it comes to inheritance, JavaScript only has one construct which is objects
 
 
 }}
-{{Guide
+{{Concept
 |Content===Inheritance with the prototype chain==
 
 ===Inheriting properties===
