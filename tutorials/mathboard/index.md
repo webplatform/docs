@@ -1,5 +1,7 @@
-{{Page_Title|HTML5 MathBoard}}
-{{Flags}}
+{{Page_Title|Building the HTML5 MathBoard app}}
+{{Flags
+|High-level issues=Needs Flags
+}}
 {{Byline
 |Name=Jeremy Chone
 |URL=http://www.html5rocks.com/profiles/#jeremychone
