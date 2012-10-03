@@ -1,7 +1,7 @@
 {{Page_Title|Working with objects in JavaScript}}
 {{Flags
 |High-level issues=Merge Candidate
-|Content=Errors, Cleanup, Broken Links
+|Content=Errors, Broken Links, Compatibility Incomplete
 |Editorial notes=Is marked as needing a technical review in MDN
 
 Links need to be changed to point to the WPD JS reference, once it's created
