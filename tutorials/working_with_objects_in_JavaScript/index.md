@@ -69,7 +69,7 @@ You can also access properties by using a string value that is stored in a varia
  myCar[propertyName] = "Mustang";
 </syntaxhighlight>
 
-You can use the bracket notation with [/en-US/docs/JavaScript/Guide/Statements#for...in_Statement for...in] to iterate over all the enumerable properties of an object. To illustrate how this works, the following function displays the properties of the object when you pass the object and the object's name as arguments to the function:
+You can use the bracket notation with [https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Statements/for...in for...in] to iterate over all the enumerable properties of an object. To illustrate how this works, the following function displays the properties of the object when you pass the object and the object's name as arguments to the function:
 
 <syntaxhighlight lang="javascript">
  function showProps(obj, objName) {
