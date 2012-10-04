@@ -1,0 +1,32 @@
+{{Flags
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
+|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+}}
+{{Standardization_Status|}}
+{{API_Name}}
+{{Notes_Section
+|Notes=
+===Remarks===
+The  transformation matrix that the '''gradientTransform''' property defines is inserted to the right of any previously defined transformations, including the implicit transformation that is required  to convert from object bounding box units to user space.
+If you do not specify the '''gradientTransform'''  property, the gradient effect will be as if an identity transform were used instead.
+|Import_Notes=
+===Syntax===
+===Standards information===
+*[http://go.microsoft.com/fwlink/p/?linkid{{=}}199811 Scalable Vector Graphics: Gradients and Patterns], Section 13.4.1
+
+
+}}
+{{See_Also_Section
+|Manual_sections=
+===Related pages (MSDN)===
+*<code>[[svg/elements/gradient|SVGGradientElement]]</code>
+*<code>[[svg/elements/linearGradient|SVGLinearGradientElement]]</code>
+*<code>[[svg/elements/radialGradient|SVGRadialGradientElement]]</code>
+}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|MDN_link=
+|HTML5Rocks_link=
+}}
