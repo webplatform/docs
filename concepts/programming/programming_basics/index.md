@@ -15,13 +15,13 @@ Programming in the most basic form is issuing commands and seeing that they get 
  
 For example, the following two code snippets fulfill the same task, but the former is JavaScript and the latter is PHP:
  
-<pre>var fahrenheit = prompt('Enter temperature in Fahrenheit',0);
+<syntaxhighlight>var fahrenheit = prompt('Enter temperature in Fahrenheit',0);
 var celsius = (fahrenheit - 32) * 5 / 9;
 alert(celsius);
 
 $fahrenheit = $_GET['fahrenheit'];
 $celsius = ($fahrenheit - 32) * 5 / 9;
-echo $celsius;</pre>
+echo $celsius;</syntaxhighlight>
  
 Try out the JavaScript [http://dev.opera.com/articles/view/programming-the-real-basics/fahrenheit.html farenheit to celsius conversion example].
  
