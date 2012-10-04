@@ -5,21 +5,21 @@
 {{Standardization_Status|}}
 {{API_Name}}
 {{API_Object_Property
-|Property_applies_to=dom/history
+|Property_applies_to=dom/objects/PopStateEvent
 |Read_only=
 }}
 {{Topics|DOM}}
 {{Notes_Section
 |Notes=
 ===Remarks===
-A state object is an object representing a user interface state.
+Represents the context information for the event, or '''null''', if the state represented is the initial state of the document.
 |Import_Notes=
 ===Syntax===
 }}
 {{See_Also_Section
 |Manual_sections=
 ===Related pages (MSDN)===
-*<code>history</code>
+*<code>[[dom/objects/PopStateEvent|PopStateEvent]]</code>
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
