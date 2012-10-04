@@ -1,0 +1,35 @@
+{{Flags
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
+|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+}}
+{{Standardization_Status|}}
+{{API_Name}}
+{{Markup_Attribute
+|Property_applies_to=dom/HTMLElement
+}}
+{{Topics|HTML}}
+{{Notes_Section
+|Notes=
+===Remarks===
+A character encoding is a method of converting a sequence of bytes into a sequence of characters.
+If '''ACCEPT-CHARSET''' is not specified, the form is submitted in the character encoding specified for the document. If the form includes characters that fall outside the character set specified for the document, the application attempts to determine an appropriate character set. If an appropriate character set cannot be determined,the characters are encoded as HTML numeric character references. For more information on character sets and numerical character references, see HTML Character Sets.
+|Import_Notes=
+===Syntax===
+===Standards information===
+*[http://go.microsoft.com/fwlink/p/?linkid{{=}}161725 Document Object Model (DOM) Level 1 Specification], Section 2.5.5
+
+
+}}
+{{See_Also_Section
+|Manual_sections=
+===Related pages (MSDN)===
+*<code>form</code>
+|Topic_clusters=html
+}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|MDN_link=
+|HTML5Rocks_link=
+}}
