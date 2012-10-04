@@ -11,9 +11,9 @@
 {{Notes_Section
 |Notes=
 ===Remarks===
-This property has no default value.
+This property has no default value
 There is no functionality implemented for this property unless defined by the author.
-'''archive''' was introduced in Microsoft Internet Explorer 6
+'''declare''' was introduced in Microsoft Internet Explorer 6
 |Import_Notes=
 ===Syntax===
 ===Standards information===
@@ -25,7 +25,6 @@ There is no functionality implemented for this property unless defined by the au
 |Manual_sections=
 ===Related pages (MSDN)===
 *<code>object</code>
-*<code>applet</code>
 |Topic_clusters=html
 }}
 {{External_Attribution
