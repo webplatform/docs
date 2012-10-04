@@ -1,0 +1,34 @@
+{{Flags
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
+|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+}}
+{{Standardization_Status|}}
+{{API_Name}}
+{{API_Object_Property
+|Property_applies_to=dom/traversal/Range
+|Read_only=
+}}
+{{Topics|DOM}}
+{{Notes_Section
+|Notes=
+===Remarks===
+If the boundary point offset is within a container that is not a character data node, the offset is a count based on where it falls between child nodes. For example, the offset is 0 if it falls before the first child, and 1 if it is between the first and second child. If the offset is within a character data node container, the value represents 16-bit unit positions.
+|Import_Notes=
+===Syntax===
+===Standards information===
+*[http://go.microsoft.com/fwlink/p/?linkid{{=}}182712 Document Object Model (DOM) Level 2 Traversal and Range Specification], Section 2.13
+
+
+}}
+{{See_Also_Section
+|Manual_sections=
+===Related pages (MSDN)===
+*<code>[[dom/traversal/Range|Range]]</code>
+}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|MDN_link=
+|HTML5Rocks_link=
+}}
