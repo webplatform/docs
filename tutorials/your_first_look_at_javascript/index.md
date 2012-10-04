@@ -4,7 +4,7 @@
 {{Guide
 |Content=== Introduction ==
  
-In this article of the [http://www.w3.org/community/webed/wiki/Main_PageWeb Standards Curriculum] we’ll cover the basics of JavaScript — how and where to use it, what problems to avoid and general basics to get you started on your journey towards becoming a top-notch JavaScript developer.
+In this article of the [http://www.w3.org/community/webed/wiki/Main_Page Web Standards Curriculum] we’ll cover the basics of JavaScript — how and where to use it, what problems to avoid and general basics to get you started on your journey towards becoming a top-notch JavaScript developer.
  
 == What is JavaScript and how do you execute it? ==
  
