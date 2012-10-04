@@ -326,9 +326,14 @@ Introduced in [http://developer.mozilla.org/en-US/docs/JavaScript/New_in_JavaScr
 
 </div>
 
-* [/en-US/docs/JavaScript/Reference/Global_Objects/Array/Reduce <code>reduce(callback[, initialValue])</code>] applies <code>callback(firstValue, secondValue)</code> to reduce the list of items down to a single value.  var a = [10, 20, 30];
- var total = a.reduce(function(first, second) { return first + second; }, 0);
- alert(total) // Alerts 60
+* [/en-US/docs/JavaScript/Reference/Global_Objects/Array/Reduce <code>reduce(callback[, initialValue])</code>] applies <code>callback(firstValue, secondValue)</code> to reduce the list of items down to a single value.  
+
+<syntaxhighlight lang="javascript">
+var a = [10, 20, 30];
+var total = a.reduce(function(first, second) { return first + second; }, 0);
+alert(total) // Alerts 60
+</syntaxhighlight>
+
 * [/en-US/docs/JavaScript/Reference/Global_Objects/Array/ReduceRight <code>reduceRight(callback[, initialValue])</code>] works like <code>reduce()</code>, but starts with the last element.
 
 <code>reduce</code> and <code>reduceRight</code> are the least obvious of the iterative array methods. They should be used for algorithms that combine two values recursively in order to reduce a sequence down to a single value.
