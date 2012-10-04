@@ -1,5 +1,6 @@
 {{Page_Title}}
 {{Flags}}
+{{Byline}}
 {{Summary_Section|This article covers fundamental principles of programming, using JavaScript as an example language.}}
 {{Guide
 |Content=== Introduction ==
@@ -59,19 +60,19 @@ The same works with programming languages—in programming, variables are contai
 
 To keep things easy, let’s use JavaScript as an example programming language in this article (logical, since this section of the web standards curriculum is all about JavaScript programming!) The following defines two variables, calculates the result of adding the two and defines this result as a value of a third variable.
  
-Note: The <code>&lt;script&gt;</code> tags are there to tell the browser that the text inside is a scripting language and that it should be interpreted as such. The <code>"text/javascript"</code> type attribute tells the browser what language it is.
+Note: The <code>&lt;script&gt;</code> tags are there to tell the browser that the text inside is a scripting language and that it should be interpreted as such.
 
-<pre>&lt;script type="text/javascript"&gt;
-var x = 5;
-var y = 6;
-var result = x + y;
+<pre>&lt;script&gt;
+var x = 5,
+    y = 6,
+    result = x + y;
 &lt;/script&gt;</pre>
  
 The interpreter goes through the code instruction by instruction, with each instruction ending in a semicolon. The semicolon notifies the interpreter of the end of an instruction, much like a full stop or an exclamation mark defines the end of a sentence in human languages.
  
 In English, this construct would be as follows:
  
-* Here comes something that is not HTML; bring forth a translator that understands a language of the type JavaScript that is text based.
+* Here comes something that is not HTML;
 * Define a new variable (that is the <code>var</code> keyword) called x and assign it the value 5. End of instruction.
 * Define a new variable called y and assign it the value 6. End of instruction.
 * Define a new variable called result and assign it the result of adding x and y as its value. End of statement. (As there is a calculation in the assignment of the variable result the interpreter then checks the value of x, checks the value of y, adds the two and sets the value of result to the outcome—11).
@@ -79,11 +80,12 @@ In English, this construct would be as follows:
  
 You can do all kind of calculations with variables by adding operators in between them. There are the classics like adding with a plus sign operator and subtracting with a minus sign operator. For multiplication you have to use an asterisk (*) and for dividing, a slash (/). The following example shows some calculations that are possible. Notice the texts preceded by a double slash //—these are JavaScript comments. When a JavaScript interpreter encounters these in a script it will not try to execute what follows on that line, and skips it—these are comments made for humans and not to be interpreted by the browser.
  
-<pre>&lt;script type="text/javascript"&gt;
-var x = 5;
-var y = 6;
-var z = 20;
-var multiply = x * y * z;
+<pre>&lt;script&gt;
+var x = 5,
+    y = 6,
+    z = 20,
+    multiply = x * y * z;
+
 // multiply will be 600 
 var divide = x / y;
 // divide will be 0.8333333333333334
@@ -112,10 +114,10 @@ JavaScript is a “loosely typed” language, which means that you don't have to
  
 There is nothing magical or strange going on with these. You define variables and set their values to any number type.
  
-<pre>&lt;script type="text/javascript"&gt;
-  var fahrenheit = 123;
-  var celsius = (fahrenheit - 32) * 5/9; 
-  var clue = 0.123123;
+<pre>&lt;script&gt;
+  var fahrenheit = 123,
+      celsius = (fahrenheit - 32) * 5/9,
+      clue = 0.123123;
 &lt;/script&gt;</pre>
  
 Floats and integers can be modified with any mathematical operators.
@@ -124,30 +126,31 @@ Floats and integers can be modified with any mathematical operators.
  
 Booleans are simple “yes or no” definitions. You assign them by using the <code>true</code> or <code>false</code> keywords.
  
-<pre>&lt;script type="text/javascript"&gt;
-  var doorClosed = true;
-  var catCanLeave = false;
+<pre>&lt;script&gt;
+  var doorClosed = true,
+      catCanLeave = false;
 &lt;/script&gt;</pre>
  
 ==== Strings ====
  
 Strings are lines of text that can contain any character. You define them in JavaScript by enclosing the text in single quotes or double quotes.
  
-<pre>&lt;script type="text/javascript"&gt;
-  var surname = 'Heilmann';
-  var name = "Christian";
-  var age = '33';
-  var hair = 'Flickr famous';
+<pre>&lt;script&gt;
+  var surname = 'Heilmann',
+      name = "Christian",
+      age = '33',
+      hair = 'Flickr famous';
 &lt;/script&gt;</pre>
  
 You can concatenate (a technical term that means “join together”) strings using the + operator but you cannot subtract strings from one another. For string modification you need to use functions the language provides you with. Simple concatenation on the other hand is as easy as this:
  
-<pre>&lt;script type="text/javascript"&gt;
-  var surname = 'Heilmann';
-  var name = 'Christian';
-  var age = '33';
-  var hair = 'Flickr famous';
-  var message = 'Hi, I am ' + name + ' ' + surname + '. ';
+<pre>&lt;script&gt;
+  var surname = 'Heilmann',
+      name = 'Christian',
+      age = '33',
+      hair = 'Flickr famous',
+      message = 'Hi, I am ' + name + ' ' + surname + '. ';
+
   message += 'I am ' + age + 'years old and my hair is ' + hair;
   alert(message);
  &lt;/script&gt;</pre>
@@ -160,7 +163,7 @@ There is a catch to remember when using concatenation versus adding values. If y
  
 Most languages will not care if you use single or double quotes to enclose the string, as long as you don’t mix them. To stop the JavaScript interpreter from becoming confused about where the end of the string is, you need to comment out quotes contained in the string with a backslash:
  
-<pre>&lt;script type="text/javascript"&gt;
+<pre>&lt;script&gt;
   // this will cause an error, as the interpreter doesn't know 
   // what the things after the ' are. The string defined here is
   // 'Isn'.
@@ -173,7 +176,7 @@ Most languages will not care if you use single or double quotes to enclose the s
  
 Arrays are very powerful constructs. An array is a collection of values, and each of the values can be a variable, or a real value. For example:
  
-<pre>&lt;script type="text/javascript"&gt;
+<pre>&lt;script&gt;
   var pets = new Array('Boomer','Polly','Mr.Frisky');
 &lt;/script&gt;</pre>
  
@@ -189,7 +192,7 @@ If you have a collection of items that need more detailed descriptions than just
  
 Objects are a big and very clever and versatile part of programming and explaining them in detail here would be beyond the scope of this article. Let’s just say that an object is a thing that has several properties. Say for example you have a person object; you can define the different properties by appending them with a dot:
  
-<pre>&lt;script type="text/javascript"&gt;
+<pre>&lt;script&gt;
   var person = new Object();
   person.name = 'Chris';
   person.surname = 'Heilmann';
@@ -212,29 +215,30 @@ The other thing conditions can do for you is allow for branching. You might have
  
 The easiest condition is an <code>if</code> statement and its syntax is <code>if(condition){ do this … }</code>. The condition has to be true for the code inside the curly braces to be executed. You can for example test a string and set the value of another string dependent on its value:
  
-<pre>&lt;script type="text/javascript"&gt;
-var country = 'France';
-var weather;
-var food;
-var currency;
-if(country == 'England'){
+<pre>&lt;script&gt;
+var country = 'France',
+    weather,
+    food,
+    currency,
+    message;
+
+if(country === 'England'){
   weather = 'horrible';
   food = 'filling';
   currency = 'pound sterling';
 }
-if(country == 'France'){
+if(country === 'France'){
   weather = 'nice';
   food = 'stunning, but hardly ever vegetarian';
   currency = 'funny, small and colourful';
 }
-if(country == 'Germany'){
+if(country === 'Germany'){
   weather = 'average';
   food = 'wurst thing ever';
   currency = 'funny, small and colourful';
 }
-var message = 'this is ' + country + ', the weather is ' + 
-              weather + ', the food is ' + food + ' and the ' +
-              'currency is ' + currency;
+
+message = 'this is ' + country + ', the weather is ' + weather + ', the food is ' + food + ' and the ' + 'currency is ' + currency;
 alert(message);
 &lt;/script&gt;</pre>
  
@@ -252,11 +256,13 @@ Other conditional test examples:
  
 Conditions can also be nested. Say for example you want to make sure that the country variable is set in the earlier example; you can do that this way:
  
-<pre>&lt;script type="text/javascript"&gt;
-var country = 'Germany';
-var weather;
-var food;
-var currency;
+<pre>&lt;script&gt;
+var country = 'Germany',
+    weather;
+    food;
+    currency,
+    message;
+
 if(country){
   if(country == 'England'){
     weather = 'horrible';
@@ -273,16 +279,15 @@ if(country){
     food = 'wurst thing ever';
     currency = 'funny, small and colourful';
   }
-  var message = 'this is ' + country + ', the weather is ' + 
-                weather + ', the food is ' + food + ' and the ' +
-                'currency is ' + currency;
+
+  message = 'this is ' + country + ', the weather is ' + weather + ', the food is ' + food + ' and the ' + 'currency is ' + currency;
   alert(message);
 }
 &lt;/script&gt;</pre>
  
 Try it out yourself in my [http://dev.opera.com/articles/view/programming-the-real-basics/saferweather.html Safe-weather if statement example]. Change the value of the country variable to see the different messages.
  
-Whereas the earlier example would always try to create the message regardless of country being available—and thus possibly throwing an error or stating “this is '''undefined''', the weather…” this version is more secure. If country is not defined the message will never be created.
+Whereas the earlier example would always try to create the message regardless of country being available—and thus possibly throwing an error or stating “this is '''undefined''', the weather...” this version is more secure. If country is not defined the message will never be created.
  
 Furthermore you can concatenate different conditions with “or” or “and” statements, to test whether either statement is true, or both are true, respectively. In JavaScript “or” is written as
 |and “and” is written as &amp;&amp;_ Say you want to test if the value of x is between 10 and 20—you could do that with a condition stating <code>if(x &gt; 10 &amp;&amp; x &lt; 20)</code>_ If you want to make sure that country is either “England” or “Germany” you use <code>if(country== 'England'
@@ -365,6 +370,7 @@ Using a loop the paragraph adding example we saw above gets a lot shorter and si
  
 Notice that you can use the value of <code>i</code> as the array counter inside the loop. This is the power of loops—not only can you do the same thing over and over again; you also know in every iteration how many times you have already done it.
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
 |Desktop_rows=
