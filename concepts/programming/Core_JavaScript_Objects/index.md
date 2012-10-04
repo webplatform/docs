@@ -15,13 +15,11 @@ An ''array'' is an ordered set of values that you refer to with a name and an in
 
 To create an <code>Array</code> object, the following three statements are equivalent:
 
-<div style="margin-right: 270px">
-
+<syntaxhighlight lang="javascript">
  var arr = new Array(element0, element1, ..., elementN);
  var arr = Array(element0, element1, ..., elementN);
  var arr = [element0, element1, ..., elementN];
-
-</div>
+</syntaxhighlight>
 
 <code>element0, element1, ..., elementN</code> is a list of values for the array's elements. When this form is specified, the array is initialized with the specified values as its elements, and the array's <code>length</code> property is set to the number of arguments.
 
@@ -29,83 +27,104 @@ The bracket syntax is called "array literal" or "array initializer". It is short
 
 To create an Array with non-zero length, but without any items, either of the following can be used:
 
+<syntaxhighlight lang="javascript">
  var arr = new Array(arrayLength);
  var arr = Array(arrayLength);
  
  // This has exactly the same effect
  var arr = [];
  arr.length = arrayLength;
+</syntaxhighlight>
 
-Note: in the above code, <code>arrayLength</code> must be a <code>Number</code>. Otherwise, an array with a single element (the provided value) will be created. Calling <code>arr.length</code> will return <code>arrayLength</code>, but the array actually contains empty (undefined) elements. Running a for...in loop on the array will return none of the array's elements.
+{{Note | in the above code, <code>arrayLength</code> must be a <code>Number</code>. Otherwise, an array with a single element (the provided value) will be created. Calling <code>arr.length</code> will return <code>arrayLength</code>, but the array actually contains empty (undefined) elements. Running a for...in loop on the array will return none of the array's elements.}}
 
 In addition to a newly defined variable as shown above, Arrays can also be assigned as a property of a new or an existing object:
 
+<syntaxhighlight lang="javascript">
  var obj = {};
  // ...
  obj.prop = [element0, element1, ..., elementN];
  
  // OR
  var obj = {prop: [element0, element1, ...., elementN]}
+</syntaxhighlight>
 
 If you wish to initialize an array with a single element, and the element happens to be a <code>Number</code>, you must use the bracket syntax. When a single <code>Number</code> value is passed to the Array() constructor or function, it is interpreted as an <code>arrayLength</code>, not as a single element.
 
- <code>var arr = [42];
+<syntaxhighlight lang="javascript">
+var arr = [42];
  var arr = Array(42); // Creates an array with no element, but with arr.length set to 42
  
  // The above code is equivalent to
  var arr = [];
  arr.length = 42;
- </code>
+</syntaxhighlight>
 
 Furthermore, if you are creating an array with a single element, and the element happens to be a non-whole <code>Number</code> (a number with a non-trivial floating part), a <code>RangeError</code> is thrown. If there is a possibility that your code will be creating arrays with single elements, with arbitrary data type, it is safer to use array literals, or create an empty array first and then fill it up.
 
+<syntaxhighlight lang="javascript">
  var arr = Array(9.3);  // RangeError: Invalid array length
+</syntaxhighlight>
 
 ===Populating an Array===
 
 You can populate an array by assigning values to its elements. For example,
 
+<syntaxhighlight lang="javascript">
  var emp = [];
  emp[0] = "Casey Jones";
  emp[1] = "Phil Lesh";
  emp[2] = "August West";
+</syntaxhighlight>
 
-'''Note:''' if you supply a non-integer value to the array operator in the code above, a property will be created in the object representing the array, instead of an array element.
+{{Note | If you supply a non-integer value to the array operator in the code above, a property will be created in the object representing the array, instead of an array element.}}
 
-  var arr = [];
+<syntaxhighlight lang="javascript">
+ var arr = [];
  arr[3.4] = "Oranges";
  console.log(arr.length);                // 0
  console.log(arr.hasOwnProperty[3.4]);   // true
+</syntaxhighlight>
 
 You can also populate an array when you create it:
 
+<syntaxhighlight lang="javascript">
  var myArray = new Array("Hello", myVar, 3.14159);
  var myArray = ["Mango", "Apple", "Orange"]
+</syntaxhighlight>
 
 ===Referring to Array Elements===
 
 You refer to an array's elements by using the element's ordinal number. For example, suppose you define the following array:
 
+<syntaxhighlight lang="javascript">
  var myArray = ["Wind", "Rain", "Fire"];
+</syntaxhighlight>
 
 You then refer to the first element of the array as <code>myArray[0]</code> and the second element of the array as <code>myArray[1]</code>. The index of the elements begins with zero.
 
-'''Note:''' the array operator (square brackets) is also used for accessing the array's properties (arrays are also objects in JavaScript). For example,
+{{Note | The array operator (square brackets) is also used for accessing the array's properties (arrays are also objects in JavaScript). For example,
 
-  var arr = ["one", "two", "three"];
+<syntaxhighlight lang="javascript">
+ var arr = ["one", "two", "three"];
  arr[2];  // three
  arr["length"];  // 3
+</syntaxhighlight>
+}}
 
 ===Understanding length===
 
 At the implementation level, JavaScript's arrays actually store their elements as standard object properties, using the array index as the property name. The <code>length</code> property is special; it always returns the index of the last element. Remember, Javascript Array indexs are 0-based: they start at 0, not 1. This means that the <code><code>length</code></code> property will be one more than the highest index stored in the array:
 
+<syntaxhighlight lang="javascript">
  var cats = [];
  cats[30] = ['Dusty'];
  print(cats.length); // 31
+</syntaxhighlight>
 
 You can also assign to the <code>length</code> property. Writing a value that is shorter than the number of stored items truncates the array; writing 0 empties it entirely:
 
+<syntaxhighlight lang="javascript">
  var cats = ['Dusty', 'Misty', 'Twiggy'];
  console.log(cats.length); // 3
  
@@ -117,22 +136,27 @@ You can also assign to the <code>length</code> property. Writing a value that is
  
  cats.length = 3;
  console.log(cats);  // [undefined, undefined, undefined]
+</syntaxhighlight>
 
 ===Iterating over arrays===
 
 A common operation is to iterate over the values of an array, processing each one in some way. The simplest way to do this is as follows:
 
+<syntaxhighlight lang="javascript">
  var colors = ['red', 'green', 'blue'];
  for (var i = 0; i < colors.length; i++) {
    console.log(colors[i]);
  }
+</syntaxhighlight>
 
 If you know that none of the elements in your array evaluate to <code>false</code> in a boolean context — if your array consists only of [/en-US/docs/DOM DOM] nodes for example, you can use a more efficient idiom:
 
+<syntaxhighlight lang="javascript">
  var divs = document.getElementsByTagName('div');
  for (var i = 0, div; div = divs[i]; i++) {
    /* Process div in some way */
  }
+</syntaxhighlight>
 
 This avoids the overhead of checking the length of the array, and ensures that the <code>div</code> variable is reassigned to the current item each time around the loop for added convenience.
 
@@ -144,10 +168,12 @@ Introduced in [http://developer.mozilla.org/en-US/docs/JavaScript/New_in_JavaScr
 
 The [/en-US/docs/JavaScript/Reference/Global_Objects/Array/forEach <code>forEach()</code>] method, introduced in JavaScript 1.6, provides another way of iterating over an array:
 
+<syntaxhighlight lang="javascript">
  var colors = ['red', 'green', 'blue'];
  colors.forEach(function(color) {
    console.log(color);
  });
+</syntaxhighlight>
 
 The function passed to <code>forEach</code> is executed once for every item in the array, with the array item passed as the argument to the function. Unassigned values are not iterated in a <code>forEach</code> loop.
 
@@ -183,12 +209,16 @@ The <code>Array</code> object has the following methods:
 <code>sort()</code> can also take a callback function to determine how array elements are compared. The function compares two values and returns one of three values:
 ** if <code>a</code> is less than <code>b</code> by the sorting system, return -1 (or any negative number)
 ** if <code>a</code> is greater than <code>b</code> by the sorting system, return 1 (or any positive number)
-** if <code>a</code> and <code>b</code> are considered equivalent, return 0.For, instance, the following will sort by the last letter of an array: var sortFn = function(a, b){
+** if <code>a</code> and <code>b</code> are considered equivalent, return 0.For, instance, the following will sort by the last letter of an array: 
+
+<syntaxhighlight lang="javascript">
+var sortFn = function(a, b){
    if (a[a.length - 1] < b[b.length - 1]) return -1;
    if (a[a.length - 1] > b[b.length - 1]) return 1;
    if (a[a.length - 1] == b[b.length - 1]) return 0;
  }
  myArray.sort(sortFn); // sorts the array so that myArray = ["Wind","Fire","Rain"]
+</syntaxhighlight>
 
 <div class="overheadIndicator jsMinVerHeader standardNote">
 
@@ -216,7 +246,10 @@ Compatibility code for older browsers can be found for each of these functions o
 * [/en-US/docs/JavaScript/Reference/Global_Objects/Array/filter <code>filter(callback[, thisObject])</code>] returns a new array containing the items for which callback returned true.  var a1 = ['a', 10, 'b', 20, 'c', 30];
  var a2 = a1.filter(function(item) { return typeof item == 'number'; });
  alert(a2); // Alerts 10,20,30
-* [/en-US/docs/JavaScript/Reference/Global_Objects/Array/every <code>every(callback[, thisObject])</code>] returns true if <code>callback</code> returns true for every item in the array.  function isNumber(value){
+* [/en-US/docs/JavaScript/Reference/Global_Objects/Array/every <code>every(callback[, thisObject])</code>] returns true if <code>callback</code> returns true for every item in the array.  
+
+<syntaxhighlight lang="javascript">
+function isNumber(value){
    return typeof value == 'number';
  }
  var a1 = [1, 2, 3];
@@ -232,6 +265,7 @@ Compatibility code for older browsers can be found for each of these functions o
  alert(a2.some(isNumber)); // Alerts true
  var a3 = ['1', '2', '3'];
  alert(a3.some(isNumber)); // Alerts false
+</syntaxhighlight>
 
 The methods above that take a callback are known as ''iterative methods'', because they iterate over the entire array in some fashion. Each one takes an optional second argument called <code>thisObject</code>. If provided, <code>thisObject</code> becomes the value of the <code>this</code> keyword inside the body of the callback function. If not provided, as with other cases where a function is invoked outside of an explicit object context, <code>this</code> will refer to the global object ([/en-US/docs/DOM/window <code>window</code>]).
 
@@ -263,6 +297,7 @@ The following code creates a two-dimensional array.
      a[i][j] = "[" + i + "," + j + "]";
    }
  }
+</syntaxhighlight>
 
 This example creates an array with the following rows:
 
@@ -720,7 +755,6 @@ The following table summarizes the methods of <code>String</code> objects.
 |
 Return the string in all lowercase or all uppercase, respectively.
 |}
-
 }}
 {{Examples_Section
 |Not_required=No
