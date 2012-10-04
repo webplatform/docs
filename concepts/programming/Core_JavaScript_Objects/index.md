@@ -183,29 +183,56 @@ Since JavaScript elements are saved as standard object properties, it is not adv
 
 The <code>Array</code> object has the following methods:
 
-* [/en-US/docs/JavaScript/Reference/Global_Objects/Array/concat <code>concat()</code>] joins two arrays and returns a new array.  var myArray = new Array("1", "2", "3");
- myArray = myArray.concat("a", "b", "c"); // myArray is now ["1", "2", "3", "a", "b", "c"]
-* [/en-US/docs/JavaScript/Reference/Global_Objects/Array/join <code>join(deliminator = ",")</code>] joins all elements of an array into a string.  var myArray = new Array("Wind", "Rain", "Fire");
- var list = myArray.join(" - "); // list is "Wind - Rain - Fire"
-* [/en-US/docs/JavaScript/Reference/Global_Objects/Array/push <code>push()</code>] adds one or more elements to the end of an array and returns the resulting length of the array.  var myArray = new Array("1", "2");
- myArray.push("3"); // MyArray is now ["1", "2", "3"]
-* [/en-US/docs/JavaScript/Reference/Global_Objects/Array/pop <code>pop()</code>] removes the last element from an array and returns that element.  var myArray = new Array("1", "2", "3");
- var last = myArray.pop(); // MyArray is now ["1", "2"], last = "3"
-* [/en-US/docs/JavaScript/Reference/Global_Objects/Array/shift <code>shift()</code>] removes the first element from an array and returns that element  var myArray = new Array ("1", "2", "3");
- var first = myArray.shift(); // MyArray is now ["2", "3"], first is "1"
-* [/en-US/docs/JavaScript/Reference/Global_Objects/Array/unshift <code>unshift()</code>] adds one or more elements to the front of an array and returns the new length of the array.  var myArray = new Array ("1", "2", "3");
- myArray.unshift("4", "5"); // myArray becomes ["4", "5", "1", "2", "3"]
+* [/en-US/docs/JavaScript/Reference/Global_Objects/Array/concat <code>concat()</code>] joins two arrays and returns a new array.  
+<syntaxhighlight lang="javascript">
+var myArray = new Array("1", "2", "3");
+myArray = myArray.concat("a", "b", "c"); // myArray is now ["1", "2", "3", "a", "b", "c"]
+</syntaxhighlight>
+* [/en-US/docs/JavaScript/Reference/Global_Objects/Array/join <code>join(deliminator = ",")</code>] joins all elements of an array into a string.  
+<syntaxhighlight lang="javascript">
+var myArray = new Array("Wind", "Rain", "Fire");
+var list = myArray.join(" - "); // list is "Wind - Rain - Fire"
+</syntaxhighlight>
+* [/en-US/docs/JavaScript/Reference/Global_Objects/Array/push <code>push()</code>] adds one or more elements to the end of an array and returns the resulting length of the array.  
+<syntaxhighlight lang="javascript">
+var myArray = new Array("1", "2");
+myArray.push("3"); // MyArray is now ["1", "2", "3"]
+</syntaxhighlight>
+* [/en-US/docs/JavaScript/Reference/Global_Objects/Array/pop <code>pop()</code>] removes the last element from an array and returns that element.  
+<syntaxhighlight lang="javascript">
+var myArray = new Array("1", "2", "3");
+var last = myArray.pop(); // MyArray is now ["1", "2"], last = "3"
+</syntaxhighlight>
+* [/en-US/docs/JavaScript/Reference/Global_Objects/Array/shift <code>shift()</code>] removes the first element from an array and returns that element  
+<syntaxhighlight lang="javascript">
+var myArray = new Array ("1", "2", "3");
+var first = myArray.shift(); // MyArray is now ["2", "3"], first is "1"
+</syntaxhighlight>
+* [/en-US/docs/JavaScript/Reference/Global_Objects/Array/unshift <code>unshift()</code>] adds one or more elements to the front of an array and returns the new length of the array.  
+<syntaxhighlight lang="javascript">
+var myArray = new Array ("1", "2", "3");
+myArray.unshift("4", "5"); // myArray becomes ["4", "5", "1", "2", "3"]
+</syntaxhighlight>
 * [/en-US/docs/JavaScript/Reference/Global_Objects/Array/slice <code>slice(start_index, upto_index)</code>] extracts a section of an array and returns a new array.  var myArray = new Array ("a", "b", "c", "d", "e");
  myArray = myArray.slice(1, 4); /* starts at index 1 and extracts all elements
    until index 3, returning [ "b", "c", "d"] */
-* [/en-US/docs/JavaScript/Reference/Global_Objects/Array/splice <code>splice(index, count_to_remove, addelement1, addelement2, ...)</code>] removes elements from an array and (optionally) replaces them.<br /> var myArray = new Array ("1", "2", "3", "4", "5");
- myArray.splice(1, 3, "a", "b", "c", "d"); // MyArray is now ["1", "a", "b", "c", "d", "5"]
+* [/en-US/docs/JavaScript/Reference/Global_Objects/Array/splice <code>splice(index, count_to_remove, addelement1, addelement2, ...)</code>] removes elements from an array and (optionally) replaces them. 
+<syntaxhighlight lang="javascript">
+var myArray = new Array ("1", "2", "3", "4", "5");
+myArray.splice(1, 3, "a", "b", "c", "d"); // MyArray is now ["1", "a", "b", "c", "d", "5"]
    // This code started at index one (or where the "2" was), removed 3 elements there, 
    // and then inserted all consecutive elements in its place.
-* [/en-US/docs/JavaScript/Reference/Global_Objects/Array/reverse <code>reverse()</code>] transposes the elements of an array: the first array element becomes the last and the last becomes the first.  var myArray = new Array ("1", "2", "3");
- myArray.reverse(); // transposes the array so that myArray = [ "3", "2", "1" ]
-* [/en-US/docs/JavaScript/Reference/Global_Objects/Array/sort <code>sort()</code>] sorts the elements of an array.  var myArray = new Array("Wind", "Rain", "Fire");
- myArray.sort(); // sorts the array so that myArrray = [ "Fire", "Rain", "Wind" ]
+</syntaxhighlight>
+* [/en-US/docs/JavaScript/Reference/Global_Objects/Array/reverse <code>reverse()</code>] transposes the elements of an array: the first array element becomes the last and the last becomes the first.  
+<syntaxhighlight lang="javascript">
+var myArray = new Array ("1", "2", "3");
+myArray.reverse(); // transposes the array so that myArray = [ "3", "2", "1" ]
+</syntaxhighlight>
+* [/en-US/docs/JavaScript/Reference/Global_Objects/Array/sort <code>sort()</code>] sorts the elements of an array.  
+<syntaxhighlight lang="javascript">
+var myArray = new Array("Wind", "Rain", "Fire");
+myArray.sort(); // sorts the array so that myArrray = [ "Fire", "Rain", "Wind" ]
+</syntaxhighlight>
 <code>sort()</code> can also take a callback function to determine how array elements are compared. The function compares two values and returns one of three values:
 ** if <code>a</code> is less than <code>b</code> by the sorting system, return -1 (or any negative number)
 ** if <code>a</code> is greater than <code>b</code> by the sorting system, return 1 (or any positive number)
