@@ -5,18 +5,26 @@
 {{Standardization_Status|}}
 {{API_Name}}
 {{API_Object_Property
-|Property_applies_to=dom/objects/DragEvent
+|Property_applies_to=dom/HTMLInputElement
 |Read_only=
 }}
 {{Topics|DOM}}
 {{Notes_Section
+|Notes=
+===Remarks===
+The following example lets you pick multiple files, and then displays them.
 |Import_Notes=
 ===Syntax===
+===Standards information===
+*[http://go.microsoft.com/fwlink/p/?linkid{{=}}221374 HTML5 A vocabulary and associated APIs for HTML and XHTML], Section 4.10.7.4
+
+
 }}
 {{See_Also_Section
 |Manual_sections=
 ===Related pages (MSDN)===
-*<code>[[dom/objects/dataTransfer|dataTransfer]]</code>
+*<code>[[dom/HTMLInputElement|HTMLInputElement]]</code>
+*<code>input type{{=}}file</code>
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
