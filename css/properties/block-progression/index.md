@@ -1,0 +1,48 @@
+{{Flags
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
+|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+}}
+{{Standardization_Status|Non-Standard}}
+{{API_Name}}
+{{CSS_Property
+|Applies to=All elements
+|Media=visual
+|Inherited=No
+|Initial value=
+|Values={{CSS_Property_Value|Data Type=tb |Description=Default. Top-to-bottom block flow. Layout is horizontal.}}
+{{CSS_Property_Value|Data Type=rl |Description=Right-to-left block flow. Layout is vertical.}}
+{{CSS_Property_Value|Data Type=bt |Description=Bottom-to-top block flow. Layout is horizontal.}}
+{{CSS_Property_Value|Data Type=lr |Description=Left-to-right block flow. Layout is vertical.}}
+}}
+{{Topics|CSS}}
+{{Notes_Section
+|Notes=
+===Remarks===
+In vertical layout, text lines are rotated 90° clockwise. Images are not rotated, but tables are. Box layout in vertical orientations is exactly analogous to layout in the horizontal orientation: width, height, top, bottom, right, and left do not rotate with the text.
+Only one block progression is active at a time; these values cannot be combined. See [[css/properties/writing-mode|'''-ms-writing-mode''']] for additive block progression values.
+This property is based on the block-progression property of the [http://go.microsoft.com/fwlink/p/?linkid{{=}}203505 CSS3 Text Layout] module.
+|Import_Notes=
+===Syntax===
+<code>'''-ms-block-progression: '''tb '''{{!}}''' rl '''{{!}}''' bt '''{{!}}''' lr</code>
+===Standards information===
+There are no standards that apply here.
+
+}}
+{{See_Also_Section
+|Manual_sections=
+===Related pages (MSDN)===
+*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
+*<code>[[css/cssom/currentStyle|currentStyle]]</code>
+*<code>[[dom/defaultSelected|defaults]]</code>
+*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
+*<code>[[css/cssom/style|style]]</code>
+*<code>[[css/properties/direction|direction]]</code>
+|Topic_clusters=Text
+}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|MDN_link=
+|HTML5Rocks_link=
+}}
