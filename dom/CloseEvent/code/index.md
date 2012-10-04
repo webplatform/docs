@@ -5,25 +5,18 @@
 {{Standardization_Status|}}
 {{API_Name}}
 {{API_Object_Property
-|Property_applies_to=dom/Element
+|Property_applies_to=dom/objects/CloseEvent
 |Read_only=
 }}
 {{Topics|DOM}}
 {{Notes_Section
 |Import_Notes=
 ===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}182703 Document Object Model (DOM) Level 2 Core Specification], Section 1.2
-
-
 }}
 {{See_Also_Section
 |Manual_sections=
 ===Related pages (MSDN)===
-*<code>[[dom/DOMException|DOMException]]</code>
-*<code>[[dom/traversal/RangeException|RangeException]]</code>
-*<code>[[dom/objects/EventException|EventException]]</code>
-*<code>[[dom/DOMException/message|message]]</code>
+*<code>[[dom/objects/CloseEvent|CloseEvent]]</code>
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
