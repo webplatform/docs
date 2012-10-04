@@ -1,0 +1,50 @@
+{{Flags
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
+|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+}}
+{{Standardization_Status|}}
+{{API_Name}}
+{{API_Object_Method
+|Parameters=
+|Method_applies_to=
+|Example_object_name=object
+|Return_value_name=object
+|Javascript_data_type=DOM Node
+|Return_value_description=Boolean
+
+A '''Boolean'''  value that indicates whether the media type of the object matches the media type that the ''mediaQuery'' parameter specifies.
+
+
+}}
+{{Topics|DOM}}
+{{Notes_Section
+|Notes=
+===Remarks===
+The ''mediaQuery'' parameter can contain a string that specifies a media type, an optional well-formed Cascading Style Sheets (CSS) media query, or both. 
+For more information on Media Queries, see Media Queries.
+|Import_Notes=
+===Syntax===
+===Standards information===
+There are no standards that apply here.
+
+===Parameters===
+;''mediaQuery'' [in]:Type: '''<b>BSTR'''</b>The media query to match.
+}}
+{{See_Also_Section
+|Manual_sections=
+===Related pages (MSDN)===
+*<code>[[css/media queries/apis/StyleMedia|StyleMedia]]</code>
+*<code><b/></code>
+*<code>[http://go.microsoft.com/fwlink/p/?LinkID{{=}}197162 CSS3 Media Queries Module]</code>
+*<code>[http://go.microsoft.com/fwlink/p/?LinkID{{=}}196984 Internet Explorer Test Drive: CSS3 Media Queries]</code>
+*<code>[http://go.microsoft.com/fwlink/p/?LinkId{{=}}214069 CSS3 Media Queries (IE Team Blog post)]</code>
+*<code>[http://go.microsoft.com/fwlink/p/?LinkId{{=}}214068 Respond to Different Devices With CSS3 Media Queries (Script Junkie)]</code>
+|Topic_clusters=Media Queries
+}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|MDN_link=
+|HTML5Rocks_link=
+}}
