@@ -1,0 +1,61 @@
+{{Flags
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
+|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+}}
+{{Standardization_Status|}}
+{{API_Name}}
+{{CSS_At_Rule
+|Content=
+}}
+{{Topics|CSS}}
+{{Examples_Section
+|Not_required=No
+|Examples={{Single_Example
+|Description=The following example embeds a font in an HTML document by pointing to the font source, which is located at another site.
+|LiveURL=
+|Code=
+&lt;html&gt;
+&lt;head&gt;
+&lt;style type{{=}}"text/css"&gt;
+@font-face {
+      font-family:comic;
+      src:url(http://valid_url/some_font_file.eot);
+   }
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;p style{{=}}"font-family: comic; font-size: 18pt"&gt;This paragraph uses the font-face 
+rule defined in the above style element. The rule embeds an OpenType file for the 
+Comic Sans font. &lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+}}}}
+{{Notes_Section
+|Notes=
+===Remarks===
+The rule has no default value.
+This feature enables you to use specific fonts that might not be available on your local system. In Internet Explorer 8 and earlier, the URL must point to an Embedded OpenType (EOT) file (.eot or .ote format). No other font formats are supported. (For more information about the font embedding feature and pointers to a tool for creating .eot files, see About Font Embedding.)
+In addition to legacy EOT format files, Internet Explorer 9 also supports the Web Open Font Format (WOFF) and installable (no embedding permission bits set) raw TrueType.
+The <code>unicode-range</code> descriptor defines the range of Unicode characters that are supported by a given font. The values of ''urange'' are expressed by hexadecimal numbers prefixed by "<code>U+</code>", that correspond&gt; to Unicode character code points. The <code>unicode-range</code> descriptor serves as a hint for Windows Internet Explorer when it decides whether to download a font resource. Unicode range values are written by using hexadecimal values and are case insensitive. Each is prefixed by "<code>U+</code>" and multiple, discontinuous ranges are separated by commas. Whitespace before or after commas is ignored. Valid character code values vary between <code>0</code> and <code>10FFFF</code> inclusive. A single range has three basic forms:
+*A single code point (for instance, <code>U+416</code>)
+*An interval value range (for instance, <code>U+400-4ff</code>)
+*A range where trailing ‘<code>?</code>’ characters imply ‘any digit value’ (for instance, <code>U+4??</code>)
+
+The '''@font-face''' rule acts differently from the behavior that is specified in the World Wide Web Consortium (W3C) Cascading Style Sheets, Level 3 (CSS3) Working Draft in Internet Explorer 8. In particular, Internet Explorer 8 does not support format hint strings. Internet Explorer 9 supports format hint strings.
+Dynamic HTML (DHTML) expressions can be used instead of the preceding value(s). As of Internet Explorer 8, expressions are not supported in IE8 Standards mode. For more information, see About Dynamic Properties.
+|Import_Notes=
+===Syntax===
+<code>'''@font-face '''{ ''Font-Description'' }</code>
+===Parameters===
+;''Font-Description'':'''String''' that specifies one or more of the following descriptors:<table><tr><th>Value</th><th>Meaning</th></tr><tr><td width{{=}}"40%"><a id{{=}}"font-family_fontFamilyName"/><a id{{=}}"font-family_fontfamilyname"/><a id{{=}}"FONT-FAMILY_FONTFAMILYNAME"/><dl><dt>'''font-family:fontFamilyName'''</dt></dl></td><td width{{=}}"60%">A valid [[css/properties/font-family|'''font-family''']] property value.</td></tr><tr><td width{{=}}"40%"><a id{{=}}"font-weight_fontWeight"/><a id{{=}}"font-weight_fontweight"/><a id{{=}}"FONT-WEIGHT_FONTWEIGHT"/><dl><dt>'''font-weight:fontWeight'''</dt></dl></td><td width{{=}}"60%">Internet Explorer 9. A valid [[css/properties/font-weight|'''font-weight''']] property value (except for the relative values, <code>bolder</code> and <code>lighter</code>).</td></tr><tr><td width{{=}}"40%"><a id{{=}}"font-style_fontStyleName"/><a id{{=}}"font-style_fontstylename"/><a id{{=}}"FONT-STYLE_FONTSTYLENAME"/><dl><dt>'''font-style:fontStyleName'''</dt></dl></td><td width{{=}}"60%">Internet Explorer 9. A valid [[css/properties/font-style|'''font-style''']] property value.</td></tr><tr><td width{{=}}"40%"><a id{{=}}"font-stretch_fontStretchValue"/><a id{{=}}"font-stretch_fontstretchvalue"/><a id{{=}}"FONT-STRETCH_FONTSTRETCHVALUE"/><dl><dt>'''font-stretch:fontStretchValue'''</dt></dl></td><td width{{=}}"60%">Internet Explorer 9. A valid [[css/properties/font-stretch|'''font-stretch''']] property value.</td></tr><tr><td width{{=}}"40%"><a id{{=}}"src_url_sURL__format_fontFormat__local_fontName_"/><a id{{=}}"src_url_surl__format_fontformat__local_fontname_"/><a id{{=}}"SRC_URL_SURL__FORMAT_FONTFORMAT__LOCAL_FONTNAME_"/><dl><dt>'''src:url(sURL) format(fontFormat) local(fontName)'''</dt></dl></td><td width{{=}}"60%">The location of a font file to use (either an external reference with an optional hint or a local reference). To specify an external reference, use ''url(sURL)'', where ''sURL'' is an absolute or relative URL. In Internet Explorer 8 and earlier versions, only one URL value is supported.To specify specific font formats (only for externally referenced font files), use a ''format'' hint (''format(fontFormat)'') where ''fontFormat'' is a comma-separated list of format strings that denote supported font formats. Possible ''fontFormat'' values are <code>"woff"</code>, <code>"truetype"</code>, <code>"opentype"</code>, and <code>"embedded-opentype"</code>. The ''format'' hint is optional starting in Internet Explorer 9. (''format'' hints are not supported in Internet Explorer 8 and earlier versions and are ignored.)To specify a local reference, use ''local(sFontName)'', where ''sFontName'' is the name of the locally-installed font to use.</td></tr><tr><td width{{=}}"40%"><a id{{=}}"unicode-range_urange"/><a id{{=}}"UNICODE-RANGE_URANGE"/><dl><dt>'''unicode-range:urange'''</dt></dl></td><td width{{=}}"60%">Internet Explorer 9. A list of Unicode character ranges, where ''urange'' is a comma-separated list of Unicode range values.</td></tr></table> 
+}}
+{{See_Also_Section
+|Topic_clusters=Syntax
+}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|MDN_link=
+|HTML5Rocks_link=
+}}
