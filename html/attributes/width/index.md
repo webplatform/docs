@@ -11,22 +11,29 @@
 {{Notes_Section
 |Notes=
 ===Remarks===
-This property has no default value.
-The functionality specified by the HTML 4.0 standard is not implemented.
-There is no functionality implemented for this property unless it is defined by the author.
-'''width''' was introduced in Microsoft Internet Explorer 6.
+This property is an integer value. Although an HTML author can specify the width as a percentage, this property always specifies the width in pixels in C++.
+In Microsoft Internet Explorer 5 it is possible to set the '''width''' property, but doing so has no effect on the rendering of the frame.
 |Import_Notes=
 ===Syntax===
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}161725 Document Object Model (DOM) Level 1 Specification], Section 2.5.5
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 0 (Deprecated)
 
 
 }}
 {{See_Also_Section
 |Manual_sections=
 ===Related pages (MSDN)===
-*<code>pre</code>
+*<code>col</code>
+*<code>colGroup</code>
+*<code>embed</code>
+*<code>frame</code>
+*<code>frameSet</code>
+*<code>iframe</code>
+*<code>marquee</code>
+*<code>object</code>
+*<code>[[html/elements/table|table]]</code>
+*<code>td</code>
+*<code>th</code>
 |Topic_clusters=html
 }}
 {{External_Attribution
