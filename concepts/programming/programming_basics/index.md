@@ -15,7 +15,8 @@ Programming in the most basic form is issuing commands and seeing that they get 
  
 For example, the following two code snippets fulfill the same task, but the former is JavaScript and the latter is PHP:
  
-<source lang="javascript">var fahrenheit = prompt('Enter temperature in Fahrenheit',0);
+<source lang="javascript">
+var fahrenheit = prompt('Enter temperature in Fahrenheit',0);
 var celsius = (fahrenheit - 32) * 5 / 9;
 alert(celsius);
 
@@ -63,11 +64,11 @@ To keep things easy, let’s use JavaScript as an example programming language i
 Note: The <code>&lt;script&gt;</code> tags are there to tell the browser that the text inside is a scripting language and that it should be interpreted as such.
 
 <source lang="javascript">
-&lt;script&gt;
+<script>
 var x = 5,
     y = 6,
     result = x + y;
-&lt;/script&gt;
+</script>
 </source>
  
 The interpreter goes through the code instruction by instruction, with each instruction ending in a semicolon. The semicolon notifies the interpreter of the end of an instruction, much like a full stop or an exclamation mark defines the end of a sentence in human languages.
