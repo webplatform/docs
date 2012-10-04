@@ -5,17 +5,15 @@
 {{API_Name}}
 {{Summary_Section}}
 {{Concept_Page
-|Content=Designing a website is not about finding pretty colors and using nice fonts. No, it's not. A website provides services, contents and/or informations to its users. And this tool should not be build only for our own will but to meet the needs. Taking care of our users by designing a tool usable, understandable and meeting our and their expectation, it is User eXperience design. 
+|Content=Designing a website is not about picking pretty colors and using nice fonts. No, it's not. A website provides services, content and information to its users. And this tool should not be build only for our own will but to meet the visitors' needs. Taking care of our users by designing a tool that is usable, understandable and meeting their expectations as well as ours, can be summarized in 3 words: User eXperience design.
 
 == eXperience == 
 
-If the User part is easily comprehensible, why should we design an experience? The first thing we think about when we hear “design a web site" is the User Interface and this is really big part of the design process. But this is far from being the sole part, we also find, among other, web performances, interactions design (Is the text underlined if it is clickable?) 
-and copywriting (Is my content understandable by the user?). An experience is literally an event leading to an awareness. The event being the time the user will spent at our website. 
+If the User part of the whole "User Experience" expression is easily comprehensible, why should we design an experience? The first thing we think about when we hear “design a web site" is the User Interface and this is a real big part of the design process. But this is far from being the sole part. Along with it, we have to consider web performances, interaction design (if a portion of text is clickable, should we underline it?) and copywriting (Is my content understandable by the user?). Experience is literally an event leading to awareness, this event being the time the user will spend on our website.
 
 == a definition == 
-Designing the user experience, it is to optimize our website to ensure that the time users spend on our site is the most efficient.
 
-  
+"Designing the user experience" could be defined as follows: "Optimizing our website ensuring that the time users spend there is as efficient as possible."
 }}
 {{Examples_Section
 |Not_required=Yes
