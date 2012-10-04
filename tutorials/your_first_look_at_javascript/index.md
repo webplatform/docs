@@ -4,7 +4,7 @@
 {{Guide
 |Content=== Introduction ==
  
-In this article of the [http://www.w3.org/wiki/Web_Standards_Curriculum Web Standards Curriculum] we’ll cover the basics of JavaScript — how and where to use it, what problems to avoid and general basics to get you started on your journey towards becoming a top-notch JavaScript developer.
+In this article of the [http://www.w3.org/community/webed/wiki/Main_PageWeb Standards Curriculum] we’ll cover the basics of JavaScript — how and where to use it, what problems to avoid and general basics to get you started on your journey towards becoming a top-notch JavaScript developer.
  
 == What is JavaScript and how do you execute it? ==
  
@@ -21,7 +21,7 @@ The most basic inclusion of JavaScript inside your HTML page would look somethin
   alert('hello there, I am JavaScript - x is '+x);
 &lt;/script&gt;</pre>
  
-You could put this anywhere inside your document and it would execute, but some places are definitely better than others — see the [http://www.w3.org/wiki/Your_first_look_at_JavaScript#Where_to_put_JavaScript Where to put JavaScript] section for guidance on this.
+You could put this anywhere inside your document and it would execute, but some places are definitely better than others — see the [[#Where_to_put_JavaScript]] section for guidance on this.
  
 As there might be several different types of script available to use on web pages in the future it makes sense to add the name of the script you are using as a MIME type:
  
