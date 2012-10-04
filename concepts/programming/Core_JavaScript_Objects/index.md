@@ -213,9 +213,12 @@ var first = myArray.shift(); // MyArray is now ["2", "3"], first is "1"
 var myArray = new Array ("1", "2", "3");
 myArray.unshift("4", "5"); // myArray becomes ["4", "5", "1", "2", "3"]
 </syntaxhighlight>
-* [/en-US/docs/JavaScript/Reference/Global_Objects/Array/slice <code>slice(start_index, upto_index)</code>] extracts a section of an array and returns a new array.  var myArray = new Array ("a", "b", "c", "d", "e");
- myArray = myArray.slice(1, 4); /* starts at index 1 and extracts all elements
+* [/en-US/docs/JavaScript/Reference/Global_Objects/Array/slice <code>slice(start_index, upto_index)</code>] extracts a section of an array and returns a new array.  
+<syntaxhighlight lang="javascript">
+var myArray = new Array ("a", "b", "c", "d", "e");
+myArray = myArray.slice(1, 4); /* starts at index 1 and extracts all elements
    until index 3, returning [ "b", "c", "d"] */
+</syntaxhighlight>
 * [/en-US/docs/JavaScript/Reference/Global_Objects/Array/splice <code>splice(index, count_to_remove, addelement1, addelement2, ...)</code>] removes elements from an array and (optionally) replaces them. 
 <syntaxhighlight lang="javascript">
 var myArray = new Array ("1", "2", "3", "4", "5");
@@ -255,26 +258,45 @@ Introduced in [http://developer.mozilla.org/en-US/docs/JavaScript/New_in_JavaScr
 
 Compatibility code for older browsers can be found for each of these functions on the individual pages. Native browser support for these features in various browsers can be found[http://www.robertnyman.com/javascript/  here.]
 
-* [/en-US/docs/JavaScript/Reference/Global_Objects/Array/indexOf <code>indexOf(searchElement[, fromIndex])</code>] searches the array for <code>searchElement</code> and returns the index of the first match.  var a = ['a', 'b', 'a', 'b', 'a'];
+* [/en-US/docs/JavaScript/Reference/Global_Objects/Array/indexOf <code>indexOf(searchElement[, fromIndex])</code>] searches the array for <code>searchElement</code> and returns the index of the first match.  
+<syntaxhighlight lang="javascript">
+var a = ['a', 'b', 'a', 'b', 'a'];
  alert(a.indexOf('b')); // Alerts 1
  // Now try again, starting from after the last match
  alert(a.indexOf('b', 2)); // Alerts 3
  alert(a.indexOf('z')); // Alerts -1, because 'z' was not found
-* [/en-US/docs/JavaScript/Reference/Global_Objects/Array/lastIndexOf <code>lastIndexOf(searchElement[, fromIndex])</code>] works like <code>indexOf</code>, but starts at the end and searches backwards.  var a = ['a', 'b', 'c', 'd', 'a', 'b'];
+</syntaxhighlight>
+
+* [/en-US/docs/JavaScript/Reference/Global_Objects/Array/lastIndexOf <code>lastIndexOf(searchElement[, fromIndex])</code>] works like <code>indexOf</code>, but starts at the end and searches backwards.  
+<syntaxhighlight lang="javascript">
+var a = ['a', 'b', 'c', 'd', 'a', 'b'];
  alert(a.lastIndexOf('b')); // Alerts 5
  // Now try again, starting from before the last match
  alert(a.lastIndexOf('b', 4)); // Alerts 1
  alert(a.lastIndexOf('z')); // Alerts -1
-* [/en-US/docs/JavaScript/Reference/Global_Objects/Array/forEach <code>forEach(callback[, thisObject])</code>] execute <code>callback</code> on every array item.  var a = ['a', 'b', 'c'];
+</syntaxhighlight>
+
+* [/en-US/docs/JavaScript/Reference/Global_Objects/Array/forEach <code>forEach(callback[, thisObject])</code>] execute <code>callback</code> on every array item. 
+<syntaxhighlight lang="javascript">
+ var a = ['a', 'b', 'c'];
  a.forEach(alert); // Alerts each item in turn
-* [/en-US/docs/JavaScript/Reference/Global_Objects/Array/map <code>map(callback[, thisObject])</code>] returns a new array of the return value from executing <code>callback</code> on every array item.  var a1 = ['a', 'b', 'c'];
+</syntaxhighlight>
+
+* [/en-US/docs/JavaScript/Reference/Global_Objects/Array/map <code>map(callback[, thisObject])</code>] returns a new array of the return value from executing <code>callback</code> on every array item.  
+<syntaxhighlight lang="javascript">
+var a1 = ['a', 'b', 'c'];
  var a2 = a1.map(function(item) { return item.toUpperCase(); });
  alert(a2); // Alerts A,B,C
-* [/en-US/docs/JavaScript/Reference/Global_Objects/Array/filter <code>filter(callback[, thisObject])</code>] returns a new array containing the items for which callback returned true.  var a1 = ['a', 10, 'b', 20, 'c', 30];
+</syntaxhighlight>
+
+* [/en-US/docs/JavaScript/Reference/Global_Objects/Array/filter <code>filter(callback[, thisObject])</code>] returns a new array containing the items for which callback returned true.  
+<syntaxhighlight lang="javascript">
+var a1 = ['a', 10, 'b', 20, 'c', 30];
  var a2 = a1.filter(function(item) { return typeof item == 'number'; });
  alert(a2); // Alerts 10,20,30
-* [/en-US/docs/JavaScript/Reference/Global_Objects/Array/every <code>every(callback[, thisObject])</code>] returns true if <code>callback</code> returns true for every item in the array.  
+</syntaxhighlight>
 
+* [/en-US/docs/JavaScript/Reference/Global_Objects/Array/every <code>every(callback[, thisObject])</code>] returns true if <code>callback</code> returns true for every item in the array.  
 <syntaxhighlight lang="javascript">
 function isNumber(value){
    return typeof value == 'number';
@@ -317,6 +339,7 @@ Arrays can be nested, meaning that an array can contian another array as an elem
 
 The following code creates a two-dimensional array.
 
+<syntaxhighlight lang="javascript">
  var a = new Array(4);
  for (i = 0; i < 4; i++) {
    a[i] = new Array(4);
@@ -328,10 +351,12 @@ The following code creates a two-dimensional array.
 
 This example creates an array with the following rows:
 
+<syntaxhighlight lang="javascript">
  Row 0: [0,0] [0,1] [0,2] [0,3]
  Row 1: [1,0] [1,1] [1,2] [1,3]
  Row 2: [2,0] [2,1] [2,2] [2,3]
  Row 3: [3,0] [3,1] [3,2] [3,3]
+</syntaxhighlight>
 
 ===Arrays and Regular Expressions===
 
@@ -349,34 +374,41 @@ Some JavaScript objects, such as the [/en-US/docs/DOM/NodeList <code>NodeList</c
 
 Array generics, introduced in JavaScript 1.6, provide a way of running <code>Array</code> methods against other array-like objects. Each standard array method has a corresponding method on the <code>Array</code> object itself; for example:
 
+<syntaxhighlight lang="javascript">
   function alertArguments() {
     Array.forEach(arguments, function(item) {
       alert(item);
     });
   }
+</syntaxhighlight>
 
 These generic methods can be emulated more verbosely in older versions of JavaScript using the call method provided by JavaScript function objects:
 
+<syntaxhighlight lang="javascript">
   Array.prototype.forEach.call(arguments, function(item) {
     alert(item);
   });
+</syntaxhighlight>
 
 Array generic methods can be used on strings as well, since they provide sequential access to their characters in a similar way to arrays:
 
+<syntaxhighlight lang="javascript">
  Array.forEach("a string", function(chr) {
     alert(chr);
  });
+</syntaxhighlight>
 
-Here are some further examples of applying array methods to strings, also taking advantage of [/en-US/docs/JavaScript/New_in_JavaScript/1.8#Expression_closures JavaScript 1.8 expression closures]<nowiki>:</nowiki>
+Here are some further examples of applying array methods to strings, also taking advantage of [/en-US/docs/JavaScript/New_in_JavaScript/1.8#Expression_closures JavaScript 1.8 expression closures]:
 
- <nowiki>var str = 'abcdef';
+<syntaxhighlight lang="javascript">
+var str = 'abcdef';
  var consonantsOnlyStr = Array.filter(str, function (c) !(/[aeiou]/i).test(c)).join(''); // 'bcdf'
  var vowelsPresent = Array.some(str, function (c) (/[aeiou]/i).test(c)); // true
  var allVowels = Array.every(str, function (c) (/[aeiou]/i).test(c)); // false
  var interpolatedZeros = Array.map(str, function (c) c+'0').join(''); // 'a0b0c0d0e0f0'
  var numerologicalValue = Array.reduce(str, function (c, c2) c+c2.toLowerCase().charCodeAt()-96, 0);
  // 21 (reduce() since JS v1.8)
- </nowiki>
+</syntaxhighlight>
 
 Note that <code>filter</code> and <code>map</code> do not automatically return the characters back into being members of a string in the return result; an array is returned, so we must use <code>join</code> to return back to a string.
 
@@ -392,29 +424,39 @@ Introduced in JavaScript 1.7, array comprehensions provide a useful shortcut for
 
 The following comprehension takes an array of numbers and creates a new array of the double of each of those numbers.
 
+<syntaxhighlight lang="javascript">
  var numbers = [1, 2, 3, 4];
  var doubled = [i * 2 for each (i in numbers)];
  alert(doubled); // Alerts 2,4,6,8
+</syntaxhighlight>
 
 This is equivalent to the following <code>map()</code> operation:
 
+<syntaxhighlight lang="javascript">
  var doubled = numbers.map(function(i) { return i * 2; });
+</syntaxhighlight>
 
 Comprehensions can also be used to select items that match a particular expression. Here is a comprehension which selects only even numbers:
 
+<syntaxhighlight lang="javascript">
  var numbers = [1, 2, 3, 21, 22, 30];
  var evens = [i for each (i in numbers) if (i % 2 == 0)];
  alert(evens); // Alerts 2,22,30
+</syntaxhighlight>
 
 <code>filter()</code> can be used for the same purpose:
 
+<syntaxhighlight lang="javascript">
  var evens = numbers.filter(function(i) { return i % 2 == 0; });
+</syntaxhighlight>
 
 <code>map()</code> and <code>filter()</code> style operations can be combined into a single array comprehension. Here is one that filters just the even numbers, then creates an array containing their doubles:
 
+<syntaxhighlight lang="javascript">
  var numbers = [1, 2, 3, 21, 22, 30];
  var doubledEvens = [i * 2 for each (i in numbers) if (i % 2 == 0)];
  alert(doubledEvens); // Alerts 4,44,60
+</syntaxhighlight>
 
 The square brackets of an array comprehension introduce an implicit block for scoping purposes. New variables (such as i in the example) are treated as if they had been declared using <code>let</code>. This means that they will not be available outside of the comprehension.
 
@@ -422,10 +464,11 @@ The input to an array comprehension does not itself need to be an array; [/en-US
 
 Even strings may be used as input; to achieve the filter and map actions (under Array-like objects) above:
 
- <nowiki>var str = 'abcdef';
+<syntaxhighlight lang="javascript">
+var str = 'abcdef';
  var consonantsOnlyStr = [c for each (c in str) if (!(/[aeiouAEIOU]/).test(c))  ].join(''); // 'bcdf'
  var interpolatedZeros = [c+'0' for each (c in str) ].join(''); // 'a0b0c0d0e0f0'
- </nowiki>
+</syntaxhighlight>
 
 Again, the input form is not preserved, so we have to use <code>join()</code> to revert back to a string.
 
@@ -433,7 +476,9 @@ Again, the input form is not preserved, so we have to use <code>join()</code> to
 
 The <code>Boolean</code> object is a wrapper around the primitive Boolean data type. Use the following syntax to create a <code>Boolean</code> object:
 
+<syntaxhighlight lang="javascript">
  var booleanObjectName = new Boolean(value);
+</syntaxhighlight>
 
 Do not confuse the primitive Boolean values <code>true</code> and <code>false</code> with the true and false values of the <code>Boolean</code> object. Any object whose value is not <code>undefined</code> , <code>null</code>, <code>0</code>, <code>NaN</code>, or the empty string , including a <code>Boolean</code> object whose value is false, evaluates to true when passed to a conditional statement. See [/en-US/docs/JavaScript/Guide/Statements#if...else_Statement if...else Statement] for more information.
 
@@ -447,7 +492,9 @@ The <code>Date</code> object range is -100,000,000 days to 100,000,000 days rela
 
 To create a <code>Date</code> object:
 
+<syntaxhighlight lang="javascript">
  var dateObjectName = new Date([parameters]);
+</syntaxhighlight>
 
 where <code>dateObjectName</code> is the name of the <code>Date</code> object being created; it can be a new object or a property of an existing object.
 
@@ -485,7 +532,9 @@ With the "get" and "set" methods you can get and set seconds, minutes, hours, da
 
 For example, suppose you define the following date:
 
+<syntaxhighlight lang="javascript">
  var Xmas95 = new Date("December 25, 1995");
+</syntaxhighlight>
 
 Then <code>Xmas95.getMonth()</code> returns 11, and <code>Xmas95.getFullYear()</code> returns 1995.
 
@@ -493,24 +542,29 @@ The <code>getTime</code> and <code>setTime</code> methods are useful for compari
 
 For example, the following code displays the number of days left in the current year:
 
+<syntaxhighlight lang="javascript">
  var today = new Date();
  var endYear = new Date(1995, 11, 31, 23, 59, 59, 999); // Set day and month
  endYear.setFullYear(today.getFullYear()); // Set year to this year
  var msPerDay = 24 * 60 * 60 * 1000; // Number of milliseconds per day
  var daysLeft = (endYear.getTime() - today.getTime()) / msPerDay;
  var daysLeft = Math.round(daysLeft); //returns days left in the year
+</syntaxhighlight>
 
 This example creates a <code>Date</code> object named <code>today</code> that contains today's date. It then creates a <code>Date</code> object named <code>endYear</code> and sets the year to the current year. Then, using the number of milliseconds per day, it computes the number of days between <code>today</code> and <code>endYear</code>, using <code>getTime</code> and rounding to a whole number of days.
 
 The <code>parse</code> method is useful for assigning values from date strings to existing <code>Date</code> objects. For example, the following code uses <code>parse</code> and <code>setTime</code> to assign a date value to the <code>IPOdate</code> object:
 
+<syntaxhighlight lang="javascript">
  var IPOdate = new Date();
  IPOdate.setTime(Date.parse("Aug 9, 1995"));
+</syntaxhighlight>
 
 ===Using the Date Object: an Example===
 
 In the following example, the function <code>JSClock()</code> returns the time in the format of a digital clock.
 
+<syntaxhighlight lang="javascript">
  function JSClock() {
    var time = new Date();
    var hour = time.getHours();
@@ -524,6 +578,7 @@ In the following example, the function <code>JSClock()</code> returns the time i
    temp += (hour >= 12) ? " P.M." : " A.M.";
    return temp;
  }
+</syntaxhighlight>
 
 The <code>JSClock</code> function first creates a new <code>Date</code> object called <code>time</code><nowiki>; since no arguments are given, time is created with the current date and time. Then calls to the </nowiki><code>getHours</code>, <code>getMinutes</code>, and <code>getSeconds</code> methods assign the value of the current hour, minute and seconds to <code>hour</code>, <code>minute</code>, and <code>second</code>.
 
@@ -539,7 +594,9 @@ The predefined <code>Function</code> object specifies a string of JavaScript cod
 
 To create a <code>Function</code> object:
 
+<syntaxhighlight lang="javascript">
  var functionObjectName = new Function ([arg1, arg2, ... argn], functionBody);
+</syntaxhighlight>
 
 <code>functionObjectName</code> is the name of a variable or a property of an existing object. It can also be an object followed by a lowercase event handler name, such as <code>window.onerror</code>.
 
@@ -553,25 +610,33 @@ In addition to defining functions as described here, you can also use the [/en-U
 
 The following code assigns a function to the variable <code>setBGColor</code>. This function sets the current document's background color.
 
+<syntaxhighlight lang="javascript">
  var setBGColor = new Function("document.bgColor = 'antiquewhite'");
+</syntaxhighlight>
 
 To call the <code>Function</code> object, you can specify the variable name as if it were a function. The following code executes the function specified by the <code>setBGColor</code> variable:
 
+<syntaxhighlight lang="javascript">
  var colorChoice="antiquewhite";
  if (colorChoice=="antiquewhite") {setBGColor()}
+</syntaxhighlight>
 
 You can assign the function to an event handler in either of the following ways:
 
+<syntaxhighlight lang="javascript">
 #  document.form1.colorButton.onclick = setBGColor;
 #  <INPUT NAME="colorButton" TYPE="button"
    VALUE="Change background color"
    onClick="setBGColor()">
+</syntaxhighlight>
 
 Creating the variable <code>setBGColor</code> shown above is similar to declaring the following function:
 
+<syntaxhighlight lang="javascript">
  function setBGColor() {
    document.bgColor = 'antiquewhite';
  }
+</syntaxhighlight>
 
 Assigning a function to a variable is similar to declaring a function, but there are differences:
 
@@ -587,11 +652,15 @@ You can nest a function within a function. The nested (inner) function is privat
 
 The predefined <code>Math</code> object has properties and methods for mathematical constants and functions. For example, the <code>Math</code> object's <code>PI</code> property has the value of pi (3.141...), which you would use in an application as
 
+<syntaxhighlight lang="javascript">
  Math.PI
+</syntaxhighlight>
 
 Similarly, standard mathematical functions are methods of <code>Math</code>. These include trigonometric, logarithmic, exponential, and other functions. For example, if you want to use the trigonometric function sine, you would write
 
+<syntaxhighlight lang="javascript">
  Math.sin(1.56)
+</syntaxhighlight>
 
 Note that all trigonometric methods of <code>Math</code> take arguments in radians.
 
@@ -643,11 +712,13 @@ Unlike many other objects, you never create a <code>Math</code> object of your o
 
 The <code>Number</code> object has properties for numerical constants, such as maximum value, not-a-number, and infinity. You cannot change the values of these properties and you use them as follows:
 
+<syntaxhighlight lang="javascript">
  var biggestNum = Number.MAX_VALUE;
  var smallestNum = Number.MIN_VALUE;
  var infiniteNum = Number.POSITIVE_INFINITY;
  var negInfiniteNum = Number.NEGATIVE_INFINITY;
  var notANum = Number.NaN;
+</syntaxhighlight>
 
 You always refer to a property of the predefined <code>Number</code> object as shown above, and not as a property of a <code>Number</code> object you create yourself.
 
@@ -710,22 +781,28 @@ The <code>RegExp</code> object lets you work with regular expressions. It is des
 
 The <code>String</code> object is a wrapper around the string primitive data type. Do not confuse a string literal with the <code>String</code> object. For example, the following code creates the string literal <code>s1</code> and also the <code>String</code> object <code>s2</code><nowiki>:</nowiki>
 
+<syntaxhighlight lang="javascript">
  var s1 = "foo"; //creates a string literal value
  var s2 = new String("foo"); //creates a String object
+</syntaxhighlight>
 
 You can call any of the methods of the <code>String</code> object on a string literal value—JavaScript automatically converts the string literal to a temporary <code>String</code> object, calls the method, then discards the temporary <code>String</code> object. You can also use the <code>String.length</code> property with a string literal.
 
 You should use string literals unless you specifically need to use a <code>String</code> object, because <code>String</code> objects can have counterintuitive behavior. For example:
 
+<syntaxhighlight lang="javascript">
  var s1 = "2 + 2"; //creates a string literal value
  var s2 = new String("2 + 2"); //creates a String object
  eval(s1); //returns the number 4
  eval(s2); //returns the string "2 + 2"
+</syntaxhighlight>
 
 A <code>String</code> object has one property, <code>length</code>, that indicates the number of characters in the string. For example, the following code assigns <code>x</code> the value 13, because "Hello, World!" has 13 characters:
 
+<syntaxhighlight lang="javascript">
  var mystring = "Hello, World!";
  var x = mystring.length;
+</syntaxhighlight>
 
 A <code>String</code> object has two types of methods: those that return a variation on the string itself, such as <code>substring</code> and <code>toUpperCase</code>, and those that return an HTML-formatted version of the string, such as <code>bold</code> and <code>link</code>.
 
@@ -735,7 +812,9 @@ The <code>substring</code> method takes two arguments and returns a subset of th
 
 The <code>String</code> object also has a number of methods for automatic HTML formatting, such as <code>bold</code> to create boldface text and <code>link</code> to create a hyperlink. For example, you could create a hyperlink to a hypothetical URL with the <code>link</code> method as follows:
 
+<syntaxhighlight lang="javascript">
  mystring.link("http://www.helloworld.com")
+</syntaxhighlight>
 
 The following table summarizes the methods of <code>String</code> objects.
 
