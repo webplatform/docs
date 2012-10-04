@@ -1,0 +1,51 @@
+{{Flags
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
+|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+}}
+{{Standardization_Status|}}
+{{API_Name}}
+{{API_Object
+|Subclass_of=
+}}
+{{Topics|DOM}}
+{{Notes_Section
+|Notes=
+===Remarks===
+Originally supported in pre-release versions of Internet Explorer 10, support for IDatabaseException objects has been removed, due to changes in the specification.
+|Import_Notes=
+===Syntax===
+===Standards information===
+*[http://go.microsoft.com/fwlink/p/?LinkId{{=}}224519 Indexed Database API]
+
+
+===Members===
+The '''IDBDatabaseException''' object has these types of members:
+*[#properties Properties]
+
+
+====Properties====
+The '''IDBDatabaseException''' object has these properties.
+{| class="wikitable"
+|-
+!Property
+!Description
+|-
+|[[apis/indexedDB/properties/code|'''code''']]
+|Returns a numeric value representing the error that triggered an  exception.
+|}
+ 
+
+}}
+{{See_Also_Section
+|Manual_sections=
+===Related pages (MSDN)===
+*<code>[[apis/indexedDB/properties/code|code]]</code>
+*<code>[[apis/indexedDB/properties/message|message]]</code>
+}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|MDN_link=
+|HTML5Rocks_link=
+}}
