@@ -1,0 +1,65 @@
+{{Flags
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
+|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+}}
+{{Standardization_Status|}}
+{{API_Name}}
+{{API_Object
+|Subclass_of=
+}}
+{{Topics|DOM}}
+{{Notes_Section
+|Notes=
+===Remarks===
+ 
+ 
+[mailto:wsddocfb@microsoft.com?subject{{=}}Documentation%20feedback [ie_idxdb\ie]:%20IDBRequest object%20 RELEASE:%20(7/24/2012)&amp;body{{=}}%0A%0APRIVACY STATEMENT%0A%0AThe doc team uses your feedback to improve the documentation. We don't use your email address for any other purpose. We'll remove your email address from our system after the issue that you are reporting is resolved. While we are working to resolve this issue, we may send you an email message to request more info about your feedback. After the issue is addressed, we may send you an email message to let you know that your feedback has been addressed.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx. Send comments about this topic to Microsoft]
+Build date: 7/24/2012
+|Import_Notes=
+===Standards information===
+*[http://go.microsoft.com/fwlink/p/?LinkId{{=}}224519 Indexed Database API]
+
+
+===Members===
+The '''IDBRequest''' object has these types of members:
+*[#properties Properties]
+
+
+====Properties====
+The '''IDBRequest''' object has these properties.
+{| class="wikitable"
+|-
+!Property
+!Description
+|-
+|[[apis/indexedDB/properties/error|'''error''']]
+|Returns an object describing an error condition.
+|-
+|[[apis/indexedDB/events/onerror|'''onerror''']]
+|Defines a function handler that is executed when an error is encountered during a request, a transaction, or other database operation.
+|-
+|[[apis/indexedDB/events/onsuccess|'''onsuccess''']]
+|Defines a function handler for the success event, which executes when a request completes successfully.
+|-
+|[[apis/indexedDB/properties/readyState|'''readyState''']]
+|Indicates the status of the request.
+|-
+|[[apis/indexedDB/properties/result|'''result''']]
+|Returns the result of a request.
+|-
+|[[apis/indexedDB/properties/source|'''source''']]
+|Returns a reference to the source of a request, such as an object store or a cursor.
+|-
+|[[apis/indexedDB/properties/transaction|'''transaction''']]
+|Returns a reference to the transaction associated with the request.
+|}
+ 
+
+}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|MDN_link=
+|HTML5Rocks_link=
+}}
