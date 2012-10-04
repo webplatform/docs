@@ -1,0 +1,118 @@
+{{Flags
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
+|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+}}
+{{Standardization_Status|}}
+{{API_Name}}
+{{CSS_Property
+|Applies to=All elements
+|Media=visual
+|Inherited=No
+|Initial value=
+|Values={{CSS_Property_Value|Data Type=block |Description=Object is rendered as a block element.}}
+{{CSS_Property_Value|Data Type=inline |Description=Default. Object is rendered as an inline element sized by the dimensions of the content.}}
+{{CSS_Property_Value|Data Type=list-item |Description=Internet Explorer 6 and later.  Object is rendered as a block element, and a list-item marker is added.}}
+{{CSS_Property_Value|Data Type=none |Description=Object is not rendered.}}
+{{CSS_Property_Value|Data Type=table-header-group |Description=Object is rendered as '''tHead'''. Table header is always displayed before all other rows and row groups, and after any top captions. The header is displayed on each document spanned by a table.}}
+{{CSS_Property_Value|Data Type=table-footer-group |Description=Object is rendered as '''tFoot'''. Table footer is always displayed after all other rows and row groups, and before any bottom captions. The footer is displayed on each document spanned by a table.}}
+{{CSS_Property_Value|Data Type=inline-block |Description=Object is rendered inline, but the contents of the object are rendered as a block element.  Adjacent inline elements are rendered on the same line, space permitting.}}
+{{CSS_Property_Value|Data Type=table |Description=Object is rendered as [[html/elements/table|'''table''']].}}
+{{CSS_Property_Value|Data Type=inline-table |Description=Object is rendered as [[html/elements/table|'''table''']] within an <code>inline-block</code>.}}
+{{CSS_Property_Value|Data Type=table-row |Description=Object is rendered as '''tr'''.}}
+{{CSS_Property_Value|Data Type=table-row-group |Description=Object is rendered as '''tBody'''. Table body is always displayed after <code>table-header-group</code> objects and before <code>table-footer-group</code> objects.}}
+{{CSS_Property_Value|Data Type=table-column |Description=Object is rendered as '''col'''.}}
+{{CSS_Property_Value|Data Type=table-column-group |Description=Object is rendered as '''colGroup'''.}}
+{{CSS_Property_Value|Data Type=table-cell |Description=Object is rendered as cell ('''td''') or header cell ('''th'''), depending on location within the table.}}
+{{CSS_Property_Value|Data Type=table-caption |Description=Object is rendered as '''caption'''.}}
+{{CSS_Property_Value|Data Type=run-in |Description=If the <code>run-in</code> box contains a <code>block</code> element, object is rendered as a block. If not, and the following sibling is a <code>block</code> (which is neither floating nor absolutely positioned), object is rendered as the first <code>inline-block</code> of the sibling. Otherwise, same as <code>block</code>.}}
+{{CSS_Property_Value|Data Type=ruby |Description=Specifies that an element defines a '''ruby''' structure. This and the following values are from the [http://go.microsoft.com/fwlink/p/?linkid{{=}}203763 CSS3 Ruby Module]. This value only applies to the supported ruby elements, '''rt''' and '''ruby'''.}}
+{{CSS_Property_Value|Data Type=ruby-base |Description=Specifies that an element defines a ruby base.  This value only applies to the supported ruby elements, '''rt''' and '''ruby'''.}}
+{{CSS_Property_Value|Data Type=ruby-text |Description=Specifies that an element defines a '''ruby text'''.  This value only applies to the supported ruby elements, '''rt''' and '''ruby'''.}}
+{{CSS_Property_Value|Data Type=ruby-base-container |Description=Specifies a container for one or more ruby base elements.  This value only applies to the supported ruby elements, '''rt''' and '''ruby'''.}}
+{{CSS_Property_Value|Data Type=ruby-text-container |Description=Specifies a container for one or more ruby text elements.  This value only applies to the supported ruby elements, '''rt''' and '''ruby'''.}}
+{{CSS_Property_Value|Data Type=-ms-flexbox |Description=Internet Explorer 10. Specifies a block-level flexible box ("flexbox") container. For more information on flexbox containers, see [[css/flexbox|Flexible Box ("Flexbox") Layout]].}}
+{{CSS_Property_Value|Data Type=-ms-inline-flexbox |Description=Internet Explorer 10. Specifies an inline-level flexible box ("flexbox") container. For more information on flexbox containers, see [[css/flexbox|Flexible Box ("Flexbox") Layout]].}}
+{{CSS_Property_Value|Data Type=-ms-grid |Description=Internet Explorer 10. Specifies a block-level Grid element. For more information on grid layout, see Grid Layout.}}
+{{CSS_Property_Value|Data Type=-ms-inline-grid |Description=Internet Explorer 10. Specifies an inline-level Grid element. For more information on grid layout, see Grid Layout.}}
+}}
+{{Topics|CSS}}
+{{Examples_Section
+|Not_required=No
+|Examples={{Single_Example
+|Description=This example shows the effect of changing the values for the '''display''' property between '''inline''', '''block''', and '''none'''.
+|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/display.htm
+|Code=
+&lt;SPAN ID{{=}}oSpan&gt;
+This is a SPAN 
+&lt;/SPAN&gt;
+in a sentence.
+&lt;P&gt;
+&lt;INPUT TYPE{{=}}button VALUE{{=}}"Block" 
+    onclick{{=}}"oSpan.style.display{{=}}'block'"&gt;
+:
+}}
+{{Single_Example
+|Description=This example uses function calls to hide and show table rows and cells.
+|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/tables.htm
+|Code=
+&lt;SCRIPT&gt;
+function getPets()
+{
+    oRow1Cell2.style.display{{=}}"none";
+    oRow2Cell2.style.display{{=}}"block";
+    oRow3Cell2.style.display{{=}}"none";
+}
+&lt;/SCRIPT&gt;
+:
+&lt;TABLE&gt;
+&lt;TR ID{{=}}"oRow1"&gt;&lt;TD&gt;Horses&lt;/TD&gt;
+&lt;TD ID{{=}}"oRow1Cell2"&gt;Thoroughbreds&lt;/TD&gt;
+&lt;TD&gt;Fast&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR ID{{=}}"oRow2"&gt;&lt;TD&gt;Dogs&lt;/TD&gt;
+&lt;TD ID{{=}}"oRow2Cell2"&gt;Greyhounds&lt;/TD&gt;
+&lt;TD&gt;Fast&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR ID{{=}}"oRow3"&gt;&lt;TD&gt;Marsupials&lt;/TD&gt;
+&lt;TD ID{{=}}"oRow3Cell2"&gt;Opossums&lt;/TD&gt;
+&lt;TD&gt;Slow&lt;/TD&gt;&lt;/TR&gt;
+&lt;/TABLE&gt;
+:
+&lt;INPUT TYPE{{=}}button onclick{{=}}"getPets()" 
+    VALUE{{=}}"Show household pets"&gt;
+}}}}
+{{Notes_Section
+|Notes=
+===Remarks===
+All visible HTML '''div''' object is a block element, and a '''span''' object is an inline element. Block elements typically start a new line and can contain other block elements and inline elements. Inline elements do not typically start a new line and can contain other inline elements or data. Changing the values for the '''display''' property affects the layout of the surrounding content by:
+*Adding a new line after the element with the value '''block'''.
+*Removing a line from the element with the value '''inline'''.
+*Hiding the data for the element with the value '''none'''.
+
+In contrast to the [[css/properties/visibility|'''visibility''']] property, '''display''':'''none''' reserves no space for the object on the screen.
+The '''table-header-group''' and '''table-footer-group''' values can be used to specify that the contents of the '''tHead''' and '''tFoot''' objects are displayed on every page for a table that spans multiple pages.
+In Microsoft Internet Explorer 4.0, the '''block''', '''inline''', and '''list-item''' values are not supported explicitly, but do render the element.
+The '''block''' and '''inline''' values are supported explicitly as of Microsoft Internet Explorer 5.
+In Microsoft Internet Explorer 5.5 and earlier, the default value of this property for '''li''' elements is '''block'''.
+The '''inline-block''' value is supported  starting with Internet Explorer 5.5. You can use this value to give an object a layout without specifying the object's height or width.
+Starting with Internet Explorer 8, the <code>table</code> display styles allow elements to closely parallel the visual layout of a table. The Cascading Style Sheets (CSS) table display model does not require explicit elements to correspond with the HTML tags. For example, an element styled as '''display:table-cell''' does not need to be contained within a block that is styled '''display:table-row''' to be styled correctly. Implicit table elements are created as necessary in an attempt to make the document valid. Contrast this behavior to the traditional HTML table model, where table elements are implicitly closed early to avoid unexpected nesting.
+In Windows Internet Explorer 7 and earlier, the default value of this property for [[html/elements/table|'''table''']], '''tr''', '''td''', '''col''', and '''colGroup''' elements is <code>block</code>.
+|Import_Notes=
+===Syntax===
+<code>'''display: '''inline '''{{!}}''' block '''{{!}}''' list-item '''{{!}}''' run-in '''{{!}}''' inline-block '''{{!}}''' table '''{{!}}''' inline-table '''{{!}}''' table-row-group '''{{!}}''' table-header-group '''{{!}}''' table-footer-group '''{{!}}''' table-row '''{{!}}''' table-column-group '''{{!}}''' table-column '''{{!}}''' table-cell '''{{!}}''' table-caption '''{{!}}''' -ms-flexbox '''{{!}}''' -ms-inline-flexbox '''{{!}}''' -ms-grid '''{{!}}''' -ms-inline-grid '''{{!}}''' none</code>
+}}
+{{See_Also_Section
+|Manual_sections=
+===Related pages (MSDN)===
+*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
+*<code>[[css/cssom/currentStyle|currentStyle]]</code>
+*<code>[[dom/defaultSelected|defaults]]</code>
+*<code>[[css/cssom/style|style]]</code>
+*<code>CSS Enhancements in Internet Explorer 6</code>
+|Topic_clusters=Generated and Replaced Content, Box Model
+}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|MDN_link=
+|HTML5Rocks_link=
+}}
