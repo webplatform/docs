@@ -1,0 +1,35 @@
+{{Flags
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
+|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+}}
+{{Standardization_Status|}}
+{{API_Name}}
+{{Markup_Attribute
+|Property_applies_to=dom/HTMLElement
+}}
+{{Topics|HTML}}
+{{Notes_Section
+|Notes=
+===Remarks===
+Several generic messages are displayed for a variety of validation errors. If you use a title attribute on an input element, it will both be shown as alt text for the field, as well as be appended to the generic error message.
+The following example shows a ZIP code number format.
+|Import_Notes=
+===Syntax===
+===Standards information===
+*[http://go.microsoft.com/fwlink/p/?linkid{{=}}221374 HTML5 A vocabulary and associated APIs for HTML and XHTML], Section 4.10.7.3.9
+
+
+}}
+{{See_Also_Section
+|Manual_sections=
+===Related pages (MSDN)===
+*<code>[[dom/HTMLInputElement|HTMLInputElement]]</code>
+|Topic_clusters=html
+}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|MDN_link=
+|HTML5Rocks_link=
+}}
