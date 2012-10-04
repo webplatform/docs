@@ -5,21 +5,27 @@
 {{Standardization_Status|}}
 {{API_Name}}
 {{API_Object_Property
-|Property_applies_to=dom/Element
+|Property_applies_to=dom/HTMLElement
 |Read_only=
 }}
 {{Topics|DOM}}
 {{Notes_Section
 |Notes=
 ===Remarks===
-The [[dom/DOMSettableTokenList|'''DOMSettableTokenList''']] is the same as [[dom/DOMTokenList|'''DOMTokenList''']], except that it allows the underlying string to be directly changed.
+Windows Internet Explorer 8 or later. In IE8 Standards mode, the '''value''' property is correctly reported as a canonical attribute name. For example, <code>&lt;input type{{=}}"text" readonly&gt;</code> and <code>&lt;input type{{=}}"text" readonly{{=}}"readonly"&gt;</code> would both set the input text field to read-only. In IE8 mode, the value is evaluated as a canonical value, <code>"readonly"</code>. In earlier document compatibility modes, it is evaluated as a Boolean value, true. For more information, see Attribute Differences in Internet Explorer 8.
+'''value''' was introduced in Microsoft Internet Explorer 6.
 |Import_Notes=
 ===Syntax===
+===Standards information===
+*[http://go.microsoft.com/fwlink/p/?linkid{{=}}161725 Document Object Model (DOM) Level 1 Specification], Section 2.5.5
+
+
 }}
 {{See_Also_Section
 |Manual_sections=
 ===Related pages (MSDN)===
-*<code>[[dom/DOMSettableTokenList|DOMSettableTokenList]]</code>
+*<code>[[dom/attributes|attribute]]</code>
+*<code>[[dom/properties/nodeValue|nodeValue]]</code>
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
