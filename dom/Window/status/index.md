@@ -9,18 +9,34 @@
 |Read_only=
 }}
 {{Topics|DOM}}
+{{Examples_Section
+|Not_required=No
+|Examples={{Single_Example
+|Description=This example uses the '''status''' property to control a check box that is disabled by default.
+|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/status.htm
+|Code=
+&lt;INPUT ID{{=}}oCheckbox TYPE{{=}}checkbox CHECKED DISABLED&gt;
+:
+&lt;SPAN onclick{{=}}"oCheckbox.status{{=}}false" 
+    STYLE{{=}}"font-weight:bold"&gt;I disagree&lt;/SPAN&gt;.
+&lt;SPAN onclick{{=}}"oCheckbox.status{{=}}true" 
+    STYLE{{=}}"font-weight:bold"&gt;I agree&lt;/SPAN&gt;.
+}}}}
 {{Notes_Section
 |Notes=
 ===Remarks===
-Do not confuse the '''status''' property with the [[dom/properties/defaultStatus|'''defaultStatus''']] property. The '''defaultStatus''' property specifies the default message displayed in the status bar.
-Windows Internet Explorer 7. References to this property are ignored if the "Allow status bar updates via script" option is disabled or the URLACTION _FEATURE_SCRIPT_STATUS_BAR URL action is disallowed for the current URL security zone.  For more information on URL security zones, please see About URL Security Zones.
+The '''status''' property of the '''textArea''' object has a default value of null.
+Setting the '''status''' property of a '''textArea''' object updates the value of the property and causes the [[dom/events/propertychange|'''onpropertychange''']] event to fire. However, this change has no visual effect on the '''textArea''' object.
 |Import_Notes=
 ===Syntax===
 }}
 {{See_Also_Section
 |Manual_sections=
 ===Related pages (MSDN)===
-*<code>window</code>
+*<code>input type{{=}}button</code>
+*<code>input type{{=}}checkbox</code>
+*<code>input type{{=}}radio</code>
+*<code>textArea</code>
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
