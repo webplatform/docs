@@ -121,9 +121,9 @@ There is nothing magical or strange going on with these. You define variables an
  
 <source lang="javascript">
 <script>
-  var fahrenheit = 123,
-      celsius = (fahrenheit - 32) * 5/9,
-      clue = 0.123123;
+var fahrenheit = 123,
+    celsius = (fahrenheit - 32) * 5/9,
+    clue = 0.123123;
 </script>
 </source>
  
@@ -135,8 +135,8 @@ Booleans are simple “yes or no” definitions. You assign them by using the <c
  
 <source lang="javascript">
 <script>
-  var doorClosed = true,
-      catCanLeave = false;
+var doorClosed = true,
+    catCanLeave = false;
 </script>
 </source>
  
@@ -146,10 +146,10 @@ Strings are lines of text that can contain any character. You define them in Jav
  
 <source lang="javascript">
 <script>
-  var surname = 'Heilmann',
-      name = "Christian",
-      age = '33',
-      hair = 'Flickr famous';
+var surname = 'Heilmann',
+    name = "Christian",
+    age = '33',
+    hair = 'Flickr famous';
 </script>
 </source>
  
@@ -193,7 +193,7 @@ Arrays are very powerful constructs. An array is a collection of values, and eac
  
 <source lang="javascript">
 <script>
-  var pets = new Array('Boomer','Polly','Mr.Frisky');
+var pets = new Array('Boomer','Polly','Mr.Frisky');
 </script>
 </source>
  
