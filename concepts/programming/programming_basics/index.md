@@ -62,11 +62,13 @@ To keep things easy, let’s use JavaScript as an example programming language i
  
 Note: The <code>&lt;script&gt;</code> tags are there to tell the browser that the text inside is a scripting language and that it should be interpreted as such.
 
-<pre>&lt;script&gt;
+<source lang="javascript">
+&lt;script&gt;
 var x = 5,
     y = 6,
     result = x + y;
-&lt;/script&gt;</pre>
+&lt;/script&gt;
+</source>
  
 The interpreter goes through the code instruction by instruction, with each instruction ending in a semicolon. The semicolon notifies the interpreter of the end of an instruction, much like a full stop or an exclamation mark defines the end of a sentence in human languages.
  
