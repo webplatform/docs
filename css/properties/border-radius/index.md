@@ -1,107 +1,60 @@
-{{Page_Title}}
 {{Flags
-|Content=Examples Needed
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
+|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
 }}
-{{Standardization_Status}}
+{{Standardization_Status|}}
 {{API_Name}}
-{{Summary_Section}}
-{{CSS Property
-|Initial value=0
-|Applies to=all elements, except the 'table' element when border-collapse is collapse
-|Inherited=Yes
+{{CSS_Property
+|Applies to=All elements
 |Media=visual
-|Computed value=as specified by individual properties
-|Animatable=Yes
-|Values={{CSS Property Value
-|Description=Denotes the size of the circle radius or the semi-major and semi-minor axes of the ellipsis. It can be expressed in any unit allowed by the CSS <length> data types. Negative values are invalid.
-}}{{CSS Property Value
-|Description=Denotes the size of the circle radius, or the semi-major and semi-minor axes of the ellipsis, using percentage values. Percentages for the horizontal axe refer to the width of the box, percentages for the vertical axe refer to the height of the box. Negative values are invalid.
+|Inherited=No
+|Initial value=
+|Values={{CSS_Property_Value|Data Type=radius |Description=A floating-point number, followed by either an absolute units designator
+(<code>cm</code>,
+<code>mm</code>,
+<code>in</code>,
+<code>pt</code>,
+or <code>pc</code>)
+or a relative units designator
+(<code>em</code>,
+<code>ex</code>,
+or <code>px</code>).
+For more information about the supported length units,
+see CSS Values and Units Reference.}}
+{{CSS_Property_Value|Data Type=percentage |Description=An integer, followed by a %. The value is a percentage of, for horizontal radii, the width of the border box, or, for vertical radii, the height of the border box.}}
 }}
-|Syntax=The syntax of the first radius allows one to four values:
-* border-radius: radius
-* border-radius: top-left-and-bottom-right top-right-and-bottom-left
-* border-radius: top-left top-right-and-bottom-left bottom-right
-* border-radius: top-left top-right bottom-right bottom-left 
+{{Topics|CSS}}
+{{Notes_Section
+|Notes=
+===Remarks===
+The '''border-radius''' property is a composite property that specifies up to four '''border-*-radius''' properties. If values are given before and after the slash, the values before the slash set the horizontal radius and the values after the slash set the vertical radius. If there is no slash, the values set both radii equally. The four values for each radii are given in the following order: top-left, top-right, bottom-right, bottom-left. If the bottom-left value is omitted, the value is the same as the top-right value. If the bottom-right value is omitted, the value is the same as the top-left value. If the top-right value is omitted, the value is the same as the top-left value.
+|Import_Notes=
+===Syntax===
+<code>'''border-radius: '''radius '''{{!}}''' percentage</code>
+===Standards information===
+*[http://go.microsoft.com/fwlink/p/?linkid{{=}}197157 CSS Backgrounds and Borders Module Level 3], Section 4.4
 
-The syntax of the second radius also allows one to four values
-* border-radius: (first radius values) / radius
-* border-radius: (first radius values) / top-left-and-bottom-right top-right-and-bottom-left
-* border-radius: (first radius values) / top-left top-right-and-bottom-left bottom-right
-* border-radius: (first radius values) / top-left top-right bottom-right bottom-left
 
-border-radius: inherit
-|Value_Name=percentage
 }}
-{{Examples_Section
-|Not_required=No
-|Examples=
+{{See_Also_Section
+|Manual_sections=
+===Related pages (MSDN)===
+*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
+*<code>[[css/cssom/currentStyle|currentStyle]]</code>
+*<code>[[css/cssom/style|style]]</code>
+*<code>[[dom/defaultSelected|defaults]]</code>
+*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
+*<code>Reference</code>
+*<code>[[css/properties/border-top-right-radius|border-top-right-radius]]</code>
+*<code>[[css/properties/border-bottom-left-radius|border-bottom-left-radius]]</code>
+*<code>[[css/properties/border-bottom-right-radius|border-bottom-right-radius]]</code>
+*<code>[[css/properties/border-top-left-radius|border-top-left-radius]]</code>
+|Topic_clusters=Border
 }}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Yes
-|Chrome_version=5.0
-|Chrome_prefixed_supported=Yes
-|Chrome_prefixed_version=4.0
-|Firefox_supported=Yes
-|Firefox_version=4.0
-|Firefox_prefixed_supported=Yes
-|Firefox_prefixed_version=3.0
-|Internet_explorer_supported=Yes
-|Internet_explorer_version=9.0
-|Internet_explorer_prefixed_supported=No
-|Internet_explorer_prefixed_version=
-|Opera_supported=Yes
-|Opera_version=10.5
-|Opera_prefixed_supported=No
-|Opera_prefixed_version=
-|Safari_supported=Yes
-|Safari_version=5.0
-|Safari_prefixed_supported=Yes
-|Safari_prefixed_version=3.1
-}}
-|Mobile_rows={{Compatibility Table Mobile Row
-|Android_supported=Yes
-|Android_version=2.2
-|Android_prefixed_supported=Yes
-|Android_prefixed_version=2.1
-|Firefox_mobile_supported=Yes
-|Firefox_mobile_version=15.0
-|Firefox_mobile_prefixed_supported=No
-|Firefox_mobile_prefixed_version=
-|IE_phone_supported=Unknown
-|IE_phone_version=
-|IE_phone_prefixed_supported=Unknown
-|IE_phone_prefixed_version=
-|Opera_mobile_supported=Yes
-|Opera_mobile_version=11.0
-|Opera_mobile_prefixed_supported=No
-|Opera_mobile_prefixed_version=
-|Safari_mobile_supported=Yes
-|Safari_mobile_version=4.0
-|Safari_mobile_prefixed_supported=Yes
-|Safari_mobile_prefixed_version=3.2
-}}
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
+|Sources=MSDN
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
-|MSDN_link=
 |HTML5Rocks_link=
 }}
-== Example ==
-
-<syntaxhighlight lang="css" line start="0" highlight="2">
-border: solid 10px;
-border-radius: 40px 10px;
-</syntaxhighlight>
-
-
-{{Major_Style_Issue|main_message=This article does not include a complete compatibility table.}}
