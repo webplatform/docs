@@ -1,0 +1,114 @@
+{{Flags
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
+|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+}}
+{{Standardization_Status|}}
+{{API_Name}}
+{{Page_Title|CSSOM View}}
+{{Basic_Page}}
+{{Notes_Section
+|Import_Notes=
+===In this section===
+{| class="wikitable"
+|-
+!Property
+!Description
+|-
+|[[css/cssom/properties/height|'''height''']]
+|Gets the height of the rectangle that surrounds the object content.
+|-
+|'''innerHeight'''
+|Gets the height of the window, excluding user interface elements, such as the window frame, toolbars,  and so on.
+|-
+|'''innerWidth'''
+|Gets the width of the window, excluding user interface elements, such as the window frame.
+|-
+|[[css/cssom/properties/offsetX|'''offsetX''']]
+|Gets the x-coordinate of the mouse pointer, relative to the target node.
+|-
+|[[css/cssom/properties/offsetY|'''offsetY''']]
+|Gets the y-coordinate of the mouse pointer, relative to the target node.
+|-
+|'''outerHeight'''
+|Gets the height of the window, including user interface elements, such as the window frame, toolbars, and so on.
+|-
+|'''outerWidth'''
+|Gets the width of the window, including user interface elements, such as the window frame.
+|-
+|[[css/cssom/properties/pageX|'''pageX''']]
+|Gets the y-coordinate of the mouse pointer, relative to the upper-left corner of the page.
+|-
+|[[css/cssom/properties/pageY|'''pageY''']]
+|Gets the y-coordinate of the mouse pointer, relative to the upper-left corner of the page.
+|-
+|'''pageXOffset'''
+|Gets the distance, in pixels, that a document has scrolled horizontally.
+|-
+|'''pageYOffset'''
+|Gets the distance, in pixels, that a document has scrolled vertically.
+|-
+|[[css/cssom/properties/pixelBottom|'''pixelBottom''']]
+|Sets or retrieves the bottom position of the object.
+|-
+|[[css/cssom/properties/pixelHeight|'''pixelHeight''']]
+|Sets or retrieves the height of the object.
+|-
+|[[css/cssom/properties/pixelLeft|'''pixelLeft''']]
+|Sets or retrieves the left position of the object.
+|-
+|[[css/cssom/properties/pixelRight|'''pixelRight''']]
+|Sets or retrieves the right position of the object.
+|-
+|[[css/cssom/properties/pixelTop|'''pixelTop''']]
+|Sets or retrieves the top position of the object.
+|-
+|[[css/cssom/properties/pixelWidth|'''pixelWidth''']]
+|Sets or retrieves the width of the object.
+|-
+|[[css/cssom/properties/posBottom|'''posBottom''']]
+|Sets or retrieves the bottom position of the object in the units specified by the [[css/properties/bottom|'''bottom''']] attribute.
+|-
+|[[css/cssom/properties/posHeight|'''posHeight''']]
+|Sets or retrieves the height of the object in the units specified by the [[css/properties/height|'''height''']] attribute.
+|-
+|[[css/cssom/properties/posLeft|'''posLeft''']]
+|Sets or retrieves the left position of the object in the units specified by the [[css/properties/left|'''left''']] attribute.
+|-
+|[[css/cssom/properties/posRight|'''posRight''']]
+|Sets or retrieves the right position of the object in the units specified by the [[css/properties/right|'''right''']] attribute.
+|-
+|[[css/cssom/properties/posTop|'''posTop''']]
+|Sets or retrieves the top position of the object in the units specified by the [[css/properties/top|'''top''']] attribute.
+|-
+|[[css/cssom/properties/posWidth|'''posWidth''']]
+|Sets or retrieves the width of the object in the units specified by the [[css/properties/width|'''width''']] attribute.
+|-
+|[[css/cssom/properties/width|'''width''']]
+|Gets the width of the rectangle that surrounds the object content.
+|-
+|'''x'''
+|Gets the x-coordinate of the mouse pointer, relative to the last positioned ancestor element.
+|-
+|[[css/cssom/properties/y|'''y''']]
+|Gets the y-coordinate of the mouse pointer, relative to the last positioned ancestor element.
+|-
+|Media Query Listeners
+|Media Query Listeners allow developers to register listeners that monitor and call back when a specific change happens to the media environment
+|}
+ 
+ 
+ 
+[mailto:wsddocfb@microsoft.com?subject{{=}}Documentation%20feedback [ie_css\ie]:%20CSSOM View%20 RELEASE:%20(7/24/2012)&amp;body{{=}}%0A%0APRIVACY STATEMENT%0A%0AThe doc team uses your feedback to improve the documentation. We don't use your email address for any other purpose. We'll remove your email address from our system after the issue that you are reporting is resolved. While we are working to resolve this issue, we may send you an email message to request more info about your feedback. After the issue is addressed, we may send you an email message to let you know that your feedback has been addressed.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx. Send comments about this topic to Microsoft]
+Build date: 7/24/2012
+
+}}
+{{See_Also_Section
+|Topic_clusters=CSSOM
+}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|MDN_link=
+|HTML5Rocks_link=
+}}
