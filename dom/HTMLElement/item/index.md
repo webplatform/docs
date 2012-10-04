@@ -5,30 +5,99 @@
 {{Standardization_Status|}}
 {{API_Name}}
 {{API_Object_Method
-|Parameters={{Method Parameter|Name=index|Data type=Integer|Description=An '''Integer''' that specifies the zero-based index of the object to retrieve.|Optional=}}
-|Method_applies_to=#REF!
+|Parameters={{Method Parameter|Name=name|Data type=VARIANT|Description='''Variant''' of type '''Integer''' or '''String''' that specifies the object or collection to retrieve. If this parameter is an integer, it is the zero-based index of the object. If this parameter is a string, all objects with matching [[html/attributes/name|'''name''']] or [[html/attributes/id|'''id''']] properties are retrieved, and a collection is returned if more than one match is made.|Optional=}}
+{{Method Parameter|Name=index|Data type=VARIANT|Description='''Variant''' of type '''Integer''' that specifies the zero-based index of the object to retrieve when a collection is returned.|Optional=}}
+|Method_applies_to=dom/HTMLElement
 |Example_object_name=object
 |Return_value_name=object
 |Javascript_data_type=DOM Node
-|Return_value_description=Variant
+|Return_value_description=Object
 
 
 }}
 {{Topics|DOM}}
+{{Examples_Section
+|Not_required=No
+|Examples={{Single_Example
+|Description=The following example uses the '''item''' method to retrieve each object from the document. In this case, the method parameter is a number, so the objects are retrieved in the order they appear in the document.
+|LiveURL=
+|Code=
+&lt;script language{{=}}"JScript"&gt;
+var coll {{=}} document.all;
+if (coll!{{=}}null) {
+    for (i{{=}}0; i&lt;coll.length; i++) 
+        console.log(coll.item(i).tagName);
+}
+&lt;/script&gt;
+}}
+{{Single_Example
+|Description=The next example uses the '''item''' method to retrieve a collection of all objects in the document that have "Sample" as an [[html/attributes/id|'''ID''']]. The example then uses '''item''' again to retrieve each object from the "Sample" collection.
+|LiveURL=
+|Code=
+&lt;script language{{=}}"JScript"&gt;
+var coll {{=}} document.all.item("Sample");
+If (coll !{{=}} null) {
+    for (i{{=}}0; i&lt;coll.length; i++) {
+        console.log(coll.item(i).tagName);
+    }
+}
+&lt;/script&gt;
+}}
+{{Single_Example
+|Description=The last example is similar to the previous example, but uses the optional ''index'' parameter of '''item''' to retrieve individual objects.
+|LiveURL=
+|Code=
+&lt;script language{{=}}"JScript"&gt;
+var coll {{=}} document.all.item("Sample")
+if (coll!{{=}}null) {
+    for (i{{=}}0; i&lt;coll.length; i++)
+        console.log(document.all.item("Sample",i).tagName);
+}
+&lt;/script&gt;
+}}
+{{Single_Example
+|Description=This example uses the '''item''' method to get a collection of the children of the document body.
+|LiveURL=
+|Code=
+&lt;script language{{=}}"JScript"&gt;
+var oItem {{=}} document.body.children;
+if (oItem!{{=}}null) {
+    for (i{{=}}0; i&lt;oItem.length; i++) 
+        console.log(oItem.item(i).tagName);
+}
+&lt;/script&gt;
+}}}}
 {{Notes_Section
 |Notes=
 ===Remarks===
-This method returns S_OK even if the element is not found. Check the value of the IDispatch pointer returned by this call. If the value of the pointer is NULL, the element was not found; and the call was not successful.
+The '''item''' method cannot retrieve '''input type{{=}}image''' elements from a '''form'''. To access all elements contained in a form, use the [[dom/properties/children (document)+B416|'''children''']] collection.
+Windows Internet Explorer 8 and later. In IE8 Standards mode, the ''index'' parameter is not used.  For more information, see Defining Document Compatibility.
 |Import_Notes=
 ===Syntax===
 ===Standards information===
-There are no standards that apply here.
+*[http://go.microsoft.com/fwlink/p/?linkid{{=}}196991 Document Object Model (DOM) Level 2 HTML Specification], Section 1.6.5
+
 
 }}
 {{See_Also_Section
 |Manual_sections=
 ===Related pages (MSDN)===
-*<code>bookmarks</code>
+*<code>[[dom/properties/all|all]]</code>
+*<code>[[dom/properties/anchors|anchors]]</code>
+*<code>[[dom/properties/applet|applets]]</code>
+*<code>[[dom/properties/boundElements|boundElements]]</code>
+*<code>[[dom/properties/cellSpacing|cells]]</code>
+*<code>[[dom/properties/children (document)+B416|children]]</code>
+*<code>[[dom/properties/embeds|embeds]]</code>
+*<code>[[dom/properties/forms|forms]]</code>
+*<code>[[dom/properties/frames|frames]]</code>
+*<code>[[dom/properties/image|images]]</code>
+*<code>[[dom/properties/links|links]]</code>
+*<code>mimeTypes</code>
+*<code>[[dom/properties/rows (table)|rows]]</code>
+*<code>[[dom/properties/scripts|scripts]]</code>
+*<code>[[dom/properties/tBodies|tBodies]]</code>
+*<code>window</code>
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
