@@ -1,0 +1,46 @@
+{{Flags
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
+|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+}}
+{{Standardization_Status|}}
+{{API_Name}}
+{{CSS_Property
+|Applies to=All elements
+|Media=visual
+|Inherited=No
+|Initial value=
+|Values={{CSS_Property_Value|Data Type=normal |Description=Default. Element does not open an additional level of embedding. For inline elements, implicit reordering works across element boundaries.}}
+{{CSS_Property_Value|Data Type=embed |Description=Element opens an additional level of embedding. The value of the [[css/properties/direction|'''direction''']] property specifies the embedding level. Reordering is implicit inside the element.}}
+{{CSS_Property_Value|Data Type=bidi-override |Description=Same as the <code>embed</code> value, except that, inside the element, reordering is strictly in sequence according to the [[css/properties/direction|'''direction''']] property. This value overrides the implicit bidirectional algorithm.}}
+}}
+{{Topics|CSS}}
+{{Notes_Section
+|Notes=
+===Remarks===
+The '''unicode-bidi''' property is used with the [[css/properties/direction|'''direction''']] property.
+The Unicode bidirectional algorithm automatically reverses embedded character sequences according to their inherent direction. For example, the base direction of an English document is left-to-right. If portions of a paragraph within the document contain a language with a right-to-left reading order, the direction of that language displays correctly right-to-left. The user agent applying the bidirectional algorithm correctly reverses the language direction.
+|Import_Notes=
+===Syntax===
+<code>'''unicode-bidi: '''normal '''{{!}}''' embed '''{{!}}''' bidi-override</code>
+===Standards information===
+*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 9.10
+
+
+}}
+{{See_Also_Section
+|Manual_sections=
+===Related pages (MSDN)===
+*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
+*<code>[[css/cssom/currentStyle|currentStyle]]</code>
+*<code>[[dom/defaultSelected|defaults]]</code>
+*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
+*<code>[[css/cssom/style|style]]</code>
+|Topic_clusters=Writing Modes
+}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|MDN_link=
+|HTML5Rocks_link=
+}}
