@@ -20,7 +20,7 @@ div { +filter: grayscale(100%); }
 This will make the content inside all <code>&lt;div&gt;</code> elements on the page turn gray. Great for making your page look like a TV image from the 1940s!
 
 [[Image:f01-pencil.jpg]]&nbsp;[[Image:f02-gray.jpg]]<br/>
-''Original image (left); Grayscale filtered image (right)''
+''Original image (left); grayscale filtered image (right)''
 
 Most filters take some form of parameter to control how much filtering is done. So, for example, if you wanted to style your content to be halfway between the original color and a grayscale version you'd do it like this:
 }}
