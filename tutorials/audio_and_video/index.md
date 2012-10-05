@@ -100,7 +100,6 @@ Fortunately, libraries such as [http://www.videojs.com VideoJS] and [http://www.
 
 For tutorials on how the <code>&lt;video&gt;</code> tag works and how you can get started, check out [http://diveintohtml5.info/video.html diveintohtml5].
 If you'd like to jump right in, HTML5Rocks' Playground has great [http://playground.html5rocks.com/#video_tag sample code].
-
 }}
 {{Notes_Section}}
 {{Compatibility_Section
@@ -110,7 +109,7 @@ If you'd like to jump right in, HTML5Rocks' Playground has great [http://playgro
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics}}
+{{Topics|Audio, JavaScript, Video}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=Facebook HTML5 Resource Center
