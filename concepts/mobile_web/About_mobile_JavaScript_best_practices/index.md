@@ -1,1 +1,0 @@
-#REDIRECT [[concepts/mobile web/mobile javascript best practices]]
