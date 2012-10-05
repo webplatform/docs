@@ -20,6 +20,7 @@ Now roll your sleeves up and let's get ready to learn. [[http://docs.webplatform
 * [[concepts/programming/programming basics|Basics of Programming]]
 * [[concepts/the web standards model|The web standards model — HTML, CSS and JavaScript]]
 * [[tutorials/getting your content online|Getting your content online]]
+* [[concepts/accessibility|Accessibility]]
 
 ==HTML — structuring your web content==
 
@@ -37,6 +38,25 @@ Now roll your sleeves up and let's get ready to learn. [[http://docs.webplatform
 ==CSS — styling your web content==
 
 * [[guides/getting started with css|Getting started with CSS]]
+* [[tutorials/using selectors|Using selectors]]
+* [[guides/css text styling fundamentals|Text styling fundamentals]]
+* [[tutorials/using css background images|CSS background images]]
+* [[tutorials/box model|Exploring the CSS box model]]
+* [[tutorials/layout fundamentals|Exploring the CSS layout model]]
+* [[tutorials/making css easier to read|Making CSS easier to read]]
+* [[tutorials/media queries|Targetting styles with media queries]]
+
+==JavaScript — adding dynamic behaviour to your websites==
+
+* [[concepts/programming/programming basics|Programming basics]]
+* [[tutorials/your first look at javascript|Your first look at JavaScript]]
+* [[concepts/programming/the purpose of javascript|The purpose of JavaScript]]
+* [[tutorials/javascript functions|JavaScript functions]]
+* [[tutorials/objects in javascript|Objects in JavaScript]]
+* [[tutorials/traversing the dom/Traversing the DOM]]
+* [[tutorials/creating and modifying html|Creating and modifying HTML]]
+* [[tutorials/manipulating css with javascript|Manipulating CSS with JavaScript]]
+* [[tutorials/events in javascript|Events in JavaScript]]
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
