@@ -3,9 +3,9 @@
 {{Byline}}
 {{Summary_Section|Mobile users expect to have the ability to open an app and interact with it, no matter if they have a connection.
 
-`AppCache` provides a solution that allows you to cache your entire app on a user's device. This allows your app to continue working even when the user is offline. When the user is connected, `AppCache` will also make the app load faster by minimizing the number of requests made to your server.
+AppCache provides a solution that allows you to cache your entire app on a user's device. This allows your app to continue working even when the user is offline. When the user is connected, AppCache will also make the app load faster by minimizing the number of requests made to your server.
 
-In addition to the benefits offered by `AppCache`, modern browsers allow storing of a user's app specific data, for example their high scores in a game, via `localStorage`. Using these two features enables your app to work in an offline state. 
+In addition to the benefits offered by AppCache, modern browsers allow storing of a user's app specific data, for example their high scores in a game, via localStorage. Using these two features enables your app to work in an offline state. 
 
 Gmail, for example, uses both of these features so that you can continue to read your emails, even on a plane.
 
@@ -14,9 +14,9 @@ Note that this guide focuses on mobile, but the same practices can be applied to
 {{Tutorial
 |Content=== Caching the App ==
 
-[http://www.whatwg.org/specs/web-apps/current-work/#applicationcache App Cache] allows caching of static resources like images, CSS, and Javascript. Using <code>AppCache</code>, these resources only need to be requested the first time the app is run, or whenever it is updated. <code>AppCache</code> is currently supported on Chrome 10.0+, Firefox 3.6+, IE 10.0, Opera 10.6+, Safari 4.0+ and on iPhone 2.1+, Android 2.0+. For up-to-date compatibility support, check out [http://www.caniuse.com/#search=appcache CanIUse.com's support table].
+[http://www.whatwg.org/specs/web-apps/current-work/#applicationcache App Cache] allows caching of static resources like images, CSS, and Javascript. Using AppCache, these resources only need to be requested the first time the app is run, or whenever it is updated. AppCache is currently supported on Chrome 10.0+, Firefox 3.6+, IE 10.0, Opera 10.6+, Safari 4.0+ and on iPhone 2.1+, Android 2.0+. For up-to-date compatibility support, check out [http://www.caniuse.com/#search=appcache CanIUse.com's support table].
 
-You can enable <code>AppCache</code> by including a simple text file, called a cache manifest, that specifies which resources should be preloaded and cached for offline access. All HTML pages should reference this manifest file by including the <code>manifest</code> attribute in the html tag.  Here's an example.
+You can enable AppCache by including a simple text file, called a cache manifest, that specifies which resources should be preloaded and cached for offline access. All HTML pages should reference this manifest file by including the <code>manifest</code> attribute in the html tag.  Here's an example.
 
  &lt;html manifest="myapp.appcache">
    ...
@@ -37,7 +37,7 @@ A simple manifest file looks like this.
  js/auth.js
  res/facebook.png
  res/places.png
-    
+
 In this particular example, all five resources listed, along with HTML page that referenced the manifest, and the manifest file itself, will be cached. Note that the entire cache process fails if one of the specified resources cannot be loaded. As of today, most implementations limit the size of the cached data to 5MB per domain.
 
 The manifest file does offer more granular controls such as listing alternate resources in case of failures and listing files which require network access. Let's look at more complex example.
@@ -45,7 +45,7 @@ The manifest file does offer more granular controls such as listing alternate re
  CACHE MANIFEST
  # Update revision number to trigger a cache refresh
  # v0.4.3-11-fac3b00c
-
+ 
  # Should always be cached
  CACHE:
  fbstyle.css
@@ -53,13 +53,13 @@ The manifest file does offer more granular controls such as listing alternate re
  js/auth.js
  img/facebook.png
  img/places.png
-
+ 
  # User must be online for these actions:
  NETWORK:
  auth.php
  logout.php
  checkin.php
-
+ 
  # serve offline.png if fails to get images in img folder
  # serve offline.html if fails to get index.html
  FALLBACK:
@@ -70,13 +70,13 @@ A manifest can have three distinct sections, which can be listed in any order an
 
 <code>CACHE</code>: the default section for entries. Files listed under this section (or immediately after the CACHE MANIFEST) will be explicitly cached after they're downloaded for the first time. 
 
-<code>NETWORK</code>: resources listed under this section require network access. By default, <code>AppCache</code> won't allow network access to files which aren't specified in this section. Thankfully, you can override this default behavior by using the online whitelist wildcard flag (the asterisk '*') which allows any external content to be accessed directly. For example, the below manifest file would cache <code>app.css</code>, <code>app.js</code>, and <code>img/logo.png</code> but would allow direct access to any other file the app might require:
+<code>NETWORK</code>: resources listed under this section require network access. By default, AppCache won't allow network access to files which aren't specified in this section. Thankfully, you can override this default behavior by using the online whitelist wildcard flag (the asterisk '*') which allows any external content to be accessed directly. For example, the below manifest file would cache <code>app.css</code>, <code>app.js</code>, and <code>img/logo.png</code> but would allow direct access to any other file the app might require:
 
  CACHE MANIFEST
  app.css
  app.js
  img/logo.png
-
+ 
  NETWORK:
  *
 
@@ -85,7 +85,7 @@ You can also use prefix match patterns if you want tighter control. For example,
  CACHE MANIFEST
  app.css
  app.js
-
+ 
  NETWORK:
  img/
  video/
@@ -99,9 +99,9 @@ You can also use prefix match patterns if you want tighter control. For example,
 
 === Updating the Cache ===
 
-Updating the cache is a bit more involved. Whenever your app is loaded, if your app calls the <code>window.applicationCache.update()</code> API, or if the user wiped out its cache, <code>AppCache</code> will attempt to download the manifest file again and check to see if there have been changes to it. If the server responds with a <code>304 Not Modified</code> header or if the downloaded manifest file is byte-for-byte equivalent to the previous one, nothing happens. On the other hand, if there are changes, <code>AppCache</code> will download all resources again. To avoid generating extra traffic, it will use its previous cache as if it were a local HTTP cache, and, in doing so, will conform to any HTTP directives you might have set.
+Updating the cache is a bit more involved. Whenever your app is loaded, if your app calls the <code>window.applicationCache.update()</code> API, or if the user wiped out its cache, AppCache will attempt to download the manifest file again and check to see if there have been changes to it. If the server responds with a <code>304 Not Modified</code> header or if the downloaded manifest file is byte-for-byte equivalent to the previous one, nothing happens. On the other hand, if there are changes, AppCache will download all resources again. To avoid generating extra traffic, it will use its previous cache as if it were a local HTTP cache, and, in doing so, will conform to any HTTP directives you might have set.
 
-To make sure changes to your manifest file are correctly picked up by <code>AppCache</code>, you will want to make sure that it doesn't get cached by the browser's HTTP cache. If you're using Apache, this is done by adding the following directives to your <code>.htaccess</code> file:
+To make sure changes to your manifest file are correctly picked up by AppCache, you will want to make sure that it doesn't get cached by the browser's HTTP cache. If you're using Apache, this is done by adding the following directives to your <code>.htaccess</code> file:
 
  ExpiresActive On
  ExpiresByType text/cache-manifest "access"
@@ -114,7 +114,7 @@ You also need to keep in mind that only modifications to the manifest file itsel
 
 === JavaScript API ===
 
-<code>AppCache</code>'s [http://dev.w3.org/html5/spec/offline.html#application-cache-api JS API] is currently limited but can still prove useful for debugging purposes (see Jonathan Stark's [http://jonathanstark.com/blog/2009/09/27/debugging-html-5-offline-application-cache/ script]), force swaps on long-lived apps or to prompt users to refresh their app once it has been updated.
+AppCache's [http://dev.w3.org/html5/spec/offline.html#application-cache-api JS API] is currently limited but can still prove useful for debugging purposes (see Jonathan Stark's [http://jonathanstark.com/blog/2009/09/27/debugging-html-5-offline-application-cache/ script]), force swaps on long-lived apps or to prompt users to refresh their app once it has been updated.
 
 Prompting the user when a new version of the app has been downloaded can be done as follows:
 
@@ -123,10 +123,10 @@ Prompting the user when a new version of the app has been downloaded can be done
    if (appCache.status == appCache.UPDATEREADY) {
      // The new cache has been downloaded. Prompt the user
      // to see if he wants to refresh his page now.
-     
+ 
      var msg = 'A new version of the app has been downloaded.\n'
      msg += 'Click OK to use it now or Cancel to continue using the current version.'
-     
+ 
      if (window.prompt(msg)) {
        window.location.reload();
      }
@@ -167,20 +167,20 @@ HTML5 stores data in key/value pairs. Note that both key and values are coerced 
  
  // Retrieve data
  var one = parseInt(localStorage.getItem("one");
-
+ 
  // or using square brackets:
-
+ 
  localStorage["one"] = 1;
  var one = parsetInt(localStorage["one"]);
-
+ 
  // or even:
-
+ 
  localStorage.one = 1;
  var one = parsetInt(localStorage.one);
-
+ 
  // Delete the key's value, do nothing if key does not exist.
  localStorage.removeItem("one");
-
+ 
  // Clear the entire storage. Note that this wipes out everything, worth noting
  // if more than one person working on the same app is relying on localStorage.
  localStorage.clear();
@@ -189,7 +189,7 @@ A common and useful technique to store structured data is to use JSON:
 
  var obj = { foo: { bar: 123 } };
  localStorage.someObj = JSON.stringify(obj);
-
+ 
  // later on:
  
  var obj = JSON.parse(localStorage.someObj);
