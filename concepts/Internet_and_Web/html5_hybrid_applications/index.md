@@ -1,3 +1,4 @@
+{{Page_Title|HTML5 hybrid applications}}
 {{Flags
 |High-level issues=Stub
 }}
