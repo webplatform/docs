@@ -1,0 +1,1 @@
+#REDIRECT [[tutorials/fills and strokes in svg]]
