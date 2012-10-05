@@ -1,4 +1,4 @@
-{{Page_Title|An intrduction to digital design}}
+{{Page_Title|An introduction to digital design}}
 {{Flags}}
 {{API_Name}}
 {{Summary_Section}}
