@@ -4,19 +4,20 @@
 {{Basic Page}}
 ==Fundamentals==
 * [[tutorials/web_programming_essentials|Web programming essentials]]
-* [[CSS/Training|CSS]]
+* [[css/tutorials|CSS]]
 * [[javascript/tutorials|JavaScript]]
 * [[html/tutorials|HTML]]
-* [[SVG/Tutorials|SVG]]
+* [[svg/tutorials|SVG]]
 
 ==Topical tutorials==
-* [[tutorials/3d_graphics_and_effects|3D, Graphics, and Effects]]
+* [[tutorials/3d graphics and effects|3D, Graphics, and Effects]]
 * [[tutorials/offline and storage|Offline and Storage]]
 * [[tutorials/device access|Device access]]
 * [[tutorials/connectivity|Connectivity]]
 * [[tutorials/multimedia|Multimedia]]
 * [[tutorials/tools|Tools]]
 * [[tutorials/mobile|Mobile]]
+{{Notes_Section}}
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
