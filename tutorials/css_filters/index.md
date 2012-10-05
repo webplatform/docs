@@ -56,7 +56,7 @@ This will make the content inside all <code>&lt;div&gt;</code> elements on the p
 
 Most filters take some form of parameter to control how much filtering is done. So, for example, if you wanted to style your content to be halfway between the original color and a grayscale version you'd do it like this:
 
-<syntaxhighlight language="css"> 
+<syntaxhighlight language="css">
 div { +filter: grayscale(50%); }
 </syntaxhighlight>
 
@@ -65,7 +65,7 @@ div { +filter: grayscale(50%); }
 
 If you want to apply a number of different filters one after another, it's easy &mdash; just place them one after the other in your CSS, like so:
 
-<syntaxhighlight language="css"> 
+<syntaxhighlight language="css">
 div { +filter: grayscale(100%) sepia(100%); }
 </syntaxhighlight>
 
