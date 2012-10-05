@@ -76,10 +76,10 @@ A fallback to Flash should be included, as it allows you to embed video on brows
    &lt;source src="fb.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
    &lt;source src="fb.webm" type='video/webm; codecs="vp8, vorbis"'>
    &lt;object type="application/x-shockwave-flash" data="player.swf" width="640" height="480">
- 	   &lt;param name="allowfullscreen" value="true">
- 	   &lt;param name="allowscriptaccess" value="always">
- 	   &lt;param name="flashvars" value="file=fb.mp4">
- 	   &lt;!--[if IE]>&lt;param name="movie" value="player.swf">&lt;![endif]-->
+     &lt;param name="allowfullscreen" value="true">
+     &lt;param name="allowscriptaccess" value="always">
+     &lt;param name="flashvars" value="file=fb.mp4">
+     &lt;!--[if IE]>&lt;param name="movie" value="player.swf">&lt;![endif]-->
    &lt;/object>
  &lt;/video>
 
@@ -113,6 +113,7 @@ If you'd like to jump right in, HTML5Rocks' Playground has great [http://playgro
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
+|Sources=Facebook HTML5 Resource Center
 |MDN_link=
 |MSDN_link=
 |HTML5Rocks_link=
