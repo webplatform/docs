@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page_Title|Building web games}}
 {{Flags}}
 {{Byline}}
 {{Summary_Section|With the combination of developments in HTML5 and improvements to modern browsers, it's now possible to build high-quality games using web technologies.
