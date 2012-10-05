@@ -7,7 +7,7 @@
 
 HTML5 has expanded the types that are supported by the form input element. For example, here's a simple text input.
 
-<input type="text" value="my value" />
+ &lt;input type="text" value="my value" />
 
 There were other input types, for example the <code>password</code> type. With these types, and especially the text type, developers have created web forms to represent things like emails, web links, and date fields. As a developer, you probably also added client-side field validation to make sure an email entered was valid or that the user entered all the required fields for your form. You may also have created specialized user interfaces for certain input types such as a date picker.
 
@@ -37,7 +37,7 @@ Most supporting browsers will validate the URL field upon form submission. Brows
 
 === Date Picker ===
 
-There is a collection of inputs that allow you to implement a date picker. Previously you would have to script these yourself. The six defined input types for selecting a date are <code>date</code>, <code>month</code>, <code>week</code>, <code>time</code>, <code>datetime</code>, and <code>datetime-local<code>. Supporting browsers will implement these types through specialized displays. For example, the Opera browser displays the <code>date</code> field by showing a calendar representing a date. See an [http://wufoo.com/html5/types/4-date.html example of this field in action].
+There is a collection of inputs that allow you to implement a date picker. Previously you would have to script these yourself. The six defined input types for selecting a date are <code>date</code>, <code>month</code>, <code>week</code>, <code>time</code>, <code>datetime</code>, and <code>datetime-local</code>. Supporting browsers will implement these types through specialized displays. For example, the Opera browser displays the <code>date</code> field by showing a calendar representing a date. See an [http://wufoo.com/html5/types/4-date.html example of this field in action].
 
 === Telephone Number ===
 
@@ -97,7 +97,7 @@ This will show all required input forms with a yellow background. You can also u
 
  input:required:valid { background-color: white }
 
-This will display a white background for all required input forms that have a valid input. The classes that can be used to select form element states include <code>required</code>, <code>optional</code>, <code>valid</code>, <code>invalid</code>, <code>default</code>, <code>in-range</code>, <code>out-of-range</code>, <code>read-only</code>, and <code>read-write<code>. As with other form checks not all pseudo classes are supported in all browsers.
+This will display a white background for all required input forms that have a valid input. The classes that can be used to select form element states include <code>required</code>, <code>optional</code>, <code>valid</code>, <code>invalid</code>, <code>default</code>, <code>in-range</code>, <code>out-of-range</code>, <code>read-only</code>, and <code>read-write</code>. As with other form checks not all pseudo classes are supported in all browsers.
 
 == Form Elements ==
 
