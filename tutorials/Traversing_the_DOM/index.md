@@ -1,0 +1,1 @@
+#REDIRECT [[tutorials/traversing the dom]]
