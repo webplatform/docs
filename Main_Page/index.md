@@ -14,6 +14,7 @@ In the future, Web Platform Docs will include even more content for you to explo
 <li><p>'''[[concepts|Concepts]]''' Explore detailed documents that explain fundamental concepts behind the Web, and web design.</p></li>
 <li>
 <p>'''Reference''' Find all the open web technology data you could possibly need for your day-to-day work.</p>
+<p>Sub sections:</p>
 <ul>
   <li>[[html|HTML]]</li>
   <li>[[css|CSS]]</li>
@@ -22,7 +23,8 @@ In the future, Web Platform Docs will include even more content for you to explo
   <li>[[concepts/accessibility|Accessibility]]</li>
 </ul>
 </li>
-<li><p>'''Tutorials: [[tutorials|learn web design and development]]''' Learn basic and advanced web design and development techniques by reading our comprehensive tutorials and references.</p>
+<li><p>'''[[tutorials|Tutorials]]''' Learn basic and advanced web design and development techniques by reading our comprehensive tutorials and references.</p>
+<p>Subsections:</p>
 * [[beginners|Web development for beginners]]: start here if you have no previous knowledge, and want to learn the art of web design and development.
 * Fundamentals
 ** [[css/tutorials|CSS]]
