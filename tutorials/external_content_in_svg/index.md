@@ -1,5 +1,6 @@
-{{Page_Title}}
+{{Page_Title|External content in SVG}}
 {{Flags}}
+{{Byline}}
 {{Summary_Section|This article covers using external content inside SVG images, such as external image files, and XML data.}}
 {{Tutorial
 |Content=Apart from graphic primitives like rectangles and circles, SVG offers a set of elements to embed other types of content in images as well.
@@ -28,6 +29,7 @@ The <code>foreignObject</code> element is a good way to embed XHTML in SVG. If y
   '''Note:''' Please keep in mind, that the content of the <code>foreignObject</code> must be processable by the viewer. A standalone SVG viewer is unlikely to be able to render HTML or MathML. 
 Since the <code>foreignObject</code> is an SVG element, you can, like in the case of <code>image</code>, use any SVG goodness with it, which then will be applied to its content.
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
 |Desktop_rows=
