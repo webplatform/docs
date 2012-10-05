@@ -1,8 +1,11 @@
+{{Page_Title|Testing and debugging}}
 {{Flags
 |High-level issues=Stub
 }}
+{{Byline}}
 {{Summary_Section}}
 {{Tutorial}}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
 |Desktop_rows=
