@@ -7,7 +7,7 @@
 {{Basic Page}}
 == SVG basics ==
 
-* [[tutorials/svg primer]]
+* [[tutorials/svg primer|SVG primer]]
 
 * [[tutorials/svg introduction|SVG introduction]]
 * [[tutorials/svg syntax and deployment|SVG syntax and deployment]]
