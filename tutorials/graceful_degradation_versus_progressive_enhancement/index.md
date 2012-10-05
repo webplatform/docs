@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags}}
 {{Summary_Section|This article discusses the important concepts of graceful degradation and progressive enhancement, and how they relate to JavaScript.}}
-{{Guide
+{{Tutorial
 |Content=== Introduction ==
  
 In this part of the [http://www.w3.org/wiki/Web_Standards_Curriculum Web Standards Curriculum] we discuss the difference between two development approaches: graceful degradation and progressive enhancement. Putting things simply, here are working definitions:
