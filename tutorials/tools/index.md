@@ -4,8 +4,9 @@
 {{Summary_Section}}
 {{Tutorial
 |Content=* [[tutorials/developertools_chrome1|Developer Tools]]
-* [[tutorials/google-chrome-frame|Google Chrome Frame]]
+* [[tutorials/google chrome frame|Google Chrome Frame]]
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
 |Desktop_rows=
