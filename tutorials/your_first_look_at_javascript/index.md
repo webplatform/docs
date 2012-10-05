@@ -1,5 +1,6 @@
-{{Page_Title}}
+{{Page_Title|Your first look at JavaScript}}
 {{Flags}}
+{{Byline}}
 {{Summary_Section|Now it's time to get your hands dirty. This article provides a basic introduction to basic coding with JavaScript.}}
 {{Tutorial
 |Content=== Introduction ==
@@ -174,6 +175,7 @@ As the environment JavaScript is being applied to is very much unknown (users ca
 * <code>&lt;a href="javascript:doStuff()"&gt;…&lt;/a&gt;</code> — this was a very common way to invoke JavaScript functionality, most of the time when a button was not an option (you cannot style buttons in older browsers). The problem is that this is not a valid link as <code>javascript</code> is not an internet protocol (like <code>ftp://</code> or <code>http://</code>). If JavaScript is turned off the link still appears and gives the user false hope that something is going to happen.
 * <code>document.layers</code> and <code>document.all</code> — both of these solutions were the DOM equivalents in old browsers (Netscape 4.x and Internet Explorer 4 respectively) and unless you need to support those (sorry if you have to) this is unnecessary code.
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
 |Desktop_rows=
@@ -200,6 +202,5 @@ As the environment JavaScript is being applied to is very much unknown (users ca
 |MSDN_link=
 |HTML5Rocks_link=
 }}
-
 [[Category:Tutorials]]
 [[Category:WSC]]
