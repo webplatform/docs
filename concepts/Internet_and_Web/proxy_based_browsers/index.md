@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page_Title|Proxy-based browsers}}
 {{Flags
 |High-level issues=Stub
 }}
