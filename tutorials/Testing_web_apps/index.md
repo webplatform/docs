@@ -13,35 +13,27 @@ We recommend that you choose where to focus your efforts based on the geographic
 
 The top mobile browsers for various geographies are shown in the charts below. This data is current as of May 2012.
 
-<div style="float: left; width: 50%;">
-<b>North America</b>
+<table>
+<tr><td>
+===North America===
 [[File:mobile-stats-na-may.jpeg]]
-</div>
-
-<div style="float: right; width: 50%;">
-<b>Europe</b>
+</td><td>
+===Europe===
 [[File:mobile-stats-europe-may.jpeg]]
-</div>
-
-<div style="float: right; width: 50%;">
-<b>Australia</b>
+</td></tr><tr><td>
+===Australia===
 [[File:mobile-stats-aus-may.jpeg]]
-</div>
-
-<div style="float: left; width: 50%;">
-<b>Asia</b>
+</td><td>
+===Asia===
 [[File:mobile-stats-asia-may.jpeg]]
-</div>
-
-<div style="float: right; width: 50%;">
-<b>Africa</b>
+</td></tr><tr><td>
+===Africa===
 [[File:mobile-stats-af-may.jpeg]]
-</div>
-
-<div style="float: left; width: 50%;">
-<b>South America</b>
+</td><td>
+===South America===
 [[File:mobile-stats-south-america-may.jpeg]]
-</div>
+</td></tr>
+</table>
 
 === Ringmark ===
 Each of these mobile browsers has different capabilities that may affect your app's performance. The open-source project [https://www.facebook.com/ringmark Ringmark] provides a suite of tests that help you understand which browsers support the functionality your app needs; it also helps you learn what features you can expect your users to access now. Check out the [http://www.browserscope.org/?category=ringmark&v=top-m Ringmark section on Browserscope] to see how specific mobile browsers stack up.
