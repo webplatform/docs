@@ -1,7 +1,14 @@
 {{Page_Title}}
 {{Flags}}
+{{Standardization_Status}}
+{{API_Name}}
 {{Summary_Section|Index page for HTML elements.}}
-[[Category:API_Listings]]
+{{API_Listing
+|Use_page_title=No
+|List_all_subpages=Yes
+}}
+{{Notes_Section}}
+{{See_Also_Section}}
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
@@ -9,3 +16,4 @@
 |MSDN_link=
 |HTML5Rocks_link=
 }}
+[[Category:API_Listings]]
