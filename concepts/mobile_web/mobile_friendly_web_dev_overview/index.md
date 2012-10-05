@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page_Title|Mobile-friendly web design and development overview}}
 {{Flags
 |High-level issues=Stub
 }}
