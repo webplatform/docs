@@ -1,9 +1,11 @@
-{{Page_Title}}
+{{Page_Title|SVG filters}}
 {{Flags
 |High-level issues=Stub
 }}
+{{Byline}}
 {{Summary_Section|This article provides a basic introduction to SVG filters}}
 {{Tutorial}}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
 |Desktop_rows=
