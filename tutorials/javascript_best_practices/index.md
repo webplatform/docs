@@ -1,10 +1,9 @@
-{{Page_Title}}
+{{Page_Title|JavaScript best practices}}
 {{Flags}}
 {{Byline}}
 {{Summary_Section|This article discusses some best practices to follow for writing efficient, understandable JavaScript.}}
 {{Tutorial
-|Content=
-== Introduction ==
+|Content=== Introduction ==
  
 Writing a best practice article is quite a tricky business. To a number of you, what you are about to read will appear to be very obvious and just the sensible thing to do.
  
@@ -270,11 +269,10 @@ Another common situation in JavaScript is providing a preset value for a variabl
  
 The shortcut notation for this is the double pipe character:
  
-<pre>var x = v || 10;</pre>
+<pre>var x = v
+|10;</pre>
  
-This will automatically give <code>x</code> a value of <code>10</code> if <code>v</code> is not defined — simple as that.
- 
-== Modularize — one function per task ==
+This will automatically give <code>x</code> a value of <code>10</code> if <code>v</code> is not defined — simple as that_== Modularize — one function per task ==
  
 This is a general programming best practice — making sure that you create functions that fulfill one job at a time makes it easy for other developers to debug and change your code without having to scan through all the code to work out what code block performs what function.
  
