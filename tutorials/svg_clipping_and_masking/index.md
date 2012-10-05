@@ -1,5 +1,6 @@
-{{Page_Title}}
+{{Page_Title|SVG clipping and masking}}
 {{Flags}}
+{{Byline}}
 {{Summary_Section|This article explains how cipping and masking work in SVG.}}
 {{Tutorial
 |Content=Erasing part of what one has created cumbersome might at first sight look contradictory. But when you try to create a semicircle in SVG, you will find out the use of the following properties quickly.
@@ -68,6 +69,7 @@ You see in this example the red circle on blue background. The yellow stroke is 
  
 One of the most powerful tools in a web developer's toolbox is <code>display: none</code>. It is therefore little surprise, that it was decided to take this CSS property into SVG as well, together with <code>visibility</code> and <code>clip</code> as defined by CSS 2. For reverting a previously set <code>display: none</code> it is important to know, that the initial value for all SVG elements is <code>inline</code>.
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
 |Desktop_rows=
