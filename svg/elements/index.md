@@ -9,9 +9,9 @@ This is the list of SVG Elements sorted by topics.
 == Animation elements ==
 
 * [[SVG/Elements/animate|animate]] 
-* [[SVG/Elements/animateColor|animateColor]]
-* [[SVG/Elements/animateMotion|animateMotion]]
-* [[SVG/Elements/animateTransform|animateTransform]]
+* [[SVG/Elements/animateColor|animatecolor]]
+* [[SVG/Elements/animateMotion|animatemotion]]
+* [[SVG/Elements/animateTransform|animatetransform]]
 * [[SVG/Elements/set|set]]
 
 == Basic shapes ==
@@ -45,27 +45,27 @@ This is the list of SVG Elements sorted by topics.
 
 == Filter primitive elements ==
 
-* [[SVG/Elements/feBlend|feBlend]]
-* [[SVG/Elements/feColorMatrix|feColorMatrix]]
-* [[SVG/Elements/feComponentTransfer|feComponentTransfer]]
-* [[SVG/Elements/feComposite|feComposite]]
-* [[SVG/Elements/feConvolveMatrix|feConvolveMatrix]]
-* [[SVG/Elements/feDiffuseLighting|feDiffuseLighting]]
-* [[SVG/Elements/feDisplacementMap|feDisplacementMap]]
-* [[SVG/Elements/feFlood|feFlood]]
-* [[SVG/Elements/feGaussianBlur|feGaussianBlur]]
-* [[SVG/Elements/feImage|feImage]]
-* [[SVG/Elements/feMerge|feMerge]]
-* [[SVG/Elements/feMorphology|feMorphology]]
-* [[SVG/Elements/feOffset|feOffset]]
-* [[SVG/Elements/feSpecularLighting|feSpecularLighting]]
-* [[SVG/Elements/feTile|feTile]]
-* [[SVG/Elements/feTurbulence|feTurbulence]]
+* [[SVG/Elements/feBlend|feblend]]
+* [[SVG/Elements/feColorMatrix|fecolormatrix]]
+* [[SVG/Elements/fecomponenttransfer|fecomponenttransfer]]
+* [[SVG/Elements/fecomposite|fecomposite]]
+* [[SVG/Elements/feconvolvematrix|feconvolvematrix]]
+* [[SVG/Elements/fediffuselighting|fediffuselighting]]
+* [[SVG/Elements/fedisplacementmap|fedisplacementmap]]
+* [[SVG/Elements/feflood|feflood]]
+* [[SVG/Elements/fegaussianblur|fegaussianblur]]
+* [[SVG/Elements/feimage|feimage]]
+* [[SVG/Elements/femerge|femerge]]
+* [[SVG/Elements/femorphology|femorphology]]
+* [[SVG/Elements/feoffset|feoffset]]
+* [[SVG/Elements/fespecularlighting|fespecularlighting]]
+* [[SVG/Elements/fetile|fetile]]
+* [[SVG/Elements/feturbulence|feturbulence]]
 
 == Gradient elements ==
 
-* [[SVG/Elements/linearGradient|linearGradient]]
-* [[SVG/Elements/radialGradient|radialGradient]]
+* [[SVG/Elements/lineargradient|lineargradient]]
+* [[SVG/Elements/radialgradient|radialgradient]]
 
 == Graphics elements ==
 
@@ -82,9 +82,9 @@ This is the list of SVG Elements sorted by topics.
 
 == Light source elements ==
 
-* [[SVG/Elements/feDistantLight|feDistantLight]]
-* [[SVG/Elements/fePointLight|fePointLight]]
-* [[SVG/Elements/feSpotLight|feSpotLight]]
+* [[SVG/Elements/fedistantlight|fedistantlight]]
+* [[SVG/Elements/fepointlight|fepointlight]]
+* [[SVG/Elements/fespotlight|fespotlight]]
 
 == Shape elements ==
 
@@ -106,24 +106,24 @@ This is the list of SVG Elements sorted by topics.
 
 == Text content elements ==
 
-* [[SVG/Elements/altGlyph|altGlyph]]
-* [[SVG/Elements/textPath|textPath]]
+* [[SVG/Elements/altglyph|altglyph]]
+* [[SVG/Elements/textpath|textpath]]
 * [[SVG/Elements/text|text]]
 * [[SVG/Elements/tref|tref]]
 * [[SVG/Elements/tspan|tspan]]
 
 == Text content child elements ==
 
-* [[SVG/Elements/altGlyph|altGlyph]]
-* [[SVG/Elements/textPath|textPath]]
+* [[SVG/Elements/altglyph|altglyph]]
+* [[SVG/Elements/textpath|textpath]]
 * [[SVG/Elements/tref|tref]]
 * [[SVG/Elements/tspan|tspan]]
 
 == Uncategorized elements ==
 
-* [[SVG/Elements/altGlyphDef|altGlyphDef]]
-* [[SVG/Elements/altGlyphItem|altGlyphItem]]
-* [[SVG/Elements/clipPath|clipPath]]
+* [[SVG/Elements/altglyphdef|altglyphdef]]
+* [[SVG/Elements/altglyphitem|altglyphitem]]
+* [[SVG/Elements/clippath|clippath]]
 * [[SVG/Elements/color-profile|color-profile]]
 * [[SVG/Elements/cursor|cursor]]
 * [[SVG/Elements/filter|filter]]
@@ -133,9 +133,9 @@ This is the list of SVG Elements sorted by topics.
 * [[SVG/Elements/font-face-name|font-face-name]]
 * [[SVG/Elements/font-face-src|font-face-src]]
 * [[SVG/Elements/font-face-uri|font-face-uri]]
-* [[SVG/Elements/foreignObject|foreignObject]]
+* [[SVG/Elements/foreignobject|foreignobject]]
 * [[SVG/Elements/glyph|glyph]]
-* [[SVG/Elements/glyphRef|glyphRef]]
+* [[SVG/Elements/glyphref|glyphref]]
 * [[SVG/Elements/hkern|hkern]]
 * [[SVG/Elements/mpath|mpath]]
 * [[SVG/Elements/script|script]]
