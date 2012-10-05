@@ -2,7 +2,11 @@
 {{Flags}}
 {{Byline}}
 {{Summary_Section|This page lists tutorials concerned with using JavaScript to create dynamic effects such as animations, graphic manipulation, and other interesting techniques.}}
-{{Tutorial}}
+{{Tutorial
+|Content===Animation==
+
+* [[tutorials/animation in javascript|Animation in JavaScript]]
+}}
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
