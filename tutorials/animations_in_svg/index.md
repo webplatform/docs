@@ -1,9 +1,11 @@
-{{Page_Title}}
+{{Page_Title|Animations in SVG}}
 {{Flags
 |High-level issues=Stub
 }}
+{{Byline}}
 {{Summary_Section}}
 {{Tutorial}}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
 |Desktop_rows=
