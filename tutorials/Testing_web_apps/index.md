@@ -15,32 +15,32 @@ The top mobile browsers for various geographies are shown in the charts below. T
 
 <div style="float: left; width: 50%;">
 <b>North America</b>
-<img src="https://developers.facebook.com/attachment/mobile-stats-na-may.jpg" width="350" height="229" />
+[[File:mobile-stats-na-may.jpg|350px|229px]]
 </div>
 
 <div style="float: right; width: 50%;">
 <b>Europe</b>
-<img src="https://developers.facebook.com/attachment/mobile-stats-europe-may.jpg" width="350" height="229" />
+[[File:mobile-stats-europe-may.jpg|350px|229px]]
 </div>
 
 <div style="float: right; width: 50%;">
 <b>Australia</b>
-<img src="https://developers.facebook.com/attachment/mobile-stats-aus-may.jpg" width="350" height="229" />
+[[File:mobile-stats-aus-may.jpg|350px|229px]]
 </div>
 
 <div style="float: left; width: 50%;">
 <b>Asia</b>
-<img src="https://developers.facebook.com/attachment/mobile-stats-asia-may.jpg" width="350" height="229" />
+[[File:mobile-stats-asia-may.jpg|350px|229px]]
 </div>
 
 <div style="float: right; width: 50%;">
 <b>Africa</b>
-<img src="https://developers.facebook.com/attachment/mobile-stats-af-may.jpg" width="350" height="229" />
+[[File:mobile-stats-af-may.jpg|350px|229px]]
 </div>
 
 <div style="float: left; width: 50%;">
 <b>South America</b>
-<img src="https://developers.facebook.com/attachment/mobile-stats-south-america-may.jpg" width="350" height="229" />
+[[File:mobile-stats-south-america-may.jpg|350px|229px]]
 </div>
 
 === Ringmark ===
