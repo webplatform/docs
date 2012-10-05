@@ -1,5 +1,6 @@
-{{Page_Title}}
+{{Page_Title|Graceful degradation vs. progressive enhancement}}
 {{Flags}}
+{{Byline}}
 {{Summary_Section|This article discusses the important concepts of graceful degradation and progressive enhancement, and how they relate to JavaScript.}}
 {{Tutorial
 |Content=== Introduction ==
@@ -144,6 +145,7 @@ In all other cases, '''progressive enhancement''' will make both the end users a
 * You allow technology to be what it is supposed to be — an aid to reach a goal faster than without it, not a “must” to be able to reach a goal in the first place.
 * If you need to add new features, you can do so after checking if they are supported at a certain stage, or you can add it to the most basic level of functionality and make it better in more sophisticated environments. In any case, the maintenance happens at the same spot and not in two different places. Keeping a progressively enhanced product up-to-date is much less work than maintaining two versions.
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
 |Desktop_rows=
@@ -161,4 +163,7 @@ In all other cases, '''progressive enhancement''' will make both the end users a
 {{Topics|JavaScript}}
 {{External_Attribution
 |Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
 }}
