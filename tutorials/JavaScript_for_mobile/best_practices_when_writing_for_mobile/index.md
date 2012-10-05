@@ -1,6 +1,6 @@
-{{Page_Title}}
+{{Page_Title|Best practices when writing for mobile}}
 {{Flags
-|High-level issues=Stub, Merge Candidate
+|High-level issues=Merge Candidate, Stub
 |Editorial notes={{Editorial/Merge_Candidate
 |Other=http://docs.webplatform.org/wiki/concepts/mobile_web/About_mobile_JavaScript_best_practices
 }}
@@ -8,6 +8,7 @@
 {{Byline}}
 {{Summary_Section}}
 {{Tutorial}}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
 |Desktop_rows=
