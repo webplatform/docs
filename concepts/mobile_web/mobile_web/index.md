@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page_Title|Mobile web}}
 {{Flags
 |Content=Outdated
 |Editorial notes=Lots of now-mostly-irrelevant mobile web format info in here.
