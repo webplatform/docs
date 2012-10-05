@@ -1,5 +1,6 @@
-{{Page_Title}}
+{{Page_Title|SVG links}}
 {{Flags}}
+{{Byline}}
 {{Summary_Section|This tutorial covers the creation of links inside SVG objects.}}
 {{Tutorial
 |Content=== Introduction ==
@@ -159,6 +160,7 @@ In HTML 4.01 and XHTML 1.0/1.1, the <code>a</code> element is inline and thus ca
  
 Try it out by viewing my example.
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
 |Desktop_rows=
