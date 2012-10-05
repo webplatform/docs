@@ -4,7 +4,7 @@
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Summary_Section}}
-{{Basic Page}}
+[[Category:API_Listings]]
 
 {{Notes_Section}}
 {{Topics}}
