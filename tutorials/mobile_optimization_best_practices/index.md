@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page_Title|Mobile optimization best practices}}
 {{Flags}}
 {{Byline}}
 {{Summary_Section|One of the benefits of developing using the web is that your web app will run on nearly every smartphone and tablet.
