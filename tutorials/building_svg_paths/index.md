@@ -1,5 +1,6 @@
-{{Page_Title}}
+{{Page_Title|Building SVG paths}}
 {{Flags}}
+{{Byline}}
 {{Summary_Section|This article looks deeply into the SVG &lt;path&gt; element, which is used to create custom shapes.}}
 {{Tutorial
 |Content=As stated in the previous section, the [[<path>]] element is the most powerful element in the SVG library of basic shapes. It can be used to create (at least to a fairly good approximation), all the other basic shapes and more.
@@ -199,6 +200,7 @@ The final two arguments, if you haven't guessed yet, designate the x and y coord
  
 If you're transitioning to SVG from [[Canvas]], arcs can be the hardest thing to move, but are also much more powerful. Complete circles and ellipses are actually the one object paths have trouble drawing. Because the start and end points for any path going around a circle are the same, there are an infinite number of circles that could be chosen, and the actual path is undefined. It's possible to approximate them by making the start and end points of your path slightly askew, and then connecting them with another path segment. At that point, it's often easier to use a real circle or ellipses node instead.
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
 |Desktop_rows=
