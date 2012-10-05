@@ -1,1 +1,0 @@
-#REDIRECT [[tutorials/svg clipping and masking]]
