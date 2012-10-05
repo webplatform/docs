@@ -49,7 +49,7 @@ While HTML5 game development is relatively nascent, there are a handful of game 
 === [http://craftyjs.com/ CraftyJS] ===
 CraftyJS is primarily focused on desktop development, including support for legacy browsers like IE6. Working interchangeably with the canvas element and DOM manipulation, it also contains a bunch of extra functionality like collision detection, sprite maps, and animation.
 
-You can learn more about it on the [http://craftyjs.com/ CraftyJS website], or try out some [http://craftyjs.com/demos.php sample games]. It's open source and available on [https://github.com/louisstow/Crafty Github].
+You can learn more about it on the [http://craftyjs.com/ CraftyJS website], or try out some [http://craftyjs.com/demos.php sample games]. It's open source and available on [https://github.com/louisstow/Crafty GitHub].
 
 === [http://www.impactjs.com/ Impact] ===
 Impact is a game engine that utilizes only the canvas element and runs on both mobile and desktop. It includes functionality to help with collision detection and animation. It also has a level editor and integrates with Box 2D.
@@ -66,7 +66,7 @@ Generally, we recommend using the &lt;canvas&gt; element to create games. The pe
 
 To get a sense of the performance differences, read through [http://blog.frontendforce.com/2010/03/games-development-in-javascript-canvas-vs-dom-benchmark/ this article at Frontend Force] and run some of the tests available.
 
-If you're interested in using DOM manipulation, Crafty JS and [http://www.limejs.com/ Lime JS] are game engines that support this. Lime JS works on desktop and mobile, is open source and [https://github.com/digitalfruit/limejs is available on Github]. Check out the [http://www.limejs.com/static/roundball/index.html Roundball sample game] for an example running Lime JS.
+If you're interested in using DOM manipulation, Crafty JS and [http://www.limejs.com/ Lime JS] are game engines that support this. Lime JS works on desktop and mobile, is open source and [https://github.com/digitalfruit/limejs is available on GitHub]. Check out the [http://www.limejs.com/static/roundball/index.html Roundball sample game] for an example running Lime JS.
 
 === Making the Game Load Fast ===
 In order to ensure that your game loads quickly, you should package up as many static resources as possible. The fewer network requests your game makes, the faster it will load, especially on mobile. This includes images, Javascript, CSS and anything else that takes another network request to download. 
@@ -75,7 +75,7 @@ If you're interested in learning why this is important, read [http://css-tricks.
 
 There are a couple of tools available that will compile multiple images into a spritesheet for you. First is the [http://spritegen.website-performance.org/ CSS Sprite Generator], a free and open source web-based tool. Also, there's [http://www.texturepacker.com/ Texture Packer], a downloadable tool.
 
-== 3D Game Engine ==
+== 3D Game Engines ==
 
 Also built on top of canvas, WebGL is actively being implemented into modern desktop browsers, allowing 3D development. No mobile browsers currently support WebGL. [http://learningwebgl.com/blog/ Learning WebGL] is a great resource to follow the news, discover demos, and know when browsers have started supporting WebGL.
 
@@ -84,7 +84,7 @@ There are a number of 3D WebGL-based engines under active development. We've hig
 === [https://github.com/mrdoob/three.js#readme Three.js] ===
 Three.js is an open source 3D graphics engine that has been used in projects like [http://www.ro.me/ ROME].
 
-You can learn more, try out demos, and download the source at the [https://github.com/mrdoob/three.js Github repo].
+You can learn more, try out demos, and download the source at the [https://github.com/mrdoob/three.js GitHub repo].
 
 Also freely available and open source are [https://github.com/supereggbert/GLGE GLGE] and [https://github.com/cathyatseneca/c3dl C3DL].
 
