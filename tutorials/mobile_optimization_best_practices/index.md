@@ -8,12 +8,12 @@ While you're developing your web app, you will need to consider device and netwo
 {{Tutorial
 |Content=== Network Speed Optimizations ==
 
-At times, a phone or tablet's connection to the internet can be slow or spotty, so it's important to prepare for those types of conditions.  We highly recommend that you familiarize yourself with the [/html5/build/richui key concepts of a web app], especially the concept of heavily relying on AJAX to load only data and not HTML mark up, beyond the first page load.
+At times, a phone or tablet's connection to the internet can be slow or spotty, so it's important to prepare for those types of conditions.  We highly recommend that you familiarize yourself with the html5/build/richui key concepts of a web app, especially the concept of heavily relying on AJAX to load only data and not HTML mark up, beyond the first page load.
 
 If you follow that practice, coupled with the practices below, it is easier to build around a slow or spotty network connection.
 
 === Cache data locally  ===
-The HTML5 spec introduces offline capabilities, with the fringe benefit of being able to heavily locally cache your apps' static resources (image, scripts, css, etc). For more information on how you can make ues of this new spec, check out the [/html5/features/offline offline capabilities section] of the Resource Center.
+The HTML5 spec introduces offline capabilities, with the fringe benefit of being able to heavily locally cache your apps' static resources (image, scripts, css, etc). 
 
 === Compress and Minimize Data ===
 Ensure that you're compressing all data that's sent over the wire by using gzip. You can also minify HTML, CSS, and JavaScript files.
@@ -35,7 +35,7 @@ You can add images inline as base64 encoded strings and use CSS to display these
 The speed of an app, and how your user perceives it, factors into user satisfaction with your app. There are some optimizations you can make to make your app fast.
 
 === Local caching of dynamic data ===
-You can cache data locally which will serve to speed up the app.  To learn more about caching, see [/html5/build/features/offline/ Making it Work Offline].
+You can cache data locally which will serve to speed up the app. 
 
 === Caching static files ===
 You can use AppCache to cache static files and this will optimize the initial load time of your app.
@@ -47,7 +47,7 @@ You want to place all your JavaScript at the bottom of the page. This will optim
 While it won't make your app faster, it will give the user feedback as to what's happening.
 
 === Avoid page reloads  ===
-Instead, make use of AJAX to load only the views that are changing.  To learn more about using AJAX, see section about [/html5/build/richui/ building web apps]. Where possible, you should pre-load pages to increase the perceived speed of your app.
+Instead, make use of AJAX to load only the views that are changing. Where possible, you should pre-load pages to increase the perceived speed of your app.
 
 == Device Features ==
 
@@ -90,10 +90,10 @@ You can also upsell the user to this functionality by using the open source [htt
 
 == Additional Resources ==
 
-+ [http://www.w3.org/TR/mwabp/ Mobile Web App Best Practices]
-+ [http://code.google.com/speed/page-speed/docs/mobile.html Page Speed - Optimize for mobile]
-+ [http://www.html5rocks.com/en/mobile/mobifying.html "Mobifying" Your HTML5 Site]
-+ [http://www.quirksmode.org/mobile/tableViewport.html Browser compatibility - viewports]
+* [http://www.w3.org/TR/mwabp/ Mobile Web App Best Practices]
+* [http://code.google.com/speed/page-speed/docs/mobile.html Page Speed - Optimize for mobile]
+* [http://www.html5rocks.com/en/mobile/mobifying.html "Mobifying" Your HTML5 Site]
+* [http://www.quirksmode.org/mobile/tableViewport.html Browser compatibility - viewports]
 }}
 {{Notes_Section}}
 {{Compatibility_Section
