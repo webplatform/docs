@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page_Title|Location}}
 {{Flags}}
 {{Byline}}
 {{Summary_Section|Geolocation lets you identify a user's location by returning their latitude and longitude. Applications can use this to offer localized experiences such as driving directions, nearby points of interest, local deals, etc. In the past few years, smartphones with dedicated GPS chips have exploded in popularity.}}
