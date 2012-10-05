@@ -32,35 +32,17 @@ The arc  is drawn in a clockwise direction from start to end.
 
 This method can return one of these values.
 
-{| class="wikitable"
-|-
+{{{!}} class="wikitable"
+{{!}}-
 !Return code
 !Description
-|-
-|S_OK
-|The operation completed successfully.
-|-
-|IndexSizeError
-|The  specified radius value  is negative.
-|}
- 
-
-Type: '''HRESULT'''
-
-This method can return one of these values.
-
-{| class="wikitable"
-|-
-!Return code
-!Description
-|-
-|S_OK
-|The operation completed successfully.
-|-
-|IndexSizeError
-|The  specified radius value  is negative.
-|}
- 
+{{!}}-
+{{!}}S_OK
+{{!}}The operation completed successfully.
+{{!}}-
+{{!}}IndexSizeError
+{{!}}The  specified radius value  is negative.
+{{!}}}
 
 
 }}
