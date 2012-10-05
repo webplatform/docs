@@ -1,5 +1,6 @@
-{{Page_Title}}
+{{Page_Title|Fills and strokes in SVG}}
 {{Flags}}
+{{Byline}}
 {{Summary_Section|This article shows how to add fills and strokes to the SVG shapes you have drawn.}}
 {{Tutorial
 |Content=So now with your knowledge of how to draw all sorts of shapes, your next goal is probably coloring them in. There are several ways to do this, including specifying attributes on the object, using inline CSS, using an embedded CSS section, or using an external CSS file. Most SVG you'll find around the web uses inline CSS, but there are advantages and disadvantages for all the types.
@@ -121,6 +122,7 @@ where style.css looks something like:
   stroke: black;
 }</pre>
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
 |Desktop_rows=
