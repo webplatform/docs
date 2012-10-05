@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags}}
 {{Summary_Section|Now it's time to get your hands dirty. This article provides a basic introduction to basic coding with JavaScript.}}
-{{Guide
+{{Tutorial
 |Content=== Introduction ==
  
 In this article of the [http://www.w3.org/wiki/Web_Standards_Curriculum Web Standards Curriculum] we’ll cover the basics of JavaScript — how and where to use it, what problems to avoid and general basics to get you started on your journey towards becoming a top-notch JavaScript developer.
@@ -200,8 +200,6 @@ As the environment JavaScript is being applied to is very much unknown (users ca
 |MSDN_link=
 |HTML5Rocks_link=
 }}
- 
-Note: This material was originally published as part of the Opera Web Standards Curriculum, available as [http://dev.opera.com/articles/view/first-look-at-javascript/ 41: Your first look at JavaScript], written by Christian Heilmann. Like the original, it is published under the [http://creativecommons.org/licenses/by-nc-sa/2.5/ Creative Commons Attribution, Non Commercial - Share Alike 2.5] license.
 
 [[Category:Tutorials]]
 [[Category:WSC]]
