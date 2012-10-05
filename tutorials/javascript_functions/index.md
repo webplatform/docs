@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page_Title|JavaScript functions}}
 {{Flags}}
 {{Byline}}
 {{Summary_Section|This article discusses JavaScript functions, or how we create reusable pockets of code that we can call over and over again as we need.}}
@@ -150,7 +150,7 @@ Additionally, please note that the <code>return</code> keyword actually ends exe
 
 == Summary ==
  
-With that, you now know pretty much everything you need to in order to begin sprinkling your code full of functions. They’re a foundational part of good JavaScript code and your programs will be better organized, clearer and more readable, and easier to comprehend if you take the opportunity to wrap code up in well-named functions for reuse. 
+With that, you now know pretty much everything you need to in order to begin sprinkling your code full of functions. They’re a foundational part of good JavaScript code and your programs will be better organized, clearer and more readable, and easier to comprehend if you take the opportunity to wrap code up in well-named functions for reuse.
 }}
 {{Notes_Section
 |Import_Notes==== Exercise questions ===
@@ -159,7 +159,6 @@ With that, you now know pretty much everything you need to in order to begin spr
 * How do you define a function?
 * How do you pass information into a function?  Why would you want to?  Conversely, how can you get information out of a function?
 * Wouldn’t it be nice if you could pass a colour array into `setElementBackground`?  Try modifying the code to accept another argument, and use that variable inside the function to override the random background colour.
-
 }}
 {{Compatibility_Section
 |Not_required=Yes
