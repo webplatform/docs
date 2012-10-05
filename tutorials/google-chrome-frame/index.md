@@ -1,0 +1,1 @@
+#REDIRECT [[tutorials/google chrome frame]]
