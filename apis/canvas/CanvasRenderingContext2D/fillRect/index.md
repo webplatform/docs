@@ -1,14 +1,33 @@
+{{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{API_Object_Method
-|Parameters={{Method Parameter|Name=x|Data type=float|Description=The x-coordinate, in pixels, of the upper-left corner of the rectangle in relation to the coordinates of the canvas.|Optional=}}
-{{Method Parameter|Name=y|Data type=float|Description=The y-coordinate, in pixels, of the upper-left corner of the rectangle in relation to the coordinates of the canvas.|Optional=}}
-{{Method Parameter|Name=w|Data type=float|Description=The width, in pixels, of the rectangle in relation to the coordinates of the canvas.|Optional=}}
-{{Method Parameter|Name=h|Data type=float|Description=The height, in pixels, of the rectangle in relation to the coordinates of the canvas.|Optional=}}
+|Parameters={{Method Parameter
+|Name=x
+|Data type=String
+|Description=The x-coordinate, in pixels, of the upper-left corner of the rectangle in relation to the coordinates of the canvas.
+|Optional=No
+}}{{Method Parameter
+|Name=y
+|Data type=String
+|Description=The y-coordinate, in pixels, of the upper-left corner of the rectangle in relation to the coordinates of the canvas.
+|Optional=No
+}}{{Method Parameter
+|Name=w
+|Data type=String
+|Description=The width, in pixels, of the rectangle in relation to the coordinates of the canvas.
+|Optional=No
+}}{{Method Parameter
+|Name=h
+|Data type=String
+|Description=The height, in pixels, of the rectangle in relation to the coordinates of the canvas.
+|Optional=No
+}}
 |Method_applies_to=canvas/objects/CanvasRenderingContext2D
 |Example_object_name=object
 |Return_value_name=object
@@ -17,21 +36,13 @@
 
 If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRESULT''' error code.
 
-Type: '''HRESULT'''
-
-If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRESULT''' error code.
-
 
 }}
-{{Topics|DOM}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Description=The following  code example  fills  rectangles  by using a linear gradient and a solid color.
-|LiveURL=
-|Code=
-
-&lt;!DOCTYPE html&gt; &lt;html&gt;
+|Code=&lt;!DOCTYPE html&gt; &lt;html&gt;
 &lt;head&gt;
   &lt;script type{{=}}"text/javascript"&gt;
 function draw()
@@ -61,27 +72,34 @@ function draw()
   &lt;canvas id{{=}}"MyCanvas" width{{=}}"600" height{{=}}"500"&gt; &lt;/canvas&gt; 
 &lt;/body&gt;
 &lt;/html&gt;
-}}}}
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 If the  ''w'' or ''h'' parameter is  zero, the  '''fillRect''' method does not draw the rectangle.
-|Import_Notes=
-===Syntax===
+|Import_Notes====Syntax===
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}197019 HTML Canvas 2D Context], Section 8
-
-
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 *<code>[[canvas/objects/CanvasRenderingContext2D|CanvasRenderingContext2D]]</code>
 }}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
+}
