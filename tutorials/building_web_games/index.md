@@ -101,7 +101,7 @@ Learn more about it on the [http://benvanik.github.com/WebGL-Inspector/ WebGL In
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics}}
+{{Topics|Canvas, JavaScript, Mobile, Performance}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=Facebook HTML5 Resource Center
