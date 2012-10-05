@@ -1,5 +1,6 @@
-{{Page_Title}}
+{{Page_Title|Using text in SVG}}
 {{Flags}}
+{{Byline}}
 {{Summary_Section|This article details how to insert text into an SVG image.}}
 {{Tutorial
 |Content=When talking about text in SVG we have to differentiate two almost completely separate topics. The one is the inclusion and display of text in an image, and the other are SVG fonts. The later may be described in a later section of the tutorial, while we will focus completely on the first part: Bringing text into an SVG image.
@@ -63,6 +64,7 @@ This element fetches via its <code>xlink:href</code> attribute an arbitrary path
   &lt;textPath xlink:href="#my_path"&gt;This text follows a curve.&lt;/textPath&gt;
 &lt;/text&gt;</pre>
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
 |Desktop_rows=
@@ -75,4 +77,6 @@ This element fetches via its <code>xlink:href</code> attribute an arbitrary path
 |Is_CC-BY-SA=Yes
 |Sources=MDN
 |MDN_link=https://developer.mozilla.org/en-US/docs/SVG/Tutorial/Texts
+|MSDN_link=
+|HTML5Rocks_link=
 }}
