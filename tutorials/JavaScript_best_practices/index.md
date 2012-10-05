@@ -1,0 +1,1 @@
+#REDIRECT [[tutorials/javascript best practices]]
