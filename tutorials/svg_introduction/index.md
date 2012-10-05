@@ -1,5 +1,6 @@
-{{Page_Title}}
+{{Page_Title|SVG introduction}}
 {{Flags}}
+{{Byline}}
 {{Summary_Section|This page provides some background on SVG: what it is, and how it is useful.}}
 {{Guide
 |Content=[[Image:=SVG_Overview.png|=SVG_Overview.png]][[SVG]] is an [[XML]] language, similar to [[XHTML]], which can be used to draw graphics, such as the ones shown to the right. It can be used to create an image either by specifying all the lines and shapes necessary, by modifying already existing raster images, or by a combination of both. The image and its components can also be transformed, composited together, or filtered to change its appearance completely.
@@ -33,6 +34,7 @@ Apart from the full SVG recommendations, the working group at the W3C introduced
  
 There were plans for an SVG Print specification, which would add support for multiple pages and enhanced color management. This work was discontinued.
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
 |Desktop_rows=
@@ -45,4 +47,6 @@ There were plans for an SVG Print specification, which would add support for mul
 |Is_CC-BY-SA=No
 |Sources=MDN
 |MDN_link=https://developer.mozilla.org/en-US/docs/SVG/Tutorial/Introduction
+|MSDN_link=
+|HTML5Rocks_link=
 }}
