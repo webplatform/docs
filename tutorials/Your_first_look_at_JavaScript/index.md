@@ -1,1 +1,0 @@
-#REDIRECT [[tutorials/your first look at javascript]]
