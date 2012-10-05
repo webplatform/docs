@@ -1,0 +1,1 @@
+#REDIRECT [[tutorials/graceful degradation versus progressive enhancement]]
