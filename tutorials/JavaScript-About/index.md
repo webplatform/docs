@@ -1,1 +1,0 @@
-#REDIRECT [[tutorials/javascript about]]
