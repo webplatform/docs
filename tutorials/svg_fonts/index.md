@@ -1,5 +1,6 @@
-{{Page_Title}}
+{{Page_Title|SVG fonts}}
 {{Flags}}
+{{Byline}}
 {{Summary_Section|This article covers the creation and usage of SVG fonts.}}
 {{Tutorial
 |Content=When SVG was specified support for web fonts was far from being expected. Since the correct font is however crucial for the rendering of a graphic, it was decided to add a font description technology to SVG. It was not meant to concur with other formats like PostScript or OTF, but as a simple means of embedding glyph information for rendering engines.
@@ -83,6 +84,7 @@ The above mentioned font-face-uri allows to reference an external font, hence al
   &lt;/font-face&gt;
 &lt;/font&gt; </pre>
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
 |Desktop_rows=
