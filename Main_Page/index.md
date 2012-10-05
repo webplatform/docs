@@ -15,7 +15,7 @@ In the future, Web Platform Docs will include even more content for you to explo
 <li>
 <p>'''Reference''' Find all the open web technology data you could possibly need for your day-to-day work.</p>
 <ul>
-  <li>[[HTML|HTML]]</li>
+  <li>[[html|HTML]]</li>
   <li>[[CSS|CSS]]</li>
   <li>[[javascript|JavaScript]]</li>
   <li>[[SVG|SVG]]</li>
