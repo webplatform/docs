@@ -1,0 +1,1 @@
+#REDIRECT [[concepts/programming/the principles of unobtrusive javascript]]
