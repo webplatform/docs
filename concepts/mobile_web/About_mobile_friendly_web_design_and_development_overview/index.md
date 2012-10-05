@@ -1,0 +1,1 @@
+#REDIRECT [[concepts/mobile web/mobile friendly web dev overview]]
