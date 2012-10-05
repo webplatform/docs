@@ -1,3 +1,23 @@
+{{Page_Title|JavaScript functions}}
+{{Flags}}
+{{Byline}}
+{{Summary_Section}}
+{{Tutorial}}
+{{Notes_Section}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section}}
+{{Topics}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
+}}
 == Introduction ==
  
 In this part of the [http://www.w3.org/wiki/Web_Standards_Curriculum Web Standards Curriculum], we'll discuss functions. Functions lie at the core of practically everything ''useful'' that you’ll do with JavaScript. Broadly speaking, they offer the ability to break a program into logical chunks, each implementing a specific piece of functionality. They’re a central feature of the language, and a good chunk of JavaScript’s attractiveness is due to the particular ways in which it enables you to use and create functions. If you’ve done some programming before in languages like PHP or Java, you’ll feel right at home with functions in JavaScript; if not, don’t worry. Functions are ''critical'', but they’re not hard to wrap your head around. This article explains why you’ll want to understand functions, then dives into their syntax and shows you how to create and use them.
