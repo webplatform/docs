@@ -41,12 +41,12 @@ Most of the CSS filters can be expressed in terms of SVG filters, and CSS also a
 
 ==How to apply a CSS filter==
 
-'''Note:''' The description and examples below use the official W3C syntax that will be available in all modern browsers eventually. To use filters now, you need to use the vendor prefixed version of the 'filter' property. But don't worry, there's an easy way to handle that discussed later. And again, see the compatibility tables at the end of the article for the latest information. 
+'''Important:''' The descriptions and examples below all use the official W3C syntax that will be available in all modern browsers eventually. To use filters now, you need to use the vendor prefixed version of the <code>filter</code> property. Again, see the compatibility tables at the end of the article for the latest information. 
 
 Using filters from CSS is done by applying the <code>filter</code> property to any visible element on your web page. For a very simple example, you could write something like:
 
 <syntaxhighlight language="css">
-div { +filter: grayscale(100%); }
+div { filter: grayscale(100%); }
 </syntaxhighlight>
 
 This will make the content inside all <code>&lt;div&gt;</code> elements on the page turn gray. Great for making your page look like a TV image from the 1940s!
@@ -57,7 +57,7 @@ This will make the content inside all <code>&lt;div&gt;</code> elements on the p
 Most filters take some form of parameter to control how much filtering is done. So, for example, if you wanted to style your content to be halfway between the original color and a grayscale version you'd do it like this:
 
 <syntaxhighlight language="css">
-div { +filter: grayscale(50%); }
+div { filter: grayscale(50%); }
 </syntaxhighlight>
 
 [[Image:f03-gray50.jpg]]<br/>
@@ -66,7 +66,7 @@ div { +filter: grayscale(50%); }
 If you want to apply a number of different filters one after another, it's easy &mdash; just place them one after the other in your CSS, like so:
 
 <syntaxhighlight language="css">
-div { +filter: grayscale(100%) sepia(100%); }
+div { filter: grayscale(100%) sepia(100%); }
 </syntaxhighlight>
 
 This example will first make all the original color grayscale and then apply a sepia effect, and will end up looking like this:
@@ -147,7 +147,7 @@ Let's take a look at each of them and see what they do.
 :This is another filter operation that is similar to existing CSS functionality available via the <code>box-shadow</code> property. Using the filter approach means that it may be hardware accelerated by some browsers as we described for the <code>opacity</code> operation above.
 
 ; url referencing SVG filters
-: Because filters originated as part of SVG, it's only logical that you should be able to style your content using an SVG filter. This is easy with the current <code>filter</code> property proposal. All filters in SVG are defined with an <code>id</code> attribute that can be used to reference the filter effect. So to use any SVG filter from CSS, all you need to do is reference it using the <code>url</code> syntax. For example, the SVG markup for a filter could be something like: <code>&lt;filter id=”foo”&gt;...&lt;/filter&gt;</code>. Then from CSS, you could do something as simple as: <code>div { +filter: url(#foo); }</code>, and voila! All the <code>&lt;div&gt;</code>s in your document will be styled with the SVG filter definitions.
+: Because filters originated as part of SVG, it's only logical that you should be able to style your content using an SVG filter. This is easy with the current <code>filter</code> property proposal. All filters in SVG are defined with an <code>id</code> attribute that can be used to reference the filter effect. So to use any SVG filter from CSS, all you need to do is reference it using the <code>url</code> syntax. For example, the SVG markup for a filter could be something like: <code>&lt;filter id=”foo”&gt;...&lt;/filter&gt;</code>. Then from CSS, you could do something as simple as: <code>div { filter: url(#foo); }</code>, and voila! All the <code>&lt;div&gt;</code>s in your document will be styled with the SVG filter definitions.
 
 ; custom (coming soon)
 : Coming soon on the horizon are custom filters. These tap into the power of your graphics GPU to use a special [http://www.adobe.com/devnet/html5/articles/css-shaders.html shading technique] to perform amazing effects bounded only by your own imagination. This part of the <code>filter</code> specification is still in flux, but is sure to come to a browser near you soon.
