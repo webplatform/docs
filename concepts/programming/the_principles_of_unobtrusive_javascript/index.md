@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page_Title|The principles of unobtrusive JavaScript}}
 {{Flags}}
 {{Byline}}
 {{Summary_Section|In this article, we discuss an important concept of JavaScript — unobtrusiveness, or how to write JavaScript so that it enhances a website experience, but is not vital for it to run.}}
@@ -230,7 +230,6 @@ Further, unobtrusive JavaScript
 Unobtrusive JavaScript is not that hard. It’s mostly a trick of the mind; once you’ve spent a few hours in planning one unobtrusive JavaScript, you’ll find that making the right decisions becomes easier and easier.
  
 Once you’ve grown used to unobtrusive JavaScript, you won’t want to go back to the old obtrusive model.
-
 }}
 {{Notes_Section}}
 {{Compatibility_Section
