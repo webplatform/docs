@@ -11,9 +11,9 @@ In the future, Web Platform Docs will include even more content for you to explo
 == Explore our web development docs ==
 
 <ul>
-<li><p>'''[[concepts|Concepts]]''' Explore detailed documents that explain fundamental concepts behind the Web, and web design.</p></li>
+<li><p>'''[[concepts|Concepts]]''': Explore detailed documents that explain fundamental concepts behind the Web, and web design.</p></li>
 <li>
-<p>'''Reference''' Find all the open web technology data you could possibly need for your day-to-day work.</p>
+<p>'''Reference''': Find all the open web technology data you could possibly need for your day-to-day work.</p>
 <p>Subsections:</p>
 <ul>
   <li>[[html|HTML]]</li>
@@ -23,22 +23,9 @@ In the future, Web Platform Docs will include even more content for you to explo
   <li>[[concepts/accessibility|Accessibility]]</li>
 </ul>
 </li>
-<li><p>'''[[tutorials|Tutorials]]''' Learn basic and advanced web design and development techniques by reading our comprehensive tutorials and references.</p>
-<p>Subsections:</p>
-* [[beginners|Web development for beginners]]: start here if you have no previous knowledge, and want to learn the art of web design and development.
-* Fundamentals
-** [[css/tutorials|CSS]]
-** [[javascript/tutorials|JavaScript]]
-** [[html/tutorials|HTML]]
-** [[svg/tutorials|SVG]]
-* Topical tutorials
-** [[tutorials/3d_graphics_and_effects|3D, Graphics, and Effects]]
-** [[tutorials/offline and storage|Offline and Storage]]
-** [[tutorials/device access|Device access]]
-** [[tutorials/connectivity|Connectivity]]
-** [[tutorials/multimedia|Multimedia]]
-** [[tutorials/tools|Tools]]
-** [[tutorials/mobile|Mobile]]
+<li><p>'''[[tutorials|Tutorials]]''' Learn basic and advanced web design and development techniques by reading our comprehensive tutorials and references on technologies such as HTML, CSS, JavaScript and SVG, and applied topics such as offline apps, device access, and multimedia.</p>
+
+<p>If you have no previous knowledge, and want to learn the art of web design and development, start with our [[beginners|web development for beginners]] course.</p> 
 </li>
 </ul>
 
