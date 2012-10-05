@@ -60,7 +60,7 @@ Most filters take some form of parameter to control how much filtering is done. 
 div { filter: grayscale(50%); }
 </syntaxhighlight>
 
-[[Image:f03-gray50.jpg]]<br/>
+[[Image:f03-gray50.jpg|300px]]<br/>
 ''Original image 50% gray filtered''
 
 If you want to apply a number of different filters one after another, it's easy &mdash; just place them one after the other in your CSS, like so:
@@ -71,7 +71,7 @@ div { filter: grayscale(100%) sepia(100%); }
 
 This example will first make all the original color grayscale and then apply a sepia effect, and will end up looking like this:
 
-[[Image:f04-graysepia.jpg]]<br/>
+[[Image:f04-graysepia.jpg|300px]]<br/>
 ''Grayscale plus sepia''
 
 With the flexibility available for applying filters one after the other, all sorts of effects can be achieved &mdash; it's totally up to your imagination to experiment with creating amazing results.
@@ -91,13 +91,13 @@ Let's take a look at each of them and see what they do.
 ; sepia(amount)
 : This gives the colors passed in a sepia tinge like in old photographs. The <code>amount</code> applied works in the same way as for the <code>grayscale</code> filter &mdash; namely 100% makes all the colors completely sepia toned and smaller values allow the effect to be applied in smaller proportions.
 
-[[Image:f07-lenna.jpg]]&nbsp;[[Image:f08-lennasepia.jpg]]<br/>
+[[Image:f07-lenna.jpg|300px]]&nbsp;[[Image:f08-lennasepia.jpg|300px]]<br/>
 ''Original (left); sepia 100% (right)''
 
 ; saturate(amount)
 : This applies a saturation effect to the colors, which makes them look more vivid. It's a cool effect that can make photos look like posters or cartoons. This effect also allows you to use a value greater than 100% to really emphasize the saturation. Definitely an effect that can make things look pretty funky!
 
-[[Image:f09-tiffany.jpg]]&nbsp;[[Image:f10-tiffanysaturate.jpg]]<br/>
+[[Image:f09-tiffany.jpg|300px]]&nbsp;[[Image:f10-tiffanysaturate.jpg|300px]]<br/>
 ''Original (left); saturate 10% (right)''
 
 '''Note:''' In Chrome version 19 the <code>saturate()</code> filter takes an integer (without the percentage sign) instead of the decimal or percentage as defined in the W3C spec. Not to worry, this known bug will be fixed, if it hasn't been already.
@@ -105,43 +105,43 @@ Let's take a look at each of them and see what they do.
 ; hue-rotate(angle)
 : This one is a bit of a color-geek effect that can be used for interesting results. What it does is shift the colors around to make an image look completely different. If you can imagine a color spectrum going from red to violet around a [http://colorschemedesigner.com/ color wheel], then this effect takes the original color on the wheel as input and rotates it by the <code>angle</code> parameter to produce the output color value. This effect is applied throughout the image such that all the colors are shifted by the same amount on the wheel. This is of course a simplification of what it does, but hopefully close enough that it makes sense.
 
-[[Image:f11-mandrill.jpg]]&nbsp;[[Image:f12-mandrillhuerotate.jpg]]<br/>
+[[Image:f11-mandrill.jpg|300px]]&nbsp;[[Image:f12-mandrillhuerotate.jpg|300px]]<br/>
 ''Original (left); hue-rotate 90 degrees (right)''
 
 ; invert(amount)
 : This effect flips the colors, so that if the <code>amount</code> applied is 100% the output looks like a photo negative back from the old film days of cameras! Just like before, using values smaller than 100% will progressively apply the invert effect.
 
-[[Image:f13-peppers.jpg]]&nbsp;[[Image:f14-peppersinvert.jpg]]<br/>
+[[Image:f13-peppers.jpg|300px]]&nbsp;[[Image:f14-peppersinvert.jpg|300px]]<br/>
 ''Original (left); invert 100% (right)''
 
 ; opacity(amount)
 : If you want the content being filtered to look semi-transparent, this is the one for you. The 'amount' value defines how opaque the output will be. A value of 100% is completely opaque, so the output will be exactly the same as the input. As the value drops below 100% the output image becomes less opaque (more transparent) and you'll see less and less of it. This of course means that if it overlaps something else on the page, the content underneath will start to become visible. An <code>amount</code> of 0% means it will completely disappear &mdash; but note: you can still get events (like mouse clicks, etc.) to fire on completely transparent objects, so this is handy if you want to create clickable areas without displaying anything. In general, the CSS <code>opacity</code> property isn't hardware accelerated, but some browsers that implement filters using hardware acceleration will accelerate the filter version of opacity for much better performance.
 
-[[Image:f15-splash.jpg]]&nbsp;[[Image:f16-splashopacity50.jpg]]<br/>
+[[Image:f15-splash.jpg|300px]]&nbsp;[[Image:f16-splashopacity50.jpg|300px]]<br/>
 ''Original (left); opacity 50% (right)''
 
 ; brightness(amount)
 : This is just like the brightness control on your TV. It adjusts the colors between completely black and the original color in proportion to the <code>amount</code> parameter. If you set this one to 0% you'll see nothing but black, but as the value goes up toward 100% you see more and more of the original image brightening up until you hit 100%, where it's the same as the input image. Of course you can just keep going &mdash; so setting something like 200% will make the image twice as bright as the original. Great for adjusting those low light shots!
 
-[[Image:f17-boatonlake2.jpg]]&nbsp;[[Image:f18-boatonlake2bright.jpg]]<br/>
+[[Image:f17-boatonlake2.jpg|300px]]&nbsp;[[Image:f18-boatonlake2bright.jpg|300px]]<br/>
 ''Original (left); brightness 140% (right)''
 
 ; contrast(amount)
 : More controls from your TV set! This will adjust the difference between the darkest and lightest parts of the input image. If you use 0% you end up with black just like with <code>brightness</code>, so that's not too interesting. However, as you increase the value toward 100%, the difference in darkness (contrast) changes until you hit 100% and it's the original image again. You can go beyond 100% for this effect too, which increases the difference between light and dark colors even more.
 
-[[Image:f19-jellybeans.jpg]]&nbsp;[[Image:f20-jellybeancontrast.jpg]]<br/>
+[[Image:f19-jellybeans.jpg|300px]]&nbsp;[[Image:f20-jellybeancontrast.jpg|300px]]<br/>
 ''Original (left); contrast 200% (right)''
 
 ; blur(radius)
 : If you want a soft edge for your content, you can add a blur. This one looks like the classic Vaseline-on-a-sheet-of-glass look that used to be a popular movie technique. It smudges the colors together and spreads out their effect, kind of like when your eyes are out of focus. The <code>radius</code> parameter affects how many pixels on the screen blend into each other, so a larger value creates more blur. Zero, of course, leaves the image unchanged.
 
-[[Image:f21-peppers2.jpg]]&nbsp;[[Image:f22-peppers2blur.jpg]]<br/>
+[[Image:f21-peppers2.jpg|300px]]&nbsp;[[Image:f22-peppers2blur.jpg|300px]]<br/>
 ''Original (left); blur 10px (right)''
 
 ; drop-shadow(shadow)
 : It's so nice to be able to make your content look like it's outside in the sun with a shadow on the ground behind it, and that of course is what <code>drop-shadow</code> does. It takes a snapshot of the image, makes it a single color, blurs it, then offsets the result a bit so it looks like a shadow of the original content. The <code>shadow</code> parameter passed in is a bit more complicated than just a single value. It is a series of values separated by a space &mdash; and some values are optional! The <code>shadow</code> values control where the shadow is placed, how much blur is applied, the color of the shadow, etc. For full details of what the values do, the [http://www.w3.org/TR/css3-background/#the-box-shadow CSS3 Backgrounds] specification defines <code>box-shadow</code> in great detail. A few examples below should give you a decent idea of the various possibilities.
 
-[[Image:f23-mandrilldrop1.jpg]]&nbsp;[[Image:f24-mandrillshadow2.jpg]]<br/>
+[[Image:f23-mandrilldrop1.jpg|300px]]&nbsp;[[Image:f24-mandrillshadow2.jpg|300px]]<br/>
 ''Drop-shadow 16px 16px 20px black (left); drop-shadow 10px -16px 30px purple (right)''
 
 :This is another filter operation that is similar to existing CSS functionality available via the <code>box-shadow</code> property. Using the filter approach means that it may be hardware accelerated by some browsers as we described for the <code>opacity</code> operation above.
