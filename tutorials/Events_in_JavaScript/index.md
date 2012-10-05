@@ -1,1 +1,0 @@
-#REDIRECT [[tutorials/events in javascript]]
