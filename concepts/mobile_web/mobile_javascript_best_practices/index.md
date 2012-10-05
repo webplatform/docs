@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page_Title|Mobile JavaScript best practices}}
 {{Flags}}
 {{API_Name}}
 {{Summary_Section}}
