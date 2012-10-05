@@ -1,0 +1,1 @@
+#REDIRECT [[concepts/programming/the purpose of javascript]]
