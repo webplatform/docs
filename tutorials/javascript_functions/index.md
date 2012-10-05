@@ -1,180 +1,21 @@
-{{Page_Title|JavaScript functions}}
+{{Page_Title}}
 {{Flags}}
-{{Byline}}
-{{Summary_Section}}
-{{Tutorial}}
-{{Notes_Section}}
+{{Summary_Section|SUMMARY}}
+{{Tutorial
+|Content=CONTENT
+ 
+
+}}
 {{Compatibility_Section
-|Not_required=No
+|Not_required=Yes
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section}}
-{{Topics}}
+{{Topics|JavaScript}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
 |MSDN_link=
 |HTML5Rocks_link=
 }}
-== Introduction ==
- 
-In this part of the [http://www.w3.org/wiki/Web_Standards_Curriculum Web Standards Curriculum], we'll discuss functions. Functions lie at the core of practically everything ''useful'' that you’ll do with JavaScript. Broadly speaking, they offer the ability to break a program into logical chunks, each implementing a specific piece of functionality. They’re a central feature of the language, and a good chunk of JavaScript’s attractiveness is due to the particular ways in which it enables you to use and create functions. If you’ve done some programming before in languages like PHP or Java, you’ll feel right at home with functions in JavaScript; if not, don’t worry. Functions are ''critical'', but they’re not hard to wrap your head around. This article explains why you’ll want to understand functions, then dives into their syntax and shows you how to create and use them.
- 
-Note that the [http://dev.opera.com/articles/view/javascript-functions/functions_code.zip functions examples are available for download], as well as being linked to at appropriate places in the article below.
-
-== What and why ==
- 
-You certainly don’t want to reach for your specifications to refresh your memory each time you need to perform a specific calculation; it's much better to simply code the calculation’s steps '''once''', bundle that up as a <code>calculateSomething</code> function, and then point to that implementation next time you need to perform the same activity. This simple act of bundling up a set of commands means that you can concentrate on the ''activities'' that your code implements instead of the intimate details of those activities’ internal steps. You can think of the functions you write as a layer sitting on top of JavaScript’s built-in core; you’re creating ''new commands'' that are more expressive and more understandable in the context of your particular application.
- 
-With that in mind, the “why?” of functions has a very straightforward answer: they are the basic building blocks that allow you to structure your code to enhance understanding of its purpose, and to reuse the functions you’ve written to avoid writing the same bits of code in multiple places. Your program will be easier to write and test if you break it into small pieces, each with a defined task.
-
-Moreover, breaking your code up into well thought-out functions makes maintaining your code in the future much easier. Imagine, for example, that the rules for daylight savings time are changed again next year. If you’ve done that calculation eighty-five times throughout your project, you ''will'' introduce new bugs when you update the code in each of those locations; it’s repetitive, manual, and failure-prone. On the other hand, changing a single <code>calculateDaylightSavings</code> function allows you to cascade that single change down through the rest of your program with a single fix, much the same as the CSS cascade of style down through the page. In this way, functions make maintenance much less error prone, and easier to implement successfully.
- 
-== A Function’s syntax ==
- 
-Defining your own function is a simple task. As an example, let’s build a [http://dev.opera.com/articles/view/javascript-functions/functions_1.html function that generates a random background colour for an element] on a page:
- 
-<pre>function setElementBackground() {
-  var red = Math.floor(Math.random() * 256);
-  var green = Math.floor(Math.random() * 256);
-  var blue = Math.floor(Math.random() * 256);
-
-  var obj = document.getElementById('element_to_change');
-  if ( obj ) {
-    obj.style.background = 'rgb(' + red + ',' + green + ',' + blue + ')';
-  }
-}</pre>
- 
-Without worrying too much about the code executed by the function, I’d like you to focus at this moment on 4 important features of the function’s syntax:
- 
-# A function declaration always begins with the keyword <code>function</code>, which makes sense.
-# The next bit is the function’s name, in this case <code>setElementBackground</code> (I generally use [http://en.wikipedia.org/wiki/CamelCase camelCase] for function names).  The name of the function is important, as it’s the bit you have to remember in order to use and reuse the code.  Make sure it's an accurate description of what the function does; I’m sure you’ll agree that <code>setElementBackground</code> is a '''much''' better, more descriptive function name than something like <code>coloursAreNice</code> or <code>crazySetter</code>.
-# Directly after the function’s name come a pair of parentheses.  Inside these come the functions '''argument list''', which enables you to make your functions more generic, and thus more reusable—you can apply them to more situations more easily.  This is a powerful concept, but optional, so I’ll discuss it in more detail in the next section.
-# Finally comes a pair of curly-brackets containing some code: these signify a '''block''' of code in JavaScript.  Everything inside this block  will be executed when the function is called, in order, just like any other bit of JavaScript code you’ve written.
- 
-=== Using the function ===
- 
-Now we’ve defined the function, to call it somewhere in your code you would simply write:
- 
-<pre>setElementBackground();</pre>
- 
-That's all there is to it! You no longer have to concern yourself with the difficult internal details of <code>setElementBackground</code>; you’ve already written the code, so now you’re able to use it with ease wherever you like, and reap the (random) rewards of reuse.
- 
-Now, the function I’ve just written is completely self-contained. It performs some activity, then exits; it neither needs input from the code that called it, nor does it give any information back to its caller about what happened. JavaScript, of course, allows us to write code that’s a bit more talkative and flexible than that, so let’s have a look at how we deal with information input to and output from functions.
- 
-=== Arguments ===
- 
-Passing information into a function in order to influence its behavior is a great way to make it more flexible and useful in a variety of situations. For example, I’ve hard-coded the <code>id</code> of the element whose background is changed inside <code>setElementBackground</code>; it would be nice to be able to specify different elements on the page whenever I call the function so that I could ''reuse'' this function for different elements, instead of duplicating all that code. '''Arguments''' are the solution.
- 
-Earlier, I noted that the function’s definition contains a set of parentheses directly after the function’s name. This is the function’s '''argument list'''. To accept input from the caller, just specify a comma-separated list of variables that your function would like to receive. You can specify as many or as few as you’d like, and the names you use in the argument list can be referenced inside the function’s body just like with any other variable. The updated <code>setElementBackground</code> function looks like so ([http://dev.opera.com/articles/view/javascript-functions/functions_2.html check out the first example improvement] live):
- 
-<pre>function setElementBackground( elementID ) {
-  var red = Math.floor(Math.random() * 256);
-  var green = Math.floor(Math.random() * 256);
-  var blue = Math.floor(Math.random() * 256);
-
-  var obj = document.getElementById( elementID );
-  if ( obj ) {
-    obj.style.background = 'rgb(' + red + ',' + green + ',' + blue + ')';
-  }
-}</pre>
- 
-Calling this function with an element ID passed in as an argument is straightforward:
- 
-<pre>setElementBackground( 'element_to_change' );</pre>
- 
-If you accidentally call the function without passing in an argument, it takes the value <code>undefined</code>. You can test for this inside your function body to provide a bit of defense against unintentional misuse:
- 
-<pre>if ( elementID == undefined) {
-  // This will evaluate to `true` if the `elementID`
-  // variable wasn't provided by the caller.
-  // You can then write some code inside this
-  //if statement to stop the code from erroring.
-}</pre>
- 
-The confusing, but nice, bit about function arguments is that the names of variables in the argument list have ''nothing'' to do with the name of variables passed into the function. If <code>elementID</code> is defined as the function’s argument, JavaScript creates a variable ''inside'' the function named <code>elementID</code> that has no effect on any variables outside the function — you can have another function outside the function of the same name, and its value would not be altered as a result of any statements inside the function. For example:
- 
-<pre>var elementID = "No change!";
-setElementBackground( 'element_to_change' );
-alert( elementID ); // Alerts "No change!";</pre>
- 
-This has a very important side effect. JavaScript creates a new variable inside the function, meaning that any changes it makes to its internal argument has ''no effect'' on any variable passed in. I’ll talk a bit more about this concept (called '''scope''') in the [http://dev.opera.com/articles/view/objects-in-javascript/ Objects] and [http://www.w3.org/wiki/JavaScript_best_practices JavaScript best practices] articles, but for now, let’s look at a quick example. I’ll define a <code>substring</code> function accepting a string and a starting point:
-
-<pre>function substring( obj, start ) {
-  obj = obj.substring(8);
-}
-
-var myString = "This is a string!";
-substring(myString, 8);
-alert(myString); // Alerts "This is a string!"</pre>
- 
-Even though the <code>obj</code> variable is reassigned inside the function to the result of the built-in <code>substring</code> method, <code>myString</code> isn’t affected at all; only the ''copy'' of <code>myString</code> sitting inside <code>substring</code> was changed. The external variable has no idea at all that anything has happened.
- 
-This raises the question of communication: if changing arguments’ values has no effect outside the function, how do you pass information back from a function to it’s caller? Let's look at this now.
-
-=== Return values ===
- 
-It’s very common indeed for a function to do some calculation, and give the result of that work back to its caller to be used elsewhere. It might be useful, for example, for our <code>setElementBackground</code> function to ''return'' an array of the colour values for use elsewhere. That’s a simple matter of using the <code>return</code> keyword JavaScript provides, as shown here:
- 
-<pre>function setElementBackground( elementID ) {
-  var red = Math.floor(Math.random() * 256);
-  var green = Math.floor(Math.random() * 256);
-  var blue = Math.floor(Math.random() * 256);
-
-  var obj = document.getElementById( elementID );
-  if ( obj ) {
-    obj.style.background = 'rgb(' + red + ',' + green + ',' + blue + ')';
-  }
-
-  return [ red, green, blue ];
-}</pre>
- 
-[http://dev.opera.com/articles/view/javascript-functions/functions_3.html check out the second example improvement] in action.
- 
-That simple addition means that you can now call the function in such a way as to capture its result in a variable:
- 
-<pre>var my_result = setElementBackground('element_to_change');</pre>
- 
-Even if your function doesn’t need to return a value, or has no real value to return, it’s good practice to indicate success or failure by returning <code>true</code> or <code>false</code>, respectively. With that in mind, I’ll change <code>setElementBackground</code> to return <code>false</code> if the <code>elementID</code> that was passed in doesn’t actually exist:
- 
-<pre>function setElementBackground( elementID ) {
-  var red = Math.floor(Math.random() * 256);
-  var green = Math.floor(Math.random() * 256);
-  var blue = Math.floor(Math.random() * 256);
-
-  var obj = document.getElementById( elementID );
-  if ( obj ) {
-    obj.style.background = 'rgb(' + red + ',' + green + ',' + blue + ')';
-    return [ red, green, blue ];
-  } else {
-    return false;
-  }
-}</pre>
- 
-[http://dev.opera.com/articles/view/javascript-functions/functions_4.html check out the third example improvement] in action.
- 
-This allows you to check that the code executed properly by testing its return value, for example:
- 
-<pre>if ( !setElementBackground('element_does_not_exist') ) {
-  alert("Something went wrong!  `element_does_not_exist` doesn't exist!");
-}</pre>
- 
-Additionally, please note that the <code>return</code> keyword actually ends execution of your function right when it’s called, ''returning'' execution to the place at which your function was called. Code sitting below the call to <code>return</code> is not executed — it’s simply ignored.
-
-== Summary ==
- 
-With that, you now know pretty much everything you need to in order to begin sprinkling your code full of functions. They’re a foundational part of good JavaScript code and your programs will be better organized, clearer and more readable, and easier to comprehend if you take the opportunity to wrap code up in well-named functions for reuse.
- 
-== Exercise questions ==
- 
-* What are functions?  Why are they useful?
-* How do you define a function?
-* How do you pass information into a function?  Why would you want to?  Conversely, how can you get information out of a function?
-* Wouldn’t it be nice if you could pass a colour array into `setElementBackground`?  Try modifying the code to accept another argument, and use that variable inside the function to override the random background colour.
- 
-Note: This material was originally published as part of the Opera Web Standards Curriculum, available as [http://dev.opera.com/articles/view/javascript-functions/ 44: JavaScript functions], written by Mike West. Like the original, it is published under the [http://creativecommons.org/licenses/by-nc-sa/2.5/ Creative Commons Attribution, Non Commercial - Share Alike 2.5] license.
-
-[[Category:Tutorials]]
-[[Category:WSC]]
