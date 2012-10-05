@@ -53,7 +53,7 @@ Now roll your sleeves up and let's get ready to learn. [[http://docs.webplatform
 * [[concepts/programming/the purpose of javascript|The purpose of JavaScript]]
 * [[tutorials/javascript functions|JavaScript functions]]
 * [[tutorials/objects in javascript|Objects in JavaScript]]
-* [[tutorials/traversing the dom/Traversing the DOM]]
+* [[tutorials/traversing the dom|Traversing the DOM]]
 * [[tutorials/creating and modifying html|Creating and modifying HTML]]
 * [[tutorials/manipulating css with javascript|Manipulating CSS with JavaScript]]
 * [[tutorials/events in javascript|Events in JavaScript]]
