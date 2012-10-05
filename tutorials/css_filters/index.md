@@ -147,7 +147,7 @@ Let's take a look at each of them and see what they do.
 :This is another filter operation that is similar to existing CSS functionality available via the <code>box-shadow</code> property. Using the filter approach means that it may be hardware accelerated by some browsers as we described for the <code>opacity</code> operation above.
 
 ; url referencing SVG filters
-: Because filters originated as part of SVG, it's only logical that you should be able to style your content using an SVG filter. This is easy with the current <code>filter</code> property proposal. All filters in SVG are defined with an <code>id</code> attribute that can be used to reference the filter effect. So to use any SVG filter from CSS, all you need to do is reference it using the <code>url</code> syntax. For example, the SVG markup for a filter could be something like: <code>&lt;filter id=”foo”&gt;...&lt;/filter&gt;</code>. Then from CSS, you could do something as simple as: <code>div { +filter: url(#foo); }</code>, and voila! All the <code>&lt;div&gt;s</code> in your document will be styled with the SVG filter definitions.
+: Because filters originated as part of SVG, it's only logical that you should be able to style your content using an SVG filter. This is easy with the current <code>filter</code> property proposal. All filters in SVG are defined with an <code>id</code> attribute that can be used to reference the filter effect. So to use any SVG filter from CSS, all you need to do is reference it using the <code>url</code> syntax. For example, the SVG markup for a filter could be something like: <code>&lt;filter id=”foo”&gt;...&lt;/filter&gt;</code>. Then from CSS, you could do something as simple as: <code>div { +filter: url(#foo); }</code>, and voila! All the <code>&lt;div&gt;</code>s in your document will be styled with the SVG filter definitions.
 
 ; custom (coming soon)
 : Coming soon on the horizon are custom filters. These tap into the power of your graphics GPU to use a special [http://www.adobe.com/devnet/html5/articles/css-shaders.html shading technique] to perform amazing effects bounded only by your own imagination. This part of the <code>filter</code> specification is still in flux, but is sure to come to a browser near you soon.
@@ -164,7 +164,7 @@ When you do a <code>blur</code>, it mixes the colors from pixels all around the 
 
 All is not lost with <code>blur</code>, as on some platforms it's possible to use the CPU to accelerate it, but that's not necessarily going to be available in every browser. When in doubt, the best thing is to experiment with the <code>radius</code> that gives you the effect you want, then try to reduce it as much as possible while still maintaining an acceptable visual effect. Tuning this way will make your users happier, especially if they are viewing your site on a mobile device.
 
-If you're using URL-based filters that reference SVG filters, they can contain any arbitrary filter effect, so be aware that they too could be slow. Try to make sure you know what the filter effect does and experiment on a mobile device to make sure the performance is OK.
+If you're using URL-based filters that reference SVG filters, they can contain any arbitrary filter effect, so be aware that they too could be slow. Try to make sure you know what the filter effect does and experiment on a mobile device to make sure the performance is acceptable.
 
 <!-- support/speed paragraphs and table omitted-->
 
