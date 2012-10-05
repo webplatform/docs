@@ -1,5 +1,6 @@
-{{Page_Title}}
+{{Page_Title|SVG syntax and deployment}}
 {{Flags}}
+{{Byline}}
 {{Summary_Section|This article shows the basic syntax and usage of SVG.}}
 {{Tutorial
 |Content=== A Simple Example ==
@@ -52,6 +53,7 @@ SVG files come in two flavors. Normal SVG files are simple text files containing
  
 Due to the potentially massive size SVG files can reach when used for some applications (e.g., geographical applications), the SVG specification also allows for gzip-compressed SVG files. The recommended filename extension for these files is ".svgz" (all lowercase). Unfortunately it is very problematic to get gzip-compressed SVG files to work reliably across all SVG capable user agents when served from Microsofts IIS server, and Firefox can not load gzip-compressed SVG from the local computer. Avoid gzip-compressed SVG except when you are publishing to a webserver that you know will serve it correctly. For normal SVG files, servers should send the <code>Content-Type: image/svg+xml</code> HTTP header. For gzip-compressed SVG files, servers should also send the <code>Content-Encoding: gzip</code> header.
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
 |Desktop_rows=
@@ -64,4 +66,6 @@ Due to the potentially massive size SVG files can reach when used for some appli
 |Is_CC-BY-SA=Yes
 |Sources=MDN
 |MDN_link=https://developer.mozilla.org/en-US/docs/SVG/Tutorial/Getting_Started
+|MSDN_link=
+|HTML5Rocks_link=
 }}
