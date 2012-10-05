@@ -1,0 +1,1 @@
+#REDIRECT [[tutorials/svg image element]]
