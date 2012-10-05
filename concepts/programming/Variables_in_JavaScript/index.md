@@ -1,0 +1,1 @@
+#REDIRECT [[concepts/programming/variables in javascript]]
