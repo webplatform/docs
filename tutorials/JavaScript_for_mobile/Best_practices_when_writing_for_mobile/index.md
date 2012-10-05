@@ -1,0 +1,1 @@
+#REDIRECT [[tutorials/javascript for mobile/best practices when writing for mobile]]
