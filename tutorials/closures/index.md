@@ -1,4 +1,6 @@
+{{Page_Title|Closures}}
 {{Flags}}
+{{Byline}}
 {{Summary_Section}}
 {{Tutorial
 |Content=Closures are often considered an advanced feature in JavaScript, but understanding them is essential to mastering the language.
@@ -370,6 +372,7 @@ MyObject.prototype.getMessage = function() {
  
 In the two previous examples, the inherited prototype can be shared by all objects and the method definitions need not occur at every object creation.
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
 |Desktop_rows=
