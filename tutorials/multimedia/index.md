@@ -7,8 +7,9 @@
 * [[tutorials/games onslaught|Creating a game]]
 * [[tutorials/implementing html5 audio|HTML5 audio]]
 * [[tutorials/video basics|Video basics]]
-* [[tutorials/Using Web Audio|Using web audio]]
+* [[tutorials/using web audio|Using web audio]]
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
 |Desktop_rows=
