@@ -1,1 +1,0 @@
-#REDIRECT [[tutorials/using text in svg]]
