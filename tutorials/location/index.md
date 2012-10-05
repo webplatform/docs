@@ -158,7 +158,7 @@ The optional parameter, <code>PositionOptions_interface_object</code>, provides 
 This function is exactly like the <code>getCurrentPosition</code> function except that the callback function will be automatically called every time user's location changes.  It's useful in a service like turn-by-turn direction. The interval is optimally defined by the browser and can't be changed.
 
  int navigator.geolocation.watchPosition(callback_function, error_handler, PositionOptions_interface_object)
-    
+
 Unlike <code>getCurrentPosition</code>, this function returns an integer value which can be used to cancel the watch process and stop invoking any callbacks by calling the <code>clearWatch</code> function.  This is how you call the <code>clearWatch</code> function:
 
  navigator.geolocation.clearWatch(int watch_number)
