@@ -1,5 +1,6 @@
-{{Page_Title}}
+{{Page_Title|Basic shapes}}
 {{Flags}}
+{{Byline}}
 {{Summary_Section|This article provides a guide to the basic primitives you can draw with SVG.}}
 {{Tutorial
 |Content=There are several basic shapes used for most SVG drawing. The purpose of these shapes is fairly obvious from their names. Some of the attributes that determine their position and size are given, but an element reference would probably contain more accurate and complete descriptions along with other properties that won't be covered in here. However, since they're used in most SVG documents, it's necessary to give them some sort of introduction.
@@ -103,6 +104,7 @@ As you would have guessed, the [[circle]] element draws a circle on the screen. 
    
 A list of points and other information about how to draw the path. See the [[Paths]] section for more information.
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
 |Desktop_rows=
@@ -115,4 +117,6 @@ A list of points and other information about how to draw the path. See the [[Pat
 |Is_CC-BY-SA=No
 |Sources=MDN
 |MDN_link=https://developer.mozilla.org/en-US/docs/SVG/Tutorial/Basic_Shapes
+|MSDN_link=
+|HTML5Rocks_link=
 }}
