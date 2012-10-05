@@ -1,1 +1,0 @@
-#REDIRECT [[tutorials/mobile optimization best practices]]
