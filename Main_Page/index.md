@@ -28,7 +28,7 @@ In the future, Web Platform Docs will include even more content for you to explo
 ** [[CSS/tutorials|CSS]]
 ** [[javascript/tutorials|JavaScript]]
 ** [[html/tutorials|HTML]]
-** [[SVG/Tutorials|SVG]]
+** [[svg/tutorials|SVG]]
 * Topical tutorials
 ** [[tutorials/3d_graphics_and_effects|3D, Graphics, and Effects]]
 ** [[tutorials/offline and storage|Offline and Storage]]
