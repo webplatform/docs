@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page_Title|HTML5 <audio> and <video>}}
 {{Flags}}
 {{Byline}}
 {{Summary_Section|HTML5 has improved embedding of audio and video by providing native support for many different file types. In this guide, we'll cover the various ways to embed audio and video, including browser compatibility and frameworks to streamline cross-browser compatibility.}}
