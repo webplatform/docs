@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page_Title|Building web apps}}
 {{Flags}}
 {{Byline}}
 {{Summary_Section|In this tutorial, we'll provide you with the architectural understanding, frameworks and tools you'll need in order to create web apps.  We'll also explain how they should be used and how they fit together.}}
@@ -125,11 +125,7 @@ You can read more about it on [http://www.sencha.com/products/touch/ Sencha's we
 
 A handful of apps are running on Sencha, including [http://www.sencha.com/apps/kivatouch/ Kiva Touch] and [http://www.sencha.com/apps/oreilly-conferences-app/ O'Reilly Conferences].
 }}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
 |Desktop_rows={{Compatibility Table Desktop Row
