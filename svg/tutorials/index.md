@@ -7,27 +7,27 @@
 {{Basic Page}}
 == SVG basics ==
 
-* [[SVG primer]]
+* [[tutorials/svg primer]]
 
-* [[tutorials/SVG introduction|SVG introduction]]
-* [[tutorials/SVG syntax and deployment|SVG syntax and deployment]]
-* [[tutorials/Fills and strokes in SVG|Fills and strokes in SVG]]
-* [[tutorials/Building SVG paths|Building SVG paths]]
-* [[tutorials/Styling SVG with CSS|Styling SVG with CSS]]
-* [[tutorials/Using text in SVG|Using text in SVG]]
+* [[tutorials/svg introduction|SVG introduction]]
+* [[tutorials/svg syntax and deployment|SVG syntax and deployment]]
+* [[tutorials/fills and strokes in SVG|Fills and strokes in SVG]]
+* [[tutorials/building svg paths|Building SVG paths]]
+* [[tutorials/styling svg with css|Styling SVG with CSS]]
+* [[tutorials/using text in svg|Using text in SVG]]
 
 == Advanced SVG ==
 
-* [[tutorials/SVG clipping and masking|SVG clipping and masking]]
-* [[tutorials/SVG gradients|SVG gradients]]
-* [[tutorials/SVG pattern fills|SVG pattern fills]]
-* [[tutorials/SVG image element|SVG image element]]
-* [[tutorials/SVG links|SVG links]]
-* [[tutorials/SVG filters|SVG filters]]
-* [[tutorials/SVG fonts|SVG fonts]]
-* [[tutorials/Scripting SVG|Scripting SVG]]
-* [[tutorials/External content in SVG|External content in SVG]]
-* [[tutorials/Animations in SVG|Animations in SVG]]
+* [[tutorials/svg clipping and masking|SVG clipping and masking]]
+* [[tutorials/svg gradients|SVG gradients]]
+* [[tutorials/svg pattern fills|SVG pattern fills]]
+* [[tutorials/svg image element|SVG image element]]
+* [[tutorials/svg links|SVG links]]
+* [[tutorials/svg filters|SVG filters]]
+* [[tutorials/svg fonts|SVG fonts]]
+* [[tutorials/scripting svg|Scripting SVG]]
+* [[tutorials/external content in svg|External content in SVG]]
+* [[tutorials/animations in svg|Animations in SVG]]
 
 == SVG tutorials index ==
 
