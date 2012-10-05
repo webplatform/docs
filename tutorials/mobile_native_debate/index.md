@@ -43,11 +43,13 @@ Native apps don't have the web runtime barrier to deal with. They run close to t
 
 It would be an understatement to say the web has gotten faster in recent years. V8, the JavaScript engine that ships with Chrome, was a major development in web performance when it launched, and since then, it has only gotten faster:
 
-[http://blog.chromium.org/2010/12/new-crankshaft-for-v8.html [[Image:hvn01-wv8perf.jpg]]]
+[[Image:hvn01-wv8perf.jpg]]<br/>
+''[http://blog.chromium.org/2010/12/new-crankshaft-for-v8.html Source]''
 
 Graphic rendering engines has also sped up the web, and now hardware acceleration is starting to happen. Have a look at the speed bump provided by hardware accelerated-canvas:
 
-[http://www.maximumpc.com/article/news/hardware-accelerated_chrome_7_60x_faster_previous_versions [[Image:hvn02-whvcanvasperf.jpg]]]
+[[Image:hvn02-whvcanvasperf.jpg]]<br/>
+''[http://www.maximumpc.com/article/news/hardware-accelerated_chrome_7_60x_faster_previous_versions Source]''
 
 In addition, the new Web Workers API makes multithreading a possibility, and modern web developers can also call on a range of performance-optimized libraries, and well-researched performance optimizion techniques. While most of those started life on the desktop web, they are still relevant to mobile, and there's increased attention paid to mobile, e.g. performance guru Steve Souders has [http://stevesouders.com/mobileperf/ a page dedicated to mobile performance tools].
 
@@ -120,7 +122,6 @@ It would be nice to declare a winner here, but right now, there is no clear winn
 One technique mentioned in this article is hybrid apps, and this may be the best compromise for some developers: web view where it's possible and platform-specific native components where it's not.
 
 If you do choose the web path, be mindful of web standards and the principle of progressive enhancement. The web is a technology that knows how to target the multitudes of devices and operating systems around. Whether you choose to call it "fragmentation" or "diversity", the web embraces it and you developers can benefit from all the prior art out there.
-
 }}
 {{Notes_Section}}
 {{Compatibility_Section
