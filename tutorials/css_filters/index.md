@@ -51,7 +51,7 @@ div { filter: grayscale(100%); }
 
 This will make the content inside all <code>&lt;div&gt;</code> elements on the page turn gray. Great for making your page look like a TV image from the 1940s!
 
-[[Image:f01-pencil.jpg]]&nbsp;[[Image:f02-gray.jpg]]<br/>
+[[Image:f01-pencil.jpg|300px]]&nbsp;[[Image:f02-gray.jpg|300px]]<br/>
 ''Original image (left); grayscale filtered image (right)''
 
 Most filters take some form of parameter to control how much filtering is done. So, for example, if you wanted to style your content to be halfway between the original color and a grayscale version you'd do it like this:
@@ -85,7 +85,7 @@ Let's take a look at each of them and see what they do.
 ; grayscale(amount)
 : This converts color in our input image to a shade of gray. The <code>amount</code> controls how much gray conversion is applied. If it's 100% then everything will be a shade of gray; if it's 0% the colors are unchanged. You can use a floating point number here if you prefer it over percentages; that is, 0 works the same as 0% whilst 1.0 works the same as 100%.
 
-[[Image:f05-boatonlake.jpg]]&nbsp;[[Image:f06-boatonlakegray.jpg]]<br/>
+[[Image:f05-boatonlake.jpg|300px]]&nbsp;[[Image:f06-boatonlakegray.jpg|300px]]<br/>
 ''Original (left); grayscale 100% (right)''
 
 ; sepia(amount)
