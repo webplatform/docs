@@ -5,8 +5,7 @@
 {{Byline}}
 {{Summary_Section|A case study on automatically resizing HTML5 games for desktop or mobile devices.}}
 {{Tutorial
-|Content=
-Derek Detweiler
+|Content=Derek Detweiler
 http://www.html5rocks.com/profiles/#derekdetweiler
 July 3, 2011
 
@@ -14,7 +13,7 @@ July 3, 2011
 
 In the summer of 2010, we created Sand Trap, a game that we entered in a competition on HTML5 games for mobile phones. But most mobile phones either displayed only part of the game or made the game too small—making it completely unplayable. So we took it upon ourselves to make the game fluidly adjust to match any resolution. After a bit of re-programming and using ideas outlined in this article, we had a game that scaled across any modern browser, whether it ran in a desktop or a mobile device.
 
-[[Image:ar01-image04.jpg|288px]]&nbsp;[[Image:ar02-image01.jpg]]<br/>
+[[Image:ar01-image04.png|288px]]&nbsp;[[Image:ar02-image01.png]]<br/>
 ''Thwack full screen (left); Thwack smaller in browser window (right)''
 
 This approach worked well for Sand Trap, so we used the same method on our latest game, "Thwack!!". The game automatically adjusts screen resolutions to fit both full-screen and custom-sized windows, as shown in the screenshots below.
@@ -188,7 +187,6 @@ If the window is resized too high or the screen’s orientation is vertical, you
 ==Summary==
 
 Gopherwood Studios has used versions of this structure for all of our HTML5 games and it has proved very useful for accommodating multiple screen resolutions and various mobile devices. Additionally, with the aid of a full screen browser, this gives our web games an immersive experience more akin to traditional desktop gaming than many browser-based games. We look forward to more innovations in web games as HTML5 and web technologies continue to evolve.
-
 }}
 {{Notes_Section}}
 {{Compatibility_Section
