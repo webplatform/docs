@@ -15,11 +15,11 @@ Now roll your sleeves up and let's get ready to learn. [[http://docs.webplatform
 
 ==Web fundamentals==
 
-* [[tutorials/Introduction_to_the_Web_Standards_Curriculum|Introduction to the Web Standards]]
-* [[tutorials/How does the Internet work|How does the Internet work]]
-* [[tutorials/Programming_-_the_real_basics|Basics of Programming]]
-* [[concepts/internet_and_web/the web standards model|The web standards model — HTML, CSS and JavaScript]]
-* [[tutorials/Getting_your_content_online|Getting your content online]]
+* [[tutorials/introduction to the web standards curriculum|Introduction to the Web Standards]]
+* [[tutorials/how does the internet work|How does the Internet work]]
+* [[tutorials/programming - the real basics|Basics of Programming]]
+* [[concepts/internet and web/the web standards model|The web standards model — HTML, CSS and JavaScript]]
+* [[tutorials/getting your content online|Getting your content online]]
 
 ==HTML — structuring your web content==
 
@@ -37,7 +37,7 @@ Now roll your sleeves up and let's get ready to learn. [[http://docs.webplatform
 ==CSS — styling your web content==
 
 * [[guides/getting started with css|Getting started with CSS]]
-
+{{Notes_Section}}
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
