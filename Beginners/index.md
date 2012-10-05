@@ -16,9 +16,9 @@ Now roll your sleeves up and let's get ready to learn. [[http://docs.webplatform
 ==Web fundamentals==
 
 * [[tutorials/introduction to the web standards curriculum|Introduction to the Web Standards]]
-* [[tutorials/how does the internet work|How does the Internet work]]
+* [[concepts/how does the internet work|How does the Internet work]]
 * [[tutorials/programming - the real basics|Basics of Programming]]
-* [[concepts/internet and web/the web standards model|The web standards model — HTML, CSS and JavaScript]]
+* [[concepts/the web standards model|The web standards model — HTML, CSS and JavaScript]]
 * [[tutorials/getting your content online|Getting your content online]]
 
 ==HTML — structuring your web content==
