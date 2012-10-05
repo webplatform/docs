@@ -1,4 +1,6 @@
+{{Page_Title|JavaScript statements}}
 {{Flags}}
+{{Byline}}
 {{Summary_Section|JavaScript supports a compact set of statements that you can use to incorporate a great deal of interactivity in Web pages. This chapter provides an overview of these statements.}}
 {{Tutorial
 |Content=<p>Any expression is also a statement. See [[guides/JavaScript/Expressions|Expressions and Operators]] for complete information about statements.</p>
@@ -541,6 +543,13 @@ catch (e) {
    alert(e.name);// alerts 'Error'
    alert(e.message); // alerts 'The message' or a JavaScript error message)
 }</pre>
+}}
+{{Notes_Section}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section}}
 {{Topics|JavaScript}}
