@@ -18,7 +18,7 @@ In the future, Web Platform Docs will include even more content for you to explo
   <li>[[html|HTML]]</li>
   <li>[[css|CSS]]</li>
   <li>[[javascript|JavaScript]]</li>
-  <li>[[SVG|SVG]]</li>
+  <li>[[svg|SVG]]</li>
   <li>[[concepts/accessibility|Accessibility]]</li>
 </ul>
 </li>
