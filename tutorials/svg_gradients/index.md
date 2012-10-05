@@ -1,6 +1,7 @@
-{{Page_Title}}
+{{Page_Title|SVG gradients}}
 {{Flags}}
-{{Summary_Section|This article looks at filling SVG shapes with linear and radial gradients. }}
+{{Byline}}
+{{Summary_Section|This article looks at filling SVG shapes with linear and radial gradients.}}
 {{Tutorial
 |Content=So, perhaps more exciting than just fills and strokes, you can also create and apply gradients as either fills or strokes.
  
@@ -138,6 +139,7 @@ You can also then apply another transformation to the gradient by using the <cod
  
 There are some other caveats for dealing with <code>gradientUnits="objectBoundingBox"</code> when the object bounding box isn't square, but they're fairly complex and will have to wait for someone more in-the-know to explain them.
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
 |Desktop_rows=
