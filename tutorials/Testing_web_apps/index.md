@@ -99,32 +99,32 @@ Browser usage differs considerably around the globe, so it's a good idea to chec
 
 <div style="float: left; width: 50%;">
 <b>North America</b>
-<img src="https://developers.facebook.com/attachment/browsers-na-may.jpg" width="350" />
+<img src="https://developers.facebook.com/attachment/browsers-na-may.jpeg" width="350" />
 </div>
 
 <div style="float: right; width: 50%;">
 <b>Europe</b>
-<img src="https://developers.facebook.com/attachment/browsers-eu-may.jpg" width="350" />
+<img src="https://developers.facebook.com/attachment/browsers-eu-may.jpeg" width="350" />
 </div>
 
 <div style="float: left; width: 50%;">
 <b>Asia</b>
-<img src="https://developers.facebook.com/attachment/browsers-asia-may.jpg" width="350" />
+<img src="https://developers.facebook.com/attachment/browsers-asia-may.jpeg" width="350" />
 </div>
 
 <div style="float: right; width: 50%;">
 <b>Australia</b>
-<img src="https://developers.facebook.com/attachment/browsers-au-may.jpg" width="350" />
+<img src="https://developers.facebook.com/attachment/browsers-au-may.jpeg" width="350" />
 </div>
 
 <div style="float: left; width: 50%;">
 <b>Africa</b>
-<img src="https://developers.facebook.com/attachment/browsers-africa-may.jpg" width="350" />
+<img src="https://developers.facebook.com/attachment/browsers-africa-may.jpeg" width="350" />
 </div>
 
 <div style="float: left; width: 50%;">
 <b>South America</b>
-<img src="https://developers.facebook.com/attachment/browsers-sa-may.jpg" width="350" />
+<img src="https://developers.facebook.com/attachment/browsers-sa-may.jpeg" width="350" />
 </div>
 
 ==== Internet Explorer ====
