@@ -1,5 +1,6 @@
-{{Page_Title}}
+{{Page_Title|Events in JavaScript}}
 {{Flags}}
+{{Byline}}
 {{Summary_Section|This articles shows how to handle events in JavaScript, such as a user clicking a button, and perform actions in response.}}
 {{Tutorial
 |Content=== Introduction ==
@@ -241,6 +242,7 @@ I have merely scratched the surface of event handling in this article, but I hop
 
 Once you have accepted these issues and learned to master the solutions above, there’s no end to the possibilities you can achieve with JavaScript and event handling!
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
 |Desktop_rows=
