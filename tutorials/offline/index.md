@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page_Title|Offline apps}}
 {{Flags}}
 {{Byline}}
 {{Summary_Section|Mobile users expect to have the ability to open an app and interact with it, no matter if they have a connection.
