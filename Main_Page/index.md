@@ -14,7 +14,7 @@ In the future, Web Platform Docs will include even more content for you to explo
 <li><p>'''[[concepts|Concepts]]''' Explore detailed documents that explain fundamental concepts behind the Web, and web design.</p></li>
 <li>
 <p>'''Reference''' Find all the open web technology data you could possibly need for your day-to-day work.</p>
-<p>Sub sections:</p>
+<p>Subsections:</p>
 <ul>
   <li>[[html|HTML]]</li>
   <li>[[css|CSS]]</li>
