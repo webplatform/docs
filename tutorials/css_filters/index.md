@@ -5,9 +5,9 @@
 {{Byline
 |Name=Alex Danilo
 |URL=http://www.html5rocks.com/profiles/#alexdanilo
-|Published=May 25, 2012, Updated May 29, 2012
+|Published=May 25, 2012, updated May 29, 2012
 }}
-{{Summary_Section|test}}
+{{Summary_Section|An introduction to CSS filter effects.}}
 {{Tutorial
 |Content='''Caution:''' This article discusses APIs that are not yet fully standardized and still in flux. Be cautious when using experimental APIs in your own projects. See the compatibility tables at the end of this article for the latest information.
 
@@ -175,7 +175,6 @@ If you're using URL-based filters that reference SVG filters, they can contain a
 *A great [http://net.tutsplus.com/tutorials/html-css-techniques/say-hello-to-css3-filters/ tutorial about filters] with examples.
 *The official W3C Filter Effects 1.0 [https://dvcs.w3.org/hg/FXTF/raw-file/tip/filters/index.html draft specification]. 
 *An example [http://lab.simurai.com/stars/#bruno UI] created with filters.
-
 }}
 {{Notes_Section}}
 {{Compatibility_Section
