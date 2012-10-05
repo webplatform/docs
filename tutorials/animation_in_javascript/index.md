@@ -1,5 +1,6 @@
-{{Page_Title}}
+{{Page_Title|Animation in JavaScript}}
 {{Flags}}
+{{Byline}}
 {{Summary_Section|This article discusses how to make simple animations in JavaScript.}}
 {{Tutorial
 |Content=== Introduction ==
@@ -181,6 +182,7 @@ will make the <code>div</code> smoothly fade out over one second in a supporting
  
 This concludes our look at animating web page functionality using JavaScript - I've taken you through some animation examples created from first principles using the <code>setTimeout</code> and <code>setInterval</code> functions, and then looked at how you can use JavaScript libraries to create animations more quickly.
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
 |Desktop_rows=
@@ -198,4 +200,7 @@ This concludes our look at animating web page functionality using JavaScript - I
 {{Topics|JavaScript}}
 {{External_Attribution
 |Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
 }}
