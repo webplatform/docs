@@ -176,7 +176,7 @@ Unlike <code>getCurrentPosition</code>, this function returns an integer value w
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|JavaScript}}
+{{Topics|Geolocation, JavaScript}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=Facebook HTML5 Resource Center
