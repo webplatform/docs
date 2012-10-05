@@ -15,32 +15,32 @@ The top mobile browsers for various geographies are shown in the charts below. T
 
 <div style="float: left; width: 50%;">
 <b>North America</b>
-[[File:mobile-stats-na-may.jpg|350px229px]]
+[[File:mobile-stats-na-may.jpeg|350px229px]]
 </div>
 
 <div style="float: right; width: 50%;">
 <b>Europe</b>
-[[File:mobile-stats-europe-may.jpg|350x229px]]
+[[File:mobile-stats-europe-may.jpeg|350x229px]]
 </div>
 
 <div style="float: right; width: 50%;">
 <b>Australia</b>
-[[File:mobile-stats-aus-may.jpg|350x229px]]
+[[File:mobile-stats-aus-may.jpeg|350x229px]]
 </div>
 
 <div style="float: left; width: 50%;">
 <b>Asia</b>
-[[File:mobile-stats-asia-may.jpg|350x229px]]
+[[File:mobile-stats-asia-may.jpeg|350x229px]]
 </div>
 
 <div style="float: right; width: 50%;">
 <b>Africa</b>
-[[File:mobile-stats-af-may.jpg|350x229px]]
+[[File:mobile-stats-af-may.jpeg|350x229px]]
 </div>
 
 <div style="float: left; width: 50%;">
 <b>South America</b>
-[[File:mobile-stats-south-america-may.jpg|350x229px]]
+[[File:mobile-stats-south-america-may.jpeg|350x229px]]
 </div>
 
 === Ringmark ===
