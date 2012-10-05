@@ -1,6 +1,7 @@
 {{Page_Title|Introduction to Chrome developer tools, part one}}
 {{Flags
 |High-level issues=Needs Flags
+|Content=Biased Voice
 }}
 {{Byline
 |Name=Seth Ladd
@@ -226,6 +227,7 @@ For more information on the Developer Tools, we recommend the following:
 
 And of course, stay tuned for Part 2 of this article, along with lots of other great HTML5 and Chrome content.
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
 |Desktop_rows={{Compatibility Table Desktop Row
