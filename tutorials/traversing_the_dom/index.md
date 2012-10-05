@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page_Title|Traversing the DOM}}
 {{Flags}}
 {{Byline}}
 {{Summary_Section|This article covers how to select different parts of your HTML document for manipulation via JavaScript.}}
@@ -155,7 +155,6 @@ The logical next step is to start ''doing'' interesting things with the results 
 * Using the example document from the article, write three different paths that end up on the <code>head</code> element.  Remember that you can chain <code>childNodes</code> and <code>parentNode</code> together as much as you like.
 * Given an arbitrary node, how can you determine its type?
 * Given an arbitrary node, how can you get back to the <code>document</code> object? Hint: Remember that the <code>document</code> object’s <code>parentNode</code> property returns <code>null</code>.
- 
 }}
 {{Topics|JavaScript}}
 {{External_Attribution
