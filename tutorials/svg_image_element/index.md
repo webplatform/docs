@@ -1,5 +1,6 @@
-{{Page_Title}}
+{{Page_Title|SVG image element}}
 {{Flags}}
+{{Byline}}
 {{Summary_Section}}
 {{Tutorial
 |Content=The SVG image element allows for raster images to be rendered within an SVG object.
@@ -19,8 +20,8 @@ There are some important things to take note of (referenced from the [[W3 specs]
 * If you do not set the x or y attributes, they will be set to 0
 * If you do not set the height or width attributes, they will be set to 0
 * Having a height or width attribute of 0 will disable rendering of the image
- 
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
 |Desktop_rows=
