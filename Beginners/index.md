@@ -19,7 +19,7 @@ Now roll your sleeves up and let's get ready to learn. [[http://docs.webplatform
 * [[concepts/how does the internet work|How does the Internet work]]
 * [[concepts/programming/programming basics|Basics of Programming]]
 * [[concepts/the web standards model|The web standards model — HTML, CSS and JavaScript]]
-* [[tutorials/getting your content online|Getting your content online]]
+* [[tutorials/Getting your content online|Getting your content online]]
 
 ==HTML — structuring your web content==
 
