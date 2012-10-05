@@ -11,7 +11,7 @@
 
 * [[tutorials/svg introduction|SVG introduction]]
 * [[tutorials/svg syntax and deployment|SVG syntax and deployment]]
-* [[tutorials/fills and strokes in SVG|Fills and strokes in SVG]]
+* [[tutorials/fills and strokes in svg|Fills and strokes in SVG]]
 * [[tutorials/building svg paths|Building SVG paths]]
 * [[tutorials/styling svg with css|Styling SVG with CSS]]
 * [[tutorials/using text in svg|Using text in SVG]]
