@@ -1,1 +1,0 @@
-#REDIRECT [[tutorials/external content in svg]]
