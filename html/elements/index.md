@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags}}
 {{Summary_Section|Index page for HTML elements.}}
-[[Category:API_Listing]]
+[[Category:API_Listings]]
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
