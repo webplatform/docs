@@ -5,7 +5,10 @@
 {{Summary_Section|Collection of articles on API objects and their properties‏.}}
 {{API_Listing
 |Query=[[Category:API_Object_Methods]] OR [[Category:API_Object_Properties]] OR [[Category:API_Objects]]
+|Use_page_title=No
+|List_all_subpages=Yes
 }}
+{{Notes_Section}}
 {{See_Also_Section}}
 {{Topics}}
 {{External_Attribution
