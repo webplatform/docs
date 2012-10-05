@@ -1,9 +1,9 @@
-{{Page_Title|Introduction to user experience design}}
+{{Page_Title|User experience design}}
 {{Flags
 |High-level issues=Stub
 }}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Note: the original purpose of this pages has been moved to http://docs.webplatform.org/wiki/concepts/an_introduction_to_digital_design, but this page has been kept, as I feel that UX still probably needs a definition somewhere, even if many people think it is basically just design ;-)}}
 {{Concept_Page
 |Content=Designing a website is not about picking pretty colors and using nice fonts. No, it's not. A website provides services, content and information to its users. And this tool should not be build only for our own will but to meet the visitors' needs. Taking care of our users by designing a tool that is usable, understandable and meeting their expectations as well as ours, can be summarized in 3 words: User eXperience design.
 
