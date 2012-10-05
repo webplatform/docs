@@ -157,10 +157,10 @@ Browsers that do not recognize the new input types will fall back to treating th
 
 One thing to remember for handling older browser is you do not want to throw away any of your existing client-side validation. You can take the following approach to provide fallback support:
 
-1. Create a dummy or hidden input element.
-1. Set the type attribute to the value you wish to check.
-1. If the browser supports this type it will be retained, otherwise it will contain the type will be <code>text<code>.
-1. Check for <code>text</code> type to verify your attribute type is supported.
+# Create a dummy or hidden input element.
+# Set the type attribute to the value you wish to check.
+# If the browser supports this type it will be retained, otherwise it will contain the type will be <code>text</code>.
+# Check for <code>text</code> type to verify your attribute type is supported.
 
 For example,
 
@@ -182,8 +182,8 @@ Instead of your creating your own JavaScript functions, there are existing libra
 
 To ensure compatibility with non-supporting browsers you should always have a fallback for your attributes. This depends on the attribute you are using. For example, the <code>autofocus</code> attribute allows you to focus an input field without using JavaScript. The fallback would be to use the JavaScript <code>focus()</code> method on the input element. Here's an example approach.
 
-1. Create a dummy or hidden form element
-1. Check that the attribute you are looking for exists in that created element.
+# Create a dummy or hidden form element
+# Check that the attribute you are looking for exists in that created element.
 
 For example,
 
