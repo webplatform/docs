@@ -29,12 +29,12 @@ Tab character and the marker between two separate lines in a document
 In HTML, multiple occurrences of these characters are (almost) always
 treated as a single space character. For example:
  
-<pre>&lt;h3&gt;In   the
-                beginning&lt;/h3&gt;</pre>
+<syntaxhighlight lang="html5"><h3>In   the
+                beginning</h3></syntaxhighlight>
 
 would be interpreted by a web browser to be equivalent to:
  
-<pre>&lt;h3&gt;In the beginning&lt;/h3&gt;</pre>
+<syntaxhighlight lang="html5"><h3>In the beginning</h3></syntaxhighlight>
  
 The only place where this is not the case is in the <code>&lt;pre&gt;</code> element, 
 which is discussed in detail later in this article.
@@ -68,17 +68,17 @@ processes (like Google’s indexing bots).
 A good example of a header structure, using this article as a
 template, would look like this:
  
-<pre>&lt;h1&gt;Marking up textual content in HTML&lt;/h1&gt;
-&lt;h2&gt;Introduction&lt;/h2&gt;
-&lt;h2&gt;Space — the final frontier&lt;/h2&gt;
-&lt;h2&gt;Block level elements&lt;/h2&gt;
-&lt;h3&gt;Page section headings&lt;/h3&gt;
-&lt;h3&gt;Generic paragraphs&lt;/h3&gt;
-&lt;h3&gt;Quoting other sources&lt;/h3&gt;
-&lt;h3&gt;Preformatted text&lt;/h3&gt;
-&lt;h2&gt;Inline elements&lt;/h2&gt;
+<syntaxhighlight lang="html5"><h1>Marking up textual content in HTML</h1>
+<h2>Introduction</h2>
+<h2>Space — the final frontier</h2>
+<h2>Block level elements</h2>
+<h3>Page section headings</h3>
+<h3>Generic paragraphs</h3>
+<h3>Quoting other sources</h3>
+<h3>Preformatted text</h3>
+<h2>Inline elements</h2>
 
-[…and so on…]</pre>
+[…and so on…]</syntaxhighlight>
 
 === Generic paragraphs ===
  
@@ -86,7 +86,7 @@ The paragraph is the building block of most documents. In HTML a
 paragraph is represented by the <code>&lt;p&gt;</code> element, which takes no special
 attributes. For example:
  
-<pre>&lt;p&gt;This is a very short paragraph. It only has two sentences.&lt;/p&gt;</pre>
+<syntaxhighlight lang="html5"><p>This is a very short paragraph. It only has two sentences.</p></syntaxhighlight>
 
 A paragraph can contain just one sentence, but taking the literary meaning, further, you can't really call two words a paragraph. There is however no more suitable semantic element for marking up just two words of prose, so stick to the humble <code>&lt;p&gt;</code> element even in these cases, unless it is in fact a list item, heading, link or similar, in which case there will be a more suitable element available.
 
@@ -105,14 +105,14 @@ list of items, use the elements for lists; and so on.
 If the quote comes from another web page, you can indicate this using
 the <code>cite</code> attribute, like so:
  
-<pre>&lt;p&gt;HTML 4.01 is the only version of HTML that you should use
+<syntaxhighlight lang="html5"><p>HTML 4.01 is the only version of HTML that you should use
 when creating a new web page, as, according to the 
-specification:&lt;/p&gt;
-&lt;blockquote cite="http://www.w3.org/TR/html401/"&gt;
-&lt;p&gt;This document obsoletes previous versions of HTML 4.0,
+specification:</p>
+<blockquote cite="http://www.w3.org/TR/html401/">
+<p>This document obsoletes previous versions of HTML 4.0,
 although W3C will continue to make those specifications and
-their DTDs available at the W3C Web site.&lt;/p&gt;
-&lt;/blockquote&gt;</pre>
+their DTDs available at the W3C Web site.</p>
+</blockquote></syntaxhighlight>
 
 The <code>cite</code> attribute doesn't really do anything on its own, although it is useful to keep a record of where the quotes are taken from. You could just JavaScript to extract this information from the <code>cite</code> attribute and do something meaningful with it, like open a new tab with that page loaded in it, for example.
 
@@ -120,7 +120,7 @@ The <code>cite</code> attribute doesn't really do anything on its own, although 
  
 Any case in which the formatting and white space (see earlier) needs to be preserved should be marked up using the <code>&lt;pre&gt;</code> element. In this example, you can see a snippet of code written in the Perl programming language:
  
-<pre>&lt;pre&gt;&lt;code class="language-perl"&gt;
+<syntaxhighlight lang="html5"><pre><code class="language-perl">
 # read in the named file in its entirety
 sub slurp {
   my $filename = shift;
@@ -128,11 +128,11 @@ sub slurp {
                 
   if ( defined $file ) {
     local $/;
-    return &lt;$file&gt;;
+    return <$file>;
   }
   return undef;
 };
-&lt;/code&gt;&lt;/pre&gt;</pre>
+</code></pre></syntaxhighlight>
  
 In most web browsers, text marked as preformatted will be displayed
 to the user as it appears in the source, sometimes using a fixed-width
@@ -159,8 +159,8 @@ made aware of the language being used in the document.
  
 An example of <code>&lt;q&gt;</code> in action:
  
-<pre>&lt;p&gt;This did not end well for me. Oh well, 
-              &lt;q lang="fr"&gt;c'est la vie&lt;/q&gt; as the French say.&lt;/p&gt;</pre>
+<syntaxhighlight lang="html5"><p>This did not end well for me. Oh well, 
+              <q lang="fr">c'est la vie</q> as the French say.</p></syntaxhighlight>
 
 === Emphasis ===
  
@@ -171,7 +171,7 @@ HTML contains four elements for indicating emphasis of some kind, such as import
 For emphasis that subtly changes the meaning of a sentence, you use the <code>&lt;em&gt;</code> element, like 
 so:
  
-<pre>&lt;p&gt;&lt;em&gt;Please&lt;/em&gt; remember to unplug the kettle at night.&lt;/p&gt;</pre>
+<syntaxhighlight lang="html5"><p><em>Please</em> remember to unplug the kettle at night.</p></syntaxhighlight>
 
 ==== &lt;i&gt; ====
 
@@ -179,26 +179,27 @@ The <code>&lt;i&gt;</code> element used to mean italic in HTML4, and this was co
 
 This does sound rather confusing, so here are some examples of where <code>&lt;i&gt;</code> would be appropriate:
 
-<pre>&lt;p&gt;As we sailed into port, we spied the &lt;i&gt;Black Pearl&lt;/i&gt; moored at the dock.&lt;/p&gt;
+<syntaxhighlight lang="html5"><p>As we sailed into port, we spied the <i>Black Pearl</i> moored at the dock.</p>
  
-&lt;p&gt;Book: &lt;i&gt;Living with a Diminutive Stature&lt;/i&gt;, Bruce Lawson, Peachpit Press,
-published &lt;time pubdate="2011-08-01"&gt;1st August 2011&lt;/time&gt;,
-ISBN 999-0-388-99999-6&lt;/p&gt;
+<p>Book: <i>Living with a Diminutive Stature</i>, Bruce Lawson, Peachpit Press,
+published <time pubdate="2011-08-01">1st August 2011</time>,
+ISBN 999-0-388-99999-6</p>
  
-&lt;p&gt;She really does add that little bit of &lt;i lang="fr"&gt;je ne sais quoi&lt;/i&gt;.&lt;/p&gt;</pre>
+<p>She really does add that little bit of <i lang="fr">je ne sais quoi</i>.</p></syntaxhighlight>
 
 ==== &lt;strong&gt; ====
 
 The <code>&lt;strong&gt;</code> element indicates strong importance for its contents: that they are more important than surrounding content. For example:
 
-&lt;p&gt;There are a total of twenty different species living inside this enclosure. &lt;strong&gt;Warning: Do not feed them: they will eat your shoes&lt;/strong&gt;.&lt;/p&gt;
+<syntaxhighlight lang="html5">
+<p>There are a total of twenty different species living inside this enclosure. <strong>Warning: Do not feed them: they will eat your shoes</strong>.</p></syntaxhighlight>
 
 ==== &lt;b&gt; ====
 
 The <code>&lt;b&gt;</code> element again used to be frowned upon because it described the look of the content, not its meaning. HTML5 has therefore redefined this element too: it is now meant to markup content that is stylistically offset from the rest of the text, but no more important in terms of its meaning. So for example, consider the most significant words in a product review or document abstract. An example follows:
 
-<pre>&lt;p&gt;In this article, Chris Mills will show you how to combine &lt;b&gt;HTML5&lt;/b&gt;, &lt;b&gt;CSS3&lt;/b&gt;, &lt;b&gt;coloured card&lt;/b&gt;
-and &lt;b&gt;string&lt;/b&gt; to create an attractive mobile for your child's bedroom.&lt;/p&gt;</pre>
+<syntaxhighlight lang="html5"><p>In this article, Chris Mills will show you how to combine <b>HTML5</b>, <b>CSS3</b>, <b>coloured card</b>
+and <b>string</b> to create an attractive mobile for your child's bedroom.</p></syntaxhighlight>
 
 ==== Combining emphasis elements ====
 
@@ -207,44 +208,44 @@ point within that sentence that was more important, you could use
 the <code>&lt;strong&gt;</code> and <code>&lt;em&gt;</code>elements together to indicate stronger emphasis than normal, like
 so:
  
-<pre>&lt;p&gt;&lt;em&gt;Please note: the kettle &lt;strong&gt;must&lt;/strong&gt; be unplugged every evening, otherwise it will explode -
-&lt;strong&gt;killing us all&lt;/strong&gt;&lt;/em&gt;.&lt;/p&gt;</pre>
+<syntaxhighlight lang="html5"><p><em>Please note: the kettle <strong>must</strong> be unplugged every evening, otherwise it will explode -
+<strong>killing us all</strong></em>.</p></syntaxhighlight>
 
 === Small print ===
 
 Another element  that was presentational and therefore naughty in HTML4, but that has been redefined in HTML5 is <code>&lt;small&gt;</code>.  It used to be a presentational element for making text appear smaller, but in HTML5 it is now used to mark up small print, such as legal restrictions, disclaimers, copyright notices, attribution statements, or licensing information. For example:
 
-<pre>&lt;p&gt;&lt;small&gt;This content is released under a &lt;a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/"&gt;
-Creative Commons Attribution Share-alike license&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</pre>
+<syntaxhighlight lang="html5"><p><small>This content is released under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">
+Creative Commons Attribution Share-alike license</a>.</small></p></syntaxhighlight>
 
 === Telling the time ===
 
 New to HTML5, the <code>&lt;time&gt;</code> element gives you a way to unambiguously markup any times and dates you include in your text, allowing you to display them however you want to your readers, whilst including a consistent ISO-formatted date that machines can read. Here's an example:
 
-<pre>&lt;p&gt;I was born on the &lt;time datetime="1978-06-27"&gt;27&lt;sup&gt;th&lt;/sup&gt; June 1978&lt;/time&gt;.&lt;/p&gt;</pre>
+<syntaxhighlight lang="html5"><p>I was born on the <time datetime="1978-06-27">27<sup>th</sup> June 1978</time>.</p></syntaxhighlight>
 
 Because you can put whatever you want inbetween the opening and closing tags, you could write this any number of ways, while still keeping the date precise and machine readable:
 
-<pre>&lt;p&gt;&lt;time datetime="1978-06-27"&gt;June 27 1978 - my birthday&lt;/time&gt;.&lt;/p&gt;</pre>
+<syntaxhighlight lang="html5"><p><time datetime="1978-06-27">June 27 1978 - my birthday</time>.</p></syntaxhighlight>
 
 You can also add a time on to the date, appended to the end of the ISO-formatted string after a capital T, in 24 hour clock format:
 
-<pre>&lt;p&gt;&lt;time datetime="1978-06-27T21:00"&gt;9pm on my birthday&lt;/time&gt;.&lt;/p&gt;</pre>
+<syntaxhighlight lang="html5"><p><time datetime="1978-06-27T21:00">9pm on my birthday</time>.</p></syntaxhighlight>
  
 You can just specify the time if you want
 
-<pre>&lt;p&gt;&lt;time datetime="21:00"&gt;9pm&lt;/time&gt;.&lt;/p&gt;</pre>
+<syntaxhighlight lang="html5"><p><time datetime="21:00">9pm</time>.</p></syntaxhighlight>
 
 Although note that you can't currently specify a non-specific date, such as "August 2011" or "2011" - this is a bit limiting for say, museum web sites.
 
 You can also add a number of seconds (after another colon), milliseconds (after a period) and a time zone offset (after a dash) after the time value. Check out the following:
 
-<pre>&lt;p&gt;&lt;time datetime="1978-06-27T21:00:00.006-08:00"&gt;9pm and 6 milliseconds
-on my birthday, in Pacific standard time&lt;/time&gt;.&lt;/p&gt;</pre>
+<syntaxhighlight lang="html5"><p><time datetime="1978-06-27T21:00:00.006-08:00">9pm and 6 milliseconds
+on my birthday, in Pacific standard time</time>.</p></syntaxhighlight>
  
 Finally, you can also add a pubdate attribute to a <code>&lt;time&gt;</code> element, to specify that this datetime is the date and time that the particular piece of content was published:
 
-<pre>&lt;p&gt;Published on &lt;time datetime="2011-07-20" pubdate&gt;July 27&lt;sup&gt;th&lt;/sup&gt; 2011&lt;/time&gt;.&lt;/p&gt;</pre>
+<syntaxhighlight lang="html5"><p>Published on <time datetime="2011-07-20" pubdate>July 27<sup>th</sup> 2011</time>.</p></syntaxhighlight>
 
 == Presentational elements — never use these ==
  
