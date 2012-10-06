@@ -17,19 +17,19 @@ Links are parts of a web site that point to other resources — other HTML docum
  
 You can turn any inline element in the document into an anchor link by adding an <code>&lt;a&gt;</code> element around it. For example, in the following HTML document the text ''Opera Software'' gets turned into a link ([http://dev.opera.com/articles/view/18-html-links-let-s-build-a-web/linkexample.html linkexample.html]).
  
-<pre>&lt;!DOCTYPE html&gt;
+<syntaxhighlight lang="html5"><!DOCTYPE html>
 
-&lt;html lang="en-GB"&gt;
-&lt;head&gt;
-  &lt;meta charset="utf-8"&gt;
-  &lt;title&gt;Link Example&lt;/title&gt;
-  &lt;link rel="stylesheet" href="styles.css"&gt;
-&lt;/head&gt;
-&lt;body&gt;
-  &lt;h1&gt;A link to Opera&lt;/h1&gt;
-  &lt;p&gt;&lt;a href="http://www.opera.com"&gt;Opera Software&lt;/a&gt;&lt;/p&gt;
-&lt;/body&gt;
-&lt;/html&gt;</pre>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <title>Link Example</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>A link to Opera</h1>
+  <p><a href="http://www.opera.com">Opera Software</a></p>
+</body>
+</html></syntaxhighlight>
  
 Visitors activating this link (either by clicking it with a mouse, or activating it with the keyboard or voice in some cases) will leave the current site and go to the Opera home page. There are more changes happening to the link itself, and we’ll see about them later when we talk about link styling.
  
@@ -57,76 +57,76 @@ Using an absolute or relative URL will make an <code>&lt;a&gt;</code> element in
 
 You can also put an <code>id</code> attribute on an <code>&lt;a&gt;</code> element, to make it into a page anchor. You then reference that ID in the <code>href attribute of another link to link to it. For example:</code>
 
-<pre>&lt;h2&gt;&lt;a id="sec1"&gt;Section #1&lt;/a&gt;&lt;/h2&gt;</pre>
+<syntaxhighlight lang="html5"><h2><a id="sec1">Section #1</a></h2></syntaxhighlight>
 
 Could be linked to by 
 
-<pre>&lt;a href="#sec1"&gt;Section One&lt;/a&gt;</pre>
+<syntaxhighlight lang="html5"><a href="#sec1">Section One</a></syntaxhighlight>
 
 But most browsers you'll want to support these days allow you to write a shortcut for this, and put the ID directly on the element you want to link to, for example:
 
-<pre>&lt;h2 id="sec1"&gt;Section #1&lt;/h2&gt;</pre>
+<syntaxhighlight lang="html5"><h2 id="sec1">Section #1</h2></syntaxhighlight>
 
 This is much simpler, so we'd recommend that you stick to this.
 
 The following HTML has examples of all the different types of links in it ([http://dev.opera.com/articles/view/18-html-links-let-s-build-a-web/linkexamples.html linkexamples.html]):
  
-<pre>&lt;!DOCTYPE html&gt;
+<syntaxhighlight lang="html5"><!DOCTYPE html>
 
-&lt;html lang="en-GB"&gt;
-&lt;head&gt;
-  &lt;meta charset="utf-8"&gt;
-  &lt;title&gt;Different Links Example&lt;/title&gt;
-  &lt;link rel="stylesheet" href="linkexamplestyles.css"&gt;
-&lt;/head&gt;
-&lt;body&gt;
-  &lt;h1&gt;Different Links&lt;/h1&gt;
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <title>Different Links Example</title>
+  <link rel="stylesheet" href="linkexamplestyles.css">
+</head>
+<body>
+  <h1>Different Links</h1>
 
-  &lt;h2&gt;Example of in-page navigation with fragment identifiers, links and anchors&lt;/h2&gt;
-  &lt;div id="nav"&gt;
-    &lt;ul id="toc"&gt;
-      &lt;li&gt;&lt;a href="#sec1"&gt;Section One&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href="#sec2"&gt;Section Two&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href="#sec3"&gt;Section Three&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href="#sec4"&gt;Section Four&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href="#sec5"&gt;Section Five&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/div&gt;
+  <h2>Example of in-page navigation with fragment identifiers, links and anchors</h2>
+  <div id="nav">
+    <ul id="toc">
+      <li><a href="#sec1">Section One</a></li>
+      <li><a href="#sec2">Section Two</a></li>
+      <li><a href="#sec3">Section Three</a></li>
+      <li><a href="#sec4">Section Four</a></li>
+      <li><a href="#sec5">Section Five</a></li>
+    </ul>
+  </div>
 
-  &lt;div id="content"&gt;
-    &lt;div&gt;
-      &lt;h2 id="sec1"&gt;Section #1&lt;/h2&gt;
-      &lt;p&gt;&lt;a href="#toc"&gt;Back to menu&lt;/a&gt;&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div&gt;
-      &lt;h2 id="sec2"&gt;Section #2&lt;/h2&gt;
-      &lt;p&gt;&lt;a href="#toc"&gt;Back to menu&lt;/a&gt;&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div&gt;
-      &lt;h2 id="sec3"&gt;Section #3&lt;/h2&gt;
-      &lt;p&gt;&lt;a href="#toc"&gt;Back to menu&lt;/a&gt;&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div&gt;
-      &lt;h2 id="sec4"&gt;Section #4&lt;/h2&gt;
-      &lt;p&gt;&lt;a href="#toc"&gt;Back to menu&lt;/a&gt;&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div&gt;
-      &lt;h2 id="sec5"&gt;Section #5&lt;/h2&gt;
-      &lt;p&gt;&lt;a href="#toc"&gt;Back to menu&lt;/a&gt;&lt;/p&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
+  <div id="content">
+    <div>
+      <h2 id="sec1">Section #1</h2>
+      <p><a href="#toc">Back to menu</a></p>
+    </div>
+    <div>
+      <h2 id="sec2">Section #2</h2>
+      <p><a href="#toc">Back to menu</a></p>
+    </div>
+    <div>
+      <h2 id="sec3">Section #3</h2>
+      <p><a href="#toc">Back to menu</a></p>
+    </div>
+    <div>
+      <h2 id="sec4">Section #4</h2>
+      <p><a href="#toc">Back to menu</a></p>
+    </div>
+    <div>
+      <h2 id="sec5">Section #5</h2>
+      <p><a href="#toc">Back to menu</a></p>
+    </div>
+  </div>
 
-  &lt;h2&gt;Some other link examples&lt;/h2&gt;
+  <h2>Some other link examples</h2>
 
-  &lt;ul&gt;
-    &lt;li&gt;&lt;a href="http://dev.opera.com"&gt;Opera Developer Network&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="http://www.wait-till-i.com/stuff/JavaScript-DOM-Cheatsheet.pdf"&gt;Dom Cheatsheet&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="ftp://get.opera.com/pub/opera/win/"&gt;Download different Opera versions&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="http://farm1.static.flickr.com/56/188791635_0b8bdd808d.jpg?v=0"&gt;Photo of my book&lt;/a&gt;&lt;/li&gt;
-  &lt;/ul&gt;
+  <ul>
+    <li><a href="http://dev.opera.com">Opera Developer Network</a></p></li>
+    <li><a href="http://www.wait-till-i.com/stuff/JavaScript-DOM-Cheatsheet.pdf">Dom Cheatsheet</a></p></li>
+    <li><a href="ftp://get.opera.com/pub/opera/win/">Download different Opera versions</a></li>
+    <li><a href="http://farm1.static.flickr.com/56/188791635_0b8bdd808d.jpg?v=0">Photo of my book</a></li>
+  </ul>
 
-  &lt;/body&gt;
-&lt;/html&gt;</pre>
+  </body>
+</html></syntaxhighlight>
  
 Open this file in your browser of choice and experiment with it. You’ll find that activating any of the links in the first list will jump to the appropriate section of the document. You might also have realized that the URL in the location bar of your browser changed and now shows the fragment identifier at the end of it, which means visitors can bookmark this section or email the link to other people to send them exactly where they should go. To recap:
  
@@ -144,25 +144,25 @@ The most important thing to remember about links is that they are a substantial 
  
 Like almost any other HTML element you can add a <code>title</code> attribute to an <code>&lt;a&gt;</code> element to add some extra information. Browsers will show a so-called tooltip when visitors hover their mouse cursor over the link. This tooltip then tells them what the link is about. For example you could give a small introduction to the content and location of the linked document ([http://dev.opera.com/articles/view/18-html-links-let-s-build-a-web/titleexample.html titleexample.html]):
  
-<pre>&lt;!DOCTYPE html&gt;
+<syntaxhighlight lang="html5"><!DOCTYPE html>
 
-&lt;html lang="en-GB"&gt;
-&lt;head&gt;
-  &lt;meta charset="utf-8"&gt;
-&lt;title&gt;Adding extra information with a title attribute&lt;/title&gt;
-&lt;link rel="stylesheet" href="linkexamplestyles.css"&gt;
-&lt;/head&gt;
-&lt;body&gt;
-  &lt;h1&gt;Adding extra information with a title attribute&lt;/h1&gt;
-  &lt;ul&gt;
-    &lt;li&gt;Find more information on the &lt;a title="The Yahoo Developer Network is the main hub for all the developer
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+<title>Adding extra information with a title attribute</title>
+<link rel="stylesheet" href="linkexamplestyles.css">
+</head>
+<body>
+  <h1>Adding extra information with a title attribute</h1>
+  <ul>
+    <li>Find more information on the <a title="The Yahoo Developer Network is the main hub for all the developer
      tools Yahoo offers, including the Yahoo User Interface Library (YUI) and the Design Patterns repository"
-     href="http://developer.yahoo.com"&gt;Yahoo Developer Network&lt;/a&gt;.&lt;/li&gt;
-  &lt;/ul&gt;
+     href="http://developer.yahoo.com">Yahoo Developer Network</a>.</li>
+  </ul>
 
-  &lt;/body&gt;
-&lt;/html&gt;
-</pre>
+  </body>
+</html>
+</syntaxhighlight>
  
 However, you cannot expect visitors to have enough patience and hand-eye coordination to rely on this for crucial information. Visually impaired users, who cannot see the page at all, are very likely not to be able to reach this information. While screen readers have the option to read out <code>title</code> attributes for the end user it is turned off by default, which is why you should never use the <code>title</code> attribute for crucial information about the link. 
 
@@ -178,30 +178,30 @@ It can be very annoying when you click on a link and your browser does not know 
  
 One of the biggest success factors of a web product is not keeping people guessing what happens when they perform an action and instead tell them flat out what effects their action will have. In the case of links all you need to do to prevent a lot of frustration is to tell your visitors what the linked resource is. Here are some examples ([http://dev.opera.com/articles/view/18-html-links-let-s-build-a-web/linkingnonhtml.html linkingnonhtml.html]):
  
-<pre>&lt;!DOCTYPE html&gt;
+<syntaxhighlight lang="html5"><!DOCTYPE html>
 
-&lt;html lang="en-GB"&gt;
-&lt;head&gt;
-  &lt;meta charset="utf-8"&gt;
-&lt;title&gt;Linking non-HTML resources&lt;/title&gt;
-&lt;link rel="stylesheet" href="linkexamplestyles.css"&gt;
-&lt;/head&gt;
-&lt;body&gt;
-  &lt;h1&gt;Linking non-HTML resources&lt;/h1&gt;
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+<title>Linking non-HTML resources</title>
+<link rel="stylesheet" href="linkexamplestyles.css">
+</head>
+<body>
+  <h1>Linking non-HTML resources</h1>
 
-  &lt;ul&gt;
-    &lt;li&gt;Find more information on the &lt;a href="http://developer.yahoo.com"&gt;Yahoo
-      Developer Network site (external)&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;Download the &lt;a href="http://www.wait-till-i.com/stuff/JavaScript-DOM-Cheatsheet.pdf"&gt;
-      Dom Cheatsheet (PDF, 85KB)&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;Pick and &lt;a href="ftp://get.opera.com/pub/opera/win/"&gt;download different Opera
-      versions from their FTP (external)&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;Check out a &lt;a href="http://farm1.static.flickr.com/56/188791635_0b8bdd808d.jpg?v=0"&gt;
-      Photo of my book (JPG, 200KB)&lt;/a&gt;&lt;/li&gt;
-  &lt;/ul&gt;
+  <ul>
+    <li>Find more information on the <a href="http://developer.yahoo.com">Yahoo
+      Developer Network site (external)</a></li>
+    <li>Download the <a href="http://www.wait-till-i.com/stuff/JavaScript-DOM-Cheatsheet.pdf">
+      Dom Cheatsheet (PDF, 85KB)</a></li>
+    <li>Pick and <a href="ftp://get.opera.com/pub/opera/win/">download different Opera
+      versions from their FTP (external)</a></li>
+    <li>Check out a <a href="http://farm1.static.flickr.com/56/188791635_0b8bdd808d.jpg?v=0">
+      Photo of my book (JPG, 200KB)</a></li>
+  </ul>
 
-  &lt;/body&gt;
-&lt;/html&gt;</pre>
+  </body>
+</html></syntaxhighlight>
  
 By providing such information about linked files and their nature you leave the decision of what to do with them to your visitors rather than expecting them to have certain browser settings or installed software. If you mix that with clever styling you can even make such links look pretty and intuitive (for example, by giving different types of link different easily recognisable icons - find more out about this in [[Styling lists and links]]). If you want to be very safe, also offer a help section that explains what the different file formats are and where you could get the software needed to display them.
 
@@ -264,14 +264,14 @@ In HTML4, the <code>&lt;a&gt;</code> element was restricted to just turning othe
 
 HTML5 removes this restriction, allowing you to put a link round any amount of content you want. To get it to behave properly, you'll currently still have to set the link to behave like a block level element, but this is immediately a lot more flexible than what went before. Let's look at an example:
 
-<pre>&lt;!DOCTYPE html&gt;
+<syntaxhighlight lang="html5"><!DOCTYPE html>
 
-&lt;html lang="en-GB"&gt;
-&lt;head&gt;
-  &lt;meta charset="utf-8"&gt;
-  &lt;title&gt;Block level link Example&lt;/title&gt;
-  &lt;link rel="stylesheet" href="styles.css"&gt;
-  &lt;style&gt;
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <title>Block level link Example</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
     a {
       display: block;
       background-color: blue;
@@ -285,15 +285,15 @@ HTML5 removes this restriction, allowing you to put a link round any amount of c
       background-color: red;
     } 
     
-  &lt;/style&gt;
-&lt;/head&gt;
-&lt;body&gt;
-  &lt;a href="http://www.opera.com"&gt;
-    &lt;h1&gt;A link to Opera&lt;/h1&gt;
-    &lt;p&gt;Opera Software&lt;/p&gt;
-  &lt;/a&gt;
-&lt;/body&gt;
-&lt;/html&gt;</pre>
+  </style>
+</head>
+<body>
+  <a href="http://www.opera.com">
+    <h1>A link to Opera</h1>
+    <p>Opera Software</p>
+  </a>
+</body>
+</html></syntaxhighlight>
 
 Here you can see that I've got the <code>&lt;a&gt;</code> element wrapping both a heading and a paragraph. To make this work correctly I've set it to <code>display: block;</code> in the CSS. If you [[http://devfiles.myopera.com/articles/373/blocklevellink.html try the example out yourself]], you'll see that the entire block is part of the clickable link area. I have added a colour changing hover effect to make this more visible.
 
