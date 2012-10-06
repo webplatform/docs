@@ -31,17 +31,17 @@ There are two main ways to add images to a document: content images using the <c
  
 Adding an image to an HTML document is very easy using the <code>&lt;img&gt;</code> element: you include the location of the image you want to display inside a <code>src</code> (source) attribute, and away you go. The following HTML document ([http://dev.opera.com/articles/view/17-images-in-html/inlineimageexample.html inlineimageexample.html] in the zip file) displays the photo balconyview.jpg in a browser (provided that you have the image in the same folder as the HTML file.)
 
-<pre>&lt;!DOCTYPE html&gt;
+<syntaxhighlight lang="html5"><!DOCTYPE html>
 
-&lt;html lang="en-GB"&gt;
-&lt;head&gt;
-  &lt;meta charset="utf-8"&gt;
-  &lt;title&gt;Example of an inline image&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;img src="balconyview.jpg"&gt;
-&lt;/body&gt;
-&lt;/html&gt;</pre>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <title>Example of an inline image</title>
+</head>
+<body>
+<img src="balconyview.jpg">
+</body>
+</html></syntaxhighlight>
  
 If you run this code in a browser, you’ll get an output as shown in Figure 1.
 
@@ -57,17 +57,17 @@ You’ll find a lot of texts on the web talking about “alt tags”. This is fa
  
 In order to make the image understandable for everybody you need to add a proper alternative text, for example in this case “View from my balcony, showing a row of houses, trees and a castle” ([http://dev.opera.com/articles/view/17-images-in-html/inlineimageexamplealt.html inlineimageexamplealt.html]):
  
-<pre>&lt;!DOCTYPE html&gt;
+<syntaxhighlight lang="html5"><!DOCTYPE html>
 
-&lt;html lang="en-GB"&gt;
-&lt;head&gt;
-  &lt;meta charset="utf-8"&gt;
-  &lt;title&gt;Example of an inline image&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;img src="balconyview.jpg" alt="View from my balcony, showing a row of houses, trees and a castle"&gt;
-&lt;/body&gt;
-&lt;/html&gt;</pre>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <title>Example of an inline image</title>
+</head>
+<body>
+<img src="balconyview.jpg" alt="View from my balcony, showing a row of houses, trees and a castle">
+</body>
+</html></syntaxhighlight>
  
 The <code>alt</code> attribute contains the text that should be displayed when the image is not available. The information in the <code>alt</code> attribute should not be displayed when the image was successfully loaded and shown; Internet Explorer gets this wrong, and shows it as a tooltip when you hover your mouse pointer over the image for a while. This is a mistake, as it leads a lot of people to add additional information about the image into the <code>alt</code> attribute. If you wanted to add additional information, you should use the <code>title</code> attribute instead, which I’ll get on to in the next section.
  
@@ -75,17 +75,17 @@ The <code>alt</code> attribute contains the text that should be displayed when t
  
 Most browsers will display the value of an <code>&lt;img&gt;</code> element’s <code>title</code> attribute as a tool-tip when you hover your mouse cursor over it (see Figure 2.) This can help a visitor learn more about the image, but you cannot rely on each visitor to have a mouse. The <code>title</code> attribute can be very useful, but it is not a safe way of providing crucial information. Instead it offers a good way to provide non-essential information, for example the mood of the image, or what it means in context ([http://dev.opera.com/articles/view/17-images-in-html/inlineimagewithtitle.html inlineimagewithtitle.html]):
  
-<pre>&lt;!DOCTYPE html&gt;
+<syntaxhighlight lang="html5"><!DOCTYPE html>
 
-&lt;html lang="en-GB"&gt;
-&lt;head&gt;
-  &lt;meta charset="utf-8"&gt;
-  &lt;title&gt;Example of an inline image with alternative text and title&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;img src="balconyview.jpg" alt="View from my balcony, showing a row of houses, trees and a castle" title="What I see when I look out of my window; the castle was one reason to move there."&gt;
-&lt;/body&gt;
-&lt;/html&gt;</pre>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <title>Example of an inline image with alternative text and title</title>
+</head>
+<body>
+<img src="balconyview.jpg" alt="View from my balcony, showing a row of houses, trees and a castle" title="What I see when I look out of my window; the castle was one reason to move there.">
+</body>
+</html></syntaxhighlight>
  
 If you load this code in your browser, you will see the display shown in Figure 2.
 
@@ -99,45 +99,45 @@ If the image is a very complex image, like for example a chart, you can offer a 
 
 This attribute contains a URL that points to a document containing the same information. For example, if you have a chart showing a set of data, you can link it to a data table with the same information using <code>&lt;longdesc&gt;</code> ([http://dev.opera.com/articles/view/17-images-in-html/inlineimagelongdesc.html inlineimagelongdesc.html]):
  
-<pre>&lt;!DOCTYPE html&gt;
+<syntaxhighlight lang="html5"><!DOCTYPE html>
 
-&lt;html lang="en-GB"&gt;
-&lt;head&gt;
-  &lt;meta charset="utf-8"&gt;
-  &lt;title&gt;Example of an inline image with longdesc&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;img src="chart.png" width="450" height="150" alt="Chart showing the fruit consumption amongst under 15 year olds. Most children ate Pineapples, followed by Pears" longdesc="fruitconsumption.html"&gt;
-&lt;/body&gt;
-&lt;/html&gt;</pre>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <title>Example of an inline image with longdesc</title>
+</head>
+<body>
+<img src="chart.png" width="450" height="150" alt="Chart showing the fruit consumption amongst under 15 year olds. Most children ate Pineapples, followed by Pears" longdesc="fruitconsumption.html">
+</body>
+</html></syntaxhighlight>
  
 The data file [http://dev.opera.com/articles/view/17-images-in-html/fruitconsumption.html fruitconsumption.html] contains a very simple data table that represents the same data:
  
-<pre>&lt;!DOCTYPE html&gt;
+<syntaxhighlight lang="html5"><!DOCTYPE html>
 
-&lt;html lang="en-GB"&gt;
-&lt;head&gt;
-  &lt;meta charset="utf-8"&gt;
-  &lt;title&gt;Fruit consumption&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;table summary="Fruit Consumption of under 15 year olds, March 2007"&gt;
-  &lt;caption&gt;Fruit Consumption&lt;/caption&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;&lt;th scope="col"&gt;Fruit&lt;/th&gt;&lt;th scope="col"&gt;Amount&lt;/th&gt;&lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;&lt;td&gt;Apples&lt;/td&gt;&lt;td&gt;10&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;Oranges&lt;/td&gt;&lt;td&gt;58&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;Pineapples&lt;/td&gt;&lt;td&gt;95&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;Bananas&lt;/td&gt;&lt;td&gt;30&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;Raisins&lt;/td&gt;&lt;td&gt;8&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;Pears&lt;/td&gt;&lt;td&gt;63&lt;/td&gt;&lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;&lt;a href="inlineimagelongdesc.html"&gt;Back to article&lt;/a&gt;&lt;/p&gt;
-&lt;/body&gt;
-&lt;/html&gt;</pre>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <title>Fruit consumption</title>
+</head>
+<body>
+<table summary="Fruit Consumption of under 15 year olds, March 2007">
+  <caption>Fruit Consumption</caption>
+  <thead>
+    <tr><th scope="col">Fruit</th><th scope="col">Amount</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Apples</td><td>10</td></tr>
+    <tr><td>Oranges</td><td>58</td></tr>
+    <tr><td>Pineapples</td><td>95</td></tr>
+    <tr><td>Bananas</td><td>30</td></tr>
+    <tr><td>Raisins</td><td>8</td></tr>
+    <tr><td>Pears</td><td>63</td></tr>
+  </tbody>
+</table>
+<p><a href="inlineimagelongdesc.html">Back to article</a></p>
+</body>
+</html></syntaxhighlight>
  
 The two different data representations side by side look like that seen in Figure 3.
 
@@ -151,17 +151,17 @@ Note that there is no visual clue that there is a long description file connecte
  
 When the user agent finds an <code>&lt;img&gt;</code> element in the HTML, it starts loading the image the <code>src</code> attribute points to. By default, it doesn’t know the image’s dimensions, so it’ll just display all the text lumped together, then shift the rest of the document around when the images finally load and appear. This can slow down page loading and looks a bit confusing and unsightly to page visitors that see it happening. To stop this you can tell the browser to allocate the right amount of space for the images before they load by giving it the image’s dimensions using the <code>width</code> and <code>height</code> attributes ([http://dev.opera.com/articles/view/17-images-in-html/inlineimagewithdimensions.html inlineimagewithdimensions.html]):
  
-<pre>&lt;!DOCTYPE html&gt;
+<syntaxhighlight lang="html5"><!DOCTYPE html>
 
-&lt;html lang="en-GB"&gt;
-&lt;head&gt;
-  &lt;meta charset="utf-8"&gt;
-  &lt;title&gt;Example of an inline image with dimensions&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;img src="balconyview.jpg" alt="View from my balcony, showing a row of houses, trees and a castle" width="400" height="186"&gt;
-&lt;/body&gt;
-&lt;/html&gt;</pre>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <title>Example of an inline image with dimensions</title>
+</head>
+<body>
+<img src="balconyview.jpg" alt="View from my balcony, showing a row of houses, trees and a castle" width="400" height="186">
+</body>
+</html></syntaxhighlight>
  
 This will display a placeholder the same size as the image until the image loads and takes up its place, therefore avoiding the unsightly page shift. You can also resize images using these attributes (try halving the attribute values in the above example, saving it, and then reloading the page), but this is not a good idea as the quality of resizing is not smooth in all browsers. It is especially bad to resize images to become thumbnails, as the idea of thumbnails is that you not only have a smaller image in physical size, but also in file size. Nobody wants to load a 300KB photo just to see a small image that could be 5KB.
 
@@ -171,47 +171,47 @@ One problem that has always existed with HTML images is the choice of what conta
 
 In HTML4, the most common thing to do to achieve this is put the image inside a <code>&lt;p&gt;</code> or <code>&lt;div&gt;</code>, but neither of these is ideal - an image isn't a paragraph, and a division is semantically anonymous. Taking this on board, the creators of HTML5 introduced a special element to take care of this: <code>&lt;figure&gt;</code>. This element is designed to contain a figure, which could be an image, two images, or a combination of several multimedia elements, text, or other stuff. Let's look at an example:
 
-<pre>&lt;html lang="en-GB"&gt;
-&lt;head&gt;
-  &lt;meta charset="utf-8"&gt;
-  &lt;title&gt;Figure element with figcaption example&lt;/title&gt;
-  &lt;style&gt;
+<syntaxhighlight lang="html5"><html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <title>Figure element with figcaption example</title>
+  <style>
     figure,figcaption {
       display: block;
     }
-  &lt;/style&gt;
-  &lt;script&gt;
+  </style>
+  <script>
     document.createElement('figure');
     document.createElement('figcaption'); 
-  &lt;/script&gt;
-&lt;/head&gt;
-&lt;body&gt;
-  &lt;figure&gt;
-    &lt;img src="balconyview.jpg" alt="View from my balcony, showing a row of houses,
-    trees and a castle" width="400" height="186"&gt;
-    &lt;figcaption&gt;The view from outside my window.&lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/body&gt;
-&lt;/html&gt;</pre>
+  </script>
+</head>
+<body>
+  <figure>
+    <img src="balconyview.jpg" alt="View from my balcony, showing a row of houses,
+    trees and a castle" width="400" height="186">
+    <figcaption>The view from outside my window.</figcaption>
+  </figure>
+</body>
+</html></syntaxhighlight>
 
 
 == Proper captions using HTML5 &lt;figcaption&gt; ==
 
 Another new addition to HTML5 is an element for containing figure captions. Previously this was done using <code>&lt;p&gt;</code>, or some other not wholly appropriate element, but now we have the <code>&lt;figcaption&gt;</code> element. Nested inside a <code>&lt;figure&gt;</code>, it says "this is the caption to go along with the contents of this figure." For example:
 
-<pre>&lt;html lang="en-GB"&gt;
+<syntaxhighlight lang="html5"><html lang="en-GB">
 
   ...
   
-  &lt;figure&gt;
-    &lt;img src="balconyview.jpg" alt="View from my balcony, showing a row of houses,
-    trees and a castle" width="400" height="186"&gt;
-    &lt;figcaption&gt;The view from outside my window.&lt;/figcaption&gt;
-  &lt;/figure&gt;
+  <figure>
+    <img src="balconyview.jpg" alt="View from my balcony, showing a row of houses,
+    trees and a castle" width="400" height="186">
+    <figcaption>The view from outside my window.</figcaption>
+  </figure>
 
   ...
 
-&lt;/html&gt;</pre>
+</html></syntaxhighlight>
 
 Note that the contents of the figure caption do not necessarily act as a replacement for the contents of the <code>alt</code> attribute or the <code>title</code> attribute: it depends on whether the caption accurately describes everything in the image or not, or provides the same supplementary information that the <code>title</code> attribute does. In this case, we need an <code>alt</code> attribute as well, as sighted users can see what is in the image by looking at it. The <code>alt</code> attribute says exactly what the image contains for the benefit of people who can't see it, while the caption gives some more context.
 
@@ -232,7 +232,7 @@ Figure 4: Backgrounds with CSS.
  
 The different boxes are actually styled <code>&lt;h2&gt;</code> heading elements with some padding and borders applied through CSS to give us enough space to show the background image. If you check out the HTML file, you’ll see that each <code>&lt;h2&gt;</code> element has a unique <code>&lt;id&gt;</code> so each one can have a different CSS rule applied to it. The CSS for the first example is the following:
  
-<pre>background-image:url (ball.gif);</pre>
+<syntaxhighlight lang="css">background-image:url (ball.gif);</syntaxhighlight>
  
 You add the image with the <code>&lt;background-image&gt;</code> property and give it a URL in parenthesis to specify the image to be included. By default, background images will be repeated both horizontally and vertically to fill up the whole element space. You can however define a different repetition with the <code>&lt;background-repeat&gt;</code> property:
  
