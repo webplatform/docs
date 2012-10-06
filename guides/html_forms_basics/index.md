@@ -15,12 +15,12 @@ It is easy to create a form, but what about a usable form that your users can fi
  
 Let’s start building up a comment form, the sort of form you would use on a web site to allow people to give you feedback on something such as an article you’ve written, or a product you've sold. We'll start it off really basic:
  
-<pre>&lt;form&gt;
-  Name: &lt;input type="text" name="name" id="name" value="" /&gt;
-  Email: &lt;input type="text" name="email" id="email" value="" /&gt;
-  Comments: &lt;textarea name="comments" id="comments" cols="25" rows="3"&gt;&lt;/textarea&gt;
-  &lt;input type="submit" value="submit" /&gt;
-&lt;/form&gt;</pre>
+<syntaxhighlight lang="html5"><form>
+  Name: <input type="text" name="name" id="name" value="" />
+  Email: <input type="text" name="email" id="email" value="" />
+  Comments: <textarea name="comments" id="comments" cols="25" rows="3"></textarea>
+  <input type="submit" value="submit" />
+</form></syntaxhighlight>
  
 If you enter this into an HTML document and then open that document in a browser, the code is rendered as shown in Figure 1.
  
@@ -85,27 +85,27 @@ But wait! When you run the first example, fill it out and click Submit, it doesn
 
 Let’s go back to the drawing board, with a new form:
  
-<pre>&lt;form id="contact-form" action="script.php" method="post"&gt;
-    &lt;input type="hidden" name="redirect" value="http://www.opera.com" /&gt;
-    &lt;ul&gt;
-        &lt;li&gt;
-            &lt;label for="name"&gt;Name:&lt;/label&gt;
-            &lt;input type="text" name="name" id="name" value="" /&gt;
-        &lt;/li&gt;
-        &lt;li&gt;
-            &lt;label for="email"&gt;Email:&lt;/label&gt;
-            &lt;input type="text" name="email" id="email" value="" /&gt;
-        &lt;/li&gt;
-        &lt;li&gt;
-            &lt;label for="comments"&gt;Comments:&lt;/label&gt;
-            &lt;textarea name="comments" id="comments" cols="25" rows="3"&gt;&lt;/textarea&gt;
-        &lt;/li&gt;
-        &lt;li&gt;
-            &lt;input type="submit" value="submit" /&gt;
-            &lt;input type="reset" value="reset" /&gt;
-        &lt;/li&gt;
-    &lt;/ul&gt;
-&lt;/form&gt;</pre>
+<syntaxhighlight lang="html5"><form id="contact-form" action="script.php" method="post">
+    <input type="hidden" name="redirect" value="http://www.opera.com" />
+    <ul>
+        <li>
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" value="" />
+        </li>
+        <li>
+            <label for="email">Email:</label>
+            <input type="text" name="email" id="email" value="" />
+        </li>
+        <li>
+            <label for="comments">Comments:</label>
+            <textarea name="comments" id="comments" cols="25" rows="3"></textarea>
+        </li>
+        <li>
+            <input type="submit" value="submit" />
+            <input type="reset" value="reset" />
+        </li>
+    </ul>
+</form></syntaxhighlight>
  
 This form looks like Figure 2 when rendered in a browser:
 
@@ -154,52 +154,52 @@ The 2nd form displays a bit better, but we could add more. Time to improve the s
  
 The next version of the form looks like this:
  
-<pre>&lt;form id="contact-form" action="script.php" method="post"&gt;
+<syntaxhighlight lang="html5"><form id="contact-form" action="script.php" method="post">
 
-&lt;ul&gt;
-&lt;li&gt;&lt;label for="name"&gt;Name:&lt;/label&gt; &lt;input type="text" name="name" id="name" value="" /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;label for="email"&gt;Email:&lt;/label&gt; &lt;input type="text" name="email" id="email" value="" /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;label for="pwd"&gt;Password:&lt;/label&gt; &lt;input type="password" name="pwd" id="pwd" value="" /&gt;&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+<li><label for="name">Name:</label> <input type="text" name="name" id="name" value="" /></li>
+<li><label for="email">Email:</label> <input type="text" name="email" id="email" value="" /></li>
+<li><label for="pwd">Password:</label> <input type="password" name="pwd" id="pwd" value="" /></li>
+</ul>
 
-&lt;ul&gt;
-  &lt;li&gt;Please check all the emotions that apply to you:
-    &lt;ul&gt;
-      &lt;li&gt;&lt;label for="angry"&gt;Angry&lt;/label&gt; &lt;input type="checkbox" name="angry" id="angry" value="angry"&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;label for="sad"&gt;Sad&lt;/label&gt; &lt;input type="checkbox" name="sad" id="sad" value="sad"&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;label for="happy"&gt;Happy&lt;/label&gt; &lt;input type="checkbox" name="happy" id="happy" value="happy"&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;label for="ambivalent"&gt;Ambivalent&lt;/label&gt; &lt;input type="checkbox" name="ambivalent" id="ambivalent" value="ambivalent"&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;How satisfied were you with our service?
-    &lt;ul&gt;
-      &lt;li&gt;&lt;label for="vsat"&gt;Very satisfied&lt;/label&gt; &lt;input type="radio" name="satisfaction" id="vsat" value="vsat"&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;label for="sat"&gt;Satisfied&lt;/label&gt; &lt;input type="radio" name="satisfaction" id="sat" value="sat"&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;label for="dcare"&gt;Didn't care&lt;/label&gt; &lt;input type="radio" name="satisfaction" id="dcare" value="dcare"&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;label for="disat"&gt;Dissatisfied&lt;/label&gt; &lt;input type="radio" name="satisfaction" id="disat" value="disat"&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;label for="vdisat"&gt;Very dissatisfied&lt;/label&gt; &lt;input type="radio" name="satisfaction" id="vdisat" value="vdisat"&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;label for="comments"&gt;Further comments:&lt;/label&gt; &lt;textarea name="comments" id="comments" cols="25" rows="3"&gt;&lt;/textarea&gt;&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+  <li>Please check all the emotions that apply to you:
+    <ul>
+      <li><label for="angry">Angry</label> <input type="checkbox" name="angry" id="angry" value="angry"></li>
+      <li><label for="sad">Sad</label> <input type="checkbox" name="sad" id="sad" value="sad"></li>
+      <li><label for="happy">Happy</label> <input type="checkbox" name="happy" id="happy" value="happy"></li>
+      <li><label for="ambivalent">Ambivalent</label> <input type="checkbox" name="ambivalent" id="ambivalent" value="ambivalent"></li>
+    </ul>
+  </li>
+  <li>How satisfied were you with our service?
+    <ul>
+      <li><label for="vsat">Very satisfied</label> <input type="radio" name="satisfaction" id="vsat" value="vsat"></li>
+      <li><label for="sat">Satisfied</label> <input type="radio" name="satisfaction" id="sat" value="sat"></li>
+      <li><label for="dcare">Didn't care</label> <input type="radio" name="satisfaction" id="dcare" value="dcare"></li>
+      <li><label for="disat">Dissatisfied</label> <input type="radio" name="satisfaction" id="disat" value="disat"></li>
+      <li><label for="vdisat">Very dissatisfied</label> <input type="radio" name="satisfaction" id="vdisat" value="vdisat"></li>
+    </ul>
+  </li>
+  <li><label for="comments">Further comments:</label> <textarea name="comments" id="comments" cols="25" rows="3"></textarea></li>
+</ul>
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;label for="photo"&gt;Bio photo:&lt;/label&gt; &lt;input type="file" name="photo" id="photo" value="" /&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;label for="location"&gt;Location visited:&lt;/label&gt;
-  &lt;select name="location" id="location"&gt;
-    &lt;option value=""&gt;Select location&lt;/option&gt;
-    &lt;option value="nyork"&gt;New York&lt;/option&gt;
-    &lt;option value="vancouver"&gt;Vancouver&lt;/option&gt;
-    &lt;option value="atlantis"&gt;Atlantis&lt;/option&gt;
-    &lt;option value="alpha"&gt;Alpha Centauri&lt;/option&gt;
-    &lt;option value="blackpool"&gt;Blackpool&lt;/option&gt;
-    &lt;option value="bognor"&gt;Bognor Regis&lt;/option&gt;
-  &lt;/select&gt;&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+  <li><label for="photo">Bio photo:</label> <input type="file" name="photo" id="photo" value="" /></li>
+  <li><label for="location">Location visited:</label>
+  <select name="location" id="location">
+    <option value="">Select location</option>
+    <option value="nyork">New York</option>
+    <option value="vancouver">Vancouver</option>
+    <option value="atlantis">Atlantis</option>
+    <option value="alpha">Alpha Centauri</option>
+    <option value="blackpool">Blackpool</option>
+    <option value="bognor">Bognor Regis</option>
+  </select></li>
+</ul>
 
-&lt;li&gt;&lt;input type="submit" value="submit" /&gt;&lt;/li&gt;
+<li><input type="submit" value="submit" /></li>
 
-&lt;/form&gt;</pre>
+</form></syntaxhighlight>
  
 When rendered in a browser, this form looks as shown in Figure 3.
  
@@ -215,14 +215,14 @@ What have we added here? Let's have a look.
 
 The first thing we added is a set of checkboxes:
 
-<pre>&lt;li&gt;Please check all the emotions that apply to you:
-  &lt;ul&gt;
-    &lt;li&gt;&lt;label for="angry"&gt;Angry&lt;/label&gt; &lt;input type="checkbox" name="angry" id="angry" value="angry" checked="checked"&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;label for="sad"&gt;Sad&lt;/label&gt; &lt;input type="checkbox" name="sad" id="sad" value="sad"&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;label for="happy"&gt;Happy&lt;/label&gt; &lt;input type="checkbox" name="happy" id="happy" value="happy"&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;label for="ambivalent"&gt;Ambivalent&lt;/label&gt; &lt;input type="checkbox" name="ambivalent" id="ambivalent" value="ambivalent"&gt;&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/li&gt;</pre>
+<syntaxhighlight lang="html5"><li>Please check all the emotions that apply to you:
+  <ul>
+    <li><label for="angry">Angry</label> <input type="checkbox" name="angry" id="angry" value="angry" checked="checked"></li>
+    <li><label for="sad">Sad</label> <input type="checkbox" name="sad" id="sad" value="sad"></li>
+    <li><label for="happy">Happy</label> <input type="checkbox" name="happy" id="happy" value="happy"></li>
+    <li><label for="ambivalent">Ambivalent</label> <input type="checkbox" name="ambivalent" id="ambivalent" value="ambivalent"></li>
+  </ul>
+</li></syntaxhighlight>
 
 There is nothing special to know here: each separate element creates a checkbox that can be checked on and off by the site visitor. They are identified by IDs, and their data identified by their <code>name</code> attributes. When the form is submitted, any data items not checked are submitted as off/no.
 
@@ -230,15 +230,15 @@ There is nothing special to know here: each separate element creates a checkbox 
 
 Next up, we have a set of radio buttons:
 
-<pre>&lt;li&gt;How satisfied were you with our service?
-  &lt;ul&gt;
-    &lt;li&gt;&lt;label for="vsat"&gt;Very satisfied&lt;/label&gt; &lt;input type="radio" name="satisfaction" id="vsat" value="vsat" checked="checked"&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;label for="sat"&gt;Satisfied&lt;/label&gt; &lt;input type="radio" name="satisfaction" id="sat" value="sat"&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;label for="dcare"&gt;Didn't care&lt;/label&gt; &lt;input type="radio" name="satisfaction" id="dcare" value="dcare"&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;label for="disat"&gt;Dissatisfied&lt;/label&gt; &lt;input type="radio" name="satisfaction" id="disat" value="disat"&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;label for="vdisat"&gt;Very dissatisfied&lt;/label&gt; &lt;input type="radio" name="satisfaction" id="vdisat" value="vdisat"&gt;&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/li&gt;</pre>
+<syntaxhighlight lang="html5"><li>How satisfied were you with our service?
+  <ul>
+    <li><label for="vsat">Very satisfied</label> <input type="radio" name="satisfaction" id="vsat" value="vsat" checked="checked"></li>
+    <li><label for="sat">Satisfied</label> <input type="radio" name="satisfaction" id="sat" value="sat"></li>
+    <li><label for="dcare">Didn't care</label> <input type="radio" name="satisfaction" id="dcare" value="dcare"></li>
+    <li><label for="disat">Dissatisfied</label> <input type="radio" name="satisfaction" id="disat" value="disat"></li>
+    <li><label for="vdisat">Very dissatisfied</label> <input type="radio" name="satisfaction" id="vdisat" value="vdisat"></li>
+  </ul>
+</li></syntaxhighlight>
 
 The only thing here that is different from the checkboxes (apart from the <code>type</code> attribute value of course) is the <code>name</code> values — notice that they are all the same. This is because whereas with checkboxes you are dealing with separate items of data with on/off values, with sets of radio buttons you are dealing with a single item of data that cane take one of several values. Having the <code>name</code> attributes all set to the same value makes all these radio buttons part of the same set, and you can only select one of them at once.
 
@@ -248,7 +248,7 @@ Note the <code>checked</code> attribute on the above two bits of code - this mak
 
 === Uploading a file ===
 
-<pre>&lt;li&gt;&lt;label for="photo"&gt;Bio photo:&lt;/label&gt; &lt;input type="file" name="photo" id="photo" value="" /&gt;&lt;/li&gt;</pre>
+<syntaxhighlight lang="html5"><li><label for="photo">Bio photo:</label> <input type="file" name="photo" id="photo" value="" /></li></syntaxhighlight>
 
 This line of code creates a file uploader, allowing you to upload for example a photo.
 
@@ -256,16 +256,16 @@ This line of code creates a file uploader, allowing you to upload for example a 
 
 The last new bit of code looks like this:
 
-<pre>&lt;li&gt;&lt;label for="location"&gt;Location visited:&lt;/label&gt;
-&lt;select name="location" id="location"&gt;
-  &lt;option value=""&gt;Select location&lt;/option&gt;
-  &lt;option value="nyork"&gt;New York&lt;/option&gt;
-  &lt;option value="vancouver"&gt;Vancouver&lt;/option&gt;
-  &lt;option value="atlantis"&gt;Atlantis&lt;/option&gt;
-  &lt;option value="alpha"&gt;Alpha Centauri&lt;/option&gt; 
-  &lt;option value="blackpool"&gt;Blackpool&lt;/option&gt;
-  &lt;option value="bognor"&gt;Bognor Regis&lt;/option&gt;
-&lt;/select&gt;&lt;/li&gt;</pre>
+<syntaxhighlight lang="html5"><li><label for="location">Location visited:</label>
+<select name="location" id="location">
+  <option value="">Select location</option>
+  <option value="nyork">New York</option>
+  <option value="vancouver">Vancouver</option>
+  <option value="atlantis">Atlantis</option>
+  <option value="alpha">Alpha Centauri</option> 
+  <option value="blackpool">Blackpool</option>
+  <option value="bognor">Bognor Regis</option>
+</select></li></syntaxhighlight>
 
 The <code>&lt;select&gt;</code> element is quite different to the others you've seen: it creates a single line form control that when activated, drops down to reveal the multiple options available, as defined inside the <code>&lt;option&gt;</code> elements. the <code>value</code> attribute contains the actual data that is submitted when you submit the form (the only one submitted is the one you select before pressing "Submit"), and the values the user sees are the text content inside the elements.
 
@@ -273,16 +273,16 @@ The <code>&lt;select&gt;</code> element is quite different to the others you've 
 
 The [http://dev.opera.com/articles/view/20-html-forms-the-basics/step-4-form.html final form example] is identical to the last one, except that we have wrapped the different major parts of the form in <code>&lt;fieldset&gt;</code> elements, and given each one its own <code>&lt;legend&gt;</code> element. For example:
 
-<pre>&lt;fieldset&gt;
+<syntaxhighlight lang="html5"><fieldset>
 
-&lt;legend&gt;Login details&lt;/legend&gt;
+<legend>Login details</legend>
 
-&lt;ul&gt;
-&lt;li&gt;&lt;label for="name"&gt;Name:&lt;/label&gt; &lt;input type="text" name="name" id="name" value="" /&gt;&lt;/li&gt;
+<ul>
+<li><label for="name">Name:</label> <input type="text" name="name" id="name" value="" /></li>
 
   ...
 
-&lt;/fieldset&gt;</pre>
+</fieldset></syntaxhighlight>
 
 When rendered in a browser, these look as shown in Figure 4.
  
@@ -300,10 +300,10 @@ The <code>&lt;fieldset&gt;</code> element allows you to organize the form into s
 
 I’ve also applied a little bit of CSS to this form, to style the structural markup. This is applied to the third form example using an external stylesheet — [http://dev.opera.com/articles/view/20-html-forms-the-basics/form.css click on this link to see the styles]. The two most important tasks I wanted the basic CSS to do is add margins to line up the labels and input boxes, and get rid of the unordered list’s bullet points. Here is the CSS that resides in the external stylesheet:
  
-<pre>#contact-form fieldset {width:40%;}
+<syntaxhighlight lang="css">#contact-form fieldset {width:40%;}
 #contact-form li {margin:10px; list-style: none;}
 #contact-form input  {margin-left:45px; text-align: left;}
-#contact-form textarea {margin-left:10px; text-align: left;}</pre>
+#contact-form textarea {margin-left:10px; text-align: left;}</syntaxhighlight>
  
 What does it do? The first line styles the fieldset border to not take up the whole page; you could also set the border to none using <code>{border: none;}</code> if you didn’t want one. The second line puts a margin of 10 pixels on the <code>&lt;li&gt;</code> elements to help give a little visual room between each list item, and gets rid of the bullet points. The third and fourth lines set a left margin on the <code>&lt;input&gt;</code> and <code>&lt;textarea&gt;</code> elements so that they don’t crowd the labels and line up slightly better. 
 
