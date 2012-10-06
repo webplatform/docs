@@ -11,13 +11,13 @@ In this article we’ll talk about web site navigation and menus. You’ll learn
 
 HTML5 defines a <code>&lt;nav&gt;</code> menu, which is to be used to contain the primary navigation of a web site, be it a list of links or a form element such as a search box. This is a good idea, as previous to this we would contain the navigation block inside something like <code>&lt;div id="navigation"&gt;</code>. Yes, you can identify this for styling purposes pretty well, but it is a <code>&lt;div&gt;</code>, and therefore semantically anonymous. <code>&lt;nav&gt;</code> gives us a consistent way to unambiguously define with the primary navigation is, which is good for things like search engine optimization, and for visually impaired users using a screen reader, who will be able to find the navigation much more easier if it is clearly signposted (this does depend on the screen reader they are using supporting the <code>&lt;nav&gt;</code> element, so it might be a little way off yet). So, a navigation block would look something like this:
 
-<pre>&lt;nav&gt;
-  &lt;ul&gt;
-    &lt;li&gt;&lt;a href="#"&gt;Navigation&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="#"&gt;Menu&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="#"&gt;Links&lt;/a&gt;&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/nav&gt;</pre>
+<syntaxhighlight lang="html5"><nav>
+  <ul>
+    <li><a href="#">Navigation</a></li>
+    <li><a href="#">Menu</a></li>
+    <li><a href="#">Links</a></li>
+  </ul>
+</nav></syntaxhighlight>
 
 Bear in mind that <code>&lt;nav&gt;</code> should only be used for the main user navigation of a web page, not for advertising links down the bottom of the page, or for a secondary navigation relating to a small part of the page.
 
@@ -64,15 +64,15 @@ We've already covered this to a certain degree in the tutorial about links, but 
 
 In the [http://dev.opera.com/articles/view/23-creating-multiple-pages-with-navigat/inpagenavigation.html example related to this in-page navigation section], we have used a list of links that point to anchors further down the page. Each menu link looks like so:
 
-<pre>&lt;nav&gt;
-    &lt;ol&gt;
-      &lt;li&gt;&lt;a href="#intro"&gt;Introduction&lt;/a&gt;&lt;/li&gt;
+<syntaxhighlight lang="html5"><nav>
+    <ol>
+      <li><a href="#intro">Introduction</a></li>
       
-  ...</pre>
+  ...</syntaxhighlight>
   
 The <code>href</code> attribute points to the corresponding anchor further down the page via the anchor's <code>id</code> attribute value, preceded by a hash symbol (#). So the anchor looks like this:
 
-<pre>&lt;h2 id="intro"&gt;Introduction&lt;/h2&gt;</pre>
+<syntaxhighlight lang="html5"><h2 id="intro">Introduction</h2></syntaxhighlight>
 
 Each section of the page also has a “back to menu” link that works in the same way, but points back to the menu instead.
 
@@ -95,16 +95,16 @@ Note that keyboard navigation around links in Opera is slightly different—try 
  
 Site navigation is most probably the most common menu type you’ll need to create. It is the menu of the whole site (or a subset of it), showing both the options visitors can choose from and the hierarchy of the site. Lists are perfect for this purpose, as you’ll see from this [http://dev.opera.com/articles/view/23-creating-multiple-pages-with-navigat/home.html site navigation example].
 
-<pre>&lt;nav&gt;
-  &lt;ul&gt;
-    &lt;li&gt;&lt;strong&gt;Home&lt;/strong&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="about.html"&gt;About Us&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="clients.html"&gt;Our Clients&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="products.html"&gt;Our Products&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="services.html"&gt;Our Services&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="contact.html"&gt;Contact Us&lt;/a&gt;&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/nav&gt;</pre>
+<syntaxhighlight lang="html5"><nav>
+  <ul>
+    <li><strong>Home</strong></li>
+    <li><a href="about.html">About Us</a></li>
+    <li><a href="clients.html">Our Clients</a></li>
+    <li><a href="products.html">Our Products</a></li>
+    <li><a href="services.html">Our Services</a></li>
+    <li><a href="contact.html">Contact Us</a></li>
+  </ul>
+</nav></syntaxhighlight>
  
 There aren’t many surprises here, at least not from a pure HTML point of view — try navigating to the different pages in the example to see what happens. Later on in the course we’ll talk about styling these kind of menus with CSS and adding behaviour via JavaScript. One important thing to consider is how to highlight the current document in the menu, to give the user a sense of being in a particular place, and that they are moving location (even though in reality they aren’t, unless of course they are using a mobile device to browse the Web!). In this case we are just removing the link to the current page, in each case - this makes sense, as you don't need to link to the same document you are on, and it makes it clear where you are in the menu. We’ll look more at "you are here" in the next section.
  
@@ -175,14 +175,14 @@ Figure 3: By defining a map with area elements you can turn parts of an image in
  
 You can turn any image into a menu by defining a map with different areas (also called hotspots). You give the map a <code>name</code> attribute and connect the image and the map using the <code>usemap</code> attribute on the <code>&lt;img&gt;</code> element. The code in our example looks like this:
 
-<pre>&lt;nav&gt;
-  &lt;img src="skillset.gif" alt="A web developer's skillset - web standards, browser bugs and user impact" usemap="#skillset_Map"&gt;
-  &lt;map name="skillset_Map"&gt;
-    &lt;area shape="poly" alt="W3C Guidelines" coords="90,70,113,112,67,112,90,70" href="w3c.html"&gt;
-    &lt;area shape="poly" alt="Browser Bugs" coords="61,120,115,120,137,157,40,157,62,120" href="browser.html"&gt;
-    &lt;area shape="poly" alt="User Impact" coords="35,166,142,166,171,216,6,216,35,166" href="userimpact.html"&gt;
-  &lt;/map&gt;
-&lt;/nav&gt;</pre>
+<syntaxhighlight lang="html5"><nav>
+  <img src="skillset.gif" alt="A web developer's skillset - web standards, browser bugs and user impact" usemap="#skillset_Map">
+  <map name="skillset_Map">
+    <area shape="poly" alt="W3C Guidelines" coords="90,70,113,112,67,112,90,70" href="w3c.html">
+    <area shape="poly" alt="Browser Bugs" coords="61,120,115,120,137,157,40,157,62,120" href="browser.html">
+    <area shape="poly" alt="User Impact" coords="35,166,142,166,171,216,6,216,35,166" href="userimpact.html">
+  </map>
+</nav></syntaxhighlight>
 
 Note that this works exactly like in-page links, which means that you need to precede the value of the <code>usemap</code> attribute with a hash.
  
