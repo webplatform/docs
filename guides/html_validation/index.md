@@ -11,7 +11,7 @@ Validation is the answer! There are many tools available, from the W3C and other
 
 * [http://html5.validator.nu/ Validator.nu]: A new-school validator that validates HTML5, ARIA, SVG 1.1 and MathML 2.0: it goes through the entire document pointing out places where your markup doesn’t follow that doctype correctly (ie. where there are errors). This is the one we recommend if you are using the HTML5 doctype, like we do throughout most of this course.
 * [http://validator.w3.org/ The W3C MarkUp Validator]: This looks at the (X)HTML doctype you are using for the document you give it to check, and then checks your markup accordingly. This is the one we recommend if you are using an HTML4 or XHTML1.x doctype. It does validate HTML5, but validator.nu is arguably more up to date.
-* [http://validator.w3.org/checklink The W3C Link Checker]: This looks through a document you give it to check, and tests all the links inside that document to make sure they are not broken (ie. the <code>&lt;href&gt;</code> values point to resources that don’t exist).
+* [http://validator.w3.org/checklink The W3C Link Checker]: This looks through a document you give it to check, and tests all the links inside that document to make sure they are not broken (ie. the <code><href></code> values point to resources that don’t exist).
 * [http://jigsaw.w3.org/css-validator/ The W3C CSS Validator]: As you’ve probably guessed, this will go through a CSS (or HTML/CSS) document and check that the CSS follows the CSS specs properly.
  
 In this article, we will cover how to use the first two of these, showing you how to validate markup, interpreting the typical kinds of results the validator gives you. The link checker is very obvious, and we'll cover debugging CSS later on in the course.
@@ -58,13 +58,13 @@ But what if you pass a browser invalid code? What happens then? The answer is th
 
 It sounds great doesn’t it? If you leave a few errors in your page, the browser will fill in the gaps for you? Not so, as each browser does things differently. For example:
 
-<pre>&lt;p&gt;&lt;strong&gt;This text should be bold&lt;/p&gt;
-&lt;p&gt;Should this text be bold? How does the HTML look when rendered?&lt;/p&gt;
+<syntaxhighlight lang="html5"><p><strong>This text should be bold</p>
+<p>Should this text be bold? How does the HTML look when rendered?</p>
 
-&lt;p&gt;&lt;a href="#"&gt;&lt;/strong&gt;This text should be a link&lt;/p&gt;
-&lt;p&gt;Should this text be a link? How does the HTML look when rendered?&lt;/p&gt;</pre>
+<p><a href="#"></strong>This text should be a link</p>
+<p>Should this text be a link? How does the HTML look when rendered?</p></syntaxhighlight>
  
-The errors are that the <code>&lt;strong&gt;</code> element is incorrectly nested across multiple block elements, and the anchor element is not closed. When you try to render this across different browsers, they interpret the code in very different ways:
+The errors are that the <code><strong></code> element is incorrectly nested across multiple block elements, and the anchor element is not closed. When you try to render this across different browsers, they interpret the code in very different ways:
 
 * Opera makes the subsequent elements children of the bold element.
 * Firefox adds extra bold elements between the paragraphs, which were not present in the markup.
@@ -82,30 +82,30 @@ Now we’ve explored all the theory behind validating your HTML, we’ll talk ab
  
 The example we’ll be looking at in this section is as follows (you can also [http://dev.opera.com/articles/view/24-validating-your-html/example_validation.html download or view the HTML]):
  
-<pre>&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"&gt;
-&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="en"&gt;
-  &lt;head&gt;
-    &lt;title&gt;Validating your HTML&lt;/title&gt;
-  &lt;/head&gt;
-  &lt;body&gt;
-    &lt;h2&gt;The tale of Herbet Gruel&lt;/h2&gt;
-    &lt;p&gt;Welcome to my story. I am a slight whisp of a man, slender and fragile, features wrinkled and worn, eyes sunken into their sockets like rabbits cowering in their burrows. The &lt;em&gt;years have not been kind to me&lt;/em&gt;, but yet I hold no regrets, as I have overcome all that sought to ail me, and have been allowed to bide my time, making mischief as I travel to and fro, 'cross the unyielding landscape of the &lt;a href="http://outer-rim-rocks.co.uk" colspan="3"&gt;outer rim&lt;/a&gt;.&lt;/p&gt;
+<syntaxhighlight lang="html5"><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <title>Validating your HTML</title>
+  </head>
+  <body>
+    <h2>The tale of Herbet Gruel</h2>
+    <p>Welcome to my story. I am a slight whisp of a man, slender and fragile, features wrinkled and worn, eyes sunken into their sockets like rabbits cowering in their burrows. The <em>years have not been kind to me</em>, but yet I hold no regrets, as I have overcome all that sought to ail me, and have been allowed to bide my time, making mischief as I travel to and fro, 'cross the unyielding landscape of the <a href="http://outer-rim-rocks.co.uk" colspan="3">outer rim</a>.</p>
     
-    &lt;h3&gt;Buster&lt;/h3&gt;
-    &lt;p&gt;Buster is my guardian angel. Before that, he was my dog. Before that, who knows? I lost my dog many moons ago while out hunting geese in the undergrowth. A shot rang out from my rifle, and I called for Buster to collect the goose I had felled. He ran off towards where the bird had landed, but never returned. I never found his body, but I comfort myself with the thought that he did not die; rather he transcended to a higher place, and now watches over me, to ensure my well-being.
+    <h3>Buster</h3>
+    <p>Buster is my guardian angel. Before that, he was my dog. Before that, who knows? I lost my dog many moons ago while out hunting geese in the undergrowth. A shot rang out from my rifle, and I called for Buster to collect the goose I had felled. He ran off towards where the bird had landed, but never returned. I never found his body, but I comfort myself with the thought that he did not die; rather he transcended to a higher place, and now watches over me, to ensure my well-being.
     
-    &lt;h3&gt;My possessions&lt;/h3&gt;
-    &lt;p&gt;A travelling man needs very little to accompany him on the road:&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;My hat full of memories&lt;/li&gt;
-      &lt;li&gt;My trusty walking cane&lt;/li&gt;
-      &lt;li&gt;A purse that did contain gold at one time&lt;/li&gt;
-      &lt;li&gt;A diary, from the year 1874&lt;li&gt;
-      &lt;li&gt;An empty glasses case&lt;/li&gt;
-      &lt;li&gt;A newspaper, for when I need to look busy&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/body&gt;
-</pre>
+    <h3>My possessions</h3>
+    <p>A travelling man needs very little to accompany him on the road:</p>
+    <ul>
+      <li>My hat full of memories</li>
+      <li>My trusty walking cane</li>
+      <li>A purse that did contain gold at one time</li>
+      <li>A diary, from the year 1874<li>
+      <li>An empty glasses case</li>
+      <li>A newspaper, for when I need to look busy</li>
+    </ul>
+  </body>
+</syntaxhighlight>
  
 This simple page consists of three headings, three paragraphs, one hyperlink, and one unordered list. It uses the XHTML 1.0 Strict doctype as its rule set to validate against. There are a few errors in the document, which you’ll discover below using the W3C HTML validator. We used XHTML 1.0 strict because it is more likely to throw up errors than the HTML5 doctype.
  
@@ -137,20 +137,20 @@ This may sound worrying, especially when we tell you that there aren’t 17 erro
 !Fix made
 {{!}}-
 {{!}}Line 8, Column 461: there is no attribute "colspan"
-{{!}}We know that there is a <code>colspan</code> attribute, and it is valid HTML, so why is it saying it doesn’t exist? Wait, maybe it means it is being used on an element that you shouldn’t use it on? Sure enough, it is being used on an <code>&lt;a&gt;</code> element — wrong!
-{{!}}Removed the <code>colspan</code> attribute from the <code>&lt;a&gt;</code> element.
+{{!}}We know that there is a <code>colspan</code> attribute, and it is valid HTML, so why is it saying it doesn’t exist? Wait, maybe it means it is being used on an element that you shouldn’t use it on? Sure enough, it is being used on an <code><a></code> element — wrong!
+{{!}}Removed the <code>colspan</code> attribute from the <code><a></code> element.
 {{!}}-
-{{!}}Line 13, Column 7: document type does not allow element "h3" here; missing one of "object", "applet", "map", "iframe", "button", "ins", "del" start-tag . &lt;h3&gt;My possessions&lt;/h3&gt;
-{{!}}Again, from first glance this seems strange — the <code>&lt;h3&gt;</code> element is properly closed, and allowed in this context. You should note that often, this error message means that there is an unclosed element nearby…
-{{!}}Added a closing <code>&lt;p&gt;</code> tag to the line above the heading in question.
+{{!}}Line 13, Column 7: document type does not allow element "h3" here; missing one of "object", "applet", "map", "iframe", "button", "ins", "del" start-tag . <h3>My possessions</h3>
+{{!}}Again, from first glance this seems strange — the <code><h3></code> element is properly closed, and allowed in this context. You should note that often, this error message means that there is an unclosed element nearby…
+{{!}}Added a closing <code><p></code> tag to the line above the heading in question.
 {{!}}-
-{{!}}Line 19, Column 40: document type does not allow element "li" here; missing one of "ul", "ol", "menu", "dir" start-tag. &lt;li&gt;A diary, from the year 1874&lt;li&gt;
-{{!}}This one is pretty easy — you can see from the line it is pointing you to, at a glance, that the end <code>&lt;li&gt;</code> tag has a missing closing slash (/)
+{{!}}Line 19, Column 40: document type does not allow element "li" here; missing one of "ul", "ol", "menu", "dir" start-tag. <li>A diary, from the year 1874<li>
+{{!}}This one is pretty easy — you can see from the line it is pointing you to, at a glance, that the end <code><li></code> tag has a missing closing slash (/)
 {{!}}Added a closing slash to the line in question.
 {{!}}-
-{{!}}Line 23, Column 9: end tag for "html" omitted, but OMITTAG NO was specified . &lt;/body&gt;
-{{!}}Again, it doesn’t take much to work out that this means the end <code>&lt;html&gt;</code> tag is missing. The error message explanation even starts with You may have neglected to close an element.
-{{!}}Added the missing end <code>&lt;html&gt;</code> element.
+{{!}}Line 23, Column 9: end tag for "html" omitted, but OMITTAG NO was specified . </body>
+{{!}}Again, it doesn’t take much to work out that this means the end <code><html></code> tag is missing. The error message explanation even starts with You may have neglected to close an element.
+{{!}}Added the missing end <code><html></code> element.
 {{!}}} 
 
 
