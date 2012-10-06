@@ -204,8 +204,7 @@ Another new addition to HTML5 is an element for containing figure captions. Prev
   ...
   
   <figure>
-    <img src="balconyview.jpg" alt="View from my balcony, showing a row of houses,
-    trees and a castle" width="400" height="186">
+    <img src="balconyview.jpg" alt="View from my balcony, showing a row of houses, trees and a castle" width="400" height="186">
     <figcaption>The view from outside my window.</figcaption>
   </figure>
 
