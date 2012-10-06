@@ -14,32 +14,32 @@ Back in the Jurassic Age of the Internet before CSS was popularised as a method 
  
 Let's start with the semantic HTML code required to render a basic table — this particular example compares recent volcanic eruptions in the Pacific region of North America:
 
-<pre>&lt;table&gt;
-    &lt;tr&gt;
-        &lt;td&gt;Volcano Name&lt;/td&gt;
-        &lt;td&gt;Location&lt;/td&gt;
-        &lt;td&gt;Last Major Eruption&lt;/td&gt;
-        &lt;td&gt;Type of Eruption&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;Mt. Lassen&lt;/td&gt;
-        &lt;td&gt;California&lt;/td&gt;
-        &lt;td&gt;1914-17&lt;/td&gt;
-        &lt;td&gt;Explosive Eruption&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;Mt. Hood&lt;/td&gt;
-        &lt;td&gt;Oregon&lt;/td&gt;
-        &lt;td&gt;1790s&lt;/td&gt;
-        &lt;td&gt;Pyroclastic flows and Mudflows&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;Mt .St. Helens&lt;/td&gt;
-        &lt;td&gt;Washington&lt;/td&gt;
-        &lt;td&gt;1980&lt;/td&gt;
-        &lt;td&gt;Explosive Eruption&lt;/td&gt;
-    &lt;/tr&gt;
-&lt;/table&gt;</pre>
+<syntaxhighlight lang="html5"><table>
+    <tr>
+        <td>Volcano Name</td>
+        <td>Location</td>
+        <td>Last Major Eruption</td>
+        <td>Type of Eruption</td>
+    </tr>
+    <tr>
+        <td>Mt. Lassen</td>
+        <td>California</td>
+        <td>1914-17</td>
+        <td>Explosive Eruption</td>
+    </tr>
+    <tr>
+        <td>Mt. Hood</td>
+        <td>Oregon</td>
+        <td>1790s</td>
+        <td>Pyroclastic flows and Mudflows</td>
+    </tr>
+    <tr>
+        <td>Mt .St. Helens</td>
+        <td>Washington</td>
+        <td>1980</td>
+        <td>Explosive Eruption</td>
+    </tr>
+</table></syntaxhighlight>
  
 This code renders roughly like so:
                          
@@ -74,13 +74,13 @@ Let’s start by breaking down the HTML markup used in the above code:
  
 Note that the basic elements must be nested as follows:
  
-<pre>&lt;table&gt;
-    &lt;tr&gt;
-        &lt;td&gt;content&lt;/td&gt;
-        &lt;td&gt;content&lt;/td&gt;
-        &lt;td&gt;content&lt;/td&gt;
-    &lt;/tr&gt;
-&lt;/table&gt;</pre>
+<syntaxhighlight lang="html5"><table>
+    <tr>
+        <td>content</td>
+        <td>content</td>
+        <td>content</td>
+    </tr>
+</table></syntaxhighlight>
  
 To order them in another fashion will cause the browser to spit up the equivalent of an internet hair ball and render the table in a very odd fashion, if at all.
 
@@ -88,33 +88,33 @@ To order them in another fashion will cause the browser to spit up the equivalen
  
 Now the basic table is in place, we can add some slightly more complex table features—first, we'll add a caption and Table headers to help improve the data both in terms of semantics and legibility for screen readers. The updated table markup looks like so:
 
-<pre>&lt;table&gt;
-    &lt;caption&gt;Recent Major Volcanic Eruptions in the Pacific Northwest&lt;/caption&gt;
-    &lt;tr&gt;
-        &lt;th&gt;Volcano Name&lt;/th&gt;
-        &lt;th&gt;Location&lt;/th&gt;
-        &lt;th&gt;Last Major Eruption&lt;/th&gt;
-        &lt;th&gt;Type of Eruption&lt;/th&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;Mt. Lassen&lt;/td&gt;
-        &lt;td&gt;California&lt;/td&gt;
-        &lt;td&gt;1914-17&lt;/td&gt;
-        &lt;td&gt;Explosive Eruption&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;Mt. Hood&lt;/td&gt;
-        &lt;td&gt;Oregon&lt;/td&gt;
-        &lt;td&gt;1790s&lt;/td&gt;
-        &lt;td&gt;Pyroclastic flows and Mudflows&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;Mt. St. Helens&lt;/td&gt;
-        &lt;td&gt;Washington&lt;/td&gt;
-        &lt;td&gt;1980&lt;/td&gt;
-        &lt;td&gt;Explosive Eruption&lt;/td&gt;
-    &lt;/tr&gt;
-&lt;/table&gt;</pre>
+<syntaxhighlight lang="html5"><table>
+    <caption>Recent Major Volcanic Eruptions in the Pacific Northwest</caption>
+    <tr>
+        <th>Volcano Name</th>
+        <th>Location</th>
+        <th>Last Major Eruption</th>
+        <th>Type of Eruption</th>
+    </tr>
+    <tr>
+        <td>Mt. Lassen</td>
+        <td>California</td>
+        <td>1914-17</td>
+        <td>Explosive Eruption</td>
+    </tr>
+    <tr>
+        <td>Mt. Hood</td>
+        <td>Oregon</td>
+        <td>1790s</td>
+        <td>Pyroclastic flows and Mudflows</td>
+    </tr>
+    <tr>
+        <td>Mt. St. Helens</td>
+        <td>Washington</td>
+        <td>1980</td>
+        <td>Explosive Eruption</td>
+    </tr>
+</table></syntaxhighlight>
  
 This code is rendered as:
                            
@@ -151,42 +151,42 @@ The new elements used here are:
  
 As a final step in structuring our table, we will define header and body table sections, add a footer and define the scope of row and column headings. We will also add a <code>summary</code> attribute to describe the table contents. The final markup looks like so:
  
-<pre>&lt;table summary="a summary of recent major volcanic eruptions in the Pacific Northwest"&gt;
-    &lt;caption&gt;Recent Major Volcanic Eruptions in the Pacific Northwest&lt;/caption&gt;
-    &lt;thead&gt;
-        &lt;tr&gt;
-            &lt;th scope="col"&gt;Volcano Name&lt;/th&gt;
-            &lt;th scope="col"&gt;Location&lt;/th&gt;
-            &lt;th scope="col"&gt;Last Major Eruption&lt;/th&gt;
-            &lt;th scope="col"&gt;Type of Eruption&lt;/th&gt;
-        &lt;/tr&gt;
-    &lt;/thead&gt;
-    &lt;tfoot&gt;
-        &lt;tr&gt;
-            &lt;td colspan="4"&gt;Compiled in 2008 by Ms Jen&lt;/td&gt;
-        &lt;/tr&gt;
-    &lt;/tfoot&gt;  
-    &lt;tbody&gt;
-        &lt;tr&gt;
-            &lt;th scope="row"&gt;Mt. Lassen&lt;/th&gt;
-            &lt;td&gt;California&lt;/td&gt;
-            &lt;td&gt;1914-17&lt;/td&gt;
-            &lt;td&gt;Explosive Eruption&lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;th scope="row"&gt;Mt. Hood&lt;/th&gt;
-            &lt;td&gt;Oregon&lt;/td&gt;
-            &lt;td&gt;1790s&lt;/td&gt;
-            &lt;td&gt;Pyroclastic flows and Mudflows&lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;th scope="row"&gt;Mt. St. Helens&lt;/th&gt;
-            &lt;td&gt;Washington&lt;/td&gt;
-            &lt;td&gt;1980&lt;/td&gt;
-            &lt;td&gt;Explosive Eruption&lt;/td&gt;
-        &lt;/tr&gt;
-    &lt;/tbody&gt;
-&lt;/table&gt;</pre>
+<syntaxhighlight lang="html5"><table summary="a summary of recent major volcanic eruptions in the Pacific Northwest">
+    <caption>Recent Major Volcanic Eruptions in the Pacific Northwest</caption>
+    <thead>
+        <tr>
+            <th scope="col">Volcano Name</th>
+            <th scope="col">Location</th>
+            <th scope="col">Last Major Eruption</th>
+            <th scope="col">Type of Eruption</th>
+        </tr>
+    </thead>
+    <tfoot>
+        <tr>
+            <td colspan="4">Compiled in 2008 by Ms Jen</td>
+        </tr>
+    </tfoot>  
+    <tbody>
+        <tr>
+            <th scope="row">Mt. Lassen</th>
+            <td>California</td>
+            <td>1914-17</td>
+            <td>Explosive Eruption</td>
+        </tr>
+        <tr>
+            <th scope="row">Mt. Hood</th>
+            <td>Oregon</td>
+            <td>1790s</td>
+            <td>Pyroclastic flows and Mudflows</td>
+        </tr>
+        <tr>
+            <th scope="row">Mt. St. Helens</th>
+            <td>Washington</td>
+            <td>1980</td>
+            <td>Explosive Eruption</td>
+        </tr>
+    </tbody>
+</table></syntaxhighlight>
  
 This table code looks like so in a browser:
 {{{!}} border="1"
@@ -226,7 +226,7 @@ The new elements/attributes are as follows:
  
 The above listed elements and attributes are all that is necessary to code a good data table. Now the HTML structure is in place, let’s look at some simple CSS to make the table look a bit nicer:
 
-<pre>body {
+<syntaxhighlight lang="css">body {
 	background: #ffffff;
 	margin: 0;
 	padding: 20px;
@@ -260,7 +260,7 @@ caption {
 	border-bottom: none;
 	padding: 6px 16px;
 	font-weight: bold;
-}</pre>
+}</syntaxhighlight>
  
 When applied to our final table markup, the table looks as seen in Figure 1. You can also [http://dev.opera.com/articles/view/19-html-tables/table3.html check out the example live here].
 
