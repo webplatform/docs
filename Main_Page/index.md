@@ -10,12 +10,24 @@ In the future, Web Platform Docs will include even more content for you to explo
 
 == Explore our web development docs ==
 
-==='''[[concepts|Concepts]]'''===
-==='''[[html|HTML]]'''===
-==='''[[css|CSS]]'''===
-==='''[[javascript|JavaScript]]'''===
-==='''[[svg|SVG]]'''===
-==='''[[concepts/accessibility|Accessibility]]'''===
+{| style="text-align: center; color: green; font-size: 180%; heading-style: ;" 
+! scope="col" | 
+! scope="col" | 
+! scope="col" | 
+|-
+| width="33%" | [[concepts|Concepts]]
+| width="33%" | [[html|HTML]]
+| width="33%" | [[css|CSS]]
+|- 
+| [[concepts/accessibility|Accessibility]]
+| [[javascript|JavaScript]]
+| [[svg|SVG]]
+|-
+! scope="col" | 
+! scope="col" | 
+! scope="col" | 
+|}
+
 
 {{Note | If you have no previous knowledge, and want to learn the art of web design and development, start with our [[beginners|Web development for Beginners]] course.''
 }}
