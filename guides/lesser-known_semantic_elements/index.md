@@ -27,10 +27,10 @@ appears within. This can take the form of a name, an email address, a
 postal address or a link to another page with more contact
 information. For example:
  
-<pre>&lt;address&gt; 
-  &lt;span&gt;Mark Norman Francis&lt;/span&gt;, 
-  &lt;span class="tel"&gt;1-800-555-4865&lt;/span&gt;
-&lt;/address&gt;</pre>
+<syntaxhighlight lang="html5"><address> 
+  <span>Mark Norman Francis</span>, 
+  <span class="tel">1-800-555-4865</span>
+</address></syntaxhighlight>
 
 In the following example, the address is contained within the footer
 paragraph and simply links to another page on the site. The extended
@@ -38,12 +38,12 @@ contact information on the page that this link targets could then
 have much more detailed contact information, to save repeating it
 endlessly across the entire site.
  
-<pre>&lt;footer&gt;
-&lt;p&gt;© Copyright 2011&lt;/p&gt;
-&lt;address&gt;
-&lt;a href="/contact/"&gt;Mark Norman Francis&lt;/a&gt;
-&lt;/address&gt;
-&lt;/footer&gt;</pre>
+<syntaxhighlight lang="html5"><footer>
+<p>© Copyright 2011</p>
+<address>
+<a href="/contact/">Mark Norman Francis</a>
+</address>
+</footer></syntaxhighlight>
 
 Of course, if the site had more than one author, the same pattern
 could be used, just linking to different contact pages for the
@@ -52,13 +52,13 @@ different authors.
 It is *incorrect* to use the <code>&lt;address&gt;</code> element to indicate any other
 type of addresses, such as this:
  
-<pre>&lt;p&gt; Our company address: &lt;/p&gt;
-&lt;address&gt;
+<syntaxhighlight lang="html5"><p> Our company address: </p>
+<address>
   Opera Software ASA,
   Waldemar Thranes gate 98,
   NO-0175 OSLO,
   NORWAY
-&lt;/address&gt;</pre>
+</address></syntaxhighlight>
 
 (Of course, if Opera was taking collective responsibility for
 this article, this would be correct, even though Opera is not the author of this particular page.)
@@ -73,8 +73,8 @@ languages, such as PHP, JavaScript, CSS, XML and so on. For short
 samples within a sentence, you would simply wrap the element around
 the code snippet, like so:
  
-<pre>&lt;p&gt;It is bad form to use event handlers like
-&lt;code&gt;onclick&lt;/code&gt; directly in the HTML.&lt;/p&gt;</pre>
+<syntaxhighlight lang="html5"><p>It is bad form to use event handlers like
+<code>onclick</code> directly in the HTML.</p></syntaxhighlight>
 
 For larger samples of code which span multiple lines, you can use a 
 preformatted block as shown in the [http://www.w3.org/wiki/Marking up textual content in HTML] article.
@@ -85,9 +85,9 @@ the <code>class</code> attribute. A common practice (mentioned
 in the HTML 5 specification) is to use the prefix <code>&lt;language-&gt;</code> and then append
 the language name. So the above example would become:
  
-<pre>&lt;p&gt;It is bad form to use event handlers like 
-&lt;code class="language-javascript"&gt;onclick&lt;/code&gt;
-directly in the HTML.&lt;/p&gt;</pre>
+<syntaxhighlight lang="html5"><p>It is bad form to use event handlers like 
+<code class="language-javascript">onclick</code>
+directly in the HTML.</p></syntaxhighlight>
 
 Some programming languages have names that cannot be easily
 represented in classes, such as C# (C-Sharp). The correct way of
@@ -101,18 +101,18 @@ case, use “<code>&lt;class='language-csharp'&gt;</code>” instead.
 The two elements <code>&lt;samp&gt;</code> and <code>&lt;kbd&gt;</code> can be used to indicate the input
 and output of interaction with a computer program. For example:
  
-<pre>&lt;p&gt;One common method of determining if a computer is connected
-to the internet is to use the computer program &lt;code&gt;ping&lt;/code&gt;
-to see if a computer likely to be running is reachable.&lt;/p&gt;
+<syntaxhighlight lang="html5"><p>One common method of determining if a computer is connected
+to the internet is to use the computer program <code>ping</code>
+to see if a computer likely to be running is reachable.</p>
 
-&lt;pre&gt;&lt;samp class="prompt"&gt;kittaghy%&lt;/samp&gt; &lt;kbd&gt;ping -o google.com&lt;/kbd&gt;
-  &lt;samp&gt;PING google.com (64.233.187.99): 56 data bytes
+<pre><samp class="prompt">kittaghy%</samp> <kbd>ping -o google.com</kbd>
+  <samp>PING google.com (64.233.187.99): 56 data bytes
   64 bytes from 64.233.187.99: icmp_seq=0 ttl=242 time=108.995 ms
 
   --- google.com ping statistics ---
   1 packets transmitted, 1 packets received, 0% packet loss
   round-trip min/avg/max/stddev = 108.995/108.995/108.995/0.000 ms
-&lt;/samp&gt;&lt;/pre&gt;</pre>
+</samp></pre></syntaxhighlight>
 
 The <code>&lt;samp&gt;</code> element indicates sample output from a computer program. As 
 shown in the example, different types of output can be indicated using
@@ -130,12 +130,12 @@ The <code>&lt;var&gt;</code> element is used to indicate variables in textual co
 This can include algebraic mathematical expressions or within
 programming code. For example:
  
-<pre>&lt;p&gt;The value of &lt;var&gt;x&lt;/var&gt; in
- 3&lt;var&gt;x&lt;/var&gt;+2=14 is 4.&lt;/p&gt;
+<syntaxhighlight lang="html5"><p>The value of <var>x</var> in
+ 3<var>x</var>+2=14 is 4.</p>
     
-&lt;pre&gt;&lt;code class="language-perl"&gt;
-my &lt;var&gt;$welcome&lt;/var&gt; = "Hello world!";
-&lt;/code&gt;&lt;/pre&gt;</pre>
+<pre><code class="language-perl">
+my <var>$welcome</var> = "Hello world!";
+</code></pre></syntaxhighlight>
 
 == Citations ==
  
@@ -144,11 +144,11 @@ from—when quoting a person, a book or other publication, or
 generally referring people to another source, that source should be
 wrapped in a <code>&lt;cite&gt;</code> element. For example:
  
-<pre>&lt;p&gt;The saying &lt;q&gt;Everything should be made as simple as possible,
-but not simpler&lt;/q&gt; is often attributed to &lt;cite&gt;Albert
-Einstein&lt;/cite&gt;, but it is actually a paraphrasing of a quote which
-is much less easy to understand.&lt;/p&gt;
-</pre>
+<syntaxhighlight lang="html5"><p>The saying <q>Everything should be made as simple as possible,
+but not simpler</q> is often attributed to <cite>Albert
+Einstein</cite>, but it is actually a paraphrasing of a quote which
+is much less easy to understand.</p>
+</syntaxhighlight>
 
 == Abbreviations ==
  
@@ -159,15 +159,15 @@ without unnecessarily interrupting the flow of the document.
 The text that is the abbreviation gets wrapped in the <code>&lt;abbr&gt;</code> element, 
 and the full expansion is placed in the <code>title</code> attribute, like so:
  
-<pre>&lt;p&gt;Styling is added to 
-&lt;abbr title="Hypertext Markup Language"&gt;HTML&lt;/abbr&gt; documents
-using &lt;abbr title="Cascading Style Sheets"&gt;CSS&lt;/abbr&gt;.&lt;/p&gt;</pre>
+<syntaxhighlight lang="html5"><p>Styling is added to 
+<abbr title="Hypertext Markup Language">HTML</abbr> documents
+using <abbr title="Cascading Style Sheets">CSS</abbr>.</p></syntaxhighlight>
 
 Note that in the HTML4 specification there is also an element called <code>&lt;acronym&gt;</code>, which had a similar function to <code>&lt;abbr&gt;</code>, but for acronyms. This was dropped in HTML5, because the functional difference between an acronym and an abbreviation isn't distinct enough to require different elements.
 
 One problem with this is Internet Explorer support: Internet Explorer (before version 7, and 7 doesn't provide the dotted underline underneath abbreviations that other browsers do) doesn't recognise the <code>&lt;abbr&gt;</code> element, but does recognise <code>&lt;acronym&gt;</code>.  But this is easy enough to get around. To ensure that <code>&lt;abbr&gt;</code> will be stylable in Internet Explorer, you simply need to create the element with JavaScript. Put this code in your document <code>&lt;head&gt;</code>:
 
-<pre>&lt;script type="text/javascript"&gt;document.createElement('abbr');&lt;/script&gt;</pre>
+<syntaxhighlight lang="html5"><script type="text/javascript">document.createElement('abbr');</script></syntaxhighlight>
 
 To find out more about why this works, read [[HTML structural elements#HTML5_element_support]]. Of course, you could just stick to using <code>&lt;acronym&gt;</code> for now, until you decide to make a complete move towards using HTML5.
 
@@ -182,8 +182,8 @@ a part of a list of terms and descriptions and can instead be used
 as part of the normal flow of text, even in conversational style
 prose. So, let's look at an example of using <code>&lt;dfn&gt;</code>:
  
-<pre>&lt;p&gt;&lt;dfn&gt;HTML&lt;/dfn&gt;: HTML stands for "HyperText Markup Language". This is 
-the language used to describe the contents of web documents.&lt;/p&gt;</pre>
+<syntaxhighlight lang="html5"><p><dfn>HTML</dfn>: HTML stands for "HyperText Markup Language". This is 
+the language used to describe the contents of web documents.</p></syntaxhighlight>
  
 The term HTML appears, and is followed immediately by a definition of what it is, therefore this is an ideal place for the <code>&lt;dfn&gt;</code> element to be used. You should only really use it once on a page, where a term is first defined, but terms should only really be defined once on a page anyway, so this is not too troubling.
  
@@ -197,8 +197,8 @@ tiresome as HTML is expanded over and over, even though they would
 already have been told what it stands for. Instead, the code could
 be inserted at the point where it is first defined for the readers:
  
-<pre>&lt;p&gt;&lt;dfn&gt;&lt;abbr&gt;HTML&lt;/abbr&gt;&lt;/dfn&gt; ("HyperText Markup Language") is 
-a language to describe the contents of web documents.&lt;/p&gt;</pre>
+<syntaxhighlight lang="html5"><p><dfn><abbr>HTML</abbr></dfn> ("HyperText Markup Language") is 
+a language to describe the contents of web documents.</p></syntaxhighlight>
 
 Then later, whenever HTML is used, it can be marked up simply as 
 “<code>&lt;abbr&gt;HTML&lt;/abbr&gt;</code>”. A user agent could then make available to the
@@ -207,7 +207,7 @@ abbreviation. Unfortunately, no user agent currently does this,
 including screen readers. It would be better, then, to use the 
 <code>title</code> attribute as well to provide this information:
  
-<pre>&lt;p&gt;&lt;dfn&gt;&lt;abbr title="HyperText Markup Language"&gt;HTML&lt;/abbr&gt;&lt;/dfn&gt; ("HyperText Markup Language") is a language to describe the contents of web documents.&lt;/p&gt;</pre>
+<syntaxhighlight lang="html5"><p><dfn><abbr title="HyperText Markup Language">HTML</abbr></dfn> ("HyperText Markup Language") is a language to describe the contents of web documents.</p></syntaxhighlight>
 
 Unfortunately, we have now doubled up on the expanded term for HTML,
 which can be a problem for screen reader users. However, leaving out
@@ -221,9 +221,9 @@ better to create a glossary section or page where the more rigourous
 definition list markup can be used). If you are very 
 concerned about this, the code could instead appear as:
  
-<pre>&lt;p&gt;&lt;abbr title="HyperText Markup Language"&gt;HTML&lt;/abbr&gt; 
-(&lt;dfn&gt;HyperText Markup Language&lt;/dfn&gt;) is a language to 
-describe the contents of web documents.&lt;/p&gt;</pre>
+<syntaxhighlight lang="html5"><p><abbr title="HyperText Markup Language">HTML</abbr> 
+(<dfn>HyperText Markup Language</dfn>) is a language to 
+describe the contents of web documents.</p></syntaxhighlight>
  
 However, the user
 agent would still have to have some method of connecting the definition with all the instances of the defined term. No browser currently does anything useful with <code>&lt;dfn&gt;</code>, although it is still a useful hook for CSS to style. The solution suggested above is currently the best we’ve got.
@@ -250,12 +250,12 @@ formulae).
  
 An example of both types:
  
-<pre>&lt;p&gt;The chemical formula for water is H&lt;sub&gt;2&lt;/sub&gt;O, and it
-is also known as hydrogen hydroxide.&lt;/p&gt;
-&lt;p&gt;The famous formula for mass-energy equivalence as derived
-by Albert Einstein is E=mc&lt;sup&gt;2&lt;/sup&gt; — energy 
+<syntaxhighlight lang="html5"><p>The chemical formula for water is H<sub>2</sub>O, and it
+is also known as hydrogen hydroxide.</p>
+<p>The famous formula for mass-energy equivalence as derived
+by Albert Einstein is E=mc<sup>2</sup> — energy 
 is equal to the mass multiplied by the speed of light 
-squared.&lt;/p&gt;</pre>
+squared.</p></syntaxhighlight>
 
 == Line breaks ==
  
@@ -281,11 +281,11 @@ So for example you could write the Opera contact address seen
 earlier in this article when talking about the <code>&lt;address&gt;</code> element like
 this instead:
  
-<pre>&lt;p&gt;Our company address: &lt;/p&gt;
-&lt;address&gt;
-Opera Software ASA,&lt;br&gt;Waldemar Thranes gate 98,&lt;br&gt;
-NO-0175 OSLO,&lt;br&gt;NORWAY
-&lt;/address&gt;</pre>
+<syntaxhighlight lang="html5"><p>Our company address: </p>
+<address>
+Opera Software ASA,<br>Waldemar Thranes gate 98,<br>
+NO-0175 OSLO,<br>NORWAY
+</address></syntaxhighlight>
 
 Of course, if you are writing XHTML syle syntax rather than HTML, the element
 should be self-closing, like so: &lt;br /&gt;.
@@ -341,18 +341,18 @@ timestamp, which is generally of the form “YYYY-MM-DD HH:MM:SS
  
 An example using both attributes:
  
-<pre>&lt;p&gt;We should only solve problems that actually arise. As
-&lt;cite&gt;&lt;del datetime="2008-03-25 18:26:55 Z"
-cite="/changes.html#revision-4"&gt;Donald Knuth&lt;/del&gt;&lt;ins
+<syntaxhighlight lang="html5"><p>We should only solve problems that actually arise. As
+<cite><del datetime="2008-03-25 18:26:55 Z"
+cite="/changes.html#revision-4">Donald Knuth</del><ins
 datetime="2008-03-25 18:26:55 Z"
-cite="/changes.html#revision-4"&gt;C. A. R. Hoare&lt;/ins&gt;&lt;/cite&gt;
-said: &lt;q&gt;premature optimization is the root of all 
-evil&lt;/q&gt;.&lt;/p&gt;</pre>
+cite="/changes.html#revision-4">C. A. R. Hoare</ins></cite>
+said: <q>premature optimization is the root of all 
+evil</q>.</p></syntaxhighlight>
 
 
 In addition, we can also use the <code>&lt;s&gt;</code> element to markup content that is outdated, perhaps if you want to mark it for updating or deletion. For example:
 
-<pre>&lt;p&gt;&lt;s&gt;The president of the USA is currently Barack Obama&lt;/s&gt;.&lt;/p&gt;</pre>
+<syntaxhighlight lang="html5"><p><s>The president of the USA is currently Barack Obama</s>.</p></syntaxhighlight>
 }}
 {{Compatibility_Section
 |Not_required=No
