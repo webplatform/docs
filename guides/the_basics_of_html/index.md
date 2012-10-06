@@ -42,7 +42,7 @@ but no human being is controlling them directly.
 HTML is just a plain textual representation of content and its 
 general meaning. For example:
 
-<pre>&lt;p id="example"&gt;This is a paragraph.&lt;/p&gt;</pre>
+<syntaxhighlight lang="html5"><p id="example">This is a paragraph.</p></syntaxhighlight>
  
 The “<code>&lt;p&gt;</code>” part is a marker (which we refer to as a “tag”) that means
 “what follows should be considered as a paragraph”.  Because it is at the start of the content it is affecting, this particular tag is an "opening tag". The
@@ -113,15 +113,15 @@ You may also want to read [[HTML/Training/What_is_HTML|What is HTML?]]
  
 A typical example HTML document looks like so:
  
-<pre>&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-  &lt;head&gt;
-    &lt;title&gt;Example page&lt;/title&gt;
-  &lt;/head&gt;
-  &lt;body&gt;
-    &lt;h1&gt;Hello world&lt;/h1&gt;
-  &lt;/body&gt;
-&lt;/html&gt;</pre>
+<syntaxhighlight lang="html5"><!DOCTYPE html>
+<html>
+  <head>
+    <title>Example page</title>
+  </head>
+  <body>
+    <h1>Hello world</h1>
+  </body>
+</html></syntaxhighlight>
 
 This looks like so when rendered in a web browser:
 
@@ -160,11 +160,11 @@ example above). There are some exceptions to the rule: some elements do not cont
 Elements can also have attributes, which can modify the behaviour
 of the element and introduce extra meaning. Let's have a look at another example.
  
-<pre>&lt;header&gt;
-  &lt;h1&gt;The Basics of 
-    &lt;abbr title="Hypertext Markup Language"&gt;HTML&lt;/abbr&gt;
-  &lt;/h1&gt;
-&lt;/header&gt;</pre>
+<syntaxhighlight lang="html5"><header>
+  <h1>The Basics of 
+    <abbr title="Hypertext Markup Language>HTML</abbr>
+  </h1>
+</header></syntaxhighlight>
 
 This looks like so when rendered:
 
