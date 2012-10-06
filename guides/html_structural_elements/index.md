@@ -50,33 +50,33 @@ Figure 3: The example site, with appropriate HTML4 elements indicated for differ
 
 The markup would look something like this:
 
-<pre>&lt;body&gt;
+<syntaxhighlight lang="html5"><body>
 
-  &lt;div id="header"&gt;
-    &lt;!-- header content goes in here --&gt;
-  &lt;/div&gt;
+  <div id="header">
+    <!-- header content goes in here -->
+  </div>
 
-  &lt;div id="nav"&gt;
-    &lt;!-- navigation menu goes in here --&gt;
-  &lt;/div&gt;
+  <div id="nav">
+    <!-- navigation menu goes in here -->
+  </div>
 
-  &lt;div id="sidebar1"&gt;
-    &lt;!-- sidebar content goes in here --&gt;
-  &lt;/div&gt;
+  <div id="sidebar1">
+    <!-- sidebar content goes in here -->
+  </div>
 
-  &lt;div id="main"&gt;
-    &lt;!-- main page content goes in here --&gt;
-  &lt;/div&gt;
+  <div id="main">
+    <!-- main page content goes in here -->
+  </div>
 
-  &lt;div id="sidebar2"&gt;
-    &lt;!-- sidebar content goes in here --&gt;
-  &lt;/div&gt;
+  <div id="sidebar2">
+    <!-- sidebar content goes in here -->
+  </div>
 
-  &lt;div id="footer"&gt;
-    &lt;!-- footer content goes in here --&gt;
-  &lt;/div&gt;
+  <div id="footer">
+    <!-- footer content goes in here -->
+  </div>
 
-&lt;/body&gt;</pre>
+</body></syntaxhighlight>
 
 It's that simple really. Of course, it is not going to look like a properly laid out site until you apply CSS to the HTML: you will learn a lot more about this later on in the course. But it does give you the structural integrity you need to get the site laid out how you want.
 
@@ -106,33 +106,33 @@ Figure 4: The example site, with appropriate HTML5 elements indicated for differ
 
 In code, this looks like so:
 
-<pre>&lt;body&gt;
+<syntaxhighlight lang="html5"><body>
 
-  &lt;header&gt;
-    &lt;!-- header content goes in here --&gt;
-  &lt;/header&gt;
+  <header>
+    <!-- header content goes in here -->
+  </header>
 
-  &lt;nav&gt;
-    &lt;!-- navigation menu goes in here --&gt;
-  &lt;/nav&gt;
+  <nav>
+    <!-- navigation menu goes in here -->
+  </nav>
 
-  &lt;section id="sidebar1"&gt;
-    &lt;!-- sidebar content goes in here --&gt;
-  &lt;/section&gt;
+  <section id="sidebar1">
+    <!-- sidebar content goes in here -->
+  </section>
 
-  &lt;section id="main"&gt;
-    &lt;!-- main page content goes in here --&gt;
-  &lt;/section&gt;
+  <section id="main">
+    <!-- main page content goes in here -->
+  </section>
 
-  &lt;aside&gt;
-    &lt;!-- aside content goes in here --&gt;
-  &lt;/aside&gt;
+  <aside>
+    <!-- aside content goes in here -->
+  </aside>
 
-  &lt;footer&gt;
-    &lt;!-- footer content goes in here --&gt;
-  &lt;/footer&gt;
+  <footer>
+    <!-- footer content goes in here -->
+  </footer>
 
-&lt;/body&gt;</pre>
+</body></syntaxhighlight>
  
 Let's explore some of the HTML5 elements in more detail.
 
@@ -152,53 +152,53 @@ It is a fairly generic element, but still has way more semantic meaning than the
 
 In our example, <code>&lt;section id="main"&gt;</code> contains blog entries. Each blog entry would be suitable for syndicating as an item in an RSS feed, and would make sense when read on its own, out of context, therefore <code>&lt;article&gt;</code> is perfect for them:
 
-<pre>&lt;section id="main"&gt;
-    &lt;article&gt;
-      &lt;!-- first blog post content goes here --&gt;
-    &lt;/article&gt;
+<syntaxhighlight lang="html5"><section id="main">
+    <article>
+      <!-- first blog post content goes here -->
+    </article>
     
-    &lt;article&gt;
-      &lt;!-- second blog post content goes here --&gt;
-    &lt;/article&gt;
+    <article>
+      <!-- second blog post content goes here -->
+    </article>
     
-    &lt;article&gt;
-      &lt;!-- third blog post content goes here --&gt;
-    &lt;/article&gt;
-&lt;/section&gt;</pre>
+    <article>
+      <!-- third blog post content goes here -->
+    </article>
+</section></syntaxhighlight>
 
 Simple huh? Be aware though that you can also nest sections inside articles, where it makes sense to do so. For example, if each one of these blog posts has a consistent structure of distinct sections, then you could put sections inside your articles as well. It could look something like this:
 
-<pre>&lt;article&gt;
-  &lt;section id="introduction"&gt;
-  &lt;/section&gt;
+<syntaxhighlight lang="html5"><article>
+  <section id="introduction">
+  </section>
   
-  &lt;section id="content"&gt;
-  &lt;/section&gt;
+  <section id="content">
+  </section>
   
-  &lt;section id="summary"&gt;
-  &lt;/section&gt;
-&lt;/article&gt;</pre>
+  <section id="summary">
+  </section>
+</article></syntaxhighlight>
  
 === &lt;header&gt; and &lt;footer&gt; ===
   
 as we already mentioned above, the purpose of the <code>&lt;header&gt;</code> and <code>&lt;footer&gt;</code> elements is to wrap header and footer content, respectively. In our particular example the <code>&lt;header&gt;</code> element contains a logo image, and the <code>&lt;footer&gt;</code> element contains a copyright notice, but you could add more elaborate content if you wished. Also note that you can have more than one header and footer on each page - as well as the top level header and footer we have just discussed, you could also have a <code>&lt;header&gt;</code> and <code>&lt;footer&gt;</code> element nested inside each <code>&lt;article&gt;</code>, in which case they would just apply to that particular article. Adding to our above example:
 
-<pre>&lt;article&gt;
-  &lt;header&gt;
-  &lt;/header&gt;
+<syntaxhighlight lang="html5"><article>
+  <header>
+  </header>
 
-  &lt;section id="introduction"&gt;
-  &lt;/section&gt;
+  <section id="introduction">
+  </section>
   
-  &lt;section id="content"&gt;
-  &lt;/section&gt;
+  <section id="content">
+  </section>
   
-  &lt;section id="summary"&gt;
-  &lt;/section&gt;
+  <section id="summary">
+  </section>
   
-  &lt;footer&gt;
-  &lt;/footer&gt;
-&lt;/article&gt;</pre>
+  <footer>
+  </footer>
+</article></syntaxhighlight>
  
 === &lt;nav&gt; ===
   
@@ -225,13 +225,13 @@ And you can get HTML5 elements working across all browsers today with the minimu
 
 First of all, if you put an element into a web page that the browser doesn't recognise, by default the browser will just treat it like a <code>&lt;span&gt;</code>, ie, an anonymous inline element. Most of the HTML5 elements we have looked at in this article are supposed to behave like block elements, therefore the easiest way to make them behave properly in older browsers is by setting them to <code>display:block;</code> in your CSS. You can do this by including the following CSS rule at the top of your CSS, whether it is contained in the head of your HTML file, or an external CSS file:
  
-<pre>article, section, aside, hgroup, nav, header, footer, figure, figcaption {
+<syntaxhighlight lang="css">article, section, aside, hgroup, nav, header, footer, figure, figcaption {
   display: block;
-}</pre>
+}</syntaxhighlight>
  
 This solves all your problems for all browsers except one. Older versions of Internet Explorer refuse to allow styling of unknown elements, but this can be fixed by inserting a line of JavaScript into the head of your document for each element, like so:
  
-<pre>&lt;script&gt;
+<syntaxhighlight lang="javascript">&lt;script&gt;
     document.createElement('article');
     document.createElement('section');
     document.createElement('aside');
@@ -241,7 +241,7 @@ This solves all your problems for all browsers except one. Older versions of Int
     document.createElement('footer');
     document.createElement('figure');
     document.createElement('figcaption'); 
-&lt;/script&gt;</pre>
+&lt;/script&gt;</syntaxhighlight>
  
 IE will now magically apply styles to those elements. It is a pain having to use JavaScript to make your CSS work, but hey, at least we have a way forward! Why does this work exactly? There is also a problem with these styles STILL not being carried through to the printer when you try to print HTML5 documents from IE. This print problem can be solved using the [[HTML5 Shiv]] JavaScript library, which also handles adding the <code>document.createElement</code> lines for you. You should wrap it up in [[Conditional comments]] for IE less than IE9, so modern browsers don't execute JS they don't need.
 
