@@ -9,6 +9,19 @@
 {{Notes_Section
 |Import_Notes=
 ===In this section===
+* [[css/atrules/@keyframes|'''@keyframes''']]: Sets a list of property animation keyframes for an object in the HTML document.Sets a list of property animation keyframes for an object in the HTML document.
+* [[css/properties/animation/animation|'''animation''']]: Gets or sets one or more shorthand values  that specify all animation properties (except   [[css/properties/animation-play-state|'''animation-play-state''']]) for a set of corresponding object properties  identified in the CSS [[css/atrules/@keyframes|'''@keyframes''']] at-rule specified by the [[css/properties/animation-name|'''animation-name''']] property.
+* [[css/properties/animation-delay|'''animation-delay''']]: Gets or sets one or more values  that specify the offset within an animation cycle (the amount of time from the start of a cycle) before  the animation  is displayed  for a set of corresponding object properties  identified in the CSS [[css/atrules/@keyframes|'''@keyframes''']] at-rule specified by the [[css/properties/animation-name|'''animation-name''']] property.
+* [[css/properties/animation-direction|'''animation-direction''']]: Gets or sets one or more values  that specify the direction of play for an animation cycle.
+* [[css/properties/animation-duration|'''animation-duration''']]: Gets or sets one or more values that specify the length of time to complete one cycle of the animation.
+* [[css/properties/animation-fill-mode|'''animation-fill-mode''']]: Gets or sets one or more values  that specify whether the effects of an animation are visible before or after it plays.
+* [[css/properties/animation-iteration-count|'''animation-iteration-count''']]: Gets or sets one or more values  that specify the number of times an animation cycle is played.
+* [[css/properties/animation-name|'''animation-name''']]: Gets or sets a value  that identifies one or more animation names. An animation name identifies (or selects) a  CSS [[css/atrules/@keyframes|'''@keyframes''']] at-rule.
+* [[css/properties/animation-play-state|'''animation-play-state''']]: Gets or sets one or more values  that specify whether an animation is playing or paused.
+* [[css/properties/animation-timing-function|'''animation-timing-function''']]: Gets or sets one or more values  that specify the intermediate property values to be used during a single cycle of an animation on a set of corresponding object properties  identified in the CSS [[css/atrules/@keyframes|'''@keyframes''']] at-rule specified by the [[css/properties/animation-name|'''animationName''']] property.
+* [[css/cssom/CSSKeyframeRule|'''CSSKeyframeRule''']]: Represents the style rule for a single key.
+* [[css/cssom/CSSKeyframesRule|'''CSSKeyframesRule''']]: Represents a complete set of keyframes for a single animation.
+
 {| class="wikitable"
 |-
 !Property
