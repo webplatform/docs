@@ -29,7 +29,7 @@ For more information about documents and markup languages, see other parts of th
 {{!}}[[XML]]
 {{!}}for structured documents in general
 {{!}}-
-{{!}}[[SVG]]
+{{!}}[[svg|SVG]]
 {{!}}for graphics
 {{!}}-
 {{!}}[[XUL]]
