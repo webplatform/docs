@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page_Title|Programming basics}}
 {{Flags}}
 {{Byline}}
 {{Summary_Section|This article covers fundamental principles of programming, using JavaScript as an example language.}}
