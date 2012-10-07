@@ -11,7 +11,7 @@ Before we can start drawing, we need to talk about the canvas grid or ''coordina
  
 == Drawing shapes ==
  
-Unlike [[SVG]], canvas only supports one primitive shape - rectangles. All other shapes must be created by combining one or more paths. Luckily, we have a collection of path drawing functions which make it possible to compose very complex shapes.
+Unlike [[svg|SVG]], canvas only supports one primitive shape - rectangles. All other shapes must be created by combining one or more paths. Luckily, we have a collection of path drawing functions which make it possible to compose very complex shapes.
  
 === Rectangles ===
  
