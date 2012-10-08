@@ -42,7 +42,7 @@ The '''border-radius''' property is a composite property that specifies up to fo
 |Import_Notes====Syntax===
 <code>'''border-radius: '''radius '''{{!}}''' percentage</code>
 ===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}197157 CSS Backgrounds and Borders Module Level 3], Section 4.4
+*[http://www.w3.org/TR/css3-background/ CSS Backgrounds and Borders Module Level 3], Section 4.4
 }}
 {{Related_Specifications_Section
 |Specifications=
