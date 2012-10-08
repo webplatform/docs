@@ -39,7 +39,7 @@ Rules in the style sheet override rules in the imported style sheet.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=CSS 2.1, sevction 6.3
+|Name=CSS 2.1, section 6.3
 |URL=http://www.w3.org/TR/CSS2/cascade.html#at-import
 |Status=W3C Recommendation
 }}
@@ -77,8 +77,7 @@ Rules in the style sheet override rules in the imported style sheet.
 }}
 {{See_Also_Section
 |Topic_clusters=Syntax, CSS Layout
-|Manual_sections====Related pages (MSDN)===
-*<code>Reference</code>
+|Manual_sections====Related pages===
 *<code>[[css/cssom/imports|imports]]</code>
 *<code>[[css/selectors/pseudo-classes/:link|:link]]</code>
 *<code>[[css/cssom/style|style]]</code>
