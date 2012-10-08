@@ -1,27 +1,29 @@
+{{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{API_Object_Method
-|Parameters={{Method Parameter|Name=eTag|Data type=BSTR|Description=A '''String''' that specifies the name of an element.|Optional=}}
+|Parameters={{Method Parameter
+|Name=eTag
+|Data type=String
+|Description=A '''String''' that specifies the name of an element.
+|Optional=No
+}}
 |Method_applies_to=dom/document
 |Example_object_name=object
 |Return_value_name=object
 |Javascript_data_type=DOM Node
 |Return_value_description='''IHTMLElement'''
-
-
 }}
-{{Topics|DOM}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Description=This example uses the '''createElement''' method to dynamically update the contents of a Web page by adding an element selected from a drop-down list box.
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/createElement.htm
-|Code=
-&lt;SCRIPT&gt;
+|Code=&lt;SCRIPT&gt;
 function fnCreate(){
     oData.innerHTML{{=}}"";
     var oOption{{=}}oSel.options[oSel.selectedIndex];
@@ -45,13 +47,10 @@ function fnCreate(){
 &lt;OPTION VALUE{{=}}"More and More Text"&gt;More and More Text
 &lt;/SELECT&gt;
 &lt;SPAN ID{{=}}"oData" &gt;&lt;/SPAN&gt;
-
-}}
-{{Single_Example
+|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/createElement.htm
+}}{{Single Example
 |Description=In Internet Explorer, you can also specify all the attributes inside the '''createElement''' method by using an HTML string for the method argument. The following example demonstrates how to dynamically create two radio buttons utilizing this technique.
-|LiveURL=
-|Code=
-&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;
+|Code=&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;
 
 &lt;html xmlns{{=}}"http://www.w3.org/1999/xhtml"&gt;
 &lt;head&gt;
@@ -84,25 +83,47 @@ function fnCreate(){
   &lt;div id{{=}}"displayBox"&gt;&lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-}}}}
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 You must perform a second step when you use '''createElement''' to create the '''input''' element. The '''createElement''' method generates an input text box, because that is the default '''input''' [[html/attributes/type|'''type''']] property. To insert any other kind of '''input''' element, first invoke '''createElement''' for '''input''', and then set the '''type''' property to the appropriate value in the next line of code.
 Attributes can be included with the ''eTag'' as long as the entire string is valid HTML. To include the [[html/attributes/name|'''NAME''']] attribute at run time on objects created with the '''createElement''' method, use the ''eTag''.
 Use the ''eTag'' to include attributes when form elements are created that will be reset using the '''BUTTON''' with a [[html/attributes/type (button element)|'''TYPE''']] attribute value of <code>reset</code>.
 In Microsoft Internet Explorer 4.0, the only new elements you can create are '''img''', '''area''', and '''option'''. As of Microsoft Internet Explorer 5, you can create all elements programmatically, 
 except '''frame''' and '''iframe'''. The properties of these created elements are read/write and can be accessed programmatically. Before you use new objects, you must explicitly add them to their respective collections or to the document. To insert new elements into the current document, use the [[dom/methods/insertBefore|'''insertBefore''']] method or the [[dom/methods/appendChild|'''appendChild''']] method.
-|Import_Notes=
-===Syntax===
+|Import_Notes====Syntax===
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}182717 Document Object Model (DOM) Level 3 Core Specification], Section 1.4
-
-
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows={{Compatibility Table Desktop Row
+|Chrome_supported=Yes
+|Chrome_prefixed_supported=Unknown
+|Chrome_prefixed_version=
+|Firefox_supported=Yes
+|Firefox_prefixed_supported=Unknown
+|Firefox_prefixed_version=
+|Internet_explorer_supported=Unknown
+|Internet_explorer_version=
+|Internet_explorer_prefixed_supported=Unknown
+|Internet_explorer_prefixed_version=
+|Opera_supported=Yes
+|Opera_prefixed_supported=Unknown
+|Opera_prefixed_version=
+|Safari_supported=Yes
+|Safari_prefixed_supported=Unknown
+|Safari_prefixed_version=
+}}
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 *<code>[[dom/document|document]]</code>
 *<code>Reference</code>
 *<code>[[dom/methods/cloneNode|cloneNode]]</code>
@@ -110,10 +131,11 @@ except '''frame''' and '''iframe'''. The properties of these created elements ar
 *<code>Conceptual</code>
 *<code>About the W3C Document Object Model</code>
 }}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
