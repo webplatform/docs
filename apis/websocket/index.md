@@ -35,15 +35,15 @@ And to complement it, here's an example echo server in Python using Twisted:
 
   from twisted.internet import protocol, reactor
   from txws import WebSocketFactory
-
+  
   class Echo(protocol.Protocol):
       def dataReceived(self, data):
           self.transport.write(data)
-
+  
   class EchoFactory(protocol.Factory):
       def buildProtocol(self, addr):
           return Echo()
-
+  
   reactor.listenTCP(8080, WebSocketFactory(EchoFactory()))
   reactor.run()
 |Notes=Like standard HTTP, WebSocket by default uses port 80 in the clear and 443 over SSL. The WebSocket client establishes an HTTP connection and requests to switch the protocol using the HTTP Upgrade mechanism, and then follows a handshake protocol to ensure both client and server support WebSocket. Since WebSocket connections start off as HTTP, WebSocket can work through many existing proxies and firewalls, unlike some other protocols.
