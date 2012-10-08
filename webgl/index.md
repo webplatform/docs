@@ -30,6 +30,10 @@ You can consult the [[webgl/reference|WebGL Reference]]
 
 Additional reference resources on WebGL can be found on the [http://www.khronos.org/webgl/ Khronos WebGL page]
 
+== WebGL Availability ==
+
+Not all browsers support WebGL yet and the GPU, driver or OS may not be supported.
+
 === Statistics of support ===
 
 {| class="wikitable"
