@@ -1,6 +1,8 @@
+{{Page_Title}}
 {{Flags
 |Content=Not Neutral
 }}
+{{Byline}}
 {{Summary_Section|JavaScript is designed on a simple object-based paradigm. An object is a collection of properties, and a property is association between a name and a value. A value of property can be a function, which is then known as the object's method. In addition to objects that are predefined in the browser, you can define your own objects.
 
 This chapter describes how to use objects, properties, functions, and methods, and how to create your own objects.
@@ -132,7 +134,7 @@ The following example creates <code>myHonda</code> with three properties. Note t
 
  var myHonda = {color: "red", wheels: 4, engine: {cylinders: 4, size: 2.2}};
 
-You can also use object initializers to create arrays. See [[/js/guides/JavaScript/Values#Array_literals|array literals]].
+You can also use object initializers to create arrays and regular expressions. See [[/js/guides/JavaScript/Values#Array_literal|array]] and [[/js/guides/JavaScript/Values#RegExp_literal|regular expression]] literals.
 
 In JavaScript 1.1 and earlier, you cannot use object initializers. You can create objects only using their constructor functions or using a function supplied by some other object for that purpose. See [http://docs.webplatform.org/wiki#Using_a_constructor_function Using a constructor function].
 
@@ -412,16 +414,20 @@ See <code>[/guides/JavaScript/Expressions#delete|delete]]</code> for more inform
 
 </div>
 }}
+{{Notes_Section}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
 {{See_Also_Section
 |Manual_links=* <code>[[/js/objects/Object/defineGetter|__defineGetter__]]</code>
 * <code>[[/js/objects/Object/defineSetter __defineSetter__]]</code>
 * <code>[[/js/operators/get|get]]</code>
 * <code>[[/js/operators/set|set]]</code>
-
 |External_links=* [http://es5.github.com/#x4.2 ECMAScript 5.1 spec: Language Overview]
 * [http://dmitrysoshnikov.com/ecmascript/javascript-the-core JavaScript. The core. (Dmitry A. Soshnikov ECMA-262 article series)]
-
-
 }}
 {{Topics|JavaScript}}
 {{External_Attribution
