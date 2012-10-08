@@ -1,11 +1,11 @@
 {{Page_Title|SVG clipping and masking}}
 {{Flags}}
 {{Byline}}
-{{Summary_Section|This article explains how cipping and masking work in SVG.}}
+{{Summary_Section|This article explains how clipping and masking work in SVG.}}
 {{Tutorial
 |Content=Erasing part of what one has created cumbersome might at first sight look contradictory. But when you try to create a semicircle in SVG, you will find out the use of the following properties quickly.
  
-'''Clipping''' refers to removing parts of elements defined by other parts. In this case, any half-transparent effects are not possible, it's an all-or-nothing approach.
+'''Clipping''' refers to removing parts of elements defined by other parts. In this case, any half-transparent effects are not possible; it's an all-or-nothing approach.
  
 '''Masking''' on the other hand allows soft edges by taking transparency and grey values of the mask into account.
  
@@ -19,9 +19,9 @@ We create the above mentioned semicircle based on a <code>circle</code> element:
 
 &lt;circle cx="100" cy="100" r="100" clip-path="url(#cut-off-bottom)" /&gt;</pre>
  
-Centered at (100,100) a circle with radius 100 is painted. The attribute <code>clip-path</code> references a <code>{{ SVGElement("clipPath") }}</code> element with a single <code>rect</code> element. This rectangular on its own would paint the upper half of the canvas black. Note, that the <code>clipPath</code> element is usually placed in a <code>defs</code> section.
+Centered at (100,100), a circle with radius 100 is painted. The attribute <code>clip-path</code> references a <code>{{ SVGElement("clipPath") }}</code> element with a single <code>rect</code> element. This rectangular on its own would paint the upper half of the canvas black. Note that the <code>clipPath</code> element is usually placed in a <code>defs</code> section.
  
-The <code>rect</code> will not be painted, however. Instead its pixel data will be used to determine, which pixels of the circle "make it" to the final rendering. Since the rectangle covers only the upper half of the circle, the lower half of the circle will vanish:
+The <code>rect</code> will not be painted, however. Instead, its pixel data will be used to determine which pixels of the circle "make it" to the final rendering. Since the rectangle covers only the upper half of the circle, the lower half of the circle will vanish:
  
 [[Image:clipdemo.png]]
  
@@ -46,7 +46,7 @@ The effect of masking is most impressively presented with a gradient. If you wan
   &lt;rect x="0" y="0" width="200" height="200" fill="red" mask="url(#Mask)" /&gt;
 &lt;/svg&gt;</pre>
  
-You see a green-filled <code>rect</code> at the lowest layer and on top a red-filled <code>rect</code>. The later has the <code>mask</code> attribute pointing to the <code>mask</code> element. The content of the mask is a single <code>rect</code> element, that is filled with a transparent-to-white gradient. As a result the pixels of the red rectangle inherit the alpha value (the transparency) of the mask content, and we see a green-to-left gradient as a result:
+You see a green-filled <code>rect</code> at the lowest layer and on top a red-filled <code>rect</code>. The latter has the <code>mask</code> attribute pointing to the <code>mask</code> element. The content of the mask is a single <code>rect</code> element, that is filled with a transparent-to-white gradient. As a result the pixels of the red rectangle inherit the alpha value (the transparency) of the mask content, and we see a green-to-left gradient as a result:
 
 [[Image:maskdemo.png]]
 
@@ -56,18 +56,18 @@ There is a simple possibility to set the transparency for a whole element. It's 
  
 <pre>&lt;rect x="0" y="0" width="100" height="100" opacity=".5" /&gt;</pre>
  
-The above rectangle will be painted half-transparent. For the fill and stroke there are two separate attributes, <code>fill-opacity</code> and <code>stroke-opacity</code>, that control each of those property opacities separately. Note, that the stroke will be painted on top of the filling. Hence, if you set a stroke opacity on an element, that also has a fill, the fill will shine through on half of the stroke, while on the other half the background will appear:
+The above rectangle will be painted half-transparent. For the fill and stroke, there are two separate attributes, <code>fill-opacity</code> and <code>stroke-opacity</code>, that control each of those property opacities separately. Note that the stroke will be painted on top of the filling. Hence, if you set a stroke opacity on an element that also has a fill, the fill will shine through on half of the stroke, while on the other half the background will appear:
 
 <pre>&lt;rect x="0" y="0" width="200" height="200" fill="blue" /&gt;
 &lt;circle cx="100" cy="100" r="50" stroke="yellow" stroke-width="40" stroke-opacity=".5" fill="red" /&gt;</pre>
  
 [[Image:opacitydemo.png]]
  
-You see in this example the red circle on blue background. The yellow stroke is set to 50% opacity, which leads effectively to a double-color stroke.
+You see in this example the red circle on blue background. The yellow stroke is set to 50% opacity, which effectively leads to a double-color stroke.
 
 == Using well-known CSS techniques ==
  
-One of the most powerful tools in a web developer's toolbox is <code>display: none</code>. It is therefore little surprise, that it was decided to take this CSS property into SVG as well, together with <code>visibility</code> and <code>clip</code> as defined by CSS 2. For reverting a previously set <code>display: none</code> it is important to know, that the initial value for all SVG elements is <code>inline</code>.
+One of the most powerful tools in a web developer's toolbox is <code>display: none</code>. There is therefore little surprise that it was decided to take this CSS property into SVG as well, together with <code>visibility</code> and <code>clip</code> as defined by CSS 2. For reverting a previously set <code>display: none</code>, it is important to know that the initial value for all SVG elements is <code>inline</code>.
 }}
 {{Notes_Section}}
 {{Compatibility_Section
