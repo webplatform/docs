@@ -1,6 +1,5 @@
 {{Page_Title|Introduction to MIME types}}
 {{Flags
-|High-level issues=Stub
 }}
 {{API_Name}}
 {{Summary_Section}}
