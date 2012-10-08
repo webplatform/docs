@@ -1,33 +1,66 @@
+{{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
-{{CSS_Property
-|Applies to=block-level elements
-|Media=paged
-|Inherited=No
+{{Summary_Section}}
+{{CSS Property
 |Initial value=auto
-|Values={{CSS_Property_Value|Data Type=auto |Description=Default. A page break or column break is determined  by the flow of content.}}
-{{CSS_Property_Value|Data Type=always |Description=A page break is inserted (forced) before the content block.}}
-{{CSS_Property_Value|Data Type=avoid |Description=A page break or column break is not allowed before the content block.}}
-{{CSS_Property_Value|Data Type=left |Description=A page break is inserted (forced) before the content block such that the flow of content continues in the first column of the "left" page that immediately follows the current page (according to the paging format of the document).}}
-{{CSS_Property_Value|Data Type=right |Description=A page break is inserted (forced) before the content block such that the flow of content continues in the first column of the "right" page that immediately follows the current page (according to the paging format of the document).}}
-{{CSS_Property_Value|Data Type=page |Description=A page break is inserted (forced) before the content block such that the flow of content continues in the first column of the page that immediately follows the current page (according to the paging format of the document).}}
-{{CSS_Property_Value|Data Type=column |Description=A column break is inserted (forced) before the content block.}}
-{{CSS_Property_Value|Data Type=avoid-page |Description=A page break is not allowed before the content block.}}
-{{CSS_Property_Value|Data Type=avoid-column |Description=A column break is not allowed before the content block.}}
+|Applies to=block-level elements
+|Inherited=No
+|Media=paged
+|Animatable=No
+|Values={{CSS Property Value
+|Data Type=auto
+|Description=Default. A page break or column break is determined  by the flow of content.
+}}{{CSS Property Value
+|Data Type=always
+|Description=A page break is inserted (forced) before the content block.
+}}{{CSS Property Value
+|Data Type=avoid
+|Description=A page break or column break is not allowed before the content block.
+}}{{CSS Property Value
+|Data Type=left
+|Description=A page break is inserted (forced) before the content block such that the flow of content continues in the first column of the "left" page that immediately follows the current page (according to the paging format of the document).
+}}{{CSS Property Value
+|Data Type=right
+|Description=A page break is inserted (forced) before the content block such that the flow of content continues in the first column of the "right" page that immediately follows the current page (according to the paging format of the document).
+}}{{CSS Property Value
+|Data Type=page
+|Description=A page break is inserted (forced) before the content block such that the flow of content continues in the first column of the page that immediately follows the current page (according to the paging format of the document).
+}}{{CSS Property Value
+|Data Type=column
+|Description=A column break is inserted (forced) before the content block.
+}}{{CSS Property Value
+|Data Type=avoid-page
+|Description=A page break is not allowed before the content block.
+}}{{CSS Property Value
+|Data Type=avoid-column
+|Description=A column break is not allowed before the content block.
 }}
-{{Topics|CSS}}
+}}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
 {{Notes_Section
-|Import_Notes=
-===Syntax===
+|Import_Notes====Syntax===
 <code>'''break-before: '''auto '''{{!}}''' always '''{{!}}''' avoid '''{{!}}''' left '''{{!}}''' right '''{{!}}''' page '''{{!}}''' column '''{{!}}''' avoid-page '''{{!}}''' avoid-column</code>
 }}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Topic_clusters=Multi-Column
+|Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
 *<code>[[css/cssom/style|style]]</code>
@@ -62,12 +95,12 @@
 *<code>Reference</code>
 *<code>[[css/properties/break-after|breakAfter]]</code>
 *<code>[[css/properties/break-inside|breakInside]]</code>
-|Topic_clusters=Multi-Column
 }}
+{{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
