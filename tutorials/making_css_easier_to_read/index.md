@@ -77,6 +77,18 @@ This rule makes [h1], [h2], and [h3] elements the same color — it is convenien
 <syntaxhighlight lang="css">/* color for headings */
 h1, h2, h3 {color: navy;}
 </syntaxhighlight>
+
+=== Sorting properties ===
+ 
+When used consistently sorting properties can be a great way to help make your stylesheets more readable. For instance sorting your properties by first properties that effects layout then color.
+
+<syntaxhighlight lang="css">/* sorted properties */
+selector {
+  width: 200px;
+  height: 100px;
+  background-color: yellow;
+}
+</syntaxhighlight>
   
 == Action: Adding comments and improving the layout ==
  
@@ -93,6 +105,7 @@ p {color: blue;}</syntaxhighlight></li>
 
 <p class="note">Need to add a screenshot to show what it should look like.</p>
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
 |Desktop_rows=
