@@ -1,0 +1,3 @@
+Progressive enhancement is a methodology for building web pages that are robust to the ever-changing nature of the web platform. 
+
+Because browser features are constantly evolving, web developers need ways to build pages for different combinations of browser capabilities. Progressive enhancement addresses this by starting with a semantic HTML document and layering additional presentation and behaviour on top where additional features are available.
