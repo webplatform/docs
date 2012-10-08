@@ -1,49 +1,70 @@
+{{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
-{{CSS_Property
+{{Summary_Section}}
+{{CSS Property
 |Applies to=All elements
-|Media=visual
 |Inherited=No
-|Initial value=
-|Values={{CSS_Property_Value|Data Type=none |Description=Default. No effect takes place—that is, no extra space is added.}}
-{{CSS_Property_Value|Data Type=ideograph-alpha |Description=Creates extra spacing between runs of ideographic and non-ideographic text, such as Latin-based, Cyrillic, Greek, Arabic, or Hebrew text.}}
-{{CSS_Property_Value|Data Type=ideograph-numeric |Description=Creates extra spacing between runs of ideographic text and numeric characters.}}
-{{CSS_Property_Value|Data Type=ideograph-parenthesis |Description=Creates extra spacing between a normal (non-wide) parenthesis and an ideograph.}}
-{{CSS_Property_Value|Data Type=ideograph-space |Description=Extends the width of the space character when it is adjacent to ideographs.}}
+|Media=visual
+|Animatable=No
+|Values={{CSS Property Value
+|Data Type=none
+|Description=Default. No effect takes place—that is, no extra space is added.
+}}{{CSS Property Value
+|Data Type=ideograph-alpha
+|Description=Creates extra spacing between runs of ideographic and non-ideographic text, such as Latin-based, Cyrillic, Greek, Arabic, or Hebrew text.
+}}{{CSS Property Value
+|Data Type=ideograph-numeric
+|Description=Creates extra spacing between runs of ideographic text and numeric characters.
+}}{{CSS Property Value
+|Data Type=ideograph-parenthesis
+|Description=Creates extra spacing between a normal (non-wide) parenthesis and an ideograph.
+}}{{CSS Property Value
+|Data Type=ideograph-space
+|Description=Extends the width of the space character when it is adjacent to ideographs.
 }}
-{{Topics|CSS}}
+}}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 Windows Internet Explorer 8. The '''-ms-text-autospace''' attribute is an extension to CSS, and can be used as a synonym for '''text-autospace''' in IE8 Standards mode.
 An ideograph is a character in an Asian writing system that represents a concept or an idea, but not a particular word or pronunciation.
-|Import_Notes=
-===Syntax===
+|Import_Notes====Syntax===
 <code>'''-ms-text-autospace: '''none '''{{!}}''' ideograph-alpha '''{{!}}''' ideograph-numeric '''{{!}}''' ideograph-parenthesis '''{{!}}''' ideograph-space</code>
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}203766 CSS Text Level 3], Section 9.4
-
-
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Topic_clusters=Text
+|Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
 *<code>[[dom/defaultSelected|defaults]]</code>
 *<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
 *<code>[[css/cssom/style|style]]</code>
 *<code>[[css/cssom/styleSheet|styleSheet]]</code>
-|Topic_clusters=Text
 }}
+{{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
