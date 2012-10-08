@@ -1,28 +1,51 @@
+{{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
-{{CSS_Property
-|Applies to=multi-column elements
-|Media=visual
-|Inherited=No
+{{Summary_Section}}
+{{CSS Property
 |Initial value=see individual properties
-|Values={{CSS_Property_Value|Data Type=column-rule-width |Description=Value of the [[css/properties/column-rule-width|'''column-rule-width''']] property.}}
-{{CSS_Property_Value|Data Type=column-rule-style |Description=Value of the [[css/properties/column-rule-style|'''column-rule-style''']] property.}}
-{{CSS_Property_Value|Data Type=column-rule-color |Description=Value of the [[css/properties/column-rule-color|'''column-rule-color''']] property.}}
-{{CSS_Property_Value|Data Type=transparent |Description=Indicates rule is transparent.}}
+|Applies to=multi-column elements
+|Inherited=No
+|Media=visual
+|Animatable=No
+|Values={{CSS Property Value
+|Data Type=column-rule-width
+|Description=Value of the [[css/properties/column-rule-width|'''column-rule-width''']] property.
+}}{{CSS Property Value
+|Data Type=column-rule-style
+|Description=Value of the [[css/properties/column-rule-style|'''column-rule-style''']] property.
+}}{{CSS Property Value
+|Data Type=column-rule-color
+|Description=Value of the [[css/properties/column-rule-color|'''column-rule-color''']] property.
+}}{{CSS Property Value
+|Data Type=transparent
+|Description=Indicates rule is transparent.
 }}
-{{Topics|CSS}}
+}}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
 {{Notes_Section
-|Import_Notes=
-===Syntax===
+|Import_Notes====Syntax===
 <code>'''column-rule: '''''column-rule-width'' '''{{!}}{{!}}''' ''column-rule-style'' '''{{!}}{{!}}''' '''[''' ''column-rule-color'' '''{{!}}''' transparent ''']'''</code>
 }}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Topic_clusters=Multi-Column
+|Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
 *<code>[[css/cssom/style|style]]</code>
@@ -54,12 +77,12 @@
 *<code>map</code>
 *<code>object</code>
 *<code>script</code>
-|Topic_clusters=Multi-Column
 }}
+{{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
