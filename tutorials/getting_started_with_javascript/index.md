@@ -1,6 +1,5 @@
 {{Page_Title|Getting started with JavaScript}}
 {{Flags
-|Content=Incomplete
 }}
 {{Summary_Section|This tutorial provides a brief introduction to JavaScript, for readers who are already familiar with programming concepts}}
 {{Tutorial
