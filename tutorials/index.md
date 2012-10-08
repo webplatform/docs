@@ -10,13 +10,15 @@
 * [[svg/tutorials|SVG]]
 
 ==Topical tutorials==
-* [[tutorials/3d graphics and effects|3D, Graphics, and Effects]]
-* [[tutorials/offline and storage|Offline and Storage]]
-* [[tutorials/device access|Device access]]
+* [[tutorials/audio|Audio]]
 * [[tutorials/connectivity|Connectivity]]
-* [[tutorials/multimedia|Multimedia]]
-* [[tutorials/tools|Tools]]
+* [[tutorials/device access|Device access]]
+* [[tutorials/graphics|Graphics]]
+* [[tutorials/3d graphics and effects|Graphics (3D)]]
 * [[tutorials/mobile|Mobile]]
+* [[tutorials/multimedia|Multimedia]]
+* [[tutorials/offline and storage|Offline and Storage]]
+* [[tutorials/tools|Tools]]
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
