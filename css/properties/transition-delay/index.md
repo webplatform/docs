@@ -1,28 +1,35 @@
+{{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
-{{CSS_Property
-|Applies to=all elements, :before and :after pseudo elements
-|Media=interactive
-|Inherited=No
+{{Summary_Section}}
+{{CSS Property
 |Initial value=0
-|Values={{CSS_Property_Value|Data Type=time |Description=Floating-point number, followed by a time units designator (<code>ms</code> or <code>s</code>). For more information about the supported time units, see '''CSS Values and Units Reference'''.}}
+|Applies to=all elements, :before and :after pseudo elements
+|Inherited=No
+|Media=interactive
+|Animatable=No
+|Values={{CSS Property Value
+|Data Type=time
+|Description=Floating-point number, followed by a time units designator (<code>ms</code> or <code>s</code>). For more information about the supported time units, see '''CSS Values and Units Reference'''.
 }}
-{{Topics|CSS}}
+}}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 The version of this property using a vendor prefix, '''-ms-transition-delay''', has been deprecated. To ensure compatibility in the future, applications using this property with a vendor prefix should be updated accordingly.
 This property accepts <code>s</code> and <code>ms</code> as valid units of time.
 Values are rounded up to the second decimal place.
 Each '''transition-delay''' is paired with a corresponding object property  identified in the [[css/properties/transition-property|'''transition-property''']] property.
 If more '''transition-delay''' values are declared than corresponding object properties identified in the [[css/properties/transition-property|'''transition-property''']] property, the excess '''transition-delay''' values are ignored.
 If fewer  '''transition-delay''' values are declared than corresponding object properties identified in the [[css/properties/transition-property|'''transition-property''']] property, the list of '''transition-delay''' values is repeated from the beginning until the object properties are exhausted.
-|Import_Notes=
-===Syntax===
+|Import_Notes====Syntax===
 <code>'''transition-delay: '''''
 &lt;time&gt;
 '' '''[''' ,  ''
@@ -30,12 +37,19 @@ If fewer  '''transition-delay''' values are declared than corresponding object p
 '' ''']''' *</code>
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}223140 CSS Transitions Module Level 3], Section 2.4
-
-
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Topic_clusters=Transistions
+|Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
 *<code>[[css/cssom/style|style]]</code>
@@ -94,12 +108,12 @@ If fewer  '''transition-delay''' values are declared than corresponding object p
 *<code>map</code>
 *<code>object</code>
 *<code>script</code>
-|Topic_clusters=Transistions
 }}
+{{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
