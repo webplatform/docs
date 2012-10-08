@@ -28,7 +28,10 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|Code=transition:background-color 1s 2s;
+}}
 }}
 {{Notes_Section
 |Notes====Remarks===
