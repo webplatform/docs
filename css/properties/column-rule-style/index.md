@@ -1,39 +1,76 @@
+{{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
-{{CSS_Property
-|Applies to=multi-column elements
-|Media=visual
-|Inherited=No
+{{Summary_Section}}
+{{CSS Property
 |Initial value=none
-|Values={{CSS_Property_Value|Data Type=none |Description=Default. No border is drawn, regardless of any specified [[css/properties/border-width|'''borderWidth''']].}}
-{{CSS_Property_Value|Data Type=dotted |Description=Border is a dotted line.}}
-{{CSS_Property_Value|Data Type=dashed |Description=Border is a dashed line.}}
-{{CSS_Property_Value|Data Type=solid |Description=Border is a solid line.}}
-{{CSS_Property_Value|Data Type=double |Description=Border is a double line drawn on top of the background of the object. The sum of the two single lines and the space between equals the [[css/properties/border-width|'''borderWidth''']] value. The border width must be at least 3 pixels wide to draw a double border.}}
-{{CSS_Property_Value|Data Type=groove |Description=3-D groove is drawn in colors based on the value. The [[css/properties/border-width|'''borderWidth''']] property of the object must be specified for the style to render correctly.}}
-{{CSS_Property_Value|Data Type=ridge |Description=3-D ridge is drawn in colors based on the value.}}
-{{CSS_Property_Value|Data Type=inset |Description=3-D inset is drawn in colors based on the value.}}
-{{CSS_Property_Value|Data Type=window-inset |Description=Internet Explorer 6 and later. 
+|Applies to=multi-column elements
+|Inherited=No
+|Media=visual
+|Animatable=No
+|Values={{CSS Property Value
+|Data Type=none
+|Description=Default. No border is drawn, regardless of any specified [[css/properties/border-width|'''borderWidth''']].
+}}{{CSS Property Value
+|Data Type=dotted
+|Description=Border is a dotted line.
+}}{{CSS Property Value
+|Data Type=dashed
+|Description=Border is a dashed line.
+}}{{CSS Property Value
+|Data Type=solid
+|Description=Border is a solid line.
+}}{{CSS Property Value
+|Data Type=double
+|Description=Border is a double line drawn on top of the background of the object. The sum of the two single lines and the space between equals the [[css/properties/border-width|'''borderWidth''']] value. The border width must be at least 3 pixels wide to draw a double border.
+}}{{CSS Property Value
+|Data Type=groove
+|Description=3-D groove is drawn in colors based on the value. The [[css/properties/border-width|'''borderWidth''']] property of the object must be specified for the style to render correctly.
+}}{{CSS Property Value
+|Data Type=ridge
+|Description=3-D ridge is drawn in colors based on the value.
+}}{{CSS Property Value
+|Data Type=inset
+|Description=3-D inset is drawn in colors based on the value.
+}}{{CSS Property Value
+|Data Type=window-inset
+|Description=Internet Explorer 6 and later. 
 
-Border is the same as inset, but is surrounded by an additional single line, drawn in colors based on the value.}}
-{{CSS_Property_Value|Data Type=outset |Description=3-D outset is drawn in colors based on the value.}}
-{{CSS_Property_Value|Data Type=hidden |Description=Internet Explorer 8.
+Border is the same as inset, but is surrounded by an additional single line, drawn in colors based on the value.
+}}{{CSS Property Value
+|Data Type=outset
+|Description=3-D outset is drawn in colors based on the value.
+}}{{CSS Property Value
+|Data Type=hidden
+|Description=Internet Explorer 8.
 
-Same as <code>none</code>, except in terms of conflict resolution of collapsed borders. Any element with a <code>hidden</code> border suppresses all shared borders at that location. Borders with a style of <code>none</code> have the lowest priority.}}
+Same as <code>none</code>, except in terms of conflict resolution of collapsed borders. Any element with a <code>hidden</code> border suppresses all shared borders at that location. Borders with a style of <code>none</code> have the lowest priority.
 }}
-{{Topics|CSS}}
+}}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
 {{Notes_Section
-|Import_Notes=
-===Syntax===
+|Import_Notes====Syntax===
 <code>'''column-rule-style: '''none '''{{!}}''' dotted '''{{!}}''' dashed '''{{!}}''' solid '''{{!}}''' double '''{{!}}''' groove '''{{!}}''' ridge '''{{!}}''' inset '''{{!}}''' window-inset '''{{!}}''' outset '''{{!}}''' hidden</code>
 }}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Topic_clusters=Multi-Column
+|Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
 *<code>[[css/cssom/style|style]]</code>
@@ -65,12 +102,12 @@ Same as <code>none</code>, except in terms of conflict resolution of collapsed b
 *<code>map</code>
 *<code>object</code>
 *<code>script</code>
-|Topic_clusters=Multi-Column
 }}
+{{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
