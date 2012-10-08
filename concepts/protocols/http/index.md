@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Stub
+|High-level issues=Missing Relevant Sections, Stub
 }}
 {{Summary_Section|HTTP is an application-layer protocol used for exchanging information on the Web. It defines and manages the expectations and interactions with regard the information in between a client and a server.}}
 {{Basic Page}}
@@ -14,7 +14,6 @@ HTTP will help manage an information space by defining user interactions and exp
 === HTTP Basics ===
 === HTTP Methods ===
 === HTTP Response Code ===
-
 {{Notes_Section}}
 {{Topics|Web Services}}
 {{External_Attribution
