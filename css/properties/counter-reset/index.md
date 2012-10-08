@@ -1,22 +1,28 @@
+{{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
-{{CSS_Property
+{{Summary_Section}}
+{{CSS Property
 |Applies to=All elements
-|Media=visual
 |Inherited=No
-|Initial value=
-|Values={{CSS_Property_Value|Data Type=identifier |Description=The name of the counter, optionally followed by an
-'''integer'''.}}
-{{CSS_Property_Value|Data Type=integer |Description=The initial value of the counter. The default value is 0.}}
+|Media=visual
+|Animatable=No
+|Values={{CSS Property Value
+|Data Type=identifier
+|Description=The name of the counter, optionally followed by an
+'''integer'''.
+}}{{CSS Property Value
+|Data Type=integer
+|Description=The initial value of the counter. The default value is 0.
 }}
-{{Topics|CSS}}
+}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Description=The following example demonstrates automatic
 chapter and section numbering using
 '''counter-reset''',
@@ -35,9 +41,7 @@ a chapter heading of the form
 while each '''hn''' element is preceded by
 a section number of the form
 <code>"</code>''X.N''<code>"</code>.
-|LiveURL=
-|Code=
-&lt;meta http-equiv{{=}}"X-UA-Compatible" content{{=}}"IE{{=}}8" /&gt;
+|Code=&lt;meta http-equiv{{=}}"X-UA-Compatible" content{{=}}"IE{{=}}8" /&gt;
 &lt;style type{{=}}"text/css"&gt;
 BODY {
     counter-reset: chapter;      /* Create a chapter counter */
@@ -55,20 +59,17 @@ H2 {
 H2:before {
     content: counter(chapter) "." counter(section) " ";
 }
-&lt;/style&gt; 
-}}
-{{Single_Example
+&lt;/style&gt;
+}}{{Single Example
 |Description=Because of a conflicting set of style rules, in the following example
 only the <code>imagenum</code> counter is reset.
 To reset both counters, put them together in the same rule.
-|LiveURL=
-|Code=
-H1 { counter-reset: section -1 }
+|Code=H1 { counter-reset: section -1 }
 H1 { counter-reset: imagenum 99 }
-}}}}
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 The
 '''counter-reset'''
 attribute can contain a list of one or more counters,
@@ -94,8 +95,7 @@ attribute set to 'none') and pseudo-elements that do not generate content
 attribute set to 'normal') cannot increment or reset a counter.
 This property requires Windows Internet Explorer to be in
 IE8 Standards mode rendering.
-|Import_Notes=
-===Syntax===
+|Import_Notes====Syntax===
 <code>'''counter-reset: ''''''[''' ''
 &lt;identifier&gt;
 '' ''
@@ -103,23 +103,30 @@ IE8 Standards mode rendering.
 '' ''']''''''+'''</code>
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 12.4
-
-
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Topic_clusters=Generated and Replaced Content
+|Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
 *<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
 *<code>[[css/cssom/style|style]]</code>
 *<code>[[css/properties/counter-increment|counter-increment]]</code>
-|Topic_clusters=Generated and Replaced Content
 }}
+{{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
