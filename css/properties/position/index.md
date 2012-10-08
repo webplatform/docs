@@ -1,28 +1,38 @@
+{{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
-{{CSS_Property
+{{Summary_Section}}
+{{CSS Property
 |Applies to=All elements
-|Media=visual
 |Inherited=No
-|Initial value=
-|Values={{CSS_Property_Value|Data Type=static |Description=Default. Object has no special positioning; it follows the layout rules of HTML.}}
-{{CSS_Property_Value|Data Type=absolute |Description=Object is positioned relative to parent element's position—or to the '''body''' object if its parent element is not positioned—using the [[css/properties/top|'''top''']] and [[css/properties/left|'''left''']] properties.}}
-{{CSS_Property_Value|Data Type=relative |Description=Object is positioned according to the normal flow, and then offset by the [[css/properties/top|'''top''']] and [[css/properties/left|'''left''']] properties.}}
-{{CSS_Property_Value|Data Type=fixed |Description=Starting in Internet Explorer 7. Object is positioned relative to the viewport containing the content.}}
-{{CSS_Property_Value|Data Type=page |Description=Internet Explorer 10. Positioned floats only. (The [[css/properties/display|'''display''']] property must be set to '''-ms-positioned'''.) Object is positioned relative to the nearest [http://go.microsoft.com/fwlink/p/?LinkId{{=}}226824 initial containing block]. This may be the browser or application window or a content container such as an '''iframe'''. The [[css/properties/bottom|'''bottom''']], [[css/properties/top|'''top''']], [[css/properties/left|'''left''']], and [[css/properties/right|'''right''']] properties are used to position the element relative to the boundaries of the viewport that the positioned float would normally be placed in (that is, if '''position:static''' was set). For more information, see Positioned Floats.}}
+|Media=visual
+|Animatable=No
+|Values={{CSS Property Value
+|Data Type=static
+|Description=Default. Object has no special positioning; it follows the layout rules of HTML.
+}}{{CSS Property Value
+|Data Type=absolute
+|Description=Object is positioned relative to parent element's position—or to the '''body''' object if its parent element is not positioned—using the [[css/properties/top|'''top''']] and [[css/properties/left|'''left''']] properties.
+}}{{CSS Property Value
+|Data Type=relative
+|Description=Object is positioned according to the normal flow, and then offset by the [[css/properties/top|'''top''']] and [[css/properties/left|'''left''']] properties.
+}}{{CSS Property Value
+|Data Type=fixed
+|Description=Starting in Internet Explorer 7. Object is positioned relative to the viewport containing the content.
+}}{{CSS Property Value
+|Data Type=page
+|Description=Internet Explorer 10. Positioned floats only. (The [[css/properties/display|'''display''']] property must be set to '''-ms-positioned'''.) Object is positioned relative to the nearest [http://go.microsoft.com/fwlink/p/?LinkId{{=}}226824 initial containing block]. This may be the browser or application window or a content container such as an '''iframe'''. The [[css/properties/bottom|'''bottom''']], [[css/properties/top|'''top''']], [[css/properties/left|'''left''']], and [[css/properties/right|'''right''']] properties are used to position the element relative to the boundaries of the viewport that the positioned float would normally be placed in (that is, if '''position:static''' was set). For more information, see Positioned Floats.
 }}
-{{Topics|CSS}}
+}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Description=This examples uses the '''position''' property's '''absolute''', '''static''', and '''relative''' values to change the position of the text.
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/position.htm
-|Code=
-&lt;style type{{=}}"text/css"&gt;
+|Code=&lt;style type{{=}}"text/css"&gt;
 .pitem {
 	position: static;
 }
@@ -42,11 +52,12 @@ function fnStatic(){
 This is a paragraph of text.&lt;/p&gt;
 &lt;input onclick{{=}}"fnRelative()" type{{=}}"button" value{{=}}"Relative"&gt;
 &lt;input onclick{{=}}"fnAbsolute()" type{{=}}"button" value{{=}}"Absolute"&gt;
-&lt;input onclick{{=}}"fnStatic()" type{{=}}"button" value{{=}}"Static"&gt; 
-}}}}
+&lt;input onclick{{=}}"fnStatic()" type{{=}}"button" value{{=}}"Static"&gt;
+|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/position.htm
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 Setting the property to '''absolute''' pulls the object out of the "flow" of the document and positions it regardless of the layout of surrounding objects. If other objects already occupy the given position, they do not affect the positioned object, nor does the positioned object affect them. Instead, all objects are drawn at the same place, causing the objects to overlap. This overlap is controlled by using the [[css/properties/z-index|'''z-index''']] attribute or property. Absolutely positioned objects do not have margins, but they do have borders and padding.
 To enable absolute positioning on an object you must specify at least one of the [[css/properties/top|'''top''']], [[css/properties/bottom|'''bottom''']], [[css/properties/left|'''left''']], or [[css/properties/right|'''right''']] properties, in addition to setting the '''position''' property to '''absolute'''. Otherwise, these positioning properties use their default value of '''absolute''', which causes the object to render immediately after the preceding elements, according to the layout rules of HTML
 Input from pointing devices, such as the mouse, does not penetrate through overlapping elements even if the elements are not visible. This is also true for positioned elements with a negative z-index unless:
@@ -68,28 +79,34 @@ Internet Explorer 10. Setting the '''position''' property to '''page''' require
 *'''fixed'''  The positioned float is laid out relative to the initial position of the viewport, or browser window. (The positioned float's position is not updated as the viewport moves due to scrolling.)
 
 For more information, see Positioned Floats.
-|Import_Notes=
-===Syntax===
+|Import_Notes====Syntax===
 <code>'''position: '''static '''{{!}}''' relative '''{{!}}''' absolute '''{{!}}''' fixed '''{{!}}''' page</code>
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 9.3.1
-
-
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Topic_clusters=Box Model
+|Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
 *<code>[[dom/defaultSelected|defaults]]</code>
 *<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
 *<code>[[css/cssom/style|style]]</code>
-|Topic_clusters=Box Model
 }}
+{{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
