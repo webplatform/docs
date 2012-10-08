@@ -1,35 +1,53 @@
+{{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
-{{CSS_Property
-|Applies to=all elements, :before and :after pseudo elements
-|Media=visual
-|Inherited=No
+{{Summary_Section}}
+{{CSS Property
 |Initial value=all
-|Values={{CSS_Property_Value|Data Type=none |Description=No transition effect is applied (all transition properties are ignored) when a new property value is specified.}}
-{{CSS_Property_Value|Data Type=all |Description=Default. 
-Each property that supports transitions has the transition effect applied when a new value for the property is specified.}}
-{{CSS_Property_Value|Data Type=propertyname |Description=A list of properties, separated by commas, to which the transition effect is applied.}}
+|Applies to=all elements, :before and :after pseudo elements
+|Inherited=No
+|Media=visual
+|Animatable=No
+|Values={{CSS Property Value
+|Data Type=none
+|Description=No transition effect is applied (all transition properties are ignored) when a new property value is specified.
+}}{{CSS Property Value
+|Data Type=all
+|Description=Default. 
+Each property that supports transitions has the transition effect applied when a new value for the property is specified.
+}}{{CSS Property Value
+|Data Type=propertyname
+|Description=A list of properties, separated by commas, to which the transition effect is applied.
 }}
-{{Topics|CSS}}
+}}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 The version of this property using a vendor prefix, '''-ms-transition-property''', has been deprecated. To ensure compatibility in the future, applications using this property with a vendor prefix should be updated accordingly.
-|Import_Notes=
-===Syntax===
+|Import_Notes====Syntax===
 <code>'''transition-property: '''none '''{{!}}''' all '''{{!}}''' '''[''' ''propertyname'' ''']''' '''[''' ,  ''propertyname'' ''']''' *</code>
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}223140 CSS Transitions Module Level 3], Section 2.1
-
-
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Topic_clusters=Transistions
+|Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
 *<code>[[css/cssom/style|style]]</code>
@@ -88,12 +106,12 @@ The version of this property using a vendor prefix, '''-ms-transition-property''
 *<code>map</code>
 *<code>object</code>
 *<code>script</code>
-|Topic_clusters=Transistions
 }}
+{{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
