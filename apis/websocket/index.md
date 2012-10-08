@@ -1,11 +1,10 @@
 {{Page_Title|WebSocket reference}}
 {{Flags
-|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Content=Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|An overview of the WebSocket API}}
 {{API_Listing
 |Use_page_title=No
 |List_all_subpages=Yes
