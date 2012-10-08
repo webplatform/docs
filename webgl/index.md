@@ -20,6 +20,10 @@ The following books on WebGL have been published
 * [http://www.apress.com/9781430239963 Beginning WebGL for HTML5, Apress Publishing] ISBN: 978-1430239963
 * [http://www.wrox.com/WileyCDA/WroxTitle/Professional-WebGL-Programming-Developing-3D-Graphics-for-the-Web.productCd-1119968860.html Professional WebGL Programming: Developing 3D Graphics for the Web] ISBN: 978-1119968863
 
+The following videos feature tutorials and explanations about WebGL
+
+* [http://www.youtube.com/watch?v=rfQ8rKGTVlg Google I/O 2011: WebGL Techniques and Performance by Greg Tavares]
+
 == WebGL reference ==
 
 == Index of WebGL topics ==
