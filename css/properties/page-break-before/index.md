@@ -1,32 +1,46 @@
+{{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
-{{CSS_Property
+{{Summary_Section}}
+{{CSS Property
 |Applies to=All elements
-|Media=visual
 |Inherited=No
-|Initial value=
-|Values={{CSS_Property_Value|Data Type=always |Description=Always insert a page break before the object.}}
-{{CSS_Property_Value|Data Type=auto |Description=Default. Neither force nor forbid a page break before the object.}}
-{{CSS_Property_Value|Data Type=avoid |Description=Internet Explorer 8. Forbid a page break before the object, if possible.}}
-{{CSS_Property_Value|Data Type=empty string |Description=Behaves the same as '''auto'''.}}
-{{CSS_Property_Value|Data Type=inherit |Description=Internet Explorer 8. Inherit the value of the same property for the object's parent.}}
-{{CSS_Property_Value|Data Type=left |Description=Currently behaves the same as '''always'''.}}
-{{CSS_Property_Value|Data Type=right |Description=Currently behaves the same as '''always'''.}}
+|Media=visual
+|Animatable=No
+|Values={{CSS Property Value
+|Data Type=always
+|Description=Always insert a page break before the object.
+}}{{CSS Property Value
+|Data Type=auto
+|Description=Default. Neither force nor forbid a page break before the object.
+}}{{CSS Property Value
+|Data Type=avoid
+|Description=Internet Explorer 8. Forbid a page break before the object, if possible.
+}}{{CSS Property Value
+|Data Type=empty string
+|Description=Behaves the same as '''auto'''.
+}}{{CSS Property Value
+|Data Type=inherit
+|Description=Internet Explorer 8. Inherit the value of the same property for the object's parent.
+}}{{CSS Property Value
+|Data Type=left
+|Description=Currently behaves the same as '''always'''.
+}}{{CSS Property Value
+|Data Type=right
+|Description=Currently behaves the same as '''always'''.
 }}
-{{Topics|CSS}}
+}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Description=The following examples use the '''page-break-before''' attribute and the '''page-break-before''' property to start printing on a new page.
 
 This example uses the '''hn''' element as a selector in an embedded style sheet to break the page before all '''hn''' headings.
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/page-break-before.htm
-|Code=
-&lt;html&gt;
+|Code=&lt;html&gt;
 &lt;head&gt;
 &lt;style type{{=}}"text/css"&gt;
 h3 {
@@ -41,12 +55,10 @@ h3 {
 &lt;h3&gt;Start New Section on New Page&lt;/h3&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-}}
-{{Single_Example
+|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/page-break-before.htm
+}}{{Single Example
 |Description=This example uses a button to turn off the page break before the object that has an [[html/attributes/id|'''ID''']] value of '''oPrgrph'''. When the page is printed or previewed, a page break occurs before the first paragraph unless the user clicks the button.
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/pagebreakBefore.htm
-|Code=
-&lt;html&gt;
+|Code=&lt;html&gt;
 &lt;head&gt;
 &lt;script type{{=}}"text/javascript"&gt;
 function offBreak()
@@ -62,24 +74,31 @@ function offBreak()
 &lt;/p&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-}}}}
+|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/pagebreakBefore.htm
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 This property applies when printing the document. This property does not apply to the '''br''' or '''hr''' elements.
 If there are conflicts between the value of this property and the [[css/properties/page-break-after|'''page-break-after''']] property of the object previously displayed in the browser, the value that results in the largest number of page breaks is used.
 Page breaks are not permitted inside positioned objects.
-|Import_Notes=
-===Syntax===
+|Import_Notes====Syntax===
 <code>'''page-break-before: '''auto '''{{!}}''' always '''{{!}}''' avoid '''{{!}}''' left '''{{!}}''' right '''{{!}}''' inherit</code>
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 13.3.1
-
-
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Topic_clusters=Paged Media
+|Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
 *<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
@@ -89,12 +108,12 @@ Page breaks are not permitted inside positioned objects.
 *<code>[[css/properties/page-break-after|page-break-after]]</code>
 *<code>Conceptual</code>
 *<code>CSS How-to - Optimize Pages for Printing Using CSS</code>
-|Topic_clusters=Paged Media
 }}
+{{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
