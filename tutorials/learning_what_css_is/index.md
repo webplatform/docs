@@ -59,7 +59,7 @@ For some formal definitions of terminology relating to CSS, see [[Definitions]] 
    </head>
    <body>
      <p>
-       <strong>C</strong>ascending
+       <strong>C</strong>ascading
        <strong>S</strong>tyle
        <strong>S</strong>heets
      </p>
@@ -70,10 +70,11 @@ For some formal definitions of terminology relating to CSS, see [[Definitions]] 
 
 You should see the text with the initial letters bold, like this:
 
-'''C'''ascending '''S'''tyle '''S'''heets
+'''C'''ascading '''S'''tyle '''S'''heets
 
 What you see in your browser might not look exactly the same as this, because of settings in your browser and in this wiki. If there are some differences in the font, spacing and colors that you see, they are not important.
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
 |Desktop_rows={{Compatibility Table Desktop Row
@@ -99,15 +100,28 @@ What you see in your browser might not look exactly the same as this, because of
 |Android_supported=Yes
 |Android_prefixed_supported=No
 |Android_prefixed_version=
+|Blackberry_supported=Unknown
+|Blackberry_version=
+|Blackberry_prefixed_supported=Unknown
+|Blackberry_prefixed_version=
+|Chrome_mobile_supported=Unknown
+|Chrome_mobile_version=
+|Chrome_mobile_prefixed_supported=Unknown
+|Chrome_mobile_prefixed_version=
 |Firefox_mobile_supported=Yes
 |Firefox_mobile_prefixed_supported=No
 |Firefox_mobile_prefixed_version=
-|IE_phone_supported=Yes
-|IE_phone_prefixed_supported=No
-|IE_phone_prefixed_version=
+|IE_mobile_supported=Unknown
+|IE_mobile_version=
+|IE_mobile_prefixed_supported=Unknown
+|IE_mobile_prefixed_version=
 |Opera_mobile_supported=Yes
 |Opera_mobile_prefixed_supported=No
 |Opera_mobile_prefixed_version=
+|Opera_mini_supported=Unknown
+|Opera_mini_version=
+|Opera_mini_prefixed_supported=Unknown
+|Opera_mini_prefixed_version=
 |Safari_mobile_supported=Yes
 |Safari_mobile_prefixed_supported=No
 |Safari_mobile_prefixed_version=
