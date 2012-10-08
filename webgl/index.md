@@ -4,6 +4,15 @@ WebGL is a standard maintained by [http://www.khronos.org/webgl/ the Khronos Gro
 
 == WebGL educational material ==
 
+You can start studying WebGL with the [[webgl/tutorials|WebGL tutorials]].
+
+The following sites feature WebGL introductions and tutorials as well
+
+* [http://learningwebgl.com/blog/?page_id=1217 Learning WebGL]
+* [http://www.khronos.org/webgl/wiki/Tutorial Khronos Tutorial]
+* [https://developer.mozilla.org/en-US/docs/WebGL/Getting_started_with_WebGL MDN Getting Started with WebGL]
+* [http://www.netmagazine.com/tag/webgl?ct=tutorial Netmagazine WebGL Tutorials]
+
 == WebGL reference ==
 
 == Index of WebGL topics ==
