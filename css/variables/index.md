@@ -7,7 +7,6 @@
 Stub
 
 More stubby content
-
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
