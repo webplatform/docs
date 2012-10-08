@@ -25,7 +25,32 @@ You can use the '''@-ms-viewport''' rule in tandem with media queries to help op
 ===Syntax===
 <code>'''@-ms-viewport '''{ ''viewport-properties'' }</code>
 ===Parameters===
-;''viewport-properties'':One or more property declarations, each with a trailing semicolon. Only the following viewport properties are supported.<table><tr><th>Value</th><th>Meaning</th></tr><tr><td width{{=}}"40%"><a id{{=}}"width"/><a id{{=}}"WIDTH"/><dl><dt>'''width'''</dt></dl></td><td width{{=}}"60%">Indicates the preferred viewport width used in determining the size of the initial containing block. Can be one of the following values:<dl><dt>'''auto'''</dt><dd>The value is calculated based on the display device's normal mode of operation.</dd><dt>'''device-width'''</dt><dd>The width of the screen in CSS pixels at a zoom factor of 100%.</dd><dt>'''device-height'''</dt><dd>The height of the screen in CSS pixels at a zoom factor of 100%.</dd><dt>''length''</dt><dd>A positive absolute or relative length.</dd><dt>''percentage''</dt><dd>A positive percentage value relative to the width or height of the initial viewport at a zoom factor of 100%, for horizontal and vertical lengths respectively. </dd></dl></td></tr><tr><td width{{=}}"40%"><a id{{=}}"height"/><a id{{=}}"HEIGHT"/><dl><dt>'''height'''</dt></dl></td><td width{{=}}"60%">Indicates the preferred viewport width used in determining the size of the initial containing block.  See '''width''' for  a list of possible values.</td></tr></table> 
+;''viewport-properties'':One or more property declarations, each with a trailing semicolon. Only the following viewport properties are supported.
+
+{{{!}}
+! Value
+! Meaning
+{{!}}-
+{{!}}
+; <nowiki>'''width'''</nowiki>
+{{!}}
+Indicates the preferred viewport width used in determining the size of the initial containing block. Can be one of the following values:
+
+; <nowiki>'''auto'''</nowiki>
+: The value is calculated based on the display device's normal mode of operation.
+; <nowiki>'''device-width'''</nowiki>
+: The width of the screen in CSS pixels at a zoom factor of 100%.
+; <nowiki>'''device-height'''</nowiki>
+: The height of the screen in CSS pixels at a zoom factor of 100%.
+; <nowiki>''length''</nowiki>
+: A positive absolute or relative length.
+; <nowiki>''percentage''</nowiki>
+: A positive percentage value relative to the width or height of the initial viewport at a zoom factor of 100%, for horizontal and vertical lengths respectively.
+{{!}}-
+{{!}}
+; <nowiki>'''height'''</nowiki>
+{{!}} <nowiki>Indicates the preferred viewport width used in determining the size of the initial containing block. See '''width''' for a list of possible values.</nowiki>
+{{!}}}
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}233011 CSS Device Adaptation], Section 4
 
