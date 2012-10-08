@@ -36,7 +36,6 @@ Rules in the style sheet override rules in the imported style sheet.
 @import
 ===Parameters===
 ;''sUrl'':String that specifies the URL that references a cascading style sheet.
-
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -70,7 +69,11 @@ Rules in the style sheet override rules in the imported style sheet.
 |Safari_prefixed_version=
 }}
 |Mobile_rows=
-|Notes_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=up to (but excluding) 8
+|Note=Internet Explorer supports so called  Dynamic HTML (DHTML) expressions in place of URLs. As of Windows Internet Explorer 8, expressions are not supported in IE8 Standards mode. For more information, see About Dynamic Properties in MSDN.
+}}
 }}
 {{See_Also_Section
 |Topic_clusters=Syntax, CSS Layout
