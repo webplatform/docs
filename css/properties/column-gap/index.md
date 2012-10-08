@@ -1,17 +1,24 @@
+{{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
-{{CSS_Property
-|Applies to=multi-column elements
-|Media=visual
-|Inherited=No
+{{Summary_Section}}
+{{CSS Property
 |Initial value=normal
-|Values={{CSS_Property_Value|Data Type=normal |Description=Default. 
-The default width is <code>1em</code>.}}
-{{CSS_Property_Value|Data Type=length |Description=A floating-point number, followed by either an absolute units designator
+|Applies to=multi-column elements
+|Inherited=No
+|Media=visual
+|Animatable=No
+|Values={{CSS Property Value
+|Data Type=normal
+|Description=Default. 
+The default width is <code>1em</code>.
+}}{{CSS Property Value
+|Data Type=length
+|Description=A floating-point number, followed by either an absolute units designator
 (<code>cm</code>,
 <code>mm</code>,
 <code>in</code>,
@@ -25,17 +32,29 @@ For more information about the supported length units,
 see CSS Length Units Reference.
 
 
-Negative values are not valid.}}
+Negative values are not valid.
 }}
-{{Topics|CSS}}
+}}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
 {{Notes_Section
-|Import_Notes=
-===Syntax===
+|Import_Notes====Syntax===
 <code>'''column-gap: '''normal '''{{!}}''' ''length''</code>
 }}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Topic_clusters=Multi-Column
+|Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
 *<code>[[css/cssom/style|style]]</code>
@@ -67,12 +86,12 @@ Negative values are not valid.}}
 *<code>map</code>
 *<code>object</code>
 *<code>script</code>
-|Topic_clusters=Multi-Column
 }}
+{{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
