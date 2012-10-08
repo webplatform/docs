@@ -23,11 +23,9 @@
 |Examples=
 }}
 {{Notes_Section
-|Notes====Remarks===
-The version of this property using a vendor prefix, '''-ms-animation-delay''', has been deprecated. To ensure compatibility in the future, applications using this property with a vendor prefix should be updated accordingly.
-This property accepts <code>s</code> and <code>ms</code> as valid time units.
-Values are rounded up to the second decimal place.
-Each '''animation-delay''' is paired with a corresponding [[css/properties/animation-name|'''animation-name''']].
+|Usage=The <code>animation-delay</code> property delays the start of an animation by the amount specified in seconds (<code>s</code>) or thousandths of a second (<code>ms</code>). If a negative value is specified, the animation starts immediately, but at the point it would have reached at the specified offset. So, if the animation is four seconds long, and the delay is set to minus two seconds, it begins halfway through.
+
+Values are rounded up to the second decimal place. If multiple values are specified as a comma-separated list, aach '''animation-delay''' is paired with a corresponding [[css/properties/animation-name|'''animation-name''']].
 If more '''animation-delay''' values are declared than corresponding [[css/properties/animation-name|'''animation-name''']] values, the excess '''animation-delay''' values are ignored.
 If fewer  '''animation-delay''' values are declared than corresponding [[css/properties/animation-name|'''animation-name''']] values, the list of '''animation-delay''' values is repeated from the beginning until the '''animation-name''' values are exhausted.
 |Import_Notes====Syntax===
@@ -100,7 +98,11 @@ If fewer  '''animation-delay''' values are declared than corresponding [[css/pro
 |Safari_mobile_prefixed_supported=Yes
 |Safari_mobile_prefixed_version=3.2
 }}
-|Notes_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=10.0
+|Note=The -ms- prefixed property is deprecated and should not be used.
+}}
 }}
 {{See_Also_Section
 |Topic_clusters=Animation
