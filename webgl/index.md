@@ -26,6 +26,10 @@ The following videos feature tutorials and explanations about WebGL
 
 == WebGL reference ==
 
+You can consult the [[webgl/reference|WebGL Reference]] 
+
+Additional reference resources on WebGL can be found on the [http://www.khronos.org/webgl/ Khronos WebGL page]
+
 == Index of WebGL topics ==
 
 {{Special:PrefixIndex/webgl/}}
