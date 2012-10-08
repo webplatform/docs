@@ -99,14 +99,14 @@ As you can see you can mix and match any variable, and also use variables along 
  
 === Variable types ===
  
-However, this would be boring as we can do all that with a simple calculator (after we typed 5318008, then turned it around and giggled, of course). Computers are more sophisticated and can make use of more complex variables. This is where variable types come in. Variables come in several types and different languages support different ones. The most common ones are:
+However, this would be boring as we can do all that with a simple calculator. Computers are more sophisticated and can make use of more complex variables. This is where variable types come in. Variables come in several types and different languages support different ones. The most common ones are:
  
 * Float: a number, like <code>1.21323</code>, <code>4</code>, <code>100004</code> or <code>0.123</code>
 * Integer: a natural number like <code>1</code>, <code>12</code>, <code>33</code>, <code>140</code> but not <code>1.233</code>
-* String: a line of text like "<code>boat</code>", "<code>elephant</code>" or "<code>damn, you are tall!</code>"
+* String: a line of text like "<code>boat</code>", "<code>elephant</code>" or "<code>wow, you are tall!</code>"
 * Boolean: either <code>true</code> or <code>false</code>, but nothing else
-* Arrays: a collection of values like <code>1,2,3,4,'I am bored now'</code>
-* Objects: a representation of an object. Objects are constructs that try to model instances of objects in the real world by having properties and methods. For example you could model a cat as an object and define that it has four legs, one tail and that it is ginger. You can also define that it has a way of purring by defining a <code>purr()</code> method and that it might demand a cheeseburger with a <code>getCheeseBurger()</code> method. You can also re-use the <code>cat</code> object and define another cat with all the properties of the original one but a grey colour.
+* Arrays: a collection of values like <code>1,2,3,4,'elephant'</code>
+* Objects: a representation of an object. Objects are constructs that try to model instances of objects in the real world by having properties and methods. For example you could model a cat as an object and define that it has four legs, one tail and that it is ginger. You can also define that it has a way of purring by defining a <code>purr()</code> method and that it might demand tuna fish with a <code>getTunaFish()</code> method. You can also re-use the <code>cat</code> object and define another cat with all the properties of the original one but a grey colour.
  
 JavaScript is a “loosely typed” language, which means that you don't have to explicitly declare what type of data the variables are. You just need to use the <code>var</code> keyword to indicate that you are declaring a variable, and the browser will work out what data type you are using from the context, and use of quotes.
  
