@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Content=Incomplete, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -13,15 +13,15 @@
 }}
 {{Notes_Section
 |Notes====Remarks===
-You can use the '''@-ms-viewport''' rule in tandem with media queries to help optimize your layout. Typically, you nest the '''@-ms-viewport''' rule inside the media query, as shown in the following pseudocode snippet:
+You can use the '''@viewport''' rule in tandem with media queries to help optimize your layout. Typically, you nest the '''@viewport''' rule inside the media query, as shown in the following pseudocode snippet:
 <code>@media [media query logic here] {
-@-ms-viewport {
+@viewport {
 [viewport properties here]
 }
 [CSS for this layout combination here]
 }</code>
 |Import_Notes====Syntax===
-<code>'''@-ms-viewport '''{ ''viewport-properties'' }</code>
+<code>'''@viewport '''{ ''viewport-properties'' }</code>
 ===Parameters===
 ;''viewport-properties'':One or more property declarations, each with a trailing semicolon. Only the following viewport properties are supported.
 
@@ -30,26 +30,25 @@ You can use the '''@-ms-viewport''' rule in tandem with media queries to help op
 ! Meaning
 {{!}}-
 {{!}}
-; <nowiki>'''width'''</nowiki>
+; '''width'''
 {{!}}
 Indicates the preferred viewport width used in determining the size of the initial containing block. Can be one of the following values:
 
-; <nowiki>'''auto'''</nowiki>
+; '''auto'''
 : The value is calculated based on the display device's normal mode of operation.
-; <nowiki>'''device-width'''</nowiki>
+; '''device-width'''
 : The width of the screen in CSS pixels at a zoom factor of 100%.
-; <nowiki>'''device-height'''</nowiki>
+; '''device-height'''
 : The height of the screen in CSS pixels at a zoom factor of 100%.
-; <nowiki>''length''</nowiki>
+; '''length'''
 : A positive absolute or relative length.
-; <nowiki>''percentage''</nowiki>
+; '''percentage'''
 : A positive percentage value relative to the width or height of the initial viewport at a zoom factor of 100%, for horizontal and vertical lengths respectively.
 {{!}}-
 {{!}}
-; <nowiki>'''height'''</nowiki>
+; '''height'''
 {{!}} <nowiki>Indicates the preferred viewport width used in determining the size of the initial containing block. See '''width''' for a list of possible values.</nowiki>
 {{!}}}
-
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
