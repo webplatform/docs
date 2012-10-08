@@ -1,28 +1,51 @@
+{{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
-{{CSS_Property
-|Applies to=multi-column elements
-|Media=visual
-|Inherited=No
+{{Summary_Section}}
+{{CSS Property
 |Initial value=medium
-|Values={{CSS_Property_Value|Data Type=medium |Description=Default.  }}
-{{CSS_Property_Value|Data Type=thin |Description=Width less than the default.}}
-{{CSS_Property_Value|Data Type=thick |Description=Width greater than the default.}}
-{{CSS_Property_Value|Data Type=width |Description=Width consisting of a floating-point number, followed by an absolute units designator (<code>cm</code>, <code>mm</code>, <code>in</code>, <code>pt</code>, or <code>pc</code>) or a relative units designator (<code>em</code>, <code>ex</code>, or <code>px</code>)}}
+|Applies to=multi-column elements
+|Inherited=No
+|Media=visual
+|Animatable=No
+|Values={{CSS Property Value
+|Data Type=medium
+|Description=Default.  
+}}{{CSS Property Value
+|Data Type=thin
+|Description=Width less than the default.
+}}{{CSS Property Value
+|Data Type=thick
+|Description=Width greater than the default.
+}}{{CSS Property Value
+|Data Type=width
+|Description=Width consisting of a floating-point number, followed by an absolute units designator (<code>cm</code>, <code>mm</code>, <code>in</code>, <code>pt</code>, or <code>pc</code>) or a relative units designator (<code>em</code>, <code>ex</code>, or <code>px</code>)
 }}
-{{Topics|CSS}}
+}}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
 {{Notes_Section
-|Import_Notes=
-===Syntax===
+|Import_Notes====Syntax===
 <code>'''column-rule-width: '''medium '''{{!}}''' thin '''{{!}}''' thick '''{{!}}''' ''width''</code>
 }}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Topic_clusters=Multi-Column
+|Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
 *<code>[[css/cssom/style|style]]</code>
@@ -54,12 +77,12 @@
 *<code>map</code>
 *<code>object</code>
 *<code>script</code>
-|Topic_clusters=Multi-Column
 }}
+{{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
