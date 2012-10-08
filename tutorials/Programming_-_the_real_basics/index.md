@@ -1,3 +1,28 @@
+{{Page_Title}}
+{{Flags
+|High-level issues=Merge Candidate
+|Editorial notes={{Editorial/Merge_Candidate
+|Other=Page with almost identical content: [[http://docs.webplatform.org/wiki/concepts/programming/programming_basics]]
+}}
+}}
+{{Byline}}
+{{Summary_Section}}
+{{Tutorial}}
+{{Notes_Section}}
+{{Compatibility_Section
+|Not_required=Yes
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section}}
+{{Topics}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
+}}
 == Introduction ==
  
 As an experienced developer you’ll sooner or later have to face people that are just not technical and will consider whatever you do as black magic. Conversely, as a non-technical person, not knowing what someone delivering work for you is doing is a bad starting position. This [http://www.w3.org/wiki/Web_Standards_Curriculum Web Standards Curriculum] article explains in simple terms what programming is about and hopefully will help both parties involved to steer these non-conversations into more productive waters.
