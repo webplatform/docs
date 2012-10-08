@@ -1,31 +1,49 @@
+{{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
-{{CSS_Property
-|Applies to=non-replaced block-level elements (except table elements), table cells, and inline-block elements
-|Media=visual
-|Inherited=No
+{{Summary_Section}}
+{{CSS Property
 |Initial value=auto
-|Values={{CSS_Property_Value|Data Type=count |Description=An integer value that specifies the number of columns in the multi-column element.}}
-{{CSS_Property_Value|Data Type=auto |Description=Default. 
-The number of columns is determined by the values of other property values of the multi-column element, such as [[css/properties/column-width|'''columnWidth''']].}}
+|Applies to=non-replaced block-level elements (except table elements), table cells, and inline-block elements
+|Inherited=No
+|Media=visual
+|Animatable=No
+|Values={{CSS Property Value
+|Data Type=count
+|Description=An integer value that specifies the number of columns in the multi-column element.
+}}{{CSS Property Value
+|Data Type=auto
+|Description=Default. 
+The number of columns is determined by the values of other property values of the multi-column element, such as [[css/properties/column-width|'''columnWidth''']].
 }}
-{{Topics|CSS}}
+}}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 The actual column count may vary from the value specified due to available space.
 To ensure the specified value is used, all length property values of the multi-column element must be specified.
-|Import_Notes=
-===Syntax===
+|Import_Notes====Syntax===
 <code>'''column-count: '''''count'' '''{{!}}''' auto</code>
 }}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Topic_clusters=Multi-Column
+|Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
 *<code>[[css/cssom/style|style]]</code>
@@ -57,12 +75,12 @@ To ensure the specified value is used, all length property values of the multi-c
 *<code>map</code>
 *<code>object</code>
 *<code>script</code>
-|Topic_clusters=Multi-Column
 }}
+{{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
