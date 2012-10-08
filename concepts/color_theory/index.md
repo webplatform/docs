@@ -18,8 +18,7 @@ yellow and blue, and they’re called primary colours because you don’t
 need to mix colours to make these three hues. If you want to translate
 these colours into web
 colours, you can recreate them using their hex (hexadecimal) equivalents
-of #ff0000, #ffff00, and
-#0033cc as shown in Figure 1:
+of #ff0000, #ffff00, and #0033cc as shown in Figure 1:
  
 [[Image:10000000.jpg|Primary Colours]]
  
