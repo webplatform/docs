@@ -7,9 +7,11 @@
 {{API_Name}}
 {{Summary_Section}}
 {{CSS Property
+|Initial value=0
 |Applies to=All elements
 |Inherited=No
 |Media=visual
+|Computed value=two absolute lengths or percentages
 |Animatable=No
 |Values={{CSS Property Value
 |Data Type=radius
