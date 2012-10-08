@@ -1,4 +1,4 @@
-{{Page_Title|3D, graphics, and effects tutorials}}
+{{Page_Title|Graphics (3D)}}
 {{Flags}}
 {{Byline}}
 {{Summary_Section|Between SVG, Canvas, WebGL, and CSS3 3D features, you're sure to amaze your users with stunning visuals natively rendered in the browser.}}
