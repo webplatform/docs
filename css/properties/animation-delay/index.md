@@ -25,7 +25,7 @@
 {{Notes_Section
 |Usage=The <code>animation-delay</code> property delays the start of an animation by the amount specified in seconds (<code>s</code>) or thousandths of a second (<code>ms</code>). If a negative value is specified, the animation starts immediately, but at the point it would have reached at the specified offset. So, if the animation is four seconds long, and the delay is set to minus two seconds, it begins halfway through.
 
-Values are rounded up to the second decimal place. If multiple values are specified as a comma-separated list, aach '''animation-delay''' is paired with a corresponding [[css/properties/animation-name|'''animation-name''']].
+Values are rounded up to the second decimal place. If multiple values are specified as a comma-separated list, each '''animation-delay''' is paired with a corresponding [[css/properties/animation-name|'''animation-name''']].
 If more '''animation-delay''' values are declared than corresponding [[css/properties/animation-name|'''animation-name''']] values, the excess '''animation-delay''' values are ignored.
 If fewer  '''animation-delay''' values are declared than corresponding [[css/properties/animation-name|'''animation-name''']] values, the list of '''animation-delay''' values is repeated from the beginning until the '''animation-name''' values are exhausted.
 |Import_Notes====Syntax===
