@@ -24,11 +24,12 @@
 |Examples=
 }}
 {{Notes_Section
-|Notes====Remarks===
-The version of this property using a vendor prefix, '''-ms-animation-duration''', has been deprecated. To ensure compatibility in the future, applications using this property with a vendor prefix should be updated accordingly.
-Each '''animationDuration''' is paired with a corresponding [[css/properties/animation-name|'''animationName''']].
-If more '''animationDuration''' values are declared than corresponding [[css/properties/animation-name|'''animationName''']] values, the excess '''animationDuration''' values are ignored.
-If fewer  '''animationDuration''' values are declared than corresponding [[css/properties/animation-name|'''animationName''']] values, the list of '''animationDuration''' values is repeated from the beginning until the '''animationName''' values are exhausted.
+|Usage=The <code>animation-duration</code> property takes as its value one or more times as a comma-separated list. If multiple times are specified, they are applied to the animations in the same order as <code>animation-name</code>.
+
+If more '''animation-duration''' values are declared than corresponding [[css/properties/animation-name|'''animation-name''']] values, the excess durations are ignored.
+If fewer  '''animation-duration''' values are declared than corresponding [[css/properties/animation-name|'''animation-name''']] values, the list of durations is repeated from the beginning until the '''animation-name''' values are exhausted.
+|Notes=
+
 |Import_Notes====Syntax===
 <code>'''animation-duration: '''''
 &lt;time&gt;
@@ -99,7 +100,11 @@ If fewer  '''animationDuration''' values are declared than corresponding [[css/p
 |Safari_mobile_prefixed_supported=Yes
 |Safari_mobile_prefixed_version=3.2
 }}
-|Notes_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=10.0
+|Note=The -ms- prefixed property is deprecated and should not be used.
+}}
 }}
 {{See_Also_Section
 |Topic_clusters=Animation
