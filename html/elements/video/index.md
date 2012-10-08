@@ -406,11 +406,7 @@ This property is not supported for Metro style apps using JavaScript
  
 }}
 {{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=HTML5
-|URL=http://dev.w3.org/html5/spec/the-video-element.html
-|Status=Editor's Draft
-}}
+|Specifications=
 }}
 {{Compatibility_Section
 |Not_required=No
