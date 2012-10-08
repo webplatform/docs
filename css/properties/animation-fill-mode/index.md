@@ -5,27 +5,27 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Controls the state of animated properties before and after an animation}}
 {{CSS Property
 |Initial value=none
-|Applies to=block-level and inline-level elements
+|Applies to=all elements
 |Inherited=No
 |Media=visual
+|Computed value=as specified
 |Animatable=No
 |Values={{CSS Property Value
 |Data Type=none
 |Description=Default. 
-There is no change to the property value between the time the animation  is applied ([[css/properties/animation-name|'''animationName''']]) and the time the animation begins playing ([[css/properties/animation-delay|'''animationDelay''']]) or after the animation completes ([[css/properties/animation-duration|'''animationDuration''']]).
+Property values do not change before the animation starts, and they return to their original state when the animation ends.
 }}{{CSS Property Value
 |Data Type=forwards
-|Description=The final property value (as defined in the last [[css/atrules/@keyframes|'''@keyframes''']] at-rule) is maintained after the animation completes.
-The last '''@keyframes''' is the <code>to</code> or <code>100%</code> keyframe, unless [[css/properties/animation-direction|'''animationDirection''']] is set to <code>alternate</code> and it is a finite or even iteration count in which case  the last '''@keyframes''' is the <code>from</code> or <code>0%</code> keyframe.
+|Description=When the animation ends, properties retain the values set by the final keyframe.
 }}{{CSS Property Value
 |Data Type=backwards
-|Description=The beginning property value (as defined in the first [[css/atrules/@keyframes|'''@keyframes''']] at-rule) is applied before the animation is displayed, during the period defined by [[css/properties/animation-delay|'''animationDelay''']].
+|Description=If the animation is delayed by <code>animation-delay</code>, properties assume values set by the first keyframe while waiting for the animation to start. When the animation ends, properties revert to their original state.
 }}{{CSS Property Value
 |Data Type=both
-|Description=Both <code>forwards</code> and <code>backwards</code> fill modes are applied.
+|Description=Values set by the first and last keyframes are applied before and after the animation.
 }}
 }}
 {{Examples_Section
@@ -33,8 +33,9 @@ The last '''@keyframes''' is the <code>to</code> or <code>100%</code> keyframe, 
 |Examples=
 }}
 {{Notes_Section
-|Notes====Remarks===
-The version of this property using a vendor prefix, '''-ms-animation-fill-mode''', has been deprecated. To ensure compatibility in the future, applications using this property with a vendor prefix should be updated accordingly.
+|Usage=The <code>animation-fill-mode</code> property controls the state of an element's properties before and after an animation.
+
+If multiple values are set as a comma-separated list, each value is applied to the corresponding animation specified in the <code>animation-name</code> property. If the number of values exceeds the number of animations, excess values are ignored. If there are fewer values than animations, the browser cycles through them cycles through them again until each animation has been assigned a fill mode.
 |Import_Notes====Syntax===
 <code>'''animation-fill-mode : '''none '''{{!}}''' forwards '''{{!}}''' backwards '''{{!}}''' both '''[''' ,  none '''{{!}}''' forwards '''{{!}}''' backwards '''{{!}}''' both ''']''' *</code>
 ===Standards information===
@@ -45,9 +46,67 @@ The version of this property using a vendor prefix, '''-ms-animation-fill-mode''
 }}
 {{Compatibility_Section
 |Not_required=No
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
+|Desktop_rows={{Compatibility Table Desktop Row
+|Chrome_supported=No
+|Chrome_version=
+|Chrome_prefixed_supported=Yes
+|Chrome_prefixed_version=4.0
+|Firefox_supported=Yes
+|Firefox_version=16.0
+|Firefox_prefixed_supported=Yes
+|Firefox_prefixed_version=5.0
+|Internet_explorer_supported=Yes
+|Internet_explorer_version=10.0
+|Internet_explorer_prefixed_supported=No
+|Internet_explorer_prefixed_version=
+|Opera_supported=Yes
+|Opera_version=12.1
+|Opera_prefixed_supported=Yes
+|Opera_prefixed_version=12.0
+|Safari_supported=No
+|Safari_version=
+|Safari_prefixed_supported=Yes
+|Safari_prefixed_version=4.0
+}}
+|Mobile_rows={{Compatibility Table Mobile Row
+|Android_supported=No
+|Android_version=
+|Android_prefixed_supported=Yes
+|Android_prefixed_version=2.1
+|Blackberry_supported=No
+|Blackberry_version=
+|Blackberry_prefixed_supported=Yes
+|Blackberry_prefixed_version=7.0
+|Chrome_mobile_supported=No
+|Chrome_mobile_version=
+|Chrome_mobile_prefixed_supported=Yes
+|Chrome_mobile_prefixed_version=18.0
+|Firefox_mobile_supported=No
+|Firefox_mobile_version=
+|Firefox_mobile_prefixed_supported=Yes
+|Firefox_mobile_prefixed_version=15.0
+|IE_mobile_supported=Unknown
+|IE_mobile_version=
+|IE_mobile_prefixed_supported=Unknown
+|IE_mobile_prefixed_version=
+|Opera_mobile_supported=No
+|Opera_mobile_version=
+|Opera_mobile_prefixed_supported=No
+|Opera_mobile_prefixed_version=
+|Opera_mini_supported=No
+|Opera_mini_version=
+|Opera_mini_prefixed_supported=No
+|Opera_mini_prefixed_version=
+|Safari_mobile_supported=No
+|Safari_mobile_version=
+|Safari_mobile_prefixed_supported=Yes
+|Safari_mobile_prefixed_version=3.2
+}}
+|Notes_rows={{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=10.0
+|Note=The -ms- prefix property is deprecated and should not be used.
+}}
 }}
 {{See_Also_Section
 |Topic_clusters=Animation
