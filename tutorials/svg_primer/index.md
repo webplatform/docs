@@ -1,5 +1,6 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+}}
 {{Summary_Section|This guide offers a detailed introduction to the main important things to know about SVG.}}
 {{Guide
 |Content===SVG Primer: Basic shapes and effects==
