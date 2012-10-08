@@ -30,6 +30,37 @@ You can consult the [[webgl/reference|WebGL Reference]]
 
 Additional reference resources on WebGL can be found on the [http://www.khronos.org/webgl/ Khronos WebGL page]
 
+=== Statistics of support ===
+
+{| class="wikitable"
+|-
+! Source !! All !! Desktop !! Mobile
+|-
+| [http://webglstats.com/ WebGL Stats, Oct 2. 2012] || 64% || 67% || 3.7%
+|-
+| [http://caniuse.com/#feat=webgl Can I Use, Oct 8. 2012] || 53% || ||
+|}
+
+
+
+=== Browser Support ===
+
+{| class="wikitable"
+|-
+! IE !! Firefox !! Chrome !! Safari !! Opera !! iOS Safari !! Opera Mini !! Android Browser !! Blackberry Browser
+|-
+| No || Yes || Yes || Yes || Yes || No || No || No || No
+|}
+
+[http://caniuse.com/#feat=webgl Source: Can I Use, Oct 8. 2012]
+
+=== OS, GPU and Driver Support ===
+
+The criteria for support differ from browser to browser. The details of support are listed at:
+
+* [http://support.google.com/chrome/bin/answer.py?hl=en&answer=1220892 The Google Chrome WebGL and 3D graphics support page]
+* [https://wiki.mozilla.org/Blocklisting/Blocked_Graphics_Drivers The Mozilla Wiki entry on Blocked Graphics Drivers]
+
 == Index of WebGL topics ==
 
 {{Special:PrefixIndex/webgl/}}
