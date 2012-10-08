@@ -1,26 +1,33 @@
+{{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
-{{CSS_Property
-|Applies to=block-level and inline-level elements 
-|Media=visual
-|Inherited=No
+{{Summary_Section}}
+{{CSS Property
 |Initial value=0
-|Values={{CSS_Property_Value|Data Type=time |Description=Floating-point number, followed by a time units designator (ms or s). For more information about the supported time units, see '''CSS Values and Units Reference'''.}}
+|Applies to=block-level and inline-level elements
+|Inherited=No
+|Media=visual
+|Animatable=No
+|Values={{CSS Property Value
+|Data Type=time
+|Description=Floating-point number, followed by a time units designator (ms or s). For more information about the supported time units, see '''CSS Values and Units Reference'''.
 }}
-{{Topics|CSS}}
+}}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 The version of this property using a vendor prefix, '''-ms-animation-duration''', has been deprecated. To ensure compatibility in the future, applications using this property with a vendor prefix should be updated accordingly.
 Each '''animationDuration''' is paired with a corresponding [[css/properties/animation-name|'''animationName''']].
 If more '''animationDuration''' values are declared than corresponding [[css/properties/animation-name|'''animationName''']] values, the excess '''animationDuration''' values are ignored.
 If fewer  '''animationDuration''' values are declared than corresponding [[css/properties/animation-name|'''animationName''']] values, the list of '''animationDuration''' values is repeated from the beginning until the '''animationName''' values are exhausted.
-|Import_Notes=
-===Syntax===
+|Import_Notes====Syntax===
 <code>'''animation-duration: '''''
 &lt;time&gt;
 '' '''[''' ,  ''
@@ -28,12 +35,19 @@ If fewer  '''animationDuration''' values are declared than corresponding [[css/p
 '' ''']''' *</code>
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?LinkID{{=}}223144 CSS Animations Module Level 3], Section 3.3
-
-
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Topic_clusters=Animation
+|Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
 *<code>[[css/cssom/style|style]]</code>
@@ -92,12 +106,12 @@ If fewer  '''animationDuration''' values are declared than corresponding [[css/p
 *<code>map</code>
 *<code>object</code>
 *<code>script</code>
-|Topic_clusters=Animation
 }}
+{{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
