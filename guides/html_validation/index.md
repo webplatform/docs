@@ -64,7 +64,7 @@ It sounds great doesn’t it? If you leave a few errors in your page, the browse
 <p><a href="#"></strong>This text should be a link</p>
 <p>Should this text be a link? How does the HTML look when rendered?</p></syntaxhighlight>
  
-The errors are that the <code><strong></code> element is incorrectly nested across multiple block elements, and the anchor element is not closed. When you try to render this across different browsers, they interpret the code in very different ways:
+The errors are that the ''strong element'' is incorrectly nested across multiple block elements, and the ''anchor element'' is not closed. When you try to render this across different browsers, they interpret the code in very different ways:
 
 * Opera makes the subsequent elements children of the bold element.
 * Firefox adds extra bold elements between the paragraphs, which were not present in the markup.
@@ -162,6 +162,7 @@ Figure 2: A success message to say that all my errors have been fixed.
  
 This is about all there is to it really. You just need to keep your wits about you, and remember what doctype your page is being validated against. [http://dev.opera.com/articles/view/24-validating-your-html/example_validation_fixed.html Download or view a fixed version of the HTML]
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
 |Desktop_rows=
