@@ -1,26 +1,29 @@
+{{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
-{{CSS_Property
+{{Summary_Section}}
+{{CSS Property
 |Applies to=All elements
-|Media=visual
 |Inherited=No
-|Initial value=
-|Values={{CSS_Property_Value|Data Type=ellipsis |Description=Display ellipses (...) for text overflow.}}
-{{CSS_Property_Value|Data Type=clip |Description=Default. Simply clip the content and do not display ellipses for text overflow.}}
+|Media=visual
+|Animatable=No
+|Values={{CSS Property Value
+|Data Type=ellipsis
+|Description=Display ellipses (...) for text overflow.
+}}{{CSS Property Value
+|Data Type=clip
+|Description=Default. Simply clip the content and do not display ellipses for text overflow.
 }}
-{{Topics|CSS}}
+}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Description=The following example shows how to use both '''ellipsis''' and '''clip''' values for the '''-ms-text-overflow''' property.  It also demonstrates how the effect of '''-ms-text-overflow''' can be canceled out by setting the [[css/properties/overflow|'''overflow''']] to ''visible''.
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/css/textOverflow.htm
-|Code=
-
-&lt;!DOCTYPE html&gt;
+|Code=&lt;!DOCTYPE html&gt;
 &lt;html&gt;
 
 &lt;head&gt;
@@ -72,35 +75,43 @@ p.caption {
 &lt;/body&gt;
 
 &lt;/html&gt;
-
-}}}}
+|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/css/textOverflow.htm
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 Windows Internet Explorer 8. The '''-ms-text-overflow''' attribute is an extension to CSS, and can be used as a synonym for '''text-overflow''' in IE8 Standards mode.
 The '''-ms-text-overflow''' property was introduced in Microsoft Internet Explorer 6
 This property only applies to text overflow in the inline direction (horizontal, in normal Western text).  Inline overflow occurs when the text in a line overflows the available width without a breaking opportunity. To force overflow to occur and ellipses to be applied, the author must apply the ''nowrap'' value to the [[css/properties/white-space|'''white-space''']] property on the element, or wrap the content in a &lt;NOBR&gt; tag. If there is no breaking opportunity (for example, the width is narrow or there is a long word that does not break well), then overflow may occur without ''nowrap'' being applied.
 This property on the element must be set to something other than ''visible'', the default, in order for ellipses to be rendered.  The best choice is to set [[css/properties/overflow|'''overflow''']] to  ''hidden''.  Setting '''overflow''' to ''scroll'' or ''auto'' will also work, but will show scrollbars.
 The hidden text can be selected by selecting the ellipses. When selected, the ellipses will disappear and be replaced by the text to the extent of the layout area.
 This property offers an efficient alternative to building ellipses in Dynamic HTML (DHTML). As ellipses may be rendered many times on a single page, using this property can significantly speed up performance.
-|Import_Notes=
-===Syntax===
+|Import_Notes====Syntax===
 <code>'''-ms-text-overflow: '''ellipsis '''{{!}}''' clip</code>
 }}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Topic_clusters=Text
+|Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
 *<code>[[dom/defaultSelected|defaults]]</code>
 *<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
 *<code>[[css/cssom/style|style]]</code>
-|Topic_clusters=Text
 }}
+{{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
