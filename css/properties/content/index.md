@@ -1,27 +1,31 @@
+{{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
-{{CSS_Property
+{{Summary_Section}}
+{{CSS Property
 |Applies to=All elements
-|Media=visual
 |Inherited=No
-|Initial value=
-|Values={{CSS_Property_Value|Data Type=string |Description=Text content, in either double quotation marks (")
-or single quotation marks (').}}
-{{CSS_Property_Value|Data Type=counter |Description=Possible values include the following:}}
+|Media=visual
+|Animatable=No
+|Values={{CSS Property Value
+|Data Type=string
+|Description=Text content, in either double quotation marks (")
+or single quotation marks (').
+}}{{CSS Property Value
+|Data Type=counter
+|Description=Possible values include the following:
 }}
-{{Topics|CSS}}
+}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Description=The following example generates braces before and after
 all the '''hn''' elements on a page.
-|LiveURL=
-|Code=
-&lt;meta http-equiv{{=}}"X-UA-Compatible" content{{=}}"IE{{=}}8" /&gt;
+|Code=&lt;meta http-equiv{{=}}"X-UA-Compatible" content{{=}}"IE{{=}}8" /&gt;
 &lt;style type{{=}}"text/css"&gt;
 H1:before {
     content: "{ ";
@@ -30,10 +34,10 @@ H1:after {
 	content: " }";
 }
 &lt;/style&gt;
-}}}}
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 The '''content'''
 attribute is used in conjunction with
 [[css/selectors/pseudo-elements/::before|'''::before''']] and
@@ -63,17 +67,23 @@ six hexadecimal digits (from the range 0–9 and A–F)
 to indicate the	Unicode character with that number.
 This property requires Windows Internet Explorer
 to be in IE8 Standards mode rendering.
-|Import_Notes=
-===Syntax===
+|Import_Notes====Syntax===
 <code>'''content: ''''''[''' string '''{{!}}''' counter ''']''''''+'''</code>
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 12.2
-
-
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Topic_clusters=Multi-Column, Generated and Replaced Content
+|Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
 *<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
@@ -81,12 +91,12 @@ to be in IE8 Standards mode rendering.
 *<code>Reference</code>
 *<code>[[css/properties/counter-increment|counter-increment]]</code>
 *<code>[[css/properties/counter-reset|counter-reset]]</code>
-|Topic_clusters=Generated and Replaced Content, Multi-Column
 }}
+{{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
