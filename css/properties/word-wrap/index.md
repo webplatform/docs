@@ -1,21 +1,27 @@
+{{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
-{{CSS_Property
+{{Summary_Section}}
+{{CSS Property
 |Applies to=All elements
-|Media=visual
 |Inherited=Yes
-|Initial value=
-|Values={{CSS_Property_Value|Data Type=normal |Description=Default. Content exceeds the boundaries of its container.}}
-{{CSS_Property_Value|Data Type=break-word |Description=Content wraps to next line, and a word-break occurs when necessary.}}
+|Media=visual
+|Animatable=No
+|Values={{CSS Property Value
+|Data Type=normal
+|Description=Default. Content exceeds the boundaries of its container.
+}}{{CSS Property Value
+|Data Type=break-word
+|Description=Content wraps to next line, and a word-break occurs when necessary.
 }}
-{{Topics|CSS}}
+}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Description=The word "blonde" is not wrappable under typical English rules.  
 But, when wordWrap is set to break-word, 
 the word "blonde" can be split onto two lines in any way the browser chooses: 
@@ -24,14 +30,13 @@ such as "b" and "londe", or "blo" and "nde".
 
 
 The following example shows how to use the '''break-word''' value of the '''-ms-word-wrap''' property to break one long word onto multiple lines. This value avoids horizontal scrolling and can be useful for printing.  The '''p''' element in this example has layout, because its width is set.
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/wordWrap.htm
-|Code=
-&lt;P STYLE{{=}}"word-wrap:break-word;width:100%;left:0"&gt;
+|Code=&lt;P STYLE{{=}}"word-wrap:break-word;width:100%;left:0"&gt;
 LongWordLongWord...LongWordLongWord&lt;/P&gt;
-}}}}
+|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/wordWrap.htm
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 Windows Internet Explorer 8. The '''-ms-word-wrap''' attribute is an extension to CSS, and can be used as a synonym for '''word-wrap''' in IE8 Standards mode.
 Use this property to enable the browser to break up otherwise unbreakable strings.
 This differs from the [[css/properties/white-space|'''white-space''']] 
@@ -47,17 +52,23 @@ because Internet Explorer does not support the "text-wrap" property.
 This property is read-only for the '''IHTMLCurrentStyle2''' interface.
 This property is read-only for the [[css/cssom/currentStyle|'''currentStyle''']] object.
 This property applies to elements that have layout.  An element has layout when it is absolutely positioned, is a block element, or is an inline element with a specified height or width.
-|Import_Notes=
-===Syntax===
+|Import_Notes====Syntax===
 <code>'''-ms-word-wrap: '''normal '''{{!}}''' break-word</code>
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}203766 CSS Text Level 3], Section 7.2
-
-
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Topic_clusters=Text
+|Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
 *<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
@@ -66,12 +77,12 @@ This property applies to elements that have layout.  An element has layout when 
 *<code>[[css/properties/line-break|line-break]]</code>
 *<code>[[css/properties/word-break|-ms-word-break]]</code>
 *<code>[[css/properties/white-space|white-space]]</code>
-|Topic_clusters=Text
 }}
+{{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
