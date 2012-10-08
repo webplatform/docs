@@ -193,9 +193,9 @@ For more examples about tables, see [[Tables]] in the CSS Reference page.
 </li>
 <li><p>Now edit your CSS file. Replace the entire contents with:</p>
 
-<syntaxhighlight lang="css">strong { colour: red; }
+<syntaxhighlight lang="css">strong { color: red; }
  .carrot { color: orange; }
- .spinach { colour: green; }
+ .spinach { color: green; }
  #first { font-style: italic; }</syntaxhighlight>
 </li>
 <li><p>Save the files and refresh your browser to see the result:</p>
@@ -203,7 +203,7 @@ For more examples about tables, see [[Tables]] in the CSS Reference page.
 </li>
 </ol>
 
-<p class="note">We ought to create a screenshot to show the result here.</p>
+[[File:usingclassandid_result.jpg]]
 
 You can try rearranging the lines in your CSS file to show that the order has no effect. The class selectors <code>.carrot</code> and <code>.spinach</code> have priority over the tag selector <code>strong</code>.   The ID selector <code>#first</code> has priority over the class and tag selectors.
   
@@ -295,6 +295,7 @@ to be applied to an HTML structure like the following:
  
 See see our complete [[CSS-based drop down menu example]] for a possible cue.
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
 |Desktop_rows=
