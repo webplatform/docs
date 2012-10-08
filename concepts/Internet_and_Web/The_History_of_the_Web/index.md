@@ -32,7 +32,7 @@ If any terms are unfamiliar to you, don’t worry: if they’re important for le
  
 On the fourth of October in 1957 an event occurred that would change the world. The Soviet Union successfully launched the first satellite into Earth’s orbit. Called Sputnik 1, it shocked the world — especially the United States of America, who had their own programme of satellite launches underway, but had yet to launch.
  
-This event lead directly to the creation of the US Department of Defence, ARPA, due to a recognised need for an organisation that could research and develop advanced ideas and technology. Perhaps their most famous project (certainly the most widely used) was the creation of the Internet.
+This event led directly to the creation of the US Department of Defence, ARPA, due to a recognised need for an organisation that could research and develop advanced ideas and technology. Perhaps their most famous project (certainly the most widely used) was the creation of the Internet.
  
 In 1960, psychologist and computer scientist Joseph Licklider published a paper entitled Man-Computer Symbiosis, which articulated the idea of networked computers providing advanced information storage and retrieval. In 1962, whilst working for ARPA as the head of the information processing office, he formed a group to further computer research, but left the group before any actual work was done on the idea.
 
