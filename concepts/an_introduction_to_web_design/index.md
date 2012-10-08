@@ -1,4 +1,4 @@
-{{Page_Title|An introduction to web design}}
+--[[User:Sebastien|Sébastien Desbenoit]] ([[User talk:Sebastien|talk]]) 14:17, 8 October 2012 (UTC){{Page_Title|An introduction to web design}}
 {{Flags
 |High-level issues=Stub
 |Content=Incomplete, Grammar/Spelling
@@ -11,13 +11,14 @@ If you're chair is the most comfortable in the world but it looks like a torture
 
 Designing a website is finding the good balance between the usability and the aesthetic components while having a thought about the technical part all along the process. 
 
-Aesthetic
+== Aesthetic ==
 Building a website with a strong aesthetic is not building the prettier website. It needs to be consistent. For example, people believe they make better deals on an old looking website when searching for secondhand object. 
 
-Usability
+== Usability ==
 Usability is taking care of the users. It doesn't mean it must be easy to use, it means it's appropriate to its users: a professional interface could need a lot of informations on a same page, but it suits its users need. And it won't use the same words as a website made for child ! 
 
-UX. Once forgotten, the usability of website is now having spotlight on. A term has been made to help people remembering this part of the design process: UX Design. User Experience design. 
+== UX ==
+Once forgotten, the usability of website is now having spotlight on. A term has been made to help people remembering this part of the design process: UX Design. User Experience design. 
 }}
 {{Examples_Section
 |Not_required=No
