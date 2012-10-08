@@ -1,37 +1,51 @@
+{{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
-{{CSS_Property
-|Applies to=block-level and inline-level elements 
-|Media=visual
-|Inherited=No
+{{Summary_Section}}
+{{CSS Property
 |Initial value=flat
-|Values={{CSS_Property_Value|Data Type=flat |Description=Default. 
-Child elements are flattened using orthographic projection into the 2-D plane of the object.}}
+|Applies to=block-level and inline-level elements
+|Inherited=No
+|Media=visual
+|Animatable=No
+|Values={{CSS Property Value
+|Data Type=flat
+|Description=Default. 
+Child elements are flattened using orthographic projection into the 2-D plane of the object.
 }}
-{{Topics|CSS}}
+}}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 The version of this property using a vendor prefix, '''-ms-transform-style''', has been deprecated. To ensure compatibility in the future, applications using this property with a vendor prefix should be updated accordingly.
 This property does not affect how the object is rendered.
 This property is only applied to child elements that have an [[css/transforms/transform|'''transform''']] specified.
 The  object is the projection plane for the child elements.
 Child elements cannot intersect in <code>flat</code> mode.
-|Import_Notes=
-===Syntax===
+|Import_Notes====Syntax===
 <code>'''transform-style: '''flat</code>
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?LinkID{{=}}223145 CSS Transforms Module, Level 3], Section 9
-
-
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Topic_clusters=Transforms
+|Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
 *<code>[[css/cssom/style|style]]</code>
@@ -91,12 +105,12 @@ Child elements cannot intersect in <code>flat</code> mode.
 *<code>object</code>
 *<code>script</code>
 *<code>[[css/transforms/transform|transform]]</code>
-|Topic_clusters=Transforms
 }}
+{{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
