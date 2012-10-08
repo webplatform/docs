@@ -7,7 +7,7 @@
 
 === Introduction ===
 
-SVG is a technology that has been on the cusp of greatness for a long time now.  With browser support improving, and three of the big four browser engines already incorporating <a href="http://www.codedread.com/svg-support.php">solid support for SVG</a>, it is an ideal time to start looking into what the technology offers.  This first article will get you comfortable with the basics, so that you are ready to dig deeper and explore SVG further.  Even these baby steps will produce results that can be incorporated straight into your progressively enhanced designs.  The latest W3C candidate recommendation is SVG 1.1, so this is the version I will follow.  SVG Tiny 1.2 is in working draft at the time of writing, and is partially supported by Opera 9.5 and above.
+SVG is a technology that has been on the cusp of greatness for a long time now.  With browser support improving, and three of the big four browser engines already incorporating [http://www.codedread.com/svg-support.php solid support for SVG], it is an ideal time to start looking into what the technology offers.  This first article will get you comfortable with the basics, so that you are ready to dig deeper and explore SVG further.  Even these baby steps will produce results that can be incorporated straight into your progressively enhanced designs.  The latest W3C candidate recommendation is SVG 1.1, so this is the version I will follow.  SVG Tiny 1.2 is in working draft at the time of writing, and is partially supported by Opera 9.5 and above.
 
 === SVG overview ===
 
@@ -69,7 +69,7 @@ One of the most basic shapes in SVG is the humble rectangle.  You’ll most like
 
 # Open up the SVG template in your text editor of choice and rename it as <q>rectangle.svg</q>. 
 # Between the SVG tags add the <code>rect</code> element as follows: &lt;rect /&gt; 
-# Now the rectangle has to be placed on the canvas, in the required position.  The co-ordinates of the upper left hand corner of the shape are specified using the <code>x<code> and <code>y</code> attributes:&lt;rect x="0" y="0"/&gt;
+# Now the rectangle has to be placed on the canvas, in the required position.  The co-ordinates of the upper left hand corner of the shape are specified using the <code>x</code> and <code>y</code> attributes: &lt;rect x="0" y="0"/&gt;
 
 The width is specified using the <code>width</code> attribute, and the height is specified with (you guessed it) the <code>height</code> attribute:
 
@@ -91,7 +91,7 @@ The following CSS styles the rectangle above to have a 1px black outline (referr
     stroke-width: 1px;
 }</pre>
 
-Try creating a CSS file with the rule above, and add the processing instruction to your SVG file above the SVG element.  The final file should look somewhat like the <a href="file here">SVG rectangle</a> I created earlier. While this doesn’t look like much yet, I’ll cover more useful examples after we’ve worked our way through the basic shapes.
+Try creating a CSS file with the rule above, and add the processing instruction to your SVG file above the SVG element.  The final file should look somewhat like the <!--TODO<a href="file here">-->SVG rectangle<!--</a>--> I created earlier. While this doesn’t look like much yet, I’ll cover more useful examples after we’ve worked our way through the basic shapes.
 
 === Circles and ellipses ===
 
@@ -263,9 +263,9 @@ The final step was to add a cursor, to show the user the button can be clicked:
 
 <pre>g#button { cursor: pointer; }</pre>
 
-<a href="http://people.opera.com/dstorey/images/button.svg">View the final button example</a>
+[http://people.opera.com/dstorey/images/button.svg View the final button example]
 
-While in this example, the button is a box with text, and much of it could be created with CSS 3 properties, you could make a button of any shape or size.  As another simple example, I've created <a href="http://people.opera.com/dstorey/images/circle-button.svg">a round play button with a triangle play icon</a>. I'll not describe in detail how this was created, as it uses almost the same elements as the regular button, and just switches a rectangle for a circle and the text for a polygon.
+While in this example, the button is a box with text, and much of it could be created with CSS 3 properties, you could make a button of any shape or size.  As another simple example, I've created [http://people.opera.com/dstorey/images/circle-button.svg a round play button with a triangle play icon]. I'll not describe in detail how this was created, as it uses almost the same elements as the regular button, and just switches a rectangle for a circle and the text for a polygon.
 
 === Using your SVG buttons via CSS ===
 
