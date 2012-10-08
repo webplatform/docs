@@ -1,6 +1,5 @@
 {{Page_Title|The basics of HTML}}
-{{Flags
-}}
+{{Flags}}
 {{Byline}}
 {{Summary_Section|In this article, you will learn the basics of HTML, where it has
 evolved from and have some insight into the structure and content of an HTML
@@ -163,7 +162,7 @@ of the element and introduce extra meaning. Let's have a look at another example
  
 <syntaxhighlight lang="html5"><header>
   <h1>The Basics of 
-    <abbr title="Hypertext Markup Language>HTML</abbr>
+    <abbr title="Hypertext Markup Language">HTML</abbr>
   </h1>
 </header></syntaxhighlight>
 
@@ -236,6 +235,7 @@ An actual ampersand has to be entered into a document as "&amp;amp;",
 which is the character entity reference, or as "&amp;#38;" which is
 the numeric reference. [http://www.evolt.org/article/A_Simple_Character_Entity_Chart/17/21234/ A full chart of character references can be found on evolt.org].
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
 |Desktop_rows=
@@ -257,7 +257,7 @@ the numeric reference. [http://www.evolt.org/article/A_Simple_Character_Entity_C
 |Not_required=Yes
 |Examples=
 }}
-{{Notes_Section}}
+
 {{Related_Specifications_Section
 |Specifications=
 }}
