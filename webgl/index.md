@@ -13,6 +13,13 @@ The following sites feature WebGL introductions and tutorials as well
 * [https://developer.mozilla.org/en-US/docs/WebGL/Getting_started_with_WebGL MDN Getting Started with WebGL]
 * [http://www.netmagazine.com/tag/webgl?ct=tutorial Netmagazine WebGL Tutorials]
 
+The following books on WebGL have been published
+
+* [http://shop.oreilly.com/product/0636920024729.do WebGL: Up and Running, O'Reilly Media] ISBN: 978-1449323578
+* [http://www.packtpub.com/webgl-javascript-beginners-guide/book WebGL Beginner's Guide, Packt Publishing] ISBN: 978-1849691727
+* [http://www.apress.com/9781430239963 Beginning WebGL for HTML5, Apress Publishing] ISBN: 978-1430239963
+* [http://www.wrox.com/WileyCDA/WroxTitle/Professional-WebGL-Programming-Developing-3D-Graphics-for-the-Web.productCd-1119968860.html Professional WebGL Programming: Developing 3D Graphics for the Web] ISBN: 978-1119968863
+
 == WebGL reference ==
 
 == Index of WebGL topics ==
