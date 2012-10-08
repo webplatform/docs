@@ -33,8 +33,7 @@ The animation is played in the forward direction.
 |Examples=
 }}
 {{Notes_Section
-|Notes====Remarks===
-The version of this property using a vendor prefix, '''-ms-animation-direction''', has been deprecated. To ensure compatibility in the future, applications using this property with a vendor prefix should be updated accordingly.
+|Usage=The <code>animation-direction</code> property takes as its value a keyword indicating the direction of a single animation cycle. If multiple keywords are separated by commas, they are applied to each animation in the same order as specified in <code>animation-name</code>. The number of values specified for <code>animation-direction</code> doesn't need to match. If there are more values than for <code>animation-name</code>, the excess values are ignored. If there are fewer, the browser cycles through them again until each animation has been assigned a direction
 |Import_Notes====Syntax===
 <code>'''animation-direction: ''''''[''' normal '''{{!}}''' alternate '''{{!}}''' reverse '''{{!}}''' alternate-reverse ''']''' '''[''' ,  '''[''' normal '''{{!}}''' alternate '''{{!}}''' reverse '''{{!}}''' alternate-reverse ''']''' ''']''' *</code>
 ===Standards information===
@@ -113,6 +112,10 @@ The version of this property using a vendor prefix, '''-ms-animation-direction''
 |Browser=Safari
 |Version=< 6.0
 |Note=Supports only normal and alternate
+}}{{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=10.0
+|Note=The -ms- prefixed property is deprecated and should not be used.
 }}
 }}
 {{See_Also_Section
