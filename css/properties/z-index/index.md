@@ -1,27 +1,31 @@
+{{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
-{{CSS_Property
+{{Summary_Section}}
+{{CSS Property
 |Applies to=All elements
-|Media=visual
 |Inherited=No
-|Initial value=
-|Values={{CSS_Property_Value|Data Type=auto |Description=Default. String that specifies the stacking order of the positioned objects based on the order in which the objects appear in the HTML source.}}
-{{CSS_Property_Value|Data Type=order |Description=Integer that specifies the position of the object in the stacking order.}}
+|Media=visual
+|Animatable=No
+|Values={{CSS Property Value
+|Data Type=auto
+|Description=Default. String that specifies the stacking order of the positioned objects based on the order in which the objects appear in the HTML source.
+}}{{CSS Property Value
+|Data Type=order
+|Description=Integer that specifies the position of the object in the stacking order.
 }}
-{{Topics|CSS}}
+}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Description=The following examples use the '''z-index''' attribute and the '''z-index''' property to change the stacking order of objects.
 
 This example uses an inline style sheet to set the stacking order.
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/z-index.htm
-|Code=
-&lt;img src{{=}}"cone.jpg" 
+|Code=&lt;img src{{=}}"cone.jpg" 
     alt{{=}}"cone"
     style{{=}}"position: absolute; 
         top: 100px; 
@@ -36,12 +40,10 @@ This example uses an inline style sheet to set the stacking order.
     z-index: 1"&gt;
 ...
 &lt;/div&gt;
-}}
-{{Single_Example
+|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/z-index.htm
+}}{{Single Example
 |Description=This example uses inline scripting to set the stacking order.
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/zIndex.htm
-|Code=
-&lt;img id{{=}}"cone" 
+|Code=&lt;img id{{=}}"cone" 
     alt{{=}}"cone"
     src{{=}}"cone.jpeg"
     style{{=}}"position: absolute;
@@ -57,10 +59,11 @@ This example uses an inline style sheet to set the stacking order.
         left: 1px;"
     onclick{{=}}"cone.style.zIndex{{=}}2; 
         sphere.style.zIndex{{=}}1"/&gt;
-}}}}
+|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/zIndex.htm
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 Positive '''z-index''' values are positioned above a negative (or lesser value) '''z-index'''. Two objects with the same '''z-index''' are stacked according to source order. A positive value positions the element above text that has no defined '''z-index''', and a negative value positions it below. Set this parameter to null to remove the attribute.
 The '''z-index''' property only applies to objects that have the [[css/properties/position|'''position''']] property set to '''relative''' or '''absolute'''.
 The property does not apply to windowed controls, such as '''select''' objects.
@@ -74,24 +77,32 @@ As of Windows Internet Explorer 7, the '''select''' property is windowless and 
 Windows Internet Explorer 8 and later. When you access a property that has not been explicitly set, Internet Explorer returns the default value of the property. The default value of the '''z-index''' property for the [[css/cssom/currentStyle|'''currentStyle''']] object depends on the document compatibility mode used to display the Web page. When a page is displayed in IE8 Standards mode, the default value is <code>auto</code>. The default value is <code>0</code> in IE7 Standards mode and an empty string (<code>""</code>) in IE5 (Quirks) mode. Applications that rely on specific default values for the '''z-index''' property of the '''currentStyle''' object should be modified to take the document compatibility mode into account.
 You can use the '''z-index''' property on Grid items.
 While the '''z-index''' property normally only applies to objects that have the [[css/properties/position|'''position''']] property not set to '''static''', the '''z-index''' property applies to Grid items even when the '''position''' property is set to '''static'''.
-|Import_Notes=
-===Syntax===
+|Import_Notes====Syntax===
 <code>'''z-index: '''auto '''{{!}}''' ''order''</code>
 }}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Topic_clusters=Box Model
+|Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
 *<code>[[dom/defaultSelected|defaults]]</code>
 *<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
 *<code>[[css/cssom/style|style]]</code>
-|Topic_clusters=Box Model
 }}
+{{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
