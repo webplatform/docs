@@ -93,8 +93,7 @@ selector {
 == Action: Adding comments and improving the layout ==
  
 <ul>
-<li><p>Edit your CSS file, and ensure that it has these rules in it (in any order):<p>
-
+<li><p>Edit your CSS file, and ensure that it has these rules in it (in any order):</p></li>
 <syntaxhighlight lang="css">strong {color: red;}
 .carrot {color: orange;}
 .spinach {color: green;}
