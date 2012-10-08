@@ -1,34 +1,47 @@
+{{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status|Non-Standard}}
 {{API_Name}}
-{{CSS_Property
-|Applies to=grid item elements
-|Media=visual paged
-|Inherited=No
+{{Summary_Section}}
+{{CSS Property
 |Initial value=1
-|Values={{CSS_Property_Value|Data Type=integer |Description=Integer value that identifies the specified column.}}
+|Applies to=grid item elements
+|Inherited=No
+|Animatable=No
+|Values={{CSS Property Value
+|Data Type=integer
+|Description=Integer value that identifies the specified column.
 }}
-{{Topics|CSS}}
+}}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 The column numbering system is a 1-based index, with 1 being the default. That is, column numbering does not begin with zero.
-|Import_Notes=
-===Syntax===
+|Import_Notes====Syntax===
 <code>'''-ms-grid-column: '''''
 &lt;integer&gt;
 ''</code>
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}215213 CSS Grid Layout], Section 6
-
-
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Topic_clusters=Grid Layout
+|Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
 *<code>[[css/cssom/style|style]]</code>
@@ -89,12 +102,12 @@ The column numbering system is a 1-based index, with 1 being the default. That i
 *<code>script</code>
 *<code>[[css/properties/ms-grid-columns|-ms-grid-columns]]</code>
 *<code>[[css/properties/ms-grid-row|-ms-grid-row]]</code>
-|Topic_clusters=Grid Layout
 }}
+{{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
