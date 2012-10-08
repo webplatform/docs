@@ -416,7 +416,7 @@ This property is not supported for Metro style apps using JavaScript
 |Chrome_prefixed_supported=Unknown
 |Chrome_prefixed_version=
 |Firefox_supported=Yes
-|Firefox_version=3
+|Firefox_version=3.5
 |Firefox_prefixed_supported=Unknown
 |Firefox_prefixed_version=
 |Internet_explorer_supported=Yes
@@ -460,6 +460,7 @@ This property is not supported for Metro style apps using JavaScript
 |Opera_mini_prefixed_supported=Unknown
 |Opera_mini_prefixed_version=
 |Safari_mobile_supported=Yes
+|Safari_mobile_version=1
 |Safari_mobile_prefixed_supported=Unknown
 |Safari_mobile_prefixed_version=
 }}
