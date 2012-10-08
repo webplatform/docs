@@ -35,7 +35,7 @@ Property values do not change before the animation starts, and they return to th
 {{Notes_Section
 |Usage=The <code>animation-fill-mode</code> property controls the state of an element's properties before and after an animation.
 
-If multiple values are set as a comma-separated list, each value is applied to the corresponding animation specified in the <code>animation-name</code> property. If the number of values exceeds the number of animations, excess values are ignored. If there are fewer values than animations, the browser cycles through them cycles through them again until each animation has been assigned a fill mode.
+If multiple values are set as a comma-separated list, each value is applied to the corresponding animation specified in the <code>animation-name</code> property. If the number of values exceeds the number of animations, excess values are ignored. If there are fewer values than animations, the browser cycles through them again until each animation has been assigned a fill mode.
 |Import_Notes====Syntax===
 <code>'''animation-fill-mode : '''none '''{{!}}''' forwards '''{{!}}''' backwards '''{{!}}''' both '''[''' ,  none '''{{!}}''' forwards '''{{!}}''' backwards '''{{!}}''' both ''']''' *</code>
 ===Standards information===
