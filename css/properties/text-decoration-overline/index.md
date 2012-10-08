@@ -1,31 +1,35 @@
+{{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
-{{CSS_Property
+{{Summary_Section}}
+{{CSS Property
 |Applies to=All elements
-|Media=visual
 |Inherited=No
-|Initial value=
-|Values={{CSS_Property_Value|Data Type=VARIANT_TRUE |Description=A line is drawn over the text.}}
-{{CSS_Property_Value|Data Type=VARIANT_FALSE |Description=A line is not drawn over the text.}}
+|Media=visual
+|Animatable=No
+|Values={{CSS Property Value
+|Data Type=VARIANT_TRUE
+|Description=A line is drawn over the text.
+}}{{CSS Property Value
+|Data Type=VARIANT_FALSE
+|Description=A line is not drawn over the text.
 }}
-{{Topics|CSS}}
+}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Description=This example uses the '''textDecorationOverline''' property to draw a line over the text when the user moves the mouse over the text.
-|LiveURL=
-|Code=
-&lt;P onmouseover{{=}}"this.style.textDecorationOverline{{=}}true;"&gt;
+|Code=&lt;P onmouseover{{=}}"this.style.textDecorationOverline{{=}}true;"&gt;
 Mouse over this text for an overline.
 &lt;/P&gt;
-}}}}
+}}
+}}
 {{Notes_Section
-|Import_Notes=
-===Syntax===
+|Import_Notes====Syntax===
 <code>'''textDecorationOverline: '''VARIANT_TRUE '''{{!}}''' VARIANT_FALSE</code>
 ===Requirements===
 {| class="wikitable"
@@ -51,21 +55,29 @@ Mouse over this text for an overline.
 <dt>Mshtml.dll</dt>
 </dl>
 |}
-
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Topic_clusters=Visual Effects
+|Manual_sections====Related pages (MSDN)===
 *<code>[[dom/defaultSelected|defaults]]</code>
 *<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
 *<code>[[css/cssom/style|style]]</code>
 *<code>[[css/properties/text-decoration|textDecoration]]</code>
-|Topic_clusters=Visual Effects
 }}
+{{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
