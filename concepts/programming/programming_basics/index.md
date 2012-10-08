@@ -170,7 +170,7 @@ alert(message);
  
 Try out the [http://dev.opera.com/articles/view/programming-the-real-basics/flickrfamous.html string concatenation example].
  
-The += operator is a shortcut for "message = message +". The product of this script is the string “Hi I am Christian Heilmann. I am 33 years old and [http://flickr.com/photos/tags/thehairofchristianheilmann/ my hair is Flickr famous]”.
+The += operator is a shortcut for "message = message +". The product of this script is the string “Hi, I am Christian Heilmann. I am 33 years old and [http://flickr.com/photos/tags/thehairofchristianheilmann/ my hair is Flickr famous]”.
  
 There is a catch to remember when using concatenation versus adding values. If you want to add two values you need to make sure that both are numbers, not strings. The [http://dev.opera.com/articles/view/programming-the-real-basics/concatvsadd.html concatenation versus addition] example shows the difference between the two. “5”+“3” is 53 and not 8! The easiest way to convert a string to a number is by prepending it with a "+", as shown in the example.
  
