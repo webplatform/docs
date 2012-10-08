@@ -234,7 +234,7 @@ You can try rearranging the lines in your CSS file to show that the order has no
 <syntaxhighlight lang="css">a.homepage:link, a.homepage:visited {
    padding: 1px 10px 1px 10px;
    color: #fff;
-   background: #555;
+   background: #666;
    border-radius: 3px;
    border: 1px outset rgba(50,50,50,.5);
    font-family: georgia, serif;
@@ -244,11 +244,12 @@ You can try rearranging the lines in your CSS file to show that the order has no
  }
  
  a.homepage:hover, a.homepage:focus, a.homepage:active {
-   background-color: #666;
+   background-color: #333;
  }</syntaxhighlight>
 </li> 
 <li><p>Save the files and refresh your browser to see the result (put the mouse over the following link to see the effect):</p>
-<p class="note">Again, need to add in example screenshots!</p>
+[[File:pseudoclassselector_result.jpg]]
+<p>The link turns to dark grey.</p></li>
 </ol> 
 
 == Action: Using selectors based on relationships and pseudo-classes ==
@@ -293,7 +294,7 @@ to be applied to an HTML structure like the following:
   </ul>
 </div></syntaxhighlight>
  
-See see our complete [[CSS-based drop down menu example]] for a possible cue.
+See our complete [[CSS-based drop down menu example]] for a possible cue.
 }}
 {{Notes_Section}}
 {{Compatibility_Section
