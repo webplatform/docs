@@ -53,7 +53,14 @@ Once the connection is established, messages are sent as "frames", either text o
 WebSocket URIs have the same basic format as HTTP URIs, but with a different URI scheme: ws://hostname:port/path, e.g. ws://example.com/echo or ws://example.net:8080. The path can be used to distinguish the purpose of the connection, however some servers ignore it. Secure WebSocket (WebSocket over SSL/TLS) URIs begin with wss:// instead of ws://.
 }}
 {{See_Also_Section
-|External_links=* http://ajf.me/websocket/ - Has a list of libraries and frameworks for most popular programming languages
+|External_links=* http://tools.ietf.org/html/rfc6455 - IETF WebSocket protocol
+* http://www.w3.org/TR/websockets/ - W3C WebSocket API
+* http://www.websocket.org/echo.html - WebSocket echo test
+* http://caniuse.com/#search=websockets - Browser support
+* http://ajf.me/websocket/ - Has a list of libraries and frameworks for most popular programming languages
+
+
+
 }}
 {{Topics|JavaScript, Performance}}
 {{External_Attribution
