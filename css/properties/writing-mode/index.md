@@ -1,34 +1,56 @@
+{{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
-{{CSS_Property
+{{Summary_Section}}
+{{CSS Property
 |Applies to=All elements
-|Media=visual
 |Inherited=Yes
-|Initial value=
-|Values={{CSS_Property_Value|Data Type=lr-tb |Description=Default. Content flows horizontally from left to right, top to bottom. The next horizontal line is positioned underneath the previous line. All glyphs are positioned upright. This layout is used by most writing systems.}}
-{{CSS_Property_Value|Data Type=rl-tb |Description=Content flows horizontally from right to left, top to bottom. The next horizontal line is positioned underneath the previous line. All glyphs are positioned upright. This layout is used with right-to-left scripts like Arabic, Hebrew, Thaana, and Syriac.}}
-{{CSS_Property_Value|Data Type=tb-rl |Description=Content flows vertically from top to bottom, right to left. The next vertical line is positioned to the left of the previous line. Wide-cell glyphs are positioned upright; nonwide-cell glyphs (also known as narrow Latin or narrow Kana glyphs) are rotated 90° clockwise. This layout is used in East Asian typography.}}
-{{CSS_Property_Value|Data Type=bt-rl |Description=Content flows vertically from bottom to top, right to left. The next vertical line is positioned to the left of the previous line. Wide-cell glyphs are positioned upright; nonwide-cell glyphs (also known as narrow Latin or narrow Kana glyphs) are rotated 90° clockwise. This layout is used for right-to-left script blocks used in vertical East Asian typography.}}
-{{CSS_Property_Value|Data Type=tb-lr |Description=Internet Explorer 8. Content flows vertically from top to bottom, left to right. The next vertical line is positioned to the right of the previous line.}}
-{{CSS_Property_Value|Data Type=bt-lr |Description=Internet Explorer 8.	Content flows vertically from bottom to top, left to right.}}
-{{CSS_Property_Value|Data Type=lr-bt |Description=Internet Explorer 8. Content flows horizontally from bottom to top, left to right. The next horizontal line is positioned above the previous line.}}
-{{CSS_Property_Value|Data Type=rl-bt |Description=Internet Explorer 8. Content flows horizontally from bottom to top, right to left.}}
-{{CSS_Property_Value|Data Type=lr |Description=Internet Explorer 9. For use on SVG and HTML elements. Equivalent to '''lr-tb'''.}}
-{{CSS_Property_Value|Data Type=rl |Description=Internet Explorer 9. For use on SVG and HTML elements. Equivalent to '''rl-tb'''.}}
-{{CSS_Property_Value|Data Type=tb |Description=Internet Explorer 9. For use on SVG and HTML elements. Equivalent to '''tb-rl'''.}}
+|Media=visual
+|Animatable=No
+|Values={{CSS Property Value
+|Data Type=lr-tb
+|Description=Default. Content flows horizontally from left to right, top to bottom. The next horizontal line is positioned underneath the previous line. All glyphs are positioned upright. This layout is used by most writing systems.
+}}{{CSS Property Value
+|Data Type=rl-tb
+|Description=Content flows horizontally from right to left, top to bottom. The next horizontal line is positioned underneath the previous line. All glyphs are positioned upright. This layout is used with right-to-left scripts like Arabic, Hebrew, Thaana, and Syriac.
+}}{{CSS Property Value
+|Data Type=tb-rl
+|Description=Content flows vertically from top to bottom, right to left. The next vertical line is positioned to the left of the previous line. Wide-cell glyphs are positioned upright; nonwide-cell glyphs (also known as narrow Latin or narrow Kana glyphs) are rotated 90° clockwise. This layout is used in East Asian typography.
+}}{{CSS Property Value
+|Data Type=bt-rl
+|Description=Content flows vertically from bottom to top, right to left. The next vertical line is positioned to the left of the previous line. Wide-cell glyphs are positioned upright; nonwide-cell glyphs (also known as narrow Latin or narrow Kana glyphs) are rotated 90° clockwise. This layout is used for right-to-left script blocks used in vertical East Asian typography.
+}}{{CSS Property Value
+|Data Type=tb-lr
+|Description=Internet Explorer 8. Content flows vertically from top to bottom, left to right. The next vertical line is positioned to the right of the previous line.
+}}{{CSS Property Value
+|Data Type=bt-lr
+|Description=Internet Explorer 8.	Content flows vertically from bottom to top, left to right.
+}}{{CSS Property Value
+|Data Type=lr-bt
+|Description=Internet Explorer 8. Content flows horizontally from bottom to top, left to right. The next horizontal line is positioned above the previous line.
+}}{{CSS Property Value
+|Data Type=rl-bt
+|Description=Internet Explorer 8. Content flows horizontally from bottom to top, right to left.
+}}{{CSS Property Value
+|Data Type=lr
+|Description=Internet Explorer 9. For use on SVG and HTML elements. Equivalent to '''lr-tb'''.
+}}{{CSS Property Value
+|Data Type=rl
+|Description=Internet Explorer 9. For use on SVG and HTML elements. Equivalent to '''rl-tb'''.
+}}{{CSS Property Value
+|Data Type=tb
+|Description=Internet Explorer 9. For use on SVG and HTML elements. Equivalent to '''tb-rl'''.
 }}
-{{Topics|CSS}}
+}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Description=The following example shows how to use the '''-ms-writing-mode''' property to nest horizontal text inside vertical text.
-|LiveURL=Click to view sample.
-|Code=
-&lt;html&gt;&lt;head&gt;&lt;style&gt;
+|Code=&lt;html&gt;&lt;head&gt;&lt;style&gt;
     .clsHorizLR { writing-mode:lr-tb }
     .clsHorizRL { writing-mode:rl-tb }
     .clsVertTB  { writing-mode:tb-rl }
@@ -46,10 +68,11 @@ Third Set of Vertical Text&lt;span class{{=}}"clsHorizLR"&gt;Third Set of Horizo
 &lt;/div&gt;&lt;p&gt;This example shows how to use the new &lt;b&gt;writing-mode&lt;/b&gt; attribute to display horizontal text (&lt;span&gt;rl-tb&lt;/span&gt;).&lt;div class{{=}}"clsHorizRL"&gt;Fourth Set of Horizontal Text&lt;/div&gt;&lt;p&gt;This example makes use of the new&lt;b&gt;writing-mode&lt;/b&gt; attribute to display vertical text (&lt;span&gt;bt-rl&lt;/span&gt;).&lt;div class{{=}}"clsVertBT"&gt;Fourth Set of 
 Vertical Text&lt;/div&gt;
 &lt;/div&gt;&lt;/body&gt;&lt;/html&gt;
-}}}}
+|LiveURL=Click to view sample.
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 The following diagram shows how the different values for the property appear on the screen.
 
 Internet Explorer 8. The '''-ms-writing-mode''' attribute is an extension to CSS and can be used as a synonym for '''writing-mode''' in IE8 Standards mode.
@@ -63,23 +86,30 @@ Internet Explorer 8. Because '''-ms-writing-mode''' is currently defined by the
      .clsHorizRL { -ms-writing-mode:rl-tb }
      .clsVertTB  { -ms-writing-mode:tb-rl }
      .clsVertBT  { -ms-writing-mode:bt-rl }</code>
-|Import_Notes=
-===Syntax===
+|Import_Notes====Syntax===
 <code>'''-ms-writing-mode: '''lr-tb '''{{!}}''' rl-tb '''{{!}}''' tb-rl '''{{!}}''' bt-rl '''{{!}}''' tb-lr '''{{!}}''' bt-lr '''{{!}}''' lr-bt '''{{!}}''' rl-bt '''{{!}}''' lr '''{{!}}''' rl '''{{!}}''' tb</code>
 }}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
 *<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
 *<code>[[css/cssom/style|style]]</code>
-|Topic_clusters=Writing Modes
 }}
+{{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
