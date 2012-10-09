@@ -27,3 +27,5 @@ Returns a stand-alone, parentless quadratic Bézier curve that is drawn from the
 |MDN_link=
 |HTML5Rocks_link=
 }}
+
+[[Category:SVG]]
