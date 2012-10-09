@@ -24,18 +24,20 @@ For example, the document that you are reading now is not stored in a file. When
 
 For more information about documents and markup languages, see other parts of this web site—for example:
 
-THERE SHOULD BE A TABLE HERE, BUT IT WON'T RENDER FOR SOME REASON - I REALLY DON'T KNOW WHY.
-
-<!--{|
-|-
-| [[HTML]] || for web pages
-|-
-| [[XML]] || for structured documents in general
-|-
-| [[SVG]] || for graphics
-|-
-| [[XUL]] || for user interfaces in Mozilla
-|}-->
+<table>
+  <tr>
+    <td style="width: 10%;">[[HTML]]</td> <td>for web pages</td>
+  </tr>
+  <tr>
+    <td style="width: 10%;">[[XML]]</td> <td>for structured documents in general</td>
+  </tr>
+  <tr>
+    <td style="width: 10%;">[[SVG]]</td> <td>for graphics</td>
+  </tr>
+  <tr>
+    <td style="width: 10%;">[[XUL]]</td> <td>for user interfaces in Mozilla</td>
+  </tr>
+</table>
 
 In Part II of this tutorial you will see examples of these markup languages.
 
