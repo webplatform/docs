@@ -15,13 +15,12 @@
 |Animatable=No
 |Values={{CSS Property Value
 |Data Type=single-animation-iteration-count
-|Description=A number or the keyword <code>infinite</code>.
+|Description=<code>&lt;number&gt;</code> or <code>infinite</code>.
 
-The default value is <code>1</code>, which plays the animation once, from beginning to end.
-
-Numbers other than <code>1</code> cause the animation to play the specified number of times. Non-integer numbers cause the animation to end part-way through a cycle.
-
-<code>infinite</code> causes the animation to repeat forever.
+;<code>&lt;number&gt;</code>
+:The default value is <code>1</code>, which plays the animation once, from beginning to end. Numbers other than <code>1</code> cause the animation to play the specified number of times. Non-integer numbers cause the animation to end part-way through a cycle.
+;<code>infinite</code>
+:The animation repeats forever.
 }}
 }}
 {{Examples_Section
