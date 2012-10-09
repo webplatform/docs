@@ -10,7 +10,7 @@ First we need some simple HTML with a file select input field. We will give the 
  <nowiki><!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8"/>
+    <meta charset="utf-8">
     <title>Image drawing Example</title>
 </head>
 <body>
