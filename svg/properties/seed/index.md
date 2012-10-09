@@ -27,3 +27,4 @@ Random number generators often use a seed. If you want to change the starting se
 |MDN_link=
 |HTML5Rocks_link=
 }}
+[[Category:SVG]]
