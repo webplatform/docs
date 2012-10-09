@@ -33,3 +33,4 @@ The values in the returned matrix changes based on the type of matrix:
 |MDN_link=
 |HTML5Rocks_link=
 }}
+[[Category:SVG]]
