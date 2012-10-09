@@ -42,3 +42,5 @@ On both the current and the target elements, the return value is determined afte
 |MDN_link=
 |HTML5Rocks_link=
 }}
+
+[[Category:SVG]]
