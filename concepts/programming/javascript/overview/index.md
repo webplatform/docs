@@ -5,8 +5,7 @@
 }}
 {{Byline}}
 {{Summary_Section|This chapter introduces JavaScript and discusses some of its fundamental concepts.}}
-{{Concept
-|Content==What is JavaScript?=
+=What is JavaScript?=
 
 JavaScript is a cross-platform, object-oriented scripting language. JavaScript is a small, lightweight language; it is not useful as a standalone language, but is designed for easy embedding in other products and applications, such as web browsers. Inside a host environment, JavaScript can be connected to the objects of its environment to provide programmatic control over them.
 
@@ -101,7 +100,7 @@ The JavaScript documentation describes aspects of the language that are appropri
 
 * The Global Object is not discussed in the JavaScript documentation because you do not use it directly. The methods and properties of the Global Object, which you do use, are discussed in the JavaScript documentation but are called top-level functions and properties.
 * The no parameter (zero-argument) constructor with the <code>Number</code> and <code>String</code> objects is not discussed in the JavaScript documentation, because what is generated is of little use. A <code>Number</code> constructor without an argument returns +0, and a <code>String</code> constructor without an argument returns "" (an empty string).
-}}
+
 {{Compatibility_Section
 |Not_required=No
 |Desktop_rows=
