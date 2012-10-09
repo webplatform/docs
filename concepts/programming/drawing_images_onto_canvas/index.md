@@ -112,7 +112,77 @@ function handleFileSelect(e){
 
 Now that we have our Image loaded, we can draw it onto a Canvas. Let´s create a Canvas first:
 
+ <nowiki>document.addEventListener('DOMContentLoaded', function(){
 
+    // get a reference to the file select input field
+    var fileSelect = document.querySelector('#choosePicture');
+
+    // listen for the onChange event that get´s fired after the user had choosed a file
+    fileSelect.addEventListener('change', handleFileSelect, false);
+    
+}, false);
+
+// vendor prefixed in Chrome
+window.URL = window.webkitURL || window.URL;
+
+function handleFileSelect(e){
+
+    // get the FileList object from the file select event
+    var files = e.target.files;
+    
+    // check if there are files in the FileList
+    if(files.length === 0){
+        return;
+    }
+    
+    // we just need one file and ignore the others
+    var file = files[0];
+    
+    // make sure we got a image file
+    if(file.type !== '' && !file.type.match('image.*')){
+        return;
+    }
+    
+    // create a data URL from the image file
+    var imageData = window.URL.createObjectURL(file);
+    
+    // create a image element and load the data URL into it
+    var img = document.createElement('img');
+    document.body.appendChild(img);
+    
+    // we don´t want to see the image on the screen, so let´s move it out of view (we can´t just hide it!)
+    img.style.position = 'absolute';
+    img.style.left = '-9999px';
+    
+    // now listen for the onLoad event of the image before we can work on
+    // you should use img.onload instead of img.addEventListener('load') because the eventListener fires to early in some Browsers!
+    img.onload = function(){
+        
+        // free some memory by removing the data URL
+        window.URL.revokeObjectURL(img.src);
+      
+        // create a Canvas and draw on it
+        drawOnCanvas(img);
+    };
+    img.src = imageData;
+}
+
+function drawOnCanvas(img){
+    
+    // create a Canvas to draw on
+    var canvas = document.createElement('canvas');
+    document.body.appendChild(canvas);
+  
+    // get the drawing Context
+    var context = canvas.getContext('2d');
+    
+    // set Canvas width/height to Image width/height
+    canvas.width = img.naturalWidth;
+    canvas.height = img.naturalHeight;
+    
+    // finally draw the Image on the Canvas
+    context.drawImage(img, 0, 0, canvas.width, canvas.height);
+}</nowiki>
 
 
 '''TODO:''' Add Descriptions and sample Code
