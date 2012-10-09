@@ -33,3 +33,5 @@ If multiple consecutive characters are rendered inseparably (for example, as a s
 |MDN_link=
 |HTML5Rocks_link=
 }}
+
+[[Category:SVG]]
