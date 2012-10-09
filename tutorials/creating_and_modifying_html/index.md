@@ -22,7 +22,7 @@ element looks is whether it’s displayed at all. The CSS <code>display</code>
 property is the key to showing and hiding an element: setting it to 
 <code>display:none;</code> hides an element. Imagine a paragraph like this:
 
-<pre>&lt;p id="mypara" style="display: none"&gt;I am a paragraph&lt;/p&gt;</pre>
+<syntaxhighlight lang="html5"><p id="mypara" style="display: none">I am a paragraph</p></syntaxhighlight>
  
 That paragraph would be invisible on the page. JavaScript allows you to
 ''dynamically'' add that <code>display: none</code> style to that element
@@ -36,8 +36,8 @@ a reference to an element, you can change the CSS applied to it by using the <co
 To show it, set the style attribute <code>display</code> to
 <code>block</code>:
 
-<pre>var el = document.getElementById('mypara');
-el.style.display = 'block';</pre>
+<syntaxhighlight lang="javascript">var el = document.getElementById('mypara');
+el.style.display = 'block';</syntaxhighlight>
  
 And lo, the paragraph appears. Setting CSS on an element through the
 <code>style</code> attribute does the same thing as setting it in the
@@ -45,8 +45,8 @@ And lo, the paragraph appears. Setting CSS on an element through the
 <code>el.style.display = 'block'</code> achieves the same effect as putting 
 <code>style="display: block"</code> directly in your HTML. Except that it’s dynamic. Hiding any element is just as simple:
  
-<pre>var el = document.getElementById('mypara');
-el.style.display = 'none';</pre>
+<syntaxhighlight lang="javascript">var el = document.getElementById('mypara');
+el.style.display = 'none';</syntaxhighlight>
  
 === Hiding and showing example ===
  
@@ -56,19 +56,19 @@ others.
 
 Here’s an example of a set of tabs:
  
-<pre>&lt;ol class="tablinks"&gt;
-  &lt;li&gt;&lt;a href="#tab1"&gt;Tab 1&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="#tab2"&gt;Tab 2&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="#tab3"&gt;Tab 3&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
+<syntaxhighlight lang="html5"><ol class="tablinks">
+  <li><a href="#tab1">Tab 1</a></li>
+  <li><a href="#tab2">Tab 2</a></li>
+  <li><a href="#tab3">Tab 3</a></li>
+</ol>
 
-&lt;div class="tab" id="tab1"&gt;This is tab 1&lt;/div&gt;
-&lt;div class="tab" id="tab2"&gt;This is tab 2&lt;/div&gt;
-&lt;div class="tab" id="tab3"&gt;This is tab 3&lt;/div&gt;</pre>
+<div class="tab" id="tab1">This is tab 1</div>
+<div class="tab" id="tab2">This is tab 2</div>
+<div class="tab" id="tab3">This is tab 3</div></syntaxhighlight>
  
 In the <code>head</code> of the example file (see [http://dev.opera.com/articles/view/creating-and-modifying-html/tabs.html tabs.html] for the live example), you’ll find the following CSS and JavaScript (these would normally be put in external files and imported into the HTML, but I’m keeping everything in one file here to make things simpler to navigate). Some of the code looks intimidating; don’t worry, we’ll go through it.
 
-<pre>&lt;style type="text/css"&gt;
+<syntaxhighlight lang="html5"><style type="text/css">
 ol.tablinks {
   margin: 0; padding: 0;
 }
@@ -90,9 +90,9 @@ div.tab {
   border: 2px solid red;
   border-width: 1px 2px 2px 2px;
 }
-&lt;/style&gt;
+</style>
 
-&lt;script type="text/javascript"&gt;
+<script type="text/javascript">
 var tabify = {
   hasClass: function(el,c) {
     return el.className.match(new RegExp('(\\s|^)'+c+'(\\s|$)'));        
@@ -150,7 +150,7 @@ var tabify = {
   }
 };
 tabify.addEvent(window, "load", tabify.init);
-&lt;/script&gt;</pre>
+</script></syntaxhighlight>
  
 Each tab is a link. Each link has an <code>onclick</code>
 event handler on it. That event handler does
@@ -183,8 +183,8 @@ All JavaScript code basically comes in two parts: the part that actually
 does the work, and the part that hooks up that bit to the HTML. The code that
 actually does the work in this example is pretty trivial: showing the corresponding tab to a particular link is two lines of JavaScript:
  
-<pre>var dest = link.href.match(/#(.*)$/)[1];
-document.getElementById(dest).style.display = "block";</pre>
+<syntaxhighlight lang="javascript">var dest = link.href.match(/#(.*)$/)[1];
+document.getElementById(dest).style.display = "block";</syntaxhighlight>
  
 The links, if you remember, look like <code>&lt;a href="#tab1"&gt;Tab 1&lt;/a&gt;</code>
 and so the first line uses a regular expression (see the note below) to extract 
@@ -249,7 +249,7 @@ Running code in response to an event is done with the
 <code>addEventListener</code> function in most browsers and with the
 <code>attachEvent</code> function in Internet Explorer. Here we are creating a “wrapper” function, which does the right thing depending on which is supported:
  
-<pre>addEvent: function(obj, type, fn) {
+<syntaxhighlight lang="javascript">addEvent: function(obj, type, fn) {
   if ( obj.attachEvent ) {
     obj['e'+type+fn] = fn;
     obj[type+fn] = function(){obj['e'+type+fn]( window.event );};
@@ -257,7 +257,7 @@ Running code in response to an event is done with the
   } else {
     obj.addEventListener( type, fn, false );
   }
-}</pre>
+}</syntaxhighlight>
  
 (Don’t worry too much about how this works; just take it on trust for now—you’ll understand it better as you become more experienced in JavaScript.) 
 This function takes three parameters, <code>obj</code>, <code>type</code>,
@@ -267,7 +267,7 @@ We need to run our function called <code>tabify.init</code> when the page loads;
 the <code>tabify.init</code> function will then take care of hooking up each
 tab’s <code>click</code> event.
  
-<pre>addEvent(window, "load", tabify.init);</pre>
+<syntaxhighlight lang="javascript">addEvent(window, "load", tabify.init);</syntaxhighlight>
  
 As you can see from the HTML structure above, a set of tabs are actually
 expressed as an ordered list with <code>class="tablinks"</code>. So the
@@ -282,7 +282,7 @@ expressed as an ordered list with <code>class="tablinks"</code>. So the
  
 The <code>init</code> function that does all this looks like so:
 
-<pre>init: function() {
+<syntaxhighlight lang="javascript">init: function() {
   var ols = document.getElementsByTagName("ol");
   for (var i=0; i&lt;ols.length; i++) {
     var ol = ols[i];
@@ -300,35 +300,35 @@ The <code>init</code> function that does all this looks like so:
     tabify.hideAllTabs(ol);
     tabify.setTabFromLink(ol.getElementsByTagName("a")[0], "block");
   }
-}</pre>
+}</syntaxhighlight>
  
 Let’s walk through this function step by step, looking at what each part does in turn:
 
-<pre>var ols = document.getElementsByTagName("ol");
+<syntaxhighlight lang="javascript">var ols = document.getElementsByTagName("ol");
   for (var i=0; i&lt;ols.length; i++) {
     var ol = ols[i];
     if (!/(^|\s)tablinks(\s|$)/.test(ol.className)) { continue; }
-  }</pre>
+  }</syntaxhighlight>
  
 This finds all the <code>&lt;ol&gt;</code>s on the page with a class of <code>tablinks</code>—it then pulls up a list of ''all'' <code>&lt;ol&gt;</code>s and for each one, says “if this ''doesn’t'' have a class of ‘tablinks’, then skip it”.
 (Checking the class is done with a regular expression; <code>continue</code>
 means “skip over this one and on to the next”.)
 
-<pre>tabify.addEvent(ol, "click", function(e) {
+<syntaxhighlight lang="javascript">tabify.addEvent(ol, "click", function(e) {
   ...
-});</pre>
+});</syntaxhighlight>
  
 This attaches some code to each <code>&lt;ol&gt;</code>’s <code>click</code> event.
 
-<pre>var target = window.event ? window.event.srcElement : e.target;</pre>
+<syntaxhighlight lang="javascript">var target = window.event ? window.event.srcElement : e.target;</syntaxhighlight>
  
 This works out exactly which tab link the user clicked on…
 
-<pre>tabify.setTabFromLink(e.target, "block");</pre>
+<syntaxhighlight lang="javascript">tabify.setTabFromLink(e.target, "block");</syntaxhighlight>
  
 …then this shows that single tab…
 
-<pre>tabify.hideAllTabs(e.target.parentNode.parentNode);</pre>
+<syntaxhighlight lang="javascript">tabify.hideAllTabs(e.target.parentNode.parentNode);</syntaxhighlight>
  
 …and finally, this line hides any other tabs.
 
@@ -352,13 +352,13 @@ a link may seem pointless — after all, classes are invisible — but
 it's a hook for styling. We can (and have) make links with 
 <code>class="active"</code> appear differently, by adding extra CSS:
  
-<pre>ol.tablinks li a {
+<syntaxhighlight lang="css">ol.tablinks li a {
   background-color: red;
 }
 
 ol.tablinks li a.active {
   background-color: white;
-}</pre>
+}</syntaxhighlight>
  
 So now, the "active" tab appears in white, while other tabs appear in red.
 Using JavaScript to add and remove classes is a very common technique, and one
@@ -386,17 +386,17 @@ Creating new HTML elements is done with the <code>document.createElement</code> 
 example, we only need to add one thing: after each link, we’ll add a 
 <code>span</code> containing text listing the domain of the link (check out [http://dev.opera.com/articles/view/creating-and-modifying-html/linkify.html linkify.html] for a live example). The HTML for the example looks like this:
  
-<pre>&lt;p id="start"&gt;This is some text that has 
-&lt;a href="http://www.w3.org/TR/html4/struct/links.html"&gt;links&lt;/a&gt; in it
-to various places, including &lt;a href="http://www.opera.com"&gt;Opera&lt;/a&gt;,
-&lt;a href="http://www.bbc.co.uk/"&gt;the BBC&lt;/a&gt; and an internal link to
-&lt;a href="#start"&gt;the beginning of this section&lt;/a&gt;. All the external links
-should have &lt;span&gt;[domain]&lt;/span&gt; after them.&lt;/p&gt;
-</pre>
+<syntaxhighlight lang="javascript"><p id="start">This is some text that has 
+<a href="http://www.w3.org/TR/html4/struct/links.html">links</a> in it
+to various places, including <a href="http://www.opera.com">Opera</a>,
+<a href="http://www.bbc.co.uk/">the BBC</a> and an internal link to
+<a href="#start">the beginning of this section</a>. All the external links
+should have <span>[domain]</span> after them.</p>
+</syntaxhighlight>
  
 The JavaScript looks like this:
  
-<pre>&lt;script type="text/javascript"&gt;
+<syntaxhighlight lang="javascript"><script type="text/javascript">
 var linksuffix = {
   addEvent: function(obj, type, fn) {
     if ( obj.attachEvent ) {
@@ -422,12 +422,12 @@ var linksuffix = {
   }
 };
 linksuffix.addEvent(window, "load", linksuffix.init);
-&lt;/script&gt;
-</pre>
+</script>
+</syntaxhighlight>
  
 The part of the script that does the work here is as follows:
  
-<pre>var links = document.getElementsByTagName("a");
+<syntaxhighlight lang="javascript">var links = document.getElementsByTagName("a");
 for (var i=0; i&lt;links.length; i++) {
   var matches = links[i].href.match(/^http:\/\/(.*?)\//);
   if (matches) {
@@ -437,29 +437,29 @@ for (var i=0; i&lt;links.length; i++) {
     span.appendChild(spantext);
     links[i].parentNode.insertBefore(span, links[i].nextSibling);
   }
-}</pre>
+}</syntaxhighlight>
  
 This breaks down like this:
  
-<pre>var links = document.getElementsByTagName("a");
+<syntaxhighlight lang="javascript">var links = document.getElementsByTagName("a");
 for (var i=0; i&lt;links.length; i++) {
   ...
-}</pre>
+}</syntaxhighlight>
  
 First, it finds all the links (<code>getElementsByTagName("a")</code>) in the document
  
-<pre>var matches = links[i].href.match(/^http:\/\/(.*?)\//);
+<syntaxhighlight lang="javascript">var matches = links[i].href.match(/^http:\/\/(.*?)\//);
 if (matches) {
   ...
-}</pre>
+}</syntaxhighlight>
  
 This line uses a regular expression on each link to find out whether the destination of the
 link begins with <code>http://something/</code>. If it does…
 
-<pre>var linkdomain = matches[1];
+<syntaxhighlight lang="javascript">var linkdomain = matches[1];
 var span = document.createElement("span");
 var spantext = document.createTextNode(" ["+linkdomain+"]");
-span.appendChild(spantext);</pre>
+span.appendChild(spantext);</syntaxhighlight>
  
 …this next part first gets the “linkdomain”, the <code>www.opera.com</code> part of the link. It next creates a <code>&lt;span&gt;</code> element using 
 <code>document.createElement</code>. Next, it creates a “textNode”. While HTML
@@ -473,12 +473,12 @@ created by concatenating (adding together)
 strings. Finally, this part uses the <code>&lt;span&gt;</code>’s
 <code>appendChild</code> method to put the textNode inside the span.
 
-<pre>links[i].parentNode.insertBefore(span, links[i].nextSibling);</pre>
+<syntaxhighlight lang="javascript">links[i].parentNode.insertBefore(span, links[i].nextSibling);</syntaxhighlight>
  
 This line adds the <code>span</code> into the document. At this point, <code>span</code> is a reference to an HTML
 element that looks like this:
 
-<pre>&lt;span&gt; [example.com]&lt;/span&gt;</pre>
+<syntaxhighlight lang="html5"><span> [example.com]</span></syntaxhighlight>
  
 That element however isn’t part of the document. It’s not part of any document yet; it’s just floating around in limbo. Adding the element to the document can be done in one of two ways: using <code>appendChild</code> as above, or using
 <code>insertBefore</code>. The <code>appendChild</code> function adds our new
@@ -487,9 +487,9 @@ element at the ''end'' of an existing element (that’s why it’s called
 we need <code>insertBefore</code>. Remember that our current bit of HTML looks
 something like this:
  
-<pre>&lt;p&gt;... text that has 
-&lt;a href="http://www.w3.org/TR/html4/struct/links.html"&gt;links&lt;/a&gt; in it
-to ...</pre>
+<syntaxhighlight lang="html5"><p>... text that has 
+<a href="http://www.w3.org/TR/html4/struct/links.html">links</a> in it
+to ...</syntaxhighlight>
  
 This equates to a DOM tree looking something like Figure 1:
 
@@ -506,9 +506,9 @@ Figure 2: The DOM tree after the addition of the span element
  
 or, more simply, HTML such as
  
-<pre>&lt;p&gt;... text which has 
-&lt;a href="http://www.w3.org/TR/html4/struct/links.html"&gt;links&lt;/a&gt;
-&lt;span&gt; [domain]&lt;/span&gt; in it to ...</pre>
+<syntaxhighlight lang="html5"><p>... text which has 
+<a href="http://www.w3.org/TR/html4/struct/links.html">links</a>
+<span> [domain]</span> in it to ...</syntaxhighlight>
  
 What would be handy here is to be able to say “insert our new 
 <code>span</code> ''after'' the link”. Sadly, there is no 
@@ -520,7 +520,7 @@ function needs to be called on the element that you’re inserting into, which
 is the parent <code>&lt;p&gt;</code> of the link, quickly accessible with
 <code>link.parentNode</code>. So the full call, as above, is
  
-<pre>links[i].parentNode.insertBefore(span, links[i].nextSibling);</pre>
+<syntaxhighlight lang="javascript">links[i].parentNode.insertBefore(span, links[i].nextSibling);</syntaxhighlight>
  
 That is, find the parent (<code>&lt;p&gt;</code>) of the link we’re currently
 processing (<code>links[i]</code>), and insert our created <code>span</code> element
@@ -555,7 +555,7 @@ way you need to.
 * Give two reasons why progressive enhancement is important.
 * What’s the difference between <code>appendChild</code> and <code>insertBefore</code>?
 * Why do we use an <code>addClass</code> function rather than just concatenating the new class name with an existing element's <code>className</code> attribute?
-* In the following HTML structure, what would <code>document.getElementById("marker").nextSibling</code> be?   <pre>&lt;p&gt;This is a &lt;strong&gt;block of HTML with &lt;span id="marker"&gt;various markup&lt;span&gt; in it&lt;/strong&gt;.&lt;/p&gt; </pre>
+* In the following HTML structure, what would <code>document.getElementById("marker").nextSibling</code> be?   <syntaxhighlight lang="javascript">&lt;p&gt;This is a &lt;strong&gt;block of HTML with &lt;span id="marker"&gt;various markup&lt;span&gt; in it&lt;/strong&gt;.&lt;/p&gt; </syntaxhighlight>
 }}
 {{Topics|JavaScript}}
 {{External_Attribution
