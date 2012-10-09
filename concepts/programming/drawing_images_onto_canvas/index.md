@@ -118,6 +118,8 @@ function handleFileSelect(e){
     img.src = imageData;
 }</nowiki>
 
+==Draw the Image onto the Canvas==
+
 Now that we have our Image loaded, we can draw it onto a Canvas. Let´s create a Canvas first:
 
  <nowiki>document.addEventListener('DOMContentLoaded', function(){
