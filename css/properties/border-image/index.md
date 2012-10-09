@@ -33,8 +33,12 @@
 }}
 }}
 {{Notes_Section
-|Notes=Firefox 15 requires [[css/properties/border-style|'''border-style''']] to be set (for example 'solid') in order to display.
+|Notes====Browser issues===
+Firefox 15 requires [[css/properties/border-style|'''border-style''']] to be set (for example 'solid') in order to display.
 Also, [[css/properties/border-image-slice|'''border-image-slice: fill''']] was introduced in latest recommendation and breaks backwards compatibility. If you want border-image to fill an inner area of your block you have to use this property.
+
+===Compatibility with other properties===
+[[css/properties/border-radius|'''border-radius''']] has no effect on border-image.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
