@@ -204,7 +204,13 @@ function drawOnCanvas(img){
 
 =="Retina" Canvas==
 
+As mentioned in the introduction, "Retina"-Displays will show blurry images by default. This is because of ...
+
 * Explain "retina" Canvas drawing (http://html5-mobile.de/blog/retina-display-html-canvas-optimieren)
+* Two types of retina Canvas, retina Canvas on iOS and on new MacBook Pro
+* windows.devicePixelRatio
+* context.webkitBackingStorePixelRatio
+* context.scale(2, 2)
 
 '''Alternatives'''
 
