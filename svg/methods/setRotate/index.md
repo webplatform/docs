@@ -27,3 +27,5 @@ The '''setRotate'''  method can raise a [[dom/DOMException|'''DOMException''']] 
 |MDN_link=
 |HTML5Rocks_link=
 }}
+
+[[Category:SVG]]
