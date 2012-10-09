@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -47,6 +47,16 @@ border-top-left-radius: 2em 0.5em;
 border-top-right-radius: 1em 3em;
 border-bottom-right-radius: 4em 0.5em;
 border-bottom-left-radius: 1em 3em;
+}}{{Single Example
+|Language=CSS
+|Description=Valid max percentage value example
+|Code=border-radius:50%;
+/*0% - 50%*/
+}}{{Single Example
+|Language=CSS
+|Description=Wrong max percentage value example
+|Code=border-radius:100%;
+/*larger then allowed*/
 }}
 }}
 {{Notes_Section
