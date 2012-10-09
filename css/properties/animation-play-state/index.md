@@ -14,13 +14,12 @@
 |Computed value=as specified
 |Animatable=No
 |Values={{CSS Property Value
-|Data Type=running
-|Description=Default. 
-Play the animation.
-If restarting a paused animation, the animation resumes from the current (paused) property value.
-}}{{CSS Property Value
-|Data Type=paused
-|Description=Pause the animation. The object is displayed with the current property value until '''animation-play-state''' is set to '''running''' and the animation resumes.
+|Data Type=single-animation-play-state
+|Description=<code>running</code> (default) or <code>paused</code>
+
+<code>running</code>: Plays the animation. If restarting a paused animation, the animation resumes from the current (paused) property value.
+
+<code>paused</code>: Pauses the animation. The object is displayed with the current property value until '''animation-play-state''' is set to '''running''' and the animation resumes.
 }}
 }}
 {{Examples_Section
