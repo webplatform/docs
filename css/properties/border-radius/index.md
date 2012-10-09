@@ -1,6 +1,5 @@
 {{Page_Title}}
-{{Flags
-}}
+{{Flags}}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|The border-radius CSS property allows Web authors to define how rounded border corners are. The curve of each corner is defined using one or two radii, defining its shape: circle or ellipse.}}
@@ -86,12 +85,12 @@ border-radius: (first radius values) / top-left top-right bottom-right bottom-le
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
 |Chrome_version=5.0
-|Chrome_prefixed_supported=Yes
-|Chrome_prefixed_version=4.0
+|Chrome_prefixed_supported=No
+|Chrome_prefixed_version=
 |Firefox_supported=Yes
 |Firefox_version=4.0
-|Firefox_prefixed_supported=Yes
-|Firefox_prefixed_version=2.0
+|Firefox_prefixed_supported=No
+|Firefox_prefixed_version=
 |Internet_explorer_supported=Yes
 |Internet_explorer_version=9.0
 |Internet_explorer_prefixed_supported=No
@@ -102,21 +101,21 @@ border-radius: (first radius values) / top-left top-right bottom-right bottom-le
 |Opera_prefixed_version=
 |Safari_supported=Yes
 |Safari_version=5.0
-|Safari_prefixed_supported=Yes
-|Safari_prefixed_version=3.1
+|Safari_prefixed_supported=No
+|Safari_prefixed_version=
 }}
 |Mobile_rows={{Compatibility Table Mobile Row
 |Android_supported=Yes
 |Android_version=2.2
-|Android_prefixed_supported=Yes
-|Android_prefixed_version=2.1
+|Android_prefixed_supported=No
+|Android_prefixed_version=
 |Blackberry_supported=Yes
 |Blackberry_version=7.0
 |Blackberry_prefixed_supported=Unknown
 |Blackberry_prefixed_version=
 |Chrome_mobile_supported=Yes
 |Chrome_mobile_version=18.0
-|Chrome_mobile_prefixed_supported=Unknown
+|Chrome_mobile_prefixed_supported=No
 |Chrome_mobile_prefixed_version=
 |Firefox_mobile_supported=Yes
 |Firefox_mobile_version=15.0
@@ -136,8 +135,8 @@ border-radius: (first radius values) / top-left top-right bottom-right bottom-le
 |Opera_mini_prefixed_version=
 |Safari_mobile_supported=Yes
 |Safari_mobile_version=4.0
-|Safari_mobile_prefixed_supported=Yes
-|Safari_mobile_prefixed_version=3.2
+|Safari_mobile_prefixed_supported=No
+|Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
 }}
