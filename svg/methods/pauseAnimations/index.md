@@ -27,3 +27,5 @@ Because  the '''pauseAnimations''' method pauses all running animations, the ani
 |MDN_link=
 |HTML5Rocks_link=
 }}
+
+[[Category:SVG]]
