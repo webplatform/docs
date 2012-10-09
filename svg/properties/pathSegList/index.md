@@ -28,3 +28,4 @@ With the '''pathSegList''' property, you can  access  the base (or ''static'') c
 |MDN_link=
 |HTML5Rocks_link=
 }}
+[[Category:SVG]]
