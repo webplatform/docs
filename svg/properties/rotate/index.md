@@ -56,3 +56,4 @@ This supplemental rotation does not impact  how the current text position is mod
 |MDN_link=
 |HTML5Rocks_link=
 }}
+[[Category:SVG]]
