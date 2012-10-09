@@ -43,7 +43,7 @@ function handleFileSelect(e){
     // we just need only one file and ignore the others
     var file = files[0];
     
-    // make sure to only process image files
+    // make sure we got a image file
     if(file.type !== '' && !file.type.match('image.*')){
         return;
     }
