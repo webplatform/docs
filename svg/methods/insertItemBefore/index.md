@@ -33,3 +33,5 @@ If  the ''newItem''  item is already in a list,  the '''insertItemBefore''' meth
 |MDN_link=
 |HTML5Rocks_link=
 }}
+
+[[Category:SVG]]
