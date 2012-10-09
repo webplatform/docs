@@ -6,7 +6,7 @@
 |Content=* [[tutorials/mobile mobifying|"Mobifying" an HTML5 site]]
 * [[tutorials/mobile_offline|Working Off the Grid with HTML5 Offline]]
 * [[tutorials/mobile_touch|Multi-touch web development]]
-* [[tutorials/mobile_optimization_best_practices|Mobile optimization best pratices]]
+* [[tutorials/mobile_optimization_best_practices|Mobile optimization best practices]]
 }}
 {{Notes_Section}}
 {{Compatibility_Section
