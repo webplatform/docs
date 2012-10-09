@@ -24,7 +24,92 @@ If restarting a paused animation, the animation resumes from the current (paused
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|Description=The CSS uses the Animation property and the @keyframes property as well as the animation-play-state propery and more.
+
+The example show how to create a counter like function.
+By using the ":checked" selector for radio buttons we toggle the animation states for the counter
+|Code=/* position the handles */
+#stopwatch_handles {
+	margin-top: 0px;
+}
+/* Style the labels itself, at the bottom we hide the radio buttons itself */
+#stopwatch_handles label {
+	cursor: pointer;
+	padding: 5px 5px;
+	font-family: Verdana, sans-serif;
+	font-size: 12px;
+}
+input[name="handles"] {display: none;}
+
+/*Actual handles  this triggers the stopwatch to start and stop based on the state of the radio buttons */
+#stopbtn:checked~.stopwatch .numbers {animation-play-state: paused;-webkit-animation-play-state: paused;-moz-animation-play-state: paused;-o-animation-play-state: paused;}
+#startbtn:checked~.stopwatch .numbers {animation-play-state: running;-webkit-animation-play-state: running;-moz-animation-play-state: running;-o-animation-play-state: running;}
+
+/* we set the animation in 10 steps of 1 second, and set the play state to paused by default */
+.moveten {
+	animation: moveten 1s steps(10, end) infinite;
+	-webkit-animation: moveten 1s steps(10, end) infinite;
+	-moz-animation: moveten 1s steps(10, end) infinite;
+	-o-animation: moveten 1s steps(10, end) infinite;
+	animation-play-state: paused;
+	-webkit-animation-play-state: paused;
+	-moz-animation-play-state: paused;
+	-o-animation-play-state: paused;
+}
+/* here we do the same except for six */
+.movesix {
+	animation: movesix 1s steps(6, end) infinite;
+	-webkit-animation: movesix 1s steps(6, end) infinite;
+	-moz-animation: movesix 1s steps(6, end) infinite;
+	-o-animation: movesix 1s steps(6, end) infinite;
+	animation-play-state: paused;
+	-webkit-animation-play-state: paused;
+	-moz-animation-play-state: paused;
+	-o-animation-play-state: paused;
+}
+
+/* here we actualy set the duration of the seconds so that they sync up when needed */
+.second {animation-duration: 10s;-webkit-animation-duration: 10s;-moz-animation-duration: 10s;-o-animation-duration: 10s;}
+.tensecond {animation-duration: 60s;-webkit-animation-duration: 60s;-moz-animation-duration: 60s;-o-animation-duration: 60s;} 
+
+/* and here are the keyframes so that the numbers animate vertically
+The height is 30 and the there are 10 digits so to move up we use -300px (30x10) */
+@keyframes moveten {
+	0% {top: 0;}
+	100% {top: -300px;} 
+}
+@-webkit-keyframes moveten {
+	0% {top: 0;}
+	100% {top: -300px;} 
+}
+@-moz-keyframes moveten {
+	0% {top: 0;}
+	100% {top: -300px;} 
+}
+@-o-keyframes moveten {
+	0% {top: 0;}
+	100% {top: -300px;} 
+}
+/* The same goes for this one but instead of ten we have 6 so we get 30x6 = 180px */
+@keyframes movesix {
+	0% {top: 0;}
+	100% {top: -180px;} 
+}
+@-webkit-keyframes movesix {
+	0% {top: 0;}
+	100% {top: -180px;} 
+}
+@-moz-keyframes movesix {
+	0% {top: 0;}
+	100% {top: -180px;} 
+}
+@-o-keyframes movesix {
+	0% {top: 0;}
+	100% {top: -180px;} 
+}
+}}
 }}
 {{Notes_Section
 |Notes====Remarks===
