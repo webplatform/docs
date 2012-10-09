@@ -33,3 +33,5 @@ The returned item is the item itself and not a copy. Any changes  that are made 
 |MDN_link=
 |HTML5Rocks_link=
 }}
+
+[[Category:SVG]]
