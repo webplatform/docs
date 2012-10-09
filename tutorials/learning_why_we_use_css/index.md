@@ -1,5 +1,7 @@
 {{Page_Title|Why use CSS?}}
-{{Flags}}
+{{Flags
+|Content=Examples Errors
+}}
 {{Byline}}
 {{Summary_Section|This tutorial looks at why we should use CSS, and why using CSS for styling our documents is better than using presentational HTML.}}
 {{Tutorial
@@ -21,7 +23,7 @@ In general with HTML, you use the markup language to describe the information co
 <li><p>Create another text file in the same directory as before. This file will be your stylesheet. Name it <code>style1.css</code></p></li>
 <li><p>In your CSS file, copy and paste this one line, then save the file:</p>
 
-<syntaxhighlight lang="css">strong {colour: red;}</syntaxhighlight>
+<syntaxhighlight lang="css">strong {color: red;}</syntaxhighlight>
 </li>
 </ol>
  
@@ -56,6 +58,7 @@ In general with HTML, you use the markup language to describe the information co
  
 Now you have a sample document linked to a separate stylesheet, you are ready to learn more about how your browser combines them when it displays the document.
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
 |Desktop_rows=
