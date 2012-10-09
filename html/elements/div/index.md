@@ -13,12 +13,12 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=This example uses two '''DIV''' elements to align two sections of text differently.
-|Code=&lt;DIV&gt;
-&lt;p&gt;This text represents a section.&lt;/p&gt;
+|Description=This example shows two DIVs, one inside the other, that define a main content section, then a subsection within that. Each DIV is semantically defined using a class or ID. 
+|Code=&lt;DIV id{{=}}&quot;mainContent&quot; &gt;
+&lt;h1&gt;The HTML Times&lt;/h1&gt;
+&lt;DIV class{{=}}&quot;sportsSection&quot; &gt;
+&lt;h2&gt;Sports&lt;/h2&gt;
 &lt;/DIV&gt;
-&lt;DIV ALIGN{{=}}CENTER&gt;
-&lt;p&gt;This text represents another section, and its text is centered.&lt;/p&gt;
 &lt;/DIV&gt;
 }}
 }}
