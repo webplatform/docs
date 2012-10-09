@@ -7,6 +7,10 @@
 * draw scaled on Canvas (mention mobile Safari 2MB limit/issue - https://github.com/SunboX/ios-imagefile-megapixel)
 * delete Image Element
 
+'''"Retina" Canvas'''
+
+* Explain "retina" Canvas drawing (http://html5-mobile.de/blog/retina-display-html-canvas-optimieren)
+
 '''Alternatives'''
 
 * FileReader.readAsDataURL(file) instead of window.URL.createObject(file) - pros/cons
