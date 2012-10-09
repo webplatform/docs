@@ -40,11 +40,10 @@ There are three ways to do this:
 </body>
 </html>
 </syntaxhighlight>
-</li>
 <li>
-<p>Make a new CSS file, <code>style5.css</code>. Copy and paste the content from here:</p>
+Make a new CSS file, <code>style5.css</code>. Copy and paste the content from here:
 
-<syntaxhighlight type="css">
+<syntaxhighlight lang="css">
 #square {
   width: 20em;
   height: 20em;
@@ -62,7 +61,7 @@ button {
 <li>
 <p>Make a new text file, <code>script5.js</code>. Copy and paste the content from here:</p>
 
-<syntaxhighlight type="javascript">// JavaScript demonstration
+<syntaxhighlight lang="javascript">// JavaScript demonstration
 
 var square = document.getElementById("square"),
     clickMe = document.getElementById('clickMe'); //Keeping it unobstrusive
