@@ -69,7 +69,7 @@ The criteria for support differ from browser to browser. The details of support 
 
 * [[webgl/examples/Drawing Images using WebGL|Drawing Images using WebGL]]
 * [[webgl/examples/Working with the Convolution Matrix|Working with the Convolution Matrix]]
-* [[webgl/examples/Working with the Extended ColorTransform Matrix|Extended ColorTransform Matrix]]
+* [[webgl/examples/Working with the Extended ColorTransform Matrix|Working with the Extended ColorTransform Matrix]]
 
 == Index of WebGL topics ==
 
