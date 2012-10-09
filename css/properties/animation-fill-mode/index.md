@@ -14,18 +14,16 @@
 |Computed value=as specified
 |Animatable=No
 |Values={{CSS Property Value
-|Data Type=none
-|Description=Default. 
-Property values do not change before the animation starts, and they return to their original state when the animation ends.
-}}{{CSS Property Value
-|Data Type=forwards
-|Description=When the animation ends, properties retain the values set by the final keyframe.
-}}{{CSS Property Value
-|Data Type=backwards
-|Description=If the animation is delayed by <code>animation-delay</code>, properties assume values set by the first keyframe while waiting for the animation to start. When the animation ends, properties revert to their original state.
-}}{{CSS Property Value
-|Data Type=both
-|Description=Values set by the first and last keyframes are applied before and after the animation.
+|Data Type=single-animation-fill-mode
+|Description=One of the following values: <code>none</code> (default), <code>forwards, backwards, both</code>
+ 
+<code>none</code>: Property values do not change before the animation starts, and they return to their original state when the animation ends.
+
+<code>forwards</code>: When the animation ends, properties retain the values set by the final keyframe.
+
+<code>backwards</code>: If the animation is delayed by <code>animation-delay</code>, properties assume values set by the first keyframe while waiting for the animation to start. When the animation ends, properties revert to their original state.
+
+<code>both</code>: Values set by the first and last keyframes are applied before and after the animation.
 }}
 }}
 {{Examples_Section
