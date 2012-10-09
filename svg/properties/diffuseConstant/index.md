@@ -27,3 +27,4 @@ A diffuse reflection constant represents the ratio of reflection used to calcula
 |MDN_link=
 |HTML5Rocks_link=
 }}
+[[Category:SVG]]
