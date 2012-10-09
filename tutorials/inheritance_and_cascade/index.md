@@ -195,10 +195,6 @@ A user agent style sheet is the built-in style sheet of the browser. Every brows
  
 A user style sheet is a style sheet that the ''user'' has specified. Not all browsers support user style sheets, but they can be very useful, especially for users with certain types of disabilities. For instance, a dyslexic person can have a user style sheet that specifies certain fonts and colors that help reading.
  
-Note: Opera allows you to specify user stylesheets by going to Tools (or the Opera menu on the Mac) &gt; Preferences… &gt; Advanced tab &gt; Content, clicking on the Style Options… button, then pointing to your user style sheet in the My style sheet text field inside the Display tab of this dialog box. You can also specify if you want the user style sheet to override the author (web designer’s) stylesheet in the Presentation tab, and even add a button into the user interface that allows you to switch between the user and author style sheet.
-
-To do this, OK out of the Preferences… menu completely, then right- or Ctrl-click somewhere on the Opera browser interface, select Customize… &gt; Buttons tab &gt; Browser view, and drag the Author Mode button somewhere on to one of your toolbars.
- 
 An author style sheet is what we normally refer to when we say “style sheet”. It’s the style sheet that the author of the document (or, more likely, the site’s designer) has written and linked to (or included).
 
 ==== Normal and important declarations ====
@@ -223,7 +219,7 @@ The specificity of a selector can easily be calculated, as we shall see below. I
  
 Specificity has four components; let’s call them a, b, c and d. Component “a” is the most distinguishing, “d” the least.
  
-* Component “a” is quite simple: it’s 1 for a declaration in a <code>style</code> attribute, otherwise it’s 0.
+* Component “a” is quite simple: it’s 1 for a declaration in a <code>style</code> attribute (also known as inline styling), otherwise it’s 0.
 * Component “b” is the number of <code>id</code> selectors in the selector (those that begin with a <code>#</code>). 
 * Component “c” is the number of attribute selectors—including class selectors — and pseudo-classes.
 * Component “d” is the number of element types and pseudo-elements in the selector.
@@ -367,6 +363,7 @@ The cascade sorts out all conflicts when multiple declarations would affect a gi
 
 All else being equal, the source order makes the final distinction.
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
 |Desktop_rows=
