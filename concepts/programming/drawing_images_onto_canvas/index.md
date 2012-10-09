@@ -15,6 +15,12 @@
 
 * FileReader.readAsDataURL(file) instead of window.URL.createObject(file) - pros/cons
 
+'''Using WebGL for drawing?'''
+
+* How does it work? (context 3d, shader)
+* pros/cons (contra: no way to easy modify image pixels)
+* Link to WebGL Convolution Matrix, Extented Color Transform Matrix "best practises"
+
 '''Browser Compatibility'''
 
 '''Links to used Object, Function Docs'''
