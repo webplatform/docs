@@ -14,45 +14,39 @@
 |Computed value=as specified
 |Animatable=No
 |Values={{CSS Property Value
-|Data Type=cubic-bezier( x1, y1, x2, y2 )
-|Description=A timing function, based on a cubic-bezier curve, that takes four parameters. The four values specify the x and y-coordinates as (x<sub>1</sub>, y<sub>1</sub>, x<sub>2</sub>, y<sub>2</sub>) of the P<sub>1</sub> and P<sub>2</sub> points of the curve, respectively.
+|Data Type=single-animation-timing-function
+|Description=A keyword or function that describes how the animation progresses between keyframes.
+
+<code>cubic-bezier( x1, y1, x2, y2 )</code>: A timing function, based on a cubic-bezier curve, that takes four parameters. The four values specify the x and y-coordinates as (x<sub>1</sub>, y<sub>1</sub>, x<sub>2</sub>, y<sub>2</sub>) of the P<sub>1</sub> and P<sub>2</sub> points of the curve, respectively.
 
 '''Note'''  For properties other than opacity and color, the cubic-bezier curve function accepts y-coordinates outside the standard range of [0, 1]. This allows the ability to specify "elastic" effects for properties such as length and width, as shown in the following image.
 [[Image:msTransition-ease-in-out-elastic-cubic.png]]
-}}{{CSS Property Value
-|Data Type=ease
-|Description=Default. A timing function, based on a cubic-bezier curve, that gradually increases in speed at the start, animates at full speed,  and then gradually decreases in speed at the end. This function is equivalent to <code>cubic-bezier(0.25,0.1,0.25,1)</code>.
+
+<code>ease</code>: Default. A timing function, based on a cubic-bezier curve, that gradually increases in speed at the start, animates at full speed,  and then gradually decreases in speed at the end. This function is equivalent to <code>cubic-bezier(0.25,0.1,0.25,1)</code>.
 
 [[Image:msTransition-ease-cubic.png]]
-}}{{CSS Property Value
-|Data Type=linear
-|Description=A timing function, based on a cubic-bezier curve, that  has a consistent speed from start to end. This function is equivalent to <code>cubic-bezier(0,0,1,1)</code>.
+
+<code>linear</code>: A timing function, based on a cubic-bezier curve, that  has a consistent speed from start to end. This function is equivalent to <code>cubic-bezier(0,0,1,1)</code>.
 
 [[Image:msTransition-linear-cubic.png]]
-}}{{CSS Property Value
-|Data Type=ease-in
-|Description=A timing function, based on a cubic-bezier curve, that  gradually increases in speed at the start. This function is equivalent to <code>cubic-bezier(0.42,0,1,1)</code>.
+
+<code>ease-in</code>: A timing function, based on a cubic-bezier curve, that  gradually increases in speed at the start. This function is equivalent to <code>cubic-bezier(0.42,0,1,1)</code>.
 
 [[Image:msTransition-ease-in-cubic.png]]
-}}{{CSS Property Value
-|Data Type=ease-out
-|Description=A timing function, based on a cubic-bezier curve, that  gradually decreases in speed at the end. This function is equivalent to <code>cubic-bezier(0,0,0.58,1)</code>.
+
+<code>ease-out</code>: A timing function, based on a cubic-bezier curve, that  gradually decreases in speed at the end. This function is equivalent to <code>cubic-bezier(0,0,0.58,1)</code>.
 
 [[Image:msTransition-ease-out-cubic.png]]
-}}{{CSS Property Value
-|Data Type=ease-in-out
-|Description=A timing function, based on a cubic-bezier curve, that  gradually increases in speed at the start and then gradually decreases in speed at the end. This function is equivalent to <code>cubic-bezier(0.42,0,0.58,1)</code>.
+
+<code>ease-in-out</code>: A timing function, based on a cubic-bezier curve, that  gradually increases in speed at the start and then gradually decreases in speed at the end. This function is equivalent to <code>cubic-bezier(0.42,0,0.58,1)</code>.
 
 [[Image:msTransition-ease-in-out-cubic.png]]
-}}{{CSS Property Value
-|Data Type=steps( &lt;number&gt; [, start  | end ])
-|Description=A stepped timing function that takes two parameters. The first parameter specifies the number of intervals; the optional second parameter specifies the point in the interval where the property value changes. The second parameter is constrained to the values <code>start</code> or <code>end</code>, which is the default.
-}}{{CSS Property Value
-|Data Type=step-start
-|Description=A stepped timing function that is equivalent to <code>steps(1, start)</code>. The change takes place at the start of the keyframe.
-}}{{CSS Property Value
-|Data Type=step-end
-|Description=A stepped timing function that is equivalent to <code>steps(1, end)</code>. The change takes place at the end of the keyframe.
+
+<code>steps( &lt;number&gt; [, start  | end ])</code>: A stepped timing function that takes two parameters. The first parameter specifies the number of intervals; the optional second parameter specifies the point in the interval where the property value changes. The second parameter is constrained to the values <code>start</code> or <code>end</code>, which is the default.
+
+<code>step-start</code>: A stepped timing function that is equivalent to <code>steps(1, start)</code>. The change takes place at the start of the keyframe.
+
+<code>step-end</code>: A stepped timing function that is equivalent to <code>steps(1, end)</code>. The change takes place at the end of the keyframe.
 }}
 }}
 {{Examples_Section
