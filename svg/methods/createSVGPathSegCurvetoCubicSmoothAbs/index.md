@@ -27,3 +27,5 @@ Returns a stand-alone, parentless cubic  Bézier curve that is drawn from the cu
 |MDN_link=
 |HTML5Rocks_link=
 }}
+
+[[Category:SVG]]
