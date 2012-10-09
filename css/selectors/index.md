@@ -2,10 +2,11 @@
 {{Flags
 |Content=Cleanup, Broken Links
 }}
-{{Summary_Section|CSS selectors are pattern matching rules which indicate the scope for applying style rules apply to elements in the document tree.  This is a list of CSS selectors.}}
+{{Summary_Section|A Selector represents a structure. This structure can be used as a condition (e.g. in a CSS rule) that determines which elements a selector matches in the document tree, or as a flat description of the HTML or XML fragment corresponding to that structure.
+
+Selectors may range from simple element names to rich contextual representations. 
+}}
 {{Basic Page}}
-
-
 == Type Selector ==
 *[[CSS/Selectors/type_selector|elementname]]
 
@@ -94,7 +95,7 @@
 
 {{Special:PrefixIndex/css/selectors/}}
 {{Notes_Section}}
-{{Topics}}
+{{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
