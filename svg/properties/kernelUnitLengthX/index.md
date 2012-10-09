@@ -32,3 +32,4 @@ For some level of consistency across display media and browsers, it is necessary
 |MDN_link=
 |HTML5Rocks_link=
 }}
+[[Category:SVG]]
