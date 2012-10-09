@@ -212,24 +212,24 @@ As mentioned in the introduction, "Retina"-Displays will show blurry images by d
 * context.webkitBackingStorePixelRatio
 * context.scale(2, 2)
 
-'''Alternatives'''
+==Alternatives==
 
 * FileReader.readAsDataURL(file) instead of window.URL.createObject(file) - pros/cons
 
-'''Using WebWorker for Drawing?'''
+==Using WebWorker for Drawing?==
 
 * Draw inside a Worker so the drawing doesn´t block User interactions
 
-'''Using WebGL for Drawing?'''
+==Using WebGL for Drawing?==
 
 * WebGL is a 2D API!
 * How does it work? (context 3d, shader)
 * pros/cons (contra: no easy way to modify image pixels)
 * Link to WebGL Convolution Matrix, Extended ColorTransform Matrix "best practices"
 
-'''Browser Compatibility'''
+==Browser Compatibility==
 
-'''Links to used Object, Function Docs'''
+==Links to used Object, Function Docs==
 
 
 }}
