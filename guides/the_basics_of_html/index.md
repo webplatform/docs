@@ -213,7 +213,9 @@ Note: HTML5 redefines the element categories in HTML5: see [http://www.whatwg.or
 One last item to mention in an HTML document is how to include
 special characters. In HTML the characters <code>&lt;</code>, <code>&gt;</code> and <code>&amp;</code> are special.
 They start and end parts of the HTML document, rather than
-representing the characters less-than, greater-than and ampersand.
+representing the characters less-than, greater-than and ampersand. For this reason, they must always be used in escaped form in content.
+
+Other than for these characters, you should try to avoid using character references whenever possible. If you use the UTF-8 character encoding you can represent any other character without escaping.
  
 One of the earliest mistakes a web author can make is to use an
 ampersand in a document and then have something unexpected appear.
