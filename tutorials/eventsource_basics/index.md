@@ -299,7 +299,7 @@ Another good idea is to check the integrity of the data you receive:
 
 ==Demo==
 
-A [http://googlecodesamples.com/html5/sse/sse.html demo app] written in PHP is available on googlecodesamples.com along with its [http://code.google.com/p/html5rocks/source/browse/www.html5rocks.com/#www.html5rocks.com%2Fcontent%2Ftutorials%2Feventsource%2Fbasics%2Fdemo source].
+A [http://googlecodesamples.com/html5/sse/sse.html demo app] written in PHP is available on googlecodesamples.com along with its [https://github.com/html5rocks/www.html5rocks.com source].
 
 ==References==
 
