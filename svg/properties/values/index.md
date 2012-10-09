@@ -37,3 +37,4 @@ If the <code>values</code> attribute is not specified, then the default behavior
 |MDN_link=
 |HTML5Rocks_link=
 }}
+[[Category:SVG]]
