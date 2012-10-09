@@ -27,3 +27,4 @@ If '''preserveAlpha''' is not specified, then the effect is as if a value of <co
 |MDN_link=
 |HTML5Rocks_link=
 }}
+[[Category:SVG]]
