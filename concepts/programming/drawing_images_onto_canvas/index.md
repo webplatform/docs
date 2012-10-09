@@ -52,6 +52,9 @@ function handleFileSelect(e){
     console.log(file);
 }</nowiki>
 
+Ok, you should see the file object in the console, after you select a new file.
+Now lets turn this file´s content into a data URL we can load into a <img> Element.
+
 
 '''TODO:''' Add Descriptions and sample Code
 
