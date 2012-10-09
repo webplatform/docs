@@ -1,31 +1,30 @@
+{{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{Markup_Element
 |DOM_interface=dom/HTMLDDElement
 }}
-{{Topics|HTML}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
-|Description=This example uses the '''DD''' element with the '''DL''' and '''DT''' elements to create a definition list.
-|LiveURL=
-|Code=
-&lt;DL&gt;
-&lt;DT&gt;Cat
-&lt;DD&gt;A small domesticated mammal.
-&lt;DT&gt;Lizard
-&lt;DD&gt;A reptile generally found in dry areas.
-&lt;/DL&gt;
-}}}}
+|Examples={{Single Example
+|Language=HTML
+|Description=This example uses the '''dd''' element with the '''dl''' and '''dt''' elements to create a definition list.
+|Code=&lt;dl&gt;
+  &lt;dt&gt;Cat&lt;/dt&gt;
+  &lt;dd&gt;A small domesticated mammal.&lt;/dd&gt;
+  &lt;dt&gt;Lizard&lt;/dt&gt;
+  &lt;dd&gt;A reptile generally found in dry areas.&lt;/dd&gt;
+&lt;/dl&gt;
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
-|Import_Notes=
-===Standards information===
+|Notes====Remarks===
+|Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 10.3
 
 
@@ -763,15 +762,22 @@ This property is not supported for Metro style apps using JavaScript.
 |Retrieves the element's unique number.
 |}
  
-
 }}
-{{See_Also_Section
-|Topic_clusters=html
+{{Related_Specifications_Section
+|Specifications=
 }}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section}}
+{{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
