@@ -13,7 +13,7 @@
 |Description=This example uses the '''currentStyle''' object to set the text color to brown. If you click a colored area and the background color is the same as the text color, the checkColor function changes the background color, so the text can be read. Otherwise, the function takes no action.
 
 This example works only if the body and text colors are set using either color names or red-green-blue hexadecimal values, but not a mix of the two.
-|Code=<syntaxhighlight lang="html5">&lt;script&gt;
+|Code=&lt;script&gt;
 function checkColor(oObj)
 {
   if (oObj.currentStyle.backgroundColor {{=}}{{=}} 'brown')
@@ -27,7 +27,7 @@ function checkColor(oObj)
 &lt;/head&gt;
 :
 &lt;p style{{=}}"background-color: 'brown'"
-    onclick{{=}}"checkColor(this)"&gt;Click me&lt;/p&gt;</syntaxhighlight>
+    onclick{{=}}"checkColor(this)"&gt;Click me&lt;/p&gt;
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/currentStyle_backgroundColor.htm
 }}{{Single Example
 |Description=This example uses the '''currentStyle''' object to retrieve values of the user-defined property created in the style rule. The alert returns the value <code>myvalue</code>.
