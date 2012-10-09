@@ -28,3 +28,5 @@ The rotation angle is determined by taking (+/-)arctan(y/x). The direction of th
 |MDN_link=
 |HTML5Rocks_link=
 }}
+
+[[Category:SVG]]
