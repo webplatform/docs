@@ -14,15 +14,14 @@
 |Computed value=as specified
 |Animatable=No
 |Values={{CSS Property Value
-|Data Type=1
-|Description=Default. 
-The animation is played once, from beginning to end.
-}}{{CSS Property Value
-|Data Type=number
-|Description=The animation is repeated the specified number of times.
-}}{{CSS Property Value
-|Data Type=infinite
-|Description=The animation is repeated forever.
+|Data Type=single-animation-iteration-count
+|Description=A number or the keyword <code>infinite</code>.
+
+The default value is <code>1</code>, which plays the animation once, from beginning to end.
+
+Numbers other than <code>1</code> cause the animation to play the specified number of times. Non-integer numbers cause the animation to end part-way through a cycle.
+
+<code>infinite</code> causes the animation to repeat forever.
 }}
 }}
 {{Examples_Section
@@ -33,7 +32,6 @@ The animation is played once, from beginning to end.
 |Usage=This property accepts non-integer values. If a non-integer value is specified, the animation terminates mid-cycle. If <code>0</code> is specified, no animation is applied. If a negative value is specifed, the value is ignored and <code>0</code> is used instead.
 
 Multiple values separated by commas are applied to the corresponding animations listed in the <code>animation-name</code> property. Excess values are ignored. If fewer values are listed, the browser cycles through them again until each animation has been assigned an iteration count.
-
 |Import_Notes====Syntax===
 <code>'''animation-iteration-count : '''1 '''{{!}}''' ''
 &lt;number&gt;
