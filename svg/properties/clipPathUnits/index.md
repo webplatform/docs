@@ -28,3 +28,5 @@ The default  '''svgUnitTypes'''  value of '''SVG_UNIT_TYPE_OBJECTBOUNDINGBOX''' 
 |MDN_link=
 |HTML5Rocks_link=
 }}
+
+[[Category:SVG]]
