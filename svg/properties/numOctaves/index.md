@@ -10,6 +10,7 @@
 The more octaves that are used in the calculation, the more fine-grained the texture. The default value is one.
 |Import_Notes=
 ===Syntax===
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=Scalable Vector Graphics 1.1: Filter Effects, section 15.25.27
