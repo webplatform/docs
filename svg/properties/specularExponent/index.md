@@ -27,3 +27,4 @@ If the '''specularExponent''' attribute is not specified, then the effect is as 
 |MDN_link=
 |HTML5Rocks_link=
 }}
+[[Category:SVG]]
