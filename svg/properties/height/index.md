@@ -1,25 +1,23 @@
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+ | High-level issues = Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
+ | Content           = Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
 }}
-{{Standardization_Status|}}
-{{API_Name}}
-{{Notes_Section
-|Notes=
+{{Standardization Status|}}
+{{API Name}}
+
+{{Notes Section|Notes=
 ===Remarks===
 A value of zero disables rendering of the element. A negative value is an error.
 |Import_Notes=
 ===Syntax===
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}190918 Scalable Vector Graphics (SVG) 1.1], Appendix M
-
-
 }}
-{{See_Also_Section
-|Manual_sections=
+
+{{See_Also_Section|Manual_sections=
 ===Related pages (MSDN)===
 *<code>[[svg/elements/feBlend|SVGFEBlendElement]]</code>
-*<code>[[svg/elements/feColorMix|SVGFEColorMatrixElement]]</code>
+*<code>[[svg/elements/feColorMatrix|SVGFEColorMatrixElement]]</code>
 *<code>[[svg/elements/feComponentTransfer|SVGFEComponentTransferElement]]</code>
 *<code>[[svg/elements/feComposite|SVGFECompositeElement]]</code>
 *<code>[[svg/elements/feConvolveMatrix|SVGFEConvolveMatrixElement]]</code>
@@ -43,11 +41,13 @@ A value of zero disables rendering of the element. A negative value is an error.
 *<code>[[svg/elements/svg|SVGSVGElement]]</code>
 *<code>[[svg/elements/use|SVGUseElement]]</code>
 }}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|MDN_link=
-|HTML5Rocks_link=
+
+{{External Attribution
+ |Is_CC-BY-SA     = No
+ |Sources         = MSDN
+ |MSDN_link       = [http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+ |MDN_link        =
+ |HTML5Rocks_link =
 }}
+
 [[Category:SVG]]
