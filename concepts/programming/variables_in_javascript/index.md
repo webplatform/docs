@@ -1,7 +1,5 @@
 {{Page_Title|Variables in JavaScript}}
 {{Flags
-|High-level issues=Needs Flags
-|Content=Broken Links,Compatibility Incomplete
 }}
 {{API_Name}}
 {{Summary_Section}}
