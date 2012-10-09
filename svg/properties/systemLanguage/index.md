@@ -46,3 +46,5 @@ HRESULT value {{=}} object.get_systemLanguage(ISVGStringList** pStringList);
 |MDN_link=
 |HTML5Rocks_link=
 }}
+
+[[Category:SVG]]
