@@ -1,1 +1,0 @@
-#REDIRECT [[javascript/functions/parseFloat]]
