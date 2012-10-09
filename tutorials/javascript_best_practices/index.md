@@ -1,5 +1,6 @@
 {{Page_Title|JavaScript best practices}}
-{{Flags}}
+{{Flags
+}}
 {{Byline}}
 {{Summary_Section|This article discusses some best practices to follow for writing efficient, understandable JavaScript.}}
 {{Tutorial
