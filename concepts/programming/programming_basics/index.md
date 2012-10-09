@@ -13,18 +13,21 @@ It will also help novice web developers to take on board some generic programmin
  
 Programming in the most basic form is issuing commands and seeing that they get executed. It is a mixture of math and linguistics: you define a lot of calculations and you need to tell machines to solve them by giving orders using the right grammar. Grammar in programming is syntax and differs a lot from language to language.
  
-For example, the following two code snippets fulfill the same task, but the former is JavaScript and the latter is PHP:
+For example, the following two code snippets fulfil the same task, but the former is JavaScript and the latter is PHP:
  
 <source lang="javascript">
-var fahrenheit = prompt('Enter temperature in Fahrenheit',0);
+var fahrenheit = prompt('Enter temperature in Fahrenheit', 0);
 var celsius = (fahrenheit - 32) * 5 / 9;
 alert(celsius);
+</source>
 
+<source lang="php">
 $fahrenheit = $_GET['fahrenheit'];
 $celsius = ($fahrenheit - 32) * 5 / 9;
-echo $celsius;</source>
+echo $celsius;
+</source>
  
-Try out the JavaScript [http://dev.opera.com/articles/view/programming-the-real-basics/fahrenheit.html farenheit to celsius conversion example].
+Try out the JavaScript [http://dev.opera.com/articles/view/programming-the-real-basics/fahrenheit.html Fahrenheit to Celsius conversion example].
  
 Programming languages are ''interpreted'' to be turned into actions or results. Some languages, such as JavaScript are interpreted by a web browser and all you need to do to make them “do stuff” is put them inside an HTML document and open this in a browser. Other programming languages need to be translated (compiled) in an extra step to become executable. Deep down, all computers only understand zeros and ones, but above that there are multiple levels of languages, each fulfilling different tasks.
 
@@ -115,7 +118,7 @@ However, this would be boring as we can do all that with a simple calculator (af
  
 JavaScript is a “loosely typed” language, which means that you don't have to explicitly declare what type of data the variables are. You just need to use the <code>var</code> keyword to indicate that you are declaring a variable, and the browser will work out what data type you are using from the context, and use of quotes.
  
-==== Floats and Integers ====
+==== Floats and integers ====
  
 There is nothing magical or strange going on with these. You define variables and set their values to any number type.
  
@@ -219,8 +222,7 @@ person.hair = 'Flickr famous';
 </script>
 </source>
  
-You can access the properties with dot notation (<code>person.age</code> would give you 33) or with the square bracket notation (<code>person['name']
-</code> gets you “Chris”). You will learn more about JavaScript objects later on in the course.
+You can access the properties with dot notation (<code>person.age</code> would give you 33) or with the square bracket notation (<code>person['name']</code> gets you “Chris”). You will learn more about JavaScript objects later on in the course.
  
 That is about the short and long of what value types variables can be. Another big part of programming is the structure and logic of your program. This is where two more programming ideas come into play: conditions and loops.
  
@@ -232,7 +234,7 @@ First of all conditions can be used to ensure that your program works, regardles
  
 The other thing conditions can do for you is allow for branching. You might have encountered branching diagrams before, for example when filling out a form. Basically, this refers to executing different “branches” (parts) of code, depending on if the condition is met or not.
  
-The easiest condition is an <code>if</code> statement and its syntax is <code>if(condition){ do this … }</code>. The condition has to be true for the code inside the curly braces to be executed. You can for example test a string and set the value of another string dependent on its value:
+The easiest condition is an <code>if</code> statement and its syntax is <code>if (condition) { do this … }</code>. The condition has to be true for the code inside the curly braces to be executed. You can for example test a string and set the value of another string dependent on its value:
  
 <source lang="javascript">
 <script>
@@ -242,17 +244,19 @@ var country = 'France',
     currency,
     message;
 
-if(country === 'England'){
+if (country === 'England') {
   weather = 'horrible';
   food = 'filling';
   currency = 'pound sterling';
 }
-if(country === 'France'){
+
+if (country === 'France') {
   weather = 'nice';
   food = 'stunning, but hardly ever vegetarian';
   currency = 'funny, small and colourful';
 }
-if(country === 'Germany'){
+
+if (country === 'Germany') {
   weather = 'average';
   food = 'wurst thing ever';
   currency = 'funny, small and colourful';
@@ -265,7 +269,7 @@ alert(message);
  
 Try it out yourself in my [http://dev.opera.com/articles/view/programming-the-real-basics/weather.html Weather if statement example]. Change the value of the country variable to see the different messages.
  
-The conditional part is the country followed by the three equal signs. Three equal signs mean that the condition tests if the variable country has the value you test against but also the correct variable (data)type. You can test conditions with double equal signs, too, but that would mean that <code>if(x == 5)</code> would be true for x being 5 and x being “5”. Depending on what your program is doing, this could make quite a difference.
+The conditional part is the country followed by the three equal signs. Three equal signs mean that the condition tests if the variable country has the value you test against but also the correct variable (data)type. You can test conditions with double equal signs, too, but that would mean that <code>if (x == 5)</code> would be true for x being 5 and x being “5”. Depending on what your program is doing, this could make quite a difference.
  
 Other conditional test examples:
  
@@ -285,25 +289,27 @@ var country = 'Germany',
     currency,
     message;
 
-if(country){
-  if(country == 'England'){
-    weather = 'horrible';
-    food = 'filling';
-    currency = 'pound sterling';
-  }
-  if(country == 'France'){
-    weather = 'nice';
-    food = 'stunning, but hardly ever vegetarian';
-    currency = 'funny, small and colourful';
-  }
-  if(country == 'Germany'){
-    weather = 'average';
-    food = 'wurst thing ever';
-    currency = 'funny, small and colourful';
-  }
+if (country) {
+    if (country == 'England') {
+        weather = 'horrible';
+        food = 'filling';
+        currency = 'pound sterling';
+    }
 
-  message = 'this is ' + country + ', the weather is ' + weather + ', the food is ' + food + ' and the ' + 'currency is ' + currency;
-  alert(message);
+    if (country == 'France') {
+        weather = 'nice';
+        food = 'stunning, but hardly ever vegetarian';
+        currency = 'funny, small and colourful';
+    }
+
+    if (country == 'Germany') {
+        weather = 'average';
+        food = 'wurst thing ever';
+        currency = 'funny, small and colourful';
+    }
+
+    message = 'this is ' + country + ', the weather is ' + weather + ', the food is ' + food + ' and the ' + 'currency is ' + currency;
+    alert(message);
 }
 </script>
 </source>
@@ -311,8 +317,6 @@ if(country){
 Try it out yourself in my [http://dev.opera.com/articles/view/programming-the-real-basics/saferweather.html Safe-weather if statement example]. Change the value of the country variable to see the different messages.
  
 Whereas the earlier example would always try to create the message regardless of country being available—and thus possibly throwing an error or stating “this is '''undefined''', the weather...” this version is more secure. If country is not defined the message will never be created.
- 
-Furthermore you can concatenate different conditions with “or” or “and” statements, to test whether either statement is true, or both are true, respectively. In JavaScript “or” is written as
 |and “and” is written as &amp;&amp;_ Say you want to test if the value of x is between 10 and 20—you could do that with a condition stating <code>if(x &gt; 10 &amp;&amp; x &lt; 20)</code>_ If you want to make sure that country is either “England” or “Germany” you use <code>if(country== 'England'
 |country== 'Germany')</code>.
  
