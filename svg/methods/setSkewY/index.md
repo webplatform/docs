@@ -27,3 +27,5 @@ The '''setSkewY'''  method can raise a [[dom/DOMException|'''DOMException''']] e
 |MDN_link=
 |HTML5Rocks_link=
 }}
+
+[[Category:SVG]]
