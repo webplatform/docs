@@ -17,30 +17,36 @@ To execute JavaScript in a browser you have two options — either put it inside
  
 The most basic inclusion of JavaScript inside your HTML page would look something like this:
  
-<pre>&lt;script&gt;
+<syntaxhighlight lang="html5">
+<script>
   var x = 3;
-  alert('hello there, I am JavaScript - x is '+x);
-&lt;/script&gt;</pre>
+  alert('hello there, I am JavaScript - x is ' + x);
+</script>
+</syntaxhighlight>
  
 You could put this anywhere inside your document and it would execute, but some places are definitely better than others — see the [http://www.w3.org/wiki/Your_first_look_at_JavaScript#Where_to_put_JavaScript Where to put JavaScript] section for guidance on this.
  
 As there might be several different types of script available to use on web pages in the future it makes sense to add the name of the script you are using as a MIME type:
  
-<pre>&lt;script type="text/javascript"&gt;
+<syntaxhighlight lang="html5">
+<script type="text/javascript">
   var x = 3;
-  alert('hello there, I am JavaScript - x is '+x);
-&lt;/script&gt;</pre>
+  alert('hello there, I am JavaScript - x is ' + x);
+</script>
+</syntaxhighlight>
  
 '''Note:''' You will find script examples on the web that have a <code>language="javascript"</code> attribute. This is not part of any standard and is utterly useless; delete this where you can. This is a throwback to the bad old days, when VBScript was also in popular use on web pages. VBScript usage died however, as it only works in IE.
 
 In the past there was a need to comment out JavaScript with an HTML comment to prevent browsers from showing the code as HTML. As this only applies to very old browsers you don’t need to bother with that any longer. If you are using strict XHTML as your DOCTYPE however you need to enclose any JavaScript in a CDATA block to make it validate (don't worry about why - it is not really important at this stage in your learning):
  
-<pre>&lt;script type="text/javascript"&gt;
-/* &lt;![CDATA[ */
+<syntaxhighlight lang="html5">
+<script type="text/javascript">
+/* <![CDATA[ */
   var x = 3;
-  alert('hello there, I am JavaScript - x is '+x);
-/* ]]&gt; */
-&lt;/script&gt;</pre>
+  alert('hello there, I am JavaScript - x is ' + x);
+/* ]]> */
+</script>
+</syntaxhighlight>
  
 However, for strict XHTML documents it is much more sensible not to embed any JavaScript but instead keep it in an external document.
 
@@ -48,13 +54,17 @@ However, for strict XHTML documents it is much more sensible not to embed any Ja
  
 In order to link to an external JavaScript (either on the same server or anywhere on the internet) all you have to do is to add a <code>src</code> attribute to your script element:
 
-<pre>&lt;script type="text/javascript" src="myscript.js"&gt;&lt;/script&gt;</pre>
+<syntaxhighlight lang="html5">
+<script type="text/javascript" src="myscript.js"></script>
+</syntaxhighlight>
  
 Upon meeting this element in a page, browsers will then load the file <code>myscript.js</code> and execute it. Any content inside the <code>script</code> element itself will be skipped when you provide a <code>src</code> attribute. The following example will load the file <code>myscript.js</code> and execute the code in it but will not execute the alert inside the <code>script</code> element at all.
- 
-<pre>&lt;script type="text/javascript" src="myscript.js"&gt;
+
+<syntaxhighlight lang="html5">
+<script type="text/javascript" src="myscript.js">
   alert('I am pointless as I won\'t be executed');
-&lt;/script&gt;</pre>
+</script>
+</syntaxhighlight>
  
 Keeping your code in an external JavaScript file makes a lot of sense, as:
  
@@ -69,11 +79,13 @@ You can add as many JavaScript files as you want to a document but there are sev
  
 Cutting up a lot of JavaScript into different files, each dealing with one task at a time, is a great idea to keep your functionality easy to maintain and allow for quick bug-fixing. For example you could have several script blocks like these:
  
-<pre>&lt;script type="text/javascript" src="config.js"&gt;&lt;/script&gt;
-&lt;script type="text/javascript" src="base.js"&gt;&lt;/script&gt;
-&lt;script type="text/javascript" src="effects.js"&gt;&lt;/script&gt;
-&lt;script type="text/javascript" src="validation.js"&gt;&lt;/script&gt;
-&lt;script type="text/javascript" src="widgets.js"&gt;&lt;/script&gt;</pre>
+<syntaxhighlight lang="html5">
+<script type="text/javascript" src="config.js"></script>
+<script type="text/javascript" src="base.js"></script>
+<script type="text/javascript" src="effects.js"></script>
+<script type="text/javascript" src="validation.js"></script>
+<script type="text/javascript" src="widgets.js"></script>
+</syntaxhighlight>
  
 The development benefits of this are however diminished by the effect this has on the performance of your document. This differs slightly from browser to browser but the worst case scenario (which is sadly enough still the most used browser) does the following:
  
@@ -93,35 +105,40 @@ Technically you can put JavaScript anywhere in your document. The decision you h
  
 The classic best practice for placing scripts was in the <code>head</code> of the document:
  
-<pre>&lt;!DOCTYPE html&gt;
-&lt;html&gt; 
-&lt;head&gt;
- &lt;meta charset="utf-8"&gt;
- &lt;title&gt;&lt;/title&gt;
- &lt;script type="text/javascript" src="myscripts.js"&gt;&lt;/script&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;!-- lots of HTML here --&gt;
-&lt;/body&gt;
-&lt;/html&gt;</pre>
+<syntaxhighlight lang="html5">
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="myscripts.js"></script>
+  </head>
+  <body>
+    <!-- lots of HTML here -->
+  </body>
+</html>
+</syntaxhighlight>
+
  
 This has the benefit of being a predictable location of scripts — developers know where to find them. It also has the benefit of ensuring that all JavaScript has been loaded and executed before the document is displayed.
  
 The drawbacks are that your scripts delay the display of the document and that the script does not have access to the HTML in the document. You therefore need to delay the execution of any scripts that change the HTML of the document until the document has finished loading. This can be done with an [http://www.onlinetools.org/articles/unobtrusivejavascript/chapter4.html onload handler] or one of the various [http://dean.edwards.name/weblog/category/dom/onload/ DOMready] or [http://developer.yahoo.com/yui/examples/event/event-timing.html contentAvailable] solutions out there on the web — none of which are bullet-proof and most of which rely on browser-specific hacks.
  
-Performance specialists have more recently started to advocate placing your JavaScript at the end of the <code>body</code> instead:
+Performance specialists have started to advocate placing your JavaScript at the end of the <code>body</code> instead:
  
-<pre>&lt;!DOCTYPE html&gt;
-&lt;html&gt; 
-&lt;head&gt;
- &lt;meta charset="utf-8"&gt;
- &lt;title&gt;&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;!-- lots of HTML here --&gt;
-&lt;script type="text/javascript" src="myscripts.js"&gt;&lt;/script&gt;
-&lt;/body&gt;
-&lt;/html&gt;</pre>
+<syntaxhighlight lang="html5">
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <!-- lots of HTML here -->
+    <script src="myscripts.js"></script>
+  </body>
+</html>
+</syntaxhighlight>
  
 This benefits your JavaScript by not delaying the display of the HTML and also means that any HTML you want to alter with JavaScript is already available.
  
@@ -129,21 +146,20 @@ One of the drawbacks are that this practice is not quite common yet, and you mig
  
 It is up to you to choose what fits the purpose of your web site; you could even choose to do a mixture of both — put the scripts with very important functionality in the <code>head</code>, and call them in conjunction with the “nice-to-have” scripts at the end of the document.
  
-<pre>&lt;!DOCTYPE html&gt;
-&lt;html&gt; 
-&lt;head&gt;
- &lt;meta charset="utf-8"&gt;
- &lt;title&gt;&lt;/title&gt;
- &lt;script type="text/javascript" src="myimportantscripts.js"&gt;&lt;/script&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;!-- lots of HTML here --&gt;
-&lt;script type="text/javascript"&gt;
-applyFunctionality();
-&lt;/script&gt;
-&lt;script type="text/javascript" src="myscripts.js"&gt;&lt;/script&gt;
-&lt;/body&gt;
-&lt;/html&gt;</pre>
+<syntaxhighlight lang="html5">
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="myimportantscripts.js"></script>
+  </head>
+  <body>
+    <!-- lots of HTML here -->
+    <script src="myscripts.js"></script>
+  </body>
+</html>
+</syntaxhighlight>
  
 Whatever you do, make sure that the order of your scripts is right, as browsers will load and parse them one after the other. This also brings us to another thing to consider when using JavaScript.
 
