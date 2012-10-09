@@ -3,7 +3,7 @@
 {{Byline}}
 {{Summary_Section|In this article we look at the basics of how to manipulate CSS styles using JavaScript.}}
 {{Tutorial
-|Content==== Information: JavaScript ===
+|Content===== Information: JavaScript ===
  
 JavaScript is a ''programming language''. JavaScript is widely used to provide interactivity in web sites and applications. JavaScript can interact with stylesheets, allowing you to write programs that change a document's style dynamically.
 
@@ -15,9 +15,12 @@ There are three ways to do this:
 * By working with an individual element in the DOM—modifying its style independently of the document's stylesheets
         
 === Action: A JavaScript demonstration ===
- 
-# Make a new HTML document, <code>doc5.html</code>. Copy and paste the content from here, making sure that you scroll to get all of it:
-  
+
+<ol>
+<li>Make a new HTML document, <code>doc5.html</code>. Copy and paste the content from here, making sure that you scroll to get all of it:<br /><br />
+
+
+
 <syntaxhighlight lang="html5">
 <!DOCTYPE html>
 <html>
@@ -38,9 +41,10 @@ There are three ways to do this:
 </body>
 </html>
 </syntaxhighlight>
+</li>
 
-# Make a new CSS file, <code>style5.css</code>. Copy and paste the content from here:
 
+<li>Make a new CSS file, <code>style5.css</code>. Copy and paste the content from here:<br /><br />
 <syntaxhighlight lang="css">
 #square {
   width: 20em;
@@ -52,10 +56,8 @@ There are three ways to do this:
 button {
   padding: .5em 2em;
 }</syntaxhighlight>
-
-
-# <p>Make a new text file, <code>script5.js</code>. Copy and paste the content from here:</p>
-
+</li>
+<li><p>Make a new text file, <code>script5.js</code>. Copy and paste the content from here:</p>
 <syntaxhighlight lang="javascript">// JavaScript demonstration
 
 var square = document.getElementById("square"),
@@ -78,12 +80,14 @@ function clearDemo (button) {
 clickMe.onclick = doDemo; //Onclick call. Pass no arguments.
 
 </syntaxhighlight>
+</li>
 
 
-# Open the document in your browser and press the button.</p>
+<li>Open the document in your browser and press the button.</ol>
 
 
-<p>What this code does, is that it changes the background color of the <code>#square</code> to <code>#ffaa44</code>. Here's a [http://jsfiddle.net/namanyayg/Angmu/1/ JSFiddle] so you can see it working live.</p>
+What this code does, is that it changes the background color of the <code>#square</code> to <code>#ffaa44</code>. Here's a [http://jsfiddle.net/namanyayg/Angmu/1/ JSFiddle] so you can see it working live.
+
   
 Notes on what is happening in the above example:
 
