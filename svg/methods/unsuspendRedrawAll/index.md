@@ -27,3 +27,5 @@ Typically, you should call the '''unsuspendRedrawAll'''  method as the last call
 |MDN_link=
 |HTML5Rocks_link=
 }}
+
+[[Category:SVG]]
