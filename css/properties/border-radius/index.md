@@ -13,6 +13,7 @@
 |Media=visual
 |Computed value=as specified by individual properties
 |Animatable=No
+|CSS object model property=object.style.borderRadius
 |CSS percentages=as specified by individual properties
 |Values={{CSS Property Value
 |Data Type=length
@@ -24,7 +25,28 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|Description=One value example
+|Code=border-radius:2em;
+
+/*is equivalent to:*/
+
+border-top-left-radius:2em;
+border-top-right-radius:2em;
+border-bottom-right-radius:2em;
+border-bottom-left-radius:2em; 
+}}{{Single Example
+|Description=Multi value example
+|Code=border-radius: 2em 1em 4em / 0.5em 3em;
+
+/*is equivalent to:*/
+
+border-top-left-radius: 2em 0.5em;
+border-top-right-radius: 1em 3em;
+border-bottom-right-radius: 4em 0.5em;
+border-bottom-left-radius: 1em 3em; 
+}}
 }}
 {{Notes_Section
 |Usage=As with any shorthand property, individual inherited values are not possible, that is <code>border-radius:0 0 inherit inherit</code>, which would override existing definitions partially. In that case, the individual longhand properties have to be used.
