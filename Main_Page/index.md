@@ -36,10 +36,12 @@ In the future, Web Platform Docs will include even more content for you to explo
 
 We’d love to have your help in improving Web Platform Docs. Even the slightest effort can have significant impact on the site; from alerting fellow developers about errors in our documentation, to fixing these errors, porting existing articles or even contributing completely new content. To learn more, please read our [[WPD:Getting_Started|Getting Started Guide]].
 
+To file bugs on webplatform, use the [https://www.w3.org/Bugs/Public/enter_bug.cgi?product=webplatform.org W3C bug tracker]. Read our [http://docs.webplatform.org/wiki/WPD:Filing_Bugs filing bugs page] for more information.
+
 == Stay in touch ==
 
 * Join our [http://talk.webplatform.org/forums/ forums]
-* Meet the team on [http://talk.webplatform.org/chat/ chat]
+* Meet the team on [http://talk.webplatform.org/chat/ chat] (for those of you ewanting to connect using your own IRC client, you want irc.freenode.org, the webplatform channel).
 * Read our [http://blog.webplatform.org/ blog]
 * Follow us as [https://twitter.com/webplatform @WebPlatform] on Twitter
 * Remix our [http://webplatform.org/logo logo] and link back to our site
