@@ -28,3 +28,4 @@ The number must be positive. If no number is supplied, the value is zero. If the
 |MDN_link=
 |HTML5Rocks_link=
 }}
+[[Category:SVG]]
