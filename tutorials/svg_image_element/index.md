@@ -1,7 +1,7 @@
 {{Page_Title|SVG image element}}
 {{Flags}}
 {{Byline}}
-{{Summary_Section}}
+{{Summary_Section|This article describes the usage of the SVG image element}}
 {{Tutorial
 |Content=The SVG image element allows for raster images to be rendered within an SVG object.
  
