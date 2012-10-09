@@ -58,3 +58,5 @@ Returns a CSS style object. The returned object is live; changes to the object r
 |MDN_link=
 |HTML5Rocks_link=
 }}
+
+[[Category:SVG]]
