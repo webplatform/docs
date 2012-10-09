@@ -28,3 +28,5 @@ The values from the  ''matrix'' parameter are copied, but the ''matrix''  parame
 |MDN_link=
 |HTML5Rocks_link=
 }}
+
+[[Category:SVG]]
