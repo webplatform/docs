@@ -20,6 +20,7 @@
 <code>normal</code> plays the animation keyframes in the order defined in the <code>@keyframes</code> rule.
 
 <code>reverse</code> plays the animation keyframes in reverse order.
+
 <code>alternate</code> plays odd-numbered cycles in the specified order, and even-numbered cycles in reverse.
 
 <code>alternate-reverse</code> plays even-numbered cycles in reverse, and odd-numbered cycles in the specified order.
