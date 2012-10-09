@@ -27,3 +27,5 @@ Returns a stand-alone, parentless elliptical arc that is drawn from the current 
 |MDN_link=
 |HTML5Rocks_link=
 }}
+
+[[Category:SVG]]
