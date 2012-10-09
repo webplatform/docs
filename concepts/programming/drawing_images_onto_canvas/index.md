@@ -182,6 +182,9 @@ function drawOnCanvas(img){
     
     // finally draw the Image on the Canvas
     context.drawImage(img, 0, 0, canvas.width, canvas.height);
+    
+    // remove the Image from the DOM, we don´t need it any more
+    document.body.removeChild(img);
 }</nowiki>
 
 
