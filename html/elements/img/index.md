@@ -13,9 +13,8 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=The following example shows how to use the '''img''' element to embed a bitmap image (.bmp) on a page.
-|Code=&lt;img src{{=}}"mygraphic.bmp" onmouseout{{=}}"alert('Out');" onmouseover{{=}}"alert('Over');" 
-style{{=}}"filter:progid:DXImageTransform.Microsoft.Alpha(opacity{{=}}50);"&gt;
+|Description=The following example shows how to use the '''img''' element to embed an image on a page.
+|Code=&lt;img src{{=}}"logo.gif" width{{=}}"420" height{{=}}"120" title{{=}}"MyCorp Logo"&gt;
 }}
 }}
 {{Notes_Section
@@ -25,7 +24,7 @@ The following image and video file formats are supported:
 *.avi—Audio-Visual Interleaved (AVI)
 *.bmp—Windows Bitmap (BMP)
 *.emf—Windows Enhanced Metafile (EMF)
-*.png—Graphics Interchange Format (GIF)
+*.gif—Graphics Interchange Format (GIF)
 *.png, .jpeg—Joint Photographic Experts Group (JPEG)
 *.mov—Apple QuickTime Movie (MOV)
 *.mpg, .mpeg—Motion Picture Experts Group (MPEG)
