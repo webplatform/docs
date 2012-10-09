@@ -76,7 +76,7 @@ As of Microsoft Internet Explorer 5.5, this property applies to inline elements
 |Chrome_prefixed_supported=No
 |Chrome_prefixed_version=
 |Firefox_supported=Yes
-|Firefox_version=1.0
+|Firefox_version=1.0 (1.7 or earlier)
 |Firefox_prefixed_supported=No
 |Firefox_prefixed_version=
 |Internet_explorer_supported=Yes
@@ -106,7 +106,7 @@ As of Microsoft Internet Explorer 5.5, this property applies to inline elements
 |Chrome_mobile_prefixed_supported=Unknown
 |Chrome_mobile_prefixed_version=
 |Firefox_mobile_supported=Yes
-|Firefox_mobile_version=1.0
+|Firefox_mobile_version=1.0 (1.9.2)
 |Firefox_mobile_prefixed_supported=No
 |Firefox_mobile_prefixed_version=
 |IE_mobile_supported=Unknown
