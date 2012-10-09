@@ -40,7 +40,7 @@ function handleFileSelect(e){
         return;
     }
     
-    // we just need only one file and ignore the others
+    // we just need one file and ignore the others
     var file = files[0];
     
     // make sure we got a image file
