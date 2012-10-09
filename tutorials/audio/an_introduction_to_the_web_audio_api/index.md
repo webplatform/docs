@@ -5,12 +5,12 @@
 |URL=http://stuartmemo.com
 |Published=June 13th, 2012
 }}
-{{Summary_Section|The [https://dvcs.w3.org/hg/audio/raw-file/tip/webaudio/specification.html Web Audio API]</a> is a way of creating and manipulating audio within the browser. It&#8217;s a specification proposed by Google, and as such is currently only available in [https://www.google.com/intl/en/chrome/browser/ Chrome], with the hope other browsers adopting it and it becoming a standard.
+{{Summary_Section|The [https://dvcs.w3.org/hg/audio/raw-file/tip/webaudio/specification.html Web Audio API] is a way of creating and manipulating audio within the browser. It&#8217;s a specification proposed by Google, and as such is currently only available in [https://www.google.com/intl/en/chrome/browser/ Chrome], with the hope other browsers adopting it and it becoming a standard.
 
-The actual audio processing itself is done with Assembly/C/C++ code within the browser, but the API gives us a nice high-level way of interacting with this code using JavaScript.}}
+The actual audio processing itself is done with Assembly/C/C++ code within the browser, but the API gives us a nice high-level way of interacting with this code using JavaScript.
+}}
 {{Tutorial
-|Content=
-=== AudioContext ===
+|Content==== AudioContext ===
 In order to start using the API, we must first create an AudioContext. Think of this as a canvas for sound. It&#8217;s a container for all the playback and manipulation of audio we&#8217;re going to be doing. We create it by simply doing this:
 <pre class="prettyprint">
     var context = new webkitAudioContext();
