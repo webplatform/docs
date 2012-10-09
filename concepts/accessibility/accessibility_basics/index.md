@@ -3,6 +3,7 @@
 |High-level issues=Copyright Issue
 |Content=Outdated, Grammar/Spelling
 }}
+{{Byline}}
 {{Summary_Section|When you create a web site, accessibility—making the web site usable by everyone, regardless of their ability or disability—should always be a central concern. In this article I’ll look at accessibility explicitly, so you can understand fully what it is, why it is important, how to ensure that sites are accessible, and what guidelines exist to define accessible sites.}}
 {{Tutorial
 |Content===Introduction==
@@ -135,7 +136,7 @@ How should you implement text alternatives on your site? The first step is to id
 reaching down. It is cracked with age.&quot; longdesc=&quot;adam.html&quot;&gt;.&lt;/p&gt;
 </pre>
 
-The image in this example is an integral part of the content. The <code>alt</code> attribute contains a short description of the image for people (or search engines) that might not be able to see the image correctly. The <code>longdesc</code> attribute allows you to link to an HTML page containing a full description of the image. This is generally only used to describe complex images that are used as central content. It also suffer from poor support in browsers. Most of the time you will only use the <code>alt</code> attribute.
+The image in this example is an integral part of the content. The <code>alt</code> attribute contains a short description of the image for people (or search engines) that might not be able to see the image correctly. The <code>longdesc</code> attribute allows you to link to an HTML page containing a full description of the image. This is generally only used to describe complex images that are used as central content. Although it suffers from poor browser support. Most of the time you will only use the <code>alt</code> attribute.
 
 When images are used for things other than content, such as navigation, or purely visual decoration you should treat them differently from content images. Images used to make buttons or page navigation look more attractive should have an <code>alt</code> attribute that matches the text in the image. The <code>alt</code> attribute simply functions as an easy way to allow the computer to read the text contained in the image (and hence read it to the user of a screen reader).
 
@@ -290,6 +291,7 @@ Accessibility is an important topic for both economic and social reasons. It is 
 *Use the internet to research how you would make a technology like Flash or Silverlight accessible and write a comparison between making them accessible, and how you make HTML accessible.
 *Explain how you would design an interaction on a web page to be accessible. Create the step by step instructions for creating a tree control (you don’t actually have to make it).
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
 |Desktop_rows=
