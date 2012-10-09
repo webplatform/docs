@@ -1,1 +1,2 @@
 Here is a list of HTML concepts:
+[[Category:HTML]]
