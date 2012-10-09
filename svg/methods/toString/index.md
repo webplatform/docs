@@ -23,3 +23,5 @@ There are no standards that apply here.
 |MDN_link=
 |HTML5Rocks_link=
 }}
+
+[[Category:SVG]]
