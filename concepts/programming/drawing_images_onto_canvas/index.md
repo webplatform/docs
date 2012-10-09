@@ -3,6 +3,21 @@ Drawing a Image on a Canvas seems to be a easy task. That´s true if you already
 If you finished your basic drawing and release it into the wild, you will recognise some problems. First one - so called “Retina”-Displays. All Images drawn on them will look blurry, but not if you know the “Tricks”. Second one will be performance issues. Cameras are getting more Mega-Pixel and Screens are getting bigger every year. People starting to load huge Images into your App. It´s good to know how to use not only CPU but also GPU Power to render and manipulate a Image.
 Last but not least there are device specific issues making Image Drawing even harder. Like the [http://stackoverflow.com/questions/12554947/mobile-safari-renders-img-src-dataimage-jpegbase64-scaled-on-canvas/ 2MB Image file down scaling bug] on iOS.
 
+==Reading the Image from the File System==
+
+First we need some simple HTML with a file select input field. We will give the input field an ID, so we could access it easily later on:
+
+ <nowiki><!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Image drawing Example</title>
+</head>
+<body>
+    <input type="file" name="choosePicture" id="choosePicture" accept="image/jpeg">
+</body>
+</html></nowiki>
+
 
 '''TODO:''' Add Descriptions and sample Code
 
