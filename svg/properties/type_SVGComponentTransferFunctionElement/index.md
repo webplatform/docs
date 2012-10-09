@@ -45,3 +45,4 @@ C' {{=}} v<sub>n-1</sub>
 |MDN_link=
 |HTML5Rocks_link=
 }}
+[[Category:SVG]]
