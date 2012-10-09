@@ -85,3 +85,4 @@ Now lets turn this file´s content into a data URL we can load into a <img> Elem
 '''Browser Compatibility'''
 
 '''Links to used Object, Function Docs'''
+[[Category:Concept Pages]]
