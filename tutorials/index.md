@@ -1,4 +1,4 @@
-{{Page_Title|Tutorials}}
+{{Page_Title|Learn the latest in web technologies.}}
 {{Flags}}
 {{Summary_Section|Tutorials are hands-on lessons about implementing web technology.}}
 {{Basic Page}}
