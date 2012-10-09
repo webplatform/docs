@@ -60,3 +60,4 @@ HRESULT value {{=}} object.put_xmlbase(BSTR v);HRESULT value {{=}} object.get_xm
 |MDN_link=
 |HTML5Rocks_link=
 }}
+[[Category:SVG]]
