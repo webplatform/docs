@@ -31,3 +31,5 @@ The <code>display</code> property does not apply to the [[svg/elements/radialGra
 |MDN_link=
 |HTML5Rocks_link=
 }}
+
+[[Category:SVG]]
