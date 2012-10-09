@@ -28,3 +28,5 @@ Because CSS is the only common language  for inline styling, and because CSS  is
 |MDN_link=
 |HTML5Rocks_link=
 }}
+
+[[Category:SVG]]
