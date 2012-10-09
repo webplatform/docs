@@ -28,3 +28,4 @@ In the following example, a previously defined Gaussian_Blur filter (that is, <c
 |MDN_link=
 |HTML5Rocks_link=
 }}
+[[Category:SVG]]
