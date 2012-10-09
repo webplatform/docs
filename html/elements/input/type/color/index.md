@@ -10,7 +10,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Code=<input type="color" value="2986ad">
+|Code=<input type="color" value="#2986ad">
 }}
 }}
 {{Notes_Section}}
