@@ -61,3 +61,5 @@ The '''className''' property has several roles:
 |MDN_link=
 |HTML5Rocks_link=
 }}
+
+[[Category:SVG]]
