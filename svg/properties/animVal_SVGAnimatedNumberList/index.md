@@ -27,3 +27,5 @@ Internet Explorer 9 supports script-based SVG animation but  it does not suppor
 |MDN_link=
 |HTML5Rocks_link=
 }}
+
+[[Category:SVG]]
