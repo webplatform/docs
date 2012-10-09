@@ -15,13 +15,13 @@ Selectors may range from simple element names to rich contextual representations
 *[[CSS/Selectors/universal_selector|<code>*</code>]]
 
 === [[CSS/Selectors/attribute_selector|Attribute Selector]] ===
-*<code>attributename</code>
-*<code>attributename="val"</code>
-*<code>attributename~="val"</code>
-*<code>attributename|="val"</code>
-*<code>attributename^="val"</code>
-*<code>attributename$="val"</code>
-*<code>attributename*="val"</code>
+*<code>[attributename]</code>
+*<code>[attributename="val"]</code>
+*<code>[attributename~="val"]</code>
+*<code>[attributename|="val"]</code>
+*<code>[attributename^="val"]</code>
+*<code>[attributename$="val"]</code>
+*<code>[attributename*="val"]</code>
 
 === Class Selector ===
 *[[CSS/Selectors/class_selector|<code>.classname</code>]]
