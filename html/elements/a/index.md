@@ -1,45 +1,50 @@
+{{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{Markup_Element
 |DOM_interface=dom/HTMLAnchorElement
 }}
-{{Topics|HTML}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
+|Language=HTML
 |Description=The following examples use the '''a''' element to link to files, open a file, include an image as part of a link, define an anchor, and invoke a function.
-|LiveURL=
-|Code=
-&lt;!-- Link to a server. --&gt;
-&lt;A HREF{{=}}"http://www.microsoft.com"&gt;Microsoft home page.&lt;/A&gt;
+|Code=&lt;!-- Link to a server. --&gt;
+&lt;a href{{=}}"http://www.microsoft.com"&gt;Microsoft home page.&lt;/a&gt;
+
 &lt;!-- Link to a file in the same directory. --&gt;
-&lt;A HREF{{=}}"home.htm"&gt;home.htm&lt;/A&gt;
+&lt;a href{{=}}"home.htm"&gt;home.htm&lt;/a&gt;
+
 &lt;!-- Open a file in the window specified by TARGET. --&gt;
-&lt;A TARGET{{=}}"viewer" HREF{{=}}"sample.htm"&gt;Open in window&lt;/A&gt;
+&lt;A TARGET{{=}}"viewer" HREF{{=}}"sample.htm"&gt;Open in window&lt;/a&gt;
+
 &lt;!-- Include an IMG element as a part of the link. --&gt;
-&lt;A HREF{{=}}"http://www.microsoft.com"&gt;&lt;IMG SRC{{=}}"images/bullet.png"&gt;link&lt;/A&gt; 
+&lt;a href{{=}}"http://www.microsoft.com"&gt;&lt;IMG SRC{{=}}"images/bullet.png"&gt;link&lt;/a&gt; 
+
 &lt;!-- Link to an anchor. --&gt;
-&lt;A HREF{{=}}"#anchor"&gt;anchor&lt;/A&gt;
+&lt;a href{{=}}"#anchor"&gt;anchor&lt;/a&gt;
+
 &lt;!-- Define an anchor. --&gt;
 &lt;A NAME{{=}}"anchor"&gt;
+
 &lt;!-- Invoke a JScript function. --&gt;
-&lt;A HREF{{=}}"javascript:window.open()"&gt;link&lt;/A&gt;
-}}}}
+&lt;a href{{=}}"javascript:window.open()"&gt;link&lt;/a&gt;
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 The '''a''' element requires the [[html/attributes/href|'''href''']] or the [[html/attributes/name|'''name''']] attribute to be specified.
 Both text and images can be included within an anchor. An image that is an anchor has a border whose color indicates whether the link has been visited.  To prevent this border from appearing, you can set the '''img''' element's [[html/attributes/border|'''border''']] attribute to 0 or omit the '''border''' attribute.  You can also use CSS attributes to override the default appearance of '''a''' and '''img''' elements.
 '''Note'''  A [[html/elements/table|'''table''']] object does not function properly when contained within an '''a''' tag.
 Windows Internet Explorer 8 and later. The value of the [[html/attributes/href|'''href''']] attribute depends on the current document compatibility mode.
 
 Internet Explorer 8 and later. When Protected Mode is enabled and a Web page contains an '''anchor link''' with a named [[html/attributes/target|'''target''']], Windows Internet Explorer opens the target of the link in a new window when the target has a different integrity level than the Web page containing the link. For more information, see Understanding and Working in Protected Mode Internet Explorer.
-|Import_Notes=
-===Standards information===
+|Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}196991 Document Object Model (DOM) Level 2 HTML Specification], Section 1.6.5
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 1
 
@@ -832,15 +837,22 @@ This property is not supported for Metro style apps using JavaScript.
 |Sets or gets a URN  for a target document.
 |}
  
-
 }}
-{{See_Also_Section
-|Topic_clusters=html
+{{Related_Specifications_Section
+|Specifications=
 }}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section}}
+{{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
