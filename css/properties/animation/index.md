@@ -33,7 +33,6 @@
 :Value of the [[css/properties/animation-fill-mode|'''animation-fill-mode''']] property.
 
 '''Note''' The first <code>&lt;time&gt;</code> value is assigned to the '''animation-duration'''. The second <code>&lt;time&gt;</code> value is assigned to the '''animation-delay'''.
-
 }}
 }}
 {{Examples_Section
@@ -45,7 +44,7 @@
 
 Values for a single animation are separated by spaces. Multiple animations can be assigned as a comma-separated list.
 |Import_Notes====Syntax===
-<code>'''animation: ''''''[''' ''animation-name'' '''{{!}}{{!}}''' ''animation-duration'' '''{{!}}{{!}}''' ''animation-timing-function'' '''{{!}}{{!}}''' ''animation-delay'' '''{{!}}{{!}}''' ''animation-iteration-count'' '''{{!}}{{!}}''' ''animation-direction'' ''']''' '''[''' ,  '''[''' ''animation-name'' '''{{!}}{{!}}''' ''animation-duration'' '''{{!}}{{!}}''' ''animation-timing-function'' '''{{!}}{{!}}''' ''animation-delay'' '''{{!}}{{!}}''' ''animation-iteration-count'' '''{{!}}{{!}}''' ''animation-direction'' ''']''' ''']''' *</code>
+<code>'''animation: ''''''[''' ''animation-name'' '''{{!}}{{!}}''' ''animation-duration'' '''{{!}}{{!}}''' ''animation-timing-function'' '''{{!}}{{!}}''' ''animation-delay'' '''{{!}}{{!}}''' ''animation-iteration-count'' '''{{!}}{{!}}''' ''animation-direction'' '''{{!}}{{!}}''' ''animation-fill-mode'' ''']''' '''[''' ,  '''[''' ''animation-name'' '''{{!}}{{!}}''' ''animation-duration'' '''{{!}}{{!}}''' ''animation-timing-function'' '''{{!}}{{!}}''' ''animation-delay'' '''{{!}}{{!}}''' ''animation-iteration-count'' '''{{!}}{{!}}''' ''animation-direction'' '''{{!}}{{!}}''' ''animation-fill-mode'' ''']''' ''']''' *</code>
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?LinkID{{=}}223144 CSS Animations Module Level 3], Section 3.9
 }}
