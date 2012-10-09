@@ -1,5 +1,6 @@
 {{Page_Title|Your first look at JavaScript}}
-{{Flags}}
+{{Flags
+}}
 {{Byline}}
 {{Summary_Section|Now it's time to get your hands dirty. This article provides a basic introduction to basic coding with JavaScript.}}
 {{Tutorial
