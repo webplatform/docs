@@ -18,6 +18,30 @@ First we need some simple HTML with a file select input field. We will give the 
 </body>
 </html></nowiki>
 
+Now let´s get to the funny part, let´s write some JavaScript. First we need to listen to file select event and get a reference to the local file. But first we have to listen for the file select input field to be ready, this´s after the DOM content loaded event:
+
+ <nowiki>document.addEventListener('DOMContentLoaded', function(){
+    var fileSelect = document.querySelector('#choosePicture');
+    fileSelect.addEventListener('change', handleFileSelect, false);
+}, false);
+
+function handleFileSelect(e){
+    var files = e.target.files; // FileList object
+    
+    if(files.length === 0){
+        return;
+    }
+    
+    var file = files[0];
+    
+    // Only process image files
+    if(file.type !== '' && !file.type.match('image.*')){
+        return;
+    }
+    
+    console.log(file);
+}</nowiki>
+
 
 '''TODO:''' Add Descriptions and sample Code
 
