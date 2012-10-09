@@ -13,7 +13,8 @@
 |Media=visual
 |Computed value=as specified by individual properties
 |Animatable=No
-|CSS percentages=Refer to corresponding dimension of the border box. 
+|CSS object model property=object.style.borderRadius
+|CSS percentages=Refer to corresponding dimension of the border box.
 |Values={{CSS Property Value
 |Data Type=length
 |Description=Denotes the size of the circle radius or the semi-major and semi-minor axes of the ellipsis. It can be expressed in any unit allowed by the CSS <length> data types. Negative values are invalid.
