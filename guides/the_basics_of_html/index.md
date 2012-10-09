@@ -21,7 +21,7 @@ article such as the author, the date the document was last modified,
 even things such a list of changes made so you can go back and forth
 between versions.
  
-[[HTML (“HyperText Markup Language”)|html]] is a language to describe the 
+[[html|HTML (“HyperText Markup Language”)]] is a language to describe the 
 contents of web documents. It uses a special syntax containing
 markers (called “elements”) which are wrapped around the text within
 the document to indicate how user agents (eg. web browsers) should interpret that
