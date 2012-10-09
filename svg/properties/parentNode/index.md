@@ -27,3 +27,4 @@ Every [[svg/objects/SVGElementInstance|'''SVGElementInstance''']] object has a p
 |MDN_link=
 |HTML5Rocks_link=
 }}
+[[Category:SVG]]
