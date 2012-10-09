@@ -3,7 +3,7 @@
 * handle file select (e.target.files)
 * window.URL.createObject(file) - plus polyfill
 * create Image Element and load Object URL
-* window.URL.removeObjectURL(img.src) - cleanup memory
+* window.URL.removeObjectURL(img.src) - cleanup memory on-image-load
 * draw scaled on Canvas (mention mobile Safari 2MB limit/issue - https://github.com/SunboX/ios-imagefile-megapixel)
 * delete Image Element
 
