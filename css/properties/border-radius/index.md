@@ -8,7 +8,7 @@
 {{Summary_Section|The border-radius CSS property allows Web authors to define how rounded border corners are. The curve of each corner is defined using one or two radii, defining its shape: circle or ellipse.}}
 {{CSS Property
 |Initial value=0
-|Applies to=all elements, except the <able element when border-collapse is collapse
+|Applies to=all elements, except the table element when border-collapse is collapse
 |Inherited=No
 |Media=visual
 |Computed value=as specified by individual properties
