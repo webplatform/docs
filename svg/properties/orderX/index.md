@@ -30,3 +30,4 @@ If the <code>order</code> attribute is not specified, the effect is as if a valu
 |MDN_link=
 |HTML5Rocks_link=
 }}
+[[Category:SVG]]
