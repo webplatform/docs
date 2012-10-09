@@ -64,7 +64,7 @@
 
 This property can be added to individual keyframes in the <code>@keyframes</code> rule, or to a style rule that applies an animation to an element. When specified in a style rule, this property sets the default timing function for each keyframe, but values specified for individual keyframes in an <code>@keyframes</code> rule take precedence. If no value is set, the default <code>ease</code> is applied.
 
-In common with other animation properties, multiple values separated by commas are applied to animations in the same order as they are listed in <code>animation-name</code>. Excess values are ignored. If there are fewer values than animations, the browser the browser cycles through them again until each animation has been assigned a timing function. 
+In common with other animation properties, multiple values separated by commas are applied to animations in the same order as they are listed in <code>animation-name</code>. Excess values are ignored. If there are fewer values than animations, the browser the browser cycles through them again until each animation has been assigned a timing function.
 |Import_Notes====Syntax===
 <code>'''animation-timing-function: '''cubic-bezier( x1, y1, x2, y2 ) '''{{!}}''' ease '''{{!}}''' linear '''{{!}}''' ease-in '''{{!}}''' ease-out '''{{!}}''' ease-in-out '''{{!}}''' steps( &lt;interval_number&gt; [, start  {{!}} end ]) '''{{!}}''' step-start '''{{!}}''' step-end '''[''' ,  cubic-bezier( x1, y1, x2, y2 ) '''{{!}}''' ease '''{{!}}''' linear '''{{!}}''' ease-in '''{{!}}''' ease-out '''{{!}}''' ease-in-out '''{{!}}''' steps( &lt;interval_number&gt; [, start  {{!}} end ]) '''{{!}}''' step-start '''{{!}}''' step-end ''']''' *</code>
 ===Standards information===
