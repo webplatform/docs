@@ -11,7 +11,7 @@
 {{Notes_Section
 |Notes=
 ===Remarks===
-The '''language''' property can refer to any scripting language. (See the <code>lang</code> attribute if you want to declare the language of your content, eg. French, etc.)
+The '''language''' property can refer to any scripting language. (See the <code>lang</code> attribute if you want to declare the natural language of your content, eg. French, etc.)
 In Windows Internet Explorer, the default scripting engine is JScript.
 Microsoft Internet Explorer 4.0 ships with scripting engines for JScript and VBScript.
 In Microsoft Internet Explorer 5, the '''LANGUAGE''' attribute of the '''script''' element can be set to '''XML'''.
