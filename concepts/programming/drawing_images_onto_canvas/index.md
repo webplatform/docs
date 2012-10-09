@@ -18,7 +18,7 @@
 '''Using WebGL for drawing?'''
 
 * How does it work? (context 3d, shader)
-* pros/cons (contra: no easy way to easy modify image pixels)
+* pros/cons (contra: no easy way to modify image pixels)
 * Link to WebGL Convolution Matrix, Extended ColorTransform Matrix "best practises"
 
 '''Browser Compatibility'''
