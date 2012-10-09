@@ -1,7 +1,7 @@
 {{Page_Title|About LiveConnect}}
 {{Flags
+|High-level issues=Deletion Candidate
 |Content=Not Neutral
-|Editorial notes=Add info about other browser support for LiveConnect.
 }}
 {{Summary_Section|This chapter describes using LiveConnect technology to let Java and JavaScript code communicate with each other. The chapter assumes you are familiar with Java programming.
 
