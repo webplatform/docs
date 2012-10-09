@@ -1,9 +1,25 @@
 {{Page_Title|SVG tutorials}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections
+|High-level issues=Missing Relevant Sections, Needs Topics
 |Content=Incomplete, Grammar/Spelling
 }}
-{{Summary_Section|This page lists SVG tutorials, to teach beginning and advanced SVG concepts and techniques.}}
+{{Standardization_Status}}
+{{API_Name}}
+{{Summary_Section|This page lists SVG tutorials that teach beginning and advanced SVG concepts and techniques.}}
+{{API_Listing
+|Query=[[Category:Tutorials]][[Category:SVG]]
+|Use_page_title=No
+|List_all_subpages=No
+}}
+{{Notes_Section}}
+{{See_Also_Section}}
+{{Topics|SVG}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
+}}
 {{Basic Page}}
 == SVG basics ==
 
@@ -30,14 +46,3 @@
 * [[tutorials/animations in svg|Animations in SVG]]
 
 == SVG tutorials index ==
-
-{{API_Listing
-|Query=[[Category:Tutorials]][[Category:SVG]]
-}}
-{{Topics|SVG}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
