@@ -17,9 +17,10 @@
 |Data Type=single-animation-play-state
 |Description=<code>running</code> (default) or <code>paused</code>
 
-<code>running</code>: Plays the animation. If restarting a paused animation, the animation resumes from the current (paused) property value.
-
-<code>paused</code>: Pauses the animation. The object is displayed with the current property value until '''animation-play-state''' is set to '''running''' and the animation resumes.
+;<code>running</code>
+:Plays the animation. If restarting a paused animation, the animation resumes from the current (paused) property value.
+;<code>paused</code>
+:Pauses the animation. The object is displayed with the current property value until <code>animation-play-state</code> is set to <code>running</code> and the animation resumes.
 }}
 }}
 {{Examples_Section
