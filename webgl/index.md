@@ -65,6 +65,12 @@ The criteria for support differ from browser to browser. The details of support 
 * [http://support.google.com/chrome/bin/answer.py?hl=en&answer=1220892 The Google Chrome WebGL and 3D graphics support page]
 * [https://wiki.mozilla.org/Blocklisting/Blocked_Graphics_Drivers The Mozilla Wiki entry on Blocked Graphics Drivers]
 
+== Examples / Best Practices ==
+
+* [[webgl/examples/Drawing Images using WebGL|Drawing Images using WebGL]]
+* [[webgl/examples/Working with the Convolution Matrix|Working with the Convolution Matrix]]
+* [[webgl/examples/Working with the Extended ColorTransform Matrix|Extended ColorTransform Matrix]]
+
 == Index of WebGL topics ==
 
 {{Special:PrefixIndex/webgl/}}
