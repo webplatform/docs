@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Needed
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -10,7 +10,7 @@
 |DOM_interface=dom/HTMLElement
 }}
 {{Examples_Section
-|Not_required=No
+|Not_required=Yes
 |Examples=
 }}
 {{Notes_Section}}
