@@ -27,3 +27,5 @@ Do not set the '''contentScriptType'''  property.  If you try to set this proper
 |MDN_link=
 |HTML5Rocks_link=
 }}
+
+[[Category:SVG]]
