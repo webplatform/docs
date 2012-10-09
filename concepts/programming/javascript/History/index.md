@@ -1,4 +1,4 @@
-==History==
+==History of Javascript==
 
 ===Birth at Netscape===
 JavaScript was originally developed in Netscape, by Brendan Eich. Battling with Microsoft over the Internet, Netscape considered their client-server solution as a distributed OS, running a portable version of Sun Microsystems' Java. Because Java was a competitor of C++ and aimed at professional programmers, Netscape also wanted a lightweight interpreted language that would complement Java by appealing to nonprofessional programmers, like Microsoft's VB.[9] (see JavaScript and Java)
