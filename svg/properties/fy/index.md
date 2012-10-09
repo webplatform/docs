@@ -36,3 +36,4 @@ You can animate the '''fy'''  property.
 |MDN_link=
 |HTML5Rocks_link=
 }}
+[[Category:SVG]]
