@@ -27,3 +27,4 @@ For an example of how the major and minor axes of an ellipse are related to the 
 |MDN_link=
 |HTML5Rocks_link=
 }}
+[[Category:SVG]]
