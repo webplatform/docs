@@ -3,8 +3,8 @@
 {{Byline}}
 {{Summary_Section|In this article we look at the basics of how to manipulate CSS styles using JavaScript.}}
 {{Tutorial
-|Content===== Information: JavaScript ===
- 
+|Content=
+=== Information: JavaScript === 
 JavaScript is a ''programming language''. JavaScript is widely used to provide interactivity in web sites and applications. JavaScript can interact with stylesheets, allowing you to write programs that change a document's style dynamically.
 
  
