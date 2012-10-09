@@ -27,3 +27,5 @@ You can test a graphics element only  when it can be a target of pointer events,
 |MDN_link=
 |HTML5Rocks_link=
 }}
+
+[[Category:SVG]]
