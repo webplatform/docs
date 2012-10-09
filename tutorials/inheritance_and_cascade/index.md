@@ -371,6 +371,11 @@ All else being equal, the source order makes the final distinction.
 |Notes_rows=
 }}
 {{See_Also_Section
+|External_links==== Slides on CSS Cascade and Inheritance ===
+
+<iframe src="http://www.slideshare.net/slideshow/embed_code/1658158" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen> </iframe>
+
+<iframe src="http://www.slideshare.net/slideshow/embed_code/1772232" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen> </iframe>
 |Manual_sections==== Exercise Questions ===
  
 * Is the <code>border</code>  property inherited? Think about it first—would it make sense?—then look up the correct answer in the [http://www.w3.org/TR/CSS21/ CSS specification].
