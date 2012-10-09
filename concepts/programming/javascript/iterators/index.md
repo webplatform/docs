@@ -5,7 +5,7 @@
 }}
 {{Summary_Section|Processing each of the items in a collection is a very common operation. JavaScript provides a number of ways of iterating over a collection, from simple <code>[[/js/reference/statements/for|for]]</code> and <code>[[/js/reference/statements/for_each...in|for each]]</code> loops to <code>[[/js/reference/objects/Array/map|map()]]</code>, <code>[[/js/reference/objects/Array/filter|filter()]]</code> and [[/guides/JavaScript/objects#Array_comprehensions|array comprehensions]]. Iterators and Generators, introduced in JavaScript 1.7, bring the concept of iteration directly into the core language and provide a mechanism for customizing the behavior of <code>[[/js/reference/statements/for...in|for...in]]</code> and <code>[[/js/reference/statements/for_each...in|for each]]</code> loops.}}
 
-===Iterators==
+==Iterators==
 
 An Iterator is an object that knows how to access items from a collection one at a time, while keeping track of its current position within that sequence. In JavaScript an iterator is an object that provides a <code>next()</code> method which returns the next item in the sequence. This method can optionally raise a <code>StopIteration</code> exception when the sequence is exhausted.
 
