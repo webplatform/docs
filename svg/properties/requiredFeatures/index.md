@@ -46,3 +46,4 @@ HRESULT value {{=}} object.get_requiredFeatures(ISVGStringList** pFeatureList);
 |MDN_link=
 |HTML5Rocks_link=
 }}
+[[Category:SVG]]
