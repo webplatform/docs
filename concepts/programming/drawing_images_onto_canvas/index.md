@@ -21,24 +21,34 @@ First we need some simple HTML with a file select input field. We will give the 
 Now let´s get to the funny part, let´s write some JavaScript. First we need to listen to file select event and get a reference to the local file. But first we have to listen for the file select input field to be ready, this´s after the DOM content loaded event:
 
  <nowiki>document.addEventListener('DOMContentLoaded', function(){
+
+    // get a reference to the file select input field
     var fileSelect = document.querySelector('#choosePicture');
+
+    // listen for the onChange event that get´s fired after the user had choosed a file
     fileSelect.addEventListener('change', handleFileSelect, false);
+    
 }, false);
 
 function handleFileSelect(e){
-    var files = e.target.files; // FileList object
+
+    // get the FileList object from the file select event
+    var files = e.target.files;
     
+    // check if there are files in the file list
     if(files.length === 0){
         return;
     }
     
+    // we just need only one file and ignore the others
     var file = files[0];
     
-    // Only process image files
+    // make sure to only process image files
     if(file.type !== '' && !file.type.match('image.*')){
         return;
     }
     
+    // let´s see what we got
     console.log(file);
 }</nowiki>
 
