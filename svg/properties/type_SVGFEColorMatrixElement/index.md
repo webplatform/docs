@@ -51,3 +51,4 @@ The following are constants associated with [[svg/elements/feColorMix|'''SVGFECo
 |MDN_link=
 |HTML5Rocks_link=
 }}
+[[Category:SVG]]
