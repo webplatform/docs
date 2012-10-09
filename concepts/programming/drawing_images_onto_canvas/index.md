@@ -17,6 +17,7 @@
 
 '''Using WebGL for drawing?'''
 
+* WebGL is a 2D API!
 * How does it work? (context 3d, shader)
 * pros/cons (contra: no easy way to modify image pixels)
 * Link to WebGL Convolution Matrix, Extended ColorTransform Matrix "best practices"
