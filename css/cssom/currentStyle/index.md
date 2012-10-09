@@ -848,7 +848,7 @@ languages appear in the object.
 |Specifications=
 }}
 {{Compatibility_Section
-|Not_required=Yes
+|Not_required=No
 |Desktop_rows={{Compatibility Table Desktop Row
 |Feature=Test
 |Chrome_supported=Yes
