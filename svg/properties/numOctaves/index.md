@@ -16,7 +16,6 @@ The more octaves that are used in the calculation, the more fine-grained the tex
 |URL=http://www.w3.org/TR/SVG11/filters.html#feTurbulenceNumOctavesAttribute
 |Status=W3C Recommendation
 }}
-
 }}
 {{See_Also_Section
 |Manual_sections=
