@@ -1,7 +1,8 @@
 {{Page_Title|An introduction to web design}}
 {{Flags
-|High-level issues=Stub
+|High-level issues=Merge Candidate, Stub
 |Content=Incomplete
+|Editorial notes={{Editorial/Merge_Candidate|Other=concepts/ux/user_experience_design}}
 }}
 {{API_Name}}
 {{Summary_Section}}
