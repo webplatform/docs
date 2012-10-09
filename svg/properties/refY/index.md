@@ -31,3 +31,4 @@ The '''refY''' property  is animatable.
 |MDN_link=
 |HTML5Rocks_link=
 }}
+[[Category:SVG]]
