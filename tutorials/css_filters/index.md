@@ -7,7 +7,7 @@
 |URL=http://www.html5rocks.com/profiles/#alexdanilo
 |Published=May 25, 2012, updated May 29, 2012
 }}
-{{Summary_Section|An introduction to CSS filter effects.}}
+{{Summary_Section|This article is an introduction to CSS filter effects.}}
 {{Tutorial
 |Content='''Caution:''' This article discusses APIs that are not yet fully standardized and still in flux. Be cautious when using experimental APIs in your own projects. See the compatibility tables at the end of this article for the latest information.
 
@@ -206,18 +206,30 @@ If you're using URL-based filters that reference SVG filters, they can contain a
 |Android_version=
 |Android_prefixed_supported=Unknown
 |Android_prefixed_version=
+|Blackberry_supported=Unknown
+|Blackberry_version=
+|Blackberry_prefixed_supported=Unknown
+|Blackberry_prefixed_version=
+|Chrome_mobile_supported=Unknown
+|Chrome_mobile_version=
+|Chrome_mobile_prefixed_supported=Unknown
+|Chrome_mobile_prefixed_version=
 |Firefox_mobile_supported=Unknown
 |Firefox_mobile_version=
 |Firefox_mobile_prefixed_supported=Unknown
 |Firefox_mobile_prefixed_version=
-|IE_phone_supported=Unknown
-|IE_phone_version=
-|IE_phone_prefixed_supported=Unknown
-|IE_phone_prefixed_version=
+|IE_mobile_supported=Unknown
+|IE_mobile_version=
+|IE_mobile_prefixed_supported=Unknown
+|IE_mobile_prefixed_version=
 |Opera_mobile_supported=No
 |Opera_mobile_version=
 |Opera_mobile_prefixed_supported=Unknown
 |Opera_mobile_prefixed_version=
+|Opera_mini_supported=Unknown
+|Opera_mini_version=
+|Opera_mini_prefixed_supported=Unknown
+|Opera_mini_prefixed_version=
 |Safari_mobile_supported=Unknown
 |Safari_mobile_version=
 |Safari_mobile_prefixed_supported=Yes
