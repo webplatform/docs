@@ -53,6 +53,7 @@ Also, [[css/properties/border-image-slice|'''border-image-slice: fill''']] was i
 |Chrome_supported=Unknown
 |Chrome_version=
 |Chrome_prefixed_supported=Yes
+|Chrome_prefixed_version=10
 |Firefox_supported=Yes
 |Firefox_version=15
 |Firefox_prefixed_supported=Yes
@@ -63,9 +64,11 @@ Also, [[css/properties/border-image-slice|'''border-image-slice: fill''']] was i
 |Opera_supported=Unknown
 |Opera_version=
 |Opera_prefixed_supported=Yes
+|Opera_prefixed_version=10
 |Safari_supported=Unknown
 |Safari_version=
 |Safari_prefixed_supported=Yes
+|Safari_prefixed_version=4
 }}
 |Mobile_rows=
 |Notes_rows=
