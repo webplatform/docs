@@ -1,6 +1,5 @@
 {{Page_Title|Variables in JavaScript}}
-{{Flags
-}}
+{{Flags}}
 {{API_Name}}
 {{Summary_Section}}
 {{Concept_Page
@@ -48,9 +47,9 @@ In the case that a value representing a number is in memory as a string, there a
 
 ====<code>parseInt()</code> and <code>parseFloat()</code>====
 
-See: <code>[[js/objects/parseInt|parseInt()]]</code> and <code>[[js/objects/parseFloat|parseFloat()]]</code> pages.
+See: <code>[[javascript/functions/parseInt|parseInt()]]</code> and <code>[[javascript/functions/parseFloat|parseFloat()]]</code> pages.
 
-<code>parseInt</code> will only return whole numbers, so its use is diminished for decimals. Additionally, a best practice for <code>parseInt</code> is to always include the radix parameter.
+<code>parseInt()</code> will only return whole numbers. Use <code>parseFloat()</code> if you need floating-point numbers. Additionally, a best practice for <code>parseInt()</code> is to always include the radix parameter.
 
 ====Plus operator====
 
