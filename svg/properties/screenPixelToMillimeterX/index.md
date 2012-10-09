@@ -27,3 +27,4 @@ User interface (UI) events in [http://go.microsoft.com/fwlink/p/?linkid{{=}}2037
 |MDN_link=
 |HTML5Rocks_link=
 }}
+[[Category:SVG]]
