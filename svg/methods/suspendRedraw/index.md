@@ -33,3 +33,5 @@ The redrawing operation is suspended until one of the following actions occur:
 |MDN_link=
 |HTML5Rocks_link=
 }}
+
+[[Category:SVG]]
