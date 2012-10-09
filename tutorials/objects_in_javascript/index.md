@@ -27,14 +27,14 @@ Note: There is an example available for you to download or run live, which conta
  
 The single most important reason to care about objects is their capacity to improve your code’s representation of the data and processes you’re implementing. As a trivial example, consider how you’d write code that did some sort of work with a triangle. You know that triangles in general have three sides, so to deal with a specific triangle the obvious thing to do is to create three variables:
  
-<pre>// This is a triangle.
+<syntaxhighlight lang="javascript">// This is a triangle.
 var sideA = 3;
 var sideB = 4;
-var sideC = 5;</pre>
+var sideC = 5;</syntaxhighlight>
  
 And there you go, you’ve got a triangle! But not ''really'', right? You’ve really just created three variables that you need to keep track of separately, and a comment to remind yourself what you were thinking. This simply isn’t as clear or as usable as it could be. But no matter, let’s continue on and consider how you’d build some calculations around this “triangle”. To find its area, you might write the function as follows:
  
-<pre>function getArea( a, b, c ) {
+<syntaxhighlight lang="javascript">function getArea( a, b, c ) {
   // Return the area of a triangle using Heron's formula
         
   var semiperimeter   =   (a + b + c) / 2;
@@ -42,7 +42,7 @@ And there you go, you’ve got a triangle! But not ''really'', right? You’ve r
   return Math.sqrt( calculation );
 }
 
-alert( getArea( sideA, sideB, sideC ) );</pre>
+alert( getArea( sideA, sideB, sideC ) );</syntaxhighlight>
  
 You’ll notice that you have to pass all the information about the triangle into the function in order for it to do any calculation. The activities related to triangles are ''completely'' decoupled from the triangle’s data, even though they don’t really make sense in isolation.
  
@@ -54,11 +54,11 @@ In the same way that it makes sense to create a function that bundles up a serie
  
 If you look back to the [http://devfiles.myopera.com/articles/616/functions_4.html final functions example from the previous article], you’ll see code snippets like:
  
-<pre>var obj = document.getElementById( elementID );</pre>
+<syntaxhighlight lang="javascript">var obj = document.getElementById( elementID );</syntaxhighlight>
  
 and:
  
-<pre>obj.style.background = 'rgb('+red+','+green+','+blue')';</pre>
+<syntaxhighlight lang="javascript">obj.style.background = 'rgb('+red+','+green+','+blue')';</syntaxhighlight>
  
 Surprise! You’ve been using objects without even knowing it! Let’s explore
 these two snippets in some detail to start piecing together JavaScript’s
@@ -85,14 +85,14 @@ parentheses: <code>(obj.style).background</code>.
  
 To build my own triangle object, I’ll create it explicitly using the following syntax:
  
-<pre>var triangle = new Object();</pre>
+<syntaxhighlight lang="javascript">var triangle = new Object();</syntaxhighlight>
  
 <code>triangle</code> is now a blank foundation, waiting for you to construct some 
 soaring three-sided edifice. You can do so by adding properties to your object using the dot operator:
  
-<pre>triangle.sideA  =   3;
+<syntaxhighlight lang="javascript">triangle.sideA  =   3;
 triangle.sideB  =   4;
-triangle.sideC  =   5;</pre>
+triangle.sideC  =   5;</syntaxhighlight>
  
 You don’t actually have to do anything special to add new properties to an
 object. When JavaScript evaluates the dot operator, it’s quite forgiving
@@ -103,7 +103,7 @@ you’re not careful, so watch out for typos!
  
 Adding methods works similarly — here’s an example:
  
-<pre>triangle.getArea    =   function ( a, b, c ) {
+<syntaxhighlight lang="javascript">triangle.getArea    =   function ( a, b, c ) {
   // Return the area of a triangle using Heron's formula
         
   var semiperimeter   =   (a + b + c) / 2;
@@ -111,7 +111,7 @@ Adding methods works similarly — here’s an example:
                                 (semiperimeter - b) * (semiperimeter - c);
   return Math.sqrt( calculation );
         
-};      // Note the semi-colon here; it’s mandatory.</pre>
+};      // Note the semi-colon here; it’s mandatory.</syntaxhighlight>
  
 If you’re thinking that this looks a ''lot'' like defining a function, you’re spot on: I’ve simply left off the function’s name entirely. JavaScript has the concept of an ''anonymous'' function that doesn’t have a name of its own, but is instead stored in a variable just like any other value. In this code, I’m creating an anonymous function, and storing it in the <code>triangle</code> object’s <code>getArea</code> property. The object then carries that function around with it, just like it carries any other property.
  
@@ -119,13 +119,13 @@ If you’re thinking that this looks a ''lot'' like defining a function, you’r
  
 One of the goals of creating the <code>triangle</code> object was to create a bond between the triangle’s data and the actions I can perform on the data. I haven’t accomplished that yet, however. You’ll notice right away that the <code>triangle.getArea</code> method still requires that the side length data be passed in when it’s executed, resulting in code that looks like this:
  
-<pre>triangle.getArea( triangle.sideA, triangle.sideB, triangle.sideC );</pre>
+<syntaxhighlight lang="javascript">triangle.getArea( triangle.sideA, triangle.sideB, triangle.sideC );</syntaxhighlight>
  
 I think this is better than the code I had at the beginning of the article, as it clearly expresses a ''relationship'' between the data and the activity. That relationship, however, means that we shouldn’t have to tell the method what values to work with. It should be able to gather data about the object on which it lives, and use that data without asking you to input it manually.
  
 The secret lies in the <code>this</code> keyword, which you can use inside a method’s definition to refer back to other properties and methods on the same object. Rewriting the <code>getArea</code> method to use <code>this</code>, we end up with the following code:
  
-<pre>triangle.getArea    =   function () {
+<syntaxhighlight lang="javascript">triangle.getArea    =   function () {
   // Return the area of a triangle using Heron's formula
         
   var semiperimeter   =   (this.sideA + this.sideB + this.sideC) / 2;
@@ -133,7 +133,7 @@ The secret lies in the <code>this</code> keyword, which you can use inside a met
                                 
   return Math.sqrt( calculation );
         
-};      // Note the semi-colon here, it's mandatory.</pre>
+};      // Note the semi-colon here, it's mandatory.</syntaxhighlight>
  
 As you can see, <code>this</code> works somewhat like a mirror. When the <code>getArea</code> method is executed, it takes a long look at its reflection to read its <code>sideA</code>, <code>sideB</code>, and <code>sideC</code> properties. It’s able to use those in its calculation, instead of relying on input from outside.
  
@@ -148,7 +148,7 @@ array''' that maps a string to a value in the same way that a typical
 array maps a number to a value. Using this notation, you could rewrite 
 <code>triangle</code> a second way:
 
-<pre>var triangle = new Object();
+<syntaxhighlight lang="javascript">var triangle = new Object();
 triangle['sideA']   =   3;
 triangle['sideB']   =   4;
 triangle['sideC']   =   5;
@@ -159,7 +159,7 @@ triangle['getArea'] =   function ( a, b, c ) {
   var calculation     =   semiperimeter * (semiperimeter - a) * (semiperimeter - b) * (semiperimeter - c);
   return Math.sqrt( calculation );
         
-};      // Note the semi-colon here, it's mandatory.</pre>
+};      // Note the semi-colon here, it's mandatory.</syntaxhighlight>
  
 At first glance, this might appear superfluous. Why not just use dot
 notation? The benefit of this new syntax is that the property name isn’t 
@@ -168,7 +168,7 @@ names, which means you can build truly flexible commands that do different
 things based on context. For example, you could build a function that
 compared two objects to see if they share a common property:
  
-<pre>function isPropertyShared( objectA, objectB, propertyName ) {
+<syntaxhighlight lang="javascript">function isPropertyShared( objectA, objectB, propertyName ) {
   if (
      typeof objectA[ propertyName ] !== undefined
      &amp;&amp;
@@ -176,7 +176,7 @@ compared two objects to see if they share a common property:
      ) {
          alert("Both objects have a property named " + propertyName + "!");
        }
-}</pre>
+}</syntaxhighlight>
  
 This function would be simply impossible to write in a generic way using dot 
 notation, as I’d have to explicitly write the property names to test in the 
@@ -190,14 +190,14 @@ It’s a very powerful and foundational concept in programming, and you might al
  
 Let’s take a close look at some code that’s probably quite familiar:
  
-<pre>alert("Hello world");</pre>
+<syntaxhighlight lang="javascript">alert("Hello world");</syntaxhighlight>
  
 You can identify <code>alert</code> right away as a function that’s being called with a
 single argument: the string “Hello world”. What I’d like you to note here is
 that you ''didn’t'' have to write:
  
-<pre>var temporaryString = "Hello world";
-alert(temporaryString);</pre>
+<syntaxhighlight lang="javascript">var temporaryString = "Hello world";
+alert(temporaryString);</syntaxhighlight>
  
 JavaScript simply understands that anything contained inside a pair of
 double-quotes (" ") should be treated as a string, and does whatever
@@ -210,7 +210,7 @@ JavaScript has a similar syntax for “object literals” that allows you to
 create your own object without any syntactical overhead. Let’s rewrite the
 object I created above yet a third way, this time as an object literal:
  
-<pre>var triangle = {
+<syntaxhighlight lang="javascript">var triangle = {
   sideA:      3,
   sideB:      4,
   sideC:      5,
@@ -222,7 +222,7 @@ object I created above yet a third way, this time as an object literal:
     return Math.sqrt( calculation );
         
   }
-};</pre>
+};</syntaxhighlight>
  
 The syntax is clear: the object literal uses curly-braces to demarcate the
 beginning and end of the object, which contain an arbitrary number of
