@@ -20,7 +20,7 @@ The WebSockets spec has gotten quite a bit of attention for what it enables: a s
  liveSocket.onmessage = function(payload) {
    addToStream(JSON.parse(payload.data).reverse());
  };
-<syntaxhighlight>
+</syntaxhighlight>
 
 While browser support for WebSockets is straightforward, server-side support is still in the formative stage. [http://socket.io/ Socket.IO] on Node.js provides one of the most mature and robust server-side solutions. An event-driven server like Node.js is the right fit for WebSockets. For alternative implementations, Python developers can use [http://twistedmatrix.com/trac/ Twisted] and [http://www.tornadoweb.org/ Tornado], while Ruby developers have [http://rubyeventmachine.com/ EventMachine].
 
@@ -155,6 +155,7 @@ One of the most significant advantages of EventSource over WebSockets is that fa
 
 HTML5 opens the door to many new and exciting web development possibilities. With WebSockets and EventSource, web developers now have clean, well-defined standards to enable real-time web apps. But not all users run modern browsers. Graceful degradation must be considered when choosing to implement these technologies. And tooling on the server side for WebSockets and EventSource is still in the early stages. It’s important to keep these factors in mind when developing real-time HTML5 apps.
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
 |Desktop_rows={{Compatibility Table Desktop Row
@@ -208,18 +209,30 @@ HTML5 opens the door to many new and exciting web development possibilities. Wit
 |Android_version=
 |Android_prefixed_supported=Unknown
 |Android_prefixed_version=
+|Blackberry_supported=Unknown
+|Blackberry_version=
+|Blackberry_prefixed_supported=Unknown
+|Blackberry_prefixed_version=
+|Chrome_mobile_supported=Unknown
+|Chrome_mobile_version=
+|Chrome_mobile_prefixed_supported=Unknown
+|Chrome_mobile_prefixed_version=
 |Firefox_mobile_supported=Unknown
 |Firefox_mobile_version=
 |Firefox_mobile_prefixed_supported=Unknown
 |Firefox_mobile_prefixed_version=
-|IE_phone_supported=Unknown
-|IE_phone_version=
-|IE_phone_prefixed_supported=Unknown
-|IE_phone_prefixed_version=
+|IE_mobile_supported=Unknown
+|IE_mobile_version=
+|IE_mobile_prefixed_supported=Unknown
+|IE_mobile_prefixed_version=
 |Opera_mobile_supported=No
 |Opera_mobile_version=
 |Opera_mobile_prefixed_supported=Unknown
 |Opera_mobile_prefixed_version=
+|Opera_mini_supported=Unknown
+|Opera_mini_version=
+|Opera_mini_prefixed_supported=Unknown
+|Opera_mini_prefixed_version=
 |Safari_mobile_supported=Yes
 |Safari_mobile_version=4.2
 |Safari_mobile_prefixed_supported=Unknown
@@ -230,18 +243,30 @@ HTML5 opens the door to many new and exciting web development possibilities. Wit
 |Android_version=
 |Android_prefixed_supported=Unknown
 |Android_prefixed_version=
+|Blackberry_supported=Unknown
+|Blackberry_version=
+|Blackberry_prefixed_supported=Unknown
+|Blackberry_prefixed_version=
+|Chrome_mobile_supported=Unknown
+|Chrome_mobile_version=
+|Chrome_mobile_prefixed_supported=Unknown
+|Chrome_mobile_prefixed_version=
 |Firefox_mobile_supported=Unknown
 |Firefox_mobile_version=
 |Firefox_mobile_prefixed_supported=Unknown
 |Firefox_mobile_prefixed_version=
-|IE_phone_supported=Unknown
-|IE_phone_version=
-|IE_phone_prefixed_supported=Unknown
-|IE_phone_prefixed_version=
+|IE_mobile_supported=Unknown
+|IE_mobile_version=
+|IE_mobile_prefixed_supported=Unknown
+|IE_mobile_prefixed_version=
 |Opera_mobile_supported=No
 |Opera_mobile_version=
 |Opera_mobile_prefixed_supported=Unknown
 |Opera_mobile_prefixed_version=
+|Opera_mini_supported=Unknown
+|Opera_mini_version=
+|Opera_mini_prefixed_supported=Unknown
+|Opera_mini_prefixed_version=
 |Safari_mobile_supported=Yes
 |Safari_mobile_version=4.0
 |Safari_mobile_prefixed_supported=Unknown
