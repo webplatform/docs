@@ -62,6 +62,7 @@ The '''box-shadow''' property can specify one or more drop shadows. The componen
 |Opera_prefixed_supported=Unknown
 |Opera_prefixed_version=
 |Safari_supported=Yes
+|Safari_version=5.1
 |Safari_prefixed_supported=Unknown
 |Safari_prefixed_version=
 }}
