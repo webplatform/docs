@@ -28,3 +28,5 @@ When the '''currentScale''' property  is called on an element other than the out
 |MDN_link=
 |HTML5Rocks_link=
 }}
+
+[[Category:SVG]]
