@@ -1,1 +1,1 @@
-#REDIRECT [[css/selectors/border-image]]
+#REDIRECT [[css/properties/border-image]]
