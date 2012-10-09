@@ -58,3 +58,4 @@ If an external resource is not available, progressive rendering is suspended and
 |MDN_link=
 |HTML5Rocks_link=
 }}
+[[Category:SVG]]
