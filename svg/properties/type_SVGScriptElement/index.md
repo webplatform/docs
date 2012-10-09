@@ -27,3 +27,4 @@ If  you do not provide a '''type'''  property, the value of <code>contentScriptT
 |MDN_link=
 |HTML5Rocks_link=
 }}
+[[Category:SVG]]
