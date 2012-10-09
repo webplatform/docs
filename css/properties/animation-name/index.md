@@ -14,18 +14,8 @@
 |Computed value=as specified
 |Animatable=No
 |Values={{CSS Property Value
-|Data Type=none
-|Description=Default. 
-No animation is applied.
-}}{{CSS Property Value
-|Data Type=identifier
-|Description=The name of the [[css/atrules/@keyframes|'''@keyframes''']] at-rule.
-}}{{CSS Property Value
-|Data Type=-ms-bar
-|Description=For the indeterminate '''progress''' control only, changes the appearance to a bar.
-}}{{CSS Property Value
-|Data Type=-ms-ring
-|Description=For the indeterminate '''progress''' control only, changes the appearance to a ring.
+|Data Type=single-animation-name
+|Description=The name of an [[css/atrules/@keyframes|'''@keyframes''']] rule or the keyword <code>none</code> (default).
 }}
 }}
 {{Examples_Section
