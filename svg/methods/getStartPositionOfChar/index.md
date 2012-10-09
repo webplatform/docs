@@ -32,3 +32,5 @@ The character's current text position  considers  the effects of any inter-chara
 |MDN_link=
 |HTML5Rocks_link=
 }}
+
+[[Category:SVG]]
