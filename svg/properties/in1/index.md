@@ -40,3 +40,4 @@ If the value for <code>result</code> appears multiple times within a given [[svg
 |MDN_link=
 |HTML5Rocks_link=
 }}
+[[Category:SVG]]
