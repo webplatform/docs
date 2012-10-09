@@ -27,3 +27,4 @@ The  '''viewTarget'''  attribute is a  space-delimited list of elements in the v
 |MDN_link=
 |HTML5Rocks_link=
 }}
+[[Category:SVG]]
