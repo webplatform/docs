@@ -74,3 +74,4 @@ The '''r'''  property defines the largest (that is, the outermost) circle for a 
 |MDN_link=
 |HTML5Rocks_link=
 }}
+[[Category:SVG]]
