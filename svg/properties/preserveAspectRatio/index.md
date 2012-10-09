@@ -33,3 +33,4 @@ For image elements,  '''preserveAspectRatio'''  specifies how images  are  fitte
 |MDN_link=
 |HTML5Rocks_link=
 }}
+[[Category:SVG]]
