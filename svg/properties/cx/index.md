@@ -57,3 +57,5 @@ The arc of a [[svg/elements/circle|'''circle''']] element and the arc of an [[sv
 |MDN_link=
 |HTML5Rocks_link=
 }}
+
+[[Category:SVG]]
