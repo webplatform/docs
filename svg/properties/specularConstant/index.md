@@ -27,3 +27,4 @@ The '''specularConstant''' property specifies the ratio of reflection of the dif
 |MDN_link=
 |HTML5Rocks_link=
 }}
+[[Category:SVG]]
