@@ -27,3 +27,5 @@ After applying the [[svg/properties/kernelMatrix|'''kernelMatrix''']] to the inp
 |MDN_link=
 |HTML5Rocks_link=
 }}
+
+[[Category:SVG]]
