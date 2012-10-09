@@ -20,29 +20,31 @@ There are three ways to do this:
 <li>
 <p>Make a new HTML document, <code>doc5.html</code>. Copy and paste the content from here, making sure that you scroll to get all of it:
   
-<pre>&lt;!DOCTYPE html&gt;
-&lt;html&gt;
+<syntaxhighlight lang="html5">
+<!DOCTYPE html>
+<html>
 
-&lt;head&gt;
-&lt;title&gt;Mozilla CSS Getting Started - JavaScript demonstration&lt;/title&gt;
-&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;style5.css&quot; /&gt;
-&lt;script type=&quot;text/javascript&quot; src=&quot;script5.js&quot;&gt;&lt;/script&gt;
-&lt;/head&gt;
+<head>
+<title>Mozilla CSS Getting Started - JavaScript demonstration</title>
+<link rel="stylesheet" type="text/css" href="style5.css" />
+<script type="text/javascript" src="script5.js"></script>
+</head>
 
-&lt;body&gt;
-&lt;h1&gt;JavaScript sample&lt;/h1&gt;
+<body>
+<h1>JavaScript sample</h1>
 
-&lt;div id=&quot;square&quot;&gt;&lt;/div&gt;
+<div id="square"></div>
 
-&lt;button type=&quot;button&quot; onclick=&quot;doDemo(this);&quot;&gt;Click Me&lt;/button&gt;
+<button type="button" onclick="doDemo(this);">Click Me</button>
 
-&lt;/body&gt;
-&lt;/html&gt;</pre>
+</body>
+</html>
+</syntaxhighlight>
 </li>
 <li>
 <p>Make a new CSS file, <code>style5.css</code>. Copy and paste the content from here:</p>
 
-<pre>/*** JavaScript demonstration ***/
+<syntaxhighlight type="css">
 #square {
   width: 20em;
   height: 20em;
@@ -52,7 +54,7 @@ There are three ways to do this:
 
 button {
   padding: .5em 2em;
-}</pre>
+}</syntaxhighlight>
 
 </li>
 
@@ -60,7 +62,7 @@ button {
 <li>
 <p>Make a new text file, <code>script5.js</code>. Copy and paste the content from here:</p>
 
-<pre>// JavaScript demonstration
+<syntaxhighlight type="javascript">// JavaScript demonstration
 
 var square = document.getElementById("square"),
     clickMe = document.getElementById('clickMe'); //Keeping it unobstrusive
@@ -70,7 +72,7 @@ function doDemo () {
   var button = this;
   square.style.backgroundColor = "#fa4";
   button.setAttribute("disabled", "true");
-  setTimeout(clearDemo, 2000, button);
+  setTimeout(clearDemo, 2000, button); //After 2000 miliseconds, run clearDemo, which argument button.
 }
 
 function clearDemo (button) {
@@ -81,7 +83,7 @@ function clearDemo (button) {
 
 clickMe.onclick = doDemo; //Onclick call. Pass no arguments.
 
-</pre>
+</syntaxhighlight>
 </li>
 <li>
 <p>Open the document in your browser and press the button.</p>
