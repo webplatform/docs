@@ -5,12 +5,13 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Sets the pace of the transition to the next keyframe of an animation}}
 {{CSS Property
 |Initial value=ease
-|Applies to=block-level and inline-level elements
+|Applies to=all elements
 |Inherited=No
 |Media=visual
+|Computed value=as specified
 |Animatable=No
 |Values={{CSS Property Value
 |Data Type=cubic-bezier( x1, y1, x2, y2 )
@@ -44,14 +45,14 @@
 
 [[Image:msTransition-ease-in-out-cubic.png]]
 }}{{CSS Property Value
-|Data Type=steps( &lt;interval_number&gt; [, start  | end ])
+|Data Type=steps( &lt;number&gt; [, start  | end ])
 |Description=A stepped timing function that takes two parameters. The first parameter specifies the number of intervals; the optional second parameter specifies the point in the interval where the property value changes. The second parameter is constrained to the values <code>start</code> or <code>end</code>, which is the default.
 }}{{CSS Property Value
 |Data Type=step-start
-|Description=A stepped timing function that is equivalent to <code>steps(1, start)</code>.
+|Description=A stepped timing function that is equivalent to <code>steps(1, start)</code>. The change takes place at the start of the keyframe.
 }}{{CSS Property Value
 |Data Type=step-end
-|Description=A stepped timing function that is equivalent to <code>steps(1, end)</code>.
+|Description=A stepped timing function that is equivalent to <code>steps(1, end)</code>. The change takes place at the end of the keyframe.
 }}
 }}
 {{Examples_Section
@@ -59,8 +60,11 @@
 |Examples=
 }}
 {{Notes_Section
-|Notes====Remarks===
-The version of this property using a vendor prefix, '''-ms-animation-timing-function''', has been deprecated. To ensure compatibility in the future, applications using this property with a vendor prefix should be updated accordingly.
+|Usage=The <code>animation-timing-function</code> property controls how the browser calculates intermediate values between each keyframe. It does not apply to the entire animation.
+
+This property can be added to individual keyframes in the <code>@keyframes</code> rule, or to a style rule that applies an animation to an element. When specified in a style rule, this property sets the default timing function for each keyframe, but values specified for individual keyframes in an <code>@keyframes</code> rule take precedence. If no value is set, the default <code>ease</code> is applied.
+
+In common with other animation properties, multiple values separated by commas are applied to animations in the same order as they are listed in <code>animation-name</code>. Excess values are ignored. If there are fewer values than animations, the browser the browser cycles through them again until each animation has been assigned a timing function. 
 |Import_Notes====Syntax===
 <code>'''animation-timing-function: '''cubic-bezier( x1, y1, x2, y2 ) '''{{!}}''' ease '''{{!}}''' linear '''{{!}}''' ease-in '''{{!}}''' ease-out '''{{!}}''' ease-in-out '''{{!}}''' steps( &lt;interval_number&gt; [, start  {{!}} end ]) '''{{!}}''' step-start '''{{!}}''' step-end '''[''' ,  cubic-bezier( x1, y1, x2, y2 ) '''{{!}}''' ease '''{{!}}''' linear '''{{!}}''' ease-in '''{{!}}''' ease-out '''{{!}}''' ease-in-out '''{{!}}''' steps( &lt;interval_number&gt; [, start  {{!}} end ]) '''{{!}}''' step-start '''{{!}}''' step-end ''']''' *</code>
 ===Standards information===
@@ -71,9 +75,67 @@ The version of this property using a vendor prefix, '''-ms-animation-timing-func
 }}
 {{Compatibility_Section
 |Not_required=No
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
+|Desktop_rows={{Compatibility Table Desktop Row
+|Chrome_supported=No
+|Chrome_version=
+|Chrome_prefixed_supported=Yes
+|Chrome_prefixed_version=4.0
+|Firefox_supported=Yes
+|Firefox_version=16.0
+|Firefox_prefixed_supported=Yes
+|Firefox_prefixed_version=5.0
+|Internet_explorer_supported=Yes
+|Internet_explorer_version=10.0
+|Internet_explorer_prefixed_supported=No
+|Internet_explorer_prefixed_version=
+|Opera_supported=Yes
+|Opera_version=12.1
+|Opera_prefixed_supported=Yes
+|Opera_prefixed_version=12.0
+|Safari_supported=No
+|Safari_version=
+|Safari_prefixed_supported=Yes
+|Safari_prefixed_version=3.1
+}}
+|Mobile_rows={{Compatibility Table Mobile Row
+|Android_supported=No
+|Android_version=
+|Android_prefixed_supported=Yes
+|Android_prefixed_version=2.1
+|Blackberry_supported=No
+|Blackberry_version=
+|Blackberry_prefixed_supported=Yes
+|Blackberry_prefixed_version=7.0
+|Chrome_mobile_supported=No
+|Chrome_mobile_version=
+|Chrome_mobile_prefixed_supported=Yes
+|Chrome_mobile_prefixed_version=18.0
+|Firefox_mobile_supported=No
+|Firefox_mobile_version=
+|Firefox_mobile_prefixed_supported=Yes
+|Firefox_mobile_prefixed_version=15.0
+|IE_mobile_supported=Unknown
+|IE_mobile_version=
+|IE_mobile_prefixed_supported=Unknown
+|IE_mobile_prefixed_version=
+|Opera_mobile_supported=Yes
+|Opera_mobile_version=12.1
+|Opera_mobile_prefixed_supported=No
+|Opera_mobile_prefixed_version=
+|Opera_mini_supported=No
+|Opera_mini_version=
+|Opera_mini_prefixed_supported=No
+|Opera_mini_prefixed_version=
+|Safari_mobile_supported=No
+|Safari_mobile_version=
+|Safari_mobile_prefixed_supported=Yes
+|Safari_mobile_prefixed_version=3.2
+}}
+|Notes_rows={{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=10.0
+|Note=The -ms- prefix property is deprecated and should not be used.
+}}
 }}
 {{See_Also_Section
 |Topic_clusters=Animation
