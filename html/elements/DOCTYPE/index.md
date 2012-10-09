@@ -18,7 +18,7 @@
 |Specifications=
 }}
 {{Compatibility_Section
-|Not_required=No
+|Not_required=Yes
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
