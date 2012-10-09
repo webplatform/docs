@@ -3,7 +3,7 @@
 |High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Controls the state of animated properties before and after an animation}}
 {{CSS Property
@@ -79,8 +79,8 @@ If multiple values are set as a comma-separated list, each value is applied to t
 |Chrome_mobile_version=
 |Chrome_mobile_prefixed_supported=Yes
 |Chrome_mobile_prefixed_version=18.0
-|Firefox_mobile_supported=No
-|Firefox_mobile_version=
+|Firefox_mobile_supported=Yes
+|Firefox_mobile_version=16.0
 |Firefox_mobile_prefixed_supported=Yes
 |Firefox_mobile_prefixed_version=15.0
 |IE_mobile_supported=Unknown
