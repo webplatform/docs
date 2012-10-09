@@ -35,7 +35,7 @@ function handleFileSelect(e){
     // get the FileList object from the file select event
     var files = e.target.files;
     
-    // check if there are files in the file list
+    // check if there are files in the FileList
     if(files.length === 0){
         return;
     }
