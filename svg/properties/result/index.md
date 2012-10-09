@@ -40,3 +40,4 @@ Note that this is not an XML ID. The scope of this value is local to the filter.
 |MDN_link=
 |HTML5Rocks_link=
 }}
+[[Category:SVG]]
