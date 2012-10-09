@@ -15,10 +15,10 @@
 |Language=HTML
 |Description=This example shows two DIVs, one inside the other, that define a main content section, then a subsection within that. Each DIV is semantically defined using a class or ID.
 |Code=&lt;DIV id{{=}}&quot;mainContent&quot; &gt;
-:&lt;h1&gt;The HTML Times&lt;/h1&gt;
-:&lt;DIV class{{=}}&quot;sportsSection&quot; &gt;
-::&lt;h2&gt;Sports&lt;/h2&gt;
-:&lt;/DIV&gt;
+   &lt;h1&gt;The HTML Times&lt;/h1&gt;
+   &lt;DIV class{{=}}&quot;sportsSection&quot; &gt;
+      &lt;h2&gt;Sports&lt;/h2&gt;
+   &lt;/DIV&gt;
 &lt;/DIV&gt;
 }}
 }}
