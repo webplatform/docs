@@ -199,11 +199,11 @@ As the environment JavaScript is being applied to is very much unknown (users ca
 {{See_Also_Section
 |Manual_sections==== Exercise Questions ===
  
-* What does the following link do and what problems can that cause?   <pre>&lt;a href="javascript: open('tac.pdf')"&gt;Read our Terms and Conditions&lt;/a&gt;</code> </pre>
-* Providing parameters for scripts is a powerful way of making them reusable. It is very important to keep the option to provide compact and easy to use parameters. What are the downsides of the following solution (which provides parameters that are compact and easy to use)?   <pre>&lt;script src="badge.js"&gt; var color = 'blue'; var background = 'yellow'; var width = 400; &lt;/script&gt;</pre>
+* What does the following link do and what problems can that cause?   <syntaxhighlight lang="html5"><a href="javascript: open('tac.pdf')">Read our Terms and Conditions</a></syntaxhighlight>
+* Providing parameters for scripts is a powerful way of making them reusable. It is very important to keep the option to provide compact and easy to use parameters. What are the downsides of the following solution (which provides parameters that are compact and easy to use)?   <syntaxhighlight lang="html5"><script src="badge.js"> var color = 'blue'; var background = 'yellow'; var width = 400; </script></syntaxhighlight>
 * What is the issue with so called “global variables”, and how can they be avoided?
 * Where in the document would you put a large script that is nice to have but not vital to the functionality of the site? Why?
-* What is the problem with executing scripts like this:   <pre>&lt;body onload="init()"&gt;</code> </pre>
+* What is the problem with executing scripts like this:   <syntaxhighlight lang="html5"><body onload="init()"></syntaxhighlight>
 }}
 {{Topics|JavaScript}}
 {{External_Attribution
