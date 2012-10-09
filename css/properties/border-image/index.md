@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Missing Relevant Sections, Needs Topics, Undescriptive Title
+|High-level issues=Missing Relevant Sections, Needs Topics
 |Content=Examples Needed
 }}
 {{Standardization_Status|W3C Recommendation}}
