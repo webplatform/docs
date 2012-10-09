@@ -29,3 +29,5 @@ If you call the '''setCurrentTime''' method before the document timeline has beg
 |MDN_link=
 |HTML5Rocks_link=
 }}
+
+[[Category:SVG]]
