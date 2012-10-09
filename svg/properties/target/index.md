@@ -57,3 +57,5 @@ Use '''target'''  when there are multiple possible targets for the ending resour
 |MDN_link=
 |HTML5Rocks_link=
 }}
+
+[[Category:SVG]]
