@@ -29,3 +29,4 @@ If no value is specified for the '''limitingConeAngle''' attribute, then no limi
 |MDN_link=
 |HTML5Rocks_link=
 }}
+[[Category:SVG]]
