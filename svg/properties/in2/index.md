@@ -32,3 +32,4 @@ For additional information, see [[svg/properties/in1|'''in''']].
 |MDN_link=
 |HTML5Rocks_link=
 }}
+[[Category:SVG]]
