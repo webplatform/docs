@@ -1,24 +1,35 @@
+{{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{Markup_Attribute
 |Property_applies_to=dom/HTMLElement
 }}
-{{Topics|HTML}}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 Unless explicitly set, the '''dir''' property has no return value when accessed in script.
-The property does not affect alphanumeric characters in Latin documents. These characters always render '''ltr'''.  However, the property does affect punctuation characters in Latin documents. For example, punctuation marks such as periods and question marks render to the left of a sentence when the [[dom/properties/dir (Document object)|'''dir''']] property is set to '''rtl'''.
-|Import_Notes=
-===Syntax===
+The property does not affect alphanumeric characters in Latin documents. These characters always render '''ltr'''.  However, the property does affect punctuation characters in Latin documents. For example, punctuation marks such as periods and question marks render to the left of a sentence when the [[dom/properties/dir (Document object)|'''dir''']] property is set to '''rtl'''. The real benefit of this attribute is when using '''rtl''' languages such as Arabic and Hebrew. These can be some of the most challenging languages to write '''HTML''' with especially because html in itself is a left-to-right programming language.
+|Import_Notes====Syntax===
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 *<code>[[html/elements/a|a]]</code>
 *<code>abbr</code>
 *<code>[[html/elements/acronym|acronym]]</code>
@@ -108,12 +119,12 @@ The property does not affect alphanumeric characters in Latin documents. These c
 *<code>[[css/properties/direction|direction]]</code>
 *<code>Conceptual</code>
 *<code>HTML Character Sets</code>
-|Topic_clusters=html
 }}
+{{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
