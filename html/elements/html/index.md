@@ -21,14 +21,16 @@
     <h1>Hello World!</h1>
     <p>
       This is an example web page marked up using HTML.
-   </p>
+    </p>
   </body>
 </html>
 </syntaxhighlight>
 }}
 {{Examples_Section
-|Not_required=No
-|Examples=
+|Not_required=Yes
+|Examples={{Single Example
+|Language=HTML
+}}
 }}
 {{Notes_Section
 |Notes====Remarks===
