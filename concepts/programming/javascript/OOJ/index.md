@@ -1,5 +1,6 @@
 {{Page_Title|Introduction to object-oriented JavaScript}}
-{{Flags}}
+{{Flags
+}}
 {{Summary_Section|JavaScript has strong object-oriented programming capabilities, even though some debates have taken place due to the differences in object-oriented JavaScript compared to other languages.
 
 This article starts with an introduction to object-oriented programming, then reviews the JavaScript object model, and finally demonstrates concepts of object-oriented programming in JavaScript.
