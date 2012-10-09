@@ -33,3 +33,4 @@ When  the static contents are normalized, all path data commands are expressed i
 |MDN_link=
 |HTML5Rocks_link=
 }}
+[[Category:SVG]]
