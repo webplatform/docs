@@ -30,3 +30,4 @@ If you do not specify the '''gradientTransform'''  property, the gradient effect
 |MDN_link=
 |HTML5Rocks_link=
 }}
+[[Category:SVG]]
