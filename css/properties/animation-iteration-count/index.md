@@ -3,7 +3,7 @@
 |High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Specifies how many times an animation cycle should play}}
 {{CSS Property
@@ -81,8 +81,8 @@ Multiple values separated by commas are applied to the corresponding animations 
 |Chrome_mobile_version=
 |Chrome_mobile_prefixed_supported=Yes
 |Chrome_mobile_prefixed_version=18.0
-|Firefox_mobile_supported=No
-|Firefox_mobile_version=
+|Firefox_mobile_supported=Yes
+|Firefox_mobile_version=16.0
 |Firefox_mobile_prefixed_supported=Yes
 |Firefox_mobile_prefixed_version=15.0
 |IE_mobile_supported=Unknown
