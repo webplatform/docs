@@ -17,4 +17,4 @@
 
 '''Browser Compatibility'''
 
-'''Links to used Objects, Functions'''
+'''Links to used Object, Function Docs'''
