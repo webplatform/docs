@@ -29,3 +29,4 @@ If you do not specify the '''markerUnits''' property, the effect is the same as 
 |MDN_link=
 |HTML5Rocks_link=
 }}
+[[Category:SVG]]
