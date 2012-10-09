@@ -59,3 +59,4 @@ The returned element is often the nearest ancestor [[svg/objects/SVGElement|'''s
 |MDN_link=
 |HTML5Rocks_link=
 }}
+[[Category:SVG]]
