@@ -1,9 +1,8 @@
 {{Page_Title|The basics of HTML}}
-{{Flags
-}}
+{{Flags}}
 {{Byline}}
 {{Summary_Section|In this article, you will learn the basics of HTML, where it has
-evolved from and have some insight into the structure and content of an HTML
+evolved from and gain some insight into the structure and content of an HTML
 document.
 }}
 {{Guide
@@ -22,7 +21,7 @@ article such as the author, the date the document was last modified,
 even things such a list of changes made so you can go back and forth
 between versions.
  
-[[HTML]] (“HyperText Markup Language”) is a language to describe the 
+[[HTML (“HyperText Markup Language”)|html]] is a language to describe the 
 contents of web documents. It uses a special syntax containing
 markers (called “elements”) which are wrapped around the text within
 the document to indicate how user agents (eg. web browsers) should interpret that
@@ -31,8 +30,7 @@ portion of the document.
 A user agent is any software that is used to access web
 pages on behalf of users. There is an important distinction to be made
 here—all types of desktop browser software (Internet Explorer, Opera,
-Firefox, Safari, Chrome etc.) and alternative browsers for other devices (such as the Wii Internet channel,
-and mobile phone browsers such as Opera Mini and WebKit on the iPhone) 
+Firefox, Safari, Chrome etc.) and alternative browsers for other devices (such as the Wii Internet channel, and mobile phone browsers such as Opera Mini and WebKit on the iPhone) 
 are user agents, but not all user agents are
 browser software. The automated programs that Google and Yahoo! use
 to index the web to use in their search engines are also user agents,
