@@ -27,3 +27,5 @@ The animation clock resumes from the time when it was suspended.
 |MDN_link=
 |HTML5Rocks_link=
 }}
+
+[[Category:SVG]]
