@@ -29,3 +29,4 @@ You can animate this property.
 |MDN_link=
 |HTML5Rocks_link=
 }}
+[[Category:SVG]]
