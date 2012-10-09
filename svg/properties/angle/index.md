@@ -31,3 +31,5 @@ In the SVG DOM, '''angle''' values are represented by using [[svg/objects/SVGAng
 |MDN_link=
 |HTML5Rocks_link=
 }}
+
+[[Category:SVG]]
