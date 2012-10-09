@@ -30,3 +30,4 @@ If the '''mode''' attribute is not specified, then the effect is as if a value o
 |MDN_link=
 |HTML5Rocks_link=
 }}
+[[Category:SVG]]
