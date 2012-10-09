@@ -27,3 +27,4 @@ Often, the current viewport is the nearest ancestor [[svg/objects/SVGElement|'''
 |MDN_link=
 |HTML5Rocks_link=
 }}
+[[Category:SVG]]
