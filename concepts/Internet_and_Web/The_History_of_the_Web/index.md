@@ -1,5 +1,6 @@
 {{Page_Title|The history of the web}}
-{{Flags}}
+{{Flags
+}}
 {{API_Name}}
 {{Summary_Section|<blockquote> 
 Where shall I begin, please your Majesty?
