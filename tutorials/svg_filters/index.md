@@ -3,7 +3,7 @@
 |High-level issues=Stub
 }}
 {{Byline}}
-{{Summary_Section|This article provides a basic introduction to SVG filters}}
+{{Summary_Section|This article provides a basic introduction to SVG filters.}}
 {{Tutorial}}
 {{Notes_Section}}
 {{Compatibility_Section
