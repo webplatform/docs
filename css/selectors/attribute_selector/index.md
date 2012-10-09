@@ -68,3 +68,4 @@ The following selector represents an HTML paragraph with a title attribute whose
 
 p[title*="hello"]
 </pre></code>
+[[Category:CSS]]
