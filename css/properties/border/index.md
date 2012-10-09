@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Shorthand property that defines all the properties of an element's border in a single declaration}}
 {{CSS Property
 |Applies to=All elements
 |Inherited=No
