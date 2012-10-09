@@ -8,7 +8,9 @@
 |List_all_subpages=Yes
 }}
 {{Notes_Section}}
-{{See_Also_Section}}
+{{See_Also_Section
+|External_links=http://www.xpertdeveloper.com/2012/08/media-queries-for-responsive-design/
+}}
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
