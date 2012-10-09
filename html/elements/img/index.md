@@ -14,7 +14,7 @@
 |Examples={{Single Example
 |Language=HTML
 |Description=The following example shows how to use the '''img''' element to embed an image on a page.
-|Code=&lt;img src{{=}}"logo.gif" width{{=}}"420" height{{=}}"120" title{{=}}"MyCorp Logo"&gt;
+|Code=&lt;img src{{=}}"logo.gif" width{{=}}"420" height{{=}}"120" alt{{=}}"MyCorp Logo"&gt;
 }}
 }}
 {{Notes_Section
