@@ -14,7 +14,7 @@ The <code>body</code> (the <code><body></body></code> tags and everything in bet
 
 == Setting the document’s primary language ==
  
-One piece of information about the document goes on the parent of the <code>head</code>, the <code>html</code> element. It is here that we define the primary natural language of the document. By natural language, we mean ''human'' language, such as French, Thai or even English. This helps screen readers, because for example the word "six" is pronounced very differently in French and English. It's a good idea to define the primary language of a document, especially when you are writing pages for an international audience; you don't tend to see that many pages that use it, however. You set it as follows:
+One piece of information about the document goes on the parent of the <code>head</code>, the <code>html</code> element. It is here that we define the primary natural language of the document. By natural language, we mean ''human'' language, such as French, Thai or even English. This helps screen readers, because for example the word "six" is pronounced very differently in French and English. It's a good idea to define the primary language of a document, especially when you are writing pages for an international audience. It is becoming increasingly important for correct styling of your page, it can help with spellchecking, and other things. You set it as follows:
  
 <syntaxhighlight lang="html5"><html lang="en-GB">
   ...
@@ -22,13 +22,15 @@ One piece of information about the document goes on the parent of the <code>head
 
 If you don't do it, Google along with other search engines might find it difficult to crawl your site, or take longer than anticipated.
  
-Note that you can also set the language of sub sections of your document by using the <code>lang</code> attribute on other elements, for example <code><span lang="fr">Bonjour</span></code>.
+Note that you can also set the language of sub sections of your document by using the <code>lang</code> attribute on other elements, for example <code>&lt;span lang="fr">Bonjour&lt;/span></code>.
  
 The attributes you use to set the language depend on the <code>doctype</code> of your document. The [http://www.w3.org/TR/i18n-html-tech-lang/#ri20040429.092928424 W3C says]
 
- <blockquote>For HTML use the <code>lang</code> attribute only, for XHTML 1.0 served as text/html use the  <code>lang</code>  and  <code>xml:lang</code>  attributes, and for XHTML served as XML use the  <code>xml:lang</code>  attribute only.</blockquote> 
+ <blockquote>For HTML use the <code>lang</code> attribute only, for XHTML 1.0 served as text/html or HTML5 polyglot documents use the <code>lang</code>  and  <code>xml:lang</code>  attributes, and for XHTML served as XML use the  <code>xml:lang</code>  attribute only.</blockquote> 
 
-The language codes may be two-letter codes, such as <code>en</code> for English, four-letter codes such as <code>en-US</code> for American English, or other, less common, codes. The two-letter codes are defined in [http://en.wikipedia.org/wiki/ISO_639-1 ISO 639-1], although modern best practice dictates that you should [http://www.w3.org/International/articles/language-tags/ use the IANA subtag registry for your language code definitions].
+Language
+The simplest language tag value is a two-letter code, such as <code>en</code> for English, but you can also combine multiple subtags with hyphens to give more detail where needed. For example, <code>en-GB</code> signals British English. <code>zh-hans</code> signals Simplified Chinese. The language tags are defined in [http://www.w3.org/International/articles/language-tags/ the IANA subtag registry]. (You can also search for subtags using Richard Ishida's [http://rishida.net/utils/subtags/ Language Subtag Lookup] tool.) See more information about [http://www.w3.org/International/questions/qa-choosing-language-tags Choosing a Language Tag].
+
 
 ==Setting your document's character encoding==
 
@@ -37,6 +39,10 @@ One new feature HTML5 includes is a special element for setting the character en
 <syntaxhighlight lang="html5"><meta charset="utf-8" /></syntaxhighlight>
 
 Don't worry too much about this for now. <code>utf-8</code> is the universal character encoding, which includes pretty much any character that you might want to use on a web page, from any common human language, so it is a good idea to declare this to make sure you HTML has full international capabilities. In addition, you can avoid a [http://code.google.com/p/doctype/wiki/ArticleUtf7 serious Internet Explorer security risk] by declaring it in the first 512 bytes of the page. So just below the <code><head></code> tag is fine. This is what all the below examples will do.
+
+It is, however, important to understand that just putting <code>&lt;meta charset="utf-8" /></code> in your title element doesn't magically convert your page to a UTF-8 encoding. You need to actually save your document as UTF-8. Most editors will allow you to do that these days.
+
+For a gentle introduction to character encodings, see the article [http://www.w3.org/International/getting-started/characters Introducing Character Sets and Encodings].
 
 == Judging a document by its title ==
  
