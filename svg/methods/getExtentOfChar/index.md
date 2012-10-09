@@ -32,3 +32,5 @@ The calculations for the rectangle  assume that all glyphs occupy the full stand
 |MDN_link=
 |HTML5Rocks_link=
 }}
+
+[[Category:SVG]]
