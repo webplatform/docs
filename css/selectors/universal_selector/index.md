@@ -27,3 +27,4 @@ ns|* all elements in namespace ns
 </pre></code>
 
 A universal selector containing a namespace prefix that has not been previously declared is an invalid selector.
+[[Category:CSS]]
