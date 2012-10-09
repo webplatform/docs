@@ -1108,13 +1108,6 @@ Although the red div precedes the green one in the markup, and would have been p
 ## Firefox. https://developer.mozilla.org/en/Build_Documentation
 ## Webkit. http://webkit.org/building/build.html
 
-[[Image:308x400wimage017.png.pagespeed.ic.BGy2jYmiQr.jpeg]]
-
-[http://taligarsiel.com/ Tali Garsiel] is a developer in Israel. She started as a web developer in 2000, and became aquainted with Netscape's "evil" layer model. Just like Richard Feynmann, she had a fascination for figuring out how things work so she began digging into browser internals and documenting what she found. Tali also has published a short [http://taligarsiel.com/ClientSidePerformance.html guide on client-side performance].
-
-====Translations====
-
-This page has been translated into Japanese, twice! [http://cou929.nu/docs/how-browsers-work/ How Browsers Work - Behind the Scenes of Modern Web Browsers (ja)] by [https://twitter.com/#!/_kosei_ @_kosei_] and also [http://shanon-tech.blogspot.com/2011/09/web.html ブラウザってどうやって動いてるの？（モダンWEBブラウザシーンの裏側] by [https://twitter.com/#!/ikeike443 @ikeike443] and [https://twitter.com/#!/kiyoto01 @kiyoto01]. Thanks everyone!
 }}
 {{Compatibility_Section
 |Not_required=Yes
