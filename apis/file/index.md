@@ -1,5 +1,8 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|High-level issues=Missing Relevant Sections, Needs Topics
+|Content=Incomplete
+}}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section}}
