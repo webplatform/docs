@@ -72,8 +72,8 @@ Some examples of legal names are <code>Number_hits</code>, <code>temp99</code>, 
 
 You can declare a variable in two ways:
 
-* With the keyword [[js/statements/var|var]]. For example, <code>var x = 42</code>. This syntax can be used to declare both [[#Variable_Scope|local and global]] variables.
-* By simply assigning it a value. For example, <code>x = 42</code>. This always declares a [[#Global_Variables|global variable]] and generates a strict JavaScript warning. You shouldn't use this variant.
+* With the keyword [[js/statements/var|var]]. For example, <code>var x = 42</code>. This syntax can be used to declare both [[#Variable_scope|local and global]] variables.
+* By simply assigning it a value. For example, <code>x = 42</code>. This always declares a [[#Global_variables|global variable]] and generates a strict JavaScript warning. You shouldn't use this variant.
 
 ===Evaluating variables===
 
