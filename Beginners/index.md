@@ -8,7 +8,7 @@ In this course, you'll be writing a lot of code, and testing it out in web brows
 
 <ol>
   <li>The newest browsers you are able to install. If you don't have them already, grab them from the homepages of [[http://www.getfirefox.net/ Firefox]], [[http://www.opera.com Opera]], [[http://www.apple.com/safari/ Safari]], [[http://www.google.com/chrome Chrome]], and [[http://windows.microsoft.com/en-GB/internet-explorer/products/ie/home Internet Explorer]].</li>
-  <li>A decent text editor. Reasonable free options are [[http://notepad-plus-plus.org/ Notepad++]] for Windows, [[http://www.barebones.com/products/TextWrangler/ Text Wrangler]], for Mac, and [[http://bluefish.openoffice.nl/index.html Bluefish]] for Linux. Another one is [[http://www.sublimetext.com/ Sublime Text]] witch runs on all platforms.</li>
+  <li>A decent text editor. Reasonable free options are [[http://notepad-plus-plus.org/ Notepad++]] for Windows, [[http://www.barebones.com/products/TextWrangler/ Text Wrangler]], for Mac, and [[http://bluefish.openoffice.nl/index.html Bluefish]] for Linux. Another one is [[http://www.sublimetext.com/ Sublime Text]] which runs on all platforms.</li>
 </ol>
 
 Now roll your sleeves up and let's get ready to learn. [[http://docs.webplatform.org/wiki/tutorials Browse our full list of learning articles]] if you exhaust the list of articles here, and want to learn more!
