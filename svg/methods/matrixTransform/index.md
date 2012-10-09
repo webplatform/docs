@@ -28,3 +28,5 @@ Using the above terminology, the follow pseudo-code describes the order of the t
 |MDN_link=
 |HTML5Rocks_link=
 }}
+
+[[Category:SVG]]
