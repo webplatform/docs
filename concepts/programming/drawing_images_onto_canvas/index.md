@@ -110,6 +110,10 @@ function handleFileSelect(e){
     img.src = imageData;
 }</nowiki>
 
+Now that we have our Image loaded, we can draw it onto a Canvas. Let´s create a Canvas first:
+
+
+
 
 '''TODO:''' Add Descriptions and sample Code
 
@@ -128,7 +132,11 @@ function handleFileSelect(e){
 
 * FileReader.readAsDataURL(file) instead of window.URL.createObject(file) - pros/cons
 
-'''Using WebGL for drawing?'''
+'''Using WebWorker for Drawing?'''
+
+* Draw inside a Worker so the drawing doesn´t block User interactions
+
+'''Using WebGL for Drawing?'''
 
 * WebGL is a 2D API!
 * How does it work? (context 3d, shader)
