@@ -5,31 +5,35 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Shorthand property that defines all the properties of an animation in a single declaration}}
 {{CSS Property
 |Initial value=(see individual properties)
-|Applies to=block-level and inline-level elements
+|Applies to=all elements
 |Inherited=No
 |Media=visual
+|Computed value=(see individual properties)
 |Animatable=No
 |Values={{CSS Property Value
-|Data Type=animation-name
-|Description=Value of the [[css/properties/animation-name|'''animation-name''']] property.
-}}{{CSS Property Value
-|Data Type=animation-duration
-|Description=Value of the [[css/properties/animation-duration|'''animation-duration''']] property.
-}}{{CSS Property Value
-|Data Type=animation-timing-function
-|Description=Value of the [[css/properties/animation-timing-function|'''animation-timing-function''']] property.
-}}{{CSS Property Value
-|Data Type=animation-delay
-|Description=Value of the [[css/properties/animation-delay|'''animation-delay''']] property.
-}}{{CSS Property Value
-|Data Type=animation-iteration-count
-|Description=Value of the [[css/properties/animation-iteration-count|'''animation-iteration-count''']] property.
-}}{{CSS Property Value
-|Data Type=animation-direction
-|Description=Value of the [[css/properties/animation-direction|'''animation-direction''']] property.
+|Data Type=single-animation
+|Description=A space-separated list of values for each of the individual animation properties. The animation name and duration are required. All other values are optional.
+
+;<code>&lt;single-animation-name&gt;</code>
+:Value of the [[css/properties/animation-name|'''animation-name''']] property.
+;<code>&lt;single-animation-duration&gt;</code>
+:Value of the [[css/properties/animation-duration|'''animation-duration''']] property.
+;<code>&lt;single-animation-timing-function&gt;</code>
+:Value of the [[css/properties/animation-timing-function|'''animation-timing-function''']] property.
+;<code>&lt;single-animation-delay&gt;</code>
+:Value of the [[css/properties/animation-delay|'''animation-delay''']] property.
+;<code>&lt;single-animation-iteration-count&gt;</code>
+:Value of the [[css/properties/animation-iteration-count|'''animation-iteration-count''']] property.
+;<code>&lt;single-animation-direction&gt;</code>
+:Value of the [[css/properties/animation-direction|'''animation-direction''']] property.
+;<code>&lt;single-animation-fill-mode&gt;</code>
+:Value of the [[css/properties/animation-fill-mode|'''animation-fill-mode''']] property.
+
+'''Note''' The first <code>&lt;time&gt;</code> value is assigned to the '''animation-duration'''. The second <code>&lt;time&gt;</code> value is assigned to the '''animation-delay'''.
+
 }}
 }}
 {{Examples_Section
@@ -37,8 +41,9 @@
 |Examples=
 }}
 {{Notes_Section
-|Notes====Remarks===
-The version of this property using a vendor prefix, '''-ms-animation''', has been deprecated. To ensure compatibility in the future, applications using this property with a vendor prefix should be updated accordingly.
+|Usage=The <code>animation</code> shorthand property combines all animation properties except <code>animation-play-state</code> in a single declaration. The name and duration of the animation are required, but all other values are optional. When two <code>&lt;time&gt;</code> values are supplied, the first is assigned to the duration, and the second to the delay.
+
+Values for a single animation are separated by spaces. Multiple animations can be assigned as a comma-separated list.
 |Import_Notes====Syntax===
 <code>'''animation: ''''''[''' ''animation-name'' '''{{!}}{{!}}''' ''animation-duration'' '''{{!}}{{!}}''' ''animation-timing-function'' '''{{!}}{{!}}''' ''animation-delay'' '''{{!}}{{!}}''' ''animation-iteration-count'' '''{{!}}{{!}}''' ''animation-direction'' ''']''' '''[''' ,  '''[''' ''animation-name'' '''{{!}}{{!}}''' ''animation-duration'' '''{{!}}{{!}}''' ''animation-timing-function'' '''{{!}}{{!}}''' ''animation-delay'' '''{{!}}{{!}}''' ''animation-iteration-count'' '''{{!}}{{!}}''' ''animation-direction'' ''']''' ''']''' *</code>
 ===Standards information===
@@ -49,9 +54,67 @@ The version of this property using a vendor prefix, '''-ms-animation''', has bee
 }}
 {{Compatibility_Section
 |Not_required=No
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
+|Desktop_rows={{Compatibility Table Desktop Row
+|Chrome_supported=No
+|Chrome_version=
+|Chrome_prefixed_supported=Yes
+|Chrome_prefixed_version=4.0
+|Firefox_supported=Yes
+|Firefox_version=16.0
+|Firefox_prefixed_supported=Yes
+|Firefox_prefixed_version=5.0
+|Internet_explorer_supported=Yes
+|Internet_explorer_version=10.0
+|Internet_explorer_prefixed_supported=No
+|Internet_explorer_prefixed_version=
+|Opera_supported=Yes
+|Opera_version=12.1
+|Opera_prefixed_supported=Yes
+|Opera_prefixed_version=12.0
+|Safari_supported=No
+|Safari_version=
+|Safari_prefixed_supported=Yes
+|Safari_prefixed_version=3.1
+}}
+|Mobile_rows={{Compatibility Table Mobile Row
+|Android_supported=No
+|Android_version=
+|Android_prefixed_supported=Yes
+|Android_prefixed_version=2.1
+|Blackberry_supported=No
+|Blackberry_version=
+|Blackberry_prefixed_supported=Yes
+|Blackberry_prefixed_version=7.0
+|Chrome_mobile_supported=No
+|Chrome_mobile_version=
+|Chrome_mobile_prefixed_supported=Yes
+|Chrome_mobile_prefixed_version=18.0
+|Firefox_mobile_supported=Yes
+|Firefox_mobile_version=16.0
+|Firefox_mobile_prefixed_supported=Yes
+|Firefox_mobile_prefixed_version=15.0
+|IE_mobile_supported=Unknown
+|IE_mobile_version=
+|IE_mobile_prefixed_supported=Unknown
+|IE_mobile_prefixed_version=
+|Opera_mobile_supported=Yes
+|Opera_mobile_version=12.1
+|Opera_mobile_prefixed_supported=No
+|Opera_mobile_prefixed_version=
+|Opera_mini_supported=No
+|Opera_mini_version=
+|Opera_mini_prefixed_supported=No
+|Opera_mini_prefixed_version=
+|Safari_mobile_supported=No
+|Safari_mobile_version=
+|Safari_mobile_prefixed_supported=Yes
+|Safari_mobile_prefixed_version=3.2
+}}
+|Notes_rows={{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=10.0
+|Note=The -ms- prefix property is deprecated and should not be used.
+}}
 }}
 {{See_Also_Section
 |Topic_clusters=Animation
