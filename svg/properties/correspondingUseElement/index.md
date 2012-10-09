@@ -27,3 +27,5 @@ When [[svg/elements/use|'''use''']] elements are nested, the corresponding '''us
 |MDN_link=
 |HTML5Rocks_link=
 }}
+
+[[Category:SVG]]
