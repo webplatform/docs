@@ -28,3 +28,5 @@ The larger the base frequency number, the more quickly the colors change. The nu
 |MDN_link=
 |HTML5Rocks_link=
 }}
+
+[[Category:SVG]]
