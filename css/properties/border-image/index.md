@@ -12,6 +12,8 @@
 |Media=visual
 |Animatable=No
 |Values={{CSS Property Value
+|Data Type=none
+}}{{CSS Property Value
 |Data Type=border-image-source
 }}{{CSS Property Value
 |Data Type=border-image-slice
@@ -25,7 +27,10 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|Code=border-image: url('image.png') fill auto repeat;
+}}
 }}
 {{Notes_Section
 |Notes=Firefox 15 requires border-style to be set (for example 'solid') in order to display.
