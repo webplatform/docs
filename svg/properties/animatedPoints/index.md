@@ -30,3 +30,5 @@ If the given attribute or property is being animated,  the '''animatedPoints''' 
 |MDN_link=
 |HTML5Rocks_link=
 }}
+
+[[Category:SVG]]
