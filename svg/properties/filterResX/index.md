@@ -33,3 +33,4 @@ a suitable resolution appropriate to the output device.
 |MDN_link=
 |HTML5Rocks_link=
 }}
+[[Category:SVG]]
