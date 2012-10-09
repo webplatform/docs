@@ -33,3 +33,5 @@ The total text advance distance includes the advance values on the glyphs (horiz
 |MDN_link=
 |HTML5Rocks_link=
 }}
+
+[[Category:SVG]]
