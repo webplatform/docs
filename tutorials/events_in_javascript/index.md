@@ -31,20 +31,20 @@ Event bubbling works in exactly the opposite manner: it begins by checking the t
  
 In the early days of JavaScripting, we used event handlers directly within the HTML element, like this:
  
-<pre>&lt;a href="http://www.opera.com/" onclick="alert('Hello')"&gt;Say hello&lt;/a&gt;</pre>
+<syntaxhighlight lang="html5"><a href="http://www.opera.com/" onclick="alert('Hello')">Say hello</a></syntaxhighlight>
  
 The problem with this approach is that it resulted in event handlers spread throughout the code, no central control and missing out on web browsers' caching features when it comes to external JavaScript file includes.
 
 The next step in event evolution was to apply events from within a JavaScript block, for example:
  
-<pre>&lt;script type="text/javascript"&gt;
+<syntaxhighlight lang="html5"><script type="text/javascript">
   document.getElementById("my-link").onclick = waveToAudience;
     function waveToAudience() {
       alert("Waving like I've never waved before!");
     }
-&lt;/script&gt;
+</script>
 
-&lt;a id="my-link" href="http://www.opera.com/"&gt;My link&lt;/a&gt;</pre>
+<a id="my-link" href="http://www.opera.com/">My link</a></syntaxhighlight>
  
 Note the clean HTML in the last example. This is generally what’s referred to as unobtrusive JavaScript. The benefit of this, besides JavaScript caching and code control, is code separation: you have all your content in one location and your interaction code in another. This also allows for a more accessible approach where the link will work perfectly fine with JavaScript disabled; it is also something that will please search engines.
 
@@ -52,7 +52,7 @@ Note the clean HTML in the last example. This is generally what’s referred to 
  
 Back in November in 2000, the Document Object Model (DOM) Level 2 Events Specification was released by the W3C, offering a more detailed and granular way to control events in a web page. The new way to apply events to HTML elements looked like this:
  
-<pre>document.getElementById("my-link").addEventListener("click", myFunction, false);</pre>
+<syntaxhighlight lang="javascript">document.getElementById("my-link").addEventListener("click", myFunction, false);</syntaxhighlight>
  
 The first parameter of the <code>addEventListener method</code> is the name of the event, and you should note that it no longer uses the “on” prefix. The second parameter is a reference to the function we want to call when the event occurs. The third parameter controls the so-called <code>useCapture</code> of the event, ie if event capturing or event bubbling should be used.
 
@@ -62,7 +62,7 @@ The counterpart of <code>addEventListener</code> is <code>removeEventListener</c
  
 Unfortunately, Internet Explorer has so far not implemented the DOM Level 2 event model, and instead has its own proprietary <code>attachEvent</code> method. It looks like this in action:
  
-<pre>document.getElementById("my-link").attachEvent("onclick", myFunction);</pre>
+<syntaxhightlight lang="javascript">document.getElementById("my-link").attachEvent("onclick", myFunction);</syntaxhighlight>
  
 Note that the <code>attachEvent</code> still uses the "on" prefix before the name of the actual event, and it doesn't include any support for deciding the capture phase.
 
@@ -90,24 +90,24 @@ Our first example is the <code>onload</code> event, which belongs to the <code>w
  
 The <code>onload</code> event takes place when everything in the web page has completely loaded. This includes the HTML code itself as well as external dependencies such as images, CSS files and JavaScript files. When all of them have finished loading, <code>window.onload</code> gets called, and you can trigger web page functionality to occur. The following very simple example makes an alert message appear when the page has loaded:
  
-<pre>addEvent(window, "load", sayHi);
+<syntaxhighlight lang="javascript">addEvent(window, "load", sayHi);
 function sayHi() {
   alert("Hello there, stranger!");	
-}</pre>
+}</syntaxhighlight>
  
 That wasn’t too bad, right? If you want to, you can use so-called anonymous functions instead, eliminating the need for a name for your function. Like this:
 
-<pre>addEvent(window, "load", function () {
+<syntaxhighlight lang="javascript">addEvent(window, "load", function () {
   alert("Hello there, stranger!");	
-});</pre>
+});</syntaxhighlight>
  
 === Applying events to certain elements ===
  
 To take this further, we should start by looking into adding events to some other elements on the page. For the sake of argument, let’s suppose you want to have an event happen every time a link is clicked. Combining this with what we learned above, this would be the way to go about it:
 
-<pre>addEvent(window, "load", function () {
+<syntaxhighlight lang="javascript">addEvent(window, "load", function () {
   var links = document.getElementsByTagName("a");
-    for (var i=0; i&lt;links.length; i++) {
+    for (var i=0; i<links.length; i++) {
       addEvent(links[i], "click", function () {
         alert("NOPE! I won't take you there!");
 
@@ -115,7 +115,7 @@ To take this further, we should start by looking into adding events to some othe
       evt.preventDefault(); 
     });
   }
-});</pre>
+});</syntaxhighlight>
  
 Ok, what just happened? First we used the <code>onload</code> event to check when the web page had completely loaded. Then we found all the links in the page by using the <code>getElementsByTagName</code> method of the <code>document</code> object. With an established reference to them, we looped through all links and applied an event to them to cause an action to occur once they were clicked.
 
@@ -127,11 +127,11 @@ To add more detail to your event handling, you can take different actions depend
  
 As with the event model, Internet Explorer has decided to use a global event object called <code>event</code> for handling objects, while the W3C-recommended way implemented by all other web browsers is passing event objects belonging just to that specific event. The most common problem with implementing such functionality across browsers is getting a reference to the event itself, and a reference to the element that the event is targeting. This code solves that for you:
  
-<pre>addEvent(document.getElementById("check-it-out"), "click", eventCheck);
+<syntaxhighlight lang="javascript">addEvent(document.getElementById("check-it-out"), "click", eventCheck);
 function eventCheck (evt) {
   var eventReference = (typeof evt !== "undefined")? evt : event;
   var eventTarget = (typeof eventReference.target !== "undefined")? eventReference.target : eventReference.srcElement;
-}</pre>
+}</syntaxhighlight>
  
 The first line in the <code>eventCheck</code> function checks if there’s an event object passed along to the function. If yes, it automatically becomes the first parameter of the function, hence getting the name <code>evt</code> in this example. If it doesn’t exist, meaning that the current web browser is Internet Explorer, it refers to a global property of the <code>window</code> object named <code>event</code>.
 
@@ -143,7 +143,7 @@ Note: this control and behavior is also addressed with the above referenced [htt
  
 Let’s put this into action. The following example executes a different code block depending on what key was pressed:
  
-<pre>addEvent(document.getElementById("user-name"), "keyup", whatKey);
+<syntaxhighlight lang="javascript">addEvent(document.getElementById("user-name"), "keyup", whatKey);
 function whatKey (evt) {
   var eventReference = (typeof evt !== "undefined")? evt : event;
   var keyCode = eventReference.keyCode;
@@ -155,7 +155,7 @@ function whatKey (evt) {
     // The Tab key was pressed
     // Code to, perhaps, clear the field
   }
-}</pre>
+}</syntaxhighlight>
  
 The code inside the <code>whatKey</code> function checks a property on the event that took place, namely <code>keyCode</code>, to see which key was actually pressed on the keyboard. The number 13 means the Enter key and the number 9 means the Tab key.
 
@@ -167,7 +167,7 @@ There are a number of cases where you would be interested in stopping the defaul
  
 Just as with event model and event object differences, there are two ways to go about this to support IE, and all other browsers. Building on the previous code for getting an event object reference, the next listing includes code to stop the default link behaviour occuring when links are clicked:
  
-<pre>addEvent(document.getElementById("stop-default"), "click", stopDefaultBehavior);
+<syntaxhighlight lang="javascript">addEvent(document.getElementById("stop-default"), "click", stopDefaultBehavior);
 function stopDefaultBehavior (evt) {
   var eventReference = (typeof evt !== "undefined")? evt : event;
   if (eventReference.preventDefault) {
@@ -176,7 +176,7 @@ function stopDefaultBehavior (evt) {
   else {
     eventReference.returnValue = false;
   }
-}</pre>
+}</syntaxhighlight>
  
 This approach uses something called object detection, to confirm that a method is actually available before it is called, which helps prevent possible errors. The <code>preventDefault</code> method is available in every web browser but Internet Explorer, and it prevents the default action of an event from happening.
 
@@ -186,16 +186,16 @@ If that method isn’t supported, it falls back to setting the <code>returnValue
  
 Consider the following HTML hierarchy:
  
-<pre>&lt;div&gt;
-  &lt;ul&gt;
-    &lt;li&gt;
-      &lt;a href="http://www.opera.com/" id="stop-default"&gt;Opera&lt;/a&gt;
-    &lt;/li&gt;
-    &lt;li&gt;
-      &lt;a href="http://www.opera.com/products/dragonfly/" id="stop-default"&gt;Opera Dragonfly&lt;/a&gt;
-    &lt;/li&gt;
-  &lt;/ul&gt;	
-&lt;/div&gt;</pre>
+<syntaxhighlight lang="html5"><div>
+  <ul>
+    <li>
+      <a href="http://www.opera.com/" id="stop-default">Opera</a>
+    </li>
+    <li>
+      <a href="http://www.opera.com/products/dragonfly/" id="stop-default">Opera Dragonfly</a>
+    </li>
+  </ul>	
+</div></syntaxhighlight>
  
 Suppose you had applied an <code>onclick</code> event to all the <code>a</code> elements, <code>li</code> elements and the <code>ul</code> element. The <code>onclick</code> event would first call the event handler of the link, then the list items, and finally the event handler of the unordered list.
 
@@ -205,7 +205,7 @@ Note that with the DOM level 2 Event Model and <code>useCapture</code> enabled, 
  
 Here’s how to write code to stop the bubbling of an event:
  
-<pre>addEvent(document.getElementById("stop-default"), "click", cancelEventBubbling);
+<syntaxhighlight lang="javascript">addEvent(document.getElementById("stop-default"), "click", cancelEventBubbling);
 function cancelEventBubbling (evt) {
   var eventReference = (typeof evt !== "undefined")? evt : event;
   if (eventReference.stopPropagation) {
@@ -214,19 +214,19 @@ function cancelEventBubbling (evt) {
   else {
     eventReference.cancelBubble = true;
   }
-}</pre>
+}</syntaxhighlight>
  
 == Complete event handling example ==
  
 I have put together [http://dev.opera.com/articles/view/handling-events-with-javascript/javascript-event-handling-example.html an example page] showcasing adding an event handler and preventing that event’s default action, depending on certain criteria. The event handler checks whether a form is allowed to be submitted or not depending on if the user has filled out all fields. The JavaScript code is as follows:
 
-<pre>addEvent(window, "load", function () {
+<syntaxhighlight lang="javascript">addEvent(window, "load", function () {
   var contactForm = document.getElementById("contact-form");
   if (contactForm) {
     addEvent(contactForm, "submit", function (evt) {
       var firstName = document.getElementById("first-name");
       var lastName = document.getElementById("last-name");
-      if (firstName &amp;&amp; lastName) {
+      if (firstName && lastName) {
         if (firstName.value.length === 0 || lastName.value.length === 0) {
           alert("You have to fill in all fields, please.");
           evt.preventDefault();
@@ -234,7 +234,7 @@ I have put together [http://dev.opera.com/articles/view/handling-events-with-jav
       }
     });
   }
-});</pre>
+});</syntaxhighlight>
 
 == Summary ==
  
