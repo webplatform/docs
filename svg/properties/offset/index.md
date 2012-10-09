@@ -28,3 +28,4 @@ The ''offset'' is a number  (typically ranging from 0 through 1) that indicates 
 |MDN_link=
 |HTML5Rocks_link=
 }}
+[[Category:SVG]]
