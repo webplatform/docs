@@ -202,7 +202,7 @@ function drawOnCanvas(img){
 
 * draw scaled on Canvas (mention mobile Safari 2MB limit/issue - https://github.com/SunboX/ios-imagefile-megapixel)
 
-'''"Retina" Canvas'''
+=="Retina" Canvas==
 
 * Explain "retina" Canvas drawing (http://html5-mobile.de/blog/retina-display-html-canvas-optimieren)
 
