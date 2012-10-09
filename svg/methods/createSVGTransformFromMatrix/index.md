@@ -31,3 +31,5 @@ The [[svg/objects/SVGTransform|'''SVGTransform''']] object corresponds to a sing
 |MDN_link=
 |HTML5Rocks_link=
 }}
+
+[[Category:SVG]]
