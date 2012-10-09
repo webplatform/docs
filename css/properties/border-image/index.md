@@ -33,8 +33,8 @@
 }}
 }}
 {{Notes_Section
-|Notes=Firefox 15 requires border-style to be set (for example 'solid') in order to display.
-Also, border-image-slice: fill; was introduced in latest recommendation and breaks backwards compatibility. If you want border-image to fill an inner area of your block you have to use this property.
+|Notes=Firefox 15 requires [[css/properties/border-style|'''border-style''']] to be set (for example 'solid') in order to display.
+Also, [[css/properties/border-image-slice|'''border-image-slice: fill''']] was introduced in latest recommendation and breaks backwards compatibility. If you want border-image to fill an inner area of your block you have to use this property.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
