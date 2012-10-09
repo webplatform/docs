@@ -10,9 +10,12 @@
 The more octaves that are used in the calculation, the more fine-grained the texture. The default value is one.
 |Import_Notes=
 ===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}226062 Scalable Vector Graphics: Filter Effects], Section 15.25.27
-
+{{Related_Specifications_Section
+|Specifications={{Related Specification
+|Name=Scalable Vector Graphics 1.1: Filter Effects, section 15.25.27
+|URL=http://www.w3.org/TR/SVG11/filters.html#feTurbulenceNumOctavesAttribute
+|Status=W3C Recommendation
+}}
 
 }}
 {{See_Also_Section
