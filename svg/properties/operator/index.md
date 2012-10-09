@@ -27,3 +27,4 @@ If you want to thin a graphic, set the '''operator''' to '''erode'''. If you wan
 |MDN_link=
 |HTML5Rocks_link=
 }}
+[[Category:SVG]]
