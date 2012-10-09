@@ -27,3 +27,4 @@ If the '''pointsAtX''' attribute is not specified, then the effect is as if a va
 |MDN_link=
 |HTML5Rocks_link=
 }}
+[[Category:SVG]]
