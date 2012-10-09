@@ -1,1 +1,0 @@
-#REDIRECT [[svg/elements/feColorMatrix]]
