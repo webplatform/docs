@@ -1,7 +1,5 @@
 {{Page_Title|Mobile web}}
 {{Flags
-|Content=Outdated
-|Editorial notes=Lots of now-mostly-irrelevant mobile web format info in here.
 }}
 {{API_Name}}
 {{Summary_Section|This concept page explains in general terms what mobile web is and its brief history.}}
