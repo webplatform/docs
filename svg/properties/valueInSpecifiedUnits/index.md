@@ -29,3 +29,4 @@ HRESULT value {{=}} object.put_valueInSpecifiedUnits(float v);HRESULT value {{=}
 |MDN_link=
 |HTML5Rocks_link=
 }}
+[[Category:SVG]]
