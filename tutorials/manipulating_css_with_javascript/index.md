@@ -16,9 +16,7 @@ There are three ways to do this:
         
 === Action: A JavaScript demonstration ===
  
-<ol>
-<li>
-<p>Make a new HTML document, <code>doc5.html</code>. Copy and paste the content from here, making sure that you scroll to get all of it:
+# Make a new HTML document, <code>doc5.html</code>. Copy and paste the content from here, making sure that you scroll to get all of it:
   
 <syntaxhighlight lang="html5">
 <!DOCTYPE html>
@@ -40,8 +38,8 @@ There are three ways to do this:
 </body>
 </html>
 </syntaxhighlight>
-<li>
-Make a new CSS file, <code>style5.css</code>. Copy and paste the content from here:
+
+# Make a new CSS file, <code>style5.css</code>. Copy and paste the content from here:
 
 <syntaxhighlight lang="css">
 #square {
@@ -55,11 +53,8 @@ button {
   padding: .5em 2em;
 }</syntaxhighlight>
 
-</li>
 
-
-<li>
-<p>Make a new text file, <code>script5.js</code>. Copy and paste the content from here:</p>
+# <p>Make a new text file, <code>script5.js</code>. Copy and paste the content from here:</p>
 
 <syntaxhighlight lang="javascript">// JavaScript demonstration
 
@@ -83,11 +78,10 @@ function clearDemo (button) {
 clickMe.onclick = doDemo; //Onclick call. Pass no arguments.
 
 </syntaxhighlight>
-</li>
-<li>
-<p>Open the document in your browser and press the button.</p>
-</li>
-</ol>
+
+
+# Open the document in your browser and press the button.</p>
+
 
 <p>What this code does, is that it changes the background color of the <code>#square</code> to <code>#ffaa44</code>. Here's a [http://jsfiddle.net/namanyayg/Angmu/1/ JSFiddle] so you can see it working live.</p>
   
