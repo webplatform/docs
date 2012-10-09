@@ -50,7 +50,7 @@ For an animation to run, you must also specify a value for <code>animation-durat
 |Internet_explorer_prefixed_supported=No
 |Internet_explorer_prefixed_version=
 |Opera_supported=Yes
-|Opera_version=12.1
+|Opera_version=12.10
 |Opera_prefixed_supported=Yes
 |Opera_prefixed_version=12.0
 |Safari_supported=No
@@ -71,8 +71,8 @@ For an animation to run, you must also specify a value for <code>animation-durat
 |Chrome_mobile_version=
 |Chrome_mobile_prefixed_supported=Yes
 |Chrome_mobile_prefixed_version=18.0
-|Firefox_mobile_supported=No
-|Firefox_mobile_version=
+|Firefox_mobile_supported=Yes
+|Firefox_mobile_version=16.0
 |Firefox_mobile_prefixed_supported=Yes
 |Firefox_mobile_prefixed_version=15.0
 |IE_mobile_supported=Unknown
