@@ -1,5 +1,6 @@
 {{Page_Title|SVG clipping and masking}}
-{{Flags}}
+{{Flags
+}}
 {{Byline}}
 {{Summary_Section|This article explains how clipping and masking work in SVG.}}
 {{Tutorial
