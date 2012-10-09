@@ -10,3 +10,7 @@
 '''Alternatives'''
 
 * FileReader.readAsDataURL(file) instead of window.URL.createObject(file) - pros/cons
+
+'''Browser Compatibility'''
+
+'''Links to used Objects, Functions'''
