@@ -35,8 +35,9 @@
 border-top-left-radius:2em;
 border-top-right-radius:2em;
 border-bottom-right-radius:2em;
-border-bottom-left-radius:2em; 
+border-bottom-left-radius:2em;
 }}{{Single Example
+|Language=CSS
 |Description=Multi value example
 |Code=border-radius: 2em 1em 4em / 0.5em 3em;
 
@@ -45,7 +46,7 @@ border-bottom-left-radius:2em;
 border-top-left-radius: 2em 0.5em;
 border-top-right-radius: 1em 3em;
 border-bottom-right-radius: 4em 0.5em;
-border-bottom-left-radius: 1em 3em; 
+border-bottom-left-radius: 1em 3em;
 }}
 }}
 {{Notes_Section
@@ -149,8 +150,8 @@ border-radius: (first radius values) / top-left top-right bottom-right bottom-le
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
+|Sources=MDN, MSDN
+|MDN_link=[https://developer.mozilla.org/en-US/docs/CSS/border-radius Border-radius]
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
