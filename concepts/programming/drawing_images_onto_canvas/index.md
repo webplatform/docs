@@ -6,9 +6,9 @@
 {{API_Name}}
 {{Summary_Section}}
 {{Concept_Page
-|Content=Drawing a Image on a Canvas seems to be a easy task. That´s true if you already have a Image Element (<img>) to draw. If you want to load it from a URL first it´s getting a bit more difficult, because you have to listen for the image to be fully loaded. More difficult it will get, if your Image is on the local file system. There are different ways to get it done, this one will show the best practice.
+|Content=Drawing an Image on a Canvas seems to be an easy task. That´s true if you already have an Image Element (<img>) to draw. If you want to load it from a URL first it´s getting a bit more difficult, because you have to listen for the image to be fully loaded. More difficult it will get, if your Image is on the local file system. There are different ways to get it done, this one will show the best practice.
 
-If you finished your basic drawing and release it into the wild, you will recognise some problems. First one - so called “Retina”-Displays. All Images drawn on them will look blurry, but not if you know the “Tricks”. Second one will be performance issues. Cameras are getting more Mega-Pixel and Screens are getting bigger every year. People starting to load huge Images into your App. It´s good to know how to use not only CPU but also GPU Power to render and manipulate a Image.
+If you finished your basic drawing and released it into the wild, you will recognize some problems. First one - so called “Retina”-Displays. All Images drawn on them will look blurry, but not if you know the “Tricks”. Second one will be performance issues. Cameras are getting more Mega-Pixel and Screens are getting bigger every year. People starting to load huge Images into your App. It´s good to know how to use not only CPU but also GPU Power to render and manipulate a Image.
 Last but not least there are device specific issues making Image Drawing even harder. Like the [http://stackoverflow.com/questions/12554947/mobile-safari-renders-img-src-dataimage-jpegbase64-scaled-on-canvas/ 2MB Image file down scaling bug] on iOS.
 
 ==Reading the Image from the File System==
@@ -74,71 +74,13 @@ Now lets turn this file´s content into a data URL we can load into a <img> Elem
 }, false);
 
 // vendor prefixed in Chrome
-window.URL = window.webkitURL || window.URL;
+window.URL = window.webkitURL
+|window_URL;
 
 function handleFileSelect(e){
 
     // get the FileList object from the file select event
-    var files = e.target.files;
-    
-    // check if there are files in the FileList
-    if(files.length === 0){
-        return;
-    }
-    
-    // we just need one file and ignore the others
-    var file = files[0];
-    
-    // make sure we got a image file
-    if(file.type !== '' && !file.type.match('image.*')){
-        return;
-    }
-    
-    // create a data URL from the image file
-    var imageData = window.URL.createObjectURL(file);
-    
-    // create a image element and load the data URL into it
-    var img = document.createElement('img');
-    document.body.appendChild(img);
-    
-    // we don´t want to see the image on the screen, so let´s move it out of view (we can´t just hide it!)
-    img.style.position = 'absolute';
-    img.style.left = '-9999px';
-    
-    // now listen for the onLoad event of the image before we can work on
-    // you should use img.onload instead of img.addEventListener('load') because the eventListener fires to early in some Browsers!
-    img.onload = function(){
-        
-        // free some memory by removing the data URL
-        window.URL.revokeObjectURL(img.src);
-      
-        // see if we get till here
-        console.log('loaded image');
-    };
-    img.src = imageData;
-}</nowiki>
-
-==Draw the Image onto the Canvas==
-
-Now that we have our Image loaded, we can draw it onto a Canvas. Let´s create a Canvas first:
-
- <nowiki>document.addEventListener('DOMContentLoaded', function(){
-
-    // get a reference to the file select input field
-    var fileSelect = document.querySelector('#choosePicture');
-
-    // listen for the onChange event that get´s fired after the user had choosed a file
-    fileSelect.addEventListener('change', handleFileSelect, false);
-    
-}, false);
-
-// vendor prefixed in Chrome
-window.URL = window.webkitURL || window.URL;
-
-function handleFileSelect(e){
-
-    // get the FileList object from the file select event
-    var files = e.target.files;
+    var files=e.target.files;
     
     // check if there are files in the FileList
     if(files.length === 0){
@@ -230,8 +172,6 @@ As mentioned in the introduction, "Retina"-Displays will show blurry images by d
 ==Browser Compatibility==
 
 ==Links to used Object, Function Docs==
-
-
 }}
 {{Examples_Section
 |Not_required=Yes
