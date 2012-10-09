@@ -1,5 +1,6 @@
 {{Page_Title|Variables in JavaScript}}
-{{Flags}}
+{{Flags
+}}
 {{API_Name}}
 {{Summary_Section}}
 {{Concept_Page
