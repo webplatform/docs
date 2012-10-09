@@ -28,3 +28,4 @@ If  you do not provide a type, the value of <code>contentStyleType</code> on the
 |MDN_link=
 |HTML5Rocks_link=
 }}
+[[Category:SVG]]
