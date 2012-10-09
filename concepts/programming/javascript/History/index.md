@@ -24,3 +24,4 @@ Today, "JavaScript" is a trademark of Oracle Corporation.<ref>{{cite web|title=U
 
 ==References==
 <references />
+[[Category:Concept Pages]]
