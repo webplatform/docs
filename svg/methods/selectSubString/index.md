@@ -31,3 +31,5 @@ The '''selectSubString'''  method can raise  a [[dom/DOMException|'''DOMExceptio
 |MDN_link=
 |HTML5Rocks_link=
 }}
+
+[[Category:SVG]]
