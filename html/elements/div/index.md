@@ -5,19 +5,20 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|DIV is a generic container that has no semantic value other than the one that you give it via ID or Class. It can be used for a variety of purposes including the styling of common elements, or for grouping elements with common attributes. It’s use should be limited to those cases when no other semantic HTML is appropriate to the situation at hand (for example <section> or <nav>.) }}
+{{Summary_Section|DIV is a generic container that has no semantic value other than the one that you give it via ID or Class. It can be used for a variety of purposes including the styling of common elements, or for grouping elements with common attributes. It’s use should be limited to those cases when no other semantic HTML is appropriate to the situation at hand (for example <section> or <nav>.)}}
 {{Markup_Element
 |DOM_interface=dom/HTMLDivElement
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=HTML
 |Description=This example uses two '''DIV''' elements to align two sections of text differently.
 |Code=&lt;DIV&gt;
-This text represents a section.
+&lt;p&gt;This text represents a section.&lt;/p&gt;
 &lt;/DIV&gt;
 &lt;DIV ALIGN{{=}}CENTER&gt;
-This text represents another section, and its text is centered.
+&lt;p&gt;This text represents another section, and its text is centered.&lt;/p&gt;
 &lt;/DIV&gt;
 }}
 }}
