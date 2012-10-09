@@ -30,3 +30,4 @@ If '''rx''' is greater than half of the width of the rectangle,  the [[svg/eleme
 |MDN_link=
 |HTML5Rocks_link=
 }}
+[[Category:SVG]]
