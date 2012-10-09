@@ -30,3 +30,4 @@ If [[svg/properties/rx (SVGRectElement)|'''rx''']] is greater than half of the w
 |MDN_link=
 |HTML5Rocks_link=
 }}
+[[Category:SVG]]
