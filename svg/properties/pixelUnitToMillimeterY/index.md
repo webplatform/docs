@@ -25,3 +25,4 @@ HRESULT value {{=}} object.put_pixelUnitToMillimeterY(float vPixelUnitY);HRESULT
 |MDN_link=
 |HTML5Rocks_link=
 }}
+[[Category:SVG]]
