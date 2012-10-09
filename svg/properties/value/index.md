@@ -32,3 +32,4 @@ HRESULT value {{=}} object.put_value(float v);HRESULT value {{=}} object.get_val
 |MDN_link=
 |HTML5Rocks_link=
 }}
+[[Category:SVG]]
