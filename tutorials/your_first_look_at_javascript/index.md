@@ -93,11 +93,10 @@ Technically you can put JavaScript anywhere in your document. The decision you h
  
 The classic best practice for placing scripts was in the <code>head</code> of the document:
  
-<pre>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
-"http://www.w3.org/TR/html4/strict.dtd"&gt;
-&lt;html lang="en-en"&gt; 
+<pre>&lt;!DOCTYPE html&gt;
+&lt;html&gt; 
 &lt;head&gt;
- &lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;
+ &lt;meta charset="utf-8"&gt;
  &lt;title&gt;&lt;/title&gt;
  &lt;script type="text/javascript" src="myscripts.js"&gt;&lt;/script&gt;
 &lt;/head&gt;
@@ -112,11 +111,10 @@ The drawbacks are that your scripts delay the display of the document and that t
  
 Performance specialists have more recently started to advocate placing your JavaScript at the end of the <code>body</code> instead:
  
-<pre>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
-"http://www.w3.org/TR/html4/strict.dtd"&gt;
-&lt;html lang="en-en"&gt; 
+<pre>&lt;!DOCTYPE html&gt;
+&lt;html&gt; 
 &lt;head&gt;
- &lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;
+ &lt;meta charset="utf-8"&gt;
  &lt;title&gt;&lt;/title&gt;
 &lt;/head&gt;
 &lt;body&gt;
@@ -131,11 +129,10 @@ One of the drawbacks are that this practice is not quite common yet, and you mig
  
 It is up to you to choose what fits the purpose of your web site; you could even choose to do a mixture of both — put the scripts with very important functionality in the <code>head</code>, and call them in conjunction with the “nice-to-have” scripts at the end of the document.
  
-<pre>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
-"http://www.w3.org/TR/html4/strict.dtd"&gt;
-&lt;html lang="en-en"&gt; 
+<pre>&lt;!DOCTYPE html&gt;
+&lt;html&gt; 
 &lt;head&gt;
- &lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;
+ &lt;meta charset="utf-8"&gt;
  &lt;title&gt;&lt;/title&gt;
  &lt;script type="text/javascript" src="myimportantscripts.js"&gt;&lt;/script&gt;
 &lt;/head&gt;
