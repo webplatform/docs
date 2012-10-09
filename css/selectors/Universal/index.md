@@ -19,9 +19,9 @@
 {{Notes_Section
 |Notes====Remarks===
 The universal selector matches every element in the document tree. If the universal selector is not the only component of a simple selector, the "*" may be omitted. For example:
-**.myclass and .myclass are equivalent.
-**#myid and #myid are equivalent.
-**:hover and :hover are equivalent.
+* *.myclass and .myclass are equivalent.
+* *#myid and #myid are equivalent.
+* *:hover and :hover are equivalent.
 |Import_Notes====Syntax===
 <code>'''*''' {...}</code>
 ===Parameters===
