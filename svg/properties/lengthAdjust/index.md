@@ -36,3 +36,4 @@ If the attribute is not specified, the effect is as if a value of <code>spacing<
 |MDN_link=
 |HTML5Rocks_link=
 }}
+[[Category:SVG]]
