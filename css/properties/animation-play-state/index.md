@@ -5,12 +5,13 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Controls whether an animation is running or paused}}
 {{CSS Property
 |Initial value=running
-|Applies to=block-level and inline-level elements
+|Applies to=all elements
 |Inherited=No
 |Media=visual
+|Computed value=as specified
 |Animatable=No
 |Values={{CSS Property Value
 |Data Type=running
@@ -112,8 +113,9 @@ The height is 30 and the there are 10 digits so to move up we use -300px (30x10)
 }}
 }}
 {{Notes_Section
-|Notes====Remarks===
-The version of this property using a vendor prefix, '''-ms-animation-play-state''', has been deprecated. To ensure compatibility in the future, applications using this property with a vendor prefix should be updated accordingly.
+|Usage=When set to <code>paused</code>, the animation is frozen in its current state. Changing the value back to <code>running</code> resumes the animation from the point at which it was paused.
+
+In common with other animation properties, multiple values separated by commas are applied to animations in the same order as they are listed in <code>animation-name</code>. Excess values are ignored. If there are fewer values than animations, the browser the browser cycles through them again until each animation has been assigned a play state.
 |Import_Notes====Syntax===
 <code>'''animation-play-state: '''running '''{{!}}''' paused '''[''' ,  running '''{{!}}''' paused ''']''' *</code>
 ===Standards information===
@@ -124,9 +126,67 @@ The version of this property using a vendor prefix, '''-ms-animation-play-state'
 }}
 {{Compatibility_Section
 |Not_required=No
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
+|Desktop_rows={{Compatibility Table Desktop Row
+|Chrome_supported=No
+|Chrome_version=
+|Chrome_prefixed_supported=Yes
+|Chrome_prefixed_version=4.0
+|Firefox_supported=Yes
+|Firefox_version=16.0
+|Firefox_prefixed_supported=Yes
+|Firefox_prefixed_version=5.0
+|Internet_explorer_supported=Yes
+|Internet_explorer_version=10.0
+|Internet_explorer_prefixed_supported=No
+|Internet_explorer_prefixed_version=
+|Opera_supported=Yes
+|Opera_version=12.1
+|Opera_prefixed_supported=Yes
+|Opera_prefixed_version=12.0
+|Safari_supported=No
+|Safari_version=
+|Safari_prefixed_supported=Yes
+|Safari_prefixed_version=3.1
+}}
+|Mobile_rows={{Compatibility Table Mobile Row
+|Android_supported=No
+|Android_version=
+|Android_prefixed_supported=Yes
+|Android_prefixed_version=2.1
+|Blackberry_supported=No
+|Blackberry_version=
+|Blackberry_prefixed_supported=Yes
+|Blackberry_prefixed_version=7.0
+|Chrome_mobile_supported=No
+|Chrome_mobile_version=
+|Chrome_mobile_prefixed_supported=Yes
+|Chrome_mobile_prefixed_version=18.0
+|Firefox_mobile_supported=No
+|Firefox_mobile_version=
+|Firefox_mobile_prefixed_supported=Yes
+|Firefox_mobile_prefixed_version=15.0
+|IE_mobile_supported=Unknown
+|IE_mobile_version=
+|IE_mobile_prefixed_supported=Unknown
+|IE_mobile_prefixed_version=
+|Opera_mobile_supported=Yes
+|Opera_mobile_version=12.1
+|Opera_mobile_prefixed_supported=No
+|Opera_mobile_prefixed_version=
+|Opera_mini_supported=No
+|Opera_mini_version=
+|Opera_mini_prefixed_supported=No
+|Opera_mini_prefixed_version=
+|Safari_mobile_supported=No
+|Safari_mobile_version=
+|Safari_mobile_prefixed_supported=Yes
+|Safari_mobile_prefixed_version=3.2
+}}
+|Notes_rows={{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=10.0
+|Note=The -ms- prefix property is deprecated and should not be used.
+}}
 }}
 {{See_Also_Section
 |Topic_clusters=Animation
