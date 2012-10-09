@@ -32,3 +32,5 @@ If the '''azimuth''' attribute is not specified, then the effect is as if a valu
 |MDN_link=
 |HTML5Rocks_link=
 }}
+
+[[Category:SVG]]
