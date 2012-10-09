@@ -29,3 +29,5 @@ For an example of how the starting point and direction of an arc (for an ellipse
 |MDN_link=
 |HTML5Rocks_link=
 }}
+
+[[Category:SVG]]
