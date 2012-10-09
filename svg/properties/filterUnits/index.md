@@ -34,3 +34,4 @@ If attribute <code>filterUnits</code> is not specified, then the effect is the s
 |MDN_link=
 |HTML5Rocks_link=
 }}
+[[Category:SVG]]
