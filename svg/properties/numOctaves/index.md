@@ -27,3 +27,4 @@ The more octaves that are used in the calculation, the more fine-grained the tex
 |MDN_link=
 |HTML5Rocks_link=
 }}
+[[Category:SVG]]
