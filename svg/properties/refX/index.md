@@ -31,3 +31,4 @@ If you do not specify the  '''refX'''   property, the effect is the same as if y
 |MDN_link=
 |HTML5Rocks_link=
 }}
+[[Category:SVG]]
