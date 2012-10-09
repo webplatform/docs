@@ -1,4 +1,4 @@
-{{Page_Title|An introduction to web design}}
+{{Page_Title}}
 {{Flags
 |High-level issues=Merge Candidate, Stub
 |Content=Incomplete
