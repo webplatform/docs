@@ -17,31 +17,27 @@
 |Data Type=single-animation-timing-function
 |Description=A keyword or function that describes how the animation progresses between keyframes.
 
-<code>cubic-bezier( x1, y1, x2, y2 )</code>: A timing function, based on a cubic-bezier curve, that takes four parameters. The four values specify the x and y-coordinates as (x<sub>1</sub>, y<sub>1</sub>, x<sub>2</sub>, y<sub>2</sub>) of the P<sub>1</sub> and P<sub>2</sub> points of the curve, respectively.
+;<code>ease</code>
+:Default. A timing function, based on a cubic-bezier curve, that gradually increases in speed at the start, animates at full speed,  and then gradually decreases in speed at the end. This function is equivalent to <code>cubic-bezier(0.25,0.1,0.25,1)</code>. [[Image:msTransition-ease-cubic.png]]
+;<code>linear</code>
+:A timing function, based on a cubic-bezier curve, that  has a consistent speed from start to end. This function is equivalent to <code>cubic-bezier(0,0,1,1)</code>. [[Image:msTransition-linear-cubic.png]]
+;<code>ease-in</code>
+:A timing function, based on a cubic-bezier curve, that  gradually increases in speed at the start. This function is equivalent to <code>cubic-bezier(0.42,0,1,1)</code>. [[Image:msTransition-ease-in-cubic.png]]
+;<code>ease-out</code>
+:A timing function, based on a cubic-bezier curve, that  gradually decreases in speed at the end. This function is equivalent to <code>cubic-bezier(0,0,0.58,1)</code>. [[Image:msTransition-ease-out-cubic.png]]
+;<code>ease-in-out</code>
+:A timing function, based on a cubic-bezier curve, that  gradually increases in speed at the start and then gradually decreases in speed at the end. This function is equivalent to <code>cubic-bezier(0.42,0,0.58,1)</code>. [[Image:msTransition-ease-in-out-cubic.png]]
+;<code>steps(number, position)</code>
+:The change takes place in the number of equal steps specified in the first argument. The optional second argument should be either the keyword <code>start</code> or <code>end</code>. It specifies whether the change takes place at the start or end of each step. If the second argument is omitted, it defaults to <code>end</code>.
+;<code>step-start</code>
+:The change takes place at the start of the keyframe. This is equivalent to <code>steps(1, start)</code>.
+;<code>step-end</code>
+:The change takes place at the end of the keyframe. This is equivalent to <code>steps(1, end)</code>.
+;<code>cubic-bezier( x1, y1, x2, y2 )</code>
+:A timing function, based on a cubic-bezier curve, that takes four parameters. The four values specify the x and y-coordinates as (x<sub>1</sub>, y<sub>1</sub>, x<sub>2</sub>, y<sub>2</sub>) of the P<sub>1</sub> and P<sub>2</sub> points of the curve, respectively.
 
-'''Note'''  For properties other than opacity and color, the cubic-bezier curve function accepts y-coordinates outside the standard range of [0, 1]. This allows the ability to specify "elastic" effects for properties such as length and width, as shown in the following image.
+'''Note'''  For properties other than opacity and color, the cubic-bezier curve function accepts y-coordinates outside the standard range of [0, 1]. This allows the ability to specify "elastic" effects for properties such as length and width, as shown in the following image.
 [[Image:msTransition-ease-in-out-elastic-cubic.png]]
-
-<code>ease</code>: Default. A timing function, based on a cubic-bezier curve, that gradually increases in speed at the start, animates at full speed,  and then gradually decreases in speed at the end. This function is equivalent to <code>cubic-bezier(0.25,0.1,0.25,1)</code>.
-[[Image:msTransition-ease-cubic.png]]
-
-<code>linear</code>: A timing function, based on a cubic-bezier curve, that  has a consistent speed from start to end. This function is equivalent to <code>cubic-bezier(0,0,1,1)</code>.
-[[Image:msTransition-linear-cubic.png]]
-
-<code>ease-in</code>: A timing function, based on a cubic-bezier curve, that  gradually increases in speed at the start. This function is equivalent to <code>cubic-bezier(0.42,0,1,1)</code>.
-[[Image:msTransition-ease-in-cubic.png]]
-
-<code>ease-out</code>: A timing function, based on a cubic-bezier curve, that  gradually decreases in speed at the end. This function is equivalent to <code>cubic-bezier(0,0,0.58,1)</code>.
-[[Image:msTransition-ease-out-cubic.png]]
-
-<code>ease-in-out</code>: A timing function, based on a cubic-bezier curve, that  gradually increases in speed at the start and then gradually decreases in speed at the end. This function is equivalent to <code>cubic-bezier(0.42,0,0.58,1)</code>.
-[[Image:msTransition-ease-in-out-cubic.png]]
-
-<code>steps(number, position)</code>: The change takes place in the number of equal steps specified in the first argument. The optional second argument should be either the keyword <code>start</code> or <code>end</code>. It specifies whether the change takes place at the start or end of each step. If the second argument is omitted, it defaults to <code>end</code>.
-
-<code>step-start</code>: The change takes place at the start of the keyframe. This is equivalent to <code>steps(1, start)</code>.
-
-<code>step-end</code>: The change takes place at the end of the keyframe. This is equivalent to <code>steps(1, end)</code>.
 }}
 }}
 {{Examples_Section
