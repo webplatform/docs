@@ -1,8 +1,8 @@
 {{Page_Title|About closures}}
 {{Flags}}
 {{Summary_Section|Closures are often considered an advanced feature in JavaScript, but understanding them is essential to mastering the language.}}
-{{Concept
-|Content=Consider the following function:
+
+Consider the following function:
 
 <div style="width: auto; overflow: hidden">
 
@@ -301,7 +301,7 @@ Or as follows:
 In the two previous examples, the inherited prototype can be shared by all objects and the method definitions need not occur at every object creation. See [[guides/JavaScript/objects|Details of the Object Model]] for more details.
 
 <span style="float: left">[[/guides/JavaScript/iterators|&laquo; Previous]]</span>[[guides/JavaScript/LiveConnect|Next &raquo;]]
-}}
+
 {{Compatibility_Section
 |Not_required=Yes
 |Desktop_rows=
