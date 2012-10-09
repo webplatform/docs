@@ -27,3 +27,5 @@ The '''createSVGPathSegClosePath''' method returns a stand-alone, parentless str
 |MDN_link=
 |HTML5Rocks_link=
 }}
+
+[[Category:SVG]]
