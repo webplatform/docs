@@ -19,7 +19,7 @@ The [http://haxe.org/download Haxe compiler] is easily installed, and there are 
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|Library, Haxe}}
+{{Topics|Haxe}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
