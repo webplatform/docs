@@ -30,12 +30,14 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Code=transition:background-color 1s 2s;
+|Code=transition:background-color 1s ease;
 }}
 }}
 {{Notes_Section
 |Notes====Remarks===
-The version of this property using a vendor prefix, '''-ms-transition''', has been deprecated. To ensure compatibility in the future, applications using this property with a vendor prefix should be updated accordingly.
+Some browsers have started to remove the prefix from these properties, including Internet Explorer 10.
+
+To ensure compatibility in the future, applications using this property with a vendor prefix should be updated accordingly.
 |Import_Notes====Syntax===
 <code>'''transition: ''''''[''' ''transition-property'' '''{{!}}{{!}}''' ''transition-duration'' '''{{!}}{{!}}''' ''transition-timing-function'' '''{{!}}{{!}}''' ''transition-delay'' ''']''' '''[''' ,  '''[''' ''transition-property'' '''{{!}}{{!}}''' ''transition-duration'' '''{{!}}{{!}}''' ''transition-timing-function'' '''{{!}}{{!}}''' ''transition-delay'' ''']''' ''']''' *</code>
 }}
@@ -44,8 +46,55 @@ The version of this property using a vendor prefix, '''-ms-transition''', has be
 }}
 {{Compatibility_Section
 |Not_required=No
-|Desktop_rows=
-|Mobile_rows=
+|Desktop_rows={{Compatibility Table Desktop Row
+|Chrome_supported=Unknown
+|Chrome_version=
+|Chrome_prefixed_supported=Yes
+|Firefox_supported=Yes
+|Firefox_version=16
+|Firefox_prefixed_supported=Yes
+|Internet_explorer_supported=Yes
+|Internet_explorer_version=10
+|Internet_explorer_prefixed_supported=No
+|Internet_explorer_prefixed_version=
+|Opera_supported=Yes
+|Opera_prefixed_supported=Yes
+|Safari_supported=Unknown
+|Safari_version=
+|Safari_prefixed_supported=Yes
+}}
+|Mobile_rows={{Compatibility Table Mobile Row
+|Android_supported=Unknown
+|Android_version=
+|Android_prefixed_supported=Yes
+|Blackberry_supported=Unknown
+|Blackberry_version=
+|Blackberry_prefixed_supported=Unknown
+|Blackberry_prefixed_version=
+|Chrome_mobile_supported=Unknown
+|Chrome_mobile_version=
+|Chrome_mobile_prefixed_supported=Unknown
+|Chrome_mobile_prefixed_version=
+|Firefox_mobile_supported=Unknown
+|Firefox_mobile_version=
+|Firefox_mobile_prefixed_supported=Yes
+|IE_mobile_supported=No
+|IE_mobile_version=
+|IE_mobile_prefixed_supported=No
+|IE_mobile_prefixed_version=
+|Opera_mobile_supported=Unknown
+|Opera_mobile_version=
+|Opera_mobile_prefixed_supported=Unknown
+|Opera_mobile_prefixed_version=
+|Opera_mini_supported=Unknown
+|Opera_mini_version=
+|Opera_mini_prefixed_supported=Unknown
+|Opera_mini_prefixed_version=
+|Safari_mobile_supported=Unknown
+|Safari_mobile_version=
+|Safari_mobile_prefixed_supported=Unknown
+|Safari_mobile_prefixed_version=
+}}
 |Notes_rows=
 }}
 {{See_Also_Section
