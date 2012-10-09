@@ -28,7 +28,7 @@ If the <code>values</code> attribute is not specified, then the default behavior
 {{See_Also_Section
 |Manual_sections=
 ===Related pages (MSDN)===
-*<code>[[svg/elements/feColorMix|SVGFEColorMatrixElement]]</code>
+*<code>[[svg/elements/feColorMatrix|SVGFEColorMatrixElement]]</code>
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
