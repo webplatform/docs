@@ -20,7 +20,7 @@ Note that this is not an XML ID. The scope of this value is local to the filter.
 *<code>[[svg/elements/feBlend|SVGFEBlendElement]]</code>
 *<code>[[svg/elements/feMorphology|SVGFEMorphologyElement]]</code>
 *<code>[[svg/elements/feTurbulence|SVGFETurbulenceElement]]</code>
-*<code>[[svg/elements/feColorMix|SVGFEColorMatrixElement]]</code>
+*<code>[[svg/elements/feColorMatrix|SVGFEColorMatrixElement]]</code>
 *<code>[[svg/elements/feComposite|SVGFECompositeElement]]</code>
 *<code>[[svg/elements/feDiffuseLighting|SVGFEDiffuseLightingElement]]</code>
 *<code>[[svg/elements/feComponentTransfer|SVGFEComponentTransferElement]]</code>
