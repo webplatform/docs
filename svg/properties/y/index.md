@@ -16,7 +16,7 @@
 |Manual_sections=
 ===Related pages (MSDN)===
 *<code>[[svg/elements/feBlend|SVGFEBlendElement]]</code>
-*<code>[[svg/elements/feColorMix|SVGFEColorMatrixElement]]</code>
+*<code>[[svg/elements/feColorMatrix|SVGFEColorMatrixElement]]</code>
 *<code>[[svg/elements/feComponentTransfer|SVGFEComponentTransferElement]]</code>
 *<code>[[svg/elements/feComposite|SVGFECompositeElement]]</code>
 *<code>[[svg/elements/feConvolveMatrix|SVGFEConvolveMatrixElement]]</code>
