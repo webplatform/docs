@@ -33,3 +33,5 @@ If the inserted item is already in the list, the '''initialize''' method  remove
 |MDN_link=
 |HTML5Rocks_link=
 }}
+
+[[Category:SVG]]
