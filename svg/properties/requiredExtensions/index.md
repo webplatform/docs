@@ -48,3 +48,4 @@ Each language extension is identified by a [http://go.microsoft.com/fwlink/p/?li
 |MDN_link=
 |HTML5Rocks_link=
 }}
+[[Category:SVG]]
