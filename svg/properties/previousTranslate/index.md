@@ -25,3 +25,4 @@ HRESULT value {{=}} object.get_previousTranslate(ISVGPoint** p);
 |MDN_link=
 |HTML5Rocks_link=
 }}
+[[Category:SVG]]
