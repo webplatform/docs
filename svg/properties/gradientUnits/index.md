@@ -29,3 +29,4 @@ When ''p'' is '''objectBoundingBox'''  and the [[svg/properties/gradientTransfor
 |MDN_link=
 |HTML5Rocks_link=
 }}
+[[Category:SVG]]
