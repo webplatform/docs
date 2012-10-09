@@ -42,3 +42,5 @@ The '''getScreenCTM'''  method returns '''null''' if the current element is not 
 |MDN_link=
 |HTML5Rocks_link=
 }}
+
+[[Category:SVG]]
