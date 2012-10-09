@@ -33,3 +33,5 @@ The total number of characters  is  effectively equivalent to the length of the 
 |MDN_link=
 |HTML5Rocks_link=
 }}
+
+[[Category:SVG]]
