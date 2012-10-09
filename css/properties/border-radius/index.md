@@ -3,33 +3,23 @@
 |High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The border-radius CSS property allows Web authors to define how rounded border corners are. The curve of each corner is defined using one or two radii, defining its shape: circle or ellipse.}}
 {{CSS Property
 |Initial value=0
-|Applies to=All elements
+|Applies to=all elements, except the <able element when border-collapse is collapse
 |Inherited=No
 |Media=visual
-|Computed value=two absolute lengths or percentages
+|Computed value=as specified by individual properties
 |Animatable=No
+|CSS percentages=as specified by individual properties
 |Values={{CSS Property Value
-|Data Type=radius
-|Description=A floating-point number, followed by either an absolute units designator
-(<code>cm</code>,
-<code>mm</code>,
-<code>in</code>,
-<code>pt</code>,
-or <code>pc</code>)
-or a relative units designator
-(<code>em</code>,
-<code>ex</code>,
-or <code>px</code>).
-For more information about the supported length units,
-see CSS Values and Units Reference.
+|Data Type=length
+|Description=Denotes the size of the circle radius or the semi-major and semi-minor axes of the ellipsis. It can be expressed in any unit allowed by the CSS <length> data types. Negative values are invalid.
 }}{{CSS Property Value
 |Data Type=percentage
-|Description=An integer, followed by a %. The value is a percentage of, for horizontal radii, the width of the border box, or, for vertical radii, the height of the border box.
+|Description=Denotes the size of the circle radius, or the semi-major and semi-minor axes of the ellipsis, using percentage values. Percentages for the horizontal axis refer to the width of the box, percentages for the vertical axis refer to the height of the box. Negative values are invalid.
 }}
 }}
 {{Examples_Section
@@ -37,10 +27,23 @@ see CSS Values and Units Reference.
 |Examples=
 }}
 {{Notes_Section
+|Usage=As with any shorthand property, individual inherited values are not possible, that is <code>border-radius:0 0 inherit inherit</code>, which would override existing definitions partially. In that case, the individual longhand properties have to be used.
 |Notes====Remarks===
 The '''border-radius''' property is a composite property that specifies up to four '''border-*-radius''' properties. If values are given before and after the slash, the values before the slash set the horizontal radius and the values after the slash set the vertical radius. If there is no slash, the values set both radii equally. The four values for each radii are given in the following order: top-left, top-right, bottom-right, bottom-left. If the bottom-left value is omitted, the value is the same as the top-right value. If the bottom-right value is omitted, the value is the same as the top-left value. If the top-right value is omitted, the value is the same as the top-left value.
 |Import_Notes====Syntax===
-<code>'''border-radius: '''radius '''{{!}}''' percentage</code>
+The syntax of the first radius allows one to four values:<br/>
+<code>
+border-radius: radius             
+border-radius: top-left-and-bottom-right top-right-and-bottom-left <br/>
+border-radius: top-left top-right-and-bottom-left bottom-right <br/>
+border-radius: top-left top-right bottom-right bottom-left </code><br/>
+<br/>
+The syntax of the second radius also allows one to four values<br/>
+<code>
+border-radius: (first radius values) / radius <br/>   
+border-radius: (first radius values) / top-left-and-bottom-right top-right-and-bottom-left <br/>
+border-radius: (first radius values) / top-left top-right-and-bottom-left bottom-right <br/>
+border-radius: (first radius values) / top-left top-right bottom-right bottom-left </code><br/>
 ===Standards information===
 *[http://www.w3.org/TR/css3-background/ CSS Backgrounds and Borders Module Level 3], Section 4.4
 }}
