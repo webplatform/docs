@@ -19,7 +19,7 @@
 
 * How does it work? (context 3d, shader)
 * pros/cons (contra: no way to easy modify image pixels)
-* Link to WebGL Convolution Matrix, Extented Color Transform Matrix "best practises"
+* Link to WebGL Convolution Matrix, Extended ColorTransform Matrix "best practises"
 
 '''Browser Compatibility'''
 
