@@ -27,3 +27,4 @@ If you do not specify this property, the effect is the same as if you specify a 
 |MDN_link=
 |HTML5Rocks_link=
 }}
+[[Category:SVG]]
