@@ -37,11 +37,11 @@
 <code>ease-in-out</code>: A timing function, based on a cubic-bezier curve, that  gradually increases in speed at the start and then gradually decreases in speed at the end. This function is equivalent to <code>cubic-bezier(0.42,0,0.58,1)</code>.
 [[Image:msTransition-ease-in-out-cubic.png]]
 
-<code>steps( &lt;number&gt; &#91;, start  | end &#93;)</code>: A stepped timing function that takes two parameters. The first parameter specifies the number of intervals; the optional second parameter specifies the point in the interval where the property value changes. The second parameter is constrained to the values <code>start</code> or <code>end</code>, which is the default.
+<code>steps( &lt;number&gt; '''[''', start | end ''']''')</code>: The change takes place in the number of equal steps specified in the first argument. The optional second argument specifies whether the change takes place at the start or end of each step. If the second argument is omitted, it defaults to <code>end</code>.
 
-<code>step-start</code>: A stepped timing function that is equivalent to <code>steps(1, start)</code>. The change takes place at the start of the keyframe.
+<code>step-start</code>: The change takes place at the start of the keyframe. This is equivalent to <code>steps(1, start)</code>.
 
-<code>step-end</code>: A stepped timing function that is equivalent to <code>steps(1, end)</code>. The change takes place at the end of the keyframe.
+<code>step-end</code>: The change takes place at the end of the keyframe. This is equivalent to <code>steps(1, end)</code>.
 }}
 }}
 {{Examples_Section
