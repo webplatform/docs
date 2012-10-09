@@ -106,7 +106,7 @@ and possible client-side code to handle that stream:
 
 ===Associating an ID with an Event===
 
-You can send a unique id with an stream event by including a line starting with "<code>id:</code>":
+You can send a unique id with a stream event by including a line starting with "<code>id:</code>":
 
 <syntaxhighlight lang="yaml">
  id: 12345\n
@@ -114,7 +114,7 @@ You can send a unique id with an stream event by including a line starting with 
  data: 556\n\n
 </syntaxhighlight>
 
-Setting an ID lets the browser keep track of the last event fired so that if, the connection to the server is dropped, a special HTTP header (<code>Last-Event-ID</code>) is set with the new request. This lets the browser determine which event is appropriate to fire. The <code>message</code> event contains a <code>e.lastEventId</code> property.
+Setting an ID lets the browser keep track of the last event fired so that if the connection to the server is dropped, a special HTTP header (<code>Last-Event-ID</code>) is set with the new request. This lets the browser determine which event is appropriate to fire. The <code>message</code> event contains a <code>e.lastEventId</code> property.
 
 ===Controlling the reconnection timeout===
 
