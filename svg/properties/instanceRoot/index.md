@@ -27,3 +27,4 @@ For more information about the instance tree, see  [[svg/objects/SVGElementInsta
 |MDN_link=
 |HTML5Rocks_link=
 }}
+[[Category:SVG]]
