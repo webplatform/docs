@@ -27,3 +27,4 @@ If you do not specify the  '''maskContentUnits'''  attribute, the <code>userSpac
 |MDN_link=
 |HTML5Rocks_link=
 }}
+[[Category:SVG]]
