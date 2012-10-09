@@ -17,13 +17,14 @@
 |Data Type=single-animation-direction
 |Description=One of the following values: <code>normal, reverse, alternate, alternate-reverse</code>.
 
-<code>normal</code> plays the animation keyframes in the order defined in the <code>@keyframes</code> rule.
-
-<code>reverse</code> plays the animation keyframes in reverse order.
-
-<code>alternate</code> plays odd-numbered cycles in the specified order, and even-numbered cycles in reverse.
-
-<code>alternate-reverse</code> plays even-numbered cycles in reverse, and odd-numbered cycles in the specified order.
+;<code>normal</code>
+:Plays the animation keyframes in the order defined in the <code>@keyframes</code> rule.
+;<code>reverse</code>
+:Plays the animation keyframes in reverse order.
+;<code>alternate</code>
+:Plays odd-numbered cycles in the specified order, and even-numbered cycles in reverse.
+;<code>alternate-reverse</code>
+:Plays even-numbered cycles in reverse, and odd-numbered cycles in the specified order.
 }}
 }}
 {{Examples_Section
