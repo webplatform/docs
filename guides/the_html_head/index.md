@@ -24,12 +24,9 @@ If you don't do it, Google along with other search engines might find it difficu
  
 Note that you can also set the language of sub sections of your document by using the <code>lang</code> attribute on other elements, for example <code>&lt;span lang="fr">Bonjour&lt;/span></code>.
  
-The attributes you use to set the language depend on the <code>doctype</code> of your document. The [http://www.w3.org/TR/i18n-html-tech-lang/#ri20040429.092928424 W3C says]
+The attributes you use to set the language depend on the <code>doctype</code> of your document. For HTML use the <code>lang</code> attribute only, for XHTML 1.0 served as text/html or HTML5 polyglot documents use the <code>lang</code>  and  <code>xml:lang</code>  attributes, and for XHTML served as XML use the  <code>xml:lang</code>  attribute only. 
 
- <blockquote>For HTML use the <code>lang</code> attribute only, for XHTML 1.0 served as text/html or HTML5 polyglot documents use the <code>lang</code>  and  <code>xml:lang</code>  attributes, and for XHTML served as XML use the  <code>xml:lang</code>  attribute only.</blockquote> 
-
-Language
-The simplest language tag value is a two-letter code, such as <code>en</code> for English, but you can also combine multiple subtags with hyphens to give more detail where needed. For example, <code>en-GB</code> signals British English. <code>zh-hans</code> signals Simplified Chinese. The language tags are defined in [http://www.w3.org/International/articles/language-tags/ the IANA subtag registry]. (You can also search for subtags using Richard Ishida's [http://rishida.net/utils/subtags/ Language Subtag Lookup] tool.) See more information about [http://www.w3.org/International/questions/qa-choosing-language-tags Choosing a Language Tag].
+The simplest language tag value is a two-letter code, such as <code>en</code> for English, but you can also combine multiple subtags with hyphens to give more detail where needed. For example, <code>en-GB</code> signals British English. <code>zh-hans</code> signals Simplified Chinese. The language tags are defined in [http://www.iana.org/assignments/language-subtag-registry the IANA subtag registry]. (You can also search for subtags and check language tags using Richard Ishida's [http://rishida.net/utils/subtags/ Language Subtag Lookup] tool.) See more information about [http://www.w3.org/International/questions/qa-choosing-language-tags Choosing a Language Tag].
 
 
 ==Setting your document's character encoding==
