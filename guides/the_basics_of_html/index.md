@@ -113,8 +113,9 @@ You may also want to read [[HTML/Training/What_is_HTML|What is HTML?]]
 A typical example HTML document looks like so:
  
 <syntaxhighlight lang="html5"><!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <meta charset="utf-8">
     <title>Example page</title>
   </head>
   <body>
