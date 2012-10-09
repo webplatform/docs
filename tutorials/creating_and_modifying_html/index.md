@@ -555,7 +555,7 @@ way you need to.
 * Give two reasons why progressive enhancement is important.
 * What’s the difference between <code>appendChild</code> and <code>insertBefore</code>?
 * Why do we use an <code>addClass</code> function rather than just concatenating the new class name with an existing element's <code>className</code> attribute?
-* In the following HTML structure, what would <code>document.getElementById("marker").nextSibling</code> be?   <syntaxhighlight lang="javascript">&lt;p&gt;This is a &lt;strong&gt;block of HTML with &lt;span id="marker"&gt;various markup&lt;span&gt; in it&lt;/strong&gt;.&lt;/p&gt; </syntaxhighlight>
+* In the following HTML structure, what would <code>document.getElementById("marker").nextSibling</code> be?   <syntaxhighlight lang="html5"><p>This is a <strong>block of HTML with <span id="marker">various markup<span> in it</strong>.</p></syntaxhighlight>
 }}
 {{Topics|JavaScript}}
 {{External_Attribution
