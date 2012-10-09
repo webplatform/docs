@@ -442,9 +442,11 @@ This property is not supported for Metro style apps using JavaScript
 |Blackberry_prefixed_supported=Unknown
 |Blackberry_prefixed_version=
 |Chrome_mobile_supported=Yes
+|Chrome_mobile_version=1
 |Chrome_mobile_prefixed_supported=Unknown
 |Chrome_mobile_prefixed_version=
 |Firefox_mobile_supported=Yes
+|Firefox_mobile_version=4
 |Firefox_mobile_prefixed_supported=Unknown
 |Firefox_mobile_prefixed_version=
 |IE_mobile_supported=Unknown
