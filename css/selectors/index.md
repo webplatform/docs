@@ -14,14 +14,14 @@ Selectors may range from simple element names to rich contextual representations
 === Universal Selector ===
 *[[CSS/Selectors/universal_selector|*]]
 
-=== Attribute Selector ===
-*[[CSS/Selectors/attribute_selector/attribute|[attributename]]]
-*[[CSS/Selectors/attribute_selector/attribute=value|[attributename="val"]]]
-*[[CSS/Selectors/attribute_selector/attribute~=value|[attributename~="val"]]]
-*[[CSS/Selectors/attribute_selector/attributel=value|[attributename|="val"]]]
-*[[CSS/Selectors/attribute_selector/attribute^=value|[attributename^="val"]]]
-*[[CSS/Selectors/attribute_selector/attribute$=value|[attributename$="val"]]]
-*[[CSS/Selectors/attribute_selector/attribute*=value|[attributename*="val"]]]
+=== [[CSS/Selectors/attribute_selector|Attribute Selector]] ===
+*attributename
+*attributename="val"
+*attributename~="val"
+*attributename|="val"
+*attributename^="val"
+*attributename$="val"
+*attributename*="val"
 
 === Class Selector ===
 *[[CSS/Selectors/class_selector|.classname]]
