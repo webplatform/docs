@@ -1,5 +1,6 @@
 {{Page_Title|HTML lists}}
-{{Flags}}
+{{Flags
+}}
 {{Byline}}
 {{Summary_Section|This article will give a clear understanding of the three different list types in HTML. Using the step-by-step example, you should have created all three and learned how to nest lists inside list items.}}
 {{Guide
