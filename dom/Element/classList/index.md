@@ -1,31 +1,46 @@
+{{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section|The classList property reflects the class attribute as an ordered list of the whitespace separated class names. It has convenience methods for add, remove, contains and more.}}
 {{API_Object_Property
-|Property_applies_to=dom/HTMLElement
-|Read_only=
+|Property_applies_to=dom/Element
+|Read_only=Yes
+|Return_value_description=A DOMTokenList representing the class names of the element. 
 }}
-{{Topics|DOM}}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
 {{Notes_Section
-|Import_Notes=
-===Syntax===
+|Import_Notes====Syntax===
 ===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}248386 DOM4], Section 5.1
-
-
+* [http://dom.spec.whatwg.org/#domtokenlist DOM] Section 9.1
+* [http://www.w3.org/TR/dom/#interface-domtokenlist DOM4], Section 9.2
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 *<code>[[dom/HTMLElement|HTMLElement]]</code>
+
+
 }}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
