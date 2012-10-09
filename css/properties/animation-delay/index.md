@@ -1,9 +1,9 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Needed, Examples Best Practices
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Defines when an animation starts}}
 {{CSS Property
@@ -77,8 +77,8 @@ If fewer  '''animation-delay''' values are declared than corresponding [[css/pro
 |Chrome_mobile_version=
 |Chrome_mobile_prefixed_supported=Yes
 |Chrome_mobile_prefixed_version=18.0
-|Firefox_mobile_supported=No
-|Firefox_mobile_version=
+|Firefox_mobile_supported=Yes
+|Firefox_mobile_version=16.0
 |Firefox_mobile_prefixed_supported=Yes
 |Firefox_mobile_prefixed_version=15.0
 |IE_mobile_supported=Unknown
