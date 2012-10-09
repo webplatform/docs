@@ -5,12 +5,13 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Defines one or more animations that apply to an element}}
 {{CSS Property
 |Initial value=none
-|Applies to=block-level and inline-level elements
+|Applies to=all elements
 |Inherited=No
 |Media=visual
+|Computed value=as specified
 |Animatable=No
 |Values={{CSS Property Value
 |Data Type=none
@@ -32,11 +33,9 @@ No animation is applied.
 |Examples=
 }}
 {{Notes_Section
-|Notes====Remarks===
-The version of this property using a vendor prefix, '''-ms-animation-name''', has been deprecated. To ensure compatibility in the future, applications using this property with a vendor prefix should be updated accordingly.
+|Usage=The <code>animation-name</code> property accepts the name of one or more animations defined in <code>@keyframes</code> rules, and applies the animation(s) to the selected element. Multiple values should be separated by commas.
 
-====Controlling the progress ring style====
-To change the appearance of a '''ms-fill''' pseudo-element. Here are some examples:
+For an animation to run, you must also specify a value for <code>animation-duration</code>.
 |Import_Notes====Syntax===
 <code>'''animation-name: '''none '''{{!}}''' ''identifier'' '''[''' ,  none '''{{!}}''' ''identifier'' ''']''' *</code>
 ===Standards information===
@@ -47,9 +46,67 @@ To change the appearance of a '''ms-fill''' pseudo-element. Here are some exampl
 }}
 {{Compatibility_Section
 |Not_required=No
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
+|Desktop_rows={{Compatibility Table Desktop Row
+|Chrome_supported=No
+|Chrome_version=
+|Chrome_prefixed_supported=Yes
+|Chrome_prefixed_version=4.0
+|Firefox_supported=Yes
+|Firefox_version=16.0
+|Firefox_prefixed_supported=Yes
+|Firefox_prefixed_version=5.0
+|Internet_explorer_supported=Yes
+|Internet_explorer_version=10.0
+|Internet_explorer_prefixed_supported=No
+|Internet_explorer_prefixed_version=
+|Opera_supported=Yes
+|Opera_version=12.1
+|Opera_prefixed_supported=Yes
+|Opera_prefixed_version=12.0
+|Safari_supported=No
+|Safari_version=
+|Safari_prefixed_supported=Yes
+|Safari_prefixed_version=3.1
+}}
+|Mobile_rows={{Compatibility Table Mobile Row
+|Android_supported=No
+|Android_version=
+|Android_prefixed_supported=Yes
+|Android_prefixed_version=2.1
+|Blackberry_supported=No
+|Blackberry_version=
+|Blackberry_prefixed_supported=Yes
+|Blackberry_prefixed_version=7.0
+|Chrome_mobile_supported=No
+|Chrome_mobile_version=
+|Chrome_mobile_prefixed_supported=Yes
+|Chrome_mobile_prefixed_version=18.0
+|Firefox_mobile_supported=No
+|Firefox_mobile_version=
+|Firefox_mobile_prefixed_supported=Yes
+|Firefox_mobile_prefixed_version=15.0
+|IE_mobile_supported=Unknown
+|IE_mobile_version=
+|IE_mobile_prefixed_supported=Unknown
+|IE_mobile_prefixed_version=
+|Opera_mobile_supported=Yes
+|Opera_mobile_version=12.1
+|Opera_mobile_prefixed_supported=No
+|Opera_mobile_prefixed_version=
+|Opera_mini_supported=No
+|Opera_mini_version=
+|Opera_mini_prefixed_supported=No
+|Opera_mini_prefixed_version=
+|Safari_mobile_supported=No
+|Safari_mobile_version=
+|Safari_mobile_prefixed_supported=Yes
+|Safari_mobile_prefixed_version=3.2
+}}
+|Notes_rows={{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=10.0
+|Note=The -ms- prefix property is deprecated and should not be used.
+}}
 }}
 {{See_Also_Section
 |Topic_clusters=Animation
