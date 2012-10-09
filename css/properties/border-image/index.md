@@ -12,17 +12,7 @@
 |Media=visual
 |Animatable=No
 |Values={{CSS Property Value
-|Data Type=‘border-image-source’
-}}{{CSS Property Value
-|Data Type=‘border-image-slice’
-}}{{CSS Property Value
-|Data Type=‘border-image-width’
-}}{{CSS Property Value
-|Data Type=‘border-image-width’
-}}{{CSS Property Value
-|Data Type=‘border-image-outset’
-}}{{CSS Property Value
-|Data Type=‘border-image-repeat’
+|Data Type=<‘border-image-source’> || <‘border-image-slice’> [ / <‘border-image-width’> | / <‘border-image-width’>? / <‘border-image-outset’> ]? || <‘border-image-repeat’>
 }}
 }}
 {{Examples_Section
