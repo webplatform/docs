@@ -29,3 +29,4 @@ HRESULT value {{=}} object.put_valueAsString(BSTR v);HRESULT value {{=}} object.
 |MDN_link=
 |HTML5Rocks_link=
 }}
+[[Category:SVG]]
