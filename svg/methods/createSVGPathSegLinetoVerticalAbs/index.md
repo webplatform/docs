@@ -27,3 +27,5 @@ Returns a stand-alone, parentless vertical line that is drawn from the current p
 |MDN_link=
 |HTML5Rocks_link=
 }}
+
+[[Category:SVG]]
