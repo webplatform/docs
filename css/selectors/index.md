@@ -9,80 +9,80 @@ Selectors may range from simple element names to rich contextual representations
 {{Basic Page}}
 == CSS Selector Reference ==
 === Type Selector ===
-*[[CSS/Selectors/type_selector|elementname]]
+*[[CSS/Selectors/type_selector|<code>elementname</code>]]
 
 === Universal Selector ===
-*[[CSS/Selectors/universal_selector|*]]
+*[[CSS/Selectors/universal_selector|<code>*</code>]]
 
 === [[CSS/Selectors/attribute_selector|Attribute Selector]] ===
-*attributename
-*attributename="val"
-*attributename~="val"
-*attributename|="val"
-*attributename^="val"
-*attributename$="val"
-*attributename*="val"
+*<code>attributename</code>
+*<code>attributename="val"</code>
+*<code>attributename~="val"</code>
+*<code>attributename|="val"</code>
+*<code>attributename^="val"</code>
+*<code>attributename$="val"</code>
+*<code>attributename*="val"</code>
 
 === Class Selector ===
-*[[CSS/Selectors/class_selector|.classname]]
+*[[CSS/Selectors/class_selector|<code>.classname</code>]]
 
 === ID Selector ===
-*[[CSS/Selectors/id_selector|#idname]]
+*[[CSS/Selectors/id_selector|<code>#idname</code>]]
 
 === Pseudo-classes ===
 ==== Dynamic pseudo-classes ====
-*[[CSS/Selectors/pseudo-classes/:link|:link]]
-*[[CSS/Selectors/pseudo-classes/:visited|:visited]]
-*[[CSS/Selectors/pseudo-classes/:hover|:hover]]
-*[[CSS/Selectors/pseudo-classes/:active|:active]]
-*[[CSS/Selectors/pseudo-classes/:focus|:focus]]
+*[[CSS/Selectors/pseudo-classes/:link|<code>:link</code>]]
+*[[CSS/Selectors/pseudo-classes/:visited|<code>:visited</code>]]
+*[[CSS/Selectors/pseudo-classes/:hover|<code>:hover</code>]]
+*[[CSS/Selectors/pseudo-classes/:active|<code>:active</code>]]
+*[[CSS/Selectors/pseudo-classes/:focus|<code>:focus</code>]]
 
 ==== The target pseudo-class ====
-*[[CSS/Selectors/pseudo-classes/:target|:target]]
+*[[CSS/Selectors/pseudo-classes/:target|<code>:target</code>]]
 
 ==== The language pseudo-class ====
-*[[CSS/Selectors/pseudo-classes/:lang|:lang]]
+*[[CSS/Selectors/pseudo-classes/:lang|<code>:lang</code>]]
 
 ==== The UI element states pseudo-classes ====
-*[[CSS/Selectors/pseudo-classes/:enabled|:enabled]]
-*[[CSS/Selectors/pseudo-classes/:disabled|:disabled]]
-*[[CSS/Selectors/pseudo-classes/:checked|:checked]]
+*[[CSS/Selectors/pseudo-classes/:enabled|<code>:enabled</code>]]
+*[[CSS/Selectors/pseudo-classes/:disabled|<code>:disabled</code>]]
+*[[CSS/Selectors/pseudo-classes/:checked|<code>:checked</code>]]
 
 ==== Structural pseudo-classes ====
-*[[CSS/Selectors/pseudo-classes/:root|:root]]
-*[[CSS/Selectors/pseudo-classes/:nth-child|:nth-child]]
-*[[CSS/Selectors/pseudo-classes/:nth-last-child|:nth-last-child]]
-*[[CSS/Selectors/pseudo-classes/:nth-of-type|:nth-of-type]]
-*[[CSS/Selectors/pseudo-classes/:nth-last-of-type|:nth-last-of-type]]
-*[[CSS/Selectors/pseudo-classes/:first-child|:first-child]]
-*[[CSS/Selectors/pseudo-classes/:last-child|:last-child]]
-*[[CSS/Selectors/pseudo-classes/:first-of-type|:first-of-type]]
-*[[CSS/Selectors/pseudo-classes/:last-of-type|:last-of-type]]
-*[[CSS/Selectors/pseudo-classes/:only-child|:only-child]]
-*[[CSS/Selectors/pseudo-classes/:only-of-type|:only-of-type]]
-*[[CSS/Selectors/pseudo-classes/:empty|:empty]]
+*[[CSS/Selectors/pseudo-classes/:root|<code>:root</code>]]
+*[[CSS/Selectors/pseudo-classes/:nth-child|<code>:nth-child</code>]]
+*[[CSS/Selectors/pseudo-classes/:nth-last-child|<code>:nth-last-child</code>]]
+*[[CSS/Selectors/pseudo-classes/:nth-of-type|<code>:nth-of-type</code>]]
+*[[CSS/Selectors/pseudo-classes/:nth-last-of-type|<code>:nth-last-of-type</code>]]
+*[[CSS/Selectors/pseudo-classes/:first-child|<code>:first-child</code>]]
+*[[CSS/Selectors/pseudo-classes/:last-child|<code>:last-child</code>]]
+*[[CSS/Selectors/pseudo-classes/:first-of-type|<code>:first-of-type</code>]]
+*[[CSS/Selectors/pseudo-classes/:last-of-type|<code>:last-of-type</code>]]
+*[[CSS/Selectors/pseudo-classes/:only-child|<code>:only-child</code>]]
+*[[CSS/Selectors/pseudo-classes/:only-of-type|<code>:only-of-type</code>]]
+*[[CSS/Selectors/pseudo-classes/:empty|<code>:empty</code>]]
 
 ==== The negation pseudo-class ====
-*[[CSS/Selectors/pseudo-classes/:not|:not]]
+*[[CSS/Selectors/pseudo-classes/:not|<code>:not</code>]]
 
 === Pseudo-elements ===
-*[[CSS/Selectors/pseudo-elements/:first-line|<span>:</span>:first-line]]
-*[[CSS/Selectors/pseudo-elements/:first-letter|<span>:</span>:first-letter]]
-*[[CSS/Selectors/pseudo-elements/:before|<span>:</span>:before]]
-*[[CSS/Selectors/pseudo-elements/:after|<span>:</span>:after]]
+*[[CSS/Selectors/pseudo-elements/:first-line|<code><span>:</span>:first-line</code>]]
+*[[CSS/Selectors/pseudo-elements/:first-letter|<code><span>:</span>:first-letter</code>]]
+*[[CSS/Selectors/pseudo-elements/:before|<code><span>:</span>:before</code>]]
+*[[CSS/Selectors/pseudo-elements/:after|<code><span>:</span>:after</code>]]
 
 === Combinators ===
 ==== Descendant combinator ====
-*[[CSS/Selectors/combinators/descendant|A B]]
+*[[CSS/Selectors/combinators/descendant|<code>A B</code>]]
 
 ==== Child combinator ====
-*[[CSS/Selectors/combinators/child|A > B]]
+*[[CSS/Selectors/combinators/child|<code>A > B</code>]]
 
 ==== Adjacent sibling combinator ====
-*[[CSS/Selectors/combinators/adjacent|A + B]]
+*[[CSS/Selectors/combinators/adjacent|<code>A + B</code>]]
 
 ==== General sibling combinator ====
-*[[CSS/Selectors/combinators/general|A ~ B]]
+*[[CSS/Selectors/combinators/general|<code>A ~ B</code>]]
 
 == Case sensitivity ==
 All Selectors syntax is case-insensitive within the ASCII range (i.e. [a-z] and [A-Z] are equivalent), except for parts that are not under the control of Selectors. The case sensitivity of document language element names, attribute names, and attribute values in selectors depends on the document language. For example, in HTML, element names are case-insensitive, but in XML, they are case-sensitive. Case sensitivity of namespace prefixes is defined in [http://www.w3.org/TR/2011/REC-css3-selectors-20110929/#CSS3NAMESPACE CSS3NAMESPACE]. 
