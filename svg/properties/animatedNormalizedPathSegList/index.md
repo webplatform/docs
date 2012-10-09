@@ -33,3 +33,5 @@ When  the animated contents are normalized, all path data commands are expressed
 |MDN_link=
 |HTML5Rocks_link=
 }}
+
+[[Category:SVG]]
