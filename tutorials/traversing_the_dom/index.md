@@ -23,20 +23,20 @@ It’s also important to note that well-structured HTML and CSS form the seed fr
  
 After creating and styling your document, the next step is to hand it off to a browser to display to your users. This is where the DOM comes into play, reading through the document you’ve written, and dynamically generating a DOM you can use within your programs. Specifically, the DOM represents the HTML page as a '''tree''', in much the same way you might represent your ancestry as a “family tree”. Each element on the page is contained in the DOM as a '''node''', with branches linking to elements it directly contains (its '''children'''), and to the element that directly contains it (its '''parent'''). Let’s work through a simple HTML document to make these relationships clear:
  
-<pre>&lt;html&gt;
-  &lt;head&gt;
-    &lt;title&gt;This is a Document!&lt;/title&gt;
-  &lt;/head&gt;
-  &lt;body&gt;
-    &lt;h1&gt;This is a header!&lt;/h1&gt;
-    &lt;p id="excitingText"&gt;
-      This is a paragraph! &lt;em&gt;Excitement&lt;/em&gt;!
-    &lt;/p&gt;
-    &lt;p&gt;
+<syntaxhighlight lang="html5"><html>
+  <head>
+    <title>This is a Document!</title>
+  </head>
+  <body>
+    <h1>This is a header!</h1>
+    <p id="excitingText">
+      This is a paragraph! <em>Excitement</em>!
+    </p>
+    <p>
       This is also a paragraph, but it's not nearly as exciting as the last one.
-    &lt;/p&gt;
-  &lt;/body&gt;
-&lt;/html&gt;</pre>
+    </p>
+  </body>
+</html></syntaxhighlight>
  
 As you can see, the entire document is contained within an <code>html</code> element. That element directly contains two others: <code>head</code> and <code>body</code>. Those show up in our model as its children, and they each point to <code>html</code> as their parent. And so it goes, down through the document hierarchy, with each element pointing to its direct descendants as children, and to its direct ancestor as parent:
  
@@ -67,38 +67,38 @@ These aren’t the only interesting properties of nodes, of course. But this is 
  
 The best place to begin is at the document’s root, accessible via an object creatively named <code>document</code>. As <code>document</code> is right at the root, it doesn’t have a <code>parentNode</code>, but it does have a single child: the <code>html</code> element node, which we can access via <code>document</code>’s <code>childNodes</code> array:
  
-<pre>var theHtmlNode = document.childNodes[0];</pre>
+<syntaxhighlight lang="javascript">var theHtmlNode = document.childNodes[0];</syntaxhighlight>
  
 This line of code creates a new variable named <code>theHtmlNode</code>, and assigns it the value of the <code>document</code> object’s first child (remember that JavaScript arrays start numbering with 0, not 1). You can confirm that you’ve gotten your hands on the <code>html</code> node by examining <code>theHtmlNode</code>’s <code>nodeName</code> property, which gives vital information about the exact kind of node you’re dealing with:
  
-<pre>alert( "theHtmlNode is a " + theHtmlNode.nodeName + " node!" );</pre>
+<syntaxhighlight lang="javascript">alert( "theHtmlNode is a " + theHtmlNode.nodeName + " node!" );</syntaxhighlight>
  
 This code pops up an alert box that reads “theHtmlNode is a HTML node!”. Great! The <code>nodeName</code> property gives you access to the node’s type. For element nodes, the property contains the tag name in upper case: here it’s “HTML”; for a link it would be “A”, for a paragraph “P”, and so on. A text node’s <code>nodeName</code> property is “#text”, and <code>document</code>’s <code>nodeName</code> is “#document”.
  
 You also know that <code>theHtmlNode</code> should contain a reference to its parent. You can check that it’s working the way it's expected to with the following test:
  
-<pre>if ( theHtmlNode.parentNode == document ) {
+<syntaxhighlight lang="javascript">if ( theHtmlNode.parentNode == document ) {
   alert( "Hooray!  The HTML node's parent is the document object!" );
-}</pre>
+}</syntaxhighlight>
  
 This does just as we were expecting. Using this information, let’s write some code to get a reference to the first paragraph in the example document’s body. This is the second child of the <code>body</code> element, which is the second child of the <code>html</code> element, which is the first child of the <code>document</code> object. Whew.
  
-<pre>var theHtmlNode = document.childNodes[0];
+<syntaxhighlight lang="javascript">var theHtmlNode = document.childNodes[0];
 var theBodyNode = theHtmlNode.childNodes[1];
 var theParagraphNode = theBodyNode.childNodes[1];
-alert( "theParagraphNode is a " + theParagraphNode.nodeName + " node!" );</pre>
+alert( "theParagraphNode is a " + theParagraphNode.nodeName + " node!" );</syntaxhighlight>
  
 Wonderful. It does exactly what we want. But it’s really quite verbose, and there's a much better way to write it. In the [http://www.w3.org/wiki/Objects_in_JavaScript Objects article], you learned that you can chain object references together; you can do the same thing here, skipping the intermediary variables by writing the following:
  
-<pre>var theParagraphNode = document.childNodes[0].childNodes[1].childNodes[1];
-alert( "theParagraphNode is a " + theParagraphNode.nodeName + " node!" );</pre>
+<syntaxhighlight lang="javascript">var theParagraphNode = document.childNodes[0].childNodes[1].childNodes[1];
+alert( "theParagraphNode is a " + theParagraphNode.nodeName + " node!" );</syntaxhighlight>
  
 This is much less verbose, and saves you a bit of code.
  
 A node’s first child is always <code>node.childNodes[0]</code>, and a node’s last child is always <code>node.childNodes[node.childNodes.length - 1]</code>. I access these quite often, but they are a bit unwieldy to type over and over again. Given how frequently useful they are, the DOM gives you explicit shortcuts for both: <code>.firstChild</code> and <code>.lastChild</code> respectively. Since the <code>html</code> node is the first child of the <code>document</code> object, and the <code>body</code> node is the last child of the <code>html</code> node, you could rewrite the above code even more clearly as:
  
-<pre>var theParagraphNode = document.firstChild.lastChild.childNodes[1];
-alert( "theParagraphNode is a " + theParagraphNode.nodeName + " node!" );</pre>
+<syntaxhighlight lang="javascript">var theParagraphNode = document.firstChild.lastChild.childNodes[1];
+alert( "theParagraphNode is a " + theParagraphNode.nodeName + " node!" );</syntaxhighlight>
  
 These close-range node-navigation methods are useful, and let you get wherever you like in a document, but they’re cumbersome. Even in this tiny example document, you can start to see how laborious it can be to navigate from the root node down into the depths of the markup. There must be a better way to get around!
 
@@ -108,31 +108,31 @@ It’s really very difficult to specify explicit paths to each of the elements y
  
 Looking back at the HTML document in the example above, you can see that there’s an <code>id</code> attribute on the paragraph we just discussed. This <code>id</code> is unique, and identifies a specific location in the document that allows you to bypass the explicit path by using the <code>document</code> object’s <code>getElementById</code> method. The method does exactly what you’d expect, giving you back either <code>null</code> if you give JavaScript an <code>id</code> that doesn’t exist on the page, or the element node you’ve requested if it does exist. To test it out, let’s compare the results of the new method with the old:
  
-<pre>var theParagraphNode = document.getElementById('excitingText');
+<syntaxhighlight lang="javascript">var theParagraphNode = document.getElementById('excitingText');
 if ( document.firstChild.lastChild.childNodes[1] == theParagraphNode ) {
   alert( "theParagraphNode is exactly what we expect!" );
-}</pre>
+}</syntaxhighlight>
  
 This code will pop up the confirmation message, proving that the two methods give identical results for this example document. <code>getElementById</code> is the most efficient way of gaining access to a particular piece of a page: if you know you’ll need to do some processing somewhere on a page (especially if you can’t guarantee where) adding an <code>id</code> attribute in the appropriate place will save you time.
  
 Equally useful is the DOM’s <code>getElementsByTagName</code> method, which returns a collection of all the elements on the page of a particular type. You can for example get JavaScript to show you all the <code>p</code> elements on the page. The following example gives us both the exciting paragraph, and its less interesting sibling:
  
-<pre>var allParagraphs = document.getElementsByTagName('p');</pre>
+<syntaxhighlight lang="javascript">var allParagraphs = document.getElementsByTagName('p');</syntaxhighlight>
  
 Processing the resulting collection stored in <code>allParagraphs</code> is best done with a <code>for</code> loop: you can work with it almost exactly like an array:
  
-<pre>for (var i=0; i &lt; allParagraphs.length; i++ ) {
+<syntaxhighlight lang="javascript">for (var i=0; i &lt; allParagraphs.length; i++ ) {
   //  do your processing here, using
   //  "allParagraphs[i]" to reference
   //  the current element of the
   //  collection
         
   alert( "This is paragraph " + i + "!" );
-}</pre>
+}</syntaxhighlight>
  
 For more complex documents, returning ''all'' elements of a given type might still be overwhelming. Instead of working through all 200 <code>div</code>s on a large page, it’s likely that you really just want to manipulate the <code>div</code>s from a specific section. In that case you can combine these two methods to filter your results: grab an element using its <code>id</code>, and ask it for all the elements of a given type that it contains. As an example, I could grab ''all'' of the <code>em</code> elements in my exciting paragraph by asking for the following
  
-<pre>document.getElementById('excitingText').getElementsByTagName('em')</pre>
+<syntaxhighlight lang="javascript">document.getElementById('excitingText').getElementsByTagName('em')</syntaxhighlight>
  
 == Summary ==
  
