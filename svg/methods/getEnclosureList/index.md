@@ -27,3 +27,5 @@ A graphics element is  considered a match only if the same graphics element can 
 |MDN_link=
 |HTML5Rocks_link=
 }}
+
+[[Category:SVG]]
