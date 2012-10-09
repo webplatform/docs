@@ -1,32 +1,40 @@
+{{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{Markup_Element
 |DOM_interface=dom/HTMLHtmlElement
+|Content=The '''html''' element is used to contain a complete HTML document.
+
+<syntaxhighlight language="html5">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>An Example Web Page</title>
+  </head>
+  <body>
+    <h1>Hello World!</h1>
+    <p>
+      This is an example web page marked up using HTML.
+   </p>
+  </body>
+</html>
+</syntaxhighlight>
 }}
-{{Topics|HTML}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
-|Description=This example uses the '''HTML''' element to identify the document as an HTML document.
-|LiveURL=
-|Code=
-&lt;HTML&gt;
-&lt;BODY&gt;
-&lt;P&gt;This is an HTML document.&lt;/P&gt;
-&lt;/BODY&gt;
-&lt;/HTML&gt;
-}}}}
+|Examples=
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 With Microsoft Internet Explorer 6 and later, when you use the [[html/elements/!DOCTYPE|!DOCTYPE]] declaration to specify standards-compliant mode, this element represents the canvas—the entire surface onto which a document's contents can be rendered.  When you switch on standards-compliant mode, this element also becomes the positioning container for positioned elements that don't have a positioned parent. When the !DOCTYPE declaration does not specify standards-compliant mode, and with earlier versions of Windows Internet Explorer, the '''body''' object represents the entire surface onto which a document's contents can be rendered.
 In Internet Explorer 6, When you use the [[html/elements/!DOCTYPE|!DOCTYPE]] declaration to specify standards-compliant mode, this element represents the canvas, the entire surface onto which a document's contents can be rendered.
-|Import_Notes=
-===Standards information===
+|Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 7.3
 
 
@@ -472,21 +480,28 @@ This property is not supported for Metro style apps using JavaScript.
 |Declares a namespace for custom tags in an HTML document.
 |}
  
-
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 *<code>Conceptual</code>
 *<code>Using Custom Tags in Internet Explorer</code>
 *<code>Other Resources</code>
 *<code>CSS Enhancements in Internet Explorer 6</code>
-|Topic_clusters=html
 }}
+{{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
