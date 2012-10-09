@@ -28,8 +28,6 @@
 
 If more '''animation-duration''' values are declared than corresponding [[css/properties/animation-name|'''animation-name''']] values, the excess durations are ignored.
 If fewer  '''animation-duration''' values are declared than corresponding [[css/properties/animation-name|'''animation-name''']] values, the list of durations is repeated from the beginning until the '''animation-name''' values are exhausted.
-|Notes=
-
 |Import_Notes====Syntax===
 <code>'''animation-duration: '''''
 &lt;time&gt;
@@ -87,8 +85,8 @@ If fewer  '''animation-duration''' values are declared than corresponding [[css/
 |IE_mobile_version=
 |IE_mobile_prefixed_supported=Unknown
 |IE_mobile_prefixed_version=
-|Opera_mobile_supported=No
-|Opera_mobile_version=
+|Opera_mobile_supported=Yes
+|Opera_mobile_version=12.1
 |Opera_mobile_prefixed_supported=No
 |Opera_mobile_prefixed_version=
 |Opera_mini_supported=No
