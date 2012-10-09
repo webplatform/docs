@@ -10,7 +10,7 @@ document.
  
 This article summarises the purpose and structure of HTML in a very high-level fashion, including how elements work, and what character references are. The articles that follow will drill down into much more detail on specific parts of the HTML language.
  
-== What HTML is ==
+== What is HTML ==
  
 Most desktop applications that read and write files use a special file
 format. For example, Microsoft Word understands “.doc” files and
