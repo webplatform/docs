@@ -49,3 +49,5 @@ An IRI is similar to a URL. For example, an SVG file called <code>myDrawing.svg<
 |MDN_link=
 |HTML5Rocks_link=
 }}
+
+[[Category:SVG]]
