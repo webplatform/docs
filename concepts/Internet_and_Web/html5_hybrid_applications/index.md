@@ -3,7 +3,7 @@
 |High-level issues=Stub
 }}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|A "hybrid" approach to application development suggests a native based application that partly relies on web technologies to render and power certain aspects or areas of the application. HTML5 offers many new features that can be leveraged through a web rendering engine such as webkit and can be utilized without being an application that is 100% powered by web technologies.}}
 {{Concept_Page}}
 {{Examples_Section
 |Not_required=No
