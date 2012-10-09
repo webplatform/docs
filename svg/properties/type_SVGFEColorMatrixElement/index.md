@@ -41,7 +41,7 @@ The following are constants associated with [[svg/elements/feColorMatrix|'''SVGF
 {{See_Also_Section
 |Manual_sections=
 ===Related pages (MSDN)===
-*<code>[[svg/elements/feColorMix|SVGFEColorMatrixElement]]</code>
+*<code>[[svg/elements/feColorMatrix|SVGFEColorMatrixElement]]</code>
 *<code>[[svg/properties/values|values]]</code>
 }}
 {{External_Attribution
