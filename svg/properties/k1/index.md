@@ -1,3 +1,4 @@
+{{Page_Title|k1}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
@@ -27,6 +28,5 @@
 |MDN_link=
 |HTML5Rocks_link=
 }}
-
 
 [[Category:SVG]]
