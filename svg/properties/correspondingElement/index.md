@@ -27,3 +27,5 @@ For example, if a [[svg/elements/use|'''use''']] element references a [[svg/elem
 |MDN_link=
 |HTML5Rocks_link=
 }}
+
+[[Category:SVG]]
