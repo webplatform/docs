@@ -1,14 +1,14 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Copyright Issue
-|Content=Outdated, Grammar/Spelling
+|Content=Outdated
 }}
 {{Byline}}
-{{Summary_Section|When you create a web site, accessibility—making the web site usable by everyone, regardless of their ability or disability—should always be a central concern. In this article I’ll look at accessibility explicitly, so you can understand fully what it is, why it is important, how to ensure that sites are accessible, and what guidelines exist to define accessible sites.}}
+{{Summary_Section|When you create a web site, accessibility, making the web site usable by everyone, regardless of their ability or disability, should always be a central concern. In this article I’ll look at accessibility explicitly, so you can understand fully what it is, why it is important, how to ensure that sites are accessible, and what guidelines exist to define accessible sites.}}
 {{Tutorial
 |Content===Introduction==
 
-Before I look specifically at accessibility on the web, let’s start by looking at accessibility in general terms—after all, accessibility isn’t just a concern associated with web sites; it is potentially a concern with every service, object or technology you’ll come across in life.
+Before I look specifically at accessibility on the web, let’s start by looking at accessibility in general terms. After all, accessibility isn't just a concern associated with web sites, it is potentially a concern with every service, object or technology you’ll come across in life.
 
 Note that an associated topic to learn about is [http://www.w3.org/WAI/intro/aria WAI ARIA]—the Web Accessibility Initiative’s Accessible Rich Internet Applications initiative, which is basically a methodology to allow the creation of more accessible Ajax/JavaScript-powered applications. You can find a [http://dev.opera.com/articles/view/introduction-to-wai-aria/ great introductory article] covering ARIA on dev.opera.com. 
 
@@ -16,11 +16,11 @@ Stella Systems have made a wonderful video that uses the text from the first par
 
 ==What is Accessibility?== 
 
-Look around. Hopefully you will see some other people; if you don’t, why not take a quick walk? You’d probably enjoy it and it would do you good. None of the people you will see around you are the same—some have brown hair, some don’t. Some have blue eyes, some don’t. Some wear glasses, some don’t. None of us are completely alike. Some differences like hair or eye colour are cosmetic—they don’t significantly affect the way we live our lives. Some differences, like wearing glasses, do. Accessibility is a simple thing, a philosophy, although in some countries it is also part of the law.
+Look around. Hopefully you will see some other people; if you don’t, why not take a quick walk? You’d probably enjoy it and it would do you good. None of the people you will see around you are the same—some have brown hair, some don’t. Some have blue eyes, some don’t. Some wear glasses, some don’t. None of us are completely alike. Some differences like hair or eye color are cosmetic; they don’t significantly affect the way we live our lives. Some differences, like wearing glasses, do. Accessibility is a simple thing, a philosophy, although in some countries it is also part of the law.
 
 <blockquote> Accessibility is treating everyone, no matter what their ability, the same. </blockquote>
 
-I realise that this statement is open to interpretation. Most discussions of ''accessibility'' first talk about ''disability''. This implies that people with a disability deserve special treatment. This isn’t what accessibility is about—it’s actually a symptom of the way people have traditionally built buildings, web sites, and pretty much everything else in fact.
+I realize that this statement is open to interpretation. Most discussions of ''accessibility'' first talk about ''disability''. This implies that people with a disability deserve special treatment. This isn’t what accessibility is about—it’s actually a symptom of the way people have traditionally built buildings, web sites, and pretty much everything else in fact.
 
 When you build things with the assumption that everyone is the same as you, then they will always be wrong for some other people. People assume accessibility is about helping people with disabilities because retrofitted accessibility is very obvious in our societies. For example, a lot of buildings that started life with only steps have suddenly sprouted cheap ugly ramps. However, accessibility has long been a feature of military design. Why? because it is often critical for survival—at high g-forces jet fighter pilots can’t do the same things they can do on the ground. If aircraft designers didn’t take the needs of pilots in both high and low gravity environments into account then there would be a lot more plane crashes.
 
@@ -55,7 +55,7 @@ In the USA and European Union there are also requirements for Governmental web s
 
 ===Potential Markets=== 
 
-When you only make web sites (or anything else) for one specific type of person you are excluding other types of people even if you don’t realise it, and these people can easily add up to a significant (if not a majority) market share. In 2000 the UK supermarket chain Tesco started a project to make a separate version of their online grocery site specifically targetting people with visual impairments. It was noted by Julie Howell of the RNIB that “Work undertaken by Tesco.com to make their home grocery service more accessible to blind customers has resulted in revenue in excess of £13m per annum, revenue that simply wasn’t available to the company when the web site was inaccessible to blind customers.” So if Tesco hadn’t considered people with visual impairments they would have been missing out on a market of customers that was worth at least £13 million.
+When you only make web sites (or anything else) for one specific type of person you are excluding other types of people even if you don’t realize it, and these people can easily add up to a significant (if not a majority) market share. In 2000 the UK supermarket chain Tesco started a project to make a separate version of their online grocery site specifically targeting people with visual impairments. It was noted by Julie Howell of the RNIB that “Work undertaken by Tesco.com to make their home grocery service more accessible to blind customers has resulted in revenue in excess of £13m per annum, revenue that simply wasn’t available to the company when the web site was inaccessible to blind customers.” So if Tesco hadn’t considered people with visual impairments they would have been missing out on a market of customers that was worth at least £13 million.
 
 {{TODO| citation }}
 
@@ -65,7 +65,7 @@ The core lesson here is that people of all abilities need the same services; gro
 
 Search engines are not people. Often when people build web sites they do it without considering how they are going to be found on Google, Yahoo, etc. Search engines are just computer programs, and they can only use information they can understand to index your site. This makes them much like the screen readers that a person with a visual impairment might use.
 
-The most obvious example of how this affects web design is images. Computers display images by having a list of what colour every pixel is and sending that information to the monitor. If you put an image on a web page that contains some text, for example a logo, the computer has no idea what that text says or even that the image contains text. In HTML the image element contains a way to describe in text the contents of an image, the <code>alt</code> attribute. You should provide text to describe all non-decorative images on your site, and you certainly shouldn’t represent whole paragraphs of text as images (or Flash for that matter)—blind people and search engines won’t have a clue what the text says! As a result, your search engine ranking (ie how easy it is to find your web site using search engines such as Google) will suffer and you’ll be needlessly missing out on a valuable market.
+The most obvious example of how this affects web design is images. Computers display images by having a list of what color every pixel is and sending that information to the monitor. If you put an image on a web page that contains some text, for example a logo, the computer has no idea what that text says or even that the image contains text. In HTML the image element contains a way to describe in text the contents of an image, the <code>alt</code> attribute. You should provide text to describe all non-decorative images on your site, and you certainly shouldn’t represent whole paragraphs of text as images (or Flash for that matter)—blind people and search engines won’t have a clue what the text says! As a result, your search engine ranking (ie how easy it is to find your web site using search engines such as Google) will suffer and you’ll be needlessly missing out on a valuable market.
 
 ===Ethics and branding=== 
 
