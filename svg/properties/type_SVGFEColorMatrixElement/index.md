@@ -7,7 +7,7 @@
 {{Notes_Section
 |Notes=
 ===Remarks===
-The following are constants associated with [[svg/elements/feColorMix|'''SVGFEColorMatrixElement''']].
+The following are constants associated with [[svg/elements/feColorMatrix|'''SVGFEColorMatrixElement''']].
 {| class="wikitable"
 |-
 !Constant
