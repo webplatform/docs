@@ -30,3 +30,5 @@ The  '''flipX'''  method post-multiplies the matrix by using  the transformation
 |MDN_link=
 |HTML5Rocks_link=
 }}
+
+[[Category:SVG]]
