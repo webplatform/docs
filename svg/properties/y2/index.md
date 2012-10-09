@@ -30,3 +30,4 @@ The '''y2'''  property represents a ''relative'' coordinate for lowercase [[svg/
 |MDN_link=
 |HTML5Rocks_link=
 }}
+[[Category:SVG]]
