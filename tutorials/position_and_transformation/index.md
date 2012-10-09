@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags}}
-{{Summary_Section}}
+{{Byline}}
+{{Summary_Section|This article is an overview of the coordinate system, positioning and performing translations, transforms, rotation, skewing, scaling on SVG elements.}}
 {{Tutorial
 |Content=== The grid ==
  
@@ -103,6 +104,7 @@ In contrast to HTML SVG allows you to embed other <code>svg</code> elements seam
  
 The example above has basically the same effect as the one above, namely that the rect will be twice as large as specified.
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
 |Desktop_rows=
@@ -115,4 +117,6 @@ The example above has basically the same effect as the one above, namely that th
 |Is_CC-BY-SA=Yes
 |Sources=MDN
 |MDN_link=https://developer.mozilla.org/en-US/docs/SVG/Tutorial/Positions
+|MSDN_link=
+|HTML5Rocks_link=
 }}
