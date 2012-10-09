@@ -8,7 +8,7 @@
 {{Summary_Section|Defines whether an animation runs in reverse in some or all cycles}}
 {{CSS Property
 |Initial value=normal
-|Applies to=block-level and inline-level elements
+|Applies to=all elements
 |Inherited=No
 |Media=visual
 |Computed value=as specified
@@ -17,7 +17,7 @@
 |Data Type=single-animation-direction
 |Description=One of the following values: <code>normal, reverse, alternate, alternate-reverse</code>.
 
-<code>normal</code plays the animation keyframes in the order defined in the <code>@keyframes</code> rule.
+<code>normal</code> plays the animation keyframes in the order defined in the <code>@keyframes</code> rule.
 
 <code>reverse</code> plays the animation keyframes in reverse order.
 <code>alternate</code> plays odd-numbered cycles in the specified order, and even-numbered cycles in reverse.
