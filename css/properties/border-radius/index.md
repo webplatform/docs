@@ -66,7 +66,7 @@ The '''border-radius''' property is a composite property that specifies up to fo
 |Import_Notes====Syntax===
 The syntax of the first radius allows one to four values:<br/>
 <code>
-border-radius: radius             
+border-radius: radius <br/>           
 border-radius: top-left-and-bottom-right top-right-and-bottom-left <br/>
 border-radius: top-left top-right-and-bottom-left bottom-right <br/>
 border-radius: top-left top-right bottom-right bottom-left </code><br/>
