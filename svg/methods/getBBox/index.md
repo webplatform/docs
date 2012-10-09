@@ -43,3 +43,5 @@ The  return value  is exclusive of stroking, clipping, masking, and filter effec
 |MDN_link=
 |HTML5Rocks_link=
 }}
+
+[[Category:SVG]]
