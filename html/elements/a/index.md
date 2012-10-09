@@ -21,16 +21,16 @@
 &lt;a href{{=}}"home.htm"&gt;home.htm&lt;/a&gt;
 
 &lt;!-- Open a file in the window specified by TARGET. --&gt;
-&lt;A TARGET{{=}}"viewer" HREF{{=}}"sample.htm"&gt;Open in window&lt;/a&gt;
+&lt;a target{{=}}"viewer" HREF{{=}}"sample.htm"&gt;Open in window&lt;/a&gt;
 
 &lt;!-- Include an IMG element as a part of the link. --&gt;
-&lt;a href{{=}}"http://www.microsoft.com"&gt;&lt;IMG SRC{{=}}"images/bullet.png"&gt;link&lt;/a&gt; 
+&lt;a href{{=}}"http://www.microsoft.com"&gt;&lt;img src{{=}}"images/bullet.png"&gt;link&lt;/a&gt; 
 
 &lt;!-- Link to an anchor. --&gt;
 &lt;a href{{=}}"#anchor"&gt;anchor&lt;/a&gt;
 
 &lt;!-- Define an anchor. --&gt;
-&lt;A NAME{{=}}"anchor"&gt;
+&lt;a name{{=}}"anchor"&gt;
 
 &lt;!-- Invoke a JScript function. --&gt;
 &lt;a href{{=}}"javascript:window.open()"&gt;link&lt;/a&gt;
