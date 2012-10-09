@@ -183,3 +183,4 @@ This concludes our look at animating web page functionality using JavaScript - I
 # If <code>setInterval</code> didn't exist, how could you emulate it?
 # How would you make an element fade from fully visible to fully invisible in 20 steps over the course of 1.5 seconds?
 # How would you make an element fade from fully visible to fully invisible ''and then back to visible again'' in 20 steps over the course of 1.5 seconds?
+[[Category:Javascript]]
