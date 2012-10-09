@@ -53,7 +53,9 @@ function handleFileSelect(e){
 }</nowiki>
 
 Ok, you should see the file object in the console, after you select a new file.
-Now lets turn this file´s content into a data URL we can load into a <img> Element.
+Now lets turn this file´s content into a data URL we can load into a <img> Element. After the Image has loaded, we don´t need the data URL any more and we will free the memory.
+
+
 
 
 '''TODO:''' Add Descriptions and sample Code
