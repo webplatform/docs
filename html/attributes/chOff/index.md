@@ -11,7 +11,15 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Description=This is an example usage in HTML for chOff
+|Code=<element choff="p" ... >
+}}{{Single Example
+|Language=JavaScript
+|Description=This is an example usage in JS for chOff
+|Code=p = object.chOff
+}}
 }}
 {{Notes_Section
 |Notes====Remarks===
