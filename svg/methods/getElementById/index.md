@@ -27,3 +27,5 @@ The search for the specified element is restricted to a subset of the document t
 |MDN_link=
 |HTML5Rocks_link=
 }}
+
+[[Category:SVG]]
