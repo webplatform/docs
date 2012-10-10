@@ -2,13 +2,15 @@
 {{Flags}}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The hash property contains the fragment identifier (including hash character) for the current page.
+
+}}
 {{API_Object_Property
 |Property_applies_to=apis/location
 |Read_only=No
 |Example_object_name=window.location
 |Javascript_data_type=String
-|Return_value_description=Returns the fragment identifier (including hash) for the current page.
+|Return_value_description=Returns the fragment identifier (including hash character) for the current page.
 
 For example, <code>http://example.org/#foo</code> would return the fragment identifier of <code>#foo</code>.
 |Example_value_name=#foo
