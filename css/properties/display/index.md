@@ -22,7 +22,8 @@
 |Description=Internet Explorer 6 and later.  Object is rendered as a block element, and a list-item marker is added.
 }}{{CSS Property Value
 |Data Type=none
-|Description=Object is not rendered.
+|Description=Element is not rendered. The element (it has no effect on layout); all child elements also have their display turned off. The document is rendered as though the element did not exist.
+To render an element box's dimensions, yet have its contents be invisible, see the [[css/properties/visibility|"visibility"]] visibility property.
 }}{{CSS Property Value
 |Data Type=table-header-group
 |Description=Object is rendered as '''tHead'''. Table header is always displayed before all other rows and row groups, and after any top captions. The header is displayed on each document spanned by a table.
