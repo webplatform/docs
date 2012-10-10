@@ -5,7 +5,10 @@ ECMAScript 6 is the next draft version of the standard, code-named '''"Harmony"'
 Describe performance enchantments.
 
 === Features ===
-TODO: List some of the EMCAScript 6 features such as Syntax, Strcutures and Library implementations
+TODO: List some of the EMCAScript 6 features such as Syntax, Structures and Library implementations
+
+=== Concepts ===
+Describe concepts such as Classes, Private Names, Inheritance and Abstraction.
 
 ==References==
 <references />
