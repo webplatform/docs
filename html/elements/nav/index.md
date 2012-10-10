@@ -1,20 +1,19 @@
+{{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section|The HTML Navigation Element (<nav>) represents a section of a page that links to other pages or to parts within the page: a section with navigation links}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
 }}
-{{Topics|HTML}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Description=The following example uses the '''nav''' element to indicate that a list contains site navigation links.
-|LiveURL=
-|Code=
-  &lt;nav&gt;
+|Code=&lt;nav&gt;
    &lt;h1&gt;Site Navigation&lt;/h1&gt;
    &lt;ul&gt;
     &lt;li&gt;&lt;a href{{=}}"index.html"&gt;Home&lt;/a&gt;&lt;/li&gt;
@@ -22,16 +21,16 @@
     &lt;li&gt;&lt;a href{{=}}"news.html"&gt;Updates&lt;/a&gt;&lt;/li&gt;
    &lt;/ul&gt;
   &lt;/nav&gt;
-
-}}}}
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
-Windows Internet Explorer 9.  The '''nav''' element is only supported for webpages displayed in IE9 Standards mode. For more information, see Defining Document Compatibility.
+|Notes====Remarks===
 Not all groups of links on a document need to be in a '''nav''' element, only sections that consist of major navigation blocks. In particular, it is common for '''footer''' elements to have a short list of links to various documents of a site, such as the terms of service, home, and copyright. The '''footer''' element alone is sufficient for such cases, and does not require a '''nav''' element.
+
+Windows Internet Explorer 9.  The '''nav''' element is only supported for webpages displayed in IE9 Standards mode. For more information, see Defining Document Compatibility.
+
 '''Note'''  Some devices and applications (such as screen readers) might use the '''nav''' element as a way to determine what content on the document to initially skip or provide on request.
-|Import_Notes=
-===Standards information===
+|Import_Notes====Standards information===
 There are no standards that apply here.
 
 ===HTML information===
@@ -247,11 +246,18 @@ This property is not supported for Metro style apps using JavaScript.
 |Retrieves the element's unique number.
 |}
  
-
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 *<code>Reference</code>
 *<code>article</code>
 *<code>aside</code>
@@ -262,12 +268,12 @@ This property is not supported for Metro style apps using JavaScript.
 *<code>hgroup</code>
 *<code>mark</code>
 *<code>section</code>
-|Topic_clusters=html
 }}
+{{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
