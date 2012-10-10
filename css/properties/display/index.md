@@ -86,6 +86,9 @@
 }}{{CSS Property Value
 |Data Type=-ms-inline-grid
 |Description=Internet Explorer 10. Specifies an inline-level Grid element. For more information on grid layout, see Grid Layout.
+}}{{CSS Property Value
+|Data Type=flex
+|Description=‘display:flex’ is a flex container. It is used for flex-box model layout.
 }}
 }}
 {{Examples_Section
