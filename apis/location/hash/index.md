@@ -1,7 +1,5 @@
 {{Page_Title}}
-{{Flags
-|Content=Errors
-}}
+{{Flags}}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section}}
@@ -16,12 +14,20 @@ For example, <code>http://example.org/#foo</code> would return the fragment iden
 |Example_value_name=#foo
 }}
 {{Examples_Section
-|Not_required=Yes
-|Examples=
+|Not_required=No
+|Examples={{Single Example
+|Language=JavaScript
+|Description=This example shows how to first check for the availability of the window.location.hash property, and then checks to see whether the second tab in our fictional web app should be displayed.
+|Code=if(typeof window.location.hash != "undefined" && window.location.hash == "#tab2"){
+    // Code to display the second tab goes here.
+}
+}}
 }}
 {{Notes_Section
 |Usage=This property is used to see what the fragment identifier, or "hash" is for the current page is set to.
-|Notes=This is most often used to preserve permalinks in web applications, however the [[apis/history|history API]] may be better suited to this task if legacy browser support is not required.
+|Notes=The window.location.hash property does not work in versions of Internet Explorer prior to version 8.
+
+This is most often used to preserve permalinks in web applications, however the [[apis/history|history API]] may be better suited to this task if legacy browser support is not required.
 }}
 {{Related_Specifications_Section
 |Specifications=
