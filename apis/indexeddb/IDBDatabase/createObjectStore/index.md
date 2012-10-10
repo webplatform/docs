@@ -5,9 +5,7 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|The createObjectStore method enables you to create object stores inside an indexedDB database. The creation of an object store is only possible inside an "versionchange" transaction.
-
-}}
+{{Summary_Section|The createObjectStore method enables you to create object stores inside an indexedDB database. The creation of an object store is only possible inside an "versionchange" transaction.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=name
@@ -18,19 +16,17 @@
 |Name=optionalParameters
 |Data type=DOM Node
 |Description=An object literal containing one or more of the following attributes:
-* keyPath: specifies the key path of the new object store. If the attribute is null, no key path is specified. In this case the key isn't an attribute of the object stored in the value
-* autoIncrement: specifies whether the object store should have a key generator. If a key generator is present, the key will be automatically incremented when objects get inserted.
+* '''keyPath''': specifies the key path of the new object store. If the attribute is null, no key path is specified. In this case the key isn't an attribute of the object stored in the value
+* '''autoIncrement''': specifies whether the object store should have a key generator. If a key generator is present, the key will be automatically incremented when objects get inserted.
 |Optional=Yes
 }}
 |Method_applies_to=apis/indexedDB/IDBDatabase
 |Example_object_name=IDBDatabase
 |Return_value_name=IDBObjectStore
 |Javascript_data_type=DOM Node
-|Return_value_description=Type: '''HRESULT'''
+|Return_value_description=[[apis/indexedDB/IDBObjectStore|'''IDBObjectStore''']]
 
-This method can return one of these values.
-
-
+An object representing the new object store.
 
 This method can throw the following [[dom/DOMException|'''DOMException''']] exceptions:
 
