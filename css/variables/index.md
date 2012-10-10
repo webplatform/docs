@@ -44,13 +44,12 @@ Such complexity and its attendant errors can be avoided by using CSS variables. 
 
 <syntaxhighlight language="css">
 :root { var-fgcolor: #008080; var-bgcolor: #ddeeff; }
-. . .
 a { text-decoration: none; color: var(fgcolor); background-color: var(bgcolor); }
 a:hover { color: var(bgcolor); background-color: var(fgcolor); }
 a:visited { color: var(fgcolor); background-color: var(bgcolor); }
 </syntaxhighlight>
 
-Here we use the variable names "fgcolor" for the foreground, or text, color and "bgcolor" for the background color. 
+Here we use the variable names "fgcolor" for the foreground (text) color and "bgcolor" for the background color. 
 Creating the variables in the <code>:root</code> rule has no immediate effect; the values are merely assigned and ready to be used. The effect is only actualized when the various <code>a</code> rules are applied to the document's hyperlinks.
 
 Changing to a different color scheme for links now becomes trivial. Simply modify the values for var-fgcolor and var-bgcolor in the first rule, and the colors will be accurately propagated throughout the style sheet or document. It is clear from reading the code that the "fg" and "bg" colors are swapped on hover.
