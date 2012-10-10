@@ -247,7 +247,7 @@ There are other techniques that make even more advanced object-oriented programm
 * Author(s): Fernando Trasvi&ntilde;a &lt;f_trasvina at hotmail dot com&gt;
 
 </div>
-}}
+
 {{Compatibility_Section
 |Not_required=Yes
 |Desktop_rows=
