@@ -1,8 +1,5 @@
 {{Page_Title}}
-{{Flags
-|High-level issues=Missing Relevant Sections, Needs Topics, Unreviewed Import
-|Content=Incomplete
-}}
+{{Flags}}
 {{Standardization_Status|De Facto Standard}}
 {{API_Name}}
 {{Summary_Section|Defines the title of the current document.}}
@@ -361,7 +358,7 @@ This property is not supported for Metro style apps using JavaScript.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=W3C Recommadation
+|Name=W3C Recommendation
 |URL=http://www.w3.org/TR/html401/struct/global.html#h-7.4.2
 |Status=recommendation
 }}
