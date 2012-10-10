@@ -28,6 +28,11 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=CSS
+|Code=p        { visibility: hidden; }    /* paragraphs won't be visible */
+p.showme { visibility: visible; }   /* except of these with class showme */
+tr.col   { visibility: collapse; }  /* table rows with class col will collapse */
+}}{{Single Example
 |Description=The following examples use the '''visibility'''  attribute and the '''visibility''' property to determine whether the object is visible.
 
 This example uses two calls to an embedded (global) style sheet to hide and then show the image when the user moves the mouse over and off the text.
@@ -68,11 +73,6 @@ function reappear()
 over this text to make the sphere disappear.&lt;/p&gt;
 &lt;/body&gt;
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/visibility_s.htm
-}}{{Single Example
-|Language=CSS
-|Code=p        { visibility: hidden; }    /* paragraphs won't be visible */
-p.showme { visibility: visible; }   /* except of these with class showme */
-tr.col   { visibility: collapse; }  /* table rows with class col will collapse */
 }}
 }}
 {{Notes_Section
