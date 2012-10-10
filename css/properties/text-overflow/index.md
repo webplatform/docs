@@ -5,9 +5,9 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The text-overflow CSS property determines how overflowed content that is not displayed is signaled to the users. It can be clipped, display an ellipsis ('…', U+2026 HORIZONTAL ELLIPSIS) or a Web author-defined string.}}
 {{CSS Property
-|Applies to=All elements
+|Applies to=All block level elements
 |Inherited=No
 |Media=visual
 |Animatable=No
@@ -76,6 +76,15 @@ p.caption {
 
 &lt;/html&gt;
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/css/textOverflow.htm
+}}{{Single Example
+|Language=CSS
+|Code=p {
+  white-space: nowrap;
+  width: 100%;                   
+  overflow: hidden;        /* "overflow" value must be different from "visible" */
+ 
+  text-overflow:    ellipsis;
+}
 }}
 }}
 {{Notes_Section
@@ -108,15 +117,48 @@ This property offers an efficient alternative to building ellipses in Dynamic HT
 |Internet_explorer_prefixed_supported=Unknown
 |Internet_explorer_prefixed_version=
 |Opera_supported=Yes
-|Opera_version=9
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
+|Opera_version=11
+|Opera_prefixed_supported=Yes
+|Opera_prefixed_version=9
 |Safari_supported=Yes
 |Safari_version=3.1
 |Safari_prefixed_supported=Unknown
 |Safari_prefixed_version=
 }}
-|Mobile_rows=
+|Mobile_rows={{Compatibility Table Mobile Row
+|Android_supported=Yes
+|Android_version=2.1
+|Android_prefixed_supported=Unknown
+|Android_prefixed_version=
+|Blackberry_supported=Yes
+|Blackberry_version=7
+|Blackberry_prefixed_supported=Unknown
+|Blackberry_prefixed_version=
+|Chrome_mobile_supported=Unknown
+|Chrome_mobile_version=
+|Chrome_mobile_prefixed_supported=Unknown
+|Chrome_mobile_prefixed_version=
+|Firefox_mobile_supported=Unknown
+|Firefox_mobile_version=
+|Firefox_mobile_prefixed_supported=Unknown
+|Firefox_mobile_prefixed_version=
+|IE_mobile_supported=Unknown
+|IE_mobile_version=
+|IE_mobile_prefixed_supported=Unknown
+|IE_mobile_prefixed_version=
+|Opera_mobile_supported=Unknown
+|Opera_mobile_version=
+|Opera_mobile_prefixed_supported=Unknown
+|Opera_mobile_prefixed_version=
+|Opera_mini_supported=Unknown
+|Opera_mini_version=
+|Opera_mini_prefixed_supported=Unknown
+|Opera_mini_prefixed_version=
+|Safari_mobile_supported=Unknown
+|Safari_mobile_version=
+|Safari_mobile_prefixed_supported=Unknown
+|Safari_mobile_prefixed_version=
+}}
 |Notes_rows=
 }}
 {{See_Also_Section
