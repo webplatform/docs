@@ -1,7 +1,5 @@
-{{Page_Title}}
-{{Flags
-|High-level issues=Stub
-}}
+{{Page_Title|window.location}}
+{{Flags}}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|The location object provides access to the address related properties of the current document.}}
