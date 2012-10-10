@@ -1,11 +1,11 @@
 {{Page_Title|SVG tutorials}}
 {{Flags
 |High-level issues=Missing Relevant Sections, Needs Topics
-|Content=Incomplete, Grammar/Spelling
+|Content=Incomplete
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|A list of SVG tutorials that teaches SVG concepts and techniques.}}
+{{Summary_Section|A list of all SVG tutorials.}}
 {{API_Listing
 |Query=[[Category:Tutorials]][[Category:SVG]]
 |Use_page_title=No
