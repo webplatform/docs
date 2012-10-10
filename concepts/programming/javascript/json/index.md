@@ -18,11 +18,30 @@ JSON supports a number of data types common to many programming languages, but a
 
 Arbitrary whitespace is also allowed outside of values for formatting purposes.
 
+===Example Object===
+  {name : "Robert", prefix : "Mr", age: 23, programmer: true}
+
 ==Using JSON==
 ===JavaScript===
 Being a subset of JavaScript itself, JSON is widely used by JS developers. Modern implementations of JavaScript include the global <code>JSON</code> object. It contains two methods: <code>parse</code> for parsing JSON strings, and <code>stringify</code> for converting a JS object into JSON. This object can also be polyfilled for older browsers that don't support it.
 
 However, you should never parse JSON by calling the <code>eval</code> function. This works because JSON is almost always valid JavaScript, but using <code>eval</code> opens up several security risks by possibly allowing arbitrary code execution. If you do use it, make sure to properly sanitize its input first.
+
+===Example Usage===
+   //This is a JavaScript object with 3 key.value pairs
+   var obj = {name : "John Doe", prefix : "Mr", age: 23, programmer: true};
+
+   //We serialize the object like so.
+   var objSerialized = JSON.stringfy(obj);
+
+   //objSerialized now looks like: "{"name":"Robert","prefix":"Mr","age":23,"programmer":true}"
+   //We can now de-serialize the string using the JSON.parse method.
+
+   var objDeserialized = JSON.parse(objSerialized);
+
+   //We can now use this object to access the values.
+   alert(objDeserialized.prefix + " " + objDeserialized.name); //Mr John Doe
+   
 ===Other languages===
 JSON parsers also exist for other languages. However, because not all of them share the same data types as JavaScript, some extra conversion may be required. [http://www.json.org/ JSON.org] has a listing of parsers in other languages.
 }}
