@@ -5,9 +5,9 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Used in casting shadows off block-level elements}}
 {{CSS Property
-|Applies to=All elements
+|Applies to=Block-level elements
 |Inherited=No
 |Media=visual
 |Animatable=No
@@ -21,7 +21,12 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|Code=.shadow {
+  box-shadow: 3px 3px 5px 6px #ccc;
+}
+}}
 }}
 {{Notes_Section
 |Notes====Remarks===
