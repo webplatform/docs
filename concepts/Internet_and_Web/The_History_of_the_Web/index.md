@@ -88,7 +88,7 @@ As a result, a group of professional web developers and designers banded togethe
  
 The early method of spreading the call to action was to use a traditional advertising technique called a roadblock, where a company would take out an advert on all broadcast channels at the same time, so no matter how a viewer would flick between channels, they would get exactly the same message. The WaSP published an article simultaneously on various web development focused sites including builder.com, Wired online, and some popular mailing lists.
  
-Another technique the WaSP used was to ridicule the companies involved with the W3C (and other standards bodies) that focused more on creating new, often self-serving, features rather than working to get the basic existing standards supported correctly in their products to start with (this includes some browser companies that shall remain nameless here). This doesn't mean that the WaSP ridiculed the W3C themselves, rather they ridiculed the companies that became W3C members and then misbehaved.
+Another technique the WaSP used was to ridicule the companies involved with the W3C (and other standards bodies) that focused more on creating new, often self-serving, features rather than working to get the basic existing standards supported correctly in their products to start with. This doesn't mean that the WaSP ridiculed the W3C themselves, rather they ridiculed the companies that became W3C members and then misbehaved.
  
 The W3C has a few full time staff, but most of the people who work on the standards are volunteers from member companies, eg. Microsoft, Opera, Mozilla, Apple, Google, IBM and Adobe, to name a few of the biggest ones.
  
