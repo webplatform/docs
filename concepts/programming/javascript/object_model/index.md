@@ -7,8 +7,8 @@
 
 This chapter assumes that you are already somewhat familiar with JavaScript and that you have used JavaScript functions to create simple objects.
 }}
-{{Concept
-|Content===Class-based vs. prototype-based languages==
+
+==Class-based vs. prototype-based languages==
 
 Class-based object-oriented languages, such as Java and C++, are founded on the concept of two distinct entities: classes and instances.
 
@@ -604,7 +604,7 @@ The <code>dennis</code> object does not inherit this new property.
 <span style="float: left">[[/guides/JavaScript/core_objects|&laquo; Previous]]</span>[[/guides/JavaScript/Inheritance|Next &raquo;]]
 
 </div>
-}}
+
 {{Compatibility_Section
 |Not_required=Yes
 |Desktop_rows=
