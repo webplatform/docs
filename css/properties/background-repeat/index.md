@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Defines how background images will be repeated.}}
 {{CSS Property
 |Applies to=All elements
 |Inherited=No
@@ -28,6 +28,7 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=CSS
 |Description=The following examples use the '''background-repeat''' attribute and the '''background-repeat''' property to specify whether the background image is tiled.
 
 This example uses a call to an embedded (global) style sheet to tile the image.
@@ -44,6 +45,7 @@ onmouseout{{=}}"this.className{{=}}'style2'" onclick{{=}}"this.className{{=}}''"
 . . . &lt;/SPAN&gt;
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/background-repeat.htm
 }}{{Single Example
+|Language=CSS
 |Description=This example shows how to use inline scripting to tile the image.
 |Code=&lt;SPAN onmouseover{{=}}"this.style.backgroundImage{{=}}'url(sphere.jpeg)';
 this.style.backgroundRepeat{{=}}'repeat'"&gt;
