@@ -23,7 +23,30 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|Code=.example1 {
+  opacity: 0.5;
+}
+}}{{Single Example
+|Language=CSS
+|Description=Internet Explorer 5-7
+|Code=// for IE5-7
+.example2 {	
+  filter: alpha(opacity=50);
+}
+}}{{Single Example
+|Description=Internet Explorer 8
+|Code=.example3 {	// for IE8
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+}
+}}{{Single Example
+|Description=Internet Explorer 5-8
+|Code=.opaque {
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; // first!
+	filter: alpha(opacity=50);					// second!
+}
+}}
 }}
 {{Notes_Section
 |Notes====Remarks===
