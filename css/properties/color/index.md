@@ -2,9 +2,8 @@
 {{Flags
 |Content=Cleanup, Examples Best Practices
 }}
-{{Summary_Section|The color property describes the foreground color of an element's text content.}}
-
 {{Standardization_Status|[http://www.w3.org/TR/css3-color/ W3C Recommendation]}}
+{{Summary_Section|The color property describes the foreground color of an element's text content.}}
 {{API_Name}}
 {{CSS Property
 |Initial value=depends on user agent
@@ -49,6 +48,7 @@ rgba(0%,0%,100%,0.5)
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=HTML
 |Description=The following examples use the '''color''' attribute and the '''color''' property to change the text color of an object.
 This example uses a call to an embedded (global) style sheet to change the text color to <code>red</code> when an [[dom/events/mouseover|'''onmouseover''']] event occurs.
 |Code=&lt;STYLE&gt;
@@ -61,17 +61,18 @@ This example uses a call to an embedded (global) style sheet to change the text 
     onmouseout{{=}}"this.className{{=}}'color2'"&gt; . . .
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/color_h.htm
 }}<br /><hr /><br />{{Single Example
-|Description=The following are all ways to make the element's text red:
-|Code=element { color: pink }
-element { color: #f00 }
-element { color: #ff0000 }
-element { color: rgb(255,0,0) }
-element { color: rgb(100%, 0%, 0%) }
-element { color: hsl(0, 100%, 50%) }
+|Description=The following are all valid ways to display the element's text content green:
+|Language=CSS
+|Code=element { color: green }
+element { color: #0f0 }
+element { color: #008000 }
+element { color: rgb(0,128,0) }
+element { color: rgb(0%, 50%, 0%) }
+element { color: hsl(120, 100%, 50%) }
  
 /* 50% translucent */
-element { color: rgba(255, 0, 0, 0.5) } 
-element { color: hsla(0, 100%, 50%, 0.5) }
+element { color: rgba(0, 128, 0, 0.5) } 
+element { color: hsla(120, 100%, 50%, 0.5) }
 }}<br /><hr /><br />
 ===More live examples===
 *[http://www.w3schools.com/cssref/tryit.asp?filename=trycss_color w3schools Tryit]
