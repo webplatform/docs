@@ -13,7 +13,7 @@
 For example, <code>http://example.org/</code> would return the hostname <code>example.org</code>.
 }}
 {{Examples_Section
-|Not_required=No
+|Not_required=Yes
 |Examples=
 }}
 {{Notes_Section}}
