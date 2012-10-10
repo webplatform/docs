@@ -92,10 +92,12 @@ In order to make it easier for users to see and hear content including separatin
 |Safari_mobile_supported=Yes
 |Safari_mobile_version=1.0
 }}
-|Notes_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=<=7.0
+|Note=no support for the "inherit" value
 }}
-==Notes==
-*IE7 and earlier do not support "inherit" as value
+}}
 {{See_Also_Section
 |Manual_sections=*[http://www.w3.org/Style/CSS/Test/CSS3/Color/current/ W3 css3-color Conformance Test Suite]
 *[http://www.w3schools.com/cssref/pr_text_color.asp w3schools color property]
