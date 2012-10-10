@@ -1,13 +1,12 @@
-{{Page_Title}}
+{{Page_Title|CSS variables}}
 {{Flags
-|High-level issues=Stub
+|High-level issues=Needs Flags, Stub
 }}
-{{Summary_Section}}
+{{Summary_Section|Introduction to CSS variables.}}
 {{Basic Page}}
 Stub
 
 More stubby content
-
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
