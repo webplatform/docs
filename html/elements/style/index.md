@@ -1,20 +1,22 @@
+{{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|High-level issues=Missing Relevant Sections, Needs Topics, Merge Candidate, Data Not Semantic, Unreviewed Import
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{Markup_Element
 |DOM_interface=dom/HTMLStyleElement
+|Content={{Editorial/Merge_Candidate
+|Other=Meta:HTML/Elements/style
 }}
-{{Topics|HTML}}
+}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Description=This example encloses style declarations in the '''STYLE''' element and changes one of those settings using the '''style''' object.
-|LiveURL=
-|Code=
-&lt;HEAD&gt;
+|Code=&lt;HEAD&gt;
 &lt;STYLE&gt;
    BODY {  background-color: white; color: black;  }
    H1 {  font: 8pt Arial bold;  }
@@ -28,15 +30,14 @@
 &lt;BODY&gt;
 &lt;P&gt;Sample Paragraph Text&lt;/P&gt;
 &lt;/BODY&gt;
-}}}}
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 The '''STYLE''' element should appear in the '''HEAD''' section of an HTML document. Microsoft Internet Explorer 4.0 and later permit multiple style blocks.
 
 The '''STYLE''' element should appear in the '''HEAD''' section of an HTML document. Multiple style blocks are permitted.
-|Import_Notes=
-===Standards information===
+|Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 14.2.3
 
 
@@ -184,15 +185,22 @@ This property is not supported for Metro style apps using JavaScript.
 |Retrieves the CSS language in which the style sheet is written.
 |}
  
-
 }}
-{{See_Also_Section
-|Topic_clusters=html
+{{Related_Specifications_Section
+|Specifications=
 }}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section}}
+{{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
