@@ -8,7 +8,7 @@
 {{API_Object_Property
 |Property_applies_to=apis/location
 |Read_only=No
-|Example_object_name=window.location.hash
+|Example_object_name=window.location
 |Javascript_data_type=String
 |Return_value_description=Returns the fragment identifier (including hash) for the current page.
 
