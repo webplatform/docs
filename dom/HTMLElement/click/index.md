@@ -38,7 +38,7 @@ If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRES
         chk1.click();
       }
   &lt;/script&gt;
-  &lt;script for{{=}}chk1 event{{=}}onfocus&gt;
+  &lt;script for{{=}}"chk1" event{{=}}"onfocus"&gt;
     alert("check box is in focus!");
   &lt;/script&gt;
 &lt;/head&gt;
