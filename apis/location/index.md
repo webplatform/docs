@@ -23,7 +23,6 @@
 |Usage=The location object can be used as an object or a string.
 
 Regular string comparisons such as in the examples section can be used, but there are several other properties of the location such as the hash or the hostname that can be compared individually.
-|Notes=The <code>window.location.hash</code> property does not work in versions of Internet Explorer prior to version 8.
 }}
 {{Related_Specifications_Section
 |Specifications=
