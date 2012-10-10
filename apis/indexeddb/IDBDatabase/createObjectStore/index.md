@@ -3,9 +3,11 @@
 |High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The createObjectStore method enables you to create object stores inside an indexedDB database. The creation of an object store is only possible inside an "versionchange" transaction.
+
+}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=name
@@ -16,17 +18,13 @@
 |Name=optionalParameters
 |Data type=DOM Node
 |Description=An object literal containing one or more of the following attributes:
-* keyPath: specifies the key path of the new object store. 
-* autoIncrement: specifies whether the object store should have a key generator.
+* keyPath: specifies the key path of the new object store. If the attribute is null, no key path is specified. In this case the key isn't an attribute of the object stored in the value
+* autoIncrement: specifies whether the object store should have a key generator. If a key generator is present, the key will be automatically incremented when objects get inserted.
 |Optional=Yes
-}}{{Method Parameter
-|Name=retVal
-|Data type=String
-|Optional=No
 }}
 |Method_applies_to=apis/indexedDB/IDBDatabase
-|Example_object_name=object
-|Return_value_name=object
+|Example_object_name=IDBDatabase
+|Return_value_name=IDBObjectStore
 |Javascript_data_type=DOM Node
 |Return_value_description=Type: '''HRESULT'''
 
