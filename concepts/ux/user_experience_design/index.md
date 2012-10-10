@@ -1,7 +1,6 @@
 {{Page_Title|User experience design}}
 {{Flags
-|High-level issues=Merge Candidate, Stub
-|Editorial notes={{Editorial/Merge_Candidate|Other=concepts/an_introduction_to_web_design}}
+}}
 }}
 {{API_Name}}
 {{Summary_Section|Note: the original purpose of this pages has been moved to http://docs.webplatform.org/wiki/concepts/an_introduction_to_digital_design, but this page has been kept, as I feel that UX still probably needs a definition somewhere, even if many people think it is basically just design ;-)}}
