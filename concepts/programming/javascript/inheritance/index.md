@@ -1,5 +1,6 @@
 {{Page_Title|Inheritance revisited}}
-{{Flags}}
+{{Flags
+}}
 {{Byline}}
 {{Summary_Section|Inheritance has always been available in JavaScript, but the examples on this page use some methods introduced in ECMAScript 5.}}
 {{Tutorial
