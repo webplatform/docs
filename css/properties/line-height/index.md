@@ -5,8 +5,11 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|On inline elements, the line-height CSS property specifies the height that is used in the calculation of the line box height.
+On block level elements, line-height specifies the minimal height of line boxes within the element.
+}}
 {{CSS Property
+|Initial value=normal
 |Applies to=All elements
 |Inherited=No
 |Media=visual
@@ -72,8 +75,8 @@ Microsoft Internet Explorer 3.0 supports the '''line-height''' attribute throug
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
+|Sources=MDN, MSDN
+|MDN_link=https://developer.mozilla.org/en-US/docs/CSS/line-height
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
