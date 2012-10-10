@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page_Title|JSON}}
 {{Flags}}
 {{Standardization_Status}}
 {{API_Name}}
