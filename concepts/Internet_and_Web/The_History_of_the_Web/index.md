@@ -1,5 +1,9 @@
-{{Page_Title|The history of the web}}
+{{Page_Title|The history of the Web}}
 {{Flags
+|Content=Cleanup
+|Editorial notes=The style guide uses this title as an example of correct titling; only in the style guide's example, it's "The history of the Web." Changing it here for consistency.
+
+Common British English / American English spelling differences were also changed to favor American English.
 }}
 {{API_Name}}
 {{Summary_Section|<blockquote> 
@@ -31,9 +35,9 @@ If any terms are unfamiliar to you, don’t worry: if they’re important for le
 {{Concept_Page
 |Content=== The Internet’s origins ==
  
-On the fourth of October in 1957 an event occurred that would change the world. The Soviet Union successfully launched the first satellite into Earth’s orbit. Called Sputnik 1, it shocked the world — especially the United States of America, who had their own programme of satellite launches underway, but had yet to launch.
+On the fourth of October in 1957 an event occurred that would change the world. The Soviet Union successfully launched the first satellite into Earth’s orbit. Called Sputnik 1, it shocked the world — especially the United States of America, who had their own program of satellite launches underway, but had yet to launch.
  
-This event led directly to the creation of the US Department of Defence, ARPA, due to a recognised need for an organisation that could research and develop advanced ideas and technology. Perhaps their most famous project (certainly the most widely used) was the creation of the Internet.
+This event led directly to the creation of the US Department of Defense, ARPA, due to a recognized need for an organization that could research and develop advanced ideas and technology. Perhaps their most famous project (certainly the most widely used) was the creation of the Internet.
  
 In 1960, psychologist and computer scientist Joseph Licklider published a paper entitled Man-Computer Symbiosis, which articulated the idea of networked computers providing advanced information storage and retrieval. In 1962, whilst working for ARPA as the head of the information processing office, he formed a group to further computer research, but left the group before any actual work was done on the idea.
 
@@ -47,9 +51,9 @@ This specification reduced the role of the network and moved the responsibility 
 
 == The creation of World Wide Web ==
  
-[http://en.wikipedia.org/wiki/Gopher Gopher] was an information retrieval system used in the early 1990s, providing a method of delivering menus of links to files, computer resources and other menus. These menus could cross the boundaries of the current computer and use the Internet to fetch menus from other systems. It was very popular with universities looking to provide campus-wide information and large organisations looking to centralise document storage and management.
+[http://en.wikipedia.org/wiki/Gopher Gopher] was an information retrieval system used in the early 1990s, providing a method of delivering menus of links to files, computer resources and other menus. These menus could cross the boundaries of the current computer and use the Internet to fetch menus from other systems. It was very popular with universities looking to provide campus-wide information and large organizations looking to centralize document storage and management.
  
-Gopher was created by the University of Minnesota. In February, 1993, they announced that it was going to charge licensing fees for the use of their reference implementation of the Gopher server. As a consequence, many organisations started to look for alternatives to Gopher.
+Gopher was created by the University of Minnesota. In February, 1993, they announced that it was going to charge licensing fees for the use of their reference implementation of the Gopher server. As a consequence, many organizations started to look for alternatives to Gopher.
  
 The European Council for Nuclear Research (CERN) in Switzerland had such an alternative. Tim Berners-Lee had been working on a information management system, in which text could contain links and references to other works, allowing the reader to quickly jump from document to document. He had created a server for publishing this style of document (called hypertext) as well as a program for reading them, which he had called WorldWideWeb. This software had first been released in 1991, however, it took two events to cause an explosion in popularity and the eventual replacement of Gopher.
  
@@ -61,7 +65,7 @@ The number of available web browsers increased dramatically, many created by res
  
 === The browser wars ===
  
-The popularisation of the web brought commercial interests. Marc Andreessen left NCSA and together with Jim Clark founded Mosaic Communications, later renamed to Netscape Communications Corporation, and started work on what was to become Netscape Navigator. Version 1.0 of the software was released in December 1994.
+The popularization of the web brought commercial interests. Marc Andreessen left NCSA and together with Jim Clark founded Mosaic Communications, later renamed to Netscape Communications Corporation, and started work on what was to become Netscape Navigator. Version 1.0 of the software was released in December 1994.
  
 Spyglass Inc. (the commercial arm of NCSA) licensed their Mosaic technology to Microsoft to form the basis of Internet Explorer. Version 1.0 was released in August 1995.
  
