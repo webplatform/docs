@@ -2,12 +2,12 @@
 {{Flags}}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The port number the document was accessed via.}}
 {{API_Object_Property
 |Property_applies_to=apis/location
 |Read_only=Yes
 |Example_object_name=window.location
-|Return_value_description=The port number the document was accessed from.
+|Return_value_description=The port number the document was accessed via.
 
 For example, <code>http://example.org/</code> would return the default HTTP port number of <code>80</code>.
 }}
