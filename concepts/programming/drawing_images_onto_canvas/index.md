@@ -1,4 +1,4 @@
-{{Page_Title|Drawing a large Image onto a Canvas}}
+{{Page_Title|Drawing an Image onto a Canvas}}
 {{Flags
 |High-level issues=Missing Relevant Sections
 |Content=Incomplete, Cleanup, Compatibility Incomplete, Accessibility
@@ -6,128 +6,120 @@
 {{API_Name}}
 {{Summary_Section}}
 {{Concept_Page
-|Content=Drawing an image on a Canvas seems to be an easy task. That’s true if you already have an image element (<img>) to draw. If you want to load it from a URL first it’s a bit more difficult, because you have to listen for the image to be fully loaded. (It’s still more difficult if your Image is on the local file system.) There are different ways to get it done. This article will show the best practice.
+|Content=Drawing an image on to a Canvas is straightforward, though there are some cases that require a little extra work. We'll start with the basic case and then explore some issues you might encounter. We'll look at how to load the image from various sources, how to display the image on "retina" displays without bluriness, and at some compatibility and performance problems.
 
-If you finished your basic drawing and released it into the wild, you will recognize some problems. The first one is so-called “Retina” displays. All Images drawn on them will look blurry, although not if you know the right tricks. The second one is performance issues. Cameras are getting more megapixels and screens are getting bigger every year. People are starting to load huge images into your app. It’s good to know how to use not only CPU but also GPU power to render and manipulate an image.
-Last but not least there are device-specific issues making image drawing even harder. Like the [http://stackoverflow.com/questions/12554947/mobile-safari-renders-img-src-dataimage-jpegbase64-scaled-on-canvas/ 2MB image file down-scaling bug] on iOS.
+==A simple example==
+The easiest situation to deal with is when the image we wish to draw is already loaded as a DOM element in our page. Here is a complete HTML page that will take an image and copy it on to a canvas.
+ <nowiki>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Image drawing</title>
+    </head>
+    <body>
+        <img id="logo" src="http://www.w3.org/html/logo/img/mark-word-icon.png" alt="The HTML5 logo" />
+        <script>
+            // First we need to make sure that the image has loaded and that the DOM is ready.
+            window.addEventListener("DOMContentLoaded", function()
+            {
+                // Get a reference to the image
+                var image = document.getElementById("logo");
+
+                drawImage(image);
+            });
+
+            // Take an image and draw it to a canvas
+            function drawImage(image)
+            {
+                // Create the canvas
+                var canvas = document.createElement("canvas");
+                canvas.width = image.width;
+                canvas.height = image.height;
+
+                // Get the 2D drawing context
+                var context = canvas.getContext("2d");
+
+                // Now draw the logo onto the top-left corner of the canvas
+                context.drawImage(image, 0, 0);
+            };
+        </script>
+    </body>
+</html>
+</nowiki>
+
+==Loading the image programmatically==
+While that is very simple, there is a flaw - we have to add the image to the DOM first. However, we can load an image directly from a URL with a few lines of javascript.
+
+ <nowiki>
+    function loadAndDrawImage(url)
+    {
+        // Create an image object. This is not attached to the DOM and is not part
+        // of the page.
+        var image = new Image();
+
+        // When the image has loaded, draw it to the canvas
+        image.onload = function()
+        {
+            drawImage(this);
+        }
+
+        // Now set the source of the image that we want to load
+        image.src = url;
+    }
+
+    loadAndDrawImage("http://www.w3.org/html/logo/img/mark-word-icon.png");
+</nowiki>
 
 ==Reading the Image from the File System==
 
-First we need some simple HTML with a file select input field. We will give the input field an ID, so we can access it easily later on:
+In order to read an arbitrary file from the user's file system we have to let the user choose the file. We do this using a file select input. Let's add one to our HTML.
 
- <nowiki><!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <title>Image drawing Example</title>
-</head>
-<body>
-    <input type="file" name="choosePicture" id="choosePicture" accept="image/jpeg">
-</body>
-</html></nowiki>
+ <nowiki>
+    <label for="fileChooser">Choose an image to display</label><input type="file" name="fileChooser" id="fileChooser" accept="image/jpeg">
+</nowiki>
 
-Now let’s get to the fun part: writing some JavaScript. First we need to listen to the file select event and get a reference to the local file. But first we have to listen for the file select input field to be ready, after the DOMContentLoaded event:
+Then we have to detect when the user has chosen a file
 
- <nowiki>document.addEventListener('DOMContentLoaded', function(){
+ <nowiki>
+    // Get a reference to the file select input field
+    var fileChooser = document.getElementById('fileChooser');
 
-    // get a reference to the file select input field
-    var fileSelect = document.querySelector('#choosePicture');
+    // When a selection is made the "change" event will be fired
+    fileChooser.addEventListener('change', handleFileSelect, false);
 
-    // listen for the onChange event that gets fired after the user has chosen a file
-    fileSelect.addEventListener('change', handleFileSelect, false);
-    
-}, false);
+    function handleFileSelect(event)
+    {
+        // Get the FileList object from the file select event
+        var files = event.target.files;
+        
+        // Check if there are files in the FileList
+        if(files.length === 0)
+        {
+            return;
+        }
+        
+        // For this example we only want one image. We'll take the first.
+        var file = files[0];
+        
+        // Check that the file is an image
+        if(file.type !== '' && !file.type.match('image.*'))
+        {
+            return;
+        }
+</nowiki>
 
-function handleFileSelect(e){
+Now let’s turn this file’s content into a data URL that we can use as the source for our image. After the image has loaded, we don’t need the data URL any more and we will free the memory.
 
-    // get the FileList object from the file select event
-    var files = e.target.files;
-    
-    // check if there are files in the FileList
-    if(files.length === 0){
-        return;
+ <nowiki>
+        // The URL API is vendor prefixed in Chrome
+        window.URL = window.URL || window.webkitURL;
+
+        // Create a data URL from the image file
+        var imageURL = window.URL.createObjectURL(file);
+
+        loadAndDrawImage(imageURL);
     }
-    
-    // we just need one file and ignore the others
-    var file = files[0];
-    
-    // make sure we got an image file
-    if(file.type !== '' && !file.type.match('image.*')){
-        return;
-    }
-    
-    // let’s see what we got
-    console.log(file);
-}</nowiki>
-
-You should see the file object in the console. Now let’s turn this file’s content into a data URL that we can load into an <img> element. After the image has loaded, we don’t need the data URL any more and we will free the memory. So we extend the code into this:
-
- <nowiki>document.addEventListener('DOMContentLoaded', function(){
-
-    // get a reference to the file select input field
-    var fileSelect = document.querySelector('#choosePicture');
-
-    // listen for the onChange event that gets fired after the user has chosen a file
-    fileSelect.addEventListener('change', handleFileSelect, false);
-    
-}, false);
-
-// vendor prefixed in Chrome
-window.URL = window.webkitURL
-|window_URL;
-
-function handleFileSelect(e){
-
-    // get the FileList object from the file select event
-    var files=e.target.files;
-    
-    // check if there are files in the FileList
-    if(files.length === 0){
-        return;
-    }
-    
-    // we just need one file and ignore the others
-    var file = files[0];
-    
-    // make sure we got a image file
-    if(file.type !== '' && !file.type.match('image.*')){
-        return;
-    }
-    
-    // create a data URL from the image file
-    var imageData = window.URL.createObjectURL(file);
-    
-    // create an Image object
-    var img = new Image();
-    
-    // now listen for the onLoad event of the image before we can work on
-    // you should use img.onload instead of img.addEventListener('load') because the eventListener fires to early in some Browsers!
-    img.onload = function(){
-        // free some memory by removing the data URL
-        window.URL.revokeObjectURL(img.src);
-      
-        // create a Canvas and draw on it
-        drawOnCanvas(img);
-    };
-    img.src = imageData;
-}
-
-function drawOnCanvas(img){
-    
-    // create a Canvas to draw on
-    var canvas = document.createElement('canvas');
-    document.body.appendChild(canvas);
-  
-    // get the drawing Context
-    var context = canvas.getContext('2d');
-    
-    // set Canvas width/height to Image width/height
-    canvas.width = img.naturalWidth;
-    canvas.height = img.naturalHeight;
-    
-    // finally draw the Image on the Canvas
-    context.drawImage(img, 0, 0);
-}</nowiki>
+</nowiki>
 
 
 '''TODO:''' 
