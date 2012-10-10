@@ -45,7 +45,7 @@ Indicates the preferred viewport width used in determining the size of the initi
 {{!}}-
 {{!}}
 ; '''height'''
-{{!}} Indicates the preferred viewport width used in determining the size of the initial containing block. See '''width''' for a list of possible values.
+{{!}} Indicates the preferred viewport height used in determining the size of the initial containing block. See '''width''' for a list of possible values.
 {{!}}}
 }}
 {{Related_Specifications_Section
