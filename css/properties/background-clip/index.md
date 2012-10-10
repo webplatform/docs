@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Property specifies whether an element's background, (color or image), extends underneath its border.}}
 {{CSS Property
 |Initial value=border-box
 |Applies to=All elements
@@ -25,7 +25,16 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Description=The yellow colored background will not go behind the border.
+|Code=div 
+{
+   border: 5px solid red;
+   background: yellow;
+
+   background-clip: padding-box;
+}
+}}
 }}
 {{Notes_Section
 |Notes====Remarks===
