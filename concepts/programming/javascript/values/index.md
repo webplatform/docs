@@ -1,7 +1,6 @@
 {{Flags}}
 {{Summary_Section|This chapter discusses values that JavaScript recognizes and describes the fundamental building blocks of JavaScript expressions: variables, constants, and literals.}}
-{{Concept
-|Content=<h2 id="Values">Values</h2>
+<h2 id="Values">Values</h2>
 <p>JavaScript recognizes the following types of values:</p>
 <ul>
   <li>[[/js/data-types/number|Numbers]], such as 42 or 3.14159</li>
@@ -471,7 +470,7 @@ var x = "\u00A9 Netscape Communications";</pre>
 <ul>
   <li>[http://0xcc.net/jsescape/ Text Escaping and Unescaping in JavaScript] – an utility to convert characters in JavaScript unicode values</li>
 </ul>
-}}
+
 {{See_Also_Section}}
 {{Topics|JavaScript}}
 {{External_Attribution
