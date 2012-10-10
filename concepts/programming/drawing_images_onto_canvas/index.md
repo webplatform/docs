@@ -1,7 +1,7 @@
 {{Page_Title|Drawing a large Image onto a Canvas}}
 {{Flags
 |High-level issues=Missing Relevant Sections
-|Content=Incomplete, Grammar/Spelling, Cleanup, Compatibility Incomplete, Accessibility
+|Content=Incomplete, Cleanup, Compatibility Incomplete, Accessibility
 }}
 {{API_Name}}
 {{Summary_Section}}
