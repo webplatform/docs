@@ -33,6 +33,7 @@ The easiest situation to deal with is when the image we wish to draw is already 
             {
                 // Create the canvas
                 var canvas = document.createElement("canvas");
+                document.body.appendChild(canvas);
                 canvas.width = image.width;
                 canvas.height = image.height;
 
