@@ -27,6 +27,22 @@
 This example uses an inline style sheet to set the background color to <code>lime</code>.
 |Code=&lt;span style{{=}}"font-size: 14px; background-color: lime"&gt;The background color of the text has been set inline using the &lt;b&gt;background-color&lt;/b&gt; attribute.&lt;/span&gt;
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/background-color.htm
+}}{{Single Example
+|Language=CSS
+|Code=exampleOne {
+    background-color: teal;
+    color: white;
+}
+ 
+.exampleTwo {
+    background-color: rgb(153,102,153);
+    color: rgb(255,255,204);
+}
+ 
+.exampleThree {
+    background-color: #777799;
+    color: #FFFFFF;
+}
 }}
 }}
 {{Notes_Section
@@ -83,8 +99,8 @@ In Windows CE, specifying a value for the '''background-color''' property of th
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
+|Sources=MDN, MSDN
+|MDN_link=https://developer.mozilla.org/en-US/docs/CSS/background-color
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
