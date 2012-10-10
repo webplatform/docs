@@ -26,7 +26,7 @@ First we need some simple HTML with a file select input field. We will give the 
 </body>
 </html></nowiki>
 
-Now let’s get to the funny part: writing some JavaScript. First we need to listen to the file select event and get a reference to the local file. But first we have to listen for the file select input field to be ready, after the DOMContentLoaded event:
+Now let’s get to the fun part: writing some JavaScript. First we need to listen to the file select event and get a reference to the local file. But first we have to listen for the file select input field to be ready, after the DOMContentLoaded event:
 
  <nowiki>document.addEventListener('DOMContentLoaded', function(){
 
@@ -97,18 +97,12 @@ function handleFileSelect(e){
     // create a data URL from the image file
     var imageData = window.URL.createObjectURL(file);
     
-    // create a image element and load the data URL into it
-    var img = document.createElement('img');
-    document.body.appendChild(img);
-    
-    // we don´t want to see the image on the screen, so let´s move it out of view (we can´t just hide it!)
-    img.style.position = 'absolute';
-    img.style.left = '-9999px';
+    // create an Image object
+    var img = new Image();
     
     // now listen for the onLoad event of the image before we can work on
     // you should use img.onload instead of img.addEventListener('load') because the eventListener fires to early in some Browsers!
     img.onload = function(){
-        
         // free some memory by removing the data URL
         window.URL.revokeObjectURL(img.src);
       
@@ -132,10 +126,7 @@ function drawOnCanvas(img){
     canvas.height = img.naturalHeight;
     
     // finally draw the Image on the Canvas
-    context.drawImage(img, 0, 0, canvas.width, canvas.height);
-    
-    // remove the Image from the DOM, we don´t need it any more
-    document.body.removeChild(img);
+    context.drawImage(img, 0, 0);
 }</nowiki>
 
 
