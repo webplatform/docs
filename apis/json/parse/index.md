@@ -11,7 +11,6 @@
 |Optional=No
 }}
 |Method_applies_to=apis/JSON
-|Example_object_name=JSON
 |Return_value_description=A JavaScript object representing the JSON string.
 }}
 {{Examples_Section
