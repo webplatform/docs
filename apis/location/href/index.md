@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The full url for this resource. Synonymous with <code>String(window.location)</code>.}}
 {{API_Object_Property
 |Property_applies_to=apis/location
 |Read_only=Yes
@@ -34,7 +34,7 @@ For example, <code>http://example.org/index.html?page=1#foo</code> would return 
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics}}
+{{Topics|JavaScript}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
