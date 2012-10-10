@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|Content=Cleanup, Examples Best Practices
+|Content=Cleanup
 }}
 {{Standardization_Status|[http://www.w3.org/TR/css3-color/ W3C Recommendation]}}
 {{Summary_Section|The color property describes the foreground color of an element's text content.}}
