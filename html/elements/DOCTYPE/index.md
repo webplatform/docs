@@ -10,7 +10,7 @@
 |DOM_interface=dom/HTMLElement
 }}
 {{Examples_Section
-|Not_required=Yes
+|Not_required=No
 |Examples={{Single Example
 |Language=HTML
 |Description=HTML5 has one doctype declaration
