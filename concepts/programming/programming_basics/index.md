@@ -60,7 +60,7 @@ or
 <pre>x = 3
 y = 5</pre>
  
-The same works with programming languages—in programming, variables are containers for values that can vary. Variables can hold all kind of values and also the results of calculations. Variables have a name and a value separated by an equals sign (=). Variable names can be any letter or word, but bear in mind that there are restrictions from language to language of what you can use, as some words are reserved for other functionality.
+The same works with programming languages—in programming, variables are containers for values that can vary. Variables can hold all kinds of values and also the results of calculations. Variables have a name and a value separated by an equals sign (=). Variable names can be any letter or word, but bear in mind that there are restrictions from language to language of what you can use, as some words are reserved for other functionality.
 
 To keep things easy, let’s use JavaScript as an example programming language in this article (logical, since this section of the web standards curriculum is all about JavaScript programming!) The following defines two variables, calculates the result of adding the two and defines this result as a value of a third variable.
  
