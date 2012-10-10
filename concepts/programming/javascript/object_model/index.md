@@ -1,4 +1,3 @@
-{{Page_Title}}
 {{Flags
 |Content=Not Neutral, Examples Errors
 |Editorial notes=Need to check the compatibility of the code example that contains (typeof object == 'xml'); might be Gecko-specific.
