@@ -42,10 +42,10 @@ Modernizr runs on page load to detect the features after that it creates a JavaS
 |Mobile_rows={{Compatibility Table Mobile Row
 |Android_supported=Yes
 |Android_prefixed_supported=Yes
-|Blackberry_supported=Unknown
-|Blackberry_version=
-|Blackberry_prefixed_supported=Unknown
-|Blackberry_prefixed_version=
+|Blackberry_supported=Yes
+|Blackberry_version=6+
+|Blackberry_prefixed_supported=Yes
+|Blackberry_prefixed_version=6+
 |Chrome_mobile_supported=Yes
 |Chrome_mobile_prefixed_supported=Yes
 |Firefox_mobile_supported=Yes
