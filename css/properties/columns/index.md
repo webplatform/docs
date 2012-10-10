@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Shorthand property for setting [[css/properties/column-width|'''column-width''']] and [[css/properties/column-count|'''column-count''']]}}
 {{CSS Property
 |Initial value=(see individual properties)
 |Applies to=non-replaced block-level elements (except table elements), table cells, and inline-block elements
@@ -33,7 +33,28 @@
 }}
 {{Compatibility_Section
 |Not_required=No
-|Desktop_rows=
+|Desktop_rows={{Compatibility Table Desktop Row
+|Chrome_supported=Unknown
+|Chrome_version=
+|Chrome_prefixed_supported=Yes
+|Chrome_prefixed_version=21
+|Firefox_supported=Unknown
+|Firefox_version=
+|Firefox_prefixed_supported=Yes
+|Firefox_prefixed_version=14
+|Internet_explorer_supported=Yes
+|Internet_explorer_version=10
+|Internet_explorer_prefixed_supported=No
+|Internet_explorer_prefixed_version=
+|Opera_supported=Yes
+|Opera_version=12
+|Opera_prefixed_supported=No
+|Opera_prefixed_version=
+|Safari_supported=Unknown
+|Safari_version=
+|Safari_prefixed_supported=Yes
+|Safari_prefixed_version=5.1
+}}
 |Mobile_rows=
 |Notes_rows=
 }}
