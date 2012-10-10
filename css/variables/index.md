@@ -12,7 +12,7 @@ One of the fundamental features of procedural programming languages such as Java
 
 Historically, this feature has not been available In most declarative languages. In CSS, for example, in order to use a single value (e.g., a color) throughout a document, the value must be coded separately each time it is used. This scatters the various instances of the value, making it difficult to maintain and impossible to reuse.
 
-The CSS Cascading Variables Module (W3C spec [http://dev.w3.org/csswg/css-variables/] here) introduces this feature into CSS. 
+The CSS Cascading Variables Module (W3C spec [http://dev.w3.org/csswg/css-variables/ here]) introduces this feature into CSS. 
 
 ==Use==
 This module describes a family of author-defined properties, called ''custom properties'', that allow you to assign arbitrary values to a property with a name of your choice, and a way to use them, called ''cascading variables'', that allow you to later use those values elsewhere in the document. This feature improves functionality and readability by replacing previously arbitrary values with descriptive, semantic names. It also simplifies maintenance and reuse by requiring only one instance of the actual value in the code, replacing later instances with the descriptive name.
@@ -119,7 +119,6 @@ h3 { color: blue; margin-left: -webkit-var(head-left-margin); }
 
 ==See also==
 [http://dev.w3.org/csswg/css-variables/ W3C CSS Cascading Variables Module Level 1 spec]
-
 {{Notes_Section}}
 {{Topics|CSS}}
 {{External_Attribution
