@@ -1,8 +1,9 @@
 {{Flags}}
-{{Summary_Section|JavaScript is a bit confusing for developers experienced in class-based languages (like Java or C++), as it's dynamic and does not provide a <code>class</code> implementation (although the keyword <code>class</code> is a reserved keyword and cannot be used as a variable name).
+{{Summary_Section|JavaScript is a little confusing for developers experienced in [http://en.wikipedia.org/wiki/Class-based_programming class-based languages] (like Java or C++), as it's dynamic and does not provide a <code>class</code> implementation (although the keyword <code>class</code> is a reserved keyword and cannot be used as a variable name).
 
-When it comes to inheritance, JavaScript only has one construct which is objects. An object has an internal link to another object (or <code>null</code>) called its '''prototype'''. This object has a prototype as well and so on, until one object has <code>null</code> as its prototype. This ''chain'' of objects being prototypes of one another is called the '''prototype chain'''.
+JavaScript is still an Object Orientated Language (OOP), meaning you can construct class like structures and instantiate them into objects that are used in the same way as class-based languages.
 
+An object has an internal link to another object (or <code>null</code>) called its '''prototype'''. This object has a prototype as well and so on, until one object has <code>null</code> as its prototype. This ''chain'' of objects being prototypes of one another is called the '''prototype chain'''.
 
 }}
 ==Inheritance with the prototype chain==
