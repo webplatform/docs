@@ -78,7 +78,7 @@ On a dynamic web site on the other hand the content on the server is the same, b
  
 Another thing to note is that special software must be installed on the server to create a dynamic web site. Whereas normal static HTML files are saved with a file extension of .html and can just be run by the browser with no extra help, these files contain special dynamic code in addition to HTML, and are saved with special file extensions to tell the web server that they need extra processing before they are sent to the client (such as having the data inserted from the database). PHP files for example usually have a .php file extension.
  
-There are many dynamic languages and frameworks to choose from — I’ve already mentioned PHP, and other examples include Python, Ruby on Rails, ASP.NET and Coldfusion. In the end, all of these languages have pretty much the same capabilities, like talking to databases, validating information entered into forms, etc., but they do things slightly differently, and have some advantages and disadvantages. It all boils down to what suits you best.
+There are many dynamic languages and frameworks to choose from — I’ve already mentioned PHP, and other examples include Python, Ruby on Rails, ASP.NET and Coldfusion. In the end, all of these technologies have pretty much the same capabilities, like talking to databases, validating information entered into forms, etc., but they do things slightly differently, and have some advantages and disadvantages. It all boils down to what suits you best.
  
 We won’t be covering dynamic languages any further in this course, but I have provided a list of resources here in case you want to go and read up on them:
  
