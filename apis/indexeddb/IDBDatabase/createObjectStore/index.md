@@ -1,13 +1,29 @@
+{{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{API_Object_Method
-|Parameters={{Method Parameter|Name=name|Data type=DOMString|Description=The name of the object store to be created.|Optional=}}
-{{Method Parameter|Name=optionalParameters|Data type=any|Description=An object literal containing one or more of the following attributes.|Optional=}}
-{{Method Parameter|Name=retVal|Data type=IDBObjectStore|Description=|Optional=}}
+|Parameters={{Method Parameter
+|Name=name
+|Data type=String
+|Description=The name of the object store to be created.
+|Optional=No
+}}{{Method Parameter
+|Name=optionalParameters
+|Data type=DOM Node
+|Description=An object literal containing one or more of the following attributes:
+* keyPath: specifies the key path of the new object store. 
+* autoIncrement: specifies whether the object store should have a key generator.
+|Optional=Yes
+}}{{Method Parameter
+|Name=retVal
+|Data type=String
+|Optional=No
+}}
 |Method_applies_to=apis/indexedDB/IDBDatabase
 |Example_object_name=object
 |Return_value_name=object
@@ -39,27 +55,34 @@ code: DOMException.INVALID_STATE_ERR (11)
 |The autoIncrement attribute of the optionalParameters object is true; however, the keyPath attribute either an empty string ("") or an empty array.
 |}
  
-
-
 }}
-{{Topics|DOM}}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
 {{Notes_Section
-|Import_Notes=
-===Syntax===
+|Import_Notes====Syntax===
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?LinkId{{=}}224519 Indexed Database API]
-
-
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 *<code>[[apis/indexedDB/IDBDatabase|IDBDatabase]]</code>
 }}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
