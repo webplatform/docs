@@ -27,7 +27,7 @@ For example, <code>http://example.org/</code> would return the hostname <code>ex
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics}}
+{{Topics|JavaScript}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
