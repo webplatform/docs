@@ -33,6 +33,7 @@
 |Internet_explorer_prefixed_supported=No
 |Internet_explorer_prefixed_version=
 |Opera_supported=Yes
+|Opera_version=11.00
 |Opera_prefixed_supported=No
 |Opera_prefixed_version=
 |Safari_supported=No
@@ -62,7 +63,7 @@
 |IE_mobile_prefixed_version=
 |Opera_mobile_supported=Unknown
 |Opera_mobile_version=
-|Opera_mobile_prefixed_supported=Unknown
+|Opera_mobile_prefixed_supported=No
 |Opera_mobile_prefixed_version=
 |Opera_mini_supported=No
 |Opera_mini_version=
