@@ -330,22 +330,22 @@ Conditions are great, but they are a bit limited. What if you want to do somethi
   var names = new Array('Chris','Dion','Ben','Brendan');
   var all = names.length;
   if(all == 1){
-    names[0] = '&lt;p&gt;' + names[0] + '&lt;/p&gt;';
+    names[0] = '<p>' + names[0] + '</p>';
   }
   if(all == 2){
-    names[0] = '&lt;p&gt;' + names[0] + '&lt;/p&gt;';
-    names[1] = '&lt;p&gt;' + names[1] + '&lt;/p&gt;';
+    names[0] = '<p>' + names[0] + '</p>';
+    names[1] = '<p>' + names[1] + '</p>';
   }
   if(all == 3){
-    names[0] = '&lt;p&gt;' + names[0] + '&lt;/p&gt;';
-    names[1] = '&lt;p&gt;' + names[1] + '&lt;/p&gt;';
-    names[2] = '&lt;p&gt;' + names[2] + '&lt;/p&gt;';
+    names[0] = '<p>' + names[0] + '</p>';
+    names[1] = '<p>' + names[1] + '</p>';
+    names[2] = '<p>' + names[2] + '</p>';
   }
   if(all == 4){
-    names[0] = '&lt;p&gt;' + names[0] + '&lt;/p&gt;';
-    names[1] = '&lt;p&gt;' + names[1] + '&lt;/p&gt;';
-    names[2] = '&lt;p&gt;' + names[2] + '&lt;/p&gt;';
-    names[3] = '&lt;p&gt;' + names[3] + '&lt;/p&gt;';
+    names[0] = '<p>' + names[0] + '</p>';
+    names[1] = '<p>' + names[1] + '</p>';
+    names[2] = '<p>' + names[2] + '</p>';
+    names[3] = '<p>' + names[3] + '</p>';
   }
 </syntaxhighlight>
  
@@ -364,7 +364,7 @@ Loops are repetitive conditions where one variable in the loop changes. The easi
 Normally what you do with a <code>for</code> loop is to execute the code in the curly braces several times. For this you need to define an iterator variable and keep changing it during the loop until the variable value meets the end condition (which causes the interpreter to exit the loop and carry on to the next part of the code). For example:
  
 <syntaxhighlight lang="javascript">
-  for(var i = 0;i &lt; 11;i = i + 1){
+  for(var i = 0;i < 11;i = i + 1){
     // do it, do it now
   }
 </syntaxhighlight>
@@ -372,7 +372,7 @@ Normally what you do with a <code>for</code> loop is to execute the code in the 
 Here we define a variable <code>i</code> as having an initial value of 0 and then do a check to see if it has reached 11 yet (is it smaller than 11?). The change equation—<code>i = i + 1</code>—adds one to <code>i</code> every time the loop executes and goes through another iteration. This means that this loop executes 11 times. If you add two to <code>i</code> on every iteration it executes only 6 times:
  
 <syntaxhighlight lang="javascript">
-  for(var i = 0;i &lt; 11;i = i + 2){
+  for(var i = 0;i < 11;i = i + 2){
     // do it, do it now
   }
 </syntaxhighlight>
@@ -382,8 +382,8 @@ Using a loop the paragraph adding example we saw above gets a lot shorter and si
 <syntaxhighlight lang="javascript">
   var names = new Array('Chris','Dion','Ben','Brendan');
   var all = names.length;
-  for(var i=0;i&lt;all;i=i+1){
-    names[i] = '&lt;p&gt;' + names[i] + '&lt;/p&gt;';
+  for(var i=0;i<all;i=i+1){
+    names[i] = '<p>' + names[i] + '</p>';
   }
 </syntaxhighlight>
  
