@@ -1,4 +1,6 @@
+{{Page_Title}}
 {{Flags}}
+{{Byline}}
 {{Summary_Section|Functions are one of the fundamental building blocks in JavaScript. A function is a JavaScript procedure—a set of statements that performs a task or calculates a value. To use a function, you must define it somewhere in the scope from which you wish to call it.}}
 {{Tutorial
 |Content===Defining functions==
@@ -147,7 +149,9 @@ There are other ways to call functions. There are often cases where a function n
 
 ==Function scope==
 
-Variables defined inside a function cannot be accessed from anywhere outside the function, because the variable is defined only in the scope of the function. However, a function can access all variables and functions defined inside the scope in which it is defined. In otherwords, a function defined in the global scope can access all variables defined in the global scope. A function defined inside another function can also access all variables defined in it's parent function and any other variable to which the parent function has access.
+Like Scheme, JavaScript has lexical scoping, meaning the scope of variables is restricted and determined by their placement. Additionally, in the case of JavaScript, only function definitions will create new scopes. The behavior of variables, therefore, may be determined by simply reading the code because the scope is entirely independent of the runtime (unlike dynamic scoping).
+
+Variables defined inside a function cannot be accessed from anywhere outside the function, because the variable is defined only in the scope of the function. However, a function can access all variables and functions defined inside the scope in which it is defined. In other words, a function defined in the global scope can only access variables defined in the global scope (i.e. global variables). A function defined inside another function can also access all variables defined in its parent function and any other variable to which the parent function has access.
 
  // The following variables are defined in the global scope
  var num1 = 20,
@@ -411,6 +415,13 @@ These functions are used primarily with server-side JavaScript to encode and dec
 <span style="float: left">[[/guides/JavaScript/Statements|&laquo; Previous]]</span>[[/guides/JavaScript/Working_with_Objects|Next &raquo;]]
 
 </div>
+}}
+{{Notes_Section}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section}}
 {{Topics|JavaScript}}
