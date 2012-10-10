@@ -165,7 +165,7 @@ As mentioned in the introduction, "Retina"-Displays will show blurry images by d
 ==Using WebGL for Drawing?==
 
 * WebGL is a 2D API!
-* How does it work? (context 3d, shader)
+* How does it work? (context webgl, shader)
 * pros/cons (contra: no easy way to modify image pixels)
 * Link to WebGL Convolution Matrix, Extended ColorTransform Matrix "best practices"
 
