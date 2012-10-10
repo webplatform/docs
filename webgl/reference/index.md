@@ -26,3 +26,5 @@ A context object or null.
 * boolean antialias: default true
 * boolean premultipliedAlpha: default true
 * boolean preserveDrawingBuffer: default false
+
+[[Category:WebGL]]
