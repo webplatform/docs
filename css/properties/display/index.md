@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The display CSS property specifies the type of rendering box used for an element. It is also used to completely turn off the display of an element.}}
 {{CSS Property
 |Applies to=All elements
 |Inherited=No
@@ -23,7 +23,6 @@
 }}{{CSS Property Value
 |Data Type=none
 |Description=Element is not rendered. The element (it has no effect on layout); all child elements also have their display turned off. The document is rendered as though the element did not exist.
-To render an element box's dimensions, yet have its contents be invisible, see the [[css/properties/visibility|"visibility"]] visibility property.
 }}{{CSS Property Value
 |Data Type=table-header-group
 |Description=Object is rendered as '''tHead'''. Table header is always displayed before all other rows and row groups, and after any top captions. The header is displayed on each document spanned by a table.
@@ -135,6 +134,8 @@ function getPets()
 }}
 {{Notes_Section
 |Notes====Remarks===
+To render an element box's dimensions, yet have its contents be invisible, see the [[css/properties/visibility|"visibility"]] visibility property.
+
 All visible HTML '''div''' object is a block element, and a '''span''' object is an inline element. Block elements typically start a new line and can contain other block elements and inline elements. Inline elements do not typically start a new line and can contain other inline elements or data. Changing the values for the '''display''' property affects the layout of the surrounding content by:
 *Adding a new line after the element with the value '''block'''.
 *Removing a line from the element with the value '''inline'''.
