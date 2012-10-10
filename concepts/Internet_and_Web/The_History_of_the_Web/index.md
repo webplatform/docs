@@ -106,7 +106,7 @@ The popular web development site A List Apart was redesigned early in 2001 and i
 In six months, a year, or two years at most, all sites will be designed with these standards. […] We can watch our skills grow obsolete, or start learning standards-based techniques now.
 </blockquote> 
 
-That was a little optimistic — not all sites, even in 2008, are built with web standards. But many people listened. Older browsers decreased in market share, and two very high profile sites redesigned using web standards: Wired magazine in 2002, and ESPN in 2003 became field leaders in supporting web standards and new techniques.
+That was a little optimistic — not all sites, even today, are built with web standards. But many people listened. Older browsers decreased in market share, and two very high profile sites redesigned using web standards: Wired magazine in 2002, and ESPN in 2003 became field leaders in supporting web standards and new techniques.
  
 Also in 2003, Dave Shea launched a site called the [http://www.csszengarden.com/ CSS Zen Garden]. This was to have more impact on web professionals than anything else, by truly illustrating that the entire design can change just by changing the style of the page; the content could remain identical.
  
