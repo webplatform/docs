@@ -1,7 +1,6 @@
 {{Page_Title}}
 {{Flags
 |Content=Errors
-|Editorial notes=Augh! I don't know how to get the "example object name" to work.
 }}
 {{Standardization_Status}}
 {{API_Name}}
