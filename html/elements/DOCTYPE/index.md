@@ -11,9 +11,29 @@
 }}
 {{Examples_Section
 |Not_required=Yes
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Description=HTML5 has one doctype declaration
+|Code=<!DOCTYPE html>
+}}{{Single Example
+|Language=HTML
+|Description=HTML 4.01 Strict
+|Code=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+}}{{Single Example
+|Language=HTML
+|Description=HTML 4.01 Transitional
+|Code=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 }}
-{{Notes_Section}}
+}}
+{{Notes_Section
+|Notes=The <!DOCTYPE> declaration must be the very first thing in an HTML document, before the <html> tag. 
+
+This is not a HTML tag but an instruction for the browser about the version of the document.
+
+In HTML 4.01, the <!DOCTYPE> declaration refers to a DTD, because HTML 4.01 was based on SGML. The DTD specifies the rules for the markup language, so that the browsers render the content correctly.
+
+[[HTML5]] is not based on SGML, and therefore does not require a reference to a DTD.
+}}
 {{Related_Specifications_Section
 |Specifications=
 }}
@@ -23,7 +43,9 @@
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Topic_clusters=HTML
+}}
 {{Topics|HTML, DOCTYPE}}
 {{External_Attribution
 |Is_CC-BY-SA=No
