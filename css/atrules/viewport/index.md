@@ -1,7 +1,5 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Missing Relevant Sections,Needs Topics,Data Not Semantic,Unreviewed Import
-|Content=Incomplete,Cleanup,Compatibility Incomplete,Examples Best Practices
 }}
 {{Standardization_Status}}
 {{API_Name}}
