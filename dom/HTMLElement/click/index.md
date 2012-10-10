@@ -24,7 +24,7 @@ If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRES
 |Not_required=No
 |Examples={{Single Example
 |Description=The following example demonstrates how simulating a click using the '''click''' does not, by default, bring the element into focus.
-|Code=<pre>
+|Code=
 &lt;html&gt;
 &lt;head&gt;
 &lt;script&gt;
@@ -59,7 +59,7 @@ method&lt;/b&gt; to check box&lt;/button&gt;
 &lt;br&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-</pre>
+
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/click.htm
 }}
 }}
