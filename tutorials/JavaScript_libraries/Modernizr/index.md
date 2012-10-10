@@ -58,15 +58,18 @@ Once you are done with the generating your custom build or full file you just ne
 }}
 |Mobile_rows={{Compatibility Table Mobile Row
 |Android_supported=Yes
-|Android_prefixed_supported=Yes
+|Android_prefixed_supported=Unknown
+|Android_prefixed_version=
 |Blackberry_supported=Yes
 |Blackberry_version=6+
-|Blackberry_prefixed_supported=Yes
-|Blackberry_prefixed_version=6+
+|Blackberry_prefixed_supported=Unknown
+|Blackberry_prefixed_version=
 |Chrome_mobile_supported=Yes
-|Chrome_mobile_prefixed_supported=Yes
+|Chrome_mobile_prefixed_supported=Unknown
+|Chrome_mobile_prefixed_version=
 |Firefox_mobile_supported=Yes
-|Firefox_mobile_prefixed_supported=Yes
+|Firefox_mobile_prefixed_supported=Unknown
+|Firefox_mobile_prefixed_version=
 |IE_mobile_supported=Unknown
 |IE_mobile_version=
 |IE_mobile_prefixed_supported=Unknown
