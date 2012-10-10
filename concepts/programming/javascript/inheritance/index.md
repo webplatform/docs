@@ -1,5 +1,6 @@
 {{Page_Title|Inheritance revisited}}
 {{Flags}}
+{{Byline}}
 {{Summary_Section|Inheritance has always been available in JavaScript, but the examples on this page use some methods introduced in ECMAScript 5.}}
 {{Tutorial
 |Content===Example==
@@ -19,7 +20,7 @@
    A.call(this, a);
    this.varB = b;
  }
- B.prototype = Object.create(new A(), {
+ B.prototype = Object.create(A.prototype, {
    varB : { value: null, enumerable: true, configurable: true, writable: true },
    doSomething : { value: function(){ // override
         A.prototype.doSomething.apply(this, arguments); // call super
@@ -69,6 +70,7 @@ it checks whether <code>o</code> has a property <code>someProp</code>. If not it
 
 </div>
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
 |Desktop_rows=
@@ -76,7 +78,7 @@ it checks whether <code>o</code> has a property <code>someProp</code>. If not it
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|Inheritance, JavaScript}}
+{{Topics|JavaScript, Inheritance}}
 {{External_Attribution
 |Is_CC-BY-SA=Yes
 |Sources=MDN
