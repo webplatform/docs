@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The path to the current document, relative to the root of the current host.}}
 {{API_Object_Property
 |Property_applies_to=apis/location
 |Read_only=Yes
