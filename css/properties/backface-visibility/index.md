@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|This property determines whether or not the back face of the element is visible when facing the user}}
 {{CSS Property
 |Initial value=visible
 |Applies to=block-level and inline-level elements
@@ -14,8 +14,7 @@
 |Animatable=No
 |Values={{CSS Property Value
 |Data Type=visible
-|Description=Default. 
-The back face is visible.
+|Description=The back face is visible. The back face of an element is always a transparent background, when visible, a mirror image of the front face is displayed
 }}{{CSS Property Value
 |Data Type=hidden
 |Description=The back face is not visible.
