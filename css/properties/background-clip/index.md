@@ -7,6 +7,7 @@
 {{API_Name}}
 {{Summary_Section}}
 {{CSS Property
+|Initial value=border-box
 |Applies to=All elements
 |Inherited=No
 |Media=visual
