@@ -262,9 +262,7 @@ The '''p''' object has these methods.
 !Description
 {{!}}-
 {{!}}'''addBehavior'''
-{{!}}Attaches a behavior to the element. 
-
-This method is not supported for Metro style apps using JavaScript.
+{{!}}Attaches a behavior to the element.<br>This method is not supported for Metro style apps using JavaScript.
 {{!}}-
 {{!}}[[dom/methods/appendChild|'''appendChild''']]
 {{!}}Appends an element as a child to the object.
@@ -372,14 +370,10 @@ This method is not supported for Metro style apps using JavaScript.
 {{!}}Merges adjacent DOM objects to produce a normalized document object model.
 {{!}}-
 {{!}}[[css/selectors api/querySelector|'''querySelector''']]
-{{!}}Retrieves the first DOM 
-element node from descendants of the starting element node
-that match any selector within the supplied selector string.
+{{!}}Retrieves the first DOM element node from descendants of the starting element node that match any selector within the supplied selector string.
 {{!}}-
 {{!}}[[css/selectors api/querySelectorAll|'''querySelectorAll''']]
-{{!}}Retrieves all DOM 
-element nodes from descendants of the starting element node 
-that match any selector within the supplied selector strings.
+{{!}}Retrieves all DOM element nodes from descendants of the starting element node that match any selector within the supplied selector strings.
 {{!}}-
 {{!}}[[dom/methods/releaseCapture|'''releaseCapture''']]
 {{!}}Removes mouse capture from the object in the current document.
@@ -450,31 +444,31 @@ The '''p''' object has these properties.
 {{!}}Sets or retrieves the alignment of the object relative to the display or table.
 {{!}}-
 {{!}}[[css/properties/animation/animation|'''animation''']]
-{{!}}Gets or sets one or more shorthand values  that specify all animation properties (except   [[css/properties/animation-play-state|'''animation-play-state''']]) for a set of corresponding object properties  identified in the CSS [[css/atrules/@keyframes|'''@keyframes''']] at-rule specified by the [[css/properties/animation-name|'''animation-name''']] property.
+{{!}}Gets or sets one or more shorthand values that specify all animation properties (except [[css/properties/animation-play-state|'''animation-play-state''']]) for a set of corresponding object properties identified in the CSS [[css/atrules/@keyframes|'''@keyframes''']] at-rule specified by the [[css/properties/animation-name|'''animation-name''']] property.
 {{!}}-
 {{!}}[[css/properties/animation-delay|'''animationDelay''']]
-{{!}}Gets or sets one or more values  that specify the offset within an animation cycle (the amount of time from the start of a cycle) before  the animation  is displayed  for a set of corresponding object properties  identified in the CSS [[css/atrules/@keyframes|'''@keyframes''']] at-rule specified by the [[css/properties/animation-name|'''animation-name''']] property.
+{{!}}Gets or sets one or more values that specify the offset within an animation cycle (the amount of time from the start of a cycle) before the animation is displayed for a set of corresponding object properties identified in the CSS [[css/atrules/@keyframes|'''@keyframes''']] at-rule specified by the [[css/properties/animation-name|'''animation-name''']] property.
 {{!}}-
 {{!}}[[css/properties/animation-direction|'''animationDirection''']]
-{{!}}Gets or sets one or more values  that specify the direction of play for an animation cycle.
+{{!}}Gets or sets one or more values that specify the direction of play for an animation cycle.
 {{!}}-
 {{!}}[[css/properties/animation-duration|'''animationDuration''']]
 {{!}}Gets or sets one or more values that specify the length of time to complete one cycle of the animation.
 {{!}}-
 {{!}}[[css/properties/animation-fill-mode|'''animationFillMode''']]
-{{!}}Gets or sets one or more values  that specify whether the effects of an animation are visible before or after it plays.
+{{!}}Gets or sets one or more values that specify whether the effects of an animation are visible before or after it plays.
 {{!}}-
 {{!}}[[css/properties/animation-iteration-count|'''animationIterationCount''']]
-{{!}}Gets or sets one or more values  that specify the number of times an animation cycle is played.
+{{!}}Gets or sets one or more values that specify the number of times an animation cycle is played.
 {{!}}-
 {{!}}[[css/properties/animation-name|'''animationName''']]
-{{!}}Gets or sets a value  that identifies one or more animation names. An animation name identifies (or selects) a  CSS [[css/atrules/@keyframes|'''@keyframes''']] at-rule.
+{{!}}Gets or sets a value that identifies one or more animation names. An animation name identifies (or selects) a CSS [[css/atrules/@keyframes|'''@keyframes''']] at-rule.
 {{!}}-
 {{!}}[[css/properties/animation-play-state|'''animationPlayState''']]
-{{!}}Gets or sets one or more values  that specify whether an animation is playing or paused.
+{{!}}Gets or sets one or more values that specify whether an animation is playing or paused.
 {{!}}-
 {{!}}[[css/properties/animation-timing-function|'''animationTimingFunction''']]
-{{!}}Gets or sets one or more values  that specify the intermediate property values to be used during a single cycle of an animation on a set of corresponding object properties  identified in the CSS [[css/atrules/@keyframes|'''@keyframes''']] at-rule specified by the [[css/properties/animation-name|'''animationName''']] property.
+{{!}}Gets or sets one or more values that specify the intermediate property values to be used during a single cycle of an animation on a set of corresponding object properties identified in the CSS [[css/atrules/@keyframes|'''@keyframes''']] at-rule specified by the [[css/properties/animation-name|'''animationName''']] property.
 {{!}}-
 {{!}}[[html/attributes/ATOMICSELECTION html_attribute|'''ATOMICSELECTION''']]
 {{!}}Specifies whether the element and its contents must be selected as a whole, indivisible unit.
@@ -483,7 +477,7 @@ The '''p''' object has these properties.
 {{!}}Retrieves a collection of attributes of the object.
 {{!}}-
 {{!}}[[css/properties/backface-visibility|'''backfaceVisibility''']]
-{{!}}Gets or sets a value  that specifies whether the back face (reverse side) of an  object is visible.
+{{!}}Gets or sets a value that specifies whether the back face (reverse side) of an object is visible.
 {{!}}-
 {{!}}[[css/cssom/styleSheet/blockDirection|'''blockDirection''']]
 {{!}}Gets a string value that indicates whether the content in the block element flows from left to right, or from right to left.
@@ -534,7 +528,7 @@ The '''p''' object has these properties.
 {{!}}Gets or sets the width of the gap between columns in a multi-column element.
 {{!}}-
 {{!}}[[css/properties/column-rule|'''columnRule''']]
-{{!}}Gets or sets a shorthand value  that specifies values for the [[css/properties/column-rule-width|'''columnRuleWidth''']],  [[css/properties/column-rule-style|'''columnRuleStyle''']], and the [[css/properties/column-rule-color|'''columnRuleColor''']] of a multi-column element.
+{{!}}Gets or sets a shorthand value that specifies values for the [[css/properties/column-rule-width|'''columnRuleWidth''']], [[css/properties/column-rule-style|'''columnRuleStyle''']], and the [[css/properties/column-rule-color|'''columnRuleColor''']] of a multi-column element.
 {{!}}-
 {{!}}[[css/properties/column-rule-color|'''columnRuleColor''']]
 {{!}}Gets or sets the color for all column rules in a multi-column element.
@@ -543,7 +537,7 @@ The '''p''' object has these properties.
 {{!}}Gets or sets the style for all column rules in a multi-column element.
 {{!}}-
 {{!}}[[css/properties/column-rule-width|'''columnRuleWidth''']]
-{{!}}Gets or sets  the width of all column rules in a multi-column element.
+{{!}}Gets or sets the width of all column rules in a multi-column element.
 {{!}}-
 {{!}}[[css/properties/column-span|'''columnSpan''']]
 {{!}}Gets or sets the number of columns that a content block spans in a multi-column element.
@@ -606,28 +600,28 @@ The '''p''' object has these properties.
 {{!}}Retrieves a reference to the last child element or NULL if there are no child elements.
 {{!}}-
 {{!}}[[css/properties/ms-grid-column|'''msGridColumn''']]
-{{!}}Gets or sets a value  that specifies in which column of the grid to place the object.
+{{!}}Gets or sets a value that specifies in which column of the grid to place the object.
 {{!}}-
 {{!}}[[css/properties/ms-grid-column-align|'''msGridColumnAlign''']]
-{{!}}Gets or sets a value  that specifies the horizontal alignment of the object within the  grid column.
+{{!}}Gets or sets a value that specifies the horizontal alignment of the object within the grid column.
 {{!}}-
 {{!}}[[css/properties/ms-grid-columns|'''msGridColumns''']]
 {{!}}Gets or sets one or more values that specify the width of each grid column within the object.
 {{!}}-
 {{!}}[[css/properties/ms-grid-column-span|'''msGridColumnSpan''']]
-{{!}}Gets or sets a value  that specifies the number of  columns of the grid that the object spans.
+{{!}}Gets or sets a value that specifies the number of columns of the grid that the object spans.
 {{!}}-
 {{!}}[[css/properties/ms-grid-row|'''msGridRow''']]
-{{!}}Gets or sets a value  that specifies in which row of the grid to place the object.
+{{!}}Gets or sets a value that specifies in which row of the grid to place the object.
 {{!}}-
 {{!}}[[css/properties/ms-grid-row-align|'''msGridRowAlign''']]
-{{!}}Gets or sets a value  that specifies the vertical alignment of the object within the  grid row.
+{{!}}Gets or sets a value that specifies the vertical alignment of the object within the grid row.
 {{!}}-
 {{!}}[[css/properties/ms-grid-rows|'''msGridRows''']]
-{{!}}Gets or sets one or more values  that specify the height of each grid row within the object.
+{{!}}Gets or sets one or more values that specify the height of each grid row within the object.
 {{!}}-
 {{!}}[[css/properties/ms-grid-row-span|'''msGridRowSpan''']]
-{{!}}Gets or sets a value  that specifies the number of  rows of the grid that the object spans.
+{{!}}Gets or sets a value that specifies the number of rows of the grid that the object spans.
 {{!}}-
 {{!}}[[dom/traversal/properties/nextElementSibling|'''nextElementSibling''']]
 {{!}}Retrieves a reference to the sibling element that immediately follows or NULL if the element does not have any sibling elements that follow it.
@@ -678,10 +672,10 @@ The '''p''' object has these properties.
 {{!}}Retrieves the container object in the document hierarchy that can be used to create a [[dom/traversal/TextRange|'''TextRange''']] containing the original object.
 {{!}}-
 {{!}}[[css/properties/perspective|'''perspective''']]
-{{!}}Gets or sets a value  that represents the perspective from which all child elements of the object are viewed.
+{{!}}Gets or sets a value that represents the perspective from which all child elements of the object are viewed.
 {{!}}-
 {{!}}[[css/properties/perspective-origin|'''perspectiveOrigin''']]
-{{!}}Gets or sets one or two values  that represent the origin (the vanishing point for the 3-D space) of an object with an [[css/properties/perspective|'''perspective''']] property declaration.
+{{!}}Gets or sets one or two values that represent the origin (the vanishing point for the 3-D space) of an object with an [[css/properties/perspective|'''perspective''']] property declaration.
 {{!}}-
 {{!}}[[dom/traversal/properties/previousElementSibling|'''previousElementSibling''']]
 {{!}}Retrieves a reference to the immediately preceding sibling element or NULL if the element does not have any preceding siblings.
@@ -699,9 +693,7 @@ The '''p''' object has these properties.
 {{!}}Sets or retrieves the role for this element.
 {{!}}-
 {{!}}'''scopeName'''
-{{!}}Gets the namespace defined for the element. 
-
-This property is not supported for Metro style apps using JavaScript.
+{{!}}Gets the namespace defined for the element.<br>This property is not supported for Metro style apps using JavaScript.
 {{!}}-
 {{!}}[[dom/properties/scrollHeight|'''scrollHeight''']]
 {{!}}Retrieves the scrolling height of the object.
@@ -728,30 +720,28 @@ This property is not supported for Metro style apps using JavaScript.
 {{!}}Retrieves the tag name of the object.
 {{!}}-
 {{!}}[[dom/properties/tagUrn|'''tagUrn''']]
-{{!}}Sets or gets the URN specified in the namespace declaration. 
-
-This property is not supported for Metro style apps using JavaScript.
+{{!}}Sets or gets the URN specified in the namespace declaration.<br>This property is not supported for Metro style apps using JavaScript.
 {{!}}-
 {{!}}[[html/attributes/title|'''title''']]
 {{!}}Sets or retrieves advisory information (a ToolTip) for the object.
 {{!}}-
 {{!}}[[css/properties/transform-style|'''transformStyle''']]
-{{!}}Gets or sets a value  that specifies how child elements of the object are rendered in 3-D space.
+{{!}}Gets or sets a value that specifies how child elements of the object are rendered in 3-D space.
 {{!}}-
 {{!}}[[css/properties/transition|'''transition''']]
-{{!}}Gets or sets one or more shorthand values  that specify the transition properties  for a set of corresponding object properties  identified in the [[css/properties/transition-property|'''transition-property''']] property.
+{{!}}Gets or sets one or more shorthand values that specify the transition properties for a set of corresponding object properties identified in the [[css/properties/transition-property|'''transition-property''']] property.
 {{!}}-
 {{!}}[[css/properties/transition-delay|'''transitionDelay''']]
-{{!}}Gets or sets one or more values  that specify the offset within a transition (the amount of time from the start of a transition) before  the transition  is displayed  for a set of corresponding object properties  identified in the [[css/properties/transition-property|'''transition-property''']] property.
+{{!}}Gets or sets one or more values that specify the offset within a transition (the amount of time from the start of a transition) before the transition is displayed for a set of corresponding object properties identified in the [[css/properties/transition-property|'''transition-property''']] property.
 {{!}}-
 {{!}}[[css/properties/transition-duration|'''transitionDuration''']]
-{{!}}Gets or sets one or more values  that specify the durations of transitions on a set of corresponding object properties  identified in the [[css/properties/transition-property|'''transition-property''']] property.
+{{!}}Gets or sets one or more values that specify the durations of transitions on a set of corresponding object properties identified in the [[css/properties/transition-property|'''transition-property''']] property.
 {{!}}-
 {{!}}[[css/properties/transition-property|'''transitionProperty''']]
-{{!}}Gets or sets a value  that identifies the CSS property name or names to which the transition effect (defined by [[css/properties/transition-duration|'''transition-duration''']], [[css/functions/transition-timing-function|'''transition-timing-function''']], and [[css/properties/transition-delay|'''transition-delay''']]) is applied when a new property value is specified.
+{{!}}Gets or sets a value that identifies the CSS property name or names to which the transition effect (defined by [[css/properties/transition-duration|'''transition-duration''']], [[css/functions/transition-timing-function|'''transition-timing-function''']], and [[css/properties/transition-delay|'''transition-delay''']]) is applied when a new property value is specified.
 {{!}}-
 {{!}}[[css/functions/transition-timing-function|'''transitionTimingFunction''']]
-{{!}}Gets or sets one or more values  that specify the intermediate property values to be used during a transition on a set of corresponding object properties  identified in the [[css/properties/transition-property|'''transition-property''']] property.
+{{!}}Gets or sets one or more values that specify the intermediate property values to be used during a transition on a set of corresponding object properties identified in the [[css/properties/transition-property|'''transition-property''']] property.
 {{!}}-
 {{!}}[[dom/properties/uniqueID|'''uniqueID''']]
 {{!}}Retrieves an autogenerated, unique identifier for the object.
