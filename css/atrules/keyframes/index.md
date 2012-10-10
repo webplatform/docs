@@ -68,7 +68,7 @@
 
 /* applying the animation */
 div {
-    -animation: fadeInAnimation linear;
+    animation: fadeInAnimation linear;
     -moz-animation: fadeInAnimation linear;
     -ms-animation: fadeInAnimation linear;
     -webkit-animation: fadeInAnimation linear;
