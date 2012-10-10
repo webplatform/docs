@@ -28,15 +28,13 @@ If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRES
 &lt;html&gt;
 &lt;head&gt;
   &lt;script&gt;
-    function simclick1()
-      {
-        chk1.focus(); //focus is explicitly set
-        chk1.click(); 
-      }
-    function simclick2()
-      {
-        chk1.click();
-      }
+    function simclick1() {
+      chk1.focus(); //focus is explicitly set
+      chk1.click(); 
+    }
+    function simclick2() {
+      chk1.click();
+    }
   &lt;/script&gt;
   &lt;script for{{=}}"chk1" event{{=}}"onfocus"&gt;
     alert("check box is in focus!");
@@ -49,7 +47,7 @@ If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRES
       &lt;li&gt;An alert has been set to fire when the check box is put into focus.&lt;/li&gt; 
     &lt;/ul&gt;
   &lt;/p&gt;
-  &lt;input type{{=}}"checkbox" id{{=}}chk1&gt;&lt;/input&gt;
+  &lt;input type{{=}}"checkbox" id{{=}}"chk1"&gt;&lt;/input&gt;
     &lt;br&gt;
     &lt;button onclick{{=}}"simclick1()"&gt;This button &lt;strong&gt;applies the focus method&lt;/strong&gt; to 
       check box&lt;/button&gt;
