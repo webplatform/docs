@@ -65,7 +65,7 @@ h3 { color: blue; margin-left: 20px; }
 
 If the headers' margins need to change, all three rules must be edited. While that seems a straightforward task, this kind of repetitive maintenance can be error-prone, particularly if the various rules are not physically adjacent (as might be the case with nested or imported style sheets). 
 
-Also, it can be time-consuming and frustrating, especially if you are tweaking the margins to get them just right; for every adjustment, however minor, you must correctly and consistently edit every header's rule.(And global search-and-replace is obviously problematic, as there may be numerous non-header, "20px" values in the document that you ''don't'' want to change.)
+Also, it can be time-consuming and frustrating, especially if you are tweaking the margins to get them just right; for every adjustment, however minor, you must correctly and consistently edit every header's rule. (And global search-and-replace is obviously problematic, as there may be numerous non-header, "20px" values in the document that you ''don't'' want to change.)
 
 This problem can be avoided with the simple addition of a variable to set the margin, thus:
 
