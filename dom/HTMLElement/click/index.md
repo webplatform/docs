@@ -1,9 +1,11 @@
+{{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=dom/HTMLElement
@@ -17,19 +19,15 @@ If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRES
 Type: '''HRESULT'''
 
 If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRESULT''' error code.
-
-
 }}
-{{Topics|DOM}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Description=The following example demonstrates how simulating a click using the '''click''' does not, by default, bring the element into focus.
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/click.htm
-|Code=
-&lt;HTML&gt;
-&lt;HEAD&gt;
-&lt;SCRIPT&gt;
+|Code=<pre>
+&lt;html&gt;
+&lt;head&gt;
+&lt;script&gt;
 function simclick1()
 {
 chk1.focus(); //focus is explicitly set
@@ -39,43 +37,50 @@ function simclick2()
 {
 chk1.click();
 }
-&lt;/SCRIPT&gt;
-&lt;SCRIPT FOR{{=}}chk1 EVENT{{=}}onfocus&gt;
+&lt;/script&gt;
+&lt;script FOR{{=}}chk1 event{{=}}onfocus&gt;
 alert("check box is in focus!");
-&lt;/SCRIPT&gt;
-&lt;/HEAD&gt;
-&lt;BODY&gt;
-&lt;P STYLE{{=}}"font-family:sans-serif;font-weight:bold"&gt;DEMO: USING CLICK METHOD 
+&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;p style{{=}}"font-family:sans-serif;font-weight:bold"&gt;DEMO: USING CLICK METHOD 
 DOES NOT SET FOCUS&lt;P&gt;
-&lt;UL STYLE{{=}}"color:blue;font-family:sans-serif;font-weight:bold"&gt;
-&lt;LI&gt;Both these buttons apply the click method to the check box. &lt;/LI&gt;
-&lt;LI&gt;An alert has been set to fire when the check box is put into focus. 
-&lt;/UL&gt;
-&lt;/PLI&gt;
-&lt;INPUT Type{{=}}"CHECKBOX" id{{=}}chk1&gt;&lt;/INPUT&gt;
+&lt;ul style{{=}}"color:blue;font-family:sans-serif;font-weight:bold"&gt;
+&lt;li&gt;Both these buttons apply the click method to the check box. &lt;/li&gt;
+&lt;li&gt;An alert has been set to fire when the check box is put into focus. 
+&lt;/ul&gt;
+&lt;/pli&gt;
+&lt;input Type{{=}}"checkbox" id{{=}}chk1&gt;&lt;/input&gt;
 &lt;br&gt;
-&lt;BUTTON onclick{{=}}"simclick1()"&gt;This button &lt;B&gt;applies the focus method&lt;/B&gt; to 
-check box&lt;/BUTTON&gt;
-&lt;br&gt;&lt;BUTTON onclick{{=}}"simclick2()"&gt;This button &lt;B&gt;does not apply the focus 
-method&lt;/B&gt; to check box&lt;/BUTTON&gt;
+&lt;button onclick{{=}}"simclick1()"&gt;This button &lt;b&gt;applies the focus method&lt;/b&gt; to 
+check box&lt;/button&gt;
+&lt;br&gt;&lt;button onclick{{=}}"simclick2()"&gt;This button &lt;b&gt;does not apply the focus 
+method&lt;/b&gt; to check box&lt;/button&gt;
 &lt;br&gt;
-&lt;/BODY&gt;
-&lt;/HTML&gt;
-}}}}
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/click.htm
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 '''Note'''  Simulating a click using the '''click''' does not bring the element being clicked into focus. (See example below).
-|Import_Notes=
-===Syntax===
+|Import_Notes====Syntax===
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}196991 Document Object Model (DOM) Level 2 HTML Specification], Section 1.6.5
-
-
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 *<code>[[html/elements/a|a]]</code>
 *<code>abbr</code>
 *<code>[[html/elements/acronym|acronym]]</code>
@@ -182,10 +187,11 @@ method&lt;/B&gt; to check box&lt;/BUTTON&gt;
 *<code>var</code>
 *<code>xmp</code>
 }}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
