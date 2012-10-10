@@ -1,10 +1,5 @@
 {{Page_Title|The history of the Web}}
-{{Flags
-|Content=Cleanup
-|Editorial notes=The style guide uses this title as an example of correct titling; only in the style guide's example, it's "The history of the Web." Changing it here for consistency.
-
-Common British English / American English spelling differences were also changed to favor American English.
-}}
+{{Flags}}
 {{API_Name}}
 {{Summary_Section|<blockquote> 
 Where shall I begin, please your Majesty?
