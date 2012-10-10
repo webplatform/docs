@@ -8,7 +8,7 @@ CSS2 introduced four attribute selectors:
 * <code>[att~=val]</code> Represents an element with the att attribute whose value is a whitespace-separated list of words, one of which is exactly "val". If "val" contains whitespace, it will never represent anything (since the words are separated by spaces). Also if "val" is the empty string, it will never represent anything.  
 * <code>[att|=val]</code> Represents an element with the att attribute, its value either being exactly "val" or beginning with "val" immediately followed by "-" (U+002D). This is primarily intended to allow language subcode matches (e.g., the hreflang attribute on the a element in HTML) as described in BCP 47 ([BCP47]) or its successor. For lang (or xml:lang) language subcode matching, please see the :lang pseudo-class. 
 
-Attribute values must be CSS identifiers or strings. [CSS21] The case-sensitivity of attribute names and values in selectors depends on the document language.
+Attribute values must be CSS identifiers or strings. [http://www.w3.org/TR/2011/REC-css3-selectors-20110929/#CSS21 CSS21] The case-sensitivity of attribute names and values in selectors depends on the document language.
 
 <code><pre>
 Examples:
