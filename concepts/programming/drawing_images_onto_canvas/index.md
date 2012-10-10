@@ -6,14 +6,14 @@
 {{API_Name}}
 {{Summary_Section}}
 {{Concept_Page
-|Content=Drawing an Image on a Canvas seems to be an easy task. That´s true if you already have an Image Element (<img>) to draw. If you want to load it from a URL first it´s getting a bit more difficult, because you have to listen for the image to be fully loaded. More difficult it will get, if your Image is on the local file system. There are different ways to get it done, this one will show the best practice.
+|Content=Drawing an image on a Canvas seems to be an easy task. That’s true if you already have an image element (<img>) to draw. If you want to load it from a URL first it’s a bit more difficult, because you have to listen for the image to be fully loaded. (It’s still more difficult if your Image is on the local file system.) There are different ways to get it done. This article will show the best practice.
 
-If you finished your basic drawing and released it into the wild, you will recognize some problems. First one - so called “Retina”-Displays. All Images drawn on them will look blurry, but not if you know the “Tricks”. Second one will be performance issues. Cameras are getting more Mega-Pixel and Screens are getting bigger every year. People starting to load huge Images into your App. It´s good to know how to use not only CPU but also GPU Power to render and manipulate a Image.
-Last but not least there are device specific issues making Image Drawing even harder. Like the [http://stackoverflow.com/questions/12554947/mobile-safari-renders-img-src-dataimage-jpegbase64-scaled-on-canvas/ 2MB Image file down scaling bug] on iOS.
+If you finished your basic drawing and released it into the wild, you will recognize some problems. The first one is so-called “Retina” displays. All Images drawn on them will look blurry, although not if you know the right tricks. The second one is performance issues. Cameras are getting more megapixels and screens are getting bigger every year. People are starting to load huge images into your app. It’s good to know how to use not only CPU but also GPU power to render and manipulate an image.
+Last but not least there are device-specific issues making image drawing even harder. Like the [http://stackoverflow.com/questions/12554947/mobile-safari-renders-img-src-dataimage-jpegbase64-scaled-on-canvas/ 2MB image file down-scaling bug] on iOS.
 
 ==Reading the Image from the File System==
 
-First we need some simple HTML with a file select input field. We will give the input field an ID, so we could access it easily later on:
+First we need some simple HTML with a file select input field. We will give the input field an ID, so we can access it easily later on:
 
  <nowiki><!DOCTYPE html>
 <html>
@@ -26,14 +26,14 @@ First we need some simple HTML with a file select input field. We will give the 
 </body>
 </html></nowiki>
 
-Now let´s get to the funny part, let´s write some JavaScript. First we need to listen to file select event and get a reference to the local file. But first we have to listen for the file select input field to be ready, this´s after the DOM content loaded event:
+Now let’s get to the funny part: writing some JavaScript. First we need to listen to the file select event and get a reference to the local file. But first we have to listen for the file select input field to be ready, after the DOMContentLoaded event:
 
  <nowiki>document.addEventListener('DOMContentLoaded', function(){
 
     // get a reference to the file select input field
     var fileSelect = document.querySelector('#choosePicture');
 
-    // listen for the onChange event that get´s fired after the user had choosed a file
+    // listen for the onChange event that gets fired after the user has chosen a file
     fileSelect.addEventListener('change', handleFileSelect, false);
     
 }, false);
@@ -51,24 +51,23 @@ function handleFileSelect(e){
     // we just need one file and ignore the others
     var file = files[0];
     
-    // make sure we got a image file
+    // make sure we got an image file
     if(file.type !== '' && !file.type.match('image.*')){
         return;
     }
     
-    // let´s see what we got
+    // let’s see what we got
     console.log(file);
 }</nowiki>
 
-Ok, you should see the file object in the console, after you select a new file.
-Now lets turn this file´s content into a data URL we can load into a <img> Element. After the Image has loaded, we don´t need the data URL any more and we will free the memory. So we extend the code into this:
+You should see the file object in the console. Now let’s turn this file’s content into a data URL that we can load into an <img> element. After the image has loaded, we don’t need the data URL any more and we will free the memory. So we extend the code into this:
 
  <nowiki>document.addEventListener('DOMContentLoaded', function(){
 
     // get a reference to the file select input field
     var fileSelect = document.querySelector('#choosePicture');
 
-    // listen for the onChange event that get´s fired after the user had choosed a file
+    // listen for the onChange event that gets fired after the user has chosen a file
     fileSelect.addEventListener('change', handleFileSelect, false);
     
 }, false);
