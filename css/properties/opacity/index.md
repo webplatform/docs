@@ -129,6 +129,7 @@ Object or group opacity can be thought of conceptually as a postprocessing opera
 }}
 {{See_Also_Section
 |Topic_clusters=Visual Effects
+|Manual_links=[[css/media_queries/filter: filter]]
 |Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
