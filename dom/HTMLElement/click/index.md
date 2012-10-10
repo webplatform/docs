@@ -24,7 +24,8 @@ If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRES
 |Not_required=No
 |Examples={{Single Example
 |Description=The following example demonstrates how simulating a click using the '''click''' does not, by default, bring the element into focus.
-|Code=&lt;html&gt;
+|Code=&lt;!DOCTYPE html&gt;
+&lt;html&gt;
 &lt;head&gt;
   &lt;script&gt;
     function simclick1()
@@ -42,19 +43,18 @@ If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRES
   &lt;/script&gt;
 &lt;/head&gt;
 &lt;body&gt;
-  &lt;p style{{=}}"font-family:sans-serif;font-weight:bold"&gt;DEMO: USING CLICK METHOD 
-  DOES NOT SET FOCUS&lt;P&gt;
-    &lt;ul style{{=}}"color:blue;font-family:sans-serif;font-weight:bold"&gt;
+  &lt;p&gt;DEMO: USING CLICK METHOD DOES NOT SET FOCUS&lt;p&gt;
+    &lt;ul&gt;
       &lt;li&gt;Both these buttons apply the click method to the check box. &lt;/li&gt;
       &lt;li&gt;An alert has been set to fire when the check box is put into focus.&lt;/li&gt; 
     &lt;/ul&gt;
   &lt;/p&gt;
-  &lt;input Type{{=}}"checkbox" id{{=}}chk1&gt;&lt;/input&gt;
+  &lt;input type{{=}}"checkbox" id{{=}}chk1&gt;&lt;/input&gt;
     &lt;br&gt;
-    &lt;button onclick{{=}}"simclick1()"&gt;This button &lt;b&gt;applies the focus method&lt;/b&gt; to 
+    &lt;button onclick{{=}}"simclick1()"&gt;This button &lt;strong&gt;applies the focus method&lt;/strong&gt; to 
       check box&lt;/button&gt;
-    &lt;br&gt;&lt;button onclick{{=}}"simclick2()"&gt;This button &lt;b&gt;does not apply the focus 
-      method&lt;/b&gt; to check box&lt;/button&gt;
+    &lt;br&gt;
+    &lt;button onclick{{=}}"simclick2()"&gt;This button &lt;strong&gt;does not apply the focus method&lt;/strong&gt; to check box&lt;/button&gt;
     &lt;br&gt;
 &lt;/body&gt;
 &lt;/html&gt;
