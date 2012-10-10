@@ -6,8 +6,7 @@ When it comes to inheritance, JavaScript only has one construct which is objects
 
 
 }}
-{{Concept
-|Content===Inheritance with the prototype chain==
+===Inheritance with the prototype chain==
 
 ===Inheriting properties===
 
@@ -126,7 +125,7 @@ ECMAScript 5 introduced a new method: [http://docs.webplatform.org/en/JavaScript
  var d = Object.create(null);
  // d ---> null
  console.log(d.hasOwnProperty); // undefined, because d doesn't inherit from Object.prototype
-}}
+
 {{Compatibility_Section
 |Not_required=Yes
 |Desktop_rows=
