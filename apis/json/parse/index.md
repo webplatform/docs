@@ -1,5 +1,7 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|Content=Errors
+}}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|Parse a JSON string to a JavaScript object.}}
@@ -30,7 +32,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics}}
+{{Topics|JavaScript}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
