@@ -1,2 +1,2 @@
-=== Abstract ===
-This area is designated to give the reader an outline of this document.
+=== Next Release ===
+The next release of JavaScript is usually referred to by '''Harmony''' or '''ECMAScript.next''' and is classed as a large update for JavaScript as it contains many new concepts and paradigms.
