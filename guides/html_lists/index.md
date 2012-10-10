@@ -1,6 +1,5 @@
 {{Page_Title|HTML lists}}
-{{Flags
-}}
+{{Flags}}
 {{Byline}}
 {{Summary_Section|This article will give a clear understanding of the three different list types in HTML. Using the step-by-step example, you should have created all three and learned how to nest lists inside list items.}}
 {{Guide
@@ -106,7 +105,7 @@ Ordered lists use one set of <code>&lt;ol&gt;&lt;/ol&gt;</code> tags, wrapped ar
  
 ==== Beginning ordered lists with numbers other than 1 ====
  
-It is possible to get an ordered list to start with a number other than 1 (or i, or I, etc.). This is done using the <code>&lt;start&gt;</code> attribute, which takes a numeric value, even if you’re using CSS to change the the list counters to be alphabetic, roman or. This is useful if you have a single list of items, but you want to break the list up with some kind of note, or some other related information. For example, we could do this with the previous example:
+It is possible to get an ordered list to start with a number other than 1 (or i, or I, etc.). This is done using the <code>&lt;start&gt;</code> attribute, which takes a numeric value, even if you’re using CSS to change the the list counters to be alphabetic or roman. This is useful if you have a single list of items, but you want to break the list up with some kind of note, or some other related information. For example, we could do this with the previous example:
 
 <syntaxhighlight lang="html5"><ol>
   <li>Gather ingredients</li>
@@ -428,6 +427,7 @@ You can also [http://dev.opera.com/articles/view/16-html-lists/stepbystep-recipe
  
 You’re done!
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
 |Desktop_rows=
