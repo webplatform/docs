@@ -1,3 +1,5 @@
+{{Note | Please note that this document is currently under development, if you have anything to add please use the Comments to share.''
+}}
 === Next Release ===
 ECMAScript 6 is the next draft version of the standard, code-named '''"Harmony"''' or '''"ES.next"'''. Draft 9 was released July 8, 2012.
 
