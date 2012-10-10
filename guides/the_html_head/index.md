@@ -1,6 +1,5 @@
 {{Page_Title|The HTML <head>}}
-{{Flags
-}}
+{{Flags}}
 {{Byline}}
 {{Summary_Section|This article covers the most common parts that can be included in the <code><head></code> section of HTML documents. Making sure that all of these are correct will result in your document being fast, and easy to find and understand.}}
 {{Tutorial
@@ -248,6 +247,7 @@ The other benefits of keeping styles and scripts in their own files are:
 # You make it both faster and easier for your site visitors, because although a few extra files are downloaded, the style and script information doesn't need to be repeated in each web page file (it is just downloaded once, in the separate script/style files) so each page file downloaded will be smaller. In addition, the CSS and JavaScript files will be cached (stored temporarily on your local machine), so that the next time you access the site, the files will be on your computer already, meaning they don’t need to be downloaded again.
 # Next comes ease of maintenance. The style and script for the whole site — which could be thousands of documents — are in one single location, so if you need to change something you only need to change one file, and not thousands.
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
 |Desktop_rows=
@@ -266,6 +266,7 @@ The other benefits of keeping styles and scripts in their own files are:
 {{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
+|Sources=DevOpera
 |MDN_link=
 |MSDN_link=
 |HTML5Rocks_link=
