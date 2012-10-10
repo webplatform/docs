@@ -24,42 +24,40 @@ If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRES
 |Not_required=No
 |Examples={{Single Example
 |Description=The following example demonstrates how simulating a click using the '''click''' does not, by default, bring the element into focus.
-|Code=
-&lt;html&gt;
+|Code=&lt;html&gt;
 &lt;head&gt;
-&lt;script&gt;
-function simclick1()
-{
-chk1.focus(); //focus is explicitly set
-chk1.click();
-}
-function simclick2()
-{
-chk1.click();
-}
-&lt;/script&gt;
-&lt;script FOR{{=}}chk1 event{{=}}onfocus&gt;
-alert("check box is in focus!");
-&lt;/script&gt;
+  &lt;script&gt;
+    function simclick1()
+      {
+        chk1.focus(); //focus is explicitly set
+        chk1.click(); 
+      }
+    function simclick2()
+      {
+        chk1.click();
+      }
+  &lt;/script&gt;
+  &lt;script for{{=}}chk1 event{{=}}onfocus&gt;
+    alert("check box is in focus!");
+  &lt;/script&gt;
 &lt;/head&gt;
 &lt;body&gt;
-&lt;p style{{=}}"font-family:sans-serif;font-weight:bold"&gt;DEMO: USING CLICK METHOD 
-DOES NOT SET FOCUS&lt;P&gt;
-&lt;ul style{{=}}"color:blue;font-family:sans-serif;font-weight:bold"&gt;
-&lt;li&gt;Both these buttons apply the click method to the check box. &lt;/li&gt;
-&lt;li&gt;An alert has been set to fire when the check box is put into focus. 
-&lt;/ul&gt;
-&lt;/pli&gt;
-&lt;input Type{{=}}"checkbox" id{{=}}chk1&gt;&lt;/input&gt;
-&lt;br&gt;
-&lt;button onclick{{=}}"simclick1()"&gt;This button &lt;b&gt;applies the focus method&lt;/b&gt; to 
-check box&lt;/button&gt;
-&lt;br&gt;&lt;button onclick{{=}}"simclick2()"&gt;This button &lt;b&gt;does not apply the focus 
-method&lt;/b&gt; to check box&lt;/button&gt;
-&lt;br&gt;
+  &lt;p style{{=}}"font-family:sans-serif;font-weight:bold"&gt;DEMO: USING CLICK METHOD 
+  DOES NOT SET FOCUS&lt;P&gt;
+    &lt;ul style{{=}}"color:blue;font-family:sans-serif;font-weight:bold"&gt;
+      &lt;li&gt;Both these buttons apply the click method to the check box. &lt;/li&gt;
+      &lt;li&gt;An alert has been set to fire when the check box is put into focus.&lt;/li&gt; 
+    &lt;/ul&gt;
+  &lt;/p&gt;
+  &lt;input Type{{=}}"checkbox" id{{=}}chk1&gt;&lt;/input&gt;
+    &lt;br&gt;
+    &lt;button onclick{{=}}"simclick1()"&gt;This button &lt;b&gt;applies the focus method&lt;/b&gt; to 
+      check box&lt;/button&gt;
+    &lt;br&gt;&lt;button onclick{{=}}"simclick2()"&gt;This button &lt;b&gt;does not apply the focus 
+      method&lt;/b&gt; to check box&lt;/button&gt;
+    &lt;br&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/click.htm
 }}
 }}
