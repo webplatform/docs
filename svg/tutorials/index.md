@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|This page lists SVG tutorials that teach basic and advanced SVG concepts and techniques.}}
+{{Summary_Section|A list of SVG tutorials that teaches SVG concepts and techniques.}}
 {{API_Listing
 |Query=[[Category:Tutorials]][[Category:SVG]]
 |Use_page_title=No
