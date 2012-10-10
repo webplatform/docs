@@ -22,8 +22,4 @@ However, you should never parse JSON by calling the <code>eval</code> function. 
 ===Other languages===
 JSON parsers also exist for other languages. However, because not all of them share the same data types as JavaScript, some extra conversion may be required. [http://www.json.org/ JSON.org] has a listing of parsers in other languages.
 
-==External links==
-* [http://www.json.org/ JSON.org]
-* [https://developer.mozilla.org/en-US/docs/JSON JSON on Mozilla Developer Network]
-* [http://en.wikipedia.org/wiki/JSON JSON on Wikipedia]
 [[Category:Concept Pages]]
