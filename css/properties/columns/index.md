@@ -22,7 +22,13 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Description=Three columns, each with a width of 100 px
+|Code=div
+{
+    columns:100px 3;
+}
+}}
 }}
 {{Notes_Section
 |Import_Notes====Syntax===
