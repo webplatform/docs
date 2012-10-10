@@ -17,6 +17,35 @@
 |Description=[[css/color/value|css color value]]
 }}
 }}
+===css color value===
+See [[css/color/value|css color value]] for more information.
+The color value may be given as:
+*Basic color keyword
+<pre><nowiki>aqua, black, blue, fuchsia, gray, green, lime, maroon, navy, olive, purple, red, silver, teal, white, yellow
+</nowiki></pre>
+*Extended color keyword
+<pre><nowiki>aliceblue, antiquewhite, aqua, aquamarine, azure, beige, bisque, black, blanchedalmond, ...
+</nowiki></pre>
+:See [http://www.w3.org/TR/css3-color/#svg-color W3C CSS Color Module Recommendation 4.3. Extended color keywords] for a complete list of keywords.
+*RGB
+<pre><nowiki>#00f
+#0000ff
+rgb(0,0,255)
+rgb(0%,0%,100%)
+</nowiki></pre>
+*RGBA
+<pre><nowiki>rgba(0,0,255,0.5)
+rgba(0%,0%,100%,0.5)
+</nowiki></pre>
+*HSL
+<pre><nowiki>hsl(0, 100%, 50%)
+</nowiki></pre>
+*HSLA
+<pre><nowiki>hsla(0, 100%, 50%, 0.5)
+</nowiki></pre>
+*"transparent" (since CSS3)
+*"currentColor" (since CSS3) (same as "color: inherit")
+*CSS2 system colors (Deprecated)
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
