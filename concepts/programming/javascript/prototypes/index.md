@@ -1,4 +1,3 @@
-{{Page_Title}}
 {{Flags}}
 {{Summary_Section|JavaScript is a bit confusing for developers experienced in class-based languages (like Java or C++), as it's dynamic and does not provide a <code>class</code> implementation (although the keyword <code>class</code> is a reserved keyword and cannot be used as a variable name).
 
@@ -6,7 +5,7 @@ When it comes to inheritance, JavaScript only has one construct which is objects
 
 
 }}
-===Inheritance with the prototype chain==
+==Inheritance with the prototype chain==
 
 ===Inheriting properties===
 
