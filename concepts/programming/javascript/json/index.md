@@ -30,15 +30,15 @@ However, you should never parse JSON by calling the <code>eval</code> function. 
 ===Example Usage===
    //This is a JavaScript object with 3 key.value pairs
    var obj = {name : "John Doe", prefix : "Mr", age: 23, programmer: true};
-
+   
    //We serialize the object like so.
    var objSerialized = JSON.stringfy(obj);
-
+   
    //objSerialized now looks like: "{"name":"Robert","prefix":"Mr","age":23,"programmer":true}"
    //We can now de-serialize the string using the JSON.parse method.
-
+   
    var objDeserialized = JSON.parse(objSerialized);
-
+   
    //We can now use this object to access the values.
    alert(objDeserialized.prefix + " " + objDeserialized.name); //Mr John Doe
    
