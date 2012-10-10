@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Paragraph element (<p>) represents a paragraph.}}
+{{Summary_Section|Paragraph element (&lt;p&gt;) represents a paragraph.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLParagraphElement
 }}
