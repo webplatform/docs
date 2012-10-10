@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Stub
+|High-level issues=Missing Relevant Sections, Stub
+|Content=Incomplete, Examples Best Practices
 }}
 {{Byline
 |Name=Avinash Zala
@@ -15,6 +16,21 @@ As web grows we are getting something new every day. And obviously all new featu
 == How it Works? ==
 
 Modernizr runs on page load to detect the features after that it creates a JavaScript object with the result and adds classes to the html element for you to key your CSS on.
+
+== Key Facts ==
+
+* It tests for over 40 next-generation features, all in a matter of milliseconds
+* It creates a JavaScript object (named Modernizr) that contains the results of these tests as boolean properties
+* It adds classes to the html element that explain precisely what features are and are not natively supported
+* It provides a script loader so you can pull in polyfills to backfill functionality in old browsers
+
+== Install Modernizr ==
+
+Installing the Modernizr is not the rocket engineering. It just a matter of including one JavaScript file in your head tag. Happy :)
+
+Modernizr provide feature to build our own file also. With this feature we can build our own file with limited feature detection. [http://modernizr.com/download/ Build Modernizr]
+
+Once you are done with the generating your custom build or full file you just need to include that file in your head section and you are done.
 }}
 {{Notes_Section}}
 {{Compatibility_Section
