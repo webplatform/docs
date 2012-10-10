@@ -5,19 +5,36 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The content property is used with the :before and :after pseudo-elements, to insert generated content.}}
 {{CSS Property
-|Applies to=All elements
+|Applies to=pseudo-elements :before and :after
 |Inherited=No
 |Media=visual
 |Animatable=No
 |Values={{CSS Property Value
+|Data Type=none
+|Description=Pseudo element is not generated
+}}{{CSS Property Value
+|Data Type=normal
+|Description=Sets the content, if specified, to normal, which default is "none" (which is nothing)
+}}{{CSS Property Value
 |Data Type=string
-|Description=Text content, in either double quotation marks (")
-or single quotation marks (').
+|Description=Text content, in either double quotation marks (") or single quotation marks (').
 }}{{CSS Property Value
 |Data Type=counter
 |Description=Possible values include the following:
+}}{{CSS Property Value
+|Data Type=open-quote 
+|Description=Sets the content to be the appropriate string from the quotes property.
+}}{{CSS Property Value
+|Data Type=close-quote
+|Description=Sets the content to be the appropriate string from the quotes property.
+}}{{CSS Property Value
+|Data Type=no-open-quote
+|Description=If set, removes the opening quote from the content.
+}}{{CSS Property Value
+|Data Type=no-close-quote
+|Description=If set, removes the closing quote from the content.
 }}
 }}
 {{Examples_Section
