@@ -27,7 +27,6 @@
 |Notes====Remarks===
 Not all groups of links on a document need to be in a '''nav''' element, only sections that consist of major navigation blocks. In particular, it is common for '''footer''' elements to have a short list of links to various documents of a site, such as the terms of service, home, and copyright. The '''footer''' element alone is sufficient for such cases, and does not require a '''nav''' element.
 
-Windows Internet Explorer 9.  The '''nav''' element is only supported for webpages displayed in IE9 Standards mode. For more information, see Defining Document Compatibility.
 
 '''Note'''  Some devices and applications (such as screen readers) might use the '''nav''' element as a way to determine what content on the document to initially skip or provide on request.
 |Import_Notes====Standards information===
@@ -252,9 +251,34 @@ This property is not supported for Metro style apps using JavaScript.
 }}
 {{Compatibility_Section
 |Not_required=No
-|Desktop_rows=
+|Desktop_rows={{Compatibility Table Desktop Row
+|Chrome_supported=Yes
+|Chrome_version=5
+|Chrome_prefixed_supported=Unknown
+|Chrome_prefixed_version=
+|Firefox_supported=Yes
+|Firefox_version=4
+|Firefox_prefixed_supported=Unknown
+|Firefox_prefixed_version=
+|Internet_explorer_supported=Yes
+|Internet_explorer_version=9
+|Internet_explorer_prefixed_supported=Unknown
+|Internet_explorer_prefixed_version=
+|Opera_supported=Yes
+|Opera_version=11.10
+|Opera_prefixed_supported=Unknown
+|Opera_prefixed_version=
+|Safari_supported=Yes
+|Safari_version=4.1
+|Safari_prefixed_supported=Unknown
+|Safari_prefixed_version=
+}}
 |Mobile_rows=
-|Notes_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=9
+|Note=The '''nav''' element is only supported for webpages displayed in IE9 Standards mode.
+}}
 }}
 {{See_Also_Section
 |Manual_sections====Related pages (MSDN)===
