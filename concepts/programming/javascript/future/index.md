@@ -1,2 +1,2 @@
 === Next Release ===
-The next release of JavaScript is usually referred to by '''Harmony''' or '''ECMAScript.next''' and is classed as a large update for JavaScript as it contains many new concepts and paradigms.
+ECMAScript 6 is the next draft version of the standard, code-named '''"Harmony"''' or '''"ES.next"'''. Draft 9 was released July 8, 2012.
