@@ -5,12 +5,12 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Controls the visibility of an element. The <code>hidden</code> value hides an element but leaves space where it would have been.}}
 {{CSS Property
 |Applies to=All elements
 |Inherited=No
 |Media=visual
-|Animatable=No
+|Animatable=Yes
 |Values={{CSS Property Value
 |Data Type=inherit
 |Description=Default. Object inherits the visibility of the next parent object.
@@ -19,7 +19,7 @@
 |Description=Object is visible.
 }}{{CSS Property Value
 |Data Type=hidden
-|Description=Object is hidden.
+|Description=Object is hidden. The box is invisible (fully transparent, nothing is drawn), but still affects layout.  Descendants of the element will be visible if they have visibility:visible (this doesn't work in IE up to version 7).
 }}{{CSS Property Value
 |Data Type=collapse
 |Description=Internet Explorer 8. Used in tables to remove '''tr''' and '''col'''; for all other elements, same as '''hidden'''.
@@ -68,6 +68,11 @@ function reappear()
 over this text to make the sphere disappear.&lt;/p&gt;
 &lt;/body&gt;
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/visibility_s.htm
+}}{{Single Example
+|Language=CSS
+|Code=p        { visibility: hidden; }    /* paragraphs won't be visible */
+p.showme { visibility: visible; }   /* except of these with class showme */
+tr.col   { visibility: collapse; }  /* table rows with class col will collapse */
 }}
 }}
 {{Notes_Section
@@ -98,8 +103,8 @@ As of Microsoft Internet Explorer 5, a child object can be '''visible''' when i
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
+|Sources=MDN, MSDN
+|MDN_link=https://developer.mozilla.org/en-US/docs/CSS/visibility
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
