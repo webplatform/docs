@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Sets the background color of an element.}}
 {{CSS Property
 |Applies to=All elements
 |Inherited=No
@@ -27,15 +27,14 @@
 This example uses an inline style sheet to set the background color to <code>lime</code>.
 |Code=&lt;span style{{=}}"font-size: 14px; background-color: lime"&gt;The background color of the text has been set inline using the &lt;b&gt;background-color&lt;/b&gt; attribute.&lt;/span&gt;
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/background-color.htm
-}}{{Single Example
-|Description=This example uses inline scripting to set the background color to <code>lime</code>.
-|Code=&lt;span style{{=}}"font-size: 14px" onmouseover{{=}}"this.style.backgroundColor{{=}}'lime'" onclick{{=}}"this.style.backgroundColor{{=}}'orange'" ondblclick{{=}}"this.style.backgroundColor{{=}}''"&gt;
-    Run your mouse over this text to change the background color to lime. Click 
-    to turn orange. Double-click to return to the default color. &lt;/span&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/backgroundColor.htm
 }}
 }}
 {{Notes_Section
+|Usage=*background-color: named-color
+
+*background-color: rgb value;
+ 
+*background-color: #hex value
 |Notes====Remarks===
 This property can be set with the other background properties by using the [[css/cssom/properties/background|'''background''']] composite property.
 Microsoft Internet Explorer 3.0 supports the '''background-color''' attribute, but only when it's set by using the [[css/cssom/properties/background|'''background''']] attribute.
