@@ -11,7 +11,7 @@
 JSON supports a number of data types common to many programming languages, but are inherited from JavaScript:
 * Objects are unordered sets of name/value pairs. Names are strings, and are separated from their corresponding values with a colon (<code>:</code>). Each name/value pair is separated by a comma (<code>,</code>). Objects are enclosed by curly braces: <code>{</code> and <code>}</code>.
 * Arrays are ordered sets of any values, separated with commas. Arrays are enclosed by square brackets: <code>[</code> and <code>]</code>.
-* Strings store arbitrary text data. They are enclosed with double-quotes  (<code>"</code>) and can hold most Unicode characters. Some characters, however, must be escaped with a backslash (<code>/</code>).
+* Strings store arbitrary text data. They are enclosed with double-quotes  (<code>"</code>) and can hold most Unicode characters. Some characters, however, must be escaped with a backslash (<code>\</code>).
 * Numbers are double-precision floating-point, like those in JavaScript, excluding the octal and hexadecimal formats.
 * Booleans are either <code>true</code> or <code>false</code>.
 * Null is <code>null</code> and represents an empty value.
@@ -27,7 +27,7 @@ However, you should never parse JSON by calling the <code>eval</code> function. 
 JSON parsers also exist for other languages. However, because not all of them share the same data types as JavaScript, some extra conversion may be required. [http://www.json.org/ JSON.org] has a listing of parsers in other languages.
 }}
 {{Examples_Section
-|Not_required=No
+|Not_required=Yes
 |Examples=
 }}
 {{Notes_Section}}
