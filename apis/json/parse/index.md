@@ -1,7 +1,5 @@
 {{Page_Title}}
-{{Flags
-|Content=Errors
-}}
+{{Flags}}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|Parse a JSON string to a JavaScript object.}}
@@ -17,11 +15,11 @@
 |Return_value_description=A JavaScript object representing the JSON string.
 }}
 {{Examples_Section
-|Not_required=No
+|Not_required=Yes
 |Examples=
 }}
 {{Notes_Section
-|Notes=This method will throw an error if the JSON string is not valid. You should wrap the parse call in a try/catch block.
+|Notes=This method will throw an error if the argument is not a valid JSON string. You should wrap the parse call in a try/catch block.
 }}
 {{Related_Specifications_Section
 |Specifications=
