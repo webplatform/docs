@@ -2,13 +2,13 @@
 {{Flags}}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The hostname property contains the hostname the current document was served from, excluding protocol, port, and other information.}}
 {{API_Object_Property
 |Property_applies_to=apis/location
 |Read_only=Yes
 |Example_object_name=window.location
 |Javascript_data_type=String
-|Return_value_description=The hostname the current document resides on.
+|Return_value_description=The hostname the current document was served from.
 
 For example, <code>http://example.org/</code> would return the hostname <code>example.org</code>.
 }}
