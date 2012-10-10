@@ -4,7 +4,32 @@
 }}
 {{API_Name}}
 {{Summary_Section|This article will give an overview of proxy based browsers. Some solution transform web pages into compact formats. Some solution only provides data compression.}}
-{{Concept_Page}}
+{{Concept_Page
+|Content=== Purpose ==
+Proxy Based web browsers reduce bandwidth usage by compressing resources of the rendered page on a proxy server (usually the browser vendors), before sending it to the client browser.
+
+To make a request:
+# The client requests a page from the Proxy Server.
+# The proxy server requests the page from the origin server.
+# The proxy server renders the page / runs javascript /compresses the page (the methods vary between implementations).
+# The proxy server sends the client the rendered page.
+# Client interaction with page is sent to the proxy server, who forwards it onto the origin server.
+
+== Concerns ==
+* Each implementation has different feature support.
+* There may be concerns about trusting a third party service with browsing data.
+
+
+== Implementations ==
+* Opera Mini [http://www.opera.com/mobile/]
+* Opera Desktop with Turbo [http://www.opera.com/browser/turbo/]
+* Kindle Fire Silk
+<blockquote>All of the browser subsystems are present on your Kindle Fire as well as on the AWS cloud computing platform.  Each time you load a web page, Silk makes a dynamic decision about which of these subsystems will run locally and which will execute remotely.</blockquote>
+* Bolt [http://boltbrowser.com/]
+* Skyfire [http://www.skyfire.com/]
+* Ovi Browser [http://www.nokia.com/global/support/nokia-browser]
+* UC Browser [http://www.ucweb.com]
+}}
 {{Examples_Section
 |Not_required=Yes
 |Examples=
