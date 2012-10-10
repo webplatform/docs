@@ -74,3 +74,5 @@ The criteria for support differ from browser to browser. The details of support 
 == Index of WebGL topics ==
 
 {{Special:PrefixIndex/webgl/}}
+
+[[Category:WebGL]]
