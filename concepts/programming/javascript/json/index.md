@@ -28,11 +28,11 @@ Being a subset of JavaScript itself, JSON is widely used by JS developers. Moder
 However, you should never parse JSON by calling the <code>eval</code> function. This works because JSON is almost always valid JavaScript, but using <code>eval</code> opens up several security risks by possibly allowing arbitrary code execution. If you do use it, make sure to properly sanitize its input first.
 
 ===Example Usage===
-   //This is a JavaScript object with 3 key.value pairs
+   //This is a JavaScript object with 4 key.value pairs
    var obj = {name : "John Doe", prefix : "Mr", age: 23, programmer: true};
    
    //We serialize the object like so.
-   var objSerialized = JSON.stringfy(obj);
+   var objSerialized = JSON.stringify(obj);
    
    //objSerialized now looks like: "{"name":"Robert","prefix":"Mr","age":23,"programmer":true}"
    //We can now de-serialize the string using the JSON.parse method.
