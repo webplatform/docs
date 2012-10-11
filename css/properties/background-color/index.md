@@ -7,6 +7,7 @@
 {{API_Name}}
 {{Summary_Section|Sets the background color of an element.}}
 {{CSS Property
+|Initial value=transparent
 |Applies to=All elements
 |Inherited=No
 |Media=visual
@@ -17,6 +18,9 @@
 }}{{CSS Property Value
 |Data Type=color
 |Description=Any color value, including those specified in the Color Table.
+}}{{CSS Property Value
+|Data Type=inherit
+|Description=Color is inherited from the parent element.
 }}
 }}
 {{Examples_Section
