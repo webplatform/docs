@@ -84,7 +84,7 @@ Note that the visual results are exactly what you would intuitively expect based
 
 ==Simplifying the code==
 Clearly, that's a lot of code to put on individual HTML elements, especially if the effect is repeated in the page.
-It's far more elegant&mdash;and efficient&mdash; to
+It's far more elegant&mdash;and efficient&mdash;to
 abstract the cross-fade function into a single CSS style and then apply it to whatever elements require it.
 Here, we use an independent selector to define a class with the appropriate size and the appropriate cross-faded background image, and then simply use the class later in the document.
 
@@ -142,7 +142,7 @@ The result is a classic (if somewhat kitschy) wolf-on-moon combo.
 ''Wolf on moon''
 
 ==Support==
-As of this writing (October 2012), CSS <code>cross-fade()</code> is only supported in Google Chrome, and only with the <code>-webkit-</code> prefix. So to use the wolf-on-moon" example above in Chrome, you would code:
+As of this writing (October 2012), CSS <code>cross-fade()</code> is only supported in Google Chrome, and only with the <code>-webkit-</code> prefix. So to use the wolf-on-moon example above in Chrome, you would code:
 
 <syntaxhighlight language="css">
 <div style="background-image:-webkit-cross-fade(url('moon.jpg'), url('wolf.png'), 50%); width:600px; height:600px;"></div>
