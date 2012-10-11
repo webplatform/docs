@@ -102,7 +102,7 @@ It should be noted that, once defined, our ''.cfade'' class is not restricted to
 we can apply it to any page element and achieve the same effect.
 
 <syntaxhighlight language="css">
-<p class="image"></p>
+<p class="cfade"></p>
 </syntaxhighlight>
 
 Nor is the cross-fade effect limited to ''empty'' elements. Consider the following code and its result.
