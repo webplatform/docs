@@ -31,9 +31,9 @@ To access the variable's value, use the notation syntax <code>var(''varname'')</
 A common practice for hyperlinks in HTML is to swap the foreground and background colors of the link text during the hover state to indicate their potential for user interaction. This might be accomplished by rules similar to these:
 
 <syntaxhighlight language="css">
-a { text-decoration: none; color: #008080; background-color: #eeeeff; }
-a:hover { color: #eeeeff; background-color: #008080; }
-a:visited { color: #008080; background-color: #eeeeff; }
+a { text-decoration: none; color: #008080; background-color: #ddeeff; }
+a:hover { color: #ddeeff; background-color: #008080; }
+a:visited { color: #008080; background-color: #ddeeff; }
 </syntaxhighlight>
 
 This coding establishes all links as having dark teal text on a light blue background, changing to the inverse scheme, light blue text on a dark teal background, on hover. It also sets visited links to maintain the original unvisited dark teal on light blue combination, rather than changing to the default magenta color.
