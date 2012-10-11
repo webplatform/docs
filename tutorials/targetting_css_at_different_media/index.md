@@ -3,11 +3,7 @@
 {{Byline}}
 {{Summary_Section|This article focuses on using media types to target CSS at different type of media — screen, print, etc.}}
 {{Tutorial
-|Content=
-{{ CSSTutorialTOC() }}
-
- 
-{{ previousPage("/en-US/docs/CSS/Getting_Started/Tables", "Tables") }}This is the 14th and last section of Part I of the [[CSS Getting Started]] tutorial. Many of the pages in this tutorial have focussed on the CSS properties and values that you can use to specify how to display a document. This page looks again at the purpose and structure of CSS stylesheets.
+|Content=This is the 14th and last section of Part I of the [[CSS Getting Started]] tutorial. Many of the pages in this tutorial have focussed on the CSS properties and values that you can use to specify how to display a document. This page looks again at the purpose and structure of CSS stylesheets.
 
  
 == Information: Media ==
@@ -252,9 +248,8 @@ If you had difficulty understanding this page, or if you have other comments abo
 
  
 So far, all the style rules in this tutorial have been specified in files. The rules and their values are fixed. The next page describes how you can change rules dynamically by using a programming language: '''[[JavaScript]]'''
-
- 
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
 |Desktop_rows=
@@ -264,8 +259,9 @@ So far, all the style rules in this tutorial have been specified in files. The r
 {{See_Also_Section}}
 {{Topics}}
 {{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
+|Is_CC-BY-SA=Yes
+|Sources=MDN
+|MDN_link=https://developer.mozilla.org/en-US/docs/CSS/Getting_Started/Media
 |MSDN_link=
 |HTML5Rocks_link=
 }}
