@@ -3,7 +3,7 @@
 |High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section}}
 {{CSS Property
@@ -33,19 +33,19 @@ For more information about the supported length units, see the CSS Values and Un
 |Description=The following examples use the '''font-size''' attribute and the '''font-size''' property to change font characteristics.
 
 This example sets the font size on several paragraphs using different size values.
-|Code=&lt;STYLE&gt;
-   BODY{font-size: 10pt }
-   .P1 {font-size: 14pt }
-   .P2 {font-size: 75% }
-   .P3 {font-size: xx-large }
-   .P4 {font-size: larger }
-&lt;/STYLE&gt;
+|Code=&lt;style&gt;
+   body {font-size: 10pt }
+   .p1 {font-size: 14pt }
+   .p2 {font-size: 75% }
+   .p3 {font-size: xx-large }
+   .p4 {font-size: larger }
+&lt;/style&gt;
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/font-size.htm
 }}{{Single Example
 |Description=This example uses inline scripting to set the font size to <code>14pt</code> when an [[dom/events/mouseover|'''onmouseover''']] event occurs.
-|Code=&lt;DIV STYLE{{=}}"font-size:12pt" onmouseover{{=}}"this.style.fontSize{{=}}'14pt'"&gt;
+|Code=&lt;div style{{=}}"font-size:12pt" onmouseover{{=}}"this.style.fontSize{{=}}'14pt'"&gt;
 :
-&lt;/DIV&gt;
+&lt;/div&gt;
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/fontSize.htm
 }}
 }}
