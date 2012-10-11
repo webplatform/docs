@@ -19,8 +19,10 @@ IE8 Standards mode rendering.
 |Import_Notes=
 ===Syntax===
 <code>'''outline: ''''''[''' color '''{{!}}{{!}}''' style '''{{!}}{{!}}''' width ''']'''</code>
+===Example===
+<code> div { outline:1px solid #000; }</code>
 ===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 18.4
+*[http://www.w3.org/TR/CSS2/ui.html#dynamic-outlines CSS 2.1], Section 18.4
 
 
 }}
