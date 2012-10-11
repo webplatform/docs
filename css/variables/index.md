@@ -1,6 +1,6 @@
 {{Page_Title|CSS variables}}
 {{Flags
-|High-level issues=Needs Flags, Stub
+|High-level issues=Needs Flags
 }}
 {{Summary_Section|Introduction to CSS variables.}}
 {{Basic Page}}
