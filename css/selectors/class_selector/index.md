@@ -30,3 +30,4 @@ This rule matches when <code>class="pastoral blue aqua marine"</code> but does n
 <blockquote>'''Note:''' Because CSS gives considerable power to the "class" attribute, authors could conceivably design their own "document language" based on elements with almost no associated presentation (such as DIV and SPAN in HTML) and assigning style information through the "class" attribute. Authors should avoid this practice since the structural elements of a document language often have recognized and accepted meanings and author-defined classes may not. </blockquote>
 
 <blockquote>'''Note:''' If an element has multiple class attributes, their values must be concatenated with spaces between the values before searching for the class. As of this time the working group is not aware of any manner in which this situation can be reached, however, so this behavior is explicitly non-normative in this specification.</blockquote>
+[[Category: CSS]]
