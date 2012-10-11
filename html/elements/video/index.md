@@ -8,7 +8,68 @@
 {{Summary_Section}}
 {{Markup_Element
 |DOM_interface=dom/HTMLVideoElement
-|Content=interface HTMLVideoElement : HTMLMediaElement {
+|Content=interface HTMLMediaElement : HTMLElement {
+ 
+  // error state
+  readonly attribute MediaError? error;
+ 
+  // network state
+           attribute DOMString src;
+  readonly attribute DOMString currentSrc;
+           attribute DOMString crossOrigin;
+  const unsigned short NETWORK_EMPTY = 0;
+  const unsigned short NETWORK_IDLE = 1;
+  const unsigned short NETWORK_LOADING = 2;
+  const unsigned short NETWORK_NO_SOURCE = 3;
+  readonly attribute unsigned short networkState;
+           attribute DOMString preload;
+  readonly attribute TimeRanges buffered;
+  void load();
+  DOMString canPlayType(DOMString type);
+ 
+  // ready state
+  const unsigned short HAVE_NOTHING = 0;
+  const unsigned short HAVE_METADATA = 1;
+  const unsigned short HAVE_CURRENT_DATA = 2;
+  const unsigned short HAVE_FUTURE_DATA = 3;
+  const unsigned short HAVE_ENOUGH_DATA = 4;
+  readonly attribute unsigned short readyState;
+  readonly attribute boolean seeking;
+ 
+  // playback state
+           attribute double currentTime;
+  void fastSeek(double time);
+  readonly attribute unrestricted double duration;
+  readonly attribute Date startDate;
+  readonly attribute boolean paused;
+           attribute double defaultPlaybackRate;
+           attribute double playbackRate;
+  readonly attribute TimeRanges played;
+  readonly attribute TimeRanges seekable;
+  readonly attribute boolean ended;
+           attribute boolean autoplay;
+           attribute boolean loop;
+  void play();
+  void pause();
+ 
+  // media controller
+           attribute DOMString mediaGroup;
+           attribute MediaController? controller;
+ 
+  // controls
+           attribute boolean controls;
+           attribute double volume;
+           attribute boolean muted;
+           attribute boolean defaultMuted;
+ 
+  // tracks
+  readonly attribute AudioTrackList audioTracks;
+  readonly attribute VideoTrackList videoTracks;
+  readonly attribute TextTrackList textTracks;
+  TextTrack addTextTrack(DOMString kind, optional DOMString label, optional DOMString language);
+};
+
+interface HTMLVideoElement : HTMLMediaElement {
            attribute unsigned long width;
            attribute unsigned long height;
   readonly attribute unsigned long videoWidth;
