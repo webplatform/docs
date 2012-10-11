@@ -1,22 +1,23 @@
 {{Page_Title}}
 {{Flags}}
+{{Byline}}
 {{Summary_Section|In this article we discuss what JavaScript can be used for on the web, it's downsides, and how to use it responsibly.}}
 {{Guide
 |Content=== Introduction ==
 
 Now the [http://www.w3.org/wiki/Web_Standards_Curriculum Web Standards Curriculum] has taken you through the core essential concepts of programming, it’s time to take a step back from the details and take a high level look at what you can actually do with JavaScript — why would you want to take the time to learn such a complicated subject, and use it on your web pages?
  
-This is an interesting time for me, as the usage of JavaScript has moved away from a fringe knowledge matter to a mainstream web development skill over the last few years. Right now you’d be hard pushed to get a job as a web developer without JavaScript skills.
+This is an interesting time, as the usage of JavaScript has moved away from a fringe knowledge matter to a mainstream web development skill over the last few years. Right now you’d be hard pushed to get a job as a web developer without JavaScript skills.
  
-== How I came to like JavaScript ==
+== How people came to like JavaScript ==
  
-When I first encountered JavaScript computers were slow, browsers were bad at interpreting it, and it just seemed like a bad idea in general. I came from a back-end development world — keep all your functionality in Perl and you’ll be safe.
+JavaScript computers were slow, browsers were bad at interpreting it, and it just seemed like a bad idea in general. Most came from a back-end development world — keep all your functionality in Perl and you’ll be safe.
  
-On the other hand the speed of the internet was very slow and the cost of hosting files was very high, and this is where JavaScript came in to its own. The language is executed on the computers of the users accessing, meaning that anything you can do in JavaScript will not add processing strain onto your server. This makes your sites much more responsive for the end user and less expensive for you in terms of server traffic.
+On the other hand the speed of the internet was very slow and the cost of hosting files was very high. This is where JavaScript came in. The language is executed on the computers of the users accessing, meaning that anything you can do in JavaScript will not add processing strain onto your server. Hence, it is client-side. This makes your sites much more responsive for the end user and less expensive for you in terms of server traffic.
  
-Skip forward to the modern day, and browsers are better at implementing JavaScript, computers are much faster and bandwidth is a lot cheaper, so a lot of the negatives are less critical now. However, cutting down on server-round trips by doing things in JavaScript still results in more responsive web applications and a better user experience.
+Skip forward to the modern day, and modern browsers have well-implemented JavaScript, computers are much faster and bandwidth is a lot cheaper, so a lot of the negatives are less critical now. However, cutting down on server-round trips by doing things in JavaScript still results in more responsive web applications and a better user experience.
  
-== The downside of JavaScript ==
+== The Downside of JavaScript ==
  
 Even with all these improvements in recent times, there is still a catch: JavaScript is flaky. Not the language itself but the environment it is implemented in. You don’t know what computer is on the receiving end of your web page, you don’t know how busy the computer is with other things and you don’t know if some other JavaScript open in another tab of the browser is grinding things down to a halt. Until browsers in general begin having different processing resources for different tabs and windows (also known as threads), this will always remain an issue. Multiple threading is made available to a certain degree by a new HTML5 feature called Web workers, and this has reasonable browsers support.
  
@@ -105,8 +106,9 @@ There is not much you cannot do with JavaScript — especially when you mix it w
  
 JavaScript is a wonderful technology to use on the web. It is not ''that'' hard to learn and it is very versatile. It plays nicely with other web technologies — such as HTML and CSS — and can even interact with plugins such as Flash. JavaScript allows us to build highly responsive user interfaces, prevent frustrating page reloads and even fix support issues for CSS. Using the right browser add-ons (such as Google Gears or Yahoo Browser Plus) you can even use JavaScript to make online systems available offline and sync automatically once the computer goes online.
  
-JavaScript is also not restricted to browsers. The speed and small memory footprint of JavaScript in comparison to other languages brings up more and more uses for it — from automating repetitive tasks in programs like Illustrator, up to using it as a server-side language with a standalone parser. The future is wide open; no matter what you do as a web developer in the nearer future, I am quite sure you will have to work with JavaScript sooner or later.
+JavaScript is also not restricted to browsers. The speed and small memory footprint of JavaScript in comparison to other languages brings up more and more uses for it — from automating repetitive tasks in programs like Illustrator, up to using it as a server-side language with a standalone parser. The future is wide open.
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
 |Desktop_rows=
