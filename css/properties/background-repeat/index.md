@@ -11,6 +11,7 @@
 |Applies to=All elements
 |Inherited=No
 |Media=visual
+|Computed value=A list, each item consisting of two keywords, one per dimension
 |Animatable=No
 |Values={{CSS Property Value
 |Data Type=<repeat-style>
@@ -65,14 +66,10 @@ this.style.backgroundRepeat{{=}}'repeat'"&gt;
 In CSS3, one or two keywords are permitted. One keyword affects both axes in the same way as CSS2.1 If two keywords are used, the first applies to the horizontal axis, and the second to the vertical axis.
 
 If an element has multiple background images, the repeat pattern for each image can be set by assigning a comma-separated list of individual values. The values are applied to the background images in the same order as they are listed in the <code>background-image</code> property.
-|Notes====Remarks===
-The '''repeat-x''' and '''repeat-y''' values make the image repeat horizontally and vertically, respectively, creating a single band of images from one side to the other.
-This property can be set with other background properties by using the [[css/cssom/properties/background|'''background''']] composite property.
-In Windows Internet Explorer 9, the background of a box can have multiple layers. The number of layers is determined by the number of comma-separated values in the [[css/properties/background-image|'''background-image''']] property. Each of the images is sized, positioned, and tiled according to the corresponding value in the other background properties ([[css/properties/background-attachment|'''background-attachment''']], [[css/properties/background-clip|'''background-clip''']], [[css/properties/background-origin|'''background-origin''']], [[css/properties/background-position|'''background-position''']], '''background-repeat''', and [[css/properties/background-size|'''background-size''']]). The first image in the list is the layer closest to the user, the next one is painted behind the first, and so on.
 |Import_Notes====Syntax===
-<code>'''background-repeat: '''repeat '''{{!}}''' repeat-x '''{{!}}''' repeat-y '''{{!}}''' no-repeat</code>
+<code>'''background-repeat: ''' repeat-x '''{{!}}''' repeat-y '''{{!}}''' '''[''' repeat '''{{!}}''' space '''{{!}}''' round '''{{!}}'''   no-repeat ''']''' {1,2}</code>
 ===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 5.3.4
+*[http://www.w3.org/TR/css3-background/#the-background-repeat]
 }}
 {{Related_Specifications_Section
 |Specifications=
@@ -81,18 +78,45 @@ In Windows Internet Explorer 9, the background of a box can have multiple layer
 |Not_required=No
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
+|Chrome_version=All
 |Chrome_prefixed_supported=Unknown
 |Chrome_prefixed_version=
 |Firefox_supported=Yes
+|Firefox_version=All
 |Firefox_prefixed_supported=Unknown
 |Firefox_prefixed_version=
 |Internet_explorer_supported=Yes
+|Internet_explorer_version=All
 |Internet_explorer_prefixed_supported=Unknown
 |Internet_explorer_prefixed_version=
 |Opera_supported=Yes
+|Opera_version=All
 |Opera_prefixed_supported=Unknown
 |Opera_prefixed_version=
 |Safari_supported=Yes
+|Safari_version=All
+|Safari_prefixed_supported=Unknown
+|Safari_prefixed_version=
+}}{{Compatibility Table Desktop Row
+|Feature=CSS3 Syntax
+|Chrome_supported=No
+|Chrome_version=
+|Chrome_prefixed_supported=Unknown
+|Chrome_prefixed_version=
+|Firefox_supported=No
+|Firefox_version=
+|Firefox_prefixed_supported=Unknown
+|Firefox_prefixed_version=
+|Internet_explorer_supported=Yes
+|Internet_explorer_version=9.0
+|Internet_explorer_prefixed_supported=Unknown
+|Internet_explorer_prefixed_version=
+|Opera_supported=Yes
+|Opera_version=10.5
+|Opera_prefixed_supported=Unknown
+|Opera_prefixed_version=
+|Safari_supported=No
+|Safari_version=
 |Safari_prefixed_supported=Unknown
 |Safari_prefixed_version=
 }}
@@ -105,14 +129,6 @@ In Windows Internet Explorer 9, the background of a box can have multiple layer
 |Browser=Firefox
 |Version=All
 |Note=The '''space''' and '''round''' keywords are treated as '''repeat'''.
-}}{{Compatibility Notes Row
-|Browser=Internet Explorer
-|Version=9.0
-|Note=Support added for '''round''' and '''space'''.
-}}{{Compatibility Notes Row
-|Browser=Opera
-|Version=10.5
-|Note=Support added for '''round''' and '''space'''.
 }}{{Compatibility Notes Row
 |Browser=Safari
 |Version=All.
