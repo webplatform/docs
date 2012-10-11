@@ -25,12 +25,13 @@ At the end of the day PhoneGap is a very powerful framework based upon web stand
 |Specifications=
 }}
 {{See_Also_Section
-|Manual_links=Apache Cordova incubator web site http://incubator.apache.org/cordova/
-PhoneGap distribution http://phonegap.com/
-PhoneGap building services http://build.phonegap.com/
-Apache Cordova iOS on github https://github.com/apache/incubator-cordova-ios
-Apache Cordova Android on github https://github.com/apache/incubator-cordova-android
-Ripple Emulator http://ripple.tinyhippos.com/
+|External_links=* Apache Cordova incubator web site http://incubator.apache.org/cordova/
+* PhoneGap distribution http://phonegap.com/
+* PhoneGap building services http://build.phonegap.com/
+* Apache Cordova iOS on github https://github.com/apache/incubator-cordova-ios
+* Apache Cordova Android on github https://github.com/apache/incubator-cordova-android
+* Ripple Emulator http://ripple.tinyhippos.com/
+* PhoneGap Blog http://phonegap.com/blog
 }}
 {{Topics|Mobile, Developer Tools}}
 {{External_Attribution
