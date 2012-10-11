@@ -3,7 +3,7 @@
 |High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
 }}
-{{Standardization_Status}}
+{{Standardization_Status|De Facto Standard}}
 {{API_Name}}
 {{Summary_Section}}
 {{Markup_Attribute
@@ -37,6 +37,7 @@ In Microsoft Internet Explorer 6, This property now applies to the '''object'''
 |Notes_rows=
 }}
 {{See_Also_Section
+|External_links=http://www.w3.org/TR/2012/WD-html-alt-techniques-20120329/#secm1
 |Manual_sections====Related pages (MSDN)===
 *<code>object</code>
 *<code>applet</code>
