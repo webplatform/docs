@@ -26,6 +26,8 @@ There are three ways to do this:
 
 <head>
 <title>Mozilla CSS Getting Started - JavaScript demonstration</title>
+<link rel="stylesheet" type="text/css" href="style5.css" />
+<script type="text/javascript" src="script5.js"></script>
 </head>
 
 <body>
