@@ -77,7 +77,7 @@ In Windows Internet Explorer 9, the background of a box can have multiple layer
 |Android_prefixed_supported=Unknown
 |Android_prefixed_version=
 |Blackberry_supported=Yes
-|Blackberry_version=7.0+
+|Blackberry_version=7.0 plus
 |Blackberry_prefixed_supported=Unknown
 |Blackberry_prefixed_version=
 |Chrome_mobile_supported=Unknown
