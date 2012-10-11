@@ -5,24 +5,29 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Defines how background images will be repeated.}}
+{{Summary_Section|Defines how background images will be repeated after they have been sized and positioned}}
 {{CSS Property
+|Initial value=repeat
 |Applies to=All elements
 |Inherited=No
 |Media=visual
 |Animatable=No
 |Values={{CSS Property Value
-|Data Type=repeat
-|Description=Default. Image is repeated horizontally and vertically.
-}}{{CSS Property Value
-|Data Type=no-repeat
-|Description=Image is not repeated.
-}}{{CSS Property Value
-|Data Type=repeat-x
-|Description=Image is repeated horizontally.
-}}{{CSS Property Value
-|Data Type=repeat-y
-|Description=Image is repeated vertically.
+|Data Type=<repeat-style>
+|Description=Keyword(s) indicating the repeat pattern.
+
+;<code>repeat</code>
+:Default. In CSS2.1, the image is repeated horizontally and vertically. In CSS3, if two keywords are used, the image is repeated along the relevant axis.
+;<code>no-repeat</code>
+:The image is not repeated.
+;<code>repeat-x</code>
+:The image is repeated along the horizontal axis.
+;<code>repeat-y</code>
+:The image is repeated along the vertical axis.
+;<code>round</code>
+:The image is repeated as often as will fit into the background area, and is rescaled if necessary to make it fit a whole number of times. '''(CSS3)'''
+;<code>space</code>
+:The image is repeated as often as will fit into the background area a whole number of times, and is spaced out so that the first and last ones touch the edges. '''(CSS3)'''
 }}
 }}
 {{Examples_Section
@@ -55,6 +60,11 @@ this.style.backgroundRepeat{{=}}'repeat'"&gt;
 }}
 }}
 {{Notes_Section
+|Usage=In CSS2.1, only one keyword is permitted, affecting both the horizontal and vertical axes.
+
+In CSS3, one or two keywords are permitted. One keyword affects both axes in the same way as CSS2.1 If two keywords are used, the first applies to the horizontal axis, and the second to the vertical axis.
+
+If an element has multiple background images, the repeat pattern for each image can be set by assigning a comma-separated list of individual values. The values are applied to the background images in the same order as they are listed in the <code>background-image</code> property.
 |Notes====Remarks===
 The '''repeat-x''' and '''repeat-y''' values make the image repeat horizontally and vertically, respectively, creating a single band of images from one side to the other.
 This property can be set with other background properties by using the [[css/cssom/properties/background|'''background''']] composite property.
@@ -69,9 +79,45 @@ In Windows Internet Explorer 9, the background of a box can have multiple layer
 }}
 {{Compatibility_Section
 |Not_required=No
-|Desktop_rows=
+|Desktop_rows={{Compatibility Table Desktop Row
+|Chrome_supported=Yes
+|Chrome_prefixed_supported=Unknown
+|Chrome_prefixed_version=
+|Firefox_supported=Yes
+|Firefox_prefixed_supported=Unknown
+|Firefox_prefixed_version=
+|Internet_explorer_supported=Yes
+|Internet_explorer_prefixed_supported=Unknown
+|Internet_explorer_prefixed_version=
+|Opera_supported=Yes
+|Opera_prefixed_supported=Unknown
+|Opera_prefixed_version=
+|Safari_supported=Yes
+|Safari_prefixed_supported=Unknown
+|Safari_prefixed_version=
+}}
 |Mobile_rows=
-|Notes_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Chrome
+|Version=All
+|Note=The '''round''' and '''space''' keywords are treated as '''no-repeat'''.
+}}{{Compatibility Notes Row
+|Browser=Firefox
+|Version=All
+|Note=The '''space''' and '''round''' keywords are treated as '''repeat'''.
+}}{{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=9.0
+|Note=Support added for '''round''' and '''space'''.
+}}{{Compatibility Notes Row
+|Browser=Opera
+|Version=10.5
+|Note=Support added for '''round''' and '''space'''.
+}}{{Compatibility Notes Row
+|Browser=Safari
+|Version=All.
+|Note=The '''round''' and '''space''' keywords are treated as '''no-repeat'''.
+}}
 }}
 {{See_Also_Section
 |Topic_clusters=Background
