@@ -48,19 +48,19 @@ Selectors may range from simple element names to rich contextual representations
 *<code>:disabled</code>
 *<code>:checked</code>
 
-==== Structural pseudo-classes ====
-*[[CSS/Selectors/pseudo-classes/:root|<code>:root</code>]]
-*[[CSS/Selectors/pseudo-classes/:nth-child|<code>:nth-child</code>]]
-*[[CSS/Selectors/pseudo-classes/:nth-last-child|<code>:nth-last-child</code>]]
-*[[CSS/Selectors/pseudo-classes/:nth-of-type|<code>:nth-of-type</code>]]
-*[[CSS/Selectors/pseudo-classes/:nth-last-of-type|<code>:nth-last-of-type</code>]]
-*[[CSS/Selectors/pseudo-classes/:first-child|<code>:first-child</code>]]
-*[[CSS/Selectors/pseudo-classes/:last-child|<code>:last-child</code>]]
-*[[CSS/Selectors/pseudo-classes/:first-of-type|<code>:first-of-type</code>]]
-*[[CSS/Selectors/pseudo-classes/:last-of-type|<code>:last-of-type</code>]]
-*[[CSS/Selectors/pseudo-classes/:only-child|<code>:only-child</code>]]
-*[[CSS/Selectors/pseudo-classes/:only-of-type|<code>:only-of-type</code>]]
-*[[CSS/Selectors/pseudo-classes/:empty|<code>:empty</code>]]
+==== [[CSS/Selectors/pseudo-classes/Structural_pseudo-classes|Structural pseudo-classes]] ====
+*[[CSS/Selectors/pseudo-classes/Structural_pseudo-classes#:root_pseudo-class|<code>:root</code>]]
+*[[CSS/Selectors/pseudo-classes/Structural_pseudo-classes#:nth-child.28.29_pseudo-class|<code>:nth-child</code>]]
+*[[CSS/Selectors/pseudo-classes/Structural_pseudo-classes#:nth-last-child.28.29_pseudo-class|<code>:nth-last-child</code>]]
+*[[CSS/Selectors/pseudo-classes/Structural_pseudo-classes#:nth-of-type.28.29_pseudo-class|<code>:nth-of-type</code>]]
+*[[CSS/Selectors/pseudo-classes/Structural_pseudo-classes#:nth-last-of-type.28.29_pseudo-class|<code>:nth-last-of-type</code>]]
+*[[CSS/Selectors/pseudo-classes/Structural_pseudo-classes#:first-child_pseudo-class|<code>:first-child</code>]]
+*[[CSS/Selectors/pseudo-classes/Structural_pseudo-classes#:last-child_pseudo-class|<code>:last-child</code>]]
+*[[CSS/Selectors/pseudo-classes/Structural_pseudo-classes#:first-of-type_pseudo-class|<code>:first-of-type</code>]]
+*[[CSS/Selectors/pseudo-classes/Structural_pseudo-classes#:last-of-type_pseudo-class|<code>:last-of-type</code>]]
+*[[CSS/Selectors/pseudo-classes/Structural_pseudo-classes#:only-child_pseudo-class|<code>:only-child</code>]]
+*[[CSS/Selectors/pseudo-classes/Structural_pseudo-classes#:only-of-type_pseudo-class|<code>:only-of-type</code>]]
+*[[CSS/Selectors/pseudo-classes/Structural_pseudo-classes#:empty_pseudo-class|<code>:empty</code>]]
 
 ==== The negation pseudo-class ====
 *[[CSS/Selectors/pseudo-classes/:not|<code>:not</code>]]
