@@ -29,6 +29,28 @@ Let and const are new ways to declare variables, firstly <code>let</code> is exa
     //(i) is *not* available here!
   }
 
+This may not seem like a huge change but it's actually a much needed feature.
+An example of ES3/5 would be:
+
+  for(var i = 0; i < 10; i++)
+  {
+     setTimeout(function(){
+       alert(i);
+     }, 20);
+  }
+
+The above statement will alert the number 10, ten times. this is because the loop iterations finish before the execution of the time-out, so the value of <code>i</code> will be the last possible value in the loop.
+
+Using <code>let</code> allows you to scope the variable to the '''current''' iteration scope, meaning that the example below act's like your creating an anonymous function for every iteration.
+
+  for(let i = 0; i < 10; i++)
+  {
+     let k = i;
+     setTimeout(function(){
+       alert(k);
+     });
+  }
+
 ==== const ====
 <code>const</code> is similar to <code>let</code> and <code>var</code> apart from the variable is marked as read-only.
 
