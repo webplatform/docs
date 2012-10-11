@@ -18,10 +18,27 @@
 
 ===What is wireframing?===
 
-Wireframing is the part of web design where you build a very basic outline of the sites layout.  This helps figure out where to place things.  You should think starting here about if you site is going to target desktop and mobile users or just one; it is very important that responsive design begins here if you are going to target both.
+Wireframing is the part of web design where you build a very basic outline of the sites layout.  This helps figure out where to place things.  You should think starting here about if you site is going to target desktop and mobile users or just one; it is very important that [[concepts/responsive/an_introduction_to_responsive_website_design|responsive design]] begins here if you are going to target both.
 
 Some tools to help wireframe are:
 * [http://pencil.evolus.vn/en-US/Home.aspx Pencil]
+
+
+===Designing your site===
+
+This part involves quite a bit of thought to how users will see and interact with your website and/or application.  Once sections are created and content added we will link here to different articles on UX and other basic design.
+
+===Building the front-end===
+
+Once your site is designed and you know what you want, it is time to start building it. If you have no experience in web design then you should start with our [[beginners|beginners tutorial]] to get you started.
+
+===Giving the site a backend===
+
+A lot of sites use some kind of administration backend like a Content Management System.  If your site needs one of these, then you should put your design into their template style and use one.  Otherwise, your site should be ready to go.
+
+===Launch!===
+
+Once your site is ready, put it on a web host and point a domain at it!  Once the DNS resolves, your site will be online for all to enjoy.
 }}
 {{Examples_Section
 |Not_required=Yes
