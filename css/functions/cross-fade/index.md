@@ -19,12 +19,12 @@ A straightforward CSS-only solution to image combination would be both easier to
 Part of the "CSS Image Values and Replaced Content Module Level 4" specification (cross-fade section [http://www.w3.org/TR/2012/WD-css4-images-20120911/#cross-fade-function here]) introduces this feature into CSS. 
 
 ==Use==
-The <code>cross-fade()</code> function takes three parameters, the two images to be combined and the percentage of combination. The percentage may be thought of as a transparency value for the "bottom" image, although technically neither image is really on top of the other, they are merely rendered together.
+The <code>cross-fade()</code> function takes three parameters: the two images to be combined and the percentage of combination. The percentage may be thought of as a transparency value for the "bottom" image, although technically neither image is really on top of the other, they are merely rendered together.
 
 The <code>cross-fade()</code> function can be used in CSS anywhere that an ordinary image reference can be used. The syntax is straightforward:
 
 <syntaxhighlight language="css">
-cross-fade(url(''image1''), url(''image2''), ''percent%'')
+cross-fade(url(image1), url(image2), percent)
 </syntaxhighlight>
 
 The image URLs may be in either order, and may be coded with or without quotes; the percent value must be coded without quotes, must contain the "%" symbol, and its value must be between 0% and 100%.
@@ -149,8 +149,7 @@ As of this writing (October 2012), CSS <code>cross-fade()</code> is only support
 </syntaxhighlight>
 
 ==See also==
-CSS Image Values and Replaced Content Module Level 4 [http://www.w3.org/TR/2012/WD-css4-images-20120911/#cross-fade-function specification]. 
-
+CSS Image Values and Replaced Content Module Level 4 [http://www.w3.org/TR/2012/WD-css4-images-20120911/#cross-fade-function specification].
 }}
 {{Examples_Section
 |Not_required=Yes
