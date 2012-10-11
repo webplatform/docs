@@ -1,42 +1,58 @@
+{{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{Markup_Attribute
 |Property_applies_to=dom/HTMLElement
+|Content=This is the one of the important attribute introduced in HTML5 in terms of UX. With this attribute we can focus required element without any JavaScript code. And all you need to do is place one attribute to HTML element.
+
+For example if we look at Facebook home page you can see that cursor is automatically pointed to email id field which makes user to just type in the credentials.
+
+Let's have an example for the same.
+
+<syntaxhighlight lang="php">
+  <input id="search_box" autofocus="">
+</syntaxhighlight>
 }}
-{{Topics|HTML}}
 {{Examples_Section
 |Not_required=No
-|Examples=}}
+|Examples=
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 Only one control in a document can have autofocus specified. If more than one element has the attribute, only the first one in the page will get the focus when the page opens. This is a boolean attribute, requiring only the presence of the attribute to be true.
 The following example shows a field that will receive focus when a page opens.
 '''Note'''  For more  code samples, see [http://go.microsoft.com/fwlink/p/?LinkID{{=}}251128 Form controls part 1] and [http://go.microsoft.com/fwlink/p/?LinkID{{=}}251131 Form controls part 2: validation] on the Windows Internet Explorer sample site.
-|Import_Notes=
-===Syntax===
+|Import_Notes====Syntax===
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}221374 HTML5 A vocabulary and associated APIs for HTML and XHTML], Section 4.10.19.4
-
-
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|External_links=* [http://www.xpertdeveloper.com/2012/09/html5-autofocus/ HTML5 Autofocus Explained]
+|Manual_sections====Related pages (MSDN)===
 *<code>[[dom/HTMLBGSoundElement|HTMLButtonElement]]</code>
 *<code>[[dom/HTMLInputElement|HTMLInputElement]]</code>
 *<code>[[dom/HTMLSelectElement|HTMLSelectElement]]</code>
 *<code>[[dom/HTMLTextAreaElement|HTMLTextAreaElement]]</code>
-|Topic_clusters=html
 }}
+{{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
