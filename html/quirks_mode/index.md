@@ -16,7 +16,7 @@
 
 When standards compliance became more important, developers couldn't switch to standards mode immediately as this would break the sites. Existing CSS would start to show odd side effects when interpreted in the correct way in standards mode.
 
-For example before version 6, IE interpreted the sizing of elements in a web page differently then W3C specificstions which led to the infamous "Internet Explorer box model bug". Beginning with IE6, Internet Explorer introduced a second rendering mode (standards mode) but for backward compatiblity issues all versions still behave in the usual, non-standard way by default unless otherwise stated.
+For example before version 6, IE interpreted the sizing of elements in a web page differently than W3C specifications which led to the infamous "Internet Explorer box model bug". Beginning with IE6, Internet Explorer introduced a second rendering mode (standards mode) but for backward compatiblity issues all versions still behave in the usual, non-standard way by default unless otherwise stated.
 }}
 {{See_Also_Section}}
 {{Topics|Compatibility}}
