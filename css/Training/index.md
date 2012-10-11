@@ -1,1 +1,1 @@
-#REDIRECT [[CSS/tutorials]]
+#REDIRECT [[css/tutorials]]
