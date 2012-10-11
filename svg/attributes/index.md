@@ -9,11 +9,10 @@
 }}
 {{Notes_Section}}
 {{See_Also_Section}}
-{{Topics|SVG}}
+{{Topics|SVG, API Listings}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
 |MSDN_link=
 |HTML5Rocks_link=
 }}
-[[Category:API_Listings]]
