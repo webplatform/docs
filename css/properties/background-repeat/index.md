@@ -67,7 +67,7 @@ In CSS3, one or two keywords are permitted. One keyword affects both axes in the
 
 If an element has multiple background images, the repeat pattern for each image can be set by assigning a comma-separated list of individual values. The values are applied to the background images in the same order as they are listed in the <code>background-image</code> property.
 |Import_Notes====Syntax===
-<code>'''background-repeat: ''' repeat-x '''{{!}}''' repeat-y '''{{!}}''' '''[''' repeat '''{{!}}''' space '''{{!}}''' round '''{{!}}'''   no-repeat ''']''' {1,2}</code>
+<code>'''background-repeat: ''' repeat-x '''{{!}}''' repeat-y '''{{!}}''' '''[''' repeat '''{{!}}''' space '''{{!}}''' round '''{{!}}'''   no-repeat ''']''' {1,2} '''[''' , ''' repeat-x '''{{!}}''' repeat-y '''{{!}}''' '''[''' repeat '''{{!}}''' space '''{{!}}''' round '''{{!}}'''   no-repeat ''']''' {1,2} ''']'''</code>
 ===Standards information===
 *[http://www.w3.org/TR/css3-background/#the-background-repeat]
 }}
@@ -128,7 +128,7 @@ If an element has multiple background images, the repeat pattern for each image 
 }}{{Compatibility Notes Row
 |Browser=Firefox
 |Version=All
-|Note=The '''space''' and '''round''' keywords are treated as '''repeat'''.
+|Note=The '''round''' and '''space''' keywords are treated as '''repeat'''.
 }}{{Compatibility Notes Row
 |Browser=Safari
 |Version=All.
