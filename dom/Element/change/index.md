@@ -12,7 +12,7 @@
 |Event_applies_to=dom/Element
 
 }}
-{{Topics|Event}}
+{{Topics|Events}}
 {{Examples_Section
 |Not_required=No
 |Examples=}}
