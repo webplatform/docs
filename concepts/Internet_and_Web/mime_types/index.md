@@ -99,85 +99,85 @@ There are several steps you can take to determine the correct MIME type value to
 
 ==Common MIME Types==
 
-{|
+{{{!}}
 ! MIME Type
 ! File Type
-|-
-| application/javascript
-| js,jsonp
-|-
-| application/json
-| json
-|-
-| audio/ogg
-| ogg,oga
-|-
-| audio/mp4
-| m4a,f4a,f4b
-|-
-| video/ogg
-| ogv
-|-
-| video/mp4
-| mp4,m4v,f4v,f4p
-|-
-| video/webm
-| webm
-|-
-| video/x-flv
-| flv
-|-
-| image/svg+xml
-| svg,svgz
-|-
-| application/vnd.ms-fontobject
-| eot
-|-
-| x-font-ttf
-| ttf,ttc
-|-
-| application/x-font-woff
-| woff
-|-
-| font/opentype
-| otf
-|-
-| image/x-icon
-| ico
-|-
-| image/webp
-| webp
-|-
-| text/cache-manifest
-| appcache,manifest
-|-
-| text/x-component
-| htc
-|-
-| application/xml
-| rss,atom,xml,rdf
-|-
-| application/x-chrome-extension
-| crx
-|-
-| application/x-xpinstall
-| xpi
-|-
-| application/octet-stream
-| safariextz
-|-
-| application/x-web-app-manifest+json
-| webapp
-|-
-| text/v-card
-| vcf
-|-
-| application/x-shockwave-flash
-| swf
-|-
-| text/vtt
-| vtt
-|}
+{{!}}-
+{{!}} application/javascript
+{{!}} js,jsonp
+{{!}}-
+{{!}} application/json
+{{!}} json
+{{!}}-
+{{!}} audio/ogg
+{{!}} ogg,oga
+{{!}}-
+{{!}} audio/mp4
+{{!}} m4a,f4a,f4b
+{{!}}-
+{{!}} video/ogg
+{{!}} ogv
+{{!}}-
+{{!}} video/mp4
+{{!}} mp4,m4v,f4v,f4p
+{{!}}-
+{{!}} video/webm
+{{!}} webm
+{{!}}-
+{{!}} video/x-flv
+{{!}} flv
+{{!}}-
+{{!}} image/svg+xml
+{{!}} svg,svgz
+{{!}}-
+{{!}} application/vnd.ms-fontobject
+{{!}} eot
+{{!}}-
+{{!}} x-font-ttf
+{{!}} ttf,ttc
+{{!}}-
+{{!}} application/x-font-woff
+{{!}} woff
+{{!}}-
+{{!}} font/opentype
+{{!}} otf
+{{!}}-
+{{!}} image/x-icon
+{{!}} ico
+{{!}}-
+{{!}} image/webp
+{{!}} webp
+{{!}}-
+{{!}} text/cache-manifest
+{{!}} appcache,manifest
+{{!}}-
+{{!}} text/x-component
+{{!}} htc
+{{!}}-
+{{!}} application/xml
+{{!}} rss,atom,xml,rdf
+{{!}}-
+{{!}} application/x-chrome-extension
+{{!}} crx
+{{!}}-
+{{!}} application/x-xpinstall
+{{!}} xpi
+{{!}}-
+{{!}} application/octet-stream
+{{!}} safariextz
+{{!}}-
+{{!}} application/x-web-app-manifest+json
+{{!}} webapp
+{{!}}-
+{{!}} text/v-card
+{{!}} vcf
+{{!}}-
+{{!}} application/x-shockwave-flash
+{{!}} swf
+{{!}}-
+{{!}} text/vtt
+{{!}} vtt
+{{!}}}
 
 
 ==Related Links==
