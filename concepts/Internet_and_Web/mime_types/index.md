@@ -87,15 +87,6 @@ There are several steps you can take to determine the correct MIME type value to
 <!--# If the media type is displayed using a plug-in in Netscape Gecko, install the plug-in and then look in the Help->About Plug-ins Menu to see what MIME types are associated with the media type.-->
 # Search for the file extension at [http://filext.com/ FILExt] or [http://www.file-extensions.org/ File extensions reference] to see what MIME types are associated with that extension.
 
-==How to set up your server to send the correct MIME types==
-
-* If you're using the Apache web server, copy this [https://developer.mozilla.org/en/Sample_.htaccess_file sample .htaccess file] to the directory that contains the files you want to send with the correct MIME types. If you have an entire subdirectory of files, just place the file in the parent directory; you need not place it in each subdirectory.
-* If you're using Microsoft IIS, see [http://technet2.microsoft.com/windowsserver/en/library/ec84d61e-3e24-4de0-b35a-d41eb662fefb1033.mspx this article] at Microsoft TechNet.
-* If you're using a server-side script to generate content, you can generally add one line near the top of your script. You can serve content other than HTML from Perl, PHP, ASP, or Java&mdash;just change the MIME type accordingly.
-** For Perl CGI, you should have the line <code>print "Content-Type: text/html\n\n";</code> before any other output lines. If you're using the CGI module, you can use the line <code>print $cgi->header('text/html');</code> instead, where <code>$cgi</code> is your reference to the CGI instance.
-** For PHP, you should have the line <code>header('Content-Type: text/html');</code> before any other output lines.
-** For ASP, you should have the line <code>response.ContentType = "text/html";</code> before any other output lines.
-** For a Java servlet, you should have the line <code>response.setContentType("text/html");</code> at the top of your <code>doGet</code> or <code>doPost</code> method, where <code>response</code> is a reference to the <code>HttpServletResponse</code>.
 
 ==Common MIME Types==
 
