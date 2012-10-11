@@ -10,7 +10,7 @@
 ==Introduction==
 One of the fundamental features of procedural programming languages such as JavaScript is the ability to create a named element called a ''variable'', assign a value to it, and then later retrieve the value by referring to the variable by name. Variables lend power and flexibility to processes, allowing individual values to be abstracted from the code that uses them, and localizing the values for ease of maintenance and reuse. 
 
-Historically, this feature has not been available In most declarative languages. In CSS, for example, in order to use a single value (e.g., a color) throughout a document, the value must be coded separately each time it is used. This scatters the various instances of the value, making it difficult to maintain and impossible to reuse.
+Historically, this feature has not been available in most declarative languages. In CSS, for example, in order to use a single value (e.g., a color) throughout a document, the value must be coded separately each time it is used. This scatters the various instances of the value, making it difficult to maintain and impossible to reuse.
 
 The CSS Cascading Variables Module (W3C spec [http://dev.w3.org/csswg/css-variables/ here]) introduces this feature into CSS. 
 
