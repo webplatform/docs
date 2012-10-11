@@ -120,7 +120,7 @@ I didn't say it was pretty, just that it was possible!
 Here, then, is a more practical (and attractive) example.
 Let's start with a beautiful full moon.
 
-[[Image:moon.jpg]]<br/>
+[[Image:fullmoon.jpg]]<br/>
 ''Full moon''
 
 Then let's choose a bold wolf silhouette for an overlay.
@@ -129,11 +129,10 @@ Then let's choose a bold wolf silhouette for an overlay.
 ''Wolf silhouette''
 
 Now we'll write the code to cross-fade them (directly on the <code>&lt;div&gt;</code> for simplicity). Note that 
-the images are not only of different sizes, but of different types. The <code>&lt;div&gt;</code> is sized to 
-fit the larger of the two images.
+while the images are the same size, they are of different types, one jpg and one png.
 
 <syntaxhighlight language="css">
-<div style="background-image:cross-fade(url('moon.jpg'), url('wolf.png'), 50%); width:600px; height:600px;"></div>
+<div style="background-image:cross-fade(url('fullmoon.jpg'), url('wolf.png'), 50%); width:600px; height:600px;"></div>
 </syntaxhighlight>
 
 The result is a classic (if somewhat kitschy) wolf-on-moon combo.
@@ -145,7 +144,7 @@ The result is a classic (if somewhat kitschy) wolf-on-moon combo.
 As of this writing (October 2012), CSS <code>cross-fade()</code> is only supported in Google Chrome, and only with the <code>-webkit-</code> prefix. So to use the wolf-on-moon example above in Chrome, you would code:
 
 <syntaxhighlight language="css">
-<div style="background-image:-webkit-cross-fade(url('moon.jpg'), url('wolf.png'), 50%); width:600px; height:600px;"></div>
+<div style="background-image:-webkit-cross-fade(url('fullmoon.jpg'), url('wolf.png'), 50%); width:600px; height:600px;"></div>
 </syntaxhighlight>
 
 ==See also==
