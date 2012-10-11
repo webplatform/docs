@@ -43,7 +43,7 @@ Selectors may range from simple element names to rich contextual representations
 ==== The language pseudo-class ====
 *[[CSS/Selectors/pseudo-classes/:lang|<code>:lang</code>]]
 
-==== The UI element states pseudo-classes ====
+==== [CSS/Selectors/pseudo-classes/ui_element_states_pseudo-classes|The UI element states pseudo-classes] ====
 *[[CSS/Selectors/pseudo-classes/:enabled|<code>:enabled</code>]]
 *[[CSS/Selectors/pseudo-classes/:disabled|<code>:disabled</code>]]
 *[[CSS/Selectors/pseudo-classes/:checked|<code>:checked</code>]]
