@@ -3,8 +3,7 @@
 {{Byline}}
 {{Summary_Section|In this article we look at the basics of how to manipulate CSS styles using JavaScript.}}
 {{Tutorial
-|Content=
-=== Information: JavaScript === 
+|Content==== Information: JavaScript === 
 JavaScript is a ''programming language''. JavaScript is widely used to provide interactivity in web sites and applications. JavaScript can interact with stylesheets, allowing you to write programs that change a document's style dynamically.
 
  
@@ -27,8 +26,6 @@ There are three ways to do this:
 
 <head>
 <title>Mozilla CSS Getting Started - JavaScript demonstration</title>
-<link rel="stylesheet" type="text/css" href="style5.css" />
-<script type="text/javascript" src="script5.js"></script>
 </head>
 
 <body>
@@ -36,7 +33,7 @@ There are three ways to do this:
 
 <div id="square"></div>
 
-<button type="button" onclick="doDemo(this);">Click Me</button>
+<button type="button" id="clickMe">Click Me</button>
 
 </body>
 </html>
@@ -55,20 +52,19 @@ There are three ways to do this:
 
 button {
   padding: .5em 2em;
-}</syntaxhighlight>
+}​</syntaxhighlight>
 </li>
 <li><p>Make a new text file, <code>script5.js</code>. Copy and paste the content from here:</p>
 <syntaxhighlight lang="javascript">// JavaScript demonstration
 
 var square = document.getElementById("square"),
     clickMe = document.getElementById('clickMe'); //Keeping it unobstrusive
-
 function doDemo () {
 
   var button = this;
   square.style.backgroundColor = "#fa4";
   button.setAttribute("disabled", "true");
-  setTimeout(clearDemo, 2000, button); //After 2000 miliseconds, run clearDemo, which argument button.
+  setTimeout(clearDemo, 2000, button);
 }
 
 function clearDemo (button) {
@@ -77,7 +73,7 @@ function clearDemo (button) {
   button.removeAttribute("disabled");
 }
 
-clickMe.onclick = doDemo; //Onclick call. Pass no arguments.
+clickMe.onclick = doDemo; //Onclick call. Pass no arguments.​​​​​
 
 </syntaxhighlight>
 </li>
@@ -109,7 +105,7 @@ Notes on what is happening in the above example:
 
 Change the script so that the square jumps to the right by 20 em when its color changes, and jumps back afterwards.
 }}
-{{Topics|CSS, DOM, JavaScript}}
+{{Topics|JavaScript, DOM, CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=Yes
 |Sources=MDN
