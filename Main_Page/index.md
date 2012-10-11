@@ -38,6 +38,8 @@ We’d love to have your help in improving Web Platform Docs. Even the slightest
 
 To file bugs on webplatform, use the [https://www.w3.org/Bugs/Public/enter_bug.cgi?product=webplatform.org W3C bug tracker]. Read our [http://docs.webplatform.org/wiki/WPD:Filing_Bugs filing bugs page] for more information.
 
+If you have a question about webplatform.org, please [[WPD:FAQ look for an answer in the FAQ first]].
+
 == Stay in touch ==
 
 * Join our [http://talk.webplatform.org/forums/ forums]
