@@ -67,10 +67,10 @@ For more information on validation, see [http://www.w3.org/wiki/Validating_your_
  
 Cascading Style Sheets gives you fine control over the formatting and layout of your document. CSS works on a system of rules, which select the elements you want to style, and then set values for different properties of the elements. You can change or add colors, backgrounds, font sizes and styles, and even position things on your web page in different places. Here is an example CSS rule:
  
-<pre>p {
+<syntaxhighlight lang="css">p {
    line-height: 2;
    color: green;
- }</pre>
+ }</syntaxhighlight>
 
 Now any content enclosed within <code>&lt;p&gt;&lt;/p&gt;</code> tags will have double the line height, and be colored green.
  
@@ -90,38 +90,38 @@ The example I present below is a references page, which you could use to cite re
  
 === index.html ===
  
-<pre>&lt;!DOCTYPE html&gt;
+<syntaxhighlight lang="html5"><!DOCTYPE html>
 
-&lt;head&gt;
-  &lt;meta charset="utf-8"&gt;
+<head>
+  <meta charset="utf-8">
 
-  &lt;title&gt;References&lt;/title&gt;
-  &lt;style type="text/css"&gt;
+  <title>References</title>
+  <style type="text/css">
     @import url("styles.css");
-  &lt;/style&gt;
-&lt;/head&gt;
+  </style>
+</head>
 
-&lt;body&gt;
-  &lt;div id="bggraphic"&gt;&lt;/div&gt;
-  &lt;div id="header"&gt;
-    &lt;h1&gt;References&lt;/h1&gt;
-  &lt;/div&gt;
-  &lt;div id="references"&gt;
-    &lt;cite class="article"&gt;Adams, J. R. (2008). The Benefits of Valid Markup: A Post-Modernistic
+<body>
+  <div id="bggraphic"></div>
+  <div id="header">
+    <h1>References</h1>
+  </div>
+  <div id="references">
+    <cite class="article">Adams, J. R. (2008). The Benefits of Valid Markup: A Post-Modernistic
     Approach to Developing
-    Web Sites. &lt;em&gt;The Journal of Awesome Web Standards, 15:7,&lt;/em&gt; 57-62.&lt;/cite&gt;
-    &lt;cite class="book"&gt;Baker, S. (2006). &lt;em&gt;Validate Your Pages.... Or Else!.&lt;/em&gt;
-    Detroit, MI: Are you out of your mind publishers.&lt;/cite&gt;
-    &lt;cite class="article"&gt;Lane, J. C. (2007). Dude, HTML 4, that's like so 2000. &lt;em&gt;The
-     Journal that Publishes Genius, 1:2, &lt;/em&gt; 12-34.&lt;/cite&gt;
-    &lt;cite class="website"&gt;Smith, J. Q. (2005). &lt;em&gt;Web Standards and You.&lt;/em&gt;
-    Retrieved May 3, 2007 from Web standards and you.&lt;/cite&gt;
-  &lt;/div&gt;
-  &lt;div id="footer"&gt;
-    &lt;p&gt;The content of this page is copyright © 2007 &lt;a href="mailto:jonathan.lane@gmail.com"&gt;J. Lane&lt;/a&gt;&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/body&gt;
-&lt;/html&gt;</pre>
+    Web Sites. <em>The Journal of Awesome Web Standards, 15:7,</em> 57-62.</cite>
+    <cite class="book">Baker, S. (2006). <em>Validate Your Pages.... Or Else!.</em>
+    Detroit, MI: Are you out of your mind publishers.</cite>
+    <cite class="article">Lane, J. C. (2007). Dude, HTML 4, that's like so 2000. <em>The
+     Journal that Publishes Genius, 1:2, </em> 12-34.</cite>
+    <cite class="website">Smith, J. Q. (2005). <em>Web Standards and You.</em>
+    Retrieved May 3, 2007 from Web standards and you.</cite>
+  </div>
+  <div id="footer">
+    <p>The content of this page is copyright © 2007 <a href="mailto:jonathan.lane@gmail.com">J. Lane</a></p>
+  </div>
+</body>
+</html></syntaxhighlight>
  
 I’m not going to dissect this file line by line, as you’ll see many examples in future articles, however, a few major things to take note of are as follows.
  
@@ -139,7 +139,7 @@ Now let’s take a look at the CSS that styles the HTML.
 
 === styles.css ===
  
-<pre>body {
+<syntaxhighlight lang="css">body {
   background: #fff url('images/gradbg.jpg') top left repeat-x;
   color: #000;
   margin: 0;
@@ -204,7 +204,7 @@ h1 {
 
 #footer a:hover {
   text-decoration: underline;
-}</pre>
+}</syntaxhighlight>
  
 I went a little overboard with styling up this page, adding some neat background effects in order to show you some of the things that can be accomplished using CSS.
  
