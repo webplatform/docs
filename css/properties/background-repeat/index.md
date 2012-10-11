@@ -69,7 +69,7 @@ If an element has multiple background images, the repeat pattern for each image 
 |Import_Notes====Syntax===
 <code>'''background-repeat: ''' repeat-x '''{{!}}''' repeat-y '''{{!}}''' '''[''' repeat '''{{!}}''' space '''{{!}}''' round '''{{!}}'''   no-repeat ''']''' {1,2} '''[''' , ''' repeat-x '''{{!}}''' repeat-y '''{{!}}''' '''[''' repeat '''{{!}}''' space '''{{!}}''' round '''{{!}}'''   no-repeat ''']''' {1,2} ''']'''</code>
 ===Standards information===
-*[http://www.w3.org/TR/css3-background/#the-background-repeat]
+[http://www.w3.org/TR/css3-background/#the-background-repeat CSS Backgrounds and Borders Module Level 3]
 }}
 {{Related_Specifications_Section
 |Specifications=
