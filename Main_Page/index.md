@@ -42,7 +42,7 @@ If you have a question about webplatform.org, please [[WPD:FAQ|look for an answe
 
 == Stay in touch ==
 
-* Join our [http://talk.webplatform.org/forums/ forums]
+* Join our [http://talk.webplatform.org/forums/ Q&A]
 * Meet the team on [http://talk.webplatform.org/chat/ chat] (for those of you wanting to connect using your own IRC client, you want irc.freenode.org, the webplatform channel).
 * Read our [http://blog.webplatform.org/ blog]
 * Follow us as [https://twitter.com/webplatform @WebPlatform] on Twitter
