@@ -44,10 +44,10 @@ You can use CSS to change the bullet to one of several default styles, use your 
 Unordered lists use one set of <code>&lt;ul&gt;&lt;/ul&gt;</code> tags, wrapped around many sets of <code>[[Meta:HTML/Elements/li|&lt;li&gt;&lt;/li&gt;]]</code>:
  
 <syntaxhighlight lang="html5"><ul>
-  <li> bread</li>
-  <li> coffee beans</li>
-  <li> milk</li>
-  <li> butter</li>
+  <li>bread</li>
+  <li>coffee beans</li>
+  <li>milk</li>
+  <li>butter</li>
 </ul></syntaxhighlight>
 
 === Ordered lists ===
