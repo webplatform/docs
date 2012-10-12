@@ -6,47 +6,43 @@
 {{API_Name}}
 {{Summary_Section}}
 {{Concept_Page
-|Content=Drawing an image on to a Canvas is straightforward, though there are some cases that require a little extra work. We'll start with the basic case and then explore some issues you might encounter. We'll look at how to load the image from various sources, how to display the image on "retina" displays without bluriness, and at some compatibility and performance problems.
+|Content=We will start with a simple example and then explore some issues you might encounter. We'll look at how to load the image from various sources, how to display the image on "retina" displays without bluriness, and at some compatibility and performance problems.
 
 ==A simple example==
-The easiest situation to deal with is when the image we wish to draw is already loaded as a DOM element in our page. Here is a complete HTML page that will take an image and copy it on to a canvas.
- <nowiki>
+A simple html layout with both the image and the canvas already loaded as DOM elements in our page.
+ 
+<syntaxhighlight lang="html5">
 <!DOCTYPE html>
 <html>
     <head>
         <title>Image drawing</title>
     </head>
     <body>
-        <img id="logo" src="http://www.w3.org/html/logo/img/mark-word-icon.png" alt="The HTML5 logo" />
-        <script>
-            // First we need to make sure that the image has loaded and that the DOM is ready.
-            window.addEventListener("DOMContentLoaded", function()
-            {
-                // Get a reference to the image
-                var image = document.getElementById("logo");
-
-                drawImage(image);
-            });
-
-            // Take an image and draw it to a canvas
-            function drawImage(image)
-            {
-                // Create the canvas
-                var canvas = document.createElement("canvas");
-                document.body.appendChild(canvas);
-                canvas.width = image.width;
-                canvas.height = image.height;
-
-                // Get the 2D drawing context
-                var context = canvas.getContext("2d");
-
-                // Now draw the logo onto the top-left corner of the canvas
-                context.drawImage(image, 0, 0);
-            };
-        </script>
+        <img id="w3c" src="http://www.w3.org/Icons/w3c_home.png" />
+        <canvas></canvas>
     </body>
 </html>
-</nowiki>
+</syntaxhighlight>
+
+Here is the javascript that will draw the image on to the canvas.
+
+<syntaxhighlight lang="javascript">
+// First we need to make sure that the image has loaded and that the DOM is ready.
+window.addEventListener("DOMContentLoaded", function()
+{
+    var image  = document.getElementById("w3c");
+    var canvas = document.getElementsByTagName('canvas')[0];
+
+    canvas.width  = image.width;
+    canvas.height = image.height;
+
+    // Get the 2D drawing context
+    var context = canvas.getContext("2d");
+
+    // Now draw the logo onto the top-left corner of the canvas
+    context.drawImage(image, 0, 0);
+};
+</syntaxhighlight>
 
 ==Loading the image programmatically==
 While that is very simple, there is a flaw - we have to add the image to the DOM first. However, we can load an image directly from a URL with a few lines of javascript.
