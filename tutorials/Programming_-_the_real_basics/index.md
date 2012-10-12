@@ -7,7 +7,6 @@
 }}
 {{Byline}}
 {{Summary_Section}}
-{{Tutorial}}
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
@@ -23,7 +22,7 @@
 |MSDN_link=
 |HTML5Rocks_link=
 }}
-{{Guide
+{{Tutorial
 | Content=
 
 == Introduction ==
