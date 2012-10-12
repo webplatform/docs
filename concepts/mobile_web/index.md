@@ -1,9 +1,25 @@
 {{Page_Title|Mobile Web}}
 {{Flags}}
 {{Standardization_Status}}
-{{Basic Page}}
 {{API_Name}}
-{{Summary_Section|The concept page lists articles covering general concepts of the mobile web. This section is meant to provide a starting point of the mobile web development and a collection of mobile development techniques.}}
+{{Summary_Section|This section provides a starting point for mobile web development and a collection of mobile development techniques.}}
+{{API_Listing
+|Query=[[Category:Mobile]]
+|Use_page_title=No
+|List_all_subpages=No
+}}
+{{Notes_Section}}
+{{See_Also_Section}}
+{{Topics}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
+}}
+{{Basic Page}}
+
+
 
 {{Concept_Page
 |Content=== General introductory articles ==
@@ -14,13 +30,6 @@
 [[tutorials/mobile_mobifying|"Mobifying" your HTML5 site]] - Real examples showing how to support mobile with HTML5 features.
 
 == List of all mobile web related articles ==
-{{API_Listing
-|Query=[[Category:Mobile]]
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+
+
 }}
