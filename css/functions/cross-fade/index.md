@@ -33,7 +33,7 @@ The image URLs may be in either order, and may be coded with or without quotes; 
 
 For the following examples, we will use two images, each sized at 200px by 200px. The first, white.png, is a white-filled box with a 5-pixel blue border. The second, black.png, is a black-filled box with a 5-pixel red border. Thus, cross-fading the two images at different percentages should yield boxes of varying grays with borders of varying magentas. Here are the original images:
 
-[[Image:white.png]]<br/>
+[[image:white.png]]<br/>
 ''white.png''
 
 [[Image:black.png]]<br/>
