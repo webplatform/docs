@@ -1,7 +1,10 @@
 {{Page_Title|Programming basics}}
-{{Flags
+{{Flags}}
+{{Byline
+|Name=Chris Heilmann
+|URL=http://wait-till-i.com/
+|Published=February 3, 2009
 }}
-{{Byline}}
 {{Summary_Section|This article covers fundamental principles of programming, using JavaScript as an example language.}}
 {{Guide
 |Content=== Introduction ==
@@ -417,6 +420,7 @@ Notice that you can use the value of <code>i</code> as the array counter inside 
 {{Topics|JavaScript}}
 {{External_Attribution
 |Is_CC-BY-SA=No
+|Sources=DevOpera
 |MDN_link=
 |MSDN_link=
 |HTML5Rocks_link=
