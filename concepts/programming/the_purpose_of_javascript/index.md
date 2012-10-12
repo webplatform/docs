@@ -3,7 +3,7 @@
 |Content=Errors, Grammar/Spelling, Cleanup
 }}
 {{Byline}}
-{{Summary_Section|In this article we discuss what JavaScript can be used for on the web, it's downsides, and how to use it responsibly.}}
+{{Summary_Section|In this article we discuss what JavaScript can be used for on the web, its downsides, and how to use it responsibly.}}
 {{Guide
 |Content=== Introduction ==
 
