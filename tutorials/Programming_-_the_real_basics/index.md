@@ -1,5 +1,8 @@
 {{Page_Title}}
 {{Flags
+|High-level issues=Merge Candidate
+|Editorial notes={{Editorial/Merge_Candidate
+|Other=Page with almost identical content: [[http://docs.webplatform.org/wiki/concepts/programming/programming_basics]]
 }}
 {{Byline}}
 {{Summary_Section}}
