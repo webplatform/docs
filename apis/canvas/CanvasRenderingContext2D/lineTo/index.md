@@ -1,12 +1,26 @@
+{{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
+|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section|Connect the last point in the subpath to the given point (x, y) using a straight line, and must then add the given point (x, y) to the subpath.
+If subpath is not allocated browser will create it.
+If subpath has no point (x, y) then lineTo will create the point (x, y) as its first (and only) point, as if the moveTo(x, y) method had been called.
+}}
 {{API_Object_Method
-|Parameters={{Method Parameter|Name=x|Data type=float|Description=The x-coordinate, in pixels.|Optional=}}
-{{Method Parameter|Name=y|Data type=float|Description=The y-coordinate, in pixels.|Optional=}}
+|Parameters={{Method Parameter
+|Name=x
+|Data type=String
+|Description=The x-coordinate, in pixels.
+|Optional=No
+}}{{Method Parameter
+|Name=y
+|Data type=String
+|Description=The y-coordinate, in pixels.
+|Optional=No
+}}
 |Method_applies_to=canvas/objects/CanvasRenderingContext2D
 |Example_object_name=object
 |Return_value_name=object
@@ -18,17 +32,12 @@ If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRES
 Type: '''HRESULT'''
 
 If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRESULT''' error code.
-
-
 }}
-{{Topics|DOM}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Description=The following code example uses the  [[canvas/methods/moveTo|'''moveTo''']]  and '''lineTo''' methods to incrementally draw horizontal lines across the canvas.
-|LiveURL=
-|Code=
- &lt;!DOCTYPE html&gt; &lt;html&gt;
+|Code=&lt;!DOCTYPE html&gt; &lt;html&gt;
 &lt;head&gt;
   &lt;script type{{=}}"text/javascript"&gt;
 function draw()
@@ -50,25 +59,32 @@ function draw()
   &lt;canvas id{{=}}"MyCanvas" width{{=}}"600" height{{=}}"600"&gt; &lt;/canvas&gt; 
 &lt;/body&gt;
 &lt;/html&gt;
-}}}}
+}}
+}}
 {{Notes_Section
-|Import_Notes=
-===Syntax===
+|Import_Notes====Syntax===
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}197019 HTML Canvas 2D Context], Section 9
-
-
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 *<code>[[canvas/objects/CanvasRenderingContext2D|CanvasRenderingContext2D]]</code>
 *<code>[[canvas/methods/moveTo|moveTo]]</code>
 }}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
