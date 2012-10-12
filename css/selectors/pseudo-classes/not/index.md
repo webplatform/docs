@@ -28,3 +28,5 @@ The following selector matches any element that is not being hovered, regardless
 </syntaxhighlight>
 
 <blockquote>'''Note:''' the <code>:not()</code> pseudo allows useless selectors to be written. For instance <code>:not(*|*)</code>, which represents no element at all, or <code>foo:not(bar)</code>, which is equivalent to foo but with a higher specificity. </blockquote>
+
+[[Category:CSS]]
