@@ -141,6 +141,8 @@ As mentioned in the introduction, "Retina"-Displays will show blurry images by d
 
 * Draw inside a Worker so the drawing doesn´t block User interactions
 
+'''Comment:''' ''Is this even possible considering that we cannot pass dom elements to a worker? I've tried this and I get exceptions. We should mention web workers since they can do work for a canvas, but not drawing work I'm afraid. Or...?''
+
 ==Using WebGL for Drawing?==
 
 * WebGL is a 2D API!
