@@ -10,39 +10,36 @@ CSS2 introduced four attribute selectors:
 
 Attribute values must be CSS identifiers or strings. [http://www.w3.org/TR/2011/REC-css3-selectors-20110929/#CSS21 CSS21] The case-sensitivity of attribute names and values in selectors depends on the document language.
 
-<code><pre>
-Examples:
 
+=== Examples ===
 The following attribute selector represents an h1 element that carries the title attribute, whatever its value:
-
-h1[title]
+<syntaxhighlight lang="css">h1[title]</syntaxhighlight>
 
 In the following example, the selector represents a span element whose class attribute has exactly the value "example":
-
-span[class="example"]
+<syntaxhighlight lang="css">span[class="example"]</syntaxhighlight>
 
 Multiple attribute selectors can be used to represent several attributes of an element, or several conditions on the same attribute. Here, the selector represents a span element whose hello attribute has exactly the value "Cleveland" and whose goodbye attribute has exactly the value "Columbus":
 
-span[hello="Cleveland"][goodbye="Columbus"]
+<syntaxhighlight lang="css">span[hello="Cleveland"][goodbye="Columbus"]</syntaxhighlight>
 
 The following CSS rules illustrate the differences between "=" and "~=". The first selector would match, for example, an a element with the value "copyright copyleft copyeditor" on a rel attribute. The second selector would only match an a element with an href attribute having the exact value "http://www.w3.org/".
 
-a[rel~="copyright"] { ... }
-a[href="http://www.w3.org/"] { ... }
+<syntaxhighlight lang="css">a[rel~="copyright"] { ... }
+a[href="http://www.w3.org/"] { ... }</syntaxhighlight>
 
 The following selector represents an a element whose hreflang attribute is exactly "fr".
 
-a[hreflang=fr]
+<syntaxhighlight lang="css">a[hreflang=fr]</syntaxhighlight>
 
 The following selector represents an a element for which the value of the hreflang attribute begins with "en", including "en", "en-US", and "en-scouse":
 
-a[hreflang|="en"]
+<syntaxhighlight lang="css">a[hreflang|="en"]</syntaxhighlight>
 
 The following selectors represent a DIALOGUE element whenever it has one of two different values for an attribute character:
 
-DIALOGUE[character=romeo]
-DIALOGUE[character=juliet]
-</pre></code>
+<syntaxhighlight lang="css">DIALOGUE[character=romeo]
+DIALOGUE[character=juliet]</syntaxhighlight>
+
 
 == Substring matching attribute selectors ==
 Three additional attribute selectors are provided for matching substrings in the value of an attribute:
@@ -51,21 +48,20 @@ Three additional attribute selectors are provided for matching substrings in the
 * <code>[att$=val]</code> Represents an element with the att attribute whose value ends with the suffix "val". If "val" is the empty string then the selector does not represent anything.  
 * <code>[att*=val]</code> Represents an element with the att attribute whose value contains at least one instance of the substring "val". If "val" is the empty string then the selector does not represent anything.
 
-Attribute values must be CSS identifiers or strings. [http://www.w3.org/TR/2011/REC-css3-selectors-20110929/#CSS21 CSS21] The case-sensitivity of attribute names in selectors depends on the document language.
+Attribute values must be CSS identifiers or strings. The case-sensitivity of attribute names in selectors depends on the document language.
 
-<code><pre>
-Examples:
+=== Examples ===
 
 The following selector represents an HTML object, referencing an image:
 
-object[type^="image/"]
+<syntaxhighlight lang="css">object[type^="image/"]</syntaxhighlight>
 
 The following selector represents an HTML anchor a with an href attribute whose value ends with ".html".
 
-a[href$=".html"]
+<syntaxhighlight lang="css">a[href$=".html"]</syntaxhighlight>
 
 The following selector represents an HTML paragraph with a title attribute whose value contains the substring "hello"
 
-p[title*="hello"]
-</pre></code>
+<syntaxhighlight lang="css">p[title*="hello"]</syntaxhighlight>
+
 [[Category:CSS]]
