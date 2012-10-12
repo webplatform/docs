@@ -18,3 +18,5 @@ Here, the :target pseudo-class is used to make the target element red and place 
 *:target { color : red }
 *:target::before { content : url(target.png) }
 </syntaxhighlight>
+
+[[Category:CSS]]
