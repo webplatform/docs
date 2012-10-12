@@ -19,7 +19,6 @@ A simple html layout with both the image and the canvas already loaded as DOM el
     </head>
     <body>
         <img id="html5" src="http://www.w3.org/html/logo/img/mark-word-icon.png" />
-        <canvas></canvas>
     </body>
 </html>
 </syntaxhighlight>
@@ -31,7 +30,8 @@ Here is the javascript that will draw the image on to the canvas.
 window.addEventListener("DOMContentLoaded", function()
 {
     var image  = document.getElementById("html5");
-    var canvas = document.getElementsByTagName('canvas')[0];
+    var canvas = document.createElement('canvas');
+    document.body.appendChild(canvas);
 
     canvas.width  = image.width;
     canvas.height = image.height;
@@ -45,22 +45,9 @@ window.addEventListener("DOMContentLoaded", function()
 </syntaxhighlight>
 
 ==Loading the image programmatically==
-While that is very simple, there is a flaw - we have to add the image to the DOM first. However, we can load an image directly from a URL with a few lines of javascript.
+If the image we want to draw is not in the [[DOM]] already (we might not even want to add it), we can load an image directly from a URL with a few lines of javascript.
 
 <syntaxhighlight lang="javascript">
-// A wrapper function for the previous example
-function drawImage(img) {
-    var canvas  = document.createElement('canvas');
-    document.body.appendChild(canvas);
-
-    canvas.width  = img.width;
-    canvas.height = img.height;
-
-    var context = canvas.getContext('2d');
-    context.drawImage(img, 0, 0);
-}
-
-// Load an image, then draw
 function loadAndDrawImage(url)
 {
     // Create an image object. This is not attached to the DOM and is not part of the page.
@@ -69,13 +56,12 @@ function loadAndDrawImage(url)
     // When the image has loaded, draw it to the canvas
     image.onload = function()
     {
-        drawImage(this);
+        // drawImage...
     }
 
     // Now set the source of the image that we want to load
     image.src = url;
 }
-
 loadAndDrawImage("http://www.w3.org/html/logo/img/mark-word-icon.png");
 </syntaxhighlight>
 
