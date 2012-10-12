@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|A starting point for mobile web development and a collection of links to resources and mobile development techniques.}}
+{{Summary_Section|A starting point for mobile web development, with links to resources and a collection of mobile development techniques.}}
 {{API_Listing
 |Query=[[Category:Mobile]]
 |Use_page_title=No
