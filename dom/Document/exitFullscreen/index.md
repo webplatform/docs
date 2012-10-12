@@ -1,10 +1,11 @@
 {{Page_Title}}
-{{Standardization_Status}}
+{{Flags}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|The exitFullscreen method provides a way for exiting the fullscreen mode enabled by [[dom/methods/requestFullscreen|requestFullscreen]].}}
 {{API_Object_Method
 |Parameters=
-|Method_applies_to=dom/Document
+|Method_applies_to=dom/document
 }}
 {{Examples_Section
 |Not_required=No
