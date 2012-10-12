@@ -27,18 +27,8 @@ If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRES
 |Code=&lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
-  &lt;script&gt;
-    function simclick1() {
-      chk1.focus(); //focus is explicitly set
-      chk1.click(); 
-    }
-    function simclick2() {
-      chk1.click();
-    }
-  &lt;/script&gt;
-  &lt;script for{{=}}"chk1" event{{=}}"onfocus"&gt;
-    alert("check box is in focus!");
-  &lt;/script&gt;
+&lt;title&gt;onfocus Sample&lt;/title&gt;
+&lt;link rel{{=}}"stylesheet" type{{=}}"text/css" href{{=}}"samplesSDKIE4.css" /&gt;
 &lt;/head&gt;
 &lt;body&gt;
   &lt;p&gt;DEMO: USING CLICK METHOD DOES NOT SET FOCUS&lt;p&gt;
@@ -47,13 +37,25 @@ If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRES
       &lt;li&gt;An alert has been set to fire when the check box is put into focus.&lt;/li&gt; 
     &lt;/ul&gt;
   &lt;/p&gt;
-  &lt;input type{{=}}"checkbox" id{{=}}"chk1"&gt;&lt;/input&gt;
+  &lt;input type{{=}}"checkbox" id{{=}}"chk1"/&gt;	
     &lt;br&gt;
     &lt;button onclick{{=}}"simclick1()"&gt;This button &lt;strong&gt;applies the focus method&lt;/strong&gt; to 
       check box&lt;/button&gt;
     &lt;br&gt;
     &lt;button onclick{{=}}"simclick2()"&gt;This button &lt;strong&gt;does not apply the focus method&lt;/strong&gt; to check box&lt;/button&gt;
     &lt;br&gt;
+
+  &lt;script&gt;
+	// When chk1 gets focus, pop an alert
+	document.getElementById("chk1").addEventListener("focus", function(){alert("check box is in focus!");}, false);
+    function simclick1() {
+      chk1.focus(); //focus is explicitly set
+      chk1.click(); 
+    }
+    function simclick2() {
+      chk1.click();
+    }
+  &lt;/script&gt;
 &lt;/body&gt;
 &lt;/html&gt;
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/click.htm
