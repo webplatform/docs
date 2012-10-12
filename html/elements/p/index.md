@@ -8,6 +8,7 @@
 {{Summary_Section|Paragraph element (&lt;p&gt;) represents a paragraph.}}
 {{Markup_Element
 |DOM_interface=[[dom/HTMLParagraphElement|HTMLParagraphElement]]
+|Content=Blah
 }}
 {{Examples_Section
 |Not_required=No
