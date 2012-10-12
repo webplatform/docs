@@ -16,17 +16,14 @@ It was proposed as part of CSS3 Selectors, but was removed due to concerns of un
 |Examples=
 }}
 {{Notes_Section
-|Notes=
- 
-|Import_Notes====Syntax===
-
-sel
-::selection
-===Parameters===
-;''sel'':A simple selector.
+|Notes= 
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=Selectors Level 3
+|URL=http://www.w3.org/TR/2005/WD-css3-selectors-20051215/#UIfragments
+|Status=Abandonned in 2009
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
