@@ -46,8 +46,8 @@ Server-side detection requires a database of User-Agent strings (and other heade
 More complex databases provide details about display size, support for features of HTML, CSS, JavaScript and plugins such as Flash. There are many types of device databases; some are open-source, some are free, and some are commercial. Examples include [http://en.wikipedia.org/wiki/WURFL WURFL], [http://deviceatlas.com/ DeviceAtlas], Microsoft’s [http://msdn.microsoft.com/en-us/library/wa9x6tza(v=vs.80).aspx Mobile Device Capabilities], [http://incubator.apache.org/devicemap/ Apache DeviceMap] and [http://www.detectright.com/ DetectRight].
 
 For more information about specific server-side detection techniques, see:
-- [http://mobile.smashingmagazine.com/2012/09/24/server-side-device-detection-history-benefits-how-to/ Server-Side Detection: History, Benefits and How-To ]
-- [http://www.html5rocks.com/en/mobile/cross-device/ A Non-Responsive Approach to Building Cross-Device Webapps].
+* [http://mobile.smashingmagazine.com/2012/09/24/server-side-device-detection-history-benefits-how-to/ Server-Side Detection: History, Benefits and How-To ]
+* [http://www.html5rocks.com/en/mobile/cross-device/ A Non-Responsive Approach to Building Cross-Device Webapps].
 
 === Advantages of server-side detection ===
 
