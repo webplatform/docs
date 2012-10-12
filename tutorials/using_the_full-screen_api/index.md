@@ -33,10 +33,10 @@ change the display to full-screen. Once in full-screen mode, the mode may be exi
 through user interaction.
 
 Two methods control the entry to and exit from full-screen mode, <code>requestFullScreen()</code> and
-<code>cancelFullScreen()</code>. The methods are applied to the element as shown below.
+<code>cancelFullScreen()</code>, respectively. The methods are applied to the element as shown below.
 
 ===Entering full-screen mode===
-Consider a <code>&lt;video&gr;</code> element as illustrated above. The element we wish to control has an ID
+Consider a <code>&lt;video&gt;</code> element as illustrated above. The element we wish to control has an ID
 so that it can be addressed programmatically. Also, in this case, the element contains the <code>controls</code>
 attribute to allow user control of playback, volume, etc., and two different 
 <code>&lt;source&gt;</code> child elements as a fallback against a given browser not recognizing one or the other.
@@ -156,7 +156,6 @@ See the compatibility tables below for the latest information.
 
 ==See also==
 WPD reference article [http://docs.webplatform.org/wiki/concepts/full-screen_api Full-screen API].
-
 }}
 {{Notes_Section}}
 {{Compatibility_Section
