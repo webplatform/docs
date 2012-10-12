@@ -23,6 +23,9 @@
 |MSDN_link=
 |HTML5Rocks_link=
 }}
+{{Guide
+| Content=
+
 == Introduction ==
  
 As an experienced developer you’ll sooner or later have to face people that are just not technical and will consider whatever you do as black magic. Conversely, as a non-technical person, not knowing what someone delivering work for you is doing is a bad starting position. This [http://www.w3.org/wiki/Web_Standards_Curriculum Web Standards Curriculum] article explains in simple terms what programming is about and hopefully will help both parties involved to steer these non-conversations into more productive waters.
@@ -402,6 +405,6 @@ This—in a very small nutshell—is programming. You take variables and user in
 * Loop over an array with the items “peter”,“paul”,“mary”,“paddington bear”,“mr.ben”,“zippy” and “bagpuss”. Add a paragraph around each of them and add a paragraph with a class “odd” to every second one of them. Tip: you can test for every second item using the modulo operator <code>i % 2 == 0</code>
 
 Note: This material was originally published as part of the Opera Web Standards Curriculum, available as [http://dev.opera.com/articles/view/programming-the-real-basics/ 39: Programming - the real basics!], written by Christian Heilmann. Like the original, it is published under the [http://creativecommons.org/licenses/by-nc-sa/2.5/ Creative Commons Attribution, Non Commercial - Share Alike 2.5] license.
-
+}}
 [[Category:Tutorials]]
 [[Category:WSC]]
