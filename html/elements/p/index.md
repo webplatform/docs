@@ -7,7 +7,7 @@
 {{API_Name}}
 {{Summary_Section|Paragraph element (&lt;p&gt;) represents a paragraph.}}
 {{Markup_Element
-|DOM_interface=dom/HTMLParagraphElement
+|DOM_interface=[[dom/HTMLParagraphElement|HTMLParagraphElement]]
 }}
 {{Examples_Section
 |Not_required=No
@@ -29,7 +29,6 @@ The p element represents a paragraph. It cannot contain block-level elements (in
 !CSS Display
 {{!}}block
 {{!}}}
-
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
