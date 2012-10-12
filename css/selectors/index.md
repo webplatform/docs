@@ -66,10 +66,10 @@ Selectors may range from simple element names to rich contextual representations
 *[[css/selectors/pseudo-classes/:not|<code>:not</code>]]
 
 === Pseudo-elements ===
-*[[css/selectors/pseudo-elements/::first-line|<code><span>:</span>:first-line</code>]]
-*[[css/selectors/pseudo-elements/::first-letter|<code><span>:</span>:first-letter</code>]]
-*[[css/selectors/pseudo-elements/::before|<code><span>:</span>:before</code>]]
-*[[css/selectors/pseudo-elements/::after|<code><span>:</span>:after</code>]]
+*[[:css/selectors/pseudo-elements/::first-line|<code><span>:</span>:first-line</code>]]
+*[[:css/selectors/pseudo-elements/::first-letter|<code><span>:</span>:first-letter</code>]]
+*[[:css/selectors/pseudo-elements/::before|<code><span>:</span>:before</code>]]
+*[[:css/selectors/pseudo-elements/::after|<code><span>:</span>:after</code>]]
 
 === Combinators ===
 ==== Descendant combinator ====
@@ -144,7 +144,6 @@ because the above selector (h1, h2..foo, h3) is entirely invalid and the entire 
 
 
 {{Special:PrefixIndex/css/selectors/}}
-
 {{Notes_Section}}
 {{Topics|CSS}}
 {{External_Attribution
