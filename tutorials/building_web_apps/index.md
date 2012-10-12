@@ -19,7 +19,7 @@ Again, the server sends back all of the markup, JavaScript and data in order to 
 
 Now consider the same user scenario, but with the "web app" design paradigm. This flow prevents unnecessary redirects and thus feels faster and smoother to the user.
 
-[[File:web_app_flow_2.png|center]]
+[[File:web_app_flow_3.png|center]]
 
 First, the user lands on the movie listing website. The web server sends back static resources like HTML, JavaScript, CSS and images. Think of this as the equivalent resources that you would have in a compiled native app. These resources contain everything the web app needs to function, but it doesn’t include any dynamic data (like movie listings).
 
