@@ -1,6 +1,5 @@
 {{Page_Title}}
-{{Flags
-}}
+{{Flags}}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|The border-radius CSS property allows Web authors to define how rounded border corners are. The curve of each corner is defined using one or two radii, defining its shape: circle or ellipse.}}
@@ -59,6 +58,8 @@ border-bottom-left-radius: 1em 3em;
 }}
 {{Notes_Section
 |Usage=As with any shorthand property, individual inherited values are not possible, that is <code>border-radius:0 0 inherit inherit</code>, which would override existing definitions partially. In that case, the individual longhand properties have to be used.
+
+The border-radius property can be animated/transitioned in Firefox, Webkit and Opera. It does not work in IE. See this demo for a keyframe animation and a transition: http://jsfiddle.net/FPnV6/1/
 |Notes====Remarks===
 The '''border-radius''' property is a composite property that specifies up to four '''border-*-radius''' properties. If values are given before and after the slash, the values before the slash set the horizontal radius and the values after the slash set the vertical radius. If there is no slash, the values set both radii equally. The four values for each radii are given in the following order: top-left, top-right, bottom-right, bottom-left. If the bottom-left value is omitted, the value is the same as the top-right value. If the bottom-right value is omitted, the value is the same as the top-left value. If the top-right value is omitted, the value is the same as the top-left value.
 |Import_Notes====Syntax===
