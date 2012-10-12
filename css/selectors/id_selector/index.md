@@ -20,3 +20,5 @@ The following selector represents any element whose ID-typed attribute has the v
 <blockquote>'''Note:''' In XML 1.0 [http://www.w3.org/TR/2011/REC-css3-selectors-20110929/#XML10 XML10], the information about which attribute contains an element's IDs is contained in a DTD or a schema. When parsing XML, UAs do not always read the DTD, and thus may not know what the ID of an element is (though a UA may have namespace-specific knowledge that allows it to determine which attribute is the ID attribute for that namespace). If a style sheet author knows or suspects that a UA may not know what the ID of an element is, he should use normal attribute selectors instead: <code>[name=p371]</code> instead of #p371.</blockquote>
 
 If an element has multiple ID attributes, all of them must be treated as IDs for that element for the purposes of the ID selector. Such a situation could be reached using mixtures of xml:id, DOM3 Core, XML DTDs, and namespace-specific knowledge.
+
+[[Category:CSS]]
