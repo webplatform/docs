@@ -105,7 +105,7 @@ Ordered lists use one set of <code>&lt;ol&gt;&lt;/ol&gt;</code> tags, wrapped ar
  
 ==== Beginning ordered lists with numbers other than 1 ====
  
-It is possible to get an ordered list to start with a number other than 1 (or i, or I, etc.). This is done using the <code>&lt;start&gt;</code> attribute, which takes a numeric value, even if you’re using CSS to change the the list counters to be alphabetic or roman. This is useful if you have a single list of items, but you want to break the list up with some kind of note, or some other related information. For example, we could do this with the previous example:
+It is possible to get an ordered list to start with a number other than 1 (or i, or I, etc.). This is done using the <code>start</code> attribute, which takes a numeric value, even if you’re using CSS to change the the list counters to be alphabetic or roman. This is useful if you have a single list of items, but you want to break the list up with some kind of note, or some other related information. For example, we could do this with the previous example:
 
 <syntaxhighlight lang="html5"><ol>
   <li>Gather ingredients</li>
@@ -139,7 +139,7 @@ This gives the following result:
   <li>Serve</li>
 </ol>
  
-Note that this attribute was deprecated in HTML 4, so it will make your page not validate if you are using an HTML4 strict doctype. If you want to make use of such functionality in an HTML4 strict page, and it absolutely has to validate, you can do it using [http://dev.opera.com/articles/view/automatic-numbering-with-css-counters/ CSS Counters] instead. <code>&lt;start&gt;</code> has however been reinstated in HTML5, which is a good thing, as it is useful.
+Note that this attribute was deprecated in HTML 4, so it will make your page not validate if you are using an HTML4 strict doctype. If you want to make use of such functionality in an HTML4 strict page, and it absolutely has to validate, you can do it using [http://dev.opera.com/articles/view/automatic-numbering-with-css-counters/ CSS Counters] instead. The <code>start</code> attribute has, however, been reinstated in HTML5, which is a good thing, as it is useful.
 
 === Description lists === 
  
