@@ -1,12 +1,13 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic
+|Content=Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Defines the line style of the border bottom of a box}}
 {{CSS Property
+|Initial value=none
 |Applies to=All elements
 |Inherited=No
 |Media=visual
@@ -17,13 +18,9 @@
 }}{{CSS Property Value
 |Data Type=dotted
 |Description=Border is a dotted line.
-
-This value is supported on the Macintosh platform, as of Internet Explorer 4.01, and on the Windows platform, as of Internet Explorer 5.5. It renders as a solid line on UNIX platforms, and on Windows systems running earlier versions of Internet Explorer.
 }}{{CSS Property Value
 |Data Type=dashed
 |Description=Border is a dashed line. 
-
-This value is supported on the Macintosh platform as of Internet Explorer 4.01 and on the Windows platform, as of Internet Explorer 5.5. It renders as a solid line on UNIX platforms, and on Windows systems running earlier versions of Internet Explorer.
 }}{{CSS Property Value
 |Data Type=solid
 |Description=Border is a solid line.
@@ -44,16 +41,16 @@ This value is supported on the Macintosh platform as of Internet Explorer 4.01 
 |Description=3-D outset is drawn in colors based on the value.
 }}{{CSS Property Value
 |Data Type=window-inset
-|Description=Internet Explorer 6 and later. Same as <code>inset</code> with a thin outside border.
+|Description=Same as <code>inset</code> with a thin outside border.
 }}{{CSS Property Value
 |Data Type=hidden
-|Description=Internet Explorer 8. Same as <code>none</code>, except in terms of conflict resolution of collapsed borders. Any element with a <code>hidden</code> border suppresses all shared borders at that location. Borders with a style of none have the lowest priority.
+|Description=Same as <code>none</code>, except in terms of conflict resolution of collapsed borders. Any element with a <code>hidden</code> border suppresses all shared borders at that location. Borders with a style of none have the lowest priority.
 }}
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=The following examples use the '''border-bottom-style''' attribute and the '''border-bottom-style''' property to specify the border style.
+|Description=The following example use the '''border-bottom-style''' property to specify the border style.
 
 This example uses a call to an embedded style sheet to change the style of the bottom border to '''groove'''.
 |Code=&lt;HEAD&gt;
@@ -73,30 +70,40 @@ This example uses a call to an embedded style sheet to change the style of the b
 &lt;/TR&gt;
 &lt;/TABLE&gt;
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/border-bottom-style.htm
-}}{{Single Example
-|Description=This example uses inline scripting to change the style of the bottom border to '''groove'''.
-|Code=&lt;TD onmouseover{{=}}"this.style.borderWidth{{=}}'0.5cm';
-                 this.style.borderBottomStyle{{=}}'groove'"&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/borderBottomStyle.htm
 }}
 }}
 {{Notes_Section
-|Notes====Remarks===
-An [[css/properties/border-width|'''border-width''']] greater than zero must be set for the '''border-bottom-style'''attribute to render.
-As of Internet Explorer 5.5, this property applies to inline elements.  With earlier versions of  Internet Explorer, inline elements must have an '''absolute''' [[css/properties/position|'''position''']] or layout to use this property. Element layout is set by providing a value for the [[css/properties/height|'''height''']] property or the [[css/properties/width|'''width''']] property.
-|Import_Notes====Syntax===
-<code>'''border-bottom-style: '''none '''{{!}}''' dotted '''{{!}}''' dashed '''{{!}}''' solid '''{{!}}''' double '''{{!}}''' groove '''{{!}}''' ridge '''{{!}}''' inset '''{{!}}''' outset '''{{!}}''' window-inset '''{{!}}''' hidden</code>
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 8.5.3
+|Notes=An [[css/properties/border-width|'''border-width''']] greater than zero must be set for the '''border-bottom-style'''attribute to render.
+
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS 2.1
+|URL=http://www.w3.org/TR/CSS2/box.html#propdef-border-bottom-style
+|Status=W3C Recommendation
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
 |Desktop_rows=
 |Mobile_rows=
-|Notes_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=Mac < 4, Win < 5.5
+|Note="dotted", "dashed" are supported on the Macintosh platform, as of Internet Explorer 4.01, and on the Windows platform, as of Internet Explorer 5.5. It renders as a solid line on UNIX platforms, and on Windows systems running earlier versions of Internet Explorer.
+}}{{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=6+
+|Note="window-inset" is supported from Internet Explorer 6 and later
+}}{{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=8+
+|Note="hidden" supported as of Internet Explorer 8
+}}{{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=< 5.5
+|Note=As of Internet Explorer 5.5, this property applies to inline elements.  With earlier versions of  Internet Explorer, inline elements must have an '''absolute''' [[css/properties/position|'''position''']] or layout to use this property. Element layout is set by providing a value for the [[css/properties/height|'''height''']] property or the [[css/properties/width|'''width''']] property.
+}}
 }}
 {{See_Also_Section
 |Topic_clusters=Border
