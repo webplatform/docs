@@ -5,10 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Connect the last point in the subpath to the given point (x, y) using a straight line, and must then add the given point (x, y) to the subpath.
-If subpath is not allocated browser will create it.
-If subpath has no point (x, y) then lineTo will create the point (x, y) as its first (and only) point, as if the moveTo(x, y) method had been called.
-}}
+{{Summary_Section|Connect the last point in the subpath to the given point (x, y) using a straight line, and must then add the given point (x, y) to the subpath. If subpath is not allocated browser will create it. If subpath has no point (x, y) then lineTo will create the point (x, y) as its first (and only) point, as if the moveTo(x, y) method had been called.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=x
