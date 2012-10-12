@@ -22,9 +22,6 @@ sel
 }}
 {{Notes_Section
 |Notes=Web authors are encouraged to use the two-colon form of the '''::after''' pseudo-element.
-|Import_Notes=
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 5.12.3
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -44,7 +41,7 @@ sel
 |Notes_rows={{Compatibility Notes Row
 |Browser=Internet Explorer
 |Version=8+
-|Note=In Windows Internet Explorer 8, as well as later versions of Windows Internet Explorer in IE8 Standards mode, only the one-colon form of this pseudo-element is recognized—that is, ''':after'''. Beginning with Windows Internet Explorer 9, the '''::after''' pseudo-element requires two colons, though the one-colon form is still recognized and behaves identically to the two-colon form. 
+|Note=In Windows Internet Explorer 8, as well as later versions of Windows Internet Explorer in IE8 Standards mode, only the one-colon form of this pseudo-element is recognized—that is, ''':after'''. Beginning with Windows Internet Explorer 9, the '''::after''' pseudo-element requires two colons, though the one-colon form is still recognized and behaves identically to the two-colon form.
 }}
 }}
 {{See_Also_Section
