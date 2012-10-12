@@ -203,3 +203,5 @@ foo:empty is not a valid representation for the following fragments:
 
 <foo>this is not <bar>:empty</bar></foo>
 </syntaxhighlight>
+
+[[Category:CSS]]
