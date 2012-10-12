@@ -1,6 +1,5 @@
 {{Page_Title|Web development for beginners}}
-{{Flags
-}}
+{{Flags}}
 {{Summary_Section|This set of articles is for complete beginners to work through in confidence, building up their essential skills at the beginning of the journey to becoming a web designer or developer.}}
 {{Basic Page}}
 ==Before you start==
@@ -18,7 +17,6 @@ Now roll your sleeves up and let's get ready to learn. [[http://docs.webplatform
 
 * [[concepts/internet_and_web/the_history_of_the_web|The history of the Web]]
 * [[concepts/how does the internet work|How does the Internet work]]
-* [[concepts/programming/programming basics|Basics of Programming]]
 * [[concepts/the web standards model|The web standards model — HTML, CSS and JavaScript]]
 * [[tutorials/getting your content online|Getting your content online]]
 * [[concepts/accessibility|Accessibility]]
