@@ -1,7 +1,6 @@
 {{Page_Title|JavaScript libraries}}
 {{Flags
 |High-level issues=Missing Relevant Sections,Needs Topics,Stub
-|Content=Incomplete
 }}
 {{Summary_Section|Index page for JavaScript libraries}}
 {{Basic Page}}
