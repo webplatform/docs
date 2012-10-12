@@ -24,7 +24,7 @@ The P element represents a paragraph. It cannot contain block-level elements (in
 {{{!}} class="wikitable"
 {{!}}-
 !Closing Tag
-{{!}}forbidden
+{{!}}optional
 {{!}}-
 !CSS Display
 {{!}}block
