@@ -7,17 +7,16 @@
 {{API_Name}}
 {{Summary_Section}}
 {{Markup_Element
-|DOM_interface=dom/HTMLElement
+|DOM_interface=dom/HTMLAppletElement
 |Content====HTML information===
-{| class="wikitable"
-|-
-!Closing Tag
-|required
-|-
-!CSS Display
-|inline
-|}
-
+{{{!}} class="wikitable"
+{{!}}-
+{{!}}Closing Tag
+{{!}}required
+{{!}}-
+{{!}}CSS Display
+{{!}}inline
+{{!}}}
 }}
 {{Examples_Section
 |Not_required=No
@@ -25,9 +24,7 @@
 }}
 {{Notes_Section
 |Notes====Remarks===
-To use executable content specified by the '''applet''' element, a user's computer must have  a Java Runtime Environment (JRE) solution installed. 
-|Import_Notes=
-
+To use executable content specified by the '''applet''' element, a user's computer must have  a Java Runtime Environment (JRE) solution installed.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
