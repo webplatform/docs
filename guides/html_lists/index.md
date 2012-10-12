@@ -310,7 +310,7 @@ Let’s step through the process of creating this site.
 <li><p>You have three categories of recipe to represent, and the order is not important — an unordered list is most appropriate for these, so add the following to your page:</p>
 
 <syntaxhighlight lang="html5"><h2>Recipes</h2>
-   <ul>
+ <ul>
    <li>Cakes</li>
    <li>Biscuits</li>
    <li>Quickbreads</li>
