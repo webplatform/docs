@@ -2,7 +2,7 @@
 {{Flags
 |High-level issues=Data Not Semantic
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section}}
 {{CSS_Selector
@@ -12,7 +12,7 @@ The generated content interacts with other boxes as if they were real elements i
 ===Syntax===
 
 sel
-::after
+'''::after'''
 ===Parameters===
 ;''sel'':A simple selector
 }}
