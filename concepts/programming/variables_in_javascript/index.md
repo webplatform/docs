@@ -188,12 +188,12 @@ You cannot declare a constant with the same name as a function or variable in th
 
 You use literals to represent values in JavaScript. These are fixed values, not variables, that you ''literally'' provide in your script. This section describes the following types of literals:
 
-* <nowiki>{{anch("Array literals")}}</nowiki>
-* <nowiki>{{anch("Boolean literals")}}</nowiki>
-* <nowiki>{{anch("Floating-point literals")}}</nowiki>
-* <nowiki>{{anch("Integers")}}</nowiki>
-* <nowiki>{{anch("Object literals")}}</nowiki>
-* <nowiki>{{anch("String literals")}}</nowiki>
+* [[#Array literals|Array literals]]
+* [[#Boolean literals|Boolean literals]]
+* [[#Floating-point literals|Floating-point literals]]
+* [[#Integers|Integers]]
+* [[#Object literals|Object literals]]
+* [[#String literals|String literals]]
 
 ===Array literals===
 
