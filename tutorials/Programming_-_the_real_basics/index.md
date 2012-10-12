@@ -1,7 +1,6 @@
 {{Page_Title}}
 {{Flags
 }}
-}}
 {{Byline}}
 {{Summary_Section}}
 {{Tutorial}}
