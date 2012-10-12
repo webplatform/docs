@@ -78,7 +78,7 @@ You can declare a variable in two ways:
 
 ===Evaluating variables===
 
-A variable declared using the <code>var</code> statement with no initial value specified has the value <code>[/en-US/docs/JavaScript/Reference/Global_Objects/undefined undefined]</code>.
+A variable declared using the <code>var</code> statement with no initial value specified has the value <code>undefined</code>.
 
 An attempt to access an undeclared variable will result in a <code>ReferenceError</code> exception being thrown:
  
@@ -86,7 +86,7 @@ An attempt to access an undeclared variable will result in a <code>ReferenceErro
  console.log("The value of a is " + a); // prints "The value of a is undefined"
  console.log("The value of b is " + b); // throws ReferenceError exception
 
-You can use <code>undefined</code> to determine whether a variable has a value. In the following code, the variable <code>input</code> is not assigned a value, and the <code>[/en-US/docs/JavaScript/Reference/Statements/if...else if]</code> statement evaluates to <code>true</code>.
+You can use <code>undefined</code> to determine whether a variable has a value. In the following code, the variable <code>input</code> is not assigned a value, and the <code>if</code> statement evaluates to <code>true</code>.
  
  var input;
  if(input === undefined){
@@ -116,7 +116,7 @@ When you evaluate a null variable, the null value behaves as 0 in numeric contex
 
 When you declare a variable outside of any function, it is called a ''global'' variable, because it is available to any other code in the current document. When you declare a variable within a function, it is called a ''local'' variable, because it is available only within that function.
 
-JavaScript does not have [/en-US/docs/JavaScript/Guide/Statements#Block_Statement block statement] scope; rather, it will be local to the code that the block resides within. For example the following code will log <code>5</code>, because the scope of <code>x</code> is the function (or global context) within which <code>x</code> is declared, not the block, which in this case is an <code>if</code> statement.
+JavaScript does not have block statement scope; rather, it will be local to the code that the block resides within. For example the following code will log <code>5</code>, because the scope of <code>x</code> is the function (or global context) within which <code>x</code> is declared, not the block, which in this case is an <code>if</code> statement.
  
  if (true) {
    var x = 5;
@@ -156,13 +156,13 @@ Because of hoisting, all <code>var</code> statements in a function should be pla
 
 ===Global variables===
 
-<span class="comment">need links to pages discussing scope chains and the global object</span> Global variables are in fact properties of the ''global object''. In web pages the global object is <code>[/en-US/docs/DOM/window window]</code>, so you can set and access global variables using the <code>window.''variable''</code> syntax.
+<span class="comment">need links to pages discussing scope chains and the global object</span> Global variables are in fact properties of the ''global object''. In web pages the global object is <code>window</code>, so you can set and access global variables using the <code>window.''variable''</code> syntax.
 
 Consequently, you can access global variables declared in one window or frame from another window or frame by specifying the window or frame name. For example, if a variable called <code>phoneNumber</code> is declared in a <code>FRAMESET</code> document, you can refer to this variable from a child frame as <code>parent.phoneNumber</code>.
 
 ==Constants==
 
-You can create a read-only, named constant with the <code>[/en-US/docs/JavaScript/Reference/Statements/const const]</code> keyword. The syntax of a constant identifier is the same as for a variable identifier: it must start with a letter or underscore and can contain alphabetic, numeric, or underscore characters.
+You can create a read-only, named constant with the <code>const</code> keyword. The syntax of a constant identifier is the same as for a variable identifier: it must start with a letter or underscore and can contain alphabetic, numeric, or underscore characters.
  
  const prefix = '212';
 
@@ -203,11 +203,11 @@ The following example creates the <code>coffees</code> array with three elements
  
  var coffees = ["French Roast", "Colombian", "Kona"];
 
-'''Note''' An array literal is a type of object initializer. See [/en-US/docs/JavaScript/Guide/Working_with_Objects#Using_Object_Initializers Using Object Initializers].
+'''Note''' An array literal is a type of object initializer.
 
 If an array is created using a literal in a top-level script, JavaScript interprets the array each time it evaluates the expression containing the array literal. In addition, a literal used in a function is created each time the function is called.
 
-Array literals are also <code>Array</code> objects. See [/en-US/docs/JavaScript/Guide/Predefined_Core_Objects#Array_Object Array Object] for details on <code>Array</code> objects.
+Array literals are also <code>Array</code> objects. 
 
 ====Extra commas in array literals====
 
@@ -235,7 +235,7 @@ Understanding the behavior of extra commas is important to understanding JavaScr
 
 The Boolean type has two literal values: <code>true</code> and <code>false</code>.
 
-Do not confuse the primitive Boolean values <code>true</code> and <code>false</code> with the true and false values of the Boolean object. The Boolean object is a wrapper around the primitive Boolean data type. See [/en-US/docs/JavaScript/Guide/Predefined_Core_Objects#Boolean_Object Boolean Object] for more information.
+Do not confuse the primitive Boolean values <code>true</code> and <code>false</code> with the true and false values of the Boolean object. The Boolean object is a wrapper around the primitive Boolean data type.
 
 ===Integers===
 
@@ -327,7 +327,7 @@ You can call any of the methods of the String object on a string literal valueâ€
  
  "John's cat".length
 
-You should use string literals unless you specifically need to use a String object. See [/en-US/docs/JavaScript/Guide/Predefined_Core_Objects#String_Object String Object] for details on <code>String</code> objects.
+You should use string literals unless you specifically need to use a String object. 
 
 ====Using special characters in strings====
 
@@ -501,7 +501,7 @@ The JavaScript use of the Unicode escape sequence is different from Java. In Jav
 
 ===Unicode characters in JavaScript files===
 
-Earlier versions of [/en-US/docs/Gecko Gecko] assumed the Latin-1 character encoding for JavaScript files loaded from XUL. Starting with Gecko 1.8, the character encoding is inferred from the XUL file's encoding. Please see [/en-US/docs/International_characters_in_XUL_JavaScript International characters in XUL JavaScript] for more information.
+Earlier versions of Gecko assumed the Latin-1 character encoding for JavaScript files loaded from XUL. Starting with Gecko 1.8, the character encoding is inferred from the XUL file's encoding. 
 
 ===Displaying characters with Unicode===
 
@@ -509,7 +509,7 @@ You can use Unicode to display the characters in different languages or technica
 
 To receive non-ASCII character input, the client needs to send the input as Unicode. Using a standard enhanced keyboard, the client cannot easily input the additional characters supported by Unicode. Sometimes, the only way to input Unicode characters is by using Unicode escape sequences.
 
-For more information on Unicode, see the [http://www.unicode.org/ Unicode Home Page] and The Unicode Standard, Version 2.0, published by Addison-Wesley, 1996.
+For more information on Unicode, see the [http://www.unicode.org/|Unicode Home Page] and The Unicode Standard, Version 2.0, published by Addison-Wesley, 1996.
 
 ==Resources==
 
