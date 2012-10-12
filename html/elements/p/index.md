@@ -13,13 +13,13 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=This example uses the '''P''' element to create a paragraph.
+|Description=This example uses the '''p''' element to create a paragraph.
 |Code=&lt;p&gt;This is a paragraph.&lt;/p&gt;
 }}
 }}
 {{Notes_Section
 |Notes====Remarks===
-The P element represents a paragraph. It cannot contain block-level elements (including P itself).
+The p element represents a paragraph. It cannot contain block-level elements (including p itself).
 |Import_Notes====HTML information===
 {{{!}} class="wikitable"
 {{!}}-
