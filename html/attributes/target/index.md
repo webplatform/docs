@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
+|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
 }}
 {{Standardization_Status}}
@@ -9,25 +9,25 @@
 {{Markup_Attribute
 |Applies_to=http://docs.webplatform.org/wiki/html/elements/a
 |Property_applies_to=dom/HTMLElement
-|Content=<strong>Target</strong> is a link attribute that defines in what window a link will open. 
+|Content=<strong>Target</strong> is a link attribute that defines in what window a link will open.
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=A target value of "_blank" will cause the page to open in a new window. 
+|Description=A target value of "_blank" will cause the page to open in a new window.
 |Code=<syntaxhighlight lang="html5"><a href="#" target="_blank">Link Text</a></syntaxhighlight>
 }}{{Single Example
 |Language=HTML
-|Description=A target value of "_self" will cause the page to open in the same window or frame. 
+|Description=A target value of "_self" will cause the page to open in the same window or frame.
 |Code=<syntaxhighlight lang="html5"><a href="#" target="_self">Link Text</a></syntaxhighlight>
 }}{{Single Example
 |Language=HTML
-|Description=A target value of "_parent" will cause the page to open in parent frame of the element. 
+|Description=A target value of "_parent" will cause the page to open in parent frame of the element.
 |Code=<syntaxhighlight lang="html5"><a href="#" target="_parent">Link Text</a></syntaxhighlight>
 }}{{Single Example
 |Language=HTML
-|Description=A target value of "_top" will cause the page to open in the top-most frame. 
+|Description=A target value of "_top" will cause the page to open in the top-most frame.
 |Code=<syntaxhighlight lang="html5"><a href="#" target="_top">Link Text</a></syntaxhighlight>
 }}
 }}
@@ -35,7 +35,6 @@
 |Notes====Remarks===
 The window '''name''' is an optional argument in the [[dom/methods/open|'''open''']] scripting method.
 If there is no existing window or frame with the same '''name''' as specified in the '''target''', a new window is opened with a '''name''' equal to the value of the '''target'''.
-
 |Import_Notes====Syntax===
 }}
 {{Related_Specifications_Section
