@@ -40,16 +40,15 @@
 |Notes====Remarks===
 The '''a''' element requires the [[html/attributes/href|'''href''']] or the [[html/attributes/name|'''name''']] attribute to be specified.
 Both text and images can be included within an anchor. An image that is an anchor has a border whose color indicates whether the link has been visited.  To prevent this border from appearing, you can set the '''img''' element's [[html/attributes/border|'''border''']] attribute to 0 or omit the '''border''' attribute.  You can also use CSS attributes to override the default appearance of '''a''' and '''img''' elements.
-
 |Import_Notes====HTML information===
-{| class="wikitable"
-|-
+{{{!}} class="wikitable"
+{{!}}-
 !Closing Tag
-|required
-|-
+{{!}}required
+{{!}}-
 !CSS Display
-|inline
-|}
+{{!}}inline
+{{!}}}
 
  
 }}
