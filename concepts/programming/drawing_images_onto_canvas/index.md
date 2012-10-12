@@ -51,8 +51,8 @@ While that is very simple, there is a flaw - we have to add the image to the DOM
 // A wrapper function for the previous example
 function drawImage(img) {
     var canvas  = document.createElement('canvas');
-
     document.body.appendChild(canvas);
+
     canvas.width  = img.width;
     canvas.height = img.height;
 
