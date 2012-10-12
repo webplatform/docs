@@ -14,3 +14,5 @@ Radio and checkbox elements can be toggled by the user. Some menu items are "che
 <blockquote>'''Note:''' Radio and checkbox elements can be toggled by the user, but are sometimes in an indeterminate state, neither checked nor unchecked. This can be due to an element attribute, or DOM manipulation.
 
 A future version of this specification may introduce an :indeterminate pseudo-class that applies to such elements. </blockquote>
+
+[[Category:CSS]]
