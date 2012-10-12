@@ -48,12 +48,19 @@ window.addEventListener("DOMContentLoaded", function()
 While that is very simple, there is a flaw - we have to add the image to the DOM first. However, we can load an image directly from a URL with a few lines of javascript.
 
 <syntaxhighlight lang="javascript">
+// A wrapper function for the previous example
 function drawImage(img) {
     var canvas  = document.createElement('canvas');
+
+    document.body.appendChild(canvas);
+    canvas.width  = img.width;
+    canvas.height = img.height;
+
     var context = canvas.getContext('2d');
     context.drawImage(img, 0, 0);
 }
 
+// Load an image, then draw
 function loadAndDrawImage(url)
 {
     // Create an image object. This is not attached to the DOM and is not part of the page.
