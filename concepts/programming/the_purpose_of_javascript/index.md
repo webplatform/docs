@@ -54,7 +54,13 @@ Another thing we used was <code>document.write()</code> to add content to the do
  
 When browsers started supporting and implementing the [http://www.w3.org/DOM/ Document Object Model (DOM)], which allows us to have much richer interaction with web pages, JavaScript started to get more interesting.
  
-The DOM is an object representation of the document. The previous paragraph for example (check out its source using view source) in DOM speak is an element node with a <code>nodeName</code> of <code>p</code>. It contains three <code>child nodes</code> — a text node containing “When browsers started supporting and implementing the ” as its <code>nodeValue</code>, an element node with a <code>nodeName</code> of <code>a</code>, and another text node with a <code>nodeValue</code> of “, which allows us to have much richer interaction with web pages, JavaScript started to get more interesting.”. The <code>a</code> child node also has an attribute node called <code>href</code> with a value of “http://www.w3.org/DOM/” and a child node that is a text node with a <code>nodeValue</code> of “Document Object Model(DOM)”.
+The DOM is an object representation of the document. The previous paragraph for example (check out its source using view source) in DOM speak is an element node with a <code>nodeName</code> of <code>p</code>. It contains three <code>child nodes</code>:
+
+* a text node containing "When browsers started supporting and implementing the " as its <code>nodeValue</code>;
+* an element node with a <code>nodeName</code> of <code>a</code>;
+* another text node with a <code>nodeValue</code> of ", which allows us to have much richer interaction with web pages, JavaScript started to get more interesting.".
+
+The <code>a</code> child node also has an attribute node called <code>href</code> with a value of "http://www.w3.org/DOM/" and a child node that is a text node with a <code>nodeValue</code> of "Document Object Model(DOM)".
  
 You could also represent this paragraph visually using a tree diagram, as seen in Figure 2.
  
