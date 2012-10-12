@@ -161,7 +161,7 @@ coffee beans
   
 The seeds of the fruit from certain coffee trees.</pre>
 
-Note: In HTML4, description lists were called definition lists, so if you hear that term mentioned in conversation, then just assume you are talking about a description list. HTML5 has changed the definition of this type of list to the more general "description list" because designers and developers were all too often using description lists to mark up name/value groups that weren't items and descriptions.
+Note: In HTML4, description lists were called definition lists, so if you hear that term mentioned in conversation, then just assume you are talking about a description list. HTML5 has changed the definition of this type of list to the more general "description list" because designers and developers were all too often using description lists to mark up name/value groups that weren't items and definitions.
   
 You can have as many name-value groups as you like, but there must be at least one name and at least one value in each pair. You can associate more than one value with a single name, or vice versa. For example, the term "coffee" can have several meanings, and you could show them one after the other:
 
