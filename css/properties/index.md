@@ -1,4 +1,5 @@
-{{Flags}}
+{{Flags
+}}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|CSS properties are the ways that you can change the styling of elements in your page.}}
