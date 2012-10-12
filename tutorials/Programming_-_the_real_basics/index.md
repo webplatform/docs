@@ -313,7 +313,7 @@ Try it out yourself in my [http://dev.opera.com/articles/view/programming-the-re
  
 Whereas the earlier example would always try to create the message regardless of country being available—and thus possibly throwing an error or stating “this is '''undefined''', the weather…” this version is more secure. If country is not defined the message will never be created.
  
-Furthermore you can concatenate different conditions with “or” or “and” statements, to test whether either statement is true, or both are true, respectively. In JavaScript “or” is written as || and “and” is written as &amp;&amp;. Say you want to test if the value of x is between 10 and 20—you could do that with a condition stating <code>if(x &gt; 10 &amp;&amp; x &lt; 20)</code>. If you want to make sure that country is either “England” or “Germany” you use <code>if(country == 'England' || country == 'Germany')</code>.
+Furthermore you can concatenate different conditions with “or” or “and” statements, to test whether either statement is true, or both are true, respectively. In JavaScript “or” is written as {{!}}{{!}} and “and” is written as &amp;&amp;. Say you want to test if the value of x is between 10 and 20—you could do that with a condition stating <code>if(x &gt; 10 &amp;&amp; x &lt; 20)</code>. If you want to make sure that country is either “England” or “Germany” you use <code>if(country == 'England' {{!}}{{!}} country == 'Germany')</code>.
  
 There is also an <code>else</code> clause that will be applied every time the first condition isn’t true. This is very powerful if you want to react to any value, but single out one in particular for special treatment:
 
