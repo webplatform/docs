@@ -2,9 +2,9 @@
 {{Flags}}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The host property contains the host part of the the current document URL, (hostname:port).}}
 {{API_Object_Property
-|Property_applies_to=api/location
+|Property_applies_to=apis/location
 |Read_only=Yes
 |Example_object_name=window.location
 |Javascript_data_type=String
