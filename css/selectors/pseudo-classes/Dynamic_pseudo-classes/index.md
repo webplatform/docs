@@ -55,3 +55,5 @@ a:focus:hover
 The last selector matches <code>a</code> elements that are in the pseudo-class <code>:focus</code> and in the pseudo-class <code>:hover</code>.
 
 <blockquote>'''Note:''' An element can be both ‘<code>:visited</code>’ and ‘<code>:active</code>’ (or ‘<code>:link</code>’ and ‘<code>:active</code>’).</blockquote>
+
+[[Category:CSS]]
