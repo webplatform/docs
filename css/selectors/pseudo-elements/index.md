@@ -128,3 +128,5 @@ ends up on two lines
 Note that the <code>::first-letter</code> element is inside the <code>::first-line</code> element. Properties set on <code>::first-line</code> are inherited by <code>::first-letter</code>, but are overridden if the same property is set on <code>::first-letter</code>.
 
 The first letter must occur on the first formatted line. For example, in this HTML fragment: <pre><p><br>First...</pre> the first line doesn't contain any letters and <code>::first-letter</code> doesn't match anything (assuming the default style for br in HTML 4). In particular, it does not match the "F" of "First."
+
+[[Category:CSS]]
