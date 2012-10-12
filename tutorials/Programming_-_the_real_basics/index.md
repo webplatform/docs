@@ -1,1 +1,1 @@
- #REDIRECT [[concepts/programming/programming_basics]]
+#REDIRECT [[concepts/programming/programming_basics]]
