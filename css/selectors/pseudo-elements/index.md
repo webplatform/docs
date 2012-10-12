@@ -7,6 +7,14 @@ This <code>::</code> notation is introduced by the current document in order to 
 Only one pseudo-element may appear per selector, and if present it must appear after the sequence of simple selectors that represents the [http://www.w3.org/TR/2011/REC-css3-selectors-20110929/#subject subjects] of the selector.
 <blockquote>'''Note:''' A future version of this specification may allow multiple pseudo-elements per selector.</blockquote>
 
+Pseudo-elements selectors:
+* [[:css/selectors/pseudo-elements/::first-line|::first-line]]
+* [[:css/selectors/pseudo-elements/::first-letter|::first-letter]]
+* [[:css/selectors/pseudo-elements/::after|::after]]
+* [[:css/selectors/pseudo-elements/::before|::before]]
+* [[:css/selectors/pseudo-elements/::selection|::selection]] (not standard)
+
+
 ==The <code>::first-line</code> pseudo-element==
 The <code>::first-line</code> pseudo-element describes the contents of the first formatted line of an element. 
 
