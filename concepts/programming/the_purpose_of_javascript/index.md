@@ -1,6 +1,5 @@
 {{Page_Title}}
 {{Flags
-|Content=Errors, Grammar/Spelling, Cleanup
 }}
 {{Byline}}
 {{Summary_Section|In this article we discuss what JavaScript can be used for on the web, its downsides, and how to use it responsibly.}}
