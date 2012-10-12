@@ -4,10 +4,12 @@
 |Content=Incomplete, Cleanup, Compatibility Incomplete, Accessibility
 }}
 {{API_Name}}
-{{Summary_Section}}
-{{Concept_Page
-|Content=We will start with a simple example and then explore some issues you might encounter. We'll look at how to load the image from various sources, how to display the image on "retina" displays without bluriness, and at some compatibility and performance problems.
+{{Summary_Section|In this article we will explore how to draw Images onto a Canvas. 
 
+We will start with a simple example and then explore some issues you might encounter. We'll look at how to load the image from various sources, how to display the image on "retina" displays without bluriness, and at some compatibility and performance problems.
+}}
+{{Concept_Page
+|Content=
 ==A simple example==
 A simple html layout with both the image and the canvas already loaded as DOM elements in our page.
  
