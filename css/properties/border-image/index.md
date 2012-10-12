@@ -3,13 +3,15 @@
 |High-level issues=Missing Relevant Sections, Needs Topics
 |Content=Examples Needed
 }}
-{{Standardization_Status|W3C Recommendation}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|This property displays an image instead of a solid color for 'border' property. Image can be transformed in different ways.}}
+{{Summary_Section|Shorthand property that defines an image to be displayed and its positioning, instead of a solid color, for 'border' property. Image can be transformed in different ways.}}
 {{CSS Property
+|Initial value=none 
 |Applies to=All elements
 |Inherited=No
 |Media=visual
+|Computed value=based on individual properties
 |Animatable=No
 |Values={{CSS Property Value
 |Data Type=none
@@ -33,9 +35,7 @@
 }}
 }}
 {{Notes_Section
-|Notes====Browser issues===
-Firefox 15 requires [[css/properties/border-style|'''border-style''']] to be set (for example 'solid') in order to display.
-Also, [[css/properties/border-image-slice|'''border-image-slice: fill''']] was introduced in latest recommendation and breaks backwards compatibility. If you want border-image to fill an inner area of your block you have to use this property.
+|Notes=[[css/properties/border-image-slice|'''border-image-slice: fill''']] was introduced in latest recommendation and breaks backwards compatibility. If you want border-image to fill an inner area of your block you have to use this property.
 
 ===Compatibility with other properties===
 [[css/properties/border-radius|'''border-radius''']] has no effect on border-image.
@@ -71,7 +71,11 @@ Also, [[css/properties/border-image-slice|'''border-image-slice: fill''']] was i
 |Safari_prefixed_version=4
 }}
 |Mobile_rows=
-|Notes_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Firefox
+|Version=15
+|Note=Firefox 15 requires [[css/properties/border-style|'''border-style''']] to be set (for example 'solid') in order to display.
+}}
 }}
 {{See_Also_Section
 |Topic_clusters=Border
