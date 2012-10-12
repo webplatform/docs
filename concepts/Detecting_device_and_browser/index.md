@@ -1,69 +1,71 @@
 {{Page_Title}}
 {{Flags}}
 {{Byline}}
-{{Summary_Section|The concept page describes usual techniques for detecting mobile browsers, both on client and server sides.}}
+{{Summary_Section|Client and server-side techniques for detecting browser capabilities.}}
 {{Guide
-|Content=Device detection enables developers to identify device properties and characteristics in order to determine the best content, layout, mark-up or application to serve to a given device. These characteristics include screen size, browser type (or version), media support, and the level of support for Cascading Style Sheets (CSS), HTML and JavaScript technology.
+|Content=Device detection enables developers to identify device properties and characteristics in order to determine the best content, layout, mark-up or application to serve to a given device. These characteristics include screen size, browser type and version, media support, and the level of support for CSS, HTML and JavaScript.
 
 == Why use device and feature detection? ==
 
 The ability to identify a device, browser or feature enables the developer to perform actions such as:
 
-* Serving a mobile formatted site rather than the desktop site.
-* Swapping style sheets to adapt layout and content to the device’s specific HTML, Cascading Style Sheets (CSS) and JavaScript technology capabilities.
-* Modifying the amount or nature of content to suit the device capacity. For example, a JavaScript based slide show may be served to a higher-end device, and a simple list served to a lower-end device.
-* Serving smaller or larger images to suit screen size, or swap SVG graphics for bitmap images on less capable devices.
-* Enhancing functionality on more capable devices by applying progressive enhancements (based on feature and object detection).
-* Increasing or decreasing font size, margins and padding to scale the actionable areas on a touch device.
-* Serving different sizes and/or formats of media such as video to suit the device codecs or capabilities.
+* Serve a mobile formatted site rather than the desktop site.
+* Swap style sheets to adapt layout and content to the device’s specific HTML, CSS and JavaScript capabilities.
+* Modify the amount or nature of content to suit device capabilities. For example, a JavaScript-based slide show may be served to a higher-end device, and a simple list served to a lower-end device.
+* Serve smaller or larger images to suit screen size, or swap SVG graphics for bitmap images on less capable devices.
+* Enhance functionality on more capable devices by applying progressive enhancement based on feature and object detection.
+* Increase or decrease font size, margins and padding to scale the actionable areas on a touch device.
+* Serve different sizes and/or formats of media such as video to suit device codecs or capabilities.
 
 == Common approaches to device detection ==
 
-Device detection can be accomplished server-side, before the content is delivered to the client, or client-side, after the content and related files have been loaded to the device itself. Both approaches have advantages and disadvantages, which are described in this topic. Depending on the browser features, smartphone browsers are generally more capable to better client-side detection and give more flexibility to Web developers to apply different design approaches, for example responsive design approach. On the other hand, many feature phone browsers are designed to provide speed, performance and bandwidth optimization, and may lack advance features to handle certain design approaches.
+Device detection can be accomplished server-side, before content is delivered to the client, or client-side, after content and related files have been loaded to the device itself. Both approaches have advantages and disadvantages, which are described in this topic. Smartphone browsers generally have better client-side detection capabilities than cheaper feature phones, and this gives Web developers more flexibility to use design techniques such as the responsive design approach. Feature phone browsers are designed to provide speed, performance and bandwidth optimization, but may lack advance features required for some design approaches.
 
 == Client-side detection ==
 
-Client-side detection employs JavaScript technology to detect the type of browser as well as DOM objects and properties such as screen.width, screen.pixelDepth, navigator.userAgent, and navigator.cookieEnabled. Using CSS, it is now also possible to implement “progressive enhancement”, which is a Web design strategy that enables every browser to access the basic content of a Web page, serving the complete feature set of the page only to those browsers that support advanced technologies. For more information on progressive enhancement, see Wikipedia, Dev,Opera, and A List Apart.
+Client-side detection employs JavaScript to detect the type of browser, as well as using DOM objects and properties such as screen.width, screen.pixelDepth, navigator.userAgent, and navigator.cookieEnabled. Using CSS, it is now also possible to implement 'progressive enhancement', which is a design strategy to enable any browser to access the basic content of a Web page, while serving the complete feature set of the page to those browsers that support advanced technologies. For more information on progressive enhancement, see [http://en.wikipedia.org/wiki/Progressive_enhancement Wikipedia], [http://www.alistapart.com/articles/understandingprogressiveenhancement/ A List Apart] and [http://modernizr.com/ modernizr.com].
 
-Media queries are another common strategy for adapting content to a device based on media type and device width or display size. For more information on media query techniques, see Client-side detection of Nokia devices.
+Media queries are another common strategy for adapting content to a device, based on media type and device width or display size. For more information on media query techniques, see [http://www.html5rocks.com/en/mobile/responsivedesign/ Creating a Mobile-First Responsive Web Design] and [http://www.html5rocks.com/en/mobile/mobifying/ Mobifying Your HTML5 Site] on HTML5 Rocks.
 
-Advantages of client-side detection
+=== Advantages of client-side detection ===
 
-The main advantage of client-side detection is the ability to react promptly to exact client conditions such as size, orientation, and support for extra tags and APIs. It is simple to execute using a combination of JavaScript and CSS and is an integral part of the Web page design; there are no requirements for Java, PHP, .NET software to dynamically modify your Web pages. Another advantage is that installing and maintaining a database is not required.
+The main advantage of client-side detection is the ability to react promptly to exact client conditions such as size, orientation, and accurately assess support for specific elements and APIs. Capability detection is developed and executed purely on the client, using CSS and JavaScript. There is no requirement for web servers to provide device detection or serve alternative content, and installation and maintenance of a device database is not required.
 
-Client-side detection can provide a useful fallback and can implement last-minute tweaks related to real-time behavior such as changes in device orientation. On more advanced devices, client-side Ajax and CSS can be used to download additional content and enhancements without having to refresh the entire page.
+Client-side detection can provide a useful fallback and can implement run-time tweaks in response to behavior such as changes in device orientation. On more advanced devices, client-side Ajax and CSS can be used to download additional content and enhancements without having to refresh an entire page.
 
-Disadvantages of client-side detection
+=== Disadvantages of client-side detection ===
 
-One disadvantage of client-side detection are is that it often runs the risk of sending content that is not supported by the device. The user is notified that the browser is not capable of rendering the content only after time has been wasted delivering it. Because JavaScript and CSS execute locally, the entire page may download before the script can process and manipulate the Document Object Model (DOM). Another disadvantage is that JavaScript and media queries are not supported on older devices. A third disadvantage is the time lag that elapses between the initial loading and the execution of the client-side adaptation.
+When incorrectly implemented, client-side detection may cause a device to request content that is unsupported. In this case, a  user will be notified that the browser is not capable of rendering the content only after time and bandwidth have been wasted delivering it. Because JavaScript and CSS execute locally, an entire page may have to be downloaded before scripts can process and manipulate the Document Object Model [http://en.wikipedia.org/wiki/Document_Object_Model DOM]. In addition, JavaScript and media queries are not supported on some older devices, and their may be a time lag between page load and execution of client-side adaptation.
 
 == Server-side detection ==
 
-Server-side detection is usually performed by analysing the HTTP request headers received from the client (also called the user agent). In most cases, only the User-Agent string is needed, but sometimes a combination of more than one header is required.
+Server-side detection of devices and capabilities is usually performed by analysing HTTP request headers received from the client (also called the user agent). In most cases, only the User-Agent string is needed, but sometimes a combination of more than one header is required.
 
-Server-side detection requires a database of User-Agent strings (and other headers, if needed) associated with a list of devices and capabilities. Mobile-device databases range from the very simple, which provide limited data, to the very detailed, which require more resources and are complicated to implement. An example of a very simple device database is the lite-detection.php script included in the WordPress Mobile Pack, which recognises a mobile device from a common PC. Online services such as {???} can generate a script for you, based on some simple rules that you can define on their Web site.
+Server-side detection requires a database of User-Agent strings (and other headers, if needed) associated with a list of devices and capabilities. Mobile-device databases range from the very simple, which provide limited data, to the very detailed, which require more resources and are complicated to implement. An example of a very simple device database is the lite-detection.php script included in the WordPress Mobile Pack, which can differentiate between common mobile and desktop platforms. <!-- Online services such as {???} can generate scripts, based on simple rules that you can define on their Web site. -->
 
-More complex databases contain details about display size, supported markup, AJAX, Flash, and so on. There are many types of device databases on the market; some are open-source, some are free, and some are commercial. Some examples are WURFL, DeviceAtlas, Microsoft’s Mobile Device Capabilities, and DetectRight.
+More complex databases provide details about display size, support for features of HTML, CSS, JavaScript and plugins such as Flash. There are many types of device databases; some are open-source, some are free, and some are commercial. Examples include [http://en.wikipedia.org/wiki/WURFL WURFL], [http://deviceatlas.com/ DeviceAtlas], Microsoft’s [http://msdn.microsoft.com/en-us/library/wa9x6tza(v=vs.80).aspx Mobile Device Capabilities], [http://incubator.apache.org/devicemap/ Apache DeviceMap] and [http://www.detectright.com/ DetectRight].
 
-For more information about specific server-side detection techniques, see Server-side detection of Nokia devices.
+For more information about specific server-side detection techniques, see:
+- [http://mobile.smashingmagazine.com/2012/09/24/server-side-device-detection-history-benefits-how-to/ Server-Side Detection: History, Benefits and How-To ]
+- [http://www.html5rocks.com/en/mobile/cross-device/ A Non-Responsive Approach to Building Cross-Device Webapps].
 
-Advantages of server-side detection
+=== Advantages of server-side detection ===
 
-The main advantages of server-side detection are that it saves client resources and it does not rely on the ability of the client to adapt the content that it receives. As soon as the client makes the request, you learn the identity of the device and what it can do. You can then serve only the media and content that is most appropriate for that particular device. For example, if you find out that the mobile device is old and has a small screen, you will not show it the HD video section.
+The main advantages of server-side detection are that it saves client resources and does not rely on the ability of the client to adapt the content that it receives. As soon as the client makes a request, server-side applications learn the identity of the device and what it can do. This makes it possible to serve only media and content that is most appropriate for that particular device. For example, if a mobile device is old and has a small screen, it will not be served a page section displaying HD video.
 
-Server-side detection enables optimization of assets such as CSS files, image sprites, scripts, and so on. It can be extremely efficient when combined with device or group-based caching on the server. For an example of a group-detection script, see WordPress Mobile Pack's device group detection script.
+Server-side detection enables optimization of assets such as CSS files, CSS image sprites, scripts, and so on. It can be extremely efficient when combined with device or 'group-based' caching on the server. For an example of a group-detection script, see [http://wordpress.org/extend/plugins/wordpress-mobile-pack/ WordPress Mobile Pack]'s device group detection script.
 
-Disadvantages of server-side detection
+=== Disadvantages of server-side detection ===
 
-The disadvantages of server-side detection are that the databases require frequent updating, are not always accurate, and do not include user settings or personalizations. Employing a device database requires implementing an API and maintaining it. The simplest solution is to employ a short script containing only very basic information, such as the one shown in WordPress Mobile Pack's lite-detection php script.
-
+Databases for server-side detection require frequent updating, are not always accurate, and do not respond to user settings or personalization. Employing a device database requires implementing a server-side API and maintaining it. (The simplest solution is to employ a short script containing only very basic information, such as the one shown in WordPress Mobile Pack's lite-detection php script.)
 
 == Best of both worlds ==
 
-Server-side and client-side detection techniques can be used together to enable the developer to drop content that is not supported by the device while allowing the browser to take care of applying the correct style and layout depending upon the current context.
+Server-side and client-side detection techniques can be used together to enable the developer to only serve content that is supported by a device, while allowing the browser to adjust style and layout in response to the current context.
 
 Note: This material was originally published as part of the Nokia Developer Web Development Library, available as [http://www.developer.nokia.com/Resources/Library/Web/#!nokia-browsers/common-elements-of-nokia-browsers/device-and-browser-detection.html Device and browser detection]
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
 |Desktop_rows=
@@ -71,23 +73,35 @@ Note: This material was originally published as part of the Nokia Developer Web 
 |Feature=Media query
 |Android_supported=Yes
 |Android_version=Now
-|Android_prefixed_supported=Unknown
+|Android_prefixed_supported=Yes
 |Android_prefixed_version=
+|Blackberry_supported=Yes
+|Blackberry_version=
+|Blackberry_prefixed_supported=Yes
+|Blackberry_prefixed_version=
+|Chrome_mobile_supported=Yes
+|Chrome_mobile_version=
+|Chrome_mobile_prefixed_supported=Yes
+|Chrome_mobile_prefixed_version=
 |Firefox_mobile_supported=Yes
 |Firefox_mobile_version=Now
-|Firefox_mobile_prefixed_supported=Unknown
+|Firefox_mobile_prefixed_supported=Yes
 |Firefox_mobile_prefixed_version=
-|IE_phone_supported=Yes
-|IE_phone_version=Now
-|IE_phone_prefixed_supported=Unknown
-|IE_phone_prefixed_version=
+|IE_mobile_supported=Yes
+|IE_mobile_version=
+|IE_mobile_prefixed_supported=Yes
+|IE_mobile_prefixed_version=
 |Opera_mobile_supported=Yes
 |Opera_mobile_version=Now
-|Opera_mobile_prefixed_supported=Unknown
+|Opera_mobile_prefixed_supported=Yes
 |Opera_mobile_prefixed_version=
+|Opera_mini_supported=Yes
+|Opera_mini_version=
+|Opera_mini_prefixed_supported=Yes
+|Opera_mini_prefixed_version=
 |Safari_mobile_supported=Yes
 |Safari_mobile_version=Now
-|Safari_mobile_prefixed_supported=Unknown
+|Safari_mobile_prefixed_supported=Yes
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
