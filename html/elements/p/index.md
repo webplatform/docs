@@ -3,7 +3,7 @@
 |High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|Paragraph element (&lt;p&gt;) represents a paragraph.}}
 {{Markup_Element
@@ -767,7 +767,7 @@ The '''p''' object has these properties.
 |Notes_rows={{Compatibility Notes Row
 |Browser=Internet Explorer
 |Version=8.0
-|Note=  Windows Internet Explorer 8. In IE8 Standards mode, the '''P''' element is automatically closed when a [[html/elements/table|'''TABLE''']] element is encountered. For example, <code>&lt;p&gt;&lt;table&gt;..&lt;/table&gt;&lt;/p&gt;</code> is now parsed as <code>&lt;p&gt;..&lt;/p&gt;&lt;table&gt;..&lt;/table&gt;</code>. For more information, see HTML Enhancements in Internet Explorer 8 and Defining Document Compatibility.
+|Note=Windows Internet Explorer 8. In IE8 Standards mode, the '''P''' element is automatically closed when a [[html/elements/table|'''TABLE''']] element is encountered. For example, <code>&lt;p&gt;&lt;table&gt;..&lt;/table&gt;&lt;/p&gt;</code> is now parsed as <code>&lt;p&gt;..&lt;/p&gt;&lt;table&gt;..&lt;/table&gt;</code>. For more information, see HTML Enhancements in Internet Explorer 8 and Defining Document Compatibility.
 }}
 }}
 {{See_Also_Section}}
