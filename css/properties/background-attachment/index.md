@@ -57,6 +57,7 @@ With CSS3 Backgrounds, the background of a box can have multiple layers. The num
 |Name=CSS Backgrounds and Borders Module Level 3
 |URL=http://www.w3.org/TR/css3-background/#the-background-attachment
 |Status=W3C Candidate Recommendation
+|Relevant_changes=add "local" as a possible value of the property
 }}
 }}
 {{Compatibility_Section
