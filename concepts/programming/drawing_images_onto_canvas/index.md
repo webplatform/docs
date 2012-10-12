@@ -18,7 +18,7 @@ A simple html layout with both the image and the canvas already loaded as DOM el
         <title>Image drawing</title>
     </head>
     <body>
-        <img id="w3c" src="http://www.w3.org/Icons/w3c_home.png" />
+        <img id="html5" src="http://www.w3.org/html/logo/img/mark-word-icon.png" />
         <canvas></canvas>
     </body>
 </html>
@@ -30,7 +30,7 @@ Here is the javascript that will draw the image on to the canvas.
 // First we need to make sure that the image has loaded and that the DOM is ready.
 window.addEventListener("DOMContentLoaded", function()
 {
-    var image  = document.getElementById("w3c");
+    var image  = document.getElementById("html5");
     var canvas = document.getElementsByTagName('canvas')[0];
 
     canvas.width  = image.width;
@@ -47,25 +47,30 @@ window.addEventListener("DOMContentLoaded", function()
 ==Loading the image programmatically==
 While that is very simple, there is a flaw - we have to add the image to the DOM first. However, we can load an image directly from a URL with a few lines of javascript.
 
- <nowiki>
-    function loadAndDrawImage(url)
+<syntaxhighlight lang="javascript">
+function drawImage(img) {
+    var canvas  = document.createElement('canvas');
+    var context = canvas.getContext('2d');
+    context.drawImage(img, 0, 0);
+}
+
+function loadAndDrawImage(url)
+{
+    // Create an image object. This is not attached to the DOM and is not part of the page.
+    var image = new Image();
+
+    // When the image has loaded, draw it to the canvas
+    image.onload = function()
     {
-        // Create an image object. This is not attached to the DOM and is not part
-        // of the page.
-        var image = new Image();
-
-        // When the image has loaded, draw it to the canvas
-        image.onload = function()
-        {
-            drawImage(this);
-        }
-
-        // Now set the source of the image that we want to load
-        image.src = url;
+        drawImage(this);
     }
 
-    loadAndDrawImage("http://www.w3.org/html/logo/img/mark-word-icon.png");
-</nowiki>
+    // Now set the source of the image that we want to load
+    image.src = url;
+}
+
+loadAndDrawImage("http://www.w3.org/html/logo/img/mark-word-icon.png");
+</syntaxhighlight>
 
 ==Reading the Image from the File System==
 
