@@ -20,13 +20,7 @@
 {{Notes_Section
 |Notes====Remarks===
 The P element represents a paragraph. It cannot contain block-level elements (including P itself).
-
-Windows Internet Explorer 8. In IE8 Standards mode, the '''P''' element is automatically closed when a [[html/elements/table|'''TABLE''']] element is encountered. For example, <code>&lt;p&gt;&lt;table&gt;..&lt;/table&gt;&lt;/p&gt;</code> is now parsed as <code>&lt;p&gt;..&lt;/p&gt;&lt;table&gt;..&lt;/table&gt;</code>. For more information, see HTML Enhancements in Internet Explorer 8 and Defining Document Compatibility.
-|Import_Notes====Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}196991 Document Object Model (DOM) Level 2 HTML Specification], Section 1.6.5
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 9.3.1
-
-===HTML information===
+|Import_Notes====HTML information===
 {{{!}} class="wikitable"
 {{!}}-
 !Closing Tag
@@ -749,16 +743,32 @@ The '''p''' object has these properties.
 {{!}}[[dom/properties/uniqueNumber|'''uniqueNumber''']]
 {{!}}Retrieves the element's unique number.
 {{!}}}
- 
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=Document Object Model (DOM) Level 2 HTML Specification
+|URL=http://www.w3.org/TR/DOM-Level-2-HTML/html#ID-84675076
+|Status=Recommendation
+}}{{Related Specification
+|Name=HTML 4.01 Specification
+|URL=http://www.w3.org/TR/html401/struct/text.html#h-9.3.1
+|Status=Recommendation
+}}{{Related Specification
+|Name=HTML5
+|URL=http://www.w3.org/TR/html5/the-p-element.html#the-p-element
+|Status=Working Draft
+|Relevant_changes=the align attribute is obsolete
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
 |Desktop_rows=
 |Mobile_rows=
-|Notes_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=8.0
+|Note=  Windows Internet Explorer 8. In IE8 Standards mode, the '''P''' element is automatically closed when a [[html/elements/table|'''TABLE''']] element is encountered. For example, <code>&lt;p&gt;&lt;table&gt;..&lt;/table&gt;&lt;/p&gt;</code> is now parsed as <code>&lt;p&gt;..&lt;/p&gt;&lt;table&gt;..&lt;/table&gt;</code>. For more information, see HTML Enhancements in Internet Explorer 8 and Defining Document Compatibility.
+}}
 }}
 {{See_Also_Section}}
 {{Topics|HTML}}
