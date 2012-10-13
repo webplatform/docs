@@ -14,9 +14,9 @@
 |Examples={{Single Example
 |Language=HTML
 |Description=The following example is correct usage of the '''br''' element
-|Code=<p>P. Sherman<br>
-42 Wallaby Way<br>
-Sydney</p>
+|Code=&lt;p&gt;P. Sherman&lt;br&gt;
+42 Wallaby Way&lt;br&gt;
+Sydney&lt;/p&gt;
 }}
 }}
 {{Notes_Section}}
