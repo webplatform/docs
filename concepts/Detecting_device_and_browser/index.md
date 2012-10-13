@@ -41,10 +41,6 @@ When incorrectly implemented, client-side detection may cause a device to reques
 
 Server-side detection of devices and capabilities is usually performed by analysing HTTP request headers received from the client (also called the user agent). In most cases, only the User-Agent string is needed, but sometimes a combination of more than one header is required.
 
-Server-side detection requires a database of User-Agent strings (and other headers, if needed) associated with a list of devices and capabilities. Mobile-device databases range from the very simple, which provide limited data, to the very detailed, which require more resources and are complicated to implement. An example of a very simple device database is the lite-detection.php script included in the WordPress Mobile Pack, which can differentiate between common mobile and desktop platforms. <!-- Online services such as {???} can generate scripts, based on simple rules that you can define on their Web site. -->
-
-More complex databases provide details about display size, support for features of HTML, CSS, JavaScript and plugins such as Flash. There are many types of device databases; some are open-source, some are free, and some are commercial. Examples include [http://en.wikipedia.org/wiki/WURFL WURFL], [http://deviceatlas.com/ DeviceAtlas], Microsoft’s [http://msdn.microsoft.com/en-us/library/wa9x6tza(v=vs.80).aspx Mobile Device Capabilities], [http://incubator.apache.org/devicemap/ Apache DeviceMap] and [http://www.detectright.com/ DetectRight].
-
 For more information about specific server-side detection techniques, see:
 * [http://mobile.smashingmagazine.com/2012/09/24/server-side-device-detection-history-benefits-how-to/ Server-Side Detection: History, Benefits and How-To ]
 * [http://www.html5rocks.com/en/mobile/cross-device/ A Non-Responsive Approach to Building Cross-Device Webapps].
