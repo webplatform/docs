@@ -32,8 +32,8 @@ Beginning with a web page rendered normally in a standard browser window, the de
 change the display to full-screen. Once in full-screen mode, the mode may be exited either programmatically or
 through user interaction.
 
-Two methods control the entry to and exit from full-screen mode, <code>requestFullScreen()</code> and
-<code>cancelFullScreen()</code>, respectively. The methods are applied to the element as shown below.
+Two methods control the entry to and exit from full-screen mode, <code>[[dom/methods/requestFullscreen|requestFullscreen()]]</code> and
+<code>[[dom/methods/exitFullscreen|exitFullscreen]]()</code>, respectively. The methods are applied to the element as shown below.
 
 ===Entering full-screen mode===
 Consider a <code>&lt;video&gt;</code> element as illustrated above. The element we wish to control has an ID
@@ -52,7 +52,7 @@ The following script might be used to put the video element into full-screen mod
 
 <pre>
 var elem = document.getElementById("myvid");
-elem.requestFullScreen();
+elem.requestFullscreen();
 </pre>
 
 The video element will now render in full-screen mode, waiting for either a programmatic or user action
@@ -65,7 +65,7 @@ event exits full-screen mode (cancels the mode for the element).
 
 <pre>
 <input type="button" value="Exit full-screen mode" 
-  onclick="document.getElementById('myvid').cancelFullScreen()"/>
+  onclick="document.exitFullscreen()"/>
 </pre>
 
 In addition, certain other user actions such as navigating to another web page, changing tabs in a browser,
@@ -126,13 +126,13 @@ set containing the ID of the video element to be toggled.
 
 <pre>
 function toggleFullScreen() {
-  if (!document.FullScreen) {
-    if (videoElement.requestFullScreen) {
-      videoElement.requestFullScreen();
+  if (document.fullscreenEnabled == null) {
+    if (videoElement.requestFullscreen) {
+      videoElement.requestFullscreen();
     }
   } else {
-    if (document.cancelFullScreen) {
-      document.cancelFullScreen();
+    if (document.exitFullscreen) {
+      document.exitFullscreen();
     } else
   }
 }
@@ -140,14 +140,14 @@ function toggleFullScreen() {
 
 This function begins by testing the document's <code>FullScreen</code> property.
 
-If the <code>FullScreen</code> property is false,
+If the <code>fullscreenElement</code> property is null,
 then the document ''is not'' in full screen mode. The nested <code>if</code> then determines whether
-the element supports the <code>requestFullScreen</code> method and, if so, 
+the element supports the <code>requestFullscreen</code> method and, if so, 
 invokes it on the element. If the element does not support the method, the script does nothing.
 
-If the <code>FullScreen</code> property is true,
+If the <code>fullscreenElement</code> property is not null,
 then the document ''is'' in full screen mode. The nested <code>if</code> then determines whether
-the document supports the <code>cancelFullScreen</code> method and, if so, 
+the document supports the <code>exitFullscreen</code> method and, if so, 
 invokes it on the document. If the document does not support the method, the script does nothing.
 
 ==Support==
@@ -155,11 +155,14 @@ This API currently has only partial support in modern browsers.
 See the compatibility tables below for the latest information.
 
 ==See also==
-WPD reference article [http://docs.webplatform.org/wiki/concepts/full-screen_api Full-screen API].
+* [[dom/methods/requestFullscreen]]
+* [[dom/methods/exitFullscreen]]
+
+
 }}
 {{Notes_Section}}
 {{Compatibility_Section
-|Not_required=No
+|Not_required=Yes
 |Desktop_rows={{Compatibility Table Desktop Row
 |Feature=Full-screen API
 |Chrome_supported=Unknown
