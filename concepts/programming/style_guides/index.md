@@ -10,5 +10,16 @@ Also known as '''Programming Styles''' and '''Coding Conventions''' style guides
 * '''lowercase''' : with all letters in lowercase, separated by an underscore (_) or a dash (-)
 * '''Hungarian Notation''' : with type prefix, see http://en.wikipedia.org/wiki/Hungarian_notation
 
+== Common Style Guides ==
+
+=== Javascript<ref name="summary" /> ===
+
+* [https://github.com/rwldrn/idiomatic.js/ idiomatic.js]
+* [http://docs.jquery.com/JQuery_Core_Style_Guidelines jQuery Core Style Guide]
+* [http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml Google JavaScript Style Guide]
+* [http://dojotoolkit.org/community/styleGuide Dojo Style Guide]
+* [http://aloha-editor.org/guides/style_guide.html Aloha Editor JavaScript Style Guide]
+* [http://javascript.crockford.com/code.html Crock's Code Conventions for JavaScript]
+
 
 <references />
