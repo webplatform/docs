@@ -46,7 +46,71 @@ window.addEventListener("DOMContentLoaded", function()
 };
 </syntaxhighlight>
 
+== The drawImage function ==
+
+The function we use for drawing an image onto a canvas is the ''drawImage()'' function. This function draws an image, canvas, or video onto the canvas. It can also draw parts of an image, and/or increase/reduce the image size.
+
+Position the image on the canvas:
+<syntaxhighlight lang="javascript">
+context.drawImage(img,x,y);
+</syntaxhighlight>
+
+Position the image on the canvas, and specify width and height of the image:
+<syntaxhighlight lang="javascript">
+context.drawImage(img,x,y,width,height);
+</syntaxhighlight>
+
+Clip the image and position the clipped part on the canvas:
+<syntaxhighlight lang="javascript">
+context.drawImage(img,sx,sy,swidth,sheight,x,y,width,height);
+</syntaxhighlight>
+
+<br/>
+
+{{{!}}
+! Parameter 	
+! Required
+! Description
+{{!}}-
+{{!}} img 	
+{{!}} *
+{{!}} Specifies the image, canvas, or video element to use 	
+{{!}}-
+{{!}} sx 	
+{{!}} &nbsp;
+{{!}} The x coordinate where to start clipping 	
+{{!}}-
+{{!}} sy
+{{!}} &nbsp;
+{{!}} The y coordinate where to start clipping
+{{!}}-
+{{!}} swidth
+{{!}} &nbsp;
+{{!}} The width of the clipped image
+{{!}}-
+{{!}} sheight
+{{!}} &nbsp;
+{{!}} The height of the clipped image
+{{!}}-
+{{!}} x
+{{!}} *
+{{!}} The x coordinate where to place the image on the canvas
+{{!}}-
+{{!}} y
+{{!}} *
+{{!}} The y coordinate where to place the image on the canvas
+{{!}}-
+{{!}} width
+{{!}} &nbsp;
+{{!}} The width of the image to use (stretch or reduce the image)
+{{!}}-
+{{!}} height
+{{!}} &nbsp;
+{{!}} The height of the image to use (stretch or reduce the image)
+{{!}}}
+
 ==Loading the image programmatically==
+
 If the image we want to draw is not in the [[DOM]] already (we might not even want to add it), we can load an image directly from a URL with a few lines of javascript.
 
 <syntaxhighlight lang="javascript">
@@ -58,7 +122,7 @@ function loadAndDrawImage(url)
     // When the image has loaded, draw it to the canvas
     image.onload = function()
     {
-        // drawImage...
+        // draw image...
     }
 
     // Now set the source of the image that we want to load
