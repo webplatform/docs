@@ -10,6 +10,8 @@
 {{Notes_Section}}
 {{See_Also_Section
 |External_links=* [http://www.xpertdeveloper.com/2012/08/media-queries-for-responsive-design/ Media Queries for Responsive Design]
+
+* [http://mediaqueri.es/ A collection of websites using Media Queries]
 }}
 {{Topics}}
 {{External_Attribution
