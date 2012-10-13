@@ -6,6 +6,7 @@
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=dom/document
+|Example_object_name=document
 }}
 {{Examples_Section
 |Not_required=No
