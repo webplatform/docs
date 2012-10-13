@@ -96,9 +96,8 @@ In these cases, the element that requested the full-screen mode will recieve a <
 which can be trapped in script and handled appropriately.
 
 ==Live example==
-To see a live example of this feature, go to
-[https://developer.mozilla.org/samples/domref/fullscreen.html this page]. 
-Once in the page, play the video and then press '''Enter''' to toggle between full-screen and normal modes.
+See a [https://developer.mozilla.org/samples/domref/fullscreen.html live example of the full-screen API]. 
+Once on the page, play the video and then press '''Enter''' to toggle between full-screen and normal modes.
 
 ==Code sample==
 In this code sample, based on the live example, a video is presented in a web page. 
@@ -124,7 +123,7 @@ When an '''Enter''' keypress is detected, the toggle function either enters full
 not active or exits full-screen mode if it is active. Prior to entry, a <code>videoElement</code> variable has been
 set containing the ID of the video element to be toggled.
 
-<pre>
+<syntaxhighlight lang="javascript">
 function toggleFullScreen() {
   if (document.fullscreenElement == null) {
     if (videoElement.requestFullscreen) {
@@ -136,7 +135,7 @@ function toggleFullScreen() {
     } else
   }
 }
-</pre>
+</syntaxhighlight>
 
 This function begins by testing the document's <code>fullscreenElement</code> property.
 
@@ -152,11 +151,13 @@ invokes it on the document. If the document does not support the method, the scr
 
 ==Support==
 This API currently has only partial support in modern browsers. 
-See the compatibility tables below for the latest information.
+See the compatibility tables in the relevant methods below for the latest information.
 
 ==See also==
-* [[dom/methods/requestFullscreen]]
-* [[dom/methods/exitFullscreen]]
+* [[dom/methods/requestFullscreen|requestFullscreen]]
+* [[dom/methods/exitFullscreen|exitFullscreen]]
+* [[dom/properties/fullscreenElement|fullscreenElement]]
+* [[dom/properties/fullscreenEnabled|fullscreenEnabled]]
 }}
 {{Notes_Section}}
 {{Compatibility_Section
