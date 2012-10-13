@@ -41,7 +41,7 @@ so that it can be addressed programmatically. Also, in this case, the element co
 attribute to allow user control of playback, volume, etc., and two different 
 <code>&lt;source&gt;</code> child elements as a fallback against a given browser not recognizing one or the other.
 
-<syntaxhighlight lang="html">
+<syntaxhighlight lang="html5">
 <video controls id="myvid">
   <source src="myvideo.webm"></source>
   <source src="myvideo.mp4"></source>
@@ -63,7 +63,7 @@ While full-screen mode can be exited via standard user actions such as pressing 
 you can also exit the mode programmatically. For example, the following code creates a button whose onclick
 event exits full-screen mode.
 
-<syntaxhighlight lang="html">
+<syntaxhighlight lang="html5">
 <input type="button" value="Exit full-screen mode" 
   onclick="document.exitFullscreen()"/>
 </syntaxhighlight>
