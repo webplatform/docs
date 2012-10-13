@@ -1,48 +1,71 @@
+{{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|High-level issues=Missing Relevant Sections
+|Content=Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
+{{Summary_Section}}
 {{CSS_Selector
-|Content=
+|Content=User agents commonly display unvisited links differently from previously visited ones. Selectors provides pseudo-classes to distinguish them:
+
+* The :link pseudo-class applies to links that have not yet been visited.
+* The [[css/selectors/pseudo-classes/:visited|:visited]] pseudo-class applies once the link has been visited by the user. 
+
+After some amount of time, user agents may choose to return a visited link to the (unvisited) ‘:link’ state.
+
+The two states are mutually exclusive. 
 }}
-{{Topics|CSS}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Description=The following style rule uses the ''':link''' pseudo-class to set the default [[css/properties/color|'''color''']] attribute of a link in a document.
-|LiveURL=
-|Code=
-&lt;style&gt;
+|Code=&lt;style&gt;
     A:link { color:#FF0000 }
 &lt;/style&gt;
-}}}}
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
-The ''':link''' pseudo-class is often used with [[css/selectors/pseudo-classes/:active|''':active''']], [[css/selectors/pseudo-classes/:hover|''':hover''']] and [[css/selectors/pseudo-classes/:visited|''':visited''']], the pseudo-classes that affect the other states of a link.
+|Usage=The ''':link''' pseudo-class is often used with [[css/selectors/pseudo-classes/:active|''':active''']], [[css/selectors/pseudo-classes/:hover|''':hover''']] and [[css/selectors/pseudo-classes/:visited|''':visited''']], the pseudo-classes that affect the other states of a link.
 The default value of the ''':link''' pseudo-class is browser-specific. The time period used to define a recent visit also varies by browser.
-Microsoft Internet Explorer 3.0 applies the value of the ''':link''' pseudo-class to the [[css/selectors/pseudo-classes/:visited|''':visited''']] pseudo-class.
-|Import_Notes=
-===Syntax===
 
-selector
-:link
-===Parameters===
-;''selector'':A CSS simple selector.
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 5.11.2
+|Notes=<blockquote>'''Note:''' It is possible for style sheet authors to abuse the :link and :visited pseudo-classes to determine which sites a user has visited without the user's consent. </blockquote>
 
-
+UAs may therefore treat all links as unvisited links, or implement other measures to preserve the user's privacy while rendering visited and unvisited links differently.
+}}
+{{Related_Specifications_Section
+|Specifications={{Related Specification
+|Name=CSS 2.1
+|URL=http://www.w3.org/TR/CSS2/selector.html#link-pseudo-classes
+|Status=W3C Recommendation
+}}{{Related Specification
+|Name=Selectors Level 3
+|URL=http://www.w3.org/TR/css3-selectors/#link
+|Status=W3C Recommendation
+}}{{Related Specification
+|Name=Selectors Level 4
+|URL=http://dev.w3.org/csswg/selectors4/#link
+|Status=W3C Working Draft
+}}
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=3.0
+|Note=Microsoft Internet Explorer 3.0 applies the value of the ''':link''' pseudo-class to the [[css/selectors/pseudo-classes/:visited|''':visited''']] pseudo-class.
+}}
 }}
 {{See_Also_Section
 |Topic_clusters=Selectors, Pseudo-Classes
 }}
+{{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
