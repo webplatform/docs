@@ -41,19 +41,19 @@ so that it can be addressed programmatically. Also, in this case, the element co
 attribute to allow user control of playback, volume, etc., and two different 
 <code>&lt;source&gt;</code> child elements as a fallback against a given browser not recognizing one or the other.
 
-<pre>
+<syntaxhighlight lang="html">
 <video controls id="myvid">
   <source src="myvideo.webm"></source>
   <source src="myvideo.mp4"></source>
 </video>
-</pre>
+</syntaxhighlight>
 
 The following script might be used to put the video element into full-screen mode.
 
-<pre>
+<syntaxhighlight lang="javascript">
 var elem = document.getElementById("myvid");
 elem.requestFullscreen();
-</pre>
+</syntaxhighlight>
 
 The video element will now render in full-screen mode, waiting for either a programmatic or user action
 to manipulate it or to exit full-screen mode.
@@ -63,10 +63,10 @@ While full-screen mode can be exited via standard user actions such as pressing 
 you can also exit the mode programmatically. For example, the following code creates a button whose onclick
 event exits full-screen mode.
 
-<pre>
+<syntaxhighlight lang="html">
 <input type="button" value="Exit full-screen mode" 
   onclick="document.exitFullscreen()"/>
-</pre>
+</syntaxhighlight>
 
 In addition, certain other user actions such as navigating to another web page, changing tabs in a browser,
 or switching to another application (e.g., with '''alt-Tab''') will also force an exit from full-screen mode.
@@ -77,14 +77,15 @@ When full-screen mode is successfully entered or exited, the document containing
 mode (i.e., whether it is on or off), but the document's <code>fullscreenElement</code> property can be tested
 to determine the mode. A non-null value indicates that full-screen is on, as shown below.
 
-<pre>
+
+<syntaxhighlight lang="javascript">
 if (document.fullscreenElement != null) {
   // full-screen is on
 }
 else {
   // full-screen is off
 }
-</pre>
+</syntaxhighlight>
 
 ===Failures===
 Attempts to enter full-screen mode may not succeed for various reasons. For example, <code>&lt;iframe&gt;</code>s
@@ -106,14 +107,14 @@ As above, the '''Enter''' key allows the user to toggle between full-screen and 
 ===Watching for the Enter key===
 When the page loads, an event listener is added to detect the '''Enter''' key. 
 
-<pre>
+<syntaxhighlight lang="javascript">
 document.addEventListener("keydown", function(e) {
   if (e.keyCode == 13) {
     toggleFullScreen();
   }
 }, false);
 
-</pre>
+</syntaxhighlight>
 
 If an '''Enter''' keypress is 
 detected, the listener calls a toggle function; if not, it returns <code>false</code> and does nothing.
