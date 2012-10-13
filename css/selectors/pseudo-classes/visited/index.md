@@ -15,25 +15,21 @@
 After some amount of time, user agents may choose to return a visited link to the (unvisited) ‘<code>:link</code>’ state.
 
 The two states are mutually exclusive.
-
-
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
 |Description=The following style rule uses ''':visited''' to set the [[css/properties/color|'''color''']] attribute of visited links in a document.
-|Code=a:visited { color:blue } 
-
+|Code=a:visited { color:blue }
 }}
 }}
 {{Notes_Section
 |Usage=''':visited'''  is often used with [[css/selectors/pseudo-classes/:active|''':active''']], [[css/selectors/pseudo-classes/:hover|''':hover''']], and [[css/selectors/pseudo-classes/:link|''':link''']], which are the pseudo-classes that reflect the other states of a link.
 The default value of the ''':visited''' pseudo-class varies by browser, as does the amount of time used to define a recent visit.
+|Notes=The pseudo-classes [[css/selectors/pseudo-classes/:link|:link]] and :visited can be abused to determine which sites a user has visited.
 
-|Notes=The pseudo-classes :link and :visited can be abused to determine which sites a user has visited.
-
-To preserver their users privacy, browsers often implement  measures to preserve the user's privacy while rendering visited and unvisited links differently.
+To preserver their users’ privacy, browsers often implement  counter-measures against these abuses, while still rendering visited and unvisited links differently.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
