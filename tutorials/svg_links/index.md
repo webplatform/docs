@@ -140,7 +140,7 @@ SVG Tiny 1.2 and above allow for embedding of audio and video, but this is not w
  
 In HTML 4.01 and XHTML 1.0/1.1, the <code>a</code> element is inline and thus can not legally contain block level child elements. If you want to for example make an image and adjacent text into the same link, you have to specify additional <code>a</code> elements with the same <code>href</code> value. There is no such restriction with SVG - it is perfectly valid to do the following:
  
-<syntaxhighlight lang="xml" highlight="10-12"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+<syntaxhighlight lang="xml" highlight="10-14"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
   <defs>
     <linearGradient id="badgeGradient">
       <stop offset="0"/>
