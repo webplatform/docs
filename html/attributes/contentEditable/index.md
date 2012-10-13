@@ -1,24 +1,23 @@
+{{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
+|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{Markup_Attribute
 |Property_applies_to=dom/HTMLElement
 }}
-{{Topics|HTML}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Description=In the following example, setting the 
 '''DIV''' elements to have 
 <code>100%</code> [[css/properties/height|'''height''']] 
 and [[css/properties/width|'''width''']] makes all content within 
 the borders of the cells editable.
-|LiveURL=
-|Code=
-&lt;P&gt;Table 1 Editable&lt;/P&gt;&lt;BR/&gt;
+|Code=&lt;P&gt;Table 1 Editable&lt;/P&gt;&lt;BR/&gt;
 &lt;TABLE BORDER{{=}}1 WIDTH{{=}}80%&gt;
 &lt;THEAD&gt;
 &lt;TR&gt;
@@ -37,13 +36,9 @@ the borders of the cells editable.
 &lt;/TR&gt;
 &lt;/TBODY&gt;
 &lt;/TABLE&gt;
-
-}}
-{{Single_Example
+}}{{Single Example
 |Description=The following example shows how to use the '''contentEditable''' property to control whether the user can edit the content of the object.
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/contentEditableEX2.htm
-|Code=
-&lt;HEAD&gt;
+|Code=&lt;HEAD&gt;
 &lt;SCRIPT&gt;
 function chgSpan() {
     currentState {{=}} oSpan.isContentEditable;
@@ -63,11 +58,11 @@ function chgSpan() {
 &lt;P&gt;&lt;SPAN ID{{=}}"oSpan"&gt;You can edit this text.&lt;/SPAN&gt;&lt;/P&gt;
 SPAN can be edited: &lt;SPAN ID{{=}}"oCurrentValue"&gt;&lt;/SPAN&gt;
 &lt;/BODY&gt;
-
-}}}}
+|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/contentEditableEX2.htm
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 Child elements do not inherit this attribute unless they have layout. Use the [[css/cssom/properties/hasLayout|'''hasLayout''']] property to determine if an object has layout.
 If this attribute is applied to a '''BODY''' element, it has the same effect as setting the [[dom/properties/designMode|'''designMode''']] property of the [[dom/document|'''document''']] object.
 Elements with the [[dom/properties/disabled (redundant)|'''disabled''']] attribute set to <code>false</code> do not respond to the '''contentEditable''' attribute.
@@ -86,12 +81,20 @@ element can be placed inside the individual table cells
 elements).   See the example below.
 '''Security Warning:  '''Users can change the contents of a document when the '''contentEditable''' property is set to TRUE. Using this property incorrectly can compromise the security of your application. Incorrect use of the '''contentEditable''' property might include not validating user input. If you do not validate user input, a malicious user can inject control characters or script that can harm your data. You should take routine precautions against displaying unvalidated user input. For more information, see Security Considerations: Dynamic HTML.
 Windows Internet Explorer 8 and later. When a webpage is displayed in IE8 Standards mode, an object cannot receive focus when ''p'' is set to <code>false</code>. When pages are displayed in earlier document compatibility modes, objects can receive focus when ''p'' is <code>false</code>.
-|Import_Notes=
-===Syntax===
+|Import_Notes====Syntax===
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|External_links=* [http://demo.xpertdeveloper.com/contenteditable-attribute/ Contenteditable Demo]
+|Manual_sections====Related pages (MSDN)===
 *<code>[[dom/defaultSelected|defaults]]</code>
 *<code>[[html/elements/a|a]]</code>
 *<code>abbr</code>
@@ -157,12 +160,12 @@ Windows Internet Explorer 8 and later. When a webpage is displayed in IE8 Stand
 *<code>ul</code>
 *<code>var</code>
 *<code>xmp</code>
-|Topic_clusters=html
 }}
+{{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
