@@ -18,6 +18,7 @@ A simple html layout with both the image and the canvas already loaded as DOM el
 <html>
     <head>
         <title>Image drawing</title>
+        <script type="text/javascript" src="draw.js"></script>
     </head>
     <body>
         <img id="html5" src="http://www.w3.org/html/logo/img/mark-word-icon.png" />
@@ -28,20 +29,19 @@ A simple html layout with both the image and the canvas already loaded as DOM el
 Here is the javascript that will draw the image on to the canvas.
 
 <syntaxhighlight lang="javascript">
-// First we need to make sure that the image has loaded and that the DOM is ready.
+/** draw.js **/
+
 window.addEventListener("DOMContentLoaded", function()
 {
     var image  = document.getElementById("html5");
-    var canvas = document.createElement('canvas');
+    var canvas = document.createElement("canvas");
     document.body.appendChild(canvas);
 
     canvas.width  = image.width;
     canvas.height = image.height;
 
-    // Get the 2D drawing context
     var context = canvas.getContext("2d");
 
-    // Now draw the logo onto the top-left corner of the canvas
     context.drawImage(image, 0, 0);
 };
 </syntaxhighlight>
