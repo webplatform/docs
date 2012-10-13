@@ -15,8 +15,8 @@ Now roll your sleeves up and let's get ready to learn. [[http://docs.webplatform
 
 ==Web fundamentals==
 
-* [[concepts/internet_and_web/the_history_of_the_web|The history of the Web]]
-* [[concepts/how does the internet work|How does the Internet work]]
+* [[concepts/internet and web/the history of the web|The history of the Web]]
+* [[concepts/internet and web/how does the internet work|How does the Internet work]]
 * [[concepts/the web standards model|The web standards model — HTML, CSS and JavaScript]]
 * [[tutorials/getting your content online|Getting your content online]]
 * [[concepts/accessibility|Accessibility]]
