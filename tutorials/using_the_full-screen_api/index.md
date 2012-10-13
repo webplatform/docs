@@ -126,14 +126,14 @@ set containing the ID of the video element to be toggled.
 
 <syntaxhighlight lang="javascript">
 function toggleFullScreen() {
-  if (document.fullscreenElement == null) {
+  if (document.fullscreenElement == null &&) {
     if (videoElement.requestFullscreen) {
       videoElement.requestFullscreen();
     }
   } else {
     if (document.exitFullscreen) {
       document.exitFullscreen();
-    } else
+    }
   }
 }
 </syntaxhighlight>
