@@ -2,25 +2,12 @@ Dynamic pseudo-classes classify elements on characteristics other than their nam
 
 Dynamic pseudo-classes do not appear in the document source or document tree.
 
-==The link pseudo-classes: <code>:link</code> and <code>:visited</code>==
-User agents commonly display unvisited links differently from previously visited ones. Selectors provides the pseudo-classes <code>:link</code> and <code>:visited</code> to distinguish them:
+* [[css/selectors/pseudo-classes/:link|:link]]
+* [[css/selectors/pseudo-classes/:visited|:visited]]
+* [[css/selectors/pseudo-classes/:hover|:hover]]
+* [[css/selectors/pseudo-classes/:active|:active]]
+* [[css/selectors/pseudo-classes/:focus|:focus]]
 
-* The <code>:link</code> pseudo-class applies to links that have not yet been visited. 
-* The <code>:visited</code> pseudo-class applies once the link has been visited by the user. 
-
-After some amount of time, user agents may choose to return a visited link to the (unvisited) ‘<code>:link</code>’ state.
-
-The two states are mutually exclusive.
-
-===Example:===
-
-The following selector represents links carrying class external and already visited:
-
-<syntaxhighlight lang="css">a.external:visited</syntaxhighlight>
-
-<blockquote>'''Note:''' It is possible for style sheet authors to abuse the :link and :visited pseudo-classes to determine which sites a user has visited without the user's consent. </blockquote>
-
-UAs may therefore treat all links as unvisited links, or implement other measures to preserve the user's privacy while rendering visited and unvisited links differently.
 
 == The user action pseudo-classes :hover, :active, and :focus ==
 Interactive user agents sometimes change the rendering in response to user actions. Selectors provides three pseudo-classes for the selection of an element the user is acting on.
