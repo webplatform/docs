@@ -9,7 +9,7 @@ Just like (X)HTML, SVG supports linking to content within the document and to ex
  
 If you are not familiar with the <code>a</code> element or the <code>href</code> attribute in HTML I recommend reading Christian Heilmann’s [[HTML links – let’s build a web!]] article before we start. It is also recommended that you read my article to familiarise yourself with the basics of SVG, if you are not already familiar.
  
-Note: XML doesn’t support linking by default, so the situation is slightly more complex than [[HTML links]]. But don't despair - Xlink is still not that complicated to get the hang of; after reading this article it should present you with no trouble.
+Note: XML doesn’t support linking by default, so the situation is slightly more complex than [[guides/html_links|HTML links]]. But don't despair - Xlink is still not that complicated to get the hang of; after reading this article it should present you with no trouble.
  
 == Getting started with SVG links ==
  
