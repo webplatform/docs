@@ -79,7 +79,7 @@
 }}{{Compatibility Notes Row
 |Browser=Chrome, Safari, Opera
 |Version=All
-|Note=Implements an early version of the spec and incorrectly display border-image when[[css/properties/border-style|'''border-style''']] is 'none'.
+|Note=Implement an early version of the spec and incorrectly display border-image when [[css/properties/border-style|'''border-style''']] is 'none'.
 }}
 }}
 {{See_Also_Section
