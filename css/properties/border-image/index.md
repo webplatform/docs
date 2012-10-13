@@ -74,8 +74,12 @@
 |Mobile_rows=
 |Notes_rows={{Compatibility Notes Row
 |Browser=Firefox
-|Version=15
-|Note=Firefox 15 requires [[css/properties/border-style|'''border-style''']] to be set (for example 'solid') in order to display.
+|Version=15+
+|Note=As required by the final specification, the unprefixed version requires [[css/properties/border-style|'''border-style''']] to be different than 'none' or border-image will be ignored.
+}}{{Compatibility Notes Row
+|Browser=Chrome, Safari, Opera
+|Version=All
+|Note=Implements an early version of the spec and incorrectly display border-image when[[css/properties/border-style|'''border-style''']] is 'none'.
 }}
 }}
 {{See_Also_Section
