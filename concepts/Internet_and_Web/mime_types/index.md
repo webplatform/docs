@@ -1,5 +1,6 @@
 {{Page_Title|Introduction to MIME types}}
-{{Flags}}
+{{Flags
+}}
 {{API_Name}}
 {{Summary_Section}}
 {{Concept_Page
