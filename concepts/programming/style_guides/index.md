@@ -12,7 +12,7 @@ Also known as '''Programming Styles''' and '''Coding Conventions''' style guides
 
 == Common Style Guides ==
 
-=== Javascript<ref name="summary" /> ===
+=== JavaScript<ref name="summary" /> ===
 
 * [https://github.com/rwldrn/idiomatic.js/ idiomatic.js]
 * [http://docs.jquery.com/JQuery_Core_Style_Guidelines jQuery Core Style Guide]
@@ -20,7 +20,6 @@ Also known as '''Programming Styles''' and '''Coding Conventions''' style guides
 * [http://dojotoolkit.org/community/styleGuide Dojo Style Guide]
 * [http://aloha-editor.org/guides/style_guide.html Aloha Editor JavaScript Style Guide]
 * [http://javascript.crockford.com/code.html Crock's Code Conventions for JavaScript]
-
 
 === Html/Css ===
 
