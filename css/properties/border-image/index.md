@@ -7,7 +7,7 @@
 {{API_Name}}
 {{Summary_Section|Shorthand property that defines an image to be displayed and its positioning, instead of a solid color, for 'border' property. Image can be transformed in different ways.}}
 {{CSS Property
-|Initial value=none 
+|Initial value=none
 |Applies to=All elements
 |Inherited=No
 |Media=visual
@@ -57,6 +57,7 @@
 |Firefox_supported=Yes
 |Firefox_version=15
 |Firefox_prefixed_supported=Yes
+|Firefox_prefixed_version=3.5
 |Internet_explorer_supported=No
 |Internet_explorer_version=
 |Internet_explorer_prefixed_supported=Unknown
