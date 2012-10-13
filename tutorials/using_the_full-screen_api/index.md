@@ -12,7 +12,7 @@
 |Content===Introduction==
 In some browser applications, such as games, and with some elements, such as videos, it is advantageous to present
 the content using not just the interior browser window space but the full available screen space, 
-without borders or other chrome elements. This might be desired to imcrease clarity, reduce distraction, 
+without borders or other chrome elements. This might be desired to increase clarity, reduce distraction, 
 or improve comprehension of the content.
 
 The full-screen API provides a programmatic method for presenting web content using the user's entire monitor and
@@ -33,7 +33,7 @@ change the display to full-screen. Once in full-screen mode, the mode may be exi
 through user interaction.
 
 Two methods control the entry to and exit from full-screen mode, <code>[[dom/methods/requestFullscreen|requestFullscreen()]]</code> and
-<code>[[dom/methods/exitFullscreen|exitFullscreen]]()</code>, respectively. The methods are applied to the element as shown below.
+<code>[[dom/methods/exitFullscreen|exitFullscreen]]()</code>, respectively. The first method is applied to the element, the second to the document object as shown below.
 
 ===Entering full-screen mode===
 Consider a <code>&lt;video&gt;</code> element as illustrated above. The element we wish to control has an ID
@@ -61,7 +61,7 @@ to manipulate it or to exit full-screen mode.
 ===Exiting full-screen mode===
 While full-screen mode can be exited via standard user actions such as pressing '''Esc''' or '''F11''',
 you can also exit the mode programmatically. For example, the following code creates a button whose onclick
-event exits full-screen mode (cancels the mode for the element).
+event exits full-screen mode.
 
 <pre>
 <input type="button" value="Exit full-screen mode" 
@@ -74,11 +74,11 @@ or switching to another application (e.g., with '''alt-Tab''') will also force a
 ===Notification events===
 When full-screen mode is successfully entered or exited, the document containing the element receives a
 <code>fullscreenchange</code> event. The event itself provides no information about the state of the
-mode (i.e., whether it is on or off), but the document's <code>FullScreen</code> property can be tested
+mode (i.e., whether it is on or off), but the document's <code>fullscreenElement</code> property can be tested
 to determine the mode. A non-null value indicates that full-screen is on, as shown below.
 
 <pre>
-if (document.FullScreen != "") {
+if (document.fullscreenElement != null) {
   // full-screen is on
 }
 else {
@@ -126,7 +126,7 @@ set containing the ID of the video element to be toggled.
 
 <pre>
 function toggleFullScreen() {
-  if (document.fullscreenEnabled == null) {
+  if (document.fullscreenElement == null) {
     if (videoElement.requestFullscreen) {
       videoElement.requestFullscreen();
     }
@@ -138,7 +138,7 @@ function toggleFullScreen() {
 }
 </pre>
 
-This function begins by testing the document's <code>FullScreen</code> property.
+This function begins by testing the document's <code>fullscreenElement</code> property.
 
 If the <code>fullscreenElement</code> property is null,
 then the document ''is not'' in full screen mode. The nested <code>if</code> then determines whether
@@ -157,8 +157,6 @@ See the compatibility tables below for the latest information.
 ==See also==
 * [[dom/methods/requestFullscreen]]
 * [[dom/methods/exitFullscreen]]
-
-
 }}
 {{Notes_Section}}
 {{Compatibility_Section
