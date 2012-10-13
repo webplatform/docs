@@ -15,7 +15,7 @@ Note: XML doesn’t support linking by default, so the situation is slightly mor
  
 In HTML I can simply set up a link from one document to another using an <code>a</code> element and an <code>href</code> attribute like so:
  
-<pre>&lt;a href="http://example.com/link/"&gt;An example link&lt;/a&gt;</pre>
+<syntaxhighlight lang="html5"><a href="http://example.com/link/">An example link</a></syntaxhighlight>
  
 The <code>a</code> element is contained in the linking document (the local resource), and the <code>href</code> attribute points to the document or resource I want to link to (the remote resource). All very straight forward.
  
@@ -25,9 +25,9 @@ In XML and therefore SVG, there is no magic <code>href</code> attribute that can
  
 You've already met XML namespaces when defining a SVG template. Usually an SVG document uses the default namespace like so:
  
-<pre>&lt;svg '''xmlns="http://www.w3.org/2000/svg"''' version="1.1"&gt;
+<syntaxhighlight lang="xml" highlight="1"><svg xmlns="http://www.w3.org/2000/svg" version="1.1">
   …content goes here…
-&lt;/svg&gt;</pre>
+</svg></syntaxhighlight>
  
 Since the default namespace is taken up by SVG, if you want to to define the XLink namespace on the SVG element you have to give it a prefix, which by general convention is <code>xlink</code> (although it can be anything you please). Lets add the XLink namespace to our <code>svg</code> element:
  
