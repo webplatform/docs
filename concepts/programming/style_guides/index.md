@@ -22,4 +22,8 @@ Also known as '''Programming Styles''' and '''Coding Conventions''' style guides
 * [http://javascript.crockford.com/code.html Crock's Code Conventions for JavaScript]
 
 
+=== Html/Css ===
+
+* [http://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml Google HTML/CSS Style Guide]
+
 <references />
