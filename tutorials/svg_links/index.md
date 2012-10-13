@@ -31,9 +31,9 @@ You've already met XML namespaces when defining a SVG template. Usually an SVG d
  
 Since the default namespace is taken up by SVG, if you want to to define the XLink namespace on the SVG element you have to give it a prefix, which by general convention is <code>xlink</code> (although it can be anything you please). Lets add the XLink namespace to our <code>svg</code> element:
  
-<pre>&lt;svg xmlns="http://www.w3.org/2000/svg" '''xmlns:xlink="http://www.w3.org/1999/xlink"''' version="1.1"&gt;
+<syntaxhighlight lang="xml" highlight="1"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
   …content goes here…
-&lt;/svg&gt;</pre>
+</svg></syntaxhighlight>
  
 As you can see, the <code>xlink</code> prefix is defined using the <code>xmlns</code> attribute, a colon (:) and the desired prefix. The value is then set to the standard XLink namespace.
  
@@ -43,19 +43,19 @@ Now the XLink namespace is set up, any time you want to refer to a XLink element
  
 Next we need to use the SVG <code>a</code> element in our document to define a link, and the <code>text</code> element to define the link text:
  
-<pre>&lt;svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"&gt;
-  '''&lt;a&gt;
-    &lt;text x="10" y="25"&gt;An example link.&lt;/text&gt;
-  &lt;/a&gt;'''
-&lt;/svg&gt;</pre>
+<syntaxhighlight lang="xml" highlight="2-4"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+  <a>
+    <text x="10" y="25">An example link.</text>
+  </a>
+</svg></syntaxhighlight>
  
 Now we have to add the XLink <code>href</code> attribute to the <code>a</code> element to specify the destination of the link, like so:
 
-<pre>&lt;svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"&gt;
-  &lt;a &lt;strong&gt;xlink:href="http://example.com/link/"&lt;/strong&gt;&gt;
-    &lt;text x="10" y="25" &gt;An example link.&lt;/text&gt;
-  &lt;/a&gt;
-&lt;/svg&gt;</pre>
+<syntaxhighlight lang="xml" highlight="2"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+  <a xlink:href="http://example.com/link/">
+    <text x="10" y="25" >An example link.</text>
+  </a>
+</svg></syntaxhighlight>
  
 The <code>xlink</code> namespace is added before the attribute name, using a colon to separate the prefix from the attribute.
  
@@ -69,56 +69,56 @@ One thing worth remembering is that to set the colour of the text in SVG you mus
  
 You may recall that HTML links can have a <code>title</code> attribute to describe additional details about the link. This is also available with XLink in SVG:
  
-<pre>&lt;a xlink:href= "http://example.com/link/" '''xlink:title="The link leads to an example page that is of little interest"'''&gt;
-  &lt;text x="10" y="25" &gt;An example link.&lt;/text&gt;
-&lt;/a&gt;</pre>
+<syntaxhighlight lang="xml" highlight="1"><a xlink:href="http://example.com/link/" xlink:title="The link leads to an example page that is of little interest">
+  <text x="10" y="25" >An example link.</text>
+</a></syntaxhighlight>
  
 If you try out my example, you will see that a tooltip will show up when you hover over the link.
  
 Following a link defaults to opening the linked resource in the same window or tab. You can change this behaviour by using the XLink <code>show</code> attribute. Using a value of <code>replace</code> specifies the default behaviour, while changing it to <code>new</code> will open the link in a new window or tab.
  
-<pre>&lt;a xlink:href= "http://example.com/link/" xlink:title="The link opens an example page in a new tab/window" '''xlink:show="new"'''&gt;
-  &lt;text x="10" y="25" &gt;An example link.&lt;/text&gt;
-&lt;/a&gt;</pre>
+<syntaxhighlight lang="xml" highlight="1"><a xlink:href="http://example.com/link/" xlink:title="The link opens an example page in a new tab/window" xlink:show="new">
+  <text x="10" y="25" >An example link.</text>
+</a></syntaxhighlight>
  
 === Linking to a specific point in a document ===
  
 Also like HTML, it is possible to link to a specific point in a document (both in local and remote documents) by specifying an <code>id</code> on the element you want to link to and adding a fragment identifier to the link. This can be achieved in almost exactly the same way as with HTML:
  
-<pre>&lt;svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"&gt;
-  &lt;a '''xlink:href="http://www.someurl.com#someid"'''&gt;
-    &lt;text x="10" y="25" &gt;An example link.&lt;/text&gt;
-  &lt;/a&gt;
-&lt;/svg&gt;</pre>
+<syntaxhighlight lang="xml" highlight="2"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+  <a xlink:href="http://www.someurl.com#someid">
+    <text x="10" y="25" >An example link.</text>
+  </a>
+</svg></syntaxhighlight>
  
 You can also link to a specific part of a SVG document, using the fragment identifier combined with the <code>view</code> element. This can be useful for defining an area of the SVG file that you'd like to zoom in or out of when the user clicks on a link or a button.
  
 The fragment identifier works in exactly the same way as the example above, while the <code>view</code> element is used to specify the size of the viewport after the URL has been followed. I will show this with another example:
  
-<pre>&lt;svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  version="1.1" width="100%" height="100%"&gt;
-  &lt;a xlink:href="#target"&gt;
-    &lt;text x="10" y="25"&gt;Zoom in on shape below&lt;/text&gt;
-  &lt;/a&gt;
+<syntaxhighlight lang="xml" highlight="6-7"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="100%" height="100%">
+  <a xlink:href="#target">
+    <text x="10" y="25">Zoom in on shape below</text>
+  </a>
 
-  '''&lt;view id="target" viewBox="600 600 50 50"/&gt;
-  &lt;rect x="600" y="600" width="50" height="50"/&gt;'''
-&lt;/svg&gt;</pre>
+  <view id="target" viewBox="600 600 50 50"/>
+  <rect x="600" y="600" width="50" height="50"/>
+</svg></syntaxhighlight>
  
 The <code>view</code> element requires at least two attributes, the <code>id</code> so that the fragment identifier can point to it, and the <code>viewBox</code>. The <code>viewBox</code> attribute sets the size of the viewport with four values, Minimum x co-ordinate, Minimum y co-ordinate, width and height. When the link is followed, the browser will set the viewport to the co-ordinates and width and height specified on the corresponding view element. Behind the scenes, the browser automatically applies transitions and scaling for you to make the content fit correctly in the <code>viewBox</code>.
  
 With the example above, you may notice that the rectangle doesn’t fill your browser window. This is because by default it preserves the aspect ratio of the elements. There is a way to define this behaviour using the <code>preserveAspectRatio</code> attribute. I will cover this in a later article, but if you just want ignore the aspect ratio, you can set the value to <code>none</code> like so:
  
-<pre>&lt;view id="target" viewBox="600 600 50 50" '''preserveAspectRatio="none"'''/&gt;</pre>
+<syntaxhighlight lang="xml"><view id="target" viewBox="600 600 50 50" preserveAspectRatio="none"/></syntaxhighlight>
  
 === Embedding external resources in an SVG document ===
  
 As well as linking to separate documents, it is possible to embed resources such as images into an SVG document in a very similar manner, again using the XLink href attribute. Images can either be raster images such as PNGs and JPEGS, or another SVG file:
  
-<pre>&lt;svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"&gt;
-  '''&lt;image xlink:href="circle.png" x="10" y="25" height="100" width="100"&gt;
-    &lt;desc&gt;A perfect circle&lt;/desc&gt;
-  &lt;/image&gt;'''
-&lt;/svg&gt;</pre>
+<syntaxhighlight lang="xml" highlight="2-4"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+  <image xlink:href="circle.png" x="10" y="25" height="100" width="100">
+    <desc>A perfect circle</desc>
+  </image>
+</svg></syntaxhighlight>
  
 The <code>desc</code> element provides a means to provide alternative text, in the same way that the HTML <code>alt</code> attribute does. This will be useful once screen readers begin to support SVG.
  
@@ -126,9 +126,9 @@ Try out my example.
  
 Embedding an SVG image works in exactly the same way:
 
-<pre>&lt;image '''xlink:href="circle.svg"''' x="10" y="25" height="100" width="100"&gt;
-  &lt;desc&gt;A perfect circle&lt;/desc&gt;
-&lt;/image&gt;</pre>
+<syntaxhighlight lang="xml" highlight="1"><image xlink:href="circle.svg" x="10" y="25" height="100" width="100">
+  <desc>A perfect circle</desc>
+</image></syntaxhighlight>
  
 Note: The Xlink <code>show</code> attribute is used with a value of <code>embed</code> to include resources in the document, but as this is the default (and only) value allowed for the <code>show</code> attribute on the <code>image</code> element, it can be omitted.
  
@@ -140,23 +140,23 @@ SVG Tiny 1.2 and above allow for embedding of audio and video, but this is not w
  
 In HTML 4.01 and XHTML 1.0/1.1, the <code>a</code> element is inline and thus can not legally contain block level child elements. If you want to for example make an image and adjacent text into the same link, you have to specify additional <code>a</code> elements with the same <code>href</code> value. There is no such restriction with SVG - it is perfectly valid to do the following:
  
-<pre>&lt;svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"&gt;
-  &lt;defs&gt;
-    &lt;linearGradient id="badgeGradient"&gt;
-      &lt;stop offset="0"/&gt;
-      &lt;stop offset="1"/&gt;
-    &lt;/linearGradient&gt;
-  &lt;/defs&gt;
+<syntaxhighlight lang="xml" highlight="10-12"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+  <defs>
+    <linearGradient id="badgeGradient">
+      <stop offset="0"/>
+      <stop offset="1"/>
+    </linearGradient>
+  </defs>
 
-  &lt;g id="heading"&gt;
-    '''&lt;a xlink:href= "http://www.opera.com/"&gt;
-      &lt;path id="badge" d="M 29.6,22.8 C 29.2,23.4 24.3,22.4 23.8,22.9 C 23.4,23.3 24.3,28.3 23.8,28.6 C 23.2,28.9 19.4,25.6 18.8,25.8 C 18.2,26.0 16.5,30.7 15.8,30.7 C 15.2,30.7 13.5,26.0 12.9,25.8 C 12.3,25.6 8.5,28.9 7.9,28.6 C 7.4,28.3 8.3,23.3 7.9,22.9 C 7.4,22.4 2.4,23.4 2.1,22.8 C 1.8,22.3 5.1,18.4 4.9,17.8 C 4.8,17.2 0.0,15.5 0.0,14.9 C 0.0,14.3 4.8,12.6 4.9,12.0 C 5.1,11.4 1.8,7.5 2.1,7.0 C 2.4,6.4 7.4,7.3 7.9,6.9 C 8.3,6.5 7.4,1.5 7.9,1.2 C 8.5,0.9 12.3,4.1 12.9,4.0 C 13.5,3.8 15.2,-0.8 15.8,-0.8 C 16.5,-0.8 18.2,3.8 18.8,4.0 C 19.4,4.1 23.2,0.9 23.8,1.2 C 24.3,1.5 23.4,6.5 23.8,6.9 C 24.3,7.3 29.2,6.4 29.6,7.0 C 29.9,7.5 26.6,11.4 26.8,12.0 C 26.9,12.6 31.7,14.3 31.7,14.9 C 31.7,15.5 26.9,17.2 26.8,17.8 C 26.6,18.4 29.9,22.3 29.6,22.8 z"/&gt;	
-      &lt;text id="label" x="5" y="20" transform = "rotate(-15 10 10)"&gt;New&lt;/text&gt;
-      &lt;text id="title" x="40" y="20"&gt;Opera Browser&lt;/text&gt;
-    &lt;/a&gt;'''
-  &lt;/g&gt;
+  <g id="heading">
+    <a xlink:href= "http://www.opera.com/">
+      <path id="badge" d="M 29.6,22.8 C 29.2,23.4 24.3,22.4 23.8,22.9 C 23.4,23.3 24.3,28.3 23.8,28.6 C 23.2,28.9 19.4,25.6 18.8,25.8 C 18.2,26.0 16.5,30.7 15.8,30.7 C 15.2,30.7 13.5,26.0 12.9,25.8 C 12.3,25.6 8.5,28.9 7.9,28.6 C 7.4,28.3 8.3,23.3 7.9,22.9 C 7.4,22.4 2.4,23.4 2.1,22.8 C 1.8,22.3 5.1,18.4 4.9,17.8 C 4.8,17.2 0.0,15.5 0.0,14.9 C 0.0,14.3 4.8,12.6 4.9,12.0 C 5.1,11.4 1.8,7.5 2.1,7.0 C 2.4,6.4 7.4,7.3 7.9,6.9 C 8.3,6.5 7.4,1.5 7.9,1.2 C 8.5,0.9 12.3,4.1 12.9,4.0 C 13.5,3.8 15.2,-0.8 15.8,-0.8 C 16.5,-0.8 18.2,3.8 18.8,4.0 C 19.4,4.1 23.2,0.9 23.8,1.2 C 24.3,1.5 23.4,6.5 23.8,6.9 C 24.3,7.3 29.2,6.4 29.6,7.0 C 29.9,7.5 26.6,11.4 26.8,12.0 C 26.9,12.6 31.7,14.3 31.7,14.9 C 31.7,15.5 26.9,17.2 26.8,17.8 C 26.6,18.4 29.9,22.3 29.6,22.8 z"/>	
+      <text id="label" x="5" y="20" transform = "rotate(-15 10 10)">New</text>
+      <text id="title" x="40" y="20">Opera Browser</text>
+    </a>
+  </g>
 
-&lt;/svg&gt;</pre>
+</svg></syntaxhighlight>
  
 Try it out by viewing my example.
 }}
