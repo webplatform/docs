@@ -6,7 +6,7 @@
 
 The HSL system's notion of "lightness" is very abstract, and based on a simple transform from RGB.  It places pure blue and pure yellow at the same lightness level, which does not match how humans would rank them at all.
 
-There are much better measures of "perceptual" lightness which take into account the biology of the eye and psychology of color vision.  This page uses the "lightness" value from the L*a*b color system, which is designed to be very perceptually uniform.
+There are much better measures of "perceptual" lightness which take into account the biology of the eye and psychology of color vision.  This page uses the "lightness" value from the L*a*b color system, which is designed to be very perceptually uniform.  Choosing colors near each other on this table will ensure the appearance of a uniformly bright or dim design.
 
 {| class="wikitable"
 |-
