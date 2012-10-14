@@ -79,7 +79,7 @@ border-radius: (first radius values) / top-left top-right bottom-right bottom-le
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=CSS Backgrounds and Borders Module Level 3: Rounded Corners: 
+|Name=CSS Backgrounds and Borders Module Level 3: Rounded Corners:
 |URL=http://www.w3.org/TR/css3-background/#the-border-radius
 |Status=Candidate Recommendation
 }}
@@ -115,8 +115,8 @@ border-radius: (first radius values) / top-left top-right bottom-right bottom-le
 |Android_prefixed_version=
 |Blackberry_supported=Yes
 |Blackberry_version=7.0
-|Blackberry_prefixed_supported=No
-|Blackberry_prefixed_version=
+|Blackberry_prefixed_supported=Yes
+|Blackberry_prefixed_version=7.0
 |Chrome_mobile_supported=Yes
 |Chrome_mobile_version=18.0
 |Chrome_mobile_prefixed_supported=No
