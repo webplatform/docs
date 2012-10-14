@@ -16,7 +16,7 @@ In JavaScript, an object is a standalone entity, with properties and type. Compa
 
 ==Objects and properties==
 
-A JavaScript object has properties associated with it. A property of an object can be explained as variables that are attached to the object. Object properties are basically the same with ordinary JavaScript variables, except for the attachment to objects. The properties of an object define the characteristics of the object. You access the properties of an object with a simple dot-notation:
+A JavaScript object has properties associated with it. A property of an object can be explained as variables that are attached to the object. Object properties are basically the same as ordinary JavaScript variables, except object properties are attached to objects. The properties of an object define the characteristics of the object. You access the properties of an object with a simple dot-notation:
 
 <div style="margin-right: 270px">
 
