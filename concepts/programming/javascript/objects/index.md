@@ -243,7 +243,7 @@ You can add a property to a previously defined object type by using the <code>pr
  Car.prototype.color = null;
  car1.color = "black";
 
-See the [[/js/objects/Function/prototype|<code>prototype</code> property] of the <code>Function</code> object in the JavaScript Reference for more information.
+See the [[/js/objects/Function/prototype|<code>prototype</code> property]] of the <code>Function</code> object in the JavaScript Reference for more information.
 
 ===Defining methods===
 
