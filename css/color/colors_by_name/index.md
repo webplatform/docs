@@ -2,8 +2,11 @@
 {{Flags}}
 {{Summary_Section}}
 {{Basic Page}}
-{{Standardization_Status|}}
-
+===Related topics===
+* [[css/color/colors by hue|Colors by Hue]]
+* [[css/color/colors by saturation|Colors by Saturation]]
+* [[css/color/colors by lightness|Colors by Lightness]]
+* [[css/color/colors by perceptual lightness|Colors by Perceptual Lightness]]
 
 {| class="wikitable"
 |-
@@ -309,13 +312,7 @@
 {{See_Also_Section
 |Topic_clusters=Visual Effects
 }}
-{{Notes_Section
-|Import_Notes====Related topics===
-;'''Conceptual''':[[css/color/colors by hue|Colors by Hue]]
-;[[css/color/colors by hue|Colors by Hue]]:[[css/color/colors by saturation|Colors by Saturation]]
-;[[css/color/colors by saturation|Colors by Saturation]]:[[css/color/colors by lightness|Colors by Lightness]]
-;[[css/color/colors by lightness|Colors by Lightness]]:
-}}
+{{Notes_Section}}
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
