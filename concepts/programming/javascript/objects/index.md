@@ -222,7 +222,7 @@ adds a property <code>color</code> to car1, and assigns it a value of "black." H
 
 ===Using the Object.create method===
 
-Objects can also be created using the <code>Object.create</code> method. This method can be very useful, because it allows you to choose the prototype object for the object you want to create, without having to define a constructor function. For more detailed information on the method and how to use it, see [/js/objects/Object/create|Object.create method]]
+Objects can also be created using the <code>Object.create</code> method. This method can be very useful, because it allows you to choose the prototype object for the object you want to create, without having to define a constructor function. For more detailed information on the method and how to use it, see [[/js/objects/Object/create|Object.create method]]
 
 ===Inheritance===
 
