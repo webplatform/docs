@@ -31,13 +31,13 @@ Like all JavaScript variables, both the object name (which could be a normal var
  myCar.model = "Mustang";
  myCar.year = 1969;
 
-Properties of JavaScript objects can also be accessed or set using a bracket notation. Objects are sometimes called ''associative arrays'', since each property is associated with a string value that can be used to access it. So, for example, you could access the properties of the <code>myCar</code> object as follows:
+Above we have used the key word <code>new</code> to create a new object named <code>myCar</code>. In addition to using dot-notation to access and set object property values, we may also use bracket-notation. So, for example, you could access the properties of the <code>myCar</code> object as follows:
 
  myCar["make"] = "Ford";
  myCar["model"] = "Mustang";
  myCar["year"] = 1969;
 
-Object properties names can be valid JavaScript string, or anything that can be converted to string, including the empty string. However, any property name that is not a valid JavaScript identifier (for example, a property name that has space or dash, or starts with a number) can only be accessed using the square bracket notation. This notation is also very useful when property names are to be dynamically determined (when the property name is not determined until runtime). Examples are as follows:
+Objects are sometimes called ''associative arrays'', since each property is associated with a string value that can be used to access it. Object property names can be valid JavaScript strings, or anything that can be converted to string, including the empty string. However, any property name that is not a valid JavaScript identifier (for example, a property name that has space or dash, or starts with a number) can only be accessed using bracket-notation. Bracket-notation is also very useful when property names are to be dynamically determined (when the property name is not determined until runtime). Examples are as follows:
 
  var myObj = new Object(),
      str = "myString",
@@ -65,7 +65,7 @@ You can also access properties by using a string value that is stored in a varia
 
 </div>
 
-You can use the bracket notation with [/js/statements#for...in_Statement|for...in]] to iterate over all the enumerable properties of an object. To illustrate how this works, the following function displays the properties of the object when you pass the object and the object's name as arguments to the function:
+You can use bracket-notation with [/js/statements#for...in_Statement|for...in]] to iterate over all the enumerable properties of an object. To illustrate how this works, the following function displays the properties of the object when you pass the object and the object's name as arguments to the function:
 
  function showProps(obj, objName) {
    var result = "";
