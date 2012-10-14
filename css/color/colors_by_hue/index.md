@@ -1,8 +1,12 @@
 {{Page_Title|Colors by Hue}}
+{{Flags}}
 {{Summary_Section}}
 {{Basic Page}}
-{{Standardization_Status|}}
-{{API_Name}}
+===Related topics===
+* [[css/color/colors by hue|Colors by Hue]]
+* [[css/color/colors by saturation|Colors by Saturation]]
+* [[css/color/colors by lightness|Colors by Lightness]]
+* [[css/color/colors by perceptual lightness|Colors by Perceptual Lightness]]
 
 {| class="wikitable"
 |-
@@ -307,4 +311,12 @@
 
 {{See_Also_Section
 |Topic_clusters=Visual Effects
+}}
+{{Notes_Section}}
+{{Topics}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
 }}
