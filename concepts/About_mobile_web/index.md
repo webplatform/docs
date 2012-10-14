@@ -1,1 +1,1 @@
-#REDIRECT [[concepts/mobile web/About mobile web]]
+#REDIRECT [[concepts/mobile web/mobile web]]
