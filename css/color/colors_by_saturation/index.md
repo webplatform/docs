@@ -1,8 +1,12 @@
+{{Page_Title|Colors by Saturation}}
+{{Flags}}
+{{Summary_Section}}
+{{Basic Page}}
 {{Standardization_Status|}}
 {{API_Name}}
-{{Page_Title|Colors by Saturation}}
-{{Basic_Page}}
-{{Notes_Section}}
+
+
+
 ===Related topics===
 * [[css/color/colors by name|Colors by Name]]
 * [[css/color/colors by hue|Colors by Hue]]
@@ -308,3 +312,15 @@
 |-
 | darkgreen || hsl(120,100%,20%) || #006400
 |}
+
+{{See_Also_Section
+|Topic_clusters=Visual Effects
+}}
+{{Notes_Section}}
+{{Topics}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
+}}
