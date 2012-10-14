@@ -134,7 +134,7 @@ Since it might help to have an object with more substance, consider the followin
 
 We now have an <code>artist</code> object. <code>artist</code> has a name, and band, and a rank of 1. 
 
-If an object is created with an object-literal in a top-level script, JavaScript interprets the object each time it evaluates an expression containing the object literal. In addition, an initializer used in a function is created each time the function is called.
+If an object is created with an object-literal in a top-level script, JavaScript interprets the object each time it evaluates an expression containing the object literal. In addition, an object literal used in a function is created each time the function is called.
 
 The following statement creates an object and assigns it to the variable <code>x</code> if and only if the expression <code>cond</code> is true.
 
@@ -153,7 +153,7 @@ The following example creates <code>myHonda</code> with three properties. Note t
 
 You can also use object literals to create arrays and regular expressions. See [[/js/guides/JavaScript/Values#Array_literal|array]] and [[/js/guides/JavaScript/Values#RegExp_literal|regular expression]] literals.
 
-In JavaScript 1.1 and earlier, you could not use object initializers. You could create objects only using their constructor functions or using a function supplied by some other object for that purpose. See [http://docs.webplatform.org/wiki#Using_a_constructor_function Using a constructor function].
+In JavaScript 1.1 and earlier, you could not use object literals. You could create objects only using their constructor functions or using a function supplied by some other object for that purpose. See [http://docs.webplatform.org/wiki#Using_a_constructor_function Using a constructor function].
 
 ===Using a constructor function===
 
