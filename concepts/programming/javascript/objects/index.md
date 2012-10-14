@@ -65,7 +65,7 @@ You can also access properties by using a string value that is stored in a varia
 
 </div>
 
-You can use bracket-notation with [/js/statements#for...in_Statement|for...in]] to iterate over all the enumerable properties of an object. To illustrate how this works, the following function displays the properties of the object when you pass the object and the object's name as arguments to the function:
+You can use bracket-notation with [/js/statements#for...in_Statement|for...in] to iterate over all the enumerable properties of an object. To illustrate how this works, the following function displays the properties of the object when you pass the object and the object's name as arguments to the function:
 
  function showProps(obj, objName) {
    var result = "";
