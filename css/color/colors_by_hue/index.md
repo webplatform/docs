@@ -3,7 +3,7 @@
 {{Summary_Section}}
 {{Basic Page}}
 ===Related topics===
-* [[css/color/colors by hue|Colors by Hue]]
+* [[css/color/colors by name|Colors by Name]]
 * [[css/color/colors by saturation|Colors by Saturation]]
 * [[css/color/colors by lightness|Colors by Lightness]]
 * [[css/color/colors by perceptual lightness|Colors by Perceptual Lightness]]
