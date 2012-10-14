@@ -109,7 +109,7 @@ This can be useful to reveal "hidden" properties (properties in the prototype ch
 
 ==Creating new objects==
 
-JavaScript has a number of predefined objects. In addition, you can create your own objects. In JavaScript 1.2 and later, you can create an object using an object initializer. Alternatively, you can first create a constructor function and then instantiate an object using that function and the <code>new</code> operator.
+JavaScript has a number of predefined objects. In addition, you can create your own objects. Starting in JavaScript 1.2, you can create an object using an object initializer. Alternatively, you can first create a constructor function and then instantiate an object using that function and the <code>new</code> operator. Let's take a look at both of those.
 
 ===Using object initializers===
 
