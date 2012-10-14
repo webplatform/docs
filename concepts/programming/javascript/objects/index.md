@@ -89,7 +89,7 @@ In JavaScript, almost everything is an object. All primitive types except <code>
 Starting with ECMAScript 5, there are three native ways to list/traverse object properties:
 
 * [[/js/statements/for...in|for...in]] loops<br /> This method traverses all enumerable properties of an object and its prototype chain
-* [[/js/objects/Object/keys|Object.keys(o)]]<br /> This method returns an array with all the own (not in the prototype chain) enumerable properties names ("keys") of an object <code>o</code>.
+* [[/js/objects/Object/keys|Object.keys(o)]]<br /> This method returns an array of Strings. Each string is a key in the object <code>o</code>. This array doesn't include keys that <code>o</code> inherited from it's  prototype. 
 * [[/js/objects/Object/getOwnPropertyNames|Object.getOwnPropertyNames(o)]]<br /> This method returns an array containing all own properties names (enumerable or not) of an object <code>o</code>.
 
 In ECMAScript 5, there is no native way to list all properties of an object. However, this can be achieved with the following function:
