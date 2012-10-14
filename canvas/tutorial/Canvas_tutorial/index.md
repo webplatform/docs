@@ -1,1 +1,1 @@
-#REDIRECT [[tutorials/canvas/Canvas tutorial]]
+#REDIRECT [[tutorials/canvas/canvas tutorial]]
