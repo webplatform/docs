@@ -1,6 +1,5 @@
 {{Page_Title}}
-{{Flags
-}}
+{{Flags}}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|The border-radius CSS property allows Web authors to define how rounded border corners are. The curve of each corner is defined using one or two radii, defining its shape: circle or ellipse.}}
@@ -80,8 +79,8 @@ border-radius: (first radius values) / top-left top-right bottom-right bottom-le
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=CSS Backgrounds and Borders Module Level 3: Rounded Corners
-|URL=http://www.w3.org/TR/css3-background/#corners
+|Name=CSS Backgrounds and Borders Module Level 3: Rounded Corners: 
+|URL=http://www.w3.org/TR/css3-background/#the-border-radius
 |Status=Candidate Recommendation
 }}
 }}
