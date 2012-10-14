@@ -26,10 +26,13 @@ Also known as '''Programming Styles''' and '''Coding Conventions''' style guides
 * [http://aloha-editor.org/guides/style_guide.html Aloha Editor JavaScript Style Guide]
 * [http://javascript.crockford.com/code.html Crock's Code Conventions for JavaScript]
 
-=== Html/Css ===
+=== Html/Css<ref name="html-css-styles">[http://css-tricks.com/css-style-guides/ Css Style Guides], by Chris Coyer.</ref> ===
 
 * [http://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml Google HTML/CSS Style Guide]
 * [https://github.com/necolas/idiomatic-css Idiomatic Css]
+* [http://csswizardry.com/2012/04/my-html-css-coding-style/ Css Wizardry Style Guide]
+* [https://github.com/ginatrapani/ThinkUp/wiki/Code-Style-Guide:-CSS ThinkUp]
+* [http://make.wordpress.org/core/handbook/coding-standards/css/ Wordpress Css Coding Standards]
 
 <references />
 }}
