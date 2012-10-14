@@ -120,7 +120,7 @@ Both of these methods will get you a new object. Let's take a closer look at eac
 
 One way to create an object is to use object literals. Using object literals is sometimes referred to as creating objects with object-literal notation.
 
-In it's most basic form, object literals are empty objects. To create one do the following:
+In it's most basic form, object literals are empty objects. To create one, do the following:
  
   var obj = {};
 
