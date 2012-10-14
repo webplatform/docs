@@ -1,13 +1,13 @@
 {{Flags}}
 {{Summary_Section|This chapter discusses values that JavaScript recognizes and describes the fundamental building blocks of JavaScript expressions: variables, constants, and literals.}}
 <h2 id="Values">Values</h2>
-<p>JavaScript recognizes the following types of values:</p>
+<p>JavaScript recognizes the following '''primitive''' types of values:</p>
 <ul>
   <li>[[/js/data-types/number|Numbers]], such as 42 or 3.14159</li>
   <li>[[/js/data-types/boolean|Logical (Boolean)]] values, either <code>true</code> or <code>false</code></li>
   <li>[[/js/data-types/string|Strings]], such as "Howdy!"</li>
-  <li><code>null</code>, a special keyword denoting a null value; <code>null</code> is also a primitive value. Because JavaScript is case-sensitive, <code>null</code> is not the same as <code>Null</code>, <code>NULL</code>, or any other variant</li>
-  <li><code>[[/js/objects/undefined|undefined]]</code>, a top-level property whose value is undefined; <code>undefined</code> is also a primitive value.</li>
+  <li><code>null</code>, a special keyword denoting a null value. Because JavaScript is case-sensitive, <code>null</code> is not the same as <code>Null</code>, <code>NULL</code>, or any other variant</li>
+  <li><code>[[/js/objects/undefined|undefined]]</code>, a top-level property whose value is undefined.</li>
 </ul>
 <p>This relatively small set of types of values, or <em>data types</em>, enables you to perform useful functions with your applications. There is no explicit distinction between integer and real-valued numbers. Nor is there an explicit date data type in JavaScript. However, you can use the <code>[[/js/objects/Date|Date]]</code> object and its methods to handle dates.</p>
 <p>[[/js/objects/Object|Objects]] and [[/js/objects/Function|functions]] are the other fundamental elements in the language. You can think of objects as named containers for values, and functions as procedures that your application can perform.</p>
