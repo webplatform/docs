@@ -109,22 +109,32 @@ This can be useful to reveal "hidden" properties (properties in the prototype ch
 
 ==Creating new objects==
 
-JavaScript has a number of predefined objects. In addition, you can create your own objects. Starting in JavaScript 1.2, you can create an object using an object initializer. Alternatively, you can first create a constructor function and then instantiate an object using that function and the <code>new</code> operator. Let's take a look at both of those.
+JavaScript has a number of predefined objects. In addition, you can create your own objects. Starting in JavaScript 1.2, you can create an object using an object-literal. Alternatively, you can use a constructor function by calling the <code>new</code> operator on an existing function. Consider: 
 
-===Using object initializers===
+  var a = {};            //object-literal
+  var b = new Object();  //constructor function
 
-In addition to creating objects using a constructor function, you can create objects using an object initializer. Using object initializers is sometimes referred to as creating objects with literal notation. "Object initializer" is consistent with the terminology used by C++.
+Both of these methods will get you a new object. Let's take a closer look at each of them.
 
-The syntax for an object using an object initializer is:
+===Using object literals===
 
- var obj = { property_1:   value_1,   // property_# may be an identifier...
-             2:            value_2,   // or a number...
-             // ...,
-             "property n": value_n }; // or a string
+One way to create an object is to use object literals. Using object literals is sometimes referred to as creating objects with object-literal notation.
 
-where <code>obj</code> is the name of the new object, each <code>property_''i''</code> is an identifier (either a name, a number, or a string literal), and each <code>value_''i''</code> is an expression whose value is assigned to the <code>property_''i''</code>. The <code>obj</code> and assignment is optional; if you do not need to refer to this object elsewhere, you do not need to assign it to a variable. (Note that you may need to wrap the object literal in parentheses if the object appears where a statement is expected, so as not to have the literal be confused with a block statement.)
+In it's most basic form, object literals are empty objects. To create one do the following:
+ 
+  var obj = {};
 
-If an object is created with an object initializer in a top-level script, JavaScript interprets the object each time it evaluates an expression containing the object literal. In addition, an initializer used in a function is created each time the function is called.
+Since it might help to have an object with more substance, consider the following:
+
+  var artist = {
+      name : "Freddie Mercury",
+      band : "Queen",
+      rank : 1
+  }
+
+We now have an <code>artist</code> object. <code>artist</code> has a name, and band, and a rank of 1. 
+
+If an object is created with an object-literal in a top-level script, JavaScript interprets the object each time it evaluates an expression containing the object literal. In addition, an initializer used in a function is created each time the function is called.
 
 The following statement creates an object and assigns it to the variable <code>x</code> if and only if the expression <code>cond</code> is true.
 
@@ -132,11 +142,18 @@ The following statement creates an object and assigns it to the variable <code>x
 
 The following example creates <code>myHonda</code> with three properties. Note that the <code>engine</code> property is also an object with its own properties.
 
- var myHonda = {color: "red", wheels: 4, engine: {cylinders: 4, size: 2.2}};
+  var myHonda = {
+      color: "red", 
+      wheels: 4, 
+      engine: {
+          cylinders: 4, 
+          size: 2.2
+      }
+  };
 
-You can also use object initializers to create arrays and regular expressions. See [[/js/guides/JavaScript/Values#Array_literal|array]] and [[/js/guides/JavaScript/Values#RegExp_literal|regular expression]] literals.
+You can also use object literals to create arrays and regular expressions. See [[/js/guides/JavaScript/Values#Array_literal|array]] and [[/js/guides/JavaScript/Values#RegExp_literal|regular expression]] literals.
 
-In JavaScript 1.1 and earlier, you cannot use object initializers. You can create objects only using their constructor functions or using a function supplied by some other object for that purpose. See [http://docs.webplatform.org/wiki#Using_a_constructor_function Using a constructor function].
+In JavaScript 1.1 and earlier, you could not use object initializers. You could create objects only using their constructor functions or using a function supplied by some other object for that purpose. See [http://docs.webplatform.org/wiki#Using_a_constructor_function Using a constructor function].
 
 ===Using a constructor function===
 
