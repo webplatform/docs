@@ -3,9 +3,9 @@
 |High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|DIV is a generic block-level container that has no semantic value other than the one that you give it via ID or Class. It can be used for a variety of purposes including the styling of common elements, or for grouping elements with common attributes. It’s use should be limited to those cases when no other semantic HTML is appropriate to the situation at hand (for example <section> or <nav>.)}}
+{{Summary_Section|DIV is a generic block-level container that has no semantic value other than the one that you give it via ID or Class. It can be used for a variety of purposes including the styling of common elements, or for grouping elements with common attributes. It’s use should be limited to those cases when no other semantic HTML is appropriate to the situation at hand (for example <nowiki><section></nowiki> or <nowiki><nav></nowiki>.)}}
 {{Markup_Element
 |DOM_interface=dom/HTMLDivElement
 }}
@@ -14,12 +14,12 @@
 |Examples={{Single Example
 |Language=HTML
 |Description=This example shows two DIVs, one inside the other, that define a main content section, then a subsection within that. Each DIV is semantically defined using a class or ID.
-|Code=&lt;div id{{=}}&quot;mainContent&quot; &gt;
-   &lt;h1&gt;The HTML Times&lt;/h1&gt;
-   &lt;div class{{=}}&quot;sportsSection&quot; &gt;
-      &lt;h2&gt;Sports&lt;/h2&gt;
-   &lt;/div&gt;
-&lt;/div&gt;
+|Code=<source><div id="mainContent">
+   <h1>The HTML Times</h1>
+   <div class="sportsSection">
+      <h2>Sports</h2>
+   </div>
+</div></source>
 }}
 }}
 {{Notes_Section
@@ -806,19 +806,19 @@ This property is not supported for Metro style apps using JavaScript.
 |Not_required=No
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
-|Chrome_version=21+
+|Chrome_version=1+
 |Chrome_prefixed_supported=Unknown
 |Chrome_prefixed_version=
 |Firefox_supported=Yes
-|Firefox_version=1.0
+|Firefox_version=1+
 |Firefox_prefixed_supported=Unknown
 |Firefox_prefixed_version=
 |Internet_explorer_supported=Yes
-|Internet_explorer_version=7+
+|Internet_explorer_version=6+
 |Internet_explorer_prefixed_supported=Unknown
 |Internet_explorer_prefixed_version=
 |Opera_supported=Yes
-|Opera_version=12+
+|Opera_version=10+
 |Opera_prefixed_supported=Unknown
 |Opera_prefixed_version=
 |Safari_supported=Yes
@@ -827,8 +827,8 @@ This property is not supported for Metro style apps using JavaScript.
 |Safari_prefixed_version=
 }}
 |Mobile_rows={{Compatibility Table Mobile Row
-|Android_supported=Unknown
-|Android_version=
+|Android_supported=Yes
+|Android_version=1.5+
 |Android_prefixed_supported=Unknown
 |Android_prefixed_version=
 |Blackberry_supported=Unknown
