@@ -1,6 +1,5 @@
 {{Page_Title}}
-{{Flags
-}}
+{{Flags}}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|The border-radius CSS property allows Web authors to define how rounded border corners are. The curve of each corner is defined using one or two radii, defining its shape: circle or ellipse.}}
@@ -77,11 +76,13 @@ border-radius: (first radius values) / radius <br/>
 border-radius: (first radius values) / top-left-and-bottom-right top-right-and-bottom-left <br/>
 border-radius: (first radius values) / top-left top-right-and-bottom-left bottom-right <br/>
 border-radius: (first radius values) / top-left top-right bottom-right bottom-left </code><br/>
-===Standards information===
-*[http://www.w3.org/TR/css3-background/ CSS Backgrounds and Borders Module Level 3], Section 4.4
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Backgrounds and Borders Module Level 3: Rounded Corners
+|URL=http://www.w3.org/TR/css3-background/#corners
+|Status=Candidate Recommendation
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -114,7 +115,7 @@ border-radius: (first radius values) / top-left top-right bottom-right bottom-le
 |Android_prefixed_version=
 |Blackberry_supported=Yes
 |Blackberry_version=7.0
-|Blackberry_prefixed_supported=Unknown
+|Blackberry_prefixed_supported=No
 |Blackberry_prefixed_version=
 |Chrome_mobile_supported=Yes
 |Chrome_mobile_version=18.0
