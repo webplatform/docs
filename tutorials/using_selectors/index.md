@@ -254,7 +254,7 @@ You can try rearranging the lines in your CSS file to show that the order has no
 
 == Action: Using selectors based on relationships and pseudo-classes ==
  
-With selectors based on relationships and pseudo-classes you can create complex cascade algorithms. This is a common technique used, for example, in order to create '''pure-CSS drop down menus''' (that is only CSS, without using [[javascript]]). The essence of this technique is the creation of a rule like the following:
+With selectors based on relationships and pseudo-classes you can create complex cascade algorithms. This is a common technique used, for example, in order to create '''pure-CSS drop down menus''' (that is only CSS, without using [[javascript|JavaScript]]). The essence of this technique is the creation of a rule like the following:
  
 <syntaxhighlight lang="css">div.menu-bar ul ul {
   display: none;
