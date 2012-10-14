@@ -247,7 +247,7 @@ Make the headings turn blue when the mouse pointer is over them.
 If you had difficulty understanding this page, or if you have other comments about it, please contribute to its [[Discussion]] page.
 
  
-So far, all the style rules in this tutorial have been specified in files. The rules and their values are fixed. The next page describes how you can change rules dynamically by using a programming language: '''[[JavaScript]]'''
+So far, all the style rules in this tutorial have been specified in files. The rules and their values are fixed. The next page describes how you can change rules dynamically by using a programming language: '''[[javascript|JavaScript]]'''
 }}
 {{Notes_Section}}
 {{Compatibility_Section
