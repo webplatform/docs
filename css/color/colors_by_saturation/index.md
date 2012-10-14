@@ -1,23 +1,18 @@
-{{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
-}}
 {{Standardization_Status|}}
 {{API_Name}}
 {{Page_Title|Colors by Saturation}}
 {{Basic_Page}}
-{{Notes_Section
-|Import_Notes=
+{{Notes_Section}}
 ===Related topics===
 * [[css/color/colors by name|Colors by Name]]
 * [[css/color/colors by hue|Colors by Hue]]
 * [[css/color/colors by lightness|Colors by Lightness]]
-* [[css/color/colors by perceptual lightness|Colors by Perceptual Lightness]]:
+* [[css/color/colors by perceptual lightness|Colors by Perceptual Lightness]]
  
  
 {| class="wikitable"
 |-
-! Name !! HSL !! Hex
+! Name !! HSL !! Hex*
 |-
 | white || hsl(0,0%,100%) || #ffffff
 |-
@@ -313,3 +308,5 @@
 |-
 | darkgreen || hsl(120,100%,20%) || #006600
 |}
+
+* Hex values were auto-generated from the HSL. Precision errors may mean that the components of the hex value are off by 1 unit from their "official" definitions. For example, many components are "7f" here, but "80" officially.
