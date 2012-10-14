@@ -29,6 +29,7 @@ Also known as '''Programming Styles''' and '''Coding Conventions''' style guides
 === Html/Css ===
 
 * [http://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml Google HTML/CSS Style Guide]
+* [https://github.com/necolas/idiomatic-css Idiomatic Css]
 
 <references />
 }}
