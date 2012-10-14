@@ -31,7 +31,7 @@ Like all JavaScript variables, both the object name (which could be a normal var
  myCar.model = "Mustang";
  myCar.year = 1969;
 
-Above we have used the key word <code>new</code> to create a new object named <code>myCar</code>. In addition to using dot-notation to access and set object property values, we may also use bracket-notation. So, for example, you could access the properties of the <code>myCar</code> object as follows:
+Above we have used the key word <code>new</code> to create a new object named <code>myCar</code>. Then, using dot-notation, we added three properties to <code>myCar</code> and assigned them values. In addition to using dot-notation to access and set object property values, we may also use bracket-notation. So, for example, you could access the properties of the <code>myCar</code> object as follows:
 
  myCar["make"] = "Ford";
  myCar["model"] = "Mustang";
