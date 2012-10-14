@@ -1,1 +1,1 @@
-#REDIRECT [[guides/html links]]
+#REDIRECT [[guides/html lists]]
