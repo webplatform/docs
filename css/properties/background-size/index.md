@@ -7,6 +7,7 @@
 {{API_Name}}
 {{Summary_Section}}
 {{CSS Property
+|Initial value=auto
 |Applies to=All elements
 |Inherited=No
 |Media=visual
@@ -55,23 +56,23 @@ In Windows Internet Explorer 9, the background of a box can have multiple layer
 |Desktop_rows={{Compatibility Table Desktop Row
 |Feature=Full Suport
 |Chrome_supported=Yes
-|Chrome_version=22+
-|Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
+|Chrome_version=3+
+|Chrome_prefixed_supported=Yes
+|Chrome_prefixed_version=1+
 |Firefox_supported=Yes
-|Firefox_version=15+
-|Firefox_prefixed_supported=No
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Unknown
-|Internet_explorer_version=
-|Internet_explorer_prefixed_supported=Unknown
+|Firefox_version=4+
+|Firefox_prefixed_supported=Yes
+|Firefox_prefixed_version=3.6
+|Internet_explorer_supported=Yes
+|Internet_explorer_version=9+
+|Internet_explorer_prefixed_supported=No
 |Internet_explorer_prefixed_version=
 |Opera_supported=Yes
-|Opera_version=12+
+|Opera_version=10+
 |Opera_prefixed_supported=No
 |Opera_prefixed_version=
-|Safari_supported=Unknown
-|Safari_version=
+|Safari_supported=Yes
+|Safari_version=4.1+
 |Safari_prefixed_supported=Unknown
 |Safari_prefixed_version=
 }}
