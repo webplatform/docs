@@ -82,7 +82,7 @@ So, the function call <code>showProps(myCar, "myCar")</code> would return the fo
 
 ==Object everything==
 
-In JavaScript, almost everything is an object. All primitive types except <code>null</code> and <code>undefined</code> are treated as objects. They can be assigned properties (assigned properties of some types are not persistent), and they have all characteristics of objects.
+In JavaScript, almost everything is an object. All primitive types except <code>null</code> and <code>undefined</code> are treated as objects. They can be assigned properties (assigned properties of some types are not persistent), and they have all characteristics of objects. Even simple functions are objects in JavaScript.
 
 ==Enumerating all properties of an object==
 
