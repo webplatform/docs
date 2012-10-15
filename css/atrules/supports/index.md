@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page_Title| }}
 {{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
@@ -54,7 +54,6 @@ To detect if an experimental feature is supported with vendor-prefixes the <code
   }
 }
 </syntaxhighlight>
-
 |Notes=Browser support for this feature is still pretty limited:
 
 * Firefox in version 17 and up
