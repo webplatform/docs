@@ -5,7 +5,8 @@
 {{API_Name}}
 {{Summary_Section|PhoneGap is an application framework that enables you to build natively installed applications using HTML and JavaScript.  The easiest way to think of PhoneGap is a web view container that is 100% width and 100% height, with a JavaScript programming interface that allows you to access operating system features.}}
 {{Concept_Page
-|Content=PhoneGap is a distribution of Apache Cordova, an open source project incubated in the Apache Software Foundation driven by a vibrant community.
+|Content=== Introduction ==
+PhoneGap is a distribution of Apache Cordova, an open source project incubated in the Apache Software Foundation driven by a vibrant community.
 The purpose of this page is to share some basic information about PhoneGap like how it works, how to extend it, how it's born, etc.
 
 == How it works ==
@@ -77,6 +78,41 @@ PhoneGap is a free and openly licensed distribution of Apache Cordova. Picture C
 Adobe continues to play a major role in the project, investing in its ongoing development, and the company decided to keep the PhoneGap name to describe its own distribution of the Cordova project. Other contributors to the Apache Cordova project include Google, RIM, Microsoft, IBM, Nokia, Intel, and Hewlett-Packard.
 
 
+|---windows-phone
+
+All the needed tools for each platform are bundled in the archive file and for OS X users it is important to install also ios-sim_ The ios-sim tool is a command-line utility that launches an iOS application on the iOS Simulator_ To install it’s enough to download it from Github, expand it, and launch a command line tool
+<code>
+$ curl -L https://github_com/phonegap/ios-sim/zipball/1_3 -o ios-sim-1_3_zip
+$ unzip ios-sim-1_3_zip
+$ rake install prefix=/usr/local/
+</code>
+Using the command line tool move to the appropriate bin directory for the platform you want to create a project (let say Android for instance)
+<code>
+$ cd phonegap-phonegap-2.0.0/lib/android/bin
+</code>
+In order to run the Android SKD tools, you must add them to the path where the Android tools reside. Use the command line tool and mount the path:
+<code>
+$ export PATH=$PATH:~/android-sdks/tools/
+$ export PATH=$PATH:~/android-sdks/platform-tools/ 
+</code>
+In order to create a PhoneGap project, all you have to do is run the tool ./create from the bin directory of android:
+<code>
+$ ./create ~/PhoneGapProjects/HelloWorld/android org.webplatform.mobile.phonegap.HelloWorld HelloWorld
+</code>
+The tool actually needs three parameters: the path of the project files, the package of the project, and the name of the project. 
+
+In the android folder you will find the following directories:
+|-src
+
+In the assets/www folder you can edit the HTML/CSS/JS in order to make the app working as per your requirement, in order to debug the app move to the /cordova folder and run the _/debug and _/emulate commands_
+In order to be successful you need to have configured previously some virtual devices using the Android SDK_== How to extend it ==
+Lorem ipsum dolor
+
+== How it's bonr ==
+PhoneGap was originally developed by Nitobi, a company acquired by Adobe in 2011. After it was acquired, Nitobi donated the PhoneGap code base to the Apache Software Foundation (ASF) under the project name Cordova, which is the name of the street in Vancouver where Nitobi’s offices were located and where the company created the first version of the framework.
+One of biggest advantages to move the code base to the ASF is that big companies can easily contribute to the project (many companies are not only comfortable with the Apache organization and license, but already have a Contributor License Agreement [CLA] with Apache); furthermore, the project is now under an open and transparent government: its community!
+PhoneGap is a free and openly licensed distribution of Apache Cordova. Picture Cordova to be the engine upon which PhoneGap and its related services (i.e. emulation and build services) are built. For existing PhoneGap developers nothing has changed; but for those who are interested in contributing to the project Apache Cordova is a great chance to join a vibrant open source community.
+Adobe continues to play a major role in the project, investing in its ongoing development, and the company decided to keep the PhoneGap name to describe its own distribution of the Cordova project. Other contributors to the Apache Cordova project include Google, RIM, Microsoft, IBM, Nokia, Intel, and Hewlett-Packard.
 }}
 {{Examples_Section
 |Not_required=Yes
