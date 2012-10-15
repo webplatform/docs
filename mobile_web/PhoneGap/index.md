@@ -21,16 +21,7 @@ With Apache Cordova 2.x the installation process and the set up of the developme
 When unzipped you’ll get the following folders:
 
 YourInstallationFolder
-   |-doc
-   |-lib
-   	|---android
-   	|---bada
-   	|---badaWac
-   	|---blackberry
-   	|---ios
-   	|---symbian
-   	|---webos
-   	|---windows-phone
+   
 
 All the needed tools for each platform are bundled in the archive file and for OS X users it is important to install also ios-sim. The ios-sim tool is a command-line utility that launches an iOS application on the iOS Simulator. To install it’s enough to download it from Github, expand it, and launch a command line tool
 <code>
