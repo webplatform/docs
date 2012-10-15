@@ -8,16 +8,14 @@
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
 |Content====HTML information===
-{| class="wikitable"
-|-
+{{{!}} class="wikitable"
+{{!}}-
 !Closing Tag
-|required
-|-
+{{!}}required
+{{!}}-
 !CSS Display
-|block
-|}
-
-
+{{!}}block
+{{!}}}
 }}
 {{Examples_Section
 |Not_required=No
@@ -40,8 +38,6 @@
 |Usage=Not all groups of links on a document need to be in a '''nav''' element, only sections that consist of major navigation blocks. In particular, it is common for '''footer''' elements to have a short list of links to various documents of a site, such as the terms of service, home, and copyright. The '''footer''' element alone is sufficient for such cases, and does not require a '''nav''' element.
 
 '''Note'''  Some devices and applications (such as screen readers) might use the '''nav''' element as a way to determine what content on the document to initially skip or provide on request.
-
-
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
