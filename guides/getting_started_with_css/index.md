@@ -1,7 +1,5 @@
 {{Page_Title|Getting started with CSS}}
-{{Flags
-|Editorial notes=blah
-}}
+{{Flags}}
 {{Byline}}
 {{Summary_Section|This guide covers the basic fundamentals of CSS, including CSS anatomy, selectors, comments, and how to apply it to HTML.}}
 {{Tutorial
