@@ -22,16 +22,16 @@
 |Examples={{Single Example
 |Language=HTML
 |Description=The following example uses the '''nav''' element to indicate that a list contains site navigation links.
-|Code=<syntaxhighlight lang="html5">
-<nav>
-   <h1>Site Navigation</h1>
-   <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="gallery.html">Photo</a></li>
-    <li><a href="news.html">Updates</a></li>
-   </ul>
-  </nav>
-</syntaxhighlight>
+|Code=&lt;nav&gt;
+   &lt;h1&gt;Site Navigation&lt;/h1&gt;
+   &lt;ul&gt;
+    &lt;li&gt;&lt;a href{{=}}"index.html"&gt;Home&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href{{=}}"gallery.html"&gt;Photo&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href{{=}}"news.html"&gt;Updates&lt;/a&gt;&lt;/li&gt;
+   &lt;/ul&gt;
+  &lt;/nav&gt;
+&lt;/syntaxhighlight&gt;
+
 }}
 }}
 {{Notes_Section
