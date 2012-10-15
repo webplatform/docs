@@ -2,14 +2,14 @@ Selectors allow the representation of an element's attributes. When a selector i
 
 The following attribute selectors exist:
 * Presence and value selectors:
-** [[/existence/]]
-** [[/equality/]]
-** [[/whitespace/]]
-** [[/hyphen/]]
+** <code>[[css/selectors/attributes/existence|[attributename]]]</code>
+** <code>[[css/selectors/attributes/equality|[attributename="val"]]]</code>
+** <code>[[css/selectors/attributes/whitespace|[attributename~="val"]]]</code>
+** <code>[[css/selectors/attributes/hyphen|[attributename{{!}}="val"]]]</code>
 * Substring matching selectors:
-** [[/prefix/]]
-** [[/suffix/]]
-** [[/substring/]]
+** <code>[[css/selectors/attributes/prefix|[attributename^="val"]]]</code>
+** <code>[[css/selectors/attributes/suffix|[attributename$="val"]]]</code>
+** <code>[[css/selectors/attributes/substring|[attributename*="val"]]]</code>
 
 == Examples ==
 The following attribute selector represents an h1 element that carries the title attribute, whatever its value:
