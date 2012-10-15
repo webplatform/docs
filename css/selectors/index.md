@@ -1,7 +1,5 @@
 {{Page_Title|CSS selectors}}
-{{Flags
-|Content=Cleanup, Broken Links
-}}
+{{Flags}}
 {{Summary_Section|A Selector represents a structure. This structure can be used as a condition (e.g. in a CSS rule) that determines which elements a selector matches in the document tree, or as a flat description of the HTML or XML fragment corresponding to that structure.
 
 Selectors may range from simple element names to rich contextual representations.
@@ -79,10 +77,10 @@ Selectors may range from simple element names to rich contextual representations
 *[[css/selectors/combinators/child|<code>A > B</code>]]
 
 ==== Adjacent sibling combinator ====
-*[[css/selectors/combinators/adjacent|<code>A + B</code>]]
+*[[css/selectors/combinators/adjacent_sibling|<code>A + B</code>]]
 
 ==== General sibling combinator ====
-*[[css/selectors/combinators/general|<code>A ~ B</code>]]
+*[[css/selectors/combinators/general_sibling|<code>A ~ B</code>]]
 
 == Case sensitivity ==
 All Selectors syntax is case-insensitive within the ASCII range (i.e. [a-z] and [A-Z] are equivalent), except for parts that are not under the control of Selectors. The case sensitivity of document language element names, attribute names, and attribute values in selectors depends on the document language. For example, in HTML, element names are case-insensitive, but in XML, they are case-sensitive. Case sensitivity of namespace prefixes is defined in [http://www.w3.org/TR/2011/REC-css3-selectors-20110929/#CSS3NAMESPACE CSS3NAMESPACE]. 
