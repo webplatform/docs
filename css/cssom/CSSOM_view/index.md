@@ -18,7 +18,7 @@
 }}
 {{Notes_Section
 |Import_Notes====In this section===
-{| class="wikitable"
+{{{!}} class="wikitable"
 {{!}}-
 !Property
 !Description
@@ -103,7 +103,7 @@
 {{!}}-
 {{!}}Media Query Listeners
 {{!}}Media Query Listeners allow developers to register listeners that monitor and call back when a specific change happens to the media environment
-|}
+{{!}}}
  
  
  
