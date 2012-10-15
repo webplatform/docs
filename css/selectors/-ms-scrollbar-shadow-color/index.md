@@ -1,1 +1,0 @@
-#REDIRECT [[css/properties/-ms-scrollbar-shadow-color]]
