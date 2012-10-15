@@ -24,7 +24,7 @@
 |Examples={{Single Example
 |Language=HTML
 |Description=This example uses the '''p''' element to create a paragraph.
-|Code=<syntaxhighlight lang="html5">&lt;p&gt;This is a paragraph.&lt;/p&gt;</syntaxhighlight>
+|Code=<syntaxhighlight lang="html5"><p>This is a paragraph.</p></syntaxhighlight>
 }}
 }}
 {{Notes_Section}}
