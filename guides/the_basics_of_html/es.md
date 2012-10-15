@@ -16,7 +16,7 @@ Más tarde se unió [http://en.wikipedia.org/wiki/Vint_Cerf Vinton Cerf] la univ
 
 Esta especificación redució el papel de la red y movio la responsabilidad de mantenimiento, transmisión e integridad al equipo host El resultado fue que se volvió posible y fácil unir casi todas las diferentes redes juntas. ARPA financió el desarrollo de el software, y en 1977 fue llevada a cabo una demostración exitosa de tres redes diferentes comunicándose. Por 1981, la especificación fue finalizada, publicada y adoptado; y en 1982 las conexiones de la ARPANET fuera de los Estados Unidos se convirtió para usar el nuevo protocolo [http://en.wikipedia.org/wiki/TCP/IP TCP/IP] . Y el internet como lo conocemos ahora llegó.
 
-== The creation of World Wide Web ==
+== La creación de la World Wide Web ==
  
 [http://es.wikipedia.org/wiki/Gopher Gopher] fue un sistema de acceso a información utilizado en la década de 1990,  consistente en el acceso a la información a través de menús de enlaces, archivos, recursos informáticos y otros menús. Estos menús podrían cruzar los limites de la informática actual y usar el Internet para buscar menús de otros sistemas. Fue muy popular con las universidades que buscaban proveer información y las grandes organizaciones buscando centralizar el almacenamiento y gestión de documentos.
 
@@ -28,9 +28,11 @@ La Organización Europea para la Investigación Nuclear ([http://es.wikipedia.or
 
 El treinta de abril de 1993 CERN liberó el código fuente de la WorldWideWeb en el dominio publico, entonce cualquiera podría usar o basarse en el software de forma gratuita.
 
-Then, later in the same year, the [http://en.wikipedia.org/wiki/National_Center_for_Supercomputing_Applications NCSA] released a program that was a combined web browser and Gopher client, called [http://en.wikipedia.org/wiki/NCSA_Mosaic Mosaic]. This was originally only available on Unix machines and in source code form, but in December 1993 Mosaic provided a new version with installers for both Apple Macintosh and Microsoft Windows. Mosaic rapidly increased in popularity, and with it the Web.
- 
-The number of available web browsers increased dramatically, many created by research projects at universities and corporations, such as Telenor (a Norwegian communications company), which created the first version of the Opera browser in 1994.
+Entonces más adelante en el mismo año, [http://es.wikipedia.org/wiki/NCSA NCSA] libero un programa que era un navegador web y un cliente Gopher Combinado, llamado [http://es.wikipedia.org/wiki/Mosaic Mosaic]. Esto estuvo originalmente sólo disponible en maquinas Unis y en forma de código fuente, pero en Diciembre de 1993 Mosaic proporcionó una nueva versión con instaladores para Apple macintosh y Miscrosoft Windows. La popularidad de Mosaic aumento rápidamente y con él la Web.
+
+El número de navegadores disponibles aumento dramáticamente, muchos creado por proyectos de investigación en universidades y corporaciones, Por ejemplo Telenor(
+
+The number of available web browsers increased dramatically, many created by research projects at universities and corporations, such as Telenor (Una empresa noruega de comunicaciones), la cual creo la primera versión del navegador Opera en 1994.
  
 === The browser wars ===
  
