@@ -22,14 +22,14 @@
 ===Syntax===
 <code>'''msProgressAppearance: '''bar '''{{!}}''' ring</code>
 ===Requirements===
-{| class="wikitable"
-|-
+{{{!}} class="wikitable"
+{{!}}-
 !Minimum supported client
-|Windows 8
-|-
+{{!}}Windows 8
+{{!}}-
 !Minimum supported server
-|Windows Server 2012
-|}
+{{!}}Windows Server 2012
+{{!}}}
 
 }}
 {{See_Also_Section
