@@ -33,29 +33,31 @@ YourInstallationFolder
 :: ---windows-phone
 
 All the needed tools for each platform are bundled in the archive file and for OS X users it is important to install also ios-sim. The ios-sim tool is a command-line utility that launches an iOS application on the iOS Simulator. To install it’s enough to download it from Github, expand it, and launch a command line tool
-<br>
+<br><br>
 <code>
 $ curl -L https://github.com/phonegap/ios-sim/zipball/1.3 -o ios-sim-1.3.zip
 $ unzip ios-sim-1.3.zip
 $ rake install prefix=/usr/local/
 </code>
-<br>
+<br><br>
 Using the command line tool move to the appropriate bin directory for the platform you want to create a project (let say Android for instance)
-<br>
+<br><br>
 <code>
 $ cd phonegap-phonegap-2.0.0/lib/android/bin
-</code>
+</code><br><br>
 In order to run the Android SKD tools, you must add them to the path where the Android tools reside. Use the command line tool and mount the path:
+<br>
 <code>
 $ export PATH=$PATH:~/android-sdks/tools/
 $ export PATH=$PATH:~/android-sdks/platform-tools/ 
 </code>
+<br><br>
 In order to create a PhoneGap project, all you have to do is run the tool ./create from the bin directory of android:
-<br>
+<br><br>
 <code>
 $ ./create ~/PhoneGapProjects/HelloWorld/android org.webplatform.mobile.phonegap.HelloWorld HelloWorld
 </code>
-<br>
+<br><br>
 The tool actually needs three parameters: the path of the project files, the package of the project, and the name of the project. 
 
 In the android folder you will find the following directories:
@@ -70,7 +72,7 @@ In the android folder you will find the following directories:
 : -res
 : -src
 
-In the assets/www folder you can edit the HTML/CSS/JS in order to make the app working as per your requirement, in order to debug the app move to the /cordova folder and run the ./debug and ./emulate commands.
+In the assets/www folder you can edit the HTML/CSS/JS in order to make the app working as per your requirement, in order to debug the app move to the /cordova folder and run the ''./debug'' and ''./emulate'' commands.
 In order to be successful you need to have configured previously some virtual devices using the Android SDK.
 
 == How to extend it ==
@@ -81,8 +83,6 @@ PhoneGap was originally developed by Nitobi, a company acquired by Adobe in 2011
 One of biggest advantages to move the code base to the ASF is that big companies can easily contribute to the project (many companies are not only comfortable with the Apache organization and license, but already have a Contributor License Agreement [CLA] with Apache); furthermore, the project is now under an open and transparent government: its community!
 PhoneGap is a free and openly licensed distribution of Apache Cordova. Picture Cordova to be the engine upon which PhoneGap and its related services (i.e. emulation and build services) are built. For existing PhoneGap developers nothing has changed; but for those who are interested in contributing to the project Apache Cordova is a great chance to join a vibrant open source community.
 Adobe continues to play a major role in the project, investing in its ongoing development, and the company decided to keep the PhoneGap name to describe its own distribution of the Cordova project. Other contributors to the Apache Cordova project include Google, RIM, Microsoft, IBM, Nokia, Intel, and Hewlett-Packard.
-
-
 |-src
 
 In the assets/www folder you can edit the HTML/CSS/JS in order to make the app working as per your requirement, in order to debug the app move to the /cordova folder and run the _/debug and _/emulate commands_
