@@ -12,13 +12,15 @@
 |Media=visual
 |Computed value=as specified, but with <url> values made absolute
 |Animatable=Yes
-|CSS percentages=as specified 
+|CSS percentages=as specified
 |Values={{CSS Property Value
 |Data Type=&lt;shape&gt;
 |Description=The following basic shapes can be used to define a clipping region:
 
 * <code>rectangle(&lt;x&gt;, &lt;y&gt;, &lt;width&gt;, &lt;height&gt; [, &lt;rx&gt;, &lt;ry&gt;])</code> defines a rectangle with an origin and a size. The optional arguments '''rx''' and '''ry''' define the "rounded corners" in the horizontal and vertical direction.
-
+* <code>circle(<cx, <cy>, <r>)</code> defines a circle with a center point and a radius.
+* <code>ellipse(<cx, <cy>, <rx>, <ry>)</code> defines a circle with a center point and a radii for the horizontal and vertical directions.
+* <code>polygon(evenodd | nonzero, [<x> <y>]+)</code> defines a polygon specified by the passed point list.
 }}{{CSS Property Value
 |Data Type=&lt;url&gt;
 |Description=URL reference to a &lt;clipPath&gt; element.
