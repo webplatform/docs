@@ -22,7 +22,6 @@ Esta especificación redució el papel de la red y movio la responsabilidad de m
 
 Gopher fue creado por la Universidad de Minnesota. En febrero de 1993, ellos anunciaron que iban a cobrar derechos de licencia para el uso e implementación del servidor Gopher. Como consecuencia, muchas organizaciones comenzaron a buscar alternativas a Gopher.
  
-
 La Organización Europea para la Investigación Nuclear ([http://es.wikipedia.org/wiki/CERN CERN]) en Suiza tenía una alternativa parecida.
 [http://en.wikipedia.org/wiki/Tim_Berners-Lee Tim Berners-Lee] había estado trabajando en un sitema de manejo de información , el el cual el texto podría contener enlaces y referencias de otros trabajos, permitiendo al lector rápidamente saltar de un documento a otro. El había creado un servidor para publicación de este tipo de documento. (Llamado [http://es.wikipedia.org/wiki/Hipertexto hipertexto]) así como un programa para la su lectura, el cual él había llamado WorldWideWeb. Este software fue lanzado por primera vez en 1991, sin embargo, condujo a dos eventos: causar una explosión de popularidad y eventualmente remplazar a Gopher.
 
