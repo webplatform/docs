@@ -33,14 +33,14 @@
 |Description=When you hover on the div height property will gradually change from 100 to 500
 |Code=div
 {
-width:100px;
+height:100px;
 transition: height 2s;
 -moz-transition: height 2s; /* Firefox */
 -webkit-transition: height 2s; /* Safari and Chrome */
 -o-transition: height 2s; /* Opera */
 }
 
-div:hover {width:500px;}
+div:hover {height:500px;}
 }}
 }}
 {{Notes_Section
@@ -115,7 +115,7 @@ To ensure compatibility in the future, applications using this property with a v
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=Animation, Transistions
+|Topic_clusters=Transistions, Animation
 |Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
