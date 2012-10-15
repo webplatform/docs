@@ -4,7 +4,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|The ''':focus''' pseudo-class applies while an element has the focus, i.e. accepts keyboard or mouse events, or other forms of input. }}
+{{Summary_Section|The ''':focus''' pseudo-class applies while an element has the focus, i.e. accepts keyboard or mouse events, or other forms of input.}}
 {{CSS_Selector
 |Content=In an HTML document, an element must receive focus from the user in order to become active and perform its tasks. For example, users must set input focus on a link in order to follow it. Similarly, users must give a [[html/elements/textarea|textarea]] focus in order to enter text into it.
 
@@ -23,16 +23,7 @@ There are several ways to give focus to an element:
 }
 }}
 }}
-{{Notes_Section
-|Import_Notes====Syntax===
-
-selector
-:focus
-===Parameters===
-;''selector'':A CSS simple selector
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 5.11.3
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS 2.1
@@ -55,7 +46,7 @@ selector
 |Notes_rows={{Compatibility Notes Row
 |Browser=Internet Explorer
 |Version=8
-|Note= This pseudo-class requires that Windows Internet Explorer be in IE8 Standards mode rendering.
+|Note=This pseudo-class requires that Windows Internet Explorer be in IE8 Standards mode rendering.
 }}
 }}
 {{See_Also_Section
