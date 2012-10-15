@@ -26,9 +26,9 @@
 <nav>
    <h1>Site Navigation</h1>
    <ul>
-    <li><a href{{=}}"index.html">Home</a></li>
-    <li><a href{{=}}"gallery.html">Photo</a></li>
-    <li><a href{{=}}"news.html">Updates</a></li>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="gallery.html">Photo</a></li>
+    <li><a href="news.html">Updates</a></li>
    </ul>
   </nav>
 </syntaxhighlight>
