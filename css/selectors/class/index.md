@@ -10,7 +10,7 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=For example, the following style rule matches any [[html/elements/p|p]] element whose [[css/selectors/class|class]] attribute has been assigned a space-separated list of values that include the "pastoral" and "marine" class names. This rule matches when class{{=}}"pastoral aqua marine" but does not match when class{{=}}"pastoral blue".
+|Description=For example, the following style rule matches any [[html/elements/p|p]] element whose class attribute has been assigned a space-separated list of values that include the "pastoral" and "marine" class names. This rule matches when class{{=}}"pastoral aqua marine" but does not match when class{{=}}"pastoral blue".
 |Code=&lt;style&gt;
     p.pastoral.marine { color: lightseagreen; }
 &lt;/style&gt;
