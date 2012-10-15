@@ -1,4 +1,6 @@
+{{Page_Title}}
 {{Flags}}
+{{Byline}}
 {{Summary_Section|This chapter describes the predefined objects in core JavaScript: <code>Array</code>, <code>Boolean</code>, <code>Date</code>, <code>Function</code>, <code>Math</code>, <code>Number</code>, <code>RegExp</code>, and <code>String</code>.}}
 {{Tutorial
 |Content===Array Object==
@@ -109,7 +111,7 @@ arr["length"];  // 3
 
 ===Understanding length===
 
-At the implementation level, JavaScript's arrays actually store their elements as standard object properties, using the array index as the property name. The <code>length</code> property is special; it always returns the index of the last element. Remember, Javascript Array indexes are 0-based: they start at 0, not 1. This means that the <code><code>length</code></code> property will be one more than the highest index stored in the array:
+At the implementation level, JavaScript's arrays actually store their elements as standard object properties, using the array index as the property name. The <code>length</code> property is special; it always returns the index of the last element. Remember, Javascript Array indexes are 0-based: they start at 0, not 1. This means that the <code>length</code> property will be one more than the highest index stored in the array:
 
 <syntaxhighlight lang="javascript">
 var cats = [];
@@ -857,6 +859,13 @@ The following table summarizes the methods of <code>String</code> objects.
 <span style="float: left">[[/guides/JavaScript/Working_with_Objects |&laquo; Previous]]</span>[[/guides/JavaScript/Details_of_the_Object_Model|Next &raquo;]]
 
 </div>
+}}
+{{Notes_Section}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section}}
 {{Topics|JavaScript}}
