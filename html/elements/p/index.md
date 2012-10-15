@@ -7,7 +7,7 @@
 {{API_Name}}
 {{Summary_Section|Paragraph element (&lt;p&gt;) represents a paragraph.}}
 {{Markup_Element
-|DOM_interface=[[dom/HTMLParagraphElement|HTMLParagraphElement]]
+|DOM_interface=dom/HTMLParagraphElement
 }}
 {{Examples_Section
 |Not_required=No
