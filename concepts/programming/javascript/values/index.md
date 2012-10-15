@@ -14,21 +14,21 @@
 <h3 id="Data_type_conversion">Data type conversion</h3>
 <p>JavaScript is a dynamically typed language. That means you do not have to specify the data type of a variable when you declare it, and data types are converted automatically as needed during script execution. So, for example, you could define a variable as follows:</p>
 <div style="overflow:hidden;">
-  <syntaxhighlight lang="JavaScript>
+<syntaxhighlight lang="JavaScript">
 var answer = 42;
 </syntaxhighlight>
 </div>
 <p>And later, you could assign the same variable a string value, for example:</p>
-<div style="overflow:hidden;">
-  <pre class="brush: js">
+<div style="overflow:hidden">
+<pre class="brush: js">
 answer = "Thanks for all the fish...";
 </pre>
 </div>
 <p>Because JavaScript is dynamically typed, this assignment does not cause an error message.</p>
 <p>In expressions involving numeric and string values with the + operator, JavaScript converts numeric values to strings. For example, consider the following statements:</p>
 <pre class="brush: js">
-x = "The answer is " + 42 // returns "The answer is 42"
-y = 42 + " is the answer" // returns "42 is the answer"
+var x = "The answer is " + 42 // returns "The answer is 42"
+var y = 42 + " is the answer" // returns "42 is the answer"
 </pre>
 <p>In statements involving other operators, JavaScript does not convert numeric values to strings. For example:</p>
 <pre class="brush: js">
@@ -37,7 +37,7 @@ y = 42 + " is the answer" // returns "42 is the answer"
 </pre>
 <h3 id="Converting_strings_to_numbers">Converting strings to numbers</h3>
 <p>In the case that a value representing a number is in memory as a string, there are methods for conversion.</p>
-<h4 id="parseInt()_and_parseFloat()"><code>parseInt()</code> and <code>parseFloat()</code></h4>
+<h4 id="parseInt()_and_parseFloat()"<code>parseInt()</code> and <code>parseFloat()</code></h4>
 <p>See: <code>[[/js/functions/parseInt|parseInt()]]</code> and <code>[[/js/functions/parseFloat|parseFloat()]]</code> pages.</p>
 <p><code>parseInt</code> will only return whole numbers, so its use is diminished for decimals. Additionally, a best practice for <code>parseInt</code> is to always include the radix parameter. That's because of strings with leading zeroes (like <code>parseInt('016')</code>) which will be treated as octal numbers by default.</p>
 <h4 id="Plus_operator">Plus operator</h4>
