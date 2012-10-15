@@ -365,10 +365,9 @@ lines.";
 var poem = 
 "Roses are red,\n\
 Violets are blue.\n\
-I'm schizophrenic,\n\
-And so am I."
+Comments are green,\n\
+Numeric literals are also red."
 </syntaxhighlight>
-<span class="comment">Note: The preceding joke is both inaccurate and potentially offensive</span>
 <h2 id="Unicode">Unicode</h2>
 <p>Unicode is a universal character-coding standard for the interchange and display of principal written languages. It covers the languages of the Americas, Europe, Middle East, Africa, India, Asia, and Pacifica, as well as historic scripts and technical symbols. Unicode allows for the exchange, processing, and display of multilingual texts, as well as the use of common technical and mathematical symbols. It hopes to resolve internationalization problems of multilingual computing, such as different national character standards. Not all modern or archaic scripts, however, are currently supported.</p>
 <p>The Unicode character set can be used for all known encoding. Unicode is modeled after the ASCII (American Standard Code for Information Interchange) character set. It uses a numerical value and name for each character. The character encoding specifies the identity of the character and its numeric value (code position), as well as the representation of this value in bits. The 16-bit numeric value (code value) is defined by a hexadecimal number and a prefix U, for example, U+0041 represents A. The unique name for this value is LATIN CAPITAL LETTER A.</p>
