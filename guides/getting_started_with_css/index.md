@@ -214,7 +214,7 @@ Inside this attribute you list all the CSS properties and their values. Each pro
  
 If you open this example in a browser you will see that the paragraph with the <code>style</code> attribute is blue with white text and has a different size to the others, as shown in Figure 1.
  
-[[Image:cssbasic.png|Screenshot of the Opera browser showing an applied inline style sheet]]
+[[Image:cssbasic.png|alt=Screenshot of the Opera browser showing an applied inline style sheet]]
  
 Figure 1: Opera shows the paragraph with the applied inline styles differently to the others.
  
@@ -284,6 +284,7 @@ The first question you'll be asking is "why on earth do I need another way to ap
 * As mentioned before, IE6 doesn't support putting the media type at the end of the <code>@import</code> line, so they are not a good way to go if you want to insert multiple stylesheets for different media.
 * You could argue that the code for multiple <code>@import</code> statements is smaller than the code for multiple <code>&lt;link&gt;</code> elements, but this is pretty negligible.
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
 |Desktop_rows=
