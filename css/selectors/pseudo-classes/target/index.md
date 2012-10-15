@@ -9,7 +9,7 @@ A target element can be represented by the <code>:target</code> pseudo-class. If
 ==Example:==
 <syntaxhighlight lang="css">p.note:target</syntaxhighlight>
 
-This selector represents a p element of class note that is the target element of the referring URI.
+This selector represents a [[html/elements/p|p]] element of [[css/selectors/class|class]] note that is the target element of the referring URI.
 
 ==CSS example:==
 Here, the :target pseudo-class is used to make the target element red and place an image before it, if there is one:
