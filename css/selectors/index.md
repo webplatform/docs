@@ -105,35 +105,32 @@ Certain selectors support namespace prefixes. The mechanism by which namespace p
 == Groups of selectors ==
 A comma-separated list of selectors represents the union of all elements selected by each of the individual selectors in the list. (A comma is U+002C.) For example, in CSS when several selectors share the same declarations, they may be grouped into a comma-separated list. White space may appear before and/or after the comma.
 
-<code><pre>
-CSS example:
-
 In this example, we condense three rules with identical declarations into one. Thus,
-
+<syntaxhighlight lang="css">
 h1 { font-family: sans-serif }
 h2 { font-family: sans-serif }
 h3 { font-family: sans-serif }
-
+</syntaxhighlight>
 is equivalent to:
 
+<syntaxhighlight lang="css">
 h1, h2, h3 { font-family: sans-serif }
-</pre></code>
+</syntaxhighlight>
 
 '''Warning''': the equivalence is true in this example because all the selectors are valid selectors. If just one of these selectors were invalid, the entire group of selectors would be invalid. This would invalidate the rule for all three heading elements, whereas in the former case only one of the three individual heading rules would be invalidated. 
 
-<code><pre>
 Invalid CSS example:
-
+<syntaxhighlight lang="css">
 h1 { font-family: sans-serif }
 h2..foo { font-family: sans-serif }
 h3 { font-family: sans-serif }
-
+</syntaxhighlight>
 is not equivalent to:
-
+<syntaxhighlight lang="css">
 h1, h2..foo, h3 { font-family: sans-serif }
-
+</syntaxhighlight>
 because the above selector (h1, h2..foo, h3) is entirely invalid and the entire style rule is dropped. (When the selectors are not grouped, only the rule for h2..foo is dropped.)
-</pre></code>
+
 
 == See also ==
 *[http://www.w3.org/TR/css3-selectors/ Selectors Level 3 Specification]
