@@ -31,11 +31,11 @@ Selectors may range from simple element names to rich contextual representations
 
 === Pseudo-classes ===
 ==== [[css/selectors/pseudo-classes/Dynamic_pseudo-classes|Dynamic pseudo-classes]] ====
-*<code>:link</code>
-*<code>:visited</code>
-*<code>:hover</code>
-*<code>:active</code>
-*<code>:focus</code>
+*<code>[[:css/selectors/pseudo-classes/:link|:link]]</code>
+*<code>[[:css/selectors/pseudo-classes/:visited|:visited]]</code>
+*<code>[[:css/selectors/pseudo-classes/:hover|:hover]]</code>
+*<code>[[:css/selectors/pseudo-classes/:active|:active]]</code>
+*<code>[[:css/selectors/pseudo-classes/:focus|:focus]]</code>
 
 ==== The target pseudo-class ====
 *[[css/selectors/pseudo-classes/:target|<code>:target</code>]]
