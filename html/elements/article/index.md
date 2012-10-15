@@ -20,7 +20,6 @@ When '''article''' elements are nested, the inner article should be related to t
 !CSS Display
 {{!}}block
 {{!}}}
-
 }}
 {{Examples_Section
 |Not_required=No
@@ -47,7 +46,28 @@ When '''article''' elements are nested, the inner article should be related to t
 }}
 {{Compatibility_Section
 |Not_required=No
-|Desktop_rows=
+|Desktop_rows={{Compatibility Table Desktop Row
+|Chrome_supported=Unknown
+|Chrome_version=
+|Chrome_prefixed_supported=Unknown
+|Chrome_prefixed_version=
+|Firefox_supported=Unknown
+|Firefox_version=
+|Firefox_prefixed_supported=Unknown
+|Firefox_prefixed_version=
+|Internet_explorer_supported=Yes
+|Internet_explorer_version=9
+|Internet_explorer_prefixed_supported=Unknown
+|Internet_explorer_prefixed_version=
+|Opera_supported=Unknown
+|Opera_version=
+|Opera_prefixed_supported=Unknown
+|Opera_prefixed_version=
+|Safari_supported=Unknown
+|Safari_version=
+|Safari_prefixed_supported=Unknown
+|Safari_prefixed_version=
+}}
 |Mobile_rows=
 |Notes_rows={{Compatibility Notes Row
 |Browser=Internet Explorer
@@ -57,17 +77,6 @@ When '''article''' elements are nested, the inner article should be related to t
 }}
 {{See_Also_Section
 |Topic_clusters=Document Structure
-|Manual_sections====Related pages (MSDN)===
-*<code>Reference</code>
-*<code>aside</code>
-*<code>figcaption</code>
-*<code>figure</code>
-*<code>footer</code>
-*<code>header</code>
-*<code>hgroup</code>
-*<code>mark</code>
-*<code>nav</code>
-*<code>section</code>
 }}
 {{Topics|HTML}}
 {{External_Attribution
