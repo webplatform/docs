@@ -18,14 +18,16 @@ Esta especificación redució el papel de la red y movio la responsabilidad de m
 
 == The creation of World Wide Web ==
  
-[http://en.wikipedia.org/wiki/Gopher Gopher] was an information retrieval system used in the early 1990s, providing a method of delivering menus of links to files, computer resources and other menus. These menus could cross the boundaries of the current computer and use the Internet to fetch menus from other systems. It was very popular with universities looking to provide campus-wide information and large organizations looking to centralize document storage and management.
+[http://es.wikipedia.org/wiki/Gopher Gopher] fue un sistema de acceso a información utilizado en la década de 1990,  consistente en el acceso a la información a través de menús de enlaces, archivos, recursos informáticos y otros menús. Estos menús podrían cruzar los limites de la informática actual y usar el Internet para buscar menús de otros sistemas. Fue muy popular con las universidades que buscaban proveer información y las grandes organizaciones buscando centralizar el almacenamiento y gestión de documentos.
+
+Gopher fue creado por la Universidad de Minnesota. En febrero de 1993, ellos anunciaron que iban a cobrar derechos de licencia para el uso e implementación del servidor Gopher. Como consecuencia, muchas organizaciones comenzaron a buscar alternativas a Gopher.
  
-Gopher was created by the University of Minnesota. In February, 1993, they announced that it was going to charge licensing fees for the use of their reference implementation of the Gopher server. As a consequence, many organizations started to look for alternatives to Gopher.
- 
-The European Council for Nuclear Research ([http://en.wikipedia.org/wiki/CERN CERN]) in Switzerland had such an alternative. [http://en.wikipedia.org/wiki/Tim_Berners-Lee Tim Berners-Lee] had been working on a information management system, in which text could contain links and references to other works, allowing the reader to quickly jump from document to document. He had created a server for publishing this style of document (called [http://en.wikipedia.org/wiki/Hypertext hypertext]) as well as a program for reading them, which he had called WorldWideWeb. This software had first been released in 1991, however, it took two events to cause an explosion in popularity and the eventual replacement of Gopher.
- 
-On the thirtieth of April 1993 CERN released the source code of WorldWideWeb into the public domain, so anyone could use or build upon the software without charge.
- 
+
+La Organización Europea para la Investigación Nuclear ([http://es.wikipedia.org/wiki/CERN CERN]) en Suiza tenía una alternativa parecida.
+[http://en.wikipedia.org/wiki/Tim_Berners-Lee Tim Berners-Lee] había estado trabajando en un sitema de manejo de información , el el cual el texto podría contener enlaces y referencias de otros trabajos, permitiendo al lector rápidamente saltar de un documento a otro. El había creado un servidor para publicación de este tipo de documento. (Llamado [http://es.wikipedia.org/wiki/Hipertexto hipertexto]) así como un programa para la su lectura, el cual él había llamado WorldWideWeb. Este software fue lanzado por primera vez en 1991, sin embargo, condujo a dos eventos: causar una explosión de popularidad y eventualmente remplazar a Gopher.
+
+El treinta de abril de 1993 CERN liberó el código fuente de la WorldWideWeb en el dominio publico, entonce cualquiera podría usar o basarse en el software de forma gratuita.
+
 Then, later in the same year, the [http://en.wikipedia.org/wiki/National_Center_for_Supercomputing_Applications NCSA] released a program that was a combined web browser and Gopher client, called [http://en.wikipedia.org/wiki/NCSA_Mosaic Mosaic]. This was originally only available on Unix machines and in source code form, but in December 1993 Mosaic provided a new version with installers for both Apple Macintosh and Microsoft Windows. Mosaic rapidly increased in popularity, and with it the Web.
  
 The number of available web browsers increased dramatically, many created by research projects at universities and corporations, such as Telenor (a Norwegian communications company), which created the first version of the Opera browser in 1994.
