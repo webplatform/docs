@@ -1,7 +1,6 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Content=Incomplete,  Compatibility Incomplete
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -33,17 +32,38 @@
 |Specifications={{Related Specification
 |Name=HTML 4.01 Specification
 |URL=http://www.w3.org/TR/html401/struct/text.html#h-9.3.1
-|Status=Recommendation
+|Status=W3C Recommendation
 }}{{Related Specification
 |Name=HTML5
 |URL=http://www.w3.org/TR/html5/the-p-element.html#the-p-element
-|Status=Working Draft
+|Status=W3C Working Draft
 |Relevant_changes=the align attribute is obsolete
 }}
 }}
 {{Compatibility_Section
 |Not_required=No
-|Desktop_rows=
+|Desktop_rows={{Compatibility Table Desktop Row
+|Chrome_supported=Unknown
+|Chrome_version=
+|Chrome_prefixed_supported=Unknown
+|Chrome_prefixed_version=
+|Firefox_supported=Unknown
+|Firefox_version=
+|Firefox_prefixed_supported=Unknown
+|Firefox_prefixed_version=
+|Internet_explorer_supported=Unknown
+|Internet_explorer_version=
+|Internet_explorer_prefixed_supported=Unknown
+|Internet_explorer_prefixed_version=
+|Opera_supported=Unknown
+|Opera_version=
+|Opera_prefixed_supported=Unknown
+|Opera_prefixed_version=
+|Safari_supported=Unknown
+|Safari_version=
+|Safari_prefixed_supported=Unknown
+|Safari_prefixed_version=
+}}
 |Mobile_rows=
 |Notes_rows={{Compatibility Notes Row
 |Browser=Internet Explorer
