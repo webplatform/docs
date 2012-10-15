@@ -17,7 +17,7 @@ Selectors may range from simple element names to rich contextual representations
 === [[css/selectors/attribute_selector|Attribute Selector]] ===
 *<code>[[css/selectors/attributes/existence|[attributename]]]</code>
 *<code>[[css/selectors/attributes/equality|[attributename="val"]]]</code>
-*<code>[[css/selectors/attributes/space|[attributename~="val"]]]</code>
+*<code>[[css/selectors/attributes/whitespace|[attributename~="val"]]]</code>
 *<code>[[css/selectors/attributes/hyphen|[attributename{{!}}="val"]]]</code>
 *<code>[[css/selectors/attributes/prefix|[attributename^="val"]]]</code>
 *<code>[[css/selectors/attributes/suffix|[attributename$="val"]]]</code>
