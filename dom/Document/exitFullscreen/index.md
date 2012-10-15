@@ -7,6 +7,7 @@
 |Parameters=
 |Method_applies_to=dom/document
 |Example_object_name=document
+|Javascript_data_type=void
 }}
 {{Examples_Section
 |Not_required=No
