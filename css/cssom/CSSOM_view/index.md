@@ -24,7 +24,7 @@
 !Description
 {{!}}-
 {{!}}[[css/cssom/properties/height|'''height''']]
-|Gets the height of the rectangle that surrounds the object content.
+{{!}}Gets the height of the rectangle that surrounds the object content.
 {{!}}-
 {{!}}'''innerHeight'''
 {{!}}Gets the height of the window, excluding user interface elements, such as the window frame, toolbars,  and so on.
