@@ -4,7 +4,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Paragraph element (&lt;p&gt;) represents a paragraph.}}
+{{Summary_Section|The '''p''' (for paragraph) element (&lt;p&gt;) represents a paragraph.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLParagraphElement
 |Content=The p element represents a paragraph. It cannot contain block-level elements (including p itself).
@@ -24,7 +24,7 @@
 |Examples={{Single Example
 |Language=HTML
 |Description=This example uses the '''p''' element to create a paragraph.
-|Code=&lt;p&gt;This is a paragraph.&lt;/p&gt;
+|Code=<syntaxhighlight lang="html5">&lt;p&gt;This is a paragraph.&lt;/p&gt;</syntaxhighlight>
 }}
 }}
 {{Notes_Section}}
@@ -71,7 +71,9 @@
 |Note=Windows Internet Explorer 8. In IE8 Standards mode, the '''P''' element is automatically closed when a [[html/elements/table|'''TABLE''']] element is encountered. For example, <code>&lt;p&gt;&lt;table&gt;..&lt;/table&gt;&lt;/p&gt;</code> is now parsed as <code>&lt;p&gt;..&lt;/p&gt;&lt;table&gt;..&lt;/table&gt;</code>. For more information, see HTML Enhancements in Internet Explorer 8 and Defining Document Compatibility.
 }}
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Topic_clusters=Document Structure
+}}
 {{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
