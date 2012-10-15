@@ -8,12 +8,16 @@ Dynamic pseudo-classes do not appear in the document source or document tree. Th
 * [[css/selectors/pseudo-classes/:active|:active]]
 * [[css/selectors/pseudo-classes/:focus|:focus]]
 
-=Examples=
+==Examples==
 <syntaxhighlight lang="css">
-a:link    /* unvisited links */
-a:visited /* visited links */
-a:hover   /* user hovers */
-a:active  /* active links */
+/* unvisited links */
+a:link    
+/* visited links */
+a:visited 
+/* user hovers */
+a:hover   
+/* active links */
+a:active  
 </syntaxhighlight>
 
 An example of combining dynamic pseudo-classes:
