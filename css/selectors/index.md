@@ -9,7 +9,7 @@ Selectors may range from simple element names to rich contextual representations
 {{Basic Page}}
 == CSS Selector Reference ==
 === Type Selector ===
-*[[css/selectors/type_selector|<code>elementname</code>]]
+*[[css/selectors/type|<code>elementname</code>]]
 
 === Universal Selector ===
 *[[css/selectors/universal_selector|<code>*</code>]]
