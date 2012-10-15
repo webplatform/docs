@@ -76,7 +76,11 @@ In the assets/www folder you can edit the HTML/CSS/JS in order to make the app w
 In order to be successful you need to have configured previously some virtual devices using the Android SDK.
 
 == How to extend it ==
-Lorem ipsum dolor
+The PhoneGap application container exposes native operating system functionality to JavaScript-based applications.
+All Cordova APIs consist of two related parts: a JavaScript-based interface that can be accessed within your applications, and the corresponding native class for performing operations in native code. Typically, the JavaScript classes and the native classes have APIs that mirrors each other, so that they are easy to follow. 
+Imagine the JavaScript API as a facade to access the plugin without worrying about the native code that works behind the scene.
+For instance in Android is the ''org.apache.cordova.api.Plugin'' class is the parent class that the main plugin class have to extend. The JavaScript counterpart relies on the the ''cordova.exec'' command in order to handle the communication with the native code.
+Here [https://github.com/phonegap/phonegap-plugins/tree/master/Android https://github.com/phonegap/phonegap-plugins/tree/master/Android] you can find a list of plugins for Android and here [http://docs.phonegap.com/en/2.1.0/guide_plugin-development_index.md.html http://docs.phonegap.com/en/2.1.0/guide_plugin-development_index.md.html] some documentation about how to extend PhoneGap.
 
 == How it's bonr ==
 PhoneGap was originally developed by Nitobi, a company acquired by Adobe in 2011. After it was acquired, Nitobi donated the PhoneGap code base to the Apache Software Foundation (ASF) under the project name Cordova, which is the name of the street in Vancouver where Nitobi’s offices were located and where the company created the first version of the framework.
