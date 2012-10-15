@@ -15,13 +15,13 @@ Selectors may range from simple element names to rich contextual representations
 *[[css/selectors/universal_selector|<code>*</code>]]
 
 === [[css/selectors/attribute_selector|Attribute Selector]] ===
-*<code>[attributename]</code>
-*<code>[attributename="val"]</code>
-*<code>[attributename~="val"]</code>
-*<code>[attributename|="val"]</code>
-*<code>[attributename^="val"]</code>
-*<code>[attributename$="val"]</code>
-*<code>[attributename*="val"]</code>
+*<code>[[css/selectors/attributes/existence|[attributename]]]</code>
+*<code>[[css/selectors/attributes/equality|[attributename="val"]]]</code>
+*<code>[[css/selectors/attributes/space|[attributename~="val"]]]</code>
+*<code>[[css/selectors/attributes/hyphen|[attributename{{!}}="val"]]]</code>
+*<code>[[css/selectors/attributes/prefix|[attributename^="val"]]]</code>
+*<code>[[css/selectors/attributes/suffix|[attributename$="val"]]]</code>
+*<code>[[css/selectors/attributes/substring|[attributename*="val"]]]</code>
 
 === Class Selector ===
 *[[css/selectors/class_selector|<code>.classname</code>]]
@@ -44,9 +44,9 @@ Selectors may range from simple element names to rich contextual representations
 *[[css/selectors/pseudo-classes/:lang|<code>:lang</code>]]
 
 ==== [[css/selectors/pseudo-classes/ui_element_states_pseudo-classes|The UI element states pseudo-classes]] ====
-*<code>:enabled</code>
-*<code>:disabled</code>
-*<code>:checked</code>
+*<code>[[:css/selectors/pseudo-classes/:enabled|:enabled]]</code>
+*<code>[[:css/selectors/pseudo-classes/:disabled|:disabled]]</code>
+*<code>[[:css/selectors/pseudo-classes/:checked|:checked]]</code>
 
 ==== [[css/selectors/pseudo-classes/Structural_pseudo-classes|Structural pseudo-classes]] ====
 *[[css/selectors/pseudo-classes/Structural_pseudo-classes#:root_pseudo-class|<code>:root</code>]]
