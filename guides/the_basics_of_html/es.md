@@ -31,13 +31,13 @@ Entonces más adelante en el mismo año, [http://es.wikipedia.org/wiki/NCSA NCSA
 
 El número de navegadores disponibles aumento dramáticamente, muchos creado por proyectos de investigación en universidades y corporaciones, Por ejemplo Telenor(Una empresa noruega de comunicaciones), que creó la primera versión del navegador Opera en 1994.
  
-=== The browser wars ===
- 
-The popularization of the web brought commercial interests. [http://en.wikipedia.org/wiki/Marc_Andreessen Marc Andreessen] left NCSA and together with [http://en.wikipedia.org/wiki/James_H._Clark Jim Clark] founded Mosaic Communications, later renamed to Netscape Communications Corporation, and started work on what was to become Netscape Navigator. Version 1.0 of the software was released in December 1994.
- 
-Spyglass Inc. (the commercial arm of NCSA) licensed their Mosaic technology to Microsoft to form the basis of Internet Explorer. Version 1.0 was released in August 1995.
- 
-A rapid escalation soon followed, with Netscape and Microsoft each trying to get a competitive edge in terms of the features they support in order to attract developers. This has since become known as the browser wars. Opera maintained a small but steady presence throughout this period, and tried to innovate and support web standards as well as possible in these times.
+=== La guerra de los navegadores ===
+La popularización de la web trajo intereses comerciales.
+[http://en.wikipedia.org/wiki/Marc_Andreessen Marc Andreessen] dejó NCSA y junto con [http://en.wikipedia.org/wiki/James_H._Clark Jim Clark] fundó Mosaic Commnications, más tarde renombrada a netscape Communicatios Corporation, y comenzó a trabajar en lo que se convertiría en Netscape Navigator. La versión 1.0 del software fue liberada en Diciembre de 1994. 
+
+Spyglass Inc, (el brazo comercial de la NCSA) licenció su tecnología Mosaic a Microsoft para formar la base de Internet Explorer. La versión 1.0 fue liberada en Agosto de 1995.
+
+Un rápida escalda pronto siguió, con Netscape y Microsoft cada uno tratando de obtener una ventaja competitiva en términos de características que ellos apoyaban con el fin de atraer desarrolladores. Esto se ha convertido desde entonce en lo conocido como la guerra de los navegadores. Opera Mantuvo una presencia pequeña, pero constante a lo largo de este periodo. Trató de innovar y apoyar los estándares web lo mejor posible en estos tiempos.
 
 == The coming of web standards ==
  
