@@ -39,7 +39,7 @@ var y = 42 + " is the answer" // returns "42 is the answer"
 <p>In the case that a value representing a number is in memory as a string, there are methods for conversion.</p>
 <h4 id="parseInt()_and_parseFloat()"<code>parseInt()</code> and <code>parseFloat()</code></h4>
 <p>See: <code>[[/js/functions/parseInt|parseInt()]]</code> and <code>[[/js/functions/parseFloat|parseFloat()]]</code> pages.</p>
-<p><code>parseInt</code> will only return whole numbers, so its use is diminished for decimals. Additionally, a best practice for <code>parseInt</code> is to always include the radix parameter. That's because of strings with leading zeroes (like <code>parseInt('016')</code>) which will be treated as octal numbers by default.</p>
+<p><code>parseInt</code> will only return whole numbers, so its use is diminished for decimals. Additionally, a best practice for <code>parseInt</code> is to always include the radix parameter. That's because of strings with leading zeroes (like <code>parseInt('016')</code>) which may, by some interpreters, be treated as octal numbers by default.</p>
 <h4 id="Plus_operator">Plus operator</h4>
 <p>An alternative method of retrieving a number from a string is with the <code>+</code> operator.</p>
 <pre class="brush: js">
