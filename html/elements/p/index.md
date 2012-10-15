@@ -8,19 +8,9 @@
 {{Summary_Section|Paragraph element (&lt;p&gt;) represents a paragraph.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLParagraphElement
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=This example uses the '''p''' element to create a paragraph.
-|Code=&lt;p&gt;This is a paragraph.&lt;/p&gt;
-}}
-}}
-{{Notes_Section
-|Notes====Remarks===
-The p element represents a paragraph. It cannot contain block-level elements (including p itself).
-|Import_Notes====HTML information===
+|Content=The p element represents a paragraph. It cannot contain block-level elements (including p itself).
+
+===HTML information===
 {{{!}} class="wikitable"
 {{!}}-
 !Closing Tag
@@ -30,6 +20,15 @@ The p element represents a paragraph. It cannot contain block-level elements (in
 {{!}}block
 {{!}}}
 }}
+{{Examples_Section
+|Not_required=No
+|Examples={{Single Example
+|Language=HTML
+|Description=This example uses the '''p''' element to create a paragraph.
+|Code=&lt;p&gt;This is a paragraph.&lt;/p&gt;
+}}
+}}
+{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=HTML 4.01 Specification
