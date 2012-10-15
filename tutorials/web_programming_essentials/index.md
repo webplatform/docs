@@ -4,10 +4,11 @@
 {{Summary_Section}}
 {{Tutorial
 |Content=* [[tutorials/Introduction_to_the_Web_Standards_Curriculum|Introduction to the Web Standards]]
-* [[tutorials/Programming_-_the_real_basics|Basics of Programming]]
+* [[concepts/programming/programming_basics|Basics of Programming]]
 * [[tutorials/Getting_your_content_online|Getting your content online]]
 * [[tutorials/How does the Internet work|How does the Internet work]]
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
 |Desktop_rows=
