@@ -39,12 +39,13 @@ y = 42 + " is the answer" // returns "42 is the answer"
 <p>In the case that a value representing a number is in memory as a string, there are methods for conversion.</p>
 <h4 id="parseInt()_and_parseFloat()"><code>parseInt()</code> and <code>parseFloat()</code></h4>
 <p>See: <code>[[/js/functions/parseInt|parseInt()]]</code> and <code>[[/js/functions/parseFloat|parseFloat()]]</code> pages.</p>
-<p><code>parseInt</code> will only return whole numbers, so its use is diminished for decimals. Additionally, a best practice for <code>parseInt</code> is to always include the radix parameter.</p>
+<p><code>parseInt</code> will only return whole numbers, so its use is diminished for decimals. Additionally, a best practice for <code>parseInt</code> is to always include the radix parameter. That's because of strings with leading zeroes (like <code>parseInt('016')</code>) which will be treated as octal numbers by default.</p>
 <h4 id="Plus_operator">Plus operator</h4>
 <p>An alternative method of retrieving a number from a string is with the <code>+</code> operator.</p>
 <pre class="brush: js">
 "1.1" + "1.1" = "1.11.1"
 (+"1.1") + (+"1.1") = 2.2   // Note: the parentheses are added for clarity, not required.</pre>
+<p>The pitfall here is when trying to convert a string <code>'1 some'</code> to a number using plus operator result in a <code>NaN</code> while <code>parseInt</code> is working correctly.</p>
 <h2 id="Variables">Variables</h2>
 <p>You use variables as symbolic names for values in your application. The names of variables, called <em>identifiers</em>, conform to certain rules.</p>
 <p>A JavaScript identifier must start with a letter, underscore (_), or dollar sign ($); subsequent characters can also be digits (0-9). Because JavaScript is case sensitive, letters include the characters "A" through "Z" (uppercase) and the characters "a" through "z" (lowercase).</p>
