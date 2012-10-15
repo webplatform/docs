@@ -19,7 +19,7 @@
 |Description=The width and height include the padding size, but they do not include the border or margin.
 }}{{CSS Property Value
 |Data Type=border-box
-|Description=The width and height include the padding and border, but not the margin. 
+|Description=The width and height include the padding and border, but not the margin.
 }}
 }}
 {{Examples_Section
@@ -37,9 +37,9 @@ div{
 {{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=W3C
-|URL=http://dev.w3.org/csswg/css3-ui/#box-sizing
-|Status=Working Draft
+|Name=CSS Basic User Interface Module Level 3
+|URL=http://www.w3.org/TR/css3-ui/#box-sizing
+|Status=W3C Working Draft
 }}
 }}
 {{Compatibility_Section
@@ -68,7 +68,11 @@ div{
 |Safari_prefixed_version=3.1
 }}
 |Mobile_rows=
-|Notes_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=8
+|Note=This property requires Windows Internet Explorer to be in IE8 Standards mode rendering. 
+}}
 }}
 {{See_Also_Section
 |Topic_clusters=Visual Effects
