@@ -1,5 +1,7 @@
 {{Page_Title|The web standards model — HTML CSS and JavaScript}}
 {{Flags
+|High-level issues=Missing Relevant Sections
+|Content=the table is missing  （http://www.w3.org/community/webed/wiki/The_web_standards_model_-_HTML_CSS_and_JavaScript）
 }}
 {{API_Name}}
 {{Summary_Section|Continuing with our course, the [[How does the Internet work|basic building blocks of the Web]] — [[html|HTML]], [[css|CSS]] and [http://www.w3.org/community/webed/wiki/What_can_you_do_with_JavaScript JavaScript] have been introduced. Now it’s time to dig a little deeper and to look at each of these — what they do, and how the three interact with each other to create a web site.|== Introduction ==
@@ -35,7 +37,8 @@ With that in mind, just what is the difference between HTML and XHTML?
 HTML is the oldest web language, and the most common one you'll find on the web - it is a bit more forgiving in terms of strict syntax rules. XHTML on the other hand is a reformulation of HTML as an XML vocabulary, XML being a separate markup language with much stricter syntax rules. The difference between XHTML and HTML doesn't really matter so much any more, unless you find youself working in a web team in the future that has coding guidelines that favour one style or another. If you are using HTML5, which we will be doing throughout this course, then you are free to use HTML or XHTML syntax. Choose whatever you are most comfortable with, as long as you stick to the best practices outlined in the course.
 
 Table 1 shows the main syntax differences between HTML and XHTML.
-                          
+{Table 1 is on this page:http://www.w3.org/community/webed/wiki/The_web_standards_model_-_HTML_CSS_and_JavaScript }
+                         
 <!--{| border="1"
 |-
 !HTML 
