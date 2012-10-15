@@ -29,9 +29,7 @@ El treinta de abril de 1993 CERN liberó el código fuente de la WorldWideWeb en
 
 Entonces más adelante en el mismo año, [http://es.wikipedia.org/wiki/NCSA NCSA] libero un programa que era un navegador web y un cliente Gopher Combinado, llamado [http://es.wikipedia.org/wiki/Mosaic Mosaic]. Esto estuvo originalmente sólo disponible en maquinas Unis y en forma de código fuente, pero en Diciembre de 1993 Mosaic proporcionó una nueva versión con instaladores para Apple macintosh y Miscrosoft Windows. La popularidad de Mosaic aumento rápidamente y con él la Web.
 
-El número de navegadores disponibles aumento dramáticamente, muchos creado por proyectos de investigación en universidades y corporaciones, Por ejemplo Telenor(
-
-The number of available web browsers increased dramatically, many created by research projects at universities and corporations, such as Telenor (Una empresa noruega de comunicaciones), la cual creo la primera versión del navegador Opera en 1994.
+El número de navegadores disponibles aumento dramáticamente, muchos creado por proyectos de investigación en universidades y corporaciones, Por ejemplo Telenor(Una empresa noruega de comunicaciones), que creó la primera versión del navegador Opera en 1994.
  
 === The browser wars ===
  
