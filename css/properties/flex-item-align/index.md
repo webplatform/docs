@@ -5,9 +5,7 @@
 }}
 {{Standardization_Status|Non-Standard}}
 {{API_Name}}
-{{Summary_Section|Gets or sets a value that specifies the alignment (perpendicular to the layout axis defined by the -ms-flex-direction property) of child elements of the object.
-
-}}
+{{Summary_Section|Gets or sets a value that specifies the alignment (perpendicular to the layout axis defined by the [[-ms-flex-direction]] property) of child elements of the object.}}
 {{CSS Property
 |Initial value=auto
 |Applies to=flexbox items
@@ -46,7 +44,6 @@ The child element that occupies the most space, perpendicular to the layout axis
 }}
 {{Notes_Section
 |Usage=This property is read/write.
-
 |Import_Notes====Syntax===
 <code>'''-ms-flex-item-align: '''auto '''{{!}}''' start '''{{!}}''' end '''{{!}}''' center '''{{!}}''' baseline '''{{!}}''' stretch</code>
 ===Standards information===
