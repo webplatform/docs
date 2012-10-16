@@ -9,6 +9,7 @@
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=dom/Element
+|Javascript_data_type=void
 }}
 {{Examples_Section
 |Not_required=No
