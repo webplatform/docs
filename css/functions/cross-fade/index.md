@@ -11,7 +11,7 @@ This effect is generally accomplished by carefully positioning two images in the
 That approach is of course not optimal, and requires considerable finesse in the CSS coding as well as some scripting ability. 
 A straightforward CSS-only solution to image combination would be both easier to understand and simpler to code.
 
-[http://www.w3.org/TR/2012/WD-css4-images-20120911/#cross-fade-functionPart of the "CSS Image Values and Replaced Content Module Level 4" specification] introduces this feature into CSS. 
+[http://www.w3.org/TR/2012/WD-css4-images-20120911/#cross-fade-function Part of the "CSS Image Values and Replaced Content Module Level 4" specification] introduces this feature into CSS. 
 
 ==Use==
 The <code>cross-fade()</code> function takes three parameters: the two images to be combined and the percentage of combination. The percentage may be thought of as a transparency value for the "bottom" image, although technically neither image is really on top of the other, they are merely rendered together.
@@ -28,11 +28,11 @@ The image URLs may be in either order, and may be coded with or without quotes; 
 
 For the following examples, we will use two images, each sized at 200px by 200px. The first, white.png, is a white-filled box with a 5-pixel blue border. The second, black.png, is a black-filled box with a 5-pixel red border. Thus, cross-fading the two images at different percentages should yield boxes of varying grays with borders of varying magentas. Here are the original images:
 
-[[image:white.png]]<br/>
-''white.png''
+[[image:white.png|alt=white filled box with 5-pixels blue border|white.png]]<br/>
 
-[[Image:black.png]]<br/>
-''black.png''
+
+[[Image:black.png|alt=black-filled box with a 5-pixel red border|black.png]]<br/>
+
 
 ===A 50% cross-fade===
 First, let's set up an empty <code>&lt;div&gt;</code> to contain the images.
@@ -55,8 +55,8 @@ But that's kind of boring, so let's replace the simple background image with a c
 
 The 50% cross-fade renders as an evenly-merged black/white (gray) box with an evenly-merged blue/red (magenta) border.
 
-[[Image:fifty.png]]<br/>
-''A 50% cross-fade''
+[[Image:fifty.png|alt=evenly-merged black/white (gray) box with an evenly-merged blue/red (magenta) border|A 50% cross-fade]]<br/>
+
 
 ===Other cross-fade percentages===
 Here are the code samples and their results for the same two images, cross-faded first at 25% and then at 75%. 
@@ -67,15 +67,15 @@ Note that the visual results are exactly what you would intuitively expect based
 <div style="width:200px; height:200px; background-image:cross-fade(url(white.png), url(black.png), 25%);"></div>
 </syntaxhighlight>
 
-[[Image:twentyfive.png]]<br/>
-''A 25% cross-fade''
+[[Image:twentyfive.png|alt=A 25% cross-fade|A 25% cross-fade]]<br/>
+
 
 <syntaxhighlight language="css">
 <div style="width:200px; height:200px; background-image:cross-fade(url(white.png), url(black.png), 75%);"></div>
 </syntaxhighlight>
 
-[[Image:seventyfive.png]]<br/>
-''A 75% cross-fade''
+[[Image:seventyfive.png|alt=A 75% cross-fade|A 75% cross-fade]]<br/>
+
 
 ==Simplifying the code==
 Clearly, that's a lot of code to put on individual HTML elements, especially if the effect is repeated in the page.
