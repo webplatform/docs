@@ -1,20 +1,19 @@
+{{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
+|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
 }}
-{{Standardization_Status|}}
+{{Standardization_Status|Non-Standard}}
 {{API_Name}}
+{{Summary_Section}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
 }}
-{{Topics|HTML}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Description=This example uses the '''XML''' element to define a simple XML data island that can be embedded directly in an HTML page.
-|LiveURL=
-|Code=
-&lt;XML ID{{=}}"oMetaData"&gt;
+|Code=&lt;XML ID{{=}}"oMetaData"&gt;
   &lt;METADATA&gt;
      &lt;AUTHOR&gt;John Smith&lt;/AUTHOR&gt;
      &lt;GENERATOR&gt;Visual Notepad&lt;/GENERATOR&gt;
@@ -22,36 +21,26 @@
      &lt;ABSTRACT&gt;Specifies a data island&lt;/ABSTRACT&gt;
   &lt;/METADATA&gt;
 &lt;/XML&gt;
-}}
-{{Single_Example
+}}{{Single Example
 |Description=This example uses the [[dom/properties/readyState (Link, Img, Input, Style...elements)|'''readyState''']] property of the '''xml''' object to determine whether the XML data island is completely downloaded.
-|LiveURL=
-|Code=
-  if (oMetaData.readyState {{=}}{{=}} "complete")
+|Code=if (oMetaData.readyState {{=}}{{=}} "complete")
       window.alert ("The XML document is ready.");
-}}
-{{Single_Example
+}}{{Single Example
 |Description=This example uses the '''readyState''' property of the '''XMLDOMDocument''' object to determine whether the XML data island is completely downloaded.
-|LiveURL=
-|Code=
-  if (oMetaData.XMLDocument.readyState {{=}}{{=}} 4)
+|Code=if (oMetaData.XMLDocument.readyState {{=}}{{=}} 4)
       window.alert ("The XML document is ready.");
-}}
-{{Single_Example
+}}{{Single Example
 |Description=This script example retrieves the text contained within the '''ABSTRACT''' field of the data island.
-|LiveURL=
-|Code=
-   var oNode {{=}} oMetaData.XMLDocument.selectSingleNode("METADATA/ABSTRACT");
+|Code=var oNode {{=}} oMetaData.XMLDocument.selectSingleNode("METADATA/ABSTRACT");
    alert(oNode.text);
-}}}}
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 The [[dom/properties/readyState (Link, Img, Input, Style...elements)|'''readyState''']] property of the '''XML''' element, available as a string value, corresponds to the '''readyState''' property of the '''XMLDOMDocument''' object, which is available as a long value. The string values correspond to the long values of the XML document object's property as shown in the Examples section.
 The [[apis/xhr/properties/XMLDocument|'''XMLDocument''']] property is the default property.
 This element is available in HTML and script as of Microsoft Internet Explorer 5.
-|Import_Notes=
-===Standards information===
+|Import_Notes====Standards information===
 There are no standards that apply here.
 
 ===Members===
@@ -234,15 +223,22 @@ This property is not supported for Metro style apps using JavaScript.
 |Retrieves a reference to the XML DOM exposed by the object.
 |}
  
-
 }}
-{{See_Also_Section
-|Topic_clusters=html
+{{Related_Specifications_Section
+|Specifications=
 }}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section}}
+{{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
