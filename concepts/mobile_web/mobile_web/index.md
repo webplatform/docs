@@ -16,7 +16,7 @@ The W3C has been pushing the idea of One Web. [This] means making, as far as is 
 
 Having a second web just for mobile devices is contrary to the W3C’s vision and is not what we mean by mobile web. You should refrain as much as is possible from maintaining a second version of your web sites specifically targeted at mobile devices. This requires a bigger initial outlay and becomes a maintenance nightmare. You should be able to create a Web site that offers an acceptable user experience on desktop and mobile browsers.
  
-Using Web Standards and best practices, you should be able to make your site mobile friendly without too much extra work, for example using [[Graceful degradation versus progressive enhancement]]. The mobile web is an ever-growing corner of the market that businesses cannot afford to ignore. In a number of countries, more people use mobile phones to access the Web than desktop computers, and somewhere in 2008 the percentage of the world's population that carries mobile phones broke past the 50% barrier - an estimated 4 billion phones.
+Using Web Standards and best practices, you should be able to make your site mobile friendly without too much extra work, for example using [[tutorials/graceful degradation versus progressive enhancement|Graceful degradation versus progressive enhancement]]. The mobile web is an ever-growing corner of the market that businesses cannot afford to ignore. In a number of countries, more people use mobile phones to access the Web than desktop computers, and somewhere in 2008 the percentage of the world's population that carries mobile phones broke past the 50% barrier - an estimated 4 billion phones.
 
 == Challenges associated with the mobile web ==
  
