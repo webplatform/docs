@@ -9,11 +9,11 @@ Returns the element that is currently displayed fullscreen, or
 <syntaxhighlight lang="javascript">
 function queryFullScreen() {
   if (document.fullscreenElement == null) {
-    // document is not in full-screen mode
+    // no element is in full-screen mode
     return false;
   }
   else {
-    // document is in full-screen mode
+    // an element is in full-screen mode
     return true;
   }
 }
