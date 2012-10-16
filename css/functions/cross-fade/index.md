@@ -4,10 +4,7 @@
 {{API_Name}}
 {{Summary_Section|The CSS cross-fade() function lets overlay two images at a defined transparency.}}
 {{CSS_Function
-|Content=====[http://docs.webplatform.org/wiki/User:Dgash Dave Gash]====
-====Oct. 10, 2012====
-
-==Introduction==
+|Content===Introduction==
 The ability to overlay one image with another and see them both in semi-transparency is a fairly common technique in web pages.
 This effect is generally accomplished by carefully positioning two images in the same space, one on top of the other, and then tweaking their opacity. The effect can be further enhanced by using JavaScript to manipulate the positions and/or the opacity.
 
