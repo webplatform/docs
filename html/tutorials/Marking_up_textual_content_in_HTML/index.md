@@ -272,7 +272,7 @@ This makes the size of the text inside bigger — this should be achieved with C
 == Summary ==
  
 In this article, we have talked about some of the most common elements
-used when marking up textual content. In the next article, [[HTML lists]], you will
+used when marking up textual content. In the next article, [[guides/html lists|HTML lists]], you will
 progress to another type of content: lists of items.
 
 Note: This material was originally published as part of the Opera Web Standards Curriculum, available as [http://dev.opera.com/articles/view/15-marking-up-textual-content-in-html/ 15: Marking up textual content in HTML], written by Mark Norman Francis. Like the original, it is published under the [http://creativecommons.org/licenses/by-nc-sa/2.5/ Creative Commons Attribution, Non Commercial - Share Alike 2.5] license.
