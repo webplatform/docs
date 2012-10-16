@@ -5,10 +5,10 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|XMLHttpRequest is the basic part of AJAX. It allows a website to dynamically request more content, without loading the page.}}
+{{Summary_Section|XMLHttpRequest is the most basic part of AJAX. It allows a website to dynamically request more content, without loading the page.}}
 {{API_Object
 |Overview=The '''XMLHttpRequest''' property is available on the '''window''' object.
- <code>var xhr {{=}} new XMLHttpRequest;</code>
+ <code>var xhr {{=}} new XMLHttpRequest();</code>
 With the '''XMLHttpRequest''' object, clients can retrieve and submit XML data directly to a web server without reloading the document. To convert XML data into renderable HTML content, use the client-side XML DOM or Extensible Stylesheet Language Transformations (XSLT) to compose HTML elements for presentation.
 }}
 {{Examples_Section
@@ -30,7 +30,7 @@ xhr.send();
 }}
 }}
 {{Notes_Section
-|Notes=In earlier versions of Windows Internet Explorer (earlier than 7), there is no native XMLHttpRequest object. The XMLHTTP ActiveX object emulates the same functionality. While the native XMLHttpRequest object also supports the use of expandos (custom properties) and properly recognizes the 'this' notation of JavaScript, the ActiveX version does not.
+|Notes=Windows Internet Explorer earlier than version 7 does not implement the native XMLHttpRequest object. The XMLHTTP ActiveX object emulates the same functionality. While the native XMLHttpRequest object also supports the use of expandos (custom properties) and properly recognizes the 'this' notation of JavaScript, the ActiveX version does not.
 To support versions of Windows Internet Explorer prior to Internet Explorer 7, use the following function to get the '''XMLHttpRequest''' object.
  <code>function getXMLHttpRequest() 
  {
@@ -153,7 +153,11 @@ This property is not available for Metro style apps using JavaScript.
  
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=XMLHttpRequest
+|URL=http://www.w3.org/TR/XMLHttpRequest/
+|Status=Work
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
