@@ -31,7 +31,7 @@ Each child element is resized to its minimum width or height before the object i
 Each successive rows is inserted below the previous row when [[css/properties/ms-box-direction|'''-ms-box-direction''']] is set to <code>normal</code> or above the previous row when '''-ms-box-direction''' is set to <code>reverse</code>.
 Each successive column is inserted to the right of the previous column when [[css/properties/ms-box-direction|'''-ms-box-direction''']] is set to <code>normal</code> or to the left of the previous column when '''-ms-box-direction''' is set to <code>reverse</code>.
 |Import_Notes====Syntax===
-<code>'''-ms-box-lines: '''single '''{{!}}''' multiple</code>
+<code>'''&#150;ms-box-lines: '''single '''{{!}}''' multiple</code>
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}223142 Flexible Box Layout Module], Section 7
 }}
