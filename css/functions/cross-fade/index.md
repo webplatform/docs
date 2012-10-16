@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|The CSS cross-fade() function lets overlay an image on top of another at a defined transparency.}}
+{{Summary_Section|The CSS cross-fade() function lets overlay two images at a defined transparency.}}
 {{CSS_Function
 |Content=====[http://docs.webplatform.org/wiki/User:Dgash Dave Gash]====
 ====Oct. 10, 2012====
@@ -137,7 +137,6 @@ The result is a classic (if somewhat kitschy) wolf-on-moon combo.
 
 [[Image:wolfmoon.png]]<br/>
 ''Wolf on moon''
-
 }}
 {{Examples_Section
 |Not_required=Yes
@@ -147,7 +146,7 @@ The result is a classic (if somewhat kitschy) wolf-on-moon combo.
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Image Values and Replaced Content Module Level 4
-|URL=http://www.w3.org/TR/css4-images/#cross-fade-function 
+|URL=http://www.w3.org/TR/css4-images/#cross-fade-function
 |Status=W3C Working Draft
 }}
 }}
