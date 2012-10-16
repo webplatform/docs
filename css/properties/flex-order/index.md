@@ -5,7 +5,9 @@
 }}
 {{Standardization_Status|Non-Standard}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Gets or sets a value that specifies the ordinal group that a flexbox element belongs to. This ordinal value identifies the display order for the group.
+
+}}
 {{CSS Property
 |Initial value=0
 |Applies to=flexbox items
@@ -22,6 +24,8 @@
 |Examples=
 }}
 {{Notes_Section
+|Usage=This property is read/write.
+
 |Import_Notes====Syntax===
 <code>'''-ms-flex-order: '''''
 &lt;integer&gt;
