@@ -1,7 +1,7 @@
 {{Page_Title|CSS cross-fade() function}}
 {{Flags
-|Content=Error
-|Editorial notes={{Editorial/Error
+|Content=Errors
+|Editorial notes={{Editorial/Errors
 | the syntax used in the article doesn't match what the spec says
 }}
 }}
