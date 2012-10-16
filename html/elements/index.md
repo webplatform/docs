@@ -51,7 +51,7 @@ This is the list of HTML and related Elements from the past to the present.
 * [[html/elements/nav|nav]]
 * [[html/elements/article|article]]
 * [[html/elements/aside|aside]]
-* [[html/elements/h1, h2, h3, h4, h5, and h6|h1, h2, h3, h4, h5, and h6]]
+* [[html/elements/hn|h1, h2, h3, h4, h5, and h6]]
 * [[html/elements/hgroup|hgroup]]
 * [[html/elements/header|header]]
 * [[html/elements/footer|footer]]
