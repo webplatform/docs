@@ -40,7 +40,7 @@ Now your stylesheet can use one rule to specify borders around both lists:
  
 The result looks like:
 
-<p class="note">Note: provide screenshot to show what result should look like</p>
+[[Image:layout-fundamentals-fig-1.png|alt=Screenshot of the Mozilla Firefox browser showing paragraph tags within a structural div container]]
   
 === Size units ===
  
@@ -162,6 +162,7 @@ If you are designing stylesheets to work in many browsers, then you also need to
 <li><p>In the [[Floats]] example, add padding to separate the text from the right border by 0.5 em.</p></li>
 </ol>
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
 |Desktop_rows=
