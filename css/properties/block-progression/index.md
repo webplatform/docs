@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|Non-Standard}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Sets or retrieves the block progression and layout orientation.}}
 {{CSS Property
 |Applies to=All elements
 |Inherited=No
