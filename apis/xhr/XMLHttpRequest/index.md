@@ -5,69 +5,32 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
-{{API_Object}}
+{{Summary_Section|XMLHttpRequest is the basic part of AJAX. It allows a website to dynamically request more content, without loading the page.}}
+{{API_Object
+|Overview=The '''XMLHttpRequest''' property is available on the '''window''' object.
+ <code>var xhr {{=}} new XMLHttpRequest;</code>
+With the '''XMLHttpRequest''' object, clients can retrieve and submit XML data directly to a web server without reloading the document. To convert XML data into renderable HTML content, use the client-side XML DOM or Extensible Stylesheet Language Transformations (XSLT) to compose HTML elements for presentation.
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
-|Description=The following script demonstrates how to create and use the '''XMLHttpRequest''' object. For best client-side performance, the XMLHTTP request is asynchronous and uses an [[apis/xhr/events/readystatechange|'''onreadystatechange''']] event handler to process the data returned by the call. The script uses the '''getXMLHttpRequest()''' function defined above to create the request object.
-|Code=function handler()
-{
-    if (oReq.readyState {{=}}{{=}} 4 /* complete */) {
-        if (oReq.status {{=}}{{=}} 200) {
-            console.log(oReq.responseText);
+|Description=The following script demonstrates how to create and use the '''XMLHttpRequest''' object. For best client-side performance, the request is asynchronous and uses an [[apis/xhr/events/readystatechange|'''onreadystatechange''']] event handler to process the data returned by the call.
+|Code=function handler() {
+  if (xhr.readyState {{=}}{{=}} 4 /* complete */) {
+    if (xhr.status {{=}}{{=}} 200) {
+            console.log(xhr.responseText);
         }
     }
 }
-var oReq {{=}} getXMLHttpRequest();
-if (oReq !{{=}} null) {
-    oReq.open("GET", "http://localhost/test.xml", true);
-    oReq.onreadystatechange {{=}} handler;
-    oReq.send();
-}
-else {
-    window.console.log("AJAX (XMLHTTP) not supported.");
-}
-}}{{Single Example
-|Language=Other
-|Description=The following example demonstrates the same functionality in VBScript.
-|Code=&lt;script type{{=}}"text/vbscript"&gt;
-Dim objXML
-Function objXML_onreadystatechange()
-    If (objXML.readyState {{=}} 4) Then
-        If (objXML.status {{=}} 200) Then
-            MsgBox objXML.responseText, 0, objXML.statusText
-        End If
-    End If
-End Function
-Function Window_onload()
-    If IsObject(window.XmlHttpRequest) Then
-        objXML {{=}} window.XmlHttpRequest
-    Else
-        Set objXML {{=}} CreateObject("MSXML2.XMLHTTP.3.0")
-    End If
-    objXML.Open "GET", "http://localhost/test.xml", True
-    objXML.OnReadyStateChange {{=}} GetRef("objXML_onreadystatechange")
-    objXML.Send
-End Function
-&lt;/script&gt;
-}}{{Single Example
-|Description=In Internet Explorer 8, the VBScript syntax is not supported, which complicates native support detection somewhat. One way to detect Internet Explorer 8 is by using conditional comments. The following comment detects Internet Explorer 8 when it is not running in compatibility mode. The script sets a global variable that can be checked later when creating the '''XMLHttpRequest''' object.
-|Code=&lt;!--[if IE 8]&gt;&lt;script type{{=}}"text/vbscript"&gt;
-vbIE8 {{=}} True
-&lt;/script&gt;&lt;![endif]--&gt;
-If Not vbIE8 And IsObject(window.XmlHttpRequest) Then ...
+var xhr {{=}} new XMLHttpRequest();
+xhr.open("GET", "http://localhost/test.xml", true);
+xhr.onreadystatechange {{=}} handler;
+xhr.send();
 }}
 }}
 {{Notes_Section
-|Notes====Remarks===
-The '''XMLHttpRequest''' property is available on the '''window''' object.
- <code>var oReq {{=}} new XMLHttpRequest;</code>
-With the '''XMLHttpRequest''' object, clients can retrieve and submit XML data directly to a web server without reloading the document. To convert XML data into renderable HTML content, use the client-side XML DOM or Extensible Stylesheet Language Transformations (XSLT) to compose HTML elements for presentation.
-The native scripting object also supports the use of expandos (custom properties), and properly recognizes the 'this' notation of JavaScript.
-The '''XMLHttpRequest''' property is available on the '''window''' object in Windows Internet Explorer 7.
- <code>var oReq {{=}} new XMLHttpRequest;</code>
+|Notes=In earlier versions of Windows Internet Explorer (earlier than 7), there is no native XMLHttpRequest object. The XMLHTTP ActiveX object emulates the same functionality. While the native XMLHttpRequest object also supports the use of expandos (custom properties) and properly recognizes the 'this' notation of JavaScript, the ActiveX version does not.
 To support versions of Windows Internet Explorer prior to Internet Explorer 7, use the following function to get the '''XMLHttpRequest''' object.
  <code>function getXMLHttpRequest() 
  {
@@ -78,7 +41,7 @@ To support versions of Windows Internet Explorer prior to Internet Explorer 7, 
          try {
              return new ActiveXObject("MSXML2.XMLHTTP.3.0");
          }
-         catch(ex) {
+         catch (ex) {
              return null;
          }
      }
