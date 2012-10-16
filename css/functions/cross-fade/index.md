@@ -1,10 +1,8 @@
 {{Page_Title|CSS cross-fade() function}}
-{{Flags
-|High-level issues=Needs Flags
-}}
-{{Standardization_Status}}
+{{Flags}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|An introduction to the CSS cross-fade() function.}}
+{{Summary_Section|The CSS cross-fade() function lets overlay an image on top of another at a defined transparency.}}
 {{CSS_Function
 |Content=====[http://docs.webplatform.org/wiki/User:Dgash Dave Gash]====
 ====Oct. 10, 2012====
@@ -140,15 +138,6 @@ The result is a classic (if somewhat kitschy) wolf-on-moon combo.
 [[Image:wolfmoon.png]]<br/>
 ''Wolf on moon''
 
-==Support==
-As of this writing (October 2012), CSS <code>cross-fade()</code> is only supported in Google Chrome, and only with the <code>-webkit-</code> prefix. So to use the wolf-on-moon example above in Chrome, you would code:
-
-<syntaxhighlight language="css">
-<div style="background-image:-webkit-cross-fade(url('fullmoon.jpg'), url('wolf.png'), 50%); width:600px; height:600px;"></div>
-</syntaxhighlight>
-
-==See also==
-CSS Image Values and Replaced Content Module Level 4 [http://www.w3.org/TR/2012/WD-css4-images-20120911/#cross-fade-function specification].
 }}
 {{Examples_Section
 |Not_required=Yes
@@ -156,15 +145,41 @@ CSS Image Values and Replaced Content Module Level 4 [http://www.w3.org/TR/2012/
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Image Values and Replaced Content Module Level 4
+|URL=http://www.w3.org/TR/css4-images/#cross-fade-function 
+|Status=W3C Working Draft
+}}
 }}
 {{Compatibility_Section
 |Not_required=Yes
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
+|Desktop_rows={{Compatibility Table Desktop Row
+|Chrome_supported=Unknown
+|Chrome_version=
+|Chrome_prefixed_supported=Yes
+|Firefox_supported=No
+|Firefox_version=
+|Firefox_prefixed_supported=No
+|Firefox_prefixed_version=
+|Internet_explorer_supported=No
+|Internet_explorer_version=
+|Internet_explorer_prefixed_supported=No
+|Internet_explorer_prefixed_version=
+|Opera_supported=No
+|Opera_version=
+|Opera_prefixed_supported=No
+|Opera_prefixed_version=
+|Safari_supported=No
+|Safari_version=
+|Safari_prefixed_supported=No
+|Safari_prefixed_version=
 }}
-{{See_Also_Section}}
+|Mobile_rows=
+|Notes_rows={{Compatibility Notes Row}}
+}}
+{{See_Also_Section
+|Topic_clusters=Visual Effects, Background
+}}
 {{Topics|Graphics, CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
