@@ -5,7 +5,7 @@
 {{Summary_Section|Index page for HTML elements.}}
 {{API_Listing
 |Use_page_title=No
-|List_all_subpages=Yes
+|List_all_subpages=No
 }}
 {{Notes_Section}}
 {{See_Also_Section}}
