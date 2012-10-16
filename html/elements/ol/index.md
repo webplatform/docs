@@ -24,6 +24,14 @@
 &lt;OL TYPE{{=}}A&gt;
 &lt;LI&gt;This is item A.
 &lt;/OL&gt;
+}}{{Single Example
+|Language=HTML
+|Description=The '''ol''' element with the '''type''' attribute:
+|Code=&lt;ol type="lower-alpha"&gt;
+  &lt;li&gt;sample1&lt;/li&gt;
+  &lt;li&gt;sample2&lt;/li&gt;
+  &lt;li&gt;sample3&lt;/li&gt;
+&lt;/ol&gt;
 }}
 }}
 {{Notes_Section
