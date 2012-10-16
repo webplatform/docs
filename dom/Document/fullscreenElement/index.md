@@ -1,5 +1,5 @@
 ==Summary==
-The <code>fullscreenElement</code> property exposes the current full-screen state. If it is <code>null</code>, no document element is in full-screen mode; if it is <code>null</code>, a document element is in full-screen mode.
+The <code>fullscreenElement</code> property exposes the current full-screen state. If it is <code>null</code>, no document element is in full-screen mode; if it is not <code>null</code>, a document element is in full-screen mode.
 
 ==Value==
 Returns the element that is currently displayed fullscreen, or 
