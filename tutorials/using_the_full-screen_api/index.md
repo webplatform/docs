@@ -152,7 +152,7 @@ invokes it on the document. If the document does not support the method, the scr
 
 ==Support==
 This API currently has only partial support in modern browsers. 
-See the compatibility tables in the relevant methods below for the latest information.
+See the compatibility tables in the relevant methods and properties below for the latest information.
 
 ==See also==
 * [[dom/methods/requestFullscreen|requestFullscreen]]
