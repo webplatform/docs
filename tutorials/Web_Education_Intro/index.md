@@ -124,7 +124,7 @@ This section won't go into any code or markup details, and will act as an introd
 # [[A_Short_History_of_JavaScript]]
 # [[Programming - the real basics|Programming - the real basics!]]
 # [[What can you do with JavaScript]]
-# [[Your first look at JavaScript]]
+# [[tutorials/Your first look at JavaScript|Your first look at JavaScript]]
 # [[JavaScript best practices]]
 # [[concepts/programming/the principles of unobtrusive javascript|The principles of unobtrusive JavaScript]]
 # [[JavaScript functions]]
