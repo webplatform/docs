@@ -1,7 +1,8 @@
 {{Page_Title|CSS variables}}
 {{Flags}}
 {{Summary_Section|CSS variables allow to re-use a given value across several CSS rules.}}
-{{Basic Page}}
+{{Guide
+|Content=
 ==Introduction==
 One of the fundamental features of procedural programming languages such as JavaScript is the ability to create a named element called a ''variable'', assign a value to it, and then later retrieve the value by referring to the variable by name. Variables lend power and flexibility to processes, allowing individual values to be abstracted from the code that uses them, and localizing the values for ease of maintenance and reuse. 
 
@@ -110,9 +111,17 @@ h1 { color: red; margin-left: -webkit-var(head-left-margin); }
 h2 { color: green; margin-left: -webkit-var(head-left-margin); }
 h3 { color: blue; margin-left: -webkit-var(head-left-margin); }
 </syntaxhighlight>
-
-==See also==
-[http://dev.w3.org/csswg/css-variables/ W3C CSS Cascading Variables Module Level 1 spec]
+}}
+{{Notes_Section}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section
+|External_links=[http://dev.w3.org/csswg/css-variables/ W3C CSS Cascading Variables Module Level 1 spec]
+}}
 {{Notes_Section}}
 {{Topics|CSS}}
 {{External_Attribution
