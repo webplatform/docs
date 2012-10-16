@@ -4,7 +4,7 @@
 {{API_Name}}
 {{Summary_Section}}
 {{API_Object
-|Subclass_of=HTMLMediaElement
+|Subclass_of=dom/HTMLMediaElement
 }}
 {{Examples_Section
 |Not_required=No
