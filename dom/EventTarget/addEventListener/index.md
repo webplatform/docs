@@ -14,12 +14,12 @@
 |Optional=No
 }}{{Method Parameter
 |Name=handler
-|Data type=DOM Node
+|Data type=function
 |Description=A '''function''' that is called when the event is fired.
 |Optional=No
 }}{{Method Parameter
 |Name=useCapture
-|Data type=String
+|Data type=Boolean
 |Description=A '''Boolean''' value that specifies the event phase to add the event handler for.
 
 While this parameter is officially optional, it may only be omitted in modern browsers.
@@ -106,15 +106,7 @@ If you register multiple identical event handlers on the same event target, the 
 }}
 |Notes_rows=
 }}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*[[dom/document|document]]
-*[[dom/TextNode|TextNode]]
-*[[dom/window]]
-*[[apis/xhr/properties/XMLHttpRequest|XMLHttpRequest]]
-*[[apis/audio-video/AudioTrackList|AudioTrackList]]
-*[[dom/methods/removeEventListener|removeEventListener]]
-}}
+{{See_Also_Section}}
 {{Topics|DOMEvents, DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
