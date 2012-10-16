@@ -17,8 +17,8 @@ With the '''XMLHttpRequest''' object, clients can retrieve and submit XML data d
 |Language=JavaScript
 |Description=The following script demonstrates how to create and use the '''XMLHttpRequest''' object. For best client-side performance, the request is asynchronous and uses an [[apis/xhr/events/readystatechange|'''onreadystatechange''']] event handler to process the data returned by the call.
 |Code=function handler() {
-  if (xhr.readyState {{=}}{{=}} 4 /* complete */) {
-    if (xhr.status {{=}}{{=}} 200) {
+  if (xhr.readyState {{=}}{{=}}{{=}} 4 /* complete */) {
+    if (xhr.status {{=}}{{=}}{{=}} 200) {
             console.log(xhr.responseText);
         }
     }
