@@ -1,0 +1,1 @@
+#REDIRECT [[css/properties/-ms-content-zoom-snap-type]]
