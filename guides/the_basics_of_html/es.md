@@ -50,9 +50,8 @@ En 1994, Tim Berners-Lee fundó la World Wide Web Consortium (W3C) en el Institu
 
 Durante los próximos años, la W3C publicó varias espeficicaciones (llamdas recomendaciones) incluyendo[http://www.w3.org/TR/html401/ HTML 4.01], el formato para [http://www.w3.org/TR/PNG/ PNG images], and [http://www.w3.org/Style/CSS/ Cascading Style Sheets] versiones 1 y 2.
  
-Sin embarco, la W3C no lo hicieron (y todavía no) hacer cumplir sus recomendaciones.
-Los fabricantes sólo tenía que ajustarse a los documentos de la W3C si deseban etiquetar sus productos como W3C--compliant. En la practica, esto no fue un punto importante, ya que casi todos los usuarios de la web no sabían, ni probablemente le importaba, que la W3C era(este es todavía el caso, en gran medida). Por lo tanto, la guera de los navegadores de los noventas continuó sin disminuir.
-However, the W3C did not (and still do not) enforce their recommendations.
+Sin embarco, la W3C no hicieron (y todavía no hacen) cumplir sus recomendaciones.
+Los fabricantes sólo tenía que ajustarse a los documentos de la W3C si deseban etiquetar sus productos como W3C--compliant. En la practica, esto no fue un punto importante, ya que casi todos los usuarios de la web no sabían, ni probablemente le importaba, que la W3C era(este es todavía el caso, en gran medida). Por lo tanto, la guerra de los navegadores de los noventas continuó sin disminuir.
 
 === The Web Standards Project ===
  
