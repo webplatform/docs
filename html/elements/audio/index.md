@@ -373,7 +373,7 @@ This property is not supported for Metro style apps using JavaScript
 |Desktop_rows={{Compatibility Table Desktop Row
 |Feature=Basic Support
 |Chrome_supported=Yes
-|Chrome_version=4
+|Chrome_version=3
 |Chrome_prefixed_supported=Unknown
 |Chrome_prefixed_version=
 |Firefox_supported=Yes
@@ -386,6 +386,72 @@ This property is not supported for Metro style apps using JavaScript
 |Internet_explorer_prefixed_version=
 |Opera_supported=Yes
 |Opera_version=10.5
+|Opera_prefixed_supported=Unknown
+|Opera_prefixed_version=
+|Safari_supported=Yes
+|Safari_version=4
+|Safari_prefixed_supported=Unknown
+|Safari_prefixed_version=
+}}{{Compatibility Table Desktop Row
+|Feature=OGG (Vorbis)
+|Chrome_supported=Yes
+|Chrome_version=3
+|Chrome_prefixed_supported=Unknown
+|Chrome_prefixed_version=
+|Firefox_supported=Yes
+|Firefox_version=3.5
+|Firefox_prefixed_supported=Unknown
+|Firefox_prefixed_version=
+|Internet_explorer_supported=No
+|Internet_explorer_version=
+|Internet_explorer_prefixed_supported=Unknown
+|Internet_explorer_prefixed_version=
+|Opera_supported=Yes
+|Opera_version=10.5
+|Opera_prefixed_supported=Unknown
+|Opera_prefixed_version=
+|Safari_supported=Unknown
+|Safari_version=
+|Safari_prefixed_supported=Unknown
+|Safari_prefixed_version=
+}}{{Compatibility Table Desktop Row
+|Feature=WAV (PCM)
+|Chrome_supported=Yes
+|Chrome_version=8
+|Chrome_prefixed_supported=Unknown
+|Chrome_prefixed_version=
+|Firefox_supported=Yes
+|Firefox_version=3.5
+|Firefox_prefixed_supported=Unknown
+|Firefox_prefixed_version=
+|Internet_explorer_supported=Unknown
+|Internet_explorer_version=
+|Internet_explorer_prefixed_supported=Unknown
+|Internet_explorer_prefixed_version=
+|Opera_supported=Unknown
+|Opera_version=
+|Opera_prefixed_supported=Unknown
+|Opera_prefixed_version=
+|Safari_supported=Yes
+|Safari_version=4
+|Safari_prefixed_supported=Unknown
+|Safari_prefixed_version=
+}}{{Compatibility Table Desktop Row
+|Feature=MP3
+|Chrome_supported=Yes
+|Chrome_version=3
+|Chrome_prefixed_supported=Unknown
+|Chrome_prefixed_version=
+|Firefox_supported=No
+|Firefox_version=
+|Firefox_prefixed_supported=Unknown
+|Firefox_prefixed_version=
+|Internet_explorer_supported=Yes
+|Internet_explorer_version=9
+|Internet_explorer_prefixed_supported=Unknown
+|Internet_explorer_prefixed_version=
+|Opera_supported=Unknown
+|Opera_version=
 |Opera_prefixed_supported=Unknown
 |Opera_prefixed_version=
 |Safari_supported=Yes
@@ -426,7 +492,7 @@ This property is not supported for Metro style apps using JavaScript
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows={{Compatibility Notes Row
-|Browser=Safari (and WebKit wrappers)
+|Browser=Mobile Safari (and WebKit wrappers)
 |Note=Audio is always played using a full screen player.
 }}
 }}
