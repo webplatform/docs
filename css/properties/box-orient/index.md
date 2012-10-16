@@ -36,7 +36,7 @@ Child elements are displayed along the inline axis.
 }}
 {{Notes_Section
 |Import_Notes====Syntax===
-<code>'''-ms-box-orient: '''horizontal '''{{!}}''' vertical '''{{!}}''' inline-axis '''{{!}}''' block-axis '''{{!}}''' inherit</code>
+<code>'''&#150;ms-box-orient: '''horizontal '''{{!}}''' vertical '''{{!}}''' inline-axis '''{{!}}''' block-axis '''{{!}}''' inherit</code>
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}223142 Flexible Box Layout Module], Section 2
 }}
