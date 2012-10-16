@@ -13,10 +13,17 @@
 |Description=The type of event [[dom/properties/type (event)|'''type''']] to register.
 |Optional=No
 }}{{Method Parameter
-|Name=useCapture
+|Name=handler
 |Data type=DOM Node
-|Description=A '''Boolean''' value that specifies the event phase to add the event handler for.
+|Description=A '''function''' that is called when the event is fired.
 |Optional=No
+}}{{Method Parameter
+|Name=useCapture
+|Data type=String
+|Description=A '''Boolean''' value that specifies the event phase to add the event handler for.
+
+While this parameter is officially optional, it may only be omitted in modern browsers.
+|Optional=Yes
 }}
 |Method_applies_to=dom/Node
 |Example_object_name=node
@@ -31,8 +38,6 @@
 Events are handled in two phases: capturing and bubbling. During the capturing phase, events are dispatched to parent objects before they are dispatched to event targets that are lower in the object hierarchy. During the bubbling phase, events are dispatched to target elements first and then to parent elements. You can register event handlers for either event phase. For more information, see [[dom/properties/eventPhase|'''eventPhase''']].
 '''Note'''   Some events, such as [[dom/events/focus|'''onfocus''']], do not bubble. However, you can capture all events. You cannot capture events by elements that are not parents of the target element.
 If you register multiple identical event handlers on the same event target, the duplicate event handlers are discarded.
-|Import_Notes====Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203756 Document Object Model (DOM) Level 3 Events Specification], Section 4.3
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
