@@ -23,7 +23,7 @@
 }}
 {{Notes_Section
 |Import_Notes====Syntax===
-<code>'''-ms-box-ordinal-group: '''''
+<code>'''&#150;ms-box-ordinal-group: '''''
 &lt;integer&gt;
 ''</code>
 ===Standards information===
