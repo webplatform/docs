@@ -1,9 +1,9 @@
 {{Page_Title|CSS variables}}
 {{Flags}}
+{{Byline}}
 {{Summary_Section|CSS variables allow to re-use a given value across several CSS rules.}}
 {{Guide
-|Content=
-==Introduction==
+|Content===Introduction==
 One of the fundamental features of procedural programming languages such as JavaScript is the ability to create a named element called a ''variable'', assign a value to it, and then later retrieve the value by referring to the variable by name. Variables lend power and flexibility to processes, allowing individual values to be abstracted from the code that uses them, and localizing the values for ease of maintenance and reuse. 
 
 Historically, this feature has not been available in most declarative languages. In CSS, for example, in order to use a single value (e.g., a color) throughout a document, the value must be coded separately each time it is used. This scatters the various instances of the value, making it difficult to maintain and impossible to reuse.
@@ -99,30 +99,41 @@ h1 { color: var(head-color); }
 
 While syntactically correct, "20px" is not a valid value for the <code>color</code> property, so the <code>h1</code> rule will be discarded.
 
-==Support==
-As of this writing (October 2012), CSS variables are only supported in Google Chrome, and only with the <code>-webkit-</code> prefix, and then only with a specific runtime flag turned on. To turn on the flag, go to <code>about:flags</code>, find "Enable CSS Variables", click <code>Enable</code>, and then restart Chrome (there is a Relaunch button on the flags page for that purpose).
 
-So to use the "margins" example above in Chrome (after turning on the runtime flag), you would code:
-
-<syntaxhighlight language="css">
-body { -webkit-var-head-left-margin: 20px; }
-. . .
-h1 { color: red; margin-left: -webkit-var(head-left-margin); }
-h2 { color: green; margin-left: -webkit-var(head-left-margin); }
-h3 { color: blue; margin-left: -webkit-var(head-left-margin); }
-</syntaxhighlight>
 }}
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
-|Desktop_rows=
+|Desktop_rows={{Compatibility Table Desktop Row
+|Chrome_supported=Unknown
+|Chrome_version=
+|Chrome_prefixed_supported=Yes
+|Firefox_supported=Unknown
+|Firefox_version=
+|Firefox_prefixed_supported=Unknown
+|Firefox_prefixed_version=
+|Internet_explorer_supported=Unknown
+|Internet_explorer_version=
+|Internet_explorer_prefixed_supported=Unknown
+|Internet_explorer_prefixed_version=
+|Opera_supported=Unknown
+|Opera_version=
+|Opera_prefixed_supported=Unknown
+|Opera_prefixed_version=
+|Safari_supported=Unknown
+|Safari_version=
+|Safari_prefixed_supported=Unknown
+|Safari_prefixed_version=
+}}
 |Mobile_rows=
-|Notes_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Chrome
+|Note=Needs to turn the "Enable CSS variables" flag in about:flags
+}}
 }}
 {{See_Also_Section
 |External_links=[http://dev.w3.org/csswg/css-variables/ W3C CSS Cascading Variables Module Level 1 spec]
 }}
-{{Notes_Section}}
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
@@ -130,3 +141,4 @@ h3 { color: blue; margin-left: -webkit-var(head-left-margin); }
 |MSDN_link=
 |HTML5Rocks_link=
 }}
+{{Notes_Section}}
