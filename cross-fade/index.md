@@ -1,1 +1,1 @@
-#REDIRECT [[css/cross-fade]]
+#REDIRECT [[css/functions/cross-fade]]
