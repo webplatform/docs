@@ -46,13 +46,13 @@ Durante la guerra de los navegadores, Microsoft y Netscape se enfocaron en la im
 Los desarrolladores de la época fueron forzados a hacer frente los problemas cada vez más confusos cuando traban de crear sitios webs, algunas veces hasta el punto de crear dos sitios diferentes, pero duplicados para los dos navegadores principales, y otra veces sólo escogían soportar sólo un navegador y bloquear los otros utilicen su sitio. Esta fue una terrible manera de trabajar y la inevitable reacción de los navegadores estaba por llegar.
  
 === La formación de la W3C ===
-En 1994
+En 1994, Tim Berners-Lee fundó la World Wide Web Consortium (W3C) en el Instituto Tecnológico de Massachusetts, con el apoyo de CERN, DARPA y la Comisión Europea. La visión de la W3C era estandarizar los protocolos y las tecnologías usadas para construir la web  de manera que el contenido estaría disponible para la población de el mundo como fuera posible.
 
-In 1994, Tim Berners-Lee founded the World Wide Web Consortium (W3C) at the Massachusetts Institute of Technology, with support from CERN, DARPA (as ARPA had been renamed to) and the European Commission. The W3C’s vision was to standardize the protocols and technologies used to build the web such that the content would be available to as wide a population of the world as possible.
+Durante los próximos años, la W3C publicó varias espeficicaciones (llamdas recomendaciones) incluyendo[http://www.w3.org/TR/html401/ HTML 4.01], el formato para [http://www.w3.org/TR/PNG/ PNG images], and [http://www.w3.org/Style/CSS/ Cascading Style Sheets] versiones 1 y 2.
  
-During the next few years, the W3C published several specifications (called recommendations) including [http://www.w3.org/TR/html401/ HTML 4.01], the format for [http://www.w3.org/TR/PNG/ PNG images], and [http://www.w3.org/Style/CSS/ Cascading Style Sheets] versions 1 and 2.
- 
-However, the W3C did not (and still do not) enforce their recommendations. Manufacturers only had to conform to the W3C documents if they wished to label their products as W3C-compliant. In practice, this was not a valuable selling point as almost all users of the web did not know, nor probably care, who the W3C were (this is still the case, to a large extent). Consequently, the browser wars of the nineties continued unabated.
+Sin embarco, la W3C no lo hicieron (y todavía no) hacer cumplir sus recomendaciones.
+Los fabricantes sólo tenía que ajustarse a los documentos de la W3C si deseban etiquetar sus productos como W3C--compliant. En la practica, esto no fue un punto importante, ya que casi todos los usuarios de la web no sabían, ni probablemente le importaba, que la W3C era(este es todavía el caso, en gran medida). Por lo tanto, la guera de los navegadores de los noventas continuó sin disminuir.
+However, the W3C did not (and still do not) enforce their recommendations.
 
 === The Web Standards Project ===
  
