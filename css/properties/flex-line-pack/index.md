@@ -5,7 +5,9 @@
 }}
 {{Standardization_Status|Non-Standard}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Gets or sets a value that specifies how a flexbox's lines align within the flexbox when there is extra space along the axis that is perpendicular to the axis defined by the -ms-flex-direction property.
+
+}}
 {{CSS Property
 |Initial value=stretch
 |Applies to=flexbox elements
@@ -37,6 +39,7 @@
 |Examples=
 }}
 {{Notes_Section
+|Usage=This property is read/write.
 |Import_Notes====Syntax===
 <code>'''-ms-flex-line-pack: '''start '''{{!}}''' end '''{{!}}''' center '''{{!}}''' justify '''{{!}}''' distribute '''{{!}}''' stretch</code>
 ===Standards information===
