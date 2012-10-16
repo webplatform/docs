@@ -90,7 +90,7 @@ There are several steps you can take to determine the correct MIME type value to
 
 ==Common MIME Types==
 
-{{{!}}
+{{{!}} class="sortable" {{!}}
 ! MIME Type
 ! File Type
 {{!}}-
