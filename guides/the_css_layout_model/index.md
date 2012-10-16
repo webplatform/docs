@@ -596,7 +596,7 @@ The <code>float</code> property ''does'' come with a few use instructions:
  
 * A <code>float</code> value will only matter if it’s applied to a block element with an explicit <code>width</code>.
 * <code>float</code>, <code>clear</code>, and <code>margin</code> properties all appear ''together'' in style sheet rules meant to create columns within a layout.
-* Causing a floated element to stretch to the bottom of its container is a tricky matter, but not impossible. The common way to do this is referred to as [[faux-columns]].
+* Causing a floated element to stretch to the bottom of its container is a tricky matter, but not impossible. The common way to do this is referred to as [http://www.alistapart.com/articles/fauxcolumns/ faux-columns].
  
 ==== Demonstration 6 ====
  
@@ -887,6 +887,7 @@ In the first example, the <code>clear</code> value of the trailing element is se
  
 This discussion of the <code>clear</code> property is intended as a simple introduction to its effects, while later articles discuss the finer points of technique associated with its use.
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
 |Desktop_rows=
