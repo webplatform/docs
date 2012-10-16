@@ -5,7 +5,9 @@
 }}
 {{Standardization_Status|Non-Standard}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Gets or sets a value that specifies the alignment (perpendicular to the layout axis defined by the [[-ms-flex-direction property]]) of child elements of the object.
+
+}}
 {{CSS Property
 |Initial value=stretch
 |Applies to=flexbox elements
@@ -40,6 +42,8 @@ The child element that occupies the most space, perpendicular to the layout axis
 |Examples=
 }}
 {{Notes_Section
+|Usage=This property is read/write.
+
 |Import_Notes====Syntax===
 <code>'''-ms-flex-align: '''start '''{{!}}''' end '''{{!}}''' center '''{{!}}''' baseline '''{{!}}''' stretch</code>
 ===Standards information===
