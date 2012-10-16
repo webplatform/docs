@@ -1,6 +1,6 @@
 {{Page_Title|Getting started with JavaScript}}
-{{Flags
-}}
+{{Flags}}
+{{Byline}}
 {{Summary_Section|This tutorial provides a brief introduction to JavaScript, for readers who are already familiar with programming concepts}}
 {{Tutorial
 |Content===Why JavaScript?==
@@ -50,7 +50,7 @@ The simplest method for capturing these events, to register event handlers &mdas
 
    <span onclick="alert('Hello World!');"&gt;Click Here&lt;/span&gt;
 
-The JavaScript code you wish to execute can be inlined as the attribute value or you can call a function which has been defined in a <code>&amp;lt;script&gt;</code> block within the HTML page:
+The JavaScript code you wish to execute can be inlined as the attribute value or you can call a function which has been defined in a <code>&lt;script&gt;</code> block within the HTML page:
 <syntaxhighlight>
  <script type="text/javascript">;
    function onclick_callback () {
@@ -271,8 +271,8 @@ The following example allows moving the image of firefox around the page.
 ==Example: Drawing Lines==
 
 <div><span class="inlineIndicaor todoInline">'''FIXME:''' ''Need Content. Or, remove headline''</span></div>
-
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
 |Desktop_rows=
