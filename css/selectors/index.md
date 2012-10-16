@@ -138,7 +138,7 @@ because the above selector (h1, h2..foo, h3) is entirely invalid and the entire 
 == See also ==
 *[http://www.w3.org/TR/css3-selectors/ Selectors Level 3 Specification]
 *[[CSS/Training|CSS Educational Materials for Beginners]]
-*[[CSS/Properties|CSS Properties Reference]]
+*[[css/properties|CSS Properties Reference]]
 
 [[Category:CSS]]
 
