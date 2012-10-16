@@ -1,3 +1,26 @@
+{{Page_Title}}
+{{Flags
+|High-level issues=Merge Candidate
+|Editorial notes=http://docs.webplatform.org/wiki/guides/the_css_layout_model
+}}
+{{Byline}}
+{{Summary_Section}}
+{{Tutorial}}
+{{Notes_Section}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section}}
+{{Topics}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
+}}
 == Introduction ==
  
 At first glance, the CSS layout model is a straightforward affair. Boxes, borders, and margins are fairly simple objects, and CSS syntax provides a simple way to describe their characteristics.
