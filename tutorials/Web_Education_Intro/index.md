@@ -55,7 +55,7 @@ This section won't go into any code or markup details, and will act as an introd
 # [[Doctypes and markup styles]]
 # [[The_HTML_head_element|The HTML &lt;head&gt; element]]
 #* [http://dev.opera.com/articles/view/13-a-html-head-eleme/ Hungarian translation] | [http://dev.opera.com/articles/view/13-the-html-head-element-ja/ Japanese translation] | [http://mosaic.uoc.edu/ac/le/ca/m3/ud1/index.html Catalan translation] | [http://mosaic.uoc.edu/ac/le/es/m3/ud1/index.html Spanish translation]
-# [[More_about_the_document_head|More about the document &lt;head&gt;]]
+# [[More about the document head|More about the document &lt;head&gt;]]
 
 == The HTML body ==
 
@@ -121,16 +121,16 @@ This section won't go into any code or markup details, and will act as an introd
 
 == JavaScript core skills ==
 
-# [[A_Short_History_of_JavaScript]]
-# [[Programming - the real basics|Programming - the real basics!]]
+# [[A Short History of JavaScript]]
+# [[concepts/programming/programming basics|Programming - the real basics!]]
 # [[What can you do with JavaScript]]
 # [[tutorials/Your first look at JavaScript|Your first look at JavaScript]]
-# [[JavaScript best practices]]
+# [[tutorials/javascript best practices|JavaScript best practices]]
 # [[concepts/programming/the principles of unobtrusive javascript|The principles of unobtrusive JavaScript]]
-# [[JavaScript functions]]
-# [[Objects in JavaScript]]
-# [[Traversing the DOM]]
-# [[Creating and modifying HTML]]
+# [[tutorials/javascript functions|JavaScript functions]]
+# [[tutorials/objects in javascript|Objects in JavaScript]]
+# [[tutorials/traversing the dom|Traversing the DOM]]
+# [[tutorials/creating and modifying html|Creating and modifying HTML]]
 # [[Dynamic style - manipulating CSS with JavaScript]]
 # [[Handling events with JavaScript]]
 # [[JavaScript animation]]
