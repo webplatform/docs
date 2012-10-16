@@ -1,17 +1,19 @@
+{{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
+|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
-{{API_Object
-|Subclass_of=
+{{Summary_Section}}
+{{API_Object}}
+{{Examples_Section
+|Not_required=No
+|Examples=
 }}
-{{Topics|DOM}}
 {{Notes_Section
-|Notes=
-===Remarks===
-The [http://go.microsoft.com/fwlink/p/?LinkID{{=}}227812 WebSocket] protocol specification defines two URI schemes ws:// and wss:// for unencrypted and encrypted connections, respectively. For example, you could create a new WebSocket connection with the string "ws://example.com:1234/resource". The URL specifies the host to connect to, the port, and (optionally) the protocols you want to use.
+|Notes====Remarks===
+[http://dev.w3.org/html5/websockets/ The WebSocket API specification] defines two URI schemes ws:// and wss:// for unencrypted and encrypted connections, respectively. For example, you could create a new WebSocket connection with the string "ws://example.com:1234/resource". The URL specifies the host to connect to, the port, and (optionally) the protocols you want to use.
 '''Note'''  Secure connections (wss://) are recommended in most cases because they are more likely to work with proxy servers, which can buffer unencrypted traffic and close long-lived WebSocket connections without warning.
 WebSocket connections are bidirectional; communication can flow in either direction without specific requests and responses. Data can be text or binary.
 To open a use a WebSocket connection, you must follow this procedure:
@@ -24,12 +26,7 @@ To open a use a WebSocket connection, you must follow this procedure:
 *Check to see whether data was sent to you.
 *Close the connection when you are finished with the [[apis/websocket/methods/close|'''close''']] method.
 
- 
- 
-[mailto:wsddocfb@microsoft.com?subject{{=}}Documentation%20feedback [ie_websockets\ie]:%20WebSocket object%20 RELEASE:%20(7/24/2012)&amp;body{{=}}%0A%0APRIVACY STATEMENT%0A%0AThe doc team uses your feedback to improve the documentation. We don't use your email address for any other purpose. We'll remove your email address from our system after the issue that you are reporting is resolved. While we are working to resolve this issue, we may send you an email message to request more info about your feedback. After the issue is addressed, we may send you an email message to let you know that your feedback has been addressed.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx. Send comments about this topic to Microsoft]
-Build date: 7/24/2012
-|Import_Notes=
-===Syntax===
+|Import_Notes====Syntax===
 ===Members===
 The '''WebSocket''' object has these types of members:
 *[#methods Methods]
@@ -52,12 +49,22 @@ The '''WebSocket''' object has these methods.
 |Overloaded. Sends data to the server using a '''WebSocket''' connection.
 |}
  
-
 }}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section}}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
