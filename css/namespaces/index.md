@@ -19,7 +19,7 @@ This rule declares a namespace prefix svg that is used to apply the namespace ht
 
 == See also ==
 *[http://www.w3.org/TR/css3-namespace/CSS Namespaces Module Specification]
-*[[CSS/Training|CSS Educational Materials for Beginners]]
+*[[css/tutorials|CSS Educational Materials for Beginners]]
 *[[css/properties|CSS Properties Reference]]
 *[[CSS/Selectors|CSS Selectors Reference]]
 
