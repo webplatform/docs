@@ -95,7 +95,7 @@ There are several steps you can take to determine the correct MIME type value to
 ! File Type
 {{!}}-
 {{!}} application/javascript
-{{!}} js,jsonp
+{{!}} js, jsonp
 {{!}}-
 {{!}} application/json
 {{!}} json
@@ -122,19 +122,19 @@ There are several steps you can take to determine the correct MIME type value to
 {{!}} xpi
 {{!}}-
 {{!}} application/xml
-{{!}} rss,atom,xml,rdf
+{{!}} rss, atom, xml, rdf
 {{!}}-
 {{!}} audio/mp4
-{{!}} m4a,f4a,f4b
+{{!}} m4a, f4a, f4b
 {{!}}-
 {{!}} audio/ogg
-{{!}} ogg,oga
+{{!}} ogg, oga
 {{!}}-
 {{!}} font/opentype
 {{!}} otf
 {{!}}-
 {{!}} image/svg+xml
-{{!}} svg,svgz
+{{!}} svg, svgz
 {{!}}-
 {{!}} image/webp
 {{!}} webp
@@ -143,7 +143,7 @@ There are several steps you can take to determine the correct MIME type value to
 {{!}} ico
 {{!}}-
 {{!}} text/cache-manifest
-{{!}} appcache,manifest
+{{!}} appcache, manifest
 {{!}}-
 {{!}} text/v-card
 {{!}} vcf
@@ -155,7 +155,7 @@ There are several steps you can take to determine the correct MIME type value to
 {{!}} htc
 {{!}}-
 {{!}} video/mp4
-{{!}} mp4,m4v,f4v,f4p
+{{!}} mp4, m4v, f4v, f4p
 {{!}}-
 {{!}} video/ogg
 {{!}} ogv
@@ -167,7 +167,7 @@ There are several steps you can take to determine the correct MIME type value to
 {{!}} flv
 {{!}}-
 {{!}} x-font-ttf
-{{!}} ttf,ttc
+{{!}} ttf, ttc
 {{!}}}
 
 
