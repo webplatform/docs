@@ -589,7 +589,7 @@ How about removing the “Prologue” annotation from the title, just for demons
  
 === Causing elements to flow around others: the float property ===
 
-[[Image:box_baco.jpg|a cat with bacon taped to his back]] 
+[[Image:box_baco.jpg|left|a cat with bacon taped to his back]] 
 
 A photo is positioned to the left of this paragraph. Practically all of you will see that the following copy flows naturally ''around'' it, though some might need first to cease wondering why a well-known science fiction novelist would tape bacon to his cat—even if he was having a slow day. HTML attributes can be used to specify the layout behaviour you see, but in this instance the results were accomplished with CSS.
  
