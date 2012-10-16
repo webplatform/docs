@@ -22,6 +22,7 @@
 |Examples=
 }}
 {{Notes_Section
+|Usage=Do not use. This property has been replaced by the [[-ms-flex-order]] property, and is no longer recognized by Windows Internet Explorer. To ensure compatibility in the future, applications using this property should be updated accordingly. Gets or sets a value that specifies the ordinal group that a child element of the object belongs to. This ordinal value identifies the display order (along the axis defined by the [[-ms-box-orient]] property) for the group.
 |Import_Notes====Syntax===
 <code>'''&#150;ms-box-ordinal-group: '''''
 &lt;integer&gt;
