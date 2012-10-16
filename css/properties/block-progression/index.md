@@ -35,7 +35,7 @@ In vertical layout, text lines are rotated 90° clockwise. Images are not rotate
 Only one block progression is active at a time; these values cannot be combined. See [[css/properties/writing-mode|'''-ms-writing-mode''']] for additive block progression values.
 This property is based on the block-progression property of the [http://go.microsoft.com/fwlink/p/?linkid{{=}}203505 CSS3 Text Layout] module.
 |Import_Notes====Syntax===
-<code>'''-ms-block-progression: '''tb '''{{!}}''' rl '''{{!}}''' bt '''{{!}}''' lr</code>
+<code>'''&#150;ms-block-progression: '''tb '''{{!}}''' rl '''{{!}}''' bt '''{{!}}''' lr</code>
 ===Standards information===
 There are no standards that apply here.
 }}
