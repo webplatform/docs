@@ -5,45 +5,10 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The audio element is used for playing audio files and may include a minimal media player user interface.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLAudioElement
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Notes====Remarks===
-Beginning with Internet Explorer 9, any audio or video content needs  the correct mime type set on the server, or the files won't play. Internet Explorer 9 supports MP3 audio, and  MP4 audio and video. WebM audio and video files can be supported by installing the WebM components from [http://go.microsoft.com/fwlink/p/?LinkID{{=}}218894 The WebM project]. The following table shows the required settings for your web server to host these files correctly.
-{| class="wikitable"
-|-
-!Media file to serve
-!Extension setting
-!Mime type setting
-|-
-|Audio mp3
-|mp3
-|audio/mpeg
-|-
-|Audio mp4
-|m4a
-|audio/mp4
-|-
-|Audio WebM
-|webm
-|audio/webm
-|-
-|Video mp4
-|mp4
-|video/mp4
-|-
-|Video webm
-|webm
-|video/webm
-|}
- 
-|Import_Notes====Standards information===
+|Content====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}221374 HTML5 A vocabulary and associated APIs for HTML and XHTML], Section 4.8.7
 
 
@@ -363,6 +328,40 @@ This property is not supported for Metro style apps using JavaScript
 |[[apis/audio-video/properties/volume|'''volume''']]
 |Gets or sets the volume level for audio portions of the media element.
 |}
+}}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
+{{Notes_Section
+|Notes====Remarks===
+Beginning with Internet Explorer 9, any audio or video content needs the correct mime type set on the server, or the files won't play. Internet Explorer 9 supports MP3 audio, and  MP4 audio and video. WebM audio and video files can be supported by installing the WebM components from [http://go.microsoft.com/fwlink/p/?LinkID{{=}}218894 The WebM project]. The following table shows the required settings for your web server to host these files correctly.
+{| class="wikitable"
+|-
+!Media file to serve
+!Extension setting
+!Mime type setting
+|-
+|Audio mp3
+|mp3
+|audio/mpeg
+|-
+|Audio mp4
+|m4a
+|audio/mp4
+|-
+|Audio WebM
+|webm
+|audio/webm
+|-
+|Video mp4
+|mp4
+|video/mp4
+|-
+|Video webm
+|webm
+|video/webm
+|}
  
 }}
 {{Related_Specifications_Section
@@ -385,7 +384,29 @@ This property is not supported for Metro style apps using JavaScript
 |Internet_explorer_prefixed_supported=Unknown
 |Internet_explorer_prefixed_version=
 |Opera_supported=Yes
-|Opera_version=10.5
+|Opera_version=10.50
+|Opera_prefixed_supported=Unknown
+|Opera_prefixed_version=
+|Safari_supported=Yes
+|Safari_version=4
+|Safari_prefixed_supported=Unknown
+|Safari_prefixed_version=
+}}{{Compatibility Table Desktop Row
+|Feature=MP3
+|Chrome_supported=Yes
+|Chrome_version=3
+|Chrome_prefixed_supported=Unknown
+|Chrome_prefixed_version=
+|Firefox_supported=No
+|Firefox_version=
+|Firefox_prefixed_supported=Unknown
+|Firefox_prefixed_version=
+|Internet_explorer_supported=Yes
+|Internet_explorer_version=9
+|Internet_explorer_prefixed_supported=Unknown
+|Internet_explorer_prefixed_version=
+|Opera_supported=Unknown
+|Opera_version=
 |Opera_prefixed_supported=Unknown
 |Opera_prefixed_version=
 |Safari_supported=Yes
@@ -407,7 +428,29 @@ This property is not supported for Metro style apps using JavaScript
 |Internet_explorer_prefixed_supported=Unknown
 |Internet_explorer_prefixed_version=
 |Opera_supported=Yes
-|Opera_version=10.5
+|Opera_version=10.50
+|Opera_prefixed_supported=Unknown
+|Opera_prefixed_version=
+|Safari_supported=Unknown
+|Safari_version=
+|Safari_prefixed_supported=Unknown
+|Safari_prefixed_version=
+}}{{Compatibility Table Desktop Row
+|Feature=WebM (Vorbis)
+|Chrome_supported=Yes
+|Chrome_version=6
+|Chrome_prefixed_supported=Unknown
+|Chrome_prefixed_version=
+|Firefox_supported=Yes
+|Firefox_version=4
+|Firefox_prefixed_supported=Unknown
+|Firefox_prefixed_version=
+|Internet_explorer_supported=Unknown
+|Internet_explorer_version=
+|Internet_explorer_prefixed_supported=Unknown
+|Internet_explorer_prefixed_version=
+|Opera_supported=Yes
+|Opera_version=10.60
 |Opera_prefixed_supported=Unknown
 |Opera_prefixed_version=
 |Safari_supported=Unknown
@@ -426,28 +469,6 @@ This property is not supported for Metro style apps using JavaScript
 |Firefox_prefixed_version=
 |Internet_explorer_supported=Unknown
 |Internet_explorer_version=
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
-|Opera_supported=Unknown
-|Opera_version=
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
-|Safari_supported=Yes
-|Safari_version=4
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
-}}{{Compatibility Table Desktop Row
-|Feature=MP3
-|Chrome_supported=Yes
-|Chrome_version=3
-|Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
-|Firefox_supported=No
-|Firefox_version=
-|Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Yes
-|Internet_explorer_version=9
 |Internet_explorer_prefixed_supported=Unknown
 |Internet_explorer_prefixed_version=
 |Opera_supported=Unknown
