@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|Non-Standard}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Deprecated}}
 {{CSS Property
 |Initial value=0.0
 |Applies to=in-flow children of box elements
@@ -29,7 +29,6 @@ A negative value is not valid.
 |Usage=Do not use. This property has been replaced by the [[-ms-flex]] property, and is no longer recognized by Windows Internet Explorer. To ensure compatibility in the future, applications using this property should be updated accordingly. Gets or sets a value that specifies whether the width or height of a child element is flexible based on the space available in the object. This value also indicates the proportion of space available that is allocated to the child element.
 
 This property is read/write.
-
 |Import_Notes====Syntax===
 <code>'''-ms-box-flex: '''''
 &lt;integer&gt;
