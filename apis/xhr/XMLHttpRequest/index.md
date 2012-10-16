@@ -46,11 +46,7 @@ To support versions of Windows Internet Explorer prior to Internet Explorer 7, 
          }
      }
  }</code>
-|Import_Notes====Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203789 XMLHttpRequest], Section 3
-
-
-===Members===
+|Import_Notes====Members===
 The '''XMLHttpRequest''' object has these types of members:
 *[[#Events|Events]]
 *[[#Methods|Methods]]
@@ -156,7 +152,8 @@ This property is not available for Metro style apps using JavaScript.
 |Specifications={{Related Specification
 |Name=XMLHttpRequest
 |URL=http://www.w3.org/TR/XMLHttpRequest/
-|Status=Work
+|Status=Working Draft
+|Relevant_changes=Section 3
 }}
 }}
 {{Compatibility_Section
@@ -166,7 +163,7 @@ This property is not available for Metro style apps using JavaScript.
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|DOM}}
+{{Topics|DOM, XHR}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
