@@ -784,7 +784,7 @@ The Number prototype provides methods for retrieving information from Number obj
 
 ==RegExp Object==
 
-The <code>RegExp</code> object lets you work with regular expressions. It is described in [[/guides/JavaScript/RegExp|Regular Expressions]].
+The <code>RegExp</code> object lets you work with regular expressions. It is described in [[/concepts/programming/javascript/regex]].
 
 ==String Object==
 
