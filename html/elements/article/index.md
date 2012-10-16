@@ -70,7 +70,7 @@ When '''article''' elements are nested, the inner article should be related to t
 }}
 |Mobile_rows={{Compatibility Table Mobile Row
 |Android_supported=Yes
-|Android_version=2.1
+|Android_version=2.2
 |Android_prefixed_supported=Unknown
 |Android_prefixed_version=
 |Blackberry_supported=Yes
@@ -90,15 +90,15 @@ When '''article''' elements are nested, the inner article should be related to t
 |IE_mobile_prefixed_supported=Unknown
 |IE_mobile_prefixed_version=
 |Opera_mobile_supported=Yes
-|Opera_mobile_version=10
+|Opera_mobile_version=11.5
 |Opera_mobile_prefixed_supported=Unknown
 |Opera_mobile_prefixed_version=
-|Opera_mini_supported=Yes
-|Opera_mini_version=5
+|Opera_mini_supported=Unknown
+|Opera_mini_version=
 |Opera_mini_prefixed_supported=Unknown
 |Opera_mini_prefixed_version=
 |Safari_mobile_supported=Yes
-|Safari_mobile_version=3.2
+|Safari_mobile_version=4
 |Safari_mobile_prefixed_supported=Unknown
 |Safari_mobile_prefixed_version=
 }}
