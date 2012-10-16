@@ -377,7 +377,7 @@ This example creates an array with the following rows:
 
 ===Arrays and Regular Expressions===
 
-When an array is the result of a match between a regular expression and a string, the array returns properties and elements that provide information about the match. An array is the return value of [[/js/objects/RegExp/exec|<code>RegExp.exec()</code>]], [[/js/objects/String/match|<code>String.match()</code>]], and [[/js/objects/String/split|<code>String.split()</code>]]. For information on using arrays with regular expressions, see [[/guides/JavaScript/RegEx|Regular Expressions]].
+When an array is the result of a match between a regular expression and a string, the array returns properties and elements that provide information about the match. An array is the return value of [[/js/objects/RegExp/exec|<code>RegExp.exec()</code>]], [[/js/objects/String/match|<code>String.match()</code>]], and [[/js/objects/String/split|<code>String.split()</code>]]. For information on using arrays with regular expressions, see [[concepts/programming/javascript/regex|Regular Expressions]].
 
 ===Working with Array-like objects===
 
