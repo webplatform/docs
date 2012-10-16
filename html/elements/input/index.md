@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|High-level issues=Needs Topics
+|Content=Incomplete,  Compatibility Incomplete,
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -22,7 +22,24 @@
 {{!}}}
 
 The input element behavior varies depending on the value of its [[html/elements/input/type|type]] attribute:
-{{Special:PrefixIndex/html/elements/input/type/}}
+* [[html/elements/input/type/button|type=button]]
+* [[html/elements/input/type/checkbox|type=checkbox]]
+* [[html/elements/input/type/color|type=color]]
+* [[html/elements/input/type/email|type=email]]
+* [[html/elements/input/type/file|type=file]]
+* [[html/elements/input/type/hidden|type=hidden]]
+* [[html/elements/input/type/image|type=image]]
+* [[html/elements/input/type/number|type=number]]
+* [[html/elements/input/type/password|type=password]]
+* [[html/elements/input/type/radio|type=radio]]
+* [[html/elements/input/type/range|type=range]]
+* [[html/elements/input/type/reset|type=reset]]
+* [[html/elements/input/type/search|type=search]]
+* [[html/elements/input/type/submit|type=submit]]
+* [[html/elements/input/type/tel|type=tel]]
+* '''[[html/elements/input/type/text|type=text]]''' (default if type is not set or empty)
+* [[html/elements/input/type/url|type=url]]
+
 }}
 {{Examples_Section
 |Not_required=No
