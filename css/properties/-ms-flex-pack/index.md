@@ -19,7 +19,7 @@
 |Data Type=end
 |Description=Flexbox items are packed toward the end of the line. The ending edge of the first child element is placed at the end of the parent element; the ending edge of the next child element is placed edge to edge with the starting edge of the first child element; and so on along the layout axis direction. All space remaining along the layout axis is placed at the start of the layout axis.
 }}{{CSS Property Value
-|Data Type=center
+|Data Type=MOREcenter
 |Description=Flexbox items are packed toward the center of the line. All child elements are placed edge to edge with each other, as described in the descriptions for the [#start start] or [#end end] keywords. However, the group of child elements is centered between the starting and ending edges of the parent element so that all remaining space is evenly distributed before the first child element and after the last child element.
 }}{{CSS Property Value
 |Data Type=justify
