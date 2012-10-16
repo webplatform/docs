@@ -61,7 +61,7 @@ This section won't go into any code or markup details, and will act as an introd
 
 # [[Marking up textual content in HTML]]
 #* [http://dev.opera.com/articles/view/15-szoveges-reszek-megjelolese/ Hungarian translation] | [http://mosaic.uoc.edu/ac/le/ca/m4/ud1/index.html Catalan translation] | [http://mosaic.uoc.edu/ac/le/es/m4/ud1/index.html Spanish translation]
-# [[HTML lists|HTML Lists]]
+# [[guides/html lists|HTML Lists]]
 #* [http://dev.opera.com/articles/view/16-html-listak/ Hungarian translation] | [http://mosaic.uoc.edu/ac/le/ca/m4/ud2/index.html Catalan translation] | [http://mosaic.uoc.edu/ac/le/es/m4/ud2/index.html Spanish translation]
 # [[Images in HTML]]
 #* [http://dev.opera.com/articles/view/17-kepek-a-htmlben/ Hungarian translation] | [http://mosaic.uoc.edu/ac/le/ca/m4/ud3/index.html Catalan translation] | [http://mosaic.uoc.edu/ac/le/es/m4/ud3/index.html Spanish translation]
