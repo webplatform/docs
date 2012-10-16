@@ -35,6 +35,7 @@ Child elements are displayed along the inline axis.
 |Examples=
 }}
 {{Notes_Section
+|Usage=Do not use. This property has been replaced by the [[-ms-flex-direction]] property, and is no longer recognized by Windows Internet Explorer. To ensure compatibility in the future, applications using this property should be updated accordingly. Gets or sets a value that specifies the orientation in the layout of all child elements of the object.
 |Import_Notes====Syntax===
 <code>'''&#150;ms-box-orient: '''horizontal '''{{!}}''' vertical '''{{!}}''' inline-axis '''{{!}}''' block-axis '''{{!}}''' inherit</code>
 ===Standards information===
