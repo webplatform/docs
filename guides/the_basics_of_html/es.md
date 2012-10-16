@@ -39,14 +39,15 @@ Spyglass Inc, (el brazo comercial de la NCSA) licenció su tecnología Mosaic a 
 
 Un rápida escalda pronto siguió, con Netscape y Microsoft cada uno tratando de obtener una ventaja competitiva en términos de características que ellos apoyaban con el fin de atraer desarrolladores. Esto se ha convertido desde entonce en lo conocido como la guerra de los navegadores. Opera Mantuvo una presencia pequeña, pero constante a lo largo de este periodo. Trató de innovar y apoyar los estándares web lo mejor posible en estos tiempos.
 
-== The coming of web standards ==
+== La llegada de los estándares web ==
+
+Durante la guerra de los navegadores, Microsoft y Netscape se enfocaron en la implementación de nuevas características en lugar de arreglar problemas con las características que ellos ya soportaba, y agregando características propias y creando características que entraran en competencia directa con las características existentes en el otro navegador, pero implementado las caracteres de una forma incompatible.
+
+Los desarrolladores de la época fueron forzados a hacer frente los problemas cada vez más confusos cuando traban de crear sitios webs, algunas veces hasta el punto de crear dos sitios diferentes, pero duplicados para los dos navegadores principales, y otra veces sólo escogían soportar sólo un navegador y bloquear los otros utilicen su sitio. Esta fue una terrible manera de trabajar y la inevitable reacción de los navegadores estaba por llegar.
  
-During the browser wars, Microsoft and Netscape focused on implementing new features rather than on fixing problems with the features they already supported, and adding proprietary features and creating features that were in direct competition with existing features in the other browser, but implemented in an incompatible way.
- 
-Developers at the time were forced to deal with ever increasing levels of confusion when trying to build web sites, sometimes to the extent of building two different but effectively duplicate sites for the two main browsers, and other times just choosing to support only one browser and block others from using their sites. This was a terrible way of working, and the inevitable backlash from developers was not far away.
- 
-=== The formation of the W3C ===
- 
+=== La formación de la W3C ===
+En 1994
+
 In 1994, Tim Berners-Lee founded the World Wide Web Consortium (W3C) at the Massachusetts Institute of Technology, with support from CERN, DARPA (as ARPA had been renamed to) and the European Commission. The W3C’s vision was to standardize the protocols and technologies used to build the web such that the content would be available to as wide a population of the world as possible.
  
 During the next few years, the W3C published several specifications (called recommendations) including [http://www.w3.org/TR/html401/ HTML 4.01], the format for [http://www.w3.org/TR/PNG/ PNG images], and [http://www.w3.org/Style/CSS/ Cascading Style Sheets] versions 1 and 2.
