@@ -32,6 +32,8 @@
 }}
 {{Notes_Section
 |Notes====Remarks===
+Do not use. This property has been replaced by the [[-ms-flex-pack property]], and is no longer recognized by Windows Internet Explorer.
+
 Be aware that these are [[css/properties/writing-mode|'''writing-mode''']] dependent keywords; the starting and ending edges of the parent element and child elements depend on the layout direction. For instance, for a left-to-right layout, the starting edge is the left edge of the parent element, for a top-to-bottom layout the starting edge is the top edge, and so on. Likewise, the ending edge of a child element is the right edge in a left-to-right layout, the bottom edge in a top-to-bottom layout, and so on.
 |Import_Notes====Syntax===
 <code>'''&#150;ms-box-pack: '''start '''{{!}}''' end '''{{!}}''' center '''{{!}}''' justify</code>
