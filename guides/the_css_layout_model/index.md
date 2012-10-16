@@ -918,6 +918,7 @@ This discussion of the <code>clear</code> property is intended as a simple intro
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
+|Sources=DevOpera
 |MDN_link=
 |MSDN_link=
 |HTML5Rocks_link=
