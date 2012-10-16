@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|Non-Standard}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Deprecated}}
 {{CSS Property
 |Initial value=normal
 |Applies to=box elements
@@ -40,7 +40,6 @@ If the parent element has a computed value for [[css/properties/ms-box-orient|''
 |Usage=Do not use. This property has been replaced by the [[-ms-flex-direction]] property, and is no longer recognized by Windows Internet Explorer. To ensure compatibility in the future, applications using this property should be updated accordingly. Gets or sets a value that specifies the display order (along the axis defined by the [[-ms-box-orient]] property) of all child elements of the object.
 
 This property is read/write.
-
 |Import_Notes====Syntax===
 <code>'''-ms-box-direction: '''normal '''{{!}}''' reverse '''{{!}}''' inherit</code>
 ===Standards information===
