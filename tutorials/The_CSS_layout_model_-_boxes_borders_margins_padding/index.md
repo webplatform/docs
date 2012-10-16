@@ -572,7 +572,7 @@ How about removing the “Prologue” annotation from the title, just for demons
  
 === Causing elements to flow around others: the float property ===
 
-[[Image:box_baco.jpg|a cat with bacon taped to his back]] 
+[[Image:box_baco.jpg|left|a cat with bacon taped to his back]]
 
 A photo is positioned to the left of this paragraph. Practically all of you will see that the following copy flows naturally ''around'' it, though some might need first to cease wondering why a well-known science fiction novelist would tape bacon to his cat—even if he was having a slow day. HTML attributes can be used to specify the layout behaviour you see, but in this instance the results were accomplished with CSS.
  
@@ -598,7 +598,7 @@ Placement of a <code>float</code> value on the pullquote has been talked about, 
 <pre>.pullQuote { float: right;
 background-color: rgb(204,204,204); }
 </pre>
- 
+
 === Forcing elements below their floated predecessors: the clear property ===
  
 Like the <code>float</code> property, the <code>clear</code> property can be assigned one of the <code>left</code>, <code>right</code>, or <code>none</code> values. The <code>both</code> value is also supported.
