@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|Non-Standard}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Deprecated}}
 {{CSS Property
 |Initial value=single
 |Applies to=box elements
@@ -29,7 +29,6 @@ Successive rows or columns of child elements flow in the direction specified by 
 |Usage=Do not use. This property has been replaced by the [[-ms-flex-wrap]] property, and is no longer recognized by Windows Internet Explorer. To ensure compatibility in the future, applications using this property should be updated accordingly. Gets or sets a value that specifies the direction to add successive rows or columns when the value of [[-ms-box-lines]] is set to multiple.
 
 This property is read/write.
-
 |Import_Notes====Syntax===
 <code>'''-ms-box-line-progression: '''normal '''{{!}}''' reverse</code>
 ===Standards information===
