@@ -1,6 +1,10 @@
 {{Page_Title|CSS variables}}
 {{Flags}}
-{{Byline}}
+{{Byline
+|Name=David Gash
+|URL=http://docs.webplatform.org/wiki/User:Dgash
+|Published=October 10, 2012
+}}
 {{Summary_Section|CSS variables allow to re-use a given value across several CSS rules.}}
 {{Guide
 |Content===Introduction==
