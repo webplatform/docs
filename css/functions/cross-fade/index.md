@@ -11,7 +11,7 @@ This effect is generally accomplished by carefully positioning two images in the
 That approach is of course not optimal, and requires considerable finesse in the CSS coding as well as some scripting ability. 
 A straightforward CSS-only solution to image combination would be both easier to understand and simpler to code.
 
-Part of the "CSS Image Values and Replaced Content Module Level 4" specification (cross-fade section [http://www.w3.org/TR/2012/WD-css4-images-20120911/#cross-fade-function here]) introduces this feature into CSS. 
+[http://www.w3.org/TR/2012/WD-css4-images-20120911/#cross-fade-functionPart of the "CSS Image Values and Replaced Content Module Level 4" specification] introduces this feature into CSS. 
 
 ==Use==
 The <code>cross-fade()</code> function takes three parameters: the two images to be combined and the percentage of combination. The percentage may be thought of as a transparency value for the "bottom" image, although technically neither image is really on top of the other, they are merely rendered together.
