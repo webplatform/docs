@@ -240,10 +240,26 @@ var myArray = new Array("Wind", "Rain", "Fire");
 myArray.sort(); // sorts the array so that myArrray = [ "Fire", "Rain", "Wind" ]
 </syntaxhighlight>
 
-<code>sort()</code> can also take a callback function to determine how array elements are compared. The function compares two values and returns one of three values:
+<code>sort()</code>, however by default assumes the elements are strings. If given an array of numbers, sort may return incorrect results.
+<syntaxhighlight lang="javascript">
+var myArray = new Array(4, 8, 12, 16, 20, 24);
+myArray.sort(); // returns myArrray = [ 12, 16, 20, 24, 4, 8]
+</syntaxhighlight>
+
+The above is obviously incorrect. Fortunately <code>sort()</code> can also take a callback function to determine how array elements are compared. The function compares two values and returns one of three values:
 * if <code>a</code> is less than <code>b</code> by the sorting system, return -1 (or any negative number)
 * if <code>a</code> is greater than <code>b</code> by the sorting system, return 1 (or any positive number)
 * if <code>a</code> and <code>b</code> are considered equivalent, return 0. For, instance, the following will sort by the last letter of an array:
+
+The above problem number sorting problem can then be easily handled like so.
+<syntaxhighlight lang="javascript">
+var myArray = new Array(4, 8, 12, 16, 20, 24);
+var sortFn = function(a, b){
+   return a-b;
+ }
+myArray.sort(sortFn); // returns myArrray = [4, 8, 12, 16, 20, 24] like it should
+</syntaxhighlight>
+The sorting function thus provides a way to sort arrays any way the user likes. For example say we want to sort the first string array in reverse alphabetical order.
 <syntaxhighlight lang="javascript">
 var sortFn = function(a, b){
    if (a[a.length - 1] < b[b.length - 1]) return -1;
