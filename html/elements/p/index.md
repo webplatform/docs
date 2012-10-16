@@ -3,7 +3,7 @@
 |Content=Incomplete,  Compatibility Incomplete
 }}
 {{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
+{{API_Name|p}}
 {{Summary_Section|The '''p''' (for paragraph) element (&lt;p&gt;) represents a paragraph.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLParagraphElement
