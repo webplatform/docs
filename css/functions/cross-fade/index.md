@@ -1,8 +1,13 @@
 {{Page_Title|CSS cross-fade() function}}
-{{Flags}}
+{{Flags
+|Content=Error
+|Editorial notes={{Editorial/Error
+| the syntax used in the article doesn't match what the spec says
+}}
+}}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|The CSS cross-fade() function lets overlay two images at a defined transparency.}}
+{{Summary_Section|The CSS cross-fade() function lets blend two images at a defined transparency.}}
 {{CSS_Function
 |Content===Introduction==
 The ability to overlay one image with another and see them both in semi-transparency is a fairly common technique in web pages.
