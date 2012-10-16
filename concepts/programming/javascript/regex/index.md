@@ -52,8 +52,8 @@ var re = new RegExp("ab+c");
         <p>Matches beginning of input. If the multiline flag is set to true, also matches immediately after a line break character.</p>
         <p>For example, <code>/^A/</code> does not match the 'A' in "an A", but does match the 'A' in "An E".</p>
         <p><br />
-          This character has a different meaning when it appears as the first character in a character set pattern.</p>
-        <p>For example, <code>/[^a-z\s]/</code> matches the '3' in "I have 3 sisters".</p>
+          This character means 'not' when it appears as the first character in a character set pattern.</p>
+        <p>For example, <code>/[^A-Za-z\s]/</code> matches any character that is not a letter or whitespace, and so would match the '3' in "I have 3 sisters".</p>
       </td>
     </tr>
     <tr>
