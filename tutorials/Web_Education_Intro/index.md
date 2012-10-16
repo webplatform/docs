@@ -122,11 +122,11 @@ This section won't go into any code or markup details, and will act as an introd
 == JavaScript core skills ==
 
 # [[A_Short_History_of_JavaScript]]
-# [[Programming_-_the_real_basics|Programming - the real basics!]]
+# [[Programming - the real basics|Programming - the real basics!]]
 # [[What can you do with JavaScript]]
 # [[Your first look at JavaScript]]
 # [[JavaScript best practices]]
-# [[The principles of unobtrusive JavaScript]]
+# [[concepts/programming/the principles of unobtrusive javascript|The principles of unobtrusive JavaScript]]
 # [[JavaScript functions]]
 # [[Objects in JavaScript]]
 # [[Traversing the DOM]]
