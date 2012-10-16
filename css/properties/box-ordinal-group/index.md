@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|Non-Standard}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Deprecated}}
 {{CSS Property
 |Initial value=1
 |Applies to=children of box elements
