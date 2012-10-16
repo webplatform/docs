@@ -7,7 +7,7 @@
 {{API_Name}}
 {{Summary_Section}}
 {{Markup_Element
-|DOM_interface=dom/HTMLElement
+|DOM_interface=dom/HTMLAudioElement
 }}
 {{Examples_Section
 |Not_required=No
