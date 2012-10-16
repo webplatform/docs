@@ -40,6 +40,10 @@ The child element that occupies the most space, perpendicular to the layout axis
 |Examples=
 }}
 {{Notes_Section
+|Usage=Do not use. This property has been replaced by the [[-ms-flex-align]] property, and is no longer recognized by Windows Internet Explorer. To ensure compatibility in the future, applications using this property should be updated accordingly. Gets or sets a value that specifies the alignment (perpendicular to the layout axis defined by the [[-ms-box-orient]] property) of child elements of the object.
+
+This property is read/write.
+
 |Import_Notes====Syntax===
 <code>'''-ms-box-align: '''before '''{{!}}''' after '''{{!}}''' middle '''{{!}}''' baseline '''{{!}}''' stretch</code>
 ===Standards information===
