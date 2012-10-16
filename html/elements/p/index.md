@@ -3,11 +3,11 @@
 |Content=Incomplete,  Compatibility Incomplete
 }}
 {{Standardization_Status|W3C Recommendation}}
-{{API_Name|p}}
+{{API_Name}}
 {{Summary_Section|The '''p''' (for paragraph) element (&lt;p&gt;) represents a paragraph.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLParagraphElement
-|Content=The p element represents a paragraph. It cannot contain block-level elements (including p itself).
+|Content=p cannot contain block-level elements (including p itself).
 
 ===HTML information===
 {{{!}} class="wikitable"
