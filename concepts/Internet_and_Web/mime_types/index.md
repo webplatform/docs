@@ -1,6 +1,5 @@
 {{Page_Title|Introduction to MIME types}}
-{{Flags
-}}
+{{Flags}}
 {{API_Name}}
 {{Summary_Section}}
 {{Concept_Page
@@ -101,17 +100,65 @@ There are several steps you can take to determine the correct MIME type value to
 {{!}} application/json
 {{!}} json
 {{!}}-
-{{!}} audio/ogg
-{{!}} ogg,oga
+{{!}} application/octet-stream
+{{!}} safariextz
+{{!}}-
+{{!}} application/vnd.ms-fontobject
+{{!}} eot
+{{!}}-
+{{!}} application/x-chrome-extension
+{{!}} crx
+{{!}}-
+{{!}} application/x-font-woff
+{{!}} woff
+{{!}}-
+{{!}} application/x-shockwave-flash
+{{!}} swf
+{{!}}-
+{{!}} application/x-web-app-manifest+json
+{{!}} webapp
+{{!}}-
+{{!}} application/x-xpinstall
+{{!}} xpi
+{{!}}-
+{{!}} application/xml
+{{!}} rss,atom,xml,rdf
 {{!}}-
 {{!}} audio/mp4
 {{!}} m4a,f4a,f4b
 {{!}}-
-{{!}} video/ogg
-{{!}} ogv
+{{!}} audio/ogg
+{{!}} ogg,oga
+{{!}}-
+{{!}} font/opentype
+{{!}} otf
+{{!}}-
+{{!}} image/svg+xml
+{{!}} svg,svgz
+{{!}}-
+{{!}} image/webp
+{{!}} webp
+{{!}}-
+{{!}} image/x-icon
+{{!}} ico
+{{!}}-
+{{!}} text/cache-manifest
+{{!}} appcache,manifest
+{{!}}-
+{{!}} text/v-card
+{{!}} vcf
+{{!}}-
+{{!}} text/vtt
+{{!}} vtt
+{{!}}-
+{{!}} text/x-component
+{{!}} htc
 {{!}}-
 {{!}} video/mp4
 {{!}} mp4,m4v,f4v,f4p
+{{!}}-
+{{!}} video/ogg
+{{!}} ogv
 {{!}}-
 {{!}} video/webm
 {{!}} webm
@@ -119,56 +166,8 @@ There are several steps you can take to determine the correct MIME type value to
 {{!}} video/x-flv
 {{!}} flv
 {{!}}-
-{{!}} image/svg+xml
-{{!}} svg,svgz
-{{!}}-
-{{!}} application/vnd.ms-fontobject
-{{!}} eot
-{{!}}-
 {{!}} x-font-ttf
 {{!}} ttf,ttc
-{{!}}-
-{{!}} application/x-font-woff
-{{!}} woff
-{{!}}-
-{{!}} font/opentype
-{{!}} otf
-{{!}}-
-{{!}} image/x-icon
-{{!}} ico
-{{!}}-
-{{!}} image/webp
-{{!}} webp
-{{!}}-
-{{!}} text/cache-manifest
-{{!}} appcache,manifest
-{{!}}-
-{{!}} text/x-component
-{{!}} htc
-{{!}}-
-{{!}} application/xml
-{{!}} rss,atom,xml,rdf
-{{!}}-
-{{!}} application/x-chrome-extension
-{{!}} crx
-{{!}}-
-{{!}} application/x-xpinstall
-{{!}} xpi
-{{!}}-
-{{!}} application/octet-stream
-{{!}} safariextz
-{{!}}-
-{{!}} application/x-web-app-manifest+json
-{{!}} webapp
-{{!}}-
-{{!}} text/v-card
-{{!}} vcf
-{{!}}-
-{{!}} application/x-shockwave-flash
-{{!}} swf
-{{!}}-
-{{!}} text/vtt
-{{!}} vtt
 {{!}}}
 
 
