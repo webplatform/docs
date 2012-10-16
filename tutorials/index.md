@@ -4,9 +4,9 @@
 {{Basic Page}}
 ==Fundamentals==
 * [[tutorials/web_programming_essentials|Web programming essentials]]
+* [[html/tutorials|HTML]]
 * [[css/tutorials|CSS]]
 * [[javascript/tutorials|JavaScript]]
-* [[html/tutorials|HTML]]
 * [[svg/tutorials|SVG]]
 
 ==Topical tutorials==
