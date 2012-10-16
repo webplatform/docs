@@ -5,7 +5,9 @@
 }}
 {{Standardization_Status|Non-Standard}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Gets or sets a value that specifies how excess space is distributed (along the axis defined by the [[-ms-flex-direction]] property) between child elements of the object.
+
+}}
 {{CSS Property
 |Initial value=start
 |Applies to=flexbox elements
@@ -31,6 +33,8 @@
 |Examples=
 }}
 {{Notes_Section
+|Usage=This property is read/write.
+
 |Notes====Remarks===
 Be aware that these are [[css/properties/writing-mode|'''writing-mode''']] dependent keywords; the starting and ending edges of the parent element and child elements depend on the layout direction. For instance, for a left-to-right layout, the starting edge is the left edge of the parent element, for a top-to-bottom layout the starting edge is the top edge, and so on. Likewise, the ending edge of a child element is the right edge in a left-to-right layout, the bottom edge in a top-to-bottom layout, and so on.
 |Import_Notes====Syntax===
