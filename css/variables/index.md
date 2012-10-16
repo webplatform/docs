@@ -5,7 +5,6 @@
 |URL=http://docs.webplatform.org/wiki/User:Dgash
 |Published=October 10, 2012
 }}
-{{Standardization_Status|W3C Working Draft}}
 {{Summary_Section|CSS variables allow to re-use a given value across several CSS rules.}}
 {{Guide
 |Content===Introduction==
@@ -105,9 +104,6 @@ h1 { color: var(head-color); }
 While syntactically correct, "20px" is not a valid value for the <code>color</code> property, so the <code>h1</code> rule will be discarded.
 }}
 {{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications=
-}}
 {{Compatibility_Section
 |Not_required=No
 |Desktop_rows={{Compatibility Table Desktop Row
