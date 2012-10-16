@@ -19,7 +19,7 @@
 }}
 {{Notes_Section
 |Notes====Remarks===
-The text is used to replace the graphic for text-only browsers and to display in the window before the graphic has loaded. The text also acts as a ToolTip if the [[html/attributes/title|'''title''']] is not set when the user hovers the mouse over the graphic.
+The text is used to replace the graphic for text-only browsers and to display in the window before the graphic has loaded. The text also acts as a ToolTip if the [[html/attributes/title|'''title''']] is not set when the user hovers the mouse over the graphic - this dual behavior is not true for every browser, however; it is certainly the standard behavior for Microsoft Internet Explorer. 
 Alternate text should be provided whenever the graphic is not rendered. Alternate text is mandatory for Level 0 documents.
 In Microsoft Internet Explorer 6, This property now applies to the '''object''' object.
 |Import_Notes====Syntax===
