@@ -14,7 +14,7 @@
 |Examples={{Single Example
 |Language=HTML
 |Description=This example provides the full code for an image map of the solar system. It creates links from the image map to individual images of the planets using the '''AREA''' element with the '''MAP''' element, [[html/attributes/coords|'''COORDS''']] value, and [[html/attributes/shape|'''SHAPE''']] attribute. The user clicks the sun or any planet to link to an individual image. To return to the solar system image map, the user clicks the '''Back'''  button.
-|Code=&#60;img src{{=}}"solarsys.png" width{{=}}"504" height{{=}}"126" alt{{=}}"Solar System" usemap{{=}}"#SystemMap"&#60;
+|Code=&#60;img src{{=}}"solarsys.png" width{{=}}"504" height{{=}}"126" alt{{=}}"Solar System" usemap{{=}}"#SystemMap"&#62;
     &#60;map name{{=}}"SystemMap"&#62;
         &#60;area shape{{=}}"rect" coords{{=}}"0,0,82,126" href{{=}}"/workshop/graphics/sun.png" alt{{=}}"sun"&#62;
         &#60;area shape{{=}}"circle" coords{{=}}"90,58,3" href{{=}}"/workshop/graphics/merglobe.png" alt{{=}}"mercury"&#62;
