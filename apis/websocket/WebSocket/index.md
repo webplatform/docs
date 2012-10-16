@@ -17,37 +17,36 @@
 '''Note'''  Secure connections (wss://) are recommended in most cases because they are more likely to work with proxy servers, which can buffer unencrypted traffic and close long-lived WebSocket connections without warning.
 WebSocket connections are bidirectional; communication can flow in either direction without specific requests and responses. Data can be text or binary.
 To open a use a WebSocket connection, you must follow this procedure:
-*Create a WebSocket connection with a specific URL and one or more optional subprotocols, such as "chat". You can use the [[apis/websocket/properties/url|'''url''']] property to see how the URL was parsed.
-*Determine the state of the connection with the [[apis/websocket/properties/readyState|'''readyState''']] property. This state will change as the communication proceeds.
-*Check the type of data that will be sent using the [[apis/websocket/properties/binaryType|'''binaryType''']], [[apis/websocket/properties/protocol|'''protocol''']], and [[apis/websocket/properties/extensions|'''extensions''']] properties.
-*Set up  event handlers for the connection. Events include [[apis/websocket/events/onopen|'''onopen''']], [[apis/websocket/events/onmessage|'''onmessage''']], [[apis/websocket/events/onerror|'''onerror''']], and [[apis/websocket/events/onclose|'''onclose''']]. Use [[dom/methods/addEventListener|'''addEventListener''']] to listen for events and [[dom/methods/removeEventListener|'''removeEventListener''']] when you no longer want to listen.
+*Create a WebSocket connection with a specific URL and one or more optional subprotocols, such as "chat". You can use the [[apis/websocket/properties/url{{!}}'''url''']] property to see how the URL was parsed.
+*Determine the state of the connection with the [[apis/websocket/properties/readyState{{!}}'''readyState''']] property. This state will change as the communication proceeds.
+*Check the type of data that will be sent using the [[apis/websocket/properties/binaryType{{!}}'''binaryType''']], [[apis/websocket/properties/protocol{{!}}'''protocol''']], and [[apis/websocket/properties/extensions{{!}}'''extensions''']] properties.
+*Set up  event handlers for the connection. Events include [[apis/websocket/events/onopen{{!}}'''onopen''']], [[apis/websocket/events/onmessage{{!}}'''onmessage''']], [[apis/websocket/events/onerror{{!}}'''onerror''']], and [[apis/websocket/events/onclose{{!}}'''onclose''']]. Use [[dom/methods/addEventListener{{!}}'''addEventListener''']] to listen for events and [[dom/methods/removeEventListener{{!}}'''removeEventListener''']] when you no longer want to listen.
 *Send data to the host using the '''send''' method.
-*Determine the rate at which your data is moving with the [[apis/websocket/properties/bufferedAmount|'''bufferedAmount''']] property.
+*Determine the rate at which your data is moving with the [[apis/websocket/properties/bufferedAmount{{!}}'''bufferedAmount''']] property.
 *Check to see whether data was sent to you.
-*Close the connection when you are finished with the [[apis/websocket/methods/close|'''close''']] method.
-
+*Close the connection when you are finished with the [[apis/websocket/methods/close{{!}}'''close''']] method.
 |Import_Notes====Syntax===
 ===Members===
 The '''WebSocket''' object has these types of members:
-*[#methods Methods]
+*[[#Methods|Methods]]
 
 
 ====Methods====
 The '''WebSocket''' object has these methods.
-{| class="wikitable"
-|-
+{{{!}} class="wikitable"
+{{!}}-
 !Method
 !Description
-|-
-|'''close'''
-|Closes a WebSocket connection.
-|-
-|'''send'''
-|Sends a string of data to the server.
-|-
-|[[apis/websocket/methods/send|'''send''']]
-|Overloaded. Sends data to the server using a '''WebSocket''' connection.
-|}
+{{!}}-
+{{!}}'''close'''
+{{!}}Closes a WebSocket connection.
+{{!}}-
+{{!}}'''send'''
+{{!}}Sends a string of data to the server.
+{{!}}-
+{{!}}[[apis/websocket/methods/send{{!}}'''send''']]
+{{!}}Overloaded. Sends data to the server using a '''WebSocket''' connection.
+{{!}}}
  
 }}
 {{Related_Specifications_Section
