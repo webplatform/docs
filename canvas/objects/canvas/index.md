@@ -13,7 +13,6 @@
 ===Remarks===
 The canvas object, provides the surface on which to apply graphics and images. It must contain an graphic  created with [[canvas/objects/CanvasRenderingContext2D|'''CanvasRenderingContext2D''']] APIs 
 in order to render. When the actual drawing is done using the '''CanvasRenderingContext2D''' object, the properties and methods are used to create and manipulate graphics on a canvas object.
-'''Note'''  The maximum size of  the rendered area on a canvas is from 0,0 to 8192  x 8192 pixels, regardless of the size of the canvas. For example, a canvas is created with a width and height of 8292 pixels. A rectangular fill is then applied as "ctx.fillRect (0,0, canvas.width, canvas.height)".Only the area within the coordinates (0, 0, 8192, 8192) can be rendered, leaving a 100 pixel border on the right and bottom of the canvas.
 |Import_Notes=
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}221374 HTML5 A vocabulary and associated APIs for HTML and XHTML], Section 4.8.10
