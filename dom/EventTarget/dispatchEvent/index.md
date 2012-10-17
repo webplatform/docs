@@ -1,73 +1,65 @@
+{{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
+|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{API_Object_Method
-|Parameters={{Method Parameter|Name=evt|Data type=IDOMEvent|Description=The event object to dispatch.|Optional=}}
-{{Method Parameter|Name=pfResult|Data type=VARIANT_BOOL|Description=A '''Boolean''' value that indicates whether any of the event handlers called [[dom/methods/preventDefault|'''preventDefault''']].|Optional=}}
-|Method_applies_to=dom/Node
-|Example_object_name=object
-|Return_value_name=object
-|Javascript_data_type=DOM Node
-|Return_value_description=Type: '''HRESULT'''
-
-This method can return one of these values.
-
-{| class="wikitable"
-|-
-!Return code
-!Description
-|-
-|S_OK
-|The operation completed successfully.
-|-
-|NotSupportedError
-|You cannot dispatch an internal event.
-|}
- 
-
-Boolean
-
-A '''Boolean''' value that indicates whether any of the event handlers called [[dom/methods/preventDefault|'''preventDefault''']].
+|Parameters={{Method Parameter
+|Name=event
+|Data type=Event
+|Description=The event object to dispatch.
+|Optional=No
+}}
+|Method_applies_to=apis/EventTarget
+|Example_object_name=eventTarget
+|Return_value_name=defaultPrevented
+|Javascript_data_type=Boolean
+|Return_value_description=A '''Boolean''' value that indicates whether any of the event handlers called [[dom/methods/preventDefault|'''preventDefault''']].
 
 Default. The default action is permitted.
 
 The caller should prevent the default action.
-
-
 }}
-{{Topics|DOM}}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
-Events that the  '''dispatchEvent'''  method dispatches are subject to the same capturing and bubbling behavior as events that  the browser dispatches.
+|Notes=Events that the  '''dispatchEvent'''  method dispatches are subject to the same capturing and bubbling behavior as events that  the browser dispatches.
 You cannot cancel some events. For more information, see the documentation for the event.
-|Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203756 Document Object Model (DOM) Level 3 Events Specification], Section 4.3
-
-
+}}
+{{Related_Specifications_Section
+|Specifications={{Related Specification
+|Name=DOM Level 2 Events
+|URL=http://www.w3.org/TR/DOM-Level-2-Events/
+|Status=Recommendation
+|Relevant_changes=1.3.1
+}}
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
-*<code>[[dom/document|document]]</code>
-*<code>[[dom/TextNode|TextNode]]</code>
-*<code>window</code>
-*<code>XMLHttpRequest</code>
-*<code>[[apis/audio-video/AudioTrackList|AudioTrackList]]</code>
-*<code>Reference</code>
-*<code>[[dom/methods/addEventListener|addEventListener]]</code>
-*<code>[[canvas/methods/createEvent|createEvent]]</code>
-*<code>[[dom/methods/initEvent|initEvent]]</code>
+|Manual_sections====Related pages (MSDN)===
+*[[dom/document]]
+*[[dom/TextNode]]
+*[[dom/window]]
+*[[apis/xhr/objects/XMLHttpRequest]]
+*[[dom/methods/addEventListener]]
+*[[canvas/methods/createEvent]]
+*[[dom/methods/initEvent]]
 }}
+{{Topics|DOMEvents, DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
