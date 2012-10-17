@@ -26,7 +26,7 @@ While this parameter is officially optional, it may only be omitted in modern br
 |Optional=Yes
 }}
 |Method_applies_to=apis/EventTarget
-|Example_object_name=eventTarget
+|Example_object_name=target
 |Javascript_data_type=void
 }}
 {{Examples_Section
