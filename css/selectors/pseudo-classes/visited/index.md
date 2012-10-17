@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page_Title|&#58;visited}}
 {{Flags
 |High-level issues=Missing Relevant Sections
 |Content=Incomplete, Compatibility Incomplete, Examples Best Practices
