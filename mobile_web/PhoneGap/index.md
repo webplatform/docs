@@ -1,7 +1,5 @@
 {{Page_Title}}
-{{Flags
-|Content=Incomplete
-}}
+{{Flags}}
 {{API_Name}}
 {{Summary_Section|PhoneGap is an application framework that enables you to build natively installed applications using HTML and JavaScript.  The easiest way to think of PhoneGap is a web view container that is 100% width and 100% height, with a JavaScript programming interface that allows you to access operating system features.}}
 {{Concept_Page
@@ -139,6 +137,7 @@ In the android folder you will find the following directories:
 * Apache Cordova Android on github https://github.com/apache/incubator-cordova-android
 * Ripple Emulator http://ripple.tinyhippos.com/
 * PhoneGap Blog http://phonegap.com/blog
+* Intel OTC https://01.org/projects/cordova
 }}
 {{Topics|Mobile, Developer Tools}}
 {{External_Attribution
