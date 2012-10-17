@@ -41,18 +41,16 @@ The original path would have looked like this:
 |Description=The path after being clipped by the circle looks like this:
 
 <syntaxhighlight lang="xml">
+<svg width="400" height="400">	
+  <defs>
+    <clipPath id="myClipPath">
+      <circle cx=100 cy=100 r=50 />
+    </clipPath>
+  </defs>
 
-    &lt;svg width{{=}}"400" height{{=}}"400"&gt;
-		
-      &lt;defs&gt;
-        &lt;clipPath id{{=}}"myClipPath"&gt;
-          &lt;circle cx{{=}}100 cy{{=}}100 r{{=}}50 /&gt;
-        &lt;/clipPath&gt;
-      &lt;/defs&gt;
-			
-      &lt;path d{{=}}"M 50,100 Q 150,50 250,100" stroke{{=}}"hotpink" 
-          stroke-width{{=}}"10" fill{{=}}"white" clip-path{{=}}"url(#myClipPath)"/&gt;
-    &lt;/svg&gt;
+  <path d="M 50,100 Q 150,50 250,100" stroke="hotpink" 
+      stroke-width="10" fill="white" clip-path="url(#myClipPath)"/>
+</svg>
 </syntaxhighlight>
 |Code=&lt;!DOCTYPE HTML&gt;
 &lt;html&gt;
