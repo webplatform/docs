@@ -44,7 +44,7 @@ This element is '''obsolete''' in HTML5. Use the '''<code>[[html/elements/abbr|a
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=HTML, Deprecated
+|Topic_clusters=HTML
 }}
 {{Topics|HTML}}
 {{External_Attribution
