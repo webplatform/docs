@@ -17,8 +17,10 @@
 
 The original path would have looked like this:
 
-    <path d{{=}}"M 50,100 Q 150,50 250,100" stroke{{=}}"hotpink" 
-        stroke-width{{=}}"10" fill{{=}}"white"/>
+<syntaxhighlight lang="xml">
+<path d="M 50,100 Q 150,50 250,100" stroke="hotpink" 
+    stroke-width="10" fill="white"/>
+</syntaxhighlight>
 |Code=&lt;!DOCTYPE HTML&gt;
 &lt;html&gt;
 	
@@ -38,6 +40,8 @@ The original path would have looked like this:
 |Language=HTML
 |Description=The path after being clipped by the circle looks like this:
 
+<syntaxhighlight lang="xml">
+
     &lt;svg width{{=}}"400" height{{=}}"400"&gt;
 		
       &lt;defs&gt;
@@ -49,6 +53,7 @@ The original path would have looked like this:
       &lt;path d{{=}}"M 50,100 Q 150,50 250,100" stroke{{=}}"hotpink" 
           stroke-width{{=}}"10" fill{{=}}"white" clip-path{{=}}"url(#myClipPath)"/&gt;
     &lt;/svg&gt;
+</syntaxhighlight>
 |Code=&lt;!DOCTYPE HTML&gt;
 &lt;html&gt;
 	
