@@ -2,7 +2,6 @@
 {{Flags
 |High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Editorial notes=Adding an article summary. Adding 'Related Specifications' links. Removing Compatibility section because it doesn't seem necessary.
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
