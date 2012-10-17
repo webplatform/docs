@@ -41,7 +41,7 @@ This HTML tag has both a <code>class</code> attribute and an <code>id</code> att
  
 The '''id''' value, <code>principal</code>, must be unique in the document, but other tags in the document can have the same '''class''' name, <code>key</code>.
  
-In a CSS stylesheet, this rule makes all the elements with class <code>key</code> green. (They might not all be {{ HTMLElement("p") }} elements.)
+In a CSS stylesheet, this rule makes all the elements with class <code>key</code> green. (They might not all be [[html/elements/p]] elements.)
  
 <syntaxhighlight lang="css">.key {
   color: green;
@@ -58,7 +58,7 @@ If more than one rule applies to an element and specifies the same property, the
 ===Combining selectors===
 You can also combine selectors, making a more specific selector.
 
-For example, the selector <code>.key</code> selects all elements that have the class name <code>key</code>. The selector <code>p.key</code> selects only {{ HTMLElement("p") }} elements that have the class name <code>key</code>.
+For example, the selector <code>.key</code> selects all elements that have the class name <code>key</code>. The selector <code>p.key</code> selects only [[html/elements/p]] elements that have the class name <code>key</code>.
  
 You are not restricted to the two special attributes, <code>class</code> and <code>id</code>. You can specify other attributes by using square brackets. For example, the selector <code>[type='button']</code> selects all elements that have a <code>type</code> attribute with the value <code>button</code>.
   
@@ -68,33 +68,17 @@ When you have a problem with conflicting rules, try to resolve it by making one 
  
 === Pseudo-class selectors ===
  
-A CSS [[pseudo-class]] is a keyword added to selectors that specifies a special state of the element to be selected. For example {{ Cssxref(":hover") }} will apply a style when the user hovers over the element specified by the selector.
+A CSS [[css/selectors/pseudo-class]] is a keyword added to selectors that specifies a special state of the element to be selected. For example [[css/selectors/pseudo-class/:hover|:hover]] will apply a style when the user hovers over the element specified by the selector.
 
  
-Pseudo-classes, together with pseudo-elements, let you apply a style to an element not only in relation to the content of the document tree, but also in relation to external factors like the history of the navigator ({{ cssxref(":visited") }}, for example), the status of its content (like {{ cssxref(":checked") }} on some form elements), or the position of the mouse (like {{ cssxref(":hover") }} which lets you know if the mouse is over an element or not). To see a complete list of selectors, visit [[CSS3 Selectors working spec]].
+Pseudo-classes, together with pseudo-elements, let you apply a style to an element not only in relation to the content of the document tree, but also in relation to external factors like the history of the navigator ([[css/selectors/pseudo-class/:visited|visited]], for example), the status of its content (like [[css/selectors/pseudo-class/:checked|:checked]] on some form elements), or the position of the mouse (like [[css/selectors/pseudo-class/:hover|:hover]] which lets you know if the mouse is over an element or not). To see a complete list of selectors, visit [[css/selectors]].
  
 <syntaxhighlight lang="css">selector:pseudo-class {
   property: value;
 } </syntaxhighlight>
   
 ==== List of pseudo-classes ====
- 
-* {{ Cssxref(":link") }}
-* {{ Cssxref(":visited") }}
-* {{ Cssxref(":active") }}
-* {{ Cssxref(":hover") }}
-* {{ Cssxref(":focus") }}
-* {{ Cssxref(":first-child") }}
-* {{ Cssxref(":nth-child") }}
-* {{ Cssxref(":nth-last-child") }}
-* {{ Cssxref(":nth-of-type") }}
-* {{ Cssxref(":first-of-type") }}
-* {{ Cssxref(":last-of-type") }}
-* {{ Cssxref(":empty") }}
-* {{ Cssxref(":target") }}
-* {{ Cssxref(":checked") }}
-* {{ Cssxref(":enabled") }}
-* {{ Cssxref(":disabled") }}
+{{Special:PrefixIndex/css/selectors/pseudo-class/}}
  
 == Information: Selectors based on relationships ==
  
@@ -295,15 +279,18 @@ to be applied to an HTML structure like the following:
 </div></syntaxhighlight>
  
 See our complete [[CSS-based drop down menu example]] for a possible cue.
+
 }}
 {{Notes_Section}}
 {{Compatibility_Section
-|Not_required=No
+|Not_required=Yes
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Topic_clusters=Selectors
+}}
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=Yes
