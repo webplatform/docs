@@ -1,5 +1,6 @@
 {{Page_Title|Generating content with CSS}}
-{{Flags}}
+{{Flags
+}}
 {{Byline}}
 {{Summary_Section|This article describes generated content — away in which you can use CSS to add content when a document is displayed.}}
 {{Tutorial
