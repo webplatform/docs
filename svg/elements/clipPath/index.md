@@ -1,28 +1,55 @@
+{{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
+|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{Markup_Element
 |DOM_interface=svg/objects/SVGElement
 }}
-{{Topics|SVG}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
+|Language=HTML
 |Description=In the following code example, the clipPath element is used to create a clipping path that will visually hide part of an element. The clipping path is defined by a circle in a defs element and has a defined URL.
-Copy this sample to a text file and save it with the .html file extension. Run it in Internet Explorer 9 and click on the chocolate circle.
 
 The original path would have looked like this:
 
+    <path d{{=}}"M 50,100 Q 150,50 250,100" stroke{{=}}"hotpink" 
+        stroke-width{{=}}"10" fill{{=}}"white"/>
+|Code=&lt;!DOCTYPE HTML&gt;
+&lt;html&gt;
+	
+  &lt;head&gt;
+  &lt;/head&gt;
+	
+  &lt;body&gt;
+    &lt;svg width{{=}}"400" height{{=}}"400"&gt;
+			
+      &lt;path d{{=}}"M 50,100 Q 150,50 250,100" stroke{{=}}"hotpink" 
+          stroke-width{{=}}"10" fill{{=}}"white" /&gt;
+    &lt;/svg&gt;
+		
+  &lt;/body&gt;
+&lt;/html&gt;
+}}{{Single Example
+|Language=HTML
+|Description=The path after being clipped by the circle looks like this:
 
-
-The path after being clipped by the circle looks like this:
-|LiveURL=
-|Code=
-
-&lt;!DOCTYPE HTML&gt;
+    &lt;svg width{{=}}"400" height{{=}}"400"&gt;
+		
+      &lt;defs&gt;
+        &lt;clipPath id{{=}}"myClipPath"&gt;
+          &lt;circle cx{{=}}100 cy{{=}}100 r{{=}}50 /&gt;
+        &lt;/clipPath&gt;
+      &lt;/defs&gt;
+			
+      &lt;path d{{=}}"M 50,100 Q 150,50 250,100" stroke{{=}}"hotpink" 
+          stroke-width{{=}}"10" fill{{=}}"white" clip-path{{=}}"url(#myClipPath)"/&gt;
+    &lt;/svg&gt;
+|Code=&lt;!DOCTYPE HTML&gt;
 &lt;html&gt;
 	
   &lt;head&gt;
@@ -43,14 +70,12 @@ The path after being clipped by the circle looks like this:
 		
   &lt;/body&gt;
 &lt;/html&gt;
-	
-}}}}
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 '''Note'''  In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
-|Import_Notes=
-===Standards information===
+|Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}199810 Scalable Vector Graphics: Clipping, Masking and Compositing], Section 14.6.1
 
 
@@ -153,12 +178,22 @@ The '''SVGClipPathElement''' object has these properties.
 |Gets or sets a value that indicates whether white space is preserved in character data.
 |}
  
-
 }}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section}}
+{{Topics|SVG}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
