@@ -34,8 +34,7 @@ While this parameter is officially optional, it may only be omitted in modern br
 |Examples=
 }}
 {{Notes_Section
-|Notes====Remarks===
-Events are handled in two phases: capturing and bubbling. During the capturing phase, events are dispatched to parent objects before they are dispatched to event targets that are lower in the object hierarchy. During the bubbling phase, events are dispatched to target elements first and then to parent elements. You can register event handlers for either event phase. For more information, see [[dom/properties/eventPhase|'''eventPhase''']].
+|Notes=Events are handled in two phases: capturing and bubbling. During the capturing phase, events are dispatched to parent objects before they are dispatched to event targets that are lower in the object hierarchy. During the bubbling phase, events are dispatched to target elements first and then to parent elements. You can register event handlers for either event phase. For more information, see [[dom/properties/eventPhase|'''eventPhase''']].
 '''Note'''   Some events, such as [[dom/events/focus|'''onfocus''']], do not bubble. However, you can capture all events. You cannot capture events by elements that are not parents of the target element.
 If you register multiple identical event handlers on the same event target, the duplicate event handlers are discarded.
 }}
