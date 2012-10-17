@@ -9,7 +9,7 @@ The web is composed of a lot of different things, technical, social and structur
 
 Web design has a lot of parallels with print design, but it also has a lot of differences and a lot more limitations. In this article we will explore how to style text on the web using CSS. The onrunning example will be a short biography page about [http://people.opera.com/cmills/css-text-styling/zappa.html Frank Zappa].
 
-Note: our earlier article, [typograhy on the web], lays a good foundation for this chapter by explaining a number of typographic concepts. Make sure you read it before going on to this one.
+Note: our earlier article, [http://docs.webplatform.org/wiki/concepts/web_typography typograhy on the web], lays a good foundation for this chapter by explaining a number of typographic concepts. Make sure you read it before going on to this one.
 
 == Print to web? ==
 
