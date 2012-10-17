@@ -1,4 +1,4 @@
-{{Page_Title|PhoneGap}}
+{{Page_Title}}
 {{Flags}}
 {{API_Name}}
 {{Summary_Section|PhoneGap is an application framework that enables you to build natively installed applications using HTML and JavaScript.  The easiest way to think of PhoneGap is a web view container that is 100% width and 100% height, with a JavaScript programming interface that allows you to access operating system features.}}
