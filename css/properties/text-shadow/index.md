@@ -23,6 +23,7 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=CSS
 |Description=The following example applies a dark gray shadow with a small blur value slightly to the right and under the specified text:
 |Code=.myselector 
 {
