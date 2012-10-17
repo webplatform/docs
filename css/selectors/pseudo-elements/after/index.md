@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page_Title|&#58;&#58;after}}
 {{Flags
 |High-level issues=Data Not Semantic
 }}
