@@ -25,7 +25,7 @@
 While this parameter is officially optional, it may only be omitted in modern browsers.
 |Optional=Yes
 }}
-|Method_applies_to=dom/Node
+|Method_applies_to=apis/EventTarget
 |Example_object_name=node
 |Javascript_data_type=void
 }}
