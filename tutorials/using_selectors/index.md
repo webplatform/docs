@@ -44,7 +44,7 @@ The '''id''' value, <code>principal</code>, must be unique in the document, but 
 In a CSS stylesheet, this rule makes all the elements with class <code>key</code> green. (They might not all be {{ HTMLElement("p") }} elements.)
  
 <syntaxhighlight lang="css">.key {
-  colour: green;
+  color: green;
 }</syntaxhighlight>
  
 This rule makes the one element with the '''id''' <code>principal</code> bold:
