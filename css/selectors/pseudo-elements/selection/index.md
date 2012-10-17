@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page_Title|&#58;&#58;selection}}
 {{Flags
 |High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Compatibility Incomplete, Examples Best Practices
