@@ -14,7 +14,7 @@ CSS has its own terminology to describe the CSS language. Previously in this tut
 In CSS terminology, this entire line is a ''rule''. This rule starts with <code>strong</code>, which is a ''selector''. It selects which elements in the DOM the rule applies to.
   
 * The part inside the curly braces is the ''declaration''. 
-* The keyword <code>colour</code> is a ''property'', and <code>red</code> is a ''value''.
+* The keyword <code>color</code> is a ''property'', and <code>red</code> is a ''value''.
 * The semicolon after the property-value pair separates it from other property-value pairs in the same declaration.
 
 This guide refers to a selector like <code>strong</code> as a ''tag'' selector, and you'll also see it commonly referred to as an ''element'' selector. The CSS Specification refers to it as a ''type'' selector.
