@@ -16,11 +16,13 @@ This element is '''obsolete''' in HTML5. Use the '''<code>[[html/elements/abbr|a
 {{{!}} class="wikitable"
 {{!}}-
 !Closing Tag
-{{!}}optional
+{{!}}required
 {{!}}-
 !CSS Display
-{{!}}block
+{{!}}inline
 {{!}}}
+
+
 }}
 {{Examples_Section
 |Not_required=No
