@@ -1,86 +1,88 @@
+{{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
+|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
 }}
-{{Standardization_Status|}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
+{{Summary_Section}}
 {{API_Object_Method
-|Parameters={{Method Parameter|Name=type|Data type=BSTR|Description=The event [[dom/properties/type (event)|'''type''']] that the event handler is registered for.|Optional=}}
-{{Method Parameter|Name=listener|Data type=IDispatch|Description=The event handler function to remove.|Optional=}}
-{{Method Parameter|Name=useCapture|Data type=VARIANT_BOOL|Description=A '''Boolean''' value that specifies the event phase to remove the event handler from:|Optional=}}
-|Method_applies_to=dom/document,dom/Node
-|Example_object_name=object
-|Return_value_name=object
-|Javascript_data_type=DOM Node
-|Return_value_description=Type: '''HRESULT'''
-
-This method can return one of these values.
-
-{| class="wikitable"
-|-
-!Return code
-!Description
-|-
-|S_OK
-|The operation completed successfully.
-|-
-|E_FAIL
-|The operation failed.
-|-
-|E_INVALIDARG
-|One or more arguments are invalid.
-|}
- 
-
-Type: '''HRESULT'''
-
-This method can return one of these values.
-
-{| class="wikitable"
-|-
-!Return code
-!Description
-|-
-|S_OK
-|The operation completed successfully.
-|-
-|E_FAIL
-|The operation failed.
-|-
-|E_INVALIDARG
-|One or more arguments are invalid.
-|}
- 
-
-
+|Parameters={{Method Parameter
+|Name=type
+|Data type=String
+|Description=The event [[dom/properties/type (event)|'''type''']] that the event handler is registered for.
+|Optional=No
+}}{{Method Parameter
+|Name=listener
+|Data type=function
+|Description=The event handler function to remove.
+|Optional=No
+}}{{Method Parameter
+|Name=useCapture
+|Data type=Boolean
+|Description=A '''Boolean''' value that specifies the event phase to remove the event handler from.
+|Optional=No
 }}
-{{Topics|DOM}}
+|Method_applies_to=dom/window, dom/document,dom/Node
+|Example_object_name=elemment
+|Javascript_data_type=void
+}}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
-If you register multiple identical event handlers for the same event type, the duplicate event handlers are discarded. You can remove only the first instance.
+|Notes=If you register multiple identical event handlers for the same event type, the duplicate event handlers are discarded. You can remove only the first instance.
 If the arguments for '''removeEventListener'''  do not identify a  registered event handler, the call to  '''removeEventListener''' has no effect.
-|Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203756 Document Object Model (DOM) Level 3 Events Specification], Section 4.3
-
-
+}}
+{{Related_Specifications_Section
+|Specifications={{Related Specification
+|Name=DOM Level 3 Events
+|URL=http://www.w3.org/TR/DOM-Level-3-Events/
+|Status=Working Draft
+|Relevant_changes=Section 4.3
+}}
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows={{Compatibility Table Desktop Row
+|Chrome_supported=Yes
+|Chrome_version=1
+|Chrome_prefixed_supported=Unknown
+|Chrome_prefixed_version=
+|Firefox_supported=Yes
+|Firefox_version=1
+|Firefox_prefixed_supported=Unknown
+|Firefox_prefixed_version=
+|Internet_explorer_supported=Yes
+|Internet_explorer_version=9
+|Internet_explorer_prefixed_supported=Unknown
+|Internet_explorer_prefixed_version=
+|Opera_supported=Yes
+|Opera_version=7
+|Opera_prefixed_supported=Unknown
+|Opera_prefixed_version=
+|Safari_supported=Yes
+|Safari_version=1
+|Safari_prefixed_supported=Unknown
+|Safari_prefixed_version=
+}}
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
-*<code>[[dom/document|document]]</code>
-*<code>[[dom/TextNode|TextNode]]</code>
-*<code>window</code>
-*<code>XMLHttpRequest</code>
-*<code>[[apis/audio-video/AudioTrackList|AudioTrackList]]</code>
-*<code>[[dom/methods/addEventListener|addEventListener]]</code>
+|Manual_sections====Related pages (MSDN)===
+*[[dom/document]]</code>
+*[[dom/TextNode]]</code>
+*[[dom/window|window]]</code>
+*[[apis/xhr/objects/XMLHttpRequest]]
+*[[dom/methods/addEventListener|addEventListener]]
 }}
+{{Topics|DOMEvents, DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
