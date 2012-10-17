@@ -1,6 +1,6 @@
 {{Page_Title|The &lt;acronym&gt; element}}
 {{Flags
-|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
+|High-level issues=Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
 }}
 {{Standardization_Status}}
@@ -638,7 +638,9 @@ This property is not supported for Metro style apps using JavaScript.
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Topic_clusters=HTML, Deprecated
+}}
 {{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
