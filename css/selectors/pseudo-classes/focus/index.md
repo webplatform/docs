@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page_Title|&#58;focus}}
 {{Flags
 |Content=Compatibility Incomplete
 }}
