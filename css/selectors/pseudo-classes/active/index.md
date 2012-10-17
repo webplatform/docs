@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page_Title|&#58;active}}
 {{Flags
 |Content=Compatibility Incomplete
 }}
@@ -7,8 +7,6 @@
 {{Summary_Section|The :active pseudo-class applies while an element is being activated by the user.}}
 {{CSS_Selector
 |Content=The :active pseudo-class applies while an element is being activated by the user. For example, between the times the user presses the mouse button and releases it. On systems with more than one mouse button, :active applies only to the primary or primary activation button (typically the "left" mouse button), and any aliases thereof.
-
-
 }}
 {{Examples_Section
 |Not_required=No
@@ -16,7 +14,6 @@
 |Language=CSS
 |Description=The following style rule uses the ''':active''' pseudo-class to set the [[css/properties/font-weight|'''font-weight''']] and [[css/properties/color|'''color''']] attributes of an active link in a document.
 |Code=a:active { font-weight:bold; color:purple }
-
 }}
 }}
 {{Notes_Section
@@ -26,9 +23,6 @@ The ''':active''' pseudo-class is often used with [[css/selectors/pseudo-classes
 |Notes=It is undefined if the parent of an element that is ‘:active’ or ‘:hover’ is also in that state. 
 
 The default value of the ''':active''' pseudo-class is browser-specific.
-
-
-
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -55,7 +49,7 @@ The default value of the ''':active''' pseudo-class is browser-specific.
 |Note=Windows Internet Explorer 7 and earlier only support using the ''':active''' pseudo-class with the '''a''' element. "Active" means that the user is navigating the link.  The link has been activated, and some action is being performed but is not yet complete.
 }}{{Compatibility Notes Row
 |Browser=Internet Explorer
-|Note=Dynamic HTML (DHTML) expressions can be used in place of the preceding value(s). As of Windows Internet Explorer 8, expressions are not supported in IE8 Standards mode. 
+|Note=Dynamic HTML (DHTML) expressions can be used in place of the preceding value(s). As of Windows Internet Explorer 8, expressions are not supported in IE8 Standards mode.
 }}
 }}
 {{See_Also_Section
