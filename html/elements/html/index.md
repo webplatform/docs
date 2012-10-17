@@ -2,10 +2,11 @@
 {{Flags
 |High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Editorial notes=Adding an article summary. Adding 'Related Specifications' links. Removing Compatibility section because it doesn't seem necessary.
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The '''html''' element (&lt;html&gt;) represents the root of an HTML document.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLHtmlElement
 |Content=The '''html''' element is used to contain a complete HTML document.
@@ -484,15 +485,25 @@ This property is not supported for Metro style apps using JavaScript.
  
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=HTML 4.01 Specification
+|URL=http://www.w3.org/TR/html401/struct/text.html#h-9.3.1
+|Status=W3C Recommendation
+}}{{Related Specification
+|Name=HTML5
+|URL=http://www.w3.org/TR/html5/the-p-element.html#the-html-element
+|Status=W3C Working Draft
+|Relevant_changes=Adds a manifest attribute
+}}
 }}
 {{Compatibility_Section
-|Not_required=No
+|Not_required=Yes
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
 }}
 {{See_Also_Section
+|Topic_clusters=HTML
 |Manual_sections====Related pages (MSDN)===
 *<code>Conceptual</code>
 *<code>Using Custom Tags in Internet Explorer</code>
