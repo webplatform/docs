@@ -78,8 +78,10 @@ Pseudo-classes, together with pseudo-elements, let you apply a style to an eleme
 } </syntaxhighlight>
   
 ==== List of pseudo-classes ====
-{{Special:PrefixIndex/css/selectors/pseudo-classes/}}
- 
+{{API_Listing|
+Query=[[Topic_Cluster::Pseudo Classes]]
+}}
+
 == Information: Selectors based on relationships ==
  
 CSS has some ways to select elements based on the relationships between elements. You can use these to make selectors that are more specific.
@@ -279,7 +281,6 @@ to be applied to an HTML structure like the following:
 </div></syntaxhighlight>
  
 See our complete [[CSS-based drop down menu example]] for a possible cue.
-
 }}
 {{Notes_Section}}
 {{Compatibility_Section
