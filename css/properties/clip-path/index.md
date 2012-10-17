@@ -32,20 +32,24 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Description=#image {
-    /* Creates a rectangular clip path with "rounded corners". */
+|Description=The following clip-path definition creates a rectangular clip path with "rounded corners".
+
+|Code=#image {
     clip-path: rectangle(0%, 0%, 100%, 100%, 20%, 20%); 
 }
 }}{{Single Example
 |Language=CSS
-|Description=#image {
-    /* References a <clipPath> element for clipping. */
+|Description=The following clip-path definition references a <clipPath> element for clipping.
+|Code=#image {
     clip-path: url(#clipping); 
 }
 }}{{Single Example
 |Language=HTML
-|Description=<!-- A clipPath element specifies a clipping region. Multiple shapes result in an additive clipping behavior. -->
-<clipPath id="clipping">
+|Description=A <clipPath> element specifies a clipping region. Multiple shapes inside a <clipPath> element result in an additive clipping behavior.
+
+Any shape inside the <clipPath> element and the <clipPath> element itself can be clipped as well. This clipping is exclusive.
+
+|Code=<clipPath id="clipping">
     <circle cx="150" cy="150" r="50" />
     <rect x="150" y="150" width="100" height="100" />
 </clipPath>
