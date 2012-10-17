@@ -3,12 +3,9 @@
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|The CSS <code>@supports</code> at-rule lets authors detect support of CSS features directly in CSS.}}
-{{API_Listing
-|Use_page_title=No
-|List_all_subpages=No
-}}
-{{Notes_Section
-|Usage=The CSS at-rule <code>@supports</code> is part of the [http://dev.w3.org/csswg/css3-conditional/ CSS Conditional Rules Module Level 3] Editor's Draft. It allows authors to condition rules based on whether particular property declarations are supported in CSS.
+{{CSS_At_Rule
+|Content=
+The CSS at-rule <code>@supports</code> is part of the [http://dev.w3.org/csswg/css3-conditional/ CSS Conditional Rules Module Level 3] Editor's Draft. It allows authors to condition rules based on whether particular property declarations are supported in CSS.
 
 In other words <code>@supports</code> lets you detect browser support of CSS features directly in CSS. [http://modernizr.com/ Modernizr] is a well known library that detects features using JavaScript.
 
@@ -54,7 +51,8 @@ To detect if an experimental feature is supported with vendor-prefixes the <code
   }
 }
 </syntaxhighlight>
-|Notes=Browser support for this feature is still pretty limited:
+
+Browser support for this feature is still pretty limited:
 
 * Firefox in version 17 and up
 * Opera in version 12.1
