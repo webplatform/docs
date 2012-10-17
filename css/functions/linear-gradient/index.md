@@ -4,10 +4,10 @@
 }}
 {{Standardization_Status|}}
 {{API_Name}}
-{{API_Object
-|Subclass_of=
+{{CSS_Function
+|Content=
 }}
-{{Topics|DOM}}
+{{Topics|CSS}}
 {{Examples_Section
 |Not_required=No
 |Examples=}}
