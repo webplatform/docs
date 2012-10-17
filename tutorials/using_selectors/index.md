@@ -19,17 +19,17 @@ In CSS terminology, this entire line is a ''rule''. This rule starts with <code>
 
 This guide refers to a selector like <code>strong</code> as a ''tag'' selector, and you'll also see it commonly referred to as an ''element'' selector. The CSS Specification refers to it as a ''type'' selector.
  
-In addition to tag names, you can use attribute values in selectors. This allows your rules to be more specific. Two attributes have special status for CSS. They are [[class]] and [[id]].
+In addition to tag names, you can use attribute values in selectors. This allows your rules to be more specific. Two attributes have special status for CSS. They are [[html/attributes/class|class]] and [[html/attributes/id|id]].
 
 === Class selectors ===
  
-Use the [[class]] attribute in an element to assign the element to a named class. It is up to you what name you choose for the class. Multiple elements in a document can have the same class value.
+Use the [[html/attributes/class|class]] attribute in an element to assign the element to a named class. It is up to you what name you choose for the class. Multiple elements in a document can have the same class value.
  
 In your stylesheet, type a full stop (period) before the class name when you use it in a selector.
  
 === ID selectors ===
  
-Use the [[id]] attribute in an element to assign an ID to the element. It is up to you what name you choose for the ID. The ID name must be unique in the document.
+Use the [[html/attributes/id|id]] attribute in an element to assign an ID to the element. It is up to you what name you choose for the ID. The ID name must be unique in the document.
  
 In your stylesheet, type a number sign (hash) before the ID when you use it in a selector.
   
@@ -68,17 +68,17 @@ When you have a problem with conflicting rules, try to resolve it by making one 
  
 === Pseudo-class selectors ===
  
-A CSS [[css/selectors/pseudo-class]] is a keyword added to selectors that specifies a special state of the element to be selected. For example [[css/selectors/pseudo-class/:hover|:hover]] will apply a style when the user hovers over the element specified by the selector.
+A CSS [[css/selectors/pseudo-classes|pseudo-class]] is a keyword added to selectors that specifies a special state of the element to be selected. For example [[css/selectors/pseudo-classes/:hover|:hover]] will apply a style when the user hovers over the element specified by the selector.
 
  
-Pseudo-classes, together with pseudo-elements, let you apply a style to an element not only in relation to the content of the document tree, but also in relation to external factors like the history of the navigator ([[css/selectors/pseudo-class/:visited|visited]], for example), the status of its content (like [[css/selectors/pseudo-class/:checked|:checked]] on some form elements), or the position of the mouse (like [[css/selectors/pseudo-class/:hover|:hover]] which lets you know if the mouse is over an element or not). To see a complete list of selectors, visit [[css/selectors]].
+Pseudo-classes, together with pseudo-elements, let you apply a style to an element not only in relation to the content of the document tree, but also in relation to external factors like the history of the navigator ([[css/selectors/pseudo-classes/:visited|visited]], for example), the status of its content (like [[css/selectors/pseudo-classes/:checked|:checked]] on some form elements), or the position of the mouse (like [[css/selectors/pseudo-classes/:hover|:hover]] which lets you know if the mouse is over an element or not). To see a complete list of selectors, visit [[css/selectors]].
  
 <syntaxhighlight lang="css">selector:pseudo-class {
   property: value;
 } </syntaxhighlight>
   
 ==== List of pseudo-classes ====
-{{Special:PrefixIndex/css/selectors/pseudo-class/}}
+{{Special:PrefixIndex/css/selectors/pseudo-classes/}}
  
 == Information: Selectors based on relationships ==
  
