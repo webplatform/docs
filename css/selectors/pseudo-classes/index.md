@@ -5,7 +5,7 @@
 {{Summary_Section}}
 {{API_Listing
 |Query=[[Topic_Cluster::Pseudo-Classes]]
-|Use_page_title=No
+|Use_page_title=Yes
 |List_all_subpages=No
 }}
 {{Notes_Section}}
