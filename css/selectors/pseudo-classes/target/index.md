@@ -1,3 +1,10 @@
+{{Flags
+|High-level issues=Merge Candidate
+|Editorial notes=
+{{Editorial/Merge_Candidate
+|Other=css/selectors/pseudo-classes/:target
+}}
+}}
 Some URIs refer to a location within a resource. This kind of URI ends with a "number sign" (#) followed by an anchor identifier (called the fragment identifier).
 
 URIs with fragment identifiers link to a certain element within the document, known as the target element. For instance, here is a URI pointing to an anchor named section_2 in an HTML document:
