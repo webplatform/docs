@@ -23,7 +23,7 @@
 |Description=A '''Boolean''' value that specifies the event phase to remove the event handler from.
 |Optional=No
 }}
-|Method_applies_to=dom/EventTarget
+|Method_applies_to=apis/EventTarget
 |Example_object_name=target
 |Javascript_data_type=void
 }}
