@@ -1,6 +1,6 @@
-{{Page_Title}}
+{{Page_Title|&#58;&#58;before}}
 {{Flags
-|High-level issues=Missing Relevant Sections,Needs Topics,Data Not Semantic,Unreviewed Import
+|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
 }}
 {{Standardization_Status}}
 {{API_Name}}
