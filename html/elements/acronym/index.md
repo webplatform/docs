@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The '''acronym''' element &lt;acronym&gt; indicates an acronym or a word formed by the initial letter or letters (or major parts) of a compound term. }}
+{{Summary_Section|The '''acronym''' element &lt;acronym&gt; indicates an acronym or a word formed by the initial letter or letters (or major parts) of a compound term.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
 |Content=The acronym element is a type of phrasing content that exists at the sub-paragraph level. It may not contain block-level elements. 
@@ -21,13 +21,12 @@ This element is '''obsolete''' in HTML5. Use the '''<code>[[html/elements/abbr|a
 !CSS Display
 {{!}}block
 {{!}}}
-
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Description=The following example shows how to use the '''acronym''' element. A <code>title</code> attribute should be included for accessibility.
-|Code=<syntaxhighlight lang="html4strict">&lt;acronym title="North Atlantic Treaty Organization"&gt;NATO&lt;/acronym&gt;</syntaxhighlight>
+|Code=<syntaxhighlight lang="html4strict"><acronym title="North Atlantic Treaty Organization">NATO</acronym></syntaxhighlight>
 }}
 }}
 {{Notes_Section
