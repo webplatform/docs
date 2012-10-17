@@ -638,16 +638,7 @@ This property is not supported for Metro style apps using JavaScript.
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>Reference</code>
-*<code>abbr</code>
-*<code>address</code>
-*<code>cite</code>
-*<code>dfn</code>
-*<code>em</code>
-*<code>i</code>
-}}
+{{See_Also_Section}}
 {{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
