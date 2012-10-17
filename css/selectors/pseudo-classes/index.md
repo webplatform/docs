@@ -1,8 +1,9 @@
 {{Page_Title}}
 {{Flags}}
 {{Summary_Section}}
-{{Basic Page}}
-
+{{API_Listing|
+Query=[[Topic_Cluster::Pseudo Classes]]
+}}
 {{Notes_Section}}
 {{Topics|CSS}}
 {{External_Attribution
