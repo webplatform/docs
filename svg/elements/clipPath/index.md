@@ -15,12 +15,12 @@
 |Language=HTML
 |Description=In the following code example, the clipPath element is used to create a clipping path that will visually hide part of an element. The clipping path is defined by a circle in a defs element and has a defined URL.
 
-The original path would have looked like this:
-
 <syntaxhighlight lang="xml">
 <path d="M 50,100 Q 150,50 250,100" stroke="hotpink" 
     stroke-width="10" fill="white"/>
 </syntaxhighlight>
+
+The original path would have looked like this:
 |Code=<!DOCTYPE HTML>
 <html>
 	
