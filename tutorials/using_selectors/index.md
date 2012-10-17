@@ -138,8 +138,8 @@ An HTML table has an <code>id</code> attribute, but its rows and cells do not ha
  
 These rules make the first cell in each row bold, and the second cell in each row monospaced. They only affect one specific table in the document:
  
-<syntaxhighlight lang="css">data-table-1 td:first-child {font-weight: bolder;}
-data-table-1 td:first-child + td {font-family: monospace;}</syntaxhighlight>
+<syntaxhighlight lang="css">#data-table-1 td:first-child {font-weight: bolder;}
+#data-table-1 td:first-child + td {font-family: monospace;}</syntaxhighlight>
  
 The result looks like:
        
