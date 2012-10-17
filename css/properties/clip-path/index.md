@@ -20,15 +20,36 @@
 * <code>rectangle(&lt;x&gt;, &lt;y&gt;, &lt;width&gt;, &lt;height&gt; [, &lt;rx&gt;, &lt;ry&gt;])</code> defines a rectangle with an origin and a size. The optional arguments '''rx''' and '''ry''' define the "rounded corners" in the horizontal and vertical direction.
 * <code>circle(<cx, <cy>, <r>)</code> defines a circle with a center point and a radius.
 * <code>ellipse(<cx, <cy>, <rx>, <ry>)</code> defines a circle with a center point and a radii for the horizontal and vertical directions.
-* <code>polygon(evenodd | nonzero, [<x> <y>]+)</code> defines a polygon specified by the passed point list.
+* <code>polygon(evenodd
 }}{{CSS Property Value
 |Data Type=&lt;url&gt;
 |Description=URL reference to a &lt;clipPath&gt; element.
+}}{{CSS Property Value
+|Data Type=none
 }}
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|Description=#image {
+    /* Creates a rectangular clip path with "rounded corners". */
+    clip-path: rectangle(0%, 0%, 100%, 100%, 20%, 20%); 
+}
+}}{{Single Example
+|Language=CSS
+|Description=#image {
+    /* References a <clipPath> element for clipping. */
+    clip-path: url(#clipping); 
+}
+}}{{Single Example
+|Language=HTML
+|Description=<!-- A clipPath element specifies a clipping region. Multiple shapes result in an additive clipping behavior. -->
+<clipPath id="clipping">
+    <circle cx="150" cy="150" r="50" />
+    <rect x="150" y="150" width="100" height="100" />
+</clipPath>
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
