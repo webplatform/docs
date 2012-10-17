@@ -13,16 +13,14 @@
 This element is '''obsolete''' in HTML5. Use the '''<code>[[html/elements/abbr|abbr]]</code>''' element instead.
 
 ===HTML information===
-{{{!}} class="wikitable"
-{{!}}-
+{| class="wikitable"
+|-
 !Closing Tag
-{{!}}required
-{{!}}-
+|required
+|-
 !CSS Display
-{{!}}inline
-{{!}}}
-
-
+|inline
+|}
 }}
 {{Examples_Section
 |Not_required=No
@@ -32,17 +30,7 @@ This element is '''obsolete''' in HTML5. Use the '''<code>[[html/elements/abbr|a
 }}
 }}
 {{Notes_Section
-|Import_Notes====HTML information===
-{| class="wikitable"
-|-
-!Closing Tag
-|required
-|-
-!CSS Display
-|inline
-|}
-
-===Members===
+|Import_Notes====Members===
 The '''acronym''' object has these types of members:
 *[#events Events]
 *[#methods Methods]
