@@ -1,16 +1,15 @@
+{{Page_Title|&#58;&#58;first-line}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
+|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
-{{CSS_Selector
-|Content=
-}}
-{{Topics|CSS}}
+{{Summary_Section}}
+{{CSS_Selector}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Description=The following examples show how to use the '''::first-line''' pseudo-element.
 
 The following rule changes to uppercase the letters of the first line of elements with the specified [[dom/properties/className|'''className''']] property.
@@ -60,9 +59,7 @@ letters. Subsequent lines will render normally.&lt;/p&gt;</pre>
 </table></span>
 
 The following example uses the '''::first-line''' pseudo-element to create a typographical effect that looks like a column in a newspaper.
-|LiveURL=Click to view sample.
-|Code=
-&lt;style&gt;
+|Code=&lt;style&gt;
     .col1 { border-right: black 1px solid; 
         padding-right: 10px; 
         padding-left: 5px; 
@@ -82,10 +79,11 @@ the first-line pseudo-element. This allows authors to create
 typographical effects that are applied to the first line of a block 
 of text.&lt;/div&gt;
 &lt;/div&gt;
-}}}}
+|LiveURL=Click to view sample.
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 The [[css/cssom/properties/background|'''background''']], [[css/properties/clear|'''clear''']], [[css/properties/color|'''color''']], [[css/properties/font|'''font''']], 
 [[css/properties/font-family|'''font-family''']], [[css/properties/font-size|'''font-size''']], [[css/properties/font-style|'''font-style''']], [[css/fonts/font-variant|'''font-variant''']], [[css/properties/font-weight|'''font-weight''']], 
 [[css/properties/line-height|'''line-height''']], [[css/properties/text-decoration|'''text-decoration''']], 
@@ -94,8 +92,7 @@ The length of the first line depends on a number of factors, such as the width o
 The '''::first-line''' pseudo-element can be attached to block-level elements. It can be attached to inline elements if you set the corresponding [[css/properties/display|'''display''']] property to ''block''.
 In versions of Windows Internet Explorer prior to Windows Internet Explorer 9, as well as in IE8 Standards mode and earlier, only the one-colon form of this pseudo-element is recognized—that is, ''':first-line'''.
 Beginning with Internet Explorer 9, the '''::first-line''' pseudo-element requires two colons, though the one-colon form is still recognized and behaves identically to the two-colon form. Microsoft and the World Wide Web Consortium (W3C) encourage web authors to use the two-colon form of the '''::first-line''' pseudo-element. For more information, see the [http://go.microsoft.com/fwlink/p/?LinkId{{=}}241611 Pseudo-elements] section of the W3C's [http://go.microsoft.com/fwlink/p/?LinkId{{=}}241612 CSS3 Selectors] specification.
-|Import_Notes=
-===Syntax===
+|Import_Notes====Syntax===
 
 sel
 ::first-line
@@ -103,19 +100,26 @@ sel
 ;''sel'':A simple selector.
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 5.12.1
-
-
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
-*<code>[[css/selectors/pseudo-elements/::first-letter|::first-letter]]</code>
 |Topic_clusters=Selectors, Pseudo-Elements
+|Manual_sections====Related pages (MSDN)===
+*<code>[[css/selectors/pseudo-elements/::first-letter|::first-letter]]</code>
 }}
+{{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
