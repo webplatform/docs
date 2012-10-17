@@ -23,7 +23,7 @@
 |Description=A '''Boolean''' value that specifies the event phase to remove the event handler from.
 |Optional=No
 }}
-|Method_applies_to=dom/window, dom/document,dom/Node
+|Method_applies_to=dom/window,dom/document,dom/Node
 |Example_object_name=elemment
 |Javascript_data_type=void
 }}
