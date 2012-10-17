@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page_Title|&#58;link}}
 {{Flags
 |High-level issues=Missing Relevant Sections
 |Content=Compatibility Incomplete, Examples Best Practices
@@ -14,7 +14,7 @@
 
 After some amount of time, user agents may choose to return a visited link to the (unvisited) ‘:link’ state.
 
-The two states are mutually exclusive. 
+The two states are mutually exclusive.
 }}
 {{Examples_Section
 |Not_required=No
@@ -28,7 +28,6 @@ The two states are mutually exclusive.
 {{Notes_Section
 |Usage=The ''':link''' pseudo-class is often used with [[css/selectors/pseudo-classes/:active|''':active''']], [[css/selectors/pseudo-classes/:hover|''':hover''']] and [[css/selectors/pseudo-classes/:visited|''':visited''']], the pseudo-classes that affect the other states of a link.
 The default value of the ''':link''' pseudo-class is browser-specific. The time period used to define a recent visit also varies by browser.
-
 |Notes=<blockquote>'''Note:''' It is possible for style sheet authors to abuse the :link and :visited pseudo-classes to determine which sites a user has visited without the user's consent. </blockquote>
 
 UAs may therefore treat all links as unvisited links, or implement other measures to preserve the user's privacy while rendering visited and unvisited links differently.
