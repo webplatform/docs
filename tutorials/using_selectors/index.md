@@ -19,17 +19,17 @@ In CSS terminology, this entire line is a ''rule''. This rule starts with <code>
 
 This guide refers to a selector like <code>strong</code> as a ''tag'' selector, and you'll also see it commonly referred to as an ''element'' selector. The CSS Specification refers to it as a ''type'' selector.
  
-In addition to tag names, you can use attribute values in selectors. This allows your rules to be more specific. Two attributes have special status for CSS. They are [[html/attributes/class|class]] and [[html/attributes/id|id]].
+In addition to tag names, you can use attribute values in selectors. This allows your rules to be more specific. Two attributes have special status for CSS. They are [[class]] and [[id]].
 
 === Class selectors ===
  
-Use the [[html/attributes/class|class]] attribute in an element to assign the element to a named class. It is up to you what name you choose for the class. Multiple elements in a document can have the same class value.
+Use the [[class]] attribute in an element to assign the element to a named class. It is up to you what name you choose for the class. Multiple elements in a document can have the same class value.
  
 In your stylesheet, type a full stop (period) before the class name when you use it in a selector.
  
 === ID selectors ===
  
-Use the [[html/attributes/id|id]] attribute in an element to assign an ID to the element. It is up to you what name you choose for the ID. The ID name must be unique in the document.
+Use the [[id]] attribute in an element to assign an ID to the element. It is up to you what name you choose for the ID. The ID name must be unique in the document.
  
 In your stylesheet, type a number sign (hash) before the ID when you use it in a selector.
   
@@ -41,7 +41,7 @@ This HTML tag has both a <code>class</code> attribute and an <code>id</code> att
  
 The '''id''' value, <code>principal</code>, must be unique in the document, but other tags in the document can have the same '''class''' name, <code>key</code>.
  
-In a CSS stylesheet, this rule makes all the elements with class <code>key</code> green. (They might not all be [[html/elements/p]] elements.)
+In a CSS stylesheet, this rule makes all the elements with class <code>key</code> green. (They might not all be {{ HTMLElement("p") }} elements.)
  
 <syntaxhighlight lang="css">.key {
   color: green;
@@ -58,7 +58,7 @@ If more than one rule applies to an element and specifies the same property, the
 ===Combining selectors===
 You can also combine selectors, making a more specific selector.
 
-For example, the selector <code>.key</code> selects all elements that have the class name <code>key</code>. The selector <code>p.key</code> selects only [[html/elements/p]] elements that have the class name <code>key</code>.
+For example, the selector <code>.key</code> selects all elements that have the class name <code>key</code>. The selector <code>p.key</code> selects only {{ HTMLElement("p") }} elements that have the class name <code>key</code>.
  
 You are not restricted to the two special attributes, <code>class</code> and <code>id</code>. You can specify other attributes by using square brackets. For example, the selector <code>[type='button']</code> selects all elements that have a <code>type</code> attribute with the value <code>button</code>.
   
@@ -68,20 +68,34 @@ When you have a problem with conflicting rules, try to resolve it by making one 
  
 === Pseudo-class selectors ===
  
-A CSS [[css/selectors/pseudo-classes|pseudo-class]] is a keyword added to selectors that specifies a special state of the element to be selected. For example [[css/selectors/pseudo-classes/:hover|:hover]] will apply a style when the user hovers over the element specified by the selector.
+A CSS [[pseudo-class]] is a keyword added to selectors that specifies a special state of the element to be selected. For example {{ Cssxref(":hover") }} will apply a style when the user hovers over the element specified by the selector.
 
  
-Pseudo-classes, together with pseudo-elements, let you apply a style to an element not only in relation to the content of the document tree, but also in relation to external factors like the history of the navigator ([[css/selectors/pseudo-classes/:visited|visited]], for example), the status of its content (like [[css/selectors/pseudo-classes/:checked|:checked]] on some form elements), or the position of the mouse (like [[css/selectors/pseudo-classes/:hover|:hover]] which lets you know if the mouse is over an element or not). To see a complete list of selectors, visit [[css/selectors]].
+Pseudo-classes, together with pseudo-elements, let you apply a style to an element not only in relation to the content of the document tree, but also in relation to external factors like the history of the navigator ({{ cssxref(":visited") }}, for example), the status of its content (like {{ cssxref(":checked") }} on some form elements), or the position of the mouse (like {{ cssxref(":hover") }} which lets you know if the mouse is over an element or not). To see a complete list of selectors, visit [[CSS3 Selectors working spec]].
  
 <syntaxhighlight lang="css">selector:pseudo-class {
   property: value;
 } </syntaxhighlight>
   
 ==== List of pseudo-classes ====
-{{API_Listing|
-Query=[[Topic_Cluster::Pseudo Classes]]
-}}
-
+ 
+* {{ Cssxref(":link") }}
+* {{ Cssxref(":visited") }}
+* {{ Cssxref(":active") }}
+* {{ Cssxref(":hover") }}
+* {{ Cssxref(":focus") }}
+* {{ Cssxref(":first-child") }}
+* {{ Cssxref(":nth-child") }}
+* {{ Cssxref(":nth-last-child") }}
+* {{ Cssxref(":nth-of-type") }}
+* {{ Cssxref(":first-of-type") }}
+* {{ Cssxref(":last-of-type") }}
+* {{ Cssxref(":empty") }}
+* {{ Cssxref(":target") }}
+* {{ Cssxref(":checked") }}
+* {{ Cssxref(":enabled") }}
+* {{ Cssxref(":disabled") }}
+ 
 == Information: Selectors based on relationships ==
  
 CSS has some ways to select elements based on the relationships between elements. You can use these to make selectors that are more specific.
@@ -284,14 +298,12 @@ See our complete [[CSS-based drop down menu example]] for a possible cue.
 }}
 {{Notes_Section}}
 {{Compatibility_Section
-|Not_required=Yes
+|Not_required=No
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Topic_clusters=Selectors
-}}
+{{See_Also_Section}}
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=Yes
