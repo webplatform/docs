@@ -1,10 +1,15 @@
 {{Page_Title}}
 {{Flags}}
+{{Standardization_Status}}
+{{API_Name}}
 {{Summary_Section}}
-{{API_Listing|
-Query=[[Topic_Cluster::Pseudo Classes]]
+{{API_Listing
+|Query=[[Topic_Cluster::Pseudo_Classes]]
+|Use_page_title=No
+|List_all_subpages=No
 }}
 {{Notes_Section}}
+{{See_Also_Section}}
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
