@@ -31,7 +31,16 @@ While this parameter is officially optional, it may only be omitted in modern br
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=This example listens to any click events on the document or its descendants.
+|Code=document.addEventListener(
+  "click",
+  function (e) {
+    console.log("A " + e.type + " event was fired.");
+  },
+  false);
+}}
 }}
 {{Notes_Section
 |Notes=Events are handled in two phases: capturing and bubbling. During the capturing phase, events are dispatched to parent objects before they are dispatched to event targets that are lower in the object hierarchy. During the bubbling phase, events are dispatched to target elements first and then to parent elements. You can register event handlers for either event phase. For more information, see [[dom/properties/eventPhase|'''eventPhase''']].
