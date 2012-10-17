@@ -21,21 +21,21 @@ The original path would have looked like this:
 <path d="M 50,100 Q 150,50 250,100" stroke="hotpink" 
     stroke-width="10" fill="white"/>
 </syntaxhighlight>
-|Code=&lt;!DOCTYPE HTML&gt;
-&lt;html&gt;
+|Code=<!DOCTYPE HTML>
+<html>
 	
-  &lt;head&gt;
-  &lt;/head&gt;
+  <head>
+  </head>
 	
-  &lt;body&gt;
-    &lt;svg width{{=}}"400" height{{=}}"400"&gt;
+  <body>
+    <svg width="400" height="400">
 			
-      &lt;path d{{=}}"M 50,100 Q 150,50 250,100" stroke{{=}}"hotpink" 
-          stroke-width{{=}}"10" fill{{=}}"white" /&gt;
-    &lt;/svg&gt;
+      <path d="M 50,100 Q 150,50 250,100" stroke="hotpink" 
+          stroke-width="10" fill="white" />
+    </svg>
 		
-  &lt;/body&gt;
-&lt;/html&gt;
+  </body>
+</html>
 }}{{Single Example
 |Language=HTML
 |Description=The path after being clipped by the circle looks like this:
