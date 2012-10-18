@@ -212,9 +212,9 @@ In this page, we set up four buttons&mdash;intended to be clicked in order&mdash
 #Save the code to an HTML5 (.htm, .html) file.
 #Place the page file and an audio file of your choice into a folder on a web server. Either name the file "mysound.mp3" or change the value of the <code>url</code> variable in the first line of the "Steps 3 and 4" code block to match your file name.
 #Open the page on the server in a webkit-compatible browser.
-#Click the '''Init''' button. The "context created" alert appears. Click "OK".
-#Click the '''Load''' button. The "sound loaded" alert appears. Click "OK". 
-#Immediately, the "sound decoded" alert appears. Click "OK".
+#Click the '''Init''' button. The "context created" alert appears. Click '''OK'''.
+#Click the '''Load''' button. The "sound loaded" alert appears. Click '''OK'''. 
+#Immediately, the "sound decoded" alert appears. Click '''OK'''.
 #Click the '''Play''' button. The sound plays.
 #Optional: During playback (assuming the sound plays long enough), click the '''Stop''' button. The sound stops.
 
