@@ -59,7 +59,7 @@ In order to make the image understandable for everybody you need to add a proper
  
 <syntaxhighlight lang="html5"><!DOCTYPE html>
 
-<html lang="en-GB">
+<html>
 <head>
   <meta charset="utf-8">
   <title>Example of an inline image</title>
@@ -77,7 +77,7 @@ Most browsers will display the value of an <code>&lt;img&gt;</code> element’s 
  
 <syntaxhighlight lang="html5"><!DOCTYPE html>
 
-<html lang="en-GB">
+<html>
 <head>
   <meta charset="utf-8">
   <title>Example of an inline image with alternative text and title</title>
@@ -101,7 +101,7 @@ This attribute contains a URL that points to a document containing the same info
  
 <syntaxhighlight lang="html5"><!DOCTYPE html>
 
-<html lang="en-GB">
+<html>
 <head>
   <meta charset="utf-8">
   <title>Example of an inline image with longdesc</title>
@@ -115,7 +115,7 @@ The data file [http://dev.opera.com/articles/view/17-images-in-html/fruitconsump
  
 <syntaxhighlight lang="html5"><!DOCTYPE html>
 
-<html lang="en-GB">
+<html>
 <head>
   <meta charset="utf-8">
   <title>Fruit consumption</title>
@@ -153,7 +153,7 @@ When the user agent finds an <code>&lt;img&gt;</code> element in the HTML, it st
  
 <syntaxhighlight lang="html5"><!DOCTYPE html>
 
-<html lang="en-GB">
+<html>
 <head>
   <meta charset="utf-8">
   <title>Example of an inline image with dimensions</title>
@@ -171,7 +171,7 @@ One problem that has always existed with HTML images is the choice of what conta
 
 In HTML4, the most common thing to do to achieve this is put the image inside a <code>&lt;p&gt;</code> or <code>&lt;div&gt;</code>, but neither of these is ideal - an image isn't a paragraph, and a division is semantically anonymous. Taking this on board, the creators of HTML5 introduced a special element to take care of this: <code>&lt;figure&gt;</code>. This element is designed to contain a figure, which could be an image, two images, or a combination of several multimedia elements, text, or other stuff. Let's look at an example:
 
-<syntaxhighlight lang="html5"><html lang="en-GB">
+<syntaxhighlight lang="html5"><html>
 <head>
   <meta charset="utf-8">
   <title>Figure element with figcaption example</title>
