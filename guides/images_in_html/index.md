@@ -33,7 +33,7 @@ Adding an image to an HTML document is very easy using the <code>&lt;img&gt;</co
 
 <syntaxhighlight lang="html5"><!DOCTYPE html>
 
-<html lang="en-GB">
+<html>
 <head>
   <meta charset="utf-8">
   <title>Example of an inline image</title>
@@ -245,6 +245,7 @@ By default the background image (if not repeated) will be positioned at the top 
  
 By controlling the repetition and the position of background images and using clever images you can create a lot of stunning effects that were not possible before CSS, and by keeping the background definitions in a separate CSS file you make it very easy to change the look and feel of a whole site by changing some lines of code. This will all be covered later on.
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
 |Desktop_rows={{Compatibility Table Desktop Row
@@ -298,18 +299,30 @@ By controlling the repetition and the position of background images and using cl
 |Android_version=2.2
 |Android_prefixed_supported=No
 |Android_prefixed_version=
+|Blackberry_supported=Unknown
+|Blackberry_version=
+|Blackberry_prefixed_supported=Unknown
+|Blackberry_prefixed_version=
+|Chrome_mobile_supported=Unknown
+|Chrome_mobile_version=
+|Chrome_mobile_prefixed_supported=Unknown
+|Chrome_mobile_prefixed_version=
 |Firefox_mobile_supported=Yes
 |Firefox_mobile_version=15.0
 |Firefox_mobile_prefixed_supported=No
 |Firefox_mobile_prefixed_version=
-|IE_phone_supported=Unknown
-|IE_phone_version=
-|IE_phone_prefixed_supported=Unknown
-|IE_phone_prefixed_version=
+|IE_mobile_supported=Unknown
+|IE_mobile_version=
+|IE_mobile_prefixed_supported=Unknown
+|IE_mobile_prefixed_version=
 |Opera_mobile_supported=Unknown
 |Opera_mobile_version=
 |Opera_mobile_prefixed_supported=Unknown
 |Opera_mobile_prefixed_version=
+|Opera_mini_supported=Unknown
+|Opera_mini_version=
+|Opera_mini_prefixed_supported=Unknown
+|Opera_mini_prefixed_version=
 |Safari_mobile_supported=Yes
 |Safari_mobile_version=4.0
 |Safari_mobile_prefixed_supported=Unknown
@@ -320,18 +333,30 @@ By controlling the repetition and the position of background images and using cl
 |Android_version=2.2
 |Android_prefixed_supported=No
 |Android_prefixed_version=
+|Blackberry_supported=Unknown
+|Blackberry_version=
+|Blackberry_prefixed_supported=Unknown
+|Blackberry_prefixed_version=
+|Chrome_mobile_supported=Unknown
+|Chrome_mobile_version=
+|Chrome_mobile_prefixed_supported=Unknown
+|Chrome_mobile_prefixed_version=
 |Firefox_mobile_supported=Yes
 |Firefox_mobile_version=15.0
 |Firefox_mobile_prefixed_supported=No
 |Firefox_mobile_prefixed_version=
-|IE_phone_supported=Unknown
-|IE_phone_version=
-|IE_phone_prefixed_supported=No
-|IE_phone_prefixed_version=
+|IE_mobile_supported=Unknown
+|IE_mobile_version=
+|IE_mobile_prefixed_supported=Unknown
+|IE_mobile_prefixed_version=
 |Opera_mobile_supported=Unknown
 |Opera_mobile_version=
 |Opera_mobile_prefixed_supported=No
 |Opera_mobile_prefixed_version=
+|Opera_mini_supported=Unknown
+|Opera_mini_version=
+|Opera_mini_prefixed_supported=Unknown
+|Opera_mini_prefixed_version=
 |Safari_mobile_supported=Yes
 |Safari_mobile_version=4.0
 |Safari_mobile_prefixed_supported=No
