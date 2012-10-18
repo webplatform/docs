@@ -199,7 +199,7 @@ In HTML4, the most common thing to do to achieve this is put the image inside a 
 
 Another new addition to HTML5 is an element for containing figure captions. Previously this was done using <code>&lt;p&gt;</code>, or some other not wholly appropriate element, but now we have the <code>&lt;figcaption&gt;</code> element. Nested inside a <code>&lt;figure&gt;</code>, it says "this is the caption to go along with the contents of this figure." For example:
 
-<syntaxhighlight lang="html5"><html lang="en-GB">
+<syntaxhighlight lang="html5"><html>
 
   ...
   
