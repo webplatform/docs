@@ -37,10 +37,9 @@ This example uses an inline style sheet to set the background to fixed.
 &lt;body background{{=}}"some.jpg"&gt;
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/background-attachment.htm
 }}{{Single Example
-|Description=This example uses inline scripting to set the background to fixed.
-|Code=&lt;body ID{{=}}"oBdy" background{{=}}"marble05.jpg"
-onload{{=}}"oBdy.style.backgroundAttachment {{=}} 'fixed'"&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/backgroundAttachment.htm
+|Language=JavaScript
+|Description=This example uses scripting to set the page background to fixed.
+|Code=document.body.backgroundAttachment = 'fixed';
 }}
 }}
 {{Notes_Section
@@ -100,6 +99,7 @@ With CSS3 Backgrounds, the background of a box can have multiple layers. The num
 |Safari_prefixed_supported=Unknown
 |Safari_prefixed_version=
 }}{{Compatibility Table Desktop Row
+|Feature=local
 |Chrome_supported=Yes
 |Chrome_version=4
 |Chrome_prefixed_supported=No
