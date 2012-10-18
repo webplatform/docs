@@ -6,15 +6,15 @@
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section}}
-{{CSS_Selector}}
+{{CSS_Selector
+|Content====Syntax===
+<code>'''outline-style: '''none '''{{!}}''' dotted '''{{!}}''' dashed '''{{!}}''' solid '''{{!}}''' double '''{{!}}''' groove '''{{!}}''' ridge '''{{!}}''' inset '''{{!}}''' outset '''{{!}}''' window-inset</code>
+}}
 {{Examples_Section
 |Not_required=No
 |Examples=
 }}
-{{Notes_Section
-|Import_Notes====Syntax===
-<code>'''outline-style: '''none '''{{!}}''' dotted '''{{!}}''' dashed '''{{!}}''' solid '''{{!}}''' double '''{{!}}''' groove '''{{!}}''' ridge '''{{!}}''' inset '''{{!}}''' outset '''{{!}}''' window-inset</code>
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS 2.1
@@ -30,20 +30,20 @@
 |Chrome_version=1
 |Chrome_prefixed_supported=Unknown
 |Chrome_prefixed_version=
-|Firefox_supported=Unknown
-|Firefox_version=
-|Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
+|Firefox_supported=Yes
+|Firefox_version=1.5
+|Firefox_prefixed_supported=Yes
+|Firefox_prefixed_version=1
 |Internet_explorer_supported=Yes
 |Internet_explorer_version=8
 |Internet_explorer_prefixed_supported=Unknown
 |Internet_explorer_prefixed_version=
-|Opera_supported=Unknown
-|Opera_version=
+|Opera_supported=Yes
+|Opera_version=7
 |Opera_prefixed_supported=Unknown
 |Opera_prefixed_version=
-|Safari_supported=Unknown
-|Safari_version=
+|Safari_supported=Yes
+|Safari_version=1.2
 |Safari_prefixed_supported=Unknown
 |Safari_prefixed_version=
 }}
