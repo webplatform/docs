@@ -1,6 +1,5 @@
 {{Page_Title|What does a good web page need?}}
-{{Flags
-}}
+{{Flags}}
 {{API_Name}}
 {{Summary_Section|Continuing on from [http://www.w3.org/wiki/Information_Architecture_-_planning_out_a_web_site the previous article], here we will look at the content of The Dung Beatles’ web site to give you a flavour of what good web sites and pages need to contain.
  
@@ -101,7 +100,7 @@ and the indication is that they are still on track to reach their end
 goal, users will tend to continue through a site.
  
 Taking the cues from the IA structure, the main navigation of TDB’s site
-should contains links to the pages/sections “Store”, “About”, Contact, “The
+should contain links to the pages/sections “Store”, “About”, Contact, “The
 Music” and “Band News”, as well as a link back to the Home page. It is
 not really necessary to link to pages below that, such as the “Tour
 Dates” and “Lyrics” pages. Links to these pages should be found within
