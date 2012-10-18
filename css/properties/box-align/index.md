@@ -1,11 +1,11 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status|Non-Standard}}
 {{API_Name}}
-{{Summary_Section|Deprecated}}
+{{Summary_Section|Obsolete.}}
 {{CSS Property
 |Initial value=stretch
 |Applies to=flexbox elements
@@ -43,13 +43,15 @@ The child element that occupies the most space, perpendicular to the layout axis
 |Usage=Do not use. This property has been replaced by the [[-ms-flex-align]] property, and is no longer recognized by Windows Internet Explorer. To ensure compatibility in the future, applications using this property should be updated accordingly. Gets or sets a value that specifies the alignment (perpendicular to the layout axis defined by the [[-ms-box-orient]] property) of child elements of the object.
 
 This property is read/write.
-|Import_Notes====Syntax===
-<code>'''-ms-box-align: '''before '''{{!}}''' after '''{{!}}''' middle '''{{!}}''' baseline '''{{!}}''' stretch</code>
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}223142 Flexible Box Layout Module], Section 4
+|Import_Notes=*[http://go.microsoft.com/fwlink/p/?linkid{{=}}223142 ], Section 4
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS 3 Flexible Box Layout Module
+|URL=http://www.w3.org/TR/2012/WD-css3-flexbox-20120322/
+|Status=Working Draft (Obsolete)
+|Relevant_changes=Section 4
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -60,9 +62,9 @@ This property is read/write.
 {{See_Also_Section
 |Topic_clusters=Flexbox
 |Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
+*[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]
+*[[css/cssom/currentStyle|currentStyle]]
+*[[css/cssom/style|style]]
 }}
 {{Topics|CSS}}
 {{External_Attribution
