@@ -4,7 +4,7 @@
 {{Summary_Section|PhoneGap is an application framework that enables you to build natively installed applications using HTML and JavaScript.  The easiest way to think of PhoneGap is a web view container that is 100% width and 100% height, with a JavaScript programming interface that allows you to access operating system features.}}
 {{Concept_Page
 |Content=== Introduction ==
-PhoneGap is a distribution of Apache Cordova, an open source project incubated in the Apache Software Foundation driven by a vibrant community.
+PhoneGap is a distribution of Apache Cordova, a top level open source project of the Apache Software Foundation driven by a vibrant community.
 The purpose of this page is to share some basic information about PhoneGap like how it works, how to extend it, how it's born, etc.
 
 == How it works ==
@@ -139,7 +139,7 @@ In the android folder you will find the following directories:
 * PhoneGap Blog http://phonegap.com/blog
 * Intel OTC https://01.org/projects/cordova
 }}
-{{Topics|Mobile, Developer Tools}}
+{{Topics|Developer Tools, Mobile}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
