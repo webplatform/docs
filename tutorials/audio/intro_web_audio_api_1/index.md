@@ -37,7 +37,7 @@ Regardless of how many nodes exist and how they are connected, the signal always
 
 The simplest connection case, then, consists of a web app containing a context that contains one source node (a previously-loaded sound) whose output is connected directly to the input of one destination node (the speakers), as shown below. That's the case we're going to cover in this tutorial.
 
-[[image:wap1-basic.png]]<br/>
+[[image:wap1-basic-trans.png]]<br/>
 ''A context with one source and one destination''
 
 ==Producing a sound==
@@ -97,7 +97,7 @@ function loadSound(url) {
 
 In the first part of the function (above the comment line), the URL of the sound to be loaded is set into a global variable called <code>url</code>. The <code>loadSound()</code> function sets up an XHR and uses the <code>open</code> method to request a <code>GET</code> of the file, defining the <code>responseType</code> property as <code>arraybuffer</code> (this allows the XHR to load the audio as binary data).
 
-'''Note:''' XHRs don't work on a local machine&mdash;they must be executed on a server, e.g., <code>http://localhost/~myserver/</code> or <code>http://www.mysite.com/</code>, etc.
+'''Note:''' XHRs don't work on a local machine&mdash;they must be executed on a server, e.g., <code><nowiki>http://localhost/~myserver/</nowiki></code> or <code><nowiki>http://www.mysite.com/</nowiki></code>, etc.
 
 But, loading the file only gets us halfway there; next, it must be ''decoded''.
 
@@ -226,7 +226,6 @@ This concludes part 1 of the tutorial. '''Part 2''', coming soon, continues with
 *The W3C's [https://dvcs.w3.org/hg/audio/raw-file/tip/webaudio/specification.html web audio specification]
 *Eric Bidelman's [http://ericbidelman.tumblr.com/post/13471195250/web-audio-api-how-to-playing-audio-based-on-user how-to article]
 *Boris Smus's [http://www.html5rocks.com/en/tutorials/webaudio/intro/ getting started article]
-
 }}
 {{Notes_Section}}
 {{Compatibility_Section
