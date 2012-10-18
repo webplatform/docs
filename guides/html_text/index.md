@@ -13,11 +13,9 @@ paragraphs and embedding quotes and code. After that we will look
 at inline content, such as short quotes and emphasis, and finish with
 a quick examination of old-fashioned presentational content.
 
-'''Note''': You can [http://devfiles.myopera.com/articles/379/HTMLtext_examples.html view all the examples in this article running live].
-
 == Space—the final frontier ==
  
-An important point to cover before I start discussing text, though,
+An important point to cover before we start to discuss text, though,
 is that of space, specifically the space between words. When writing
 HTML, the source document will contain what is termed “white space”
 — the characters in the file that serve to separate text. An
@@ -44,15 +42,15 @@ document, who may try to pad out text with extra spaces to achieve a
 desired indentation, to get more spacing after the period between
 sentences or to introduce more vertical space between paragraphs.
 Influencing the visual layout of your documents is not something to
-be done in the HTML source, and is instead achieved via CSS, discussed later in the series.
+be done in the HTML source, and is instead achieved via CSS.
 
 == Block level elements ==
  
-In this section I’ll go through the syntax and usage of the common block level elements used to format text.
+In this section we will go through the syntax and usage of the common block level elements used to format text.
  
 === Page section headings ===
  
-Each part of your web content, whether you are talking about a web site, a single content block or an article, should be introduced by an appropriate heading.
+Each part of your web content should be introduced by an appropriate heading.
  
 HTML defines six levels of heading, <code>&lt;h1&gt;</code>, <code>&lt;h2&gt;</code>, <code>&lt;h3&gt;</code>, <code>&lt;h4&gt;</code>, <code>&lt;h5&gt;</code>, and
 <code>&lt;h6&gt;</code> (from the highest importance to the lowest). Generally speaking,
@@ -88,7 +86,7 @@ attributes. For example:
  
 <syntaxhighlight lang="html5"><p>This is a very short paragraph. It only has two sentences.</p></syntaxhighlight>
 
-A paragraph can contain just one sentence, but taking the literary meaning, further, you can't really call two words a paragraph. There is however no more suitable semantic element for marking up just two words of prose, so stick to the humble <code>&lt;p&gt;</code> element even in these cases, unless it is in fact a list item, heading, link or similar, in which case there will be a more suitable element available.
+A paragraph can contain just one sentence, but taking the literary meaning, further, you cannot really call two words a paragraph. There is however no more suitable semantic element for marking up just two words of prose, so stick to the humble <code>&lt;p&gt;</code> element even in these cases. If it is in fact a list item, heading, link, or similar there will be a more suitable element available.
 
 === Quoting other sources ===
  
@@ -114,7 +112,7 @@ although W3C will continue to make those specifications and
 their DTDs available at the W3C Web site.</p>
 </blockquote></syntaxhighlight>
 
-The <code>cite</code> attribute doesn't really do anything on its own, although it is useful to keep a record of where the quotes are taken from. You could just JavaScript to extract this information from the <code>cite</code> attribute and do something meaningful with it, like open a new tab with that page loaded in it, for example.
+The <code>cite</code> attribute does not really do anything on its own, although it is useful to keep a record of where the quotes are taken from. 
 
 === Preformatted text ===
  
@@ -143,7 +141,7 @@ Note: The use of the <code>&lt;code&gt;</code> element above will be explained i
 
 == Inline elements ==
  
-In this section I’ll go through the syntax and usage of the common inline elements used to format text.
+In this section we will go through the syntax and usage of the common inline elements used to format text.
  
 === Short quotations ===
  
@@ -164,7 +162,7 @@ An example of <code>&lt;q&gt;</code> in action:
 
 === Emphasis ===
  
-HTML contains four elements for indicating emphasis of some kind, such as important text like warnings, or subtle differences in meaning. For visual browsers this normally means applying a different colour, font or making the text bolder or italicised. For users of screen readers this can result in a different voice or other auditory effect.
+HTML contains four elements for indicating emphasis of some kind, such as important text like warnings, or subtle differences in meaning. For visual browsers this normally means applying a different color, font or making the text bolder or italicised. For users of screen readers this can result in a different voice or other auditory effect.
 
 ==== &lt;em&gt; ====
 
@@ -236,7 +234,7 @@ You can just specify the time if you want
 
 <syntaxhighlight lang="html5"><p><time datetime="21:00">9pm</time>.</p></syntaxhighlight>
 
-Although note that you can't currently specify a non-specific date, such as "August 2011" or "2011" - this is a bit limiting for say, museum web sites.
+Although note that you cannot currently specify a non-specific date, such as "August 2011" or "2011" - this is a bit limiting for say, museum web sites.
 
 You can also add a number of seconds (after another colon), milliseconds (after a period) and a time zone offset (after a dash) after the time value. Check out the following:
 
@@ -275,6 +273,7 @@ The text within is presented in a “teletype” or monospaced font — this sho
 
 This makes the size of the text inside bigger — this should be achieved with CSS.
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
 |Desktop_rows={{Compatibility Table Desktop Row
@@ -323,15 +322,28 @@ This makes the size of the text inside bigger — this should be achieved with C
 |Android_supported=Yes
 |Android_prefixed_supported=No
 |Android_prefixed_version=
+|Blackberry_supported=Unknown
+|Blackberry_version=
+|Blackberry_prefixed_supported=Unknown
+|Blackberry_prefixed_version=
+|Chrome_mobile_supported=Unknown
+|Chrome_mobile_version=
+|Chrome_mobile_prefixed_supported=Unknown
+|Chrome_mobile_prefixed_version=
 |Firefox_mobile_supported=Yes
 |Firefox_mobile_prefixed_supported=No
 |Firefox_mobile_prefixed_version=
-|IE_phone_supported=Yes
-|IE_phone_prefixed_supported=No
-|IE_phone_prefixed_version=
+|IE_mobile_supported=Unknown
+|IE_mobile_version=
+|IE_mobile_prefixed_supported=Unknown
+|IE_mobile_prefixed_version=
 |Opera_mobile_supported=Yes
 |Opera_mobile_prefixed_supported=No
 |Opera_mobile_prefixed_version=
+|Opera_mini_supported=Unknown
+|Opera_mini_version=
+|Opera_mini_prefixed_supported=Unknown
+|Opera_mini_prefixed_version=
 |Safari_mobile_supported=Yes
 |Safari_mobile_prefixed_supported=No
 |Safari_mobile_prefixed_version=
@@ -341,18 +353,30 @@ This makes the size of the text inside bigger — this should be achieved with C
 |Android_version=2.2
 |Android_prefixed_supported=Unknown
 |Android_prefixed_version=
+|Blackberry_supported=Unknown
+|Blackberry_version=
+|Blackberry_prefixed_supported=Unknown
+|Blackberry_prefixed_version=
+|Chrome_mobile_supported=Unknown
+|Chrome_mobile_version=
+|Chrome_mobile_prefixed_supported=Unknown
+|Chrome_mobile_prefixed_version=
 |Firefox_mobile_supported=Yes
 |Firefox_mobile_version=15.0
 |Firefox_mobile_prefixed_supported=No
 |Firefox_mobile_prefixed_version=
-|IE_phone_supported=Yes
-|IE_phone_version=7.5
-|IE_phone_prefixed_supported=No
-|IE_phone_prefixed_version=
+|IE_mobile_supported=Unknown
+|IE_mobile_version=
+|IE_mobile_prefixed_supported=Unknown
+|IE_mobile_prefixed_version=
 |Opera_mobile_supported=No
 |Opera_mobile_version=
 |Opera_mobile_prefixed_supported=No
 |Opera_mobile_prefixed_version=
+|Opera_mini_supported=Unknown
+|Opera_mini_version=
+|Opera_mini_prefixed_supported=Unknown
+|Opera_mini_prefixed_version=
 |Safari_mobile_supported=Yes
 |Safari_mobile_version=4.0
 |Safari_mobile_prefixed_supported=No
