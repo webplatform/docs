@@ -109,7 +109,7 @@ This anonymous function uses the context's <code>decodeAudioData</code> method t
 Finally, the XHR's <code>send()</code> method is used to send the task to the server for execution and thus wrap up the function. Our audio file is now loaded and decoded, and the decoded data is stored in an audio buffer, ready for use.
 
 ===Step 5: Play the audio===
-At last we're ready to play the sound. This is achieved through the "connect the nodes" process described and diagrammed earlier. We can define a single function to play our new sound, or any other, as long as we pass it a buffer containing the decoded audio.
+At last we're ready to play the sound. This is achieved through the "connect the nodes" process described and diagrammed earlier. We can define a single function to play our new sound, or any other, as long as we pass it a buffer containing the decoded audio. Let's assume we'll execute the <code>playSound()</code> function on a button click.
 
 <syntaxhighlight lang="javascript">
 var source = null;
@@ -120,8 +120,6 @@ function playSound(anybuffer) {
   source.noteOn(0);
 }
 </syntaxhighlight>
-
-At this point, <code>myAudioBuffer</code> contains the decoded audio from the file "mysound.mp3". Let's assume we'll execute the <code>playSound()</code> function on a button click.
 
 Recall that to produce sound we need ''source'' and ''destination'' nodes, and that the former must be connected to the latter. As before, we first declare a global variable, <code>source</code>, for the node. In the function, the source node is created first, assigning the context's <code>createBufferSource()</code> method to the variable. Next, the source node's <code>buffer</code> property is loaded with the <code>anybuffer</code> parameter which we'll pass as an argument into the function (in this case, the buffer containing our decoded audio, <code>myAudioBuffer</code>). 
 
