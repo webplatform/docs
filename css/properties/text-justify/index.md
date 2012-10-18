@@ -5,8 +5,9 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|This property changes the justification of each line of text. Changes are made for spacing between letters and words. Applies to both block and inline elements.}}
 {{CSS Property
+|Initial value=auto
 |Applies to=All elements
 |Inherited=Yes
 |Media=visual
