@@ -121,7 +121,7 @@ function playSound(anybuffer) {
 }
 </syntaxhighlight>
 
-Recall that to produce sound we need ''source'' and ''destination'' nodes, and that the former must be connected to the latter. As before, we first declare a global variable, <code>source</code>, for the node. In the function, the source node is created first, assigning the context's <code>createBufferSource()</code> method to the variable. Next, the source node's <code>buffer</code> property is loaded with the <code>anybuffer</code> parameter which we'll pass as an argument into the function (in this case, the buffer containing our decoded audio, <code>myAudioBuffer</code>). 
+Recall that to produce sound we need ''source'' and ''destination'' nodes, and that the former must be connected to the latter. As before, we first declare a global variable, <code>source</code>, for the node. In the function, the source node is created first, using the context's <code>createBufferSource()</code> method. Next, the source node's <code>buffer</code> property is loaded with the <code>anybuffer</code> parameter which we'll pass as an argument into the function (in this case, the buffer containing our decoded audio, <code>myAudioBuffer</code>). 
 
 We don't have to explicitly create the context's <code>destination</code> node&mdash;it's present by default&mdash;but we do have to connect the source to it. This is done using the source node's <code>connect()</code> method, passing it the <code>context.destination</code> node. The sequence is complete: we now have a source node containing a sound whose output is connected to the input of a destination node representing the speakers.
 
