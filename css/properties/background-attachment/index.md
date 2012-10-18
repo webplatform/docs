@@ -17,27 +17,28 @@
 |Description=Default. Background image scrolls with the object as the document is scrolled.
 }}{{CSS Property Value
 |Data Type=fixed
-|Description=Background image stays fixed within the viewport
+|Description=Background image stays fixed within the viewport and does not move when the element or the page is scrolled.
 }}{{CSS Property Value
 |Data Type=local
-|Description=Background image stays fixed with regard to the element’s contents
+|Description=Background image stays fixed with regard to the element’s contents and scrolls as the element is scrolled.
 }}
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=HTML
 |Description=The following examples use the '''background-attachment''' attribute and the '''background-attachment''' property to set the background to "fixed", so that the background does not scroll with the text.
 
 This example uses an inline style sheet to set the background to fixed.
-|Code=&lt;STYLE &gt;
-    BODY { background-attachment:fixed }
-&lt;/STYLE&gt;
-&lt;/HEAD&gt;
-&lt;BODY background{{=}}"some.jpg"&gt;
+|Code=&lt;style &gt;
+    body { background-attachment:fixed }
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body background{{=}}"some.jpg"&gt;
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/background-attachment.htm
 }}{{Single Example
 |Description=This example uses inline scripting to set the background to fixed.
-|Code=&lt;BODY ID{{=}}"oBdy" background{{=}}"marble05.jpg"
+|Code=&lt;body ID{{=}}"oBdy" background{{=}}"marble05.jpg"
 onload{{=}}"oBdy.style.backgroundAttachment {{=}} 'fixed'"&gt;
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/backgroundAttachment.htm
 }}
