@@ -1,6 +1,6 @@
 {{Page_Title|&#58;&#58;before}}
 {{Flags
-|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -32,11 +32,11 @@ sel
 |Not_required=No
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
-|Chrome_version=21.0
+|Chrome_version=4.0
 |Chrome_prefixed_supported=No
 |Chrome_prefixed_version=
 |Firefox_supported=Yes
-|Firefox_version=14.0
+|Firefox_version=2.0
 |Firefox_prefixed_supported=No
 |Firefox_prefixed_version=
 |Internet_explorer_supported=Yes
@@ -44,11 +44,11 @@ sel
 |Internet_explorer_prefixed_supported=No
 |Internet_explorer_prefixed_version=
 |Opera_supported=Yes
-|Opera_version=12.0
+|Opera_version=9.0
 |Opera_prefixed_supported=No
 |Opera_prefixed_version=
 |Safari_supported=Yes
-|Safari_version=5.1
+|Safari_version=3.1
 |Safari_prefixed_supported=No
 |Safari_prefixed_version=
 }}
@@ -61,20 +61,20 @@ sel
 |Blackberry_version=7.0
 |Blackberry_prefixed_supported=No
 |Blackberry_prefixed_version=
-|Chrome_mobile_supported=Unknown
-|Chrome_mobile_version=
+|Chrome_mobile_supported=Yes
+|Chrome_mobile_version=18.0
 |Chrome_mobile_prefixed_supported=No
 |Chrome_mobile_prefixed_version=
-|Firefox_mobile_supported=Unknown
-|Firefox_mobile_version=
+|Firefox_mobile_supported=Yes
+|Firefox_mobile_version=15.0
 |Firefox_mobile_prefixed_supported=No
 |Firefox_mobile_prefixed_version=
 |IE_mobile_supported=Unknown
 |IE_mobile_version=
 |IE_mobile_prefixed_supported=No
 |IE_mobile_prefixed_version=
-|Opera_mobile_supported=Unknown
-|Opera_mobile_version=
+|Opera_mobile_supported=Yes
+|Opera_mobile_version=10.0
 |Opera_mobile_prefixed_supported=No
 |Opera_mobile_prefixed_version=
 |Opera_mini_supported=Yes
@@ -89,7 +89,7 @@ sel
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=Selectors, Pseudo-Elements
+|Topic_clusters=Pseudo-Elements, Selectors
 |Manual_sections====Related pages (MSDN)===
 *<code>[[css/properties/content|content]]</code>
 }}
