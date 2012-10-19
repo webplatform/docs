@@ -12,7 +12,7 @@
 }}
 {{Notes_Section
 |Notes====Remarks===
-The '''::before''' and [[css/selectors/pseudo-elements/::after|'''::after''']] pseudo-elements specify the location of content before and after an element in the document tree. The [[css/properties/content|'''content''']] attribute, in conjunction with these pseudo-elements, specifies what is inserted.
+The '''::before''' and [[:css/selectors/pseudo-elements/::after|'''::after''']] pseudo-elements specify the location of content before and after an element in the document tree. The [[css/properties/content|'''content''']] attribute, in conjunction with these pseudo-elements, specifies what is inserted.
 The generated content interacts with other boxes as if they were real elements inserted just inside their associated element. The content box of the associated element expands to include the generated content, if necessary.
 In Windows Internet Explorer 8, as well as later versions of Windows Internet Explorer in IE8 Standards mode, only the one-colon form of this pseudo-element is recognized—that is, ''':before'''.
 Beginning with Windows Internet Explorer 9, the '''::before''' pseudo-element requires two colons, though the one-colon form is still recognized and behaves identically to the two-colon form. Microsoft and the World Wide Web Consortium (W3C) encourage web authors to use the two-colon form of the '''::before''' pseudo-element. For more information, see the [http://go.microsoft.com/fwlink/p/?LinkId{{=}}241611 Pseudo-elements] section of the W3C's [http://go.microsoft.com/fwlink/p/?LinkId{{=}}241612 CSS3 Selectors] specification.
