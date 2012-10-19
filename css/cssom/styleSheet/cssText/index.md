@@ -22,7 +22,7 @@
 |Description=This example uses the '''cssText''' property to retrieve the CSS style set on an object.
 |Code=&lt;p id{{=}}"oPara" style{{=}}"color: green; font-weight: bold;"&gt;
 This is the test paragraph.&lt;/p&gt;:
-&lt;button onclick{{=}}"alert(document.getElementById('oPara').style.cssText)"&gt;Get CSS attributes&lt;/BUTTON&gt;
+&lt;button onclick{{=}}"console.log(document.getElementById('oPara').style.cssText)"&gt;Get CSS attributes&lt;/BUTTON&gt;
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/cssText.htm
 }}
 }}
