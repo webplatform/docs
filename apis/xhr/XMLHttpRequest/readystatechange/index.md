@@ -9,7 +9,7 @@
 {{Event
 |Event_applies_to=apis/xhr/objects/XMLHttpRequest
 |Interface=dom/objects/Event
-|Target=dom/Element
+|Target=apis/xhr/objects/XMLHttpRequest
 |Default_action=
 |Synchronous=No
 |Bubbles=No
