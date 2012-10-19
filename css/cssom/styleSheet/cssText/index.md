@@ -5,9 +5,9 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Gets or sets the textual representation of a CSS rule.}}
+{{Summary_Section|Gets or sets the textual representation of a style sheet.}}
 {{API_Object_Property
-|Property_applies_to=css/cssom/CSSRule/CSSRule
+|Property_applies_to=css/cssom/styleSheet
 |Read_only=No
 |Example_object_name=stylesheet
 |Return_value_name=cssText
