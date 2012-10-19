@@ -10,7 +10,7 @@
 |Parameters={{Method Parameter
 |Name=selectors
 |Data type=String
-|Description=A single selector, or multiple selectors (separated by commas).
+|Description=A selector, or multiple selectors (separated by commas).
 |Optional=No
 }}
 |Method_applies_to=dom/Element
