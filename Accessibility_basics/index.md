@@ -176,8 +176,6 @@ In this example the <code>selected</code> class would be used to specify which t
  
 This structure is fine for informational content. In this example, the <code>class</code> of <code>selected</code> would be used to signify which tab is the active tab, ie, the one that is open and displaying its information; the others would be closed (ie, their paragraphs hidden) until their corresponding links are clicked on. The dogs tab is the default active tab, as shown in Figure 1.
 
-[[Image:accessibility_figure10.png|tab control showing the default dogs tab active]] 
-
 Figure 1: A simple tab control showing the dogs tab, the default, active.
  
 Once another link is clicked on (as shown in Figure 2) JavaScript would then be used to dynamically move the <code>class="selected"</code> to that link, at which point style would be applied to that tab to display it, and the one that was previously displayed would be hidden.
