@@ -20,9 +20,6 @@
 |Notes=Calling it on an already aborted request throws an exception.
 The '''abort''' method interrupts an asynchronous operation in progress.
 Calling '''abort''' resets the object; the '''readyState''' is changed to 0 (uninitialized).
-|Import_Notes====Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203789 ], Section 3.6.5
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
