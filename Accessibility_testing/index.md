@@ -1,5 +1,4 @@
 == Introduction ==
- 
 Web accessibility testing is a subset of usability testing where the users under consideration have disabilities that affect how they use the web. The end goal, in both usability and accessibility, is to discover how easily people can use a web site and feed that information back into improving future designs and implementations.
  
 Accessibility evaluation is more formalized than usability testing generally.
@@ -25,7 +24,6 @@ Accessibility guidelines and tools help bridge these experience gaps. However, t
 In this article of the [http://www.w3.org/wiki/Web_Standards_Curriculum Web Standards Curriculum], I will discuss approaches to evaluating web accessibility, both from the perspective of establishing formal compliance and from the perspective of maximizing accessibility.
 
 == When should testing be done? ==
- 
 “Test early, test often” is an old software engineering saying. Tacking on testing at the end of the development process has two risks:
  
 # Projects tend to run over-time and over-budget. Testing is often rushed, omitted, or ignored thanks to such pressures.
@@ -34,11 +32,9 @@ In this article of the [http://www.w3.org/wiki/Web_Standards_Curriculum Web Stan
 So to ensure quality and save time and money, accessibility evaluations should start right at the beginning of product design and be included in subsequent development iterations through to final delivery.
  
 == Understanding your requirements ==
- 
 Before you begin to evaluate a project for accessibility, you need to determine what the key requirements are for that project, given its environment, intended audience, and resources. Some requirements will be set by third parties like governments and clients; some you may be able to choose for yourself.
  
 === External requirements ===
- 
 Often requirements come from external sources, such as:
  
 * '''Governments'''. This typically takes the form of general legislation against discriminating against people with disabilities, rather than mandating a particular standard or enumerating precise conformance requirements. An important exception is when legislation enforces a particular standard for public sector. For example, [http://www.section508.gov/ Section 508] is a piece of US federal legislation, which mandates that websites produced for federal agencies must conform to at least a specific set of defined requirements. WAI’s [http://www.w3.org/WAI/Policy/ Policies Relating to Web Accessibility] page provides a partial list of similar legislation. But to get an authoritative statement of the obligations in your jurisdiction,  consult a lawyer.
@@ -47,7 +43,6 @@ Often requirements come from external sources, such as:
 * '''Internal accessibility policies at your organization'''. For example, projects produced by the BBC need to comply with the [http://www.bbc.co.uk/guidelines/futuremedia/accessibility/ BBC's Accessibility Guidelines v1.3].
 
 === The details of conformance ===
- 
 It is important to get as much clarity about external requirements as possible. Some accessibility standards have more than one possible level or type of conformance, so it is particularly important to nail down which is required. For example, WCAG 1.0 has three conformance levels:
  
 # People with some disabilities “will find it impossible to access information” in a document that does not pass level “A”.
@@ -66,7 +61,6 @@ Note that within an intranet setting, you might be able to guarantee that such u
 WCAG 2.0 also allows more limited statements of conformance. An inaccessible resource can conform if an accessible alternative is provided. Publishers can make a statement of partial conformance where content is aggregated from other sources.
  
 === Exceeding expectations ===
- 
 Determining external requirements should only be the beginning of the process; they should be treated as a minimum set of requirements to which further goals should be added to maximize accessibility. As the person evaluating accessibility, it is your role to raise additional accessibility concerns, as you are the subject expert.
  
 You may need to distinguish the two when delivering a final report. For example, a customer brief for an online supermarket might mention that they want a store accessible to blind users. Given the intended audience, you should also evaluate whether the store is accessible to users with other disabilities.
@@ -101,11 +95,9 @@ By contrast control, the criteria means that you should provide a way of changin
 WCAG 2.0 is being designed to have a high degree of backwards compatibility with other standards, especially WCAG 1.0 and Section 508.
 
 === The importance of the user interface ===
- 
 Consider the special importance of making the user interface of a web site accessible. Even if content is not available in a suitable form, an accessible user interface may help users identify content of interest and seek external help in converting it to a form they can use. For example, a hard-of-hearing individual might be pointed to a video of a talk on a video-sharing site without captions. Because the URL uniquely identifies that video and because they can still use the player to see the video however they could submit it to a third party, such as the free [http://www.projectreadon.com/ Project readOn] service, for captioning.
 
 === Personas with disabilities ===
- 
 An ideal approach is to build key disabilities for your project right into your other [http://www.usability.gov/analyze/personas.html user personas]: fictional users that act as archetypes for how particular types of users would use a web site. Let us say you are evaluating prototypes for a video sharing site and your personas include:
  
 * 23-year-old James Smith, who is football-mad and especially wants to share sporting highlights with friends.
@@ -131,7 +123,6 @@ It shouldn’t need saying, but don’t assume people with disabilities are inte
 Again, comparing products against accessibility guidelines can help fill in the gaps that your personas do not cover. For example, perhaps you’re following WCAG 2.0 with the video sharing site, but your personas don’t include a user with epilepsy. Nonetheless, you read Guideline 2.3 (“Seizures: Do not design content in a way that is known to cause seizures”) and decide that the system needs to be able to screen uploaded videos for flashing before displaying them.
 
 === Choosing an accessibility standard ===
- 
 If you need to choose an accessibility standard in order to manage web accessibility concerns across a team or in simply to guide you while testing, I’d advise looking at WCAG 2.0 because it:
  
 * is designed around core human needs that are applicable to technologies other than HTML and CSS (such as Flash).
@@ -145,7 +136,6 @@ If you need to choose an accessibility standard in order to manage web accessibi
 You can cite compliance with a specific draft of WCAG 2.0; for marketing purposes however it is best to also seek compliance with finished standards like Section 508 and WCAG 1.0 as well as that draft.
  
 === The spirit of the law ===
- 
 When testing against guidelines, it’s important to keep in mind the underlying rationale for any specific technical guidance: to comply with the spirit, not just the letter, of the law.
  
 Here’s a cautionary tale. Section 508 (§ 1194.22) includes a requirement that says: “A text equivalent for every non-text element shall be provided (eg, via <code>alt</code>, <code>longdesc</code> or in element content).” Likewise WCAG 1.0 includes a checkpoint that reads:
@@ -165,7 +155,6 @@ The purpose of this guideline is to ensure that all non-text content is also ava
 </blockquote>
 
 == Who should test? ==
- 
 There are basically two groups who conduct testing: experts and users.
  
 Expert testing is important because experts understand how the underlying web technologies interact, can act as a clearing house for knowledge about different user groups, and have the inclination to learn dedicated testing tools.
@@ -177,7 +166,6 @@ A web developer who knows how to use a screen reader is unlikely to explore a si
 Knowledge gained in user testing is fed back into the expert testing process the next time testing is performed (either in another testing iteration on the same project, or a different project entirely). User testing also has a more subtle advantage. By humanizing accessibility and bringing developers together with end users, it can increase the motivation to build accessible websites.
  
 == Expert testing ==
- 
 There are four components to expert testing:
  
 * Tool-guided evaluation: where a tool looks for accessibility problems and presents them to the evaluator (this would include accessibility checkers and code linters).
@@ -190,7 +178,6 @@ While beginners may be especially dependent on tool-guided evaluation, evaluator
 Unfortunately, although there are lots of accessibility tools, most of them are flawed in one way or another. For example, one tool that lists headings in HTML documents makes the error of not including <code>alt</code> text from <code>img</code> elements. Just as you should keep the spirit of the law in mind with standards compliance, so you should keep it in mind when using tools. Before complaining to someone about an accessibility problem, make sure it is a genuine issue not a tool error.
  
 === Semi-automated accessibility checkers ===
- 
 Once the first-glance problems have been fixed, a good next step is to throw the page at a semi-automated accessibility checker tool. If you are evaluating compliance with a particular standard, you will probably want to pick one that is designed for use with that standard.
  
 If you’re evaluating compliance with Section 508 or WCAG 1.0, [http://www.cynthiasays.com/ Cynthia Says] is a reasonable choice. If you're testing against German BITV 1.0 Level 2, the Italian Stanca Act, or the WCAG 2.0 draft, the only current option is the experimental [http://checker.atrc.utoronto.ca/index.html ATRC Web Accessibility Checker].
@@ -202,7 +189,6 @@ Good tools inspect the page for accessibility problems and produce a list of thi
 Perhaps the biggest advantage of accessibility checkers is that if you choose one, such as [http://www.tawdis.net/ TAW 3], which can be run against multiple URLs, you can find pages in large collections that are likely to require closer inspection.
 
 === Structural inspectors ===
- 
 Many inspection tools are designed to probe structures of web content. Structures, in simple terms, define what the components of a web site are and how they relate to one another. For example, in the HTML document object model (DOM), text can be designated as a label for a form field using the <code>label</code> element. Browsers parse the HTML into a document object model. The browser associates various behaviour with particular components. For example, if you click the label of a checkbox, it will normally get checked.
 
 Desktop environments and applications support interactivity with screen readers, speech recognition software, and other assistive technology by providing a similar structure that represents the content and functionality available in the visual presentation. On Windows, the main structural system is called Microsoft Active Accessibility (MSAA), or [http://msdn.microsoft.com/en-us/library/ms788733.aspx UI Automation on Vista]. For example, a dialog has a series of related children, such as its title, its fields, its buttons, and their labels.
@@ -222,7 +208,6 @@ Not all content can be inspected with DOM or web accessibility inspectors. Inspe
 In general, you should check that all controls are exposed in the model with the appropriate role (eg text boxes are text boxes, buttons are buttons), and the necessary properties.
 
 === Screening and using end-user assistive technology ===
- 
 Screening involves emulating the experiences of people with disabilities while testing. This might take the form of using assistive technology to interact with a site or attempting to restrict one's abilities in some manner. For example:
  
 * Using a mouthstick to press keys while testing keyboard accessibility.
@@ -236,7 +221,6 @@ Using assistive technology is not a task to be taken lightly, since a good under
 Use of assistive technology needs to be accompanied by experience of how everyday users employ the technology and conclusions drawn from such use should ideally be confirmed with expert users. On the whole, beginners are better off leaving use of assistive technology to user testers.
  
 === Detailed inspection ===
- 
 Once all genuine problems identified by your chosen checker tool have been fixed, you can move on to manual testing, probing, and review of the project.
  
 WCAG 2.0 splits its best practice criterion into four principles. Content and functionality must be:
@@ -249,7 +233,6 @@ WCAG 2.0 splits its best practice criterion into four principles. Content and fu
 In this section, I shall present some examples of how expert testers can evaluate how far content matches up to these principles. Please note this section is not intended as a substitute for a review of WCAG and its techniques.
  
 ==== Perceivability ====
- 
 One subset of perceivability problems revolves around the provision of alternative media of various types. You can test for text equivalents by turning off images and multimedia in your browser and looking at the page. But you’ll need to take special care with the <code>img</code> and <code>input</code> elements. Normally, you are advised to give all purely decorative images blank <code>alt</code> attributes (<code>alt=""</code>) so that the screenreader will just skip them. However, in the case of:
 
 * Images that are the sole content of links
@@ -268,7 +251,6 @@ Another group of perceivability problems concerns the styling of the page. There
 * If publisher suggestions for presentation are discarded, is all the information communicated by such suggestions preserved in the web content for use by the default stylings of the user agent or user styling? Try turning off CSS and inspecting the document object model to check that headings are marked as headings and tables are used for tabulated data not layout.
 
 ==== Operability ====
- 
 Health and safety is a crucial, though rarely considered, part of making a website operable. But flashing content risks triggering fits in photosensitive epileptics. You can take a screen capture of your website in use and feed it into the [http://trace.wisc.edu/peat/ Trace Center Photosensitive Epilepsy Analysis Tool (PEAT)] to test if it has flashing content likely to pose a danger to your users. Obviously, this is an especially big concern if you are creating a video sharing website. At the product design stage, you might look at including an automated screening process for uploads.
  
 Beyond that, a good way to test the operability of websites is simply to try to see if you can access all essential content and functionality with different devices:
@@ -284,7 +266,6 @@ Screen readers and other assistive technology can make use of the semantic struc
 Figure 1: Screenshot of Firefox Accessibility Extension’s forms information window with the new BBC homepage.
 
 ==== Understandability ====
- 
 Assessing comprehensibility is even more subjective that testing legibility. Unless an evaluator is new to a project or is a professional editor, they are probably not the best person to evaluate whether copy is as understandable as possible. You can however use [http://juicystudio.com/services/readability.php Juicy Studio’s Readability Test tool] to get a rough idea of how simple your site's copy is.
  
 Some aspects are highly objectively testable however, such as whether content has language metadata that allows (for example) screen readers and voice browsers to read content with the correct pronunciation. With HTML, you could use a DOM inspector to check for the presence of a <code>lang</code> attribute for the document and each change of language.
@@ -292,7 +273,6 @@ Some aspects are highly objectively testable however, such as whether content ha
 Keep an eye out for inconsistencies in web sites, both in terms of internal consistency and predictability from common web conventions. Screen magnifier users who only see part of a page at a time rely heavily on such consistency in order to know where to look to find given content and functionality.
 
 ==== Robustness ====
- 
 Testing whether content is robust involves checking that technologies are being correctly used. At a very basic level, you can run markup and code through linters such as:
  
 * [http://htmlhelp.com/tools/validator/ WDG HTML Validator with warnings enabled]
@@ -308,11 +288,9 @@ The most common problem is probably obtrusive JavaScript, like anchors and butto
 Another example is multimedia controls. Often, when plugin content is included, the plugin’s native user interface is disabled and the plugin is instead controlled by scripted HTML widgets. When the plugin content is only added via JavaScript after JavaScript-based plugin detection, this is fine. But sometimes plugin content is included in the pre-scripted state of the page. In such cases, it is worth checking not only that a fallback has been included in case a handling plugin is not available, but also that the native user interface of the plugin is not disabled unless JavaScript is available. If the former is not the case, then users will not see the fallback content at all; if the latter is not true then users will see the plugin but not be able to control it.
 
 == User testing ==
- 
 No amount of developer inspection and screening can substitute for the raw clash between a user and a web site. Given the difficulties of understanding all the subtle interactions between web content and assistive technology and the difficulties of approximating the experience of users with disabilities, this goes double for users with disabilities. If at all possible, you should test your site with real users with disabilities. This can be done on a large and expensive scale, but do not underestimate the benefits of doing even small-scale user testing.
  
 === Recruiting testers ===
- 
 Testers can be found in the same way as you find candidates for usability testing generally (eg through advertising and recruitment agencies). Your local disability organizations should be able to suggest appropriate forums for recruiting test subjects.
  
 Testing is real work and should ideally be compensated as such. A rate of around 70 USD for an hour’s testing is fairly common for user testing.
@@ -339,7 +317,6 @@ Having said that you may be able to find people who will test smaller projects f
 Such groups typically welcome questions from web developers about the accessibility of their sites or particular techniques.
 
 === Practical considerations ===
- 
 Remember that the test environment itself needs to be accessible. For example, if you are preparing written test materials, you need to be prepared to offer these in alternative forms. The logistics of replicating the user’s browsing environment at your normal testing location are complicated, so it may be more realistic to test at the user’s home. Failing that, even completely remote testing can be valuable.
  
 One particular consideration that is probably even more important for users with disabilities than other users is what technology they are familiar with. Assistive technology can add many layers of complexities to their computing experience, creating a big divide between novice computer users and old-hands, and dividing users into communities who might be very adept with their own setup but highly disorientated by unfamiliar technology. (Think of how hard users without disabilities that affect their use of computers find it to switch between Mac and PC!)
@@ -349,7 +326,6 @@ If you take a longtime user of the Window-Eyes screen reader, sit him in front o
 Likewise, unless you specifically want to test novice users or expert users, you should aim to select users who have around a year’s familiarity with using their current setup to access the web. Both assistive technology and the conventions of the web itself are non-trivial to learn. With novice users you will not know whether problems arise from your site or are intrinsic to the learning process, and experts may have tricks up their sleeves that others don’t.
  
 === Choosing tasks ===
- 
 It’s incredibly instructive even to observe users simply exploring a website. As with any other user testing:
  
 * Try setting the users some specific tasks to accomplish.
@@ -370,7 +346,6 @@ For example, if you are testing a video sharing site for accessibility, do not b
 This way, you are likely to uncover lots of problems you had not anticipated. For example, a screen reader user might not be able to find the search box or the controls for the video. Conversely, users might have navigational strategies for dealing with the web you do not even know about.
  
 === Interpreting the results ===
- 
 In an ideal world, we could test every possible combination and get feedback from everybody. But in reality, time and money will limit user testing. Given this, feedback can be a double-edged sword. While it can teach you an enormous amount, there is a real danger of attaching too much weight to one person’s view, which may not be representative of the greater target audience. For example, some screen reader users tend to be looking for an experience streamlined for blind users; others are keen to know everything about the site that their sighted friends and colleagues see.
 
 This is where accessibility standards like WCAG really come into their own. By following such guidelines, you can increase your chances of getting a foundation of accessibility even for user groups you are not able to test.
@@ -383,7 +358,6 @@ When you do observe a problem, analyse its causes. For example, your video shari
 * A problem with the screen reader. For example, the developers might have shortened long table headers using the <code>abbr</code> attribute, but the screen reader might not provide a user interface for reading the shortened version. Here appropriate actions would include reporting the bug to the screen reader vendor or developers, and might be to find a technique that does work in the screen reader, or to note the limitation in documentation and suggest an alternative tool or navigation strategy that does work.
  
 == Communicating the results of accessibility testing ==
- 
 When communicating the results of accessibility evaluation, document precisely what was evaluated. If you tested conformance with a particular standard, be specific about exactly where conformance has succeeded and failed. Whenever raising a problem, make sure to put it in real, human terms and explain how the problem might adversely affect users. Describe how to reproduce the problem and test for its resolution. Suggest practical techniques for achieving conformance or improving accessibility.
  
 For example, you might report a problem with the video sharing website like this:
@@ -395,17 +369,13 @@ For example, you might report a problem with the video sharing website like this
 * '''''Suggested remedies''': When JavaScript is not available, use a simple list of links to subpages for each sublist of navigation. On sub pages, present the main navigation followed by the sublist. When JavaScript is available, remove the sublist from the DOM and add sublists for each menu item on the <code>click</code> event, which can be triggered by keyboards, mice, speech recognition, and touch screens alike.''
  
 == Summary ==
- 
 Not every webpage will receive an accessibility evaluation by experts and a suite of paid test subjects. But any web developer can learn the principles of accessibility, attempt to implement those principles in their code, and submit the results of their labours to user mailing lists to learn of further problems, and so feed new knowledge back into future development.
  
 == Exercise questions ==
- 
 * Try navigating a complex site of your choice without using the mouse. What difficulties do you encounter? How could the developers of the site help you?
 * Turn off CSS and do your normal browsing for a day. What problems do you encounter?
 * Turn off JavaScript and do your normal browsing for a day. What problems do you encounter?
 * Pick a favourite site, design some personas for the site, then evaluate its conformance with WCAG 1.0 and general accessibility as an expert tester. Design a user testing plan for a site, and include recruit requirements and tasks to test. Write up a report on how it could improve its accessibility.
  
 Note: This material was originally published as part of the Opera Web Standards Curriculum, available as [http://dev.opera.com/articles/view/26-accessibility-testing/ 26: Accessibility testing], written by Benjamin Hawkes-Lewis. Like the original, it is published under the [http://creativecommons.org/licenses/by-nc-sa/2.5/ Creative Commons Attribution, Non Commercial - Share Alike 2.5] license.
-
-[[Category:Tutorials]]
-[[Category:WSC]]
+{{Topics|Tutorials, WSC}}
