@@ -14,7 +14,7 @@
 |Bubbles=No
 |Cancelable=No
 }}
-{{Topics|Event}}
+{{Topics|Events}}
 {{Notes_Section
 |Notes=
 ===Remarks===
