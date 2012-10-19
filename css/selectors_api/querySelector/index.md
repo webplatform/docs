@@ -17,9 +17,7 @@
 |Example_object_name=element
 |Return_value_name=element
 |Javascript_data_type=DOM Node
-|Return_value_description=A DOM element node,
-or null if the search cannot find
-an element that matches the selector string.
+|Return_value_description=A DOM element node, or null if the search cannot find an element that matches the selector string.
 }}
 {{Examples_Section
 |Not_required=No
@@ -29,29 +27,26 @@ an element that matches the selector string.
 are scoped to the entire document. The variable <code>e</code>
 contains the span even though the provided selector references
 the P element, which is outside the scope of the starting DIV element.
-|Code=&lt;html&gt;  
-&lt;meta http-equiv{{=}}"X-UA-Compatible" content{{=}}"IE{{=}}8"&gt;
+|Code=&lt;!doctype html&gt;
+&lt;html&gt;
 &lt;!-- To limit the search to descendants of an element only, --&gt;
 &lt;!-- call the selectors API on the specific element of interest. --&gt;
-&lt;body&gt;   
-    &lt;p&gt;    
-        &lt;div id{{=}}"apple"&gt;     
-        &lt;span&gt;Some are sauce, some are pie.&lt;/span&gt;    
-        &lt;/div&gt;   
-    &lt;/p&gt;   
-&lt;script&gt;    
-    var div {{=}} document.getElementById("apple");    
-    var   e {{=}} div.querySelector("p span");    // 'e' will select the span.    
+&lt;body&gt;
+    &lt;p&gt;
+        &lt;div id{{=}}"apple"&gt;
+        &lt;span&gt;Some are sauce, some are pie.&lt;/span&gt;
+        &lt;/div&gt;
+    &lt;/p&gt;
+&lt;script&gt;
+    var div {{=}} document.getElementById("apple");
+    var   e {{=}} div.querySelector("p span");    // 'e' will select the span.
     var   f {{=}} div.querySelector("p div");     // 'f' will be null because the div is not a descendent of 'div'
-&lt;/script&gt;  
-&lt;/body&gt; 
+&lt;/script&gt;
+&lt;/body&gt;
 &lt;/html&gt;
 }}
 }}
 {{Notes_Section
-|Usage====Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}142050 Selectors API Level 1], Section 6.1
 |Notes=The document search order is depth-first. This method returns the first element found. To find all matching nodes, use [[css/selectors api/querySelectorAll|'''querySelectorAll''']].
 The scope of the returned element node is limited to the descendants of the starting element node. If the starting element is [[dom/document|'''document''']], the search returns nodes from the entire document.
 This method does not return the starting element node. For example, <code>div.querySelector("p div")</code> will never return the '''DIV''' element that it starts with.
@@ -66,7 +61,7 @@ are supported. Selectors that contain
 You can search namespaced elements using a selector syntax based on prefix 
 instead of the namespaceURI, for example "nsPrefix \: element", 
 where "nsPrefix" is the prefix of a given element.
-Selectors are described in detail in Understanding CSS Selectors and [http://go.microsoft.com/fwlink/p/?linkid{{=}}203764 W3C Selectors].
+Selectors are described in detail in Understanding CSS Selectors and [http://www.w3.org/TR/css3-selectors/ W3C Selectors].
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
