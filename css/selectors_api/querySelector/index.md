@@ -62,6 +62,7 @@ You can search namespaced elements using a selector syntax based on prefix
 instead of the namespaceURI, for example "nsPrefix \: element", 
 where "nsPrefix" is the prefix of a given element.
 Selectors are described in detail in Understanding CSS Selectors and [http://www.w3.org/TR/css3-selectors/ W3C Selectors].
+Calling this method with an unknown selector (due to the browser not implementing it, or due to typo and such) may throw an exception.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -132,7 +133,7 @@ Selectors are described in detail in Understanding CSS Selectors and [http://www
 |Notes_rows={{Compatibility Notes Row
 |Browser=Any
 |Version=Any
-|Note=The returned elements will only match selector strings that the running browser supports. Look at any individual selector for compatibility information.
+|Note=The returned elements will only match selector strings that the running browser supports. Look at any individual selector for compatibility information. Some advanced selector may cause the call to throw an exception, due to syntax errors.
 }}
 }}
 {{See_Also_Section
