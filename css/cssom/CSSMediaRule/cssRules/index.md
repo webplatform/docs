@@ -4,7 +4,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Gets a list of rules within a @media block.}}
 {{API_Object_Property
 |Property_applies_to=css/cssom/CSSMediaRule/CSSMediaRule
 |Read_only=Yes
