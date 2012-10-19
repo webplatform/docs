@@ -5,7 +5,7 @@
 {{Byline
 |Name=Dave Gash
 |URL=http://docs.webplatform.org/wiki/User:Dgash
-|Published=October 18, 2012
+|Published=October 19, 2012
 }}
 {{Summary_Section|An introduction to the web audio API: loading and playing an external sound file.}}
 {{Tutorial
@@ -140,7 +140,7 @@ function stopSound() {
 }
 </syntaxhighlight>
 
-<blockquote>'''''Note:''' The <code>noteOn(0)</code> and <code>noteOff(0)</code> method names are slated to be changed to <code>start()</code> and <code>stop()</code> as noted in the examples' comments, but as of this writing (October 2012) this change has not been fully implemented. See the web audio specification's [https://dvcs.w3.org/hg/audio/raw-file/tip/webaudio/specification.html#deprecation-section deprecation section] for more information, and always test applications to ensure that they use the current syntax.''</blockquote>
+<blockquote>'''''Note:''' The <code>noteOn(0)</code> and <code>noteOff(0)</code> method names are slated to be changed to <code>start()</code> and <code>stop()</code>, as noted in the examples' comments, but as of this writing (October 2012) this change has not been fully implemented. See the web audio specification's [https://dvcs.w3.org/hg/audio/raw-file/tip/webaudio/specification.html#deprecation-section deprecation section] for more information, and always test applications to ensure that they use the currently supported syntax.''</blockquote>
 
 ==The completed example==
 Having examined the required steps in bits and pieces, let's now take a look at a complete, working page that loads, decodes, and plays a sound. In this example, we assume that the file "mysound.mp3" exists in the same location as the page, and that the page and the sound reside on a server (either local or remote) so that the XHR will work.
