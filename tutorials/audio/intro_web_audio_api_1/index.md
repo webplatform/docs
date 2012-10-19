@@ -111,7 +111,7 @@ This anonymous function uses the context's <code>decodeAudioData</code> method t
 Finally, the XHR's <code>send()</code> method is used to send the task to the server for execution and thus wrap up the function. Our audio file is now loaded and decoded, and the decoded data is stored in an audio buffer, ready for use.
 
 ===Step 5: Play the audio===
-At last we're ready to play the sound. This is achieved through the "connect the nodes" process described and diagrammed earlier. We can define a single function to play our new sound, or any other, as long as we pass it a buffer containing the decoded audio. Let's assume we'll execute the <code>playSound()</code> function on a button click.
+At last we're ready to play the sound. This is achieved through the "connect the nodes" process described and diagrammed earlier. We can define a single function to play our new sound, or any other, as long as we pass it a buffer containing the decoded audio (or other valid source node). Let's assume we'll execute the <code>playSound()</code> function on a button click.
 
 <syntaxhighlight lang="javascript">
 var source = null;
@@ -152,7 +152,6 @@ Having examined the required steps in bits and pieces, let's now take a look at 
 <script>
 //Step 1
 var context;
-//window.addEventListener('load', initContext, false);
 function initContext() {
   try {
     context = new webkitAudioContext();
