@@ -1,5 +1,10 @@
 {{Page_Title|HTML text}}
-{{Flags}}
+{{Flags
+|High-level issues=Move Candidate
+|Editorial notes={{Editorial/Move_Candidate
+| Should be moved to a proper URL to keep breadcrumbs in order.  Depends upon where HTML tutorials get placed.
+}}
+}}
 {{Byline}}
 {{Summary_Section|This article talks about some of the most common elements used when marking up textual content using HTML.}}
 {{Guide
