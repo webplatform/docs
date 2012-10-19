@@ -20,14 +20,16 @@ As useful as the <code>&lt;audio&gt;</code> element is in terms of encapsulating
 
 The web audio API is high-level JavaScript interface that is about much more than just playing sounds. With it, you can process, synthesize, mix, visualize, filter, and otherwise manipulate audio data with extreme precision to accomplish tasks and achieve results previously found only in high-end commercial audio applications.
 
-In this tutorial, part 1 of 2, we'll explore the basics of the API and learn how to load, start, and stop a sound before moving on to more complex tasks.
+In this tutorial, we'll explore the basics of the API and learn how to load, start, and stop a sound before moving on to more complex tasks.
 
 ==Prerequisite concepts==
 To effectively use the web audio API, certain things must happen in a certain order; it's that sequence of events we'll explore next. But first, we need to understand a couple of concepts, called ''context'' and ''nodes'', and how they relate to each other.
 
 API sound manipulation takes place within an [https://dvcs.w3.org/hg/audio/raw-file/tip/webaudio/specification.html#AudioContext-section AudioContext]. A context can be thought of as a master container inside which your web page does all of its audio processing. A major benefit of this "sandbox" approach is that it isolates all the audio work&mdash;even the most complex and demanding processes&mdash;into an independent, high-priority thread and thus prevents this CPU-intensive work from interfering with other events (visual or aural) and marring the user experience.
 
-The context allows for the creation of one or more [https://dvcs.w3.org/hg/audio/raw-file/tip/webaudio/specification.html#AudioNode-section AudioNode]s, all of which reside in the context. Nodes are the building blocks of audio processing, and may be ''input'', ''processor'', or ''output'' types. 
+It is important to note that an audio context, when created in software, represents the physical hardware context in which the application is running, and thus implements its characteristics&mdash;operating at a fixed  sample rate, for example.
+
+The audio context allows for the creation of one or more [https://dvcs.w3.org/hg/audio/raw-file/tip/webaudio/specification.html#AudioNode-section AudioNode]s, all of which reside in the context. Nodes are the building blocks of audio processing, and may be ''input'', ''processor'', or ''output'' types. 
 
 Nodes may have input and/or output connections, which are used to string them together into a sequence. An audio signal makes its way through the nodes via the various connections, or [https://dvcs.w3.org/hg/audio/raw-file/tip/webaudio/specification.html#ModularRouting-section modular routing], from one node to the next.
 
@@ -73,6 +75,8 @@ var myAudioBuffer = null;
 </syntaxhighlight>
 
 That's all we have to do; the buffer is now defined and ready to receive audio data.
+
+'''Note:''' Bear in mind that you don't ''have'' to use a buffer as a source node. In this example, we use one because we're loading the audio from an external sound file. You can also use other input sources such as oscillators, JavaScript nodes, and [http://updates.html5rocks.com/2012/09/Live-Web-Audio-Input-Enabled live input] to acquire an audio stream to be processed and played. 
 
 ===Step 3: Load a sound===
 The load process is typically accomplished with an [https://developer.mozilla.org/En/XMLHttpRequest/Using_XMLHttpRequest XMLHttpRequest] (often just called an XHR). The XHR can be called programmatically based on page load status, timing, or user interaction such as a button click (as we'll do later).
@@ -134,7 +138,7 @@ function stopSound() {
 }
 </syntaxhighlight>
 
-'''Note:''' As of this writing (October 2012), the <code>noteOn(0)</code> and <code>noteOff(0)</code> method names used in these examples are slated to be changed to <code>start()</code> and <code>stop()</code>. See the web audio specification's [https://dvcs.w3.org/hg/audio/raw-file/tip/webaudio/specification.html#deprecation-section deprecation section], and always test applications to ensure that they use the current syntax.
+'''Note:''' The <code>noteOn(0)</code> and <code>noteOff(0)</code> method names used in these examples are slated to be changed to <code>start()</code> and <code>stop()</code>, but as of this writing (October 2012) this change has not been implemented. See the web audio specification's [https://dvcs.w3.org/hg/audio/raw-file/tip/webaudio/specification.html#deprecation-section deprecation section] for more information, and always test applications to ensure that they use the current syntax.
 
 ==The completed example==
 Having examined the required steps in bits and pieces, let's now take a look at a complete, working page that loads, decodes, and plays a sound. In this example, we assume that the file "mysound.mp3" exists in the same location as the page, and that the page and the sound reside on a server (either local or remote) so that the XHR will work.
