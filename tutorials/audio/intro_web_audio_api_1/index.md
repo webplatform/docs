@@ -9,9 +9,7 @@
 }}
 {{Summary_Section|An introduction to the web audio API.}}
 {{Tutorial
-|Content==Using the web audio API, part 1 of 2=
-
-==Introduction==
+|Content===Introduction==
 Web-based audio is becoming more robust all the time, and necessarily so. As the web evolves in stylistic and presentational features, web applications also require a higher degree of sophistication in audio manipulation. Gone are the days of <code>&lt;embed&gt;</code>, <code>&lt;object&gt;</code>, and <code>&lt;bgsound&gt;</code>, when the best you could hope for was a constant, cheesy MIDI file playing in your page, annoying visitors who are trying to read your content.
 
 Today, diverse web apps such as games, audio editors, playlist managers, ringtone stores, musicians' utilities, and more have a need for subtlety and finesse in their use of audio, and users deserve&mdash;and have come to expect&mdash;power and flexibility in those apps.
@@ -125,7 +123,7 @@ Recall that to produce sound we need ''source'' and ''destination'' nodes, and t
 
 We don't have to explicitly create the context's <code>destination</code> node&mdash;it's present by default&mdash;but we do have to connect the source to it. This is done using the source node's <code>connect()</code> method, passing it the <code>context.destination</code> node. The sequence is complete: we now have a source node containing a sound whose output is connected to the input of a destination node representing the speakers.
 
-Finally, we can play the sound (hooray!) using the source node's <code>noteOn(0)</code> method, which plays the audio data from beginning to end unless stopped programmatically. And how, you might ask, would that be done? With the source node's complementary <code>noteOff(0)</code> method, of course.
+Finally, we can play the sound (hooray!) using the source node's <code>start()</code> method, which plays the audio data from beginning to end unless stopped programmatically. And how, you might ask, would that be done? With the source node's complementary <code>stop()</code> method, of course.
 
 ===Step 6: Stop the audio===
 <syntaxhighlight lang="javascript">
@@ -136,7 +134,7 @@ function stopSound() {
 }
 </syntaxhighlight>
 
-And we're done!
+'''Note:''' As of this writing (October 2012), the <code>noteOn(0)</code> and <code>noteOff(0)</code> method names used in these examples are slated to be changed to <code>start()</code> and <code>stop()</code>. See the web audio specification's [https://dvcs.w3.org/hg/audio/raw-file/tip/webaudio/specification.html#deprecation-section deprecation section], and always test applications to ensure that they use the current syntax.
 
 ==The completed example==
 Having examined the required steps in bits and pieces, let's now take a look at a complete, working page that loads, decodes, and plays a sound. In this example, we assume that the file "mysound.mp3" exists in the same location as the page, and that the page and the sound reside on a server (either local or remote) so that the XHR will work.
