@@ -2,7 +2,7 @@
 {{Flags
 |High-level issues=Move Candidate
 |Editorial notes={{Editorial/Move_Candidate
-| Should be moved to a proper URL to keep breadcrumbs in order.  Depends upon where HTML tutorials get placed.
+| Should be moved to a proper URL to keep breadcrumbs in order.  Should not be under guide but /concepts/html to be in a more fitting area.
 }}
 }}
 {{Byline}}
