@@ -1,70 +1,55 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{API_Object_Method
-|Parameters=
-|Method_applies_to=
-|Example_object_name=object
-|Return_value_name=object
-|Javascript_data_type=DOM Node
-|Return_value_description=Type: '''HRESULT'''
-
-This method can return one of these values.
-
-{| class="wikitable"
-|-
-!Return code
-!Description
-|-
-|S_OK
-|The operation completed successfully.
-|}
- 
-
-Type: '''HRESULT'''
-
-This method can return one of these values.
-
-{| class="wikitable"
-|-
-!Return code
-!Description
-|-
-|S_OK
-|The operation completed successfully.
-|}
- 
-
-
+|Parameters={{Method Parameter
+|Name=index
+|Data type=Number
+|Description=The index of the rule to remove from the media block's rule collection.
+|Optional=No
 }}
-{{Topics|DOM}}
-{{Notes_Section
-|Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203741 Document Object Model (DOM) Level 2 Style Specification], Section 2.2
-
-
-===Parameters===
-;''lIndex'' [in]:Type: '''Integer''' <b/>The index of the rule to remove from the media block's rule collection.
+|Method_applies_to=css/cssom/CSSMediaRule/CSSMediaRule
+|Example_object_name=mediaRule
+|Javascript_data_type=void
+}}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
+{{Notes_Section}}
+{{Related_Specifications_Section
+|Specifications={{Related Specification
+|Name=DOM Level 2 Style
+|URL=http://www.w3.org/TR/2000/REC-DOM-Level-2-Style-20001113/css.html#CSS-CSSMediaRule
+|Status=Recommendation
+|Relevant_changes=Section 2.2
+}}
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Topic_clusters=CSSOM
+|Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSMediaRule/CSSMediaRule|CSSMediaRule]]</code>
 *<code>Reference</code>
 *<code>[[css/cssom/styleSheet/cssRules|cssRules]]</code>
 *<code>[[css/cssom/CSSMediaRule/insertRule|insertRule]]</code>
 *<code>[[css/cssom/CSSMediaRule/media|media]]</code>
-|Topic_clusters=CSSOM
 }}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
