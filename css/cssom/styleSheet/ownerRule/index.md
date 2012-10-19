@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Gets the CSS Rule that imported the style sheet, if any.}}
 {{API_Object_Property
 |Property_applies_to=css/cssom/styleSheet
 |Read_only=Yes
@@ -13,7 +13,7 @@
 |Return_value_name=rule
 |Javascript_data_type=DOM Node
 |Return_value_description=Of type CSSRule.
-Returns an CSSImportRule or null.
+Returns a CSSImportRule or null.
 }}
 {{Examples_Section
 |Not_required=No
