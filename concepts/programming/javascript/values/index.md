@@ -64,7 +64,7 @@ answer = "Thanks for all the fish...";
 <syntaxhighlight lang="JavaScript">
 var a;
 "The value of a is " + a; //is "The value of a is undefined"
-"The value of b is " + b; //throws ReferenceError exception
+"The value of b is " + b; //ReferenceError: b is not defined
 </syntaxhighlight>
 <p>You can use <code>undefined</code> to determine whether a variable has a value. In the following code, the variable <code>input</code> is not assigned a value, and the <code>[[/js/statements/if...else|if]]</code> statement evaluates to <code>true</code>.</p>
 <syntaxhighlight lang="JavaScript">
@@ -241,8 +241,8 @@ console.log(car[7]); // Mazda
 var foo = {a: "alpha", 2: "two"};
 foo.a; //is "alpha"
 foo[2]; //is "two"
-foo.2; //Error: missing ) after argument list
-foo[a]; //Error: a is not defined
+foo.2; //SyntaxError: Unexpected number
+foo[a]; //ReferenceError: a is not defined
 foo["a"]); //is "alpha"
 foo["2"]; //is two
 </syntaxhighlight>
