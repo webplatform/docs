@@ -27,6 +27,7 @@
 |Notes=This method differs from the [[css/selectors api/querySelector|'''querySelector''']]
 method by returning a collection of DOM element nodes that
 match the selector string, rather than only the first element found.
+Calling this method with an unknown selector (due to the browser not implementing it, or due to typo and such) may throw an exception.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -94,7 +95,11 @@ match the selector string, rather than only the first element found.
 |Safari_mobile_prefixed_supported=Unknown
 |Safari_mobile_prefixed_version=
 }}
-|Notes_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Any
+|Version=Any
+|Note=The returned elements will only match selector strings that the running browser supports. Look at any individual selector for compatibility information. Some advanced selector may cause the call to throw an exception, due to syntax errors.
+}}
 }}
 {{See_Also_Section
 |Topic_clusters=Selectors
