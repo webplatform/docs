@@ -35,7 +35,7 @@ Nodes may have input and/or output connections, which are used to string them to
 
 Regardless of how many nodes exist and how they are connected, the signal always terminates at the [https://dvcs.w3.org/hg/audio/raw-file/tip/webaudio/specification.html#AudioDestinationNode-section AudioDestinationNode]&mdash;essentially, the speaker output through which a user hears the final result.
 
-The simplest connection case, then, consists of a web app containing a context that contains one source node (a previously-loaded sound) whose output is connected directly to the input of one destination node (the speakers), as shown below. That's the case we're going to cover in this tutorial.
+The simplest connection case, then, consists of a web app with a context that contains one source node (a previously-loaded sound in this case) whose output is connected directly to the input of one destination node (the speakers), as shown below. That's the case we're going to cover in this tutorial.
 
 [[image:wap1-basic-trans.png]]<br/>
 ''A context with one source and one destination''
