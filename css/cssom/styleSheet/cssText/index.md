@@ -12,7 +12,7 @@
 |Example_object_name=stylesheet
 |Return_value_name=cssText
 |Javascript_data_type=String
-|Return_value_description=The text representation of the stylesheet.
+|Return_value_description=The textual representation of the style sheet.
 |Example_value_name=cssText
 }}
 {{Examples_Section
