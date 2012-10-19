@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Adds an @import rule to the style sheet.}}
+{{Summary_Section|Non standard. Adds an @import rule to the style sheet.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=url
