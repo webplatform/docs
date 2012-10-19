@@ -12,7 +12,7 @@
 |Event_applies_to=dom/Element
 
 }}
-{{Topics|Event}}
+{{Topics|Events}}
 {{Notes_Section
 |Import_Notes=
 ===Syntax===
