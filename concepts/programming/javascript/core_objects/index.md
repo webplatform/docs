@@ -1,5 +1,6 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+}}
 {{Byline}}
 {{Summary_Section|This chapter describes the predefined objects in core JavaScript: <code>Array</code>, <code>Boolean</code>, <code>Date</code>, <code>Function</code>, <code>Math</code>, <code>Number</code>, <code>RegExp</code>, and <code>String</code>.}}
 {{Tutorial
