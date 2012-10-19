@@ -12,7 +12,7 @@
 |Event_applies_to=dom/Element
 
 }}
-{{Topics|Event}}
+{{Topics|Events}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
