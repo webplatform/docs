@@ -1,6 +1,6 @@
 {{Page_Title|JavaScript libraries}}
 {{Flags
-|High-level issues=Stub, Needs Topics, Missing Relevant Sections
+|High-level issues=Stub,Needs Topics,Missing Relevant Sections
 }}
 {{Summary_Section|Index page for JavaScript libraries}}
 {{Basic Page}}
