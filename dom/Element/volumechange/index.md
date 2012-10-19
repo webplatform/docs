@@ -14,7 +14,7 @@
 |Bubbles=No
 |Cancelable=No
 }}
-{{Topics|Event}}
+{{Topics|Events}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single_Example
