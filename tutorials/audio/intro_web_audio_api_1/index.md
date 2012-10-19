@@ -51,7 +51,7 @@ var context = new webkitAudioContext();
 
 '''Note:''' We're using the ''webkit'' prefix because, so far, the web audio API has only limited support in modern browsers. See the compatibility tables at the end of this article for the latest information.
 
-Typically, we would create the context as a global variable so that it's available to later functions. We could simply declare the variable and assigning an audio context to it in one statement as shown above or, more elegantly, we could declare it first and then assign the audio context to it later via a function called from a button click or other event, so we can check for errors.
+Typically, we would create the context as a global variable so that it's available to later functions. We could simply declare the variable and assign an audio context to it in one statement as shown above or, more elegantly, we could declare it first and then assign the audio context to it later via a function called from a button click or other event, so we can check for errors.
 
 <syntaxhighlight lang="javascript">
 var context;
