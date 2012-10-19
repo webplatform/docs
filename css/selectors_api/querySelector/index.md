@@ -129,7 +129,11 @@ Selectors are described in detail in Understanding CSS Selectors and [http://www
 |Safari_mobile_prefixed_supported=Unknown
 |Safari_mobile_prefixed_version=
 }}
-|Notes_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Any
+|Version=Any
+|Note=The returned elements will only match selector strings that the running browser supports. Look at any individual selector for compatibility information information.
+}}
 }}
 {{See_Also_Section
 |Topic_clusters=Selectors
