@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Adds a medium to the end of the current list. If the medium is already used, it is first removed.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=medium
@@ -24,7 +24,7 @@
 {{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=DOM Level 2 Style 
+|Name=DOM Level 2 Style
 |URL=http://www.w3.org/TR/2000/REC-DOM-Level-2-Style-20001113/
 |Status=Recommendation
 |Relevant_changes=Section 1.2
