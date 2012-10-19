@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Removes a medium from the media list.}}
+{{Summary_Section|Deletes a medium from the current list.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=medium
