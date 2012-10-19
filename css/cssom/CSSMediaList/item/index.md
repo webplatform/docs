@@ -5,21 +5,25 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
-{{API_Object_Property
-|Property_applies_to=css/cssom/CSSMediaList/CSSMediaList
-|Read_only=No
+{{Summary_Section|Gets the medium at the position number that is indicated by an index in the current list.}}
+{{API_Object_Method
+|Parameters={{Method Parameter
+|Name=index
+|Data type=String
+|Description=An index into the media list.
+|Optional=No
+}}
+|Method_applies_to=css/cssom/CSSMediaList/CSSMediaList
 |Example_object_name=mediaList
+|Javascript_data_type=String
 }}
 {{Examples_Section
 |Not_required=No
 |Examples=
 }}
 {{Notes_Section
-|Notes====Remarks===
+|Notes
 If ''index'' is greater than or equal to the number of media in the list, this method returns null.
-|Import_Notes====Parameters===
-''index'' Type: '''Integer'''
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
