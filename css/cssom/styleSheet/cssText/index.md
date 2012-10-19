@@ -5,9 +5,9 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|A style sheet in a document.}}
+{{Summary_Section|Gets or sets the textual representation of a CSS rule.}}
 {{API_Object_Property
-|Property_applies_to=css/cssom/styleSheet
+|Property_applies_to=css/cssom/CSSRule/CSSRule
 |Read_only=No
 |Example_object_name=stylesheet
 |Return_value_name=cssText
@@ -32,9 +32,9 @@ This is the test paragraph.&lt;/p&gt;:
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=DOM Level 2 Style
-|URL=http://www.w3.org/TR/DOM-Level-2-Style/stylesheets.html#StyleSheets-fundamental
+|URL=http://www.w3.org/TR/DOM-Level-2-Style/css.html
 |Status=Recommendation
-|Relevant_changes=Section 1.2
+|Relevant_changes=Section 2.2
 }}
 }}
 {{Compatibility_Section
