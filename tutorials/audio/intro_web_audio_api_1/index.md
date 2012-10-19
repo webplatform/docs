@@ -1,4 +1,4 @@
-{{Page_Title|Using the web audio API, part 1}}
+{{Page_Title|Introduction to the web audio API, part 1}}
 {{Flags
 |High-level issues=Needs Flags
 }}
@@ -7,7 +7,7 @@
 |URL=http://docs.webplatform.org/wiki/User:Dgash
 |Published=October 18, 2012
 }}
-{{Summary_Section|An introduction to the web audio API.}}
+{{Summary_Section|An introduction to the web audio API: loading and playing an external sound file.}}
 {{Tutorial
 |Content===Introduction==
 Web-based audio is becoming more robust all the time, and necessarily so. As the web evolves in stylistic and presentational features, web applications also require a higher degree of sophistication in audio manipulation. Gone are the days of <code>&lt;embed&gt;</code>, <code>&lt;object&gt;</code>, and <code>&lt;bgsound&gt;</code>, when the best you could hope for was a constant, cheesy MIDI file playing in your page, annoying visitors who are trying to read your content.
