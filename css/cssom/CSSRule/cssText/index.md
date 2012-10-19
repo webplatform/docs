@@ -1,5 +1,7 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|High-level issues=Stub, Needs Flags
+}}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|Gets or sets a textual representation of a CSS rule.}}
@@ -10,6 +12,7 @@
 |Return_value_name=ruleText
 |Javascript_data_type=String
 |Return_value_description=Returns a textual representation of a CSS rule.
+|Example_value_name=ruleText
 }}
 {{Examples_Section
 |Not_required=No
@@ -30,8 +33,10 @@
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section}}
-{{Topics}}
+{{See_Also_Section
+|Topic_clusters=CSSOM
+}}
+{{Topics|CSS, DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
