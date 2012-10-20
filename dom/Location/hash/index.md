@@ -1,46 +1,57 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section|Sets or retrieves the subsection of the [[html/attributes/href|'''href''']] property that follows the number sign (#).}}
 {{API_Object_Property
 |Property_applies_to=dom/location
-|Read_only=
+|Read_only=No
+|Example_object_name=location
+|Return_value_name=hash
+|Javascript_data_type=String
+|Return_value_description=The hash component of the URL.
+|Example_value_name=hash
 }}
-{{Topics|DOM}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
+|Language=JavaScript
 |Description=This example function returns true if the current document URL has a '''hash''' value, or false if the document URL does not.
-|LiveURL=
-|Code=
-function hasHash()
-{
-    if (document.location.hash {{=}}{{=}} "")
+|Code=function hasHash() {
+    if (document.location.hash {{=}}{{=}}{{=}} "") {
         return false;
+    }
     return true;
 }
-}}}}
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
-If there is no number sign, this property returns an empty string.
+|Notes=If there is no number sign, this property returns an empty string.
 This property is useful for moving to a bookmark within a document. Assigning an invalid value does not cause an error.
-|Import_Notes=
-===Syntax===
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 *<code>[[html/elements/a|a]]</code>
-*<code>area</code>
+*<code>[[html/elements/area|area]]</code>
 *<code>[[dom/location|location]]</code>
 }}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
