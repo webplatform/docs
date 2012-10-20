@@ -1,35 +1,46 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section|Gets the value of a property in a CSS style declaration.}}
 {{API_Object_Method
-|Parameters=
-|Method_applies_to=
-|Example_object_name=object
-|Return_value_name=object
-|Javascript_data_type=DOM Node
-|Return_value_description=String
-
-The value of the property if it  is explicitly set for this declaration block, or null.
-
-
+|Parameters={{Method Parameter
+|Name=property
+|Data type=String
+|Description=The name of the property.
+|Optional=No
 }}
-{{Topics|DOM}}
-{{Notes_Section
-|Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203741 Document Object Model (DOM) Level 2 Style Specification], Section 2.2
-
-
-===Parameters===
-;''bstrPropertyName'' [in]:Type: '''<b>BSTR'''</b>The name of the CSS property.
+|Method_applies_to=css/cssom/CSSStyleDeclaration/CSSStyleDeclaration
+|Example_object_name=declaration
+|Return_value_name=value
+|Javascript_data_type=String
+|Return_value_description=The value of the property if it is explicitly set for this declaration block, or null.
+}}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
+{{Notes_Section}}
+{{Related_Specifications_Section
+|Specifications={{Related Specification
+|Name=DOM Level 2 Style
+|URL=http://www.w3.org/TR/2000/REC-DOM-Level-2-Style-20001113/css.html
+|Status=Recommendation
+|Relevant_changes=Section 2.2
+}}
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Topic_clusters=CSSOM
+|Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
 *<code>[[css/cssom/style|style]]</code>
@@ -39,12 +50,12 @@ The value of the property if it  is explicitly set for this declaration block, o
 *<code>[[css/cssom/properties/length|length]]</code>
 *<code>[[css/cssom/methods/removeProperty|removeProperty]]</code>
 *<code>[[css/cssom/methods/setProperty|setProperty]]</code>
-|Topic_clusters=CSSOM
 }}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
