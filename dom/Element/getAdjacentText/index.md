@@ -1,57 +1,83 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
 }}
 {{Standardization_Status|Non-Standard}}
 {{API_Name}}
+{{Summary_Section|Non standard. Gets a text from a given location around the edges of the element.}}
 {{API_Object_Method
-|Parameters={{Method Parameter|Name=where|Data type=BSTR|Description=A '''String''' that specifies where the text is located by using one of the following values.|Optional=}}
-|Method_applies_to=dom/Element
-|Example_object_name=object
-|Return_value_name=object
-|Javascript_data_type=DOM Node
-|Return_value_description=String
+|Parameters={{Method Parameter
+|Name=where
+|Data type=String
+|Description=Where the text is located by using one of the following values.
 
 
+'''beforeBegin'''
+
+Text is returned immediately before the element.
+
+
+'''afterBegin'''
+
+Text is returned after the start of the element but before all other content in the element.
+
+
+'''beforeEnd'''
+
+Text is returned immediately before the end of the element but after all other content in the element.
+
+'''afterEnd'''
+
+Text is returned immediately after the end of the element.
+|Optional=No
 }}
-{{Topics|DOM}}
+|Method_applies_to=dom/Element
+|Example_object_name=element
+|Return_value_name=text
+|Javascript_data_type=String
+|Return_value_description=The first adjacent text.
+}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
+|Language=HTML
 |Description=This example uses the '''getAdjacentText''' method to find specific text.
-|LiveURL=
-|Code=
-&lt;SCRIPT&gt;
-function fnFind(){
-	var sWhere {{=}} oSel.options[oSel.selectedIndex].text;
-	alert(oPara.getAdjacentText(sWhere));
+|Code=&lt;script&gt;
+function findText(){
+        var select = document.getElementById("sel");
+	var whereToFind {{=}} select.options[select.selectedIndex].textContent;
+	console.log(document.getElementById("para").getAdjacentText(whereToFind));
 }
-&lt;/SCRIPT&gt;
+&lt;/script&gt;
 This is the text before (beforeBegin).
-&lt;P ID{{=}}oPara&gt;
+&lt;p id{{=}}"para"&gt;
 This is the text after (afterBegin).
-&lt;B&gt;A few extra words.&lt;/B&gt;
+&lt;b&gt;A few extra words.&lt;/b&gt;
 This is the text before (beforeEnd).
-&lt;/P&gt;
+&lt;/p&gt;
 This is the text after (afterEnd).
-&lt;SELECT ID{{=}}oSel&gt;
-&lt;OPTION SELECTED&gt;beforeBegin
-&lt;OPTION&gt;afterBegin
-&lt;OPTION&gt;beforeEnd
-&lt;OPTION&gt;afterEnd
-&lt;/SELECT&gt;
-&lt;INPUT TYPE{{=}}"button" VALUE{{=}}"Find text" onclick{{=}}"fnFind()"&gt;
-}}}}
-{{Notes_Section
-|Import_Notes=
-===Syntax===
-===Standards information===
-There are no standards that apply here.
-
+&lt;select id{{=}}"sel"&gt;
+&lt;option selected="selected"&gt;beforeBegin&lt;/option&gtl
+&lt;option&gt;afterBegin&lt;/option&gtl
+&lt;option&gt;beforeEnd&lt;/option&gtl
+&lt;option&gt;afterEnd&lt;/option&gtl
+&lt;/select&gt;
+&lt;input type{{=}}"button" value{{=}}"Find text" onclick{{=}}"findText()"&gt;
+}}
+}}
+{{Notes_Section}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 *<code>[[html/elements/a|a]]</code>
 *<code>abbr</code>
 *<code>[[html/elements/acronym|acronym]]</code>
@@ -149,10 +175,11 @@ There are no standards that apply here.
 *<code>var</code>
 *<code>xmp</code>
 }}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
