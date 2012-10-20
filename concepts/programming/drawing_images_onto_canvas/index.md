@@ -42,7 +42,7 @@ window.addEventListener("DOMContentLoaded", function()
     var context = canvas.getContext("2d");
 
     context.drawImage(image, 0, 0);
-};
+});
 </syntaxhighlight>
 
 == The drawImage function ==
