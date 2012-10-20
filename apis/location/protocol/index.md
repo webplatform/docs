@@ -2,9 +2,11 @@
 {{Flags}}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The protocol the current document was accessed via (everything preceding the "//").}}
+{{Summary_Section|Sets or retrieves the protocol portion of a URL.
+The protocol the current document was accessed via (everything preceding the "//").
+}}
 {{API_Object_Property
-|Property_applies_to=apis/location
+|Property_applies_to=dom/location
 |Read_only=Yes
 |Example_object_name=window.location
 |Javascript_data_type=String
