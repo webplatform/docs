@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Gets or sets the path component of the URL.}}
+{{Summary_Section|Sets or retrieves the file name or path specified by the object.}}
 {{API_Object_Property
 |Property_applies_to=dom/location
 |Read_only=No
