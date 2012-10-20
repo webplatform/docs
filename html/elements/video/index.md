@@ -44,7 +44,73 @@
 |Opera_prefixed_supported=Unknown
 |Opera_prefixed_version=
 |Safari_supported=Yes
-|Safari_version=3.1
+|Safari_version=4
+|Safari_prefixed_supported=Unknown
+|Safari_prefixed_version=
+}}{{Compatibility Table Desktop Row
+|Feature=MP4 (H.264 + AAC)
+|Chrome_supported=Yes
+|Chrome_version=3
+|Chrome_prefixed_supported=Unknown
+|Chrome_prefixed_version=
+|Firefox_supported=No
+|Firefox_version=
+|Firefox_prefixed_supported=Unknown
+|Firefox_prefixed_version=
+|Internet_explorer_supported=Yes
+|Internet_explorer_version=9
+|Internet_explorer_prefixed_supported=Unknown
+|Internet_explorer_prefixed_version=
+|Opera_supported=No
+|Opera_version=
+|Opera_prefixed_supported=Unknown
+|Opera_prefixed_version=
+|Safari_supported=Yes
+|Safari_version=4
+|Safari_prefixed_supported=Unknown
+|Safari_prefixed_version=
+}}{{Compatibility Table Desktop Row
+|Feature=Ogg (Theora + Vorbis)
+|Chrome_supported=Yes
+|Chrome_version=3
+|Chrome_prefixed_supported=Unknown
+|Chrome_prefixed_version=
+|Firefox_supported=Yes
+|Firefox_version=3.6
+|Firefox_prefixed_supported=Unknown
+|Firefox_prefixed_version=
+|Internet_explorer_supported=No
+|Internet_explorer_version=
+|Internet_explorer_prefixed_supported=Unknown
+|Internet_explorer_prefixed_version=
+|Opera_supported=Yes
+|Opera_version=10.50
+|Opera_prefixed_supported=Unknown
+|Opera_prefixed_version=
+|Safari_supported=No
+|Safari_version=
+|Safari_prefixed_supported=Unknown
+|Safari_prefixed_version=
+}}{{Compatibility Table Desktop Row
+|Feature=WebM (VP8 + Vorbis)
+|Chrome_supported=Yes
+|Chrome_version=6
+|Chrome_prefixed_supported=Unknown
+|Chrome_prefixed_version=
+|Firefox_supported=Yes
+|Firefox_version=4
+|Firefox_prefixed_supported=Unknown
+|Firefox_prefixed_version=
+|Internet_explorer_supported=No
+|Internet_explorer_version=
+|Internet_explorer_prefixed_supported=Unknown
+|Internet_explorer_prefixed_version=
+|Opera_supported=Yes
+|Opera_version=10.60
+|Opera_prefixed_supported=Unknown
+|Opera_prefixed_version=
+|Safari_supported=No
+|Safari_version=
 |Safari_prefixed_supported=Unknown
 |Safari_prefixed_version=
 }}
@@ -85,7 +151,10 @@
 |Notes_rows={{Compatibility Notes Row
 |Browser=Internet Explorer
 |Version=9+
-|Note=Beginning with Internet Explorer 9, any audio or video content needs  the correct mime type set on the server, or the files won't play. Internet Explorer 9 supports MP3 audio, and  MP4 audio and video. WebM audio and video files can be supported by installing the WebM components from [http://www.webmproject.org/ The WebM project]. 
+|Note=Beginning with Internet Explorer 9, any audio or video content needs  the correct mime type set on the server, or the files won't play. Internet Explorer 9 supports MP3 audio, and  MP4 audio and video. WebM audio and video files can be supported by installing the WebM components from [http://www.webmproject.org/ The WebM project].
+}}{{Compatibility Notes Row
+|Browser=Chrome
+|Note=Google has announced that [http://blog.chromium.org/2011/01/html-video-codec-support-in-chrome.html H.264 support will be removed from Google Chrome] in the future.
 }}
 }}
 {{See_Also_Section}}
