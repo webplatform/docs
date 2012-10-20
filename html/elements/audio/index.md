@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -405,7 +405,7 @@ Beginning with Internet Explorer 9, any audio or video content needs the correc
 |Internet_explorer_version=9
 |Internet_explorer_prefixed_supported=Unknown
 |Internet_explorer_prefixed_version=
-|Opera_supported=Unknown
+|Opera_supported=No
 |Opera_version=
 |Opera_prefixed_supported=Unknown
 |Opera_prefixed_version=
@@ -431,7 +431,7 @@ Beginning with Internet Explorer 9, any audio or video content needs the correc
 |Opera_version=10.50
 |Opera_prefixed_supported=Unknown
 |Opera_prefixed_version=
-|Safari_supported=Unknown
+|Safari_supported=No
 |Safari_version=
 |Safari_prefixed_supported=Unknown
 |Safari_prefixed_version=
@@ -445,7 +445,7 @@ Beginning with Internet Explorer 9, any audio or video content needs the correc
 |Firefox_version=4
 |Firefox_prefixed_supported=Unknown
 |Firefox_prefixed_version=
-|Internet_explorer_supported=Unknown
+|Internet_explorer_supported=No
 |Internet_explorer_version=
 |Internet_explorer_prefixed_supported=Unknown
 |Internet_explorer_prefixed_version=
@@ -453,7 +453,7 @@ Beginning with Internet Explorer 9, any audio or video content needs the correc
 |Opera_version=10.60
 |Opera_prefixed_supported=Unknown
 |Opera_prefixed_version=
-|Safari_supported=Unknown
+|Safari_supported=No
 |Safari_version=
 |Safari_prefixed_supported=Unknown
 |Safari_prefixed_version=
@@ -523,7 +523,7 @@ Beginning with Internet Explorer 9, any audio or video content needs the correc
 *<code>Audio object</code>
 *<code>How to use HTML5 to Add an Audio Player to your Webpage</code>
 }}
-{{Topics|Media, HTML, Audio}}
+{{Topics|Audio, HTML, Media}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
