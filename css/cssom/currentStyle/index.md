@@ -35,7 +35,6 @@ function checkColor(element) {
 &lt;/style&gt;
 &lt;body&gt;
 &lt;p id{{=}}"oPrgrph" /&gt;
-:
 &lt;script&gt;
 console.log(document.getElementById("oPrgrph").currentStyle.myproperty);
 &lt;/script&gt;
@@ -44,11 +43,9 @@ console.log(document.getElementById("oPrgrph").currentStyle.myproperty);
 |Language=HTML
 |Description=This example shows that the '''td''' object width returned by the '''currentStyle''' object is its cascaded width value rather than the width rendered on the screen.
 |Code=&lt;body id{{=}}"oBdy"&gt;
-:
 &lt;table border&gt;
 &lt;tr&gt;&lt;td width{{=}}"1100" id{{=}}"oTblD"&gt;text&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;
-:
 &lt;script&gt;
 console.log("The TD object currentStyle.width is " + document.getElementById("oTblD").currentStyle.width +
     ".\nThe width of the window is " + document.getElementById("oBdy").clientWidth +
