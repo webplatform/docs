@@ -6,13 +6,14 @@
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|Non standard. Sets or retrieves the location of the Dynamic HTML (DHTML) behavior.}}
-{{API_Object_Method
-|Parameters=
-|Method_applies_to=css/cssom/CSSStyleDeclaration/CSSStyleDeclaration
-|Example_object_name=declaration
-|Return_value_name=behavior
-|Javascript_data_type=String
+{{CSS Property
+|Applies to=All elements
+|Inherited=No
+|Media=visual
+|Animatable=No
+|Values=
 }}
+
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
