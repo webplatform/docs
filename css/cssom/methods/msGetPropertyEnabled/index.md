@@ -1,7 +1,10 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
+|High-level issues=Deletion Candidate, Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Editorial notes={{Editorial/Deletion_Candidate
+| Using Internet Explorer 9 Platform Preview 8, this method does not exist anywhere. Is this actually usable from the web?
+}}
 }}
 {{Standardization_Status}}
 {{API_Name}}
