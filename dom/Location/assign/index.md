@@ -8,7 +8,7 @@
 {{Summary_Section|Loads a new document from a given URL.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
-|Name=bstr
+|Name=url
 |Data type=String
 |Description=The URL of the document to load.
 |Optional=No
