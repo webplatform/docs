@@ -1,7 +1,10 @@
 {{Page_Title|Not implemented anywhere - ignore}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
+|High-level issues=Deletion Candidate, Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Editorial notes={{Editorial/Deletion_Candidate
+| This not implemented and not specified anywhere.
+}}
 }}
 {{Standardization_Status}}
 {{API_Name}}
