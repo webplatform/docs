@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Gets an attribute with a given name from an element.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=name
