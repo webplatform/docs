@@ -17,18 +17,13 @@
 
 This example works only if the body and text colors are set using either color names or red-green-blue hexadecimal values, but not a mix of the two.
 |Code=&lt;script&gt;
-function checkColor(oObj)
-{
-  if (oObj.currentStyle.backgroundColor {{=}}{{=}} 'brown')
-	{
-        oObj.style.backgroundColor {{=}} 'white';
+function checkColor(element) {
+  if (element.currentStyle.backgroundColor {{=}}{{=}} 'brown') {
+        element.style.backgroundColor {{=}} 'white';
 	}
-  else
-	:
 }
 &lt;/script&gt;
 &lt;/head&gt;
-:
 &lt;p style{{=}}"background-color: 'brown'"
     onclick{{=}}"checkColor(this)"&gt;Click me&lt;/p&gt;
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/currentStyle_backgroundColor.htm
@@ -39,32 +34,31 @@ function checkColor(oObj)
     p { myproperty:myvalue }
 &lt;/style&gt;
 &lt;body&gt;
-&lt;p ID{{=}}oPrgrph /&gt;
+&lt;p id{{=}}"oPrgrph" /&gt;
 :
 &lt;script&gt;
-console.log(oPrgrph.currentStyle.myproperty);
+console.log(document.getElementById("oPrgrph").currentStyle.myproperty);
 &lt;/script&gt;
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/currentStyle2.htm
 }}{{Single Example
 |Language=HTML
 |Description=This example shows that the '''td''' object width returned by the '''currentStyle''' object is its cascaded width value rather than the width rendered on the screen.
-|Code=&lt;body id{{=}}oBdy&gt;
+|Code=&lt;body id{{=}}"oBdy"&gt;
 :
 &lt;table border&gt;
 &lt;tr&gt;&lt;td width{{=}}"1100" id{{=}}"oTblD"&gt;text&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;
 :
 &lt;script&gt;
-alert("The TD object currentStyle.width is " + oTblD.currentStyle.width +
-    ".\nThe width of the window is " + oBdy.clientWidth +
+console.log("The TD object currentStyle.width is " + document.getElementById("oTblD").currentStyle.width +
+    ".\nThe width of the window is " + document.getElementById("oBdy").clientWidth +
     "px.\nThe width of the screen is " + screen.width + "px." );
 &lt;/script&gt;
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/currentStyle_table.htm
 }}
 }}
 {{Notes_Section
-|Notes====Remarks===
-The '''currentStyle''' object returns the cascaded styles on an element, but the [[css/cssom/style|'''style''']] object returns only the styles that have been applied inline on an element through the '''style''' attribute. Thus, the style values retrieved through the '''currentStyle''' object might differ from the style values retrieved through the '''style''' object. For example, if the [[css/properties/color|'''color''']] property is set on a paragraph only through a linked or embedded style sheet, and not inline, then object.'''currentStyle'''.color returns the color, whereas object.'''style'''.'''color''' does not return a value. If, however, the author specifies &lt;P STYLE{{=}}"color:'red'", the '''currentStyle''' and '''style''' objects return the value .
+|Notes=The '''currentStyle''' object returns the cascaded styles on an element, but the [[css/cssom/style|'''style''']] object returns only the styles that have been applied inline on an element through the '''style''' attribute. Thus, the style values retrieved through the '''currentStyle''' object might differ from the style values retrieved through the '''style''' object. For example, if the [[css/properties/color|'''color''']] property is set on a paragraph only through a linked or embedded style sheet, and not inline, then object.'''currentStyle'''.color returns the color, whereas object.'''style'''.'''color''' does not return a value. If, however, the author specifies &lt;P STYLE{{=}}"color:'red'", the '''currentStyle''' and '''style''' objects return the value .
 The '''currentStyle''' object reflects the order of style precedence in cascading style sheets (CSS). The CSS order of precedence for the presentation of HTML is:
 #Inline styles
 #Style sheet rules
@@ -78,13 +72,10 @@ The '''currentStyle''' object supports user-defined properties in style rules. S
 The '''currentStyle''' object is asynchronous. This means a style cannot be set and then immediately queried—instead, the old value is returned. Thus, for a script to obtain the expected behavior of '''currentStyle''' with methods such as [[css/cssom/styleSheet/addImport|'''addImport''']], the script needs to include a function that calls the method and a function that checks '''currentStyle'''. For a script to check the current style while a page is loading, the script must wait until the '''body''' element is loaded and the page has rendered, or the value of '''currentStyle''' might not reflect what is being displayed.
 This object is available in script as of Microsoft Internet Explorer 5.
 Windows Internet Explorer 8 or later. The behavior of the [[dom/methods/setAttribute|'''setAttribute''']] method and the default value of the [[css/properties/z-index|'''zIndex''']] property varies according to the current document compatibility mode. For more information, see Attribute Differences in Internet Explorer 8 and Defining Document Compatibility.
-|Import_Notes====Standards information===
-There are no standards that apply here.
-
-===Members===
+|Import_Notes====Members (MSDN)===
 The '''currentStyle''' object has these types of members:
 *[[#Additional_Methods|Additional Methods]]
-*[[#Additional_Properties|Properties]]
+*[[#Additional_Properties|Additional Properties]]
 
 
 ====Additional Methods====
