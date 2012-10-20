@@ -1,46 +1,54 @@
+{{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
+|High-level issues=Deletion Candidate, Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Editorial notes={{Editorial/Deletion_Candidate
+| Using Internet Explorer 9 Platform Preview 8, this method does not exist anywhere. Is this actually usable from the web?
 }}
-{{Standardization_Status|}}
+}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section|Non standard. Sets a property as enabled or disabled.}}
 {{API_Object_Method
-|Parameters=
-|Method_applies_to=
-|Example_object_name=object
-|Return_value_name=object
-|Javascript_data_type=DOM Node
-|Return_value_description=Type: '''HRESULT'''
-
-If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRESULT''' error code.
-
-Type: '''HRESULT'''
-
-If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRESULT''' error code.
-
-
+|Parameters={{Method Parameter
+|Name=name
+|Data type=String
+|Description=The name of the property.
+|Optional=No
+}}{{Method Parameter
+|Name=enable
+|Data type=Boolean
+|Description=Whether to enable or disable the property.
+|Optional=No
 }}
-{{Topics|DOM}}
-{{Notes_Section
-|Import_Notes=
-===Syntax===
-===Standards information===
-There are no standards that apply here.
-
-===Parameters===
-;''name'' [in]:Type: '''<b>BSTR'''</b>The name of the property.
-;''b'' [in]:Type: '''VARIANT_BOOL'''<dl class{{=}}"indent"><dt><a id{{=}}"VARIANT_FALSE"/><a id{{=}}"variant_false"/>'''VARIANT_FALSE''' (false)</dt><dd>Disable the property.</dd><dt><a id{{=}}"VARIANT_TRUE"/><a id{{=}}"variant_true"/>'''VARIANT_TRUE''' (true)</dt><dd>Enable the property.</dd></dl>
+|Method_applies_to=css/cssom/CSSStyleDeclaration/CSSStyleDeclaration
+|Example_object_name=declaration
+|Javascript_data_type=void
+}}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
+{{Notes_Section}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
-*<code>[[css/cssom/style|style]]</code>
 |Topic_clusters=CSSOM
+|Manual_sections====Related pages (MSDN)===
+*<code>[[css/cssom/style|style]]</code>
 }}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
