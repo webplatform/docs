@@ -1,66 +1,95 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section|Removes an attribute with a given name.}}
 {{API_Object_Method
-|Parameters={{Method Parameter|Name=bstrName|Data type=BSTR|Description=A '''String''' that specifies the name of an [[dom/attributes|'''attribute''']] to remove.|Optional=}}
-|Method_applies_to=dom/attributes
-|Example_object_name=object
-|Return_value_name=object
-|Javascript_data_type=DOM Node
-|Return_value_description='''IHTMLDOMAttribute'''
-
-'''attribute'''
-
-
+|Parameters={{Method Parameter
+|Name=name
+|Data type=String
+|Description=The name of an [[dom/attributes|'''attribute''']] to remove.
+|Optional=No
 }}
-{{Topics|DOM}}
+|Method_applies_to=dom/attributes
+|Example_object_name=attributes
+|Return_value_name=attribute
+|Javascript_data_type=DOM Node
+|Return_value_description=The removed attribute.
+}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
+|Language=HTML
 |Description=The following example shows how to use this method to remove an [[dom/attributes|'''attribute''']] from an element.
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/removeNamedItemEx1.htm
-|Code=
-&lt;HTML&gt;
-&lt;HEAD&gt;
-&lt;SCRIPT&gt;
-function removeAttrib()
-{
-    var oAttrColl {{=}} myDIV.attributes;
-    oAttrColl.removeNamedItem("TITLE");
+|Code=&lt;!doctype html&gt;
+&lt;html&gt;
+ &lt;head&gt;
+  &lt;script&gt;
+function removeAttrib() {
+    var attributes {{=}} document.getElementById("ex").attributes;
+    attributes.removeNamedItem("title");
 }
-&lt;/SCRIPT&gt;
-&lt;/HEAD&gt;
-&lt;BODY&gt;
-&lt;DIV onclick{{=}}"removeAttrib();" ID{{=}}"myDIV" TITLE{{=}}"THIS IS A TOOLTIP"&gt;
-Click this DIV and the ToolTip will be inactivated.&lt;/DIV&gt;
-&lt;/BODY&gt;
-&lt;/HTML&gt;
-
-}}}}
+  &lt;/script&gt;
+ &lt;/head&gt;
+ &lt;body&gt;
+ &lt;div onclick{{=}}"removeAttrib();" id{{=}}"ex" title{{=}}"This is a tooltip"&gt;
+Click this DIV and the tooltip will be deactivated.&lt;/div&gt;
+ &lt;/body&gt;
+&lt;/html&gt;
+|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/removeNamedItemEx1.htm
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
-An [[dom/attributes|'''attribute''']] that is removed with this method reverts to the default value of the '''attribute''' when applicable. This method returns a script error if the user attempts to remove a non-existent attribute node.
+|Notes=An [[dom/attributes|'''attribute''']] that is removed with this method reverts to the default value of the '''attribute''' when applicable. This method returns a script error if the user attempts to remove a non-existent attribute node.
 '''removeNamedItem''' was introduced in Microsoft Internet Explorer 6.
-|Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}182717 Document Object Model (DOM) Level 3 Core Specification], Section 1.4
-
-
+}}
+{{Related_Specifications_Section
+|Specifications={{Related Specification
+|Name=DOM Level 3 Core
+|URL=http://www.w3.org/TR/DOM-Level-3-Core/
+|Status=Recommendation
+|Relevant_changes=Section 1.4
+}}
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows={{Compatibility Table Desktop Row
+|Chrome_supported=Yes
+|Chrome_version=1
+|Chrome_prefixed_supported=Unknown
+|Chrome_prefixed_version=
+|Firefox_supported=Yes
+|Firefox_version=1
+|Firefox_prefixed_supported=Unknown
+|Firefox_prefixed_version=
+|Internet_explorer_supported=Yes
+|Internet_explorer_version=6
+|Internet_explorer_prefixed_supported=Unknown
+|Internet_explorer_prefixed_version=
+|Opera_supported=Yes
+|Opera_version=7
+|Opera_prefixed_supported=Unknown
+|Opera_prefixed_version=
+|Safari_supported=Yes
+|Safari_version=1
+|Safari_prefixed_supported=Unknown
+|Safari_prefixed_version=
+}}
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 *<code>[[dom/properties/attribute|attributes]]</code>
 }}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
