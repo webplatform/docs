@@ -1,21 +1,22 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{API_Object_Property
-|Property_applies_to=
-|Read_only=
+|Property_applies_to=css/cssom/CSSStyleDeclaration/CSSStyleDeclaration
+|Read_only=No
+|Example_object_name=declaration
+|Javascript_data_type=String
 }}
-{{Topics|DOM}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Description=The following example shows how to use the '''hasLayout''' property to determine whether an object has layout.
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/hasLayout.htm
-|Code=
-&lt;DIV ID{{=}}"oWidthSet" STYLE{{=}}"width:100%"&gt;
+|Code=&lt;DIV ID{{=}}"oWidthSet" STYLE{{=}}"width:100%"&gt;
 	DIV element A has its width set to 100%.&lt;/DIV&gt;
 &lt;DIV ID{{=}}"oNotSet"&gt;DIV element B is not positioned, 
 	and neither its height nor width is set.&lt;/DIV&gt;
@@ -24,10 +25,11 @@
 	DIV Element A&lt;/BUTTON&gt;
 &lt;BUTTON onclick{{=}}"alert(oNotSet.currentStyle.hasLayout)"&gt;
 	DIV Element B&lt;/BUTTON&gt;
-}}}}
+|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/hasLayout.htm
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 The following table shows Cascading Style Sheets (CSS) properties and corresponding values that, if set, cause an element to have a layout.
 {| class="wikitable"
 |-
@@ -59,8 +61,7 @@ The following table shows Cascading Style Sheets (CSS) properties and correspond
 By setting the [[html/attributes/contentEditable|'''contentEditable''']] property to '''true''', you can cause an element to have a layout.
 The following elements always have layout: '''body''', '''img''', '''HTMLInputElement''', [[html/elements/table|'''table''']] and '''td'''.
 As of Microsoft Internet Explorer 6, when the [[html/elements/!DOCTYPE|!DOCTYPE]] declaration specifies strict standards compliance, inline elements ignore the [[css/cssom/screen/width|'''width''']] property and the [[css/cssom/screen/height|'''height''']] property. By setting the '''width''' property and the '''height''' property, you cannot cause the element to have a layout.
-|Import_Notes=
-===Syntax===
+|Import_Notes====Syntax===
 <code>'''hasLayout: '''VARIANT_FALSE '''{{!}}''' VARIANT_FALSE</code>
 ===Requirements===
 {| class="wikitable"
@@ -86,18 +87,26 @@ As of Microsoft Internet Explorer 6, when the [[html/elements/!DOCTYPE|!DOCTYPE
 <dt>Mshtml.dll</dt>
 </dl>
 |}
-
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
 |Topic_clusters=CSSOM
+|Manual_sections====Related pages (MSDN)===
+*<code>[[css/cssom/currentStyle|currentStyle]]</code>
 }}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
