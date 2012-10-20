@@ -31,9 +31,7 @@
 |Not_required=No
 |Examples=
 }}
-{{Notes_Section
-|Import_Notes=*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203741 Document Object Model (DOM) Level 2 Style Specification], Section 2.2
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=DOM Level 2 Style
