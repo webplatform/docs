@@ -27,7 +27,7 @@ This is the test paragraph.&lt;/p&gt;:
 }}
 }}
 {{Notes_Section
-|Notes=This property reflects the current state of the rule and not its initial value.
+|Notes=This property reflects the current state of the style sheet and not its initial value.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
