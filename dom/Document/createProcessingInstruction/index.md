@@ -33,7 +33,7 @@
 //   &lt;?xml-stylesheet type{{=}}"text/css" href{{=}}"style.css"&gt;
 var sTarget {{=}} 'xml-stylesheet';
 var sData {{=}} 'type{{=}}"text/css" href{{=}}"style.css"';'
-var obj {{=}} document.createProcessingInstruction( sTarget, sData );
+var obj {{=}} document.createProcessingInstruction(sTarget, sData);
 }}
 }}
 {{Notes_Section
