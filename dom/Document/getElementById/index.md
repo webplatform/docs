@@ -10,7 +10,7 @@
 |Parameters={{Method Parameter
 |Name=id
 |Data type=String
-|Description=The ID value.
+|Description=The ID to match.
 |Optional=No
 }}
 |Method_applies_to=dom/document
@@ -115,7 +115,7 @@ function getID() {
 |Notes_rows={{Compatibility Notes Row
 |Browser=Internet Explorer
 |Version=5.5 - 7
-|Note=The method also consider results of searches for elements with ID or name attributes that match the the specified value in a case insensitive manner as valid matches.
+|Note=The method also considers results of searches for elements with ID or name attributes that match the the specified value in a case insensitive manner as valid matches.
 }}
 }}
 {{See_Also_Section
