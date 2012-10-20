@@ -86,7 +86,7 @@ The operators <code>and</code> and <code>or</code> allows to chain the detection
 }}
 {{See_Also_Section
 |Topic_clusters=Syntax
-|External_links=* [https://developer.mozilla.org/en-US/docs/CSS/@supports MDN]
+|External_links=* [https://developer.mozilla.org/en-US/docs/CSS/@supports @supports in the MDN]
 * [http://dabblet.com/gist/3895764 Test-case]
 * [http://dev.w3.org/csswg/css3-conditional/#at-supports @supports in the CSS Conditional Rules Editor's Draft]
 * [http://mcc.id.au/blog/2012/08/supports On Firefox' support in version 17]
