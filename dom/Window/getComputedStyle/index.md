@@ -1,53 +1,63 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section|Gets the computed style declaration of an element.}}
 {{API_Object_Method
-|Parameters=
-|Method_applies_to=
-|Example_object_name=object
-|Return_value_name=object
-|Javascript_data_type=DOM Node
-|Return_value_description=Type: '''HRESULT'''
-
-If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRESULT''' error code.
-
-IHTMLW3CComputedStyle
-
-A [[css/cssom/currentStyle|'''currentStyle''']] object that contains the CSS settings applied to the desired object.
-
-The settings in the ''ppComputedStyle'' object account for all applicable style rules and represent the final values for the various CSS properties applied to the specified object.
-
-
+|Parameters={{Method Parameter
+|Name=element
+|Data type=DOM Node
+|Description=The element that contains the desired style settings.
+|Optional=No
+}}{{Method Parameter
+|Name=pseudoElementName
+|Data type=String
+|Description=The name of a CSS pseudo-element or a null value.
+Optional in WebKit based browsers.
+|Optional=No
 }}
-{{Topics|DOM}}
+|Method_applies_to=dom/window
+|Example_object_name=window
+|Return_value_name=declaration
+|Javascript_data_type=DOM Node
+|Return_value_description=A [[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|'''CSSStyleDeclaration''']] object that contains the CSS settings applied to the desired object.
+
+The settings in the returned object account for all applicable style rules and represent the final values for the various CSS properties applied to the specified object.
+}}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
-When the ''bstrPseudoElt'' is set to a value other than null, the value is interpreted as a CSS pseudo-element with respect to the object specified in the ''varArgIn'' parameter.
-|Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203741 Document Object Model (DOM) Level 2 Style Specification], Section 2.2.1
-
-
-===Parameters===
-;''varArgIn'' [in]:Type: '''<b>IHTMLDOMNode'''</b>The element that contains the desired style settings.
-;''bstrPseudoElt'' [in]:Type: '''<b>BSTR'''</b>The name of a CSS pseudo-element or a null value.
-;''ppComputedStyle'' [out, retval]:Type: '''IHTMLW3CComputedStyle'''A [[css/cssom/currentStyle|'''currentStyle''']] object that contains the CSS settings applied to the desired object.The settings in the ''ppComputedStyle'' object account for all applicable style rules and represent the final values for the various CSS properties applied to the specified object.
+|Notes=When the ''pseudoElementName'' is set to a value other than null, the value is interpreted as a CSS pseudo-element with respect to the object specified in the ''element'' parameter.
+}}
+{{Related_Specifications_Section
+|Specifications={{Related Specification
+|Name=DOM Level 2 Style
+|URL=http://www.w3.org/TR/2000/REC-DOM-Level-2-Style-20001113/css.html
+|Status=Recommendation
+|Relevant_changes=Section 2.2.1
+}}
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
-*<code>window</code>
 |Topic_clusters=CSSOM
+|Manual_sections====Related pages (MSDN)===
+*<code>[[dom/window|window]</code>
 }}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
