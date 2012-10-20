@@ -1,15 +1,18 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
-{{API_Object}}
+{{Summary_Section|Non standard. Gets the computed style declaration. Use [[dom/getComputedStyle|getComputedStyle]] instead.}}
+{{API_Object
+|Subclass_of=css/cssom/CSSStyleDeclaration/CSSStyleDeclaration
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=HTML
 |Description=This example uses the '''currentStyle''' object to set the text color to brown. If you click a colored area and the background color is the same as the text color, the checkColor function changes the background color, so the text can be read. Otherwise, the function takes no action.
 
 This example works only if the body and text colors are set using either color names or red-green-blue hexadecimal values, but not a mix of the two.
@@ -30,6 +33,7 @@ function checkColor(oObj)
     onclick{{=}}"checkColor(this)"&gt;Click me&lt;/p&gt;
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/currentStyle_backgroundColor.htm
 }}{{Single Example
+|Language=HTML
 |Description=This example uses the '''currentStyle''' object to retrieve values of the user-defined property created in the style rule. The alert returns the value <code>myvalue</code>.
 |Code=&lt;style&gt;
     p { myproperty:myvalue }
@@ -42,6 +46,7 @@ console.log(oPrgrph.currentStyle.myproperty);
 &lt;/script&gt;
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/currentStyle2.htm
 }}{{Single Example
+|Language=HTML
 |Description=This example shows that the '''td''' object width returned by the '''currentStyle''' object is its cascaded width value rather than the width rendered on the screen.
 |Code=&lt;body id{{=}}oBdy&gt;
 :
@@ -78,11 +83,11 @@ There are no standards that apply here.
 
 ===Members===
 The '''currentStyle''' object has these types of members:
-*[#methods Methods]
-*[#properties Properties]
+*[[#Additional_Methods|Additional Methods]]
+*[[#Additional_Properties|Properties]]
 
 
-====Methods====
+====Additional Methods====
 The '''currentStyle''' object has these methods.
 {{{!}} class="wikitable"
 {{!}}-
@@ -118,7 +123,7 @@ The '''currentStyle''' object has these methods.
 {{!}}}
  
 
-====Properties====
+====Additional Properties====
 The '''currentStyle''' object has these properties.
 {{{!}} class="wikitable"
 {{!}}-
@@ -849,24 +854,7 @@ languages appear in the object.
 }}
 {{Compatibility_Section
 |Not_required=No
-|Desktop_rows={{Compatibility Table Desktop Row
-|Feature=Test
-|Chrome_supported=Yes
-|Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
-|Firefox_supported=Yes
-|Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Yes
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
-|Opera_supported=Yes
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
-|Safari_supported=Yes
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
-}}
+|Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
 }}
