@@ -17,8 +17,8 @@
 |Optional=No
 }}
 |Method_applies_to=css/cssom/CSSStyleDeclaration/CSSStyleDeclaration
-|Example_object_name=object
-|Return_value_name=object
+|Example_object_name=declration
+|Return_value_name=enabled
 |Javascript_data_type=Boolean
 |Return_value_description=Whether the property is enabled.
 }}
