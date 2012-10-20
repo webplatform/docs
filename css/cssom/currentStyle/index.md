@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Non standard. Gets the computed style declaration. Use [[dom/getComputedStyle|getComputedStyle]] instead.}}
+{{Summary_Section|Non standard. Gets the computed style declaration. Use [[css/cssom/methods/getComputedStyle|getComputedStyle]] instead.}}
 {{API_Object
 |Subclass_of=css/cssom/CSSStyleDeclaration/CSSStyleDeclaration
 }}
