@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Removes an attribute with a given name and namespace.}}
+{{Summary_Section|Removes an attribute with a given name and a given namespace.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=namespace
