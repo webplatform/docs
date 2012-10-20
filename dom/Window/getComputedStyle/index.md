@@ -51,13 +51,12 @@ The settings in the returned object account for all applicable style rules and r
 {{See_Also_Section
 |Topic_clusters=CSSOM
 |Manual_sections====Related pages (MSDN)===
-*<code>[[dom/window|window]</code>
+*<code>[[dom/window|window]]</code>
 }}
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
 |MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
