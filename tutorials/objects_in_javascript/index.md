@@ -171,7 +171,7 @@ compared two objects to see if they share a common property:
 <syntaxhighlight lang="javascript">function isPropertyShared( objectA, objectB, propertyName ) {
   if (
      typeof objectA[ propertyName ] !== undefined
-     &amp;&amp;
+     &&
      typeof objectB[ propertyName ] !== undefined
      ) {
          alert("Both objects have a property named " + propertyName + "!");
