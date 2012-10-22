@@ -1073,7 +1073,10 @@ Click here to submit&lt;/A&gt;</pre>
 </table>
 <p>A more detailed version of this table, complete with links to additional details about each operator, may be found in <a href="/en-US/docs/JavaScript/Reference/Operators/Operator_Precedence#Table" title="en-US/docs/JavaScript/Reference/Operators/Operator_Precedence#Table">JavaScript Reference</a>.</p>
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|External_links=
+[http://ecma-international.org/ecma-262/5.1/#sec-11 Section on Expressions and Operators in the EcmaScript 5.1 spec]
+}}
 {{Topics|JavaScript}}
 {{External_Attribution
 |Is_CC-BY-SA=Yes
