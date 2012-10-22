@@ -47,3 +47,6 @@ If you have a question about webplatform.org, please [[WPD:FAQ|look for an answe
 * Read our [http://blog.webplatform.org/ blog]
 * Follow us as [https://twitter.com/webplatform @WebPlatform] on Twitter
 * Remix our [http://webplatform.org/logo logo] and link back to our site
+
+==Site Policies==
+The content on the Web Platform Docs wiki is available under a [[Template:CC-by-3.0|Creative Commons Attribution (CC-BY) license]], except where otherwise noted. For more details on our site policies, see our [[WPD:Copyright|copyright]] and  [[WPD:Privacy|privacy]] policies.
