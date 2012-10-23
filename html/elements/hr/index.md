@@ -16,7 +16,7 @@ The (&lt;hr&gt;) tag, whilst historically used as a horizontal rule or section b
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=This example uses the '''hr''' element to create a horizontal rule.
+|Description=This example uses the '''hr''' element to create a “paragraph-level thematic break”.
 |Code=<syntaxhighlight lang="html5">
 <p>This is a paragraph.</p>
 <hr>
