@@ -33,4 +33,3 @@ The concept of User Experience design (abbreviated to UX) is becoming a popular 
 |MSDN_link=
 |HTML5Rocks_link=
 }}
---[[User:Sebastien|Sébastien Desbenoit]] ([[User talk:Sebastien|talk]]) 14:17, 8 October 2012 (UTC)
