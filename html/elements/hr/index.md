@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
+|High-level issues=Needs Topics, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
 }}
 {{Standardization_Status|W3C Recommendation}}
@@ -10,7 +10,7 @@
 |DOM_interface=dom/HTMLHRElement
 |Content=The '''hr''' (for horizontal rule) element (&lt;hr&gt;) represents a paragraph-level thematic break in text.
 
-The <hr> tag, whilst historically used as a horizontal rule or section break is now used more for thematic breaks, such as separating different topics within a section of prose, or between scenes in a novel. 
+The <hr> tag, whilst historically used as a horizontal rule or section break is now used more for thematic breaks, such as separating different topics within a section of prose, or between scenes in a novel.
 }}
 {{Examples_Section
 |Not_required=No
@@ -26,7 +26,6 @@ The <hr> tag, whilst historically used as a horizontal rule or section break is 
 }}
 {{Notes_Section
 |Notes====Remarks===
-
 |Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}196991 Document Object Model (DOM) Level 2 HTML Specification], Section 1.6.5
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 15.3
