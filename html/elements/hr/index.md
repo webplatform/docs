@@ -12,7 +12,7 @@
 
 The &lt;hr&gt; tag, whilst historically used as a horizontal rule or section break is now used more for thematic breaks, such as separating different topics within a section of prose, or between scenes in a novel.
 
-In HTML5, the &lt;hr&gt;)  tag defines a paragraph-level thematic break.
+In HTML5, the &lt;hr&gt;  tag defines a paragraph-level thematic break.
 
 In HTML 4.01, the &lt;hr&gt;  tag represents a horizontal rule.
 
@@ -607,18 +607,23 @@ This property is not supported for Metro style apps using JavaScript.
 |Not_required=No
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
+|Chrome_version=0.2
 |Chrome_prefixed_supported=Unknown
 |Chrome_prefixed_version=
 |Firefox_supported=Yes
+|Firefox_version=0.8
 |Firefox_prefixed_supported=Unknown
 |Firefox_prefixed_version=
 |Internet_explorer_supported=Yes
+|Internet_explorer_version=1
 |Internet_explorer_prefixed_supported=Unknown
 |Internet_explorer_prefixed_version=
 |Opera_supported=Yes
+|Opera_version=1
 |Opera_prefixed_supported=Unknown
 |Opera_prefixed_version=
 |Safari_supported=Yes
+|Safari_version=1
 |Safari_prefixed_supported=Unknown
 |Safari_prefixed_version=
 }}
