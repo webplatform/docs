@@ -1,6 +1,6 @@
 {{Page_Title|An Introduction to Web Design}}
 {{Flags
-|High-level issues=Merge Candidate, Stub
+|High-level issues=Stub
 |Content=Incomplete
 |Editorial notes={{Editorial/Merge_Candidate|Other=concepts/ux/user_experience_design}}
 }}
@@ -15,7 +15,7 @@ Building a website with strong aesthetics doesn't necessarily mean building a pr
 === Usability ===
 Usability focuses on providing the means to navigate your website and allowing access to the content. Nested menus, breadcrumbs, sidebars and footers are all a part of providing a useful interface to your visitors. That said, not all websites need to encompass all these elements to provide a useful user experience. It all depends on the target audience, whether it be children who would be more interested in non-conventional menus that evoke emotion or business-oriented individuals who want to go straight to the meat of the content.
 
-The concept of User Experience design (abbreviated to UX) is becoming a popular topic to focus on when building modern websites. Design is more than just the visual impression of a website, but also how it works and whom it is meant to work for. 
+The concept of User Experience design (abbreviated to UX) is becoming a popular topic to focus on when building modern websites. Design is more than just the visual impression of a website, but also how it works and whom it is meant to work for.
 }}
 {{Examples_Section
 |Not_required=No
