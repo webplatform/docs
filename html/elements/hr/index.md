@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|High-level issues=Unreviewed Import
+|Content=Incomplete, Examples Best Practices, Cleanup
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -10,7 +10,13 @@
 |DOM_interface=dom/HTMLHRElement
 |Content=The '''hr''' (for horizontal rule) element (&lt;hr&gt;) represents a paragraph-level thematic break in text.
 
-The (&lt;hr&gt;) tag, whilst historically used as a horizontal rule or section break is now used more for thematic breaks, such as separating different topics within a section of prose, or between scenes in a novel.
+The &lt;hr&gt; tag, whilst historically used as a horizontal rule or section break is now used more for thematic breaks, such as separating different topics within a section of prose, or between scenes in a novel.
+
+In HTML5, the &lt;hr&gt;)  tag defines a paragraph-level thematic break.
+
+In HTML 4.01, the &lt;hr&gt;  tag represents a horizontal rule.
+
+However, the &lt;hr&gt;  tag may still be displayed as a horizontal rule in visual browsers, but is now defined in semantic terms, rather than presentational terms.
 }}
 {{Examples_Section
 |Not_required=No
@@ -28,21 +34,9 @@ The (&lt;hr&gt;) tag, whilst historically used as a horizontal rule or section b
 }}
 }}
 {{Notes_Section
-|Notes====Remarks===
 |Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}196991 Document Object Model (DOM) Level 2 HTML Specification], Section 1.6.5
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 15.3
-
-
-===HTML information===
-{| class="wikitable"
-|-
-!Closing Tag
-|forbidden
-|-
-!CSS Display
-|block
-|}
 
 ===Members===
 The '''hr''' object has these types of members:
@@ -611,8 +605,49 @@ This property is not supported for Metro style apps using JavaScript.
 }}
 {{Compatibility_Section
 |Not_required=No
-|Desktop_rows=
-|Mobile_rows=
+|Desktop_rows={{Compatibility Table Desktop Row
+|Chrome_supported=Yes
+|Chrome_prefixed_supported=Unknown
+|Chrome_prefixed_version=
+|Firefox_supported=Yes
+|Firefox_prefixed_supported=Unknown
+|Firefox_prefixed_version=
+|Internet_explorer_supported=Yes
+|Internet_explorer_prefixed_supported=Unknown
+|Internet_explorer_prefixed_version=
+|Opera_supported=Yes
+|Opera_prefixed_supported=Unknown
+|Opera_prefixed_version=
+|Safari_supported=Yes
+|Safari_prefixed_supported=Unknown
+|Safari_prefixed_version=
+}}
+|Mobile_rows={{Compatibility Table Mobile Row
+|Android_supported=Yes
+|Android_prefixed_supported=Unknown
+|Android_prefixed_version=
+|Blackberry_supported=Yes
+|Blackberry_prefixed_supported=Unknown
+|Blackberry_prefixed_version=
+|Chrome_mobile_supported=Yes
+|Chrome_mobile_prefixed_supported=Unknown
+|Chrome_mobile_prefixed_version=
+|Firefox_mobile_supported=Yes
+|Firefox_mobile_prefixed_supported=Unknown
+|Firefox_mobile_prefixed_version=
+|IE_mobile_supported=Yes
+|IE_mobile_prefixed_supported=Unknown
+|IE_mobile_prefixed_version=
+|Opera_mobile_supported=Yes
+|Opera_mobile_prefixed_supported=Unknown
+|Opera_mobile_prefixed_version=
+|Opera_mini_supported=Yes
+|Opera_mini_prefixed_supported=Unknown
+|Opera_mini_prefixed_version=
+|Safari_mobile_supported=Yes
+|Safari_mobile_prefixed_supported=Unknown
+|Safari_mobile_prefixed_version=
+}}
 |Notes_rows=
 }}
 {{See_Also_Section
