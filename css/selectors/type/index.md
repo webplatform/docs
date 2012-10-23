@@ -54,7 +54,11 @@ A type selector matches every instance of the element type in the document tree.
 |Safari_prefixed_version=
 }}
 |Mobile_rows=
-|Notes_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Chrome
+|Version=4
+|Note=I'm not really sure this is the right number.
+}}
 }}
 {{See_Also_Section
 |Topic_clusters=Selectors
