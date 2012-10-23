@@ -62,7 +62,7 @@ The counterpart of <code>addEventListener</code> is <code>removeEventListener</c
  
 Unfortunately, Internet Explorer has so far not implemented the DOM Level 2 event model, and instead has its own proprietary <code>attachEvent</code> method. It looks like this in action:
  
-<syntaxhightlight lang="javascript">document.getElementById("my-link").attachEvent("onclick", myFunction);</syntaxhighlight>
+<syntaxhighlight lang="javascript">document.getElementById("my-link").attachEvent("onclick", myFunction);</syntaxhighlight>
  
 Note that the <code>attachEvent</code> still uses the "on" prefix before the name of the actual event, and it doesn't include any support for deciding the capture phase.
 
