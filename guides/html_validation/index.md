@@ -1,7 +1,14 @@
 {{Page_Title|HTML validation}}
 {{Flags
-|Content=Errors
-|Editorial notes=Table 1: The errors I fixed to make the example page validate
+|Content=Errors, Broken Links
+|Editorial notes=<strong>Broken Links:</strong><br />
+Different browsers interpret invalid HTML differently >>
+Same DOM errors, different browser interpretations >>
+http://teamtreehouse.com/blog/same-dom-errors-different-browser-interpretations
+
+no actual content there :(
+<strong>Errors:</strong><br />
+Table 1: The errors I fixed to make the example page validate
 "11 Errors, 2 warning(s)", not 17 errors
 and no <code>code</code> in the example documention
 }}
