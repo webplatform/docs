@@ -1,5 +1,12 @@
 {{Page_Title|The HTML <head>}}
-{{Flags}}
+{{Flags
+|Content=Broken Links
+|Editorial notes=What about the looks? Adding styles >>
+Opera Show feature >>
+http://www.opera.com/support/tutorials/operashow/
+
+no actual content there :(
+}}
 {{Byline}}
 {{Summary_Section|This article covers the most common parts that can be included in the <code><head></code> section of HTML documents. Making sure that all of these are correct will result in your document being fast, and easy to find and understand.}}
 {{Tutorial
