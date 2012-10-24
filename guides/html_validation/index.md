@@ -1,11 +1,5 @@
 {{Page_Title|HTML validation}}
 {{Flags
-|Content=Broken Links
-|Editorial notes=Different browsers interpret invalid HTML differently >>
-Same DOM errors, different browser interpretations >>
-http://teamtreehouse.com/blog/same-dom-errors-different-browser-interpretations
-
-no actual content there :(
 }}
 {{Byline}}
 {{Summary_Section|After reading this article, you should be comfortable with the basic idea of validation, and using the online W3C validator to validate your HTML.}}
