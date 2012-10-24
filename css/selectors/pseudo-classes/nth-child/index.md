@@ -14,7 +14,7 @@
 The ''':nth-child''' pseudo-class is a structural pseudo-class. Structural pseudo-classes enable selection based on extra information in the document tree that cannot be selected using simple selectors or combinators.
 |Import_Notes=
 ===Syntax===
-<code><strong/>''selector''''':nth-child'''(''an+b'') {...}</code>
+<code>''selector''''':nth-child'''(''an+b'') {...}</code>
 ===Parameters===
 ;''selector'':A CSS simple selector.
 ;''an+b'':
