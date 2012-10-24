@@ -1,7 +1,7 @@
-{{Page_Title|MediaStream API}}
+{{Page_Title|MediaStream}}
 {{Flags}}
 {{Standardization_Status|W3C Working Draft}}
-{{API_Name|MediaStream}}
+{{API_Name}}
 {{Summary_Section|The MediaStream interface of the WebRTC API describes a stream of audio or video data, the methods for working with the MediaStream objects, the constraint members that describe the type of data, the success and error callbacks that communicate the data asynchronously, and the events that fire on the MediaStream objects in process.}}
 {{API_Object}}
 {{Examples_Section
