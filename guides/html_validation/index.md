@@ -1,5 +1,9 @@
 {{Page_Title|HTML validation}}
 {{Flags
+|Content=Errors
+|Editorial notes=Table 1: The errors I fixed to make the example page validate
+"11 Errors, 2 warning(s)", not 17 errors
+and no <code>code</code> in the example documention
 }}
 {{Byline}}
 {{Summary_Section|After reading this article, you should be comfortable with the basic idea of validation, and using the online W3C validator to validate your HTML.}}
