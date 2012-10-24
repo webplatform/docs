@@ -51,7 +51,7 @@ Not all browsers support WebGL yet and the GPU, driver or OS may not be supporte
 
 {| class="wikitable"
 |-
-! IE !! Firefox !! Chrome !! Safari !! Opera !! iOS Safari !! Opera Mini !! Android Browser !! Blackberry Browser
+! IE !! Firefox !! Chrome !! Safari !! Opera !! iOS Safari !! Opera Mini !! Android Browser !! BlackBerry Browser
 |-
 | No || Yes || Yes || Yes || Yes || No || No || No || No
 |}
