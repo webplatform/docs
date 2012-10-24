@@ -1,4 +1,4 @@
-{{Page_Title|WebRTC}}
+{{Page_Title|MediaStream API}}
 {{Flags}}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
