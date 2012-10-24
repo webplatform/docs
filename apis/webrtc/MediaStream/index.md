@@ -14,6 +14,10 @@
 |Name=WebRTC 1.0: Real-time Communication Between Browsers
 |URL=http://www.w3.org/TR/webrtc/
 |Status=Working Draft
+}}{{Related Specification
+|Name=Media Capture and Streams
+|URL=http://www.w3.org/TR/mediacapture-streams/
+|Status=Working Draft
 }}
 }}
 {{Compatibility_Section
