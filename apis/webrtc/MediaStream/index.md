@@ -1,4 +1,4 @@
-{{Page_Title|MediaStream}}
+{{Page_Title}}
 {{Flags}}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
