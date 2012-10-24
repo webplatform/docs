@@ -2,7 +2,7 @@
 {{Flags
 |Content=Errors, Broken Links
 |Editorial notes=<strong>Errors:</strong><br />
-Table 1: The errors I fixed to make the example page validate
+Table 1: The errors I fixed to make the example page validate<br />
 "11 Errors, 2 warning(s)", not 17 errors
 and no <code>code</code> in the example documention<br />
 <strong>Broken Links:</strong><br />
