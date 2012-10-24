@@ -32,6 +32,7 @@
 |Internet_explorer_prefixed_supported=Unknown
 |Internet_explorer_prefixed_version=
 |Opera_supported=Yes
+|Opera_version=12
 |Opera_prefixed_supported=Unknown
 |Opera_prefixed_version=
 |Safari_supported=Unknown
