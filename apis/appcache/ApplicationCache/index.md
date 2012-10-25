@@ -1,5 +1,6 @@
 {{Page_Title|ApplicationCache}}
-{{Flags}}
+{{Flags
+}}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section}}
