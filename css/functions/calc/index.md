@@ -17,8 +17,8 @@
 {{Compatibility_Section
 |Not_required=No
 |Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Yes
-|Chrome_version=-
+|Chrome_supported=No
+|Chrome_version=
 |Chrome_prefixed_supported=Yes
 |Chrome_prefixed_version=19
 |Firefox_supported=Yes
@@ -33,8 +33,8 @@
 |Opera_version=
 |Opera_prefixed_supported=No
 |Opera_prefixed_version=
-|Safari_supported=Yes
-|Safari_version=-
+|Safari_supported=No
+|Safari_version=
 |Safari_prefixed_supported=Yes
 |Safari_prefixed_version=6
 }}
