@@ -1,4 +1,4 @@
-{{Page_Title|WebSocket}}
+{{Page_Title}}
 {{Flags
 |High-level issues=Stub
 }}
