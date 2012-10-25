@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status}}
@@ -8,7 +8,7 @@
 {{Summary_Section}}
 {{API_Object_Method
 |Parameters=
-|Method_applies_to=apis/appcache/ApplicationCache
+|Method_applies_to=apis/ApplicationCache
 |Example_object_name=object
 |Return_value_name=object
 |Javascript_data_type=DOM Node
