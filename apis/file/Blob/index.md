@@ -3,13 +3,11 @@
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Examples Best Practices
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The '''Blob''' object represents immutable raw data. It provides a method to slice data objects between ranges of bytes into further chunks of raw data. It also }}
 {{API_Object
-|Overview====Remarks===
-The '''Blob''' object represents immutable raw data. It provides a method to slice data objects between ranges of bytes into further chunks of raw data. It also 
-provides an attribute representing the size of the chunk of data. The [[apis/file/File|'''File''']] object inherits from the '''Blob''' object.
+|Overview="Blob" provides an attribute representing the size of the chunk of data. The [[apis/file/File|'''File''']] object inherits from the '''Blob''' object.
 '''Blob''' objects can be read asynchronously only on the main thread via [[apis/file/FileReader|'''FileReader''']] 
 objects, but metadata access via attributes such as '''size''' and '''type''' return 
 synchronously (this trade-off is based on the underlying assumption that metadata access will not significantly block or disrupt the browser's main thread, whereas 
@@ -20,14 +18,7 @@ reading '''Blob''' data will).
 |Examples=
 }}
 {{Notes_Section
-|Import_Notes====Syntax===
-===Members===
-The '''Blob''' object has these types of members:
-*[#methods Methods]
-*[#properties Properties]
-
-
-====Methods====
+|Import_Notes=====Methods====
 The '''Blob''' object has these methods.
 {| class="wikitable"
 |-
@@ -65,10 +56,6 @@ The '''Blob''' object has these properties.
 |Name=File API Specification: Blob
 |URL=http://dev.w3.org/2006/webapi/FileAPI/#dfn-Blob
 |Status=WD
-}}{{Related Specification
-|Name=File API Specification: Blob
-|URL=http://dev.w3.org/2006/webapi/FileAPI/#dfn-Blob
-|Status=ED
 }}
 }}
 {{Compatibility_Section
