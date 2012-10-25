@@ -171,7 +171,7 @@ The '''ApplicationCache''' object has these properties.
 |IE_mobile_version=
 |IE_mobile_prefixed_supported=Unknown
 |IE_mobile_prefixed_version=
-|Opera_mobile_supported=Unknown
+|Opera_mobile_supported=No
 |Opera_mobile_version=
 |Opera_mobile_prefixed_supported=Unknown
 |Opera_mobile_prefixed_version=
