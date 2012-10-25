@@ -34,6 +34,7 @@ When the property is set to '''VARIANT_FALSE''', the [[css/properties/background
 |Import_Notes====Syntax===
 ===Standards information===
 There are no standards that apply here.
+Support for this attribute has been dropped in IE9.
 }}
 {{Related_Specifications_Section
 |Specifications=
