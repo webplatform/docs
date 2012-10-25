@@ -20,35 +20,36 @@ reading '''Blob''' data will).
 {{Notes_Section
 |Import_Notes=====Methods====
 The '''Blob''' object has these methods.
-{| class="wikitable"
-|-
+{{{!}} class="wikitable"
+{{!}}-
 !Method
 !Description
-|-
-|[[apis/file/methods/close|'''close''']]
-|Releases the file lock for the associated file  resource or frees the memory for the '''Blob''' object. After calling this method, performing addition operations on the '''Blob''' object fails and throws an exception.
-|-
-|[[apis/file/methods/slice|'''slice''']]
-|Returns a new '''Blob''' object with bytes ranging from its optional <code>start</code> parameter up to but not including its optional <code>end</code> parameter.
-|}
+{{!}}-
+{{!}}[[apis/file/methods/close{{!}}'''close''']]
+{{!}}Releases the file lock for the associated file  resource or frees the memory for the '''Blob''' object. After calling this method, performing addition operations on the '''Blob''' object fails and throws an exception.
+{{!}}-
+{{!}}[[apis/file/methods/slice{{!}}'''slice''']]
+{{!}}Returns a new '''Blob''' object with bytes ranging from its optional <code>start</code> parameter up to but not including its optional <code>end</code> parameter.
+{{!}}}
  
 
 ====Properties====
 The '''Blob''' object has these properties.
-{| class="wikitable"
-|-
+{{{!}} class="wikitable"
+{{!}}-
 !Property
 !Description
-|-
-|'''msRandomAccessStream'''
-|Provides access to an IRandomAccessStream object.
-|-
-|[[apis/file/properties/size|'''size''']]
-|The size of the '''Blob''' object in bytes.
-|-
-|[[apis/file/properties/type|'''type''']]
-|Returns the content type of the object.
-|}
+{{!}}-
+{{!}}'''msRandomAccessStream'''
+{{!}}Provides access to an IRandomAccessStream object.
+{{!}}-
+{{!}}[[apis/file/properties/size{{!}}'''size''']]
+{{!}}The size of the '''Blob''' object in bytes.
+{{!}}-
+{{!}}[[apis/file/properties/type{{!}}'''type''']]
+{{!}}Returns the content type of the object.
+{{!}}}
+ 
  
 }}
 {{Related_Specifications_Section
