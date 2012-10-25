@@ -1,36 +1,97 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{Markup_Attribute
 |Property_applies_to=dom/HTMLElement
 }}
-{{Topics|HTML}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Description=This example uses the '''label''' object and the '''accessKey''' attribute to set focus on a text box. The '''label''' object makes it possible to underline the designated '''accessKey'''. You may also use the [[css/media queries/accelerator|'''-ms-accelerator''']] attribute to hide the underline until the ALT key is pressed.
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/accessKeyEX.htm
-|Code=
-&lt;label for{{=}}"fp1" accesskey{{=}}"1"&gt;#&lt;span style{{=}}"text-decoration: underline;"&gt;1&lt;/span&gt;: 
+|Code=&lt;label for{{=}}"fp1" accesskey{{=}}"1"&gt;#&lt;span style{{=}}"text-decoration: underline;"&gt;1&lt;/span&gt;: 
 Press ALT+1 to set focus to textbox&lt;/label&gt;
 &lt;input type{{=}}"text" name{{=}}"T1" value{{=}}"text1" size{{=}}"20" tabindex{{=}}"1" id{{=}}"fp1"&gt;
-}}}}
+|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/accessKeyEX.htm
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 By default, pressing an access key sets focus to an object. The object receives focus when the user simultaneously presses the ALT key and the access key assigned to an object. Some controls perform an action after receiving focus. For example, using '''accessKey''' on an '''input type{{=}}button''' causes the [[dom/events/click|'''onclick''']] event to fire. By comparison, applying the '''accessKey''' on a radio button causes the '''onclick''' event to fire and toggles the [[html/attributes/checked|'''checked''']] property, visibly selecting or deselecting the control.
 '''Note'''  For elements that are not tab stops by default, such as a '''SPAN''', the [[html/attributes/tabIndex|'''tabIndex''']] property must be set on the element for the '''accessKey''' property to function.
 In Windows Internet Explorer 7 and greater, ALT+D selects text in the Address bar, making D unavailable as a keyboard shortcut on a webpage.
 As of Microsoft Internet Explorer 5, some scoped elements do not implicitly support the '''accessKey''' property. Instead, they support the property by setting the [[html/attributes/tabIndex|'''TABINDEX''']] attribute to any valid negative or positive integer.
-|Import_Notes=
-===Syntax===
+|Import_Notes====Syntax===
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows={{Compatibility Table Desktop Row
+|Chrome_supported=Unknown
+|Chrome_version=
+|Chrome_prefixed_supported=Unknown
+|Chrome_prefixed_version=
+|Firefox_supported=Unknown
+|Firefox_version=
+|Firefox_prefixed_supported=Unknown
+|Firefox_prefixed_version=
+|Internet_explorer_supported=Unknown
+|Internet_explorer_version=
+|Internet_explorer_prefixed_supported=Unknown
+|Internet_explorer_prefixed_version=
+|Opera_supported=Unknown
+|Opera_version=
+|Opera_prefixed_supported=Unknown
+|Opera_prefixed_version=
+|Safari_supported=Unknown
+|Safari_version=
+|Safari_prefixed_supported=Unknown
+|Safari_prefixed_version=
+}}
+|Mobile_rows={{Compatibility Table Mobile Row
+|Android_supported=Unknown
+|Android_version=
+|Android_prefixed_supported=Unknown
+|Android_prefixed_version=
+|Blackberry_supported=Unknown
+|Blackberry_version=
+|Blackberry_prefixed_supported=Unknown
+|Blackberry_prefixed_version=
+|Chrome_mobile_supported=Unknown
+|Chrome_mobile_version=
+|Chrome_mobile_prefixed_supported=Unknown
+|Chrome_mobile_prefixed_version=
+|Firefox_mobile_supported=Unknown
+|Firefox_mobile_version=
+|Firefox_mobile_prefixed_supported=Unknown
+|Firefox_mobile_prefixed_version=
+|IE_mobile_supported=Unknown
+|IE_mobile_version=
+|IE_mobile_prefixed_supported=Unknown
+|IE_mobile_prefixed_version=
+|Opera_mobile_supported=Unknown
+|Opera_mobile_version=
+|Opera_mobile_prefixed_supported=Unknown
+|Opera_mobile_prefixed_version=
+|Opera_mini_supported=Unknown
+|Opera_mini_version=
+|Opera_mini_prefixed_supported=Unknown
+|Opera_mini_prefixed_version=
+|Safari_mobile_supported=Unknown
+|Safari_mobile_version=
+|Safari_mobile_prefixed_supported=Unknown
+|Safari_mobile_prefixed_version=
+}}
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 *<code>[[html/elements/a|a]]</code>
 *<code>abbr</code>
 *<code>[[html/elements/acronym|acronym]]</code>
@@ -123,12 +184,12 @@ As of Microsoft Internet Explorer 5, some scoped elements do not implicitly sup
 *<code>Reference</code>
 *<code>[[css/media queries/accelerator|accelerator]]</code>
 *<code>[[html/attributes/tabIndex|tabIndex]]</code>
-|Topic_clusters=html
 }}
+{{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
