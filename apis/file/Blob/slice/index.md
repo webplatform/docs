@@ -11,6 +11,8 @@
 |Name=start
 |Data type=Number
 |Description=The optional start parameter is a value for the start point of a slice call, and is treated as a byte-order position, with position 0 representing the first byte. If start is negative, it is treated as length + start, where length is the length of the file (this allows byte selection starting from the end of the file).
+
+If you specify a value for start that is larger than the size of the source Blob, the returned Blob has size 0 and contains no data.
 |Optional=Yes
 }}{{Method Parameter
 |Name=end
@@ -27,6 +29,7 @@
 |Example_object_name=blob
 |Return_value_name=blob
 |Javascript_data_type=Blob
+|Return_value_description=A new Blob object containing the data in the specified range of bytes from the source Blob.
 }}
 {{Examples_Section
 |Not_required=No
@@ -47,14 +50,33 @@ For a code sample of the <code>slice</code> method, see [[apis/file/Blob|'''Blob
 }}
 {{Compatibility_Section
 |Not_required=No
-|Desktop_rows=
+|Desktop_rows={{Compatibility Table Desktop Row
+|Feature=Basic Support
+|Chrome_supported=Yes
+|Chrome_version=21
+|Chrome_prefixed_supported=Yes
+|Chrome_prefixed_version=10
+|Firefox_supported=Yes
+|Firefox_version=13
+|Firefox_prefixed_supported=Yes
+|Firefox_prefixed_version=5
+|Internet_explorer_supported=Yes
+|Internet_explorer_version=10
+|Internet_explorer_prefixed_supported=No
+|Internet_explorer_prefixed_version=
+|Opera_supported=Yes
+|Opera_version=12
+|Opera_prefixed_supported=Unknown
+|Opera_prefixed_version=
+|Safari_supported=Yes
+|Safari_version=5.1
+|Safari_prefixed_supported=Unknown
+|Safari_prefixed_version=
+}}
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[apis/file/Blob|Blob]]</code>
-}}
+{{See_Also_Section}}
 {{Topics|DOM, FileAPI}}
 {{External_Attribution
 |Is_CC-BY-SA=No
