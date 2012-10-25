@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The MediaStreamTrackList object representing the audio tracks.}}
 {{API_Object_Property
 |Property_applies_to=apis/MediaStream
 |Read_only=Yes
