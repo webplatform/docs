@@ -25,7 +25,7 @@ The '''Blob''' object has these methods.
 !Method
 !Description
 |-
-|[[apis/file/methods/msClose|'''msClose''']]
+|[[apis/file/methods/close|'''close''']]
 |Releases the file lock for the associated file  resource or frees the memory for the '''Blob''' object. After calling this method, performing addition operations on the '''Blob''' object fails and throws an exception.
 |-
 |[[apis/file/methods/slice|'''slice''']]
