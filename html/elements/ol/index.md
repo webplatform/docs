@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -43,14 +43,14 @@ The [[html/attributes/type (ul,li,ol elements)|'''TYPE''']] attribute sets the l
 
 
 ===HTML information===
-{| class="wikitable"
-|-
+{{{!}} class="wikitable"
+{{!}}-
 !Closing Tag
-|required
-|-
+{{!}}required
+{{!}}-
 !CSS Display
-|block
-|}
+{{!}}block
+{{!}}}
 
 ===Members===
 The '''ol''' object has these types of members:
