@@ -26,7 +26,7 @@
 |Method_applies_to=apis/file/Blob
 |Example_object_name=blob
 |Return_value_name=blob
-|Return_value_description=Type: Blob
+|Javascript_data_type=DOM Node
 }}
 {{Examples_Section
 |Not_required=No
