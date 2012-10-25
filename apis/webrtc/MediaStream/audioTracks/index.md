@@ -5,7 +5,7 @@
 {{Summary_Section}}
 {{API_Object_Property
 |Property_applies_to=apis/MediaStream
-|Read_only=Yes
+|Read_only=No
 |Example_object_name=stream
 |Return_value_name=mediaStreamTrackList
 |Javascript_data_type=MediaStreamTrackList
