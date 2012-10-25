@@ -13,25 +13,28 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=This example uses the '''OL''' element to create a numbered list.
-|Code=&lt;OL&gt;
-&lt;LI&gt;This is the first item in the list.
-&lt;LI&gt;And this is the second item in the list.
-&lt;/OL&gt;
-&lt;OL START{{=}}3&gt;
-&lt;LI&gt;This is item number 3.
-&lt;/OL&gt;
-&lt;OL TYPE{{=}}A&gt;
-&lt;LI&gt;This is item A.
-&lt;/OL&gt;
+|Description=This example uses the '''ol''' element to create a numbered list.
+|Code=&lt;ol&gt;
+&nbsp;&nbsp;&lt;li&gt;This&nbsp;is&nbsp;the&nbsp;first&nbsp;list&nbsp;item&lt;/li&gt;
+&nbsp;&nbsp;&lt;li&gt;This&nbsp;is&nbsp;the&nbsp;second&nbsp;list&nbsp;item&lt;/li&gt;
+&lt;/ol&gt;
+
+<ol>
+  <li>This is the first list item</li>
+  <li>This is the second list item</li>
+</ol>
 }}{{Single Example
 |Language=HTML
-|Description=The '''ol''' element with the '''type''' attribute:
-|Code=&lt;ol type="lower-alpha"&gt;
-  &lt;li&gt;sample1&lt;/li&gt;
-  &lt;li&gt;sample2&lt;/li&gt;
-  &lt;li&gt;sample3&lt;/li&gt;
+|Description=The '''ol''' element with the '''type''' attribute set to '''a'''.
+|Code=&lt;ol&nbsp;type=&quot;a&quot;&gt;
+&nbsp;&nbsp;&lt;li&gt;This&nbsp;is&nbsp;the&nbsp;first&nbsp;list&nbsp;item&lt;/li&gt;
+&nbsp;&nbsp;&lt;li&gt;This&nbsp;is&nbsp;the&nbsp;second&nbsp;list&nbsp;item&lt;/li&gt;
 &lt;/ol&gt;
+
+<ol type="a">
+  <li>This is the first list item</li>
+  <li>This is the second list item</li>
+</ol>
 }}
 }}
 {{Notes_Section
