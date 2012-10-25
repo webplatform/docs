@@ -3,26 +3,14 @@
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|Non-Standard}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section}}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=apis/file/Blob
-|Example_object_name=object
-|Return_value_name=object
-|Javascript_data_type=DOM Node
-|Return_value_description=Type: '''HRESULT'''
-
-This method can return one of these values.
-
-S_OK
-
-Type: '''HRESULT'''
-
-This method can return one of these values.
-
-S_OK
+|Example_object_name=blob
+|Javascript_data_type=void
 }}
 {{Examples_Section
 |Not_required=No
