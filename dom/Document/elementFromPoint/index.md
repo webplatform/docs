@@ -9,13 +9,13 @@
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=x
-|Data type=String
-|Description=A '''Integer''' that specifies the X-offset, in pixels.
+|Data type=Number
+|Description=A number that specifies the X-offset, in pixels.
 |Optional=No
 }}{{Method Parameter
 |Name=y
-|Data type=String
-|Description=A '''Integer''' that specifies the Y-offset, in pixels.
+|Data type=Number
+|Description=A number that specifies the Y-offset, in pixels.
 |Optional=No
 }}
 |Method_applies_to=dom/document
@@ -44,7 +44,28 @@ There are no standards that apply here.
 }}
 {{Compatibility_Section
 |Not_required=No
-|Desktop_rows=
+|Desktop_rows={{Compatibility Table Desktop Row
+|Chrome_supported=Unknown
+|Chrome_version=
+|Chrome_prefixed_supported=Unknown
+|Chrome_prefixed_version=
+|Firefox_supported=Unknown
+|Firefox_version=
+|Firefox_prefixed_supported=Unknown
+|Firefox_prefixed_version=
+|Internet_explorer_supported=Unknown
+|Internet_explorer_version=
+|Internet_explorer_prefixed_supported=Unknown
+|Internet_explorer_prefixed_version=
+|Opera_supported=Unknown
+|Opera_version=
+|Opera_prefixed_supported=Unknown
+|Opera_prefixed_version=
+|Safari_supported=Unknown
+|Safari_version=
+|Safari_prefixed_supported=Unknown
+|Safari_prefixed_version=
+}}
 |Mobile_rows=
 |Notes_rows=
 }}
