@@ -5,12 +5,11 @@
 {{Summary_Section}}
 {{API_Object_Property
 |Property_applies_to=apis/MediaStream
-|Read_only=No
+|Read_only=Yes
 |Example_object_name=stream
 |Return_value_name=mediaStreamTrackList
 |Javascript_data_type=MediaStreamTrackList
 |Return_value_description=The MediaStreamTrackList object representing the audio tracks.
-|Example_value_name=whatIsThis
 }}
 {{Examples_Section
 |Not_required=No
