@@ -178,7 +178,7 @@ so:
 
 ==== &lt;i&gt; ====
 
-The <code>&lt;i&gt;</code> element used to mean italic in HTML4, and this was considered a bit naughty, as it was more of a presentational element than a semantic one (it just described what the element looked like, rather than what its meaning was - see below for more on these kinds of elements). HTML5 however redefines the meaning of <code>&lt;i&gt;</code>, saying that it "represents a span of text in an alternate voice or mood, or otherwise offset from the normal prose, such as a taxonomic designation, a technical term, an idiomatic phrase from another language, a thought, a ship name, or some other prose whose typical typographic presentation is italicised."
+The <code>&lt;i&gt;</code> element used to mean italic in HTML4, and this was considered a bit naughty, as it was more of a presentational element than a semantic one (it just described what the element looked like, rather than what its meaning was - see below for more on these kinds of elements). HTML5 however redefines the meaning of <code>&lt;i&gt;</code>, saying that it <q>represents a span of text in an alternate voice or mood, or otherwise offset from the normal prose, such as a taxonomic designation, a technical term, an idiomatic phrase from another language, a thought, a ship name, or some other prose whose typical typographic presentation is italicised.</q>
 
 This does sound rather confusing, so here are some examples of where <code>&lt;i&gt;</code> would be appropriate:
 
