@@ -35,8 +35,7 @@ The '''status''' property has the following values:
 |Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[apis/appcache/ApplicationCache|ApplicationCache]]</code>
+|Manual_links=*<code>[[apis/appcache/ApplicationCache|ApplicationCache]]</code>
 }}
 {{Topics|DOM}}
 {{External_Attribution
