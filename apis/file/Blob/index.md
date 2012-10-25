@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|The '''Blob''' object represents immutable raw data. It provides a method to slice data objects between ranges of bytes into further chunks of raw data. It also }}
+{{Summary_Section|The '''Blob''' object represents immutable raw data. It provides a method to slice data objects between ranges of bytes into further chunks of raw data.}}
 {{API_Object
 |Overview="Blob" provides an attribute representing the size of the chunk of data. The [[apis/file/File|'''File''']] object inherits from the '''Blob''' object.
 '''Blob''' objects can be read asynchronously only on the main thread via [[apis/file/FileReader|'''FileReader''']] 
