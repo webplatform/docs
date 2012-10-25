@@ -1,5 +1,6 @@
 {{Page_Title|HTML tables}}
-{{Flags}}
+{{Flags
+}}
 {{Byline}}
 {{Summary_Section|In this article we will cover how to use HTML tables correctly.}}
 {{Guide
