@@ -32,10 +32,10 @@
 |Firefox_version=
 |Firefox_prefixed_supported=Unknown
 |Firefox_prefixed_version=
-|Internet_explorer_supported=Yes
-|Internet_explorer_version=10
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
+|Internet_explorer_supported=No
+|Internet_explorer_version=
+|Internet_explorer_prefixed_supported=Yes
+|Internet_explorer_prefixed_version=10
 |Opera_supported=Unknown
 |Opera_version=
 |Opera_prefixed_supported=Unknown
