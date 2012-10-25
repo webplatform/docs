@@ -74,7 +74,11 @@ For a code sample of the <code>slice</code> method, see [[apis/file/Blob|'''Blob
 |Safari_prefixed_version=
 }}
 |Mobile_rows=
-|Notes_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=All
+|Version=-
+|Note=The slice() method had initially taken length as the second argument to indicate the number of bytes to copy into the new Blob. If you specified values such that start + length exceeded the size of the source Blob, the returned Blob contained data from the start index to the end of the source Blob.
+}}
 }}
 {{See_Also_Section}}
 {{Topics|DOM, FileAPI}}
