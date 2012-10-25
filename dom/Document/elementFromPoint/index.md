@@ -19,8 +19,8 @@
 |Optional=No
 }}
 |Method_applies_to=dom/document
-|Example_object_name=object
-|Return_value_name=object
+|Example_object_name=document
+|Return_value_name=myElement
 |Javascript_data_type=DOM Node
 |Return_value_description='''IHTMLElement'''
 }}
