@@ -12,8 +12,51 @@ MediaStream objects have an input and an output. A LocalMediaStream is a MediaSt
 }}
 {{API_Object}}
 {{Examples_Section
-|Not_required=Yes
-|Examples=
+|Not_required=No
+|Examples={{Single Example
+|Language=JavaScript
+|Code=navigator.getUserMedia =
+	navigator.getUserMedia ||
+	navigator.webkitGetUserMedia ||
+  navigator.mozGetUserMedia ||
+  navigator.msGetUserMedia;
+
+window.URL =
+	window.URL ||
+	window.webkitURL;
+
+var constraints = {video: true};
+
+var successCallback = function(localMediaStream) {
+  window.stream = localMediaStream; // just to enable access from the console
+  // stream.stop();
+	window.mediaStreamTrackList = stream.videoTracks;
+	mediaStreamTrackList.onaddtrack = function(e){console.log(e)};
+	mediaStreamTrackList.onremovetrack = function(e){console.log(e)};
+	window.mediaStreamTrack = mediaStreamTrackList[0];
+	var kind = mediaStreamTrack.kind // "video"
+	var label = mediaStreamTrack.label // e.g. "FaceTime HD Camera (Built-in)"
+  var video = document.querySelector("video");
+  try {
+    video.src = window.URL.createObjectURL(localMediaStream);
+  } catch(e) {
+    try {
+      video.src = localMediaStream;
+      video.play();
+    } catch(e){
+      console.log("Error setting video src: ", e);
+    }
+  }
+}
+
+var errorCallback = function(error) {
+  console.log("navigator.getUserMedia error: ", error);
+}
+
+navigator.getUserMedia(constraints, successCallback, errorCallback);
+
+|LiveURL=https://github.com/samdutton/simpl/blob/master/getusermedia/wpd.html
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
