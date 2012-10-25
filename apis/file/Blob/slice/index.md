@@ -55,7 +55,7 @@ For a code sample of the <code>slice</code> method, see [[apis/file/Blob|'''Blob
 |Manual_sections====Related pages (MSDN)===
 *<code>[[apis/file/Blob|Blob]]</code>
 }}
-{{Topics|DOM}}
+{{Topics|DOM, FileAPI}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
