@@ -65,6 +65,10 @@ The '''Blob''' object has these properties.
 |Name=File API Specification: Blob
 |URL=http://dev.w3.org/2006/webapi/FileAPI/#dfn-Blob
 |Status=WD
+}}{{Related Specification
+|Name=File API Specification: Blob
+|URL=http://dev.w3.org/2006/webapi/FileAPI/#dfn-Blob
+|Status=ED
 }}
 }}
 {{Compatibility_Section
@@ -174,7 +178,7 @@ The '''Blob''' object has these properties.
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|DOM}}
+{{Topics|DOM, FileAPI}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
