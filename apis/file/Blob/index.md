@@ -171,11 +171,7 @@ The '''Blob''' object has these properties.
 |Safari_mobile_prefixed_supported=Unknown
 |Safari_mobile_prefixed_version=
 }}
-|Notes_rows={{Compatibility Notes Row
-|Browser=Chrome
-|Version=21
-|Note=slice() is no longer prefixed.
-}}
+|Notes_rows=
 }}
 {{See_Also_Section}}
 {{Topics|DOM}}
