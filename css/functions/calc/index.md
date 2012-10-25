@@ -12,7 +12,11 @@
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=W3C CSS Values and Units Module Level 3
+|URL=http://www.w3.org/TR/css3-values/
+|Status=Candidate Recommensation
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -41,9 +45,7 @@
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|External_links=* [http://www.w3.org/TR/css3-values/ W3C CSS Values and Units Module Level 3]
-}}
+{{See_Also_Section}}
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
