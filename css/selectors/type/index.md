@@ -8,18 +8,18 @@
 {{Summary_Section}}
 {{CSS_Selector}}
 {{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Description=The following style rule applies to all the H1 tags within the document.
-|Code=&lt;style&gt;
+{{!}}Not_required=No
+{{!}}Examples={{Single Example
+{{!}}Description=The following style rule applies to all the H1 tags within the document.
+{{!}}Code=&lt;style&gt;
     H1 { color:teal; font-variant:small-caps; letter-spacing:.1em; }
 &lt;/style&gt;
 }}
 }}
 {{Notes_Section
-|Notes====Remarks===
+{{!}}Notes====Remarks===
 A type selector matches every instance of the element type in the document tree.
-|Import_Notes====Syntax===
+{{!}}Import_Notes====Syntax===
 <code><strong/>''E''''' '''<em/> {...}
 </code>
 ===Parameters===
@@ -28,10 +28,10 @@ A type selector matches every instance of the element type in the document tree.
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1]
 }}
 {{Related_Specifications_Section
-|Specifications=
+{{!}}Specifications=
 }}
 {{Compatibility_Section
-|Not_required=No
+{{!}}Not_required=No
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
 |Chrome_version=4
