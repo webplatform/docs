@@ -9,6 +9,7 @@
 |Example_object_name=stream
 |Return_value_name=mediaStreamTrackList
 |Javascript_data_type=MediaStreamTrackList
+|Return_value_description=The MediaStreamTrackList object representing the audio tracks.
 }}
 {{Examples_Section
 |Not_required=No
