@@ -9,12 +9,12 @@
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=start
-|Data type=String
+|Data type=Number
 |Description=The optional start parameter is a value for the start point of a slice call, and is treated as a byte-order position, with position 0 representing the first byte. If start is negative, it is treated as length + start, where length is the length of the file (this allows byte selection starting from the end of the file).
 |Optional=Yes
 }}{{Method Parameter
 |Name=end
-|Data type=String
+|Data type=Number
 |Description=The optional end parameter is a value for the end point of a slice call. The returned ''slice'' of data is up to but does not include the end byte. If end is omitted, '''slice''' selects all bytes from the start position to the end of the file. If end is negative, it is treated as length + end, where length is the length of the file (this allows byte selection starting from the end of the file).
 |Optional=Yes
 }}{{Method Parameter
