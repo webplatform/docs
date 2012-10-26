@@ -32,7 +32,7 @@ However, when websites, web technologies, or web tools are badly designed, they 
 
 <ul>
 <li>Ms. Olsen attends middle school, and particularly likes her literature class. She has attention deficit hyperactivity disorder (ADHD) and dyslexia, and the combination leads to substantial difficulty in reading.</li>
-   <li>Ms. Laitinen is the chief accountant at an insurance company that uses web-based documents and forms over a corporate intranet. She is blind and, like many other people who are blind, she read braille.<!-- @@ this will probably change -- update here when update in the linked document --></li>
+   <li>Ms. Laitinen is the chief accountant at an insurance company that uses web-based documents and forms over a corporate intranet. She is blind and, like many other people who are blind, she does not read braille.<!-- @@ this will probably change -- update here when update in the linked document --></li>
    <li>Mr. Yunus is 85 years old and started to use the Web several years ago to stay in touch with family and friends, and to read about art history. He has reduced vision, hand tremor, and mild short-term memory loss due to ageing.</li>
    </ul>
 <p>More details on how these and others use the Web are in [http://www.w3.org/WAI/intro/people-use-web/stories Stories of Web Users].</p>
