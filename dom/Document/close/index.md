@@ -11,7 +11,7 @@
 |Method_applies_to=dom/document
 |Example_object_name=document
 |Javascript_data_type=void
-|Return_value_description={{TODO|The method name should be close and not close (document).
+|Return_value_description={{TODO|The method name should be '''close''' and not '''close (document)'''.}}
 }}
 {{Examples_Section
 |Not_required=No
