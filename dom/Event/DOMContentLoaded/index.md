@@ -9,11 +9,11 @@
 {{Event
 |Event_applies_to=dom/document
 |Interface=dom/objects/Event
-|Target=dom/Element
+|Target=dom/document
 |Default_action=
 |Synchronous=No
 |Bubbles=Yes
-|Cancelable=No
+|Cancelable=Yes
 }}
 {{Examples_Section
 |Not_required=No
@@ -21,9 +21,8 @@
 |Language=HTML
 |Code=&lt;!doctype html&gt;
 &lt;html&gt;
-&lt;head&gt;
-&lt;script type{{=}}"text/javascript"&gt;
-
+ &lt;head&gt;
+  &lt;script type{{=}}"text/javascript"&gt;
 function logMsg( sMsg ) { 
   var oLog {{=}} document.getElementById('ResultLog');
   oLog.innerText +{{=}} "\n" + sMsg;
@@ -54,17 +53,14 @@ if(!window.addEventListener) {
    addListener(document, "DOMContentLoaded", handleDCL);
    addListener(window, "load", handleLoad);
 }
-&lt;/script&gt;
-
-&lt;/head&gt;
-&lt;body&gt;
-
-&lt;button id{{=}}"button1"&gt;Click me&lt;/button&gt;
-
-&lt;div&gt;
-&lt;p id{{=}}"ResultLog"&gt;Results appear here &lt;/p&gt;
-&lt;/div&gt;
-&lt;/body&gt;
+  &lt;/script&gt;
+ &lt;/head&gt;
+ &lt;body&gt;
+  &lt;button id{{=}}"button1"&gt;Click me&lt;/button&gt;
+  &lt;div&gt;
+   &lt;p id{{=}}"ResultLog"&gt;Results appear here &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/body&gt;
 &lt;/html&gt;
 }}
 }}
