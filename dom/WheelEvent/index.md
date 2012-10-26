@@ -1,19 +1,22 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{API_Object
 |Subclass_of=dom/objects/MouseEvent
 }}
-{{Topics|DOM}}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 The '''WheelEvent''' event also inherits properties from the [[dom/objects/MouseEvent|'''MouseEvent''']] object.
-|Import_Notes=
-===Standards information===
+|Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}203756 Document Object Model (DOM) Level 3 Events Specification], Section 5.2.4
 
 
@@ -34,13 +37,13 @@ The '''WheelEvent''' object has these methods.
 |Queries the state of the specified modifier key.
 |-
 |[[dom/methods/initMouseEvent|'''initMouseEvent''']]
-|Initializes a new mouse event that the  [[canvas/methods/createEvent|'''createEvent''']] method created.
+|Initializes a new mouse event that the  [[dom/methods/createEvent|'''createEvent''']] method created.
 |-
 |[[dom/methods/initUIEvent|'''initUIEvent''']]
-|Initializes a new user interface event that the  [[canvas/methods/createEvent|'''createEvent''']] method created.
+|Initializes a new user interface event that the  [[dom/methods/createEvent|'''createEvent''']] method created.
 |-
 |[[dom/methods/initWheelEvent|'''initWheelEvent''']]
-|Initializes a new mouse wheel event that the  [[canvas/methods/createEvent|'''createEvent''']] method created.
+|Initializes a new mouse wheel event that the  [[dom/methods/createEvent|'''createEvent''']] method created.
 |}
  
 
@@ -136,17 +139,25 @@ The '''WheelEvent''' object has these properties.
 |Gets the y-coordinate of the mouse pointer, relative to the last positioned ancestor element.
 |}
  
-
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 *<code>[[dom/events/mousewheel|onmousewheel]]</code>
 }}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
