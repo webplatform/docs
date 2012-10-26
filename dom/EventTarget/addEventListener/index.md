@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Registers an event handler for the specified event type.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=type
@@ -43,9 +43,9 @@ While this parameter is officially optional, it may only be omitted in modern br
 }}
 }}
 {{Notes_Section
-|Notes=Events are handled in two phases: capturing and bubbling. During the capturing phase, events are dispatched to parent objects before they are dispatched to event targets that are lower in the object hierarchy. During the bubbling phase, events are dispatched to target elements first and then to parent elements. You can register event handlers for either event phase. For more information, see [[dom/properties/eventPhase|'''eventPhase''']].
-'''Note'''   Some events, such as [[dom/events/focus|'''onfocus''']], do not bubble. However, you can capture all events. You cannot capture events by elements that are not parents of the target element.
-If you register multiple identical event handlers on the same event target, the duplicate event handlers are discarded.
+|Notes=#Events are handled in two phases: capturing and bubbling. During the capturing phase, events are dispatched to parent objects before they are dispatched to event targets that are lower in the object hierarchy. During the bubbling phase, events are dispatched to target elements first and then to parent elements. You can register event handlers for either event phase. For more information, see [[dom/properties/eventPhase|'''eventPhase''']].
+#Some events, such as [[dom/events/focus|'''onfocus''']], do not bubble. However, you can capture all events. You cannot capture events by elements that are not parents of the target element.
+#If you register multiple identical event handlers on the same event target, the duplicate event handlers are discarded.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -112,7 +112,11 @@ If you register multiple identical event handlers on the same event target, the 
 |Safari_mobile_prefixed_supported=Unknown
 |Safari_mobile_prefixed_version=
 }}
-|Notes_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=8 and earlier
+|Note=Use a legacy proprietary model of [[dom/methods/attachEvent|attachEvent]] and [[dom/methods/detachEvent|detachEvent]] instead.
+}}
 }}
 {{See_Also_Section}}
 {{Topics|DOM, DOMEvents}}
