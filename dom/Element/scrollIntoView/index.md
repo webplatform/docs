@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Flags, Stub
+|High-level issues=Stub, Needs Flags
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -8,6 +8,8 @@
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=dom/Element
+|Example_object_name=element
+|Javascript_data_type=void
 }}
 {{Examples_Section
 |Not_required=No
