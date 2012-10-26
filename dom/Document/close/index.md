@@ -11,14 +11,14 @@
 |Method_applies_to=dom/document
 |Example_object_name=document
 |Javascript_data_type=void
-|Return_value_description={{TODO|The method name should be '''close''' and not '''close (document)'''.}}
 }}
 {{Examples_Section
 |Not_required=No
 |Examples=
 }}
 {{Notes_Section
-|Notes={{TODO|Clarify this weird note.}}
+|Notes={{TODO|The method name should be '''close''' and not '''close (document)'''.}}
+{{TODO|Clarify this weird note.}}
 When a function fired by an event on any object calls the 
 [[dom/methods/close|'''close''']] method, the window.'''close''' method is implied.
 When an event on any 
