@@ -4,7 +4,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Scrolls the page to the point where the element shows up.}}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=dom/Element
