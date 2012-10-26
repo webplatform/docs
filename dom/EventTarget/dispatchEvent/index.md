@@ -28,7 +28,7 @@ The caller should prevent the default action.
 |Examples=
 }}
 {{Notes_Section
-|Notes=Events that the  '''dispatchEvent'''  method dispatches are subject to the same capturing and bubbling behavior as events that  the browser dispatches.
+|Notes=Events that the '''dispatchEvent''' method dispatches are subject to the same capturing and bubbling behavior as events that  the browser dispatches.
 You cannot cancel some events. For more information, see the documentation for the event.
 }}
 {{Related_Specifications_Section
@@ -52,7 +52,7 @@ You cannot cancel some events. For more information, see the documentation for t
 *[[dom/window]]
 *[[apis/xhr/objects/XMLHttpRequest]]
 *[[dom/methods/addEventListener]]
-*[[canvas/methods/createEvent]]
+*[[dom/methods/createEvent]]
 *[[dom/methods/initEvent]]
 }}
 {{Topics|DOM, DOMEvents}}
