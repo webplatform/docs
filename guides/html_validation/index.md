@@ -1,11 +1,7 @@
 {{Page_Title|HTML validation}}
 {{Flags
 |Content=Errors, Broken Links
-|Editorial notes=<strong>Errors:</strong><br />
-Table 1: The errors I fixed to make the example page validate<br />
-"11 Errors, 2 warning(s)", not 17 errors
-and no <code>code</code> in the example documention<br />
-<strong>Broken Links:</strong><br />
+|Editorial notes=<strong>Broken Links:</strong><br />
 Different browsers interpret invalid HTML differently >>
 Same DOM errors, different browser interpretations >>
 http://teamtreehouse.com/blog/same-dom-errors-different-browser-interpretations
@@ -135,11 +131,11 @@ You’ll notice that the validator has three tabs available across the top of th
  
 Whichever method you use should give you the same result; it’s easiest to test the example page from here by copying the full example code from above, and pasting it into the third tab along. Doing so should give you the result shown in Figure 1:
 
-[[Image:validatehtml1.gif|The results of validating the sample document is 17 errors]] 
+[[Image:html_validation_errors.png|alt=The results of validating the sample document is 11 errors]] 
 
-Figure 1: The results of validating the sample document — 17 errors!
+Figure 1: The results of validating the sample document — 11 errors!
  
-This may sound worrying, especially when we tell you that there aren’t 17 errors in the document! Don’t despair — it is reporting more errors than there actually are because often an error at the top of the page will cascade, making the validator report more errors further down, as it looks like more elements are not closed or incorrectly nested. You just have to think about what the error messages mean, and look for obvious errors in the markup. Table 1 below shows all of the errors we fixed to make the page validate, along with our logic for working out what was wrong, and the fixes we applied to solve the problem.
+This may sound worrying, especially when we tell you that there aren’t 11 errors in the document! Don’t despair — it is reporting more errors than there actually are because often an error at the top of the page will cascade, making the validator report more errors further down, as it looks like more elements are not closed or incorrectly nested. You just have to think about what the error messages mean, and look for obvious errors in the markup. Table 1 below shows all of the errors we fixed to make the page validate, along with our logic for working out what was wrong, and the fixes we applied to solve the problem.
                                 
 {{{!}} border="1"
 {{!}}+Table 1: The errors I fixed to make the example page validate
