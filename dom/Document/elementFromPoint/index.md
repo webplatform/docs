@@ -3,7 +3,7 @@
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Returns the element from the document whose elementFromPoint method is being called which is the ''topmost element'' which lies under the given point.  To get an element, specify the point via coordinates, in CSS pixels, relative to the upper-left-most point in the window or frame containing the document.}}
 {{API_Object_Method
@@ -36,11 +36,7 @@
 }}
 }}
 {{Notes_Section
-|Notes====Remarks===
-Coordinates are supplied in client coordinates. The upper-left corner of the client area is (0,0). For '''elementFromPoint''' to exhibit expected behavior, the object or element located at position (x, y) must support and respond to mouse events.
-|Import_Notes====Syntax===
-===Standards information===
-There are no standards that apply here.
+|Notes=Coordinates are supplied in client coordinates. The upper-left corner of the client area is (0,0). For '''elementFromPoint''' to exhibit expected behavior, the object or element located at position (x, y) must support and respond to mouse events.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
