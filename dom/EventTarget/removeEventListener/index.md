@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Removes an event handler that the [[dom/methods/addEventListener|'''addEventListener''']] method registered.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=type
