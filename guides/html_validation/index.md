@@ -149,20 +149,20 @@ This may sound worrying, especially when we tell you that there aren’t 17 erro
 !Fix made
 {{!}}-
 {{!}}Line 8, Column 461: there is no attribute "colspan"
-{{!}}We know that there is a <code>colspan</code> attribute, and it is valid HTML, so why is it saying it doesn’t exist? Wait, maybe it means it is being used on an element that you shouldn’t use it on? Sure enough, it is being used on an <code><a></code> element — wrong!
-{{!}}Removed the <code>colspan</code> attribute from the <code><a></code> element.
+{{!}}We know that there is a <code>colspan</code> attribute, and it is valid HTML, so why is it saying it doesn’t exist? Wait, maybe it means it is being used on an element that you shouldn’t use it on? Sure enough, it is being used on an <code>&lt;a&gt;</code> element — wrong!
+{{!}}Removed the <code>colspan</code> attribute from the <code>&lt;a&gt;</code> element.
 {{!}}-
 {{!}}Line 13, Column 7: document type does not allow element "h3" here; missing one of "object", "applet", "map", "iframe", "button", "ins", "del" start-tag . <h3>My possessions</h3>
-{{!}}Again, from first glance this seems strange — the <code><h3></code> element is properly closed, and allowed in this context. You should note that often, this error message means that there is an unclosed element nearby…
-{{!}}Added a closing <code><p></code> tag to the line above the heading in question.
+{{!}}Again, from first glance this seems strange — the <code>&lt;h3&gt;</code> element is properly closed, and allowed in this context. You should note that often, this error message means that there is an unclosed element nearby…
+{{!}}Added a closing <code>&lt;p&gt;</code> tag to the line above the heading in question.
 {{!}}-
 {{!}}Line 19, Column 40: document type does not allow element "li" here; missing one of "ul", "ol", "menu", "dir" start-tag. <li>A diary, from the year 1874<li>
-{{!}}This one is pretty easy — you can see from the line it is pointing you to, at a glance, that the end <code><li></code> tag has a missing closing slash (/)
+{{!}}This one is pretty easy — you can see from the line it is pointing you to, at a glance, that the end <code>&lt;li&gt;</code> tag has a missing closing slash (/)
 {{!}}Added a closing slash to the line in question.
 {{!}}-
-{{!}}Line 23, Column 9: end tag for "html" omitted, but OMITTAG NO was specified . </body>
-{{!}}Again, it doesn’t take much to work out that this means the end <code><html></code> tag is missing. The error message explanation even starts with You may have neglected to close an element.
-{{!}}Added the missing end <code><html></code> element.
+{{!}}Line 23, Column 9: end tag for "html" omitted, but OMITTAG NO was specified. <code>&lt;/body&gt;</code>
+{{!}}Again, it doesn’t take much to work out that this means the end <code>&lt;html&gt;</code> tag is missing. The error message explanation even starts with You may have neglected to close an element.
+{{!}}Added the missing end <code>&lt;html&gt;</code> element.
 {{!}}} 
 
 
