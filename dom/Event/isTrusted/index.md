@@ -1,21 +1,32 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{API_Object_Property
 |Property_applies_to=dom/objects/Event
-|Read_only=
+|Read_only=No
+|Example_object_name=event
 }}
-{{Topics|DOM}}
-{{Notes_Section
-|Import_Notes=
-===Syntax===
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
+{{Notes_Section}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 *<code>[[svg/objects/SVGZoom|SVGZoomEvent]]</code>
 *<code>[[dom/objects/BeforeUnloadEvent|BeforeUnloadEvent]]</code>
 *<code>[[dom/objects/CompositionEvent|CompositionEvent]]</code>
@@ -33,13 +44,14 @@
 *<code>[[dom/objects/TextEvent|TextEvent]]</code>
 *<code>[[dom/objects/UIEvent|UIEvent]]</code>
 *<code>Reference</code>
-*<code>[[canvas/methods/createEvent|createEvent]]</code>
+*<code>[[dom/methods/createEvent|createEvent]]</code>
 *<code>[[dom/methods/initEvent|initEvent]]</code>
 }}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
