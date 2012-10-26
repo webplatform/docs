@@ -1,11 +1,11 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Creates a comment node.}}
+{{Summary_Section|Creates a '''comment''' object with the specified [[html/attributes/data|'''data''']].}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=text
