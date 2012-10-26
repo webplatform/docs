@@ -1,126 +1,117 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Creates an instance of the element for the specified tag.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
-|Name=eTag
+|Name=tagName
 |Data type=String
-|Description=A '''String''' that specifies the name of an element.
+|Description=The name of an element.
 |Optional=No
 }}
 |Method_applies_to=dom/document
-|Example_object_name=object
-|Return_value_name=object
+|Example_object_name=document
+|Return_value_name=element
 |Javascript_data_type=DOM Node
-|Return_value_description='''IHTMLElement'''
+|Return_value_description=The created element.
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=HTML
 |Description=This example uses the '''createElement''' method to dynamically update the contents of a Web page by adding an element selected from a drop-down list box.
-|Code=&lt;SCRIPT&gt;
-function fnCreate(){
-    oData.innerHTML{{=}}"";
-    var oOption{{=}}oSel.options[oSel.selectedIndex];
-    if(oOption.text.length&gt;0){
-    var aElement{{=}}document.createElement(oOption.text);
-    eval("aElement." + oOption.value + "{{=}}'" + oText.value + "'");
-    if(oOption.text{{=}}{{=}}"A"){
-        aElement.href{{=}}"http://www.bing.com";
-   }
-   }
-    oData.appendChild(aElement);
+|Code=&lt;!doctype html&gt;
+&lt;html&gt;
+ &lt;head&gt;
+  &lt;script&gt;
+function create() {
+  var output, option, newElement, tagSelect, contentSelect;
+  tagSelect {{=}} document.getElementById("tag-select");
+  contentSelect {{=}} document.getElementById("content-select");
+  output {{=}} document.getElementById("output");
+  output.innerHTML {{=}} "";
+  option {{=}} tagSelect.options[tagSelect.selectedIndex];
+  if (option.text.length &gt; 0) {
+    newElement {{=}} document.createElement(option.textContent);
+    newElement[option.value] {{=}} contentSelect.value;
+    if (option.textContent {{=}}{{=}}{{=}} "a") {
+      newElement.href {{=}} "http://www.bing.com";
+    }
+  }
+  output.appendChild(newElement);
 }
-&lt;/SCRIPT&gt;
-&lt;SELECT ID{{=}}"oSel" onchange{{=}}"fnCreate()"&gt;
-&lt;OPTION VALUE{{=}}"innerText"&gt;A
-&lt;OPTION VALUE{{=}}"value"&gt;&amp;lt;INPUT TYPE{{=}}"button"&amp;gt;
-&lt;/SELECT&gt;
-&lt;SELECT ID{{=}}oText onchange{{=}}"fnCreate()"&gt;
-&lt;OPTION&gt;
-&lt;OPTION VALUE{{=}}"Text"&gt;Text
-&lt;OPTION VALUE{{=}}"More and More Text"&gt;More and More Text
-&lt;/SELECT&gt;
-&lt;SPAN ID{{=}}"oData" &gt;&lt;/SPAN&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/createElement.htm
-}}{{Single Example
-|Description=In Internet Explorer, you can also specify all the attributes inside the '''createElement''' method by using an HTML string for the method argument. The following example demonstrates how to dynamically create two radio buttons utilizing this technique.
-|Code=&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;
-
-&lt;html xmlns{{=}}"http://www.w3.org/1999/xhtml"&gt;
-&lt;head&gt;
-  &lt;title&gt;Radio Button DOM Insertion&lt;/title&gt;
-  &lt;script type{{=}}"text/javascript"&gt;
-    function createRadioButton(){
-      // Create radio button object with value{{=}}"First Choice" and then insert this element into the document hierarchy.
-      var newRadioButton {{=}} document.createElement("&lt;input type{{=}}'radio' name{{=}}'radio1' value{{=}}'First Choice' /&gt;")
-      document.body.insertBefore(newRadioButton); // Since the second argument is implicity null, this inserts the radio button at the end of this node's list of children ("this" node refers to the body element).
-      
-      // Create radio button object with value{{=}}"Second Choice" and then insert this element into the document hierarchy. 
-      newRadioButton {{=}} document.createElement("&lt;input type{{=}}'radio' name{{=}}'radio2' value{{=}}'Second Choice' /&gt;")
-      document.body.insertBefore(newRadioButton); // Insert the radio button at the end of this node's list of children (which is directly after the radio button we just inserted).
-    }
-
-    function displayHTML(htmlString) {
-      var temp {{=}} document.createElement('div');
-      temp.appendChild( document.createTextNode(htmlString) );
-      document.getElementById('displayBox').innerHTML {{=}} "&lt;pre&gt;" + temp.innerHTML + "&lt;/pre&gt;";
-    }
+document.addEventListener("change", create, false);
   &lt;/script&gt;
-&lt;/head&gt;
-
-&lt;body&gt;
-  &lt;form&gt;
-    &lt;input type{{=}}"button" onclick{{=}}"createRadioButton()" value{{=}}"Create two Radio Buttons" /&gt;
-    &lt;br /&gt;
-    &lt;input type{{=}}"button" onclick{{=}}"displayHTML(document.body.outerHTML)" value{{=}}"Click here to see HTML" /&gt;
-  &lt;/form&gt;
-  &lt;div id{{=}}"displayBox"&gt;&lt;/div&gt;
-&lt;/body&gt;
+ &lt;/head&gt;
+ &lt;body&gt;
+  &lt;select id{{=}}"tag-select"&gt;
+   &lt;option value{{=}}"textContent"&gt;a&lt;/option&gt;
+   &lt;option value{{=}}"value"&gt;textarea&lt;/option&gt;
+  &lt;/select&gt;
+  &lt;select id{{=}}"content-select"&gt;
+   &lt;option&gt;&lt;/option&gt;
+   &lt;option value{{=}}"Text"&gt;Text&lt;/option&gt;
+   &lt;option value{{=}}"More and More Text"&gt;More and More Text&lt;/option&gt;
+  &lt;/select&gt;
+  &lt;span id{{=}}"output"&gt;&lt;/span&gt;
+ &lt;body&gt;
 &lt;/html&gt;
+|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/createElement.htm
 }}
 }}
 {{Notes_Section
-|Notes====Remarks===
-You must perform a second step when you use '''createElement''' to create the '''input''' element. The '''createElement''' method generates an input text box, because that is the default '''input''' [[html/attributes/type|'''type''']] property. To insert any other kind of '''input''' element, first invoke '''createElement''' for '''input''', and then set the '''type''' property to the appropriate value in the next line of code.
-Attributes can be included with the ''eTag'' as long as the entire string is valid HTML. To include the [[html/attributes/name|'''NAME''']] attribute at run time on objects created with the '''createElement''' method, use the ''eTag''.
-Use the ''eTag'' to include attributes when form elements are created that will be reset using the '''BUTTON''' with a [[html/attributes/type (button element)|'''TYPE''']] attribute value of <code>reset</code>.
-In Microsoft Internet Explorer 4.0, the only new elements you can create are '''img''', '''area''', and '''option'''. As of Microsoft Internet Explorer 5, you can create all elements programmatically, 
-except '''frame''' and '''iframe'''. The properties of these created elements are read/write and can be accessed programmatically. Before you use new objects, you must explicitly add them to their respective collections or to the document. To insert new elements into the current document, use the [[dom/methods/insertBefore|'''insertBefore''']] method or the [[dom/methods/appendChild|'''appendChild''']] method.
-|Import_Notes====Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}182717 Document Object Model (DOM) Level 3 Core Specification], Section 1.4
+|Usage=The properties of these created elements are read/write and can be accessed programmatically. Before you use new objects, you must explicitly add them to their respective collections or to the document. To insert new elements into the current document, use the [[dom/methods/insertBefore|'''insertBefore''']] method or the [[dom/methods/appendChild|'''appendChild''']] method.
+|Notes=You must perform a second step when you use '''createElement''' to create the [[html/elements/input|'''input''']] element. The '''createElement''' method generates an input text box, because that is the default '''input''' [[html/attributes/type|'''type''']] property. To insert any other kind of '''input''' element, first invoke '''createElement''' for '''input''', and then set the '''type''' property to the appropriate value in the next line of code.
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=DOM Level 3 Core
+|URL=http://www.w3.org/TR/DOM-Level-3-Core/
+|Status=Recommendation
+|Relevant_changes=Section 1.4
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
+|Chrome_version=1
 |Chrome_prefixed_supported=Unknown
 |Chrome_prefixed_version=
 |Firefox_supported=Yes
+|Firefox_version=1
 |Firefox_prefixed_supported=Unknown
 |Firefox_prefixed_version=
-|Internet_explorer_supported=Unknown
-|Internet_explorer_version=
+|Internet_explorer_supported=Yes
+|Internet_explorer_version=4
 |Internet_explorer_prefixed_supported=Unknown
 |Internet_explorer_prefixed_version=
 |Opera_supported=Yes
 |Opera_prefixed_supported=Unknown
 |Opera_prefixed_version=
 |Safari_supported=Yes
+|Safari_version=1
 |Safari_prefixed_supported=Unknown
 |Safari_prefixed_version=
 }}
 |Mobile_rows=
-|Notes_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=5 - 7
+|Note=When creating elements, setting a name attribute/property will fail to make the element enumerable by name (in forms, like someForm.someName. A non standard syntax must be used instead, ''document.createElement("<input name=\"someName\">")''.
+}}{{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=4
+|Note=It is only possible to create [[html/elements/img|img]], [[html/elements/area|area]], and [[[[html/elements/option|option]] elements.
+}}{{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=5
+|Note=It is not possible to create [[html/elements/frame|frame]] and [[html/elements/iframe|iframe]] elements.
+}}
 }}
 {{See_Also_Section
 |Manual_sections====Related pages (MSDN)===
