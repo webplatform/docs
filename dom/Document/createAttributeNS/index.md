@@ -1,11 +1,11 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Creates an attribute with a namespace.}}
+{{Summary_Section|Creates a reference to an [[dom/attributes|'''attribute''']] object that is associated with an XML namespace.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=namespace
