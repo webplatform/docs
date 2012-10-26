@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Sends an event to the current element.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=event
@@ -17,7 +17,7 @@
 |Example_object_name=eventTarget
 |Return_value_name=defaultPrevented
 |Javascript_data_type=Boolean
-|Return_value_description=A '''Boolean''' value that indicates whether any of the event handlers called [[dom/methods/preventDefault|'''preventDefault''']].
+|Return_value_description=Whether any of the event handlers called [[dom/methods/preventDefault|'''preventDefault''']].
 
 Default. The default action is permitted.
 
