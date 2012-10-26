@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -9,11 +9,11 @@
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=event
-|Data type=Event
+|Data type=String
 |Description=The event object to dispatch.
 |Optional=No
 }}
-|Method_applies_to=apis/EventTarget
+|Method_applies_to=dom/EventTarget
 |Example_object_name=eventTarget
 |Return_value_name=defaultPrevented
 |Javascript_data_type=Boolean
@@ -55,7 +55,7 @@ You cannot cancel some events. For more information, see the documentation for t
 *[[canvas/methods/createEvent]]
 *[[dom/methods/initEvent]]
 }}
-{{Topics|DOMEvents, DOM}}
+{{Topics|DOM, DOMEvents}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
