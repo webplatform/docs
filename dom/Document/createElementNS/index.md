@@ -1,14 +1,14 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Creates an element with a given name and a given namespace.}}
+{{Summary_Section|Creates an element from the specified namespace.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
-|Name=namespce
+|Name=namespace
 |Data type=String
 |Description=The URI of the desired namespace.
 |Optional=No
