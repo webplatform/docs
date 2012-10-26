@@ -4,13 +4,14 @@
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
+{{API_Name|close}}
 {{Summary_Section|Closes an output stream and forces the sent data to display.}}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=dom/document
 |Example_object_name=document
 |Javascript_data_type=void
+|Return_value_description={{TODO|The method name should be close and not close (document).
 }}
 {{Examples_Section
 |Not_required=No
@@ -30,7 +31,7 @@ When [[dom/document|'''document''']].[[dom/methods/write|'''write''']] or '''doc
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=DOM Level 2 HTML
-|URL=www.w3.org/TR/DOM-Level-2-HTML/
+|URL=http://www.w3org/TR/DOM-Level-2-HTML/
 |Status=Recommendation
 |Relevant_changes=Section 1.5
 }}
