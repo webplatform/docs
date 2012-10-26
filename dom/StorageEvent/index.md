@@ -1,30 +1,29 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{API_Object
 |Subclass_of=dom/objects/Event
 }}
-{{Topics|DOM}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Description=The following code example demonstrates how to respond to storage events.
-|LiveURL=
-|Code=
-function reportStorage(evt) {
+|Code=function reportStorage(evt) {
     alert("Storage was updated for " + evt.url);
 }
 window.onload {{=}} function() {
     window.addEventListener('storage',reportStorage,false);
     window.sessionStorage.setItem('key','value');
-} 
-}}}}
+}
+}}
+}}
 {{Notes_Section
-|Import_Notes=
-===Standards information===
+|Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}221374 HTML5 A vocabulary and associated APIs for HTML and XHTML], Section 5.11.1.5
 
 
@@ -42,10 +41,10 @@ The '''StorageEvent''' object has these methods.
 !Description
 |-
 |[[dom/methods/initEvent|'''initEvent''']]
-|Initializes a new generic event that the  [[canvas/methods/createEvent|'''createEvent''']] method created.
+|Initializes a new generic event that the  [[dom/methods/createEvent|'''createEvent''']] method created.
 |-
 |[[apis/web-storage/methods/initStorageEvent|'''initStorageEvent''']]
-|Initializes a new DOM storage event  that the [[canvas/methods/createEvent|'''createEvent''']] method created.
+|Initializes a new DOM storage event  that the [[dom/methods/createEvent|'''createEvent''']] method created.
 |-
 |[[dom/methods/preventDefault|'''preventDefault''']]
 |Cancels the default action of an event.
@@ -114,20 +113,28 @@ The '''StorageEvent''' object has these properties.
 |Gets  the address of the document that  the update affects.
 |}
  
-
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 *<code>Reference</code>
 *<code>[[dom/events/storage|onstorage]]</code>
 *<code>[[apis/web-storage/properties/localStorage|localStorage]]</code>
 *<code>[[apis/web-storage/properties/sessionStorage|sessionStorage]]</code>
 }}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
