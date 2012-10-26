@@ -26,7 +26,14 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=Listen for click event on entire document, log nodeName of element found with elementFromPoint()
+|Code=document.addEventListener("click", function(event){
+  var el = document.elementFromPoint(event.clientX, event.clientY);
+  console.log(el.nodeName);
+});
+}}
 }}
 {{Notes_Section
 |Notes====Remarks===
