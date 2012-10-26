@@ -1,29 +1,45 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
+{{Summary_Section}}
 {{API_Object_Property
 |Property_applies_to=dom/objects/Event
-|Read_only=
+|Read_only=No
+|Example_object_name=event
+|Javascript_data_type=Boolean
 }}
-{{Topics|DOM}}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 If you cannot cancel the event, calling [[dom/methods/preventDefault|'''preventDefault''']] has no effect.
-When you create a custom event by using the [[canvas/methods/createEvent|'''createEvent''']] method, you can set the   '''cancelable'''   property by using the [[dom/methods/initEvent|'''initEvent''']] method.
-|Import_Notes=
-===Syntax===
+When you create a custom event by using the [[dom/methods/createEvent|'''createEvent''']] method, you can set the   '''cancelable'''   property by using the [[dom/methods/initEvent|'''initEvent''']] method.
+|Import_Notes====Syntax===
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}203756 Document Object Model (DOM) Level 3 Events Specification], Section 4.1
-
-
+}}
+{{Related_Specifications_Section
+|Specifications={{Related Specification
+|Name=DOM Level 3 Events
+|URL=http://www.w3.org/TR/DOM-Level-3-Events/
+|Status=Working Draft
+|Relevant_changes=Section 4.1
+}}
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 *<code>[[svg/objects/SVGZoom|SVGZoomEvent]]</code>
 *<code>[[dom/objects/BeforeUnloadEvent|BeforeUnloadEvent]]</code>
 *<code>[[dom/objects/CompositionEvent|CompositionEvent]]</code>
@@ -44,10 +60,11 @@ When you create a custom event by using the [[canvas/methods/createEvent|'''crea
 *<code>[[dom/properties/bubbles|bubbles]]</code>
 *<code>[[dom/methods/preventDefault|preventDefault]]</code>
 }}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
