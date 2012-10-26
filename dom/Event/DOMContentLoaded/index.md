@@ -1,27 +1,25 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{Event
+|Event_applies_to=dom/document
 |Interface=dom/objects/Event
 |Target=dom/Element
 |Default_action=
-|Content=
-|Event_applies_to=dom/Element
 |Synchronous=No
 |Bubbles=Yes
 |Cancelable=No
 }}
-{{Topics|Events}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
-|Description=
-|LiveURL=
-|Code=
-&lt;!doctype html&gt;
+|Examples={{Single Example
+|Language=HTML
+|Code=&lt;!doctype html&gt;
 &lt;html&gt;
 &lt;head&gt;
 &lt;script type{{=}}"text/javascript"&gt;
@@ -68,35 +66,86 @@ if(!window.addEventListener) {
 &lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-
-}}}}
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
-The '''DOMContentLoaded''' event fires when the markup of a webpage has been parsed, which means it also fires before the [[dom/events/load|'''onload''']] event.
+|Notes=The '''DOMContentLoaded''' event fires when the markup of a webpage has been parsed, which means it also fires before the [[dom/events/load|'''onload''']] event.
 '''DOMContentLoaded''' is a good place to perform initialization tasks for your webpage, such as registering event handlers, initializing handles to support objects, and so on.  This allows your initialization tasks to occur while the remaining resources for the webpage are being downloaded.
 For more information, see the [http://go.microsoft.com/fwlink/p/?LinkId{{=}}245080 DOMContentLoaded test drive demo.]
-'''Note'''  The '''DOMContentLoaded''' event is supported only for webpages displayed using IE9 Standards mode or higher.
-|Import_Notes=
-===Syntax===
-===Standards information===
+|Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}221374 HTML5 A vocabulary and associated APIs for HTML and XHTML], Section 8.2.6
-
-
-===Event handler parameters===
-;''pEvtObj'' [in]:Type: '''[[dom/objects/Event|<b>Event''']]</b>
-
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows={{Compatibility Table Desktop Row
+|Chrome_supported=Yes
+|Chrome_version=1
+|Chrome_prefixed_supported=Unknown
+|Chrome_prefixed_version=
+|Firefox_supported=Yes
+|Firefox_version=1
+|Firefox_prefixed_supported=Unknown
+|Firefox_prefixed_version=
+|Internet_explorer_supported=Yes
+|Internet_explorer_version=9
+|Internet_explorer_prefixed_supported=Unknown
+|Internet_explorer_prefixed_version=
+|Opera_supported=Yes
+|Opera_version=9
+|Opera_prefixed_supported=Unknown
+|Opera_prefixed_version=
+|Safari_supported=Yes
+|Safari_version=3.1
+|Safari_prefixed_supported=Unknown
+|Safari_prefixed_version=
+}}
+|Mobile_rows={{Compatibility Table Mobile Row
+|Android_supported=Yes
+|Android_version=1
+|Android_prefixed_supported=Unknown
+|Android_prefixed_version=
+|Blackberry_supported=Unknown
+|Blackberry_version=
+|Blackberry_prefixed_supported=Unknown
+|Blackberry_prefixed_version=
+|Chrome_mobile_supported=Yes
+|Chrome_mobile_version=16
+|Chrome_mobile_prefixed_supported=Unknown
+|Chrome_mobile_prefixed_version=
+|Firefox_mobile_supported=Yes
+|Firefox_mobile_version=1
+|Firefox_mobile_prefixed_supported=Unknown
+|Firefox_mobile_prefixed_version=
+|IE_mobile_supported=Yes
+|IE_mobile_version=9
+|IE_mobile_prefixed_supported=Unknown
+|IE_mobile_prefixed_version=
+|Opera_mobile_supported=Yes
+|Opera_mobile_prefixed_supported=Unknown
+|Opera_mobile_prefixed_version=
+|Opera_mini_supported=Unknown
+|Opera_mini_version=
+|Opera_mini_prefixed_supported=Unknown
+|Opera_mini_prefixed_version=
+|Safari_mobile_supported=Yes
+|Safari_mobile_version=3.2
+|Safari_mobile_prefixed_supported=Unknown
+|Safari_mobile_prefixed_version=
+}}
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
-*<code>[[dom/document|document]]</code>
+|Manual_sections====Related pages (MSDN)===
 *<code>[[dom/events/load|onload]]</code>
 }}
+{{Topics|DOM, DOMEvents}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
