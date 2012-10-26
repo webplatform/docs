@@ -106,7 +106,7 @@ document.addEventListener("change", create, false);
 }}{{Compatibility Notes Row
 |Browser=Internet Explorer
 |Version=4
-|Note=It is only possible to create [[html/elements/img|img]], [[html/elements/area|area]], and [[[[html/elements/option|option]] elements.
+|Note=It is only possible to create [[html/elements/img|img]], [[html/elements/area|area]], and [[html/elements/option|option]] elements.
 }}{{Compatibility Notes Row
 |Browser=Internet Explorer
 |Version=5
