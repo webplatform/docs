@@ -72,11 +72,14 @@ if(!window.addEventListener) {
 |Notes=The '''DOMContentLoaded''' event fires when the markup of a webpage has been parsed, which means it also fires before the [[dom/events/load|'''onload''']] event.
 '''DOMContentLoaded''' is a good place to perform initialization tasks for your webpage, such as registering event handlers, initializing handles to support objects, and so on.  This allows your initialization tasks to occur while the remaining resources for the webpage are being downloaded.
 For more information, see the [http://go.microsoft.com/fwlink/p/?LinkId{{=}}245080 DOMContentLoaded test drive demo.]
-|Import_Notes====Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}221374 HTML5 A vocabulary and associated APIs for HTML and XHTML], Section 8.2.6
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=HTML5
+|URL=http://www.w3.org/TR/html5/single-page.html
+|Status=Working Draft
+|Relevant_changes=Section 8.2.6
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
