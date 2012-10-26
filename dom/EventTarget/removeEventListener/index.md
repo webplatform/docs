@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -23,7 +23,7 @@
 |Description=A '''Boolean''' value that specifies the event phase to remove the event handler from.
 |Optional=No
 }}
-|Method_applies_to=apis/EventTarget
+|Method_applies_to=dom/EventTarget
 |Example_object_name=target
 |Javascript_data_type=void
 }}
@@ -78,7 +78,7 @@ If the arguments for '''removeEventListener'''  do not identify a  registered ev
 *[[apis/xhr/objects/XMLHttpRequest]]
 *[[dom/methods/addEventListener|addEventListener]]
 }}
-{{Topics|DOMEvents, DOM}}
+{{Topics|DOM, DOMEvents}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
