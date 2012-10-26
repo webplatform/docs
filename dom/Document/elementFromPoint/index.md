@@ -20,7 +20,7 @@
 }}
 |Method_applies_to=dom/document
 |Example_object_name=document
-|Return_value_name=myElement
+|Return_value_name=el
 |Javascript_data_type=DOM Node
 |Return_value_description='''IHTMLElement'''
 }}
