@@ -8,11 +8,13 @@
 {{Summary_Section}}
 {{Tutorial
 |Content===About php==
-Stub
+Placeholder
 ==Why php?==
-Stub
+Placeholder
 ==What you will learn==
-Stub
+* The basics of PHP
+* When to use PHP
+* What you can do with PHP
 }}
 {{Notes_Section}}
 {{Compatibility_Section
