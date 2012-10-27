@@ -149,7 +149,9 @@ span {
 <p>Next, let’s modify the style sheet by adding three declarations to the rule for the <code>span</code> element:</p>
 
 <pre>span {
-   '''position: relative;''' '''top: 1em;''' '''left: 2em;'''
+   position: relative;
+   top: 1em;
+   left: 2em;
    background-color: lime;
  }</pre>
 </li>
@@ -227,11 +229,11 @@ The problem with floats is that they only shift to the left or right until they 
 <p>Insert the two highlighted lines below into the HTML document:</p>
 
 <pre>&lt;div id="header"&gt;Header&lt;/div&gt;
-   '''&lt;div id="wrapper"&gt;'''
+   &lt;div id="wrapper"&gt;
      &lt;div id="main"&gt;Main content&lt;/div&gt;
      &lt;div id="sidebar"&gt;Sidebar&lt;/div&gt;
      &lt;div id="nav"&gt;Navigation&lt;/div&gt;
-   '''&lt;/div&gt;'''
+   &lt;/div&gt;
  &lt;div id="footer"&gt;Footer&lt;/div&gt;</pre>
 
 <p>The designers (who, fortunately, understand accessibility and device independence) have stipulated that the navigation needs to be 12em wide while the sidebar should be 14em. The main content column should have a fluid width, so that the layout adapts to different window sizes, since fixed-width layouts aren’t very user friendly. To prevent lines of text from being too long, impeding readability, you need to constrain the layout to a maximum width. In order to prevent overlap in extremely narrow windows you also need to constrain the layout to a minimum width. Within those constraints, the layout should be centred horizontally within the browser window.</p>
@@ -239,19 +241,21 @@ The problem with floats is that they only shift to the left or right until they 
 <li>
 <p>Next, assign the widths to the navigation and the sidebar and set the width constraints and general centering by adding the following rules to the bottom of the CSS file:</p>
 
-<pre>'''body {
+<pre>body {
    margin: 0 auto;
    min-width: 40em;
    max-width: 56em;
- }'''
+ }
  
  #sidebar {
-   '''width: 13em;''' '''padding: 0 0.5em;'''
+   width: 13em;
+   padding: 0 0.5em;
    background-color: #ff6;
  }
  
  #nav {
-   '''width: 11em;''' '''padding: 0 0.5em;'''
+   width: 11em;
+   padding: 0 0.5em;
    background-color: #ddd;
  }</pre>
 </li>
@@ -276,18 +280,18 @@ Okay, you have your basic building blocks, but they just appear one after the ot
 <p>Add the following rules to your CSS file:</p>
 
 <pre>#main {
-   '''float: left;'''
+   float: left;
  }
  
  #sidebar {
-   '''float: left;'''
+   float: left;
    width: 13em;
    padding: 0 0.5em;
    background-color: #ff6;
  }
  
  #nav {
-   '''float: left;'''
+   float: left;
    width: 11em;
    padding: 0 0.5em;
    background-color: #ddd;
@@ -299,7 +303,7 @@ That floats them, all right, but they’re in the wrong order. Also, the main co
 <p>Let’s deal with the footer first. The problem is that the three columns are floated, which takes them out of the document flow. The footer is pushed up against the header and the line box containing the text is shortened so that the word “Footer” appears to the right of the floats. You can remedy this by making sure the footer is cleared from all the floated columns. Add the following rule to the CSS file:</p>
 
 <pre>#footer {
-   '''clear: left;'''
+   clear: left;
    border-top: 1px solid #369;
  }</pre>
 </li>
@@ -322,7 +326,8 @@ That floats them, all right, but they’re in the wrong order. Also, the main co
 
 <pre>#main {
    float: left;
-   '''width: 100%;''' '''background-color: lime;'''
+   width: 100%;
+   background-color: lime;
  }</pre>
 </li>
 <li>
@@ -336,7 +341,7 @@ That floats them, all right, but they’re in the wrong order. Also, the main co
    width: 13em;
    padding: 0 0.5em;
    background-color: #ff6;
-   '''margin-left: -14em;'''
+   margin-left: -14em;
  }</code> </pre>
 </li>
 <li>
@@ -351,7 +356,8 @@ That floats them, all right, but they’re in the wrong order. Also, the main co
    padding: 0 0.5em;
    background-color: #ff6;
    margin-left: -14em;
-   '''position: relative;''' '''left: 15em;'''
+   position: relative;
+   left: 15em;
  }</pre>
 
 <p>Note that you had to shift it 15em, not 14em—that’s because there’s 1em of right padding on the wrapper that you need to get past. The sidebar is now where it belongs: out in the margin, next to the content column, lining up nicely with the right-hand edges of the header and the footer.</p>
@@ -364,7 +370,7 @@ That floats them, all right, but they’re in the wrong order. Also, the main co
    width: 11em;
    padding: 0 0.5em;
    background-color: #ddd;
-   '''margin-left: -100%;'''
+   margin-left: -100%;
  }</pre>
 </li>
 <li>
@@ -376,7 +382,8 @@ That floats them, all right, but they’re in the wrong order. Also, the main co
    padding: 0 0.5em;
    background-color: #ddd;
    margin-left: -100%;
-   '''position: relative;''' '''right: 13em;'''
+   position: relative;
+   right: 13em;
  }</pre>
 
 <p>Again, the width of the navigation is 12em, but you have 1em of wrapper padding to get past so you need to shift the box 13em. You’re shifting it to the left, in other words ''from'' the right edge, which is why the <code>right</code> property is being used.</p>
@@ -427,7 +434,7 @@ What about IE7 then? It does support <code>min-width</code> and <code>max-width<
 <pre>#wrapper {
   margin: 0 14em 0 12em;
   padding: 0 1em;
-  '''min-height: 1em;'''
+  min-height: 1em;
 }</pre>
  
 Setting a minimum height triggers <code>hasLayout</code> and it causes no problem in other browsers, so it can go in your main style sheet.
@@ -440,6 +447,7 @@ The most common use for relative positioning doesn’t involve shifting the gene
  
 Setting <code>position:relative</code> (without shifting the box) also helps with some of the strange rendering bugs in Internet Explorer. It sets the infamous <code>hasLayout</code> internal property, which has a profound impact on how Internet Explorer renders elements.
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
 |Desktop_rows=
