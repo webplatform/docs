@@ -5,7 +5,12 @@
 {{Byline}}
 {{Summary_Section}}
 {{Tutorial
-|Content=Placeholder, will write this up. Just setting up a php section :)
+|Content===About php==
+Stub
+==Why php?==
+Stub
+==What you will learn==
+Stub
 }}
 {{Notes_Section}}
 {{Compatibility_Section
