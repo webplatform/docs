@@ -8,6 +8,7 @@
 * [[css/tutorials|CSS]]
 * [[javascript/tutorials|JavaScript]]
 * [[svg/tutorials|SVG]]
+* [[php/intro|PHP]]
 
 ==Topical tutorials==
 * [[tutorials/audio|Audio]]
