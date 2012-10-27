@@ -1,3 +1,3 @@
 ==Sections==
 * [[tutorials/php/intro|Intro]]
-* [[tutorials/php/helloworld|Hello World]]
+* [[tutorials/php/hello_world|Hello World]]
