@@ -8,6 +8,7 @@
 |Read_only=Yes
 |Example_object_name=document
 |Javascript_data_type=Boolean
+|Return_value_description=Returns true if document has the ability to display elements fullscreen, or false otherwise.
 }}
 {{Examples_Section
 |Not_required=No
