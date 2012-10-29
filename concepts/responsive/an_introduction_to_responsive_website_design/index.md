@@ -1,3 +1,4 @@
+{{Concept Page}}
 Responsive website design is an approach by which the website adjusts itself dynamically to give the best user experience for the particular device. For example pages viewed in a desktop can have links that are text based and compact, but for touch screen devices the links should be big enough for touch based interactions. Responsive web design aims to tackle these differences using certain techniques that are available in HTML5 and CSS3 without the need to serve different pages for different devices.
 
 The major techniques used are
