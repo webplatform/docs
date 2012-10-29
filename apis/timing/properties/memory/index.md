@@ -62,7 +62,7 @@ See the [https://bugs.webkit.org/attachment.cgi?id=154876&action=prettypatch Web
 |Mobile_rows=
 |Notes_rows={{Compatibility Notes Row
 |Browser=Chrome
-|Note=[[https://bugs.webkit.org/show_bug.cgi?id=86636|Webkit Ticket]]
+|Note=[https://bugs.webkit.org/show_bug.cgi?id=86636 Webkit Ticket]
 }}
 }}
 {{See_Also_Section
