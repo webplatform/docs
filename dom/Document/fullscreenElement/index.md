@@ -1,3 +1,8 @@
+{{Topics|DOM}}
+{{API_Object_Property
+|Property_applies_to=dom/document
+|Read_only=
+}}
 ==Summary==
 The <code>fullscreenElement</code> property exposes the current full-screen state.
 
