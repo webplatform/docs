@@ -1,12 +1,5 @@
 {{Page_Title|The HTML <head>}}
-{{Flags
-|Content=Broken Links
-|Editorial notes=What about the looks? Adding styles >>
-Opera Show feature >>
-http://www.opera.com/support/tutorials/operashow/
-
-no actual content there :(
-}}
+{{Flags}}
 {{Byline}}
 {{Summary_Section|This article covers the most common parts that can be included in the <code><head></code> section of HTML documents. Making sure that all of these are correct will result in your document being fast, and easy to find and understand.}}
 {{Tutorial
@@ -131,7 +124,7 @@ If you open this in a browser it’ll show the “Test!” text in grey on a bla
 * <code>screen</code> — for displaying on monitors.
 * <code>print</code> — to define what a printout of the document should look like.
 * <code>handheld</code> — to define the look and feel of the document on mobile devices and other handheld devices.
-* <code>projection</code> — for presentations done in HTML, for example supported by the [http://www.opera.com/support/tutorials/operashow/ Opera Show feature].
+* <code>projection</code> — for presentations done in HTML, for example supported by the [http://people.opera.com/howcome/2004/operashow/tutorial.html Opera Show feature].
  
 If you for example want to override the colours used on the screen and use a larger font size to make the page better for printing, you can add another style block below the first one, with a <code>media</code> attribute of <code>print</code>, as seen below (check out the full code in [http://dev.opera.com/articles/view/13-the-html-head-element/headinlinestylesmedia.html headinlinestylesmedia.html]):
  
