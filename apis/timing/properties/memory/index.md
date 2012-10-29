@@ -11,25 +11,27 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Usage=performance.memory
+|Examples={{Single Example
+|Language=JavaScript
+|Code=performance.memory
 
 // returns
 
 {
-jsHeapSizeLimit: 767557632
-totalJSHeapSize: 58054528
+jsHeapSizeLimit: 767557632,
+totalJSHeapSize: 58054528,
 usedJSHeapSize: 42930044
 }
+}}
+}}
+{{Notes_Section
 |Notes=usedJsHeapSize is the total amount of memory being used by JS objects including V8 internal objects, totalJsHeapSize is current size of the JS heap including free space not occupied by any JS objects. This means that usedJsHeapSize can not be greater than totalJsHeapSize. Note that it is not necessarily that there has ever been totalJsHeapSize of alive JS objects.
 
 The values are quantized as to not expose private information to attackers.
 
-See the [[https://bugs.webkit.org/attachment.cgi?id=154876&action=prettypatch|WebKit Patch]] for how the quantized values are exposed. The tests in particular help explain how it works.
+See the [https://bugs.webkit.org/attachment.cgi?id=154876&action=prettypatch WebKit Patch] for how the quantized values are exposed. The tests in particular help explain how it works.
 
-* [[https://bugs.webkit.org/show_bug.cgi?id=86636|WebKit bug]]
+* [https://bugs.webkit.org/show_bug.cgi?id=86636 WebKit bug]
 }}
 {{Related_Specifications_Section
 |Specifications=
