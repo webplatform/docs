@@ -1,13 +1,5 @@
 {{Page_Title|HTML validation}}
-{{Flags
-|Content=Errors, Broken Links
-|Editorial notes=<strong>Broken Links:</strong><br />
-Different browsers interpret invalid HTML differently >>
-Same DOM errors, different browser interpretations >>
-http://teamtreehouse.com/blog/same-dom-errors-different-browser-interpretations
-
-no actual content there :(
-}}
+{{Flags}}
 {{Byline}}
 {{Summary_Section|After reading this article, you should be comfortable with the basic idea of validation, and using the online W3C validator to validate your HTML.}}
 {{Guide
@@ -78,7 +70,7 @@ The errors are that the ''strong element'' is incorrectly nested across multiple
 * Firefox adds extra bold elements between the paragraphs, which were not present in the markup.
 * Internet Explorer puts the text “This text should be a link” outside the anchor tag that creates the link.
  
-This original version of this example can be found in Hallvord Steen’s article [http://www.thinkvitamin.com/features/dev/same-dom-errors-different-browser-interpretations Same DOM errors, different browser interpretations] — read this for a much deeper treatment of HTML errors, and some information about debugging tools.
+This original version of this example can be found in Hallvord Steen’s article [http://blog.teamtreehouse.com/same-dom-errors-different-browser-interpretations Same DOM errors, different browser interpretations] — read this for a much deeper treatment of HTML errors, and some information about debugging tools.
 
 None of the different browsers’ behaviours is incorrect; they’re all trying to fill in the gaps of your incorrect code. The bottom line is, ''avoid invalid markup if at all possible in your page''!
 
