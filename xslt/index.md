@@ -1,5 +1,7 @@
+{{Page_Title}}
+{{Flags}}
+{{Summary_Section}}
 {{Basic Page}}
-
 XSL Transformations (XSLT) is a markup language for transforming XML into other forms of output, such as XML documents, HTML and many other text-based formats. The [http://www.w3.org World Wide Web Consortium] maintains the [http://www.w3.org/TR/xslt XSLT standard].
 
 == Background ==
@@ -30,3 +32,11 @@ A processor starts with some XML content, and as it parses that content, it uses
 Many common programming languages are imperative—they issue commands, one after the other. XSLT, on the other hand, is a declarative language. Instead of issuing commands, it simply states what should be done in a given context. It’s rather similar to CSS in that way. Neither language describes a sequence of events or functions. They just say, "When you come across this element, this is how you should style/transform it.”
 
 Templating with this kind of rule-based language takes a different sort of mindset, but it’s actually a much more powerful and flexible approach. A list of commands can only be followed, but rules can have scope and interdependencies, they can cascade, and they can override one another.
+{{Notes_Section}}
+{{Topics|XML}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
+}}
