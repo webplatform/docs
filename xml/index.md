@@ -1,1 +1,2 @@
+{{Basic Page}}
 hello world
