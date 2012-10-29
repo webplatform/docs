@@ -306,3 +306,6 @@ There are much better measures of "perceptual" lightness which take into account
 |-
 | black || hsl(0,0%,0%) || #000000 || 0%
 |}
+
+{{Basic Page}}
+{{Topics|CSS}}
