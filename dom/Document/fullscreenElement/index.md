@@ -1,35 +1,23 @@
+{{Page_Title}}
+{{Flags}}
+{{Standardization_Status}}
+{{API_Name}}
+{{Summary_Section}}
 {{API_Object_Property
 |Property_applies_to=dom/document
-|Read_only=
+|Read_only=Yes
+|Example_object_name=document
+|Javascript_data_type=DOM Node
+|Return_value_description=Returns the element that is displayed fullscreen, or null if there is no such element.
 }}
-{{Topics|DOM}}
-==Summary==
-The <code>fullscreenElement</code> property exposes the current full-screen state.
-
-==Value==
-Returns the element that is currently displayed fullscreen, or 
-<code>null</code> if there is no such element.
-
-==Example==
-<syntaxhighlight lang="javascript">
-function inFullScreen() {
-  if (document.fullscreenElement == null) {
-    // no element is in full-screen mode
-    return false;
-  }
-  else {
-    // an element is in full-screen mode
-    return true;
-  }
-}
-</syntaxhighlight>
-
-==Related specifications==
-[http://www.w3.org/TR/fullscreen/ W3C fullscreen working draft]
-
-==See also==
-Tutorial: [http://docs.webplatform.org/wiki/tutorials/using_the_full-screen_api Using the full-screen API]
-
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
+{{Notes_Section}}
+{{Related_Specifications_Section
+|Specifications=
+}}
 {{Compatibility_Section
 |Not_required=No
 |Desktop_rows={{Compatibility Table Desktop Row
@@ -90,3 +78,37 @@ Tutorial: [http://docs.webplatform.org/wiki/tutorials/using_the_full-screen_api 
 }}
 |Notes_rows=
 }}
+{{See_Also_Section}}
+{{Topics|DOM}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
+}}
+==Summary==
+The <code>fullscreenElement</code> property exposes the current full-screen state.
+
+==Value==
+Returns the element that is currently displayed fullscreen, or 
+<code>null</code> if there is no such element.
+
+==Example==
+<syntaxhighlight lang="javascript">
+function inFullScreen() {
+  if (document.fullscreenElement == null) {
+    // no element is in full-screen mode
+    return false;
+  }
+  else {
+    // an element is in full-screen mode
+    return true;
+  }
+}
+</syntaxhighlight>
+
+==Related specifications==
+[http://www.w3.org/TR/fullscreen/ W3C fullscreen working draft]
+
+==See also==
+Tutorial: [http://docs.webplatform.org/wiki/tutorials/using_the_full-screen_api Using the full-screen API]
