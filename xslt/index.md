@@ -1,3 +1,5 @@
+{{Basic Page}}
+
 XSL Transformations (XSLT) is a markup language for transforming XML into other forms of output, such as XML documents, HTML and many other text-based formats. The [http://www.w3.org World Wide Web Consortium] maintains the [http://www.w3.org/TR/xslt XSLT standard].
 
 == Background ==
