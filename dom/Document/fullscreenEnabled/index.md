@@ -1,8 +1,8 @@
-{{Topics|DOM}}
 {{API_Object_Property
 |Property_applies_to=dom/document
 |Read_only=
 }}
+{{Topics|DOM}}
 ==Summary==
 The <code>fullscreenEnabled</code> property exposes the current document's ability to display elements in full-screen.
 
