@@ -246,8 +246,8 @@ You add the image with the <code>&lt;background-image&gt;</code> property and gi
 * Just repeat the image vertically: <code>background-repeat:repeat-y;</code>
  
 By default the background image (if not repeated) will be positioned at the top and left corner of the element. You can however use <code>&lt;background-position&gt;</code> to move the background image around. The easiest values to choose are <code>&lt;top&gt;</code>, <code>&lt;center&gt;</code>, and <code>&lt;bottom&gt;</code> for the vertical alignment and <code>&lt;left&gt;</code>, <code>&lt;center&gt;</code>, and <code>&lt;right&gt;</code> for the horizontal alignment. For example, to position the image on the bottom right you need to use 
-<code>&lt;background-position:bottom-right; &gt;</code>, while to centre the image vertically and apply it to the right you would use
-<code>&lt;background-position:center-right;&gt;</code>.
+<code>background-position:right bottom;</code>, while to center the image vertically and apply it to the right you would use
+<code>background-position:right center;</code>.
  
 By controlling the repetition and the position of background images and using clever images you can create a lot of stunning effects that were not possible before CSS, and by keeping the background definitions in a separate CSS file you make it very easy to change the look and feel of a whole site by changing some lines of code. This will all be covered later on.
 }}
