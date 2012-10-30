@@ -622,13 +622,15 @@ The origins of style sheets are the browser's default style sheets, the style sh
 
 Style computation brings up a few difficulties:
 
-# <span id="issue1"></span>Style data is a very large construct, holding the numerous style properties, this can cause memory problems.
-# <span id="issue2"></span>Finding the matching rules for each element can cause performance issues if it's not optimized. Traversing the entire rule list for each element to find matches is a heavy task. Selectors can have complex structure that can cause the matching process to start on a seemingly promising path that is proven to be futile and another path has to be tried. For example - this compound selector:<pre>
- div div div div{
+<ol>
+<li><p><span id="issue1"></span>Style data is a very large construct, holding the numerous style properties, this can cause memory problems.</p></li>
+<li><p><span id="issue2"></span>Finding the matching rules for each element can cause performance issues if it's not optimized. Traversing the entire rule list for each element to find matches is a heavy task. Selectors can have complex structure that can cause the matching process to start on a seemingly promising path that is proven to be futile and another path has to be tried. For example - this compound selector:</p>
+<pre> div div div div{
    ...
- }
-</pre><p>Means the rules apply to a <code>&lt;div&gt;</code> who is the descendant of 3 divs. Suppose you want to check if the rule applies for a given <code>&lt;div&gt;</code> element. You choose a certain path up the tree for checking. You may need to traverse the node tree up just to find out there are only two divs and the rule does not apply. You then need to try other paths in the tree.</p>
-# <span id="issue3"></span>Applying the rules involves quite complex cascade rules that define the hierarchy of the rules.
+ }</pre>
+<p>Means the rules apply to a <code>&lt;div&gt;</code> who is the descendant of 3 divs. Suppose you want to check if the rule applies for a given <code>&lt;div&gt;</code> element. You choose a certain path up the tree for checking. You may need to traverse the node tree up just to find out there are only two divs and the rule does not apply. You then need to try other paths in the tree.</p></li>
+<li><span id="issue3"></span>Applying the rules involves quite complex cascade rules that define the hierarchy of the rules.</li>
+</ol>
 
 Let's see how the browsers face these issues:
 
