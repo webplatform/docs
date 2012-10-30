@@ -324,13 +324,15 @@ input {
 * Another curiosity that bears mention is the assignment of <code>overflow: auto</code> to labels. The magic dust being applied here can be described as a rule: given one <code>%block</code> element within another, ''and'' given that only one of those has a <code>height</code> specified in static units or <code>em</code>s that expand to a known number of pixels, assigning <code>overflow: auto</code> to the ''other'' element — the one ''without'' a <code>height</code> value — will cause it to expand to the height of the element ''with'' a discrete <code>height</code> value. This technique is also used in Demonstration 11.
  
 === The Rule of Thirds ===
-[[Image:bmh_form.jpg|An early springtime scene on the north side of Pioneer Square, Portland, Oregon; superimposed with lines dividing the photo into nine more or less equal parts.|Figure 1: An early springtime scene in Portland, Oregon. This photo has been superimposed with lines illustrating the Rule of Thirds; note how the lower right intersection and the lines that form it bound the visible activity. Photo ©2000 by the author; all rights reserved.]]
+[[Image:bmh_form.jpg|An early springtime scene on the north side of Pioneer Square, Portland, Oregon; superimposed with lines dividing the photo into nine more or less equal parts.]]
+''Figure 1: An early springtime scene in Portland, Oregon. This photo has been superimposed with lines illustrating the Rule of Thirds; note how the lower right intersection and the lines that form it bound the visible activity. Photo ©2000 by the author; all rights reserved.''
  
 When we consider what makes for excellent composition, there’s a nearly universal trope: if you divide a layout or illustration into thirds, you will discover that viewers want to draw their attention to the lines (and especially the intersections of the lines) that mark those divisions. Failure to put this uncanny tendency to work can cause a layout to seem unbalanced.
  
 The simplest explanation for this phenomenon is that those four lines conform closely to grids that follow the Golden Ratio, a proportion that is close in value to one-sixth. The Golden Ratio is frequently encountered in various fields of mathematics and in the natural world.
 
-[[Image:bmh_form.png|A screen capture of msnbc.msn.com with the first seven golden rectangles superimposed on the layout.|Figure 2: A screen capture of msnbc.msn.com superimposed by the first seven golden rectangles. The dimensions of the fourth and fifth rectangles side-by-side illuminate the nature of the page layout grid as a whole.]]
+[[Image:bmh_form.png|A screen capture of msnbc.msn.com with the first seven golden rectangles superimposed on the layout.|]]
+''Figure 2: A screen capture of msnbc.msn.com superimposed by the first seven golden rectangles. The dimensions of the fourth and fifth rectangles side-by-side illuminate the nature of the page layout grid as a whole.''
  
 The demonstration form was laid out so that the form controls would justify to a left margin placed one-third of the distance to the notional right margin of the form as a whole; this choice was deliberate. Much ''less'' deliberate is the ''vertical'' composition of the form — when the heading is taken into account, the text fields hew to the two lines described in the preivous paragraph. Even if the heading ''isn’t'' taken into account, the required fields hew to the uppermost of those lines.
  
