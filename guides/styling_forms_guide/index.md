@@ -339,6 +339,7 @@ When we consider what makes for excellent composition, there’s a nearly univer
 The simplest explanation for this phenomenon is that those four lines conform closely to grids that follow the Golden Ratio, a proportion that is close in value to one-sixth. The Golden Ratio is frequently encountered in various fields of mathematics and in the natural world.
 
 [[Image:bmh_form.png|A screen capture of msnbc.msn.com with the first seven golden rectangles superimposed on the layout.]] 
+
 Figure 2: A screen capture of msnbc.msn.com superimposed by the first seven golden rectangles. The dimensions of the fourth and fifth rectangles side-by-side illuminate the nature of the page layout grid as a whole.
  
 The demonstration form was laid out so that the form controls would justify to a left margin placed one-third of the distance to the notional right margin of the form as a whole; this choice was deliberate. Much ''less'' deliberate is the ''vertical'' composition of the form — when the heading is taken into account, the text fields hew to the two lines described in the preivous paragraph. Even if the heading ''isn’t'' taken into account, the required fields hew to the uppermost of those lines.
