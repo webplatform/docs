@@ -1,6 +1,6 @@
 {{Page_Title|The &lt;p&gt; (paragraph) element}}
 {{Flags
-|Content=Incomplete,  Compatibility Incomplete
+|Content=Incomplete, Compatibility Incomplete
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -64,7 +64,32 @@
 |Safari_prefixed_supported=Unknown
 |Safari_prefixed_version=
 }}
-|Mobile_rows=
+|Mobile_rows={{Compatibility Table Mobile Row
+|Android_supported=Yes
+|Android_prefixed_supported=Unknown
+|Android_prefixed_version=
+|Blackberry_supported=Yes
+|Blackberry_prefixed_supported=Unknown
+|Blackberry_prefixed_version=
+|Chrome_mobile_supported=Yes
+|Chrome_mobile_prefixed_supported=Unknown
+|Chrome_mobile_prefixed_version=
+|Firefox_mobile_supported=Yes
+|Firefox_mobile_prefixed_supported=Unknown
+|Firefox_mobile_prefixed_version=
+|IE_mobile_supported=Yes
+|IE_mobile_prefixed_supported=Unknown
+|IE_mobile_prefixed_version=
+|Opera_mobile_supported=Yes
+|Opera_mobile_prefixed_supported=Unknown
+|Opera_mobile_prefixed_version=
+|Opera_mini_supported=Yes
+|Opera_mini_prefixed_supported=Unknown
+|Opera_mini_prefixed_version=
+|Safari_mobile_supported=Yes
+|Safari_mobile_prefixed_supported=Unknown
+|Safari_mobile_prefixed_version=
+}}
 |Notes_rows={{Compatibility Notes Row
 |Browser=Internet Explorer
 |Version=8.0
