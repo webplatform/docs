@@ -56,7 +56,7 @@ Using an absolute or relative URL will make an <code>&lt;a&gt;</code> element in
 
 == Creating in-page navigation with id attributes ==
 
-You can also put an <code>id</code> attribute on an <code>&lt;a&gt;</code> element, to make it into a page anchor. You then reference that ID in the <code>href attribute of another link to link to it. For example:</code>
+You can also put an <code>id</code> attribute on an <code>&lt;a&gt;</code> element, to make it into a page anchor. You then reference that ID in the <code>href</code> attribute of another link to link to it. For example:
 
 <syntaxhighlight lang="html5"><h2><a id="sec1">Section #1</a></h2></syntaxhighlight>
 
