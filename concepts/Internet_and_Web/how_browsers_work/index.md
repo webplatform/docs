@@ -1096,8 +1096,8 @@ Although the red div precedes the green one in the markup, and would have been p
 ## Chris Waterson, [http://www.mozilla.org/newlayout/doc/gecko-overview.htm Gecko Overview]
 ## Alexander Larsson, [https://developer.mozilla.org/en/The_life_of_an_HTML_HTTP_request The life of an HTML HTTP request]
 # Webkit
-## David Hyatt, [http://weblogs.mozillazine.org/hyatt/archives/cat_safari.html Implementing CSS(part 1)]
-## David Hyatt, [http://weblogs.mozillazine.org/hyatt/WebCore/chapter2.html An Overview of WebCore]
+## David Hyatt, [http://web.archive.org/web/20110623034050/http://weblogs.mozillazine.org/hyatt/archives/2005_05.html Implementing CSS(part 1)]
+## David Hyatt, [http://web.archive.org/web/20100126070148/http://weblogs.mozillazine.org/hyatt/WebCore/chapter2.html An Overview of WebCore]
 ## David Hyatt, [http://webkit.org/blog/114/ WebCore Rendering]
 ## David Hyatt, [http://webkit.org/blog/66/the-fouc-problem/ The FOUC Problem]
 # W3C Specifications
@@ -1107,8 +1107,8 @@ Although the red div precedes the green one in the markup, and would have been p
 # Browsers build instructions
 ## Firefox. https://developer.mozilla.org/en/Build_Documentation
 ## Webkit. http://webkit.org/building/build.html
-
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
 |Desktop_rows=
