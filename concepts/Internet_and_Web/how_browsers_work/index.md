@@ -1,14 +1,14 @@
 {{Page_Title|How browsers work: behind the scenes of modern web browsers}}
 {{Flags
-|High-level issues=Needs Flags
-|Content=Broken Links
+|High-level issues=Data Not Semantic
+|Content=Cleanup
 }}
-{{Byline}}
+{{Byline
+|Published=Aug. 5, 2011
+}}
 {{Summary_Section}}
 {{Tutorial
 |Content=By Tali Garsiel & Paul Irish
-
-Published Aug. 5, 2011
 
 ==Preface==
 
