@@ -5,7 +5,7 @@
 {{Tutorial
 |Content=* [[tutorials/Introduction_to_the_Web_Standards_Curriculum|Introduction to the Web Standards]]
 * [[concepts/programming/programming_basics|Basics of Programming]]
-* [[tutorials/Getting_your_content_online|Getting your content online]]
+* [[tutorials/getting_your_content_online|Getting your content online]]
 * [[tutorials/How does the Internet work|How does the Internet work]]
 }}
 {{Notes_Section}}
