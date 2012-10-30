@@ -34,7 +34,7 @@ There are five major browsers used today - Internet Explorer, Firefox, Safari, C
 
 The browser main functionality is to present the web resource you choose, by requesting it from the server and displaying it on the browser window. The resource is usually an HTML document, but may also be a PDF, image, or other type. The location of the resource is specified by the user using a URI (Uniform resource Identifier).
 
-The way the browser interprets and displays HTML files is specified in the HTML and CSS specifications. These specifications are maintained by the W3C (World Wide Web Consortium) organization, which is the standards organization for the web. For years browsers conformed to only a part of the specifications and developed their own extensions. That caused serious compatibility issues for web authors. Today most of the browsers more or less conform to the specifications.
+The way the browser interprets and displays HTML files is specified in the HTML and CSS specifications. These specifications are maintained by the <span id="w3c">W3C</span> (World Wide Web Consortium) organization, which is the standards organization for the web. For years browsers conformed to only a part of the specifications and developed their own extensions. That caused serious compatibility issues for web authors. Today most of the browsers more or less conform to the specifications.
 
 Browsers' user interface have a lot in common with each other. Among the common user interface elements are:
 
@@ -86,7 +86,7 @@ The rendering engine will start parsing the HTML document and turn the tags to [
 
 The render tree contains rectangles with visual attributes like color and dimensions. The rectangles are in the right order to be displayed on the screen.
 
-After the construction of the render tree it goes through a "[[#layout|layout]]" process. This means giving each node the exact coordinates where it should appear on the screen. The next stage is [[#Painting|painting]] - the render tree will be traversed and each node will be painted using the UI backend layer.
+After the construction of the render tree it goes through a "[[#Layout|layout]]" process. This means giving each node the exact coordinates where it should appear on the screen. The next stage is [[#Painting|painting]] - the render tree will be traversed and each node will be painted using the UI backend layer.
 
 It's important to understand that this is a gradual process. For better user experience, the rendering engine will try to display contents on the screen as soon as possible. It will not wait until all HTML is parsed before starting to build and layout the render tree. Parts of the content will be parsed and displayed, while the process continues with the rest of the contents that keeps coming from the network.
 
@@ -112,7 +112,7 @@ Example - parsing the expression <code>2 + 3 - 1</code> could return this tree:
 
 ====Grammars====
 
-Parsing is based on the syntax rules the document obeys - the language or format it was written in. Every format you can parse must have deterministic grammar consisting of vocabulary and syntax rules. It is called a [[#context_free_grammar context|free grammar]]. Human languages are not such languages and therefore cannot be parsed with conventional parsing techniques.
+Parsing is based on the syntax rules the document obeys - the language or format it was written in. Every format you can parse must have deterministic grammar consisting of vocabulary and syntax rules. It is called a [[#context_free_grammar|context free grammar]]. Human languages are not such languages and therefore cannot be parsed with conventional parsing techniques.
 
 ====Parser - Lexer combination====
 
@@ -170,7 +170,7 @@ Syntax is usually defined in a format called [http://en.wikipedia.org/wiki/Backu
  operation :=  PLUS {{!}} MINUS
  term := INTEGER {{!}} expression
 
-We said that a language can be parsed by regular parsers if its grammar is a context free grammar. An intuitive definition of a context free grammar is a grammar that can be entirely expressed in BNF. For a formal definition see [http://en.wikipedia.org/wiki/Context-free_grammar Wikipedia's article on Context-free grammar]
+We said that a language can be parsed by regular parsers if its grammar is a <span id="context_free_grammar">context free grammar</span>. An intuitive definition of a context free grammar is a grammar that can be entirely expressed in BNF. For a formal definition see [http://en.wikipedia.org/wiki/Context-free_grammar Wikipedia's article on Context-free grammar]
 
 ====Types of parsers====
 
@@ -340,7 +340,7 @@ The receiving of the body end token will cause a transfer to '''"after body"''' 
 
 At this stage the browser will mark the document as interactive and start parsing scripts that are in "deferred" mode - those who should be executed after the document is parsed. The document state will be then set to "complete" and a "load" event will be fired.
 
-You can see [http://www.w3.org/TR/html5/syntax.html#html-parser the full algorithms for tokenization and tree construction in HTML5 specification]
+You can see [http://www.w3.org/TR/html5/parsing.html the full algorithms for tokenization and tree construction in HTML5 specification]
 
 ====Browsers' error tolerance====
 
@@ -622,16 +622,16 @@ The origins of style sheets are the browser's default style sheets, the style sh
 
 Style computation brings up a few difficulties:
 
-# Style data is a very large construct, holding the numerous style properties, this can cause memory problems.
-# Finding the matching rules for each element can cause performance issues if it's not optimized. Traversing the entire rule list for each element to find matches is a heavy task. Selectors can have complex structure that can cause the matching process to start on a seemingly promising path that is proven to be futile and another path has to be tried.For example - this compound selector: 
-
+# <span id="issue1"></span>Style data is a very large construct, holding the numerous style properties, this can cause memory problems.
+# <span id="issue2"></span>Finding the matching rules for each element can cause performance issues if it's not optimized. Traversing the entire rule list for each element to find matches is a heavy task. Selectors can have complex structure that can cause the matching process to start on a seemingly promising path that is proven to be futile and another path has to be tried.For example - this compound selector:<!--
+--><pre>
  div div div div{
    ...
  }
+</pre><!--
+--><p>Means the rules apply to a <code>&lt;div&gt;</code> who is the descendant of 3 divs. Suppose you want to check if the rule applies for a given <code>&lt;div&gt;</code> element. You choose a certain path up the tree for checking. You may need to traverse the node tree up just to find out there are only two divs and the rule does not apply. You then need to try other paths in the tree.</p>
 
-Means the rules apply to a <code>&lt;div&gt;</code> who is the descendant of 3 divs. Suppose you want to check if the rule applies for a given <code>&lt;div&gt;</code> element. You choose a certain path up the tree for checking. You may need to traverse the node tree up just to find out there are only two divs and the rule does not apply. You then need to try other paths in the tree.
-
-# Applying the rules involves quite complex cascade rules that define the hierarchy of the rules.
+# <span id="issue3"></span>Applying the rules involves quite complex cascade rules that define the hierarchy of the rules.
 
 Let's see how the browsers face these issues:
 
