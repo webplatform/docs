@@ -9,7 +9,7 @@
 |Inherited=No
 |Media=visual
 |Computed value=as specified by individual properties
-|Animatable=No
+|Animatable=Yes
 |CSS object model property=object.style.borderRadius
 |CSS percentages=Refer to corresponding dimension of the border box.
 |Values={{CSS Property Value
