@@ -14,7 +14,7 @@
 
 This comprehensive primer on the internal operations of WebKit and Gecko is the result of much research done by Israeli developer Tali Garsiel. Over a few years, she reviewed all the published data about browser internals and spent a lot of time reading web browser source code. She wrote:
 
-<blockquote> In the years of IE 90% dominance there was nothing much to do but regard the browser as a "black box", but now, with open source browsers having [http://techcrunch.com/2011/08/01/open-web-browsers/ more than half of the usage share], it's a good time to take a peek under the engine's hood and see what's inside a web browser. Well, what's inside are millions of C++ lines... </blockquote> Tali published her research on [http://taligarsiel.com/ her site], but we knew it deserved a larger audience, so we've cleaned it up and republished it here.
+<blockquote> In the years of IE 90% dominance there was nothing much to do but regard the browser as a "black box", but now, with open source browsers having [http://techcrunch.com/2011/08/01/open-web-browsers/ more than&nbsp;half of the usage share], it's a good time to take a peek under the engine's hood and see what's inside a web browser. Well, what's inside are millions of C++ lines... </blockquote> Tali published her research on [http://taligarsiel.com/ her site], but we knew it deserved a larger audience, so we've cleaned it up and republished it here.
 
 As a web developer, '''learning the internals of browser operations helps you make better decisions and know the justifications behind development best practices'''. While this is a rather lengthy document, we recommend you spend some time digging in; we guarantee you'll be glad you did. <cite>Paul Irish, Chrome Developer Relations</cite>
 
