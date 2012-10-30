@@ -669,12 +669,12 @@ Combining classes and states opens up a wide range of creative possibilities for
  
 == Bringing it all together—a simple navigation menu ==
  
-To illustrate one way to bring lists and links together, the examples zip includes a [[simple flyout navigation menu]], as seen in Figure 31. Flyout menus are a very common navigation system.
+To illustrate one way to bring lists and links together, the examples zip includes a [http://devfiles.myopera.com/articles/485/stylinglistsexampleflyout.html simple flyout navigation menu], as seen in Figure 31. Flyout menus are a very common navigation system.
  
 [[Image:flyout-l.gif|Screenshot of the flyout list example.]]
  
 Figure 31: Screenshot of the example flyout menu.
- 
+
 == Summary ==
  
 A good grasp of styling lists and links is essential for web developers, as they are used everywhere. They are routinely combined to create site navigation; while a clear link style is critical for the ease of use of any site. Bad link styles can be seriously confusing for everyone and may even make a site unusable for some people.
