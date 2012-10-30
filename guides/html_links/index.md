@@ -156,8 +156,7 @@ Like almost any other HTML element you can add a <code>title</code> attribute to
 <body>
   <h1>Adding extra information with a title attribute</h1>
   <ul>
-    <li>Find more information on the <a title="The Yahoo Developer Network is the main hub for all the developer
-     tools Yahoo offers, including the Yahoo User Interface Library (YUI) and the Design Patterns repository"
+    <li>Find more information on the <a title="The Yahoo Developer Network is the main hub for all the developer tools Yahoo offers, including the Yahoo User Interface Library (YUI) and the Design Patterns repository"
      href="http://developer.yahoo.com">Yahoo Developer Network</a>.</li>
   </ul>
 
