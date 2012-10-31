@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -12,7 +12,12 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Description=Blog post showing the different outline styles
+|Code=Here is a blog post showing the differente outline styles.
+|LiveURL=http://www.netsi.dk/wordpress/index.php/2012/10/31/css-outline-the-border-which-will-not-break-your-layout/
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
