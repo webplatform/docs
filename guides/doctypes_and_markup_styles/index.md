@@ -1,11 +1,14 @@
 {{Page_Title|DOCTYPES and markup styles}}
 {{Flags
+|High-level issues=Move Candidate
+|Editorial notes={{Editorial/Move_Candidate
+| Seems out of place.  Should be under /html/tutorials/ or /html/guides
+}}
 }}
 {{Byline}}
 {{Summary_Section|In this article we will explore the different doctypes you are likely to come across on your journey around the Web, as well as look at how XHTML and HTML differ.}}
 {{Guide
-|Content=
-== Introduction ==
+|Content=== Introduction ==
 The doctype appears just above the <code>&lt;html&gt;</code> tag, at the very start of each document you write:
 
 <pre>&lt;!DOCTYPE html&gt;
@@ -139,6 +142,7 @@ We wouldn't recommend that you this however: old versions of Internet Explorer (
 
 Therefore you should just stick to not trying to serve documents as proper XHTML! Carry on people, nothing to see here.
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
 |Desktop_rows=
@@ -160,7 +164,7 @@ Therefore you should just stick to not trying to serve documents as proper XHTML
 |Not_required=Yes
 |Examples=
 }}
-{{Notes_Section}}
+
 {{Related_Specifications_Section
 |Specifications=
 }}
