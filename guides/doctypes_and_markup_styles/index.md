@@ -3,7 +3,7 @@
 }}
 {{Byline}}
 {{Summary_Section|In this article we will explore the different doctypes you are likely to come across on your journey around the Web, as well as look at how XHTML and HTML differ.}}
-{{Guides
+{{Guide
 |Content=
 == Introduction ==
 The doctype appears just above the <code>&lt;html&gt;</code> tag, at the very start of each document you write:
