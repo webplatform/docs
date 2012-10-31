@@ -1,6 +1,7 @@
 {{Page_Title|Images in HTML}}
 {{Flags
 |Content=Outdated, Accessibility
+|Editorial notes=Make sure content addresses HTML image a11y info properly.
 }}
 {{Byline}}
 {{Summary_Section|This article provides all you need to know to add images to an HTML document using the <code>&lt;img&gt;</code> tag.}}
