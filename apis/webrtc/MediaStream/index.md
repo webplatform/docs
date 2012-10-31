@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|The MediaStream interface of the WebRTC API describes a stream of audio or video data, the methods for working with the MediaStream objects, the constraint members that describe the type of data, the success and error callbacks that communicate the data asynchronously, and the events that fire on the MediaStream objects in process.
+{{Summary_Section|The MediaStream interface of the [[apis/webrtc|WebRTC]] API describes a stream of audio or video data, the methods for working with the MediaStream objects, the constraint members that describe the type of data, the success and error callbacks that communicate the data asynchronously, and the events that fire on the MediaStream objects in process.
 
 A MediaStream object is typically set as a simple URL string which can be used to reference data stored in a DOM File or Blob object with window.URL.createObjectURL(). The MediaStream object is further distinguished as either a MediaStreamTrack or a LocalMediaStream.
 
@@ -16,45 +16,7 @@ MediaStream objects have an input and an output. A LocalMediaStream is a MediaSt
 |Examples={{Single Example
 |Language=JavaScript
 |Code=navigator.getUserMedia =
-	navigator.getUserMedia ||
-	navigator.webkitGetUserMedia ||
-  navigator.mozGetUserMedia ||
-  navigator.msGetUserMedia;
-
-window.URL =
-	window.URL ||
-	window.webkitURL;
-
-var constraints = {video: true};
-
-var successCallback = function(localMediaStream) {
-  window.stream = localMediaStream; // just to enable access from the console
-  // stream.stop();
-	window.mediaStreamTrackList = stream.videoTracks;
-	mediaStreamTrackList.onaddtrack = function(e){console.log(e)};
-	mediaStreamTrackList.onremovetrack = function(e){console.log(e)};
-	window.mediaStreamTrack = mediaStreamTrackList[0];
-	var kind = mediaStreamTrack.kind // "video"
-	var label = mediaStreamTrack.label // e.g. "FaceTime HD Camera (Built-in)"
-  var video = document.querySelector("video");
-  try {
-    video.src = window.URL.createObjectURL(localMediaStream);
-  } catch(e) {
-    try {
-      video.src = localMediaStream;
-      video.play();
-    } catch(e){
-      console.log("Error setting video src: ", e);
-    }
-  }
-}
-
-var errorCallback = function(error) {
-  console.log("navigator.getUserMedia error: ", error);
-}
-
-navigator.getUserMedia(constraints, successCallback, errorCallback);
-
+	navigator.getUserMedia
 |LiveURL=https://github.com/samdutton/simpl/blob/master/getusermedia/wpd.html
 }}
 }}
