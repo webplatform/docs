@@ -2,7 +2,7 @@
 {{Flags}}
 {{Summary_Section|Accessibility is the best practice of making your web content and services accessible to as many different web users as possible, regardless of any disabilities they may have (visual, auditory, mobility or cognitive), geographical location, device and browser used to browse the Web, etc. This is a vital consideration that should be a standard part of your day to day workflow.}}
 {{Basic Page}}
-<p>This page provides an overview of web accessibility and links to resources for more information. We suggest that you read through this whole page first, then go back and follow the links to learn more. Test</p>
+<p>This page provides an overview of web accessibility and links to resources for more information. We suggest that you read through this whole page first, then go back and follow the links to learn more.</p>
 
 ==The Web is for all people==
 The Web is fundamentally designed to work for all people, whatever their hardware, software, language, culture, location, or physical or mental ability.
