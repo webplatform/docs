@@ -253,8 +253,18 @@ allowed);</li>
 </ul>
 A document is said “valid” when it is associated with a DTD and respects the
 rules defined in the DTD.
+
+
+
+<p><strong>Namespaces</p></strong>
+
+
+<p><strong>The schema</p></strong>
+
 {{Notes_Section
 |Notes=draft
+to be styled
+sections to be added
 }}
 {{Topics|XML}}
 {{External_Attribution
