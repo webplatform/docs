@@ -120,8 +120,7 @@ hypothetical library:
 library
 
 Figure 1 – the three components of a document
-<em>(insert picture)</em>
-
+[[File:XMLcomponents.png|the three components of a document]]
 
 The unique element that contains all the others is called the root element.
 The DTD can be internal or external to the XML document. By convention its
