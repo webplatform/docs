@@ -283,7 +283,7 @@ We have described the namespaces and you will have probably noticed that they ar
 
 <ul>
  <li>they are not written in XML;</li>
- <li>they are difficult to write;</li>
+ <li>they are not easy to write;</li>
  <li>they are not extensible;</li>
  <li>they do not specify datatypes (or, more precisely, they specify only one</li>
 </ul>
