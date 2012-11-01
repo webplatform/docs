@@ -50,37 +50,25 @@ For a document to be easy to interpret there must be three distinct parts:
  <li>the content;</li>
  <li>the specification of the elements, the structure (DTD or Schema);</li>
  <li>the specification of the visual aspects, the style (Stylesheet).</li>
-/ul>
+</ul>
 
 Why is it so important to maintain these three components distinct ?
-If we have to look for information in a book, we consult the index, when this is available, otherwise we check the chapters to see whether the information contained is inherent, we then scan the paragraphs, finally we look at the
-content.
-A particular indication such as an indentation or the use of a different character
-helps us to understand where a chapter or a paragraph begins: the style
-should help us, to understand when reading the relation of the structure with
-the content.
-Without this distinction, an author concentrating on the visual properties risks
-loosing sight of the content of his/her document.
-With this distinction effort can be shared: the author, who has no need to
-know informatics elements, can concentrate on the content of his document
-entrusting the visual aspect to the graphic. In addition, it is more simple to
-write applications that must elaborate data. Once the content is separated
-from the style, it is easier to integrate data from different sources and different
-stylesheet can be applied if needed.
-If the language is modified and we want others know this or we want to use it
-as an exchange format, we need an open solution not a proprietary one. This
-means that the meaning of the extensions made must be declared, with a
-public DTD.
 
+If we have to look for information in a book, we consult the index, when this is available, otherwise we check the chapters to see whether the information contained is inherent, we then scan the paragraphs, finally we look at the content.
+
+A particular indication such as an indentation or the use of a different character helps us to understand where a chapter or a paragraph begins: the style should help us, to understand when reading the relation of the structure with
+the content.
+
+Without this distinction, an author concentrating on the visual properties risks loosing sight of the content of his/her document.
+
+With this distinction effort can be shared: the author, who has no need to know informatics elements, can concentrate on the content of his document entrusting the visual aspect to the graphic. In addition, it is more simple to write applications that must elaborate data. Once the content is separated from the style, it is easier to integrate data from different sources and different stylesheet can be applied if needed.
+
+If the language is modified and we want others know this or we want to use it as an exchange format, we need an open solution not a proprietary one. This means that the meaning of the extensions made must be declared, with a public DTD.
 
 
 == An example of an XML document ==
-According to the design goals of XML, it should be human legible. It must be
-readable by any text reader, such as Unix vi or Windows Notepad. It should
-not be in binary format (even if P. Hoschka, W3C member, during the
-inauguration of the W3C office in Italy talked about the possibility of a binary
-XML), and should be reasonably clear. The following example, library.xml,
-shows how an XML document can be written:
+According to the design goals of XML, it should be human legible. It must be readable by any text reader, such as Unix vi or Windows Notepad and should be reasonably clear. The following example, library.xml, shows how an XML document can be written:
+
 Figure 2 - library.xml
 <pre>
 &lt;?xml version=”1.0” encoding=”UTF-8”?&gt;
@@ -184,30 +172,28 @@ Let us examine the following declaration:
 </pre>
 
 <pre>
-In the first case the "|" character means that the "person" element will be
-constituted by the "first_name" or by the "last_name" element; in the second case, in which a "*" character is present, by 0, 1 or more "first_name", "last_name", "email" elements in any order.
-We can see that the author element is followed by the "+" character: this
-means that there must be one or more “author” elements.
-If an element, or a group of elements listed between parentheses, is followed
-by the "?" character it can be present none or one times.
-&lt;!ELEMENT title (#PCDATA)&gt; means that the title element can be composed
-by any character except for markup strings or special characters like ", & or ]
+In the first case the "|" character means that the "person" element will be constituted by the "first_name" or by the "last_name" element; in the second case, in which a "*" character is present, by 0, 1 or more "first_name", "last_name", "email" elements in any order.
+
+We can see that the author element is followed by the "+" character: this means that there must be one or more “author” elements.
+
+If an element, or a group of elements listed between parentheses, is followed by the "?" character it can be present none or one times.
+
+&lt;!ELEMENT title (#PCDATA)&gt; means that the title element can be composed by any character except for markup strings or special characters like ", & or ]
+
 (PCDATA = Parsed Character Data).
-Attributes are used generally as specifications of elements, to add information
-to elements. In this case, we can consider attributes as metadata, i.e.
-information about information. But attributes are also used to have a control
-on values; we can oblige data to be a value of a predefined list, like the
-enumerated type in the C language.
+
+Attributes are used generally as specifications of elements, to add information to elements. In this case, we can consider attributes as metadata, i.e. information about information. But attributes are also used to have a control on values; we can oblige data to be a value of a predefined list, like the enumerated type in the C language.
+
 Attributes are declared in the form:
-&lt;!ATTRIBUTE element_name
-attribute_name attribute_type default_value&gt;
+<pre>&lt;!ATTRIBUTE element_name
+attribute_name attribute_type default_value&gt;</pre>
+
 In our example, each book element will have a univocal code (ID).
-Attribute types can be CDATA (character data), ID, or a list of values
-(enumerated type) and are declared in this way:
-&lt;!ATTLIST element_name
+
+Attribute types can be CDATA (character data), ID, or a list of values (enumerated type) and are declared in this way:
+<pre>&lt;!ATTLIST element_name
 attribute_name attribute_type default_value&gt;
 </pre>
-
 
 
 The attribute value is compulsory when the option #REQUIRED is specified (in our example the code of the book element is compulsory), it can have no specified code if the option is #IMPLIED, or only the specified value is valid
@@ -218,8 +204,7 @@ An XML document can be composed by elements referencing other objects;
 these objects are called entities. The following example shows a document internal entity:
 <pre>&lt;!ENTITY XML "eXtensible Markup Language"&gt;</pre>
 
-In this case, during visualisation, each &XML occurrence will be replaced by
-the string “eXtensible Markup Language “.
+In this case, during visualisation, each &XML occurrence will be replaced by the string “eXtensible Markup Language “.
 
 Entities can be used to represent reserved characters like, for example, “&lt;” or “&gt;” (&lt;, &gt), but can also be used to reference external objects, such as other XML documents or images, when the document does not consist of a unique file.
 
