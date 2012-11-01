@@ -1,16 +1,19 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section}}
 {{CSS Property
+|Initial value=padding-box
 |Applies to=All elements
 |Inherited=No
 |Media=visual
+|Computed value=as specified
 |Animatable=No
+|CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=padding-box
 |Description=Default. The position is relative to the padding box. For single boxes, "0 0" is the upper-left corner of the padding edge; "100% 100%" is the lower-right corner.
