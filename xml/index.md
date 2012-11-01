@@ -206,44 +206,49 @@ Attribute types can be CDATA (character data), ID, or a list of values
 (enumerated type) and are declared in this way:
 &lt;!ATTLIST element_name
 attribute_name attribute_type default_value&gt;
-The attribute value is compulsory when the option #REQUIRED is specified (in
-our example the code of the book element is compulsory), it can have no
-specified code if the option is #IMPLIED, or only the specified value is valid
+</pre>
+
+
+
+The attribute value is compulsory when the option #REQUIRED is specified (in our example the code of the book element is compulsory), it can have no specified code if the option is #IMPLIED, or only the specified value is valid
 with the option #FIXED.
-In addition to elements and attributes, the DTD can contain entities and
-notations.
-An XML document can be composed by elements referencing other objects;
-these objects are called entities. The following example shows a document
-internal entity:
-&lt;!ENTITY XML "eXtensible Markup Language"&gt;
+
+In addition to elements and attributes, the DTD can contain entities and notations.
+An XML document can be composed by elements referencing other objects; 
+these objects are called entities. The following example shows a document internal entity:
+<pre>&lt;!ENTITY XML "eXtensible Markup Language"&gt;</pre>
+
 In this case, during visualisation, each &XML occurrence will be replaced by
 the string “eXtensible Markup Language “.
-Entities can be used to represent reserved characters like, for example, “&lt;” or
-“&gt;” (&lt;, &gt), but can also be used to reference external objects, such as
-other XML documents or images, when the document does not consist of a
-unique file. The following example defines an external entity:
-&lt;!ENTITY introduction SYSTEM "introduction.txt"&gt;
+
+Entities can be used to represent reserved characters like, for example, “&lt;” or “&gt;” (&lt;, &gt), but can also be used to reference external objects, such as other XML documents or images, when the document does not consist of a unique file.
+
+The following example defines an external entity:
+<pre>&lt;!ENTITY introduction SYSTEM "introduction.txt"&gt;</pre>
+
 A document can also contain parametrical entities:
-&lt;!ENTITY % [name] "[a_list_of_names]"&gt;
+<pre>&lt;!ENTITY % [name] "[a_list_of_names]"&gt;</pre>
 for example:
-8
+<pre>
 &lt;!ENTITY % headings "H1 | H2 | H3 | H4"&gt;
 &lt;!ENTITY BODY (%headings | P | DIV | BR)*&gt;
+</pre>
+
 The notation declaration is useful to identify specific types of external binary
 data, like for example files in “gif” format
-&lt;!NOTATION GIF87A SYSTEM “GIF”&gt;
-In case we need to preserve the space contained in an element, for example in
-a poem, we use the xml:space attribute set to “preserve”
+<pre>&lt;!NOTATION GIF87A SYSTEM “GIF”&gt;</pre>
+
+In case we need to preserve the space contained in an element, for example in a poem, we use the xml:space attribute set to “preserve”
+<pre>
 &lt;!ELEMENT poem (#PCDATA)&gt;
 &lt;!ATTLIST poem
 xml:space (default| preserve) “preserve”&gt;
-Processing instructions used to pass information to the applications are written
-in the form ”&lt;?name PIdata?&gt;” where name, called the Pitarget, is used to
-identify the process instruction to the programs.
-The DTD is required when we have to define default attribute values, when we
-need to handle white spaces and when other programs need to read it to
-understand the structure of the document.
 </pre>
+
+Processing instructions used to pass information to the applications are written in the form ”&lt;?name PIdata?&gt;” where name, called the Pitarget, is used to identify the process instruction to the programs.
+
+The DTD is required when we have to define default attribute values, when we need to handle white spaces and when other programs need to read it to understand the structure of the document.
+
 
 
 In order for a document to be considered “well formed”:
