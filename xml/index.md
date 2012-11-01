@@ -243,7 +243,7 @@ In order for a document to be considered “well formed”:
 document; this tag is called the root element;</li>
  <li>all the tags must be nested (unlike HTML &lt;B&gt;&lt;I&gt;text&lt;/B&gt;&lt;/I&gt; is not
 allowed);</li>
- <li>all the entities must be declared.</ul>
+ <li>all the entities must be declared.</li>
 </ul>
 A document is said “valid” when it is associated with a DTD and respects the
 rules defined in the DTD.
@@ -256,7 +256,7 @@ rules defined in the DTD.
 == The schema ==
 {{Notes_Section
 |Notes=draft
-to be styled
+
 sections to be added
 }}
 {{Topics|XML}}
