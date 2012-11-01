@@ -5,16 +5,16 @@
 }}
 {{Summary_Section|The Extensible Markup Language (XML) is a subset of SGML Its goal is to enable generic SGML to be served, received, and processed on the Web in the way that is now possible with HTML. XML has been designed for ease of implementation and for interoperability with both SGML and HTML.}}
 {{Basic Page}}
-<strong>Introduction</strong>
+ == Introduction ==
 Extensible Markup Language, abbreviated XML, describes a class of data objects called XML documents and partially describes the behavior of computer programs which process them. The World Wide Web Consortium maintains the XML standard. 
 
-<strong>XML specifications</strong>
+ == XML specifications ==
 The first draft of XML was released in November 1996, the current specification (1.0 fifth edition)
 is consultable at this address:
 http://www.w3.org/TR/2008/REC-xml-20081126/
 
 
-<strong>The goals of XML</strong>
+ == The goals of XML ==
 The goals of XML, as specified by W3C, are:
 <ol>
   <li>XML shall be straightforwardly usable over the Internet</li>
@@ -30,7 +30,7 @@ minimum, ideally zero</li>
   <li>Terseness in XML markup is of minimal importance</li>
 </ol>
 
-<strong>Markup, Extensibility</strong>
+ == Markup, Extensibility ==
 Markup is all that has a special meaning, that must be well characterised:
 bold text, underlined text are examples of markup.
 An XML document is composed of markups and text: markups represent the logical structure of the document, text is the content of the document, the data.
@@ -42,7 +42,7 @@ HTML is also a markup language, it was initially defined in SGML. The set of HTM
 While the predefined tags of HTML are used to specify the visual aspects of the document, in XML they are used to structure the document, to define the content and to describe the data.
 
 
-<strong>The components of XML</strong>
+ == The components of XML ==
 One of the most common problems today is the exchange of documents: each program stores its data in one or more proprietary formats difficult to exchange with other programs.
 XML has been studied to allow and facilitate data exchange between different kinds of applications, for example databases and word processors. The interest aroused by the new language is such that many software producers now intend to adopt the XML format or are already using it in theirs programmes.
 For a document to be easy to interpret there must be three distinct parts:
@@ -74,7 +74,7 @@ public DTD.
 
 
 
-<strong>An example of an XML document</strong>
+ == An example of an XML document ==
 According to the design goals of XML, it should be human legible. It must be
 readable by any text reader, such as Unix vi or Windows Notepad. It should
 not be in binary format (even if P. Hoschka, W3C member, during the
@@ -104,9 +104,8 @@ The document begins with a prologue that contains a declaration of conformity
 to version 1.0 of the XML standard and to the UTF-8 encoding standard:
 &lt;?xml version=”1.0” encoding=”UTF-8”?&gt;
 
-Elements are used to declare the associated content and are written in the
-form:
-&lt;element_type_name attribute_name=”attribute_value”&gt;element content&lt;/element_type_name&gt;
+Elements are used to declare the associated content and are written in the form:
+<pre>&lt;element_type_name attribute_name=”attribute_value”&gt;element content&lt;/element_type_name&gt;</pre>
 
 The content of an element can be of the following types: character data, parsed character data (character data that can be evaluated by parsers, programs capable of reading and interpreting XML documents), processing instructions (information to give to programs) or other nested elements.
 An element can have attributes, used to better specify the content.
@@ -121,7 +120,7 @@ both modern and also historical languages. With Unicode, browsers should
 automatically render the right character even if a document contains words
 written in several code sets.
 
-<strong>DTD - Document Type Definition<strong>
+ == DTD - Document Type Definition ==
 The DTD contains the definition rules of tags; it denotes the elements and their
 order inside the XML document. Unlike SGML, its use is not compulsory, but is
 suggested in order to verify the validity and congruence of the document.
@@ -132,7 +131,9 @@ represent the nodes. The following figure (Fig. 3), represents the structure of 
 hypothetical library:
 library
 
+Figure 1 – the three components of a document
 <em>(insert picture)</em>
+
 
 The unique element that contains all the others is called the root element.
 The DTD can be internal or external to the XML document. By convention its
@@ -140,7 +141,7 @@ name corresponds to that of the root element (in our example "library").
 The following figure (Figure 4) shows an XML DTD, library.dtd, representing
 the previous defined structure:
 
-Figure X - library.dtd
+Figure 2 - library.dtd
 <pre>
 &lt;!DOCTYPE library [
 &lt;!ELEMENT library (book+)&gt;
@@ -156,32 +157,35 @@ code ID #REQUIRED&gt;
 ]&gt;
 </pre>
 
-<pre>
+
 A DTD can be internal or external to the XML document; generally it is written
 in one or more separate documents.
 If internal to the XML document, the DTD starts with a DOCTYPE declaration:
 &lt;!DOCTYPE root_element [element, attribute, entity, notation]&gt;
 otherwise this declaration must be made inside the XML document; the
 library.xml file would be written:
+<pre>
 &lt;?xml version=”1.0”?&gt;
 &lt;!DOCTYPE library SYSTEM "library.dtd"&gt;
 &lt;library&gt;
 ...
 &lt;/library&gt;
+</pre>
 After the DOCTYPE declaration we have to declare elements:
-&lt;!ELEMENT element_name (permitted_elements_names)&gt;
+<pre>&lt;!ELEMENT element_name (permitted_elements_names)&gt;</pre>
+
 Examining the declaration of the "book" element, we can note that is
 composed by the elements "title", "author", "publisher" and "keyword".
 These elements are separated by a comma and thus must be present in that
 exact order in the library.xml file.
 Let us examine the following declaration:
-&lt;!ELEMENT person (first_name|last_name)&gt;
+<pre>&lt;!ELEMENT person (first_name|last_name)&gt;
 &lt;!ELEMENT person (first_name|last_name|email)*&gt;
+</pre>
+
+<pre>
 In the first case the "|" character means that the "person" element will be
-constituted by the "first_name" or by the "last_name" element; in the second
-7
-case, in which a "*" character is present, by 0, 1 or more "first_name",
-"last_name", "email" elements in any order.
+constituted by the "first_name" or by the "last_name" element; in the second case, in which a "*" character is present, by 0, 1 or more "first_name", "last_name", "email" elements in any order.
 We can see that the author element is followed by the "+" character: this
 means that there must be one or more “author” elements.
 If an element, or a group of elements listed between parentheses, is followed
@@ -256,10 +260,10 @@ rules defined in the DTD.
 
 
 
-<p><strong>Namespaces</p></strong>
+ == Namespaces ==
 
 
-<p><strong>The schema</p></strong>
+ == The schema ==
 
 {{Notes_Section
 |Notes=draft
