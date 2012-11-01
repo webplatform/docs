@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -49,6 +49,11 @@ function getID() {
 {{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
+|Name=DOM Level 2 Core
+|URL=http://www.w3.org/TR/DOM-Level-2-Core/core.html#ID-getElBId
+|Status=Recommendation
+|Relevant_changes=Section 1.2. Fundamental Interfaces
+}}{{Related Specification
 |Name=DOM Level 3 Core
 |URL=http://www.w3.org/TR/DOM-Level-3-Core/
 |Status=Recommendation
@@ -123,7 +128,7 @@ function getID() {
 *<code>[[dom/document|document]]</code>
 *<code>About the W3C Document Object Model</code>
 }}
-{{Topics|DOM}}
+{{Topics|DOM, HTML, XHTML, XML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
