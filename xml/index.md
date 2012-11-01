@@ -295,8 +295,7 @@ A schema provides an extensible way to define the XML data model: in addition to
 
 Specifying datatypes makes it possible to constrain rules, such as applying ranges to values, specifying the length of a string, or the decimal precision of a number.
 
-<em>to be continued/em>
-
+<em>to be continued</em>
 {{Notes_Section
 |Notes=draft
 
