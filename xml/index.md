@@ -36,9 +36,9 @@ bold text, underlined text are examples of markup.
 An XML document is composed of markups and text: markups represent the
 logical structure of the document, text is the content of the document, the
 data.
-In XML all that is included between angled brackets (“<” and “>”), is
+In XML all that is included between angled brackets (“&lt;” and “&gt;”), is
 considered markup, and is called tag, for example:
-<name> is a tag.
+&lt;name&gt; is a tag.
 XML is a metalanguage: Unlike HTML, which is a predefined language, it does
 not have predefined tags but allows the definition of new tags and new
 languages (there is an HTML version in XML). It is extensible.
@@ -97,36 +97,38 @@ inauguration of the W3C office in Italy talked about the possibility of a binary
 XML), and should be reasonably clear. The following example, library.xml,
 shows how an XML document can be written:
 Figure 2 - library.xml
-<?xml version=”1.0” encoding=”UTF-8”?>
-<library>
-  <book code=”R414”>
-    <title>2001: A Space Odissey</title>
-    <author>
-      <first_name>Arthur Charles</first_name>
-      <last_name>Clarke</last_name>
-    </author>
-    <publisher>Polaris Production</publisher>
-    <keyword>romance</keyword >
-    <keyword>science-fiction</keyword >
-  </book>
-</library>
+<pre>
+&lt;?xml version=”1.0” encoding=”UTF-8”?&gt;
+&lt;library&gt;
+  &lt;book code=”R414”&gt;
+    &lt;title&gt;2001: A Space Odissey&lt;/title&gt;
+    &lt;author&gt;
+      &lt;first_name&gt;Arthur Charles&lt;/first_name&gt;
+      &lt;last_name&gt;Clarke&lt;/last_name&gt;
+    &lt;/author&gt;
+    &lt;publisher&gt;Polaris Production&lt;/publisher&gt;
+    &lt;keyword&gt;romance&lt;/keyword &gt;
+    &lt;keyword&gt;science-fiction&lt;/keyword &gt;
+  &lt;/book&gt;
+&lt;/library&gt;
+</pre>
 
 The document begins with a prologue that contains a declaration of conformity
 to version 1.0 of the XML standard and to the UTF-8 encoding standard:
-<?xml version=”1.0” encoding=”UTF-8”?>
+&lt;?xml version=”1.0” encoding=”UTF-8”?&gt;
 Elements are used to declare the associated content and are written in the
 form:
-<element_type_name attribute_name=”attribute_value”>element content</element_type_name>
+&lt;element_type_name attribute_name=”attribute_value”&gt;element content&lt;/element_type_name&gt;
 The content of an element can be of the following types: character data,
 parsed character data (character data that can be evaluated by parsers,
 programs capable of reading and interpreting XML documents), processing
 instructions (information to give to programs) or other nested elements.
 An element can have attributes, used to better specify the content.
 Each open tag must have a corresponding final tag; when the element is
-empty, like the case of BR in HTML, instead of <BR></BR> the use of the
-concise form <BR/> is permissible.
-XML is case sensitive, so a <name> tag is different from <Name> and from
-<NAME>.
+empty, like the case of BR in HTML, instead of &lt;BR&gt;&lt;/BR&gt; the use of the
+concise form &lt;BR/&gt; is permissible.
+XML is case sensitive, so a &lt;name&gt; tag is different from &lt;Name&gt; and from
+&lt;NAME&gt;.
 Some characters and sequences of characters are reserved and cannot be used
 in the names of the tags (%, xml, ...).
 XML supports Unicode (Unicode WorldWide Character Standard), a standard
@@ -154,39 +156,39 @@ The following figure (Figure 4) shows an XML DTD, library.dtd, representing
 the previous defined structure:
 
 Figure X - library.dtd
-<!DOCTYPE library [
-<!ELEMENT library (book+)>
-<!ELEMENT book (title, author+, publisher, keyword+)>
-<!ATTLIST book
-code ID #REQUIRED>
-<!ELEMENT title (#PCDATA)>
-<!ELEMENT author (first_name, last_name)>
-<!ELEMENT publisher (#PCDATA)>
-<!ELEMENT keyword (#PCDATA)>
-<!ELEMENT last_name (#PCDATA)>
-<!ELEMENT first_name (#PCDATA)>
-]>
+&lt;!DOCTYPE library [
+&lt;!ELEMENT library (book+)&gt;
+&lt;!ELEMENT book (title, author+, publisher, keyword+)&gt;
+&lt;!ATTLIST book
+code ID #REQUIRED&gt;
+&lt;!ELEMENT title (#PCDATA)&gt;
+&lt;!ELEMENT author (first_name, last_name)&gt;
+&lt;!ELEMENT publisher (#PCDATA)&gt;
+&lt;!ELEMENT keyword (#PCDATA)&gt;
+&lt;!ELEMENT last_name (#PCDATA)&gt;
+&lt;!ELEMENT first_name (#PCDATA)&gt;
+]&gt;
 
 A DTD can be internal or external to the XML document; generally it is written
 in one or more separate documents.
 If internal to the XML document, the DTD starts with a DOCTYPE declaration:
-<!DOCTYPE root_element [element, attribute, entity, notation]>
+&lt;!DOCTYPE root_element [element, attribute, entity, notation]&gt;
 otherwise this declaration must be made inside the XML document; the
 library.xml file would be written:
-<?xml version=”1.0”?>
-<!DOCTYPE library SYSTEM "library.dtd">
-<library>
+&lt;?xml version=”1.0”?&gt;
+&lt;!DOCTYPE library SYSTEM "library.dtd"&gt;
+&lt;library&gt;
 ...
-</library>
+&lt;/library&gt;
 After the DOCTYPE declaration we have to declare elements:
-<!ELEMENT element_name (permitted_elements_names)>
+&lt;!ELEMENT element_name (permitted_elements_names)&gt;
 Examining the declaration of the "book" element, we can note that is
 composed by the elements "title", "author", "publisher" and "keyword".
 These elements are separated by a comma and thus must be present in that
 exact order in the library.xml file.
 Let us examine the following declaration:
-<!ELEMENT person (first_name|last_name)>
-<!ELEMENT person (first_name|last_name|email)*>
+&lt;!ELEMENT person (first_name|last_name)&gt;
+&lt;!ELEMENT person (first_name|last_name|email)*&gt;
 In the first case the "|" character means that the "person" element will be
 constituted by the "first_name" or by the "last_name" element; in the second
 7
@@ -196,7 +198,7 @@ We can see that the author element is followed by the "+" character: this
 means that there must be one or more “author” elements.
 If an element, or a group of elements listed between parentheses, is followed
 by the "?" character it can be present none or one times.
-<!ELEMENT title (#PCDATA)> means that the title element can be composed
+&lt;!ELEMENT title (#PCDATA)&gt; means that the title element can be composed
 by any character except for markup strings or special characters like ", & or ]
 (PCDATA = Parsed Character Data).
 Attributes are used generally as specifications of elements, to add information
@@ -205,13 +207,13 @@ information about information. But attributes are also used to have a control
 on values; we can oblige data to be a value of a predefined list, like the
 enumerated type in the C language.
 Attributes are declared in the form:
-<!ATTRIBUTE element_name
-attribute_name attribute_type default_value>
+&lt;!ATTRIBUTE element_name
+attribute_name attribute_type default_value&gt;
 In our example, each book element will have a univocal code (ID).
 Attribute types can be CDATA (character data), ID, or a list of values
 (enumerated type) and are declared in this way:
-<!ATTLIST element_name
-attribute_name attribute_type default_value>
+&lt;!ATTLIST element_name
+attribute_name attribute_type default_value&gt;
 The attribute value is compulsory when the option #REQUIRED is specified (in
 our example the code of the book element is compulsory), it can have no
 specified code if the option is #IMPLIED, or only the specified value is valid
@@ -221,30 +223,30 @@ notations.
 An XML document can be composed by elements referencing other objects;
 these objects are called entities. The following example shows a document
 internal entity:
-<!ENTITY XML "eXtensible Markup Language">
+&lt;!ENTITY XML "eXtensible Markup Language"&gt;
 In this case, during visualisation, each &XML occurrence will be replaced by
 the string “eXtensible Markup Language “.
-Entities can be used to represent reserved characters like, for example, “<” or
-“>” (&lt, &gt), but can also be used to reference external objects, such as
+Entities can be used to represent reserved characters like, for example, “&lt;” or
+“&gt;” (&lt;, &gt), but can also be used to reference external objects, such as
 other XML documents or images, when the document does not consist of a
 unique file. The following example defines an external entity:
-<!ENTITY introduction SYSTEM "introduction.txt">
+&lt;!ENTITY introduction SYSTEM "introduction.txt"&gt;
 A document can also contain parametrical entities:
-<!ENTITY % [name] "[a_list_of_names]">
+&lt;!ENTITY % [name] "[a_list_of_names]"&gt;
 for example:
 8
-<!ENTITY % headings "H1 | H2 | H3 | H4">
-<!ENTITY BODY (%headings | P | DIV | BR)*>
+&lt;!ENTITY % headings "H1 | H2 | H3 | H4"&gt;
+&lt;!ENTITY BODY (%headings | P | DIV | BR)*&gt;
 The notation declaration is useful to identify specific types of external binary
 data, like for example files in “gif” format
-<!NOTATION GIF87A SYSTEM “GIF”>
+&lt;!NOTATION GIF87A SYSTEM “GIF”&gt;
 In case we need to preserve the space contained in an element, for example in
 a poem, we use the xml:space attribute set to “preserve”
-<!ELEMENT poem (#PCDATA)>
-<!ATTLIST poem
-xml:space (default| preserve) “preserve”>
+&lt;!ELEMENT poem (#PCDATA)&gt;
+&lt;!ATTLIST poem
+xml:space (default| preserve) “preserve”&gt;
 Processing instructions used to pass information to the applications are written
-in the form ”<?name PIdata?>” where name, called the Pitarget, is used to
+in the form ”&lt;?name PIdata?&gt;” where name, called the Pitarget, is used to
 identify the process instruction to the programs.
 The DTD is required when we have to define default attribute values, when we
 need to handle white spaces and when other programs need to read it to
@@ -253,7 +255,7 @@ In order for a document to be considered “well formed”:
 • it must contain at least one element;
 • there must be a unique open and close tag that contains the entire
 document; this tag is called the root element;
-• all the tags must be nested (unlike HTML <B><I>text</B></I> is not
+• all the tags must be nested (unlike HTML &lt;B&gt;&lt;I&gt;text&lt;/B&gt;&lt;/I&gt; is not
 allowed);
 • all the entities must be declared.
 A document is said “valid” when it is associated with a DTD and respects the
