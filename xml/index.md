@@ -5,16 +5,16 @@
 }}
 {{Summary_Section|The Extensible Markup Language (XML) is a subset of SGML Its goal is to enable generic SGML to be served, received, and processed on the Web in the way that is now possible with HTML. XML has been designed for ease of implementation and for interoperability with both SGML and HTML.}}
 {{Basic Page}}
- == Introduction ==
+== Introduction ==
 Extensible Markup Language, abbreviated XML, describes a class of data objects called XML documents and partially describes the behavior of computer programs which process them. The World Wide Web Consortium maintains the XML standard. 
 
- == XML specifications ==
+== XML specifications ==
 The first draft of XML was released in November 1996, the current specification (1.0 fifth edition)
 is consultable at this address:
 http://www.w3.org/TR/2008/REC-xml-20081126/
 
 
- == The goals of XML ==
+== The goals of XML ==
 The goals of XML, as specified by W3C, are:
 <ol>
   <li>XML shall be straightforwardly usable over the Internet</li>
@@ -30,7 +30,7 @@ minimum, ideally zero</li>
   <li>Terseness in XML markup is of minimal importance</li>
 </ol>
 
- == Markup, Extensibility ==
+== Markup, Extensibility ==
 Markup is all that has a special meaning, that must be well characterised:
 bold text, underlined text are examples of markup.
 An XML document is composed of markups and text: markups represent the logical structure of the document, text is the content of the document, the data.
@@ -42,7 +42,7 @@ HTML is also a markup language, it was initially defined in SGML. The set of HTM
 While the predefined tags of HTML are used to specify the visual aspects of the document, in XML they are used to structure the document, to define the content and to describe the data.
 
 
- == The components of XML ==
+== The components of XML ==
 One of the most common problems today is the exchange of documents: each program stores its data in one or more proprietary formats difficult to exchange with other programs.
 XML has been studied to allow and facilitate data exchange between different kinds of applications, for example databases and word processors. The interest aroused by the new language is such that many software producers now intend to adopt the XML format or are already using it in theirs programmes.
 For a document to be easy to interpret there must be three distinct parts:
@@ -74,7 +74,7 @@ public DTD.
 
 
 
- == An example of an XML document ==
+== An example of an XML document ==
 According to the design goals of XML, it should be human legible. It must be
 readable by any text reader, such as Unix vi or Windows Notepad. It should
 not be in binary format (even if P. Hoschka, W3C member, during the
@@ -120,7 +120,7 @@ both modern and also historical languages. With Unicode, browsers should
 automatically render the right character even if a document contains words
 written in several code sets.
 
- == DTD - Document Type Definition ==
+== DTD - Document Type Definition ==
 The DTD contains the definition rules of tags; it denotes the elements and their
 order inside the XML document. Unlike SGML, its use is not compulsory, but is
 suggested in order to verify the validity and congruence of the document.
@@ -260,11 +260,10 @@ rules defined in the DTD.
 
 
 
- == Namespaces ==
+== Namespaces ==
 
 
- == The schema ==
-
+== The schema ==
 {{Notes_Section
 |Notes=draft
 to be styled
