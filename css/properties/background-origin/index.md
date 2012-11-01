@@ -27,7 +27,23 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|Code=.example {
+   border: 10px double;
+   padding: 10px;
+   background: url('image.jpg');
+   background-position: center left;
+   /* The background will be inside the padding */
+   background-origin: content-box;
+}
+
+div {
+  background-image: url('mainback.png'), url('logo.jpg');
+  background-position: 0px 0px, top right;
+  background-origin: padding-box, content-box;
+}
+}}
 }}
 {{Notes_Section
 |Notes====Remarks===
@@ -71,8 +87,8 @@ In Windows Internet Explorer 9, the background of a box can have multiple layer
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
+|Sources=MDN, MSDN
+|MDN_link=https://developer.mozilla.org/en-US/docs/CSS/background-origin
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
