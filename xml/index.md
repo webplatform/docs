@@ -9,8 +9,8 @@
 Extensible Markup Language, abbreviated XML, describes a class of data objects called XML documents and partially describes the behavior of computer programs which process them. The World Wide Web Consortium maintains the XML standard. 
 
 == XML specifications ==
-The first draft of XML was released in November 1996, the current specification (1.0 fifth edition)
-is consultable at this address:
+The first draft of XML was released in November 1996, the current specification (1.0 fifth edition) is consultable at the following address:
+
 http://www.w3.org/TR/2008/REC-xml-20081126/
 
 
