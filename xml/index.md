@@ -251,9 +251,52 @@ rules defined in the DTD.
 
 
 == Namespaces ==
+An XML document may have content relative to more than one argument or discipline, or collect data from different documents or resources; this can be a source of problems because there could be several elements or attributes in the same document with the same names but relative to different contexts.
 
+Let’s consider, for example, the word “mouse”: in one case it can be referred to a pointing device, in another to an animal or to a counter-balance or to a shy person; consider also “tree” (as a structure, or a plant).
+
+To eliminate possible ambiguities, namespaces have been introduced. As defined by W3C, a namespace is a collection of names, identified by a URI, which are used in XML documents as element types and attribute names.
+
+These multiple collections are also called vocabularies or markup vocabularies.
+
+A name is constituted by two parts: the local name or the name of element type name as has been shown until now, a prefix which specifies the name of the namespace and a colon dividing the two parts. The namespace must be declared using an attribute with the prefix “xmlns” and must have a unique URI.
+In the following example
+<pre>
+&lt;html:body xmlns:html="http://www.w3.org/TR/REC-html40"&gt;
+&lt;html:h1&gt;text&lt;/html:h1&gt;
+&lt;/html:body&gt;
+</pre>
+the body and h1 elements are mapped to the space defined by the HTML 4.0
+specifications as follows:
+<pre>
+&lt;{http://www.w3.org/TR/REC-html40}body&gt;
+&lt;{http://www.w3.org/TR/REC-html40}h1&gt;text&lt;/{http://www.w3.org/TR/REC-html40}h1&gt;
+&lt;/{http://www.w3.org/TR/REC-html40}body&gt;
+</pre>
+
+Some other examples:
+<em>to be added</em>
 
 == The schema ==
+
+We have described the namespaces and you will have probably noticed that they are not supported by DTDs. DTDs have other great limitations:
+
+<ul>
+ <li>they are not written in XML;</li>
+ <li>they are difficult to write;</li>
+ <li>they are not extensible;</li>
+ <li>they do not specify datatypes (or, more precisely, they specify only one</li>
+</ul>
+type of data, the parsed character data) and very often applications need to check for specified data.
+
+A solution has been proposed to extend the functionality of DTDs; this is known as the schema.
+
+A schema provides an extensible way to define the XML data model: in addition to defining elements, attributes and their relationships as a DTD, it provides the possibility to add information, such as datatypes and inheritance.
+
+Specifying datatypes makes it possible to constrain rules, such as applying ranges to values, specifying the length of a string, or the decimal precision of a number.
+
+<em>to be continued/em>
+
 {{Notes_Section
 |Notes=draft
 
