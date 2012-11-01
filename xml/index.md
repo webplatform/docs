@@ -171,7 +171,7 @@ Let us examine the following declaration:
 &lt;!ELEMENT person (first_name|last_name|email)*&gt;
 </pre>
 
-<pre>
+
 In the first case the "|" character means that the "person" element will be constituted by the "first_name" or by the "last_name" element; in the second case, in which a "*" character is present, by 0, 1 or more "first_name", "last_name", "email" elements in any order.
 
 We can see that the author element is followed by the "+" character: this means that there must be one or more “author” elements.
