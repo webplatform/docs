@@ -5,7 +5,7 @@
 }}
 {{Summary_Section|The Extensible Markup Language (XML) is a subset of SGML Its goal is to enable generic SGML to be served, received, and processed on the Web in the way that is now possible with HTML. XML has been designed for ease of implementation and for interoperability with both SGML and HTML.}}
 {{Basic Page}}
- Summary
+Summary
 
 Extensible Markup Language, abbreviated XML, describes a class of data objects called XML documents and partially describes the behavior of computer programs which process them. The World Wide Web Consortium maintains the XML standard. 
 
@@ -156,6 +156,7 @@ The following figure (Figure 4) shows an XML DTD, library.dtd, representing
 the previous defined structure:
 
 Figure X - library.dtd
+<pre>
 &lt;!DOCTYPE library [
 &lt;!ELEMENT library (book+)&gt;
 &lt;!ELEMENT book (title, author+, publisher, keyword+)&gt;
@@ -168,6 +169,7 @@ code ID #REQUIRED&gt;
 &lt;!ELEMENT last_name (#PCDATA)&gt;
 &lt;!ELEMENT first_name (#PCDATA)&gt;
 ]&gt;
+</pre>
 
 A DTD can be internal or external to the XML document; generally it is written
 in one or more separate documents.
@@ -260,7 +262,6 @@ allowed);
 • all the entities must be declared.
 A document is said “valid” when it is associated with a DTD and respects the
 rules defined in the DTD.
-
 {{Notes_Section
 |Notes=draft
 }}
