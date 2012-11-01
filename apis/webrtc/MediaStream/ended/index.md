@@ -6,6 +6,7 @@
 {{API_Object_Property
 |Property_applies_to=apis/MediaStream
 |Read_only=Yes
+|Example_object_name=stream
 |Javascript_data_type=Boolean
 }}
 {{Examples_Section
