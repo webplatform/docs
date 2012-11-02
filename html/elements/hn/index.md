@@ -13,22 +13,21 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Code=<!-- 
+|Code=&lt;!-- 
     The <h1> element applies a
     level-1 heading syle to the
     contained text. 
--->
+--&gt;
 &lt;h1&gt;Welcome to Web Platform Docs!&lt;/h1&gt;
 
-<!-- 
+&lt;!-- 
     <h2> is used for level-2 headings.
- -->
+ --&gt;
 &lt;h2&gt;Introduction&lt;/h2&gt;
 
-<!-- etc. -->
+&lt;!-- etc. --&gt;
 &lt;h3&gt;Prologue&lt;/h2&gt;
 &lt;h4&gt;Level-4 Heading&lt;/h4&gt;
-
 }}
 }}
 {{Notes_Section
