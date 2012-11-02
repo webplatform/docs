@@ -18,9 +18,9 @@
 |Description=The number of characters to extract.
 |Optional=No
 }}
-|Method_applies_to=dom/TextNode
+|Method_applies_to=dom/CharacterNode
 |Example_object_name=textualNode
-|Return_value_name=object
+|Return_value_name=substring
 |Javascript_data_type=String
 |Return_value_description=The requested sub string.
 }}
