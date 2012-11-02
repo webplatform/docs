@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|All tracks of the MediaStream object have ended; the MediaStream is said to be finished. }}
+{{Summary_Section|All tracks of the MediaStream object have ended; the MediaStream is said to be finished.}}
 {{Event
 |Event_applies_to=apis/MediaStream
 }}
@@ -15,7 +15,7 @@
 |Specifications=
 }}
 {{Compatibility_Section
-|Not_required=No
+|Not_required=Yes
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
