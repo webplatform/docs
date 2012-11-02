@@ -42,7 +42,7 @@ MediaStream objects have an input and an output. A LocalMediaStream is a MediaSt
 |Firefox_supported=Unknown
 |Firefox_version=
 |Firefox_prefixed_supported=Yes
-|Firefox_prefixed_version=18 nightly
+|Firefox_prefixed_version=18
 |Internet_explorer_supported=Unknown
 |Internet_explorer_version=
 |Internet_explorer_prefixed_supported=Unknown
