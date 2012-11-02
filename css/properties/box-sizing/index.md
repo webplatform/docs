@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status}}
@@ -59,7 +59,7 @@ div{
 |Internet_explorer_prefixed_supported=No
 |Internet_explorer_prefixed_version=
 |Opera_supported=Yes
-|Opera_version=7
+|Opera_version=9.5
 |Opera_prefixed_supported=Unknown
 |Opera_prefixed_version=
 |Safari_supported=Yes
@@ -67,11 +67,44 @@ div{
 |Safari_prefixed_supported=Yes
 |Safari_prefixed_version=3.1
 }}
-|Mobile_rows=
+|Mobile_rows={{Compatibility Table Mobile Row
+|Android_supported=Yes
+|Android_version=4.0
+|Android_prefixed_supported=Yes
+|Android_prefixed_version=2.1
+|Blackberry_supported=Yes
+|Blackberry_version=10
+|Blackberry_prefixed_supported=Yes
+|Blackberry_prefixed_version=7
+|Chrome_mobile_supported=Yes
+|Chrome_mobile_version=18
+|Chrome_mobile_prefixed_supported=Unknown
+|Chrome_mobile_prefixed_version=
+|Firefox_mobile_supported=No
+|Firefox_mobile_version=
+|Firefox_mobile_prefixed_supported=Yes
+|Firefox_mobile_prefixed_version=15
+|IE_mobile_supported=Unknown
+|IE_mobile_version=
+|IE_mobile_prefixed_supported=Unknown
+|IE_mobile_prefixed_version=
+|Opera_mobile_supported=Yes
+|Opera_mobile_version=10
+|Opera_mobile_prefixed_supported=Unknown
+|Opera_mobile_prefixed_version=
+|Opera_mini_supported=Yes
+|Opera_mini_version=5.0
+|Opera_mini_prefixed_supported=Unknown
+|Opera_mini_prefixed_version=
+|Safari_mobile_supported=Yes
+|Safari_mobile_version=5.0
+|Safari_mobile_prefixed_supported=Yes
+|Safari_mobile_prefixed_version=3.2
+}}
 |Notes_rows={{Compatibility Notes Row
 |Browser=Internet Explorer
 |Version=8
-|Note=This property requires Windows Internet Explorer to be in IE8 Standards mode rendering. 
+|Note=This property requires Windows Internet Explorer to be in IE8 Standards mode rendering.
 }}
 }}
 {{See_Also_Section
