@@ -1,20 +1,20 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
+{{Summary_Section}}
 {{API_Object
-|Subclass_of=dom/Element
+|Subclass_of=dom/CharacterData, dom/Node
 }}
-{{Topics|DOM}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
+|Language=HTML
 |Description=This example uses the '''TextNode''' object to change the text of an '''li''' object.
-|LiveURL=
-|Code=
-&lt;script&gt;
+|Code=&lt;script&gt;
 function fnChangeText(){
    var oTextNode {{=}} document.createTextNode("New List Item 1");
    var oReplaceNode {{=}} oItem1.firstChild.replaceNode(oTextNode);
@@ -24,14 +24,12 @@ function fnChangeText(){
 &lt;ul onclick {{=}} "fnChangeText()"&gt;
 &lt;li id {{=}} "oItem1"&gt;List Item 1&lt;/li&gt;
 &lt;/ul&gt;
-}}}}
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
-Use the [[dom/methods/createTextNode|'''createTextNode''']] method to create a '''TextNode''' object. After you create the '''TextNode''', you can add to it using the [[dom/methods/appendChild|'''appendChild''']], [[dom/methods/replaceNode|'''replaceNode''']], or [[dom/methods/insertBefore|'''insertBefore''']] methods.
+|Notes=Use the [[dom/methods/createTextNode|'''createTextNode''']] method to create a '''TextNode''' object. After you create the '''TextNode''', you can add to it using the [[dom/methods/appendChild|'''appendChild''']], [[dom/methods/replaceNode|'''replaceNode''']], or [[dom/methods/insertBefore|'''insertBefore''']] methods.
 This object is available in script as of Microsoft Internet Explorer 5.
-|Import_Notes=
-===Members===
+|Import_Notes====Members===
 The '''TextNode''' object has these types of members:
 *[#methods Methods]
 *[#properties Properties]
@@ -150,12 +148,22 @@ The '''TextNode''' object has these properties.
 |Retrieves the text of the current object.
 |}
  
-
 }}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section}}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
