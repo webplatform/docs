@@ -19,9 +19,6 @@
 {{Notes_Section
 |Usage=By calling ''object.'''''normalize''' before the subelements of an object are manipulated, you ensure that the document object model has a consistent structure.  The normal form is useful for operations that require a consistent document tree structure, and it ensures that the document object model view is identical when it is saved and reloaded.
 |Notes=The '''normalize''' method does not merge adjacent '''CDATA''' sections, allowing for an inconsistent object model when '''CDATA''' sections are present.
-|Import_Notes====Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}182717 Document Object Model (DOM) Level 3 Core Specification], Section 1.4
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
