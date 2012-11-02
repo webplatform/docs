@@ -7,7 +7,7 @@
 {{API_Name}}
 {{Summary_Section|An interface for common character data operations for objects in the DOM.}}
 {{API_Object
-|Subclass_of=dom/Node
+|Subclass_of=dom/Node, dom/EventTarget
 }}
 {{Examples_Section
 |Not_required=Yes
