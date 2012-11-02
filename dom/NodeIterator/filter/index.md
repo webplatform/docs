@@ -1,21 +1,25 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
+{{Summary_Section|Gets the currently applied '''NodeFilter''' to the traversal.}}
 {{API_Object_Property
 |Property_applies_to=dom/traversal/NodeIterator
-|Read_only=
+|Read_only=Yes
+|Example_object_name=nodeIterator
+|Return_value_name=nodeFilter
+|Javascript_data_type=DOM Node
+|Return_value_description=The '''NodeFilter''' that was applied while traversing.
 }}
-{{Topics|DOM}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
+|Language=HTML
 |Description=The following example searches for [[html/elements/table|'''table''']] and [[html/elements/a|'''anchor''']] tags and reports the value of the [[html/attributes/id|'''id''']] attribute. Although the [[dom/traversal/TreeWalker|'''TreeWalker''']] preserves the hierarchical relationship of nodes, you don't need to write recursive functions to walk the nodes in a hierarchy. The '''NodeFilter''' function skips nodes rather than rejecting them, which allows the function to examine all child nodes in the hierarchy.
-|LiveURL='''Note'''  Appending content to the document while the [[dom/traversal/TreeWalker|'''TreeWalker''']] is searching for nodes can cause and endless loop. To prevent this, the example collects all possible output in a temporary variable and appends it to the document after the '''TreeWalker''' is finished.
-|Code=
-&lt;!DOCTYPE html&gt;
+|Code=&lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
 &lt;script type{{=}}"text/javascript"&gt;
@@ -59,33 +63,41 @@ function refresh()
 &lt;button onclick{{=}}"findNodes()"&gt;Find Nodes&lt;/button&gt;
 &lt;button onclick{{=}}"refresh()"&gt;Reload&lt;/button&gt;
 &lt;/body&gt;
-&lt;/html&gt; 
-}}}}
+&lt;/html&gt;
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
-The '''NodeFilter''' is a callback function that provides customized filtering for [[dom/traversal/NodeIterator|'''NodeIterator''']] and [[dom/traversal/TreeWalker|'''TreeWalker''']]. The filter function accepts a node as its only parameter, and indicates whether the node is accepted, rejected, or skipped.
+|Notes=*Appending content to the document while the [[dom/traversal/TreeWalker|'''TreeWalker''']] is searching for nodes can cause an endless loop. To prevent this, the example collects all possible output in a temporary variable and appends it to the document after the '''TreeWalker''' is finished.
+*The '''NodeFilter''' is a callback function that provides customized filtering for [[dom/traversal/NodeIterator|'''NodeIterator''']] and [[dom/traversal/TreeWalker|'''TreeWalker''']]. The filter function accepts a node as its only parameter, and indicates whether the node is accepted, rejected, or skipped.
  <code>function myFilter(node) {
      // NodeFilter function that returns one of the following flags:
      // NodeFilter.FILTER_ACCEPT, NodeFilter.FILTER_REJECT, NodeFilter.FILTER_SKIP
  }</code>
-|Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}182712 Document Object Model (DOM) Level 2 Traversal and Range Specification], Section 1.2
-
-
+}}
+{{Related_Specifications_Section
+|Specifications={{Related Specification
+|Name=DOM Level 2 Traversal and Range
+|URL=http://www.w3.org/TR/DOM-Level-2-Traversal-Range/
+|Status=Recommendation
+|Relevant_changes=Section 1.2
+}}
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 *<code>[[dom/traversal/TreeWalker|TreeWalker]]</code>
 *<code>[[dom/traversal/NodeIterator|NodeIterator]]</code>
 }}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
