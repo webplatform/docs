@@ -31,7 +31,7 @@ function fnChangeText(){
 This object is available in script as of Microsoft Internet Explorer 5.
 |Import_Notes=====MSDN Properties====
 The '''TextNode''' object has these properties.
-{| class="wikitable"
+{{{!}} class="wikitable"
 {{!}}-
 !Property
 !Description
