@@ -50,7 +50,7 @@ div{
 |Chrome_version=9
 |Chrome_prefixed_supported=Yes
 |Chrome_prefixed_version=1
-|Firefox_supported=Unknown
+|Firefox_supported=No
 |Firefox_version=
 |Firefox_prefixed_supported=Yes
 |Firefox_prefixed_version=1
@@ -60,7 +60,7 @@ div{
 |Internet_explorer_prefixed_version=
 |Opera_supported=Yes
 |Opera_version=9.5
-|Opera_prefixed_supported=Unknown
+|Opera_prefixed_supported=No
 |Opera_prefixed_version=
 |Safari_supported=Yes
 |Safari_version=5.1
