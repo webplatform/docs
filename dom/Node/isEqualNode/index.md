@@ -3,13 +3,13 @@
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|Determines whether two nodes are equal in their type, name and namespace.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=otherNode
-|Data type=String
+|Data type=DOM Node
 |Description=The node to be compared to the node that is executing the method.
 |Optional=No
 }}
