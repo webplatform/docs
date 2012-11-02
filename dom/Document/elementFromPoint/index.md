@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Returns the element from the document whose elementFromPoint method is being called which is the ''topmost element'' which lies under the given point.  To get an element, specify the point via coordinates, in CSS pixels, relative to the upper-left-most point in the window or frame containing the document.}}
+{{Summary_Section|Returns the element for the specified x coordinate and the specified y coordinate.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=x
@@ -20,9 +20,9 @@
 }}
 |Method_applies_to=dom/document
 |Example_object_name=document
-|Return_value_name=el
+|Return_value_name=element
 |Javascript_data_type=DOM Node
-|Return_value_description='''IHTMLElement'''
+|Return_value_description=The element at the given point.
 }}
 {{Examples_Section
 |Not_required=No
@@ -36,6 +36,7 @@
 }}
 }}
 {{Notes_Section
+|Usage=This methods is used to get the element from the document whose elementFromPoint method is being called which is the ''topmost element'' which lies under the given point.  To get an element, specify the point via coordinates, in CSS pixels, relative to the upper-left-most point in the window or frame containing the document.
 |Notes=Coordinates are supplied in client coordinates. The upper-left corner of the client area is (0,0). For '''elementFromPoint''' to exhibit expected behavior, the object or element located at position (x, y) must support and respond to mouse events.
 }}
 {{Related_Specifications_Section
