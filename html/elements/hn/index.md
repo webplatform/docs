@@ -14,14 +14,14 @@
 |Examples={{Single Example
 |Language=HTML
 |Code=&lt;!-- 
-    The <h1> element applies a
+    The H1 element applies a
     level-1 heading syle to the
     contained text. 
 --&gt;
 &lt;h1&gt;Welcome to Web Platform Docs!&lt;/h1&gt;
 
 &lt;!-- 
-    <h2> is used for level-2 headings.
+    H2 is used for level-2 headings.
  --&gt;
 &lt;h2&gt;Introduction&lt;/h2&gt;
 
