@@ -1,24 +1,23 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{Markup_Element
 |DOM_interface=dom/HTMLEmbedElement
 }}
-{{Topics|HTML}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Description=The following use of the '''EMBED''' element mimics the behavior of the '''BGSOUND''' tag.
-|LiveURL=
-|Code=
-&lt;EMBED type{{=}}"audio/x-midi" src{{=}}"BackInTheSaddle.mid" hidden{{=}}"true"&gt; 
-}}}}
+|Code=&lt;EMBED type{{=}}"audio/x-midi" src{{=}}"BackInTheSaddle.mid" hidden{{=}}"true"&gt;
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 The '''EMBED''' element must appear inside the '''BODY''' element of the document.
 Users need to have an application that can view the data installed on their computer.
 '''Tip:  ''' In some cases, you may achieve better results by adding the file name extension of the add-on as a query parameter to the file name specified in the [[html/attributes/src (iframe, embed, xml)|'''SRC''']] attribute. For more information, see [http://go.microsoft.com/fwlink/p/?linkid{{=}}204339 Build Flexible, Lightweight XML-Based Images for ASP.NET Using Scalable Vector Graphics].
@@ -27,8 +26,7 @@ Users need to have an application that can view the data installed on their comp
 Because the '''EMBED''' element loads external software programs (also called add-ons or plug-ins), the configuration of the user's software envionment can affect the way Internet Explorer interprets the '''EMBED''' element. For example, if the [[html/attributes/src (iframe, embed, xml)|'''SRC''']] attribute value specifies a file by using a file name extension different from the one typically associated with the add-on loaded by the '''EMBED''' element, Internet Explorer uses the value of the [[html/attributes/type type (a, link, embed)|'''TYPE''']] attribute to determine the add-on to load. As a result, Web developers should specify values for as many attributes as possible, including '''SRC''', '''TYPE''', and [[html/attributes/pluginspage|'''PLUGINSPAGE''']].
 
 As of HTML 4.01, the '''EMBED''' element is deprecated in favor of the '''OBJECT''' element.
-|Import_Notes=
-===Standards information===
+|Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification] (Deprecated)
 
 
@@ -612,15 +610,22 @@ This property is not supported for Metro style apps using JavaScript.
 |Sets or retrieves the width of the  object.
 |}
  
-
 }}
-{{See_Also_Section
-|Topic_clusters=html
+{{Related_Specifications_Section
+|Specifications=
 }}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section}}
+{{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
