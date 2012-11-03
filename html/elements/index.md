@@ -6,7 +6,7 @@
 {{API_Listing
 |Query=[[Category:Markup_Elements]][[Category:HTML]]
 |Use_page_title=No
-|List_all_subpages=Yes
+|List_all_subpages=No
 }}
 {{Notes_Section}}
 {{See_Also_Section}}
