@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The current style used to fill shapes. The style can be a string containing a CSS color, a gradient object, or a pattern object. }}
+{{Summary_Section|The current style used to fill shapes. The style can be a string specifying a CSS color, or a gradient object, or a pattern object.}}
 {{API_Object_Property
 |Property_applies_to=canvas/objects/CanvasRenderingContext2D
 |Read_only=No
@@ -61,7 +61,7 @@ function draw()
 }}
 {{See_Also_Section
 |Manual_links=*<code>[[canvas/objects/CanvasRenderingContext2D|CanvasRenderingContext2D]]</code>
-*/[[tutorials/canvas/Canvas_tutorial/Applying_styles_and_colors]]
+*/[[tutorials/canvas/Canvas_tutorial/Applying_styles_and_colors|Applying Styles and Colors]]
 }}
 {{Topics|DOM}}
 {{External_Attribution
