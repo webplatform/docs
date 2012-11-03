@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Tells a browser to cache any downloaded resource (HTML, CSS, JS, images, etc…) for set amount of time. The possible benefits are faster page loads and offline viewing.}}
 {{API_Object}}
 {{Examples_Section
 |Not_required=No
@@ -187,11 +187,11 @@ The '''ApplicationCache''' object has these properties.
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|DOM}}
+{{Topics|Connectivity, DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
+|Sources=MSDN, HTML5Rocks
 |MDN_link=
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
+|HTML5Rocks_link=http://www.html5rocks.com/en/tutorials/appcache/beginner/
 }}
