@@ -18,27 +18,17 @@
 |Examples={{Single Example
 |Language=JavaScript
 |Code=/*Open Database*/
-var db = null;
 var dbOpenRequest = window.indexedDB.open("BookShop1");
 dbOpenRequest.onsuccess = function (event) {
-    db = dbOpenRequest.result;
-    DAO.version = db.version;
-    var thisDB = db; // Need to create this variable since the variable db is assigned to other things later
-};
-write("Database Opened", db, event);
+    var db = dbOpenRequest.result;
+    try {
+        var transaction = db.transaction(["ObjectStore_BookList"], IDBTransaction.READ_WRITE);
 
-document.write("Opening a new transaction.");
-try {
-    var transaction = db.transaction(["ObjectStore_BookList"], IDBTransaction.READ_WRITE);
-    document.write("Transaction created", transaction);
-
-    // Now that the transaction is created, lets abort it !! 
-    transaction.abort();
-} catch (e) {
-    write("Could not open transaction");
-    writeError(e);
-}
-
+        // Now that the transaction is created, lets abort it !! 
+        transaction.abort();
+    } catch (e) {
+        write("Could not open transaction");
+    }
 };
 |LiveURL=http://axemclion.github.com/trialtool/index.html#example=/IndexedDB/trialtool/moz_indexedDB.html&selected=Abort Transaction&
 }}
@@ -96,4 +86,11 @@ try {
 
 
 
+
 }
+
+
+
+
+
+}}
