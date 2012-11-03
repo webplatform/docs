@@ -29,7 +29,6 @@ If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRES
 The '''clip'''  method creates a new clipping region by calculating the intersection of the current clipping region and the area  that the current path describes, by using the non-zero winding number rule. The new clipping region replaces the current clipping region.
 |Import_Notes====Standards information===
 *[http://www.w3.org/TR/2dcontext/ HTML Canvas 2D Context]
-
 }}
 {{Related_Specifications_Section
 |Specifications=
@@ -42,6 +41,7 @@ The '''clip'''  method creates a new clipping region by calculating the intersec
 }}
 {{See_Also_Section
 |Manual_links=*<code>[[canvas/objects/CanvasRenderingContext2D|CanvasRenderingContext2D]]</code>
+*[[tutorials/canvas/Canvas_tutorial/Compositing|Compositing]]
 }}
 {{Topics|DOM}}
 {{External_Attribution
