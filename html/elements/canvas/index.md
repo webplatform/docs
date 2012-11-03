@@ -54,7 +54,11 @@
 |Safari_mobile_prefixed_supported=Unknown
 |Safari_mobile_prefixed_version=
 }}
-|Notes_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=9+
+|Note=Hardware accelerated
+}}
 }}
 {{See_Also_Section
 |Manual_links=http://docs.webplatform.org/wiki/canvas
