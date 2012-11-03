@@ -84,14 +84,16 @@ Below we show an example of blurs with low values of filterRes. The first exampl
 
 [[Image:SVGFiltersFilterResExample.png|alt=image showing the result of specifying a custom filter effects region]]
 
-===Units for Filter Effects===
-filterUnits
-By default, the unit system that specify the filter effects region (x,y,width,height) for the filter element is relative to the dimensions of the element referencing the filter, or in SVG terms the "objectBoundingBox". When we write <code>x="50%"</code> it means "set the starting x position of the filter region to 50% of the rectangle element we're filtering". But you may specify the units to be used explicitly by setting the <code>filterUnits</code> property. The two alternatives are "objectBoundingBox" (the default which we're just described) or "userSpaceOnUse". userSpaceOnUse sets the filter units and the coordinate system to the canvas of the referencing element, or in SVG terms, the "userSpaceOnUse".
+===Units and Coordinates for Filter Effects===
+====filterUnits====
+By default, the units and coodinate system for the filter effects region (x,y,width,height) of a filter element is measured relative to the element referencing the filter. In SVG terms, this is called the "objectBoundingBox". When we write <code>x="50%"</code> it means "set the starting x position of the filter region at the left side of the referencing element + 50% of the width of the element". 
 
-primitiveUnits
-In addition to the unit system for the filter itself, you may also specify the unit system that the child filter primitives will use. Once again, the choice is between userSpaceOnUse and objectBoundingBox. These effect the coordinates and the values for the filter primitives.
+But you may also specify the units and coordinates by setting the <code>filterUnits</code> property. The two alternatives are "objectBoundingBox" (the default which we're just described) or "userSpaceOnUse". userSpaceOnUse sets the filter units and the coordinate system to the canvas of the referencing element, or in SVG terms, the "userSpaceOnUse".
 
-In the example below, we set the unit systems of both the filter and filter primitives to the four combinations possible for userSpaceOnUse and objectBoundingBox, while achieving the same filter effect. In this example, we use an <code><feFlood></code> primitive to generate a rectangular color field that is offset from its referencing element then we use <code><feMerge></code> to combine it with the original element (the <code>SourceGraphic</code>. 
+====primitiveUnits====
+In addition to the unit system for the filter itself, you may also specify the unit system that the filter's child filter primitives will use. Once again, the choice is between userSpaceOnUse and objectBoundingBox. These effect the 0,0 coordinates and the unit values for the filter primitives i the same way as for filterUnits.
+
+In the example below, we set the unit systems of both the filter and filter primitives to the four combinations possible for userSpaceOnUse and objectBoundingBox, while achieving the same filter effect. Here, we use an <code><[[feFlood]]></code> primitive to generate a rectangular color field that is offset from its referencing element. Then we use <code><[[feMerge]]></code> to combine the feFlood with the original element (the <code>SourceGraphic</code>. 
 
 <syntaxhighlight lang="xml">
 <svg width="600px" height="300px" viewbox="0 0 600 300"
@@ -146,7 +148,7 @@ In the example below, we set the unit systems of both the filter and filter prim
 </svg>​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​
 </syntaxhighlight>
 
-Note: that when we use <code>userSpaceOnUse</code>, we have to calculate our filter and feFlood coordinates offset from the (0,0) of the user space that the <code><rect></code> has been drawn on. 
+Note: that when we use <code>userSpaceOnUse</code>, we calculate our filter and feFlood coordinates offset from the (0,0) of the user space that the <code><rect></code> has been drawn on, using viewbox units. 
 
 [[Image:SVGFilterUnitsExamples.png|alt=image showing four identical filters with different unit systems for filterUnits and primitiveUnits]]
 }}
