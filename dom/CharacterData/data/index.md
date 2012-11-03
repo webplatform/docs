@@ -7,9 +7,9 @@
 {{API_Name|data}}
 {{Summary_Section|Sets or gets the value of a '''TextNode'''.}}
 {{API_Object_Property
-|Property_applies_to=dom/TextNode
+|Property_applies_to=dom/CharacterData
 |Read_only=No
-|Example_object_name=textNode
+|Example_object_name=textualNode
 |Return_value_name=text
 |Javascript_data_type=String
 |Return_value_description=The value of the text node.
