@@ -114,10 +114,12 @@ The W3C Web Accessibility Initiative (WAI) brings together people from industry,
 * [[accessibility article ideas|Accessibility article ideas]]
 * [http://www.w3.org/WAI/EO/wiki/Web_Accessibility_Basics This page originally available at W3C WAI]
 * [http://www.w3.org/WAI/GL/wiki/Techniques/HTML5 Improving accessibility using HTML5 features]
-* [http://www.w3.org/WAI/GL/wiki/Techniques/ARIA Improving accessibility using ARIA features]
+* [http://www.w3.org/WAI/GL/wiki/Techniques/ARIA Improving accessibility using ARIA features] -- please a little explanation of what ARIA *is*
 * [http://www.w3.org/TR/WCAG20-TECHS/ HTML and CSS techniques for passing WCAG conformance criteria]
 * [http://msdn.microsoft.com/en-us/library/windows/apps/hh452681.aspx Making Accessible Windows Store apps using JavaScript and HTML]
-{{Notes_Section}}
+{{Notes_Section
+|Notes=There should be an explanation of what ARIA *is* which is not clear from this page nor the link.  Even to a professional web developer.
+}}
 {{Topics|Accessibility}}
 {{External_Attribution
 |Is_CC-BY-SA=No
