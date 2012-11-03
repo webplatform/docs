@@ -20,7 +20,8 @@ Below is a basic example of an SVG Filter in use showing a gaussian blur applied
         <feGaussianBlur stdDeviation="5"/>
      </filter>
    </defs>
-<rect x="50" y="50" width="100" height="100" fill="blue" stroke="red" filter="url(#gblur)"/>
+<rect x="25" y="50" width="100" height="100" fill="blue" stroke="red"/>         
+<rect x="175" y="50" width="100" height="100" fill="blue" stroke="red" filter="url(#gblur)"/>
 </svg>​​​​​​​​​​​
 </syntaxhighlight>
 
@@ -34,7 +35,29 @@ The <code>filter</code> element may optionally define the position, dimensions, 
 *width: 120%
 *height: 120%
 
-This has the effect that, by default, the output of a filter paints onto the screen with a 10% overflow relative to the input element.
+This has the effect that, by default, the output of a filter paints onto the screen with a 10% overflow relative to the input element. In some cases, such as blur effects, this may be desirable. In other cases, such as lighting effects, this may be undesirable. The below example shows the effect of specifying a filter effects region: the filter effects region clips the output.
+
+<syntaxhighlight lang="xml" highlight="4">
+<svg width="200px" height="200px" viewbox="0 0 200 200 xmlns="http://www.w3.org/2000/svg" version="1.1">
+<title>A basic filter example</title>
+   <defs>
+     <filter id="gblur" x="50%" y="50%" width="60%" height="60%">
+        <feGaussianBlur stdDeviation="5"/>
+     </filter>
+   </defs>
+<rect x="25" y="50" width="100" height="100" fill="blue" stroke="red"/>         
+<rect x="175" y="50" width="100" height="100" fill="blue" stroke="red" filter="url(#gblur)"/>
+</svg>​​​​​​​​​​​
+</syntaxhighlight>
+
+
+<rect x="25" y="50" width="100" height="100" fill="blue" stroke="red"/>         
+         
+<rect x="175" y="50" width="100" height="100" fill="blue" stroke="red" filter="url(#gblur)"/>
+
+</svg>​​​​​​​​​​​​​​​
+
+
 
 
 It is currently (Fall 2012) contemplated that in the future, SVG filters can be referenced via a [CSS Filter] and used to apply advanced effects to HTML elements.
