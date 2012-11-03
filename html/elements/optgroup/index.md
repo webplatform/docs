@@ -1,20 +1,19 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{Markup_Element
 |DOM_interface=dom/HTMLOptGroupElement
 }}
-{{Topics|HTML}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Description=The following example shows how to use the '''OPTGROUP''' element to create groups of items in a drop-down list box.
-|LiveURL=
-|Code=
-&lt;SELECT&gt;
+|Code=&lt;SELECT&gt;
     &lt;OPTGROUP LABEL{{=}}"Alkaline Metals"&gt;
         &lt;OPTION&gt;Lithium (Li)&lt;/OPTION&gt;
         &lt;OPTION&gt;Sodium (Na)&lt;/OPTION&gt;
@@ -26,15 +25,14 @@
         &lt;OPTION&gt;Bromine (Br)&lt;/OPTION&gt;
     &lt;/OPTGROUP&gt;        
 &lt;/SELECT&gt;
-}}}}
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 In [http://go.microsoft.com/fwlink/p/?linkid{{=}}203769 HTML 4.01], all '''OPTGROUP''' elements must be specified directly within a '''SELECT''' element.  Groups may not be nested.
 You can add '''OPTGROUP''' elements only to a '''SELECT''' element located in the same window where the '''OPTGROUP''' elements are created.
 This element is available in HTML as of Microsoft Internet Explorer 6.
-|Import_Notes=
-===Standards information===
+|Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 17.6
 
 
@@ -243,15 +241,22 @@ The '''optGroup''' object has these properties.
 |Retrieves the element's unique number.
 |}
  
-
 }}
-{{See_Also_Section
-|Topic_clusters=html
+{{Related_Specifications_Section
+|Specifications=
 }}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section}}
+{{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
