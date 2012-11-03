@@ -278,7 +278,7 @@ This method must reset the current transform to the identity matrix, and then in
  }
 
 
-[[canvas/tutorial/Canvas_tutorial/Applying_styles_and_colors|&lt;&lt;Previous      ||    ]][[canvas/tutorial/Canvas_tutorial/Compositing|   Next&gt;&gt;]]
+[[tutorials/canvas/Canvas_tutorial/Applying_styles_and_colors|&lt;&lt;Previous      ||    ]][[tutorials/canvas/Canvas_tutorial/Compositing|   Next&gt;&gt;]]
 }}
 {{Notes_Section}}
 {{Compatibility_Section
