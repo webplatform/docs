@@ -23,8 +23,8 @@
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=No
 |Chrome_version=
-|Chrome_prefixed_supported=Yes
-|Chrome_prefixed_version=19
+|Chrome_prefixed_supported=No
+|Chrome_prefixed_version=
 |Firefox_supported=Yes
 |Firefox_version=16
 |Firefox_prefixed_supported=Yes
