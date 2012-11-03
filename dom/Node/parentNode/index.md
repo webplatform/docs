@@ -1,50 +1,59 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
+{{Summary_Section|Retrieves the parent node in the document hierarchy.}}
 {{API_Object_Property
 |Property_applies_to=dom/Node
-|Read_only=
+|Read_only=Yes
+|Example_object_name=node
+|Return_value_name=parentNode
+|Javascript_data_type=DOM Node
+|Return_value_description=The parent node of the node.
 }}
-{{Topics|DOM}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
+|Language=HTML
 |Description=This example assigns the '''parentNode''' of a '''span''' object to a variable.
-|LiveURL=
-|Code=
-&lt;SCRIPT&gt;
-var oParent {{=}} oSpan.parentNode;
-&lt;/SCRIPt&gt;
+|Code=&lt;script&gt;
+var oParent {{=}} document.getElementById("oSpan").parentNode;
+&lt;/script&gt;
 :
-&lt;BODY&gt;
-&lt;SPAN ID{{=}}oSpan&gt;A Span&lt;/SPAN&gt;
-&lt;/BODY&gt;
-}}
-{{Single_Example
+&lt;body&gt;
+&lt;span ID{{=}}"oSpan"&gt;A Span&lt;/span&gt;
+&lt;/body&gt;
+}}{{Single Example
+|Language=JavaScript
 |Description=This example assigns the '''parentNode''' of a node, created with the [[dom/methods/createElement|'''createElement''']] method, to a variable.
-|LiveURL=
-|Code=
-var oNode {{=}} document.createElement("B");
+|Code=var oNode {{=}} document.createElement("B");
 document.body.insertBefore(oNode);
+// This returns document.body.
 var oParent {{=}} oNode.parentNode;
-}}}}
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
-The topmost object returns null as its parent.
-|Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}161725 Document Object Model (DOM) Level 1 Specification], Section 1.2
-
-
+|Notes=The topmost object returns null as its parent.
+}}
+{{Related_Specifications_Section
+|Specifications={{Related Specification
+|Name=DOM Level 3 Core
+|URL=http://www.w3.org/TR/DOM-Level-3-Core/
+|Status=Recommendation
+|Relevant_changes=Section 1.4
+}}
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 *<code>[[html/elements/a|a]]</code>
 *<code>abbr</code>
 *<code>[[html/elements/acronym|acronym]]</code>
@@ -147,10 +156,11 @@ The topmost object returns null as its parent.
 *<code>xmp</code>
 *<code>About the W3C Document Object Model</code>
 }}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
