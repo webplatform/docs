@@ -96,23 +96,22 @@ The '''FileReader''' object has these properties.
 |Not_required=No
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
-|Chrome_version=
+|Chrome_version=6.0
 |Chrome_prefixed_supported=Unknown
 |Chrome_prefixed_version=
 |Firefox_supported=Yes
-|Firefox_version=
+|Firefox_version=3.6
 |Firefox_prefixed_supported=Unknown
 |Firefox_prefixed_version=
 |Internet_explorer_supported=Yes
-|Internet_explorer_version=
+|Internet_explorer_version=10.0
 |Internet_explorer_prefixed_supported=Unknown
 |Internet_explorer_prefixed_version=
 |Opera_supported=Yes
-|Opera_version=
 |Opera_prefixed_supported=Unknown
 |Opera_prefixed_version=
 |Safari_supported=Yes
-|Safari_version=
+|Safari_version=6.0
 |Safari_prefixed_supported=Unknown
 |Safari_prefixed_version=
 }}
