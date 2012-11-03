@@ -47,7 +47,7 @@ alert(js_object.type);
 |Internet_explorer_prefixed_supported=No
 |Internet_explorer_prefixed_version=
 |Opera_supported=Yes
-|Opera_version=10
+|Opera_version=10.5
 |Opera_prefixed_supported=No
 |Opera_prefixed_version=
 |Safari_supported=Yes
