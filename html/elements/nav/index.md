@@ -31,7 +31,6 @@
    &lt;/ul&gt;
   &lt;/nav&gt;
 &lt;/syntaxhighlight&gt;
-
 }}
 }}
 {{Notes_Section
