@@ -5,21 +5,31 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|This IndexedDB specification provides a concrete API to perform advanced key-value data management that is at the heart of most sophisticated query processors. It does so by using transactional databases to store keys and their corresponding values (one or more per key), and providing a means of traversing keys in a deterministic order. This is often implemented through the use of persistent B-tree data structures that are considered efficient for insertion and deletion as well as in-order traversal of very large numbers of data records.}}
+{{Summary_Section|IndexedDB is an API for client-side storage of significant amounts of structured data and for high performance searches on this data using indexes}}
 {{API_Listing
+|Query=indexeddb
 |Use_page_title=No
 |List_all_subpages=Yes
 }}
 {{Notes_Section
-|Usage=indexedDB = window.indexedDB; 
+|Usage=indexedDB = window.indexedDB;
+|Notes=IndexedDB provides separate APIs for synchronous and asynchronous access. The synchronous API is intended to be used only inside of Web Workers but it isn't implemented by any browser yet. The asynchronous API works both within and without Web Workers.
 }}
 {{See_Also_Section
 |External_links=* [http://www.w3.org/TR/IndexedDB/ W3C IndexedDB Specification]
+|Manual_sections=====Storage Limits====
+
+There isn't any limit on an single item size. There may be limits on each IndexedDB database. The constraints and UI on limits may vary:
+
+*For Firefox there is no limit on the IndexedDB database's size, Firefox will just ask the user for permission for blobs bigger than 50 MB. [http://support.mozilla.org/en-US/questions/818987 Reference]
+*For Google Chrome, see the [https://developers.google.com/chrome/whitepapers/storage#temporary reference on temporary storage]
+
 }}
 {{Topics|IndexedDB}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|MDN_link=
+|Sources=MDN
+|MDN_link=https://developer.mozilla.org/en-US/docs/IndexedDB
 |MSDN_link=
 |HTML5Rocks_link=
 }}
