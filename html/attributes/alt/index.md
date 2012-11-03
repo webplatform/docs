@@ -7,7 +7,6 @@
 {{API_Name}}
 {{Summary_Section}}
 {{Markup_Attribute
-|Applies_to=html/elements/input
 |Property_applies_to=dom/HTMLElement
 }}
 {{Examples_Section
