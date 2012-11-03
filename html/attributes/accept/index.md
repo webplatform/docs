@@ -13,7 +13,16 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
+|Description=Indicates that audio files are accepted.
 |Code=<input type="file" accept="audio/*" />
+}}{{Single Example
+|Language=HTML
+|Description=Indicates that video files are accepted.
+|Code=<input type="file" accept="video/*" />
+}}{{Single Example
+|Language=HTML
+|Description=Indicates that image files are accepted.
+|Code=<input type="file" accept="image/*" />
 }}
 }}
 {{Notes_Section
@@ -89,6 +98,7 @@ There is no functionality implemented for this property unless defined by the au
 }}
 {{See_Also_Section
 |Topic_clusters=HTML
+|External_links=* http://www.whatwg.org/specs/web-apps/current-work/multipage/states-of-the-type-attribute.html#attr-input-accept
 |Manual_sections====Related pages (MSDN)===
 *<code>input</code>
 }}
