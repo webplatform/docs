@@ -1,20 +1,19 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
 }}
-{{Topics|HTML}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Description=This example uses the '''COLGROUP''' element to assign specific characteristics to two groups of columns in a table.
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/colgroupEX1.htm
-|Code=
-&lt;html&gt;
+|Code=&lt;html&gt;
 &lt;body&gt;
 &lt;table border{{=}}"2" rules{{=}}"groups"&gt;
     &lt;!-- RULES is set to "groups", which places internal dividing lines around 
@@ -36,12 +35,10 @@ table columns defined by COLGROUP. --&gt;
 &lt;/table&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-}}
-{{Single_Example
+|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/colgroupEX1.htm
+}}{{Single Example
 |Description=When '''COL''' elements are nested inside a '''COLGROUP''' element, the attributes of the '''COL''' elements override the attributes of the '''COLGROUP''' element. In this example, the last column has no formatting even though '''COLGROUP''' spans over all three columns. This happens because the [[html/attributes/span|'''SPAN''']] attribute of the nested '''COL''' element overrides the '''SPAN''' attribute of the '''COLGROUP'''.
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/colgroupEX2.htm
-|Code=
-&lt;html&gt;
+|Code=&lt;html&gt;
 &lt;body&gt;
 &lt;table border{{=}}"2"&gt;
     &lt;colgroup span{{=}}"3" style{{=}}"color: green; background: black"&gt;
@@ -63,18 +60,18 @@ table columns defined by COLGROUP. --&gt;
 &lt;/table&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-}}}}
+|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/colgroupEX2.htm
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 Nested '''COL''' elements override '''COLGROUP''' elements.
 Use the [[html/attributes/span|'''SPAN''']] attribute to specify the number of table columns that the '''COLGROUP''' defines. This attribute has a default value equal to one.
 '''COL''' elements can occur outside of a '''COLGROUP''' element, and these two elements can be used for similar purposes. However, you must use the '''COLGROUP''' element to determine where table internal dividing lines ([[html/attributes/rules|'''rules''']]) should go. This is illustrated in the first example .
 You should avoid using the [[html/attributes/span|'''SPAN''']] attribute inside the '''COLGROUP''' element if there are '''COL''' elements nested within it. This is because the '''SPAN''' attribute that belongs to the nested '''COL''' elements will override the attribute that belongs to the '''COLGROUP''' element. This can cause confusing code and possibly unintended results. This behavior is illustrated in the second example.
 The [[html/elements/table|'''table''']] object and its associated elements have a separate table object model, which uses different methods than the general object model. For more information on the table object model, see Building Tables Dynamically.
 Windows Internet Explorer 8 will only render tables up to 1000 columns. To force Windows Internet Explorer 7 rendering mode, see How Do I Take Advantage of the New Features in Internet Explorer 8.
-|Import_Notes=
-===Standards information===
+|Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 11.2.4
 
 
@@ -542,18 +539,25 @@ This property is not supported for Metro style apps using JavaScript.
 |Sets or retrieves the width of the  object.
 |}
  
-
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 *<code>col</code>
-|Topic_clusters=html
 }}
+{{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
