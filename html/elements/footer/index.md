@@ -1,20 +1,19 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
 }}
-{{Topics|HTML}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Description=The following example defines two footers, one at the top and one at the bottom, with the same content.
-|LiveURL=
-|Code=
-&lt;body&gt;
+|Code=&lt;body&gt;
  &lt;!-- First footer --&gt;
  &lt;footer&gt;&lt;a href{{=}}"../"&gt;Back to index...&lt;/a&gt;&lt;/footer&gt;
  &lt;h1&gt;Lorem ipsum&lt;/h1&gt;
@@ -22,15 +21,14 @@
  &lt;!-- Second footer --&gt;
  &lt;footer&gt;&lt;a href{{=}}"../"&gt;Back to index...&lt;/a&gt;&lt;/footer&gt;
 &lt;/body&gt;
-}}}}
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 Footers don't necessarily have to appear at the end of a section, though they usually do. The '''footer''' element can contain entire sections to represent appendices, indexes, license agreements, and similar content. Footers might also contain '''nav''' elements or contact information for the author or editor inside an '''address''' element. When the nearest ancestor element is the '''body''' element, then the footer applies to the whole document.
 The '''footer''' element is not sectioning content; it does not introduce a new section.
 Windows Internet Explorer 9.  The '''footer''' element is only supported for webpages displayed in IE9 Standards mode. For more information, see Defining Document Compatibility.
-|Import_Notes=
-===Standards information===
+|Import_Notes====Standards information===
 There are no standards that apply here.
 
 ===HTML information===
@@ -246,11 +244,18 @@ This property is not supported for Metro style apps using JavaScript.
 |Retrieves the element's unique number.
 |}
  
-
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 *<code>Reference</code>
 *<code>article</code>
 *<code>aside</code>
@@ -261,12 +266,12 @@ This property is not supported for Metro style apps using JavaScript.
 *<code>mark</code>
 *<code>nav</code>
 *<code>section</code>
-|Topic_clusters=html
 }}
+{{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
