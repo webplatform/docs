@@ -11,14 +11,12 @@
 |Read_only=No
 }}
 {{Examples_Section
-|Not_required=No
+|Not_required=Yes
 |Examples=
 }}
 {{Notes_Section
-|Notes====Remarks===
-You can use the  '''canvas'''  property  to  access the [[canvas/objects/canvas|'''canvas''']] object from functions where you  passed in  only the current [[canvas/objects/CanvasRenderingContext2D|'''CanvasRenderingContext2D''']] object.
-|Import_Notes====Syntax===
-===Standards information===
+|Notes=You can use the  '''canvas'''  property  to  access the [[canvas/objects/canvas|'''canvas''']] object from functions where you  passed in  only the current [[canvas/objects/CanvasRenderingContext2D|'''CanvasRenderingContext2D''']] object.
+|Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}197019 HTML Canvas 2D Context], Section 1
 }}
 {{Related_Specifications_Section
