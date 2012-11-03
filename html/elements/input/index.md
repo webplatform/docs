@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics
-|Content=Incomplete,  Compatibility Incomplete,
+|Content=Incomplete, Compatibility Incomplete
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -39,7 +39,6 @@ The input element behavior varies depending on the value of its [[html/elements/
 * [[html/elements/input/type/tel|type=tel]]
 * '''[[html/elements/input/type/text|type=text]]''' (default if type is not set or empty)
 * [[html/elements/input/type/url|type=url]]
-
 }}
 {{Examples_Section
 |Not_required=No
