@@ -25,4 +25,4 @@
 |HTML5Rocks_link=
 }}
 
-[[Category:SVG]]
+[[Category:Markup Elements]]
