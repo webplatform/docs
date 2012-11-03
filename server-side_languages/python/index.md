@@ -25,4 +25,4 @@ Some of the more widely used Python web frameworks are:
 * [http://flask.pocoo.org/ Flask]
 * [http://wiki.python.org/moin/WebFrameworks more]
 
-[http://www.python.org/dev/peps/pep-0333/ WSGI] is the standard API for Python to talk to web servers and most (but not all) web frameworks support it.
+[http://www.python.org/dev/peps/pep-0333/ WSGI] is the standard API for Python to talk to web servers and most (but not all) web frameworks support it. Understanding high level overview of WSGI interface may aid you in understand the control flow of your web requests when using Python as the backend.
