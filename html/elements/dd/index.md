@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The "dd" tag is used for defining a term("dt"),  in a dictionary/definition list("dl").}}
 {{Markup_Element
 |DOM_interface=dom/HTMLDDElement
 }}
