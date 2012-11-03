@@ -13,7 +13,11 @@ It is very common to see HTML tags like images, iframes or object elements have 
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Code=<img src="smiley.gif" alt="Smiley face" height="42" width="42">
+
+}}
 }}
 {{Notes_Section
 |Notes=This property is an integer value. Although an HTML author can specify the width as a percentage, this property always specifies the width in pixels in C++.
