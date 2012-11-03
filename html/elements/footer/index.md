@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The footer is an HTML5 element that was introduced for modeling the footer sections of real-world documents. The footer element alleviates "div" tag overuse.}}
+{{Summary_Section|The footer is an element that was introduced in HTML5 for modeling the footer sections of real-world documents. The footer element alleviates "div" tag overuse.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
 }}
