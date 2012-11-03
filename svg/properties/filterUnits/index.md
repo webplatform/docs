@@ -24,7 +24,7 @@ If attribute <code>filterUnits</code> is not specified, then the effect is the s
 {{See_Also_Section
 |Manual_sections=
 ===Related pages===
-Please see [[http://docs.webplatform.org/wiki/svg/elements/filter|documentation on the filter element]] for more context and examples on how to use the filterUnits property.
+Please see [[/svg/elements/filter | documentation on the filter element]] for more context and examples on how to use the filterUnits property.
 *<code>[[svg/elements/filter|SVGFilterElement]]</code>
 }}
 {{External_Attribution
