@@ -1,17 +1,27 @@
-{{Page_Title}}
+{{Page_Title|The <body> element}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The <body> element represents the main content of the document.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLBodyElement
+|Content====HTML information===
+{{{!}} class="wikitable"
+{{!}}-
+!Closing Tag
+{{!}}required
+{{!}}-
+!CSS Display
+{{!}}block
+{{!}}}
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=JavaScript
 |Description=This example exposes the '''body''' element in script.
 |Code=var oBody {{=}} document.body;
 }}
@@ -28,15 +38,7 @@ In Internet Explorer 6, When you use the [[html/elements/!DOCTYPE|!DOCTYPE]] de
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 7.5.1
 
 
-===HTML information===
-{{{!}} class="wikitable"
-{{!}}-
-!Closing Tag
-{{!}}required
-{{!}}-
-!CSS Display
-{{!}}block
-{{!}}}
+
 
 
 ===Members===
@@ -713,7 +715,15 @@ This property is not supported for Metro style apps using JavaScript.
  
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=HTML5
+|URL=http://www.w3.org/TR/html5/the-body-element.html
+|Status=W3C Working Draft
+}}{{Related Specification
+|Name=HTML 4.01
+|URL=http://www.w3.org/TR/html401/struct/global.html#edef-BODY
+|Status=W3C Recommendation
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
