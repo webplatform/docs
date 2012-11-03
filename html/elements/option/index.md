@@ -1,46 +1,41 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{Markup_Element
 |DOM_interface=dom/HTMLOptionElement
 }}
-{{Topics|HTML}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Description=This example uses the '''OPTION''' element to create individual items in a drop-down list box.
-|LiveURL=
-|Code=
-&lt;SELECT ID{{=}}"oCars" SIZE{{=}}"1" onchange{{=}}"fnChange()"&gt;
+|Code=&lt;SELECT ID{{=}}"oCars" SIZE{{=}}"1" onchange{{=}}"fnChange()"&gt;
 &lt;OPTION VALUE{{=}}"1"&gt;BMW
 &lt;OPTION VALUE{{=}}"2"&gt;PORSCHE
 &lt;OPTION VALUE{{=}}"3" SELECTED&gt;MERCEDES
 &lt;/SELECT&gt;
 &lt;TEXTAREA ID{{=}}"oData"&gt;&lt;/TEXTAREA&gt;
-}}
-{{Single_Example
+}}{{Single Example
 |Description=This example uses the [[dom/properties/options|'''options''']] collection to append the selected item of the list box in a text area.
-|LiveURL=
-|Code=
-&lt;SCRIPT LANGUAGE{{=}}"JScript"&gt;
+|Code=&lt;SCRIPT LANGUAGE{{=}}"JScript"&gt;
 function fnChange(){
    oData.value+{{=}}oCars.options[oCars.selectedIndex].text + "\n";
 }
 &lt;/SCRIPT&gt;
-}}}}
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 As of Microsoft Internet Explorer 5 and later, the '''OPTION''' elements are part of the [[dom/properties/all|'''all''']] collection. For earlier versions, you can gain access to these elements by applying the [[dom/properties/options|'''options''']] collection to the '''SELECT''' element.
 You can create new '''OPTION''' elements dynamically with the [[dom/methods/createElement|'''document.createElement''']] method, but you cannot change properties until the new element is added to a '''SELECT''' object. Or, you can create fully formed elements by using the [[dom/option|'''Option''']] object, as follows:
  <code> var opt {{=}} new Option( 'Text', 'Value', fDefaultSelected ); </code>
 You can add '''OPTION''' elements only to a '''SELECT''' element that is located in the same window where the '''OPTION''' elements are created.
 Except for [[css/properties/background-color|'''background-color''']] and [[css/properties/color|'''color''']], style settings applied through the [[css/cssom/style|'''style''']] object for the '''option''' element are ignored. In addition, style settings applied directly to individual [[dom/properties/options|'''options''']] override those applied to the containing '''SELECT''' element as a whole.
-|Import_Notes=
-===Standards information===
+|Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 17.6
 
 
@@ -558,18 +553,25 @@ This property is not supported for Metro style apps using JavaScript.
 |Sets or retrieves the value which is returned to the server when the '''form''' control is submitted.
 |}
  
-
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 *<code>[[html/attributes/multiple|multiple]]</code>
-|Topic_clusters=html
 }}
+{{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
