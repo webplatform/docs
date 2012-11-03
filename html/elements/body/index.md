@@ -763,7 +763,7 @@ This property is not supported for Metro style apps using JavaScript.
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=HTML
+|Topic_clusters=Document Structure
 |Manual_sections====Related pages (MSDN)===
 *<code>CSS Enhancements in Internet Explorer 6</code>
 }}
