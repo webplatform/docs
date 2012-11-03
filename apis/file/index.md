@@ -1,9 +1,9 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Missing Relevant Sections, Needs Topics
+|High-level issues=Needs Topics, Missing Relevant Sections
 |Content=Incomplete
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section}}
 {{API_Listing
