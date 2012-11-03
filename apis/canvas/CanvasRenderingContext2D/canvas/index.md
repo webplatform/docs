@@ -29,8 +29,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections====Related pages ===
-*<code>[[canvas/objects/CanvasRenderingContext2D|CanvasRenderingContext2D]]</code>
+|Manual_links=*<code>[[canvas/objects/CanvasRenderingContext2D|CanvasRenderingContext2D]]</code>
 }}
 {{Topics|DOM}}
 {{External_Attribution
