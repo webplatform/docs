@@ -61,6 +61,7 @@ The '''Blob''' object has these properties.
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Feature=Basic Support
 |Chrome_supported=Yes
