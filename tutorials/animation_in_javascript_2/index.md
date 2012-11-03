@@ -1,5 +1,5 @@
+{{Topics|JavaScript}}
 == Introduction ==
- 
 In this [http://www.w3.org/wiki/Web_Standards_Curriculum Web Standards Curriculum] article, I will look at the art of creating animations using JavaScript — animation is often used to add to the user experience, for people using browsers than can support it. Common uses are things such as smoothly expanding and collapsing panels, progress bars, and visual feedback in forms.
  
 As anyone who's seen a cartoon or a flickbook knows, animation is actually done in lots of small steps that make it look like something is moving. Animation is a powerful technique; it's good at grabbing attention. The flaw here is that it grabs attention whether you want it to or not. Animated effects can make a web app feel like a more consistent experience, but it's like hot chilli: don't add too much of it.
@@ -183,4 +183,4 @@ This concludes our look at animating web page functionality using JavaScript - I
 # If <code>setInterval</code> didn't exist, how could you emulate it?
 # How would you make an element fade from fully visible to fully invisible in 20 steps over the course of 1.5 seconds?
 # How would you make an element fade from fully visible to fully invisible ''and then back to visible again'' in 20 steps over the course of 1.5 seconds?
-[[Category:JavaScript]]
+[[Category:Markup Elements]]
