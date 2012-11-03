@@ -1,40 +1,35 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{Markup_Element
 |DOM_interface=dom/HTMLInputElement
 }}
-{{Topics|HTML}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Description=This example uses the '''INPUT type{{=}}text''' element to create an empty text control that can contain 15 characters without requiring the user to scroll to read all of the text.
-|LiveURL=
-|Code=
-&lt;INPUT TYPE{{=}}text VALUE{{=}}"" NAME{{=}}"textbox" SIZE{{=}}15&gt;
-}}
-{{Single_Example
+|Code=&lt;INPUT TYPE{{=}}text VALUE{{=}}"" NAME{{=}}"textbox" SIZE{{=}}15&gt;
+}}{{Single Example
 |Description=This example uses script to detect the content of the text box and display it in a dialog box.
-|LiveURL=
-|Code=
-&lt;SCRIPT&gt;
+|Code=&lt;SCRIPT&gt;
 function detectEntry()
 {
     alert("Your name is " + textbox.value)
 }
 &lt;/SCRIPT&gt;
-}}}}
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 The [[html/attributes/size (control)|'''SIZE''']] attribute sets the number of visible characters in the '''INPUT type{{=}}text''' element. The [[html/attributes/maxLength|'''MAXLENGTH''']] attribute sets the maximum number of characters that can be entered.
 '''Security Warning:  '''Using this object incorrectly can compromise the security of your application. When submitting text through '''INPUT type{{=}}text''' over an intranet or the Internet, validating the text string is recommended. For instance, you might validate the string for a restricted set of known, good values (such as letters and numbers) and ignore the rest. You should review the Security Considerations: Dynamic HTML before continuing.
 '''Note'''  For more  code samples, see [http://go.microsoft.com/fwlink/p/?LinkID{{=}}251128 Form controls part 1] and [http://go.microsoft.com/fwlink/p/?LinkID{{=}}251131 Form controls part 2: validation] on the Windows Internet Explorer sample site.
-|Import_Notes=
-===Standards information===
+|Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 17.4
 
 
@@ -735,21 +730,28 @@ This property is not supported for Metro style apps using JavaScript.
 |Sets or retrieves the calculated width of the object.
 |}
  
-
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 *<code>Reference</code>
 *<code>[[dom/properties/spellcheck|spellcheck]]</code>
 *<code>input</code>
 *<code>textArea</code>
-|Topic_clusters=html, form
 }}
+{{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
