@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Needed
 }}
 {{Standardization_Status}}
@@ -46,7 +46,7 @@ In HTML 4.01, the <!DOCTYPE> declaration refers to a DTD, because HTML 4.01 was 
 {{See_Also_Section
 |Topic_clusters=HTML
 }}
-{{Topics|HTML, DOCTYPE}}
+{{Topics|DOCTYPE, HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
