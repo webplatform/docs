@@ -3,6 +3,7 @@
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
 }}
 {{Standardization_Status|}}
+{{Topics|SVG}}
 {{API_Name}}
 {{Notes_Section
 |Notes=
