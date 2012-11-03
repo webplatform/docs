@@ -1,21 +1,40 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section|Removes a record from the specified Object Store}}
 {{API_Object_Method
-|Parameters={{Method Parameter|Name=key|Data type=any|Description=The key value of the record object to be deleted.|Optional=}}
-|Method_applies_to=apis/indexedDB/IDBObjectStore
-|Example_object_name=object
-|Return_value_name=object
-|Javascript_data_type=DOM Node
-|Return_value_description=
+|Parameters={{Method Parameter
+|Name=key
+|Data type=String
+|Description=Key identifying the record to be deleted
+|Optional=No
 }}
-{{Topics|DOM}}
+|Method_applies_to=apis/indexedDB/IDBObjectStore
+|Example_object_name=objectStore
+|Return_value_name=idbRequest
+|Javascript_data_type=DOM Node
+|Return_value_description=Returns an IDBRequest Object
+}}
+{{Examples_Section
+|Not_required=No
+|Examples={{Single Example
+|Language=JavaScript
+|Code=store = db.createObjectStore("store1", { autoIncrement: true });
+store.put("a"); // Will get key 1
+store.delete(1);
+store.put("b"); // Will get key 2
+store.clear();
+store.put("c"); // Will get key 3
+store.delete(IDBKeyRange.lowerBound(0));
+|LiveURL=http://nparashuram.com/trialtool/index.html#example=/IndexedDB/trialtool/moz_indexedDB.html&selected=Delete%20Data&
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 This method can throw the following [[dom/DOMException|'''DOMException''']] exceptions:
 {| class="wikitable"
 |-
@@ -34,24 +53,28 @@ This method can throw the following [[dom/DOMException|'''DOMException''']] exce
 </dl>
 |The associated transaction is not active.
 |}
- 
-'''Note'''  As of Internet Explorer 10, the [[dom/properties/code|'''code''']] property is deprecated in favor of the [[dom/properties/toString (DOMError)|'''name''']] property, which is preferred for standards compliance and future compatibility.
-|Import_Notes=
-===Syntax===
+|Import_Notes====Syntax===
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?LinkId{{=}}224519 Indexed Database API]
-
-
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 *<code>[[apis/indexedDB/IDBObjectStore|IDBObjectStore]]</code>
 }}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
