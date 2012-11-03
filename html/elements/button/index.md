@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The "button" tag is one of many ways to create buttons on an HTML page. A web developer can also use the "input" tag in conjunction with type="button" or by styling an "a" tag to achieve the same functionality. However, those may be harder and their results may not be as clean.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLButtonElement
 }}
@@ -14,6 +14,7 @@
 |Examples=
 }}
 {{Notes_Section
+|Usage=Internet Explorer historically has had problems with the button element, especially when used in conjunction with type="submit".
 |Notes====Remarks===
 The default value of the [[html/attributes/type (button element)|'''type''']] attribute depends on the current document compatibility mode.  The default value is <code>submit</code>.  In other compatibility modes the default value is <code>button</code>.
 When the '''BUTTON''' element is submitted in a form, the value depends on the current document compatibility mode.
