@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Advances the cursor by the specified number. }}
+{{Summary_Section|Advances the cursor by the specified number.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=count
@@ -15,9 +15,8 @@
 }}
 |Method_applies_to=apis/indexedDB/IDBCursor
 |Example_object_name=cursor
-|Return_value_name=idbCursor
-|Javascript_data_type=DOM Node
-|Return_value_description=Returns an IDBRequest Object. Instead of creating a new IDBRequest object, this method reuses reuses the request originally created when this cursor was created. 
+|Javascript_data_type=void
+|Return_value_description=Instead of creating a new IDBRequest object, this method reuses reuses the request originally created when this cursor was created.
 }}
 {{Examples_Section
 |Not_required=No
@@ -41,7 +40,6 @@ dbOpenRequest.onsuccess = function(event){
         
     };
 };
-
 |LiveURL=http://axemclion.github.com/trialtool/index.html#example=/IndexedDB/trialtool/moz_indexedDB.html&selected=Advance cursor&
 }}
 }}
