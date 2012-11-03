@@ -22,7 +22,7 @@ dbOpenRequest.onsuccess = function(event){
 	// The database is now opened
 	db.close(); // Close the database connection
 };
-|LiveURL=http://axemclion.github.com/trialtool/index.html#example=/IndexedDB/trialtool/moz_indexedDB.html&selected=Close Database&
+|LiveURL=http://axemclion.github.com/trialtool/index.html#example=/IndexedDB/trialtool/moz_indexedDB.html&selected=Close%20Database&
 }}
 }}
 {{Notes_Section
