@@ -3,18 +3,37 @@
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Specify the increment for <code>input</code> with types <code>number</code>, <code>time</code>, or <code>range</code>}}
 {{Markup_Attribute
-|Applies_to=html/elements/input
+|Applies_to=[[dom/HTMLInputElement]]
 |Property_applies_to=dom/HTMLElement
+|Content=When <code>input type="range"</code>, <code>input type="date"</code>, or <code>input type="number"</code> is specified, the default increment from <code>min</code> to <code>max</code> is 1.  Override this default with a value in <code>step</code>.
+
+
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Description=A slider with a  <code>range</code> from 1-12 that increments by 3.
+|Code=<input type="range" min="1" max="24" step="3" />
+}}{{Single Example
+|Language=HTML
+|Description=A <code>form</code> input for a number between 0 and 15 that increments by 3.
+|Code=<input type="number" min="0" max="15" step="3" />​​​​​​​​​​​​​​​​​​​​
+|LiveURL=http://jsfiddle.net/mejarc/YkGZY/2/
+}}{{Single Example
+|Language=HTML
+|Description=Restricting time <code>input</code> to half-hours.
+|Code=<input type="time"  step="1800" />
+|LiveURL=http://jsfiddle.net/mejarc/YkGZY/6/
+}}
 }}
 {{Notes_Section
+|Usage=* when used for <code>input type="time"</code>, value must be in seconds
+
 |Notes====Remarks===
 The following example shows the use of the [[html/attributes/min|'''min''']], [[html/attributes/max (HTMLInputElement)|'''max''']], and '''step''' attributes.
 |Import_Notes====Syntax===
@@ -27,24 +46,24 @@ The following example shows the use of the [[html/attributes/min|'''min''']], [[
 {{Compatibility_Section
 |Not_required=No
 |Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Unknown
-|Chrome_version=
+|Chrome_supported=Yes
+|Chrome_version=16
 |Chrome_prefixed_supported=Unknown
 |Chrome_prefixed_version=
-|Firefox_supported=Unknown
+|Firefox_supported=No
 |Firefox_version=
 |Firefox_prefixed_supported=Unknown
 |Firefox_prefixed_version=
-|Internet_explorer_supported=Unknown
-|Internet_explorer_version=
+|Internet_explorer_supported=Yes
+|Internet_explorer_version=10
 |Internet_explorer_prefixed_supported=Unknown
 |Internet_explorer_prefixed_version=
 |Opera_supported=Yes
-|Opera_version=10.5
+|Opera_version=12.0
 |Opera_prefixed_supported=Unknown
 |Opera_prefixed_version=
 |Safari_supported=Yes
-|Safari_version=4
+|Safari_version=5.1
 |Safari_prefixed_supported=Unknown
 |Safari_prefixed_version=
 }}
@@ -85,6 +104,9 @@ The following example shows the use of the [[html/attributes/min|'''min''']], [[
 |Notes_rows=
 }}
 {{See_Also_Section
+|Topic_clusters=HTML
+|External_links=* http://dev.opera.com/articles/view/new-form-features-in-html5/#input-datetime
+* http://www.quirksmode.org/html5/inputs.html
 |Manual_sections====Related pages (MSDN)===
 *<code>[[dom/HTMLInputElement|HTMLInputElement]]</code>
 *<code>[[html/elements/input/type/range|input type{{=}}range]]</code>
@@ -92,8 +114,8 @@ The following example shows the use of the [[html/attributes/min|'''min''']], [[
 {{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
+|Sources=MDN, MSDN, DevOpera
+|MDN_link=https://developer.mozilla.org/en-US/docs/HTML/Element/Input#Attributes
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
