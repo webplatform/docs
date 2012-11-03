@@ -29,14 +29,15 @@ In Internet Explorer 6, When you use the [[html/elements/!DOCTYPE|!DOCTYPE]] de
 
 
 ===HTML information===
-{| class="wikitable"
-|-
+{{{!}} class="wikitable"
+{{!}}-
 !Closing Tag
-|required
-|-
+{{!}}required
+{{!}}-
 !CSS Display
-|block
-|}
+{{!}}block
+{{!}}}
+
 
 ===Members===
 The '''body''' object has these types of members:
