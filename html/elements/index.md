@@ -33,7 +33,7 @@ This is the list of HTML and related Elements from the past to the present.
 * [[html/elements/head|head]]
 * [[html/elements/title|title]]
 * [[html/elements/base|base]]
-* [[html/elements/isindex|isindex]]
+* [[html/elements/isIndex|isIndex]]
 * [[html/elements/link|link]]
 * [[html/elements/meta|meta]]
 * [[html/elements/style|style]]
@@ -41,7 +41,7 @@ This is the list of HTML and related Elements from the past to the present.
 == Scripting ==
 
 * [[html/elements/script|script]]
-* [[html/elements/noscript|noscript]]
+* [[html/elements/noScript|noscript]]
 
 == Sections ==
 
