@@ -168,8 +168,8 @@ If  you do not specify  the ''dw''  and ''dh''  parameters, they  equal the valu
 |Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[canvas/objects/CanvasRenderingContext2D|CanvasRenderingContext2D]]</code>
+|Manual_links=*<code>[[canvas/objects/CanvasRenderingContext2D|CanvasRenderingContext2D]]</code>
+*[[tutorials/canvas/canvas_tutorial|Canvas tutorial]]
 }}
 {{Topics|DOM}}
 {{External_Attribution
