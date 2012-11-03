@@ -1,21 +1,26 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
-{{API_Name}}
+{{Standardization_Status|W3C Recommendation}}
+{{API_Name|data}}
+{{Summary_Section|Sets or gets the value of a '''TextNode'''.}}
 {{API_Object_Property
-|Property_applies_to=dom/HTMLElement
-|Read_only=
+|Property_applies_to=dom/TextNode
+|Read_only=No
+|Example_object_name=textNode
+|Return_value_name=text
+|Javascript_data_type=String
+|Return_value_description=The value of the text node.
+|Example_value_name=newText
 }}
-{{Topics|DOM}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
+|Language=HTML
 |Description=This example uses the '''data''' property to change the value of a text node.
-|LiveURL=
-|Code=
-&lt;SCRIPT&gt;
+|Code=&lt;script&gt;
 function fnChangeValue(){
    var oNode {{=}} oList.firstChild.childNodes(0);
    var oNewText {{=}} document.createTextNode();
@@ -23,28 +28,36 @@ function fnChangeValue(){
    oNode.replaceNode(oNewText);
    oNode.data {{=}} "New Node Value";
 }
-&lt;/SCRIPT&gt;
-&lt;UL ID {{=}} oList onclick {{=}} "fnChangeValue()"&gt;
-&lt;LI&gt;Start Here
-&lt;/UL&gt;
-}}}}
-{{Notes_Section
-|Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}161725 Document Object Model (DOM) Level 1 Specification], Section 1.2
-
-
+&lt;/script&gt;
+&lt;ul id{{=}}"oList" onclick{{=}}"fnChangeValue()"&gt;
+&lt;li&gt;Start Here&lt;/li&gt;
+&lt;/ul&gt;
+}}
+}}
+{{Notes_Section}}
+{{Related_Specifications_Section
+|Specifications={{Related Specification
+|Name=DOM Level 1
+|URL=http://www.w3.org/TR/REC-DOM-Level-1/
+|Status=Recommendation
+|Relevant_changes=Section 1.2
+}}
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 *<code>[[dom/TextNode|TextNode]]</code>
 }}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
