@@ -67,7 +67,7 @@ Below we show an example of blurs with low values of filterRes. The first exampl
            <feGaussianBlur stdDeviation="5"/>
        </filter>
           
-        <filter id="lowresblurY" filterRes="450 25" x="-50%" y="-50%" width="200%" height="200%">
+        <filter id="lowresblurY" filterRes="425 25" x="-50%" y="-50%" width="200%" height="200%">
            <feGaussianBlur stdDeviation="5"/>
         </filter>
       </defs>
