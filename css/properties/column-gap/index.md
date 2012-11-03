@@ -37,7 +37,16 @@ Negative values are not valid.
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|Description=This example demonstrates how you can eliminate those nasty white-spaces in between your columns in your page for maximum content effect.
+|Code=section.newspaper {
+  column-count: 5;
+  -moz-column-count: 5;
+  column-gap: 0px;
+  -moz-column-gap: 0px;
+}
+}}
 }}
 {{Notes_Section
 |Import_Notes====Syntax===
