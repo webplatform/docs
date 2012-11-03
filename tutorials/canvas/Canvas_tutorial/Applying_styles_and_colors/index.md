@@ -1,10 +1,12 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Flags
 |Content=Not Neutral
 }}
+{{Byline}}
 {{Summary_Section}}
 {{Tutorial
-|Content=In the chapter about [[drawing shapes]] I used only the default line and fill styles. In this chapter we will explore ''all'' the canvas options we have at our disposal to make our drawings a little more attractive.
+|Content=In the chapter about [[tutorials/canvas/Canvas_tutorial/Drawing_shapes|drawing shapes]] I used only the default line and fill styles. In this chapter we will explore ''all'' the canvas options we have at our disposal to make our drawings a little more attractive.
  
 == Colors ==
  
@@ -482,6 +484,7 @@ This example draws a text string with a shadowing effect.
  
 [[canvas/tutorial/Canvas tutorial/Using images|&lt;&lt;Previous      ||    ]][[canvas/tutorial/Canvas tutorial/Transformations|   Next&gt;&gt;]]
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
 |Desktop_rows=
