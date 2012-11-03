@@ -1,6 +1,8 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Flags
 }}
+{{Byline}}
 {{Summary_Section}}
 {{Tutorial
 |Content=Since we're using script to control <code>canvas</code> elements it's also very easy to make (interactive) animations. Unfortunately the canvas element was never designed to be used in this way (unlike Flash) so there are limitations.
@@ -259,8 +261,9 @@ html code. Canvas width and height should match the CanvasXSize, CanvasYSize.
 * [http://arapehlivanian.com/wp-content/uploads/2007/02/canvas.html Flying through a starfield]<br /> Fly through stars, circles or squares.
 * [http://igrapher.com/ iGrapher]<br /> An example of charting stock market data.
 
-[[canvas/tutorial/Canvas tutorial/Compositing|&lt;&lt;Previous      ]]
+[[canvas/tutorial/Canvas_tutorial/Compositing|&lt;&lt;Previous      ]]
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
 |Desktop_rows=
