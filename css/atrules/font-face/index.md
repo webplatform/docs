@@ -50,7 +50,28 @@ Dynamic HTML (DHTML) expressions can be used instead of the preceding value(s). 
 }}
 {{Compatibility_Section
 |Not_required=No
-|Desktop_rows=
+|Desktop_rows={{Compatibility Table Desktop Row
+|Chrome_supported=Yes
+|Chrome_version=4.0
+|Chrome_prefixed_supported=Unknown
+|Chrome_prefixed_version=
+|Firefox_supported=Yes
+|Firefox_version=3.5
+|Firefox_prefixed_supported=Unknown
+|Firefox_prefixed_version=
+|Internet_explorer_supported=Yes
+|Internet_explorer_version=5.5
+|Internet_explorer_prefixed_supported=Unknown
+|Internet_explorer_prefixed_version=
+|Opera_supported=Yes
+|Opera_version=10.0
+|Opera_prefixed_supported=Unknown
+|Opera_prefixed_version=
+|Safari_supported=Yes
+|Safari_version=3.2
+|Safari_prefixed_supported=Unknown
+|Safari_prefixed_version=
+}}
 |Mobile_rows={{Compatibility Table Mobile Row
 |Android_supported=Yes
 |Android_version=2.2
@@ -86,6 +107,10 @@ Dynamic HTML (DHTML) expressions can be used instead of the preceding value(s). 
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows={{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=5.5 - 9.0
+|Note=only supporting EOT fonts
+}}{{Compatibility Notes Row
 |Browser=Android
 |Version=2.2 - 3.0
 |Note=Partial support
