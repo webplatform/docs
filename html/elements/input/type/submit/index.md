@@ -1,21 +1,24 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{Markup_Element
 |DOM_interface=dom/HTMLInputElement
 }}
-{{Topics|HTML}}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 Use the [[html/attributes/value (button element)|'''VALUE''']] attribute to create a button with a display label that cannot be edited by the user. The default label is <code>Submit Query</code>. If the user clicks the '''Submit'''  button to submit the form, and that button has a [[html/attributes/name|'''name''']] attribute specified, that button contributes a name/value pair to the submitted data.
 If the '''INPUT type{{=}}submit''' element is part of a '''FORM''' element, it appears as a button with a dark border, which indicates the user can press ENTER to submit the form.
 When there is more than one '''INPUT type{{=}}submit''' in the same form, pressing enter submits the form using the first '''INPUT type{{=}}submit''', unless another '''INPUT type{{=}}submit''' has focus.  When another '''INPUT type{{=}}submit''' has focus, pressing enter submits the form using that '''INPUT type{{=}}submit'''.
-|Import_Notes=
-===Standards information===
+|Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 17.4
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}221374 HTML5 A vocabulary and associated APIs for HTML and XHTML], Section 4.10.7.1.19
 
@@ -694,20 +697,27 @@ This property is not supported for Metro style apps using JavaScript.
 |Sets or retrieves the calculated width of the object.
 |}
  
-
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 *<code>Reference</code>
 *<code>button</code>
 *<code>input</code>
-|Topic_clusters=html, form
 }}
+{{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
