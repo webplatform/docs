@@ -1,30 +1,28 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
 }}
-{{Topics|HTML}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Description=This example uses the '''ISINDEX''' element to replace the default prompt.
-|LiveURL=
-|Code=
-&lt;ISINDEX PROMPT{{=}}"Enter a keyword to search for in the index"&gt;
-}}}}
+|Code=&lt;ISINDEX PROMPT{{=}}"Enter a keyword to search for in the index"&gt;
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 In HTML 4, this element is deprecated; '''INPUT''' is recommended for use instead. The [[dom/properties/tagName|'''tagName''']] property for '''isIndex''' returns '''input'''.
 The '''ISINDEX''' element belongs in the '''body''' of the document.
 This element is treated as an '''input''' object inside a '''form''' object.  To access the element from script, you must use the [[dom/properties/all|'''all''']] collection of the [[dom/document|'''document''']] object.  For example, the syntax for accessing the [[html/attributes/disabled|'''disabled''']] property of a '''isIndex''' object is:
  <code>document.all.oIsindex.disabled{{=}}false;</code>
-|Import_Notes=
-===Standards information===
+|Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 17.8 (Deprecated)
 
 
@@ -441,15 +439,22 @@ This property is not supported for Metro style apps using JavaScript.
 |Retrieves the element's unique number.
 |}
  
-
 }}
-{{See_Also_Section
-|Topic_clusters=html, deprecated, obsolete
+{{Related_Specifications_Section
+|Specifications=
 }}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section}}
+{{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
