@@ -3,9 +3,9 @@
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|The open method is used to open an IndexedDB database. }}
+{{Summary_Section|The open method is used to open an IndexedDB database.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=name
@@ -22,7 +22,7 @@
 |Example_object_name=indexeddb
 |Return_value_name=indexeddb
 |Javascript_data_type=DOM Node
-|Return_value_description=The open method creates an IDBRequest object and returns it. The IDBRequest object can be use to handle the success or the error events. 
+|Return_value_description=The open method creates an IDBRequest object and returns it. The IDBRequest object can be use to handle the success or the error events.
 }}
 {{Examples_Section
 |Not_required=No
@@ -65,22 +65,38 @@ dbOpenRequest.onerror = function(e){
 }}
 {{Notes_Section
 |Usage=var openRequest = window.indexedDB.open("databaseName", 1);
-
-openRequest.onsuccess = function(){};
-openRequest.onerror = function(){};
-openRequest.onversionchange = function(){};
-openRequest.onblocked = function(){};
-
-|Import_Notes====Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?LinkId{{=}}224519 Indexed Database API]
+|Notes=The open method either creates a database if it does not exist, or opens one, with the specified version number. If no version number is specified, the database is opened with the current version number. If a database is to be created and a version number is not specified, the database is opened with a version 1. 
+|Import_Notes====Standards information===
+*[http://www.w3.org/TR/IndexedDB/#widl-IDBFactory-open-IDBOpenDBRequest-DOMString-name-unsigned-long-long-version Indexed Database API - open Method]
 }}
 {{Related_Specifications_Section
 |Specifications=
 }}
 {{Compatibility_Section
 |Not_required=No
-|Desktop_rows=
+|Desktop_rows={{Compatibility Table Desktop Row
+|Feature=open method
+|Chrome_supported=Yes
+|Chrome_version=24
+|Chrome_prefixed_supported=Yes
+|Chrome_prefixed_version=23
+|Firefox_supported=Yes
+|Firefox_version=16
+|Firefox_prefixed_supported=Yes
+|Firefox_prefixed_version=15
+|Internet_explorer_supported=Yes
+|Internet_explorer_version=10
+|Internet_explorer_prefixed_supported=No
+|Internet_explorer_prefixed_version=
+|Opera_supported=No
+|Opera_version=
+|Opera_prefixed_supported=No
+|Opera_prefixed_version=
+|Safari_supported=No
+|Safari_version=
+|Safari_prefixed_supported=No
+|Safari_prefixed_version=
+}}
 |Mobile_rows=
 |Notes_rows=
 }}
