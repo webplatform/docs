@@ -34,7 +34,7 @@ Throws a DOMException (Data Error) is one of the supplied keys was not a valid k
 |Code=var value1 {{=}} "Alpha";
 var value2 {{=}} "Beta";
 var result {{=}} window.indexedDB.cmp( value1, value2 );
-comsole.log( "Comparison results: " + result );
+console.log( "Comparison results: " + result );
 }}
 }}
 {{Notes_Section
