@@ -18,9 +18,9 @@
 |Specifications=
 }}
 {{See_Also_Section
-|External_links=* [http://remysharp.com/2010/10/08/what-is-a-polyfill/ Remy Sharp - "What is a Polyfill"]
-* [https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-Browser-Polyfills Modernizr's  mighty "HTML5 Cross Browser Polyfills" list
-* [http://html5please.com/#polyfill HTML5 Please's list of HTML5 features usable cross-browser with polyfills
+|External_links=*[http://remysharp.com/2010/10/08/what-is-a-polyfill/ Remy Sharp - "What is a Polyfill"]
+*[https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-Browser-Polyfills Modernizr's  mighty "HTML5 Cross Browser Polyfills" list]
+*[http://html5please.com/#polyfill HTML5 Please's list of HTML5 features usable cross-browser with polyfills]
 }}
 {{Topics|Compatibility, JavaScript, Modernizr}}
 {{External_Attribution
