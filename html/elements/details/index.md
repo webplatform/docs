@@ -5,12 +5,17 @@
 == Example ==
 
 <syntaxhighlight lang="html5">
-<details>
-<summary>Copyright 1999-2011.</summary>
-<p> - by Refsnes Data. All Rights Reserved.</p>
-<p>All content and graphics on this web site are the property of the company Refsnes Data.</p>
+<details open>
+	<p>Foo</p>
+	<p>Bar</p>
+	<p>Peter</p>
 </details>
 </syntaxhighlight>
+
+== Attributes ==
+
+===open===
+If the <code>open</code> attribute is set on the <code>details</code> tag, it will be open when it's rendered.
 
 == Browser support ==
 The <details> tag is currently only supported in Chrome and in Safari on Mac.
