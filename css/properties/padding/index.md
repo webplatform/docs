@@ -1,11 +1,11 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The padding property defines the space between the content box within an element  and its border.}}
 {{CSS Property
 |Applies to=All elements
 |Inherited=No
