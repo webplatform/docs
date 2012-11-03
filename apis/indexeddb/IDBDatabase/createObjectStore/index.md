@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -52,7 +52,20 @@ code: DOMException.INVALID_STATE_ERR (11)
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Code=// the db object was opened in the upgradeNeeded method
+try {
+  var objectStore = db.createObjectStore("ObjectStore_BookList", {
+    "keyPath": "id",
+    "autoIncrement": true
+  });
+  write("Object Store created", objectStore);
+} catch (e) {
+  write("Error occured", e);
+}​
+|LiveURL=http://nparashuram.com/trialtool/index.html#example=/IndexedDB/trialtool/moz_indexedDB.html&selected=#createObjectStore&
+}}
 }}
 {{Notes_Section
 |Import_Notes====Syntax===
