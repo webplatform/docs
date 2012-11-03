@@ -1,3 +1,7 @@
+{{Page_Title}}
+{{Flags}}
+{{Summary_Section}}
+{{Basic Page}}
 == Summary ==
 
 WebGL is a standard maintained by [http://www.khronos.org/webgl/ the Khronos Group] for 3D graphics on the Web. It is based on OpenGL ES 2.0 and can be used through the [[html|HTML5]] [[canvas|Canvas]] element with a Javascript API.
@@ -77,4 +81,11 @@ The criteria for support differ from browser to browser. The details of support 
 
 [[Category:WebGL]]
 
-[[Category:Basic_Pages]]
+{{Notes_Section}}
+{{Topics}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
+}}
