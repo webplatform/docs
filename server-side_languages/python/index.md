@@ -5,6 +5,14 @@
 * Functional programming features
 * Dynamic typing
 
+=== Features ===
+* "Batteries-included" - numerous useful standard libraries included by default
+* Object-Oriented
+* Excellent support for string and lists operations
+* Many web frameworks
+* Many system utility tools and years of traction as server-side scripting language (if you need to do more advanced server-side tasks in the future)
+* Strong community
+
 == Resources ==
 * [http://python.org/doc/ Official Python Documentation]
 * [http://wiki.python.org/moin/BeginnersGuide Python.org's Beginner Guide]
