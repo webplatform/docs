@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Adds the specified arc to the subpath.}}
+{{Summary_Section|Adds the specified arc to the current subpath.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=x
@@ -126,6 +126,7 @@ This method can return one of these values.
 }}
 {{See_Also_Section
 |Manual_links=*<code>[[canvas/objects/CanvasRenderingContext2D|CanvasRenderingContext2D]]</code>
+*[[tutorials/canvas/canvas_tutorial|Canvas tutorial]]
 }}
 {{Topics|DOM}}
 {{External_Attribution
