@@ -1,26 +1,25 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{CSS_Function
-|Content=
-}}
-{{Topics|CSS}}
+{{Summary_Section}}
+{{CSS_Function}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
-|Description=The following code snippet is an example of the '''translateY''' function in use. When applied to a square blue [[html/elements/div|'''div''']] element, it has the effect illustrated in the image. (The light-blue square indicates the original position of the transformed element.)
-|LiveURL=
-|Code=
-div {    
+|Examples={{Single Example
+|Language=CSS
+|Description=The following code snippet is an example of the '''translateY''' function in use. When applied to a square blue [[html/elements/div|'''div''']] element, it will move element down 40px.
+|Code=div {    
   transform: translateY(40px);
 }
-}}}}
+|LiveURL=http://jsfiddle.net/J5rhZ/
+}}
+}}
 {{Notes_Section
-|Import_Notes=
-===Syntax===
+|Import_Notes====Syntax===
 '''translateY'''
 <code>(''
 &lt;translation-value&gt;
@@ -34,20 +33,29 @@ div {
 ===Requirements===
 {| class="wikitable"
 |}
-
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Topic_clusters=Transforms
+|External_links=* [https://developer.mozilla.org/en-US/docs/CSS/transform]
+|Manual_sections====Related pages (MSDN)===
 *<code>Transform Functions</code>
 *<code>[http://go.microsoft.com/fwlink/p/?LinkId{{=}}256246 Mathematical Description of Transform Functions]</code>
 *<code>[http://go.microsoft.com/fwlink/?LinkID{{=}}240163 Hands On: 2D Transforms]</code>
-|Topic_clusters=Transforms
 }}
+{{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
