@@ -1,11 +1,11 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The display CSS property specifies the type of rendering box used for an element. It is also used to completely turn off the display of an element.}}
+{{Summary_Section|In addition to the position property, display property tells the browser how to render the element. It can be used to completely remove the element from the page, or to specify flow and the type of rendering box for an element.}}
 {{CSS Property
 |Applies to=All elements
 |Inherited=No
@@ -162,7 +162,7 @@ In Windows Internet Explorer 7 and earlier, the default value of this property 
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=Generated and Replaced Content, Box Model
+|Topic_clusters=Box Model, Generated and Replaced Content
 |Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
