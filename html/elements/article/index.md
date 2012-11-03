@@ -110,7 +110,7 @@ When '''article''' elements are nested, the inner article should be related to t
 }}
 {{See_Also_Section
 |Topic_clusters=Document Structure
-|Manual_links=[[nav]]
+|Manual_links=[[html/elements/nav]]
 }}
 {{Topics|HTML}}
 {{External_Attribution
