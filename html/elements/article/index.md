@@ -5,7 +5,9 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Defines an article
+
+}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
 |Content="Article" is a new element introduced in HTML5, for the purpose of relieving "div" fatigue and overuse. An '''article''' element might represent a forum post, a magazine or newspaper article, a blog entry, a user-submitted comment, an interactive widget or gadget, or any other independent item of content.
