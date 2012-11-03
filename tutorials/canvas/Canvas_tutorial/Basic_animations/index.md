@@ -261,7 +261,7 @@ html code. Canvas width and height should match the CanvasXSize, CanvasYSize.
 * [http://arapehlivanian.com/wp-content/uploads/2007/02/canvas.html Flying through a starfield]<br /> Fly through stars, circles or squares.
 * [http://igrapher.com/ iGrapher]<br /> An example of charting stock market data.
 
-[[canvas/tutorial/Canvas_tutorial/Compositing|&lt;&lt;Previous      ]]
+[[tutorials/canvas/Canvas_tutorial/Compositing|&lt;&lt;Previous      ]]
 }}
 {{Notes_Section}}
 {{Compatibility_Section
