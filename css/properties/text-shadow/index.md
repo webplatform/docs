@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|By controlling and carefully defining the text-shadow property, the web developer can create cool visual effects, including text drop-shadows and engraved text. }}
+{{Summary_Section|By controlling and carefully defining the text-shadow property, the developer can create cool visual effects, including text drop-shadows and engraved text.}}
 {{CSS Property
 |Initial value=none
 |Applies to=All elements
