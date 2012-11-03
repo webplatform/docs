@@ -18,13 +18,13 @@ If attribute <code>filterUnits</code> is not specified, then the effect is the s
 |Import_Notes=
 ===Syntax===
 ===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}226062 Scalable Vector Graphics: Filter Effects], Section 15.25.1
-
+*[http://www.w3.org/TR/SVG11/filters.html| SVG 1.1 Specification], Section 15.5
 
 }}
 {{See_Also_Section
 |Manual_sections=
-===Related pages (MSDN)===
+===Related pages===
+Please see [[/svg/elements/filter]] for more context and examples on how to use the filterUnits property of the filter element.
 *<code>[[svg/elements/filter|SVGFilterElement]]</code>
 }}
 {{External_Attribution
