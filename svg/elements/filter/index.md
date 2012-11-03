@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|SVG filter effects apply graphics operations such as blurs and color transformations to a source graphic. Filters may be applied to presentational SVG elements as well as on grouping elements like <g>. The <code>filter</code> element specifies the position, dimensions, resolution and units for a filter effect. <code>filter</code>elements typically have multiple child elements that combine together to create the final graphics effects.}}
+{{Summary_Section|SVG filter effects apply graphics operations such as blurs and color transformations to a source graphic. Filters may be applied to presentational SVG elements as well as to grouping elements like <g>. The <code>filter</code> element specifies the position, dimensions, resolution and units for a filter effect. <code>filter</code> elements typically have multiple child elements that specify filter primitives that combine together to create the final graphics effect.}}
 {{Markup_Element
 |DOM_interface=svg/objects/SVGFilterElement
 |Content=An SVG filter applies a graphics effect to an SVG element. In SVG 1.1, the range of available graphics effects includes blurs, convolutions, color curve manipulation, cross-component color transfers, erosion effects, blending, compositing and more.  The <code>filter</code> element declares a filter effect and are usually included in the <code>defs</code> section of an SVG XML document. The filter element contains a set of child elements that specify the individual graphics operations or "filter primitives" that comprise that filter operation. Filter effects are applied to an SVG element by adding a <code>filter</code> property, set to the id of the desired filter element. 
@@ -39,14 +39,14 @@ This has the effect that, by default, the output of a filter paints onto the scr
 
 <syntaxhighlight lang="xml" highlight="4">
 <svg width="200px" height="200px" viewbox="0 0 200 200 xmlns="http://www.w3.org/2000/svg" version="1.1">
-<title>A basic filter example</title>
+<title>An example of a clipped filter region</title>
    <defs>
-     <filter id="gblur" x="50%" y="50%" width="60%" height="60%">
+     <filter id="gblurclipped" x="50%" y="50%" width="60%" height="60%">
         <feGaussianBlur stdDeviation="5"/>
      </filter>
    </defs>
 <rect x="25" y="50" width="100" height="100" fill="blue" stroke="red"/>         
-<rect x="175" y="50" width="100" height="100" fill="blue" stroke="red" filter="url(#gblur)"/>
+<rect x="175" y="50" width="100" height="100" fill="blue" stroke="red" filter="url(#gblurclipped)"/>
 </svg>​​​​​​​​​​​
 </syntaxhighlight>
 
@@ -54,14 +54,14 @@ This has the effect that, by default, the output of a filter paints onto the scr
 [[Image:BasicSVGFilterExampleWithClipRegion.png|alt=image showing the result of specifying a custom filter effects region]]
 
 ===Filter Resolution===
-By default, it's left up to the browser to decide what resolution to use when performing operations on the inputs, but it's possible to explicitly define a resolution for the browser to use. Choosing a filter resolution significantly lower than the display default will result in visible pixelation but filters will execute faster. Choosing a filter resolution significantly higher than the display default can cause slow filter performance. Filter resolution may be separately specified in both the [[svg/properties/filterResX|X]] and [[svg/properties/filterResY|Y]] dimension.
+By default, it's left up to the browser to decide what resolution to use when performing operations on filter inputs, but it's possible to explicitly define a resolution for the browser to use. Choosing a filter resolution significantly lower than the display default will result in visible pixelation but filters will probably execute faster. Choosing a filter resolution significantly higher than the display default can cause slow filter performance. Filter resolution may be separately specified in both the [[svg/properties/filterResX|X]] and [[svg/properties/filterResY|Y]] dimension.
 
-Below we show an example of blurs with low values of FilterRes. The first example shows a FilterRes with a single value which is applied to both the X and Y dimensions. The second example shows a FilterRes with two values, which results in a low resolution blur in just the Y dimension.
+Below we show an example of blurs with low values of FilterRes. The first example shows a filterRes with a single value which is applied to both the X and Y dimensions. The second example shows a filterRes with two values, which results in a low resolution blur in just the Y dimension.
 
 <syntaxhighlight lang="xml">
 <svg width="450px" height="300px" viewbox="0 0 450 300"
      xmlns="http://www.w3.org/2000/svg" version="1.1">
-   <title>Example showing FilterRes</title>
+   <title>Example showing filterRes</title>
       <defs>
         <filter id="lowresblur" filterRes="25" x="-50%" y="-50%" width="200%" height="200%">
            <feGaussianBlur stdDeviation="5"/>
@@ -83,6 +83,72 @@ Below we show an example of blurs with low values of FilterRes. The first exampl
 </syntaxhighlight>
 
 [[Image:SVGFiltersFilterResExample.png|alt=image showing the result of specifying a custom filter effects region]]
+
+===Units for Filter Effects===
+filterUnits
+By default, the unit system that specify the filter effects region (x,y,width,height) for the filter element is relative to the dimensions of the element referencing the filter, or in SVG terms the "objectBoundingBox". When we write <code>x="50%"</code> it means "set the starting x position of the filter region to 50% of the rectangle element we're filtering". But you may specify the units to be used explicitly by setting the <code>filterUnits</code> property. The two alternatives are "objectBoundingBox" (the default which we're just described) or "userSpaceOnUse". userSpaceOnUse sets the filter units and the coordinate system to the canvas of the referencing element, or in SVG terms, the "userSpaceOnUse".
+
+primitiveUnits
+In addition to the unit system for the filter itself, you may also specify the unit system that the child filter primitives will use. Once again, the choice is between userSpaceOnUse and objectBoundingBox. These effect the coordinates and the values for the filter primitives.
+
+In the example below, we set the unit systems of both the filter and filter primitives to the four combinations possible for userSpaceOnUse and objectBoundingBox, while achieving the same filter effect. In this example, we use an <code><feFlood></code> primitive to generate a rectangular color field that is offset from its referencing element then we use <code><feMerge></code> to combine it with the original element (the <code>SourceGraphic</code>. 
+
+<syntaxhighlight lang="xml">
+<svg width="600px" height="300px" viewbox="0 0 600 300"
+     xmlns="http://www.w3.org/2000/svg" version="1.1">
+
+<title>A basic filter example</title>
+   <defs>
+       
+     <filter filterUnits="objectBoundingBox" primitiveUnits="objectBoundingBox" id="BoxBox" x="0%%" y="0%" width="100%" height="100%">
+        <feFlood x="20%" y="20%" width="50%" height="50%" flood-color="green" result="greenbox"/>
+        <feMerge>
+            <feMergeNode in="SourceGraphic"/>
+            <feMergeNode in="greenbox"/>
+         </feMerge>
+     </filter>
+       
+     <filter filterUnits="userSpaceOnUse" primitiveUnits="objectBoundingBox" id="UserBox" x="175" y="50" width="120" height="120">
+        <feFlood x="20%" y="20%" width="50%" height="50%" flood-color="green" result="greenbox"/>
+        <feMerge>
+            <feMergeNode in="SourceGraphic"/>
+            <feMergeNode in="greenbox"/>
+         </feMerge>
+     </filter>
+       
+     <filter filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse" id="BoxUser" x="0%" y="0%" width="100%" height="100%">
+        <feFlood x="349" y="74" width="60" height="60" flood-color="green" result="greenbox"/>
+        <feMerge>
+            <feMergeNode in="SourceGraphic"/>
+            <feMergeNode in="greenbox"/>
+         </feMerge>
+     </filter>
+       
+     <filter filterUnits="userSpaceOnUse" primitiveUnits="userSpaceOnUse" id="UserUser" x="475" y="50" width="120" height="120">
+        <feFlood x="499" y="74" width="60" height="60" flood-color="green" result="greenbox"/>
+        <feMerge>
+            <feMergeNode in="SourceGraphic"/>
+            <feMergeNode in="greenbox"/>
+         </feMerge>
+     </filter>
+
+   </defs>
+
+
+<rect x="25" y="50" width="120" height="120" fill="blue" stroke="red" filter="url(#BoxBox)"/>         
+         
+<rect x="175" y="50" width="120" height="120" fill="red" stroke="blue" filter="url(#UserBox)"/>
+         
+<rect x="325" y="50" width="120" height="120" fill="grey" stroke="black" filter="url(#BoxUser)"/>
+         
+<rect x="475" y="50" width="120" height="120" fill="black" stroke="purple" filter="url(#UserUser)"/>
+
+</svg>​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​
+</syntaxhighlight>
+
+Note: that when we use <code>userSpaceOnUse</code>, we have to calculate our filter and feFlood coordinates offset from the (0,0) of the user space that the <code><rect></code> has been drawn on. 
+
+
 
 It is currently (Fall 2012) contemplated that in the future, SVG filters can be referenced via a [CSS Filter] and used to apply advanced effects to HTML elements.
 }}
