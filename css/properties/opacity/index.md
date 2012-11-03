@@ -1,12 +1,12 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Missing Relevant Sections, Needs Topics, Merge Candidate, Data Not Semantic, Unreviewed Import
+|High-level issues=Merge Candidate, Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 |Editorial notes=This page should be kept, and the data at http://docs.webplatform.org/wiki/css/Properties/opacity merged into it as appropriate.
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The opacity property controls transparency and opacity of an element. Assuming defaults at parent level, an element with an opacity of 1 is completely opaque, whereas and element with an opacity of 0 is completely transparent. The opacity used when rendering an element is the product of its opacity and the opacity of its ancestors.}}
 {{CSS Property
 |Initial value=1
 |Applies to=All elements
