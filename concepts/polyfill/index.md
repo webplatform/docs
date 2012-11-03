@@ -10,7 +10,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
-|Description=Remy Sharp's {https://gist.github.com/350433 localStorage polyfill}. This simulates the Web Storage API so that (typically older) browsers can successfully execute code that depends on it.
+|Description=Remy Sharp's [https://gist.github.com/350433 localStorage polyfill]. This simulates the Web Storage API so that (typically older) browsers can successfully execute code that depends on it.
 }}
 }}
 {{Notes_Section}}
