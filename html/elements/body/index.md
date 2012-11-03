@@ -26,7 +26,7 @@
 |Code=<syntaxhighlight lang="javascript">var oBody = document.body;</syntaxhighlight>
 }}{{Single Example
 |Language=HTML
-|Description=The "'body'" element follows the "'head'" element and is contained by the "'html'" element.
+|Description=The '''body''' element follows the '''head''' element and is contained by the'''html''' element.
 |Code=<syntaxhighlight lang="html5"><html>
 <head></head>
 <body></body>
@@ -706,7 +706,6 @@ This property is not supported for Metro style apps using JavaScript.
 |Sets or gets the color of links in the object that have already been visited.
 |}
  
-
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
