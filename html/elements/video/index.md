@@ -4,7 +4,7 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Video is a new element introduced in HTML5 for embedding videos within a webpage.}}
+{{Summary_Section|The video element allows embedding a video in a document.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLVideoElement
 }}
@@ -147,6 +147,108 @@
 |Safari_mobile_version=3.2
 |Safari_mobile_prefixed_supported=Unknown
 |Safari_mobile_prefixed_version=
+}}{{Compatibility Table Mobile Row
+|Feature=MP4 (H.264 + AAC)
+|Android_supported=Yes
+|Android_version=2.1
+|Android_prefixed_supported=Unknown
+|Android_prefixed_version=
+|Blackberry_supported=Unknown
+|Blackberry_version=
+|Blackberry_prefixed_supported=Unknown
+|Blackberry_prefixed_version=
+|Chrome_mobile_supported=Unknown
+|Chrome_mobile_version=
+|Chrome_mobile_prefixed_supported=Unknown
+|Chrome_mobile_prefixed_version=
+|Firefox_mobile_supported=Unknown
+|Firefox_mobile_version=
+|Firefox_mobile_prefixed_supported=Unknown
+|Firefox_mobile_prefixed_version=
+|IE_mobile_supported=Yes
+|IE_mobile_version=9.0
+|IE_mobile_prefixed_supported=Unknown
+|IE_mobile_prefixed_version=
+|Opera_mobile_supported=Unknown
+|Opera_mobile_version=
+|Opera_mobile_prefixed_supported=Unknown
+|Opera_mobile_prefixed_version=
+|Opera_mini_supported=Unknown
+|Opera_mini_version=
+|Opera_mini_prefixed_supported=Unknown
+|Opera_mini_prefixed_version=
+|Safari_mobile_supported=Yes
+|Safari_mobile_version=3.2
+|Safari_mobile_prefixed_supported=Unknown
+|Safari_mobile_prefixed_version=
+}}{{Compatibility Table Mobile Row
+|Feature=Ogg (Theora + Vorbis)
+|Android_supported=No
+|Android_version=
+|Android_prefixed_supported=Unknown
+|Android_prefixed_version=
+|Blackberry_supported=Unknown
+|Blackberry_version=
+|Blackberry_prefixed_supported=Unknown
+|Blackberry_prefixed_version=
+|Chrome_mobile_supported=Unknown
+|Chrome_mobile_version=
+|Chrome_mobile_prefixed_supported=Unknown
+|Chrome_mobile_prefixed_version=
+|Firefox_mobile_supported=Unknown
+|Firefox_mobile_version=
+|Firefox_mobile_prefixed_supported=Unknown
+|Firefox_mobile_prefixed_version=
+|IE_mobile_supported=No
+|IE_mobile_version=
+|IE_mobile_prefixed_supported=Unknown
+|IE_mobile_prefixed_version=
+|Opera_mobile_supported=Unknown
+|Opera_mobile_version=
+|Opera_mobile_prefixed_supported=Unknown
+|Opera_mobile_prefixed_version=
+|Opera_mini_supported=Unknown
+|Opera_mini_version=
+|Opera_mini_prefixed_supported=Unknown
+|Opera_mini_prefixed_version=
+|Safari_mobile_supported=No
+|Safari_mobile_version=
+|Safari_mobile_prefixed_supported=Unknown
+|Safari_mobile_prefixed_version=
+}}{{Compatibility Table Mobile Row
+|Feature=WebM (VP8 + Vorbis)
+|Android_supported=Yes
+|Android_version=2.3
+|Android_prefixed_supported=Unknown
+|Android_prefixed_version=
+|Blackberry_supported=Unknown
+|Blackberry_version=
+|Blackberry_prefixed_supported=Unknown
+|Blackberry_prefixed_version=
+|Chrome_mobile_supported=Unknown
+|Chrome_mobile_version=
+|Chrome_mobile_prefixed_supported=Unknown
+|Chrome_mobile_prefixed_version=
+|Firefox_mobile_supported=Unknown
+|Firefox_mobile_version=
+|Firefox_mobile_prefixed_supported=Unknown
+|Firefox_mobile_prefixed_version=
+|IE_mobile_supported=No
+|IE_mobile_version=
+|IE_mobile_prefixed_supported=Unknown
+|IE_mobile_prefixed_version=
+|Opera_mobile_supported=Unknown
+|Opera_mobile_version=
+|Opera_mobile_prefixed_supported=Unknown
+|Opera_mobile_prefixed_version=
+|Opera_mini_supported=Unknown
+|Opera_mini_version=
+|Opera_mini_prefixed_supported=Unknown
+|Opera_mini_prefixed_version=
+|Safari_mobile_supported=No
+|Safari_mobile_version=
+|Safari_mobile_prefixed_supported=Unknown
+|Safari_mobile_prefixed_version=
 }}
 |Notes_rows={{Compatibility Notes Row
 |Browser=Internet Explorer
@@ -155,6 +257,10 @@
 }}{{Compatibility Notes Row
 |Browser=Chrome
 |Note=Google has announced that [http://blog.chromium.org/2011/01/html-video-codec-support-in-chrome.html H.264 support will be removed from Google Chrome] in the future.
+}}{{Compatibility Notes Row
+|Browser=Android
+|Version=2.1 - 4.0
+|Note=requires specific handling to run the video element to suport Mpeg-4/H.264
 }}
 }}
 {{See_Also_Section}}
