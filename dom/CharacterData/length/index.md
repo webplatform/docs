@@ -4,7 +4,7 @@
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
+{{API_Name|length}}
 {{Summary_Section|Gets the number of characters in a textual node.}}
 {{API_Object_Property
 |Property_applies_to=dom/CharacterData
