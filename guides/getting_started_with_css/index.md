@@ -289,11 +289,9 @@ The first question you'll be asking is "why on earth do I need another way to ap
 |Not_required=No
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
-|Chrome_version=.2
 |Chrome_prefixed_supported=Unknown
 |Chrome_prefixed_version=
 |Firefox_supported=Yes
-|Firefox_version=.8
 |Firefox_prefixed_supported=Unknown
 |Firefox_prefixed_version=
 |Internet_explorer_supported=Yes
@@ -303,7 +301,6 @@ The first question you'll be asking is "why on earth do I need another way to ap
 |Opera_prefixed_supported=Unknown
 |Opera_prefixed_version=
 |Safari_supported=Yes
-|Safari_version=1
 |Safari_prefixed_supported=Unknown
 |Safari_prefixed_version=
 }}
@@ -328,7 +325,6 @@ The first question you'll be asking is "why on earth do I need another way to ap
 |IE_mobile_prefixed_supported=Unknown
 |IE_mobile_prefixed_version=
 |Opera_mobile_supported=Yes
-|Opera_mobile_version=8
 |Opera_mobile_prefixed_supported=Unknown
 |Opera_mobile_prefixed_version=
 |Opera_mini_supported=Yes
