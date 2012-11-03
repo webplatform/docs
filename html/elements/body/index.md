@@ -8,9 +8,7 @@
 {{Summary_Section|The <code><body></code> element represents the main content of the document.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLBodyElement
-|Content= <code><div></code>
-
-=== HTML information ===
+|Content==== HTML information ===
 
 {{{!}} class="wikitable"
 {{!}}-
