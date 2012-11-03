@@ -1,4 +1,6 @@
+{{Page_Title}}
 {{Flags}}
+{{Byline}}
 {{Summary_Section}}
 {{Tutorial
 |Content=In all of our previous examples, shapes were always drawn one on top of the other. This is more than adequate for most situations. This, for instance, limits in what order composite shapes are built up. We can however change this behaviour by setting the <code>globalCompositeOperation</code> property.
@@ -149,8 +151,9 @@ Everything that's drawn after creating the clipping path will only appear inside
    ctx.restore();
  }
 
-[[canvas/tutorial/Canvas tutorial/Transformations|&lt;&lt;Previous      ||    ]][[canvas/tutorial/Canvas tutorial/Basic animations|   Next&gt;&gt;]]
+[[canvas/tutorial/Canvas_tutorial/Transformations|&lt;&lt;Previous      ||    ]][[canvas/tutorial/Canvas_tutorial/Basic_animations|   Next&gt;&gt;]]
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
 |Desktop_rows=
