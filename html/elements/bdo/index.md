@@ -1,36 +1,35 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
 }}
-{{Topics|HTML}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Description=This example uses the '''BDO''' element to correct the reading order of a block of text.
 
 The following string includes text written in the left-to-right order of the English language and the right-to-left order of Hebrew: This fragment is in English, WERBEH NI SI TNEMGARF SIHT.
 
 Assume that the right-to-left text (WERBEH NI SI TNEMGARF SIHT.) already has been inverted, so that it displays in the correct direction. If you subsequently apply the Unicode bidirectional to the text, the text inverts a second time and incorrectly displays as left-to-right instead of right-to-left.
-|LiveURL=The solution is to override the bidirectional algorithm and put the block of text in the correct reading order inside a '''BDO''' element whose [[html/attributes/dir|'''DIR''']] attribute is set to '''ltr'''.
-|Code=
-&lt;BDO DIR{{=}}"ltr"&gt;This fragment is in English, 
+|Code=&lt;BDO DIR{{=}}"ltr"&gt;This fragment is in English, 
     WERBEH NI SI TNEMGARF SIHT.&lt;/BDO&gt;
-}}}}
+|LiveURL=The solution is to override the bidirectional algorithm and put the block of text in the correct reading order inside a '''BDO''' element whose [[html/attributes/dir|'''DIR''']] attribute is set to '''ltr'''.
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 The '''BDO''' element can be used to control the reading order of a block of text.
 The Unicode bidirectional algorithm automatically reverses embedded character sequences according to their inherent direction. For example, the base direction of an English document is left-to-right (ltr). If portions of a paragraph within this document contain a language with the right-to-left (rtl) reading order, you can reverse the direction of that language by applying the bidirectional algorithm.
 The bidirectional algorithm and the [[html/attributes/dir|'''DIR''']] attribute generally suffice for embedded direction changes. However, incorrect presentations can occur when you expose formatted text to the bidirectional algorithm. For example, a paragraph containing English and Hebrew that is formatted for e-mail could be incorrectly inverted by the bidirectional algorithm. Because the reading order of the Hebrew text was inverted once for the e-mail, exposing it to the bidirectional algorithm would invert the words a second time.
 The '''BDO''' element turns off the algorithm and controls the reading order. The [[html/attributes/dir|'''DIR''']] attribute is required when you use the '''BDO''' element.
 This element is available in HTML and script as of Microsoft Internet Explorer 5.
-|Import_Notes=
-===Standards information===
+|Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 8.2.4
 
 
@@ -638,18 +637,25 @@ The '''bdo''' object has these properties.
 |Retrieves the element's unique number.
 |}
  
-
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 *<code>[[css/properties/direction|direction]]</code>
-|Topic_clusters=html
 }}
+{{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
