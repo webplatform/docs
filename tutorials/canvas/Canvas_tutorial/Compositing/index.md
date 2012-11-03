@@ -151,7 +151,7 @@ Everything that's drawn after creating the clipping path will only appear inside
    ctx.restore();
  }
 
-[[canvas/tutorial/Canvas_tutorial/Transformations|&lt;&lt;Previous      ||    ]][[canvas/tutorial/Canvas_tutorial/Basic_animations|   Next&gt;&gt;]]
+[[tutorials/canvas/Canvas_tutorial/Transformations|&lt;&lt;Previous      ||    ]][[tutorials/canvas/Canvas_tutorial/Basic_animations|   Next&gt;&gt;]]
 }}
 {{Notes_Section}}
 {{Compatibility_Section
