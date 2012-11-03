@@ -1,34 +1,33 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{Markup_Element
 |DOM_interface=dom/HTMLLabelElement
 }}
-{{Topics|HTML}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Description=This example uses the '''LABEL''' element and the [[html/attributes/accessKey|'''ACCESSKEY''']] attribute to set focus on a text box.
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/accesskey.htm
-|Code=
-&lt;LABEL FOR{{=}}"oCtrlID" ACCESSKEY{{=}}"1"&gt;
+|Code=&lt;LABEL FOR{{=}}"oCtrlID" ACCESSKEY{{=}}"1"&gt;
     #&lt;SPAN style{{=}}"text-decoration:underline;"&gt;1&lt;/SPAN&gt;: Press Alt+1 to set focus to textbox
 &lt;/LABEL&gt;
 &lt;INPUT TYPE{{=}}"text" NAME{{=}}"TXT1" VALUE{{=}}"binding sample 1" 
        SIZE{{=}}"20" TABINDEX{{=}}"1" ID{{=}}"oCtrlID"&gt;
-}}}}
+|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/accesskey.htm
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 To bind a '''LABEL''' to another control, set the [[html/attributes/dom/for|'''FOR''']] attribute of the '''LABEL''' element equal to the [[html/attributes/id|'''ID''']] of the control. Binding a '''LABEL''' to the [[html/attributes/name|'''NAME''']] attribute of the control has no effect. However, to submit a form, you must specify a '''NAME''' on the control to which the '''LABEL''' element is being bound.
 There are two ways to underline the designated access key. The rich text support in the '''LABEL''' element makes it possible to wrap the '''U''' element around the character in the label text specified by the [[html/attributes/accessKey|'''ACCESSKEY''']] attribute. If you prefer to use cascading style sheets (CSS) to apply style formatting, enclose the designated character in a '''SPAN''' and set the style to <code>"text-decoration: underline"</code>.
 If the user clicks the '''LABEL''', the [[dom/events/click|'''onclick''']] event fires on the '''LABEL''' and then on the control specified by the [[html/attributes/dom/for|'''htmlFor''']] property. Pressing the access key for the '''LABEL''' sets the focus but does not fire the '''onclick''' event.
 Labels cannot be nested.
-|Import_Notes=
-===Standards information===
+|Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 17.9.1
 
 
@@ -772,15 +771,22 @@ This property is not supported for Metro style apps using JavaScript.
 |Retrieves the element's unique number.
 |}
  
-
 }}
-{{See_Also_Section
-|Topic_clusters=html
+{{Related_Specifications_Section
+|Specifications=
 }}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section}}
+{{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
