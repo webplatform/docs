@@ -18,6 +18,7 @@
 }}
 }}
 {{Notes_Section
+|Usage=When using the '''IMG''' element to display a static image, specify the URL of the image file with the [[html/attributes/src (input, img)|'''SRC''']] attribute.  When using the '''IMG''' element to display a video clip or  VRML world, specify the URL with the '''DYNSRC''' attribute.
 |Notes====Remarks===
 This element does not fire the [[dom/events/focus|'''onfocus''']] event when it receives the input focus, unless it has been associated with a '''MAP''' element.
 The following image and video file formats are supported:
@@ -29,13 +30,13 @@ The following image and video file formats are supported:
 *.mov—Apple QuickTime Movie (MOV)
 *.mpg, .mpeg—Motion Picture Experts Group (MPEG)
 *.png—Portable Network Graphics (PNG)
-*.wmf—Windows Metafile (WMF)
+*.wmf—Windows Metafile (WMF
 
-When using the '''IMG''' element to display a static image, specify the URL of the image file with the [[html/attributes/src (iframe, embed, xml)|'''SRC''']] attribute.  When using the '''IMG''' element to display a video clip or  VRML world, specify the URL with the '''DYNSRC''' attribute.
-Windows Internet Explorer 8 and later. In IE8 Standards mode, the [[html/attributes/title|'''title''']] attribute is preferred over the [[html/attributes/alt|'''alt''']] attribute when specified as a pop-up tooltip for an '''img''' element. In addition, the value of the [[html/attributes/longDesc|'''longDesc''']] attribute depends on the current document compatibility mode.
+Windows Internet Explorer 8 and later: in IE8 Standards mode, the [[html/attributes/title|'''title''']] attribute is preferred over the [[html/attributes/alt|'''alt''']] attribute when specified as a pop-up tooltip for an '''img''' element. In addition, the value of the [[html/attributes/longDesc|'''longDesc''']] attribute depends on the current document compatibility mode.
+
 The X Bitmap (XBM) file format is no longer supported as of Microsoft Internet Explorer 6 for Windows XP Service Pack 2 (SP2).
 
-Windows Internet Explorer 9. Setting the [[dom/properties/className|'''CLASS''']] attribute of an image to <code>msPinSite</code> enables the user to drag the image to the Windows taskbar to pin the site. For more information, see Introduction to Pinned Sites.
+Windows Internet Explorer 9: setting the [[dom/properties/className|'''CLASS''']] attribute of an image to <code>msPinSite</code> enables the user to drag the image to the Windows taskbar to pin the site. For more information, see Introduction to Pinned Sites.
 |Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}196991 Document Object Model (DOM) Level 2 HTML Specification], Section 1.6.5
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 13.2
