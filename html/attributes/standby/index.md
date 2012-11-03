@@ -7,7 +7,7 @@
 {{API_Name}}
 {{Summary_Section|A message for the browser to show while an <code>object</code>'s implementation and data load.}}
 {{Markup_Attribute
-|Applies_to=dom/HTMLElement/object
+|Applies_to=[[dom/HTMLElement/object]]
 |Property_applies_to=dom/HTMLElement
 |Content=A message for the browser to show while an <code>object</code>'s implementation and data load.
 }}
