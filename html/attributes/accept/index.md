@@ -5,9 +5,9 @@
 }}
 {{Standardization_Status|De Facto Standard}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Restrict the kinds of data uploaded by <code>input type="file"</code> to certain types.}}
 {{Markup_Attribute
-|Applies_to=http://docs.webplatform.org/wiki/html/elements/input
+|Applies_to=[[dom/HTMLInputElement|HTMLInputElement]]
 |Property_applies_to=dom/HTMLElement
 }}
 {{Examples_Section
@@ -37,7 +37,6 @@ The information from the list can be used to filter out nonconforming files when
 Examples of content types include "text/html", "image/png", "image/gif", "video/mpeg", "audio/basic", "text/tcl", "text/javascript", and "text/vbscript". For the current list of registered MIME types, see [http://go.microsoft.com/fwlink/p/?linkid{{=}}203647 MIME Media Types].
 There is no functionality implemented for this property unless defined by the author.
 '''accept''' was introduced in Microsoft Internet Explorer 6
-|Import_Notes====Syntax===
 }}
 {{Related_Specifications_Section
 |Specifications=
