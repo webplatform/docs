@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Retrieves the prefix of the fully qualified XML declaration for a node.}}
+{{Summary_Section|Sets or retrieves the prefix of the fully qualified XML declaration for a node.}}
 {{API_Object_Property
 |Property_applies_to=dom/Node
 |Read_only=No
