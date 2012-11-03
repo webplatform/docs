@@ -22,7 +22,9 @@
 |Example_object_name=indexeddb
 |Return_value_name=dbOpenRequest
 |Javascript_data_type=DOM Node
-|Return_value_description=The open method creates an IDBRequest object and returns it. The IDBRequest object can be use to handle the success or the error events.
+|Return_value_description=[[apis/indexedDB/IDBOpenRequest|'''IDBOpenRequest''']]
+
+A [[apis/indexedDB/IDBOpenRequest|'''IDBOpenRequest''']] request object that fires events to indicate the result of the request.
 }}
 {{Examples_Section
 |Not_required=No
