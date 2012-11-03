@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Restores this context to its most recently saved state.}}
+{{Summary_Section|Restores this context to a saved state.}}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=canvas/objects/CanvasRenderingContext2D
