@@ -28,7 +28,6 @@ function fnChangeText(){
 }}
 {{Notes_Section
 |Notes=Use the [[dom/methods/createTextNode|'''createTextNode''']] method to create a '''TextNode''' object. After you create the '''TextNode''', you can add to it using the [[dom/methods/appendChild|'''appendChild''']], [[dom/methods/replaceNode|'''replaceNode''']], or [[dom/methods/insertBefore|'''insertBefore''']] methods.
-This object is available in script as of Microsoft Internet Explorer 5.
 |Import_Notes=====MSDN Properties====
 The '''TextNode''' object has these properties.
 {{{!}} class="wikitable"
@@ -38,54 +37,35 @@ The '''TextNode''' object has these properties.
 {{!}}-
 {{!}}[[dom/properties/constructor|'''constructor''']]
 {{!}}Returns a reference to the constructor of an object.
-{{!}}-
-{{!}}[[dom/properties/data (TextNode)|'''data''']]
-{{!}}Sets or gets the value of a '''TextNode''' object.
-{{!}}-
-{{!}}[[dom/properties/length (TextNode)|'''length''']]
-{{!}}Gets the number of characters in a '''TextNode''' object.
-{{!}}-
-{{!}}[[dom/properties/localName|'''localName''']]
-{{!}}Retrieves the local name of the fully qualified XML declaration for a node.
-{{!}}-
-{{!}}[[dom/properties/namespaceURI|'''namespaceURI''']]
-{{!}}Retrieves the namespace URI of the fully qualified XML declaration for a node.
-{{!}}-
-{{!}}[[dom/properties/nextSibling|'''nextSibling''']]
-{{!}}Retrieves a reference to the next child of the parent for the object.
-{{!}}-
-{{!}}[[dom/properties/nodeName|'''nodeName''']]
-{{!}}Gets the name of a particular type of node.
-{{!}}-
-{{!}}[[dom/properties/nodeType|'''nodeType''']]
-{{!}}Retrieves the type of the requested node.
-{{!}}-
-{{!}}[[dom/properties/nodeValue|'''nodeValue''']]
-{{!}}Gets or sets the value of a node.
-{{!}}-
-{{!}}[[dom/properties/parentNode|'''parentNode''']]
-{{!}}Retrieves the parent object in the document hierarchy.
-{{!}}-
-{{!}}[[dom/properties/prefix|'''prefix''']]
-{{!}}Retrieves the local name of the fully qualified XML declaration for a node.
-{{!}}-
-{{!}}[[dom/properties/previousSibling|'''previousSibling''']]
-{{!}}Gets a reference to the previous child of the parent for the object.
-{{!}}-
-{{!}}[[dom/properties/textContent|'''textContent''']]
-{{!}}Sets or retrieves the text content of an object and any child objects.
-{{!}}-
-{{!}}[[dom/properties/wholeText|'''wholeText''']]
-{{!}}Retrieves the text of the current object.
 {{!}}}
- 
 }}
 {{Related_Specifications_Section
 |Specifications=
 }}
 {{Compatibility_Section
 |Not_required=No
-|Desktop_rows=
+|Desktop_rows={{Compatibility Table Desktop Row
+|Chrome_supported=Unknown
+|Chrome_version=
+|Chrome_prefixed_supported=Unknown
+|Chrome_prefixed_version=
+|Firefox_supported=Unknown
+|Firefox_version=
+|Firefox_prefixed_supported=Unknown
+|Firefox_prefixed_version=
+|Internet_explorer_supported=Yes
+|Internet_explorer_version=5
+|Internet_explorer_prefixed_supported=Unknown
+|Internet_explorer_prefixed_version=
+|Opera_supported=Unknown
+|Opera_version=
+|Opera_prefixed_supported=Unknown
+|Opera_prefixed_version=
+|Safari_supported=Unknown
+|Safari_version=
+|Safari_prefixed_supported=Unknown
+|Safari_prefixed_version=
+}}
 |Mobile_rows=
 |Notes_rows=
 }}
