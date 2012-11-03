@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Using the File API added to the DOM in HTML5, it's now possible for web content to ask the user to select local files, then read the contents of those files. This selection can be done by either using an HTML <input> element, or by drag and drop.}}
+{{Summary_Section|The File API allows a developer to use javascript to access the contents and local path of the file uploaded via the input file widget. This enables the developer to build a javascript frontend that allows the website to show a preview of the file uploaded. By using the File API, the developer can also enable a user to upload files via drag-and-drop. Prior to the File API, functionalities like these can only be accomplished via Flash or other plugins.}}
 {{API_Listing
 |Use_page_title=No
 |List_all_subpages=Yes
