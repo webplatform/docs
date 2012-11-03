@@ -1,6 +1,5 @@
 {{Page_Title|Your first look at JavaScript}}
-{{Flags
-}}
+{{Flags}}
 {{Byline}}
 {{Summary_Section|Now it's time to get your hands dirty. This article provides a basic introduction to basic coding with JavaScript.}}
 {{Tutorial
@@ -96,7 +95,7 @@ The development benefits of this are however diminished by the effect this has o
  
 All of this means that the display of your web site is slowed down until all of these steps happen for all the scripts you include. This can become annoying for your visitors.
  
-One way around this is to use a backend script to create a single file from all the files you use. That way you have the benefit of keeping maintenance easy while at the same time cutting down on delays to your web page display. There are several scripts like this on the web — one of them is written in PHP and [http://http//www.ejeliot.com/blog/73 available from Ed Eliot].
+One way around this is to use a backend script to create a single file from all the files you use. That way you have the benefit of keeping maintenance easy while at the same time cutting down on delays to your web page display. There are several scripts like this on the web — one of them is written in PHP and [http://http://www.ejeliot.com/blog/73 available from Ed Eliot].
  
 The delay in display also defines where you want to put your JavaScript in the document.
 
