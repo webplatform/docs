@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Background-repeat defines if and how a background images will be repeated after they have been sized and positioned}}
+{{Summary_Section|Background-repeat defines if and how background images will be repeated after they have been sized and positioned}}
 {{CSS Property
 |Initial value=repeat
 |Applies to=All elements
