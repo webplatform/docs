@@ -10,8 +10,10 @@
 |DOM_interface=svg/objects/SVGFilterElement
 |Content=An SVG filter applies a graphics effect to an SVG element. In SVG 1.1, the range of available graphics effects includes blurs, convolutions, color curve manipulation, cross-component color transfers, erosion effects, blending, compositing and more.  The <code>filter</code> element declares a filter effect. Filter elements are generally included in the <code>defs</code> section of an SVG XML document or fragment. They generally contain a set of child elements that specify the individual graphics operations or "filter primitives" that comprise that filter operation. They are applied to an SVG element by adding the optional <code>filter</code> property, set to the id of the desired filter element. 
 
+Below is a basic example of an SVG Filter in use showing a gaussian blur applied to an SVG rectangle element. In this example, we first declare a filter whose id is'gblur". Within this filter element, we declare a filter primitive [feGausssianBlur] with a standard deviation of 5. After closing our tags, we draw a rectangle with the SVG <code>rect</code> element and apply the blur filter to it, by adding a filter property that references it.
+
 <syntaxhighlight lang="xml">
-<svg width="200px" height="300px" viewbox="0 0 300 300 xmlns="http://www.w3.org/2000/svg" version="1.1">
+<svg width="200px" height="200px" viewbox="0 0 200 200 xmlns="http://www.w3.org/2000/svg" version="1.1">
 <title>A basic filter example</title>
    <defs>
      <filter id="gblur">
@@ -23,7 +25,14 @@
 </syntaxhighlight>
 
 
-The <code>filter</code> element defines the position, dimensions, resolution, and units for a graphics effect. 
+The <code>filter</code> element may optionally define the position, dimensions, resolution, and units for the output of a filter effect. The position and dimensions of a filter may be specified using the following properties: x, y, width, height. The default values for these properties are *not intuitive* and are:
+
+* x: -10%
+* y: -10%
+*width: 120%
+*height: 120%
+
+This has the effect that, by default, the output of a filter paints onto the screen with a 10% overflow relative to the input element.
 
 
 It is currently (Fall 2012) contemplated that in the future, SVG filters can be referenced via a [CSS Filter] and used to apply advanced effects to HTML elements.
