@@ -1,6 +1,6 @@
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic,rt
+|Content=Incomplete, Compatibility Incomplete, Examples Best Practices, Cleanup
 }}
 {{Standardization_Status|}}
 {{API_Name}}
@@ -24,7 +24,7 @@ If attribute <code>filterUnits</code> is not specified, then the effect is the s
 {{See_Also_Section
 |Manual_sections=
 ===Related pages===
-Please see [[http://docs.webplatform.org/svg/elements/filter]] for more context and examples on how to use the filterUnits property of the filter element.
+Please see [[http://docs.webplatform.org/svg/elements/filter] documentation on the filter element]] for more context and examples on how to use the filterUnits property.
 *<code>[[svg/elements/filter|SVGFilterElement]]</code>
 }}
 {{External_Attribution
