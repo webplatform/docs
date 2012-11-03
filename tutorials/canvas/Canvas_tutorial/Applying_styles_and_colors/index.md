@@ -482,7 +482,7 @@ This example draws a text string with a shadowing effect.
 
 </pre>
  
-[[canvas/tutorial/Canvas tutorial/Using images|&lt;&lt;Previous      ||    ]][[canvas/tutorial/Canvas tutorial/Transformations|   Next&gt;&gt;]]
+[[canvas/tutorial/Canvas_tutorial/Using_images|&lt;&lt;Previous      ||    ]][[canvas/tutorial/Canvas_tutorial/Transformations|   Next&gt;&gt;]]
 }}
 {{Notes_Section}}
 {{Compatibility_Section
