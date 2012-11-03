@@ -15,10 +15,38 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Code=/*Open Database*/
+
+var db = null;
+  var dbOpenRequest = window.indexedDB.open("BookShop1");
+  dbOpenRequest.onsuccess = function(event){
+    db = dbOpenRequest.result;
+    DAO.version = db.version;
+    var thisDB = db; // Need to create this variable since the variable db is assigned to other things later
+            };
+    write("Database Opened", db, event);
+    
+    document.write("Opening a new transaction.");
+    try {
+      var transaction = db.transaction(["ObjectStore_BookList"], IDBTransaction.READ_WRITE);
+      document.write("Transaction created", transaction);
+
+// Now that the transaction is created, lets abort it !! 
+transaction.abort();  
+    } catch (e) {
+      write("Could not open transaction");
+      writeError(e);
+    }
+    
+  };
+  
+|LiveURL=http://axemclion.github.com/trialtool/index.html#example=/IndexedDB/trialtool/moz_indexedDB.html&selected=Abort Transaction&
+}}
 }}
 {{Notes_Section
-|Usage=If the transaction is finished, a DOMException of type InvalidStateError is thrown. Otherwise, the steps to abort a transactions are run. 
+|Usage=If the transaction is finished, a DOMException of type InvalidStateError is thrown. Otherwise, the steps to abort a transactions are run.
 |Import_Notes====Standards information===
 *[http://www.w3.org/TR/IndexedDB/#widl-IDBTransaction-abort-void Indexed Database API]
 }}
