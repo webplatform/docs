@@ -305,8 +305,6 @@ A [http://googlecodesamples.com/html5/sse/sse.html demo app] written in PHP is a
 
 * [http://dev.w3.org/html5/eventsource/ Server-Sent Events specification]
 * [http://www.whatwg.org/specs/web-apps/current-work/multipage/comms.html#authors Cross-document messaging security]
-
-{{Imported_Compatibility_Table|Page=css/properties/font-size}}
 }}
 {{Notes_Section}}
 {{Compatibility_Section
