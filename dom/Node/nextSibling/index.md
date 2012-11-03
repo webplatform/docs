@@ -12,7 +12,7 @@
 |Example_object_name=node
 |Return_value_name=nextNode
 |Javascript_data_type=DOM Node
-|Return_value_description=The next child node of the parent of the node.
+|Return_value_description=The next child node of the parent of the node, or null if the node is the last child.
 }}
 {{Examples_Section
 |Not_required=No
