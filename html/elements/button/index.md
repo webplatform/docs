@@ -5,7 +5,8 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The "button" tag is one of many ways to create buttons on an HTML page. A web developer can also use the "input" tag in conjunction with type="button" or by styling an "a" tag to achieve the same functionality. However, those may be harder and their results may not be as clean.}}
+{{Summary_Section|The "button" tag is one of many ways to create buttons on an HTML page_ A web developer can also use the "input" tag in conjunction with type="button" or by styling an "a" tag to achieve the same functionality. However, those may be harder and their results may not be as clean.
+}}
 {{Markup_Element
 |DOM_interface=dom/HTMLButtonElement
 }}
