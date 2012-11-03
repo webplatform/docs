@@ -24,6 +24,8 @@ Below is a basic example of an SVG Filter in use showing a gaussian blur applied
 </svg>​​​​​​​​​​​
 </syntaxhighlight>
 
+[[Image:BasicSVGFilterExampleGaussBlur.png|alt=image showing input and output of a blur filter effect]]
+
 
 The <code>filter</code> element may optionally define the position, dimensions, resolution, and units for the output of a filter effect. The position and dimensions of a filter may be specified using the following properties: x, y, width, height. The default values for these properties are *not intuitive* and are:
 
