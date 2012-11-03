@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Unreviewed Import
-|Content=Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Cleanup, Examples Best Practices
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
