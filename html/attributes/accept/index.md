@@ -11,7 +11,10 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Code=<input type="file" accept="audio/*" />
+}}
 }}
 {{Notes_Section
 |Notes====Remarks===
@@ -85,6 +88,7 @@ There is no functionality implemented for this property unless defined by the au
 |Notes_rows=
 }}
 {{See_Also_Section
+|Topic_clusters=HTML
 |Manual_sections====Related pages (MSDN)===
 *<code>input</code>
 }}
