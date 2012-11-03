@@ -2,11 +2,10 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Editorial notes=This method synchronously performs the steps for closing a database connection and returns once the database has been closed.
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|This method synchronously performs the steps for closing a database connection and returns once the database has been closed.}}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=apis/indexedDB/IDBDatabase
@@ -23,12 +22,11 @@ dbOpenRequest.onsuccess = function(event){
 	// The database is now opened
 	db.close(); // Close the database connection
 };
-
 |LiveURL=http://axemclion.github.com/trialtool/index.html#example=/IndexedDB/trialtool/moz_indexedDB.html&selected=Close Database&
 }}
 }}
 {{Notes_Section
-|Usage=This is a synchronous method that returns after the connection to the database is closed. 
+|Usage=This is a synchronous method that returns after the connection to the database is closed.
 |Import_Notes====Syntax===
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?LinkId{{=}}224519 Indexed Database API]
