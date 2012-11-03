@@ -19,9 +19,9 @@
 {{!}}block
 {{!}}}
 
-You can access the <code>body</code> element from script through the document object.
+You can access the <code><body></code> element from script through the document object.
 
-The window object for the <code><body></code> element can host event handlers for the <code>onblur</code>, <code>onfocus</code>,<code>onload</code>, or <code>onunload</code> events.
+The window object for the <code><body></code> element can host event handlers for the <code>onblur</code>, <code>onfocus</code>, <code>onload</code>, or <code>onunload</code> events.
 
 
 === HTML Event Handler Content Attributes ===
@@ -89,7 +89,7 @@ The following attributes are obsolete, and must not be used by authors: <code>al
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=The<code><body></code> element follows the<code><head></code> element and is contained by the <code><html></code> element.
+|Description=The <code><body></code> element follows the <code><head></code> element and is contained by the <code><html></code> element.
 |Code=<syntaxhighlight lang="html5">
 <!doctype html>
 <html lang="en">
@@ -118,13 +118,13 @@ The  <code><body></code> object has these types of members:
 
 
 ====Events====
-The  <code><body></code> object has these events.
+The <code><body></code> object has these events.
 {{{!}} class="wikitable"
 {{!}}-
 !Event
 !Description
 {{!}}-
-{{!}}[[dom/events/abort|'''onabort''']]
+{{!}}<code>[[dom/events/abort|'''onabort''']]</code>
 {{!}}Fires when the user aborts the download.
 {{!}}-
 {{!}}[[dom/events/activate|'''onactivate''']]
