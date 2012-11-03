@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The abort method is used to abort a transaction. Once called, the abort method follows the [http://www.w3.org/TR/IndexedDB/#dfn-steps-for-aborting-a-transaction steps to abort] a transaction}}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=apis/indexedDB/IDBTransaction
@@ -17,8 +17,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
-|Code=
-var dbOpenRequest = window.indexedDB.open("BookShop1");
+|Code=var dbOpenRequest = window.indexedDB.open("BookShop1");
 dbOpenRequest.onsuccess = function (event) {
     var db = dbOpenRequest.result;
     try {
