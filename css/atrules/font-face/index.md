@@ -1,20 +1,17 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
-{{CSS_At_Rule
-|Content=
-}}
-{{Topics|CSS}}
+{{Summary_Section}}
+{{CSS_At_Rule}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Description=The following example embeds a font in an HTML document by pointing to the font source, which is located at another site.
-|LiveURL=
-|Code=
-&lt;html&gt;
+|Code=&lt;html&gt;
 &lt;head&gt;
 &lt;style type{{=}}"text/css"&gt;
 @font-face {
@@ -29,10 +26,10 @@ rule defined in the above style element. The rule embeds an OpenType file for th
 Comic Sans font. &lt;/p&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-}}}}
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 The rule has no default value.
 This feature enables you to use specific fonts that might not be available on your local system. In Internet Explorer 8 and earlier, the URL must point to an Embedded OpenType (EOT) file (.eot or .ote format). No other font formats are supported. (For more information about the font embedding feature and pointers to a tool for creating .eot files, see About Font Embedding.)
 In addition to legacy EOT format files, Internet Explorer 9 also supports the Web Open Font Format (WOFF) and installable (no embedding permission bits set) raw TrueType.
@@ -43,19 +40,69 @@ The <code>unicode-range</code> descriptor defines the range of Unicode character
 
 The '''@font-face''' rule acts differently from the behavior that is specified in the World Wide Web Consortium (W3C) Cascading Style Sheets, Level 3 (CSS3) Working Draft in Internet Explorer 8. In particular, Internet Explorer 8 does not support format hint strings. Internet Explorer 9 supports format hint strings.
 Dynamic HTML (DHTML) expressions can be used instead of the preceding value(s). As of Internet Explorer 8, expressions are not supported in IE8 Standards mode. For more information, see About Dynamic Properties.
-|Import_Notes=
-===Syntax===
+|Import_Notes====Syntax===
 <code>'''@font-face '''{ ''Font-Description'' }</code>
 ===Parameters===
 ;''Font-Description'':'''String''' that specifies one or more of the following descriptors:<table><tr><th>Value</th><th>Meaning</th></tr><tr><td width{{=}}"40%"><a id{{=}}"font-family_fontFamilyName"/><a id{{=}}"font-family_fontfamilyname"/><a id{{=}}"FONT-FAMILY_FONTFAMILYNAME"/><dl><dt>'''font-family:fontFamilyName'''</dt></dl></td><td width{{=}}"60%">A valid [[css/properties/font-family|'''font-family''']] property value.</td></tr><tr><td width{{=}}"40%"><a id{{=}}"font-weight_fontWeight"/><a id{{=}}"font-weight_fontweight"/><a id{{=}}"FONT-WEIGHT_FONTWEIGHT"/><dl><dt>'''font-weight:fontWeight'''</dt></dl></td><td width{{=}}"60%">Internet Explorer 9. A valid [[css/properties/font-weight|'''font-weight''']] property value (except for the relative values, <code>bolder</code> and <code>lighter</code>).</td></tr><tr><td width{{=}}"40%"><a id{{=}}"font-style_fontStyleName"/><a id{{=}}"font-style_fontstylename"/><a id{{=}}"FONT-STYLE_FONTSTYLENAME"/><dl><dt>'''font-style:fontStyleName'''</dt></dl></td><td width{{=}}"60%">Internet Explorer 9. A valid [[css/properties/font-style|'''font-style''']] property value.</td></tr><tr><td width{{=}}"40%"><a id{{=}}"font-stretch_fontStretchValue"/><a id{{=}}"font-stretch_fontstretchvalue"/><a id{{=}}"FONT-STRETCH_FONTSTRETCHVALUE"/><dl><dt>'''font-stretch:fontStretchValue'''</dt></dl></td><td width{{=}}"60%">Internet Explorer 9. A valid [[css/properties/font-stretch|'''font-stretch''']] property value.</td></tr><tr><td width{{=}}"40%"><a id{{=}}"src_url_sURL__format_fontFormat__local_fontName_"/><a id{{=}}"src_url_surl__format_fontformat__local_fontname_"/><a id{{=}}"SRC_URL_SURL__FORMAT_FONTFORMAT__LOCAL_FONTNAME_"/><dl><dt>'''src:url(sURL) format(fontFormat) local(fontName)'''</dt></dl></td><td width{{=}}"60%">The location of a font file to use (either an external reference with an optional hint or a local reference). To specify an external reference, use ''url(sURL)'', where ''sURL'' is an absolute or relative URL. In Internet Explorer 8 and earlier versions, only one URL value is supported.To specify specific font formats (only for externally referenced font files), use a ''format'' hint (''format(fontFormat)'') where ''fontFormat'' is a comma-separated list of format strings that denote supported font formats. Possible ''fontFormat'' values are <code>"woff"</code>, <code>"truetype"</code>, <code>"opentype"</code>, and <code>"embedded-opentype"</code>. The ''format'' hint is optional starting in Internet Explorer 9. (''format'' hints are not supported in Internet Explorer 8 and earlier versions and are ignored.)To specify a local reference, use ''local(sFontName)'', where ''sFontName'' is the name of the locally-installed font to use.</td></tr><tr><td width{{=}}"40%"><a id{{=}}"unicode-range_urange"/><a id{{=}}"UNICODE-RANGE_URANGE"/><dl><dt>'''unicode-range:urange'''</dt></dl></td><td width{{=}}"60%">Internet Explorer 9. A list of Unicode character ranges, where ''urange'' is a comma-separated list of Unicode range values.</td></tr></table> 
 }}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows={{Compatibility Table Mobile Row
+|Android_supported=Yes
+|Android_version=2.2
+|Android_prefixed_supported=Unknown
+|Android_prefixed_version=
+|Blackberry_supported=Yes
+|Blackberry_version=7.0
+|Blackberry_prefixed_supported=Unknown
+|Blackberry_prefixed_version=
+|Chrome_mobile_supported=Yes
+|Chrome_mobile_version=18
+|Chrome_mobile_prefixed_supported=Unknown
+|Chrome_mobile_prefixed_version=
+|Firefox_mobile_supported=Yes
+|Firefox_mobile_version=15
+|Firefox_mobile_prefixed_supported=Unknown
+|Firefox_mobile_prefixed_version=
+|IE_mobile_supported=Yes
+|IE_mobile_version=10
+|IE_mobile_prefixed_supported=Unknown
+|IE_mobile_prefixed_version=
+|Opera_mobile_supported=Yes
+|Opera_mobile_version=10
+|Opera_mobile_prefixed_supported=Unknown
+|Opera_mobile_prefixed_version=
+|Opera_mini_supported=No
+|Opera_mini_version=
+|Opera_mini_prefixed_supported=Unknown
+|Opera_mini_prefixed_version=
+|Safari_mobile_supported=Yes
+|Safari_mobile_version=3.2
+|Safari_mobile_prefixed_supported=Unknown
+|Safari_mobile_prefixed_version=
+}}
+|Notes_rows={{Compatibility Notes Row
+|Browser=Android
+|Version=2.2 - 3.0
+|Note=Partial support
+}}{{Compatibility Notes Row
+|Browser=Safari Mobile
+|Version=3.2 - 4.1
+|Note=Only supports SVG fonts
+}}
+}}
 {{See_Also_Section
 |Topic_clusters=Syntax
 }}
+{{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
