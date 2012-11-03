@@ -17,7 +17,6 @@
 !CSS Display
 {{!}}block
 {{!}}}
-
 }}
 {{Examples_Section
 |Not_required=No
@@ -68,7 +67,7 @@
 |Notes_rows={{Compatibility Notes Row
 |Browser=Internet Explorer
 |Version=9
-|Note=The '''aside''' element is only supported for webpages displayed in IE9 Standards mode. 
+|Note=The '''aside''' element is only supported for webpages displayed in IE9 Standards mode.
 }}
 }}
 {{See_Also_Section
