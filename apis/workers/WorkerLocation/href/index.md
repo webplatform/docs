@@ -28,12 +28,11 @@ The '''href''' is the entire string of the URL.
 |Chrome_supported=Yes
 |Chrome_prefixed_supported=Unknown
 |Chrome_prefixed_version=
-|Firefox_supported=Yes
-|Firefox_version=6
+|Firefox_supported=Unknown
+|Firefox_version=
 |Firefox_prefixed_supported=Unknown
 |Firefox_prefixed_version=
 |Internet_explorer_supported=Yes
-|Internet_explorer_version=7
 |Internet_explorer_prefixed_supported=Unknown
 |Internet_explorer_prefixed_version=
 |Opera_supported=Unknown
