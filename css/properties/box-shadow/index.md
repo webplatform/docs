@@ -1,11 +1,11 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Used in casting shadows off block-level elements}}
+{{Summary_Section|Box shadows allows developers to insert some cool visual effects like drop shadows and back lighting into their HTML pages.}}
 {{CSS Property
 |Applies to=Block-level elements
 |Inherited=No
