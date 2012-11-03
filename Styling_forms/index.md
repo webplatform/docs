@@ -963,6 +963,5 @@ Values closest to zero are on the left side of the table, and progress toward on
 * Yahoo! Developer Network. 2008. [http://developer.yahoo.com/yui/articles/gbs/ Graded browser support]. (accessed 16 December 2008).
 
 Note: This material was originally published as part of the Opera Web Standards Curriculum, available as [http://dev.opera.com/articles/view/34-styling-forms/ 34: Form design, layout, and presentation with CSS], written by Ben Henick. Like the original, it is published under the [http://creativecommons.org/licenses/by-nc-sa/2.5/ Creative Commons Attribution, Non Commercial - Share Alike 2.5] license.
-
+{{Topics|WSC}}
 [[Category:Tutorials]]
-[[Category:WSC]]
