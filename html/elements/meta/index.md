@@ -1,29 +1,27 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{Markup_Element
 |DOM_interface=dom/HTMLMetaElement
 }}
-{{Topics|HTML}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Description=This example disables theming support for the document.
-|LiveURL=
-|Code=
-&lt;META HTTP-EQUIV{{=}}"MSTHEMECOMPATIBLE" CONTENT{{=}}"no"&gt;
-}}}}
+|Code=&lt;META HTTP-EQUIV{{=}}"MSTHEMECOMPATIBLE" CONTENT{{=}}"no"&gt;
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 The '''META''' element also embeds document information that some search engines use to index and categorize documents on the World Wide Web.
 This element can be used only within the '''HEAD''' element.
 Windows Internet Explorer 8 or later. The behavior of the [[dom/methods/setAttribute|'''setAttribute''']] method depends on the current document compatibility mode. For more information, see Attribute Differences in Internet Explorer 8
-|Import_Notes=
-===Standards information===
+|Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 7.4.4
 
 
@@ -175,22 +173,29 @@ The '''meta''' object has these properties.
 |Sets or retrieves the [[dom/properties/URL|'''URL''']] property that will be loaded after the specified time has elapsed.
 |}
  
-
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 *<code>Reference</code>
 *<code>content</code>
 *<code>[[html/attributes/httpEquiv|httpEquiv]]</code>
 *<code>Conceptual</code>
 *<code>Defining Document Compatibility</code>
-|Topic_clusters=html
 }}
+{{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
