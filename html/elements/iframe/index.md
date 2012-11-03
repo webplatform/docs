@@ -8,7 +8,7 @@
 {{Summary_Section}}
 {{Markup_Element
 |DOM_interface=dom/HTMLIFrameElement
-|Content=Iframes are one the best ways to build a complex, detailed webpage from smaller, more manageable chunks.
+|Content=Iframes are one the best ways to build up a complex, detailed webpage from smaller, more manageable chunks. By using iframe tags, a developer can include webpages as part of a larger, enompassing parent page. Unlike frames, iframes can be styled through CSS and easily molded to fit seamlessly within the parent page.
 }}
 {{Examples_Section
 |Not_required=No
