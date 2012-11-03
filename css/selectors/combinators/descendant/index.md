@@ -45,6 +45,7 @@ To skip over a generation of elements and pass styles to descendants beyond chil
 |Internet_explorer_prefixed_supported=Unknown
 |Internet_explorer_prefixed_version=
 |Opera_supported=Yes
+|Opera_version=7+
 |Opera_prefixed_supported=Unknown
 |Opera_prefixed_version=
 |Safari_supported=Yes
