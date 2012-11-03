@@ -1,5 +1,7 @@
 == Introduction ==
 
+Mediaqueries is a paradigm introduced in CSS3 for adapting the layout of a page on-the-fly to different device dimensions, without having to test for devices and features in javascript. The same webpage can be rendered and adapted to different devices (for example Apple iPhone, Apple iPad, Amazon Kindle Fire, and PC desktop) using the same css stylesheet without writing a line of javascript code.  However, there is a limit to mediaqueries in terms of performance. The developer should make sure that larger dimensions of the resource are not downloaded, when the user is viewing the page on a smaller client over smaller bandwidth rendered by a smaller processor.
+
 
 == Syntax ==
 
