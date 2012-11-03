@@ -34,7 +34,9 @@ function fnChangeValue(){
 &lt;/ul&gt;
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage={{TODO|The API name in the Syntax section should be ''data'', not ''data (TextNode)''.}}
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=DOM Level 1
