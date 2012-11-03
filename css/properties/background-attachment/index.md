@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status|W3C Recommendation}}
@@ -90,13 +90,13 @@ With CSS3 Backgrounds, the background of a box can have multiple layers. The num
 |Firefox_prefixed_version=
 |Internet_explorer_supported=Yes
 |Internet_explorer_version=7
-|Internet_explorer_prefixed_supported=Unknown
+|Internet_explorer_prefixed_supported=No
 |Internet_explorer_prefixed_version=
 |Opera_supported=Yes
-|Opera_prefixed_supported=Unknown
+|Opera_prefixed_supported=No
 |Opera_prefixed_version=
 |Safari_supported=Yes
-|Safari_prefixed_supported=Unknown
+|Safari_prefixed_supported=No
 |Safari_prefixed_version=
 }}{{Compatibility Table Desktop Row
 |Feature=local
