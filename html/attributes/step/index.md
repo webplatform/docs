@@ -7,7 +7,7 @@
 {{API_Name}}
 {{Summary_Section|Specify the increment for <code>input</code> with types <code>number</code>, <code>time</code>, or <code>range</code>}}
 {{Markup_Attribute
-|Applies_to=[[dom/HTMLInputElement | HTMLInputElement]]
+|Applies_to=[[dom/HTMLInputElement|HTMLInputElement]]
 |Property_applies_to=dom/HTMLElement
 |Content=When <code>input type="range"</code>, <code>input type="date"</code>, or <code>input type="number"</code> is specified, the default increment from <code>min</code> to <code>max</code> is 1.  Override this default with a value in <code>step</code>.
 }}
