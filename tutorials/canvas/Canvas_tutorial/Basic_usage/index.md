@@ -128,7 +128,7 @@ To start off, here's a simple example that draws two intersecting rectangles, on
 
 </pre>
 
-[[canvas/tutorial/Canvas_tutorial|&lt;&lt;Previous      ||    ]][[canvas/tutorial/Canvas_tutorial/Drawing_shapes|   Next&gt;&gt;]]
+[[tutorials/canvas/Canvas_tutorial|&lt;&lt;Previous      ||    ]][[tutorials/canvas/Canvas_tutorial/Drawing_shapes|   Next&gt;&gt;]]
 }}
 {{Notes_Section}}
 {{Compatibility_Section
