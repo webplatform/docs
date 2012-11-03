@@ -1,5 +1,9 @@
 == Summary ==
-[http://python.org/ Python] 
+[http://python.org/ Python] is a dynamic programming language which emphasizes code readability. It is widely used in a variety of areas, most notably scientific computing and system administration, though it has recently gained much wider usage in web development.
+
+=== Similarity with Javascript ===
+* functional programming features
+* dynamic typing
 
 == Resources ==
 * [http://python.org/doc/ Official Python Documentation]
