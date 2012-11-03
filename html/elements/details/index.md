@@ -1,6 +1,6 @@
 == Summary ==
 
-== Specification ==
+The details element represents a disclosure widget from which the user can obtain additional information or controls.
 
 == Example ==
 
@@ -19,3 +19,7 @@ If the <code>open</code> attribute is set on the <code>details</code> tag, it wi
 
 == Browser support ==
 The <details> tag is currently only supported in Chrome and in Safari on Mac.
+
+== Specification ==
+
+[http://developers.whatwg.org/interactive-elements.html#the-details-element#WHATWG Html5 spec]
