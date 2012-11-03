@@ -20,7 +20,7 @@
 }}
 |Method_applies_to=apis/indexedDB/IDBFactory
 |Example_object_name=indexeddb
-|Return_value_name=indexeddb
+|Return_value_name=dbOpenRequest
 |Javascript_data_type=DOM Node
 |Return_value_description=The open method creates an IDBRequest object and returns it. The IDBRequest object can be use to handle the success or the error events.
 }}
@@ -65,7 +65,7 @@ dbOpenRequest.onerror = function(e){
 }}
 {{Notes_Section
 |Usage=var openRequest = window.indexedDB.open("databaseName", 1);
-|Notes=The open method either creates a database if it does not exist, or opens one, with the specified version number. If no version number is specified, the database is opened with the current version number. If a database is to be created and a version number is not specified, the database is opened with a version 1. 
+|Notes=The open method either creates a database if it does not exist, or opens one, with the specified version number. If no version number is specified, the database is opened with the current version number. If a database is to be created and a version number is not specified, the database is opened with a version 1.
 |Import_Notes====Standards information===
 *[http://www.w3.org/TR/IndexedDB/#widl-IDBFactory-open-IDBOpenDBRequest-DOMString-name-unsigned-long-long-version Indexed Database API - open Method]
 }}
