@@ -110,10 +110,10 @@ This example uses three calls to an embedded (global) style sheet to transform t
 |IE_mobile_version=6.0
 |IE_mobile_prefixed_supported=Unknown
 |IE_mobile_prefixed_version=
-|Opera_mobile_supported=Unknown
-|Opera_mobile_version=
-|Opera_mobile_prefixed_supported=Yes
-|Opera_mobile_prefixed_version=6.0
+|Opera_mobile_supported=Yes
+|Opera_mobile_version=6.0
+|Opera_mobile_prefixed_supported=Unknown
+|Opera_mobile_prefixed_version=
 |Opera_mini_supported=Unknown
 |Opera_mini_version=
 |Opera_mini_prefixed_supported=Unknown
