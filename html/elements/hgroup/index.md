@@ -1,29 +1,25 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
 }}
-{{Topics|HTML}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Description=The following is an example of a valid heading. The '''hgroup''' masks the '''h2''' element (which acts as a secondary title) from the outline algorithm.
-|LiveURL=
-|Code=
-&lt;hgroup&gt;
+|Code=&lt;hgroup&gt;
  &lt;h1&gt;Dr. Strangelove&lt;/h1&gt;
  &lt;h2&gt;Or: How I Learned to Stop Worrying and Love the Bomb&lt;/h2&gt;
 &lt;/hgroup&gt;
-}}
-{{Single_Example
+}}{{Single Example
 |Description=For document summaries and outlines, the text of '''hgroup''' elements is defined as the text of the highest ranked '''h1-h6''' element descendant, or the first such element if there are multiple elements with the highest rank. If there are no such elements, then the text of the '''hgroup''' element is the empty string. The following script demonstrates how to implement this behavior.
-|LiveURL=
-|Code=
-function findHeadings(node)
+|Code=function findHeadings(node)
 {
     // First check if this node has an &lt;hgroup&gt;.
     var hg {{=}} node.getElementsByTagName("HGROUP");
@@ -39,14 +35,13 @@ function findHeadings(node)
     // No headings present, return empty string.
     return "";
 }
-}}}}
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 Windows Internet Explorer 9.  The '''hgroup''' element is only supported for webpages displayed in IE9 Standards mode. For more information, see Defining Document Compatibility.
 The '''hgroup''' element is used to group a set of '''h1-h6''' elements when the heading has multiple levels, such as subheadings, alternative titles, or taglines. Other elements of heading content in the '''hgroup''' element indicate subheadings or subtitles.
-|Import_Notes=
-===Standards information===
+|Import_Notes====Standards information===
 There are no standards that apply here.
 
 ===HTML information===
@@ -262,11 +257,18 @@ This property is not supported for Metro style apps using JavaScript.
 |Retrieves the element's unique number.
 |}
  
-
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 *<code>Reference</code>
 *<code>article</code>
 *<code>aside</code>
@@ -277,12 +279,12 @@ This property is not supported for Metro style apps using JavaScript.
 *<code>mark</code>
 *<code>nav</code>
 *<code>section</code>
-|Topic_clusters=html
 }}
+{{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
