@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The white-space property controls the wrapping of whitespace within an element.}}
+{{Summary_Section|The white-space property controls if a white-space character within an element can wrap or if it must be preserved.}}
 {{CSS Property
 |Applies to=All elements
 |Inherited=Yes
