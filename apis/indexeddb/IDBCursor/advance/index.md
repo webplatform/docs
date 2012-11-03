@@ -40,7 +40,7 @@ dbOpenRequest.onsuccess = function(event){
         
     };
 };
-|LiveURL=http://axemclion.github.com/trialtool/index.html#example=/IndexedDB/trialtool/moz_indexedDB.html&selected=Advance cursor&
+|LiveURL=http://axemclion.github.com/trialtool/index.html#example=/IndexedDB/trialtool/moz_indexedDB.html&selected=Advance%20cursor&
 }}
 }}
 {{Notes_Section
