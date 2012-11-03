@@ -6,6 +6,9 @@
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|See measureText method.}}
+{{Editorial/Deletion_Candidate
+| There appears to be no width property in CanvasRenderingContext2D; its measureText method appears to be the interface for getting the width.
+}}
 {{API_Object_Property
 |Property_applies_to=canvas/objects/CanvasRenderingContext2D
 |Read_only=No
@@ -17,7 +20,7 @@
 {{Notes_Section
 |Import_Notes====Syntax===
 ===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}197019 HTML Canvas 2D Context], Section 11
+*[http://www.w3.org/TR/2dcontext/ HTML Canvas 2D Context]
 }}
 {{Related_Specifications_Section
 |Specifications=
@@ -40,7 +43,4 @@
 |MDN_link=
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
-}}
-{{Editorial/Deletion_Candidate
-| There appears to be no width property in CanvasRenderingContext2D; its measureText method appears to be the interface for getting the width.
 }}
