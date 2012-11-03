@@ -1,20 +1,19 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{Markup_Element
 |DOM_interface=dom/HTMLPreElement
 }}
-{{Topics|HTML}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Description=This example uses the '''PRE''' element to format text so that it renders exactly as it is typed.
-|LiveURL=
-|Code=
-&lt;PRE&gt;
+|Code=&lt;PRE&gt;
 This text is formatted
    exactly
       as
@@ -22,13 +21,12 @@ This text is formatted
       is
    typed.
 &lt;/PRE&gt;
-}}}}
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 Text within the '''PRE''' element is formatted. Spaces and carriage returns are preserved.
-|Import_Notes=
-===Standards information===
+|Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}196991 Document Object Model (DOM) Level 2 HTML Specification], Section 1.6.5
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 9.3.4
 
@@ -761,18 +759,25 @@ This property is not supported for Metro style apps using JavaScript.
 |Sets or gets a value that you can use to implement your own [[html/attributes/width|'''width''']] functionality for the object.
 |}
  
-
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 *<code>xmp</code>
-|Topic_clusters=html
 }}
+{{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
