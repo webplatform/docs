@@ -13,6 +13,7 @@
 {{Notes_Section}}
 {{See_Also_Section}}
 {{Topics}}
+{{Compatibility_Section}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=Facebook HTML5 Resource Center
