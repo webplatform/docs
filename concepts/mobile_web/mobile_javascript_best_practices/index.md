@@ -20,9 +20,6 @@ Here are some common reasons for slow JavaScript performance that can easily be 
 * '''<code>with</code> statements''': Using <code>with</code> statements creates additional scope objects that slow variable access and create ambiguities.
 * '''<code>for-in</code> loops''': Unfortunately, most JavaScript environments have a slow implementation of <code>for-in</code> loops. Opt to traverse arrays instead, using the <code>for (var i=0; i &lt; array.length; i++)</code> instead of for-in loops.
 
-==Using jQuery Mobile==
-
-The jQuery Mobile touch-optimized web framework for smartphones & tablets provides a unified, themeable user interface system across popular mobile device platforms, built on jQuery and the jQuery UI. For a list of supported platforms, see [http://jquerymobile.com/gbs/ jQuery Mobile Graded Browser Support].
 
 Note: This material was originally published as part of the Nokia Developer Web Development Library, available as [http://www.developer.nokia.com/Resources/Library/Web/#!nokia-browsers/common-elements-of-nokia-browsers/mobile-javascript-best-practices.html Mobile JavaScript best practices]
 }}
