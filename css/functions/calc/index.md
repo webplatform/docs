@@ -11,16 +11,16 @@
 |Examples={{Single Example
 |Language=CSS
 |Code=.banner {
-    position: absolute;
-    left: 40px;
-    width: 90%; /* fallback for browsers without support for calc() */
-    width: -webkit-calc(100% - 80px);  /* WebKit 536.3 (Chrome 19) and above, experimental */
-    width: calc(100% - 80px);  /* final CSS3 compliant implementation; Firefox 16 and IE 9, and above */
-    border: solid black 1px;
-    box-shadow: 5px 5px #999;
-    margin-top: 40px;
-    padding: 10px;
-    text-align: center;
+	position: absolute;
+	left: 40px;
+	width: 90%; /* fallback for browsers without support for calc() */
+	width: -webkit-calc(100% - 80px);  /* WebKit 536.3 (Chrome 19) and above, experimental */
+	width: calc(100% - 80px);  /* final CSS3 compliant implementation; Firefox 16 and IE 9, and above */
+	border: solid black 1px;
+	box-shadow: 1px 2px;
+	margin-top: 40px;
+	padding: 10px;
+	text-align: center;
 }​
 |LiveURL=http://jsfiddle.net/denbuzze/BNJtF/
 }}
