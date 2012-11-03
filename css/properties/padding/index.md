@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The padding property defines the space between the content box within an element  and its border.}}
+{{Summary_Section|The padding property defines the space between content within an element  and the border of an element.}}
 {{CSS Property
 |Applies to=All elements
 |Inherited=No
