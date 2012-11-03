@@ -1,20 +1,19 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
 }}
-{{Topics|HTML}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Description=This example shows the '''figure''' element to mark up a code listing. The '''figcaption''' element represents the caption of the figure. The author has also provided a link to the figure in the main content by using a named anchor.
-|LiveURL=
-|Code=
-&lt;!-- Main Content --&gt;
+|Code=&lt;!-- Main Content --&gt;
 &lt;p&gt;In &lt;a href{{=}}"#l4"&gt;listing 4&lt;/a&gt; we see the primary core interface API declaration.&lt;/p&gt;
 &lt;!-- Figure Content --&gt;
 &lt;figure id{{=}}"l4"&gt;
@@ -25,19 +24,17 @@
  void initSelfDestruct();
 }&lt;/code&gt;&lt;/pre&gt;
 &lt;/figure&gt;
-
-}}}}
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 The '''figure''' element can be used to annotate content that can be referenced from the main content of the document, such as illustrations, diagrams, photos, code listings, and so on. Figures can be moved away from primary content without affecting the flow of the document.
 You can jump to the figure from the main content by using a named anchor. The [[html/attributes/id|'''id''']] attribute of the '''figure''' element specifies the fragment identifier (name of the anchor).
 The default CSS for the '''figure''' element is as follows.
  <code>margin: 1em 40px</code>
 The '''figure''' element, like '''aside''', separates content from the main flow. Use the '''aside''' element when the content is simply related, but not essential. Use '''figure''' if the content is essential, but position is not important.
 Windows Internet Explorer 9.  The '''figure''' element is only supported for webpages displayed in IE9 Standards mode. For more information, see Defining Document Compatibility.
-|Import_Notes=
-===Standards information===
+|Import_Notes====Standards information===
 There are no standards that apply here.
 
 ===HTML information===
@@ -253,11 +250,18 @@ This property is not supported for Metro style apps using JavaScript.
 |Retrieves the element's unique number.
 |}
  
-
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 *<code>Reference</code>
 *<code>article</code>
 *<code>aside</code>
@@ -268,12 +272,12 @@ This property is not supported for Metro style apps using JavaScript.
 *<code>mark</code>
 *<code>nav</code>
 *<code>section</code>
-|Topic_clusters=html
 }}
+{{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
