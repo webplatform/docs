@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Background-position controls the placement of the background-image within the element. Background-position can be used for rendering sprites.}}
 {{CSS Property
 |Initial value=0 0
 |Applies to=All elements
