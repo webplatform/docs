@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
+|Content=Incomplete, Not Neutral, Cleanup, Examples Best Practices
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
@@ -84,9 +84,9 @@ If multiple values are set as a comma-separated list, each value is applied to t
 |Firefox_mobile_version=16.0
 |Firefox_mobile_prefixed_supported=Yes
 |Firefox_mobile_prefixed_version=15.0
-|IE_mobile_supported=Unknown
-|IE_mobile_version=
-|IE_mobile_prefixed_supported=Unknown
+|IE_mobile_supported=Yes
+|IE_mobile_version=WP 8 (IE 10)
+|IE_mobile_prefixed_supported=No
 |IE_mobile_prefixed_version=
 |Opera_mobile_supported=Yes
 |Opera_mobile_version=12.1
