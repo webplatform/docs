@@ -31,7 +31,7 @@
 {{Compatibility_Section
 |Not_required=No
 |Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Unknown
+|Chrome_supported=No
 |Chrome_version=
 |Chrome_prefixed_supported=Yes
 |Firefox_supported=No
@@ -46,7 +46,7 @@
 |Opera_version=
 |Opera_prefixed_supported=Unknown
 |Opera_prefixed_version=
-|Safari_supported=Unknown
+|Safari_supported=No
 |Safari_version=
 |Safari_prefixed_supported=Yes
 }}
