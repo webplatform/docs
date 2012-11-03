@@ -1,20 +1,19 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{Markup_Element
 |DOM_interface=dom/HTMLAreaElement
 }}
-{{Topics|HTML}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Description=The following example uses the '''area''' element inside a parent '''map''' element to create an image map of the solar system. Each '''area''' element defines and provides a link to an image on the '''map''' using the [[html/attributes/coords|'''coords''']] and [[html/attributes/shape|'''shape''']] attributes to specify its dimensions and shape, respectively; and the [[html/attributes/title|'''title''']] attribute to provide a descriptive pop-up tooltip when pointed to with the mouse. A tooltip is especially useful if the image file is missing or cannot be displayed for whatever reason.
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/imagemap.htm
-|Code=
-&lt;!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" 
+|Code=&lt;!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" 
   "http://www.w3.org/TR/html4/loose.dtd"&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -53,17 +52,17 @@
   &lt;/map&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-}}}}
+|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/imagemap.htm
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 Any number of '''area''' elements can be contained within the same '''map''' element.
 The format of the [[html/attributes/coords|'''coords''']] value depends on the value of the [[html/attributes/shape|'''shape''']] attribute.
 Windows Internet Explorer 8 and later. In IE8 Standards mode, the [[html/attributes/title|'''title''']] attribute is preferred over the [[html/attributes/alt|'''alt''']] attribute when specified as a pop-up tooltip for an '''img''' or a '''map''' element. In addition, the value of the [[html/attributes/href|'''href''']] attribute depends on the current document compatibility mode.
 This element is not rendered.
 This element does not require a closing tag.
-|Import_Notes=
-===Standards information===
+|Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}196991 Document Object Model (DOM) Level 2 HTML Specification], Section 1.6.5
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 13.6.1
 
@@ -669,15 +668,22 @@ This property is not supported for Metro style apps using JavaScript.
 |Retrieves the element's unique number.
 |}
  
-
 }}
-{{See_Also_Section
-|Topic_clusters=html
+{{Related_Specifications_Section
+|Specifications=
 }}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section}}
+{{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
