@@ -1,20 +1,19 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{Markup_Element
 |DOM_interface=dom/HTMLLIElement
 }}
-{{Topics|HTML}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Description=This example uses the '''LI''' element to create individual items in a directory list.
-|LiveURL=
-|Code=
-&lt;DIR&gt;
+|Code=&lt;DIR&gt;
 &lt;LI&gt;Art
 &lt;LI&gt;History
 &lt;LI&gt;Literature
@@ -22,15 +21,14 @@
 &lt;LI&gt;Entertainment
 &lt;LI&gt;Science
 &lt;/DIR&gt;
-}}}}
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 The [[html/attributes/type (ul,li,ol elements)|'''TYPE''']] attribute values '''disc''', '''circle''', and '''square''' apply to unordered lists; the values '''1''', '''a''', '''A''', '''i''', and '''I''' apply to ordered lists.
 When the '''LI''' element is absolutely positioned with CSS, the list item marker is not rendered.
 As of Microsoft Internet Explorer 6, the default value of the [[css/properties/display|'''display''']] property for this element is '''list-item'''.
-|Import_Notes=
-===Standards information===
+|Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}196991 Document Object Model (DOM) Level 2 HTML Specification], Section 1.6.5
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 10.2
 
@@ -772,22 +770,29 @@ This property is not supported for Metro style apps using JavaScript.
 |Sets or retrieves the value of a list item.
 |}
  
-
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 *<code>Reference</code>
 *<code>dir</code>
 *<code>menu</code>
 *<code>ol</code>
 *<code>ul</code>
-|Topic_clusters=html, list
 }}
+{{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
