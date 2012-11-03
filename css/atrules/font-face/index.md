@@ -141,7 +141,7 @@ Dynamic HTML (DHTML) expressions can be used instead of the preceding value(s). 
 |Safari_mobile_prefixed_version=
 }}{{Compatibility Table Mobile Row
 |Feature=WOFF - Web Open Font Format
-|Android_supported=Unknown
+|Android_supported=No
 |Android_version=
 |Android_prefixed_supported=Unknown
 |Android_prefixed_version=
