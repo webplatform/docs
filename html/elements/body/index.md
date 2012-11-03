@@ -8,7 +8,8 @@
 {{Summary_Section|The <body> element represents the main content of the document.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLBodyElement
-|Content====HTML information===
+|Content==== HTML information ===
+
 {{{!}} class="wikitable"
 {{!}}-
 !Closing Tag
@@ -17,16 +18,90 @@
 !CSS Display
 {{!}}block
 {{!}}}
+
+You can access the body element from script through the document object.
+
+The window object for the body element can host event handlers for the onblur, onfocus, onload, or onunload events.
+
+
+=== HTML Event Handler Content Attributes ===
+
+{{{!}} class="wikitable"
+{{!}}!Event
+{{!}}!Description
+{{!}}-
+{{!}}<code>onafterprint</code> 
+{{!}}User printed current document.
+{{!}}-
+{{!}}<code>onbeforeprint</code> 
+{{!}}User requested printing of current document.
+{{!}}-
+{{!}}<code>onbeforeunload</code> 
+{{!}}Document is about to be unloaded.
+{{!}}-
+{{!}}<code>onblur</code> 
+{{!}}Document lost focus.
+{{!}}-
+{{!}}<code>onerror</code> 
+{{!}}Document failed to load properly.
+{{!}}-
+{{!}}<code>onfocus</code> 
+{{!}}Document received focus.
+{{!}}-
+{{!}}<code>onhashchange</code> 
+{{!}}Fragment identifier part of the document’s current address changed.
+{{!}}-
+{{!}}<code>onload</code> 
+{{!}}Document finished loading.
+{{!}}-
+{{!}}<code>onmessage</code> 
+{{!}}Document received a message.
+{{!}}-
+{{!}}<code>onoffline</code> 
+{{!}}Network connections failed.
+{{!}}-
+{{!}}<code>ononline</code> 
+{{!}}Network connections returned.
+{{!}}-
+{{!}}<code>onpopstate</code> 
+{{!}}User navigated session history.
+{{!}}-
+{{!}}<code>onredo</code> 
+{{!}}User went forward in undo transaction history.
+{{!}}-
+{{!}}<code>onresize</code> 
+{{!}}Document view was resized.
+{{!}}-
+{{!}}<code>onstorage</code> 
+{{!}}Storage area changed.
+{{!}}-
+{{!}}<code>onundo</code> 
+{{!}}User went backward in undo transaction history.
+{{!}}-
+{{!}}<code>onunload</code> 
+{{!}}Document is going away.
+{{!}}}
+
+The following attributes are obsolete, and must not be used by authors: <code>alink</code>, <code>bgcolor</code>, <code>link</code>, <code>marginbottom</code>, <code>marginheight</code>, <code>marginleft</code>, <code>marginright</code>, <code>margintop</code>, <code>marginwidth</code>, <code>text</code>, <code>vlink</code>.
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
 |Description=The '''body''' element follows the '''head''' element and is contained by the '''html''' element.
-|Code=<syntaxhighlight lang="html5"><html>
-<head></head>
-<body></body>
-</html></syntaxhighlight>
+|Code=<syntaxhighlight lang="html5">
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>The HTML Document</title>
+</head>
+<body>
+<p>The HTML content</p>
+</body>
+</html>
+</syntaxhighlight>
+|LiveURL=http://test.w3.org/html/examples/elements/body/body01.html
 }}{{Single Example
 |Language=JavaScript
 |Description=This example exposes the '''body''' element in javascript.
@@ -763,13 +838,17 @@ This property is not supported for Metro style apps using JavaScript.
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows={{Compatibility Notes Row
-|Browser=Internet Explorer / Windows
+|Browser=Internet Explorer (Windows)
 |Version=8+
 |Note=The value of the 'background' attribute depends on the current document compatibility mode.
 }}{{Compatibility Notes Row
-|Browser=Internet Explorer / Windows
+|Browser=Internet Explorer (Windows)
 |Version=6
-|Note=When you use the !DOCTYPE declaration to specify standards-compliant mode, this object no longer represents the entire surface onto which a document's contents can be rendered. The object can obtain its size from its content, or you can set its size explicitly like a div object. When the !DOCTYPE declaration does not specify standards-compliant mode, and with earlier versions of Windows Internet Explorer, the body object represents the entire surface onto which a document's contents can be rendered. The size of the body object cannot be changed and is equal to the size of the window. Margins you set on this object are rendered inside the border and scrollbars of the object.
+|Note=When you use the !DOCTYPE declaration to specify standards-compliant mode, this object no longer represents the entire surface onto which a document's contents can be rendered. The object can obtain its size from its content, or you can set its size explicitly like a div object.
+}}{{Compatibility Notes Row
+|Browser=Internet Explorer (Windows)
+|Version=6+
+|Note=As of Microsoft Internet Explorer 6, when you use the !DOCTYPE declaration to specify standards-compliant mode, the body object can obtain its size from its content, or you can set its size explicitly—like a div object, for example. In standards-compliant mode, the html element represents the entire surface onto which a document's contents can be rendered. When the !DOCTYPE declaration does not specify standards-compliant mode, and with earlier versions of Windows Internet Explorer, the body object represents the entire surface onto which a document's contents can be rendered. The size of the body object cannot be changed and is equal to the size of the window. Margins you set on this object are rendered inside the border and scrollbars of the object.
 }}
 }}
 {{See_Also_Section
