@@ -242,7 +242,7 @@ If you open the above link in a browser you’ll see that the defined styles get
  
 Figure 2: Opera shows all paragraphs with the styles defined in the embedded style sheet.
  
-The benefit with embedded styles is that you don’t need to add a <code>style</code> attribute to each paragraph — you can style them all with one single definition. This also means that if you need to change the look and feel of all paragraphs, you can do it in one single location, however this is still limited to one document — what if you want to define the look of paragraphs for a whole site in one go? Enter external style sheets.
+The benefit with embedded styles is that you don’t need to add a <code>style</code> attribute to each paragraph — you can style them all with one single definition. This also means that if you need to change the look and feel of all paragraphs, you can do it in one single location, however this is still limited to one document — what if you want to define the look of paragraphs for a whole site in one go? For this we use external style sheets.
 
 === External style sheets ===
  
