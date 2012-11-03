@@ -1,4 +1,6 @@
+{{Page_Title}}
 {{Flags}}
+{{Byline}}
 {{Summary_Section}}
 {{Tutorial
 |Content=== The <canvas> element ==
@@ -126,9 +128,9 @@ To start off, here's a simple example that draws two intersecting rectangles, on
 
 </pre>
 
-[[canvas/tutorial/Canvas tutorial|&lt;&lt;Previous      ||    ]][[canvas/tutorial/Canvas tutorial/Drawing shapes|   Next&gt;&gt;]]
-
+[[canvas/tutorial/Canvas_tutorial|&lt;&lt;Previous      ||    ]][[canvas/tutorial/Canvas_tutorial/Drawing_shapes|   Next&gt;&gt;]]
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
 |Desktop_rows=
