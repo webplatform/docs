@@ -24,7 +24,7 @@
 }
 }}{{Single Example
 |Language=HTML
-|Description=Using <code>a</code>and <code>href</code> to link to an email address.
+|Description=Using <code>a</code> and <code>href</code> to link to an email address.
 |Code=<a href="mailto:bigcheese@webplatform.org">Email</a>
 }}{{Single Example
 |Language=HTML
@@ -91,7 +91,7 @@ Internet Explorer 8 and later. When Protected Mode is enabled and a Web page co
 |Safari_mobile_prefixed_supported=Unknown
 |Safari_mobile_prefixed_version=
 }}{{Compatibility Table Mobile Row
-|Feature=Messaging API (tel:, mailto:, sms:)
+|Feature=Messaging API (tel, mailto, sms, mmsto)
 |Android_supported=Yes
 |Android_version=2.1
 |Android_prefixed_supported=Unknown
