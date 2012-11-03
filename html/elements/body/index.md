@@ -26,7 +26,7 @@
 |Code=<syntaxhighlight lang="javascript">var oBody = document.body;</syntaxhighlight>
 }}{{Single Example
 |Language=HTML
-|Description=The '''body''' element follows the '''head''' element and is contained by the'''html'''  element.
+|Description=The '''body''' element follows the '''head''' element and is contained by the '''html''' element.
 |Code=<syntaxhighlight lang="html5"><html>
 <head></head>
 <body></body>
