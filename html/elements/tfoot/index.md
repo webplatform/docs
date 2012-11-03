@@ -1,20 +1,19 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
 }}
-{{Topics|HTML}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Description=The following code example uses the '''TFOOT''' element and the [[html/elements/table|'''TABLE''']], '''TBODY''', '''TD''', and '''TR''' elements to create a table that includes the first row in the table body and the second row in the table footer.
-|LiveURL=
-|Code=
-&lt;table&gt;
+|Code=&lt;table&gt;
 &lt;tbody&gt;
   &lt;tr&gt;
     &lt;td&gt;This text is in the table body.&lt;/td&gt;
@@ -26,10 +25,10 @@
   &lt;/tr&gt;
 &lt;/tfoot&gt;
 &lt;/table&gt;
-}}}}
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 Valid tags within the '''TFOOT''' element include:
 *'''TD'''
 *'''TH'''
@@ -38,8 +37,7 @@ Valid tags within the '''TFOOT''' element include:
 You can specify only one '''tFoot''' object for any given [[html/elements/table|'''table''']] object.
 The [[html/elements/table|'''table''']] object and its associated elements have a separate table object model, which uses different methods than the general object model.  For more information about the table object model, see Building Tables Dynamically.
 Windows Internet Explorer 8 renders only tables up to 1000 columns. To force Windows Internet Explorer 7 rendering mode, see How Do I Take Advantage of the New Features in Internet Explorer 8.
-|Import_Notes=
-===Standards information===
+|Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}196991 Document Object Model (DOM) Level 2 HTML Specification], Section 1.6.5
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 11.2.3
 
@@ -756,18 +754,25 @@ This property is not supported for Metro style apps using JavaScript.
 |Sets or retrieves how text and other content are vertically aligned within the object that contains them.
 |}
  
-
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 *<code>Building Tables Dynamically</code>
-|Topic_clusters=html, table
 }}
+{{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
