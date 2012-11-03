@@ -1,7 +1,7 @@
 {{Page_Title|The &lt;acronym&gt; element}}
 {{Flags
 |High-level issues=Missing Relevant Sections, Data Not Semantic
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete
 }}
 {{Standardization_Status}}
 {{API_Name}}
