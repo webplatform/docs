@@ -31,4 +31,4 @@ This property relates to the use of 2x3 matrices of the form:
 |HTML5Rocks_link=
 }}
 
-[[Category:Basic]]
+[[Category:Basic_Pages]]
