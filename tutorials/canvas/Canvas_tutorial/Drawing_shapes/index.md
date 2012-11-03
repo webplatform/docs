@@ -358,8 +358,7 @@ function roundedRect(ctx,x,y,width,height,radius){
 }
 
 </pre>
-
-[[canvas/tutorial/Canvas_tutorial/Basic_usage|&lt;&lt;Previous      ||    ]][[canvas/tutorial/Canvas_tutorial/Using_images|   Next&gt;&gt;]]
+[[tutorials/canvas/Canvas_tutorial/Basic_usage|&lt;&lt;Previous      ||    ]][[tutorials/canvas/Canvas_tutorial/Using_images|   Next&gt;&gt;]]
 }}
 {{Notes_Section}}
 {{Compatibility_Section
