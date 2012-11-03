@@ -57,6 +57,7 @@ The <code>title</code> attribute may be used to provide an expansion of the abbr
 |Opera_prefixed_supported=Unknown
 |Opera_prefixed_version=
 |Safari_supported=Yes
+|Safari_version=5.1
 |Safari_prefixed_supported=Unknown
 |Safari_prefixed_version=
 }}
