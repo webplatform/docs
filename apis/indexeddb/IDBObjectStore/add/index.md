@@ -1,74 +1,96 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
+{{Summary_Section|Adds a record to the specified object store.}}
 {{API_Object_Method
-|Parameters={{Method Parameter|Name=value|Data type=any|Description=|Optional=}}
-{{Method Parameter|Name=key|Data type=any|Description=|Optional=}}
-|Method_applies_to=apis/indexedDB/IDBObjectStore
-|Example_object_name=object
-|Return_value_name=object
-|Javascript_data_type=DOM Node
-|Return_value_description=
+|Parameters={{Method Parameter
+|Name=value
+|Data type=String
+|Description=The value must be valid for the Structured Cloning Algorithm. 
+|Optional=No
+}}{{Method Parameter
+|Name=key
+|Data type=String
+|Description=A key must be provided if the Object Store does not have a key path, or a key generator is not specified. 
+|Optional=Yes
 }}
-{{Topics|DOM}}
+|Method_applies_to=apis/indexedDB/IDBObjectStore
+|Example_object_name=idbRequest
+|Return_value_name=objectStore
+|Javascript_data_type=DOM Node
+}}
+{{Examples_Section
+|Not_required=No
+|Examples={{Single Example
+|Language=JavaScript
+|Code=var dbOpenRequest = window.indexedDB.open("BookShop1");
+dbOpenRequest.onsuccess = function(event){
+    var db = dbOpenRequest.result;
+    var transaction = db.transaction(["ObjectStore_BookList"], IDBTransaction.READ_WRITE);	
+	
+	// The object store has a keyPath as "id". Hence no key is specified, but the value has id as a property
+    var objectStore = transaction.objectStore("ObjectStore_BookList");
+	
+	// Sample data to add to the Object store
+	var key = 10;
+    var value = {
+        "bookName": "Book-" + Math.random(),
+        "author": "AuthorName",
+        "id": key
+    };
+    
+    var request = objectStore.add(value);
+    request.onsuccess = function(event){
+        console.log("Saved id ", request.result);
+    };
+    request.onerror = function(e){
+		console.log("Error adding data")
+    };
+    
+};
+
+|LiveURL=http://axemclion.github.com/trialtool/index.html#example=/IndexedDB/trialtool/moz_indexedDB.html&selected=#saveData&
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
-This method can throw the following [[dom/DOMException|'''DOMException''']] exceptions:
-{| class="wikitable"
-|-
-|'''Exception properties'''
-|'''Description'''
-|-
-|<dl>
-<dt>
-[[dom/properties/toString (DOMError)|'''name''']]: DataCloneError</dt>
-<dt>
-[[dom/properties/code|'''code''']]: DOMException.DATA_CLONE_ERR (25)</dt>
-</dl>
-|The data could not be saved to the object store.
-|-
-|<dl>
-<dt>
-[[dom/properties/toString (DOMError)|'''name''']]: InvalidStateError</dt>
-<dt>
-[[dom/properties/code|'''code''']]: DOMException.INVALID_STATE_ERR (11)</dt>
-</dl>
-|The object store has been deleted or removed.
-|-
-|<dl>
-<dt>
-[[dom/properties/toString (DOMError)|'''name''']]: ReadOnlyError</dt>
-</dl>
-|The associated transaction is read-only.
-|-
-|<dl>
-<dt>
-[[dom/properties/toString (DOMError)|'''name''']]: TransactionInactiveError</dt>
-</dl>
-|The associated transaction is not active.
-|}
- 
-'''Note'''  As of Internet Explorer 10, the [[dom/properties/code|'''code''']] property is deprecated in favor of the [[dom/properties/toString (DOMError)|'''name''']] property, which is preferred for standards compliance and future compatibility.
-|Import_Notes=
-===Syntax===
-===Standards information===
+|Usage=An error is thrown if one of the following is true
+
+*The object store uses in-line keys and the key parameter was provided.
+*The object store uses out-of-line keys and has no key generator and the key parameter was not provided.
+*The object store uses in-line keys and the result of evaluating the object store's key path yields a value and that value is not a valid key.
+*The object store uses in-line keys but no key generator and the result of evaluating the object store's key path does not yield a value.
+*The key parameter was provided but does not contain a valid key.
+|Notes====Remarks===
+This method can throw the following [[dom/DOMException|'''DOMException''']]
+|Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?LinkId{{=}}224519 Indexed Database API]
-
-
+}}
+{{Related_Specifications_Section
+|Specifications={{Related Specification
+|Name=Structured Cloning Algorithm
+|URL=http://www.w3.org/TR/html5/common-dom-interfaces.html#safe-passing-of-structured-data
+|Status=W3C Working Draft
+}}
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 *<code>[[apis/indexedDB/IDBObjectStore|IDBObjectStore]]</code>
 }}
+{{Topics|IndexedDB}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
