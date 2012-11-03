@@ -1,21 +1,19 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{Markup_Element
 |DOM_interface=dom/HTMLTableColElement
 }}
-{{Topics|HTML}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Description=This example uses the '''col''' element to specify characteristics for default columns in a table.
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/colEX.htm
-|Code=
-
-&lt;HTML&gt;
+|Code=&lt;HTML&gt;
 &lt;BODY&gt;
 &lt;TABLE BORDER{{=}}"2" RULES{{=}}"groups"&gt;
 &lt;!-- RULES is set to "groups", which has no effect in this sample. For this 
@@ -35,18 +33,17 @@ attribute to work, you must use COLSPAN to define the groups of columns.--&gt;
 &lt;/TABLE&gt;
 &lt;/BODY&gt;
 &lt;/HTML&gt;
-
-}}}}
+|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/colEX.htm
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 '''COL''' elements can be nested within a '''COLGROUP''' element. If this is done, the nested '''COL''' attributes override the '''COLGROUP''' attributes.
 You can use the '''COL''' and '''COLGROUP''' elements for similar purposes. However, you must use the '''COLGROUP''' element to determine where table internal dividing lines ([[html/attributes/rules|'''rules''']]) should go. This is illustrated in the following example.
 Use the [[html/attributes/span|'''SPAN''']] attribute to specify the number of table columns that the '''COLGROUP''' defines. This attribute has a default value equal to one.
 The [[html/elements/table|'''table''']] object and its associated elements have a separate table object model, which uses different methods than the general object model.  For more information on the table object model, see Building Tables Dynamically.
 Windows Internet Explorer 8 will only render tables up to 1000 columns. To force Windows Internet Explorer 7 rendering mode, see How Do I Take Advantage of the New Features in Internet Explorer 8.
-|Import_Notes=
-===Standards information===
+|Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}196991 Document Object Model (DOM) Level 2 HTML Specification], Section 1.6.5
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 11.2.4
 
@@ -527,18 +524,25 @@ This property is not supported for Metro style apps using JavaScript.
 |Sets or retrieves the width of the  object.
 |}
  
-
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 *<code>colGroup</code>
-|Topic_clusters=html
 }}
+{{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
