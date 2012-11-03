@@ -62,9 +62,11 @@ In Windows Internet Explorer 9, the background of a box can have multiple layer
 |Not_required=No
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
+|Chrome_version=4+
 |Chrome_prefixed_supported=No
 |Chrome_prefixed_version=
 |Firefox_supported=Yes
+|Firefox_version=4+
 |Firefox_prefixed_supported=Yes
 |Firefox_prefixed_version=1.0-3.6
 |Internet_explorer_supported=Yes
