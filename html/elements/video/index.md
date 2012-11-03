@@ -4,7 +4,7 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|The video element allows embedding a video in a document.}}
+{{Summary_Section|Video is a new element introduced in HTML5 for embedding videos within a webpage.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLVideoElement
 }}
