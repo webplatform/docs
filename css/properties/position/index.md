@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Perhaps one of the hardest properties fully master, the position property controls the type of positioning used by an element within its parent elements. The effect of the position attribute depends on a lot of factors including the positioning type of parent elements.}}
 {{CSS Property
 |Applies to=All elements
 |Inherited=No
