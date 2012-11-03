@@ -54,9 +54,9 @@ This has the effect that, by default, the output of a filter paints onto the scr
 [[Image:BasicSVGFilterExampleWithClipRegion.png|alt=image showing the result of specifying a custom filter effects region]]
 
 ===Filter Resolution===
-By default, it's left up to the browser to decide what resolution to use when performing operations on filter inputs, but it's possible to explicitly define a resolution for the browser to use. Choosing a filter resolution significantly lower than the display default will result in visible pixelation but filters will probably execute faster. Choosing a filter resolution significantly higher than the display default can cause slow filter performance. Filter resolution may be separately specified in both the [[svg/properties/filterResX|X]] and [[svg/properties/filterResY|Y]] dimension.
+By default, it's left up to the browser to decide what resolution to use when performing operations on filter inputs, but it's possible to define a resolution by explicitly setting the <code>filterRes</code> property. Choosing a filter resolution significantly lower than the display default will result in visible pixelation but filters will execute faster. Choosing a filter resolution significantly higher than the default will cause slow filter performance. Filter resolution may be separately specified in both the [[svg/properties/filterResX|X]] and [[svg/properties/filterResY|Y]] dimension.
 
-Below we show an example of blurs with low values of FilterRes. The first example shows a filterRes with a single value which is applied to both the X and Y dimensions. The second example shows a filterRes with two values, which results in a low resolution blur in just the Y dimension.
+Below we show an example of blurs with low values of filterRes. The first example shows a filterRes with a single value which is applied to both the X and Y dimensions. The second example shows a filterRes with two values, which results in a low resolution blur in just the Y dimension. Setting a very low resolution has resulted in highly visible pixelation.
 
 <syntaxhighlight lang="xml">
 <svg width="450px" height="300px" viewbox="0 0 450 300"
