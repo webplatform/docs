@@ -1,34 +1,27 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{Markup_Element
 |DOM_interface=dom/HTMLInputElement
 }}
-{{Topics|HTML}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Description=This example uses the &lt;label&gt; tag to include the text with the checkbox to increase the touch sensitive area of the checkbox.
-|LiveURL=
-|Code=
-&lt;label&gt;&lt;input id{{=}}"red" type{{=}}"checkbox" name{{=}}"colors" value{{=}}"red" /&gt;Text&lt;/label&gt;
-}}
-{{Single_Example
+|Code=&lt;label&gt;&lt;input id{{=}}"red" type{{=}}"checkbox" name{{=}}"colors" value{{=}}"red" /&gt;Text&lt;/label&gt;
+}}{{Single Example
 |Description=This example uses the '''INPUT type{{=}}radio''' element to create three radio buttons.
-|LiveURL=
-|Code=
-&lt;INPUT type{{=}}radio name{{=}}"radio" CHECKED&gt;1-10 years old
+|Code=&lt;INPUT type{{=}}radio name{{=}}"radio" CHECKED&gt;1-10 years old
 &lt;INPUT type{{=}}radio name{{=}}"radio"&gt;11 years old
 &lt;INPUT type{{=}}radio name{{=}}"radio"&gt;12-120 years old
-}}
-{{Single_Example
+}}{{Single Example
 |Description=This example uses script to detect which radio button the user selects.
-|LiveURL=
-|Code=
-&lt;SCRIPT&gt;
+|Code=&lt;SCRIPT&gt;
 function detect()
 {
     if (radio[0].checked)
@@ -39,18 +32,17 @@ function detect()
         alert("You're between 12 and 120 years old.")
 }
 &lt;/SCRIPT&gt;
-}}}}
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 Use a radio button control to limit a user's selection to a single value within a set of values. To do this, you must link together each button in a set of radio buttons by assigning each button the same [[html/attributes/name|'''name''']].
 When a user submits a form, a selected radio button generates a name/value pair in the form data only if the button has a [[html/attributes/value (select, option element)|'''value''']].
 To select a radio button as the default button in a set, set the [[html/attributes/checked|'''checked''']] property of the button to <code>true</code>.
 A user can select a radio button only if the button has a [[html/attributes/name|'''name''']]. To clear a selected radio button, a user must select another button in the set.
 Windows Internet Explorer 8 and later. In IE8 Standards mode, you can select an '''input type{{=}}radio''' button that does not have a [[html/attributes/name|'''name''']] attribute specified. In addition, dynamically setting the '''name''' attribute on an '''input type{{=}}radio''' button correctly applies that button to the same named group. For more information, see Defining Document Compatibility.
 Touching on the label associated with a radio button has the same effect as touching the radio button directly.
-|Import_Notes=
-===Standards information===
+|Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 17.4
 
 
@@ -734,21 +726,28 @@ This property is not supported for Metro style apps using JavaScript.
 |Sets or retrieves the calculated width of the object.
 |}
  
-
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 *<code>Reference</code>
 *<code>input</code>
 *<code>Conceptual</code>
 *<code>Introduction to Forms</code>
-|Topic_clusters=html, form
 }}
+{{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
