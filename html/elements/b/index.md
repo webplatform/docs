@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|B is a very old element that tells the browser to make the nested text bold.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
 }}
