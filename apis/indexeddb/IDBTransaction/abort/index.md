@@ -17,7 +17,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
-|Code=/*Open Database*/
+|Code=
 var dbOpenRequest = window.indexedDB.open("BookShop1");
 dbOpenRequest.onsuccess = function (event) {
     var db = dbOpenRequest.result;
