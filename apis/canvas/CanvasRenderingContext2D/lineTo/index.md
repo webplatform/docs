@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Connects the last point in the subpath to the given point (x, y) using a straight line, and then adds the given point (x, y) to the subpath.}}
+{{Summary_Section|Connects the last point in the subpath to the given point (x, y) using a straight line, and then adds the point to the subpath.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=x
