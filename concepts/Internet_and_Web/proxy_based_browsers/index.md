@@ -1,6 +1,7 @@
 {{Page_Title|Proxy-based browsers}}
 {{Flags
-|High-level issues=Stub
+|High-level issues=Stub, Deletion Candidate
+|Editorial notes=This is not a web development concept topic, and will attract vendor spam.
 }}
 {{API_Name}}
 {{Summary_Section|This article will give an overview of proxy based browsers. Some solution transform web pages into compact formats. Some solution only provides data compression.}}
