@@ -1,25 +1,23 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections
-|Content=Incomplete, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Content=Incomplete, Examples Best Practices
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section}}
 {{Markup_Attribute
 |Property_applies_to=dom/HTMLElement
+|Content=The `width` property is a standard HTML attribute. The value of this attribute is usually an integer. 
+
+It is very common to see HTML tags like images, iframes or object elements have `width` (and `height`) attributes.
 }}
 {{Examples_Section
 |Not_required=No
 |Examples=
 }}
 {{Notes_Section
-|Notes====Remarks===
-This property is an integer value. Although an HTML author can specify the width as a percentage, this property always specifies the width in pixels in C++.
+|Notes=This property is an integer value. Although an HTML author can specify the width as a percentage, this property always specifies the width in pixels in C++.
 In Microsoft Internet Explorer 5 it is possible to set the '''width''' property, but doing so has no effect on the rendering of the frame.
-|Import_Notes====Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}161725 Document Object Model (DOM) Level 1 Specification], Section 2.5.5
 }}
 {{Related_Specifications_Section
 |Specifications=
