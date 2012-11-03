@@ -21,6 +21,7 @@
 }}
 }}
 {{Notes_Section
+|Usage=The developer should be careful not to overuse iframes, because they dramatically slow down the rendering of a page. For each extra iframe, the browser has to make an extra request to the server.
 |Notes====Remarks===
 The '''iframe''' element functions as a document within a document, or like a floating '''frame'''. The [[dom/properties/frames|'''frames''']] collection provides access to the contents of an '''iframe'''. Use the '''frames''' collection to read or write to elements contained in an '''iframe'''. For example, the syntax for accessing the [[css/properties/background-color|'''backgroundColor''']] style of the '''body''' object in an '''iframe''' is:
  <code>sColor {{=}} document.frames("sFrameName").document.body.style.backgroundColor;</code>
