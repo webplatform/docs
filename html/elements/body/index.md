@@ -111,7 +111,7 @@ The following attributes are obsolete, and must not be used by authors: <code>al
 }}
 {{Notes_Section
 |Import_Notes====Members===
-The  <code><body></code> object has these types of members:
+The <code><body></code> object has these types of members:
 *[[#Events|Events]]
 *[[#Methods|Methods]]
 *[[#Properties|Properties]]
@@ -127,225 +127,225 @@ The <code><body></code> object has these events.
 {{!}}[[dom/events/abort|<code>onabort</code>]]
 {{!}}Fires when the user aborts the download.
 {{!}}-
-{{!}}[[dom/events/activate|'''onactivate''']]
-{{!}}Fires when the object is set as the [[dom/properties/activeElement|'''active element''']].
+{{!}}[[dom/events/activate|<code>onactivate</code>]]
+{{!}}Fires when the object is set as the [[dom/properties/activeElement|<code>active element</code>]].
 {{!}}-
-{{!}}[[dom/events/afterprint|'''onafterprint''']]
+{{!}}[[dom/events/afterprint|<code>onafterprint</code>]]
 {{!}}Fires on the object immediately after its associated document prints or previews for printing.
 {{!}}-
-{{!}}[[dom/events/afterupdate|'''onafterupdate''']]
+{{!}}[[dom/events/afterupdate|<code>onafterupdate</code>]]
 {{!}}Fires on a databound object after successfully updating the associated data in the data source object.
 {{!}}-
-{{!}}[[dom/events/beforeactivate|'''onbeforeactivate''']]
-{{!}}Fires immediately before the object is set as the [[dom/properties/activeElement|'''active element''']].
+{{!}}[[dom/events/beforeactivate|<code>onbeforeactivate</code>]]
+{{!}}Fires immediately before the object is set as the [[dom/properties/activeElement|<code>active element</code>]].
 {{!}}-
-{{!}}[[dom/events/beforecopy|'''onbeforecopy''']]
+{{!}}[[dom/events/beforecopy|<code>onbeforecopy</code>]]
 {{!}}Fires on the source object before the selection is copied to the system clipboard.
 {{!}}-
-{{!}}[[dom/events/beforecut|'''onbeforecut''']]
+{{!}}[[dom/events/beforecut|<code>onbeforecut</code>]]
 {{!}}Fires on the source object before the selection is deleted from the document.
 {{!}}-
-{{!}}[[dom/events/beforedeactivate|'''onbeforedeactivate''']]
-{{!}}Fires immediately before the [[dom/properties/activeElement|'''activeElement''']] is changed from the current object to another object in the parent document.
+{{!}}[[dom/events/beforedeactivate|<code>onbeforedeactivate</code>]]
+{{!}}Fires immediately before the [[dom/properties/activeElement|<code>activeElement</code>]] is changed from the current object to another object in the parent document.
 {{!}}-
-{{!}}[[dom/events/beforeeditfocus|'''onbeforeeditfocus''']]
+{{!}}[[dom/events/beforeeditfocus|<code>onbeforeeditfocus</code>]]
 {{!}}Fires before an object contained in an editable element enters a ''UI Activation'' state or when an editable container object is ''control selection''.
 {{!}}-
-{{!}}[[dom/events/beforepaste|'''onbeforepaste''']]
+{{!}}[[dom/events/beforepaste|<code>onbeforepaste</code>]]
 {{!}}Fires on the target object before the selection is pasted from the system clipboard to the document.
 {{!}}-
-{{!}}[[dom/events/beforeprint|'''onbeforeprint''']]
+{{!}}[[dom/events/beforeprint|<code>onbeforeprint</code>]]
 {{!}}Fires on the object before its associated document prints or previews for printing.
 {{!}}-
-{{!}}[[dom/events/beforeunload|'''onbeforeunload''']]
+{{!}}[[dom/events/beforeunload|<code>onbeforeunload</code>]]
 {{!}}Fires prior to a document being unloaded.
 {{!}}-
-{{!}}[[dom/events/beforeupdate|'''onbeforeupdate''']]
+{{!}}[[dom/events/beforeupdate|<code>onbeforeupdate</code>]]
 {{!}}Fires on a databound object before updating the associated data in the data source object.
 {{!}}-
-{{!}}[[dom/events/cellchange|'''oncellchange''']]
+{{!}}[[dom/events/cellchange|<code>oncellchange</code>]]
 {{!}}Fires when data changes in the data provider.
 {{!}}-
-{{!}}[[dom/events/change|'''onchange''']]
+{{!}}[[dom/events/change|<code>onchange</code>]]
 {{!}}Fires when the contents of the object or selection have changed.
 {{!}}-
-{{!}}[[dom/events/click|'''onclick''']]
+{{!}}[[dom/events/click|<code>onclick</code>]]
 {{!}}Fires when the user clicks the left mouse button on the object.
 {{!}}-
-{{!}}[[dom/events/contextmenu|'''oncontextmenu''']]
+{{!}}[[dom/events/contextmenu|<code>oncontextmenu</code>]]
 {{!}}Fires when the user clicks the right mouse button in the client area, opening the context menu.
 {{!}}-
-{{!}}[[dom/events/controlselect|'''oncontrolselect''']]
+{{!}}[[dom/events/controlselect|<code>oncontrolselect</code>]]
 {{!}}Fires when the user is about to make a ''control selection'' of the object.
 {{!}}-
-{{!}}[[dom/events/cut|'''oncut''']]
+{{!}}[[dom/events/cut|<code>oncut</code>]]
 {{!}}Fires on the source element when the object or selection is removed from the document and added to the system clipboard.
 {{!}}-
-{{!}}[[dom/events/dataavailable|'''ondataavailable''']]
+{{!}}[[dom/events/dataavailable|<code>ondataavailable</code>]]
 {{!}}Fires periodically as data arrives from data source objects that asynchronously transmit their data.
 {{!}}-
-{{!}}[[dom/events/datasetchanged|'''ondatasetchanged''']]
+{{!}}[[dom/events/datasetchanged|<code>ondatasetchanged</code>]]
 {{!}}Fires when the data set exposed by a data source object changes.
 {{!}}-
-{{!}}[[dom/events/datasetcomplete|'''ondatasetcomplete''']]
+{{!}}[[dom/events/datasetcomplete|<code>ondatasetcomplete</code>]]
 {{!}}Fires to indicate that all data is available from the data source object.
 {{!}}-
-{{!}}[[dom/events/dblclick|'''ondblclick''']]
+{{!}}[[dom/events/dblclick|<code>ondblclick</code>]]
 {{!}}Fires when the user double-clicks the object.
 {{!}}-
-{{!}}[[dom/events/deactivate|'''ondeactivate''']]
-{{!}}Fires when the [[dom/properties/activeElement|'''activeElement''']] is changed from the current object to another object in the parent document.
+{{!}}[[dom/events/deactivate|<code>ondeactivate</code>]]
+{{!}}Fires when the [[dom/properties/activeElement|<code>activeElement</code>]] is changed from the current object to another object in the parent document.
 {{!}}-
-{{!}}[[dom/events/drag|'''ondrag''']]
+{{!}}[[dom/events/drag|<code>ondrag</code>]]
 {{!}}Fires on the source object continuously during a drag operation.
 {{!}}-
-{{!}}[[dom/events/dragend|'''ondragend''']]
+{{!}}[[dom/events/dragend|<code>ondragend</code>]]
 {{!}}Fires on the source object when the user releases the mouse at the close of a drag operation.
 {{!}}-
-{{!}}[[dom/events/dragenter|'''ondragenter''']]
+{{!}}[[dom/events/dragenter|<code>ondragenter</code>]]
 {{!}}Fires on the target element when the user drags the object to a valid drop target.
 {{!}}-
-{{!}}[[dom/events/dragleave|'''ondragleave''']]
+{{!}}[[dom/events/dragleave|<code>ondragleave</code>]]
 {{!}}Fires on the target object when the user moves the mouse out of a valid drop target during a drag operation.
 {{!}}-
-{{!}}[[dom/events/dragover|'''ondragover''']]
+{{!}}[[dom/events/dragover|<code>ondragover</code>]]
 {{!}}Fires on the target element continuously while the user drags the object over a valid drop target.
 {{!}}-
-{{!}}[[dom/events/dragstart|'''ondragstart''']]
+{{!}}[[dom/events/dragstart|<code>ondragstart</code>]]
 {{!}}Fires on the source object when the user starts to drag a text selection or selected object.
 {{!}}-
-{{!}}[[dom/events/drop|'''ondrop''']]
+{{!}}[[dom/events/drop|<code>ondrop</code>]]
 {{!}}Fires on the target object when the mouse button is released during a drag-and-drop operation.
 {{!}}-
-{{!}}[[dom/events/error|'''onerror''']]
+{{!}}[[dom/events/error|<code>onerror</code>]]
 {{!}}Fires when an error occurs during object loading.
 {{!}}-
-{{!}}[[dom/events/errorupdate|'''onerrorupdate''']]
+{{!}}[[dom/events/errorupdate|<code>onerrorupdate</code>]]
 {{!}}Fires on a databound object when an error occurs while updating the associated data in the data source object.
 {{!}}-
-{{!}}[[dom/events/filterchange|'''onfilterchange''']]
+{{!}}[[dom/events/filterchange|<code>onfilterchange</code>]]
 {{!}}Fires when a visual filter changes state or completes a transition.
 {{!}}-
-{{!}}[[dom/events/focusin|'''onfocusin''']]
+{{!}}[[dom/events/focusin|<code>onfocusin</code>]]
 {{!}}Fires for an element just prior to setting focus on that element.
 {{!}}-
-{{!}}[[dom/events/focusout|'''onfocusout''']]
+{{!}}[[dom/events/focusout|<code>onfocusout</code>]]
 {{!}}Fires for the current element with focus immediately after moving focus to another element.
 {{!}}-
-{{!}}[[dom/events/hashchange|'''onhashchange''']]
+{{!}}[[dom/events/hashchange|<code>onhashchange</code>]]
 {{!}}Raised when there are changes to the portion of a
 URL that follows the number sign (#).
 
 
 This event is not supported for Metro style apps using JavaScript.
 {{!}}-
-{{!}}[[dom/events/input|'''oninput''']]
+{{!}}[[dom/events/input|<code>oninput</code>]]
 {{!}}Occurs when the text content of an element is changed through the user interface.
 {{!}}-
-{{!}}[[dom/events/keydown|'''onkeydown''']]
+{{!}}[[dom/events/keydown|<code>onkeydown</code>]]
 {{!}}Fires when the user presses a key.
 {{!}}-
-{{!}}[[dom/events/keypress|'''onkeypress''']]
+{{!}}[[dom/events/keypress|<code>onkeypress</code>]]
 {{!}}Fires when the user presses an alphanumeric key.
 {{!}}-
-{{!}}[[dom/events/keyup|'''onkeyup''']]
+{{!}}[[dom/events/keyup|<code>onkeyup</code>]]
 {{!}}Fires when the user releases a key.
 {{!}}-
-{{!}}[[dom/events/layoutcomplete|'''onlayoutcomplete''']]
+{{!}}[[dom/events/layoutcomplete|<code>onlayoutcomplete</code>]]
 {{!}}Fires when the print or print preview layout process finishes filling the current LayoutRect object with content from the source document.
 {{!}}-
-{{!}}[[dom/events/load|'''onload''']]
+{{!}}[[dom/events/load|<code>onload</code>]]
 {{!}}Fires immediately after the client loads the object.
 {{!}}-
-{{!}}[[dom/events/losecapture|'''onlosecapture''']]
+{{!}}[[dom/events/losecapture|<code>onlosecapture</code>]]
 {{!}}Fires when the object loses the mouse capture.
 {{!}}-
-{{!}}[[dom/events/mousedown|'''onmousedown''']]
+{{!}}[[dom/events/mousedown|<code>onmousedown</code>]]
 {{!}}Fires when the user clicks the object with either mouse button.
 {{!}}-
-{{!}}[[dom/events/mouseenter|'''onmouseenter''']]
+{{!}}[[dom/events/mouseenter|<code>onmouseenter</code>]]
 {{!}}Fires when the user moves the mouse pointer into the object.
 {{!}}-
-{{!}}[[dom/events/mouseleave|'''onmouseleave''']]
+{{!}}[[dom/events/mouseleave|<code>onmouseleave</code>]]
 {{!}}Fires when the user moves the mouse pointer outside the boundaries of the object.
 {{!}}-
-{{!}}[[dom/events/mousemove|'''onmousemove''']]
+{{!}}[[dom/events/mousemove|<code>onmousemove</code>]]
 {{!}}Fires when the user moves the mouse over the object.
 {{!}}-
-{{!}}[[dom/events/mouseout|'''onmouseout''']]
+{{!}}[[dom/events/mouseout|<code>onmouseout</code>]]
 {{!}}Fires when the user moves the mouse pointer outside the boundaries of the object.
 {{!}}-
-{{!}}[[dom/events/mouseover|'''onmouseover''']]
+{{!}}[[dom/events/mouseover|<code>onmouseover</code>]]
 {{!}}Fires when the user moves the mouse pointer into the object.
 {{!}}-
-{{!}}[[dom/events/mouseup|'''onmouseup''']]
+{{!}}[[dom/events/mouseup|<code>onmouseup</code>]]
 {{!}}Fires when the user releases a mouse button while the mouse is over the object.
 {{!}}-
-{{!}}[[dom/events/mousewheel|'''onmousewheel''']]
+{{!}}[[dom/events/mousewheel|<code>onmousewheel</code>]]
 {{!}}Fires when the wheel button is rotated.
 {{!}}-
-{{!}}[[dom/events/move|'''onmove''']]
+{{!}}[[dom/events/move|<code>onmove</code>]]
 {{!}}Fires when the object moves.
 {{!}}-
-{{!}}[[dom/events/moveend|'''onmoveend''']]
+{{!}}[[dom/events/moveend|<code>onmoveend</code>]]
 {{!}}Fires when the object stops moving.
 {{!}}-
-{{!}}[[dom/events/movestart|'''onmovestart''']]
+{{!}}[[dom/events/movestart|<code>onmovestart</code>]]
 {{!}}Fires when the object starts to move.
 {{!}}-
-{{!}}[[dom/events/offline|'''onoffline''']]
+{{!}}[[dom/events/offline|<code>onoffline</code>]]
 {{!}}Raised when Internet Explorer is working offline.
 
 This event is not supported for Metro style apps using JavaScript.
 {{!}}-
-{{!}}[[dom/events/online|'''ononline''']]
+{{!}}[[dom/events/online|<code>ononline</code>]]
 {{!}}Raised when Internet Explorer is working online.
 
 This event is not supported for Metro style apps using JavaScript.
 {{!}}-
-{{!}}[[dom/events/paste|'''onpaste''']]
+{{!}}[[dom/events/paste|<code>onpaste</code>]]
 {{!}}Fires on the target object when the user pastes data, transferring the data from the system clipboard to the document.
 {{!}}-
-{{!}}[[dom/events/propertychange|'''onpropertychange''']]
+{{!}}[[dom/events/propertychange|<code>onpropertychange</code>]]
 {{!}}Fires when a property changes on the object.
 {{!}}-
-{{!}}[[dom/events/readystatechange|'''onreadystatechange''']]
+{{!}}[[dom/events/readystatechange|<code>onreadystatechange</code>]]
 {{!}}Fires when the state of the object has changed.
 {{!}}-
-{{!}}[[dom/events/reset|'''onreset''']]
+{{!}}[[dom/events/reset|<code>onreset</code>]]
 {{!}}Fires when the user resets a form.
 {{!}}-
-{{!}}[[dom/events/resize|'''onresize''']]
+{{!}}[[dom/events/resize|<code>onresize</code>]]
 {{!}}Fires when the size of the object is about to change.
 {{!}}-
-{{!}}[[dom/events/resizeend|'''onresizeend''']]
+{{!}}[[dom/events/resizeend|<code>onresizeend</code>]]
 {{!}}Fires when the user finishes changing the dimensions of the object in a ''control selection''.
 {{!}}-
-{{!}}[[dom/events/resizestart|'''onresizestart''']]
+{{!}}[[dom/events/resizestart|<code>onresizestart</code>]]
 {{!}}Fires when the user begins to change the dimensions of the object in a ''control selection''.
 {{!}}-
-{{!}}[[dom/events/rowenter|'''onrowenter''']]
+{{!}}[[dom/events/rowenter|<code>onrowenter</code>]]
 {{!}}Fires to indicate that the current row has changed in the data source and new data values are available on the object.
 {{!}}-
-{{!}}[[dom/events/rowexit|'''onrowexit''']]
+{{!}}[[dom/events/rowexit|<code>onrowexit</code>]]
 {{!}}Fires just before the data source control changes the current row in the object.
 {{!}}-
-{{!}}[[dom/events/rowsdelete|'''onrowsdelete''']]
+{{!}}[[dom/events/rowsdelete|<code>onrowsdelete</code>]]
 {{!}}Fires when rows are about to be deleted from the recordset.
 {{!}}-
-{{!}}[[dom/events/rowsinserted|'''onrowsinserted''']]
+{{!}}[[dom/events/rowsinserted|<code>onrowsinserted</code>]]
 {{!}}Fires just after new rows are inserted in the current recordset.
 {{!}}-
-{{!}}[[dom/events/scroll|'''onscroll''']]
+{{!}}[[dom/events/scroll|<code>onscroll</code>]]
 {{!}}Fires when the user repositions the scroll box in the scroll bar on the object.
 {{!}}-
-{{!}}[[dom/events/selectstart|'''onselect''']]
+{{!}}[[dom/events/selectstart|<code>onselect</code>]]
 {{!}}Fires when the current selection changes.
 {{!}}-
-{{!}}[[dom/events/select|'''onselectstart''']]
+{{!}}[[dom/events/select|<code>onselectstart</code>]]
 {{!}}Fires when the object is being selected.
 {{!}}-
-{{!}}[[dom/events/unload|'''onunload''']]
+{{!}}[[dom/events/unload|<code>onunload</code>]]
 {{!}}Fires immediately before the object is unloaded.
 {{!}}}
  
@@ -357,181 +357,181 @@ The  <code><body></code> object has these methods.
 !Method
 !Description
 {{!}}-
-{{!}}'''addBehavior'''
+{{!}}<code>addBehavior</code>
 {{!}}Attaches a behavior to the element.
 
 This method is not supported for Metro style apps using JavaScript.
 {{!}}-
-{{!}}[[dom/methods/appendChild|'''appendChild''']]
+{{!}}[[dom/methods/appendChild|<code>appendChild</code>]]
 {{!}}Appends an element as a child to the object.
 {{!}}-
-{{!}}[[dom/methods/applyElement|'''applyElement''']]
+{{!}}[[dom/methods/applyElement|<code>applyElement</code>]]
 {{!}}Makes the element either a child or parent of another element.
 {{!}}-
-{{!}}[[dom/methods/attachEvent|'''attachEvent''']]
+{{!}}[[dom/methods/attachEvent|<code>attachEvent</code>]]
 {{!}}Binds the specified function to an event, so that the function gets called whenever the event fires on the object.
 {{!}}-
-{{!}}[[dom/methods/blur|'''blur''']]
-{{!}}Causes the element to lose focus and fires the [[dom/events/blur|'''onblur''']] event.
+{{!}}[[dom/methods/blur|<code>blur</code>]]
+{{!}}Causes the element to lose focus and fires the [[dom/events/blur|<code>onblur</code>]] event.
 {{!}}-
-{{!}}[[dom/methods/clearAttributes|'''clearAttributes''']]
+{{!}}[[dom/methods/clearAttributes|<code>clearAttributes</code>]]
 {{!}}Removes all attributes and values from the object.
 {{!}}-
-{{!}}[[dom/methods/click|'''click''']]
-{{!}}Simulates a click by causing the [[dom/events/click|'''onclick''']] event to fire.
+{{!}}[[dom/methods/click|<code>click</code>]]
+{{!}}Simulates a click by causing the [[dom/events/click|<code>onclick</code>]] event to fire.
 {{!}}-
-{{!}}[[dom/methods/cloneNode|'''cloneNode''']]
+{{!}}[[dom/methods/cloneNode|<code>cloneNode</code>]]
 {{!}}Copies a reference to the object from the document hierarchy.
 {{!}}-
-{{!}}[[dom/methods/componentFromPoint|'''componentFromPoint''']]
+{{!}}[[dom/methods/componentFromPoint|<code>componentFromPoint</code>]]
 {{!}}Returns the component located at the specified coordinates via certain events.
 {{!}}-
-{{!}}'''contains'''
+{{!}}<code>contains</code>
 {{!}}Checks whether the given element is contained within the object.
 {{!}}-
-{{!}}[[dom/traversal/methods/createControlRange|'''createControlRange''']]
-{{!}}Creates a [[dom/properties/controlRange|'''controlRange''']] collection of nontext elements.
+{{!}}[[dom/traversal/methods/createControlRange|<code>createControlRange</code>]]
+{{!}}Creates a [[dom/properties/controlRange|<code>controlRange</code>]] collection of nontext elements.
 {{!}}-
-{{!}}[[dom/traversal/methods/createTextRange|'''createTextRange''']]
-{{!}}Creates a [[dom/traversal/TextRange|'''TextRange''']] object for the element.
+{{!}}[[dom/traversal/methods/createTextRange|<code>createTextRange</code>]]
+{{!}}Creates a [[dom/traversal/TextRange|<code>TextRange</code>]] object for the element.
 {{!}}-
-{{!}}[[dom/methods/detachEvent|'''detachEvent''']]
+{{!}}[[dom/methods/detachEvent|<code>detachEvent</code>]]
 {{!}}Unbinds the specified function from the event, so that the function stops receiving notifications when the event fires.
 {{!}}-
-{{!}}[[dom/methods/doScroll|'''doScroll''']]
+{{!}}[[dom/methods/doScroll|<code>doScroll</code>]]
 {{!}}Simulates a click on a scroll bar component.
 {{!}}-
-{{!}}[[dom/methods/dragDrop|'''dragDrop''']]
+{{!}}[[dom/methods/dragDrop|<code>dragDrop</code>]]
 {{!}}Initiates a drag event.
 {{!}}-
-{{!}}[[dom/methods/fireEvent|'''fireEvent''']]
+{{!}}[[dom/methods/fireEvent|<code>fireEvent</code>]]
 {{!}}Fires a specified event on the object.
 {{!}}-
-{{!}}[[dom/methods/focus|'''focus''']]
-{{!}}Causes the element to receive the focus and executes the code specified by the [[dom/events/focus|'''onfocus''']] event.
+{{!}}[[dom/methods/focus|<code>focus</code>]]
+{{!}}Causes the element to receive the focus and executes the code specified by the [[dom/events/focus|<code>onfocus</code>]] event.
 {{!}}-
-{{!}}[[dom/methods/getAdjacentText|'''getAdjacentText''']]
+{{!}}[[dom/methods/getAdjacentText|<code>getAdjacentText</code>]]
 {{!}}Returns the adjacent text string.
 {{!}}-
-{{!}}[[dom/methods/getAttribute|'''getAttribute''']]
+{{!}}[[dom/methods/getAttribute|<code>getAttribute</code>]]
 {{!}}Retrieves the value of the specified attribute.
 {{!}}-
-{{!}}[[dom/methods/getAttributeNode|'''getAttributeNode''']]
-{{!}}Retrieves an [[dom/attributes|'''attribute''']] object referenced by the '''attribute'''.[[html/attributes/name|'''name''']] property.
+{{!}}[[dom/methods/getAttributeNode|<code>getAttributeNode</code>]]
+{{!}}Retrieves an [[dom/attributes|<code>attribute</code>]] object referenced by the <code>attribute<code>.[[html/attributes/name|<code>name</code>]] property.
 {{!}}-
-{{!}}[[dom/methods/getAttributeNodeNS|'''getAttributeNodeNS''']]
-{{!}}Gets an [[dom/attributes|'''attribute''']] object that matches the specified namespace and name.
+{{!}}[[dom/methods/getAttributeNodeNS|<code>getAttributeNodeNS</code>]]
+{{!}}Gets an [[dom/attributes|<code>attribute</code>]] object that matches the specified namespace and name.
 {{!}}-
-{{!}}[[dom/methods/getAttributeNS|'''getAttributeNS''']]
+{{!}}[[dom/methods/getAttributeNS|<code>getAttributeNS</code>]]
 {{!}}Gets the value of the specified attribute within the specified namespace.
 {{!}}-
-{{!}}[[dom/methods/getBoundingClientRect|'''getBoundingClientRect''']]
-{{!}}Retrieves an object that specifies the bounds of a collection of [[dom/TextRectangle|'''TextRectangle''']] objects.
+{{!}}[[dom/methods/getBoundingClientRect|<code>getBoundingClientRect</code>]]
+{{!}}Retrieves an object that specifies the bounds of a collection of [[dom/TextRectangle|<code>TextRectangle</code>]] objects.
 {{!}}-
-{{!}}[[dom/methods/getClientRects|'''getClientRects''']]
+{{!}}[[dom/methods/getClientRects|<code>getClientRects</code>]]
 {{!}}Retrieves a collection of rectangles that describes the layout of the contents of an object or range within the client. Each rectangle describes a single line.
 {{!}}-
-{{!}}[[dom/methods/getElementsByClassName|'''getElementsByClassName''']]
-{{!}}Gets a collection of objects that are based on the value of the [[dom/properties/className|'''CLASS''']] attribute.
+{{!}}[[dom/methods/getElementsByClassName|<code>getElementsByClassName</code>]]
+{{!}}Gets a collection of objects that are based on the value of the [[dom/properties/className|<code>CLASS</code>]] attribute.
 {{!}}-
-{{!}}[[dom/methods/getElementsByTagName|'''getElementsByTagName''']]
+{{!}}[[dom/methods/getElementsByTagName|<code>getElementsByTagName</code>]]
 {{!}}Retrieves a collection of objects based on the specified element name.
 {{!}}-
-{{!}}[[dom/methods/getElementsByTagNameNS|'''getElementsByTagNameNS''']]
+{{!}}[[dom/methods/getElementsByTagNameNS|<code>getElementsByTagNameNS</code>]]
 {{!}}Gets a collection of objects that are based on the specified element names within a specified namespace.
 {{!}}-
-{{!}}[[dom/methods/hasAttribute|'''hasAttribute''']]
+{{!}}[[dom/methods/hasAttribute|<code>hasAttribute</code>]]
 {{!}}Determines whether an attribute with the specified name exists.
 {{!}}-
-{{!}}[[dom/methods/hasAttributeNS|'''hasAttributeNS''']]
+{{!}}[[dom/methods/hasAttributeNS|<code>hasAttributeNS</code>]]
 {{!}}Determines whether an attribute that has the specified namespace and name exists.
 {{!}}-
-{{!}}[[dom/methods/hasAttributes|'''hasAttributes''']]
+{{!}}[[dom/methods/hasAttributes|<code>hasAttributes</code>]]
 {{!}}Determines whether one or more attributes exist for the object.
 {{!}}-
-{{!}}[[dom/methods/hasChildNodes|'''hasChildNodes''']]
+{{!}}[[dom/methods/hasChildNodes|<code>hasChildNodes</code>]]
 {{!}}Returns a value that indicates whether the object has children.
 {{!}}-
-{{!}}[[dom/methods/insertAdjacentElement|'''insertAdjacentElement''']]
+{{!}}[[dom/methods/insertAdjacentElement|<code>insertAdjacentElement</code>]]
 {{!}}Inserts an element at the specified location.
 {{!}}-
-{{!}}[[dom/methods/insertAdjacentHTML|'''insertAdjacentHTML''']]
+{{!}}[[dom/methods/insertAdjacentHTML|<code>insertAdjacentHTML</code>]]
 {{!}}Inserts the given HTML text into the element at the location.
 {{!}}-
-{{!}}[[dom/methods/insertAdjacentText|'''insertAdjacentText''']]
+{{!}}[[dom/methods/insertAdjacentText|<code>insertAdjacentText</code>]]
 {{!}}Inserts the given text into the element at the specified location.
 {{!}}-
-{{!}}[[dom/methods/insertBefore|'''insertBefore''']]
+{{!}}[[dom/methods/insertBefore|<code>insertBefore</code>]]
 {{!}}Inserts an element into the document hierarchy as a child node of a parent object.
 {{!}}-
-{{!}}[[dom/methods/mergeAttributes|'''mergeAttributes''']]
+{{!}}[[dom/methods/mergeAttributes|<code>mergeAttributes</code>]]
 {{!}}Copies all read/write attributes to the specified element.
 {{!}}-
-{{!}}[[dom/methods/matchesSelector|'''msMatchesSelector''']]
+{{!}}[[dom/methods/matchesSelector|<code>msMatchesSelector</code>]]
 {{!}}Determines whether an object matches the specified selector.
 {{!}}-
-{{!}}[[dom/methods/normalize|'''normalize''']]
+{{!}}[[dom/methods/normalize|<code>normalize</code>]]
 {{!}}Merges adjacent DOM objects to produce a normalized document object model.
 {{!}}-
-{{!}}[[css/selectors api/querySelector|'''querySelector''']]
+{{!}}[[css/selectors api/querySelector|<code>querySelector</code>]]
 {{!}}Retrieves the first DOM
 element node from descendants of the starting element node
 that match any selector within the supplied selector string.
 {{!}}-
-{{!}}[[css/selectors api/querySelectorAll|'''querySelectorAll''']]
+{{!}}[[css/selectors api/querySelectorAll|<code>querySelectorAll</code>]]
 {{!}}Retrieves all DOM
 element nodes from descendants of the starting element node
 that match any selector within the supplied selector strings.
 {{!}}-
-{{!}}[[dom/methods/releaseCapture|'''releaseCapture''']]
+{{!}}[[dom/methods/releaseCapture|<code>releaseCapture</code>]]
 {{!}}Removes mouse capture from the object in the current document.
 {{!}}-
-{{!}}[[dom/methods/removeAttribute|'''removeAttribute''']]
+{{!}}[[dom/methods/removeAttribute|<code>removeAttribute</code>]]
 {{!}}Removes an attribute from an object.
 {{!}}-
-{{!}}[[dom/methods/removeAttributeNode|'''removeAttributeNode''']]
-{{!}}Removes an [[dom/attributes|'''attribute''']] object from the object.
+{{!}}[[dom/methods/removeAttributeNode|<code>removeAttributeNode</code>]]
+{{!}}Removes an [[dom/attributes|<code>attribute</code>]] object from the object.
 {{!}}-
-{{!}}[[dom/methods/removeAttributeNS|'''removeAttributeNS''']]
+{{!}}[[dom/methods/removeAttributeNS|<code>removeAttributeNS</code>]]
 {{!}}Removes the specified attribute from the object.
 {{!}}-
-{{!}}'''removeBehavior'''
+{{!}}<code>removeBehavior</code>
 {{!}}Detaches a behavior from the element.
 {{!}}-
-{{!}}[[dom/methods/removeChild|'''removeChild''']]
+{{!}}[[dom/methods/removeChild|<code>removeChild</code>]]
 {{!}}Removes a child node from the object.
 {{!}}-
-{{!}}[[dom/methods/removeNode|'''removeNode''']]
+{{!}}[[dom/methods/removeNode|<code>removeNode</code>]]
 {{!}}Removes the object from the document hierarchy.
 {{!}}-
-{{!}}[[dom/methods/replaceAdjacentText|'''replaceAdjacentText''']]
+{{!}}[[dom/methods/replaceAdjacentText|<code>replaceAdjacentText</code>]]
 {{!}}Replaces the text adjacent to the element.
 {{!}}-
-{{!}}[[dom/methods/replaceChild|'''replaceChild''']]
+{{!}}[[dom/methods/replaceChild|<code>replaceChild</code>]]
 {{!}}Replaces an existing child element with a new child element.
 {{!}}-
-{{!}}[[dom/methods/replaceNode|'''replaceNode''']]
+{{!}}[[dom/methods/replaceNode|<code>replaceNode</code>]]
 {{!}}Replaces the object with another element.
 {{!}}-
-{{!}}[[dom/methods/setActive|'''setActive''']]
+{{!}}[[dom/methods/setActive|<code>setActive</code>]]
 {{!}}Sets the object as active without setting focus to the object.
 {{!}}-
-{{!}}[[dom/methods/setAttribute|'''setAttribute''']]
+{{!}}[[dom/methods/setAttribute|<code>setAttribute</code>]]
 {{!}}Sets the value of the specified attribute.
 {{!}}-
-{{!}}[[dom/methods/setAttributeNode|'''setAttributeNode''']]
-{{!}}Sets an [[dom/attributes|'''attribute''']] object node as part of the object.
+{{!}}[[dom/methods/setAttributeNode|<code>setAttributeNode</code>]]
+{{!}}Sets an [[dom/attributes|<code>attribute</code>]] object node as part of the object.
 {{!}}-
-{{!}}[[dom/methods/setAttributeNodeNS|'''setAttributeNodeNS''']]
-{{!}}Sets an [[dom/attributes|'''attribute''']] object as part of the object.
+{{!}}[[dom/methods/setAttributeNodeNS|<code>setAttributeNodeNS</code>]]
+{{!}}Sets an [[dom/attributes|<code>attribute</code>]] object as part of the object.
 {{!}}-
-{{!}}[[dom/methods/setAttributeNS|'''setAttributeNS''']]
+{{!}}[[dom/methods/setAttributeNS|<code>setAttributeNS</code>]]
 {{!}}Sets the value of the specified attribute within the specified namespace.
 {{!}}-
-{{!}}[[dom/methods/setCapture|'''setCapture''']]
+{{!}}[[dom/methods/setCapture|<code>setCapture</code>]]
 {{!}}Sets the mouse capture to the object that belongs to the current document.
 {{!}}-
-{{!}}[[dom/methods/swapNode|'''swapNode''']]
+{{!}}[[dom/methods/swapNode|<code>swapNode</code>]]
 {{!}}Exchanges the location of two objects in the document hierarchy.
 {{!}}}
  
@@ -543,242 +543,242 @@ The <code><body></code> object has these properties.
 !Property
 !Description
 {{!}}-
-{{!}}[[html/attributes/accessKey|'''accessKey''']]
+{{!}}[[html/attributes/accessKey|<code>accessKey</code>]]
 {{!}}Sets or retrieves the access key for the object.
 {{!}}-
-{{!}}[[html/attributes/alinkColor|'''aLink''']]
+{{!}}[[html/attributes/alinkColor|<code>aLink</code>]]
 {{!}}Sets or gets the color of all active links in the element.
 {{!}}-
-{{!}}[[html/attributes/ATOMICSELECTION html_attribute|'''ATOMICSELECTION''']]
+{{!}}[[html/attributes/ATOMICSELECTION html_attribute|<code>ATOMICSELECTION</code>]]
 {{!}}Specifies whether the element and its contents must be selected as a whole, indivisible unit.
 {{!}}-
-{{!}}[[dom/properties/attributes|'''attributes''']]
+{{!}}[[dom/properties/attributes|<code>attributes</code>]]
 {{!}}Retrieves a collection of attributes of the object.
 {{!}}-
-{{!}}[[html/attributes/background (Body element)|'''background''']]
+{{!}}[[html/attributes/background (Body element)|<code>background</code>]]
 {{!}}Sets or retrieves the background picture tiled behind the text and graphics on the page.
 {{!}}-
-{{!}}[[html/attributes/bgColor|'''bgColor''']]
+{{!}}[[html/attributes/bgColor|<code>bgColor</code>]]
 {{!}}Deprecated. Sets or retrieves the background color behind the object.
 {{!}}-
-{{!}}[[html/attributes/bgProperties|'''bgProperties''']]
+{{!}}[[html/attributes/bgProperties|<code>bgProperties</code>]]
 {{!}}Sets or gets the properties of the background picture.
 {{!}}-
-{{!}}[[css/cssom/styleSheet/blockDirection|'''blockDirection''']]
+{{!}}[[css/cssom/styleSheet/blockDirection|<code>blockDirection</code>]]
 {{!}}Gets a string value that indicates whether the content in the block element flows from left to right, or from right to left.
 {{!}}-
-{{!}}[[dom/properties/body|'''body''']]
-{{!}}Gets an interface pointer to the document '''body''' object.
+{{!}}[[dom/properties/body|<code>body</code>]]
+{{!}}Gets an interface pointer to the document <code>body<code> object.
 {{!}}-
-{{!}}[[html/attributes/bottomMargin|'''bottomMargin''']]
+{{!}}[[html/attributes/bottomMargin|<code>bottomMargin</code>]]
 {{!}}Sets or gets the bottom margin of the entire body of the document.
 {{!}}-
-{{!}}[[dom/properties/canHaveChildren|'''canHaveChildren''']]
+{{!}}[[dom/properties/canHaveChildren|<code>canHaveChildren</code>]]
 {{!}}Gets a value indicating whether the object can contain child objects.
 {{!}}-
-{{!}}[[dom/properties/canHavedom/canHaveHTML|'''canHaveHTML''']]
+{{!}}[[dom/properties/canHavedom/canHaveHTML|<code>canHaveHTML</code>]]
 {{!}}Retrieves the value indicating whether the object can contain rich HTML markup.
 {{!}}-
-{{!}}[[dom/traversal/properties/childElementCount|'''childElementCount''']]
-{{!}}Retrieves the number of immediate child nodes of the current element or a zero if the element does not contain any child nodes. [[dom/traversal/properties/childElementCount|'''childElementCount''']] does not return all child nodes, only child nodes that are [[dom/properties/nodeType|'''nodeType''']] {{=}}1, or element nodes.
+{{!}}[[dom/traversal/properties/childElementCount|<code>childElementCount</code>]]
+{{!}}Retrieves the number of immediate child nodes of the current element or a zero if the element does not contain any child nodes. [[dom/traversal/properties/childElementCount|<code>childElementCount</code>]] does not return all child nodes, only child nodes that are [[dom/properties/nodeType|<code>nodeType</code>]] {{=}}1, or element nodes.
 {{!}}-
-{{!}}[[dom/properties/className|'''className''']]
+{{!}}[[dom/properties/className|<code>className</code>]]
 {{!}}Sets or retrieves the class of the object.
 {{!}}-
-{{!}}[[dom/properties/clientHeight|'''clientHeight''']]
+{{!}}[[dom/properties/clientHeight|<code>clientHeight</code>]]
 {{!}}Retrieves the height of the object including padding, but not including margin, border, or scroll bar.
 {{!}}-
-{{!}}[[dom/properties/clientLeft|'''clientLeft''']]
-{{!}}Retrieves the distance between the [[dom/properties/offsetLeft|'''offsetLeft''']] property and the true left side of the client area.
+{{!}}[[dom/properties/clientLeft|<code>clientLeft</code>]]
+{{!}}Retrieves the distance between the [[dom/properties/offsetLeft|<code>offsetLeft</code>]] property and the true left side of the client area.
 {{!}}-
-{{!}}[[dom/properties/clientTop|'''clientTop''']]
-{{!}}Retrieves the distance between the [[dom/properties/offsetTop|'''offsetTop''']] property and the true top of the client area.
+{{!}}[[dom/properties/clientTop|<code>clientTop</code>]]
+{{!}}Retrieves the distance between the [[dom/properties/offsetTop|<code>offsetTop</code>]] property and the true top of the client area.
 {{!}}-
-{{!}}[[dom/properties/clientWidth|'''clientWidth''']]
+{{!}}[[dom/properties/clientWidth|<code>clientWidth</code>]]
 {{!}}Retrieves the width of the object including padding, but not including margin, border, or scroll bar.
 {{!}}-
-{{!}}[[dom/properties/constructor|'''constructor''']]
+{{!}}[[dom/properties/constructor|<code>constructor</code>]]
 {{!}}Returns a reference to the constructor of an object.
 {{!}}-
-{{!}}[[html/attributes/contentEditable|'''contentEditable''']]
+{{!}}[[html/attributes/contentEditable|<code>contentEditable</code>]]
 {{!}}Sets or retrieves the string that indicates whether the user can edit the content of the object.
 {{!}}-
-{{!}}[[html/attributes/dir|'''dir''']]
+{{!}}[[html/attributes/dir|<code>dir</code>]]
 {{!}}Sets or retrieves the reading order of the object.
 {{!}}-
-{{!}}[[dom/properties/disabled (redundant)|'''disabled''']]
+{{!}}[[dom/properties/disabled (redundant)|<code>disabled</code>]]
 {{!}}Sets or gets the value that indicates whether the user can interact with the object.
 {{!}}-
-{{!}}[[dom/properties/firstChild|'''firstChild''']]
-{{!}}Gets a reference to the first child in the [[dom/properties/childNodes|'''childNodes''']] collection of the object.
+{{!}}[[dom/properties/firstChild|<code>firstChild</code>]]
+{{!}}Gets a reference to the first child in the [[dom/properties/childNodes|<code>childNodes</code>]] collection of the object.
 {{!}}-
-{{!}}[[dom/traversal/properties/firstElementChild|'''firstElementChild''']]
+{{!}}[[dom/traversal/properties/firstElementChild|<code>firstElementChild</code>]]
 {{!}}Retrieves a reference to the first child element, or NULL if there are no child elements.
 {{!}}-
-{{!}}[[html/attributes/hideFocus|'''hideFocus''']]
+{{!}}[[html/attributes/hideFocus|<code>hideFocus</code>]]
 {{!}}Sets or gets the value that indicates whether the object visibly shows that it has focus.
 {{!}}-
-{{!}}[[html/attributes/id|'''id''']]
+{{!}}[[html/attributes/id|<code>id</code>]]
 {{!}}Sets or retrieves the string identifying the object.
 {{!}}-
-{{!}}[[dom/properties/innerdom/innerHTML|'''innerHTML''']]
+{{!}}[[dom/properties/innerdom/innerHTML|<code>innerHTML</code>]]
 {{!}}Sets or retrieves the HTML between the start and end tags of the object.
 {{!}}-
-{{!}}[[dom/properties/innerText|'''innerText''']]
+{{!}}[[dom/properties/innerText|<code>innerText</code>]]
 {{!}}Sets or retrieves the text between the start and end tags of the object.
 {{!}}-
-{{!}}[[dom/properties/isContentEditable|'''isContentEditable''']]
+{{!}}[[dom/properties/isContentEditable|<code>isContentEditable</code>]]
 {{!}}Gets the value that indicates whether the user can edit the contents of the object.
 {{!}}-
-{{!}}[[dom/properties/isDisabled|'''isDisabled''']]
+{{!}}[[dom/properties/isDisabled|<code>isDisabled</code>]]
 {{!}}Gets the value that indicates whether the user can interact with the object.
 {{!}}-
-{{!}}[[dom/properties/isMultiLine|'''isMultiLine''']]
+{{!}}[[dom/properties/isMultiLine|<code>isMultiLine</code>]]
 {{!}}Retrieves the value indicating whether the content of the object contains one or more lines.
 {{!}}-
-{{!}}[[dom/traversal/properties/isTextEdit|'''isTextEdit''']]
-{{!}}Retrieves whether a [[dom/traversal/TextRange|'''TextRange''']] object can be created using the object.
+{{!}}[[dom/traversal/properties/isTextEdit|<code>isTextEdit</code>]]
+{{!}}Retrieves whether a [[dom/traversal/TextRange|<code>TextRange</code>]] object can be created using the object.
 {{!}}-
-{{!}}[[html/attributes/lang|'''lang''']]
+{{!}}[[html/attributes/lang|<code>lang</code>]]
 {{!}}Sets or retrieves the language to use.
 {{!}}-
-{{!}}[[html/attributes/language|'''language''']]
+{{!}}[[html/attributes/language|<code>language</code>]]
 {{!}}Sets or retrieves the language in which the current script is written.
 {{!}}-
-{{!}}[[dom/properties/lastChild|'''lastChild''']]
-{{!}}Gets a reference to the last child in the [[dom/properties/childNodes|'''childNodes''']] collection of an object.
+{{!}}[[dom/properties/lastChild|<code>lastChild</code>]]
+{{!}}Gets a reference to the last child in the [[dom/properties/childNodes|<code>childNodes</code>]] collection of an object.
 {{!}}-
-{{!}}[[dom/traversal/properties/lastElementChild|'''lastElementChild''']]
+{{!}}[[dom/traversal/properties/lastElementChild|<code>lastElementChild</code>]]
 {{!}}Retrieves a reference to the last child element or NULL if there are no child elements.
 {{!}}-
-{{!}}[[html/attributes/leftMargin|'''leftMargin''']]
+{{!}}[[html/attributes/leftMargin|<code>leftMargin</code>]]
 {{!}}Sets or gets the left margin for the entire body of the document, which overrides the default margin.
 {{!}}-
-{{!}}[[html/attributes/link|'''link''']]
+{{!}}[[html/attributes/link|<code>link</code>]]
 {{!}}Sets or gets the color of the document links for the object.
 {{!}}-
-{{!}}[[dom/traversal/properties/nextElementSibling|'''nextElementSibling''']]
+{{!}}[[dom/traversal/properties/nextElementSibling|<code>nextElementSibling</code>]]
 {{!}}Retrieves a reference to the sibling element that immediately follows or NULL if the element does not have any sibling elements that follow it.
 {{!}}-
-{{!}}[[dom/properties/nextSibling|'''nextSibling''']]
+{{!}}[[dom/properties/nextSibling|<code>nextSibling</code>]]
 {{!}}Retrieves a reference to the next child of the parent for the object.
 {{!}}-
-{{!}}[[dom/properties/nodeName|'''nodeName''']]
+{{!}}[[dom/properties/nodeName|<code>nodeName</code>]]
 {{!}}Gets the name of a particular type of node.
 {{!}}-
-{{!}}[[dom/properties/nodeType|'''nodeType''']]
+{{!}}[[dom/properties/nodeType|<code>nodeType</code>]]
 {{!}}Retrieves the type of the requested node.
 {{!}}-
-{{!}}[[dom/properties/nodeValue|'''nodeValue''']]
+{{!}}[[dom/properties/nodeValue|<code>nodeValue</code>]]
 {{!}}Gets or sets the value of a node.
 {{!}}-
-{{!}}[[html/attributes/noWrap|'''noWrap''']]
+{{!}}[[html/attributes/noWrap|<code>noWrap</code>]]
 {{!}}Sets or retrieves whether the browser automatically performs wordwrap.
 {{!}}-
-{{!}}[[dom/properties/offsetHeight|'''offsetHeight''']]
-{{!}}Retrieves the height of the object relative to the layout or coordinate parent, as specified by the [[dom/properties/offsetParent|'''offsetParent''']] property.
+{{!}}[[dom/properties/offsetHeight|<code>offsetHeight</code>]]
+{{!}}Retrieves the height of the object relative to the layout or coordinate parent, as specified by the [[dom/properties/offsetParent|<code>offsetParent</code>]] property.
 {{!}}-
-{{!}}[[dom/properties/offsetLeft|'''offsetLeft''']]
-{{!}}Retrieves the calculated left position of the object relative to the layout or coordinate parent, as specified by the [[dom/properties/offsetParent|'''offsetParent''']] property.
+{{!}}[[dom/properties/offsetLeft|<code>offsetLeft</code>]]
+{{!}}Retrieves the calculated left position of the object relative to the layout or coordinate parent, as specified by the [[dom/properties/offsetParent|<code>offsetParent</code>]] property.
 {{!}}-
-{{!}}[[dom/properties/offsetParent|'''offsetParent''']]
-{{!}}Retrieves a reference to the container object that defines the [[dom/properties/offsetTop|'''offsetTop''']] and [[dom/properties/offsetLeft|'''offsetLeft''']] properties of the object.
+{{!}}[[dom/properties/offsetParent|<code>offsetParent</code>]]
+{{!}}Retrieves a reference to the container object that defines the [[dom/properties/offsetTop|<code>offsetTop</code>]] and [[dom/properties/offsetLeft|<code>offsetLeft</code>]] properties of the object.
 {{!}}-
-{{!}}[[dom/properties/offsetTop|'''offsetTop''']]
-{{!}}Retrieves the calculated top position of the object relative to the layout or coordinate parent, as specified by the [[dom/properties/offsetParent|'''offsetParent''']] property.
+{{!}}[[dom/properties/offsetTop|<code>offsetTop</code>]]
+{{!}}Retrieves the calculated top position of the object relative to the layout or coordinate parent, as specified by the [[dom/properties/offsetParent|<code>offsetParent</code>]] property.
 {{!}}-
-{{!}}[[dom/properties/offsetWidth|'''offsetWidth''']]
-{{!}}Retrieves the width of the object relative to the layout or coordinate parent, as specified by the [[dom/properties/offsetParent|'''offsetParent''']] property.
+{{!}}[[dom/properties/offsetWidth|<code>offsetWidth</code>]]
+{{!}}Retrieves the width of the object relative to the layout or coordinate parent, as specified by the [[dom/properties/offsetParent|<code>offsetParent</code>]] property.
 {{!}}-
-{{!}}[[dom/properties/outerdom/outerHTML|'''outerHTML''']]
+{{!}}[[dom/properties/outerdom/outerHTML|<code>outerHTML</code>]]
 {{!}}Sets or retrieves the object and its content in HTML.
 {{!}}-
-{{!}}[[dom/properties/outerText|'''outerText''']]
+{{!}}[[dom/properties/outerText|<code>outerText</code>]]
 {{!}}Sets or retrieves the text of the object.
 {{!}}-
-{{!}}[[dom/properties/ownerDocument|'''ownerDocument''']]
-{{!}}Retrieves the [[dom/document|'''document''']] object associated with the node.
+{{!}}[[dom/properties/ownerDocument|<code>ownerDocument</code>]]
+{{!}}Retrieves the [[dom/document|<code>document</code>]] object associated with the node.
 {{!}}-
-{{!}}[[dom/traversal/properties/parentElement|'''parentElement''']]
+{{!}}[[dom/traversal/properties/parentElement|<code>parentElement</code>]]
 {{!}}Retrieves the parent object in the object hierarchy.
 {{!}}-
-{{!}}[[dom/properties/parentNode|'''parentNode''']]
+{{!}}[[dom/properties/parentNode|<code>parentNode</code>]]
 {{!}}Retrieves the parent object in the document hierarchy.
 {{!}}-
-{{!}}[[dom/traversal/properties/parentTextEdit|'''parentTextEdit''']]
-{{!}}Retrieves the container object in the document hierarchy that can be used to create a [[dom/traversal/TextRange|'''TextRange''']] containing the original object.
+{{!}}[[dom/traversal/properties/parentTextEdit|<code>parentTextEdit</code>]]
+{{!}}Retrieves the container object in the document hierarchy that can be used to create a [[dom/traversal/TextRange|<code>TextRange</code>]] containing the original object.
 {{!}}-
-{{!}}[[dom/traversal/properties/previousElementSibling|'''previousElementSibling''']]
+{{!}}[[dom/traversal/properties/previousElementSibling|<code>previousElementSibling</code>]]
 {{!}}Retrieves a reference to the immediately preceding sibling element or NULL if the element does not have any preceding siblings.
 {{!}}-
-{{!}}[[dom/properties/previousSibling|'''previousSibling''']]
+{{!}}[[dom/properties/previousSibling|<code>previousSibling</code>]]
 {{!}}Gets a reference to the previous child of the parent for the object.
 {{!}}-
-{{!}}[[dom/properties/readyState|'''readyState''']]
+{{!}}[[dom/properties/readyState|<code>readyState</code>]]
 {{!}}Retrieves the current state of the object.
 {{!}}-
-{{!}}'''recordNumber'''
+{{!}}<code>recordNumber</code>
 {{!}}Retrieves the ordinal record from the data set that generated the object.
 {{!}}-
-{{!}}[[html/attributes/rightMargin|'''rightMargin''']]
+{{!}}[[html/attributes/rightMargin|<code>rightMargin</code>]]
 {{!}}Sets or gets the right margin for the entire body of the document.
 {{!}}-
-{{!}}[[html/attributes/role|'''role''']]
+{{!}}[[html/attributes/role|<code>role</code>]]
 {{!}}Sets or retrieves the role for this element.
 {{!}}-
-{{!}}'''scopeName'''
+{{!}}<code>scopeName</code>
 {{!}}Gets the namespace defined for the element.
 
 This property is not supported for Metro style apps using JavaScript.
 {{!}}-
-{{!}}[[html/attributes/scroll|'''scroll''']]
+{{!}}[[html/attributes/scroll|<code>scroll</code>]]
 {{!}}Sets or gets a value that indicates whether the scroll bars are turned on or off.
 {{!}}-
-{{!}}[[dom/properties/scrollHeight|'''scrollHeight''']]
+{{!}}[[dom/properties/scrollHeight|<code>scrollHeight</code>]]
 {{!}}Retrieves the scrolling height of the object.
 {{!}}-
-{{!}}[[dom/properties/scrollLeft|'''scrollLeft''']]
+{{!}}[[dom/properties/scrollLeft|<code>scrollLeft</code>]]
 {{!}}Sets or retrieves the distance between the left edge of the object and the leftmost portion of the content currently visible in the window.
 {{!}}-
-{{!}}[[dom/properties/scrollTop|'''scrollTop''']]
+{{!}}[[dom/properties/scrollTop|<code>scrollTop</code>]]
 {{!}}Sets or retrieves the distance between the top of the object and the topmost portion of the content currently visible in the window.
 {{!}}-
-{{!}}[[dom/properties/scrollWidth|'''scrollWidth''']]
+{{!}}[[dom/properties/scrollWidth|<code>scrollWidth</code>]]
 {{!}}Retrieves the scrolling width of the object.
 {{!}}-
-{{!}}[[dom/properties/sourceIndex|'''sourceIndex''']]
-{{!}}Retrieves the ordinal position of the object, in source order, as the object appears in the document's [[dom/properties/all|'''all''']] collection.
+{{!}}[[dom/properties/sourceIndex|<code>sourceIndex</code>]]
+{{!}}Retrieves the ordinal position of the object, in source order, as the object appears in the document's [[dom/properties/all|<code>all</code>]] collection.
 {{!}}-
-{{!}}[[html/attributes/STYLE html_attribute|'''STYLE''']]
+{{!}}[[html/attributes/STYLE html_attribute|<code>STYLE</code>]]
 {{!}}Sets an inline style for the element.
 {{!}}-
-{{!}}[[html/attributes/tabIndex|'''tabIndex''']]
+{{!}}[[html/attributes/tabIndex|<code>tabIndex</code>]]
 {{!}}Sets or retrieves the index that defines the tab order for the object.
 {{!}}-
-{{!}}[[dom/properties/tagName|'''tagName''']]
+{{!}}[[dom/properties/tagName|<code>tagName</code>]]
 {{!}}Retrieves the tag name of the object.
 {{!}}-
-{{!}}[[dom/properties/tagUrn|'''tagUrn''']]
+{{!}}[[dom/properties/tagUrn|<code>tagUrn</code>]]
 {{!}}Sets or gets the URN specified in the namespace declaration.
 
 This property is not supported for Metro style apps using JavaScript.
 {{!}}-
-{{!}}[[html/attributes/text (body element)|'''text''']]
+{{!}}[[html/attributes/text (body element)|<code>text</code>]]
 {{!}}Sets or gets the text (foreground) color for the document body.
 {{!}}-
-{{!}}[[html/attributes/title|'''title''']]
+{{!}}[[html/attributes/title|<code>title</code>]]
 {{!}}Sets or retrieves advisory information (a ToolTip) for the object.
 {{!}}-
-{{!}}[[html/attributes/topMargin|'''topMargin''']]
+{{!}}[[html/attributes/topMargin|<code>topMargin</code>]]
 {{!}}Sets or gets the margin for the top of the document.
 {{!}}-
-{{!}}[[dom/properties/uniqueID|'''uniqueID''']]
+{{!}}[[dom/properties/uniqueID|<code>uniqueID</code>]]
 {{!}}Retrieves an autogenerated, unique identifier for the object.
 {{!}}-
-{{!}}[[dom/properties/uniqueNumber|'''uniqueNumber''']]
+{{!}}[[dom/properties/uniqueNumber|<code>uniqueNumber</code>]]
 {{!}}Retrieves the element's unique number.
 {{!}}-
-{{!}}[[html/attributes/vLink|'''vLink''']]
+{{!}}[[html/attributes/vLink|<code>vLink</code>]]
 {{!}}Sets or gets the color of links in the object that have already been visited.
 {{!}}}
 }}
