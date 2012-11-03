@@ -17,11 +17,6 @@
 |MSDN_link=
 |HTML5Rocks_link=
 }}
-<div style='float: right;background: white;border:1px dashed black;padding: 1ex;'>
-
-[[html/elements_(alphabetical_order)|By alphabetical order]]
-
-</div>
 
 This is the list of HTML and related Elements from the past to the present.
 
