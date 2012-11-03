@@ -1,11 +1,11 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Defines how background images will be repeated after they have been sized and positioned}}
+{{Summary_Section|Background-repeat defines if and how a background images will be repeated after they have been sized and positioned}}
 {{CSS Property
 |Initial value=repeat
 |Applies to=All elements
