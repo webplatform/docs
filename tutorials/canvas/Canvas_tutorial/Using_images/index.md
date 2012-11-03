@@ -197,7 +197,7 @@ Gecko 1.9.2 introduced the <code>mozImageSmoothingEnabled</code> property to the
 <pre>ctx.mozImageSmoothingEnabled = false;
 </pre>
 
-[[canvas/tutorial/Canvas_tutorial/Drawing_shapes|&lt;&lt;Previous      ||    ]][[canvas/tutorial/Canvas_tutorial/Applying_styles_and_colors|   Next&gt;&gt;]]
+[[tutorials/canvas/Canvas_tutorial/Drawing_shapes|&lt;&lt;Previous      ||    ]][[tutorials/canvas/Canvas_tutorial/Applying_styles_and_colors|   Next&gt;&gt;]]
 }}
 {{Notes_Section}}
 {{Compatibility_Section
