@@ -7,9 +7,9 @@
 {{Summary_Section}}
 {{Markup_Attribute
 |Property_applies_to=dom/HTMLElement
-|Content=The `width` property is a standard HTML attribute. The value of this attribute is usually an integer. 
+|Content=The '''width''' property is a standard HTML attribute. The value of this attribute is usually an integer. 
 
-It is very common to see HTML tags like images, iframes or object elements have `width` (and `height`) attributes.
+It is very common to see HTML tags like images, iframes or object elements have '''width''' (and '''height''') attributes.
 }}
 {{Examples_Section
 |Not_required=No
