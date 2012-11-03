@@ -1,5 +1,4 @@
 == Introduction ==
- 
 In this article in the Web Standards Curriculum series, 
 you will learn the basics of HTML—what it is, what
 it does, its history in brief, and what the structure of an HTML
@@ -7,7 +6,6 @@ document looks like. The articles that follow this one will look at
 each individual part of HTML in much greater depth.
  
 == What HTML is ==
- 
 Most desktop applications that read and write files use a special file
 format. For example, Microsoft Word understands “.doc” files and
 Microsoft Excel understands “.xls”. These files contain the
@@ -241,5 +239,4 @@ the <code>body</code> content.
 Note: This material was originally published as part of the Opera Web Standards Curriculum, available as 12: The basics of HTML, written by Mark Norman Francis. Like the original, it is published under the Creative Commons Attribution, Non Commercial - Share Alike 2.5 license.
 
 [[Category:Tutorials]]
-[[Category:WSC]]
-[[Category:HTML]]
+{{Topics|WSC, HTML}}
