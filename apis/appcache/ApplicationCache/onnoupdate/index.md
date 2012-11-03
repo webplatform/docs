@@ -16,7 +16,7 @@
 }}
 {{Notes_Section
 |Notes====Remarks===
-If there is more than one event, the '''noupdate''' event will be the last one in the sequence.
+If there is more than one event, the '''onupdate''' event will be the last one in the sequence.
 Alternatively, you could use an anonymous delegate function such as
  <code>object.onnoupdate {{=}} function (e) { … }</code>
 where e is the cached event.
