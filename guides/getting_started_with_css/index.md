@@ -212,11 +212,11 @@ You can apply styles to a specific element using a <code>style</code> attribute,
  
 Inside this attribute you list all the CSS properties and their values. Each property/value pair is separated from the others by a semi-colon, and each property is separated from its value within each pair by a colon. [http://dev.opera.com/articles/view/27-css-basics/example-inline.html Try viewing the source of this example].
  
-If you open this example in a browser you will see that the paragraph with the <code>style</code> attribute is blue with white text and has a different size to the others, as shown in Figure 1.
+If you open this example in a browser you will see that the paragraph with the <code>style</code> attribute is blue with white text and has a different size from the others, as shown in Figure 1.
  
 [[Image:cssbasic.png|alt=Screenshot of the Opera browser showing an applied inline style sheet]]
  
-Figure 1: Opera shows the paragraph with the applied inline styles differently to the others.
+Figure 1: Opera shows the paragraph with the applied inline styles differently from the others.
  
 The benefit of inline styles is that the browser will be forced to use these settings. Any styles defined in other style sheets or even embedded in the <code>&lt;head&gt;</code> of the document will be overridden by these styles.
  
