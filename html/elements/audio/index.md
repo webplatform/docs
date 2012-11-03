@@ -687,6 +687,10 @@ Beginning with Internet Explorer 9, any audio or video content needs the correc
 |Notes_rows={{Compatibility Notes Row
 |Browser=Mobile Safari (and WebKit wrappers)
 |Note=Audio is always played using a full screen player.
+}}{{Compatibility Notes Row
+|Browser=Mobile (Android, IE, Safari)
+|Version=All
+|Note=Cannot play more than one audio file at the same time.
 }}
 }}
 {{See_Also_Section
