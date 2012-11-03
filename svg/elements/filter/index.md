@@ -1,21 +1,45 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic
 |Content=Incomplete, Cleanup, Compatibility Incomplete, Examples Needed, Examples Best Practices
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|SVG filter effects apply graphics operations such as blurs and color transformations to a source graphic. Filters may be applied to any SVG element. The <code>filter</code> element specifies the position, dimensions, resolution and units for a filter effect. <code>filter</code>elements typically have multiple child elements that declare a graph of filter primitives such as feGaussianBlur or feColorMatrix, which create the graphics effects.}}
 {{Markup_Element
-|DOM_interface=svg/objects/SVGElement
-|Content=The Filte
+|DOM_interface=svg/objects/SVGFilterElement
+|Content=An SVG filter applies a graphics effect to an SVG element. In SVG 1.1, the range of available graphics effects includes blurs, convolutions, color curve manipulation, cross-component color transfers, erosion effects, blending, compositing and more.  The <code>filter</code> element declares a filter effect. Filter elements are generally included in the <code>defs</code> section of an SVG XML document or fragment. They generally contain a set of child elements that specify the individual graphics operations or "filter primitives" that comprise that filter operation. They are applied to an SVG element by setting the optional <code>filter</code> property to the id of the desired filter element. 
+
+The <code>filter</code> element defines the position, dimensions, resolution, and units for a graphics effect. 
+
+
+It is currently (Fall 2012) contemplated that in the future, SVG filters can be referenced via a [CSS Filter] and used to apply advanced effects to HTML elements. 
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=Other
+|Description=Basic filter effect example
+|Code=<svg width="300px" height="300px" viewbox="0 0 300 300"
+     xmlns="http://www.w3.org/2000/svg" version="1.1">
+
+<title>A basic filter example</title>
+   <defs>
+     <filter id="gblur">
+        <feGaussianBlur stdDeviation="5"/>
+     </filter>
+   </defs>
+
+<rect x="50" y="50" width="100" height="100" fill="blue" stroke="red" filter="url(#gblur)"/>
+
+</svg>​​​​​​​​​​​
+|LiveURL=http://jsfiddle.net/jsfmullany/djQ9A/
+}}
 }}
 {{Notes_Section
 |Notes====Remarks===
+Although SVG is a vector graphics technology, it's important to emphasize that SVG Filters perform *pixel-level* operations on all inputs (including SVG shapes) and produce rasterized (bitmapped) outputs at a specified level of resolution. Applying a 10x scale transform (for example) on an plain SVG curve that has been filtered at normal screen resolution will produce pixelated edges since the anti-aliasing of the original graphic has been converted to pixels by the filter and scaled up.
+
 A filter element is never rendered directly. It is only referenced using the filter property on the element to which the filter is applied. Note that the [[css/properties/display|'''display''']] property does not apply to the <code>filter</code> element and  elements are not directly rendered even if the '''display''' property is set to a value other than "none".   Conversely, <code>filter</code> elements are available for referencing even when the'''display''' property on the <code>filter</code>element or any of its ancestors is set to "none".
 |Import_Notes====Syntax===
 ===Standards information===
@@ -138,7 +162,7 @@ The '''SVGFilterElement''' object has these properties.
 |Firefox_mobile_prefixed_supported=No
 |Firefox_mobile_prefixed_version=
 |IE_mobile_supported=Yes
-|IE_mobile_version=IE10 
+|IE_mobile_version=IE10
 |IE_mobile_prefixed_supported=No
 |IE_mobile_prefixed_version=
 |Opera_mobile_supported=Unknown
