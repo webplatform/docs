@@ -1,22 +1,20 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section|The current style used to fill shapes. The style can be a string containing a CSS color, a gradient object, or a pattern object. }}
 {{API_Object_Property
 |Property_applies_to=canvas/objects/CanvasRenderingContext2D
-|Read_only=
+|Read_only=No
 }}
-{{Topics|DOM}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
-|Description=The following  code example shows filling rectangles with a linear gradient and a solid color.
-|LiveURL=
-|Code=
-
-&lt;!DOCTYPE html&gt; &lt;html&gt;
+|Examples={{Single Example
+|Description=The following code example shows filling rectangles with a linear gradient and a solid color.
+|Code=&lt;!DOCTYPE html&gt; &lt;html&gt;
 &lt;head&gt;
   &lt;script type{{=}}"text/javascript"&gt;
 function draw()
@@ -45,27 +43,31 @@ function draw()
   &lt;canvas id{{=}}"MyCanvas" width{{=}}"600" height{{=}}"500" border{{=}}"1"&gt; &lt;/canvas&gt; 
 &lt;/body&gt;
 &lt;/html&gt;
-}}}}
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
-Invalid values are ignored.
-|Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}197019 HTML Canvas 2D Context], Section 5
-
-
+|Notes=Invalid values are ignored.
+|Import_Notes====Standards information===
+*[http://www.w3.org/TR/2dcontext/ HTML Canvas 2D Context], Section 9
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
-*<code>[[canvas/objects/CanvasRenderingContext2D|CanvasRenderingContext2D]]</code>
+|Manual_links=*<code>[[canvas/objects/CanvasRenderingContext2D|CanvasRenderingContext2D]]</code>
+*/[[tutorials/canvas/Canvas_tutorial/Applying_styles_and_colors]]
 }}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
