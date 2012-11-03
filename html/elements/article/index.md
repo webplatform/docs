@@ -110,7 +110,7 @@ When '''article''' elements are nested, the inner article should be related to t
 }}
 {{See_Also_Section
 |Topic_clusters=Document Structure
-|Manual_links=[[html/elements/nav]]
+|Manual_links=[[html/elements/nav|nav]] - The HTML navigation element is often used as a child element of the article tag.
 }}
 {{Topics|HTML}}
 {{External_Attribution
