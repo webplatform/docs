@@ -1,20 +1,19 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{Markup_Element
 |DOM_interface=dom/HTMLTableRowElement
 }}
-{{Topics|HTML}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Description=The following examples show how to create a table row in HTML and script.
-|LiveURL=This example uses the '''TR''' element with the [[html/elements/table|'''TABLE''']], '''TD''', and '''TR''' elements to create a table with two rows.
-|Code=
-&lt;TABLE&gt;
+|Code=&lt;TABLE&gt;
 &lt;TR&gt;
 &lt;TD&gt;This is the first row.&lt;/TD&gt;
 &lt;/TR&gt;
@@ -22,12 +21,10 @@
 &lt;TD&gt;This is the second row.&lt;/TD&gt;
 &lt;/TR&gt;
 &lt;/TABLE&gt;
-}}
-{{Single_Example
+|LiveURL=This example uses the '''TR''' element with the [[html/elements/table|'''TABLE''']], '''TD''', and '''TR''' elements to create a table with two rows.
+}}{{Single Example
 |Description=This example uses the table object model to dynamically add two rows and two cells to a table when the user clicks a button.
-|LiveURL=
-|Code=
-&lt;SCRIPT&gt;
+|Code=&lt;SCRIPT&gt;
 function createRows(){
    // Insert two rows.
    var oRow1{{=}}oTable.insertRow(oTable.rows.length);
@@ -60,16 +57,15 @@ function createRows(){
 &lt;INPUT TYPE{{=}}"button" VALUE{{=}}"Create Rows" onclick{{=}}"createRows()"&gt;
 &lt;TABLE BORDER{{=}}1 ID{{=}}"oTable"&gt;
 &lt;/TABLE&gt;
-}}}}
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 The '''TD''' and '''TH''' elements are valid within a row.
 To change the HTML in the '''TR''' element, use the table object model. For example, use the [[dom/properties/rowIndex|'''rowIndex''']] property or the [[dom/properties/rows (table)|'''rows''']] collection to retrieve a reference to a specific table row. You can add or delete rows using the [[dom/methods/insertRow|'''insertRow''']] and [[dom/methods/deleteRow|'''deleteRow''']] methods. To retrieve a reference to a specific cell, use the [[dom/properties/cellIndex|'''cellIndex''']] property or the [[dom/properties/cellSpacing|'''cells''']] collection. You can add or delete cells using the [[dom/methods/insertCell|'''insertCell''']] and [[dom/methods/deleteCell|'''deleteCell''']] methods. To change the content of a particular cell, use the [[dom/properties/innerdom/innerHTML|'''innerHTML''']] or [[dom/properties/innerText|'''innerText''']] property.
 The [[html/elements/table|'''table''']] object and its associated elements have a separate table object model, which uses different methods than the general object model.  For more information on the table object model, see Building Tables Dynamically.
 Windows Internet Explorer 8 will only render tables up to 1000 columns. To force Windows Internet Explorer 7 rendering mode, see How Do I Take Advantage of the New Features in Internet Explorer 8.
-|Import_Notes=
-===Standards information===
+|Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}196991 Document Object Model (DOM) Level 2 HTML Specification], Section 1.6.5
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 11.2.5
 
@@ -832,22 +828,29 @@ This property is not supported for Metro style apps using JavaScript.
 |Sets or retrieves how text and other content are vertically aligned within the object that contains them.
 |}
  
-
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 *<code>Reference</code>
 *<code>[[html/elements/table|table]]</code>
 *<code>[[css/properties/border-collapse|borderCollapse]]</code>
 *<code>Conceptual</code>
 *<code>Building Tables Dynamically</code>
-|Topic_clusters=html
 }}
+{{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
