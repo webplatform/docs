@@ -1,36 +1,98 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section|The open method is used to open an IndexedDB database. }}
 {{API_Object_Method
-|Parameters={{Method Parameter|Name=name|Data type=DOMString|Description=The name of the database to be opened.|Optional=}}
-{{Method Parameter|Name=version|Data type=Integer|Description=|Optional=}}
-|Method_applies_to=apis/indexedDB/IDBFactory
-|Example_object_name=object
-|Return_value_name=object
-|Javascript_data_type=DOM Node
-|Return_value_description=
+|Parameters={{Method Parameter
+|Name=name
+|Data type=String
+|Description=The name of the database to be opened.
+|Optional=No
+}}{{Method Parameter
+|Name=version
+|Data type=Number
+|Description=The version (unsigned long long) for the database
+|Optional=Yes
 }}
-{{Topics|DOM}}
+|Method_applies_to=apis/indexedDB/IDBFactory
+|Example_object_name=indexeddb
+|Return_value_name=indexeddb
+|Javascript_data_type=DOM Node
+|Return_value_description=The open method creates an IDBRequest object and returns it. The IDBRequest object can be use to handle the success or the error events. 
+}}
+{{Examples_Section
+|Not_required=No
+|Examples={{Single Example
+|Language=JavaScript
+|Description=Open a database without a version number
+|Code=var dbOpenRequest = window.indexedDB.open("DatabaseName");
+  dbOpenRequest.onsuccess = function(event){
+var db = dbOpenRequest.result; // This is the database object
+};
+
+
+dbOpenRequest.onerror = function(e){
+   // Called when an error occurs
+  };
+  dbOpenRequest.onblocked = function(e){
+    // Called if another transaction is open on the database
+  };
+|LiveURL=http://axemclion.github.com/trialtool/index.html#example=/IndexedDB/trialtool/moz_indexedDB.html&selected=#db
+}}{{Single Example
+|Language=JavaScript
+|Description=Open a database with a version number that is higher than the existing version number
+|Code=// The database is already opened with version 1. 
+var dbOpenRequest = window.indexedDB.open("DatabaseName", 2);
+  dbOpenRequest.onsuccess = function(event){
+var db = dbOpenRequest.result; // This is the database object on which various operations can be performed
+};
+
+dbOpenRequest.onupgradeneeded = function(e){
+   //This occurs when the version specified in the open call is higher that the version of the database. This is the version change transaction. 
+  };
+dbOpenRequest.onerror = function(e){
+   // Called when an error occurs
+  };
+  dbOpenRequest.onblocked = function(e){
+    // Called if another transaction is open on the database
+  };
+|LiveURL=http://axemclion.github.com/trialtool/index.html#example=/IndexedDB/trialtool/moz_indexedDB.html&selected=#dbVersion&
+}}
+}}
 {{Notes_Section
-|Import_Notes=
-===Syntax===
+|Usage=var openRequest = window.indexedDB.open("databaseName", 1);
+
+openRequest.onsuccess = function(){};
+openRequest.onerror = function(){};
+openRequest.onversionchange = function(){};
+openRequest.onblocked = function(){};
+
+|Import_Notes====Syntax===
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?LinkId{{=}}224519 Indexed Database API]
-
-
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 *<code>[[apis/indexedDB/properties/indexedDB|indexedDB]]</code>
 }}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
