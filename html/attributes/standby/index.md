@@ -5,9 +5,9 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|A message for the browser to show while an <code>object</code>'s implementation and data load.}}
 {{Markup_Attribute
-|Applies_to=html/elements/object
+|Applies_to=dom/HTMLElement/object
 |Property_applies_to=dom/HTMLElement
 |Content=A message for the browser to show while an <code>object</code>'s implementation and data load.
 }}
@@ -21,7 +21,6 @@
 }}
 }}
 {{Notes_Section
-|Usage='''Valid up to HTML 4 only.''' Removed in HTML 5.
 |Notes====Remarks===
 This property has no default value.
 
@@ -97,7 +96,11 @@ Windows Internet Explorer does not render the '''standby''' message while loadin
 |Safari_mobile_prefixed_supported=Unknown
 |Safari_mobile_prefixed_version=
 }}
-|Notes_rows={{Compatibility Notes Row}}
+|Notes_rows={{Compatibility Notes Row
+|Browser=n/a
+|Version=n/a
+|Note='''Valid up to HTML4 only.''' Removed in HTML5.
+}}
 }}
 {{See_Also_Section
 |Topic_clusters=HTML, Multimedia
