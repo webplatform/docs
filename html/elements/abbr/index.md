@@ -1,11 +1,11 @@
 {{Page_Title|The &lt;abbr&gt; element}}
 {{Flags
-|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|The &lt;abbr&gt; element represents an abbreviation or acronym. }}
+{{Summary_Section|The &lt;abbr&gt; element represents an abbreviation or acronym.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
 |Content=The '''abbr''' element is a type of phrasing content that exists at the sub-paragraph level. It may not contain block-level elements. 
@@ -21,7 +21,6 @@ The <code>title</code> attribute may be used to provide an expansion of the abbr
 !CSS Display
 {{!}}inline
 {{!}}}
-
 }}
 {{Examples_Section
 |Not_required=No
@@ -40,7 +39,28 @@ The <code>title</code> attribute may be used to provide an expansion of the abbr
 }}
 {{Compatibility_Section
 |Not_required=No
-|Desktop_rows=
+|Desktop_rows={{Compatibility Table Desktop Row
+|Chrome_supported=Yes
+|Chrome_version=22.0
+|Chrome_prefixed_supported=Unknown
+|Chrome_prefixed_version=
+|Firefox_supported=Yes
+|Firefox_version=16.0
+|Firefox_prefixed_supported=Unknown
+|Firefox_prefixed_version=
+|Internet_explorer_supported=Yes
+|Internet_explorer_version=8.0
+|Internet_explorer_prefixed_supported=Unknown
+|Internet_explorer_prefixed_version=
+|Opera_supported=Unknown
+|Opera_version=
+|Opera_prefixed_supported=Unknown
+|Opera_prefixed_version=
+|Safari_supported=Unknown
+|Safari_version=
+|Safari_prefixed_supported=Unknown
+|Safari_prefixed_version=
+}}
 |Mobile_rows=
 |Notes_rows=
 }}
