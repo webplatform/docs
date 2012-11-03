@@ -152,7 +152,7 @@ function draw()
 
 *drawImage(''pSrc'',''dx'',''dy'')  copies  an image exactly to the canvas at the location  that  the ''dx'' and ''dy'' parameters specify.
 *drawImage(''pSrc'',''dx'',''dy'',''dw'',''dh'')  copies  an image to the canvas by using  the ''dw'' and ''dh''  parameters to stretch or reduce the image. This option is similar to the size attributes on an '''img'''  tag.
-*drawImage(''pSrc'',''sx'',''sy'',''sw'',''sh''''dx'',''dy'',''dw'',''dh'')  copies  all or part of a source image to the canvas.  You can place and size the destination image  by  using the destination parameters.
+*drawImage(''pSrc'',''sx'',''sy'',''sw'',''sh'',''dx'',''dy'',''dw'',''dh'')  copies  all or part of a source image to the canvas.  You can place and size the destination image  by  using the destination parameters.
 
 If  you do not specify  the ''dw''  and ''dh''  parameters, they  equal the values of ''sw'' and ''sh''. One CSS pixel in the image is treated as one unit in the canvas coordinate space.
 |Import_Notes====Standards information===
