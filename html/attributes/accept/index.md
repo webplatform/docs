@@ -31,7 +31,7 @@
 }}
 }}
 {{Notes_Section
-|Usage=Value must be a MIME type in the format *type/subtype*. Multiple values are valid if comma-separated.
+|Usage=Value must be a MIME type in the format ''type/subtype''. Multiple values are valid if comma-separated.
 |Notes====Remarks===
 The information from the list can be used to filter out nonconforming files when prompting a user to select files to be sent to the server using the '''&lt;INPUT&gt; element with type{{=}}"file"'''.
 Examples of content types include "text/html", "image/png", "image/gif", "video/mpeg", "audio/basic", "text/tcl", "text/javascript", and "text/vbscript". For the current list of registered MIME types, see [http://go.microsoft.com/fwlink/p/?linkid{{=}}203647 MIME Media Types].
