@@ -1,7 +1,6 @@
 {{Page_Title|Canvas}}
 {{Flags
 |Content=Incomplete
-|Editorial notes=Please provide more content. (I am only updating mobile compatibility table in this moment. Thank you!)
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
