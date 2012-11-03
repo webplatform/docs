@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status}}
@@ -43,7 +43,28 @@ If fewer  '''transition-delay''' values are declared than corresponding object p
 }}
 {{Compatibility_Section
 |Not_required=No
-|Desktop_rows=
+|Desktop_rows={{Compatibility Table Desktop Row
+|Chrome_supported=Unknown
+|Chrome_version=
+|Chrome_prefixed_supported=Yes
+|Chrome_prefixed_version=22
+|Firefox_supported=Yes
+|Firefox_version=16.0
+|Firefox_prefixed_supported=Unknown
+|Firefox_prefixed_version=
+|Internet_explorer_supported=Yes
+|Internet_explorer_version=10
+|Internet_explorer_prefixed_supported=Unknown
+|Internet_explorer_prefixed_version=
+|Opera_supported=Yes
+|Opera_version=12.0
+|Opera_prefixed_supported=Unknown
+|Opera_prefixed_version=
+|Safari_supported=Unknown
+|Safari_version=
+|Safari_prefixed_supported=Yes
+|Safari_prefixed_version=5.1
+}}
 |Mobile_rows=
 |Notes_rows=
 }}
