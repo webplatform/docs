@@ -18,30 +18,28 @@
 |Examples={{Single Example
 |Language=JavaScript
 |Code=/*Open Database*/
-
 var db = null;
-  var dbOpenRequest = window.indexedDB.open("BookShop1");
-  dbOpenRequest.onsuccess = function(event){
+var dbOpenRequest = window.indexedDB.open("BookShop1");
+dbOpenRequest.onsuccess = function (event) {
     db = dbOpenRequest.result;
     DAO.version = db.version;
     var thisDB = db; // Need to create this variable since the variable db is assigned to other things later
-            };
-    write("Database Opened", db, event);
-    
-    document.write("Opening a new transaction.");
-    try {
-      var transaction = db.transaction(["ObjectStore_BookList"], IDBTransaction.READ_WRITE);
-      document.write("Transaction created", transaction);
+};
+write("Database Opened", db, event);
 
-// Now that the transaction is created, lets abort it !! 
-transaction.abort();  
-    } catch (e) {
-      write("Could not open transaction");
-      writeError(e);
-    }
-    
-  };
-  
+document.write("Opening a new transaction.");
+try {
+    var transaction = db.transaction(["ObjectStore_BookList"], IDBTransaction.READ_WRITE);
+    document.write("Transaction created", transaction);
+
+    // Now that the transaction is created, lets abort it !! 
+    transaction.abort();
+} catch (e) {
+    write("Could not open transaction");
+    writeError(e);
+}
+
+};
 |LiveURL=http://axemclion.github.com/trialtool/index.html#example=/IndexedDB/trialtool/moz_indexedDB.html&selected=Abort Transaction&
 }}
 }}
@@ -92,3 +90,10 @@ transaction.abort();
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
+}
+
+
+
+
+
+}
