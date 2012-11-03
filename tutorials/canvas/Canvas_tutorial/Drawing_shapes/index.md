@@ -1,6 +1,8 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Flags
 }}
+{{Byline}}
 {{Summary_Section}}
 {{Tutorial
 |Content=== The grid ==
@@ -357,9 +359,9 @@ function roundedRect(ctx,x,y,width,height,radius){
 
 </pre>
 
-[[canvas/tutorial/Canvas tutorial/Basic usage|Previous   ]][[canvas/tutorial/Canvas tutorial/Using images|   Next]]
-
+[[canvas/tutorial/Canvas_tutorial/Basic_usage|&lt;&lt;Previous      ||    ]][[canvas/tutorial/Canvas_tutorial/Using_images|   Next&gt;&gt;]]
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
 |Desktop_rows=
