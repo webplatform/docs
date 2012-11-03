@@ -1,6 +1,8 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Flags
 }}
+{{Byline}}
 {{Summary_Section}}
 {{Tutorial
 |Content===Saving and restoring state==
@@ -276,8 +278,9 @@ This method must reset the current transform to the identity matrix, and then in
  }
 
 
-[[canvas/tutorial/Canvas tutorial/Applying styles and colors|&lt;&lt;Previous      ||    ]][[canvas/tutorial/Canvas tutorial/Compositing|   Next&gt;&gt;]]
+[[canvas/tutorial/Canvas_tutorial/Applying_styles_and_colors|&lt;&lt;Previous      ||    ]][[canvas/tutorial/Canvas_tutorial/Compositing|   Next&gt;&gt;]]
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
 |Desktop_rows=
