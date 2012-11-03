@@ -1,46 +1,62 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section|Retrieves the next child node of the parent of the node.}}
 {{API_Object_Property
 |Property_applies_to=dom/Node
-|Read_only=
+|Read_only=Yes
+|Example_object_name=node
+|Return_value_name=nextNode
+|Javascript_data_type=DOM Node
+|Return_value_description=The next child node of the parent of the node.
 }}
-{{Topics|DOM}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
+|Language=HTML
 |Description=This example uses the '''nextSibling''' property to obtain the next item in the list.
-|LiveURL=
-|Code=
-&lt;SCRIPT&gt;
+|Code=&lt;script&gt;
 // returns the list item labeled 'List Item 2'
-var oSibling {{=}} oList.childNodes(0).nextSibling;
-&lt;/SCRIPT&gt;
-&lt;BODY&gt;
-&lt;UL ID {{=}} oList&gt;
-&lt;LI&gt;List Item 1
-&lt;LI&gt;List Item 2
-&lt;LI&gt;List Item 3
-&lt;/UL&gt;
-&lt;BODY&gt;
-}}}}
+var oSibling {{=}} document.getElementById("oList").childNodes(0).nextSibling;
+&lt;/script&gt;
+&lt;body&gt;
+&lt;ul id{{=}}"oList"&gt;
+&lt;li&gt;List Item 1&lt;/li&gt;
+&lt;li&gt;List Item 2&lt;/li&gt;
+&lt;li&gt;List Item 3&lt;/li&gt;
+&lt;/ul&gt;
+&lt;body&gt;
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
-Starting in Microsoft Internet Explorer 6, this property applies to the [[dom/attributes|'''attribute''']] object.
-|Import_Notes=
-===Syntax===
+|Import_Notes====Syntax===
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}161725 Document Object Model (DOM) Level 1 Specification], Section 1.2
-
-
+}}
+{{Related_Specifications_Section
+|Specifications={{Related Specification
+|Name=DOM Level 3 Core
+|URL=http://www.w3.org/TR/DOM-Level-3-Core/
+|Status=Recommendation
+|Relevant_changes=Section 1.4
+}}
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=6 and later
+|Note=this property applies to the [[dom/attributes|'''attribute''']] object.
+}}
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 *<code>[[html/elements/a|a]]</code>
 *<code>abbr</code>
 *<code>[[html/elements/acronym|acronym]]</code>
@@ -146,10 +162,11 @@ Starting in Microsoft Internet Explorer 6, this property applies to the [[dom/a
 *<code>Conceptual</code>
 *<code>About the W3C Document Object Model</code>
 }}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
