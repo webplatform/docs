@@ -131,7 +131,7 @@ Dynamic HTML (DHTML) expressions can be used instead of the preceding value(s). 
 |Opera_mobile_version=10.0
 |Opera_mobile_prefixed_supported=Unknown
 |Opera_mobile_prefixed_version=
-|Opera_mini_supported=Unknown
+|Opera_mini_supported=No
 |Opera_mini_version=
 |Opera_mini_prefixed_supported=Unknown
 |Opera_mini_prefixed_version=
