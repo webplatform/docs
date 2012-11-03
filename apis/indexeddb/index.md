@@ -12,7 +12,9 @@
 }}
 {{Notes_Section
 |Usage=indexedDB = window.indexedDB;
-|Notes==== Constructs ===
+|Notes=The IndexedDB specification supports an Asynchronous API on the window object and a Synchronous API for Webworkers.
+
+=== Constructs ===
 
 ==== Database ====
 Each [http://www.w3.org/TR/html5/browsers.html#origin origin] has a set of associated databases. Database comprise of Object Stores that store data
@@ -35,6 +37,9 @@ A cursor is a transient construct to iterate over the records in a database. Cur
 
 ==== Transaction ====
 All database read and write operations occur in transactions. Transactions can be read or read_write. A version_change transaction is a special transaction that allows adding or deleting Object Stores or Indexes. 
+
+==== Request ====
+Each reading and writing operation on a database is done using a request. The result of a request is usually available in success or error events raised on the request.  
 
 === Security ===
 The IndexedDB storage follows the same-origin policy.
