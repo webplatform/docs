@@ -26,9 +26,8 @@ The width of the text, in CSS pixels.
 |Examples=
 }}
 {{Notes_Section
-|Import_Notes====Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}197019 HTML Canvas 2D Context], Section 11
+|Import_Notes====Standards information===
+*[http://www.w3.org/TR/2dcontext/ HTML Canvas 2D Context]
 }}
 {{Related_Specifications_Section
 |Specifications=
@@ -40,8 +39,7 @@ The width of the text, in CSS pixels.
 |Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[canvas/objects/CanvasRenderingContext2D|CanvasRenderingContext2D]]</code>
+|Manual_links=*<code>[[canvas/objects/CanvasRenderingContext2D|CanvasRenderingContext2D]]</code>
 }}
 {{Topics|DOM}}
 {{External_Attribution
