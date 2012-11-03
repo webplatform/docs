@@ -23,7 +23,7 @@
 |Examples={{Single Example
 |Language=JavaScript
 |Description=This example exposes the '''body''' element in javascript.
-|Code=<syntaxhighlight lang="javascript">var oBody {{=}} document.body;</syntaxhighlight>
+|Code=<syntaxhighlight lang="javascript">var oBody = document.body;</syntaxhighlight>
 }}{{Single Example
 |Language=HTML
 |Description=The "'body'" element follows the "'head'" element and is contained by the "'html'" element.
