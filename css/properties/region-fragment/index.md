@@ -7,9 +7,14 @@
 {{API_Name}}
 {{Summary_Section}}
 {{CSS Property
+|Initial value=auto
+|Applies to=CSS Regions
 |Inherited=No
+|Media=visual
+|Computed value=specified value
 |Animatable=No
 |CSS object model property=regionFragment
+|CSS percentages=N/A
 |Values=
 }}
 {{Examples_Section
@@ -18,7 +23,10 @@
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Regions Module Level 3
+|URL=http://dev.w3.org/csswg/css3-regions/#the-region-fragment-property
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
