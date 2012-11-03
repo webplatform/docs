@@ -23,7 +23,7 @@ Python also has a fairly vibrant community:
 
 == Frameworks ==
 Some of the more widely used Python web frameworks are:
-* [https://www.djangoproject.com/ Django]
+* [https://www.djangoproject.com/ Django] - full stack framework, colloquially referred to as Python's counterpart to Ruby's Rails web framework.
 * [http://www.pylonsproject.org/ Pylons/Pyramid] 
 * [http://flask.pocoo.org/ Flask]
 * [http://wiki.python.org/moin/WebFrameworks more]
