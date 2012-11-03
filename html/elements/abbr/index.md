@@ -52,12 +52,11 @@ The <code>title</code> attribute may be used to provide an expansion of the abbr
 |Internet_explorer_version=8.0
 |Internet_explorer_prefixed_supported=Unknown
 |Internet_explorer_prefixed_version=
-|Opera_supported=Unknown
-|Opera_version=
+|Opera_supported=Yes
+|Opera_version=12.0
 |Opera_prefixed_supported=Unknown
 |Opera_prefixed_version=
-|Safari_supported=Unknown
-|Safari_version=
+|Safari_supported=Yes
 |Safari_prefixed_supported=Unknown
 |Safari_prefixed_version=
 }}
