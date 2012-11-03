@@ -58,7 +58,7 @@ If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRES
 }}
 {{See_Also_Section
 |Manual_links=*<code>[[canvas/objects/CanvasRenderingContext2D|CanvasRenderingContext2D]]</code>
-*[[/tutorials/canvas/Canvas_tutorial/Transformations|Transformations]]
+*[[tutorials/canvas/Canvas_tutorial/Transformations|Transformations]]
 }}
 {{Topics|DOM}}
 {{External_Attribution
