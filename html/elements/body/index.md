@@ -27,8 +27,9 @@ The window object for the body element can host event handlers for the onblur, o
 === HTML Event Handler Content Attributes ===
 
 {{{!}} class="wikitable"
-{{!}}!Event
-{{!}}!Description
+{{!}}-
+!Event
+!Description
 {{!}}-
 {{!}}<code>onafterprint</code> 
 {{!}}User printed current document.
