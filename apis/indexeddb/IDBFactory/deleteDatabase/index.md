@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Deletes a database with the specified name}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=name
