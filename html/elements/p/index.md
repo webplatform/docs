@@ -1,6 +1,6 @@
 {{Page_Title|The paragraph (p) element}}
 {{Flags
-|Content=Incomplete, Compatibility Incomplete
+|Content=Compatibility Incomplete
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
