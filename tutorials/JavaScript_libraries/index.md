@@ -1,8 +1,12 @@
+{{Page_Title}}
 {{Flags
-|High-level issues=Stub
+|High-level issues=Stub, Deletion Candidate
+|Editorial notes=Webplatform is to properly document the web platform, not to create redundant content. There are thousands of sites out there to help people learn javascript libraries. This is the only one to learn web technologies.
 }}
+{{Byline}}
 {{Summary_Section}}
 {{Tutorial}}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
 |Desktop_rows=
