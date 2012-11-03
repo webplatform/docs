@@ -10,7 +10,6 @@
 |Use_page_title=No
 |List_all_subpages=Yes
 }}
-{{Compatibility_Section}}
 {{Notes_Section}}
 {{See_Also_Section}}
 {{Topics}}
