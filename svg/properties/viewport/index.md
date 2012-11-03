@@ -12,13 +12,14 @@ Often, the current viewport is the nearest ancestor [[svg/objects/SVGElement|'''
 ===Syntax===
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}204733 Scalable Vector Graphics: Document Structure], Section 5.11.2
-
+===Device Support===
+*[https://docs.google.com/spreadsheet/lv?key=0AoUAJWmYgaHHdHZZWWpPQkx4eHpBaUxna3dyMGkzLUE Device Viewport Width Reference (maintained by Matt Stow)]
 
 }}
 {{See_Also_Section
 |Manual_sections=
-===Related pages (MSDN)===
-*<code>[[svg/elements/svg|SVGSVGElement]]</code>
+===Related pages===
+*<code>[[svg/elements/svg|SVGSVGElement (MSDN)]]</code>
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
