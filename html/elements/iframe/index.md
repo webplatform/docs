@@ -1,30 +1,27 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{Markup_Element
 |DOM_interface=dom/HTMLIFrameElement
+|Content=Iframes are one the best ways to build a complex, detailed webpage from smaller, more manageable chunks.
 }}
-{{Topics|HTML}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Description=This example uses the '''iframe''' element and an HTML fragment to create a frame containing the page sample.htm.
-|LiveURL=
-|Code=
-&lt;IFRAME ID{{=}}IFrame1 FRAMEBORDER{{=}}0 SCROLLING{{=}}NO SRC{{=}}"sample.htm"&gt;&lt;/IFRAME&gt;
-}}
-{{Single_Example
+|Code=&lt;IFRAME ID{{=}}IFrame1 FRAMEBORDER{{=}}0 SCROLLING{{=}}NO SRC{{=}}"sample.htm"&gt;&lt;/IFRAME&gt;
+}}{{Single Example
 |Description=This example returns a reference to the [[dom/properties/all|'''all''']] collection of the document contained by the '''iframe'''.
-|LiveURL=
-|Code=
-var collAll {{=}} document.frames("IFrame1").document.all
-}}}}
+|Code=var collAll {{=}} document.frames("IFrame1").document.all
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 The '''iframe''' element functions as a document within a document, or like a floating '''frame'''. The [[dom/properties/frames|'''frames''']] collection provides access to the contents of an '''iframe'''. Use the '''frames''' collection to read or write to elements contained in an '''iframe'''. For example, the syntax for accessing the [[css/properties/background-color|'''backgroundColor''']] style of the '''body''' object in an '''iframe''' is:
  <code>sColor {{=}} document.frames("sFrameName").document.body.style.backgroundColor;</code>
 You can access the '''iframe''' object's properties, but not its contents, through the object model of the page where the '''iframe''' object resides. For example, the syntax for accessing the [[css/properties/border|'''border''']] style of the '''iframe''' object is:
@@ -40,9 +37,7 @@ Microsoft Internet Explorer 5.5 supports transparent content with inline floati
 #In the '''iframe''' content source document, the  [[css/properties/background-color|'''backgroundColor''']] attribute of the '''body''' element must be set to <code>transparent</code>.
 
 Using Transparency with Inline Floating Frames
-
-|Import_Notes=
-===Standards information===
+|Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}196991 Document Object Model (DOM) Level 2 HTML Specification], Section 1.6.5
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 16.5
 
@@ -616,18 +611,25 @@ This property is not supported for Metro style apps using JavaScript.
 |Sets or retrieves the width of the  object.
 |}
  
-
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 *<code>Using IFRAME Elements</code>
-|Topic_clusters=html
 }}
+{{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
