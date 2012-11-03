@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Moves to the next record (or the record specified by a key). }}
+{{Summary_Section|Moves to the next record (or the record specified by a key).}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=key
