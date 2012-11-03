@@ -417,7 +417,7 @@ This method is not supported for Metro style apps using JavaScript.
 {{!}}Retrieves the value of the specified attribute.
 {{!}}-
 {{!}}[[dom/methods/getAttributeNode|<code>getAttributeNode</code>]]
-{{!}}Retrieves an [[dom/attributes|<code>attribute</code>]] object referenced by the <code>attribute<code>.[[html/attributes/name|<code>name</code>]] property.
+{{!}}Retrieves an [[dom/attributes|<code>attribute</code>]] object referenced by the <code>attribute</code>.[[html/attributes/name|<code>name</code>]] property.
 {{!}}-
 {{!}}[[dom/methods/getAttributeNodeNS|<code>getAttributeNodeNS</code>]]
 {{!}}Gets an [[dom/attributes|<code>attribute</code>]] object that matches the specified namespace and name.
@@ -568,7 +568,7 @@ The <code><body></code> object has these properties.
 {{!}}Gets a string value that indicates whether the content in the block element flows from left to right, or from right to left.
 {{!}}-
 {{!}}[[dom/properties/body|<code>body</code>]]
-{{!}}Gets an interface pointer to the document <code>body<code> object.
+{{!}}Gets an interface pointer to the document <code>body</code> object.
 {{!}}-
 {{!}}[[html/attributes/bottomMargin|<code>bottomMargin</code>]]
 {{!}}Sets or gets the bottom margin of the entire body of the document.
