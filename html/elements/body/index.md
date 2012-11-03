@@ -36,9 +36,9 @@
 {{Notes_Section
 |Import_Notes====Members===
 The '''body''' object has these types of members:
-*[#events Events]
-*[#methods Methods]
-*[#properties Properties]
+*[[#Events|Events]]
+*[[#Methods|Methods]]
+*[[#Properties|Properties]]
 
 
 ====Events====
@@ -705,7 +705,6 @@ This property is not supported for Metro style apps using JavaScript.
 {{!}}[[html/attributes/vLink|'''vLink''']]
 {{!}}Sets or gets the color of links in the object that have already been visited.
 {{!}}}
-
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
