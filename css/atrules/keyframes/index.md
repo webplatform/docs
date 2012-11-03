@@ -130,14 +130,15 @@ Keyframe selectors use keyframe descriptors to specify the properties and values
 {{See_Also_Section
 |Topic_clusters=Syntax
 |Manual_links=*[http://caniuse.com/#feat=css-animation canIUse Compatibility Table]
+*[https://developer.mozilla.org/en-US/docs/CSS/@keyframes MDN]
 |Manual_sections====Related pages (MSDN)===
 *<code>[[css/properties/animation-name|animationName]]</code>
 }}
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|MDN_link=https://developer.mozilla.org/en-US/docs/CSS/@keyframes
+|Sources=MSDN
+|MDN_link=
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
