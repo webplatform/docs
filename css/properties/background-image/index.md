@@ -40,6 +40,12 @@ This example uses a call to an embedded (global) style sheet to show and hide th
 &lt;span style{{=}}"font-size: 14px" onmouseover{{=}}"this.className{{=}}'setUrl'" onmouseout{{=}}"this.className{{=}}'loseUrl'"&gt;
 . . . &lt;/span&gt;
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/background-image.htm
+}}{{Single Example
+|Language=CSS
+|Description=Using a data URI to specify an encoded, inline image instead of an external asset.
+|Code=.logo {
+    background-image: url(data: iVBORw0KGgoAAAANSUhEUg.....);
+}
 }}
 }}
 {{Notes_Section
@@ -107,6 +113,40 @@ With CSS3 backgrounds, the background of a box can have multiple layers. The num
 |Opera_mini_prefixed_version=
 |Safari_mobile_supported=Yes
 |Safari_mobile_prefixed_supported=No
+|Safari_mobile_prefixed_version=
+}}{{Compatibility Table Mobile Row
+|Feature=Data URI
+|Android_supported=Yes
+|Android_version=4
+|Android_prefixed_supported=Unknown
+|Android_prefixed_version=
+|Blackberry_supported=Unknown
+|Blackberry_version=
+|Blackberry_prefixed_supported=Unknown
+|Blackberry_prefixed_version=
+|Chrome_mobile_supported=Unknown
+|Chrome_mobile_version=
+|Chrome_mobile_prefixed_supported=Unknown
+|Chrome_mobile_prefixed_version=
+|Firefox_mobile_supported=Unknown
+|Firefox_mobile_version=
+|Firefox_mobile_prefixed_supported=Unknown
+|Firefox_mobile_prefixed_version=
+|IE_mobile_supported=Yes
+|IE_mobile_version=10
+|IE_mobile_prefixed_supported=Unknown
+|IE_mobile_prefixed_version=
+|Opera_mobile_supported=Unknown
+|Opera_mobile_version=
+|Opera_mobile_prefixed_supported=Unknown
+|Opera_mobile_prefixed_version=
+|Opera_mini_supported=Unknown
+|Opera_mini_version=
+|Opera_mini_prefixed_supported=Unknown
+|Opera_mini_prefixed_version=
+|Safari_mobile_supported=Yes
+|Safari_mobile_version=3.2
+|Safari_mobile_prefixed_supported=Unknown
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows={{Compatibility Notes Row
