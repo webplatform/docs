@@ -4,7 +4,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The text-align property controls the horizontal alignment of text within an element.}}
 {{CSS Property
 |Applies to=All elements
 |Inherited=Yes
