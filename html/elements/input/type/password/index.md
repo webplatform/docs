@@ -1,24 +1,24 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{Markup_Element
 |DOM_interface=dom/HTMLInputElement
 }}
-{{Topics|HTML}}
 {{Examples_Section
 |Not_required=No
-|Examples=}}
+|Examples=
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 '''Security Warning:  '''Using this object incorrectly can compromise the security of your application. Passwords submitted through '''input type{{=}}password''' are not encrypted and therefore not secure. 
 Using Secure Hypertext Transfer Protocol (HTTPS) is strongly recommended. You should also use the '''post''' method for submitting passwords. This submission method hides the password from most users by placing it in the HTTP header. The '''get''' method submits the password as part of the URL string, which might be exposed in the '''Address''' bar and the status bar.  You should review the Security Considerations: Dynamic HTML before continuing.
 '''Note'''  Starting with Internet Explorer 10, password fields will automatically display a warning if the caps lock is on. To turn off the automatic caps lock warning, use the [[dom/properties/msCapsLockWarningOff|'''msCapsLockWarningOff''']] property on the document object.
-|Import_Notes=
-===Standards information===
+|Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}221374 HTML5 A vocabulary and associated APIs for HTML and XHTML]
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 17.4
 
@@ -711,21 +711,28 @@ This property is not supported for Metro style apps using JavaScript.
 |Sets or retrieves the calculated width of the object.
 |}
  
-
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 *<code>input</code>
 *<code>[[dom/properties/msCapsLockWarningOff|msCapsLockWarningOff]]</code>
 *<code>[http://go.microsoft.com/fwlink/p/?LinkID{{=}}251128 Form controls part 1]</code>
 *<code>[http://go.microsoft.com/fwlink/p/?LinkID{{=}}251131 Form controls part 2: validation]</code>
-|Topic_clusters=html, form
 }}
+{{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
