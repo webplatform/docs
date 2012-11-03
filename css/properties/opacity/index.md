@@ -48,6 +48,7 @@
 }}
 }}
 {{Notes_Section
+|Usage=As an alternative to the visibility property, an element's opacity can be set to 0 to make the element take space but not appear.
 |Notes====Remarks===
 The opacity setting is applied uniformly across the entire object. Any values outside the range 0.0 to 1.0 will be clamped to this range.
 Object or group opacity can be thought of conceptually as a postprocessing operation. Conceptually, after the object or group is rendered into an RGBA offscreen image, the object or group opacity setting specifies how to blend the offscreen image into the current background.
