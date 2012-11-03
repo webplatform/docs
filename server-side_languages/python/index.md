@@ -17,6 +17,8 @@ Python also has a fairly vibrant community:
 * [http://mail.python.org/mailman/listinfo Mailing Lists]
 
 == Tutorials ==
+* [http://docs.python.org/2/tutorial/ Official Python Tutorial]
+* [https://code.google.com/edu/languages/google-python-class/ Google's Python Class]
 * [http://docs.python.org/2/howto/webservers.html HOWTO Use Python in the Web]
 
 == Frameworks ==
