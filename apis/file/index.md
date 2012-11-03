@@ -12,7 +12,7 @@
 }}
 {{Notes_Section}}
 {{See_Also_Section}}
-{{Topics}}
+{{Topics|FileAPI}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MDN
