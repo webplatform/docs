@@ -106,6 +106,7 @@ Keyframe selectors use keyframe descriptors to specify the properties and values
 |Chrome_supported=Unknown
 |Chrome_version=
 |Chrome_prefixed_supported=Yes
+|Chrome_prefixed_version=4.0
 |Firefox_supported=Yes
 |Firefox_version=16.0
 |Firefox_prefixed_supported=Yes
@@ -128,6 +129,7 @@ Keyframe selectors use keyframe descriptors to specify the properties and values
 }}
 {{See_Also_Section
 |Topic_clusters=Syntax
+|Manual_links=*[http://caniuse.com/#feat=css-animation canIUse Compatibility Table]
 |Manual_sections====Related pages (MSDN)===
 *<code>[[css/properties/animation-name|animationName]]</code>
 }}
