@@ -1,32 +1,29 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{Markup_Element
 |DOM_interface=dom/HTMLBodyElement
 }}
-{{Topics|HTML}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Description=This example exposes the '''body''' element in script.
-|LiveURL=
-|Code=
-var oBody {{=}} document.body;
-}}}}
+|Code=var oBody {{=}} document.body;
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 You can access the '''body''' element from script through the [[dom/document|'''document''']] object.
 The '''window''' object for the '''body''' element can host event handlers for the [[dom/events/blur|'''onblur''']], [[dom/events/focus|'''onfocus''']], [[dom/events/load|'''onload''']], or [[dom/events/unload|'''onunload''']] events.
 Windows Internet Explorer 8 and later. The value of the [[html/attributes/background (Body element)|'''background''']] attribute depends on the current document compatibility mode.
 As of Microsoft Internet Explorer 6, when you use the [[html/elements/!DOCTYPE|!DOCTYPE]] declaration to specify standards-compliant mode, the '''body''' object can obtain its size from its content, or you can set its size explicitly—like a '''div''' object, for example. In standards-compliant mode, the '''html''' element represents the entire surface onto which a document's contents can be rendered. When the !DOCTYPE declaration does not specify standards-compliant mode, and with earlier versions of Windows Internet Explorer, the '''body''' object represents the entire surface onto which a document's contents can be rendered. The size of the '''body''' object cannot be changed and is equal to the size of the window. Margins you set on this object are rendered inside the border and scrollbars of the object.
 In Internet Explorer 6, When you use the [[html/elements/!DOCTYPE|!DOCTYPE]] declaration to specify standards-compliant mode, this object no longer represents the entire surface onto which a document's contents can be rendered. The object can obtain its size from its content, or you can set its size explicitly like a '''div''' object.
-
-|Import_Notes=
-===Standards information===
+|Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}196991 Document Object Model (DOM) Level 2 HTML Specification], Section 1.6.5
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 7.5.1
 
@@ -713,18 +710,25 @@ This property is not supported for Metro style apps using JavaScript.
 |Sets or gets the color of links in the object that have already been visited.
 |}
  
-
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 *<code>CSS Enhancements in Internet Explorer 6</code>
-|Topic_clusters=html
 }}
+{{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
