@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The "img" tag can be used by the developer to embed an image on the page. The "img" tag can be enclosed by an "a" tag to create an image that links to another page or section.  Alternatives to the "img" tag include setting the background-image property of an element.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLImageElement
 }}
