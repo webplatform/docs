@@ -5,10 +5,10 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|SVG filter effects apply graphics operations such as blurs and color transformations to a source graphic. Filters may be applied to any SVG element. The <code>filter</code> element specifies the position, dimensions, resolution and units for a filter effect. <code>filter</code>elements typically have multiple child elements that declare a graph of filter primitives such as feGaussianBlur or feColorMatrix, which create the graphics effects.}}
+{{Summary_Section|SVG filter effects apply graphics operations such as blurs and color transformations to a source graphic. Filters may be applied to presentational SVG elements as well as on grouping elements like <g>. The <code>filter</code> element specifies the position, dimensions, resolution and units for a filter effect. <code>filter</code>elements typically have multiple child elements that combine together to create the final graphics effects.}}
 {{Markup_Element
 |DOM_interface=svg/objects/SVGFilterElement
-|Content=An SVG filter applies a graphics effect to an SVG element. In SVG 1.1, the range of available graphics effects includes blurs, convolutions, color curve manipulation, cross-component color transfers, erosion effects, blending, compositing and more.  The <code>filter</code> element declares a filter effect. Filter elements are generally declared in the <code>defs</code> section of an SVG XML document or fragment. They contain a set of child elements that specify the individual graphics operations or "filter primitives" that comprise that filter operation. They are applied to an SVG element by adding a <code>filter</code> property, set to the id of the desired filter element. 
+|Content=An SVG filter applies a graphics effect to an SVG element. In SVG 1.1, the range of available graphics effects includes blurs, convolutions, color curve manipulation, cross-component color transfers, erosion effects, blending, compositing and more.  The <code>filter</code> element declares a filter effect and are usually included in the <code>defs</code> section of an SVG XML document. The filter element contains a set of child elements that specify the individual graphics operations or "filter primitives" that comprise that filter operation. Filter effects are applied to an SVG element by adding a <code>filter</code> property, set to the id of the desired filter element. 
 
 Below is a basic example of an SVG Filter that shows a gaussian blur applied to an SVG rectangle element. In this example, we first declare a filter whose id is'gblur". Within this filter element, we declare a filter primitive [feGausssianBlur] with a standard deviation of 5. After closing our tags, we draw a rectangle with the SVG <code>rect</code> element.  We apply the blur filter to it, by adding a filter property that references it.
 
@@ -27,7 +27,7 @@ Below is a basic example of an SVG Filter that shows a gaussian blur applied to 
 
 [[Image:BasicSVGFilterExampleGaussBlur.png|alt=image showing input and output of a blur filter effect]]
 
-
+===Filter Region===
 The <code>filter</code> element may optionally define the position, dimensions, resolution, and units for the output of a filter effect. The position and dimensions of a filter may be specified using the following properties: x, y, width, height. The default values for these properties are *not intuitive* and are:
 
 * x: -10%
@@ -35,7 +35,7 @@ The <code>filter</code> element may optionally define the position, dimensions, 
 *width: 120%
 *height: 120%
 
-This has the effect that, by default, the output of a filter paints onto the screen with a 10% overflow relative to the input element. In some cases, such as blur effects, this may be desirable. In other cases, such as lighting effects, this may be undesirable. The below example shows the effect of specifying a filter effects region with x and y set at 50%: the filter effects region effectively clips the output.
+This has the effect that, by default, the output of a filter paints onto the screen with a 10% overflow all around relative to the input element. In some cases (such as blur effects) this may be desirable. In other cases, such as lighting effects, this may be undesirable, and the filter region should be specified explicitly. The below example shows the effect of specifying a filter effects region with x and y set at 50%: the filter effects region effectively clips the output.
 
 <syntaxhighlight lang="xml" highlight="4">
 <svg width="200px" height="200px" viewbox="0 0 200 200 xmlns="http://www.w3.org/2000/svg" version="1.1">
@@ -53,7 +53,8 @@ This has the effect that, by default, the output of a filter paints onto the scr
 
 [[Image:BasicSVGFilterExampleWithClipRegion.png|alt=image showing the result of specifying a custom filter effects region]]
 
-
+===Filter Resolution===
+By default, it's left up to the browser to decide what resolution to use when performing operations on the inputs, but it's possible to explicitly define a resolution for the browser to use. Choosing a filter resolution significantly lower than the display default will result in visible pixelation but filters will execute faster. Choosing a filter resolution significantly higher than the display default can cause slow filter performance. Filter resolution may be separately specified in both the [svg/properties/filterResX|X] and [svg/properties/filterResY|Y] dimension.
 
 It is currently (Fall 2012) contemplated that in the future, SVG filters can be referenced via a [CSS Filter] and used to apply advanced effects to HTML elements.
 }}
@@ -113,10 +114,6 @@ feMerge: provides a simple composite of intermediate filter results
 feBlend: blends multiple inputs using color rules
 feComposite: blends multiple inputs using alpha values
 feTile: tiles input to output a pattern
-
-
-
-
 |Notes====Remarks===
 Although SVG is a vector graphics technology, it's important to emphasize that SVG Filters perform *pixel-level* operations on all inputs (including SVG shapes) and produce rasterized (bitmapped) outputs at a specified level of resolution. Applying a 10x scale transform (for example) on an plain SVG curve that has been filtered at normal screen resolution will produce pixelated edges since the anti-aliasing of the original graphic has been converted to pixels by the filter and scaled up.
 
