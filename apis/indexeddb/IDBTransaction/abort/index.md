@@ -29,7 +29,7 @@ dbOpenRequest.onsuccess = function (event) {
         write("Could not open transaction");
     }
 };
-|LiveURL=http://axemclion.github.com/trialtool/index.html#example=/IndexedDB/trialtool/moz_indexedDB.html&selected=Abort Transaction&
+|LiveURL=http://axemclion.github.com/trialtool/index.html#example=/IndexedDB/trialtool/moz_indexedDB.html&selected=Abort%20Transaction&
 }}
 }}
 {{Notes_Section
