@@ -1,7 +1,7 @@
 {{Page_Title|The <body> element}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Examples Best Practices
+|High-level issues=Data Not Semantic, Unreviewed Import
+|Content=Cleanup
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -21,16 +21,16 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Language=JavaScript
-|Description=This example exposes the '''body''' element in javascript.
-|Code=<syntaxhighlight lang="javascript">var oBody = document.body;</syntaxhighlight>
-}}{{Single Example
 |Language=HTML
 |Description=The '''body''' element follows the '''head''' element and is contained by the '''html''' element.
 |Code=<syntaxhighlight lang="html5"><html>
 <head></head>
 <body></body>
 </html></syntaxhighlight>
+}}{{Single Example
+|Language=JavaScript
+|Description=This example exposes the '''body''' element in javascript.
+|Code=<syntaxhighlight lang="javascript">var oBody = document.body;</syntaxhighlight>
 }}
 }}
 {{Notes_Section
