@@ -13,7 +13,7 @@
 Below is a basic example of an SVG Filter that shows a gaussian blur applied to an SVG rectangle element. In this example, we first declare a filter whose id is'gblur". Within this filter element, we declare a filter primitive [feGausssianBlur] with a standard deviation of 5. After closing our tags, we draw a rectangle with the SVG <code>rect</code> element.  We apply the blur filter to it, by adding a filter property that references it.
 
 <syntaxhighlight lang="xml">
-<svg width="200px" height="200px" viewbox="0 0 200 200 xmlns="http://www.w3.org/2000/svg" version="1.1">
+<svg width="200px" height="200px" viewbox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" version="1.1">
 <title>A basic filter example</title>
    <defs>
      <filter id="gblur">
