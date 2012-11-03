@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The count method returns the number of records in an object store. }}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=key
