@@ -1,16 +1,17 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{Markup_Element
 |DOM_interface=dom/HTMLInputElement
 }}
-{{Topics|HTML}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Description=The following example lets the user choose one or more files, and then displays the choices.  The files list can also be used to upload to a website.
 
 <span codelanguage{{=}}"HTML"><table>
@@ -48,24 +49,17 @@ document.getElementById("display").innerHTML +{{=}} "&lt;br/&gt;" + myFileList.f
 </table></span>
 
 The following examples use the '''INPUT type{{=}}file''' element to upload a file to a server. The first example requires Microsoft Posting Acceptor, which can be used with IIS or Personal Web Server.
-|LiveURL=This example uses HTML code to submit a file selected by the user to Cpshost.dll, which is installed with Posting Acceptor.
-|Code=
-
-&lt;form name{{=}}"oForm"
+|Code=&lt;form name{{=}}"oForm"
    action{{=}}"repost.asp"
    enctype{{=}}"multipart/form-data"
    method{{=}}"post"&gt;
 &lt;input type{{=}}"file" name{{=}}"oFile1"/&gt;
 &lt;input type{{=}}"submit" value{{=}}"Upload File"&gt;
 &lt;/form&gt;
-
-}}
-{{Single_Example
+|LiveURL=This example uses HTML code to submit a file selected by the user to Cpshost.dll, which is installed with Posting Acceptor.
+}}{{Single Example
 |Description=This example shows the Active Server Page (ASP) content of Repost.asp. Notice that the properties of the uploaded file are accessible from the submitted form.
-|LiveURL=
-|Code=
-
-&lt;%@ LANGUAGE {{=}} JScript %&gt;
+|Code=&lt;%@ LANGUAGE {{=}} JScript %&gt;
 &lt;%
    Response.buffer{{=}}true;
 %&gt;
@@ -83,10 +77,10 @@ Destination: &lt;b&gt;&lt;% Response.Write(Server.HTMLEncode(Request.Form("Targe
 %&gt; 
 &lt;/body&gt;
 &lt;/html&gt;
-}}}}
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 For a file upload to take place:
 *The '''INPUT type{{=}}file''' element must be enclosed within a '''FORM''' element.
 *A value must be specified for the [[html/attributes/name|'''NAME''']] attribute of the '''INPUT type{{=}}file''' element.
@@ -100,8 +94,7 @@ Windows Internet Explorer 8 and later. When a file is selected by using the '''
 Windows Internet Explorer 7 and later.  By default, Internet Explorer does not include folder or directory path information when uploading files to sites in the Restricted zone.  This improves security by preventing information disclosure. Also, to improve accessibility, the '''INPUT type{{=}}file''' element now contains two accessible elements—one for the input box and one for the '''Browse''' button. This change is applicable only to accessibility tools; script implementations are not affected.
 Microsoft Internet Explorer 6 for Windows XP Service Pack 2 (SP2) and later.  For security reasons, the '''input type{{=}}file''' element no longer accepts relative file paths.  Microsoft Internet Explorer raises an Access Denied exception when the user attempts to submit a form containing an '''input type{{=}}file''' element that contains a relative path.
 The '''INPUT type{{=}}file''' element is available in HTML and script as of Microsoft Internet Explorer 4.0. The file upload add-on is required to use the '''INPUT type{{=}}file''' element in Microsoft Internet Explorer 3.02. Users can enter a file path in the text box or click the '''Browse''' button to browse the file system. When a file is uploaded, the file name is also submitted.
-|Import_Notes=
-===Standards information===
+|Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 17.4
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}221374 HTML5 A vocabulary and associated APIs for HTML and XHTML], Section 4.10
 
@@ -774,18 +767,25 @@ This property is not supported for Metro style apps using JavaScript.
 |Sets or retrieves the calculated width of the object.
 |}
  
-
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 *<code>input</code>
-|Topic_clusters=html, form
 }}
+{{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
