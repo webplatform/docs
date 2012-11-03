@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
+|Content=Incomplete, Not Neutral, Cleanup, Examples Best Practices
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -88,7 +88,32 @@ In Windows CE, specifying a value for the '''background-color''' property of th
 |Safari_prefixed_supported=No
 |Safari_prefixed_version=
 }}
-|Mobile_rows=
+|Mobile_rows={{Compatibility Table Mobile Row
+|Android_supported=Yes
+|Android_prefixed_supported=No
+|Android_prefixed_version=
+|Blackberry_supported=Yes
+|Blackberry_prefixed_supported=No
+|Blackberry_prefixed_version=
+|Chrome_mobile_supported=Yes
+|Chrome_mobile_prefixed_supported=No
+|Chrome_mobile_prefixed_version=
+|Firefox_mobile_supported=Yes
+|Firefox_mobile_prefixed_supported=No
+|Firefox_mobile_prefixed_version=
+|IE_mobile_supported=Yes
+|IE_mobile_prefixed_supported=No
+|IE_mobile_prefixed_version=
+|Opera_mobile_supported=Yes
+|Opera_mobile_prefixed_supported=No
+|Opera_mobile_prefixed_version=
+|Opera_mini_supported=Yes
+|Opera_mini_prefixed_supported=No
+|Opera_mini_prefixed_version=
+|Safari_mobile_supported=Yes
+|Safari_mobile_prefixed_supported=No
+|Safari_mobile_prefixed_version=
+}}
 |Notes_rows=
 }}
 {{See_Also_Section
