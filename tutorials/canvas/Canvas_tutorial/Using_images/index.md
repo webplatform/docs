@@ -1,6 +1,8 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Flags
 }}
+{{Byline}}
 {{Summary_Section|One of the more fun features of the canvas is the ability to use images. These can be used to do dynamic photo compositing or used as backdrops of graphs etc. External images can be used in any format supported by the browser (e.g. PNG, GIF or JPEG format). Other canvas elements on the same page can also be used as the source.}}
 {{Tutorial
 |Content=== Importing images ==
@@ -195,9 +197,9 @@ Gecko 1.9.2 introduced the <code>mozImageSmoothingEnabled</code> property to the
 <pre>ctx.mozImageSmoothingEnabled = false;
 </pre>
 
-[[canvas/tutorial/Canvas tutorial/Drawing shapes|&lt;&lt;Previous      ||    ]][[canvas/tutorial/Canvas tutorial/Applying styles and colors|   Next&gt;&gt;]]
-
+[[canvas/tutorial/Canvas_tutorial/Drawing_shapes|&lt;&lt;Previous      ||    ]][[canvas/tutorial/Canvas_tutorial/Applying_styles_and_colors|   Next&gt;&gt;]]
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
 |Desktop_rows=
