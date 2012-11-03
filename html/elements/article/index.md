@@ -1,14 +1,14 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Missing Relevant Sections
-|Content=Incomplete,  Compatibility Incomplete
+|Content=Incomplete, Compatibility Incomplete
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
-|Content=An '''article''' element might represent a forum post, a magazine or newspaper article, a blog entry, a user-submitted comment, an interactive widget or gadget, or any other independent item of content.
+|Content="Article" is a new element introduced in HTML5, for the purpose of relieving "div" fatigue and overuse. An '''article''' element might represent a forum post, a magazine or newspaper article, a blog entry, a user-submitted comment, an interactive widget or gadget, or any other independent item of content.
 When '''article''' elements are nested, the inner article should be related to the contents of the outer article. For example, a blog entry on a site that accepts user-submitted comments might represent the comments as '''article''' elements nested within the '''article''' element for the blog entry.
 
 ===HTML information===
