@@ -1,43 +1,54 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
+{{Summary_Section|Gets the name of a particular type of node.}}
 {{API_Object_Property
 |Property_applies_to=dom/Node
-|Read_only=
+|Read_only=Yes
+|Example_object_name=node
+|Return_value_name=nodeName
+|Javascript_data_type=String
+|Return_value_description=The name of the node.
 }}
-{{Topics|DOM}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
+|Language=HTML
 |Description=The following code example uses the '''nodeName''' property to obtain the name of an element.
-|LiveURL=
-|Code=
-&lt;SCRIPT&gt;
+|Code=&lt;script&gt;
 // returns the element name 'LI' of the list item labeled 'List Item 2'
-var sName {{=}} oList.childNodes(1).nodeName;
-&lt;/SCRIPT&gt;
-&lt;BODY&gt;
-&lt;UL ID {{=}} oList&gt;
-&lt;LI&gt;List Item 1
-&lt;LI&gt;List Item 2
-&lt;LI&gt;List Item 3
-&lt;/UL&gt;
-&lt;/BODY&gt;
-}}}}
-{{Notes_Section
-|Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}161725 Document Object Model (DOM) Level 1 Specification], Section 1.2
-
-
+var sName {{=}} document.getElementById("oList").childNodes(1).nodeName;
+&lt;/script&gt;
+&lt;body&gt;
+ &lt;ul id{{=}}"oList"&gt;
+  &lt;li&gt;List Item 1&lt;/li&gt;
+  &lt;li&gt;List Item 2&lt;/li&gt;
+  &lt;li&gt;List Item 3&lt;/li&gt;
+ &lt;/ul&gt;
+&lt;/body&gt;
+}}
+}}
+{{Notes_Section}}
+{{Related_Specifications_Section
+|Specifications={{Related Specification
+|Name=DOM Level 3 Core
+|URL=http://www.w3.org/TR/DOM-Level-3-Core/
+|Status=Recommendation
+|Relevant_changes=Section 1.2
+}}
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 *<code>[[html/elements/a|a]]</code>
 *<code>abbr</code>
 *<code>[[html/elements/acronym|acronym]]</code>
@@ -142,10 +153,11 @@ var sName {{=}} oList.childNodes(1).nodeName;
 *<code>[[dom/properties/nodeType|nodeType]]</code>
 *<code>About the W3C Document Object Model</code>
 }}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
