@@ -5,7 +5,8 @@
 }}
 {{Standardization_Status|De Facto Standard}}
 {{API_Name}}
-{{Summary_Section|Restrict the kinds of data uploaded by <code>input type="file"</code> to certain types.}}
+{{Summary_Section|Restrict the kinds of data uploaded by <code>input type="file"</code> to certain kinds of files.|Restrict the kinds of data uploaded by <code>input type="file"</code> to certain types.
+}}
 {{Markup_Attribute
 |Applies_to=[[dom/HTMLInputElement|HTMLInputElement]]
 |Property_applies_to=dom/HTMLElement
