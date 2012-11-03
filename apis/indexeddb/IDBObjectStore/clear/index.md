@@ -22,8 +22,7 @@ store.put("a"); // Will get key 1
 store.delete(1);
 store.put("b"); // Will get key 2
 store.clear(); // Clears all records from the store
-
-|LiveURL=http://axemclion.github.com/trialtool/index.html#example=/IndexedDB/trialtool/moz_indexedDB.html&selected=Clear ObjectStore&
+|LiveURL=http://axemclion.github.com/trialtool/index.html#example=/IndexedDB/trialtool/moz_indexedDB.html&selected=Clear%20ObjectStore&
 }}
 }}
 {{Notes_Section
