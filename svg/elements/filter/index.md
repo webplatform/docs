@@ -56,6 +56,34 @@ This has the effect that, by default, the output of a filter paints onto the scr
 ===Filter Resolution===
 By default, it's left up to the browser to decide what resolution to use when performing operations on the inputs, but it's possible to explicitly define a resolution for the browser to use. Choosing a filter resolution significantly lower than the display default will result in visible pixelation but filters will execute faster. Choosing a filter resolution significantly higher than the display default can cause slow filter performance. Filter resolution may be separately specified in both the [[svg/properties/filterResX|X]] and [[svg/properties/filterResY|Y]] dimension.
 
+Below we show an example of blurs with low values of FilterRes. The first example shows a FilterRes with a single value which is applied to both the X and Y dimensions. The second example shows a FilterRes with two values, which results in a low resolution blur in just the Y dimension.
+
+<syntaxhighlight lang="xml">
+<svg width="450px" height="300px" viewbox="0 0 450 300"
+     xmlns="http://www.w3.org/2000/svg" version="1.1">
+   <title>Example showing FilterRes</title>
+      <defs>
+        <filter id="lowresblur" filterRes="25" x="-50%" y="-50%" width="200%" height="200%">
+           <feGaussianBlur stdDeviation="5"/>
+       </filter>
+          
+        <filter id="lowresblurY" filterRes="450 25" x="-50%" y="-50%" width="200%" height="200%">
+           <feGaussianBlur stdDeviation="5"/>
+        </filter>
+      </defs>
+
+
+<rect x="25" y="50" width="100" height="100" fill="blue" stroke="red"/>         
+
+<rect x="175" y="50" width="100" height="100" fill="blue" stroke="red" filter="url(#lowresblur)"/>
+         
+<rect x="325" y="50" width="100" height="100" fill="blue" stroke="red" filter="url(#lowresblurY)"/>
+
+</svg>​
+</syntaxhighlight>
+
+
+
 It is currently (Fall 2012) contemplated that in the future, SVG filters can be referenced via a [CSS Filter] and used to apply advanced effects to HTML elements.
 }}
 {{Examples_Section
