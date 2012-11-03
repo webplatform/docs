@@ -173,11 +173,45 @@ Dynamic HTML (DHTML) expressions can be used instead of the preceding value(s). 
 |Safari_mobile_version=5.0
 |Safari_mobile_prefixed_supported=Unknown
 |Safari_mobile_prefixed_version=
+}}{{Compatibility Table Mobile Row
+|Feature=EOT - Embedded OpenType fonts
+|Android_supported=No
+|Android_version=
+|Android_prefixed_supported=Unknown
+|Android_prefixed_version=
+|Blackberry_supported=No
+|Blackberry_version=
+|Blackberry_prefixed_supported=Unknown
+|Blackberry_prefixed_version=
+|Chrome_mobile_supported=No
+|Chrome_mobile_version=
+|Chrome_mobile_prefixed_supported=Unknown
+|Chrome_mobile_prefixed_version=
+|Firefox_mobile_supported=No
+|Firefox_mobile_version=
+|Firefox_mobile_prefixed_supported=Unknown
+|Firefox_mobile_prefixed_version=
+|IE_mobile_supported=Yes
+|IE_mobile_version=10.0
+|IE_mobile_prefixed_supported=Unknown
+|IE_mobile_prefixed_version=
+|Opera_mobile_supported=No
+|Opera_mobile_version=
+|Opera_mobile_prefixed_supported=Unknown
+|Opera_mobile_prefixed_version=
+|Opera_mini_supported=No
+|Opera_mini_version=
+|Opera_mini_prefixed_supported=Unknown
+|Opera_mini_prefixed_version=
+|Safari_mobile_supported=No
+|Safari_mobile_version=
+|Safari_mobile_prefixed_supported=Unknown
+|Safari_mobile_prefixed_version=
 }}
 |Notes_rows={{Compatibility Notes Row
 |Browser=Internet Explorer
 |Version=5.5 - 9.0
-|Note=only supporting EOT fonts
+|Note=Only supporting EOT fonts
 }}{{Compatibility Notes Row
 |Browser=Android
 |Version=2.2 - 3.0
