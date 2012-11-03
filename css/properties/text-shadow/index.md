@@ -1,11 +1,11 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|By controlling and carefully defining the text-shadow property, the web developer can create cool visual effects, including text drop-shadows and engraved text. }}
 {{CSS Property
 |Initial value=none
 |Applies to=All elements
