@@ -148,9 +148,8 @@ In the example below, we set the unit systems of both the filter and filter prim
 
 Note: that when we use <code>userSpaceOnUse</code>, we have to calculate our filter and feFlood coordinates offset from the (0,0) of the user space that the <code><rect></code> has been drawn on. 
 
+[[Image:SVGFilterUnitsExamples.png|alt=image showing four identical filters with different unit systems for filterUnits and primitiveUnits]]
 
-
-It is currently (Fall 2012) contemplated that in the future, SVG filters can be referenced via a [CSS Filter] and used to apply advanced effects to HTML elements.
 }}
 {{Examples_Section
 |Not_required=No
@@ -214,6 +213,8 @@ Although SVG is a vector graphics technology, it's important to emphasize that S
 Remember that you're writing XML when you're writing filters, so *don't forget to close all those tags* or omit required properties or the filter won't execute at all.
 
 A filter element is never rendered directly. It is only referenced using the filter property on the element to which the filter is applied. Note that the [[css/properties/display|'''display''']] property does not apply to the <code>filter</code> element and  elements are not directly rendered even if the '''display''' property is set to a value other than "none".   Conversely, <code>filter</code> elements are available for referencing even when the'''display''' property on the <code>filter</code>element or any of its ancestors is set to "none".
+
+It is currently (Fall 2012) contemplated that in the future, SVG filters can be referenced via a [[CSS Filter]] and used to apply advanced effects to HTML elements.
 |Import_Notes====Syntax===
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}226062 Scalable Vector Graphics: Filter Effects], Section 15.25.1
