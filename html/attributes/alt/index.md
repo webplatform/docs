@@ -7,6 +7,7 @@
 {{API_Name}}
 {{Summary_Section}}
 {{Markup_Attribute
+|Applies_to=[[dom/HTMLImageElement|HTMLImageElement]]
 |Property_applies_to=dom/HTMLElement
 }}
 {{Examples_Section
@@ -32,6 +33,7 @@ In Microsoft Internet Explorer 6, This property now applies to the '''object'''
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
 |Chrome_version=Beta
