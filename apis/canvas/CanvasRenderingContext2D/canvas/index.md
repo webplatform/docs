@@ -8,7 +8,7 @@
 {{Summary_Section|A read-only reference to the [[canvas/objects/canvas|'''canvas''']] object that this [[canvas/objects/CanvasRenderingContext2D|'''CanvasRenderingContext2D''']] was created for.}}
 {{API_Object_Property
 |Property_applies_to=canvas/objects/CanvasRenderingContext2D
-|Read_only=No
+|Read_only=Yes
 }}
 {{Examples_Section
 |Not_required=Yes
