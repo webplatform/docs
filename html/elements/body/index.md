@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|The <body> element represents the main content of the document.}}
+{{Summary_Section|The <code><body></code> element represents the main content of the document.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLBodyElement
 |Content==== HTML information ===
@@ -19,9 +19,9 @@
 {{!}}block
 {{!}}}
 
-You can access the body element from script through the document object.
+You can access the <code>body</code> element from script through the document object.
 
-The window object for the body element can host event handlers for the onblur, onfocus, onload, or onunload events.
+The window object for the <code><body></code> element can host event handlers for the <code>onblur</code>, <code>onfocus</code>,<code>onload</code>, or <code>onunload</code> events.
 
 
 === HTML Event Handler Content Attributes ===
@@ -89,7 +89,7 @@ The following attributes are obsolete, and must not be used by authors: <code>al
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=The '''body''' element follows the '''head''' element and is contained by the '''html''' element.
+|Description=The<code><body></code> element follows the<code><head></code> element and is contained by the <code><html></code> element.
 |Code=<syntaxhighlight lang="html5">
 <!doctype html>
 <html lang="en">
@@ -105,20 +105,20 @@ The following attributes are obsolete, and must not be used by authors: <code>al
 |LiveURL=http://test.w3.org/html/examples/elements/body/body01.html
 }}{{Single Example
 |Language=JavaScript
-|Description=This example exposes the '''body''' element in javascript.
+|Description=This example exposes the <code><body></code> element in javascript.
 |Code=<syntaxhighlight lang="javascript">var oBody = document.body;</syntaxhighlight>
 }}
 }}
 {{Notes_Section
 |Import_Notes====Members===
-The '''body''' object has these types of members:
+The  <code><body></code> object has these types of members:
 *[[#Events|Events]]
 *[[#Methods|Methods]]
 *[[#Properties|Properties]]
 
 
 ====Events====
-The '''body''' object has these events.
+The  <code><body></code> object has these events.
 {{{!}} class="wikitable"
 {{!}}-
 !Event
@@ -351,7 +351,7 @@ This event is not supported for Metro style apps using JavaScript.
  
 
 ====Methods====
-The '''body''' object has these methods.
+The  <code><body></code> object has these methods.
 {{{!}} class="wikitable"
 {{!}}-
 !Method
@@ -537,7 +537,7 @@ that match any selector within the supplied selector strings.
  
 
 ====Properties====
-The '''body''' object has these properties.
+The <code><body></code> object has these properties.
 {{{!}} class="wikitable"
 {{!}}-
 !Property
@@ -841,15 +841,15 @@ This property is not supported for Metro style apps using JavaScript.
 |Notes_rows={{Compatibility Notes Row
 |Browser=Internet Explorer (Windows)
 |Version=8+
-|Note=The value of the 'background' attribute depends on the current document compatibility mode.
+|Note=The value of the <code>background</code> attribute depends on the current document compatibility mode.
 }}{{Compatibility Notes Row
 |Browser=Internet Explorer (Windows)
 |Version=6
-|Note=When you use the !DOCTYPE declaration to specify standards-compliant mode, this object no longer represents the entire surface onto which a document's contents can be rendered. The object can obtain its size from its content, or you can set its size explicitly like a div object.
+|Note=When you use the <code>!DOCTYPE</code> declaration to specify standards-compliant mode, this object no longer represents the entire surface onto which a document's contents can be rendered. The object can obtain its size from its content, or you can set its size explicitly like a <code><div></code> object.
 }}{{Compatibility Notes Row
 |Browser=Internet Explorer (Windows)
 |Version=6+
-|Note=As of Microsoft Internet Explorer 6, when you use the !DOCTYPE declaration to specify standards-compliant mode, the body object can obtain its size from its content, or you can set its size explicitly—like a div object, for example. In standards-compliant mode, the html element represents the entire surface onto which a document's contents can be rendered. When the !DOCTYPE declaration does not specify standards-compliant mode, and with earlier versions of Windows Internet Explorer, the body object represents the entire surface onto which a document's contents can be rendered. The size of the body object cannot be changed and is equal to the size of the window. Margins you set on this object are rendered inside the border and scrollbars of the object.
+|Note=As of Microsoft Internet Explorer 6, when you use the <code>!DOCTYPE</code> declaration to specify standards-compliant mode, the <code><body></code> object can obtain its size from its content, or you can set its size explicitly—like a <code><div></code> object, for example. In standards-compliant mode, the <code><html></code> element represents the entire surface onto which a document's contents can be rendered. When the <code>!DOCTYPE</code> declaration does not specify standards-compliant mode, and with earlier versions of Windows Internet Explorer, the <code><body></code> object represents the entire surface onto which a document's contents can be rendered. The size of the <code><body></code> object cannot be changed and is equal to the size of the window. Margins you set on this object are rendered inside the border and scrollbars of the object.
 }}
 }}
 {{See_Also_Section
