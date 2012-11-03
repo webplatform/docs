@@ -1,20 +1,20 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
-{{API_Object
-|Subclass_of=
-}}
-{{Topics|DOM}}
-{{Notes_Section
-|Notes=
-===Remarks===
-The canvas object, provides the surface on which to apply graphics and images. It must contain an graphic  created with [[canvas/objects/CanvasRenderingContext2D|'''CanvasRenderingContext2D''']] APIs 
+{{Summary_Section|The surface on which to apply graphics and images. The canvas object must contain an graphic created with [[canvas/objects/CanvasRenderingContext2D|'''CanvasRenderingContext2D''']] APIs 
 in order to render. When the actual drawing is done using the '''CanvasRenderingContext2D''' object, the properties and methods are used to create and manipulate graphics on a canvas object.
-|Import_Notes=
-===Standards information===
+}}
+{{API_Object}}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
+{{Notes_Section
+|Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}221374 HTML5 A vocabulary and associated APIs for HTML and XHTML], Section 4.8.10
 
 
@@ -180,17 +180,25 @@ The '''canvas''' object has these properties.
 |Gets or sets the width of a '''canvas''' element on a document.
 |}
  
-
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 *<code>[[canvas/objects/CanvasRenderingContext2D|CanvasRenderingContext2D]]</code>
 }}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
