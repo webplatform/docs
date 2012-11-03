@@ -1,33 +1,32 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
 }}
-{{Topics|HTML}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Description=This example uses the '''RT''' element to specify a string of text as an annotation or pronunciation guide to the base text.
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/rt.htm
-|Code=
-&lt;RUBY&gt;
+|Code=&lt;RUBY&gt;
    Base Text
    &lt;RT&gt;Ruby Text
 &lt;/RUBY&gt;
-}}}}
+|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/rt.htm
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 A ruby is an annotation or pronunciation guide for a string of text. The string of text annotated with a ruby is referred to as the base.
 The ruby text specified by the '''RT''' element is positioned '''above''' or '''inline''' with the [[css/properties/ruby-position|'''rubyPosition''']] property. Browsers that do not support the '''RT''' element render the ruby text inline with the base text.
 This element is available in HTML and script as of Microsoft Internet Explorer 5.
 The ruby text specified by the '''RT''' element is positioned '''above''' or '''inline''' with the [[css/properties/ruby-position|'''rubyPosition''']] property.
-|Import_Notes=
-===Standards information===
+|Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}221374 HTML5 A vocabulary and associated APIs for HTML and XHTML]
 
 
@@ -470,18 +469,25 @@ This property is not supported for Metro style apps using JavaScript.
 |Retrieves the element's unique number.
 |}
  
-
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 *<code>ruby</code>
-|Topic_clusters=html
 }}
+{{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
