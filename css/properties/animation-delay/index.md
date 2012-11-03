@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Needed, Examples Best Practices
+|Content=Incomplete, Not Neutral, Cleanup, Examples Needed, Examples Best Practices
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
@@ -82,7 +82,7 @@ If fewer  '''animation-delay''' values are declared than corresponding [[css/pro
 |Firefox_mobile_prefixed_supported=Yes
 |Firefox_mobile_prefixed_version=15.0
 |IE_mobile_supported=Yes
-|IE_mobile_version= WP 8 (IE 10)
+|IE_mobile_version=WP 8 (IE 10)
 |IE_mobile_prefixed_supported=No
 |IE_mobile_prefixed_version=
 |Opera_mobile_supported=Yes
