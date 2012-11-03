@@ -1,54 +1,46 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{Markup_Element
 |DOM_interface=dom/HTMLSelectElement
 }}
-{{Topics|HTML}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Description=This example uses the '''SELECT''' element to create a drop-down list box.
-|LiveURL=
-|Code=
-&lt;select name{{=}}"Cats" size{{=}}"1"&gt;
+|Code=&lt;select name{{=}}"Cats" size{{=}}"1"&gt;
 &lt;option value{{=}}"1"&gt;Calico
 &lt;option value{{=}}"2"&gt;Tortie
 &lt;option value{{=}}"3" selected&gt;Siamese
 &lt;/select&gt;
-}}
-{{Single_Example
+}}{{Single Example
 |Description=This example uses the '''select''' element to create a multi-select list box by setting the [[html/attributes/size (control)|'''SIZE''']] and [[html/attributes/multiple|'''MULTIPLE''']] attributes. To retrieve the selected options for a multi-select list box, iterate through the [[dom/properties/options|'''options''']] collection and check to see where [[html/attributes/selected|'''SELECTED''']] is set to '''true'''.
-|LiveURL=
-|Code=
-&lt;select id{{=}}"oSelect" name{{=}}"Cars" size{{=}}"3" multiple&gt;
+|Code=&lt;select id{{=}}"oSelect" name{{=}}"Cars" size{{=}}"3" multiple&gt;
 &lt;option value{{=}}"1" selected&gt;BMW
 &lt;option value{{=}}"2"&gt;Porsche
 &lt;option value{{=}}"3" selected&gt;Mercedes
 &lt;/select&gt;
-}}
-{{Single_Example
+}}{{Single Example
 |Description=This example adds a new option to the end of the '''SELECT''' list created above. The new Option constructor can also be used in JScript.
-|LiveURL=
-|Code=
-&lt;script language{{=}}"JScript"&gt;
+|Code=&lt;script language{{=}}"JScript"&gt;
 var oOption {{=}} document.createElement("OPTION");
 oOption.text{{=}}"Ferrari";
 oOption.value{{=}}"4";
 oSelect.add(oOption);
 &lt;/script&gt;
-}}}}
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 
 From Microsoft Internet Explorer 5 to Microsoft Internet Explorer 6, This element is a windowed control and does not support the [[css/properties/z-index|'''z-index''']] attribute or [[css/properties/z-index|'''zIndex''']] property.
 As of Windows Internet Explorer 7, this element is windowless and supports the [[css/properties/z-index|'''z-index''']] attribute and the '''zIndex''' property. The '''SELECT''' element does not require a strict [[dom/properties/doctype|'''doctype''']] to enable windowless functionality.
-|Import_Notes=
-===Standards information===
+|Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}196991 Document Object Model (DOM) Level 2 HTML Specification], Section 1.6.5
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 17.6
 
@@ -807,18 +799,25 @@ This property is not supported for Metro style apps using JavaScript.
 |Sets or retrieves the value which is returned to the server when the '''form''' control is submitted.
 |}
  
-
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 *<code>option</code>
-|Topic_clusters=html
 }}
+{{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
