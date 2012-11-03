@@ -82,7 +82,7 @@ Below we show an example of blurs with low values of FilterRes. The first exampl
 </svg>​
 </syntaxhighlight>
 
-
+[[Image:SVGFiltersFilterResExample.png|alt=image showing the result of specifying a custom filter effects region]]
 
 It is currently (Fall 2012) contemplated that in the future, SVG filters can be referenced via a [CSS Filter] and used to apply advanced effects to HTML elements.
 }}
