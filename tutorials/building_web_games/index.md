@@ -1,5 +1,8 @@
 {{Page_Title|Building web games}}
-{{Flags}}
+{{Flags
+|High-level issues=Deletion Candidate
+|Editorial notes=This is a low quality article with little more than links to a number of javascript game libraries.
+}}
 {{Byline}}
 {{Summary_Section|With the combination of developments in HTML5 and improvements to modern browsers, it's now possible to build high-quality games using web technologies.
 
