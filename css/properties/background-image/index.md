@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Cleanup, Compatibility Incomplete, Examples Best Practices
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
+|Content=Incomplete, Cleanup, Examples Best Practices
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -62,39 +62,49 @@ With CSS3 backgrounds, the background of a box can have multiple layers. The num
 }}
 {{Compatibility_Section
 |Not_required=No
-|Desktop_rows=
+|Desktop_rows={{Compatibility Table Desktop Row
+|Chrome_supported=Yes
+|Chrome_prefixed_supported=No
+|Chrome_prefixed_version=
+|Firefox_supported=Yes
+|Firefox_prefixed_supported=No
+|Firefox_prefixed_version=
+|Internet_explorer_supported=Yes
+|Internet_explorer_version=4.0
+|Internet_explorer_prefixed_supported=No
+|Internet_explorer_prefixed_version=
+|Opera_supported=Yes
+|Opera_version=3.5
+|Opera_prefixed_supported=No
+|Opera_prefixed_version=
+|Safari_supported=Yes
+|Safari_prefixed_supported=No
+|Safari_prefixed_version=
+}}
 |Mobile_rows={{Compatibility Table Mobile Row
-|Android_supported=Unknown
-|Android_version=
-|Android_prefixed_supported=Unknown
+|Android_supported=Yes
+|Android_prefixed_supported=No
 |Android_prefixed_version=
-|Blackberry_supported=Unknown
-|Blackberry_version=
-|Blackberry_prefixed_supported=Unknown
+|Blackberry_supported=Yes
+|Blackberry_prefixed_supported=No
 |Blackberry_prefixed_version=
-|Chrome_mobile_supported=Unknown
-|Chrome_mobile_version=
-|Chrome_mobile_prefixed_supported=Unknown
+|Chrome_mobile_supported=Yes
+|Chrome_mobile_prefixed_supported=No
 |Chrome_mobile_prefixed_version=
-|Firefox_mobile_supported=Unknown
-|Firefox_mobile_version=
-|Firefox_mobile_prefixed_supported=Unknown
+|Firefox_mobile_supported=Yes
+|Firefox_mobile_prefixed_supported=No
 |Firefox_mobile_prefixed_version=
-|IE_mobile_supported=Unknown
-|IE_mobile_version=
-|IE_mobile_prefixed_supported=Unknown
+|IE_mobile_supported=Yes
+|IE_mobile_prefixed_supported=No
 |IE_mobile_prefixed_version=
-|Opera_mobile_supported=Unknown
-|Opera_mobile_version=
-|Opera_mobile_prefixed_supported=Unknown
+|Opera_mobile_supported=Yes
+|Opera_mobile_prefixed_supported=No
 |Opera_mobile_prefixed_version=
-|Opera_mini_supported=Unknown
-|Opera_mini_version=
-|Opera_mini_prefixed_supported=Unknown
+|Opera_mini_supported=Yes
+|Opera_mini_prefixed_supported=No
 |Opera_mini_prefixed_version=
-|Safari_mobile_supported=Unknown
-|Safari_mobile_version=
-|Safari_mobile_prefixed_supported=Unknown
+|Safari_mobile_supported=Yes
+|Safari_mobile_prefixed_supported=No
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows={{Compatibility Notes Row
