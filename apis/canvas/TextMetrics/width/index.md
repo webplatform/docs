@@ -30,3 +30,6 @@
 |MDN_link=
 |HTML5Rocks_link=
 }}
+{{Editorial/Deletion_Candidate
+| There appears to be no such property; measureText appears to be the interface for getting the width.
+}}
