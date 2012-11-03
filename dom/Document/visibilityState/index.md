@@ -1,36 +1,50 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
+{{Summary_Section|Returns the visibility state of a webpage.}}
 {{API_Object_Property
 |Property_applies_to=dom/document
-|Read_only=
+|Read_only=Yes
+|Example_object_name=document
+|Return_value_name=visibilityState
+|Javascript_data_type=String
+|Return_value_description=The current visibility state of the document, one of "hidden", "visible", "prerender", "unloaded".
 }}
-{{Topics|DOM}}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
-Use the [[apis/timing/properties/visibilitychange|'''visibilitychanged''']] event to track changes to the visibility state.
-|Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}247521 Page Visibility]
-
-
+|Notes=Use the [[apis/timing/properties/visibilitychange|'''visibilitychanged''']] event to track changes to the visibility state.
+}}
+{{Related_Specifications_Section
+|Specifications={{Related Specification
+|Name=Page Visibility
+|URL=http://www.w3.org/TR/page-visibility/
+|Status=Candidate Recommendation
+}}
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 *<code>[[dom/document|document]]</code>
 *<code>[[apis/timing/properties/hidden|hidden]]</code>
 *<code>[[apis/timing/properties/visibilitychange|visibilitychanged]]</code>
 }}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
