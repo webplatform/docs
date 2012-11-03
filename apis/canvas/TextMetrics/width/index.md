@@ -2,6 +2,9 @@
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
 }}
+{{Editorial/Deletion_Candidate
+| There appears to be no width property in CanvasRenderingContext2D; its measureText method appears to be the interface for getting the width.
+}}
 {{Standardization_Status|}}
 {{API_Name}}
 {{API_Object_Property
@@ -29,7 +32,4 @@
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
 |HTML5Rocks_link=
-}}
-{{Editorial/Deletion_Candidate
-| There appears to be no such property; measureText appears to be the interface for getting the width.
 }}
