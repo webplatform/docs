@@ -5,6 +5,7 @@
 |Other=css/selectors/pseudo-classes/:target
 }}
 }}
+{{Topics|CSS}}
 Some URIs refer to a location within a resource. This kind of URI ends with a "number sign" (#) followed by an anchor identifier (called the fragment identifier).
 
 URIs with fragment identifiers link to a certain element within the document, known as the target element. For instance, here is a URI pointing to an anchor named section_2 in an HTML document:
@@ -25,5 +26,3 @@ Here, the :target pseudo-class is used to make the target element red and place 
 *:target { color : red }
 *:target::before { content : url(target.png) }
 </syntaxhighlight>
-
-[[Category:CSS]]
