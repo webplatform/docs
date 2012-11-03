@@ -3,6 +3,7 @@
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
 }}
 {{Standardization_Status|}}
+{{Topics|SVG}}
 {{API_Name}}
 {{Notes_Section
 |Notes=
@@ -28,4 +29,4 @@ The animation clock resumes from the time when it was suspended.
 |HTML5Rocks_link=
 }}
 
-[[Category:SVG]]
+[[Category:Markup Elements]]
