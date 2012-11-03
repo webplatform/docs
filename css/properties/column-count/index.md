@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status}}
@@ -23,7 +23,15 @@ The number of columns is determined by the values of other property values of th
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Description=This example shows how to render text within the newspaper section element in three columns.
+|Code=section.newspaper {
+  display: block;
+  column-count: 3;
+  -moz-column-count: 3;
+  -webkit-column-count: 3;
+}
+}}
 }}
 {{Notes_Section
 |Notes====Remarks===
