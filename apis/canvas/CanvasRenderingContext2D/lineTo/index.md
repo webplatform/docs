@@ -1,11 +1,11 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Connect the last point in the subpath to the given point (x, y) using a straight line, and must then add the given point (x, y) to the subpath. If subpath is not allocated, user agent will create it. If subpath has no any point (x, y) then point (x, y) will be created for subpath as its first (and only), as if the [[canvas/methods/moveTo|'''moveTo''']](x, y) method had been called.}}
+{{Summary_Section|Connects the last point in the subpath to the given point (x, y) using a straight line, and then adds the given point (x, y) to the subpath.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=x
@@ -59,8 +59,8 @@ function draw()
 }}
 }}
 {{Notes_Section
-|Import_Notes====Syntax===
-===Standards information===
+|Notes=If subpath is not allocated, user agent will create it. If subpath has no any point (x, y) then point (x, y) will be created for subpath as its first (and only), as if the [[canvas/methods/moveTo|'''moveTo''']](x, y) method had been called.
+|Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}197019 HTML Canvas 2D Context], Section 9
 }}
 {{Related_Specifications_Section
