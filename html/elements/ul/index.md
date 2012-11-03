@@ -1,31 +1,29 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{Markup_Element
 |DOM_interface=dom/HTMLUListElement
 }}
-{{Topics|HTML}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Description=This example uses the '''UL''' element to create a bulleted list.
-|LiveURL=
-|Code=
-&lt;ul&gt;
+|Code=&lt;ul&gt;
 &lt;li&gt;This is the first bulleted item in the list.&lt;/li&gt;
 &lt;li&gt;And this is the second bulleted item in the list.&lt;/li&gt;
 &lt;/ul&gt;
-}}}}
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 The [[html/attributes/type (ul,li,ol elements)|'''TYPE''']] attribute sets the list type for all ensuing lists unless a different type value is set.
 The '''UL''' element inherits its [[css/properties/line-height|'''line-height''']] from the height of the [[css/properties/font|'''font''']] attribute for the '''BODY'''. For example, if the [[css/properties/font-size|'''font-size''']] attribute for the '''BODY''' is larger than the '''font-size''' attribute for the '''UL''' element, the list items in the '''UL''' are spaced according to the '''font-size''' of the '''BODY'''.
-|Import_Notes=
-===Standards information===
+|Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}196991 Document Object Model (DOM) Level 2 HTML Specification], Section 1.6.5
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 10.2
 
@@ -767,18 +765,25 @@ This property is not supported for Metro style apps using JavaScript.
 |Retrieves the element's unique number.
 |}
  
-
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 *<code>li</code>
-|Topic_clusters=html, list
 }}
+{{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
