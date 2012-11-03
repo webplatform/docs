@@ -76,3 +76,5 @@ The criteria for support differ from browser to browser. The details of support 
 {{Special:PrefixIndex/webgl/}}
 
 [[Category:WebGL]]
+
+[[Category:Basic_Pages]]
