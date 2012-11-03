@@ -28,27 +28,6 @@
 
 An object representing the new object store.
 
-This method can throw the following [[dom/DOMException|'''DOMException''']] exceptions:
-
-'''Note'''  As of Internet Explorer 10, the [[dom/properties/code|'''code''']] property is deprecated in lieu of the [[dom/properties/toString (DOMError)|'''name''']] property, which is preferred for standards compliance and future compatibility.
-
-{| class="wikitable"
-|-
-!Exception properties
-!Description
-|-
-|name: InvalidStateError
-
-code: DOMException.INVALID_STATE_ERR (11)
-|The method was not called within the context of a VERSION_CHANGE transaction or the request was made for an object that has been moved or deleted.
-|-
-|name: ConstraintError
-|An object store in the database already uses the name (case-sensitive).
-|-
-|name: InvalidAccessError
-|The autoIncrement attribute of the optionalParameters object is true; however, the keyPath attribute either an empty string ("") or an empty array.
-|}
- 
 }}
 {{Examples_Section
 |Not_required=No
@@ -68,6 +47,12 @@ try {
 }}
 }}
 {{Notes_Section
+|Notes=The method throws an exception if 
+
+* This method was not called from a "versionchange" transaction. Also occurs if a request is made on a source object that has been deleted or removed.
+* If an object store with the same name, compared in a case-sensitive manner, already exists in the connected database.
+* If autoIncrement is set to true, and keyPath either is the empty string, or an Array containing the empty string.
+
 |Import_Notes====Syntax===
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?LinkId{{=}}224519 Indexed Database API]
