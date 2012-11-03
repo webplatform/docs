@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|B is a very old element that tells the browser to make the nested text bold.}}
+{{Summary_Section|"B" is a very old tag that tells the browser to make the nested text bold. The "b" tag has been superseded by various CSS properties, although it is still widely supported.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
 }}
