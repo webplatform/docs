@@ -124,7 +124,7 @@ The <code><body></code> object has these events.
 !Event
 !Description
 {{!}}-
-{{!}}<code>[[dom/events/abort|'''onabort''']]</code>
+{{!}}[[dom/events/abort|<code>onabort</code>]]
 {{!}}Fires when the user aborts the download.
 {{!}}-
 {{!}}[[dom/events/activate|'''onactivate''']]
