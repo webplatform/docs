@@ -1,20 +1,19 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
 }}
-{{Topics|HTML}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Description=The following example shows the difference between denoting the importance of a span of text ('''strong''') as opposed to denoting the relevance of a span of text ('''mark'''). It is an extract from a textbook, where the extract has had the parts relevant to the exam highlighted. The safety warnings, important though they may be, are not relevant to the exam.
-|LiveURL=
-|Code=
-&lt;h3&gt;Wormhole Physics Introduction&lt;/h3&gt;
+|Code=&lt;h3&gt;Wormhole Physics Introduction&lt;/h3&gt;
 &lt;p&gt;&lt;mark&gt;A wormhole in normal conditions can be held open for a
 maximum of just under 39 minutes.&lt;/mark&gt; Conditions that can increase
 the time include a powerful energy source coupled to one or both of
@@ -29,11 +28,10 @@ annihilate anything in its path.&lt;/strong&gt; Vortexes can be avoided when
 using sufficiently advanced dialing technology.&lt;/p&gt;
 &lt;p&gt;&lt;mark&gt;An obstruction in a gate will prevent it from accepting a
 wormhole connection.&lt;/mark&gt;&lt;/p&gt;
-
-}}}}
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 When used in the main prose of a document, the '''mark''' element indicates a part of the document that has been highlighted. When used in a quotation or other block of text (such as an '''aside'''), it indicates a highlight that was not originally present but which has been added to bring the reader's attention to a part of the text. For example, the following are valid uses for the '''mark''' element:
 *Bring attention to a particular string of text.
 *Highlight parts of document that match a search string.
@@ -44,8 +42,7 @@ The '''mark''' element denotes the relevance of a span of text. To indicate impo
 The default CSS for the '''mark''' element is:
  <code>color: black;
  background-color: yellow;</code>
-|Import_Notes=
-===Standards information===
+|Import_Notes====Standards information===
 There are no standards that apply here.
 
 ===HTML information===
@@ -261,20 +258,27 @@ This property is not supported for Metro style apps using JavaScript.
 |Retrieves the element's unique number.
 |}
  
-
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 *<code>Reference</code>
 *<code>em</code>
 *<code>strong</code>
-|Topic_clusters=html
 }}
+{{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
