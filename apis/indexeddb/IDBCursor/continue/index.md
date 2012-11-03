@@ -36,7 +36,7 @@ while(cursor.continue()) {
     var value = cursor.value;
     // act on each object or key
 }
-|LiveURL=http://axemclion.github.com/trialtool/index.html#example=/IndexedDB/trialtool/moz_indexedDB.html&selected=Continue with cursor&
+|LiveURL=http://axemclion.github.com/trialtool/index.html#example=/IndexedDB/trialtool/moz_indexedDB.html&selected=Continue%20with%20cursor&
 }}
 }}
 {{Notes_Section
