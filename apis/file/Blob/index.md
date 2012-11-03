@@ -17,7 +17,7 @@ reading '''Blob''' data will).
 |Not_required=No
 |Examples={{Single Example
 |Code=var aFileParts = ["<a id=\"a\"><b id=\"b\">hey!<\/b><\/a>"];
-var oMyBlob = new Blob(aFileParts, { "type" : "text\/xml" }); // the blob
+var oMyBlob = new Blob(aFileParts, { "type" : "text\/xml" });
 }}
 }}
 {{Notes_Section
