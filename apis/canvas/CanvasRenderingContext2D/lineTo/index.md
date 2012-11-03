@@ -73,8 +73,7 @@ function draw()
 |Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[canvas/objects/CanvasRenderingContext2D|CanvasRenderingContext2D]]</code>
+|Manual_links=*<code>[[canvas/objects/CanvasRenderingContext2D|CanvasRenderingContext2D]]</code>
 *<code>[[canvas/methods/moveTo|moveTo]]</code>
 }}
 {{Topics|DOM}}
