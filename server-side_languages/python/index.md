@@ -17,6 +17,7 @@ Python also has a fairly vibrant community:
 * [http://mail.python.org/mailman/listinfo Mailing Lists]
 
 == Tutorials ==
+* [http://docs.python.org/2/howto/webservers.html HOWTO Use Python in the Web]
 
 == Frameworks ==
 Some of the more widely used Python web frameworks are:
