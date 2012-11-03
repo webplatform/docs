@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The text-decoration controls the underlining and striking-through of text.}}
+{{Summary_Section|The text-decoration property controls the underlining and striking-through of text.}}
 {{CSS Property
 |Applies to=All elements
 |Inherited=No
