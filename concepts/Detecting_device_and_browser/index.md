@@ -104,6 +104,9 @@ http://mobiforge.com/designing/story/a-very-modern-mobile-switching-algorithm-pa
 http://calendar.perfplanet.com/2010/high-performance-mobile/
 
 http://www.cloudfour.com/css-media-query-for-mobile-is-fools-gold/
+
+To access screensize with JS is tricky in mobile:
+http://tripleodeon.com/2011/12/first-understand-your-screen/
 }}
 {{Topics|Mobile}}
 {{External_Attribution
