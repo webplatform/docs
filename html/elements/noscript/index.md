@@ -7,7 +7,7 @@ The HTML NoScript Element (<noscript>) defines a section of html to be inserted 
 * [http://www.w3.org/TR/html5/scripting-1.html#the-noscript-element HTML 5, section 4.3.2]
 * [http://www.w3.org/TR/html401/interact/scripts.html#h-18.3.1#HTML 4.01, section 18.3.1]
 
-===Example===
+==Example==
 
 <syntaxhighlight lang="html5" highlight="1-3">
 <noscript>
