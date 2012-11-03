@@ -11,6 +11,11 @@
 
 == Support ==
 
+Python also has a fairly vibrant community:
+
+* [http://www.python.org/community/irc/ IRC Channel]
+* [http://mail.python.org/mailman/listinfo Mailing Lists]
+
 == Tutorials ==
 
 == Frameworks ==
