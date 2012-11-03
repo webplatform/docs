@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Cleanup, Examples Best Practices
 }}
 {{Standardization_Status}}
@@ -57,7 +57,7 @@ To ensure compatibility in the future, applications using this property with a v
 {{Compatibility_Section
 |Not_required=No
 |Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Unknown
+|Chrome_supported=No
 |Chrome_version=
 |Chrome_prefixed_supported=Yes
 |Chrome_prefixed_version=1
@@ -73,41 +73,41 @@ To ensure compatibility in the future, applications using this property with a v
 |Opera_version=12
 |Opera_prefixed_supported=Yes
 |Opera_prefixed_version=11.6
-|Safari_supported=Unknown
+|Safari_supported=No
 |Safari_version=
 |Safari_prefixed_supported=Yes
 |Safari_prefixed_version=3
 }}
 |Mobile_rows={{Compatibility Table Mobile Row
-|Android_supported=Unknown
+|Android_supported=No
 |Android_version=
 |Android_prefixed_supported=Yes
 |Android_prefixed_version=2
-|Blackberry_supported=Unknown
+|Blackberry_supported=No
 |Blackberry_version=
-|Blackberry_prefixed_supported=Unknown
-|Blackberry_prefixed_version=
-|Chrome_mobile_supported=Unknown
+|Blackberry_prefixed_supported=Yes
+|Blackberry_prefixed_version=7
+|Chrome_mobile_supported=No
 |Chrome_mobile_version=
-|Chrome_mobile_prefixed_supported=Unknown
-|Chrome_mobile_prefixed_version=
+|Chrome_mobile_prefixed_supported=Yes
+|Chrome_mobile_prefixed_version=1
 |Firefox_mobile_supported=Yes
 |Firefox_mobile_version=16
 |Firefox_mobile_prefixed_supported=Yes
 |Firefox_mobile_prefixed_version=4
-|IE_mobile_supported=No
-|IE_mobile_version=
+|IE_mobile_supported=Yes
+|IE_mobile_version=10
 |IE_mobile_prefixed_supported=No
 |IE_mobile_prefixed_version=
 |Opera_mobile_supported=Yes
 |Opera_mobile_version=12.10
 |Opera_mobile_prefixed_supported=Yes
 |Opera_mobile_prefixed_version=10
-|Opera_mini_supported=Unknown
+|Opera_mini_supported=No
 |Opera_mini_version=
-|Opera_mini_prefixed_supported=Unknown
+|Opera_mini_prefixed_supported=No
 |Opera_mini_prefixed_version=
-|Safari_mobile_supported=Unknown
+|Safari_mobile_supported=No
 |Safari_mobile_version=
 |Safari_mobile_prefixed_supported=Yes
 |Safari_mobile_prefixed_version=3.2
@@ -115,7 +115,7 @@ To ensure compatibility in the future, applications using this property with a v
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=Transistions, Animation
+|Topic_clusters=Animation, Transistions
 |Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
@@ -176,7 +176,7 @@ To ensure compatibility in the future, applications using this property with a v
 *<code>object</code>
 *<code>script</code>
 }}
-{{Topics|Vendor Prefix, CSS}}
+{{Topics|CSS, Vendor Prefix}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MDN, MSDN
