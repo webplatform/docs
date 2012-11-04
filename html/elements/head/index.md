@@ -6,17 +6,24 @@
 }}
 {{Standardization_Status|De Facto Standard}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The <code><head></code> element represents a collection of metadata for the document.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLHeadElement
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=This example uses the '''HEAD''' element to create a document title.
-|Code=&lt;HEAD&gt;
-&lt;TITLE&gt;A Simple Document&lt;/TITLE&gt;
-&lt;/HEAD&gt;
+|Language=HTML
+|Description=The <code><head></code> element is contained by the <code><html></code> element and contains the <code><title></code> element.
+|Code=<syntaxhighlight lang="html5">
+<html>
+<head>
+<title>Title of Document</title>
+</head>
+<body>
+</body>
+</html>
+</syntaxhighlight>
 }}
 }}
 {{Notes_Section
