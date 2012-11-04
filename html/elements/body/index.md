@@ -13,7 +13,7 @@
 {{{!}} class="wikitable"
 {{!}}-
 !Closing Tag
-{{!}}required
+{{!}}not required
 {{!}}-
 !CSS Display
 {{!}}block
@@ -795,6 +795,7 @@ This property is not supported for Metro style apps using JavaScript.
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
 |Chrome_prefixed_supported=Unknown
