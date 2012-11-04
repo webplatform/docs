@@ -1,6 +1,5 @@
 {{Page_Title}}
-{{Flags
-}}
+{{Flags}}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section}}
@@ -57,6 +56,7 @@ Indicates the preferred viewport width used in determining the size of the initi
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Feature=width, height support
 |Chrome_supported=Unknown
@@ -108,7 +108,6 @@ Indicates the preferred viewport width used in determining the size of the initi
 |Opera_mini_supported=Unknown
 |Opera_mini_version=
 |Opera_mini_prefixed_supported=Yes
-|Opera_mini_prefixed_version=11+
 |Safari_mobile_supported=Unknown
 |Safari_mobile_version=
 |Safari_mobile_prefixed_supported=Unknown
