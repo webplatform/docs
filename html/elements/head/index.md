@@ -1,8 +1,7 @@
 {{Page_Title|The <head> element}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Cleanup, Examples Best Practices
-|Editorial notes=Merging Meta:HTML/Elements/head + MSDN, etc and cleaning up formatting.
+|High-level issues=Needs Topics, Data Not Semantic, Unreviewed Import
+|Content=Cleanup
 }}
 {{Standardization_Status|De Facto Standard}}
 {{API_Name}}
@@ -21,7 +20,6 @@ The following tags are valid in this element:
 *<code>script</code>
 *<code>style</code>
 *<code>title</code>
-
 }}
 {{Examples_Section
 |Not_required=No
@@ -29,14 +27,18 @@ The following tags are valid in this element:
 |Language=HTML
 |Description=The <code><head></code> element is contained by the <code><html></code> element and contains the <code><title></code> element.
 |Code=<syntaxhighlight lang="html5">
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-<title>Title of Document</title>
+<meta charset="utf-8">
+<title>The HTML Document</title>
 </head>
 <body>
+<p>The HTML content</p>
 </body>
 </html>
 </syntaxhighlight>
+|LiveURL=http://test.w3.org/html/examples/elements/head/head01.html
 }}
 }}
 {{Notes_Section
