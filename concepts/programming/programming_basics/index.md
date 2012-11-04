@@ -1,5 +1,12 @@
 {{Page_Title|Programming basics}}
-{{Flags}}
+{{Flags
+|Content=Grammar/Spelling, Examples Best Practices
+|Editorial notes=Greater than, instead of then
+
+The test at the end uses !== and asks for a loop using foreach, or for .... but none of this was covered
+
+And where can we find the answers?
+}}
 {{Byline
 |Name=Chris Heilmann
 |URL=http://wait-till-i.com/
@@ -404,6 +411,7 @@ Notice that you can use the value of <code>i</code> as the array counter inside 
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
