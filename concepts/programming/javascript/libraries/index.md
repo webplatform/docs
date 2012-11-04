@@ -33,9 +33,7 @@ This page showcases JavaScript libraries. They're sorted alphabetically. If you 
 |[http://underscorejs.org/ Underscore]
 |Underscore is a utility-belt library for JavaScript that provides a lot of the functional programming support that you would expect in Prototype.js (or Ruby), but without extending any of the built-in JavaScript objects. It's the tie to go along with jQuery's tux, and Backbone.js's suspenders.
 |}
-{{Notes_Section
-|Notes=Added a few of the main libraries out there and got rid of the "stable version" column.
-}}
+{{Notes_Section}}
 {{Topics|JavaScript}}
 {{External_Attribution
 |Is_CC-BY-SA=No
