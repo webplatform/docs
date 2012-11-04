@@ -1,4 +1,4 @@
-{{Page_Title|The &lt;abbr&gt; element}}
+{{Page_Title|The abbr element}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
