@@ -4,7 +4,7 @@
 {{API_Name}}
 {{Summary_Section|The MediaStreamTrackList object representing the audio tracks.}}
 {{API_Object_Property
-|Property_applies_to=apis/MediaStream
+|Property_applies_to=apis/webrtc/objects/MediaStream
 |Read_only=Yes
 |Example_object_name=stream
 |Return_value_name=trackList
@@ -20,6 +20,7 @@
 }}
 {{Compatibility_Section
 |Not_required=Yes
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
