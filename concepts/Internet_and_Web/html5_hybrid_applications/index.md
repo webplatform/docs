@@ -43,12 +43,12 @@ Hybrid apps do have some drawbacks compared to native apps or web apps, and you 
 |Specifications=
 }}
 {{See_Also_Section
-|Manual_links=<li>[http://docs.webplatform.org/wiki/mobile_web/PhoneGap PhoneGap]</li>
-|External_links=<li>[http://phonegap.com/ PhoneGap]</li>
-<li>[http://incubator.apache.org/cordova/ Cordova]</li>
-<li>[http://www.appcelerator.com/platform/titanium-sdk/ Titanium]</li>
-<li>[http://phonegap.com/app/feature Featured PhoneGap apps]</li>
-<li>[http://www.mikedellanoce.com/2012/09/10-tips-for-getting-that-native-ios.html 10 tips for getting that native iOS feel with PhoneGap]</li>
+|Manual_links=<li>[http://docs.webplatform.org/wiki/mobile_web/PhoneGap PhoneGap]
+|External_links=<li>[http://phonegap.com/ PhoneGap]
+<li>[http://incubator.apache.org/cordova/ Cordova]
+<li>[http://www.appcelerator.com/platform/titanium-sdk/ Titanium]
+<li>[http://phonegap.com/app/feature Featured PhoneGap apps]
+<li>[http://www.mikedellanoce.com/2012/09/10-tips-for-getting-that-native-ios.html 10 tips for getting that native iOS feel with PhoneGap]
 }}
 {{Topics|Mobile}}
 {{External_Attribution
