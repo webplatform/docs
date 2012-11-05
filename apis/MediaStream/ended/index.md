@@ -4,7 +4,7 @@
 {{API_Name}}
 {{Summary_Section|All tracks of the MediaStream object have ended; the MediaStream is said to be finished.}}
 {{Event
-|Event_applies_to=apis/MediaStream
+|Event_applies_to=apis/webrtc/objects/MediaStream
 }}
 {{Examples_Section
 |Not_required=No
@@ -16,6 +16,7 @@
 }}
 {{Compatibility_Section
 |Not_required=Yes
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
