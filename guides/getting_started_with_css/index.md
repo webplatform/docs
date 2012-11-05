@@ -107,7 +107,7 @@ You can also group different selectors. Say you want to apply the same style to 
 
 p {color:red;}</syntaxhighlight>
  
-This however is not ideal, as you are repeating information that is the same. To remedy this, you can shorten the CSS by grouping the selectors together with a comma — the rules within the brackets are applied to both selectors:
+This however is not ideal, as you are repeating information that is the same. To remedy this, you can shorten the CSS by grouping the selectors together with a comma — the rules within the curly braces are applied to both selectors:
 
 <syntaxhighlight lang="css">h1, p {color:red;}</syntaxhighlight>
 
