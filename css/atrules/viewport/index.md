@@ -99,8 +99,8 @@ Indicates the preferred viewport width used in determining the size of the initi
 |Firefox_mobile_prefixed_version=
 |IE_mobile_supported=Unknown
 |IE_mobile_version=
-|IE_mobile_prefixed_supported=Unknown
-|IE_mobile_prefixed_version=
+|IE_mobile_prefixed_supported=Yes
+|IE_mobile_prefixed_version=10.0
 |Opera_mobile_supported=Unknown
 |Opera_mobile_version=
 |Opera_mobile_prefixed_supported=Yes
