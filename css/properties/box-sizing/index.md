@@ -7,6 +7,7 @@
 {{API_Name}}
 {{Summary_Section|Used to alter the default CSS box model used to calculate widths and heights of elements.}}
 {{CSS Property
+|Initial value=content-box
 |Applies to=all elements that accept width or height
 |Inherited=No
 |Media=visual
@@ -44,6 +45,7 @@ div{
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Feature=Basic Support
 |Chrome_supported=Yes
