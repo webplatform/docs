@@ -43,7 +43,7 @@ Hybrid apps do have some drawbacks compared to native apps or web apps, and you 
 |Specifications=
 }}
 {{See_Also_Section
-|Manual_links=<li>[http://docs.webplatform.org/wiki/mobile_web/PhoneGap PhoneGap]
+|Manual_links=[http://docs.webplatform.org/wiki/mobile_web/PhoneGap PhoneGap]
 |External_links=<li>[http://phonegap.com/ PhoneGap]
 <li>[http://incubator.apache.org/cordova/ Cordova]
 <li>[http://www.appcelerator.com/platform/titanium-sdk/ Titanium]
