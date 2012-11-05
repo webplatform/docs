@@ -107,13 +107,18 @@ Indicates the preferred viewport width used in determining the size of the initi
 |Opera_mobile_prefixed_version=11+
 |Opera_mini_supported=Unknown
 |Opera_mini_version=
-|Opera_mini_prefixed_supported=Yes
+|Opera_mini_prefixed_supported=No
+|Opera_mini_prefixed_version=
 |Safari_mobile_supported=Unknown
 |Safari_mobile_version=
 |Safari_mobile_prefixed_supported=Unknown
 |Safari_mobile_prefixed_version=
 }}
-|Notes_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=10.0
+|Note=Partial support. Not all properties are available.
+}}
 }}
 {{See_Also_Section
 |Topic_clusters=Syntax
