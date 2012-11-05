@@ -37,18 +37,19 @@
 |Name=HTML5
 |URL=http://www.w3.org/TR/html5/the-p-element.html#the-p-element
 |Status=W3C Working Draft
-|Relevant_changes=the align attribute is obsolete
+|Relevant_changes=The align attribute is obsolete.
 }}
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
-|Chrome_version=0.2
+|Chrome_version=1
 |Chrome_prefixed_supported=Unknown
 |Chrome_prefixed_version=
 |Firefox_supported=Yes
-|Firefox_version=0.8
+|Firefox_version=1
 |Firefox_prefixed_supported=Unknown
 |Firefox_prefixed_version=
 |Internet_explorer_supported=Yes
@@ -99,8 +100,8 @@
 }}
 |Notes_rows={{Compatibility Notes Row
 |Browser=Internet Explorer
-|Version=8.0
-|Note=Windows Internet Explorer 8. In IE8 Standards mode, the '''P''' element is automatically closed when a [[html/elements/table|'''TABLE''']] element is encountered. For example, <code>&lt;p&gt;&lt;table&gt;..&lt;/table&gt;&lt;/p&gt;</code> is now parsed as <code>&lt;p&gt;..&lt;/p&gt;&lt;table&gt;..&lt;/table&gt;</code>. For more information, see HTML Enhancements in Internet Explorer 8 and Defining Document Compatibility.
+|Version=8
+|Note=The element is automatically closed when a [[html/elements/table|'''TABLE''']] element is encountered. For example, <code>&lt;p&gt;&lt;table&gt;..&lt;/table&gt;&lt;/p&gt;</code> is now parsed as <code>&lt;p&gt;..&lt;/p&gt;&lt;table&gt;..&lt;/table&gt;</code>.
 }}
 }}
 {{See_Also_Section
