@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|The MediaStream interface of the [[apis/webrtc|WebRTC]] API describes a stream of audio or video data.}}
+{{Summary_Section|The MediaStream interface of the [[apis/webrtc|WebRTC]] API describes a stream of audio or video data. A MediaStream object represents a linear, potentially infinite timeline. It is not preloadable, nor is it seekable.}}
 {{API_Object}}
 {{Examples_Section
 |Not_required=No
