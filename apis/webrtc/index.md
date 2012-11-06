@@ -7,7 +7,9 @@
 |Use_page_title=No
 |List_all_subpages=Yes
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=How does this look?
+}}
 {{See_Also_Section}}
 {{Topics}}
 {{External_Attribution
