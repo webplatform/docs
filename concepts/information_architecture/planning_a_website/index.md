@@ -1,6 +1,6 @@
 {{Page_Title|Planning a website}}
 {{Flags
-|High-level issues=Needs Topics, Stub
+|High-level issues=Stub, Needs Topics
 |Content=Incomplete
 }}
 {{API_Name}}
@@ -18,7 +18,7 @@
 
 ===What is wireframing?===
 
-Wireframing is the part of web design where you build a very basic outline of the sites layout.  This helps figure out where to place things.  You should think starting here about if you site is going to target desktop and mobile users or just one; it is very important that [[concepts/responsive/an_introduction_to_responsive_website_design|responsive design]] begins here if you are going to target both.
+Wireframing is the part of web design where you build a very basic outline of the site's layout.  This helps figure out where to place things.  You should think about starting here if your site is going to target desktop or mobile users; it is very important that [[concepts/responsive/an_introduction_to_responsive_website_design|responsive design]] begins here if you are going to target both.
 
 Some tools to help wireframe are:
 * [http://pencil.evolus.vn/en-US/Home.aspx Pencil]
