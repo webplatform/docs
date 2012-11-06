@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|The LocalMediaStream object is the MediaStream object returned from the call to <code>[[dom/Navigator/getUserMedia|getUserMedia()]]</code>. It has all the attributes and events of the MediaStream object and the stop method.}}
+{{Summary_Section|The LocalMediaStream object is the MediaStream object returned from the call to <code>[[dom/Navigator/getUserMedia|getUserMedia()]]</code>. It has all the properties and events of the MediaStream object and the stop method.}}
 {{API_Object
 |Subclass_of=apis/webrtc/objects/MediaStream
 }}
