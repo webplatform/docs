@@ -5,9 +5,9 @@
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|The track's ready state; values:
-* LIVE - the track is active; the output may be switched on and off with the enabled attribute.
-* MUTED - the track's underlying media source is temporarily unable to provide realtime data.
-* ENDED - the track has ended, and the underlying media source will not provide further data.
+* LIVE (0)- the track is active; the output may be switched on and off with the enabled attribute.
+* MUTED (1) - the track's underlying media source is temporarily unable to provide realtime data.
+* ENDED (2) - the track has ended, and the underlying media source will not provide further data.
 }}
 {{API_Object_Property
 |Property_applies_to=apis/webrtc/objects/MediaStreamTrack
