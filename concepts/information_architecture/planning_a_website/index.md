@@ -44,9 +44,7 @@ Once your site is ready, put it on a web host and point a domain at it!  Once th
 |Not_required=Yes
 |Examples=
 }}
-{{Notes_Section
-|Notes=/*Designing your site*/ Once sections are created and content added we will link here to different articles on UX and other basic design.
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications=
 }}
