@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|A user agent-assigned string that identifies the track source, as in "internal microphone." }}
+{{Summary_Section|A user agent-assigned string that identifies the track source, as in "internal microphone."}}
 {{API_Object_Property
 |Property_applies_to=apis/webrtc/objects/MediaStreamTrack
 |Read_only=Yes
@@ -18,7 +18,7 @@
 |Specifications=
 }}
 {{Compatibility_Section
-|Not_required=No
+|Not_required=Yes
 |Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
