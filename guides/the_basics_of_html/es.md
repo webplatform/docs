@@ -53,19 +53,19 @@ Durante los próximos años, la W3C publicó varias espeficicaciones (llamdas re
 Sin embarco, la W3C no hicieron (y todavía no hacen) cumplir sus recomendaciones.
 Los fabricantes sólo tenía que ajustarse a los documentos de la W3C si deseban etiquetar sus productos como W3C--compliant. En la practica, esto no fue un punto importante, ya que casi todos los usuarios de la web no sabían, ni probablemente le importaba, que la W3C era(este es todavía el caso, en gran medida). Por lo tanto, la guerra de los navegadores de los noventas continuó sin disminuir.
 
-=== The Web Standards Project ===
+=== El proyecto de los estándares web ===
+
+En 1998, el mercado de los navegadores fue dominado por Internet Explorer 4 y Netscape Navigator 4. Una versión beta de Internet Explorer 5 fue liberada entonces y implementó HTML dinámico patentado, Lo que significaba que los desarrolladores web profesionales necesitaban saber 5 '''maneras diferentes''' de escribir JavaScript.
+
+En consecuencia, un grupo de desarrolladores web profesionales y diseñadores se unieron.Este grupo se llamaba a ellos mismos the [http://www.webstandards.org/ Web Standards Project (WaSP)]. La idea era que al llamar los documentos de los estándares de la W3C en lugar de las recomendaciones, ellos podrían ser capaces de convencer a Microsoft y Netscape de apoyarlos.
+
+El método de difusión de llamada de atención consistía en utilizar una técnica de publicidad tradicional llamada a roadblock, donde una compañía tomaría un anuncio en todos los canales de difusión al mismo tiempo, así que no importaba si el espectador cambiaba de canales, ellos obtendrían exactamente el mismo mensaje. The WaSP publicó un artículo simultaneamente en varias web enfocadas en el desarrollo  incluyendo builder.com, Wired online y en algunas listas de correo populares.
+
+Otra técnica que la Wasp usó fue ridiculizar las compañías involucradas con la W3C (y otros organismos de estándares) que se enfocaban más en crear nuevas características en lugar de trabajar para obtener que los estándares existentes fueran suportados correctamente. Esto no quiere decir que la WaSP ridiculizó a la W3C, si no que ridiculizaba a las compañías que se convirtieron en miembros de la W3c y luego se portaban mal.
+
+La W3C tiene poco personal a tiempo completo, pero la mayoría de la gente que trabajaba en los estándares y voluntarios de compañías miembro, ejemplo: Microsoft, Opera, Mozilla, Apple, Google, IBM y Adobe, por nombrar algunos de los más grandes.
  
-In 1998, the browser market was dominated by Internet Explorer 4 and Netscape Navigator 4. A beta version of Internet Explorer 5 was then released, and it implemented a new and proprietary dynamic HTML, which meant that professional web developers needed to know five ''different'' ways of writing JavaScript.
- 
-As a result, a group of professional web developers and designers banded together. This group called themselves the [http://www.webstandards.org/ Web Standards Project (WaSP)]. The idea was that by calling the W3C documents standards rather than recommendations, they might be able to convince Microsoft and Netscape to support them.
- 
-The early method of spreading the call to action was to use a traditional advertising technique called a roadblock, where a company would take out an advert on all broadcast channels at the same time, so no matter how a viewer would flick between channels, they would get exactly the same message. The WaSP published an article simultaneously on various web development focused sites including builder.com, Wired online, and some popular mailing lists.
- 
-Another technique the WaSP used was to ridicule the companies involved with the W3C (and other standards bodies) that focused more on creating new, often self-serving, features rather than working to get the basic existing standards supported correctly in their products to start with. This doesn't mean that the WaSP ridiculed the W3C themselves, rather they ridiculed the companies that became W3C members and then misbehaved.
- 
-The W3C has a few full time staff, but most of the people who work on the standards are volunteers from member companies, eg. Microsoft, Opera, Mozilla, Apple, Google, IBM and Adobe, to name a few of the biggest ones.
- 
-This all sounds a bit negative, but the WaSP didn’t just sit there criticising people — they also helped. Seven members formed the CSS Samurai, who identified the top ten problems with the CSS support in Opera and other browsers (Opera fixed their problems, others did not).
+Todo esto sonaba un poco negativo, pero la WaSP no solo se sentó a criticar personas ellos también ayudaron. Siete miembros formaron CSS Samurai, quienes identificaron los 10 problemas con el soporte CSS en Opera y otros navegadores. (Opera arregló sus problemas, los otros no lo hicieron).
 
 === The rise of web standards ===
  
