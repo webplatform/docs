@@ -5,7 +5,8 @@
 {{Summary_Section|The value, either '''audio''' or '''video''' for the source of the track.}}
 {{API_Object_Property
 |Property_applies_to=apis/webrtc/objects/MediaStreamTrack
-|Read_only=No
+|Read_only=Yes
+|Example_object_name=track
 }}
 {{Examples_Section
 |Not_required=No
@@ -16,7 +17,7 @@
 |Specifications=
 }}
 {{Compatibility_Section
-|Not_required=No
+|Not_required=Yes
 |Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
