@@ -26,7 +26,7 @@ Some tools to help wireframe are:
 
 ===Designing your site===
 
-This part involves quite a bit of thought to how users will see and interact with your website and/or application.  Once sections are created and content added we will link here to different articles on UX and other basic design.
+This part involves quite a bit of thought to how users will see and interact with your website and/or application.
 
 ===Building the front-end===
 
@@ -44,7 +44,9 @@ Once your site is ready, put it on a web host and point a domain at it!  Once th
 |Not_required=Yes
 |Examples=
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Notes=/*Designing your site*/ Once sections are created and content added we will link here to different articles on UX and other basic design.
+}}
 {{Related_Specifications_Section
 |Specifications=
 }}
