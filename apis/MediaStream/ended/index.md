@@ -1,5 +1,7 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|High-level issues=Stub
+}}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|All tracks of the MediaStream object have ended; the MediaStream is said to be finished.}}
