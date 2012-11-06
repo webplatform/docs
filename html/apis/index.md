@@ -5,4 +5,5 @@ Here is a list of HTML APIs:
 * Directories and System
 * File Writer
 * Web Audio API
+* Canvas
 [[Category:HTML]]
