@@ -6,6 +6,8 @@
 {{API_Object_Property
 |Property_applies_to=apis/webrtc/objects/MediaStream
 |Read_only=No
+|Example_object_name=stream
+|Return_value_name=onended
 }}
 {{Examples_Section
 |Not_required=No
