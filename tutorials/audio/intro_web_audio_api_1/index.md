@@ -188,13 +188,14 @@ function playSound(anybuffer) {
   source.buffer = anybuffer;
   source.connect(context.destination);
   source.start();
-  //source.noteOn(0); //see note in Step 6
+  //source.noteOn(0); //see note in Step 6 text
 }
 
+//Step 6
 function stopSound() {
   if (source) {
     source.stop();
-    //source.noteOff(0); //see note in Step 6
+    //source.noteOff(0); //see note in Step 6 text
   }
 }
 </script>
