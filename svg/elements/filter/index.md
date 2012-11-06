@@ -8,9 +8,9 @@
 {{Summary_Section|SVG filter effects apply graphics operations such as blurs and color transformations to a source graphic. Filters may be applied to presentational SVG elements as well as to grouping elements like <g>. The <code>filter</code> element specifies the position, dimensions, resolution and units for a filter effect. <code>filter</code> elements typically have multiple child elements to specify filter primitives that combine together to create the final graphics effect.}}
 {{Markup_Element
 |DOM_interface=svg/objects/SVGFilterElement
-|Content=An SVG filter applies a graphics effect to an SVG element. In SVG 1.1, the range of available graphics effects includes blurs, convolutions, color curve manipulation, cross-component color transfers, erosion effects, blending, compositing and more.  The <code>filter</code> element declares a filter effect and is usually included in the <code>defs</code> section of an SVG XML document. The filter element contains a set of child elements that specify the individual graphics operations or "filter primitives" that comprise that filter operation. Filter effects are applied to an SVG element by adding a <code>filter</code> property, set to the id of the desired filter element. 
+|Content=An SVG filter applies a graphics effect to an SVG element. In SVG 1.1, the range of available graphics effects includes blurs, convolutions, color curve manipulation, cross-component color transfers, erosion effects, blending, compositing and more.  The <code>filter</code> element declares a filter effect and is usually included in the <code>defs</code> section of an SVG XML document. The filter element contains a set of child elements that specify the individual graphics operations or "filter primitives" that comprise that filter operation. Filter effects are applied to an SVG element by adding a <code>filter</code> attribute, set to the id of the desired filter element. 
 
-Below is a basic example of an SVG Filter that shows a gaussian blur applied to an SVG rectangle element. In this example, we first declare a filter whose id is "gblur". Within this filter element, we declare a filter primitive (<code>feGausssianBlur</code>) with a standard deviation of 5. After closing our tags, we draw a rectangle with the SVG <code>rect</code> element.  We apply the filter to the element by adding a filter property that references its id.
+Below is a basic example of an SVG Filter that shows a gaussian blur applied to an SVG rectangle element. In this example, we first declare a filter whose id is "gblur". Within this filter element, we declare a filter primitive (<code>feGausssianBlur</code>) with a standard deviation of 5. After closing our tags, we draw a rectangle with the SVG <code>rect</code> element.  We apply the filter to the element by adding a filter attribute that references its id.
 
 <syntaxhighlight lang="xml">
 <svg width="200px" height="200px" viewbox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" version="1.1">
@@ -28,7 +28,7 @@ Below is a basic example of an SVG Filter that shows a gaussian blur applied to 
 [[Image:BasicSVGFilterExampleGaussBlur.png|alt=image showing input and output of a blur filter effect]]
 
 ===Filter Region===
-The <code>filter</code> element may optionally define the position, dimensions, resolution, and units for the output of a filter effect. The position and dimensions of a filter may be specified using the following properties: x, y, width, height. The default values for these properties are *not intuitive* and are:
+The <code>filter</code> element may optionally define the position, dimensions, resolution, and units for the output of a filter effect. The position and dimensions of a filter may be specified using the following parameters: x, y, width, height. The default values are *not intuitive* and are:
 
 * x: -10%
 * y: -10%
@@ -54,9 +54,9 @@ This has the effect that, by default, the output of a filter paints onto the scr
 [[Image:BasicSVGFilterExampleWithClipRegion.png|alt=image showing the result of specifying a custom filter effects region]]
 
 ===Filter Resolution===
-By default, it's left up to the browser to decide what resolution to use when performing operations on filter inputs, but it's possible to define a resolution by explicitly setting the <code>filterRes</code> property. Choosing a filter resolution significantly lower than the display default will result in visible pixelation but filters will execute faster. Choosing a filter resolution significantly higher than the default will cause slow filter performance. Filter resolution may be separately specified in both the [[svg/properties/filterResX|X]] and [[svg/properties/filterResY|Y]] dimension.
+By default, the browser decides what resolution to use when performing operations on filter inputs, but it is possible to define a resolution by explicitly setting the <code>filterRes</code> property. Choosing a filter resolution significantly lower than the display default will result in visible pixelation but filters will execute faster. Choosing a filter resolution significantly higher than the default will cause slow filter performance. Filter resolution may be separately specified in both the [[svg/properties/filterResX|X]] and [[svg/properties/filterResY|Y]] dimension.
 
-Below we show an example of blurs with low values of filterRes. The first example shows a filterRes with a single value which is applied to both the X and Y dimensions. The second example shows a filterRes with two values, which results in a low resolution blur in just the Y dimension. Setting a very low resolution has resulted in highly visible pixelation.
+Below we show an example of blurs with low values of filterRes. The first example shows a filterRes with a single value which is applied to both the X and Y dimensions. The second example shows a filterRes with two values - one for X and one for the Y dimension - which results in a low resolution blur in just the Y dimension. Setting a very low resolution results in visible pixelation.
 
 <syntaxhighlight lang="xml">
 <svg width="450px" height="300px" viewbox="0 0 450 300"
@@ -86,7 +86,7 @@ Below we show an example of blurs with low values of filterRes. The first exampl
 
 ===Units and Coordinates for Filter Effects===
 ====filterUnits====
-By default, the units and coodinate system for the filter effects region (x,y,width,height) of a filter element is measured relative to the element referencing the filter. In SVG terms, this is called the "objectBoundingBox". When we write <code>x="50%"</code> it means "set the starting x position of the filter region at the left side of the referencing element + 50% of the width of the element". 
+By default, the units and coodinate system for the filter effects region (x,y,width,height) of a filter element is set relative to the element referencing the filter. In SVG terms, this is called the "objectBoundingBox". When we write <code>x="50%"</code> it means "set the starting x position of the filter region at the left side of the referencing element + 50% of the width of the element". 
 
 But you may also specify the units and coordinates by setting the <code>filterUnits</code> property. The two alternatives are "objectBoundingBox" (the default which we're just described) or "userSpaceOnUse". userSpaceOnUse sets the filter units and the coordinate system to the canvas of the referencing element, or in SVG terms, the "userSpaceOnUse".
 
@@ -299,6 +299,7 @@ The '''SVGFilterElement''' object has these properties.
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Feature=<filter>
 |Chrome_supported=Yes
