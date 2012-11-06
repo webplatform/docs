@@ -6,6 +6,7 @@
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=apis/webrtc/objects/LocalMediaStream
+|Example_object_name=localStream
 |Javascript_data_type=void
 }}
 {{Examples_Section
