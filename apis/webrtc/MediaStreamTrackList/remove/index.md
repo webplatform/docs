@@ -6,7 +6,12 @@
 {{API_Name}}
 {{Summary_Section|Removes a MediaStreamTrack from this track list.}}
 {{API_Object_Method
-|Parameters=
+|Parameters={{Method Parameter
+|Name=track
+|Data type=MediaStreamTrack
+|Description=MediaStreamTrack track, required.
+|Optional=No
+}}
 |Method_applies_to=apis/webrtc/objects/MediaStreamTrackList
 |Example_object_name=trackList
 |Javascript_data_type=void
