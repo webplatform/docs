@@ -79,6 +79,7 @@ What you see in your browser might not look exactly the same as this, because of
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Feature=CSS
 |Chrome_supported=Yes
@@ -141,9 +142,7 @@ What you see in your browser might not look exactly the same as this, because of
 |External_links=* [http://www.google.com Google]
 * [http://www.mozilla.org Mozilla]
 * [http://www.opera.com Opera]
-|Manual_sections====Another section===
-
-This is some sample text to allow me to see how this will be rendered in the final page.
+|Manual_sections====Contributions===
 }}
 {{Topics|CSS}}
 {{External_Attribution
