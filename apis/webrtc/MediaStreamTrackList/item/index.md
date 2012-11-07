@@ -20,9 +20,7 @@
 |Not_required=No
 |Examples=
 }}
-{{Notes_Section
-|Notes=Exception INVALID_STATE_ERR if the stream is finished (all tracks have ended).
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications=
 }}
