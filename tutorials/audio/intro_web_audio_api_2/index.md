@@ -54,7 +54,7 @@ The simplest connection case, then, consists of a web app with a context that co
 (a previously-loaded sound in this case) whose output is connected directly to the input of one destination node 
 (the speakers), as shown below. That's the case we covered in Part 1.
 
-[[image:wap1-basic-trans.png]]<br/>
+[[image:wap1-basic-trans.gif]]<br/>
 ''A context with one source and one destination''
 
 ==In part 2==
@@ -260,7 +260,6 @@ and/or parallel (simultaneous) processors to achieve sophisticated audio effects
 *The W3C's [https://dvcs.w3.org/hg/audio/raw-file/tip/webaudio/specification.html web audio specification]
 *Eric Bidelman's [http://ericbidelman.tumblr.com/post/13471195250/web-audio-api-how-to-playing-audio-based-on-user how-to article]
 *Boris Smus's [http://www.html5rocks.com/en/tutorials/webaudio/intro/ getting started article]
-
 }}
 {{Notes_Section}}
 {{Compatibility_Section
