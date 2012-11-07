@@ -9,6 +9,7 @@
 |Parameters=
 |Method_applies_to=apis/webrtc/objects/MediaStreamTrackList
 |Example_object_name=trackList
+|Javascript_data_type=void
 }}
 {{Examples_Section
 |Not_required=No
@@ -19,14 +20,14 @@
 |Specifications=
 }}
 {{Compatibility_Section
-|Not_required=No
+|Not_required=Yes
 |Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics}}
+{{Topics|WebRTC}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
