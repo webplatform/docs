@@ -1,5 +1,8 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|Content=Grammar/Spelling
+|Editorial notes=In the Name/Summary table, the typography for the element names should be consistent from entry to entry. In some rows, names are in bold; in others, in angle brackets; in others, in quotation marks. 
+}}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|Index page for HTML elements.}}
@@ -17,7 +20,6 @@
 |MSDN_link=
 |HTML5Rocks_link=
 }}
-
 This is the list of HTML and related Elements from the past to the present.
 
 == The root element ==
