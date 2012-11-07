@@ -13,13 +13,17 @@
 |Animatable=No
 |Values={{CSS Property Value
 |Data Type=width
-|Description=Any of the range of width values available to the [[css/properties/border-bottom-width|'''border-bottom-width''']] property. Optional; Default: 3px.
+|Description=Any of the range of width values available to the [[css/properties/border-bottom-width|'''border-bottom-width''']] property. 
+Optional. 
+Default Value: 3px.
 }}{{CSS Property Value
 |Data Type=style
 |Description=Any of the range of style values available to the [[css/properties/border-bottom-style|'''border-bottom-style''']] property.
 }}{{CSS Property Value
 |Data Type=color
 |Description=Any of the range of color values available to the [[css/properties/border-bottom-color|'''border-bottom-color''']] property.
+Optional. 
+Default Value: #000000.
 }}
 }}
 {{Examples_Section
