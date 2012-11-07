@@ -48,34 +48,7 @@ If the value or the member is not specified in the object, the value for the mem
 |Examples={{Single Example
 |Language=JavaScript
 |Description=Here's an example of using getUserMedia() with browser prefixes.
-|Code=navigator.getMedia = ( navigator.getUserMedia ||
-                       navigator.webkitGetUserMedia ||
-                       navigator.mozGetUserMedia ||
-                       navigator.msGetUserMedia);
- 
-navigator.getMedia (
- 
-   // constraints
-   {
-      video: true,
-      audio: true
-   },
- 
-   // successCallback
-   function(localMediaStream) {
-      var video = document.querySelector('video');
-      video.src = window.URL.createObjectURL(localMediaStream);
-      video.onloadedmetadata = function(e) {
-         // Do something with the video here.
-      };
-   },
- 
-   // errorCallback
-   function(err) {
-    console.log("The following error occured: " + err);
-   }
- 
-);
+|Code=navigator.getMedia = ( navigator.getUserMedia
 }}
 }}
 {{Notes_Section}}
