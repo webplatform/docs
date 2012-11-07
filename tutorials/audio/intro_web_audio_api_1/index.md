@@ -221,7 +221,7 @@ In this page, we set up four buttons&mdash;intended to be clicked in order&mdash
 #Click the '''Play''' button. The sound plays.
 #Optional: During playback (assuming the sound plays long enough), click the '''Stop''' button. The sound stops.
 
-==(Not) the end==
+==Not the end==
 This concludes part 1 of the tutorial. Part 2, coming soon, continues with inserting processor nodes between the source and destination to modify the audio before it is played.
 
 ==References==
