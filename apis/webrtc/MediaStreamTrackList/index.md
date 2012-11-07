@@ -14,9 +14,7 @@
 }}
 {{Compatibility_Section
 |Not_required=No
-|Imported_tables={{Imported Compatibility Table
-|Page=apis/webrtc/objects/MediaStream
-}}
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
