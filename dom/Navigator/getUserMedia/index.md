@@ -15,6 +15,28 @@ If the value or the member is not specified in the object, the value for the mem
 
  { video: true, audio: true }
 |Optional=No
+}}{{Method Parameter
+|Name=successCallback
+|Data type=function
+|Description=The getUserMedia function will call the function specified in the successCallback with the LocalMediaStream object that contains the media stream. You may assign that object to the appropriate element and work with it, as shown in the following example:
+
+ function(localMediaStream) {
+    var video = document.querySelector('video');
+    video.src = window.URL.createObjectURL(localMediaStream);
+    video.onloadedmetadata = function(e) {
+       // Do something with the video here.
+    };
+ },
+|Optional=No
+}}{{Method Parameter
+|Name=errorCallback
+|Data type=function
+|Description=The getUserMedia function will call the function specified in the errorCallback with a code argument. The error codes are described as follows:
+
+* PERMISSION_DENIED - The user denied permission to use a media device required for the operation.
+* NOT_SUPPORTED_ERROR - A constraint specified is not supported by the browser. 
+* MANDATORY_UNSATISFIED_ERROR - No media tracks of the type specified in the constraints are found.
+|Optional=Yes
 }}
 |Method_applies_to=dom/navigator
 |Example_object_name=navigator
@@ -23,7 +45,38 @@ If the value or the member is not specified in the object, the value for the mem
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=Here's an example of using getUserMedia() with browser prefixes.
+|Code=navigator.getMedia = ( navigator.getUserMedia ||
+                       navigator.webkitGetUserMedia ||
+                       navigator.mozGetUserMedia ||
+                       navigator.msGetUserMedia);
+ 
+navigator.getMedia (
+ 
+   // constraints
+   {
+      video: true,
+      audio: true
+   },
+ 
+   // successCallback
+   function(localMediaStream) {
+      var video = document.querySelector('video');
+      video.src = window.URL.createObjectURL(localMediaStream);
+      video.onloadedmetadata = function(e) {
+         // Do something with the video here.
+      };
+   },
+ 
+   // errorCallback
+   function(err) {
+    console.log("The following error occured: " + err);
+   }
+ 
+);
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
@@ -31,13 +84,19 @@ If the value or the member is not specified in the object, the value for the mem
 }}
 {{Compatibility_Section
 |Not_required=No
-|Imported_tables=
+|Imported_tables={{Imported Compatibility Table
+|Page=apis/webrtc/objects/MediaStream
+}}
 |Desktop_rows=
 |Mobile_rows=
-|Notes_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Firefox
+|Version=18
+|Note=Enabling WebRTC in Firefox Nightly requires you to set a flag in the configuration: *  Type "about:config" in the address bar and say yes that you want to make changes. *  Find the "media.navigator.enabled" entry and set it to true.
+}}
 }}
 {{See_Also_Section}}
-{{Topics}}
+{{Topics|DOM, WebRTC}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
