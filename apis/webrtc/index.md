@@ -13,7 +13,7 @@
 WebRTC components are accessed with JavaScript APIs. Currently in development are the Network Stream API, which represents an audio or video data stream, and the PeerConnection API, which allows two or more users to communicate browser-to-browser. Also under development is a DataChannel API that enables communication of other types of data for real-time gaming, text chat, file transfer, and so forth.
 
 =MediaStream API=
-{{apis/webrtc/objects/MediaStream|Summary_Section}}
+{{:apis/webrtc/objects/MediaStream|Summary_Section}}
 * [[apis/webrtc/objects/MediaStream|MediaStream]]
 * [[apis/webrtc/objects/LocalMediaStream|LocalMediaStream]]
 * [[apis/webrtc/objects/MediaStreamTrack|MediaStreamTrack]]
