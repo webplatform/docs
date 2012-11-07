@@ -9,7 +9,7 @@
 |Parameters={{Method Parameter
 |Name=track
 |Data type=MediaStreamTrack
-|Description=MediaStreamTrack track, required.
+|Description=MediaStreamTrack '''track''', required.
 |Optional=No
 }}
 |Method_applies_to=apis/webrtc/objects/MediaStreamTrackList
