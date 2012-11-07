@@ -65,8 +65,8 @@ A processing node modifies the sound in some way&mdash;volume, EQ,
 pitch, phase, etc.&mdash;after it is output from the source node but before it is input to the destination node,
 as shown below. That's the case we'll cover in this part. 
 
-[[image:wap2-basic-trans.png]]<br/>
-''A context with one source and one destination''
+[[image:wap2-basic-trans.gif]]<br/>
+''A context with a processor between the source and destination''
 
 Be sure you understand how the nodes are created and linked together as described in
 [http://docs.webplatform.org/wiki/tutorials/intro_web_audio_api_1 part 1] before proceeding with this part
