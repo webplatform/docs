@@ -65,7 +65,7 @@ If the value or the member is not specified in the object, the value for the mem
 |Notes_rows={{Compatibility Notes Row
 |Browser=Firefox
 |Version=18
-|Note=Enabling WebRTC in Firefox Nightly requires you to set a flag in the configuration: *  Type "about:config" in the address bar and say yes that you want to make changes. *  Find the "media.navigator.enabled" entry and set it to true.
+|Note=Enabling WebRTC in Firefox Nightly requires you to set a flag in the configuration: Type "about:config" in the address bar and say yes that you want to make changes. Find the "media.navigator.enabled" entry and set it to true.
 }}
 }}
 {{See_Also_Section}}
