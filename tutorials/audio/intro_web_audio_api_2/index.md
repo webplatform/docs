@@ -69,7 +69,7 @@ as shown below. That's the case we'll cover in this part.
 ''A context with a processor between the source and destination''
 
 Be sure you understand how the nodes are created and linked together as described in
-[http://docs.webplatform.org/wiki/tutorials/intro_web_audio_api_1 part 1] before proceeding with this part
+[http://docs.webplatform.org/wiki/tutorials/intro_web_audio_api_1 Part 1] before proceeding with this part
 of the tutorial.
 
 ==A simple processor node==
@@ -121,6 +121,7 @@ And the sound is ready to play at half volume.
 Using the function from Step 5 (Play the audio) in Part 1, we add the four lines above
 to create a modified function, <code>playSoundHalf()</code> (let's call it Step 5.5), that might look like this.
 
+<syntaxhighlight lang="javascript">
 //Step 5.5
 var source = null;
 function playSoundHalf(anybuffer) {
@@ -135,6 +136,7 @@ function playSoundHalf(anybuffer) {
   source.start();
   //source.noteOn(0); //see note in Step 6
 }
+</syntaxhighlight>
 
 Like the other functions in our example, we'll call this new function from a button.
 
