@@ -1,5 +1,10 @@
 {{Page_Title|CSS variables}}
-{{Flags}}
+{{Flags
+|High-level issues=Move Candidate
+|Editorial notes={{Editorial/Move_Candidate
+| Currently future tech.  Only in experimental stages.
+}}
+}}
 {{Byline
 |Name=David Gash
 |URL=http://docs.webplatform.org/wiki/User:Dgash
@@ -106,6 +111,7 @@ While syntactically correct, "20px" is not a valid value for the <code>color</co
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Unknown
 |Chrome_version=
