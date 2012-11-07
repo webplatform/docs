@@ -8,6 +8,9 @@
 {{API_Object_Property
 |Property_applies_to=apis/webrtc/objects/MediaStreamTrackList
 |Read_only=Yes
+|Example_object_name=list
+|Return_value_name=length
+|Javascript_data_type=unsigned long
 }}
 {{Examples_Section
 |Not_required=No
@@ -18,14 +21,14 @@
 |Specifications=
 }}
 {{Compatibility_Section
-|Not_required=No
+|Not_required=Yes
 |Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics}}
+{{Topics|WebRTC}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
