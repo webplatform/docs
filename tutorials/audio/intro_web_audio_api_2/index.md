@@ -254,9 +254,6 @@ defining the processor(s) and then connecting
 the inputs and outputs. In this way, you can construct audio paths that include serial (sequential)
 and/or parallel (simultaneous) processors to achieve sophisticated audio effects.
 
-==Still not the end==
-(Should there be a part 3, continuing on with multiple effects, parallel paths, etc.?)
-
 ==References==
 *Chris Wilson's [https://developers.google.com/events/io/sessions/gooio2012/221/ Google I/O 2012 session video] 
 *The W3C's [https://dvcs.w3.org/hg/audio/raw-file/tip/webaudio/specification.html web audio specification]
