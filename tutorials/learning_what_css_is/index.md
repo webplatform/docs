@@ -136,9 +136,6 @@ What you see in your browser might not look exactly the same as this, because of
 }}
 }}
 {{See_Also_Section
-|Manual_links=* [http://www.google.com Google]
-* [http://www.mozilla.org Mozilla]
-* [http://www.opera.com Opera]
 |External_links=* [http://www.google.com Google]
 * [http://www.mozilla.org Mozilla]
 * [http://www.opera.com Opera]
