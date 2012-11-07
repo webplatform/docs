@@ -1,10 +1,17 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|High-level issues=Stub
+}}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Returns the MediaStreamTrack at the specified index value.}}
 {{API_Object_Method
-|Parameters=
+|Parameters={{Method Parameter
+|Name=index
+|Data type=unsigned long
+|Description=unsigned long index, required.
+|Optional=No
+}}
 |Method_applies_to=apis/webrtc/objects/MediaStreamTrackList
 |Example_object_name=trackList
 |Javascript_data_type=MediaStreamTrack
@@ -13,7 +20,9 @@
 |Not_required=No
 |Examples=
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Notes=Exception INVALID_STATE_ERR if the stream is finished (all tracks have ended).
+}}
 {{Related_Specifications_Section
 |Specifications=
 }}
