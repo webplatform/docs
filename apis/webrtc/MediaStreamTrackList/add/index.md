@@ -6,7 +6,12 @@
 {{API_Name}}
 {{Summary_Section|Adds a MediaStreamTrack to this track list.}}
 {{API_Object_Method
-|Parameters=
+|Parameters={{Method Parameter
+|Name=track
+|Data type=MediaStreamTrack
+|Description=MediaStreamTrack '''track''', required.
+|Optional=No
+}}
 |Method_applies_to=apis/webrtc/objects/MediaStreamTrackList
 |Example_object_name=trackList
 |Javascript_data_type=void
@@ -15,7 +20,9 @@
 |Not_required=No
 |Examples=
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Notes=Exception INVALID_STATE_ERR if the stream is finished (all tracks have ended).
+}}
 {{Related_Specifications_Section
 |Specifications=
 }}
