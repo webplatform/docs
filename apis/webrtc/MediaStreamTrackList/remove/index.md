@@ -21,8 +21,7 @@
 |Examples=
 }}
 {{Notes_Section
-|Notes=Exceptions
-INVALID_STATE_ERR if the stream is finished (all tracks have ended).
+|Notes=Exception INVALID_STATE_ERR if the stream is finished (all tracks have ended).
 }}
 {{Related_Specifications_Section
 |Specifications=
