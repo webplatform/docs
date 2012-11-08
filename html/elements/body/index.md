@@ -798,6 +798,7 @@ This property is not supported for Metro style apps using JavaScript.
 |Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
+|Chrome_version=1.0
 |Chrome_prefixed_supported=Unknown
 |Chrome_prefixed_version=
 |Firefox_supported=Yes
@@ -815,6 +816,7 @@ This property is not supported for Metro style apps using JavaScript.
 }}
 |Mobile_rows={{Compatibility Table Mobile Row
 |Android_supported=Yes
+|Android_version=1.0
 |Android_prefixed_supported=Unknown
 |Android_prefixed_version=
 |Blackberry_supported=Yes
