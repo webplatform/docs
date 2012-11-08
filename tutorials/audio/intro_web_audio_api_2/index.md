@@ -19,9 +19,7 @@ trying to read your content.
 Today, diverse web apps such as games, audio editors, playlist managers, ringtone stores, musicians' utilities, 
 and more have a need for subtlety and finesse in their use of audio, and users deserve&mdash;and have come to expect&mdash;power and flexibility in those apps.
 
-The web audio API is not to be confused with the HTML5 <code>&lt;audio&gt;</code> element. For information on that element, 
-see [http://www.w3.org/wiki/HTML/Elements/audio this W3C article], [http://www.html5rocks.com/en/tutorials/audio/quick/ 
-this HTML5Rocks! tutorial], or [http://www.w3schools.com/tags/tag_audio.asp this W3Schools page].
+The web audio API is not to be confused with the HTML5 <code>&lt;audio&gt;</code> element. For information on that element, see [http://www.w3.org/wiki/HTML/Elements/audio this W3C article] or [http://www.html5rocks.com/en/tutorials/audio/quick/ this HTML5Rocks! tutorial].
 As useful as the <code>&lt;audio&gt;</code> element is in terms of encapsulating the load-decode-play sequence 
 (more about that later), it doesn't include capabilities to precisely control sounds, time them, or fine-tune their 
 playback characteristics. Enter the ''web audio API''.
