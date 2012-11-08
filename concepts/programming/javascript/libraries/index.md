@@ -18,6 +18,9 @@ This page showcases JavaScript libraries. They're sorted alphabetically. If you 
 |[http://backbonejs.org/ Backbone]
 |Backbone.js gives structure to web applications by providing models with key-value binding and custom events, collections with a rich API of enumerable functions, views with declarative event handling, and connects it all to your existing API over a RESTful JSON interface.
 |-
+|[http://createjs.com/EaselJS EaselJS]
+|EaselJS provides straight forward solutions for working with rich graphics and interactivity with HTML5 Canvas. It provides an API that is familiar to Flash developers, but embraces Javascript sensibilities. It consists of a full, hierarchical display list, a core interaction model, and helper classes to make working with Canvas much easier.
+|-
 |[http://emberjs.org EmberJS]
 |Ember is a JavaScript framework for creating ambitious web applications that eliminates boilerplate and provides a standard application architecture.
 |-
