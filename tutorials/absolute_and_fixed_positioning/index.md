@@ -1,4 +1,4 @@
-{{Page_Title|Advaced layouts with absolute and fixed positioning}}
+{{Page_Title|Advanced layouts with absolute and fixed positioning}}
 {{Flags}}
 {{Byline}}
 {{Summary_Section|This article covers absolute and fixed positioning.}}
@@ -475,9 +475,3 @@ All positioned elements are rendered at a certain stack level within a stacking 
 |MSDN_link=
 |HTML5Rocks_link=
 }}
-}
-
-
-
-
-}
