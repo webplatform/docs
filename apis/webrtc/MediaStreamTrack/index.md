@@ -13,8 +13,10 @@
 |Specifications=
 }}
 {{Compatibility_Section
-|Not_required=Yes
-|Imported_tables=
+|Not_required=No
+|Imported_tables={{Imported Compatibility Table
+|Page=apis/webrtc/objects/MediaStream
+}}
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
