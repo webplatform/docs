@@ -67,23 +67,23 @@ La W3C tiene poco personal a tiempo completo, pero la mayoría de la gente que t
  
 Todo esto sonaba un poco negativo, pero la WaSP no solo se sentó a criticar personas ellos también ayudaron. Siete miembros formaron CSS Samurai, quienes identificaron los 10 problemas con el soporte CSS en Opera y otros navegadores. (Opera arregló sus problemas, los otros no lo hicieron).
 
-=== The rise of web standards ===
- 
-In 2000, Microsoft released Internet Explorer 5 Macintosh Edition. This was a very important milestone, it being the default browser installed with the Mac OS at the time, and having a reasonable level of support for the W3C recommendations too. Along with Opera's decent level of support for CSS and HTML, it contributed to a general positive movement, where web developers and designers finally felt comfortable designing sites using web standards, as they knew they would work to a reasonable level across multiple browsers.
- 
-The WaSP persuaded Netscape to postpone the release of the 5.0 version of Netscape Navigator until it was much more compliant (this work formed the basis of what is now Firefox, a very popular browser). The WaSP also created a Dreamweaver Task Force to encourage Macromedia to change their popular web authoring tool to encourage and support the creation of compliant sites.
- 
-The popular web development site A List Apart was redesigned early in 2001 and in an article describing how and why, stated:
+=== El surgimiento de los estándares web ===
+In el 2000, Microsoft lanzó Internet Explorer 5 Edición Macintosh. Esto fue un my importante hito, siendo el navegador instalado por defecto con el sistema operativo de la época, teniendo un razonable nivel de apoyo a las recomendaciones de la recomendaciones de la W3C. Junto con soporte decente de CSS y HTML en Opera. Eso contribuyo a un movimiento positivo, donde los desarrolladores web y diseñadores finalmente se sintieron cómodos diseñando sitios usando los estándares web, ya que sabían que trabajaría en múltiples navegadores.
+
+La WasP persuadió a Netscape de posponer el lanzamiento de la versión 5.0 del Navegador Netscape hasta que fue mucho más compatible(Este trabajo fue la base de lo que hoy es Firefox, un navegador muy popular. La WaSP también creó Dreamweaver un grupo de trabajo de Dreamweaver para alentar a Macromedia a cambiar su herramienta popular de creación de páginas web para fomentar y apoyar la creación de sitios compatibles.
+
+El sitio popular de desarro web A List Apart fue rediseñado a principios de 2001 y en un cómo y porque, dijeron:
+
 
 <blockquote> 
-In six months, a year, or two years at most, all sites will be designed with these standards. […] We can watch our skills grow obsolete, or start learning standards-based techniques now.
+En seis meses, un año, o dos o más, todos los sitios serán diseñados con estos estándares. […] Nosotros podemos seguir siendo obsoletos o comenzar aprendiendo las ténicas basadas en estándares, ahora.
 </blockquote> 
 
-That was a little optimistic — not all sites, even today, are built with web standards. But many people listened. Older browsers decreased in market share, and two very high profile sites redesigned using web standards: Wired magazine in 2002, and ESPN in 2003 became field leaders in supporting web standards and new techniques.
- 
-Also in 2003, Dave Shea launched a site called the [http://www.csszengarden.com/ CSS Zen Garden]. This was to have more impact on web professionals than anything else, by truly illustrating that the entire design can change just by changing the style of the page; the content could remain identical.
- 
-Since then, web standards usage have become ''de rigueur''; in the professional web development community. And in this series, we will give you an excellent grounding in these techniques so that you can develop clean, semantic, accessible and standards-compliant websites!
+Eso fue un poco optimista - no todo los sitios, incluso hoy, están creado con los estándares web. Pero muchas personas escucharon. Los navegadores más viejos disminuyeron en el mercado y dos sitios de muy alto perfil se rediseñaron usando estándares web: Wired magazine in 2002, y ESPN in 2003 se convirtieron en lideres en soporte de estándares web y nuevas técnicas.
+
+También en el 2003, Dave Shea lanzó un sitio llamado the [http://www.csszengarden.com/ CSS Zen Garden]. Este iba a tener más impacto en los profesionales web que cualquier otra cosa, ya que demuestra que el diseño se puede cambiar con sólo cambiar el estilo de la página, el contenido puede permanecer idéntica.
+
+Desde entonces, el uso de estándares web se han convertido en''de rigor''; en la comunidad de desarrollo web profesional. Y en esta serie, vamos a darle una excelente base en estas técnicas para que puedan desarrollar sitios web limpios, accesibles, semánticos y sitios webs con estándares compatibles.
 
 == The new breed of web standards ==
  
