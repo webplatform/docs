@@ -2,10 +2,11 @@
 {{Flags
 |High-level issues=Stub
 |Content=Incomplete
+|Editorial notes=css/properties/region-fragment
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|[[User:Sierra|Sierra]] ([[User talk:Sierra|talk]])}}
 {{CSS Property
 |Initial value=auto
 |Applies to=CSS Regions
@@ -30,6 +31,7 @@
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=No
 |Chrome_version=
