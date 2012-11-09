@@ -48,29 +48,29 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
 |Not_required=No
 |Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Unknown
-|Chrome_version=
+|Chrome_supported=Yes
 |Chrome_prefixed_supported=Unknown
 |Chrome_prefixed_version=
-|Firefox_supported=Unknown
-|Firefox_version=
+|Firefox_supported=Yes
 |Firefox_prefixed_supported=Unknown
 |Firefox_prefixed_version=
-|Internet_explorer_supported=Unknown
+|Internet_explorer_supported=No
 |Internet_explorer_version=
 |Internet_explorer_prefixed_supported=Yes
 |Internet_explorer_prefixed_version=10
-|Opera_supported=Unknown
-|Opera_version=
+|Opera_supported=Yes
 |Opera_prefixed_supported=Unknown
 |Opera_prefixed_version=
-|Safari_supported=Unknown
-|Safari_version=
+|Safari_supported=Yes
 |Safari_prefixed_supported=Unknown
 |Safari_prefixed_version=
 }}
 |Mobile_rows=
-|Notes_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=6
+|Note=filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cccccc', endColorstr='#000000');
+}}
 }}
 {{See_Also_Section
 |Topic_clusters=Gradients
