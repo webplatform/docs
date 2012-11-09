@@ -89,7 +89,6 @@ merging, compression, filtering, and more. See the
 for a complete list.
 
 ==The new connection==
-
 This time, rather than connecting the source node directly to the destination node, we route
 the source into the gain node, and from there to the destination node.
 That is, instead of this:
@@ -250,7 +249,8 @@ steps 1, 3 &amp; 4, 5, 5.5, and 6.
 As a final example, let's modify the Step 5.5 <code>playSoundHalf()</code> function to include a low-pass filter
 as a second inline processor. 
 First, we create a filter node within the audio context using the 
-<code>createBiquadFilter</code> method and set its filter type to 0 (low-pass) and cutoff value to 440 Hz (A4). 
+<code>createBiquadFilter()</code> method and set its filter type to 0 (low-pass) and 
+cutoff value to 440 Hz (A4). 
 (See the [https://dvcs.w3.org/hg/audio/raw-file/tip/webaudio/specification.html#BiquadFilterNode-section Biquad filter section] of the specs for more information on this filter.)
 
 <syntaxhighlight lang="javascript">
