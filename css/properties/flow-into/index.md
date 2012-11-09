@@ -2,17 +2,23 @@
 {{Flags
 |High-level issues=Stub
 |Content=Incomplete, Examples Needed
-|Editorial notes=Diverts the selected element's content into a named flow, used to thread content through different regions. Used in conjunction with flow-from.
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Diverts the selected element's content into a named flow, used to thread content through different regions. Used in conjunction with flow-from.}}
 {{CSS Property
+|Initial value=none
 |Inherited=Yes
 |Media=visual
 |Animatable=No
 |CSS object model property=flowInto
-|Values=
+|Values={{CSS Property Value
+|Data Type=identifier
+|Description=specifies a named flow into which to place element's content.
+}}{{CSS Property Value
+|Data Type=none
+|Description=element's content remains as is, and is not diverted to a flow
+}}
 }}
 {{Examples_Section
 |Not_required=No
