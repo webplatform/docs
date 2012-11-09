@@ -5,35 +5,35 @@
 {{Tutorial
 |Content=== Introduction ==
 
-Here we'll turn our attention to the basics of CSS, looking at how you can get started with this powerful styling language. You will learn about applying CSS to HTML documents, either as inline styles using <code>style</code> attributes, embedded styles in a <code>&lt;style&gt;</code> element in the document <code>&lt;head&gt;</code> or as external files in their own document.
+This article covers the basics of CSS, to help you get started with this powerful styling language. You will learn how to apply CSS to HTML documents, either as inline styles using <code>style</code> attributes, embedded styles in a <code>&lt;style&gt;</code> element in the document <code>&lt;head&gt;</code> or as external files in their own document.
 
 You will also learn that the latter — linking an external style sheet using a <code>&lt;link&gt;</code> element — makes the most sense in terms of maintenance and caching.
 
-We will then talk about the basic syntax of CSS and explain comments, different selector types, and grouping of selectors.
+Additionally, an overview of the basic syntax of CSS is provided, including details about adding comments, selector types, and grouping selectors.
  
 == What is CSS? ==
  
-Whilst HTML structures the document and tells browsers what a certain element’s function is (it is a link to another page? Is it a heading?), CSS gives the browser instructions on how to display a certain element — styling, spacing, colouring, etc. If HTML is the struts and bricks that make up the structure of a house, CSS is the plaster and paint to decorate it.
+Whilst HTML structures the document and tells browsers the function of page element (Markup indicates a link to another page, or specifies a page heading), CSS provides rules that instruct the browser how to display a certain element — styling, spacing, coloring, etc. If HTML is the foundation and bricks that make up the structure of a house, CSS is the plaster and paint that decorate it.
  
-This is done using a system of rules (or rulesets), the exact syntax of which you’ll learn more about below. These rules:
+CSS styles are applied using a system of rules (or rulesets). The exact syntax for CSS rules is described below. CSS rules:
 
-# State what HTML elements should have styling added to them
-# Specify the "properties" (colour, size, font, etc.) of the HTML elements we want to manipulate
-# Give the values we want to give each property.
+# Identify which HTML elements should have styling applied
+# Specify the "properties" (color, size, font, and other attributes) of the styled HTML elements 
+# Contain the values that control the appearance of each property
 
 For example, a CSS rule might state:
 
-<blockquote>I want to find every <code>&lt;h2&gt;</code> element on a page, and change the colour of their text to green</blockquote>
+<blockquote>I want to find every <code>&lt;h2&gt;</code> element on a page, and change the color of text surrounded by these tags to green.</blockquote>
 
 or
 
-<blockquote>I want to find every <code>&lt;p&gt;</code> element with a class attribute of <code>author-name</code>, colour their backgrounds in red, make the text inside them twice the size of normal paragraph text, and add 10 pixels of spacing around each one.</blockquote>
+<blockquote>I want to find every <code>&lt;p&gt;</code> element with a class attribute of <code>author-name</code>, set the background color to red, resize the text to twice the size of normal paragraph text, and add 10 pixels of spacing around each instance.</blockquote>
 
-CSS is not a programming language like JavaScript and it is not a markup language like HTML — actually there is nothing that can be compared to it. Technologies that defined interfaces before web development always mixed presentation and structure. As we've discussed earlier in the course, this is not a clever thing to do in an environment that changes as often as the web, which is why CSS was invented.
+CSS is not a programming language like JavaScript and it is not a markup language like HTML — actually there is nothing that can be compared to it. Technologies that defined interfaces before web development always mixed presentation and structure. As we've discussed earlier in the course, this is not a clever thing to do in an environment that changes as often as the Web, which is why CSS was invented.
  
 == Defining style rules ==
  
-Without further ado, let’s have a look at a CSS code example, and then dissect it:
+Without further ado, review this example of a CSS rule, and then dissect it:
 
 <syntaxhighlight lang="css">selector {
   property1:value;
@@ -43,12 +43,12 @@ Without further ado, let’s have a look at a CSS code example, and then dissect
  
 The pertinent parts are as follows:
 
-* The selector identifies the HTML elements that the rule will be applied to, using actual element names, eg. <code>&lt;body&gt;</code>, or another identifier such as <code>class</code> attribute values. We’ll look at the different types of selectors available later on.
+* The selector identifies which HTML elements are affected by the rule, using actual element names, such as <code>&lt;body&gt;</code>, or other identifiers such as <code>class</code> attribute values. Later in this article, a description of the different types of selectors is provided.
 * The curly braces contain the property/value pairs, which are separated from each other by semi-colons; the properties are separated from their respective values by colons.
-* The properties define what you want to do to the element(s) you have selected. These come in wide varieties, which can affect text colour, background colour, position on the page, font type, border colour and thickness and many other things.
-* The values are the values that you want to set for each property of the selected elements. The values are dependent on the property, for example properties that affect colour can take hexadecimal colours like #336699, RGB values like rgb(12,134,22) or colour names like red, green or blue. Properties that affect position, margins, width, height etc. can be measured in pixels, ems, percentages, centimeters or other such units.
+* The properties define what you want to do to the element(s) you have selected. These come in wide varieties, which can affect attributes such as text color, background color, the position of the element on the page, font type, border color and thickness, and many other appearance and layout controls.
+* The values are the settings that specify details of each property applied to elements. The values are dependent on the property. For example, properties that affect color can use hexadecimal colors like #336699, RGB values like rgb(12,134,22) or color names like red, green, or blue. Properties that affect position, margins, width, height, and others can be measured in pixels, ems, percentages, centimeters, or other units.
  
-Now let's look at a specific example:
+Review this specific example:
  
 <syntaxhighlight lang="css">p {
   margin: 5px;
@@ -56,15 +56,15 @@ Now let's look at a specific example:
   color: blue;
 }</syntaxhighlight>
  
-The HTML element this rule selects is <code>&lt;p&gt;</code> — every <code>&lt;p&gt;</code> in the HTML document(s) that this CSS is applied to will have this rule applied to it, unless they have more specific rules also applied to them, in which case the more specific rule(s) will overwrite this rule. The properties affected by this rule are the margins around the paragraphs, the font of the text inside the paragraphs, and the colour of that text. The margins are set at 5 pixels, the font is set as Arial, and the colour of the text is set as blue.
+The HTML element this rule affects is <code>&lt;p&gt;</code> — every <code>&lt;p&gt;</code> in the HTML document or documents that this CSS rule is applied to will display with these styles, unless they have more specific rules also applied to them, in which case the more specific rules will overwrite this rule. The properties affected by this rule are the margins around the paragraphs, the font of the text inside the paragraph tags, and the color of that text. The margins are set to 5 pixels, the font is set as Arial, and the color of the text is set to blue.
 
-We will come back to all of these specifics later — the main goal of this tutorial is to cover the basics of CSS and not the nitty-gritty details.
+All of these specifics are discussed in more detail later — the main goal of this tutorial is to cover the basics of CSS rather than describing the granular details.
  
-A whole set of these rules goes together to form a style sheet. This is the most basic syntax of CSS there is. There is more, but not much — probably the coolest thing about CSS is its simplicity.
+A whole set of CSS rules are added to a CSS document to form a style sheet. This is the most basic syntax when writing CSS rules. Some rules are more complex, but not much — probably the coolest thing about CSS is its simplicity.
  
 === Whitespace in CSS ===
 
-Note that whitespace in CSS works in exactly the same way as it does in HTML — excess whitespace is completely ignored by the browser that renders the CSS, so you can add as much whitespace as you like. So
+Note that whitespace in CSS works in exactly the same way as it does in HTML — excess whitespace is completely ignored by the browser that renders the CSS, so you can add as much whitespace as you like to make the code easier to read. So this rule:
 
 <syntaxhighlight lang="css">p {
   margin: 5px;
@@ -72,15 +72,15 @@ Note that whitespace in CSS works in exactly the same way as it does in HTML —
   color: blue;
 }</syntaxhighlight>
 
-Is functionally identical to 
+Is functionally identical to this rule: 
 
 <syntaxhighlight lang="css">p {margin: 5px;font-family: arial;color: blue;}</syntaxhighlight>
 
-As long as you include the necessary curly braces, colons and semi-colons to separate out different parts, you are ok.
+As long as you include the necessary curly braces, colons, and semi-colons to separate out different parts, the browser understands the values you apply to properties.
 
 === CSS comments ===
  
-One thing to know early on is how to comment in CSS. You add comments by enclosing them in <code>/*</code> and <code>*/</code>. Comments can span several lines, and the browser will ignore these lines:
+One thing to know early on is how to add comments in CSS. You add comments by enclosing them in <code>/*</code> and <code>*/</code>. Comments can span several lines. Browsers will ignore commented lines of text:
  
 <syntaxhighlight lang="css">/* These are basic element selectors */
 selector{
@@ -89,7 +89,7 @@ selector{
   property3:value;
 }</syntaxhighlight>
  
-You can add comments either between rules or inside the property block — for example in the following CSS the 2nd and 3rd properties are enclosed inside comment delimiters, so they will be ignored by the browser. This is useful when you are checking out what effect certain parts of your CSS are having on your web page; just comment them out, save your CSS, and reload the HTML.
+You can add comments either between rules or inside the property block. For example, in the following CSS the second and third properties are enclosed inside comment delimiters, so they will be ignored by the browser. This is useful when you are testing the effect certain CSS rules have on your web page; just comment them out, save your CSS file, and reload the HTML page in a browser.
 
 <syntaxhighlight lang="css">selector{
   property1:value;
@@ -101,44 +101,44 @@ You can add comments either between rules or inside the property block — for e
 
 === Grouping selectors ===
  
-You can also group different selectors. Say you want to apply the same style to <code>h1</code> and <code>p</code> — you could write the following CSS:
+You can also group different selectors. If you want to apply the same style to <code>h1</code> and <code>p</code>, you can write the following CSS:
  
 <syntaxhighlight lang="css">h1 {color:red;}
 
 p {color:red;}</syntaxhighlight>
  
-This however is not ideal, as you are repeating information that is the same. To remedy this, you can shorten the CSS by grouping the selectors together with a comma — the rules within the curly braces are applied to both selectors:
+This however is not ideal, as you are repeating the same information. To remedy this, you can shorten the CSS by grouping the selectors together with a comma — the rules within the curly braces are applied to both selectors:
 
 <syntaxhighlight lang="css">h1, p {color:red;}</syntaxhighlight>
 
 ===Basic types of selector===
  
-There are several different selectors, each matching a different part of the markup. The three you'll encounter most often are as follows:
+There are several different selectors, each matching a different part of the markup. The three types of selectors that you will encounter most often are:
 
-====Element Selector====
+====Element selector====
 
 <syntaxhighlight lang="css">p {}</syntaxhighlight>
 
-An element selector matches all the elements of that name on the page (<code>&lt;p&gt;</code> elements, in the case above).
+An element selector matches all the elements of that name on the page (<code>&lt;p&gt;</code> elements, in the case above). By specifying an HTML tag, you can affect all page elements that are surrounded by that tag.
 
-====Class Selector====
+====Class selector====
 
 <syntaxhighlight lang="css">.example {}</syntaxhighlight>
 
-A class selector matches all elements that have a <code>class</code> attribute with the value specified, so the above would match <code>&lt;p class="example"&gt;</code>, <code>&lt;li class="example"&gt;</code> or <code>&lt;div class="example"&gt;</code>, or any other element with a <code>class</code> of <code>example</code>. Note that class selectors don't test for any specific element name.
+A class selector matches all elements that have a <code>class</code> attribute with the value specified, so the above would match <code>&lt;p class="example"&gt;</code>, <code>&lt;li class="example"&gt;</code> or <code>&lt;div class="example"&gt;</code>, or any other element with a <code>class</code> of <code>example</code>. Note that class selectors do not test for any specific element name.
 
-====ID Selector====
+====ID selector====
 
 <syntaxhighlight lang="css">#example {}</syntaxhighlight>
 
-An id selector matches all elements that have an <code>id</code> attribute with the value specified, so the above would match <code>&lt;p id="example"&gt;</code>, <code>&lt;li id="example"&gt;</code> or <code>&lt;div id="example"&gt;</code>, or any other element with an <code>id</code> of <code>example</code>. Note that ID selectors don’t test for any element name, and you can only have one of each ID per HTML document — they are unique to each page.  
+An ID selector matches all elements that have an <code>id</code> attribute with the value specified, so the above would match <code>&lt;p id="example"&gt;</code>, <code>&lt;li id="example"&gt;</code> or <code>&lt;div id="example"&gt;</code>, or any other element with an <code>id</code> of <code>example</code>. Note that ID selectors do not test for any element name. You can only have one of each ID per HTML document — they are unique to each page.  
 
-You can see the above selectors in action in the following examples. Notice that when you open the example in a browser the <code>warning</code> style gets applied to both the list item and the paragraph (if the bullet disappears it's because you are setting a white text colour on a white background).
+You can see the above selectors in action in the following examples. Notice that when you open the example in a browser the <code>warning</code> style is applied to both the list item and the paragraph (if the bullet disappears it is because you are setting a white text color on a white background).
 
 * [http://dev.opera.com/articles/view/27-css-basics/example-selectors.html example-selectors.html]
 * [http://dev.opera.com/articles/view/27-css-basics/selectors.css selectors.css]
 
-====Combining Selectors====
+====Combining selectors====
  
 You can join selectors together to define even more specific rules:
 
@@ -196,17 +196,17 @@ Shorthand <code>margin</code> and <code>padding</code> properties tend to get th
  
 * '''When a single margin needs to be set.''' In a situation where only one property needs to be set, the act of simultaneously setting multiple properties usually violates the KISS (Keep It Simple, Stupid) Principle.
 * '''The selector to which your properties apply is subject to many edge cases.''' When this happens — which it will, sooner or later — the inevitable heap of shorthand values can become hard to follow when it comes time to repair or alter your layout.
-* '''The stylesheet you’re writing will be maintained by people with limited CSS skills (or spatial reasoning ability).''' If you can get them to read this article you may not need to worry about this scenario, but it’s best not to make any assumptions.
-* '''You need to supplant a value, to account for an edge case.''' This requirement is often a signal of a poorly designed document or stylesheet, but those are hardly unheard of.
+* '''The style sheet you’re writing will be maintained by people with limited CSS skills (or spatial reasoning ability).''' If you can get them to read this article you may not need to worry about this scenario, but it is best not to make any assumptions.
+* '''You need to supplant a value, to account for an edge case.''' This requirement is often a signal of a poorly designed document or style sheet, but those are hardly unheard of.
  
 
 == Applying CSS to HTML ==
  
-There are three ways to apply CSS to an HTML document: inline styles, embedded styles and external style sheets. Unless you have a very good reason to use one of the first two always go for the third option. The reason for this will become obvious to you soon, but first lets review the different options.
+There are three ways to apply CSS to an HTML document: inline styles, embedded styles and external style sheets. Unless you have a very good reason to use one of the first two always go for the third option. The reason for this will become obvious to you soon, but first here is an overview of the different options.
  
 === Inline styles ===
  
-You can apply styles to a specific element using a <code>style</code> attribute, like so:
+You can apply styles to a specific element using a <code>style</code> attribute, like this:
  
 <syntaxhighlight lang="html5"><p style="background:blue; color:white; padding:5px;">Paragraph</p></syntaxhighlight>
  
@@ -222,7 +222,7 @@ The benefit of inline styles is that the browser will be forced to use these set
  
 The big problem with inline styles is that they make maintenance a lot harder than it should be. Using CSS is all about separating the presentation of the document from the structure, but inline styles are doing just the opposite — scattering presentation rules throughout the document.
  
-In addition to the maintenance issue you don’t take advantage of the most powerful part of CSS: the cascade. We’ll come back to the cascade in detail later, but for now all you need to know is that using the cascade means you define a look and feel in one place and the browser applies it to all the elements that match a certain rule.
+In addition to the maintenance issue you do not take advantage of the most powerful part of CSS: the cascade. The concept of the cascade is discussed in more detail later, but for now all you need to know is that using the cascade means you define a look and feel in one place and the browser applies it to all the elements that match a certain rule.
 
 === Embedded styles ===
  
@@ -236,7 +236,7 @@ Embedded styles are placed in the <code>&lt;head&gt;</code> of the document insi
   }
 </style></syntaxhighlight>
  
-If you open the above link in a browser you’ll see that the defined styles get applied to all the paragraphs in the document, as shown in Figure 2. Also try looking at the example page’s source to see the CSS inside the <code>head</code>.
+If you open the above link in a browser you will see that the defined styles get applied to all the paragraphs in the document, as shown in Figure 2. Also try looking at the example page’s source to see the CSS inside the <code>head</code>.
  
 [[Image:cssbasid.png|Screenshot of the Opera browser showing how an embedded style sheet affects a lot of elements]]
  
@@ -269,7 +269,7 @@ There is actually another way to import external style sheets into HTML files - 
    
 </style></syntaxhighlight>
  
-You'll sometimes see import statements without the brackets, but it does the same thing. Another thing to be aware of is that <code>@import</code> should always be first in an embedded style sheet. Finally, you can specify that the imported style sheet be applied only to certain types of media by including the media type at the end of the import statement (this works in every browser except IE6 and below). The following does the same thing as the previous code example:
+Sometimes import statements are written without the brackets, but they achieve the same goal. Another thing to be aware of is that <code>@import</code> should always be first in an embedded style sheet. Finally, you can specify that the imported style sheet be applied only to certain types of media by including the media type at the end of the import statement (this works in every browser except IE6 and below). The following does the same thing as the previous code example:
  
 <syntaxhighlight lang="html5"><style type="text/css">
   @import url("styles.css") screen;
@@ -278,15 +278,16 @@ You'll sometimes see import statements without the brackets, but it does the sam
    
 </style></syntaxhighlight>
  
-The first question you'll be asking is "why on earth do I need another way to apply external style sheets to my HTML documents?" Well, you don't really - I am mainly including information on <code>@import</code> here for the sake of completeness. There are a few minor advantages/disadvantages of using <code>@import</code> over <code>&lt;link&gt;</code> elements, but they are ''very minor'', so it's really up to you which way you go. <code>&lt;link&gt;</code> elements are the recognised best way to do things these days.
+The first question you'll be asking is "why on earth do I need another way to apply external style sheets to my HTML documents?" Well, you don't really - I am mainly including information on <code>@import</code> here for the sake of completeness. There are a few minor advantages/disadvantages of using <code>@import</code> over <code>&lt;link&gt;</code> elements, but they are ''very minor'', so it is really up to you which way you go. <code>&lt;link&gt;</code> elements are the recognised best way to do things these days.
  
-* Older browsers don't recognise <code>@import</code> at all, so completely ignore it (Netscape 4 and older, and IE 4 and older if you omit the brackets from around the filename). You can therefore use an <code>@import</code> statement to hide styles from old buggy browsers that would use them incorrectly. You could put your up-to-date styles in an external stylesheet and import them with <code>@import</code>, then provide some really basic styles that will not cause IE/Netscape 4 to choke in the embedded stylesheet. This is useful, but you'll very rarely need to ensure IE/Netscape 4 compatibility these days!
+* Older browsers don't recognize <code>@import</code> at all, so they completely ignore it (Netscape 4 and older, and IE 4 and older if you omit the brackets from around the file name). You can therefore use an <code>@import</code> statement to hide styles from old buggy browsers that would use them incorrectly. You could put your up-to-date styles in an external style sheet and import them with <code>@import</code>, then provide some really basic styles that will not cause IE/Netscape 4 to choke in the embedded style sheet. This is useful, but you'll very rarely need to ensure IE/Netscape 4 compatibility these days!
 * As mentioned before, IE6 doesn't support putting the media type at the end of the <code>@import</code> line, so they are not a good way to go if you want to insert multiple stylesheets for different media.
 * You could argue that the code for multiple <code>@import</code> statements is smaller than the code for multiple <code>&lt;link&gt;</code> elements, but this is pretty negligible.
 }}
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
 |Chrome_prefixed_supported=Unknown
