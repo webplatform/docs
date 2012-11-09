@@ -1,7 +1,10 @@
 {{Page_Title|Regions}}
 {{Flags
-|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
+|High-level issues=Deletion Candidate, Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Needed, Examples Best Practices
+|Editorial notes={{Editorial/Deletion_Candidate
+| replacing with new CSS region content
+}}
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
@@ -38,6 +41,7 @@ Build date: 7/24/2012
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=No
 |Chrome_version=
