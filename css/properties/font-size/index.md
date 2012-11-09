@@ -5,12 +5,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|With font-size you can specify size of the text.
-
-Numerical value is allowed. 
-Percentage value also allowed. 
-Percentage value expresses size relatively to parent text size.
-}}
+{{Summary_Section|This property is used to specify the size of text.}}
 {{CSS Property
 |Initial value=medium
 |Applies to=All elements
@@ -133,7 +128,7 @@ Possible length values specified in a relative measurement, using the height of 
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=Fonts
+|Topic_clusters=CSS Font, Fonts, Text
 |Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
