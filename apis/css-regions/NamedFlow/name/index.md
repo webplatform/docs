@@ -1,0 +1,41 @@
+{{Page_Title}}
+{{Flags}}
+{{Standardization_Status}}
+{{API_Name}}
+{{Summary_Section}}
+{{API_Object_Property
+|Property_applies_to=css/cssom/NamedFlow
+|Read_only=Yes
+|Example_object_name=flow
+|Return_value_name=main_content
+|Javascript_data_type=String
+|Example_value_name=id
+}}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
+{{Notes_Section}}
+{{Related_Specifications_Section
+|Specifications={{Related Specification
+|Name=CSS Regions Module Level 3
+|URL=http://dev.w3.org/csswg/css3-regions/
+}}
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section
+|Topic_clusters=CSS Layout, Regions
+}}
+{{Topics|CSS}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
+}}
