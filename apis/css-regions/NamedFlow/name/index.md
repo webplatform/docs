@@ -7,9 +7,9 @@
 |Property_applies_to=css/cssom/NamedFlow
 |Read_only=Yes
 |Example_object_name=flow
-|Return_value_name=main_content
+|Return_value_name=id
 |Javascript_data_type=String
-|Example_value_name=id
+|Example_value_name=main_content
 }}
 {{Examples_Section
 |Not_required=No
