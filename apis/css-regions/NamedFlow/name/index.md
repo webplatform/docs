@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Name of flow, specified by flow-into or flow-from properties}}
 {{API_Object_Property
 |Property_applies_to=css/cssom/NamedFlow
 |Read_only=Yes
