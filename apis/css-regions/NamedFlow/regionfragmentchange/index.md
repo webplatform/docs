@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|fires when there is a change in how content flows through a region chain}}
 {{Event
 |Event_applies_to=css/cssom/NamedFlow
 |Content=fires when there is a change in how content flows through a region chain
