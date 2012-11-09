@@ -246,7 +246,61 @@ steps 1, 3 &amp; 4, 5, 5.5, and 6.
 #Click the '''Play half volume''' button. The sound plays at half its full volume.
 #Optional: During playback (assuming the sound plays long enough), click the '''Stop''' button. The sound stops.
 
-==Other processors==
+==Adding processors==
+As a final example, let's modify the Step 5.5 <code>playSoundHalf()</code> function to include a low-pass filter
+as a second inline processor. 
+First, we create a filter node within the audio context using the 
+<code>createBiquadFilter</code> method and set its filter type to 0 (low-pass) and cutoff value to 440 Hz (A4). 
+(See the [https://dvcs.w3.org/hg/audio/raw-file/tip/webaudio/specification.html#BiquadFilterNode-section Biquad filter section] of the specs for more information on this filter.)
+
+<syntaxhighlight lang="javascript">
+var filterNode = context.createBiquadFilter();
+filterNode.type = 0;
+filterNode.frequency.value = 440;
+</syntaxhighlight>
+
+Then, we insert the filter between the gain node and the destination. That is,
+instead of this:
+
+<syntaxhighlight lang="javascript">
+gainNode.connect(context.destination);  
+</syntaxhighlight>
+
+we do this:
+
+<syntaxhighlight lang="javascript">
+gainNode.connect(filterNode);
+filterNode.connect(context.destination);
+</syntaxhighlight>
+
+The sound's path is now '''audio buffer > gain node > filter node > destination''', and
+the modified function looks like this:
+
+<syntaxhighlight lang="javascript">
+//Step 5.5
+var source = null;
+function playSoundHalf(anybuffer) {
+  source = context.createBufferSource();
+  source.buffer = anybuffer;
+  var gainNode = context.createGainNode();
+  source.connect(gainNode);
+  gainNode.gain.value = 0.5;
+
+  var filterNode = context.createBiquadFilter();
+  filterNode.type = 0;
+  filterNode.frequency.value = 440;
+  gainNode.connect(filterNode);
+  filterNode.connect(context.destination);
+  
+  source.start();
+  //source.noteOn(0); //see note in Step 6 text
+}
+</syntaxhighlight>
+
+The sound will now play at half its original volume ''and'' frequencies above 440 Hz will 
+be suppressed.
+
+==Summary==
 As you can see, adding one or more processors to the sound stream is a fairly simple matter of 
 defining the processor(s) and then connecting
 the inputs and outputs. In this way, you can construct audio paths that include serial (sequential)
