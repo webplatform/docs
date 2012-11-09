@@ -8,7 +8,7 @@
 {{Summary_Section}}
 {{API_Object_Method
 |Parameters=
-|Method_applies_to=css/cssom/NamedFlow
+|Method_applies_to=dom/apis/document
 }}
 {{Examples_Section
 |Not_required=No
