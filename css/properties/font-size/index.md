@@ -5,7 +5,12 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|With font-size you can specify size of the text.
+
+Numerical value is allowed. 
+Percentage value also allowed. 
+Percentage value expresses size relatively to parent text size.
+}}
 {{CSS Property
 |Initial value=medium
 |Applies to=All elements
@@ -70,6 +75,7 @@ Possible length values specified in a relative measurement, using the height of 
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
 |Chrome_version=1.0
