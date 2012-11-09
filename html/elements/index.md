@@ -1,7 +1,7 @@
-{{Page_Title}}
+{{Page_Title|HTML Elements}}
 {{Flags
 |Content=Grammar/Spelling
-|Editorial notes=In the Name/Summary table, the typography for the element names should be consistent from entry to entry. In some rows, names are in bold; in others, in angle brackets; in others, in quotation marks. 
+|Editorial notes=In the Name/Summary table, the typography for the element names should be consistent from entry to entry. In some rows, names are in bold; in others, in angle brackets; in others, in quotation marks.
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -13,7 +13,7 @@
 }}
 {{Notes_Section}}
 {{See_Also_Section}}
-{{Topics}}
+{{Topics|DOM, HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
