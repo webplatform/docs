@@ -16,7 +16,11 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|Code=flow-from: none;
+flow-from: main_content;
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
