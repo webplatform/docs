@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|An interface for the [[html/elements/body]] element.}}
+{{Summary_Section|An interface for the [[html/elements/body|body]] element.}}
 {{API_Object
 |Subclass_of=dom/HTMLElement, dom/Element, dom/Node, dom/EventTarget
 |Overview=This element holds the content of a document.
