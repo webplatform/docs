@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Gets a reference to the root node of the document.}}
+{{Summary_Section|Gets the root node of the document.}}
 {{API_Object_Property
 |Property_applies_to=dom/document
 |Read_only=Yes
