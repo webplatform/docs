@@ -23,7 +23,7 @@
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=WHATWG HTML
-|URL=http://www.whatwg.org/specs/web-apps/current-work
+|URL=http://www.whatwg.org/specs/web-apps/current-work/multipage
 |Status=Living Standard
 |Relevant_changes=Section 3.1.1
 }}{{Related Specification
