@@ -1,24 +1,47 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section|Retrieves a value that indicates the current state of the object.}}
 {{API_Object_Property
 |Property_applies_to=dom/document
-|Read_only=
+|Read_only=Yes
+|Example_object_name=node
+|Return_value_name=readyState
+|Javascript_data_type=String
 }}
-{{Topics|DOM}}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
-The states through which an object passes are determined by that object; an object can skip certain states (for example, '''interactive''') if those states do not apply to that object.
-|Import_Notes=
-===Syntax===
+|Usage=The states through which an object passes are determined by that object; an object can skip certain states (for example, '''interactive''') if those states do not apply to that object.
+}}
+{{Related_Specifications_Section
+|Specifications={{Related Specification
+|Name=WHATWG HTML
+|URL=http://www.whatwg.org/specs/web-apps/current-work
+|Status=Living Standard
+|Relevant_changes=Section 3.1.1
+}}{{Related Specification
+|Name=W3C HTML5
+|URL=http://www.w3.org/TR/html5/
+|Status=Working Draft
+|Relevant_changes=Section 3.1.1
+}}
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 *<code>[[html/elements/a|a]]</code>
 *<code>abbr</code>
 *<code>[[html/elements/acronym|acronym]]</code>
@@ -103,10 +126,11 @@ The states through which an object passes are determined by that object; an obje
 *<code>xml</code>
 *<code>xmp</code>
 }}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
