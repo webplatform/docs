@@ -1,6 +1,6 @@
 {{Page_Title|ApplicationCache}}
 {{Flags}}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Tells a browser to cache any downloaded resource (HTML, CSS, JS, images, etc…) for set amount of time. The possible benefits are faster page loads and offline viewing.}}
 {{API_Object}}
@@ -128,6 +128,7 @@ The '''ApplicationCache''' object has these properties.
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
 |Chrome_version=4
