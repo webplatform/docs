@@ -1,35 +1,52 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
+{{Summary_Section|Gets the URL of the location that referred the user to the current document.}}
 {{API_Object_Property
 |Property_applies_to=dom/document
-|Read_only=
+|Read_only=Yes
+|Example_object_name=document
+|Return_value_name=referrerURL
+|Javascript_data_type=String
+|Return_value_description=The URL of the referring document, or an empty string.
 }}
-{{Topics|DOM}}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
-This property returns a value only when the user reaches the current document through a link from the previous document. Otherwise, <code>document</code>.'''referrer''' returns an empty string; it also returns an empty string when the link is from a secure site.
-For example, if DocumentA.htm includes a link to DocumentB.htm, and the user clicks that link, the <code>document</code>.'''referrer''' on DocumentB.htm returns "DocumentA.htm." However, if the user is on DocumentA.htm and types DocumentB.htm into the address line or chooses the '''Open''' command from the '''File''' menu to get to DocumentB.htm, the <code>document</code>.'''referrer''' returns an empty string.
-|Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}161725 Document Object Model (DOM) Level 1 Specification], Section 2.4
-
-
+|Notes=*It returns a value only when the user reaches the current document through a link from the previous document. Otherwise, it returns an empty string.
+For example, if DocumentA.htm includes a link to DocumentB.htm, and the user clicks that link, the <code>document</code>.'''referrer''' on DocumentB.htm returns "DocumentA.htm." However, if the user is on DocumentA.htm and types DocumentB.htm into the address line or using some kind of "Open" method of the browser to get to DocumentB.htm, it returns the empty string.
+*It also returns an empty string when the link is from a secure site.
+}}
+{{Related_Specifications_Section
+|Specifications={{Related Specification
+|Name=DOM Level 2 HTML
+|URL=http://www.w3.org/TR/2003/REC-DOM-Level-2-HTML-20030109/
+|Status=Recommendation
+|Relevant_changes=Section 1.5
+}}
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 *<code>[[dom/document|document]]</code>
 }}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
