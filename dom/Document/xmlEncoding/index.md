@@ -1,39 +1,52 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section|Gets a value that represents the character encoding that is specified in the declaration of an XML document.}}
 {{API_Object_Property
 |Property_applies_to=dom/document
-|Read_only=
+|Read_only=Yes
+|Example_object_name=document
+|Return_value_name=encoding
+|Javascript_data_type=String
+|Return_value_description=The encoding name that is specified in the declaration of an XML document.
 }}
-{{Topics|DOM}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
+|Language=Other
 |Description=The following  code example shows an XML declaration that specifies character encoding.
-|LiveURL=
-|Code=
-&lt;?xml encoding{{=}}"UTF-8"?&gt;
-}}}}
-{{Notes_Section
-|Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}182717 Document Object Model (DOM) Level 3 Core Specification], Section 1.2
-
-
+|Code=&lt;?xml encoding{{=}}"UTF-8"?&gt;
+}}
+}}
+{{Notes_Section}}
+{{Related_Specifications_Section
+|Specifications={{Related Specification
+|Name=DOM Level 3 Core
+|URL=http://www.w3.org/TR/2004/REC-DOM-Level-3-Core-20040407
+|Status=Recommendation
+|Relevant_changes=Section 1.4
+}}
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 *<code>[[dom/document|document]]</code>
 }}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
