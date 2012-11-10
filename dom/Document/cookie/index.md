@@ -23,9 +23,7 @@
 |Usage=A cookie is a small piece of information. Each cookie is stored in a name{{=}}value pair called a crumb—that is, if the cookie name is "id" and you want to save the id value as "this," the cookie is saved as id{{=}}this. You can store up to a maxium of 50 name{{=}}value pairs in a cookie; the cookie is always returned as a string of all the cookies that apply to the document. This means that you must parse the string returned to find the values of individual cookies.
 
 Cookies accumulate each time the property is set. Once the maximum pair limit is reached, subsequent set will push older name{{=}}value pair off in favor of the new name{{=}}value pair.
-You can use the [[javascript/methods/split|split]] method to extract a value stored in a cookie.
-|Notes=
-
+You can use the [[concepts/programming/javascript/core_objects#String_Object|split]] method to extract a value stored in a cookie.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
