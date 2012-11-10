@@ -3,28 +3,32 @@
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The interface for the primary data type for the entire Document Object Model.}}
 {{API_Object
 |Subclass_of=dom/EventTarget
+|Overview=The '''Node''' interface is the primary datatype for the entire Document Object Model (DOM). It represents a single node in the document tree.
 }}
 {{Examples_Section
 |Not_required=No
 |Examples=
 }}
 {{Notes_Section
-|Notes====Remarks===
-The '''Node''' interface is the primary datatype for the entire Document Object Model (DOM). It represents a single node in the document tree. While all objects implementing the '''Node''' interface expose methods for dealing with children, not all objects implementing the '''Node''' interface may have children. For example, [[html/attributes/text (body element)|'''text''']] nodes may not have children, and adding children to such nodes results in a [[dom/DOMException|'''DOMException''']].
+|Notes=While all objects implementing the '''Node''' interface expose methods for dealing with children, not all objects implementing the '''Node''' interface may have children. For example, [[html/attributes/text (body element)|'''text''']] nodes may not have children, and adding children to such nodes results in a [[dom/DOMException|'''DOMException''']].
 The attributes [[dom/properties/nodeName|'''nodeName''']], [[dom/properties/nodeValue|'''nodeValue''']] and [[dom/properties/attribute|'''attributes''']] are included as a mechanism to get at node information without casting down to the specific derived interface. In cases where there is no obvious mapping of these attributes for a specific [[dom/properties/nodeType|'''nodeType''']] (i.e., '''nodeValue''' for an Element or attributes for a Comment), this returns '''null'''. Note that the specialized interfaces may contain additional and more convenient mechanisms to get and set the relevant information.
-|Import_Notes====Members===
-The '''Node''' object does not define any members.
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=DOM Level 3 Core
+|URL=http://www.w3.org/TR/DOM-Level-3-Core
+|Status=Recommendation
+|Relevant_changes=Section 1.4
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
