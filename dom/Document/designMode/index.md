@@ -26,7 +26,17 @@ While the browser is in design mode, objects enter a UI-activated state when the
 *The default value is '''off'''.
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=W3C HTML5
+|URL=http://www.w3.org/TR/html5/
+|Status=Working Draft
+|Relevant_changes=Section 3.1.1
+}}{{Related Specification
+|Name=WHATWG HTML
+|URL=http://www.whatwg.org/specs/web-apps/current-work/multipage
+|Status=Living Standard
+|Relevant_changes=Section 3.1.1
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
