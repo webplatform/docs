@@ -19,12 +19,11 @@ The returned value is a TextRectangle object which is the union of the rectangle
   '''left''': Number
   '''right''': Number
   '''bottom''': Number
-
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Language=JavaScript
+|Language=HTML
 |Description=This example uses the [[dom/methods/getClientRects|'''getClientRects''']] and '''getBoundingClientRect''' methods to highlight text lines in an object.
 |Code=&lt;HEAD&gt;
 &lt;SCRIPT&gt;
@@ -80,7 +79,7 @@ ID{{=}}"idBeige"&gt;&lt;/DIV&gt;
 &lt;/BODY&gt;
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/rectselection.htm
 }}{{Single Example
-|Language=JavaScript
+|Language=HTML
 |Description=This example uses the [[dom/TextRectangle|'''TextRectangle''']] collection with the [[dom/methods/getClientRects|'''getClientRects''']] and '''getBoundingClientRect''' methods to determine the position of the text rectangle within an element. In each line, the left-justified text does not extend to the right margin of the box that contains the text. Using the collection, you can determine the coordinates of the rectangle that surrounds only the content in each line. The example code reads these rectangle coordinates and instructs the ball to move over the text only, and not to the end of the line.
 |Code=&lt;HEAD&gt;
 &lt;SCRIPT&gt;
