@@ -37,26 +37,7 @@ var style = window.getComputedStyle(elem1, null);
 // var style = document.defaultView.getComputedStyle(elem1, null);
 }}{{Single Example
 |Language=HTML
-|Code=<style>
- #elem-container{
-   position: absolute;
-   left:     100px;
-   top:      200px;
-   height:   100px;
- }
-</style>
- 
-<div id="elem-container">dummy</div>
-<div id="output"></div>  
- 
-<script>
-  function getTheStyle(){
-    var elem = document.getElementById("elem-container");
-    var theCSSprop = window.getComputedStyle(elem,null).getPropertyValue("height");
-    document.getElementById("output").innerHTML = theCSSprop;
-   }
-  getTheStyle();
-</script>
+|Code=&lt;style&gt;<br/> #elem-container{<br/>   position: absolute;<br/>   left:     100px;<br/>   top:      200px;<br/>   height:   100px;<br/> }<br/>&lt;/style&gt;<br/> <br/>&lt;div id=&quot;elem-container&quot;&gt;dummy&lt;/div&gt;<br/>&lt;div id=&quot;output&quot;&gt;&lt;/div&gt;  <br/> <br/>&lt;script&gt;<br/>  function getTheStyle(){<br/>    var elem = document.getElementById(&quot;elem-container&quot;);<br/>    var theCSSprop = window.getComputedStyle(elem,null).getPropertyValue(&quot;height&quot;);<br/>    document.getElementById(&quot;output&quot;).innerHTML = theCSSprop;<br/>   }<br/>  getTheStyle();<br/>&lt;/script&gt;
 }}{{Single Example
 |Language=HTML
 |Description=getComputedStyle can pull style info off of pseudo-elements (for example, ::after, ::before, ::marker, ::line-marker).
