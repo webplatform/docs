@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Gets the final used values of all the CSS properties of an element. The returned object is of the same type that the object returned from the element's [[css/cssom/style]] property, however the two objects have different purposes. The object returned from getComputedStyle is read-only and can be used to inspect the element's style (including those set by a <style> element or an external stylesheet). The elt.style object should be used to set styles on a specific element.}}
+{{Summary_Section|Gets the final used values of all the CSS properties of an element. The returned object is of the same type that the object returned from the element's [[css/cssom/style|"style"]] property, however the two objects have different purposes. The object returned from getComputedStyle is read-only and can be used to inspect the element's style (including those set by a <style> element or an external stylesheet). The elt.style object should be used to set styles on a specific element.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=element
