@@ -7,7 +7,7 @@
 {{API_Name}}
 {{Summary_Section|Height (in pixels) of the browser window viewport including, if rendered, the horizontal scrollbar.}}
 {{API_Object_Property
-|Property_applies_to=css/cssom/properties/innerHeight
+|Property_applies_to=dom/window
 |Read_only=Yes
 |Example_object_name=window
 |Return_value_name=height
@@ -30,8 +30,6 @@ of the viewport of the outermost frameset */
 }}
 {{Notes_Section
 |Notes=The following figure shows the difference between outerHeight and innerHeight.
-
-
 }}
 {{Related_Specifications_Section
 |Specifications=
