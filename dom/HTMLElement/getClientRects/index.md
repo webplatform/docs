@@ -3,9 +3,9 @@
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The returned value is a collection of ClientRect objects, one for each CSS border box associated with the element. Each ClientRect object contains read-only left, top, right and bottom properties describing the border box, in pixels, with the top-left relative to the top-left of the viewport. For tables with captions, the caption is included even though it's outside the border box of the table.}}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=dom/HTMLElement
@@ -154,7 +154,19 @@ function End() {
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/rectdemo.htm
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=Originally, Microsoft intended this method to return a TextRectangle object for each line of text. However, the CSSOM working draft specifies that it returns a ClientRect for each border box. For an inline element, the two definitions are the same. But for a block element, Mozilla will return only a single rectangle.
+
+The amount of scrolling that has been done of the viewport area (or any other scrollable element) is taken into account when computing the rectangles.
+
+The returned rectangles do not include the bounds of any child elements that might happen to overflow.
+
+For HTML AREA elements, SVG elements that do not render anything themselves, display:none elements, and generally any elements that are not directly rendered, an empty list is returned.
+
+Rectangles are returned even for CSS boxes that have empty border-boxes. The left, top, right and bottom coordinates can still be meaningful.
+
+Fractional pixel offsets are possible.
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSSOM View Module
@@ -195,8 +207,8 @@ function End() {
 {{Topics|CSS, DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
+|Sources=MDN, MSDN
+|MDN_link=https://developer.mozilla.org/en-US/docs/DOM/element.getClientRects
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
