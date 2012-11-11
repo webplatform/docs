@@ -195,6 +195,7 @@ Fractional pixel offsets are possible.
 |Opera_prefixed_supported=Unknown
 |Opera_prefixed_version=
 |Safari_supported=Yes
+|Safari_version=4
 |Safari_prefixed_supported=Unknown
 |Safari_prefixed_version=
 }}
