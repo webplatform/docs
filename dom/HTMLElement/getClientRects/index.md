@@ -9,24 +9,23 @@
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=dom/HTMLElement
-|Example_object_name=object
-|Return_value_name=object
-|Javascript_data_type=DOM Node
-|Return_value_description='''IHTMLRectCollection'''
+|Example_object_name=element
+|Return_value_name=rect
+|Javascript_data_type=ClientRectList
+|Return_value_description='''ClientRectList'''
 
-'''TextRectangle'''
-
-'''top'''
-
-'''left'''
-
-'''right'''
-
-'''bottom'''
+'''ClientRect'''
+  '''top''': Number
+  '''left''': Number
+  '''right''': Number
+  '''bottom''': Number
+  '''height''': Number
+  '''width''': Number
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=HTML
 |Description=This example uses the '''getClientRects''' and [[dom/methods/getBoundingClientRect|'''getBoundingClientRect''']] methods to highlight text lines in an object.
 |Code=&lt;HEAD&gt;
 &lt;SCRIPT&gt;
@@ -82,6 +81,7 @@ ID{{=}}"idBeige"&gt;&lt;/DIV&gt;
 &lt;/BODY&gt;
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/rectselection.htm
 }}{{Single Example
+|Language=HTML
 |Description=This example uses the [[dom/TextRectangle|'''TextRectangle''']] collection with the '''getClientRects''' and [[dom/methods/getBoundingClientRect|'''getBoundingClientRect''']] methods to determine the position of the text rectangle within an element. In each line, the left-justified text does not extend to the right margin of the box that contains the text. Using the collection, you can determine the coordinates of the rectangle that surrounds only the content in each line. The example code reads these rectangle coordinates and instructs the ball to move over the text only, and not to the end of the line.
 |Code=&lt;HEAD&gt;
 &lt;SCRIPT&gt;
