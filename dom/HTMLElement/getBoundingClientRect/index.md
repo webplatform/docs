@@ -1,9 +1,11 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=dom/HTMLElement
@@ -21,17 +23,13 @@
 '''right'''
 
 '''bottom'''
-
-
 }}
-{{Topics|DOM}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
+|Language=JavaScript
 |Description=This example uses the [[dom/methods/getClientRects|'''getClientRects''']] and '''getBoundingClientRect''' methods to highlight text lines in an object.
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/rectselection.htm
-|Code=
-&lt;HEAD&gt;
+|Code=&lt;HEAD&gt;
 &lt;SCRIPT&gt;
 var rcts;
 var keyCount{{=}}0;
@@ -83,12 +81,11 @@ ID{{=}}"idYellow"&gt;&lt;/DIV&gt;
 z-index:-1; background-color:beige; display:none"
 ID{{=}}"idBeige"&gt;&lt;/DIV&gt;
 &lt;/BODY&gt;
-}}
-{{Single_Example
+|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/rectselection.htm
+}}{{Single Example
+|Language=JavaScript
 |Description=This example uses the [[dom/TextRectangle|'''TextRectangle''']] collection with the [[dom/methods/getClientRects|'''getClientRects''']] and '''getBoundingClientRect''' methods to determine the position of the text rectangle within an element. In each line, the left-justified text does not extend to the right margin of the box that contains the text. Using the collection, you can determine the coordinates of the rectangle that surrounds only the content in each line. The example code reads these rectangle coordinates and instructs the ball to move over the text only, and not to the end of the line.
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/rectdemo.htm
-|Code=
-&lt;HEAD&gt;
+|Code=&lt;HEAD&gt;
 &lt;SCRIPT&gt;
 var timid {{=}} -1;
 var timoID_2 {{=}} -1;
@@ -156,21 +153,50 @@ function End() {
     BORDER{{=}}0 HEIGHT{{=}}16 WIDTH{{=}}16&gt;
 &lt;/DIV&gt;
 &lt;/BODY&gt;
-}}}}
+|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/rectdemo.htm
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 This method retrieves an object that exposes the left, top, right, and bottom coordinates of the union of rectangles relative to the client's upper-left corner.
 In Microsoft Internet Explorer 5, the window's upper-left is at 2,2 (pixels) with respect to the true client.
-|Import_Notes=
-===Syntax===
+|Import_Notes====Syntax===
 ===Standards information===
 There are no standards that apply here.
-
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows={{Compatibility Table Desktop Row
+|Chrome_supported=Yes
+|Chrome_version=4
+|Chrome_prefixed_supported=Unknown
+|Chrome_prefixed_version=
+|Firefox_supported=Yes
+|Firefox_version=3
+|Firefox_prefixed_supported=Unknown
+|Firefox_prefixed_version=
+|Internet_explorer_supported=Yes
+|Internet_explorer_version=5.5
+|Internet_explorer_prefixed_supported=Unknown
+|Internet_explorer_prefixed_version=
+|Opera_supported=Yes
+|Opera_version=10.10
+|Opera_prefixed_supported=Unknown
+|Opera_prefixed_version=
+|Safari_supported=Yes
+|Safari_version=4
+|Safari_prefixed_supported=Unknown
+|Safari_prefixed_version=
+}}
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 *<code>[[html/elements/a|a]]</code>
 *<code>abbr</code>
 *<code>[[html/elements/acronym|acronym]]</code>
@@ -260,10 +286,11 @@ There are no standards that apply here.
 *<code>xmp</code>
 *<code>HTMLDOMRange</code>
 }}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
