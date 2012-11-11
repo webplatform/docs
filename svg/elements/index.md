@@ -112,8 +112,8 @@ This is the list of SVG Elements sorted by topics.
 
 == Text content elements ==
 
-* [[svg/elements/altglyph|altglyph]]
-* [[svg/elements/textpath|textpath]]
+* [[svg/elements/altGlyph|altGlyph]]
+* [[svg/elements/textPath|textPath]]
 * [[svg/elements/text|text]]
 * [[svg/elements/tref|tref]]
 * [[svg/elements/tspan|tspan]]
