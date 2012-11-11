@@ -1,11 +1,11 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Gets the computed style declaration of an element.}}
+{{Summary_Section|Gets the final used values of all the CSS properties of an element.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=element
@@ -15,9 +15,8 @@
 }}{{Method Parameter
 |Name=pseudoElementName
 |Data type=String
-|Description=The name of a CSS pseudo-element or a null value.
-Optional in WebKit based browsers.
-|Optional=No
+|Description=The name of a CSS pseudo-element or a null value ("::before" or "::after"). Optional in WebKit based browsers.
+|Optional=Yes
 }}
 |Method_applies_to=dom/window
 |Example_object_name=window
@@ -44,14 +43,13 @@ The settings in the returned object account for all applicable style rules and r
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
 }}
 {{See_Also_Section
 |Topic_clusters=CSSOM
-|Manual_sections====Related pages (MSDN)===
-*<code>[[dom/window|window]]</code>
 }}
 {{Topics|DOM}}
 {{External_Attribution
