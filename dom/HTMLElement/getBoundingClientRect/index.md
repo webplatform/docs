@@ -19,6 +19,8 @@ The returned value is a ClientRect object which is the union of the rectangles r
   '''left''': Number
   '''right''': Number
   '''bottom''': Number
+  '''width''': Number
+  '''height''': Number
 }}
 {{Examples_Section
 |Not_required=No
