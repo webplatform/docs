@@ -21,14 +21,60 @@
 |Method_applies_to=dom/window
 |Example_object_name=window
 |Return_value_name=declaration
-|Javascript_data_type=DOM Node
+|Javascript_data_type=CSSStyleDeclaration
 |Return_value_description=A [[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|'''CSSStyleDeclaration''']] object that contains the CSS settings applied to the desired object.
 
 The settings in the returned object account for all applicable style rules and represent the final values for the various CSS properties applied to the specified object.
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Code=var elem1 = document.getElementById("elemId");
+var style = window.getComputedStyle(elem1, null);
+ 
+// this is equivalent:
+// var style = document.defaultView.getComputedStyle(elem1, null);
+}}{{Single Example
+|Language=HTML
+|Code=<style>
+ #elem-container{
+   position: absolute;
+   left:     100px;
+   top:      200px;
+   height:   100px;
+ }
+</style>
+ 
+<div id="elem-container">dummy</div>
+<div id="output"></div>  
+ 
+<script>
+  function getTheStyle(){
+    var elem = document.getElementById("elem-container");
+    var theCSSprop = window.getComputedStyle(elem,null).getPropertyValue("height");
+    document.getElementById("output").innerHTML = theCSSprop;
+   }
+  getTheStyle();
+</script>
+}}{{Single Example
+|Language=HTML
+|Description=getComputedStyle can pull style info off of pseudo-elements (for example, ::after, ::before, ::marker, ::line-marker).
+|Code=<style>
+ h3:after {
+   content: ' rocks!';
+ }
+</style>
+ 
+<h3>generated content</h3> 
+ 
+<script>
+  var h3       = document.querySelector('h3'), 
+      result   = getComputedStyle(h3, ':after').content;
+ 
+  console.log('the generated content is: ', result); // returns ' rocks!'
+</script>
+}}
 }}
 {{Notes_Section
 |Notes=When the ''pseudoElementName'' is set to a value other than null, the value is interpreted as a CSS pseudo-element with respect to the object specified in the ''element'' parameter.
@@ -54,7 +100,7 @@ The settings in the returned object account for all applicable style rules and r
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
+|Sources=MDN, MSDN
+|MDN_link=https://developer.mozilla.org/en-US/docs/DOM/window.getComputedStyle
 |HTML5Rocks_link=
 }}
