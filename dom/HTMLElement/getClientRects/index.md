@@ -10,7 +10,7 @@
 |Parameters=
 |Method_applies_to=dom/HTMLElement
 |Example_object_name=element
-|Return_value_name=rect
+|Return_value_name=rectList
 |Javascript_data_type=ClientRectList
 |Return_value_description='''ClientRectList'''
 
