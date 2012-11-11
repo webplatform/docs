@@ -29,7 +29,10 @@ of the viewport of the outermost frameset */
 }}
 }}
 {{Notes_Section
-|Notes=The following figure shows the difference between outerHeight and innerHeight.
+|Notes='''Graphical example'''
+The following figure shows the difference between outerHeight and innerHeight.
+
+[[File:FirefoxInnerVsOuterHeight2.png|200px|thumb|left|screenshot showing difference between innerHeight and outerHeight]]
 }}
 {{Related_Specifications_Section
 |Specifications=
