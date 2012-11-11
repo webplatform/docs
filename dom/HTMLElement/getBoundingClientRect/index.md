@@ -5,16 +5,16 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Returns a TextRectangle object that encloses a group of text rectangles. 
-The returned value is a TextRectangle object which is the union of the rectangles returned by getClientRects() for the element, i.e., the CSS border-boxes associated with the element. It contains read-only left, top, right and bottom properties describing the border-box, in pixels, with the top-left relative to the top-left of the viewport.
+{{Summary_Section|Returns a ClientRect object that encloses a group of text rectangles. 
+The returned value is a ClientRect object which is the union of the rectangles returned by getClientRects() for the element, i.e., the CSS border-boxes associated with the element. It contains read-only left, top, right and bottom properties describing the border-box, in pixels, with the top-left relative to the top-left of the viewport.
 }}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=dom/HTMLElement
 |Example_object_name=object
 |Return_value_name=rect
-|Javascript_data_type=DOM Node
-|Return_value_description='''TextRectangle'''
+|Javascript_data_type=ClientRect
+|Return_value_description='''ClientRect'''
   '''top''': Number
   '''left''': Number
   '''right''': Number
