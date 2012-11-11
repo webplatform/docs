@@ -1,9 +1,11 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=dom/HTMLElement
@@ -21,17 +23,12 @@
 '''right'''
 
 '''bottom'''
-
-
 }}
-{{Topics|DOM}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Description=This example uses the '''getClientRects''' and [[dom/methods/getBoundingClientRect|'''getBoundingClientRect''']] methods to highlight text lines in an object.
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/rectselection.htm
-|Code=
-&lt;HEAD&gt;
+|Code=&lt;HEAD&gt;
 &lt;SCRIPT&gt;
 var rcts;
 var keyCount{{=}}0;
@@ -83,12 +80,10 @@ ID{{=}}"idYellow"&gt;&lt;/DIV&gt;
 z-index:-1; background-color:beige; display:none"
 ID{{=}}"idBeige"&gt;&lt;/DIV&gt;
 &lt;/BODY&gt;
-}}
-{{Single_Example
+|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/rectselection.htm
+}}{{Single Example
 |Description=This example uses the [[dom/TextRectangle|'''TextRectangle''']] collection with the '''getClientRects''' and [[dom/methods/getBoundingClientRect|'''getBoundingClientRect''']] methods to determine the position of the text rectangle within an element. In each line, the left-justified text does not extend to the right margin of the box that contains the text. Using the collection, you can determine the coordinates of the rectangle that surrounds only the content in each line. The example code reads these rectangle coordinates and instructs the ball to move over the text only, and not to the end of the line.
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/rectdemo.htm
-|Code=
-&lt;HEAD&gt;
+|Code=&lt;HEAD&gt;
 &lt;SCRIPT&gt;
 var timid {{=}} -1;
 var timoID_2 {{=}} -1;
@@ -156,111 +151,32 @@ function End() {
     BORDER{{=}}0 HEIGHT{{=}}16 WIDTH{{=}}16&gt;
 &lt;/DIV&gt;
 &lt;/BODY&gt;
-}}}}
+|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/rectdemo.htm
+}}
+}}
 {{Notes_Section
-|Import_Notes=
-===Syntax===
+|Import_Notes====Syntax===
 ===Standards information===
 There are no standards that apply here.
-
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
-*<code>[[html/elements/a|a]]</code>
-*<code>abbr</code>
-*<code>[[html/elements/acronym|acronym]]</code>
-*<code>address</code>
-*<code>applet</code>
-*<code>area</code>
-*<code>b</code>
-*<code>base</code>
-*<code>baseFont</code>
-*<code>big</code>
-*<code>blockQuote</code>
-*<code>body</code>
-*<code>button</code>
-*<code>caption</code>
-*<code>center</code>
-*<code>cite</code>
-*<code>code</code>
-*<code>col</code>
-*<code>colGroup</code>
-*<code>comment</code>
-*<code>custom</code>
-*<code>dd</code>
-*<code>del</code>
-*<code>dfn</code>
-*<code>dir</code>
-*<code>div</code>
-*<code>dl</code>
-*<code>dt</code>
-*<code>em</code>
-*<code>embed</code>
-*<code>fieldSet</code>
-*<code>font</code>
-*<code>form</code>
-*<code>hn</code>
-*<code>i</code>
-*<code>img</code>
-*<code>input type{{=}}button</code>
-*<code>input type{{=}}checkbox</code>
-*<code>input type{{=}}file</code>
-*<code>input type{{=}}image</code>
-*<code>input type{{=}}password</code>
-*<code>input type{{=}}radio</code>
-*<code>input type{{=}}reset</code>
-*<code>input type{{=}}submit</code>
-*<code>input type{{=}}text</code>
-*<code>ins</code>
-*<code>isIndex</code>
-*<code>kbd</code>
-*<code>label</code>
-*<code>legend</code>
-*<code>li</code>
-*<code>link</code>
-*<code>listing</code>
-*<code>map</code>
-*<code>marquee</code>
-*<code>menu</code>
-*<code>[[html/elements/nextID|nextID]]</code>
-*<code>noBR</code>
-*<code>object</code>
-*<code>ol</code>
-*<code>option</code>
-*<code>p</code>
-*<code>pre</code>
-*<code>q</code>
-*<code>s</code>
-*<code>samp</code>
-*<code>select</code>
-*<code>small</code>
-*<code>span</code>
-*<code>strike</code>
-*<code>strong</code>
-*<code>sub</code>
-*<code>sup</code>
-*<code>[[html/elements/table|table]]</code>
-*<code>tBody</code>
-*<code>td</code>
-*<code>textArea</code>
-*<code>[[dom/traversal/TextRange|TextRange]]</code>
-*<code>tFoot</code>
-*<code>th</code>
-*<code>tHead</code>
-*<code>tr</code>
-*<code>tt</code>
-*<code>u</code>
-*<code>ul</code>
-*<code>var</code>
-*<code>xmp</code>
-*<code>HTMLDOMRange</code>
-*<code>[[dom/TextRectangle|TextRectangle]]</code>
+|Topic_clusters=CSS Layout, CSSOM
 }}
+{{Topics|CSS, DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
