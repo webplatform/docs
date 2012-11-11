@@ -3,7 +3,7 @@
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Returns a TextRectangle object that encloses a group of text rectangles. 
 The returned value is a TextRectangle object which is the union of the rectangles returned by getClientRects() for the element, i.e., the CSS border-boxes associated with the element. It contains read-only left, top, right and bottom properties describing the border-box, in pixels, with the top-left relative to the top-left of the viewport.
@@ -160,7 +160,11 @@ The amount of scrolling that has been done of the viewport area (or any other sc
 In Microsoft Internet Explorer 5, the window's upper-left is at 2,2 (pixels) with respect to the true client.
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSSOM View Module
+|URL=http://www.w3.org/TR/cssom-view/#the-getclientrects-and-getboundingclientrect-methods
+|Status=Working Draft
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
