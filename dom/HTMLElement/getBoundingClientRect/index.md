@@ -7,7 +7,6 @@
 {{API_Name}}
 {{Summary_Section|Returns a TextRectangle object that encloses a group of text rectangles. 
 The returned value is a TextRectangle object which is the union of the rectangles returned by getClientRects() for the element, i.e., the CSS border-boxes associated with the element. It contains read-only left, top, right and bottom properties describing the border-box, in pixels, with the top-left relative to the top-left of the viewport.
-
 }}
 {{API_Object_Method
 |Parameters=
@@ -160,12 +159,11 @@ function End() {
 }}
 }}
 {{Notes_Section
-|Notes====Remarks===
-This method retrieves an object that exposes the left, top, right, and bottom coordinates of the union of rectangles relative to the client's upper-left corner.
+|Usage=Essentially, the browser calculates all rectangles (see below getClientRects()), and getBoundingClientRect() returns the lowest (top, left) or highest (bottom, right) values found.
+
+The amount of scrolling that has been done of the viewport area (or any other scrollable element) is taken into account when computing the bounding rectangle. This means that the top and left property change their values as soon as the scrolling position changes (so their values are relative to the viewport and not absolute). If this is not the desired behaviour just add the current scrolling position to the top and left property (via window.scrollX and window.scrollY) to get constant values independent from the current scrolling position.
+
 In Microsoft Internet Explorer 5, the window's upper-left is at 2,2 (pixels) with respect to the true client.
-|Import_Notes====Syntax===
-===Standards information===
-There are no standards that apply here.
 }}
 {{Related_Specifications_Section
 |Specifications=
