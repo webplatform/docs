@@ -127,7 +127,6 @@ This is the list of SVG Elements sorted by topics.
 * [[svg/elements/clippath|clippath]]
 * [[svg/elements/color-profile|color-profile]]
 * [[svg/elements/cursor|cursor]]
-* [[svg/elements/filter|filter]]
 * [[svg/elements/font|font]]
 * [[svg/elements/font-face|font-face]]
 * [[svg/elements/font-face-format|font-face-format]]
