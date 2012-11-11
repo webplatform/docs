@@ -197,97 +197,9 @@ In Microsoft Internet Explorer 5, the window's upper-left is at 2,2 (pixels) wi
 |Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[html/elements/a|a]]</code>
-*<code>abbr</code>
-*<code>[[html/elements/acronym|acronym]]</code>
-*<code>address</code>
-*<code>applet</code>
-*<code>area</code>
-*<code>b</code>
-*<code>base</code>
-*<code>baseFont</code>
-*<code>big</code>
-*<code>blockQuote</code>
-*<code>body</code>
-*<code>button</code>
-*<code>caption</code>
-*<code>center</code>
-*<code>cite</code>
-*<code>code</code>
-*<code>col</code>
-*<code>colGroup</code>
-*<code>comment</code>
-*<code>custom</code>
-*<code>dd</code>
-*<code>del</code>
-*<code>dfn</code>
-*<code>dir</code>
-*<code>div</code>
-*<code>dl</code>
-*<code>dt</code>
-*<code>em</code>
-*<code>embed</code>
-*<code>fieldSet</code>
-*<code>font</code>
-*<code>form</code>
-*<code>hn</code>
-*<code>i</code>
-*<code>img</code>
-*<code>input type{{=}}button</code>
-*<code>input type{{=}}checkbox</code>
-*<code>input type{{=}}file</code>
-*<code>input type{{=}}image</code>
-*<code>input type{{=}}password</code>
-*<code>input type{{=}}radio</code>
-*<code>input type{{=}}reset</code>
-*<code>input type{{=}}submit</code>
-*<code>input type{{=}}text</code>
-*<code>ins</code>
-*<code>isIndex</code>
-*<code>kbd</code>
-*<code>label</code>
-*<code>legend</code>
-*<code>li</code>
-*<code>link</code>
-*<code>listing</code>
-*<code>map</code>
-*<code>marquee</code>
-*<code>menu</code>
-*<code>[[html/elements/nextID|nextID]]</code>
-*<code>noBR</code>
-*<code>object</code>
-*<code>ol</code>
-*<code>option</code>
-*<code>p</code>
-*<code>pre</code>
-*<code>q</code>
-*<code>s</code>
-*<code>samp</code>
-*<code>select</code>
-*<code>small</code>
-*<code>span</code>
-*<code>strike</code>
-*<code>strong</code>
-*<code>sub</code>
-*<code>sup</code>
-*<code>[[html/elements/table|table]]</code>
-*<code>tBody</code>
-*<code>td</code>
-*<code>textArea</code>
-*<code>[[dom/traversal/TextRange|TextRange]]</code>
-*<code>tFoot</code>
-*<code>th</code>
-*<code>tHead</code>
-*<code>tr</code>
-*<code>tt</code>
-*<code>u</code>
-*<code>ul</code>
-*<code>var</code>
-*<code>xmp</code>
-*<code>HTMLDOMRange</code>
+|Topic_clusters=CSS Layout, Box Model, Combinators
 }}
-{{Topics|DOM}}
+{{Topics|CSS, DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MDN, MSDN
