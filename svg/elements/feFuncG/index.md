@@ -1,8 +1,7 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Deletion Candidate, Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Editorial notes=This page should be retitled to feFuncG - to match the other pages for feFuncA, feFuncR and feFuncB.
 }}
 {{Standardization_Status}}
 {{API_Name}}
