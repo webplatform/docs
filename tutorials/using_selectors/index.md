@@ -17,7 +17,7 @@ In CSS terminology, this entire line is a ''rule''. This rule starts with <code>
 * The keyword <code>color</code> is a ''property'', and <code>red</code> is a ''value''.
 * The semicolon after the property-value pair separates it from other property-value pairs in the same declaration.
 
-This guide refers to a selector like <code>strong</code> as a ''tag'' selector, and you'll also see it commonly referred to as an ''element'' selector. The CSS Specification refers to it as a ''type'' selector.
+This guide refers to a selector like <code>strong</code> as a ''tag'' selector, and you will also see it commonly referred to as an ''element'' selector. The CSS Specification refers to it as a ''type'' selector.
  
 In addition to tag names, you can use attribute values in selectors. This allows your rules to be more specific. Two attributes have special status for CSS. They are [[html/attributes/class|class]] and [[html/attributes/id|id]].
 
@@ -25,7 +25,7 @@ In addition to tag names, you can use attribute values in selectors. This allows
  
 Use the [[html/attributes/class|class]] attribute in an element to assign the element to a named class. It is up to you what name you choose for the class. Multiple elements in a document can have the same class value.
  
-In your stylesheet, type a full stop (period) before the class name when you use it in a selector.
+In your style sheet, type a full stop (period) before the class name when you use it in a selector.
  
 === ID selectors ===
  
@@ -41,7 +41,7 @@ This HTML tag has both a <code>class</code> attribute and an <code>id</code> att
  
 The '''id''' value, <code>principal</code>, must be unique in the document, but other tags in the document can have the same '''class''' name, <code>key</code>.
  
-In a CSS stylesheet, this rule makes all the elements with class <code>key</code> green. (They might not all be [[html/elements/p]] elements.)
+In a CSS style sheet, this rule makes all the elements with class <code>key</code> green. (They might not all be [[html/elements/p]] elements.)
  
 <syntaxhighlight lang="css">.key {
   color: green;
@@ -62,9 +62,9 @@ For example, the selector <code>.key</code> selects all elements that have the c
  
 You are not restricted to the two special attributes, <code>class</code> and <code>id</code>. You can specify other attributes by using square brackets. For example, the selector <code>[type='button']</code> selects all elements that have a <code>type</code> attribute with the value <code>button</code>.
   
-If the stylesheet has conflicting rules and they are equally specific, then CSS gives priority to the rule that is later in the stylesheet.
+If the style sheet has conflicting rules and they are equally specific, then CSS gives priority to the rule that is later in the style sheet.
  
-When you have a problem with conflicting rules, try to resolve it by making one of the rules more specific, so that it has priority. If you cannot do that, try moving one of the rules nearer the end of the stylesheet so that it has priority.
+When you have a problem with conflicting rules, try to resolve it by making one of the rules more specific, so that it has priority. If you cannot do that, try moving one of the rules nearer the end of the style sheet so that it has priority.
  
 === Pseudo-class selectors ===
  
@@ -144,7 +144,7 @@ In the usual way, if you make a selector more specific, then you increase its pr
  
 If you use these techniques, you avoid the need to specify <code>class</code> or <code>id</code> attributes on so many tags in your document. Instead, CSS does the work.
  
-In large designs where speed is important, you can make your stylesheets more efficient by avoiding complex rules that depend on relationships between elements.
+In large designs where speed is important, you can make your style sheets more efficient by avoiding complex rules that depend on relationships between elements.
  
 For more examples about tables, see [[Tables]] in the CSS Reference page.
 
@@ -189,17 +189,17 @@ For more examples about tables, see [[Tables]] in the CSS Reference page.
 
 [[File:usingclassandid_result.jpg]]
 
-You can try rearranging the lines in your CSS file to show that the order has no effect. The class selectors <code>.carrot</code> and <code>.spinach</code> have priority over the tag selector <code>strong</code>.   The ID selector <code>#first</code> has priority over the class and tag selectors.
+You can try rearranging the lines in your CSS file to show that the order has no effect. The class selectors <code>.carrot</code> and <code>.spinach</code> have priority over the tag selector <code>strong</code>. The ID selector <code>#first</code> has priority over the class and tag selectors.
   
 === Exercise questions === 
 
-* Without changing your HTML file, add a single rule to your CSS file that keeps all the initial letters that same colour as they are now, but makes all the other text in the second paragraph blue:
-* Now change the rule you have just added (without changing anything else), to make the first paragraph blue too:
+* Without changing the HTML file, add a single rule to your CSS file that leaves the initial letters the same color as they are now, but changes all the other text in the second paragraph to blue.
+* Change the rule you just added (without changing anything else), to set the first paragraph to blue.
 
 == Action: Using pseudo-classes selectors ==
  
 <ol>
-<li><p>Create an HTML like the following:</p>
+<li><p>Create an HTML page with the following code:</p>
 
 <syntaxhighlight lang="html5"><!doctype html>
  <html>
@@ -238,7 +238,7 @@ You can try rearranging the lines in your CSS file to show that the order has no
 
 == Action: Using selectors based on relationships and pseudo-classes ==
  
-With selectors based on relationships and pseudo-classes you can create complex cascade algorithms. This is a common technique used, for example, in order to create '''pure-CSS drop down menus''' (that is only CSS, without using [[javascript|JavaScript]]). The essence of this technique is the creation of a rule like the following:
+With selectors based on relationships and pseudo-classes you can create complex cascade algorithms. This is a common technique used, for example, in order to create '''pure CSS drop down menus''' (that is only CSS, without using [[javascript|JavaScript]]). The essence of this technique involves creating a rule like this:
  
 <syntaxhighlight lang="css">div.menu-bar ul ul {
   display: none;
@@ -278,11 +278,11 @@ to be applied to an HTML structure like the following:
   </ul>
 </div></syntaxhighlight>
  
-See our complete [[CSS-based drop down menu example]] for a possible cue.
 }}
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
