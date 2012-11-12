@@ -5,7 +5,15 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Represents content diverted from one part of the document using the [[css/properties/flow-into|'''flow-into''']] property, and placed into region elements using [[css/properties/flow-from|'''flow-from''']].}}
+{{Summary_Section|Represents content to flow among various block ''region'' elements.
+
+A '''NamedFlow''' object is created when any content element uses the
+[[css/properties/flow-into|'''flow-into''']] CSS property, or when any
+layout element uses [[css/properties/flow-from|'''flow-from''']].
+(The null object is still available if those	properties are later
+removed.)
+
+}}
 {{API_Object}}
 {{Examples_Section
 |Not_required=No
