@@ -43,12 +43,10 @@ This is the list of SVG Elements sorted by topics.
 * [[svg/elements/metadata|metadata]]
 * [[svg/elements/title|title]]
 
-== Filter elements ==
-
+== Filter Elements ==
 * [[svg/elements/filter|filter]]
 
-=== Filter Primitives ===
-
+=== Filter Primitive Elements ===
 * [[svg/elements/feBlend|feBlend]]
 * [[svg/elements/feColorMatrix|feColorMatrix]]
 * [[svg/elements/feComponentTransfer|feComponentTransfer]]
