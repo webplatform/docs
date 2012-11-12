@@ -3,9 +3,12 @@
 |High-level issues=Stub
 |Content=Incomplete, Examples Needed
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Contains content used to flow text among various block region elements}}
+{{Summary_Section|Represents content diverted from one part of the document using the
+[[flow-into]] property, and placed into region elements using
+[[flow-into]].
+}}
 {{API_Object}}
 {{Examples_Section
 |Not_required=No
@@ -14,7 +17,7 @@
 {{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=CSS Regions Module Level 3
+|Name=CSS Regions Module Level 3 
 |URL=http://dev.w3.org/csswg/css3-regions/
 }}
 }}
