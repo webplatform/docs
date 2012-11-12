@@ -80,12 +80,6 @@ This is the list of SVG Elements sorted by topics.
 * [[svg/elements/text|text]]
 * [[svg/elements/use|use]]
 
-== Light source elements ==
-
-* [[svg/elements/feDistantLight|feDistantLight]]
-* [[svg/elements/fePointLight|fePointLight]]
-* [[svg/elements/feSpotLight|feSpotLight]]
-
 == Shape elements ==
 
 * [[svg/elements/circle|circle]]
