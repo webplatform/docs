@@ -57,7 +57,7 @@ This is the list of SVG Elements sorted by topics.
 * [[svg/elements/feComposite|feComposite]]
 * [[svg/elements/feConvolveMatrix|feConvolveMatrix]]
 * [[svg/elements/feDiffuseLighting|feDiffuseLighting]]
-* [[svg/elements/feDisplacementmap|feDisplacementMap]]
+* [[svg/elements/feDisplacementMap|feDisplacementMap]]
 * [[svg/elements/feFlood|feFlood]]
 * [[svg/elements/feGaussianBlur|feGaussianBlur]]
 * [[svg/elements/feImage|feImage]]
