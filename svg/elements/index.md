@@ -71,8 +71,8 @@ This is the list of SVG Elements sorted by topics.
 
 == Gradient elements ==
 
-* [[svg/elements/lineargradient|lineargradient]]
-* [[svg/elements/radialgradient|radialgradient]]
+* [[svg/elements/linearGradient|linearGradient]]
+* [[svg/elements/radialGradient|radialGradient]]
 
 == Graphics elements ==
 
