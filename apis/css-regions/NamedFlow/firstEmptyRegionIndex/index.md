@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|index of first empty element within a region chain}}
+{{Summary_Section|Returns the index of the first empty element within a region chain.}}
 {{API_Object_Property
 |Property_applies_to=css/cssom/NamedFlow
 |Read_only=Yes
