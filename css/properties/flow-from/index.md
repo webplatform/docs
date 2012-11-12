@@ -36,7 +36,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=CSS Layout, CSSOM, Regions
+|Topic_clusters=Regions
 }}
 {{Topics|CSS}}
 {{External_Attribution
