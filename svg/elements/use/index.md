@@ -1,24 +1,22 @@
+{{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|High-level issues=Stub, Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
+{{Summary_Section}}
 {{Markup_Element
 |DOM_interface=svg/objects/SVGElement
 }}
-{{Topics|SVG}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Description=In the following code example, the '''use''' element is used to create three instances of a rectange defined in a [[svg/elements/defs|'''defs''']] tag.
-Copy this sample to a text file and save it with the .html file extension. Run it in Internet Explorer 9 to see three instances of a rectangle.
+Copy this sample to a text file and save it with the .html file extension. Run it in a browser that supports inline SVG to see three instances of a rectangle.
 
 It should look like this:
-|LiveURL=
-|Code=
-
-&lt;!DOCTYPE html&gt;
+|Code=&lt;!DOCTYPE html&gt;
 &lt;html&gt;
     
     &lt;head&gt;
@@ -34,15 +32,14 @@ It should look like this:
             &lt;use x{{=}}"100" y{{=}}"100" fill{{=}}"blue" xlink:href{{=}}"#myRect" /&gt;
         &lt;/svg&gt;
     &lt;/body&gt;
-&lt;/html&gt;	
-}}}}
+&lt;/html&gt;
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 '''Note'''  In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
 For more information, see the [http://go.microsoft.com/fwlink/p/?LinkID{{=}}190918 SVG specification].
-|Import_Notes=
-===Standards information===
+|Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}204733 Scalable Vector Graphics: Document Structure], Section 5.11.8
 
 
@@ -172,12 +169,23 @@ The '''SVGUseElement''' object has these properties.
 |Gets or sets the y-coordinate value.
 |}
  
-
 }}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section}}
+{{Topics|SVG}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
