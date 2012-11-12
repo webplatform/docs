@@ -51,7 +51,7 @@ This is the list of SVG Elements sorted by topics.
 * [[svg/elements/feColorMatrix|feColorMatrix]]
 * [[svg/elements/feComponentTransfer|feComponentTransfer]]
 ** [[svg/elements/feFuncR|feFuncR]]
-** [[svg/elements/feFuncG|feFuncGElement]]
+** [[svg/elements/feFuncGElement|feFuncG]]
 ** [[svg/elements/feFuncB|feFuncB]]
 ** [[svg/elements/feFuncA|feFuncA]]
 * [[svg/elements/feComposite|feComposite]]
