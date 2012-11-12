@@ -82,9 +82,9 @@ This is the list of SVG Elements sorted by topics.
 
 == Light source elements ==
 
-* [[svg/elements/fedistantlight|fedistantlight]]
-* [[svg/elements/fepointlight|fepointlight]]
-* [[svg/elements/fespotlight|fespotlight]]
+* [[svg/elements/feDistantLight|feDistantLight]]
+* [[svg/elements/fePointLight|fePointLight]]
+* [[svg/elements/feSpotLight|feSpotLight]]
 
 == Shape elements ==
 
