@@ -65,7 +65,7 @@ This is the list of SVG Elements sorted by topics.
 === Filter light source elements ===
 * [[svg/elements/feDistantLight|feDistantLight]]
 * [[svg/elements/fePointLight|fePointLight]]
-* [[svg/elements/feSpotLight|feSpotLight]]
+* [[svg/elements/feSpotLight|feSpotlight]]
 
 == Gradient elements ==
 
