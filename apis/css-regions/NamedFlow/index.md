@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Represents content diverted from one part of the document using the [[css/properties/flow-into]] property, and placed into region elements using [[css/properties/flow-from]].}}
+{{Summary_Section|Represents content diverted from one part of the document using the [[css/properties/flow-into|flow-into]] property, and placed into region elements using [[css/properties/flow-from|flow-from]].}}
 {{API_Object}}
 {{Examples_Section
 |Not_required=No
