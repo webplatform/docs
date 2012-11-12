@@ -45,22 +45,22 @@ This is the list of SVG Elements sorted by topics.
 
 == Filter primitive elements ==
 
-* [[svg/elements/feBlend|feblend]]
-* [[svg/elements/feColorMatrix|fecolormatrix]]
-* [[svg/elements/fecomponenttransfer|fecomponenttransfer]]
-* [[svg/elements/fecomposite|fecomposite]]
-* [[svg/elements/feconvolvematrix|feconvolvematrix]]
-* [[svg/elements/fediffuselighting|fediffuselighting]]
-* [[svg/elements/fedisplacementmap|fedisplacementmap]]
-* [[svg/elements/feflood|feflood]]
-* [[svg/elements/fegaussianblur|fegaussianblur]]
-* [[svg/elements/feimage|feimage]]
-* [[svg/elements/femerge|femerge]]
-* [[svg/elements/femorphology|femorphology]]
-* [[svg/elements/feoffset|feoffset]]
-* [[svg/elements/fespecularlighting|fespecularlighting]]
-* [[svg/elements/fetile|fetile]]
-* [[svg/elements/feturbulence|feturbulence]]
+* [[svg/elements/feBlend|feBlend]]
+* [[svg/elements/feColorMatrix|feColorMatrix]]
+* [[svg/elements/feComponentTransfer|feComponentTransfer]]
+* [[svg/elements/feComposite|feComposite]]
+* [[svg/elements/feConvolveMatrix|feConvolveMatrix]]
+* [[svg/elements/feDiffuseLighting|feDiffuseLighting]]
+* [[svg/elements/feDisplacementmap|feDisplacementMap]]
+* [[svg/elements/feFlood|feFlood]]
+* [[svg/elements/feGaussianBlur|feGaussianBlur]]
+* [[svg/elements/feImage|feImage]]
+* [[svg/elements/feMerge|feMerge]]
+* [[svg/elements/feMorphology|feMorphology]]
+* [[svg/elements/feOffset|feOffset]]
+* [[svg/elements/feSpecularLighting|feSpecularLighting]]
+* [[svg/elements/feTile|feTile]]
+* [[svg/elements/feTurbulence|feTurbulence]]
 
 == Gradient elements ==
 
