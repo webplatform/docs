@@ -62,6 +62,11 @@ This is the list of SVG Elements sorted by topics.
 * [[svg/elements/feTile|feTile]]
 * [[svg/elements/feTurbulence|feTurbulence]]
 
+=== Filter light source elements ===
+* [[svg/elements/feDistantLight|feDistantLight]]
+* [[svg/elements/fePointLight|fePointLight]]
+* [[svg/elements/feSpotLight|feSpotLight]]
+
 == Gradient elements ==
 
 * [[svg/elements/lineargradient|lineargradient]]
