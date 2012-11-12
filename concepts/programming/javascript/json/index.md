@@ -19,7 +19,7 @@ JSON supports a number of data types common to many programming languages, but a
 Arbitrary whitespace is also allowed outside of values for formatting purposes.
 
 ===Example Object===
-  {name : "Robert", prefix : "Mr", age: 23, programmer: true}
+  {name: "Robert", prefix: "Mr", age: 23, programmer: true}
 
 ==Using JSON==
 ===JavaScript===
@@ -29,12 +29,12 @@ However, you should never parse JSON by calling the <code>eval</code> function. 
 
 ===Example Usage===
    //This is a JavaScript object with 4 key.value pairs
-   var obj = {name : "John Doe", prefix : "Mr", age: 23, programmer: true};
+   var obj = {name: "John Doe", prefix: "Mr", age: 23, programmer: true};
    
    //We serialize the object like so.
    var objSerialized = JSON.stringify(obj);
    
-   //objSerialized now looks like: "{"name":"Robert","prefix":"Mr","age":23,"programmer":true}"
+   //objSerialized now looks like: '{"name":"Robert","prefix":"Mr","age":23,"programmer":true}'
    //We can now de-serialize the string using the JSON.parse method.
    
    var objDeserialized = JSON.parse(objSerialized);
@@ -54,9 +54,9 @@ JSON parsers also exist for other languages. However, because not all of them sh
 |Specifications=
 }}
 {{See_Also_Section
-|External_links=[http://www.json.org/ JSON.org]
-[https://developer.mozilla.org/en-US/docs/JSON JSON on Mozilla Developer Network]
-[http://en.wikipedia.org/wiki/JSON JSON on Wikipedia]
+|External_links=* [http://www.json.org/ JSON.org]
+* [https://developer.mozilla.org/en-US/docs/JSON Mozilla Developer Network]
+* [http://en.wikipedia.org/wiki/JSON Wikipedia]
 }}
 {{Topics|JavaScript, Web Services}}
 {{External_Attribution
