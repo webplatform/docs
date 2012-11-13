@@ -19,7 +19,18 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
-|Code=// 2do
+|Code=deleteEmptyRegions('mainFlow');
+
+function deleteEmptyRegions(flowName) {
+    var flow = document.getNamedFlows()[flowName];
+    var index = flow.firstEmptyRegionIndex;
+    var regions = flow.getRegions();
+    if (index == -1) return(false); // no empty regions
+    for (var i = index; i < regions.length; i++) {
+        regions[i].parentNode.removeChild(regions[i]);
+    }
+}
+
 }}
 }}
 {{Notes_Section
@@ -28,7 +39,6 @@ within the flow's [[css/cssom/NamedFlow/getRegions|getRegions]] whose
 [[css/cssom/Region/regionOverset|regionOverset]] is '''empty'''.  If
 all are set to '''fit''' or '''overset''', or if no regions are
 associated with the flow, the '''firstEmptyRegionIndex''' returns -1.
-
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
