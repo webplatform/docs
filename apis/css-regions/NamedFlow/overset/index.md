@@ -5,12 +5,14 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|indicates whether a flow's contents exceed available space within a region chain}}
+{{Summary_Section|Indicates whether a flow's content exceeds available space within a region chain, or if there is no available region chain in which to flow content.}}
 {{API_Object_Property
 |Property_applies_to=css/cssom/NamedFlow
 |Read_only=Yes
+|Example_object_name=flow
+|Return_value_name=exceedsRegions
 |Javascript_data_type=Boolean
-|Return_value_description=indicates whether a flow's contents exceed available space within a region chain
+|Return_value_description=Indicates whether a flow's content exceeds available space within a region chain, or if there is no available region chain in which to flow content.
 }}
 {{Examples_Section
 |Not_required=No
@@ -35,7 +37,6 @@ function appendRegion(flowName) {
 }
 
 appendRegion('mainFlow');
-
 }}
 }}
 {{Notes_Section}}
