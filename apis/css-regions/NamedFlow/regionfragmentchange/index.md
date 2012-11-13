@@ -6,7 +6,10 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Fires on the '''NamedFlow''' object when there is a change in how content flows through a region chain.}}
+{{Summary_Section|Fires on the 
+[[css/cssom/NamedFlow|'''NamedFlow''']]
+object when there is a change in how content flows through a region chain.
+}}
 {{Event
 |Event_applies_to=css/cssom/NamedFlow
 |Content=Fires on the 
@@ -23,7 +26,21 @@ object when there is a change in how content flows through a region chain.
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
-|Code=// 2DO
+|Code=document.getNamedFlows()['main'].addEventListener('regionlayoutupdate', modifyFlow);
+
+// dispatches functions to add/delete regions based on changes to how
+// content flows through a region chain:
+
+function modifyFlow(e) {
+    var flow = e.target;
+    if (flow.overset) {
+      	appendRegion(flow.name);
+    }
+    else if (flow.firstEmptyRegionIndex !== -1)	{
+        deleteEmptyRegions(flow.name);
+    }
+}
+
 }}
 }}
 {{Notes_Section}}
