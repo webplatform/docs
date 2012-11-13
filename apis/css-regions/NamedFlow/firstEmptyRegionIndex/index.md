@@ -6,33 +6,93 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Returns the index of the first empty element within a region chain.}}
+{{Summary_Section|Returns the integer index of the first empty element within a region chain. Returns -1 if the content fits within the region chain or if it exceeds available space.}}
 {{API_Object_Property
 |Property_applies_to=css/cssom/NamedFlow
 |Read_only=Yes
 |Example_object_name=flow
 |Return_value_name=index
 |Javascript_data_type=Number
-|Return_value_description=index of first empty element within a region chain
+|Return_value_description=Returns the integer index of the first empty element within a region chain. Returns -1 if the content fits within the region chain or if it exceeds available space.
 |Example_value_name=XXX
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Code=// 2do
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Regions Module Level 3
+|URL=http://dev.w3.org/csswg/css3-regions/
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
+|Desktop_rows={{Compatibility Table Desktop Row
+|Chrome_supported=No
+|Chrome_version=
+|Chrome_prefixed_supported=Yes
+|Chrome_prefixed_version=20
+|Firefox_supported=No
+|Firefox_version=
+|Firefox_prefixed_supported=No
+|Firefox_prefixed_version=
+|Internet_explorer_supported=No
+|Internet_explorer_version=
+|Internet_explorer_prefixed_supported=No
+|Internet_explorer_prefixed_version=
+|Opera_supported=No
+|Opera_version=
+|Opera_prefixed_supported=No
+|Opera_prefixed_version=
+|Safari_supported=No
+|Safari_version=
+|Safari_prefixed_supported=Yes
+|Safari_prefixed_version=534
+}}
+|Mobile_rows={{Compatibility Table Mobile Row
+|Android_supported=No
+|Android_version=
+|Android_prefixed_supported=No
+|Android_prefixed_version=
+|Blackberry_supported=No
+|Blackberry_version=
+|Blackberry_prefixed_supported=No
+|Blackberry_prefixed_version=
+|Chrome_mobile_supported=No
+|Chrome_mobile_version=
+|Chrome_mobile_prefixed_supported=No
+|Chrome_mobile_prefixed_version=
+|Firefox_mobile_supported=No
+|Firefox_mobile_version=
+|Firefox_mobile_prefixed_supported=No
+|Firefox_mobile_prefixed_version=
+|IE_mobile_supported=No
+|IE_mobile_version=
+|IE_mobile_prefixed_supported=No
+|IE_mobile_prefixed_version=
+|Opera_mobile_supported=No
+|Opera_mobile_version=
+|Opera_mobile_prefixed_supported=No
+|Opera_mobile_prefixed_version=
+|Opera_mini_supported=No
+|Opera_mini_version=
+|Opera_mini_prefixed_supported=No
+|Opera_mini_prefixed_version=
+|Safari_mobile_supported=No
+|Safari_mobile_version=
+|Safari_mobile_prefixed_supported=No
+|Safari_mobile_prefixed_version=
+}}
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=CSS Layout, Regions
+|Topic_clusters=Regions
 }}
 {{Topics|CSS}}
 {{External_Attribution
