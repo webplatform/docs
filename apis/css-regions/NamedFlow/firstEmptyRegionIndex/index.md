@@ -19,10 +19,10 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
-|Code=deleteEmptyRegions('mainFlow');
+|Code=trimRegions('mainFlow');
 
 // deletes any empty regions from the end of a flow:
-function deleteEmptyRegions(flowName) {
+function trimRegions(flowName) {
     var flow = document.getNamedFlows()[flowName];
     var index = flow.firstEmptyRegionIndex;
     var regions = flow.getRegions();
