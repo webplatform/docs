@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Stub
 |Content=Incomplete, Examples Needed
+|Editorial notes=css/cssom/NamedFlow/firstEmptyRegionIndex
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
@@ -9,8 +10,11 @@
 {{API_Object_Property
 |Property_applies_to=css/cssom/NamedFlow
 |Read_only=Yes
+|Example_object_name=flow
+|Return_value_name=index
 |Javascript_data_type=Number
 |Return_value_description=index of first empty element within a region chain
+|Example_value_name=XXX
 }}
 {{Examples_Section
 |Not_required=No
