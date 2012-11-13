@@ -21,15 +21,17 @@
 |Language=JavaScript
 |Code=deleteEmptyRegions('mainFlow');
 
+// deletes any empty regions from the end of a flow:
 function deleteEmptyRegions(flowName) {
     var flow = document.getNamedFlows()[flowName];
     var index = flow.firstEmptyRegionIndex;
     var regions = flow.getRegions();
-    if (index == -1) return(false); // no empty regions
-    // remove first empty region & all thereafter
+    if (index == -1) return(false); // no empty regions?
+    // remove first empty region & all thereafter:
     for (var i = index; i < regions.length; i++) {
         regions[i].parentNode.removeChild(regions[i]);
     }
+    return(true);
 }
 }}
 }}
