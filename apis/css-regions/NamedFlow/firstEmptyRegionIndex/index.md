@@ -14,7 +14,6 @@
 |Return_value_name=index
 |Javascript_data_type=Number
 |Return_value_description=Returns the integer index of the first empty element within a region chain. Returns -1 if the content fits within the region chain or if it exceeds available space.
-|Example_value_name=XXX
 }}
 {{Examples_Section
 |Not_required=No
@@ -23,7 +22,14 @@
 |Code=// 2do
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=The '''firstEmptyRegionIndex''' is the index of the first region
+within the flow's [[css/cssom/NamedFlow/getRegions|getRegions]] whose
+[[css/cssom/Region/regionOverset|regionOverset]] is '''empty'''.  If
+all are set to '''fit''' or '''overset''', or if no regions are
+associated with the flow, the '''firstEmptyRegionIndex''' returns -1.
+
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Regions Module Level 3
