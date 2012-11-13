@@ -6,13 +6,22 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Represents content to flow among various block ''region'' elements.
+{{Summary_Section|Represents content to flow among various block ''region''
+elements. The '''NamedFlow''' interface allows access to both the
+content of the flow and the series of regions in which it	displays,
+and helps determine if the content exceeds or falls short of the
+number of regions necessary to display it.
 
-A '''NamedFlow''' object is created when any content element uses the
-[[css/properties/flow-into|'''flow-into''']] CSS property, or when any
-layout element uses [[css/properties/flow-from|'''flow-from''']].
-(The null object is still available if those	properties are later
-removed.)
+Specifying an identifier for any element's
+[[css/properties/flow-into|'''flow-into''']] CSS property diverts its
+content to a corresponding '''NamedFlow''' object. Other elements that
+specify the same identifier as their
+[[css/properties/flow-from|'''flow-from''']] property serve as a chain
+of ''regions'' that dynamically display the content.  (The
+'''NamedFlow''' object is still available with NULL content if those
+properties are later removed.)
+
+Use the [[dom/apis/document/getNamedFlows|'''getNamedFlows''']] method to gather named flows from a document.
 }}
 {{API_Object}}
 {{Examples_Section
@@ -33,23 +42,23 @@ removed.)
 |Not_required=No
 |Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Unknown
+|Chrome_supported=No
 |Chrome_version=
 |Chrome_prefixed_supported=Yes
 |Chrome_prefixed_version=20
-|Firefox_supported=Unknown
+|Firefox_supported=No
 |Firefox_version=
-|Firefox_prefixed_supported=Unknown
+|Firefox_prefixed_supported=No
 |Firefox_prefixed_version=
-|Internet_explorer_supported=Unknown
+|Internet_explorer_supported=No
 |Internet_explorer_version=
-|Internet_explorer_prefixed_supported=Unknown
+|Internet_explorer_prefixed_supported=No
 |Internet_explorer_prefixed_version=
-|Opera_supported=Unknown
+|Opera_supported=No
 |Opera_version=
-|Opera_prefixed_supported=Unknown
+|Opera_prefixed_supported=No
 |Opera_prefixed_version=
-|Safari_supported=Unknown
+|Safari_supported=No
 |Safari_version=
 |Safari_prefixed_supported=Yes
 |Safari_prefixed_version=534
