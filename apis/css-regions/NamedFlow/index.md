@@ -11,8 +11,6 @@ elements. The '''NamedFlow''' interface allows access to both the
 content of the flow and the series of regions in which it displays,
 and helps determine if the content exceeds or falls short of the
 number of regions necessary to display it.
-
-
 }}
 {{API_Object}}
 {{Examples_Section
@@ -25,8 +23,9 @@ number of regions necessary to display it.
 {{Notes_Section
 |Usage=Specifying an identifier for any element's
 [[css/properties/flow-into|'''flow-into''']] CSS property diverts its
-content to a corresponding '''NamedFlow''' object. Other elements that
-specify the same identifier as their
+content to a '''NamedFlow''' object,
+whose '''name''' corresponds to the property's value. 
+Other elements that specify the same identifier as their
 [[css/properties/flow-from|'''flow-from''']] property serve as a chain
 of ''regions'' that dynamically display the content.  (The
 '''NamedFlow''' object is still available with NULL content if those
