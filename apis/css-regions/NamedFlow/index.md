@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Stub
 |Content=Incomplete, Examples Needed
+|Editorial notes=css/cssom/NamedFlow
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
@@ -12,7 +13,6 @@ A '''NamedFlow''' object is created when any content element uses the
 layout element uses [[css/properties/flow-from|'''flow-from''']].
 (The null object is still available if those	properties are later
 removed.)
-
 }}
 {{API_Object}}
 {{Examples_Section
