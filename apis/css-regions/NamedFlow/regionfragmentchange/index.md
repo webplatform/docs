@@ -8,11 +8,13 @@
 {{API_Name}}
 {{Summary_Section|Fires on the '''NamedFlow''' object when there is a change in how content flows through a region chain.}}
 {{Event
+|Event_applies_to=css/cssom/NamedFlow
+|Content=Fires on the 
+[[css/cssom/NamedFlow|'''NamedFlow''']]
+object when there is a change in how content flows through a region chain.
 |Interface=TBD
 |Target=dom/Element
 |Default_action=TBD
-|Content=Fires on the '''NamedFlow''' object when there is a change in how content flows through a region chain.
-|Event_applies_to=css/cssom/NamedFlow
 |Synchronous=TBD
 |Bubbles=TBD
 |Cancelable=TBD
