@@ -37,10 +37,9 @@ function modifyFlow(e) {
       	appendRegion(flow.name);
     }
     else if (flow.firstEmptyRegionIndex !== -1)	{
-        deleteEmptyRegions(flow.name);
+        trimRegions(flow.name);
     }
 }
-
 }}
 }}
 {{Notes_Section}}
