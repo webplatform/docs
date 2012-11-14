@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Returns the sequence of regions that contain at least part of the supplied target content node.}}
+{{Summary_Section|Returns the sequence of regions that contain at least part of the supplied target content element.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=element
@@ -17,7 +17,7 @@
 |Example_object_name=flow
 |Return_value_name=regions
 |Javascript_data_type=function
-|Return_value_description=Returns the sequence of regions that contain at least part of the supplied target content node.
+|Return_value_description=Returns the sequence of regions that contain at least part of the supplied target content element.
 }}
 {{Examples_Section
 |Not_required=No
