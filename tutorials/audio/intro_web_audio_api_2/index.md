@@ -13,8 +13,7 @@
 Web-based audio is becoming more robust all the time, and necessarily so. As the web evolves in stylistic and presentational 
 features, web applications also require a higher degree of sophistication in audio manipulation. 
 Gone are the days of <code>&lt;embed&gt;</code>, <code>&lt;object&gt;</code>, and <code>&lt;bgsound&gt;</code>, 
-when the best you could hope for was a constant, cheesy MIDI file playing in your page, annoying visitors who are 
-trying to read your content.
+when the best you could hope for was static playback of a fixed music track.
 
 Today, diverse web apps such as games, audio editors, playlist managers, ringtone stores, musicians' utilities, 
 and more have a need for subtlety and finesse in their use of audio, and users deserve&mdash;and have come to expect&mdash;power and flexibility in those apps.
@@ -52,7 +51,7 @@ The simplest connection case, then, consists of a web app with a context that co
 (a previously-loaded sound in this case) whose output is connected directly to the input of one destination node 
 (the speakers), as shown below. That's the case we covered in Part 1.
 
-[[image:wap1-basic-trans.gif]]<br/>
+[[image:wap1b-basic.png]]<br/>
 ''A context with one source and one destination''
 
 ==In part 2==
@@ -63,7 +62,7 @@ A processing node modifies the sound in some way&mdash;volume, EQ,
 pitch, phase, etc.&mdash;after it is output from the source node but before it is input to the destination node,
 as shown below. That's the case we'll cover in this part. 
 
-[[image:wap2-basic-trans.gif]]<br/>
+[[image:wap2-basic.png]]<br/>
 ''A context with a processor between the source and destination''
 
 Be sure you understand how the nodes are created and linked together as described in
@@ -298,7 +297,7 @@ function playSoundHalf(anybuffer) {
 </syntaxhighlight>
 
 The sound will now play at half its original volume ''and'' frequencies above 440 Hz will 
-be suppressed.
+be attenuated.
 
 ==Summary==
 As you can see, adding one or more processors to the sound stream is a fairly simple matter of 
