@@ -93,7 +93,7 @@ The example I present below is a references page, which you could use to cite re
 === index.html ===
  
 <syntaxhighlight lang="html5"><!DOCTYPE html>
-
+<html>
 <head>
   <meta charset="utf-8">
 
