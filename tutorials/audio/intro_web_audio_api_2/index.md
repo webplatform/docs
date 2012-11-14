@@ -51,7 +51,7 @@ The simplest connection case, then, consists of a web app with a context that co
 (a previously-loaded sound in this case) whose output is connected directly to the input of one destination node 
 (the speakers), as shown below. That's the case we covered in Part 1.
 
-[[image:wap1b-basic.png]]<br/>
+[[image:wap1b-basic-trans.gif]]<br/>
 ''A context with one source and one destination''
 
 ==In part 2==
@@ -62,7 +62,7 @@ A processing node modifies the sound in some way&mdash;volume, EQ,
 pitch, phase, etc.&mdash;after it is output from the source node but before it is input to the destination node,
 as shown below. That's the case we'll cover in this part. 
 
-[[image:wap2-basic.png]]<br/>
+[[image:wap2-basic-trans.gif]]<br/>
 ''A context with a processor between the source and destination''
 
 Be sure you understand how the nodes are created and linked together as described in
