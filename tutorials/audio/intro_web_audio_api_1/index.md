@@ -10,7 +10,7 @@
 {{Summary_Section|An introduction to the web audio API: loading and playing an external sound file.}}
 {{Tutorial
 |Content===Introduction==
-Web-based audio is becoming more robust all the time, and necessarily so. As the web evolves in stylistic and presentational features, web applications also require a higher degree of sophistication in audio manipulation. Gone are the days of <code>&lt;embed&gt;</code>, <code>&lt;object&gt;</code>, and <code>&lt;bgsound&gt;</code>, when the best you could hope for was a constant, cheesy MIDI file playing in your page, annoying visitors who are trying to read your content.
+Web-based audio is becoming more robust all the time, and necessarily so. As the web evolves in stylistic and presentational features, web applications also require a higher degree of sophistication in audio manipulation. Gone are the days of <code>&lt;embed&gt;</code>, <code>&lt;object&gt;</code>, and <code>&lt;bgsound&gt;</code>, when the best you could hope for was static playback of a fixed music track.
 
 Today, diverse web apps such as games, audio editors, playlist managers, ringtone stores, musicians' utilities, and more have a need for subtlety and finesse in their use of audio, and users deserve&mdash;and have come to expect&mdash;power and flexibility in those apps.
 
@@ -36,7 +36,7 @@ Regardless of how many nodes exist and how they are connected, the signal always
 
 The simplest connection case, then, consists of a web app with a context that contains one source node (a previously-loaded sound in this case) whose output is connected directly to the input of one destination node (the speakers), as shown below. That's the case we're going to cover in this tutorial.
 
-[[image:wap1-basic-trans.gif]]<br/>
+[[image:wap1-basic.png]]<br/>
 ''A context with one source and one destination''
 
 ==Producing a sound==
