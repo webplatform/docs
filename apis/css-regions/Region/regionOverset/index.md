@@ -13,9 +13,14 @@
 |Example_object_name=region
 |Javascript_data_type=String
 |Return_value_description=A region's display state within a region chain:
-* '''overset'''
-* '''fit'''
-* '''empty'''
+
+* '''overset''' indicates the region is the last in the chain, and does not have enough room to display remaining content. See [[css/properties/region-fragment|region-fragment]].
+
+* '''empty''' indicates content was accommodated by previous regions in the chain.
+
+* '''fit''' content indicates when content appears within the last region in the chain but does not overflow it, or that previous regions in the chain flow content into subsequent regions.
+
+Note: prior regions that are too small to display each item of content (such as figures) are still identified as '''fit''' even if they don't display the content.
 
 }}
 {{Examples_Section
@@ -27,7 +32,7 @@
     // delete region?
 } else if (region.regionOverset == 'overset') {
     // add additional regions?
-} 
+}
 }}
 }}
 {{Notes_Section}}
