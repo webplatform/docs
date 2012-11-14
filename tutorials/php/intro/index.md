@@ -1,6 +1,10 @@
 {{Page_Title|Introduction}}
 {{Flags
+|High-level issues=Deletion Candidate
 |Content=Incomplete
+|Editorial notes={{Editorial/Deletion_Candidate
+| We are not covering server-side technologies.
+}}
 }}
 {{Byline
 |Name=Lewis Youldon
@@ -19,6 +23,7 @@ Placeholder
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows={{Compatibility Notes Row
