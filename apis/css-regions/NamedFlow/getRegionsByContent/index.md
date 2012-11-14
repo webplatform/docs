@@ -30,7 +30,7 @@ var flow = document.webkitGetNamedFlows()['main'];
 var elements = flow.getContent();
 // get last element:
 var lastElement = elements[elements.length-1];
-// from last element, get last paragraph element;
+// from within last element, get last paragraph;
 var lastPara = lastElement.querySelector('p:last-of-type');
 // get regions in which last paragraph displays:
 var regions = flow.getRegionsByContent(lastPara);
