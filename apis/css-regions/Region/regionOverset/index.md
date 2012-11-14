@@ -11,6 +11,7 @@
 |Property_applies_to=css/cssom/Region
 |Read_only=Yes
 |Example_object_name=region
+|Return_value_name=regionState
 |Javascript_data_type=String
 |Return_value_description=A region's display state within a region chain:
 
@@ -21,7 +22,6 @@
 * '''fit''' content indicates when content appears within the last region in the chain but does not overflow it, or that previous regions in the chain flow content into subsequent regions.
 
 Note: prior regions that are too small to display each item of content (such as figures) are still identified as '''fit''' even if they don't display the content.
-
 }}
 {{Examples_Section
 |Not_required=No
