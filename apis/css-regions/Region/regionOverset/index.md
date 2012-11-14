@@ -19,7 +19,7 @@
 
 * '''empty''' indicates content was accommodated by previous regions in the chain, or that no content flows into the chain.
 
-* '''fit''' content indicates when content appears within the last region in the chain but does not overflow it, or that previous regions in the chain flow content into subsequent regions.
+* '''fit''' indicates when content appears within the last region in the chain but does not overflow it, or that previous regions in the chain flow content into subsequent regions.
 
 Note: prior regions that are too small to display each item of content (such as figures) are still identified as '''fit''' even if they don't display the content.
 }}
