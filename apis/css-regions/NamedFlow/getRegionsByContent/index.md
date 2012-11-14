@@ -8,7 +8,11 @@
 {{API_Name}}
 {{Summary_Section|Returns the sequence of regions that contain at least part of the supplied target content node.}}
 {{API_Object_Method
-|Parameters=
+|Parameters={{Method Parameter
+|Name=element
+|Data type=DOM Node
+|Optional=No
+}}
 |Method_applies_to=css/cssom/NamedFlow
 |Example_object_name=flow
 |Return_value_name=regions
