@@ -17,7 +17,17 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=Get last flow-into element that contributes to flow
+|Code=// get flow:
+var flow = document.webkitGetNamedFlows()['main'];
+// get all flow-into elements:
+var elements = flow.getContent();
+// of these, get last element:
+var lastElement = elements[elements.length-1];
+
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
