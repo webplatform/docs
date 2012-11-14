@@ -2,23 +2,14 @@
 {{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Name of flow, as specified by any element's  
-[[css/properties/flow-from|'''flow-from''']]
-or
-[[css/properties/flow-into|'''flow-into''']]
-properties.
-}}
+{{Summary_Section|Name of flow, as specified by any element's  [[css/properties/flow-from|'''flow-from''']] or [[css/properties/flow-into|'''flow-into''']] properties.}}
 {{API_Object_Property
 |Property_applies_to=css/cssom/NamedFlow
 |Read_only=Yes
 |Example_object_name=flow
 |Return_value_name=id
 |Javascript_data_type=String
-|Return_value_description=Name of flow, as specified by any element's  
-[[css/properties/flow-from|'''flow-from''']]
-or
-[[css/properties/flow-into|'''flow-into''']]
-properties.
+|Return_value_description=Name of flow, as specified by any element's  [[css/properties/flow-from|'''flow-from''']] or [[css/properties/flow-into|'''flow-into''']] properties.
 |Example_value_name=main_content
 }}
 {{Examples_Section
