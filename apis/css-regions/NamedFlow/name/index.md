@@ -3,9 +3,9 @@
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Name of flow, as specified by any element's  
-[[css/properties/flow-from|'''flow-from''']
+[[css/properties/flow-from|'''flow-from''']]
 or
-[[css/properties/flow-into|'''flow-into''']
+[[css/properties/flow-into|'''flow-into''']]
 properties.
 }}
 {{API_Object_Property
@@ -15,9 +15,9 @@ properties.
 |Return_value_name=id
 |Javascript_data_type=String
 |Return_value_description=Name of flow, as specified by any element's  
-[[css/properties/flow-from|'''flow-from''']
+[[css/properties/flow-from|'''flow-from''']]
 or
-[[css/properties/flow-into|'''flow-into''']
+[[css/properties/flow-into|'''flow-into''']]
 properties.
 |Example_value_name=main_content
 }}
