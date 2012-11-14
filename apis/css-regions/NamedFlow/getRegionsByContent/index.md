@@ -30,10 +30,9 @@ var lastPara = lastElement.querySelector('p:last-of-type');
 // get regions in which last paragraph displays:
 var regions = flow.getRegionsByContent(lastPara);
 // check if last paragraph splits across regions:
-if (regions.length > 1)	{
+if (regions.length > 1) {
     // do something?
 }
-
 }}
 }}
 {{Notes_Section}}
