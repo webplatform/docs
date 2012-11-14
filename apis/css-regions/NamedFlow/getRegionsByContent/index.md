@@ -19,9 +19,8 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
-|Code=// checks if the last paragraph in a flow splits across more than one region
-
-// get flow:
+|Description=Checks if the last paragraph in a flow splits across more than one region
+|Code=// get flow:
 var flow = document.webkitGetNamedFlows()['main'];
 // get all top-level flow-into elements that contribute to flow:
 var elements = flow.getContent();
