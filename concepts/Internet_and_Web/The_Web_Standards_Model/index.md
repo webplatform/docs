@@ -96,13 +96,11 @@ The example I present below is a references page, which you could use to cite re
 <html>
 <head>
   <meta charset="utf-8">
-
   <title>References</title>
   <style type="text/css">
     @import url("styles.css");
   </style>
 </head>
-
 <body>
   <div id="bggraphic"></div>
   <div id="header">
