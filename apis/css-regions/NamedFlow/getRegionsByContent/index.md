@@ -6,18 +6,35 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|returns the sequence of regions that contain at least part of the target content node if it belongs to the named flow directly}}
+{{Summary_Section|Returns the sequence of regions that contain at least part of the supplied target content node.}}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=css/cssom/NamedFlow
 |Example_object_name=flow
 |Return_value_name=regions
 |Javascript_data_type=function
-|Return_value_description=returns the sequence of regions that contain at least part of the target content node if it belongs to the named flow directly
+|Return_value_description=Returns the sequence of regions that contain at least part of the supplied target content node.
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Code=// get flow:
+var flow = document.webkitGetNamedFlows()['main'];
+// get all top-level flow-into elements that contribute to flow:
+var elements = flow.getContent();
+// get last element:
+var lastElement = elements[elements.length-1];
+// from last element, get last <p> element;
+var lastPara = lastElement.querySelector('p:last-of-type');
+// get regions in which last paragraph displays:
+var regions = flow.getRegionsByContent(lastPara);
+// check if last paragraph splits across regions:
+if (regions.length > 1)	{
+    // do something?
+}
+
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
