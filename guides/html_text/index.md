@@ -182,13 +182,10 @@ The <code>&lt;i&gt;</code> element used to mean italic in HTML4, and this was co
 
 This does sound rather confusing, so here are some examples of where <code>&lt;i&gt;</code> would be appropriate:
 
-<syntaxhighlight lang="html5"><p>As we sailed into port, we spied the <i>Black Pearl</i> moored at the dock.</p>
- 
-<p>Book: <i>Living with a Diminutive Stature</i>, Bruce Lawson, Peachpit Press,
-published <time pubdate="2011-08-01">1st August 2011</time>,
-ISBN 999-0-388-99999-6</p>
- 
-<p>She really does add that little bit of <i lang="fr">je ne sais quoi</i>.</p></syntaxhighlight>
+<syntaxhighlight lang="html5">
+<p>As we sailed into port, we spied the <i>Black Pearl</i> moored at the dock.</p>
+<p>She really does add that little bit of <i lang="fr">je ne sais quoi</i>.</p>
+</syntaxhighlight>
 
 ==== &lt;strong&gt; ====
 
@@ -281,6 +278,7 @@ This makes the size of the text inside bigger — this should be achieved with C
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Feature=em
 |Chrome_supported=Yes
