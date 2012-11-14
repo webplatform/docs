@@ -10,6 +10,8 @@
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=css/cssom/NamedFlow
+|Example_object_name=flow
+|Return_value_name=regions
 |Javascript_data_type=function
 |Return_value_description=returns the sequence of regions that contain at least part of the target content node if it belongs to the named flow directly
 }}
@@ -19,7 +21,10 @@
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Regions Module Level 3
+|URL=http://dev.w3.org/csswg/css3-regions/
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
