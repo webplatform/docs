@@ -6,7 +6,7 @@
 }}
 }}
 {{Byline
-|Name=David Gash
+|Name=Dave Gash
 |URL=http://docs.webplatform.org/wiki/User:Dgash
 |Published=October 10, 2012
 }}
