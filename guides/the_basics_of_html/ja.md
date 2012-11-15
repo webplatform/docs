@@ -76,7 +76,7 @@ HTML 文書は、「文書型」もしくは「DOCTYPE 宣言」と呼ばれる�
 
 DOCTYPE 宣言の次にあるのが、<code>html</code> 要素の開始タグになります。これが、文書全体を囲む要素になります。ですから、<code>html</code> 要素の終了タグは、文書の最後に登場します。<code>html</code>要素は、常に<code>lang</code>属性を持つべきです。これは、ページの主言語を指定します。たとえば、<code>en</code> は"英語"を意味し、<code>fr</code> は"フランス語"を意味します。言語コードを見つけるために、Richard Ishidaの [http://rishida.net/utils/subtags/ Language Subtag Lookup tool] などのツールも使用できます。
 
-html 要素の中には head 要素があります。これは、文書に関する情報 (メタデータ) を格納する部分になります。head 要素については 次の記事 でもっと詳しく解説します。head 要素の中にある title 要素が、ウインドウに表示されるタイトル (この場合は“サンプルページ”) を指定する要素です。head 要素には常に、ページの文字コードを識別する<code>charset</cody> 属性を持つ<code>meta</code> 要素を含める必要があります。可能な限り UTF-8 を使用するべきでしょう。[http://www.w3.org/International/getting-started/characters more about character encodings] も参照してください。
+<code>html</code> 要素の中には <code>head</code> 要素があります。これは、文書に関する情報 (メタデータ) を格納する部分になります。<code>head</code> 要素については 次の記事 でもっと詳しく解説します。<code>head</code> 要素の中にある <code>title</code> 要素が、ウインドウに表示されるタイトル (この場合は“サンプルページ”) を指定する要素です。<code>head</code> 要素には常に、ページの文字コードを識別する <code>charset</code> 属性を持つ <code>meta</code> 要素を含める必要があります。可能な限り UTF-8 を使用するべきでしょう。[http://www.w3.org/International/getting-started/characters more about character encodings] も参照してください。
 }}
 {{Notes_Section}}
 {{Compatibility_Section
