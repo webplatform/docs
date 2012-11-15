@@ -72,6 +72,10 @@ Web ブラウザーでは以下のように表示されます。
 
 [[File:HTMLrender.png]]
 
+HTML 文書は、「文書型」もしくは「DOCTYPE 宣言」と呼ばれるものから始まります (詳しくは [[Choosing the right doctype for your HTML documents]] をお読みください) 。DOCTYPE 宣言は主に、"標準モード"と呼ばれるものでHTMLを正しくレンダリングするために役立ちます。またバリデーターは、どのHTMLのバージョンでコードを検証するかを知ることができます。現時点では、この意味が分からなくても心配ありません。おいおい解説していきます。この例では、HTML5のDOCTYPE宣言を見ることができます。
+
+DOCTYPE 宣言の次にあるのが、<code>html</code> 要素の開始タグになります。これが、文書全体を囲む要素になります。ですから、<code>html</code> 要素の終了タグは、文書の最後に登場します。<code>html</code>要素は、常に<code>lang</code>属性を持つべきです。これは、ページの主言語を指定します。たとえば、<code>en</code> は"英語"を意味し、<code>fr</code> は"フランス語"を意味します。言語コードを見つけるために、Richard Ishidaの [http://rishida.net/utils/subtags/ Language Subtag Lookup tool] などのツールも使用できます。
+
 
 }}
 {{Notes_Section}}
