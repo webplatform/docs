@@ -86,10 +86,10 @@ Web の認知は、商業的な関心ももたらしました。Mark Andreessen 
 2001年のはじめに、人気の Web 開発サイト "A List Apart" がリデザインされました。このリデザインについて、手法や理由を説明した記事が公開されているのですが、その中にこんな一節があります。
 
 <blockquote>
-    In six months, a year, or two years at most, all sites will be designed with these standards. […] We can watch our skills grow obsolete, or start learning standards-based techniques now.
-</blockquote> 
+    In six months, a year, or two years at most, all sites will be designed with these standards. […] We can watch our skills grow obsolete, or start learning standards-based techniques now. 
 
-訳: 半年か一年、いや二年後には全てのサイトが、これらの Web 標準を利用してデザインされるだろう。[…] いま私達にできることは、今までのやり方が古くなるのをただ見ているか、新しい Web 標準ベースな技術を学び始めるかのどちらかだ。
+(訳: 半年か一年、いや二年後には全てのサイトが、これらの Web 標準を利用してデザインされるだろう。[…] いま私達にできることは、今までのやり方が古くなるのをただ見ているか、新しい Web 標準ベースな技術を学び始めるかのどちらかだ。)
+</blockquote>
 
 この予想はすこし前向きすぎました。2008年になっても、全てのサイトがWeb標準で作られている訳ではないからです。しかし、この言葉には多くの人が耳を傾けていました。古いブラウザーはシェアを落とし、そして Wired magazine と ESPN という二つの大きなサイトが、それぞれ2002年と2003年に、Web 標準によってリデザインされたのです。彼らは Web 標準や新しい技術を支持する第一人者となりました。
 
