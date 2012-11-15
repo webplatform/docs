@@ -1,7 +1,8 @@
 {{Page_Title|Webの歴史}}
 {{Flags}}
 {{API_Name}}
-{{Summary_Section| <blockquote>
+{{Summary_Section|
+<blockquote>
 "どこから始めればよろしいでしょうか、陛下？"
 "最初から始めよ。" と、王様は重々しく口を開きます。 "最後まで続け、そこで止めよ。"
     ―ルイス・キャロル『不思議の国のアリス』
@@ -13,7 +14,7 @@
 
 記事の中には、あなたの良く知らない単語が出てくるかもしれません。でも、そんなに心配しないでください。それが Web 開発を学ぶにあたって重要な概念であれば、後々の記事でその詳細を含めちゃんと説明してくれるはずです。もちろん、検索することだってできますし。
 
-ただ、すでにインターネットや World Wide Web の歴史を知っているのであれば、どうぞ [[http://www.w3.org/wiki/The_history_of_the_Web#The_coming_of_web_standards/ja Web 標準]のセクションから始めてください。
+ただ、すでにインターネットや World Wide Web の歴史を知っているのであれば、どうぞ [http://www.w3.org/wiki/The_history_of_the_Web#The_coming_of_web_standards/ja Web 標準]のセクションから始めてください。
 }}
 {{Concept_Page
 |Content={{Languages}}
