@@ -122,7 +122,25 @@ Web の認知は、商業的な関心ももたらしました。Mark Andreessen 
 {{Related_Specifications_Section
 |Specifications=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Manual_links=もっと知りたいと思った方は、次のサイトを読んでみましょう。
+ 
+* [http://en.wikipedia.org/wiki/History_of_the_Internet The history of the Internet (wikipedia)]
+* [http://en.wikipedia.org/wiki/History_of_the_World_Wide_Web The history of the World Wide Web (wikipedia)]
+* [http://www.w3.org/Consortium/history The history of the W3C]
+* [http://webstandards.org/ The Web Standards Project], and their [http://www.webstandards.org/about/history/ history]
+* [http://www.alistapart.com/ A List Apart]
+* [http://www.csszengarden.com/ CSS Zen Garden]
+|Manual_sections=== 課題 ==
+
+もっと調べたいと思った方は、次の問題に答えてみましょう。
+
+* Windows、Mac OS X、Linux には、どんなブラウザーがありますか？
+* 各ブラウザー利用者の割合はどのようになっていますか？
+* モバイル端末がWebにアクセスする際、どんなブラウザーを利用しますか？
+* W3C が公開した "Web 標準"の数はどれくらいになりますか？そして、ブラウザーベンダーによって広く実装されているものはどれですか？
+
+}}
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
