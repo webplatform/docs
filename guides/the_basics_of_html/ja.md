@@ -98,6 +98,10 @@ DOCTYPE 宣言の次にあるのが、<code>html</code> 要素の開始タグに
 以下のように表示されます。
 
 [[File:htmlrender2.png]]
+
+この例では、<code>header</code> 要素 (文書のヘッダーをあらわす要素) が <code>h1</code> (最初、もしくは一番重要なレベルの見出し) 要素をもち、見出しとなるテキストが指定されています。テキストの中にはさらに、<code>abbr</code> 要素があり、その要素には <code>title</code> 属性が値 Hypertext Markup Language と共に指定されています。
+
+
 }}
 {{Notes_Section}}
 {{Compatibility_Section
