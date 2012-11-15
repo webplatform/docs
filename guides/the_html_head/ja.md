@@ -140,6 +140,49 @@
 
 図4: スクリーン用スタイルシートと印刷用スタイルシート
 
+== JavaScript で動的な機能を与えよう ==
+
+head には他にも「クライアントサイドスクリプト」と呼ばれる、JavaScript で書かれたブラウザーによって実行されるスクリプトを追加することが出来ます。[http://www.w3.org/wiki/The_web_standards_model_-_HTML_CSS_and_JavaScript/ja Web 標準のモデル] で解説した通り、JavaScript は静的な HTML 文書に動的な挙動を与えるものです。たとえば、アニメーションやフォーム内容の検証など、ユーザーの行動に応じた反応が行えます。
+
+JavaScript は script 要素を使って埋め込むことができます。ブラウザーがこの要素を見つけるとまず要素内のコードを実行し、その処理が終了するまで構文解析などの処理を中断します。つまり、ページの本文が表示される前に JavaScript を実行したい場合、その処理は head 内に記述する必要があります。たとえば、あなたのページに外部のサーバーへのリンクがいくつかあることをユーザーに伝えたい場合、次のようなコードを head 内に追加します。([http://dev.opera.com/articles/view/13-the-html-head-element/headscript.html headscript.html]): 
+ 
+<syntaxhighlight lang="html5"><!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <title>Breeding Dogs—Tips about Alsatians</title>
+  <meta name="description" content="How to breed Alsatians, tips on proper breeding and information about common issues with this breed.">
+  <meta name="keywords" content="Dogs,Alsatian,Breeding,Dog,Tips,Free,Pet">
+  <style type="text/css" media="screen">
+    body{
+      background:#000;
+      color:#ccc;
+      font-family: helvetica, arial, sans-serif;
+    }
+    a {color:#fff}
+  </style>
+  <style type="text/css" media="print">
+    body{
+      background:#fff;
+      color:#000;
+      font-family: helvetica, arial, sans-serif;
+      font-size:300%;
+    }
+  </style>
+  <script>
+    function leave(){
+      return confirm("This will take you to another site,\n are you sure you want to go?")
+    }
+  </script>
+</head>
+<body>
+Test!
+<a href="http://dailypuppy.com" onclick="return leave()">The Daily Puppy</a>
+</body>
+</html></syntaxhighlight>
+ 
+ブラウザーでこのサンプルを開き、リンクをクリックすると、外部サーバーに移動してよいかと訪ねてくるはずです。これはとても単純なスクリプトのサンプルとして用意しただけなので、ベストプラクティスではまったくありません。JavaScript のベストプラクティスや JavaScript の詳細なテクニックについては、後の記事で解説します。でも、いまは焦らずにいきましょう。
+
 }}
 {{Notes_Section}}
 {{Compatibility_Section
