@@ -58,6 +58,39 @@
 図1: ブラウザーでのタイトルの表示
  
 良いタイトルのつけ方について Web には多くのチュートリアルがありますが、それらの殆どが SEO (検索エンジン最適化) に関連するものです。ですから、検索にたくさん引っかかるようなタイトルをつけるといった、検索エンジンへの対策に溺れないでください。文書が何について書かれているのかを、短く簡潔に表現しましょう。たとえば、「犬、ジャーマンシェパード、飼い方、ペット」と「犬の飼い方 ― ジャーマンシェパード」いうふたつのタイトルがあるとしします。いったいどちらが、訪問者にとってわかりやすいタイトルでしょうか。
+
+== キーワードと説明を追加する ==
+ 
+次に説明することは、あまり意味がないのではと思う人がいるかもしれません。指定する情報が、訪問者に対して直接表示されるわけではないからです。何のことかというと、ページの説明やキーワードです。これらの情報は head 内の meta 要素に与えます。では、Yahoo! Eurosport のサイト ([http://dev.opera.com/articles/view/13-the-html-head-element/headwithmeta.html headwithmeta.html]) を例にとって説明します。コードは次のように書かれています。
+ 
+<syntaxhighlight lang="html5"><!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <title>Yahoo! UK &amp; Ireland Eurosport—Sports News
+|Sport</title>
+  <meta name="description" content="Latest sports news and live scores from Yahoo! Eurosport UK. Complete sport coverage with Football results, Cricket scores, F1, Golf, Rugby, Tennis and more.">
+  <meta name="keywords" content="eurosport,sports,sport,sports news,live scores,football,cricket,f1,golf,rugby,tennis,uk,yahoo">
+</head>
+<body>
+</body>
+</html></syntaxhighlight>
+ 
+この文書をブラウザーで開いてみましょう。body になにも情報がないので、ブラウザーの画面には何も表示されないでしょう。しかし、この文書がオンラインにあり、検索エンジンがインデックスしていれば、ページの説明が検索結果の下に表示されることになります。図2 はそのスクリーンショットです。
+
+[[Image:head-fih.gif|descriptions showing in a search engine results page]] 
+
+図2: 検索結果でページの説明が表示されている
+ 
+検索した人にとって、ページの説明はとても重要な情報になるでしょう。検索結果が表示してくれるページの説明を読んで、それが求めているページかを判断できるからです。また、いくつかのブラウザーは図3のように、ページをお気に入りに追加する際に、説明を補足情報として登録してくれる機能を備えています。
+
+[[Image:head-fii.gif|Some browsers use the description as a bookmark description]] 
+
+図3: 文書をお気に入りに登録する時、ブラウザーによっては記述されたページの説明も一緒に登録する
+ 
+説明の追加は直接的な利益をもたらすものではありませんが、これらはあなたのページの成功に重要な役割を担います。説明より影響は大きくありませんが、キーワードについても同じことが言えます。
+
+長年の spam 業者によるキーワードの不正利用によって、検索エンジンはキーワードを重要な情報として扱わなくなりました。それでも、キーワードはとてもよいツールになります。たとえば、多くの文書をすぐにインデックスしたい場合、キーワードがあればすべての文書をスキャンし内容を解析する必要がありません。meta キーワードをインデックスするスクリプトを用意し CMS の検索エンジンに利用すれば、検索が高速に行えるでしょう。内容を解析する必要なしに、文書を探し出す機能を手間なく導入できるのです。今はそういった機能を考えていなくても将来的に導入するチャンスが与えられると考えて、meta 要素にキーワードを与えることもよいのではないでしょうか。キーワードを分厚い本にはさむ小さなしおりとして考えてみましょう。しおりがあることで、長い章を読み返すことなく特定の節から読むことができるでしょう。
 }}
 {{Notes_Section}}
 {{Compatibility_Section
