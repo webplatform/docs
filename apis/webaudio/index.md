@@ -1,7 +1,5 @@
 {{Page_Title|Web Audio API}}
-{{Flags
-|High-level issues=Stub
-}}
+{{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Describes a high-level JavaScript API for processing and synthesizing audio in web applications.}}
