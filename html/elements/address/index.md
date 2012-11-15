@@ -12,7 +12,7 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=This example uses the '''address'''element to make text appear in italic type.
+|Description=This example uses the '''address''' element to make text appear in italic type.
 |Code=&lt;ADDRESS&gt;This text will be in italic type.&lt;/ADDRESS&gt;
 }}
 }}
