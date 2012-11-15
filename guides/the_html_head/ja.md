@@ -1,4 +1,5 @@
 {{Page_Title|HTML の <head> 要素}}
+{{Languages}}
 {{Flags}}
 {{Byline}}
 {{Summary_Section|この記事では、<head>要素に含めることができる一般的な項目を解説してきます。}}
