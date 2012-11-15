@@ -51,6 +51,28 @@ HTML は文書の内容とその意味をプレーンテキストで表すフォ
 1999 年には改訂版である HTML 4.01 が公開されました (2001 年に正誤表が更新されています)。これが HTML の最終版になります。しかしながら、現在 HTML 5 の策定が進んでいる最中です。
 
 2000 年に、W3C は XHTML 1.0 仕様を公開しました。これは、HTML を valid な XML 文書フォーマットになるよう再構成したものです。
+
+
+== HTML 文書の構造 ==
+ 
+シンプルで valid な HTML 文書は、次のようなものになるでしょう。
+
+<syntaxhighlight lang="html5"><!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Example page</title>
+  </head>
+  <body>
+    <h1>Hello world</h1>
+  </body>
+</html></syntaxhighlight>
+
+Web ブラウザーでは以下のように表示されます。
+
+[[File:HTMLrender.png]]
+
+
 }}
 {{Notes_Section}}
 {{Compatibility_Section
