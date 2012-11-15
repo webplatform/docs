@@ -59,7 +59,74 @@ In Windows Internet Explorer 9, the background of a box can have multiple layer
 }}
 {{Compatibility_Section
 |Not_required=No
-|Desktop_rows=
+|Imported_tables=
+|Desktop_rows={{Compatibility Table Desktop Row
+|Feature=Basic support
+|Chrome_supported=Yes
+|Chrome_version= 	1.0
+|Chrome_prefixed_supported=Unknown
+|Chrome_prefixed_version=
+|Firefox_supported=Yes
+|Firefox_version=1.0 (1.7 or earlier)
+|Firefox_prefixed_supported=Unknown
+|Firefox_prefixed_version=
+|Internet_explorer_supported=Yes
+|Internet_explorer_version=4.0
+|Internet_explorer_prefixed_supported=Unknown
+|Internet_explorer_prefixed_version=
+|Opera_supported=Yes
+|Opera_version= 	3.5
+|Opera_prefixed_supported=Unknown
+|Opera_prefixed_version=
+|Safari_supported=Yes
+|Safari_version=1.0 (85)
+|Safari_prefixed_supported=Unknown
+|Safari_prefixed_version=
+}}{{Compatibility Table Desktop Row
+|Feature=Multiple Backgrounds
+|Chrome_supported=Yes
+|Chrome_version=1.0
+|Chrome_prefixed_supported=Unknown
+|Chrome_prefixed_version=
+|Firefox_supported=Yes
+|Firefox_version=3.6 (1.9.2)
+|Firefox_prefixed_supported=Unknown
+|Firefox_prefixed_version=
+|Internet_explorer_supported=Yes
+|Internet_explorer_version=9.0
+|Internet_explorer_prefixed_supported=Unknown
+|Internet_explorer_prefixed_version=
+|Opera_supported=Yes
+|Opera_version=10.5
+|Opera_prefixed_supported=Unknown
+|Opera_prefixed_version=
+|Safari_supported=Yes
+|Safari_version=1.3 (312)
+|Safari_prefixed_supported=Unknown
+|Safari_prefixed_version=
+}}{{Compatibility Table Desktop Row
+|Feature=Four-value syntax (support for offsets from any edge)
+|Chrome_supported=No
+|Chrome_version=
+|Chrome_prefixed_supported=Unknown
+|Chrome_prefixed_version=
+|Firefox_supported=Yes
+|Firefox_version=13.0 (13.0)
+|Firefox_prefixed_supported=Unknown
+|Firefox_prefixed_version=
+|Internet_explorer_supported=No
+|Internet_explorer_version=
+|Internet_explorer_prefixed_supported=Unknown
+|Internet_explorer_prefixed_version=
+|Opera_supported=Yes
+|Opera_version=10.5
+|Opera_prefixed_supported=Unknown
+|Opera_prefixed_version=
+|Safari_supported=No
+|Safari_version=
+|Safari_prefixed_supported=Unknown
+|Safari_prefixed_version=
+}}
 |Mobile_rows=
 |Notes_rows=
 }}
