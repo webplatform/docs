@@ -183,6 +183,66 @@ Test!
  
 ブラウザーでこのサンプルを開き、リンクをクリックすると、外部サーバーに移動してよいかと訪ねてくるはずです。これはとても単純なスクリプトのサンプルとして用意しただけなので、ベストプラクティスではまったくありません。JavaScript のベストプラクティスや JavaScript の詳細なテクニックについては、後の記事で解説します。でも、いまは焦らずにいきましょう。
 
+== インラインな CSS や JavaScript は良くない ==
+
+強い言葉を書きましたが、Web サイトを構築する時に覚えておいてほしいことがひとつあります。コードを可能な限り再利用できるようにすると最もよいです。サイト全体で利用されるスタイルシートやスクリプトを各ページに埋め込むのは意義のあることではありません。それどころか、サイト全体を管理することが大変になりますし、文書のサイズも不必要に大きくなってしまいます。
+
+スタイルシートやスクリプトは外部ファイルに格納し、必要に応じて HTML ファイルから読み込む方がずっとよいやり方です。こうすることで、変更が必要な場合でも、その外部ファイルを編集するだけで済むからです。JavaScript の場合、<code>script</code> 要素内には何も書かず、<code>src</code> 属性から外部ファイルにリンクします。コードは次のようになります。([http://dev.opera.com/articles/view/13-the-html-head-element/externaljs.html externaljs.html])
+ 
+<syntaxhighlight lang="html5"><!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <title>Breeding Dogs—Tips about Alsatians</title>
+  <meta name="description" content="How to breed Alsatians, tips on proper breeding and information about common issues with this breed.">
+  <meta name="keywords" content="Dogs,Alsatian,Breeding,Dog,Tips,Free,Pet">
+  <style type="text/css" media="screen">
+    body{
+      background:#000;
+      color:#ccc;
+      font-family: helvetica, arial, sans-serif;
+    }
+    a {color:#fff}
+  </style>
+  <style type="text/css" media="print">
+    body{
+      background:#fff;
+      color:#000;
+      font-family: helvetica, arial, sans-serif;
+      font-size:300%;
+    }
+  </style>
+  <script src="leaving.js"></script>
+</head>
+<body>
+Test!
+<a href="http://dailypuppy.com" onclick="return leave()">The Daily Puppy</a>
+</body>
+</html></syntaxhighlight>
+ 
+CSS の場合はすこし難しくなります。<code>style</code> は <code>src</code> 属性を持たないため、代わりに <code>link</code> 要素を利用することになります。<code>link</code> 要素は <code>href</code> 属性から外部 CSS を読み込むことができます。また、画面用か印刷用かを指定したい場合には <code>media</code> 属性が用意されています。CSS と JavaScript を固有のファイルに格納することにより、<code>head</code> 要素の長さをとても短くすることができます。([http://dev.opera.com/articles/view/13-the-html-head-element/externalall.html externalall.html])
+ 
+<syntaxhighlight lang="html5"><!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <title>Breeding Dogs—Tips about Alsatians</title>
+  <meta name="description" content="How to breed Alsatians, tips on proper breeding and information about common issues with this breed.">
+  <meta name="keywords" content="Dogs,Alsatian,Breeding,Dog,Tips,Free,Pet">
+  <link rel="stylesheet" type="text/css" media="screen" href="styles.css">
+  <link rel="stylesheet" type="text/css" media="print" href="printstyles.css">
+  <script src="leaving.js"></script>
+</head>
+<body>
+Test!
+<a href="http://dailypuppy.com" onclick="return leave()">The Daily Puppy</a>
+</body>
+</html></syntaxhighlight>
+ 
+スタイルシートとスクリプトを外部ファイルにする利点は、他にもあります。
+
+# ページを速く表示させることができ、訪問者にやさしいつくにりなります。ダウンロードするファイルはすこしですが、共通に利用するスタイルシートやスクリプトを毎回読み込む必要はありません (外部スクリプト/スタイルシートは一度のダウンロードで済みます)。加えて、リンクした CSS ファイルと JavaScript ファイルはキャッシュされます (コンピューターに一時的に保存されます)。次にサイトにアクセスしたとき、その CSS ファイルと JavaScript ファイルはあなたのコンピューターに既に存在しているため、再びダウンロードする必要がありません。
+# メンテナンスが容易になります。数千ページからなるサイトでも、スタイルシートとスクリプトが一箇所にあれば、なにか変更したい場合でもひとつひとつのファイルを編集する必要はありません。
 }}
 {{Notes_Section}}
 {{Compatibility_Section
