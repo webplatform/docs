@@ -1,4 +1,5 @@
 {{Page_Title|Webの歴史}}
+{{Languages}}
 {{Flags}}
 {{API_Name}}
 {{Summary_Section|<blockquote>
