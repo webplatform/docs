@@ -111,6 +111,7 @@ Web の認知は、商業的な関心ももたらしました。Mark Andreessen 
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
+|Sources=DevOpera
 |MDN_link=
 |MSDN_link=
 |HTML5Rocks_link=
