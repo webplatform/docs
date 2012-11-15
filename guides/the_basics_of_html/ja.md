@@ -3,7 +3,9 @@
 {{Byline}}
 {{Summary_Section}}
 {{Guide
-|Content=== はじめに ==
+|Content={{Languages}}
+
+== はじめに ==
 
 == HTML とは ==
  
