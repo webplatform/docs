@@ -5,7 +5,7 @@
 {{Guide}}
 {{Notes_Section}}
 {{Compatibility_Section
-|Not_required=No
+|Not_required=Yes
 |Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
