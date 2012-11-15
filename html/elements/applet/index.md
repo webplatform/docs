@@ -22,9 +22,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=<applet code="myApplet.class" width="500" height="500">
-My Java applet goes here! 
-</applet>
+|Description=The following example shows how to embed Java applet 'myApplet' into a web page.
 |Code=<applet code="myApplet.class" width="500" height="500">
 My Java applet goes here! 
 </applet>
