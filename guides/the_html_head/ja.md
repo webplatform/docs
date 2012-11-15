@@ -3,7 +3,7 @@
 {{Byline}}
 {{Summary_Section}}
 {{Guide
-|Content={{languages}}
+|Content={{language}}
 
 == はじめに ==
 
