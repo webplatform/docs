@@ -7,7 +7,17 @@
 |Parameters={{Method Parameter
 |Name=numberOfChannels
 |Data type=unsigned long
-|Description=The numberOfChannels parameter determines how many channels the buffer will have. An implementation must support at least 32 channels.
+|Description=Determines how many channels the buffer will have. An implementation must support at least 32 channels.
+|Optional=No
+}}{{Method Parameter
+|Name=length
+|Data type=unsigned long
+|Description=Determines the size of the buffer in sample-frames.
+|Optional=No
+}}{{Method Parameter
+|Name=sampleRate
+|Data type=Number
+|Description=Describes the sample-rate of the linear PCM audio data in the buffer in sample-frames per second. An implementation must support sample-rates in at least the range 22050 to 96000.
 |Optional=No
 }}
 |Method_applies_to=apis/webaudio/AudioContext
