@@ -8,6 +8,7 @@
 {{API_Object_Property
 |Property_applies_to=apis/webaudio/AudioContext
 |Read_only=Yes
+|Example_object_name=AudioContext
 }}
 {{Examples_Section
 |Not_required=Yes
