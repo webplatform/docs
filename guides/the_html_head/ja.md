@@ -32,6 +32,32 @@
 文書内の一部についても、この lang 属性を他の要素に与えることで言語情報を指定できます。たとえば、<span lang="fr">Bonjour</span> といったように書くことができます。
  
 言語情報を指定する属性は、文書に指定した DOCTYPE によって変わります。 HTML のときは <code>lang</code> のみを、XHTML 1.0 を <code>text/html</code> で送出するときは <code>lang</code> と <code>xml:lang</code> を、XHTML を XML として扱うときは <code>xml:lang</code> のみを使います。
+
+== タイトルが文書を評価する ==
+
+<code>head</code> 内でもっとも重要なのが <code>title</code> 要素です。<code>title</code> 要素中に書かれたテキストは、すべてのブラウザーのタイトルバー (ウインドウ上部にある箇所) に表示されるからです。タイトルはあなたのサイトに訪れた人が最初に得る情報のひとつですから、とても重要なのです。
+
+スクリーンリーダー (視覚障害者が利用することの多い、Web ページの内容を読み上げるソフトウェア) などの支援技術は、文書がどういう事柄に関するものなのかを利用者に知らせるため、文書のタイトルを利用します。また、検索エンジンも同様にタイトルを重要な情報として利用します。人に読みやすく、かつ内容をうまく伝えるキーワードを含む良いタイトルをつけられれば、あなたのページは多くの人に知られるようになるでしょう。
+
+では、次のサンプル ([http://dev.opera.com/articles/view/13-the-html-head-element/headexample.html headexample.html]) を開いてみてください。
+ 
+<syntaxhighlight lang="html5"><!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <title>I am a title example</title>
+</head>
+<body>
+</body>
+</html></syntaxhighlight>
+ 
+図1 で示す通り、<code>title</code> 要素内のテキストが、ブラウザーのナビゲーションバーの上に表示されるのがわかると思います。
+
+[[Image:Head-fig.gif|The title is displayed in the title bar of the web browser]] 
+
+図1: ブラウザーでのタイトルの表示
+ 
+良いタイトルのつけ方について Web には多くのチュートリアルがありますが、それらの殆どが SEO (検索エンジン最適化) に関連するものです。ですから、検索にたくさん引っかかるようなタイトルをつけるといった、検索エンジンへの対策に溺れないでください。文書が何について書かれているのかを、短く簡潔に表現しましょう。たとえば、「犬、ジャーマンシェパード、飼い方、ペット」と「犬の飼い方 ― ジャーマンシェパード」いうふたつのタイトルがあるとしします。いったいどちらが、訪問者にとってわかりやすいタイトルでしょうか。
 }}
 {{Notes_Section}}
 {{Compatibility_Section
