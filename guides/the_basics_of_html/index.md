@@ -1,5 +1,5 @@
 {{Page_Title|The basics of HTML}}
-{{Languages}}
+{{Languages|}}
 {{Flags}}
 {{Byline}}
 {{Summary_Section|In this article, you will learn the basics of HTML, where it has
