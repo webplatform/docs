@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|he number of AudioBufferSourceNodes that are currently playing.}}
+{{Summary_Section|The number of AudioBufferSourceNodes that are currently playing.}}
 {{API_Object_Property
 |Property_applies_to=apis/webaudio/AudioContext
 |Read_only=Yes
