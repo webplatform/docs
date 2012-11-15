@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags}}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|The number of AudioBufferSourceNodes that are currently playing.}}
 {{API_Object_Property
