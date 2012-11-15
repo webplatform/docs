@@ -81,6 +81,23 @@ DOCTYPE 宣言の次にあるのが、<code>html</code> 要素の開始タグに
 <code>head</code> 要素のあとに <code>[[html/elements/body/ja|body]]</code> 要素が続きます。body 要素はページの内容を囲むもので、この例では “Hello world.” と書かれたひとつの第1レベル見出し ( <code>[[html/elements/hn/ja|h1]]</code> ) が文書の内容になります。
 
 要素は他の要素を含むことが多いです。とくに文書の本文部分は、多くの入れ子になった要素から構成されることでしょう。<code>[[html/elements/article/ja|article]]</code> 、 <code>[[html/elements/header/ja|header]]</code> や <code>[[html/elements/div/ja|div]]</code> 要素などの文書構造要素は、いくつもの区画を構成し、各区画はさらに細分化された区画より構成されます。ここの区画は見出しや段落、リストなどを含むでしょう。段落は、他のページへのリンク、引用、強調などを含むことができます。これらの要素については、後ほど解説していきます。
+
+
+== HTML 要素の構文 ==
+
+
+要素は属性を持つことがあります。属性とは要素の挙動を変更したり、意味を付け加えたりするものです。別の例を見てみましょう。
+ 
+<syntaxhighlight lang="html5"><header>
+  <h1>The Basics of 
+    <abbr title="Hypertext Markup Language">HTML</abbr>
+  </h1>
+</header></syntaxhighlight>
+
+以下のように表示されます。
+
+[[File:htmlrender2.png]]
+
 }}
 {{Notes_Section}}
 {{Compatibility_Section
