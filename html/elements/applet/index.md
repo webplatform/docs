@@ -20,7 +20,15 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Description=<applet code="myApplet.class" width="500" height="500">
+My Java applet goes here! 
+</applet>
+|Code=<applet code="myApplet.class" width="500" height="500">
+My Java applet goes here! 
+</applet>
+}}
 }}
 {{Notes_Section
 |Notes====Remarks===
