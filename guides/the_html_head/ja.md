@@ -91,6 +91,55 @@
 説明の追加は直接的な利益をもたらすものではありませんが、これらはあなたのページの成功に重要な役割を担います。説明より影響は大きくありませんが、キーワードについても同じことが言えます。
 
 長年の spam 業者によるキーワードの不正利用によって、検索エンジンはキーワードを重要な情報として扱わなくなりました。それでも、キーワードはとてもよいツールになります。たとえば、多くの文書をすぐにインデックスしたい場合、キーワードがあればすべての文書をスキャンし内容を解析する必要がありません。meta キーワードをインデックスするスクリプトを用意し CMS の検索エンジンに利用すれば、検索が高速に行えるでしょう。内容を解析する必要なしに、文書を探し出す機能を手間なく導入できるのです。今はそういった機能を考えていなくても将来的に導入するチャンスが与えられると考えて、meta 要素にキーワードを与えることもよいのではないでしょうか。キーワードを分厚い本にはさむ小さなしおりとして考えてみましょう。しおりがあることで、長い章を読み返すことなく特定の節から読むことができるでしょう。
+
+== 見た目は? スタイルを与えよう ==
+
+<code>head</code> に与えられる情報はまだあります。CSS (Cascading Style Sheets) で定義されるスタイル規則です。スタイル規則は <code>style</code> 要素を使って <code>head</code> 要素内に直接埋め込めます。サンプル ([http://dev.opera.com/articles/view/13-the-html-head-element/headinlinestyles.html headinlinestyles.html]) は次のようになっています。
+ 
+<syntaxhighlight lang="html5"><!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <title>Breeding Dogs—Tips about Alsatians</title>
+  <meta name="description" content="How to breed Alsatians, tips on proper breeding and information about common issues with this breed.">
+  <meta name="keywords" content="Dogs,Alsatian,Breeding,Dog,Tips,Free,Pet">
+  <style type="text/css">
+    body{
+      background:#000;
+      color:#ccc;
+      font-family: helvetica, arial, sans-serif;
+    }
+  </style>
+</head>
+<body>
+<p>Test!</p>
+</body>
+</html></syntaxhighlight>
+ 
+この文書をブラウザーで開くと、黒い背景のページに灰色で書かれた「Test!」という文字が現れるでしょう。また、書体はあなたのシステムにもよりますが、Helvetica または Arial で表示されるかと思います。<code>style</code> 要素は <code>media</code> という属性を持つことができますが、これはコンピューター画面やモバイル端末、印刷物など、媒体別にスタイルシートを適用させるための仕組みです。媒体にはいくつか種類がありますが、なかでも使われそうなものをここに挙げてみましょう。
+ 
+* <code>screen</code> — ディスプレイやモニタ
+* <code>print</code> — 文書が印刷されたときの見た目を定義する
+* <code>handheld</code> — モバイル端末や他のハンドヘルド端末で表示させたときの見た目を定義する
+* <code>projection</code> — [http://people.opera.com/howcome/2004/operashow/tutorial.html Opera Show] など、HTML によるスライドの表現に
+
+たとえば、ディスプレイでは別の色を使って、印刷物ではフォントを大きくしたいといったとき、次のように <code>media</code> 属性に値 <code>print</code> を指定した新しいスタイルブロックを追加することで実現できます。(サンプルは [http://dev.opera.com/articles/view/13-the-html-head-element/headinlinestylesmedia.html headinlinestylesmedia.html] にあります)
+ 
+<syntaxhighlight lang="html5"><style type="text/css" media="print">
+  body{
+    background:#fff;
+    color:#000;
+    font-family: helvetica, arial, sans-serif;
+    font-size:300%;
+  }
+</style></syntaxhighlight>
+ 
+この Web ページを印刷するとき、ブラウザーはスクリーン用スタイルシートではなく印刷用スタイルシートを適用します。サンプル [http://dev.opera.com/articles/view/13-the-html-head-element/headinlinestylesmedia.html headinlinestylesmedia.html] を開き、印刷プレビューを開いてください。図4 はそのスクリーンショットです。
+
+[[Image:head-fij.gif|The same page with print and screen style sheets applied]] 
+
+図4: スクリーン用スタイルシートと印刷用スタイルシート
+
 }}
 {{Notes_Section}}
 {{Compatibility_Section
