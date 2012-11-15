@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|used to define a hyperlink ( a link ) to any content, may be another page, another section of the same page , an image/file  or it may invoke a JavaScript function. }}
 {{Markup_Element
 |DOM_interface=dom/HTMLAnchorElement
 }}
@@ -65,6 +65,7 @@ Both text and images can be included within an anchor. An image that is an ancho
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
 |Chrome_version=22.0
