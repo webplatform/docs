@@ -1,7 +1,7 @@
 {{Page_Title|Webの歴史}}
 {{Flags}}
 {{API_Name}}
-{{Summary_Section|<blockquote>
+{{Summary_Section| <blockquote>
 "どこから始めればよろしいでしょうか、陛下？"
 "最初から始めよ。" と、王様は重々しく口を開きます。 "最後まで続け、そこで止めよ。"
     ―ルイス・キャロル『不思議の国のアリス』
