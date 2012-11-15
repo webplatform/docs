@@ -1,7 +1,7 @@
 {{Page_Title|HTMLの基礎}}
 {{Flags}}
 {{Byline}}
-{{Summary_Section}}
+{{Summary_Section|この記事では、HTML の基礎やその歴史、HTML 文書の構造について学べます。}}
 {{Guide
 |Content={{Languages}}
 
