@@ -6,7 +6,7 @@
 {{API_Name}}
 {{Summary_Section|An AudioDestinationNode with a single input representing the final destination for all audio (to be rendered to the audio hardware). All AudioNodes actively rendering audio will directly or indirectly connect to destination.}}
 {{API_Object_Property
-|Property_applies_to=apis/webaudio
+|Property_applies_to=apis/webaudio/AudioContext
 |Read_only=Yes
 |Example_object_name=AudioContext
 }}
