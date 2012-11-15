@@ -1,5 +1,5 @@
 {{Page_Title|The history of the Web}}
-{{Languages}}
+{{Languages|concepts/internet_and_web/the_history_of_the_web}}
 {{Flags}}
 {{API_Name}}
 {{Summary_Section|<blockquote> 
