@@ -78,7 +78,7 @@ DOCTYPE 宣言の次にあるのが、<code>html</code> 要素の開始タグに
 
 <code>html</code> 要素の中には <code>head</code> 要素があります。これは、文書に関する情報 (メタデータ) を格納する部分になります。<code>[[html/elements/head/ja|head]]</code> 要素については 次の記事 でもっと詳しく解説します。<code>head</code> 要素の中にある <code>[[html/elements/title/ja|title]]</code> 要素が、ウインドウに表示されるタイトル (この場合は“サンプルページ”) を指定する要素です。<code>head</code> 要素には常に、ページの文字コードを識別する <code>charset</code> 属性を持つ <code>meta</code> 要素を含める必要があります。可能な限り UTF-8 を使用するべきでしょう。[http://www.w3.org/International/getting-started/characters more about character encodings] も参照してください。
 
-<code>head</code> 要素のあとに <code>[[html/elements/body/ja|body]]</code> 要素が続きます。body 要素はページの内容を囲むもので、この例では “Hello world.” と書かれたひとつの第1レベル見出し ([[html/elements/hn/ja|h1]]) が文書の内容になります。
+<code>head</code> 要素のあとに <code>[[html/elements/body/ja|body]]</code> 要素が続きます。body 要素はページの内容を囲むもので、この例では “Hello world.” と書かれたひとつの第1レベル見出し ( <code>[[html/elements/hn/ja|h1]]</code>) が文書の内容になります。
 }}
 {{Notes_Section}}
 {{Compatibility_Section
