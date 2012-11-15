@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The address element is used to describe contact information of the owner or the author of the document or the article.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
 }}
@@ -754,6 +754,7 @@ This property is not supported for Metro style apps using JavaScript.
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
