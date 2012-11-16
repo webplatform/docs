@@ -6,7 +6,7 @@
 {{API_Name}}
 {{Summary_Section|True if the track is still associated with its source.}}
 {{API_Object_Property
-|Property_applies_to=apis/webrtc/objects/MediaStreamTrack
+|Property_applies_to=apis/webrtc/MediaStreamTrack
 |Read_only=No
 |Example_object_name=track
 |Javascript_data_type=Boolean
