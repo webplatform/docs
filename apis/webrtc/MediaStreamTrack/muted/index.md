@@ -4,9 +4,9 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|The MediaStreamTrack object's source is temporarily unable to provide data. }}
+{{Summary_Section|The MediaStreamTrack object's source is temporarily unable to provide data.}}
 {{Event
-|Event_applies_to=apis/webrtc/objects/MediaStreamTrack
+|Event_applies_to=apis/webrtc/MediaStreamTrack
 }}
 {{Examples_Section
 |Not_required=No
