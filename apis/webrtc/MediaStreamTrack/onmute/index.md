@@ -6,7 +6,7 @@
 {{API_Name}}
 {{Summary_Section|Handles the muted event when fired on the MediaStream object.}}
 {{API_Object_Property
-|Property_applies_to=apis/webrtc/objects/MediaStreamTrack
+|Property_applies_to=apis/webrtc/MediaStreamTrack
 |Read_only=No
 }}
 {{Examples_Section
