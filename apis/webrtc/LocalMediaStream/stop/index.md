@@ -5,7 +5,7 @@
 {{Summary_Section|Permanently halts the generation of data for the tracks' sources and removes the references to the sources.}}
 {{API_Object_Method
 |Parameters=
-|Method_applies_to=apis/webrtc/objects/LocalMediaStream
+|Method_applies_to=apis/webrtc/LocalMediaStream
 |Example_object_name=localStream
 |Javascript_data_type=void
 }}
