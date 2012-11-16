@@ -2,14 +2,13 @@
 {{Flags
 |High-level issues=Stub
 |Content=Incomplete, Examples Needed
-|Editorial notes=css/cssom/Region/getRegionFlowRanges
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|returns a series of ranges corresponding to how content flows within each region}}
 {{API_Object_Method
 |Parameters=
-|Method_applies_to=css/cssom/Region
+|Method_applies_to=apis/css-regions/Region
 |Javascript_data_type=function
 |Return_value_description=returns a series of ranges corresponding to how content flows within each region
 }}
