@@ -6,7 +6,7 @@
 {{API_Name}}
 {{Summary_Section|The number of tracks in the list.}}
 {{API_Object_Property
-|Property_applies_to=apis/webrtc/objects/MediaStreamTrackList
+|Property_applies_to=apis/webrtc/MediaStreamTrackList
 |Read_only=Yes
 |Example_object_name=list
 |Return_value_name=length
