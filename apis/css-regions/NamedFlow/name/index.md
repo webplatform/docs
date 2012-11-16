@@ -4,7 +4,7 @@
 {{API_Name}}
 {{Summary_Section|Name of flow, as specified by any element's  [[css/properties/flow-from|'''flow-from''']] or [[css/properties/flow-into|'''flow-into''']] properties.}}
 {{API_Object_Property
-|Property_applies_to=css/cssom/NamedFlow
+|Property_applies_to=apis/css-regions/NamedFlow
 |Read_only=Yes
 |Example_object_name=flow
 |Return_value_name=id
