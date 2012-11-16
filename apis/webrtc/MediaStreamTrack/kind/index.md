@@ -6,7 +6,7 @@
 {{API_Name}}
 {{Summary_Section|The value, either '''audio''' or '''video''' for the source of the track.}}
 {{API_Object_Property
-|Property_applies_to=apis/webrtc/objects/MediaStreamTrack
+|Property_applies_to=apis/webrtc/MediaStreamTrack
 |Read_only=Yes
 |Example_object_name=track
 }}
