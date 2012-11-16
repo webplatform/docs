@@ -1,11 +1,11 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The CSS border-color property sets the color of an element's four borders. This property can have from one to four values.}}
 {{CSS Property
 |Applies to=All elements
 |Inherited=No
@@ -73,6 +73,7 @@ a:hover {
 }}
 }}
 {{Notes_Section
+|Usage=Always declare the border-style property before the border-color property. An element must have borders before you can change the color.
 |Notes====Remarks===
 Up to four different colors can be specified in the following order: top, right, bottom, left. If one color is supplied, it is used for all four sides. If two colors are supplied, the first is used for the top and bottom, and the second is used for left and right. If three colors are supplied, they are used for top, right and left, and bottom, respectively.
 The '''border-color''' property does not render if the [[css/properties/border-style|'''border-style''']] property is set to '''none'''.
@@ -92,6 +93,7 @@ As of Microsoft Internet Explorer 5.5, this property applies to inline elements
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
