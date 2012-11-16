@@ -4,9 +4,9 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|A MediaStreamTrack has been added to the list. }}
+{{Summary_Section|A MediaStreamTrack has been added to the list.}}
 {{Event
-|Event_applies_to=apis/webrtc/objects/MediaStreamTrackList
+|Event_applies_to=apis/webrtc/MediaStreamTrackList
 }}
 {{Examples_Section
 |Not_required=No
