@@ -8,7 +8,7 @@
 {{API_Name}}
 {{Summary_Section|A region's display state within a region chain.}}
 {{API_Object_Property
-|Property_applies_to=css/cssom/Region
+|Property_applies_to=apis/css-regions/Region
 |Read_only=Yes
 |Example_object_name=region
 |Return_value_name=regionState
