@@ -6,7 +6,7 @@
 {{API_Name}}
 {{Summary_Section|Handles the addtrack event.}}
 {{API_Object_Property
-|Property_applies_to=apis/webrtc/objects/MediaStreamTrackList
+|Property_applies_to=apis/webrtc/MediaStreamTrackList
 |Read_only=No
 }}
 {{Examples_Section
