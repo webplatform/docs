@@ -6,7 +6,7 @@
 {{API_Name}}
 {{Summary_Section|A globally unique identifier (GUID) of 36 characters that describes the media stream.}}
 {{API_Object_Property
-|Property_applies_to=apis/webrtc/objects/MediaStream
+|Property_applies_to=apis/webrtc/MediaStream
 |Read_only=Yes
 |Example_object_name=stream
 |Javascript_data_type=String
