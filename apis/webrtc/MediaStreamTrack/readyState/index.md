@@ -10,7 +10,7 @@
 * ENDED (2) - the track has ended, and the underlying media source will not provide further data.
 }}
 {{API_Object_Property
-|Property_applies_to=apis/webrtc/objects/MediaStreamTrack
+|Property_applies_to=apis/webrtc/MediaStreamTrack
 |Read_only=Yes
 |Example_object_name=track
 |Return_value_name=state
