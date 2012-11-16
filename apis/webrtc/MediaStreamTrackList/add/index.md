@@ -12,7 +12,7 @@
 |Description=MediaStreamTrack '''track''', required.
 |Optional=No
 }}
-|Method_applies_to=apis/webrtc/objects/MediaStreamTrackList
+|Method_applies_to=apis/webrtc/MediaStreamTrackList
 |Example_object_name=trackList
 |Javascript_data_type=void
 }}
