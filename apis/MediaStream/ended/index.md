@@ -6,7 +6,7 @@
 {{API_Name}}
 {{Summary_Section|All tracks of the MediaStream object have ended; the MediaStream is said to be finished.}}
 {{Event
-|Event_applies_to=apis/webrtc/objects/MediaStream
+|Event_applies_to=apis/webrtc/MediaStream
 }}
 {{Examples_Section
 |Not_required=No
