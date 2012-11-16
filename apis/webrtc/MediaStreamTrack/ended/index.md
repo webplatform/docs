@@ -11,7 +11,7 @@
 * the stop() method was invoked
 }}
 {{Event
-|Event_applies_to=apis/webrtc/objects/MediaStreamTrack
+|Event_applies_to=apis/webrtc/MediaStreamTrack
 }}
 {{Examples_Section
 |Not_required=No
