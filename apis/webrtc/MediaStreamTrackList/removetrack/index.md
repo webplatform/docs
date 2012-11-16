@@ -6,7 +6,7 @@
 {{API_Name}}
 {{Summary_Section|A MediaStreamTrack has been removed from the list.}}
 {{Event
-|Event_applies_to=apis/webrtc/objects/MediaStreamTrackList
+|Event_applies_to=apis/webrtc/MediaStreamTrackList
 }}
 {{Examples_Section
 |Not_required=No
