@@ -6,7 +6,7 @@
 {{API_Name}}
 {{Summary_Section|The MediaStreamTrackList object representing the video tracks.}}
 {{API_Object_Property
-|Property_applies_to=apis/webrtc/objects/MediaStream
+|Property_applies_to=apis/webrtc/MediaStream
 |Read_only=Yes
 |Example_object_name=stream
 |Return_value_name=videoTrackList
