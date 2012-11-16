@@ -6,7 +6,7 @@
 {{API_Name}}
 {{Summary_Section|Handles the ended event when fired on the MediaStream object.}}
 {{API_Object_Property
-|Property_applies_to=apis/webrtc/objects/MediaStream
+|Property_applies_to=apis/webrtc/MediaStream
 |Read_only=No
 |Example_object_name=stream
 |Return_value_name=onended
