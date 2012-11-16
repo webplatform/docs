@@ -2,13 +2,12 @@
 {{Flags
 |High-level issues=Stub
 |Content=Incomplete, Examples Needed
-|Editorial notes=css/cssom/NamedFlow/regionlayoutupdate
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Fires on the  [[css/cssom/NamedFlow|'''NamedFlow''']] object when there is a change in how content flows through a region chain.}}
 {{Event
-|Event_applies_to=css/cssom/NamedFlow
+|Event_applies_to=apis/css-regions/NamedFlow
 |Content=Fires on the  [[css/cssom/NamedFlow|'''NamedFlow''']] object when there is a change in how content flows through a region chain.
 |Interface=TBD
 |Target=dom/Element
