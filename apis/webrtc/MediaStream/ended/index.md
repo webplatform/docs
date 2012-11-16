@@ -6,7 +6,7 @@
 {{API_Name}}
 {{Summary_Section|True if the ended event has fired on the MediaStream object.}}
 {{API_Object_Property
-|Property_applies_to=apis/webrtc/objects/MediaStream
+|Property_applies_to=apis/webrtc/MediaStream
 |Read_only=Yes
 |Example_object_name=stream
 |Javascript_data_type=Boolean
