@@ -6,7 +6,7 @@
 {{API_Name}}
 {{Summary_Section|A user agent-assigned string that identifies the track source, as in "internal microphone."}}
 {{API_Object_Property
-|Property_applies_to=apis/webrtc/objects/MediaStreamTrack
+|Property_applies_to=apis/webrtc/MediaStreamTrack
 |Read_only=Yes
 |Example_object_name=track
 |Javascript_data_type=String
