@@ -1,11 +1,11 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The CSS border-left-color property sets the color of an element's left border.}}
 {{CSS Property
 |Applies to=All elements
 |Inherited=No
@@ -47,6 +47,7 @@ This example uses a call to an embedded (global) style sheet to change the color
 }}
 }}
 {{Notes_Section
+|Usage=Always declare the border-style property before the border-left-color property. An element must have borders before you can change the color.
 |Notes====Remarks===
 Some client applications do not recognize color names, but all client applications should recognize RGB color values and display them correctly.
 As of Microsoft Internet Explorer 5.5, this property applies to inline elements.  With earlier versions of  Windows Internet Explorer, inline elements must have an '''absolute''' [[css/properties/position|'''position''']] or layout to use this property. Element layout is set by providing a value for the [[css/properties/height|'''height''']] property or the [[css/properties/width|'''width''']] property.
@@ -62,6 +63,7 @@ As of Microsoft Internet Explorer 5.5, this property applies to inline elements
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
