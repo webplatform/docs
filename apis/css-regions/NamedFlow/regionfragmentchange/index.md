@@ -6,15 +6,10 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Fires on the 
-[[css/cssom/NamedFlow|'''NamedFlow''']]
-object when there is a change in how content flows through a region chain.
-}}
+{{Summary_Section|Fires on the  [[css/cssom/NamedFlow|'''NamedFlow''']] object when there is a change in how content flows through a region chain.}}
 {{Event
 |Event_applies_to=css/cssom/NamedFlow
-|Content=Fires on the 
-[[css/cssom/NamedFlow|'''NamedFlow''']]
-object when there is a change in how content flows through a region chain.
+|Content=Fires on the  [[css/cssom/NamedFlow|'''NamedFlow''']] object when there is a change in how content flows through a region chain.
 |Interface=TBD
 |Target=dom/Element
 |Default_action=TBD
