@@ -6,7 +6,7 @@
 {{API_Name}}
 {{Summary_Section|The MediaStreamTrack object's source has resumed providing data.}}
 {{Event
-|Event_applies_to=apis/webrtc/objects/MediaStreamTrack
+|Event_applies_to=apis/webrtc/MediaStreamTrack
 }}
 {{Examples_Section
 |Not_required=No
