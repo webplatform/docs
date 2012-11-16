@@ -2,14 +2,13 @@
 {{Flags
 |High-level issues=Stub
 |Content=Incomplete, Examples Needed
-|Editorial notes=css/cssom/NamedFlow/getContent
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Returns a collection of nodes representing the flow's source content.}}
 {{API_Object_Method
 |Parameters=
-|Method_applies_to=css/cssom/NamedFlow
+|Method_applies_to=apis/css-regions/NamedFlow
 |Example_object_name=flow
 |Return_value_name=elements
 |Javascript_data_type=function
@@ -26,7 +25,6 @@ var flow = document.webkitGetNamedFlows()['main'];
 var elements = flow.getContent();
 // of these, get last element:
 var lastElement = elements[elements.length-1];
-
 }}
 }}
 {{Notes_Section}}
