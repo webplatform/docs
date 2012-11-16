@@ -2,7 +2,6 @@
 {{Flags
 |High-level issues=Stub
 |Content=Incomplete, Examples Needed
-|Editorial notes=css/cssom/NamedFlow/getRegionsByContent
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
@@ -13,7 +12,7 @@
 |Data type=DOM Node
 |Optional=No
 }}
-|Method_applies_to=css/cssom/NamedFlow
+|Method_applies_to=apis/css-regions/NamedFlow
 |Example_object_name=flow
 |Return_value_name=regions
 |Javascript_data_type=function
