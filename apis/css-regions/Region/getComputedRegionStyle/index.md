@@ -2,14 +2,13 @@
 {{Flags
 |High-level issues=Stub
 |Content=Incomplete, Examples Needed
-|Editorial notes=css/cssom/Region/getComputedRegionStyle
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|returns styles applied to the region, including styles from @region rules applied to ranges}}
 {{API_Object_Method
 |Parameters=
-|Method_applies_to=css/cssom/Region
+|Method_applies_to=apis/css-regions/Region
 |Return_value_description=returns styles applied to the region, including styles from @region rules applied to ranges
 }}
 {{Examples_Section
