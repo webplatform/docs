@@ -8,7 +8,7 @@
 {{API_Name}}
 {{Summary_Section|Returns the integer index of the first empty element within a region chain. Returns -1 if the content fits within the region chain or if it exceeds available space.}}
 {{API_Object_Property
-|Property_applies_to=css/cssom/NamedFlow
+|Property_applies_to=apis/css-regions/NamedFlow
 |Read_only=Yes
 |Example_object_name=flow
 |Return_value_name=index
