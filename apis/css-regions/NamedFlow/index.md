@@ -26,12 +26,14 @@ function modifyFlow(e) {
     if (flow.overset) {
       	appendRegion(flow.name);
     }
-    // does insufficient content leave some regions empty?
+    // ...or does insufficient content leave some regions empty?
     else if (flow.firstEmptyRegionIndex !== -1)	{
         trimRegions(flow.name);
     }
 }
-
+}}{{Single Example
+|Language=JavaScript
+|Code=// 2do
 }}
 }}
 {{Notes_Section
