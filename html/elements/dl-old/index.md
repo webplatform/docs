@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|'''dl''' element is used to define a *definition list*. Encloses a list of definition items which consist of two parts, a term and a description.}}
+{{Summary_Section|'''dl''' element is used to define a '''definition list'''. Encloses a list of definition items which consist of two parts, a term and a description.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLDListElement
 }}
