@@ -24,21 +24,9 @@ magazine-style layout elements.
 
 Two interfaces provide programmatic access to the CSS Regions feature:
 
-* The [[apis/css-regions/NamedFlow|'''NamedFlow''']] interface
-provides access to the content defined as
-[[css/properties/flow-into|'''flow-into''']], and the series of layout
-regions defined as [[css/properties/flow-from|'''flow-from''']].  You
-can check if the content exceeds or falls short of the available set
-of regions, listen for changes to how the content flows through the
-layout, and identify in which layout elements any content element
-appears.
+* The [[apis/css-regions/NamedFlow|'''NamedFlow''']] interface provides access to the content defined as [[css/properties/flow-into|'''flow-into''']], and the series of layout regions defined as [[css/properties/flow-from|'''flow-from''']].  You can check if the content exceeds or falls short of the available set of regions, listen for changes to how the content flows through the layout, and identify in which layout elements any content element appears.
 
-* The [[apis/css-regions/Region|'''Region''']] interface provides
-information on each region within the chain: whether it displays any
-content, how CSS styles the content based on the
-[[css/atrules/@region|'''@region''']] rule, and	how many fragmentary
-ranges of content it presents.
-
+* The [[apis/css-regions/Region|'''Region''']] interface provides information on each region within the chain: whether it displays any content, how CSS styles the content based on the [[css/atrules/@region|'''@region''']] rule, and	how many fragmentary ranges of content it presents.
 }}
 {{See_Also_Section
 |Topic_clusters=Regions
