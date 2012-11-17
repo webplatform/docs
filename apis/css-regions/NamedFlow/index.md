@@ -24,11 +24,11 @@ function modifyFlow(e) {
     var flow = e.target;
     // does content exceed available regions?
     if (flow.overset) {
-      	appendRegion(flow.name);
+      	appendRegion(flow.name); // custom function
     }
     // ...or does insufficient content leave some regions empty?
     else if (flow.firstEmptyRegionIndex !== -1)	{
-        trimRegions(flow.name);
+        trimRegions(flow.name); // custom function
     }
 }
 }}{{Single Example
@@ -49,9 +49,8 @@ var regions = flow.getRegionsByContent(firstPara);
 // If the element splits across two regions, do	something to modify
 // the layout or the content:
 if (regions.length > 1) {
-    adjustLayout(regions[0], firstPara);
+    adjustLayout(regions[0], firstPara); // custom function
 }
-
 }}
 }}
 {{Notes_Section
