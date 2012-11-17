@@ -5,13 +5,17 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The '''Region''' interface is available for any element that serves as a CSS ''region'', whose [[css/properties/flow-from|'''flow-from''']] CSS specifies it displays content from a ''named flow''.}}
 {{API_Object}}
 {{Examples_Section
 |Not_required=No
 |Examples=
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=Use the '''Region''' interface to determine whether any content flows through the region, what content currently displays, and any special CSS styling that applies.
+
+The interface is still available for elements that change back to non-region elements, when their [[css/properties/flow-from|'''flow-from''']] property becomes '''none'''.
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Regions Module Level 3
