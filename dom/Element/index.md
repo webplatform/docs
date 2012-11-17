@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status}}
@@ -20,50 +20,50 @@ The '''Element''' interface represents an element in an HTML or XML document. El
  
 [mailto:wsddocfb@microsoft.com?subject{{=}}Documentation%20feedback [ie_htmlref\ie]:%20Element object%20 RELEASE:%20(7/24/2012)&amp;body{{=}}%0A%0APRIVACY STATEMENT%0A%0AThe doc team uses your feedback to improve the documentation. We don't use your email address for any other purpose. We'll remove your email address from our system after the issue that you are reporting is resolved. While we are working to resolve this issue, we may send you an email message to request more info about your feedback. After the issue is addressed, we may send you an email message to let you know that your feedback has been addressed.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx. Send comments about this topic to Microsoft]
 Build date: 7/24/2012
-|Import_Notes====Members===
+|Import_Notes====Additional Members (MSDN)===
 The '''Element''' object has these types of members:
-*[#events Events]
-*[#methods Methods]
-*[#properties Properties]
+[[#Additional_Events|Additional Events]]
+[[#Additional_Methods|Additional Methods]]
+[[#Additional_Properties|Additional Properties]]
 
 
-====Events====
+====Additional Events====
 The '''Element''' object has these events.
-{| class="wikitable"
-|-
+{{{!}} class="wikitable"
+{{!}}-
 !Event
 !Description
-|-
-|[[dom/events/mspointercancel|'''onmspointercancel''']]
-|Fires when the system cancels a pointer event.
-|}
+{{!}}-
+{{!}}[[dom/events/mspointercancel|'''onmspointercancel''']]
+{{!}}Fires when the system cancels a pointer event.
+{{!}}}
  
 
-====Methods====
+====Additional Methods====
 The '''Element''' object has these methods.
-{| class="wikitable"
-|-
+{{{!}} class="wikitable"
+{{!}}-
 !Method
 !Description
-|-
-|[[css/regions/MSRange-collection/apis/methods/ms-get-region-content|'''msGetRegionContent''']]
-|Returns an array of Range instances corresponding to the content from the region flow that is positioned in the region.
-|}
+{{!}}-
+{{!}}[[css/regions/MSRange-collection/apis/methods/ms-get-region-content|'''msGetRegionContent''']]
+{{!}}Returns an array of Range instances corresponding to the content from the region flow that is positioned in the region.
+{{!}}}
  
 
-====Properties====
+====Additional Properties====
 The '''Element''' object has these properties.
-{| class="wikitable"
-|-
+{{{!}} class="wikitable"
+{{!}}-
 !Property
 !Description
-|-
-|[[css/properties/ms-content-zoom-factor|'''msContentZoomFactor''']]
-|Gets or sets a value that indicates the content zoom factor.
-|-
-|[[css/regions/MSRange-collection/apis/properties/ms-region-overflow|'''msRegionOverflow''']]
-|Determines if content fully fits into the region or not.
-|}
+{{!}}-
+{{!}}[[css/properties/ms-content-zoom-factor|'''msContentZoomFactor''']]
+{{!}}Gets or sets a value that indicates the content zoom factor.
+{{!}}-
+{{!}}[[css/regions/MSRange-collection/apis/properties/ms-region-overflow|'''msRegionOverflow''']]
+{{!}}Determines if content fully fits into the region or not.
+{{!}}}
  
 }}
 {{Related_Specifications_Section
@@ -71,6 +71,7 @@ The '''Element''' object has these properties.
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
