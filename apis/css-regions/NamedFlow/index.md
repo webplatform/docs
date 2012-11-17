@@ -5,12 +5,7 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Represents content to flow among various block ''region''
-elements. The '''NamedFlow''' interface allows access to both the
-content of the flow and the series of regions in which it displays,
-and helps determine if the content exceeds or falls short of the
-number of regions necessary to display it.
-}}
+{{Summary_Section|Represents content to flow among various block ''region'' elements. The '''NamedFlow''' interface allows access to both the content of the flow and the series of regions in which it displays, and helps determine if the content exceeds or falls short of the number of regions necessary to display it.}}
 {{API_Object}}
 {{Examples_Section
 |Not_required=No
@@ -54,15 +49,7 @@ if (regions.length > 1) {
 }}
 }}
 {{Notes_Section
-|Usage=Specifying an identifier for any element's
-[[css/properties/flow-into|'''flow-into''']] CSS property diverts its
-content to a '''NamedFlow''' object,
-whose '''name''' corresponds to the property's value. 
-Other elements that specify the same identifier as their
-[[css/properties/flow-from|'''flow-from''']] property serve as a chain
-of ''regions'' that dynamically display the content.  (The
-'''NamedFlow''' object is still available with NULL content if those
-properties are later removed.)
+|Usage=Specifying an identifier for any element's [[css/properties/flow-into|'''flow-into''']] CSS property diverts its content to a '''NamedFlow''' object, whose '''name''' corresponds to the property's value.  Other elements that specify the same identifier as their [[css/properties/flow-from|'''flow-from''']] property serve as a chain of ''regions'' that dynamically display the content.  (The '''NamedFlow''' object is still available with NULL content if those properties are later removed.)
 
 Use the [[dom/apis/document/getNamedFlows|'''getNamedFlows()''']] method to gather named flows from a document.
 }}
