@@ -1,15 +1,15 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The classList property reflects the class attribute as an ordered list of the whitespace separated class names. It has convenience methods for add, remove, contains and more.}}
+{{Summary_Section|Reflects the class attribute as an ordered list of the whitespace separated class names and has convenience methods for add, remove, contains and more.}}
 {{API_Object_Property
 |Property_applies_to=dom/Element
 |Read_only=Yes
-|Return_value_description=A DOMTokenList representing the class names of the element. 
+|Return_value_description=A DOMTokenList representing the class names of the element.
 }}
 {{Examples_Section
 |Not_required=No
@@ -26,6 +26,7 @@
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
@@ -33,8 +34,6 @@
 {{See_Also_Section
 |Manual_sections====Related pages (MSDN)===
 *<code>[[dom/HTMLElement|HTMLElement]]</code>
-
-
 }}
 {{Topics|DOM}}
 {{External_Attribution
