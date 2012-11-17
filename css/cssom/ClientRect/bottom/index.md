@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Gets the number of pixels from the bottom edge of the element to the bottom edge of the viewport.}}
+{{Summary_Section}}
 {{API_Object_Property
 |Property_applies_to=cssom/ClientRect
 |Read_only=Yes
