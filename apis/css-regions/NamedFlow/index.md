@@ -16,7 +16,22 @@ number of regions necessary to display it.
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
-|Code=// 2DO
+|Description=Generic event handler dispatches functions to add or delete regions based on changes to how content flows through a region chain:
+|Code=document.getNamedFlows()['main'].addEventListener('regionlayoutupdate', modifyFlow);
+document.getNamedFlows()['figures'].addEventListener('regionlayoutupdate', modifyFlow);
+
+function modifyFlow(e) {
+    var flow = e.target;
+    // does content exceed available regions?
+    if (flow.overset) {
+      	appendRegion(flow.name);
+    }
+    // does insufficient content leave some regions empty?
+    else if (flow.firstEmptyRegionIndex !== -1)	{
+        trimRegions(flow.name);
+    }
+}
+
 }}
 }}
 {{Notes_Section
