@@ -9,20 +9,27 @@
 {{API_Object_Property
 |Property_applies_to=dom/Element
 |Read_only=Yes
+|Example_object_name=element
+|Return_value_name=classList
 |Return_value_description=A DOMTokenList representing the class names of the element.
 }}
 {{Examples_Section
 |Not_required=No
 |Examples=
 }}
-{{Notes_Section
-|Import_Notes====Syntax===
-===Standards information===
-* [http://dom.spec.whatwg.org/#domtokenlist DOM] Section 9.1
-* [http://www.w3.org/TR/dom/#interface-domtokenlist DOM4], Section 9.2
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=WHATWG DOM
+|URL=http://dom.spec.whatwg.org/
+|Status=Living Standard
+|Relevant_changes=Section 9.1
+}}{{Related Specification
+|Name=DOM4
+|URL=http://www.w3.org/TR/dom/
+|Status=Working Draft
+|Relevant_changes=Section 9.2
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
