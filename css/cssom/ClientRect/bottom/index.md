@@ -7,7 +7,7 @@
 {{API_Name}}
 {{Summary_Section|Gets the number of pixels from the bottom edge of the element to the bottom edge of the viewport.}}
 {{API_Object_Property
-|Property_applies_to=dom/ClientRect
+|Property_applies_to=cssom/ClientRect
 |Read_only=Yes
 |Example_object_name=clientRect
 |Return_value_name=pixelsFromBottom
