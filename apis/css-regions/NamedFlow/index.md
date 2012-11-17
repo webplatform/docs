@@ -33,7 +33,25 @@ function modifyFlow(e) {
 }
 }}{{Single Example
 |Language=JavaScript
-|Code=// 2do
+|Description=Check if the opening paragraph splits across layout elements:
+|Code=// get flow
+var flow = document.webkitGetNamedFlows()['main'];
+
+// get all top-level flow-into elements that contribute to flow:
+var elements = flow.getContent();
+
+// get first element's first paragraph...
+var firstPara = elements[0].querySelector('p:first-of-type');
+
+// ...and the regions in which it appears:
+var regions = flow.getRegionsByContent(firstPara);
+
+// If the element splits across two regions, do	something to modify
+// the layout or the content:
+if (regions.length > 1) {
+    adjustLayout(regions[0], firstPara);
+}
+
 }}
 }}
 {{Notes_Section
