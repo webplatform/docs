@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -12,17 +12,20 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=HTML
 |Description=This example uses the className attribute to apply one or more styles to an HTML element.
-|Code=&lt;head&gt;
+|Code=&lt;!doctype html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;&lt;/title&gt;
     &lt;style type{{=}}"text/css"&gt;
         p {font-size: 24pt;}
         .redText {color: red;}
         .blueText {color: blue;}
         .italicText {font-style: italic;}
     &lt;/style&gt;
-&lt;/head&gt;
-
-&lt;body&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
     &lt;p&gt;
         Large text, no class specified, one implied.
     &lt;/p&gt;
@@ -32,7 +35,8 @@
     &lt;p class{{=}}"blueText italicText"&gt;
         Large text, .blueText and .italicText classes specified.
     &lt;/p&gt;
-&lt;/body&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
 }}
 }}
 {{Notes_Section
@@ -54,6 +58,7 @@ When two or more selectors pertain to an element, a style defined later takes pr
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
