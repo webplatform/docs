@@ -1,6 +1,5 @@
 {{Page_Title|Mobile optimization best practices}}
-{{Flags
-}}
+{{Flags}}
 {{Byline}}
 {{Summary_Section|One of the benefits of developing using the web is that your web app will run on nearly every smartphone and tablet.
 
@@ -63,11 +62,11 @@ HTML5 compatibility varies across browsers. [https://developers.facebook.com/htm
 To optimize the experience for non-supporting browsers you can make use of [http://www.modernizr.com/ Modernizr] and [http://yepnopejs.com/ YepNope] JavaScript libraries to detect feature support and setup fallback methods.
 
 === CSS Media Queries ===
-You can load style sheets that depend on device characteristics (orientation, size, resolution) through the use of a media query. For example the following will load the iPad style sheet for devices with screen sizes between 641 and 800 pixels in width.
+You can load style sheets that depend on device characteristics (orientation, size, resolution) through the use of a media query. For example the following will load a specific style sheet for devices with screen sizes between 641 and 800 pixels in width.
 
  <link rel="stylesheet"
    media="only screen and (min-width: 641px) and (max-width: 800px)" 
-   href="ipad.css">
+   href="medium_width.css">
 
 == User Experience ==
 
@@ -99,6 +98,7 @@ You can also upsell the user to this functionality by using the open source [htt
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
