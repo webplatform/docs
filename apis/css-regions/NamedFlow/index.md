@@ -64,7 +64,7 @@ of ''regions'' that dynamically display the content.  (The
 '''NamedFlow''' object is still available with NULL content if those
 properties are later removed.)
 
-Use the [[dom/apis/document/getNamedFlows|'''getNamedFlows''']] method to gather named flows from a document.
+Use the [[dom/apis/document/getNamedFlows|'''getNamedFlows()''']] method to gather named flows from a document.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
