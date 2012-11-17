@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Reflects the class attribute as an ordered list of the whitespace separated class names and has convenience methods for add, remove, contains and more.}}
+{{Summary_Section|Reflects the [[html/attributes/class|class]] attribute as an ordered list of the whitespace separated class names and has convenience methods for add, remove, contains and more.}}
 {{API_Object_Property
 |Property_applies_to=dom/Element
 |Read_only=Yes
