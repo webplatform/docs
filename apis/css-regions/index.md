@@ -22,7 +22,7 @@ flow's content through a dynamic chain of ''region'' elements.  The
 feature allows content to follow a path through arbitrarily placed
 magazine-style layout elements.
 
-Two interfaces provide programmatic access to the CSS Regions feature:
+Two interfaces allow programmatic access to the CSS Regions feature:
 
 * The [[apis/css-regions/NamedFlow|'''NamedFlow''']] interface provides access to the content defined as [[css/properties/flow-into|'''flow-into''']], and the series of layout regions defined as [[css/properties/flow-from|'''flow-from''']].  Use the [[dom/apis/document/getNamedFlows|getNamedFlows()]] method to access these flows.
 
