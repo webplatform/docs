@@ -21,7 +21,7 @@
 }}
 {{Notes_Section
 |Usage=Use this property to allow or disallow an element to be dragged and dropped.
-|Notes=The default value for most of the elements is false. [[html/elements/a|a]] elements are draggable by default.
+|Notes=The default value for most elements is '''false'''. [[html/elements/a|a]] and [[html/elements/img|img]] elements are draggable by default.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
