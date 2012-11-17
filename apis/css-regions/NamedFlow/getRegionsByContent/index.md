@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Returns theseries of regions that contain at least part of the supplied target content element.}}
+{{Summary_Section|Returns the series of regions that contain at least part of the supplied target content element.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=element
