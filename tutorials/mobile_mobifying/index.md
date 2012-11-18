@@ -107,6 +107,12 @@ Some of the styling changes that <code>mobile.css</code> enforces are:
 
 ==Mobile meta tags==
 
+Some mobile operators try to change/minify/compress content as it gets sent to the handheld device to save on bandwidth across the mobile network. This can happen with Javascript and images requested from a server with certain network operators, this can break javascript libraries and code. To stop the network operators from doing this, send the following meta tag down with your content or setup your web server to send the header on certain file types.
+
+<code>
+<meta http-equiv="cache-control" content="no-transform">
+</code> 
+
 Mobile WebKit supports a few goodies that give users a better browsing experience on certain devices.
 
 ===Viewport settings===
@@ -275,8 +281,10 @@ Second, we used the JS API to inform the user when a new manifest has finished d
 
 To save network traffic, keep your manifest simple. That is, don't call out every page on your site. Just list the important images, CSS, and JavaScript files. The last thing you want to do is force the mobile browser to download a large number of assets on every appcache update. Instead, remember that the browser will implicitly cache an html page when the user visits it (and if it includes a <code><html manifest="..."></code> attribute).
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Feature=Media queries
 |Chrome_supported=Yes
@@ -306,18 +314,28 @@ To save network traffic, keep your manifest simple. That is, don't call out ever
 |Android_version=2.1
 |Android_prefixed_supported=Unknown
 |Android_prefixed_version=
+|Blackberry_supported=Unknown
+|Blackberry_version=
+|Blackberry_prefixed_supported=Unknown
+|Blackberry_prefixed_version=
+|Chrome_mobile_supported=Yes
+|Chrome_mobile_prefixed_supported=Yes
 |Firefox_mobile_supported=Unknown
 |Firefox_mobile_version=
 |Firefox_mobile_prefixed_supported=Unknown
 |Firefox_mobile_prefixed_version=
-|IE_phone_supported=Unknown
-|IE_phone_version=
-|IE_phone_prefixed_supported=Unknown
-|IE_phone_prefixed_version=
+|IE_mobile_supported=Unknown
+|IE_mobile_version=
+|IE_mobile_prefixed_supported=Unknown
+|IE_mobile_prefixed_version=
 |Opera_mobile_supported=Yes
 |Opera_mobile_version=5.0
 |Opera_mobile_prefixed_supported=Unknown
 |Opera_mobile_prefixed_version=
+|Opera_mini_supported=Unknown
+|Opera_mini_version=
+|Opera_mini_prefixed_supported=Unknown
+|Opera_mini_prefixed_version=
 |Safari_mobile_supported=Yes
 |Safari_mobile_version=3.2
 |Safari_mobile_prefixed_supported=Unknown
