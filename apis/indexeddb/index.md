@@ -51,6 +51,9 @@ The IndexedDB storage follows the same-origin policy.
 }}
 {{See_Also_Section
 |External_links=* [http://www.w3.org/TR/IndexedDB/ W3C IndexedDB Specification]
+|Manual_sections=Wrappers
+
+* IDBStore [https://github.com/jensarps/IDBWrapper]
 }}
 {{Topics|IndexedDB}}
 {{External_Attribution
