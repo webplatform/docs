@@ -51,12 +51,12 @@ The IndexedDB storage follows the same-origin policy.
 }}
 {{See_Also_Section
 |External_links=* [http://www.w3.org/TR/IndexedDB/ W3C IndexedDB Specification]
-|Manual_sections=Wrappers
+|Manual_sections==== Wrappers ===
 
-*#IDBStore [https://github.com/jensarps/IDBWrapper]
-:#ease the use of indexedDB and abstract away the differences between the existing impls in Chrome, Firefox and IE10 (yes, it works in all three), and [https://github.com/jensarps/IDBWrapper]
+*IDBStore [https://github.com/jensarps/IDBWrapper]
+:#Ease the use of indexedDB and abstract away the differences between the existing impls in Chrome, Firefox and IE10 (yes, it works in all three), and [https://github.com/jensarps/IDBWrapper]
 
-:#show how IDB works. The code is split up into short methods, so that it's easy to see what happens in what method.[https://github.com/jensarps/IDBWrapper]
+:#Show how IDB works. The code is split up into short methods, so that it's easy to see what happens in what method.[https://github.com/jensarps/IDBWrapper]
 }}
 {{Topics|IndexedDB}}
 {{External_Attribution
