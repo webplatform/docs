@@ -1,5 +1,4 @@
 {{Page_Title|The basics of HTML}}
-{{Languages|guides/the_basics_of_html}}
 {{Flags}}
 {{Byline}}
 {{Summary_Section|In this article, you will learn the basics of HTML, where it has
@@ -52,62 +51,6 @@ Many people use the terms element and tag interchangeably however, which is not 
  
 In most browsers there is a “Source” or “View Source” option, commonly under
 the “View” menu. Try this now - go to your favourite web site, choose this option, and spend some time looking at the HTML that makes up the structure of the page.
-
-== The history of HTML ==
- 
-In the article [[The history of the Web|The history of the Internet and the web, and the evolution of web standards]] you learned a little about how 
-the modern Web came about. When Tim Berners-Lee invented the World Wide Web, he created both the first web server and web browser and 
-[http://www.w3.org/History/19921103-hypertext/hypertext/WWW/MarkUp/MarkUp.html the first version of HTML].
- 
-Whilst HTML has changed considerably since the first days, a lot of
-the content of modern-day HTML is embodied in that first
-documentation and more than half of the “tags” described in the
-original “HTML tags” document still exist.
- 
-As more people started writing web pages and alternatives to the 
-original browser software, more features were added to HTML. 
-Many were adopted universally (such as the <code>img</code> element used to 
-insert an image into a document, first implemented in NCSA Mosaic).
-Some were more proprietary and really only used in one or two
-browsers. There was a growing need for standardisation — so that web developers and
-authors of web browsing software had a document (called a
-“specification”) that definitively described to them what HTML 
-looked like so they could judge whether they were implementing/using HTML correctly.
- 
-The [http://www.ietf.org/ IETF] (Internet Engineering Task Force — a standards body
-concerned with inter-operability across the internet) published a
-draft proposal of HTML in 1993. This expired without becoming a
-standard in 1994, but prompted the IETF to create a working group to
-look at HTML standardisation.
- 
-In 1995, HTML 2.0 was written, taking ideas from the original 
-HTML draft. An alternate proposal called HTML+ was also written by
-Dave Raggett, which was used as a basis for many of the new elements implemented by browsers (such as the method for inserting images into documents, pioneered by NCSA Mosaic).
- 
-A draft of HTML 3.0 followed later that year, but work on that version
-was discontinued because of a lack of support for the direction from
-browser makers. HTML 3.2 dropped many of the new features of 3.0, and
-instead adopted many of the creations of the then-popular browsers
-Mosaic and Netscape Navigator.
- 
-In 1997, the W3C published HTML 4.0 as a recommendation that adopted
-more browser-specific extensions but also attempted to rationalise and
-clean up HTML. This was done by marking various elements as 
-deprecated—which means the elements are obsolete and whilst they
-still exist in this version they will be removed in a later revision.
-This was to encourage better and more semantic use of HTML in 
-documents (described in more detail our [[The_web_standards_model_-_HTML_CSS_and_JavaScript|The web standards model]]).
- 
-HTML 4.01 was published in 1999, with some errata noted in 2001. This
-is the latest version of HTML, although HTML 5 is currently being
-drafted.
- 
-In 2000, the W3C also published the XHTML 1.0 specification, which was
-HTML re-structured to be a valid XML document.
-
-In 2007, the W3C restarted the work on HTML by creating a new working group and adopting the work started by the [[WhatWG]] as [[HTML5]]. In this course we will be using HTML5, but don't worry — if you have already done some work in HTML4, you won't need to relearn everything. HTML5 contains all of HTML4 (albeit with some features redefined), and also adds some new powerful features on top. We'll make it clear when something we are talking about is new in HTML5.
-
-You may also want to read [[HTML/Training/What_is_HTML|What is HTML?]]
 
 == The structure of an HTML document ==
  
@@ -242,6 +185,7 @@ For more information about working with character escapes see [http://www.w3.org
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
@@ -254,6 +198,16 @@ For more information about working with character escapes see [http://www.w3.org
 |MSDN_link=
 |HTML5Rocks_link=
 }}
+{{Languages|guides/the_basics_of_html}}
+
+
+
+
+
+
+
+
+
 {{API_Name}}
 
 
