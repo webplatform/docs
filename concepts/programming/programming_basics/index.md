@@ -1,9 +1,7 @@
 {{Page_Title|Programming basics}}
 {{Flags
-|Content=Grammar/Spelling, Examples Best Practices
-|Editorial notes=Greater than, instead of then
-
-The test at the end uses !== and asks for a loop using foreach, or for .... but none of this was covered
+|Content=Examples Best Practices
+|Editorial notes=The test at the end uses !== and asks for a loop using foreach, or for .... but none of this was covered
 
 And where can we find the answers?
 }}
@@ -57,7 +55,7 @@ Shifting those around you can determine x:
 <pre>x = 8 - 3 
 -&gt; x = 5</pre>
  
-When you introduce more then one you make your term more flexible - you are using variables:
+When you introduce more than one you make your term more flexible - you are using variables:
  
 <pre>x + y = 8</pre>
  
