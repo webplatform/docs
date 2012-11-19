@@ -26,7 +26,34 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=Check if the formatting of an element's property varies within a region chain
+|Code=var flow = document.webkitGetNamedFlows()['sidebar'];
+var regions = flow.getRegions();
+var contents = flow.getContent();
+
+// get a sample of pull-quote content
+var pull = contents[0].querySelector('aside.pullquote')
+
+// are there discrepancies in how text would be colored
+// throughout the chain?
+varies = regionsVaryCSS(regions, pull, 'color');
+
+function regionsVaryCSS(regs, elem, prop) {
+    var values = {};
+    var value, style;
+    var count = 0;
+    for (var i = 0; i < regs.length; i++) {
+        value = regs[i].getComputedRegionStyle(elem).getPropertyValue(prop);
+        values[value] || values[value] = 0;
+        values[value]++;
+    }
+    for (key in values) if (values.hasOwnProperty(key)) count++;
+    return count;
+}
+
+}}
 }}
 {{Notes_Section
 |Usage=Behaves the same as [[css/cssom/methods/getComputedStyle|'''getComputedStyle()''']], but incorporates CSS formatting from [[css/atrules/@region|'''@region''']] rules that may apply to individual regions.
