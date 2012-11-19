@@ -5,11 +5,19 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|returns styles applied to the region, including styles from @region rules applied to ranges}}
+{{Summary_Section|Returns styles applied to the region, including styles from [[css/atrules/@region|'''@region''']] rules applied to ranges}}
 {{API_Object_Method
-|Parameters=
+|Parameters={{Method Parameter
+|Name=element
+|Data type=DOM Node
+|Description=element whose formatting needs to be determined, regardless of whether it currently appears within the region
+|Optional=No
+}}
 |Method_applies_to=apis/css-regions/Region
-|Return_value_description=returns styles applied to the region, including styles from @region rules applied to ranges
+|Example_object_name=region
+|Return_value_name=stylesheet
+|Javascript_data_type=CSSStyleDeclaration
+|Return_value_description=Returns styles applied to the region, including styles from [[css/atrules/@region|'''@region''']] rules applied to ranges
 }}
 {{Examples_Section
 |Not_required=No
@@ -27,7 +35,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=CSS Layout, Regions
+|Topic_clusters=Regions
 }}
 {{Topics|CSS}}
 {{External_Attribution
