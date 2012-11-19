@@ -2,7 +2,6 @@
 {{Flags
 |High-level issues=Stub
 |Content=Incomplete, Examples Needed
-|Editorial notes=css/cssom/Region/regionOverset
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
@@ -19,15 +18,22 @@
 
 * '''empty''' indicates content was accommodated by previous regions in the chain, or that no content flows into the chain.
 
-* '''fit''' indicates when content appears within the last region in the chain but does not overflow it, or that previous regions in the chain flow content into subsequent regions.
+* '''fit''' indicates various scenarios:
 
-Note: prior regions that are too small to display each item of content (such as figures) are still identified as '''fit''' even if they don't display the content.
+** when content appears within the last region in the chain but does not overflow it
+
+** for regions that flow content into subsequent regions in the chain
+
+** for regions that are too small to display the next available item of content, such as an image, which gets pushed into a subsequent region
+
+** for elements that no longer behave as a region, which occurs when their [[css/properties/flow-into|'''flow-into''']] property reverts to '''none'''
+
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
-|Description=Check if region needs to be deleted or appended
+|Description=Check if region needs to be deleted or appended:
 |Code=if (region.regionOverset == 'empty') {
     // delete region?
 } else if (region.regionOverset == 'overset') {
