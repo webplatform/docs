@@ -20,7 +20,7 @@ Optionally, many libraries are available from CDN's such as [https://developers.
 
 === Usage ===
 
-To include a library in your application you simply add a <code>&amp;lt;script&amp;gt;</code></pre> tag to your <code>&amp;lt;head&amp;gt;</code> tag with the <code>src</code> attribute to the URL or path to the library source. Below you see two examples on how to load the jQuery library, one from Google Hosted Libraries and one from a local path.
+To include a library in your application you simply add a <code>&lt;script&gt;</code></pre> tag to your <code>&lt;head&gt;</code> tag with the <code>src</code> attribute to the URL or path to the library source. Below you see two examples on how to load the jQuery library, one from Google Hosted Libraries and one from a local path.
 
 ==== Examples ====
 
