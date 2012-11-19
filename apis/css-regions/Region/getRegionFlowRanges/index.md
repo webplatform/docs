@@ -42,7 +42,7 @@ If the region is too small to display the content, it returns a single collapsed
 
 Calling it on an empty region (one whose [[apis/css-regions/Region/regionOverset|'''regionOverset''']] is '''empty''') returns an empty list.
 
-Calling it on an element that is no longer a region (when its [[css/properties/flow-from|'''flow-from''']] property reverts to '''none''') returns '''null'''. The following tests whether the block element currently serves as a region:
+Calling it on an element that is no longer a region (when its [[css/properties/flow-from|'''flow-from''']] property reverts to '''none''') returns '''null'''. The following tests whether the block element currently behaves as a region:
 
  isRegion = (element.getRegionFlowRanges() !== null);
 |Notes=Regions may display more than one range, because more than one element may specify [[css/properties/flow-into|'''flow-into''']] to contribute to a flow, and the boundary between those content elements may fall within a region. Also, any content element's nested elements can be diverted to a different named flow, thus interrupting the original sequence of content. (See [[css/properties/flow-into|'''flow-into''']] for more details on these scenarios.)
