@@ -36,8 +36,8 @@ var contents = flow.getContent();
 // get a sample of pull-quote content
 var pull = contents[0].querySelector('aside.pullquote')
 
-// are there discrepancies in how text would be colored
-// throughout the chain?
+// are there discrepancies in how the pull-quote's text
+// would be colored throughout the region chain?
 varies = regionsVaryCSS(regions, pull, 'color');
 
 function regionsVaryCSS(regs, elem, prop) {
