@@ -17,7 +17,24 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=Check a region for interruptions in source content:
+|Code=// get flow                                                                                                                     
+var flow = document.webkitGetNamedFlows()['main'];
+
+// get second region that displays content                                                                                      
+var region = flow.getRegions()[1];
+
+// how many content fragments display there?                                                                                    
+var ranges = region.getRegionFlowRanges();
+
+// perhaps do something to fix layout if content has been interrupted:                                                          
+if (ranges.length > 1) {
+    adjustlayout(region) // custom function                                                                                     
+}
+
+}}
 }}
 {{Notes_Section
 |Usage=Regions may display more than one range, because more than one element may specify [[css/properties/flow-into|'''flow-into''']] to contribute to a flow, and the boundary between those content elements may fall within a region. Also, any content element's nested elements can be diverted to a different named flow, thus interrupting the original sequence of content. (See [[css/properties/flow-into|'''flow-into''']] for more details.)
@@ -31,7 +48,6 @@ Calling it on an empty region (one whose [[apis/css-regions/Region/regionOverset
 Calling it on an element that is no longer a region (when its [[css/properties/flow-from|'''flow-from''']] property reverts to '''none''') returns '''null'''. The following tests whether the block element currently serves as a region:
 
  isRegion = (element.getRegionFlowRanges() !== null);
-
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
