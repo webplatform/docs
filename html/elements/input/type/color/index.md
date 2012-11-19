@@ -1,8 +1,8 @@
 {{Page_Title}}
 {{Flags}}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Shows a color field that when clicked, displays a color picker.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLInputElement
 }}
@@ -10,15 +10,21 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Code=<input type="color" value="#2986ad">
+|Description=When viewed using a supporting user agent, the following example shows a field, usually indicating a red color. When clicked, a color picker shows up. Selecting a color would change the indicated color to the chosen color.
+|Code=&lt;input type="color" value="#ff0000"/&gt;
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=Use this input type to let the user choose a color using a standard color picker.
+|Notes=*Currently, most user agents do not implement this input type. A customized implementation or poly-fill can usually provide a close alternative.
+*The value can only express opaque colors, there is no support for an alpha channel/transparency.
+}}
 {{Related_Specifications_Section
 |Specifications=
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
 |Chrome_version=20
@@ -74,7 +80,11 @@
 |Safari_mobile_prefixed_supported=No
 |Safari_mobile_prefixed_version=
 }}
-|Notes_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=6 and later
+|Note=For an alternative, non standard implementation, see [[dom/methods/ChooseColorDlg|ChooseColorDlg]].
+}}
 }}
 {{See_Also_Section}}
 {{Topics|HTML}}
