@@ -20,14 +20,13 @@
 
 * '''fit''' indicates various scenarios:
 
-** when content appears within the last region in the chain but does not overflow it
+** when content appears within the last region in the chain but does not overflow it, as described in '''overset''' above  
 
 ** for regions that flow content into subsequent regions in the chain
 
 ** for regions that are too small to display the next available item of content, such as an image, which gets pushed into a subsequent region
 
 ** for elements that no longer behave as a region, which occurs when their [[css/properties/flow-into|'''flow-into''']] property reverts to '''none'''
-
 }}
 {{Examples_Section
 |Not_required=No
