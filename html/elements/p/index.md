@@ -102,6 +102,9 @@
 |Browser=Internet Explorer
 |Version=8
 |Note=The element is automatically closed when a [[html/elements/table|'''TABLE''']] element is encountered. For example, <code>&lt;p&gt;&lt;table&gt;..&lt;/table&gt;&lt;/p&gt;</code> is now parsed as <code>&lt;p&gt;..&lt;/p&gt;&lt;table&gt;..&lt;/table&gt;</code>.
+}}{{Compatibility Notes Row
+|Browser=Android Browser
+|Note=When placed within a [[html/elements/div|div]] element, this element might not expand to the full width of its containing element. Setting a background (a non transparent color or any background image) using CSS fixes the issue.
 }}
 }}
 {{See_Also_Section
