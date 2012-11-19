@@ -34,7 +34,7 @@
 |Description=In the following example, a user stored a preference where they want to go straight to the User Account page when they go to the homepage of the website. The code checks for such preference and replaces the URL shown by the browser accordingly and shows a User Account page (albeit minimal).
 This way, there will be no history record for the original homepage of the website, only for the User Account page.
 |Code=if (localStorage["first-page"] {{=}}={{=}} "account") {
- window.history.replaceState({"page": "account", "User Account", "/account");
+ window.history.replaceState({"page": "account", "User Account", "/account"});
  document.body.innerHTML = "&lt;h1&gt;User Account&lt;/h1&gt;";
 }
 }}
