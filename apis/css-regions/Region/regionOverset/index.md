@@ -20,7 +20,7 @@
 
 * '''fit''' indicates various scenarios:
 
-** when content appears within the last region in the chain but does not overflow it, as described in '''overset''' above  
+** when content appears within the last region in the chain but does not overflow it, as described above in '''overset'''  
 
 ** for regions that flow content into subsequent regions in the chain
 
