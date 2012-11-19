@@ -1,24 +1,38 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Stub
+|High-level issues=Stub, Needs Topics
 |Content=Incomplete, Examples Needed
+|Editorial notes=references DOM Range API, for which there's no apparent doc available
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|returns a series of ranges corresponding to how content flows within each region}}
+{{Summary_Section|Returns a series of '''Range''' objects that represent the fragments of DOM content that currently flow into the region.}}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=apis/css-regions/Region
 |Example_object_name=region
 |Return_value_name=ranges
 |Javascript_data_type=function
-|Return_value_description=returns a series of ranges corresponding to how content flows within each region
+|Return_value_description=Returns a series of '''Range''' objects that represent the fragments of DOM content that currently flow into the region.
 }}
 {{Examples_Section
 |Not_required=No
 |Examples=
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=Regions may display more than one range, because more than one element may specify [[css/properties/flow-into|'''flow-into''']] to contribute to a flow, and the boundary between those content elements may fall within a region. Also, any content element's nested elements can be diverted to a different named flow, thus interrupting the original sequence of content. (See [[css/properties/flow-into|'''flow-into''']] for more details.)
+
+By default, calling '''getRegionFlowRanges()''' on an overflowing region at the end of a chain (one whose [[apis/css-regions/Region/regionOverset|'''regionOverset''']] is '''overset''') returns fragments representing all remaining content that may [[css/properties/overflow|'''overflow''']] out of view.  If the region's [[css/properties/region-fragment|'''region-fragment''']] property is set to '''break''', it returns only those fragments of content that fit neatly within the region.
+
+If the region is too small to display the content, it returns a single collapsed range.
+
+Calling it on an empty region (one whose [[apis/css-regions/Region/regionOverset|'''regionOverset''']] is '''empty''') returns an empty list.
+
+Calling it on an element that is no longer a region (when its [[css/properties/flow-from|'''flow-from''']] property reverts to '''none''') returns '''null'''. The following tests whether the block element currently serves as a region:
+
+ isRegion = (element.getRegionFlowRanges() !== null);
+
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Regions Module Level 3
