@@ -20,7 +20,7 @@
 }}
 |Method_applies_to=apis/css-regions/Region
 |Example_object_name=region
-|Return_value_name=stylesheet
+|Return_value_name=propValue
 |Javascript_data_type=CSSStyleDeclaration
 |Return_value_description=Returns styles calculated for the region, including styles from [[css/atrules/@region|'''@region''']] rules applied to ranges.
 }}
