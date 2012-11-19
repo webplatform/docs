@@ -33,11 +33,10 @@ var ranges = region.getRegionFlowRanges();
 if (ranges.length > 1) {
     adjustlayout(region) // custom function                                                                                     
 }
-
 }}
 }}
 {{Notes_Section
-|Usage=Regions may display more than one range, because more than one element may specify [[css/properties/flow-into|'''flow-into''']] to contribute to a flow, and the boundary between those content elements may fall within a region. Also, any content element's nested elements can be diverted to a different named flow, thus interrupting the original sequence of content. (See [[css/properties/flow-into|'''flow-into''']] for more details.)
+|Usage=Regions may display more than one range, because more than one element may specify [[css/properties/flow-into|'''flow-into''']] to contribute to a flow, and the boundary between those content elements may fall within a region. Also, any content element's nested elements can be diverted to a different named flow, thus interrupting the original sequence of content. (See [[css/properties/flow-into|'''flow-into''']] for more details on these scenarios.)
 
 By default, calling '''getRegionFlowRanges()''' on an overflowing region at the end of a chain (one whose [[apis/css-regions/Region/regionOverset|'''regionOverset''']] is '''overset''') returns fragments representing all remaining content that may [[css/properties/overflow|'''overflow''']] out of view.  If the region's [[css/properties/region-fragment|'''region-fragment''']] property is set to '''break''', it returns only those fragments of content that fit neatly within the region.
 
