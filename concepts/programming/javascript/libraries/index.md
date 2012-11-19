@@ -1,12 +1,42 @@
 {{Page_Title|JavaScript libraries}}
 {{Flags
-|High-level issues=Stub, Needs Topics, Missing Relevant Sections
+|High-level issues=Stub, Missing Relevant Sections
+|Content=Not Neutral, Examples Best Practices
+|Editorial notes=Meteor description is not in line with the other library descriptions.
 }}
-{{Summary_Section|Index page for JavaScript libraries}}
+{{Summary_Section|Introduction to JavaScript libraries}}
 {{Basic Page}}
 {{Special:PrefixIndex/js/libraries/}}
 
-This page showcases JavaScript libraries. They're sorted alphabetically. If you don't see yours, please add it to the list.
+== Overview ==
+
+Libraries play a big part in the JavaScript developer's arsenal. They provide pre-written JavaScript code which makes common or complex tasks easy to do. JavaScript libraries often target specific tasks such as DOM manipulation, framework setup and AJAX handling.
+
+== Getting started ==
+
+The most commonly used libraries have rich communities and forums where you can get help on getting started with that particular library. JavaScript libraries are often downloaded from the library developer site. Many library developers provide both a development and production versions of their libraries. The development versions contain non-minified code which often include comments and hints whereas the production versions often are minified and compressed for to be used upon live site use.
+
+Optionally, many libraries are available from CDN's such as [https://developers.google.com/speed/libraries/ Google Hosted Libraries], [http://cdnjs.com/ cdnjs] and [http://www.asp.net/ajaxlibrary/cdn.ashx Microsoft Ajax Content Delivery Network].
+
+=== Usage ===
+
+To include a library in your application you simply add a <code>&amp;lt;script&amp;gt;</code></pre> tag to your <code>&amp;lt;head&amp;gt;</code> tag with the <code>src</code> attribute to the URL or path to the library source. Below you see two examples on how to load the jQuery library, one from Google Hosted Libraries and one from a local path.
+
+==== Examples ====
+
+From CDN (Google Hosted Libraries):
+<syntaxhighlight lang="html5">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+</syntaxhighlight>
+
+From a local path:
+<syntaxhighlight lang="html5">
+<script src="js/lib/jquery.min.js"></script>
+</syntaxhighlight>
+
+== Common libraries ==
+
+This list showcases JavaScript libraries. They're sorted alphabetically. If you don't see yours, please add it to the list.
 
 {|
 ! align="left"| Library
@@ -31,7 +61,7 @@ This page showcases JavaScript libraries. They're sorted alphabetically. If you 
 |Meteor is an open-source platform for building top-quality web apps in a fraction of the time, whether you're an expert developer or just getting started.
 |-
 |[http://prototypejs.org/ Prototype]
-|Prototype is a JavaScript Framework that aims to ease development of dynamic web applications. Featuring a unique, easy-to-use toolkit for class-driven development and the nicest Ajax library around, Prototype is quickly becoming the codebase of choice for web application developers everywhere..
+|Prototype is a JavaScript Framework that aims to ease development of dynamic web applications. Featuring a unique, easy-to-use toolkit for class-driven development and the nicest Ajax library around, Prototype is quickly becoming the codebase of choice for web application developers everywhere.
 |-
 |[http://underscorejs.org/ Underscore]
 |Underscore is a utility-belt library for JavaScript that provides a lot of the functional programming support that you would expect in Prototype.js (or Ruby), but without extending any of the built-in JavaScript objects. It's the tie to go along with jQuery's tux, and Backbone.js's suspenders.
