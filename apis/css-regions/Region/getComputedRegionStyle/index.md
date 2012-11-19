@@ -46,13 +46,12 @@ function regionsVaryCSS(regs, elem, prop) {
     var count = 0;
     for (var i = 0; i < regs.length; i++) {
         value = regs[i].getComputedRegionStyle(elem).getPropertyValue(prop);
-        values[value] || values[value] = 0;
+        if (! values[value]) values[value] = 0;
         values[value]++;
     }
     for (key in values) if (values.hasOwnProperty(key)) count++;
     return count;
 }
-
 }}
 }}
 {{Notes_Section
