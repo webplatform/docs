@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Returns styles calculated for the region, including styles from [[css/atrules/@region|'''@region''']] rules applied to ranges.}}
+{{Summary_Section|Returns styles calculated for an element as it appears within a region, including styles from [[css/atrules/@region|'''@region''']] rules applied to ranges within the element.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=element
@@ -22,7 +22,7 @@
 |Example_object_name=region
 |Return_value_name=propValue
 |Javascript_data_type=CSSStyleDeclaration
-|Return_value_description=Returns styles calculated for the region, including styles from [[css/atrules/@region|'''@region''']] rules applied to ranges.
+|Return_value_description=Returns styles calculated for an element as it appears within a region, including styles from [[css/atrules/@region|'''@region''']] rules applied to ranges within the element.
 }}
 {{Examples_Section
 |Not_required=No
