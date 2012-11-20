@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Tne AudioContext that owns this AudioNode.}}
+{{Summary_Section|The AudioContext that owns this AudioNode.}}
 {{API_Object_Property
 |Property_applies_to=apis/webaudio/AudioNode
 |Read_only=Yes
