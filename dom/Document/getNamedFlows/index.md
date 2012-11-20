@@ -6,13 +6,14 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Gathers [[apis/css-regions/NamedFlow|'''NamedFlow''']] objects, each representing a set of content that flows through various layout regions.}}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=dom/apis/document
 |Example_object_name=document
 |Return_value_name=flows
-|Return_value_description=Returns a '''NamedFlowCollection''' object accessible via standard array methods.
+|Javascript_data_type=DOM Node
+|Return_value_description=Returns a '''NamedFlowCollection''' object accessible via standard array methods. Each member is a [[apis/css-regions/NamedFlow|'''NamedFlow''']] instance that represents a set of content that flows through various layout regions.
 }}
 {{Examples_Section
 |Not_required=No
