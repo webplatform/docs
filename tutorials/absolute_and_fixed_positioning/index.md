@@ -119,7 +119,7 @@ Let’s try an example out to see how it works.
    width: 6em;
    height: 4em;
    background-color: #999;
-   '''position: absolute;'''
+   position: absolute;
  }</pre>
 </li>
 <li>
@@ -140,7 +140,7 @@ The second interesting thing is that the absolutely positioned box didn’t move
 <pre>#outer {
    margin: 5em;
    border: 1px solid #f00;
-   '''height: 4em;'''
+   height: 4em;
  }
  
  #inner {
@@ -148,7 +148,7 @@ The second interesting thing is that the absolutely positioned box didn’t move
    height: 4em;
    background-color: #999;
    position: absolute;
-   '''left: 1em;'''
+   left: 1em;
  }</pre>
 </li>
 <li>
@@ -161,7 +161,7 @@ The second interesting thing is that the absolutely positioned box didn’t move
    margin: 5em;
    border: 1px solid #f00;
    height: 4em;
-   '''position: relative;'''
+   position: relative;
  }</pre>
 </li>
 <li>
@@ -184,7 +184,7 @@ Internet Explorer 6 and older, and also Opera 8 and older, got this entirely wro
 <p>Begin by specifying the dimensions of <code>#inner</code> using percentage values—make the following changes to the <code>#inner</code> rule:</p>
 
 <pre>#inner {
-   '''width: 50%;''' '''height: 50%;'''
+   width: 50%; height: 50%;
    background-color: #999;
    position: absolute;
    left: 1em;
@@ -200,7 +200,7 @@ Internet Explorer 6 and older, and also Opera 8 and older, got this entirely wro
    margin: 5em;
    border: 1px solid #f00;
    height: 4em;
-   '''position: static;'''
+   position: static;
  }</pre>
 </li>
 <li>
@@ -259,7 +259,7 @@ This whole thing can be rather difficult to imagine, so let’s do some practica
  }
  
  #inner {
-   '''width: 5em;''' '''height: 5em;'''
+   width: 5em; height: 5em;
    background-color: #999;
    position: absolute;
    left: 1em;
@@ -454,8 +454,10 @@ Elements with fixed positioning are fixed with respect to the viewport—the vie
 
 All positioned elements are rendered at a certain stack level within a stacking context. You can change the stack level of a positioned element using the <code>z-index</code> property. When <code>z-index</code> is specified as an integer value, the element establishes a local stacking context for its descentants.
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
@@ -475,3 +477,4 @@ All positioned elements are rendered at a certain stack level within a stacking 
 |MSDN_link=
 |HTML5Rocks_link=
 }}
+}
