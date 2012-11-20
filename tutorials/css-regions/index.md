@@ -5,7 +5,7 @@
 {{Byline}}
 {{Summary_Section|Enabling complex threaded layouts}}
 {{Tutorial
-|Content=CSS Regions provides a way to implement complex magazine-style designs in which content flows through freely positioned layout elements. The feature offers you the basic tool to flow content from one layout element to another, but does not specify how they appear on the screen. For that, use whatever technique is appropriate: floats, flexible boxes, grid layout, or absolute positioning.
+|Content=CSS Regions provides a way to implement complex magazine-style designs in which content flows through freely positioned layout elements. The feature offers you the basic tool to flow content from one layout element to another, but does not specify how they appear on the screen. For that, use whatever technique is appropriate: floats, flexible boxes, grid layout, or absolute positioning. The examples shown here use flexible boxes.
 
 ==How flow-into and flow-from properties work==
 
