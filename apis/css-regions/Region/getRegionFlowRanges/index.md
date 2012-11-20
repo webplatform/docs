@@ -6,14 +6,14 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Returns a collection of [[dom/apis/range|'''Range''']] objects that represent the fragments of DOM content that currently flow into the region.}}
+{{Summary_Section|Returns a series of [[dom/apis/range|'''Range''']] objects that represent the fragments of DOM content that currently flow into the region.}}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=apis/css-regions/Region
 |Example_object_name=region
 |Return_value_name=ranges
 |Javascript_data_type=function
-|Return_value_description=Returns a collection of [[dom/apis/range|'''Range''']] objects that represent the fragments of DOM content that currently flow into the region.
+|Return_value_description=Returns a series of [[dom/apis/range|'''Range''']] objects that represent the fragments of DOM content that currently flow into the region.
 }}
 {{Examples_Section
 |Not_required=No
