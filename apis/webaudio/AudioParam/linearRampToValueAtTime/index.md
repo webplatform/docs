@@ -10,7 +10,7 @@
 |Description=The value the parameter will linearly ramp to at the given time.
 |Optional=No
 }}{{Method Parameter
-|Name=endtime
+|Name=endTime
 |Data type=Number
 |Description=The time at which to stop linearly ramping the value, in the same time coordinate system as AudioContext.currentTime.
 |Optional=No
