@@ -31,7 +31,9 @@ for (var i = 0; i < flows.length; i++) {
 }
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Notes=See [[css/properties/flow-from|'''flow-from''']] for an overview of CSS Regions.
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Regions Module Level 3
