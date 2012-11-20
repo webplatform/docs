@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Stub
 |Content=Incomplete, Examples Needed
+|Editorial notes=NamedFlowCollection not in list of return value types
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
@@ -9,17 +10,24 @@
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=dom/apis/document
+|Example_object_name=document
+|Return_value_name=flows
+|Return_value_description=Returns a '''NamedFlowCollection''' object accessible via standard array methods.
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
 |Description=Various ways to access named flows:
-|Code=var flow;
+|Code=var flow, flows;
 flow = document.webkitGetNamedFlows()["main"];
 flow = document.webkitGetNamedFlows().item(0);
 flow = document.webkitGetNamedFlows()[0];
 
+flows = document.webkitGetNamedFlows();
+for (var i = 0; i < flows.length; i++) {
+    flow = flows[i];
+}
 }}
 }}
 {{Notes_Section}}
