@@ -245,7 +245,7 @@ This whole thing can be rather difficult to imagine, so let’s do some practica
 <pre>&lt;body&gt;
    &lt;div id="outer"&gt;
      &lt;div id="inner"&gt;&lt;/div&gt;
-     '''&lt;div id="second"&gt;&lt;/div&gt;'''
+     &lt;div id="second"&gt;&lt;/div&gt;
    &lt;/div&gt;
  &lt;/body&gt;</pre>
 </li>
@@ -255,7 +255,7 @@ This whole thing can be rather difficult to imagine, so let’s do some practica
 <pre>#outer {
    margin: 5em;
    border: 1px solid #f00;
-   '''height: 8em;''' '''position: relative;'''
+   height: 8em; position: relative;
  }
  
  #inner {
@@ -286,7 +286,7 @@ This whole thing can be rather difficult to imagine, so let’s do some practica
    background-color: #999;
    position: absolute;
    left: 1em;
-   '''z-index: 1;'''
+   z-index: 1;
  }</pre>
 </li>
 <li>
@@ -315,10 +315,10 @@ Let’s look at how those local stacking contexts work. It may look confusing, b
 <p>Begin by adding some content to your two inner elements—add the highlighted lines to your HTML document:</p>
 
 <pre>&lt;div id="inner"&gt;
-   '''&lt;span&gt;&lt;/span&gt;'''
+   &lt;span&gt;&lt;/span&gt;
  &lt;/div&gt;
  &lt;div id="second"&gt;
-   '''&lt;span&gt;&lt;/span&gt;'''
+   &lt;span&gt;&lt;/span&gt;
  &lt;/div&gt;</pre>
 </li>
 <li>
@@ -353,7 +353,7 @@ Let’s look at how those local stacking contexts work. It may look confusing, b
 
 <pre>#second span {
    background-color: #0ff;
-   '''z-index: 1;'''
+   z-index: 1;
  }</pre>
 </li>
 <li>
@@ -369,7 +369,7 @@ Confused yet? The next experiment should make things clearer.
 
 <pre>#inner span {
    background-color: #ff0;
-   '''z-index: 4;'''
+   z-index: 4;
 }</pre>
 </li>
 <li>
@@ -382,21 +382,21 @@ Confused yet? The next experiment should make things clearer.
    
    ...
    
-   '''z-index: 2;'''
+   z-index: 2;
  }
  
  #second {
    
    ...
    
-   '''z-index: 1;'''
+   z-index: 1;
  }
  
  #second span {
    
    ...
    
-   '''z-index: 3;'''
+   z-index: 3;
  }</pre>
 </li>
 <li>
@@ -428,13 +428,13 @@ Whereas the position and dimensions of an element with <code>position:absolute</
    width: 5em;
    height: 5em;
    background-color: #999;
-   '''position: fixed;''' '''top: 1em;'''
+   position: fixed; top: 1em;
    left: 1em;
  }
  
  #second
    width: 5em;
-   '''height: 150em;'''
+   height: 150em;
    background-color: #00f;
    position: absolute;
    top: 1em;
@@ -477,4 +477,10 @@ All positioned elements are rendered at a certain stack level within a stacking 
 |MSDN_link=
 |HTML5Rocks_link=
 }}
+}
+
+
+
+
+
 }
