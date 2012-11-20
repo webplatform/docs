@@ -21,11 +21,11 @@
 |Language=JavaScript
 |Description=Various ways to access named flows:
 |Code=var flow, flows;
-flow = document.webkitGetNamedFlows()["main"];
-flow = document.webkitGetNamedFlows().item(0);
-flow = document.webkitGetNamedFlows()[0];
+flow = document.getNamedFlows()["main"];
+flow = document.getNamedFlows().item(0);
+flow = document.getNamedFlows()[0];
 
-flows = document.webkitGetNamedFlows();
+flows = document.getNamedFlows();
 for (var i = 0; i < flows.length; i++) {
     flow = flows[i];
 }
