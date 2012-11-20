@@ -10,7 +10,7 @@
 |Description=The value the parameter will exponentially ramp to at the given time. An exception will be thrown if this value is less than or equal to 0, or if the value at the time of the previous event is less than or equal to 0.
 |Optional=No
 }}{{Method Parameter
-|Name=endtime
+|Name=endTime
 |Data type=Number
 |Description=The time in the same time coordinate system as AudioContext.currentTime.
 |Optional=No
