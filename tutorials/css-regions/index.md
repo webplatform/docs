@@ -9,36 +9,37 @@
 
 ==flow-into and flow-from==
 
-* flow-into defines content
+* flow-into defines semantic content
 * flow-from defines regions
 
 ==Controlling content flow==
 
-* discontinuous within document order
+* follows document order
+* can be discontinuous
+
+==Diverting content from a flow==
+
+* 1 content; >1 flow
 
 ==Styling regions==
 
 * the @region rule
 
-==Maintaining semantic content==
+==Breaking content into different regions==
 
-* 
-
-==Breaking content==
-
-==Unraveling content==
-
-==Diverting content from a flow==
-
-==Many content sources==
-
-==Many flows==
+* keep
 
 ==Adaptive flows with media queries
 
+* within @media rules
+
+==Many content sources==
+
+* chained
+* unraveling content
+
  /* height is auto by default; mentioned here for illustration pourposes */ 
  height: auto;
-
 }}
 {{Notes_Section}}
 {{Compatibility_Section
