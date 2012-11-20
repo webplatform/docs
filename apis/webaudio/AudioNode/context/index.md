@@ -6,6 +6,7 @@
 {{API_Object_Property
 |Property_applies_to=apis/webaudio/AudioNode
 |Read_only=Yes
+|Example_object_name=AudioNode
 }}
 {{Examples_Section
 |Not_required=Yes
