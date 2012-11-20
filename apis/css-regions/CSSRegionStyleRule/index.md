@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Represents an [[css/atrules/@region|'''@region'''] rule in a CSS style sheet.}}
+{{Summary_Section|Represents an [[css/atrules/@region|'''@region''']] rule in a CSS style sheet.}}
 {{API_Object
 |Subclass_of=css/cssom/CSSRule
 }}
