@@ -13,7 +13,7 @@
 |Animatable=No
 |CSS object model property=identifier
 |Values={{CSS Property Value
-|Data Type=<identifier>
+|Data Type=identifier
 |Description=replaces content from specified named flow
 }}{{CSS Property Value
 |Data Type=none
