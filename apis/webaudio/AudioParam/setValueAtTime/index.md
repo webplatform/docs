@@ -12,7 +12,7 @@
 }}{{Method Parameter
 |Name=startTime
 |Data type=Number
-|Description=The time at which to change the value, in the same time coordinate system as AudioContext.currentTime.
+|Description=The time in the same time coordinate system as AudioContext.currentTime.
 |Optional=No
 }}
 |Method_applies_to=apis/webaudio/AudioParam
