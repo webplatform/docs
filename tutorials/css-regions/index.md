@@ -16,10 +16,12 @@
 
 * follows document order
 * can be discontinuous
+* DOM-inependent
 
 ==Diverting content from a flow==
 
-* 1 content; >1 flow
+* 1 content, >1 flow
+* pull-quotes, sidebars, etc.
 
 ==Styling regions==
 
@@ -28,18 +30,18 @@
 ==Breaking content into different regions==
 
 * keep
+* height: auto; ???
 
-==Adaptive flows with media queries
+==Adaptive layouts with media queries
 
 * within @media rules
 
 ==Many content sources==
 
 * chained
-* unraveling content
+* nested
 
- /* height is auto by default; mentioned here for illustration pourposes */ 
- height: auto;
+ ...
 }}
 {{Notes_Section}}
 {{Compatibility_Section
