@@ -37,11 +37,13 @@
 
 * within @media rules
 
-==Fun with content sources==
+==More about content sources==
 
 * chained content sources
 * nested elements
 * suppressing content
+
+==Programming Flows and Regions==
 
  ...
 }}
