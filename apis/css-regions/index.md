@@ -27,6 +27,8 @@ Two interfaces allow programmatic access to the CSS Regions feature:
 * The [[apis/css-regions/NamedFlow|'''NamedFlow''']] interface provides access to the content defined as [[css/properties/flow-into|'''flow-into''']], and the series of layout regions defined as [[css/properties/flow-from|'''flow-from''']].  Use the [[dom/apis/document/getNamedFlows|getNamedFlows()]] method to access these flows.
 
 * The [[apis/css-regions/Region|'''Region''']] interface provides information on each region within the chain.
+
+* The [[apis/css-regions/CSSRegionStyleRule|'''CSSRegionStyleRule'''] interface allows programmatic access to [[css/atrules/@region|'''@region''']] rules.
 |Notes=See [[css/properties/flow-from|'''flow-from''']] for an overview of CSS Regions.
 }}
 {{See_Also_Section
