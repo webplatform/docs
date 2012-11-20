@@ -17,7 +17,7 @@
 |Description=replaces content from specified named flow
 }}{{CSS Property Value
 |Data Type=none
-|Description=keeps element as is, and does not replace content
+|Description=keeps element as is, and does not replace its content
 }}
 }}
 {{Examples_Section
