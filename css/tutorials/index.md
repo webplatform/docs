@@ -39,6 +39,7 @@
 * [[tutorials/floats and clearing|Page layout with floats and clearing]]
 * [[tutorials/static and relative positioning|Understanding static and relative positioning]]
 * [[tutorials/absolute and fixed positioning|Advanced layouts with absolute and fixed positioning]]
+* [[tutorials/css-regions|Using CSS Regions to flow content through a layout]]
 
 ==CSS best practices==
 
@@ -72,6 +73,7 @@
 * [[tutorials/targetting css at different media|Targetting CSS at different media types]] 
 * [[tutorials/media queries|Targetting CSS with media queries]]
 * [[tutorials/responsive layouts|Creating responsive layouts]]
+{{Notes_Section}}
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
