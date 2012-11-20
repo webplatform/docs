@@ -13,7 +13,7 @@
 |Example_object_name=document
 |Return_value_name=flows
 |Javascript_data_type=DOM Node
-|Return_value_description=Returns a '''NamedFlowCollection''' object accessible via standard array methods. Each member is a [[apis/css-regions/NamedFlow|'''NamedFlow''']] instance that represents a set of content that flows through various layout regions.
+|Return_value_description=Returns a '''NamedFlowCollection''' object accessible via standard array methods. Each member is a [[apis/css-regions/NamedFlow|'''NamedFlow''']] instance representing a set of content that flows through various layout regions.
 }}
 {{Examples_Section
 |Not_required=No
