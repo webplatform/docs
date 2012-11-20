@@ -21,7 +21,7 @@
 |Language=JavaScript
 |Description=Various ways to access named flows:
 |Code=var flow, flows;
-flow = document.getNamedFlows()["main"];
+flow = document.getNamedFlows()["main"]; // typically by name
 flow = document.getNamedFlows().item(0);
 flow = document.getNamedFlows()[0];
 
