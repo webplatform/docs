@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Initial value for the value attribute.}}
 {{API_Object_Property
 |Property_applies_to=apis/webaudio/AudioParam
 |Read_only=Yes
