@@ -7,7 +7,7 @@
 {{Tutorial
 |Content=CSS Regions provides a way to implement complex magazine-style designs in which content flows through freely positioned layout elements. The feature offers you the basic tool to flow content from one layout element to another, but does not specify how they appear on the screen. For that, use whatever technique is appropriate: floats, flexible boxes, grid layout, or absolute positioning.
 
-==flow-into and flow-from==
+==flow-into and flow-from properties==
 
 * flow-into defines semantic content
 * flow-from defines regions
