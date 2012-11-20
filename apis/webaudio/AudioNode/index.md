@@ -1,0 +1,31 @@
+{{Page_Title}}
+{{Flags}}
+{{Standardization_Status|W3C Editor's Draft}}
+{{API_Name}}
+{{Summary_Section|AudioNodes are the building blocks of an AudioContext. An AudioNode represents audio sources, the audio destination, and intermediate processing modules, connected together to form processing graphs for rendering audio to the audio hardware. In general, an AudioNodes processes its inputs (if it has any), and generates audio for its outputs (if it has any).}}
+{{API_Object}}
+{{Examples_Section
+|Not_required=Yes
+|Examples=
+}}
+{{Notes_Section}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=Yes
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section
+|Topic_clusters=Audio
+}}
+{{Topics}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
+}}
