@@ -15,6 +15,7 @@
 |Usage=Use the '''Region''' interface to determine whether any content flows through the region, what content currently displays, and any special CSS styling that applies.
 
 The interface is still available for elements that change back to non-region elements, when their [[css/properties/flow-from|'''flow-from''']] property becomes '''none'''.
+|Notes=See [[css/properties/flow-from|'''flow-from''']] for an overview of CSS Regions.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
