@@ -33,7 +33,7 @@
 * keep
 * height: auto; ???
 
-==Adaptive layouts with media queries
+==Adaptive layouts with media queries==
 
 * within @media rules
 
