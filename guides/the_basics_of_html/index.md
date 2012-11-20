@@ -1,8 +1,7 @@
 {{Page_Title|The basics of HTML}}
 {{Flags}}
 {{Byline}}
-{{Summary_Section|In this article, you will learn the basics of HTML, where it has
-evolved from and gain some insight into the structure and content of an HTML
+{{Summary_Section|In this article, you will learn the basics of HTML in order to gain some insight into the structure and content of an HTML
 document.
 }}
 {{Guide
