@@ -7,6 +7,7 @@
 |Property_applies_to=apis/webaudio/AudioParam
 |Read_only=Yes
 |Example_object_name=AudioParam
+|Javascript_data_type=Number
 }}
 {{Examples_Section
 |Not_required=Yes
