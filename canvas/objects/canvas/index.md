@@ -189,7 +189,7 @@ The '''canvas''' object has these properties.
 |Imported_tables=
 |Desktop_rows=
 |Mobile_rows={{Compatibility Table Mobile Row
-|Feature=Basic Support
+|Feature=Basic support
 |Android_supported=Yes
 |Android_version=2.1
 |Android_prefixed_supported=Unknown
@@ -223,8 +223,8 @@ The '''canvas''' object has these properties.
 |Safari_mobile_prefixed_supported=Unknown
 |Safari_mobile_prefixed_version=
 }}{{Compatibility Table Mobile Row
-|Feature=editing by RedRiderX on 12-20-11
-|Android_supported=Unknown
+|Feature=Hardware accelerated canvas
+|Android_supported=No
 |Android_version=
 |Android_prefixed_supported=Unknown
 |Android_prefixed_version=
@@ -240,8 +240,8 @@ The '''canvas''' object has these properties.
 |Firefox_mobile_version=
 |Firefox_mobile_prefixed_supported=Unknown
 |Firefox_mobile_prefixed_version=
-|IE_mobile_supported=Unknown
-|IE_mobile_version=
+|IE_mobile_supported=Yes
+|IE_mobile_version=9
 |IE_mobile_prefixed_supported=Unknown
 |IE_mobile_prefixed_version=
 |Opera_mobile_supported=Unknown
@@ -252,8 +252,8 @@ The '''canvas''' object has these properties.
 |Opera_mini_version=
 |Opera_mini_prefixed_supported=Unknown
 |Opera_mini_prefixed_version=
-|Safari_mobile_supported=Unknown
-|Safari_mobile_version=
+|Safari_mobile_supported=Yes
+|Safari_mobile_version=5
 |Safari_mobile_prefixed_supported=Unknown
 |Safari_mobile_prefixed_version=
 }}
