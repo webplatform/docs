@@ -100,10 +100,8 @@ Build date: 7/24/2012
 }}
 |Notes_rows=
 }}
-{{See_Also_Section
-|Topic_clusters=Regions
-}}
-{{Topics|DOM}}
+{{See_Also_Section}}
+{{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
