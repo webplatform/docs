@@ -28,7 +28,7 @@ Two interfaces allow programmatic access to the CSS Regions feature:
 
 * The [[apis/css-regions/Region|'''Region''']] interface provides information on each region within the chain.
 
-* The [[apis/css-regions/CSSRegionStyleRule|'''CSSRegionStyleRule'''] interface allows programmatic access to [[css/atrules/@region|'''@region''']] rules.
+* The [[apis/css-regions/CSSRegionStyleRule|'''CSSRegionStyleRule''']] interface allows programmatic access to [[css/atrules/@region|'''@region''']] rules.
 |Notes=See [[css/properties/flow-from|'''flow-from''']] for an overview of CSS Regions.
 }}
 {{See_Also_Section
