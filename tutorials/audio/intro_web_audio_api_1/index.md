@@ -222,7 +222,7 @@ In this page, we set up four buttons&mdash;intended to be clicked in order&mdash
 #Optional: During playback (assuming the sound plays long enough), click the '''Stop''' button. The sound stops.
 
 ==Not the end==
-This concludes part 1 of the tutorial. Part 2, coming soon, continues with inserting processor nodes between the source and destination to modify the audio before it is played.
+This concludes part 1 of the tutorial. [http://docs.webplatform.org/wiki/tutorials/intro_web_audio_api_2 Part 2 continues with inserting processor nodes between the source and destination to modify the audio before it is played].
 
 ==References==
 *Chris Wilson's [https://developers.google.com/events/io/sessions/gooio2012/221/ Google I/O 2012 session video] 
