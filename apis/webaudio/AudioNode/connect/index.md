@@ -21,6 +21,7 @@
 |Optional=Yes
 }}
 |Method_applies_to=apis/webaudio/AudioNode
+|Example_object_name=AudioNode
 }}
 {{Examples_Section
 |Not_required=Yes
