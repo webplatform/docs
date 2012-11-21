@@ -1,7 +1,6 @@
 {{Page_Title|CSSRegionStyleRule}}
 {{Flags
 |High-level issues=Stub
-|Content=Examples Needed
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
