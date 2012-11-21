@@ -11,7 +11,26 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|Description=CSS for following example:
+|Code=@region div.region {
+    p {
+	color: #fff;
+        background: #000;
+    }
+}
+
+}}{{Single Example
+|Language=JavaScript
+|Description=Narrow scope of first rule within @region to first paragraph, and modify background color
+|Code=rule = document.styleSheets[0].cssRules[2]; // corresponds to @region rule
+if ( rule.type == rule.WEBKIT_REGION_RULE)
+    console.log('is REGION_RULE')
+rule.cssRules[0].selectorText = 'article > p:first-of-type';
+rule.cssRules[0].style.backgroundColor = '#777';
+console.log(rule.cssRules[0].cssText);
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
