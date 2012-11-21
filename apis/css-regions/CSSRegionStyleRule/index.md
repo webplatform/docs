@@ -25,7 +25,6 @@
 |Description=Narrow scope of first rule within @region to first paragraph, and modify background color
 |Code=// corresponds to @region rule above:
 rule = document.styleSheets[0].cssRules[0];
-if ( rule.type == rule.WEBKIT_REGION_RULE) console.log('is REGION_RULE');
 
 // modify first nested style's selector:
 rule.cssRules[0].selectorText = 'article > p:first-of-type';
