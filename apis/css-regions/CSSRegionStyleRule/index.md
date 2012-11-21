@@ -46,7 +46,7 @@ console.log(rule.cssText);
 }}
 }}
 {{Notes_Section
-|Usage='''CSSRegionStyleRule''' is added to the [[css/cssom/CSSRule|'''CSSRule''']] interface.
+|Usage='''CSSRegionStyleRule''' supplements the [[css/cssom/CSSRule|'''CSSRule''']] interface.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
