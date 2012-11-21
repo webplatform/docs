@@ -21,11 +21,18 @@
 }}{{Single Example
 |Language=JavaScript
 |Description=Narrow scope of first rule within @region to first paragraph, and modify background color
-|Code=rule = document.styleSheets[0].cssRules[2]; // corresponds to @region rule
+|Code=// corresponds to @region rule above:
+rule = document.styleSheets[0].cssRules[0];
 if ( rule.type == rule.WEBKIT_REGION_RULE) console.log('is REGION_RULE');
+// modify first nested style's selector:
 rule.cssRules[0].selectorText = 'article > p:first-of-type';
+// modify first nested style's property:
 rule.cssRules[0].style.backgroundColor = '#777';
+// view first nested style as read-only string:
 console.log(rule.cssRules[0].cssText);
+// view CSS for entire @region rule:
+console.log(rule.cssText);
+
 }}{{Single Example
 |Language=CSS
 |Description='''cssText''' above should now reflect these altered values:
