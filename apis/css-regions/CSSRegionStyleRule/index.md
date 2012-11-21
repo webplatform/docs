@@ -20,13 +20,11 @@
         background: #000;
     }
 }
-
 }}{{Single Example
 |Language=JavaScript
 |Description=Narrow scope of first rule within @region to first paragraph, and modify background color
 |Code=rule = document.styleSheets[0].cssRules[2]; // corresponds to @region rule
-if ( rule.type == rule.WEBKIT_REGION_RULE)
-    console.log('is REGION_RULE')
+if ( rule.type == rule.WEBKIT_REGION_RULE) console.log('is REGION_RULE');
 rule.cssRules[0].selectorText = 'article > p:first-of-type';
 rule.cssRules[0].style.backgroundColor = '#777';
 console.log(rule.cssRules[0].cssText);
