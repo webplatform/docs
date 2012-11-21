@@ -28,6 +28,15 @@ if ( rule.type == rule.WEBKIT_REGION_RULE) console.log('is REGION_RULE');
 rule.cssRules[0].selectorText = 'article > p:first-of-type';
 rule.cssRules[0].style.backgroundColor = '#777';
 console.log(rule.cssRules[0].cssText);
+}}{{Single Example
+|Language=CSS
+|Description='''cssText''' above should now reflect these altered values:
+|Code=@region div.region {
+    p:first-of-type {
+	color: #fff;
+        background: #777;
+    }
+}
 }}
 }}
 {{Notes_Section}}
