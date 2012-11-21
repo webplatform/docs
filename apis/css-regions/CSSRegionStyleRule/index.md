@@ -15,7 +15,7 @@
 |Code=@region div.region {
     p {
 	color: #fff;
-        background: #000;
+        background-color: #000;
     }
 }
 }}{{Single Example
@@ -38,7 +38,7 @@ console.log(rule.cssText);
 |Code=@region div.region {
     p:first-of-type {
 	color: #fff;
-        background: #777;
+        background-color: #777;
     }
 }
 }}
