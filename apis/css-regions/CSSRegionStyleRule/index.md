@@ -6,9 +6,7 @@
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Represents an [[css/atrules/@region|'''@region''']] rule in a CSS style sheet.}}
-{{API_Object
-|Subclass_of=css/cssom/CSSRule
-}}
+{{API_Object}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -39,9 +37,14 @@ console.log(rule.cssRules[0].cssText);
 }
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage='''CSSRegionStyleRule''' is added to the [[css/cssom/CSSRule|'''CSSRule''']] interface.
+}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Regions Module Level 3
+|URL=http://dev.w3.org/csswg/css3-regions/
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
