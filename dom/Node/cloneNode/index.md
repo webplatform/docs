@@ -1,79 +1,92 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
+{{Summary_Section|Copies a reference to the object from the document hierarchy.}}
 {{API_Object_Method
-|Parameters={{Method Parameter|Name=fDeep|Data type=VARIANT_BOOL|Description='''Boolean''' that specifies one of the following values:|Optional=}}
-|Method_applies_to=dom/Node
-|Example_object_name=object
-|Return_value_name=object
-|Javascript_data_type=DOM Node
-|Return_value_description='''IHTMLDOMNode'''
-
-
+|Parameters={{Method Parameter
+|Name=cloneDescendants 
+|Data type=Boolean
+|Description=Whether to clone the child nodes of the node as well.
+|Optional=No
 }}
-{{Topics|DOM}}
+|Method_applies_to=dom/Node
+|Example_object_name=node
+|Return_value_name=clonedNode
+|Javascript_data_type=DOM Node
+|Return_value_description=The cloned node.
+}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
-|Description=
-|LiveURL=
-|Code=
-&lt;SCRIPT&gt;
+|Examples={{Single Example
+|Language=HTML
+|Code=&lt;!doctype html&gt;
+&lt;script&gt;
 function fnClone(){
    /* the 'true' possible value specifies to clone
       the childNodes as well.
    */
-   var oCloneNode {{=}} oList.cloneNode(true);
+   var oCloneNode {{=}} document.getElementById("oList").cloneNode(true);
    /* When the cloned node is added,
    'oList' becomes a collection.
    */
    document.body.insertBefore(oCloneNode);
 }
-&lt;/SCRIPT&gt;
-&lt;UL ID{{=}}"oList"&gt;
-&lt;LI&gt;List node 1
-&lt;LI&gt;List node 2
-&lt;LI&gt;List node 3
-&lt;LI&gt;List node 4
-&lt;/UL&gt;
-&lt;INPUT type{{=}}"button" value{{=}}"Clone List" onclick{{=}}"fnClone()"&gt;
-}}}}
+&lt;/script&gt;
+&lt;ul id{{=}}"oList"&gt;
+&lt;li&gt;List node 1&lt;/li&gt;
+&lt;li&gt;List node 2&lt;/li&gt;
+&lt;li&gt;List node 3&lt;/li&gt;
+&lt;li&gt;List node 4&lt;/li&gt;
+&lt;/ul&gt;
+&lt;input type{{=}}"button" value{{=}}"Clone List" onclick{{=}}"fnClone()"&gt;
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
-The '''cloneNode''' method copies an object, attributes, and, if specified, 
-the [[dom/properties/childNodes|'''childNodes''']].
-When you refer to the [[html/attributes/id|'''ID''']] 
+|Usage=Use this method to copy an node, its attributes and, if specified, its [[dom/properties/childNodes|'''childNodes''']] as well.
+|Notes=When you refer to the [[html/attributes/id|'''id''']] 
 of a cloned element, a collection is returned.
-'''cloneNode'''does not work on an '''IFRAME''' directly. You must call '''cloneNode'''through the [[dom/properties/all|'''all''']] collection. The following example demonstrates how to call '''cloneNode''' on an '''IFRAME'''.
- <code>&lt;HTML&gt;
- &lt;SCRIPT&gt;
+'''cloneNode'''does not work on an '''IFRAME''' directly. You must call '''cloneNode'''through the [[dom/properties/all|'''all''']] collection. The following example demonstrates how to call '''cloneNode''' on an '''iframe'''.
+ <code>&lt;!doctype html&gt;
+&lt;html&gt;
+ &lt;script&gt;
  function fnBegin(){
-     var fr {{=}} document.all.oFrame.cloneNode();
+     var fr {{=}} document.getElementByid("oFrame").cloneNode();
      console.log(document.body.innerHTML);
  }    
- &lt;/SCRIPT&gt;
- &lt;BODY onload{{=}}"fnBegin()"&gt;
-     &lt;IFRAME id{{=}}"oFrame" src{{=}}"about:blank" 
+ &lt;/script&gt;
+ &lt;body onload{{=}}"fnBegin()"&gt;
+     &lt;iframe id{{=}}"oFrame" src{{=}}"about:blank" 
          style{{=}}"border:1px solid black; position:absolute; top:20px; left:30px;
-             width:350px; height:300px;"&gt;&lt;/IFRAME&gt;
- &lt;/BODY&gt;    
- &lt;/HTML&gt;</code>
+             width:350px; height:300px;"&gt;&lt;/iframe&gt;
+ &lt;/body&gt;    
+ &lt;/html&gt;</code>
 If the object being cloned is an element and that element has expandos defined on it, the expandos are copied to the clone when '''cloneNode''' is called.  Other browsers might handle this differently.
-In Microsoft Internet Explorer 6, this method applies to the [[dom/attributes|'''attribute''']] object.
-|Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}182717 Document Object Model (DOM) Level 3 Core Specification], Section 1.4
-
-
+}}
+{{Related_Specifications_Section
+|Specifications={{Related Specification
+|Name=DOM Level 3 Core
+|URL=http://www.w3.org/TR/DOM-Level-3-Core/
+|Status=Recommendation
+|Relevant_changes=Section 1.4
+}}
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=6
+|Note=This method applies to the [[dom/attributes|'''attribute''']] object as well.
+}}
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 *<code>[[html/elements/a|a]]</code>
 *<code>abbr</code>
 *<code>[[html/elements/acronym|acronym]]</code>
@@ -189,10 +202,11 @@ In Microsoft Internet Explorer 6, this method applies to the [[dom/attributes|'
 *<code>[[dom/methods/replaceNode|replaceNode]]</code>
 *<code>[[dom/methods/swapNode|swapNode]]</code>
 }}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
