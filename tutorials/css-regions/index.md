@@ -56,10 +56,8 @@ following displays the article's ''foo'' content within the '''div'''
 element, but its [[dom/properties/innerdom/innerHTML|'''innerHTML''']]
 is still ''bar'':
 
- &lt;pre>
  &lt;article>foo&lt;/article>
  &lt;div class="region">bar&lt;/div>
- &lt;/pre>
 
 Regions may be positioned arbitrarily around the screen, but content
 flows through regions strictly according to the order in which they
@@ -113,7 +111,6 @@ moved somewhere else so that other content can flow in to take its
 place. In this example, '''aside''' tags represent ''pull-quote''
 content to be diverted from the main flow:
 
- &lt;pre>
  &lt;article>
    &lt;h1>Sample CSS Regions Layout&lt;/h1>
    &lt;p>Riverrun, past Eve and Adam's...&lt;/p>
@@ -126,7 +123,6 @@ content to be diverted from the main flow:
    &lt;p>He addle liddle phifie Annie...&lt;/p>
    ...
  &lt;/article>
- &lt;/pre>
 
 To address this problem, note there can be more than one named flow in
 a document, and thus more than one series of regions. Defining a
