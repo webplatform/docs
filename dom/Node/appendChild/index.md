@@ -1,26 +1,30 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
+{{Summary_Section|Appends an element as a child to the object.}}
 {{API_Object_Method
-|Parameters={{Method Parameter|Name=newChild|Data type=IHTMLDOMNode|Description=|Optional=}}
-|Method_applies_to=dom/Node
-|Example_object_name=object
-|Return_value_name=object
-|Javascript_data_type=DOM Node
-|Return_value_description='''IHTMLDOMNode'''
-
-
+|Parameters={{Method Parameter
+|Name=newChild
+|Data type=DOM Node
+|Description=The child to append.
+|Optional=No
 }}
-{{Topics|DOM}}
+|Method_applies_to=dom/Node
+|Example_object_name=node
+|Return_value_name=appendedChild
+|Javascript_data_type=DOM Node
+|Return_value_description=The appended child.
+}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
+|Language=HTML
 |Description=This example uses the '''appendChild''' method to add an item to an unordered list.
-|LiveURL=
-|Code=
+|Code=&lt;!doctype html&gt;
 &lt;script&gt;
 function fnAppend(){
    var oNewNode {{=}} document.createElement("LI");
@@ -40,27 +44,37 @@ function fnAppend(){
    value {{=}} "Append Child"
    onclick {{=}} "fnAppend()" /&gt;
 &lt;/body&gt;
-}}}}
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
-The '''appendChild''' method appends elements to the end of the [[dom/properties/childNodes|'''childNodes''']] collection.
-To display new elements on the page, you must append them within the '''body''' element. For example, the following syntax demonstrates how to add a '''div''' element to the '''body'''.
+|Usage=Use this method to append elements to the end of the [[dom/properties/childNodes|'''childNodes''']] collection.
+|Notes=To display new elements on the page, you must append them within the '''body''' element. For example, the following syntax demonstrates how to add a '''div''' element to the '''body'''.
  <code>var oDiv{{=}}document.createElement("DIV");
  document.body.appendChild(oDiv);</code>
 This method is accessible at run time. If elements are removed at run time, before the closing tag is parsed, areas of the document might not render.
 Windows Internet Explorer 9. Exceptions are only supported when webpages are displayed in IE9 Standards mode.
-In Microsoft Internet Explorer 6, This method now applies to the [[dom/attributes|'''attribute''']] object.
-|Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}182717 Document Object Model (DOM) Level 3 Core Specification], Section 1.4
-
-
+}}
+{{Related_Specifications_Section
+|Specifications={{Related Specification
+|Name=DOM Level 3 Core
+|URL=http://www.w3.org/TR/DOM-Level-3-Core/
+|Status=Recommendation
+|Relevant_changes=Section 1.4
+}}
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=6
+|Note=This method applies to the [[dom/attributes|'''attribute''']] object.
+}}
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 *<code>[[html/elements/a|a]]</code>
 *<code>abbr</code>
 *<code>[[html/elements/acronym|acronym]]</code>
@@ -160,10 +174,11 @@ In Microsoft Internet Explorer 6, This method now applies to the [[dom/attribut
 *<code>Conceptual</code>
 *<code>About the W3C Document Object Model</code>
 }}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
