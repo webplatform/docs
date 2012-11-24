@@ -4,7 +4,7 @@
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
+{{API_Name|name}}
 {{Summary_Section|Returns the name of an error that occurred during a DOM operation.}}
 {{API_Object_Property
 |Property_applies_to=dom/DOMError
