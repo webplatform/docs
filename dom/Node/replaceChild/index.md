@@ -1,33 +1,42 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
+{{Summary_Section|Replaces an existing child node with a new child node.}}
 {{API_Object_Method
-|Parameters={{Method Parameter|Name=newChild|Data type=IHTMLDOMNode|Description='''Object''' that specifies the new element to be inserted into the document.|Optional=}}
-{{Method Parameter|Name=oldChild|Data type=IHTMLDOMNode|Description='''Object''' that specifies the existing element to be replaced.|Optional=}}
+|Parameters={{Method Parameter
+|Name=newChild
+|Data type=DOM Node
+|Description=The new node to be inserted into the document.
+|Optional=No
+}}{{Method Parameter
+|Name=oldChild
+|Data type=DOM Node
+|Description=The existing node to be replaced.
+|Optional=No
+}}
 |Method_applies_to=dom/Node
-|Example_object_name=object
-|Return_value_name=object
+|Example_object_name=node
+|Return_value_name=replacedNode
 |Javascript_data_type=DOM Node
 |Return_value_description='''IHTMLDOMNode'''
 
 Returns a reference to the object that is replaced.
-
-
 }}
-{{Topics|DOM}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
+|Language=HTML
 |Description=This example uses the '''replaceChild''' method to replace a bold element from a '''div''' with an italic element.
-|LiveURL=
-|Code=
+|Code=&lt;!doctype html&gt;
 &lt;head&gt;
 &lt;script&gt;
 function replaceElement()
 {
+var Div1 = document.getElementById("Div1");
         //The first child of the div is the bold element.   
     var oChild{{=}}Div1.children(0);	
     var sInnerHTML {{=}} oChild.innerHTML;
@@ -51,24 +60,37 @@ function replaceElement()
 Click anywhere in this sentence to toggle this &lt;strong&gt;word&lt;/strong&gt;
 between bold and italic.&lt;/div&gt;
 &lt;/body&gt;
-}}}}
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
-The node to be replaced must be an immediate child of the parent object. The new node must be created using the [[dom/methods/createElement|'''createElement''']] method.
+|Notes=The node to be replaced must be an immediate child of the parent object. The new node must be created using the [[dom/methods/createElement|'''createElement''']] method.
 This property is accessible at run time. If elements are removed at run time, before the closing tag is parsed, areas of the document might not render.
-Windows Internet Explorer 9. Exceptions are only supported when webpages are displayed in IE9 Standards mode.
-In Microsoft Internet Explorer 6, This method now applies to the [[dom/attributes|'''attribute''']] object.
-|Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}182717 Document Object Model (DOM) Level 3 Core Specification], Section 1.4
-
-
+}}
+{{Related_Specifications_Section
+|Specifications={{Related Specification
+|Name=DOM Level 3 Core
+|URL=http://www.w3.org/TR/DOM-Level-3-Core/
+|Status=Recommendation
+|Relevant_changes=Section 1.4
+}}
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=9
+|Note=Exceptions are supported.
+}}{{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=6
+|Note=This method also applies to the [[dom/attributes|'''attribute''']] object.
+}}
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 *<code>[[html/elements/a|a]]</code>
 *<code>abbr</code>
 *<code>[[html/elements/acronym|acronym]]</code>
@@ -155,10 +177,11 @@ In Microsoft Internet Explorer 6, This method now applies to the [[dom/attribut
 *<code>var</code>
 *<code>xmp</code>
 }}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
