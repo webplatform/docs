@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Gets whether a given token is included in a whitespace separated token list.}}
+{{Summary_Section|Returns <code>true</code> if the token is present; <code>false</code> otherwise.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=token
