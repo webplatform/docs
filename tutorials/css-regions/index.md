@@ -35,7 +35,7 @@ in place, elements assigned with
 The series of regions through which content flows is called the
 ''region chain'':
 
-[[Image:region_basic.png]]
+[[File:region_basic.png]]
 
 Note there are problems with how the content flows through the layout.
 The following sections clarify how to fix them.
@@ -74,7 +74,7 @@ applications. While most of an article's text can be allowed to flow
 from one region to another, some elements such as headings should not
 be allowed to ''break'' so freely:
 
-[[Image:region_badbreak.png]]
+[[File:region_badbreak.png]]
 
 Use the [[css/properties/break-before|'''break-before''']],
 [[css/properties/break-after|'''break-after''']], and
@@ -86,7 +86,7 @@ forces headings into a new region:
      break-before: always;
  }
 
-[[Image:region_goodbreak.png]]
+[[File:region_goodbreak.png]]
 
 In many cases, that approach may result in too much white space within
 the previous region.  This alternative approach makes sure not only
@@ -148,7 +148,7 @@ independently. CSS and HTML such as the following...
 
 ...can produce a more fluid layout:
 
-[[Image:region_pull.png]]
+[[File:region_pull.png]]
 }}
 {{Notes_Section}}
 {{Compatibility_Section
