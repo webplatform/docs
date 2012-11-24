@@ -149,6 +149,13 @@ independently. CSS and HTML such as the following...
 ...can produce a more fluid layout:
 
 [[File:region_pull.png|600px]]
+
+[[File:region_rule.png]]
+
+[[File:region_oversetBad.png]]
+
+[[File:region_oversetGood.png]]
+
 }}
 {{Notes_Section}}
 {{Compatibility_Section
