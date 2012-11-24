@@ -56,8 +56,10 @@ following displays the article's ''foo'' content within the '''div'''
 element, but its [[dom/properties/innerdom/innerHTML|'''innerHTML''']]
 is still ''bar'':
 
+ <pre>
  <article>foo</article>
  <div class="region">bar</div>
+ </pre>
 
 Regions may be positioned arbitrarily around the screen, but content
 flows through regions strictly according to the order in which they
@@ -111,6 +113,7 @@ moved somewhere else so that other content can flow in to take its
 place. In this example, '''aside''' tags represent ''pull-quote''
 content to be diverted from the main flow:
 
+ <pre>
  <article>
    <h1>Sample CSS Regions Layout</h1>
    <p>Riverrun, past Eve and Adam's...</p>
@@ -123,6 +126,7 @@ content to be diverted from the main flow:
    <p>He addle liddle phifie Annie...</p>
    ...
  </article>
+ </pre>
 
 To address this problem, note there can be more than one named flow in
 a document, and thus more than one series of regions. Defining a
@@ -130,6 +134,7 @@ separate flow for the nested '''aside''' content removes it from the
 parent '''article''' content and allows for it to be placed
 independently. CSS and HTML such as the following...
 
+ <pre>
  <style>
    article { -webkit-flow-into: main; }
    div.region { -webkit-flow-from: main; }
@@ -147,6 +152,7 @@ independently. CSS and HTML such as the following...
    <div class="pull"    id="col2_top">    </div>
    <div class="region"  id="col2_bottom"> </div>
  </section>
+ </pre>
 
 ...can produce a more fluid layout:
 
