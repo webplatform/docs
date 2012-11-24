@@ -32,7 +32,7 @@ here—all types of desktop browser software (Internet Explorer, Opera,
 Firefox, Safari, Chrome etc.) and alternative browsers for other devices (such as the Wii Internet channel, and mobile phone browsers such as Opera Mini and WebKit on the iPhone) 
 are user agents, but not all user agents are
 browser software. The automated programs that Google and Yahoo! use
-to index the web to use in their search engines are also user agents,
+to index the web for their search engines are also user agents,
 but no human being is controlling them directly.
  
 == What HTML looks like ==
