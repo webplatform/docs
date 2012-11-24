@@ -35,7 +35,7 @@ in place, elements assigned with
 The series of regions through which content flows is called the
 ''region chain'':
 
-[[File:region_basic.png|400px]]
+[[File:region_basic.png|600px]]
 
 Note there are problems with how the content flows through the layout.
 The following sections clarify how to fix them.
