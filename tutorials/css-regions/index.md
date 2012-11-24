@@ -56,10 +56,10 @@ following displays the article's ''foo'' content within the '''div'''
 element, but its [[dom/properties/innerdom/innerHTML|'''innerHTML''']]
 is still ''bar'':
 
- <pre>
- <article>foo</article>
- <div class="region">bar</div>
- </pre>
+ &lt;pre>
+ &lt;article>foo&lt;/article>
+ &lt;div class="region">bar&lt;/div>
+ &lt;/pre>
 
 Regions may be positioned arbitrarily around the screen, but content
 flows through regions strictly according to the order in which they
@@ -113,20 +113,20 @@ moved somewhere else so that other content can flow in to take its
 place. In this example, '''aside''' tags represent ''pull-quote''
 content to be diverted from the main flow:
 
- <pre>
- <article>
-   <h1>Sample CSS Regions Layout</h1>
-   <p>Riverrun, past Eve and Adam's...</p>
-   <p>Sir Tristram, violer d'amores...</p>
-   <p>The fall... of a once wallstrait oldparr...</p>
-   <aside>The oaks of ald now they lie in peat...</aside>
-   <p>What clashes here of wills gen wonts...</p>
-   <h2>Bygmester Finnegan, of the Stuttering Hand...</h2>
-   <p>...freemen's maurer, lived in the broadest way immarginable...</p>
-   <p>He addle liddle phifie Annie...</p>
+ &lt;pre>
+ &lt;article>
+   &lt;h1>Sample CSS Regions Layout&lt;/h1>
+   &lt;p>Riverrun, past Eve and Adam's...&lt;/p>
+   &lt;p>Sir Tristram, violer d'amores...&lt;/p>
+   &lt;p>The fall... of a once wallstrait oldparr...&lt;/p>
+   &lt;aside>The oaks of ald now they lie in peat...&lt;/aside>
+   &lt;p>What clashes here of wills gen wonts...&lt;/p>
+   &lt;h2>Bygmester Finnegan, of the Stuttering Hand...&lt;/h2>
+   &lt;p>...freemen's maurer, lived in the broadest way immarginable...&lt;/p>
+   &lt;p>He addle liddle phifie Annie...&lt;/p>
    ...
- </article>
- </pre>
+ &lt;/article>
+ &lt;/pre>
 
 To address this problem, note there can be more than one named flow in
 a document, and thus more than one series of regions. Defining a
@@ -134,31 +134,27 @@ separate flow for the nested '''aside''' content removes it from the
 parent '''article''' content and allows for it to be placed
 independently. CSS and HTML such as the following...
 
- <pre>
- <style>
+ &lt;style>
    article { -webkit-flow-into: main; }
    div.region { -webkit-flow-from: main; }
 
    article > aside { -webkit-flow-into: pullquote; }
    div.pull { -webkit-flow-from: pullquote; }
- </style>
+ &lt;/style>
 
- <section class="page">
-   <div class="region"  id="title">       </div>
-   <div class="region"  id="intro">       </div>
-   <div class="region"  id="col1">        </div>
+ &lt;section class="page">
+   &lt;div class="region"  id="title">       &lt;/div>
+   &lt;div class="region"  id="intro">       &lt;/div>
+   &lt;div class="region"  id="col1">        &lt;/div>
 
-   <div class="region"  id="col2_top">    </div>
-   <div class="pull"    id="col2_top">    </div>
-   <div class="region"  id="col2_bottom"> </div>
- </section>
- </pre>
+   &lt;div class="region"  id="col2_top">    &lt;/div>
+   &lt;div class="pull"    id="col2_top">    &lt;/div>
+   &lt;div class="region"  id="col2_bottom"> &lt;/div>
+ &lt;/section>
 
 ...can produce a more fluid layout:
 
 [[Image:region_pull.png]]
-
-
 }}
 {{Notes_Section}}
 {{Compatibility_Section
