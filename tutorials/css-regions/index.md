@@ -5,47 +5,154 @@
 {{Byline}}
 {{Summary_Section|Enabling complex threaded layouts}}
 {{Tutorial
-|Content=CSS Regions provides a way to implement complex magazine-style designs in which content flows through freely positioned layout elements. The feature offers you the basic tool to flow content from one layout element to another, but does not specify how they appear on the screen. For that, use whatever technique is appropriate: floats, flexible boxes, grid layout, or absolute positioning. The examples shown here use flexible boxes.
+|Content=CSS Regions provides a way to implement complex magazine-style designs
+in which content flows through freely positioned layout elements. The
+feature offers you a way to dynamically flow content from one layout
+element to another, but does not specify how those elements are
+positioned. For that, use whatever CSS technique is most appropriate:
+floats, flexible boxes, grid layout, or absolute positioning. The
+following provides a guide for how to flow text, with no discussion of
+these various layout techniques.
 
-==How flow-into and flow-from properties work==
+==Named flows==
 
-* flow-into defines semantic content
-* flow-from defines regions
-* >1 named flow
+To flow text through a document, you need a content element, a series
+of layout elements, and a pair of CSS properties to flow one into the
+other:
 
-==Controlling content flow==
+ article {
+     -webkit-flow-into: main;
+ }
+ div.region {
+     -webkit-flow-from: main;
+ }
 
-* follows document order
-* can be discontinuous
-* DOM-inependent
+The [[css/properties/flow-into|'''flow-into''']]
+[[css/properties/flow-from|'''flow-from''']] properties must both
+specify the same ''named flow'' for the feature to work. Once that is
+in place, elements assigned with
+[[css/properties/flow-from|'''flow-from''']] behave as ''regions''.
+The series of regions through which content flows is called the
+''region chain'':
+
+[[Image:region_basic.png]]
+
+Note there are problems with how the content flows through the layout.
+The following sections clarify how to fix them.
+
+==Separating Content and Presentation==
+
+Flowing content into regions encourages you to keep ''semantic''
+content element separate from the ''presentational'' elements in which
+they appear. Even without a corresponding region chain in which to
+flow, applying [[css/properties/flow-into|'''flow-into''']] makes the
+content element disappear from the document, just as if you had
+assigned [[css/properties/display|'''display:none''']].
+
+Oddly, while defining regions dramatically changes how content appears
+in the document, it's implemented entirely as CSS, and does not affect
+the underlying content of DOM elements. With the CSS shown above, the
+following displays the article's ''foo'' content within the '''div'''
+element, but its [[dom/properties/innerdom/innerHTML|'''innerHTML''']]
+is still ''bar'':
+
+ <article>foo</article>
+ <div class="region">bar</div>
+
+Regions may be positioned arbitrarily around the screen, but content
+flows through regions strictly according to the order in which they
+appear in the document. Regions can be scattered across the document
+tree and interrupted by other flows' regions or non-region elements,
+but the only way to modify their flow order is to rearrange them in
+the DOM.
+
+==Controlling Region Breaks==
+
+With content flowing through complex layouts, web developers need to
+confront design problems traditionally reserved for desktop publishing
+applications. While most of an article's text can be allowed to flow
+from one region to another, some elements such as headings should not
+be allowed to ''break'' so freely:
+
+[[Image:region_badbreak.png]]
+
+Use the [[css/properties/break-before|'''break-before''']],
+[[css/properties/break-after|'''break-after''']], and
+[[css/properties/break-inside|'''break-inside''']] properties to
+control how content is placed relative to region breaks. This CSS
+forces headings into a new region:
+
+ h1, h2, h3 {
+     break-before: always;
+ }
+
+[[Image:region_goodbreak.png]]
+
+In many cases, that approach may result in too much white space within
+the previous region.  This alternative approach makes sure not only
+that headings appear unbroken within a single region, but that they
+don't appear isolated at the bottom of a region:
+
+ h1, h2, h3 {
+     break-after: avoid;
+     break-inside: avoid;
+ }
+
+Note: As CSS3's [[css/properties/widows|'''widows''']] and
+[[css/properties/orphans|'''orphans''']] properties are implemented,
+developers will have finer control over how many ''lines'' of text are
+allowed to break into another region.
 
 ==Diverting content from a flow==
 
-* 1 content, >1 flow
-* pull-quotes, sidebars, etc.
+The various ''break'' properties shown above don't address a common
+layout problem. Sometimes content needs to be diverted from a flow and
+moved somewhere else so that other content can flow in to take its
+place. In this example, '''aside''' tags represent ''pull-quote''
+content to be diverted from the main flow:
 
-==Styling regions==
+ <article>
+   <h1>Sample CSS Regions Layout</h1>
+   <p>Riverrun, past Eve and Adam's...</p>
+   <p>Sir Tristram, violer d'amores...</p>
+   <p>The fall... of a once wallstrait oldparr...</p>
+   <aside>The oaks of ald now they lie in peat...</aside>
+   <p>What clashes here of wills gen wonts...</p>
+   <h2>Bygmester Finnegan, of the Stuttering Hand...</h2>
+   <p>...freemen's maurer, lived in the broadest way immarginable...</p>
+   <p>He addle liddle phifie Annie...</p>
+   ...
+ </article>
 
-* the @region rule
+To address this problem, note there can be more than one named flow in
+a document, and thus more than one series of regions. Defining a
+separate flow for the nested '''aside''' content removes it from the
+parent '''article''' content and allows for it to be placed
+independently. CSS and HTML such as the following...
 
-==Breaking content into different regions==
+ <style>
+   article { -webkit-flow-into: main; }
+   div.region { -webkit-flow-from: main; }
 
-* keep
-* height: auto; ???
+   article > aside { -webkit-flow-into: pullquote; }
+   div.pull { -webkit-flow-from: pullquote; }
+ </style>
 
-==Adaptive layouts with media queries==
+ <section class="page">
+   <div class="region"  id="title">       </div>
+   <div class="region"  id="intro">       </div>
+   <div class="region"  id="col1">        </div>
 
-* within @media rules
+   <div class="region"  id="col2_top">    </div>
+   <div class="pull"    id="col2_top">    </div>
+   <div class="region"  id="col2_bottom"> </div>
+ </section>
 
-==More about content sources==
+...can produce a more fluid layout:
 
-* chained content sources
-* nested elements
-* suppressing content
+[[Image:region_pull.png]]
 
-==Programming Flows and Regions==
 
- ...
 }}
 {{Notes_Section}}
 {{Compatibility_Section
