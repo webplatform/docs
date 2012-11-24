@@ -4,34 +4,13 @@
 }}
 {{Standardization_Status|}}
 {{API_Name}}
-{{API_Object_Method
-|Parameters={{Method Parameter|Name=retVal|Data type=DOMString|Description=The name associated with an error and any (optional) message.|Optional=}}
-|Method_applies_to=dom/DOMError
-|Example_object_name=object
-|Return_value_name=object
+{{API_Object_Property
 |Javascript_data_type=DOM Node
-|Return_value_description=Type: '''HRESULT'''
-
-This method can return one of these values.
-
-S_OK
-
-DOMString
-
-The name associated with an error and any (optional) message.
-
-
-}}
+|Return_value_description=The name associated with an error and any (optional) message.}}
 {{Topics|DOM}}
-{{Notes_Section
-|Import_Notes=
-===Syntax===
-}}
+{{Notes_Section}}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
-*<code>[[dom/DOMError|DOMError]]</code>
-}}
+|Manual_sections=}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
