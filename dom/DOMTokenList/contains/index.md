@@ -5,14 +5,20 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Gets whether a given class is included within the [[html/attributes/class|class]] of an element.}}
+{{Summary_Section|Gets whether a given token is included in a whitespace separated token list.}}
 {{API_Object_Method
-|Parameters={{Method Parameter|Name=className|Data type=String|Description=The class name to look for.|Optional=}}
+|Parameters={{Method Parameter
+|Name=token
+|Data type=String
+|Description=The requested token.
+|Optional=No
+}}
 |Method_applies_to=dom/DOMTokenList
-|Example_object_name=element.classList
-|Return_value_name=classExists
+|Example_object_name=tokenList
+|Return_value_name=tokenExists
 |Javascript_data_type=Boolean
-|Return_value_description=Whether the given value exists in the list.}}
+|Return_value_description=Whether the given token exists in the list.
+}}
 {{Examples_Section
 |Not_required=No
 |Examples=
@@ -28,8 +34,62 @@ Throws an <code>InvalidCharacterError</code> exception if ''token'' contains any
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
+|Desktop_rows={{Compatibility Table Desktop Row
+|Chrome_supported=Yes
+|Chrome_version=8
+|Chrome_prefixed_supported=Unknown
+|Chrome_prefixed_version=
+|Firefox_supported=Yes
+|Firefox_version=3.6
+|Firefox_prefixed_supported=Unknown
+|Firefox_prefixed_version=
+|Internet_explorer_supported=Yes
+|Internet_explorer_version=10
+|Internet_explorer_prefixed_supported=Unknown
+|Internet_explorer_prefixed_version=
+|Opera_supported=Yes
+|Opera_version=11.50
+|Opera_prefixed_supported=Unknown
+|Opera_prefixed_version=
+|Safari_supported=Yes
+|Safari_version=5.1
+|Safari_prefixed_supported=Unknown
+|Safari_prefixed_version=
+}}
+|Mobile_rows={{Compatibility Table Mobile Row
+|Android_supported=Yes
+|Android_version=3
+|Android_prefixed_supported=Unknown
+|Android_prefixed_version=
+|Blackberry_supported=Yes
+|Blackberry_version=7
+|Blackberry_prefixed_supported=Unknown
+|Blackberry_prefixed_version=
+|Chrome_mobile_supported=Yes
+|Chrome_mobile_version=18
+|Chrome_mobile_prefixed_supported=Unknown
+|Chrome_mobile_prefixed_version=
+|Firefox_mobile_supported=Yes
+|Firefox_mobile_version=15
+|Firefox_mobile_prefixed_supported=Unknown
+|Firefox_mobile_prefixed_version=
+|IE_mobile_supported=Yes
+|IE_mobile_version=10
+|IE_mobile_prefixed_supported=Unknown
+|IE_mobile_prefixed_version=
+|Opera_mobile_supported=Yes
+|Opera_mobile_version=11.10
+|Opera_mobile_prefixed_supported=Unknown
+|Opera_mobile_prefixed_version=
+|Opera_mini_supported=Unknown
+|Opera_mini_version=
+|Opera_mini_prefixed_supported=Unknown
+|Opera_mini_prefixed_version=
+|Safari_mobile_supported=Yes
+|Safari_mobile_version=5
+|Safari_mobile_prefixed_supported=Unknown
+|Safari_mobile_prefixed_version=
+}}
 |Notes_rows=
 }}
 {{See_Also_Section
