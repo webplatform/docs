@@ -133,7 +133,6 @@ independently. CSS and HTML such as the following...
  &lt;style>
    article { -webkit-flow-into: main; }
    div.region { -webkit-flow-from: main; }
-
    article > aside { -webkit-flow-into: pullquote; }
    div.pull { -webkit-flow-from: pullquote; }
  &lt;/style>
@@ -142,7 +141,6 @@ independently. CSS and HTML such as the following...
    &lt;div class="region"  id="title">       &lt;/div>
    &lt;div class="region"  id="intro">       &lt;/div>
    &lt;div class="region"  id="col1">        &lt;/div>
-
    &lt;div class="region"  id="col2_top">    &lt;/div>
    &lt;div class="pull"    id="col2_top">    &lt;/div>
    &lt;div class="region"  id="col2_bottom"> &lt;/div>
