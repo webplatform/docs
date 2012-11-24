@@ -148,7 +148,7 @@ independently. CSS and HTML such as the following...
 
 ...can produce a more fluid layout:
 
-[[File:region_pull.png]]
+[[File:region_pull.png|600px]]
 }}
 {{Notes_Section}}
 {{Compatibility_Section
