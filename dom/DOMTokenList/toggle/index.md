@@ -37,10 +37,10 @@ Throws an <code>InvalidCharacterError</code> exception if ''token'' contains any
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
 |Chrome_version=8
-|Chrome_prefixed_supported=Yes
-|Chrome_prefixed_version=3.6
-|Firefox_supported=Unknown
-|Firefox_version=
+|Chrome_prefixed_supported=Unknown
+|Chrome_prefixed_version=
+|Firefox_supported=Yes
+|Firefox_version=3.6
 |Firefox_prefixed_supported=Unknown
 |Firefox_prefixed_version=
 |Internet_explorer_supported=Yes
