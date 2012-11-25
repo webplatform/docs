@@ -35,7 +35,7 @@ in place, elements assigned with
 The series of regions through which content flows is called the
 ''region chain'':
 
-[[File:region_basic.png|600px]]
+[[File:region_basic.png|500px]]
 
 Note there are problems with how the content flows through the layout.
 The following sections clarify how to fix them.
@@ -148,14 +148,13 @@ independently. CSS and HTML such as the following...
 
 ...can produce a more fluid layout:
 
-[[File:region_pull.png|600px]]
+[[File:region_pull.png|500px]]
 
 [[File:region_rule.png]]
 
 [[File:region_oversetBad.png]]
 
 [[File:region_oversetGood.png]]
-
 }}
 {{Notes_Section}}
 {{Compatibility_Section
