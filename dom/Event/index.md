@@ -47,15 +47,6 @@ The '''Event''' object has these properties.
 !Property
 !Description
 {{!}}-
-{{!}}[[dom/properties/bubbles|'''bubbles''']]
-{{!}}Gets a value that  indicates whether an event propagates up from the event target.
-{{!}}-
-{{!}}[[dom/properties/cancelable|'''cancelable''']]
-{{!}}Gets a value that indicates whether you can cancel an event's default action.
-{{!}}-
-{{!}}[[dom/methods/cancelBubble|'''cancelBubble''']]
-{{!}}Gets or sets a value that indicates whether an event should be stopped from propagating up from the current target.
-{{!}}-
 {{!}}[[dom/properties/currentTarget|'''currentTarget''']]
 {{!}}Gets the event target that is currently being processed.
 {{!}}-
@@ -65,20 +56,11 @@ The '''Event''' object has these properties.
 {{!}}[[dom/properties/eventPhase|'''eventPhase''']]
 {{!}}Gets the event phase that is being evaluated.
 {{!}}-
-{{!}}[[dom/properties/isTrusted|'''isTrusted''']]
-{{!}}Gets a value that indicates whether a trusted event source created an event.
-{{!}}-
-{{!}}[[dom/properties/srcElement|'''srcElement''']]
-{{!}}Gets the element that the event was originally dispatched to. Compare to [[dom/properties/target|'''target''']].
-{{!}}-
 {{!}}[[dom/properties/target|'''target''']]
 {{!}}Gets the element that is the target of the event.
 {{!}}-
 {{!}}[[dom/properties/timeStamp|'''timeStamp''']]
 {{!}}Gets the time, in milliseconds, when an event occurred.
-{{!}}-
-{{!}}[[dom/properties/type (event)|'''type''']]
-{{!}}Gets the name of an event.
 {{!}}}
  
 }}
