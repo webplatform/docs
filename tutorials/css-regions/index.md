@@ -62,9 +62,9 @@ is still ''bar'':
 Regions may be positioned arbitrarily around the screen, but content
 flows through regions strictly according to the order in which they
 appear in the document. Regions can be scattered across the document
-tree and interrupted by other flows' regions or non-region elements,
+and interrupted by other flows' regions or non-region elements,
 but the only way to modify their flow order is to rearrange them in
-the DOM.
+the DOM tree.
 
 ==Controlling Region Breaks==
 
