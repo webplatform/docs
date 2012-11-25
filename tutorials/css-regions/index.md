@@ -46,7 +46,7 @@ Flowing content into regions encourages you to keep ''semantic''
 content element separate from the ''presentational'' elements in which
 they appear. Even without a corresponding region chain in which to
 flow, applying [[css/properties/flow-into|'''flow-into''']] makes the
-content element disappear from the document, just as if you had
+content element disappear from view, just as if you had
 assigned [[css/properties/display|'''display:none''']].
 
 Oddly, while defining regions dramatically changes how content appears
