@@ -8,7 +8,7 @@
 {{Summary_Section|"B" is a old tag that tells the browser to make the nested text bold. While the "b" tag is widely supported in browsers, use of it is not recommended as CSS can be used.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
-|Content=The <b> is used to make the nested tag bolded. The use of the <b> is not recommended according to HTML 5 standards as the bold effect can achieved using CSS. 
+|Content=The <b> is used to make the nested tag bolded. The use of the <b> is not recommended according to HTML 5 standards as the bold effect can achieved using CSS.
 }}
 {{Examples_Section
 |Not_required=No
@@ -714,7 +714,23 @@ This property is not supported for Metro style apps using JavaScript.
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
-|Desktop_rows=
+|Desktop_rows={{Compatibility Table Desktop Row
+|Chrome_supported=Yes
+|Chrome_prefixed_supported=Unknown
+|Chrome_prefixed_version=
+|Firefox_supported=Yes
+|Firefox_prefixed_supported=Unknown
+|Firefox_prefixed_version=
+|Internet_explorer_supported=Yes
+|Internet_explorer_prefixed_supported=Unknown
+|Internet_explorer_prefixed_version=
+|Opera_supported=Yes
+|Opera_prefixed_supported=Unknown
+|Opera_prefixed_version=
+|Safari_supported=Yes
+|Safari_prefixed_supported=Unknown
+|Safari_prefixed_version=
+}}
 |Mobile_rows=
 |Notes_rows=
 }}
