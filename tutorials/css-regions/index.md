@@ -169,7 +169,10 @@ In this example, the portion of paragraph text that flows into the
 [[Image:region_rule.png]]
 
 To achieve the combined effect shown above, the region itself can
-specify its own background color:
+specify its own styles. This CSS applies a different design to the
+''intro'' element regardless of whether its
+[[css/properties/flow-from|'''flow-from''']] specifies that it behaves
+as a region:
 
  #intro {
      background-color   : #777;
