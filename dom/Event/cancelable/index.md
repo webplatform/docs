@@ -5,24 +5,22 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Gets a value that indicates whether you can cancel an event's default action.}}
 {{API_Object_Property
 |Property_applies_to=dom/objects/Event
-|Read_only=No
+|Read_only=Yes
 |Example_object_name=event
+|Return_value_name=cancelable
 |Javascript_data_type=Boolean
+|Return_value_description=Whether the event's default action can be canceled.
 }}
 {{Examples_Section
 |Not_required=No
 |Examples=
 }}
 {{Notes_Section
-|Notes====Remarks===
-If you cannot cancel the event, calling [[dom/methods/preventDefault|'''preventDefault''']] has no effect.
+|Notes=If you cannot cancel the event, calling [[dom/methods/preventDefault|'''preventDefault''']] has no effect.
 When you create a custom event by using the [[dom/methods/createEvent|'''createEvent''']] method, you can set the   '''cancelable'''   property by using the [[dom/methods/initEvent|'''initEvent''']] method.
-|Import_Notes====Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203756 Document Object Model (DOM) Level 3 Events Specification], Section 4.1
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -34,6 +32,7 @@ When you create a custom event by using the [[dom/methods/createEvent|'''createE
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
