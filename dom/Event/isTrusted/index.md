@@ -5,22 +5,28 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Gets a value that indicates whether a trusted event source created an event.}}
 {{API_Object_Property
 |Property_applies_to=dom/objects/Event
-|Read_only=No
+|Read_only=Yes
 |Example_object_name=event
+|Return_value_name=isTrusted
+|Javascript_data_type=Boolean
+|Return_value_description=Whether the event was created by a trusted source.
 }}
 {{Examples_Section
 |Not_required=No
 |Examples=
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=Use this property to determine whether a script created the event, rather than a trusted source (such as a user agent).
+}}
 {{Related_Specifications_Section
 |Specifications=
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
