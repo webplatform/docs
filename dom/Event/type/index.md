@@ -4,12 +4,15 @@
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
-{{Summary_Section}}
+{{API_Name|type}}
+{{Summary_Section|Gets the name of an event.}}
 {{API_Object_Property
 |Property_applies_to=dom/objects/Event
-|Read_only=No
+|Read_only=Yes
 |Example_object_name=event
+|Return_value_name=eventType
+|Javascript_data_type=String
+|Return_value_description=The name of the event.
 }}
 {{Examples_Section
 |Not_required=No
@@ -17,7 +20,6 @@
 }}
 {{Notes_Section
 |Notes=The '''type''' property of the event depends on the event. This property can be a standard event type, or it can be a custom user-defined event that you created by using the  [[dom/methods/createEvent|'''createEvent''']] and [[dom/methods/initEvent|'''initEvent''']] methods.
-The '''type''' property is similar  to '''type''' in Windows Internet Explorer 8 and earlier versions.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -29,6 +31,7 @@ The '''type''' property is similar  to '''type''' in Windows Internet Explorer 
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
