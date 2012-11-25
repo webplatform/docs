@@ -150,7 +150,38 @@ independently. CSS and HTML such as the following...
 
 [[File:region_pull.png|500px]]
 
-[[File:region_rule.png]]
+==Styling region fragments==
+
+Portions of content that break across regions are referred to as
+''fragments''. Using the [[css/atrules/@region|'''@region''']] rule,
+fragments of content that flow into specified regions can receive
+custom CSS styles.
+
+In this example, the portion of paragraph text that flows into the
+''intro'' region has its text color inverted:
+
+ @region #intro {
+     p {
+         color          : #fff;
+     }
+ }
+
+[[Image:region_rule.png]]
+
+To achieve the combined effect shown above, the region itself can
+specify its own background color:
+
+ #intro {
+     background-color   : #777;
+ }
+
+Not all CSS properties can be manipulated in content that flows within
+a region.  See [[css/atrules/@region|'''@region''']] for more
+information.
+
+
+
+==More...==
 
 [[File:region_oversetBad.png]]
 
