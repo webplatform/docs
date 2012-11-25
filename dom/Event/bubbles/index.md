@@ -5,11 +5,14 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Gets a value that indicates whether an event propagates up from the event target.}}
 {{API_Object_Property
 |Property_applies_to=dom/objects/Event
-|Read_only=No
+|Read_only=Yes
 |Example_object_name=event
+|Return_value_name=bubbles
+|Javascript_data_type=Boolean
+|Return_value_description=Whether the event propagates upward from the event target.
 }}
 {{Examples_Section
 |Not_required=No
@@ -28,6 +31,7 @@
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
