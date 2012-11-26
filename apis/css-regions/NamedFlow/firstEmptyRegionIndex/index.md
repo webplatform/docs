@@ -1,7 +1,5 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Stub
-|Content=Incomplete, Examples Needed
 |Editorial notes=css/cssom/NamedFlow/firstEmptyRegionIndex
 }}
 {{Standardization_Status|W3C Editor's Draft}}
