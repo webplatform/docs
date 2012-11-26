@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|The '''Region''' interface is available for any element that serves as a CSS ''region'', whose [[css/properties/flow-from|'''flow-from''']] CSS specifies it displays content from a ''named flow''.}}
+{{Summary_Section|The '''Region''' interface is available for any element that serves as a CSS ''region'', whose [[css/properties/flow-from|'''flow-from''']] CSS specifies it displays content from a ''named flow''. }}
 {{API_Object}}
 {{Examples_Section
 |Not_required=No
@@ -13,7 +13,6 @@
     if (node.getRegionFlowRanges() == null) return(false);
     return(true);
 }
-
 }}
 }}
 {{Notes_Section
