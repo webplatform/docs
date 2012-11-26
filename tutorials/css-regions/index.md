@@ -5,6 +5,8 @@
 {{Tutorial
 |Content=The CSS Regions feature provides a way to implement complex magazine-style designs in which content flows through freely positioned layout elements. It offers you a way to dynamically flow content from one layout element to another, but does not specify how those elements are positioned. For that, use whatever CSS technique is most appropriate: floats, flexible boxes, grid layout, or absolute positioning. The following provides a guide for how to flow text, with no discussion of these various layout techniques.
 
+
+
 ==Named flows==
 
 To flow text through a document, you need a content element, a series of layout elements, and a pair of CSS properties to flow one into the other:
@@ -24,6 +26,8 @@ Without the [[css/properties/flow-from|'''flow-from''']] property, these layout 
 
 [[File:region_layout.png|400px]]
 
+
+
 ==How it works==
 
 Flowing content into regions encourages you to keep ''semantic'' content element separate from the ''presentational'' elements in which they appear. Even without a corresponding region chain in which to flow, applying [[css/properties/flow-into|'''flow-into''']] makes the content element disappear from view, just as if you had assigned [[css/properties/display|'''display:none''']]. It reappears only when a corresponding [[css/properties/flow-from|'''flow-from''']] is applied to presentational elements.
@@ -41,6 +45,8 @@ You may also specify more than one source of content, and again their order with
  &lt;article>bar...&lt;/article>
  &lt;article>baz...&lt;/article>
  &lt;div class="region">&lt;/div>
+
+
 
 ==Controlling Region Breaks==
 
@@ -64,6 +70,8 @@ In many cases, that approach may result in too much white space within the previ
  }
 
 Check your target browsers' support for CSS3's [[css/properties/widows|'''widows''']] and [[css/properties/orphans|'''orphans''']] properties. They offer finer control over how many ''lines'' of text are allowed to break into another region.
+
+
 
 ==Diverting content from a flow==
 
@@ -108,6 +116,34 @@ independently. CSS and HTML such as the following...
 
 [[File:region_pull.png|500px]]
 
+Note that in this example, the parent '''article''' element is
+assigned to the ''main'' flow, while its child '''aside''' elements
+are assigned to a different ''pull'' flow. You can use this same
+technique to assign child elements to the ''same'' flow.  In this
+example, endnotes are removed from wherever they happen to appear
+within the main flow of content, and are then listed at the end of the
+content:
+
+ &lt;style>
+ article, aside.endnote { flow-into: main }
+ &lt;/style>
+
+ &lt;article>
+   ...
+   &lt;aside class="endnote">...&lt;/aside>
+   ...
+   &lt;aside class="endnote">...&lt;/aside>
+   ...
+   <h2>Endnotes</h2>
+ &lt;/article>
+ &lt;!-- endnotes appear here -->
+
+However, descendant elements that are defined as the default
+'''flow-into:none''' cannot be prevented from flowing along with the
+ancestor.
+
+
+
 ==Styling region fragments==
 
 Portions of content that break across regions are referred to as
@@ -139,6 +175,8 @@ as a region:
 Not all CSS properties can be manipulated in content that flows within
 a region.  See [[css/atrules/@region|'''@region''']] for more
 information.
+
+
 
 ==Trimming overset content==
 
@@ -179,6 +217,8 @@ available layout regions, or leaves some of them empty. See the
 properties, and its
 [[apis/css-regions/NamedFlow/regionlayoutupdate|'''regionlayoutupdate''']]
 event.
+
+
 
 ==Adaptive layouts with media queries==
 
