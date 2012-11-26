@@ -15,7 +15,7 @@
 }}{{Method Parameter
 |Name=pseudoElementName
 |Data type=String
-|Description=The name of a CSS pseudo-element (such as "::before" or "::after") or a null value. Optional in WebKit-based browsers.
+|Description=The name of a CSS pseudo-element (such as "::before" or "::after") or a null value. Optional in WebKit-based browsers. 
 |Optional=Yes
 }}
 |Method_applies_to=apis/css-regions/Region
