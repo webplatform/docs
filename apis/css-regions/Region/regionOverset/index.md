@@ -1,8 +1,5 @@
 {{Page_Title}}
-{{Flags
-|High-level issues=Stub
-|Content=Incomplete, Examples Needed
-}}
+{{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|A region's display state within a region chain.}}
@@ -110,6 +107,9 @@
 }}
 {{See_Also_Section
 |Topic_clusters=Regions
+|External_links=* [[http://html.adobe.com/webstandards/cssregions| Adobe Web Standards: CSS Regions]]
+* [[http://www.adobe.com/devnet/html5/articles/css3-regions.html| CSS3 regions: Rich page layout with HTML and CSS3]]
+* [[http://adobe.github.com/web-platform/samples/css-regions| Sample pages]]
 }}
 {{Topics|CSS}}
 {{External_Attribution
