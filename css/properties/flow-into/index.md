@@ -131,7 +131,12 @@ See [[tutorials/css-regions|Using CSS Regions to flow content through a layout]]
 }}
 |Notes_rows={{Compatibility Notes Row
 |Browser=Internet Explorer
-|Note=IE supports [[css/properties/flow-into|'''flow-into''']] and [[css/properties/flow-from|'''flow-from''']] properties, but no other features from the W3C's CSS Regions specification.
+|Version=8
+|Note=Supports [[css/properties/flow-into|'''flow-into''']] and [[css/properties/flow-from|'''flow-from''']] properties in Compatibility Mode 5.
+}}{{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=10
+|Note=Supports [[css/properties/flow-into|'''flow-into''']] and [[css/properties/flow-from|'''flow-from''']] properties in Compatibility Mode 9.
 }}
 }}
 {{See_Also_Section
