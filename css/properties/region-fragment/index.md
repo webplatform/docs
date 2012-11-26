@@ -28,7 +28,12 @@ a fragment of content as if it were flowing into a subsequent region.
 |Not_required=Yes
 |Examples={{Single Example}}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=In the following example,
+
+[[Image:region_fragment.png]]
+
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Regions Module Level 3
