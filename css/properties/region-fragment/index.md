@@ -1,12 +1,12 @@
 {{Page_Title}}
-{{Flags
-|High-level issues=Stub
-|Content=Incomplete
-|Editorial notes=css/properties/region-fragment
-}}
+{{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|[[User:Sierra|Sierra]] ([[User talk:Sierra|talk]])}}
+{{Summary_Section|Controls whether the last ''region'' in a chain displays additional
+''overset'' content according its default
+[[css/properties/overflow|'''overflow''']] property, or	if it displays
+a fragment of content as if it were flowing into a subsequent region.
+}}
 {{CSS Property
 |Initial value=auto
 |Applies to=CSS Regions
@@ -16,11 +16,17 @@
 |Animatable=No
 |CSS object model property=regionFragment
 |CSS percentages=N/A
-|Values=
+|Values={{CSS Property Value
+|Data Type=auto
+|Description=Region element displays overset content according to its [[css/properties/overflow|'''overflow''']] property.
+}}{{CSS Property Value
+|Data Type=break
+|Description=Region element overrides [[css/properties/overflow|'''overflow''']] property, displaying whatever fragment of overset content can fit within the region.
+}}
 }}
 {{Examples_Section
-|Not_required=No
-|Examples=
+|Not_required=Yes
+|Examples={{Single Example}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
