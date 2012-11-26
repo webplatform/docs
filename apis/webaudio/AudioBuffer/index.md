@@ -1,0 +1,29 @@
+{{Page_Title}}
+{{Flags}}
+{{Standardization_Status|W3C Editor's Draft}}
+{{API_Name}}
+{{Summary_Section|This interface represents a memory-resident audio asset, primarily for one-shot sounds and other short audio clips. Its format is non-interleaved IEEE 32-bit linear PCM with a nominal range of -1 -> +1. It can contain one or more channels.}}
+{{API_Object}}
+{{Examples_Section
+|Not_required=Yes
+|Examples=
+}}
+{{Notes_Section}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=Yes
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section}}
+{{Topics|Audio}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
+}}
