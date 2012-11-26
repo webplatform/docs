@@ -1,7 +1,4 @@
 {{Page_Title|Using CSS Regions to flow content through a layout}}
-{{Flags
-|High-level issues=Stub
-}}
 {{Byline}}
 {{Summary_Section|Enabling complex threaded layouts}}
 {{Tutorial
