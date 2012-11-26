@@ -63,7 +63,7 @@ function modifyFlow(e) {
 |Opera_version=
 |Opera_prefixed_supported=No
 |Opera_prefixed_version=
-|Safari_supported=Unknown
+|Safari_supported=No
 |Safari_version=
 |Safari_prefixed_supported=Yes
 |Safari_prefixed_version=534
