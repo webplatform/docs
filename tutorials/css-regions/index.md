@@ -39,11 +39,11 @@ While defining regions dramatically changes how content appears in the document,
 
 Regions may be positioned arbitrarily around the screen, but content flows through regions strictly according to the order in which they appear in the document. Regions can be scattered across the document and interrupted by other flows' regions or non-region elements, but the only way to modify their flow order is to rearrange them in the DOM tree.
 
-You may also specify more than one source of content, and again their order within the document determines the order in which they are presented. The example below flows ''foo'', ''bar'', and ''baz'' into the same chain of regions. Rearranging the ''article'' nodes within the document changes their order when presented within regions:
+You may also specify more than one source of content, and again their order within the document determines the order in which they are presented. The example below flows ''foo'', ''bar'', and ''baz'' into the same chain of regions. Rearranging the ''article'' nodes within the document shuffles them output:
 
- &lt;article>foo...&lt;/article>
- &lt;article>bar...&lt;/article>
- &lt;article>baz...&lt;/article>
+ &lt;article>foo&lt;/article>
+ &lt;article>bar&lt;/article>
+ &lt;article>baz&lt;/article>
  &lt;div class="region">&lt;/div>
 
 
@@ -93,10 +93,10 @@ The various ''break'' properties shown above don't address a common layout probl
 To address this problem, note there can be more than one named flow in a document, and thus more than one series of regions. Defining a separate flow for the nested '''aside''' content removes it from the parent '''article''' content and allows for it to be placed independently. CSS and HTML such as the following...
 
  &lt;style>
-   article { flow-into: main; }
-   div.region { flow-from: main; }
+   article         { flow-into: main;      }
+   div.region      { flow-from: main;      }
    article > aside { flow-into: pullquote; }
-   div.pull { flow-from: pullquote; }
+   div.pull        { flow-from: pullquote; }
  &lt;/style>
  
  &lt;section class="page">
@@ -166,14 +166,15 @@ The [[css/properties/region-fragment|'''region-fragment''']] CSS property contro
 
  div.region {
      region-fragment: break;
-     overflow: none;      /* irrelevant when above is specified */
+     /* overflow is irrelevant within regions when above property is specified... */
+     overflow: none;      
  }
 
-This presents a much cleaner bottom edge on the overset region, and should be applied by default to all regions:
+This presents a much cleaner bottom edge on the overset region, and should perhaps be applied by default to all regions:
 
 [[Image:region_overset_good.png]]
 
-Note: The CSS Regions feature offers [[apis/css-regions|API interfaces]] that can help detect when a flow's content exceeds available layout regions, or leaves some of them empty. See the [[apis/css-regions/NamedFlow|'''NamedFlow''']] API's [[apis/css-regions/NamedFlow/overset|'''overset''']] and [[apis/css-regions/NamedFlow/firstEmptyRegionIndex|'''firstEmptyRegionIndex''']] properties, and its [[apis/css-regions/NamedFlow/regionlayoutupdate|'''regionlayoutupdate''']] event.
+Note: The CSS Regions feature offers [[apis/css-regions|API interfaces]] that can help detect when a flow's content exceeds available layout regions, or falls short and leaves some of them empty. See the [[apis/css-regions/NamedFlow|'''NamedFlow''']] API's [[apis/css-regions/NamedFlow/overset|'''overset''']] and [[apis/css-regions/NamedFlow/firstEmptyRegionIndex|'''firstEmptyRegionIndex''']] properties, and its [[apis/css-regions/NamedFlow/regionlayoutupdate|'''regionlayoutupdate''']] event.
 
 
 
@@ -224,11 +225,11 @@ This produces an alternate mobile interface:
 
 [[Image:region_mobile.png]]
 
-
-
-==Where to go from here==
+==Going from here==
 
 Once you become accustomed to using regions, you can use a variety of techniques to customize layouts for your content. However, the more you want to set up rules to automate layout from various content sources, the more you should familiarize yourself with CSS3's flexible box properties. Also familiarize yourself with the [[apis/css-regions|API interfaces]] that allow you to flow content from JavaScript.
+
+
 }}
 {{Notes_Section}}
 {{Compatibility_Section
