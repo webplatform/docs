@@ -225,9 +225,9 @@ This produces an alternate mobile interface:
 
 [[Image:region_mobile.png]]
 
-==Going from here==
+==Where to go from here==
 
-Once you become accustomed to using regions, you can use a variety of techniques to customize layouts for your content. However, the more you want to set up rules to automate layout from various content sources, the more you should familiarize yourself with CSS3's flexible box properties. Also familiarize yourself with the [[apis/css-regions|API interfaces]] that allow you to flow content from JavaScript.
+Once you become accustomed to using regions, you can rely on a wide variety of techniques to customize layouts for your content. However, the more you want to set up rules to automate layout from various content sources, the more you should familiarize yourself with CSS3's flexible box properties. Also familiarize yourself with the [[apis/css-regions|API interfaces]] that allow JavaScript applications to control how content flows.
 
 
 }}
@@ -291,7 +291,10 @@ Once you become accustomed to using regions, you can use a variety of techniques
 |Safari_mobile_prefixed_supported=No
 |Safari_mobile_prefixed_version=
 }}
-|Notes_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Internet Explorer
+|Note=IE supports [[css/properties/flow-into|'''flow-into''']] and [[css/properties/flow-from|'''flow-from''']] properties, but no other features from the W3C's CSS Regions specification.
+}}
 }}
 {{See_Also_Section
 |Topic_clusters=Regions
