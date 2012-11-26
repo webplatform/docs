@@ -134,7 +134,7 @@ content:
    ...
    &lt;aside class="endnote">...&lt;/aside>
    ...
-   <h2>Endnotes</h2>
+   &lt;h2>Endnotes&lt;/h2>
  &lt;/article>
  &lt;!-- endnotes appear here -->
 
