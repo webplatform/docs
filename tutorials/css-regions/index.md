@@ -247,7 +247,7 @@ This produces an alternate mobile interface:
 
 [[Image:region_mobile.png]]
 
-
+}}
 
 
 
