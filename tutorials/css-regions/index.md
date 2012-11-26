@@ -39,7 +39,7 @@ While defining regions dramatically changes how content appears in the document,
 
 Regions may be positioned arbitrarily around the screen, but content flows through regions strictly according to the order in which they appear in the document. Regions can be scattered across the document and interrupted by other flows' regions or non-region elements, but the only way to modify their flow order is to rearrange them in the DOM tree.
 
-You may also specify more than one source of content, and again their order within the document determines the order in which they are presented. The example below flows ''foo'', ''bar'', and ''baz'' into the same chain of regions. Rearranging the ''article'' nodes within the document shuffles them output:
+You may also specify more than one source of content, and again their order within the document determines the order in which they are presented. The example below flows ''foo'', ''bar'', and ''baz'' into the same chain of regions. Rearranging the ''article'' nodes within the document shuffles their order within output regions:
 
  &lt;article>foo&lt;/article>
  &lt;article>bar&lt;/article>
