@@ -228,8 +228,6 @@ This produces an alternate mobile interface:
 ==Where to go from here==
 
 Once you become accustomed to using regions, you can rely on a wide variety of techniques to customize layouts for your content. However, the more you want to set up rules to automate layout from various content sources, the more you should familiarize yourself with CSS3's flexible box properties. Also familiarize yourself with the [[apis/css-regions|API interfaces]] that allow JavaScript applications to control how content flows.
-
-
 }}
 {{Notes_Section}}
 {{Compatibility_Section
@@ -246,8 +244,8 @@ Once you become accustomed to using regions, you can rely on a wide variety of t
 |Firefox_prefixed_version=
 |Internet_explorer_supported=No
 |Internet_explorer_version=
-|Internet_explorer_prefixed_supported=No
-|Internet_explorer_prefixed_version=
+|Internet_explorer_prefixed_supported=Yes
+|Internet_explorer_prefixed_version=8
 |Opera_supported=No
 |Opera_version=
 |Opera_prefixed_supported=No
@@ -293,7 +291,12 @@ Once you become accustomed to using regions, you can rely on a wide variety of t
 }}
 |Notes_rows={{Compatibility Notes Row
 |Browser=Internet Explorer
-|Note=IE supports [[css/properties/flow-into|'''flow-into''']] and [[css/properties/flow-from|'''flow-from''']] properties, but no other features from the W3C's CSS Regions specification.
+|Version=8
+|Note=Supports [[css/properties/flow-into|'''flow-into''']] and [[css/properties/flow-from|'''flow-from''']] properties in Compatibility Mode 5.
+}}{{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=10
+|Note=Supports [[css/properties/flow-into|'''flow-into''']] and [[css/properties/flow-from|'''flow-from''']] properties in Compatibility Mode 9.
 }}
 }}
 {{See_Also_Section
