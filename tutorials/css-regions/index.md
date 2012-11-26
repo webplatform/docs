@@ -151,13 +151,42 @@ Not all CSS properties can be manipulated in content that flows within
 a region.  See [[css/atrules/@region|'''@region''']] for more
 information.
 
+==Trimming overset content==
 
+When flowing content through a layout, there may not be enough space
+available in the region chain to display all of it. In that case, the
+flow is in an ''overset'' state. By default, the last available region
+in the chain displays overset content according to its
+[[css/properties/overflow|'''overflow''']] setting. Still, even
+'''overflow:hidden''' leads to unfortunate visual artifacts:
 
-==More...==
+[[Image:region_overset_bad.png]]
 
-[[File:region_oversetBad.png]]
+The [[css/properties/region-fragment|'''region-fragment''']] CSS
+property controls how content displays in this situation. Setting it
+to '''break''' causes the last overset region to display only the
+fragment of content that can fit within it, just as if subsequent
+content flowed into another region:
 
-[[File:region_oversetGood.png]]
+ div.region {
+     region-fragment: break;
+     overflow: none;      /* irrelevant when above is specified */
+ }
+
+This presents a much cleaner bottom edge on the overset region:
+
+[[Image:region_overset_good.png]]
+
+Note: The CSS Regions feature offers [[apis/css-regions|API
+interfaces]] that can help detect when a flow's content exceeds
+available layout regions, or leaves some of them empty. See the
+[[apis/css-regions/NamedFlow|'''NamedFlow''']] API's
+[[apis/css-regions/NamedFlow/overset|'''overset'''] and
+[[apis/css-regions/NamedFlow/firstEmptyRegionIndex|'''firstEmptyRegionIndex''']]
+properties, and its
+[[apis/css-regions/NamedFlow/regionlayoutupdate|'''regionlayoutupdate''']]
+event.
+
 }}
 {{Notes_Section}}
 {{Compatibility_Section
