@@ -176,6 +176,8 @@ and should be applied by default to all regions:
 
 [[Image:region_overset_good.png]]
 
+
+
 Note: The CSS Regions feature offers [[apis/css-regions|API
 interfaces]] that can help detect when a flow's content exceeds
 available layout regions, or leaves some of them empty. See the
@@ -185,6 +187,67 @@ available layout regions, or leaves some of them empty. See the
 properties, and its
 [[apis/css-regions/NamedFlow/regionlayoutupdate|'''regionlayoutupdate''']]
 event.
+
+==Adaptive layouts with media queries==
+
+Media queries allow you to target different designs to browsers on
+differently-sized devices. Such ''responsive'' web pages should target
+complex CSS region-based layouts only to larger-screen tablet or
+desktop browser interfaces. Mobile devices should rely on a much
+simpler one-column layout.
+
+In the following example, large-screen browsers pour the article's
+content into the section's layout elements, using all the complex
+layout options described above. Small-screen browsers avoid the CSS
+Region feature altogether, suppressing the section element that would
+have displayed the complex layout, and also suppressing content
+elements (such as the pull quote) inappropriate for the simpler
+layout:
+
+ @media screen and (min-width: 480px){
+ 
+     /* pour article into section */
+     article { flow-into : main; }
+     section > div:not(#pull) { flow-from : main; }
+ 
+     /* custom flow for pull quotes */
+     aside { flow-into : pull; }
+     div#pull { flow-from : pull; }
+ 
+     /* @region rules can be nested within @media rules */
+     @region #intro {
+         p:first-of-type { color : #fff; }
+     }
+ }
+
+ @media screen and (max-width: 480px){
+ 
+     /* suppress layout based on CSS Regions */
+     section { display : none; }
+ 
+     /* suppress content inappropriate for mobile */
+     aside { display : none; }
+ 
+     /* style content as single column for mobile */
+     article {
+         margin        : 1em 1em 10em 1em;
+         padding       : 1em;
+         border-radius : 1em;
+         background    : #fff;
+     }
+     body {
+         background    : #aaa;
+         padding       : 0;
+     }
+ }
+
+This produces an alternate mobile interface:
+
+[[Image:region_mobile.png]]
+
+
+
+
 
 {{Notes_Section}}
 {{Compatibility_Section
