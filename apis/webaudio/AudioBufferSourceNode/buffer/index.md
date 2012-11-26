@@ -7,7 +7,6 @@
 |Property_applies_to=apis/webaudio/AudioBufferSourceNode
 |Read_only=No
 |Example_object_name=AudioBufferSourceNode
-|Return_value_description=Property is of type AudioBuffer.
 }}
 {{Examples_Section
 |Not_required=Yes
