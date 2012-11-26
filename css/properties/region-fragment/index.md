@@ -48,6 +48,8 @@ as a ''region'', the element's
 [[css/properties/flow-from|'''flow-from''']] must specify a named
 flow, and display content from a corresponding
 [[css/properties/flow-into|'''flow-into''']].
+
+See [[tutorials/css-regions|Using CSS Regions to flow content through a layout]] for an overview of CSS Regions.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
