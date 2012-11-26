@@ -187,7 +187,6 @@ properties, and its
 [[apis/css-regions/NamedFlow/regionlayoutupdate|'''regionlayoutupdate''']]
 event.
 
-}}
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
