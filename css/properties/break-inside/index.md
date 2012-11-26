@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status}}
@@ -14,16 +14,19 @@
 |Animatable=No
 |Values={{CSS Property Value
 |Data Type=auto
-|Description=Default. A page break or column break is determined  by the flow of content.
+|Description=Default. A page/column/region break is determined  by the flow of content.
 }}{{CSS Property Value
 |Data Type=avoid
-|Description=A page break or column break is not allowed within the content block.
+|Description=A page/column/region break is not allowed within the content block.
 }}{{CSS Property Value
 |Data Type=avoid-page
 |Description=A page break is not allowed within the content block.
 }}{{CSS Property Value
 |Data Type=avoid-column
 |Description=A column break is not allowed within the content block.
+}}{{CSS Property Value
+|Data Type=avoid-region
+|Description=A region break is not allowed within the content block.
 }}
 }}
 {{Examples_Section
@@ -35,16 +38,20 @@
 <code>'''break-inside: '''auto '''{{!}}''' avoid '''{{!}}''' avoid-page '''{{!}}''' avoid-column</code>
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Regions Module Level 3
+|URL=http://dev.w3.org/csswg/css3-regions/
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=Multi-Column
+|Topic_clusters=Multi-Column, Regions
 |Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
