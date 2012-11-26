@@ -26,9 +26,9 @@ Without the [[css/properties/flow-from|'''flow-from''']] property, these layout 
 
 ==Separating Content and Presentation==
 
-Flowing content into regions encourages you to keep ''semantic'' content element separate from the ''presentational'' elements in which they appear. Even without a corresponding region chain in which to flow, applying [[css/properties/flow-into|'''flow-into''']] makes the content element disappear from view, just as if you had assigned [[css/properties/display|'''display:none''']].
+Flowing content into regions encourages you to keep ''semantic'' content element separate from the ''presentational'' elements in which they appear. Even without a corresponding region chain in which to flow, applying [[css/properties/flow-into|'''flow-into''']] makes the content element disappear from view, just as if you had assigned [[css/properties/display|'''display:none''']]. The [[css/properties/flow-from|'''flow-from''']]
 
-Oddly, while defining regions dramatically changes how content appears in the document, it's implemented entirely as CSS, and does not affect the underlying content of DOM elements. With the CSS shown above, the following displays the article's ''foo'' content within the '''div''' element, but its [[dom/properties/innerdom/innerHTML|'''innerHTML''']] is still ''bar'':
+While defining regions dramatically changes how content appears in the document, it's implemented entirely as CSS, and does not affect the underlying content of DOM elements. With the CSS shown above, the following displays the article's ''foo'' content within the '''div''' element, but its [[dom/properties/innerdom/innerHTML|'''innerHTML''']] is still ''bar'':
 
  &lt;article>foo&lt;/article>
  &lt;div class="region">bar&lt;/div>
