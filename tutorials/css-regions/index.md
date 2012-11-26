@@ -12,10 +12,10 @@
 To flow text through a document, you need a content element, a series of layout elements, and a pair of CSS properties to flow one into the other:
 
  article {
-     -webkit-flow-into: main;
+     flow-into: main;
  }
  div.region {
-     -webkit-flow-from: main;
+     flow-from: main;
  }
 
 The [[css/properties/flow-into|'''flow-into''']] [[css/properties/flow-from|'''flow-from''']] properties must both specify the same ''named flow'' for the feature to work. Once that is in place, elements assigned with [[css/properties/flow-from|'''flow-from''']] behave as ''regions''. The series of regions through which content flows is called the ''region chain'':
@@ -100,10 +100,10 @@ parent '''article''' content and allows for it to be placed
 independently. CSS and HTML such as the following...
 
  &lt;style>
-   article { -webkit-flow-into: main; }
-   div.region { -webkit-flow-from: main; }
-   article > aside { -webkit-flow-into: pullquote; }
-   div.pull { -webkit-flow-from: pullquote; }
+   article { flow-into: main; }
+   div.region { flow-from: main; }
+   article > aside { flow-into: pullquote; }
+   div.pull { flow-from: pullquote; }
  &lt;/style>
 
  &lt;section class="page">
