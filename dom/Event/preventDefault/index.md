@@ -1,41 +1,47 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
+{{Summary_Section|Cancels the default action of an event, if possible.}}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=dom/objects/Event
-|Example_object_name=object
-|Return_value_name=object
-|Javascript_data_type=DOM Node
-|Return_value_description=Type: '''HRESULT'''
-
-If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRESULT''' error code.
-
-Type: '''HRESULT'''
-
-If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRESULT''' error code.
-
-
+|Example_object_name=event
+|Javascript_data_type=void
 }}
-{{Topics|DOM}}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
-If an event is [[dom/properties/cancelable|'''cancelable''']], the '''preventDefault''' method signfies that the event should be canceled. Any event handler can cancel the default action. If the event cannot be canceled, this method has no effect.
-A call to this method is similar to setting the [[dom/properties/returnValue|'''returnValue''']] event property to false in Windows Internet Explorer 8 and earlier versions.
-|Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203756 Document Object Model (DOM) Level 3 Events Specification], Section 4.1
-
-
+|Usage=Use this method to prevent the default action of a cancelable event. For example, prevent the browser from navigating when clicking on a [[html/elements/a|a]] element.
+An event is cancelable if its [[dom/properties/cancelable|cancelable]] property returns true.
+|Notes=If the event cannot be canceled, this method has no effect.
+}}
+{{Related_Specifications_Section
+|Specifications={{Related Specification
+|Name=DOM Level 3 Events
+|URL=http://www.w3.org/TR/DOM-Level-3-Events/
+|Status=Working Draft
+|Relevant_changes=Section 4.1
+}}
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=8 and earlier
+|Note=A proprietary alternative for this method is the [[dom/properties/returnValue|returnValue]] property.
+}}
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 *<code>[[svg/objects/SVGZoom|SVGZoomEvent]]</code>
 *<code>[[dom/objects/BeforeUnloadEvent|BeforeUnloadEvent]]</code>
 *<code>[[dom/objects/CompositionEvent|CompositionEvent]]</code>
@@ -56,10 +62,11 @@ A call to this method is similar to setting the [[dom/properties/returnValue|'''
 *<code>[[dom/properties/cancelable|cancelable]]</code>
 *<code>[[dom/methods/stopPropagation|stopPropagation]]</code>
 }}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
