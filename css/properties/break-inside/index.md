@@ -33,7 +33,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Code=/* forces top-level headings onto a new page, column, or region */ 
+|Code=/* forces top-level headings onto a new page, column, or region */
 h1 {
     break-before: always;
 }
