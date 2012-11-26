@@ -29,9 +29,25 @@ a fragment of content as if it were flowing into a subsequent region.
 |Examples={{Single Example}}
 }}
 {{Notes_Section
-|Usage=In the following example,
+|Usage=In the following example, ''region_1'' can accommodate the gray text,
+''region_2'' can	accommodate the blue text, and the red	''overset''
+text can't fit within the region chain:
 
 [[Image:region_fragment.png]]
+
+Setting '''region-fragment''' to '''break''' suppresses display of the
+overset text, as shown in the example at the bottom.  Setting
+'''region-fragment''' to its default '''auto''' value makes overset
+content display according to whatever
+[[css/properties/overflow|'''overflow''']] property is defined, as
+shown in the two examples on the right.
+
+The property only applies to the final element in a ''region chain''
+that is not large enough to accomodate remaining content. To behave
+as a ''region'', the element's
+[[css/properties/flow-from|'''flow-from''']] must specify a named
+flow, and display content from a corresponding
+[[css/properties/flow-into|'''flow-into''']].
 
 }}
 {{Related_Specifications_Section
