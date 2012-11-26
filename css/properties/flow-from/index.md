@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Marks a block element as a region into which content can be flowed}}
+{{Summary_Section|Flows content from a named flow (specified by a corresponding [[css/properties/flow-into|'''flow-into''']]) through selected elements to form a chain of layout ''regions''.}}
 {{CSS Property
 |Initial value=none
 |Inherited=No
@@ -49,7 +49,11 @@ section.layout > div {
 &lt;/section>
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=While regions can be positioned arbitrarily on the screen, their order in the document determines the order in which content flows. Regions otherwise do not have to appear as a continuous series within the DOM.
+
+See [[tutorials/css-regions|Using CSS Regions to flow content through a layout]] for an overview of CSS Regions.
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Regions Module Level 3
