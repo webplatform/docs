@@ -1,40 +1,42 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
+{{Summary_Section|Prevents any further propagation of an event.}}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=dom/objects/Event
-|Example_object_name=object
-|Return_value_name=object
-|Javascript_data_type=DOM Node
-|Return_value_description=Type: '''HRESULT'''
-
-If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRESULT''' error code.
-
-Type: '''HRESULT'''
-
-If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRESULT''' error code.
-
-
+|Example_object_name=event
+|Javascript_data_type=void
 }}
-{{Topics|DOM}}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
-The '''stopImmediatePropagation''' method prevents any further dispatch of the event, even if additional event handlers remain on the target element. To allow the remaining handlers to run, use the [[dom/methods/stopPropagation|'''stopPropagation''']] method instead.
-|Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203756 Document Object Model (DOM) Level 3 Events Specification], Section 4.1
-
-
+|Usage=Use this method to prevent any further dispatch of the event, even if additional event handlers remain on the target element.
+|Notes=To allow the remaining handlers to run, use the [[dom/methods/stopPropagation|'''stopPropagation''']] method instead.
+}}
+{{Related_Specifications_Section
+|Specifications={{Related Specification
+|Name=DOM Level 3 Events
+|URL=http://www.w3.org/TR/DOM-Level-3-Events/
+|Status=Working Draft
+|Relevant_changes=Section 4.1
+}}
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 *<code>[[svg/objects/SVGZoom|SVGZoomEvent]]</code>
 *<code>[[dom/objects/BeforeUnloadEvent|BeforeUnloadEvent]]</code>
 *<code>[[dom/objects/CompositionEvent|CompositionEvent]]</code>
@@ -53,10 +55,11 @@ The '''stopImmediatePropagation''' method prevents any further dispatch of the e
 *<code>[[dom/objects/UIEvent|UIEvent]]</code>
 *<code>[[dom/methods/stopPropagation|stopPropagation]]</code>
 }}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
