@@ -83,6 +83,9 @@ h2, h3 {
 }}
 {{See_Also_Section
 |Topic_clusters=Multi-Column, Regions
+|External_links=* [[http://html.adobe.com/webstandards/cssregions| Adobe Web Standards: CSS Regions]]
+* [[http://www.adobe.com/devnet/html5/articles/css3-regions.html| CSS3 regions: Rich page layout with HTML and CSS3]]
+* [[http://adobe.github.com/web-platform/samples/css-regions| Sample pages]]
 |Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
