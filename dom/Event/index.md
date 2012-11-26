@@ -11,59 +11,7 @@
 |Not_required=No
 |Examples=
 }}
-{{Notes_Section
-|Notes=You can access the attributes of the '''Event''' object from all event types.
-|Import_Notes====Additional Members (MSDN)===
-The '''Event''' object has these types of members:
-[[#Additional_Methods|Additional Methods]]
-[[#Additional_Properties|Additional Properties]]
-
-
-====Additional Methods====
-The '''Event''' object has these methods.
-{{{!}} class="wikitable"
-{{!}}-
-!Method
-!Description
-{{!}}-
-{{!}}[[dom/methods/initEvent|'''initEvent''']]
-{{!}}Initializes a new generic event that the  [[dom/methods/createEvent|'''createEvent''']] method created.
-{{!}}-
-{{!}}[[dom/methods/preventDefault|'''preventDefault''']]
-{{!}}Cancels the default action of an event.
-{{!}}-
-{{!}}[[dom/methods/stopImmediatePropagation|'''stopImmediatePropagation''']]
-{{!}}Prevents any further propagation of an event.
-{{!}}-
-{{!}}[[dom/methods/stopPropagation|'''stopPropagation''']]
-{{!}}Prevents propagation of an event beyond the current target.
-{{!}}}
- 
-
-====Additional Properties====
-The '''Event''' object has these properties.
-{{{!}} class="wikitable"
-{{!}}-
-!Property
-!Description
-{{!}}-
-{{!}}[[dom/properties/currentTarget|'''currentTarget''']]
-{{!}}Gets the event target that is currently being processed.
-{{!}}-
-{{!}}[[dom/properties/defaultPrevented|'''defaultPrevented''']]
-{{!}}Gets a value that indicates whether the default action should be canceled.
-{{!}}-
-{{!}}[[dom/properties/eventPhase|'''eventPhase''']]
-{{!}}Gets the event phase that is being evaluated.
-{{!}}-
-{{!}}[[dom/properties/target|'''target''']]
-{{!}}Gets the element that is the target of the event.
-{{!}}-
-{{!}}[[dom/properties/timeStamp|'''timeStamp''']]
-{{!}}Gets the time, in milliseconds, when an event occurred.
-{{!}}}
- 
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=DOM Level 3 Events
