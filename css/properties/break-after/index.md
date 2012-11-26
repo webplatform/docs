@@ -43,7 +43,7 @@
 |Data Type=region
 |Description=A region break is inserted (forced) after the content block.
 }}{{CSS Property Value
-|Data Type=avoid-column
+|Data Type=avoid-region
 |Description=A region break is not allowed after the content block.
 }}
 }}
