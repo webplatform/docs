@@ -6,7 +6,15 @@
 {{API_Object}}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=Determines if an element is currently set to behave as a region:
+|Code=function isRegion(node) {
+    if (node.getRegionFlowRanges() == null) return(false);
+    return(true);
+}
+
+}}
 }}
 {{Notes_Section
 |Usage=Use the '''Region''' interface to determine whether any content flows through the region, what content currently displays, and any special CSS styling that applies.
