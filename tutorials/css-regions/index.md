@@ -90,11 +90,7 @@ The various ''break'' properties shown above don't address a common layout probl
    ...
  &lt;/article>
 
-To address this problem, note there can be more than one named flow in
-a document, and thus more than one series of regions. Defining a
-separate flow for the nested '''aside''' content removes it from the
-parent '''article''' content and allows for it to be placed
-independently. CSS and HTML such as the following...
+To address this problem, note there can be more than one named flow in a document, and thus more than one series of regions. Defining a separate flow for the nested '''aside''' content removes it from the parent '''article''' content and allows for it to be placed independently. CSS and HTML such as the following...
 
  &lt;style>
    article { flow-into: main; }
@@ -102,13 +98,13 @@ independently. CSS and HTML such as the following...
    article > aside { flow-into: pullquote; }
    div.pull { flow-from: pullquote; }
  &lt;/style>
-
+ 
  &lt;section class="page">
    &lt;div class="region"  id="title">       &lt;/div>
    &lt;div class="region"  id="intro">       &lt;/div>
    &lt;div class="region"  id="col1">        &lt;/div>
    &lt;div class="region"  id="col2_top">    &lt;/div>
-   &lt;div class="pull"    id="col2_top">    &lt;/div>
+   &lt;div class="pull"    id="pullquote">   &lt;/div>
    &lt;div class="region"  id="col2_bottom"> &lt;/div>
  &lt;/section>
 
@@ -116,18 +112,12 @@ independently. CSS and HTML such as the following...
 
 [[File:region_pull.png|500px]]
 
-Note that in this example, the parent '''article''' element is
-assigned to the ''main'' flow, while its child '''aside''' elements
-are assigned to a different ''pull'' flow. You can use this same
-technique to assign child elements to the ''same'' flow.  In this
-example, endnotes are removed from wherever they happen to appear
-within the main flow of content, and are then listed at the end of the
-content:
+Note that in this example, the parent '''article''' element is assigned to the ''main'' flow, while its child '''aside''' elements are assigned to a different ''pull'' flow. You can use this same technique to assign child elements to the ''same'' flow.  In this example, endnotes are removed from wherever they happen to appear within the main flow of content, and are then listed at the end of the content:
 
  &lt;style>
  article, aside.endnote { flow-into: main }
  &lt;/style>
-
+ 
  &lt;article>
    ...
    &lt;aside class="endnote">...&lt;/aside>
@@ -138,21 +128,15 @@ content:
  &lt;/article>
  &lt;!-- endnotes appear here -->
 
-However, descendant elements that are defined as the default
-'''flow-into:none''' cannot be prevented from flowing along with the
-ancestor.
+However, descendant elements that are defined as the default '''flow-into:none''' cannot be prevented from flowing along with the ancestor.
 
 
 
 ==Styling region fragments==
 
-Portions of content that break across regions are referred to as
-''fragments''. Using the [[css/atrules/@region|'''@region''']] rule,
-fragments of content that flow into specified regions can receive
-custom CSS styles.
+Portions of content that break across regions are referred to as ''fragments''. Using the [[css/atrules/@region|'''@region''']] rule, fragments of content that flow into specified regions can receive custom CSS styles.
 
-In this example, the portion of paragraph text that flows into the
-''intro'' region has its text color inverted:
+In this example, the portion of paragraph text that flows into the ''intro'' region has its text color inverted:
 
  @region #intro {
      p {
@@ -162,79 +146,42 @@ In this example, the portion of paragraph text that flows into the
 
 [[Image:region_rule.png]]
 
-To achieve the combined effect shown above, the region itself can
-specify its own styles. This CSS applies a different design to the
-''intro'' element regardless of whether its
-[[css/properties/flow-from|'''flow-from''']] specifies that it behaves
-as a region:
+To achieve the combined effect shown above, the region itself can specify its own styles. This CSS applies a different design to the ''intro'' element regardless of whether its [[css/properties/flow-from|'''flow-from''']] specifies that it behaves as a region:
 
  #intro {
      background-color   : #777;
  }
 
-Not all CSS properties can be manipulated in content that flows within
-a region.  See [[css/atrules/@region|'''@region''']] for more
-information.
+Not all CSS properties can be manipulated in content that flows within a region.  See [[css/atrules/@region|'''@region''']] for more information.
 
 
 
 ==Trimming overset content==
 
-When flowing content through a layout, there may not be enough space
-available in the region chain to display all of it. In that case, the
-flow is in an ''overset'' state. By default, the last available region
-in the chain displays overset content according to its
-[[css/properties/overflow|'''overflow''']] setting. Still, even
-'''overflow:hidden''' leads to unfortunate visual artifacts
-along the bottom edge:
+When flowing content through a layout, there may not be enough space available in the region chain to display all of it. In that case, the flow is in an ''overset'' state. By default, the last available region in the chain displays overset content according to its [[css/properties/overflow|'''overflow''']] setting. Still, even '''overflow:hidden''' leads to unfortunate visual artifacts along the bottom edge:
 
 [[Image:region_overset_bad.png]]
 
-The [[css/properties/region-fragment|'''region-fragment''']] CSS
-property controls how content displays in this situation. Setting it
-to '''break''' causes the last overset region to display only the
-fragment of content that can fit within it, just as if subsequent
-content flowed into another region:
+The [[css/properties/region-fragment|'''region-fragment''']] CSS property controls how content displays in this situation. Setting it to '''break''' causes the last overset region to display only the fragment of content that can fit within it, just as if subsequent content flowed into another region:
 
  div.region {
      region-fragment: break;
      overflow: none;      /* irrelevant when above is specified */
  }
 
-This presents a much cleaner bottom edge on the overset region,
-and should be applied by default to all regions:
+This presents a much cleaner bottom edge on the overset region, and should be applied by default to all regions:
 
 [[Image:region_overset_good.png]]
 
-
-
-Note: The CSS Regions feature offers [[apis/css-regions|API
-interfaces]] that can help detect when a flow's content exceeds
-available layout regions, or leaves some of them empty. See the
-[[apis/css-regions/NamedFlow|'''NamedFlow''']] API's
-[[apis/css-regions/NamedFlow/overset|'''overset''']] and
-[[apis/css-regions/NamedFlow/firstEmptyRegionIndex|'''firstEmptyRegionIndex''']]
-properties, and its
-[[apis/css-regions/NamedFlow/regionlayoutupdate|'''regionlayoutupdate''']]
-event.
+Note: The CSS Regions feature offers [[apis/css-regions|API interfaces]] that can help detect when a flow's content exceeds available layout regions, or leaves some of them empty. See the [[apis/css-regions/NamedFlow|'''NamedFlow''']] API's [[apis/css-regions/NamedFlow/overset|'''overset''']] and [[apis/css-regions/NamedFlow/firstEmptyRegionIndex|'''firstEmptyRegionIndex''']] properties, and its [[apis/css-regions/NamedFlow/regionlayoutupdate|'''regionlayoutupdate''']] event.
 
 
 
 ==Adaptive layouts with media queries==
 
-Media queries allow you to target different designs to browsers on
-differently-sized devices. Such ''responsive'' web pages should target
-complex CSS region-based layouts only to larger-screen tablet or
-desktop browser interfaces. Mobile devices should rely on a much
-simpler one-column layout.
+Media queries allow you to target different designs to browsers on differently-sized devices. Such ''responsive'' web pages should target complex CSS region-based layouts only to larger-screen tablet or desktop browser interfaces. Mobile devices should rely on a much simpler one-column layout.
 
-In the following example, large-screen browsers pour the article's
-content into the section's layout elements, using all the complex
-layout options described above. Small-screen browsers avoid the CSS
-Region feature altogether, suppressing the section element that would
-have displayed the complex layout, and also suppressing content
-elements (such as the pull quote) inappropriate for the simpler
-layout:
+In the following example, large-screen browsers pour the article's content into the section's layout elements, using all the complex layout options described above. Small-screen browsers avoid the CSS Region feature altogether, suppressing the section element that would have displayed the complex layout, and also suppressing content elements (such as the pull quote) inappropriate for the simpler layout:
 
  @media screen and (min-width: 480px){
  
@@ -251,7 +198,7 @@ layout:
          p:first-of-type { color : #fff; }
      }
  }
-
+ 
  @media screen and (max-width: 480px){
  
      /* suppress layout based on CSS Regions */
@@ -276,6 +223,13 @@ layout:
 This produces an alternate mobile interface:
 
 [[Image:region_mobile.png]]
+
+
+
+==Where to go from here==
+
+Once you become accustomed to using regions, you can use a variety of techniques to customize layouts for your content. However, the more you want to set up rules to automate layout from various content sources, the more you should familiarize yourself with CSS3's flexible box properties. Also familiarize yourself with the [[apis/css-regions|API interfaces]] that allow you to flow content from JavaScript.
+
 }}
 {{Notes_Section}}
 {{Compatibility_Section
