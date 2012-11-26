@@ -227,7 +227,10 @@ This produces an alternate mobile interface:
 
 ==Where to go from here==
 
-Once you become accustomed to using regions, you can rely on a wide variety of techniques to customize layouts for your content. However, the more you want to set up rules to automate layout from various content sources, the more you should familiarize yourself with CSS3's [[tutorials/flexbox|flexible box properties]]. Also familiarize yourself with the [[apis/css-regions|API interfaces]] that allow JavaScript applications to control how content flows.
+Once you become accustomed to using regions, you can rely on a wide variety of techniques to customize layouts for your content. However, the more you want to set up rules to automate layout from various content sources, the more you should familiarize yourself with CSS3's [[tutorials/flexbox|flexible box properties]]. Support for [[tutorials/exclusions|CSS Exclusions]] allows control over how content in some layout elements flow around others. Also familiarize yourself with the [[apis/css-regions|API interfaces]] that allow JavaScript applications to control how content flows.
+
+
+
 }}
 {{Notes_Section}}
 {{Compatibility_Section
