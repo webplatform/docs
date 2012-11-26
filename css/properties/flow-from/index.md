@@ -1,32 +1,60 @@
 {{Page_Title}}
-{{Flags
-|High-level issues=Stub
-|Content=Incomplete, Examples Needed
-}}
+{{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Marks a block element as a region into which content can be flowed}}
 {{CSS Property
 |Initial value=none
-|Inherited=Yes
+|Inherited=No
 |Media=visual
 |Animatable=No
 |CSS object model property=identifier
 |Values={{CSS Property Value
 |Data Type=identifier
-|Description=replaces content from specified named flow
+|Description=Replaces content from specified named flow, threading it from one ''region'' element to another.
 }}{{CSS Property Value
 |Data Type=none
-|Description=keeps element as is, and does not replace its content
+|Description=Keeps element as is, and does not transform it into a region and replace its content.
 }}
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|Description=The following CSS...
+|Code=article.content {
+    flow-into: main;
+}
+
+section.layout > div {
+    flow-from: main;
+}
+}}{{Single Example
+|Language=HTML
+|Description=...flows the article through the series of '''div''' elements, transforming them into ''regions'':
+|Code=&lt;!-- CONTENT -->
+
+&lt;article class="content">
+  ...
+&lt;/article>
+
+&lt;!-- LAYOUT -->
+
+&lt;section class="layout">
+  &lt;div>Region #1&lt;/div>
+  &lt;div>Region #2&lt;/div>
+  &lt;div>Region #3&lt;/div>
+  &lt;div>Region #4&lt;/div>
+  &lt;div>Region #5&lt;/div>
+&lt;/section>
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Regions Module Level 3
+|URL=http://dev.w3.org/csswg/css3-regions/
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -43,7 +71,7 @@
 |Internet_explorer_supported=No
 |Internet_explorer_version=
 |Internet_explorer_prefixed_supported=Yes
-|Internet_explorer_prefixed_version=10
+|Internet_explorer_prefixed_version=8
 |Opera_supported=No
 |Opera_version=
 |Opera_prefixed_supported=No
@@ -87,7 +115,15 @@
 |Safari_mobile_prefixed_supported=No
 |Safari_mobile_prefixed_version=
 }}
-|Notes_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=8
+|Note=Supports [[css/properties/flow-into|'''flow-into''']] and [[css/properties/flow-from|'''flow-from''']] properties in Compatibility Mode 5.
+}}{{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=10
+|Note=Supports [[css/properties/flow-into|'''flow-into''']] and [[css/properties/flow-from|'''flow-from''']] properties in Compatibility Mode 9.
+}}
 }}
 {{See_Also_Section
 |Topic_clusters=Regions
