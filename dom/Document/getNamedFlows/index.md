@@ -32,7 +32,7 @@ for (var i = 0; i < flows.length; i++) {
 }}
 }}
 {{Notes_Section
-|Notes=See [[css/properties/flow-from|'''flow-from''']] for an overview of CSS Regions.
+|Notes=See [[tutorials/css-regions|Using CSS Regions to flow content through a layout]] for an overview of CSS Regions.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
