@@ -1,8 +1,5 @@
 {{Page_Title}}
-{{Flags
-|High-level issues=Stub
-|Content=Incomplete, Examples Needed
-}}
+{{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Fires on the  [[css/cssom/NamedFlow|'''NamedFlow''']] object when there is a change in how content flows through a region chain.}}
