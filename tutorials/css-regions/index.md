@@ -115,7 +115,7 @@ To address this problem, note there can be more than one named flow in a documen
 Note that in this example, the parent '''article''' element is assigned to the ''main'' flow, while its child '''aside''' elements are assigned to a different flow named ''pull''. You can use this same technique to assign descendant elements to the ''same'' flow.  In this example, endnotes are removed from wherever they happen to appear within the main flow of content, and are then listed at the end of the content:
 
  &lt;style>
- article, aside.endnote { flow-into: main }
+   article, aside.endnote { flow-into: main }
  &lt;/style>
  
  &lt;article>
