@@ -45,11 +45,7 @@ be allowed to ''break'' so freely:
 
 [[File:region_badbreak.png]]
 
-Use the [[css/properties/break-before|'''break-before''']],
-[[css/properties/break-after|'''break-after''']], and
-[[css/properties/break-inside|'''break-inside''']] properties to
-control how content is placed relative to region breaks. This CSS
-forces headings into a new region:
+Use the [[css/properties/break-before|'''break-before''']], [[css/properties/break-after|'''break-after''']], and [[css/properties/break-inside|'''break-inside''']] properties to control how content is placed relative to region breaks. This CSS forces headings into a new region:
 
  h1, h2, h3 {
      break-before: always;
@@ -57,28 +53,18 @@ forces headings into a new region:
 
 [[File:region_goodbreak.png]]
 
-In many cases, that approach may result in too much white space within
-the previous region.  This alternative approach makes sure not only
-that headings appear unbroken within the same region, but that they
-don't appear isolated at the bottom of a region:
+In many cases, that approach may result in too much white space within the previous region.  This alternative approach makes sure not only that headings appear unbroken within the same region, but that they don't appear isolated at the bottom of a region:
 
  h1, h2, h3 {
      break-after: avoid;
      break-inside: avoid;
  }
 
-Note: As CSS3's [[css/properties/widows|'''widows''']] and
-[[css/properties/orphans|'''orphans''']] properties are implemented,
-developers will have finer control over how many ''lines'' of text are
-allowed to break into another region.
+Check your target browsers' support for CSS3's [[css/properties/widows|'''widows''']] and [[css/properties/orphans|'''orphans''']] properties. They offer finer control over how many ''lines'' of text are allowed to break into another region.
 
 ==Diverting content from a flow==
 
-The various ''break'' properties shown above don't address a common
-layout problem. Sometimes content needs to be diverted from a flow and
-moved somewhere else so that other content can flow in to take its
-place. In this example, '''aside''' tags represent ''pull-quote''
-content to be diverted from the main flow:
+The various ''break'' properties shown above don't address a common layout problem. Sometimes content needs to be diverted from a flow and moved somewhere else so that other content can flow in to take its place. In this example, '''aside''' tags represent ''pull-quote'' content to be diverted from the main flow:
 
  &lt;article>
    &lt;h1>Sample CSS Regions Layout&lt;/h1>
