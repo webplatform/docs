@@ -10,7 +10,7 @@ a fragment of content as if it were flowing into a subsequent region.
 {{CSS Property
 |Initial value=auto
 |Applies to=CSS Regions
-|Inherited=No
+|Inherited=Yes
 |Media=visual
 |Computed value=specified value
 |Animatable=No
@@ -48,7 +48,6 @@ as a ''region'', the element's
 [[css/properties/flow-from|'''flow-from''']] must specify a named
 flow, and display content from a corresponding
 [[css/properties/flow-into|'''flow-into''']].
-
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
