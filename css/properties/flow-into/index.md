@@ -1,8 +1,5 @@
 {{Page_Title}}
-{{Flags
-|High-level issues=Stub
-|Content=Examples Needed
-}}
+{{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Diverts the selected element's content into a named flow, used to thread content through different regions. Used in conjunction with [[css/properties/flow-from|'''flow-from''']].}}
