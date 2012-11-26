@@ -24,7 +24,7 @@
 |Language=JavaScript
 |Description=Checks if the last paragraph in a flow splits across more than one region
 |Code=// get flow:
-var flow = document.webkitGetNamedFlows()['main'];
+var flow = document.getNamedFlows()['main'];
 // get all top-level flow-into elements that contribute to flow:
 var elements = flow.getContent();
 // get last element:
