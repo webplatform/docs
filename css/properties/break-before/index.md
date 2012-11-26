@@ -55,12 +55,12 @@
 h1 {
     break-before: always;
 }
+
 /* binds subheads to subsequent content */
 h2, h3 {
     break-after: avoid;
     break-inside: avoid;
 }
-
 }}
 }}
 {{Notes_Section
