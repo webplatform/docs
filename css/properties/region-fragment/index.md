@@ -42,21 +42,23 @@ a fragment of content as if it were flowing into a subsequent region.
 |Chrome_supported=No
 |Chrome_version=
 |Chrome_prefixed_supported=Yes
+|Chrome_prefixed_version=20
 |Firefox_supported=No
 |Firefox_version=
-|Firefox_prefixed_supported=Unknown
+|Firefox_prefixed_supported=No
 |Firefox_prefixed_version=
 |Internet_explorer_supported=No
 |Internet_explorer_version=
-|Internet_explorer_prefixed_supported=Unknown
+|Internet_explorer_prefixed_supported=No
 |Internet_explorer_prefixed_version=
 |Opera_supported=No
 |Opera_version=
-|Opera_prefixed_supported=Unknown
+|Opera_prefixed_supported=No
 |Opera_prefixed_version=
 |Safari_supported=No
 |Safari_version=
 |Safari_prefixed_supported=Yes
+|Safari_prefixed_version=534
 }}
 |Mobile_rows=
 |Notes_rows={{Compatibility Notes Row}}
