@@ -20,7 +20,7 @@
 |Language=JavaScript
 |Description=Get last flow-into element that contributes to flow
 |Code=// get flow:
-var flow = document.webkitGetNamedFlows()['main'];
+var flow = document.getNamedFlows()['main'];
 // get all flow-into elements:
 var elements = flow.getContent();
 // of these, get last element:
