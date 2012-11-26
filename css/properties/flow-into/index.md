@@ -63,6 +63,8 @@ An element whose [[css/properties/flow-into|'''flow-into''']] specifies a named 
 
 Setting a descendent's [[css/properties/flow-into|'''flow-into''']] to '''none''' has no effect, and cannot be used to prevent the descendent from flowing along with the ancestor.
 
+More than one element can contribute to the same named flow, in which case their DOM order determines how they appear output within regions.
+
 See [[tutorials/css-regions|Using CSS Regions to flow content through a layout]] for an overview of CSS Regions.
 }}
 {{Related_Specifications_Section
