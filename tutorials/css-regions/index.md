@@ -24,9 +24,9 @@ Without the [[css/properties/flow-from|'''flow-from''']] property, these layout 
 
 [[File:region_layout.png|400px]]
 
-==Separating Content and Presentation==
+==How it works==
 
-Flowing content into regions encourages you to keep ''semantic'' content element separate from the ''presentational'' elements in which they appear. Even without a corresponding region chain in which to flow, applying [[css/properties/flow-into|'''flow-into''']] makes the content element disappear from view, just as if you had assigned [[css/properties/display|'''display:none''']]. The [[css/properties/flow-from|'''flow-from''']]
+Flowing content into regions encourages you to keep ''semantic'' content element separate from the ''presentational'' elements in which they appear. Even without a corresponding region chain in which to flow, applying [[css/properties/flow-into|'''flow-into''']] makes the content element disappear from view, just as if you had assigned [[css/properties/display|'''display:none''']]. It reappears only when a corresponding [[css/properties/flow-from|'''flow-from''']] is applied to presentational elements.
 
 While defining regions dramatically changes how content appears in the document, it's implemented entirely as CSS, and does not affect the underlying content of DOM elements. With the CSS shown above, the following displays the article's ''foo'' content within the '''div''' element, but its [[dom/properties/innerdom/innerHTML|'''innerHTML''']] is still ''bar'':
 
@@ -35,13 +35,16 @@ While defining regions dramatically changes how content appears in the document,
 
 Regions may be positioned arbitrarily around the screen, but content flows through regions strictly according to the order in which they appear in the document. Regions can be scattered across the document and interrupted by other flows' regions or non-region elements, but the only way to modify their flow order is to rearrange them in the DOM tree.
 
+You may also specify more than one source of content, and again their order within the document determines the order in which they are presented. The example below flows ''foo'', ''bar'', and ''baz'' into the same chain of regions. Rearranging the ''article'' nodes within the document shuffles them output:
+
+ &lt;article>foo...&lt;/article>
+ &lt;article>bar...&lt;/article>
+ &lt;article>baz...&lt;/article>
+ &lt;div class="region">&lt;/div>
+
 ==Controlling Region Breaks==
 
-With content flowing through complex layouts, web developers need to
-confront design problems traditionally reserved for desktop publishing
-applications. While most of an article's text can be allowed to flow
-from one region to another, some elements such as headings should not
-be allowed to ''break'' so freely:
+With content flowing through complex layouts, web developers need to confront design problems traditionally reserved for desktop publishing applications. While most of an article's text can be allowed to flow from one region to another, some elements such as headings should not be allowed to ''break'' so freely:
 
 [[File:region_badbreak.png]]
 
