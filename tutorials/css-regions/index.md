@@ -5,20 +5,11 @@
 {{Byline}}
 {{Summary_Section|Enabling complex threaded layouts}}
 {{Tutorial
-|Content=CSS Regions provides a way to implement complex magazine-style designs
-in which content flows through freely positioned layout elements. The
-feature offers you a way to dynamically flow content from one layout
-element to another, but does not specify how those elements are
-positioned. For that, use whatever CSS technique is most appropriate:
-floats, flexible boxes, grid layout, or absolute positioning. The
-following provides a guide for how to flow text, with no discussion of
-these various layout techniques.
+|Content=The CSS Regions feature provides a way to implement complex magazine-style designs in which content flows through freely positioned layout elements. It offers you a way to dynamically flow content from one layout element to another, but does not specify how those elements are positioned. For that, use whatever CSS technique is most appropriate: floats, flexible boxes, grid layout, or absolute positioning. The following provides a guide for how to flow text, with no discussion of these various layout techniques.
 
 ==Named flows==
 
-To flow text through a document, you need a content element, a series
-of layout elements, and a pair of CSS properties to flow one into the
-other:
+To flow text through a document, you need a content element, a series of layout elements, and a pair of CSS properties to flow one into the other:
 
  article {
      -webkit-flow-into: main;
@@ -27,44 +18,22 @@ other:
      -webkit-flow-from: main;
  }
 
-The [[css/properties/flow-into|'''flow-into''']]
-[[css/properties/flow-from|'''flow-from''']] properties must both
-specify the same ''named flow'' for the feature to work. Once that is
-in place, elements assigned with
-[[css/properties/flow-from|'''flow-from''']] behave as ''regions''.
-The series of regions through which content flows is called the
-''region chain'':
+The [[css/properties/flow-into|'''flow-into''']] [[css/properties/flow-from|'''flow-from''']] properties must both specify the same ''named flow'' for the feature to work. Once that is in place, elements assigned with [[css/properties/flow-from|'''flow-from''']] behave as ''regions''. The series of regions through which content flows is called the ''region chain'':
 
 [[File:region_basic.png|500px]]
 
-Note there are problems with how the content flows through the layout.
-The following sections clarify how to fix them.
+Note there are problems with how the content flows through the layout. The following sections clarify how to fix them.
 
 ==Separating Content and Presentation==
 
-Flowing content into regions encourages you to keep ''semantic''
-content element separate from the ''presentational'' elements in which
-they appear. Even without a corresponding region chain in which to
-flow, applying [[css/properties/flow-into|'''flow-into''']] makes the
-content element disappear from view, just as if you had
-assigned [[css/properties/display|'''display:none''']].
+Flowing content into regions encourages you to keep ''semantic'' content element separate from the ''presentational'' elements in which they appear. Even without a corresponding region chain in which to flow, applying [[css/properties/flow-into|'''flow-into''']] makes the content element disappear from view, just as if you had assigned [[css/properties/display|'''display:none''']].
 
-Oddly, while defining regions dramatically changes how content appears
-in the document, it's implemented entirely as CSS, and does not affect
-the underlying content of DOM elements. With the CSS shown above, the
-following displays the article's ''foo'' content within the '''div'''
-element, but its [[dom/properties/innerdom/innerHTML|'''innerHTML''']]
-is still ''bar'':
+Oddly, while defining regions dramatically changes how content appears in the document, it's implemented entirely as CSS, and does not affect the underlying content of DOM elements. With the CSS shown above, the following displays the article's ''foo'' content within the '''div''' element, but its [[dom/properties/innerdom/innerHTML|'''innerHTML''']] is still ''bar'':
 
  &lt;article>foo&lt;/article>
  &lt;div class="region">bar&lt;/div>
 
-Regions may be positioned arbitrarily around the screen, but content
-flows through regions strictly according to the order in which they
-appear in the document. Regions can be scattered across the document
-and interrupted by other flows' regions or non-region elements,
-but the only way to modify their flow order is to rearrange them in
-the DOM tree.
+Regions may be positioned arbitrarily around the screen, but content flows through regions strictly according to the order in which they appear in the document. Regions can be scattered across the document and interrupted by other flows' regions or non-region elements, but the only way to modify their flow order is to rearrange them in the DOM tree.
 
 ==Controlling Region Breaks==
 
