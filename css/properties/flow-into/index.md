@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Diverts the selected element's content into a named flow, used to thread content through different regions. Used in conjunction with flow-from.}}
+{{Summary_Section|Diverts the selected element's content into a named flow, used to thread content through different regions. Used in conjunction with [[css/properties/flow-from|'''flow-from''']].}}
 {{CSS Property
 |Initial value=none
 |Inherited=No
