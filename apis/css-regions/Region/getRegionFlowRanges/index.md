@@ -1,7 +1,5 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Stub, Needs Topics
-|Content=Incomplete, Examples Needed
 |Editorial notes=references DOM Range API, for which there's no apparent doc available
 }}
 {{Standardization_Status|W3C Editor's Draft}}
