@@ -152,7 +152,13 @@ To achieve the combined effect shown above, the region itself can specify its ow
      background-color   : #777;
  }
 
-Not all CSS properties can be manipulated in content that flows within a region.  See [[css/atrules/@region|'''@region''']] for more information.
+While it's possible to style the region as a block element, CSS that is ordinarily inherited by child elements does not apply to content that flows from elsewhere in the document into the region. So the following CSS does ''not'' work, and cannot be used as an alternative to the [[css/atrules/@region|'''@region''']] rule:
+
+ #intro {
+     color : #fff;
+ }
+
+Not all CSS properties can be manipulated in content that flows within a region.  See [[css/atrules/@region|'''@region''']] for details.
 
 
 
@@ -228,9 +234,6 @@ This produces an alternate mobile interface:
 ==Where to go from here==
 
 Once you become accustomed to using regions, you can rely on a wide variety of techniques to customize layouts for your content. However, the more you want to set up rules to automate layout from various content sources, the more you should familiarize yourself with CSS3's [[tutorials/flexbox|flexible box properties]]. Support for [[tutorials/exclusions|CSS Exclusions]] allows control over how content in some layout elements flow around others. Also familiarize yourself with the [[apis/css-regions|API interfaces]] that allow JavaScript applications to control how content flows.
-
-
-
 }}
 {{Notes_Section}}
 {{Compatibility_Section
