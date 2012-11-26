@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|The speed at which to render the audio stream. The default playbackRate.value is 1. This parameter is a-rate.}}
+{{Summary_Section|The speed at which to render the audio stream. The default playbackRate value is 1. This parameter is a-rate.}}
 {{API_Object_Property
 |Property_applies_to=apis/webaudio/AudioBufferSourceNode
 |Read_only=No
