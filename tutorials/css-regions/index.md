@@ -158,7 +158,8 @@ available in the region chain to display all of it. In that case, the
 flow is in an ''overset'' state. By default, the last available region
 in the chain displays overset content according to its
 [[css/properties/overflow|'''overflow''']] setting. Still, even
-'''overflow:hidden''' leads to unfortunate visual artifacts:
+'''overflow:hidden''' leads to unfortunate visual artifacts
+along the bottom edge:
 
 [[Image:region_overset_bad.png]]
 
