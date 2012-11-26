@@ -1,7 +1,5 @@
 {{Page_Title}}
-{{Flags
-|Editorial notes=css/cssom/NamedFlow/firstEmptyRegionIndex
-}}
+{{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Returns the integer index of the first empty element within a region chain. Returns -1 if the content fits within the region chain or if it exceeds available space.}}
