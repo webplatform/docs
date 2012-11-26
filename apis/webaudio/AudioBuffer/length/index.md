@@ -6,6 +6,7 @@
 {{API_Object_Property
 |Property_applies_to=apis/webaudio/AudioBuffer
 |Read_only=Yes
+|Example_object_name=AudioBuffer
 |Javascript_data_type=unsigned long
 }}
 {{Examples_Section
