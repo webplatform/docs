@@ -17,12 +17,39 @@
 |Description=Specifies a named flow into which to place element's content.
 }}{{CSS Property Value
 |Data Type=none
-|Description=Element's content remains as is, and is not diverted to a flow.
+|Description=Element's content remains as is, and is not diverted to a flow unless an ancestor element specifies it.
 }}
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|Description=The following CSS...
+|Code=article.content {
+    flow-into: main;
+}
+
+section.layout > div {
+    flow-from: main;
+}
+}}{{Single Example
+|Language=HTML
+|Description=...flows the article through the series of '''div''' elements, transforming them into ''regions'':
+|Code=<!-- CONTENT -->
+
+<article class="content">
+  ...
+</article>
+
+<section class="layout">
+  <div>Region #1</div>
+  <div>Region #2</div>
+  <div>Region #3</div>
+  <div>Region #4</div>
+  <div>Region #5</div>
+</section>
+
+}}
 }}
 {{Notes_Section
 |Usage=The [[css/properties/flow-into|'''flow-into''']] property diverts content from where it would ordinarily appear in the document to a ''named flow''.  It then reappears flowing through a series of ''region'' elements whose [[css/properties/flow-from|'''flow-from''']] specifies the same named flow.
@@ -35,6 +62,7 @@ An element whose [[css/properties/flow-into|'''flow-into''']] specifies a named 
 
 Setting a descendent's [[css/properties/flow-into|'''flow-into''']] to '''none''' has no effect, and cannot be used to prevent the descendent from flowing along with the ancestor.
 
+See [[tutorials/css-regions|Using CSS Regions to flow content through a layout]] for an overview of CSS Regions.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
