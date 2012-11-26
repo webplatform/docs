@@ -31,11 +31,11 @@ The following interfaces allow programmatic access to the CSS Regions feature:
 }}
 {{See_Also_Section
 |Topic_clusters=Regions
-|External_links=* http://html.adobe.com/webstandards/cssregions
+|External_links=* http://html.adobe.com/webstandards/cssregions|Adobe Web Standards: CSS Regions
 
-* http://www.adobe.com/devnet/html5/articles/css3-regions.html
+* http://www.adobe.com/devnet/html5/articles/css3-regions.html|CSS3 regions: Rich page layout with HTML and CSS3
 
-* http://adobe.github.com/web-platform/samples/css-regions
+* http://adobe.github.com/web-platform/samples/css-regions|Samples
 }}
 {{Topics|CSS}}
 {{External_Attribution
