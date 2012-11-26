@@ -1,8 +1,5 @@
 {{Page_Title}}
-{{Flags
-|High-level issues=Stub
-|Content=Incomplete, Examples Needed
-}}
+{{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|The '''Region''' interface is available for any element that serves as a CSS ''region'', whose [[css/properties/flow-from|'''flow-from''']] CSS specifies it displays content from a ''named flow''.}}
@@ -15,7 +12,7 @@
 |Usage=Use the '''Region''' interface to determine whether any content flows through the region, what content currently displays, and any special CSS styling that applies.
 
 The interface is still available for elements that change back to non-region elements, when their [[css/properties/flow-from|'''flow-from''']] property becomes '''none'''.
-|Notes=See [[css/properties/flow-from|'''flow-from''']] for an overview of CSS Regions.
+|Notes=See [[tutorials/css-regions|Using CSS Regions to flow content through a layout]] for an overview of CSS Regions.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
