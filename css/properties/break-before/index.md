@@ -49,7 +49,19 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|Code=/* forces top-level headings onto a new page, column, or region */ 
+h1 {
+    break-before: always;
+}
+/* binds subheads to subsequent content */
+h2, h3 {
+    break-after: avoid;
+    break-inside: avoid;
+}
+
+}}
 }}
 {{Notes_Section
 |Import_Notes====Syntax===
