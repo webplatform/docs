@@ -1,7 +1,5 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Stub
-|Content=Incomplete, Examples Needed
 |Editorial notes=NamedFlowCollection not in list of return value types
 }}
 {{Standardization_Status|W3C Editor's Draft}}
