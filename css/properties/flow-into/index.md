@@ -31,7 +31,7 @@ section.layout > div {
 }
 }}{{Single Example
 |Language=HTML
-|Description=...flows the article through the series of '''div''' elements, transforming them into ''regions'':
+|Description=...flows the article through the series of '''div''' elements, transforming them into ''regions'' and replacing the placeholder text:
 |Code=&lt;!-- CONTENT -->
 
 &lt;article class="content">
