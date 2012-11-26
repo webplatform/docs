@@ -15,11 +15,13 @@ To flow text through a document, you need a content element, a series of layout 
      flow-from: main;
  }
 
-The [[css/properties/flow-into|'''flow-into''']] [[css/properties/flow-from|'''flow-from''']] properties must both specify the same ''named flow'' for the feature to work. Once that is in place, elements assigned with [[css/properties/flow-from|'''flow-from''']] behave as ''regions''. The series of regions through which content flows is called the ''region chain'':
+The [[css/properties/flow-into|'''flow-into''']] [[css/properties/flow-from|'''flow-from''']] properties must both specify the same ''named flow'' for the feature to work. Once that is in place, elements assigned with [[css/properties/flow-from|'''flow-from''']] behave as ''regions'' that flow content. The series of regions through which content flows is called the ''region chain'':
 
 [[File:region_basic.png|500px]]
 
-Note there are problems with how the content flows through the layout. The following sections clarify how to fix them.
+Without the [[css/properties/flow-from|'''flow-from''']] property, these layout elements contain their own independent content, in this case placeholder text:
+
+[[File:region_layout.png|400px]]
 
 ==Separating Content and Presentation==
 
