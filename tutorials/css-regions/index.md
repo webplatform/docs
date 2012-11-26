@@ -174,7 +174,8 @@ content flowed into another region:
      overflow: none;      /* irrelevant when above is specified */
  }
 
-This presents a much cleaner bottom edge on the overset region:
+This presents a much cleaner bottom edge on the overset region,
+and should be applied by default to all regions:
 
 [[Image:region_overset_good.png]]
 
