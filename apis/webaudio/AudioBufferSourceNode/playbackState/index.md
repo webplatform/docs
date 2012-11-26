@@ -8,7 +8,7 @@
 |Read_only=Yes
 |Example_object_name=AudioBufferSourceNode
 |Javascript_data_type=unsigned short
-|Return_value_description=One of the following constant values: UNSCHEDULED_STATE (0), SCHEDULED_STATE (1), PLAYING_STATE (2), or FINISHED_STATE (3).
+|Return_value_description=Returns one of the following constant values: UNSCHEDULED_STATE (0), SCHEDULED_STATE (1), PLAYING_STATE (2), or FINISHED_STATE (3).
 }}
 {{Examples_Section
 |Not_required=Yes
