@@ -184,7 +184,7 @@ Note: The CSS Regions feature offers [[apis/css-regions|API
 interfaces]] that can help detect when a flow's content exceeds
 available layout regions, or leaves some of them empty. See the
 [[apis/css-regions/NamedFlow|'''NamedFlow''']] API's
-[[apis/css-regions/NamedFlow/overset|'''overset'''] and
+[[apis/css-regions/NamedFlow/overset|'''overset''']] and
 [[apis/css-regions/NamedFlow/firstEmptyRegionIndex|'''firstEmptyRegionIndex''']]
 properties, and its
 [[apis/css-regions/NamedFlow/regionlayoutupdate|'''regionlayoutupdate''']]
