@@ -5,15 +5,15 @@
 {{Guide
 |Content=== Introduction ==
  
-In our [CSS basics] article, we introduced the most basic of CSS selectors: element, class and id selectors. With these selectors you can accomplish a lot, but this certainly isn’t the be all and end all of selectors — there are other selectors that allow you to select elements to style based on various more specific criteria, and we'll look at most them throughout the course of this article.
+In our [http://docs.webplatform.org/wiki/tutorials/CSS_basics/ CSS basics] article, we introduced the most basic of CSS selectors: element, class, and id selectors. With these selectors you can accomplish a lot, but this certainly is not an exhaustive list of selectors — there are other selectors that allow you to select elements to style based on more specific criteria. In this article, most of the advanced CSS selectors are described.
 
-Note: We are saying "most" here because although most modern browsers support all the selectors listed in the [http://www.w3.org/TR/selectors/ CSS3 selectors module], new selectors are being added/modified all the time (keep checking the [http://www.w3.org/TR/selectors4/ CSS4 selectors draft] for updates). We will aim to update this resource with new selectors as and when they receive more widespread browser support.
+Note: This article discusses "most" of the advanced selectors, because although most modern browsers support all the selectors listed in the [http://www.w3.org/TR/selectors/ CSS3 selectors module], new selectors are being added and modified all the time--keep checking the [http://www.w3.org/TR/selectors4/ CSS4 selectors draft] for updates. New selectors will be added to this article as they receive more widespread browser support.
  
-You will see many of these selectors used throughout our articles as you read on. Don't worry if you don't understand them all immediately: keep referencing this article if you need more help. 
+You will see many of these selectors used throughout our articles as you read on. Don't worry if you don't understand them all immediately: keep referencing this article as needed. 
  
 == Universal selectors ==
  
-Universal selectors select every element on a page. For example, the following rule says that every element on the page should be given a solid 1 pixel black border:
+Universal selectors select every element on a page. For example, the following rule says that every element on the page will display a solid 1 pixel black border:
  
 <syntaxhighlight lang="css">* {
   border: 1px solid #000000;
@@ -27,53 +27,53 @@ Attribute selectors allow you to select elements based on the attributes they co
   border: 1px solid #000000;
 }</syntaxhighlight>
  
-Note the square brackets.
+Note the square brackets in the example above.
  
-Using the above selector, you could perhaps choose to put a black border around any images that have an <code>alt</code> attribute, and style other images with a bright red border —  this would be a useful technique to employ in accessibility testing.
+Using the above selector, you could perhaps add a black border around any images that have an <code>alt</code> attribute, and style other images with a bright red border —  this is a useful technique for accessibility testing.
 
 === Selecting by attribute value ===
  
-Attribute selectors instantly get more useful when you consider that you can select by ''attribute value'', not just attribute name. The following rule selects all images with an <code>src</code> attribute value of <code>alert.gif</code>:
+Attribute selectors instantly become more useful when you consider that you can select by ''attribute value'', not just an attribute's name. The following rule selects all images with an <code>src</code> attribute value of <code>alert.gif</code>:
  
 <syntaxhighlight lang="css">img[src="alert.gif"] {
   border: 1px solid #000000;
 }</syntaxhighlight>
  
-Again this can be useful for debugging purposes, and perhaps styling important icons or links without needing to add additional classes/IDs.
+Again this style is useful for debugging purposes. You can also use it to style important icons or links without requiring additional classes and IDs.
 
-Note that this is not supported by IE6 and below.
+Note that this code is not supported by IE6 and below.
 
 === Selecting based on substrings within the attribute value ===
 
-This is where attribute selectors become even more useful. To start with, you could select and style our <code>&lt;img src="alert.gif"&gt;</code> element using the following:
+This is where attribute selectors become even more useful. To begin, you can select and style our <code>&lt;img src="alert.gif"&gt;</code> element using the following rule:
 
 <syntaxhighlight lang="css">img[src^="alert"] {
   border: 1px solid #000000;
 }</syntaxhighlight>
 
-The ^ character dictates that this selector should select <code>&lt;img&gt;</code> elements only if they have the string <code>alert</code> at the start of the <code>src</code> attribute value.
+The ^ character dictates that this selector affects <code>&lt;img&gt;</code> elements only if they contain the string <code>alert</code> at the start of the <code>src</code> attribute value.
 
-Next, we could also select our <code>&lt;img src="alert.gif"&gt;</code> element using this:
+You can also select a <code>&lt;img src="alert.gif"&gt;</code> element using this rule:
 
 <syntaxhighlight lang="css">img[src$="gif"] {
   border: 1px solid #000000;
 }</syntaxhighlight>
 
-The $ character dictates that this selector should select <code>&lt;img&gt;</code> elements only if they have the string <code>gif</code> at the end of the <code>src</code> attribute value. This is really useful for styling links that point to specific types of resources, like PDFs or word documents. 
+The $ character dictates that this selector should select <code>&lt;img&gt;</code> elements only if they contain the string <code>gif</code> at the end of the <code>src</code> attribute value. This is really useful for styling links that point to specific types of resources, such as PDF files or word documents. 
 
-Finally, we could select our <code>&lt;img src="alert.gif"&gt;</code> element like this:
+And finally, you can select a <code>&lt;img src="alert.gif"&gt;</code> element like this:
 
 <syntaxhighlight lang="css">img[src*="ert"] {
   border: 1px solid #000000;
 }</syntaxhighlight>
 
-The * character dictates that this selector should select <code>&lt;img&gt;</code> elements only if they have the string <code>ert</code> anywhere within the <code>src</code> attribute value.
+The * character dictates that this selector should affect <code>&lt;img&gt;</code> elements only if they have the string <code>ert</code> anywhere within the <code>src</code> attribute value.
 
-Note that these are not supported by IE8 and below.
+Note: These advanced selectors are not supported by IE8 and below.
 
-=== selecting based on delimited items within the attribute value ===
+=== Selecting based on delimited items within the attribute value ===
 
-If you had an element on a page with a number of classes applied to it, for example:
+If you have an element on a page with a number of classes applied to it, for example:
 
 <pre>&lt;article class="featured archive english"&gt;&lt;/article&gt;</pre>
 
@@ -85,33 +85,33 @@ article[class~="english"]</syntaxhighlight>
 
 The ~ character dictates that these selectors should select an <code>&lt;article&gt;</code> element whose <code>class</code> attribute value is a list of whitespace-separated values, but only if one of those values is the value given inside the quotes. 
 
-Now lets look at an element on a page with an ID value in the form of hyphen-separated list:
+Next, take a look at an element on a page with an ID value in the form of hyphen-separated list:
 
 <pre>&lt;article id="english-daily-feature"&gt;&lt;/article&gt;</pre>
 
-You could select it using the following selector:
+You can select it using the following selector:
 
 <syntaxhighlight lang="css">article[id|="english"]</syntaxhighlight>
 
-The {{!}} character dictates that this selector should select an <code>&lt;article&gt;</code> element whose <code>id</code> attribute value is a list of hyphen-separated values, but only if the leftmost one of those values is <code>english</code>. 
+The {{!}} character dictates that this selector should select an <code>&lt;article&gt;</code> element whose <code>id</code> attribute value is a list of hyphen-separated values, but only if the leftmost value is <code>english</code>. 
 
-Note that these are not supported by IE8 and below.
+Note: These selectors are not supported by IE8 and below.
 
 == Child selector ==
  
-You can use a child selector to select specific elements that are children of other specific elements. For example, the following rule will turn the text of <code>&lt;strong&gt;</code> elements that are children of <code>&lt;h3&gt;</code> elements blue, but no other <code>&lt;strong&gt;</code> elements:
+You can use a child selector to select specific elements that are children of other specific elements. For example, the following rule will turn the text of <code>&lt;strong&gt;</code> elements that are children of <code>&lt;h3&gt;</code> elements blue, without affecting other <code>&lt;strong&gt;</code> elements:
  
 <syntaxhighlight lang="css">h3 > strong {
   colour: blue;
 }</syntaxhighlight>
  
-Note that child selectors are not supported in IE 6 or below.
+Note that child selectors are not supported in IE6 or below.
 
 Note also that the > character is often referred to as a combinator in this context — it combines multiple elements together in one selector.
  
 == Descendent selector ==
  
-Descendent selectors are very similar to child selectors, except that child selectors only select immediate descendants; descendent selectors select matching elements anywhere in the element hierarchy, not just direct descendants. Let's look at what this means more carefully. Consider the following HTML snippet:
+Descendent selectors are similar to child selectors, except that child selectors only select immediate descendants; descendent selectors select matching elements anywhere in the element hierarchy, not just direct descendants. Investigate what this means by examining the following HTML snippet:
  
 <syntaxhighlight lang="html5"><div>
   <p>hello</p>
@@ -128,17 +128,17 @@ You could use a child selector to select just the <code>&lt;p&gt;</code> immedia
  …
 }</syntaxhighlight>
  
-If you instead used a descendent selector, as follows:
+If you instead use a descendent selector, as follows:
  
 <syntaxhighlight lang="css">div p {
  …
 }</syntaxhighlight>
  
-Both of the <code>&lt;p&gt;</code> elements would be selected.
+Then, both of the <code>&lt;p&gt;</code> elements are selected.
  
 == Adjacent sibling selector ==
  
-This selector allows you to select a specific element that comes directly after another specific element, on the same level in the element hierarchy. Take the following example:
+This selector allows you to select a specific element that comes directly after another specific element, on the same level in the element hierarchy. Review the following example:
 
 <syntaxhighlight lang="html5"><h2>My heading</h2>
 <p>My first paragraph</p>
@@ -159,7 +159,7 @@ Note also that the + character is often referred to as a combinator in this cont
 
 == General sibling selectors ==
  
-The general sibling selector is very similar to the adjacent sibling selector, except that it allows you to select all siblings of the specified element type, not just the one immediate next to the element on the left hand side. the syntax looks like this:
+The general sibling selector is very similar to the adjacent sibling selector, except that it allows you to select all siblings of the specified element type, not just the one immediate next to the element on the left side. The CSS syntax looks like this:
 
 <syntaxhighlight lang="css">h2 ~ p {
  ...
@@ -181,17 +181,17 @@ Pseudo-classes are used to provide styles not for elements, but for various stat
 
 === Link and user action pseudo-classes ===
 
-The most common pseudo-classes you’ll come across is those used to style link states (you'll see these in full usage in [Styling lists and links]):
+The most common pseudo-classes you will come across are those used to style link states (they are described in full usage in [http://docs.webplatform.org/wiki/Styling_lists_and_links Styling lists and links]):
  
-* <code>:link</code> — the normal, default state of links, just as you first found them.
+* <code>:link</code> — the normal, default state of links, as displayed when the page first loads in a browser.
 * <code>:visited</code> — selects links that you have already visited in the browser you are currently using.
-* <code>:focus</code> — selects links that currently have the keyboard cursor within them.
-* <code>:hover</code> — selects links that are currently being hovered over by the mouse pointer.
-* <code>:active</code> — selects links that are currently being clicked on.
+* <code>:focus</code> — selects links that currently have the text indicator (location of cursor) within them.
+* <code>:hover</code> — selects links that the cursor is currently hovering over.
+* <code>:active</code> — selects links that are currently being clicked.
 
-Note that the last three of these (these are the "user action pseudo-classes" — the first two are the link pseudo-classes) can be used the style states of pretty much any element it would make sense to use them on in a user interface. For example, you might want a form input to adopt a different style when it is tabbed into, or you might want an information box to appear only when a certain part of the screen is moused over. 
+Note that the last three of these (called "user action pseudo-classes" — the first two are the link pseudo-classes) can be used to style the states of any element. They are often used on a user interface. For example, you can set a different style of a form input field when it is tabbed into, or you might want an information box to appear only when the cursor hovers over a certain part of the screen. 
  
-Let's look at some examples. The following CSS rules make it so that by default, links are blue (the default in most browsers anyway). When hovered over, the default link underline disappears. We want the same effect when the link is focused via the keyboard, so we duplicate the <code>:hover </code> rule with <code>:focus </code> . When a link has already been visited, it turns grey. Finally, when a link is active, it is bolded, as an extra clue that something significant is happening.
+Check out the following examples. The CSS rules below apply a style that by default, links are blue (which is the default style in most browsers anyway). When hovered over, the default link underline disappears. To achieve the same effect when the link is focused via the keyboard, the <code>:hover </code> rule is duplicated with the <code>:focus </code> selector. When a link has already been visited, it turns grey. Finally, when a link is active, it is bold, as an extra clue that something significant is happening.
 
  
 <syntaxhighlight lang="css">a:link {
@@ -785,8 +785,10 @@ These selectors are not supported in IE 7 or below. Also note that you shouldn't
 
 Please note that the new CSS3 way of writing pseudo-elements is to use a double colon, eg <code>a::after { ... }</code>, to set them apart from pseudo-classes. You may see this sometimes in CSS. CSS3 however also still allows for single colon pseudo-elements, for the sake of backwards compatibility, and we would advise that you stick with this syntax for the time being.
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
