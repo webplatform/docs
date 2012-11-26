@@ -87,8 +87,8 @@ See [[tutorials/css-regions|Using CSS Regions to flow content through a layout]]
 |Firefox_prefixed_version=
 |Internet_explorer_supported=No
 |Internet_explorer_version=
-|Internet_explorer_prefixed_supported=No
-|Internet_explorer_prefixed_version=
+|Internet_explorer_prefixed_supported=Yes
+|Internet_explorer_prefixed_version=8
 |Opera_supported=No
 |Opera_version=
 |Opera_prefixed_supported=No
@@ -132,7 +132,10 @@ See [[tutorials/css-regions|Using CSS Regions to flow content through a layout]]
 |Safari_mobile_prefixed_supported=No
 |Safari_mobile_prefixed_version=
 }}
-|Notes_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Internet Explorer
+|Note=IE supports [[css/properties/flow-into|'''flow-into''']] and [[css/properties/flow-from|'''flow-from''']] properties, but no other features from the W3C's CSS Regions specification.
+}}
 }}
 {{See_Also_Section
 |Topic_clusters=Regions
