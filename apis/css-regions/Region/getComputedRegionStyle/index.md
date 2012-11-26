@@ -1,8 +1,5 @@
 {{Page_Title}}
-{{Flags
-|High-level issues=Stub
-|Content=Incomplete, Examples Needed
-}}
+{{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Returns styles calculated for an element as it appears within a region, including styles from [[css/atrules/@region|'''@region''']] rules applied to ranges within the element.}}
@@ -15,7 +12,7 @@
 }}{{Method Parameter
 |Name=pseudoElementName
 |Data type=String
-|Description=The name of a CSS pseudo-element (such as "::before" or "::after") or a null value. Optional in WebKit-based browsers. 
+|Description=The name of a CSS pseudo-element (such as "::before" or "::after") or a null value. Optional in WebKit-based browsers.
 |Optional=Yes
 }}
 |Method_applies_to=apis/css-regions/Region
@@ -123,6 +120,9 @@ function regionsVaryCSS(regs, elem, prop) {
 }}
 {{See_Also_Section
 |Topic_clusters=Regions
+|External_links=* [[http://html.adobe.com/webstandards/cssregions| Adobe Web Standards: CSS Regions]]
+* [[http://www.adobe.com/devnet/html5/articles/css3-regions.html| CSS3 regions: Rich page layout with HTML and CSS3]]
+* [[http://adobe.github.com/web-platform/samples/css-regions| Sample pages]]
 }}
 {{Topics|CSS}}
 {{External_Attribution
