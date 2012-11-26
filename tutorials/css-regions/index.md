@@ -48,7 +48,7 @@ You may also specify more than one source of content, and again their order with
 
 
 
-==Controlling Region Breaks==
+==Controlling region breaks==
 
 With content flowing through complex layouts, web developers need to confront design problems traditionally reserved for desktop publishing applications. While most of an article's text can be allowed to flow from one region to another, some elements such as headings should not be allowed to ''break'' so freely:
 
