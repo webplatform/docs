@@ -1,32 +1,46 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Stub
-|Content=Incomplete, Examples Needed
+|Content=Examples Needed
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Diverts the selected element's content into a named flow, used to thread content through different regions. Used in conjunction with flow-from.}}
 {{CSS Property
 |Initial value=none
-|Inherited=Yes
+|Inherited=No
 |Media=visual
 |Animatable=No
 |CSS object model property=flowInto
 |Values={{CSS Property Value
 |Data Type=identifier
-|Description=specifies a named flow into which to place element's content.
+|Description=Specifies a named flow into which to place element's content.
 }}{{CSS Property Value
 |Data Type=none
-|Description=element's content remains as is, and is not diverted to a flow
+|Description=Element's content remains as is, and is not diverted to a flow.
 }}
 }}
 {{Examples_Section
 |Not_required=No
 |Examples=
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=The [[css/properties/flow-into|'''flow-into''']] property diverts content from where it would ordinarily appear in the document to a ''named flow''.  It then reappears flowing through a series of ''region'' elements whose [[css/properties/flow-from|'''flow-from''']] specifies the same named flow.
+
+An element whose [[css/properties/flow-into|'''flow-into''']] specifies a named flow takes its descendents along with it by default, with two exceptions:
+
+* If a descendent specifies a different named flow, it can be presented in a different series of regions specified by a corresponding [[css/properties/flow-from|'''flow-from''']].
+
+* If a descendent specifies the same named flow, it is moved from within the content and then appended.
+
+Setting a descendent's [[css/properties/flow-into|'''flow-into''']] to '''none''' has no effect, and cannot be used to prevent the descendent from flowing along with the ancestor.
+
+}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Regions Module Level 3
+|URL=http://dev.w3.org/csswg/css3-regions/
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
