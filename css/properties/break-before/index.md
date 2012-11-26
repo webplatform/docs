@@ -56,7 +56,8 @@ h1 {
     break-before: always;
 }
 
-/* binds subheads to subsequent content */
+/* binds subheads to subsequent content, 
+    without necessarily forcing a page break */
 h2, h3 {
     break-after: avoid;
     break-inside: avoid;
