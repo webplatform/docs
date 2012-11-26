@@ -35,19 +35,21 @@ section.layout > div {
 }}{{Single Example
 |Language=HTML
 |Description=...flows the article through the series of '''div''' elements, transforming them into ''regions'':
-|Code=<!-- CONTENT -->
+|Code=&lt;!-- CONTENT -->
 
-<article class="content">
+&lt;article class="content">
   ...
-</article>
+&lt;/article>
 
-<section class="layout">
-  <div>Region #1</div>
-  <div>Region #2</div>
-  <div>Region #3</div>
-  <div>Region #4</div>
-  <div>Region #5</div>
-</section>
+&lt;!-- LAYOUT -->
+
+&lt;section class="layout">
+  &lt;div>Region #1&lt;/div>
+  &lt;div>Region #2&lt;/div>
+  &lt;div>Region #3&lt;/div>
+  &lt;div>Region #4&lt;/div>
+  &lt;div>Region #5&lt;/div>
+&lt;/section>
 
 }}
 }}
