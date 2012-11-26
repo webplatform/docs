@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Flows content from a named flow (specified by a corresponding [[css/properties/flow-into|'''flow-into''']]) through selected elements to form a chain of layout ''regions''.}}
+{{Summary_Section|Flows content from a named flow (specified by a corresponding [[css/properties/flow-into|'''flow-into''']]) through selected elements to form a dynamic chain of layout ''regions''.}}
 {{CSS Property
 |Initial value=none
 |Inherited=No
@@ -11,7 +11,7 @@
 |CSS object model property=identifier
 |Values={{CSS Property Value
 |Data Type=identifier
-|Description=Replaces content from specified named flow, threading it from one ''region'' element to another.
+|Description=Replaces content from specified named flow, flowing it from one ''region'' element to another.
 }}{{CSS Property Value
 |Data Type=none
 |Description=Keeps element as is, and does not transform it into a region and replace its content.
@@ -31,7 +31,7 @@ section.layout > div {
 }
 }}{{Single Example
 |Language=HTML
-|Description=...flows the article through the series of '''div''' elements, transforming them into ''regions'':
+|Description=...flows the article through the series of '''div''' elements, transforming them into ''regions'' and replacing the placeholder text:
 |Code=&lt;!-- CONTENT -->
 
 &lt;article class="content">
