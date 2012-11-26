@@ -59,7 +59,7 @@ forces headings into a new region:
 
 In many cases, that approach may result in too much white space within
 the previous region.  This alternative approach makes sure not only
-that headings appear unbroken within a single region, but that they
+that headings appear unbroken within the same region, but that they
 don't appear isolated at the bottom of a region:
 
  h1, h2, h3 {
