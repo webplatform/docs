@@ -17,7 +17,6 @@
     // element is currently a region:
     return(true);
 }
-
 }}
 }}
 {{Notes_Section
@@ -95,6 +94,9 @@ The interface is still available for elements that change back to non-region ele
 }}
 {{See_Also_Section
 |Topic_clusters=Regions
+|External_links=* [[http://html.adobe.com/webstandards/cssregions| Adobe Web Standards: CSS Regions]]
+* [[http://www.adobe.com/devnet/html5/articles/css3-regions.html| CSS3 regions: Rich page layout with HTML and CSS3]]
+* [[http://adobe.github.com/web-platform/samples/css-regions| Sample pages]]
 }}
 {{Topics|CSS}}
 {{External_Attribution
