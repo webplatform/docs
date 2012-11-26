@@ -20,7 +20,7 @@ The [[css/properties/flow-into|'''flow-into''']] and [[css/properties/flow-from|
 
 [[File:region_basic.png|500px]]
 
-Without the [[css/properties/flow-from|'''flow-from''']] property, these layout elements contain their own independent content, in this case placeholder text:
+Without the [[css/properties/flow-from|'''flow-from''']] property, these layout elements contain their own independently placed content, in this case placeholder text indicating how regions are to behave:
 
 [[File:region_layout.png|400px]]
 
