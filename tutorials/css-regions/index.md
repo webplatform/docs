@@ -1,4 +1,5 @@
 {{Page_Title|Using CSS Regions to flow content through a layout}}
+{{Flags}}
 {{Byline}}
 {{Summary_Section|Enabling complex threaded layouts}}
 {{Tutorial
@@ -15,7 +16,7 @@ To flow text through a document, you need a content element, a series of layout 
      flow-from: main;
  }
 
-The [[css/properties/flow-into|'''flow-into''']] [[css/properties/flow-from|'''flow-from''']] properties must both specify the same ''named flow'' for the feature to work. Once that is in place, elements assigned with [[css/properties/flow-from|'''flow-from''']] behave as ''regions'' that flow content. The series of regions through which content flows is called the ''region chain'':
+The [[css/properties/flow-into|'''flow-into''']] and [[css/properties/flow-from|'''flow-from''']] properties must both specify the same ''named flow'' for the feature to work. Once that is in place, elements assigned with [[css/properties/flow-from|'''flow-from''']] behave as ''regions'' that flow content. The series of regions through which content flows is called the ''region chain'':
 
 [[File:region_basic.png|500px]]
 
@@ -246,11 +247,7 @@ layout:
 This produces an alternate mobile interface:
 
 [[Image:region_mobile.png]]
-
 }}
-
-
-
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
