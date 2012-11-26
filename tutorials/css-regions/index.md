@@ -28,7 +28,7 @@ Without the [[css/properties/flow-from|'''flow-from''']] property, these layout 
 
 
 
-==How it works==
+==How flows work==
 
 Flowing content into regions encourages you to keep ''semantic'' content element separate from the ''presentational'' elements in which they appear. Even without a corresponding region chain in which to flow, applying [[css/properties/flow-into|'''flow-into''']] makes the content element disappear from view, just as if you had assigned [[css/properties/display|'''display:none''']]. It reappears only when a corresponding [[css/properties/flow-from|'''flow-from''']] is applied to presentational elements.
 
