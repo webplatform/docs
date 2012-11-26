@@ -19,7 +19,7 @@
 |Examples={{Single Example
 |Language=JavaScript
 |Description=Remove first empty node from flow
-|Code=var flow = document.webkitGetNamedFlows()['main'];
+|Code=var flow = document.getNamedFlows()['main'];
 var index = flow.firstEmptyRegionIndex;
 if (index !== -1) {
     var emptyRegion = flow.getRegions()[index];
