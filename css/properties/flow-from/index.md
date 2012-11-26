@@ -52,7 +52,7 @@ section.layout > div {
 {{Notes_Section
 |Usage=While regions can be positioned arbitrarily on the screen, their order in the document determines the order in which content flows. Regions otherwise do not have to appear as a continuous series within the DOM.
 
-Descendants of any element whose [[css/properties/flow-into|'''flow-into''']] specifies a named flow are suppressed from display, making their own [[css/properties/flow-into|'''flow-into''']] values irrelevant.
+Descendants of any element whose [[css/properties/flow-from|'''flow-from''']] specifies a named flow are suppressed from display, making their own [[css/properties/flow-from|'''flow-from''']] values irrelevant.
 
 See [[tutorials/css-regions|Using CSS Regions to flow content through a layout]] for an overview of CSS Regions.
 }}
