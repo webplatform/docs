@@ -1,8 +1,5 @@
 {{Page_Title}}
-{{Flags
-|High-level issues=Stub
-|Content=Incomplete, Examples Needed
-}}
+{{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Returns a collection of nodes representing the flow's source content.}}
@@ -18,7 +15,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
-|Description=Get last flow-into element that contributes to flow
+|Description=Get last flow-into element that contributes to the flow:
 |Code=// get flow:
 var flow = document.getNamedFlows()['main'];
 // get all flow-into elements:
