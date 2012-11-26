@@ -50,11 +50,10 @@ section.layout > div {
   &lt;div>Region #4&lt;/div>
   &lt;div>Region #5&lt;/div>
 &lt;/section>
-
 }}
 }}
 {{Notes_Section
-|Usage=The [[css/properties/flow-into|'''flow-into''']] property diverts content from where it would ordinarily appear in the document to a ''named flow''.  It then reappears flowing through a series of ''region'' elements whose [[css/properties/flow-from|'''flow-from''']] specifies the same named flow.
+|Usage=The [[css/properties/flow-into|'''flow-into''']] property diverts content from where it would ordinarily appear in the document to a ''named flow''.  It reappears elsewhere flowing through a series of ''region'' elements whose [[css/properties/flow-from|'''flow-from''']] specifies the same named flow.
 
 An element whose [[css/properties/flow-into|'''flow-into''']] specifies a named flow takes its descendents along with it by default, with two exceptions:
 
