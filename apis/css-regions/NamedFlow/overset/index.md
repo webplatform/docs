@@ -1,8 +1,5 @@
 {{Page_Title}}
-{{Flags
-|High-level issues=Stub
-|Content=Incomplete, Examples Needed
-}}
+{{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Indicates whether a flow's content exceeds available space within a region chain, or if there is no available region chain in which to flow content.}}
