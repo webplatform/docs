@@ -26,6 +26,7 @@ flow = document.getNamedFlows()[0];
 flows = document.getNamedFlows();
 for (var i = 0; i < flows.length; i++) {
     flow = flows[i];
+    // do something with flow
 }
 }}
 }}
