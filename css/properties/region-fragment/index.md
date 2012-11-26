@@ -71,7 +71,7 @@ See [[tutorials/css-regions|Using CSS Regions to flow content through a layout]]
 |Safari_prefixed_version=534
 }}
 |Mobile_rows=
-|Notes_rows={{Compatibility Notes Row}}
+|Notes_rows=
 }}
 {{See_Also_Section
 |Topic_clusters=Regions
