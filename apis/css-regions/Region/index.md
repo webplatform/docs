@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|The '''Region''' interface is available for any element that serves as a CSS ''region'', whose [[css/properties/flow-from|'''flow-from''']] CSS specifies it displays content from a ''named flow''. }}
+{{Summary_Section|The '''Region''' interface is available for any element that serves as a CSS ''region'', whose [[css/properties/flow-from|'''flow-from''']] CSS specifies it displays content from a ''named flow''.}}
 {{API_Object}}
 {{Examples_Section
 |Not_required=No
@@ -10,9 +10,14 @@
 |Language=JavaScript
 |Description=Determines if an element is currently set to behave as a region:
 |Code=function isRegion(node) {
+    // element never behaved as a region:
+    if (! node.getRegionFlowRanges) return(false);
+    // element only previously behaved as a region:
     if (node.getRegionFlowRanges() == null) return(false);
+    // element is currently a region:
     return(true);
 }
+
 }}
 }}
 {{Notes_Section
