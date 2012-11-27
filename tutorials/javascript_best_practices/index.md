@@ -271,7 +271,7 @@ Another common situation in JavaScript is providing a preset value for a variabl
 The shortcut notation for this is the double pipe character:
  
 <pre>var x = v
-|10;</pre>
+||10;</pre>
  
 This will automatically give <code>x</code> a value of <code>10</code> if <code>v</code> is not defined — simple as that_== Modularize — one function per task ==
  
