@@ -56,7 +56,7 @@
 *<code>[[dom/objects/UIEvent|UIEvent]]</code>
 *<code>Reference</code>
 *<code>[[dom/properties/cancelable|cancelable]]</code>
-*<code>[[dom/methods/cancelBubble|cancelBubble]]</code>
+*<code>[[dom/properties/cancelBubble|cancelBubble]]</code>
 *<code>[[dom/methods/stopPropagation|stopPropagation]]</code>
 *<code>[[dom/methods/stopImmediatePropagation|stopImmediatePropagation]]</code>
 }}
