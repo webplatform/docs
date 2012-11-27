@@ -152,7 +152,7 @@ To achieve the combined effect shown above, the region itself can specify its ow
      background-color   : #777;
  }
 
-While it's possible to style the region as a block element, CSS that is ordinarily inherited by child elements does not apply to content that flows into the region from elsewhere in the document. So the following CSS does ''not'' work, and cannot be used as an alternative to the [[css/atrules/@region|'''@region''']] rule:
+While it's possible to style the region as a block element, CSS that is ordinarily inherited by child elements does not apply to content that flows into the region from elsewhere in the document. The content's styling is determined by standard CSS cascading and inheritance. So the following CSS does ''not'' work, and cannot be used as an alternative to the [[css/atrules/@region|'''@region''']] rule:
 
  #intro {
      color : #fff;
