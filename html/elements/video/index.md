@@ -10,20 +10,7 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=HTML5 Video - How It Works
-|Code=<!DOCTYPE html>
-<html>
-<body>
-<video width="320" height="240" controls>
-  <source src="movie.mp4" type="video/mp4">
-  <source src="movie.ogg" type="video/ogg">
-  Your browser does not support the video tag. </video>
-</body>
-</html>
-|LiveURL=http://www.w3schools.com/html/tryit.asp?filename=tryhtml5_video_all
-}}
+|Examples=
 }}
 {{Notes_Section
 |Notes=See [[concepts/internet and web/mime types|MIME types]] to find the right way to serve the media file.
