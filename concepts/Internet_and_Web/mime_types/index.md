@@ -1,7 +1,7 @@
 {{Page_Title|Introduction to MIME types}}
 {{Flags}}
 {{API_Name}}
-{{Summary_Section|MIME types enable browsers to recognize the filetype of a file which has been sent via HTTP by the webserver. As a result the browser is able to choose a suitable displaying method. Common MIME types are i.e. text/html for html-files or image/jpeg for jpeg-files.}}
+{{Summary_Section|MIME types enable browsers to recognize the filetype of a file which has been sent via HTTP by the webserver. As a result the browser is able to choose a suitable displaying method. Common MIME types are for example text/html for html-files or image/jpeg for jpeg-files.}}
 {{Concept_Page
 |Content=====original by Bob Clary====
 ====published Feb. 20, 2003====
