@@ -77,6 +77,10 @@ is called the ''region chain'':
 
 [[File:region_basic.png|500px]]
 
+Notice the shaded box that interrupts the text, and the empty box
+that interrupts the subheading. As you will see below, these problems
+can be fixed.
+
 
 
 ==How flows work==
