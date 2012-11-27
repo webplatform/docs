@@ -397,11 +397,11 @@ Once you become accustomed to using regions, you can rely on a wide
 variety of techniques to customize layouts for your content. However,
 the more you want to set up rules to automate layout from various
 content sources, the more you should familiarize yourself with CSS3's
-[[tutorials/flexbox|flexible box properties]], which allows you to
+[[tutorials/flexbox|flexible box properties]], which allow you to
 position layout elements fairly independently of how they are ordered
 within the DOM. Support for [[tutorials/exclusions|CSS Exclusions]]
-allows control over how content in some layout elements flow around
-others. Also familiarize yourself with the [[apis/css-regions|API
+allows control over how content within some layout elements flows
+around others. Also familiarize yourself with the [[apis/css-regions|API
 interfaces]] that allow JavaScript applications to control how content
 flows.
 }}
