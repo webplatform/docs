@@ -383,7 +383,7 @@ within the simpler layout:
          background    : #aaa;
          padding       : 0;
      }
-
+ 
      /* useful commentary */
      h1:first-of-type::after {
          display       : block;
