@@ -23,14 +23,13 @@
 |Language=HTML
 |Description=The following example uses the '''nav''' element to indicate that a list contains site navigation links.
 |Code=&lt;nav&gt;
-   &lt;h1&gt;Site Navigation&lt;/h1&gt;
-   &lt;ul&gt;
-    &lt;li&gt;&lt;a href{{=}}"index.html"&gt;Home&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href{{=}}"gallery.html"&gt;Photo&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href{{=}}"news.html"&gt;Updates&lt;/a&gt;&lt;/li&gt;
-   &lt;/ul&gt;
-  &lt;/nav&gt;
-&lt;/syntaxhighlight&gt;
+ &lt;h1&gt;Site Navigation&lt;/h1&gt;
+ &lt;ul&gt;
+  &lt;li&gt;&lt;a href{{=}}"index.html"&gt;Home&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href{{=}}"gallery.html"&gt;Photo&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href{{=}}"news.html"&gt;Updates&lt;/a&gt;&lt;/li&gt;
+ &lt;/ul&gt;
+&lt;/nav&gt;
 }}
 }}
 {{Notes_Section
@@ -47,6 +46,7 @@
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
 |Chrome_version=5
