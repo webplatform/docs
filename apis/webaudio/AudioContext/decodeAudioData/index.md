@@ -32,7 +32,11 @@ The decodeAudioData() method is preferred over the createBuffer() from ArrayBuff
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=W3C Web Audio API
+|URL=https://dvcs.w3.org/hg/audio/raw-file/tip/webaudio/specification.html
+|Status=W3C Editor's Draft
+}}
 }}
 {{Compatibility_Section
 |Not_required=Yes
