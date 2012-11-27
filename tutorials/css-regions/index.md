@@ -372,7 +372,7 @@ within the simpler layout:
      /* suppress content inappropriate for mobile */
      aside { display : none; }
  
-     /* style content as single column for mobile */
+     /* style content simply for mobile */
      article {
          margin        : 1em 1em 10em 1em;
          padding       : 1em;
@@ -382,6 +382,12 @@ within the simpler layout:
      body {
          background    : #aaa;
          padding       : 0;
+     }
+
+     /* useful commentary */
+     h1:first-of-type::after {
+         display       : block;
+         content       : " (but without the regions)";
      }
  }
 
