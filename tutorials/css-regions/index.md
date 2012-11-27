@@ -94,7 +94,7 @@ While defining regions dramatically changes how content appears in the
 document, it's implemented entirely as CSS, and does not affect the
 underlying content of DOM elements.  In the example above, the
 [[dom/properties/innerdom/innerHTML|'''innerHTML''']] of the first
-'''div''' is still ''Region #1''.
+'''div''' is still the ''Region #1'' placeholder text.
 
 Regions may be positioned arbitrarily around the screen, but content
 flows through regions strictly according to the order in which they
@@ -400,8 +400,6 @@ allows control over how content in some layout elements flow around
 others. Also familiarize yourself with the [[apis/css-regions|API
 interfaces]] that allow JavaScript applications to control how content
 flows.
-
-
 }}
 {{Notes_Section}}
 {{Compatibility_Section
