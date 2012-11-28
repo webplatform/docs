@@ -1,7 +1,5 @@
 {{Page_Title|Using CSS Regions to flow content through a layout}}
-{{Flags
-|Editorial notes=(add section on multicolumn regions when stable)
-}}
+{{Flags}}
 {{Byline}}
 {{Summary_Section|Enabling complex threaded layouts}}
 {{Tutorial
@@ -337,11 +335,11 @@ event.
 
 ==Adaptive layouts with media queries==
 
-Media queries allow you to target different designs to browsers on
-differently-sized devices. Such ''responsive'' web pages should target
-complex CSS region-based layouts only to larger-screen tablet or
-desktop browser interfaces. Mobile devices should rely on a much
-simpler one-column layout.
+CSS [[tutorials/media_queries|media queries]] allow you to target
+different designs to browsers on differently-sized devices. Such
+''responsive'' web pages should target complex CSS region-based
+layouts only to larger-screen tablet or desktop browser interfaces.
+Mobile devices should rely on a much simpler one-column layout.
 
 In the following example, large-screen browsers pour the article's
 content into the section's layout elements, using all the complex
