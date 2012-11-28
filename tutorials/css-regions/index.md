@@ -69,8 +69,8 @@ the content, and the main set of numbered boxes provides the layout:
 
 The [[css/properties/flow-into|'''flow-into''']] and
 [[css/properties/flow-from|'''flow-from''']] properties must both
-specify the same ''named flow'' for the feature to work. Once that is
-in place, elements assigned with
+specify the same ''named flow'' for the feature to work, in this case
+''main''. Once that is in place, elements assigned with
 [[css/properties/flow-from|'''flow-from''']] behave as ''regions''
 that flow content. The series of regions through which content flows
 is called the ''region chain'':
