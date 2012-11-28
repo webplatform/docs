@@ -146,7 +146,7 @@ forces headings into a new region:
 In many cases, that approach may result in far too much white space
 within the previous region.  This alternative approach makes sure not
 only that headings appear unbroken within the same region, but that
-they bind to subsequent content and don't appear by themselves at
+they bind to subsequent content and do not appear by themselves at
 the bottom of a region:
 
  h1, h2, h3 {
@@ -170,7 +170,7 @@ regions.
 
 ==Diverting content from a flow==
 
-The various ''break'' properties shown above don't address a common
+The various ''break'' properties shown above do not address a common
 layout problem. Sometimes content needs to be diverted from a flow and
 moved somewhere else so that other content can flow in to take its
 place. In this example, '''aside''' tags represent ''pull-quote''
@@ -351,7 +351,7 @@ content into the section's layout elements, using all the complex
 layout options described above. Small-screen browsers avoid the CSS
 Region feature altogether, suppressing the section element that would
 have displayed the complex layout, and also suppressing content
-elements (such as the pull-quote) that don't need to be presented
+elements (such as the pull-quote) that do not need to be presented
 within the simpler layout:
 
  /* tablet & desktop browsers */
