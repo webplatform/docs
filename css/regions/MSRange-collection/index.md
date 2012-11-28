@@ -5,9 +5,8 @@
 |Editorial notes={{Editorial/Deletion_Candidate
 | replace non-standard implementation 
 }}
-
 }}
-{{Standardization_Status}}
+{{Standardization_Status|Non-Standard}}
 {{API_Name}}
 {{Summary_Section}}
 {{API_Object}}
