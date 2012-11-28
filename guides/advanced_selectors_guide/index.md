@@ -189,9 +189,9 @@ The most common pseudo-classes you will come across are those used to style link
 * <code>:hover</code> — selects links that the cursor is currently hovering over.
 * <code>:active</code> — selects links that are currently being clicked.
 
-Note that the last three of these (called "user action pseudo-classes" — the first two are the link pseudo-classes) can be used to style the states of any element. They are often used on a user interface. For example, you can set a different style of a form input field when it is tabbed into, or you might want an information box to appear only when the cursor hovers over a certain part of the screen. 
+Note that the last three listed above (called "user action pseudo-classes" — the first two are the link pseudo-classes) can be used to style the states of any element. They are often used when styling a user interface. For example, you can set a different style of a form input field when it is tabbed into, or you might want an information box to appear only when the cursor hovers over a certain area of the screen. 
  
-Check out the following examples. The CSS rules below apply a style that by default, links are blue (which is the default style in most browsers anyway). When hovered over, the default link underline disappears. To achieve the same effect when the link is focused via the keyboard, the <code>:hover </code> rule is duplicated with the <code>:focus </code> selector. When a link has already been visited, it turns grey. Finally, when a link is active, it is bold, as an extra clue that something significant is happening.
+Check out the following examples. The CSS rules below applies a link style to display blue links (which is the default link style in most browsers anyway). When hovered over, the default link underline disappears. To achieve the same effect when the link is focused via the keyboard, the <code>:hover </code> rule is duplicated with the <code>:focus </code> selector. When a link has already been visited, it turns gray. Finally, when a link is active, it is bold, as an extra clue to visitors that something significant is happening.
 
  
 <syntaxhighlight lang="css">a:link {
@@ -210,7 +210,7 @@ a:active {
  font-weight: bold;
 }</syntaxhighlight>
  
-Take care if you don't specify these rules in the same order as they are shown in above, otherwise they might not work as you expect. This is due to the way specificity causes later rules in the stylesheet to override earlier rules. You’ll learn more about specificity in [[Inheritance and cascade]].
+Take care to specify these rules in the same order as they are shown in above, because otherwise they might not work as you expect. This is due to the way specificity causes later rules in the style sheet to override earlier rules. Specificity is covered in more detail in the article titled [[Inheritance and cascade]].
  
 As another example, the <code>:focus</code> pseudo-class is also useful as a usability aid in forms. For example, you can highlight the input field that has the active blinking cursor inside it with a rule like this:
 
@@ -222,7 +222,7 @@ As another example, the <code>:focus</code> pseudo-class is also useful as a usa
  
 === The negation (not) pseudo-class ===
 
-The negation pseudo-class can be used to explicitly apply styles to elements that '''are not''' selected by a simple selector. Let's say we wanted to apply some styling to a number of content blocks, all except one. The blocks could look like so:   
+The negation pseudo-class can be used to explicitly apply styles to elements that '''are not''' selected by a simple selector. For example, imagine that you want to apply some styling to a number of content blocks, all except one. The blocks could look like this:   
  
 <syntaxhighlight lang="html5"><section id="abstract"> ... </section>
 <section id="experiment"> ... </section>
@@ -231,7 +231,7 @@ The negation pseudo-class can be used to explicitly apply styles to elements tha
 <section id="conclusion"> ... </section>
 <section id="references"> ... </section></syntaxhighlight>
 
-We could apply the styling to all sections except the references by doing this:
+You can apply the styling to all sections except the references, with this rule:
 
 <syntaxhighlight lang="css">
 #abstract, #experiment, #tests, #results, #conclusion {
@@ -239,7 +239,7 @@ We could apply the styling to all sections except the references by doing this:
 }
 </syntaxhighlight>
 
-Or instead, we could use the negation selector, like so:
+Or instead, you can use the negation selector, like this:
 
 <syntaxhighlight lang="css">
 section:not(#references) {
@@ -247,13 +247,13 @@ section:not(#references) {
 }
 </syntaxhighlight>
 
-Which is much shorter and simpler.
+Which is much shorter and easy to read.
 
 Note: The negation selector is not supported by IE8 and below.
 
 === The language (lang) pseudo-class ===
  
-The <code>:lang</code> pseudo-class selects elements whose languages have been set to the specified language using the <code>lang</code> attribute. For example, the following element:
+The <code>:lang</code> pseudo-class selects elements whose languages have been set to the specified language using the <code>lang</code> attribute. For example, the following HTML element:
  
 <syntaxhighlight lang="html5"><p lang="en-US">A paragraph of American text, gee whiz!<p></syntaxhighlight>
  
@@ -271,23 +271,23 @@ The target pseudo-class allows you to select an element if it is the '''target''
 
 <div id="target">Woot!</div></syntaxhighlight>
 
-Here we have a simple link followed by a <code>&lt;div&gt;</code> — the link references the <code>&lt;div&gt;</code> via it's ID. The current URL only targets the <code>&lt;div&gt;</code> upon the link being clicked. To style the <code>&lt;div&gt;</code> only when the link is clicked, you could use the following:
+This is accomplished with a simple link followed by a <code>&lt;div&gt;</code> — the link references the <code>&lt;div&gt;</code> via its ID. The current URL only targets the <code>&lt;div&gt;</code> upon the link being clicked. To style the <code>&lt;div&gt;</code> only when the link is clicked, you could use the following rule:
 
 <syntaxhighlight lang="css">div:target {
   ...
 }</syntaxhighlight>
 
-To see a much more involved example of <code>:target</code> usage, read [http://dev.opera.com/articles/view/css3-target-based-interfaces/ CSS3 target-based interfaces] by Corey Mwamba.
+To see a much more involved example of <code>:target</code> usage, read the article titled [http://dev.opera.com/articles/view/css3-target-based-interfaces/ CSS3 target-based interfaces] by Corey Mwamba.
 
 === UI element state pseudo-classes ===
 
-These pseudo-classes are all concerned with styling advanced states of UI elements. You'll most commonly use them to style HTML form elements, particularly when some of the new features of HTML5 forms are being used, such as built in validation (see [HTML5 form additions] for more details).
+These pseudo-classes are all concerned with styling advanced states of UI elements. You'll most commonly use them to style HTML form elements, particularly when some of the new features of HTML5 forms are being used, such as built in validation. (See [HTML5 form additions] for more details.)
 
-Let's say we are styling a basic form input with a <code>valid</code> attribute for validation:
+Imagine you are styling a basic form input with a <code>valid</code> attribute for validation:
 
 <syntaxhighlight lang="html5"><input type="text" required></syntaxhighlight>
 
-We could style it only when the information entered into it is valid or invalid using
+You can style it only when the information entered into it is valid or invalid using these two rules:
 
 <syntaxhighlight lang="css">input:valid {}</syntaxhighlight>
 
@@ -295,28 +295,28 @@ and
 
 <syntaxhighlight lang="css">input:invalid {}</syntaxhighlight>
 
-We could style it depending on whether it is enabled (default) or disabled (using the <code>disabled</code> attribute), using
+You can also style it depending on whether it is enabled (default) or disabled (using the <code>disabled</code> attribute), using this style:
 
 <syntaxhighlight lang="css">input:enabled {}</syntaxhighlight>
 
-and 
+and this style:
 
 <syntaxhighlight lang="css">input:disabled {}</syntaxhighlight>
 
-Finally, we could style a checkbox only when checked like so:
+Finally, you can style a checkbox only when checked, like this:
 
 <syntaxhighlight lang="css">input[type="checkbox"]:checked {}</syntaxhighlight>
 
 
 === Structural pseudo-classes ===
 
-Structural pseudo-classes are advanced selectors allowing you to target specific elements based on their position in the document hierarchy. These were introduced in CSS3, and build on selectors we've already looked at, such as the adjacent sibling selector.
+Structural pseudo-classes are advanced selectors that enable you to target specific elements based on their position in the document hierarchy. These were introduced in CSS3, and they are built on selectors previously discussed, such as the adjacent sibling selector.
 
-<code>:root</code> selects the root element of the document, which is usually the <code>&lt;html&gt;</code> element. For example:
+<code>:root</code> selects the root element of the document, which is usually the <code>&lt;html&gt;</code> element. For example, this rule:
 
 <syntaxhighlight lang="css">html:root{ ... }</syntaxhighlight>
 
-<p><code>:nth-child(n)</code> allows you to select a repeating pattern of elements inside an continuous set of like elements, for example several list items, or several paragraphs or articles next to one another. Let's look at an example:
+<p><code>:nth-child(n)</code> allows you to select a repeating pattern of elements inside an continuous set of like elements, such as several list items, or several paragraphs or articles next to one another. Review this example:
 
 <syntaxhighlight lang="html5"><ul>
   <li>First</li>
@@ -331,33 +331,31 @@ Structural pseudo-classes are advanced selectors allowing you to target specific
   <li>Tenth</li>
 </ul></syntaxhighlight>
 
-<code>n</code> is set to the pattern we want to select. In this case, to select list items we do this:
+<code>n</code> is set to the pattern we want to select. In this case, to select list items, use this code:
 
 <syntaxhighlight lang="css">li:nth-child(n)</syntaxhighlight>
 
-To select just the odd or even list items, we'd use these:
+To select just the odd or even list items, add this rule:
 
 <syntaxhighlight lang="css">li:nth-child(odd)
 li:nth-child(even)</syntaxhighlight>
 
-Or we could use
+Or you can use this rule to accomplish the same result:
 
 <syntaxhighlight lang="css">li:nth-child(2n+1)
 li:nth-child(2n+0)</syntaxhighlight>
 
-To do the same thing.
+Take a look at some other formula examples:
 
-Let's look at some other formula examples:
+* <code>li:nth-child(5)</code>: select the fifth adjacent list item.
+* <code>li:nth-child(4n+1)</code>: select every fourth list item, and then add 1 to each result. So numbers 5 and 9.
+* <code>li:nth-child(3n-2)</code>: select every third list item, and subtract 2 from each result. So numbers 1, 4 and 7.
 
-* <code>li:nth-child(5)</code>: select the 5th adjacent list item
-* <code>li:nth-child(4n+1)</code>: select every 4th list item, and then add 1 to each result. So numbers 5 and 9.
-* <code>li:nth-child(3n-2)</code>: select every 3rd list item, and subtract 2 from each result. So numbers 1, 4 and 7.
+You can also use <code>nth-last-child(n)</code>. This does the same thing as <code>nth-child(n)</code>, but it counts from the last element in the sequence, not the first element.
 
-Next let's move on to <code>nth-last-child(n)</code>. This does the same thing as <code>nth-child(n)</code>, but it counts from the last element in the sequence, not the first.
+<code>nth-of-type(n)</code> and <code>nth-last-of-type(n)</code> accomplish almost exactly the same goals as <code>nth-child(n)</code> and <code>nth-last-child(n)</code>, but there is one important difference: the former two ignore any rogue elements interspersed with the repeated sequence of like elements because they select by type of element, not by child number. The latter selects by child number.
 
-<code>nth-of-type(n)</code> and <code>nth-last-of-type(n)</code> do pretty much exactly the same thing as <code>nth-child(n)</code> and <code>nth-last-child(n)</code>, but there is one important difference: the former two ignore any rogue elements interspersed with the repeated sequence of like elements because they select by type of element, not child number. The latter selects by child number.
-
-Let's have a look at another example:
+Here is another example:
 
 <syntaxhighlight lang="html5"><div>
   1. <article class="abstract"> ... </article>
@@ -371,13 +369,13 @@ Let's have a look at another example:
   9. <article class="abstract"> ... </article>
 </div></syntaxhighlight>
 
-In this example we've got a <code>&lt;element&gt;</code> with eight child <code>&lt;article&gt;</code> elements, and a single <code>&lt;blockquote&gt;</code> element sat in the middle of them: this is child number six. There are a total of nine child elements.
+In this example we've got a <code>&lt;element&gt;</code> with eight child <code>&lt;article&gt;</code> elements, and a single <code>&lt;blockquote&gt;</code> element in the middle of them: this is child number six. There are a total of nine child elements.
 
-If you used <code>article:nth-child(2n+0)</code> as your selector, to select all the even-numbered children of the <code>&lt;div&gt;</code>, you'd select only the <code>&lt;article&gt;</code>s in positions 2, 4 and 8: the <code>&lt;blockquote&gt;</code> (position number six) wouldn't be selected because it is not an <code>&lt;article&gt;</code>.
+If you use <code>article:nth-child(2n+0)</code> as the selector, to select all the even-numbered children of the <code>&lt;div&gt;</code>, you'd select only the <code>&lt;article&gt;</code>s in positions 2, 4 and 8: the <code>&lt;blockquote&gt;</code> (position number six) is not selected because it is not an <code>&lt;article&gt;</code>.
 
-If you used <code>article:nth-of-type(2n+0)</code> as your selector, you would select the <code>&lt;article&gt;</code>s in positions 2, 4, 7 and 9: this is because this selects by the type of element, not the child position, therefore in this case the <code>&lt;blockquote&gt;</code> is completely ignored and the even numbered <code>&lt;article&gt;</code>s are selected. Yes, two of them are odd numbered according to my original numbering scheme because in reality the <code>&lt;blockquote&gt;</code> exists and offsets their position, but <code>article:nth-of-type(2n+0)</code> ignores the <code>&lt;blockquote&gt;</code>, effectively counting positions 7 and 9 as 6 and 8. 
+If you use <code>article:nth-of-type(2n+0)</code> as the selector, you would select the <code>&lt;article&gt;</code>s in positions 2, 4, 7 and 9: this occurs because it selects by the type of element, not the child position. Therefore in this case, the <code>&lt;blockquote&gt;</code> is completely ignored and the even numbered <code>&lt;article&gt;</code>s are selected. Yes, two of them are odd numbered according to my original numbering scheme because in reality the <code>&lt;blockquote&gt;</code> exists and offsets their position, but <code>article:nth-of-type(2n+0)</code> ignores the <code>&lt;blockquote&gt;</code>, effectively counting positions 7 and 9 as 6 and 8. 
 
-Next, we’ll have a look at <code>:first-child</code> and <code>:last-child</code> — these pseudo-classes select only the first or last instance of an element that is the first or last child element of its parent. So, considering the above example again, we could use the following to select - respectively - the first and last <code>&lt;article&gt;</code> element:
+Next, check out the <code>:first-child</code> and <code>:last-child</code> selectors — these pseudo-classes select only the first or last instance of an element that is the first or last child element of its parent. So, considering the above example again, we could use the following to select - respectively - the first and last <code>&lt;article&gt;</code> element:
 
  
 <syntaxhighlight lang="css">article:first-child { ... }
@@ -386,12 +384,12 @@ article:last-child { ... }</syntaxhighlight>
 
 <code>blockquote:first-child</code> would select nothing, because the first child is not a <code>&lt;blockquote&gt;</code>.
 
-<code>first-of-type</code> and <code>last-of-type</code> again work in a very similar way, but they select based on the type of element, not the position of child it is. So <code>article:first-of-type</code> would select exactly the same <code>&lt;article&gt;</code> element as <code>article:first-child</code>, but <code>blockquote:first-of-type</code> would select the single <code>&lt;blockquote&gt;</code> in the example, because it is the first of its type, even thought it is the 6th child.
+<code>first-of-type</code> and <code>last-of-type</code> again work in a very similar way, but they select based on the type of element, not the position of child it is. So <code>article:first-of-type</code> selects exactly the same <code>&lt;article&gt;</code> element as <code>article:first-child</code>, but <code>blockquote:first-of-type</code> selects the single <code>&lt;blockquote&gt;</code> in the example, because it is the first of its type, even though it is the sixth child.
 
-There are a few others to quickly consider:
+There are a few others to consider:
 
-* <code>only-child</code>: Selects an element only if it is the only child of it's parent, eg <code>article:only-child</code> wouldn't select anything in our example above, because there is more than one <code>&lt;article&gt;</code> child.
-* <code>only-of-type</code>: Selects an element only if it is the only sibling of it's type inside the parent element. eg <code>blockquote:only-of-type</code> would select the <code>&lt;blockquote&gt;</code> in the above example because it is the only one of its type present.
+* <code>only-child</code>: Selects an element only if it is the only child of its parent. The selector  <code>article:only-child</code> wouldn't select anything in our example above, because there is more than one <code>&lt;article&gt;</code> child.
+* <code>only-of-type</code>: Selects an element only if it is the only sibling of its type inside the parent element. So <code>blockquote:only-of-type</code> would select the <code>&lt;blockquote&gt;</code> in the above example because it is the only one of its type that exists.
 * <code>empty</code>: selects an element only if it has no children whatsoever (including text nodes). For example <code>div:empty</code> would select <code>&lt;div&gt;&lt;/div&gt;</code>, but not <code>&lt;div&gt;1&lt;/div&gt;</code> or <code>&lt;div&gt;&lt;p&gt;Hi!&lt;/p&gt;&lt;/div&gt;</code>
  
 == Pseudo-elements ==
@@ -400,7 +398,7 @@ Pseudo elements differ from pseudo-classes in that they don't select states of e
 
 === :first-letter ===
 
-First of all, you can select the first letter inside a given element using the following rule:
+You can select the first letter inside a given element using the following rule:
  
 <syntaxhighlight lang="css">p:first-letter {
   font-weight: bold;
@@ -408,11 +406,11 @@ First of all, you can select the first letter inside a given element using the f
   background-color: red;
 }</syntaxhighlight>
  
-The first letter of every paragraph will now be bolded, 300% bigger than the rest of the paragraph, and have a red background. This is a good start towards creating a decent drop cap effect.
+The first letter of every paragraph will now be bold, 300% bigger than the rest of the paragraph, and have a red background. This is a good start towards creating a decent drop cap effect.
 
 === :first-line ===
  
-To make the first line of every paragraph bold, you could use the following rule:
+To make the first line of every paragraph bold, you can use the following rule:
  
 <syntaxhighlight lang="css">p:first-line {
   font-weight: bold;
@@ -420,7 +418,7 @@ To make the first line of every paragraph bold, you could use the following rule
 
 === Generated content using :before and :after ===
  
-You can use the <code>:before</code> and <code>:after</code> pseudo-elements to specify that content should be inserted before and after the element you are selecting. You then specify what content you want to insert or generate. As a simple example, you can use the following rule to insert a decorative image after every link on the page:
+You can use the <code>:before</code> and <code>:after</code> pseudo-elements to specify that content should be inserted before and after the selected element. You then specify the content that you want to insert or generate. For example, you can use the following rule to insert a decorative image after every link on the page:
 
 <syntaxhighlight lang="css">a:after {
   content: " " url(flower.gif);
@@ -432,15 +430,15 @@ You can also use the <code>attr()</code> function to insert the values of attrib
   content: "" "(" attr(href) ")";
 }</syntaxhighlight>
  
-This is a great technique to use in a print stylesheet, where you want to just show the URLs in the document rather than have them hidden inside links (useless on a printed page).
+This is a great technique to use in a print style sheet, where it is important to display the URLs in the document rather than have them hidden inside text links (which are useless on a printed page).
 
-You can also insert incremented numerical values after repeating elements (such as bullets or paragraphs) using the <code>counter()</code> function — this is explained in much more detail in [[http://dev.opera.com/articles/view/automatic-numbering-with-css-counters/ Automatic numbering with CSS counters]] by David Storey.
+You can also insert incremented numerical values after repeating elements (such as bullets or paragraphs) using the <code>counter()</code> function. This is explained in much more detail in the article titled [[http://dev.opera.com/articles/view/automatic-numbering-with-css-counters/ Automatic numbering with CSS counters]] by David Storey.
  
-These selectors are not supported in IE 7 or below. Also note that you shouldn't insert important information with CSS, or that content will be unavailable to assistive technologies or if a user chooses not to use your stylesheet. The golden rule is that CSS is for styling; HTML is for important content.
+These selectors are not supported in IE 7 or below. Also note that you should not insert important information with CSS, because that content will be unavailable to assistive technologies. It will also be unavailable if a visitor chooses not to use the style sheet. The golden rule is that CSS rules are for styling; HTML is for displaying important content.
 
 === CSS3 pseudo-element double colon syntax ===
 
-Please note that the new CSS3 way of writing pseudo-elements is to use a double colon, e.g. <code>a::after { … }</code>, to set them apart from pseudo-classes. You may see this sometimes in CSS. CSS3 however also still allows for single colon pseudo-elements, for the sake of backwards compatibility, and we would advise that you stick with this syntax for the time being.
+Please note that the new CSS3 way of writing pseudo-elements is to use a double colon, such as <code>a::after { … }</code>, to set them apart from pseudo-classes. You may see this sometimes in CSS. CSS3 however also still allows for single colon pseudo-elements, for the sake of backwards compatibility. For the immediate future, it is recommended to continue using the single colon syntax.
 |character dictates that this selector should select an <code>&lt;article&gt;</code> element whose <code>id</code> attribute value is a list of hyphen-separated values, but only if the leftmost one of those values is <code>english</code>_ 
 
 Note that these are not supported by IE8 and below_== Child selector ==
