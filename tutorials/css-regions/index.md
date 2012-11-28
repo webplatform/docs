@@ -1,5 +1,7 @@
 {{Page_Title|Using CSS Regions to flow content through a layout}}
-{{Flags}}
+{{Flags
+|Editorial notes=(add section on multicolumn regions when stable)
+}}
 {{Byline}}
 {{Summary_Section|Enabling complex threaded layouts}}
 {{Tutorial
