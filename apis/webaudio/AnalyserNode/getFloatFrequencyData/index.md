@@ -6,7 +6,7 @@
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=array
-|Data type=String
+|Data type=void
 |Description=Where frequency-domain analysis data will be copied.
 |Optional=No
 }}
