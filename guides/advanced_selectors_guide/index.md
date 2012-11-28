@@ -5,7 +5,7 @@
 {{Guide
 |Content=== Introduction ==
  
-In our [http://docs.webplatform.org/wiki/tutorials/CSS_basics/ CSS basics] article, we introduced the most basic of CSS selectors: element, class, and id selectors. With these selectors you can accomplish a lot, but this certainly is not an exhaustive list of selectors — there are other selectors that allow you to select elements to style based on more specific criteria. In this article, most of the advanced CSS selectors are described.
+In our [docs.webplatform.org/wiki/tutorials/CSS_basics CSS basics] article, we introduced the most basic of CSS selectors: element, class, and id selectors. With these selectors you can accomplish a lot, but this certainly is not an exhaustive list of selectors — there are other selectors that allow you to select elements to style based on more specific criteria. In this article, most of the advanced CSS selectors are described.
 
 Note: This article discusses "most" of the advanced selectors, because although most modern browsers support all the selectors listed in the [http://www.w3.org/TR/selectors/ CSS3 selectors module], new selectors are being added and modified all the time--keep checking the [http://www.w3.org/TR/selectors4/ CSS4 selectors draft] for updates. New selectors will be added to this article as they receive more widespread browser support.
  
