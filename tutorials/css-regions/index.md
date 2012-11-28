@@ -56,7 +56,7 @@ contain their own independent content, but that will soon change.
 ==Enabling a named flow==
 
 To flow text through a document, you need a set of layout elements as
-you see above, a content element, and a pair of CSS properties to flow
+you see above, an element that contains content, and a pair of CSS properties to flow
 one into the other.  In this example, the '''article''' tag contains
 the content, and the main set of numbered boxes provides the layout:
 
