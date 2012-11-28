@@ -9,6 +9,10 @@
 {{API_Object_Property
 |Property_applies_to=dom/document
 |Read_only=Yes
+|Example_object_name=document
+|Return_value_name=state
+|Javascript_data_type=Boolean
+|Return_value_description=<code>hidden</code> is a boolean value which is <code>true</code> if the page is not visible, even the smallest part, and this typically happens when the tab is in background or the browser is minimized. It's important to note that this rule has some exceptions for accessibility tools that act in full-screen mode.
 }}
 {{Examples_Section
 |Not_required=No
