@@ -1,5 +1,10 @@
 {{Page_Title|Using selectors}}
-{{Flags}}
+{{Flags
+|High-level issues=Move Candidate
+|Editorial notes={{Editorial/Move_Candidate
+| Should be under /css/tutorials
+}}
+}}
 {{Byline}}
 {{Summary_Section|This guide looks at CSS selectors — the mechanism you use to select which element receives styles — in detail, the different types of selector available, and how different kinds of selectors have different priorities.}}
 {{Tutorial
@@ -277,7 +282,6 @@ to be applied to an HTML structure like the following:
     </li>
   </ul>
 </div></syntaxhighlight>
- 
 }}
 {{Notes_Section}}
 {{Compatibility_Section
