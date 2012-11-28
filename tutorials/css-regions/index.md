@@ -336,7 +336,7 @@ event.
 ==Adaptive layouts with media queries==
 
 CSS [[tutorials/media_queries|media queries]] allow you to target
-different designs to browsers on differently-sized devices. Such
+different designs to browsers on differently sized devices. Such
 ''responsive'' web pages should target complex CSS region-based
 layouts only to larger-screen tablet or desktop browser interfaces.
 Mobile devices should rely on a much simpler one-column layout.
