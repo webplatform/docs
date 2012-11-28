@@ -8,7 +8,7 @@
 |Read_only=No
 |Example_object_name=PannerNode
 |Javascript_data_type=unsigned short
-|Return_value_description=Uses one of the following constant values: EQUALPOWER (0), a simple and efficient spatialization algorithm using equal-power panning; HTRF (1), a higher quality spatialization algorithm using a convolution with measured impulse responses from human subjects, which renders stereo output; SOUNDFIELD (2), an algorithm which spatializes multi-channel audio using sound field algorithms.
+|Return_value_description=Uses one of the following constant values: EQUALPOWER (0), a simple and efficient spatialization algorithm using equal-power panning; HTRF (1) (default), a higher quality spatialization algorithm using a convolution with measured impulse responses from human subjects, which renders stereo output; SOUNDFIELD (2), an algorithm which spatializes multi-channel audio using sound field algorithms.
 }}
 {{Examples_Section
 |Not_required=Yes
