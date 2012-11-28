@@ -213,7 +213,7 @@ which it's the only one in the chain:
 
 In this case, the region's '''height''' is specified as '''auto''',
 which makes it expand vertically to accommodate the content that flows
-into it. This can be useful when designing ''flexbox'' layouts in
+into it. This can be useful when designing ''flexbox''-based layouts in
 which a more flexible column shrinks to accommodate neighboring
 content such as the pull-quote.
 
