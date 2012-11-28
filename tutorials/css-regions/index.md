@@ -146,7 +146,8 @@ forces headings into a new region:
 In many cases, that approach may result in far too much white space
 within the previous region.  This alternative approach makes sure not
 only that headings appear unbroken within the same region, but that
-they don't appear isolated at the bottom of a region:
+they bind to subsequent content and don't appear by themselves at
+the bottom of a region:
 
  h1, h2, h3 {
      break-after  : avoid;
