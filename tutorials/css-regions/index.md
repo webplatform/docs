@@ -154,6 +154,11 @@ the bottom of a region:
      break-inside : avoid;
  }
 
+Note that this sample layout mimics the appearance of print-style
+pages, but does not rely on any [[paged media]] features, so in this
+case you cannot use the various break properties to force content
+onto a new page rather than a new region.
+
 Check your target browsers' support for CSS3's
 [[css/properties/widows|'''widows''']] and
 [[css/properties/orphans|'''orphans''']] properties. They offer finer
