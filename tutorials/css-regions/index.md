@@ -110,7 +110,7 @@ modify their flow order is to rearrange them in the DOM tree.
 
 You may also specify more than one source of content, in which case
 again their order within the document determines the order in which
-they are presented. The example below flows content sources #1-3 into
+they flow. The example below flows content sources #1-3 into
 the same chain of regions. Rearranging the ''article'' nodes within
 the document shuffles their order within the output region:
 
