@@ -8,7 +8,7 @@
 {{Summary_Section}}
 {{API_Object_Property
 |Property_applies_to=dom/document
-|Read_only=No
+|Read_only=Yes
 }}
 {{Examples_Section
 |Not_required=No
