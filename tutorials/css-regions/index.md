@@ -223,7 +223,8 @@ different flow named ''pullquote''. You can use this same technique to
 assign descendant elements to the ''same'' flow, effectively
 un-nesting them from within content.  In this example, endnotes are
 extracted from wherever they happen to appear within the main flow of
-content, and appear instead appended to the content:
+content, and appear instead appended to the content, with no need to
+modify the content's semantic structure:
 
  &lt;style>
    article, aside.endnote { flow-into: main }
