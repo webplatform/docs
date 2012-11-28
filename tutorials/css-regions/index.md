@@ -158,7 +158,8 @@ Check your target browsers' support for CSS3's
 [[css/properties/widows|'''widows''']] and
 [[css/properties/orphans|'''orphans''']] properties. They offer finer
 control over how many ''lines'' of text are allowed to break into
-another region.
+another region. By default, individual lines may break into separate
+regions.
 
 
 
