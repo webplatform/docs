@@ -8,7 +8,7 @@
 |Read_only=No
 |Example_object_name=PannerNode
 |Javascript_data_type=unsigned short
-|Return_value_description=Uses one of the following constant values: LINEAR_DISTANCE, a linear distance model which calculates distanceGain as 1 - rolloffFactor * (distance - refDistance) / (maxDistance - refDistance); INVERSE_DISTANCE (default), an inverse distance model which calculates distanceGain as refDistance / (refDistance + rolloffFactor * (distance - refDistance)); EXPONENTIAL_DISTANCE, an exponential distance model which calculates distanceGain as pow(distance / refDistance, -rolloffFactor).
+|Return_value_description=Uses one of the following constant values: LINEAR_DISTANCE (0), a linear distance model which calculates distanceGain as 1 - rolloffFactor * (distance - refDistance) / (maxDistance - refDistance); INVERSE_DISTANCE (1) (default), an inverse distance model which calculates distanceGain as refDistance / (refDistance + rolloffFactor * (distance - refDistance)); EXPONENTIAL_DISTANCE (2), an exponential distance model which calculates distanceGain as pow(distance / refDistance, -rolloffFactor).
 }}
 {{Examples_Section
 |Not_required=Yes
