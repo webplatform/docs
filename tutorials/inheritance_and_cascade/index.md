@@ -5,41 +5,40 @@
 {{Tutorial
 |Content=== Introduction ==
  
-Inheritance and the cascade are two fundamental concepts in CSS, which everyone using the technology needs to understand. The two concepts are closely related, yet different:
+Inheritance and the cascade are two fundamental concepts in CSS, that are important to understand. The two concepts are closely related, yet different:
 
-* Inheritance is associated with how the elements in the HTML markup inherit properties from their parent (containing) elements and pass them on to their children
-* The cascade has to do with the CSS declarations being applied to a document, and how conflicting rules do or don’t override each other.
+* Inheritance is associated with how the elements in the HTML markup inherit properties from their parent (containing) elements and pass them on to their children.
+* The cascade relates to CSS declarations being applied to a document, and how conflicting rules do or do not override each other.
  
-Here we will look closely at both concepts. [http://dev.opera.com/articles/view/28-inheritance-and-cascade/inheritance_cascade_code.zip Download the source code for the examples] in this article; the zip contains the finished CSS and HTML, as well as the initial HTML template for you to work with as you go through the examples.
+This article provides an overview of both concepts. [http://dev.opera.com/articles/view/28-inheritance-and-cascade/inheritance_cascade_code.zip Download the source code for the examples] in this article; the ZIP file contains the finished CSS and HTML, as well as the initial HTML template you can use as you follow along with the examples.
 
 == Inheritance ==
  
-Inheritance is the mechanism by which certain properties are passed on from a parent element down to its children, in the same fashion as genetics: if the parents have blue eyes, their children will probably have blue eyes.
+Inheritance is the mechanism by which certain properties are passed on from a parent element down to its children, in the same fashion as genetics: if parents have blue eyes, their children will probably also have blue eyes.
  
-Not all CSS properties are inherited, because it doesn’t make sense for some of them to be. For instance, margins and width are not inherited, since it’s unlikely that a child element should need the same margins as its parent. Imagine if you set the content block of a site to be 70% of the browser window width, and then had all of it's children adopting a width of 70% of their parents? Doing page layouts with CSS would be a nightmare.
+Not all CSS properties are inherited, because it does not make sense for some of them to be. For instance, margins and width are not inherited, since it is unlikely that a child element requires the same margins as its parent. Imagine if you set the content block of a site to be 70% of the browser window width, and then all of its children adopted a width of 70% of their parent elements? Designing page layouts with CSS would be a nightmare.
 
-In most cases common sense will tell you which properties are inherited and which aren’t: if you are not sure you can look up all of the properties present in CSS2 in the [http://www.w3.org/TR/CSS21/propidx.html CSS 2.1 specification property summary table]. For CSS3 properties, you'll have to consult the individual CSS3 module specifications, available in the [http://www.w3.org/Style/CSS/current-work CSS current work page].
+In most cases, common sense indicates which properties are inherited and which are not: if you are not sure, look up all of the properties present in CSS2 in the [http://www.w3.org/TR/CSS21/propidx.html CSS 2.1 specification property summary table]. For CSS3 properties, consult the individual CSS3 module specifications, available in the [http://www.w3.org/Style/CSS/current-work CSS current work page].
  
 === Why inheritance is useful ===
  
-So why does CSS have an inheritance mechanism? The easiest way to answer that is probably to consider what it’d be like if there was no such thing as inheritance. You would have to specify things like font family, font size and text color individually — for every single element type.
+CSS has an inheritance mechanism because otherwise CSS rules would be redundant. Without inheritance, it would be necessary to specify styles like font family, font size, and text color individually — for every single element type. The code would become bloated and repetitive.
  
-Using inheritance, you can for example specify the font properties for the <code>html</code> or <code>body</code> elements and they will be inherited by all other elements. You can specify background and text colors for a specific container element and the text color will automatically be inherited by any child elements in that container. The background color isn’t inherited, but the initial value for <code>background-color</code> is <code>transparent</code>, which means the parent’s background will shine through. The effect is similar to what you’d get if the background color were inherited.
+Using inheritance, you can specify the font properties for the <code>html</code> or <code>body</code> elements and the styles will be inherited by all other elements. You can specify background and text colors for a specific container element and the text color will automatically be inherited by any child elements in that container. The background color is not inherited, but the initial value for <code>background-color</code> is <code>transparent</code>, which means a parent’s background will shine through. The effect is similar to the page's appearance if background colors were inherited.
 
-Note: consider what would happen if background ''images'' were inherited? Every child would have the same background image as its parent and the result would look like a jigsaw puzzle put together by someone with a serious drug problem, since the background would be redrawn inside each subsequent child element.
+Note: Consider what would happen if background ''images'' were inherited. Every child would display the same background image as its parent. The result would look like a jigsaw puzzle put together by someone with a serious drug problem, since the background would be redrawn inside each subsequent child element.
  
 === How inheritance works ===
  
-Every element in an HTML document will inherit all inheritable properties from its parent ''except'' the root element (<code>&lt;html&gt;</code>), which doesn’t have a parent.
+Every element in an HTML document inherits all inheritable properties from its parent ''except'' the root element (<code>&lt;html&gt;</code>), which does not have a parent.
  
-Whether or not the inherited properties will have any effect depends on other things, as you shall see later on when we talk about the cascade. Just as a blue-eyed mother can have a brown-eyed child if the father has brown eyes,
-
+Whether or not the inherited properties will have any effect depends on other things, as described later in the section about the cascade. Just as a blue-eyed mother can have a brown-eyed child if the father has brown eyes,
 inherited properties in CSS can be overridden.
  
 === An example of inheritance ===
 
 <ol>
-<li><p>Copy the following HTML document into a new file in your favourite text editor and save it as inherit.html.</p>
+<li><p>Copy the following HTML document into a new file in your favorite text editor and save it as inherit.html.</p>
 
 <syntaxhighlight lang="html5"><!DOCTYPE html>
 <html lang="en">
@@ -53,10 +52,10 @@ inherited properties in CSS can be overridden.
   </body>
 </html></syntaxhighlight>
 
-<p>If you open the document in your web browser you will see a rather boring document displayed according to your browser’s default styling.</p>
+<p>If you open the document in your web browser, you will see a rather boring document displayed according to your browser’s default styling.</p>
 </li>
 <li>
-<p>Create a new empty file in your text editor, copy the CSS rule below into it, and save the file as style.css in the same location as the HTML file.</p>
+<p>Create a new empty file in your text editor, copy the following CSS rule into it, and save the file as style.css in the same location as the HTML file.</p>
 
 <syntaxhighlight lang="css">html {
   font: 75% Verdana, sans-serif;
@@ -71,11 +70,11 @@ inherited properties in CSS can be overridden.
 </li>
 </ol>
 
-The font will change from the browser’s default (often Times or Times New Roman) to Verdana.
+The font face changes from the browser’s default (often set to Times or Times New Roman) to Verdana.
 
-If you don’t have Verdana installed on your computer, the text will be displayed in the default sans serif font specified in your browser settings. The text will also become smaller; only three quarters of what it was in the unstyled version. The CSS rule we specified applies only to the <code>&lt;html&gt;</code> element. We didn’t specify any rules for headings or paragraphs, yet all the text now displays in Verdana at 75% of the default size. Why? Because of inheritance. The <code>font</code> property is a shorthand property that sets a whole number of font-related properties.
+If you do not have Verdana installed on your computer, the text displays in the default sans-serif font specified in your browser settings. The text is also smaller; only three quarters of its size in the unstyled version. The CSS rule applies only to the <code>&lt;html&gt;</code> element. It does not specify any rules for headings or paragraphs, yet all of the text now displays in Verdana at 75% of its default size. Why? Because of inheritance. The <code>font</code> property is a shorthand property that sets a whole range of font-related properties.
 
-We’ve only specified two of them — the font size and the font family—but that rule is equivalent to the following:
+The CSS rule only specified two properties — the font size and the font family — but that rule is equivalent to the following:
 
 <syntaxhighlight lang="css">html {
   font-style: normal;
@@ -86,15 +85,15 @@ We’ve only specified two of them — the font size and the font family—but t
   font-family: Verdana,sans-serif;
 }</syntaxhighlight>
 
-All of those properties are inherited, so the <code>&lt;body&gt;</code> element will inherit them from the <code>&lt;html&gt;</code> element and then pass them on to its children — the heading and the paragraph. But wait a second! There’s something fishy going on with the inheritance of font size, isn’t there?
+All of those properties are inherited, so the <code>&lt;body&gt;</code> element will inherit them from the <code>&lt;html&gt;</code> element and then pass them on to its children — the heading and the paragraph text. But notice that there is something unusual occurring with the inheritance of font size.
 
-The <code>&lt;html&gt;</code> element’s font size is set to 75%, but 75% of ''what''? Surely the font size of the <code>&lt;body&gt;</code> should be 75% of its parent’s font size, and the font sizes of the heading and the paragraph be 75% of that of the <code>&lt;body&gt;</code> element? The value inherited is not the specified value — the value we write in our style sheet — but something called the computed value.
+The <code>&lt;html&gt;</code> element’s font size is set to 75%, but 75% of ''what''? Surely the font size of the <code>&lt;body&gt;</code> should be 75% of its parent’s font size, and the font sizes of the heading and the paragraph be 75% of that of the <code>&lt;body&gt;</code> element? The value inherited is not the specified value — the value typed in the style sheet — but something else called the computed value.
 
-The computed value is, in the case of font size, an absolute value measured in pixels. For the <code>&lt;html&gt;</code> element, which doesn’t have a parent element from which to inherit, a percentage value for font size relates to the default font size set in the browser. Most contemporary browsers have a default font size setting of 16px. 75% of 16 is 12, so the computed value for the font size of the <code>&lt;html&gt;</code> element will be around 12px.
+The computed value is, in the case of font size, an absolute value measured in pixels. For the <code>&lt;html&gt;</code> element, which doesn’t have a parent element from which to inherit, a percentage value for font size relates to the default font size set in the browser. Most contemporary browsers have a default font size setting of 16px. 75% of 16 is 12, so the computed value for the font size of the <code>&lt;html&gt;</code> element is around 12px.
 
-And ''that'' is the value that is inherited by <code>&lt;body&gt;</code> and passed on to the heading and the paragraph. (The font size of the heading is larger, because the browser applies some built-in styling of its own. See the discussion about the cascade, below.)
+And ''that'' is the value that is inherited by <code>&lt;body&gt;</code> and passed on to the heading and the paragraph. (The font size of the heading is larger, because the browser applies some built-in styling of its own. For more details, see the section below about the cascade.)
 
-Let's go a bit further with our example
+Consider this example:
 
 <ol>
 <li><p>Add two more declarations to the rule in your CSS style sheet:</p>
@@ -108,7 +107,7 @@ Let's go a bit further with our example
 }</syntaxhighlight>
 </li>
 <li>
-<p>Save the CSS file and reload the document in your browser. Now the background of the whole document is bright blue, and all the text is white. The white text color is inherited by the <code>&lt;body&gt;</code> element and passed on to all children of <code>body</code> — in this case the heading and the paragraph. The heading and paragraph don’t however inherit the background but instead will default to <code>transparent</code>, so the net visual result will be white text on a blue background.</p>
+<p>Save the CSS file and reload the document in your browser. Now the background of the whole document is bright blue, and all of the text is white. The white text color is inherited by the <code>&lt;body&gt;</code> element and passed on to all children of <code>body</code> — in this case the heading and the paragraph. The heading and paragraph do not, however, inherit the background but instead default to <code>transparent</code>, so the net visual result is white text displayed on a blue background.</p>
 </li>
 <li>
 <p>Add another new rule to the style sheet:</p>
@@ -118,13 +117,13 @@ Let's go a bit further with our example
 }</syntaxhighlight>
 </li>
 <li>
-<p>Save and reload the document: this rule sets the font size for the heading. The percentage is applied to the inherited font size — 12px, as we discussed above — so the heading size will be 300% of 12px, or 36px.</p>
+<p>Save and reload the document: this rule sets the font size of the heading. The percentage is applied to the inherited font size — 12px, as we discussed above — so the heading size will be 300% of 12px, or 36px.</p>
 </li>
 </ol>
 
 === Forcing inheritance ===
  
-You can force inheritance — even for properties that aren’t inherited by default — by using the <code>inherit</code> keyword. This should be used with care, however, since Microsoft Internet Explorer versions up to and including version 7 don’t support this keyword.
+You can force inheritance — even for properties that are not inherited by default — by using the <code>inherit</code> keyword. Use this strategy with care, however, since Microsoft Internet Explorer versions up to and including version 7 do not support this keyword.
  
 The following rule will make all paragraphs inherit all background properties from their parents:
  
@@ -132,7 +131,7 @@ The following rule will make all paragraphs inherit all background properties fr
   background: inherit;
 }</syntaxhighlight>
   
-Forcing inheritance isn’t something you need to do every day. It can be useful for “undoing” a declaration in a conflicting rule, or to avoid hardcoding certain values. As an example, consider a typical navigation menu:
+Forcing inheritance is not a common practice. It can be useful for “undoing” a declaration in a conflicting rule, or to avoid hard coding certain values. As an example, consider a typical navigation menu:
  
 <syntaxhighlight lang="html5"><ul id="nav">
   <li><a href="/">Home</a></li>
@@ -142,7 +141,7 @@ Forcing inheritance isn’t something you need to do every day. It can be useful
   <li><a href="/about/">About Us</a></li>
 </ul></syntaxhighlight>
  
-To display this list of links as a horizontal menu, you could use the following CSS:
+To display this list of links as a horizontal menu, you could use the following CSS rules:
  
 <syntaxhighlight lang="css">#nav {
   background: blue;
@@ -163,25 +162,25 @@ To display this list of links as a horizontal menu, you could use the following 
   text-decoration: none;
 }</syntaxhighlight>
  
-Here the background color of the whole list is set to blue in the rule for <code>#nav</code>. This also sets the foreground color to white, and this is inherited by each list item and each link. The rule for the list items sets a right border, but doesn’t specify the border color, which means it will use the inherited foreground color, white. For the links we’ve used <code>color:inherit;</code> to force inheritance and override the browser's default link color.
+Here the background color of the whole list is set to blue in the rule for <code>#nav</code>. This also sets the foreground color to white, and this property is inherited by each list item and each link. The rule for the list items sets a right border, but doesn’t specify the border color, which means it will use the inherited foreground color, white. For the links, the <code>color:inherit;</code> forces inheritance and overrides the browser's default link color.
 
-Of course I could just as well have specified the border color as white and the link text color as white, but the beauty of letting inheritance do the job is that you now have only one place to change the colors if you decide to update the color scheme at a later date.
+Of course, you can specify the border color as white and the link text color as white, but the beauty of letting inheritance do the job is that it is only necessary to update one place to change the colors if you decide to update the color scheme later.
 
 == The cascade ==
  
-CSS an acronym of Cascading Style Sheets, so it shouldn’t come as a surprise that the cascade is an important concept. It’s the mechanism that controls the end result when multiple, conflicting CSS declarations apply to the same element. There are three main concepts that control the order in which CSS declarations are applied:
+CSS an acronym of Cascading Style Sheets, so it is not a surprise that the cascade is an important concept. It is the mechanism that controls the end result when multiple, conflicting CSS declarations apply to the same element. There are three main concepts that control the order in which CSS declarations are applied:
  
 # Importance
 # Specificity
 # Source order
  
-We'll look at these concepts below, one by one.
+These concepts are described below.
  
-Importance is most … er … important. If two declarations have the same importance, the specificity of the rules decide which one will apply. If the rules have the same specificity, then source order controls the outcome.
+Importance is the most … er … important. If two declarations have the same importance, the specificity of the rules decide which one will apply. If the rules have the same specificity, then source order controls the outcome.
  
 === Importance ===
  
-The importance of a CSS declaration depends on ''where'' it is specified. The conflicting declarations will be applied in the following order, with later ones overriding earlier ones:
+The importance of a CSS declaration depends on ''where'' it is specified. The conflicting declarations will be applied in the following order, with later declarations overriding earlier ones:
  
 # User agent style sheets
 # Normal declarations in user style sheets
@@ -193,9 +192,9 @@ The importance of a CSS declaration depends on ''where'' it is specified. The co
  
 A user agent style sheet is the built-in style sheet of the browser. Every browser has its default rules for how to display various HTML elements if no style is specified by the user or designer of the page. For instance, unvisited links are usually blue and underlined.
  
-A user style sheet is a style sheet that the ''user'' has specified. Not all browsers support user style sheets, but they can be very useful, especially for users with certain types of disabilities. For instance, a dyslexic person can have a user style sheet that specifies certain fonts and colors that help reading.
+A user style sheet is a style sheet that the ''user'' has specified. Not all browsers support user style sheets, but they can be very useful, especially for users with certain types of disabilities. For instance, a dyslexic person can have a user style sheet that specifies certain fonts and colors to help them read more easily.
  
-An author style sheet is what we normally refer to when we say “style sheet”. It’s the style sheet that the author of the document (or, more likely, the site’s designer) has written and linked to (or included).
+An author style sheet is what we normally refer to when we say “style sheet”. It is the style sheet that the author of the document (or, more likely, the website’s designer) has written and linked (or included).
 
 ==== Normal and important declarations ====
 
@@ -366,6 +365,7 @@ All else being equal, the source order makes the final distinction.
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
