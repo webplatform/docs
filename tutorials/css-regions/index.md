@@ -241,8 +241,8 @@ modify the content's semantic structure:
  &lt;!-- endnotes appear here -->
 
 However, descendant elements that are defined as the default
-'''flow-into:none''' cannot be prevented from flowing along with the
-ancestor.
+'''flow-into:none''' cannot be prevented from flowing along with an
+ancestor that is assigned to a named flow.
 
 
 
