@@ -29,7 +29,7 @@ a fragment of content as if it were flowing into a subsequent region.
 |Examples=
 }}
 {{Notes_Section
-|Usage=In the following example, ''region_1'' can accommodate the article's gray text, ''region_2'' can	accommodate the blue text, and the red	''overset'' text can't fit within the region chain:
+|Usage=In the following example, ''region_1'' can accommodate the article's gray text, ''region_2'' can	accommodate the blue text, and the red	''overset'' text does not fit within the region chain:
 
 [[Image:region_fragment.png]]
 
