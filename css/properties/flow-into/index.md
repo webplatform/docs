@@ -14,7 +14,7 @@
 |Description=Specifies a named flow into which to place element's content.
 }}{{CSS Property Value
 |Data Type=none
-|Description=Element's content remains as is, and is not diverted to a flow unless an ancestor element specifies it.
+|Description=The element's content remains unchanged, and is not diverted to a flow unless an ancestor element specifies it.
 }}
 }}
 {{Examples_Section
