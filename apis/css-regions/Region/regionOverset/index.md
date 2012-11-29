@@ -13,17 +13,17 @@
 
 * '''overset''' indicates the region is the last in the chain, and does not have enough room to display remaining content. See [[css/properties/region-fragment|region-fragment]] for display options.
 
-* '''empty''' indicates content was accommodated by previous regions in the chain, or that no content flows into the chain.
+* '''empty''' indicates content was accommodated by previous regions in the chain, or that no content exists to flow into the chain.
 
 * '''fit''' indicates various scenarios:
 
-** when content appears within the last region in the chain but does not overflow it, as described above in '''overset'''  
+** When content appears within the last region in the chain but does not overflow it, as described above in '''overset'''  
 
-** for regions that flow content into subsequent regions in the chain
+** For regions that flow content into subsequent regions in the chain
 
-** for regions that are too small to display the next available item of content, such as an image, which gets pushed into a subsequent region
+** For regions that are too small to display the next available item of content, such as an image, which gets pushed into a subsequent region
 
-** for elements that no longer behave as a region, which occurs when their [[css/properties/flow-into|'''flow-into''']] property reverts to '''none'''
+** For elements that no longer behave as a region, which occurs when their [[css/properties/flow-into|'''flow-into''']] property reverts to '''none'''
 }}
 {{Examples_Section
 |Not_required=No
