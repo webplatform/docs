@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page_Title|Document.getNamedFlows() method}}
 {{Flags
 |Editorial notes=NamedFlowCollection not in list of return value types
 }}
@@ -102,7 +102,6 @@ for (var i = 0; i < flows.length; i++) {
 }}
 {{See_Also_Section
 |Topic_clusters=Regions
-|Manual_links=* [[tutorials/css-regions|Using CSS Regions to flow content through a layout]]
 |External_links=* [http://html.adobe.com/webstandards/cssregions Adobe Web Standards: CSS Regions]
 * [http://www.adobe.com/devnet/html5/articles/css3-regions.html CSS3 regions: Rich page layout with HTML and CSS3]
 * [http://adobe.github.com/web-platform/samples/css-regions Sample pages]
