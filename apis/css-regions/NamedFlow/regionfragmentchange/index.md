@@ -1,6 +1,6 @@
 {{Page_Title|regionlayoutupdate event}}
 {{Flags
-|Editorial notes=(Criteria under which event fires may change to less frequent regionOveset scenario noted here. The two scenarios may be re-spec'ed as two separate events.)
+|Editorial notes=(Criteria under which event fires may change to less frequent regionOverset scenario noted here. The two scenarios may be re-spec'ed as two separate events.)
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
