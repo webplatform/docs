@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Indicates whether a flow's content exceeds available space within a region chain, or if there is no available region chain in which to flow content.}}
+{{Summary_Section|Indicates whether a flow's content exceeds available space within a region chain, or if no available region chain in which to flow content exists.}}
 {{API_Object_Property
 |Property_applies_to=apis/css-regions/NamedFlow
 |Read_only=Yes
