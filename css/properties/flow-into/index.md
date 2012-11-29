@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page_Title|flow-into property}}
 {{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
