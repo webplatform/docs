@@ -9,7 +9,7 @@
 |Example_object_name=flow
 |Return_value_name=exceedsRegions
 |Javascript_data_type=Boolean
-|Return_value_description=Indicates whether a flow's content exceeds available space within a region chain, or if there is no available region chain in which to flow content.
+|Return_value_description=Indicates whether a flow's content exceeds available space within a region chain. Also indicates when no region chain is available in which to flow content. 
 }}
 {{Examples_Section
 |Not_required=No
