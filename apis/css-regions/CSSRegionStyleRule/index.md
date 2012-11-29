@@ -10,7 +10,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Description=CSS for following example:
+|Description=Starting with this CSS...
 |Code=@region div.region {
     p {
 	color: #fff;
@@ -19,7 +19,7 @@
 }
 }}{{Single Example
 |Language=JavaScript
-|Description=Narrow scope of first rule within @region to first paragraph, and modify background color
+|Description=Narrow the scope of the first rule within the @region to the first paragraph, and modify its background color
 |Code=// corresponds to @region rule above:
 rule = document.styleSheets[0].cssRules[0];
 
@@ -36,7 +36,7 @@ console.log(rule.cssRules[0].cssText);
 console.log(rule.cssText);
 }}{{Single Example
 |Language=CSS
-|Description='''cssText''' above should now reflect these altered values:
+|Description=The '''cssText''' above now dynamically reflects these altered values:
 |Code=@region div.region {
     p:first-of-type {
 	color: #fff;
@@ -45,9 +45,7 @@ console.log(rule.cssText);
 }
 }}
 }}
-{{Notes_Section
-|Usage='''CSSRegionStyleRule''' supplements the [[css/cssom/CSSRule|'''CSSRule''']] interface.
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Regions Module Level 3
