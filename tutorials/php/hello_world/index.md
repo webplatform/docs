@@ -30,16 +30,19 @@ I hope you enjoyed my first tutorial and that this has helped you.
 
 
 
+
+
+
 {{Notes_Section}}
-{{Topics|HTML, UI}}
+{{Topics|HTML}}
 {{External_Attribution
-|Is_CC-BY-SA=Yes
-|Sources=MSDN
+|Is_CC-BY-SA=No
 |MDN_link=
+|MSDN_link=
 |HTML5Rocks_link=
 }}
 {{Notes_Section}}
-{{Topics|HTML}}
+{{Topics|HTML, UI}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
