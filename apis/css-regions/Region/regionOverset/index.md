@@ -11,7 +11,7 @@
 |Javascript_data_type=String
 |Return_value_description=A region's display state within a region chain:
 
-* '''overset''' indicates the region is the last in the chain, and does not have enough room to display remaining content. See [[css/properties/region-fragment|region-fragment]] for display options.
+* '''overset''' indicates the region is the last in the chain, and does not have enough room to display remaining content. See [[css/properties/region-fragment|'''region-fragment''']] for display options.
 
 * '''empty''' indicates content was accommodated by previous regions in the chain, or that no content exists to flow into the chain.
 
