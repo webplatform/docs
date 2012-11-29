@@ -30,9 +30,7 @@ for (var i = 0; i < flows.length; i++) {
 }
 }}
 }}
-{{Notes_Section
-|Notes=See [[tutorials/css-regions|Using CSS Regions to flow content through a layout]] for an overview of CSS Regions.
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Regions Module Level 3
