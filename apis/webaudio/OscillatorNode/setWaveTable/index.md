@@ -2,7 +2,9 @@
 {{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Sets an arbitrary custom periodic waveform given a WaveTable.}}
+{{Summary_Section|Sets an arbitrary custom periodic waveform given a WaveTable.
+
+}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=waveTable
