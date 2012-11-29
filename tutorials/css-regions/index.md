@@ -5,7 +5,7 @@
 {{Tutorial
 |Content=The CSS Regions feature provides a way to implement complex
 magazine-style designs in which content flows through freely
-positioned layout elements. It offers you a way to dynamically flow
+positioned layout elements. It allows you to dynamically flow
 content from one layout element to another, but does not specify how
 those elements are positioned. For that, use whatever CSS technique is
 most appropriate: floats, flexible boxes, grid layout, or absolute
@@ -95,7 +95,7 @@ a corresponding [[css/properties/flow-from|'''flow-from''']] is
 applied to presentational elements.
 
 While defining regions dramatically changes how content appears in the
-document, it's implemented entirely as CSS, and does not affect the
+document, it is implemented entirely as CSS, and does not affect the
 underlying content of DOM elements.  In the example above, the
 [[dom/properties/innerdom/innerHTML|'''innerHTML''']] of the first
 '''div''' is still the ''Region #1'' placeholder text.
@@ -144,10 +144,9 @@ forces headings into a new region:
 [[File:region_goodbreak.png]]
 
 In many cases, that approach may result in far too much white space
-within the previous region.  This alternative approach makes sure not
-only that headings appear unbroken within the same region, but that
-they bind to subsequent content and do not appear by themselves at
-the bottom of a region:
+within the previous region.  This alternative approach keeps headings
+within a single region, and binds to subsequent content so that
+headings do not appear by themselves at the bottom of a region:
 
  h1, h2, h3 {
      break-after  : avoid;
@@ -212,7 +211,7 @@ as part of a separate flow.  This CSS diverts the pull-quote content:
  }
 
 The pull-quote now appears in its own dedicated layout region, of
-which it's the only one in the chain:
+which it is the only one in the chain:
 
 [[File:region_pull.png|500px]]
 
@@ -224,7 +223,7 @@ content such as the pull-quote.
 
 In this example, the parent '''article''' element is assigned to the
 ''main'' flow, while its child '''aside''' elements are assigned to a
-different flow named ''pullquote''. You can use this same technique to
+different flow named ''pullquote''. You can use the same technique to
 assign descendant elements to the ''same'' flow, effectively
 un-nesting them from within content.  In this example, endnotes are
 extracted from wherever they happen to appear within the main flow of
@@ -279,7 +278,7 @@ as a region:
      background-color   : #777;
  }
 
-While it's possible to style the region as a block element, CSS that
+While it is possible to style the region as a block element, CSS that
 is ordinarily inherited by child elements does not apply to content
 that flows into the region from elsewhere in the document. The
 content's styling is still determined by standard CSS cascading and
@@ -302,7 +301,7 @@ When flowing content through a layout, there may not be enough space
 available in the region chain to display all of it. In that case, the
 flow is in an ''overset'' state. By default, the last available region
 in the chain displays overset content according to its
-[[css/properties/overflow|'''overflow''']] setting. Still, even
+[[css/properties/overflow|'''overflow''']] setting. Still, even using
 '''overflow:hidden''' can lead to unfortunate visual artifacts along
 the bottom edge:
 
@@ -343,7 +342,7 @@ event.
 CSS [[tutorials/media_queries|media queries]] allow you to target
 different designs to browsers on differently sized devices. Such
 ''responsive'' web pages should target complex CSS region-based
-layouts only to larger-screen tablet or desktop browser interfaces.
+layouts only on larger-screen tablet or desktop browser interfaces.
 Mobile devices should rely on a much simpler one-column layout.
 
 In the following example, large-screen browsers pour the article's
