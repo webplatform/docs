@@ -20,7 +20,7 @@ magazine-style layout elements.
 
 The following interfaces allow programmatic access to the CSS Regions feature:
 
-* The [[dom/apis/document|'''Document''']] interface features a [[apis/css-regions/Document/getNamedFlows|getNamedFlows()]] method.
+* A [[apis/css-regions/Document/getNamedFlows|getNamedFlows()]] method supplements the [[dom/apis/document|'''Document''']] interface.
 
 * The [[apis/css-regions/NamedFlow|'''NamedFlow''']] interface provides access to the content defined as [[css/properties/flow-into|'''flow-into''']], and the series of layout regions defined as [[css/properties/flow-from|'''flow-from''']].  
 
