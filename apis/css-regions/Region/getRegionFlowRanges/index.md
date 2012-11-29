@@ -1,7 +1,5 @@
 {{Page_Title|Region.getRegionFlowRanges() method}}
-{{Flags
-|Editorial notes=references DOM Range API, for which there's no apparent doc available
-}}
+{{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Returns a series of [[dom/apis/range|'''Range''']] objects that represent the fragments of DOM content that currently flow into the region.}}
