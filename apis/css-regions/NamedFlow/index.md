@@ -49,7 +49,6 @@ if (regions.length > 1) {
 |Usage=Specifying an identifier for any element's [[css/properties/flow-into|'''flow-into''']] CSS property diverts its content to a '''NamedFlow''' object, whose '''name''' corresponds to the property's value.  Other elements that specify the same identifier as their [[css/properties/flow-from|'''flow-from''']] property serve as a chain of ''regions'' that dynamically display the content.  (The '''NamedFlow''' object is still available with NULL content if those properties are later removed.)
 
 Use the [[dom/apis/document/getNamedFlows|'''getNamedFlows()''']] method to gather named flows from a document.
-|Notes=See [[tutorials/css-regions|Using CSS Regions to flow content through a layout]] for an overview of CSS Regions.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
