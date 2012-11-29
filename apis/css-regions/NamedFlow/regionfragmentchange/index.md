@@ -36,7 +36,7 @@ function modifyFlow(e) {
 }}
 }}
 {{Notes_Section
-|Notes=The event fires when linebreaks shift in any way within the region chain, even without changing the number of regions that are filled with content and changing any region's [[apis/css-regions/Region/regionOverset|'''regionOverset''']] state. More specifically, the event fires when any region's [[apis/css-regions/Region/getRegionFlowRanges|collection of DOM Range fragments]] changes their dimensions or offsets.
+|Notes=The event fires when linebreaks shift in any way within the region chain, even without changing the number of regions that are filled with content and changing any region's [[apis/css-regions/Region/regionOverset|'''regionOverset''']] state. That is, the event fires when any region's [[apis/css-regions/Region/getRegionFlowRanges|collection of DOM Range fragments]] changes their dimensions or offsets.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
