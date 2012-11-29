@@ -1,5 +1,7 @@
 {{Page_Title|regionlayoutupdate event}}
-{{Flags}}
+{{Flags
+|Editorial notes=(Criteria under which event fires may change to less frequent regionOveset scenario noted here. The two scenarios may be re-spec'ed as two separate events.)
+}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Fires on the  [[css/cssom/NamedFlow|'''NamedFlow''']] object when there is a change in how content flows through a region chain.}}
