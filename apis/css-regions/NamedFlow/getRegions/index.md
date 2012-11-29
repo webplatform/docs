@@ -15,7 +15,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
-|Description=Remove first empty node from flow
+|Description=Remove the first empty node from a flow:
 |Code=var flow = document.getNamedFlows()['main'];
 var index = flow.firstEmptyRegionIndex;
 if (index !== -1) {
