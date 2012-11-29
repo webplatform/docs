@@ -38,7 +38,7 @@
 }}
 }}
 {{Notes_Section
-|Notes=Not to be confused with [[apis/css-regions/NamedFlow/overset]], which indicates whether the overall named flow features too few display regions.
+|Notes=Not to be confused with [[apis/css-regions/NamedFlow/overset|'''overset''']], which indicates whether the overall named flow features too few display regions.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
