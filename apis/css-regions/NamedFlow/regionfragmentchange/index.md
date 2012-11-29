@@ -36,7 +36,7 @@ function modifyFlow(e) {
 {{Notes_Section
 |Notes=The event may fire under either of the following scenarios:
 
-* Less frequently, when content flows into or out from a new region, and the number of filled regions changes. That is, when any region's [[apis/css-regions/Region/regionOverset|'''regionOverset''']] state changes.
+* Less frequently, when content flows in to fill a new region, flows out to leave one empty, or exceeds the last available region's dimensions. That is, when any region's [[apis/css-regions/Region/regionOverset|'''regionOverset''']] state changes.
 
 * More frequently, when content shifts in any way within the region chain, such as when linebreaks shift. That is, when any region's [[apis/css-regions/Region/getRegionFlowRanges|collection of DOM Range fragments]] changes their dimensions or offsets.
 }}
