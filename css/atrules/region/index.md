@@ -76,7 +76,7 @@ Use the [[css/cssom/CSSRegionStyleRule|'''CSSRegionStyleRule''']] interface to a
 * [[css/properties/box-decoration-break|'''box-decoration-break''']]
 * [[css/properties/width|'''width''']]
 
-See [[tutorials/css-regions|Using CSS Regions to flow content through a layout]] for an overview of CSS Regions.
+
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
