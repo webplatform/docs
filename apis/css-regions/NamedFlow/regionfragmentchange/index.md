@@ -25,10 +25,10 @@
 function modifyFlow(e) {
     var flow = e.target;
     if (flow.overset) {
-      	appendRegion(flow.name);
+      	appendRegion(flow.name); // custom function
     }
     else if (flow.firstEmptyRegionIndex !== -1)	{
-        trimRegions(flow.name);
+        trimRegions(flow.name); // custom function
     }
 }
 }}
