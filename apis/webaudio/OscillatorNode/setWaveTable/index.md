@@ -11,7 +11,6 @@
 }}
 |Method_applies_to=apis/webaudio/OscillatorNode
 |Example_object_name=OscillatorNode
-|Javascript_data_type=void
 }}
 {{Examples_Section
 |Not_required=Yes
