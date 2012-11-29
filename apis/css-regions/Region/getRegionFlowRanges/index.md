@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page_Title|Region.getRegionFlowRanges() method}}
 {{Flags
 |Editorial notes=references DOM Range API, for which there's no apparent doc available
 }}
@@ -114,7 +114,6 @@ Calling it on an element that is no longer a region (when its [[css/properties/f
 }}
 {{See_Also_Section
 |Topic_clusters=Regions
-|Manual_links=* [[tutorials/css-regions|Using CSS Regions to flow content through a layout]]
 |External_links=* [http://html.adobe.com/webstandards/cssregions Adobe Web Standards: CSS Regions]
 * [http://www.adobe.com/devnet/html5/articles/css3-regions.html CSS3 regions: Rich page layout with HTML and CSS3]
 * [http://adobe.github.com/web-platform/samples/css-regions Sample pages]
