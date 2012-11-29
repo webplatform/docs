@@ -34,7 +34,7 @@ function modifyFlow(e) {
 }}
 }}
 {{Notes_Section
-|Usage=Event fires when linebreaks shift in any way, even without changing the number of regions that are filled with content.
+|Usage=Event fires when linebreaks shift in any way within the region chain, even without changing the number of regions that are filled with content.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
