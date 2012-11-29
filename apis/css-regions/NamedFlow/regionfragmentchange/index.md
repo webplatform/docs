@@ -1,7 +1,5 @@
 {{Page_Title|regionlayoutupdate event}}
-{{Flags
-|Editorial notes=(Criteria under which event fires may change to less frequent regionOverset scenario noted here. The two scenarios may be re-spec'ed as two separate events.)
-}}
+{{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Fires on the  [[css/cssom/NamedFlow|'''NamedFlow''']] object when there is a change in how content flows through a region chain.}}
@@ -36,7 +34,11 @@ function modifyFlow(e) {
 }}
 }}
 {{Notes_Section
-|Notes=The event fires when linebreaks shift in any way within the region chain, even without changing the number of regions that are filled with content and changing any region's [[apis/css-regions/Region/regionOverset|'''regionOverset''']] state. That is, the event fires when any region's [[apis/css-regions/Region/getRegionFlowRanges|collection of DOM Range fragments]] changes their dimensions or offsets.
+|Notes=The event may fire under either of the following scenarios:
+
+* Less frequently, when content flows into or out of a new region, and the number of filled regions changes. That is, when any region's [[apis/css-regions/Region/regionOverset|'''regionOverset''']] state changes.
+
+* More frequently, when content shifts in any way within the region chain. That is, when any region's [[apis/css-regions/Region/getRegionFlowRanges|collection of DOM Range fragments]] changes their dimensions or offsets.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
