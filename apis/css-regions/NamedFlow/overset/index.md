@@ -36,7 +36,9 @@ function appendRegion(flowName) {
 appendRegion('mainFlow');
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Notes=Not to be confused with [[apis/css-regions/Region/regionOverset]], which indicates the overset state of individual regions.
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Regions Module Level 3
