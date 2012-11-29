@@ -1,5 +1,4 @@
 {{Page_Title|HTMLの基礎}}
-{{Languages}}
 {{Flags}}
 {{Byline}}
 {{Summary_Section|この記事では、HTML の基礎やその歴史、HTML 文書の構造について学べます。}}
@@ -142,7 +141,9 @@ Web ページを初めて作る人が犯しやすいミスのひとつに、ア�
 {{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
+|Sources=DevOpera
 |MDN_link=
 |MSDN_link=
 |HTML5Rocks_link=
 }}
+{{Languages}}
