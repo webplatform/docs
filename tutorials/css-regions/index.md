@@ -414,8 +414,8 @@ content sources, the more you should familiarize yourself with CSS3's
 [[tutorials/flexbox|flexible box properties]], which allow you to
 position layout elements fairly independently of how they are ordered
 within the DOM. Support for [[tutorials/exclusions|CSS Exclusions]]
-allows control over how content within some positioned layout elements
-flows around others. Also familiarize yourself with the [[apis/css-regions|API
+allows control over how content within some layout elements flows
+around others. Also familiarize yourself with the [[apis/css-regions|API
 interfaces]] that allow JavaScript applications to control how content
 flows.
 }}
