@@ -33,7 +33,9 @@ function modifyFlow(e) {
 }
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=Event fires when linebreaks shift in any way, even without changing the number of regions that are filled with content.
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Regions Module Level 3
