@@ -1,4 +1,4 @@
-{{Page_Title|flow-into property}}
+{{Page_Title|region-fragment property}}
 {{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
@@ -26,7 +26,7 @@ a fragment of content as if it were flowing into a subsequent region.
 }}
 {{Examples_Section
 |Not_required=Yes
-|Examples={{Single Example}}
+|Examples=
 }}
 {{Notes_Section
 |Usage=In the following example, ''region_1'' can accommodate the article's gray text, ''region_2'' can	accommodate the blue text, and the red	''overset'' text can't fit within the region chain:
