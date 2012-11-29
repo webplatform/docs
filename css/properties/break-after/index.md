@@ -23,13 +23,13 @@
 |Description=A page/column/region break is not allowed after the content block.
 }}{{CSS Property Value
 |Data Type=left
-|Description=A page break is inserted (forced) after the content block such that the flow of content continues in the first column of the "left" page that immediately follows the current page (according to the paging format of the document).
+|Description=A page break is inserted (forced) after the content block, causing the flow of content to continue in the first column of the "left" page that immediately follows the current page (according to the paging format of the document).
 }}{{CSS Property Value
 |Data Type=right
-|Description=A page break is inserted (forced) after the content block such that the flow of content continues in the first column of the "right" page that immediately follows the current page (according to the paging format of the document).
+|Description=A page break is inserted (forced) after the content block, causing the flow of content to continue in the first column of the "right" page that immediately follows the current page (according to the paging format of the document).
 }}{{CSS Property Value
 |Data Type=page
-|Description=A page break is inserted (forced) after the content block such that the flow of content continues in the first column of the page that immediately follows the current page (according to the paging format of the document).
+|Description=A page break is inserted (forced) after the content block, causing the flow of content to continue in the first column of the page that immediately follows the current page (according to the paging format of the document).
 }}{{CSS Property Value
 |Data Type=column
 |Description=A column break is inserted (forced) after the content block.
