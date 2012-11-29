@@ -15,7 +15,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
-|Description=Get last flow-into element that contributes to the flow:
+|Description=Get the last source element whose [[css/properties/flow-into|'''flow-into''']] adds it to the flow:
 |Code=// get flow:
 var flow = document.getNamedFlows()['main'];
 // get all flow-into elements:
