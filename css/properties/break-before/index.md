@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page_Title|break-before property}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
@@ -83,7 +83,6 @@ h2, h3 {
 }}
 {{See_Also_Section
 |Topic_clusters=Multi-Column, Regions
-|Manual_links=* [[tutorials/css-regions|Using CSS Regions to flow content through a layout]]
 |External_links=* [http://html.adobe.com/webstandards/cssregions Adobe Web Standards: CSS Regions]
 * [http://www.adobe.com/devnet/html5/articles/css3-regions.html CSS3 regions: Rich page layout with HTML and CSS3]
 * [http://adobe.github.com/web-platform/samples/css-regions Sample pages]
