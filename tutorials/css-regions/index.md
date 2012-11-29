@@ -481,11 +481,11 @@ flows.
 |Notes_rows={{Compatibility Notes Row
 |Browser=Internet Explorer
 |Version=8
-|Note=Supports [[css/properties/flow-into|'''flow-into''']] and [[css/properties/flow-from|'''flow-from''']] properties in Compatibility Mode 5.
+|Note=Supports only [[css/properties/flow-into|'''flow-into''']] and [[css/properties/flow-from|'''flow-from''']] properties in Compatibility Mode 5.
 }}{{Compatibility Notes Row
 |Browser=Internet Explorer
 |Version=10
-|Note=Supports [[css/properties/flow-into|'''flow-into''']] and [[css/properties/flow-from|'''flow-from''']] properties in Compatibility Mode 9.
+|Note=Supports only [[css/properties/flow-into|'''flow-into''']] and [[css/properties/flow-from|'''flow-from''']] properties in Compatibility Mode 9.
 }}
 }}
 {{See_Also_Section
