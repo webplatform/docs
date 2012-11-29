@@ -37,7 +37,7 @@ appendRegion('mainFlow');
 }}
 }}
 {{Notes_Section
-|Notes=Not to be confused with [[apis/css-regions/Region/regionOverset]], which indicates the overset state of individual regions.
+|Notes=Not to be confused with [[apis/css-regions/Region/regionOverset|'''regionOverset''']], which indicates the overset state of individual regions. Only the final region in a chain can be overset.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
