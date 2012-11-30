@@ -1,43 +1,59 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
+{{Summary_Section|Gets the secondary element that is involved in an event.}}
 {{API_Object_Property
 |Property_applies_to=dom/objects/MouseEvent
-|Read_only=
+|Read_only=Yes
+|Example_object_name=event
+|Return_value_name=relatedTargetElement
+|Javascript_data_type=DOM Node
+|Return_value_description=The secondary element that is involved in an event.
 }}
-{{Topics|DOM}}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
-The related element depends on the type of event:
-*In [[dom/events/mouseover|'''onmouseover''']] events, the related element is the element that the mouse pointer left.
-*In [[dom/events/mouseout|'''onmouseout''']] events, the related element is the element that the mouse pointer entered.
-*In [[dom/events/focusin|'''onfocusin''']] events, the related element is the element that lost focus.
-*In [[dom/events/focusout|'''onfocusout''']] events, the related element is the element that gained focus.
-
-|Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203756 Document Object Model (DOM) Level 3 Events Specification], Section 5.2.3
-
-
+|Usage=Use this property to determine the secondary element that is involved in the event.
+The secondary element depends on the type of event:
+*In [[dom/events/mouseover|'''mouseover''']] events, the secondary element is the element that the mouse pointer left.
+*In [[dom/events/mouseout|'''mouseout''']] events, the secondary element is the element that the mouse pointer entered.
+*In [[dom/events/focusin|'''focusin''']] events, the secondary element is the element that lost focus.
+*In [[dom/events/focusout|'''focusout''']] events, the secondary element is the element that gained focus.
+}}
+{{Related_Specifications_Section
+|Specifications={{Related Specification
+|Name=DOM Level 3 Events
+|URL=http://www.w3.org/TR/DOM-Level-3-Events/
+|Status=Working Draft
+|Relevant_changes=Section 5.2.3
+}}
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 *<code>[[dom/objects/DragEvent|DragEvent]]</code>
 *<code>[[dom/objects/FocusEvent|FocusEvent]]</code>
 *<code>[[dom/objects/MouseEvent|MouseEvent]]</code>
 *<code>[[dom/objects/MouseWheelEvent|MouseWheelEvent]]</code>
 *<code>[[dom/objects/WheelEvent|WheelEvent]]</code>
 }}
+{{Topics|DOM, DOMEvents}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
