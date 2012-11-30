@@ -1,28 +1,43 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
+{{Summary_Section|Gets additional, developer defined, information about an event.}}
 {{API_Object_Property
 |Property_applies_to=dom/objects/UIEvent
-|Read_only=
+|Read_only=Yes
+|Example_object_name=event
+|Return_value_name=eventDetails
+|Return_value_description=Developer defined information of any type.
 }}
-{{Topics|DOM}}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
-You can set the '''detail'''  property of  an  event  by using the  [[dom/methods/initUIEvent|'''initUIEvent''']] method. The standard UIevents do not set this value.
-|Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203756 Document Object Model (DOM) Level 3 Events Specification], Section 5.2.1
-
-
+|Usage=Use this property to get developer defined information about a developer generated event, if any. When part of user agent initiated [[dom/objects/UIEvent|UIEvents]], this property is never set.
+|Notes=You can set the '''detail'''  property of  an  event  by using the  [[dom/methods/initUIEvent|'''initUIEvent''']] method.
+}}
+{{Related_Specifications_Section
+|Specifications={{Related Specification
+|Name=DOM Level 3 Events
+|URL=http://www.w3.org/TR/DOM-Level-3-Events/
+|Status=Working Draft
+|Relevant_changes=Section 5.2.1
+}}
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 *<code>[[svg/objects/SVGZoom|SVGZoomEvent]]</code>
 *<code>[[dom/objects/CompositionEvent|CompositionEvent]]</code>
 *<code>[[dom/objects/DragEvent|DragEvent]]</code>
@@ -35,10 +50,11 @@ You can set the '''detail'''  property of  an  event  by using the  [[dom/method
 *<code>[[dom/objects/WheelEvent|WheelEvent]]</code>
 *<code>[[dom/objects/MSGestureEvent|MSGestureEvent]]</code>
 }}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
