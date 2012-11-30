@@ -83,6 +83,9 @@ Pseudo-classes, together with pseudo-elements, let you apply a style to an eleme
 } </syntaxhighlight>
   
 ==== List of pseudo-classes ====
+
+<subpages page="css/selectors/pseudo-classes" />
+
 {{Special:PrefixIndex/css/selectors/pseudo-classes/}}
 
 == Information: Selectors based on relationships ==
