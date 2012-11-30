@@ -11,7 +11,8 @@
 |Read_only=Yes
 |Example_object_name=event
 |Return_value_name=eventDetails
-|Return_value_description=Developer defined information of any type.
+|Javascript_data_type=Number
+|Return_value_description=The developer defined information.
 }}
 {{Examples_Section
 |Not_required=No
@@ -50,7 +51,7 @@
 *<code>[[dom/objects/WheelEvent|WheelEvent]]</code>
 *<code>[[dom/objects/MSGestureEvent|MSGestureEvent]]</code>
 }}
-{{Topics|DOM}}
+{{Topics|DOM, DOMEvents}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
