@@ -66,8 +66,7 @@ document.getNamedFlows()['main'].addEventListener('regionlayoutupdate', modifyFl
 |Safari_prefixed_version=534
 }}
 |Mobile_rows={{Compatibility Table Mobile Row
-|Android_supported=No
-|Android_version=
+|Android_supported=Yes
 |Android_prefixed_supported=No
 |Android_prefixed_version=
 |Blackberry_supported=No
