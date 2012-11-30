@@ -84,7 +84,9 @@ Pseudo-classes, together with pseudo-elements, let you apply a style to an eleme
   
 ==== List of pseudo-classes ====
 
+<div style="-webkit-column-count: 3; -moz-column-count: 3; -o-column-count: 3; column-count: 3; ">
 <subpages page="css/selectors/pseudo-classes" />
+</div>
 
 == Information: Selectors based on relationships ==
  
