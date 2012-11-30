@@ -10,7 +10,7 @@
 |Parameters={{Method Parameter
 |Name=eventType
 |Data type=String
-|Description=The name of the event. Sets the [[dom/properties/type (event)|'''type''']] property.
+|Description=The name of the event. Sets the value for the [[dom/properties/type (event)|'''type''']] property.
 |Optional=No
 }}{{Method Parameter
 |Name=canBubble
@@ -38,7 +38,8 @@ document.getElementById('target').dispatchEvent(evt);
 }}
 }}
 {{Notes_Section
-|Notes=You can call the '''initEvent'''  method only before the   [[dom/methods/dispatchEvent|'''dispatchEvent''']] method dispatches the event object. After the event is dispatched, its properties cannot be changed.
+|Usage=Use this method before the   [[dom/methods/dispatchEvent|'''dispatchEvent''']] method dispatches the event object, to set some properties of the event.
+|Notes=After the event is dispatched, its properties cannot be changed.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
