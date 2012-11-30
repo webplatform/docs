@@ -86,8 +86,6 @@ Pseudo-classes, together with pseudo-elements, let you apply a style to an eleme
 
 <subpages page="css/selectors/pseudo-classes" />
 
-{{Special:PrefixIndex/css/selectors/pseudo-classes/}}
-
 == Information: Selectors based on relationships ==
  
 CSS has some ways to select elements based on the relationships between elements. You can use these to make selectors that are more specific.
