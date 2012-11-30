@@ -1,34 +1,47 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
-{{API_Name}}
+{{Standardization_Status|W3C Working Draft}}
+{{API_Name|detail}}
+{{Summary_Section|Retrieves additional information about an event.}}
 {{API_Object_Property
 |Property_applies_to=dom/objects/CustomEvent
-|Read_only=
+|Read_only=Yes
+|Example_object_name=event
+|Return_value_name=eventDetails
+|Return_value_description=The content of this property is user-defined. It can be an integer, date, array, or other object type.
 }}
-{{Topics|DOM}}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
-After a custom event object is created, the [[dom/methods/initCustomEvent|'''initCustomEvent''']] method sets the '''detail'''   property. The content of '''detail''' is user-defined. It can be an integer, date, array, or other object type.
-|Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203756 Document Object Model (DOM) Level 3 Events Specification], Section 4.2
-
-
+|Usage=Use this property to retrieve additional information about this developer generated custom event. It may not include any information.
+|Notes=After a custom event object is created, use the [[dom/methods/initCustomEvent|'''initCustomEvent''']] method to sets the value of the this property.
 }}
-{{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
-*<code>[[dom/objects/CustomEvent|CustomEvent]]</code>
+{{Related_Specifications_Section
+|Specifications={{Related Specification
+|Name=DOM Level 3 Events
+|URL=http://www.w3.org/TR/DOM-Level-3-Events/
+|Status=Working Draft
+|Relevant_changes=Section 4.2
 }}
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section}}
+{{Topics|DOM, DOMEvents}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
