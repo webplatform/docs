@@ -42,12 +42,6 @@ The '''MouseEvent''' object has these properties.
 {{!}}[[dom/properties/altKey|'''altKey''']]
 {{!}}Gets a value that indicates whether the Alt key is pressed.
 {{!}}-
-{{!}}[[dom/properties/button|'''button''']]
-{{!}}Gets the mouse button that caused an event.
-{{!}}-
-{{!}}[[dom/properties/buttons|'''buttons''']]
-{{!}}Gets a value that indicates which mouse buttons  a user pressed.
-{{!}}-
 {{!}}[[dom/properties/ctrlKey|'''ctrlKey''']]
 {{!}}Gets a value that indicates whether the Ctrl key is pressed.
 {{!}}-
@@ -60,29 +54,8 @@ The '''MouseEvent''' object has these properties.
 {{!}}[[dom/properties/metaKey|'''metaKey''']]
 {{!}}Gets a value that indicates whether the Meta/Control key is pressed.
 {{!}}-
-{{!}}[[css/cssom/properties/offsetX|'''offsetX''']]
-{{!}}Gets the x-coordinate of the mouse pointer, relative to the target node.
-{{!}}-
-{{!}}[[css/cssom/properties/offsetY|'''offsetY''']]
-{{!}}Gets the y-coordinate of the mouse pointer, relative to the target node.
-{{!}}-
-{{!}}[[css/cssom/properties/pageX|'''pageX''']]
-{{!}}Gets the y-coordinate of the mouse pointer, relative to the upper-left corner of the page.
-{{!}}-
-{{!}}[[css/cssom/properties/pageY|'''pageY''']]
-{{!}}Gets the y-coordinate of the mouse pointer, relative to the upper-left corner of the page.
-{{!}}-
 {{!}}[[dom/properties/shiftKey|'''shiftKey''']]
 {{!}}Gets a value that indicates whether the Shift key is pressed.
-{{!}}-
-{{!}}[[dom/properties/which|'''which''']]
-{{!}}Gets which mouse button is pressed.
-{{!}}-
-{{!}}'''x'''
-{{!}}Gets the x-coordinate of the mouse pointer, relative to the last positioned ancestor element.
-{{!}}-
-{{!}}[[css/cssom/properties/y|'''y''']]
-{{!}}Gets the y-coordinate of the mouse pointer, relative to the last positioned ancestor element.
 {{!}}}
 }}
 {{Related_Specifications_Section
