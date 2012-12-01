@@ -11,15 +11,22 @@
 |Name=modifierKeyName
 |Data type=String
 |Description=One of the following values -
-'''Alt''' - The left or right Alt key. 
-'''AltGraph''' - The Ctrl and Alt keys.
-'''CapsLock''' - The Caps Lock toggle.
-'''Control''' - The left or right Ctrl key.
-'''Meta''' - The Meta/Control key.
-'''NumLock''' - The Num Lock toggle.
-'''Scroll''' - The Scroll Lock toggle.
-'''Shift''' - The left or right Shift key.
-'''Win''' - The left or right Windows logo key.
+*'''Alt''' - The left or right Alt key. 
+*'''AltGraph''' - The Ctrl and Alt keys.
+*'''CapsLock''' - The Caps Lock toggle.
+*'''Control''' - The left or right Ctrl key.
+*'''Meta''' - The Meta/Control key.
+*'''NumLock''' - The Num Lock toggle.
+*'''ScrollLock''' - The Scroll Lock toggle.
+*'''Shift''' - The left or right Shift key.
+*'''Fn'''
+*'''OS'''
+*'''SymbolLock'''
+
+Other implementation specific options may be supported.
+For example -
+*'''Win''' (on Microsoft Windows) - The left or right Windows logo key.
+*'''Scroll''' - The Scroll Lock toggle.
 |Optional=No
 }}
 |Method_applies_to=dom/objects/KeyboardEvent
