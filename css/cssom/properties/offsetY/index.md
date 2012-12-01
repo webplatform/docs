@@ -19,7 +19,7 @@
 |Examples={{Single Example
 |Language=HTML
 |Description=This example uses the '''offsetY''' property to determine the mouse position relative to the container that fired the event, and also displays the mouse coordinates in the console.
-|Code=&lt;!doctype htmk&gt;
+|Code=&lt;!doctype html&gt;
 &lt;html&gt;
  &lt;head&gt;
   &lt;style&gt;
