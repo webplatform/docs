@@ -41,7 +41,7 @@
 |Internet_explorer_prefixed_supported=Unknown
 |Internet_explorer_prefixed_version=
 |Opera_supported=Yes
-|Opera_version=10.5
+|Opera_version=10.50
 |Opera_prefixed_supported=Unknown
 |Opera_prefixed_version=
 |Safari_supported=Yes
@@ -252,16 +252,19 @@
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows={{Compatibility Notes Row
+|Browser=Chrome
+|Note=Google has announced that [http://blog.chromium.org/2011/01/html-video-codec-support-in-chrome.html H.264 support will be removed from Google Chrome] in the future.
+}}{{Compatibility Notes Row
 |Browser=Internet Explorer
 |Version=9+
 |Note=Beginning with Internet Explorer 9, any audio or video content needs  the correct mime type set on the server, or the files won't play. Internet Explorer 9 supports MP3 audio, and  MP4 audio and video. WebM audio and video files can be supported by installing the WebM components from [http://www.webmproject.org/ The WebM project].
 }}{{Compatibility Notes Row
-|Browser=Chrome
-|Note=Google has announced that [http://blog.chromium.org/2011/01/html-video-codec-support-in-chrome.html H.264 support will be removed from Google Chrome] in the future.
+|Browser=Safari
+|Note=Safari requires QuickTime to play video.
 }}{{Compatibility Notes Row
 |Browser=Android
 |Version=2.1 - 4.0
-|Note=requires specific handling to run the video element to suport Mpeg-4/H.264
+|Note=Requires specific handling to run the video element to suport MPEG-4/H.264
 }}
 }}
 {{See_Also_Section}}
