@@ -29,9 +29,6 @@ The '''MouseEvent''' object has these methods.
 {{!}}-
 {{!}}[[dom/methods/getModifierState|'''getModifierState''']]
 {{!}}Queries the state of the specified modifier key.
-{{!}}-
-{{!}}[[dom/methods/initMouseEvent|'''initMouseEvent''']]
-{{!}}Initializes a new mouse event that the  [[dom/methods/createEvent|'''createEvent''']] method created.
 {{!}}}
  
 
