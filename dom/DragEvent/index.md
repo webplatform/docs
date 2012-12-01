@@ -33,12 +33,6 @@ The '''DragEvent''' object has these methods.
 {{!}}-
 {{!}}[[dom/methods/getModifierState|'''getModifierState''']]
 {{!}}Queries the state of the specified modifier key.
-{{!}}-
-{{!}}[[dom/methods/initDragEvent|'''initDragEvent''']]
-{{!}}Initializes a new drag event.
-{{!}}-
-{{!}}[[dom/methods/initMouseEvent|'''initMouseEvent''']]
-{{!}}Initializes a new mouse event that the  [[dom/methods/createEvent|'''createEvent''']] method created.
 {{!}}}
  
 
@@ -52,26 +46,11 @@ The '''DragEvent''' object has these properties.
 {{!}}[[dom/properties/altKey|'''altKey''']]
 {{!}}Gets a value that indicates whether the Alt key is pressed.
 {{!}}-
-{{!}}[[dom/properties/button|'''button''']]
-{{!}}Gets the mouse button that caused an event.
-{{!}}-
-{{!}}[[dom/properties/buttons|'''buttons''']]
-{{!}}Gets a value that indicates which mouse buttons  a user pressed.
-{{!}}-
-{{!}}[[dom/properties/clientX|'''clientX''']]
-{{!}}Gets the x-coordinate of the mouse pointer, relative to the upper-left corner of the viewport (that is, the application's client area).
-{{!}}-
-{{!}}[[dom/properties/clientY|'''clientY''']]
-{{!}}Gets the y-coordinate of the mouse pointer, relative to the upper-left corner of the viewport (that is, the application's client area).
-{{!}}-
 {{!}}[[dom/properties/ctrlKey|'''ctrlKey''']]
 {{!}}Gets a value that indicates whether the Ctrl key is pressed.
 {{!}}-
 {{!}}[[dom/properties/dataTransfer|'''dataTransfer''']]
 {{!}}Retrieves the [[dom/objects/dataTransfer|'''dataTransfer''']] object associated with the event.
-{{!}}-
-{{!}}[[dom/properties/fromElement|'''fromElement''']]
-{{!}}Gets the object that the mouse pointer exited.
 {{!}}-
 {{!}}[[dom/properties/layerX|'''layerX''']]
 {{!}}Gets the x-coordinate of the mouse pointer, relative to the last positioned ancestor element.
@@ -82,41 +61,8 @@ The '''DragEvent''' object has these properties.
 {{!}}[[dom/properties/metaKey|'''metaKey''']]
 {{!}}Gets a value that indicates whether the Meta/Control key is pressed.
 {{!}}-
-{{!}}[[css/cssom/properties/offsetX|'''offsetX''']]
-{{!}}Gets the x-coordinate of the mouse pointer, relative to the target node.
-{{!}}-
-{{!}}[[css/cssom/properties/offsetY|'''offsetY''']]
-{{!}}Gets the y-coordinate of the mouse pointer, relative to the target node.
-{{!}}-
-{{!}}[[css/cssom/properties/pageX|'''pageX''']]
-{{!}}Gets the y-coordinate of the mouse pointer, relative to the upper-left corner of the page.
-{{!}}-
-{{!}}[[css/cssom/properties/pageY|'''pageY''']]
-{{!}}Gets the y-coordinate of the mouse pointer, relative to the upper-left corner of the page.
-{{!}}-
-{{!}}[[dom/properties/relatedTarget|'''relatedTarget''']]
-{{!}}Gets   the secondary element that is involved in an event.
-{{!}}-
-{{!}}[[dom/properties/screenX|'''screenX''']]
-{{!}}Gets the x-coordinate of the mouse pointer, relative to the  upper-left corner of the screen.
-{{!}}-
-{{!}}[[dom/properties/screenY|'''screenY''']]
-{{!}}Gets the y-coordinate of the mouse pointer, relative to the  upper-left corner of the screen.
-{{!}}-
 {{!}}[[dom/properties/shiftKey|'''shiftKey''']]
 {{!}}Gets a value that indicates whether the Shift key is pressed.
-{{!}}-
-{{!}}[[dom/properties/toElement|'''toElement''']]
-{{!}}Gets the object that the mouse pointer entered.
-{{!}}-
-{{!}}[[dom/properties/which|'''which''']]
-{{!}}Gets which mouse button is pressed.
-{{!}}-
-{{!}}'''x'''
-{{!}}Gets the x-coordinate of the mouse pointer, relative to the last positioned ancestor element.
-{{!}}-
-{{!}}[[css/cssom/properties/y|'''y''']]
-{{!}}Gets the y-coordinate of the mouse pointer, relative to the last positioned ancestor element.
 {{!}}}
 }}
 {{Related_Specifications_Section
@@ -132,7 +78,6 @@ The '''DragEvent''' object has these properties.
 {{See_Also_Section
 |Manual_sections====Related pages (MSDN)===
 *<code>Reference</code>
-*<code>[[dom/methods/initDragEvent|initDragEvent]]</code>
 *<code>[[dom/events/drag|ondrag]]</code>
 *<code>[[dom/events/dragend|ondragend]]</code>
 *<code>[[dom/events/dragenter|ondragenter]]</code>
