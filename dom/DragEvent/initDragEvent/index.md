@@ -5,87 +5,87 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Initializes a new drag event.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=eventType
 |Data type=String
-|Description=One of the following, or a user-defined custom event type.
+|Description=The name of the event. Sets the value for the [[dom/properties/type (event)|'''type''']] property.
 |Optional=No
 }}{{Method Parameter
 |Name=canBubble
 |Data type=Boolean
-|Description=Whether the event should propagate upward.
+|Description=Whether the event propagates upward. Sets the value for the [[dom/properties/bubbles|bubbles]] property.
 |Optional=No
 }}{{Method Parameter
 |Name=cancelable
 |Data type=String
-|Description=Whether the default action can be canceled.
+|Description=Whether the event is cancelable and so [[dom/methods/preventDefault|preventDefault]] can be called. Sets the value for the [[dom/properties/cancelable|cancelable]] property.
 |Optional=No
 }}{{Method Parameter
-|Name=viewArg
+|Name=view
 |Data type=DOM Node
-|Description=A '''window''' object.
+|Description=The window on which this event is occurring.  Sets the value for the [[dom/properties/view|view]] property.
 |Optional=No
 }}{{Method Parameter
-|Name=detailArg
+|Name=detail
 |Data type=Number
-|Description=Additional information. This value is returned in the [[dom/properties/detail|'''detail''']] attribute of the event.
+|Description=Specifies additional information. This value is returned in the [[dom/properties/detail|'''detail''']] property  of the event.
 |Optional=No
 }}{{Method Parameter
-|Name=screenXArg
+|Name=screenX
 |Data type=Number
-|Description=The x-coordinate of the mouse pointer relative to the upper-left corner of the screen. This value is returned in the [[dom/properties/screenX|'''screenX''']] attribute of the event.
+|Description=The x-coordinate of the mouse pointer, relative to the  upper-left corner of the screen. This value is returned in the [[dom/properties/screenX|'''screenX''']] property of the event.
 |Optional=No
 }}{{Method Parameter
-|Name=screenYArg
+|Name=screenY
 |Data type=Number
-|Description=The y-coordinate of the mouse pointer relative to the upper-left corner of the screen. This value is returned in the [[dom/properties/screenY|'''screenY''']] attribute of the event.
+|Description=The y-coordinate of the mouse pointer, relative to the  upper-left corner of the screen. This value is returned in the [[dom/properties/screenY|'''screenY''']] property of the event.
 |Optional=No
 }}{{Method Parameter
-|Name=clientXArg
-|Data type=String
-|Description=The x-coordinate of the mouse pointer relative to the upper-left corner of the browser's client area. This value is returned in the [[dom/properties/clientX|'''clientX''']] attribute of the event.
-|Optional=No
-}}{{Method Parameter
-|Name=clientYArg
+|Name=clientX
 |Data type=Number
-|Description=The y-coordinate of the mouse pointer relative to the upper-left corner of the browser's client area. This value is returned in the [[dom/properties/clientY|'''clientY''']] attribute of the event.
+|Description=The x-coordinate of the mouse pointer, relative to the  upper-left corner of the browser's client area. This value is returned in the [[dom/properties/clientX|'''clientX''']] property of the event.
 |Optional=No
 }}{{Method Parameter
-|Name=ctrlKeyArg
+|Name=clientY
+|Data type=Number
+|Description=The y-coordinate of the mouse pointer, relative to the  upper-left corner of the browser's client area. This value is returned in the [[dom/properties/clientY|'''clientY''']] property of the event.
+|Optional=No
+}}{{Method Parameter
+|Name=ctrlKey
 |Data type=Boolean
-|Description=The value that is returned in the [[dom/properties/ctrlKey|'''ctrlKey''']] attribute of the event.
+|Description=The value that is returned in the [[dom/properties/ctrlKey|'''ctrlKey''']] property of the event.
 |Optional=No
 }}{{Method Parameter
-|Name=altKeyArg
+|Name=altKey
 |Data type=Boolean
-|Description=The value that is returned in the [[dom/properties/altKey|'''altKey''']] attribute of the event.
+|Description=The value that is returned in the [[dom/properties/altKey|'''altKey''']] property of the event.
 |Optional=No
 }}{{Method Parameter
-|Name=shiftKeyArg
+|Name=shiftKey
 |Data type=Boolean
-|Description=The value that is returned in the [[dom/properties/shiftKey|'''shiftKey''']] attribute of the event.
+|Description=The value that is returned in the [[dom/properties/shiftKey|'''shiftKey''']] property of the event.
 |Optional=No
 }}{{Method Parameter
-|Name=metaKeyArg
+|Name=metaKey
 |Data type=Boolean
-|Description=The value that is returned in the [[dom/properties/metaKey|'''metaKey''']] attribute of the event.
+|Description=The value that is returned in the [[dom/properties/metaKey|'''metaKey''']] property of the event.
 |Optional=No
 }}{{Method Parameter
-|Name=buttonArg
+|Name=button
 |Data type=Number
-|Description=The mouse button that caused the event. This value is returned in the [[dom/properties/button|'''button''']] attribute of the event.
+|Description=The mouse button that caused the event. This value is returned in the [[dom/properties/button|'''button''']] property of the event.
 |Optional=No
 }}{{Method Parameter
-|Name=relatedTargetArg
+|Name=relatedTarget
 |Data type=DOM Node
-|Description='''relatedTarget'''
+|Description=A secondary element that is involved in the event. This value is returned in the [[dom/properties/relatedTarget|'''relatedTarget''']] property of the event.
 |Optional=No
 }}{{Method Parameter
-|Name=dataTransferArg
+|Name=dataTransfer
 |Data type=String
-|Description='''dataTransfer'''
+|Description=A [[dom/objects/dataTransfer|dataTransfer]] object.
 |Optional=No
 }}
 |Method_applies_to=dom/objects/DragEvent
@@ -107,6 +107,7 @@
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
