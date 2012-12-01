@@ -20,7 +20,17 @@
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=WHATWG HTML
+|URL=http://www.whatwg.org/specs/web-apps/current-work/multipage
+|Status=Living Standard
+|Relevant_changes=Section 7.7
+}}{{Related Specification
+|Name=W3C HTML5
+|URL=http://www.w3.org/TR/html5/
+|Status=Working Draft
+|Relevant_changes=Section 7.7
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -29,10 +39,7 @@
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[dom/objects/dataTransfer|dataTransfer]]</code>
-}}
+{{See_Also_Section}}
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
