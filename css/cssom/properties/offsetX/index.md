@@ -16,10 +16,48 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Description=This example uses the '''offsetX''' property to determine the mouse position relative to the container that fired the event, and also displays the mouse coordinates in the console.
+|Code=&lt;!doctype htmk&gt;
+&lt;html&gt;
+ &lt;head&gt;
+  &lt;style&gt;
+#div {
+  position:absolute;
+  top:200px;
+  left:300px;
+}
+  &lt;/style&gt;
+  &lt;script&gt;
+function offsetCoords(e) {
+  var offsetInfo = ""
+  offsetInfo = "The x coordinate is: " + e.offsetX + "\n"
+  offsetInfo += "The y coordinate is: " + e.offsetY + "\r"
+  console.log(offsetInfo);
+}
+function logCoords(e) {
+  console.log("X = " + e.offsetX + " Y = " + e.offsetY);
+}
+function initialize() {
+  document.body.addEventListener("mousemove", logCoords, false);
+  document.body.addEventListener("click", offsetCoords, false);
+  document.getElementById("div").addEventListener("click", offsetCoords, false);
+}
+window.addEventListener("load", initialize, false);
+  &lt;/script&gt;
+ &lt;/head&gt;
+ &lt;body&gt;
+  &lt;div id="div"&gt;
+  &lt;/div&gt;
+ &lt;/body&gt;
+&lt;/html&gt;
+}}
 }}
 {{Notes_Section
 |Notes=Offset coordinates include the padding of an element, but not its margin or border.
+|Import_Notes={{TODO|Check that this is correct.}}
+The coordinates match the [[dom/properties/offsetLeft|'''offsetLeft''']] and [[dom/properties/offsetTop|'''offsetTop''']] properties of the object. Use [[dom/properties/offsetParent|'''offsetParent''']] to find the container object that defines this coordinate system.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
