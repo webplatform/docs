@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name|y}}
-{{Summary_Section|Use [[dom/properties/screenY|screenY]] or [[dom/properties/clientY|clientY]] instead. Gets the y-coordinate of the mouse pointer, relative to the last positioned ancestor element.}}
+{{Summary_Section|Gets the y-coordinate of the mouse pointer, relative to the last positioned ancestor element.}}
 {{API_Object_Property
 |Property_applies_to=dom/objects/MouseEvent
 |Read_only=No
@@ -43,7 +43,7 @@ If the mouse or finger is outside the window at the time the event fires, this p
 |Notes_rows={{Compatibility Notes Row
 |Browser=Internet Explorer
 |Version=Earlier than 5
-|Note=This property is read only. This property retrieves a coordinate relative to the client
+|Note=This property is read only. This property retrieves a coordinate relative to the client.
 }}
 }}
 {{See_Also_Section}}
