@@ -1,28 +1,44 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
+{{Summary_Section|Gets the y-coordinate of the mouse cursor, relative to the target node.}}
 {{API_Object_Property
-|Property_applies_to=
-|Read_only=
+|Property_applies_to=dom/objects/MouseEvent
+|Read_only=Yes
+|Example_object_name=event
+|Return_value_name=yCoordinate
+|Javascript_data_type=Number
+|Return_value_description=The Y coordinate of the mouse cursor.
 }}
-{{Topics|DOM}}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
-Offset coordinates include the padding of an element, but not its margin or border.
-|Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}199793 CSSOM View Module]
-
-
+|Notes=Offset coordinates include the padding of an element, but not its margin or border.
+}}
+{{Related_Specifications_Section
+|Specifications={{Related Specification
+|Name=CSSOM View
+|URL=http://www.w3.org/TR/cssom-view/
+|Status=Working Draft
+|Relevant_changes=Section 9
+}}
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Topic_clusters=CSSOM
+|Manual_sections====Related pages (MSDN)===
 *<code>[[dom/objects/DragEvent|DragEvent]]</code>
 *<code>[[dom/objects/MouseEvent|MouseEvent]]</code>
 *<code>[[dom/objects/MouseWheelEvent|MouseWheelEvent]]</code>
@@ -32,12 +48,12 @@ Offset coordinates include the padding of an element, but not its margin or bord
 *<code>[[css/cssom/properties/pageY|pageY]]</code>
 *<code>[[dom/properties/screenY|screenY]]</code>
 *<code>[[css/cssom/properties/y|y]]</code>
-|Topic_clusters=CSSOM
 }}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
