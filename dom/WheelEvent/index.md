@@ -29,9 +29,6 @@ The '''WheelEvent''' object has these methods.
 {{!}}-
 {{!}}[[dom/methods/getModifierState|'''getModifierState''']]
 {{!}}Queries the state of the specified modifier key.
-{{!}}-
-{{!}}[[dom/methods/initWheelEvent|'''initWheelEvent''']]
-{{!}}Initializes a new mouse wheel event that the  [[dom/methods/createEvent|'''createEvent''']] method created.
 {{!}}}
  
 
@@ -53,18 +50,6 @@ The '''WheelEvent''' object has these properties.
 {{!}}-
 {{!}}[[dom/properties/ctrlKey|'''ctrlKey''']]
 {{!}}Gets a value that indicates whether the Ctrl key is pressed.
-{{!}}-
-{{!}}[[dom/properties/deltaMode|'''deltaMode''']]
-{{!}}Gets a value that indicates the unit of measurement for delta values.
-{{!}}-
-{{!}}[[dom/properties/deltaX|'''deltaX''']]
-{{!}}Gets the distance  that a mouse wheel has rotated around the x-axis (horizontal).
-{{!}}-
-{{!}}[[dom/properties/deltaY|'''deltaY''']]
-{{!}}Gets the distance  that a mouse wheel has rotated around the y-axis (vertical).
-{{!}}-
-{{!}}[[dom/properties/deltaZ|'''deltaZ''']]
-{{!}}Gets the distance  that a mouse wheel has rotated around the z-axis.
 {{!}}-
 {{!}}[[dom/properties/layerX|'''layerX''']]
 {{!}}Gets the x-coordinate of the mouse pointer, relative to the last positioned ancestor element.
