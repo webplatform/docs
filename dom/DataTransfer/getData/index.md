@@ -1,88 +1,93 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
+{{Summary_Section|Gets the data in the specified format from the clipboard through the '''dataTransfer''' object or the [[dom/clipboardData|'''clipboardData''']] object.}}
 {{API_Object_Method
-|Parameters={{Method Parameter|Name=format|Data type=BSTR|Description=A '''String''' that specifies one of the following data format values.|Optional=}}
-|Method_applies_to=dom/properties/dataTransfer
-|Example_object_name=object
-|Return_value_name=object
-|Javascript_data_type=DOM Node
-|Return_value_description=Variant
-
-'''Variant''' of type '''String'''. Returns the data in the format retrieved from the clipboard through the [[dom/objects/dataTransfer|'''dataTransfer''']] object or the [[dom/clipboardData|'''clipboardData''']] object. Depending on the information contained in [[dom/methods/setData|'''setData''']], this variable can get a path to an image, text, or an anchor URL.
-
-
+|Parameters={{Method Parameter
+|Name=format
+|Data type=String
+|Description=The format of the data to be transferred, using one of the following values (case insensitve) -
+*'''URL'''
+*'''Text'''
+|Optional=No
 }}
-{{Topics|DOM}}
+|Method_applies_to=dom/objects/dataTransfer
+|Example_object_name=event.dataTransfer
+|Return_value_name=eventData
+|Javascript_data_type=String
+|Return_value_description=Returns the data in the format retrieved from the clipboard/drag and drop operation through the [[dom/objects/dataTransfer|'''dataTransfer''']] object or the [[dom/clipboardData|'''clipboardData''']] object. Depending on the information contained in [[dom/methods/setData|'''setData''']], this variable can get a path to an image, text, or an anchor URL.
+}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
-|Description=The following examples use the [[dom/methods/setData|'''setData''']] method and the '''getData''' method of the [[dom/objects/dataTransfer|'''dataTransfer''']] object to drop text in a new location and create a desktop shortcut.
-
-This example uses the '''getData''' method to drag text and drop it in a new location.
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/getDataEX.htm
-|Code=
-&lt;HEAD&gt;
-&lt;SCRIPT&gt;
-function InitiateDrag(){
-  event.dataTransfer.setData(oSource.innerText);
+|Examples={{Single Example
+|Language=HTML
+|Description=This example uses the '''getData''' method and the [[dom/methods/setData|'''setData''']] method with the [[dom/objects/dataTransfer|'''dataTransfer''']] object to create a shortcut to an image.
+|Code=&lt;!doctype html&gt;
+&lt;html&gt;
+ &lt;head&gt;
+  &lt;script&gt;
+var sImageURL, oTarget, oImage;
+function initiateDrag(e) {
+/*  The setData parameters tell the source object
+   to transfer data as a URL and provide the path.  */
+  e.dataTransfer.setData("URL", oImage.src);
 }
-function FinishDrag(){
-  window.event.returnValue{{=}}false;
-  oTarget.innerText {{=}} event.dataTransfer.getData("Text");
+function finishDrag(e) {
+/*  The parameter passed to getData tells the target
+    object what data format to expect.  */
+  sImageURL = e.dataTransfer.getData("URL");
+  oTarget.textContent = sImageURL;
 }
-function OverDrag(){
-  window.event.returnValue{{=}}false;
+function initialize() {
+ oImage = document.getElementById("oImage");
+ oTarget = document.getElementbyId("oTarget");
+ oImage.addEventListener("dragstart", initiateDrag, false);
+ oTarget.addEventListener("dragenter", finishDrag, false);
 }
-&lt;/SCRIPT&gt;
-&lt;/HEAD&gt;
-&lt;BODY&gt;
-&lt;B ID{{=}}"oSource"
-   ondragstart{{=}}"InitiateDrag()"&gt;
-drag this text&lt;/B&gt;
-&lt;SPAN ID{{=}}"oTarget"
-   ondragover{{=}}"OverDrag()"
-   ondragenter{{=}}"FinishDrag()""&gt;
-drop text here&lt;/SPAN&gt;
-&lt;/BODY&gt;
+window.addEventListener("load", initialize, false);
+  &lt;/script&gt;
+ &lt;/head&gt;
+ &lt;body&gt;
+  &lt;p&gt;This example demonstrates how to use the setData and getData methods of the dataTransfer object to enable the source path of the image to be dragged.&lt;/p&gt;
+  &lt;img id{{=}}"oImage" src{{=}}"/workshop/graphics/black.png" width="20" height="20" alt="Black"&gt;
+  &lt;span id{{=}}"oTarget"&gt;
+    Drop the image here
+  &lt;/span&gt;
+ &lt;/body&gt;
+&lt;/html&gt;
+|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/setDataEX.htm
 }}
-{{Single_Example
-|Description=This example uses the '''getData''' method to create a desktop shortcut using a drag-and-drop operation.
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/obj_dataTransferEX.htm
-|Code=
-&lt;HEAD&gt;
-&lt;SCRIPT&gt;
-function InitiateDrag(){   
-  event.dataTransfer.setData("URL", oSource.href);
-}
-function FinishDrag(){
-  oTarget.innerText {{=}} event.dataTransfer.getData("URL");
-}
-&lt;/SCRIPT&gt;
-&lt;/HEAD&gt;
-&lt;BODY&gt;
-&lt;A ID{{=}}oSource HREF{{=}}"about:Example_Complete" 
-   onclick{{=}}"return(false)" ondragstart{{=}}"InitiateDrag()"&gt;Test Anchor&lt;/A&gt;
-&lt;SPAN ID{{=}}oTarget ondrop{{=}}"FinishDrag()"&gt;Drop Here&lt;/SPAN&gt;
-&lt;/BODY&gt;
-}}}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
-The '''getData''' method enforces cross-frame security and allows data transfers only in the same domain. To the user, this means that a selection that is dragged between different security protocols, such as HTTP and HTTPS, fails. In addition, that a selection that is dragged between two instances of the application with different security levels, where the first instance is set to medium and the second is set to high, fails. Finally, that a selection that is dragged into the application from another drag-enabled application, such as Microsoft Word, also fails.
-To use the '''getData''' method to get data from the clipboard in the '''oncopy''' event or the [[dom/events/cut|'''oncut''']] event, specify '''window.event.returnValue{{=}}false''' in the event handler script.
-|Import_Notes=
-===Syntax===
-===Standards information===
-There are no standards that apply here.
-
+|Notes=*The '''getData''' method enforces cross-frame security and allows data transfers only in the same domain. To the user, this means that a selection that is dragged between different security protocols, such as HTTP and HTTPS, fails. In addition, that a selection that is dragged between two instances of the application with different security levels, where the first instance is set to medium and the second is set to high, fails. Finally, that a selection that is dragged into the application from another drag-enabled application, such as Microsoft Word, also fails.
+*To use the '''getData''' method to get data from the clipboard in the '''oncopy''' event or the [[dom/events/cut|'''oncut''']] event, you must call [[dom/methods/preventDefault|<code>event.preventDefault()]] in the event handler script.
+}}
+{{Related_Specifications_Section
+|Specifications={{Related Specification
+|Name=W3C HTML5
+|URL=http://www.w3.org/TR/html5/
+|Status=Working Draft
+|Relevant_changes=Section 7.7
+}}{{Related Specification
+|Name=WHATWG HTML
+|URL=http://www.whatwg.org/specs/web-apps/current-work/multipage
+|Status=Living Standard
+|Relevant_changes=Section 7.7
+}}
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 *<code>[[dom/clipboardData|clipboardData]]</code>
 *<code>[[dom/objects/dataTransfer|dataTransfer]]</code>
 *<code>Reference</code>
@@ -91,10 +96,11 @@ There are no standards that apply here.
 *<code>Conceptual</code>
 *<code>About DHTML Data Transfer</code>
 }}
+{{Topics|DOM, DOMEvents}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
