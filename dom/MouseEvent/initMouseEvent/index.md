@@ -28,7 +28,7 @@
 |Description=The window on which this event is occurring.  Sets the value for the [[dom/properties/view|view]] property.
 |Optional=No
 }}{{Method Parameter
-|Name=detailArg
+|Name=detail
 |Data type=Number
 |Description=Specifies additional information. This value is returned in the [[dom/properties/detail|'''detail''']] property  of the event.
 |Optional=No
@@ -38,7 +38,7 @@
 |Description=The x-coordinate of the mouse pointer, relative to the  upper-left corner of the screen. This value is returned in the [[dom/properties/screenX|'''screenX''']] property of the event.
 |Optional=No
 }}{{Method Parameter
-|Name=screenYArg
+|Name=screenY
 |Data type=Number
 |Description=The y-coordinate of the mouse pointer, relative to the  upper-left corner of the screen. This value is returned in the [[dom/properties/screenY|'''screenY''']] property of the event.
 |Optional=No
@@ -55,17 +55,17 @@
 }}{{Method Parameter
 |Name=ctrlKey
 |Data type=Boolean
-|Description=The value that is returned in the [[dom/properties/ctrlKey|'''ctrlKey''']]  property of the event.
+|Description=The value that is returned in the [[dom/properties/ctrlKey|'''ctrlKey''']] property of the event.
 |Optional=No
 }}{{Method Parameter
 |Name=altKey
 |Data type=Boolean
-|Description=The value that is returned in the [[dom/properties/altKey|'''altKey''']]  property of the event.
+|Description=The value that is returned in the [[dom/properties/altKey|'''altKey''']] property of the event.
 |Optional=No
 }}{{Method Parameter
 |Name=shiftKey
 |Data type=Boolean
-|Description=The value that is returned in the [[dom/properties/shiftKey|'''shiftKey''']]  property of the event.
+|Description=The value that is returned in the [[dom/properties/shiftKey|'''shiftKey''']] property of the event.
 |Optional=No
 }}{{Method Parameter
 |Name=metaKey
