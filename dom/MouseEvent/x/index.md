@@ -3,9 +3,9 @@
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|Non-Standard}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name|x}}
-{{Summary_Section|Non standard. Use [[dom/properties/screenX|screenX]] or [[dom/properties/clientX|clientX]] instead. Gets the x-coordinate of the mouse cursor, relative to the last positioned ancestor element.}}
+{{Summary_Section|Use [[dom/properties/screenX|screenX]] or [[dom/properties/clientX|clientX]] instead. Gets the x-coordinate of the mouse cursor, relative to the last positioned ancestor element.}}
 {{API_Object_Property
 |Property_applies_to=dom/objects/MouseEvent
 |Read_only=No
@@ -28,7 +28,12 @@ The '''x''' property returns a coordinate relative to the '''body''' element.
 If the mouse or finger is outside the window when the event is called, this property returns <code>-1</code>.
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSSOM View
+|URL=http://www.w3.org/TR/cssom-view/
+|Status=Working Draft
+|Relevant_changes=Section 9
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
