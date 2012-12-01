@@ -4,7 +4,7 @@
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status|Non-Standard}}
-{{API_Name}}
+{{API_Name|x}}
 {{Summary_Section|Non standard. Use [[dom/properties/screenX|screenX]] or [[dom/properties/clientX|clientX]] instead. Gets the x-coordinate of the mouse cursor, relative to the last positioned ancestor element.}}
 {{API_Object_Property
 |Property_applies_to=dom/objects/MouseEvent
