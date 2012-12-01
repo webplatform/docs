@@ -5,10 +5,10 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name|x}}
-{{Summary_Section|Use [[dom/properties/screenX|screenX]] or [[dom/properties/clientX|clientX]] instead. Gets the x-coordinate of the mouse cursor, relative to the last positioned ancestor element.}}
+{{Summary_Section|Gets the x-coordinate of the mouse cursor, relative to the last positioned ancestor element.}}
 {{API_Object_Property
 |Property_applies_to=dom/objects/MouseEvent
-|Read_only=No
+|Read_only=Yes
 |Example_object_name=event
 |Return_value_name=xCoordinate
 |Javascript_data_type=Number
@@ -43,7 +43,7 @@ If the mouse or finger is outside the window when the event is called, this prop
 |Notes_rows={{Compatibility Notes Row
 |Browser=Internet Explorer
 |Version=Earlier than 5
-|Note=This property is read only. This property retrieves a coordinate relative to the client
+|Note=This property is read only. This property retrieves a coordinate relative to the client.
 }}
 }}
 {{See_Also_Section}}
