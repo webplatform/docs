@@ -9,7 +9,23 @@
 {{API_Object}}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=This examples uses [[dom/methods/addEventListener|addEventListener]] to listen to the [[dom/events/load|load]] event in order to change the title of the page to indicate that the page is done loading. It uses [[dom/properties/isTrusted|isTrusted]] to make sure the event was triggered by the user agent itself and not by some script.
+|Code=function initialize(e) {
+  if (e.isTrusted) {
+    document.title = "The page is done loading.";
+  }
+}
+window.addEventListener("load", initialize, false);
+}}{{Single Example
+|Language=JavaScript
+|Description=This examples uses [[dom/methods/addEventListener|addEventListener]] to listen to the [[dom/events/keydown|keydown]] event and suppress key down operations using the [[dom/methods/preventDefault|preventDefault]] method of the Event instance object. This causes any key presses that occurs within text fields not to emit text into the fields.
+|Code=function suppressPresses(e) {
+  e.preventDefault();
+}
+document.addEventListener("keydown", suppressPresses, false);
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
