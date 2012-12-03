@@ -1,6 +1,6 @@
 {{Page_Title|Web accessibility basics}}
 {{Flags}}
-{{Summary_Section|Accessibility is the best practice of making your web content and services accessible to as many different web users as possible, regardless of any disabilities they may have (visual, auditory, mobility or cognitive), geographical location, device and browser used to browse the Web, etc. This is a vital consideration that should be a standard part of your day to day workflow.}}
+{{Summary_Section|Accessibility is making the Web work for people with a diverse range of abilities. Accessibility is essential for developers and organizations that want to create high quality websites and web tools, and not exclude people from using their products and services. Accessibility is vital to enable people with disabilities to participate equally on the Web. It is a legal requirement in some cases, and a best practice in all cases.}}
 {{Basic Page}}
 <p>This page provides an overview of web accessibility and links to resources for more information. We suggest that you read through this whole page first, then go back and follow the links to learn more.</p>
 
@@ -120,7 +120,7 @@ The W3C Web Accessibility Initiative (WAI) brings together people from industry,
 {{Notes_Section
 |Notes=There should be an explanation of what ARIA *is* which is not clear from this page nor the link.  Even to a professional web developer.  Wikpedia article ([http://en.wikipedia.org/wiki/WAI-ARIA WAI-ARIA]) was much clearer and better written as an introduction.
 }}
-{{Topics|Accessibility}}
+{{Topics|Accessibility, ARIA, Design, UI, Usability}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
