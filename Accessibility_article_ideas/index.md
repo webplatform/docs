@@ -2,7 +2,13 @@
 {{Flags}}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Accessibility is the best practice of making your web content and services accessible to as many different web users as possible, regardless of any disabilities they may have (visual, auditory, mobility or cognitive), geographical location, device and browser used to browse the Web, etc. This is a vital consideration that should be a standard part of your day to day workflow.}}
+{{Summary_Section|Accessibility is making the Web work for people with a diverse range of abilities. Accessibility is essential for developers and organizations that want to create high quality websites and web tools, and not exclude people from using their products and services. Accessibility is vital to enable people with disabilities to participate equally on the Web. It is a legal requirement in some cases, and a best practice in all cases.}}
+{{API_Listing
+|Query=[[Category:Accessibility]]
+|Use_page_title=No
+|List_all_subpages=No
+}}
+{{Notes_Section}}
 {{See_Also_Section}}
 {{Topics|Accessibility}}
 {{External_Attribution
@@ -15,9 +21,7 @@
 
 ==Article stubs==
 
-{{API_Listing
-|Query=[[Category:Accessibility]]
-}}
+
 
 ==Existing articles==
 
