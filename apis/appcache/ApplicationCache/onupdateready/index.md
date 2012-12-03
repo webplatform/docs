@@ -31,6 +31,7 @@ where e is the cached event.
 |Not_required=No
 |Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
+|Feature=Offline web applications
 |Chrome_supported=Yes
 |Chrome_version=22.0
 |Chrome_prefixed_supported=Unknown
@@ -53,6 +54,7 @@ where e is the cached event.
 |Safari_prefixed_version=
 }}
 |Mobile_rows={{Compatibility Table Mobile Row
+|Feature=Offline web applications
 |Android_supported=Yes
 |Android_version=2.1
 |Android_prefixed_supported=Unknown
