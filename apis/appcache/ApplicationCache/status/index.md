@@ -1,7 +1,5 @@
 {{Page_Title}}
-{{Flags
-|Content=Compatibility Incomplete
-}}
+{{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Returns the current status of the application cache, as given by the constants defined below.}}
@@ -22,10 +20,7 @@
 |Not_required=Yes
 |Examples=
 }}
-{{Notes_Section
-|Notes=
-
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=W3C ApplicationCache Specification
