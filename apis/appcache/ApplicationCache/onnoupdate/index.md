@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|The manifest has not changed.}}
+{{Summary_Section|Indicates the manifest has not changed.}}
 {{API_Object_Property
 |Property_applies_to=apis/appcache/ApplicationCache
 |Read_only=No
