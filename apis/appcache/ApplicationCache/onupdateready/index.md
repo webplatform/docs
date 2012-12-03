@@ -14,7 +14,7 @@
 |Examples=
 }}
 {{Notes_Section
-|Notes=If this event indicates that the resources have been redownloaded,  the script can use [[apis/appcache/ApplicationCache/swapCache|'''swapCache''']] to switch to the new cache.
+|Notes=If this event indicates that the resources have been redownloaded,  the script can use [[apis/appcache/ApplicationCache/swapCache|swapCache]] to switch to the new cache.
 If there is more than one event, the '''updateready''' event will be the last one in the sequence.
 Alternatively, you could use an anonymous delegate function such as
  <code>object.onupdateready {{=}} function (e) { … }</code>
