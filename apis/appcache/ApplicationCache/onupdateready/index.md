@@ -21,7 +21,11 @@ Alternatively, you could use an anonymous delegate function such as
 where e is the cached event.
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=W3C ApplicationCache Specification
+|URL=http://dev.w3.org/html5/spec/single-page.html#application-cache-api
+|Status=W3C Editor's Draft
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
