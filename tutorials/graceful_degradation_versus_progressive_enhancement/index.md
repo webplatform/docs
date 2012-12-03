@@ -132,7 +132,7 @@ This will work for every user regardless of technical environment. We never prom
  
 I might be an idealist but I really dislike the idea of graceful degradation. By building something and then making it barely work in other environments (or asking users to upgrade) I make a lot of assumptions about both the environment and the ability of the users to upgrade.
  
-I find myself using a Blackberry when this laptop cannot find a wireless network and get very frustrated when web products tell me they need JavaScript enabled and I should turn it on. I can’t, and surely I’m an eligible user of your products — especially when I pay a lot of money for GPS or EDGE access to your services.
+I find myself using a Blackberry when this laptop cannot find a wireless network and get very frustrated when web products tell me they need JavaScript enabled and I should turn it on. I can’t, and surely I’m an eligible user of your products — especially when I pay a lot of money for GPRS or EDGE access to your services.
  
 However, '''graceful degradation''' becomes viable in a few situations:
  
@@ -151,6 +151,7 @@ In all other cases, '''progressive enhancement''' will make both the end users a
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
