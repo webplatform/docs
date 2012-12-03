@@ -26,6 +26,7 @@ where e is the cached event.
 |URL=http://dev.w3.org/html5/spec/single-page.html#application-cache-api
 |Status=W3C Editor's Draft
 }}
+}}
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
@@ -84,6 +85,8 @@ where e is the cached event.
 |Safari_mobile_version=3.2
 |Safari_mobile_prefixed_supported=Unknown
 |Safari_mobile_prefixed_version=
+}}
+|Notes_rows=
 }}
 {{See_Also_Section}}
 {{Topics}}
