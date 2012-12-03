@@ -26,7 +26,6 @@ where e is the cached event.
 |URL=http://dev.w3.org/html5/spec/single-page.html#application-cache-api
 |Status=W3C Editor's Draft
 }}
-}}
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
