@@ -2,7 +2,9 @@
 {{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Indicates an error has occurred.}}
+{{Summary_Section|Indicates an error has occurred.
+
+}}
 {{API_Object_Property
 |Property_applies_to=apis/appcache/ApplicationCache
 |Read_only=No
