@@ -26,7 +26,7 @@ Some nice things about the PeerConnection API.
 ==DataChannel API==
 Some nice things about the DataChannel API
 
-=API objects=
+==API objects==
 Table of API objects and summaries goes here. It would replace the subpage table shown.
 }}
 {{See_Also_Section
