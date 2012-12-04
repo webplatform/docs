@@ -18,9 +18,6 @@
 |HTML5Rocks_link=
 }}
 {{Basic Page}}
-
-
-
 {{Concept_Page
 |Content=== General introductory articles ==
 [[concepts/About_mobile_web|About mobile web]] - Start here to get a general history of the mobile web and what it means to support different devices with a wide range of browsing capabilities.
@@ -30,6 +27,4 @@
 [[tutorials/mobile_mobifying|"Mobifying" your HTML5 site]] - Real examples showing how to support mobile with HTML5 features.
 
 == List of all mobile web related articles ==
-
-
 }}
