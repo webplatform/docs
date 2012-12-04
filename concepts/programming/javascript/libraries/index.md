@@ -9,8 +9,16 @@
 {{Special:PrefixIndex/js/libraries/}}
 
 == Overview ==
+Javascript is arguably the most widely used computer language in the world. The use cases where Javascript has shown to be replacing traditional platforms are ever increasing. As the scope of the usage grows, it becomes extremely important that a method of distribution of code is used, to not only bring simplicity in further development but also allow reuse of code by the masses. JS Libraries solve this problem really well, and there are dozens if not hundreds of libraries available that cater to various use cases.
 
-Libraries play a big part in the JavaScript developer's arsenal. They provide pre-written JavaScript code which makes common or complex tasks easy to do. JavaScript libraries often target specific tasks such as DOM manipulation, framework setup and AJAX handling.
+These various libraries provide pre-written JavaScript code which makes common or complex tasks easy to do. JavaScript libraries often target specific tasks such as DOM manipulation, framework setup and AJAX handling.
+
+== Benefits ==
+* '''Uniform interface for cross-browser compatible code''' - While modern browsers are becoming increasingly similar in their implementations of the language features and DOM, numerous minor differences still exist. The problem becomes substantial when compatibility with older browsers is required. Quite a few JS Libraries try to reduce the boilerplate code that developers have to write to address this issue. They provide a uniform API for development, which all compatibility handling throw browser and feature detection is handled in the background.
+
+* '''Higher Levels of Abstraction''' - Quite often it is the case that development requires implementations of features that are quite popular in the industry. Autocomplete, AJAX handling, graphics and UI elements are some examples of areas where libraries are be a big boon. Most efforts can hence be focussed on customization.
+
+* '''Frameworks''' - While the language itself is quite powerful and yet extremely easy to use, developing and maintaining large codebases can become challenging. There are various frameworks available as JS libraries that implement designs like MVC for writing the code in a more structured fashion.
 
 == Getting started ==
 
@@ -20,7 +28,7 @@ Optionally, many libraries are available from CDN's such as [https://developers.
 
 === Usage ===
 
-To include a library in your application you simply add a <code>&lt;script&gt;</code></pre> tag to your <code>&lt;head&gt;</code> tag with the <code>src</code> attribute to the URL or path to the library source. Below you see two examples on how to load the jQuery library, one from Google Hosted Libraries and one from a local path.
+To include a library in your application you simply add a <code>&lt;script&gt;</code> tag to your <code>&lt;head&gt;</code> tag with the <code>src</code> attribute to the URL or path to the library source. Below you see two examples on how to load the jQuery library, one from Google Hosted Libraries and one from a local path.
 
 ==== Examples ====
 
