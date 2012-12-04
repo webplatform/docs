@@ -124,7 +124,7 @@ Web の認知は、商業的な関心ももたらしました。Mark Andreessen 
 |Specifications=
 }}
 {{See_Also_Section
-|Manual_links=もっと知りたいと思った方は、次のサイトを読んでみましょう。
+|Manual_links=もっと知りたいと思った方は、次のサイトも読んでみましょう。
  
 * [http://en.wikipedia.org/wiki/History_of_the_Internet The history of the Internet (wikipedia)]
 * [http://en.wikipedia.org/wiki/History_of_the_World_Wide_Web The history of the World Wide Web (wikipedia)]
