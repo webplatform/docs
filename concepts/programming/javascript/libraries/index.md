@@ -82,7 +82,11 @@ This list showcases JavaScript libraries. They're sorted alphabetically. If you 
 |[http://underscorejs.org/ Underscore]
 | Framework
 |Underscore is a utility-belt library for JavaScript that provides a lot of the functional programming support that you would expect in Prototype.js (or Ruby), but without extending any of the built-in JavaScript objects. It's the tie to go along with jQuery's tux, and Backbone.js's suspenders.
-|}
+|-
+| [http://raphaeljs.com/ Raphaël]
+| Vector Graphics
+| Raphaël is a small JavaScript library that should simplify development work with vector graphics on the web. If someone wants to create their own specific chart or image crop and rotate widget, for example, they can achieve it simply and easily with this library.
+}
 {{Notes_Section}}
 {{Topics|JavaScript}}
 {{External_Attribution
