@@ -86,7 +86,7 @@ This list showcases JavaScript libraries. They're sorted alphabetically. If you 
 | [http://raphaeljs.com/ Raphaël]
 | Vector Graphics
 | Raphaël is a small JavaScript library that should simplify development work with vector graphics on the web. If someone wants to create their own specific chart or image crop and rotate widget, for example, they can achieve it simply and easily with this library.
-}
+|}
 {{Notes_Section}}
 {{Topics|JavaScript}}
 {{External_Attribution
