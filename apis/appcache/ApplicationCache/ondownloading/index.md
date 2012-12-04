@@ -1,7 +1,5 @@
 {{Page_Title}}
-{{Flags
-|Content=Compatibility Incomplete
-}}
+{{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|The user agent has found an update and is fetching it, or is downloading the resources listed by the manifest for the first time.}}
@@ -91,9 +89,7 @@ where e is the cached event.
 }}
 |Notes_rows=
 }}
-{{See_Also_Section
-|Manual_links=*<code>[[apis/ApplicationCache|ApplicationCache]]</code>
-}}
+{{See_Also_Section}}
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
