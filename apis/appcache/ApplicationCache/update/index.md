@@ -13,45 +13,45 @@
 
 This method can return one of these values.
 
-{| class="wikitable"
-|-
+{{{!}} class="wikitable"
+{{!}}-
 !Return code/value
 !Description
-|-
-|S_OK
-|
-|-
-|DOMException.INVALID_STATE_ERR
+{{!}}-
+{{!}}S_OK
+{{!}}
+{{!}}-
+{{!}}DOMException.INVALID_STATE_ERR
 11
-|This exception is thrown if the application cache cannot be found or the status of the cache is obsolete.
-|}
+{{!}}This exception is thrown if the application cache cannot be found or the status of the cache is obsolete.
+{{!}}}
  
 
 Type: '''HRESULT'''
 
 This method can return one of these values.
 
-{| class="wikitable"
-|-
+{{{!}} class="wikitable"
+{{!}}-
 !Return code/value
 !Description
-|-
-|S_OK
-|
-|-
-|DOMException.INVALID_STATE_ERR
+{{!}}-
+{{!}}S_OK
+{{!}}
+{{!}}-
+{{!}}DOMException.INVALID_STATE_ERR
 11
-|This exception is thrown if the application cache cannot be found or the status of the cache is obsolete.
-|}
- 
+{{!}}This exception is thrown if the application cache cannot be found or the status of the cache is obsolete.
+{{!}}}
+
 }}
 {{Examples_Section
 |Not_required=Yes
 |Examples=
 }}
 {{Notes_Section
-|Notes=Use this method and check the [[apis/appcache/properties/status|'''status''']] before using [[apis/appcache/methods/swapCache|'''swapCache''']].
-The '''update''' method returns before the update check is complete, so it is a best practice to wait before checking the [[apis/appcache/properties/status|'''status''']] property or calling the [[apis/appcache/methods/swapCache|'''swapCache''']] method.
+|Notes=Use this method and check the [[apis/appcache/properties/status|status]] before using [[apis/appcache/methods/swapCache|swapCache]].
+The '''update''' method returns before the update check is complete, so it is a best practice to wait before checking the [[apis/appcache/properties/status|status]] property or calling the [[apis/appcache/methods/swapCache|swapCache]] method.
 The '''update'''  method is provided for convenience, but is not necessary for basic functionality. Loading or refreshing the page is sufficient.
 }}
 {{Related_Specifications_Section
