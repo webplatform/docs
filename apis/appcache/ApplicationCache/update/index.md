@@ -1,15 +1,12 @@
 {{Page_Title}}
-{{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status}}
+{{Flags}}
+{{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Invokes the application cache download process. Throws an InvalidStateError exception if there is no application cache to update. Calling this method is not usually necessary, as user agents will generally take care of updating application caches automatically. The method can be useful in situations such as long-lived applications. For example, a Web mail application might stay open in a browser tab for weeks at a time. Such an application could want to test for updates each day.}}
 {{API_Object_Method
 |Parameters=
-|Method_applies_to=apis/ApplicationCache
-|Example_object_name=object
+|Method_applies_to=apis/appcache/ApplicationCache
+|Example_object_name=ApplicationCache
 |Return_value_name=object
 |Javascript_data_type=DOM Node
 |Return_value_description=Type: '''HRESULT'''
@@ -49,18 +46,20 @@ This method can return one of these values.
  
 }}
 {{Examples_Section
-|Not_required=No
+|Not_required=Yes
 |Examples=
 }}
 {{Notes_Section
-|Notes====Remarks===
-Use this method and check the [[apis/appcache/properties/status|'''status''']] before using [[apis/appcache/methods/swapCache|'''swapCache''']].
+|Notes=Use this method and check the [[apis/appcache/properties/status|'''status''']] before using [[apis/appcache/methods/swapCache|'''swapCache''']].
 The '''update''' method returns before the update check is complete, so it is a best practice to wait before checking the [[apis/appcache/properties/status|'''status''']] property or calling the [[apis/appcache/methods/swapCache|'''swapCache''']] method.
 The '''update'''  method is provided for convenience, but is not necessary for basic functionality. Loading or refreshing the page is sufficient.
-|Import_Notes====Syntax===
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=W3C ApplicationCache Specification
+|URL=http://dev.w3.org/html5/spec/single-page.html#application-cache-api
+|Status=W3C Editor's Draft
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -125,15 +124,11 @@ The '''update'''  method is provided for convenience, but is not necessary for b
 }}
 |Notes_rows=
 }}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[apis/appcache/ApplicationCache|ApplicationCache]]</code>
-}}
+{{See_Also_Section}}
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
 |MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|MSDN_link=
 |HTML5Rocks_link=
 }}
