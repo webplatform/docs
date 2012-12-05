@@ -1,7 +1,10 @@
 {{Page_Title|Using Flexible Boxes for Layout}}
 {{Flags
-|High-level issues=Stub
-|Editorial notes=test of wpd batch edit tool
+|High-level issues=Stub, Deletion Candidate
+|Editorial notes={{Editorial/Deletion_Candidate
+| temporary page used for test
+}}
+
 }}
 {{Byline
 |Name=Mike Sierra
