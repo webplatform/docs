@@ -5,9 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The FileReaderSync interface allows to read File or Blob objects in a synchronous way.
-This interface is only available in workers as it enables synchronous I/O that could potentially block.
-}}
+{{Summary_Section|Allows for synchronous reading of '''File''' or '''Blob''' objects. Only available in [[Workers]], since synchronous I/O would otherwise block the main application from executing.}}
 {{API_Object}}
 {{Examples_Section
 |Not_required=No
@@ -49,6 +47,7 @@ The '''FileReaderSync''' object has these methods.
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
