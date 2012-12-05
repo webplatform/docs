@@ -114,9 +114,9 @@ they flow. The example below flows content sources #1-3 into
 the same chain of regions. Rearranging the ''article'' nodes within
 the document shuffles their order within the output region:
 
- &lt;article> source #1 &lt;/article
- &lt;article> source #2 &lt;/article
- &lt;article> source #3 &lt;/article
+ &lt;article> source #1 &lt;/article>
+ &lt;article> source #2 &lt;/article>
+ &lt;article> source #3 &lt;/article>
  &lt;div class="region"> &lt;/div>
 
 
