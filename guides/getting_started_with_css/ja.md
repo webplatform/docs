@@ -1,5 +1,4 @@
 {{Page_Title|CSSの基礎}}
-{{Languages}}
 {{Flags}}
 {{Byline}}
 {{Summary_Section|このガイドでは，CSSの基礎（CSSの構造，セレクタ，コメント，HTMLへの適用方法を含む）をカバーしています．}}
@@ -171,7 +170,7 @@ HTML文書ごとにIDを１つずつ持つことができます－つまり，�
 特定のルールを定義するためにセレクタを結合することができます：
 
 * <code>p.warning {}</code> は，<code>warning</code>の<code>class</code>を持つすべての段落（p要素）にマッチします
-* <code>div#example {}</code> は，<code>example</code>という<code>id</code>属性を持つすべての要素にマッチします．ただし<code>div</code>のときのみです．
+* <code>div#example {}</code> は，<code>example</code>という<code>id</code>属性を持つ要素にマッチします．ただし<code>div</code>のときのみです．
 * <code>p.info, li.highlight {}</code> は，<code>info</code> という<code>class</code>を持つ段落，および，<code>highlight</code>という<code>class</code>を持つlistアイテムにマッチします．
 
 次の例では，いくつかのwarningスタイルの間で動作を識別するためにこれ（結合）を使っています：
@@ -378,4 +377,14 @@ CSSを使うことは構造から文書の表現部分を分離する点であ�
 |MSDN_link=
 |HTML5Rocks_link=
 }}
+{{Languages}}
+
+
+
+
+
+
+
+
+
 {{Languages}}
