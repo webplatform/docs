@@ -39,7 +39,7 @@ relatively image:
 This reflects the browser's default assumption that content should
 extend 980 pixels wide.
 
-'Note:' This sample layout displays a flexibly positioned element that
+'''Note:''' This sample layout displays a flexibly positioned element that
 adapts to the full width of the screen, along with a fixed-size
 background image.
 
@@ -65,7 +65,7 @@ accordingly. The screen height varies significantly among devices, and
 often increases in full-screen web applications that suppress the
 browser's native screen controls.
 
-'Note:' Applying a viewport has no effect on desktop browsers. It is
+'''Note:''' Applying a viewport has no effect on desktop browsers. It is
 interpreted only once when the page loads, and cannot be modified
 thereafter.
 
@@ -94,13 +94,11 @@ viewport:
 
 As an alternative to disabling scaling, you can apply decimal
 '''minimum-scale''' and '''maximum-scale''' values to control the
-potential ''range'' of magnification.
+potential ''range'' of magnification.  See below for details on how
+these viewport options and related CSS affects the appearance of
+landscape-oriented content.
 
-___ See [[Tipping the Handset]] for details on how these viewport
-options and related CSS affects the appearance of landscape-oriented
-content.
-
-'Note:' The '''user-scalable''' property only affects access to the
+'''Note:''' The '''user-scalable''' property only affects access to the
 overall page.  Touch-enabled web content within that page such as map
 interfaces may still respond independently to pinch-zoom and
 drag-scroll gestures.
@@ -127,7 +125,7 @@ whose dimensions align with each edge of the screen:
    &lt;/section>
  &lt;/body>
 
-'Note:' Even if content overflows the screen without being hidden,
+'''Note:''' Even if content overflows the screen without being hidden,
 setting the following CSS renders it inaccessible:
 
  body { overflow: hidden }
@@ -138,7 +136,7 @@ with care. Users may become confused when the scrolling gestures they
 expect to scroll within a page instead scrolls within a narrow region
 of that page. 
 
-'Note:' Screen layout should be driven entirely by CSS properties. HTML
+'''Note:''' Screen layout should be driven entirely by CSS properties. HTML
 table elements should be used only for tabular data, and never to
 arrange elements on the screen. Likewise, do not use the deprecated
 '''frameset''' tag to define layouts that indirectly reference other
