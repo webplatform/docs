@@ -1,10 +1,15 @@
-{{Page_Title}}
+{{Page_Title|TITLE}}
 {{Flags
 |High-level issues=Stub
+|Editorial notes=MY NOTES
 }}
-{{Byline}}
-{{Summary_Section}}
-{{Tutorial}}
+{{Byline
+|Name=NAME
+}}
+{{Summary_Section|SUMMARY}}
+{{Tutorial
+|Content=CONTENT
+}}
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
