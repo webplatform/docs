@@ -1,15 +1,10 @@
-{{Page_Title|Using Flexible Boxes for Layout}}
+{{Page_Title}}
 {{Flags
 |High-level issues=Stub
-|Editorial notes=batch-tool test
 }}
-{{Byline
-|Name=Mike Sierra
-}}
-{{Summary_Section|All work and no play makes Jack a dull boy.}}
-{{Tutorial
-|Content=The Oaks of Ald now they Lie in Peat yet Elms Leap where Askes Lay.
-}}
+{{Byline}}
+{{Summary_Section}}
+{{Tutorial}}
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
@@ -18,8 +13,10 @@
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section}}
-{{Topics}}
+{{See_Also_Section
+|Topic_clusters=Flexbox
+}}
+{{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
