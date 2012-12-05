@@ -357,7 +357,7 @@ CSSを使うことは構造から文書の表現部分を分離する点であ�
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables={{Imported Compatibility Table
-|Page=http://docs.webplatform.org/wiki/guides/getting_started_with_css
+|Page=/guides/getting_started_with_css
 }}
 |Desktop_rows=
 |Mobile_rows=
