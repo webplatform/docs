@@ -1,13 +1,9 @@
 {{Page_Title|CSSの基礎}}
-{{Languages}}
 {{Flags}}
 {{Byline}}
 {{Summary_Section|このガイドでは，CSSの基礎（CSSの構造，セレクタ，コメント，HTMLへの適用方法を含む）をカバーしています．}}
 {{Guide
-|Content=
-
-
-== はじめに ==
+|Content=== はじめに ==
 
 この記事では，パワフルなスタイリング言語であるCSSを使い始めるにあたって助けとなる基本的な部分をカバーしています．HTML文書にCSSを適用する方法（<code>style</code>属性を使いインラインでスタイルを適用する方法，文書の<code>&lt;head&gt;</code>内で<code>&lt;style&gt;</code>要素でスタイルを埋め込む方法，当該文書の外部ファイルとして適用する方法）を学びます．
 
@@ -360,9 +356,7 @@ CSSを使うことは構造から文書の表現部分を分離する点であ�
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
-|Imported_tables={{Imported Compatibility Table
-|Page=/guides/getting_started_with_css
-}}
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
@@ -383,3 +377,4 @@ CSSを使うことは構造から文書の表現部分を分離する点であ�
 |MSDN_link=
 |HTML5Rocks_link=
 }}
+{{Languages}}
