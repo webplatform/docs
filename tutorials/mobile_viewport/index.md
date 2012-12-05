@@ -39,9 +39,9 @@ relatively image:
 This reflects the browser's default assumption that content should
 extend 980 pixels wide.
 
-Note: This sample layout displays a \l{Flexible Positioning|flexibly
-positioned} element that adapts to the full width of the screen,
-along with a fixed-size \l{Colors and Backgrounds|background image}.
+Note: This sample layout displays a flexibly positioned element that
+adapts to the full width of the screen, along with a fixed-size
+background image.
 
 To correct this behavior, place the following line within the HTML's
 '''head''' region:
