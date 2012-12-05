@@ -5,7 +5,7 @@
 {{Byline}}
 {{Summary_Section|All about the viewport meta tag.}}
 {{Tutorial
-|Content=[[User:Sierra|Sierra]] ([[User talk:Sierra|talk]])
+|Content=___
 }}
 {{Notes_Section}}
 {{Compatibility_Section
