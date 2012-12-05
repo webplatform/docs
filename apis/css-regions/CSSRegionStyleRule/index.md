@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Represents an [[css/atrules/@region|'''@region''']] rule in a CSS style sheet.}}
+{{Summary_Section|Represents an [[css/atrules/@region|'''@region''']] rule in a CSS style sheet, which applies styles to fragments of content that flow into a [[tutorials/css-regions|CSS region]].}}
 {{API_Object
 |Subclass_of=css/cssom/CSSRule
 }}
