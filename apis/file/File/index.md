@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The '''File''' object provides information about -- and access to the contents of -- files. These are generally retrieved from a [[apis/file/FileList|'''FileList'''] object returned as a result of a user selecting files using the input element, or from a drag and drop operation's ['''DataTransfer'''] object.}}
+{{Summary_Section|The '''File''' object provides information about -- and access to the contents of -- files. These are generally retrieved from a [[apis/file/FileList|'''FileList''']] object returned as a result of a user selecting files using the input element, or from a drag and drop operation's ['''DataTransfer'''] object.}}
 {{API_Object}}
 {{Examples_Section
 |Not_required=No
