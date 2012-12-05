@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Allows for synchronous reading of '''File''' or '''Blob''' objects. Only available in [[Workers]], since synchronous I/O would otherwise block the main application from executing.}}
+{{Summary_Section|Allows for synchronous reading of '''File''' or '''Blob''' objects. Only available in [[apis/workers/objects/Worker|Workers]], since synchronous I/O would otherwise block the main application from executing.}}
 {{API_Object}}
 {{Examples_Section
 |Not_required=No
