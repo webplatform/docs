@@ -1,4 +1,5 @@
 {{Page_Title|CSSの基礎}}
+{{Language}}
 {{Flags}}
 {{Byline}}
 {{Summary_Section|このガイドでは，CSSの基礎（CSSの構造，セレクタ，コメント，HTMLへの適用方法を含む）をカバーしています．}}
