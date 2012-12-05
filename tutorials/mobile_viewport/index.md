@@ -145,8 +145,6 @@ arrange elements on the screen. Likewise, do not use the deprecated
 HTML files. Both of these older web layout techniques render poorly on
 mobile browsers.
 
-___
-
 }}
 {{Notes_Section}}
 {{Compatibility_Section
