@@ -4,8 +4,9 @@
 {{API_Name}}
 {{Summary_Section|Enables real-time communication across the web.}}
 {{API_Listing
+|Query=[[Category:WebRTC]]
 |Use_page_title=No
-|List_all_subpages=Yes
+|List_all_subpages=No
 }}
 {{Notes_Section
 |Usage=The RTC in WebRTC stands for Real-Time Communications, technology that enables audio/video streaming and data sharing between browser clients (peers). As a set of standards, WebRTC provides any browser with the ability to share application data and perform teleconferencing peer to peer, without the need to install plug-ins or third-party software. 
