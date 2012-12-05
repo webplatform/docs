@@ -23,6 +23,24 @@ for (var i = 0; l = data.length; i += 4) {
    b = data[i+2];
    a = data[i+3];
 }
+}}{{Single Example
+|Language=JavaScript
+|Description=Same as above, but loops separately over width and height:
+|Code=var cx = document.querySelector('canvas').getContext('2d');
+var imgData = cx.getImageData(0, 0, canvas.width, canvas.height);
+var w = imgData.width;
+var h = imgData.height;
+var data = imgData.data;
+var r, g, b, a;
+for (var y = 0; y < h; y++) {
+    for (var x = 0; x < w; x++) {
+       r = data[((w * y) + x) * 4];
+       g = data[((w * y) + x) * 4 + 1];
+       b = data[((w * y) + x) * 4 + 2];
+       a = data[((w * y) + x) * 4 + 3];
+    }
+}
+
 }}
 }}
 {{Notes_Section
