@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The '''FileReader''' object lets web applications asynchronously read the contents of files (or raw data buffers) stored on the user's computer, using [[apis/file/File|'''File''']] or [[apis/file/Blob|'''Blob'''] objects to specify the file or data to read. [[apis/file/File|'''File'''] objects may be obtained from a [[apis/file/FileList|'''FileList''']] object returned as a result of a user selecting files using the [[input]] element, from a drag-and-drop operation's [[DataTransfer]] object, or from the [[mozGetAsFile() API]] on an [[HTMLCanvasElement]].}}
+{{Summary_Section|The '''FileReader''' object lets web applications asynchronously read the contents of files (or raw data buffers) stored on the user's computer, using [[apis/file/File|'''File''']] or [[apis/file/Blob|'''Blob''']] objects to specify the file or data to read. [[apis/file/File|'''File''']] objects may be obtained from a [[apis/file/FileList|'''FileList''']] object returned as a result of a user selecting files using the [[input]] element, from a drag-and-drop operation's [[DataTransfer]] object, or from the [[mozGetAsFile() API]] on an [[HTMLCanvasElement]].}}
 {{API_Object}}
 {{Examples_Section
 |Not_required=No
