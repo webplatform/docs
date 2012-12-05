@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Allows access to each pixel within a canvas's rectangular selection, accessed via the [[canvas/objects/CanvasImageData|'''CanvasImageData''']] object's [[canvas/properties/data|'''data''']] property. The array uses four elements to represent each pixel's red, green, blue, and alpha channels.}}
+{{Summary_Section|Accesses each pixel within a canvas's rectangular selection, via the [[canvas/objects/CanvasImageData|'''CanvasImageData''']] object's [[canvas/properties/data|'''data''']] property. The array uses four elements to represent each pixel's red, green, blue, and alpha channels.}}
 {{API_Object}}
 {{Examples_Section
 |Not_required=No
@@ -40,7 +40,6 @@ for (var y = 0; y < h; y++) {
        a = data[((w * y) + x) * 4 + 3];
     }
 }
-
 }}
 }}
 {{Notes_Section
