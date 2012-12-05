@@ -69,6 +69,8 @@ Note: Applying a viewport has no effect on desktop browsers. It is
 interpreted only once when the page loads, and cannot be modified
 thereafter.
 
+___
+
 }}
 {{Notes_Section}}
 {{Compatibility_Section
