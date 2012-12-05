@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Represents a rectangular selection within a [[canvas/objects/canvas|'''canvas'''] element.}}
+{{Summary_Section|Represents a rectangular selection within a [[canvas/objects/canvas|'''canvas''']] element.}}
 {{API_Object}}
 {{Examples_Section
 |Not_required=No
