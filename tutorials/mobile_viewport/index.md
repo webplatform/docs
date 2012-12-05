@@ -5,7 +5,11 @@
 {{Byline}}
 {{Summary_Section|All about the viewport meta tag.}}
 {{Tutorial
-|Content=___
+|Content=
+
+___
+
+
 }}
 {{Notes_Section}}
 {{Compatibility_Section
