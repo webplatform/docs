@@ -12,7 +12,8 @@
 |Examples={{Single Example
 |Language=JavaScript
 |Description=Access or edit each pixel within a canvas:
-|Code=var imgData = cx.getImageData(0, 0, cx.canvas.width, cx.canvas.height);
+|Code=var cx = document.querySelector('canvas').getContext('2d');
+var imgData = cx.getImageData(0, 0, cx.canvas.width, cx.canvas.height);
 var data = imgData.data; // data is CanvasPixelArray
 var r,g,b,a;
 for (var i = 0; l = data.length; i += 4) {
@@ -22,7 +23,6 @@ for (var i = 0; l = data.length; i += 4) {
    b = data[i+2];
    a = data[i+3];
 }
-
 }}
 }}
 {{Notes_Section
