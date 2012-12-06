@@ -7,7 +7,7 @@
 {{API_Name}}
 {{Summary_Section|Some text.}}
 {{API_Object_Property
-|Property_applies_to=apis/indexedDB/IDBCursor
+|Property_applies_to=apis/indexeddb/IDBCursor
 |Read_only=No
 }}
 {{Examples_Section
@@ -33,7 +33,7 @@
 |Manual_sections====Related pages (MSDN)===
 *<code>[[apis/indexedDB/IDBCursor|IDBCursor]]</code>
 }}
-{{Topics|DOM}}
+{{Topics|DOM, IndexedDB}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
