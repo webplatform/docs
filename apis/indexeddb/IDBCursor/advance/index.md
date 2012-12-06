@@ -13,7 +13,7 @@
 |Description=A positive, non-zero  integer value indicating the number of records to advance.
 |Optional=No
 }}
-|Method_applies_to=apis/indexedDB/IDBCursor
+|Method_applies_to=apis/indexeddb/IDBCursor
 |Example_object_name=cursor
 |Javascript_data_type=void
 |Return_value_description=Instead of creating a new IDBRequest object, this method reuses reuses the request originally created when this cursor was created.
@@ -57,6 +57,7 @@ dbOpenRequest.onsuccess = function(event){
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
@@ -65,7 +66,7 @@ dbOpenRequest.onsuccess = function(event){
 |Manual_sections====Related pages (MSDN)===
 *<code>[[apis/indexedDB/IDBCursor|IDBCursor]]</code>
 }}
-{{Topics|DOM}}
+{{Topics|DOM, IndexedDB}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
