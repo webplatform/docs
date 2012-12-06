@@ -1,12 +1,12 @@
-{{Page_Title|The Mobile Viewport}}
+{{Page_Title|The Mobile Viewport and Orientation}}
 {{Flags
 |High-level issues=Stub
 }}
 {{Byline}}
-{{Summary_Section|All about the viewport meta tag.}}
+{{Summary_Section|It's not as simple as you think.}}
 {{Tutorial
-|Content=Applying a ''viewport'' is the first and most important step to make
-web pages presentable on mobile browsers.
+|Content=Applying a ''viewport'' is the first and most important step
+to make web pages presentable on mobile browsers.
 
 Touch-based smartphone browsers are capable of presenting web pages
 designed for desktop browsers, but the experience needs improvement.
@@ -163,8 +163,7 @@ landscaped pages use a two-column layout:
 The result can be seen in this example, by resizing the browser window
 so that it is alternately taller or wider:
 
-[[Image:orient1.png]]
-[[Image:orient2.png]]
+[[Image:orient.png]]
 
 JavaScript can respond similarly to '''orientationchange''' events that
 fire on the window, checking the state of the '''window.orientation'''
