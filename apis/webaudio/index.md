@@ -4,8 +4,9 @@
 {{API_Name}}
 {{Summary_Section|Describes a high-level JavaScript API for processing and synthesizing audio in web applications.}}
 {{API_Listing
-|Use_page_title=No
-|List_all_subpages=Yes
+|Query=[[Category:WebRTC]][[Category:API_Objects]]
+|Use_page_title=Yes
+|List_all_subpages=No
 }}
 {{Notes_Section
 |Usage=This specification describes a high-level JavaScript API for processing and synthesizing audio in web applications. The primary paradigm is of an audio routing graph, where a number of AudioNode objects are connected together to define the overall audio rendering. The actual processing will primarily take place in the underlying implementation (typically optimized Assembly / C / C++ code), but direct JavaScript processing and synthesis is also supported.
