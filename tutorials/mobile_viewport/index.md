@@ -1,9 +1,8 @@
 {{Page_Title|The Mobile Viewport and Orientation}}
 {{Flags
-|High-level issues=Stub
 }}
 {{Byline}}
-{{Summary_Section|It's not as simple as you think.}}
+{{Summary_Section|It's not as simple as it looks.}}
 {{Tutorial
 |Content=Applying a ''viewport'' is the first and most important step
 to make web pages presentable on mobile browsers.
@@ -39,8 +38,8 @@ relatively image:
 This reflects the browser's default assumption that content should
 extend 980 pixels wide.
 
-'''Note:''' This sample layout displays a flexibly positioned element that
-adapts to the full width of the screen, along with a fixed-size
+'''Note:''' This sample layout displays a flexibly positioned element
+that adapts to the full width of the screen, along with a fixed-size
 background image.
 
 To correct this behavior, place the following line within the HTML's
@@ -65,8 +64,8 @@ accordingly. The screen height varies significantly among devices, and
 often increases in full-screen web applications that suppress the
 browser's native screen controls.
 
-'''Note:''' Applying a viewport has no effect on desktop browsers. It is
-interpreted only once when the page loads, and cannot be modified
+'''Note:''' Applying a viewport has no effect on desktop browsers. It
+is interpreted only once when the page loads, and cannot be modified
 thereafter.
 
 ==Constraining Touch Response==
@@ -90,7 +89,8 @@ default double-tap and pinch-zoom gestures and ensure that content
 appears at the proper magnification level, apply the following
 viewport:
 
- &lt;meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+ &lt;meta name="viewport" content="width=device-width,
+     initial-scale=1, user-scalable=no" />
 
 As an alternative to disabling scaling, you can apply decimal
 '''minimum-scale''' and '''maximum-scale''' values to control the
