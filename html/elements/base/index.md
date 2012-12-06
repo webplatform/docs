@@ -28,7 +28,15 @@
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=HTML 4.01 Specification
+|URL=http://www.w3.org/TR/html5/the-base-element.html#the-base-element
+|Status=W3C Recommendation
+}}{{Related Specification
+|Name=HTML5
+|URL=http://www.w3.org/TR/html5/the-base-element.html#the-base-element
+|Status=W3C Working Draft
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
