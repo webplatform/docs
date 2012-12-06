@@ -4,7 +4,7 @@
 {{API_Name}}
 {{Summary_Section|Describes a high-level JavaScript API for processing and synthesizing audio in web applications.}}
 {{API_Listing
-|Query=[[Category:Audio]][[Category:API_Objects]]
+|Query=[[Category:WebAudio]][[Category:API_Objects]]
 |Use_page_title=Yes
 |List_all_subpages=No
 }}
@@ -16,7 +16,7 @@ This API is designed to be used in conjunction with other APIs and elements on t
 {{See_Also_Section
 |External_links=* [https://dvcs.w3.org/hg/audio/raw-file/tip/webaudio/specification.html#MediaStreamAudioSourceNode W3C Editor's Draft Specification]
 }}
-{{Topics|Audio}}
+{{Topics|Audio, WebAudio}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
