@@ -60,8 +60,8 @@ window.)
 
 On most touch-based mobile browsers, the '''device-width''' is 320
 pixels. Make sure images and other fixed-dimension elements are sized
-accordingly. The screen height varies significantly among devices, and
-often increases in full-screen web applications that suppress the
+accordingly. The screen height varies significantly among handsets,
+and often increases in full-screen web applications that suppress the
 browser's native screen controls.
 
 '''Note:''' Applying a viewport has no effect on desktop browsers. It
@@ -89,8 +89,7 @@ default double-tap and pinch-zoom gestures and ensure that content
 appears at the proper magnification level, apply the following
 viewport:
 
- &lt;meta name="viewport" content="width=device-width,
-     initial-scale=1, user-scalable=no" />
+ &lt;meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 
 As an alternative to disabling scaling, you can apply decimal
 '''minimum-scale''' and '''maximum-scale''' values to control the
@@ -136,12 +135,12 @@ with care. Users may become confused when the scrolling gestures they
 expect to scroll within a page instead scrolls within a narrow region
 of that page. 
 
-'''Note:''' Screen layout should be driven entirely by CSS
-properties. HTML table elements should be used only for tabular data,
-and never to arrange elements on the screen. Likewise, do not use the
-deprecated '''frameset''' tag to define layouts that indirectly
-reference other HTML files. Both of these older web layout techniques
-render poorly on mobile browsers.
+'''Note:''' Screen layout should be driven entirely by CSS properties.
+HTML table elements should be used only for tabular data, and never to
+arrange elements on the screen. Likewise, do not use the deprecated
+'''frameset''' tag to define layouts that indirectly reference other
+HTML files. Both of these older web layout techniques render poorly on
+mobile browsers.
 
 ==Tipping the Handset==
 
@@ -156,8 +155,14 @@ allows you to assign different interface features depending on
 landscaped pages use a two-column layout:
 
  @media all and (orientation: landscape) {
-     article { -webkit-column-count: 2; }
-     h1 { -webkit-column-span: all; }
+     article {
+         -webkit-column-count : 2;
+         column-count         : 2;
+     }
+     h1 {
+         -webkit-column-span  : all;
+         column-span          : all;
+     }
  }
 
 The result can be seen in this example, by resizing the browser window
@@ -196,11 +201,14 @@ constant:
 [[Image:view_on_noscale.png]]
 
 As shown above, the browser independently magnifies text when shifting
-to landscape orientation. To keep the text size from changing, disable
-the '''-webkit-text-size-adjust''' CSS property. The following affects
-the entire page:
+to landscape orientation, actually by zooming the page.  To keep the
+text size from changing, disable the '''text-size-adjust''' CSS
+property. The following affects the entire page:
 
- html { -webkit-text-size-adjust: none }
+ html {
+     -webkit-text-size-adjust : none;
+     text-size-adjust         : none;
+ }
 
 The following shows the resulting page, with text appearing at the
 same size:
@@ -222,11 +230,18 @@ landscape orientation:
 
 * Set the viewport's '''user-scalable=no''' to widen flexible content in landscape view.
 
-* Set the '''-webkit-text-size-adjust:none''' CSS property to keep text from changing size.
+* Set the '''text-size-adjust:none''' CSS property to keep text from changing size.
 
 * Apply flexible layout elements that adapt to available dimensions.
 
 * Optionally, use '''orientation''' media queries to change layout, and '''orientationchange''' handlers to respond in other ways.
+
+==Everything is changing==
+
+The viewport meta tag originated with the iPhone, and adapted for use
+by comparable Android and Nokia browsers. It is being standardized as
+the [[css/atrules/@viewport|'''@viewport''']] CSS at rule.
+
 
 
 
