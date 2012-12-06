@@ -5,18 +5,27 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The '''base''' element (&lt;base&gt;) allows authors to specify the document base URL for the purposes of resolving relative URLs, and the name of the default browsing context for the purposes of following hyperlinks. The element does not represent any content beyond this information.
+
+}}
 {{Markup_Element
-|DOM_interface=dom/HTMLElement
+|DOM_interface=dom/HTMLBaseElement
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=This example uses the '''BASEFONT''' element to set the base font size, and the '''FONT''' element to temporarily override it.
-|Code=No BASEFONT size specified yet.
-&lt;BASEFONT SIZE{{=}}4&gt; Set the BASEFONT size.
-&lt;FONT SIZE{{=}}2&gt; Temporarily override the BASEFONT size.&lt;/FONT&gt;
-Resume the BASEFONT size.
+|Language=HTML
+|Description=In the example below, the link to about_us.html is a link to http://www.example.com/news/about_us.html.
+|Code=<!DOCTYPE html>
+<html>
+    <head>
+        <title>&lt;base&gt; element example</title>
+        <base href="http://www.example.com/news/index.html">
+    </head>
+    <body>
+        <p>Learn more <a href="about_us.html">about us</a>.</p>
+    </body>
+</html>
 }}
 }}
 {{Notes_Section
@@ -374,6 +383,7 @@ This property is not supported for Metro style apps using JavaScript.
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
