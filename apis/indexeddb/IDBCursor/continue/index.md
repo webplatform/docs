@@ -19,7 +19,7 @@ If the key parameter is specified and fulfills any of these conditions this meth
 * The parameter is greater than or equal to this cursor's position and this cursor's direction is "prev" or "prevunique".
 |Optional=Yes
 }}
-|Method_applies_to=apis/indexedDB/IDBCursor
+|Method_applies_to=apis/indexeddb/IDBCursor
 |Example_object_name=cursor
 |Return_value_name=hasMoved
 |Javascript_data_type=Boolean
@@ -54,6 +54,7 @@ while(cursor.continue()) {
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
@@ -62,7 +63,7 @@ while(cursor.continue()) {
 |Manual_sections====Related pages (MSDN)===
 *<code>[[apis/indexedDB/IDBCursor|IDBCursor]]</code>
 }}
-{{Topics|DOM}}
+{{Topics|DOM, IndexedDB}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
