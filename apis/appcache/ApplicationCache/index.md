@@ -43,7 +43,6 @@ Also, web resources can be specified to only be loaded from the network. This is
 
 '''ApplicationCache'''  functionality is independent of HTTP caching headers.
 The manifest file implicitly includes itself as a page to be cached. It also needs to have the same domain of origin as the page that contains it.
-
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -116,7 +115,7 @@ The manifest file implicitly includes itself as a page to be cached. It also nee
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|Connectivity, DOM}}
+{{Topics|Appcache, Connectivity, DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
