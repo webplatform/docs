@@ -1,10 +1,13 @@
 {{Page_Title|The Mobile Viewport and Orientation}}
-{{Flags
+{{Flags}}
+{{Byline
+|Name=Mike Sierra
 }}
-{{Byline|Mike Sierra}}
 {{Summary_Section|Here you'll learn how the mobile viewport works, and
-how it affects what appears on the screen when tipping the handset.}}
-{{Tutorial |Content=Applying a ''viewport'' is the first and most
+how it affects what appears on the screen when tipping the handset.
+}}
+{{Tutorial
+|Content=Applying a ''viewport'' is the first and most
 important step to make web pages presentable on mobile browsers.
 
 Touch-based smartphone browsers are capable of presenting web pages
@@ -258,7 +261,6 @@ by Android and comparable smartphone browsers. While the viewport meta
 tag is itself not a formal standard, it is now being folded into CSS
 as the [[css/atrules/@viewport|'''@viewport''']] rule. That new
 standard is not wiely supported on mobile browsers.
-
 }}
 {{Notes_Section}}
 {{Compatibility_Section
