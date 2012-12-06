@@ -98,9 +98,9 @@ potential ''range'' of magnification.  See below for details on how
 these viewport options and related CSS affects the appearance of
 landscape-oriented content.
 
-'''Note:''' The '''user-scalable''' property only affects access to the
-overall page.  Touch-enabled web content within that page such as map
-interfaces may still respond independently to pinch-zoom and
+'''Note:''' The '''user-scalable''' property only affects access to
+the overall page.  Touch-enabled web content within that page (such as
+map interfaces) may still respond independently to pinch-zoom and
 drag-scroll gestures.
 
 To disable vertical scrolling, you need to make sure there is not so
@@ -136,16 +136,106 @@ with care. Users may become confused when the scrolling gestures they
 expect to scroll within a page instead scrolls within a narrow region
 of that page. 
 
-'''Note:''' Screen layout should be driven entirely by CSS properties. HTML
-table elements should be used only for tabular data, and never to
-arrange elements on the screen. Likewise, do not use the deprecated
-'''frameset''' tag to define layouts that indirectly reference other
-HTML files. Both of these older web layout techniques render poorly on
-mobile browsers.
+'''Note:''' Screen layout should be driven entirely by CSS
+properties. HTML table elements should be used only for tabular data,
+and never to arrange elements on the screen. Likewise, do not use the
+deprecated '''frameset''' tag to define layouts that indirectly
+reference other HTML files. Both of these older web layout techniques
+render poorly on mobile browsers.
 
-...
+==Tipping the Handset==
 
-...
+When you view browser pages or web apps and tip the device from
+portrait to landscape orientation, the browser re-orients content
+accordingly.
+
+Web pages and web apps can modify their appearance when the device is
+tipped in 90&deg; increments. The '''orientation''' CSS media query
+allows you to assign different interface features depending on
+'''portrait''' or '''landscape''' orientation. In this case,
+landscaped pages use a two-column layout:
+
+ @media all and (orientation: landscape) {
+     article { -webkit-column-count: 2; }
+     h1 { -webkit-column-span: all; }
+ }
+
+The result can be seen in this example, by resizing the browser window
+so that it is alternately taller or wider:
+
+[[Image:orient1.png]]
+[[Image:orient2.png]]
+
+JavaScript can respond similarly to '''orientationchange''' events that
+fire on the window, checking the state of the '''window.orientation'''
+property for '''portrait''' or '''landscape''' values:
+
+ window.addEventListener('orientationchange', function(e){
+     var isUpright = (window.orientation == 'portrait');
+ });
+
+When you apply a mobile viewport, flexible layout elements conform to
+the width of the device's window. Ordinarily, tipping the device to
+landscape orientation magnifies the content, keeping the overall width
+constant. To illustrate the range of available options, this example
+shows a flexible layout against a fixed-size background element. In
+landscape view, the page simply magnifies:
+
+[[Image:view_on.png]]
+
+To disable magnification and make flexible elements expand to the
+wider screen, set the '''user-scalable=no''' viewport property:
+
+ &lt;meta name="viewport" content="width=device-width, user-scalable=no"/>
+
+Doing so disables pinch and double-tap gestures that otherwise allow
+users to magnify content. The following shows how the same page
+appears with scaling disabled. The layout element changes dimensions,
+but the background element shows that the magnification remains
+constant:
+
+[[Image:view_on_noscale.png]]
+
+As shown above, the browser independently magnifies text when shifting
+to landscape orientation. To keep the text size from changing, disable
+the '''-webkit-text-size-adjust''' CSS property. The following affects
+the entire page:
+
+ html { -webkit-text-size-adjust: none }
+
+The following shows the resulting page, with text appearing at the
+same size:
+
+[[Image:view_on_noscale_noadjust.png]]
+
+'''Warning:''' Applying the above CSS within a ''desktop''-oriented
+interface interferes with the browser's zoom feature, which is not
+affected by mobile '''viewport''' settings. In that case, when users
+zoom a page, the dimensions of screen elements changes, but the size
+of the text does not. If you are deploying a hybrid mobile interface
+adapted for desktop or tablet browsers, use media queries to narrow
+the scope of the above CSS.
+
+To review, use the following techniques to adapt flexible layouts to
+landscape orientation:
+
+* Set the viewport's '''width=device-width''' to fit content
+with the screen dimensions.
+
+* Set the viewport's '''user-scalable=no''' to widen flexible content
+in landscape view.
+
+* Set the '''-webkit-text-size-adjust:none''' CSS property to keep
+text from changing size.
+
+* Apply flexible layout elements that adapt to available dimensions.
+
+* Optionally, use '''orientation''' media queries to change layout,
+and '''orientationchange''' handlers to respond in other ways.
+
+___
+
+
 
 }}
 {{Notes_Section}}
