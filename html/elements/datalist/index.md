@@ -48,7 +48,11 @@ The '''datalist''' object has these properties.
  
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=HTML5
+|URL=http://www.w3.org/TR/html5/the-datalist-element.html#the-datalist-element
+|Status=W3C Working Draft
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
