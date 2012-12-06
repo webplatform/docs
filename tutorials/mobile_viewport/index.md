@@ -92,9 +92,15 @@ appears at the proper magnification level, apply this viewport:
 
 As an alternative to disabling scaling, you can apply decimal
 '''minimum-scale''' and '''maximum-scale''' values to control the
-potential ''range'' of magnification.  See below for details on how
-these viewport options and related CSS affects the appearance of
-landscape-oriented content.
+potential ''range'' of magnification. As of this writing, Chrome for
+Android does not support '''user-scalable''', in which case fixing the
+zoom range at a single value has the same effect:
+
+ &lt;meta name="viewport" content="width=device-width,
+     initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"/>
+
+See below for details on how these scaling options and related CSS
+affects the appearance of landscape-oriented content.
 
 The '''user-scalable''' property only affects access to the overall
 page.  Touch-enabled web content within that page (such as map
