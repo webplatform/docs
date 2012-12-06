@@ -17,6 +17,18 @@
 !CSS Display
 {{!}}inline
 {{!}}}
+
+
+===Properties===
+{{{!}} class="wikitable"
+{{!}}-
+!Property
+{{!}}[[dom/properties/options (dom/options|'''options''']]
+{{!}}-
+!Description
+{{!}}A collection of '''option''' objects that represent possible selections for a '''datalist''' element.
+{{!}}}
+
 }}
 {{Examples_Section
 |Not_required=No
@@ -32,21 +44,7 @@
 }}
 }}
 {{Notes_Section
-|Import_Notes====Members===
-The '''datalist''' object has these types of members:
-*[#properties Properties]
-
-
-====Properties====
-The '''datalist''' object has these properties.
-{| class="wikitable"
-|-
-!Property
-!Description
-|-
-|[[dom/properties/options (dom/options|'''options''']]
-|A collection of '''option''' objects that represent possible selections for a '''datalist''' element.
-|}
+|Import_Notes=
  
 }}
 {{Related_Specifications_Section
