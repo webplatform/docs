@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The '''datalist''' element (&lt;datalist&gt;) represents a set of [[/html/elements/option|option]] elements that represent predefined options for other controls.}}
+{{Summary_Section|The '''datalist''' element (&lt;datalist&gt;) represents a set of [[/html/elements/option|option]] elements that represent predefined options for other controls. It may be associated with an [[/html/elements/input|input]] element by adding a list attribute to the input element.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
 }}
