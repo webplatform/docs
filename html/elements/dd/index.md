@@ -764,7 +764,15 @@ This property is not supported for Metro style apps using JavaScript.
  
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=HTML 4.01 Specification
+|URL=http://www.w3.org/TR/html401/struct/lists.html#h-10.3
+|Status=W3C Recommendation
+}}{{Related Specification
+|Name=HTML5
+|URL=http://www.w3.org/TR/html5/the-dd-element.html#the-dd-element
+|Status=W3C Working Draft
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
