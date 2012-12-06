@@ -14,8 +14,7 @@
 |Examples={{Single Example
 |Language=HTML
 |Description=In the example below, the link to about_us.html is a link to http://www.example.com/news/about_us.html.
-|Code=<!DOCTYPE html>
-<html>
+|Code=<html>
      <head>
           <title>&lt;base&gt; element example</title>
           <base href="http://www.example.com/news/index.html">
