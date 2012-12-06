@@ -141,10 +141,11 @@ portrait to landscape orientation, the browser re-orients content
 accordingly.
 
 Web pages and web apps can modify their appearance when the device is
-tipped in 90&deg; increments. The '''orientation''' CSS media query
-allows you to assign different interface features depending on
-'''portrait''' or '''landscape''' orientation. In this case,
-landscaped pages use a two-column layout:
+tipped in 90&deg; increments. The '''orientation'''
+[[tutorials/media_queries|CSS media query]] allows you to assign
+different interface features depending on '''portrait''' or
+'''landscape''' orientation. In this case, landscaped pages use a
+two-column layout:
 
  @media all and (orientation: landscape) {
      article {
@@ -213,18 +214,22 @@ Here is the resulting page, with text appearing at the same size:
 Be careful. Applying the CSS above within a ''desktop''-oriented
 interface interferes with the browser's zoom feature, which is not
 controlled by mobile '''viewport''' settings. In that case, when users
-zoom in, the dimensions of screen elements change, but the size of
-the text does not. If you are deploying a hybrid mobile interface
-adapted for desktop or tablet browsers, use media queries to narrow
-the scope of the above CSS:
+zoom in, the dimensions of screen elements change, but the size of the
+text does not. If you are deploying a hybrid mobile interface adapted
+for desktop or tablet browsers, use media queries to narrow the scope
+of the above CSS:
 
  @media only screen and (max-device-width: 400px) {
      html {
          -webkit-text-size-adjust : none;
          text-size-adjust         : none;
      }
-     /* rest of mobile interface */
+     /* adapt mobile interface here */
  }
+
+If you are targeting a website for presentation on both mobile and
+desktop browsers, [[tutorials/media_queries|media queries are
+indispensable]], and you should master them.
 
 ==Review==
 
@@ -240,11 +245,13 @@ Here's what we've learned:
 
 * Optionally, use '''orientation''' media queries to change layout, and '''orientationchange''' handlers to respond in other ways when tipping the handset.
 
+* Use media queries if you want your website to be viewed by both desktop and mobile browsers.
+
 The behavior described above is supported not only by the iPhone, but
 by Android and comparable smartphone browsers. While the viewport meta
 tag is itself not a formal standard, it is now being folded into CSS
-as the [[css/atrules/@viewport|'''@viewport''']] rule, a change not
-yet reflected in mobile browsers on the market.
+as the [[css/atrules/@viewport|'''@viewport''']] rule. That new
+standard is not wiely supported on mobile browsers.
 
 }}
 {{Notes_Section}}
