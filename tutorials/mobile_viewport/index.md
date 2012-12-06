@@ -28,19 +28,17 @@ Applying a viewport '''meta''' tag allows you to control how mobile
 browsers render content within this rectangle, and whether users can
 use magnification controls.
 
-The following shows a sample screen layout without a viewport. The
-initially loaded page is zoomed out too far to be legible, while
-zooming in makes content extending off the right edge of the screen
-relatively image:
+The following shows a sample screen layout without a viewport. (For
+the sake of illustration, it displays a flexibly positioned element
+that adapts to the full width of the screen, along with a fixed-size
+background image.)  The initially loaded page is zoomed out too far to
+be legible, while zooming in makes content extending off the right
+edge of the screen relatively image:
 
 [[Image:view_off.png]]
 
 This reflects the browser's default assumption that content should
 extend 980 pixels wide.
-
-'''Note:''' This sample layout displays a flexibly positioned element
-that adapts to the full width of the screen, along with a fixed-size
-background image.
 
 To correct this behavior, place the following line within the HTML's
 '''head''' region:
@@ -64,8 +62,8 @@ accordingly. The screen height varies significantly among handsets,
 and often increases in full-screen web applications that suppress the
 browser's native screen controls.
 
-'''Note:''' Applying a viewport has no effect on desktop browsers. It
-is interpreted only once when the page loads, and cannot be modified
+Applying a viewport has no effect on desktop browsers. It is
+interpreted only once when the page loads, and cannot be modified
 thereafter.
 
 ==Constraining Touch Response==
@@ -97,9 +95,9 @@ potential ''range'' of magnification.  See below for details on how
 these viewport options and related CSS affects the appearance of
 landscape-oriented content.
 
-'''Note:''' The '''user-scalable''' property only affects access to
-the overall page.  Touch-enabled web content within that page (such as
-map interfaces) may still respond independently to pinch-zoom and
+The '''user-scalable''' property only affects access to the overall
+page.  Touch-enabled web content within that page (such as map
+interfaces) may still respond independently to pinch-zoom and
 drag-scroll gestures.
 
 To disable vertical scrolling, you need to make sure there is not so
@@ -124,8 +122,8 @@ whose dimensions align with each edge of the screen:
    &lt;/section>
  &lt;/body>
 
-'''Note:''' Even if content overflows the screen without being hidden,
-setting the following CSS renders it inaccessible:
+Even if content overflows the screen without being hidden, setting the
+following CSS renders it inaccessible:
 
  body { overflow: hidden }
 
@@ -134,13 +132,6 @@ content elements that appear within a page, but these should be used
 with care. Users may become confused when the scrolling gestures they
 expect to scroll within a page instead scrolls within a narrow region
 of that page. 
-
-'''Note:''' Screen layout should be driven entirely by CSS properties.
-HTML table elements should be used only for tabular data, and never to
-arrange elements on the screen. Likewise, do not use the deprecated
-'''frameset''' tag to define layouts that indirectly reference other
-HTML files. Both of these older web layout techniques render poorly on
-mobile browsers.
 
 ==Tipping the Handset==
 
@@ -238,12 +229,10 @@ landscape orientation:
 
 ==Everything is changing==
 
-The viewport meta tag originated with the iPhone, and adapted for use
-by comparable Android and Nokia browsers. It is being standardized as
-the [[css/atrules/@viewport|'''@viewport''']] CSS at rule.
-
-
-
+The behavior descibed above is supported not only by the iPhone, but
+by comparable Android and Nokia browsers. While the viewport meta tag
+is itself not a formal standard, it is now being standardized as the
+[[css/atrules/@viewport|'''@viewport''']] CSS rule.
 
 }}
 {{Notes_Section}}
