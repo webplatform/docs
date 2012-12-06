@@ -23,13 +23,7 @@
 }}
 }}
 {{Notes_Section
-|Notes====Remarks===
-The following example uses a '''datalist''' object and options to display a list of files from a files dialog.
-|Import_Notes====Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}221374 HTML5 A vocabulary and associated APIs for HTML and XHTML], Section 4.10.10
-
-
+|Import_Notes=
 ===Members===
 The '''datalist''' object has these types of members:
 *[#properties Properties]
