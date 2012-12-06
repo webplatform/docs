@@ -1,24 +1,22 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
-{{API_Object
-|Subclass_of=
-}}
-{{Topics|DOM}}
+{{Summary_Section}}
+{{API_Object}}
 {{Examples_Section
 |Not_required=No
-|Examples=}}
+|Examples=
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 The track object contains the collection of [[apis/audio-video/TextTrackCue|'''TextTrackCues''']] (times and text) that are contained in the file that the '''track''' element represents.
 You can also get a text track object from the video element through the [[apis/audio-video/properties/textTracks|'''TextTracks''']] property, which returns a [[apis/audio-video/TextTrackList|'''TextTrackList''']] object. The '''TextTrackList''' object contains a collection of '''TextTrack''' objects.
 '''Note'''  To create timed text files in both Web Video Text Track (WebVTT) and Timed Text Markup Language (TTML) formats, see [http://go.microsoft.com/fwlink/p/?LinkID{{=}}251121 HTML5 Video Caption Maker] on the Windows Internet Explorer test drive site.
-|Import_Notes=
-===Syntax===
+|Import_Notes====Syntax===
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}221374 HTML5 A vocabulary and associated APIs for HTML and XHTML]
 
@@ -70,12 +68,23 @@ The '''TextTrack''' object has these properties.
 |Returns the readiness state of a '''TextTrack''' with values that let you determine whether the track is loaded, is loading, or failed to load.
 |}
  
-
 }}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section}}
+{{Topics|Audio, Video}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
