@@ -147,10 +147,12 @@ page.
 
 When you view browser pages or web apps and tip the device from
 portrait to landscape orientation, the browser re-orients content
-accordingly.
+accordingly. Web pages and web apps can modify their appearance
+when the device is tipped in 90&deg; increments, as opposed to
+more detailed gestures that can only be captured with the
+[[tutorials/device_orientation|''device orientation'' API]].
 
-Web pages and web apps can modify their appearance when the device is
-tipped in 90&deg; increments. The '''orientation'''
+The '''orientation'''
 [[tutorials/media_queries|CSS media query]] allows you to assign
 different interface features depending on '''portrait''' or
 '''landscape''' orientation. In this case, landscaped pages use a
@@ -174,7 +176,7 @@ so that it is alternately taller or wider:
 
 Be careful, though, when presenting a much different landscape
 interface. Changes to column layout may disorient users who expect
-much the same layout as in portrait ortientation.
+much the same layout as in portrait orientation.
 
 JavaScript can respond similarly to '''orientationchange''' events that
 fire on the window, checking the state of the '''window.orientation'''
