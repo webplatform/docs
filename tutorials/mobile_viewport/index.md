@@ -218,21 +218,15 @@ the scope of the above CSS.
 To review, use the following techniques to adapt flexible layouts to
 landscape orientation:
 
-* Set the viewport's '''width=device-width''' to fit content
-with the screen dimensions.
+* Set the viewport's '''width=device-width''' to fit content with the screen dimensions.
 
-* Set the viewport's '''user-scalable=no''' to widen flexible content
-in landscape view.
+* Set the viewport's '''user-scalable=no''' to widen flexible content in landscape view.
 
-* Set the '''-webkit-text-size-adjust:none''' CSS property to keep
-text from changing size.
+* Set the '''-webkit-text-size-adjust:none''' CSS property to keep text from changing size.
 
 * Apply flexible layout elements that adapt to available dimensions.
 
-* Optionally, use '''orientation''' media queries to change layout,
-and '''orientationchange''' handlers to respond in other ways.
-
-___
+* Optionally, use '''orientation''' media queries to change layout, and '''orientationchange''' handlers to respond in other ways.
 
 
 
