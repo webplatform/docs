@@ -2,16 +2,16 @@
 {{Flags
 }}
 {{Byline}}
-{{Summary_Section|It's not as simple as it looks.}}
-{{Tutorial
-|Content=Applying a ''viewport'' is the first and most important step
-to make web pages presentable on mobile browsers.
+{{Summary_Section|You'll learn how the mobile viewport works, and how
+it affects the screen layout when tipping the handset.}}
+{{Tutorial |Content=Applying a ''viewport'' is the first and most
+important step to make web pages presentable on mobile browsers.
 
 Touch-based smartphone browsers are capable of presenting web pages
 designed for desktop browsers, but the experience needs improvement.
 When loading full-sized pages, mobile browsers display the entire page
 at reduced magnification. Users must double-tap or pinch the screen to
-magnify individual columns of content. Even then, text sized for
+magnify individual columns of content. Even then, text targeted for
 full-sized browsers is often difficult to read. The following shows
 how a typical web page layout displays:
 
@@ -20,7 +20,7 @@ how a typical web page layout displays:
 Users are obliged to go through several steps before text becomes
 legible, in this case including tipping the handset to increase the
 column's magnification. When users reach the end of the column, they
-often experience difficulty reorienting themselves within the page.
+often experience difficulty re-orienting themselves within the page.
 
 The fixed rectangular area within which touch-based smartphone
 browsers display larger web pages is called the ''viewport''.
@@ -161,6 +161,10 @@ so that it is alternately taller or wider:
 
 [[Image:orient.png]]
 
+Be careful, though, when presenting a much different landscape
+interface. Changes to column layout may disorient users who expect
+much the same layout as in portrait ortientation.
+
 JavaScript can respond similarly to '''orientationchange''' events that
 fire on the window, checking the state of the '''window.orientation'''
 property for '''portrait''' or '''landscape''' values:
@@ -192,9 +196,9 @@ constant:
 [[Image:view_on_noscale.png]]
 
 As shown above, the browser independently magnifies text when shifting
-to landscape orientation, actually by zooming the page.  To keep the
-text size from changing, disable the '''text-size-adjust''' CSS
-property. The following affects the entire page:
+to landscape orientation.  To keep the text size from changing,
+disable the '''text-size-adjust''' CSS property. The following affects
+the entire page:
 
  html {
      -webkit-text-size-adjust : none;
@@ -209,8 +213,8 @@ same size:
 '''Warning:''' Applying the above CSS within a ''desktop''-oriented
 interface interferes with the browser's zoom feature, which is not
 affected by mobile '''viewport''' settings. In that case, when users
-zoom a page, the dimensions of screen elements changes, but the size
-of the text does not. If you are deploying a hybrid mobile interface
+zoom in, the dimensions of screen elements changes, but the size of
+the text does not. If you are deploying a hybrid mobile interface
 adapted for desktop or tablet browsers, use media queries to narrow
 the scope of the above CSS.
 
@@ -229,7 +233,7 @@ landscape orientation:
 
 ==Everything is changing==
 
-The behavior descibed above is supported not only by the iPhone, but
+The behavior described above is supported not only by the iPhone, but
 by comparable Android and Nokia browsers. While the viewport meta tag
 is itself not a formal standard, it is now being standardized as the
 [[css/atrules/@viewport|'''@viewport''']] CSS rule.
