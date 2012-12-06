@@ -1,9 +1,9 @@
 {{Page_Title|The Mobile Viewport and Orientation}}
 {{Flags
 }}
-{{Byline}}
-{{Summary_Section|You'll learn how the mobile viewport works, and how
-it affects the screen layout when tipping the handset.}}
+{{Byline|Mike Sierra}}
+{{Summary_Section|Here you'll learn how the mobile viewport works, and
+how it affects what appears on the screen when tipping the handset.}}
 {{Tutorial |Content=Applying a ''viewport'' is the first and most
 important step to make web pages presentable on mobile browsers.
 
@@ -12,8 +12,9 @@ designed for desktop browsers, but the experience needs improvement.
 When loading full-sized pages, mobile browsers display the entire page
 at reduced magnification. Users must double-tap or pinch the screen to
 magnify individual columns of content. Even then, text targeted for
-full-sized browsers is often difficult to read. The following shows
-how a typical web page layout displays:
+full-sized browsers often features long line lengths that make it more
+difficult to read on smaller mobile screens. This shows how a typical
+web page layout displays on a mobile screen:
 
 [[Image:viewport_fail.png]]
 
@@ -29,24 +30,25 @@ browsers render content within this rectangle, and whether users can
 use magnification controls.
 
 The following shows a sample screen layout without a viewport. (For
-the sake of illustration, it displays a flexibly positioned element
-that adapts to the full width of the screen, along with a fixed-size
-background image.)  The initially loaded page is zoomed out too far to
-be legible, while zooming in makes content extending off the right
-edge of the screen relatively image:
+the sake of illustration, it displays a flexibly positioned text
+element that adapts to the full width of the screen, along with a
+fixed-size background image.)  The initially loaded page is zoomed out
+much too far to be legible, while zooming in makes content extending
+off the right edge of the screen difficult to access:
 
 [[Image:view_off.png]]
 
 This reflects the browser's default assumption that content should
-extend 980 pixels wide.
+extend 980 pixels wide. Mobile browsers must make that assumption in
+order to render pages that are ''not'' optimized for display on mobile
+screens.
 
-To correct this behavior, place the following line within the HTML's
-'''head''' region:
+To override the browser's default behavior, place this line within the
+HTML's '''head''' region:
 
  &lt;meta name="viewport" content="width=device-width" />
 
-The following shows the screen layout after the above viewport is
-applied:
+Here's how the screen layout looks after you apply the viewport:
 
 [[Image:view_on.png]]
 
@@ -84,8 +86,7 @@ Once content is well-adapted and accessible for presentation on mobile
 browsers, there may no longer be any need to use zoom controls to
 access different portions of the page. To disable the browser's
 default double-tap and pinch-zoom gestures and ensure that content
-appears at the proper magnification level, apply the following
-viewport:
+appears at the proper magnification level, apply this viewport:
 
  &lt;meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 
@@ -103,7 +104,7 @@ drag-scroll gestures.
 To disable vertical scrolling, you need to make sure there is not so
 much content on each page that it would overflow the screen. Screen
 layouts may also explicitly disable vertical scrolling, but they do so
-simply by making any overflowing content inaccessible. The following
+simply by making any overflowing content inaccessible. This
 viewport-enabled example presents a full-screen '''section''' element
 whose dimensions align with each edge of the screen:
 
@@ -127,11 +128,11 @@ following CSS renders it inaccessible:
 
  body { overflow: hidden }
 
-Increasingly, mobile browsers allow users to navigate scrollable
-content elements that appear within a page, but these should be used
-with care. Users may become confused when the scrolling gestures they
-expect to scroll within a page instead scrolls within a narrow region
-of that page. 
+Increasingly, mobile browsers allow users to navigate scrollable areas
+content that appear within a page, but these should be used with care.
+Users may become confused when the scrolling gestures they expect to
+scroll the entire page instead scrolls within a narrow region of that
+page.
 
 ==Tipping the Handset==
 
@@ -197,46 +198,53 @@ constant:
 
 As shown above, the browser independently magnifies text when shifting
 to landscape orientation.  To keep the text size from changing,
-disable the '''text-size-adjust''' CSS property. The following affects
-the entire page:
+disable the '''text-size-adjust''' CSS property. This fixes the entire
+page:
 
  html {
      -webkit-text-size-adjust : none;
      text-size-adjust         : none;
  }
 
-The following shows the resulting page, with text appearing at the
-same size:
+Here is the resulting page, with text appearing at the same size:
 
 [[Image:view_on_noscale_noadjust.png]]
 
-'''Warning:''' Applying the above CSS within a ''desktop''-oriented
+Be careful. Applying the CSS above within a ''desktop''-oriented
 interface interferes with the browser's zoom feature, which is not
-affected by mobile '''viewport''' settings. In that case, when users
-zoom in, the dimensions of screen elements changes, but the size of
+controlled by mobile '''viewport''' settings. In that case, when users
+zoom in, the dimensions of screen elements change, but the size of
 the text does not. If you are deploying a hybrid mobile interface
 adapted for desktop or tablet browsers, use media queries to narrow
-the scope of the above CSS.
+the scope of the above CSS:
 
-To review, use the following techniques to adapt flexible layouts to
-landscape orientation:
+ @media only screen and (max-device-width: 400px) {
+     html {
+         -webkit-text-size-adjust : none;
+         text-size-adjust         : none;
+     }
+     /* rest of mobile interface */
+ }
 
-* Set the viewport's '''width=device-width''' to fit content with the screen dimensions.
+==Review==
+
+Here's what we've learned:
+
+* For cross-device compatability, apply flexible layout elements that adapt to available dimensions.
+
+* Set the viewport's '''width=device-width''' to fit this content to the screen dimensions.
 
 * Set the viewport's '''user-scalable=no''' to widen flexible content in landscape view.
 
-* Set the '''text-size-adjust:none''' CSS property to keep text from changing size.
+* Set the '''text-size-adjust:none''' CSS property to keep text from zooming in landscape view.
 
-* Apply flexible layout elements that adapt to available dimensions.
-
-* Optionally, use '''orientation''' media queries to change layout, and '''orientationchange''' handlers to respond in other ways.
-
-==Everything is changing==
+* Optionally, use '''orientation''' media queries to change layout, and '''orientationchange''' handlers to respond in other ways when tipping the handset.
 
 The behavior described above is supported not only by the iPhone, but
-by comparable Android and Nokia browsers. While the viewport meta tag
-is itself not a formal standard, it is now being standardized as the
-[[css/atrules/@viewport|'''@viewport''']] CSS rule.
+by Android and comparable smartphone browsers. While the viewport meta
+tag is itself not a formal standard, it is now being folded into CSS
+as the [[css/atrules/@viewport|'''@viewport''']] rule, a change not
+yet reflected in mobile browsers on the market.
 
 }}
 {{Notes_Section}}
