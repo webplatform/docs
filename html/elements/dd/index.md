@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The "dd" tag is used for defining a term("dt"),  in a dictionary/definition list("dl").}}
+{{Summary_Section|The '"dd"' element (&lt;dd&gt;)  is used for defining a term [[html/elements/dt|dt]],  in a dictionary/definition list [[html/elements/dl|dl]].}}
 {{Markup_Element
 |DOM_interface=dom/HTMLDDElement
 }}
@@ -768,6 +768,7 @@ This property is not supported for Metro style apps using JavaScript.
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
