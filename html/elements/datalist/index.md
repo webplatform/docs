@@ -11,7 +11,16 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Code=<input type="text" name="locations" list="places">
+<datalist id="places">
+     <option>Amman, Jordan</option>
+     <option>New York, NY, USA</option>
+     <option>Paris, France</option>
+     <option>Vienna, Austria</option>
+</datalist>
+}}
 }}
 {{Notes_Section
 |Notes====Remarks===
