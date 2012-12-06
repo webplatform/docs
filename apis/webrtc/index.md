@@ -4,7 +4,7 @@
 {{API_Name}}
 {{Summary_Section|Enables real-time communication across the web.}}
 {{API_Listing
-|Query=[[Category:WebRTC]]
+|Query=[[Category:WebRTC]][[Category:API_Objects]]
 |Use_page_title=No
 |List_all_subpages=No
 }}
