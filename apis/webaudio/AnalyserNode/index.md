@@ -24,7 +24,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|Audio}}
+{{Topics|Audio, WebAudio}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
