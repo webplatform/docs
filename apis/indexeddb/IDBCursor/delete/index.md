@@ -1,5 +1,7 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|High-level issues=Stub
+}}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|Returns an IDBRequest object, and, in a separate thread, deletes the record at the cursor's position, without changing the cursor's position. Once the record is deleted, the cursor's value is set to null.}}
@@ -23,7 +25,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics}}
+{{Topics|IndexedDB}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
