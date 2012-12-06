@@ -61,7 +61,7 @@ while(cursor.continue()) {
 }}
 {{See_Also_Section
 |Manual_sections====Related pages (MSDN)===
-*<code>[[apis/indexedDB/IDBCursor|IDBCursor]]</code>
+*<code>[[apis/indexeddb/IDBCursor|IDBCursor]]</code>
 }}
 {{Topics|DOM, IndexedDB}}
 {{External_Attribution
