@@ -5,9 +5,18 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The '"dd"' element (&lt;dd&gt;)  is used for defining a term [[html/elements/dt|dt]],  in a dictionary/definition list [[html/elements/dl|dl]].}}
+{{Summary_Section|The '''dd''' element (&lt;dd&gt;) represents the description, definition, or value, part of a term-description group in a description list ([[html/elements/dl|dl]] element).}}
 {{Markup_Element
 |DOM_interface=dom/HTMLDDElement
+|Content====HTML information===
+{| class="wikitable"
+|-
+!Closing Tag
+|required
+|-
+!CSS Display
+|block
+|}
 }}
 {{Examples_Section
 |Not_required=No
@@ -23,22 +32,7 @@
 }}
 }}
 {{Notes_Section
-|Notes====Remarks===
-|Import_Notes====Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 10.3
-
-
-===HTML information===
-{| class="wikitable"
-|-
-!Closing Tag
-|required
-|-
-!CSS Display
-|block
-|}
-
-===Members===
+|Import_Notes====Members===
 The '''dd''' object has these types of members:
 *[#events Events]
 *[#methods Methods]
