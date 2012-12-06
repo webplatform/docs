@@ -5,7 +5,7 @@
 {{Summary_Section|Describes a high-level JavaScript API for processing and synthesizing audio in web applications.}}
 {{API_Listing
 |Query=[[Category:WebAudio]][[Category:API_Objects]]
-|Use_page_title=Yes
+|Use_page_title=No
 |List_all_subpages=No
 }}
 {{Notes_Section
