@@ -28,7 +28,6 @@
 !Description
 {{!}}A collection of '''option''' objects that represent possible selections for a '''datalist''' element.
 {{!}}}
-
 }}
 {{Examples_Section
 |Not_required=No
@@ -44,8 +43,7 @@
 }}
 }}
 {{Notes_Section
-|Import_Notes=
- 
+|Import_Notes= 
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -57,7 +55,28 @@
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
-|Desktop_rows=
+|Desktop_rows={{Compatibility Table Desktop Row
+|Chrome_supported=Yes
+|Chrome_version=20
+|Chrome_prefixed_supported=Unknown
+|Chrome_prefixed_version=
+|Firefox_supported=Yes
+|Firefox_version=4
+|Firefox_prefixed_supported=Unknown
+|Firefox_prefixed_version=
+|Internet_explorer_supported=Yes
+|Internet_explorer_version=10
+|Internet_explorer_prefixed_supported=Unknown
+|Internet_explorer_prefixed_version=
+|Opera_supported=Yes
+|Opera_version=9
+|Opera_prefixed_supported=Unknown
+|Opera_prefixed_version=
+|Safari_supported=No
+|Safari_version=
+|Safari_prefixed_supported=Unknown
+|Safari_prefixed_version=
+}}
 |Mobile_rows=
 |Notes_rows=
 }}
