@@ -41,7 +41,7 @@ The '''dd''' object has these types of members:
 
 ====Events====
 The '''dd''' object has these events.
-{| class="wikitable"
+{{!}}- class="wikitable"
 |-
 !Event
 !Description
