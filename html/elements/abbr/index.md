@@ -5,7 +5,9 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|The &lt;abbr&gt; element represents an abbreviation or acronym.}}
+{{Summary_Section|The '''abbr''' element (&lt;abbr&gt;) represents an abbreviation or acronym, optionally with its expansion. The title attribute may be used to provide an expansion of the abbreviation. The attribute, if specified, must contain an expansion of the abbreviation, and nothing else.
+
+}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
 |Content=The '''abbr''' element is a type of phrasing content that exists at the sub-paragraph level. It may not contain block-level elements. 
@@ -39,6 +41,7 @@ The <code>title</code> attribute may be used to provide an expansion of the abbr
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
 |Chrome_version=22.0
