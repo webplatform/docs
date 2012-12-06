@@ -321,7 +321,12 @@ standard is not wiely supported on mobile browsers.
 }}
 |Notes_rows=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|External_links=* Mozilla Developer Network: [https://developer.mozilla.org/en-US/docs/Mobile/Viewport_meta_tag Using the viewport meta tag to control layout on mobile browsers ]
+* Safari Developer Library: [http://developer.apple.com/library/safari/#documentation/appleapplications/reference/safariwebcontent/UsingtheViewport/UsingtheViewport.html#//apple_ref/doc/uid/TP40006509-SW1 Configuring the Viewport]
+* dev.opera: [http://dev.opera.com/articles/view/an-introduction-to-meta-viewport-and-viewport/ An introduction to meta viewport and @viewport]
+* quirksmode: [http://www.quirksmode.org/mobile/viewports.html A tale of two viewports]
+}}
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
