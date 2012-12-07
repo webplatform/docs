@@ -1,4 +1,3 @@
-{{Page_Title}}
 {{Flags}}
 {{API_Name}}
 {{Summary_Section|Does designing for the web differ from designing a chair? No, it doesn't. Both need to make usability, aesthetic and technic work together to serve the product pupose and its users.}}
