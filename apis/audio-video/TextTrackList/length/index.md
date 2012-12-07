@@ -4,7 +4,7 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|The length attribute of a TextTrackList object returns the number of text tracks in the list represented by the TextTrackList object.}}
+{{Summary_Section|The length attribute of a TextTrackList object returns the number of text tracks in the list represented by the TextTrackList.}}
 {{API_Object_Property
 |Property_applies_to=apis/audio-video/TextTrackList
 |Read_only=Yes
