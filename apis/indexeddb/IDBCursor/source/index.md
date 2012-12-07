@@ -1,0 +1,34 @@
+{{Page_Title}}
+{{Flags
+|High-level issues=Stub
+}}
+{{Standardization_Status}}
+{{API_Name}}
+{{Summary_Section|On getting, returns the IDBObjectStore or IDBIndex that the cursor is iterating. This function never returns null or throws an exception, even if the cursor is currently being iterated, has iterated past its end, or its transaction is not active.}}
+{{API_Object_Property
+|Property_applies_to=apis/indexeddb/IDBCursor
+|Read_only=Yes
+}}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
+{{Notes_Section}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=Yes
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section}}
+{{Topics|IndexedDB}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
+}}
