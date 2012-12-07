@@ -1,20 +1,13 @@
 {{Page_Title}}
-{{Flags
-|High-level issues=Stub
-|Content=Incomplete
-}}
+{{Flags}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Is designing for the web different from designing a chair? Not that much, it needs to make usability, aesthetic and technic work together. }}
 {{Concept_Page
-|Content=The primary goal when designing for the web is usefulness. Your website should work on any browser (within reason) and on a variety of platforms. This requires that you think upfront about the user experience through two factors; Aesthetics and Usability. 
+|Content=When a designer conceives a chair, he needs think about the technic requirements, the product aesthetic and the user ease:
+* If the final object is superb but no one can sit on it, he didn't conceive a chair but just a piece of art. 
+* If the chair is the most comfortable in the world but it looks like a torture device to sit on it, who would even try it? The chair he conceives must have a coherent look'n feel: it should offer a proper experience to its users.
 
-=== Aesthetics ===
-Building a website with strong aesthetics doesn't necessarily mean building a pretty website. The design has to go well with the content. For example, visitors would expect a secondhand store to use old-fashioned design elements and professional enterprise-focused sites tend to use muted color schemes and a rigid site structure.
-
-=== Usability ===
-Usability focuses on providing the means to navigate your website and allowing access to the content. Nested menus, breadcrumbs, sidebars and footers are all a part of providing a useful interface to your visitors. That said, not all websites need to encompass all these elements to provide a useful user experience. It all depends on the target audience, whether it be children who would be more interested in non-conventional menus that evoke emotion or business-oriented individuals who want to go straight to the meat of the content.
-
-The concept of User Experience design (abbreviated to UX) is becoming a popular topic to focus on when building modern websites. Design is more than just the visual impression of a website, but also how it works and whom it is meant to work for.
+For a chair like for the Web, Designing is conceiving a product for its users. It is a process where technical constraints, aesthetic and usability meet in order to serve a purpose for its targets. Design must focus on existing and future users. Designing for the WEB is not just about graphics/aesthetics, rather it applies to all the overarching work going towards ensuring that the Web project meets its purpose for its target audience.
 }}
 {{Examples_Section
 |Not_required=No
