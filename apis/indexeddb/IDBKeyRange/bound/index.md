@@ -28,11 +28,11 @@
 |Description=Indicates whether the key range includes the upper value.
 |Optional=No
 }}
-|Method_applies_to=apis/indexedDB/IDBKeyRange
+|Method_applies_to=apis/indexeddb/IDBKeyRange
 |Example_object_name=IDBKeyRange
 |Return_value_name=range
 |Javascript_data_type=DOM Node
-|Return_value_description=A range that can be used for specifying the range of cursors. 
+|Return_value_description=A range that can be used for specifying the range of cursors.
 }}
 {{Examples_Section
 |Not_required=No
@@ -53,7 +53,8 @@ var cursor = store.openCursor(range);
 |Specifications=
 }}
 {{Compatibility_Section
-|Not_required=No
+|Not_required=Yes
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
@@ -62,7 +63,7 @@ var cursor = store.openCursor(range);
 |Manual_sections====Related pages (MSDN)===
 *<code>[[apis/indexedDB/IDBKeyRange|IDBKeyRange]]</code>
 }}
-{{Topics|DOM}}
+{{Topics|IndexedDB}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
