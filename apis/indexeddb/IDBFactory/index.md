@@ -44,6 +44,7 @@ The '''IDBFactory''' object has these methods.
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Feature=IDBFactory
 |Chrome_supported=Yes
@@ -110,7 +111,7 @@ The '''IDBFactory''' object has these methods.
 *<code>[[apis/indexedDB/events/onerror|onerror]]</code>
 *<code>onblocked</code>
 }}
-{{Topics|DOM}}
+{{Topics|IndexedDB}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
