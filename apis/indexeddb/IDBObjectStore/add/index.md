@@ -18,7 +18,7 @@
 |Description=A key must be provided if the Object Store does not have a key path, or a key generator is not specified.
 |Optional=Yes
 }}
-|Method_applies_to=apis/indexedDB/IDBObjectStore
+|Method_applies_to=apis/indexeddb/IDBObjectStore
 |Example_object_name=objectStore
 |Return_value_name=idbRequest
 |Javascript_data_type=DOM Node
@@ -76,7 +76,8 @@ This method can throw the following [[dom/DOMException|'''DOMException''']]
 }}
 }}
 {{Compatibility_Section
-|Not_required=No
+|Not_required=Yes
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
