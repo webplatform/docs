@@ -6,7 +6,7 @@
 {{API_Name}}
 {{Summary_Section|Name of the connected database.}}
 {{API_Object_Property
-|Property_applies_to=apis/indexedDB/IDBDatabase
+|Property_applies_to=apis/indexeddb/IDBDatabase
 |Read_only=Yes
 }}
 {{Examples_Section
