@@ -18,7 +18,7 @@
 |Description=The version (unsigned long long) for the database
 |Optional=Yes
 }}
-|Method_applies_to=apis/indexedDB/IDBFactory
+|Method_applies_to=apis/indexeddb/IDBFactory
 |Example_object_name=indexeddb
 |Return_value_name=dbOpenRequest
 |Javascript_data_type=DOM Node
@@ -76,6 +76,7 @@ dbOpenRequest.onerror = function(e){
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Feature=open method
 |Chrome_supported=Yes
@@ -138,7 +139,7 @@ dbOpenRequest.onerror = function(e){
 |Manual_sections====Related pages (MSDN)===
 *<code>[[apis/indexedDB/properties/indexedDB|indexedDB]]</code>
 }}
-{{Topics|DOM}}
+{{Topics|IndexedDB}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
