@@ -1,5 +1,7 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|High-level issues=Stub, Missing Relevant Sections
+}}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|Name of the connected database.}}
