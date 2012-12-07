@@ -13,7 +13,7 @@
 |Description=Name of the index to be deleted.
 |Optional=No
 }}
-|Method_applies_to=apis/indexedDB/IDBObjectStore
+|Method_applies_to=apis/indexeddb/IDBObjectStore
 |Example_object_name=objectStore
 |Javascript_data_type=void
 }}
@@ -23,7 +23,6 @@
 |Language=JavaScript
 |Code=var objectStore = transaction.objectStore("ObjectStore_BookList");
 objectStore.deleteIndex("priceIndex");
-
 |LiveURL=http://nparashuram.com/trialtool/index.html#example=/IndexedDB/trialtool/moz_indexedDB.html&selected=Delete%20Index&
 }}
 }}
@@ -40,6 +39,7 @@ objectStore.deleteIndex("priceIndex");
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
@@ -48,7 +48,7 @@ objectStore.deleteIndex("priceIndex");
 |Manual_sections====Related pages (MSDN)===
 *<code>[[apis/indexedDB/IDBObjectStore|IDBObjectStore]]</code>
 }}
-{{Topics|DOM}}
+{{Topics|IndexedDB}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
