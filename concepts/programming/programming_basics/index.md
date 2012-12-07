@@ -1,9 +1,5 @@
 {{Page_Title|Programming basics}}
 {{Flags
-|Content=Examples Best Practices
-|Editorial notes=The test at the end uses !== and asks for a loop using foreach, or for .... but none of this was covered
-
-And where can we find the answers?
 }}
 {{Byline
 |Name=Chris Heilmann
