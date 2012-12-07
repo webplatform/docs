@@ -77,7 +77,7 @@
 }}
 |Notes_rows={{Compatibility Notes Row
 |Browser=WebKit
-|Note=Supported year range is 1-275760
+|Note=Supports dates between 0001-01-01 and 275760-09-13. It is applied to value, min, and max.
 }}
 }}
 {{See_Also_Section}}
