@@ -13,7 +13,7 @@
 |Description=The name of the database to delete.
 |Optional=No
 }}
-|Method_applies_to=apis/indexedDB/IDBFactory
+|Method_applies_to=apis/indexeddb/IDBFactory
 |Example_object_name=window.indexeddb
 |Return_value_name=dbOpenRequest
 |Javascript_data_type=DOM Node
@@ -50,7 +50,8 @@ A [[apis/indexedDB/IDBOpenRequest|'''IDBOpenRequest''']] request object that fir
 |Specifications=
 }}
 {{Compatibility_Section
-|Not_required=No
+|Not_required=Yes
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
 |Chrome_version=11
@@ -81,7 +82,7 @@ A [[apis/indexedDB/IDBOpenRequest|'''IDBOpenRequest''']] request object that fir
 *<code>[[apis/indexedDB/properties/indexedDB|indexedDB]]</code>
 *<code>[[apis/indexedDB/IDBFactory|IDBFactory]]</code>
 }}
-{{Topics|DOM}}
+{{Topics|IndexedDB}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
