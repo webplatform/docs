@@ -3,9 +3,7 @@
 {{API_Name}}
 {{Summary_Section|Debugging web applications on multiple platforms requires careful prioritisation, different from developing for desktop alone. This article explains techniques and tools available, with links to external resources.}}
 {{Concept_Page
-|Content=
-
-== Quick start ==
+|Content=== Quick start ==
 
 # Prioritise testing on a variety of [[#Devices|real devices]].
 # Add  [[#Simulators and emulators|simulators and emulators]] to your toolkit.
@@ -106,7 +104,7 @@ The [http://www.opera.com/developer/tools/mobile/ Opera Mobile simulator] can ru
 
 == Remote debugging ==
 
-Several tools enable developers to run a debugger user interface on one device to debug a web page running on another: For example, to debug a web page displayed on your phone from your laptop.
+Several tools enable developers to run a debugger user interface on one device in order to debug a web page running on another: for example, from your laptop debug a web page displayed on your phone.
 
 Most tools for remote debugging require some setup; in particular, browser tools require port forwarding to be initiated from the command line.
 
@@ -263,7 +261,6 @@ Ilya Grigorik on performance:<br/> [http://www.igvita.com/slides/2012/webperf-cr
 Brian Leroux on debugging mobile web apps: <br/> [http://brian.io/slides/debug-mobile/#/ brian.io/slides/debug-mobile]
 
 Resources for finding information about web development, and how to help others: <br/> [http://movethewebforward.org/ movethewebforward.org]
-
 }}
 {{Examples_Section
 |Not_required=No
