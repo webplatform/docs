@@ -8,7 +8,7 @@
 |Inherited=No
 |Media=visual
 |Animatable=No
-|CSS object model property=identifier
+|CSS object model property=flowFrom
 |Values={{CSS Property Value
 |Data Type=identifier
 |Description=Replaces content from specified named flow, flowing it from one ''region'' element to another.
