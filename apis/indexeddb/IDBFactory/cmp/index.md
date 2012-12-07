@@ -20,7 +20,7 @@ The method returns 1 if the first key is greater than the second, -1 if the firs
 |Description=The second key to compare
 |Optional=No
 }}
-|Method_applies_to=apis/indexedDB/IDBFactory
+|Method_applies_to=apis/indexeddb/IDBFactory
 |Example_object_name=window.indexeddb
 |Return_value_name=result
 |Javascript_data_type=Number
@@ -46,7 +46,8 @@ console.log( "Comparison results: " + result );
 |Specifications=
 }}
 {{Compatibility_Section
-|Not_required=No
+|Not_required=Yes
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
