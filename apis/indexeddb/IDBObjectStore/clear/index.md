@@ -8,7 +8,7 @@
 {{Summary_Section|Removes all records from the object store}}
 {{API_Object_Method
 |Parameters=
-|Method_applies_to=apis/indexedDB/IDBObjectStore
+|Method_applies_to=apis/indexeddb/IDBObjectStore
 |Example_object_name=objectStore
 |Return_value_name=idbRequest
 |Javascript_data_type=DOM Node
@@ -38,7 +38,8 @@ store.clear(); // Clears all records from the store
 |Specifications=
 }}
 {{Compatibility_Section
-|Not_required=No
+|Not_required=Yes
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
@@ -47,7 +48,7 @@ store.clear(); // Clears all records from the store
 |Manual_sections====Related pages (MSDN)===
 *<code>[[apis/indexedDB/IDBObjectStore|IDBObjectStore]]</code>
 }}
-{{Topics|DOM}}
+{{Topics|IndexedDB}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
