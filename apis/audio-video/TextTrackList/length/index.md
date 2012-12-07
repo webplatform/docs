@@ -33,7 +33,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|Audio, Video}}
+{{Topics|Audio, DOM, Video}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
