@@ -23,7 +23,7 @@
 |Description=The options object whose attributes are optional parameters to this function. 'unique' specifies whether the index's unique flag is set. 'multiEntry' specifies whether the index's multiEntry flag is set.
 |Optional=Yes
 }}
-|Method_applies_to=apis/indexedDB/IDBObjectStore
+|Method_applies_to=apis/indexeddb/IDBObjectStore
 |Example_object_name=objectStore
 |Return_value_name=index
 |Javascript_data_type=DOM Node
@@ -42,7 +42,6 @@ var index = objectStore.createIndex("priceIndex", "price", {
     "unique": false,
     "multiEntry": true
 });
-
 |LiveURL=http://nparashuram.com/trialtool/index.html#example=/IndexedDB/trialtool/moz_indexedDB.html&selected=Create%20Index&
 }}
 }}
@@ -59,7 +58,8 @@ var index = objectStore.createIndex("priceIndex", "price", {
 |Specifications=
 }}
 {{Compatibility_Section
-|Not_required=No
+|Not_required=Yes
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
@@ -68,7 +68,7 @@ var index = objectStore.createIndex("priceIndex", "price", {
 |Manual_sections====Related pages (MSDN)===
 *<code>[[apis/indexedDB/IDBObjectStore|IDBObjectStore]]</code>
 }}
-{{Topics|DOM, IndexedDB}}
+{{Topics|IndexedDB}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
