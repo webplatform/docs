@@ -25,20 +25,26 @@ The input element behavior varies depending on the value of its [[html/elements/
 * [[html/elements/input/type/button|type=button]]
 * [[html/elements/input/type/checkbox|type=checkbox]]
 * [[html/elements/input/type/color|type=color]]
+* [[html/elements/input/type/date|type=date]]
+* [[html/elements/input/type/datetime-local|type=datetime-local]]
 * [[html/elements/input/type/email|type=email]]
 * [[html/elements/input/type/file|type=file]]
 * [[html/elements/input/type/hidden|type=hidden]]
 * [[html/elements/input/type/image|type=image]]
+* [[html/elements/input/type/month|type=month]]
 * [[html/elements/input/type/number|type=number]]
 * [[html/elements/input/type/password|type=password]]
 * [[html/elements/input/type/radio|type=radio]]
 * [[html/elements/input/type/range|type=range]]
 * [[html/elements/input/type/reset|type=reset]]
+* [[html/elements/input/type/time|type=time]]
 * [[html/elements/input/type/search|type=search]]
 * [[html/elements/input/type/submit|type=submit]]
 * [[html/elements/input/type/tel|type=tel]]
 * '''[[html/elements/input/type/text|type=text]]''' (default if type is not set or empty)
 * [[html/elements/input/type/url|type=url]]
+* [[html/elements/input/type/week|type=week]]
+
 }}
 {{Examples_Section
 |Not_required=No
@@ -73,6 +79,7 @@ The input element behavior varies depending on the value of its [[html/elements/
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
