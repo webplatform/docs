@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The key path of this index. If null, this index is not auto-populated.}}
 {{API_Object_Property
 |Property_applies_to=apis/indexeddb/IDBIndex
 |Read_only=Yes
