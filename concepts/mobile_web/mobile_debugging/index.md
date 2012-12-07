@@ -1,9 +1,9 @@
 {{Page_Title|Mobile debugging}}
 {{Flags}}
 {{API_Name}}
-{{Summary_Section|Debugging web apps on multiple devices presents a number of challenges different from developing for desktop alone. This article explains techniques and tools available, with links to external resources.}}
+{{Summary_Section|Debugging web applications on multiple platforms requires careful prioritisation, different from developing for desktop alone. This article explains techniques and tools available, with links to external resources.}}
 {{Concept_Page
-|Content=Debugging web applications on multiple platforms requires careful prioritisation &ndash; and is often more complex and unpredictable than for the traditional desktop setup with keyboard, mouse and monitor.
+|Content=
 
 == Quick start ==
 
