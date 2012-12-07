@@ -1,6 +1,8 @@
 {{Page_Title}}
-{{Flags}}
-{{Standardization_Status}}
+{{Flags
+|Content=Incomplete, Compatibility Incomplete
+}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section}}
 {{Markup_Element
@@ -19,6 +21,7 @@
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
 |Chrome_version=20
@@ -69,11 +72,13 @@
 |Opera_mini_prefixed_supported=No
 |Opera_mini_prefixed_version=
 |Safari_mobile_supported=Yes
-|Safari_mobile_version=
 |Safari_mobile_prefixed_supported=No
 |Safari_mobile_prefixed_version=
 }}
-|Notes_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=WebKit
+|Note=Supported year range is 1-275760
+}}
 }}
 {{See_Also_Section}}
 {{Topics|HTML}}
