@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The count method returns the number of records in an object store. }}
+{{Summary_Section|The count method returns the number of records in an object store.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=key
@@ -13,7 +13,7 @@
 |Description=A key value or a reference to a [[apis/indexedDB/IDBKeyRange|'''IDBKeyRange''']] object.
 |Optional=Yes
 }}
-|Method_applies_to=apis/indexedDB/IDBObjectStore
+|Method_applies_to=apis/indexeddb/IDBObjectStore
 |Example_object_name=objectStore
 |Return_value_name=recordCount
 |Javascript_data_type=Number
@@ -37,7 +37,8 @@ The number of records matching the specified value or "0" if no matches are foun
 |Specifications=
 }}
 {{Compatibility_Section
-|Not_required=No
+|Not_required=Yes
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
@@ -47,7 +48,7 @@ The number of records matching the specified value or "0" if no matches are foun
 *<code>[[apis/indexedDB/IDBObjectStore|IDBObjectStore]]</code>
 *<code>[[apis/indexedDB/IDBIndex|IDBIndex]]</code>
 }}
-{{Topics|DOM}}
+{{Topics|IndexedDB}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
