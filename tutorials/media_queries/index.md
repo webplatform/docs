@@ -4,9 +4,7 @@
 }}
 {{Byline}}
 {{Summary_Section}}
-{{Tutorial
-|Content=___
-}}
+{{Tutorial}}
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
