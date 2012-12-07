@@ -13,7 +13,7 @@
 |Description=Key identifying the record to be deleted
 |Optional=No
 }}
-|Method_applies_to=apis/indexedDB/IDBObjectStore
+|Method_applies_to=apis/indexeddb/IDBObjectStore
 |Example_object_name=objectStore
 |Return_value_name=idbRequest
 |Javascript_data_type=DOM Node
@@ -62,6 +62,7 @@ This method can throw the following [[dom/DOMException|'''DOMException''']] exce
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
@@ -70,7 +71,7 @@ This method can throw the following [[dom/DOMException|'''DOMException''']] exce
 |Manual_sections====Related pages (MSDN)===
 *<code>[[apis/indexedDB/IDBObjectStore|IDBObjectStore]]</code>
 }}
-{{Topics|DOM}}
+{{Topics|IndexedDB}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
