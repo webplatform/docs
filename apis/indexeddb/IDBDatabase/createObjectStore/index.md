@@ -20,14 +20,13 @@
 * '''autoIncrement''': specifies whether the object store should have a key generator. If a key generator is present, the key will be automatically incremented when objects get inserted.
 |Optional=Yes
 }}
-|Method_applies_to=apis/indexedDB/IDBDatabase
+|Method_applies_to=apis/indexeddb/IDBDatabase
 |Example_object_name=IDBDatabase
 |Return_value_name=IDBObjectStore
 |Javascript_data_type=DOM Node
 |Return_value_description=[[apis/indexedDB/IDBObjectStore|'''IDBObjectStore''']]
 
 An object representing the new object store.
-
 }}
 {{Examples_Section
 |Not_required=No
@@ -52,7 +51,6 @@ try {
 * This method was not called from a "versionchange" transaction. Also occurs if a request is made on a source object that has been deleted or removed.
 * If an object store with the same name, compared in a case-sensitive manner, already exists in the connected database.
 * If autoIncrement is set to true, and keyPath either is the empty string, or an Array containing the empty string.
-
 |Import_Notes====Syntax===
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?LinkId{{=}}224519 Indexed Database API]
@@ -62,6 +60,7 @@ try {
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
@@ -70,7 +69,7 @@ try {
 |Manual_sections====Related pages (MSDN)===
 *<code>[[apis/indexedDB/IDBDatabase|IDBDatabase]]</code>
 }}
-{{Topics|DOM}}
+{{Topics|IndexedDB}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
