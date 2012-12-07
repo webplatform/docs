@@ -8,7 +8,7 @@
 {{Summary_Section|This method synchronously performs the steps for closing a database connection and returns once the database has been closed.}}
 {{API_Object_Method
 |Parameters=
-|Method_applies_to=apis/indexedDB/IDBDatabase
+|Method_applies_to=apis/indexeddb/IDBDatabase
 |Example_object_name=database
 |Javascript_data_type=void
 }}
@@ -36,6 +36,7 @@ dbOpenRequest.onsuccess = function(event){
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
@@ -44,7 +45,7 @@ dbOpenRequest.onsuccess = function(event){
 |Manual_sections====Related pages (MSDN)===
 *<code>[[apis/indexedDB/IDBDatabase|IDBDatabase]]</code>
 }}
-{{Topics|DOM}}
+{{Topics|IndexedDB}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
