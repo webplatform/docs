@@ -1,39 +1,42 @@
+{{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Compatibility Incomplete
 }}
-{{Standardization_Status|}}
+{{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
+{{Summary_Section|The length attribute of a TextTrackList object returns the number of text tracks in the list represented by the TextTrackList object.}}
 {{API_Object_Property
 |Property_applies_to=apis/audio-video/TextTrackList
-|Read_only=
+|Read_only=Yes
+|Example_object_name=TextTrackList
+|Javascript_data_type=unsigned long
 }}
-{{Topics|DOM}}
 {{Examples_Section
-|Not_required=No
-|Examples=}}
+|Not_required=Yes
+|Examples=
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
-The maximum number of audio tracks a video can contain has not been defined in the World Wide Web Consortium (W3C) specification.
-|Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}221374 HTML5 A vocabulary and associated APIs for HTML and XHTML], Section 4.8.10.12
-
-
+|Notes=The maximum number of audio tracks a video can contain has not been defined in the World Wide Web Consortium (W3C) specification.
 }}
-{{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
-*<code>[[apis/audio-video/TextTrackList|TextTrackList]]</code>
-*<code>[[apis/audio-video/TextTrackCueList|TextTrackCueList]]</code>
-*<code>[[apis/audio-video/AudioTrackList|AudioTrackList]]</code>
+{{Related_Specifications_Section
+|Specifications={{Related Specification
+|Name=W3C Specification
+|URL=http://dev.w3.org/html5/spec/single-page.html
+|Status=W3C Editor's Draft
 }}
+}}
+{{Compatibility_Section
+|Not_required=Yes
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section}}
+{{Topics|Audio, Video}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=
 |HTML5Rocks_link=
 }}
