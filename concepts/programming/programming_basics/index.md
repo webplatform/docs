@@ -1,6 +1,5 @@
 {{Page_Title|Programming basics}}
-{{Flags
-}}
+{{Flags}}
 {{Byline
 |Name=Chris Heilmann
 |URL=http://wait-till-i.com/
@@ -289,8 +288,8 @@ Conditions can also be nested. Say for example you want to make sure that the co
 <source lang="javascript">
 <script>
 var country = 'Germany',
-    weather;
-    food;
+    weather,
+    food,
     currency,
     message;
 
