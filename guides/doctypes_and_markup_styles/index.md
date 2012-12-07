@@ -71,7 +71,7 @@ If you want to use framesets and still have your markup validate, you can use on
 &lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd"&gt;</pre>
 
-They are functionally the same as HTML 4.01 transitional and XHTML 1.0 transitional respectively, but they allow the use of framesets. But please don't use framesets: they are evil and outdated. We don't even tell you have to use them anywhere in this course. Everytime you use a frameset on a web page, a fairy dies. So please don't. Think of the fairies.
+They are functionally the same as HTML 4.01 transitional and XHTML 1.0 transitional respectively, but they allow the use of framesets. But please don't use framesets: they are evil and outdated. We don't even tell you how to use them anywhere in this course. Every time you use a frameset on a web page, a fairy dies. So please don't. Think of the fairies.
 
 === Other doctypes ===
 
@@ -145,6 +145,7 @@ Therefore you should just stick to not trying to serve documents as proper XHTML
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
