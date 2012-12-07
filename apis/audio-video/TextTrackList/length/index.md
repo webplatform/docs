@@ -20,7 +20,7 @@
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=W3C Specification
+|Name=W3C HTML5 Specification
 |URL=http://dev.w3.org/html5/spec/single-page.html
 |Status=W3C Editor's Draft
 }}
