@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Represents a modal or modal-less child window of a window, with additional utility methods for arguments and return values.}}
+{{Summary_Section|Represents a modal or modeless child window of a window, with additional utility methods for arguments and return values.}}
 {{API_Object
 |Subclass_of=dom/window
 }}
