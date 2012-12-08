@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Gets the arguments that are specified when [[dom/methods/showModalDialog|showModalDialog]] or [[dom/methods/showModallessDialog|showModallessDialog]] are called.}}
+{{Summary_Section|Gets the arguments that are specified when [[dom/methods/showModalDialog|showModalDialog]] or [[dom/methods/showModelessDialog|showModelessDialog]] are called.}}
 {{API_Object_Property
 |Property_applies_to=dom/WindowModal
 |Read_only=No
