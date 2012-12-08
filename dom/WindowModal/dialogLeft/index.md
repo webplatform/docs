@@ -5,13 +5,15 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Gets or sets the left coordinate position of a dialog window.}}
+{{Summary_Section|Gets or sets the X coordinate position of a dialog window.}}
 {{API_Object_Property
 |Property_applies_to=dom/WindowModal
 |Read_only=No
 |Example_object_name=window
-|Return_value_name=dialogLeft
-|Javascript_data_type=Number
+|Return_value_name=xCoordinate
+|Javascript_data_type=String
+|Return_value_description=The X coordinate position and a unit of measure.
+|Example_value_name=newYCoordinate
 }}
 {{Examples_Section
 |Not_required=No
