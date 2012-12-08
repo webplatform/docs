@@ -12,7 +12,7 @@
 |Example_object_name=window
 |Return_value_name=height
 |Javascript_data_type=String
-|Return_value_description=The height of the content area of the dialog window.
+|Return_value_description=The height of the content area of the dialog window and a unit of measure.
 |Example_value_name=newHeight
 }}
 {{Examples_Section
@@ -43,7 +43,7 @@ function someMessage(e) {
 }}
 }}
 {{Notes_Section
-|Notes=*The '''dialogHeight''' property applies only to windows that are created by using the [[dom/methods/showModalDialog|'''showModalDialog''']] method and the [[dom/methods/showModelessDialog|'''showModelessDialog''']] method.
+|Notes=*This property applies only to windows that are created by using the [[dom/methods/showModalDialog|'''showModalDialog''']] method and the [[dom/methods/showModelessDialog|'''showModelessDialog''']] method.
 *When a script calls the [[dom/methods/showModalDialog|'''showModalDialog''']] method, it suspends execution until the modal dialog box is closed.  As a result, the script cannot use the '''dialogHeight''' property to change the appearance of the modal dialog box. To control the appearance of the modal dialog box, use script in the file loaded by the '''sURL''' parameter or use the value of the '''sFeatures''' parameter to specify the desired settings.
 *Although a user can manually adjust the height of a dialog box to a smaller value—provided the dialog box is resizable—the minimum '''dialogHeight''' you can set using script is 100 pixels.
 *The default unit of measure is <code>px</code>.
@@ -60,8 +60,8 @@ function someMessage(e) {
 |Mobile_rows=
 |Notes_rows={{Compatibility Notes Row
 |Browser=Internet Explorer
-|Version=7 and later
-|Note=Returns the height of the content area and no longer includes the height of the frame.
+|Version=6 and earlier
+|Note=Returns the height of the entire frame area.
 }}{{Compatibility Notes Row
 |Browser=Internet Explorer
 |Version=4
