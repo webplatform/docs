@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Gets or sets the width of the content area of a dialog window.}}
 {{API_Object_Property
 |Property_applies_to=dom/WindowModal
 |Read_only=No
@@ -66,10 +66,7 @@ function someMessage(e) {
 |Note=The default unit of measure is <code>em</code>.
 }}
 }}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>window</code>
-}}
+{{See_Also_Section}}
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
