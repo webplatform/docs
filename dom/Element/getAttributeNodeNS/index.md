@@ -1,34 +1,51 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
+{{Summary_Section|Gets an [[dom/attributes|'''attribute''']] object that matches the specified namespace and name.}}
 {{API_Object_Method
-|Parameters={{Method Parameter|Name=pvarNS|Data type=VARIANT|Description=The namespace URI that defines the desired attribute, or a null value.|Optional=}}
-{{Method Parameter|Name=bstrname|Data type=BSTR|Description=The name of the desired attribute, or a null value.|Optional=}}
-|Method_applies_to=dom/Element
-|Example_object_name=object
-|Return_value_name=object
-|Javascript_data_type=DOM Node
-|Return_value_description='''IHTMLDOMAttribute2'''
-
-An attribute node that matches the specified namespace and attribute name, or a null value when no attribute node is found.
-
-
+|Parameters={{Method Parameter
+|Name=namespace
+|Data type=String
+|Description=The namespace URI that defines the desired attribute, or a null value.
+|Optional=No
+}}{{Method Parameter
+|Name=name
+|Data type=Blob
+|Description=The name of the desired attribute, or a null value.
+|Optional=No
 }}
-{{Topics|DOM}}
-{{Notes_Section
-|Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}182717 Document Object Model (DOM) Level 3 Core Specification], Section 1.4
-
-
+|Method_applies_to=dom/Element
+|Example_object_name=element
+|Return_value_name=attributeNode
+|Javascript_data_type=DOM Node
+|Return_value_description=An attribute node that matches the specified namespace and attribute name, or a null value when no attribute node is found.
+}}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
+{{Notes_Section}}
+{{Related_Specifications_Section
+|Specifications={{Related Specification
+|Name=DOM Level 3 Core
+|URL=http://www.w3.org/TR/DOM-Level-3-Core/
+|Status=Recommendation
+|Relevant_changes=1.4
+}}
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 *<code>[[html/elements/a|a]]</code>
 *<code>abbr</code>
 *<code>[[html/elements/acronym|acronym]]</code>
@@ -154,10 +171,11 @@ An attribute node that matches the specified namespace and attribute name, or a 
 *<code>xmp</code>
 *<code>[[dom/methods/getAttributeNode|getAttributeNode]]</code>
 }}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
