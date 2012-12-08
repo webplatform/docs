@@ -5,10 +5,12 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Gets the arguments that are specified when [[dom/methods/showModalDialog|showModalDialog]] or [[dom/methods/showModallessDialog|showModallessDialog]] are called.}}
 {{API_Object_Property
-|Property_applies_to=dom/window
+|Property_applies_to=dom/WindowModal
 |Read_only=No
+|Example_object_name=window
+|Return_value_name=arguments
 }}
 {{Examples_Section
 |Not_required=No
@@ -89,10 +91,7 @@ document.write(sLastName);
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>window</code>
-}}
+{{See_Also_Section}}
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
