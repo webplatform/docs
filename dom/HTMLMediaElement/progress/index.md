@@ -1,40 +1,50 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section|Fires to indicate progress while downloading media data.}}
 {{Event
+|Event_applies_to=dom/HTMLMediaElement
 |Interface=dom/objects/Event
 |Target=dom/Element
 |Default_action=
-|Content=
-|Event_applies_to=dom/Element
 |Synchronous=No
 |Bubbles=No
 |Cancelable=No
 }}
-{{Topics|Events}}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
-This operation occurs while the video is loading.
-To invoke this event, do one of the following:
-*Start playing audio or video from a website.
-
-|Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}221374 HTML5 A vocabulary and associated APIs for HTML and XHTML], Section 4.8.9.12
-
-
-===Event handler parameters===
-;''pEvtObj'' [in]:Type: '''<b>IHTMLEventObj'''</b>
-
+|Notes=This operation occurs while the video is loading.
+To invoke this event, Start playing audio or video from a website.
+}}
+{{Related_Specifications_Section
+|Specifications={{Related Specification
+|Name=W3C HTML5
+|URL=http://www.w3.org/TR/html5/
+|Status=Working Draft
+|Relevant_changes=Section 4.8.9.12
+}}{{Related Specification
+|Name=WHATWG HTML
+|URL=http://www.whatwg.org/specs/web-apps/current-work/multipage
+|Status=Living Standard
+|Relevant_changes=Section 4.8.9.12
+}}
+}}
+{{Compatibility_Section
+|Not_required=Yes
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 *<code>audio</code>
 *<code>audio</code>
 *<code>[[dom/document|document]]</code>
@@ -43,10 +53,11 @@ To invoke this event, do one of the following:
 *<code>video object</code>
 *<code>window</code>
 }}
+{{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
