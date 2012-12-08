@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Defines a linear gradient as a CSS image.}}
 {{CSS_Function}}
 {{Examples_Section
 |Not_required=No
@@ -77,6 +77,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
 |Browser=Internet Explorer
 |Version=6
 |Note=filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cccccc', endColorstr='#000000');
+}}{{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=10
+|Note=Supports the previous syntax ("top" instead of "to bottom") as the vendor prefixed version (<code>-ms-linear-gradient</code>), supports the latest syntax ("to bottom" instead of "top") as the non prefixed version (<code>linear-gradient</code>.
+}}{{Compatibility Notes Row
+|Browser=Chrome
+|Version=22 and later
+|Note=Only supports the previous syntax ("top" instead of "to bottom") as the vendor prefixed version (<code>-webkit-linear-gradient</code>) and the obsolete syntax as a vendor prefixed version (<code>-webkit-gradient</code>).
+}}{{Compatibility Notes Row
+|Browser=Safari
+|Version=5.1 and later
+|Note=Only supports the previous syntax ("top" instead of "to bottom") as the vendor prefixed version (<code>-webkit-linear-gradient</code>) and the obsolete syntax as a vendor prefixed version (<code>-webkit-gradient</code>).
 }}
 }}
 {{See_Also_Section
