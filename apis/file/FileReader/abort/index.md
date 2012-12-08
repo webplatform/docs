@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Aborts a read operation by reader objects, like [[apis/file/FileReder|FileReader]].}}
+{{Summary_Section|Aborts a read operation by reader objects, like [[apis/file/FileReader|FileReader]].}}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=apis/file/FileReader
