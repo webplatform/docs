@@ -3,9 +3,9 @@
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Represents an node of type element in the DOM.}}
 {{API_Object
 |Subclass_of=dom/Node
 }}
@@ -14,12 +14,8 @@
 |Examples=
 }}
 {{Notes_Section
-|Notes====Remarks===
-The '''Element''' interface represents an element in an HTML or XML document. Elements may have attributes associated with them; since the '''Element''' interface inherits from [[dom/Node|'''Node''']], the generic '''Node''' interface attribute '''attributes''' may be used to retrieve the set of all attributes for an element. There are methods on the '''Element''' interface to retrieve either an [[dom/attributes|'''attribute''']] object by name or an attribute value by name. In XML, where an attribute value may contain entity references, an '''attribute''' object should be retrieved to examine the possibly fairly complex sub-tree representing the attribute value. On the other hand, in HTML, where all attributes have simple string values, methods to directly access an attribute value can safely be used as a convenience.
- 
- 
-[mailto:wsddocfb@microsoft.com?subject{{=}}Documentation%20feedback [ie_htmlref\ie]:%20Element object%20 RELEASE:%20(7/24/2012)&amp;body{{=}}%0A%0APRIVACY STATEMENT%0A%0AThe doc team uses your feedback to improve the documentation. We don't use your email address for any other purpose. We'll remove your email address from our system after the issue that you are reporting is resolved. While we are working to resolve this issue, we may send you an email message to request more info about your feedback. After the issue is addressed, we may send you an email message to let you know that your feedback has been addressed.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx. Send comments about this topic to Microsoft]
-Build date: 7/24/2012
+|Notes=Elements may have attributes associated with them; use the [[dom/properties/attributes|attributes]] property to retrieve the set of all attributes for an element. There are methods on this object to retrieve either an [[dom/attributes|'''attribute''']] object by name ([[dom/methods/getAttributeNode|getAttributeNode]]) or an attribute value by name ([[dom/methods/getAttribute|getAttribute]]).
+In XML, where an attribute value may contain entity references, an '''attribute''' object should be retrieved to examine the possibly fairly complex sub-tree representing the attribute value. On the other hand, in HTML, where all attributes have simple string values, methods to directly access an attribute value can safely be used as a convenience.
 |Import_Notes====Additional Members (MSDN)===
 The '''Element''' object has these types of members:
 [[#Additional_Events|Additional Events]]
@@ -67,7 +63,12 @@ The '''Element''' object has these properties.
  
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=DOM Level 3 Core
+|URL=http://www.w3.org/TR/DOM-Level-3-Core/
+|Status=Recommendation
+|Relevant_changes=Section 1.4
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
