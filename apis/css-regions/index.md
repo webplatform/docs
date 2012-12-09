@@ -4,7 +4,7 @@
 {{API_Name}}
 {{Summary_Section|Programmatic interface to content that flows through a series of chained ''region'' elements, as specified by [[css/properties/flow-into|'''flow-into''']] and [[css/properties/flow-from|'''flow-from''']] CSS properties.}}
 {{API_Listing
-|Query=[[Category:WebAudio]][[Category:API_Objects]]
+|Query=[[Category:CSSRegions]][[Category:API_Objects]]
 |Use_page_title=No
 |List_all_subpages=No
 }}
