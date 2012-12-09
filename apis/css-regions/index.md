@@ -4,9 +4,9 @@
 {{API_Name}}
 {{Summary_Section|Programmatic interface to content that flows through a series of chained ''region'' elements, as specified by [[css/properties/flow-into|'''flow-into''']] and [[css/properties/flow-from|'''flow-from''']] CSS properties.}}
 {{API_Listing
-|Query=[[Category:CSSRegions]][[Category:API_Objects]]
-|Use_page_title=No
-|List_all_subpages=No
+|Query=[[Category:CSS Regions API]][[Category:API_Objects]]
+|Use_page_title=Yes
+|List_all_subpages=Yes
 }}
 {{Notes_Section
 |Usage=CSS Regions are defined by
@@ -34,7 +34,6 @@ The following interfaces allow programmatic access to the CSS Regions feature:
 |External_links=* [http://html.adobe.com/webstandards/cssregions Adobe Web Standards: CSS Regions]
 * [http://www.adobe.com/devnet/html5/articles/css3-regions.html CSS3 regions: Rich page layout with HTML and CSS3]
 * [http://adobe.github.com/web-platform/samples/css-regions Sample pages]
-
 }}
 {{Topics|CSS}}
 {{External_Attribution
