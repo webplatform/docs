@@ -19,7 +19,7 @@ HTML5 defines a <code>&lt;nav&gt;</code> menu, which is to be used to contain th
   </ul>
 </nav></syntaxhighlight>
 
-Bear in mind that <code>&lt;nav&gt;</code> should only be used for the main user navigation of a web page, not for advertising links down the bottom of the page, or for a secondary navigation relating to a small part of the page.
+Bear in mind that <code>&lt;nav&gt;</code> should only be used for the main user navigation of a web page, not for advertising links down at the bottom of the page, or for a secondary navigation relating to a small part of the page.
 
 == Your main HTML menu tools — links, anchors and lists ==
  
@@ -28,7 +28,7 @@ There are several different types of menu and navigation idioms to consider in H
 * <code>&lt;link&gt;</code> elements describe relationships across several documents. You can for example tell a user agent that the current document is part of a larger set that spans several documents, including a table of contents, and define the relationships between the documents.
 * Anchors (aka <code>&lt;a&gt;</code> elements) allow you to either link to another document, resource or document section, or to a certain section of the current document. These don’t get automatically followed by the user agent; instead they’ll be activated by your visitors by whatever mean available to them (mouse, keyboard, voice recognition, etc.)
  
-If you haven’t read the [http://www.w3.org/wiki/HTML_links_-_lets_build_a_web links] and [http://www.w3.org/wiki/HTML_lists lists] articles earlier in the course, you should do, as they a required prerequisites for understanding this one.
+If you haven’t read the [http://www.w3.org/wiki/HTML_links_-_lets_build_a_web links] and [http://www.w3.org/wiki/HTML_lists lists] articles earlier in the course, you should do, as they are required prerequisites for understanding this one.
  
 Anchors/links do not just become menus on their own — you need to structure and style them to let both the browser and your users know that their function is as a navigation menu, not just a set of random links. If the order of the pages is not important you can use an unordered list as in this [http://dev.opera.com/articles/view/23-creating-multiple-pages-with-navigat/unordered.html unordered list menu example].
   
@@ -225,8 +225,10 @@ If the menu is at the top of document, it will be the first thing the user will 
  
 Skip links are not only useful for these kind of disabilities but make life a lot easier when you navigate a site on a mobile device with a small screen.
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
