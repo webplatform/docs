@@ -45,7 +45,7 @@ If you have a question about webplatform.org, please [[WPD:FAQ|look for an answe
 * Join our [http://talk.webplatform.org/forums/ Q&A]
 * Meet the team on [http://talk.webplatform.org/chat/ chat] (for those of you wanting to connect using your own IRC client, you want irc.freenode.org, the webplatform channel).
 * Read our [http://blog.webplatform.org/ blog]
-* Follow us as [https://twitter.com/webplatform @WebPlatform] on Twitter
+* Follow us as [https://twitter.com/webplatform @WebPlatform] on Twitter or on [https://plus.google.com/114879255563551049641/posts Google+]
 * Remix our [http://webplatform.org/logo logo] and link back to our site
 
 ==Site Policies==
