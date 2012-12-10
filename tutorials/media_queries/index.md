@@ -3,7 +3,7 @@
 |High-level issues=Stub
 }}
 {{Byline}}
-{{Summary_Section}}
+{{Summary_Section|Media queries allow for easy way for the client browser to assign different mobile, tablet, and desktop interfaces.}}
 {{Tutorial
 |Content=CSS ''media queries'' offers an easy way to target custom
 interfaces to more than one kind of device.  This tutorial shows how
@@ -401,11 +401,6 @@ following scenarios:
 * If the overall user interface should be perceived similarly on each device. For example, a desktop site might prompt users to access content via hierarchical categories or search queries, while a mobile site might provide a narrower range of location-specific or recently published content.
 
 * If the basic mechanism to deploy each interface matches. For example, if a desktop interface relies on conventional hyperlinks to a shifting set of web pages, while a cached mobile web application loads data dynamically via Ajax from a fixed set of files, the difference between the two approaches is more substantial than the content's appearance on the screen.
-
-
-
-
-
 }}
 {{Notes_Section}}
 {{Compatibility_Section
