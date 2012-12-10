@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The event handler for the upgrade needed event.}}
 {{API_Object_Property
 |Property_applies_to=apis/indexeddb/IDBOpenDBRequest
 |Read_only=No
