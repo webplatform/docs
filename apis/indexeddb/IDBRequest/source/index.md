@@ -7,8 +7,9 @@
 {{API_Name}}
 {{Summary_Section|The source of the request, such as an Index or a ObjectStore. If no source exists (such as when calling indexedDB.open()), it returns null.}}
 {{API_Object_Property
-|Property_applies_to=apis/indexedDB/IDBRequest
+|Property_applies_to=apis/indexeddb/IDBRequest
 |Read_only=Yes
+|Javascript_data_type=Object
 }}
 {{Examples_Section
 |Not_required=No
