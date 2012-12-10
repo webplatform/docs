@@ -1,14 +1,13 @@
 {{Page_Title|プログラミングの基礎}}
 {{Flags}}
-{{API_Name}}
 {{Languages}}
 {{Summary_Section|※ 本記事はまだ試験的に作成しているものである点にご注意願います。
 
 本記事では、JavaScriptを例として、プログラミングの基礎的な原則について述べます。
 }}
-{{Concept_Page
+{{Guide
 |Content=== はじめに ==
-
+<!-- サンプルコードはリンク先の実行用サンプルコードとの矛盾を防ぐために翻訳しないまま残している箇所がありますので、ご注意下さい。 -->
 経験を積んだプログラマは、遅かれ早かれ、全く技術に詳しくない人々からは、まるで黒魔術でも扱っているかのごとく見られるようになっていくものです。逆の立場から見れば、技術に詳しくない人にとって、もし力を貸してくれている人がいたとしても、何をどうしているのかが伝わらないままであれば、そのうちついて行けなくなってしまいます。[http://www.w3.org/wiki/Web_Standards_Curriculum Web Standards Curriculum]は、プログラミングとは何かを簡単な言葉で説明しており、経験を積んだプログラマにも技術に詳しくない人にもどちらにもわかりやすい内容となっています。
 
 JavaScriptプログラミングの仕方を学ぶ前には必須となる全般的なプログラミングの原則を基礎として固めておくこともまた、初心者のWeb開発者にとっては大変有益となります。一見退屈と思えるかもしれませんが、ご安心下さい。初めのうちに基礎的な原則を踏まえておけば、(ここは大きな声で)後々きっと強固で力強く、創造的な力として、あなたの身になることでしょう。プログラミングの基礎は、特定のプログラミング言語(もちろん、ここではJavaScript)を使ってみる前に習得しておくことが重要なのです。
@@ -199,22 +198,209 @@ var stringWithoutError = 'Isn\'t it hard to get things right?';
 
 ==== 配列 ====
  
+配列は大変強力な構造を持っています。一つに配列には複数の値を代入することが可能で、それぞれが変数もしくは値を持ちます。次に例を示します。
 
-
-Arrays are very powerful constructs. An array is a collection of values, and each of the values can be a variable, or a real value. For example:
- 
 <source lang="javascript">
 <script>
 var pets = new Array('Boomer','Polly','Mr.Frisky');
 </script>
 </source>
+
+それぞれの値には、配列内で付与されたインデックス値である、'''配列の'''カウンタを用いてアクセスすることが可能となっており、本の章番号を見ていくような感覚で利用することができます。具体的には、<code>配列名[インデックス値]</code>のような構文となります。上の例では、<code>pets[1]</code>の値は"Polly"となります。でもちょっと待って下さい。Pollyを表すのは、'''2番目に指定された値なのだから'''、<code>pets[2]</code>であるべきでは? ...答えは'''ノー'''なのです − コンピュータは1からではなく0から数え始めるので、カウンタは2とはならない、というわけです。このことはよく混乱や勘違いを引き起こしたりします。
+
+配列が自動的に生成する特殊な情報として、配列の要素数を表す<code>length</code>があります。上の例では、<code>pets.length</code>の値を確認すると、実際に格納されている要素の数である3となるでしょう。
+
+配列は、何か共通の性質のあるものをまとめて扱うのに大いに役に立つものであり、どのプログラミング言語でも、配列を操作する手軽な関数 − ソート、フィルタ、検索、など − を数多く備えています。
+
+==== オブジェクト ====
  
-You can access each of the values with the '''array''' counter, which is the index number in the array—think of it as being like looking up chapters in a book. The syntax is <code>arrayname[index]</code>. So for example <code>pets[1]</code> would give you the string “Polly”. But wait! I hear you ask—shouldn’t it be <code>pets[2]</code> for Polly, given that it is the '''second''' value in the array? '''No'''—the counter is not 2, as computers start counting at 0, not at 1! This is a very common cause of confusion and errors.
+順番に付与される番号ではなく、より詳細な記述で個々の要素を表してまとめたい場合は、配列ではなく、オブジェクトを生成する必要があります。JavaScriptプログラミングにおいて、オブジェクトは、人々や乗り物、道具といった現実世界にある対象物を表現したりモデル化したりしたものとして構成されます。
+
+オブジェクトは大きくて非常に賢く、そして汎用的なプログラミングの要素であり、その扱い方を詳細に説明するには、本記事で扱える範囲としては大きくなりすぎてしまいます。ここではオブジェクトをいくつかの属性(プロパティ)を持った一つのものとして扱うこととします。まずは例として人を表すpersonというオブジェクトを扱います。このとき、様々なプロパティをドット(.)と合わせてオブジェクト名の後につなげることで定義していくことができます。
  
-Arrays automatically get a special information source for you: <code>length</code>. If you check the value of <code>pets.length</code> you will get 3 as there are 3 items in this array.
+<source lang="javascript">
+<script>
+var person = new Object();
+person.name = 'Chris';
+person.surname = 'Heilmann';
+person.age = 33;
+person.hair = 'Flickr famous';
+</script>
+</source>
+
+プロパティの内容は、ドットに続けて記述するか(<code>person.age</code>であれば33)、大括弧([])で囲んで記述するか(<code>person['name']</code>であれば“Chris”)のいずれかの方法で取得することができます。JavaScriptオブジェクトの詳細については、本コースで後ほどより詳細に学びます。
+
+以上が、様々な型の変数に関する概要となります。プログラミングにおけるもう一つの大きな要素として、プログラムの構造とロジックの組み立てがあります。これらについては、さらに2つのプログラミングにおける概念、条件文と繰り返しが必要となってきます。
+
+== 条件文 ==
  
-Arrays are great for describing collections of things that have something in common, and every language comes with dozens of handy functions to manipulate them—sorting, filtering, searching and so on.
-  
+条件文は、何がどうなっているかをテストするために用いられます。この条件文は、いくつかの使い方において、プログラミングの大変重要な役割を果たします。
+
+何よりもまず、条件文は、どのようなデータが処理中に渡されてもプログラムが動作することを保証するためにもちいられます。もしデータの内容を盲目的に信頼してしまうと、問題が発生してプログラムは誤動作を引き起こすでしょう。もしどうしたいか、および、必要な全ての情報が正しいフォーマットで得られているかどうかをテストすることができるのであれば、プログラムは遙かに安定して動作することでしょう。このように用心して進める手法は、防御的プログラミングと呼ばれています。
+ 
+もう一つ、条件文は分岐を可能とします。例えば、申し込みフォームを提出するようなプログラムの場合、その動作が枝分かれになるような構成になるのではないでしょうか。このような場合、初歩的な対処として、条件文に合致するか否かによって、異なる分岐先のコードを実行することとなります。
+ 
+最も簡単な条件文は<code>if</code>文で、<code>if (条件文) { 処理 … }</code>のような構文で記述します。ここでは、条件文が成立する場合に、中括弧({})で囲まれた箇所に書かれたコードが実行されます。次の例では、文字列の内容をテストして、その値に応じて別の文字列を代入します。
+ 
+<source lang="javascript">
+<script>
+var country = 'France',
+    weather,
+    food,
+    currency,
+    message;
+
+if (country === 'England') {
+  weather = 'horrible';
+  food = 'filling';
+  currency = 'pound sterling';
+}
+
+if (country === 'France') {
+  weather = 'nice';
+  food = 'stunning, but hardly ever vegetarian';
+  currency = 'funny, small and colourful';
+}
+
+if (country === 'Germany') {
+  weather = 'average';
+  food = 'wurst thing ever';
+  currency = 'funny, small and colourful';
+}
+
+message = 'this is ' + country + ', the weather is ' + weather + ', the food is ' + food + ' and the ' + 'currency is ' + currency;
+alert(message);
+</script>
+</source>
+ 
+それでは各自で[http://dev.opera.com/articles/view/programming-the-real-basics/weather.html if文による気候を確認するサンプル]を試してみて下さい。変数countryの値を変えると異なる文章が表示されるのが確認できることでしょう。
+
+条件文を記述する部分には、等号(=)が3個連なっていますが、これは、値だけではなく、データの型も合致しているかどうかをテストするための条件文であることを表すものです。2つの連なる等号(すなわち==)でも、条件文の内容をテストすることはできますが、この場合、<code>if (x == 5)</code>と宣言したとき、xの値が数値の5であっても文字列"5"であっても、条件文のテストの結果は合致(true)という結果になります。プログラムがどのように挙動するものであるかによって、このことは違う結果をもたらします。
+
+条件文を用いたテストには、他には次のようなものがあります。
+ 
+* x &gt; 0 - xは0より大きいか?
+* x &lt; 0 - xは0より小さいか?
+* x &lt;= 4 - xは0以下か?
+* x != 'hello' - xは文字列'hello'と違っているか?
+* x - 変数xは存在するか(定義済みか)?
+
+条件文は入れ子にすることもできます。次の例では、上の例に対して、変数countryに値が代入されているかどうかを確認する場合の対処について示しています。
+
+<source lang="javascript">
+<script>
+var country = 'Germany',
+    weather,
+    food,
+    currency,
+    message;
+
+if (country) {
+    if (country == 'England') {
+        weather = 'horrible';
+        food = 'filling';
+        currency = 'pound sterling';
+    }
+
+    if (country == 'France') {
+        weather = 'nice';
+        food = 'stunning, but hardly ever vegetarian';
+        currency = 'funny, small and colourful';
+    }
+
+    if (country == 'Germany') {
+        weather = 'average';
+        food = 'wurst thing ever';
+        currency = 'funny, small and colourful';
+    }
+
+    message = 'this is ' + country + ', the weather is ' + weather + ', the food is ' + food + ' and the ' + 'currency is ' + currency;
+    alert(message);
+}
+</script>
+</source>
+
+それでは、[http://dev.opera.com/articles/view/programming-the-real-basics/saferweather.html if文で安全に気候を確認するサンプル]を試してみて下さい。変数countryの値を変えると異なる文章が表示されるのが確認できることでしょう。
+
+一方、先に示した(変数countryの内容をテストしない)例では、変数countryに代入された値に対する処理が定義済みであるかどうかにかかわらず、必ず何かしらの文章を表示しようとします。従って、エラーとなるか、もしくは“this is '''undefined''', the weather...”のように表示してしまいます。後者のサンプルではより安全に動作し、もし変数countryが未定義であれば何もしないようになっています。
+
+さらに、複数の条件を"or"や"and"で組み合わせることで、どちらかの条件がtrue、もしくは両方がtrueになっているかどうかをテストすることができます。JavaScriptでは、"or"は<nowiki>||</nowiki>、"and"は&amp;&amp;で記述することができます。変数xの値が10から20までの間であるかどうかをテストするには、条件文として<code>if(x &gt; 10 &amp;&amp; x &lt; 20)</code>と記述すればよいのです。また、変数countryの値が"England"か"Germany"のどちらかであるかどうかを確かめるには、条件文として<code>if(country == 'England' <nowiki>||</nowiki> country == 'Germany')と記述すればよいことになります。
+
+また、<code>else</code>節を記述すると、最初に記述した条件文が不成立の場合に適用される処理となります。これは、どんな値の場合でも対応しながら、ある特定の値に限って特別な対処を行いたい場合に、非常に有用です。
+
+<pre>&lt;script type="text/javascript"&gt;
+  var umbrellaMandatory;
+  if(country == 'England'){
+    umbrellaMandatory = true;
+  } else {
+    umbrellaMandatory = false;
+  }
+&lt;/script&gt;</pre>
+
+条件文はとても役に立つものですが、使い道は少し限られています。もし何か繰り返して実行したい処理がある場合はどうすればよいでしょうか? 例えば配列の各要素の値に対して段落タグ(&lt;p&gt;〜&lt;/p&gt;)を付け加えたい場合はどうでしょうか? 条件文だけで対処するのであれば、次のように、異なる配列の要素数に対してそれぞれ処理を固定的に記述する羽目に陥ってしまうことでしょう。
+ 
+<pre>&lt;script type="text/javascript"&gt;
+  var names = new Array('Chris','Dion','Ben','Brendan');
+  var all = names.length;
+  if(all == 1){
+    names[0] = '&lt;p&gt;' + names[0] + '&lt;/p&gt;';
+  }
+  if(all == 2){
+    names[0] = '&lt;p&gt;' + names[0] + '&lt;/p&gt;';
+    names[1] = '&lt;p&gt;' + names[1] + '&lt;/p&gt;';
+  }
+  if(all == 3){
+    names[0] = '&lt;p&gt;' + names[0] + '&lt;/p&gt;';
+    names[1] = '&lt;p&gt;' + names[1] + '&lt;/p&gt;';
+    names[2] = '&lt;p&gt;' + names[2] + '&lt;/p&gt;';
+  }
+  if(all == 4){
+    names[0] = '&lt;p&gt;' + names[0] + '&lt;/p&gt;';
+    names[1] = '&lt;p&gt;' + names[1] + '&lt;/p&gt;';
+    names[2] = '&lt;p&gt;' + names[2] + '&lt;/p&gt;';
+    names[3] = '&lt;p&gt;' + names[3] + '&lt;/p&gt;';
+  }
+&lt;/script&gt;</pre>
+
+これではあまりにも大変な上に柔軟性に欠けてしまいます。プログラミングとは身の回りのことをより便利にするものですし、かといって人間が同じコードを何度も繰り返し書いてしまっては間違いの原因となりかねません。よりよいプログラミングとは機械に対して退屈な作業をしなくて済むようにして、人間にとって本当に成し遂げたいことだけに集中できるようにするものであるはずです。
+ 
+この例の場合、条件文の代わりに、どのような要素数を持っていても配列の各要素に対して同じ処理を正確に繰り返すことのできる、'''繰り返し'''処理が必要になります。次節では繰り返しを用いて上の例を作り直したものを示します − これらの2つの例を比較すると、繰り返しを用いた方がより手短になることがわかることでしょう。
+
+== 繰り返し ==
+
+繰り返し処理では、一つの変数の値を変化させながら、同じ条件式を繰り返し判定します。最も簡単な繰り返しとして<code>for</code>文があります。構文は<code>if</code>文に似ていますが、2つのオプションが付け加わります。
+ 
+<pre>for(条件文;終了条件文;更新){
+  // do it, do it now
+}</pre>
+
+<code>for</code>を使って繰り返し処理を行うには、通常は繰り返して実行したいコードを中括弧({})で囲みます。ここで、反復して用いる変数を定義して、繰り返し処理の中で値を変化させ続けて、その値が終了条件文に合致するまで繰り返すようにします(合致したとき、インタプリタは繰り返し処理から抜け出して、繰り返し処理の次に記述されたコードから実行するように移ります)。次に例を示します。
+ 
+<pre>&lt;script type="text/javascript" charset="utf-8"&gt;
+  for(var i = 0;i &lt; 11;i = i + 1){
+    // do it, do it now
+  }
+&lt;/script&gt;</pre>
+
+この例では、変数<code>i</code>の値を最初に0として、11になるまで(すなわち11より小さいうちは)その値を確かめるように処理を定義しています。更新を行う代入式 − <code>i = i + 1</code> − では、変数<code>i</code>の値を1増加させて、その上で繰り返し処理を継続して反復していきます。すなわち、これによって11回の繰り返しが行われます。もし<code>i</code>の値を2増加させるのであれば、繰り返しは6回となります。
+ 
+<pre>&lt;script type="text/javascript"&gt;
+  for(var i = 0;i &lt; 11;i = i + 2){
+    // do it, do it now
+  }
+&lt;/script&gt;</pre>
+
+前節で示した条件文を用いた例を 繰り返し処理に置き換えると、次のようにより短くよりシンプルなものになります。
+ 
+<pre>&lt;script type="text/javascript"&gt;
+  var names = new Array('Chris','Dion','Ben','Brendan');
+  var all = names.length;
+  for(var i=0;i&lt;all;i=i+1){
+    names[i] = '&lt;p&gt;' + names[i] + '&lt;/p&gt;';
+  }
+&lt;/script&gt;</pre>
+
+なお、ここでは変数<code>i</code>の値は繰り返し処理内で配列のカウンタとして用いています。以上が、繰り返しを用いた効果なのです − 同じことを繰り返し実行できるだけではなく、何回繰り返しが行われたかを把握するためにも利用できるのです。
 
 }}
 {{Examples_Section
@@ -225,10 +411,19 @@ Arrays are great for describing collections of things that have something in com
 {{Related_Specifications_Section
 |Specifications=
 }}
-{{See_Also_Section}}
-{{Topics}}
+{{See_Also_Section
+|Manual_sections==== 練習問題 ===
+ 
+* 次のコードを実行するとなぜエラーになるのですか? − <code>var x = hello world</code>
+* 次のコードは正しいですか? − <code>var x = 'elephant';var y = "mouse";</code>
+* 次の条件式はどのような条件をテストするものですか? <code>if(x &gt; 10 &amp;&amp; x &lt; 20 &amp;&amp; x !== 13 &amp;&amp; y &lt; 10)</code>
+* 次の条件式はどのような結果となりますか? <code>if(b &lt; 10 &amp;&amp; b &gt; 20)</code>?
+* 要素として“peter”,“paul”,“mary”,“paddington bear”,“mr.ben”,“zippy” そして “bagpuss” を含む配列に対して繰り返し処理を行い、これらのうち奇数番目の要素それぞれに対して、"odd"というクラス名を付与した段落タグ(&lt;p&gt;〜&lt;/p&gt;)を付与する処理を作成して下さい。 ヒント: 1個おきに要素をテストするには、モジュロ演算(割り算の剰余の計算)を<code>i % 2 == 0</code>の要領で利用します。
+}}
+{{Topics|JavaScript}}
 {{External_Attribution
 |Is_CC-BY-SA=No
+|Sources=DevOpera
 |MDN_link=
 |MSDN_link=
 |HTML5Rocks_link=
