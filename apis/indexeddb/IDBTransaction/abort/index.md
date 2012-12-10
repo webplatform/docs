@@ -41,7 +41,8 @@ dbOpenRequest.onsuccess = function (event) {
 |Specifications=
 }}
 {{Compatibility_Section
-|Not_required=No
+|Not_required=Yes
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
 |Chrome_version=24
@@ -71,7 +72,7 @@ dbOpenRequest.onsuccess = function (event) {
 |Manual_sections====Related pages===
 *<code>[[apis/indexedDB/IDBTransaction|IDBTransaction]]</code>
 }}
-{{Topics|DOM}}
+{{Topics|IndexedDB}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
