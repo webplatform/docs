@@ -7,7 +7,7 @@
 {{API_Name}}
 {{Summary_Section|The event handler for the success event.}}
 {{API_Object_Property
-|Property_applies_to=apis/indexeddb/IDRequest
+|Property_applies_to=apis/indexeddb/IDBRequest
 |Read_only=No
 }}
 {{Examples_Section
