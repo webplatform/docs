@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page_Title|track}}
 {{Flags
 |Content=Compatibility Incomplete
 }}
