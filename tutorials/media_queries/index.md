@@ -44,10 +44,10 @@ one set of criteria:
 
 There are three ways to specify media queries:
 
-* As part of '''link''' tags within the HTML's '''head''' region. This example targets CSS to desktop, tablet, and touch browsers, along with lower-end legacy mobile browsers:
+* As part of '''link''' tags within the HTML's '''head''' region. This example targets CSS to tablet and touch browsers, along with lower-end legacy mobile browsers:
 
  &lt;link media="screen"
-     href="/path/to/desktop.css" type="text/css" rel="stylesheet"/>
+     href="/path/to/global.css" type="text/css" rel="stylesheet"/>
  &lt;link media="only screen and (max-width: 320px)"
      href="/path/to/touch.css" type="text/css" rel="stylesheet"/>
  &lt;link media="only screen and (max-width: 1024px)"
