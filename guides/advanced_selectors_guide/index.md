@@ -102,7 +102,7 @@ Note: These selectors are not supported by IE8 and below.
 You can use a child selector to select specific elements that are children of other specific elements. For example, the following rule will turn the text of <code>&lt;strong&gt;</code> elements that are children of <code>&lt;h3&gt;</code> elements blue, without affecting other <code>&lt;strong&gt;</code> elements:
  
 <syntaxhighlight lang="css">h3 > strong {
-  colour: blue;
+  color: blue;
 }</syntaxhighlight>
  
 Note that child selectors are not supported in IE6 or below.
