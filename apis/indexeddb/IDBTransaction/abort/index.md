@@ -8,7 +8,7 @@
 {{Summary_Section|The abort method is used to abort a transaction. Once called, the abort method follows the [http://www.w3.org/TR/IndexedDB/#dfn-steps-for-aborting-a-transaction steps to abort] a transaction}}
 {{API_Object_Method
 |Parameters=
-|Method_applies_to=apis/indexedDB/IDBTransaction
+|Method_applies_to=apis/indexeddb/IDBTransaction
 |Example_object_name=transaction
 |Javascript_data_type=void
 |Return_value_description=No return value
