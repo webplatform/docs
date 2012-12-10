@@ -47,10 +47,8 @@ Not all browsers support WebGL yet and the GPU, driver or OS may not be supporte
 |-
 | [http://webglstats.com/ WebGL Stats, Oct 2. 2012] || 64% || 67% || 3.7%
 |-
-| [http://caniuse.com/#feat=webgl Can I Use, Oct 8. 2012] || 53% || ||
+| [http://caniuse.com/#feat=webgl Can I Use, Oct 8. 2012] || 53% || || ||
 |}
-
-
 
 === Browser Support ===
 
