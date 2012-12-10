@@ -15,10 +15,7 @@
 |Not_required=Yes
 |Examples=
 }}
-{{Notes_Section
-|Notes=The following example gets the [[apis/audio-video/TextTrackCueList|TextTrackCueList]] from a video element and displays all the text cues using the cues property.
-
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=W3C HTML5 Specification
