@@ -30,10 +30,7 @@
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[apis/audio-video/TextTrackCue|TextTrackCue]]</code>
-}}
+{{See_Also_Section}}
 {{Topics|Audio, DOM, Video}}
 {{External_Attribution
 |Is_CC-BY-SA=No
