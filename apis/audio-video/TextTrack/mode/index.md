@@ -1,34 +1,40 @@
+{{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Compatibility Incomplete
 }}
-{{Standardization_Status|}}
+{{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
+{{Summary_Section|The text track mode, represented by a string from the following list. "disabled": The text track disabled mode. "hidden": The text track hidden mode. "showing": The text track showing mode.}}
 {{API_Object_Property
 |Property_applies_to=apis/audio-video/TextTrack
-|Read_only=
+|Read_only=No
+|Example_object_name=TextTrack
+|Javascript_data_type=String
 }}
-{{Topics|DOM}}
 {{Examples_Section
+|Not_required=Yes
+|Examples=
+}}
+{{Notes_Section}}
+{{Related_Specifications_Section
+|Specifications={{Related Specification
+|Name=W3C HTML5 Specification
+|URL=http://dev.w3.org/html5/spec/single-page.html
+|Status=W3C Editor's Draft
+}}
+}}
+{{Compatibility_Section
 |Not_required=No
-|Examples=}}
-{{Notes_Section
-|Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}221374 HTML5 A vocabulary and associated APIs for HTML and XHTML], Section 4.8.10.12
-
-
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
-{{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
-*<code>[[apis/audio-video/TextTrack|TextTrack]]</code>
-}}
+{{See_Also_Section}}
+{{Topics|Audio, DOM, Video}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=
 |HTML5Rocks_link=
 }}
