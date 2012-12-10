@@ -9,6 +9,7 @@
 {{API_Object_Property
 |Property_applies_to=apis/indexeddb/IDBTransaction
 |Read_only=Yes
+|Javascript_data_type=String
 |Return_value_description=* readonly (0) - Allows data to be read but not changed.
 * readwrite (1) - Allows reading and writing of data in existing data stores to be changed.
 * versionchange (2) - Allows any operation to be performed, including ones that delete and create object stores and indexes. This mode is for updating the version number of transactions that were started using the setVersion() method of IDBDatabase objects. Transactions of this mode cannot run concurrently with other transactions.
