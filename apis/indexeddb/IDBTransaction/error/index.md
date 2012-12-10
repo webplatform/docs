@@ -1,0 +1,37 @@
+{{Page_Title}}
+{{Flags
+|High-level issues=Stub, Missing Relevant Sections
+|Content=Incomplete
+}}
+{{Standardization_Status}}
+{{API_Name}}
+{{Summary_Section|Null if the transaction is not finished, is finished and successfully committed, or was aborted with the abort() function. Returns the same DOMError as the request object which caused the transaction to be aborted due to a failed request, or a DOMError for the transaction failure not due to a failed request (such as QuotaExceededError or UnknownError).}}
+{{API_Object_Property
+|Property_applies_to=apis/indexeddb/IDBTransaction
+|Read_only=Yes
+|Javascript_data_type=DOMError
+}}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
+{{Notes_Section}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=Yes
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section}}
+{{Topics|IndexedDB}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MDN
+|MDN_link=https://developer.mozilla.org/en-US/docs/IndexedDB/IDBTransaction
+|MSDN_link=
+|HTML5Rocks_link=
+}}
