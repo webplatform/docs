@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Opens a database. See [apis/indexeddb/IDBFactory/open]}}
+{{Summary_Section|Opens a database. See [[apis/indexeddb/IDBFactory/open]]}}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=apis/indexeddb/indexedDB
