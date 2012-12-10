@@ -9,6 +9,7 @@
 {{API_Object_Property
 |Property_applies_to=apis/indexeddb/IDBRequest
 |Read_only=Yes
+|Javascript_data_type=DOMError
 }}
 {{Examples_Section
 |Not_required=No
