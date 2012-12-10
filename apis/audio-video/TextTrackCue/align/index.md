@@ -4,13 +4,7 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|A string representing the text track cue alignment, as follows. If it is start alignment:
-the string "start". If it is middle alignment:
-the string "middle". If it is end alignment:
-the string "end". If it is left alignment:
-the string "left". If it is right alignment:
-the string "right".
-}}
+{{Summary_Section|A string representing the text track cue alignment, as follows. If it is start alignment: the string "start". If it is middle alignment: the string "middle". If it is end alignment: the string "end". If it is left alignment: the string "left". If it is right alignment: the string "right".}}
 {{API_Object_Property
 |Property_applies_to=apis/audio-video/TextTrackCue
 |Read_only=No
