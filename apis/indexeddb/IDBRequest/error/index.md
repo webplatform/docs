@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The error codes are returned under certain conditions.}}
+{{Summary_Section|The error codes returned under certain conditions.}}
 {{API_Object_Property
 |Property_applies_to=apis/indexeddb/IDBRequest
 |Read_only=Yes
