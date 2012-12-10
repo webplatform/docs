@@ -1,7 +1,5 @@
 {{Page_Title|Targetting styles with media queries}}
-{{Flags
-|High-level issues=Stub
-}}
+{{Flags}}
 {{Byline}}
 {{Summary_Section|Media queries allow for easy way for the client browser to assign different mobile, tablet, and desktop interfaces.}}
 {{Tutorial
