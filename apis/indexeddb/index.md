@@ -7,8 +7,9 @@
 {{API_Name}}
 {{Summary_Section|IndexedDB is a client side storage API that persists data in a user's browser. It is a transactional, non-relational storage mechanism that saves key-value pairs in Object Stores and allows searching data using indexes.}}
 {{API_Listing
-|Use_page_title=Yes
-|List_all_subpages=Yes
+|Query=[[Category:IndexedDB]][[Category:API_Objects]]
+|Use_page_title=No
+|List_all_subpages=No
 }}
 {{Notes_Section
 |Usage=indexedDB = window.indexedDB;
