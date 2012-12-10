@@ -116,7 +116,7 @@ Descendent selectors are similar to child selectors, except that child selectors
 <syntaxhighlight lang="html5"><div>
   <p>hello</p>
   <article> 
-    <p>In this paragraph I will say goodbye</p>.
+    <p>In this paragraph I will say goodbye</p>
   </article>
 </div></syntaxhighlight>
  
