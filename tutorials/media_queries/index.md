@@ -108,39 +108,39 @@ The core set of style sheets specifies a desktop-facing layout using
 flexible box CSS properties:
 
  body {
-     background              : #ddd;
-     text-align              : center;
+     background      : #ddd;
+     text-align      : center;
  }
  section.page {
-     display                 : -webkit-flex; /* use flexbox */
-     -webkit-flex-wrap       : wrap;
-     -webkit-flex-direction  : column;       /* nested items stack vertically */
-     -webkit-justify-content : space-between;
-     -webkit-align-items     : stretch;
-     -webkit-align-content   : stretch;
-     min-height              : 40em;
+     display         : flex;   /* use flexbox */
+     flex-wrap       : wrap;
+     flex-direction  : column; /* nested items stack vertically */
+     justify-content : space-between;
+     align-items     : stretch;
+     align-content   : stretch;
+     min-height      : 40em;
  }
  section.content {
-     display                 : -webkit-flex;
-     -webkit-flex            : 1;            /* item expands to fill space within larger flexbox */
-     -webkit-flex-direction  : row;          /* nested items arranged horizontally */
-     -webkit-align-items     : stretch;
-     -webkit-align-content   : stretch;
-     -webkit-justify-content : space-between;
+     display         : flex;
+     flex            : 1;      /* item expands to fill space within larger flexbox */
+     flex-direction  : row;    /* nested items arranged horizontally */
+     align-items     : stretch;
+     align-content   : stretch;
+     justify-content : space-between;
  }
  header, article, nav, aside, footer {
-     border                  : thin solid #777;
+     border          : thin solid #777;
  }
  article {
-     -webkit-flex            : 1;            /* item expands to fill space within larger flexbox */
+     flex            : 1;      /* item expands to fill space within larger flexbox */
  }
  nav, aside {
-     min-width               : 150px;
+     min-width       : 150px;
  }
  header, article, nav, aside, footer {
-     border-radius           : 0.5em;
-     padding                 : 0.5em;
-     margin                  : 0.25em;
+     border-radius   : 0.5em;
+     padding         : 0.5em;
+     margin          : 0.25em;
  }
  /* colors to clarify layout */
  header  { background-color  : pink;       }
@@ -225,10 +225,10 @@ set to fit as a background image within a 64-pixel-wide block:
      height           : 64px;
      background-image : url("img/webkit64.png");
  }
- @media all and (-webkit-min-device-pixel-ratio:1.5) {
+ @media all and (min-device-pixel-ratio:1.5) {
      nav:last-of-type { background-image : url("img/webkit96.png"); }
  }
- @media all and (-webkit-min-device-pixel-ratio:2) {
+ @media all and (min-device-pixel-ratio:2) {
      nav:last-of-type { background-image : url("img/webkit128.png"); }
  }
 
@@ -361,7 +361,7 @@ properties:
 
 * '''resolution''', '''min-resolution''', '''max-resolution''': screen resolution expressed in dots per inch.
 
-* '''-webkit-device-pixel-ratio''', '''-webkit-min-device-pixel-ratio''', '''-webkit-max-device-pixel-ratio''': the number of device screen pixels that correspond to each CSS pixel, typically ranging from 1 for desktop browsers to 2 for the highest-resolution mobile screens. (On WebKit and Opera, this information is also available via '''window.devicePixelRatio'''.)
+* '''device-pixel-ratio''', '''min-device-pixel-ratio''', '''max-device-pixel-ratio''': the number of device screen pixels that correspond to each CSS pixel, typically ranging from 1 for desktop browsers to 2 for the highest-resolution mobile screens. (On WebKit and Opera, this information is also available via '''window.devicePixelRatio'''.)
 
 * '''color''', '''min-color''', '''max-color''': color depth, expressed as the number of bits used to represent each color.
 
