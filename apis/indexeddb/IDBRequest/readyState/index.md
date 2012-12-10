@@ -7,7 +7,7 @@
 {{API_Name}}
 {{Summary_Section|The state of the request. Every request starts in the pending state. The state changes to done when the request completes successfully or when an error occurs.}}
 {{API_Object_Property
-|Property_applies_to=apis/indexedDB/IDBRequest
+|Property_applies_to=apis/indexeddb/IDBRequest
 |Read_only=Yes
 |Javascript_data_type=enum
 |Return_value_description=* pending (1) - The request has been started, but its result is not yet available.
