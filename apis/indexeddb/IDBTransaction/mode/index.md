@@ -5,10 +5,13 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The mode for isolating access to data in the object stores that are in the scope of the transaction. For possible values, see Constants. The default value is readonly.}}
+{{Summary_Section|The mode for isolating access to data in the object stores that are in the scope of the transaction. For possible values, see Return Value, below. The default value is readonly.}}
 {{API_Object_Property
 |Property_applies_to=apis/indexeddb/IDBTransaction
 |Read_only=Yes
+|Return_value_description=* readonly (0) - Allows data to be read but not changed.
+* readwrite (1) - Allows reading and writing of data in existing data stores to be changed.
+* versionchange (2) - Allows any operation to be performed, including ones that delete and create object stores and indexes. This mode is for updating the version number of transactions that were started using the setVersion() method of IDBDatabase objects. Transactions of this mode cannot run concurrently with other transactions.
 }}
 {{Examples_Section
 |Not_required=No
