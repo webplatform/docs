@@ -1,63 +1,60 @@
+{{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Compatibility Incomplete
 }}
-{{Standardization_Status|}}
+{{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
+{{Summary_Section|Returns the time for the end of the range with the given index. Throws an IndexSizeError if the index is out of range.}}
 {{API_Object_Method
-|Parameters={{Method Parameter|Name=index|Data type=Integer|Description=The zero-based index of the item in the collection.|Optional=}}
-{{Method Parameter|Name=endTime|Data type=VARIANT|Description=The end position of the range, in seconds, from the beginning of the timeline.|Optional=}}
-|Method_applies_to=apis/audio-video/HTMLTimeRanges
-|Example_object_name=object
+|Parameters={{Method Parameter
+|Name=index
+|Data type=any
+|Description=The zero-based index of the item in the collection.
+|Optional=No
+}}
+|Method_applies_to=apis/audio-video/TimeRanges
+|Example_object_name=TimeRanges
 |Return_value_name=object
 |Javascript_data_type=DOM Node
-|Return_value_description=Type: '''HRESULT'''
+|Return_value_description=Type: '''HRESULT'''. This method can return one of these values.
 
-This method can return one of these values.
-
-{| class="wikitable"
-|-
+{{{!}} class="wikitable"
+{{!}}-
 !Return code
 !Description
-|-
-|S_OK
-|The operation completed successfully.
-|-
-|IndexSizeError
-|The specified index is out of range.
-|}
- 
-
-Variant
-
-The end position of the range, in seconds, from the beginning of the timeline.
-
+{{!}}-
+{{!}}S_OK
+{{!}}The operation completed successfully.
+{{!}}-
+{{!}}IndexSizeError
+{{!}}The specified index is out of range.
+{{!}}}
 
 }}
-{{Topics|DOM}}
-{{Notes_Section
-|Notes=
-===Remarks===
-Time ranges do not overlap. The '''end''' time is guaranteed to be less than the [[apis/audio-video/methods/start|'''start''']] of the range that follows it.
-|Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}221374 HTML5 A vocabulary and associated APIs for HTML and XHTML], Section 4.8.9.11
-
-
+{{Examples_Section
+|Not_required=Yes
+|Examples=
 }}
-{{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
-*<code>[[apis/audio-video/HTMLTimeRanges|TimeRanges]]</code>
-*<code>Reference</code>
-*<code>[[apis/audio-video/methods/start|start]]</code>
-*<code>[[apis/audio-video/properties/length (TimeRanges)|length]]</code>
+{{Notes_Section}}
+{{Related_Specifications_Section
+|Specifications={{Related Specification
+|Name=W3C HTML5 Specification
+|URL=http://dev.w3.org/html5/spec/single-page.html
+|Status=W3C Editor's Draft
 }}
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section}}
+{{Topics|Audio, DOM, Video}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=
 |HTML5Rocks_link=
 }}
