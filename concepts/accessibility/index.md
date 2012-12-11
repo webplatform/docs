@@ -111,7 +111,6 @@ The W3C Web Accessibility Initiative (WAI) brings together people from industry,
 
 ==See also==
 
-* [[accessibility article ideas|Accessibility article ideas]]
 * [http://www.w3.org/WAI/EO/wiki/Web_Accessibility_Basics This page originally available at W3C WAI]
 * [http://www.w3.org/WAI/GL/wiki/Techniques/HTML5 Improving accessibility using HTML5 features]
 * [http://www.w3.org/WAI/GL/wiki/Techniques/ARIA Improving accessibility using ARIA features] -- please a little explanation of what ARIA *is*
