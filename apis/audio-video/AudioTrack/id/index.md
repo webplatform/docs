@@ -20,7 +20,7 @@
 |Specifications={{Related Specification
 |Name=W3C HTML5 Specification
 |URL=http://dev.w3.org/html5/spec/single-page.html
-|Status=W3C Editor's Draftasdfadsf
+|Status=W3C Editor's Draft
 }}
 }}
 {{Compatibility_Section
@@ -31,7 +31,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics}}
+{{Topics|Audio, DOM, Video}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
