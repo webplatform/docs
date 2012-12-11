@@ -29,7 +29,6 @@
 {{!}}IndexSizeError
 {{!}}The specified index is out of range.
 {{!}}}
-
 }}
 {{Examples_Section
 |Not_required=Yes
