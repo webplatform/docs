@@ -102,7 +102,7 @@ In Microsoft Internet Explorer 6, This property now applies to the '''object'''
 *<code>input type{{=}}image</code>
 *<code>img</code>
 }}
-{{Topics|Accessibility, HTML}}
+{{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
