@@ -12,7 +12,7 @@ Bu kursta, bolca kod yazmayı ve bunları web tarayıcıları üzerinde test etm
 
 ==Web'in Temelleri==
 
-* [[concepts/internet and web/the history of the web/tr|The history of the Web]]
+* [[concepts/internet and web/the history of the web/tr|Web'in Tarihi]]
 * [[concepts/internet and web/how does the internet work/tr|How does the Internet work]]
 * [[concepts/internet and web/the web standards model/tr|The web standards model — HTML, CSS and JavaScript]]
 * [[tutorials/getting your content online/tr|Getting your content online]]
