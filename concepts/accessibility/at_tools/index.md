@@ -1,4 +1,4 @@
-{{Page_Title|Assistve Technology (AT) Tools}}
+{{Page_Title|Assistive Technology (AT) Tools}}
 {{Flags
 |High-level issues=Stub
 }}
