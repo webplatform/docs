@@ -1,5 +1,4 @@
 {{Page_Title|Web'in Tarihi}}
-{{Languages}}
 {{Flags
 |Content=Incomplete, Cleanup
 |Editorial notes=- Bu yazının çevirisi tamamlanmadı.
@@ -17,12 +16,12 @@ Begin at the beginning, the King said gravely, and go on till you come to the en
 
 Her şey bir yerden başlamalı. Öyleyse biz de bu tarih dersine odaklanarak başlayalım. Aşağıda Internet'in, Dünyayı Saran Ağ'ın oluşturulması ve tüm bu seri boyunca üzerinde durulacak web standartları ile ilgili kısa bilgiler vereceğiz.
  
-Eğer hiç bir terim size tanıdık gelmediyse endişelenmeyin: eğer web geliştirmeyi öğrenmek sizin için önemli ise bu konular sonraki makalelerde daha derin bir şekilde anlatılacak. Her zaman merak ettiğiniz terimi arama kutusuna yazarak arayabilirsiniz! Eğer Internet'in ya da Dünyayı Saran Ağın tarihine haşır neşirseniz [[http://www.w3.org/wiki/The_history_of_the_Web#The_coming_of_web_standards web standards]] bölümündeki konuları atlayabilirsiniz. 
+Eğer hiç bir terim size tanıdık gelmediyse endişelenmeyin: eğer web geliştirmeyi öğrenmek sizin için önemli ise bu konular sonraki makalelerde daha derin bir şekilde anlatılacak. Her zaman merak ettiğiniz terimi arama kutusuna yazarak arayabilirsiniz! Eğer Internet'in ya da Dünyayı Saran Ağın tarihine haşır neşirseniz [[http://www.w3.org/wiki/The_history_of_the_Web#The_coming_of_web_standards web standards]] bölümündeki konuları atlayabilirsiniz.
 }}
 {{Concept_Page
 |Content=== İnternet’in kökleri ==
  
-11957’de Ekim’in 4’ünde dünyayı değiştirecek bir olay meydana gelir. Sovyetler Birliği ilk uyduyu başarılı bir şekilde dünyanın yörüngesine yerleştirir. Sputnik 1 diye anlandırılan uydu dünyayı şoka uğrattı -özellikle henüz bir şey fırlatmamış gizli bir uydu fırlatma programı olan Amerika Birleşik Devletleri’ni.
+1957’de Ekim’in 4’ünde dünyayı değiştirecek bir olay meydana gelir. Sovyetler Birliği ilk uyduyu başarılı bir şekilde dünyanın yörüngesine yerleştirir. Sputnik 1 diye anlandırılan uydu dünyayı şoka uğrattı -özellikle henüz bir şey fırlatmamış gizli bir uydu fırlatma programı olan Amerika Birleşik Devletleri’ni.
 
 Gelişmiş teknolojilerin ve fikirlerin ilerlemesini ve araştırma yapan bir kuruma için temel bir ihtiyaçtan dolayı bu olay doğrudan Amerika Birleşik Devletleri Savunma Bakanlığının, ARPA, kurulmasına sebep oldu. Belkide bunun en ünlü projesi Internerin oluşturulmasıydı.
 
@@ -166,3 +165,4 @@ Ya da aşağıdaki soruları cevaplayarak daha fazlasını araştırmak isteyebi
 |MSDN_link=
 |HTML5Rocks_link=
 }}
+{{Languages}}
