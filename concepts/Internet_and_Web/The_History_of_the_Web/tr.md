@@ -14,17 +14,12 @@ Begin at the beginning, the King said gravely, and go on till you come to the en
 
  </blockquote> 
 
-Everything has to begin somewhere, so let's start with a focused history lesson. Below we'll give you a brief overview of the creation of the Internet, the World Wide Web, and the web standards that this entire series focuses upon.
- 
-If any terms are unfamiliar to you, don’t worry: if they’re important for learning web development they’ll be defined in the later articles that go into more depth on each subject, and you can always search them out using your search engine of choice! If you are already familiar with the history of the Internet or the World Wide Web, feel free to skip to the section on [[http://www.w3.org/wiki/The_history_of_the_Web#The_coming_of_web_standards web standards]].
-}}
-{{Concept_Page
-|Content={{Languages}}
 Her şey bir yerden başlamalı. Öyleyse biz de bu tarih dersine odaklanarak başlayalım. Aşağıda Internet'in, Dünyayı Saran Ağ'ın oluşturulması ve tüm bu seri boyunca üzerinde durulacak web standartları ile ilgili kısa bilgiler vereceğiz.
  
 Eğer hiç bir terim size tanıdık gelmediyse endişelenmeyin: eğer web geliştirmeyi öğrenmek sizin için önemli ise bu konular sonraki makalelerde daha derin bir şekilde anlatılacak. Her zaman merak ettiğiniz terimi arama kutusuna yazarak arayabilirsiniz! Eğer Internet'in ya da Dünyayı Saran Ağın tarihine haşır neşirseniz [[http://www.w3.org/wiki/The_history_of_the_Web#The_coming_of_web_standards web standards]] bölümündeki konuları atlayabilirsiniz. 
- 
-== İnternet’in kökleri ==
+}}
+{{Concept_Page
+|Content=== İnternet’in kökleri ==
  
 11957’de Ekim’in 4’ünde dünyayı değiştirecek bir olay meydana gelir. Sovyetler Birliği ilk uyduyu başarılı bir şekilde dünyanın yörüngesine yerleştirir. Sputnik 1 diye anlandırılan uydu dünyayı şoka uğrattı -özellikle henüz bir şey fırlatmamış gizli bir uydu fırlatma programı olan Amerika Birleşik Devletleri’ni.
 
