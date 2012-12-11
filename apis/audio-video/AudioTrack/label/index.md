@@ -7,7 +7,7 @@
 {{Summary_Section|Returns the label of the given track, if known, or the empty string otherwise.}}
 {{API_Object_Property
 |Property_applies_to=apis/audio-video/AudioTrack
-|Read_only=No
+|Read_only=Yes
 |Example_object_name=AudioTrack
 |Javascript_data_type=String
 }}
