@@ -1,4 +1,5 @@
 {{Page_Title|Web'in Tarihi}}
+{{Languages}}
 {{Flags
 |Content=Incomplete, Cleanup
 |Editorial notes=- Bu yazının çevirisi tamamlanmadı.
@@ -165,4 +166,3 @@ Ya da aşağıdaki soruları cevaplayarak daha fazlasını araştırmak isteyebi
 |MSDN_link=
 |HTML5Rocks_link=
 }}
-{{Languages}}
