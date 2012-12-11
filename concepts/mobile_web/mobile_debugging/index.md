@@ -1,6 +1,5 @@
 {{Page_Title|Mobile debugging}}
-{{Flags
-}}
+{{Flags}}
 {{API_Name}}
 {{Summary_Section|Debugging web applications on multiple platforms requires careful prioritisation, different from developing for desktop alone. This article explains techniques and tools available, with links to external resources.}}
 {{Concept_Page
@@ -13,7 +12,7 @@
 
 == Understanding hardware ==
 
-Debugging for mobile can be more complex and demanding than for desktop, simply because mobile devices often have a complex variety of inputs:
+Debugging for mobile can be more complex and demanding than for desktop, simply because mobile devices often have a complex variety of functions and inputs:
 
 * Telephone
 * Camera
