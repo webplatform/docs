@@ -1,4 +1,5 @@
 {{Page_Title|Web'in Tarihi}}
+{{Languages}}
 {{Flags
 |Content=Incomplete, Cleanup
 |Editorial notes=- Bu yazının çevirisi tamamlanmadı.
