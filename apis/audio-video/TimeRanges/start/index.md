@@ -18,8 +18,6 @@
 |Javascript_data_type=DOM Node
 |Return_value_description=Type: '''HRESULT'''. This method can return one of these values.
 
-Type: '''HRESULT'''. This method can return one of these values.
-
 {{{!}} class="wikitable"
 {{!}}-
 !Return code
@@ -30,9 +28,8 @@ Type: '''HRESULT'''. This method can return one of these values.
 {{!}}-
 {{!}}IndexSizeError
 {{!}}The specified index is out of range.
-{{!}}} 
+{{!}}}
 
-Variant: The start position of the range, in seconds, from the beginning of the timeline.
 }}
 {{Examples_Section
 |Not_required=Yes
@@ -40,7 +37,11 @@ Variant: The start position of the range, in seconds, from the beginning of the 
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=W3C HTML5 Specification
+|URL=http://dev.w3.org/html5/spec/single-page.html
+|Status=W3C Editor's Draft
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
