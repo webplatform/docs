@@ -1,6 +1,5 @@
 {{Page_Title|Mobile debugging}}
-{{Flags
-}}
+{{Flags}}
 {{API_Name}}
 {{Summary_Section|Debugging web applications on multiple platforms requires careful prioritisation, different from developing for desktop alone. This article explains techniques and tools available, with links to external resources.}}
 {{Concept_Page
@@ -137,7 +136,7 @@ General information about using the iOS simulator is available from [http://deve
 
 Remote debugging tool. Reuses WebKit Web Inspector &ndash; and is used by Adobe Edge Inspect.
 
-Useful for remote debugging with pre-Jelly Bean (4.1) Android devices, and iOS pre version&nbsp;5: <br/> [http://people.apache.org/pmuellr/weinre/docs/latest/ people.apache.org/pmuellr/weinre/docs/latest].
+Useful for remote debugging with pre-Jelly Bean (4.1) Android devices, and iOS pre version&nbsp;5: <br/> [http://people.apache.org/~pmuellr/weinre/docs/latest/ people.apache.org/~pmuellr/weinre/docs/latest].
 
 === Adobe Edge Inspect ===
 
