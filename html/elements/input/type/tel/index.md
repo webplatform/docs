@@ -63,7 +63,7 @@ The '''input type{{=}}tel''' object has these properties.
 |Internet_explorer_prefixed_supported=Unknown
 |Internet_explorer_prefixed_version=
 |Opera_supported=Yes
-|Opera_version=10.62
+|Opera_version=11
 |Opera_prefixed_supported=Unknown
 |Opera_prefixed_version=
 |Safari_supported=Unknown
@@ -72,8 +72,8 @@ The '''input type{{=}}tel''' object has these properties.
 |Safari_prefixed_version=
 }}
 |Mobile_rows={{Compatibility Table Mobile Row
-|Android_supported=Unknown
-|Android_version=
+|Android_supported=Yes
+|Android_version=2.3
 |Android_prefixed_supported=Unknown
 |Android_prefixed_version=
 |Blackberry_supported=Unknown
@@ -84,8 +84,8 @@ The '''input type{{=}}tel''' object has these properties.
 |Chrome_mobile_version=
 |Chrome_mobile_prefixed_supported=Unknown
 |Chrome_mobile_prefixed_version=
-|Firefox_mobile_supported=Unknown
-|Firefox_mobile_version=
+|Firefox_mobile_supported=Yes
+|Firefox_mobile_version=4.0
 |Firefox_mobile_prefixed_supported=Unknown
 |Firefox_mobile_prefixed_version=
 |IE_mobile_supported=Yes
@@ -105,11 +105,7 @@ The '''input type{{=}}tel''' object has these properties.
 |Safari_mobile_prefixed_supported=Unknown
 |Safari_mobile_prefixed_version=
 }}
-|Notes_rows={{Compatibility Notes Row
-|Browser=Safari Mobile
-|Version=3.1
-|Note=Shows a special keyboard, but does not validate
-}}
+|Notes_rows=
 }}
 {{See_Also_Section
 |Manual_sections====Related pages (MSDN)===
