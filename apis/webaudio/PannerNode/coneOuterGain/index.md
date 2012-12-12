@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|A parameter for directional audio sources, this is the amount of volume reduction outside of the coneOuterAngle. The default value is 0.}}
+{{Summary_Section|A parameter for directional audio sources, this is the amount of volume reduction outside of the [[apis/webaudio/PannerNode/coneOuterAngle|'''coneOuterAngle''']]. The default value is 0.}}
 {{API_Object_Property
 |Property_applies_to=apis/webaudio/PannerNode
 |Read_only=No
