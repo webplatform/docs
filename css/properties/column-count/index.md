@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Specifies the number of columns an element should be divided into.}}
 {{CSS Property
 |Initial value=auto
 |Applies to=non-replaced block-level elements (except table elements), table cells, and inline-block elements
@@ -45,6 +45,7 @@ To ensure the specified value is used, all length property values of the multi-c
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
