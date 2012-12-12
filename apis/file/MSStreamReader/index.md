@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|Non-Standard}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Creates random access data (Blob) from an MSStream object.}}
 {{API_Object}}
 {{Examples_Section
 |Not_required=No
