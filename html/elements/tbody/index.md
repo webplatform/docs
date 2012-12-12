@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The <code>tbody</code> tag is used to group the body content in an HTML table.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLTableSectionElement
 }}
@@ -788,6 +788,7 @@ This property is not supported for Metro style apps using JavaScript.
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
