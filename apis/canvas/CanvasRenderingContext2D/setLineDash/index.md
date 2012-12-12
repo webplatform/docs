@@ -4,12 +4,12 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Sets the line dash properties for the stroke. }}
+{{Summary_Section|Sets the line dash properties for the stroke.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=sequence
 |Data type=Object
-|Description=An array of integers that specifies the length of each "on" and "off" segment. 
+|Description=An array of integers that specifies the length of each "on" and "off" segment.
 |Optional=No
 }}
 |Method_applies_to=canvas/objects/CanvasRenderingContext2D
