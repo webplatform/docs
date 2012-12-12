@@ -5,13 +5,14 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|bdo stands for Bi-Directional Override. It allows you to specify the direction in which text is to be rendered on the page.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=HTML
 |Description=This example uses the '''BDO''' element to correct the reading order of a block of text.
 
 The following string includes text written in the left-to-right order of the English language and the right-to-left order of Hebrew: This fragment is in English, WERBEH NI SI TNEMGARF SIHT.
@@ -643,6 +644,7 @@ The '''bdo''' object has these properties.
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
