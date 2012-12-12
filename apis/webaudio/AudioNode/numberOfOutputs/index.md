@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|The number of outputs coming out of the AudioNode. This will be 0 for an AudioDestinationNode.}}
+{{Summary_Section|The number of outputs coming out of the [[apis/webaudio/AudioNode|'''AudioNode''']]. This will be 0 for an [[apis/webaudio/AudioDestinationNode|'''AudioDestinationNode''']].}}
 {{API_Object_Property
 |Property_applies_to=apis/webaudio/AudioNode
 |Read_only=Yes
