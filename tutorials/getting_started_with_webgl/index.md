@@ -10,9 +10,7 @@
 
 WebGL allows you to create real 3D content and render it in a web browser. WebGL is the web implementation of OpenGL ES2 (Embedded Systems 2), and therefore allows us to run real 3D across any system with a browser that supports it and the graphics capabilities to handle such visually rich content. In web technology terms, WebGL is the 3D drawing context of the HTML5 <code><canvas></code> element.
 
-This tutorial series, created by Erik Möller in video format (with Chris Mills transcribing to create the written articles), will take you through Raw WebGL (no libraries) from the beginning, building up to more complicated topics with each successive article to help you really understand what is going on under the hood.
-
-This article gets you started with the basics, and forms a transcription of the material covered in Erik's [http://www.youtube.com/watch?v=me3BviH3nZc WebGL video tutorial] from the beginning to time 22:25. You can [webgl1_code.zip download the code for this tutorial] in a single zip file.
+This tutorial, created by Erik Möller in video format (with Chris Mills transcribing to create the written articles), gets you started with the basics, and forms a transcription of the material covered in Erik's [http://www.youtube.com/watch?v=me3BviH3nZc WebGL video tutorial] from the beginning to time 22:25. 
 
 <div class="note">
 
