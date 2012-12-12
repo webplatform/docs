@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Creates a GainNode.}}
+{{Summary_Section|Creates a [[apis/webaudio/GainNode|'''GainNode''']].}}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=apis/webaudio/AudioContext
