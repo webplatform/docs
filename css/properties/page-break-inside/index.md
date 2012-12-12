@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Sets the page-breaking behavior inside an element.}}
 {{CSS Property
 |Applies to=All elements
 |Inherited=No
