@@ -1,8 +1,5 @@
 {{Page_Title|The CSS layout model: borders, boxes, margins and padding}}
-{{Flags
-|High-level issues=Merge Candidate
-|Editorial notes=http://docs.webplatform.org/wiki/tutorials/The_CSS_layout_model_-_boxes_borders_margins_padding
-}}
+{{Flags}}
 {{Byline}}
 {{Summary_Section|This article covers the CSS layout model in some detail, including box model, borders, margin and padding, and how they all work.}}
 {{Guide
@@ -893,6 +890,7 @@ This discussion of the <code>clear</code> property is intended as a simple intro
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
