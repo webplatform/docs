@@ -2,9 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|WaveTable represents an arbitrary periodic waveform to be used with an OscillatorNode. Please see createWaveTable() and setWaveTable() for more details.
-
-}}
+{{Summary_Section|WaveTable represents an arbitrary periodic waveform to be used with an [[apis/webaudio/OscillatorNode|'''OscillatorNode''']].}}
 {{API_Object}}
 {{Examples_Section
 |Not_required=Yes
