@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|This interface is a type of Event which is passed to the onaudioprocess event handler used by ScriptProcessorNode. The event handler processes audio from the input (if any) by accessing the audio data from the inputBuffer attribute. The audio data which is the result of the processing (or the synthesized data if there are no inputs) is then placed into the outputBuffer.}}
+{{Summary_Section|This interface is a type of Event which is passed to the [[apis/webaudio/ScriptProcessorNode/onaudioprocess|'''onaudioprocess''']] event handler used by [[apis/webaudio/ScriptProcessorNode|'''ScriptProcessorNode''']]. The event handler processes audio from the input (if any) by accessing the audio data from the [[apis/webaudio/AudioProcessingEvent/inputBuffer|'''inputBuffer''']] attribute. The audio data which is the result of the processing (or the synthesized data if there are no inputs) is then placed into the [[apis/webaudio/AudioProcessingEvent/outputBuffer|'''outputBuffer''']].}}
 {{API_Object}}
 {{Examples_Section
 |Not_required=Yes
