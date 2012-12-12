@@ -1,5 +1,7 @@
 {{Page_Title|WebGL: a simple shader}}
-{{Flags}}
+{{Flags
+|Content=Compatibility Incomplete
+}}
 {{Byline
 |Name=Erik Möller, Chris Mills
 |Published=June 27, 2012
