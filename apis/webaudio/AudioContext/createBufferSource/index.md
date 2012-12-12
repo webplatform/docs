@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Creates an AudioBufferSourceNode.}}
+{{Summary_Section|Creates an [[apis/webaudio/AudioBufferSourceNode|'''AudioBufferSourceNode''']].}}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=apis/webaudio/AudioContext
