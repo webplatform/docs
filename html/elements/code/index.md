@@ -5,7 +5,9 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Specifies computer code sample.
+The tag allows for rendering text within the code block as entered with all its syntax v/s getting interpreted by the browser.
+}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
 }}
@@ -667,6 +669,7 @@ This property is not supported for Metro style apps using JavaScript.
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
