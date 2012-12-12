@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|The time when the audio will be played, in the same time coordinate system as AudioContext.currentTime. playbackTime allows for very tight synchronization between processing directly in JavaScript with the other events in the context's rendering graph.}}
+{{Summary_Section|The time when the audio will be played, in the same time coordinate system as [[apis/webaudio/AudioContext/currentTime|'''AudioContext.currentTime''']]. [[apis/webaudio/AudioProcessingEvent/playbackTime|'''playbackTime''']] allows for very tight synchronization between processing directly in JavaScript with the other events in the context's rendering graph.}}
 {{API_Object_Property
 |Property_applies_to=apis/webaudio/AudioProcessingEvent
 |Read_only=Yes
