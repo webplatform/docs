@@ -56,7 +56,7 @@ Next, we will use two WebGL-specific methods:
 
  <syntaxhighlight lang="javascript">
 gl.clearColor(0,0,0.8,1);
- gl.clear(gl.COLOR_BUFFER_BIT);
+gl.clear(gl.COLOR_BUFFER_BIT);
 </syntaxhighlight>
 
 <code>clearColor</code> specifies the background colour of the canvas. We are then using <code>clear</code> to clear the canvas of any content, which means the background colour will then be shown. We are passing <code>clear</code> the <code>COLOR_BUFFER_BIT</code> buffer, which stores the colours of pixels drawn on the screen. (There are other buffers we could clear, such as <code>DEPTH_BUFFER_BIT</code>, which stores details of how far along the z axis pixels are drawn, and therefore how far into the screen they are. But we'll not go into these in detail at this point.) Note that the clear colour we specify takes the form of four values, for red, green, blue and alpha (these all take a value of between 0 and 1, unlike in CSS colours).
@@ -108,22 +108,22 @@ Now let's think about the shape we want to draw — in this case we will draw a 
 
 It is worth explaining at this point that OpenGL (and therefore, WebGL) uses a right hand coordinate system, so the x axis goes left to right, the y axis goes bottom to top, and the z axis goes out of the screen towards you. With that in mind, let's populate the array with the coordinates we need to locate the vertices of our triangle:
 
- <code>var vertices = [-0.5, -0.5, 0.5, -0.5, 0, 0.5];</code>
+ <syntaxhighlight lang="javascript">var vertices = [-0.5, -0.5, 0.5, -0.5, 0, 0.5];</syntaxhighligh>
 
 So here the three coordinates — (-0.5, -0.5), (0.5, -0.5) and (0, 0.5) represent points on a Cartesian plane. We are using only 2D coordinates for this example: we will move into 3D later on in the series!
 
 As mentioned earlier, we will now upload this data into our bound buffer: we do this using <code>bufferData()</code>. Note how this function takes as its arguments the bind point we bound our buffer to earlier, the vertices array, which has been given a suitable data type — <code>Float32Array</code> — and a <code>STATIC_DRAW</code> label, which specifies that we want to upload the data once, and then draw it several times:
 
- <code>gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(vertices), gl.STATIC_DRAW);</code>
+ <syntaxhighlight lang="javascript">gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(vertices), gl.STATIC_DRAW);</syntaxhighlight>
 
 {{Note|The [http://www.khronos.org/registry/typedarray/specs/latest/ TypedArray] we are using here uses strict typing, unlike regular JavaScript.}}
 
 To tell the program what our shape is actually going to look like, we need two more things — a vertex shader and a fragment shader ('''Vertex shader''' and '''Fragment shader''' in the programmable pipeline). These are created like so:
 
- <code>var vs = 'attribute vec2 pos;' +
+ <syntaxhighlight lang="javascript">var vs = 'attribute vec2 pos;' +
    'void main() { gl_Position = vec4(pos, 0, 1); }';
  var fs = 'precision mediump float;' +
-   'void main() { gl_FragColor = vec4(0,0.8,0,1); }';</code>
+   'void main() { gl_FragColor = vec4(0,0.8,0,1); }';</syntaxhighlight>
 
 The vertex shader gets executed once for every vertex being passed in, passing the resulting vertex on to the primitive assembly step ('''Primitive assembly''' in the programmable pipeline: this is what creates triangles or lines out of the vertices). The primitives are then rasterised ('''Rasterizer''' in the programmable pipeline: this converts the data into pixels on the screen). Looking at the different parts of the syntax above:
 
@@ -139,26 +139,26 @@ Note: the <code>pos</code> string in the above shader code is just a variable yo
 
 The next couple of lines create and set the specified program as the currently active program. The <code>createProgram()</code> function creates and compiles the shaders before attaching them to the program and linking it. The currently active program will decide what gets drawn when you later call the <code>drawArrays()</code> API call.
 
- <code>var program = createProgram(vs,fs);
- gl.useProgram(program);</code>
+ <syntaxhighlight lang="javascript">var program = createProgram(vs,fs);
+ gl.useProgram(program);</syntaxhighlight>
 
 {{Note|The <code>createProgram()</code> function does not yet exist: we will define it later.}}
 
 Now let's ramp it up again! We now want to get an attribute location to hook up the buffer to the program input. This is done by storing the <code>getAttribLocation</code> value of the shader (referenced using the <code>pos</code> string we specified earlier) in the <code>vertexPosAttrib</code> property of our program:
 
- <code>program.vertexPosAttrib = gl.getAttribLocation(program, 'pos');</code>
+ <syntaxhighlight lang="javascript">program.vertexPosAttrib = gl.getAttribLocation(program, 'pos');</syntaxhighlight>
 
 We now add a line to specify that we want to read that buffer when we actually start drawing:
 
- <code>gl.enableVertexAttribArray(program.vertexPosAttrib);</code>
+ <syntaxhighlight lang="javascript">gl.enableVertexAttribArray(program.vertexPosAttrib);</syntaxhighlight>
 
 Then we have to specify how the program should read the indata from the buffer, using <code>vertexAttribPointer</code>. Here we specify our <code>program.vertexPosAttrib</code> reference, the number 2 to specify that we have two values per vertex (x,y), and <code>gl.FLOAT</code> to specify that the data is floating point type. The two zeros at the end respectively signify that the positions are tightly packed (no gap in the data) and that we should start drawing from position zero in the buffer.
 
- <code>gl.vertexAttribPointer(program.vertexPosAttrib, 2, gl.FLOAT, false, 0, 0);</code>
+ <syntaxhighlight lang="javascript">gl.vertexAttribPointer(program.vertexPosAttrib, 2, gl.FLOAT, false, 0, 0);</syntaxhighlight>
 
 We have now got to the point where we have specified all the data we need to draw our triangle — woo hoo! Now we can draw the data using our <code>program</code> specified earlier using the following simple line:
 
- <code>gl.drawArrays(gl.TRIANGLES, 0, 3);</code>
+ <syntaxhighlight lang="javascript">gl.drawArrays(gl.TRIANGLES, 0, 3);</syntaxhighlight>
 
 We are using <code>drawArrays</code> to draw our vertices out. As arguments we specify <code>TRIANGLES</code> because we want to draw a filled triangle (we could have used <code>LINE_LOOP</code> if we just wanted to draw an outline), 0 to specify that we want to start drawing from the first vertex, and the number three to declare that we have three vertices to draw.
 
@@ -166,7 +166,7 @@ We are using <code>drawArrays</code> to draw our vertices out. As arguments we s
 
 Ah, but there's more. To finally get our triangle displayed nicely on our canvas, we need to actually create our <code>createProgram()</code> function, as referenced earlier! Put the following into your script, just below the <code><script></code> tag, then we'll dissect it line by line.
 
- <code>function createProgram(vstr, fstr) {
+ <syntaxhighlight lang="javascript">function createProgram(vstr, fstr) {
    var program = gl.createProgram();
    var vshader = createShader(vstr, gl.VERTEX_SHADER);
    var fshader = createShader(fstr, gl.FRAGMENT_SHADER);
@@ -174,7 +174,7 @@ Ah, but there's more. To finally get our triangle displayed nicely on our canvas
    gl.attachShader(program, fshader);
    gl.linkProgram(program);
    return program;
- }</code>
+ }</syntaxhighlight>
 
 As you can see, this function is taking a fragment shader and a vertex shader as inputs, and creating a program variable and returning it as an output, which is then used by <code>gl.useProgram(program);</code>. The next two lines create the two shaders, and the two after that attach these shaders to the program we want to return. Last of all, we link the program, and return it out of the function.
 
@@ -182,12 +182,12 @@ As you can see, this function is taking a fragment shader and a vertex shader as
 
 We just have a little more work to do now — the <code>createShader()</code> function doesn't yet exist, so let's create it now. Add the following above the first function, again just below the <code><script></code> tag:
 
- <code>function createShader(str, type) {
+ <syntaxhighlight lang="javascript">function createShader(str, type) {
    var shader = gl.createShader(type);
    gl.shaderSource(shader, str);
    gl.compileShader(shader);
    return shader;
- }</code>
+ }</syntaxhighlight>
 
 This function accepts two inputs — a string and a type, and returns a shader object for us to use in our <code>createProgram()</code> function. In order, we create the shader object, using the specified type, specify the shader source, compile it, and then return it.
 
@@ -210,15 +210,15 @@ The above is all well and good, but in the course of our work we'll want to crea
 
 Now reference your utility script from your HTML file, like so:
 
- <code><script src='webgl-utils.js'></script></code>
+ <syntaxhighlight lang="html5"><script src='webgl-utils.js'></script></syntaxhighlight>
 
 ==Adding rudimentary error handling==
 
 Let's improve these functions by adding in some error handling. To handle general JavaScript errors, we'll use the nice [http://dev.opera.com/articles/view/better-error-handling-with-window-onerror/ window.onerror handler]. First of all, add the following general error handling function to the top of your utility file:
 
- <code>window.onerror = function(msg, url, lineno) {
+ <syntaxhighlight lang="javascript">window.onerror = function(msg, url, lineno) {
    alert(url + '(' + lineno + '): ' + msg);
- }</code>
+ }</syntaxhighlight>
 
 When an error is thrown, this function takes the error message, current page URL and line number the error occurred on, and outputs a hopefully readable alert message outlining all of these.
 
@@ -226,21 +226,21 @@ While this is useful for a rough and ready development tool, you'll want to some
 
 Now for WebGL errors. In your <code>createShader()</code> function, add the following construct:
 
- <code>if (!gl.getShaderParameter(shader, gl.COMPILE_STATUS)) {
+ <syntaxhighlight lang="javascript">if (!gl.getShaderParameter(shader, gl.COMPILE_STATUS)) {
  
- }</code>
+ }</syntaxhighlight>
 
 Here we are using an if statement to check whether the shader has compiled successfully. If not, we will throw an error. You can throw an error message containing the current shader compile status like so:
 
- <code>if (!gl.getShaderParameter(shader, gl.COMPILE_STATUS)) {
+ <syntaxhighlight lang="javascript">if (!gl.getShaderParameter(shader, gl.COMPILE_STATUS)) {
    throw gl.getShaderInfoLog(shader);
- }</code>
+ }</syntaxhighlight>
 
 We can then do exactly the same thing for the <code>createProgram()</code> function, except that this time we are returning the program linking status, not the shader compilation status.
 
- <code>if (!gl.getProgramParameter(program, gl.LINK_STATUS)) {
+ <syntaxhighlight lang="javascript">if (!gl.getProgramParameter(program, gl.LINK_STATUS)) {
    throw gl.getProgramInfoLog(program);
- }</code>
+ }</syntaxhighlight>
 
 so now we've got some error handling. Excellent!
 
