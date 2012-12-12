@@ -5,7 +5,9 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The input element is a multipurpose element for representing input controls.
+
+}}
 {{Markup_Element
 |DOM_interface=dom/HTMLInputElement
 |Content====HTML information===
@@ -44,7 +46,6 @@ The input element behavior varies depending on the value of its [[html/elements/
 * '''[[html/elements/input/type/text|type=text]]''' (default if type is not set or empty)
 * [[html/elements/input/type/url|type=url]]
 * [[html/elements/input/type/week|type=week]]
-
 }}
 {{Examples_Section
 |Not_required=No
@@ -84,7 +85,10 @@ The input element behavior varies depending on the value of its [[html/elements/
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|External_links=http://www.w3.org/TR/html-markup/input.html#input
+
+}}
 {{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
