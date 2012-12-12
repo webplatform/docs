@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The <code>td</code> tag defines a standard cell in an HTML table.}}
+{{Summary_Section|Defines a standard cell in an HTML table.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLTableDataCellElement
 }}
