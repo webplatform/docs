@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Creates a WaveShaperNode representing a non-linear distortion.}}
+{{Summary_Section|Creates a [[apis/webaudio/WaveShaperNode|'''WaveShaperNode''']] representing a non-linear distortion.}}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=apis/webaudio/AudioContext
