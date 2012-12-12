@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Stub
-|Content=Compatibility Incomplete
+|High-level issues=Stub, Missing Relevant Sections
+|Content=Incomplete, Compatibility Incomplete
 }}
 {{Standardization_Status}}
 {{API_Name}}
