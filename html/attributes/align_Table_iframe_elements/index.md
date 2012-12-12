@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Specifies the horizontal alignment of the content in an element. Not supported in HTML5. Use CSS instead.}}
 {{Markup_Attribute
 |Property_applies_to=dom/HTMLElement
 }}
@@ -26,6 +26,7 @@ If the '''align''' property is not set on the object, the table is aligned to th
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
 |Chrome_version=Beta
