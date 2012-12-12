@@ -1,7 +1,7 @@
 {{Page_Title|HTML lists}}
 {{Flags}}
 {{Byline}}
-{{Summary_Section|This article will give a clear understanding of the three different list types in HTML. }}
+{{Summary_Section|This article will give a clear understanding of the three different list types in HTML.}}
 {{Guide
 |Content=== Introduction ==
  
@@ -287,7 +287,7 @@ Theoretically you can nest as many lists as you like, although in practice it ca
 }}
 {{Notes_Section}}
 {{Compatibility_Section
-|Not_required=No
+|Not_required=Yes
 |Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
