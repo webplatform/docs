@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|AudioParam controls an individual aspect of an AudioNode's functioning, such as volume. The parameter can be set immediately to a particular value using the value attribute. Or, value changes can be scheduled to happen at very precise times (in the coordinate system of AudioContext.currentTime), for envelopes, volume fades, LFOs, filter sweeps, grain windows, etc. In this way, arbitrary timeline-based automation curves can be set on any AudioParam. Additionally, audio signals from the outputs of AudioNodes can be connected to an AudioParam, summing with the intrinsic parameter value.}}
+{{Summary_Section|[[apis/webaudio/AudioParam|'''AudioParam''']] controls an individual aspect of an [[apis/webaudio/AudioNode|'''AudioNode''']]'s functioning, such as volume. The parameter can be set immediately to a particular value using the value attribute. Or, value changes can be scheduled to happen at very precise times (in the coordinate system of [[apis/webaudio/AudioContext/currentTime|'''AudioContext.currentTime''']]), for envelopes, volume fades, LFOs, filter sweeps, grain windows, etc. In this way, arbitrary timeline-based automation curves can be set on any [[apis/webaudio/AudioParam|'''AudioParam''']]. Additionally, audio signals from the outputs of [[apis/webaudio/AudioNode|'''AudioNode''']]s can be connected to an [[apis/webaudio/AudioParam|'''AudioParam''']], summing with the intrinsic parameter value.}}
 {{API_Object}}
 {{Examples_Section
 |Not_required=Yes
