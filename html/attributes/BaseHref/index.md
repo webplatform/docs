@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Retrieves a string of the URL where the object tag can be found, often the <code>href</code> of the document that the object is in, or the value set by a <code>base</code> element.}}
 {{Markup_Attribute
 |Property_applies_to=dom/HTMLElement
 }}
@@ -26,6 +26,7 @@ Use the '''BaseHref''' property to resolve relative paths when locating an '''ob
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=No
 |Chrome_version=
