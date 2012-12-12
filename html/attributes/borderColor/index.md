@@ -14,8 +14,7 @@
 |Examples=
 }}
 {{Notes_Section
-|Notes====Remarks===
-To render the color specified by ''sColor'', the [[html/attributes/border|'''BORDER''']] attribute must be set to an integer greater than zero.
+|Notes=To render the color specified by ''sColor'', the [[html/attributes/border|'''BORDER''']] attribute must be set to an integer greater than zero.
 Some client applications do not recognize color names, but all client applications should recognize RGB color values and display them correctly.
 |Import_Notes====Syntax===
 }}
