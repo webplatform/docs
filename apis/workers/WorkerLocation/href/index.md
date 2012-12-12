@@ -8,7 +8,9 @@
 {{Summary_Section}}
 {{API_Object_Property
 |Property_applies_to=apis/workers/objects/WorkerLocation
-|Read_only=No
+|Read_only=Yes
+|Example_object_name=workerLocation
+|Javascript_data_type=String
 }}
 {{Examples_Section
 |Not_required=No
@@ -24,6 +26,7 @@ The '''href''' is the entire string of the URL.
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
 |Chrome_prefixed_supported=Unknown
@@ -51,7 +54,7 @@ The '''href''' is the entire string of the URL.
 |Manual_sections====Related pages (MSDN)===
 *<code>[[apis/workers/objects/WorkerLocation|WorkerLocation]]</code>
 }}
-{{Topics|DOM}}
+{{Topics|DOM, Webworkers}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
