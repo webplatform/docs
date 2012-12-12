@@ -6,7 +6,7 @@
 Links need to be changed to point to the WPD JS reference, once it's created
 }}
 {{Byline}}
-{{Summary_Section|Objects are integral to javascript development and understanding the use paradigm is essential.}}
+{{Summary_Section|Objects are integral to javascript development and understanding how objects are generated and used is essential.}}
 {{Tutorial
 |Content=JavaScript is designed on a simple object-based paradigm: An object represents a collection of properties; each property is an association between a name/value pair. A value of property can be a function, which is then known as the object's ''method''. In addition to objects that are predefined in the browser, you can define your own objects.
 
