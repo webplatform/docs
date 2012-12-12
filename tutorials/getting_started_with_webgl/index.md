@@ -12,12 +12,10 @@ WebGL allows you to create real 3D content and render it in a web browser. WebGL
 
 This tutorial, created by Erik Möller in video format (with Chris Mills transcribing to create the written articles), gets you started with the basics, and forms a transcription of the material covered in Erik's [http://www.youtube.com/watch?v=me3BviH3nZc WebGL video tutorial] from the beginning to time 22:25. 
 
-<div class="note">
-
+{{Note|
 * [http://www.youtube.com/watch?v=me3BviH3nZc Watch Erik's entire WebGL video tutorial] for free on Youtube. Over 2 and a half hours of WebGL tuition!
 * [https://github.com/emoller/WebGL101 Access the full WebGL 101 code example set] and links to see the examples running live, at Github
-
-</div>
+}}
 
 ==Getting prepared==
 
@@ -66,9 +64,9 @@ If you save and run this page, it should give you a blank canvas, with a default
 
 Figure 1: A very simple WebGL output.
 
-Note: The canvas has been created with dimensions of 300 × 150px — this is the default if you don't specify your own width and height.
+{{Note|The canvas has been created with dimensions of 300 × 150px — this is the default if you don't specify your own width and height.}}
 
-Note: WebGL code will seem rather complicated to many of you: being based on OpenGL, it is actually close to C++ code. For those of you wanting to understand it in depth, you should consult a set of C++ tutorials such as [http://www.cplusplus.com/doc/tutorial/ cplusplus.com/doc/tutorial].
+{{Note|WebGL code will seem rather complicated to many of you: being based on OpenGL, it is actually close to C++ code. For those of you wanting to understand it in depth, you should consult a set of C++ tutorials such as [http://www.cplusplus.com/doc/tutorial/ cplusplus.com/doc/tutorial].}}
 
 ==Drawing something meaningful==
 
@@ -111,7 +109,7 @@ As mentioned earlier, we will now upload this data into our bound buffer: we do 
 
  <code>gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(vertices), gl.STATIC_DRAW);</code>
 
-Note: The [http://www.khronos.org/registry/typedarray/specs/latest/ TypedArray] we are using here uses strict typing, unlike regular JavaScript.
+{{Note|The [http://www.khronos.org/registry/typedarray/specs/latest/ TypedArray] we are using here uses strict typing, unlike regular JavaScript.}}
 
 To tell the program what our shape is actually going to look like, we need two more things — a vertex shader and a fragment shader ('''Vertex shader''' and '''Fragment shader''' in the programmable pipeline). These are created like so:
 
@@ -137,7 +135,7 @@ The next couple of lines create and set the specified program as the currently a
  <code>var program = createProgram(vs,fs);
  gl.useProgram(program);</code>
 
-Note: The <code>createProgram()</code> function does not yet exist: we will define it later.
+{{Note|The <code>createProgram()</code> function does not yet exist: we will define it later.}}
 
 Now let's ramp it up again! We now want to get an attribute location to hook up the buffer to the program input. This is done by storing the <code>getAttribLocation</code> value of the shader (referenced using the <code>pos</code> string we specified earlier) in the <code>vertexPosAttrib</code> property of our program:
 
