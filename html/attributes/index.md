@@ -4,7 +4,8 @@
 {{API_Name}}
 {{Summary_Section|Index page for HTML attributes.}}
 {{API_Listing
-|Use_page_title=No
+|Query=[[Category:Markup_Attributes]][[Category:HTML]]
+|Use_page_title=Yes
 |List_all_subpages=Yes
 }}
 {{Notes_Section}}
