@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Defines strikethrough text. It is deprecated in HTML4 and not supported in HTML5. Use the <del> tag instead.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
 }}
@@ -633,6 +633,7 @@ This property is not supported for Metro style apps using JavaScript.
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
