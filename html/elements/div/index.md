@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|DIV is a generic block-level container that has no semantic value other than the one that you give it via ID or Class. It can be used for a variety of purposes including the styling of common elements, or for grouping elements with common attributes. It’s use should be limited to those cases when no other semantic HTML is appropriate to the situation at hand (for example &lt;nowiki&gt;&lt;section&gt;&lt;/nowiki&gt; or &lt;nowiki&gt;&lt;nav&gt;&lt;/nowiki&gt;.)}}
+{{Summary_Section|DIV is a generic block-level container that has no semantic value other than the one that you give it via ID or Class. It can be used for a variety of purposes including the styling of common elements, or for grouping elements with common attributes.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLDivElement
 }}
