@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Creates a MediaStreamAudioSourceNode given a MediaStream. As a consequence of calling this method, audio playback from the MediaStream will be re-routed into the processing graph of the AudioContext.}}
+{{Summary_Section|Creates a '''MediaStreamAudioSourceNode''' given a [[apis/webrtc/MediaStream|'''MediaStream''']]. As a consequence of calling this method, audio playback from the [[apis/webrtc/MediaStream|'''MediaStream''']] will be re-routed into the processing graph of the [[apis/webaudio/AudioContext|'''AudioContext''']].}}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=apis/webaudio/AudioContext
