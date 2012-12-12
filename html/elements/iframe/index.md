@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The iframe element introduces a new nested browsing context.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLIFrameElement
 |Content=Iframes are one the best ways to build up a complex, detailed webpage from smaller, more manageable chunks. By using iframe tags, a developer can include webpages as part of a larger, enompassing parent page. Unlike frames, iframes can be styled through CSS and easily molded to fit seamlessly within the parent page. One neat use of an iframe is to display a custom Google map within the page. This can be done by setting the 'src' attribute of the iframe tag to Google Map URL.
@@ -618,11 +618,14 @@ This property is not supported for Metro style apps using JavaScript.
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
 }}
 {{See_Also_Section
+|External_links=http://www.w3.org/TR/html-markup/iframe.html#iframe
+
 |Manual_sections====Related pages (MSDN)===
 *<code>Using IFRAME Elements</code>
 }}
