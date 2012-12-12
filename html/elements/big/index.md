@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|&lt;big&gt; tag defines bigger text.
+{{Summary_Section|Defines bigger text.
 &lt;big&gt; tag is not supported in HTML5. Use CSS instead.
 }}
 {{Markup_Element
