@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|used to define a hyperlink ( a link ) to any content, may be another page, another section of the same page , an image/file  or it may invoke a JavaScript function. }}
+{{Summary_Section|Used to define a hyperlink (a link) to any content, may be another page, another section of the same page, an image/file or it may invoke a JavaScript function.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLAnchorElement
 }}
