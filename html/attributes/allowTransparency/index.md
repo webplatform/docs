@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Sets or retrieves whether the object can be transparent.}}
 {{Markup_Attribute
 |Property_applies_to=dom/HTMLElement
 }}
@@ -41,6 +41,7 @@ Support for this attribute has been dropped in IE9.
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
 |Chrome_version=Beta
