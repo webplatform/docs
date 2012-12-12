@@ -5,7 +5,9 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The &lt;colgroup&gt; tag specifies a group of one or more columns in a table for formatting.
+The &lt;colgroup&gt; tag is useful for applying styles to entire columns, instead of repeating the styles for each cell, for each row.
+}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
 }}
@@ -545,6 +547,7 @@ This property is not supported for Metro style apps using JavaScript.
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
