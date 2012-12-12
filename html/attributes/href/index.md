@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Sets or retrieves a destination URL or an anchor point}}
 {{Markup_Attribute
 |Property_applies_to=dom/HTMLElement
 }}
@@ -56,6 +56,7 @@ Internet Explorer 8 and later. When Protected Mode is enabled and a Web page co
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows={{Compatibility Table Mobile Row
 |Android_supported=Unknown
