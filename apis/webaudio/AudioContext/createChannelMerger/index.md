@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Creates an ChannelMergerNode representing a channel merger. An exception will be thrown for invalid parameter values.}}
+{{Summary_Section|Creates a [[apis/webaudio/ChannelMergerNode|'''ChannelMergerNode''']] representing a channel merger. An exception will be thrown for invalid parameter values.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=numberOfOutputs
@@ -12,6 +12,7 @@
 }}
 |Method_applies_to=apis/webaudio/AudioContext
 |Example_object_name=AudioContext
+|Return_value_description=Determines the number of outputs. Values of up to 32 must be supported. If not specified, then 6 will be used.
 }}
 {{Examples_Section
 |Not_required=Yes
