@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The tr element represents a row of cells in a table.}}
+{{Summary_Section|The <code>tr</code> element represents a row of cells in a table.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLTableRowElement
 }}
