@@ -5,7 +5,7 @@
 
 Links need to be changed to point to the WPD JS reference, once it's created
 
-Possible merge with http://docs.webplatform.org/wiki/Objects_in_JavaScript
+
 }}
 {{Byline}}
 {{Summary_Section}}
