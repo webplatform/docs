@@ -96,6 +96,7 @@ The '''input type{{=}}range''' object has these properties.
 |Firefox_mobile_prefixed_supported=Unknown
 |Firefox_mobile_prefixed_version=
 |IE_mobile_supported=Yes
+|IE_mobile_version=10
 |IE_mobile_prefixed_supported=Unknown
 |IE_mobile_prefixed_version=
 |Opera_mobile_supported=Yes
