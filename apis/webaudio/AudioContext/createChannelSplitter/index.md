@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Creates a ChannelSplitterNode representing a channel splitter. An exception will be thrown for invalid parameter values.}}
+{{Summary_Section|Creates a [[apis/webaudio/ChannelSplitterNode|'''ChannelSplitterNode''']] representing a channel splitter. An exception will be thrown for invalid parameter values.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=numberOfOutputs
