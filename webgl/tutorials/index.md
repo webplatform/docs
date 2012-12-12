@@ -11,19 +11,6 @@
 |HTML5Rocks_link=
 }}
 
-{{Page_Title|WebGL Tutorials}}
-{{Flags}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section|Index page for JavaScript tutorials.}}
-{{See_Also_Section}}
-{{Topics|JavaScript}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
 {{Basic Page}}
 
 {{Basic Page|Content=PAGE CONTENT GOES HERE
