@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The hgroup element is typically used to group a set of one or more h1-h6 elements — to group, for example, a section title and an accompanying subtitle.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
 }}
@@ -263,11 +263,14 @@ This property is not supported for Metro style apps using JavaScript.
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
 }}
 {{See_Also_Section
+|External_links=http://www.w3.org/TR/html-markup/hgroup.html
+
 |Manual_sections====Related pages (MSDN)===
 *<code>Reference</code>
 *<code>article</code>
