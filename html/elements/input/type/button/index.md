@@ -715,23 +715,29 @@ This property is not supported for Metro style apps using JavaScript.
 |Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
+|Chrome_version=1.0
 |Chrome_prefixed_supported=Unknown
 |Chrome_prefixed_version=
 |Firefox_supported=Yes
+|Firefox_version=1.0
 |Firefox_prefixed_supported=Unknown
 |Firefox_prefixed_version=
 |Internet_explorer_supported=Yes
+|Internet_explorer_version=3.0
 |Internet_explorer_prefixed_supported=Unknown
 |Internet_explorer_prefixed_version=
 |Opera_supported=Yes
+|Opera_version=1.0
 |Opera_prefixed_supported=Unknown
 |Opera_prefixed_version=
 |Safari_supported=Yes
+|Safari_version=1.0
 |Safari_prefixed_supported=Unknown
 |Safari_prefixed_version=
 }}
 |Mobile_rows={{Compatibility Table Mobile Row
 |Android_supported=Yes
+|Android_version=1.0
 |Android_prefixed_supported=Unknown
 |Android_prefixed_version=
 |Blackberry_supported=Yes
@@ -753,6 +759,7 @@ This property is not supported for Metro style apps using JavaScript.
 |Opera_mini_prefixed_supported=Unknown
 |Opera_mini_prefixed_version=
 |Safari_mobile_supported=Yes
+|Safari_mobile_version=1.0
 |Safari_mobile_prefixed_supported=Unknown
 |Safari_mobile_prefixed_version=
 }}
@@ -767,8 +774,8 @@ This property is not supported for Metro style apps using JavaScript.
 {{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
+|Sources=MDN, MSDN
+|MDN_link=https://developer.mozilla.org/en-US/docs/HTML/Element/Input
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
