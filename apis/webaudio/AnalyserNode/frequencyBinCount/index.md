@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Half the fftSize (the size of the FFT used for frequency-domain analysis).}}
+{{Summary_Section|Half the [[apis/webaudio/AnalyserNode/fftSize|'''fftSize''']] (the size of the FFT used for frequency-domain analysis).}}
 {{API_Object_Property
 |Property_applies_to=apis/webaudio/AnalyserNode
 |Read_only=No
