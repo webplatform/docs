@@ -1,5 +1,7 @@
 {{Page_Title|Getting started with WebGL}}
-{{Flags}}
+{{Flags
+|Content=Compatibility Incomplete
+}}
 {{Byline
 |Name=Erik Möller, Chris Mills
 |Published=February 29, 2012
