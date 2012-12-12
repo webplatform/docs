@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Provides the oneTimeOnly property for use with the createObjectURL method.}}
 {{API_Object}}
 {{Examples_Section
 |Not_required=No
