@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|The shape of the periodic waveform. It may directly be set to any of the type constant values except for CUSTOM. The setWaveTable() method can be used to set a custom waveform, which results in this attribute being set to CUSTOM.}}
+{{Summary_Section|The shape of the periodic waveform. It may directly be set to any of the type constant values except for CUSTOM. The [[apis/webaudio/OscillatorNode/setWaveTable|'''setWaveTable()''']] method can be used to set a custom waveform, which results in this attribute being set to CUSTOM.}}
 {{API_Object_Property
 |Property_applies_to=apis/webaudio/OscillatorNode
 |Read_only=No
