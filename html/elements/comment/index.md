@@ -5,13 +5,19 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Indicates a comment within the code. Text within the comment tags is not displayed on the rendered page in the browser.
+Comment tag starts with &lt!-- and ends with --&gt;.
+}}
 {{Markup_Element
 |DOM_interface=dom/Comment
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Code=&lt;!-- This is a comment. Comments are not displayed in the browser --&gt;
+
+}}
 }}
 {{Notes_Section
 |Notes=The '''COMMENT''' element is treated as a no-scope element and does not expose any [[dom/properties/children (document)+B416|'''children''']].
@@ -374,6 +380,7 @@ This property is not supported for Metro style apps using JavaScript.
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
