@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|This element defines parameters for plugins invoked by object elements. }}
 {{Markup_Element
 |DOM_interface=dom/HTMLParamElement
 }}
@@ -166,6 +166,7 @@ The '''param''' object has these properties.
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
