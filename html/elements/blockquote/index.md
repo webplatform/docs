@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|&lt;blockquote&gt; tag specifies a section that is quoted from another source.
+{{Summary_Section|Specifies a section that is quoted from another source.
 In HTML 4.01, the &lt;blockquote&gt; tag is used to define any long quotation.
 }}
 {{Markup_Element
