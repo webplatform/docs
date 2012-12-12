@@ -1,8 +1,8 @@
 {{Page_Title}}
 {{Flags}}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|The AudioContext that owns this AudioNode.}}
+{{Summary_Section|The [[apis/webaudio/AudioContext|'''AudioContext''']] that owns this [[apis/webaudio/AudioNode|'''AudioNode''']].}}
 {{API_Object_Property
 |Property_applies_to=apis/webaudio/AudioNode
 |Read_only=Yes
