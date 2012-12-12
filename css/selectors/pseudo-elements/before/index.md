@@ -4,7 +4,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Inserts content before the selected element(s).}}
 {{CSS_Selector}}
 {{Examples_Section
 |Not_required=No
@@ -30,6 +30,7 @@ sel
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
 |Chrome_version=4.0
