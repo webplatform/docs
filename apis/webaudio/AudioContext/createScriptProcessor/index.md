@@ -2,12 +2,12 @@
 {{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Creates a ScriptProcessorNode for direct audio processing using JavaScript. An exception will be thrown if bufferSize or numberOfInputChannels or numberOfOutputChannels are outside the valid range.}}
+{{Summary_Section|Creates a [[apis/webaudio/ScriptProcessorNode|'''ScriptProcessorNode''']] for direct audio processing using JavaScript. An exception will be thrown if [[apis/webaudio/ScriptProcessorNode/bufferSize|'''bufferSize''']] or '''numberOfInputChannels''' or '''numberOfOutputChannels''' are outside the valid range.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=bufferSize
 |Data type=unsigned long
-|Description=Determines the buffer size in units of sample-frames. It must be one of the following values: 256, 512, 1024, 2048, 4096, 8192, 16384. This value controls how frequently the onaudioprocess event handler is called and how many sample-frames need to be processed each call. Lower values for bufferSize will result in a lower (better) latency. Higher values will be necessary to avoid audio breakup and glitches. The value chosen must carefully balance between latency and audio quality.
+|Description=Determines the buffer size in units of sample-frames. It must be one of the following values: 256, 512, 1024, 2048, 4096, 8192, 16384. This value controls how frequently the [[apis/webaudio/ScriptProcessorNode/onaudioprocess|'''onaudioprocess''']] event handler is called and how many sample-frames need to be processed each call. Lower values for [[apis/webaudio/ScriptProcessorNode/bufferSize|'''bufferSize''']] will result in a lower (better) latency. Higher values will be necessary to avoid audio breakup and glitches. The value chosen must carefully balance between latency and audio quality.
 |Optional=No
 }}{{Method Parameter
 |Name=numberOfInputChannels
