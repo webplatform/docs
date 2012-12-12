@@ -12,9 +12,11 @@ In the last part of this article series — [[tutorials/getting started with web
 
 In this article, we will carry on where we left off, going further with the same example file and building up a simple shader. This article is a transcript of [http://www.youtube.com/watch?v=me3BviH3nZc&t=22m26s time 22:26 to 32.36] in Erik Möller's [http://www.youtube.com/watch?v=me3BviH3nZc WebGL 101] tutorial, available on YouTube.
 
+{{Note|[https://github.com/emoller/WebGL101 Access the full WebGL 101 code example set] and links to see the examples running live, at Github}}
+
 ==Making a rectangle out of our triangle==
 
-To build up this example step by step, start with the [minimal-draw.zip Minimal draw code] from the last article and follow the steps below. You can also [02-minimal-draw.html view the minimal draw example] to see what the code so far does, and [03-minimal-shader.html view the minimal shader example] to see what the end result from this tutorial will be.
+To build up this example step by step, start with the minimal draw code from the last article and follow the steps below. You can also view the minimal draw example from [https://github.com/emoller/WebGL101 the full WebGL 101 code example set]  to see what the code so far does, and view the minimal shader example 03-minimal-shader.html also from [https://github.com/emoller/WebGL101 the full WebGL 101 code example set] to see what the end result from this tutorial will be.
 
 First of all, make a copy of the 02-minimal-draw.html file, and save it as 03-minimal-shader.html (or something else of your choosing). In this tutorial we are going to forget about triangles, and instead draw a rectangle that will cover the canvas. To show what we will draw, replace the ascii triangle we currently have in our code with a square, like this:
 
@@ -51,8 +53,8 @@ At the moment, we have some hard-coded data to define features of the shape, suc
 
 Now, replace the hard coded values from the last two lines of script with these properties:
 
- <code>gl.vertexAttribPointer(program.vertexPosAttrib, vertexPosBuffer.itemSize, gl.FLOAT, false, 0, 0);
- gl.drawArrays(gl.TRIANGLE_STRIP, 0, vertexPosBuffer.numItems);</code>
+<syntaxhighlight lang="javascript">gl.vertexAttribPointer(program.vertexPosAttrib, vertexPosBuffer.itemSize, gl.FLOAT, false, 0, 0);
+ gl.drawArrays(gl.TRIANGLE_STRIP, 0, vertexPosBuffer.numItems);</syntaxhighlight>
 
 This is good, as it makes the code more generic, and able to handle drawing a wider variety of shapes more easily.
 
@@ -60,40 +62,40 @@ This is good, as it makes the code more generic, and able to handle drawing a wi
 
 The shaders are currently written inside strings, which is awkward to work with. To improve this, we will put them inside their own <script> elements. Put two new <code><script></code> elements in between the two existing ones, one for the vertex shader and one for the fragment shader. Give them <code>id</code>s and <code>type</code>s as shown:
 
- <code><script id="vshader" type="text/plain">
+<syntaxhighlight lang="html5"><script id="vshader" type="text/plain">
  </script>
  <script id="fshader" type="text/plain">
- </script></code>
+ </script></syntaxhighlight>
 
 Now let's add the code for our shaders inside each <code><script></code> element. First, put this inside the vertex shader element:
 
- <code>attribute vec2 aVertexPosition;
+<syntaxhighlight lang="javascript">attribute vec2 aVertexPosition;
  varying vec2 vTexCoord;
  void main() {
    vTexCoord = aVertexPosition;
    gl_Position = vec4(aVertexPosition, 0, 1);
- }</code>
+ }</syntaxhighlight>
 
 The first two lines declare the optional input and output to the shader. <code>gl_Position</code> is the mandatory output from a vertex shader — this contains the clip space vertices passed on to the rasterization step. In <code>main()</code> we just pass the input vertex positions on to the two outputs. Bear in mind that <code>gl_Position</code> is a <code>vec4</code> therefore we need to add two components.
 
 Now let's build the fragment shader, inside the second <code><script></code> element:
 
- <code>precision mediump float;
+<syntaxhighlight lang="javascript">precision mediump float;
  varying vec2 vTexCoord;
  void main() {
    gl_FragColor = vec4(vTexCoord, 0, 1);
- }</code>
+ }</syntaxhighlight>
 
 Here we set the precision of any float variables in the shader. Like the <code>gl_Position</code> in the vertex shader, the fragment shader has a mandatory output called <code>gl_FragColor</code> that tells the graphic library which colour to draw the fragment in. Here we use the two components of <code>vTexCoord</code> for the red and green components, set the blue component to 0, and the alpha component to 1.
 
 Because we've moved our shaders out to different element positions, we need to change references to them in the main code. Delete the two old lines that contain the shaders as strings (the ones that start <code>var vs</code> and <code>var fs</code>) and replace them with the following code:
 
- <code>var vs = document.getElementById('vshader').textContent;
- var fs = document.getElementById('fshader').textContent;</code>
+ <syntaxhighlight lang="javascript">var vs = document.getElementById('vshader').textContent;
+ var fs = document.getElementById('fshader').textContent;</syntaxhighlight>
 
 these just grab the content of the <code><script></code> elements containing the shaders as strings. We also need to change the <code>program.vertexPosAttrib</code> line a couple of lines below to read like so:
 
- <code>program.vertexPosAttrib = gl.getAttribLocation(program, 'aVertexPosition');</code>
+<syntaxhighlight lang="javascript">program.vertexPosAttrib = gl.getAttribLocation(program, 'aVertexPosition');</syntaxhighlight>
 
 This makes our program use the information from the shaders.
 
@@ -107,23 +109,23 @@ Figure 2: Our rectangle now has a much more exciting look to it.
 
 Now let's look at how to offset our texture coordinates. To start with, we will add a uniform to our vertex shader — this is a constant that is passed into the shader. Add the following line into the <code>vshader</code> <code><script></code> element, below the <code>varying...</code> line:
 
- <code>uniform vec2 uOffset;</code>
+<syntaxhighlight lang="javascript">uniform vec2 uOffset;</syntaxhighlight>
 
 Unlike the attributes, which are per vertex data, the uniform is just a constant that is passed into the program. To pass this in, let's create an offset array, just below the 2nd line of the main program (the <code>var gl</code> line):
 
- <code>var offset = [1,1];</code>
+<syntaxhighlight lang="javascript">var offset = [1,1];</syntaxhighlight>
 
 we will add this to the texture coord of each vertex, meaning that they now go between 0 and 1, not -1 and 1. We now need to reference the location of the <code>uniform</code>, just like we already reference the attribute location with <code>Program.vertexPosAttrib</code>. Below the <code>Program.vertexPosAttrib</code> line near the bottom of the code, add the following:
 
- <code>program.offsetUniform = gl.getUniformLocation(program, 'uOffset');</code>
+<syntaxhighlight lang="javascript">program.offsetUniform = gl.getUniformLocation(program, 'uOffset');</syntaxhighlight>
 
 We'll then set that uniform, using <code>uniform2f</code> — add the following line just above the <code>gl.drawArrays</code> line in the main code:
 
- <code>gl.uniform2f(program.offsetUniform, offset[0], offset[1]);</code>
+<syntaxhighlight lang="javascript">gl.uniform2f(program.offsetUniform, offset[0], offset[1]);</syntaxhighlight>
 
 The <code>offsetUniform</code> identifies which variable from inside the shaders the values should be tied to: in this case the <code>uOffset</code>, which is a <code>vec2</code>. The last step is to add the <code>uOffset</code> to the first line inside your <code>void main()</code> function:
 
- <code>vTexCoord = aVertexPosition + uOffset;</code>
+<syntaxhighlight lang="javascript">vTexCoord = aVertexPosition + uOffset;</syntaxhighlight>
 
 This should now offset the gradient and give us an altogether more yellowy look, as seen in Figure 3:
 
@@ -135,12 +137,14 @@ Figure 3: Offsetting the gradient texture gives us a nicer, more yellowy effect.
 
 Now let's have a look at putting some of our reusable code into a utility file so we can make it available easily wherever we need. Take the whole of the following code chunk that generates our Quad:
 
- <code>var vertexPosBuffer = gl.createBuffer();
+<syntaxhighlight lang="javascript">var vertexPosBuffer = gl.createBuffer();
  gl.bindBuffer(gl.ARRAY_BUFFER, vertexPosBuffer);
  var vertices = [-1, -1, 1, -1, -1, 1, 1, 1];
  gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(vertices), gl.STATIC_DRAW);
  vertexPosBuffer.itemSize = 2;
- vertexPosBuffer.numItems = 4;</code><nowiki>
+ vertexPosBuffer.numItems = 4;</syntaxhighlight>
+
+<nowiki>
  
  /*
  
@@ -153,11 +157,11 @@ Now let's have a look at putting some of our reusable code into a utility file s
 
 and put it into your <code>webgl-utils.js</code> file, at the bottom, wrapped in a function called <code>screenQuad() { ... }</code>. At the bottom of this function, return <code>vertexPosBuffer</code>, like this:
 
- <code>return vertexPosBuffer;</code>
+<syntaxhighlight lang="javascript">return vertexPosBuffer;</syntaxhighlight>
 
 Where the quad generation code once sat once sat in your main code, put the following line to reference it:
 
- <code>var vertexPosBuffer = screenQuad();</code>
+<syntaxhighlight lang="javascript">var vertexPosBuffer = screenQuad();</syntaxhighlight>
 }}
 {{Notes_Section}}
 {{Compatibility_Section
