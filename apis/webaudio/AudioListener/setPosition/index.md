@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Sets the position of the listener in a 3D cartesian coordinate space. PannerNode objects use this position relative to individual audio sources for spatialization. The x, y, z parameters represent the coordinates in 3D space. The default value is (0,0,0).}}
+{{Summary_Section|Sets the position of the listener in a 3D cartesian coordinate space. [[apis/webaudio/PannerNode|'''PannerNode''']] objects use this position relative to individual audio sources for spatialization. The x, y, z parameters represent the coordinates in 3D space. The default value is (0,0,0).}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=x
