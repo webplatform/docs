@@ -106,7 +106,7 @@ Now let's think about the shape we want to draw — in this case we will draw a 
         (-0.5, -0.5) - 0/_____\1 - (0.5, -0.5)
 */
 </nowiki>
-</code>
+</syntaxhighlight>
 
 It is worth explaining at this point that OpenGL (and therefore, WebGL) uses a right hand coordinate system, so the x axis goes left to right, the y axis goes bottom to top, and the z axis goes out of the screen towards you. With that in mind, let's populate the array with the coordinates we need to locate the vertices of our triangle:
 
