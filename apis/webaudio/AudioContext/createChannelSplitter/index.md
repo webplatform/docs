@@ -5,9 +5,9 @@
 {{Summary_Section|Creates a [[apis/webaudio/ChannelSplitterNode|'''ChannelSplitterNode''']] representing a channel splitter. An exception will be thrown for invalid parameter values.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
-|Name=numberOfOutputs
+|Name=numberOfInputs
 |Data type=unsigned long
-|Description=Determines the number of outputs. Values of up to 32 must be supported. If not specified, then 6 will be used.
+|Description=Determines the number of inputs. Values of up to 32 must be supported. If not specified, then 6 will be used.
 |Optional=Yes
 }}
 |Method_applies_to=apis/webaudio/AudioContext
