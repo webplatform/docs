@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Sets or retrieves the URL to which the form content is sent for processing.}}
 {{Markup_Attribute
 |Property_applies_to=dom/HTMLElement
 }}
@@ -38,6 +38,7 @@ It is possible to make an email form by placing an mailto address in the action 
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
 |Chrome_version=Beta
