@@ -1,11 +1,11 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Sets the width of an element.}}
 {{API_Object_Property
 |Property_applies_to=css/cssom/CSSStyleDeclaration/CSSStyleDeclaration
 |Read_only=No
@@ -28,6 +28,7 @@ The width of the rectangle can also be calculated by subtracting the value of th
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
