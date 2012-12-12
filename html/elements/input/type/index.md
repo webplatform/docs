@@ -1,0 +1,1 @@
+{{Special:PrefixIndex/html/elements/input/type/}}
