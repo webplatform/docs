@@ -6,7 +6,7 @@
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|Indicates a comment within the code. Text within the comment tags is not displayed on the rendered page in the browser.
-Comment tag starts with &lt!-- and ends with --&gt;.
+Comment tag starts with &lt;!-- and ends with --&gt;.
 }}
 {{Markup_Element
 |DOM_interface=dom/Comment
@@ -16,7 +16,6 @@ Comment tag starts with &lt!-- and ends with --&gt;.
 |Examples={{Single Example
 |Language=HTML
 |Code=&lt;!-- This is a comment. Comments are not displayed in the browser --&gt;
-
 }}
 }}
 {{Notes_Section
