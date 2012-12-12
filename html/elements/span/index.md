@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Groups inline elements in a document in order to apply styles. Does not assign any style attributes on its own.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLSpanElement
 }}
@@ -764,6 +764,7 @@ This property is not supported for Metro style apps using JavaScript.
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
