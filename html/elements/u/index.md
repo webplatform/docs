@@ -5,9 +5,9 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Underlines text in-line. 
+{{Summary_Section|Underlines text inline. 
 
-Deprecated in HTML4, redefined in HTML5. Currently used to express "an unarticulated, though explicitly rendered, non-textual annotation," such as a proper name in Chinese or a spelling error.
+Deprecated in HTML4, redefined in HTML5. In HTML5 it is used to express "an unarticulated, though explicitly rendered, non-textual annotation," such as a proper name in Chinese or a spelling error.
 }}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
