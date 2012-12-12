@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Start exponentially approaching the target value at the given time with a rate having the given time constant. Among other uses, this is useful for implementing the "decay" and "release" portions of an ADSR envelope. Please note that the parameter value does not immediately change to the target value at the given time, but instead gradually changes to the target value.}}
+{{Summary_Section|Start exponentially approaching the target value at the given time with a rate having the given time constant. Among other uses, this is useful for implementing the ''decay'' and ''release'' portions of an ADSR envelope. Please note that the parameter value does not immediately change to the target value at the given time, but instead gradually changes to the target value.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=target
@@ -12,7 +12,7 @@
 }}{{Method Parameter
 |Name=startTime
 |Data type=Number
-|Description=The time in the same time coordinate system as AudioContext.currentTime.
+|Description=The time in the same time coordinate system as [[apis/webaudio/AudioContext/currentTime|'''AudioContext.currentTime''']].
 |Optional=No
 }}{{Method Parameter
 |Name=timeConstant
