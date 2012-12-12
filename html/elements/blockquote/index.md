@@ -5,13 +5,16 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|<blockquote> tag specifies a section that is quoted from another source.
+In HTML 4.01, the <blockquote> tag is used to define any long quotation.
+}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=HTML
 |Description=This example uses the '''BLOCKQUOTE''' element to set off a quotation that renders as indented text.
 |Code=&lt;P&gt;He said,
 &lt;BLOCKQUOTE&gt;"Hi there!"&lt;/BLOCKQUOTE&gt;
@@ -761,6 +764,7 @@ This property is not supported for Metro style apps using JavaScript.
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
