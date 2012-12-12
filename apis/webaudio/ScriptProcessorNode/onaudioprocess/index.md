@@ -1,7 +1,5 @@
 {{Page_Title}}
-{{Flags
-|Editorial notes=member is an event, but does not use event template
-}}
+{{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|An event listener which is called periodically for audio processing. An event of type [[apis/webaudio/AudioProcessingEvent|'''AudioProcessingEvent''']] will be passed to the event handler.}}
