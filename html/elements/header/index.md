@@ -5,7 +5,9 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The header element represents the header of a section.
+
+}}
 {{Markup_Element
 |DOM_interface=dom/HTMLHeaderElement
 }}
@@ -300,6 +302,7 @@ This property is not supported for Metro style apps using JavaScript.
 |Notes_rows=
 }}
 {{See_Also_Section
+|External_links=http://www.w3.org/TR/html-markup/header.html
 |Manual_sections====Related pages (MSDN)===
 *<code>Reference</code>
 *<code>article</code>
