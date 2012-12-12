@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|The sample rate (in sample-frames per second) at which the AudioContext handles audio. It is assumed that all AudioNodes in the context run at this rate. In making this assumption, sample-rate converters or "varispeed" processors are not supported in real-time processing.}}
+{{Summary_Section|The sample rate (in sample-frames per second) at which the [[apis/webaudio/AudioContext|'''AudioContext''']] handles audio. It is assumed that all [[apis/webaudio/AudioNode|'''AudioNode''']]s in the context run at this rate. In making this assumption, sample-rate converters or ''varispeed'' processors are not supported in real-time processing.}}
 {{API_Object_Property
 |Property_applies_to=apis/webaudio/AudioContext
 |Read_only=Yes
