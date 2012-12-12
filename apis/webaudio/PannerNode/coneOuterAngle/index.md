@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|A parameter for directional audio sources, this is an angle outside of which the volume will be reduced to a constant value of coneOuterGain. The default value is 360.}}
+{{Summary_Section|A parameter for directional audio sources, this is an angle outside of which the volume will be reduced to a constant value of [[apis/webaudio/PannerNode/coneOuterGain|'''coneOuterGain''']]. The default value is 360.}}
 {{API_Object_Property
 |Property_applies_to=apis/webaudio/PannerNode
 |Read_only=No
