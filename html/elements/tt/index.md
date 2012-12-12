@@ -5,7 +5,10 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Stands for "teletype text," sets font in fixed-width.
+
+This feature is supported in HTML4, but is non-conforming in HTML5. Use CSS instead.
+}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
 }}
@@ -711,6 +714,7 @@ This property is not supported for Metro style apps using JavaScript.
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
