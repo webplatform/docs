@@ -94,7 +94,7 @@
 |Firefox_mobile_version=15
 |Firefox_mobile_prefixed_supported=Unknown
 |Firefox_mobile_prefixed_version=
-|IE_mobile_supported=Unknown
+|IE_mobile_supported=No
 |IE_mobile_version=
 |IE_mobile_prefixed_supported=Unknown
 |IE_mobile_prefixed_version=
