@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page_Title|TimeRanges}}
 {{Flags
 |Content=Compatibility Incomplete
 }}
@@ -43,3 +43,10 @@ for (var i{{=}}0; i&lt;ranges.length; i++)
 |HTML5Rocks_link=
 }}
 }
+
+
+
+
+
+
+}}
