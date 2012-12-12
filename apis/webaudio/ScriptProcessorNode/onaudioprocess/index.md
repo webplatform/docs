@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|An event listener which is called periodically for audio processing. An event of type AudioProcessingEvent will be passed to the event handler.}}
+{{Summary_Section|An event listener which is called periodically for audio processing. An event of type [[apis/webaudio/AudioProcessingEvent|'''AudioProcessingEvent''']] will be passed to the event handler.}}
 {{API_Object_Property
 |Property_applies_to=apis/webaudio/ScriptProcessorNode
 |Read_only=No
