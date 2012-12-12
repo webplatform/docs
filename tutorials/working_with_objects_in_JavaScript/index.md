@@ -1,6 +1,5 @@
 {{Page_Title|Working with objects in JavaScript}}
 {{Flags
-|High-level issues=Merge Candidate
 |Content=Errors, Broken Links, Compatibility Incomplete
 |Editorial notes=Is marked as needing a technical review in MDN
 
@@ -488,8 +487,10 @@ See <code>[[#Expressions_and_operators#delete | delete]]</code> for more informa
 * [http://es5.github.com/#x4.2 ECMAScript 5.1 spec: Language Overview]
 * [http://dmitrysoshnikov.com/ecmascript/javascript-the-core JavaScript. The core. (Dmitry A. Soshnikov ECMA-262 article series)]
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
