@@ -11,7 +11,20 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Code=// Create canvas and get 2D context:
+var canvas = document.createElement('canvas');
+document.body.appendChild(canvas);
+canvas.setAttribute('width', '700');
+canvas.setAttribute('height', '700');
+var ctx = canvas.getContext('2d');
+
+// Set dash-style, and draw stroke
+ctx.setLineDash([15, 10]);
+ctx.lineDashOffset = 5;
+ctx.strokeRect (10,10,100,100);
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
