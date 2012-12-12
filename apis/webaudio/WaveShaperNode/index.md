@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|WaveShaperNode is an AudioNode processor implementing non-linear distortion effects. Non-linear waveshaping distortion is commonly used for both subtle non-linear warming, or for more obvious distortion effects.}}
+{{Summary_Section|[[apis/webaudio/WaveShaperNode|'''WaveShaperNode''']] is an [[apis/webaudio/AudioNode|'''AudioNode''']] processor implementing non-linear distortion effects. Non-linear waveshaping distortion is commonly used for both subtle non-linear warming, or for more obvious distortion effects.}}
 {{API_Object}}
 {{Examples_Section
 |Not_required=Yes
