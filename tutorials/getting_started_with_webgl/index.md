@@ -194,7 +194,7 @@ This function accepts two inputs — a string and a type, and returns a shader o
 
 Save and run the code, and you should now have your very own green triangle, as seen in Figure 3 - woo hoo!
 
-[[Image:figure3luzc.png|A WebGL green triangle]]
+[[Image:figure3_luzc.png|A WebGL green triangle]]
 
 Figure 3: A WebGL green triangle of your very own
 
