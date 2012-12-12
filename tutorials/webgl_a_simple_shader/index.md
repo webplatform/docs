@@ -4,7 +4,7 @@
 |Name=Erik Möller
 |Published=June 27, 2012
 }}
-{{Summary_Section|This article explains how to create a simple shader, building on the example created in the [tutorials/getting_started_with_webgl|getting started with WebGL] article.}}
+{{Summary_Section|This article explains how to create a simple shader, building on the example created in the [[tutorials/getting started with webgl|getting started with WebGL]] article.}}
 {{Tutorial
 |Content===Introduction==
 
