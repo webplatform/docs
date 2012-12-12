@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|A mono, stereo, or 4-channel AudioBuffer containing the (possibly multi-channel) impulse response used by the ConvolverNode. At the time when this attribute is set, the buffer and the state of the normalize attribute will be used to configure the ConvolverNode with this impulse response having the given normalization.}}
+{{Summary_Section|A mono, stereo, or 4-channel [[apis/webaudio/AudioBuffer|'''AudioBuffer''']] containing the (possibly multi-channel) impulse response used by the [[apis/webaudio/ConvolverNode|'''ConvolverNode''']]. At the time when this attribute is set, the buffer and the state of the normalize attribute will be used to configure the [[apis/webaudio/ConvolverNode|'''ConvolverNode''']] with this impulse response having the given normalization.}}
 {{API_Object_Property
 |Property_applies_to=apis/webaudio/ConvolverNode
 |Read_only=No
