@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Specifies what the background-position property should be relative to.}}
 {{CSS Property
 |Initial value=padding-box
 |Applies to=All elements
@@ -60,6 +60,7 @@ In Windows Internet Explorer 9, the background of a box can have multiple layer
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
 |Chrome_version=4
