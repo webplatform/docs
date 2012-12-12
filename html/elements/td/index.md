@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The <code>td</code> tag defines a standard cell in an HTML table.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLTableDataCellElement
 }}
@@ -807,6 +807,7 @@ This property is not supported for Metro style apps using JavaScript.
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
