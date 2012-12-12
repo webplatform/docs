@@ -2,12 +2,12 @@
 {{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Disconnects an AudioNode's output.}}
+{{Summary_Section|Disconnects an [[apis/webaudio/AudioNode|'''AudioNode''']]'s output.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=output
 |Data type=unsigned long
-|Description=An index describing which output of the AudioNode to disconnect. An out-of-bound value throws an exception.
+|Description=An index describing which output of the [[apis/webaudio/AudioNode|'''AudioNode''']] to disconnect. An out-of-bound value throws an exception.
 |Optional=Yes
 }}
 |Method_applies_to=apis/webaudio/AudioNode
