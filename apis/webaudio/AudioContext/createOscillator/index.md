@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Creates an OscillatorNode.}}
+{{Summary_Section|Creates an [[apis/webaudio/OscillatorNode|'''OscillatorNode''']].}}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=apis/webaudio/AudioContext
