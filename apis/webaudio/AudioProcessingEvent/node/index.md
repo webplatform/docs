@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|The ScriptProcessorNode associated with this processing event.}}
+{{Summary_Section|The [[apis/webaudio/ScriptProcessorNode|'''ScriptProcessorNode''']] associated with this processing event.}}
 {{API_Object_Property
 |Property_applies_to=apis/webaudio/AudioProcessingEvent
 |Read_only=No
