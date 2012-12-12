@@ -1,7 +1,7 @@
 {{Page_Title|WebGL: a simple shader}}
 {{Flags}}
 {{Byline
-|Name=Erik Möller
+|Name=Erik Möller, Chris Mills
 |Published=June 27, 2012
 }}
 {{Summary_Section|This article explains how to create a simple shader, building on the example created in the [[tutorials/getting started with webgl|getting started with WebGL]] article.}}
@@ -157,10 +157,6 @@ and put it into your <code>webgl-utils.js</code> file, at the bottom, wrapped in
 Where the quad generation code once sat once sat in your main code, put the following line to reference it:
 
  <code>var vertexPosBuffer = screenQuad();</code>
-
-==Summary==
-
-That's it for now. Check back again soon for more articles.
 }}
 {{Notes_Section}}
 {{Compatibility_Section
