@@ -1,6 +1,5 @@
 {{Page_Title|HTML tables}}
-{{Flags
-}}
+{{Flags}}
 {{Byline}}
 {{Summary_Section|In this article we will cover how to use HTML tables correctly.}}
 {{Guide
@@ -283,13 +282,37 @@ In this article we have gone through all you need to know to create effective HT
 * It is important that tables are correctly coded to be readable by a variety web browsers, mobile, accessible, and other devices.  Table HTML is best kept to a minimum, and you should use CSS to style the tables. You’ll learn a lot more about CSS later on in the course.
 * Tables can be accessible to mobile devices and users that use screen reading software by keeping the code clean, using attributes such as <code>scope</code> and <code>summary</code> as well as the <code>&lt;caption&gt;</code> element to help announce clearly and semantically what the respective sections are for. Also important for accessibility is to not use empty table cells for spacing (use CSS for this instead).
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
-|Desktop_rows=
+|Imported_tables=
+|Desktop_rows={{Compatibility Table Desktop Row
+|Chrome_supported=Yes
+|Chrome_prefixed_supported=No
+|Chrome_prefixed_version=
+|Firefox_supported=Unknown
+|Firefox_version=
+|Firefox_prefixed_supported=Unknown
+|Firefox_prefixed_version=
+|Internet_explorer_supported=Unknown
+|Internet_explorer_version=
+|Internet_explorer_prefixed_supported=Unknown
+|Internet_explorer_prefixed_version=
+|Opera_supported=Unknown
+|Opera_version=
+|Opera_prefixed_supported=Unknown
+|Opera_prefixed_version=
+|Safari_supported=Unknown
+|Safari_version=
+|Safari_prefixed_supported=Unknown
+|Safari_prefixed_version=
+}}
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Manual_links=[http://www.w3.org/TR/html-markup/table.html#table HTML: The Markup Language (an HTML language reference)] 
+}}
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
