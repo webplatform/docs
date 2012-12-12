@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|&lt;custom&gt; represents a user-defined HTML tag.}}
+{{Summary_Section|Represents a user-defined HTML tag.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
 }}
