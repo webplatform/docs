@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|The number of inputs feeding into the AudioNode. This will be 0 for an AudioSourceNode.}}
+{{Summary_Section|The number of inputs feeding into the [[apis/webaudio/AudioNode|'''AudioNode''']]. This will be 0 for an [[apis/webaudio/AudioSourceNode|'''AudioSourceNode''']].}}
 {{API_Object_Property
 |Property_applies_to=apis/webaudio/AudioNode
 |Read_only=Yes
