@@ -5,7 +5,9 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Sets or retrieves a value that indicates the table alignment.
+
+}}
 {{Markup_Attribute
 |Property_applies_to=dom/HTMLElement
 }}
@@ -27,6 +29,7 @@ The '''caption''' tag is used only within a [[html/elements/table|'''table''']] 
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
 |Chrome_version=Beta
