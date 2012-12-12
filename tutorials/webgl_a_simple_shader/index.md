@@ -4,11 +4,9 @@
 |Name=Erik Möller
 |Published=June 27, 2012
 }}
-{{Summary_Section}}
+{{Summary_Section|This article explains how to create a simple shader, building on the example created in the [tutorials/getting started with webgl | getting started with WebGL] article.}}
 {{Tutorial
-|Content=
-
-==Introduction==
+|Content===Introduction==
 
 In the last part of this article series — [http://dev.opera.com/articles/view/raw-webgl-part1-getting-started/ Raw WebGL 101 — Part 1: getting started], we introduced you to the world of writing raw WebGL (look ma, no libraries). We got you set up and showed you how to create a couple of very basic examples along with some simple error handling, and we explained basic concepts such as the WebGL rendering pipeline.
 
@@ -23,15 +21,13 @@ First of all, make a copy of the 02-minimal-draw.html file, and save it as 03-mi
  <nowiki>/*
  
  2 ___ 3
-  |\  |
-  | \ |
- 0|__\|1
+|1
  
  */</nowiki>
 
-Note that in this context we are always using clip space coordinates, hence the values always ranging from -1 to 1. The next thing we want to do is input this data into our vertices array. Change the <code>var vertices</code> line (the fifth line of script) to read like so:
+Note that in this context we are always using clip space coordinates, hence the values always ranging from -1 to 1_ The next thing we want to do is input this data into our vertices array_ Change the <code>var vertices</code> line (the fifth line of script) to read like so:
 
- <code>var vertices = [-1, -1, 1, -1, -1, 1, 1, 1];</code>
+ <code>var vertices=[-1, -1, 1, -1, -1, 1, 1, 1];</code>
 
 Next, we take our <code>gl.drawArrays</code> line (the bottom line of script) and change it to use <code>TRIANGLE_STRIP</code> to dictate the shape to be drawn, instead of <code>TRIANGLES</code> — this works for our purposes here because the shape we are drawing is made from a strip of triangles. We will give <code>TRIANGLE_STRIP</code> four vertices, so the last number needs to be changed from 3 to 4.
 
@@ -165,7 +161,6 @@ Where the quad generation code once sat once sat in your main code, put the foll
 ==Summary==
 
 That's it for now. Check back again soon for more articles.
-
 }}
 {{Notes_Section}}
 {{Compatibility_Section
