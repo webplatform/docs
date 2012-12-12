@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Defines strikethrough text. It is deprecated in HTML4 and not supported in HTML5. Use the <del> tag instead.}}
+{{Summary_Section|Defines strikethrough text. It is deprecated in HTML4 and not supported in HTML5. Use the <code>del</code> tag instead.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
 }}
