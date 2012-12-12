@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The &lt;colgroup&gt; tag specifies a group of one or more columns in a table for formatting.
+{{Summary_Section|Specifies a group of one or more columns in a table for formatting.
 The &lt;colgroup&gt; tag is useful for applying styles to entire columns, instead of repeating the styles for each cell, for each row.
 }}
 {{Markup_Element
