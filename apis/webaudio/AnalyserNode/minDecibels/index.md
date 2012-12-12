@@ -2,7 +2,9 @@
 {{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|The minimum power value in the scaling range for the FFT analysis data for conversion to unsigned byte values.}}
+{{Summary_Section|The minimum power value in the scaling range for the FFT analysis data  for conversion to unsigned byte values.
+
+}}
 {{API_Object_Property
 |Property_applies_to=apis/webaudio/AnalyserNode
 |Read_only=No
