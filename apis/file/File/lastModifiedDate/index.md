@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|The last modified date of the file. On getting, if user agents can make this information available, this must return a new Date[HTML] object initialized to the last modified date of the file. If the last modification date and time are not known, the attribute must return the current date and time as a Date object.}}
+{{Summary_Section|The last modified date of the file. On getting, if user agents can make this information available, this must return a new Date object initialized to the last modified date of the file. If the last modification date and time are not known, the attribute must return the current date and time as a Date object.}}
 {{API_Object_Property
 |Property_applies_to=apis/file/File
 |Read_only=Yes
