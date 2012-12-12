@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Defines a variable}}
+{{Summary_Section|Defines a variable.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
 }}
