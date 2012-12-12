@@ -1,26 +1,30 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|High-level issues=
+|Content=
+|Editorial notes=
 }}
-{{Standardization_Status|Non-Standard}}
+{{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Sets vertical starting position of a background image.}}
+{{Summary_Section}}
 {{CSS Property
-|Applies to=All elements
-|Inherited=No
-|Media=visual
-|Animatable=No
-|Values={{CSS Property Value
-|Data Type=length
-|Description=Floating-point number, followed by an absolute units designator (<code>cm</code>, <code>mm</code>, <code>in</code>, <code>pt</code>, or <code>pc</code>) or a relative units designator (<code>em</code>, <code>ex</code>, or <code>px</code>). For more information about the supported length units, see CSS Values and Units Reference.
-}}{{CSS Property Value
+|Initial value=
+|Applies to=
+|Inherited=
+|Media=
+|Computed value=
+|Animatable=
+|CSS object model property=
+|CSS percentages=
+|Values=
+}}
+{{CSS Property Value
 |Data Type=percentage
 |Description=Integer, followed by a percent sign (%). The value is a percentage of the width or height of the object.
-}}{{CSS Property Value
+}}
+{{CSS Property Value
 |Data Type=vAlignment
 |Description=Vertical alignment value.
-}}
 }}
 {{Examples_Section
 |Not_required=No
