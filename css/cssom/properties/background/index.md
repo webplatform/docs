@@ -75,7 +75,7 @@ For more information about supported colors, see the Color Table.
 *<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
 *<code>[[css/cssom/style|style]]</code>
 }}
-{{Topics|DOM}}
+{{Topics|CSS, DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
