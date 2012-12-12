@@ -31,7 +31,8 @@ Let's begin by creating a new HTML file and saving it with a suitable name (01-m
 
 First of all, enter a basic HTML5 template into it, like so, containing a simple <code><canvas></code> and a <code><script></code> element. Give your canvas an <code>id</code>, so we reference it via JavaScript:
 
- <code><!DOCTYPE html>
+<syntaxhighlight lang="html5">
+<!DOCTYPE html>
  <html>
    <head>
    </head>
@@ -40,20 +41,23 @@ First of all, enter a basic HTML5 template into it, like so, containing a simple
      <script>
      </script>
    </body>
- </html></code>
+ </html>
+</syntaxhighlight>
 
 In the script, add a line to store a reference to the canvas in a variable:
 
- <code>var c = document.getElementById('c');</code>
+<syntaxhighlight lang="javascript">var c = document.getElementById('c');</syntaxhighlight>
 
 Below, get the drawing context of this canvas, as shown below — note that we are using an <code>experimental-webgl</code> (3D) context here, rather than the more established 2D context:
 
- <code>var gl = c.getContext('experimental-webgl');</code>
+ <syntaxhighlight lang="javascript">var gl = c.getContext('experimental-webgl');</syntaxhighlight>
 
 Next, we will use two WebGL-specific methods:
 
- <code>gl.clearColor(0,0,0.8,1);
- gl.clear(gl.COLOR_BUFFER_BIT);</code>
+ <syntaxhighlight lang="javascript">
+gl.clearColor(0,0,0.8,1);
+ gl.clear(gl.COLOR_BUFFER_BIT);
+</syntaxhighlight>
 
 <code>clearColor</code> specifies the background colour of the canvas. We are then using <code>clear</code> to clear the canvas of any content, which means the background colour will then be shown. We are passing <code>clear</code> the <code>COLOR_BUFFER_BIT</code> buffer, which stores the colours of pixels drawn on the screen. (There are other buffers we could clear, such as <code>DEPTH_BUFFER_BIT</code>, which stores details of how far along the z axis pixels are drawn, and therefore how far into the screen they are. But we'll not go into these in detail at this point.) Note that the clear colour we specify takes the form of four values, for red, green, blue and alpha (these all take a value of between 0 and 1, unlike in CSS colours).
 
@@ -79,24 +83,30 @@ First of all, go ahead and remove the bottom two lines of script.
 
 Next, specify a size of 400 by 400 pixels for your canvas:
 
- <code><canvas id='c' width='400' height='400'></canvas></code>
+<syntaxhighlight lang="html5"><canvas id='c' width='400' height='400'></canvas></syntaxhighlight>
 
 To draw a shape, we first need to create a vertex position buffer ('''Vertex buffer''' in the programmable pipeline) to store the different vertices of the shape in. Let's start by creating a buffer on the WebGL context, and storing it in a variable:
 
- <code>var vertexPosBuffer = gl.createBuffer();</code>
+ <syntaxhighlight lang="javascript">var vertexPosBuffer = gl.createBuffer();</syntaxhighlight>
 
 Now we need to bind that buffer to the WebGL context using <code>bindBuffer</code>, which takes one of two possible bind points and a buffer as its arguments — the <code>ARRAY_BUFFER</code> of the context, and the <code>createBuffer()</code> object reference we defined earlier. We will also create an array to store our vertices in. Later on, we will actually upload some data to that buffer to use in drawing our shape, but we need to bind it to the context first.
 
- <code>gl.bindBuffer(gl.ARRAY_BUFFER, vertexPosBuffer);
- var vertices = [];</code>
+<syntaxhighlight lang="javascript">
+gl.bindBuffer(gl.ARRAY_BUFFER, vertexPosBuffer);
+var vertices = [];
+</syntaxhighlight>
 
 Now let's think about the shape we want to draw — in this case we will draw a simple triangle. In such situations, it is always easier to think about what you want to draw by first sketching it out on paper, or in this case using ASCII art!
 
- <code><nowiki>/*                               2 - (0, 0.5)
+ <syntaxhighlight lang="javascript">
+ <nowiki>                      
+/*                                  2 - (0, 0.5)
                                    / \
-                                /      \
- (-0.5, -0.5) - 0/____\1 - (0.5, -0.5)
- */</nowiki></code>
+                                 /     \
+        (-0.5, -0.5) - 0/_____\1 - (0.5, -0.5)
+*/
+</nowiki>
+</code>
 
 It is worth explaining at this point that OpenGL (and therefore, WebGL) uses a right hand coordinate system, so the x axis goes left to right, the y axis goes bottom to top, and the z axis goes out of the screen towards you. With that in mind, let's populate the array with the coordinates we need to locate the vertices of our triangle:
 
