@@ -318,7 +318,7 @@ We covered a lot this time, but it is very important to remember how links work 
 }}
 |Mobile_rows={{Compatibility Table Mobile Row
 |Android_supported=Yes
-|Android_version=All versions
+|Android_version=1
 |Android_prefixed_supported=Yes
 |Blackberry_supported=Yes
 |Blackberry_prefixed_supported=Yes
