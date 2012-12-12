@@ -5,7 +5,12 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The track tag specifies text tracks for media elements (audio and video).
+
+This element is used to specify subtitles, caption files or other files containing text, that should be visible when the media is playing.
+
+Track is new to HTML5 and is not yet supported in any major browser.
+}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
 }}
@@ -65,6 +70,7 @@ The '''track''' object has these properties.
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
