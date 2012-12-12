@@ -50,7 +50,7 @@ accordingly.
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|DOM}}
+{{Topics|DOM, FileAPI}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MDN, MSDN
