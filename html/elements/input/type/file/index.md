@@ -100,14 +100,14 @@ The '''INPUT type{{=}}file''' element is available in HTML and script as of Micr
 
 
 ===HTML information===
-{| class="wikitable"
-|-
+{{{!}} class="wikitable"
+{{!}}-
 !Closing Tag
-|forbidden
-|-
+{{!}}forbidden
+{{!}}-
 !CSS Display
-|inline
-|}
+{{!}}inline
+{{!}}}
 
 ===Members===
 The '''input type{{=}}file''' object has these types of members:
