@@ -144,7 +144,7 @@ Now let's have a look at putting some of our reusable code into a utility file s
  vertexPosBuffer.itemSize = 2;
  vertexPosBuffer.numItems = 4;</syntaxhighlight>
 
-<nowiki>
+<code>
  
  /*
  
@@ -153,7 +153,7 @@ Now let's have a look at putting some of our reusable code into a utility file s
   {{!}} \ {{!}}
  0{{!}}__\{{!}}1
  
- */</nowiki>
+ */</code>
 
 and put it into your <code>webgl-utils.js</code> file, at the bottom, wrapped in a function called <code>screenQuad() { ... }</code>. At the bottom of this function, return <code>vertexPosBuffer</code>, like this:
 
