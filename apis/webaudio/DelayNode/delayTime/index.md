@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|An AudioParam object representing the amount of delay (in seconds) to apply. The default value (delayTime.value) is 0 (no delay). The minimum value is 0 and the maximum value is determined by the maxDelayTime argument to the AudioContext method createDelay. This parameter is k-rate.}}
+{{Summary_Section|An [[apis/webaudio/AudioParam|'''AudioParam''']] object representing the amount of delay (in seconds) to apply. The default value (delayTime.value) is 0 (no delay). The minimum value is 0 and the maximum value is determined by the '''maxDelayTime''' argument to the [[apis/webaudio/AudioContext|'''AudioContext''']] method [[apis/webaudio/AudioContext/createDelay|'''createDelay''']]. This parameter is k-rate.}}
 {{API_Object_Property
 |Property_applies_to=apis/webaudio/DelayNode
 |Read_only=No
