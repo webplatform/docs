@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Used to select and style unvisited links.}}
 {{CSS_Selector
 |Content=User agents commonly display unvisited links differently from previously visited ones. Selectors provides pseudo-classes to distinguish them:
 
@@ -49,6 +49,7 @@ UAs may therefore treat all links as unvisited links, or implement other measure
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Unknown
 |Chrome_version=
