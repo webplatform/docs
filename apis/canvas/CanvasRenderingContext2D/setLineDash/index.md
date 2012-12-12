@@ -8,7 +8,7 @@
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=sequence
-|Data type=Object
+|Data type=Array
 |Description=An array of integers that specifies the length of each "on" and "off" segment.
 |Optional=No
 }}
