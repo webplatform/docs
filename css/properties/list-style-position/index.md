@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Specifies if the list-item markers should appear inside or outside the content flow.}}
 {{CSS Property
 |Applies to=All elements
 |Inherited=Yes
@@ -61,6 +61,7 @@ If the left margin of a list item is set to 0 using one of the [[css/properties/
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
 |Chrome_prefixed_supported=Unknown
