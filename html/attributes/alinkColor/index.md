@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Sets or gets the color of all active links in the document.}}
 {{Markup_Attribute
 |Property_applies_to=dom/HTMLElement
 }}
@@ -27,6 +27,7 @@ Some browsers do not recognize color names, but all browsers should recognize RG
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
