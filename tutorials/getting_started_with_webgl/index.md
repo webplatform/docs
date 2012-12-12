@@ -9,22 +9,7 @@
 |Next_page=tutorials/webgl a simple shader
 }}
 {{Notes_Section}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=DevOpera
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+
 =Raw WebGL 101 — Part 1: getting started=
 
 ==Introduction==
@@ -265,3 +250,20 @@ so now we've got some error handling. Excellent!
 ==Summary==
 
 We've hope you've found this exploration of WebGL useful. Please stay turned for the next article, where we'll build on what we've done so far! Erik Möller is more than happy to answer your questions — please leave your comments below and [https://twitter.com/#!/erikjmoller follow Erik on Twitter] to find out about new WebGL work and ask questions.
+
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section}}
+{{Topics}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=DevOpera
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
+}}
