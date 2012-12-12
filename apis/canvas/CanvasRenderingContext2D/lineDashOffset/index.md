@@ -4,7 +4,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Specifies the number of pixels to offset the dash pattern. By changing the value of this property you can create a "marching ants" effect.}}
 {{API_Object_Property
 |Property_applies_to=canvas/objects/CanvasRenderingContext2D
 |Read_only=No
