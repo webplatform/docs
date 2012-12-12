@@ -1,7 +1,5 @@
 {{Page_Title}}
-{{Flags
-|Content=Compatibility Incomplete
-}}
+{{Flags}}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Releases the file lock for the associated file resource or frees the memory for the Blob object. After calling this method, performing addition operations on the Blob object fails and throws an exception.}}
