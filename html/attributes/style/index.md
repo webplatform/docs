@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Sets an inline style for the element.}}
 {{Markup_Attribute
 |Property_applies_to=dom/HTMLElement
 }}
@@ -36,6 +36,7 @@ This attribute is not accessible through scripting. To access styles through scr
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
 |Chrome_version=Beta
