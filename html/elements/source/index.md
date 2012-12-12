@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Allows developer to specify multiple alternative media resources for media elements, such as <code>video</code> and <code>audio</code>. It does not represent anything on its own, and is used with <code>src</code> attribute to specify the URL.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
 }}
@@ -273,6 +273,7 @@ The '''source''' object has these properties.
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
