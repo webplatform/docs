@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Sets the minimum width of an element.}}
 {{CSS Property
 |Initial value=0
 |Applies to=All elements
@@ -74,6 +74,7 @@ This property is enabled only under the strict [[html/elements/!DOCTYPE|!DOCTYPE
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
