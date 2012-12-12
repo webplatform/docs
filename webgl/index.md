@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page_Title|WebGL}}
 {{Flags}}
 {{API_Name}}
 {{Summary_Section}}
