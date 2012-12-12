@@ -7,12 +7,12 @@
 |Parameters={{Method Parameter
 |Name=values
 |Data type=String
-|Description=A Float32Array representing a parameter value curve. These values will apply starting at the given time and lasting for the given duration.
+|Description=A '''Float32Array''' representing a parameter value curve. These values will apply starting at the given time and lasting for the given duration.
 |Optional=No
 }}{{Method Parameter
 |Name=startTime
 |Data type=Number
-|Description=The time in the same time coordinate system as AudioContext.currentTime.
+|Description=The time in the same time coordinate system as [[apis/webaudio/AudioContext/currentTime|'''AudioContext.currentTime''']].
 |Optional=No
 }}{{Method Parameter
 |Name=duration
