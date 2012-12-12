@@ -5,7 +5,10 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Underlines text in-line. 
+
+Deprecated in HTML4, redefined in HTML5. Currently used to express "an unarticulated, though explicitly rendered, non-textual annotation," such as a proper name in Chinese or a spelling error.
+}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
 }}
@@ -633,6 +636,7 @@ This property is not supported for Metro style apps using JavaScript.
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
