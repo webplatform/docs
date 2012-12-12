@@ -4,9 +4,7 @@
 |Name=Erik Möller, Chris Mills
 |Published=February 29, 2012
 }}
-{{Summary_Section}}
-
-=Raw WebGL 101 — Part 1: getting started=
+{{Summary_Section|This article covers what you need to get started with WebGL}}
 
 ==Introduction==
 
