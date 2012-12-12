@@ -7,7 +7,7 @@
 |Parameters={{Method Parameter
 |Name=when
 |Data type=Number
-|Description=Describes at what time (in seconds) the sound should start playing. It is in the same time coordinate system as AudioContext.currentTime. If 0 is passed in for this value or if the value is less than currentTime, then the sound will start playing immediately. start may only be called one time and must be called before stop is called or an exception will be thrown.
+|Description=Describes at what time (in seconds) the sound should start playing. It is in the same time coordinate system as [[apis/webaudio/AudioContext/currentTime|'''AudioContext.currentTime''']]. If 0 is passed in for this value or if the value is less than '''currentTime''', then the sound will start playing immediately. start may only be called one time and must be called before stop is called or an exception will be thrown.
 |Optional=No
 }}{{Method Parameter
 |Name=offset
@@ -17,7 +17,7 @@
 }}{{Method Parameter
 |Name=duration
 |Data type=Number
-|Description=Describes the duration of the portion (in seconds) to be played. This parameter is optional, with the default value equal to the total duration of the AudioBuffer minus the offset parameter. Thus if neither offset nor duration are specified then the implied duration is the total duration of the AudioBuffer.
+|Description=Describes the duration of the portion (in seconds) to be played. This parameter is optional, with the default value equal to the total duration of the [[apis/webaudio/AudioBuffer|'''AudioBuffer''']] minus the offset parameter. Thus if neither offset nor duration are specified then the implied duration is the total duration of the [[apis/webaudio/AudioBuffer|'''AudioBuffer''']].
 |Optional=Yes
 }}
 |Method_applies_to=apis/webaudio/AudioBufferSourceNode
