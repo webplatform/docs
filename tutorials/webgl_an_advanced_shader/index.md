@@ -1,7 +1,10 @@
-{{Page_Title}}
+{{Page_Title|WebGL: an advanced shader}}
 {{Flags}}
-{{Byline}}
-{{Summary_Section}}
+{{Byline
+|Name=Erik Möller, Chris Mills
+|Published=July 25, 2012
+}}
+{{Summary_Section|Creating an advanced shader, building on the [[tutorials/webgl a simple shader|simple shader]] tutorial.}}
 {{Tutorial
 |Content===Introduction==
 
