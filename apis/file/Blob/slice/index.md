@@ -1,8 +1,5 @@
 {{Page_Title}}
-{{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
+{{Flags}}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Returns a new Blob object with bytes ranging from its optional start parameter up to but not including its optional end parameter.}}
@@ -26,50 +23,49 @@ If you specify a value for start that is larger than the size of the source Blob
 |Optional=Yes
 }}
 |Method_applies_to=apis/file/Blob
-|Example_object_name=blob
-|Return_value_name=blob
+|Example_object_name=Blob
 |Javascript_data_type=Blob
 |Return_value_description=A new Blob object containing the data in the specified range of bytes from the source Blob.
 }}
 {{Examples_Section
-|Not_required=No
+|Not_required=Yes
 |Examples=
 }}
 {{Notes_Section
-|Notes====Remarks===
-The '''slice''' method returns a new [[apis/file/Blob|'''Blob''']] object with bytes ranging from the optional <code>start</code> parameter up to but not including the optional <code>end</code> parameter, and with a type attribute that is the value of the optional <code>contentType</code> parameter.
+|Notes=The '''slice''' method returns a new [[apis/file/Blob|'''Blob''']] object with bytes ranging from the optional <code>start</code> parameter up to but not including the optional <code>end</code> parameter, and with a type attribute that is the value of the optional <code>contentType</code> parameter.
 If it is not possible to obtain the object in the range specified, your application should throw the <code>NotSupportedError</code> exception.
 For a code sample of the <code>slice</code> method, see [[apis/file/Blob|'''Blob''']].
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=File API
-|URL=http://dev.w3.org/2006/webapi/FileAPI/#dfn-slice
-|Status=WD
+|Name=W3C HTML5 Specification
+|URL=http://www.w3.org/TR/FileAPI#blob
+|Status=W3C Working Draft
 }}
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Feature=Basic Support
 |Chrome_supported=Yes
-|Chrome_version=21
-|Chrome_prefixed_supported=Yes
-|Chrome_prefixed_version=10
+|Chrome_version=22.0
+|Chrome_prefixed_supported=Unknown
+|Chrome_prefixed_version=
 |Firefox_supported=Yes
-|Firefox_version=13
-|Firefox_prefixed_supported=Yes
-|Firefox_prefixed_version=5
+|Firefox_version=15.0
+|Firefox_prefixed_supported=Unknown
+|Firefox_prefixed_version=
 |Internet_explorer_supported=Yes
 |Internet_explorer_version=10
-|Internet_explorer_prefixed_supported=No
+|Internet_explorer_prefixed_supported=Unknown
 |Internet_explorer_prefixed_version=
 |Opera_supported=Yes
-|Opera_version=12
+|Opera_version=12.1
 |Opera_prefixed_supported=Unknown
 |Opera_prefixed_version=
 |Safari_supported=Yes
-|Safari_version=5.1
+|Safari_version=6.0
 |Safari_prefixed_supported=Unknown
 |Safari_prefixed_version=
 }}
@@ -77,18 +73,18 @@ For a code sample of the <code>slice</code> method, see [[apis/file/Blob|'''Blob
 |Feature=Basic Support
 |Android_supported=Unknown
 |Android_version=
-|Android_prefixed_supported=Unknown
-|Android_prefixed_version=
-|Blackberry_supported=Unknown
-|Blackberry_version=
+|Android_prefixed_supported=Yes
+|Android_prefixed_version=3.0
+|Blackberry_supported=Yes
+|Blackberry_version=10.0
 |Blackberry_prefixed_supported=Unknown
 |Blackberry_prefixed_version=
 |Chrome_mobile_supported=Unknown
 |Chrome_mobile_version=
 |Chrome_mobile_prefixed_supported=Unknown
 |Chrome_mobile_prefixed_version=
-|Firefox_mobile_supported=Yes
-|Firefox_mobile_version=13
+|Firefox_mobile_supported=Unknown
+|Firefox_mobile_version=
 |Firefox_mobile_prefixed_supported=Unknown
 |Firefox_mobile_prefixed_version=
 |IE_mobile_supported=Unknown
@@ -99,12 +95,12 @@ For a code sample of the <code>slice</code> method, see [[apis/file/Blob|'''Blob
 |Opera_mobile_version=
 |Opera_mobile_prefixed_supported=Unknown
 |Opera_mobile_prefixed_version=
-|Opera_mini_supported=Unknown
+|Opera_mini_supported=No
 |Opera_mini_version=
 |Opera_mini_prefixed_supported=Unknown
 |Opera_mini_prefixed_version=
-|Safari_mobile_supported=Unknown
-|Safari_mobile_version=
+|Safari_mobile_supported=Yes
+|Safari_mobile_version=6.0
 |Safari_mobile_prefixed_supported=Unknown
 |Safari_mobile_prefixed_version=
 }}
@@ -115,11 +111,10 @@ For a code sample of the <code>slice</code> method, see [[apis/file/Blob|'''Blob
 }}
 }}
 {{See_Also_Section}}
-{{Topics|DOM, FileAPI}}
+{{Topics|FileAPI}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
 |MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|MSDN_link=
 |HTML5Rocks_link=
 }}
