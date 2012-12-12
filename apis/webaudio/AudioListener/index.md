@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|This interface represents the position and orientation of the person listening to the audio scene. All PannerNode objects spatialize in relation to the AudioContext's listener.}}
+{{Summary_Section|This interface represents the position and orientation of the person listening to the audio scene. All [[apis/webaudio/PannerNode|'''PannerNode''']] objects spatialize in relation to the [[apis/webaudio/AudioContext|'''AudioContext''']]'s listener.}}
 {{API_Object}}
 {{Examples_Section
 |Not_required=Yes
