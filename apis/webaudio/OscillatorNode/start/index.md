@@ -7,7 +7,7 @@
 |Parameters={{Method Parameter
 |Name=when
 |Data type=Number
-|Description=Describes at what time (in seconds) the sound should start playing. It is in the same time coordinate system as AudioContext.currentTime. If 0 is passed in for this value or if the value is less than currentTime, then the sound will start playing immediately. start may only be called one time and must be called before stop is called or an exception will be thrown.
+|Description=Describes at what time (in seconds) the sound should start playing. It is in the same time coordinate system as [[apis/webaudio/AudioContext/currentTime|'''AudioContext.currentTime''']]. If 0 is passed in for this value or if the value is less than '''currentTime''', then the sound will start playing immediately. start may only be called one time and must be called before stop is called or an exception will be thrown.
 |Optional=No
 }}
 |Method_applies_to=apis/webaudio/OscillatorNode
