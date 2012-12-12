@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|The type of BiquadFilterNode.}}
+{{Summary_Section|The type of [[apis/webaudio/BiquadFilterNode|'''BiquadFilterNode''']].}}
 {{API_Object_Property
 |Property_applies_to=apis/webaudio/BiquadFilterNode
 |Read_only=No
