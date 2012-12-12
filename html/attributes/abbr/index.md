@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Indicates an abbreviation or an acronym.}}
 {{Markup_Attribute
 |Property_applies_to=dom/HTMLElement
 }}
@@ -14,7 +14,9 @@
 |Examples=
 }}
 {{Notes_Section
-|Notes====Remarks===
+|Notes=The global title attribute can be used in the <code>abbr</code> tag to show the full version of the abbreviation/acronym when you mouse over the <code>abbr</code> element.
+
+===Remarks===
 '''abbr''' was introduced in Microsoft Internet Explorer 6
 This property can be used for rendering to non-visual media such as speech or Braille.
 There is no functionality implemented for this property unless defined by the author.
@@ -25,6 +27,7 @@ There is no functionality implemented for this property unless defined by the au
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
 |Chrome_version=Beta
