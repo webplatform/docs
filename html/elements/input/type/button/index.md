@@ -705,7 +705,6 @@ This property is not supported for Metro style apps using JavaScript.
 {{!}}[[html/attributes/width  (img, input elements){{!}}'''width''']]
 {{!}}Sets or retrieves the calculated width of the object.
 {{!}}}
- 
 }}
 {{Related_Specifications_Section
 |Specifications=
@@ -767,9 +766,8 @@ This property is not supported for Metro style apps using JavaScript.
 }}
 {{See_Also_Section
 |Manual_sections====Related pages (MSDN)===
-*<code>Reference</code>
-*<code>button</code>
-*<code>input</code>
+*[[html/elements/button|button]]
+*[[html/elements/input|input]]
 }}
 {{Topics|HTML}}
 {{External_Attribution
