@@ -33,25 +33,25 @@ Now we'll try another way of getting our texture coordinates into the fragment s
 
 Also delete the line that references these two:
 
-<syntaxhighlight lang="javascript">vTexCoord = aVertexPosition + uOffset;</syntaxhighlight>
+<syntaxhighlight lang="glsl">vTexCoord = aVertexPosition + uOffset;</syntaxhighlight>
 
 This will leave us with a minimal vertex shader.
 
 We will now use a new built-in construct called <code>gl_FragCoord</code>, which gives us the pixel position of the current fragment. First add the following line inside the fragment shader's main function to calculate the coordinates of the vertices:
 
-<syntaxhighlight lang="javascript">vec2 texCoord = (gl_FragCoord.xy / uCanvasSize.xy) * 2.0 - vec2(1.0,1.0);</syntaxhighlight>
+<syntaxhighlight lang="glsl">vec2 texCoord = (gl_FragCoord.xy / uCanvasSize.xy) * 2.0 - vec2(1.0,1.0);</syntaxhighlight>
 
 This will give us the same as we had before, but without the offsets we added in the last part of the series. We also need to change the reference to this in the line below:
 
-<syntaxhighlight lang="javascript">gl_FragColor = vec4(texCoord, 0, 1);</syntaxhighlight>
+<syntaxhighlight lang="glsl">gl_FragColor = vec4(texCoord, 0, 1);</syntaxhighlight>
 
 We don't need the line that brings the texture coordinate data into the fragment shader, so delete the following line from there:
 
-<syntaxhighlight lang="javascript">varying vec2 vTexCoord;</syntaxhighlight>
+<syntaxhighlight lang="glsl">varying vec2 vTexCoord;</syntaxhighlight>
 
 We'll replace this with a new constant — add the following <code>uniform</code> in place of the line you just deleted, to convert between pixel position and the <code>texCoord</code> that we want (the -1 to 1 value):
 
-<syntaxhighlight lang="javascript">uniform vec2 uCanvasSize;</highlight>
+<syntaxhighlight lang="glsl">uniform vec2 uCanvasSize;</highlight>
 
 Moving back down to the main <code><script></code> element, we now need to start making changes to this part of the code to use the new shaders we are creating. First of all, delete the <code>offset</code> line:
 
