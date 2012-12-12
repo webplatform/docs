@@ -5,7 +5,8 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|FileList is an object which represents an array of individually selected files from the underlying system. The user interface for selection can be invoked via <code><input type="file"></code>.|An object of this type is returned by the files property of the HTML input element; this lets you access the list of files selected with the <input type="file"> element. It's also used for a list of files dropped into web content when using the drag and drop API; see the DataTransfer object for details on this usage.
+{{Summary_Section|FileList is an object which represents an array of individually selected files from the underlying system. |FileList is an object which represents an array of individually selected files from the underlying system_ The user interface for selection can be invoked via <code><input type="file"></code>.
+|An object of this type is returned by the files property of the HTML input element; this lets you access the list of files selected with the <input type="file"> element. It's also used for a list of files dropped into web content when using the drag and drop API; see the DataTransfer object for details on this usage.
 }}
 {{API_Object}}
 {{Examples_Section
