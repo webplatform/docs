@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Copies the current time-domain (waveform) data into the passed unsigned byte array. If the array has fewer elements than the frequencyBinCount, the excess elements will be dropped.}}
+{{Summary_Section|Copies the current time-domain (waveform) data into the passed unsigned byte array. If the array has fewer elements than the [[apis/webaudio/AnalyserNode/frequencyBinCount|'''frequencyBinCount''']], the excess elements will be dropped.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=array
