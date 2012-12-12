@@ -12,7 +12,7 @@
 }}{{Method Parameter
 |Name=endTime
 |Data type=Number
-|Description=The time in the same time coordinate system as AudioContext.currentTime.
+|Description=The time in the same time coordinate system as [[apis/webaudio/AudioContext/currentTime|'''AudioContext.currentTime''']].
 |Optional=No
 }}
 |Method_applies_to=apis/webaudio/AudioParam
