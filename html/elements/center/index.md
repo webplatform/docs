@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|&lt;center&gt; center-aligns text in an HTML page.
+{{Summary_Section|Center-aligns text in an HTML page.
 The &lt;center&gt; tag is not supported in HTML5. Use CSS instead.
 The &lt;center&gt; element is deprecated in HTML 4.01.
 }}
