@@ -77,7 +77,7 @@ This is the list of HTML and related Elements from the past to the present.
 * [[html/elements/abbr|abbr]]
 * [[html/elements/acronym|acronym]]
 * [[html/elements/b|b]]
-* [[html/elements/basefont|basefont]]
+==* [[html/elements/basefont|basefont]]==
 * [[html/elements/bdo|bdo]]
 * [[html/elements/big|big]]
 * [[html/elements/blink|blink]]
