@@ -4,7 +4,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Inserts content after the selected element(s).}}
 {{CSS_Selector
 |Content=The [[:css/selectors/pseudo-elements/::before|'''::before''']] and '''::after''' pseudo-elements specify the location of content before and after an element in the document tree. The [[css/properties/content|'''content''']] attribute, in conjunction with these pseudo-elements, specifies what is inserted.
 The generated content interacts with other boxes as if they were real elements inserted just inside their associated element. The content box of the associated element expands to include the generated content, if necessary.
@@ -36,6 +36,7 @@ sel
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows={{Compatibility Notes Row
@@ -45,7 +46,7 @@ sel
 }}
 }}
 {{See_Also_Section
-|Topic_clusters=Selectors, Pseudo-Elements
+|Topic_clusters=Pseudo-Elements, Selectors
 |Manual_sections====Related pages===
 *<code>[[css/properties/content|content]]</code>
 }}
