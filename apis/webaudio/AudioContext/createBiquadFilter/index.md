@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Creates a BiquadFilterNode representing a second order filter which can be configured as one of several common filter types.}}
+{{Summary_Section|Creates a [[apis/webaudio/BiquadFilterNode|'''BiquadFilterNode''']] representing a second order filter which can be configured as one of several common filter types.}}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=apis/webaudio/AudioContext
