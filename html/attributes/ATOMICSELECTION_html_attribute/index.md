@@ -5,7 +5,9 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Specifies whether the element and its contents must be selected as a whole, indivisible unit.
+
+}}
 {{Markup_Attribute
 |Property_applies_to=dom/HTMLElement
 }}
@@ -36,6 +38,7 @@ There are no standards that apply here.
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Unknown
 |Chrome_version=
