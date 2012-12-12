@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Sets a keyboard keystroke for selection of its element, which would otherwise be done using a mouse.}}
 {{Markup_Attribute
 |Property_applies_to=dom/HTMLElement
 }}
@@ -32,6 +32,7 @@ As of Microsoft Internet Explorer 5, some scoped elements do not implicitly sup
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
 |Chrome_version=Beta
