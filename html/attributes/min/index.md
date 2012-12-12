@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Reflects the min HTML attribute, containing the minimum (numeric or date-time) value for this item, which must not be greater than its maximum (max attribute) value.}}
 {{Markup_Attribute
 |Property_applies_to=dom/HTMLElement
 }}
