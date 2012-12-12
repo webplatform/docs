@@ -1,10 +1,9 @@
-{{Page_Title}}
+{{Page_Title|WebGL tutorials}}
 {{Flags}}
-{{Summary_Section}}
+{{Summary_Section| Index page for WebGL tutorials}}
 {{Basic Page}}
-WASSUP IM LUZ, BITCHEZ!!
 {{Notes_Section}}
-{{Topics}}
+{{Topics|WebGL}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
