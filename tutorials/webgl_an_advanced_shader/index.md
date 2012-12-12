@@ -1,5 +1,7 @@
 {{Page_Title|WebGL: an advanced shader}}
-{{Flags}}
+{{Flags
+|Content=Compatibility Incomplete
+}}
 {{Byline
 |Name=Erik Möller, Chris Mills
 |Published=July 25, 2012
@@ -12,42 +14,44 @@ Welcome to part 3 of our Raw WebGL series! Now that we've covered the real basic
 
 This article is a transcript of [http://www.youtube.com/watch?v=me3BviH3nZc&t=32m36s time 32:36 to 56.50] in Erik Möller's [http://www.youtube.com/watch?v=me3BviH3nZc WebGL 101] tutorial, available on YouTube.
 
+{{Note|[https://github.com/emoller/WebGL101 Access the full WebGL 101 code example set] and links to see the examples running live, at Github}}
+
 ==Ramping up our fragment shader power!==
 
-You can see the final result of this article in 04-fragment-shader.html. To follow the step by step tutorial below, download 03-minimal-shader.html and use it as a starting point.
+You can see the final result of this article in 04-fragment-shader.html from the [https://github.com/emoller/WebGL101 full WebGL 101 code example set]. To follow the step by step tutorial below, download 03-minimal-shader.html and use it as a starting point.
 
 First of all, change the size of the canvas to 900 x 900 pixels:
 
- <code class="html"><canvas id='c' width='900' height='900'></canvas></code>
+<syntaxhighlight lang="html5"><canvas id='c' width='900' height='900'></canvas></syntaxhighlight>
 
 ===Modifying the vertex shader===
 
 Now we'll try another way of getting our texture coordinates into the fragment shader. Delete the <code>varying</code> and <code>uniform</code> lines from the vertex shader <code><script></code> element:
 
- <code class="javascript">varying vec2 vTexCoord;
- uniform vec2 uOffset;</code>
+<syntaxhighlight lang="javascript">varying vec2 vTexCoord;
+ uniform vec2 uOffset;</syntaxhighlight>
 
 Also delete the line that references these two:
 
- <code class="javascript">vTexCoord = aVertexPosition + uOffset;</code>
+<syntaxhighlight lang="javascript">vTexCoord = aVertexPosition + uOffset;</syntaxhighlight>
 
 This will leave us with a minimal vertex shader.
 
 We will now use a new built-in construct called <code>gl_FragCoord</code>, which gives us the pixel position of the current fragment. First add the following line inside the fragment shader's main function to calculate the coordinates of the vertices:
 
- <code class="javascript">vec2 texCoord = (gl_FragCoord.xy / uCanvasSize.xy) * 2.0 - vec2(1.0,1.0);</code>
+<syntaxhighlight lang="javascript">vec2 texCoord = (gl_FragCoord.xy / uCanvasSize.xy) * 2.0 - vec2(1.0,1.0);</syntaxhighlight>
 
 This will give us the same as we had before, but without the offsets we added in the last part of the series. We also need to change the reference to this in the line below:
 
- <code class="javascript">gl_FragColor = vec4(texCoord, 0, 1);</code>
+<syntaxhighlight lang="javascript">gl_FragColor = vec4(texCoord, 0, 1);</syntaxhighlight>
 
 We don't need the line that brings the texture coordinate data into the fragment shader, so delete the following line from there:
 
- <code class="javascript">varying vec2 vTexCoord;</code>
+<syntaxhighlight lang="javascript">varying vec2 vTexCoord;</syntaxhighlight>
 
 We'll replace this with a new constant — add the following <code>uniform</code> in place of the line you just deleted, to convert between pixel position and the <code>texCoord</code> that we want (the -1 to 1 value):
 
- <code class="javascript">uniform vec2 uCanvasSize;</code>
+<syntaxhighlight lang="javascript">uniform vec2 uCanvasSize;</highlight>
 
 Moving back down to the main <code><script></code> element, we now need to start making changes to this part of the code to use the new shaders we are creating. First of all, delete the <code>offset</code> line:
 
