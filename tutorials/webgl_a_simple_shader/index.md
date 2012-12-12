@@ -18,22 +18,22 @@ To build up this example step by step, start with the [minimal-draw.zip Minimal 
 
 First of all, make a copy of the 02-minimal-draw.html file, and save it as 03-minimal-shader.html (or something else of your choosing). In this tutorial we are going to forget about triangles, and instead draw a rectangle that will cover the canvas. To show what we will draw, replace the ascii triangle we currently have in our code with a square, like this:
 
-/*
+<syntaxhighlight lang="javascript">/*
  
  2 ___ 3
   {{!}}\  {{!}}
   {{!}} \ {{!}}
  0{{!}}__\{{!}}1
  
- */
+ */</syntaxhighlight>
 
 Note that in this context we are always using clip space coordinates, hence the values always ranging from -1 to 1. The next thing we want to do is input this data into our vertices array. Change the <code>var vertices</code> line (the fifth line of script) to read like so:
 
- <code>var vertices = [-1, -1, 1, -1, -1, 1, 1, 1];</code>
+<syntaxhighlight lang="javascript">var vertices = [-1, -1, 1, -1, -1, 1, 1, 1];</syntaxhighlight>
 
 Next, we take our <code>gl.drawArrays</code> line (the bottom line of script) and change it to use <code>TRIANGLE_STRIP</code> to dictate the shape to be drawn, instead of <code>TRIANGLES</code> — this works for our purposes here because the shape we are drawing is made from a strip of triangles. We will give <code>TRIANGLE_STRIP</code> four vertices, so the last number needs to be changed from 3 to 4.
 
- <code>gl.drawArrays(gl.TRIANGLE_STRIP, 0, 4);</code>
+<syntaxhighlight lang="javascript">gl.drawArrays(gl.TRIANGLE_STRIP, 0, 4);</syntaxhighlight>
 
 These changes will result in our exciting green triangle being changed into an even more exciting green rectangle — see Figure 1!
 
@@ -45,8 +45,8 @@ Figure 1: An exciting green rectangle, rendered using WebGL.
 
 At the moment, we have some hard-coded data to define features of the shape, such as the colour, size and number of items. Let's make this more flexible, defining these in the buffer instead. First of all, add the following lines below the <code>gl.bufferData</code> line (just above the ascii square):
 
- <code>vertexPosBuffer.itemSize = 2;
- vertexPosBuffer.numItems = 4;</code>
+<syntaxhighlight lang="javascript">vertexPosBuffer.itemSize = 2;
+ vertexPosBuffer.numItems = 4;</syntaxhighlight>
 
 Now, replace the hard coded values from the last two lines of script with these properties:
 
