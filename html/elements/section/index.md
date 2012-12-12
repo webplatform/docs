@@ -4,7 +4,7 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Defines sections in a document, such as chapters, headers, footers, or any other sections of the document. It is new to HTML5.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
 |Content====HTML information===
@@ -85,6 +85,7 @@ The '''section''' element is not a generic container element. Authors are encour
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
 |Chrome_version=6
