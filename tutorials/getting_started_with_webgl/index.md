@@ -99,10 +99,10 @@ var vertices = [];
 Now let's think about the shape we want to draw — in this case we will draw a simple triangle. In such situations, it is always easier to think about what you want to draw by first sketching it out on paper, or in this case using ASCII art!
 
  <syntaxhighlight lang="javascript">                   
-/*                                  2 - (0, 0.5)
-                                   / \
-                                 /     \
-        (-0.5, -0.5) - 0/_____\1 - (0.5, -0.5)
+/*                    2 - (0, 0.5)
+                               / \
+                             /     \
+(-0.5, -0.5) - 0/_____\1 - (0.5, -0.5)
 */
 </syntaxhighlight>
 
