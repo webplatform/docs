@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|This interface represents an audio source from an in-memory audio asset in an AudioBuffer. It generally will be used for short audio assets which require a high degree of scheduling flexibility (can playback in rhythmically perfect ways).}}
+{{Summary_Section|This interface represents an audio source from an in-memory audio asset in an [[apis/webaudio/AudioBuffer|'''AudioBuffer''']]. It generally will be used for short audio assets which require a high degree of scheduling flexibility (can playback in rhythmically perfect ways).}}
 {{API_Object}}
 {{Examples_Section
 |Not_required=Yes
