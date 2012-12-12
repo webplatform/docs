@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|FileList is an object which represents an array of individually selected files from the underlying system. |FileList is an object which represents an array of individually selected files from the underlying system_ The user interface for selection can be invoked via <code><input type="file"></code>.
+{{Summary_Section|FileList is an object which represents an array of individually selected files from the underlying system.|FileList is an object which represents an array of individually selected files from the underlying system_ The user interface for selection can be invoked via <code><input type="file"></code>.
 |An object of this type is returned by the files property of the HTML input element; this lets you access the list of files selected with the <input type="file"> element. It's also used for a list of files dropped into web content when using the drag and drop API; see the DataTransfer object for details on this usage.
 }}
 {{API_Object}}
@@ -56,7 +56,7 @@ The '''FileList''' object has these properties.
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|DOM}}
+{{Topics|DOM, FileAPI}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MDN, MSDN
