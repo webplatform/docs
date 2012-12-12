@@ -1,12 +1,12 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Missing Relevant Sections, Needs Topics, Merge Candidate, Data Not Semantic, Unreviewed Import
+|High-level issues=Merge Candidate, Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 |Editorial notes={{Editorial/Merge_Candidate}}
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Allows you to rotate, scale, move, skew, etc.,an elements in 2D or 3D space.}}
 {{API_Object_Property
 |Property_applies_to=cssom
 |Read_only=No
@@ -45,6 +45,7 @@ For information about the transformation functions that are supported for use wi
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
