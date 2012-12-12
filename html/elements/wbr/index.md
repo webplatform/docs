@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The Word Break Opportunity (<wbr>) HTML element represents a position within text where the browser may optionally break a line, though its line-breaking rules would not otherwise create a break at that location.}}
+{{Summary_Section|The Word Break Opportunity (<code>wbr</code>) element represents a position within text where the browser may optionally break a line, though its line-breaking rules would not otherwise create a break at that location.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
 }}
@@ -267,6 +267,7 @@ This property is not supported for Metro style apps using JavaScript.
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
