@@ -1,1 +1,1 @@
-{{#subpages:}}
+{{Special:PrefixIndex/guides/}}
