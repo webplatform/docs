@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|A decibel value representing the range above the threshold where the curve smoothly transitions to the "ratio" portion. Its default value is 30, with a nominal range of 0 to 40. This parameter is k-rate.}}
+{{Summary_Section|A decibel value representing the range above the threshold where the curve smoothly transitions to the ''ratio'' portion. Its default value is 30, with a nominal range of 0 to 40. This parameter is k-rate.}}
 {{API_Object_Property
 |Property_applies_to=apis/webaudio/DynamicsCompressorNode
 |Read_only=Yes
