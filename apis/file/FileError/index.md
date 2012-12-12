@@ -1,26 +1,24 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
-{{API_Object
-|Subclass_of=
-}}
-{{Topics|DOM}}
+{{Summary_Section|Represents an error that occurs while using the FileReader interface. Obsolete per latest specification. Use DOMError instead.}}
+{{API_Object}}
 {{Examples_Section
 |Not_required=No
-|Examples=}}
+|Examples=
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 The [[apis/file/FileReader|'''FileReader''']] object's <code>error</code> property is a 
 '''FileError''' object and is accessed asynchronously through the 
 <code>onerror</code> event handler when error events are generated. The 
 '''FileError''' object's [[apis/file/properties/code|'''code''']] property and associated error codes allow asynchronous file error handling, as suggested in the following example.
 '''Note'''  Errors in the synchronous read methods for Web Workers are reported in the same way.
-|Import_Notes=
-===Syntax===
+|Import_Notes====Syntax===
 ===Members===
 The '''FileError''' object has these types of members:
 *[#properties Properties]
@@ -40,12 +38,23 @@ it is obsolete and  [[dom/DOMError|'''DOMError''']] should be used instead. Appl
 accordingly.
 |}
  
-
 }}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section}}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
+|Sources=MDN, MSDN
+|MDN_link=https://developer.mozilla.org/en-US/docs/DOM/FileError
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|MDN_link=
 |HTML5Rocks_link=
 }}
