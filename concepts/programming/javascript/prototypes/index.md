@@ -36,7 +36,7 @@ JavaScript objects are dynamic "bags" of properties (referred as '''own properti
  // o.[[Prototype]].[[Prototype]] is null, stop searching, no property found, return undefined
  </nowiki>
 
-Setting a property to an object creates an own property. The only exception to the getting and setting behavior rules is when there is an inherited property with a [http://docs.webplatform.org/en/JavaScript/Guide/Obsolete_Pages/Creating_New_Objects/Defining_Getters_and_Setters] getter or a setter.
+Setting a property to an object creates an own property. The only exception to the getting and setting behavior rules is when there is an inherited property with a [https://developer.mozilla.org/en-US/docs/JavaScript/Guide/Working_with_Objects#Defining_getters_and_setters defining getters and setters] getter or a setter.
 
 ===Inheriting "methods"===
 
