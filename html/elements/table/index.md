@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|he <code>table</code> tag defines an HTML table.}}
+{{Summary_Section|Defines an HTML table.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLTableElement
 }}
