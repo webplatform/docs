@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Defines style information for an HTML document. Inside the <code>style</code> element you specify how HTML elements should render in a browser. Each HTML document can contain multiple <style> tags.}}
+{{Summary_Section|Defines style information for an HTML document. Inside the <code>style</code> element you specify how HTML elements should render in a browser. Each HTML document can contain multiple <code>style</code> tags.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLStyleElement
 |Content={{Editorial/Merge_Candidate
