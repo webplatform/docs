@@ -7,7 +7,7 @@
 {{API_Name}}
 {{Summary_Section|In HTML5, the &lt;cite&gt; tag defines the title of a work.
 In HTML 4.01, the &lt;cite&gt; tag defines a citation.
-A citation is rendered in in italic.
+A citation is rendered in italic.
 }}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
