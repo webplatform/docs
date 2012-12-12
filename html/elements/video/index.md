@@ -4,7 +4,7 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|The video is an HTML5 tag that allows a developer to embed a video in a document.}}
+{{Summary_Section|The <code>video</code> tag allows a developer to embed a video in a document. It is new to HTML5.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLVideoElement
 }}
