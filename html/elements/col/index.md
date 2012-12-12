@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The &lt;col&gt; tag specifies column properties for each column within a &lt;colgroup&gt; element in a &lt;table&gt;.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLTableColElement
 }}
@@ -530,6 +530,7 @@ This property is not supported for Metro style apps using JavaScript.
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
