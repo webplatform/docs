@@ -2,12 +2,12 @@
 {{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Cancels all scheduled parameter changes with times greater than or equal to startTime.}}
+{{Summary_Section|Cancels all scheduled parameter changes with times greater than or equal to '''startTime'''.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=startTime
 |Data type=Number
-|Description=The starting time at and after which any previously scheduled parameter changes will be cancelled. It is a time in the same time coordinate system as AudioContext.currentTime.
+|Description=The starting time at and after which any previously scheduled parameter changes will be cancelled. It is a time in the same time coordinate system as [[apis/webaudio/AudioContext/currentTime|'''AudioContext.currentTime''']].
 |Optional=No
 }}
 |Method_applies_to=apis/webaudio/AudioParam
