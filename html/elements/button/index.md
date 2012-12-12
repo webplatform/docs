@@ -5,7 +5,10 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The "button" tag is one of many ways to create buttons on an HTML page_ A web developer can also use the "input" tag in conjunction with type="button" or by styling an "a" tag to achieve the same functionality. However, those may be harder and their results may not be as clean.
+{{Summary_Section|The &lt;button&gt; tag defines a clickable button.
+Inside a &lt;button&gt; element you can put content, like text or images.
+Always specify the type attribute for a &lt;button&gt; element. Different browsers use different default types for the &lt;button&gt; element.
+|The "button" tag is one of many ways to create buttons on an HTML page_ A web developer can also use the "input" tag in conjunction with type="button" or by styling an "a" tag to achieve the same functionality. However, those may be harder and their results may not be as clean.
 }}
 {{Markup_Element
 |DOM_interface=dom/HTMLButtonElement
@@ -812,6 +815,7 @@ This property is not supported for Metro style apps using JavaScript.
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
