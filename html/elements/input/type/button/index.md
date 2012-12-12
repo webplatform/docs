@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Specifies a container for rich HTML that is rendered as a button.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLInputElement
 }}
