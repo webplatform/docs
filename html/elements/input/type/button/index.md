@@ -13,7 +13,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Description=This example uses the '''INPUT type{{=}}button''' element to define a button that responds appropriately when clicked.
-|Code=&lt;INPUT TYPE{{=}}button ID{{=}}btnEmergency VALUE{{=}}"In case of emergency, 
+|Code=&lt;input type{{=}}button id{{=}}btnEmergency value{{=}}"In case of emergency, 
 push this button!"
     onClick{{=}}"alert('Aaaaaaaggggghh!!!!')"&gt;
 }}
