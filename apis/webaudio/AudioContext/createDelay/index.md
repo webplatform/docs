@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Creates a DelayNode representing a variable delay line. The initial default delay time will be 0 seconds.}}
+{{Summary_Section|Creates a [[apis/webaudio/DelayNode|'''DelayNode''']] representing a variable delay line. The initial default delay time will be 0 seconds.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=maxDelayTime
