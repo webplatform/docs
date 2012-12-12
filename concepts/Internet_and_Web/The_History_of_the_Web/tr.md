@@ -1,5 +1,4 @@
 {{Page_Title|Web'in Tarihi}}
-{{Languages}}
 {{Flags
 |Content=Incomplete, Cleanup
 |Editorial notes=- Bu yazının çevirisi tamamlanmadı.
@@ -86,9 +85,9 @@ The W3C has a few full time staff, but most of the people who work on the standa
  
 This all sounds a bit negative, but the WaSP didn’t just sit there criticising people — they also helped. Seven members formed the CSS Samurai, who identified the top ten problems with the CSS support in Opera and other browsers (Opera fixed their problems, others did not).
 
-=== The rise of web standards ===
+=== Web standartlarının yükseklişi ===
  
-In 2000, Microsoft released Internet Explorer 5 Macintosh Edition. This was a very important milestone, it being the default browser installed with the Mac OS at the time, and having a reasonable level of support for the W3C recommendations too. Along with Opera's decent level of support for CSS and HTML, it contributed to a general positive movement, where web developers and designers finally felt comfortable designing sites using web standards, as they knew they would work to a reasonable level across multiple browsers.
+2000'de, Microsoft Internet Explorer 5 Macintosh sürümünü yayınladı. Bu oldukça önemli bir dönüm noktasıdır. Mac OS ile kurulu gelen varsayılan tarayıcı olmasının yanı sıra W3C'nin önergelerini de yeterli düzeyde desteklemektedir. Along with Opera'nın iyi seviyedeki HTML ve CSS düzeyini desteklemenin yanında, genel olarak iyi yöndeki harekete, web geliştiricilerinin ve tasarımcılarının sonunda web standartlarını kullanarak özgürce site tasarlayabilecekleri ortamın hazırlanmasına katkıda bulunmuştur, as they knew they would work to a reasonable level across multiple browsers.
  
 The WaSP persuaded Netscape to postpone the release of the 5.0 version of Netscape Navigator until it was much more compliant (this work formed the basis of what is now Firefox, a very popular browser). The WaSP also created a Dreamweaver Task Force to encourage Macromedia to change their popular web authoring tool to encourage and support the creation of compliant sites.
  
@@ -166,3 +165,4 @@ Ya da aşağıdaki soruları cevaplayarak daha fazlasını araştırmak isteyebi
 |MSDN_link=
 |HTML5Rocks_link=
 }}
+{{Languages}}
