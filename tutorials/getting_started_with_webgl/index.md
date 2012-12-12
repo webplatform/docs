@@ -246,10 +246,6 @@ We can then do exactly the same thing for the <code>createProgram()</code> funct
 
 so now we've got some error handling. Excellent!
 
-==Summary==
-
-We've hope you've found this exploration of WebGL useful. Please stay turned for the next article, where we'll build on what we've done so far! Erik Möller is more than happy to answer your questions — please leave your comments below and [https://twitter.com/#!/erikjmoller follow Erik on Twitter] to find out about new WebGL work and ask questions.
-
 {{Tutorial
 |Next_page=tutorials/webgl a simple shader
 }}
