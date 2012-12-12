@@ -5,16 +5,16 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Provides control of when a script executes while a document loads. }}
+{{Summary_Section|Provides control of when a script executes while a document loads.}}
 {{Markup_Attribute
 |Property_applies_to=dom/HTMLElement
-|Content=Setting a script to run asynchronously can improve performance by unblocking the rest of the document. When async = false, it can preserve execution order to ensure dependent scripts are run in order.
 }}
 {{Examples_Section
 |Not_required=No
 |Examples=
 }}
 {{Notes_Section
+|Notes=Setting a script to run asynchronously can improve performance by unblocking the rest of the document. When async = false, it can preserve execution order to ensure dependent scripts are run in order.
 |Import_Notes====Syntax===
 }}
 {{Related_Specifications_Section
