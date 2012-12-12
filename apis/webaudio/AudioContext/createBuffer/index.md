@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Creates an AudioBuffer of the given size. The audio data in the buffer will be zero-initialized (silent). An exception will be thrown if the numberOfChannels or sampleRate are out-of-bounds.}}
+{{Summary_Section|Creates an [[apis/webaudio/AudioBuffer|'''AudioBuffer''']] of the given size. The audio data in the buffer will be zero-initialized (silent). An exception will be thrown if the [[apis/webaudio/AudioBuffer/numberOfChannels|'''numberOfChannels''']] or [[apis/webaudio/AudioContext/sampleRate|'''sampleRate''']] are out-of-bounds.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=numberOfChannels
