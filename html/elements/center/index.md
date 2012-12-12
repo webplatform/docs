@@ -5,7 +5,10 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|&lt;center&gt; center-aligns text in an HTML page.
+The &lt;center&gt; tag is not supported in HTML5. Use CSS instead.
+The &lt;center&gt; element is deprecated in HTML 4.01.
+}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
 }}
@@ -639,6 +642,7 @@ This property is not supported for Metro style apps using JavaScript.
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
