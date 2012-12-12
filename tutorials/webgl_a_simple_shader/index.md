@@ -8,7 +8,7 @@
 {{Tutorial
 |Content===Introduction==
 
-In the last part of this article series — [http://dev.opera.com/articles/view/raw-webgl-part1-getting-started/ Raw WebGL 101 — Part 1: getting started], we introduced you to the world of writing raw WebGL (look ma, no libraries). We got you set up and showed you how to create a couple of very basic examples along with some simple error handling, and we explained basic concepts such as the WebGL rendering pipeline.
+In the last part of this article series — [[tutorials/getting started with webgl|getting started with WebGL]], we introduced you to the world of writing raw WebGL (look ma, no libraries). We got you set up and showed you how to create a couple of very basic examples along with some simple error handling, and we explained basic concepts such as the WebGL rendering pipeline.
 
 In this article, we will carry on where we left off, going further with the same example file and building up a simple shader. This article is a transcript of [http://www.youtube.com/watch?v=me3BviH3nZc&t=22m26s time 22:26 to 32.36] in Erik Möller's [http://www.youtube.com/watch?v=me3BviH3nZc WebGL 101] tutorial, available on YouTube.
 
