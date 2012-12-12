@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Specifies the width of the border around an element. Deprecated in HTML4, not supported in HTML5. Use CSS.}}
 {{Markup_Attribute
 |Property_applies_to=dom/HTMLElement
 }}
@@ -14,7 +14,6 @@
 |Examples={{Single Example
 |Language=HTML
 |Code=<img src="smiley.gif" alt="Smiley face" border="5">
-
 }}
 }}
 {{Notes_Section
@@ -31,6 +30,7 @@ In Microsoft Internet Explorer 6, This property now applies to the '''object'''
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
