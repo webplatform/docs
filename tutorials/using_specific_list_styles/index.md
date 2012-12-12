@@ -5,25 +5,25 @@
 {{Tutorial
 |Content===Information: Lists==
 
-If you took the challenge on the [/en-US/docs/CSS/Getting_Started/Content last section], then you saw how you can add content before any element to display it like a list item.
+If you took the challenge on the [/en-US/docs/CSS/Getting_Started/Content last section], then you saw how you can add content before any element to display it as a list item.
 
 CSS provides special properties that are designed for lists. It is usually more convenient to use these properties whenever you can.
 
 To specify the style for a list, use the [list-style] property to specify the type of marker.
 
-The selector in your CSS rule can either select the list item elements (for example, [li], or it can select the parent list element (for example, [ul] so that the list elements inherit the style.
+The selector in your CSS rule can either select the list item elements (for example, [li], or it can select the parent list element (for example, you can select [ul] so that the list elements inherit the style.
 
 ===Unordered lists===
 
 In an ''unordered'' list, each list item is marked in the same way.
 
-CSS has three types of markers, and here is how your browser displays them:
+CSS has three types of markers. This is how markers are displayed in a browser:
 
 * <code>disc</code>
 * <code>circle</code>
 * <code>square</code>
 
-Alternatively, you can specify the URL of an image.
+Alternatively, you can specify the URL of an image file for the bullet icon.
 
 These rules specify different markers for different classes of list item:
 
@@ -44,7 +44,7 @@ When these classes are used in a list, they distinguish between open and closed 
 
 The result might look like:
 
-<p class="note">Add screenshot of results? Or dabblet?</p>
+<p class="note">Add screenshot of results? Or [http://dabblet.com/ Dabblet]?</p>
 
 ===Ordered lists===
 
@@ -58,7 +58,7 @@ Use the [list-style] property to specify the type of marker:
 * <code>lower-latin</code>
 * <code>upper-latin</code>
 
-<p class="note">Add screenshot of results? Or dabblet?</p>
+<p class="note">Add screenshot of results? Or [http://dabblet.com/ Dabblet]?</p>
 
 This rule specifies that in [ol] elements with the class <code>info</code>, the items are identified with capital letters.
 
@@ -66,21 +66,21 @@ This rule specifies that in [ol] elements with the class <code>info</code>, the 
 
 The [li] elements in the list inherit this style:</nowiki>
 
-<p class="note">Add screenshot of result? Or dabblet?</p>
+<p class="note">Add screenshot of result? Or [http://dabblet.com/ Dabblet]?</p>
 
-The {{ cssxref("list-style") }} property is a shorthand property. In complex stylesheets you might prefer to use separate properties to set separate values. For links to these separate properties, and more details of how CSS specifies lists, see the {{ cssxref("list-style") }} reference page.
+The {{ cssxref("list-style") }} property is a shorthand property. In complex style sheets, you might prefer to use separate properties to set separate values. For links to these separate properties, and to learn more details about how CSS specifies lists, see the {{ cssxref("list-style") }} reference page.
 
 If you are using a markup language like HTML that provides conventional tags for unordered ({{ HTMLElement("ul") }}) and ordered ({{ HTMLElement("ol") }}) lists, then it is good practice to use the tags in the way they were intended. However, you can use CSS to make {{ HTMLElement("ul") }} display ordered and {{ HTMLElement("ol") }} display unordered if you wish.
 
-Browsers differ in the way they implement the styles for lists. Do not expect your stylesheet to give identical results in all browsers.
+Browsers differ in the way they implement the styles for lists. Do not expect your style sheet to provide identical results in all browsers.
 
 ===Counters===
 
-'''Note: ''' Some browsers do not support counters. The [http://www.quirksmode.org/css/contents.html CSS contents and browser compatibility] page on the [http://www.quirksmode.org/ Quirks Mode site] contains a detailed chart of browser compatibility for this and other CSS features. Individual pages in the [/en/CSS_Reference CSS Reference] on this site also have browser compatibility tables.
+'''Note: ''' Some browsers do not support counters. The [http://www.quirksmode.org/css/contents.html CSS contents and browser compatibility] page on the [http://www.quirksmode.org/ Quirks Mode site] contains a detailed chart of browser compatibility for this and other CSS features. Individual pages in the [/en/CSS_Reference CSS Reference] section of this site also contain browser compatibility tables.
 
 You can use counters to number any elements, not only list items. For example, in some documents you might want to number headings or paragraphs.
 
-To specify numbering, you need a ''counter'' with a name that you specify.
+To specify numbering, you can add a ''counter'' with a name that you specify.
 
 In some element before the counting is to start, reset the counter with the property {{ cssxref("counter-reset") }} and the name of your counter. The parent of the elements you are counting is a good place to do this, but you can use any element that comes before the list items.
 
@@ -105,9 +105,9 @@ This rule displays and increments the counter for every {{ HTMLELement("p") }} e
 
 The result looks like this:
 
-<p class="note">Add screenshot of result? Or dabblet?</p>
+<p class="note">Add screenshot of result? Or [http://dabblet.com/ Dabblet]?</p>
 
-You cannot use counters unless you know that everyone who reads your document has a browser that supports them.
+You cannot use counters unless you are sure that everyone who reads your document has a browser that supports them.
 
 If you are able to use counters, they have the advantage that you can style the counters separately from the list items. In the example above, the counters are bold but the list items are not.
 
@@ -116,7 +116,7 @@ You can also use counters in more complex ways—for example, to number sections
 ==Action: Styled lists==
 
 <ol>
-<li><p>Make a new HTML document, <code>doc2.html</code>. Copy and paste the content from here:</p>
+<li><p>Make a new HTML document, and name it <code>doc2.html</code>. Copy the code below and paste it into the document:</p>
 
 <syntaxhighlight lang="html5"> <!DOCTYPE html>
  <html>
@@ -146,8 +146,7 @@ You can also use counters in more complex ways—for example, to number sections
    </body>
  </html></syntaxhighlight></li>
 
-<li><p>Make a new stylesheet, <code>style2.css</code>. Copy and paste the content from here:</p>
-
+<li><p>Make a new style sheet, and name it <code>style2.css</code>. Copy the CSS below and paste it into the document:</p>
 <syntaxhighlight lang="css">/* numbered paragraphs */
  h3.numbered {counter-reset: mynum;}
   
@@ -157,16 +156,18 @@ You can also use counters in more complex ways—for example, to number sections
    font-weight: bold;
  }</syntaxhighlight>
 
-<p>If the layout and comment are not to your taste, change them.</p>
+<p>If desired, you can edit the layout and comments to update them.</p>
 </li>
 <li>
-<p>Open the document in your browser. If your browser supports counters, you see something like the example below. If your browser does not support counters, then you do not see the numbers (and probably not even the colons):</p>
+<p>Open the document in your browser. If your browser supports counters, you see something like the example below. If your browser does not support counters, then you will not see the numbers (and it is likely that even the colons will not display):</p>
 
-<p class="note">Add screenshot of result? Or dabblet?</p>
+<p class="note">Add screenshot of result? Or [http://dabblet.com/ Dabblet]?</p>
 </li>
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
