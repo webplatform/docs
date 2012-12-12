@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Renders input text in such a way as to hide the characters (e.g., a series of asterisks.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLInputElement
 }}
@@ -713,10 +713,15 @@ This property is not supported for Metro style apps using JavaScript.
  
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=Document Object Model (HTML) Level 1
+|URL=http://www.w3.org/TR/REC-html40/interact/forms.html#adef-type-INPUT
+|Status=Recommended
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
