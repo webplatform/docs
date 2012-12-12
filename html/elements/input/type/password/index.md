@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Renders input text in such a way as to hide the characters (e.g., a series of asterisks.}}
+{{Summary_Section|Specifies that its input element is a one-line plain-text edit control for entering a password which renders input text in such a way as to hide the characters (e.g., a series of asterisks).}}
 {{Markup_Element
 |DOM_interface=dom/HTMLInputElement
 }}
