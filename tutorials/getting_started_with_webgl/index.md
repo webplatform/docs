@@ -64,7 +64,7 @@ gl.clear(gl.COLOR_BUFFER_BIT);
 
 If you save and run this page, it should give you a blank canvas, with a default colour of blue, like you specified above — see Figure 1.
 
-[[Image:figure1.png|A very simple WebGL output]]
+[[Image:figure1luzc.png|A very simple WebGL output]]
 
 Figure 1: A very simple WebGL output.
 
@@ -76,7 +76,7 @@ Figure 1: A very simple WebGL output.
 
 With this basic setup under our belt, let's go forward and start by drawing an actual shape. The finished result from this section can be found as 02-minimal-draw.html in the code download. To create 3D content, WebGL uses the ES2.0 programmable pipeline, shown in Figure 2. We will refer to this multiple times throughout the walkthrough below.
 
-[[Image:pipeline.jpg|a diagram of the ES2.0 programmable pipeline WebGL uses]]
+[[Image:pipelineluzc.jpg|a diagram of the ES2.0 programmable pipeline WebGL uses]]
 
 Figure 2: The ES2.0 programmable pipeline ([http://emoller.github.com/WebGL101/documents/programmable-pipeline.html view an SVG version]).
 
@@ -194,7 +194,7 @@ This function accepts two inputs — a string and a type, and returns a shader o
 
 Save and run the code, and you should now have your very own green triangle, as seen in Figure 3 - woo hoo!
 
-[[Image:figure3.png|A WebGL green triangle]]
+[[Image:figure3luzc.png|A WebGL green triangle]]
 
 Figure 3: A WebGL green triangle of your very own
 
