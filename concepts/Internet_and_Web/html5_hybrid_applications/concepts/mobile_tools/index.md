@@ -25,6 +25,11 @@
 * iOS Tools Workflow
 * Multi-Touch for Desktop
 
+=== Browser testing===
+* Adobe Edge
+* Browserstack
+* Browserling
+
 === Performance ===
 * Mobile Perf Bookmarklet - links to multiple other bookmarklets useful for mobile.
 * jdrop.org - JSON in the cloud for gathering data
