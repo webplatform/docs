@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Merge Candidate
-|Editorial notes=http://docs.webplatform.org/wiki/guides/the_css_layout_model
+|High-level issues=Deletion Candidate
+|Editorial notes=Merged into http://docs.webplatform.org/wiki/guides/the_css_layout_model
 }}
 {{Byline}}
 {{Summary_Section}}
@@ -9,6 +9,7 @@
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
