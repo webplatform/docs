@@ -297,11 +297,7 @@ As a last step, we need to add the following lines into the top of the <code>dra
 
 Now we're done — reload the example and try zooming in and out, and panning around the fractal. This looks really cool now, I'm sure you'll agree! Eventually when you zoom in really far, the fractal will start to look really blocky. The reason this is happening is that we're looking at a very small piece of the fractal and we're simply running out of precision: the graphics card cannot represent such small numbers precisely. We remedied this to some extent by using high precision floats, but eventually as you zoom in even those will not have enough precision.
 
-==Summary==
-
 We hope you've had fun in this tutorial! Try experimenting with all the different colour variables, and post links to your modifications in the comments. We are looking forward to seeing what you will achieve!
-
-code
 }}
 {{Notes_Section}}
 {{Compatibility_Section
@@ -315,6 +311,7 @@ code
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
+|Sources=DevOpera
 |MDN_link=
 |MSDN_link=
 |HTML5Rocks_link=
