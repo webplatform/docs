@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|De Facto Standard}}
 {{API_Name}}
-{{Summary_Section|Restrict the kinds of data uploaded by <code>input type="file"</code> to certain kinds of files.|Restrict the kinds of data uploaded by <code>input type="file"</code> to certain types.
+{{Summary_Section|Sets or retrieves a comma-separated list of content types.|Restrict the kinds of data uploaded by <code>input type="file"</code> to certain types.
 }}
 {{Markup_Attribute
 |Applies_to=[[dom/HTMLInputElement|HTMLInputElement]]
@@ -44,6 +44,7 @@ There is no functionality implemented for this property unless defined by the au
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
 |Chrome_version=Beta
