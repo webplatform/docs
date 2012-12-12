@@ -10,7 +10,7 @@ The [[apis/webaudio/AudioContext/decodeAudioData|'''decodeAudioData()''']] metho
 |Parameters={{Method Parameter
 |Name=audioData
 |Data type=String
-|Description=An [[apis/webaudio/ArrayBuffer|'''ArrayBuffer''']] containing audio file data.
+|Description=An ArrayBuffer containing audio file data.
 |Optional=No
 }}{{Method Parameter
 |Name=successCallback
