@@ -5,13 +5,18 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Allows specifying a default font-color and font-size for text on the entire page. 
+To specify the overall font for your page add the <basefont> tag at the beginning of the <body> section. 
+The <basefont> tag is only supported by Internet Explorer.
+The <basefont> tag is not supported in HTML5. Use CSS instead.
+}}
 {{Markup_Element
 |DOM_interface=dom/HTMLBaseElement
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=HTML
 |Description=This example sets the base URL of the document to a reference folder. Internet Explorer uses the '''base''' element to resolve the link to http://msdn.microsoft.com/workshop/author/dhtml/reference/properties/href_2.asp.
 |Code=&lt;html&gt;
 &lt;head&gt;
@@ -23,6 +28,7 @@ href property.
 &lt;/body&gt;
 &lt;/html&gt;
 }}{{Single Example
+|Language=HTML
 |Description=This example retrieves the base URL from the document if a valid '''base''' element is specified in the document. Otherwise, the function returns 
 <code>null</code>.
 |Code=&lt;script&gt;
@@ -375,6 +381,7 @@ This property is not supported for Metro style apps using JavaScript.
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
