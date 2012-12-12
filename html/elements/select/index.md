@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The <code>select</code> element is used to create a drop-down list. Used with <code>option</code> tags inside the <code>select</code> element to define the available options in the list.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLSelectElement
 }}
@@ -805,6 +805,7 @@ This property is not supported for Metro style apps using JavaScript.
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
