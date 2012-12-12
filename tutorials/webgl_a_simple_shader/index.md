@@ -18,7 +18,8 @@ To build up this example step by step, start with the [minimal-draw.zip Minimal 
 
 First of all, make a copy of the 02-minimal-draw.html file, and save it as 03-minimal-shader.html (or something else of your choosing). In this tutorial we are going to forget about triangles, and instead draw a rectangle that will cover the canvas. To show what we will draw, replace the ascii triangle we currently have in our code with a square, like this:
 
-<code>/*
+<code>
+/*
  
  2 ___ 3
   {{!}}\  {{!}}
