@@ -5,7 +5,9 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|It's a non-standard tag which instructs the browser to load and play a sound file while the user is on that page.
+Don't use it. Use <audio> element instead.
+}}
 {{Markup_Element
 |DOM_interface=dom/HTMLBGSoundElement
 }}
@@ -337,6 +339,7 @@ This property is not supported for Metro style apps using JavaScript.
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
