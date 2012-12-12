@@ -1,7 +1,7 @@
 {{Page_Title|Getting started with WebGL}}
 {{Flags}}
 {{Byline
-|Name=Erik Möller
+|Name=Erik Möller, Chris Mills
 |Published=February 29, 2012
 }}
 {{Summary_Section}}
@@ -25,7 +25,6 @@
 |MSDN_link=
 |HTML5Rocks_link=
 }}
-
 =Raw WebGL 101 — Part 1: getting started=
 
 ==Introduction==
