@@ -2,20 +2,20 @@
 {{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Asynchronously decodes the audio file data contained in the ArrayBuffer. The ArrayBuffer can, for example, be loaded from an XMLHttpRequest with the new responseType and response attributes. Audio file data can be in any of the formats supported by the audio element.
+{{Summary_Section|Asynchronously decodes the audio file data contained in the [[apis/webaudio/ArrayBuffer|'''ArrayBuffer''']]. The [[apis/webaudio/ArrayBuffer|'''ArrayBuffer''']] can, for example, be loaded from an XMLHttpRequest with the new '''responseType''' and '''response''' attributes. Audio file data can be in any of the formats supported by the audio element.
 
-The decodeAudioData() method is preferred over the createBuffer() from ArrayBuffer method because it is asynchronous and does not block the main JavaScript thread.
+The [[apis/webaudio/AudioContext/decodeAudioData|'''decodeAudioData()''']] method is preferred over the [[apis/webaudio/AudioContext/createBuffer|'''createBuffer()''']] from [[apis/webaudio/ArrayBuffer|'''ArrayBuffer''']] method because it is asynchronous and does not block the main JavaScript thread.
 }}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=audioData
 |Data type=String
-|Description=An ArrayBuffer containing audio file data.
+|Description=An [[apis/webaudio/ArrayBuffer|'''ArrayBuffer''']] containing audio file data.
 |Optional=No
 }}{{Method Parameter
 |Name=successCallback
 |Data type=function
-|Description=A callback function which will be invoked when the decoding is finished. The single argument to this callback is an AudioBuffer representing the decoded PCM audio data.
+|Description=A callback function which will be invoked when the decoding is finished. The single argument to this callback is an [[apis/webaudio/AudioBuffer|'''AudioBuffer''']] representing the decoded PCM audio data.
 |Optional=No
 }}{{Method Parameter
 |Name=errorCallback
