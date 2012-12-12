@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|This interface is an AudioNode which can generate, process, or analyse audio directly using JavaScript.}}
+{{Summary_Section|This interface is an [[apis/webaudio/AudioNode|'''AudioNode''']] which can generate, process, or analyse audio directly using JavaScript.}}
 {{API_Object}}
 {{Examples_Section
 |Not_required=Yes
