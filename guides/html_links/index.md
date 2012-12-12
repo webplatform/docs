@@ -1,6 +1,5 @@
 {{Page_Title|HTML links}}
-{{Flags
-}}
+{{Flags}}
 {{Byline}}
 {{Summary_Section|In this article we provide a complete treatment of HTML anchors, or <code>&lt;a&gt;</code> elements, more commonly known as HTML links.}}
 {{Guide
@@ -301,30 +300,39 @@ Here you can see that I've got the <code>&lt;a&gt;</code> element wrapping both 
  
 We covered a lot this time, but it is very important to remember how links work and what they should do. You will learn a lot of tricks and techniques in your career as a web developer to override this default behaviour and I hope you’ll stop and wonder if what you are trying to do is really necessary.
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
-|Desktop_rows=
+|Imported_tables=
+|Desktop_rows={{Compatibility Table Desktop Row
+|Chrome_supported=Yes
+|Chrome_prefixed_supported=Yes
+|Firefox_supported=Yes
+|Firefox_prefixed_supported=Yes
+|Internet_explorer_supported=Yes
+|Internet_explorer_prefixed_supported=Yes
+|Opera_supported=Yes
+|Opera_prefixed_supported=Yes
+|Safari_supported=Yes
+|Safari_prefixed_supported=Yes
+}}
 |Mobile_rows={{Compatibility Table Mobile Row
-|Android_supported=Unknown
-|Android_version=
-|Android_prefixed_supported=Unknown
-|Android_prefixed_version=
-|Firefox_mobile_supported=Unknown
-|Firefox_mobile_version=
-|Firefox_mobile_prefixed_supported=Unknown
-|Firefox_mobile_prefixed_version=
-|IE_phone_supported=Unknown
-|IE_phone_version=
-|IE_phone_prefixed_supported=Unknown
-|IE_phone_prefixed_version=
-|Opera_mobile_supported=Unknown
-|Opera_mobile_version=
-|Opera_mobile_prefixed_supported=Unknown
-|Opera_mobile_prefixed_version=
-|Safari_mobile_supported=Unknown
-|Safari_mobile_version=
-|Safari_mobile_prefixed_supported=Unknown
-|Safari_mobile_prefixed_version=
+|Android_supported=Yes
+|Android_prefixed_supported=Yes
+|Blackberry_supported=Yes
+|Blackberry_prefixed_supported=Yes
+|Chrome_mobile_supported=Yes
+|Chrome_mobile_prefixed_supported=Yes
+|Firefox_mobile_supported=Yes
+|Firefox_mobile_prefixed_supported=Yes
+|IE_mobile_supported=Yes
+|IE_mobile_prefixed_supported=Yes
+|Opera_mobile_supported=Yes
+|Opera_mobile_prefixed_supported=Yes
+|Opera_mini_supported=Yes
+|Opera_mini_prefixed_supported=Yes
+|Safari_mobile_supported=Yes
+|Safari_mobile_prefixed_supported=Yes
 }}
 |Notes_rows={{Compatibility Notes Row
 |Browser=Opera Mini
