@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|De Facto Standard}}
 {{API_Name}}
-{{Summary_Section|Defines the title of the current document.}}
+{{Summary_Section|Defines the <code>title</code> of the current document.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLTitleElement
 }}
@@ -365,6 +365,7 @@ This property is not supported for Metro style apps using JavaScript.
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
