@@ -38,7 +38,7 @@ Next, we take our <code>gl.drawArrays</code> line (the bottom line of script) an
 
 These changes will result in our exciting green triangle being changed into an even more exciting green rectangle — see Figure 1!
 
-[[Image:figure1.png|A WebGL-rendered green rectangle]]
+[[Image:figure4luzc.png|A WebGL-rendered green rectangle]]
 
 Figure 1: An exciting green rectangle, rendered using WebGL.
 
@@ -99,7 +99,7 @@ This makes our program use the information from the shaders.
 
 Now try testing your code — you should end up with an altogether more colourful rectangle, as shown in Figure 2:
 
-[[Image:figure2.png|A WebGL-rendered rectangle with a colourful gradient]]
+[[Image:figure2luzc.png|A WebGL-rendered rectangle with a colourful gradient]]
 
 Figure 2: Our rectangle now has a much more exciting look to it.
 
@@ -127,7 +127,7 @@ The <code>offsetUniform</code> identifies which variable from inside the shaders
 
 This should now offset the gradient and give us an altogether more yellowy look, as seen in Figure 3:
 
-[[Image:figure3.png|A WebGL-rendered rectangle with a colourful gradient, the texture offset for a more colourful effect]]
+[[Image:figure5_luzc.png|A WebGL-rendered rectangle with a colourful gradient, the texture offset for a more colourful effect]]
 
 Figure 3: Offsetting the gradient texture gives us a nicer, more yellowy effect.
 
