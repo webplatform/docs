@@ -1,16 +1,20 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section|Sets or retrieves the height of the object.}}
 {{Markup_Attribute
 |Property_applies_to=dom/HTMLElement
 }}
-{{Topics|HTML}}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 If the '''height''' property of an '''img''' is specified, but the [[html/attributes/width  (img, input elements)|'''width''']] property is not specified, the resulting width of the '''img''' is sized proportionally according to the specified '''height''' property and the actual width (in pixels) of the image in the source file.
 Consider the following:
 {| class="wikitable"
@@ -41,12 +45,20 @@ If you set the value of the corresponding HTML attribute using a percentage, thi
 The scripting property is read/write for the '''img''' object, but read-only for other objects.
 For more information about how to access the dimension and location of objects on the page through the Dynamic HTML (DHTML) Document Object Model (DOM), see Measuring Element Dimension and Location with CSSOM in Internet Explorer 9.
 In Microsoft Internet Explorer 5 it is possible to set the '''height''' property, but doing so has no effect on the rendering of the frame.
-|Import_Notes=
-===Syntax===
+|Import_Notes====Syntax===
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 *<code>embed</code>
 *<code>frame</code>
 *<code>iframe</code>
@@ -58,12 +70,12 @@ In Microsoft Internet Explorer 5 it is possible to set the '''height''' propert
 *<code>[[html/elements/table|table]]</code>
 *<code>td</code>
 *<code>th</code>
-|Topic_clusters=html
 }}
+{{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
