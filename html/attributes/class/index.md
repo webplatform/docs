@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Specifies one or more classnames for an element, usually used to point to a class in a style sheet. }}
 {{Markup_Attribute
 |Property_applies_to=dom/HTMLElement
 }}
