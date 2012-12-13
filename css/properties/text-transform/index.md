@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Sets or retrieves the rendering of the text in the object.}}
 {{CSS Property
 |Applies to=All elements
 |Inherited=Yes
@@ -67,6 +67,7 @@ This example uses three calls to an embedded (global) style sheet to transform t
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
 |Chrome_version=1.0
