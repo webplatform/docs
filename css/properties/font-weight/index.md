@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Gets or sets the weight of the font of the object (for example, bolder or lighter than normal).}}
+{{Summary_Section|Gets or sets the weight of the font of the object (for example, normal or bold).}}
 {{CSS Property
 |Applies to=All elements
 |Inherited=Yes
