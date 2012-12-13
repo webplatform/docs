@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Conveys hidden information about the document to the server and the client.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLMetaElement
 }}
@@ -179,6 +179,7 @@ The '''meta''' object has these properties.
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
