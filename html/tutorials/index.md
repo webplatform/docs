@@ -16,7 +16,7 @@
 
 ==The HTML body==
 
-* [[guides/html text|HTML text]]
+* [[guides/html text|HTML text]] [[guides/html text es|Spanish version]]
 * [[guides/html lists|HTML lists]]
 * [[guides/images in html|Images in HTML]]
 * [[guides/html links|HTML links]]
@@ -29,6 +29,7 @@
 ==Applied techniques==
 
 * [[tutorials/creating basic navigation menus|Creating navigation menus]]
+{{Notes_Section}}
 {{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
