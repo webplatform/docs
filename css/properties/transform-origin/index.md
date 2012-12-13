@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Allows you to change the position on transformed elements.}}
 {{CSS Property
 |Initial value=50% 50% 0
 |Applies to=block-level and inline-level elements
@@ -81,6 +81,7 @@ If only one value is specified, the second value is assumed to be <code>center</
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
 |Chrome_version=22.0
