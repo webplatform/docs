@@ -160,15 +160,15 @@ El navegador mostrará el texto en estos elementos utilizando un tipo de letra d
 
 El texto aparece rayado con una línea que lo atraviesa; si es sólo un efecto presentacional, este efecto se debería conseguir con CSS. Además, si el texto se quiere marcar como suprimido o no deseado, se debería etiquetar con el elemento del que se describe más adelante.
 
-=== u ===
+=== <code>&lt;u&gt;</code> ===
 
 El texto se subraya; es casi siempre un efecto visual y se debería conseguir con el CSS.
 
-=== tt ===
+=== <code>&lt;tt&gt;</code> ===
 
 El texto se presenta en un tipo de letra de "teletipo" o de ancho fijo; este efecto se debería conseguir con el CSS o con algún elemento semántico más apropiado, como por ejemplo <code>&lt;pre&gt;</code>, tal como se ha visto anteriormente.
 
-=== big y small ===
+=== <code>&lt;big&gt;</code> y <code>&lt;small&gt;</code> ===
 
 Se ajusta el tamaño del texto; se debería conseguir con el CSS.
 
