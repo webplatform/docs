@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Sets the character set for an external style sheet.}}
 {{CSS_At_Rule}}
 {{Examples_Section
 |Not_required=No
