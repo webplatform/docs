@@ -6,7 +6,7 @@
 |Name=Nicolas Belmonte
 |Published=October 17, 2012
 }}
-{{Summary_Section}}
+{{Summary_Section|In this article we'll look at what image post-processing is and how to use the raw WebGL API to apply real-time post-processing effects on images and other media like video, <code><canvas></code>, etc.}}
 {{Tutorial
 |Content===Introduction==
 
@@ -14,7 +14,7 @@ WebGL is not only about rendering 3D graphics. While WebGL allows you to create 
 
 In this article we'll look at what image post-processing is and how to use the raw WebGL API to apply real-time post-processing effects on images and other media like video, <code><canvas></code>, etc.
 
-Some familiarity with the WebGL API is needed to get the most out of this. In particular, knowledge about the rendering pipeline will be useful; in addition, if this is your first time diving into the raw WebGL API, it is recommended that you read the basic [[/webgl/tutorials WebGL tutorials]] first.
+Some familiarity with the WebGL API is needed to get the most out of this. In particular, knowledge about the rendering pipeline will be useful; in addition, if this is your first time diving into the raw WebGL API, it is recommended that you read the basic [[/webgl/tutorials|WebGL tutorials]] first.
 
 ==Post-Processing==
 
@@ -32,7 +32,8 @@ Figure 1: A simple quad in which some color interpolation is being performed to 
 
 To create this example, the first step was to check for WebGL availability and then create a program out of two shaders, a vertex and a fragment shader:
 
- <code>//check support
+ <syntaxhighlight lang="javascript">
+//check support
  if (!supportsWebGL()) {
    $('log').innerHTML = 'Your browser doesn\'t seem to support WebGL.';
    return;
@@ -49,11 +50,11 @@ To create this example, the first step was to check for WebGL availability and t
    onComplete: function(program) {
      render(program);
    }
- });</code>
+ });</syntaxhighlight>
 
 Next, we send some information to the shader program: the size of the screen as a uniform, and also the vertices that make up a 2D rectangle via an attribute buffer. Uniforms and attributes are covered in the [http://dev.opera.com/articles/view/raw-webgl-part1-getting-started/ raw WebGL 101 series]. If the rectangle's vertices go from (-1, -1) to (1, 1), then the rectangle will cover the whole canvas. Here's the code for setting the uniforms and binding the vertex buffer:
 
- <code>var sizeLocation = gl.getUniformLocation(program, 'size'),
+ <syntaxhighlight lang="javascript">var sizeLocation = gl.getUniformLocation(program, 'size'),
  positionLocation = gl.getAttribLocation(program, 'position'),
  buffer = gl.createBuffer(),
  vertices = [-1, -1, 1, -1, -1, 1, -1, 1, 1, -1, 1, 1];
@@ -65,16 +66,16 @@ Next, we send some information to the shader program: the size of the screen as 
  gl.bindBuffer(gl.ARRAY_BUFFER, buffer);
  gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(vertices), gl.STATIC_DRAW);
  gl.enableVertexAttribArray(positionLocation);
- gl.vertexAttribPointer(positionLocation, 2, gl.FLOAT, false, 0, 0);</code>
+ gl.vertexAttribPointer(positionLocation, 2, gl.FLOAT, false, 0, 0);</syntaxhighlight>
 
 And action! A rectangle is rendered. In order to change the color of the rectangle we use the fragment shader code. In this case we just use some simple color interpolation. Here's the simple.fs fragment shader code:
 
- <code>uniform float size;
+ <syntaxhighlight lang="glsl">uniform float size;
  
  void main(void) {
    vec2 colors = gl_FragCoord.xy / size;
    gl_FragColor = vec4(colors.xy, 1, 1);
- }</code>
+ }</syntaxhighlight>
 
 In this code we grab the (x, y) coordinates of the special variable <code>gl_FragCoord</code>, which holds the coordinates of the pixel being evaluated, and divide it by the size of the canvas so we bring the coordinates to the (0, 1) space. Then we set the special variable <code>gl_FragColor</code> that holds the color of the rendered pixel in RGBA format with red and green matching (x, y), then set full blue color (1) and full alpha (1).
 
@@ -94,7 +95,7 @@ Figure 2: Post processing an image in WebGL using Sobel-based edge detection.
 
 In this example we need to provide an image to the GPU so that we can do some pixel manipulation on it. This is done by creating a texture object and setting the image to it. Here's how you create a texture:
 
- <code>var texture = gl.createTexture();
+ <syntaxhighlight lang="javascript">var texture = gl.createTexture();
  //set properties for the texture
  gl.bindTexture(gl.TEXTURE_2D, texture);
  //these properties let you upload textures of any size
@@ -103,14 +104,14 @@ In this example we need to provide an image to the GPU so that we can do some pi
  //these determine how interpolation is made if the image is being scaled up or down
  gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.NEAREST);
  gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, gl.NEAREST);
- gl.bindTexture(gl.TEXTURE_2D, null);</code>
+ gl.bindTexture(gl.TEXTURE_2D, null);</syntaxhighlight>
 
 Now comes arguably the coolest function in the WebGL API, [http://www.khronos.org/registry/webgl/specs/latest/#5.14.8 <code>texImage2D</code>], which lets you set data to the texture object so that it can be later manipulated by the fragment shader. The cool thing about <code>texImage2D</code> is that it provides different function signatures, and thus you can upload not only an <code>HTMLImage</code> to it, but also <code>HTMLVideo</code>, <code>HTMLCanvas</code> and <code>ImageData</code> elements. You can even upload raw typed arrays to it, provided that you specify the dimensions of the image. <code>texImage2D</code> is the only nexus between a WebGL canvas and other elements in your HTML document.
 
 Uploading the video requires binding the created texture first, and then using '''texImage2D'''<nowiki>:</nowiki>
 
- <code>gl.bindTexture(gl.TEXTURE_2D, texture);
- gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, gl.RGBA, gl.UNSIGNED_BYTE, video);</code>
+ <syntaxhighlight lang="javascript">gl.bindTexture(gl.TEXTURE_2D, texture);
+ gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, gl.RGBA, gl.UNSIGNED_BYTE, video);</syntaxhighlight>
 
 <code>texImage2D</code> takes as first argument the type of the target texture, in this case a 2D texture so <code>TEXTURE_2D</code>. The second argument specifies the level of detail of the image — in this case we'll use <code>0</code>, which is the base image level. <code>texImage2D</code> also takes the internal image format type, i.e. the number of color components in the texture, in this case <code>RGBA</code>. The next argument is the pixel data format, in this case also <code>RGBA</code>. The next argument describes how the <code>RGBA</code> values in the image are stored. For this image the color components are stored as numbers from 0 to 255, or <code>UNSIGNED_BYTE</code>s. The last argument is the actual <code>HTMLVideo</code> element. You can [http://www.khronos.org/registry/webgl/specs/latest/#5.14.8 read more about the '''texImage2D''' function here].
 
@@ -140,7 +141,7 @@ Figure 5: Our WebGL version of the bloom effect in action.
 
 In order to have multiple passes, we will need to store the intermediate results somewhere. The way to do this is to use extra textures. In order to store them we will also need a special type of buffer called a framebuffer. The framebuffer is a structure holding some metadata that can be bound to a texture and used to render the scene to it instead of rendering it to the screen. We will use one framebuffer to store the x-axis blur effect, and another one to store the y-axis blur effect. A framebuffer is created like this:
 
- <code>function createFramebuffer(gl, size) {
+ <syntaxhighlight lang="javascript">function createFramebuffer(gl, size) {
    var buffer = gl.createFramebuffer();
    //bind framebuffer to texture
    gl.bindFramebuffer(gl.FRAMEBUFFER, buffer);
@@ -151,11 +152,11 @@ In order to have multiple passes, we will need to store the intermediate results
      texture: texture,
      buffer: buffer
    };
- }</code>
+ }</syntaxhighlight>
 
 The texture initialization code is similar to that seen in the previous example:
 
- <code>function createTexture(gl, size) {
+ <syntaxhighlight lang="javascript">function createTexture(gl, size) {
    var texture = gl.createTexture();
    //set properties for the texture
    gl.bindTexture(gl.TEXTURE_2D, texture);
@@ -167,11 +168,11 @@ The texture initialization code is similar to that seen in the previous example:
    gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, size.offsetWidth, size.offsetHeight, 0, gl.RGBA, gl.UNSIGNED_BYTE, null);
  
    return texture;
- }</code>
+ }</syntaxhighlight>
 
 In order to send the rendering to the framebuffer and not the screen, we need to bind the framebuffer first, then make the rendering, then bind the texture associated with that framebuffer. Note that when we're done with the multiple passes we need to unbind the framebuffer — or bind to "null" — so that what we paint will be drawn on the screen:
 
- <code>//bind framebuffer
+ <syntaxhighlight lang="javascript">//bind framebuffer
  gl.bindFramebuffer(gl.FRAMEBUFFER, bloomXFramebuffer.buffer);
  
  //setup uniform and attribute data...
@@ -182,7 +183,7 @@ In order to send the rendering to the framebuffer and not the screen, we need to
  //send result to bloomX framebuffer
  gl.bindTexture(gl.TEXTURE_2D, bloomXFramebuffer.texture);
  //unbind the framebuffer
- gl.bindFramebuffer(gl.FRAMEBUFFER, null);</code>
+ gl.bindFramebuffer(gl.FRAMEBUFFER, null);</syntaxhighlight>
 
 And that's a wrap: now we've applied multiple visual effects to the same input texture. This code is quite complex, and I've not taken the time to explain absolutely everything because I didn't have enough space! If you are not sure what is going on in some parts, I'd encourage you to take a close look at the example code — you'll see that it follows the patterns explained in the article. Once you're familiar with the steps taken in the rendering pipeline you can start having fun applying your own visual effects.
 
