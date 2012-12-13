@@ -190,7 +190,7 @@ And that's a wrap: now we've applied multiple visual effects to the same input t
 
 ==Summary==
 
-In this tutorial we explained how to create real-time image post-processing. We started by describing how to use the fragment shader to apply per pixel transformations and then went on to showing how to initialize textures and framebuffers to apply multiple image effects to an input texture. I hope this tutorial was useful for you; please post any questions you have in the comments below!
+In this tutorial we explained how to create real-time image post-processing. We started by describing how to use the fragment shader to apply per pixel transformations and then went on to showing how to initialize textures and framebuffers to apply multiple image effects to an input texture. I hope this tutorial was useful for you.
 }}
 {{Notes_Section}}
 {{Compatibility_Section
