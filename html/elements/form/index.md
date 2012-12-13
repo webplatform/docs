@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The tag is used to create an HTML form for user input, subsequently to be submitted to a website or service.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLFormElement
 }}
@@ -821,6 +821,7 @@ This property is not supported for Metro style apps using JavaScript.
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
