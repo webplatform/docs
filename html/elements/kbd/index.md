@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The kbd element represents user input.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
 }}
@@ -711,11 +711,15 @@ This property is not supported for Metro style apps using JavaScript.
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|External_links=http://www.w3.org/TR/html-markup/kbd.html#kbd
+
+}}
 {{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
