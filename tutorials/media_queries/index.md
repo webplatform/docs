@@ -1,6 +1,8 @@
 {{Page_Title|Targetting styles with media queries}}
 {{Flags}}
-{{Byline}}
+{{Byline
+|Name=Mike Sierra
+}}
 {{Summary_Section|Media queries allow for easy way for the client browser to assign different mobile, tablet, and desktop interfaces.}}
 {{Tutorial
 |Content=CSS ''media queries'' offers an easy way to target custom
