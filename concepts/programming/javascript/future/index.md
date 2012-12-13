@@ -2,7 +2,7 @@
 {{Note | Please note that this document is currently under development, if you have anything to add please use the Comments to share.''
 }}
 === Next Release ===
-ECMAScript 6 is the next draft version of the standard, code-named '''"Harmony"''' or '''"ES.next"'''. Draft 9 was released July 8, 2012.
+ECMAScript 6 is the next draft version of the standard, code-named '''"Harmony"''' or '''"ES.next"'''. Draft 12 was released November 22, 2012.<ref name=md>ECMAScript 6 Draft 12 {{cite web|url=http://wiki.ecmascript.org/doku.php?id=harmony:specification_drafts#current_working_draft|title=harmony:specification_drafts|date=17-Dec-2004}}</ref>
 
 === Syntax ===
 There has been a wide range of changes in regards to syntax, below are some examples of syntax additions and changes.
