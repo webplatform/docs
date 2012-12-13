@@ -71,11 +71,11 @@ Sonraki bir kaç yıl boyunca W3C; [http://www.w3.org/TR/html401/ HTML 4.01], [h
  
 However, the W3C did not (and still do not) enforce their recommendations. Manufacturers only had to conform to the W3C documents if they wished to label their products as W3C-compliant. In practice, this was not a valuable selling point as almost all users of the web did not know, nor probably care, who the W3C were (this is still the case, to a large extent). Consequently, the browser wars of the nineties continued unabated.
 
-=== The Web Standards Project ===
+=== Web Standartları Projesi ===
  
-In 1998, the browser market was dominated by Internet Explorer 4 and Netscape Navigator 4. A beta version of Internet Explorer 5 was then released, and it implemented a new and proprietary dynamic HTML, which meant that professional web developers needed to know five ''different'' ways of writing JavaScript.
+1998'de, web tarayıcı pazarı Internet Explorer 4 ve Netscape Navigator 4 hakimiyetine girdi. Sonra Internet Explorer 5'in beta sürümü yayınlandı ve yeni ve özel dinamik HTML, profesyonel web geliştiricilerinin beş ''farklı'' JavaScript yazma yolunu bilmesi anlamına geliyor, eklendi.
  
-As a result, a group of professional web developers and designers banded together. This group called themselves the [http://www.webstandards.org/ Web Standards Project (WaSP)]. The idea was that by calling the W3C documents standards rather than recommendations, they might be able to convince Microsoft and Netscape to support them.
+Sonuç olarak bir grup profesyonel web geliştirici ve tasarımcı bir araya geldi. Bu grup kendilerini [http://www.webstandards.org/ Web Standards Project (WaSP)] olarak adlandırdılar. Fikir W3C belgelerini önerge olarak değil de bier standart olarak düşünerek Microsoft ve Netscape'i bunları desteklemeye ikna etmekti.
  
 The early method of spreading the call to action was to use a traditional advertising technique called a roadblock, where a company would take out an advert on all broadcast channels at the same time, so no matter how a viewer would flick between channels, they would get exactly the same message. The WaSP published an article simultaneously on various web development focused sites including builder.com, Wired online, and some popular mailing lists.
  
@@ -128,7 +128,7 @@ To begin to address this, work started on CSS3 as early as 2000. The spec writer
 
 You can find more out about CSS3 and HTML5 later on in the course.
 
-== Summary ==
+== Özet ==
 
 In this article we’ve looked at how the modern Internet was created as a result of the space race, how Tim Berners-Lee defined hypertext for a generation and how the commercial interests of two companies caused one of the most notable developer backlashes ever seen. The term web standards is now more widely used by web professionals that any other term applied by the [http://www.w3.org/ W3C] (in fact the W3C have started to use the term on their own pages), so that is what we are going to teach you — the ''standards'' way to build web sites.
 }}
@@ -146,7 +146,7 @@ In this article we’ve looked at how the modern Internet was created as a resul
 * [http://en.wikipedia.org/wiki/History_of_the_Internet The history of the Internet (wikipedia)]
 * [http://en.wikipedia.org/wiki/History_of_the_World_Wide_Web The history of the World Wide Web (wikipedia)]
 * [http://www.w3.org/Consortium/history The history of the W3C]
-* [http://webstandards.org/ The Web Standards Project], and their [http://www.webstandards.org/about/history/ history]
+* [http://webstandards.org/ The Web Standards Project] ve[http://www.webstandards.org/about/history/ tarihi]
 * [http://www.alistapart.com/ A List Apart]
 * [http://www.csszengarden.com/ CSS Zen Garden]
 |Manual_sections=== Çalışma Soruları ==
