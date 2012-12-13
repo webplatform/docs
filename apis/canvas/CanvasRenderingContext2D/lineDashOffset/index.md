@@ -8,6 +8,7 @@
 {{API_Object_Property
 |Property_applies_to=canvas/objects/CanvasRenderingContext2D
 |Read_only=No
+|Example_object_name=canvas2Dcontext
 }}
 {{Examples_Section
 |Not_required=No
