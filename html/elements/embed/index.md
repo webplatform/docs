@@ -5,7 +5,9 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Defines a container for an external application or interactive content (a plug-in).
+The &lt;embed&gt; tag is new in HTML5.
+}}
 {{Markup_Element
 |DOM_interface=dom/HTMLEmbedElement
 }}
@@ -616,6 +618,7 @@ This property is not supported for Metro style apps using JavaScript.
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
