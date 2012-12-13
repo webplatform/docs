@@ -1,5 +1,4 @@
 {{Page_Title|The history of the Web}}
-{{Languages|concepts/internet_and_web/the_history_of_the_web}}
 {{Flags}}
 {{API_Name}}
 {{Summary_Section|<blockquote> 
@@ -29,7 +28,9 @@ Everything has to begin somewhere, so lets start with a focused history lesson. 
 If any terms are unfamiliar to you, don’t worry: if they’re important for learning web development they’ll be defined in the later articles that go into more depth on each subject, and you can always search them out using your search engine of choice! If you are already familiar with the history of the Internet or the World Wide Web, feel free to skip to the section on [[http://www.w3.org/wiki/The_history_of_the_Web#The_coming_of_web_standards web standards]].
 }}
 {{Concept_Page
-|Content=== The Internet’s origins ==
+|Content=This article is also translated into <a href="http://science.webhostinggeeks.com/istorija-web">Serbo-Croatian</a>. Translation by Jovana Milutinovich from <a href="http://webhostinggeeks.com/"> Webhostinggeeks.com</a>.
+
+== The Internet’s origins ==
  
 On the fourth of October in 1957 an event occurred that would change the world. The Soviet Union successfully launched the first satellite into Earth’s orbit. Called Sputnik 1, it shocked the world — especially the United States of America, who had their own program of satellite launches underway, but had yet to launch.
  
@@ -175,3 +176,4 @@ You might like to try researching further, by answering these questions:
 |MSDN_link=
 |HTML5Rocks_link=
 }}
+{{Languages|concepts/internet_and_web/the_history_of_the_web}}
