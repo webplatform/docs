@@ -14,7 +14,7 @@ WebGL is not only about rendering 3D graphics. While WebGL allows you to create 
 
 In this article we'll look at what image post-processing is and how to use the raw WebGL API to apply real-time post-processing effects on images and other media like video, <code><canvas></code>, etc.
 
-While this article is not strictly related to previous [http://dev.opera.com/articles/tags/webgl WebGL articles] on dev.opera, some familiarity with the WebGL API is needed to get the most out of this. In particular, knowledge about the rendering pipeline (explained in [http://dev.opera.com/articles/view/an-introduction-to-webgl/ An introduction to WebGL]) will be useful; in addition, if this is your first time diving into the raw WebGL API, it is recommended that you [http://dev.opera.com/articles/view/raw-webgl-part1-getting-started/ read Erik Möller's articles on raw WebGL] first.
+Some familiarity with the WebGL API is needed to get the most out of this. In particular, knowledge about the rendering pipeline will be useful; in addition, if this is your first time diving into the raw WebGL API, it is recommended that you read the basic [[/webgl/tutorials WebGL tutorials]] first.
 
 ==Post-Processing==
 
