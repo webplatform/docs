@@ -1,11 +1,11 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Gets the bottom coordinate of the object clipping region.}}
 {{API_Object_Property
 |Property_applies_to=css/cssom/CSSStyleDeclaration/CSSStyleDeclaration
 |Read_only=No
@@ -47,6 +47,7 @@ Pick an amount to clip the bottom:
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
