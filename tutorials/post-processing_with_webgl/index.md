@@ -4,17 +4,18 @@
 }}
 {{Byline
 |Name=Nicolas Belmonte
+|URL=http://philogb.github.com/
 |Published=October 17, 2012
 }}
-{{Summary_Section|In this article we'll look at what image post-processing is and how to use the raw WebGL API to apply real-time post-processing effects on images and other media like video, <code><canvas></code>, etc.}}
+{{Summary_Section|In this article we'll look at what image post-processing is and how to use the WebGL API to apply real-time post-processing effects on images and other media like video, <code><canvas></code>, etc.}}
 {{Tutorial
 |Content===Introduction==
 
 WebGL is not only about rendering 3D graphics. While WebGL allows you to create stunning 3D, it can also be used for 2D rendering. One common use-case is pixel manipulation, or image post-processing, which allows us to add blur or other filter effects to images.
 
-In this article we'll look at what image post-processing is and how to use the raw WebGL API to apply real-time post-processing effects on images and other media like video, <code><canvas></code>, etc.
+In this article we'll look at what image post-processing is and how to use the WebGL API to apply real-time post-processing effects on images and other media like video, <code><canvas></code>, etc.
 
-Some familiarity with the WebGL API is needed to get the most out of this. In particular, knowledge about the rendering pipeline will be useful; in addition, if this is your first time diving into the raw WebGL API, it is recommended that you read the basic [[webgl/tutorials|WebGL tutorials]] first.
+Some familiarity with the WebGL API is needed to get the most out of this. In particular, knowledge about the rendering pipeline will be useful; in addition, if this is your first time diving into the WebGL API, it is recommended that you read the basic [[webgl/tutorials|WebGL tutorials]] first.
 
 ==Post-Processing==
 
@@ -52,7 +53,7 @@ To create this example, the first step was to check for WebGL availability and t
    }
  });</syntaxhighlight>
 
-Next, we send some information to the shader program: the size of the screen as a uniform, and also the vertices that make up a 2D rectangle via an attribute buffer. Uniforms and attributes are covered in the [http://dev.opera.com/articles/view/raw-webgl-part1-getting-started/ raw WebGL 101 series]. If the rectangle's vertices go from (-1, -1) to (1, 1), then the rectangle will cover the whole canvas. Here's the code for setting the uniforms and binding the vertex buffer:
+Next, we send some information to the shader program: the size of the screen as a uniform, and also the vertices that make up a 2D rectangle via an attribute buffer. Uniforms and attributes are covered in the [[tutorials/getting_started_with_webgl|getting started with WebGL tutorial]]. If the rectangle's vertices go from (-1, -1) to (1, 1), then the rectangle will cover the whole canvas. Here's the code for setting the uniforms and binding the vertex buffer:
 
  <syntaxhighlight lang="javascript">var sizeLocation = gl.getUniformLocation(program, 'size'),
  positionLocation = gl.getAttribLocation(program, 'position'),
