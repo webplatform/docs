@@ -5,7 +5,9 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The tag is used to group related elements in a form.
+Draws a box around the text and other elements that the field set contains.
+}}
 {{Markup_Element
 |DOM_interface=dom/HTMLFieldSetElement
 }}
@@ -766,6 +768,7 @@ This property is not supported for Metro style apps using JavaScript.
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
