@@ -1,16 +1,23 @@
+{{Page_Title}}
 {{Flags}}
 {{API_Name}}
-{{Summary_Section|Note: the original purpose of this pages has been moved to http://docs.webplatform.org/wiki/concepts/an_introduction_to_digital_design, but this page has been kept, as I feel that UX still probably needs a definition somewhere, even if many people think it is basically just design ;-)}}
+{{Summary_Section|An introduction to user experience (UX) and how it applies for The Web projects. }}
 {{Concept_Page
-|Content=Designing a website is not about picking pretty colors and using nice fonts. No, it's not. A website provides services, content and information to its users. And this tool should not be build only for our own will but to meet the visitors' needs. Taking care of our users by designing a tool that is usable, understandable and meeting their expectations as well as ours, can be summarized in 3 words: User experience design.
+|Content=== What is the UX? == 
 
-== experience == 
+While browsing a website, an user experiments feelings. They are the outcome of the interactions between the website and the user reason or his emotions. The sum of all the feelings an user will come through during its visit is the User eXperience. 
 
-If the User part of the whole "User Experience" expression is easily comprehensible, why should we design an experience? The first thing we think about when we hear “design a web site" is the User Interface and this is a real big part of the design process. But this is far from being the sole part. Along with it, we have to consider web performances, interaction design (if a portion of text is clickable, should we underline it?) and copywriting (Is my content understandable by the user?). Experience is literally an event leading to awareness, this event being the time the user will spend on our website.
+The UX of a website is the general case that result from either the sum of all the specific cases, either a forecast of a lambda user experience.
 
-== a definition == 
+== The elements of UX == 
 
-"Designing the user experience" could be defined as follows: "Optimizing our website ensuring that the time users spend there is as efficient as possible."
+The first thing we think about when we hear interaction between the website and the user is the User Interface and this is a real big part of the design process. But this is far from being the sole part. Along with it, we have to consider web performances, interaction design (if a portion of text is clickable, should we underline it?) and copywriting (Is my content understandable by the user?). Experience is literally an event leading to awareness, this event being the time the user will spend on our website.
+
+== UX Design: caring about users for our own purpose ==
+
+The User eXperience could not be designed in the first meaning of this term: it can't be conceive. Each mind has his own way to work. The sole way to proceed is to forecast the interaction between the user and the website and to test in order to unsure the hypothesis are right. 
+
+If UX can't be designed, we can design while caring about our users experience. This is what is called UX Design: conceiving the website while thinking about user' reason and his emotions in order to ensure that the time users spend there is as efficient as possible. And this is part of the [[concepts/an_introduction_to_web_design|designing for The Web]] process. 
 }}
 {{Examples_Section
 |Not_required=Yes
@@ -21,7 +28,7 @@ If the User part of the whole "User Experience" expression is easily comprehensi
 |Specifications=
 }}
 {{See_Also_Section}}
-{{Topics|Design}}
+{{Topics|Design, UI, Usability}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
