@@ -30,6 +30,7 @@ var ctx = canvas.getContext('2d');
 // Set dash-style, and draw stroke
 ctx.setLineDash([15]);
 ctx.strokeRect (10,10,100,100);
+|LiveURL=http://jsfiddle.net/tstatz/9ykrj/
 }}{{Single Example
 |Language=JavaScript
 |Description=Creates a dashed line that alternates between 15 pixels and 5 pixels off.
