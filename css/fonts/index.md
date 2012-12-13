@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Sets font-style, font-variant, font-weight, font-size/line-height, font-family properties in one declaration.}}
 {{API_Object}}
 {{Examples_Section
 |Not_required=No
