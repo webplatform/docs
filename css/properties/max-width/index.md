@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Sets or retrieves the maximum width for an element.}}
 {{CSS Property
 |Initial value=none
 |Applies to=All elements
@@ -74,6 +74,7 @@ This property is enabled only under the strict [[html/elements/!DOCTYPE|!DOCTYPE
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
 |Chrome_version=4.0
