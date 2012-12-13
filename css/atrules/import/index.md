@@ -1,11 +1,11 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Imports an external style sheet.}}
 {{CSS_At_Rule}}
 {{Examples_Section
 |Not_required=No
@@ -46,6 +46,7 @@ Rules in the style sheet override rules in the imported style sheet.
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Unknown
 |Chrome_version=
@@ -76,7 +77,7 @@ Rules in the style sheet override rules in the imported style sheet.
 }}
 }}
 {{See_Also_Section
-|Topic_clusters=Syntax, CSS Layout
+|Topic_clusters=CSS Layout, Syntax
 |Manual_sections====Related pages===
 *<code>[[css/cssom/imports|imports]]</code>
 *<code>[[css/selectors/pseudo-classes/:link|:link]]</code>
