@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Allows authors to group choices logically in a [[select]] element.}}
+{{Summary_Section|Allows authors to group choices logically in a [[/html/elements/select|select]] element.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLOptGroupElement
 }}
