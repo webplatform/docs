@@ -1,4 +1,3 @@
-{{Page_Title}}
 {{Flags}}
 {{API_Name}}
 {{Summary_Section|An introduction to user experience (UX) and how it applies for The Web projects. }}
