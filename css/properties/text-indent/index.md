@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Sets or retrieves the indentation of the first line of text in the object.}}
 {{CSS Property
 |Initial value=0
 |Applies to=All elements
@@ -64,6 +64,7 @@ The property can be negative. An indent is not inserted in the middle of an obje
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
 |Chrome_version=1.0
