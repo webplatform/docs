@@ -121,7 +121,7 @@ You'll notice that currently the rendering looks a bit pixellated, because we ch
 
 This will give a much smoother result, as shown in Figure 2.
 
-[[Image:figure2.png|A series of Opera company logos rendered inside a canvas using WebGL that look smooth and not pixellated]]
+[[Image:figure2_4_luzc.png|A series of Opera company logos rendered inside a canvas using WebGL that look smooth and not pixellated]]
 
 Figure 2: The linear filter gives a much smoother result.
 
@@ -143,7 +143,7 @@ S and T are the texture coordinate axes. Note that our axes start at (0,0) — t
 
 This will give us the display shown in Figure 3.
 
-[[Image:figure3.png|A single Opera logo rendered on a canvas]]
+[[Image:figure3_4_luzc.png|A single Opera logo rendered on a canvas]]
 
 Figure 3: Our four Opera logos have been reduced down to one.
 
