@@ -5,13 +5,13 @@
 {{Concept_Page
 |Content=== What is UX? == 
 
-While visiting a website, a user experiments a series of emotions and feelings. Considering a reasonable amount of parameters (the user's state of mind, his/her environment regarding surrounding light, vision capacities, bandwidth, hardware equipment and so on), the global experience of this given user is the outcome of the interaction between the visited website and the above mentioned parameters. The sum of all the feelings a user will come through during his/her visit is the User eXperience.
+While visiting a website, a user experiments a series of feelings. The global experience of this given user is the outcome of the interaction between the visited website and the user's reason and emotions. The sum of all the feelings a user will come through during his/her visit is called the User eXperience.
 
 The UX on a website is the general case that results from either the sum of all the specific cases, either a forecast of a lambda user experience.
 
 == The elements of UX == 
 
-The first thing we think about when hearing "interaction between the website and the user" is the User Interface, which is a real big part of the design process. But this is far from being the sole part. Along with it, we have to consider web performances, interaction design ("if a portion of text is clickable, should it be underlined?") and copywriting ("is my content understandable by the user?"). Experience is literally an event leading to awareness, this event being the time the user will spend on our website.
+The first thing we think about when hearing "interaction between the website and the user" is the User Interface, which is a real big part of the design process. But this is far from being the sole part. Along with it, we have to consider a reasonable amount of parameters (the user's environment regarding surrounding light, vision capacities, web performances, hardware equipment and so on), interaction design ("if a portion of text is not clickable, should it be underlined?") and copywriting ("is my content understandable by the user?"). Experience is literally an event leading to awareness, this event being the time the user will spend on our website.
 
 == UX Design: caring about users for our own purpose ==
 
