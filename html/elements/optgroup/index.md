@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Allows authors to group choices logically in a [[select]] element.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLOptGroupElement
 }}
@@ -247,6 +247,7 @@ The '''optGroup''' object has these properties.
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
