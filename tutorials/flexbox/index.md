@@ -4,11 +4,8 @@
 |Editorial notes={{Editorial/Deletion_Candidate
 | temporary page used for test
 }}
-
 }}
-{{Byline
-|Name=Mike Sierra
-}}
+{{Byline}}
 {{Summary_Section|Flexible Boxes}}
 {{Tutorial
 |Content=This is some sample content.
