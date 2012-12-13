@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Specifies the level of embedding with respect to the bidirectional algorithm.}}
 {{CSS Property
 |Applies to=All elements
 |Inherited=No
