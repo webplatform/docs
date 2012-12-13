@@ -67,7 +67,7 @@ Next, onto the line where we specify the values for our uniforms. We need to cha
 
 Here we have referenced our new uniform, and replaced the offset values with simple references to the <code><canvas></code> width and height. Checking the example as it stands, you'll see that we have basically got back to where we started, but using the built-in <code>gl_FragCoord</code> instead of passing the texture coordinates from the vertex shader; see Figure 1.
 
-[[Image:figure1.png|A canvas generated gradient going from green at the top left to red at the bottom right, with a large black square at the bottom left]]
+[[Image:figure1_3_luzc.png|A canvas generated gradient going from green at the top left to red at the bottom right, with a large black square at the bottom left]]
 
 Figure 1: Our new shader is functional.
 
@@ -139,7 +139,7 @@ Here we are saying that if the result of the calculations is less than 8, we kee
 
 Now let's try it out in the browser and see what happened. If you made all the updates correctly, you should be presented with a rather nice fractal, as seen in Figure 2!
 
-[[Image:figure2.png|A canvas generated fractal]]
+[[Image:figure2_3_luzc.png|A canvas generated fractal]]
 
 Figure 2: We have generated a rather nice fractal.
 
@@ -151,7 +151,7 @@ What we have got so far is quite nice, but the background is rather banded: it w
 
 This will be a bit slow and can be optimized later on, but it's ok for now as a proof of concept. Save and reload, and you'll now see that the colouring is a lot smoother, as seen in Figure 3.
 
-[[Image:figure3.png|A canvas generated fractal with smoother colouring in the background]]
+[[Image:figure3_3_luzc.png|A canvas generated fractal with smoother colouring in the background]]
 
 Figure 3: The background colour is now a smooth gradient!.
 
@@ -173,7 +173,7 @@ We'll use these values to colour our fractal background a bit more interestingly
 
 This will give us the much more colourful look seen in Figure 4.
 
-[[Image:figure4.png|A canvas generated fractal with a beautiful coloured background gradient]]
+[[Image:figure4_3_luzc.png|A canvas generated fractal with a beautiful coloured background gradient]]
 
 Figure 4: This is much prettier.
 
@@ -184,7 +184,7 @@ Let's just fiddle with the colour values a bit more to see what we can get. Go b
 
 See Figure 5 for the rather halo-like result!
 
-[[Image:figure5.png|A canvas generated fractal with inverted colours]]
+[[Image:figure5_3_luzc.png|A canvas generated fractal with inverted colours]]
 
 Figure 5: Inverted colours give our fractal a halo-type effect.
 
