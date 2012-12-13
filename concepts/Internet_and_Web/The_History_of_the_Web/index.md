@@ -28,7 +28,7 @@ Everything has to begin somewhere, so lets start with a focused history lesson. 
 If any terms are unfamiliar to you, don’t worry: if they’re important for learning web development they’ll be defined in the later articles that go into more depth on each subject, and you can always search them out using your search engine of choice! If you are already familiar with the history of the Internet or the World Wide Web, feel free to skip to the section on [[http://www.w3.org/wiki/The_history_of_the_Web#The_coming_of_web_standards web standards]].
 }}
 {{Concept_Page
-|Content=This article is also translated into [http://science.webhostinggeeks.com/istorija-web Serbo-Croatian]. Translation by Jovana Milutinovich from [http://webhostinggeeks.com/" Webhostinggeeks.com].
+|Content=This article is also translated into [http://science.webhostinggeeks.com/istorija-web Serbo-Croatian]. Translation by Jovana Milutinovich from [http://webhostinggeeks.com/ Webhostinggeeks.com].
 
 == The Internet’s origins ==
  
