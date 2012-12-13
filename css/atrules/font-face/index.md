@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Sets a font to embed in the HTML document.}}
 {{CSS_At_Rule}}
 {{Examples_Section
 |Not_required=No
@@ -50,6 +50,7 @@ Dynamic HTML (DHTML) expressions can be used instead of the preceding value(s). 
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
 |Chrome_version=4.0
