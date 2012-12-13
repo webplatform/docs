@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Specifies the name of the CSS property the transition effect is for.}}
 {{CSS Property
 |Initial value=all
 |Applies to=all elements, :before and :after pseudo elements
