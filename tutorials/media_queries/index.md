@@ -310,8 +310,8 @@ view the corresponding mobile page instead.
 ==Media Query Listeners==
 
 Unlike the conditional tests shown above, media query ''listeners''
-allow an application to respond whenever there is a change in a media
-query expression's matching state.
+allow an application to dynamically respond whenever there is a
+change in a media query expression's matching state.
 
 As of this writing, there's not yet widespead support for media query
 listeners among mobile browsers, and not many supported properties
