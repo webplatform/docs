@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Sets the media types for a set of rules in a [[css/cssom/properties/styleSheet|styleSheet]] object.}}
 {{CSS_At_Rule}}
 {{Examples_Section
 |Not_required=No
@@ -101,6 +101,7 @@ Keyframe selectors use keyframe descriptors to specify the properties and values
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Feature=Basic Support
 |Chrome_supported=No
