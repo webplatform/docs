@@ -5,7 +5,10 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The tag defines a frameset.
+The &lt;frameset&gt; element holds one or more &lt;frame&gt; elements. Each &lt;frame&gt; element can hold a separate document.
+The &lt;frameset&gt; tag is not supported in HTML5.
+}}
 {{Markup_Element
 |DOM_interface=dom/HTMLFrameSetElement
 }}
@@ -541,6 +544,7 @@ This property is not supported for Metro style apps using JavaScript.
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
