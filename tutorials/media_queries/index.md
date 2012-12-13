@@ -3,7 +3,7 @@
 {{Byline
 |Name=Mike Sierra
 }}
-{{Summary_Section|Media queries allow for easy way for the client browser to assign different mobile, tablet, and desktop interfaces.}}
+{{Summary_Section|Media queries offer an easy way for the client browser to assign different mobile, tablet, and desktop interfaces.}}
 {{Tutorial
 |Content=CSS ''media queries'' offers an easy way to target custom
 interfaces to more than one kind of device.  This tutorial shows how
