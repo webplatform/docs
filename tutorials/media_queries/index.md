@@ -76,8 +76,9 @@ alongside custom variations.
 '''Note:''' In the examples above, the '''only''' keyword filters out
 the shrinking number of legacy browsers that interpret media types
 ('''screen'') but not the accompanying media query syntax. A similar
-'''not''' keyword reverses what a media query matches. This excludes
-any kind of browser that is sensitive to orientation:
+'''not''' keyword reverses what a media query matches. This example
+detects optional features, excluding any browser that is sensitive to
+orientation:
 
  not all and (orientation)
 
