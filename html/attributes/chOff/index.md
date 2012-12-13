@@ -1,11 +1,11 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|A description of the chOff attribute.}}
+{{Summary_Section|Removes an alignment character set by the attribute <code>ch</code>.}}
 {{Markup_Attribute
 |Property_applies_to=dom/HTMLElement
 }}
@@ -40,6 +40,7 @@ There is no functionality implemented for this property unless defined by the au
 }}
 {{Compatibility_Section
 |Not_required=Yes
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
