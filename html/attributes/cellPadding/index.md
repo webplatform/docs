@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Specifies the space, in pixels, between the cell wall and the cell content. Not supported in HTML5. Use CSS.}}
 {{Markup_Attribute
 |Property_applies_to=dom/HTMLElement
 |Content=The <table> cellpadding attribute is not supported in HTML5. Use CSS instead.
@@ -30,7 +30,6 @@ Tip: It may be better to NOT specify a cellpadding, and use CSS to apply padding
     <td>0</td>
   </tr>
 </table>
-
 }}
 }}
 {{Notes_Section
@@ -44,6 +43,7 @@ Tip: It may be better to NOT specify a cellpadding, and use CSS to apply padding
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
