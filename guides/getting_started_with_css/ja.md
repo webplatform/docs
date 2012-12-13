@@ -378,13 +378,3 @@ CSSを使うことは構造から文書の表現部分を分離する点であ�
 |HTML5Rocks_link=
 }}
 {{Languages}}
-
-
-
-
-
-
-
-
-
-{{Languages}}
