@@ -40,7 +40,8 @@ which can be expressed with the following media query:
 
 Media queries are enclosed in parentheses and associated with media
 types with the '''and''' keyword. Otherwise, commas separate more than
-one set of criteria:
+one set of criteria. This specifies a media type and query combination
+along with an additional media type.
 
  screen and (max-width: 320px), handheld
 
