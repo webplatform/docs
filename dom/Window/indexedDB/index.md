@@ -66,8 +66,8 @@ To troubleshoot webpages that incorporate IndexedDB features before uploading th
 |Chrome_mobile_prefixed_version=
 |Firefox_mobile_supported=Unknown
 |Firefox_mobile_version=
-|Firefox_mobile_prefixed_supported=Unknown
-|Firefox_mobile_prefixed_version=
+|Firefox_mobile_prefixed_supported=Yes
+|Firefox_mobile_prefixed_version=6.0
 |IE_mobile_supported=Yes
 |IE_mobile_version=10
 |IE_mobile_prefixed_supported=Unknown
