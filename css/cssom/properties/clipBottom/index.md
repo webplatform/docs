@@ -64,7 +64,7 @@ Pick an amount to clip the bottom:
 *<code>[[css/cssom/properties/clipRight|clipRight]]</code>
 *<code>[[css/cssom/properties/clipTop|clipTop]]</code>
 }}
-{{Topics|DOM}}
+{{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
