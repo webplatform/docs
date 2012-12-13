@@ -8,7 +8,7 @@ Note: [05-texturing.html You can run the finished texture example] from this art
 
 ==Preparing to use textures in WebGL==
 
-We're going to build this example on top of the [http://dev.opera.com/articles/view/raw-webgl-part2-simple-shader/ previous lesson]'s simple shader. So take a copy of [http://devfiles.myopera.com/articles/9462/03-minimal-shader.html 03 Minimal Shader] file and save it as 05-texturing.html.
+We're going to build this example on top of the [[tutorials/webgl a simple shader|simple shader]] in our [[webgl/tutorials|WebGL tutorials]]. So take a copy of [http://devfiles.myopera.com/articles/9462/03-minimal-shader.html 03 Minimal Shader] file and save it as 05-texturing.html.
 
 We'll also need an image to use as texture, so copy this [opera.png Opera logo PNG] file into a place in your working directory.
 
