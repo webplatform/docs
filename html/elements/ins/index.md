@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The ins element represents a range of text that has been inserted (added) to a document.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
 }}
@@ -631,11 +631,14 @@ This property is not supported for Metro style apps using JavaScript.
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
 }}
 {{See_Also_Section
+|External_links=http://www.w3.org/TR/html-markup/ins.html#ins
+
 |Manual_sections====Related pages (MSDN)===
 *<code>del</code>
 }}
