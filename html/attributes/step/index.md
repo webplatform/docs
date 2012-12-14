@@ -42,6 +42,7 @@ The following example shows the use of the [[html/attributes/min|'''min''']], [[
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
 |Chrome_version=16
@@ -106,7 +107,9 @@ The following example shows the use of the [[html/attributes/min|'''min''']], [[
 * http://www.quirksmode.org/html5/inputs.html
 |Manual_sections====Related pages (MSDN)===
 *<code>[[dom/HTMLInputElement|HTMLInputElement]]</code>
+*<code>[[html/elements/input/type/number|input type{{=}}number]]</code>
 *<code>[[html/elements/input/type/range|input type{{=}}range]]</code>
+
 }}
 {{Topics|HTML}}
 {{External_Attribution
