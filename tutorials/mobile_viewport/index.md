@@ -305,7 +305,8 @@ device pixel grid, rather than the abstract grid of ''CSS pixels''
 that standardizes measurements regardless of each device's actual
 pixel density. (See [[tutorials/media_queries|media queries]] for
 information on CSS pixels.)  Applying this viewport makes the
-background image appear ''much'' smaller as in the following example:
+background image appear much smaller, and even the text shrinks
+considerably as in the following example:
 
  &lt;meta name='viewport' content='width=device-width, target-densitydpi=device-dpi' />
 
