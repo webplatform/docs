@@ -337,6 +337,7 @@ Here is most all of what you need to know about viewports:
 
 * Use [[tutorials/media_queries|media queries]] if you want your web page to be viewable on desktop, mobile, and tablet browsers.
 
+
 }}
 {{Notes_Section}}
 {{Compatibility_Section
