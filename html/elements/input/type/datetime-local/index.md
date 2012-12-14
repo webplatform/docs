@@ -1,8 +1,8 @@
-{{Page_Title|datetime-local}}
+{{Page_Title}}
 {{Flags
 |Content=Incomplete, Compatibility Incomplete
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section}}
 {{API_Listing
@@ -10,9 +10,7 @@
 |List_all_subpages=No
 }}
 {{Notes_Section}}
-{{See_Also_Section
-|Topic_clusters=HTML
-}}
+{{See_Also_Section}}
 {{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
