@@ -1,0 +1,22 @@
+{{Page_Title|datetime-local}}
+{{Flags
+|Content=Incomplete, Compatibility Incomplete
+}}
+{{Standardization_Status}}
+{{API_Name}}
+{{Summary_Section}}
+{{API_Listing
+|Use_page_title=No
+|List_all_subpages=No
+}}
+{{Notes_Section}}
+{{See_Also_Section
+|Topic_clusters=HTML
+}}
+{{Topics|HTML}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
+}}
