@@ -75,7 +75,7 @@ Applying a viewport has no effect on desktop browsers. It is
 interpreted only once when the page loads, and cannot be modified
 thereafter.
 
-Viewports can also specify a fixed-pixel width, but this is ''not'' a
+Viewports may also specify a fixed-pixel width, but this is ''not'' a
 good practice:
 
  &lt;meta name='viewport' content='width=320' />
@@ -336,8 +336,6 @@ Here is most all of what you need to know about viewports:
 * Optionally, use '''orientation''' media queries to alter landscaped layouts, and '''orientationchange''' handlers to respond in other ways when tipping the handset.
 
 * Use [[tutorials/media_queries|media queries]] if you want your web page to be viewable on desktop, mobile, and tablet browsers.
-
-
 }}
 {{Notes_Section}}
 {{Compatibility_Section
