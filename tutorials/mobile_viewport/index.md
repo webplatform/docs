@@ -323,7 +323,7 @@ Here is the most widely applicable viewport:
  &lt;meta name='viewport' content='width=device-width, user-scalable=no,
      initial-scale=1, maximum-scale=1, minimum-scale=1'/>
 
-This is most all of what you need to know about viewports:
+Here is most all of what you need to know about viewports:
 
 * For cross-device compatability, use flexible layout elements that adapt to available dimensions.
 
