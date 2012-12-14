@@ -313,9 +313,8 @@ considerably as in the following example:
 [[Image:view_on_dpi_p.png]]
 
 Since pixel densities vary widely among handsets, there are very few
-cases outside of repeating background patterns in which
-'''target-densitydpi''' would be appropriate. It may affect other
-content in unexpected ways, and so should be avoided.
+cases in which '''target-densitydpi''' would be appropriate. It may affect
+other content in unexpected ways, and so should be avoided.
 
 ==Review==
 
