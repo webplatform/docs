@@ -89,7 +89,7 @@ In addition to registering to receive events in your HTML you can likewise set t
      alert(eType +' event on element with id: '+ eTarget.id);
    }
  
-  function onload () {
+  function myloadevent () {
     /* obtain a ref to the 'body' element of the page */
     var body = document.body;
     /* create a span element to be clicked */
@@ -275,6 +275,7 @@ The following example allows moving the image of firefox around the page.
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
