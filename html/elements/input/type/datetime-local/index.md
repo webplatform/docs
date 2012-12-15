@@ -12,7 +12,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Code=<input type="date" value="2012-12-07">
+|Code=<input type="datetime-local" value="2012-12-14T19:00">
 }}
 }}
 {{Notes_Section}}
