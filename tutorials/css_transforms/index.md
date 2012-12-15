@@ -1,7 +1,7 @@
 {{Page_Title|Using CSS3 transforms}}
 {{Flags
 |High-level issues=Stub
-|Editorial notes=[[User:Sierra]] is developing content
+|Editorial notes=[[User:Sierra]] has content intended for this page
 }}
 {{Byline}}
 {{Summary_Section}}
