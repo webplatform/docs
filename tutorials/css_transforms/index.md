@@ -1,12 +1,15 @@
 {{Page_Title|Using CSS3 transforms}}
 {{Flags
 |High-level issues=Stub
+|Editorial notes=[[User:Sierra]] is developing content
 }}
 {{Byline}}
 {{Summary_Section}}
 {{Tutorial}}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
