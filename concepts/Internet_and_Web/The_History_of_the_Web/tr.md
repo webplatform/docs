@@ -1,8 +1,7 @@
 {{Page_Title|Web'in Tarihi}}
 {{Flags
 |Content=Incomplete, Cleanup
-|Editorial notes=- Bu yazının çevirisi tamamlanmadı.
-- Yazının gözden geçirilmesi gerekli.
+|Editorial notes=Bu yazının çevirisi tamamlanmadı. Yazının gözden geçirilmesi gerekli.
 }}
 {{API_Name}}
 {{Summary_Section|<blockquote> 
@@ -14,26 +13,26 @@ Begin at the beginning, the King said gravely, and go on till you come to the en
 
  </blockquote> 
 
-Her şey bir yerden başlamalı. Öyleyse biz de bu tarih dersine odaklanarak başlayalım. Aşağıda Internet'in, Dünyayı Saran Ağ'ın oluşturulması ve tüm bu seri boyunca üzerinde durulacak web standartları ile ilgili kısa bilgiler vereceğiz.
+Her şey bir yerden başlamalı. Öyleyse biz de bu tarihe odaklanmış dersle başlayalım. Aşağıda Internet'in, Dünyayı Saran Ağ'ın oluşturulması ve tüm bu seri boyunca üzerinde durulacak web standartları ile ilgili kısa bilgiler vereceğiz.
  
 Eğer hiç bir terim size tanıdık gelmediyse endişelenmeyin: eğer web geliştirmeyi öğrenmek sizin için önemli ise bu konular sonraki makalelerde daha derin bir şekilde anlatılacak. Her zaman merak ettiğiniz terimi arama kutusuna yazarak arayabilirsiniz! Eğer Internet'in ya da Dünyayı Saran Ağın tarihine haşır neşirseniz [[http://www.w3.org/wiki/The_history_of_the_Web#The_coming_of_web_standards web standards]] bölümündeki konuları atlayabilirsiniz.
 }}
 {{Concept_Page
 |Content=== İnternet’in kökleri ==
  
-1957’de Ekim’in 4’ünde dünyayı değiştirecek bir olay meydana gelir. Sovyetler Birliği ilk uyduyu başarılı bir şekilde dünyanın yörüngesine yerleştirir. Sputnik 1 diye anlandırılan uydu dünyayı şoka uğrattı -özellikle henüz bir şey fırlatmamış gizli bir uydu fırlatma programı olan Amerika Birleşik Devletleri’ni.
+1957’de Ekim’in 4’ünde dünyayı değiştirecek bir olay meydana gelir. Sovyetler Birliği ilk uyduyu başarılı bir şekilde dünyanın yörüngesine yerleştirir. Sputnik 1 olarak anlandırılan bu uydu, özellikle henüz herhangi bir şey fırlatmamış ama gizli bir uydu fırlatma programı olan Amerika Birleşik Devletleri ve tüm dünyayı şoka uğrattı.
 
-Gelişmiş teknolojilerin ve fikirlerin ilerlemesini ve araştırma yapan bir kuruma için temel bir ihtiyaçtan dolayı bu olay doğrudan Amerika Birleşik Devletleri Savunma Bakanlığının, ARPA, kurulmasına sebep oldu. Belkide bunun en ünlü projesi Internerin oluşturulmasıydı.
+İleri teknolojiler, fikirler geliştiren ve araştıran bir kuruma olan temel bir ihtiyaçtan dolayı, bu olay doğrudan Amerika Birleşik Devletleri Savunma Bakanlığının, ARPA, kurulmasına sebep oldu. Belkide bu kurumun en ünlü projesi(kesin olarak en yaygın şekilde kullanılanı) Internet'in oluşturulmasıydı.
 
-1960’ta psikolog ve bilgisayar bilimcisi Joseph Licklider, Man-Computer Symbiosis adlı bir makale yayınladı. Bu makale, birbirlerine bağlı bilgisayarlarının gelişmiş bilgi depolama ve geri almasını sağlama fikrini açıkça ifade ediyordu. 1962’de ARPA’da çalışırken bilgi işleme ofisinin başı olarak bir grup bilgisayar araştırmacısını bir araya getirdi ancak fikri üzerine herhangi bir çalışma yapmaya başlamadan önce gruptan ayrıldı.
+1960’ta psikolog ve bilgisayar bilimcisi Joseph Licklider, Man-Computer Symbiosis adlı bir makale yayınladı. Bu makale, birbirlerine bağlı olan bilgisayarlarının gelişmiş bir şekilde bilgi depolamasını ve bunları geri almasını sağlama fikrini açıklıyordu. 1962’de ARPA’da çalışırken bilgi işlemin başı olarak bir grup bilgisayar araştırmacısını bir araya getirdi ancak fikri üzerine herhangi bir çalışma yapmaya başlamadan önce gruptan ayrıldı.
 
-Bilgisayar ağı için ilk plan ( [http://tr.wikipedia.org/wiki/ARPANET ARPANET] olarak adlandırılacak) Ekim 1967'de sunuldu ve Aralık 1969'da dört bilgisayarlı bir ağ kuruldu ve çalıştırıldı. Bir ağ kurmadaki temel problem, fiziksel olarak ayrı ağları kalıcı bağlantılar için ağ kaynaklarını . Bu sorunu çözen teknik, paket değişimi olarak bilinir ve bu teknik diğer partilerin iletişimini engellemeden hızlıca işlenebilen küçük paketlere ayrılmış veri istekleri içerir. Bu prensip bugün Internetin çalışma yönetmi olarak kullanılır.
+Bilgisayar ağı için ilk plan ([http://tr.wikipedia.org/wiki/ARPANET ARPANET] olarak adlandırılacak) Ekim 1967'de sunuldu ve Aralık 1969'da dört bilgisayarlı bir ağ kuruldu ve çalıştırıldı. Bir ağ kurmadaki temel problem, fiziksel olarak ayrı ağları kalıcı bağlantılar için ağ kaynaklarını . Bu sorunu çözen teknik, paket değişimi olarak bilinir ve bu teknik diğer partilerin iletişimini engellemeden hızlıca işlenebilen küçük paketlere ayrılmış veri istekleri içerir. Bu prensip bugün Internetin çalışma yönetmi olarak kullanılır.
  
 Bu plan daha geniş bir alanda uygulanmaya başladı. Aynı paket değişim tekniğini kullanan başka ağlar ortaya çıktı. Örneğin üniversiteler arası dosya ve e-posta alışverişine imkan sağlayan ilk İngiltere üniversite ağı JANET'in temellerinin şekillenmesinde kullanılan Uluslarası Telekominikasyon Birliği tarafından geliştirilen X.25 ve küçük şirketlere ve bireysel kullanıcılara bilgisayar kaynaklarını zamana bağlı erişim imkanı sunan ticari bir ağ, sonradan Internet erişimi sağlayan Amerika'nın herkese açık ağı CompuServe ortaya çıktı. Bu ağlar bir çok bağlantıya sahip olmasına rağmen bugünkü Internetten daha çok özel birer ağlardı. 
 
 Farklı ağ protokollerinin bu şekilde çoğalması, yakında birbirinden ayrı tüm ağların birbirleriyle iletişime geçmesinde problemler yaratacaktı. Ama bir çözüm oldukça yakındaydı. Robert Kahn, ARPA'da bir uydu paket ağı projesinde çalışırken ARPANET'te kullanılan geçerli protokolün yerini alacak daha açık bir ağ mimarisi için bazı kurallar belirlemeye başladı. Daha sonra Standford Üniversitesinden Vinton Cerf'le bir araya geldiler ve ikili yeni bir standart kullanarak ağ protokolleri arası farkları maskeleyen bir sistem geliştirdi. Aralık 1974'teki taslak halindeki tarifnamede, bu yeni standart Internet Transfer Kontrol Programı olarak tanımlanmıştı.
 
-Bu tarifname, ağın rolünü azalttı ve aktarım sağlamlığını korumanın sorumluluğunu sunucu bilgisayarlara taşıdı. Sonuç neredeyse tüm ağları bir araya getirmeyi sağladı. ARPA yazılımı geliştirmeyi finanse etti ve 1977'de üç farklı ağın birbiriyle iletişimi başarılı bir şekilde gösterildi. 1981'e gelindiğinde, tarifname son aşamasına geldi, yayınlandı ve benimsendi. 1982'de Amerika'daki ARPANET dışındaki bağlantılar yeni TCP/IP protokolüne dönüştürüldü. Ve bildiğimiz Internet geldi. 
+Bu belirtim, ağın rolünü azalttı ve aktarım sağlamlığını korumanın sorumluluğunu sunucu bilgisayarlara taşıdı. Sonuç neredeyse tüm ağları bir araya getirmeyi sağladı. ARPA yazılımı geliştirmeyi finanse etti ve 1977'de üç farklı ağın birbiriyle iletişimi başarılı bir şekilde gösterildi. 1981'e gelindiğinde, tarifname son aşamasına geldi, yayınlandı ve benimsendi. 1982'de Amerika'daki ARPANET dışındaki bağlantılar yeni TCP/IP protokolüne dönüştürüldü. Ve bildiğimiz Internet geldi. 
 
 == Dünyayı Saran Ağın Oluşturulması ==
  
@@ -115,7 +114,7 @@ In 2004, a group of like minded developers and implementers (including represent
  
 The result was the [http://www.whatwg.org/specs/web-apps/2005-09-01/ Web Applications 1.0 specification], which documented existing interoperable browser behaviours and features, as well as new features for the Web stack such as APIs and new DOM parsing rules. After many discussions between W3C Members, on March 7 2007 the work on HTML was restarted with a new HTML Working Group in an open participation process. In the first few days, hundreds of participants joined to continue to work on the next version of HTML. One of the first decisions of the HTML WG was to adopt the Web Applications 1.0 spec and call it HTML5.
  
-HTML5 is a really good thing for web developers and designers, because it:
+HTML5 web gelitiricileri ve tasarımcıları için gerçekten iyi, çünkü:
  
 * Is mostly backwards compatible with what's already there — you don't need to learn completely new languages to use HTML5. The new markup features work in the same way as the old ones (although the semantics of some elements have been changed — we will cover these differences in a future article), and the new APIs are based on mostly the same JavaScript/DOM that developers have been programming in for years.
 * Adds powerful new features to HTML that were previously only available on the Web using plugin technologies like Flash, or with complex JavaScript and hacks. Form validation and video are prime examples.
