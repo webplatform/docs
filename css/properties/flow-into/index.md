@@ -62,7 +62,7 @@ Setting a descendent's [[css/properties/flow-into|'''flow-into''']] to '''none''
 
 More than one element can contribute to the same named flow, in which case their DOM order determines how they appear output within regions.
 
-See [[tutorials/css-regions|Using CSS Regions to flow content through a layout]] for an overview of CSS Regions.
+For an overview of CSS Regions, see [[tutorials/css-regions|Using CSS Regions to flow content through a layout]].
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
