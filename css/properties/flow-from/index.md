@@ -32,21 +32,21 @@ section.layout > div {
 }}{{Single Example
 |Language=HTML
 |Description=...flows the article through the series of '''div''' elements, transforming them into ''regions'' and replacing the placeholder text:
-|Code=&amp;lt;!-- CONTENT -->
+|Code=&lt;!-- CONTENT -->
 
-&amp;lt;article class="content">
+&lt;article class="content">
   ...
-&amp;lt;/article>
+&lt;/article>
 
-&amp;lt;!-- LAYOUT -->
+&lt;!-- LAYOUT -->
 
-&amp;lt;section class="layout">
-  &amp;lt;div>Region #1&amp;lt;/div>
-  &amp;lt;div>Region #2&amp;lt;/div>
-  &amp;lt;div>Region #3&amp;lt;/div>
-  &amp;lt;div>Region #4&amp;lt;/div>
-  &amp;lt;div>Region #5&amp;lt;/div>
-&amp;lt;/section>
+&lt;section class="layout">
+  &lt;div>Region #1&lt;/div>
+  &lt;div>Region #2&lt;/div>
+  &lt;div>Region #3&lt;/div>
+  &lt;div>Region #4&lt;/div>
+  &lt;div>Region #5&lt;/div>
+&lt;/section>
 }}
 }}
 {{Notes_Section
