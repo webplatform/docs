@@ -54,7 +54,7 @@ section.layout > div {
 
 Descendants of any element whose [[css/properties/flow-from|'''flow-from''']] specifies a named flow are suppressed from display, making their own [[css/properties/flow-from|'''flow-from''']] values irrelevant.
 
-See [[tutorials/css-regions|Using CSS Regions to flow content through a layout]] for an overview of CSS Regions.
+For an overview of CSS Regions, see [[tutorials/css-regions|Using CSS Regions to flow content through a layout]].
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
