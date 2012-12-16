@@ -41,7 +41,7 @@ function regionsVaryCSS(regs, elem, prop) {
     var values = {};
     var value, style;
     var count = 0;
-    for (var i = 0; i < regs.length; i++) {
+    for (var i = 0; i &lt; regs.length; i++) {
         value = regs[i].getComputedRegionStyle(elem).getPropertyValue(prop);
         if (! values[value]) values[value] = 0;
         values[value]++;
@@ -120,8 +120,9 @@ function regionsVaryCSS(regs, elem, prop) {
 }}
 {{See_Also_Section
 |Topic_clusters=Regions
-|External_links=* [http://html.adobe.com/webstandards/cssregions Adobe Web Standards: CSS Regions]
-* [http://www.adobe.com/devnet/html5/articles/css3-regions.html CSS3 regions: Rich page layout with HTML and CSS3]
+|External_links=* W3C editor's draft: [http://dev.w3.org/csswg/css3-regions/ CSS Regions Module Level 3]
+* Adobe Web Standards: [http://html.adobe.com/webstandards/cssregions CSS Regions]
+* Adobe Developer's Network: [http://www.adobe.com/devnet/html5/articles/css3-regions.html CSS3 Regions: Rich page layout with HTML and CSS3]
 * [http://adobe.github.com/web-platform/samples/css-regions Sample pages]
 }}
 {{Topics|CSS}}
