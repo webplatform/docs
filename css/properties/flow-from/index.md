@@ -32,21 +32,21 @@ section.layout > div {
 }}{{Single Example
 |Language=HTML
 |Description=...flows the article through the series of '''div''' elements, transforming them into ''regions'' and replacing the placeholder text:
-|Code=&lt;!-- CONTENT -->
+|Code=&amp;lt;!-- CONTENT -->
 
-&lt;article class="content">
+&amp;lt;article class="content">
   ...
-&lt;/article>
+&amp;lt;/article>
 
-&lt;!-- LAYOUT -->
+&amp;lt;!-- LAYOUT -->
 
-&lt;section class="layout">
-  &lt;div>Region #1&lt;/div>
-  &lt;div>Region #2&lt;/div>
-  &lt;div>Region #3&lt;/div>
-  &lt;div>Region #4&lt;/div>
-  &lt;div>Region #5&lt;/div>
-&lt;/section>
+&amp;lt;section class="layout">
+  &amp;lt;div>Region #1&amp;lt;/div>
+  &amp;lt;div>Region #2&amp;lt;/div>
+  &amp;lt;div>Region #3&amp;lt;/div>
+  &amp;lt;div>Region #4&amp;lt;/div>
+  &amp;lt;div>Region #5&amp;lt;/div>
+&amp;lt;/section>
 }}
 }}
 {{Notes_Section
@@ -133,8 +133,9 @@ See [[tutorials/css-regions|Using CSS Regions to flow content through a layout]]
 }}
 {{See_Also_Section
 |Topic_clusters=Regions
-|External_links=* [http://html.adobe.com/webstandards/cssregions Adobe Web Standards: CSS Regions]
-* [http://www.adobe.com/devnet/html5/articles/css3-regions.html CSS3 regions: Rich page layout with HTML and CSS3]
+|External_links=* W3C editor's draft: [http://dev.w3.org/csswg/css3-regions/ CSS Regions Module Level 3]
+* Adobe Web Standards: [http://html.adobe.com/webstandards/cssregions CSS Regions]
+* Adobe Developer's Network: [http://www.adobe.com/devnet/html5/articles/css3-regions.html CSS3 Regions: Rich page layout with HTML and CSS3]
 * [http://adobe.github.com/web-platform/samples/css-regions Sample pages]
 }}
 {{Topics|CSS}}
