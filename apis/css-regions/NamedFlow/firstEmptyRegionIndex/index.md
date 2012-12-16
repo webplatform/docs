@@ -23,8 +23,8 @@ function trimRegions(flowName) {
     var index = flow.firstEmptyRegionIndex;
     var regions = flow.getRegions();
     if (index == -1) return(false); // no empty regions?
-    // remove first empty region & all thereafter:
-    for (var i = index; i < regions.length; i++) {
+    // remove first empty region &amp; all thereafter:
+    for (var i = index; i &lt; regions.length; i++) {
         regions[i].parentNode.removeChild(regions[i]);
     }
     return(true);
@@ -33,7 +33,7 @@ function trimRegions(flowName) {
 }}
 {{Notes_Section
 |Usage=The '''firstEmptyRegionIndex''' is the index of the first region
-within the flow's [[css/cssom/NamedFlow/getRegions|getRegions]] whose
+within the flow's [[css/cssom/NamedFlow/getRegions|getRegions()]] collection whose
 [[css/cssom/Region/regionOverset|regionOverset]] is '''empty'''.  If
 all are set to '''fit''' or '''overset''', or if no regions are
 associated with the flow, the '''firstEmptyRegionIndex''' returns -1.
@@ -107,8 +107,9 @@ associated with the flow, the '''firstEmptyRegionIndex''' returns -1.
 }}
 {{See_Also_Section
 |Topic_clusters=Regions
-|External_links=* [http://html.adobe.com/webstandards/cssregions Adobe Web Standards: CSS Regions]
-* [http://www.adobe.com/devnet/html5/articles/css3-regions.html CSS3 regions: Rich page layout with HTML and CSS3]
+|External_links=* W3C editor's draft: [http://dev.w3.org/csswg/css3-regions/ CSS Regions Module Level 3]
+* Adobe Web Standards: [http://html.adobe.com/webstandards/cssregions CSS Regions]
+* Adobe Developer's Network: [http://www.adobe.com/devnet/html5/articles/css3-regions.html CSS3 Regions: Rich page layout with HTML and CSS3]
 * [http://adobe.github.com/web-platform/samples/css-regions Sample pages]
 }}
 {{Topics|CSS}}
