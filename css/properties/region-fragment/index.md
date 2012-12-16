@@ -37,7 +37,7 @@ Setting '''region-fragment''' to '''break''' suppresses display of the overset t
 
 The property only applies to the final element in a ''region chain'' that is not large enough to accomodate remaining content. To behave as a ''region'', the element's [[css/properties/flow-from|'''flow-from''']] must specify a named flow, and display content from a corresponding [[css/properties/flow-into|'''flow-into''']].
 
-See [[tutorials/css-regions|Using CSS Regions to flow content through a layout]] for an overview of CSS Regions.
+For an overview of CSS Regions, see [[tutorials/css-regions|Using CSS Regions to flow content through a layout]].
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
