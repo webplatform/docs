@@ -432,7 +432,7 @@ Whereas the position and dimensions of an element with <code>position:absolute</
    left: 1em;
  }
  
- #second
+ #second {
    width: 5em;
    height: 150em;
    background-color: #00f;
