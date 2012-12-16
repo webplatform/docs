@@ -6,7 +6,7 @@
 {{API_Name}}
 {{Summary_Section}}
 {{Markup_Element
-|DOM_interface=dom/htmlinput
+|DOM_interface=dom/HTMLInputElement
 }}
 {{Examples_Section
 |Not_required=No
