@@ -26,14 +26,14 @@ Here's one that demonstrates various features of CSS regions:
 The HTML markup looks like this, and contains placeholder text
 indicating how the content is supposed to flow:
 
- &lt;section class="page">
-   &lt;div id="title"> &lt;h1>Region #1&lt;/h1>         &lt;/div>
-   &lt;div id="intro"> &lt;h1>Region #2&lt;/h1>         &lt;/div>
-   &lt;div id="col1">  &lt;h1>Region #3&lt;/h1>         &lt;/div>
-   &lt;div id="col2a"> &lt;h1>Region #4&lt;/h1>         &lt;/div>
-   &lt;div id="pull">  &lt;h1>(Separate Region)&lt;/h1> &lt;/div>
-   &lt;div id="col2b"> &lt;h1>Region #5&lt;/h1>         &lt;/div>
- &lt;/section>
+ &amp;lt;section class="page">
+   &amp;lt;div id="title"> &amp;lt;h1>Region #1&amp;lt;/h1>         &amp;lt;/div>
+   &amp;lt;div id="intro"> &amp;lt;h1>Region #2&amp;lt;/h1>         &amp;lt;/div>
+   &amp;lt;div id="col1">  &amp;lt;h1>Region #3&amp;lt;/h1>         &amp;lt;/div>
+   &amp;lt;div id="col2a"> &amp;lt;h1>Region #4&amp;lt;/h1>         &amp;lt;/div>
+   &amp;lt;div id="pull">  &amp;lt;h1>(Separate Region)&amp;lt;/h1> &amp;lt;/div>
+   &amp;lt;div id="col2b"> &amp;lt;h1>Region #5&amp;lt;/h1>         &amp;lt;/div>
+ &amp;lt;/section>
 
 Here is the CSS for the layout, which for the sake of this example
 uses a lot of absolute positioning and fixed heights:
@@ -116,14 +116,14 @@ they flow. The example below flows content sources #1-3 into
 the same chain of regions. Rearranging the ''article'' nodes within
 the document shuffles their order within the output region:
 
- &lt;style>
+ &amp;lt;style>
    article { flow-into: articles }
    div.region { flow-from: articles }
- &lt;/style>
- &lt;article> source #1 &lt;/article>
- &lt;article> source #2 &lt;/article>
- &lt;article> source #3 &lt;/article>
- &lt;div class="region"> &lt;/div>
+ &amp;lt;/style>
+ &amp;lt;article> source #1 &amp;lt;/article>
+ &amp;lt;article> source #2 &amp;lt;/article>
+ &amp;lt;article> source #3 &amp;lt;/article>
+ &amp;lt;div class="region"> &amp;lt;/div>
 
 
 
@@ -181,18 +181,18 @@ moved somewhere else so that other content can flow in to take its
 place. In this example, '''aside''' tags represent ''pull-quote''
 content that needs to be diverted from the main flow:
 
- &lt;article>
-   &lt;h1>    Sample CSS Regions Layout                                      &lt;/h1>
-   &lt;p>     Riverrun, past Eve and Adam's...                               &lt;/p>
-   &lt;p>     Sir Tristram, violer d'amores...                               &lt;/p>
-   &lt;p>     The fall... of a once wallstrait oldparr...                    &lt;/p>
-   &lt;aside> The oaks of ald now they lie in peat...                        &lt;/aside>
-   &lt;p>     What clashes here of wills gen wonts...                        &lt;/p>
-   &lt;h2>    Bygmester Finnegan, of the Stuttering Hand...                  &lt;/h2>
-   &lt;p>     ...freemen's maurer, lived in the broadest way immarginable... &lt;/p>
-   &lt;p>     He addle liddle phifie Annie...                                &lt;/p>
+ &amp;lt;article>
+   &amp;lt;h1>    Sample CSS Regions Layout                                      &amp;lt;/h1>
+   &amp;lt;p>     Riverrun, past Eve and Adam's...                               &amp;lt;/p>
+   &amp;lt;p>     Sir Tristram, violer d'amores...                               &amp;lt;/p>
+   &amp;lt;p>     The fall... of a once wallstrait oldparr...                    &amp;lt;/p>
+   &amp;lt;aside> The oaks of ald now they lie in peat...                        &amp;lt;/aside>
+   &amp;lt;p>     What clashes here of wills gen wonts...                        &amp;lt;/p>
+   &amp;lt;h2>    Bygmester Finnegan, of the Stuttering Hand...                  &amp;lt;/h2>
+   &amp;lt;p>     ...freemen's maurer, lived in the broadest way immarginable... &amp;lt;/p>
+   &amp;lt;p>     He addle liddle phifie Annie...                                &amp;lt;/p>
    ...
- &lt;/article>
+ &amp;lt;/article>
 
 Thankfully to address this problem, there can be more than one named
 flow in a document, and thus more than one series of regions. Defining
@@ -236,19 +236,19 @@ extracted from wherever they happen to appear within the main flow of
 content, and appear instead appended to the content, with no need to
 modify the content's semantic structure:
 
- &lt;style>
+ &amp;lt;style>
    article, aside.endnote { flow-into: main }
- &lt;/style>
+ &amp;lt;/style>
  
- &lt;article>
+ &amp;lt;article>
    ...
-   &lt;aside class="endnote">...&lt;/aside>
+   &amp;lt;aside class="endnote">...&amp;lt;/aside>
    ...
-   &lt;aside class="endnote">...&lt;/aside>
+   &amp;lt;aside class="endnote">...&amp;lt;/aside>
    ...
-   &lt;h2>Endnotes&lt;/h2>
- &lt;/article>
- &lt;!-- endnotes appear here -->
+   &amp;lt;h2>Endnotes&amp;lt;/h2>
+ &amp;lt;/article>
+ &amp;lt;!-- endnotes appear here -->
 
 However, descendant elements that are defined as the default
 '''flow-into:none''' cannot be prevented from flowing along with an
@@ -359,7 +359,7 @@ have displayed the complex layout, and also suppressing content
 elements (such as the pull-quote) that do not need to be presented
 within the simpler layout:
 
- /* tablet & desktop browsers */
+ /* tablet &amp; desktop browsers */
  @media screen and (min-width: 480px){
  
      /* pour article into section */
@@ -496,8 +496,9 @@ flows.
 }}
 {{See_Also_Section
 |Topic_clusters=Regions
-|External_links=* [http://html.adobe.com/webstandards/cssregions Adobe Web Standards: CSS Regions]
-* [http://www.adobe.com/devnet/html5/articles/css3-regions.html CSS3 regions: Rich page layout with HTML and CSS3]
+|External_links=* W3C editor's draft: [http://dev.w3.org/csswg/css3-regions/ CSS Regions Module Level 3]
+* Adobe Web Standards: [http://html.adobe.com/webstandards/cssregions CSS Regions]
+* Adobe Developer's Network: [http://www.adobe.com/devnet/html5/articles/css3-regions.html CSS3 Regions: Rich page layout with HTML and CSS3]
 * [http://adobe.github.com/web-platform/samples/css-regions Sample pages]
 }}
 {{Topics|CSS}}
