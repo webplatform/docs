@@ -66,7 +66,7 @@ h2, h3 {
 }}
 {{Notes_Section
 |Import_Notes====Syntax===
-<code>'''break-before: '''auto '''{{!}}''' always '''{{!}}''' avoid '''{{!}}''' left '''{{!}}''' right '''{{!}}''' page '''{{!}}''' column '''{{!}}''' avoid-page '''{{!}}''' avoid-column</code>
+&lt;code>'''break-before: '''auto '''{{!}}''' always '''{{!}}''' avoid '''{{!}}''' left '''{{!}}''' right '''{{!}}''' page '''{{!}}''' column '''{{!}}''' avoid-page '''{{!}}''' avoid-column&lt;/code>
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -83,44 +83,45 @@ h2, h3 {
 }}
 {{See_Also_Section
 |Topic_clusters=Multi-Column, Regions
-|External_links=* [http://html.adobe.com/webstandards/cssregions Adobe Web Standards: CSS Regions]
-* [http://www.adobe.com/devnet/html5/articles/css3-regions.html CSS3 regions: Rich page layout with HTML and CSS3]
+|External_links=* W3C editor's draft: [http://dev.w3.org/csswg/css3-regions/ CSS Regions Module Level 3]
+* Adobe Web Standards: [http://html.adobe.com/webstandards/cssregions CSS Regions]
+* Adobe Developer's Network: [http://www.adobe.com/devnet/html5/articles/css3-regions.html CSS3 Regions: Rich page layout with HTML and CSS3]
 * [http://adobe.github.com/web-platform/samples/css-regions Sample pages]
 |Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-*<code>address</code>
-*<code>blockQuote</code>
-*<code>div</code>
-*<code>dl</code>
-*<code>fieldSet</code>
-*<code>form</code>
-*<code>noFrames</code>
-*<code>noScript</code>
-*<code>ol</code>
-*<code>p</code>
-*<code>pre</code>
-*<code>[[html/elements/table|table]]</code>
-*<code>ul</code>
-*<code>dd</code>
-*<code>dt</code>
-*<code>li</code>
-*<code>tBody</code>
-*<code>td</code>
-*<code>tFoot</code>
-*<code>th</code>
-*<code>tHead</code>
-*<code>tr</code>
-*<code>button</code>
-*<code>del</code>
-*<code>ins</code>
-*<code>map</code>
-*<code>object</code>
-*<code>script</code>
-*<code>Reference</code>
-*<code>[[css/properties/break-after|breakAfter]]</code>
-*<code>[[css/properties/break-inside|breakInside]]</code>
+*&lt;code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]&lt;/code>
+*&lt;code>[[css/cssom/currentStyle|currentStyle]]&lt;/code>
+*&lt;code>[[css/cssom/style|style]]&lt;/code>
+*&lt;code>address&lt;/code>
+*&lt;code>blockQuote&lt;/code>
+*&lt;code>div&lt;/code>
+*&lt;code>dl&lt;/code>
+*&lt;code>fieldSet&lt;/code>
+*&lt;code>form&lt;/code>
+*&lt;code>noFrames&lt;/code>
+*&lt;code>noScript&lt;/code>
+*&lt;code>ol&lt;/code>
+*&lt;code>p&lt;/code>
+*&lt;code>pre&lt;/code>
+*&lt;code>[[html/elements/table|table]]&lt;/code>
+*&lt;code>ul&lt;/code>
+*&lt;code>dd&lt;/code>
+*&lt;code>dt&lt;/code>
+*&lt;code>li&lt;/code>
+*&lt;code>tBody&lt;/code>
+*&lt;code>td&lt;/code>
+*&lt;code>tFoot&lt;/code>
+*&lt;code>th&lt;/code>
+*&lt;code>tHead&lt;/code>
+*&lt;code>tr&lt;/code>
+*&lt;code>button&lt;/code>
+*&lt;code>del&lt;/code>
+*&lt;code>ins&lt;/code>
+*&lt;code>map&lt;/code>
+*&lt;code>object&lt;/code>
+*&lt;code>script&lt;/code>
+*&lt;code>Reference&lt;/code>
+*&lt;code>[[css/properties/break-after|breakAfter]]&lt;/code>
+*&lt;code>[[css/properties/break-inside|breakInside]]&lt;/code>
 }}
 {{Topics|CSS}}
 {{External_Attribution
