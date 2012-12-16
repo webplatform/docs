@@ -13,7 +13,7 @@
 
 * '''overset''' indicates the region is the last in the chain, and does not have enough room to display remaining content. See [[css/properties/region-fragment|'''region-fragment''']] for display options.
 
-* '''empty''' indicates content was accommodated by previous regions in the chain, or that no content exists to flow into the chain.
+* '''empty''' indicates content was accommodated by previous regions in the chain, or that no content is available to flow into the chain.
 
 * '''fit''' indicates various scenarios:
 
@@ -23,7 +23,7 @@
 
 ** For regions that are too small to display the next available item of content, such as an image, which gets pushed into a subsequent region
 
-** For elements that no longer behave as a region, which occurs when their [[css/properties/flow-into|'''flow-into''']] property reverts to '''none'''
+** For elements that no longer behave as a region, which occurs when their [[css/properties/flow-from|'''flow-from''']] property reverts to '''none'''
 }}
 {{Examples_Section
 |Not_required=No
@@ -109,8 +109,9 @@
 }}
 {{See_Also_Section
 |Topic_clusters=Regions
-|External_links=* [http://html.adobe.com/webstandards/cssregions Adobe Web Standards: CSS Regions]
-* [http://www.adobe.com/devnet/html5/articles/css3-regions.html CSS3 regions: Rich page layout with HTML and CSS3]
+|External_links=* W3C editor's draft: [http://dev.w3.org/csswg/css3-regions/ CSS Regions Module Level 3]
+* Adobe Web Standards: [http://html.adobe.com/webstandards/cssregions CSS Regions]
+* Adobe Developer's Network: [http://www.adobe.com/devnet/html5/articles/css3-regions.html CSS3 Regions: Rich page layout with HTML and CSS3]
 * [http://adobe.github.com/web-platform/samples/css-regions Sample pages]
 }}
 {{Topics|CSS}}
