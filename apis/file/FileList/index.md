@@ -52,6 +52,7 @@ The '''FileList''' object has these properties.
 |Not_required=No
 |Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
+|Feature=Basic Support
 |Chrome_supported=Yes
 |Chrome_version=22.0
 |Chrome_prefixed_supported=Unknown
@@ -74,6 +75,7 @@ The '''FileList''' object has these properties.
 |Safari_prefixed_version=
 }}
 |Mobile_rows={{Compatibility Table Mobile Row
+|Feature=Basic Support
 |Android_supported=Yes
 |Android_version=3.0
 |Android_prefixed_supported=Unknown
@@ -98,12 +100,12 @@ The '''FileList''' object has these properties.
 |Opera_mobile_version=
 |Opera_mobile_prefixed_supported=Unknown
 |Opera_mobile_prefixed_version=
-|Opera_mini_supported=Unknown
+|Opera_mini_supported=No
 |Opera_mini_version=
 |Opera_mini_prefixed_supported=Unknown
 |Opera_mini_prefixed_version=
-|Safari_mobile_supported=Unknown
-|Safari_mobile_version=
+|Safari_mobile_supported=Yes
+|Safari_mobile_version=6.0
 |Safari_mobile_prefixed_supported=Unknown
 |Safari_mobile_prefixed_version=
 }}
