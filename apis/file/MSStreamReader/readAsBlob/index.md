@@ -7,7 +7,7 @@
 |Parameters={{Method Parameter
 |Name=stream
 |Data type=Blob
-|Description=The [[apis/file/MSStream|'''MSStream''']] object to read.
+|Description=The [[apis/file/MSStream|MSStream]] object to read.
 |Optional=No
 }}{{Method Parameter
 |Name=maxSize
