@@ -12,7 +12,7 @@
 |Usage=<code>
  oURL = URL.createObjectURL(file, {oneTimeOnly: true});
 </code>
-|Import_Notes=The '''ObjectURLOptions''' object uses the
+|Import_Notes=The '''ObjectURLOptions''' object provides the
 ''oneTimeOnly'' property, which
 specifies whether an object created with [[apis/file/URL/createObjectURL|createObjectURL]] is only used once, and thus does not need [[apis/file/URL/createObjectURL|revokeObjectURL]] run against it.
 }}
