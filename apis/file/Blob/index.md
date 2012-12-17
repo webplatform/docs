@@ -4,7 +4,7 @@
 {{API_Name}}
 {{Summary_Section|The '''Blob''' object represents immutable raw data. It provides a method to slice data objects between ranges of bytes into further chunks of raw data.}}
 {{API_Object
-|Overview="Blob" provides an attribute representing the size of the chunk of data. The [[apis/file/File|'''File''']] object inherits from the '''Blob''' object.
+|Overview='''Blob''' provides an attribute representing the size of the chunk of data. The [[apis/file/File|'''File''']] object inherits from the '''Blob''' object.
 '''Blob''' objects can be read asynchronously only on the main thread via [[apis/file/FileReader|'''FileReader''']] 
 objects, but metadata access via attributes such as '''size''' and '''type''' return 
 synchronously (this trade-off is based on the underlying assumption that metadata access will not significantly block or disrupt the browser's main thread, whereas 
@@ -17,8 +17,8 @@ reading '''Blob''' data will).
 {{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=W3C HTML5 Specification
-|URL=http://www.w3.org/TR/FileAPI#blob
+|Name=W3C File API Specification
+|URL=http://www.w3.org/TR/FileAPI
 |Status=W3C Working Draft
 }}
 }}
@@ -50,10 +50,10 @@ reading '''Blob''' data will).
 }}
 |Mobile_rows={{Compatibility Table Mobile Row
 |Feature=Basic Support
-|Android_supported=Unknown
-|Android_version=
-|Android_prefixed_supported=Yes
-|Android_prefixed_version=3.0
+|Android_supported=Yes
+|Android_version=3.0
+|Android_prefixed_supported=Unknown
+|Android_prefixed_version=
 |Blackberry_supported=Unknown
 |Blackberry_version=
 |Blackberry_prefixed_supported=Yes
@@ -78,10 +78,10 @@ reading '''Blob''' data will).
 |Opera_mini_version=
 |Opera_mini_prefixed_supported=Unknown
 |Opera_mini_prefixed_version=
-|Safari_mobile_supported=Unknown
-|Safari_mobile_version=
-|Safari_mobile_prefixed_supported=Yes
-|Safari_mobile_prefixed_version=6.0
+|Safari_mobile_supported=Yes
+|Safari_mobile_version=6.0
+|Safari_mobile_prefixed_supported=Unknown
+|Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
 }}
