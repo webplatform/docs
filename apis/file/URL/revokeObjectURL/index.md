@@ -1,9 +1,6 @@
 {{Page_Title}}
-{{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status}}
+{{Flags}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Revokes a URL from a document and frees the object associated with that URL.}}
 {{API_Object_Method
@@ -18,14 +15,18 @@
 |Javascript_data_type=void
 }}
 {{Examples_Section
-|Not_required=No
+|Not_required=Yes
 |Examples=
 }}
 {{Notes_Section
-|Notes=This method does not need to be called on a URL object that was created using [[apis/file/properties/oneTimeOnly|'''oneTimeOnly''']] set to true, providing it is used. If a URL object is created and not used, this method must be called to revoke it.  All URLs that are not revoked will be destroyed when the markup that created them is torn down.
+|Notes=This method does not need to be called on a URL object that was created using ''oneTimeOnly'' set to true. If a URL object is created and not used, this method must be called to revoke it. All URLs that are not revoked will be destroyed when the markup that created them is torn down.
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=W3C File API Specification
+|URL=http://www.w3.org/TR/FileAPI
+|Status=W3C Working Draft
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -90,16 +91,11 @@
 }}
 |Notes_rows=
 }}
-{{See_Also_Section
-|Manual_sections=*<code>[[apis/file/ObjectURLOptions|ObjectURLOptions]]</code>
-*<code>[[apis/file/properties/oneTimeOnly|oneTimeOnly]]</code>
-*<code>[[apis/file/methods/createObjectURL|createObjectURL]]</code>
-}}
-{{Topics|DOM}}
+{{See_Also_Section}}
+{{Topics|FileAPI}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
 |MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|MSDN_link=
 |HTML5Rocks_link=
 }}
