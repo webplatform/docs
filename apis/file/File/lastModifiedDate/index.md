@@ -27,6 +27,7 @@
 |Not_required=No
 |Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
+|Feature=Basic Support
 |Chrome_supported=Yes
 |Chrome_version=22.0
 |Chrome_prefixed_supported=Unknown
@@ -36,7 +37,7 @@
 |Firefox_prefixed_supported=Unknown
 |Firefox_prefixed_version=
 |Internet_explorer_supported=Yes
-|Internet_explorer_version=10.0 (partial)
+|Internet_explorer_version=10.0
 |Internet_explorer_prefixed_supported=Unknown
 |Internet_explorer_prefixed_version=
 |Opera_supported=Yes
@@ -49,8 +50,9 @@
 |Safari_prefixed_version=
 }}
 |Mobile_rows={{Compatibility Table Mobile Row
+|Feature=Basic Support
 |Android_supported=Yes
-|Android_version=3.0 (partial)
+|Android_version=3.0
 |Android_prefixed_supported=Unknown
 |Android_prefixed_version=
 |Blackberry_supported=Yes
