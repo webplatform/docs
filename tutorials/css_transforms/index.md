@@ -142,9 +142,10 @@ measurements.  The separate [[css/functions/skewX()|'''skewX()''']]
 function tips the side edges of the element, while
 [[css/functions/skewY()|'''skewY()''']] tips the top and bottom.
 
- transform: skewX(10deg);        /* 1st */
- transform: skewY(-30deg);       /* 2nd */
- transform: skew(10deg, -30deg); /* 3rd */
+ transform: skewX(10deg);               /* 1st */
+ transform: skewY(-30deg);              /* 2nd */
+ transform: skew(10deg, -30deg);        /* 3rd */
+ transform: skewX(10deg) skewY(-30deg); /* 3rd, alternate syntax */
 
 [[Image:transform_skew.png]]
 
