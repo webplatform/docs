@@ -5,7 +5,9 @@
 }}
 {{Byline}}
 {{Summary_Section}}
-{{Tutorial}}
+{{Tutorial
+|Content=__CONTENT__
+}}
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
@@ -15,7 +17,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=Animation, Transforms, Transistions
+|Topic_clusters=Animation
 }}
 {{Topics|CSS}}
 {{External_Attribution
