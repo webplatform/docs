@@ -4,7 +4,10 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Represents an error that occurs while using the FileReader interface. Obsolete per latest specification. Use [[http://docs.webplatform.org/wiki/dom/DOMError DOMError]] instead.}}
+{{Summary_Section|Represents an error that occurs while using the FileReader interface.
+
+Obsolete per latest specification. Use [[http://docs.webplatform.org/wiki/dom/DOMError DOMError]] instead.
+}}
 {{API_Object}}
 {{Examples_Section
 |Not_required=Yes
