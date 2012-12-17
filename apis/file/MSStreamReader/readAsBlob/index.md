@@ -1,11 +1,8 @@
 {{Page_Title}}
-{{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status}}
+{{Flags}}
+{{Standardization_Status|Non-Standard}}
 {{API_Name}}
-{{Summary_Section|Performs an asynchronous read of an [[apis/file/MSStream|'''MSStream''']] object in order to create a [[apis/file/Blob|'''Blob''']] object.}}
+{{Summary_Section|Performs an asynchronous read of an [[apis/file/MSStream|MSStream]] object in order to create a [[apis/file/Blob|Blob]] object.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=stream
@@ -19,34 +16,32 @@
 |Optional=Yes
 }}
 |Method_applies_to=apis/file/MSStreamReader
-|Example_object_name=streamReader
+|Example_object_name=MSStreamReader
 |Javascript_data_type=void
 }}
 {{Examples_Section
-|Not_required=No
+|Not_required=Yes
 |Examples=
 }}
 {{Notes_Section
-|Notes=The '''readAsBlob''' method is used by [[apis/file/MSStreamReader|'''msStreamReader''']] to create a [[apis/file/Blob|'''Blob''']] object from an [[apis/file/MSStream|'''MSStream''']]. When the read begins, the [[apis/file/properties/readyState|'''readyState''']] property is set to the <code>LOADING</code> state on '''MSStreamReader''' and the [[apis/file/events/onloadstart|'''onloadstart''']] event is fired. Progress for the read is monitored by the [[apis/file/events/onprogress|'''onprogress''']] event. When the read completes, the [[apis/file/events/onloadend|'''onloadend''']] event fires and '''readyState''' is set to <code>DONE</code> and '''MSStreamReader'''.[[apis/file/properties/result|'''result''']] returns the new '''Blob''' object.
-A read operation can be interrupted if an error occurs or the [[apis/file/methods/abort|'''abort''']] method is run. If an error occurs, the [[apis/file/events/onloadend|'''onloadend''']]event, sets the [[apis/file/properties/readyState|'''readyState''']] to <code>DONE</code>, and passes the error using the [[apis/file/properties/error|'''error''']] property.
-For a code example, see [[apis/file/MSStreamReader|'''MSStreamReader''']].
+|Notes=The '''readAsBlob''' method is used by [[apis/file/MSStreamReader|msStreamReader]] to create a [[apis/file/Blob|Blob]] object from an [[apis/file/MSStream|MSStream]]. When the read begins, the ''readyState'' property is set to the <code>LOADING</code> state on MSStreamReader and the ''onloadstart'' event is fired. Progress for the read is monitored by the ''onprogress'' event. When the read completes, the ''onloadend'' event fires and ''readyState'' is set to <code>DONE</code> and ''MSStreamReader.result'' returns the new Blob object.
+A read operation can be interrupted if an error occurs or the ''abort'' method is run. If an error occurs, the ''onloadend'' event sets the ''readyState'' to <code>DONE</code>, and passes the error using the ''error'' property.
 }}
 {{Related_Specifications_Section
 |Specifications=
 }}
 {{Compatibility_Section
-|Not_required=No
+|Not_required=Yes
 |Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|DOM}}
+{{Topics|FileAPI}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
 |MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|MSDN_link=
 |HTML5Rocks_link=
 }}
