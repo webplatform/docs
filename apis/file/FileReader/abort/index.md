@@ -14,7 +14,7 @@
 |Examples=
 }}
 {{Notes_Section
-|Notes=The '''abort''' method is used to interrupt an asynchronous  read operation that is in progress on an [[apis/file/events/onloadend|onloadend]] event, sets the state of the [[apis/file/properties/readyState|readyState]] property of the MSStreamReader or [[apis/file/FileReader|FileReader]] to <code>DONE</code>, and sets [[apis/file/properties/result|result]] property to <code>null</code>.
+|Notes=The '''abort''' method is used to interrupt an asynchronous  read operation that is in progress on an onloadend event, sets the state of the readyState property of the FileReader to <code>DONE</code>, and sets [[apis/file/properties/result|result]] property to <code>null</code>.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
