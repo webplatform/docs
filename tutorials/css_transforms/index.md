@@ -6,7 +6,7 @@
 {{Byline}}
 {{Summary_Section}}
 {{Tutorial
-|Content=[[User:Sierra|Sierra]] ([[User talk:Sierra|talk]])CONTENT[[User:Sierra|Sierra]] ([[User talk:Sierra|talk]])
+|Content=__CONTENT__
 }}
 {{Notes_Section}}
 {{Compatibility_Section
