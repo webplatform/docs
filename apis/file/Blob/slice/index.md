@@ -57,7 +57,7 @@ For a code sample of the <code>slice</code> method, see [[apis/file/Blob|'''Blob
 |Firefox_prefixed_supported=Unknown
 |Firefox_prefixed_version=
 |Internet_explorer_supported=Yes
-|Internet_explorer_version=10
+|Internet_explorer_version=10.0
 |Internet_explorer_prefixed_supported=Unknown
 |Internet_explorer_prefixed_version=
 |Opera_supported=Yes
@@ -71,10 +71,10 @@ For a code sample of the <code>slice</code> method, see [[apis/file/Blob|'''Blob
 }}
 |Mobile_rows={{Compatibility Table Mobile Row
 |Feature=Basic Support
-|Android_supported=Unknown
-|Android_version=
-|Android_prefixed_supported=Yes
-|Android_prefixed_version=3.0
+|Android_supported=Yes
+|Android_version=3.0
+|Android_prefixed_supported=Unknown
+|Android_prefixed_version=
 |Blackberry_supported=Yes
 |Blackberry_version=10.0
 |Blackberry_prefixed_supported=Unknown
@@ -104,11 +104,7 @@ For a code sample of the <code>slice</code> method, see [[apis/file/Blob|'''Blob
 |Safari_mobile_prefixed_supported=Unknown
 |Safari_mobile_prefixed_version=
 }}
-|Notes_rows={{Compatibility Notes Row
-|Browser=All
-|Version=-
-|Note=The slice() method had initially taken length as the second argument to indicate the number of bytes to copy into the new Blob. If you specified values such that start + length exceeded the size of the source Blob, the returned Blob contained data from the start index to the end of the source Blob.
-}}
+|Notes_rows=
 }}
 {{See_Also_Section}}
 {{Topics|FileAPI}}
