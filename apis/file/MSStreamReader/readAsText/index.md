@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page_Title|readAsText}}
 {{Flags}}
 {{Standardization_Status|Non-Standard}}
 {{API_Name}}
