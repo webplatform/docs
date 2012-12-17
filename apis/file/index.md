@@ -6,7 +6,7 @@
 {{API_Listing
 |Query=[[Category:FileAPI]]
 |Use_page_title=No
-|List_all_subpages=No
+|List_all_subpages=Yes
 }}
 {{Notes_Section
 |Notes=See [[http://www.w3.org/TR/FileAPI/ W3C File API Specification]] for more information.
