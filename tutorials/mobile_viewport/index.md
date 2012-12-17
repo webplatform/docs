@@ -14,16 +14,14 @@ interfaces. This tutorial first introduces two-dimensional transforms,
 then shows you how to extend transforms into three-dimensional space.
 }}
 {{Tutorial
-|Content=
-
-Transforms alter an element's coordinates in several ways so that they
-vary from where they would ordinarily appear. The '''transform''' CSS
-property specifies a handful of transformation ''functions'' that can
-be combined any way you wish: '''translate()''', '''scale()''',
-'''rotate()''', and '''skew()'''.  Here is how you specify a
-combination of most of the two-dimensional transforms that are
-detailed below, along with a view of how the effect renders relative
-to the element's default position:
+|Content=Transforms alter an element's coordinates in several ways so
+that they vary from where they would ordinarily appear. The
+'''transform''' CSS property specifies a handful of transformation
+''functions'' that can be combined any way you wish:
+'''translate()''', '''scale()''', '''rotate()''', and '''skew()'''.
+Here is how you specify a combination of most of the two-dimensional
+transforms that are detailed below, along with a view of how the
+effect renders relative to the element's default position:
 
  div.card {
     -webkit-transform : translate(50%, 10%) rotate(20deg) scale(0.75);
