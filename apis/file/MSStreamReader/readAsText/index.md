@@ -1,45 +1,51 @@
-{{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
-}}
+{{Page_Title}}
+{{Flags}}
 {{Standardization_Status|Non-Standard}}
 {{API_Name}}
+{{Summary_Section|Returns partial Blob data representing the number of bytes currently loaded (as a fraction of the total), decoded into memory according to the encoding determination.}}
 {{API_Object_Method
-|Parameters={{Method Parameter|Name=stream|Data type=MSStream|Description=|Optional=}}
-{{Method Parameter|Name=encoding|Data type=DOMString|Description=|Optional=}}
-{{Method Parameter|Name=size|Data type=signed long long|Description=|Optional=}}
+|Parameters={{Method Parameter
+|Name=stream
+|Data type=any
+|Optional=No
+}}{{Method Parameter
+|Name=encoding
+|Data type=any
+|Optional=No
+}}{{Method Parameter
+|Name=size
+|Data type=any
+|Optional=No
+}}
 |Method_applies_to=apis/file/MSStreamReader
-|Example_object_name=object
-|Return_value_name=object
+|Example_object_name=MSStreamReader
 |Javascript_data_type=DOM Node
 |Return_value_description=Type: '''HRESULT'''
 
 This method can return one of these values.
 
 S_OK
-
-Type: '''HRESULT'''
-
-This method can return one of these values.
-
-S_OK
-
-
 }}
-{{Topics|DOM}}
-{{Notes_Section
-|Import_Notes=
-===Syntax===
+{{Examples_Section
+|Not_required=Yes
+|Examples=
 }}
-{{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
-*<code>[[apis/file/MSStreamReader|MSStreamReader]]</code>
+{{Notes_Section}}
+{{Related_Specifications_Section
+|Specifications=
 }}
+{{Compatibility_Section
+|Not_required=Yes
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section}}
+{{Topics|FileAPI}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=
 |HTML5Rocks_link=
 }}
