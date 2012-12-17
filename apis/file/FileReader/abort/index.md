@@ -2,7 +2,9 @@
 {{Flags}}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Aborts a read operation by [[apis/file/FileReader|FileReader]].}}
+{{Summary_Section|Aborts a read operation.
+
+}}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=apis/file/FileReader
