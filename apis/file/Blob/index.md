@@ -54,10 +54,10 @@ reading '''Blob''' data will).
 |Android_version=3.0
 |Android_prefixed_supported=Unknown
 |Android_prefixed_version=
-|Blackberry_supported=Unknown
-|Blackberry_version=
-|Blackberry_prefixed_supported=Yes
-|Blackberry_prefixed_version=10.0
+|Blackberry_supported=Yes
+|Blackberry_version=10.0
+|Blackberry_prefixed_supported=Unknown
+|Blackberry_prefixed_version=
 |Chrome_mobile_supported=Unknown
 |Chrome_mobile_version=
 |Chrome_mobile_prefixed_supported=Unknown
