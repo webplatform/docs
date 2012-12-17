@@ -4,7 +4,7 @@
 |Editorial notes=[[User:Sierra]] has content intended for this page. See bug [https://www.w3.org/Bugs/Public/show_bug.cgi?id=20410 #20410]
 }}
 {{Byline}}
-{{Summary_Section}}
+{{Summary_Section|__SUMMARY__}}
 {{Tutorial
 |Content=__CONTENT__
 }}
