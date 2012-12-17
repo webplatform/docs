@@ -11,8 +11,8 @@
 {{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=W3C HTML5 Specification
-|URL=http://www.w3.org/TR/FileAPI#file
+|Name=W3C File API Specification
+|URL=http://www.w3.org/TR/FileAPI
 |Status=W3C Working Draft
 }}
 }}
