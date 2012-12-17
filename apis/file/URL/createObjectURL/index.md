@@ -28,7 +28,7 @@
 {{Notes_Section
 |Notes=The URL that is created can be used for resources for use with elements such as '''Image''', '''video''', and '''audio'''.
 The object passed in through ''object'' is stored in an internal  hash table.
-''oOptions'' is set when you want to only use the URL once. The [[apis/file/ObjectURLOptions|'''ObjectURLOptions''']] object has one property, ''oneTimeOnly'', that is set to ''false'' by default. To set the URL for the object (blob, stream, and so forth) to single use, use the ObjectURLOptions object and set ''oneTimeOnly'' to ''true''. For URLs created for [[apis/file/MSStream|MSStream]] objects, ''oneTimeOnly'' is automatically set to ''true''.
+''oOptions'' is set when you want to only use the URL once. The [[apis/file/ObjectURLOptions|ObjectURLOptions]] object has one property, ''oneTimeOnly'', that is set to ''false'' by default. To set the URL for the object (blob, stream, and so forth) to single use, use the ObjectURLOptions object and set ''oneTimeOnly'' to ''true''. For URLs created for [[apis/file/MSStream|MSStream]] objects, ''oneTimeOnly'' is automatically set to ''true''.
 To revoke a URL created with  createObjectURL, use [[apis/file/URL/revokeObjectURL|revokeObjectURL]].
 }}
 {{Related_Specifications_Section
