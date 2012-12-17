@@ -14,7 +14,11 @@ interfaces. This tutorial first introduces two-dimensional transforms,
 then shows you how to extend transforms into three-dimensional space.
 }}
 {{Tutorial
-|Content=Transforms alter an element's coordinates in several ways so
+|Content=
+
+==The transform property==
+
+Transforms alter an element's coordinates in several ways so
 that they vary from where they would ordinarily appear. The
 '''transform''' CSS property specifies a handful of transformation
 ''functions'' that can be combined any way you wish:
