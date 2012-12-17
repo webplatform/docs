@@ -1,7 +1,7 @@
 {{Page_Title|Making things move with CSS3 animations}}
 {{Flags
 |High-level issues=Stub
-|Editorial notes=[[User:Sierra]] has content intended for this page
+|Editorial notes=[[User:Sierra]] has content intended for this page. See bug [https://www.w3.org/Bugs/Public/show_bug.cgi?id=20410 #20410]
 }}
 {{Byline}}
 {{Summary_Section}}
@@ -14,7 +14,9 @@
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Topic_clusters=Animation, Transforms, Transistions
+}}
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
