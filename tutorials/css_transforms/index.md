@@ -140,7 +140,9 @@ transforming the underlying rectangle into a parallelogram.  It
 accepts up to two degree ('''deg''') or radian ('''rad''')
 measurements.  The separate [[css/functions/skewX()|'''skewX()''']]
 function tips the side edges of the element, while
-[[css/functions/skewY()|'''skewY()''']] tips the top and bottom.
+[[css/functions/skewY()|'''skewY()''']] tips the top and bottom.  A
+single argument to [[css/functions/skew()|'''skew()''']] only skews
+along the ''x'' axis.
 
  transform: skewX(10deg);               /* 1st */
  transform: skewY(-30deg);              /* 2nd */
