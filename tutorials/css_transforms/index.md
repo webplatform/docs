@@ -26,9 +26,9 @@ that they vary from where they would ordinarily appear. The
 [[css/functions/scale()|'''scale()''']],
 [[css/functions/rotate()|'''rotate()''']], and
 [[css/functions/skew()|'''skew()''']].  Here is how you specify a
-combination of most of the two-dimensional transforms that are
-detailed below, along with a view of how the effect renders relative
-to the element's default position:
+combination of most of the two-dimensional transforms discussed below,
+along with a view of how the effect renders relative to the element's
+default position:
 
  div.card {
     -moz-transform    : translate(50%, 10%) rotate(20deg) scale(0.75);
