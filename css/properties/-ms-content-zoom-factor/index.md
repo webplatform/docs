@@ -1,1 +1,1 @@
-#REDIRECT [[css/properties/ms-content-zoom-factor]]
+#REDIRECT [[css/properties/msContentZoomFactor]]
