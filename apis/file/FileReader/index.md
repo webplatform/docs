@@ -96,12 +96,13 @@ The '''FileReader''' object has these properties.
 |Not_required=No
 |Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
+|Feature=Basic Support
 |Chrome_supported=Yes
-|Chrome_version=6.0
+|Chrome_version=22.0
 |Chrome_prefixed_supported=Unknown
 |Chrome_prefixed_version=
 |Firefox_supported=Yes
-|Firefox_version=3.6
+|Firefox_version=15.0
 |Firefox_prefixed_supported=Unknown
 |Firefox_prefixed_version=
 |Internet_explorer_supported=Yes
@@ -109,7 +110,7 @@ The '''FileReader''' object has these properties.
 |Internet_explorer_prefixed_supported=Unknown
 |Internet_explorer_prefixed_version=
 |Opera_supported=Yes
-|Opera_version=11.1
+|Opera_version=12.1
 |Opera_prefixed_supported=Unknown
 |Opera_prefixed_version=
 |Safari_supported=Yes
@@ -118,6 +119,7 @@ The '''FileReader''' object has these properties.
 |Safari_prefixed_version=
 }}
 |Mobile_rows={{Compatibility Table Mobile Row
+|Feature=Basic Support
 |Android_supported=Yes
 |Android_version=3.0
 |Android_prefixed_supported=Unknown
@@ -126,20 +128,20 @@ The '''FileReader''' object has these properties.
 |Blackberry_version=10.0
 |Blackberry_prefixed_supported=Unknown
 |Blackberry_prefixed_version=
-|Chrome_mobile_supported=Yes
-|Chrome_mobile_version=18.0
+|Chrome_mobile_supported=Unknown
+|Chrome_mobile_version=
 |Chrome_mobile_prefixed_supported=Unknown
 |Chrome_mobile_prefixed_version=
-|Firefox_mobile_supported=Yes
-|Firefox_mobile_version=15.0
+|Firefox_mobile_supported=Unknown
+|Firefox_mobile_version=
 |Firefox_mobile_prefixed_supported=Unknown
 |Firefox_mobile_prefixed_version=
-|IE_mobile_supported=No
+|IE_mobile_supported=Unknown
 |IE_mobile_version=
 |IE_mobile_prefixed_supported=Unknown
 |IE_mobile_prefixed_version=
-|Opera_mobile_supported=Yes
-|Opera_mobile_version=11.5
+|Opera_mobile_supported=Unknown
+|Opera_mobile_version=
 |Opera_mobile_prefixed_supported=Unknown
 |Opera_mobile_prefixed_version=
 |Opera_mini_supported=No
@@ -151,11 +153,7 @@ The '''FileReader''' object has these properties.
 |Safari_mobile_prefixed_supported=Unknown
 |Safari_mobile_prefixed_version=
 }}
-|Notes_rows={{Compatibility Notes Row
-|Browser=Internet Explorer Mobile
-|Version=10.0
-|Note=The feature is implemented, however, disabled.
-}}
+|Notes_rows=
 }}
 {{See_Also_Section}}
 {{Topics|DOM}}
