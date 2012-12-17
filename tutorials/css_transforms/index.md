@@ -1,7 +1,7 @@
 {{Page_Title|Using CSS3 transforms}}
 {{Flags
 |High-level issues=Stub
-|Editorial notes=[[User:Sierra]] has content intended for this page. See bug [https://www.w3.org/Bugs/Public/show_bug.cgi?id=20410 #20410]. Still to do: transform origin, 3D functions, back-view, nested transforms}}
+|Editorial notes=[[User:Sierra]] has content intended for this page. See bug [https://www.w3.org/Bugs/Public/show_bug.cgi?id=20410 #20410]. Still to do here: transform origin, 3D functions, perspective + origin, backview effects, nested transforms}}
 {{Byline}}
 {{Summary_Section|CSS transforms allow you to dynamically manipulate
 how content elements appear. You can move them around on the screen,
@@ -18,24 +18,28 @@ then shows you how to extend transforms into three-dimensional space.
 that they vary from where they would ordinarily appear. The
 '''transform''' CSS property specifies a handful of transformation
 ''functions'' that can be combined any way you wish:
-'''translate()''', '''scale()''', '''rotate()''', and '''skew()'''.
-Here is how you specify a combination of most of the two-dimensional
-transforms that are detailed below, along with a view of how the
-effect renders relative to the element's default position:
+[[css/functions/translate()|'''translate()''']],
+[[css/functions/scale()|'''scale()''']],
+[[css/functions/rotate()|'''rotate()''']], and
+[[css/functions/skew()|'''skew()''']].  Here is how you specify a
+combination of most of the two-dimensional transforms that are
+detailed below, along with a view of how the effect renders relative
+to the element's default position:
 
  div.card {
-    -webkit-transform : translate(50%, 10%) rotate(20deg) scale(0.75);
     -moz-transform    : translate(50%, 10%) rotate(20deg) scale(0.75);
+    -o-transform      : translate(50%, 10%) rotate(20deg) scale(0.75);
+    -webkit-transform : translate(50%, 10%) rotate(20deg) scale(0.75);
     transform         : translate(50%, 10%) rotate(20deg) scale(0.75);
  }
 
 [[Image:transform_combo.png]]
 
 Transform properties were implemented recently enough that many
-browsers only support them with ''vendor prefixes'' such as '''-moz'''
-and '''-webkit''' as shown above. Throughout this tutorial, CSS
-examples only show the un-prefixed property name, but for widest
-support you should apply all of them.
+browsers only support them with ''vendor prefixes'' such as
+'''-moz-''', '''-o-''', and '''-webkit-''' as shown above. Throughout
+this tutorial, CSS examples only show the un-prefixed property name,
+but for widest support you should apply all of them.
 
 Functions are separated by spaces, but any additional arguments are
 separated by commas.
@@ -73,34 +77,37 @@ are implemented, they are specified in much the same way.
 ==2D transform functions==
 
 The following isolates how each 2D function works. The
-'''translate()''' function simply moves an element around on the
-screen, much the same way as using [[css/properties/top|'''top''']]
-and [[css/properties/left|'''left''']] when positioning an
-element. This example moves the card over to the right more than it
-moves it downward:
+[[css/functions/translate()|'''translate()''']] function simply moves
+an element around on the screen, much the same way as using
+[[css/properties/top|'''top''']] and
+[[css/properties/left|'''left''']] when positioning an element. This
+example moves the card over to the right more than it moves it
+downward:
 
  transform: translate(50%, 10%);
 
 [[Image:transform_translate.png]]
 
-The '''translate()''' function accepts up to two ''x'' and ''y''
-values to move to the right and downward. These can specify any CSS
-measurement, including negative values to move left and upward.
-Percentages refer to the size of the element.  If you specify a single
-value, it's interpreted as ''x'' and only moves the element
-horizontally.  Otherwise you can specify separate '''translateX()'''
-and '''translateY()''' functions. Here's another way to express the
-same translation as above:
+The [[css/functions/translate()|'''translate()''']] function accepts
+up to two ''x'' and ''y'' values to move to the right and
+downward. These can specify any CSS measurement, including negative
+values to move left and upward.  Percentages refer to the size of the
+element.  If you specify a single value, it's interpreted as ''x'' and
+only moves the element horizontally.  Otherwise you can specify
+separate [[css/functions/translateX()|'''translateX()''']] and
+[[css/functions/translateY()|'''translateY()''']] functions. Here's
+another way to express the same translation as above:
 
  transform: translateX(50%) translateY(10%);
 
-The '''scale()''' function sizes an element in decimal terms relative
-to a default value of 1. An element whose scale is 2 doubles in size,
-while a scale of 0 makes it disappear. A single '''scale''' value
-applies to the whole element, but supplying two values lets you scale
-each axis independently, as you can also get with separate
-'''scaleX()''' and '''scaleY()''' functions.  The following pairs
-offer different ways to produce the effect below:
+The [[css/functions/scale()|'''scale()''']] function sizes an element
+in decimal terms relative to a default value of 1. An element whose
+scale is 2 doubles in size, while a scale of 0 makes it disappear. A
+single '''scale''' value applies to the whole element, but supplying
+two values lets you scale each axis independently, as you can also get
+with separate [[css/functions/scaleX()|'''scaleX()''']] and
+[[css/functions/scaleY()|'''scaleY()''']] functions.  The following
+pairs offer different ways to produce the effect below:
 
  /* first card */
  transform: scale(0.75);
@@ -111,11 +118,11 @@ offer different ways to produce the effect below:
 
 [[Image:transform_scale.png]]
 
-The '''rotate()''' function spins an element around its ''z'' axis.
-It accepts a degree ('''deg''') or radian ('''rad''')
-measurement. (Radians are equivalent to the number of degrees
-multiplied by &pi;/180.) Measurements can wrap around, so that the
-following values are equilvalent:
+The [[css/functions/rotate()|'''rotate()''']] function spins an
+element around its ''z'' axis.  It accepts a degree ('''deg''') or
+radian ('''rad''') measurement. (Radians are equivalent to the number
+of degrees multiplied by &pi;/180.) Measurements can wrap around, so
+that the following values are equilvalent:
 
  transform: rotate(20deg);
  transform: rotate(380deg);  /*   360  + 20 */
@@ -123,12 +130,13 @@ following values are equilvalent:
 
 [[Image:transform_rotate.png]]
 
-The '''skew()''' function leans an element over, altering its corner
-angle relative to the default 90&deg; and transforming the underlying
-rectangle into a parallelogram.  It accepts up to two degree
-('''deg''') or radian ('''rad''') measurements.  The separate
-'''skewX()''' function tips the side edges of the element, while
-'''skewY()''' tips the top and bottom. 
+The [[css/functions/skew()|'''skew()''']] function leans an element
+over, altering its corner angle relative to the default 90&deg; and
+transforming the underlying rectangle into a parallelogram.  It
+accepts up to two degree ('''deg''') or radian ('''rad''')
+measurements.  The separate [[css/functions/skewX()|'''skewX()''']]
+function tips the side edges of the element, while
+[[css/functions/skewY()|'''skewY()''']] tips the top and bottom.
 
 [[Image:transform_skew.png]]
 
@@ -142,7 +150,8 @@ internally by the browser as a single ''matrix'' expression, which for
 2D transforms consist of six values.  Using the browser's web
 inspector feature, view any transformed element's computed style for
 an example. Here is how the ace of spades in the example above is
-represented as a value for the alternative '''matrix()''' function:
+represented as a value for the alternative
+[[css/functions/matrix()|'''matrix()''']] function:
 
  transform: matrix(1, -0.577, 0.176, 1, 0, 0);
 
