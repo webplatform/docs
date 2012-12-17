@@ -9,7 +9,7 @@
 |Data type=Blob
 |Optional=No
 }}
-|Method_applies_to=apis/file/FileReader; apis/file/FileReaderSync
+|Method_applies_to=apis/file/FileReader apis/file/FileReaderSync
 |Example_object_name=FileReader
 |Javascript_data_type=DOM Node
 |Return_value_description=Type: '''HRESULT'''
