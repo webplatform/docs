@@ -1,9 +1,6 @@
 {{Page_Title}}
-{{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status}}
+{{Flags}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Creates a URL for the specified object.}}
 {{API_Object_Method
@@ -15,7 +12,7 @@
 }}{{Method Parameter
 |Name=options
 |Data type=DOM Node
-|Description=An dictionary object. See [[apis/file/ObjectURLOptions|ObjectURLOptions]] for more information. Used with [[apis/file/properties/oneTimeOnly|'''oneTimeOnly''']] attribute to create a single use URL that does not need to be revoked.
+|Description=A dictionary object. See [[apis/file/ObjectURLOptions|ObjectURLOptions]] for more information. Used with ''oneTimeOnly'' attribute to create a single use URL that does not need to be revoked.
 |Optional=Yes
 }}
 |Method_applies_to=apis/file/URL
@@ -25,17 +22,21 @@
 |Return_value_description=A URL for the specified object.
 }}
 {{Examples_Section
-|Not_required=No
+|Not_required=Yes
 |Examples=
 }}
 {{Notes_Section
-|Notes=The URL that is created can be used for resources for use with elements such as [[dom/images|'''Image''']], '''video''', and '''audio'''.
+|Notes=The URL that is created can be used for resources for use with elements such as '''Image''', '''video''', and '''audio'''.
 The object passed in through ''object'' is stored in an internal  hash table.
-''oOptions'' is set when you want to only use the URL once. The [[apis/file/ObjectURLOptions|'''ObjectURLOptions''']] object has one property, [[apis/file/properties/oneTimeOnly|'''oneTimeOnly''']], that is set to '''false''' by default. To set the URL for the object (blob, stream, and so forth)  to single use, use the '''ObjectURLOptions''' object and set '''oneTimeOnly''' to '''true'''. For URLs created for [[apis/file/MSStream|'''MSStream''']] objects, '''oneTimeOnly''' is automatically set to '''true'''.
-To revoke a URL created with  '''createObjectURL''', use [[apis/file/methods/revokeObjectURL|'''revokeObjectURL''']].
+''oOptions'' is set when you want to only use the URL once. The [[apis/file/ObjectURLOptions|'''ObjectURLOptions''']] object has one property, ''oneTimeOnly'', that is set to ''false'' by default. To set the URL for the object (blob, stream, and so forth) to single use, use the ObjectURLOptions object and set ''oneTimeOnly'' to ''true''. For URLs created for [[apis/file/MSStream|MSStream]] objects, ''oneTimeOnly'' is automatically set to ''true''.
+To revoke a URL created with  createObjectURL, use [[apis/file/URL/revokeObjectURL|revokeObjectURL]].
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=W3C File API Specification
+|URL=http://www.w3.org/TR/FileAPI
+|Status=W3C Working Draft
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -100,14 +101,11 @@ To revoke a URL created with  '''createObjectURL''', use [[apis/file/methods/rev
 }}
 |Notes_rows=
 }}
-{{See_Also_Section
-|Manual_sections=*<code>[[apis/file/methods/revokeObjectURL|revokeObjectURL]]</code>
-}}
+{{See_Also_Section}}
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
 |MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|MSDN_link=
 |HTML5Rocks_link=
 }}
