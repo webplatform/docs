@@ -5,7 +5,9 @@
 }}
 {{Byline}}
 {{Summary_Section}}
-{{Tutorial}}
+{{Tutorial
+|Content=[[User:Sierra|Sierra]] ([[User talk:Sierra|talk]])CONTENT[[User:Sierra|Sierra]] ([[User talk:Sierra|talk]])
+}}
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
