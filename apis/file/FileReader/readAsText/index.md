@@ -27,7 +27,7 @@ S_OK
 |Examples=
 }}
 {{Notes_Section
-|Notes=This method asynchronously starts reading the contents of the specified [[apis/file/File|File]] or [[apis/file/Blob|Blob]]. When the read operation is complete, <code>readyState</code> will become <code>DONE</code> and the <code>onloadend</code> event handler (that is, callback), if present, will be invoked. At that time, the <code>result</code> property contains the contents of the file as a text string.
+|Notes=This method asynchronously starts reading the contents of the specified File. When the read operation is complete, <code>readyState</code> will become <code>DONE</code> and the <code>onloadend</code> event handler (that is, callback), if present, will be invoked. At that time, the <code>result</code> property contains the contents of the file as a text string.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
