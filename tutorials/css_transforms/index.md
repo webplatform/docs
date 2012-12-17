@@ -1,7 +1,7 @@
 {{Page_Title|Using CSS3 transforms}}
 {{Flags
 |High-level issues=Stub
-|Editorial notes=[[User:Sierra]] has content intended for this page. See bug [https://www.w3.org/Bugs/Public/show_bug.cgi?id=20410 #20410]. Still to do: transform origin, 3D functions, backview, nested transforms}}
+|Editorial notes=[[User:Sierra]] has content intended for this page. See bug [https://www.w3.org/Bugs/Public/show_bug.cgi?id=20410 #20410]. Still to do: transform origin, 3D functions, back-view, nested transforms}}
 {{Byline}}
 {{Summary_Section|CSS transforms allow you to dynamically manipulate
 how content elements appear. You can move them around on the screen,
