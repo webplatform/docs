@@ -27,7 +27,7 @@
 |Desktop_rows={{Compatibility Table Desktop Row
 |Feature=Basic Support
 |Chrome_supported=Yes
-|Chrome_version=23.0
+|Chrome_version=22.0
 |Chrome_prefixed_supported=Unknown
 |Chrome_prefixed_version=
 |Firefox_supported=Yes
@@ -38,24 +38,25 @@
 |Internet_explorer_version=10.0
 |Internet_explorer_prefixed_supported=Unknown
 |Internet_explorer_prefixed_version=
-|Opera_supported=No
-|Opera_version=
+|Opera_supported=Yes
+|Opera_version=12.1
 |Opera_prefixed_supported=Unknown
 |Opera_prefixed_version=
-|Safari_supported=Unknown
-|Safari_version=
-|Safari_prefixed_supported=Yes
-|Safari_prefixed_version=6.0
+|Safari_supported=Yes
+|Safari_version=6.0
+|Safari_prefixed_supported=Unknown
+|Safari_prefixed_version=
 }}
 |Mobile_rows={{Compatibility Table Mobile Row
-|Android_supported=Unknown
-|Android_version=
-|Android_prefixed_supported=Yes
-|Android_prefixed_version=4.0
-|Blackberry_supported=Unknown
-|Blackberry_version=
-|Blackberry_prefixed_supported=Yes
-|Blackberry_prefixed_version=10.0
+|Feature=Basic Support
+|Android_supported=Yes
+|Android_version=3.0
+|Android_prefixed_supported=Unknown
+|Android_prefixed_version=
+|Blackberry_supported=Yes
+|Blackberry_version=10.0
+|Blackberry_prefixed_supported=Unknown
+|Blackberry_prefixed_version=
 |Chrome_mobile_supported=Unknown
 |Chrome_mobile_version=
 |Chrome_mobile_prefixed_supported=Unknown
@@ -76,10 +77,10 @@
 |Opera_mini_version=
 |Opera_mini_prefixed_supported=Unknown
 |Opera_mini_prefixed_version=
-|Safari_mobile_supported=Unknown
-|Safari_mobile_version=
-|Safari_mobile_prefixed_supported=Yes
-|Safari_mobile_prefixed_version=6.0
+|Safari_mobile_supported=Yes
+|Safari_mobile_version=6.0
+|Safari_mobile_prefixed_supported=Unknown
+|Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
 }}
