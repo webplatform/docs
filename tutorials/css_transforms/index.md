@@ -17,7 +17,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=Animation, Transforms, Transistions
+|Topic_clusters=Transforms
 }}
 {{Topics|CSS}}
 {{External_Attribution
