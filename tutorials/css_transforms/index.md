@@ -1,7 +1,7 @@
 {{Page_Title|Using CSS3 transforms}}
 {{Flags
 |High-level issues=Stub
-|Editorial notes=[[User:Sierra]] has content intended for this page. See bug [https://www.w3.org/Bugs/Public/show_bug.cgi?id=20410 #20410]. Still to do: conclusion; clarify perspective() and scaleZ() functions}}
+|Editorial notes=[[User:Sierra]] has content intended for this page. See bug [https://www.w3.org/Bugs/Public/show_bug.cgi?id=20410 #20410]. Still to do: conclusion; clarify perspective() and scaleZ() functions; live samples}}
 {{Byline}}
 {{Summary_Section|CSS transforms allow you to dynamically manipulate
 the space in which content elements appear. You can move them around
