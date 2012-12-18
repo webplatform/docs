@@ -1,7 +1,7 @@
 {{Page_Title|Using CSS3 transforms}}
 {{Flags
 |High-level issues=Stub
-|Editorial notes=[[User:Sierra]] has content intended for this page. See bug [https://www.w3.org/Bugs/Public/show_bug.cgi?id=20410 #20410]. Still to do here: 3D functions, backview effects, nested transforms}}
+|Editorial notes=[[User:Sierra]] has content intended for this page. See bug [https://www.w3.org/Bugs/Public/show_bug.cgi?id=20410 #20410]. Still to do here: nested transforms}}
 {{Byline}}
 {{Summary_Section|CSS transforms allow you to dynamically manipulate
 how content elements appear. You can move them around on the screen,
@@ -299,9 +299,10 @@ as the 2D [[css/functions/rotate()|'''rotate()''']] function.
 
 An alternative [[css/functions/rotate3d()|'''rotate3d()''']] function
 requires four arguments. The first three measurements specify a point
-defining a 3D vector from the origin of the element. (For example,
-setting the vector to '''1,-0.25,0.25''' spins the object as if it
-were a child's top leaning slightly forward and to the left.) The
+defining a 3D vector in ''x''/''y''/''z'' terms from the origin of the
+element.  (For example, setting the vector to '''-0.2,1,0.2''' spins
+the object as if it were a child's top leaning slightly forward and to
+the left, while setting it to '''0,1,0''' would straighten it.)  The
 fourth argument specifies the angle of rotation around that vector,
 using '''deg''' or '''rad''' measurements.
 
@@ -409,6 +410,158 @@ functions. Here's how an element might appear within the web
 inspector's computed style panel:
 
  transform: matrix3d(0.642, 0, 0.766, 0, 0, 1, 0, 0, -0.766, 0, 0.642, 0, 0, 0, 0, 1);
+
+
+==Nested 3D transforms==
+
+Applying a 3D rotation to an element aligns it to a different plane
+than that of the viewing screen. Applying 3D translations and scale
+effects also overrides the default coordinate system.  The
+[[css/properties/transform-style|'''transform-style''']] property
+allows you to transform nested content independently within that
+already modified space.
+
+To clarify how to use this feature, this extended example builds a
+cube representing playing dice that can spin freely. The entire markup
+appears like this:
+
+ &lt;div class="scene">
+     &lt;div class="dice">
+         &lt;div class="centered">
+             &lt;div class="face">&lt;/div>
+             &lt;div class="face">&lt;/div>
+             &lt;div class="face">&lt;/div>
+             &lt;div class="face">&lt;/div>
+             &lt;div class="face">&lt;/div>
+             &lt;div class="face">&lt;/div>
+         &lt;/div>
+     &lt;/div>
+ &lt;/div>
+
+Global styles define absolutely positioned 100-pixel-square boxes. The
+outlines will help clarify each nested transform:
+
+ div {
+     box-sizing     : border-box;
+     position       : absolute;
+     width          : 100px;
+     height         : 100px;
+     outline-offset : 20px;
+     outline-width  : 3px;
+     outline-style  : solid;
+ }
+
+The outermost ''scene'' element defines the overall perspective:
+
+ .scene {
+     perspective   : 500;
+     outline-color : pink;
+ }
+
+[[Image:3Dnest_scene.png]]
+
+The next ''dice'' element is rotated arbitrarily:
+
+ .dice {
+     transform       : rotateX(30deg) rotateY(50deg) rotateZ(20deg);
+     transform-style : preserve-3d;
+     outline-color   : lightgreen;
+ }
+
+[[Image:3Dnest_dice.png]]
+
+The '''preserve-3d''' above means that any transforms that are applied
+to the ''dice'' element's children render relative to its own
+transformed space. Otherwise they use the default '''flat''', as if
+the ''dice'' element were a screen on which they display.
+
+In this case, the nested ''centered'' element is there simply to drop
+the cube back to accomodate its volume:
+
+ .centered {
+     transform       : translateZ(-50px);
+     transform-style : preserve-3d;
+     outline-color   : gold;
+ }
+
+[[Image:3Dnest_centered.png]]
+
+Various properties define the dice's edges with rounded corners, along
+with the small dot images that will be arranged to form a pattern on
+each face. Only one dot displays in the first face's pattern:
+
+ .face {
+     border-radius       : 6px;
+     border              : 2px solid #777;
+     background-color    : #fff;
+     background-repeat   : no-repeat;
+     background-image    : url(dot.png), url(dot.png), url(dot.png),
+                           url(dot.png), url(dot.png), url(dot.png);
+     outline-color       : transparent;
+ }
+ .face:nth-of-type(1) {
+     background-position : 40px 40px, -20px -20px, -20px -20px,
+                          -20px -20px, -20px -20px, -20px -20px;
+ }
+ 
+[[Image:3Dnest_face1.png]]
+
+The next four faces rotate along each edge of the first face:
+
+ .face:nth-of-type(2) {
+     transform           : rotateY(-90deg);
+     transform-origin    : left;
+     background-position : 10px 10px, -20px -20px, -20px -20px,
+                          -20px -20px, -20px -20px, 70px 70px;
+ }
+ .face:nth-of-type(3) {
+     transform           : rotateY(90deg);
+     transform-origin    : right;
+     background-position : 10px 10px, 40px 40px, -20px -20px,
+                          -20px -20px, -20px -20px, 70px 70px;
+ }
+ .face:nth-of-type(4) {
+     transform           : rotateX(90deg);
+     transform-origin    : top;
+     background-position : 10px 10px, -20px -20px, 10px 70px,
+                           70px 10px, -20px -20px, 70px 70px;
+ }
+ .face:nth-of-type(5) {
+     transform           : rotateX(-90deg);
+     transform-origin    : bottom;
+     background-position : 10px 10px, -20px -20px, 10px 70px,
+                           70px 10px, 40px 40px, 70px 70px;
+ }
+ 
+[[Image:3Dnest_face5.png]]
+
+The sixth face is rotated to face the opposite direction than the
+first face, then uses '''translateZ()''' to drop it back to close off
+the cube:
+
+ .face:nth-of-type(6) {
+     transform           : rotateX(-180deg) translateZ(-100px);
+     transform-origin    : center;
+     background-position : 10px 10px, 10px 40px, 10px 70px,
+                           70px 10px, 70px 40px, 70px 70px;
+ }
+
+[[Image:3Dnest_faces.png]]
+
+Applying different rotations to the ''dice'' element causes nested
+transform spaces to render relative to it, thus spinning the entire
+object. Here is how a script can control the spin:
+
+ var diceStyle = document.querySelector('.dice').style;
+ diceStyle.transform = 'rotateX(' + spin() + ') ' + 'rotateY(' +
+        spin() + ') ' + 'rotateZ(' + spin() + ') ' ;
+ // ...or diceStyle.WebkitTransform, diceStyle.MozTransform, etc.
+ 
+ function spin() { return( Math.floor( Math.random() * 360 ) + 'deg') }
+
+[[Image:3Dnest_spin.png]]
+
+
 
 
 
