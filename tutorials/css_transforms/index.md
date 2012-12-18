@@ -405,7 +405,15 @@ only one of the child ''face'' elements displays at a time:
 While 2D transforms can be represented as a 6-element
 [[css/functions/matrix()|'''matrix()''']] function, 3D transforms
 correspond to 16-element [[css/functions/matrix3d()|'''matrix3d()''']]
-functions.
+functions. Here's how an element might appear within the web
+inspector's computed style panel:
+
+ transform: matrix3d(0.642, 0, 0.766, 0, 0, 1, 0, 0, -0.766, 0, 0.642, 0, 0, 0, 0, 1);
+
+
+
+
+
 
 }}
 {{Notes_Section}}
