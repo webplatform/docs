@@ -1,7 +1,7 @@
 {{Page_Title|Using CSS3 transforms}}
 {{Flags
 |High-level issues=Stub
-|Editorial notes=[[User:Sierra]] has content intended for this page. See bug [https://www.w3.org/Bugs/Public/show_bug.cgi?id=20410 #20410]. Still to do here: transform origin, 3D functions, perspective + origin, backview effects, nested transforms}}
+|Editorial notes=[[User:Sierra]] has content intended for this page. See bug [https://www.w3.org/Bugs/Public/show_bug.cgi?id=20410 #20410]. Still to do here: 3D functions, perspective + origin, backview effects, nested transforms}}
 {{Byline}}
 {{Summary_Section|CSS transforms allow you to dynamically manipulate
 how content elements appear. You can move them around on the screen,
@@ -19,10 +19,10 @@ then shows you how to extend transforms into three-dimensional space.
 ==The transform property==
 
 Transforms alter a block element's coordinates in several ways so that
-they vary from where they would ordinarily appear. The '''transform'''
-CSS property specifies a handful of transformation ''functions'' that
-can be combined any way you wish:
-[[css/functions/translate()|'''translate()''']],
+they vary from where they would ordinarily appear. The
+[[css/properties/transform|'''transform''']] CSS property specifies a
+handful of transformation ''functions'' that can be combined any way
+you wish: [[css/functions/translate()|'''translate()''']],
 [[css/functions/scale()|'''scale()''']],
 [[css/functions/rotate()|'''rotate()''']], and
 [[css/functions/skew()|'''skew()''']].  Here is how you specify a
@@ -82,9 +82,9 @@ are implemented, they are specified in much the same way.
 
 The following isolates how each 2D function works. The
 [[css/functions/translate()|'''translate()''']] function simply moves
-an element around on the screen, much the same way as using
+an element around on the screen, much the same as when using
 [[css/properties/top|'''top''']] and
-[[css/properties/left|'''left''']] when positioning an element. This
+[[css/properties/left|'''left''']] to position an element. This
 example moves the card over to the right more than it moves it
 downward:
 
@@ -96,9 +96,9 @@ The [[css/functions/translate()|'''translate()''']] function accepts
 up to two ''x'' and ''y'' values to move to the right and
 downward. These can specify any CSS measurement, including negative
 values to move left and upward.  Percentages refer to the size of the
-element.  If you specify a single value, it's interpreted as ''x'' and
-only moves the element horizontally.  Otherwise you can specify
-separate [[css/functions/translateX()|'''translateX()''']] and
+transformed element.  If you specify a single value, it's interpreted
+as ''x'' and only moves the element horizontally.  Otherwise you can
+specify separate [[css/functions/translateX()|'''translateX()''']] and
 [[css/functions/translateY()|'''translateY()''']] functions. Here's
 another way to express the same translation as above:
 
@@ -106,12 +106,12 @@ another way to express the same translation as above:
 
 The [[css/functions/scale()|'''scale()''']] function sizes an element
 in decimal terms relative to a default value of 1. An element whose
-scale is 2 doubles in size, while a scale of 0 makes it disappear. A
-single '''scale''' value applies to the whole element, but supplying
+scale is 2 doubles in size, while a scale of 0 vanishes into a point.
+A single '''scale''' value applies to the whole element, but setting
 two values lets you scale each axis independently, as you can also get
 with separate [[css/functions/scaleX()|'''scaleX()''']] and
 [[css/functions/scaleY()|'''scaleY()''']] functions.  The following
-pairs offer different ways to produce the effect below:
+pairs offer different ways to produce the effects shown below:
 
  /* first card */
  transform: scale(0.75);
@@ -125,8 +125,8 @@ pairs offer different ways to produce the effect below:
 The [[css/functions/rotate()|'''rotate()''']] function spins an
 element around its ''z'' axis.  It accepts a degree ('''deg''') or
 radian ('''rad''') measurement. (Radians are equivalent to the number
-of degrees multiplied by &pi;/180.) Measurements can wrap around, so
-that the following values are equilvalent:
+of degrees multiplied by &pi;/180.) Radial measurements can wrap
+around, so the following values are equivalent:
 
  transform: rotate(20deg);
  transform: rotate(380deg);  /*   360  + 20 */
@@ -140,9 +140,9 @@ transforming the underlying rectangle into a parallelogram.  It
 accepts up to two degree ('''deg''') or radian ('''rad''')
 measurements.  The separate [[css/functions/skewX()|'''skewX()''']]
 function tips the side edges of the element, while
-[[css/functions/skewY()|'''skewY()''']] tips the top and bottom.  A
-single argument to [[css/functions/skew()|'''skew()''']] only skews
-along the ''x'' axis.
+[[css/functions/skewY()|'''skewY()''']] tips the top and bottom.
+Setting a single [[css/functions/skew()|'''skew()''']] value affects
+only the ''x'' axis.
 
  transform: skewX(10deg);               /* 1st */
  transform: skewY(-30deg);              /* 2nd */
@@ -153,16 +153,16 @@ along the ''x'' axis.
 
 Note that combining ''x'' and ''y'' skews makes the element appear to
 move into three-dimensional space, but the transformation actually
-occurs within a flat plane. (Skip below for information about 3D
-transforms.)
+occurs within a flat plane. Skip below for information about 3D
+transforms.
 
-'''Note:''' All of the transformations described above are represented
-internally by the browser as a single ''matrix'' expression, which for
-2D transforms consist of six values.  Using the browser's web
-inspector feature, view any transformed element's computed style for
-an example. Here is how the ace of spades in the example above is
-represented as a value for the alternative
-[[css/functions/matrix()|'''matrix()''']] function:
+'''Note:''' Browsers internally represent all of the transformations
+described above as a single ''matrix'' expression, which for 2D
+transforms consist of six values.  Using the web inspector feature,
+you can view any transformed element's computed style for an example,
+and use the the alternative [[css/functions/matrix()|'''matrix()''']]
+function to specify those values.  Here is how the ace of spades in
+the example above is represented as a matrix value:
 
  transform: matrix(1, -0.577, 0.176, 1, 0, 0);
 
@@ -171,53 +171,125 @@ represented as a value for the alternative
 By default, transforms ''originate'' from the center of the element,
 or 50% along both ''x'' and ''y''.  If you scale it down, it shrinks
 towards the center, or else you rotate it around its center point.
-The '''transform-origin''' property allows you to place this origin
-point elsewhere, even outside the element, changing how transforms
-respond.  It accepts a pair of ''x''/''y'' measurements, or else you
-can specify '''transform-origin-x''' and '''transform-origin-y'''
-separately.
+The [[css/properties/transform-origin|'''transform-origin''']]
+property allows you to place this origin point elsewhere, even outside
+the element, changing how transforms respond, especially in animations.
+It accepts a pair of ''x''/''y'' measurements, or else you can specify
+'''transform-origin-x''' and '''transform-origin-y''' separately.
 
 This shows a series of transforms that rotate around a point near the
 bottom right corner:
 
- div                { transform-origin : 80% 90%       ; }
- div:nth-of-type(1) { transform        : rotate(0deg)  ; }
- div:nth-of-type(2) { transform        : rotate(10deg) ; }
- div:nth-of-type(3) { transform        : rotate(20deg) ; }
+ div {
+     transform-origin-x : 80%     ;
+     transform-origin-y : 90%     ;
+     transform-origin	: 80% 90% ; /* same as above */
+ }
+ div:nth-of-type(1) { transform : rotate(10deg) ; }
+ div:nth-of-type(2) { transform : rotate(20deg) ; }
+ div:nth-of-type(3) { transform : rotate(30deg) ; }
 
 [[Image:origin_rotate.png]]
 
 In this example, placing the origin of a skew transform at the bottom
-makes it appear to tip:
+makes it appear to tip over:
 
  div {
     transform          : skewX(15deg);
     transform-origin-y : 100%;
+    transform-origin-y : bottom; /* same as 100% */
  }
 
 [[Image:origin_skew.png]]
 
-The property also accepts the keywords '''top''' and '''left''' for
+The property accepts the keywords '''top''' and '''left''' for
 '''0%''', '''bottom''' and '''right''' for '''100%''', and
 '''center''' for '''50% 50%'''.
 
 In the first of the following examples, placing the origin of a
 [[css/functions/scaleX()|'''scaleX()''']] transform along one edge
-makes it appear to pivot. In the second, placing the origin far
-outside the element moves it across the screen with no need for the
-[[css/functions/translate()|'''translate()''']] function:
+makes it appear to pivot along that edge. In the second, placing the
+origin far outside the element's boundaries moves it across the screen
+with no need for the [[css/functions/translate()|'''translate()''']]
+function:
 
  div:first-of-type {
     -webkit-transform          : scale(0.35, 1);
     -webkit-transform-origin-x : 0%;
+    -webkit-transform-origin-x : left; /* same as 0% */
  }
- 
  div:last-of-type {
     -webkit-transform-origin   : 210% -20%;
     -webkit-transform          : scale(0.5);
  }
 
 [[Image:origin_scale.png]]
+
+
+==You need some perspective==
+
+You really do.  Though they often take on the illusion of three
+dimensions, 2D transforms are strictly superficial, inhabiting the
+plane of the display screen. Three dimensional transforms allow
+ordinary web content, which is still inherently flat, to shift onto
+other planes.  But before applying the 3D transform functions
+discussed below, you need to position the scene relative to the
+viewer.
+
+Applying ''perspective'' to an an element indicates the viewer's
+perceived distance to any transformed descendent elements.  The
+[[css/properties/perspective|'''perspective''']] property sets a
+number of CSS pixels along the ''z'' axis that leads from the screen
+to the viewer.  Since ordinary web content is inherently flat, all
+measurements along the ''z'' axis ''must'' specify absolute units such
+as pixels, rather than relative percentages that make sense along
+''x'' and ''y''.
+
+The default [[css/properties/perspective|'''perspective''']] value of
+'''none''' indicates an infinite perspective, which appears flat.  A
+value in the range of 1000 to 2000 mimics the distance at which people
+typically view their screen.  Perspective values of less than 1000
+appear increasingly distorted, but may be desirable for immersive
+virtual reality applications in which the viewer appears to mingle
+among displaying elements.
+
+The first scene in the example below shows a 3D rotation that appears
+flat before applying [[css/properties/perspective|'''perspective''']],
+while the second shows a distance of 1000.  The ancestor element's
+[[css/properties/border|'''border''']] reveals how the descendant's
+plane has shifted.
+
+<pre>
+.parent {
+    border		: thin solid #000;
+    perspective		: 1000;
+    perspective-origin	: 50% 50%;
+}
+.child {
+    transform		: rotateY(45deg);
+}
+</pre>
+
+[[Image:transform_perspective.png]]
+
+While [[css/properties/perspective|'''perspective''']] affects the
+perceived distance to an object along the ''z'' axis, the
+[[css/properties/perspective-origin|'''perspective-origin''']]
+property allows you to shift the perceived location along ''x'' and
+''y'' from which it is viewed. The second scene reflects the default
+'''center''' value in which the viewpoint is centered straight out
+from the screen.  Altering these values positions the viewer
+diagonally from the scene.  The third scene shows the same rotation,
+but with the viewpoint shifted to the right:
+
+ perspective-origin-x : 500px;
+
+This only affects how the transformed element appears, not the
+ancestor that specifies the perspective.  Note that since percentages
+refer to the size of the transformed element, pixel units may be
+easier to use.
+
+
 
 
 }}
