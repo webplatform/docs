@@ -1,4 +1,4 @@
-=Element changes or obsolete in HTML5=
+=Elements changed or obsolete in HTML5=
 ==Changed Elements== 
 There are 11 elements that were changed in HTML5:
 * '''[[html/elements/a|a]]:''' hyperlink
