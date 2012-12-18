@@ -10,7 +10,7 @@ Our general web concepts are concept and tutorial articles covering general subj
 
   <div class="long-topic">
   
-    <div class="image"></div>
+    <div class="image icon-concept"></div>
     
     <div class="inner">
     <h3>[[concepts/internet and web|Internet and Web]]</h3>
@@ -22,7 +22,7 @@ Our general web concepts are concept and tutorial articles covering general subj
   
   <div class="long-topic">
   
-    <div class="image"></div>
+    <div class="image icon-concept"></div>
     
     <div class="inner">
     <h3>[[concepts/general programming|General programming]]</h3>
@@ -34,7 +34,7 @@ Our general web concepts are concept and tutorial articles covering general subj
  
     <div class="long-topic">
   
-    <div class="image"></div>
+    <div class="image icon-concept"></div>
     
     <div class="inner">
     <h3>[[concepts/ia and usability|Information architecture / usability]]</h3>
@@ -47,7 +47,7 @@ Our general web concepts are concept and tutorial articles covering general subj
   
     <div class="long-topic">
   
-    <div class="image"></div>
+    <div class="image icon-concept"></div>
     
     <div class="inner">
     <h3>[[concepts/mobile and devices|Mobile and devices]]</h3>
@@ -60,7 +60,7 @@ Our general web concepts are concept and tutorial articles covering general subj
   
     <div class="long-topic">
   
-    <div class="image"></div>
+    <div class="image icon-concept"></div>
     
     <div class="inner">
     <h3>[[concepts/web design|Designing the Web]]</h3>
@@ -73,7 +73,7 @@ Our general web concepts are concept and tutorial articles covering general subj
   
     <div class="long-topic">
   
-    <div class="image"></div>
+    <div class="image icon-concept"></div>
     
     <div class="inner">
     <h3>[[concepts/cross browser|Cross browser techniques]]</h3>
