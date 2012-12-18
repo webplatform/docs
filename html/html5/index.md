@@ -1,3 +1,7 @@
+=HTML5=
+
+==Summary==
+
 HTML5 is the newest revision of the HyperText Markup Language. It updates and replaces HTML 4.01 and XHTML 1.1. It is being standardized at W3C, and jointly developed by W3C and WHATWG. It is currently in W3C's [[Standards/W3C_Process#Candidate_Recommendation|Candidate Recommendation]] phase, and is expected to be finalized as a [[Standards/W3C_Process#Recommendation|Recommendation]] in 2014.
 
 For more information, there is a developer-friendly version of the spec, [http://www.w3.org/TR/html-markup/ HTML: The Markup Language], and a [http://www.w3.org/TR/html5-diff/ HTML5 differences from HTML4] document to find out what's changed.
