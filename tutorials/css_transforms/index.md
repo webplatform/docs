@@ -202,9 +202,10 @@ The property also accepts the keywords '''top''' and '''left''' for
 '''center''' for '''50% 50%'''.
 
 In the first of the following examples, placing the origin of a
-'''scaleX()''' transform along one edge makes it appear to pivot. In
-the second, placing the origin far outside the element moves it across
-the screen much as specifying '''translate()''' would:
+[[css/functions/scaleX()|'''scaleX()''']] transform along one edge
+makes it appear to pivot. In the second, placing the origin far
+outside the element moves it across the screen with no need for the
+[[css/functions/translate()|'''translate()''']] function:
 
  div:first-of-type {
     -webkit-transform          : scale(0.35, 1);
