@@ -219,9 +219,6 @@ the screen much as specifying '''translate()''' would:
 [[Image:origin_scale.png]]
 
 
-
-
-
 }}
 {{Notes_Section}}
 {{Compatibility_Section
