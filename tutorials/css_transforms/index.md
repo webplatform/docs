@@ -381,14 +381,14 @@ only one of the child ''face'' elements displays at a time:
  }
  .card {
      left		: 0px;
-     /* vary this to rotate entire card: */
+         /* vary this to rotate entire card: */
      transform		: rotateY(45deg);
-     /* this allows each face to rotate within the card: */
+         /* this allows each face to rotate within the card: */
      transform-style	: preserve-3d;
  }
  .face {
      background-size	: 100% 100%;
-     /* only display when facing viewer: */
+         /* only display when facing viewer: */
      backface-visibility	: hidden;
  }
  .face:first-of-type {
