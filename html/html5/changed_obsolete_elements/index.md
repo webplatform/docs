@@ -1,4 +1,5 @@
-===Changed Elements=== 
+=Element changes or obsolete in HTML5=
+==Changed Elements== 
 There are 11 elements that were changed in HTML5:
 * '''[[html/elements/a|a]]:''' hyperlink
 * '''[[html/elements/b|b]]:''' offset text conventionally styled in bold
@@ -12,7 +13,7 @@ There are 11 elements that were changed in HTML5:
 * '''[[html/elements/s|s]]:''' struck text
 * '''[[html/elements/u|u]]:''' offset text conventionally styled with an underline
 
-===Obsolete Elements=== 
+==Obsolete Elements==
 Several existing elements were declared obsolete in HTML5, though for the sake of completeness and handling legacy content, they are still defined in the specification. However, authors should not use these elements.
 
 There are different reasons for these elements being made obsolete: 
