@@ -102,7 +102,7 @@ To revoke a URL created with  createObjectURL, use [[apis/file/URL/revokeObjectU
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|DOM}}
+{{Topics|FileAPI}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
