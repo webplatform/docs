@@ -1,17 +1,18 @@
 {{Page_Title|Using CSS3 transforms}}
 {{Flags
 |High-level issues=Stub
-|Editorial notes=[[User:Sierra]] has content intended for this page. See bug [https://www.w3.org/Bugs/Public/show_bug.cgi?id=20410 #20410]. Still to do here: nested transforms}}
+|Editorial notes=[[User:Sierra]] has content intended for this page. See bug [https://www.w3.org/Bugs/Public/show_bug.cgi?id=20410 #20410]. Still to do: clarify perspective() and scaleZ() functions}}
 {{Byline}}
 {{Summary_Section|CSS transforms allow you to dynamically manipulate
-how content elements appear. You can move them around on the screen,
-shrink or expand them, rotate them, or combine all these effects to
-produce complex movements.  By themselves, transforms produce static
-visual effects, but can be easily combined with CSS
+the space in which content elements appear. You can move them around
+on the screen, shrink or expand them, rotate them, or combine all
+these effects to produce complex movements.  By themselves, transforms
+produce static visual effects, but can be easily combined with CSS
 [[tutorials/css_transitions|transitions]] and
 [[tutorials/css_animations|keyframe animations]] to produce vibrant
 interfaces. This tutorial first introduces two-dimensional transforms,
 then shows you how to extend transforms into three-dimensional space.
+It ends with step-by-step instructions to spin a cube.
 }}
 {{Tutorial
 |Content=
@@ -74,9 +75,9 @@ of a screen element, using the 3D transforms described below:
     gestural.style.WebkitTransform = 'rotateX(' + (e.beta * -1) + 'deg) ' + 'rotateY(' + e.gamma + 'deg)';
  }
 
-Transforms are used by several different web technologies, such as SVG
-and the '''canvas''' element. Despite slight differences in how they
-are implemented, they are specified in much the same way.
+Several different technologies such as SVG and the '''canvas'''
+element implement transforms, and are all conceptually similar despite
+slight differences in how they are implemented.
 
 ==2D transform functions==
 
@@ -382,7 +383,7 @@ only one of the child ''face'' elements displays at a time:
  }
  .card {
      left		: 0px;
-         /* vary this to rotate entire card: */
+         /* vary this to rotate the entire card: */
      transform		: rotateY(45deg);
          /* this allows each face to rotate within the card: */
      transform-style	: preserve-3d;
@@ -470,13 +471,13 @@ The next ''dice'' element is rotated arbitrarily:
 
 [[Image:3Dnest_dice.png]]
 
-The '''preserve-3d''' above means that any transforms that are applied
-to the ''dice'' element's children render relative to its own
-transformed space. Otherwise they use the default '''flat''', as if
-the ''dice'' element were a screen on which they display.
+The '''preserve-3d''' above renders any child element's transforms in
+three dimensions relative to the ''dice'' element's own transformed
+space. Otherwise the default '''flat''' value would make them appear
+on the ''dice'' element's surface as if on a display screen.
 
-In this case, the nested ''centered'' element is there simply to drop
-the cube back to accomodate its volume:
+In this case, the nested ''centered'' element is there simply as a
+convenience to drop the cube back to accomodate its full volume:
 
  .centered {
      transform       : translateZ(-50px);
@@ -506,7 +507,7 @@ each face. Only one dot displays in the first face's pattern:
  
 [[Image:3Dnest_face1.png]]
 
-The next four faces rotate along each edge of the first face:
+The next four faces pivot outward along each edge of the first face:
 
  .face:nth-of-type(2) {
      transform           : rotateY(-90deg);
@@ -535,12 +536,14 @@ The next four faces rotate along each edge of the first face:
  
 [[Image:3Dnest_face5.png]]
 
-The sixth face is rotated to face the opposite direction than the
-first face, then uses '''translateZ()''' to drop it back to close off
-the cube:
+Note that all the backfaces are visible, and are only hidden because
+other opaque boxes appear in front of them.
+
+The sixth face simply uses '''translateZ()''' to drop it back to close
+off the cube:
 
  .face:nth-of-type(6) {
-     transform           : rotateX(-180deg) translateZ(-100px);
+     transform           : translateZ(-100px);
      transform-origin    : center;
      background-position : 10px 10px, 10px 40px, 10px 70px,
                            70px 10px, 70px 40px, 70px 70px;
