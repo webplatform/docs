@@ -1,3 +1,5 @@
+=General web concepts=
+
 ==Summary==
 
 Our general web concepts are concept and tutorial articles covering general subjects related to the web and web design and development, such as how the web works, information architecture, typography and web design. These do not directly tie in with specific technologies and techniques covered in the other major site topics, but they will inevitably reference such technologies, for example responsive web design involves HTML, CSS, JavaScript, etc.
