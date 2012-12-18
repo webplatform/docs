@@ -18,10 +18,10 @@ then shows you how to extend transforms into three-dimensional space.
 
 ==The transform property==
 
-Transforms alter an element's coordinates in several ways so
-that they vary from where they would ordinarily appear. The
-'''transform''' CSS property specifies a handful of transformation
-''functions'' that can be combined any way you wish:
+Transforms alter a block element's coordinates in several ways so that
+they vary from where they would ordinarily appear. The '''transform'''
+CSS property specifies a handful of transformation ''functions'' that
+can be combined any way you wish:
 [[css/functions/translate()|'''translate()''']],
 [[css/functions/scale()|'''scale()''']],
 [[css/functions/rotate()|'''rotate()''']], and
@@ -165,6 +165,58 @@ represented as a value for the alternative
 [[css/functions/matrix()|'''matrix()''']] function:
 
  transform: matrix(1, -0.577, 0.176, 1, 0, 0);
+
+==Changing the transform origin==
+
+By default, transforms ''originate'' from the center of the element,
+or 50% along both ''x'' and ''y''.  If you scale it down, it shrinks
+towards the center, or else you rotate it around its center point.
+The '''transform-origin''' property allows you to place this origin
+point elsewhere, even outside the element, changing how transforms
+respond.  It accepts a pair of ''x''/''y'' measurements, or else you
+can specify '''transform-origin-x''' and '''transform-origin-y'''
+separately.
+
+This shows a series of transforms that rotate around a point near the
+bottom right corner:
+
+ div                { transform-origin : 80% 90%       ; }
+ div:nth-of-type(1) { transform        : rotate(0deg)  ; }
+ div:nth-of-type(2) { transform        : rotate(10deg) ; }
+ div:nth-of-type(3) { transform        : rotate(20deg) ; }
+
+[[Image:origin_rotate.png]]
+
+In this example, placing the origin of a skew transform at the bottom
+makes it appear to tip:
+
+ div {
+    transform          : skewX(15deg);
+    transform-origin-y : 100%;
+ }
+
+[[Image:origin_skew.png]]
+
+The property also accepts the keywords '''top''' and '''left''' for
+'''0%''', '''bottom''' and '''right''' for '''100%''', and
+'''center''' for '''50% 50%'''.
+
+In the first of the following examples, placing the origin of a
+'''scaleX()''' transform along one edge makes it appear to pivot. In
+the second, placing the origin far outside the element moves it across
+the screen much as specifying '''translate()''' would:
+
+ div:first-of-type {
+    -webkit-transform          : scale(0.35, 1);
+    -webkit-transform-origin-x : 0%;
+ }
+ 
+ div:last-of-type {
+    -webkit-transform-origin   : 210% -20%;
+    -webkit-transform          : scale(0.5);
+ }
+
+[[Image:origin_scale.png]]
 
 
 
