@@ -1,6 +1,6 @@
 {{Page_Title|Using CSS3 transforms}}
 {{Flags
-|Editorial notes=[[User:Sierra]] has content intended for this page. See bug [https://www.w3.org/Bugs/Public/show_bug.cgi?id=20410 #20410]. Still to do: conclusion; clarify perspective() and scaleZ() functions; possibly media queries; live samples.
+|Editorial notes=Still to do: conclusion; clarify perspective() and scaleZ() functions; possibly media queries; live samples. Contact [[User:Sierra]] and see bug [https://www.w3.org/Bugs/Public/show_bug.cgi?id=20410 #20410].
 }}
 {{Byline
 |Name=Mike Sierra
