@@ -1,7 +1,8 @@
 {{Page_Title|Using CSS3 transforms}}
 {{Flags
 |High-level issues=Stub
-|Editorial notes=[[User:Sierra]] has content intended for this page. See bug [https://www.w3.org/Bugs/Public/show_bug.cgi?id=20410 #20410]. Still to do here: 3D functions, perspective + origin, backview effects, nested transforms}}
+|Editorial notes=[[User:Sierra]] has content intended for this page. See bug [https://www.w3.org/Bugs/Public/show_bug.cgi?id=20410 #20410]. Still to do here: 3D functions, perspective + origin, backview effects, nested transforms
+}}
 {{Byline}}
 {{Summary_Section|CSS transforms allow you to dynamically manipulate
 how content elements appear. You can move them around on the screen,
@@ -14,9 +15,7 @@ interfaces. This tutorial first introduces two-dimensional transforms,
 then shows you how to extend transforms into three-dimensional space.
 }}
 {{Tutorial
-|Content=
-
-==The transform property==
+|Content===The transform property==
 
 Transforms alter a block element's coordinates in several ways so that
 they vary from where they would ordinarily appear. The
@@ -166,66 +165,6 @@ the example above is represented as a matrix value:
 
  transform: matrix(1, -0.577, 0.176, 1, 0, 0);
 
-==Changing the transform origin==
-
-By default, transforms ''originate'' from the center of the element,
-or 50% along both ''x'' and ''y''.  If you scale it down, it shrinks
-towards the center, or else you rotate it around its center point.
-The [[css/properties/transform-origin|'''transform-origin''']]
-property allows you to place this origin point elsewhere, even outside
-the element, changing how transforms respond, especially in animations.
-It accepts a pair of ''x''/''y'' measurements, or else you can specify
-'''transform-origin-x''' and '''transform-origin-y''' separately.
-
-This shows a series of transforms that rotate around a point near the
-bottom right corner:
-
- div {
-     transform-origin-x : 80%     ;
-     transform-origin-y : 90%     ;
-     transform-origin	: 80% 90% ; /* same as above */
- }
- div:nth-of-type(1) { transform : rotate(10deg) ; }
- div:nth-of-type(2) { transform : rotate(20deg) ; }
- div:nth-of-type(3) { transform : rotate(30deg) ; }
-
-[[Image:origin_rotate.png]]
-
-In this example, placing the origin of a skew transform at the bottom
-makes it appear to tip over:
-
- div {
-    transform          : skewX(15deg);
-    transform-origin-y : 100%;
-    transform-origin-y : bottom; /* same as 100% */
- }
-
-[[Image:origin_skew.png]]
-
-The property accepts the keywords '''top''' and '''left''' for
-'''0%''', '''bottom''' and '''right''' for '''100%''', and
-'''center''' for '''50% 50%'''.
-
-In the first of the following examples, placing the origin of a
-[[css/functions/scaleX()|'''scaleX()''']] transform along one edge
-makes it appear to pivot along that edge. In the second, placing the
-origin far outside the element's boundaries moves it across the screen
-with no need for the [[css/functions/translate()|'''translate()''']]
-function:
-
- div:first-of-type {
-    -webkit-transform          : scale(0.35, 1);
-    -webkit-transform-origin-x : 0%;
-    -webkit-transform-origin-x : left; /* same as 0% */
- }
- div:last-of-type {
-    -webkit-transform-origin   : 210% -20%;
-    -webkit-transform          : scale(0.5);
- }
-
-[[Image:origin_scale.png]]
-
-
 ==You need some perspective==
 
 You really do.  Though they often take on the illusion of three
@@ -288,10 +227,6 @@ This only affects how the transformed element appears, not the
 ancestor that specifies the perspective.  Note that since percentages
 refer to the size of the transformed element, pixel units may be
 easier to use.
-
-
-
-
 }}
 {{Notes_Section}}
 {{Compatibility_Section
