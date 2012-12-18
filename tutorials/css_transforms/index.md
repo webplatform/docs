@@ -546,7 +546,7 @@ the cube:
                            70px 10px, 70px 40px, 70px 70px;
  }
 
-[[Image:3Dnest_faces.png]]
+[[Image:3Dnest_face6.png]]
 
 Applying different rotations to the ''dice'' element causes nested
 transform spaces to render relative to it, thus spinning the entire
