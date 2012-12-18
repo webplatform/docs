@@ -23,7 +23,7 @@ A child combinator is a "greater-than sign" (&gt;) character that separates two 
 ;''first'':A CSS simple selector.
 ;''second'':A CSS simple selector.
 ===Standards information===
-*[http://www.w3.org/TR/CSS2/ CSS 2.1], Section 5.6
+*[http://www.w3.org/TR/CSS21/selector.html#child-selectors CSS 2.1], Section 5.6
 }}
 {{Related_Specifications_Section
 |Specifications=
@@ -32,24 +32,20 @@ A child combinator is a "greater-than sign" (&gt;) character that separates two 
 |Not_required=No
 |Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Unknown
-|Chrome_version=
+|Chrome_supported=Yes
 |Chrome_prefixed_supported=Unknown
 |Chrome_prefixed_version=
-|Firefox_supported=Unknown
-|Firefox_version=
+|Firefox_supported=Yes
 |Firefox_prefixed_supported=Unknown
 |Firefox_prefixed_version=
 |Internet_explorer_supported=Yes
 |Internet_explorer_version=7+
 |Internet_explorer_prefixed_supported=Unknown
 |Internet_explorer_prefixed_version=
-|Opera_supported=Unknown
-|Opera_version=
+|Opera_supported=Yes
 |Opera_prefixed_supported=Unknown
 |Opera_prefixed_version=
-|Safari_supported=Unknown
-|Safari_version=
+|Safari_supported=Yes
 |Safari_prefixed_supported=Unknown
 |Safari_prefixed_version=
 }}
