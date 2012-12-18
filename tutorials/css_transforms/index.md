@@ -1,8 +1,10 @@
 {{Page_Title|Using CSS3 transforms}}
 {{Flags
-|High-level issues=Stub
-|Editorial notes=[[User:Sierra]] has content intended for this page. See bug [https://www.w3.org/Bugs/Public/show_bug.cgi?id=20410 #20410]. Still to do: conclusion; clarify perspective() and scaleZ() functions; live samples}}
-{{Byline}}
+|Editorial notes=[[User:Sierra]] has content intended for this page. See bug [https://www.w3.org/Bugs/Public/show_bug.cgi?id=20410 #20410]. Still to do: conclusion; clarify perspective() and scaleZ() functions; live samples
+}}
+{{Byline
+|Name=Mike Sierra
+}}
 {{Summary_Section|CSS transforms allow you to dynamically manipulate
 the space in which content elements appear. You can move them around
 on the screen, shrink or expand them, rotate them, or combine all
@@ -15,9 +17,7 @@ then shows you how to extend transforms into three-dimensional space.
 It ends with step-by-step instructions to spin a cube.
 }}
 {{Tutorial
-|Content=
-
-==The transform property==
+|Content===The transform property==
 
 Transforms alter a block element's coordinates in several ways so that
 they vary from where they would ordinarily appear. The
@@ -563,14 +563,6 @@ object. Here is how a script can control the spin:
  function spin() { return( Math.floor( Math.random() * 360 ) + 'deg') }
 
 [[Image:3Dnest_spin.png]]
-
-
-
-
-
-
-
-
 }}
 {{Notes_Section}}
 {{Compatibility_Section
