@@ -64,11 +64,11 @@ Web sitesi hazırlayan web geliştiricileri, gittikçe artan karmaşayla baş ed
  
 === W3C’nin verdiği biçim ===
  
-In 1994, Tim Berners-Lee founded the World Wide Web Consortium (W3C) at the Massachusetts Institute of Technology, with support from CERN, DARPA (as ARPA had been renamed to) and the European Commission. The W3C’s vision was to standardize the protocols and technologies used to build the web such that the content would be available to as wide a population of the world as possible.
+1994'te, CERN, DARPA (ARPA idi) ve Avrupa Komisyonu destekleri ile Tim Berners-Lee Dünya Çapında Ağ Birliğini, World Wide Web Consortium (W3C), kurdu. W3C’nin ülküsü dünyadaki nüfusun büyük bir çoğunluğunun erişebileceği içeriği barındıran web'i hazırlarken kullanılan protokolleri ve teknolojileri standartlaştırmaktır.
  
-Sonraki bir kaç yıl boyunca W3C; [http://www.w3.org/TR/html401/ HTML 4.01], [http://www.w3.org/TR/PNG/ PNG images] resim biçimi, [http://www.w3.org/Style/CSS/ CSS] sürüm 1 ve 2’yi  içeren birkaç tarifnâme (önerge) yayımladı.
+Sonraki bir kaç yıl boyunca W3C; [http://www.w3.org/TR/html401/ HTML 4.01], [http://www.w3.org/TR/PNG/ PNG resim biçimi], [http://www.w3.org/Style/CSS/ CSS] sürüm 1 ve 2’yi  içeren birkaç belirtim (önerge) yayımladı.
  
-However, the W3C did not (and still do not) enforce their recommendations. Manufacturers only had to conform to the W3C documents if they wished to label their products as W3C-compliant. In practice, this was not a valuable selling point as almost all users of the web did not know, nor probably care, who the W3C were (this is still the case, to a large extent). Consequently, the browser wars of the nineties continued unabated.
+Bunlara rağmen, W3C kendi önergelerini dayatmadı, halen de dayatmıyor.  the W3C did not (and still do not) enforce their recommendations. Üreticiler sadece W3C-uyumlu etiketini almak isterlerse W3C belgelerine uyumlu olmak zorundalar. Pratikte, bu değerli bir satış noktası değildir, çünkü neredeyse webin tüm kullanıcıları bunu bilmez, bilse bile muhtemelen umursamayacaktır. Büyük bir ölçüde bu durum devam etmektedir. Bundan dolayı, on dokuzuncu yüzyıl tarayıcı savaşları şiddetini düşürmeden devam etmiştir.
 
 === Web Standartları Projesi ===
  
@@ -84,7 +84,7 @@ The W3C has a few full time staff, but most of the people who work on the standa
  
 This all sounds a bit negative, but the WaSP didn’t just sit there criticising people — they also helped. Seven members formed the CSS Samurai, who identified the top ten problems with the CSS support in Opera and other browsers (Opera fixed their problems, others did not).
 
-=== Web standartlarının yükseklişi ===
+=== Web standartlarının yükselişi ===
  
 2000'de, Microsoft Internet Explorer 5 Macintosh sürümünü yayınladı. Bu oldukça önemli bir dönüm noktasıdır. Mac OS ile kurulu gelen varsayılan tarayıcı olmasının yanı sıra W3C'nin önergelerini de yeterli düzeyde desteklemektedir. Along with Opera'nın iyi seviyedeki HTML ve CSS düzeyini desteklemenin yanında, genel olarak iyi yöndeki harekete, web geliştiricilerinin ve tasarımcılarının sonunda web standartlarını kullanarak özgürce site tasarlayabilecekleri ortamın hazırlanmasına katkıda bulunmuştur, as they knew they would work to a reasonable level across multiple browsers.
  
