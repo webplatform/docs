@@ -21,5 +21,8 @@ The [[Standards/WHATWG|Web Hypertext Application Technology Working Group (WHATW
 ===[[Standards/Unicode|Unicode]]===
 The [[Standards/Unicode|Unicode Consortium]] is a non-profit organization that focuses on defining an single unified character encoding scheme, for use in internationalization and localization. It primary specifications are the Unicode Transformation Format (UTF) and Universal Character Set (UCS) character encodings.
 
-===[[Standards/oasis|OASIS]]===
+===[[Standards/OASIS|OASIS]]===
 The Organization for the Advancement of Structured Information Standards (OASIS) focuses on Web services and e-business specifications.
+
+===[[Standards/ISO|ISO]]===
+The International Organization for Standardization (ISO) is a de jure international government-sponsored standards body, which develops a wide range of specifications, and ratifies specifications from other standards bodies.
