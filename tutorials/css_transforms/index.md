@@ -489,7 +489,8 @@ convenience to drop the cube back to accomodate its full volume:
 
 Various properties define the dice's edges with rounded corners, along
 with the small dot images that will be arranged to form a pattern on
-each face. Only one dot displays in the first face's pattern:
+each face. Only one dot displays in the first face's pattern, and the rest
+are pushed outside the displaying area:
 
  .face {
      border-radius       : 6px;
