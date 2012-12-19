@@ -508,7 +508,9 @@ are pushed outside the displaying area:
  
 [[Image:3Dnest_face1.png]]
 
-The next four faces pivot outward along each edge of the first face:
+The next four faces use 
+[[css/properties/transform-origin|'''transform-origin''']]
+to pivot outward at right angles along each edge of the first face:
 
  .face:nth-of-type(2) {
      transform           : rotateY(-90deg);
