@@ -1,13 +1,15 @@
 {{Page_Title|performance.memory}}
 {{Flags
 |High-level issues=Stub
+|Content=Incomplete, Compatibility Incomplete
 }}
 {{Standardization_Status|Experimental}}
 {{API_Name}}
 {{Summary_Section}}
 {{API_Object_Property
 |Property_applies_to=apis/timing
-|Read_only=No
+|Read_only=Yes
+|Javascript_data_type=Object
 }}
 {{Examples_Section
 |Not_required=No
