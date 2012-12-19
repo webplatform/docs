@@ -7,6 +7,7 @@
 {{API_Name}}
 {{Summary_Section|Sets the color of the bottom border.}}
 {{CSS Property
+|Initial value=#000000
 |Applies to=All elements
 |Inherited=No
 |Media=visual
