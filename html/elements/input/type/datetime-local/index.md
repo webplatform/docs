@@ -52,8 +52,8 @@
 |Blackberry_version=
 |Blackberry_prefixed_supported=Unknown
 |Blackberry_prefixed_version=
-|Chrome_mobile_supported=No
-|Chrome_mobile_version=
+|Chrome_mobile_supported=Yes
+|Chrome_mobile_version=18
 |Chrome_mobile_prefixed_supported=No
 |Chrome_mobile_prefixed_version=
 |Firefox_mobile_supported=No
@@ -71,14 +71,13 @@
 |Opera_mini_version=
 |Opera_mini_prefixed_supported=Unknown
 |Opera_mini_prefixed_version=
-|Safari_mobile_supported=No
-|Safari_mobile_version=
+|Safari_mobile_supported=Yes
 |Safari_mobile_prefixed_supported=No
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows={{Compatibility Notes Row
 |Browser=WebKit
-|Note=Supports dates between 0001-01-01 and 275760-09-13. It is applied to value, min, and max.
+|Note=Supports dates between 0001-01-01T00:00 and 275760-09-13T00:00. It is applied to value, min, and max.
 }}
 }}
 {{See_Also_Section}}
