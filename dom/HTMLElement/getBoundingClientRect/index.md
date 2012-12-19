@@ -158,8 +158,6 @@ function End() {
 |Usage=Essentially, the browser calculates all rectangles (see below getClientRects()), and getBoundingClientRect() returns the lowest (top, left) or highest (bottom, right) values found.
 
 The amount of scrolling that has been done of the viewport area (or any other scrollable element) is taken into account when computing the bounding rectangle. This means that the top and left property change their values as soon as the scrolling position changes (so their values are relative to the viewport and not absolute). If this is not the desired behaviour just add the current scrolling position to the top and left property (via window.scrollX and window.scrollY) to get constant values independent from the current scrolling position.
-
-In Microsoft Internet Explorer 5, the window's upper-left is at 2,2 (pixels) with respect to the true client.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -194,7 +192,11 @@ In Microsoft Internet Explorer 5, the window's upper-left is at 2,2 (pixels) wi
 |Safari_prefixed_version=
 }}
 |Mobile_rows=
-|Notes_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=8 and earlier
+|Note=Adds 2 to each coordinate (top, bottom, right, left), which must be subtracted in order to get the actual values (this is because the window's upper-left is at 2, 2 (pixels) with respect to the true client).
+}}
 }}
 {{See_Also_Section
 |Topic_clusters=CSS Layout, Box Model, Combinators
