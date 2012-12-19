@@ -12,9 +12,6 @@ The [[Standards/IETF|Internet Engineering Task Force (IETF)]] focuses on interne
 ===[[Standards/Ecma|Ecma]]===
 Ecma International focuses on information and communication systems. Its primary Web standard is EcmaScript, which defines JavaScript.
 
-===[[Standards/WHATWG|WHATWG]]===
-The [[Standards/WHATWG|Web Hypertext Application Technology Working Group (WHATWG)]] focuses on browser-specific technologies, like markup languages and client-side APIs, as well as Internet protocols. Their specifications include HTML, Server-Sent Events, Canvas, and more.
-
 ===[[Standards/Khronos|Khronos]]===
 [[Standards/Khronos|Khronos]] is a hardware manufacturer consortium that focuses on media and hardware-sensitive APIs. Their Web standards include WebGL.
 
@@ -26,3 +23,6 @@ The Organization for the Advancement of Structured Information Standards (OASIS)
 
 ===[[Standards/ISO|ISO]]===
 The International Organization for Standardization (ISO) is a de jure international government-sponsored standards body, which develops a wide range of specifications, and ratifies specifications from other standards bodies.
+
+===[[Standards/WHATWG|WHATWG]]===
+While not a formal standards organization, the [[Standards/WHATWG|Web Hypertext Application Technology Working Group (WHATWG)]] plays an active role in the standards ecosystem, with a focus on browser-specific technologies, like markup languages and client-side APIs, as well as Internet protocols. Their specifications include HTML, Server-Sent Events, Canvas, and more.
