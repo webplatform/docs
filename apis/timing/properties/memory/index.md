@@ -38,11 +38,12 @@ See the [https://bugs.webkit.org/attachment.cgi?id=154876&action=prettypatch Web
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
 |Chrome_prefixed_supported=Unknown
 |Chrome_prefixed_version=
-|Firefox_supported=Unknown
+|Firefox_supported=No
 |Firefox_version=
 |Firefox_prefixed_supported=Unknown
 |Firefox_prefixed_version=
@@ -54,7 +55,7 @@ See the [https://bugs.webkit.org/attachment.cgi?id=154876&action=prettypatch Web
 |Opera_version=
 |Opera_prefixed_supported=Unknown
 |Opera_prefixed_version=
-|Safari_supported=Unknown
+|Safari_supported=No
 |Safari_version=
 |Safari_prefixed_supported=Unknown
 |Safari_prefixed_version=
@@ -62,14 +63,14 @@ See the [https://bugs.webkit.org/attachment.cgi?id=154876&action=prettypatch Web
 |Mobile_rows=
 |Notes_rows={{Compatibility Notes Row
 |Browser=Chrome
-|Note=[https://bugs.webkit.org/show_bug.cgi?id=86636 Webkit Ticket]
+|Note=Needs `--enable-memory-info` [https://bugs.webkit.org/show_bug.cgi?id=86636 Webkit Ticket]
 }}
 }}
 {{See_Also_Section
 |Manual_sections====Related pages (MSDN)===
 *<code>[[apis/timing/objects/performance|performance]]</code>
 }}
-{{Topics|DOM}}
+{{Topics|DOM, Performance}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
