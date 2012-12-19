@@ -12,7 +12,7 @@ these effects to produce complex movements.  By themselves, transforms
 produce static visual effects, but can be easily combined with CSS
 [[tutorials/css_transitions|transitions]] and
 [[tutorials/css_animations|keyframe animations]] to produce vibrant
-interfaces. This tutorial first introduces two-dimensional transforms,
+animated interfaces. This tutorial first introduces two-dimensional transforms,
 then shows you how to extend transforms into three-dimensional space.
 It ends with step-by-step instructions to spin a cube.
 }}
