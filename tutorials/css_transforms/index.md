@@ -423,8 +423,8 @@ allows you to transform nested content independently within that
 already modified space.
 
 To clarify how to use this feature, this extended example builds a
-cube representing playing dice that can spin freely. The entire markup
-appears like this:
+cube representing playing dice that can spin freely. The markup
+is implemented as a series of nested elements:
 
  &lt;div class="scene">
      &lt;div class="dice">
