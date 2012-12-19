@@ -138,7 +138,7 @@ You may also be interested to know that most of the XHTML on the Web is actually
 
 <pre>&lt;?xml version="1.0" encoding="UTF-8"?&gt;</pre>
 
-We wouldn't recommend that you this however: old versions of Internet Explorer (6 and below) switch into Quirks mode if they find the XML declaration at the start of the document, which is bad, as we looked at earlier. In addition, IE 6-8 will try to download files saved as XHTML rather than display them in the browser, which you definitely do not want!
+We wouldn't recommend that you DO this however: old versions of Internet Explorer (6 and below) switch into Quirks mode if they find the XML declaration at the start of the document, which is bad, as we looked at earlier. In addition, IE 6-8 will try to download files saved as XHTML rather than display them in the browser, which you definitely do not want!
 
 Therefore you should just stick to not trying to serve documents as proper XHTML! Carry on people, nothing to see here.
 }}
