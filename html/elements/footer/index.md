@@ -1,9 +1,9 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|High-level issues=Needs Flags, Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
+|Content=Incomplete, Not Neutral, Grammar/Spelling, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|The footer is an element that was introduced in HTML5 for modeling the footer sections of real-world documents. The footer element alleviates "div" tag overuse.}}
 {{Markup_Element
@@ -12,6 +12,7 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=HTML
 |Description=The following example defines two footers, one at the top and one at the bottom, with the same content.
 |Code=&lt;body&gt;
  &lt;!-- First footer --&gt;
@@ -250,11 +251,13 @@ This property is not supported for Metro style apps using JavaScript.
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
 }}
 {{See_Also_Section
+|Topic_clusters=CSS Font, CSS Layout, Animation, Audio, Background, Border, Box Model, Document Structure, HTML, Multimedia, Multi-Column, Scrollbar, Selectors, Tables, Touch, Transforms, Transistions, Video, Visual Effects
 |Manual_sections====Related pages (MSDN)===
 *<code>Reference</code>
 *<code>article</code>
@@ -267,10 +270,10 @@ This property is not supported for Metro style apps using JavaScript.
 *<code>nav</code>
 *<code>section</code>
 }}
-{{Topics|HTML}}
+{{Topics|Accessibility, Appcache, Audio, Canvas, Control, CSS, Design, Developer Tools, DOCTYPE, Graphics, HTML, JavaScript, Media, SVG, Video, Web Services, Webworkers}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
+|Sources=MSDN, Facebook HTML5 Resource Center
 |MDN_link=
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
