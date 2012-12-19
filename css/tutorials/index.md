@@ -49,7 +49,7 @@
 
 ==CSS transforms and animation==
 
-* [[tutorials/css transforms|Using CSS3 transforms]]
+* [[tutorials/css transforms|Manipulating content with CSS3 transforms]]
 * [[tutorials/css transitions|Dynamic visual effects with CSS3 transitions]]
 * [[tutorials/css animations|Making things move with CSS3 animations]]
 
