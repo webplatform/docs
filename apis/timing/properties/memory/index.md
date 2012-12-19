@@ -9,7 +9,11 @@
 {{API_Object_Property
 |Property_applies_to=apis/timing
 |Read_only=Yes
+|Example_object_name=window.performance
+|Return_value_name=memoryInfo
 |Javascript_data_type=Object
+|Return_value_description=An object created with `MemoryInfo` constructor, containing  `jsHeapSizeLimit`, `totalJSHeapSize` and `usedJSHeapSize` properties with numerical valies.
+|Example_value_name=memoryInfo
 }}
 {{Examples_Section
 |Not_required=No
