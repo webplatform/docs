@@ -539,7 +539,7 @@ to pivot outward at right angles along each edge of the first face:
  
 [[Image:3Dnest_face5.png]]
 
-Note that all the backfaces are visible, and are only hidden because
+Note that all the backfaces are visible, and only become hidden when
 other opaque boxes appear in front of them.
 
 The sixth face simply uses '''translateZ()''' to drop it back to close
