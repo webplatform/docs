@@ -30,8 +30,8 @@ The holy grail, of course, is a display in which pixels are completely invisible
 
 In practice, low density images should look the same on new screens as they did on old ones, but compared to the crisp imagery high density users are used to seeing, the low density images look jarring and pixelated. The following is a rough simulation of how a 1x image will look on a 2x display. In contrast, the 2x image looks quite good.
 
-[[Image:baboon1x.jpg|center|200x200px|frame|Baboon at 1x]] 
-[[Image:baboon2x.jpg|center|200x200px|frame|Baboon at 2x]] 
+ [[Image:baboon1x.jpg|center|200x200px|frame|Baboon at 1x]] 
+ [[Image:baboon2x.jpg|center|200x200px|frame|Baboon at 2x]] 
 
 ===Pixels on the web===
 
@@ -274,7 +274,6 @@ To summarize, my recommendations are as follows:
 * For background images, use image-set with the appropriate fallbacks for browsers that don't support it.
 * For content images, use a srcset polyfill, or fallback to using image-set (see above).
 * For situations where you're willing to sacrifice image quality, consider using heavily compressed 2x images.
-
 }}
 {{Examples_Section
 |Not_required=No
