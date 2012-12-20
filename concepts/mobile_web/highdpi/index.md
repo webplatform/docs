@@ -30,7 +30,8 @@ The holy grail, of course, is a display in which pixels are completely invisible
 
 In practice, low density images should look the same on new screens as they did on old ones, but compared to the crisp imagery high density users are used to seeing, the low density images look jarring and pixelated. The following is a rough simulation of how a 1x image will look on a 2x display. In contrast, the 2x image looks quite good.
 
-[[Image:baboon1x.jpg|center|200x200px|Baboon at 1x]] [[Image:baboon2x.jpg|center|200x200px|Baboon at 2x]]
+[[Image:baboon1x.jpg|center|200x200px|Baboon at 1x]] 
+[[Image:baboon2x.jpg|center|200x200px|Baboon at 2x]]
 
 ===Pixels on the web===
 
@@ -164,7 +165,7 @@ Being declarative, CSS media queries let you state your intention, and let the b
 
 It gets a little more complicated with all of the vendor prefixes mixed in, especially because of insane [https://developer.mozilla.org/en/CSS/Media_queries#-moz-device-pixel-ratio differences in placement] of "min" and "max" prefixes:
 
- <code>@media only screen and (min--moz-device-pixel-ratio: 1.5),
+ <code><nowiki>@media only screen and (min--moz-device-pixel-ratio: 1.5),
      (-o-min-device-pixel-ratio: 3/2),
      (-webkit-min-device-pixel-ratio: 1.5),
      (min-device-pixel-ratio: 1.5) {
@@ -172,8 +173,7 @@ It gets a little more complicated with all of the vendor prefixes mixed in, espe
    #my-image {
      background:url(high.png);
    }
- }
- </code>
+ }</nowiki></code>
 
 With this approach, you regain the benefits of look-ahead parsing, which was lost with the JS solution. You also gain the flexibility of choosing your responsive breakpoints (for example, you can have low, mid and high DPI images), which was lost with the server-side approach.
 
@@ -193,11 +193,10 @@ Firstly, how are these two different? Well, <code>image-set()</code> is a CSS fu
 
 The <code>image-set()</code> CSS function is available prefixed as <code>-webkit-image-set()</code>. The syntax is quite simple, taking a one or more comma separated image declarations, which consist of a URL string or <code>url()</code> function followed by the associated resolution. For example:
 
- <code>background-image:  -webkit-image-set(
+ <code><nowiki>background-image:  -webkit-image-set(
    url(icon1x.jpg) 1x,
    url(icon2x.jpg) 2x
- );
- </code>
+ );</nowiki></code>
 
 What this tells the browser is that there are two images to choose from. One of them is optimized for 1x displays, and the other for 2x displays. The browser then gets to choose which one to load, based on a variety of factors, which might even include network speed, if the browser is smart enough (not currently implemented as far as I know).
 
@@ -207,7 +206,7 @@ Instead of specifying 1x, 1.5x or Nx, you can also specify a certain device pixe
 
 This works well, except in browsers that don't support the <code>image-set</code> property, which will show no image at all! This is clearly bad, so you '''must''' use a fallback (or series of fallbacks) to address that issue:
 
- <code>background-image: url(icon1x.jpg);
+ <code><nowiki>background-image: url(icon1x.jpg);
  background-image: -webkit-image-set(
    url(icon1x.jpg) 1x,
    url(icon2x.jpg) 2x
@@ -217,8 +216,7 @@ This works well, except in browsers that don't support the <code>image-set</code
  background-image: image-set(
    url(icon1x.jpg) 1x,
    url(icon2x.jpg) 2x
- );
- </code>
+ );</nowiki></code>
 
 The above will load the appropriate asset in browsers that support image-set, and fall back to the 1x asset otherwise. The obvious caveat is that while <code>image-set()</code> browser support is low, most user agents will get the 1x asset.
 
@@ -230,9 +228,9 @@ At this point, you may be wondering why not just polyfill (that is, build a Java
 
 Here is an example of srcset:
 
- <code><img alt="my awesome image"
+ <code><nowiki><img alt="my awesome image"
    src="banner.jpeg"
-   srcset="banner-HD.jpeg 2x, banner-phone.jpeg 640w, banner-phone-HD.jpeg 640w 2x">
+   srcset="banner-HD.jpeg 2x, banner-phone.jpeg 640w, banner-phone-HD.jpeg 640w 2x"></nowiki>
  </code>
 
 As you can see, in addition to x declarations that <code>image-set</code> provides, the srcset element also takes w and h values which correspond to the size of the viewport, attempting to serve the most relevant version. The above would serve banner-phone.jpeg to devices with viewport width under 640px, banner-phone-HD.jpeg to small screen high DPI devices, banner-HD.jpeg to high DPI devices with screens greater than 640px, and banner.jpeg to everything else.
@@ -243,11 +241,11 @@ Because the srcset attribute on img elements is not implemented in most browsers
 
 If you end up using <code>-webkit-image-set</code>, you might be tempted to use the background CSS property. The drawback of this approach is that you need to specify image size, which is unknown if you are using a non-1x image. Rather than doing this, you can use the content CSS property as follows:
 
- <code><div id="my-content-image"
+ <code><nowiki><div id="my-content-image"
    style="content: -webkit-image-set(
      url(icon1x.jpg) 1x,
      url(icon2x.jpg) 2x);">
- </div>
+ </div></nowiki>
  </code>
 
 This will automatically scale the image based on devicePixelRatio. See [http://www.html5rocks.com/static/demos/high-dpi/image-set/as-content.html this example] of the above technique in action, with an additional fallback to <code>url()</code> for browsers that don't support <code>image-set</code>.
