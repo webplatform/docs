@@ -337,7 +337,7 @@ is far behind them:
 
  .parent {
     perspective          : 10000;
-    perspective-origin-y : -3000;
+    perspective-origin-y : -3000;  /* view from above */
     background-color     : #aaa;
  }
  .child {
