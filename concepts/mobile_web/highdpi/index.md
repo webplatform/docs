@@ -1,7 +1,7 @@
 {{Page_Title|High DPI Images for Variable Pixel Densities}}
 {{Flags}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|One of the features of today's complex device landscape is that there's a [http://en.wikipedia.org/wiki/List_of_displays_by_pixel_density very wide range of screen pixel densities] available. Some devices feature very high resolution displays, while others straggle behind. Application developers need to support a range of pixel densities, which can be quite challenging.  The goal of web app developers is to '''serve the best quality images as efficiently as possible'''. This article will cover some useful techniques for doing this today and in the near future.}}
 {{Concept_Page
 |Content===Introduction==
 
@@ -30,8 +30,8 @@ The holy grail, of course, is a display in which pixels are completely invisible
 
 In practice, low density images should look the same on new screens as they did on old ones, but compared to the crisp imagery high density users are used to seeing, the low density images look jarring and pixelated. The following is a rough simulation of how a 1x image will look on a 2x display. In contrast, the 2x image looks quite good.
 
- [[Image:baboon1x.jpg|center|200x200px|frame|Baboon at 1x]] 
- [[Image:baboon2x.jpg|center|200x200px|frame|Baboon at 2x]] 
+ [[Image:baboon1x.jpg|center|200x200px|frame|Baboon at 1x]]
+ [[Image:baboon2x.jpg|center|200x200px|frame|Baboon at 2x]]
 
 ===Pixels on the web===
 
@@ -66,9 +66,7 @@ So now when a browser needs to know how to resize an image to fit the screen acc
 Historically, device vendors have tended to round <code>devicePixelRatios</code> (DPRs). Apple's iPhone and iPad report DPR of 1, and their Retina equivalents report 2. The [http://www.w3.org/TR/CSS21/syndata.html#length-units CSS specification] recommends that
 
 <blockquote>
-
 the pixel unit refer to the whole number of device pixels that best approximates the reference pixel.
-
 </blockquote>
 
 One reason why round ratios can be better is because they may lead to fewer [http://ejohn.org/blog/sub-pixel-problems-in-css/ sub-pixel artifacts].
@@ -99,7 +97,7 @@ Multiple image approaches: use multiple images, but do something clever to pick 
 
 Images already [http://httparchive.org/interesting.php#bytesperpage comprise a whopping 60% of bandwidth] spent downloading an average website. By serving HiDPI images to all clients, we will increase this number. How much bigger will it grow?
 
-I ran some tests which generated 1x and 2x image fragments with JPEG quality at 90, 50 and 20. Here is [/static/demos/high-dpi/process_images.sh shell script] I used (employing [http://www.imagemagick.org/script/index.php ImageMagick]) to generate them:
+I ran some tests which generated 1x and 2x image fragments with JPEG quality at 90, 50 and 20. Here is [http://www.html5rocks.com/static/demos/high-dpi/process_images.sh shell script] I used (employing [http://www.imagemagick.org/script/index.php ImageMagick]) to generate them:
 
 [[Image:highdpi-tile1.jpg|center|x450px|center|Samples of images at different compressions and pixel densities.]]
 [[Image:highdpi-tile2.jpg|center|x450px|center|Samples of images at different compressions and pixel densities.]]
@@ -223,7 +221,7 @@ This works well, except in browsers that don't support the <code>image-set</code
 
 The above will load the appropriate asset in browsers that support image-set, and fall back to the 1x asset otherwise. The obvious caveat is that while <code>image-set()</code> browser support is low, most user agents will get the 1x asset.
 
-[/static/demos/high-dpi/image-set/index.html This demo] uses the <code>image-set()</code> to load the correct image, falling back to the 1x asset if this CSS function isn't supported.
+[http://www.html5rocks.com/static/demos/high-dpi/image-set/index.html This demo] uses the <code>image-set()</code> to load the correct image, falling back to the 1x asset if this CSS function isn't supported.
 
 At this point, you may be wondering why not just polyfill (that is, build a JavaScript shim for) <code>image-set()</code> and call it a day? As it turns out, it's quite difficult to implement efficient polyfills for CSS functions. (For a detailed explanation why, see this [http://lists.w3.org/Archives/Public/www-style/2012Jul/0023.html www-style discussion]).
 
@@ -251,7 +249,7 @@ If you end up using <code>-webkit-image-set</code>, you might be tempted to use 
  </div>
  </code>
 
-This will automatically scale the image based on devicePixelRatio. See [/static/demos/high-dpi/image-set/as-content.html this example] of the above technique in action, with an additional fallback to <code>url()</code> for browsers that don't support <code>image-set</code>.
+This will automatically scale the image based on devicePixelRatio. See [http://www.html5rocks.com/static/demos/high-dpi/image-set/as-content.html this example] of the above technique in action, with an additional fallback to <code>url()</code> for browsers that don't support <code>image-set</code>.
 
 ===Polyfilling srcset===
 
@@ -259,7 +257,7 @@ One handy feature of <code>srcset</code> is that it comes with a natural fallbac
 
 This polyfill comes with [https://github.com/borismus/srcset-polyfill/blob/master/tests/srcset-tests.js unit tests] to ensure that it's as close to the [http://www.whatwg.org/specs/web-apps/current-work/multipage/embedded-content-1.html#attr-img-srcset specification] as possible. In addition, there are checks in place that prevent the polyfill from executing any code if srcset is implemented natively.
 
-Here is a [/static/demos/high-dpi/srcset-polyfill/demo/index.html demo of the polyfill] in action.
+Here is a [http://www.html5rocks.com/static/demos/high-dpi/srcset-polyfill/demo/index.html demo of the polyfill] in action.
 
 ==Conclusion==
 
@@ -274,6 +272,7 @@ To summarize, my recommendations are as follows:
 * For background images, use image-set with the appropriate fallbacks for browsers that don't support it.
 * For content images, use a srcset polyfill, or fallback to using image-set (see above).
 * For situations where you're willing to sacrifice image quality, consider using heavily compressed 2x images.
+
 }}
 {{Examples_Section
 |Not_required=No
