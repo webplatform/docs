@@ -3,11 +3,7 @@
 {{API_Name}}
 {{Summary_Section}}
 {{Concept_Page
-|Content=
-
-=High DPI Images for Variable Pixel Densities=
-
-==Introduction==
+|Content===Introduction==
 
 One of the features of today's complex device landscape is that there's a [http://en.wikipedia.org/wiki/List_of_displays_by_pixel_density very wide range of screen pixel densities] available. Some devices feature very high resolution displays, while others straggle behind. Application developers need to support a range of pixel densities, which can be quite challenging. On the mobile web, the challenges are compounded by several factors:
 
@@ -34,7 +30,7 @@ The holy grail, of course, is a display in which pixels are completely invisible
 
 In practice, low density images should look the same on new screens as they did on old ones, but compared to the crisp imagery high density users are used to seeing, the low density images look jarring and pixelated. The following is a rough simulation of how a 1x image will look on a 2x display. In contrast, the 2x image looks quite good.
 
- [[Image:xbaboon1x.jpg.pagespeed.ic.ws8EbkrnSu.jpg]] [[Image:200xNxbaboon2x.jpg.pagespeed.ic.Zuh7ZV7sMg.jpg]] Baboons! at differing pixel densities.
+ [[Image:baboon1x.jpg]] [[Image:baboon2x]] Baboons! at differing pixel densities.
 
 ===Pixels on the web===
 
@@ -58,7 +54,7 @@ Suppose a smart phone has a screen with a physical pixel size of 180 pixels per 
 # Multiply the distance ratio against the standard density (96ppi) to get the ideal pixel density for the given distance.idealPixelDensity = (28/18) * 96 = 150 pixels per inch (approximately)
 # Take the ratio of the physical pixel density to the ideal pixel density to get the device pixel ratio.<code>devicePixelRatio</code> = 180/150 = 1.2
 
- [[Image:xcalculate-dpr.png.pagespeed.ic.8Cwg_S64sZ.png]] A diagram showing one reference angular pixel, to help illustrate how devicePixelRatio is calculated.
+ [[Image:wcalculate-dpr.png]] A diagram showing one reference angular pixel, to help illustrate how devicePixelRatio is calculated.
 
 So now when a browser needs to know how to resize an image to fit the screen according to the ideal or standard resolution, the browser refers to the device pixel ratio of 1.2 - which says, for every ideal pixel, this device has 1.2 physical pixels. The formula to go between ideal (as defined by the web spec) and physical (dots on device screen) pixels is the following:
 
@@ -102,7 +98,8 @@ Images already [http://httparchive.org/interesting.php#bytesperpage comprise a w
 
 I ran some tests which generated 1x and 2x image fragments with JPEG quality at 90, 50 and 20. Here is [/static/demos/high-dpi/process_images.sh shell script] I used (employing [http://www.imagemagick.org/script/index.php ImageMagick]) to generate them:
 
- [/static/demos/high-dpi/tile1.jpg [[Image:600xNxtile1.jpg.pagespeed.ic.XYZa-mbny5.jpg]]] [/static/demos/high-dpi/tile2.jpg [[Image:600xNxtile2.jpg.pagespeed.ic.3oUi7Ez_vr.jpg]]] [/static/demos/high-dpi/tile3.jpg [[Image:600xNxtile3.jpg.pagespeed.ic.H8BbDYbc20.jpg]]] Samples of images at different compressions and pixel densities.
+==IMAGES GO HERE==
+Samples of images at different compressions and pixel densities.
 
 From this small, unscientific sampling, it seems that compressing large images provides a good quality-to-size tradeoff. For my eye, heavily compressed 2x imagery actually looks better than uncompressed 1x pictures.
 
@@ -239,7 +236,7 @@ As you can see, in addition to x declarations that <code>image-set</code> provid
 
 ===Using image-set for image elements===
 
-Because the srcset attribute on img elements is not implemented in most browsers, it may be tempting to replace your img elements with <code><div></code>s with backgrounds and use the image-set approach. This will work, with caveats. The drawback here is that the <code><img></code> tag has long-time semantic value. In practice, this is important mostly for web crawlers and accessibility reasons.
+Because the srcset attribute on img elements is not implemented in most browsers, it may be tempting to replace your img elements with <code>&lt;div&gt;</code>s with backgrounds and use the image-set approach. This will work, with caveats. The drawback here is that the <code><img></code> tag has long-time semantic value. In practice, this is important mostly for web crawlers and accessibility reasons.
 
 If you end up using <code>-webkit-image-set</code>, you might be tempted to use the background CSS property. The drawback of this approach is that you need to specify image size, which is unknown if you are using a non-1x image. Rather than doing this, you can use the content CSS property as follows:
 
@@ -273,7 +270,6 @@ To summarize, my recommendations are as follows:
 * For background images, use image-set with the appropriate fallbacks for browsers that don't support it.
 * For content images, use a srcset polyfill, or fallback to using image-set (see above).
 * For situations where you're willing to sacrifice image quality, consider using heavily compressed 2x images.
-
 }}
 {{Examples_Section
 |Not_required=No
