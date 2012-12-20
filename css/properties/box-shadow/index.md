@@ -39,9 +39,10 @@ The '''box-shadow''' property can specify one or more drop shadows. The componen
 *Optional: The ''color'' is the color of the shadow.
 *Optional: An <code>inset</code> keyword, if present, changes the drop shadow from an outer shadow (one that shadows the box onto the canvas, as if it were lifted above the canvas) to an inner shadow (one that shadows the canvas onto the box, as if the box were cut out of the canvas and shifted behind it).
 |Import_Notes====Syntax===
-<code>'''box-shadow: '''none '''{{!}}''' ''
-&lt;shadow&gt;
-''</code>
+<code>
+''box-shadow:  ''none '''{{!}}''' ''offset-x offset-y (blur-radius) (spread-radius) (color) (inset)''
+</code>
+
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}197157 CSS Backgrounds and Borders Module Level 3], Section 6.2
 }}
