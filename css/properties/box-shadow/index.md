@@ -7,6 +7,7 @@
 {{API_Name}}
 {{Summary_Section|Box shadows allows developers to insert some cool visual effects like drop shadows and back lighting into their HTML pages.}}
 {{CSS Property
+|Initial value=none
 |Applies to=Block-level elements
 |Inherited=No
 |Media=visual
@@ -20,7 +21,7 @@
 }}
 }}
 {{Examples_Section
-|Not_required=No
+|Not_required=Yes
 |Examples={{Single Example
 |Language=CSS
 |Code=.shadow {
@@ -49,6 +50,7 @@ The '''box-shadow''' property can specify one or more drop shadows. The componen
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
 |Chrome_version=10
