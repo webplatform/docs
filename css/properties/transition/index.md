@@ -30,17 +30,18 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Description=When you hover on the div height property will gradually change from 100 to 500
-|Code=div
-{
-height:100px;
-transition: height 2s;
--moz-transition: height 2s; /* Firefox */
--webkit-transition: height 2s; /* Safari and Chrome */
--o-transition: height 2s; /* Opera */
+|Description=When you hover over the div, the height property will gradually change from 100 to 500.
+|Code=div {
+  height: 100px;
+  -webkit-transition: height 2s; /* Safari and Chrome */
+  -moz-transition: height 2s; /* Firefox */
+  -o-transition: height 2s; /* Opera */
+  transition: height 2s;
 }
 
-div:hover {height:500px;}
+div:hover {
+  height: 500px;
+}
 }}
 }}
 {{Notes_Section
@@ -56,6 +57,7 @@ To ensure compatibility in the future, applications using this property with a v
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=No
 |Chrome_version=
