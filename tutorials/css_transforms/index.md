@@ -152,7 +152,7 @@ only the ''x'' axis.
 
 [[Image:transform_skew.png]]
 
-Note that combining ''x'' and ''y'' skews makes the element appear to
+Note that skewing along both ''x'' and ''y'' makes the element appear to
 move into three-dimensional space, but the transformation actually
 occurs within a flat plane. Skip below for information about 3D
 transforms.
