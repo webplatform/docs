@@ -30,7 +30,7 @@ The holy grail, of course, is a display in which pixels are completely invisible
 
 In practice, low density images should look the same on new screens as they did on old ones, but compared to the crisp imagery high density users are used to seeing, the low density images look jarring and pixelated. The following is a rough simulation of how a 1x image will look on a 2x display. In contrast, the 2x image looks quite good.
 
- [[Image:baboon1x.jpg]] [[Image:baboon2x]] Baboons! at differing pixel densities.
+ [[file:baboon1x.jpg]] [[file:baboon2x.jpg]] Baboons! at differing pixel densities.
 
 ===Pixels on the web===
 
@@ -54,7 +54,7 @@ Suppose a smart phone has a screen with a physical pixel size of 180 pixels per 
 # Multiply the distance ratio against the standard density (96ppi) to get the ideal pixel density for the given distance.idealPixelDensity = (28/18) * 96 = 150 pixels per inch (approximately)
 # Take the ratio of the physical pixel density to the ideal pixel density to get the device pixel ratio.<code>devicePixelRatio</code> = 180/150 = 1.2
 
- [[Image:wcalculate-dpr.png]] A diagram showing one reference angular pixel, to help illustrate how devicePixelRatio is calculated.
+ [[file:wcalculate-dpr.png]] A diagram showing one reference angular pixel, to help illustrate how devicePixelRatio is calculated.
 
 So now when a browser needs to know how to resize an image to fit the screen according to the ideal or standard resolution, the browser refers to the device pixel ratio of 1.2 - which says, for every ideal pixel, this device has 1.2 physical pixels. The formula to go between ideal (as defined by the web spec) and physical (dots on device screen) pixels is the following:
 
@@ -270,6 +270,7 @@ To summarize, my recommendations are as follows:
 * For background images, use image-set with the appropriate fallbacks for browsers that don't support it.
 * For content images, use a srcset polyfill, or fallback to using image-set (see above).
 * For situations where you're willing to sacrifice image quality, consider using heavily compressed 2x images.
+
 }}
 {{Examples_Section
 |Not_required=No
