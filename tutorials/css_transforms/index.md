@@ -342,6 +342,7 @@ is far behind them:
  }
  .child {
     transform-origin-z   : -620;
+    transform-origin     : 50% 50% -620;  /* same */
  }
  .child:nth-of-type(1) { transform: rotateY(-50deg); }
  .child:nth-of-type(2) { transform: rotateY(-30deg); }
