@@ -184,7 +184,7 @@ bottom right corner:
  div {
      transform-origin-x : 80%     ;
      transform-origin-y : 90%     ;
-     transform-origin	: 80% 90% ; /* same as above */
+     transform-origin  : 80% 90% ; /* same as above */
  }
  div:nth-of-type(1) { transform : rotate(10deg) ; }
  div:nth-of-type(2) { transform : rotate(20deg) ; }
