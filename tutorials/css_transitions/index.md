@@ -4,9 +4,94 @@
 |Editorial notes=[[User:Sierra]] has content intended for this page. See bug [https://www.w3.org/Bugs/Public/show_bug.cgi?id=20410 #20410]
 }}
 {{Byline}}
-{{Summary_Section|__SUMMARY__}}
+{{Summary_Section|CSS transitions offer the easiest way to animate an
+interface.  CSS is used everywhere to control how web pages appear,
+and shifts from one set of style sheets to another ordinarily occur
+abruptly.  Adding transition properties allows most of those changes
+to occur gradually, for a more vibrant, fluid interface.
+}}
 {{Tutorial
-|Content=__CONTENT__
+|Content=
+
+This tutorial introduces CSS's various transition properties and shows
+you how to control how smoothly transitions execute. It shows you how
+to create sequences of more than one transition, but increasingly
+complex movements require [[tutorials/css_animations|keyframe
+animations]], which work similarly.  You should become familiar with
+what CSS ''transitions'' can do before mastering ''animations''.  Both
+kinds of CSS-based animation require none of the JavaScript timers
+traditionally used to move things around, and execute much faster.
+
+While transitions allow you to apply all sorts of marginal
+enhancements such as hover effects to traditional desktop interfaces,
+they are particularly useful for small-screen mobile interfaces where
+some displaying elements need to slide or fade out of view, or else
+collapse into icons.  While introducing some broadly useful
+techniques, the set of examples below focuses on situations where
+transitions may drive key components of a mobile interface.
+
+
+
+<!--
+
+==The transition property==
+
+* simple expanded/collapsed panel
+
+* transition shorthand
+
+* P property: all; everything that varies (vvv for what can't vary)
+
+* P duration: 0.5s
+
+
+
+==Expanding a panel==
+
+[[Image:transit_simple.png]]
+
+* 
+
+==Timing functions==
+
+* P timing
+
+* curves, keywords
+
+* steps
+
+==Transitional sequences==
+
+* multiple transitions
+
+* P delay: 
+
+* bidirectional
+
+==The transitionend event==
+
+* self-dismissing
+
+* TIP: spurious transitions as alternative to setTimeout
+
+==Cross-fades, filters, and other advanced image effects==
+
+* default?
+* cross-fade
+* hue-rotate
+
+==What can transitions control?==
+
+* no generated ::before & ::after
+
+* numeric
+* color
+* not discrete values
+* gradients?
+* mismatching
+
+-->
+
 }}
 {{Notes_Section}}
 {{Compatibility_Section
