@@ -55,7 +55,8 @@ Suppose a smart phone has a screen with a physical pixel size of 180 pixels per 
 # Multiply the distance ratio against the standard density (96ppi) to get the ideal pixel density for the given distance.idealPixelDensity = (28/18) * 96 = 150 pixels per inch (approximately)
 # Take the ratio of the physical pixel density to the ideal pixel density to get the device pixel ratio.<code>devicePixelRatio</code> = 180/150 = 1.2
 
-[[Image:wcalculate-dpr.png|frame|center|A diagram showing one reference angular pixel, to help illustrate how devicePixelRatio is calculated.]] 
+
+[[Image:wcalculate-dpr.png|center|frame|A diagram showing one reference angular pixel, to help illustrate how devicePixelRatio is calculated.]] 
 
 
 So now when a browser needs to know how to resize an image to fit the screen according to the ideal or standard resolution, the browser refers to the device pixel ratio of 1.2 - which says, for every ideal pixel, this device has 1.2 physical pixels. The formula to go between ideal (as defined by the web spec) and physical (dots on device screen) pixels is the following:
@@ -100,9 +101,9 @@ Images already [http://httparchive.org/interesting.php#bytesperpage comprise a w
 
 I ran some tests which generated 1x and 2x image fragments with JPEG quality at 90, 50 and 20. Here is [/static/demos/high-dpi/process_images.sh shell script] I used (employing [http://www.imagemagick.org/script/index.php ImageMagick]) to generate them:
 
-[[Image:highdpi-tile1.jpg|frame|700px|Samples of images at different compressions and pixel densities.]]
-[[Image:highdpi-tile2.jpg|frame|700px|Samples of images at different compressions and pixel densities.]]
-[[Image:highdpi-tile3.jpg|frame|700px|Samples of images at different compressions and pixel densities.]]
+[[Image:highdpi-tile1.jpg|center|500px|frame|Samples of images at different compressions and pixel densities.]]
+[[Image:highdpi-tile2.jpg|center|500px|frame|Samples of images at different compressions and pixel densities.]]
+[[Image:highdpi-tile3.jpg|center|500px|frame|Samples of images at different compressions and pixel densities.]]
 
 From this small, unscientific sampling, it seems that compressing large images provides a good quality-to-size tradeoff. For my eye, heavily compressed 2x imagery actually looks better than uncompressed 1x pictures.
 
