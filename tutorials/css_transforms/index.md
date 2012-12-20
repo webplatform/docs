@@ -384,15 +384,12 @@ only one of the child ''face'' elements displays at a time:
  }
  .card {
      left		: 0px;
-         /* vary this to rotate the entire card: */
-     transform		: rotateY(45deg);
-         /* this allows each face to rotate within the card: */
-     transform-style	: preserve-3d;
+     transform		: rotateY(45deg);    /* vary this to rotate the entire card */
+     transform-style	: preserve-3d;    /* this allows each face to rotate within the card */
  }
  .face {
      background-size	: 100% 100%;
-         /* only display when facing viewer: */
-     backface-visibility	: hidden;
+     backface-visibility	: hidden;    /* only display when facing viewer */
  }
  .face:first-of-type {
      transform		: rotateY(0deg);
