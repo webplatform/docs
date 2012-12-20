@@ -281,7 +281,6 @@ To summarize, my recommendations are as follows:
 * For background images, use image-set with the appropriate fallbacks for browsers that don't support it.
 * For content images, use a srcset polyfill, or fallback to using image-set (see above).
 * For situations where you're willing to sacrifice image quality, consider using heavily compressed 2x images.
-
 }}
 {{Examples_Section
 |Not_required=No
