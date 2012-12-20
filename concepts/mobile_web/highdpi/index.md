@@ -30,7 +30,8 @@ The holy grail, of course, is a display in which pixels are completely invisible
 
 In practice, low density images should look the same on new screens as they did on old ones, but compared to the crisp imagery high density users are used to seeing, the low density images look jarring and pixelated. The following is a rough simulation of how a 1x image will look on a 2x display. In contrast, the 2x image looks quite good.
 
- [[file:baboon1x.jpg]] [[file:baboon2x.jpg]] Baboons! at differing pixel densities.
+[[Image:baboon1x.jpg|200x200px|Baboon at 1x]] 
+[[Image:baboon2x.jpg|200x200px|Baboon at 2x]] 
 
 ===Pixels on the web===
 
@@ -54,7 +55,8 @@ Suppose a smart phone has a screen with a physical pixel size of 180 pixels per 
 # Multiply the distance ratio against the standard density (96ppi) to get the ideal pixel density for the given distance.idealPixelDensity = (28/18) * 96 = 150 pixels per inch (approximately)
 # Take the ratio of the physical pixel density to the ideal pixel density to get the device pixel ratio.<code>devicePixelRatio</code> = 180/150 = 1.2
 
- [[file:wcalculate-dpr.png]] A diagram showing one reference angular pixel, to help illustrate how devicePixelRatio is calculated.
+[[Image:wcalculate-dpr.png|frame|A diagram showing one reference angular pixel, to help illustrate how devicePixelRatio is calculated.]] 
+
 
 So now when a browser needs to know how to resize an image to fit the screen according to the ideal or standard resolution, the browser refers to the device pixel ratio of 1.2 - which says, for every ideal pixel, this device has 1.2 physical pixels. The formula to go between ideal (as defined by the web spec) and physical (dots on device screen) pixels is the following:
 
@@ -98,8 +100,9 @@ Images already [http://httparchive.org/interesting.php#bytesperpage comprise a w
 
 I ran some tests which generated 1x and 2x image fragments with JPEG quality at 90, 50 and 20. Here is [/static/demos/high-dpi/process_images.sh shell script] I used (employing [http://www.imagemagick.org/script/index.php ImageMagick]) to generate them:
 
-==IMAGES GO HERE==
-Samples of images at different compressions and pixel densities.
+[[Image:highdpi-tile1.jpg|frame|Samples of images at different compressions and pixel densities.]]
+[[Image:highdpi-tile2.jpg|frame|Samples of images at different compressions and pixel densities.]]
+[[Image:highdpi-tile3.jpg|frame|Samples of images at different compressions and pixel densities.]]
 
 From this small, unscientific sampling, it seems that compressing large images provides a good quality-to-size tradeoff. For my eye, heavily compressed 2x imagery actually looks better than uncompressed 1x pictures.
 
