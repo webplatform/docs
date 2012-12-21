@@ -172,6 +172,8 @@ NOTE: UNFINISHED. DO NOT EDIT.
 
 ==Timing functions==
 
+...
+
 <!--
 * P timing
 * curves, keyword shorthands
@@ -180,6 +182,8 @@ NOTE: UNFINISHED. DO NOT EDIT.
 
 ==The transitionend event==
 
+...
+
 <!--
 * example: self-dismissing panel
 * TIP: spurious transitions as alternative to setTimeout
@@ -187,12 +191,16 @@ NOTE: UNFINISHED. DO NOT EDIT.
 
 ==Cross-fades, filters, and other exotic effects==
 
+...
+
 <!--
 * default cross-fade for background image?
 * cross-fade() function
 * hue-rotate
 
 -->
+
+...
 
 ==What can be transitioned==
 
