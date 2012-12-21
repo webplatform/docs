@@ -138,48 +138,48 @@ point. Combined, the two sets of transitions appear like this:
 
 [[Image:transit_simple.png]]
 
-<!--
-
-NOTE: UNFINISHED. DO NOT EDIT.
-
 ==Transitional sequences==
 
+<!--
+NOTE: UNFINISHED. DO NOT EDIT.
+
 * multiple transitions
-
 * P delay: 
-
 * bidirectional
+-->
 
 ==Timing functions==
 
+<!--
 * P timing
-
-* curves, keywords
-
+* curves, keyword shorthands
 * steps
+-->
 
 ==The transitionend event==
 
-* self-dismissing
-
+<!--
+* example: self-dismissing panel
 * TIP: spurious transitions as alternative to setTimeout
+-->
 
-==Cross-fades, filters, and other advanced image effects==
+==Cross-fades, filters, and other exotic effects==
 
-* default?
-* cross-fade
+<!--
+* default cross-fade for background image?
+* cross-fade() function
 * hue-rotate
+-->
 
 ==What can transitions control?==
 
-* no generated ::before & ::after
-
+<!--
+* NO generated ::before & ::after
+* NO discrete values
+* NO mismatching parameters
+* gradients?
 * numeric
 * color
-* not discrete values
-* gradients?
-* mismatching
-
 -->
 
 }}
