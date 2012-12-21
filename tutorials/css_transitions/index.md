@@ -227,7 +227,7 @@ so that the overall sequence takes 1.5 seconds to execute:
      background-image: url(JackHeart.jpeg);
  }
 
-The overall effect appears like this:
+The overall movement is staggered like this:
 
 [[Image:transit_delay.png]]
 
