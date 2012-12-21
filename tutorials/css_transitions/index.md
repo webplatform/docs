@@ -245,7 +245,7 @@ this:
 Browsers represent these keywords as bezier curves, which makes the
 animations' response easier to visualize.  Here is the basic set of
 function keywords along with their alternate '''cubic-bezier()'''
-function values.  The animation's progress and elapsed time correspond
+function values.  The animation's elapsed time and progress correspond
 to ''x'' and ''y'' axes, so the more the line curves vertically along
 the way, the faster it moves:
 
