@@ -345,6 +345,10 @@ Note the various provisional names for the event: '''transitionend'''
 (Mozilla), '''otransitionend''' (Opera), and '''webkitTransitionEnd'''
 (WebKit).
 
+{|
+| foo
+| bar
+|}
 
 <!--
 NOTE: UNFINISHED. DO NOT EDIT.
