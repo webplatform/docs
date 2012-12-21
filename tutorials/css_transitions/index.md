@@ -145,7 +145,7 @@ Combined, the two sets of transitions execute simultaneously:
 You are not limited to a single set of transitions to get from one set
 of style sheets to another. The panel in this example first grows to
 its full width, then lengthens. The sequence is then reversed when
-collapsing back down to icon size:
+collapsing the panel back down to icon size:
 
 [[Image:transit_sequence.png|900px]]
 
@@ -242,12 +242,12 @@ this:
 
 [[Image:transit_linear.png]]
 
-Browsers represent these keywords as bezier curves, which makes the
-animations' response easier to visualize.  Here is the basic set of
-function keywords along with their alternate '''cubic-bezier()'''
-function values.  The animation's elapsed time and progress correspond
-to ''x'' and ''y'' axes, so the more the line curves vertically along
-the way, the faster it moves:
+Browsers represent these keywords as bezier curves, which makes their
+response easier to visualize.  Here is the basic set of keyword values
+along with their alternate '''cubic-bezier()''' functions.  The
+animation's elapsed time and progress correspond to ''x'' and ''y''
+axes, so the more the line curves vertically along the way, the faster
+it moves:
 
 * '''ease''': '''cubic-bezier(0.25, 0.1, 0.25, 1.0)'''
 [[Image:transitF_ease.png]]
@@ -268,9 +268,18 @@ This useful [http://cssglue.com/cubic cubic bezier function utility]
 allows you to create your own custom curve and the see the result
 applied to various animations.
 
+Timing functions can also be specified as part of the '''transition'''
+shorthand property. This example makes a sequence of two '''ease-in'''
+and '''ease-out''' transitions resemble the behavior of a single
+'''ease-in-out''' function:
+
+ div          { transition: height 0.5s 0.0s ease-in, width  0.5s 0.5s ease-out; }
+ div.expanded { transition: width  0.5s 0.0s ease-in, height 0.5s 0.5s ease-out; }
+
 As an alternative to response curves, the '''steps()''' function
-specifies a series of distinct frames with no smoothing. This animates
-three interim steps that occur between the start and end points:
+specifies a series of distinct frames with no smoothing applied. This
+animates three interim steps that occur between the start and end
+points:
 
  transition-timing-function : steps(5);
 
