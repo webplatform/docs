@@ -241,13 +241,21 @@ value, which browsers represent internally as a bezier curve that
 makes the behavior easier to visualize. Here are the following values
 
 {|
+
 | [[Image:transitF_ease.png]] <br/>XXX
+
 | [[Image:transitF_easeinout.png]] <br/>XXX
+
 |
+
 |-
+
 | [[Image:transitF_easein.png]] <br/>XXX
+
 | [[Image:transitF_easeout.png]] <br/>XXX
+
 | [[Image:transitF_linear.png]] <br/>XXX
+
 |}
 
 
