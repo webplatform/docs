@@ -235,18 +235,17 @@ The overall effect appears like this:
 
 You may notice in the example above that the cards are not evenly
 spaced. That's because transitions by default start out slowly, gather
-speed, then slow down again at the end.
-
-The '''transition-function''' property specifies this behavior. By
-default it uses an '''ease''' value. If it were '''linear''', cards
-would be spaced like this:
+speed, then slow down again at the end.  The '''transition-function'''
+property specifies this behavior. By default it uses an '''ease'''
+value. If it were '''linear''', cards would space themselves like
+this:
 
 [[Image:transit_linear.png]]
 
-Browsers represent these keywords as a bezier curve, which makes the
-animation response easier to visualize. Here is the basic set of
+Browsers represent these keywords as bezier curves, which makes the
+animations' response easier to visualize. Here is the basic set of
 function keywords along with their alternate '''cubic-bezier()'''
-values:
+function values:
 
 * '''ease''': '''cubic-bezier(0.25, 0.1, 0.25, 1.0)'''
 [[Image:transitF_ease.png]]
