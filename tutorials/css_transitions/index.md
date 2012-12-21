@@ -133,19 +133,19 @@ parent '''nav''' element:
      transform         : scale(1);
  }
 
-The animation fades the icons, and grows or shrinks them down to a
-point. (See the [[tutorials/css_transforms|transforms tutorial]] for
-more information.) Combined, the two sets of transitions execute
-simultaneously:
+The '''opacity''' property fades the icons, and '''transform''' grows
+or shrinks them down to a point. (See the
+[[tutorials/css_transforms|tutorial on transforms]] for details.)
+Combined, the two sets of transitions execute simultaneously:
 
 [[Image:transit_simple.png|280px]]
 
 ==Transitional sequences==
 
 You are not limited to a single set of transitions to get from one set
-of style sheets to another. This example first grows to its full
-width, then lengthens. The sequence is then reversed when collapsing
-back down to icon size:
+of style sheets to another. The panel in this example first grows to
+its full width, then lengthens. The sequence is then reversed when
+collapsing back down to icon size:
 
 [[Image:transit_sequence.png|900px]]
 
@@ -232,6 +232,42 @@ The overall effect appears like this:
 [[Image:transit_delay.png]]
 
 ==Timing functions==
+
+You may notice in the example above that the cards are not evenly
+spaced. That's because transitions by default start out slowly, gather
+speed, then slow down again at the end.  The '''transition-function'''
+property specifies this behavior. By default it uses an '''ease'''
+value, which browsers represent internally as a bezier curve that
+makes the behavior easier to visualize. Here are the following values
+
+{|
+| [[Image:transitF_ease.png]] <br/>XXX
+| [[Image:transitF_easeinout.png]] <br/>XXX
+|
+|-
+| [[Image:transitF_easein.png]] <br/>XXX
+| [[Image:transitF_easeout.png]] <br/>XXX
+| [[Image:transitF_linear.png]] <br/>XXX
+|}
+
+
+
+* '''linear''':  '''cubic-bezier(0.0, 0.0, 1.0, 1.0)'''
+
+* '''ease''' (default):  '''cubic-bezier(0.25, 0.1, 0.25, 1.0)'''
+
+* '''ease-in''':  '''cubic-bezier(0.42, 0, 1.0, 1.0)'''
+
+* '''ease-out''':  '''cubic-bezier(0, 0, 0.58, 1.0)'''
+
+* '''ease-in-out''':  '''cubic-bezier(0.42, 0, 0.58, 1.0)'''
+
+[[Image:transit_linear.png]]
+
+[http://cssglue.com/cubic cubic bezier function manipulator]
+
+ transition-timing-function : cubic-bezier(0.4, 0, 1, 0.4), cubic-bezier(0, 0.4, 0.4, 1);
+
 
 ...
 
