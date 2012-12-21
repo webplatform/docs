@@ -72,7 +72,7 @@ assigned the ''expanded'' class.
          /* transition applies to these varying elements */
      right                 : 10px;   /* bring panel into view */
      background-position-x : 400px;  /* icon out of view */
-     border                : #aaa solid medium; 
+     border                : #aaa solid medium;
      box-shadow            : 0 0 1em #777;
  }
 
@@ -165,10 +165,10 @@ Here is the relevant CSS:
  }
 
 Each transition property uses commas to delimit additional transitions
-that form the larger sequence. In this case, the duration for each is
-the same: half a second. The '''transition-delay''' property specifies
-that the first executes immediately, but the second waits until the
-first is complete.
+that form the larger second-long sequence. In this case, the duration
+for each is the same: half a second. The '''transition-delay'''
+property specifies that the first executes immediately, but the second
+waits until the first is complete.
 
 This example also specifies individual property names rather than
 '''all'''. When transitioning to the ''expanded'' class, the
@@ -184,6 +184,52 @@ transitions. Here is the same as above, but expressed more tersely:
 The first supplied time value is interpreted as the
 '''transition-duration''', and the second as the
 '''transition-delay'''.
+
+Note that with no delay specified, you can use more than one
+transition to animate selected properties simultaneously, which might
+be useful if you want to animate some properties but not '''all''' of
+them. You can also stagger the delays so that execution overlaps.  In
+this example, a single transition specifies the '''transform'''
+property to move six cards to the right over the course of one second,
+but the delay for each is successively staggered up to half a second
+so that the overall sequence takes 1.5 seconds to execute:
+
+ section > div {
+     transition: transform 1s;
+     transform: translateX(0px);
+     /* ^^^ this transform is optional, otherwise transition assumes default value */
+ }
+ section.deal > div {
+     transform: translateX(300px); /* move to right */
+ }
+ section > div:nth-of-type(6) {
+     transition-delay: 0.0s;
+     background-image: url(QueenSpade.png);
+ }
+ section > div:nth-of-type(5) {
+     transition-delay: 0.1s;
+     background-image: url(KingClub.jpeg);
+ }
+ section > div:nth-of-type(4) {
+     transition-delay: 0.2s;
+     background-image: url(JackClub.jpeg);
+ }
+ section > div:nth-of-type(3) {
+     transition-delay: 0.3s;
+     background-image: url(AceSpade.jpeg);
+ }
+ section > div:nth-of-type(2) {
+     transition-delay: 0.4s;
+     background-image: url(JackSpade.jpeg);
+ }
+ section > div:nth-of-type(1) {
+     transition-delay: 0.5s;
+     background-image: url(JackHeart.jpeg);
+ }
+
+The overall effect appears like this:
+
+[[Image:transit_delay.png]]
 
 ==Timing functions==
 
