@@ -272,6 +272,18 @@ values:
 
  transition-timing-function : cubic-bezier(0.4, 0, 1, 0.4), cubic-bezier(0, 0.4, 0.4, 1);
 
+{|
+|+ fubar
+! thing1
+! thing2
+|-
+|foo
+|bar
+|-
+|bar
+|foo
+|}
+
 
 ...
 
