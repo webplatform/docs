@@ -3,7 +3,7 @@
 |High-level issues=Stub, Missing Relevant Sections
 |Content=Incomplete
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Returns the gathering state of the ICE agent.}}
 {{API_Object_Property
