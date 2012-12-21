@@ -155,17 +155,12 @@ function End() {
 }}
 }}
 {{Notes_Section
-|Usage=Originally, Microsoft intended this method to return a TextRectangle object for each line of text. However, the CSSOM working draft specifies that it returns a ClientRect for each border box. For an inline element, the two definitions are the same. But for a block element, Mozilla will return only a single rectangle.
-
-The amount of scrolling that has been done of the viewport area (or any other scrollable element) is taken into account when computing the rectangles.
-
-The returned rectangles do not include the bounds of any child elements that might happen to overflow.
-
-For HTML AREA elements, SVG elements that do not render anything themselves, display:none elements, and generally any elements that are not directly rendered, an empty list is returned.
-
-Rectangles are returned even for CSS boxes that have empty border-boxes. The left, top, right and bottom coordinates can still be meaningful.
-
-Fractional pixel offsets are possible.
+|Notes=*Before being in the process of standardization, it was intended that this method would return a TextRectangle object for each line of text in an element. However, the CSSOM working draft specifies that it returns a ClientRect for each border box. For an inline element, the two definitions are the same. But for a block element, the CSSOM version returns only a single rectangle.
+*The amount of scrolling that has been done of the viewport area (or any other scrollable element) is taken into account when computing the rectangles.
+*The returned rectangles do not include the bounds of any child elements that might happen to overflow.
+*For HTML AREA elements, SVG elements that do not render anything themselves, display:none elements, and generally any elements that are not directly rendered, an empty list is returned.
+*Rectangles are returned even for CSS boxes that have empty border-boxes. The left, top, right and bottom coordinates can still be meaningful.
+*Fractional pixel offsets are possible.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -187,7 +182,7 @@ Fractional pixel offsets are possible.
 |Firefox_prefixed_supported=Unknown
 |Firefox_prefixed_version=
 |Internet_explorer_supported=Yes
-|Internet_explorer_version=8
+|Internet_explorer_version=5
 |Internet_explorer_prefixed_supported=Unknown
 |Internet_explorer_prefixed_version=
 |Opera_supported=Yes
@@ -200,7 +195,15 @@ Fractional pixel offsets are possible.
 |Safari_prefixed_version=
 }}
 |Mobile_rows=
-|Notes_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=5 - 7
+|Note=Treats almost any type of element (block and similar) as if it were an inline element and so returns client rectangles for every line of its contents, instead of a single client rectangle object.
+}}{{Compatibility Notes Row
+|Browser=Chrome
+|Version=23 - 26
+|Note=For inline elements, ClientRects are returned for every line as broken in the source code, not only as broken in the rendered content. So if 2 small words are broken into two lines -<br/><code>&lt;span&gt;hello<br/>world&lt;/span&gt;</code><br/>This method returns 2 ClientRects objects. {{TODO|This bug may have been there since the beginning of Chrome/Safari, this needs verification.}}
+}}
 }}
 {{See_Also_Section
 |Topic_clusters=CSS Layout, CSSOM
