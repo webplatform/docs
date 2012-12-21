@@ -175,16 +175,13 @@ towards the center, or else you rotate it around its center point.
 The [[css/properties/transform-origin|'''transform-origin''']]
 property allows you to place this origin point elsewhere, even outside
 the element, changing how transforms respond, especially in animations.
-It accepts a pair of ''x''/''y'' measurements, or else you can specify
-'''transform-origin-x''' and '''transform-origin-y''' separately.
+It accepts a pair of ''x''/''y'' measurements.
 
 This shows a series of transforms that rotate around a point near the
 bottom right corner:
 
  div {
-     transform-origin-x : 80%     ;
-     transform-origin-y : 90%     ;
-     transform-origin   : 80% 90% ; /* same as above */
+     transform-origin   : 80% 90% ; 
  }
  div:nth-of-type(1) { transform : rotate(10deg) ; }
  div:nth-of-type(2) { transform : rotate(20deg) ; }
@@ -197,8 +194,6 @@ makes it appear to tip over:
 
  div {
     transform          : skewX(15deg);
-    transform-origin-y : 100%;
-    transform-origin-y : bottom; /* same as 100% */
  }
 
 [[Image:origin_skew.png]]
@@ -215,13 +210,13 @@ with no need for the [[css/functions/translate()|'''translate()''']]
 function:
 
  div:first-of-type {
-    -webkit-transform          : scale(0.35, 1);
-    -webkit-transform-origin-x : 0%;
-    -webkit-transform-origin-x : left; /* same as 0% */
+    transform        : scale(0.35, 1);
+    transform-origin : 0%;
+    transform-origin : left; /* same as 0% */
  }
  div:last-of-type {
-    -webkit-transform-origin   : 210% -20%;
-    -webkit-transform          : scale(0.5);
+    transform-origin : 210% -20%;
+    transform        : scale(0.5);
  }
 
 [[Image:origin_scale.png]]
