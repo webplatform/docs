@@ -270,8 +270,6 @@ applied to various animations.
 
 [[Image:transit_custom.png]]
 
-
-
 ...
 
 <!--
