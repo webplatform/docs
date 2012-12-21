@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Returns the [[apis/webrtc/RTCSessionDescription|RTCSessionDescription]] most recently passed to the [[apis/webrtc/RTCPeerConnection/setLocalDescription|setLocalDescription()]] method along with any local candidate descriptions generated the method was called.}}
+{{Summary_Section|Returns the [[apis/webrtc/RTCSessionDescription|RTCSessionDescription]] most recently passed to the [[apis/webrtc/RTCPeerConnection/setLocalDescription|setLocalDescription()]] method along with any local candidate descriptions generated since the method was called.}}
 {{API_Object_Property
 |Property_applies_to=apis/webrtc/RTCPeerConnection
 |Read_only=Yes
