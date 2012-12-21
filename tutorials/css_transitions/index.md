@@ -249,39 +249,28 @@ function values.  The animation's progress and elapsed time correspond
 to ''x'' and ''y'' axes, so the more the line curves vertically along
 the way, the faster it moves:
 
-'''ease''': '''cubic-bezier(0.25, 0.1, 0.25, 1.0)'''
+* '''ease''': '''cubic-bezier(0.25, 0.1, 0.25, 1.0)'''
 [[Image:transitF_ease.png]]
 
-'''ease-in-out''': '''cubic-bezier(0.42, 0, 0.58, 1.0)'''
+* '''ease-in-out''': '''cubic-bezier(0.42, 0, 0.58, 1.0)'''
 [[Image:transitF_easeinout.png]]
 
-'''ease-in''': '''cubic-bezier(0.42, 0, 1.0, 1.0)'''
+* '''ease-in''': '''cubic-bezier(0.42, 0, 1.0, 1.0)'''
 [[Image:transitF_easein.png]]
 
-'''ease-out''': '''cubic-bezier(0, 0, 0.58, 1.0)'''
+* '''ease-out''': '''cubic-bezier(0, 0, 0.58, 1.0)'''
 [[Image:transitF_easeout.png]]
 
-'''linear''': '''cubic-bezier(0.0, 0.0, 1.0, 1.0)'''
+* '''linear''': '''cubic-bezier(0.0, 0.0, 1.0, 1.0)'''
 [[Image:transitF_linear.png]]
 
 This useful [http://cssglue.com/cubic cubic bezier function utility]
 allows you to create your own custom curve and the see the result
 applied to various animations.
 
-The previous example of the two-stage expanding panel can be modified
-which a sequence of custom '''cubic-bezier()''' functions:
-
- transition-timing-function : cubic-bezier(0.4, 0, 1, 0.4), cubic-bezier(0, 0.4, 0.4, 1);
-
-The first transition starts out slowly, then comes to an abrupt stop.
-The second starts just as abruptly, but ends slowly. The overall
-sequence resembles a single '''ease-in-out''' transition:
-
-[[Image:transit_custom.png]]
-
 As an alternative to response curves, the '''steps()''' function
 specifies a series of distinct frames with no smoothing. This animates
-three interim steps that appear between the start and end points:
+three interim steps that occur between the start and end points:
 
  transition-timing-function : steps(5);
 
