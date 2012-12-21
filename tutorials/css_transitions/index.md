@@ -266,7 +266,14 @@ This useful [http://cssglue.com/cubic cubic bezier function utility]
 allows you to create your own custom curve and the see the result
 applied to various animations.
 
+The previous example of the two-stage expanding panel can be modified
+which a sequence of custom '''cubic-bezier()''' functions:
+
  transition-timing-function : cubic-bezier(0.4, 0, 1, 0.4), cubic-bezier(0, 0.4, 0.4, 1);
+
+The first transition starts out slowly, then comes to an abrupt stop.
+The second starts just as abruptly, but ends slowly. The overall
+sequence resembles a single '''ease-in-out''' transition:
 
 [[Image:transit_custom.png]]
 
