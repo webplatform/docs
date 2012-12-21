@@ -262,28 +262,28 @@ axes, so the more the line curves vertically along the way, the faster
 it moves:
 
 <div style="display:inline-block">
+[[Image:transitF_linear.png]] <br/>
+'''linear''' <br/> '''cubic-bezier(0.0, 0.0, 1.0, 1.0)'''
+</div>
+
+<div style="display:inline-block">
 [[Image:transitF_ease.png]] <br/>
-'''ease''': '''cubic-bezier(0.25, 0.1, 0.25, 1.0)'''
+'''ease''' <br/> '''cubic-bezier(0.25, 0.1, 0.25, 1.0)'''
 </div>
 
 <div style="display:inline-block">
 [[Image:transitF_easeinout.png]] <br/>
-'''ease-in-out''': '''cubic-bezier(0.42, 0, 0.58, 1.0)'''
+'''ease-in-out''' <br/> '''cubic-bezier(0.42, 0, 0.58, 1.0)'''
 </div>
 
 <div style="display:inline-block">
 [[Image:transitF_easein.png]] <br/>
-'''ease-in''': '''cubic-bezier(0.42, 0, 1.0, 1.0)'''
+'''ease-in''' <br/> '''cubic-bezier(0.42, 0, 1.0, 1.0)'''
 </div>
 
 <div style="display:inline-block">
 [[Image:transitF_easeout.png]] <br/>
-'''ease-out''': '''cubic-bezier(0, 0, 0.58, 1.0)'''
-</div>
-
-<div style="display:inline-block">
-[[Image:transitF_linear.png]] <br/>
-'''linear''': '''cubic-bezier(0.0, 0.0, 1.0, 1.0)'''
+'''ease-out''' <br/> '''cubic-bezier(0, 0, 0.58, 1.0)'''
 </div>
 
 This useful [http://cssglue.com/cubic cubic bezier function utility]
