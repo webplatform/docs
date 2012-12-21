@@ -70,8 +70,8 @@ most of how it appears, and another for when it is assigned the
  }
  nav.expanded  {
          /* transition applies to these varying elements */
-     right                 : 10px;
-     background-position-x : 400px;
+     right                 : 10px;   /* bring panel into view */
+     background-position-x : 400px;  /* icon out of view */
      border                : #aaa solid medium; 
      box-shadow            : 0 0 1em #777;
  }
