@@ -171,7 +171,7 @@ NOTE: UNFINISHED. DO NOT EDIT.
 * hue-rotate
 -->
 
-==What can transitions control?==
+==What can be transitioned==
 
 <!--
 * NO generated ::before & ::after
