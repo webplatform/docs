@@ -40,9 +40,9 @@ navigation panel:
 
 [[Image:transit_parent.png]]
 
-To achieve this effect, there's a default style sheet that defines
-most of how it appears, and another for when it is assigned the
-''expanded'' class.
+To achieve this effect, a default style sheet defines most of how it
+appears. A second style sheet changes how it appears when it is
+assigned the ''expanded'' class.
 
  nav {
          /* transition applies to all varying elements */
@@ -134,11 +134,15 @@ parent '''nav''' element:
  }
 
 The animation fades the icons, and grows or shrinks them down to a
-point. Combined, the two sets of transitions appear like this:
+point. (See the [[tutorials/css_transforms|transforms tutorial]] for
+more information.) Combined, the two sets of transitions appear like
+this:
 
 [[Image:transit_simple.png|280px]]
 
 ==Transitional sequences==
+
+[[Image:transit_sequence.png]]
 
 <!--
 NOTE: UNFINISHED. DO NOT EDIT.
