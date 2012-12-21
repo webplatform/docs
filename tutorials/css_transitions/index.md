@@ -20,45 +20,127 @@ complex movements require [[tutorials/css_animations|keyframe
 animations]], which work similarly.  You should become familiar with
 what CSS ''transitions'' can do before mastering ''animations''.  Both
 kinds of CSS-based animation require none of the JavaScript timers
-traditionally used to move things around, and execute much faster.
+traditionally used to move things around, and they execute much
+faster.
 
-While transitions allow you to apply all sorts of marginal
-enhancements such as hover effects to traditional desktop interfaces,
-they are particularly useful for small-screen mobile interfaces where
-some displaying elements need to slide or fade out of view, or else
-collapse into icons.  While introducing some broadly useful
-techniques, the set of examples below focuses on situations where
-transitions may drive key components of a mobile interface.
-
-
-
-<!--
+While transitions allow you to apply hover effects and other
+relatively marginal enhancements to traditional desktop interfaces,
+they are particularly useful for small-screen mobile interfaces in
+which displaying elements need to slide or fade out of view, or else
+collapse into icons.  The examples below introduce broadly useful
+techniques, but focus on opportunities where transitions can drive a
+mobile interface.
 
 ==The transition property==
 
-* simple expanded/collapsed panel
+For transitions to work, there need to be two sets of style sheets
+that might apply to any element as users interact with the page. In
+this case, tapping a small '''nav''' element expands it out to a wider
+navigation panel:
 
-* transition shorthand
+[[Image:transit_parent.png]]
 
-* P property: all; everything that varies (vvv for what can't vary)
+To achieve this effect, there's a default style sheet that defines
+most of how it appears, and another for when it is assigned the
+''expanded'' class.
 
-* P duration: 0.5s
+ nav {
+         /* transition applies to all varying elements */
+     transition            : all 0.5s;
+         /* dimensions and position (mostly outside view) */
+     height                : 42px;
+     width                 : 300px;
+     position              : absolute;
+     right                 : -260px;
+     top                   : 10px;
+     padding               : 2px;
+     overflow              : hidden;
+     box-sizing            : border-box;
+         /* define icon */
+     background-image      : url(html5.png);
+     background-position-x : left;
+     background-position-y : 50%;
+     background-repeat     : no-repeat;
+     background-size       : contain;
+     background-color      : #fff;
+         /* border and shadow hidden by default */
+     border                : transparent solid medium;
+     border-radius         : 4px;
+     box-shadow            : 0 0 1em transparent;
+ }
+ nav.expanded  {
+         /* transition applies to these varying elements */
+     right                 : 10px;
+     background-position-x : 400px;
+     border                : #aaa solid medium; 
+     box-shadow            : 0 0 1em #777;
+ }
 
+The ''expanded'' class specifies a handful of CSS properties that
+override those that apply without the class.  Adding the
+'''transition''' property makes those properties animate when toggling
+the ''expanded'' class:
 
+ transition         : all 0.5s;
+ -moz-transition    : all 0.5s;
+ -o-transition      : all 0.5s;
+ -webkit-transition : all 0.5s;
 
-==Expanding a panel==
+Changes to the values of the '''right''' and '''background-position'''
+properties makes the element and its displaying icon slide in from the
+right. As it does, the border and shadow appear and get darker.
+
+'''Note:''' Transition properties were implemented recent enough that
+many browser engines only support them with ''vendor prefixes'' such
+as '''-moz-''', '''-o-''', or '''-webkit-''' as shown above. Further
+examples only show un-prefixed transition property names, but for
+widest support you should apply all of them.
+
+The '''transition''' property specifies which properties to animate,
+'''all''' in this case, and how long the animation takes to execute.
+It is shorthand for these separate properties:
+
+ transition-property : all;
+ transition-duration : 0.5s;
+ transition-duration : 500ms; /* same as above, but expressed as milliseconds */
+
+To see the animation in action, all you need is a mechanism to apply
+the ''expanded'' class, in this case a '''click''' handler that also
+responds to touch input:
+
+ document.querySelector('nav').addEventListener('click', function(event) {
+     event.currentTarget.classList.toggle('expanded');
+ });
+
+==Parallel transitions==
+
+We want the panel to display a set of nested navigation icons, in this
+case a set of horizontal '''div''' elements. A second '''transition'''
+property animates these nested elements depending on the state of their
+parent '''nav''' element:
+
+ nav > div {
+     transition        : all 0.5s;
+     height            : 34px;
+     width             : 34px;
+     background-size   : contain;
+     display           : inline-block; /* arranged horizontally */
+     opacity           : 0;            /* faded */
+     transform         : scale(0);     /* scaled down */
+ }
+ nav.expanded > div {
+     opacity           : 1;
+     transform         : scale(1);
+ }
+
+The animation fades the icons, and grows or shrinks them down to a
+point. Combined, the two sets of transitions appear like this:
 
 [[Image:transit_simple.png]]
 
-* 
+<!--
 
-==Timing functions==
-
-* P timing
-
-* curves, keywords
-
-* steps
+NOTE: UNFINISHED. DO NOT EDIT.
 
 ==Transitional sequences==
 
@@ -67,6 +149,14 @@ transitions may drive key components of a mobile interface.
 * P delay: 
 
 * bidirectional
+
+==Timing functions==
+
+* P timing
+
+* curves, keywords
+
+* steps
 
 ==The transitionend event==
 
