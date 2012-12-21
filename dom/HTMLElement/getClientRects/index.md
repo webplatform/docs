@@ -5,16 +5,14 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|The returned value is a collection of ClientRect objects, one for each CSS border box associated with the element. Each ClientRect object contains read-only left, top, right and bottom properties describing the border box, in pixels, with the top-left relative to the top-left of the viewport. For tables with captions, the caption is included even though it's outside the border box of the table.}}
+{{Summary_Section|The returned value is a collection of [[cssom/ClientRect|ClientRect]] objects, one for each CSS border box associated with the element. Each ClientRect object contains read-only left, top, right and bottom properties describing the border box, in pixels, with the top-left relative to the top-left of the viewport. For tables with captions, the caption is included even though it's outside the border box of the table.}}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=dom/HTMLElement
 |Example_object_name=element
 |Return_value_name=rectList
 |Javascript_data_type=ClientRectList
-|Return_value_description='''ClientRectList'''
-
-'''ClientRect'''
+|Return_value_description=A '''ClientRectList''' collection, that contains '''ClientRect''' objects with the following properties -
   '''top''': Number
   '''left''': Number
   '''right''': Number
@@ -202,7 +200,7 @@ function End() {
 }}{{Compatibility Notes Row
 |Browser=Chrome
 |Version=23 - 26
-|Note=For inline elements, ClientRects are returned for every line as broken in the source code, not only as broken in the rendered content. So if 2 small words are broken into two lines -<br/><code>&lt;span&gt;hello<br/>world&lt;/span&gt;</code><br/>This method returns 2 ClientRects objects. {{TODO|This bug may have been there since the beginning of Chrome/Safari, this needs verification.}}
+|Note=For inline elements, the returned ClientRectList contains ClientRect for every line as broken in the source code, in addition to the lines as broken in the rendered content. So if 2 words are broken into two lines in the source code -<br/><code>&lt;span&gt;hello<br/>world&lt;/span&gt;</code><br/>This method returns ClientRectList that contains 2 ClientRect objects. See [https://code.google.com/p/chromium/issues/detail?can=2&start=0&num=100&q=getclientrects&colspec=ID%20Pri%20Mstone%20ReleaseBlock%20OS%20Area%20Feature%20Status%20Owner%20Summary&groupby=&sort=&id=167261] for details. {{TODO|This bug may have been there since the beginning of Chrome/Safari, this needs verification.}}
 }}
 }}
 {{See_Also_Section
