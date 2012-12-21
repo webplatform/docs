@@ -247,19 +247,19 @@ animations' response easier to visualize. Here is the basic set of
 function keywords along with their alternate '''cubic-bezier()'''
 function values:
 
-* '''ease''': '''cubic-bezier(0.25, 0.1, 0.25, 1.0)'''
+'''ease''': '''cubic-bezier(0.25, 0.1, 0.25, 1.0)'''
 [[Image:transitF_ease.png]]
 
-* '''ease-in-out''': '''cubic-bezier(0.42, 0, 0.58, 1.0)'''
+'''ease-in-out''': '''cubic-bezier(0.42, 0, 0.58, 1.0)'''
 [[Image:transitF_easeinout.png]]
 
-* '''ease-in''': '''cubic-bezier(0.42, 0, 1.0, 1.0)'''
+'''ease-in''': '''cubic-bezier(0.42, 0, 1.0, 1.0)'''
 [[Image:transitF_easein.png]]
 
-* '''ease-out''': '''cubic-bezier(0, 0, 0.58, 1.0)'''
+'''ease-out''': '''cubic-bezier(0, 0, 0.58, 1.0)'''
 [[Image:transitF_easeout.png]]
 
-* '''linear''': '''cubic-bezier(0.0, 0.0, 1.0, 1.0)'''
+'''linear''': '''cubic-bezier(0.0, 0.0, 1.0, 1.0)'''
 [[Image:transitF_linear.png]]
 
 This useful [http://cssglue.com/cubic cubic bezier function utility]
@@ -277,50 +277,36 @@ sequence resembles a single '''ease-in-out''' transition:
 
 [[Image:transit_custom.png]]
 
-...
+As an alternative to response curves, the '''steps()''' function
+specifies a series of distinct frames with no smoothing. This animates
+three interim steps that appear between the start and end points:
+
+ transition-timing-function : steps(5);
+
 
 <!--
 NOTE: UNFINISHED. DO NOT EDIT.
-* P timing
-* curves, keyword shorthands
-* steps
--->
-
 ==The transitionend event==
-
-...
-
-<!--
 * example: self-dismissing panel
 * TIP: spurious transitions as alternative to setTimeout
 -->
 
-==Cross-fades, filters, and other exotic effects==
-
-...
-
 <!--
-* default cross-fade for background image?
-* cross-fade() function
-* hue-rotate
-
+==Cross-fades, filters, and other exotic effects==
+* default cross-fade for background image or cross-fade() function?
+* hue-rotate & other filters
+* gradients?
 -->
 
-==What can be transitioned==
-
-...
-
 <!--
-
+==What can be transitioned==
 * NO generated ::before & ::after
 * NO discrete values
-* NO mismatching parameters
+* NO mismatching parameters (polygon, gradient stops)
 * gradients?
 * numeric
 * color
-
 -->
-
 
 }}
 {{Notes_Section}}
