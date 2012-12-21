@@ -1,21 +1,16 @@
 {{Page_Title|Dynamic visual effects with CSS3 transitions}}
 {{Flags
-|Editorial notes=
-[[User:Sierra]] has content intended for this page. See bug [https://www.w3.org/Bugs/Public/show_bug.cgi?id=20410 #20410]
-
+|Editorial notes=[[User:Sierra]] has content intended for this page. See bug [https://www.w3.org/Bugs/Public/show_bug.cgi?id=20410 #20410]
 }}
 {{Byline}}
-{{Summary_Section|
-CSS transitions offer the easiest way to animate an
+{{Summary_Section|CSS transitions offer the easiest way to animate an
 interface.  CSS is used everywhere to control how web pages appear,
 and shifts from one set of style sheets to another ordinarily occur
 abruptly.  Adding transition properties allows most of those changes
 to occur gradually, for a more vibrant, fluid interface.
-
 }}
 {{Tutorial
-|Content=
-This tutorial introduces CSS's various transition properties and shows
+|Content=This tutorial introduces CSS's various transition properties and shows
 you how to control how smoothly transitions execute. It shows you how
 to create sequences of more than one transition, but increasingly
 complex movements require [[tutorials/css_animations|keyframe
