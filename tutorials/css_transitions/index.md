@@ -237,8 +237,8 @@ You may notice in the example above that the cards are not evenly
 spaced. That's because transitions by default start out slowly, gather
 speed, then slow down again at the end.  The '''transition-function'''
 property specifies this behavior. By default it uses an '''ease'''
-value. If it were '''linear''', cards would space themselves like
-this:
+value. If it were '''linear''', they would all start and stop abruptly
+and move at the same speed:
 
 [[Image:transit_linear.png]]
 
