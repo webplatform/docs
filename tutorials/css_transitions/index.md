@@ -439,34 +439,3 @@ NOTE: UNFINISHED. DO NOT EDIT.
 |MSDN_link=
 |HTML5Rocks_link=
 }}
-
-
-
-
-
-<html>
-  <head>
-<title>transitionend</title>
-
-<style>
-
-body {
-    background: #777;
-}
-
-
-</style>
-
-</head>
-<body>
-
-<div>
-Did you know you can substitute <b>transitionend</b> event handlers for <b>setTimeout()</b> calls?
-</div>
-
-<script>
-
-</script>
-
-</body>
-</html>
