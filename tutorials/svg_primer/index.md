@@ -114,7 +114,7 @@ Next, to set the size of the circle, we specify the radius using the <code>r</co
 As with the rectangle, we can add style using CSS:
 
 <pre>circle {
-    fill; red;
+    fill: red;
     fill-opacity: 0.9;
 }</pre>
 
