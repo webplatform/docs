@@ -136,7 +136,7 @@ parent '''nav''' element:
 The animation fades the icons, and grows or shrinks them down to a
 point. Combined, the two sets of transitions appear like this:
 
-[[Image:transit_simple.png|320px]]
+[[Image:transit_simple.png|280px]]
 
 ==Transitional sequences==
 
