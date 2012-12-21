@@ -248,41 +248,29 @@ animation response easier to visualize. Here is the basic set of
 function keywords along with their alternate '''cubic-bezier()'''
 values:
 
-* '''ease''':  '''cubic-bezier(0.25, 0.1, 0.25, 1.0)'''
+* '''ease''': '''cubic-bezier(0.25, 0.1, 0.25, 1.0)'''
 [[Image:transitF_ease.png]]
 
-* '''ease-in-out''':  '''cubic-bezier(0.42, 0, 0.58, 1.0)'''
+* '''ease-in-out''': '''cubic-bezier(0.42, 0, 0.58, 1.0)'''
 [[Image:transitF_easeinout.png]]
 
-* '''ease-in''':  '''cubic-bezier(0.42, 0, 1.0, 1.0)'''
+* '''ease-in''': '''cubic-bezier(0.42, 0, 1.0, 1.0)'''
 [[Image:transitF_easein.png]]
 
-* '''ease-out''':  '''cubic-bezier(0, 0, 0.58, 1.0)'''
+* '''ease-out''': '''cubic-bezier(0, 0, 0.58, 1.0)'''
 [[Image:transitF_easeout.png]]
 
-* '''linear''':  '''cubic-bezier(0.0, 0.0, 1.0, 1.0)'''
+* '''linear''': '''cubic-bezier(0.0, 0.0, 1.0, 1.0)'''
 [[Image:transitF_linear.png]]
 
-
-
-
-
-
-[http://cssglue.com/cubic cubic bezier function manipulator]
+This useful [http://cssglue.com/cubic cubic bezier function utility]
+allows you to create your own custom curve and the see the result
+applied to various animations.
 
  transition-timing-function : cubic-bezier(0.4, 0, 1, 0.4), cubic-bezier(0, 0.4, 0.4, 1);
 
-{|
-|+ fubar
-! thing1
-! thing2
-|-
-|foo
-|bar
-|-
-|bar
-|foo
-|}
+[[Image:transit_custom.png]]
+
 
 
 ...
