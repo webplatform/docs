@@ -241,12 +241,13 @@ Because the srcset attribute on img elements is not implemented in most browsers
 
 If you end up using <code>-webkit-image-set</code>, you might be tempted to use the background CSS property. The drawback of this approach is that you need to specify image size, which is unknown if you are using a non-1x image. Rather than doing this, you can use the content CSS property as follows:
 
- <code><nowiki><div id="my-content-image"
+ <code><syntaxhighlight lang="html5"><nowiki>
+  <div id="my-content-image"
    style="content: -webkit-image-set(
      url(icon1x.jpg) 1x,
      url(icon2x.jpg) 2x);">
- </div></nowiki>
- </code>
+  </div>
+ </nowiki></syntaxhighlight></code>
 
 This will automatically scale the image based on devicePixelRatio. See [http://www.html5rocks.com/static/demos/high-dpi/image-set/as-content.html this example] of the above technique in action, with an additional fallback to <code>url()</code> for browsers that don't support <code>image-set</code>.
 
