@@ -142,7 +142,25 @@ simultaneously:
 
 ==Transitional sequences==
 
-[[Image:transit_sequence.png|800px]]
+You are not limited to a single set of transitions
+
+To get from one set of style sheets to another, 
+
+[[Image:transit_sequence.png|900px]]
+
+ div {
+     width                       : 56px;
+     height                      : 56px;
+     -webkit-transition-property : height , width;
+     -webkit-transition-duration : 0.5s   , 0.5s;
+     -webkit-transition-delay    : 0.0s   , 0.5s;
+ }
+ div.expanded {
+     -webkit-transition-property : width  , height;
+     width                       : 280px;
+     height                      : 400px;
+ }
+
 
 <!--
 NOTE: UNFINISHED. DO NOT EDIT.
@@ -173,18 +191,22 @@ NOTE: UNFINISHED. DO NOT EDIT.
 * default cross-fade for background image?
 * cross-fade() function
 * hue-rotate
+
 -->
 
 ==What can be transitioned==
 
 <!--
+
 * NO generated ::before & ::after
 * NO discrete values
 * NO mismatching parameters
 * gradients?
 * numeric
 * color
+
 -->
+
 
 }}
 {{Notes_Section}}
