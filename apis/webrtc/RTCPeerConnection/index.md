@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags}}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Provides for the connection between remote peers, the transmission of locally generated MediaStream data and arbitrary data between peers.}}
 {{API_Object}}
