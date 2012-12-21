@@ -243,9 +243,11 @@ this:
 [[Image:transit_linear.png]]
 
 Browsers represent these keywords as bezier curves, which makes the
-animations' response easier to visualize. Here is the basic set of
+animations' response easier to visualize.  Here is the basic set of
 function keywords along with their alternate '''cubic-bezier()'''
-function values:
+function values.  The animation's progress and elapsed time correspond
+to ''x'' and ''y'' axes, so the more the line curves vertically along
+the way, the faster it moves:
 
 '''ease''': '''cubic-bezier(0.25, 0.1, 0.25, 1.0)'''
 [[Image:transitF_ease.png]]
