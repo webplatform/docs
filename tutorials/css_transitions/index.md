@@ -114,6 +114,9 @@ responds to touch input:
      event.currentTarget.classList.toggle('expanded');
  });
 
+You'll notice that transitions respond very gracefully by reversing
+direction if you re-toggle the class while the animation is executing.
+
 ==Parallel transitions==
 
 We want the panel to display a set of nested navigation icons, in this
