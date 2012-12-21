@@ -140,7 +140,7 @@ Combined, the two sets of transitions execute simultaneously:
 
 [[Image:transit_simple.png|280px]]
 
-==Transitional sequences==
+==Sequential transitions==
 
 You are not limited to a single set of transitions to get from one set
 of style sheets to another. The panel in this example first grows to
