@@ -135,8 +135,8 @@ parent '''nav''' element:
 
 The animation fades the icons, and grows or shrinks them down to a
 point. (See the [[tutorials/css_transforms|transforms tutorial]] for
-more information.) Combined, the two sets of transitions appear like
-this:
+more information.) Combined, the two sets of transitions execute
+simultaneously:
 
 [[Image:transit_simple.png|280px]]
 
