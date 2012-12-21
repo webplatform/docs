@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Handles the [[apis/webrtc/RTCPeerConnection/datachannel]] event.}}
+{{Summary_Section|Handles the [[apis/webrtc/RTCPeerConnection/datachannel|datachannel]] event.}}
 {{API_Object_Property
 |Property_applies_to=apis/webrtc/RTCPeerConnection
 |Read_only=No
