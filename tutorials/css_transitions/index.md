@@ -261,8 +261,12 @@ animation's elapsed time and progress correspond to ''x'' and ''y''
 axes, so the more the line curves vertically along the way, the faster
 it moves:
 
-* '''ease''': '''cubic-bezier(0.25, 0.1, 0.25, 1.0)'''
+<div style="display:inline-block">
 [[Image:transitF_ease.png]]
+'''ease''': '''cubic-bezier(0.25, 0.1, 0.25, 1.0)'''
+</div>
+
+
 
 * '''ease-in-out''': '''cubic-bezier(0.42, 0, 0.58, 1.0)'''
 [[Image:transitF_easeinout.png]]
@@ -344,11 +348,6 @@ class to revert the element back to its original state:
 Note the various provisional names for the event: '''transitionend'''
 (Mozilla), '''otransitionend''' (Opera), and '''webkitTransitionEnd'''
 (WebKit).
-
-{|
-| foo
-| bar
-|}
 
 <!--
 NOTE: UNFINISHED. DO NOT EDIT.
