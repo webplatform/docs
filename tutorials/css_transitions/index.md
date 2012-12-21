@@ -142,7 +142,7 @@ this:
 
 ==Transitional sequences==
 
-[[Image:transit_sequence.png]]
+[[Image:transit_sequence.png|800px]]
 
 <!--
 NOTE: UNFINISHED. DO NOT EDIT.
