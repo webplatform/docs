@@ -9,6 +9,7 @@
 {{API_Object_Property
 |Property_applies_to=apis/webrtc/RTCPeerConnection
 |Read_only=Yes
+|Javascript_data_type=RTCIdentityAssertion
 |Return_value_description=The RTCIdentityAssertion object has two string members:
 * idp - the domain name representing the identity provider
 * name - the name of the verified peer identity
