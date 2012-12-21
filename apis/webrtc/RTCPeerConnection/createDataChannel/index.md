@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Creates a session description compatible with the local configuration.}}
+{{Summary_Section|Creates an [[apis/webrtc/RTCDataChannel|RTCDataChannel]] object with the given label.}}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=apis/webrtc/RTCPeerConnection
