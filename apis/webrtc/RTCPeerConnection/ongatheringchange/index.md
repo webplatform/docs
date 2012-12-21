@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Handles the [[apis/webrtc/RTCPeerConnection/gatheringchange|gatheringchange]] event for a change to the [[apis/webrtc/RTCPeerConnection/iceGatheringState]] property.}}
+{{Summary_Section|Handles the [[apis/webrtc/RTCPeerConnection/gatheringchange|gatheringchange]] event for a change to the [[apis/webrtc/RTCPeerConnection/iceGatheringState|iceGatheringState]] property.}}
 {{API_Object_Property
 |Property_applies_to=apis/webrtc/RTCPeerConnection
 |Read_only=No
