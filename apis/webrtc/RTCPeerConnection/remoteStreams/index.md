@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Returns an array of [[apis/webrtc/MediaStream|MediaStream]] objects added to the connection by the remote peer. This array is updated when the [[apis/webrtc/addstream|addstream]] and [apis/webrtc/removestream|removestream]] events are fired.}}
+{{Summary_Section|Returns an array of [[apis/webrtc/MediaStream|MediaStream]] objects added to the connection by the remote peer. This array is updated when the [[apis/webrtc/addstream|addstream]] and [[apis/webrtc/removestream|removestream]] events are fired.}}
 {{API_Object_Property
 |Property_applies_to=apis/webrtc/RTCPeerConnection
 |Read_only=Yes
