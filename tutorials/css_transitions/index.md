@@ -196,6 +196,8 @@ NOTE: UNFINISHED. DO NOT EDIT.
 
 ==What can be transitioned==
 
+...
+
 <!--
 
 * NO generated ::before & ::after
