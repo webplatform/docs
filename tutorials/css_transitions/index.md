@@ -1,6 +1,5 @@
 {{Page_Title|Dynamic visual effects with CSS3 transitions}}
 {{Flags
-|High-level issues=Stub
 |Editorial notes=[[User:Sierra]] has content intended for this page. See bug [https://www.w3.org/Bugs/Public/show_bug.cgi?id=20410 #20410]
 }}
 {{Byline}}
@@ -11,9 +10,7 @@ abruptly.  Adding transition properties allows most of those changes
 to occur gradually, for a more vibrant, fluid interface.
 }}
 {{Tutorial
-|Content=
-
-This tutorial introduces CSS's various transition properties and shows
+|Content=This tutorial introduces CSS's various transition properties and shows
 you how to control how smoothly transitions execute. It shows you how
 to create sequences of more than one transition, but increasingly
 complex movements require [[tutorials/css_animations|keyframe
@@ -375,7 +372,6 @@ NOTE: UNFINISHED. DO NOT EDIT.
 * NO mismatching parameters (polygon, gradient stops)
 * gradients?
 -->
-
 }}
 {{Notes_Section}}
 {{Compatibility_Section
