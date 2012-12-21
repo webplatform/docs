@@ -1,64 +1,75 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
+{{Summary_Section}}
 {{Event
+|Event_applies_to=dom/Element
 |Interface=dom/objects/MouseEvent
 |Target=dom/Element
 |Default_action=
-|Content=
-|Event_applies_to=dom/Element
 |Synchronous=No
 |Bubbles=No
 |Cancelable=No
 }}
-{{Topics|Events}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
+|Language=HTML
 |Description=This example uses the '''ondblclick''' event to add items to a list box when the user double-clicks in the text box.
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/ondblclickEX.htm
-|Code=
-&lt;HEAD&gt;
-&lt;SCRIPT&gt;
-function addItem()
-{
-sNewItem {{=}} new Option(txtEnter.value)
-selList.add(sNewItem);
+|Code=&lt;!doctype html&gt;
+&lt;html&gt;
+ &lt;head&gt;
+  &lt;script&gt;
+function addItem() {
+  sNewItem {{=}} new Option(txtEnter.value);
+  selList.add(sNewItem);
 }
-&lt;/SCRIPT&gt;
-&lt;/HEAD&gt;
-&lt;BODY&gt;
-&lt;P&gt;Enter text and then double-click in the text box to
-   add text to the list box.
-&lt;INPUT TYPE{{=}}text NAME{{=}}txtEnter VALUE{{=}}"Enter_text" 
-   ondblclick{{=}}"addItem()"&gt;
-&lt;SELECT NAME{{=}}selList SIZE{{=}}5&gt;&lt;/SELECT&gt;
-&lt;/BODY&gt;
-}}}}
+  &lt;/script&gt;
+ &lt;/head&gt;
+ &lt;body&gt;
+  &lt;p&gt;Enter text and then double-click in the text box to add text to the list box.
+  &lt;input type="text" name="txtEnter" value="Enter_text" ondblclick="addItem()"&gt;
+  &lt;select name="selList" size="5"&gt;&lt;/select&gt;
+ &lt;/body&gt;
+&lt;/html&gt;
+|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/ondblclickEX.htm
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
-The order of events leading to the '''ondblclick''' event is [[dom/events/mousedown|'''onmousedown''']], [[dom/events/mouseup|'''onmouseup''']], [[dom/events/click|'''onclick''']], '''onmouseup''', and then '''ondblclick'''. Actions associated with any of these events are executed when the '''ondblclick''' event fires.
+|Notes=The order of events leading to the '''dblclick''' event is [[dom/events/mousedown|'''mousedown''']], [[dom/events/mouseup|'''mouseup''']], [[dom/events/click|'''click''']], '''mouseup''', and then '''dblclick'''. Actions associated with any of these events are executed when the '''ondblclick''' event fires.
 Initiates any action that is associated with the event.
 To invoke this event, do one of the following:
 *Click the left mouse button twice in rapid succession over an object. The user's double-click must occur within the time limit specified by the user's system.
-
-|Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 18.2.3
-
-
-===Event handler parameters===
-;''pEvtObj'' [in]:Type: '''<b>IHTMLEventObj'''</b>
-
+}}
+{{Related_Specifications_Section
+|Specifications={{Related Specification
+|Name=HTML 4.01
+|URL=http://www.w3.org/TR/html401/
+|Status=Recommendation
+|Relevant_changes=Section 18.2.3
+}}{{Related Specification
+|Name=DOM Level 3 Events
+|URL=http://www.w3.org/TR/DOM-Level-3-Events/
+|Status=Working Draft
+|Relevant_changes=Section 5.2.3.2
+}}
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Safari on iPad
+|Note=This event is not supported.
+}}
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 *<code>[[html/elements/a|a]]</code>
 *<code>address</code>
 *<code>applet</code>
@@ -141,10 +152,11 @@ To invoke this event, do one of the following:
 *<code>xmp</code>
 *<code>[[svg/elements/svg|SVGSVGElement]]</code>
 }}
+{{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
