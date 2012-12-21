@@ -19,7 +19,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=This example uses the '''ondblclick''' event to add items to a list box when the user double-clicks in the text box.
+|Description=This example uses the '''dblclick''' event to add items to a list box when the user double-clicks in the text box.
 |Code=&lt;!doctype html&gt;
 &lt;html&gt;
  &lt;head&gt;
@@ -40,7 +40,7 @@ function addItem() {
 }}
 }}
 {{Notes_Section
-|Notes=The order of events leading to the '''dblclick''' event is [[dom/events/mousedown|'''mousedown''']], [[dom/events/mouseup|'''mouseup''']], [[dom/events/click|'''click''']], '''mouseup''', and then '''dblclick'''. Actions associated with any of these events are executed when the '''ondblclick''' event fires.
+|Notes=The order of events leading to the '''dblclick''' event is [[dom/events/mousedown|'''mousedown''']], [[dom/events/mouseup|'''mouseup''']], [[dom/events/click|'''click''']], '''mouseup''', and then '''dblclick'''. Actions associated with any of these events are executed when the '''dblclick''' event fires.
 Initiates any action that is associated with the event.
 To invoke this event, do one of the following:
 *Click the left mouse button twice in rapid succession over an object. The user's double-click must occur within the time limit specified by the user's system.
