@@ -78,15 +78,16 @@ assigned the ''expanded'' class.
 
 The ''expanded'' class specifies a handful of CSS properties that
 override those that apply without the class.  Adding the
-'''transition''' property makes those properties animate when toggling
-the ''expanded'' class:
+[[css/properties/transition|'''transition''']] property makes those
+properties animate when toggling the ''expanded'' class:
 
  transition         : all 0.5s;
  -moz-transition    : all 0.5s;
  -o-transition      : all 0.5s;
  -webkit-transition : all 0.5s;
 
-Changes to the values of the '''right''' and '''background-position'''
+Changes to the values of the [[css/properties/right|'''right''']] and
+[[css/properties/background-position|'''background-position''']]
 properties makes the element and its displaying icon slide in from the
 right. As it does, the border and shadow appear and get darker.
 
@@ -96,9 +97,10 @@ as '''-moz-''', '''-o-''', or '''-webkit-''' as shown above. Further
 examples only show un-prefixed transition property names, but for
 widest support you should apply all of them.
 
-The '''transition''' property specifies which properties to animate,
-'''all''' in this case, and the half second the animation takes to
-execute.  It is shorthand for these separate properties:
+The [[css/properties/transition|'''transition''']] property specifies
+which properties to animate, '''all''' in this case, and the half
+second the animation takes to execute.  It is shorthand for these
+separate properties:
 
  transition-property : all;
  transition-duration : 0.5s;
@@ -115,9 +117,10 @@ responds to touch input:
 ==Parallel transitions==
 
 We want the panel to display a set of nested navigation icons, in this
-case a set of horizontal '''div''' elements. A second '''transition'''
-property animates these nested elements depending on the state of their
-parent '''nav''' element:
+case a set of horizontal '''div''' elements. A second
+[[css/properties/transition|'''transition''']] property animates these
+nested elements depending on the state of their parent '''nav'''
+element:
 
  nav > div {
      transition        : all 0.5s;
@@ -133,10 +136,11 @@ parent '''nav''' element:
      transform         : scale(1);
  }
 
-The '''opacity''' property fades the icons, and '''transform''' grows
-or shrinks them down to a point. (See the
-[[tutorials/css_transforms|tutorial on transforms]] for details.)
-Combined, the two sets of transitions execute simultaneously:
+The [[css/properties/opacity|'''opacity''']] property fades the icons,
+and [[css/properties/transform|'''transform''']] grows or shrinks them
+down to a point. (See the [[tutorials/css_transforms|tutorial on
+transforms]] for details.)  Combined, the two sets of transitions
+execute simultaneously:
 
 [[Image:transit_simple.png|280px]]
 
@@ -166,33 +170,37 @@ Here is the relevant CSS:
 
 Each transition property uses commas to delimit additional transitions
 that form the larger second-long sequence. In this case, the duration
-for each is the same: half a second. The '''transition-delay'''
-property specifies that the first executes immediately, but the second
-waits until the first is complete.
+for each is the same: half a second. The
+[[css/properties/transition-delay|'''transition-delay''']] property
+specifies that the first executes immediately, but the second waits
+until the first is complete.
 
 This example also specifies individual property names rather than
 '''all'''. When transitioning to the ''expanded'' class, the
-'''width''' animates before the '''height''', and the sequence
-reverses in the other direction.
+[[css/properties/width|'''width''']] animates before the
+[[css/properties/height|'''height''']], and the sequence reverses in
+the other direction.
 
-The '''transition''' shorthand property also accommodates additional
-transitions. Here is the same as above, but expressed more tersely:
+The [[css/properties/transition|'''transition''']] shorthand property
+also accommodates additional transitions. Here is the same as above,
+but expressed more tersely:
 
  div          { transition: height 0.5s 0.0s , width  0.5s 0.5s ; }
  div.expanded { transition: width  0.5s 0.0s , height 0.5s 0.5s ; }
 
 The first supplied time value is interpreted as the
-'''transition-duration''', and the second as the
-'''transition-delay'''.
+[[css/properties/transition-duration|'''transition-duration''']], and the second as the
+[[css/properties/transition-delay|'''transition-delay''']].
 
 Note that with no delay specified, you can use more than one
 transition to animate selected properties simultaneously, which might
 be useful if you want to animate some properties but not '''all''' of
 them. You can also stagger the delays so that execution overlaps.  In
-this example, a single transition specifies the '''transform'''
-property to move six cards to the right over the course of one second,
-but the delay for each is successively staggered up to half a second
-so that the overall sequence takes 1.5 seconds to execute:
+this example, a single transition specifies the
+[[css/properties/transform|'''transform''']] property to move six
+cards to the right over the course of one second, but the delay for
+each is successively staggered up to half a second so that the overall
+sequence takes 1.5 seconds to execute:
 
  section > div {
      transition: transform 1s;
@@ -235,7 +243,8 @@ The overall movement is staggered like this:
 
 You may notice in the example above that the cards are not evenly
 spaced. That's because transitions by default start out slowly, gather
-speed, then slow down again at the end.  The '''transition-function'''
+speed, then slow down again at the end.  The
+[[css/properties/transition-timing-function|'''transition-timing-function''']]
 property specifies this behavior. By default it uses an '''ease'''
 value. If it were '''linear''', they would all start and stop abruptly
 and move at the same speed:
@@ -268,9 +277,10 @@ This useful [http://cssglue.com/cubic cubic bezier function utility]
 allows you to create your own custom curve and the see the result
 applied to various animations.
 
-Timing functions can also be specified as part of the '''transition'''
-shorthand property. This example makes a sequence of two '''ease-in'''
-and '''ease-out''' transitions resemble the behavior of a single
+Timing functions can also be specified as part of the
+[[css/properties/transition|'''transition''']] shorthand
+property. This example makes a sequence of two '''ease-in''' and
+'''ease-out''' transitions resemble the behavior of a single
 '''ease-in-out''' function:
 
  div          { transition: height 0.5s 0.0s ease-in, width  0.5s 0.5s ease-out; }
