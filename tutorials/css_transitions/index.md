@@ -76,7 +76,7 @@ assigned the ''expanded'' class.
 The ''expanded'' class specifies a handful of CSS properties that
 override those that apply without the class.  Adding the
 [[css/properties/transition|'''transition''']] property makes those
-properties animate when toggling the ''expanded'' class:
+properties animate when toggling the class:
 
  transition         : all 0.5s;
  -moz-transition    : all 0.5s;
@@ -143,6 +143,13 @@ CSS transforms]] for details.)  Combined, the two sets of transitions
 execute simultaneously:
 
 [[Image:transit_simple.png|280px]]
+
+For an element to be transitioned, it must specify a numeric value,
+such as a measurement or set of coordinates, or values that translate
+to numeric values, such as colors. Properties whose values specify
+different behavior, such as [[css/properties/display|'''display''']]
+[[css/properties/text-align|'''text-align''']], cannot be
+transitioned.
 
 ==Sequential transitions==
 
@@ -354,20 +361,16 @@ Note the various provisional names for the event: '''transitionend'''
 
 <!--
 NOTE: UNFINISHED. DO NOT EDIT.
--->
 
-<!--
 ==Cross-fades, filters, and other exotic effects==
 * default cross-fade for background image or cross-fade() function?
-* hue-rotate & other filters
+* hue-rotate &amp; other filters
 * gradients?
--->
 
-<!--
 ==What can be transitioned==
 * numeric
 * color
-* NO generated ::before & ::after
+* NO generated ::before &amp; ::after
 * NO discrete values
 * NO mismatching parameters (polygon, gradient stops)
 * gradients?
