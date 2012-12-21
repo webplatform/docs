@@ -7,7 +7,7 @@
 {{API_Name}}
 {{Summary_Section|Returns the state of the ICE agent.}}
 {{API_Object_Property
-|Property_applies_to=apis/webrtc/RTCPeerConnection/iceState
+|Property_applies_to=apis/webrtc/RTCPeerConnection
 |Read_only=Yes
 }}
 {{Examples_Section
