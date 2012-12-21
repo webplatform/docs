@@ -238,25 +238,20 @@ spaced. That's because transitions by default start out slowly, gather
 speed, then slow down again at the end.  The '''transition-function'''
 property specifies this behavior. By default it uses an '''ease'''
 value, which browsers represent internally as a bezier curve that
-makes the behavior easier to visualize. Here are the following values
+makes the response easier to visualize. Here is the basic set of
+function keywords along with their alternate '''cubic-bezier()'''
+values:
 
-{|
+[[Image:transitF_ease.png]]
 
-| [[Image:transitF_ease.png]] <br/>XXX
+[[Image:transitF_easeinout.png]]
 
-| [[Image:transitF_easeinout.png]] <br/>XXX
+[[Image:transitF_easein.png]]
 
-|
+[[Image:transitF_easeout.png]]
 
-|-
+[[Image:transitF_linear.png]]
 
-| [[Image:transitF_easein.png]] <br/>XXX
-
-| [[Image:transitF_easeout.png]] <br/>XXX
-
-| [[Image:transitF_linear.png]] <br/>XXX
-
-|}
 
 
 
