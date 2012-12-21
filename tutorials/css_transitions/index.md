@@ -139,7 +139,7 @@ element:
 The [[css/properties/opacity|'''opacity''']] property fades the icons,
 and [[css/properties/transform|'''transform''']] grows or shrinks them
 down to a point. (See the [[tutorials/css_transforms|tutorial on
-transforms]] for details.)  Combined, the two sets of transitions
+CSS transforms]] for details.)  Combined, the two sets of transitions
 execute simultaneously:
 
 [[Image:transit_simple.png|280px]]
