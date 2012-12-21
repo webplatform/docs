@@ -296,12 +296,58 @@ points:
 
  transition-timing-function : steps(5);
 
+==The transitionend event==
+
+The '''transitionend''' event allows an application to respond after a
+transition finishes executing.  The event fires on the element that is
+being transitioned, once for each property, and ''only'' if the
+specified transition actually changes content.
+
+In this example, applying a ''display'' class makes an information
+panel appear:
+
+[[Image:transit_end.png]]
+
+The [[css/properties/opacity|'''opacity''']] property makes the
+element fade in, and is the only noticable change to its appearance. A
+second transition executes over a longer span of time, and makes an
+imperceptible change to the background color. Here is the relevant
+CSS:
+
+ div {
+     background-color : white;
+     opacity          : 0;
+     transition       : opacity 1s, background-color 5s;
+ }
+ div.display {
+     opacity          : 1;
+     background-color : rgba(100%, 100%, 100%, 0.95);
+ }
+
+After 5 seconds, a '''transitionend''' handler removes the ''display''
+class to revert the element back to its original state:
+
+ var panel = document.querySelector('.message');
+ panel.addEventListener('transitionend'       , timeoutDisplay); // Mozilla
+ panel.addEventListener('otransitionend'      , timeoutDisplay); // Opera
+ panel.addEventListener('webkitTransitionEnd' , timeoutDisplay); // WebKit
+ 
+ function timeoutDisplay(e) {
+     // ignore irrelevant transitions:
+     if (e.propertyName != 'background-color') return(false);
+     // execute only after expanding panel:
+     if (! e.currentTarget.classList.contains('display')) return(false);
+     // collapse panel:
+     e.currentTarget.classList.remove('display');
+ }
+
+Note the various provisional names for the event: '''transitionend'''
+(Mozilla), '''otransitionend''' (Opera), and '''webkitTransitionEnd'''
+(WebKit).
+
 
 <!--
 NOTE: UNFINISHED. DO NOT EDIT.
-==The transitionend event==
-* example: self-dismissing panel
-* TIP: spurious transitions as alternative to setTimeout
 -->
 
 <!--
@@ -313,12 +359,12 @@ NOTE: UNFINISHED. DO NOT EDIT.
 
 <!--
 ==What can be transitioned==
+* numeric
+* color
 * NO generated ::before & ::after
 * NO discrete values
 * NO mismatching parameters (polygon, gradient stops)
 * gradients?
-* numeric
-* color
 -->
 
 }}
@@ -393,3 +439,34 @@ NOTE: UNFINISHED. DO NOT EDIT.
 |MSDN_link=
 |HTML5Rocks_link=
 }}
+
+
+
+
+
+<html>
+  <head>
+<title>transitionend</title>
+
+<style>
+
+body {
+    background: #777;
+}
+
+
+</style>
+
+</head>
+<body>
+
+<div>
+Did you know you can substitute <b>transitionend</b> event handlers for <b>setTimeout()</b> calls?
+</div>
+
+<script>
+
+</script>
+
+</body>
+</html>
