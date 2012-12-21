@@ -97,8 +97,8 @@ examples only show un-prefixed transition property names, but for
 widest support you should apply all of them.
 
 The '''transition''' property specifies which properties to animate,
-'''all''' in this case, and how long the animation takes to execute.
-It is shorthand for these separate properties:
+'''all''' in this case, and the half second the animation takes to
+execute.  It is shorthand for these separate properties:
 
  transition-property : all;
  transition-duration : 0.5s;
@@ -142,39 +142,55 @@ simultaneously:
 
 ==Transitional sequences==
 
-You are not limited to a single set of transitions
-
-To get from one set of style sheets to another, 
+You are not limited to a single set of transitions to get from one set
+of style sheets to another. This example first grows to its full
+width, then lengthens. The sequence is then reversed when collapsing
+back down to icon size:
 
 [[Image:transit_sequence.png|900px]]
 
+Here is the relevant CSS:
+
  div {
-     width                       : 56px;
-     height                      : 56px;
-     -webkit-transition-property : height , width;
-     -webkit-transition-duration : 0.5s   , 0.5s;
-     -webkit-transition-delay    : 0.0s   , 0.5s;
+     width               : 56px;
+     height              : 56px;
+     transition-property : height , width;  /* collapse sequence */
+     transition-duration : 0.5s   , 0.5s;
+     transition-delay    : 0.0s   , 0.5s;   /* delay 2nd transition */
  }
  div.expanded {
-     -webkit-transition-property : width  , height;
-     width                       : 280px;
-     height                      : 400px;
+     transition-property : width  , height; /* expand sequence */
+     width               : 280px;
+     height              : 400px;
  }
 
+Each transition property uses commas to delimit additional transitions
+that form the larger sequence. In this case, the duration for each is
+the same: half a second. The '''transition-delay''' property specifies
+that the first executes immediately, but the second waits until the
+first is complete.
 
-<!--
-NOTE: UNFINISHED. DO NOT EDIT.
+This example also specifies individual property names rather than
+'''all'''. When transitioning to the ''expanded'' class, the
+'''width''' animates before the '''height''', and the sequence
+reverses in the other direction.
 
-* multiple transitions
-* P delay: 
-* bidirectional
--->
+The '''transition''' shorthand property also accommodates additional
+transitions. Here is the same as above, but expressed more tersely:
+
+ div          { transition: height 0.5s 0.0s , width  0.5s 0.5s ; }
+ div.expanded { transition: width  0.5s 0.0s , height 0.5s 0.5s ; }
+
+The first supplied time value is interpreted as the
+'''transition-duration''', and the second as the
+'''transition-delay'''.
 
 ==Timing functions==
 
 ...
 
 <!--
+NOTE: UNFINISHED. DO NOT EDIT.
 * P timing
 * curves, keyword shorthands
 * steps
@@ -199,8 +215,6 @@ NOTE: UNFINISHED. DO NOT EDIT.
 * hue-rotate
 
 -->
-
-...
 
 ==What can be transitioned==
 
