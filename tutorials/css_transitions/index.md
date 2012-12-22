@@ -2,7 +2,9 @@
 {{Flags
 |Editorial notes=[[User:Sierra]] has content intended for this page. See bug [https://www.w3.org/Bugs/Public/show_bug.cgi?id=20410 #20410]
 }}
-{{Byline}}
+{{Byline
+|Name=Mike Sierra
+}}
 {{Summary_Section|CSS transitions offer the easiest way to animate an
 interface.  CSS is used everywhere to control how web pages appear,
 and shifts from one set of style sheets to another ordinarily occur
