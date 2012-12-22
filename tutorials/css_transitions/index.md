@@ -92,7 +92,7 @@ right. As it does, the border and shadow appear and get darker.
 '''Note:''' Though transition properties were implemented recently
 enough, all browser engines but WebKit support them without ''vendor
 prefixes'' such as '''-moz-''', '''-o-''', or '''-webkit-''' as shown
-above. Prefixes are required to support older browser versions.
+above. Still, you need prefixes to support older browser versions.
 Further examples only show un-prefixed transition property names, but
 for widest support you should apply all of them.
 
