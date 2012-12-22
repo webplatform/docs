@@ -78,19 +78,18 @@ override those that apply without the class.  Adding the
 [[css/properties/transition|'''transition''']] property makes those
 properties animate when toggling the class:
 
- transition         : all 0.5s;
  -moz-transition    : all 0.5s;
  -o-transition      : all 0.5s;
  -webkit-transition : all 0.5s;
+ transition         : all 0.5s;
 
 Changes to the values of the [[css/properties/right|'''right''']] and
 [[css/properties/background-position|'''background-position''']]
 properties makes the element and its displaying icon slide in from the
 right. As it does, the border and shadow appear and get darker.
 
-'''Note:''' Transition properties were implemented recent enough that
-many browser engines only support them with ''vendor prefixes'' such
-as '''-moz-''', '''-o-''', or '''-webkit-''' as shown above. Further
+'''Note:''' Though transition properties were implemented recently enough all browser engines but WebKit support them without ''vendor prefixes'' such
+as '''-moz-''', '''-o-''', or '''-webkit-''' as shown above. Prefix are required to support older version of the browsers. Further
 examples only show un-prefixed transition property names, but for
 widest support you should apply all of them.
 
@@ -385,16 +384,16 @@ NOTE: UNFINISHED. DO NOT EDIT.
 |Chrome_version=
 |Chrome_prefixed_supported=Yes
 |Chrome_prefixed_version=4.0
-|Firefox_supported=No
-|Firefox_version=
+|Firefox_supported=Yes
+|Firefox_version=16.0
 |Firefox_prefixed_supported=Yes
 |Firefox_prefixed_version=4.0
 |Internet_explorer_supported=Yes
 |Internet_explorer_version=10
 |Internet_explorer_prefixed_supported=No
 |Internet_explorer_prefixed_version=
-|Opera_supported=No
-|Opera_version=
+|Opera_supported=Yes
+|Opera_version=12.10
 |Opera_prefixed_supported=Yes
 |Opera_prefixed_version=10.5
 |Safari_supported=No
@@ -414,16 +413,15 @@ NOTE: UNFINISHED. DO NOT EDIT.
 |Chrome_mobile_supported=Yes
 |Chrome_mobile_prefixed_supported=Unknown
 |Chrome_mobile_prefixed_version=
-|Firefox_mobile_supported=No
-|Firefox_mobile_version=
+|Firefox_mobile_supported=Yes
+|Firefox_mobile_version=16.0
 |Firefox_mobile_prefixed_supported=Yes
 |Firefox_mobile_prefixed_version=15.0
 |IE_mobile_supported=Unknown
 |IE_mobile_version=
 |IE_mobile_prefixed_supported=Unknown
 |IE_mobile_prefixed_version=
-|Opera_mobile_supported=No
-|Opera_mobile_version=
+|Opera_mobile_supported=Yes
 |Opera_mobile_prefixed_supported=Yes
 |Opera_mobile_prefixed_version=10.0
 |Opera_mini_supported=Unknown
