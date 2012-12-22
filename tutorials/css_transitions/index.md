@@ -26,9 +26,10 @@ While transitions allow you to apply hover effects and other
 relatively marginal enhancements to traditional desktop interfaces,
 they are particularly useful for small-screen mobile interfaces in
 which displaying elements need to slide or fade out of view, or else
-collapse into icons.  The examples below introduce broadly useful
-techniques, but focus on opportunities where transitions can drive a
-mobile interface.
+collapse into icons. Abrupt transitions can be particularly
+disorienting on a small screen.  The examples below introduce broadly
+useful techniques, but focus on opportunities where transitions can
+drive a mobile interface.
 
 ==The transition property==
 
@@ -90,10 +91,12 @@ Changes to the values of the [[css/properties/right|'''right''']] and
 properties makes the element and its displaying icon slide in from the
 right. As it does, the border and shadow appear and get darker.
 
-'''Note:''' Though transition properties were implemented recently enough all browser engines but WebKit support them without ''vendor prefixes'' such
-as '''-moz-''', '''-o-''', or '''-webkit-''' as shown above. Prefix are required to support older version of the browsers. Further
-examples only show un-prefixed transition property names, but for
-widest support you should apply all of them.
+'''Note:''' Though transition properties were implemented recently
+enough, all browser engines but WebKit support them without ''vendor
+prefixes'' such as '''-moz-''', '''-o-''', or '''-webkit-''' as shown
+above. Prefixes are required to support older browser versions.
+Further examples only show un-prefixed transition property names, but
+for widest support you should apply all of them.
 
 The [[css/properties/transition|'''transition''']] property specifies
 which properties to animate, '''all''' in this case, and the half
@@ -145,12 +148,16 @@ execute simultaneously:
 
 [[Image:transit_simple.png|280px]]
 
-For an element to be transitioned, it must specify a numeric value,
-such as a measurement or set of coordinates, or values that translate
-to numeric values, such as colors. Properties whose values specify
-different behavior, such as [[css/properties/display|'''display''']]
-[[css/properties/text-align|'''text-align''']], cannot be
-transitioned.
+For an element to be transitioned, it must specify a numeric value or
+percentage, such as a measurement or set of coordinates, or values
+that translate to numeric values, such as colors. Many keyword values
+work as well, such as '''red''' or '''center''' when used as a
+coordinate.  But you cannot transition properties whose values specify
+a different kind of behavior. For example, you cannot transition
+between the [[css/properties/display|'''display''']] property's
+'''block''' and '''none''' values, or use
+[[css/properties/text-align|'''text-align''']] to switch between
+'''left''' and '''right''' justification.
 
 ==Sequential transitions==
 
@@ -213,7 +220,7 @@ sequence takes 1.5 seconds to execute:
  section > div {
      transition: transform 1s;
      transform: translateX(0px);
-     /* ^^^ this transform is optional, otherwise transition assumes default value */
+     /* ^^^ this transform is optional; transition assumes default value */
  }
  section.deal > div {
      transform: translateX(300px); /* move to right */
@@ -357,7 +364,8 @@ class to revert the element back to its original state:
  }
 
 Note the various provisional names for the event: '''transitionend'''
-(standard: Gecko, Opera 12.10+, Internet Explorer), '''otransitionend''' (old Opera), and '''webkitTransitionEnd'''
+(standard: Gecko, Opera 12.10+, Internet Explorer),
+'''otransitionend''' (old Opera), and '''webkitTransitionEnd'''
 (WebKit).
 
 <!--
@@ -365,13 +373,13 @@ NOTE: UNFINISHED. DO NOT EDIT.
 
 ==Cross-fades, filters, and other exotic effects==
 * default cross-fade for background image or cross-fade() function?
-* hue-rotate &amp; other filters
+* hue-rotate and other filters
 * gradients?
 
 ==What can be transitioned==
 * numeric
 * color
-* NO generated ::before &amp; ::after
+* NO generated ::before and ::after
 * NO discrete values
 * NO mismatching parameters (polygon, gradient stops)
 * gradients?
