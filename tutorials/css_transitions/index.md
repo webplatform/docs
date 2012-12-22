@@ -341,8 +341,8 @@ After 5 seconds, a '''transitionend''' handler removes the ''display''
 class to revert the element back to its original state:
 
  var panel = document.querySelector('.message');
- panel.addEventListener('transitionend'       , timeoutDisplay); // Mozilla
- panel.addEventListener('otransitionend'      , timeoutDisplay); // Opera
+ panel.addEventListener('transitionend'       , timeoutDisplay); // Standard: Gecko, IE10, Opera 12.10+
+ panel.addEventListener('otransitionend'      , timeoutDisplay); // Old Opera
  panel.addEventListener('webkitTransitionEnd' , timeoutDisplay); // WebKit
  
  function timeoutDisplay(e) {
@@ -355,7 +355,7 @@ class to revert the element back to its original state:
  }
 
 Note the various provisional names for the event: '''transitionend'''
-(Mozilla), '''otransitionend''' (Opera), and '''webkitTransitionEnd'''
+(standard: Gecko, Opera 12.10+, Internet Explorer), '''otransitionend''' (old Opera), and '''webkitTransitionEnd'''
 (WebKit).
 
 <!--
