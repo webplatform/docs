@@ -27,9 +27,7 @@ relatively marginal enhancements to traditional desktop interfaces,
 they are particularly useful for small-screen mobile interfaces in
 which displaying elements need to slide or fade out of view, or else
 collapse into icons. Abrupt transitions can be particularly
-disorienting on a small screen.  The examples below introduce broadly
-useful techniques, but focus on opportunities where transitions can
-drive a mobile interface.
+disorienting on a small screen.
 
 ==The transition property==
 
