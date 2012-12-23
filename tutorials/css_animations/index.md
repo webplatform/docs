@@ -64,7 +64,7 @@ of animated frames that execute freely.
 * EXAMPLE: insertBanner persists after executing
 -->
 
-==Timing Functions==
+==Timing functions==
 
 ...
 
@@ -75,7 +75,7 @@ of animated frames that execute freely.
 * EXAMPLE: skew transform slide-in panels
 -->
 
-==Dynamic Keyframes==
+==Dynamic keyframes==
 
 ...
 
