@@ -4,8 +4,11 @@
 |Editorial notes=[[User:Sierra]] has content intended for this page. See bug [https://www.w3.org/Bugs/Public/show_bug.cgi?id=20410 #20410]
 }}
 {{Byline}}
-{{Summary_Section|CSS animations allow you to build complex sequences
-of animated frames that execute freely.
+{{Summary_Section|CSS animations allow you to build complex animated
+sequences.  Like [[tutorials/css_transitions|transitions]], they
+manipulate the CSS properties that define interface elements. Unlike
+transitions, they can execute freely and are not tied to shifts
+between style sheets.
 }}
 {{Tutorial
 |Content=
