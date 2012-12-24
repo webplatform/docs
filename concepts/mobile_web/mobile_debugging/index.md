@@ -137,7 +137,7 @@ More information about web app debugging on iOS is available from [http://www.mo
 
 General information about using the iOS simulator is available from [http://developer.apple.com/library/ios/#documentation/Xcode/Conceptual/ios_development_workflow/00-About_the_iOS_Application_Development_Workflow/introduction.html Apple's Xcode documentation].
 
-Information about Blackberry debugging is available from the [https://developer.blackberry.com/html5/documentation/enabling_webinsp_microsite_1987478_11.html HTML5 WebWorks] site. RIM's Playbook OS also supports [http://devblog.blackberry.com/2012/02/web-inspector-playbook/ Web Inpector]. 
+Information about BlackBerry debugging is available from the [https://developer.blackberry.com/html5/documentation/enabling_webinsp_microsite_1987478_11.html HTML5 WebWorks] site, and RIM's Playbook OS also [http://devblog.blackberry.com/2012/02/web-inspector-playbook/ supports Web Inpector]. 
 
 === weinre ===
 
@@ -285,7 +285,6 @@ Resources for finding information about web development, and how to help others:
 |MSDN_link=
 |HTML5Rocks_link=
 }}
-
 }}
 {{Examples_Section
 |Not_required=No
