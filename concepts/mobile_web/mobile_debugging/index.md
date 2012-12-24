@@ -3,6 +3,11 @@
 {{API_Name}}
 {{Summary_Section|Debugging web applications on multiple platforms requires careful prioritisation, different from developing for desktop alone. This article explains techniques and tools available, with links to external resources.}}
 {{Concept_Page
+|Content={{Page_Title|Mobile web debugging}}
+{{Flags}}
+{{API_Name}}
+{{Summary_Section|Debugging web applications on multiple platforms requires careful prioritisation, different from developing for desktop alone. This article explains techniques and tools available, with links to external resources.}}
+{{Concept_Page
 |Content=== Quick start ==
 
 # Prioritise testing on a variety of [[#Devices|real devices]].
@@ -131,6 +136,8 @@ The WebKit Web Inspector is implemented as an HTML + CSS + JavaScript web applic
 More information about web app debugging on iOS is available from [http://www.mobilexweb.com/blog/iphone-5-ios-6-html5-developers mobilexweb.com/blog/iphone-5-ios-6-html5-developers].
 
 General information about using the iOS simulator is available from [http://developer.apple.com/library/ios/#documentation/Xcode/Conceptual/ios_development_workflow/00-About_the_iOS_Application_Development_Workflow/introduction.html Apple's Xcode documentation].
+
+Information about Blackberry debugging is available from the [https://developer.blackberry.com/html5/documentation/enabling_webinsp_microsite_1987478_11.html HTML5 WebWorks] site. RIM's Playbook OS also supports [http://devblog.blackberry.com/2012/02/web-inspector-playbook/ Web Inpector]. 
 
 === weinre ===
 
@@ -261,6 +268,24 @@ Ilya Grigorik on performance:<br/> [http://www.igvita.com/slides/2012/webperf-cr
 Brian Leroux on debugging mobile web apps: <br/> [http://brian.io/slides/debug-mobile/#/ brian.io/slides/debug-mobile]
 
 Resources for finding information about web development, and how to help others: <br/> [http://movethewebforward.org/ movethewebforward.org]
+}}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
+{{Notes_Section}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{See_Also_Section}}
+{{Topics|Developer Tools, Mobile}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
+}}
+
 }}
 {{Examples_Section
 |Not_required=No
