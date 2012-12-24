@@ -90,11 +90,15 @@ Firefox provides Responsive Design View:<br/> [https://developer.mozilla.org/en-
 
 Other Firefox developer tools are listed here: <br/> [https://developer.mozilla.org/en-US/docs/Tools developer.mozilla.org/en-US/docs/Tools]
 
-=== Viewport testing apps ===
+=== Debugging responsive design ===
 
-A huge range of tools is available to try out different viewport sizes:<br/> [http://bradfrost.github.com/this-is-responsive/resources.html#viewport-testing bradfrost.github.com/this-is-responsive/resources.html#viewport-testing]
+Responsive Web Design (RWD for short) is an approach that emphasises design which works well across a variety of platforms, in particular by using [http://www.html5rocks.com/en/mobile/responsivedesign/?redirect_from_locale=ja#toc-style-mediaqueries media queries], [http://www.alistapart.com/articles/fluidgrids/fluid grids] (layouts) and [http://www.alistapart.com/articles/fluid-images/ fluid images]. 
 
-Developer Brad Frost recently produced the [http://bradfrostweb.com/demo/ish/ ish resizer]. This tool emphasises that 'breakpoints' &ndash; size ranges for displaying particular layouts and content &ndash; should be based on content rather than fixed device dimensions.
+For responsive design to work well, it is especially important to test sites and applications at different viewport sizes. Remy Sharp's [http://responsivepx.com/?simpl.info#640x480&scrollbars responsivepx] makes it possible to adjust viewport width and height values, in order to find points at which responsive layouts 'break'. Developer Brad Frost recently produced the [http://bradfrostweb.com/demo/ish/ ish resizer], which emphasises that 'breakpoints' &ndash; size ranges for displaying particular layouts and content &ndash; should be based on content rather than fixed device dimensions.
+
+For responsive typography, [http://www.webtypography.net/Rhythm_and_Proportion/Horizontal_Motion/2.1.2/ designers have found] that body text should generally have between 45 and 75 characters per line, A very simple trick for testing layouts, [http://trentwalton.com/2012/06/19/fluid-type/ suggested by Trent Walton], is to add an asterisk to *lorem* text after 45 and 75 characters. If both asterisks appear on the same line at a particular viewport width, the font size needs to be changed.
+
+A [http://bradfrost.github.com/this-is-responsive/resources.html#viewport-testing huge range of other tools] is available for testing and debugging responsive design components including images, fonts and layouts.
 
 == Simulators and emulators ==
 
