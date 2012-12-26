@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Represents a database connection for the purpose of conducting a transaction.}}
 {{API_Object}}
 {{Examples_Section
 |Not_required=No
