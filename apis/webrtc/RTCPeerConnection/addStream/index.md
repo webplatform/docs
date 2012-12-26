@@ -2,11 +2,10 @@
 {{Flags
 |High-level issues=Stub, Missing Relevant Sections
 |Content=Incomplete
-|Editorial notes=Adds a new stream to the RTCPeerConnection.
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Adds a new stream to the RTCPeerConnection.}}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=apis/webrtc/RTCPeerConnection
