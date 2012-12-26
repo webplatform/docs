@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Provides access to the result of a request to open a database.}}
 {{API_Object
 |Subclass_of=apis/indexeddb/IDBRequest
 }}
