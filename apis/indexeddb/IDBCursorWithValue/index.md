@@ -5,8 +5,10 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
-{{API_Object}}
+{{Summary_Section|Returns the [[apis/indexeddb/IDBCursor|IDBCursor]]'s value.}}
+{{API_Object
+|Subclass_of=apis/indexeddb/IDBCursor
+}}
 {{Examples_Section
 |Not_required=No
 |Examples=
