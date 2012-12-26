@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|A range of keys defined for the database.}}
 {{API_Object}}
 {{Examples_Section
 |Not_required=No
