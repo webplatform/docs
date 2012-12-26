@@ -9,6 +9,7 @@
 {{API_Object_Property
 |Property_applies_to=apis/webrtc/RTCSessionDescription
 |Read_only=No
+|Javascript_data_type=RTCSdpType
 |Return_value_description=The RTCSdpType enum has the following values:
 * answer - use the SDP object as the final answer.
 * offer - use the SDP object as an offer.
