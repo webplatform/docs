@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Applies the supplied [[apis/webrtc/RTCSessionDescription|RTCSessionDescription]] to the local description.}}
+{{Summary_Section|Sets the identity provider. Not required if the browser is already configured for an identity provider.}}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=apis/webrtc/RTCPeerConnection
