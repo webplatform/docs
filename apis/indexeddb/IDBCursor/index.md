@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Iterates over object stores and indices.}}
 {{API_Object}}
 {{Examples_Section
 |Not_required=No
@@ -79,7 +79,7 @@ Build date: 7/24/2012
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|DOM, IndexedDB}}
+{{Topics|IndexedDB}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
