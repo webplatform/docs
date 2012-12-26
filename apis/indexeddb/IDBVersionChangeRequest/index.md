@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Deprecated. Previously used to change the version of the database.}}
 {{API_Object}}
 {{Examples_Section
 |Not_required=No
