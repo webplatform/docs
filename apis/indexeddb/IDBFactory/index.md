@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Interface implemented by the [[apis/indexeddb/indexedDB|indexedDB]] object; provides for the creation and access of a database.}}
 {{API_Object}}
 {{Examples_Section
 |Not_required=Yes
