@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Provides for the scope and type of access to a database, and represents a transaction on the database.}}
 {{API_Object}}
 {{Examples_Section
 |Not_required=No
