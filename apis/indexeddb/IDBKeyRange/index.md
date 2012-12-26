@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|A range of keys defined for the database.}}
+{{Summary_Section|A range of keys defined for an object store or index.}}
 {{API_Object}}
 {{Examples_Section
 |Not_required=No
