@@ -1,11 +1,8 @@
 {{Page_Title}}
-{{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status}}
+{{Flags}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|Returns a [[canvas/objects/CanvasTextMetrics|CanvasTextMetrics]] object that contains the width of the specified text.}}
+{{Summary_Section|Returns a [[canvas/TextMetrics|TextMetrics]] object that contains the width of the specified text.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=text
@@ -13,39 +10,32 @@
 |Description=The text to measure.
 |Optional=No
 }}
-|Method_applies_to=canvas/objects/CanvasRenderingContext2D
-|Example_object_name=object
+|Method_applies_to=apis/canvas/TextMetrics
+|Example_object_name=TextMetrics
 |Return_value_name=object
 |Javascript_data_type=DOM Node
-|Return_value_description='''ICanvasTextMetrics'''
-
-The width of the text, in CSS pixels.
+|Return_value_description='''ICanvasTextMetrics''': The width of the text, in CSS pixels.
 }}
 {{Examples_Section
-|Not_required=No
+|Not_required=Yes
 |Examples=
 }}
-{{Notes_Section
-|Import_Notes====Standards information===
-*[http://www.w3.org/TR/2dcontext/ HTML Canvas 2D Context]
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications=
 }}
 {{Compatibility_Section
-|Not_required=No
+|Not_required=Yes
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Manual_links=*<code>[[canvas/objects/CanvasRenderingContext2D|CanvasRenderingContext2D]]</code>
-}}
-{{Topics|DOM}}
+{{See_Also_Section}}
+{{Topics|Canvas}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
 |MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
