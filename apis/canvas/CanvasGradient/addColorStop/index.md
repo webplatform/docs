@@ -24,7 +24,7 @@
 If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRESULT''' error code.
 }}
 {{Examples_Section
-|Not_required=No
+|Not_required=Yes
 |Examples={{Single Example
 |Description=The following code example creates a gradient.
 |Code=&lt;!DOCTYPE html&gt;
