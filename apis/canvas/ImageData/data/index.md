@@ -8,7 +8,6 @@
 |Read_only=Yes
 |Example_object_name=ImageData
 |Javascript_data_type=Object
-|Return_value_description=Return type Uint8ClampedArray.
 }}
 {{Examples_Section
 |Not_required=Yes
