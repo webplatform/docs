@@ -90,6 +90,3 @@
 |MSDN_link=
 |HTML5Rocks_link=
 }}
-{{Editorial/Deletion_Candidate
-| There appears to be no width property in CanvasRenderingContext2D; its measureText method appears to be the interface for getting the width.
-}}
