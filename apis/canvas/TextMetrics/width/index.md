@@ -75,10 +75,10 @@
 |Opera_mini_version=5.0-7.0 (partial)
 |Opera_mini_prefixed_supported=Unknown
 |Opera_mini_prefixed_version=
-|Safari_mobile_supported=Unknown
-|Safari_mobile_version=
-|Safari_mobile_prefixed_supported=Yes
-|Safari_mobile_prefixed_version=3.2
+|Safari_mobile_supported=Yes
+|Safari_mobile_version=3.2
+|Safari_mobile_prefixed_supported=Unknown
+|Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
 }}
