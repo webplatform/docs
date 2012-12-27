@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page_Title|width}}
 {{Flags}}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
