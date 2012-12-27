@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|Returns the width of an inline text box, in CSS pixels.}}
+{{Summary_Section|The width of an inline text box, in CSS pixels.}}
 {{API_Object_Property
 |Property_applies_to=apis/canvas/TextMetrics
 |Read_only=Yes
