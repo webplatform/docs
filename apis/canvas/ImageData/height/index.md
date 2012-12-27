@@ -1,31 +1,36 @@
+{{Page_Title|height}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
+{{Summary_Section|The number of rows in the image data.}}
 {{API_Object_Property
-|Property_applies_to=canvas/objects/CanvasImageData
-|Read_only=
+|Property_applies_to=apis/canvas/ImageData
+|Read_only=Yes
+|Example_object_name=ImageData
+|Javascript_data_type=unsigned long
 }}
-{{Topics|DOM}}
-{{Notes_Section
-|Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}197019 HTML Canvas 2D Context], Section 13
-
-
+{{Examples_Section
+|Not_required=Yes
+|Examples=
 }}
-{{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
-*<code>[[canvas/objects/CanvasImageData|CanvasImageData]]</code>
+{{Notes_Section}}
+{{Related_Specifications_Section
+|Specifications=
 }}
+{{Compatibility_Section
+|Not_required=Yes
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section}}
+{{Topics|Canvas}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=
 |HTML5Rocks_link=
 }}
