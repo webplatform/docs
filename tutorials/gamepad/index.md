@@ -1,4 +1,4 @@
-{{Page_Title|Using Gamepad API}}
+{{Page_Title|Using the Gamepad API}}
 {{Flags
 |High-level issues=Unreviewed Import
 |Content=Compatibility Incomplete
