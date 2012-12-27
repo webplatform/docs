@@ -1,10 +1,8 @@
-{{Page_Title}}
+{{Page_Title|width}}
 {{Flags}}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|The number of physical device pixels per row in the image data.
-
-}}
+{{Summary_Section|The number of physical device pixels per row in the image data.}}
 {{API_Object_Property
 |Property_applies_to=apis/canvas/ImageData
 |Read_only=Yes
