@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|The TextMetrics object in the canvas API.}}
+{{Summary_Section|The TextMetrics object of the canvas API.}}
 {{API_Object}}
 {{Examples_Section
 |Not_required=Yes
