@@ -1,30 +1,33 @@
-{{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
-}}
-{{Standardization_Status|}}
+{{Page_Title}}
+{{Flags}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
+{{Summary_Section|Adds a new stop to a gradient. If the offset is less than 0 or greater than 1 then an IndexSizeError exception must be thrown. If the color cannot be parsed as a CSS <color> value, then a SyntaxError exception must be thrown. Otherwise, the gradient must have a new stop placed, at offset offset relative to the whole gradient, and with the color obtained by parsing color as a CSS <color> value.}}
 {{API_Object_Method
-|Parameters={{Method Parameter|Name=offset|Data type=float|Description=A floating point value between 0.0 and 1.0 that represents the position between the start and end points in a gradient.|Optional=}}
-{{Method Parameter|Name=color|Data type=BSTR|Description=A CSS color string to  display  at the position  that the  ''offset'' parameter specifies.|Optional=}}
-|Method_applies_to=canvas/objects/CanvasGradient
-|Example_object_name=object
+|Parameters={{Method Parameter
+|Name=offset
+|Data type=any
+|Description=A floating point value between 0.0 and 1.0 that represents the position between the start and end points in a gradient.
+|Optional=No
+}}{{Method Parameter
+|Name=color
+|Data type=any
+|Description=A CSS color string to  display  at the position  that the  ''offset'' parameter specifies.
+|Optional=No
+}}
+|Method_applies_to=apis/canvas/CanvasGradient
+|Example_object_name=CanvasGradient
 |Return_value_name=object
 |Javascript_data_type=DOM Node
 |Return_value_description=Type: '''HRESULT'''
 
 If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRESULT''' error code.
-
-
 }}
-{{Topics|DOM}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Description=The following code example creates a gradient.
-|LiveURL=
-|Code=
-&lt;!DOCTYPE html&gt;
+|Code=&lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
   &lt;script type{{=}}"text/javascript"&gt;
@@ -54,30 +57,30 @@ function draw()
     &lt;button onclick{{=}}"draw()"&gt;Click me&lt;/button&gt;        
 &lt;/body&gt;
 &lt;/html&gt;
-}}}}
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
-You can call the '''addColorStop'''  method  multiple times to  change  a gradient. If  you never call this method  for [[canvas/objects/CanvasGradient|'''CanvasGradient''']],  the gradient is not visible. You need to create at least one color stop to have a visible gradient.
-|Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}197019 HTML Canvas 2D Context], Section 5
-
-
+|Notes=You can call the '''addColorStop'''  method  multiple times to  change  a gradient. If  you never call this method  for [[apis/canvas/CanvasGradient|CanvasGradient]],  the gradient is not visible. You need to create at least one color stop to have a visible gradient.
 }}
-{{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
-*<code>[[canvas/objects/CanvasGradient|CanvasGradient]]</code>
-*<code>Reference</code>
-*<code>[[canvas/methods/createRadialGradient|createRadialGradient]]</code>
-*<code>[[canvas/methods/createLinearGradient|createLinearGradient]]</code>
+{{Related_Specifications_Section
+|Specifications={{Related Specification
+|Name=W3C HTML Canvas 2D Specification
+|URL=http://www.w3.org/TR/2012/CR-2dcontext-20121217/
+|Status=W3C Candidate Recommendation
 }}
+}}
+{{Compatibility_Section
+|Not_required=Yes
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section}}
+{{Topics|Canvas}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=
 |HTML5Rocks_link=
 }}
