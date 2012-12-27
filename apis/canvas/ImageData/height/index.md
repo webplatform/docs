@@ -1,7 +1,5 @@
 {{Page_Title|height}}
-{{Flags
-|Content=Examples Best Practices
-}}
+{{Flags}}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|The number of rows in the image data.}}
