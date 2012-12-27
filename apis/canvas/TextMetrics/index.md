@@ -1,45 +1,33 @@
-{{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
-}}
-{{Standardization_Status|}}
+{{Page_Title}}
+{{Flags}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{API_Object
-|Subclass_of=
+{{Summary_Section|The TextMetrics object in the canvas API.}}
+{{API_Object}}
+{{Examples_Section
+|Not_required=Yes
+|Examples=
 }}
-{{Topics|DOM}}
-{{Notes_Section
-|Import_Notes=
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}197019 HTML Canvas 2D Context], Section 1
-
-
-===Members===
-The '''CanvasTextMetrics''' object has these types of members:
-*[#properties Properties]
-
-
-====Properties====
-The '''CanvasTextMetrics''' object has these properties.
-{| class="wikitable"
-|-
-!Property
-!Description
-|-
-|[[canvas/properties/width (canvasTextMetrics)|'''width''']]
-|Gets the width, in CSS pixels, of a given box of text.
-|}
- 
- 
- 
-[mailto:wsddocfb@microsoft.com?subject{{=}}Documentation%20feedback [ie_canvas\ie]:%20CanvasTextMetrics object%20 RELEASE:%20(7/24/2012)&amp;body{{=}}%0A%0APRIVACY STATEMENT%0A%0AThe doc team uses your feedback to improve the documentation. We don't use your email address for any other purpose. We'll remove your email address from our system after the issue that you are reporting is resolved. While we are working to resolve this issue, we may send you an email message to request more info about your feedback. After the issue is addressed, we may send you an email message to let you know that your feedback has been addressed.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx. Send comments about this topic to Microsoft]
-Build date: 7/24/2012
-
+{{Notes_Section}}
+{{Related_Specifications_Section
+|Specifications={{Related Specification
+|Name=W3C HTML Canvas 2D Specification
+|URL=http://www.w3.org/TR/2012/CR-2dcontext-20121217/
+|Status=W3C Candidate Recommendation
 }}
+}}
+{{Compatibility_Section
+|Not_required=Yes
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section}}
+{{Topics|Canvas}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=
 |HTML5Rocks_link=
 }}
