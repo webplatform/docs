@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|Returns a [[canvas/TextMetrics|TextMetrics]] object that contains the width of the specified text.}}
+{{Summary_Section|Returns a TextMetrics object that contains the width of the specified text.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=text
