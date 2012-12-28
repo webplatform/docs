@@ -9,6 +9,7 @@
 {{API_Object_Property
 |Property_applies_to=apis/webrtc/RTCPeerConnection
 |Read_only=Yes
+|Javascript_data_type=RTCGatheringState
 }}
 {{Examples_Section
 |Not_required=No
