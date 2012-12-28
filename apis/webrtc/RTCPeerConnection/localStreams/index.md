@@ -1,14 +1,13 @@
 {{Page_Title}}
-{{Flags
-|High-level issues=Stub, Missing Relevant Sections
-|Content=Incomplete
-}}
+{{Flags}}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Returns an array of [[apis/webrtc/MediaStream|MediaStream]] objects added to the connection with [[apis/webrtc/RTCPeerConnection/addStream|addStream()]].}}
 {{API_Object_Property
 |Property_applies_to=apis/webrtc/RTCPeerConnection
 |Read_only=Yes
+|Javascript_data_type=MediaStreamArray
+|Return_value_description=An array of local [[apis/webrtc/MediaStream|MediaStream]] objects that were added with [[apis/webrtc/RTCPeerConnection/addStream|addStream()]].
 }}
 {{Examples_Section
 |Not_required=No
