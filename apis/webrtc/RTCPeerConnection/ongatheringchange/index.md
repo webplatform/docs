@@ -1,8 +1,5 @@
 {{Page_Title}}
-{{Flags
-|High-level issues=Stub, Missing Relevant Sections
-|Content=Incomplete
-}}
+{{Flags}}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|Handles the [[apis/webrtc/RTCPeerConnection/gatheringchange|gatheringchange]] event for a change to the [[apis/webrtc/RTCPeerConnection/iceGatheringState|iceGatheringState]] property.}}
