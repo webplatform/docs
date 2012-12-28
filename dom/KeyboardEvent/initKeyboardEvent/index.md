@@ -1,77 +1,138 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
+{{Summary_Section|Initializes a new keyboard event that the  [[dom/methods/createEvent|'''createEvent''']] method created.}}
 {{API_Object_Method
-|Parameters={{Method Parameter|Name=eventType|Data type=BSTR|Description=One of the following values, or a user-defined custom event type.|Optional=}}
-{{Method Parameter|Name=canBubble|Data type=VARIANT_BOOL|Description='''VARIANT_TRUE''' (true)
+|Parameters={{Method Parameter
+|Name=eventType
+|Data type=String
+|Description=The name of the event. Sets the value for the [[dom/properties/type (event)|'''type''']] property.
+|Optional=No
+}}{{Method Parameter
+|Name=canBubble
+|Data type=Boolean
+|Description=Whether the event propagates upward. Sets the value for the [[dom/properties/bubbles|bubbles]] property.
+|Optional=No
+}}{{Method Parameter
+|Name=cancelable
+|Data type=Boolean
+|Description=Whether the event is cancelable and so [[dom/methods/preventDefault|preventDefault]] can be called. Sets the value for the [[dom/properties/cancelable|cancelable]] property.
+|Optional=No
+}}{{Method Parameter
+|Name=view
+|Data type=Object
+|Description=The window on which this event is occurring.  Sets the value for the [[dom/properties/view|view]] property.
+|Optional=No
+}}{{Method Parameter
+|Name=key
+|Data type=Number
+|Description=The [[dom/events/apis/constants/key identifiers|'''key identifier''']]. Sets the value for the [[dom/properties/key|'''key''']] property.
+|Optional=No
+}}{{Method Parameter
+|Name=location
+|Data type=Number
+|Description=The location of the key on the device. Sets the value for the [[dom/properties/location|'''location''']] property.
+|Optional=No
+}}{{Method Parameter
+|Name=modifiersList
+|Data type=String
+|Description=A space-separated list of any of the following values:
+*'''Alt''' - The left or right Alt key. 
+*'''AltGraph''' - The Ctrl and Alt keys.
+*'''CapsLock''' - The Caps Lock toggle.
+*'''Control''' - The left or right Ctrl key.
+*'''Meta''' - The Meta/Control key.
+*'''NumLock''' - The Num Lock toggle.
+*'''ScrollLock''' - The Scroll Lock toggle.
+*'''Shift''' - The left or right Shift key.
+*'''Fn'''
+*'''OS'''
+*'''SymbolLock'''
 
-
-
-The event should propagate upward. 
-
-
-'''VARIANT_FALSE''' (false)
-
-
-
-The event does not propagate upward. 
-
-|Optional=}}
-{{Method Parameter|Name=cancelable|Data type=VARIANT_BOOL|Description='''VARIANT_TRUE''' (true)
-
-
-
-The default action can be canceled. 
-
-
-'''VARIANT_FALSE''' (false)
-
-
-
-The default action cannot be canceled. 
-
-|Optional=}}
-{{Method Parameter|Name=viewArg|Data type=IHTMLWindow2|Description='''window'''|Optional=}}
-{{Method Parameter|Name=keyArg|Data type=BSTR|Description=The [[dom/events/apis/constants/key identifiers|'''key identifier''']]. This value is returned in the [[dom/properties/key|'''key''']]  property of the event.|Optional=}}
-{{Method Parameter|Name=locationArg|Data type=unsigned long|Description=The location of the key on the device. This value is returned in the [[dom/properties/location|'''location''']]  property of the event.|Optional=}}
-{{Method Parameter|Name=modifiersListArg|Data type=BSTR|Description=A space-separated list of any of the following values:|Optional=}}
-{{Method Parameter|Name=repeat|Data type=VARIANT_BOOL|Description=The number of times this key has been pressed. This value is returned in the [[dom/properties/repeat2|'''repeat''']]  property  of the event.|Optional=}}
-{{Method Parameter|Name=locale|Data type=BSTR|Description=The locale name. This value is returned in the [[dom/properties/locale|'''locale''']] attribute of the event.|Optional=}}
+Other implementation specific options may be supported.
+For example -
+*'''Win''' (on Microsoft Windows) - The left or right Windows logo key.
+*'''Scroll''' - The Scroll Lock toggle.
+|Optional=No
+}}{{Method Parameter
+|Name=repeat
+|Data type=Number
+|Description=The number of times this key has been pressed. Sets the value for the [[dom/properties/repeat2|'''repeat''']] property.
+|Optional=No
+}}{{Method Parameter
+|Name=locale
+|Data type=String
+|Description=The locale name. Sets the value for the [[dom/properties/locale|'''locale''']] property.
+|Optional=No
+}}
 |Method_applies_to=dom/objects/KeyboardEvent
-|Example_object_name=object
-|Return_value_name=object
-|Javascript_data_type=DOM Node
-|Return_value_description=Type: '''HRESULT'''
-
-If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRESULT''' error code.
-
-Type: '''HRESULT'''
-
-If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRESULT''' error code.
-
-
+|Example_object_name=event
+|Javascript_data_type=void
 }}
-{{Topics|DOM}}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
 {{Notes_Section
-|Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203756 Document Object Model (DOM) Level 3 Events Specification], Section 5.2.6
-
-
+|Notes=The information in this page corresponds to the 20100908 outdated working draft edition of the specifications.
 }}
-{{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
-*<code>[[dom/objects/KeyboardEvent|KeyboardEvent]]</code>
+{{Related_Specifications_Section
+|Specifications={{Related Specification
+|Name=DOM Level 3 Events (20090908)
+|URL=http://www.w3.org/TR/2009/WD-DOM-Level-3-Events-20090908/
+|Status=Outdated Working Draft
+|Relevant_changes=Section 5.2.7
+}}{{Related Specification
+|Name=DOM Level 3 Events (20100907)
+|URL=http://www.w3.org/TR/2010/WD-DOM-Level-3-Events-20100907/
+|Status=Outdated Working Draft
+|Relevant_changes=Section 5.2.6
 }}
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows={{Compatibility Table Desktop Row
+|Chrome_supported=Yes
+|Chrome_version=1
+|Chrome_prefixed_supported=Unknown
+|Chrome_prefixed_version=
+|Firefox_supported=No
+|Firefox_version=
+|Firefox_prefixed_supported=No
+|Firefox_prefixed_version=
+|Internet_explorer_supported=Yes
+|Internet_explorer_version=9
+|Internet_explorer_prefixed_supported=Unknown
+|Internet_explorer_prefixed_version=
+|Opera_supported=Yes
+|Opera_version=12.10
+|Opera_prefixed_supported=Unknown
+|Opera_prefixed_version=
+|Safari_supported=Yes
+|Safari_prefixed_supported=Unknown
+|Safari_prefixed_version=
+}}
+|Mobile_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Chrome/Safari
+|Note=Implement an older draft of the specification (20090908), that is missing the '''locale''' parameter.
+}}{{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=9, 10
+|Note=Implements an older draft of the specification (20100907), that is missing the '''char''' parameter.
+}}
+}}
+{{See_Also_Section}}
+{{Topics|DOM, DOMEvents}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
