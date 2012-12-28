@@ -1,20 +1,14 @@
-{{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
-}}
-{{Standardization_Status|}}
+{{Page_Title}}
+{{Flags}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{API_Object
-|Subclass_of=
-}}
-{{Topics|DOM}}
+{{Summary_Section|An opaque object of the canvas API.}}
+{{API_Object}}
 {{Examples_Section
-|Not_required=No
-|Examples={{Single_Example
+|Not_required=Yes
+|Examples={{Single Example
 |Description=The following code example creates a gradient.
-|LiveURL=
-|Code=
-&lt;!DOCTYPE html&gt;
+|Code=&lt;!DOCTYPE html&gt;
 &lt;head&gt;
   &lt;script type{{=}}"text/javascript"&gt;
 function draw()
@@ -44,45 +38,30 @@ function draw()
     &lt;button onclick{{=}}"draw()"&gt;Click me&lt;/button&gt;        
 &lt;/body&gt;
 &lt;/html&gt;
-}}}}
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
-You can create a linear or radial  '''CanvasGradient'''  object  by using  the [[canvas/methods/createLinearGradient|'''createLinearGradient''']] or [[canvas/methods/createRadialGradient|'''createRadialGradient''']] method. A '''CanvasGradient'''  object  must  have at least one [[canvas/methods/addColorStop|'''color stop''']] or the gradient is not  visible.
-|Import_Notes=
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}197019 HTML Canvas 2D Context], Section 1
-
-
-===Members===
-The '''CanvasGradient''' object has these types of members:
-*[#methods Methods]
-
-
-====Methods====
-The '''CanvasGradient''' object has these methods.
-{| class="wikitable"
-|-
-!Method
-!Description
-|-
-|[[canvas/methods/addColorStop|'''addColorStop''']]
-|Adds the specified colors and the position in a '''CanvasGradient''' object.
-|}
- 
-
+|Notes=You can create a linear or radial  '''CanvasGradient'''  object  by using  the '''createLinearGradient''' or '''createRadialGradient''' method. A '''CanvasGradient'''  object  must  have at least one '''color stop''' or the gradient is not  visible.
 }}
-{{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
-*<code>Reference</code>
-*<code>[[canvas/methods/createRadialGradient|createRadialGradient]]</code>
-*<code>[[canvas/methods/createLinearGradient|createLinearGradient]]</code>
+{{Related_Specifications_Section
+|Specifications={{Related Specification
+|Name=W3C HTML Canvas 2D Specification
+|URL=http://www.w3.org/TR/2012/CR-2dcontext-20121217/
+|Status=W3C Candidate Recommendation
 }}
+}}
+{{Compatibility_Section
+|Not_required=Yes
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section}}
+{{Topics|Canvas}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=
 |HTML5Rocks_link=
 }}
