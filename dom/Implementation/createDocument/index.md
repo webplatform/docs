@@ -24,8 +24,8 @@
 |Optional=No
 }}
 |Method_applies_to=dom/implementation
-|Example_object_name=object
-|Return_value_name=object
+|Example_object_name=implementation
+|Return_value_name=newDocument
 |Javascript_data_type=DOM Node
 |Return_value_description=The resulting [[dom/document|'''document''']].
 }}
@@ -33,16 +33,13 @@
 |Not_required=No
 |Examples=
 }}
-{{Notes_Section
-|Import_Notes====Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}182717 Document Object Model (DOM) Level 3 Core Specification], Section 1.4
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=DOM Level 3 Core
 |URL=http://www.w3.org/TR/DOM-Level-3-Core/
 |Status=Recommendation
+|Relevant_changes=Section 1.4
 }}
 }}
 {{Compatibility_Section
@@ -54,8 +51,6 @@
 }}
 {{See_Also_Section
 |Manual_sections====Related pages (MSDN)===
-*<code>[[dom/implementation|implementation]]</code>
-*<code>Reference</code>
 *<code>[[dom/methods/createDocumentType|createDocumentType]]</code>
 *<code>[[dom/methods/createHTMLDocument|createHTMLDocument]]</code>
 }}
