@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Handles the [[apis/webrtc/RTCPeerConnection/icechange|icechange]] event. It is called any time the iceState changes.}}
+{{Summary_Section|Handles the [[apis/webrtc/RTCPeerConnection/icechange|icechange]] event. It is called any time the [[apis/webrtc/RTCPeerConnection/iceState|iceState]]  changes.}}
 {{API_Object_Property
 |Property_applies_to=apis/webrtc/RTCPeerConnection
 |Read_only=No
