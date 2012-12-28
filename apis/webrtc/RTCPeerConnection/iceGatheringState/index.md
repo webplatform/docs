@@ -1,8 +1,5 @@
 {{Page_Title}}
-{{Flags
-|High-level issues=Stub, Missing Relevant Sections
-|Content=Incomplete
-}}
+{{Flags}}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Returns the gathering state of the ICE agent.}}
@@ -10,12 +7,18 @@
 |Property_applies_to=apis/webrtc/RTCPeerConnection
 |Read_only=Yes
 |Javascript_data_type=RTCGatheringState
+|Return_value_description=The RTCGatherState enum has the following values:
+* new - The object was just created, and no networking has occurred yet.
+* gathering - The ICE engine is in the process of gathering candidates for this RTCPeerConnection.
+* complete - The ICE engine has completed gathering.
 }}
 {{Examples_Section
 |Not_required=No
 |Examples=
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Notes=Events such as adding a new interface or new TURN server could cause the state to go back to gathering.
+}}
 {{Related_Specifications_Section
 |Specifications=
 }}
