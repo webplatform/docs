@@ -21,8 +21,7 @@
 |Examples=
 }}
 {{Notes_Section
-|Usage=An example transition might look like:
-
+|Usage=An example transition might look like this:
 * new PeerConnection(): Starting
 * (Starting, remote candidates received): Checking
 * (Checking, found usable connection): Connected
