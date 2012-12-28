@@ -1,11 +1,8 @@
 {{Page_Title}}
-{{Flags
-|High-level issues=Stub, Missing Relevant Sections
-|Content=Incomplete
-}}
+{{Flags}}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Handles the [[apis/webrtc/RTCPeerConnection/icechange|icechange]] event for a change to the [[apis/webrtc/RTCPeerConnection/iceState]] property.}}
+{{Summary_Section|Handles the [[apis/webrtc/RTCPeerConnection/icechange|icechange]] event for a change to the [[apis/webrtc/RTCPeerConnection/iceState]] property. It is called any time there is a new ICE candidate added to a previous offer or answer.}}
 {{API_Object_Property
 |Property_applies_to=apis/webrtc/RTCPeerConnection
 |Read_only=No
