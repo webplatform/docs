@@ -42,7 +42,9 @@ The ''bstrfeature'' parameter is case-insensitive.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=DOM Level 3 Cor
+|Name=DOM Level 3 Core
+|URL=http://www.w3.org/TR/DOM-Level-3-Core/
+|Status=Recommendation
 }}
 }}
 {{Compatibility_Section
