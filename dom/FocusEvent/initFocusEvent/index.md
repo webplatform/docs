@@ -1,75 +1,77 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
+{{Summary_Section|Initializes a new [[dom/objects/FocusEvent|FocusEvent]] that the  [[dom/methods/createEvent|'''createEvent''']] method created.}}
 {{API_Object_Method
-|Parameters={{Method Parameter|Name=eventType|Data type=BSTR|Description=One of the following values, or a user-defined custom event type.|Optional=}}
-{{Method Parameter|Name=canBubble|Data type=VARIANT_BOOL|Description='''VARIANT_TRUE''' (true)
-
-
-
-The event should propagate upward. 
-
-
-'''VARIANT_FALSE''' (false)
-
-
-
-The event does not propagate upward. 
-
-|Optional=}}
-{{Method Parameter|Name=cancelable|Data type=VARIANT_BOOL|Description='''VARIANT_TRUE''' (true)
-
-
-
-The default action can be canceled. 
-
-
-'''VARIANT_FALSE''' (false)
-
-
-
-The default action cannot be canceled. 
-
-|Optional=}}
-{{Method Parameter|Name=viewArg|Data type=IHTMLWindow2|Description='''window'''|Optional=}}
-{{Method Parameter|Name=detailArg|Data type=Integer|Description=A '''Integer''' value that specifies additional information. This value is returned in the [[dom/properties/detail|'''detail''']]  property of the event.|Optional=}}
-{{Method Parameter|Name=relatedTargetArg |Data type=IEventTarget|Description=The object used for the [[dom/properties/relatedTarget|'''relatedTarget''']] attribute of the new focus event.|Optional=}}
-|Method_applies_to=dom/objects/FocusEvent
-|Example_object_name=object
-|Return_value_name=object
-|Javascript_data_type=DOM Node
-|Return_value_description=Type: '''HRESULT'''
-
-If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRESULT''' error code.
-
-Type: '''HRESULT'''
-
-If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRESULT''' error code.
-
-
+|Parameters={{Method Parameter
+|Name=eventType
+|Data type=String
+|Description=The name of the event. Sets the value for the [[dom/properties/type (event)|'''type''']] property.
+|Optional=No
+}}{{Method Parameter
+|Name=canBubble
+|Data type=Boolean
+|Description=Whether the event propagates upward. Sets the value for the [[dom/properties/bubbles|bubbles]] property.
+|Optional=No
+}}{{Method Parameter
+|Name=cancelable
+|Data type=Boolean
+|Description=Whether the event is cancelable and so [[dom/methods/preventDefault|preventDefault]] can be called. Sets the value for the [[dom/properties/cancelable|cancelable]] property.
+|Optional=No
+}}{{Method Parameter
+|Name=view
+|Data type=Object
+|Description=The window on which this event is occurring.  Sets the value for the [[dom/properties/view|view]] property.
+|Optional=No
+}}{{Method Parameter
+|Name=detail
+|Data type=Number
+|Description=Specifies additional information. This value is returned in the [[dom/properties/detail|'''detail''']] property of the event.
+|Optional=No
+}}{{Method Parameter
+|Name=relatedTarget
+|Data type=DOM Node
+|Description=A secondary element that is involved in the event. This value is returned in the [[dom/properties/relatedTarget|'''relatedTarget''']] property of the event.
+|Optional=No
 }}
-{{Topics|DOM}}
-{{Notes_Section
-|Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203756 Document Object Model (DOM) Level 3 Events Specification], Section 5.2.2
-
-
+|Method_applies_to=dom/objects/FocusEvent
+|Example_object_name=event
+|Javascript_data_type=void
+}}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
+{{Notes_Section}}
+{{Related_Specifications_Section
+|Specifications={{Related Specification
+|Name=DOM Level 3 Events
+|URL=http://www.w3.org/TR/DOM-Level-3-Events/
+|Status=Working Draft
+|Relevant_changes=Section 5.2.2
+}}
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 *<code>[[dom/objects/FocusEvent|FocusEvent]]</code>
 *<code>[[dom/methods/initUIEvent|initUIEvent]]</code>
 }}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
