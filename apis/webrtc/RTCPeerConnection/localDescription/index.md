@@ -1,14 +1,13 @@
 {{Page_Title}}
-{{Flags
-|High-level issues=Stub, Missing Relevant Sections
-|Content=Incomplete
-}}
+{{Flags}}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Returns the [[apis/webrtc/RTCSessionDescription|RTCSessionDescription]] most recently passed to the [[apis/webrtc/RTCPeerConnection/setLocalDescription|setLocalDescription()]] method along with any local candidate descriptions generated since the method was called.}}
 {{API_Object_Property
 |Property_applies_to=apis/webrtc/RTCPeerConnection
 |Read_only=Yes
+|Javascript_data_type=RTCSessionDescription
+|Return_value_description=Returns a null object if the local description has not yet been set.
 }}
 {{Examples_Section
 |Not_required=No
