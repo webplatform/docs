@@ -1,8 +1,5 @@
 {{Page_Title}}
-{{Flags
-|High-level issues=Stub, Missing Relevant Sections
-|Content=Incomplete
-}}
+{{Flags}}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Returns the [[apis/webrtc/RTCSessionDescription|RTCSessionDescription]] most recently passed to the [[apis/webrtc/RTCPeerConnection/setRemoteDescription|setRemoteDescription()]] method along with any remote candidate descriptions supplied with [[apis/webrtc/RTCPeerConnection/addIceCandidate|addIceCandidate()]]. Returns null if the remote description has not been set.}}
