@@ -29,7 +29,7 @@
 |Optional=No
 }}{{Method Parameter
 |Name=detail
-|Data type=DOM Node
+|Data type=Number
 |Description=Specifies additional information. This value is returned in the [[dom/properties/detail|'''detail''']]  property  of the event.
 |Optional=No
 }}
