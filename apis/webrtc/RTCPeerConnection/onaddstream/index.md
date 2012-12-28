@@ -1,7 +1,6 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Stub, Needs Flags, Missing Relevant Sections
-|Content=Incomplete
+|High-level issues=Needs Flags
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
@@ -14,7 +13,9 @@
 |Not_required=No
 |Examples=
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Notes=This is called any time a MediaStream is added by the remote peer. This will be fired only as a result of [[apis/webrtc/RTCPeerConnection/setRemoteDescription|setRemoteDescription()]]. The onnaddstream callback happens as early as possible after  setRemoteDescription(), it does not wait for a given media stream to be accepted or rejected via SDP negotiation.
+}}
 {{Related_Specifications_Section
 |Specifications=
 }}
