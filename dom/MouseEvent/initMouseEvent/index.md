@@ -25,7 +25,7 @@
 }}{{Method Parameter
 |Name=view
 |Data type=DOM Node
-|Description=The window on which this event is occurring.  Sets the value for the [[dom/properties/view|view]] property.
+|Description=The window on which this event is occurring. Sets the value for the [[dom/properties/view|view]] property.
 |Optional=No
 }}{{Method Parameter
 |Name=detail
@@ -35,52 +35,52 @@
 }}{{Method Parameter
 |Name=screenX
 |Data type=Number
-|Description=The x-coordinate of the mouse pointer, relative to the  upper-left corner of the screen. This value is returned in the [[dom/properties/screenX|'''screenX''']] property of the event.
+|Description=The x-coordinate of the mouse pointer, relative to the  upper-left corner of the screen. Sets the value for the [[dom/properties/screenX|'''screenX''']] property,
 |Optional=No
 }}{{Method Parameter
 |Name=screenY
 |Data type=Number
-|Description=The y-coordinate of the mouse pointer, relative to the  upper-left corner of the screen. This value is returned in the [[dom/properties/screenY|'''screenY''']] property of the event.
+|Description=The y-coordinate of the mouse pointer, relative to the  upper-left corner of the screen. Sets the value for the [[dom/properties/screenY|'''screenY''']] property.
 |Optional=No
 }}{{Method Parameter
 |Name=clientX
 |Data type=Number
-|Description=The x-coordinate of the mouse pointer, relative to the  upper-left corner of the browser's client area. This value is returned in the [[dom/properties/clientX|'''clientX''']] property of the event.
+|Description=The x-coordinate of the mouse pointer, relative to the  upper-left corner of the browser's client area. Sets the value for the [[dom/properties/clientX|'''clientX''']] property.
 |Optional=No
 }}{{Method Parameter
 |Name=clientY
 |Data type=Number
-|Description=The y-coordinate of the mouse pointer, relative to the  upper-left corner of the browser's client area. This value is returned in the [[dom/properties/clientY|'''clientY''']] property of the event.
+|Description=The y-coordinate of the mouse pointer, relative to the  upper-left corner of the browser's client area. Sets the value for the [[dom/properties/clientY|'''clientY''']] property.
 |Optional=No
 }}{{Method Parameter
 |Name=ctrlKey
 |Data type=Boolean
-|Description=The value that is returned in the [[dom/properties/ctrlKey|'''ctrlKey''']] property of the event.
+|Description=Whether the Control key is depressed. Sets the value for the [[dom/properties/ctrlKey|'''ctrlKey''']] property.
 |Optional=No
 }}{{Method Parameter
 |Name=altKey
 |Data type=Boolean
-|Description=The value that is returned in the [[dom/properties/altKey|'''altKey''']] property of the event.
+|Description=Whether the Alt key is depressed. Sets the value for the [[dom/properties/altKey|'''altKey''']] property.
 |Optional=No
 }}{{Method Parameter
 |Name=shiftKey
 |Data type=Boolean
-|Description=The value that is returned in the [[dom/properties/shiftKey|'''shiftKey''']] property of the event.
+|Description=Whether the Shift key is depressed. Sets the value for the [[dom/properties/shiftKey|'''shiftKey''']] property.
 |Optional=No
 }}{{Method Parameter
 |Name=metaKey
 |Data type=Boolean
-|Description=The value that is returned in the [[dom/properties/metaKey|'''metaKey''']] property of the event.
+|Description=Whether a meta key is depressed. Sets the value for the [[dom/properties/metaKey|'''metaKey''']] property.
 |Optional=No
 }}{{Method Parameter
 |Name=button
 |Data type=Number
-|Description=The mouse button that caused the event. This value is returned in the [[dom/properties/button|'''button''']] property of the event.
+|Description=The mouse button that caused the event. Sets the value for the [[dom/properties/button|'''button''']] property (see the property page for common values).
 |Optional=No
 }}{{Method Parameter
 |Name=relatedTarget
 |Data type=DOM Node
-|Description=A secondary element that is involved in the event. This value is returned in the [[dom/properties/relatedTarget|'''relatedTarget''']] property of the event.
+|Description=A secondary element that is involved in the event.  Sets the value for the [[dom/properties/relatedTarget|'''relatedTarget''']] property.
 |Optional=No
 }}
 |Method_applies_to=dom/objects/MouseEvent
