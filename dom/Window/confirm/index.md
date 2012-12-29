@@ -29,7 +29,7 @@
 Use this method to let the user confirm some action.
 |Notes=*The title bar of the confirmation dialog box cannot be changed.
 *Not recommended due to the following issues -
-**This is a synchronized method call. Meaning, calling this method pauses scripting execution of window that called the method, until the user closes the displayed dialog. Also, depending on your cross tab/window usage, this can sometimes pause scripting executions of other windows/tabs from the same domain.
+**This is a synchronized method call. Meaning, calling this method pauses scripting execution of the window from which this method is called, until the user closes the displayed dialog. Also, depending on your cross tab/window usage, this can sometimes pause scripting executions of other windows/tabs from the same domain.
 **Calling this method in some browsers prevents the user from interacting with the entire browser, or browser window (along with all of its tabs), until the dialog is closed.
 **Intrusive dialog boxes are generally annoying for the user.
 Alternatively, create a dialog using other web platform means.
