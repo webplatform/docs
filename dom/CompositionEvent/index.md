@@ -13,21 +13,7 @@
 |Not_required=No
 |Examples=
 }}
-{{Notes_Section
-|Import_Notes=====Additional Properties (MSDN)====
-The '''CompositionEvent''' object has these properties.
-{{{!}} class="wikitable"
-{{!}}-
-!Property
-!Description
-{{!}}-
-{{!}}[[dom/properties/data|'''data''']]
-{{!}}Gets the data of the event.
-{{!}}-
-{{!}}[[dom/properties/locale|'''locale''']]
-{{!}}Gets the locale name for the event.
-{{!}}}
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=DOM Level 3 Events
