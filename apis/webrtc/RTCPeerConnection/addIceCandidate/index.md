@@ -7,7 +7,7 @@
 |Parameters={{Method Parameter
 |Name=candidate
 |Data type=RTCIceCandidate
-|Description=See [[apis/webrtc/RTCIceCandidate|RTCIceCandidate]]
+|Description=See [[apis/webrtc/RTCIceCandidate|RTCIceCandidate]].
 |Optional=No
 }}
 |Method_applies_to=apis/webrtc/RTCPeerConnection
