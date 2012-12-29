@@ -7,7 +7,7 @@
 {{API_Name}}
 {{Summary_Section|Gets the locale name for the event.}}
 {{API_Object_Property
-|Property_applies_to=dom/objects/TextEvent
+|Property_applies_to=dom/objects/CompositionEvent
 |Read_only=Yes
 |Example_object_name=event
 |Return_value_name=localeName
@@ -33,7 +33,6 @@
 }}
 {{See_Also_Section
 |Manual_sections====Related pages (MSDN)===
-*<code>[[dom/objects/CompositionEvent|CompositionEvent]]</code>
 *<code>[[dom/objects/KeyboardEvent|KeyboardEvent]]</code>
 *<code>[[dom/objects/TextEvent|TextEvent]]</code>
 }}
