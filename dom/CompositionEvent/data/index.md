@@ -20,10 +20,10 @@
 }}
 {{Notes_Section
 |Notes=*The value varies by the event type -
-**For [[dom/events/compositionstart|compositionstart]] - the text that was selected
-**For [[dom/events/compositionupdate|compositionupdate]] - the current text.
-**For [[dom/events/compositionend|compositionend]] - the text that will be committed.
-*If a user cancels a composition event, the '''data''' attribute is set to null on the final <code>compositionupdate</code> event.
+**For '''compositionstart''' - the text that was selected.
+**For '''compositionupdate''' - the current text.
+**For '''compositionend''' - the text that will be committed.
+*If a user cancels a composition event, the '''data''' attribute is set to null on the final '''compositionupdate''' event.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
