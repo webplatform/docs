@@ -1,78 +1,90 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
+{{Summary_Section|Initializes a new cross-document message (XDM) event  that the  [[dom/methods/createEvent|'''createEvent''']] method created.}}
 {{API_Object_Method
-|Parameters={{Method Parameter|Name=eventType|Data type=BSTR|Description=One of the following values, or a user-defined custom event type:|Optional=}}
-{{Method Parameter|Name=canBubble|Data type=VARIANT_BOOL|Description='''VARIANT_TRUE''' (true)
-
-
-
-The event should propagate upward. 
-
-
-'''VARIANT_FALSE''' (false)
-
-
-
-The event does not propagate upward. 
-
-|Optional=}}
-{{Method Parameter|Name=cancelable|Data type=VARIANT_BOOL|Description='''VARIANT_TRUE''' (true)
-
-
-
-The default action can be canceled. 
-
-
-'''VARIANT_FALSE''' (false)
-
-
-
-The default action cannot be canceled. 
-
-|Optional=}}
-{{Method Parameter|Name=data|Data type=BSTR|Description=The cross-document message. This value is returned as the [[dom/properties/data|'''data''']] attribute of the event.|Optional=}}
-{{Method Parameter|Name=origin|Data type=BSTR|Description=The originating domain of the message. This value is returned as the [[dom/properties/origin|'''origin''']] attribute of the event.|Optional=}}
-{{Method Parameter|Name=lastEventId|Data type=BSTR|Description=Not used. Set  this parameter to  an empty string.|Optional=}}
-{{Method Parameter|Name=source|Data type=IHTMLWindow2|Description=A reference to the '''window''' that generated the event. This value is returned as the [[dom/properties/source|'''source''']] attribute of the event.|Optional=}}
-|Method_applies_to=dom/objects/MessageEvent
-|Example_object_name=object
-|Return_value_name=object
-|Javascript_data_type=DOM Node
-|Return_value_description=Type: '''HRESULT'''
-
-If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRESULT''' error code.
-
-Type: '''HRESULT'''
-
-If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRESULT''' error code.
-
-
+|Parameters={{Method Parameter
+|Name=eventType
+|Data type=String
+|Description=The name of the event. Sets the value for the [[dom/properties/type (event)|'''type''']] property.
+|Optional=No
+}}{{Method Parameter
+|Name=canBubble
+|Data type=Boolean
+|Description=Whether the event propagates upward. Sets the value for the [[dom/properties/bubbles|bubbles]] property.
+|Optional=No
+}}{{Method Parameter
+|Name=cancelable
+|Data type=Boolean
+|Description=Whether the event is cancelable and so [[dom/methods/preventDefault|preventDefault]] can be called. Sets the value for the [[dom/properties/cancelable|cancelable]] property.
+|Optional=No
+}}{{Method Parameter
+|Name=data
+|Data type=any
+|Description=The cross-document message. Sets the value for the [[dom/properties/data2|'''data''']] property.
+|Optional=No
+}}{{Method Parameter
+|Name=origin
+|Data type=any
+|Description=The originating domain of the message. Sets the value for the [[dom/properties/origin|'''origin''']]property.
+|Optional=No
+}}{{Method Parameter
+|Name=lastEventId
+|Data type=any
+|Description=Not used. Set this parameter to an empty string.
+|Optional=No
+}}{{Method Parameter
+|Name=source
+|Data type=any
+|Description=A reference to the '''window''' that generated the event. Sets the value for the [[dom/properties/source|'''source''']] property.
+|Optional=No
 }}
-{{Topics|DOM}}
-{{Notes_Section
-|Notes=
-===Remarks===
-The ''lastEventId'' parameter emulates server-initiated messages, which Windows Internet Explorer 9 does not support.
-|Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}221374 HTML5 A vocabulary and associated APIs for HTML and XHTML], Section 6.1
-
-
+|Method_applies_to=dom/objects/MessageEvent
+|Example_object_name=event
+|Javascript_data_type=void
+}}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
+{{Notes_Section}}
+{{Related_Specifications_Section
+|Specifications={{Related Specification
+|Name=W3C HTML5
+|URL=http://www.w3.org/TR/html5/
+|Status=Working Draft
+|Relevant_changes=Section 6.1
+}}{{Related Specification
+|Name=WHATWG HTML
+|URL=http://www.whatwg.org/specs/web-apps/current-work/multipage/
+|Status=Living Standard
+|Relevant_changes=Section 6.1
+}}
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=9
+|Note=The ''lastEventId'' parameter emulates server-initiated messages, which are unsupported.
+}}
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 *<code>[[dom/objects/MessageEvent|MessageEvent]]</code>
 }}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
