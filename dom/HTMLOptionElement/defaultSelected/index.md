@@ -19,7 +19,7 @@
 |Examples=
 }}
 {{Notes_Section
-|Notes=The property can be changed programmatically, but doing so has no effect on the appearance of the option or the submitted value - if the [[dom/properties/selected|'''selected'''] property has been changed by a user or by a script. The property does change the appearance of the selected option if the form is reset.
+|Notes=The property can be changed programmatically, but doing so has no effect on the appearance of the option or the submitted value - if the [[dom/properties/selected|'''selected''']] property has been changed by a user or by a script. The property does change the appearance of the selected option if the form is reset.
 |Import_Notes=
 
 }}
