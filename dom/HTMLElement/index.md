@@ -107,9 +107,6 @@ The '''HTMLElement''' object has these properties.
 {{!}}[[dom/properties/classList|'''classList''']]
 {{!}}Returns a [[dom/DOMTokenList|'''DOMTokenList''']] that represents the [[dom/properties/className|'''className''']] attribute value expressed as a string.
 {{!}}-
-{{!}}[[html/attributes/draggable|'''draggable''']]
-{{!}}Sets or gets whether an element can be dragged on a document.
-{{!}}-
 {{!}}[[dom/properties/spellcheck|'''spellcheck''']]
 {{!}}Specifies whether spell checking is applied to an editable text field.
 {{!}}}
