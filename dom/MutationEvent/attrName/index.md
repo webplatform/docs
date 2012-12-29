@@ -1,35 +1,51 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status|Deprecated}}
 {{API_Name}}
+{{Summary_Section|Gets the name of the attribute that changed.}}
 {{API_Object_Property
 |Property_applies_to=dom/objects/MutationEvent
-|Read_only=
+|Read_only=Yes
+|Example_object_name=event
+|Return_value_name=attributeName
+|Javascript_data_type=String
+|Return_value_description=The name of the mutated attribute, if any.
 }}
-{{Topics|DOM}}
-{{Notes_Section
-|Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203756 Document Object Model (DOM) Level 3 Events Specification], Section 5.2.8
-
-
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
+{{Notes_Section}}
+{{Related_Specifications_Section
+|Specifications={{Related Specification
+|Name=DOM Level 2 Events
+|URL=http://www.w3.org/TR/DOM-Level-2-Events/
+|Status=Recommendation
+|Relevant_changes=Section 1.6.4
+}}
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
-*<code>[[dom/objects/MutationEvent|MutationEvent]]</code>
-*<code>Reference</code>
+|Topic_clusters=Deprecated
+|Manual_sections====Related pages (MSDN)===
 *<code>[[dom/properties/attrChange|attrChange]]</code>
 *<code>[[dom/properties/newValue|newValue]]</code>
 *<code>[[dom/properties/prevValue|prevValue]]</code>
 }}
+{{Topics|DOM, DOMEvents}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
