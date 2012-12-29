@@ -92,7 +92,6 @@ span of time defined by the
 [[css/properties/animation-duration|'''animation-duration''']]
 property.  Each keyframe within the sequence behaves like a CSS
 selector, manipulating the values of individual properties.
-
 In this case, [[css/properties/opacity|'''opacity''']] dims the icon
 and [[css/properties/transform|'''transform''']] shrinks it.  (See the
 [[tutorials/css_transforms|tutorial on transforms]] for details on the
@@ -100,7 +99,7 @@ and [[css/properties/transform|'''transform''']] shrinks it.  (See the
 function.)
 
 Along with animation properties, each
-[[css/atrules/@keyframes|'''@keyframes'''] rule also needs to be
+[[css/atrules/@keyframes|'''@keyframes''']] rule also needs to be
 prefixed to run on WebKit-based browsers:
 
  @-webkit-keyframes pulse {
