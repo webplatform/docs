@@ -29,17 +29,17 @@
 |Optional=No
 }}{{Method Parameter
 |Name=origin
-|Data type=any
-|Description=The originating domain of the message. Sets the value for the [[dom/properties/origin|'''origin''']]property.
+|Data type=String
+|Description=The originating domain of the message. Sets the value for the [[dom/properties/origin|'''origin''']] property.
 |Optional=No
 }}{{Method Parameter
 |Name=lastEventId
-|Data type=any
+|Data type=String
 |Description=Not used. Set this parameter to an empty string.
 |Optional=No
 }}{{Method Parameter
 |Name=source
-|Data type=any
+|Data type=Object
 |Description=A reference to the '''window''' that generated the event. Sets the value for the [[dom/properties/source|'''source''']] property.
 |Optional=No
 }}
