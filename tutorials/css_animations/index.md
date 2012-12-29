@@ -6,18 +6,29 @@
 {{Byline}}
 {{Summary_Section|CSS animations allow you to build complex animated
 sequences.  Like [[tutorials/css_transitions|transitions]], they
-manipulate the CSS properties that define interface elements. Unlike
-transitions, they can execute freely and are not tied to shifts
-between style sheets.
+manipulate the CSS properties that control how interface elements
+appear. Unlike transitions, they are not tied to shifts between style
+sheets that distinguish interface states.  Keyframe animations can
+execute freely, and offer the best way to build complex effects into
+an interface.
 }}
 {{Tutorial
 |Content=
 
+To get the most out of this tutorial, you should already be familiar
+with [[tutorials/css_transitions|CSS transitions]].  Since they work
+similarly, the term ''CSS animations'' often serves as a shorthand to
+refer to transitions as well, but this tutorial only discusses
+''keyframe animations''.
+
 ==Animation properties==
+
+
 
 ...
 
 <!--
+    -webkit-animation: pulse 1s infinite;
 * pulse == icon is selected
 * name
 * duration
@@ -25,9 +36,26 @@ between style sheets.
 
 ==The @keyframes rule==
 
+
 ...
 
 <!--
+
+@-webkit-keyframes pulse {
+    from { 
+        -webkit-transform : scale(1) translateX(0);
+        opacity           : 1;
+    }
+    50% { 
+        -webkit-transform : scale(0.75) translateX(0);
+        opacity           : 0.25;
+    }
+    to { 
+        -webkit-transform : scale(1) translateX(0);
+        opacity           : 1;
+    }
+}
+
 * @keyframes, @-webkit-keyframes
 * EXAMPLE: pulse icon
 * using from/50%/to
