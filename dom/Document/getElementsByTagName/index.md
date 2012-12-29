@@ -1,91 +1,92 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
+{{Summary_Section|Gets a collection of all descendant elements with a given name.}}
 {{API_Object_Method
-|Parameters={{Method Parameter|Name=v|Data type=BSTR|Description='''String''' that specifies the name of an element.|Optional=}}
+|Parameters={{Method Parameter
+|Name=name
+|Data type=String
+|Description=The name of an element.
+|Optional=No
+}}
 |Method_applies_to=dom/HTMLElement
 |Example_object_name=object
 |Return_value_name=object
 |Javascript_data_type=DOM Node
-|Return_value_description='''IHTMLElementCollection'''
-
-
+|Return_value_description=A DOM collection of elements with the given name.
 }}
-{{Topics|DOM}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
+|Language=HTML
 |Description=The following example uses the '''getElementsByTagName''' method to return the children of a '''ul''' element based on the selected '''li''' element.
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/getElementsByTagName.htm
-|Code=
-&lt;SCRIPT&gt;
-function fnGetTags(){
-   var oWorkItem{{=}}event.srcElement;
-   var aReturn{{=}}oWorkItem.parentElement.getElementsByTagName("LI");
-   alert("Length: "
-      + aReturn.length
-      + "\nFirst Item: "
-      + aReturn[0].childNodes[0].nodeValue);
+|Code=&lt;!doctype html&gt;
+&lt;html&gt;
+ &lt;head&gt;
+  &lt;script&gt;
+function printFirstLIText(e){
+  var oWorkItem = event.target;
+  var aReturn = oWorkItem.parentElement.getElementsByTagName("LI");
+  console.log("Length: " + aReturn.length + "\nFirst Item: " +
+   aReturn[0].childNodes[0].nodeValue);
 }
-&lt;/SCRIPT&gt;
-&lt;UL onclick{{=}}"fnGetTags()"&gt;
-&lt;LI&gt;Item 1
-   &lt;UL&gt;
-      &lt;LI&gt;Sub Item 1.1
-      &lt;OL&gt;
-         &lt;LI&gt;Super Sub Item 1.1
-         &lt;LI&gt;Super Sub Item 1.2
-      &lt;/OL&gt;
-      &lt;LI&gt;Sub Item 1.2
-      &lt;LI&gt;Sub Item 1.3
-   &lt;/UL&gt;		
-&lt;LI&gt;Item 2
-   &lt;UL&gt;
-      &lt;LI&gt;Sub Item 2.1
-      &lt;LI&gt;Sub Item 2.3
-   &lt;/UL&gt;
-&lt;LI&gt;Item 3
-&lt;/UL&gt;
-}}}}
+function initialize() {
+  document.getElementById("ex").addEventListener("click", printFirstLIText, false);
+}
+window.addEventListener("load", initialize, false);
+  &lt;/script&gt;
+ &lt;/head&gt;
+ &lt;body&gt;
+  &lt;ul id="ex"&gt;
+   &lt;li&gt;Item 1
+    &lt;ul&gt;
+     &lt;li&gt;Sub Item 1.1
+      &lt;ol&gt;
+       &lt;li&gt;Super Sub Item 1.1&lt;/li&gt;
+       &lt;li&gt;Super Sub Item 1.2&lt;/li&gt;
+      &lt;/ol&gt;
+     &lt;/li&gt;
+     &lt;li&gt;Sub Item 1.2&lt;/li&gt;
+     &lt;li&gt;Sub Item 1.3&lt;/li&gt;
+    &lt;/ul&gt;
+   &lt;/li&gt;	
+   &lt;li&gt;Item 2
+    &lt;ul&gt;
+     &lt;li&gt;Sub Item 2.1
+     &lt;li&gt;Sub Item 2.3
+    &lt;/ul&gt;
+   &lt;/li&gt;
+   &lt;li&gt;Item 3&lt;/li&gt;
+  &lt;/ul&gt;
+ &lt;/body&gt;
+&lt;/html&gt;
+|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/getElementsByTagName.htm
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
-The '''getElementsByTagName''' method is equivalent to using the [[dom/methods/tags|'''tags''']] method on the [[dom/properties/all|'''all''']] collection. For example, the following code shows how to retrieve a collection of '''div''' elements from the '''body''' element, first using the Dynamic HTML (DHTML) Object Model and then the Document Object Model (DOM).
-*Using the DHTML Object Model: <div class{{=}}"codeSnippet">
-<pre xml:space{{=}}"preserve"><code>var aDivs {{=}} document.body.all.tags("DIV");</code></pre>
-</div>
-*Using the DOM: <div class{{=}}"codeSnippet">
-<pre xml:space{{=}}"preserve"><code>var aDivs {{=}} document.body.getElementsByTagName("DIV");</code></pre>
-</div>
-
-When you use the '''getElementsByTagName''' method, all child and nested child elements with the specified tag name are returned. 
-
-For example, all of the '''SPAN''' elements in the following example would be returned by the '''getElementsByTagName''' method.
- <code>
- &lt;SCRIPT&gt;
- var aSpans {{=}} oDiv.getElementsByTagName("SPAN");
- &lt;/SCRIPT&gt;
- &lt;DIV id{{=}}"oDiv"&gt;
-     &lt;SPAN&gt;Immediate Child
-         &lt;DIV&gt;
-             &lt;SPAN&gt;Child of Child DIV&lt;/SPAN&gt;
-         &lt;/DIV&gt;
-     &lt;/SPAN&gt;
- &lt;/DIV&gt;
- </code>
-|Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}196991 Document Object Model (DOM) Level 2 HTML Specification], Section 1.6.5
-
-
+|Usage=Use this method to get a collection of all child and nested child elements with the specified tag name.
+}}
+{{Related_Specifications_Section
+|Specifications={{Related Specification
+|Name=DOM Level 2 HTML
+|URL=http://www.w3.org/TR/DOM-Level-2-HTML/
+|Status=Recommendation
+|Relevant_changes=Section 1.6.5
+}}
+}}
+{{Compatibility_Section
+|Not_required=Yes
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 *<code>[[html/elements/a|a]]</code>
 *<code>abbr</code>
 *<code>[[html/elements/acronym|acronym]]</code>
@@ -172,10 +173,11 @@ For example, all of the '''SPAN''' elements in the following example would be re
 *<code>xmp</code>
 *<code>About the W3C Document Object Model</code>
 }}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
