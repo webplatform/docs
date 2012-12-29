@@ -1,35 +1,51 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status|Deprecated}}
 {{API_Name}}
+{{Summary_Section|Gets the previous value of the attribute or text node.}}
 {{API_Object_Property
 |Property_applies_to=dom/objects/MutationEvent
-|Read_only=
+|Read_only=Yes
+|Example_object_name=event
+|Return_value_name=previousValue
+|Javascript_data_type=String
+|Return_value_description=The previous value of the attribute or text node.
 }}
-{{Topics|DOM}}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
-The '''prevValue'''  property indicates the previous value of an attribute node during a <code>DOMAttrModified</code> event, or the previous text in a character node during a <code>DOMCharacterDataModified</code> event.
-|Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203756 Document Object Model (DOM) Level 3 Events Specification], Section 5.2.8
-
-
+|Notes=This property indicates the previous value of an attribute node during a <code>DOMAttrModified</code> event, or the previous text in a character node during a <code>DOMCharacterDataModified</code> event.
+}}
+{{Related_Specifications_Section
+|Specifications={{Related Specification
+|Name=DOM Level 2 Events
+|URL=http://www.w3.org/TR/DOM-Level-2-Events/
+|Status=Recommendation
+|Relevant_changes=Section 1.6.4
+}}
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
-*<code>[[dom/objects/MutationEvent|MutationEvent]]</code>
+|Topic_clusters=Deprecated
+|Manual_sections====Related pages (MSDN)===
 *<code>[[dom/properties/newValue|newValue]]</code>
 }}
+{{Topics|DOM, DOMEvents}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
