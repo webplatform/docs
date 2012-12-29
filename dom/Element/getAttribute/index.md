@@ -1,33 +1,32 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
+{{Summary_Section|Returns the value of the content attribute.}}
 {{API_Object_Method
-|Parameters={{Method Parameter|Name=strAttributeName|Data type=BSTR|Description='''String''' that specifies the name of the attribute.|Optional=}}
-{{Method Parameter|Name=lFlags|Data type=Integer|Description='''Integer''' that specifies one or more of the following flags:|Optional=}}
-|Method_applies_to=dom/HTMLElement
-|Example_object_name=object
-|Return_value_name=object
-|Javascript_data_type=DOM Node
-|Return_value_description=Variant
-
-'''Variant''' that returns a '''String''', '''Variant''' of type '''Integer''', or '''Boolean''' value as defined by the attribute. If the attribute is not present, this method returns null.
-
-
+|Parameters={{Method Parameter
+|Name=name
+|Data type=String
+|Description=The name of the attribute.
+|Optional=No
 }}
-{{Topics|DOM}}
+|Method_applies_to=dom/HTMLElement
+|Example_object_name=element
+|Return_value_name=attributeValue
+|Javascript_data_type=String
+|Return_value_description=The value of the attribute, or null if it does not exist.
+}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
+|Language=HTML
 |Description=The following example shows the difference between a URL attribute which is using a content attribute (value from '''getAttribute''') and a DOM attribute (property).
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/getAttribute8.htm
-|Code=
+|Code=&lt;!doctype html&gt;
 &lt;head&gt;
-  &lt;meta http-equiv{{=}}"X-UA-Compatible" content{{=}}"IE{{=}}8"&gt;
   &lt;title&gt;Content/DOM Attribute Example&lt;/title&gt;
-  &lt;base href{{=}}"http://msdn.microsoft.com/"&gt;
   &lt;script&gt;
     function GetAttr(){
      //Retrieve an element value from the content attribute and DOM attribute.
@@ -46,47 +45,49 @@
    &lt;a id{{=}}"msdn" href{{=}}"en-us/default.aspx"&gt;Microsoft Developer Network&lt;/a&gt;
    &lt;div id{{=}}"output"&gt;Output appears here.&lt;/div&gt;
 &lt;/body&gt;
-}}}}
+|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/getAttribute8.htm
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
-Windows Internet Explorer 8 and later. IE8 Standards mode enables several enhancements to the [[dom/methods/setAttribute|'''setAttribute''']], '''getAttribute''', and [[dom/methods/removeAttribute|'''removeAttribute''']] methods that are not available when pages are displayed in earlier document modes.
-*The ''strAttributeName'' parameter requires the name of the desired content attribute and not the Document Object Model (DOM) attribute. 
-
-For example, in IE8 mode, this method no longer requires ''strAttributeName'' to be <code>"className"</code> when setting, getting, or removing a [[dom/properties/className|'''CLASS''']] attribute. Earlier versions of Windows Internet Explorer and Internet Explorer 8 in compatibility mode still require ''strAttributeName'' to specify the corresponding DOM property name.
-*The ''strAttributeName'' parameter is not case sensitive. As a result, the ''lFlags'' parameter is no longer supported and should not be used.
-*The methods support event handlers. For example, the following code example defines an event handler to call a function called SomeFunction when the body of the page is loaded.
-<div class{{=}}"codeSnippet">
-<pre xml:space{{=}}"preserve"><code>document.body.setAttribute('onload', 'SomeFunction()');</code></pre>
-</div>
-
-Internet Explorer 8 or later. In IE8 mode, the [[dom/properties/value|'''value''']] property is correctly reported as a canonical attribute name. For example, '''&lt;input type{{=}}"text" readonly&gt;''' and '''&lt;input type{{=}}"text" readonly{{=}}"readonly"&gt;''' would both set the input text field to read-only. In IE8 mode, the value is evaluated as a canonical value, <code>"readonly"</code>. In IE7 and earlier modes, it is evaluated as a Boolean value, true. For more information, see Attribute Differences in Internet Explorer 8
-If two or more attributes have the same name (differing only in uppercase and lowercase letters) and ''lFlags'' is '''0''', the '''getAttribute''' method retrieves values only for the last attribute created with this name, and ignores all other attributes with the same name.
-Internet Explorer 8 and later. In IE7 Standards mode and IE5 (Quirks) mode, attributes that represent URLs and file paths return the same value whether you retrieve them as a DOM property or as a content attribute (using '''getAttribute'''). Some attributes return relative URLs, whereas others always return a fully qualified URL. In IE8 mode, DOM attributes always return fully qualified URLs for URL attributes; to retrieve the attribute value as specified in the content, use '''getAttribute'''. The following attributes return URLs: 
-[[html/attributes/action|'''action''']], 
-[[html/attributes/background (Body element)|'''background''']], 
-[[html/attributes/BaseHref|'''BaseHref''']], 
-[[html/attributes/cite|'''cite''']], 
-[[html/attributes/codeBase|'''codeBase''']], 
-[[html/attributes/data|'''data''']], 
-'''dynsrc''', 
-[[html/attributes/href|'''href''']], 
-[[html/attributes/longDesc|'''longDesc''']], 
-[[html/attributes/lowsrc|'''lowsrc''']], 
-[[html/attributes/pluginspage|'''pluginspage''']], 
-'''profile''', 
-[[html/attributes/src (input, img)|'''src''']], 
-[[dom/properties/vrml|'''vrml''']].
-|Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}196991 Document Object Model (DOM) Level 2 HTML Specification], Section 1.6.5
-
-
+|Notes=If two or more attributes have the same name, this method retrieves values only for the last attribute created with this name, and ignores all other attributes with the same name.
+}}
+{{Related_Specifications_Section
+|Specifications={{Related Specification
+|Name=DOM Level 2 HTML
+|URL=http://www.w3.org/TR/DOM-Level-2-HTML/
+|Status=Recommendation
+|Relevant_changes=Section 1.6.5
+}}
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=7 and earlier
+|Note=The '''name''' parameter requires the name of the desired DOM attribute ("className", for example) and not the content attribute ("class").
+}}{{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=7 and earlier
+|Note=Boolean attributes (like <code>&lt;input readonly disabled&gt;</code> and such) return a Boolean value, instead of their names ("readonly", "disabled").
+}}{{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=7 and earlier
+|Note=There is an optional '''flag''' parameter that accepts one of the following values - <code>0</code> (default) - case insensitive attribute name search. 1 - case sensitive attribute name search. 2 - return the value as a string (as opposed to Boolean). 4 - return the value as a fully expanded URL, which only works for URL attributes such as [[html/attributes/action|'''action''']],  [[html/attributes/background (Body element)|'''background''']],  [[html/attributes/BaseHref|'''BaseHref''']],  [[html/attributes/cite|'''cite''']],  [[html/attributes/codeBase|'''codeBase''']],  [[html/attributes/data|'''data''']],  '''dynsrc''',  [[html/attributes/href|'''href''']],  [[html/attributes/longDesc|'''longDesc''']],  [[html/attributes/lowsrc|'''lowsrc''']],  [[html/attributes/pluginspage|'''pluginspage''']],  '''profile''',  [[html/attributes/src (input, img)|'''src''']],  [[dom/properties/vrml|'''vrml''']].
+}}{{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=7 and earlier
+|Note=The '''name''' parameter value is case sensitive.
+}}{{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=7 and earlier
+|Note=Content/DOM URL attributes return a fully qualified/relative URL and not the original content attribute value.
+}}
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 *<code>[[html/elements/a|a]]</code>
 *<code>address</code>
 *<code>applet</code>
@@ -188,10 +189,11 @@ Internet Explorer 8 and later. In IE7 Standards mode and IE5 (Quirks) mode, att
 *<code>[[dom/methods/removeAttribute|removeAttribute]]</code>
 *<code>[[dom/methods/setAttribute|setAttribute]]</code>
 }}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
