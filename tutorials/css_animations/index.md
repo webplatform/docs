@@ -69,7 +69,7 @@ From here on, examples feature only the un-prefixed property names.
 
 The [[css/properties/animation-name|'''animation-name''']] property
 specifies an animation named '''pulse'''. Use a
-[[css/atrules/@keyframes|'''@keyframes'''] rule within the CSS to
+[[css/atrules/@keyframes|'''@keyframes''']] rule within the CSS to
 define each named animation sequence:
 
  @keyframes pulse {
@@ -111,17 +111,33 @@ prefixed to run on WebKit-based browsers:
 This example also substitutes '''0%''' and '''100%''' for their
 synonymous keywords '''from''' and '''to'''.
 
-==Alternation==
+==Changing Direction==
 
-...
+This simple animation can also be alternated to produce the same effect:
 
-<!--
-* [[css/properties/animation-direction|'''animation-direction''']]
-* iteration-count
-* direction
-* from/to
-* EXAMPLE: pulse icon using direction/iteration
--->
+ div.selected {
+     animation-name            : pulse;
+     animation-duration        : 0.5s;
+     animation-iteration-count : infinite;
+     animation-direction       : alternate;
+ }
+
+The [[css/properties/animation-duration|'''animation-duration''']] is
+now half of its previous value.  Setting
+[[css/properties/animation-direction|'''animation-direction''']] to
+'''alternate''' makes the animation execute in normal order
+('''from'''/'''to'''), then in reverse order ('''to'''/'''from''') for
+even-numbered iterations. This allows the animation's start and end
+points to vary:
+
+ @keyframes pulse {
+    from { transform: scale(1)   ; opacity: 1;    }
+    to   { transform: scale(0.75); opacity: 0.25; }
+ }
+
+(You can also set
+[[css/properties/animation-direction|'''animation-direction''']] to
+always '''reverse''', or to '''reverse-alternate'''.)
 
 ==Multiple animations==
 
