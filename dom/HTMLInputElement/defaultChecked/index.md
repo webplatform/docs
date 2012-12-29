@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Gets the initial value of the [[dom/properties/checked|checked]] property, which is the value of the [[html/attributes/checked|checked]] HTML attribute.}}
+{{Summary_Section|Gets whether the [[html/attributes/checked|checked]] HTML attribute is present on the element.}}
 {{API_Object_Property
 |Property_applies_to=dom/HTMLInputElement
 |Read_only=Yes
@@ -19,7 +19,8 @@
 |Examples=
 }}
 {{Notes_Section
-|Notes=This property reflects the value of the '''checked''' HTML attribute.
+|Notes=*This property reflects the value of the '''checked''' HTML attribute.
+*This property can be changed programmatically, however, doing so has no effect on the appearance of the check box or radio button or on how forms are submitted - if the [[dom/HTMLInputElement/checked|'''checked''']] property has been changed by a user or by a script.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -34,14 +35,10 @@
 |Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
-|Notes_rows={{Compatibility Notes Row
-|Browser=Int
-}}
+|Notes_rows=
 }}
 {{See_Also_Section
 |Manual_sections====Related pages (MSDN)===
-*<code>input type{{=}}checkbox</code>
-*<code>input type{{=}}radio</code>
 *<code>[[html/attributes/checked|checked]]</code>
 }}
 {{Topics|DOM}}
