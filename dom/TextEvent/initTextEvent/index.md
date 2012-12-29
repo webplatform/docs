@@ -1,75 +1,80 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status|N/A}}
 {{API_Name}}
+{{Summary_Section}}
 {{API_Object_Method
-|Parameters={{Method Parameter|Name=eventType|Data type=BSTR|Description=One of the following values, or a user-defined custom event type.|Optional=}}
-{{Method Parameter|Name=canBubble|Data type=VARIANT_BOOL|Description='''VARIANT_TRUE''' (true)
-
-
-
-The event should propagate upward. 
-
-
-'''VARIANT_FALSE''' (false)
-
-
-
-The event does not propagate upward. 
-
-|Optional=}}
-{{Method Parameter|Name=cancelable|Data type=VARIANT_BOOL|Description='''VARIANT_TRUE''' (true)
-
-
-
-The default action can be canceled. 
-
-
-'''VARIANT_FALSE''' (false)
-
-
-
-The default action cannot be canceled. 
-
-|Optional=}}
-{{Method Parameter|Name=viewArg|Data type=IHTMLWindow2|Description='''window'''|Optional=}}
-{{Method Parameter|Name=dataArg|Data type=BSTR|Description=Character data. This value is returned in the [[dom/properties/data|'''data''']]  property  of the event.|Optional=}}
-{{Method Parameter|Name=inputMethod|Data type=unsigned long|Description=The input mode for the text. For more information, see  [[dom/properties/inputMethod|'''inputMethod''']].|Optional=}}
-{{Method Parameter|Name=locale|Data type=BSTR|Description=The locale name. This value is returned in the [[dom/properties/locale|'''locale''']] attribute of the event.|Optional=}}
-|Method_applies_to=dom/objects/TextEvent
-|Example_object_name=object
-|Return_value_name=object
-|Javascript_data_type=DOM Node
-|Return_value_description=Type: '''HRESULT'''
-
-If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRESULT''' error code.
-
-Type: '''HRESULT'''
-
-If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRESULT''' error code.
-
-
+|Parameters={{Method Parameter
+|Name=eventType
+|Data type=String
+|Description=The name of the event. Sets the value for the [[dom/properties/type (event)|'''type''']] property.
+|Optional=No
+}}{{Method Parameter
+|Name=canBubble
+|Data type=Boolean
+|Description=Whether the event propagates upward. Sets the value for the [[dom/properties/bubbles|bubbles]] property.
+|Optional=No
+}}{{Method Parameter
+|Name=cancelable
+|Data type=Boolean
+|Description=Whether the event is cancelable and so [[dom/methods/preventDefault|preventDefault]] can be called. Sets the value for the [[dom/properties/cancelable|cancelable]] property.
+|Optional=No
+}}{{Method Parameter
+|Name=view
+|Data type=Object
+|Description=The window on which this event is occurring. Sets the value for the [[dom/properties/view|view]] property.
+|Optional=No
+}}{{Method Parameter
+|Name=data
+|Data type=String
+|Description=Character data. Sets the value for the [[dom/properties/data|'''data''']]  property.
+|Optional=No
+}}{{Method Parameter
+|Name=inputMethod
+|Data type=Number
+|Description=The input mode for the text. Sets the value for the [[dom/properties/inputMethod|'''inputMethod''']] property.
+|Optional=No
+}}{{Method Parameter
+|Name=locale
+|Data type=String
+|Description=The locale name. Sets the value for the [[dom/properties/locale|'''locale''']] property.
+|Optional=No
 }}
-{{Topics|DOM}}
-{{Notes_Section
-|Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203756 Document Object Model (DOM) Level 3 Events Specification], Section 5.2.5
-
-
+|Method_applies_to=dom/objects/TextEvent
+|Example_object_name=event
+|Javascript_data_type=void
+}}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
+{{Notes_Section}}
+{{Related_Specifications_Section
+|Specifications={{Related Specification
+|Name=DOM Level 3 Events (20110531)
+|URL=http://www.w3.org/TR/2011/WD-DOM-Level-3-Events-20110531
+|Status=Outdated Working Draft
+|Relevant_changes=Section 5.2.5
+}}
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
-*<code>[[dom/objects/TextEvent|TextEvent]]</code>
+|Topic_clusters=Deprecated
 }}
+{{Topics|DOM, DOMEvents}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
