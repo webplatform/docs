@@ -26,7 +26,7 @@ refer to transitions as well, but this tutorial only discusses
 To understand how animations work, start with a simple example of a
 pulsing icon, which may be used in a mobile interface to indicate what
 part of an application is selected. The animation continuously shrinks
-and grows the icon as it dims and brightens it:
+and grows one of the icons as it dims and brightens it.
 
 [[Image:anim_pulse.png]]
 
@@ -73,15 +73,15 @@ specifies an animation named '''pulse'''. Use a
 define each named animation sequence:
 
  @keyframes pulse {
-     from { 
+     from {
          transform : scale(1);
          opacity   : 1;
      }
-     50% { 
+     50% {
          transform : scale(0.75);
          opacity   : 0.25;
      }
-     to { 
+     to {
          transform : scale(1);
          opacity   : 1;
      }
@@ -100,7 +100,7 @@ function.)
 
 Along with animation properties, each
 [[css/atrules/@keyframes|'''@keyframes''']] rule also needs to be
-prefixed to run on WebKit-based browsers:
+prefixed redundantly to run on WebKit-based browsers:
 
  @-webkit-keyframes pulse {
     0%   { -webkit-transform: scale(1)   ; opacity: 1;    }
@@ -141,13 +141,46 @@ always '''reverse''', or to '''reverse-alternate'''.)
 
 ==Multiple animations==
 
+Animation properties accept more than one comma-delineated value,
+allowing you to chain together different animations or run them
+concurrently.
+
+This variation on the pulsing icon uses two keyframes to manipulate
+the [[css/properties/opacity|'''opacity''']] and
+[[css/properties/transform|'''transform''']] properties separately.
+Setting different durations makes the two effects fall out
+of phase:
+
+ div.selected {
+     animation: fade 0.5s infinite alternate, shrink 0.53s infinite alternate;
+ }
+ /* long form */
+ div.selected {
+     animation-name            : fade      , shrink    ;
+     animation-duration        : 0.5s      , 0.53s     ;
+     animation-iteration-count : infinite  , infinite  ;
+     animation-direction       : alternate , alternate ;
+ }
+ @keyframes fade {
+     from { opacity   : 1; }
+     to   { opacity   : 0.25; }
+ }
+ @keyframes shrink {
+     from { transform : scale(1); }
+     to   { transform : scale(0.75); }
+ }
+ 
+Make sure that any keyframes that execute concurrently don't share any
+of the same properties. (There is no problem animating the same
+property on different elements.)
+
+==Setting a Delay==
+
 ...
 
 <!--
 [[css/properties/animation-delay|'''animation-delay''']]
 * simultaneous for different elements
-* multiple for an element
-* EXAMPLE: pulse opacity and scale transform
 * can't animate (or transition) the same property at the same time
 * EXAMPLE: insertBanner, then cycleBanner
 -->
