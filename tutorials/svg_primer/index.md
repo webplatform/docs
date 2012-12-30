@@ -39,21 +39,21 @@ The SVG file will scale with the size of the element if it doesn’t specify abs
 
 In this section I will walk you through creating a basic SVG template, a process that will be simple for anyone familiar with XML or XHTML. The complete example files for this article can be downloaded here (PROVIDE FILES, INSERT ANCHOR)
 
-#Open up a text editor, create a new file, and on the first line add an XML declaration - this lets the SVG viewer know what version of XML is being used, and the document encoding:
+<ol><li>Open up a text editor, create a new file, and on the first line add an XML declaration - this lets the SVG viewer know what version of XML is being used, and the document encoding:
 
 <pre>&lt;?xml version="1.0" encoding="UTF-8"?&gt;</pre>
 
-This is often omitted in XHTML files due to it sending IE6 and below into quirks mode, but as IE6 doesn’t support SVG, this is of no concern to us.
+This is often omitted in XHTML files due to it sending IE6 and below into quirks mode, but as IE6 doesn’t support SVG, this is of no concern to us.</li>
 
-#Below the XML declaration, add the SVG DOCTYPE, as follows:
+<li>Below the XML declaration, add the SVG DOCTYPE, as follows:
 
 <pre> &lt;!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" 
-         "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"&gt;</pre>
+         "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"&gt;</pre></li>
 
-#To complete the skeleton, the root element has to be specified - just like the root element is html in HTML, in SVG it is svg:
+<li>To complete the skeleton, the root element has to be specified - just like the root element is html in HTML, in SVG it is svg:
 
 <pre>&lt;svg version="1.1" xmlns="http://www.w3.org/2000/svg"&gt;
-&lt;/svg&gt;</pre>
+&lt;/svg&gt;</pre></li></ol>
 
 Just like in HTML, the contents of the file are included between the opening and closing tags.
 
