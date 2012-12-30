@@ -1,6 +1,6 @@
 {{Page_Title}}
-{{Flags
-}}
+{{Flags}}
+{{Byline}}
 {{Summary_Section|This guide offers a detailed introduction to the main important things to know about SVG.}}
 {{Guide
 |Content===SVG Primer: Basic shapes and effects==
@@ -19,11 +19,11 @@ This sounds ideal, but remember that not all images are suitable for vector grap
  
 One key advantage of SVG is that it plays well with other Open Web standards.  You can style it with CSS, add behavior using JavaScript and the DOM, pull in data using XHR, include it within XHTML documents, link to it from HTML and CSS, and so on. This allows you to use knowledge you have already learned, and incorporate it into existing sites.
 
-Another advantage of SVG is that, due to it being based on XML, an image can be created using nothing but a text editor.  This is perfectly reasonable for the basic images we will be creating here, but as images get more complex it is more likely that you’ll want to use an authoring tool – unless you are a super-hero.  Fortunately if your drawing application of choice is Adobe Illustrator, then you are in luck.  You can just export your creation as an SVG file.  Otherwise Inkscape is a good free application that uses SVG as its native format.  You may ask why you should learn SVG if your application of choice supports exporting automatically?  Just like web authoring tools don’t create great HTML and CSS, the same is true of SVG.  Having knowledge of SVG will allow you to optimise those images, and will help a great deal if you want to use scripting to alter or animate SVG files.  It may also be faster to makes changes to a file, or create a simple shape by hand.  
+Another advantage of SVG is that, due to it being based on XML, an image can be created using nothing but a text editor.  This is perfectly reasonable for the basic images we will be creating here, but as images get more complex it is more likely that you’ll want to use an authoring tool – unless you are a super-hero.  Fortunately if your drawing application of choice is Adobe Illustrator, then you are in luck.  You can just export your creation as an SVG file.  Otherwise Inkscape is a good free application that uses SVG as its native format.  You may ask why you should learn SVG if your application of choice supports exporting automatically?  Just like web authoring tools don’t create great HTML and CSS, the same is true of SVG.  Having knowledge of SVG will allow you to optimise those images, and will help a great deal if you want to use scripting to alter or animate SVG files.  It may also be faster to make changes to a file, or create a simple shape by hand.  
 
 === Incorporating SVG in your site or application ===
 
-There are a number of ways you can incorporate SVG into your site or application.  You can create a SVG file, with the .svg file extension and just link to it like you would with any other document.  If you would like to incorporate it as an element of an existing page, there are a few options; referencing the URI of the SVG from the <code>img</code> (Opera or WebKit only) or <code>object</code> elements, from CSS via the <code>background-image</code> or <code>list-style-image</code> properties (Opera only), or creating a compound document that mixes SVG with other markup languages such as XHTML and MathML. Using this last method requires that XHTML is used and served as XML.  It will not work with documents served as HTML. The HTML5 Working Group are working to specify how SVG can be using within a HTML document served as text/html.
+There are a number of ways you can incorporate SVG into your site or application.  You can create a SVG file, with the .svg file extension and just link to it like you would with any other document.  If you would like to incorporate it as an element of an existing page, there are a few options; referencing the URI of the SVG from the <code>img</code> (Opera or WebKit only) or <code>object</code> elements, from CSS via the <code>background-image</code> or <code>list-style-image</code> properties (Opera only), or creating a compound document that mixes SVG with other markup languages such as XHTML and MathML. Using this last method requires that XHTML is used and served as XML.  It will not work with documents served as HTML. The HTML5 Working Group are working to specify how SVG can be used within a HTML document served as text/html.
 
 I can include a SVG image with the <code>img</code> element, as I would with any other image format:
 
@@ -39,18 +39,18 @@ The SVG file will scale with the size of the element if it doesn’t specify abs
 
 In this section I will walk you through creating a basic SVG template, a process that will be simple for anyone familiar with XML or XHTML. The complete example files for this article can be downloaded here (PROVIDE FILES, INSERT ANCHOR)
 
-# Open up a text editor, create a new file, and on the first line add an XML declaration - this lets the SVG viewer know what version of XML is being used, and the document encoding:
+#Open up a text editor, create a new file, and on the first line add an XML declaration - this lets the SVG viewer know what version of XML is being used, and the document encoding:
 
 <pre>&lt;?xml version="1.0" encoding="UTF-8"?&gt;</pre>
 
 This is often omitted in XHTML files due to it sending IE6 and below into quirks mode, but as IE6 doesn’t support SVG, this is of no concern to us.
 
-# Below the XML declaration, add the SVG DOCTYPE, as follows: 
+#Below the XML declaration, add the SVG DOCTYPE, as follows:
 
 <pre> &lt;!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" 
          "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"&gt;</pre>
 
-# To complete the skeleton, the root element has to be specified - just like the root element is html in HTML, in SVG it is svg:
+#To complete the skeleton, the root element has to be specified - just like the root element is html in HTML, in SVG it is svg:
 
 <pre>&lt;svg version="1.1" xmlns="http://www.w3.org/2000/svg"&gt;
 &lt;/svg&gt;</pre>
@@ -275,8 +275,10 @@ Instead of creating standalone buttons, you can use the regular HTML button and 
 	content: "" 
 }</pre>
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
