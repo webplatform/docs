@@ -85,17 +85,21 @@ También en el 2003, Dave Shea lanzó un sitio llamado the [http://www.csszengar
 
 Desde entonces, el uso de estándares web se han convertido en''de rigor''; en la comunidad de desarrollo web profesional. Y en esta serie, vamos a darle una excelente base en estas técnicas para que puedan desarrollar sitios web limpios, accesibles, semánticos y sitios webs con estándares compatibles.
 
-== The new breed of web standards ==
- 
-After 2003, web standards didn't just sit still. New practices started to really come to the forefront, with many web sites being more like desktop applications than static pages. This new breed of sites is way more complicated than what the web was really intended for, and we still have to concern ourselves with making them semantic, accessible and usable! 
- 
-When HTML 4 was nearing completion, the W3C decided (in a [http://www.w3.org/MarkUp/future/ workshop run in 1998]) that in terms of markup languages, the future of the Web was XML and XHTML, not HTML ([http://www.w3.org/wiki/The_web_standards_model_-_HTML_CSS_and_JavaScript#What_is_XHTML.3F comparison of XHTML and HTML]). So the W3C drew a line under HTML 4.01 and instead concentrated on the [http://www.w3.org/TR/xhtml1/ XHTML 1.0] spec, finished in early 2000. XHTML 1.0 is just the same as HTML 4.01, except that it uses the stricter markup syntax rules of XML (more on this later). [http://www.w3.org/TR/xhtml2/ XHTML 2.0] soon followed, which added a whole bunch of new powerful features, and aimed to be the next big thing on the Web.
+== La nueva generación de los estándares web ==
 
-The trouble with XHTML 2.0 is that it wasn't backwards compatible with the markup already on the Web — the elements worked differently, XHTML did not work properly in Internet Explorer, which still has the majority browser market share as of the time of writing, the developer tools available weren't ready for working with XML, and it didn't reflect what web developers were REALLY doing out there in the wild wild web.
+Después del 2003, los estándares web no se le limitaron a quedarse quietos. Nuevas prácticas comenzaron para realmente venir al primer plano, con muchos sitios webs más parecidos a aplicaciones de escritorio que páginas webs estáticas. Esta nueva generación de sitios son más complicados que para lo que la web estaba destinada,  y tenemos que preocuparnos por la semántica, usabilidad y accesibilidad.
+
+Cuando HTML 4 fue casi terminado, la W3C decidió  (en un [http://www.w3.org/MarkUp/future/ taller realizado en 1998]) que en terminos de lenguaje de marcado, el futuro de la web era XML y XHTML, no HTML([http://www.w3.org/wiki/The_web_standards_model_-_HTML_CSS_and_JavaScript#What_is_XHTML.3F comparison of XHTML and HTML]). 
+Entonces la w3c trazo una linea bajo HTML 4.01 y en lugar de concentrarse en las especificaciones de [http://www.w3.org/TR/xhtml1/ XHTML 1.0], finalizó cerca del 2000. XHTML 1.0 es lo mismo que HTML 4.01, excepto que usa sintaxi y reglas de marcado estrictas de XML(Más de esto luego). [http://www.w3.org/TR/xhtml2/ XHTML 2.0] pronto siguieron, añadiendo un montón de nuevas características de gran alcance y aspiraban a ser la próxima grna cosa en la web.
+
+El problema con XHTML 2.0 es que no era compatible con el marcado que ya exitía en la web - los elmentos trabajaban diferente, XHTML no funcionaba apropiadamente en Internet Explorer, el cual todavía tenía la mayoría del mercado de los navegadores, las herramientas para desarrolladores disponibles no estaban listas para trabajar con XML, y eso no se reflejo en lo que los desarrolladores realmente estaban haciendo ahí afuera en la wild wild web.
+
  
-In 2004, a group of like minded developers and implementers (including representatives from Opera, Mozilla and slightly later, Apple) got together and formed a breakaway spec group called the [http://www.whatwg.org/ WHATWG], with the aim of writing a better HTML markup spec that could handle authoring the new breed of web applications, without — crucially — breaking backwards compatibility.
- 
-The result was the [http://www.whatwg.org/specs/web-apps/2005-09-01/ Web Applications 1.0 specification], which documented existing interoperable browser behaviours and features, as well as new features for the Web stack such as APIs and new DOM parsing rules. After many discussions between W3C Members, on March 7 2007 the work on HTML was restarted with a new HTML Working Group in an open participation process. In the first few days, hundreds of participants joined to continue to work on the next version of HTML. One of the first decisions of the HTML WG was to adopt the Web Applications 1.0 spec and call it HTML5.
+En el 2004, un grupo de desarrolladores y implementadores (incluyendo representantes de Opera, Mozilla y slightly y luego Aple) se reunieron y formaron un grupo llamado la[http://www.whatwg.org/ WHATWG], con el objetivo de escribir una mejor especificación que podría manejar la creación de aplicaciones web, sin romper la compatibilidad con lo anterior.
+
+El resultado fue la 
+The result was the [http://www.whatwg.org/specs/web-apps/2005-09-01/ Especificación de aplicaciones web 1.0], 
+which documented existing interoperable browser behaviours and features, as well as new features for the Web stack such as APIs and new DOM parsing rules. After many discussions between W3C Members, on March 7 2007 the work on HTML was restarted with a new HTML Working Group in an open participation process. In the first few days, hundreds of participants joined to continue to work on the next version of HTML. One of the first decisions of the HTML WG was to adopt the Web Applications 1.0 spec and call it HTML5.
  
 HTML5 is a really good thing for web developers and designers, because it:
  
