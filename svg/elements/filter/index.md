@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|SVG filter effects apply graphics operations such as blurs and color transformations to a source graphic. Filters may be applied to presentational SVG elements as well as to grouping elements like <g>. The <code>filter</code> element specifies the position, dimensions, resolution and units for a filter effect. <code>filter</code> elements typically have multiple child elements to specify filter primitives that combine together to create the final graphics effect.}}
+{{Summary_Section|SVG filter effects apply graphics operations such as blurs and color transformations to a source graphic. Filters may be applied to graphical SVG elements (<circle>, <text>) as well as to grouping elements (<g>). The <code>filter</code> element specifies the position, dimensions, resolution and units for a filter effect. <code>filter</code> elements typically have multiple child elements to specify filter primitives that combine together to create the final graphics effect.}}
 {{Markup_Element
 |DOM_interface=svg/objects/SVGFilterElement
 |Content=An SVG filter applies a graphics effect to an SVG element. In SVG 1.1, the range of available graphics effects includes blurs, convolutions, color curve manipulation, cross-component color transfers, erosion effects, blending, compositing and more.  The <code>filter</code> element declares a filter effect and is usually included in the <code>defs</code> section of an SVG XML document. The filter element contains a set of child elements that specify the individual graphics operations or "filter primitives" that comprise that filter operation. Filter effects are applied to an SVG element by adding a <code>filter</code> attribute, set to the id of the desired filter element. 
@@ -174,11 +174,13 @@ Note: that when we use <code>userSpaceOnUse</code>, we calculate our filter and 
 }}
 }}
 {{Notes_Section
-|Usage=Within the enclosing filter element, a filter effect is defined by taking inputs, applying transformation operations and feeding the results of those transformations into further operations. Advanced filters typically contain 10 or more individual filter elements in an input/output chain.
+|Usage=Within the enclosing filter element, a filter effect is defined by taking inputs, applying transformation operations and feeding the results of those transformations into further operations. Advanced filters typically contain 10 or more individual filter elements in an input/output chain. Filters are also capable of inheriting from other filters via the xlink:href attribute, however, this is not widely supported in current browsers (Dec 2012).
 
-If no other input is specified, but one is required, the first filter primitive within a filter will will take a rasterized (bitmapped) version of the referring element as its input. Subequent filter primitives that expect an input will take the output of the immediately preceding filter primitive as input. 
+Most filter attributes are animateable via animateElement, however performance in current desktop browsers (Dec 2012) is uneven. 
 
-In complex filters, it can become difficult to keep track (and debug) inputs and outputs if they are left implicit; and it's good practice to explicitly declare inputs and outputs for each primitive.
+If no other input is specified, but one is required, the first filter primitive within a filter will take a rasterized (bitmapped) version of the referring element as its input. Subsequent filter primitives that expect an input will take the output of the immediately preceding filter primitive as input. 
+
+In complex filters, it can become difficult to keep track (and debug) inputs and outputs if they are left implicit; and it is good practice to explicitly declare inputs and outputs for each primitive.
 
 SVG filter primitives can be divided into inputs, transformations, lighting effects and combinations.
 
@@ -190,9 +192,9 @@ Inputs:
 Transformations:
 *feColorMatrix: transforms the input values of an RBGA pixel into output values
 *feComponentTransfer: adjusts the color curve of an individual color channel
-*feConvolveMatrix: replaces each pixel with a new pixel calculated from pixel values in an area around the current pixel (that includes the current pixel)
+*feConvolveMatrix: replaces each pixel with a new pixel calculated from pixel values in an area relative to the the current pixel)
 *feGaussianBlur: replaces the current pixel with a weighted average of pixels in an area around the pixel
-*feDisplacementMap: moves each pixel from its current position based on the R,G or B values from another image.
+*feDisplacementMap: moves each pixel from its current position based on the R,G or B values from another input graphic.
 *feMorphology: replaces each pixel with a new pixel calculated from the maximum value of all pixels in an area around that pixel.
 *feOffset: moves the input from its current position
 
@@ -204,14 +206,14 @@ Lighting Effects:
 *fePointLight: provides a point light source for specular or diffuse lighting
 
 Combinations:
-feMerge: provides a simple composite of intermediate filter results
+feMerge: creates a simple overlya composite from multiple inputs (including previous filter inputs)
 feBlend: blends multiple inputs using color rules
 feComposite: blends multiple inputs using alpha values
 feTile: tiles input to output a pattern
 |Notes====Remarks===
-Although SVG is a vector graphics technology, it's important to emphasize that SVG Filters perform *pixel-level* operations on all inputs (including SVG shapes) and produce rasterized (bitmapped) outputs at a specified level of resolution. Applying a 10x scale transform (for example) on an plain SVG curve that has been filtered at normal screen resolution will produce pixelated edges since the anti-aliasing of the original graphic has been converted to pixels by the filter and scaled up.
+Although SVG is a vector graphics technology, it is important to emphasize that SVG Filters perform *pixel-level* operations on all inputs (including SVG shapes) and produce rasterized (bitmapped) outputs at a specified level of resolution. Applying a 10x scale transform (for example) on an plain SVG curve that has been filtered at normal screen resolution will produce pixelated edges since the anti-aliasing of the original graphic has been converted to pixels by the filter and scaled up.
 
-Remember that you're writing XML when you're writing filters, so *don't forget to close all those tags* or omit required properties or the filter won't execute at all.
+Remember that you are writing XML when you write filters, so *don't forget to close all those tags* and don't omit required attributes or the filter won't execute at all.
 
 A filter element is never rendered directly. It is only referenced using the filter property on the element to which the filter is applied. Note that the [[css/properties/display|'''display''']] property does not apply to the <code>filter</code> element and  elements are not directly rendered even if the '''display''' property is set to a value other than "none".   Conversely, <code>filter</code> elements are available for referencing even when the'''display''' property on the <code>filter</code>element or any of its ancestors is set to "none".
 
@@ -321,9 +323,9 @@ The '''SVGFilterElement''' object has these properties.
 }}
 |Mobile_rows={{Compatibility Table Mobile Row
 |Feature=<filter>
-|Android_supported=Unknown
+|Android_supported=No
 |Android_version=
-|Android_prefixed_supported=Unknown
+|Android_prefixed_supported=No
 |Android_prefixed_version=
 |Blackberry_supported=Yes
 |Blackberry_version=RIM OS2
@@ -345,8 +347,7 @@ The '''SVGFilterElement''' object has these properties.
 |Opera_mobile_version=
 |Opera_mobile_prefixed_supported=No
 |Opera_mobile_prefixed_version=
-|Opera_mini_supported=Unknown
-|Opera_mini_version=
+|Opera_mini_supported=Yes
 |Opera_mini_prefixed_supported=Unknown
 |Opera_mini_prefixed_version=
 |Safari_mobile_supported=Yes
@@ -356,12 +357,13 @@ The '''SVGFilterElement''' object has these properties.
 }}
 |Notes_rows=
 }}
-{{See_Also_Section}}
-{{Topics|SVG}}
+{{See_Also_Section
+|External_links=SVG Filter Effects http://www.w3.org/TR/SVG/filters.html#FilterElement
+}}
+{{Topics|Graphics, SVG}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
 |MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|MSDN_link=
 |HTML5Rocks_link=
 }}
