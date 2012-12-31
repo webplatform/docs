@@ -4,6 +4,7 @@
 {{Basic Page}}
 ==Fundamentals==
 * [[tutorials/web_programming_essentials|Web programming essentials]]
+* [[tutorials/Testing_web_apps|Testing web apps]]
 * [[html/tutorials|HTML]]
 * [[css/tutorials|CSS]]
 * [[javascript/tutorials|JavaScript]]
