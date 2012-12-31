@@ -83,7 +83,7 @@ The following graphic illustrates how the input segments are mapped to the outpu
 |Language=Other
 |Description=[[File:blue70sfilterexample.png]]
 
-Example of a photo filter using a table component transfer.
+Example of a table component transfer. The input ranges are mapped onto continuous output ranges.
 |Code=<svg width="640" height="550" viewBox="0 0 640 550">
  
 <defs>
@@ -104,6 +104,33 @@ Example of a photo filter using a table component transfer.
                 
          
 </svg>​
+|LiveURL=http://jsfiddle.net/jsfmullany/rtD4A/
+}}{{Single Example
+|Language=Other
+|Description=[[File:70sposter.png]]
+
+Example of a discrete component transfer. The input ranges are mapped onto specific discrete output values.
+|Code=<svg width="640" height="550" viewBox="0 0 640 550">
+ 
+<defs>
+    <filter id="Poster70s" filterUnits="objectBoundingBox" 
+            x="0%" y="0%" width="100%" height="100%">
+      <feComponentTransfer in="SourceGraphic" result="A">
+        <feFuncR type="discrete" tableValues="0.0 1.0 1.0 1.0"/>
+        <feFuncG type="discrete" tableValues="0.0 0.5 0.5 0.9"/>
+        <feFuncB type="discrete" tableValues="0.0 0.6"/>
+      </feComponentTransfer>    
+</filter>
+
+  </defs>
+         
+  <image x="10" y="10" width="280" height="350" preserveAspectRatio="true" xlink:href="http://upload.wikimedia.org/wikipedia/commons/8/82/Siberian-larch.jpg"/>
+         
+   <image x="310" y="10" width="280" height="350" preserveAspectRatio="true" filter="url(#Poster70s)" xlink:href="http://upload.wikimedia.org/wikipedia/commons/8/82/Siberian-larch.jpg"/>             
+                
+         
+</svg>​
+|LiveURL=http://jsfiddle.net/jsfmullany/LPnQ9/
 }}
 }}
 {{Notes_Section
@@ -113,8 +140,7 @@ It allows operations like brightness adjustment, contrast adjustment, color bala
 The <code>feFuncR</code>, <code>feFuncG</code>, <code>feFuncB</code>, and<code>feFuncA</code> elements can be children of the <code>feComponentTransfer</code> element. For more information, see [[svg/elements/feFuncR|'''SVGFEFuncRElement''']].
 The calculations are performed on non-premultiplied color values. If the input graphics consist of premultiplied color values, those values are automatically converted into non-premultiplied color values for this operation. (Note that the undoing and redoing of the premultiplication can be avoided if [[svg/elements/feFuncA|'''feFuncA''']] is the identity transform and all alpha values on the source graphic are set to 1.)
 |Import_Notes====Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}226062 Scalable Vector Graphics: Filter Effects], Section 15.25.5
+
 
 
 ===Members===
