@@ -235,7 +235,11 @@ The '''SVGFEComponentTransferElement''' object has these properties.
 |Safari_mobile_prefixed_supported=No
 |Safari_mobile_prefixed_version=
 }}
-|Notes_rows={{Compatibility Notes Row}}
+|Notes_rows={{Compatibility Notes Row
+|Browser=Safari 
+|Version=All versions
+|Note=Safari correctly honors <code>color-interpolation-filters="sRGB"</code> when that attribute is set on the filter primitive. (Chrome & firefox incorrectly honor this attribute when it is set on the filter element itself)
+}}
 }}
 {{See_Also_Section
 |Manual_sections====Related pages (MSDN)===
