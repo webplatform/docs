@@ -55,6 +55,9 @@ However, when websites, web technologies, or web tools are badly designed, they 
 
 <p>For a short introduction to three web accessibility issues (alternative text for images, keyboard input, and transcripts), see [http://www.w3.org/standards/webdesign/accessibility#examples What: Examples of Web Accessibility].</p>
 
+==ARIA==
+Being worked on.
+
 ==The components of web accessibility==
 
 The accessibility principles apply to the components introduced below. It is essential that the components of web development and interaction work together in order for the Web to be accessible to people with disabilities. The W3C Web Accessibility Initiative (WAI) provides guidelines that cover the accessibility requirements of the technical components.
