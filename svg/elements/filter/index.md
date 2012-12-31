@@ -178,6 +178,8 @@ Note: that when we use <code>userSpaceOnUse</code>, we calculate our filter and 
 
 Most filter attributes are animateable via animateElement, however performance in current desktop browsers (Dec 2012) is uneven. 
 
+Child elements of the Filter element - filter primitives - have two optional attributes that specify the color space within which color interpolation calculations are performed: <code>color-interpolation</code> and <code>color-interpolation-filters</code>. The default for the former is sRGB, and the default for the latter is linearRGB. "Non-intuitive" results from color manipulation operations can often be corrected by setting the value of one or other of these attributes to its non-default value. Please note that according to spec, these attributes should be set on the *individual filter primitives* and not on the filter element itself.
+
 If no other input is specified, but one is required, the first filter primitive within a filter will take a rasterized (bitmapped) version of the referring element as its input. Subsequent filter primitives that expect an input will take the output of the immediately preceding filter primitive as input. 
 
 In complex filters, it can become difficult to keep track (and debug) inputs and outputs if they are left implicit; and it is good practice to explicitly declare inputs and outputs for each primitive.
@@ -206,10 +208,10 @@ Lighting Effects:
 *fePointLight: provides a point light source for specular or diffuse lighting
 
 Combinations:
-feMerge: creates a simple overlya composite from multiple inputs (including previous filter inputs)
-feBlend: blends multiple inputs using color rules
-feComposite: blends multiple inputs using alpha values
-feTile: tiles input to output a pattern
+*feMerge: creates a simple overlya composite from multiple inputs (including previous filter inputs)
+*feBlend: blends multiple inputs using color rules
+*feComposite: blends multiple inputs using alpha values
+*feTile: tiles input to output a pattern
 |Notes====Remarks===
 Although SVG is a vector graphics technology, it is important to emphasize that SVG Filters perform *pixel-level* operations on all inputs (including SVG shapes) and produce rasterized (bitmapped) outputs at a specified level of resolution. Applying a 10x scale transform (for example) on an plain SVG curve that has been filtered at normal screen resolution will produce pixelated edges since the anti-aliasing of the original graphic has been converted to pixels by the filter and scaled up.
 
@@ -220,7 +222,7 @@ A filter element is never rendered directly. It is only referenced using the fil
 It is currently (Fall 2012) contemplated that in the future, SVG filters can be referenced via a [[CSS Filter]] and used to apply advanced effects to HTML elements.
 |Import_Notes====Syntax===
 ===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}226062 Scalable Vector Graphics: Filter Effects], Section 15.25.1
+* http://www.w3.org/TR/SVG/filters.html#FilterElement
 
 
 ===Members===
