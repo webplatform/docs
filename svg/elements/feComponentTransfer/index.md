@@ -1,9 +1,9 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|High-level issues=Missing Relevant Sections, Data Not Semantic
+|Content=Not Neutral, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|feComponentTransfer allows the independent manipulation of each color channel (including the alpha channel) in the input graphic.}}
 {{Markup_Element
@@ -11,17 +11,17 @@
 |Content=<code>feComponentTransfer</code> in combination with its child elements (feFuncR, feFuncG, feFuncB and feFuncA) allows the independent manipulation of each color channel of the input graphic. Five types of color manipulation are offered:
 
 * identity: sets the result pixel's color channel value equal to the input value
-* table: maps equal segments of each color channel to output ranges specified by a "tableValues" array 
+* table: maps equal segments of a color channel to output ranges specified by a "tableValues" array 
 * discrete: maps equal segments of a color channel to specific output values specified by a "tableValues" array
 * linear: applies a simple linear formula (intercept + slope*input) to each input pixel's color channel value
 * gamma: applies a gamma function (offset + amplitude*(input^exponent)) to each input pixel's color channel value
 
-All color channel values are *unitized* into the range 0 to 1 before being processed by the filter primitive regardless of what color unit system was used to specify the original color. This means, for example, that values for the gamma exponent >1 will produce darker results (e.g a mid-red input value of 0.5 when the exponent =2 will produce a dark red (.25).) while values for the gamma exponent  of <1 will lighten the result.
+All color channel values are *unitized* into the range [0 -> 1] before being processed by the filter primitive regardless of what color unit system was used to specify the original color. This means, for example, that values for the gamma exponent greater than 1 will produce darker results (e.g when the exponent is equal to 2 and the input value is equal to 0.5, the output value will be a dark red ( 0.5^2 =.25).) On the contrary,values for the gamma exponent  of less than 1 will lighten the result.
 
 By default, color-manipulation operations using feComponentTransfer take place in linearRGB color space. This may produce unwanted results. For example a color inversion may result in a pronounced shift toward lighter tones. If this is not desired, you may explicitly specify a value of "sRGB" for the optional attribute "color-interpolation-filters".
 
 ===Table and Discrete Component Transfers===
-While linear and gamma transfers are readily understandable, Table and Discrete transfers can cause confusion, particularly since the SVG specification text degenerates into pure math on these topics. However, the concepts are actually fairly straightforward. Let's take a simple example:
+While linear and gamma transfers are readily understandable, Table and Discrete transfers can cause confusion, particularly since the SVG specification text degenerates into pure math on these subjects. However, the concepts are actually fairly straightforward. Let's take a simple example:
 
 <syntaxhighlight lang="xml">
 <feComponentTransfer>
@@ -29,7 +29,7 @@ While linear and gamma transfers are readily understandable, Table and Discrete 
 </feComponentTransfer>
 </syntaxhighlight>
 
-Here, since there are 4 input values to the "tableValues" array, the primitive divides the input color channel (which remember has been unitized into values from 0 to 1) into 3 segments of pixels whose red values are:
+Here, since there are 4 input values to the "tableValues" array, the primitive divides the input color channel (which remember has been unitized into values from 0 to 1) into 3 equal segments whose value ranges are:
 
   0.00 ... 0.33
   0.33 ... 0.66
@@ -41,7 +41,7 @@ then it maps those input ranges into the ranges specified in tableValues:
   0.70 ... 0.90  
   0.90 ... 1.00
 
-For example, an input pixel whose red value is 0.5 - the midpoint of the second input range (0.33 to 0.66) - would be mapped to the midpoint of the second output range (0.70 to 0.90), resulting in an output value of 0.80.
+For example, an input pixel whose red value is 0.5 - the midpoint of the second input range (0.33 to 0.66) - is mapped to the midpoint of the second output range (0.70 to 0.90), resulting in an output value of 0.80.
 
 The following graphic illustrates how the input segments are mapped to the output segments. 
 
