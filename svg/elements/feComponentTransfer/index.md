@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|feComponentTransfer allows the independent manipulation of each color channel (including the alpha channel) in the input graphic. }}
+{{Summary_Section|feComponentTransfer allows the independent manipulation of each color channel (including the alpha channel) in the input graphic.}}
 {{Markup_Element
 |DOM_interface=svg/objects/SVGComponentTransferElement
 |Content=<code>feComponentTransfer</code> in combination with its child elements (feFuncR, feFuncG, feFuncB and feFuncA) allows the independent manipulation of each color channel of the input graphic. Five types of color manipulation are offered:
@@ -45,6 +45,7 @@ For example, an input pixel whose red value is 0.5 - the midpoint of the second 
 
 A graphical example of the operation would look like this:
 
+[[File:tabletransfer.png]]
 }}
 {{Examples_Section
 |Not_required=No
