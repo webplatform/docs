@@ -1,25 +1,62 @@
+{{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|High-level issues=Missing Relevant Sections, Data Not Semantic, Unreviewed Import
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section|feComponentTransfer allows the independent manipulation of each color channel (including the alpha channel) in the input graphic. }}
 {{Markup_Element
-|DOM_interface=svg/objects/SVGElement
+|DOM_interface=svg/objects/SVGComponentTransferElement
+|Content=<code>feComponentTransfer</code> in combination with its child elements (feFuncR, feFuncG, feFuncB and feFuncA) allows the independent manipulation of each color channel of the input graphic. Five types of color manipulation are offered:
+
+* identity: sets the result pixel's color channel value equal to the input value
+* table: maps equal segments of each color channel to output ranges specified by a "tableValues" array 
+* discrete: maps equal segments of a color channel to specific output values specified by a "tableValues" array
+* linear: applies a simple linear formula (intercept + slope*input) to each input pixel's color channel value
+* gamma: applies a gamma function (offset + amplitude*(input^exponent)) to each input pixel's color channel value
+
+All color channel values are *unitized* into the range 0 to 1 before being processed by the filter primitive regardless of what color unit system was used to specify the original color. This means, for example, that values for the gamma exponent >1 will produce darker results (e.g a mid-red input value of 0.5 when the exponent =2 will produce a dark red (.25).) while values for the gamma exponent  of <1 will lighten the result.
+
+By default, color-manipulation operations using feComponentTransfer take place in linearRGB color space. This may produce unwanted results. For example a color inversion may result in a pronounced shift toward lighter tones. If this is not desired, you may explicitly specify a value of "sRGB" for the optional attribute "color-interpolation-filters".
+
+===Table and Discrete Component Transfers===
+While linear and gamma transfers are readily understandable, Table and Discrete transfers can cause confusion, particularly since the SVG specification text degenerates into pure math on these topics. However, the concepts are actually fairly straightforward. Let's take a simple example:
+
+<syntaxhighlight lang="xml">
+<feComponentTransfer>
+<feFuncR type="table" tableValues="0.0 0.7 0.9 1.0"/>
+</feComponentTransfer>
+</syntaxhighlight>
+
+Here, since there are 4 input values to the "tableValues" array, the primitive divides the input color channel (which remember has been unitized into values from 0 to 1) into 3 segments of pixels whose red values are:
+
+  0.00 ... 0.33
+  0.33 ... 0.66
+  0.66 ... 1.00
+
+then it maps those input ranges into the ranges specified in tableValues:
+
+  0.00 ... 0.70
+  0.70 ... 0.90  
+  0.90 ... 1.00
+
+For example, an input pixel whose red value is 0.5 - the midpoint of the second input range (0.33 to 0.66) - would be mapped to the midpoint of the second output range (0.70 to 0.90), resulting in an output value of 0.80.
+
+A graphical example of the operation would look like this:
+
 }}
-{{Topics|SVG}}
 {{Examples_Section
 |Not_required=No
-|Examples=}}
+|Examples=
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 This filter primitive performs component-wise remapping of data as follows for every pixel:
 It allows operations like brightness adjustment, contrast adjustment, color balance, or thresholding.
 The <code>feFuncR</code>, <code>feFuncG</code>, <code>feFuncB</code>, and<code>feFuncA</code> elements can be children of the <code>feComponentTransfer</code> element. For more information, see [[svg/elements/feFuncR|'''SVGFEFuncRElement''']].
 The calculations are performed on non-premultiplied color values. If the input graphics consist of premultiplied color values, those values are automatically converted into non-premultiplied color values for this operation. (Note that the undoing and redoing of the premultiplication can be avoided if [[svg/elements/feFuncA|'''feFuncA''']] is the identity transform and all alpha values on the source graphic are set to 1.)
-|Import_Notes=
-===Syntax===
+|Import_Notes====Syntax===
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}226062 Scalable Vector Graphics: Filter Effects], Section 15.25.5
 
@@ -55,17 +92,26 @@ The '''SVGFEComponentTransferElement''' object has these properties.
 |Gets or sets the y-coordinate value.
 |}
  
-
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 *<code>[[svg/elements/feFuncR|SVGFEFuncRElement]]</code>
 }}
+{{Topics|SVG}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
