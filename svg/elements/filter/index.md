@@ -91,7 +91,7 @@ By default, the units and coodinate system for the filter effects region (x,y,wi
 But you may also specify the units and coordinates by setting the <code>filterUnits</code> property. The two alternatives are "objectBoundingBox" (the default which we're just described) or "userSpaceOnUse". userSpaceOnUse sets the filter units and the coordinate system to the canvas of the referencing element, or in SVG terms, the "userSpaceOnUse".
 
 ====primitiveUnits====
-In addition to the unit system for the filter itself, you may also specify the unit system that the filter's child filter primitives will use. Once again, the choice is between userSpaceOnUse and objectBoundingBox. These effect the 0,0 coordinates and the unit values for the filter primitives i the same way as for filterUnits.
+In addition to the unit system for the filter itself, you may also specify the unit system that the filter's child filter primitives will use. Once again, the choice is between userSpaceOnUse and objectBoundingBox. These effect the 0,0 coordinates and the unit values for the filter primitives in the same way as for filterUnits.
 
 In the example below, we set the unit systems of both the filter and filter primitives to the four combinations possible for userSpaceOnUse and objectBoundingBox, while achieving the same filter effect. Here, we use an <code><[[feFlood]]></code> primitive to generate a rectangular color field that is offset from its referencing element. Then we use <code><[[feMerge]]></code> to combine the feFlood with the original element (the <code>SourceGraphic</code>. 
 
