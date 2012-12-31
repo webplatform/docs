@@ -5,10 +5,29 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|feComponentTransfer allows the independent manipulation of each color channel (including the alpha channel) in the input graphic.}}
+{{Summary_Section|feComponentTransfer is a filter primitive which allows the independent manipulation of each color channel (including the alpha channel) in the input graphic. It is always a child element of a <filter > element and is the parent of child elements (feFuncR, feFuncG, feFuncB and feFuncA) that perform each color channel manipulation.}}
 {{Markup_Element
 |DOM_interface=svg/objects/SVGComponentTransferElement
-|Content=<code>feComponentTransfer</code> in combination with its child elements (feFuncR, feFuncG, feFuncB and feFuncA) allows the independent manipulation of each color channel of the input graphic. Five types of color manipulation are offered:
+|Content=<code>feComponentTransfer</code> in combination with its child elements (feFuncR, feFuncG, feFuncB and feFuncA) allows the independent manipulation of each color channel of the input graphic. 
+
+Attributes:
+
+* in (optional): specifies the input graphic. If "in" is ommitted; and feComponentTransfer is the first primitive in a filter, the default value is SourceGraphic. Otherwise, the immediately preceding primitive's result is used as input. Permitted values for "in" are described below.
+* result (optional): creates a reference for the primitive's result that other primitives can use as the value of their "in" attribute.
+* color-interpolation-filters (optional): permitted values are "linearRGB" (default) and "sRGB".
+* x, y, width, height (optional): default to the size of the parent filter region.
+
+Like all filter primitives that accept an input, feComponentTransfer can accept the following values as input via the "in" attribute.
+
+* SourceGraphic: the target element(image, shape, group etc.) that references the filter
+* SourceAlpha: a graphic containing just the alpha channel of the target element.
+* BackgroundImage: the canvas beneath the SourceGraphic (requires a correctly specified "enable-background" attribute. (limited browser support as of Dec '12)
+* BackgroundAlpha: the alpha channel of the canvas beneath the SourceGraphic (requires a correctly specified "enable-background" attribute. Limited browser support as of Dec '12)
+* FillPaint: a pseudo-graphic equal to the size of the filter region filled with the fill property of the target element (limited browser support as of Dec '12)
+* StrokePaint: a pseudo-graphic equal to the size of the filter region filled with the stroke property of the target element (limited browser support as of Dec '12)
+* Primitive reference: the "result" of another primitive.
+
+feComponentTransfer offers five types of color manipulations:
 
 * identity: sets the result pixel's color channel value equal to the input value
 * table: maps equal segments of a color channel to output ranges specified by a "tableValues" array 
@@ -16,12 +35,12 @@
 * linear: applies a simple linear formula (intercept + slope*input) to each input pixel's color channel value
 * gamma: applies a gamma function (offset + amplitude*(input^exponent)) to each input pixel's color channel value
 
-All color channel values are *unitized* into the range [0 -> 1] before being processed by the filter primitive regardless of what color unit system was used to specify the original color. This means, for example, that values for the gamma exponent greater than 1 will produce darker results (e.g when the exponent is equal to 2 and the input value is equal to 0.5, the output value will be a dark red ( 0.5^2 =.25).) On the contrary,values for the gamma exponent  of less than 1 will lighten the result.
+All color channel values are *unitized* into the range [0 -> 1] before being processed by the filter primitive regardless of the color unit system in use. This means, for example, that values for the gamma exponent greater than 1 will produce darker results (e.g when the exponent is equal to 2 and the input value is equal to 0.5, the output value will be a dark red ( 0.5^2 =.25).) In contrast, values for the gamma exponent of less than 1 will lighten the result.
 
 By default, color-manipulation operations using feComponentTransfer take place in linearRGB color space. This may produce unwanted results. For example a color inversion may result in a pronounced shift toward lighter tones. If this is not desired, you may explicitly specify a value of "sRGB" for the optional attribute "color-interpolation-filters".
 
 ===Table and Discrete Component Transfers===
-While linear and gamma transfers are readily understandable, Table and Discrete transfers can cause confusion, particularly since the SVG specification text degenerates into pure math on these subjects. However, the concepts are actually fairly straightforward. Let's take a simple example:
+While linear and gamma transfers are readily understandable, Table and Discrete transfers are more complicated. Below is an example fo a table transfer.
 
 <syntaxhighlight lang="xml">
 <feComponentTransfer>
@@ -29,25 +48,25 @@ While linear and gamma transfers are readily understandable, Table and Discrete 
 </feComponentTransfer>
 </syntaxhighlight>
 
-Here, since there are 4 input values to the "tableValues" array, the primitive divides the input color channel (which remember has been unitized into values from 0 to 1) into 3 equal segments whose value ranges are:
+Here, since there are n=4 values in the "tableValues" array, the input color channel is divided into 3 (n-1) equal ranges whose start and end values are:
 
   0.00 ... 0.33
   0.33 ... 0.66
   0.66 ... 1.00
 
-then it maps those input ranges into the ranges specified in tableValues:
+Values in these ranges are then evenly mapped into the ranges specified in tableValues, which are:
 
   0.00 ... 0.70
   0.70 ... 0.90  
   0.90 ... 1.00
 
-For example, an input pixel whose red value is 0.5 - the midpoint of the second input range (0.33 to 0.66) - is mapped to the midpoint of the second output range (0.70 to 0.90), resulting in an output value of 0.80.
+For example, an input pixel whose red value is 0.5 - the midpoint of the second input range (0.33 to 0.66) - is mapped to the midpoint of the second output range (0.70 to 0.90), resulting in an output value for that pixel of 0.80.
 
-The following graphic illustrates how the input segments are mapped to the output segments. 
+The following graphic illustrates how the input ranges are mapped to the output ranges in this example. 
 
 [[File:tabletransfer.png]]
 
-Note that the start and end values for the input segments (and their number) are automatically calculated based on the number of values in "tableValues". For example, if tableValues had eleven values, then the input ranges are automatically set at (0.0 -> 0.1, 0.1 -> 0.2 all the way to 0.9 -> 1.0.) There is no capability in SVG 1.1 to customize the start and end values of input ranges.
+Note that the start and end values for the input ranges(and their number) are automatically calculated based on the number of values in "tableValues". For example, if tableValues had eleven values, then the input ranges would be calculated as (0.0 -> 0.1, 0.1 -> 0.2 etc. through 0.9 -> 1.0.) There is no capability in SVG 1.1 to customize the start and end values of input ranges.
 
 A similar example for the discrete transfer is as follows:
 
@@ -57,7 +76,7 @@ A similar example for the discrete transfer is as follows:
 </feComponentTransfer>
 </syntaxhighlight>
 
-This time, since there are 4 input values to the "tableValues" array, the primitive divides the input color channel into 4 equal segments whose value ranges are:
+This time, since there are 4 input values to the "tableValues" array, the primitive divides the input color channel into 4 equal ranges whose start and end values are:
 
   0.00 ... 0.25
   0.25 ... 0.50
@@ -71,7 +90,7 @@ then it maps those input ranges onto the specific values provided by the tableVa
   0.00  
   1.00
 
-For example, an input pixel whose red value is 0.375 - the midpoint of the second input range (0.25 to 0.50) - would be mapped to the second array value of 0.70.
+For example, an input pixel whose red value is 0.375 - the midpoint of the second input range (0.25 to 0.50) - would be mapped to the second value in the output array: 0.70.
 
 The following graphic illustrates how the input segments are mapped to the output segments in a discrete transfer. 
 
