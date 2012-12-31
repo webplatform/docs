@@ -100,9 +100,8 @@ Example of a table component transfer. The input ranges are mapped onto continuo
          
   <image x="10" y="10" width="280" height="350" preserveAspectRatio="true" xlink:href="http://upload.wikimedia.org/wikipedia/commons/8/82/Siberian-larch.jpg"/>
          
-   <image x="310" y="10" width="280" height="350" preserveAspectRatio="true" filter="url(#Blue70s)" xlink:href="http://upload.wikimedia.org/wikipedia/commons/8/82/Siberian-larch.jpg"/>             
+  <image x="310" y="10" width="280" height="350" preserveAspectRatio="true" filter="url(#Blue70s)" xlink:href="http://upload.wikimedia.org/wikipedia/commons/8/82/Siberian-larch.jpg"/>             
                 
-         
 </svg>​
 |LiveURL=http://jsfiddle.net/jsfmullany/rtD4A/
 }}{{Single Example
@@ -126,36 +125,10 @@ Example of a discrete component transfer. The input ranges are mapped onto speci
          
   <image x="10" y="10" width="280" height="350" preserveAspectRatio="true" xlink:href="http://upload.wikimedia.org/wikipedia/commons/8/82/Siberian-larch.jpg"/>
          
-   <image x="310" y="10" width="280" height="350" preserveAspectRatio="true" filter="url(#Poster70s)" xlink:href="http://upload.wikimedia.org/wikipedia/commons/8/82/Siberian-larch.jpg"/>             
+  <image x="310" y="10" width="280" height="350" preserveAspectRatio="true" filter="url(#Poster70s)" xlink:href="http://upload.wikimedia.org/wikipedia/commons/8/82/Siberian-larch.jpg"/>             
                 
-         
 </svg>​
 |LiveURL=http://jsfiddle.net/jsfmullany/LPnQ9/
-}}{{Single Example
-|Language=Other
-|Description=[[File:70sposter.png]]
-
-Example of a discrete component transfer. The input ranges are mapped onto specific discrete output values.
-|Code=<svg width="640" height="550" viewBox="0 0 640 550">
- 
-<defs>
-    <filter id="Poster70s" filterUnits="objectBoundingBox" 
-            x="0%" y="0%" width="100%" height="100%">
-      <feComponentTransfer in="SourceGraphic" result="A">
-        <feFuncR type="discrete" tableValues="0.0 1.0 1.0 1.0"/>
-        <feFuncG type="discrete" tableValues="0.0 0.5 0.5 0.9"/>
-        <feFuncB type="discrete" tableValues="0.0 0.6"/>
-      </feComponentTransfer>    
-</filter>
-
-  </defs>
-         
-  <image x="10" y="10" width="280" height="350" preserveAspectRatio="true" xlink:href="http://upload.wikimedia.org/wikipedia/commons/8/82/Siberian-larch.jpg"/>
-         
-   <image x="310" y="10" width="280" height="350" preserveAspectRatio="true" filter="url(#Poster70s)" xlink:href="http://upload.wikimedia.org/wikipedia/commons/8/82/Siberian-larch.jpg"/>             
-                
-         
-</svg>​
 }}
 }}
 {{Notes_Section
