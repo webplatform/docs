@@ -47,17 +47,17 @@ The following graphic illustrates how the input segments are mapped to the outpu
 
 [[File:tabletransfer.png]]
 
-Note that the start and end values for the input segments (and their number) are automatically calculated based on the *number of values* that you provide in "tableValues". If you provide eleven values in tableValues, then the input ranges are automatically set at (0-.1, .1-.2 etc.) There is no capability in SVG 1.1 to customize the start and end values for input ranges.
+Note that the start and end values for the input segments (and their number) are automatically calculated based on the number of values in "tableValues". For example, if tableValues had eleven values, then the input ranges are automatically set at (0.0 -> 0.1, 0.1 -> 0.2 all the way to 0.9 -> 1.0.) There is no capability in SVG 1.1 to customize the start and end values of input ranges.
 
-A similar example for the discrete transfer would work as follows.
+A similar example for the discrete transfer is as follows:
 
 <syntaxhighlight lang="xml">
 <feComponentTransfer>
-<feFuncR type="discrete" tableValues="0.0 0.7 0.00 1.0"/>
+<feFuncR type="discrete" tableValues="0.0 0.7 0.0 1.0"/>
 </feComponentTransfer>
 </syntaxhighlight>
 
-This time, since there are 4 input values to the "tableValues" array, the primitive divides the input color channel into *4* segments of pixels whose red values are:
+This time, since there are 4 input values to the "tableValues" array, the primitive divides the input color channel into 4 equal segments whose value ranges are:
 
   0.00 ... 0.25
   0.25 ... 0.50
