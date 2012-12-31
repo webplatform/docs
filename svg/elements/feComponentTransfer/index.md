@@ -79,7 +79,32 @@ The following graphic illustrates how the input segments are mapped to the outpu
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=Other
+|Description=[[File:blue70sfilterexample.png]]
+
+Example of a photo filter using a table component transfer.
+|Code=<svg width="640" height="550" viewBox="0 0 640 550">
+ 
+<defs>
+    <filter id="Blue70s" filterUnits="objectBoundingBox" 
+            x="0%" y="0%" width="100%" height="100%">
+      <feComponentTransfer in="SourceGraphic" result="A">
+        <feFuncR type="table" tableValues="0 0.11 0.22 0.34 0.48 0.61 0.72 0.82 0.89 0.95 1"/>
+        <feFuncG type="table" tableValues="0 0.08 0.16 0.26 0.38 0.5 0.62 0.73 0.82 0.87 0.9"/>
+        <feFuncB type="table" tableValues="0.2 0.34 0.45 0.53 0.58 0.61 0.64 0.71 0.84 1 "/>
+      </feComponentTransfer>    
+</filter>
+
+  </defs>
+         
+  <image x="10" y="10" width="280" height="350" preserveAspectRatio="true" xlink:href="http://upload.wikimedia.org/wikipedia/commons/8/82/Siberian-larch.jpg"/>
+         
+   <image x="310" y="10" width="280" height="350" preserveAspectRatio="true" filter="url(#Blue70s)" xlink:href="http://upload.wikimedia.org/wikipedia/commons/8/82/Siberian-larch.jpg"/>             
+                
+         
+</svg>​
+}}
 }}
 {{Notes_Section
 |Notes====Remarks===
