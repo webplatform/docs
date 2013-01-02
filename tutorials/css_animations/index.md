@@ -19,11 +19,11 @@ To get the most from this tutorial, you should already be familiar
 with [[tutorials/css_transitions|CSS transitions]]. Since they work
 similarly, the term ''CSS animations'' often serves as a shorthand to
 refer to transitions as well, but this tutorial only discusses
-''keyframe animations''. It discusses these basic points:
+''keyframe animations''. These key points serve as reference:
 
-* The [[css/properties/animation-name|'''animation-name''']] property specifies the name of a keyframe animation, and must correspond to a [[css/atrules/@keyframes|'''@keyframes''']] rule. Loading the CSS or applying a new name causes the animation to execute.
+* The required [[css/properties/animation-name|'''animation-name''']] property specifies the name of a keyframe animation, and must correspond to a [[css/atrules/@keyframes|'''@keyframes''']] rule. Loading the CSS or applying a new name causes the animation to execute.
 
-* Use the [[css/properties/animation-duration|'''animation-duration''']] property to set the overall amount of time over which the animation executes, either in seconds or millseconds ('''1s''' == '''1000ms''').
+* Use the required [[css/properties/animation-duration|'''animation-duration''']] property to set the overall amount of time over which the animation executes, either in seconds or millseconds ('''1s''' == '''1000ms''').
 
 * The [[css/atrules/@keyframes|'''@keyframes''']] rule declares the full sequence that corresponds to the [[css/properties/animation-name|'''animation-name''']]. Within the block, keyframes such as 0%, 50%, and 100% behave as selectors that manipulate CSS properties over the duration of the animation.
 
@@ -33,7 +33,7 @@ refer to transitions as well, but this tutorial only discusses
 
 * The [[css/properties/animation-direction|'''animation-direction''']] property allows you to play the animation in '''normal''' or ''reverse''' order, or '''alternate''' between the two for even/odd iterations.
 
-* [[css/properties/animation-fill-mode|'''animation-fill-mode''']] preserves an animation's start state before a delayed animation executes ('''backwards''')), its end state after its final iteration ('''forwards'''), or '''both'''.
+* The [[css/properties/animation-fill-mode|'''animation-fill-mode''']] property preserves an animation's start state before a delayed animation executes ('''backwards''')), its end state after its final iteration ('''forwards'''), or '''both'''.
 
 * Set [[css/properties/animation-play-state|'''animation-play-state''']] to '''pause''' or '''running''' to stop and start animations.
 
@@ -41,7 +41,7 @@ refer to transitions as well, but this tutorial only discusses
 
 * The [[css/properties/animation|'''animation''']] shorthand property can represent values from all other animation properties. If two time measurements are included, they are interpreted first as duration then as delay.
 
-* Use standard property names along with ''-webkit-'' prefixes. Use both the '''@keyframes''' rule and '''@-webkit-keyframes'''. From JavaScript, use standard properties such as '''animationName''' along with '''WebkitAnimationName'''.
+* Use standard property names along with ''-webkit-'' prefixes. Specify both the '''@keyframes''' rule and '''@-webkit-keyframes'''. From JavaScript, specify standard properties such as '''animationName''' along with '''WebkitAnimationName'''.
 
 * Use comma-separated property values to specify more than one animation. Animations that run concurrently cannot manipulate any of the same properties.
 
@@ -437,7 +437,7 @@ repeated:
  REPLAY&lt;/div>
  
  &lt;div
-    onmousedown="document.querySelector('#animation').style.WebkitAnimationName = '';"
+    onmousedown="document.querySelector('#animation').style.WebkitAnimationName = \'\';"
     onmouseup="document.querySelector('#animation').style.WebkitAnimationName = 'sequence';"
  >REPLAY&lt;/div>
 
