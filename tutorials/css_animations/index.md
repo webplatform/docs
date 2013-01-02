@@ -45,6 +45,8 @@ refer to transitions as well, but this tutorial only discusses
 
 * Use comma-separated property values to specify more than one animation. Animations that run concurrently cannot manipulate any of the same properties.
 
+* To modify [[css/atrules/@keyframes|'''@keyframes''']] rules dynamically, inject CSS into a local '''style''' region, or use the [[css/cssom/CSSKeyframeRule|'''CSSKeyframeRule''']] interface.
+
 ==Animation properties==
 
 To understand how animations work, start with an example of a pulsing
@@ -418,11 +420,16 @@ need to add alternative ''Webkit''-prefixed property names:
      }
  }
 
+Once an animation starts to execute, setting the
+[[css/properties/animation-play-state|'''animation-play-state''']]
+property to '''pause''' stops it, and a value of '''running''' resumes
+it.
+
 To dynamically initiate an animation, specify a different name. In
-this example, applying an ''animate'' class changes the
+this example, applying an ''animate'' class overrides the
 [[css/properties/animation-name|'''animation-name''']] property's
 default value, which is an empty string. The ''sequence'' animation
-executes each time the class is applied:
+executes each time the class is applied after having been absent:
 
  div         { -webkit-animation-name: '';       }
  div.animate { -webkit-animation-name: sequence; }
@@ -431,13 +438,13 @@ Once the ''animate'' class is applied, simply reapplying it has no
 effect, because the animation's name has to actualy change its
 value. The same is true when applying the property directly to the
 element. The first button below only works once, but the second can be
-repeated:
+repeated because it responds to asynchronous mouse or touch input:
 
  &lt;div onclick="document.querySelector('#animation').style.WebkitAnimationName = 'sequence';">
  REPLAY&lt;/div>
  
  &lt;div
-    onmousedown="document.querySelector('#animation').style.WebkitAnimationName = \'\';"
+    onmousedown="document.querySelector('#animation').style.WebkitAnimationName = ' ';"
     onmouseup="document.querySelector('#animation').style.WebkitAnimationName = 'sequence';"
  >REPLAY&lt;/div>
 
@@ -445,7 +452,9 @@ As a workaround, you can inject CSS into a local '''style''' region.
 Re-interpreting the CSS causes the animation to re-execute:
 
  &lt;style id="customCSS">&lt;/style>
+ . . .
  &lt;div onclick="replay()">REPLAY&lt;/div>
+ . . .
  &lt;script>
  function replay() {
      document.querySelector('#customCSS').textContent = 
@@ -453,23 +462,40 @@ Re-interpreting the CSS causes the animation to re-execute:
  }
  &lt;/script>
 
-Once an animation starts to execute, setting the
-[[css/properties/animation-play-state|'''animation-play-state''']]
-property to '''pause''' stops it, and a value of '''running''' resumes
-it.
+Applying a [[css/atrules/@keyframes|'''@keyframes''']] rule is a bit
+more complex than it is to set properties. Perhaps the easiest way is
+to inject the CSS into a '''style''' region in the same way as
+described above:
 
-...
+ var css = document.querySelector('#customCSS')
+ css.textContent += "@keyframes pulse { ";
+ css.textContent += "0% {transform:scale(1);opacity:1;} ";
+ css.textContent += "100% {transform:scale(0.75);opacity:0.25;} ";
+ css.textContent += "}";
 
-<!--
+A more formal API is available, especially to modify existing rules.
+Briefly, suppose this is your first declared style:
 
+ @keyframes shiftColor {
+    from { background-color: plum }
+    to { background-color: #ddd }
+ }
 
-* inject rule into style element, scoped or otherwise...
-* ...or programmatically
+Here is how you might change the initial color to a shade of gray:
 
+ var sources = document.styleSheets; // from link/style tags
+ var rules = sources[0].cssRules;    // list of all styles and at-rules
+ var rule = rules[0];                // get first
+ if( rule.type == rule.KEYFRAMES_RULE || rule.type == rule.WEBKIT_KEYFRAMES_RULE ) {
+     console.log(rule.name);         // shiftColor
+     console.log(rule[0].cssText);   // 0% { background-color: rgb(221, 160, 221); }
+     if ( rule[0].keyText == '0%' )  // 'from' converts to '0%'
+         rule[0].style.backgroundColor = '#aaa';
+     console.log(rule[0].cssText);   // 0% { background-color: rgb(170, 170, 170); }
+ }
 
-
-
--->
+See [[css/cssom/CSSKeyframeRule|'''CSSKeyframeRule''']] and
+[[css/cssom/CSSRule|'''CSSRule''']] for details.
 
 }}
 {{Notes_Section}}
