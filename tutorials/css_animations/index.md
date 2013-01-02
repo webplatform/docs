@@ -430,7 +430,7 @@ this example, applying an ''animate'' class overrides the
 default value, which is an empty string. The ''sequence'' animation
 executes each time the class is applied after having been absent:
 
- div         { -webkit-animation-name: '';       }
+ div         { -webkit-animation-name: "";       }
  div.animate { -webkit-animation-name: sequence; }
 
 Once the ''animate'' class is applied, simply reapplying it has no
