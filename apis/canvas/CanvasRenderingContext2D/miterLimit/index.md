@@ -8,7 +8,7 @@
 |Read_only=No
 |Example_object_name=CanvasRenderingContext2D
 |Javascript_data_type=Number
-|Return_value_description=When setting, values that are not finite values greater than zero are ignored.
+|Return_value_description=When setting, values that are not finite values greater than zero are ignored. Default is 10.0.
 }}
 {{Examples_Section
 |Not_required=Yes
