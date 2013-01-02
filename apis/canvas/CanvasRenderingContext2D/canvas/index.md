@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|A (read-only) reference to the ''canvas'' element that the [[apis/canvas/CanvasRenderingContext2D|CanvasRenderingContext2D]] object was created for.}}
+{{Summary_Section|A (read-only) reference to the ''canvas'' element that the CanvasRenderingContext2D object was created for.}}
 {{API_Object_Property
 |Property_applies_to=apis/canvas/CanvasRenderingContext2D
 |Read_only=Yes
