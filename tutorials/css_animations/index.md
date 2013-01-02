@@ -21,6 +21,35 @@ similarly, the term ''CSS animations'' often serves as a shorthand to
 refer to transitions as well, but this tutorial only discusses
 ''keyframe animations''.
 
+==Cheat Sheet==
+
+This tutorial should tell you all you need to know about animations.
+Here is a summary:
+
+* The [[css/properties/animation-name|'''animation-name''']] property specifies the name of a keyframe animation, and must correspond to a [[css/atrules/@keyframes|'''@keyframes''']] rule. Loading the CSS or applying a new name causes the animation to execute.
+
+* Use the [[css/properties/animation-duration|'''animation-duration''']] property to set the overall amount of time over which the animation executes, either in seconds or millseconds ('''1s''' == '''1000ms''').
+
+* The [[css/atrules/@keyframes|'''@keyframes''']] rule declares the full sequence that corresponds to the [[css/properties/animation-name|'''animation-name''']]. Within the block, keyframes such as 0%, 50%, and 100% behave as selectors that manipulate CSS properties over the duration of the animation.
+
+* Use [[css/properties/animation-delay|'''animation-delay''']] to pause before executing an animation, using the same time values as for duration.
+
+* The [[css/properties/animation-iteration-count|'''animation-iteration-count''']] property sets the number of times the animation plays, either as an integer or '''infinite'''.
+
+* The [[css/properties/animation-direction|'''animation-direction''']] property allows you to play the animation in '''normal''' or ''reverse''' order, or '''alternate''' between the two for even/odd iterations.
+
+* [[css/properties/animation-fill-mode|'''animation-fill-mode''']] preserves an animation's start state before a delayed animation executes ('''backwards''')), its end state after its final iteration ('''forwards'''), or '''both'''.
+
+* Set [[css/properties/animation-play-state|'''animation-play-state''']] to '''pause''' or '''running''' to stop and start animations.
+
+* The [[css/properties/animation-timing-function|'''animation-timing-function''']] property controls the speed of progression between each keyframe, and can be altered within an animation. It uses the same set of keywords as transitions: '''ease''', '''ease-in''', '''ease-out''', '''ease-in-out''', '''linear''', or custom '''cubic-bezier()''' functions.
+
+* The [[css/properties/animation|'''animation''']] shorthand property can represent values from all other animation properties. If two time measurements are included, they are interpreted first as duration then as delay.
+
+* Use standard property names along with ''-webkit-'' prefixes. Use both the '''@keyframes''' rule and '''@-webkit-keyframes'''. From JavaScript, use standard properties such as '''animationName''' along with '''WebkitAnimationName'''.
+
+* Use comma-separated property values to specify more than one animation. Animations that run concurrently cannot manipulate any of the same properties.
+
 ==Animation properties==
 
 To understand how animations work, start with an example of a pulsing
@@ -224,10 +253,10 @@ makes content shift down after 4 seconds. Here is the relevant CSS:
 
 The
 [[css/properties/animation-iteration-count|'''animation-iteration-count''']]
-property makes the animation execute only once. The next section
+property makes the animation execute only once. (The next section
 explains the
 [[css/properties/animation-fill-mode|'''animation-fill-mode''']]
-property.
+property.)
 
 The banner's first animation (''insertBanner'') closely mirrors that
 of the content (''displaceContent'') shown above. After 4 seconds, it
@@ -335,24 +364,111 @@ executes would override whatever the first animation does with the
 
 ==Timing functions==
 
-...
+The same set of timing functions that apply to transitions also apply
+to animations. (For details on these functions, see
+[[tutorials/css_transitions|Timing Functions]].)  The
+[[css/properties/animation-timing-function|'''animation-timing-function''']]
+property allows you to control the response curve for each keyframe's
+progress.  It recognizes keyword values '''ease''', '''ease-in''',
+'''ease-out''', '''ease-in-out''', '''linear''', along with
+'''cubic-bezier()''' functions for custom response curves.
+
+By default, the '''ease''' value starts each keyframe slowly, builds
+speed, then slows at the end, which is not always appropriate
+behavior.  In this example, a series of items, skewed to appear
+fast-moving, slide in haphazardly from the right edge of the screen,
+then hit a wall at the left edge and wobble to a stop:
 
 [[Image:animDelay.png]]
 
-<!--
-[[css/properties/animation-timing-function|'''animation-timing-function''']]
-* same as for transitions
-* can change function mid-execution
-* EXAMPLE: skew transform slide-in panels
--->
+Setting the timing function to '''linear''' makes the shift from a
+moving to a stopped state as abrupt as possible. This occurs at the
+70% keyframe:
 
-==Dynamic keyframes==
+ div {
+     animation-duration        : 0.5s;
+     animation-fill-mode       : both;
+     animation-iteration-count : 1;
+     animation-name            : fastSlide;
+     animation-timing-function : linear;
+     transform-origin          : bottom;
+ }
+ @keyframes fastSlide {
+     0%   { transform: translate(120%) skewX(-30deg) ; }
+     70%  { transform: translate(0%)   skewX(-30deg) ; }
+     80%  { transform: translate(0%)   skewX(20deg)  ; }
+     95%  { transform: translate(0%)   skewX(-10deg) ; }
+     100% { transform: translate(0%)   skewX(0deg)   ; }
+ }
+
+For greater control, you can even manipulate the value of the
+[[css/properties/animation-timing-function|'''animation-timing-function''']]
+property ''within'' each keyframe, so that it changes over the course
+of the animation.
+
+==Dynamic animations==
+
+The example above uses JavaScript to assign random delays to stagger
+each animation's execution. Any animation property can be set directly
+on an element's '''style''' object, but as of this writing you also
+need to add alternative ''Webkit''-prefixed property names:
+
+ window.onload = function() {
+     var delay, divs = document.querySelectorAll('div');
+     for (var i = 0, l = divs.length; i &lt; l; i++) {
+         // set delay up to 1 second:
+         delay  = Math.round(Math.random() * 1000) + 'ms';
+         divs[i].style.animationDelay = delay;
+         divs[i].style.WebkitAnimationDelay = delay;
+     }
+ }
+
+To dynamically initiate an animation, specify a different name. In
+this example, applying an ''animate'' class changes the
+[[css/properties/animation-name|'''animation-name''']] property's
+default value, which is an empty string. The ''sequence'' animation
+executes each time the class is applied:
+
+ div         { -webkit-animation-name: '';       }
+ div.animate { -webkit-animation-name: sequence; }
+
+Once the ''animate'' class is applied, simply reapplying it has no
+effect, because the animation's name has to actualy change its
+value. The same is true when applying the property directly to the
+element. The first button below only works once, but the second can be
+repeated:
+
+ &lt;div onclick="document.querySelector('#animation').style.WebkitAnimationName = 'sequence';">
+ REPLAY&lt;/div>
+ 
+ &lt;div
+    onmousedown="document.querySelector('#animation').style.WebkitAnimationName = '';"
+    onmouseup="document.querySelector('#animation').style.WebkitAnimationName = 'sequence';"
+ >REPLAY&lt;/div>
+
+As a workaround, you can inject CSS into a local '''style''' region.
+Re-interpreting the CSS causes the animation to re-execute:
+
+ &lt;style id="customCSS">&lt;/style>
+ &lt;div onclick="replay()">REPLAY&lt;/div>
+ &lt;script>
+ function replay() {
+     document.querySelector('#customCSS').textContent = 
+         "div { animation-name: 'sequence'; -webkit-animation-name: 'sequence' }";
+ }
+ &lt;/script>
+
+Once an animation starts to execute, setting the
+[[css/properties/animation-play-state|'''animation-play-state''']]
+property to '''pause''' stops it, and a value of '''running''' resumes
+it.
 
 ...
 
 <!--
-* [[css/properties/animation-play-state|'''animation-play-state''']]
-* inject into style element, scoped or otherwise...
+
+
+* inject rule into style element, scoped or otherwise...
 * ...or programmatically
 
 
