@@ -1,10 +1,9 @@
 {{Page_Title|Making things move with CSS3 animations}}
 {{Flags
+|High-level issues=Stub
 |Editorial notes=[[User:Sierra]] has content intended for this page. See bug [https://www.w3.org/Bugs/Public/show_bug.cgi?id=20410 #20410]
 }}
-{{Byline
-|Name=Mike Sierra
-}}
+{{Byline}}
 {{Summary_Section|CSS animations allow you to build complex animated
 sequences. Like [[tutorials/css_transitions|transitions]], they
 manipulate the CSS properties that control how interface elements
@@ -14,7 +13,9 @@ execute freely, and offer the best way to build complex effects into
 an interface.
 }}
 {{Tutorial
-|Content=To get the most from this tutorial, you should already be familiar
+|Content=
+
+To get the most from this tutorial, you should already be familiar
 with [[tutorials/css_transitions|CSS transitions]]. Since they work
 similarly, the term ''CSS animations'' often serves as a shorthand to
 refer to transitions as well, but this tutorial only discusses
@@ -485,8 +486,7 @@ Here is how you might change the initial color to a shade of gray:
  var sources = document.styleSheets; // from link/style tags
  var rules = sources[0].cssRules;    // list of all styles and at-rules
  var rule = rules[0];                // get first
- if( rule.type == rule.KEYFRAMES_RULE
-|rule_type== rule.WEBKIT_KEYFRAMES_RULE ) {
+ if( rule.type == rule.KEYFRAMES_RULE \p\p rule.type == rule.WEBKIT_KEYFRAMES_RULE ) {
      console.log(rule.name);         // shiftColor
      console.log(rule[0].cssText);   // 0% { background-color: rgb(221, 160, 221); }
      if ( rule[0].keyText == '0%' )  // 'from' converts to '0%'
@@ -494,8 +494,10 @@ Here is how you might change the initial color to a shade of gray:
      console.log(rule[0].cssText);   // 0% { background-color: rgb(170, 170, 170); }
  }
 
-See [[css/cssom/CSSKeyframeRule|'''CSSKeyframeRule''']] and
+See [[css/cssom/CSSKeyframesRule|'''CSSKeyframesRule''']],
+[[css/cssom/CSSKeyframeRule|'''CSSKeyframeRule''']] and
 [[css/cssom/CSSRule|'''CSSRule''']] for details.
+
 }}
 {{Notes_Section}}
 {{Compatibility_Section
