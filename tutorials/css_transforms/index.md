@@ -388,10 +388,10 @@ face the other way. As described below, you can rotate the entire
 card along with its children. In this case, with the backface hidden,
 only one of the child ''face'' elements displays at a time:
 
- &amp;lt;div class="card">
-   &amp;lt;div class="face" id="jackheart">&amp;lt;/div>
-   &amp;lt;div class="face">&amp;lt;/div>
- &amp;lt;/div>
+ &lt;div class="card">
+   &lt;div class="face" id="jackheart">&lt;/div>
+   &lt;div class="face">&lt;/div>
+ &lt;/div>
 
 [[Image:3d_backface.png]]
 
@@ -448,18 +448,18 @@ To clarify how to use this feature, this extended example builds a
 cube representing playing dice that can spin freely. The markup
 is implemented as a series of nested elements:
 
- &amp;lt;div class="scene">
-     &amp;lt;div class="dice">
-         &amp;lt;div class="centered">
-             &amp;lt;div class="face">&amp;lt;/div>
-             &amp;lt;div class="face">&amp;lt;/div>
-             &amp;lt;div class="face">&amp;lt;/div>
-             &amp;lt;div class="face">&amp;lt;/div>
-             &amp;lt;div class="face">&amp;lt;/div>
-             &amp;lt;div class="face">&amp;lt;/div>
-         &amp;lt;/div>
-     &amp;lt;/div>
- &amp;lt;/div>
+ &lt;div class="scene">
+     &lt;div class="dice">
+         &lt;div class="centered">
+             &lt;div class="face">&lt;/div>
+             &lt;div class="face">&lt;/div>
+             &lt;div class="face">&lt;/div>
+             &lt;div class="face">&lt;/div>
+             &lt;div class="face">&lt;/div>
+             &lt;div class="face">&lt;/div>
+         &lt;/div>
+     &lt;/div>
+ &lt;/div>
 
 Global styles define absolutely positioned 100-pixel-square boxes. The
 outlines will help clarify each nested transform:
