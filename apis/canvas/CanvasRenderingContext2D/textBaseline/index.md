@@ -9,13 +9,12 @@
 |Example_object_name=CanvasRenderingContext2D
 |Javascript_data_type=String
 |Return_value_description=Must be one of the following:
-* top - The top of the em square
-* hanging - The hanging baseline
-* middle - The middle of the em square
-* alphabetic - The alphabetic baseline (default)
-* ideographic - The ideographic baseline
-* bottom - The bottom of the em square
-
+* "top" - The top of the em square
+* "hanging" - The hanging baseline
+* "middle" - The middle of the em square
+* "alphabetic" - The alphabetic baseline (default)
+* "ideographic" - The ideographic baseline
+* "bottom" - The bottom of the em square
 }}
 {{Examples_Section
 |Not_required=Yes
