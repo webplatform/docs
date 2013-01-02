@@ -13,9 +13,7 @@
 |Not_required=Yes
 |Examples=
 }}
-{{Notes_Section
-|Notes=Any values of  the ''p''  parameter that are not CSS colors are ignored.
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=W3C HTML Canvas 2D Specification
