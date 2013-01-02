@@ -5,10 +5,10 @@
 }}
 {{Byline}}
 {{Summary_Section|CSS animations allow you to build complex animated
-sequences.  Like [[tutorials/css_transitions|transitions]], they
+sequences. Like [[tutorials/css_transitions|transitions]], they
 manipulate the CSS properties that control how interface elements
 appear. Unlike transitions, they are not tied to shifts between style
-sheets that distinguish interface states.  Keyframe animations can
+sheets that distinguish interface states. Keyframe animations can
 execute freely, and offer the best way to build complex effects into
 an interface.
 }}
@@ -16,17 +16,18 @@ an interface.
 |Content=
 
 To get the most from this tutorial, you should already be familiar
-with [[tutorials/css_transitions|CSS transitions]].  Since they work
+with [[tutorials/css_transitions|CSS transitions]]. Since they work
 similarly, the term ''CSS animations'' often serves as a shorthand to
 refer to transitions as well, but this tutorial only discusses
 ''keyframe animations''.
 
 ==Animation properties==
 
-To understand how animations work, start with a simple example of a
-pulsing icon, which may be used in a mobile interface to indicate what
-part of an application is selected. The animation continuously shrinks
-and grows one of the icons as it dims and brightens it.
+To understand how animations work, start with an example of a pulsing
+icon, which may be used in a mobile interface to indicate what part of
+an application is selected. The animation continuously shrinks and
+grows one of the icons as it dims and brightens it. This simple
+example will illustrate several other features below:
 
 [[Image:anim_pulse.png]]
 
@@ -52,7 +53,7 @@ shorthand that combines the values of others:
  }
 
 Animation properties are standard in many browsers, but as of this
-writing require prefixes for WebKit browsers and older versions of
+writing require prefixes for all WebKit browsers and older versions of
 Gecko and Opera. For widest support, you should define animation
 properties redundantly:
 
@@ -90,17 +91,18 @@ define each named animation sequence:
 The entire sequence between '''from''' and '''to''' executes over the
 span of time defined by the
 [[css/properties/animation-duration|'''animation-duration''']]
-property.  Each keyframe within the sequence behaves like a CSS
+property. Each keyframe within the sequence behaves like a CSS
 selector, manipulating the values of individual properties.
 In this case, [[css/properties/opacity|'''opacity''']] dims the icon
-and [[css/properties/transform|'''transform''']] shrinks it.  (See the
+and [[css/properties/transform|'''transform''']] shrinks it. (See the
 [[tutorials/css_transforms|tutorial on transforms]] for details on the
 [[css/properties/transform|'''transform''']] property's '''scale()'''
 function.)
 
-Along with animation properties, each
+As with animation properties, each
 [[css/atrules/@keyframes|'''@keyframes''']] rule also needs to be
-prefixed redundantly to run on WebKit-based browsers:
+prefixed redundantly to run on WebKit-based browsers such as Chrome
+and Safari. The transform properties below are also prefixed:
 
  @-webkit-keyframes pulse {
     0%   { -webkit-transform: scale(1)   ; opacity: 1;    }
@@ -123,7 +125,7 @@ This simple animation can also be alternated to produce the same effect:
  }
 
 The [[css/properties/animation-duration|'''animation-duration''']] is
-now half of its previous value.  Setting
+now half of its previous value. Setting
 [[css/properties/animation-direction|'''animation-direction''']] to
 '''alternate''' makes the animation execute in normal order
 ('''from'''/'''to'''), then in reverse order ('''to'''/'''from''') for
@@ -142,19 +144,19 @@ always '''reverse''', or to '''reverse-alternate'''.)
 ==Multiple animations==
 
 Animation properties accept more than one comma-delineated value,
-allowing you to chain together different animations or run them
+which allows you to chain together different animations or run them
 concurrently.
 
 This variation on the pulsing icon uses two keyframes to manipulate
 the [[css/properties/opacity|'''opacity''']] and
 [[css/properties/transform|'''transform''']] properties separately.
-Setting different durations makes the two effects fall out
-of phase:
+In this case, setting different durations makes the two ''fade'' and
+''shrink'' effects fall out of phase:
 
  div.selected {
      animation: fade 0.5s infinite alternate, shrink 0.53s infinite alternate;
  }
- /* long form */
+ /* long form: */
  div.selected {
      animation-name            : fade      , shrink    ;
      animation-duration        : 0.5s      , 0.53s     ;
@@ -169,32 +171,167 @@ of phase:
      from { transform : scale(1); }
      to   { transform : scale(0.75); }
  }
- 
-Make sure that any keyframes that execute concurrently don't share any
-of the same properties. (There is no problem animating the same
-property on different elements.)
+
+Make sure that any keyframes or transitions that execute concurrently
+don't manipulate any of the same properties. This is ''not'' a problem
+for animations or transitions applied to different elements.
 
 ==Setting a Delay==
 
-...
+As with transitions, animations can be delayed before they execute.
+Use the [[css/properties/animation-delay|'''animation-delay''']]
+property to wait some time before pulsing the icon:
 
-<!--
-[[css/properties/animation-delay|'''animation-delay''']]
-* simultaneous for different elements
-* can't animate (or transition) the same property at the same time
-* EXAMPLE: insertBanner, then cycleBanner
--->
+ div.selected {
+     animation-name            : pulse;
+     animation-duration        : 0.5s;
+     animation-iteration-count : 6;
+     animation-direction       : alternate;
+     animation-delay           : 3s;
+ }
+
+(In this version, the icon pulses three times.)
+
+Whenever two time measurements are specified in a shorthand property
+value, the second is interpreted as the delay:
+
+ div.selected {
+     animation : pulse 0.5s 3s infinite alternate;
+ }
+
+This more elaborate example shows a delayed animation within a mobile
+interface. After an initial pause, content shifts down to make room
+for a series of banner advertisements, which then continuously cycle
+horizontally and rewind to display the first:
+
+[[Image:anim_cycle.png]]
+
+To achieve this effect, the
+[[css/properties/animation-delay|'''animation-delay''']] property
+makes content shift down after 4 seconds. Here is the relevant CSS:
+
+ article {
+     animation-name            : displaceContent;
+     animation-duration        : 1s;
+     animation-delay           : 4s;
+     animation-iteration-count : 1;
+     animation-fill-mode       : forwards;
+ }
+ @keyframes displaceContent {
+     from { transform : translateY(0em) }
+     to   { transform : translateY(3em) } /* slide down to make room for advertisements */
+ }
+
+The
+[[css/properties/animation-iteration-count|'''animation-iteration-count''']]
+property makes the animation execute only once. The next section
+explains the
+[[css/properties/animation-fill-mode|'''animation-fill-mode''']]
+property.
+
+The banner's first animation (''insertBanner'') closely mirrors that
+of the content (''displaceContent'') shown above. After 4 seconds, it
+slides into view from off the screen:
+
+ header {
+     animation-name            : insertBanner , scrollBanner;
+     animation-duration        : 1s           , 25s;
+     animation-delay           : 4s           , 5s;
+     animation-iteration-count : 1            , infinite;
+     animation-fill-mode       : backwards    , none;
+     width                     : 500%;        /* wide banner featuring 5 panels */
+     column-count              : 5;
+     column-gap                : 0;
+ }
+ @keyframes insertBanner {
+     from { transform : translateY(-6em) } /* slide down from off-screen */
+     to   { transform : translateY(0em) }
+ }
+
+The banner's second animation (''scrollBanner'') takes over at the
+5-second mark, after the first has completed. Over the course of 25
+seconds, it shifts the banner sideways to view each advertisement for
+nearly 5 seconds. After rewinding to its initial position 97% of the
+way through the keyframes, setting
+[[css/properties/animation-iteration-count|'''animation-iteration-count''']]
+to '''infinite''' makes the animation replay indefinitely:
+
+ @keyframes scrollBanner {
+     from { transform : translateX(0) }
+     17%  { transform : translateX(0%) }
+     20%  { transform : translateX(-20%) }
+     37%  { transform : translateX(-20%) }
+     40%  { transform : translateX(-40%) }
+     57%  { transform : translateX(-40%) }
+     60%  { transform : translateX(-60%) }
+     77%  { transform : translateX(-60%) }
+     80%  { transform : translateX(-80%) }
+     97%  { transform : translateX(-80%) }
+     to   { transform : translateX(0%) }
+ }
 
 ==Fill mode==
 
-...
+Each keyframe within an animation specifies CSS properties, just like
+regular CSS selectors. Properties manipulated by keyframes may vary
+from those defined or inherited by selectors. By default, after
+animations complete their series of iterations, these properties
+abruptly snap from the final keyframe's value back to their original
+value. Likewise when animations are delayed, properties snap from
+their original values to that of the first keyframe's value.
 
-<!--
-* [[css/properties/animation-fill-mode|'''animation-fill-mode''']]
-* animations override style sheets
-* fill-mode overrides prior to or following animation's execution
-* EXAMPLE: insertBanner persists after executing
--->
+The [[css/properties/animation-fill-mode|'''animation-fill-mode''']]
+property fixes this problem. Setting it to '''forwards''' makes the
+final keyframe's property values persist after the animation
+completes. Setting it to '''backwards''' makes the first keyframe's
+property override how the property would appear without the
+animation. Setting it to '''both''' makes the keyframe's properties
+override the element's default properties both before and after the
+animation executes. Setting it to the default value of '''none'''
+keeps all properties at their default values unless the animation is
+executing.
+
+Note that none of these values make any difference for animations
+whose [[css/properties/animation-delay|'''animation-delay''']] is set
+to zero, and whose
+[[css/properties/animation-iteration-count|'''animation-iteration-count''']]
+is '''infinite'''. Even then, they only make a difference for
+properties whose values specified at the start or end of the animation
+vary from how they are already specified by the element itself.
+
+The banner animation shown above gives an example of how to use
+[[css/properties/animation-fill-mode|'''animation-fill-mode''']].  By
+default, both the banner and the main content inhabit the same space
+at the top of the screen. The content's ''displaceContent'' animation
+slides it out of its default position, and its fill-mode of
+'''forwards''' keeps it there after it is done sliding. If it didn't,
+it would snap right back to the top of screen. Likewise, the banner's
+''insertBanner'' animation slides it from a position specified in the
+first keyframe, and its fill-mode of '''backwards''' keeps it there
+before the delayed animation starts to execute, and it slides down to
+its default position.
+
+Fill mode can override not only an element's underlying properties,
+but other animations as well.  For the banner's second animation, the
+[[css/properties/animation-fill-mode|'''animation-fill-mode''']] is
+set to '''none'''. If it were set to '''both''' or '''backwards''',
+the first animation would not execute. Since animations are
+interpreted in their order of declaration, and since both animations
+manipulate the [[css/properties/transform|'''transform''']] property,
+specifying a fill-mode for the period before the second animation
+executes would override whatever the first animation does with the
+'''transform''' property:
+
+ header {
+     /* both animations alter the 'transform' property: */
+     animation-name            : insertBanner     , scrollBanner;
+     /* animations execute in sequence: */
+     animation-delay           : 4s               , 5s;
+     animation-duration        : 1s               , 25s;
+     animation-iteration-count : 1                , infinite;
+     animation-fill-mode       : backwards        , none;
+     /* 'none' does not clobber previous animation: ^^^^ */
+ }
 
 ==Timing functions==
 
@@ -216,7 +353,7 @@ property on different elements.)
 * inject into style element, scoped or otherwise...
 * ...or programmatically
 
-[[css/properties/animation-iteration-count|'''animation-iteration-count''']]
+
 
 
 -->
