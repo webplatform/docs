@@ -8,6 +8,7 @@
 |Read_only=No
 |Example_object_name=CanvasRenderingContext2D
 |Javascript_data_type=Object
+|Return_value_description=Default is black.
 }}
 {{Examples_Section
 |Not_required=Yes
