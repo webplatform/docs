@@ -1,34 +1,39 @@
-{{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
-}}
-{{Standardization_Status|}}
+{{Page_Title}}
+{{Flags}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
+{{Summary_Section|The current canvas context font and characteristics, in the manner of the CSS ''font'' property.}}
 {{API_Object_Property
-|Property_applies_to=canvas/objects/CanvasRenderingContext2D
-|Read_only=
+|Property_applies_to=apis/canvas/CanvasRenderingContext2D
+|Read_only=No
+|Example_object_name=CanvasRenderingContext2D
+|Javascript_data_type=String
+|Return_value_description=The font string can consist of any CSS font description and is analogous to the CSS ''font'' property. The default font is <code>10px sans-serif</code>. Values that are not CSS font values are ignored.
 }}
-{{Topics|DOM}}
-{{Notes_Section
-|Notes=
-===Remarks===
-The font string can consist of any [http://go.microsoft.com/fwlink/p/?LinkID{{=}}197161 CSS font] and is analogous to the CSS font property. The default font for a canvas context is <code>10px sans-serif</code>. Values that are not CSS font values are ignored.
-|Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}197019 HTML Canvas 2D Context], Section 11
-
-
+{{Examples_Section
+|Not_required=Yes
+|Examples=
 }}
-{{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
-*<code>[[canvas/objects/CanvasRenderingContext2D|CanvasRenderingContext2D]]</code>
+{{Notes_Section}}
+{{Related_Specifications_Section
+|Specifications={{Related Specification
+|Name=W3C HTML Canvas 2D Specification
+|URL=http://www.w3.org/TR/2012/CR-2dcontext-20121217/
+|Status=W3C Candidate Recommendation
 }}
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section}}
+{{Topics|Canvas}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=
 |HTML5Rocks_link=
 }}
