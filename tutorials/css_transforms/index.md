@@ -26,6 +26,8 @@ These key points serve as reference:
 
 * 2D functions include [[css/functions/translate()|'''translate()''']], [[css/functions/scale()|'''scale()''']], [[css/functions/rotate()|'''rotate()''']], and [[css/functions/skew()|'''skew()''']].
 
+* The [[css/functions/translate()|'''translate()''']] function accepts standard CSS measurements; [[css/functions/scale()|'''scale()''']] accepts a decimal value between 0 and 1; both [[css/functions/rotate()|'''rotate()''']] and [[css/functions/skew()|'''skew()''']] specify radial '''deg''' or '''rad''' measurements.
+
 * Individual functions are available for ''x''/''y'' axes: [[css/functions/translateX()|'''translateX()''']], [[css/functions/translateY()|'''translateY()''']], [[css/functions/scaleX()|'''scaleX()''']], [[css/functions/scaleY()|'''scaleY()''']], [[css/functions/skewX()|'''skewX()''']], and [[css/functions/skewY()|'''skewY()''']]
 
 * Combined 2D transforms can be represented with the [[css/functions/matrix()|'''matrix()''']] function, which uses 6 parameters.
