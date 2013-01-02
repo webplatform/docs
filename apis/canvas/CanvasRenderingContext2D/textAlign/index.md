@@ -20,8 +20,7 @@
 |Examples=
 }}
 {{Notes_Section
-|Notes=The exact alignment depends on whether the direction of '''IHTMLCanvasElement''' is left-to-right (ltr) or right-to-left (rtl). The [[apis/canvas/CanvasRenderingContext2D/textBaseline|textBaseline]] value also determines the anchor point of  the  text.
-
+|Notes=The exact alignment depends on whether the direction of ''HTMLCanvasElement'' is left-to-right (ltr) or right-to-left (rtl). The [[apis/canvas/CanvasRenderingContext2D/textBaseline|textBaseline]] value also determines the anchor point of  the  text.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
