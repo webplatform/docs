@@ -7,6 +7,7 @@
 |Property_applies_to=apis/canvas/CanvasRenderingContext2D
 |Read_only=No
 |Example_object_name=CanvasRenderingContext2D
+|Javascript_data_type=Number
 |Return_value_description=Default is fully transparent black.
 }}
 {{Examples_Section
