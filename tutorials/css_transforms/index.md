@@ -9,15 +9,42 @@
 the space in which content elements appear. You can move them around
 on the screen, shrink or expand them, rotate them, or combine all
 these effects to produce complex movements.  By themselves, transforms
-produce static visual effects, but can be easily combined with CSS
-[[tutorials/css_transitions|transitions]] and
+produce static visual effects, but they can be easily combined with
+CSS [[tutorials/css_transitions|transitions]] and
 [[tutorials/css_animations|keyframe animations]] to produce vibrant
-animated interfaces. This tutorial first introduces simple two-dimensional transforms,
-then shows you how to extend transforms into three-dimensional space.
-It ends with step-by-step instructions to spin a cube in space.
+animated interfaces. This tutorial first introduces simple
+two-dimensional transforms, then shows you how to extend transforms
+into three-dimensional space.  It ends with step-by-step instructions
+to spin a cube in space.
 }}
 {{Tutorial
-|Content===The transform property==
+|Content=
+
+These key points serve as reference:
+
+* The [[css/properties/transform|'''transform''']] property specifies a set of transform functions.
+
+* 2D functions include [[css/functions/translate()|'''translate()''']], [[css/functions/scale()|'''scale()''']], [[css/functions/rotate()|'''rotate()''']], and [[css/functions/skew()|'''skew()''']].
+
+* Individual functions are available for ''x''/''y'' axes: [[css/functions/translateX()|'''translateX()''']], [[css/functions/translateY()|'''translateY()''']], [[css/functions/scaleX()|'''scaleX()''']], [[css/functions/scaleY()|'''scaleY()''']], [[css/functions/skewX()|'''skewX()''']], and [[css/functions/skewY()|'''skewY()''']]
+
+* Combined 2D transforms can be represented with the [[css/functions/matrix()|'''matrix()''']] function, which uses 6 parameters.
+
+* 3D functions include [[css/functions/rotateX()|'''rotateX()''']], [[css/functions/rotateY()|'''rotateY()''']], [[css/functions/rotate3d()|'''rotate3d()''']], [[css/functions/translateZ()|'''translateZ()''']], [[css/functions/translate3d()|'''translate3d()''']], [[css/functions/scaleZ()|'''scaleZ()''']], and [[css/functions/scale3d()|'''scale3d()''']].
+
+* Combined 3D transforms can be represented with the [[css/functions/matrix3d()|'''matrix3d()''']] function, which uses 16 parameters.
+
+* The [[css/properties/transform-origin|'''transform-origin''']] property controls what part of an element the transform appears to emanate from. Adding a pixel measurement for a third parameter, or for the alternate [[css/properties/transform-origin-z|'''transform-origin-z''']] property, moves the element forwards and back in 3D space.
+
+* The [[css/properties/perspective|'''perspective''']] property situates a 3D scene relative to the viewer, with distance measured in pixels. To appear correctly, it must be applied to a transformed element's ancestor.
+
+* The [[css/properties/perspective-origin|'''perspective-origin''']] property allows a 3D scene to be viewed from a diagonal vantage point rather than straight at the center.
+
+* The [[css/properties/backface-visibility|'''backface-visibility''']] property hides elements that rotate away from view, rather than rendering them as a mirror image.
+
+* Setting [[css/properties/transform-style|'''transform-style''']] to '''preserve-3d''' on a 3D element renders any nested 3D elements within its own transformed space.
+
+==The transform property==
 
 Transforms alter a block element's coordinates in several ways so that
 they vary from where they would ordinarily appear. The
@@ -126,7 +153,7 @@ pairs offer different ways to produce the effects shown below:
 The [[css/functions/rotate()|'''rotate()''']] function spins an
 element around its ''z'' axis.  It accepts a degree ('''deg''') or
 radian ('''rad''') measurement. (Radians are equivalent to the number
-of degrees multiplied by &pi;/180.) Radial measurements can wrap
+of degrees multiplied by &amp;pi;/180.) Radial measurements can wrap
 around, so the following values are equivalent:
 
  transform: rotate(20deg);
@@ -136,7 +163,7 @@ around, so the following values are equivalent:
 [[Image:transform_rotate.png]]
 
 The [[css/functions/skew()|'''skew()''']] function leans an element
-over, altering its corner angle relative to the default 90&deg; and
+over, altering its corner angle relative to the default 90&amp;deg; and
 transforming the underlying rectangle into a parallelogram.  It
 accepts up to two degree ('''deg''') or radian ('''rad''')
 measurements.  The separate [[css/functions/skewX()|'''skewX()''']]
@@ -359,10 +386,10 @@ face the other way. As described below, you can rotate the entire
 card along with its children. In this case, with the backface hidden,
 only one of the child ''face'' elements displays at a time:
 
- &lt;div class="card">
-   &lt;div class="face" id="jackheart">&lt;/div>
-   &lt;div class="face">&lt;/div>
- &lt;/div>
+ &amp;lt;div class="card">
+   &amp;lt;div class="face" id="jackheart">&amp;lt;/div>
+   &amp;lt;div class="face">&amp;lt;/div>
+ &amp;lt;/div>
 
 [[Image:3d_backface.png]]
 
@@ -419,18 +446,18 @@ To clarify how to use this feature, this extended example builds a
 cube representing playing dice that can spin freely. The markup
 is implemented as a series of nested elements:
 
- &lt;div class="scene">
-     &lt;div class="dice">
-         &lt;div class="centered">
-             &lt;div class="face">&lt;/div>
-             &lt;div class="face">&lt;/div>
-             &lt;div class="face">&lt;/div>
-             &lt;div class="face">&lt;/div>
-             &lt;div class="face">&lt;/div>
-             &lt;div class="face">&lt;/div>
-         &lt;/div>
-     &lt;/div>
- &lt;/div>
+ &amp;lt;div class="scene">
+     &amp;lt;div class="dice">
+         &amp;lt;div class="centered">
+             &amp;lt;div class="face">&amp;lt;/div>
+             &amp;lt;div class="face">&amp;lt;/div>
+             &amp;lt;div class="face">&amp;lt;/div>
+             &amp;lt;div class="face">&amp;lt;/div>
+             &amp;lt;div class="face">&amp;lt;/div>
+             &amp;lt;div class="face">&amp;lt;/div>
+         &amp;lt;/div>
+     &amp;lt;/div>
+ &amp;lt;/div>
 
 Global styles define absolutely positioned 100-pixel-square boxes. The
 outlines will help clarify each nested transform:
