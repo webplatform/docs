@@ -19,7 +19,7 @@ To get the most from this tutorial, you should already be familiar
 with [[tutorials/css_transitions|CSS transitions]]. Since they work
 similarly, the term ''CSS animations'' often serves as a shorthand to
 refer to transitions as well, but this tutorial only discusses
-''keyframe animations''. Here is a summary for your reference:
+''keyframe animations''. It discusses these basic points:
 
 * The [[css/properties/animation-name|'''animation-name''']] property specifies the name of a keyframe animation, and must correspond to a [[css/atrules/@keyframes|'''@keyframes''']] rule. Loading the CSS or applying a new name causes the animation to execute.
 
