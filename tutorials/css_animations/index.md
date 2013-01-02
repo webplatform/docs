@@ -1,9 +1,10 @@
 {{Page_Title|Making things move with CSS3 animations}}
 {{Flags
-|High-level issues=Stub
 |Editorial notes=[[User:Sierra]] has content intended for this page. See bug [https://www.w3.org/Bugs/Public/show_bug.cgi?id=20410 #20410]
 }}
-{{Byline}}
+{{Byline
+|Name=Mike Sierra
+}}
 {{Summary_Section|CSS animations allow you to build complex animated
 sequences. Like [[tutorials/css_transitions|transitions]], they
 manipulate the CSS properties that control how interface elements
@@ -13,9 +14,7 @@ execute freely, and offer the best way to build complex effects into
 an interface.
 }}
 {{Tutorial
-|Content=
-
-To get the most from this tutorial, you should already be familiar
+|Content=To get the most from this tutorial, you should already be familiar
 with [[tutorials/css_transitions|CSS transitions]]. Since they work
 similarly, the term ''CSS animations'' often serves as a shorthand to
 refer to transitions as well, but this tutorial only discusses
@@ -497,7 +496,6 @@ Here is how you might change the initial color to a shade of gray:
 See [[css/cssom/CSSKeyframesRule|'''CSSKeyframesRule''']],
 [[css/cssom/CSSKeyframeRule|'''CSSKeyframeRule''']] and
 [[css/cssom/CSSRule|'''CSSRule''']] for details.
-
 }}
 {{Notes_Section}}
 {{Compatibility_Section
