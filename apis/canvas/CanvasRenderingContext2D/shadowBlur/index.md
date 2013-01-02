@@ -1,72 +1,39 @@
-{{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
-}}
-{{Standardization_Status|}}
+{{Page_Title}}
+{{Flags}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
+{{Summary_Section|Specifies the level of the blurring effect. The units do not map to coordinate space units, and are not affected by the current transformation matrix.}}
 {{API_Object_Property
-|Property_applies_to=canvas/objects/CanvasRenderingContext2D
-|Read_only=
+|Property_applies_to=apis/canvas/CanvasRenderingContext2D
+|Read_only=No
+|Example_object_name=CanvasRenderingContext2D
+|Javascript_data_type=Number
+|Return_value_description=Default is 0.
 }}
-{{Topics|DOM}}
 {{Examples_Section
+|Not_required=Yes
+|Examples=
+}}
+{{Notes_Section}}
+{{Related_Specifications_Section
+|Specifications={{Related Specification
+|Name=W3C HTML Canvas 2D Specification
+|URL=http://www.w3.org/TR/2012/CR-2dcontext-20121217/
+|Status=W3C Candidate Recommendation
+}}
+}}
+{{Compatibility_Section
 |Not_required=No
-|Examples={{Single_Example
-|Description=The following  code example creates a series of squares  that have  different degrees of shadow blur.
-|LiveURL=
-|Code=
-&lt;!DOCTYPE html&gt; &lt;html&gt;
-&lt;head&gt;
-  &lt;script type{{=}}"text/javascript"&gt;
-function draw()
-{
-  var canvas {{=}} document.getElementById("MyCanvas");
- 	if (canvas.getContext) {
- 	  var ctx {{=}} canvas.getContext("2d");
-      ctx.lineWidth {{=}} "3";
-      ctx.strokeStyle {{=}} "blue";
-      // Define the shadow parameters.
-      ctx.shadowColor{{=}}"black";
-      ctx.shadowOffsetX {{=}} "10";
-      ctx.shadowOffsetY {{=}} "10";      
-        
-      // Change the blur value.
-      ctx.shadowBlur {{=}} "0";
-      ctx.strokeRect(25,25,200,200);
-      ctx.shadowBlur {{=}} "5";
-      ctx.strokeRect(100,100,200,200);
-      ctx.shadowBlur {{=}} "10";
-      ctx.strokeRect(175,175,200,200);
-      ctx.shadowBlur {{=}} "15";
-      ctx.strokeRect(250,250,200,200);  
-      ctx.shadowBlur {{=}} "20";
-      ctx.strokeRect(325,325,200,200);      
-      }  
-}
-  &lt;/script&gt;
-&lt;/head&gt;
-&lt;body onload{{=}}"draw();"&gt;
-  &lt;canvas id{{=}}"MyCanvas" width{{=}}"600" height{{=}}"600"&gt; &lt;/canvas&gt;
-&lt;/body&gt;
-&lt;/html&gt; 
-}}}}
-{{Notes_Section
-|Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}197019 HTML Canvas 2D Context], Section 7
-
-
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
-{{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
-*<code>[[canvas/objects/CanvasRenderingContext2D|CanvasRenderingContext2D]]</code>
-}}
+{{See_Also_Section}}
+{{Topics|Canvas}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=
 |HTML5Rocks_link=
 }}
