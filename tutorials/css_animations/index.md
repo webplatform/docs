@@ -337,6 +337,8 @@ executes would override whatever the first animation does with the
 
 ...
 
+[[Image:animDelay.png]]
+
 <!--
 [[css/properties/animation-timing-function|'''animation-timing-function''']]
 * same as for transitions
