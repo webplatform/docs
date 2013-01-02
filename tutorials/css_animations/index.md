@@ -486,7 +486,7 @@ Here is how you might change the initial color to a shade of gray:
  var sources = document.styleSheets; // from link/style tags
  var rules = sources[0].cssRules;    // list of all styles and at-rules
  var rule = rules[0];                // get first
- if( rule.type == rule.KEYFRAMES_RULE \|\| rule.type == rule.WEBKIT_KEYFRAMES_RULE ) {
+ if( rule.type == rule.KEYFRAMES_RULE | | rule.type == rule.WEBKIT_KEYFRAMES_RULE ) {
      console.log(rule.name);         // shiftColor
      console.log(rule[0].cssText);   // 0% { background-color: rgb(221, 160, 221); }
      if ( rule[0].keyText == '0%' )  // 'from' converts to '0%'
