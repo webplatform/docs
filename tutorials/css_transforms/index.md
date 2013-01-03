@@ -1,7 +1,5 @@
 {{Page_Title|Manipulating content with CSS3 transforms}}
-{{Flags
-|Editorial notes=Still to do: conclusion; clarify perspective() and scaleZ() functions; possibly media queries; live samples. Contact [[User:Sierra]] and see bug [https://www.w3.org/Bugs/Public/show_bug.cgi?id=20410 #20410].
-}}
+{{Flags}}
 {{Byline
 |Name=Mike Sierra
 }}
@@ -18,9 +16,7 @@ into three-dimensional space.  It ends with step-by-step instructions
 to spin a cube in space.
 }}
 {{Tutorial
-|Content=
-
-These key points serve as reference:
+|Content=These key points serve as reference:
 
 * The [[css/properties/transform|'''transform''']] property specifies a set of transform functions.
 
