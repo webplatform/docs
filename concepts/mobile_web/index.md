@@ -3,11 +3,6 @@
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|A starting point for mobile web development, with links to resources and a collection of mobile development techniques.}}
-{{Concept_Listing
-|Query=[[Category:Mobile]]
-|Use_page_title=Yes
-|List_all_subpages=No
-}}
 {{Notes_Section}}
 {{See_Also_Section}}
 {{Topics}}
@@ -26,6 +21,11 @@
 [[tutorials/mobile_mobifying|"Mobifying" your HTML5 site]] - Real examples showing how to support mobile with HTML5 features.
 
 == List of all mobile web related articles ==
+{{Concept_Listing
+|Query=[[Category:Mobile]]
+|Use_page_title=Yes
+|List_all_subpages=No
+}}
 }}
 
 
