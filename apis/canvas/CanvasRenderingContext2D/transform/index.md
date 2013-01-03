@@ -6,8 +6,7 @@
 
 <code>a c e<br/>
 b d f<br/>
-0 0 1<br/>
------</code>
+0 0 1</code>
 }}
 {{API_Object_Method
 |Parameters={{Method Parameter
