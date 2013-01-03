@@ -3,10 +3,7 @@
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Enables real-time communication across the web.}}
-{{API_Listing|Query=[[Category:WebRTC]][[Category:API_Objects]]
-|Use_page_title=No
-|List_all_subpages=No
-}}
+{{API_Listing}}
 {{Concept_Listing
 |Query=[[Category:WebRTC]][[Category:API_Objects]]
 |Use_page_title=No
