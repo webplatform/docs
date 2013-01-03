@@ -20,9 +20,11 @@ to spin a cube in space.
 
 * The [[css/properties/transform|'''transform''']] property specifies a set of transform functions.
 
-* 2D functions include [[css/functions/translate()|'''translate()''']], [[css/functions/scale()|'''scale()''']], [[css/functions/rotate()|'''rotate()''']], and [[css/functions/skew()|'''skew()''']].
+* Transforms modify elements relative to their default position, by moving them, resizing them, spinning them, or otherwise distorting them.
 
-* The [[css/functions/translate()|'''translate()''']] function accepts standard CSS measurements; [[css/functions/scale()|'''scale()''']] accepts a decimal value between 0 and 1; both [[css/functions/rotate()|'''rotate()''']] and [[css/functions/skew()|'''skew()''']] specify radial '''deg''' or '''rad''' measurements. Except for [[css/functions/rotate()|'''rotate()''']], each accepts two ''x''/''y'' parameters.
+* Respective 2D functions include [[css/functions/translate()|'''translate()''']], [[css/functions/scale()|'''scale()''']], [[css/functions/rotate()|'''rotate()''']], and [[css/functions/skew()|'''skew()''']].
+
+* The [[css/functions/translate()|'''translate()''']] function accepts standard CSS measurements; [[css/functions/scale()|'''scale()''']] accepts a decimal value between 0 and 1; both [[css/functions/rotate()|'''rotate()''']] and [[css/functions/skew()|'''skew()''']] specify radial '''deg''' or '''rad''' measurements. Except for [[css/functions/rotate()|'''rotate()''']], each allows two ''x''/''y'' parameters.
 
 * Individual ''x''/''y'' functions are available: [[css/functions/translateX()|'''translateX()''']], [[css/functions/translateY()|'''translateY()''']], [[css/functions/scaleX()|'''scaleX()''']], [[css/functions/scaleY()|'''scaleY()''']], [[css/functions/skewX()|'''skewX()''']], and [[css/functions/skewY()|'''skewY()''']]
 
