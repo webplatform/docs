@@ -595,6 +595,7 @@ object. Here is how a script can control the spin:
 }}
 {{See_Also_Section
 |Topic_clusters=Transforms
+|External_links=* [http://www.w3.org/TR/css3-transforms/ CSS Transforms: W3C Working Draft]
 }}
 {{Topics|CSS}}
 {{External_Attribution
