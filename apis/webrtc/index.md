@@ -4,6 +4,11 @@
 {{API_Name}}
 {{Summary_Section|Enables real-time communication across the web.}}
 {{API_Listing}}
+{{Concept_Listing
+|Query=[[Category:WebRTC]][[Category:API_Objects]]
+|Use_page_title=No
+|List_all_subpages=No
+}}
 {{Notes_Section
 |Usage=The RTC in WebRTC stands for Real-Time Communications, technology that enables audio/video streaming and data sharing between browser clients (peers). As a set of standards, WebRTC provides any browser with the ability to share application data and perform teleconferencing peer to peer, without the need to install plug-ins or third-party software. 
 
@@ -24,11 +29,6 @@ The PeerConnection API, represented chiefly by the [[apis/webrtc/RTCPeerConnecti
 Some nice things about the DataChannel API (coming soon!).
 
 ==API objects==
-{{Concept_Listing
-|Query=[[Category:WebRTC]][[Category:API_Objects]]
-|Use_page_title=No
-|List_all_subpages=No
-}}
 }}
 {{See_Also_Section
 |External_links=* [http://www.w3.org/2011/04/webrtc/ WebRTC working group]
