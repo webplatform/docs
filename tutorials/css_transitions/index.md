@@ -29,6 +29,27 @@ which displaying elements need to slide or fade out of view, or else
 collapse into icons. Abrupt transitions can be particularly
 disorienting on a small screen.
 
+These key points serve as reference:
+
+* Transitions are simple animations that smooth shifts from one style sheet to another.
+
+* Set [[css/properties/transition-property|'''transition-property''']] to specify which CSS property (or '''all''') to animate between style sheets.
+
+* The [[css/properties/transition-duration|'''transition-duration''']] property sets how much time the transition takes to run.
+
+* Use [[css/properties/transition-delay|'''transition-delay''']] to pause before executing a transition.
+
+* Use comma-delimited values to apply more than one transition to an element, useful in building sequences.  Transitions can also execute concurrently when applied to different elements.
+
+* The [[css/properties/transition-timing-function|'''transition-timing-function''']] property allows you to control a transitions's speed of progress.  It accepts keywords: '''ease''', '''ease-in''', '''ease-out''', '''ease-in-out''', '''linear''', or custom '''cubic-bezier()''' response curves.
+
+* The [[css/properties/transition|'''transition''']] shorthand property can represent values from all other transition properties. If two time measurements are included, they are interpreted first as duration then as delay.
+
+* Specify a redundant set of property names prefixed ''-webkit-''.
+
+* The '''transitionend''' event (or '''webkitTransitionEnd''') fires at the end of a transition for each property that animates.
+
+
 ==The transition property==
 
 For transitions to work, there need to be two sets of style sheets
@@ -271,30 +292,30 @@ animation's elapsed time and progress correspond to ''x'' and ''y''
 axes, so the more the line curves vertically along the way, the faster
 it moves:
 
-<div style="display:inline-block">
-[[Image:transitF_linear.png]] <br/>
-'''linear''' <br/> '''cubic-bezier(0.0, 0.0, 1.0, 1.0)'''
-</div>
+&lt;div style="display:inline-block">
+[[Image:transitF_linear.png]] &lt;br/>
+'''linear''' &lt;br/> '''cubic-bezier(0.0, 0.0, 1.0, 1.0)'''
+&lt;/div>
 
-<div style="display:inline-block">
-[[Image:transitF_ease.png]] <br/>
-'''ease''' <br/> '''cubic-bezier(0.25, 0.1, 0.25, 1.0)'''
-</div>
+&lt;div style="display:inline-block">
+[[Image:transitF_ease.png]] &lt;br/>
+'''ease''' &lt;br/> '''cubic-bezier(0.25, 0.1, 0.25, 1.0)'''
+&lt;/div>
 
-<div style="display:inline-block">
-[[Image:transitF_easeinout.png]] <br/>
-'''ease-in-out''' <br/> '''cubic-bezier(0.42, 0, 0.58, 1.0)'''
-</div>
+&lt;div style="display:inline-block">
+[[Image:transitF_easeinout.png]] &lt;br/>
+'''ease-in-out''' &lt;br/> '''cubic-bezier(0.42, 0, 0.58, 1.0)'''
+&lt;/div>
 
-<div style="display:inline-block">
-[[Image:transitF_easein.png]] <br/>
-'''ease-in''' <br/> '''cubic-bezier(0.42, 0, 1.0, 1.0)'''
-</div>
+&lt;div style="display:inline-block">
+[[Image:transitF_easein.png]] &lt;br/>
+'''ease-in''' &lt;br/> '''cubic-bezier(0.42, 0, 1.0, 1.0)'''
+&lt;/div>
 
-<div style="display:inline-block">
-[[Image:transitF_easeout.png]] <br/>
-'''ease-out''' <br/> '''cubic-bezier(0, 0, 0.58, 1.0)'''
-</div>
+&lt;div style="display:inline-block">
+[[Image:transitF_easeout.png]] &lt;br/>
+'''ease-out''' &lt;br/> '''cubic-bezier(0, 0, 0.58, 1.0)'''
+&lt;/div>
 
 This useful [http://cssglue.com/cubic cubic bezier function utility]
 allows you to create your own custom curve and the see the result
@@ -366,7 +387,7 @@ Note the various provisional names for the event: '''transitionend'''
 '''otransitionend''' (old Opera), and '''webkitTransitionEnd'''
 (WebKit).
 
-<!--
+&lt;!--
 NOTE: UNFINISHED. DO NOT EDIT.
 
 ==Cross-fades, filters, and other exotic effects==
