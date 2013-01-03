@@ -27,8 +27,6 @@ The PeerConnection API, represented chiefly by the [[apis/webrtc/RTCPeerConnecti
 
 ==DataChannel API==
 Some nice things about the DataChannel API (coming soon!).
-
-==API objects==
 }}
 {{See_Also_Section
 |External_links=* [http://www.w3.org/2011/04/webrtc/ WebRTC working group]
