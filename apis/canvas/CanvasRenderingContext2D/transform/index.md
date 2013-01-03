@@ -4,9 +4,9 @@
 {{API_Name}}
 {{Summary_Section|Replaces the current transformation matrix with the result of multiplying the current transformation matrix with the matrix described by:
 
-<code>a c e
-b d f
-0 0 1
+<code>a c e<br/>
+b d f<br/>
+0 0 1<br/>
 -----</code>
 }}
 {{API_Object_Method
