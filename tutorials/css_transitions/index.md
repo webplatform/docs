@@ -1,7 +1,5 @@
 {{Page_Title|Dynamic visual effects with CSS3 transitions}}
-{{Flags
-|Editorial notes=[[User:Sierra]] has content intended for this page. See bug [https://www.w3.org/Bugs/Public/show_bug.cgi?id=20410 #20410] Still to do: cross-fades and filter effects if appropriate; more details on what can be transitioned.
-}}
+{{Flags}}
 {{Byline
 |Name=Mike Sierra
 }}
