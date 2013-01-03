@@ -139,7 +139,9 @@ and Safari. The transform properties below are also prefixed:
  }
 
 This example also substitutes '''0%''' and '''100%''' for their
-synonymous keywords '''from''' and '''to'''.
+synonymous keywords '''from''' and '''to'''. (If you don't specify
+either, values transition from the next available keyframe in
+the series.)
 
 ==Changing Direction==
 
