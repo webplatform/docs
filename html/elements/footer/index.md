@@ -257,7 +257,7 @@ This property is not supported for Metro style apps using JavaScript.
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=CSS Font, CSS Layout, Animation, Audio, Background, Border, Box Model, Document Structure, HTML, Multimedia, Multi-Column, Scrollbar, Selectors, Tables, Touch, Transforms, Transistions, Video, Visual Effects
+|Topic_clusters=Document Structure, HTML
 |Manual_sections====Related pages (MSDN)===
 *<code>Reference</code>
 *<code>article</code>
@@ -270,7 +270,7 @@ This property is not supported for Metro style apps using JavaScript.
 *<code>nav</code>
 *<code>section</code>
 }}
-{{Topics|Accessibility, Appcache, Audio, Canvas, Control, CSS, Design, Developer Tools, DOCTYPE, Graphics, HTML, JavaScript, Media, SVG, Video, Web Services, Webworkers}}
+{{Topics|Accessibility, Design, HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN, Facebook HTML5 Resource Center
