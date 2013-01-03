@@ -121,7 +121,6 @@ selector, manipulating the values of individual properties.
 Shifts from one keyframe to another work the same as transitions,
 and the same set of properties that can be transitioned can also be
 manipulated in keyframes.
-
 In this case, [[css/properties/opacity|'''opacity''']] dims the icon
 and [[css/properties/transform|'''transform''']] shrinks it. (See the
 [[tutorials/css_transforms|tutorial on transforms]] for details on the
