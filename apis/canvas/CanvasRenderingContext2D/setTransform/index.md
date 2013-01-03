@@ -1,53 +1,76 @@
-{{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
-}}
-{{Standardization_Status|}}
+{{Page_Title}}
+{{Flags}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
+{{Summary_Section|Resets the current transform to the identity matrix, and then invokes the ''transform(a, b, c, d, e, f)'' method with the same arguments.}}
 {{API_Object_Method
-|Parameters={{Method Parameter|Name=m11|Data type=float|Description=The  m'''1,1''' value  in the matrix.|Optional=}}
-{{Method Parameter|Name=m12|Data type=float|Description=The m'''1,2''' value  in the matrix.|Optional=}}
-{{Method Parameter|Name=m21|Data type=float|Description=The  m'''2,1'''  value in the matrix.|Optional=}}
-{{Method Parameter|Name=m22|Data type=float|Description=The  m'''2,2''' value in the matrix.|Optional=}}
-{{Method Parameter|Name=dx|Data type=float|Description=The  delta x (dx)   value in the matrix.|Optional=}}
-{{Method Parameter|Name=dy|Data type=float|Description=The delta y (dy)  value in the matrix.|Optional=}}
-|Method_applies_to=canvas/objects/CanvasRenderingContext2D
+|Parameters={{Method Parameter
+|Name=a
+|Data type=any
+|Description=The  m1,1 value  in the matrix.
+|Optional=No
+}}{{Method Parameter
+|Name=b
+|Data type=any
+|Description=The m1,2 value  in the matrix.
+|Optional=No
+}}{{Method Parameter
+|Name=c
+|Data type=any
+|Description=The  m2,1  value in the matrix.
+|Optional=No
+}}{{Method Parameter
+|Name=d
+|Data type=any
+|Description=The  m2,2 value in the matrix.
+|Optional=No
+}}{{Method Parameter
+|Name=e
+|Data type=any
+|Description=The  delta x (dx)   value in the matrix.
+|Optional=No
+}}{{Method Parameter
+|Name=f
+|Data type=any
+|Description=The delta y (dy)  value in the matrix.
+|Optional=No
+}}
+|Method_applies_to=apis/canvas/CanvasRenderingContext2D
 |Example_object_name=object
 |Return_value_name=object
 |Javascript_data_type=DOM Node
 |Return_value_description=Type: '''HRESULT'''
 
 If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRESULT''' error code.
-
-Type: '''HRESULT'''
-
-If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRESULT''' error code.
-
-
 }}
-{{Topics|DOM}}
+{{Examples_Section
+|Not_required=Yes
+|Examples=
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
-The transformation matrix of the current context is reset back to the identity matrix. After it is reset, the transformation matrix of the context is multipled by  the matrix  that  the  specified  parameters  form.
+|Notes=The transformation matrix of the current context is reset back to the identity matrix. After it is reset, the transformation matrix of the context is multipled by  the matrix  that  the  specified  parameters  form.
 
-|Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}197019 HTML Canvas 2D Context], Section 3
-
-
+The arguments ''a, b, c, d, e, f'' are sometimes called ''m11, m12, m21, m22, dx, dy'' or ''m11, m21, m12, m22, dx, dy''. Care should be taken in particular with the order of the second and third arguments (''b'' and ''c'') as their order varies from API to API; APIs sometimes use the notation ''m12/m21'' and sometimes ''m21/m12'' for those positions.
 }}
-{{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
-*<code>[[canvas/objects/CanvasRenderingContext2D|CanvasRenderingContext2D]]</code>
-*<code>[[canvas/methods/transform|transform]]</code>
+{{Related_Specifications_Section
+|Specifications={{Related Specification
+|Name=W3C HTML Canvas 2D Specification
+|URL=http://www.w3.org/TR/2012/CR-2dcontext-20121217/
+|Status=W3C Candidate Recommendation
 }}
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section}}
+{{Topics|Canvas}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=
 |HTML5Rocks_link=
 }}
