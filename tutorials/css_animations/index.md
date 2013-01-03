@@ -16,7 +16,9 @@ an interface.
 with [[tutorials/css_transitions|CSS transitions]]. Since they work
 similarly, the term ''CSS animations'' often serves as a shorthand to
 refer to transitions as well, but this tutorial only discusses
-''keyframe animations''. These key points serve as reference:
+''keyframe animations''.
+
+These key points serve as reference:
 
 * The required [[css/properties/animation-name|'''animation-name''']] property specifies the name of a keyframe animation, and must correspond to a [[css/atrules/@keyframes|'''@keyframes''']] rule. Loading the CSS or applying a new name causes the animation to execute.
 
@@ -116,6 +118,10 @@ span of time defined by the
 [[css/properties/animation-duration|'''animation-duration''']]
 property. Each keyframe within the sequence behaves like a CSS
 selector, manipulating the values of individual properties.
+Shifts from one keyframe to another work the same as transitions,
+and the same set of properties that can be transitioned can also be
+manipulated in keyframes.
+
 In this case, [[css/properties/opacity|'''opacity''']] dims the icon
 and [[css/properties/transform|'''transform''']] shrinks it. (See the
 [[tutorials/css_transforms|tutorial on transforms]] for details on the
@@ -505,6 +511,7 @@ See [[css/cssom/CSSKeyframesRule|'''CSSKeyframesRule''']],
 }}
 {{See_Also_Section
 |Topic_clusters=Animation
+|External_links=* [http://www.w3.org/TR/css3-animations/ CSS Animations: W3C Working Draft]
 }}
 {{Topics|CSS}}
 {{External_Attribution
