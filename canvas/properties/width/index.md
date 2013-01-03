@@ -3,7 +3,7 @@
 |High-level issues=Move Candidate, Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 |Editorial notes={{Editorial/Move_Candidate
-| Should be under HTML5 canvas element. See [http://www.w3.org/html/wg/drafts/html/master/single-page.html#the-canvas-element HTML5 specification].
+| Probably should be under HTML5 canvas element. See [http://www.w3.org/html/wg/drafts/html/master/single-page.html#the-canvas-element HTML5 specification].
 }}
 }}
 {{Standardization_Status}}
