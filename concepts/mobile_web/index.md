@@ -1,17 +1,7 @@
 {{Page_Title|Mobile Web}}
 {{Flags}}
-{{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|A starting point for mobile web development, with links to resources and a collection of mobile development techniques.}}
-{{Notes_Section}}
-{{See_Also_Section}}
-{{Topics}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
 {{Concept_Page
 |Content=== General introductory articles ==
 [[concepts/About_mobile_web|About mobile web]] - Start here to get a general history of the mobile web and what it means to support different devices with a wide range of browsing capabilities.
@@ -27,3 +17,20 @@
 |List_all_subpages=No
 }}
 }}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
+{{Notes_Section}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{See_Also_Section}}
+{{Topics}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
+}}
+{{Standardization_Status}}
