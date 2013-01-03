@@ -3,7 +3,11 @@
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|A starting point for mobile web development, with links to resources and a collection of mobile development techniques.}}
-{{API_Listing
+{{API_Listing|Query=[[Category:Mobile]]
+|Use_page_title=Yes
+|List_all_subpages=No
+}}
+{{Concept_Listing
 |Query=[[Category:Mobile]]
 |Use_page_title=Yes
 |List_all_subpages=No
