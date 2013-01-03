@@ -1,8 +1,6 @@
 {{Page_Title}}
-{{Flags
-|High-level issues=Stub
-}}
-{{Standardization_Status}}
+{{Flags}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|Sets the line dash properties for the stroke.}}
 {{API_Object_Method
@@ -12,43 +10,22 @@
 |Description=An array of integers that specifies the length of each "on" and "off" segment.
 |Optional=No
 }}
-|Method_applies_to=canvas/objects/CanvasRenderingContext2D
-|Example_object_name=canvas2Dcontext
+|Method_applies_to=apis/canvas/CanvasRenderingContext2D
+|Example_object_name=object
+|Return_value_name=object
+|Javascript_data_type=DOM Node
 }}
 {{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Description=Creates a dashed line that alternates 15 pixels on and 15 pixels off.
-|Code=// Create canvas and get 2D context:
-var canvas = document.createElement('canvas');
-document.body.appendChild(canvas);
-canvas.setAttribute('width', '700');
-canvas.setAttribute('height', '700');
-var ctx = canvas.getContext('2d');
-
-// Set dash-style, and draw stroke
-ctx.setLineDash([15]);
-ctx.strokeRect (10,10,100,100);
-|LiveURL=http://jsfiddle.net/tstatz/9ykrj/
-}}{{Single Example
-|Language=JavaScript
-|Description=Creates a dashed line that alternates between 15 pixels and 5 pixels off.
-|Code=// Create canvas and get 2D context:
-var canvas = document.createElement('canvas');
-document.body.appendChild(canvas);
-canvas.setAttribute('width', '700');
-canvas.setAttribute('height', '700');
-var ctx = canvas.getContext('2d');
-
-// Set dash-style, and draw stroke
-ctx.setLineDash([15, 5]);
-ctx.strokeRect (10,10,100,100);
-}}
+|Not_required=Yes
+|Examples=
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=W3C HTML Canvas 2D Specification
+|URL=http://www.w3.org/TR/2012/CR-2dcontext-20121217/
+|Status=W3C Candidate Recommendation
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -58,7 +35,7 @@ ctx.strokeRect (10,10,100,100);
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics}}
+{{Topics|Canvas}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
