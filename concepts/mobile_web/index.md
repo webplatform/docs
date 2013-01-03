@@ -27,9 +27,3 @@
 |List_all_subpages=No
 }}
 }}
-
-
-
-
-
-{{Basic Page}}
