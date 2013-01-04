@@ -3,11 +3,7 @@
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|HTML5 audio-video elements.}}
-{{API_Listing
-|Query=[[Category:Video]][[Category:Audio]][[Category:API_Objects]]
-|Use_page_title=No
-|List_all_subpages=No
-}}
+{{API_Listing}}
 {{Notes_Section}}
 {{See_Also_Section}}
 {{Topics|Audio, DOM, Video}}
