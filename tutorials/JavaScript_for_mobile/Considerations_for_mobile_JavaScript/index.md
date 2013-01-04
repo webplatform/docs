@@ -1,16 +1,21 @@
+{{Page_Title}}
 {{Flags
-|High-level issues=Stub
+|High-level issues=Stub, Needs Topics
+|Content=Incomplete
 }}
+{{Byline}}
 {{Summary_Section}}
 {{Tutorial}}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|JavaScript, Mobile}}
+{{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
