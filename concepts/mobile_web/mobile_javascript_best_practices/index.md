@@ -1,7 +1,7 @@
 {{Page_Title|Mobile JavaScript best practices}}
 {{Flags}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|What to know, what to watch out for to make your apps perform at their best.}}
 {{Concept_Page
 |Content=When optimising JavaScript, it is important to first understand the big picture and the major stack components affecting performance. Equally important is to understand what can and cannot be optimised in JavaScript without touching the browser codebase. A good starting point for this study is to first take a look at the JavaScript Performance Stack [http://ejohn.org/blog/javascript-performance-stack/ (John Resig's blog)] depicted below.
 
