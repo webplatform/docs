@@ -6,7 +6,7 @@
 |Content=== General introductory articles ==
 [[concepts/About_mobile_web|About mobile web]] - Start here to get a general history of the mobile web and what it means to support different devices with a wide range of browsing capabilities.
 
-[[Detecting device and browser]] - The basics of browser detection for mobile devices. Smartphones usually have better detection capabilities than low cost feature phones, which may not support CSS or JavaScript. This article explains techniques commonly used on today's mobile websites.
+[[concepts/detecting_device_and_browser|Detecting device and browser]] - The basics of browser detection for mobile devices. Smartphones usually have better detection capabilities than low cost feature phones, which may not support CSS or JavaScript. This article explains techniques commonly used on today's mobile websites.
 
 [[tutorials/mobile_mobifying|"Mobifying" your HTML5 site]] - Real examples showing how to support mobile with HTML5 features.
 
