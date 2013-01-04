@@ -19,7 +19,9 @@
 |Not_required=Yes
 |Examples=
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Notes=A ''hit region'' is an arbitrary rectangular area on the canvas that responds to user events, with the goal of simplifying event detection.
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=W3C HTML Canvas 2D Specification
