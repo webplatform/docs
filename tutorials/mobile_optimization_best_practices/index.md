@@ -1,11 +1,7 @@
 {{Page_Title|Mobile optimization best practices}}
-{{Flags
-}}
+{{Flags}}
 {{Byline}}
-{{Summary_Section|One of the benefits of developing using the web is that your web app will run on nearly every smartphone and tablet.
-
-While you're developing your web app, you will need to consider device and network limitations. Mobile devices are getting more powerful and network speeds are increasing, but you still need to optimize for devices that have limited power, varying screen sizes and potentially slow or spotty network connections. This guide will walk you through the best practices to optimize your web app for mobile for in order to maintain the best possible user experience.
-}}
+{{Summary_Section|How to optimize for devices that have limited power, varying screen sizes and potentially slow or spotty network connections. This guide will walk you through the best practices to optimize your web app for mobile for in order to maintain the best possible user experience.}}
 {{Tutorial
 |Content=== Network Speed Optimizations ==
 
