@@ -1,86 +1,54 @@
 {{Page_Title}}
-{{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status}}
+{{Flags}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|Connects the last point in the subpath to the given point (x, y) using a straight line, and then adds the point to the subpath.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=x
-|Data type=String
+|Data type=Number
 |Description=The x-coordinate, in pixels.
 |Optional=No
 }}{{Method Parameter
 |Name=y
-|Data type=String
+|Data type=Number
 |Description=The y-coordinate, in pixels.
 |Optional=No
 }}
-|Method_applies_to=canvas/objects/CanvasRenderingContext2D
+|Method_applies_to=apis/canvas/CanvasRenderingContext2D
 |Example_object_name=object
 |Return_value_name=object
 |Javascript_data_type=DOM Node
 |Return_value_description=Type: '''HRESULT'''
 
 If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRESULT''' error code.
-
-Type: '''HRESULT'''
-
-If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRESULT''' error code.
 }}
 {{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Description=The following code example uses the  [[canvas/methods/moveTo|'''moveTo''']]  and '''lineTo''' methods to incrementally draw horizontal lines across the canvas.
-|Code=&lt;!DOCTYPE html&gt; &lt;html&gt;
-&lt;head&gt;
-  &lt;script type{{=}}"text/javascript"&gt;
-function draw()
-{
-  var canvas {{=}} document.getElementById("MyCanvas");
- 	if (canvas.getContext) {
- 	  var ctx {{=}} canvas.getContext("2d");
-      for(i{{=}}10;i&lt;500;i+{{=}}20)
-      {
-      ctx.moveTo(0,i);
-      ctx.lineTo(canvas.width,i);
-      ctx.stroke();
-      }             
-   }
-}
-  &lt;/script&gt;
-&lt;/head&gt;
-&lt;body onload{{=}}"draw()"&gt;
-  &lt;canvas id{{=}}"MyCanvas" width{{=}}"600" height{{=}}"600"&gt; &lt;/canvas&gt; 
-&lt;/body&gt;
-&lt;/html&gt;
-}}
+|Not_required=Yes
+|Examples=
 }}
 {{Notes_Section
-|Notes=If subpath is not allocated, user agent will create it. If subpath has no any point (x, y) then point (x, y) will be created for subpath as its first (and only), as if the [[canvas/methods/moveTo|'''moveTo''']](x, y) method had been called.
-|Import_Notes====Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}197019 HTML Canvas 2D Context], Section 9
+|Notes=If subpath is not allocated, the user agent will create it. If subpath has no any point (x, y), then point (x, y) will be created for subpath as its first (and only) point, as if the ''moveTo(x, y)'' method had been called.
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=W3C HTML Canvas 2D Specification
+|URL=http://www.w3.org/TR/2012/CR-2dcontext-20121217/
+|Status=W3C Candidate Recommendation
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Manual_links=*<code>[[canvas/objects/CanvasRenderingContext2D|CanvasRenderingContext2D]]</code>
-*<code>[[canvas/methods/moveTo|moveTo]]</code>
-}}
-{{Topics|DOM}}
+{{See_Also_Section}}
+{{Topics|Canvas}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
 |MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|MSDN_link=
 |HTML5Rocks_link=
 }}
