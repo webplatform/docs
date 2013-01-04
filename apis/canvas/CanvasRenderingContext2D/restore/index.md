@@ -36,10 +36,13 @@ If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRES
 **''font''
 **''textAlign''
 **''textBaseline''
-
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=W3C HTML Canvas 2D Specification
+|URL=http://www.w3.org/TR/2012/CR-2dcontext-20121217/
+|Status=W3C Candidate Recommendation
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
