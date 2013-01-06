@@ -1,9 +1,9 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Content=Incomplete, Errors, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|Font is a short-hand for setting most properties associated with a font, including font-style, font-size, font-family, in one single line.}}
 {{CSS Property
@@ -84,6 +84,10 @@ If the string does not contain a value for a component property, that property i
 |Browser=Internet Explorer
 |Version=6 and later
 |Note=When the [[html/elements/!DOCTYPE|!DOCTYPE]] declaration is used to specify standards-compliant mode, the following conditions apply to this property -<br/>- The '''font-size''' and '''font-family''' values must be declared. If '''font-size''' and '''font-family''' are not declared, or are not in the correct order, the '''font''' property is ignored.<br/>- All specified values must appear in the correct order. Otherwise, the '''font''' property is ignored.<br/>- The default '''font-size''' is '''small''', not '''medium'''. If not explicitly set, '''font-size''' returns a point value.
+}}{{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=9 and later
+|Note=Does not support the '''rem''' unit (it is supported for the separate properties).
 }}
 }}
 {{See_Also_Section
