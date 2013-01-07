@@ -1,5 +1,6 @@
 {{Page_Title|HTML forms basics}}
-{{Flags}}
+{{Flags
+}}
 {{Byline}}
 {{Summary_Section|In this article, we will covered the creation of standards compliant, best practice HTML forms!}}
 {{Guide
