@@ -1,0 +1,51 @@
+{{Page_Title}}
+{{Flags}}
+{{Standardization_Status|W3C Candidate Recommendation}}
+{{API_Name}}
+{{Summary_Section|Draw a focus ring of the appropriate style along the intended path, and sets result to ''false''.}}
+{{API_Object_Method
+|Parameters={{Method Parameter
+|Name=path
+|Data type=DOM Node
+|Description=The path along which the focus ring is to be drawn.
+|Optional=Yes
+}}{{Method Parameter
+|Name=element
+|Data type=DOM Node
+|Description=The element on which the focus ring is to be drawn.
+|Optional=No
+}}
+|Method_applies_to=apis/canvas/CanvasRenderingContext2D
+|Example_object_name=object
+|Return_value_name=object
+|Javascript_data_type=Boolean
+}}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
+{{Notes_Section
+|Notes=The focus ring should not be subject to the shadow effects, the global alpha, or the global composition operators, but should be subject to the clipping region.
+}}
+{{Related_Specifications_Section
+|Specifications={{Related Specification
+|Name=W3C HTML Canvas 2D Specification
+|URL=http://www.w3.org/TR/2012/CR-2dcontext-20121217/
+|Status=W3C Candidate Recommendation
+}}
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section}}
+{{Topics|Canvas}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
+}}
