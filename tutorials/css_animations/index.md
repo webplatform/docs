@@ -498,9 +498,9 @@ Here is how you might change the initial color to a shade of gray:
      console.log(rule[0].cssText);   // 0% { background-color: rgb(170, 170, 170); }
  }
 
-See [[css/cssom/CSSKeyframesRule|'''CSSKeyframesRule''']],
+See [[css/cssom/CSSKeyframesRule|'''CSSKeyframesRule''']], 
 [[css/cssom/CSSKeyframeRule|'''CSSKeyframeRule''']] and
-[[css/cssom/CSSRule|'''CSSRule''']] for details.
+[[css/cssom/CSSRule|'''CSSRule''']] for details. 
 }}
 {{Notes_Section}}
 {{Compatibility_Section
