@@ -1,10 +1,12 @@
 {{Page_Title|Mobile web debugging}}
-{{Flags}}
+{{Flags
+}}
 {{API_Name}}
 {{Summary_Section|Debugging web applications on multiple platforms requires careful prioritisation, different from developing for desktop alone. This article explains techniques and tools available, with links to external resources.}}
 {{Concept_Page
 |Content={{Page_Title|Mobile web debugging}}
-{{Flags}}
+{{Flags
+}}
 {{API_Name}}
 {{Summary_Section|Debugging web applications on multiple platforms requires careful prioritisation, different from developing for desktop alone. This article explains techniques and tools available, with links to external resources.}}
 {{Concept_Page
