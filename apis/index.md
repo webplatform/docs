@@ -4,6 +4,11 @@
 {{API_Name}}
 {{Summary_Section|Collection of articles on API objects and their properties‏.}}
 {{API_Listing}}
+{{Concept_Listing
+|Query=[[Category:API_Objects]]
+|Use_page_title=No
+|List_all_subpages=Yes
+}}
 {{Notes_Section}}
 {{See_Also_Section}}
 {{Topics}}
