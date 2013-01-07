@@ -208,7 +208,7 @@ as part of a separate flow.  This CSS diverts the pull-quote content:
      flow-from: main;
  }
  
- /* pullquote flow
+ /* pullquote flow */
  article > aside {
      flow-into: pullquote;
  }
