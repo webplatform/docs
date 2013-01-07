@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|Paints the specified rectangular area using the ''fillStyle''. }}
+{{Summary_Section|Paints the specified rectangular area using the ''fillStyle''.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=x
