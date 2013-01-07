@@ -25,7 +25,7 @@
 |Description=The maximum possible text width. If the value is less than the  [[apis/canvas/TextMetrics/width|width]] property, the text  is  scaled to fit.
 |Optional=Yes
 }}
-|Method_applies_to=canvas/objects/CanvasRenderingContext2D
+|Method_applies_to=apis/canvas/CanvasRenderingContext2D
 |Example_object_name=object
 |Return_value_name=object
 |Javascript_data_type=DOM Node
@@ -44,7 +44,6 @@ This method can return one of these values.
 {{!}}SecurityError
 {{!}}The current font is not of the same origin or domain as the document that owns the canvas element.
 {{!}}}
-
 }}
 {{Examples_Section
 |Not_required=Yes
