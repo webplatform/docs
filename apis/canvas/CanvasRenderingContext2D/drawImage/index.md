@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|Draws the specified image onto the canvas. See Notes.}}
+{{Summary_Section|Draws the specified image onto the canvas. Can be called in three ways; see Notes.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=image
@@ -67,10 +67,10 @@ This method can return one of these values.
 {{!}}The operation completed successfully.
 {{!}}-
 {{!}}TypeMismatchError
-{{!}}The pSrc  parameter is not an img object,  canvas element, or video element.
+{{!}}The ''image''  parameter is not an img object,  canvas element, or video element.
 {{!}}-
 {{!}}InvalidStateError _ERR
-{{!}}The pSrc  parameter does not contain  image data.
+{{!}}The ''image''  parameter does not contain  image data.
 {{!}}-
 {{!}}IndexSizeError
 {{!}}The numeric arguments are not valid  (for example, the destination is a 0x0 rectangle).
@@ -78,7 +78,6 @@ This method can return one of these values.
 {{!}}SecurityError
 {{!}}The img or video element is not of the same origin or domain as the document that owns the canvas element.
 {{!}}}
-
 }}
 {{Examples_Section
 |Not_required=Yes
