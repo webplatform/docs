@@ -4,7 +4,12 @@
 {{API_Name}}
 {{Summary_Section|Fills all the subpaths of the intended path, using ''fillStyle'', and using the non-zero winding number rule. Open subpaths must be implicitly closed when being filled (without affecting the actual subpaths).}}
 {{API_Object_Method
-|Parameters=
+|Parameters={{Method Parameter
+|Name=path
+|Data type=DOM Node
+|Description=The path to be filled.
+|Optional=Yes
+}}
 |Method_applies_to=apis/canvas/CanvasRenderingContext2D
 |Example_object_name=object
 |Return_value_name=object
