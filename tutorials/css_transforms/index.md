@@ -179,7 +179,7 @@ only the ''x'' axis.
 
 [[Image:transform_skew.png]]
 
-Note that skewing along both ''x'' and ''y'' makes the element appear to
+Skewing along both ''x'' and ''y'' makes the element appear to
 move into three-dimensional space, but the transformation actually
 occurs within a flat plane. Skip below for information about 3D
 transforms.
@@ -305,9 +305,9 @@ but with the viewpoint shifted to the right:
  perspective-origin-x : 500px;
 
 This only affects how the transformed element appears, not the
-ancestor that specifies the perspective.  Note that since percentages
+ancestor that specifies the perspective.  (Since percentages
 refer to the size of the transformed element, pixel units may be
-easier to use.
+easier to use.)
 
 ==3D transforms==
 
