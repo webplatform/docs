@@ -60,13 +60,12 @@ h2, h3 {
 |Not_required=No
 |Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Unknown
+|Chrome_supported=No
 |Chrome_version=
-|Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
-|Firefox_supported=Unknown
+|Chrome_prefixed_supported=Yes
+|Firefox_supported=No
 |Firefox_version=
-|Firefox_prefixed_supported=Unknown
+|Firefox_prefixed_supported=No
 |Firefox_prefixed_version=
 |Internet_explorer_supported=Unknown
 |Internet_explorer_version=
@@ -76,10 +75,9 @@ h2, h3 {
 |Opera_version=12
 |Opera_prefixed_supported=No
 |Opera_prefixed_version=
-|Safari_supported=Unknown
+|Safari_supported=No
 |Safari_version=
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
+|Safari_prefixed_supported=Yes
 }}
 |Mobile_rows=
 |Notes_rows=
