@@ -44,7 +44,6 @@ This method can return one of these values.
 {{!}}SecurityError
 {{!}}The current font is not of the same origin or domain as the document that owns the canvas element.
 {{!}}}
-
 }}
 {{Examples_Section
 |Not_required=Yes
