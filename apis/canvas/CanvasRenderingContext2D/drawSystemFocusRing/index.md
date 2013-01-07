@@ -25,7 +25,7 @@
 |Examples=
 }}
 {{Notes_Section
-|Usage=The focus ring should not be subject to the shadow effects, the global alpha, or the global composition operators, but should be subject to the clipping region.
+|Notes=The focus ring should not be subject to the shadow effects, the global alpha, or the global composition operators, but should be subject to the clipping region.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
