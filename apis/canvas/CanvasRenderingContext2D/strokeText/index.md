@@ -22,7 +22,7 @@
 }}{{Method Parameter
 |Name=maxWidth
 |Data type=Number
-|Description=The maximum possible text width. If the value is less than [apis/canvas/TextMetrics/width width], the text  is scaled to fit.
+|Description=The maximum possible text width. If the value is less than [[apis/canvas/TextMetrics/width|width]], the text  is scaled to fit.
 |Optional=Yes
 }}
 |Method_applies_to=apis/canvas/CanvasRenderingContext2D
