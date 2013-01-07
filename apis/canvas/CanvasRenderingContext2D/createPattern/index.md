@@ -18,10 +18,10 @@
 * "repeat-y" (vertical only)
 * "no-repeat" (neither).
 
-If the parameter does not match one of the allowed values, the method throws a ''SyntaxError'' exception. 
+If the parameter does not match one of the allowed values, the method throws a ''SyntaxError'' exception.
 |Optional=No
 }}
-|Method_applies_to=canvas/objects/CanvasRenderingContext2D
+|Method_applies_to=apis/canvas/CanvasRenderingContext2D
 |Example_object_name=object
 |Return_value_name=object
 |Javascript_data_type=DOM Node
