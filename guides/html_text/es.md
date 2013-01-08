@@ -1,17 +1,13 @@
 {{Page_Title|Texto en HTML}}
 {{Flags}}
 {{Byline}}
-{{Summary_Section}}
-{{Guide
-|Content== Texto en HTML =
-
-== Introducción ==
-
-En este apartado explicaremos los conceptos básicos del uso de HTML para describir el significado del contenido dentro del cuerpo de vuestro documento.
+{{Summary_Section|En este apartado explicaremos los conceptos básicos del uso de HTML para describir el significado del contenido dentro del cuerpo de vuestro documento.
 
 Veremos elementos estructurales generales como los títulos y los párrafos y la incrustación de citas y código. Después también veremos el contenido en línea, como por ejemplo las citas cortas y el énfasis, y acabaremos con un análisis rápido del contenido presentacional anticuado. 
 
-== El espacio: la última frontera ==
+}}
+{{Guide
+|Content=== El espacio: la última frontera ==
 
 Una cuestión muy importante que queremos tratar antes de empezar a hablar sobre el texto es la del espacio, y concretamente la del espacio entre palabras. Cuando se escribe el HTML, el documento fuente contendrá lo que se conoce como "espacios en blanco", que son los caracteres del archivo que sirven para separar el texto. El carácter de espacio más habitual es el que se obtiene al pulsar la barra espaciadora, pero hay otros, como el tabulador y la marca entre dos líneas independientes de un documento (conocido como retorno o línea nueva).
 
@@ -182,7 +178,6 @@ Se ajusta el tamaño del texto; se debería conseguir con el CSS.
 == Resumen ==
 
 En este apartado hemos hablado de algunos de los elementos más comunes que se utilizan para etiquetar contenido textual. En el siguiente apartado hablaremos de otro tipo de contenido: las listas.
-
 }}
 {{Notes_Section}}
 {{Compatibility_Section
