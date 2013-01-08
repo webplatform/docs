@@ -1,3 +1,5 @@
+=Welcome to Web Platform Docs=
+
 ==Summary==
 
 Web Platform Docs is a community-driven site that aims to become a comprehensive and authoritative source for web developer documentation.
