@@ -1,78 +1,60 @@
-{{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
-}}
-{{Standardization_Status|}}
+{{Page_Title}}
+{{Flags}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
+{{Summary_Section|Returns a linear '''CanvasGradient''' initialized with the specified line as represented by the start point (''x0, y0'') and end point (''x1, y1'') of the gradient.}}
 {{API_Object_Method
-|Parameters={{Method Parameter|Name=x0|Data type=float|Description=The x-coordinate, in pixels, of the start point of the gradient.|Optional=}}
-{{Method Parameter|Name=y0|Data type=float|Description=The y-coordinate, in pixels, of the start point of the gradient.|Optional=}}
-{{Method Parameter|Name=x1|Data type=float|Description=The x-coordinate, in pixels, of the end point of the gradient.|Optional=}}
-{{Method Parameter|Name=y1|Data type=float|Description=The y-coordinate, in pixels, of the end point of the gradient.|Optional=}}
-|Method_applies_to=canvas/objects/CanvasRenderingContext2D
+|Parameters={{Method Parameter
+|Name=x0
+|Data type=Number
+|Description=The x-coordinate, in pixels, of the start point of the gradient.
+|Optional=No
+}}{{Method Parameter
+|Name=y0
+|Data type=Number
+|Description=The y-coordinate, in pixels, of the start point of the gradient.
+|Optional=No
+}}{{Method Parameter
+|Name=x1
+|Data type=Number
+|Description=The x-coordinate, in pixels, of the end point of the gradient.
+|Optional=No
+}}{{Method Parameter
+|Name=y1
+|Data type=Number
+|Description=The y-coordinate, in pixels, of the end point of the gradient.
+|Optional=No
+}}
+|Method_applies_to=apis/canvas/CanvasRenderingContext2D
 |Example_object_name=object
 |Return_value_name=object
 |Javascript_data_type=DOM Node
-|Return_value_description='''ICanvasGradient'''
-
-A [[canvas/objects/CanvasGradient|'''CanvasGradient''']] object that represents the new linear gradient.
-
-
+|Return_value_description=A ''CanvasGradient'' object that represents the new linear gradient.
 }}
-{{Topics|DOM}}
 {{Examples_Section
+|Not_required=Yes
+|Examples=
+}}
+{{Notes_Section}}
+{{Related_Specifications_Section
+|Specifications={{Related Specification
+|Name=W3C HTML Canvas 2D Specification
+|URL=http://www.w3.org/TR/2012/CR-2dcontext-20121217/
+|Status=W3C Candidate Recommendation
+}}
+}}
+{{Compatibility_Section
 |Not_required=No
-|Examples={{Single_Example
-|Description=The following code example creates a gradient.
-|LiveURL=
-|Code=
-&lt;!DOCTYPE html&gt; &lt;html&gt;
-&lt;head&gt;
-  &lt;script type{{=}}"text/javascript"&gt;
-function draw()
-{
-  var canvas {{=}} document.getElementById("MyCanvas");
- 	if (canvas.getContext) {
- 	  var ctx {{=}} canvas.getContext("2d");
-      gradient {{=}} ctx.createLinearGradient(0, 0, canvas.width, 0);
-  // Add the colors with fixed stops at 1/4 of the width.
-      gradient.addColorStop("0","magenta");
-      gradient.addColorStop(".25","blue");
-      gradient.addColorStop(".50","green");
-      gradient.addColorStop(".75","yellow");
-      gradient.addColorStop("1.0","red");
-      
-      // Use the gradient.
-      ctx.fillStyle {{=}} gradient;
-      ctx.fillRect (0,0,300,250);  
-      ctx.fillRect(250,300,600,500);
-    }  
-}
-  &lt;/script&gt;
-&lt;/head&gt;
-&lt;body&gt;
-  &lt;canvas id{{=}}"MyCanvas" width{{=}}"600" height{{=}}"500"&gt; &lt;/canvas&gt;
-    &lt;button onclick{{=}}"draw()"&gt;Click me&lt;/button&gt;        
-&lt;/body&gt;
-&lt;/html&gt;
-}}}}
-{{Notes_Section
-|Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}197017 The canvas element], Section 5
-
-
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
-{{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
-*<code>[[canvas/objects/CanvasRenderingContext2D|CanvasRenderingContext2D]]</code>
-}}
+{{See_Also_Section}}
+{{Topics|Canvas}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=
 |HTML5Rocks_link=
 }}
