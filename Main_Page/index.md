@@ -97,7 +97,7 @@ Web Platform Docs is a community-driven site that aims to become a comprehensive
   </div>
 
   
-    <div class="long-topic">
+  <div class="long-topic">
   
     <div class="image icon-svg"></div>
     
@@ -105,6 +105,18 @@ Web Platform Docs is a community-driven site that aims to become a comprehensive
     <h3>[[svg|SVG]]</h3>
     
     <p>SVG is an XML-based language that allows us to define, animate and style vector graphics.</p>
+    </div>
+  
+  </div>
+
+  <div class="long-topic">
+  
+    <div class="image icon-api"></div>
+    
+    <div class="inner">
+    <h3>[[apis|APIs]]</h3>
+    
+    <p>JavaScript APIs allow us to easily control web standards features, and consume data and services from 3rd party sources.</p>
     </div>
   
   </div>
