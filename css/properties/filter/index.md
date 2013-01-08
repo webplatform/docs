@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Stub
-|Editorial notes=MikeSierra has content
+|Editorial notes=Sierra has content
 }}
 {{Standardization_Status}}
 {{API_Name}}
