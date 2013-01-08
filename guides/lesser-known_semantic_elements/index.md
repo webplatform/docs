@@ -1,5 +1,6 @@
 {{Page_Title|Lesser-known semantic elements}}
-{{Flags}}
+{{Flags
+}}
 {{Byline}}
 {{Summary_Section|This article discusses some of the lesser known and more
 infrequently used semantic elements available in HTML.
