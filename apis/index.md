@@ -67,7 +67,7 @@ To contribute to the development of APIs and provide feedback, you need to know 
 == Index of all HTML topics ==
 
 {{Concept_Listing
-|Query=[[Category:API_Objects]]
+|Query=[[Category:API_Listings]]
 |Use_page_title=No
 |List_all_subpages=Yes
 }}
