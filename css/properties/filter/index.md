@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page_Title|filter property}}
 {{Flags
 |High-level issues=Stub
 |Editorial notes=Sierra has content
