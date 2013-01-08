@@ -15,7 +15,7 @@ APIs, or Application Programming Interfaces, is a widespread and popular concept
     <div class="inner">
     <h3>[[html/apis|API topic #1]]</h3>
     
-    <p>This is the descriptive blurb for API topic #1.</p>
+    <p>This is the descriptive blurb for API topic #1, to let you know what it's all about.</p>
     </div>
   
   </div>
@@ -27,7 +27,7 @@ APIs, or Application Programming Interfaces, is a widespread and popular concept
     <div class="inner">
     <h3>[[html/apis|API topic #2]]</h3>
     
-    <p>This is the descriptive blurb for API topic #2.</p>
+    <p>This is the descriptive blurb for API topic #2, to let you know what it's all about.</p>
     </div>
   
   </div>
@@ -39,7 +39,7 @@ APIs, or Application Programming Interfaces, is a widespread and popular concept
     <div class="inner">
     <h3>[[html/apis|API topic #3]]</h3>
     
-    <p>This is the descriptive blurb for API topic #3.</p>
+    <p>This is the descriptive blurb for API topic #3, to let you know what it's all about.</p>
     </div>
   
   </div>
