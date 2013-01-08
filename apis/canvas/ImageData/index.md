@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Represents a rectangular selection within a '''canvas''' element.}}
+{{Summary_Section|The ImageData object of the canvas API.}}
 {{API_Object}}
 {{Examples_Section
 |Not_required=Yes
