@@ -32,6 +32,8 @@
 }}
 {{Notes_Section
 |Notes=When this method is invoked with two arguments, ''sw'' and ''sh'', it returns an '''ImageData''' object representing a rectangle with a width in CSS pixels equal to the absolute magnitude of ''sw'' and a height in CSS pixels equal to the absolute magnitude of ''sh''. When invoked with a single ''imagedata'' argument, it returns an '''ImageData''' object representing a rectangle with the same dimensions as the '''ImageData''' object passed as the argument. The object returned is filled with transparent black.
+
+This method is never called with all three arguments.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
