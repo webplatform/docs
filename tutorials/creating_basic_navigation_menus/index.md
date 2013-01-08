@@ -1,5 +1,6 @@
 {{Page_Title|Creating basic navigation menus}}
-{{Flags}}
+{{Flags
+}}
 {{Byline}}
 {{Summary_Section|In this tutorial we will take you through how to create different types of basic navigation menu using HTML lists and links.}}
 {{Tutorial
