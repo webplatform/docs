@@ -56,7 +56,7 @@ APIs came into popularity on the Web a number of years ago, when open standards 
 
 * Web sites/applications as diverse as [https://dev.twitter.com/docs Twitter], [http://www.flickr.com/services/developer/ Flickr], [https://affiliate-program.amazon.com/gp/advertising/api/detail/main.html Amazon], [http://code.google.com/apis/youtube/overview.html YouTube], [http://www.dropbox.com/developers Drop Box] and [http://www.guardian.co.uk/open-platform The Guardian].
 * JavaScript libraries such as [http://modernizr.com/ Modernizr], [http://jquery.com/ jQuery] and [http://raphaeljs.com/ Raphaël].
-* HTML5 APIs such as the [http://www.w3.org/html/wg/drafts/html/master/embedded-content-0.html#media-elements Media API], [http://www.w3.org/html/wg/drafts/html/master/editing.html#dnd Drag n Drop API]], [http://www.w3.org/html/wg/drafts/html/master/browsers.html#offline Offline web applications API] and [http://www.w3.org/html/wg/drafts/html/master/browsers.html#history History API].
+* HTML5 APIs such as the [http://www.w3.org/html/wg/drafts/html/master/embedded-content-0.html#media-elements Media API], [http://www.w3.org/html/wg/drafts/html/master/editing.html#dnd Drag n Drop API], [http://www.w3.org/html/wg/drafts/html/master/browsers.html#offline Offline web applications API] and [http://www.w3.org/html/wg/drafts/html/master/browsers.html#history History API].
 
 These allow us to do wonderful things such as reuse media content from 3rd party sources, write feature detection detection tests really easy, write effective cross browser SVG and events, and control HTML5 video.
 
