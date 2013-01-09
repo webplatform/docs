@@ -1,7 +1,6 @@
 {{Page_Title|Drawing an Image onto a Canvas}}
 {{Flags
 |High-level issues=Missing Relevant Sections
-|Editorial notes=I'm (Asbjornenge) currently working on this article.
 }}
 {{API_Name}}
 {{Summary_Section|In this article we will explore how to draw Images onto a Canvas. 
