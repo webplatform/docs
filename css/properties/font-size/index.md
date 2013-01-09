@@ -118,6 +118,7 @@ Possible length values specified in a relative measurement, using the height of 
 |Opera_mobile_prefixed_supported=No
 |Opera_mobile_prefixed_version=
 |Opera_mini_supported=Yes
+|Opera_mini_version=1.0
 |Opera_mini_prefixed_supported=No
 |Opera_mini_prefixed_version=
 |Safari_mobile_supported=Yes
