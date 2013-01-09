@@ -205,6 +205,8 @@ As mentioned in the introduction, "Retina"-Displays will show blurry images by d
 
 '''Comment:''' ''Is this even possible considering that we cannot pass dom elements to a worker? I've tried this and I get exceptions. We should mention web workers since they can do work for a canvas, but not drawing work I'm afraid. Or...?''
 
+'''Comment:''' ''You are right. We cant draw onto a canvas using a worker. But we should mention, that workers can be used to manipulate the pixel data of a canvas. We can pass the pixel data to a worker, do some work with it and pass it pack''
+
 ==Using WebGL for Drawing?==
 
 * WebGL is a 2D API!
