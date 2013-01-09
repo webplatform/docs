@@ -9,15 +9,14 @@
 |Use_page_title=No
 |List_all_subpages=No
 }}
-{{Notes_Section
-|Usage===See also==
-{{Concept_Listing|
+{{Notes_Section}}
+{{See_Also_Section
+|Manual_links={{Concept_Listing|
 Query=[[Category:Appcache]]
-Use_page_title=Yes
-List_all_subpages=No
+|Use_page_title=Yes
+|List_all_subpages=No
 }}
 }}
-{{See_Also_Section}}
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
