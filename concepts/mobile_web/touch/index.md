@@ -36,9 +36,10 @@ Building sites for both mouse and touch input
 
 Though the mouse is still a very common input modality, increasingly, the web is being viewed on touch screens. This means that we need to build sites that work well for both mouse and touch. Furthermore, some devices (eg. Windows 8 Surface) let you use both kinds of input by providing a touch screen and a physical keyboard. It is not safe to assume that just because a device has touch support, it doesn't have mouse input, and vice versa. 
 
-Because of this complex landscape, it's important to do proper feature detection. New media queries have been proposed around the coarseness of the input (pointer: coarse|fine|none), and presence of hover state. In general, feature detection is best handled by an external library like Modernizr, since feature detection approaches vary between browsers and browser versions, and are constantly in flux.
+Because of this complex landscape, it's important to do proper feature detection. New media queries have been proposed around the coarseness of the input, and presence of hover state. In general, feature detection is best handled by an external library like Modernizr, since feature detection approaches vary between browsers and browser versions, and are constantly in flux.
 
 Because many web pages were not originally developed for devices with touch screens, browsers implement a fallback to mouse events. If a user taps some element on a touch screen, in addition to triggering a touch event, the browsers will pretend as if there was also a mouse event, and relay it to the page. This behavior is described in more detail in the synthetic mouse events article. You can also prevent the associated synthetic mouse events from firing by calling event.prentDefault() in your touch handlers.
+
 Touch performance considerations
 
 Beware of the infamous 300ms click delay in many mobile web browsers. This delay exists because in many cases, double tapping the screen causes the page to zoom. After each tap, the browser cannot fire a click event until it is certain that there was no follow up touch event (which would indicate a zoom). This behavior causes a visible delay before the resulting event is fired. This can be remedied by using one of many fast click approaches which use raw touch events, or in some newer browsers by setting the viewport to never scale.
