@@ -12,7 +12,7 @@
 {{Notes_Section}}
 {{See_Also_Section
 |Manual_links={{Concept_Listing|
-Query=[[Category:Appcache]][[Category:!API_Objects]]
+Query=[[Category:Appcache]][[!Category:API_Objects]]
 |Use_page_title=Yes
 |List_all_subpages=No
 }}
