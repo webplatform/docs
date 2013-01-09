@@ -3,23 +3,23 @@
 {{API_Name}}
 {{Summary_Section|Today's mobile devices are exploding in popularity, and most of them have capacitive touch screens, which provide input affordances that are very different from keyboard-and-mouse interfaces.  When the web was being developed, the vast majority of computers had a keyboard and mouse attached. Thus, the web provided (and continues to provide) a rich API for handling these sorts of input events.}}
 {{Concept_Page
-|Content==Conceptual differences between mouse and touch=
+|Content===Conceptual differences between mouse and touch==
 Today's mobile devices are exploding in popularity, and most of them have capacitive touch screens, which provide input affordances that are very different from keyboard-and-mouse interfaces:
- * Coarse input (fat fingers vs. tiny mouse pointers)
- * Multiple pointers
- * No hover events
+* Coarse input (fat fingers vs. tiny mouse pointers)
+* Multiple pointers
+* No hover events
 
 When the web was being developed, the vast majority of computers had a keyboard and mouse attached. Thus, the web provided (and continues to provide) a rich API for handling these sorts of input events, as described in the mouse and keyboard events article.
 
 With the advent of touch screens, the web had to adapt, and eventually the touch events were developed and implemented in mobile web browsers. 
 
-=Touch events on the web=
+==Touch events on the web==
 The basic touch events of the web are:
- * <code>touchstart</code>, which corresponds to a new finger being placed on the touchscreen.
- * <code>touchmove</code>, which corresponds to a finger moving across the screen.
- * <code>touchend</code>, which corresponds to a finger lifting from the screen.
- * <code>touchenter</code>, which corresponds to a moving finger already on the screen entering a target.
- * <code>touchleave</code>, which corresponds to a moving finger already on the screen leaving a target.
+* <code>touchstart</code>, which corresponds to a new finger being placed on the touchscreen.
+* <code>touchmove</code>, which corresponds to a finger moving across the screen.
+* <code>touchend</code>, which corresponds to a finger lifting from the screen.
+* <code>touchenter</code>, which corresponds to a moving finger already on the screen entering a target.
+* <code>touchleave</code>, which corresponds to a moving finger already on the screen leaving a target.
 
 Each of these events contains a list of touches, with a numeric identifier associated with each touch. The basic touch events article describes this model in greater detail.
 
@@ -46,7 +46,7 @@ Finally, handling large amounts of multi-touch input can be very taxing because 
 Touch screens unlock the possibility of interesting multi-touch gestures, the best known of which is pinch-zoom, often used for zooming content. Unfortunately, this area is heavily laden with patents, leading to an uneven landscape of support across the different browsers. iOS devices provide Safari high level gesture events, and there are a number of JavaScript libraries that implement gestures on top of the raw touch events.
 
 =Touching developer tools=
-Debugging input on mobile devices can be challenging because of the overhead of dealing with multiple devices. Though nothing can really replace testing on the actual device you are targeting, it can make sense to start by using tools to simulate a touch environment on the desktop. The Chrome DevTools provide a way to emulate touch events, essentially pre-translating every mouse event into the equivalent touch one (eg. <code>mousedown becomes touchstart</code>). This is useful for debugging single-touch applications. For more complex interactions, multi-touch can also be simulated (with projects like MagicTouch), given the appropriate setup.
+Debugging input on mobile devices can be challenging because of the overhead of dealing with multiple devices. Though nothing can really replace testing on the actual device you are targeting, it can make sense to start by using tools to simulate a touch environment on the desktop. The Chrome DevTools provide a way to emulate touch events, essentially pre-translating every mouse event into the equivalent touch one (eg. <code>mousedown</code> becomes <code>touchstart</code>). This is useful for debugging single-touch applications. For more complex interactions, multi-touch can also be simulated (with projects like MagicTouch), given the appropriate setup.
 
 With remote debugging in the Chrome DevTools, you can also set up event listener breakpoints that will break whenever a user performs touch-based interactions with the desired element. For more information on these techniques, see the mobile developer tools article.
 
