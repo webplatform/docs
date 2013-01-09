@@ -3,7 +3,9 @@
 {{API_Name}}
 {{Summary_Section|Today's mobile devices are exploding in popularity, and most of them have capacitive touch screens, which provide input affordances that are very different from keyboard-and-mouse interfaces.  When the web was being developed, the vast majority of computers had a keyboard and mouse attached. Thus, the web provided (and continues to provide) a rich API for handling these sorts of input events.}}
 {{Concept_Page
-|Content=Conceptual differences between mouse and touch
+|Content=Touch Input Concept Page for webplatform.org
+
+Conceptual differences between mouse and touch
 
 Today's mobile devices are exploding in popularity, and most of them have capacitive touch screens, which provide input affordances that are very different from keyboard-and-mouse interfaces:
 
