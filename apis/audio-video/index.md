@@ -17,7 +17,7 @@ Query=[[Category:Video]][[Category:Audio]]
 |List_all_subpages=No
 }}
 }}
-{{Topics|Audio, Video}}
+{{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
