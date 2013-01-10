@@ -118,11 +118,11 @@ Several paid-for online tools enable developers to test sites in a variety of re
 
 [https://appthwack.com Appthwack] gives screenshots from different browsers running on real devices, and provides load time estimates.
 
-[BrowserStack https://browserstack.com] allows interaction with emulators or simulators running on virtual machines. 
+[https://browserstack.com BrowserStack] allows interaction with emulators or simulators running on virtual machines. 
 
-[Perfecto Mobile http://www.perfectomobile.com/portal/cms/services/web_access_to_real_handsets.html], [DeviceAnywhere http://www.keynotedeviceanywhere.com/da-free-product-overview.html] also use real devices.
+[http://www.perfectomobile.com/portal/cms/services/web_access_to_real_handsets.html Perfecto Mobile] and [http://www.keynotedeviceanywhere.com/da-free-product-overview.html DeviceAnywhere] also use real devices.
 
-[Saucelabs https://saucelabs.com/] provides integration with Selenium RC and WebDriver.
+[https://saucelabs.com/ Saucelabs] provides integration with Selenium RC and WebDriver.
 
 
 == Remote debugging ==
