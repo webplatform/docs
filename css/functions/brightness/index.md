@@ -2,13 +2,21 @@
 {{Flags
 |High-level issues=Stub
 |Content=Incomplete, Examples Needed
-|Editorial notes=2DO: Sierra
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Image processing function for use by the [[css/properties/filter|'''filter''']] property. 2DO: SUMMARY}}
+{{Summary_Section|Adjust the brightness of an element's color, for use
+by the [[css/properties/filter|'''filter''']] property.  A value of
+100% or decimal value of 1 leaves the image as is, while 0 produces
+black.  Increasing the value from 1 or 100% brightens pixels from
+their original values.}}
 {{CSS_Function
-|Content=2DO: CONTENT
+|Content=This CSS property value is reflected in the following image:
+
+ filter: brightness(140%);
+ filter: brightness(1.4); /* same */
+
+[[Image:f17-boatonlake2.jpg|300px]]&nbsp;[[Image:f18-boatonlake2bright.jpg|300px]]
 }}
 {{Examples_Section
 |Not_required=Yes
