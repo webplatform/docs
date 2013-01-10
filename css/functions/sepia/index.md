@@ -6,9 +6,18 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Image processing function for use by the [[css/properties/filter|'''filter''']] property. 2DO: SUMMARY}}
-{{CSS_Function
-|Content=2DO: CONTENT
+{{Summary_Section|Apply a sepia tinge to an element's color, typical
+of old photographs, for use by the
+[[css/properties/filter|'''filter''']] property.  A decimal value
+between 0 and 1 or percentage up to 100% controls the extent of the
+sepia effect.}}
+{{CSS_Function |Content=This CSS property value is reflected in the
+following example:
+
+ filter: sepia(1);
+ filter: sepia(100%); /* same */
+
+[[Image:f07-lenna.jpg|300px]]&nbsp;[[Image:f08-lennasepia.jpg|300px]]
 }}
 {{Examples_Section
 |Not_required=Yes
