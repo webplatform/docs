@@ -1,6 +1,7 @@
 {{Page_Title|filter property}}
 {{Flags
 |High-level issues=Stub
+|Content=Incomplete, Examples Needed
 |Editorial notes=2DO: Sierra
 }}
 {{Standardization_Status|W3C Editor's Draft}}
@@ -96,6 +97,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section
+|Topic_clusters=Filters
 |External_links=* W3C editor's draft: [https://dvcs.w3.org/hg/FXTF/raw-file/tip/filters/index.html# Filter Effects 1.0]
 }}
 {{Topics|CSS, Graphics, SVG}}
