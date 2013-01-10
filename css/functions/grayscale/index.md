@@ -11,8 +11,10 @@ use by the [[css/properties/filter|'''filter''']] property. A decimal
 value between 0 and 1 or percentage up to 100% controls the extent of
 the gray effect.}}
 {{CSS_Function
-|Content=The following shows an image before and after applying
-'''gray(1)''':
+|Content=This CSS property value is reflected in the following example:
+
+ filter: grayscale(1);
+ filter: grayscale(100%); /* same */
 
 [[Image:f05-boatonlake.jpg|300px]]&nbsp;[[Image:f06-boatonlakegray.jpg|300px]]
 }}
