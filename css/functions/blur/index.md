@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|[[User:Sierra|Sierra]] ([[User talk:Sierra|talk]]) SUMMARY}}
+{{Summary_Section|2DO: SUMMARY}}
 {{CSS_Function}}
 {{Examples_Section
 |Not_required=No
