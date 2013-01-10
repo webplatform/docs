@@ -1,8 +1,5 @@
 {{Page_Title|brightness()}}
-{{Flags
-|High-level issues=Stub
-|Content=Incomplete, Examples Needed
-}}
+{{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Adjust the brightness of an element's color, for use
