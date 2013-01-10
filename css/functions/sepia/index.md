@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Image processing function for use by [[css/properties/filter|'''filter''']] property}}
+{{Summary_Section|Image processing function for use by the [[css/properties/filter|'''filter''']] property. 2DO: SUMMARY}}
 {{CSS_Function
 |Content=2DO: CONTENT
 }}
