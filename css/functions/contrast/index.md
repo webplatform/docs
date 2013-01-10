@@ -2,13 +2,21 @@
 {{Flags
 |High-level issues=Stub
 |Content=Incomplete, Examples Needed
-|Editorial notes=2DO: Sierra
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Image processing function for use by the [[css/properties/filter|'''filter''']] property. 2DO: SUMMARY}}
+{{Summary_Section|Adjusts the difference between light and dark
+values, for use by the [[css/properties/filter|'''filter''']]
+property.  A value of 100% or a decimal value of 1 leaves the image as
+is, while 0 results in black. Increasing the value past 1 or 100%
+produces more dramatically stratified areas of light and dark.}}
 {{CSS_Function
-|Content=2DO: CONTENT
+|Content=This CSS property value is reflected in the following image:
+
+ filter: contrast(200%);
+ filter: contrast(2); /* same */
+
+[[Image:f19-jellybeans.jpg|300px]]&nbsp;[[Image:f20-jellybeancontrast.jpg|300px]]
 }}
 {{Examples_Section
 |Not_required=Yes
