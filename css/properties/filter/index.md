@@ -25,6 +25,10 @@
 |Language=CSS
 |Description=2DO: CSS PROPERTY
 |Code=/* 2DO: EXAMPLE */
+}}{{Single Example
+|Language=CSS
+|Description=2DO: 2nd CSS EXAMPLE
+|Code=/* 2DO: 2nd EXAMPLE */
 }}
 }}
 {{Notes_Section}}
