@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section| Applies a shadow to an element's pixels, for use by
+{{Summary_Section|Applies a shadow to an element's pixels, for use by
 the [[css/properties/filter|'''filter''']] property.  Accepts up to 3
 distance measurements, representing ''x''/''y'' offset and blur
 radius, along with a color value.}}
