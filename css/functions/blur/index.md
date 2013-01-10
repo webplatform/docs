@@ -15,6 +15,11 @@ leaves the image as is.}}
  filter: blur(10px);
 
 [[Image:f21-peppers2.jpg|300px]]&nbsp;[[Image:f22-peppers2blur.jpg|300px]]
+
+Note that pixels blur around the contours of image transparencies, as
+in the following:
+
+[[Image:music_blur.png]]
 }}
 {{Examples_Section
 |Not_required=Yes
