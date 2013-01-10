@@ -69,7 +69,7 @@
 |Blackberry_version=
 |Blackberry_prefixed_supported=Yes
 |Blackberry_prefixed_version=10.0
-|Chrome_mobile_supported=Unknown
+|Chrome_mobile_supported=No
 |Chrome_mobile_version=
 |Chrome_mobile_prefixed_supported=Yes
 |Chrome_mobile_prefixed_version=25
