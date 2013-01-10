@@ -3,9 +3,9 @@
 |High-level issues=Stub
 |Editorial notes=2DO: Sierra
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|2DO: SUMMARY}}
 {{CSS_Function}}
 {{Examples_Section
 |Not_required=No
@@ -23,7 +23,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics}}
+{{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
