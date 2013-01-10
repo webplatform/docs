@@ -2,13 +2,19 @@
 {{Flags
 |High-level issues=Stub
 |Content=Incomplete, Examples Needed
-|Editorial notes=2DO: Sierra
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Image processing function for use by the [[css/properties/filter|'''filter''']] property. 2DO: SUMMARY}}
+{{Summary_Section|Shifts an element's relative hue, for use by the
+[[css/properties/filter|'''filter''']] property. Accepts either a
+'''deg''' or '''rad''' angle measurement representing a wheel of hues.
+}}
 {{CSS_Function
-|Content=2DO: CONTENT
+|Content=This CSS property value is reflected in the following image:
+
+ filter: hue-rotate(90deg);
+
+[[Image:f11-mandrill.jpg|300px]]&nbsp;[[Image:f12-mandrillhuerotate.jpg|300px]]
 }}
 {{Examples_Section
 |Not_required=Yes
