@@ -1,8 +1,5 @@
 {{Page_Title|saturate()}}
-{{Flags
-|High-level issues=Stub
-|Content=Incomplete, Examples Needed
-}}
+{{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section| Applies a saturation effect to an element's color,
