@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Apply image processing functions}}
+{{Summary_Section|Apply pixel-level image processing effects}}
 {{CSS Property
 |Initial value=none
 |Applies to=All elements
