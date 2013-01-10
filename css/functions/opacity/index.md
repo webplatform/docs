@@ -2,14 +2,27 @@
 {{Flags
 |High-level issues=Stub
 |Content=Incomplete, Examples Needed
-|Editorial notes=2DO: Sierra
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Image processing function for use by the [[css/properties/filter|'''filter''']] property. 2DO: SUMMARY}}
+{{Summary_Section|Applies a transparency effect to an element's
+colors, for use by the [[css/properties/filter|'''filter''']]
+property. A decimal value between 0 and 1 or percentage up to 100%
+controls the overall opacity, with 0 rendering the element invisible
+and background elements showing through. }}
 {{CSS_Function
-|Content=2DO: CONTENT
-}}
+|Content=This CSS property value is reflected in the following image:
+
+ filter: opacity(50%);
+ filter: opacity(0.5);
+
+[[Image:f15-splash.jpg|300px]]&nbsp;[[Image:f16-splashopacity50.jpg|300px]]
+
+'''Note:''' As is true for the related
+[[css/properties/opacity|'''opacity''']] CSS property, transparent
+elements still receive mouse and touch events, but the
+[[css/properties/pointer-events|'''pointer-events''']] property offers
+a way to override this behavior.}}
 {{Examples_Section
 |Not_required=Yes
 |Examples=
