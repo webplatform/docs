@@ -1,8 +1,5 @@
 {{Page_Title|sepia()}}
-{{Flags
-|High-level issues=Stub
-|Content=Incomplete, Examples Needed
-}}
+{{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Apply a sepia tinge to an element's color, typical
