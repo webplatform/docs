@@ -13,7 +13,10 @@
 |Media=visual
 |Animatable=Yes
 |CSS object model property=filter
-|Values=
+|Values={{CSS Property Value
+|Data Type=<functions>
+|Description=Any combination of built-in filter functions: 2DO
+}}
 }}
 {{Examples_Section
 |Not_required=No
