@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section| Applies a saturation effect to an element's color,
+{{Summary_Section|Applies a saturation effect to an element's color,
 making it appear more or less vivid, for use by the
 [[css/properties/filter|'''filter''']] property.  A decimal value of 1
 or percentage of 100% keeps the image as is, while increasing the
