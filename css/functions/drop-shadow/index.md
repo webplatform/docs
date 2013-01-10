@@ -1,9 +1,5 @@
 {{Page_Title|drop-shadow()}}
-{{Flags
-|High-level issues=Stub
-|Content=Incomplete, Examples Needed
-|Editorial notes=2DO: Sierra
-}}
+{{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section| Applies a shadow to an element's pixels, for use by
