@@ -2,13 +2,21 @@
 {{Flags
 |High-level issues=Stub
 |Content=Incomplete, Examples Needed
-|Editorial notes=2DO: Sierra
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Image processing function for use by the [[css/properties/filter|'''filter''']] property. 2DO: SUMMARY}}
+{{Summary_Section| Applies a saturation effect to an element's color,
+making it appear more or less vivid, for use by the
+[[css/properties/filter|'''filter''']] property.  A decimal value of 1
+or percentage of 100% keeps the image as is, while increasing the
+amount produces more dramatically stratified hues.}}
 {{CSS_Function
-|Content=2DO: CONTENT
+|Content=This CSS property value is reflected in the following image:
+
+ filter: saturate(1000%);
+ filter: saturate(10); /* same */
+
+[[Image:f09-tiffany.jpg|300px]]&nbsp;[[Image:f10-tiffanysaturate.jpg|300px]]
 }}
 {{Examples_Section
 |Not_required=Yes
