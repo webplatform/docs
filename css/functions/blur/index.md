@@ -2,13 +2,19 @@
 {{Flags
 |High-level issues=Stub
 |Content=Incomplete, Examples Needed
-|Editorial notes=2DO: Sierra
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Image processing function for use by the [[css/properties/filter|'''filter''']] property. 2DO: SUMMARY}}
+{{Summary_Section|Blurs an element, for use by the
+[[css/properties/filter|'''filter''']] property.  Accepts a distance
+measurement within which pixels are randomly scattered. A value of 0
+leaves the image as is.}}
 {{CSS_Function
-|Content=2DO: CONTENT
+|Content=This CSS property value is reflected in the following image:
+
+ filter: blur(10px);
+
+[[Image:f21-peppers2.jpg|300px]]&nbsp;[[Image:f22-peppers2blur.jpg|300px]]
 }}
 {{Examples_Section
 |Not_required=Yes
