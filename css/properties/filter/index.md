@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|2DO: SUMMARY}}
+{{Summary_Section|Apply image processing functions}}
 {{CSS Property
 |Initial value=none
 |Applies to=All elements
@@ -14,8 +14,19 @@
 |Animatable=Yes
 |CSS object model property=filter
 |Values={{CSS Property Value
-|Data Type=<functions>
-|Description=Any combination of built-in filter functions: 2DO
+|Data Type=&lt;functions>
+|Description=Any combination of built-in filter functions:
+
+* [[css/functions/blur|'''blur()''']]
+* [[css/functions/brightness|'''brightness()''']]
+* [[css/functions/contrast|'''contrast()''']]
+* [[css/functions/drop-shadow|'''drop-shadow()''']]
+* [[css/functions/grayscale|'''grayscale()''']]
+* [[css/functions/hue-rotate|'''hue-rotate()''']]
+* [[css/functions/invert|'''invert()''']]
+* [[css/functions/opacity|'''opacity()''']]
+* [[css/functions/saturate|'''saturate()''']]
+* [[css/functions/sepia|'''sepia()''']]
 }}
 }}
 {{Examples_Section
@@ -26,9 +37,7 @@
 |Code=/* 2DO: EXAMPLE */
 }}
 }}
-{{Notes_Section
-|Usage=2DO: XREFs
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=Filter Effects 1.0
