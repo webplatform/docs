@@ -1,11 +1,11 @@
-{{Page_Title}}
+{{Page_Title|sepia()}}
 {{Flags
 |High-level issues=Stub
 |Editorial notes=2do: sierra
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|[[User:Sierra|Sierra]] ([[User talk:Sierra|talk]]) SUMMARY}}
 {{CSS_Function}}
 {{Examples_Section
 |Not_required=No
@@ -13,7 +13,10 @@
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=Filter Effects 1.0
+|URL=https://dvcs.w3.org/hg/FXTF/raw-file/tip/filters/index.html#
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -76,8 +79,11 @@
 }}
 |Notes_rows=
 }}
-{{See_Also_Section}}
-{{Topics}}
+{{See_Also_Section
+|Topic_clusters=Filters
+|External_links=* W3C editor's draft: [https://dvcs.w3.org/hg/FXTF/raw-file/tip/filters/index.html# Filter Effects 1.0]
+}}
+{{Topics|CSS, Graphics, SVG}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
