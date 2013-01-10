@@ -1,6 +1,5 @@
 {{Page_Title|Mobile web debugging}}
-{{Flags
-}}
+{{Flags}}
 {{API_Name}}
 {{Summary_Section|Debugging web applications on multiple platforms requires careful prioritisation, different from developing for desktop alone. This article explains techniques and tools available, with links to external resources.}}
 {{Concept_Page
@@ -112,6 +111,19 @@ Simulators and emulators are available for many platforms, and browsers can be i
 * [http://developer.apple.com/library/ios/#DOCUMENTATION/Xcode/Conceptual/ios_development_workflow/25-Using_iOS_Simulator/ios_simulator_application.html iOS simulator]
 
 The [http://www.opera.com/developer/tools/mobile/ Opera Mobile simulator] can run multiple Opera Mobile instances, each with its own settings (such as resolution and pixel density) and can be used in collaboration with the Opera Dragonfly development tools.
+
+=== Online tools ===
+
+Several paid-for online tools enable developers to test sites in a variety of real or virtual devices and browsers. 
+
+[https://appthwack.com Appthwack] gives screenshots from different browsers running on real devices, and provides load time estimates.
+
+[BrowserStack https://browserstack.com] allows interaction with emulators or simulators running on virtual machines. 
+
+[Perfecto Mobile http://www.perfectomobile.com/portal/cms/services/web_access_to_real_handsets.html], [DeviceAnywhere http://www.keynotedeviceanywhere.com/da-free-product-overview.html] also use real devices.
+
+[Saucelabs https://saucelabs.com/] provides integration with Selenium RC and WebDriver.
+
 
 == Remote debugging ==
 
