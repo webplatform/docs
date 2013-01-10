@@ -8,7 +8,8 @@
 {{Summary_Section|2DO: SUMMARY}}
 {{CSS Property
 |Initial value=none
-|Inherited=No
+|Applies to=All elements
+|Inherited=Yes
 |Media=visual
 |Animatable=Yes
 |CSS object model property=filter
@@ -16,9 +17,15 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|Description=2DO: CSS PROPERTY
+|Code=/* 2DO: EXAMPLE */
 }}
-{{Notes_Section}}
+}}
+{{Notes_Section
+|Usage=2DO: XREFs
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=Filter Effects 1.0
