@@ -1,8 +1,5 @@
 {{Page_Title|grayscale()}}
-{{Flags
-|High-level issues=Stub
-|Content=Incomplete, Examples Needed
-}}
+{{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Converts an element's color to a shade of gray, for
