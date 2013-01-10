@@ -22,7 +22,7 @@
 |Chrome_supported=Unknown
 |Chrome_version=
 |Chrome_prefixed_supported=Yes
-|Chrome_prefixed_version=21
+|Chrome_prefixed_version=21.0
 |Firefox_supported=No
 |Firefox_version=
 |Firefox_prefixed_supported=No
@@ -38,7 +38,7 @@
 |Safari_supported=Unknown
 |Safari_version=
 |Safari_prefixed_supported=Yes
-|Safari_prefixed_version=6
+|Safari_prefixed_version=6.0
 }}
 |Mobile_rows={{Compatibility Table Mobile Row
 |Android_supported=No
@@ -72,7 +72,7 @@
 |Safari_mobile_supported=No
 |Safari_mobile_version=
 |Safari_mobile_prefixed_supported=Yes
-|Safari_mobile_prefixed_version=6
+|Safari_mobile_prefixed_version=6.0
 }}
 |Notes_rows=
 }}
