@@ -2,7 +2,7 @@
 {{Flags
 |High-level issues=Needs Flags
 |Content=Errors
-|Editorial notes=The saturate() example is incorrect; values over 100% produces more saturation.
+|Editorial notes=The saturate() example is incorrect; values over 100% produces more saturation. Accepts text-shadow syntax, not box-shadow.
 }}
 {{Byline
 |Name=Alex Danilo
