@@ -11,23 +11,27 @@ the [[css/properties/filter|'''filter''']] property.  Accepts up to 3
 distance measurements, representing ''x''/''y'' offset and blur
 radius, along with a color value.}}
 {{CSS_Function
-|Content=Setting offsets to 0 with a positive blur value produces a
-backlit halo effect.  Setting blur to 0 and positive offset values
-produces a raised effect as if sunlight is falling on the element.
-
-This CSS property value is reflected in the following images:
+|Content=This CSS property value is reflected in the following images:
 
  filter: drop-shadow(16px 16px 20px black);   /* left */
  filter: drop-shadow(10px -16px 30px purple); /* right */
 
 [[Image:f23-mandrilldrop1.jpg|300px]]&nbsp;[[Image:f24-mandrillshadow2.jpg|300px]]
 
+Setting offsets to 0 with a positive blur value produces a
+backlit halo effect.  Setting blur to 0 and positive offset values
+produces a raised effect as if sunlight is falling on the element.
 The '''drop-shadow()''' function uses the same syntax as the
 [[css/properties/text-shadow|'''text-shadow''']] CSS property, and
 likewise allows for more than one set of shadow values, separated with
 commas. This example renders both of the shadows shown above:
 
  filter: drop-shadow(16px 16px 20px black, 10px -16px 30px purple);
+
+Note that drop shadows render around the contours of image
+transparencies, such as the following:
+
+[[Image:giraffe_dropshadow.png]]
 }}
 {{Examples_Section
 |Not_required=Yes
