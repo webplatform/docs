@@ -1,8 +1,5 @@
 {{Page_Title|hue-rotate()}}
-{{Flags
-|High-level issues=Stub
-|Content=Incomplete, Examples Needed
-}}
+{{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Shifts an element's relative hue, for use by the
