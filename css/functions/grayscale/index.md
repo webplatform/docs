@@ -16,6 +16,7 @@
 |Specifications={{Related Specification
 |Name=Filter Effects 1.0
 |URL=https://dvcs.w3.org/hg/FXTF/raw-file/tip/filters/index.html#
+|Status=Editor's Draft
 }}
 }}
 {{Compatibility_Section
