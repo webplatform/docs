@@ -2,13 +2,21 @@
 {{Flags
 |High-level issues=Stub
 |Content=Incomplete, Examples Needed
-|Editorial notes=2DO: Sierra
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Image processing function for use by the [[css/properties/filter|'''filter''']] property. 2DO: SUMMARY}}
+{{Summary_Section|Flips an element's colors, for use by the
+[[css/properties/filter|'''filter''']] property.  A decimal value
+between 0 and 1 or percentage up to 100% controls the extent of the
+color-negative effect, with 0.5 or 50% producing gray.
+}}
 {{CSS_Function
-|Content=2DO: CONTENT
+|Content=This CSS property value is reflected in the following image:
+
+ filter: invert(100%);
+ filter: invert(1); /* same */
+
+[[Image:f13-peppers.jpg|300px]]&nbsp;[[Image:f14-peppersinvert.jpg|300px]]
 }}
 {{Examples_Section
 |Not_required=Yes
