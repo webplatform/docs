@@ -1,6 +1,8 @@
 {{Page_Title|Understanding CSS filter effects}}
 {{Flags
 |High-level issues=Needs Flags
+|Content=Errors
+|Editorial notes=The saturate() example is incorrect; values over 100% produces more saturation.
 }}
 {{Byline
 |Name=Alex Danilo
