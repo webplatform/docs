@@ -9,7 +9,7 @@
 {{CSS Property
 |Inherited=No
 |Media=visual
-|Animatable=No
+|Animatable=Yes
 |Values=
 }}
 {{Examples_Section
@@ -85,7 +85,6 @@
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=Filters
 |External_links=* W3C editor's draft: [https://dvcs.w3.org/hg/FXTF/raw-file/tip/filters/index.html# Filter Effects 1.0]
 }}
 {{Topics|CSS, Graphics, SVG}}
