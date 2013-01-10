@@ -23,11 +23,11 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Description=2DO: CSS PROPERTY
+|Description=2DO: CSS USE CASE
 |Code=/* 2DO: EXAMPLE */
 }}{{Single Example
 |Language=CSS
-|Description=2DO: 2nd CSS EXAMPLE
+|Description=2DO: 2nd CSS USE CASE
 |Code=/* 2DO: 2nd EXAMPLE */
 }}
 }}
