@@ -1,12 +1,15 @@
 {{Page_Title|brightness()}}
 {{Flags
 |High-level issues=Stub
+|Content=Incomplete, Examples Needed
 |Editorial notes=2DO: Sierra
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Image processing function for use by [[css/properties/filter|'''filter''']] property}}
-{{CSS_Function}}
+{{Summary_Section|Image processing function for use by the [[css/properties/filter|'''filter''']] property. 2DO: SUMMARY}}
+{{CSS_Function
+|Content=2DO: CONTENT
+}}
 {{Examples_Section
 |Not_required=No
 |Examples=
@@ -81,6 +84,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section
+|Topic_clusters=Filters
 |External_links=* W3C editor's draft: [https://dvcs.w3.org/hg/FXTF/raw-file/tip/filters/index.html# Filter Effects 1.0]
 }}
 {{Topics|CSS, Graphics, SVG}}
