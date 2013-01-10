@@ -238,7 +238,9 @@ If you're using URL-based filters that reference SVG filters, they can contain a
 }}
 |Notes_rows=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Topic_clusters=Filters
+}}
 {{Topics|CSS, Graphics, SVG}}
 {{External_Attribution
 |Is_CC-BY-SA=No
