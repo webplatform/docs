@@ -1,8 +1,5 @@
 {{Page_Title|contrast()}}
-{{Flags
-|High-level issues=Stub
-|Content=Incomplete, Examples Needed
-}}
+{{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Adjusts the difference between light and dark
