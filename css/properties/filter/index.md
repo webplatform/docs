@@ -7,9 +7,11 @@
 {{API_Name}}
 {{Summary_Section|2DO: SUMMARY}}
 {{CSS Property
+|Initial value=none
 |Inherited=No
 |Media=visual
 |Animatable=Yes
+|CSS object model property=filter
 |Values=
 }}
 {{Examples_Section
@@ -21,6 +23,7 @@
 |Specifications={{Related Specification
 |Name=Filter Effects 1.0
 |URL=https://dvcs.w3.org/hg/FXTF/raw-file/tip/filters/index.html#
+|Status=Editor's Draft
 }}
 }}
 {{Compatibility_Section
