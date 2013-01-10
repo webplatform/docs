@@ -2,7 +2,6 @@
 {{Flags
 |High-level issues=Stub
 |Content=Incomplete, Examples Needed
-|Editorial notes=2DO: Sierra
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
@@ -11,7 +10,7 @@ use by the [[css/properties/filter|'''filter''']] property. A decimal
 value between 0 and 1 or percentage up to 100% controls the extent of
 the gray effect.}}
 {{CSS_Function
-|Content=This CSS property value is reflected in the following example:
+|Content=This CSS property value is reflected in the following image:
 
  filter: grayscale(1);
  filter: grayscale(100%); /* same */
