@@ -1,11 +1,11 @@
 {{Page_Title|filter property}}
 {{Flags
 |High-level issues=Stub
-|Editorial notes=Sierra has content
+|Editorial notes=2DO: Sierra
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|[[User:Sierra|Sierra]] ([[User talk:Sierra|talk]]) SUMMARY}}
+{{Summary_Section|2DO: SUMMARY}}
 {{CSS Property
 |Inherited=No
 |Media=visual
