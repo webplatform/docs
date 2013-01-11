@@ -15,6 +15,19 @@ and background elements showing through. }}
 
 [[Image:f15-splash.jpg|300px]]&nbsp;[[Image:f16-splashopacity50.jpg|300px]]
 
+When used in isolation, the '''opacity()''' filter has the same effect
+as the [[css/properties/opacity|'''opacity''']] CSS property, but it
+produces different effects when used in conjunction with other
+filters.  The second example below produces a shadow that shows
+through the image, and the third doesn't when functions execute in
+reverse order:
+
+ filter: none;
+ filter: opacity(0.5) drop-shadow(10px 10px 0px black);
+ filter: drop-shadow(10px 10px 0px black) opacity(0.5);
+
+[[Image:opacitySequence.png]]
+
 '''Note:''' As is true for the related
 [[css/properties/opacity|'''opacity''']] CSS property, transparent
 elements still receive mouse and touch events, but the
