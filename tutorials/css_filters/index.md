@@ -2,7 +2,7 @@
 {{Flags
 |High-level issues=Needs Flags
 |Content=Errors
-|Editorial notes=The saturate() example is incorrect; values over 100% produces more saturation. Accepts text-shadow syntax, not box-shadow.
+|Editorial notes=Accepts text-shadow syntax, not box-shadow.
 }}
 {{Byline
 |Name=Alex Danilo
@@ -97,10 +97,10 @@ Let's take a look at each of them and see what they do.
 ''Original (left); sepia 100% (right)''
 
 ; saturate(amount)
-: This applies a saturation effect to the colors, which makes them look more vivid. It is a cool effect that can make photos look like posters or cartoons. This effect also allows you to use a value greater than 100% to really emphasize the saturation. This is an effect that can make things look pretty funky!
+: This applies a saturation effect to the colors, which makes them look more vivid. It is a cool effect that can make photos look like posters or cartoons. This effect also allows you to use a value greater than 100% (the default) to really emphasize the saturation. This is an effect that can make things look pretty funky!
 
 [[Image:f09-tiffany.jpg|300px]]&nbsp;[[Image:f10-tiffanysaturate.jpg|300px]]<br/>
-''Original (left); saturate 10% (right)''
+''Original (left); saturate 1000% (right)''
 
 '''Note:''' In Chrome version 19 the <code>saturate()</code> filter takes an integer (without the percentage sign) instead of the decimal or percentage as defined in the W3C spec. Not to worry, this is a known bug that will be fixed soon, if it hasn't been already.
 
