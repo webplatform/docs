@@ -156,7 +156,7 @@ isolation. (See each function for details on accepted parameters.)
 {{See_Also_Section
 |Topic_clusters=Filters
 |External_links=* W3C editor's draft: [https://dvcs.w3.org/hg/FXTF/raw-file/tip/filters/index.html# Filter Effects 1.0]
-* [http://html5-demos.appspot.com/static/css/filters/index.html interactive demonstration]
+* [http://html5-demos.appspot.com/static/css/filters/index.html Interactive demonstration]
 }}
 {{Topics|CSS, Graphics, SVG}}
 {{External_Attribution
