@@ -24,8 +24,8 @@ commas. This example renders both of the shadows shown above:
 
  filter: drop-shadow(16px 16px 20px black, 10px -16px 30px purple);
 
-Note that drop shadows render around the contours of image
-transparencies, such as the following:
+The filter affects the contours of image transparencies, which
+allows for more vivid shadow effects:
 
 [[Image:giraffe_dropshadow.png]]
 }}
@@ -105,7 +105,7 @@ transparencies, such as the following:
 {{See_Also_Section
 |Topic_clusters=Filters
 |External_links=* W3C editor's draft: [https://dvcs.w3.org/hg/FXTF/raw-file/tip/filters/index.html# Filter Effects 1.0]
-* [http://html5-demos.appspot.com/static/css/filters/index.html interactive demonstration]
+* [http://html5-demos.appspot.com/static/css/filters/index.html Interactive demonstration]
 }}
 {{Topics|CSS, Graphics, SVG}}
 {{External_Attribution
