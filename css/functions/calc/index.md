@@ -46,7 +46,7 @@
 |Firefox_supported=Yes
 |Firefox_version=16
 |Firefox_prefixed_supported=Yes
-|Firefox_prefixed_version=15
+|Firefox_prefixed_version=4
 |Internet_explorer_supported=Yes
 |Internet_explorer_version=9
 |Internet_explorer_prefixed_supported=No
