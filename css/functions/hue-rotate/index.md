@@ -12,6 +12,17 @@
  filter: hue-rotate(90deg);
 
 [[Image:f11-mandrill.jpg|300px]]&nbsp;[[Image:f12-mandrillhuerotate.jpg|300px]]
+
+Specifying measurements greater than 360&deg; allows animations to
+cycle more than once around the color wheel. This example cycles
+colors three times, then returns to its original set of hues (360
+&times; 3):
+
+ @keyframes spinCycle {
+     from { filter: hue-rotate(0deg)    }
+     to   { filter: hue-rotate(1080deg) }
+ }
+
 }}
 {{Examples_Section
 |Not_required=Yes
