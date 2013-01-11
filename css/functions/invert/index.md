@@ -91,6 +91,7 @@ color-negative effect, with 0.5 or 50% producing gray.
 {{See_Also_Section
 |Topic_clusters=Filters
 |External_links=* W3C editor's draft: [https://dvcs.w3.org/hg/FXTF/raw-file/tip/filters/index.html# Filter Effects 1.0]
+* [http://html5-demos.appspot.com/static/css/filters/index.html interactive demonstration]
 }}
 {{Topics|CSS, Graphics, SVG}}
 {{External_Attribution
