@@ -20,18 +20,12 @@
 }}
 }}
 {{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=CSS
-|Description=2DO: CSS USE CASE
-|Code=/* 2DO: EXAMPLE */
-}}{{Single Example
-|Language=CSS
-|Description=2DO: 2nd CSS USE CASE
-|Code=/* 2DO: 2nd EXAMPLE */
+|Not_required=Yes
+|Examples=
 }}
+{{Notes_Section
+|Usage=2DO: CONTENT
 }}
-{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=Filter Effects 1.0
