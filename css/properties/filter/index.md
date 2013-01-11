@@ -20,9 +20,16 @@
 |Examples=
 }}
 {{Notes_Section
-|Usage=
+|Usage=Filter functions apply any combination of image processing
+functions to visual elements such as images and letterforms.  This
+example shows a combination of more than one filter function:
 
-===Filter function examples===
+ filter: grayscale(100%) sepia(100%);
+
+[[Image:f04-graysepia.jpg|300px]]
+
+The following set of examples shows the effect of each filter function
+in isolation. (See each function for details on accepted parameters.)
 
 [[css/functions/brightness|'''brightness(1.4)''']]
 
@@ -32,7 +39,7 @@
 
 [[Image:f19-jellybeans.jpg|300px]]&nbsp;[[Image:f20-jellybeancontrast.jpg|300px]]
 
-[[css/functions/grayscale|'''grayscale(1);''']]
+[[css/functions/grayscale|'''grayscale(1)''']]
 
 [[Image:f05-boatonlake.jpg|300px]]&nbsp;[[Image:f06-boatonlakegray.jpg|300px]]
 
@@ -52,7 +59,7 @@
 
 [[Image:f09-tiffany.jpg|300px]]&nbsp;[[Image:f10-tiffanysaturate.jpg|300px]]
 
-[[css/functions/opacity|'''opacity(0.5);''']]
+[[css/functions/opacity|'''opacity(0.5)''']]
 
 [[Image:f15-splash.jpg|300px]]&nbsp;[[Image:f16-splashopacity50.jpg|300px]]
 
@@ -62,8 +69,7 @@
 
 [[css/functions/drop-shadow|'''drop-shadow(16px 16px 20px black)''']]
 
-[[Image:f23-mandrilldrop1.jpg|300px]]&nbsp;[[Image:f24-mandrillshadow2.jpg|300px]]
-
+[[Image:f11-mandrill.jpg|300px]]&nbsp;[[Image:f23-mandrilldrop1.jpg|300px]]
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
