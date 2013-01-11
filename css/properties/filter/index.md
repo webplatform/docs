@@ -20,21 +20,29 @@
 |Examples=
 }}
 {{Notes_Section
-|Usage=Filters can apply any combination of image processing functions
-to visual elements such as images and letterforms.  This example shows
-how a combination of more than one filter function may affect an
-image:
+|Usage=Filters apply any combination of image processing functions to
+visual elements.  This example shows how a combination of more than
+one filter function may affect an image:
 
  filter: grayscale(100%) sepia(100%);
 
 [[Image:f01-pencil.jpg|300px]]&nbsp;[[Image:f04-graysepia.jpg|300px]]
 
-Filters may be specified as part of dynamic
+Filter effects may be specified as part of dynamic
 [[tutorials/css_transitions|transitions]] and
-[[tutorials/css_animations|keyframe animations]].
+[[tutorials/css_animations|keyframe animations]], but you cannot
+animate each filter function separately.
 
-The following set of examples shows the effect of each filter function
-in isolation. (See each function for details on accepted parameters.)
+Filters apply to any non-video graphic effect the element renders,
+including borders, background images, and letterforms. As an unusual
+example, the [[css/functions/drop-shadow|'''drop-shadow()''']] filter
+function can apply an additional shadow to whatever is already
+rendered by the element's
+[[css/properties/box-shadow|'''box-shadow''']] or
+[[css/properties/text-shadow|'''text-shadow''']] properties.
+
+The following examples show the effect of each filter function in
+isolation. (See each function for details on accepted parameters.)
 
 [[css/functions/brightness|'''brightness(1.4)''']]
 
@@ -75,6 +83,7 @@ in isolation. (See each function for details on accepted parameters.)
 [[css/functions/drop-shadow|'''drop-shadow(16px 16px 20px black)''']]
 
 [[Image:f11-mandrill.jpg|300px]]&nbsp;[[Image:f23-mandrilldrop1.jpg|300px]]
+
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -147,6 +156,7 @@ in isolation. (See each function for details on accepted parameters.)
 {{See_Also_Section
 |Topic_clusters=Filters
 |External_links=* W3C editor's draft: [https://dvcs.w3.org/hg/FXTF/raw-file/tip/filters/index.html# Filter Effects 1.0]
+* [http://html5-demos.appspot.com/static/css/filters/index.html interactive demonstration]
 }}
 {{Topics|CSS, Graphics, SVG}}
 {{External_Attribution
