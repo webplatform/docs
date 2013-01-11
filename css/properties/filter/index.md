@@ -22,11 +22,12 @@
 {{Notes_Section
 |Usage=Filter functions apply any combination of image processing
 functions to visual elements such as images and letterforms.  This
-example shows a combination of more than one filter function:
+example shows how a combination of more than one filter function
+may affect an image:
 
  filter: grayscale(100%) sepia(100%);
 
-[[Image:f04-graysepia.jpg|300px]]
+[[Image:f01-pencil.jpg|300px]]&nbsp;[[Image:f04-graysepia.jpg|300px]]
 
 The following set of examples shows the effect of each filter function
 in isolation. (See each function for details on accepted parameters.)
