@@ -8,6 +8,7 @@
 |Applies to=All elements
 |Inherited=Yes
 |Media=visual
+|Computed value=as specified
 |Animatable=Yes
 |CSS object model property=filter
 |Values={{CSS Property Value
@@ -83,7 +84,6 @@ isolation. See each function for details on accepted parameters.
 [[css/functions/drop-shadow|'''drop-shadow(16px 16px 20px black)''']]
 
 [[Image:f11-mandrill.jpg|300px]]&nbsp;[[Image:f23-mandrilldrop1.jpg|300px]]
-
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
