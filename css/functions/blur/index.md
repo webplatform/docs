@@ -13,8 +13,8 @@ leaves the image as is.}}
 
 [[Image:f21-peppers2.jpg|300px]]&nbsp;[[Image:f22-peppers2blur.jpg|300px]]
 
-Note that pixels blur around the contours of image transparencies, as
-in the following:
+Note that pixels blur around the contours of image transparencies,
+possibly affecting the ability of background content to show through:
 
 [[Image:music_blur.png]]
 }}
@@ -94,6 +94,7 @@ in the following:
 {{See_Also_Section
 |Topic_clusters=Filters
 |External_links=* W3C editor's draft: [https://dvcs.w3.org/hg/FXTF/raw-file/tip/filters/index.html# Filter Effects 1.0]
+* [http://html5-demos.appspot.com/static/css/filters/index.html interactive demonstration]
 }}
 {{Topics|CSS, Graphics, SVG}}
 {{External_Attribution
