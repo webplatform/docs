@@ -73,10 +73,8 @@
 |Chrome_mobile_version=
 |Chrome_mobile_prefixed_supported=Yes
 |Chrome_mobile_prefixed_version=25
-|Firefox_mobile_supported=Unknown
-|Firefox_mobile_version=
-|Firefox_mobile_prefixed_supported=Unknown
-|Firefox_mobile_prefixed_version=
+|Firefox_mobile_supported=Yes
+|Firefox_mobile_prefixed_supported=Yes
 |IE_mobile_supported=Unknown
 |IE_mobile_version=
 |IE_mobile_prefixed_supported=Unknown
