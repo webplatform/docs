@@ -42,7 +42,7 @@ rendered by the element's
 [[css/properties/text-shadow|'''text-shadow''']] properties.
 
 The following examples show the effect of each filter function in
-isolation. (See each function for details on accepted parameters.)
+isolation. See each function for details on accepted parameters.
 
 [[css/functions/brightness|'''brightness(1.4)''']]
 
@@ -83,6 +83,7 @@ isolation. (See each function for details on accepted parameters.)
 [[css/functions/drop-shadow|'''drop-shadow(16px 16px 20px black)''']]
 
 [[Image:f11-mandrill.jpg|300px]]&nbsp;[[Image:f23-mandrilldrop1.jpg|300px]]
+
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
