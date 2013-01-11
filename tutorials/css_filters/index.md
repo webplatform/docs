@@ -2,7 +2,6 @@
 {{Flags
 |High-level issues=Needs Flags
 |Content=Errors
-|Editorial notes=Accepts text-shadow syntax, not box-shadow.
 }}
 {{Byline
 |Name=Alex Danilo
@@ -141,7 +140,7 @@ Let's take a look at each of them and see what they do.
 ''Original (left); blur 10px (right)''
 
 ; drop-shadow(shadow)
-: The <code>drop-shadow</code> effect makes content appear as though it is an object outside in the sun with a shadow falling on the ground behind it. The filter takes a snapshot of the image, converts it to a single color, blurs it, then offsets the result a bit to create a shadow of the original content. The <code>shadow</code> parameter is more complicated than just a single value. For this effect, you enter a series of values separated by a space &mdash; and some of the values are optional. The <code>shadow</code> values control where the shadow is placed, how much blur is applied, the color of the shadow, and more. For full details of these values, see the [http://www.w3.org/TR/css3-background/#the-box-shadow CSS3 Backgrounds] specification, which defines <code>box-shadow</code> in great detail. The examples provided below highlight some of the possibilities.
+: The <code>drop-shadow</code> effect makes content appear as though it is an object outside in the sun with a shadow falling on the ground behind it. The filter takes a snapshot of the image, converts it to a single color, blurs it, then offsets the result a bit to create a shadow of the original content. The <code>shadow</code> parameter is more complicated than just a single value. For this effect, you enter a series of values separated by a space &mdash; and some of the values are optional. The <code>shadow</code> values control where the shadow is placed (expressed as two measurements for ''x'' and ''y''), how much blur is applied (another measurement), and the color of the shadow. For full details of these values, see the [http://www.w3.org/TR/css-text-decor-3/#text-shadow-property CSS Text Decoration] specification, which defines <code>text-shadow</code> in great detail. The examples provided below highlight some of the possibilities.
 
 [[Image:f23-mandrilldrop1.jpg|300px]]&nbsp;[[Image:f24-mandrillshadow2.jpg|300px]]<br/>
 ''Drop-shadow 16px 16px 20px black (left); drop-shadow 10px -16px 30px purple (right)''
