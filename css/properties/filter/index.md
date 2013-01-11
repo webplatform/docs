@@ -1,4 +1,4 @@
-{{Page_Title|filter property}}
+{{Page_Title|filter}}
 {{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
@@ -83,7 +83,6 @@ isolation. (See each function for details on accepted parameters.)
 [[css/functions/drop-shadow|'''drop-shadow(16px 16px 20px black)''']]
 
 [[Image:f11-mandrill.jpg|300px]]&nbsp;[[Image:f23-mandrilldrop1.jpg|300px]]
-
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
