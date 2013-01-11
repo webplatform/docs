@@ -1,9 +1,5 @@
 {{Page_Title|filter property}}
-{{Flags
-|High-level issues=Stub
-|Content=Incomplete, Examples Needed
-|Editorial notes=2DO: Sierra
-}}
+{{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Apply pixel-level image processing effects}}
@@ -24,7 +20,50 @@
 |Examples=
 }}
 {{Notes_Section
-|Usage=2DO: CONTENT
+|Usage=
+
+===Filter function examples===
+
+[[css/functions/brightness|'''brightness(1.4)''']]
+
+[[Image:f17-boatonlake2.jpg|300px]]&nbsp;[[Image:f18-boatonlake2bright.jpg|300px]]
+
+[[css/functions/contrast|'''contrast(2)''']]
+
+[[Image:f19-jellybeans.jpg|300px]]&nbsp;[[Image:f20-jellybeancontrast.jpg|300px]]
+
+[[css/functions/grayscale|'''grayscale(1);''']]
+
+[[Image:f05-boatonlake.jpg|300px]]&nbsp;[[Image:f06-boatonlakegray.jpg|300px]]
+
+[[css/functions/sepia|'''sepia(1)''']]
+
+[[Image:f07-lenna.jpg|300px]]&nbsp;[[Image:f08-lennasepia.jpg|300px]]
+
+[[css/functions/invert|'''invert(1)''']]
+
+[[Image:f13-peppers.jpg|300px]]&nbsp;[[Image:f14-peppersinvert.jpg|300px]]
+
+[[css/functions/hue-rotate|'''hue-rotate(90deg)''']]
+
+[[Image:f11-mandrill.jpg|300px]]&nbsp;[[Image:f12-mandrillhuerotate.jpg|300px]]
+
+[[css/functions/saturate|'''saturate(10)''']]
+
+[[Image:f09-tiffany.jpg|300px]]&nbsp;[[Image:f10-tiffanysaturate.jpg|300px]]
+
+[[css/functions/opacity|'''opacity(0.5);''']]
+
+[[Image:f15-splash.jpg|300px]]&nbsp;[[Image:f16-splashopacity50.jpg|300px]]
+
+[[css/functions/blur|'''blur(10px)''']]
+
+[[Image:f21-peppers2.jpg|300px]]&nbsp;[[Image:f22-peppers2blur.jpg|300px]]
+
+[[css/functions/drop-shadow|'''drop-shadow(16px 16px 20px black)''']]
+
+[[Image:f23-mandrilldrop1.jpg|300px]]&nbsp;[[Image:f24-mandrillshadow2.jpg|300px]]
+
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
