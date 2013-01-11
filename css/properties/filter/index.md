@@ -12,7 +12,7 @@
 |Animatable=Yes
 |CSS object model property=filter
 |Values={{CSS Property Value
-|Data Type=&lt;functions>
+|Data Type=&amp;lt;functions>
 |Description=Any combination of built-in filter functions: [[css/functions/blur|'''blur()''']], [[css/functions/brightness|'''brightness()''']], [[css/functions/contrast|'''contrast()''']], [[css/functions/drop-shadow|'''drop-shadow()''']], [[css/functions/grayscale|'''grayscale()''']], [[css/functions/hue-rotate|'''hue-rotate()''']], [[css/functions/invert|'''invert()''']], [[css/functions/opacity|'''opacity()''']], [[css/functions/saturate|'''saturate()''']], and [[css/functions/sepia|'''sepia()''']]
 }}
 }}
@@ -27,7 +27,7 @@ one filter function may affect an image:
 
  filter: grayscale(100%) sepia(100%);
 
-[[Image:f01-pencil.jpg|300px]]&nbsp;[[Image:f04-graysepia.jpg|300px]]
+[[Image:f01-pencil.jpg|300px]]&amp;nbsp;[[Image:f04-graysepia.jpg|300px]]
 
 Filter effects may be specified as part of dynamic
 [[tutorials/css_transitions|transitions]] and
@@ -43,47 +43,47 @@ rendered by the element's
 [[css/properties/text-shadow|'''text-shadow''']] properties.
 
 The following examples show the effect of each filter function in
-isolation. See each function for details on accepted parameters.
+isolation. (See each function for details on accepted parameters.)
 
 [[css/functions/brightness|'''brightness(1.4)''']]
 
-[[Image:f17-boatonlake2.jpg|300px]]&nbsp;[[Image:f18-boatonlake2bright.jpg|300px]]
+[[Image:f17-boatonlake2.jpg|300px]]&amp;nbsp;[[Image:f18-boatonlake2bright.jpg|300px]]
 
 [[css/functions/contrast|'''contrast(2)''']]
 
-[[Image:f19-jellybeans.jpg|300px]]&nbsp;[[Image:f20-jellybeancontrast.jpg|300px]]
+[[Image:f19-jellybeans.jpg|300px]]&amp;nbsp;[[Image:f20-jellybeancontrast.jpg|300px]]
 
 [[css/functions/grayscale|'''grayscale(1)''']]
 
-[[Image:f05-boatonlake.jpg|300px]]&nbsp;[[Image:f06-boatonlakegray.jpg|300px]]
+[[Image:f05-boatonlake.jpg|300px]]&amp;nbsp;[[Image:f06-boatonlakegray.jpg|300px]]
 
 [[css/functions/sepia|'''sepia(1)''']]
 
-[[Image:f07-lenna.jpg|300px]]&nbsp;[[Image:f08-lennasepia.jpg|300px]]
+[[Image:f07-lenna.jpg|300px]]&amp;nbsp;[[Image:f08-lennasepia.jpg|300px]]
 
 [[css/functions/invert|'''invert(1)''']]
 
-[[Image:f13-peppers.jpg|300px]]&nbsp;[[Image:f14-peppersinvert.jpg|300px]]
+[[Image:f13-peppers.jpg|300px]]&amp;nbsp;[[Image:f14-peppersinvert.jpg|300px]]
 
 [[css/functions/hue-rotate|'''hue-rotate(90deg)''']]
 
-[[Image:f11-mandrill.jpg|300px]]&nbsp;[[Image:f12-mandrillhuerotate.jpg|300px]]
+[[Image:f11-mandrill.jpg|300px]]&amp;nbsp;[[Image:f12-mandrillhuerotate.jpg|300px]]
 
 [[css/functions/saturate|'''saturate(10)''']]
 
-[[Image:f09-tiffany.jpg|300px]]&nbsp;[[Image:f10-tiffanysaturate.jpg|300px]]
+[[Image:f09-tiffany.jpg|300px]]&amp;nbsp;[[Image:f10-tiffanysaturate.jpg|300px]]
 
 [[css/functions/opacity|'''opacity(0.5)''']]
 
-[[Image:f15-splash.jpg|300px]]&nbsp;[[Image:f16-splashopacity50.jpg|300px]]
+[[Image:f15-splash.jpg|300px]]&amp;nbsp;[[Image:f16-splashopacity50.jpg|300px]]
 
 [[css/functions/blur|'''blur(10px)''']]
 
-[[Image:f21-peppers2.jpg|300px]]&nbsp;[[Image:f22-peppers2blur.jpg|300px]]
+[[Image:f21-peppers2.jpg|300px]]&amp;nbsp;[[Image:f22-peppers2blur.jpg|300px]]
 
 [[css/functions/drop-shadow|'''drop-shadow(16px 16px 20px black)''']]
 
-[[Image:f11-mandrill.jpg|300px]]&nbsp;[[Image:f23-mandrilldrop1.jpg|300px]]
+[[Image:f11-mandrill.jpg|300px]]&amp;nbsp;[[Image:f23-mandrilldrop1.jpg|300px]]
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
