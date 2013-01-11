@@ -20,14 +20,18 @@
 |Examples=
 }}
 {{Notes_Section
-|Usage=Filter functions apply any combination of image processing
-functions to visual elements such as images and letterforms.  This
-example shows how a combination of more than one filter function
-may affect an image:
+|Usage=Filters can apply any combination of image processing functions
+to visual elements such as images and letterforms.  This example shows
+how a combination of more than one filter function may affect an
+image:
 
  filter: grayscale(100%) sepia(100%);
 
 [[Image:f01-pencil.jpg|300px]]&nbsp;[[Image:f04-graysepia.jpg|300px]]
+
+Filters may be specified as part of dynamic
+[[tutorials/css_transitions|transitions]] and
+[[tutorials/css_animations|keyframe animations]].
 
 The following set of examples shows the effect of each filter function
 in isolation. (See each function for details on accepted parameters.)
