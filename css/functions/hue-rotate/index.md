@@ -15,7 +15,7 @@
 
 Specifying measurements greater than 360&deg; (or 2&pi; '''rad''')
 allows animations to cycle more than once around the color wheel. This
-example cycles colors three times, then returns to its original set of
+example cycles colors three times, returning to its original set of
 hues (360 &times; 3):
 
  @keyframes spinCycle {
