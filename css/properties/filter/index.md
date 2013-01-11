@@ -32,20 +32,20 @@ one filter function may affect an image:
 Filters are applied to the image data in sequence, so the order in
 which functions are declared matters. If the
 [[css/functions/sepia|'''sepia()''']] function were the first to be
-declared in the example above, the image would appear as a grayscale
-rather than slightly yellowed.
+declared in the example above, the image would appear completely as a
+grayscale rather than slightly yellowed.
 
 Filters apply to any non-video graphic effect the element renders
-(borders, background images, letterforms, etc.), along with the
-cumulative effect of previously declared filters. The same function
-may be applied more than once.
+(borders, background images, letterforms, text selections, etc.),
+along with the cumulative effect of previously declared filters. The
+same function may be applied repeatedly.
 
 Filter effects may be specified as part of dynamic
 [[tutorials/css_transitions|transitions]] and
 [[tutorials/css_animations|keyframe animations]]. However, the number
 of functions in each set of style sheets must match, with no
 transitions allowed from implied default values. In addition, each
-style sheet must declare the same sequence of functions.
+style sheet must declare the exact same sequence of functions.
 
 The following examples show the effect of each filter function in
 isolation. (See each function for details on accepted parameters.)
