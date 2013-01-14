@@ -38,8 +38,8 @@ the image would appear completely gray rather than slightly yellowed.
 Filters apply to any graphic effect the element renders, such as
 borders, background images, scrollbars, letterforms, text selections,
 even videos.  Each filter also applies to the cumulative effect of
-previously declared filters. The same function may be applied
-repeatedly.
+previously declared filters. (The same function may be applied
+repeatedly.)
 
 Filter effects may be specified as part of dynamic
 [[tutorials/css_transitions|transitions]] and
@@ -48,8 +48,8 @@ of functions in each set of style sheets must match, with no
 transitions allowed from implied default values. In addition, each
 style sheet must declare the exact same sequence of functions.
 
-The following examples show the effect of each filter function in
-isolation. (See each function for details on accepted parameters.)
+The following examples show the effect of each filter function applied
+in isolation. See each function for details on accepted parameters.
 
 [[css/functions/brightness|'''brightness(1.4)''']]
 
