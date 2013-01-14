@@ -7,12 +7,12 @@
 |Parameters={{Method Parameter
 |Name=type
 |Data type=unsigned short
-|Description=The storage type of the file system. The value can be either TEMPORARY (0) or PERSISTENT (1).
+|Description=Whether the filesystem requested should be persistent. Use one of TEMPORARY (0) or PERSISTENT (1).
 |Optional=No
 }}{{Method Parameter
 |Name=size
 |Data type=unsigned long
-|Description=The storage space in bytes that you need for your app.
+|Description=How much storage space, in bytes, the application expects to need.
 |Optional=No
 }}
 |Method_applies_to=apis/filesystem/LocalFileSystemSync
