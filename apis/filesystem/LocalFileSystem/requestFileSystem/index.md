@@ -7,24 +7,22 @@
 |Parameters={{Method Parameter
 |Name=type
 |Data type=unsigned short
-|Description=The storage type of the file system. The value can be either TEMPORARY (0) or PERSISTENT (1).
+|Description=Whether the filesystem requested should be persistent. Use one of TEMPORARY (0) or PERSISTENT (1).
 |Optional=No
 }}{{Method Parameter
 |Name=size
 |Data type=unsigned long
-|Description=The storage space in bytes that you need for your app.
+|Description=How much storage space, in bytes, the application expects to need.
 |Optional=No
 }}{{Method Parameter
 |Name=successCallback
 |Data type=String
-|Description=The success callback that is called when the browser provides a file system. Its argument is the FileSystem object with two properties:
-* name - the unique name assigned by the browser to the file system.
-* root - the read-only DirectoryEntry object representing the root of the file system.
+|Description=The callback that is called when the user agent provides a filesystem.
 |Optional=No
 }}{{Method Parameter
 |Name=errorCallback
 |Data type=String
-|Description=The error callback that is called when errors happen or when the request to obtain the file system is denied. Its argument is the FileError object.
+|Description=The callback that is called when errors happen, or when the request to obtain the filesystem is denied.
 |Optional=Yes
 }}
 |Method_applies_to=apis/filesystem/LocalFileSystem
