@@ -1,5 +1,7 @@
 {{Page_Title|Manipulating content with CSS3 transforms}}
-{{Flags}}
+{{Flags
+|Editorial notes=Still to do: conclusion; clarify perspective() and scaleZ() functions; possibly media queries; live samples. Contact [[User:Sierra]] and see bug [https://www.w3.org/Bugs/Public/show_bug.cgi?id=20410 #20410].
+}}
 {{Byline
 |Name=Mike Sierra
 }}
@@ -16,15 +18,15 @@ into three-dimensional space.  It ends with step-by-step instructions
 to spin a cube in space.
 }}
 {{Tutorial
-|Content=These key points serve as reference:
+|Content=
+
+These key points serve as reference:
 
 * The [[css/properties/transform|'''transform''']] property specifies a set of transform functions.
 
-* Transforms modify elements relative to their default position, by moving them, resizing them, spinning them, or otherwise distorting them.
+* 2D functions include [[css/functions/translate()|'''translate()''']], [[css/functions/scale()|'''scale()''']], [[css/functions/rotate()|'''rotate()''']], and [[css/functions/skew()|'''skew()''']].
 
-* Respective 2D functions include [[css/functions/translate()|'''translate()''']], [[css/functions/scale()|'''scale()''']], [[css/functions/rotate()|'''rotate()''']], and [[css/functions/skew()|'''skew()''']].
-
-* The [[css/functions/translate()|'''translate()''']] function accepts standard CSS measurements; [[css/functions/scale()|'''scale()''']] accepts a decimal value between 0 and 1; both [[css/functions/rotate()|'''rotate()''']] and [[css/functions/skew()|'''skew()''']] specify radial '''deg''' or '''rad''' measurements. Except for [[css/functions/rotate()|'''rotate()''']], each allows two ''x''/''y'' parameters.
+* The [[css/functions/translate()|'''translate()''']] function accepts standard CSS measurements; [[css/functions/scale()|'''scale()''']] accepts a decimal value between 0 and 1; both [[css/functions/rotate()|'''rotate()''']] and [[css/functions/skew()|'''skew()''']] specify radial '''deg''' or '''rad''' measurements. Except for [[css/functions/rotate()|'''rotate()''']], each accepts two ''x''/''y'' parameters.
 
 * Individual ''x''/''y'' functions are available: [[css/functions/translateX()|'''translateX()''']], [[css/functions/translateY()|'''translateY()''']], [[css/functions/scaleX()|'''scaleX()''']], [[css/functions/scaleY()|'''scaleY()''']], [[css/functions/skewX()|'''skewX()''']], and [[css/functions/skewY()|'''skewY()''']]
 
@@ -153,7 +155,7 @@ pairs offer different ways to produce the effects shown below:
 The [[css/functions/rotate()|'''rotate()''']] function spins an
 element around its ''z'' axis.  It accepts a degree ('''deg''') or
 radian ('''rad''') measurement. (Radians are equivalent to the number
-of degrees multiplied by &amp;pi;/180.) Radial measurements can wrap
+of degrees multiplied by &pi;/180.) Radial measurements can wrap
 around, so the following values are equivalent:
 
  transform: rotate(20deg);
@@ -163,7 +165,7 @@ around, so the following values are equivalent:
 [[Image:transform_rotate.png]]
 
 The [[css/functions/skew()|'''skew()''']] function leans an element
-over, altering its corner angle relative to the default 90&amp;deg; and
+over, altering its corner angle relative to the default 90&deg; and
 transforming the underlying rectangle into a parallelogram.  It
 accepts up to two degree ('''deg''') or radian ('''rad''')
 measurements.  The separate [[css/functions/skewX()|'''skewX()''']]
@@ -179,7 +181,7 @@ only the ''x'' axis.
 
 [[Image:transform_skew.png]]
 
-Skewing along both ''x'' and ''y'' makes the element appear to
+Note that skewing along both ''x'' and ''y'' makes the element appear to
 move into three-dimensional space, but the transformation actually
 occurs within a flat plane. Skip below for information about 3D
 transforms.
@@ -305,9 +307,9 @@ but with the viewpoint shifted to the right:
  perspective-origin-x : 500px;
 
 This only affects how the transformed element appears, not the
-ancestor that specifies the perspective.  (Since percentages
+ancestor that specifies the perspective.  Note that since percentages
 refer to the size of the transformed element, pixel units may be
-easier to use.)
+easier to use.
 
 ==3D transforms==
 
@@ -597,7 +599,6 @@ object. Here is how a script can control the spin:
 }}
 {{See_Also_Section
 |Topic_clusters=Transforms
-|External_links=* [http://www.w3.org/TR/css3-transforms/ CSS Transforms: W3C Working Draft]
 }}
 {{Topics|CSS}}
 {{External_Attribution
