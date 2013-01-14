@@ -8,13 +8,13 @@ The asynchronous API methods return without blocking the calling thread. The asy
 }}
 {{API_Listing}}
 {{Concept_Listing
-|Query=[[Category:FileAPI]]
+|Query=[[Category:FileSystemAPI]]
 |Use_page_title=No
 |List_all_subpages=No
 }}
 {{Notes_Section}}
 {{See_Also_Section}}
-{{Topics|FileAPI}}
+{{Topics|FileSystemAPI}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
