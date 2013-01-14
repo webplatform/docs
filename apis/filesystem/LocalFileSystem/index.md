@@ -5,7 +5,7 @@
 {{Summary_Section|The LocalFileSystem interface of the File System API gives you access to a sandboxed file system.  The methods are implemented by window and worker objects.}}
 {{API_Object}}
 {{Examples_Section
-|Not_required=No
+|Not_required=Yes
 |Examples=
 }}
 {{Notes_Section}}
