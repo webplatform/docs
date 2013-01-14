@@ -26,6 +26,8 @@ These key points serve as reference:
 
 * The [[css/atrules/@keyframes|'''@keyframes''']] rule declares the full sequence that corresponds to the [[css/properties/animation-name|'''animation-name''']]. Within the block, keyframes such as 0%, 50%, and 100% behave as selectors that manipulate CSS properties over the duration of the animation.
 
+* Any CSS property that be transitioned can also be animated.
+
 * Use [[css/properties/animation-delay|'''animation-delay''']] to pause before executing an animation, using the same time values as for duration.
 
 * The [[css/properties/animation-iteration-count|'''animation-iteration-count''']] property sets the number of times the animation plays, either as an integer or '''infinite'''.
