@@ -1,6 +1,5 @@
 {{Page_Title}}
-{{Flags
-}}
+{{Flags}}
 {{Byline}}
 {{Summary_Section|Now that you've built a web app, it's important to test it so that you know users are getting the best experience possible. We've split this document into Mobile and Desktop, and provided information on some of the best tools out there to help you ensure your apps are built to the highest standards.}}
 {{Tutorial
@@ -37,7 +36,7 @@ The top mobile browsers for various geographies are shown in the charts below. T
 </table>
 
 === Ringmark ===
-Each of these mobile browsers has different capabilities that may affect your app's performance. The open-source project [https://www.facebook.com/ringmark Ringmark] provides a suite of tests that help you understand which browsers support the functionality your app needs; it also helps you learn what features you can expect your users to access now. Check out the [http://www.browserscope.org/?category=ringmark&v=top-m Ringmark section on Browserscope] to see how specific mobile browsers stack up.
+Each of these mobile browsers has different capabilities that may affect your app's performance. The open-source project Ringmark [http://rng.io/] provides a suite of tests that help you understand which browsers support the functionality your app needs; it also helps you learn what features you can expect your users to access now. Check out the [http://www.browserscope.org/?category=ringmark&v=top-m Ringmark section on Browserscope] to see how specific mobile browsers stack up.
 
 === Debugging ===
 The plethora of mobile devices in the wild can make it very difficult to debug certain device-specific issues. There are a number of products out there to make your life easier.
@@ -180,6 +179,7 @@ Ripple is a Google Chrome browser extension that lets you test your mobile web a
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
