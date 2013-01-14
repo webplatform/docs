@@ -17,7 +17,7 @@
 }}
 |Method_applies_to=apis/filesystem/LocalFileSystemSync
 |Example_object_name=LocalFileSystemSync
-|Javascript_data_type=Object
+|Return_value_description=FileSystemSync
 }}
 {{Examples_Section
 |Not_required=Yes
