@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|True if the entry is a directory.}}
+{{Summary_Section|True if the Entry is a directory.}}
 {{API_Object_Property
 |Property_applies_to=apis/filesystem/Entry
 |Read_only=Yes
