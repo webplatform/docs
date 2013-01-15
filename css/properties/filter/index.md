@@ -48,6 +48,8 @@ of functions in each set of style sheets must match, with no
 transitions allowed from implied default values. In addition, each
 style sheet must declare the exact same sequence of functions.
 
+==Built-in filter functions==
+
 The following examples show the effect of each filter function applied
 in isolation. See each function for details on accepted parameters.
 
