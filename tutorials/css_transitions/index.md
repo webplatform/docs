@@ -416,30 +416,26 @@ between [[css/functions/linear-gradient|gradient]] background image
 values.
 
 The [[css/properties/filter|'''filter''']] property allows you to
-apply sequences of image processing functions to any visual element,
-including videos, and these effects can also be transitioned. This
-more unusual example applies a transition to a video as it plays back,
-blurring it and distorting its colors in various ways while it rotates
-in space:
+apply sequences of image processing functions to any kind of visual
+element, and these effects can also be transitioned. This more unusual
+example applies a transition to a video as it plays back, blurring it
+and distorting its colors in various ways while it rotates in space:
 
  video {
-   filter: hue-rotate(0deg) saturate(1) blur(0);
-   transition: all 30s linear;
    -webkit-filter: hue-rotate(0deg) saturate(1) blur(0);
    -webkit-transition: all 30s linear;
  }
  video.finished {
-   filter: hue-rotate(-180deg) saturate(10) blur(10px);
-   transform: translate(100px, 50px) rotateX(45deg) rotateY(-30deg) rotateZ(10deg);
    -webkit-filter: hue-rotate(-180deg) saturate(10) blur(10px);
    -webkit-transform: translate(100px, 50px) rotateX(45deg) rotateY(-30deg) rotateZ(10deg);
  }
 
 [[Image:videofade.png]]
 
-Unlike [[css/properties/transform|'''transform''']] functions, for
-[[css/properties/filter|'''filter''']] functions to transition
-properly, each style sheet must declare them in the exact same order.
+Unlike [[css/properties/transform|'''transform''']] functions,
+[[css/properties/filter|'''filter''']] functions must be explictly
+declared in each style sheet in the exact same order if they are to
+transition.
 
 }}
 {{Notes_Section}}
