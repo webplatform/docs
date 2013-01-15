@@ -30,6 +30,7 @@
 * [[tutorials/creating gradients in css|Creating gradients in CSS]]
 * [[tutorials/css border image|Decorating fancy borders with CSS border-image]]
 * [[tutorials/css box shadow|Adding depth with CSS box-shadow]]
+* [[tutorials/css_filters|Understanding CSS filter effects]]
 
 ==CSS layout==
 
