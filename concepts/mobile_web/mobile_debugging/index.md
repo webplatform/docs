@@ -217,7 +217,7 @@ The API provides timing data for page load and navigation events, including DNS 
 
 === Performance checking ===
 
-In order to avoid performance bugs, it crucial to incorporate performance checking in your workflow.
+In order to avoid performance bugs, it is crucial to incorporate performance checking in your workflow.
 
 There are several tools for this.
 
