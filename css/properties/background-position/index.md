@@ -114,8 +114,8 @@ In Windows Internet Explorer 9, the background of a box can have multiple layer
 |Firefox_version=13.0 (13.0)
 |Firefox_prefixed_supported=Unknown
 |Firefox_prefixed_version=
-|Internet_explorer_supported=No
-|Internet_explorer_version=
+|Internet_explorer_supported=Yes
+|Internet_explorer_version=9.0
 |Internet_explorer_prefixed_supported=Unknown
 |Internet_explorer_prefixed_version=
 |Opera_supported=Yes
@@ -201,7 +201,7 @@ In Windows Internet Explorer 9, the background of a box can have multiple layer
 |Blackberry_version=
 |Blackberry_prefixed_supported=Unknown
 |Blackberry_prefixed_version=
-|Chrome_mobile_supported=Unknown
+|Chrome_mobile_supported=No
 |Chrome_mobile_version=
 |Chrome_mobile_prefixed_supported=Unknown
 |Chrome_mobile_prefixed_version=
@@ -209,8 +209,8 @@ In Windows Internet Explorer 9, the background of a box can have multiple layer
 |Firefox_mobile_version=13.0 (13.0)
 |Firefox_mobile_prefixed_supported=Unknown
 |Firefox_mobile_prefixed_version=
-|IE_mobile_supported=Unknown
-|IE_mobile_version=
+|IE_mobile_supported=Yes
+|IE_mobile_version=9.0
 |IE_mobile_prefixed_supported=Unknown
 |IE_mobile_prefixed_version=
 |Opera_mobile_supported=Unknown
@@ -242,6 +242,6 @@ In Windows Internet Explorer 9, the background of a box can have multiple layer
 |Is_CC-BY-SA=No
 |Sources=MSDN
 |MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809 Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
