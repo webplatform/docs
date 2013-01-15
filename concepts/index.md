@@ -50,7 +50,7 @@ Our general web concepts are concept and tutorial articles covering general subj
     <div class="image icon-concept"></div>
     
     <div class="inner">
-    <h3>[[concepts/mobile and devices|Mobile and devices]]</h3>
+    <h3>[[concepts/mobile_web|Mobile and devices]]</h3>
     
     <p>Techniques and ideas concerning the optimisation of web documents for mobile and other alternative browsing devices.</p>
     </div>
