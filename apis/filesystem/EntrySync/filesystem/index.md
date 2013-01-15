@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|The file system on which the entry resides.}}
+{{Summary_Section|The file system on which the EntrySync resides.}}
 {{API_Object_Property
 |Property_applies_to=apis/filesystem/EntrySync
 |Read_only=Yes
