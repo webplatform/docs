@@ -369,7 +369,7 @@ executes would override whatever the first animation does with the
 
 The same set of timing functions that apply to transitions also apply
 to animations. (For details on these functions, see
-[[tutorials/css_transitions|Timing Functions]].)  The
+[[tutorials/css_transitions#timing|Timing Functions]].)  The
 [[css/properties/animation-timing-function|'''animation-timing-function''']]
 property allows you to control the response curve for each keyframe's
 progress.  It recognizes keyword values '''ease''', '''ease-in''',
