@@ -278,6 +278,8 @@ The overall movement is staggered like this:
 
 [[Image:transit_delay.png]]
 
+<a name="timing"></a>
+
 ==Timing functions==
 
 You may notice in the example above that the cards are not evenly
@@ -391,6 +393,8 @@ Note the various provisional names for the event: '''transitionend'''
 (standard: Gecko, Opera 12.10+, Internet Explorer),
 '''otransitionend''' (old Opera), and '''webkitTransitionEnd'''
 (WebKit).
+
+<a name="advanced"></a>
 
 ==Advanced image transitions==
 
