@@ -33,6 +33,8 @@ These key points serve as reference:
 
 * Set [[css/properties/transition-property|'''transition-property''']] to specify which CSS property (or '''all''') to animate between style sheets.
 
+* Properties that reference numeric measurements and color values can be transitioned.
+
 * The [[css/properties/transition-duration|'''transition-duration''']] property sets how much time the transition takes to run.
 
 * Use [[css/properties/transition-delay|'''transition-delay''']] to pause before executing a transition.
@@ -168,13 +170,18 @@ execute simultaneously:
 For an element to be transitioned, it must specify a numeric value or
 percentage, such as a measurement or set of coordinates, or values
 that translate to numeric values, such as colors. Many keyword values
-work as well, such as '''red''' or '''center''' when used as a
-coordinate.  But you cannot transition properties whose values specify
-a different kind of behavior. For example, you cannot transition
-between the [[css/properties/display|'''display''']] property's
-'''block''' and '''none''' values, or use
+work as well, such as the color '''red''' or '''center''' when used as
+a coordinate.  But you cannot transition properties whose values
+specify a different kind of behavior. For example, you cannot
+transition between the [[css/properties/display|'''display''']]
+property's '''block''' and '''none''' values, or use
 [[css/properties/text-align|'''text-align''']] to switch between
 '''left''' and '''right''' justification.
+
+'''Note:''' Generated content can be transitioned, but only by
+separately styling
+[[css/selectors/pseudo-elements/::before|'''::before''']] and
+[[css/selectors/pseudo-elements/::after|'''::after''']] selectors.
 
 ==Sequential transitions==
 
@@ -385,22 +392,55 @@ Note the various provisional names for the event: '''transitionend'''
 '''otransitionend''' (old Opera), and '''webkitTransitionEnd'''
 (WebKit).
 
-<!--
-NOTE: UNFINISHED. DO NOT EDIT.
+==Advanced image transitions==
 
-==Cross-fades, filters, and other exotic effects==
-* default cross-fade for background image or cross-fade() function?
-* hue-rotate and other filters
-* gradients?
+While it's pretty obvious which properties can be transitioned, some
+browsers are adding support for a couple of unusual ones. So far these
+non-standard features can only be found in Webkit browsers.
 
-==What can be transitioned==
-* numeric
-* color
-* NO generated ::before and ::after
-* NO discrete values
-* NO mismatching parameters (polygon, gradient stops)
-* gradients?
--->
+Transitions between two
+[[css/properties/background-image|'''background-image''']] files now
+results in a cross-fade effect. Changing style sheets such as the
+following can thus drive an image gallery interface:
+
+ div.gal4 { background-image : url("Image04.jpg"); }
+ div.gal5 { background-image : url("Image05.jpg"); }
+
+[[Image:fade.png]]
+
+See the [[css/functions/cross-fade|cross-fade()]] function for a way
+to mix images statically.
+
+'''Note:''' As of this writing, there is no support for transitions
+between [[css/functions/linear-gradient|gradient]] background image
+values.
+
+The [[css/properties/filter|'''filter''']] property allows you to
+apply sequences of image processing functions to any visual element,
+including videos, and these effects can also be transitioned. This
+more unusual example applies a transition to a video as it plays back,
+blurring it and distorting its colors in various ways while it rotates
+in space:
+
+ video {
+   filter: hue-rotate(0deg) saturate(1) blur(0);
+   transition: all 30s linear;
+   -webkit-filter: hue-rotate(0deg) saturate(1) blur(0);
+   -webkit-transition: all 30s linear;
+ }
+ video.finished {
+   filter: hue-rotate(-180deg) saturate(10) blur(10px);
+   transform: translate(100px, 50px) rotateX(45deg) rotateY(-30deg) rotateZ(10deg);
+   -webkit-filter: hue-rotate(-180deg) saturate(10) blur(10px);
+   -webkit-transform: translate(100px, 50px) rotateX(45deg) rotateY(-30deg) rotateZ(10deg);
+ }
+
+[[Image:videofade.png]]
+
+Unlike [[css/properties/transform|'''transform''']] functions, for
+[[css/properties/filter|'''filter''']] functions to transition
+properly, each style sheet must declare them in the exact same order.
+
 }}
 {{Notes_Section}}
 {{Compatibility_Section
