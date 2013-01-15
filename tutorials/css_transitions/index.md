@@ -278,7 +278,7 @@ The overall movement is staggered like this:
 
 [[Image:transit_delay.png]]
 
-<a id="timing"></a>
+<span id="timing"></span>
 
 ==Timing functions==
 
@@ -394,7 +394,7 @@ Note the various provisional names for the event: '''transitionend'''
 '''otransitionend''' (old Opera), and '''webkitTransitionEnd'''
 (WebKit).
 
-<a id="advanced"></a>
+<span id="advanced"></span>
 
 ==Advanced image transitions==
 
