@@ -1,5 +1,6 @@
 {{Page_Title|Closures}}
-{{Flags}}
+{{Flags
+}}
 {{Byline}}
 {{Summary_Section}}
 {{Tutorial
