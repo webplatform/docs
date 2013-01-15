@@ -42,7 +42,7 @@ previously declared filters. (The same function may be applied
 repeatedly.)
 
 Filter effects may be specified as part of dynamic
-[[tutorials/css_transitions|transitions#advanced]] and
+[[tutorials/css_transitions#advanced|transitions]] and
 [[tutorials/css_animations|keyframe animations]]. However, the number
 of functions in each set of style sheets must match, with no
 transitions allowed from implied default values. In addition, each
