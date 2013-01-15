@@ -5,7 +5,7 @@
 {{Summary_Section|The File System API simulates a local file system that web apps can navigate around. You can develop apps that can read, write, and create files and directories in a virtual, sandboxed file system. The asynchronous API methods return without blocking the calling thread. The asynchronous API doesn't give you data by returning values; instead, you have to pass a callback function. The synchronous API is intended to be used with WebWorkers.}}
 {{API_Listing}}
 {{Concept_Listing
-|Query=[[Category:FileSystemAPI]]
+|Query=[[Category:FileSystemAPI]][[Category:API_Object]]
 |Use_page_title=No
 |List_all_subpages=No
 }}
