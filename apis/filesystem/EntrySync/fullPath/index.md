@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|The full absolute path from the root to the entry.}}
+{{Summary_Section|The full absolute path from the root to the EntrySync.}}
 {{API_Object_Property
 |Property_applies_to=apis/filesystem/EntrySync
 |Read_only=Yes
