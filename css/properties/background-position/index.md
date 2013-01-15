@@ -106,8 +106,8 @@ In Windows Internet Explorer 9, the background of a box can have multiple layer
 |Safari_prefixed_version=
 }}{{Compatibility Table Desktop Row
 |Feature=Four-value syntax (support for offsets from any edge)
-|Chrome_supported=No
-|Chrome_version=
+|Chrome_supported=Yes
+|Chrome_version=25
 |Chrome_prefixed_supported=Unknown
 |Chrome_prefixed_version=
 |Firefox_supported=Yes
@@ -201,8 +201,8 @@ In Windows Internet Explorer 9, the background of a box can have multiple layer
 |Blackberry_version=
 |Blackberry_prefixed_supported=Unknown
 |Blackberry_prefixed_version=
-|Chrome_mobile_supported=No
-|Chrome_mobile_version=
+|Chrome_mobile_supported=Yes
+|Chrome_mobile_version=25
 |Chrome_mobile_prefixed_supported=Unknown
 |Chrome_mobile_prefixed_version=
 |Firefox_mobile_supported=Yes
@@ -213,12 +213,10 @@ In Windows Internet Explorer 9, the background of a box can have multiple layer
 |IE_mobile_version=9.0
 |IE_mobile_prefixed_supported=Unknown
 |IE_mobile_prefixed_version=
-|Opera_mobile_supported=Unknown
-|Opera_mobile_version=
+|Opera_mobile_supported=Yes
 |Opera_mobile_prefixed_supported=Unknown
 |Opera_mobile_prefixed_version=
-|Opera_mini_supported=Unknown
-|Opera_mini_version=
+|Opera_mini_supported=Yes
 |Opera_mini_prefixed_supported=Unknown
 |Opera_mini_prefixed_version=
 |Safari_mobile_supported=No
