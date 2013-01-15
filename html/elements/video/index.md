@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
 |Content=Incomplete
+|Editorial notes=Needs information on codec support.
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
