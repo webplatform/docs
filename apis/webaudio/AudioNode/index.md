@@ -23,9 +23,7 @@
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Topic_clusters=Audio
-}}
+{{See_Also_Section}}
 {{Topics|Audio, WebAudio}}
 {{External_Attribution
 |Is_CC-BY-SA=No
