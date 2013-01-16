@@ -154,3 +154,5 @@ This is the list of SVG Elements sorted by topics.
 TBD
 
 [[Category:SVG]]
+
+{{Special:PrefixIndex/svg/elements/}}
