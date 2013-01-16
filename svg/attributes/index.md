@@ -3,13 +3,19 @@
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section}}
-{{API_Listing
-|Use_page_title=No
+{{API_Listing|Use_page_title=No
 |List_all_subpages=Yes
 }}
-{{Notes_Section}}
+{{Concept_Listing
+|Use_page_title=No
+|List_all_subpages=No
+}}
+{{Notes_Section
+|Usage={{Special:PrefixIndex/svg/attributes/}}
+
+}}
 {{See_Also_Section}}
-{{Topics|SVG, API Listings}}
+{{Topics|SVG}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
