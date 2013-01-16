@@ -1,13 +1,18 @@
-{{Page_Title}}
+{{Page_Title|SVG objects}}
 {{Flags}}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
-{{API_Listing
-|Use_page_title=No
+{{Summary_Section|SVG objects}}
+{{API_Listing|Use_page_title=No
 |List_all_subpages=Yes
 }}
-{{Notes_Section}}
+{{Concept_Listing
+|Use_page_title=No
+|List_all_subpages=No
+}}
+{{Notes_Section
+|Usage={{Special:PrefixIndex/svg/objects/}}
+}}
 {{See_Also_Section}}
 {{Topics}}
 {{External_Attribution
