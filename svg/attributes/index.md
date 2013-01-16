@@ -2,7 +2,9 @@
 {{Flags}}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|{{Special:PrefixIndex/svg/}}
+
+}}
 {{API_Listing|Use_page_title=No
 |List_all_subpages=Yes
 }}
@@ -12,7 +14,6 @@
 }}
 {{Notes_Section
 |Usage={{Special:PrefixIndex/svg/attributes/}}
-
 }}
 {{See_Also_Section}}
 {{Topics|SVG}}
