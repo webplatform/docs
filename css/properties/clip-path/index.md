@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Missing Relevant Sections, Needs Topics
+|High-level issues=Needs Topics, Missing Relevant Sections
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
@@ -33,7 +33,6 @@
 |Examples={{Single Example
 |Language=CSS
 |Description=The following clip-path definition creates a rectangular clip path with "rounded corners".
-
 |Code=#image {
     clip-path: rectangle(0%, 0%, 100%, 100%, 20%, 20%); 
 }
@@ -48,7 +47,6 @@
 |Description=A <clipPath> element specifies a clipping region. Multiple shapes inside a <clipPath> element result in an additive clipping behavior.
 
 Any shape inside the <clipPath> element and the <clipPath> element itself can be clipped as well. This clipping is exclusive.
-
 |Code=<clipPath id="clipping">
     <circle cx="150" cy="150" r="50" />
     <rect x="150" y="150" width="100" height="100" />
@@ -69,14 +67,37 @@ Any shape inside the <clipPath> element and the <clipPath> element itself can be
 }}
 {{Compatibility_Section
 |Not_required=No
-|Desktop_rows=
+|Imported_tables=
+|Desktop_rows={{Compatibility Table Desktop Row
+|Feature=clip-path
+|Chrome_supported=Unknown
+|Chrome_version=
+|Chrome_prefixed_supported=Unknown
+|Chrome_prefixed_version=
+|Firefox_supported=Yes
+|Firefox_version=3.5+
+|Firefox_prefixed_supported=Unknown
+|Firefox_prefixed_version=
+|Internet_explorer_supported=Unknown
+|Internet_explorer_version=
+|Internet_explorer_prefixed_supported=Unknown
+|Internet_explorer_prefixed_version=
+|Opera_supported=Unknown
+|Opera_version=
+|Opera_prefixed_supported=Unknown
+|Opera_prefixed_version=
+|Safari_supported=Unknown
+|Safari_version=
+|Safari_prefixed_supported=Unknown
+|Safari_prefixed_version=
+}}
 |Mobile_rows=
 |Notes_rows=
 }}
 {{See_Also_Section
 |Topic_clusters=Visual Effects
 }}
-{{Topics|SVG, CSS}}
+{{Topics|CSS, SVG}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
