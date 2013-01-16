@@ -143,7 +143,7 @@ As with other shapes, lines have to be styled before it can be seen.  One new pr
 	stroke-linecap: round;
 }</pre>
 
-Make any shape you please with the polygon and polyline elements
+=== Make any shape you please with the polygon and polyline elements ===
 
 With the polygon element you can create more complex  enclosed shapes.  Unlike the previous shapes that I've defined with percentage units, the points in a polygon have to be defined using the co-ordinate system.  As previously mentioned, co-ordinates map one to one with CSS pixels. The co-ordinate model can be adjusted using the <code>viewBox</code> or <code>transform</code> attribute, but this is beyond the scope of this article.  
 
