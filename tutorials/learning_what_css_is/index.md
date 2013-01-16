@@ -1,5 +1,6 @@
 {{Page_Title|What is CSS?}}
-{{Flags}}
+{{Flags
+}}
 {{Byline}}
 {{Summary_Section|The article introduces you to Cascading style sheets, or CSS, defining what they are, and what they are used for on the Web.}}
 {{Tutorial
