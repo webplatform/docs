@@ -1,5 +1,6 @@
 {{Page_Title|Why use CSS?}}
-{{Flags}}
+{{Flags
+}}
 {{Byline}}
 {{Summary_Section|This tutorial looks at why we should use CSS, and why using CSS for styling our documents is better than using presentational HTML.}}
 {{Tutorial
