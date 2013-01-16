@@ -75,7 +75,13 @@
 |Safari_mobile_prefixed_supported=No
 |Safari_mobile_prefixed_version=
 }}
-|Notes_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Chrome for Android
+|Note=Users can't specify seconds or milliseconds.
+}}{{Compatibility Notes Row
+|Browser=Safari Mobile
+|Note=Users can't specify seconds or milliseconds.
+}}
 }}
 {{See_Also_Section}}
 {{Topics|HTML}}
