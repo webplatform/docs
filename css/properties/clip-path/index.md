@@ -69,7 +69,7 @@ Any shape inside the <clipPath> element and the <clipPath> element itself can be
 |Not_required=No
 |Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
-|Feature=clip-path
+|Feature=Basic support
 |Chrome_supported=Unknown
 |Chrome_version=
 |Chrome_prefixed_supported=Unknown
