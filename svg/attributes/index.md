@@ -1,8 +1,8 @@
-{{Page_Title}}
+{{Page_Title|SVG attributes}}
 {{Flags}}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|SVG attributes}}
 {{API_Listing|Use_page_title=No
 |List_all_subpages=Yes
 }}
@@ -11,7 +11,9 @@
 |List_all_subpages=No
 }}
 {{Notes_Section
-|Usage={{Special:PrefixIndex/svg/attributes/}}
+|Usage====Attribute Listing===
+
+{{Special:PrefixIndex/svg/attributes/}}
 }}
 {{See_Also_Section}}
 {{Topics|SVG}}
