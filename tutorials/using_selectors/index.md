@@ -1,8 +1,5 @@
 {{Page_Title|Using selectors}}
 {{Flags
-|High-level issues=Move Candidate
-|Editorial notes={{Editorial/Move_Candidate
-| Should be under /css/tutorials
 }}
 }}
 {{Byline}}
