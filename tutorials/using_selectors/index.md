@@ -1,5 +1,6 @@
 {{Page_Title|Using selectors}}
 {{Flags
+|High-level issues=Move Candidate
 }}
 }}
 {{Byline}}
