@@ -2,9 +2,7 @@
 {{Flags}}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|{{Special:PrefixIndex/svg/}}
-
-}}
+{{Summary_Section}}
 {{API_Listing|Use_page_title=No
 |List_all_subpages=Yes
 }}
