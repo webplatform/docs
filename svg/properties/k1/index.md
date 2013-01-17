@@ -5,21 +5,26 @@
 }}
 {{Standardization_Status|}}
 {{API_Name}}
+{{Topics|SVG}}
 {{Notes_Section
 |Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}226062 Scalable Vector Graphics: Filter Effects], Section 15.25.11
 
+===Syntax===
+
+===Standards information===
+
+*[http://go.microsoft.com/fwlink/p/?linkid{{=}}226062 Scalable Vector Graphics: Filter Effects], Section 15.25.11
 
 }}
 {{See_Also_Section
 |Manual_sections=
+
 ===Related pages (MSDN)===
-*<code>[[svg/elements/feComposite|SVGFECompositeElement]]</code>
-*<code>[[svg/properties/k4|k4]]</code>
-*<code>[[svg/properties/k2|k2]]</code>
-*<code>[[svg/properties/k3|k3]]</code>
+
+*[[svg/elements/feComposite|'''SVGFECompositeElement''']]
+*[[svg/properties/k4|'''k4''']]
+*[[svg/properties/k2|'''k2''']]
+*[[svg/properties/k3|'''k3''']]
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
