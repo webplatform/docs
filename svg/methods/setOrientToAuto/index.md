@@ -4,21 +4,26 @@
 }}
 {{Standardization_Status|}}
 {{API_Name}}
+{{Topics|SVG}}
 {{Notes_Section
 |Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}199816 Scalable Vector Graphics: Painting, Filling, Stroking and Marker Symbols], Section 11.9.2
 
+===Syntax===
+
+===Standards information===
+
+*[http://go.microsoft.com/fwlink/p/?linkid{{=}}199816 Scalable Vector Graphics: Painting, Filling, Stroking and Marker Symbols], Section 11.9.2
 
 }}
 {{See_Also_Section
 |Manual_sections=
+
 ===Related pages (MSDN)===
-*<code>Reference</code>
-*<code>[[svg/elements/marker|SVGMarkerElement]]</code>
-*<code>SVGMarkerElement</code>
-*<code>[[svg/properties/orientType|orientType]]</code>
+
+===Reference===
+
+*[[svg/elements/marker|'''SVGMarkerElement''']]
+*[[svg/properties/orientType|'''orientType''']]
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
