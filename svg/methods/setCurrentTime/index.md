@@ -4,23 +4,30 @@
 }}
 {{Standardization_Status|}}
 {{API_Name}}
+{{Topics|SVG}}
 {{Notes_Section
 |Notes=
+
 ===Remarks===
+
 If you call the '''setCurrentTime''' method before the document timeline has begun (for example, by a script that is running in a [[svg/elements/script|'''script''']] element before the [[svg/events/load|'''SVGLoad''']] event for the document is dispatched), the value of ''seconds'' during the last call to '''setCurrentTime''' is  the current time.
 |Import_Notes=
-===Syntax===
-<div class{{=}}"code">var retval {{=}} SVGSVGElement.setCurrentTime(seconds);
-</div>
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204733 Scalable Vector Graphics: Document Structure], Section 5.11.2
 
+===Syntax===
+
+ var retval = SVGSVGElement.setCurrentTime(seconds);
+
+===Standards information===
+
+*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204733 Scalable Vector Graphics: Document Structure], Section 5.11.2
 
 }}
 {{See_Also_Section
 |Manual_sections=
+
 ===Related pages (MSDN)===
-*<code>[[svg/elements/svg|SVGSVGElement]]</code>
+
+*[[svg/elements/svg|'''SVGSVGElement''']]
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
