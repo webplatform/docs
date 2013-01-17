@@ -4,23 +4,31 @@
 }}
 {{Standardization_Status|}}
 {{API_Name}}
+{{Topics|SVG}}
 {{Notes_Section
 |Notes=
+
 ===Remarks===
-The arc of a [[svg/elements/circle|'''circle''']] element and the arc of an [[svg/elements/ellipse|'''ellipse''']] element begin at the 3 o'clock point on the associated radius and progress towards the 9 o'clock point. The starting point and direction of the arc are affected by the user space transform in the same manner as the geometry of the element.
+
+The arc of a [[svg/elements/circle|'''circle''']] element and the arc of an [[svg/elements/ellipse|'''ellipse''']] element begin at the 3 o'clock point on the associated radius and progress towards the 9 o'clock point. The starting point and direction of the arc are affected by the user space transform in the same manner as the geometry of the element.
+
 For an example of how the starting point and direction of an arc (for an ellipse) are affected by a user space transform, see the [[svg/properties/cx|'''cx''']] topic.
 |Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}190918 Scalable Vector Graphics (SVG) 1.1], Appendix M
 
+===Syntax===
+
+===Standards information===
+
+*[http://go.microsoft.com/fwlink/p/?linkid{{=}}190918 Scalable Vector Graphics (SVG) 1.1], Appendix M
 
 }}
 {{See_Also_Section
 |Manual_sections=
+
 ===Related pages (MSDN)===
-*<code>[[svg/elements/circle|SVGCircleElement]]</code>
-*<code>[[svg/elements/ellipse|SVGEllipseElement]]</code>
+
+*[[svg/elements/circle|'''SVGCircleElement''']]
+*[[svg/elements/ellipse|'''SVGEllipseElement''']]
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
