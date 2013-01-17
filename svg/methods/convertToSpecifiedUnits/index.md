@@ -4,23 +4,31 @@
 }}
 {{Standardization_Status|}}
 {{API_Name}}
+{{Topics|SVG}}
 {{Notes_Section
 |Notes=
+
 ===Remarks===
+
 The '''convertToSpecifiedUnits''' method preserves the same underlying stored value, but it resets the stored unit identifier to the  specified  ''unitType'' type. The [[svg/properties/unitType  (SVGLength)|'''unitType''']], [[svg/properties/valueInSpecifiedUnits|'''valueInSpecifiedUnits''']], and [[svg/properties/valueAsString|'''valueAsString''']]  objects might be modified  when you call  this method.
 |Import_Notes=
-===Syntax===
-<div class{{=}}"code">HRESULT retVal {{=}} ''object.''convertToSpecifiedUnits(unitType);</div>
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204732 Scalable Vector Graphics: Basic Data Types and Interfaces], Section 4.5.11
 
+===Syntax===
+
+ HRESULT retVal = ''object.''convertToSpecifiedUnits(unitType);
+
+===Standards information===
+
+*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204732 Scalable Vector Graphics: Basic Data Types and Interfaces], Section 4.5.11
 
 }}
 {{See_Also_Section
 |Manual_sections=
+
 ===Related pages (MSDN)===
-*<code>[[svg/objects/SVGAngle|SVGAngle]]</code>
-*<code>[[svg/objects/SVGLength|SVGLength]]</code>
+
+*[[svg/objects/SVGAngle|'''SVGAngle''']]
+*[[svg/objects/SVGLength|'''SVGLength''']]
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
@@ -29,6 +37,5 @@ The '''convertToSpecifiedUnits''' method preserves the same underlying stored va
 |MDN_link=
 |HTML5Rocks_link=
 }}
-
 
 [[Category:SVG]]
