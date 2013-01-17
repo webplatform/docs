@@ -10,20 +10,25 @@
 {{Topics|SVG}}
 {{Notes_Section
 |Import_Notes=
-===Syntax===
-<code>'''stop-color: '''currentColor '''{{!}}''' inherit</code>
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}199811 Scalable Vector Graphics: Gradients and Patterns], Section 13.2.4
 
+===Syntax===
+
+ '''stop-color: '''currentColor '''{{!}}''' inherit
+
+===Standards information===
+
+*[http://go.microsoft.com/fwlink/p/?linkid{{=}}199811 Scalable Vector Graphics: Gradients and Patterns], Section 13.2.4
 
 }}
 {{See_Also_Section
 |Manual_sections=
+
 ===Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-*<code>[[svg/elements/stop|SVGStopElement]]</code>
+
+*[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|'''CSSStyleDeclaration''']]
+*[[css/cssom/currentStyle|'''currentStyle''']]
+*[[css/cssom/style|'''style''']]
+*[[svg/elements/stop|'''SVGStopElement''']]
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
