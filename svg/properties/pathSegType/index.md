@@ -4,37 +4,42 @@
 }}
 {{Standardization_Status|}}
 {{API_Name}}
+{{Topics|SVG}}
 {{Notes_Section
 |Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204736 Scalable Vector Graphics: Paths], Section 8.5.1
 
+===Syntax===
+
+===Standards information===
+
+*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204736 Scalable Vector Graphics: Paths], Section 8.5.1
 
 }}
 {{See_Also_Section
 |Manual_sections=
+
 ===Related pages (MSDN)===
-*<code>[[svg/objects/SVGPathSeg|SVGPathSeg]]</code>
-*<code>[[svg/objects/SVGPathSegArcAbs|SVGPathSegArcAbs]]</code>
-*<code>[[svg/objects/SVGPathSegArcRel|SVGPathSegArcRel]]</code>
-*<code>[[svg/objects/SVGPathSegClosePath|SVGPathSegClosePath]]</code>
-*<code>[[svg/objects/SVGPathSegMovetoAbs|SVGPathSegMovetoAbs]]</code>
-*<code>[[svg/objects/SVGPathSegMovetoRel|SVGPathSegMovetoRel]]</code>
-*<code>[[svg/objects/SVGPathSegLinetoAbs|SVGPathSegLinetoAbs]]</code>
-*<code>[[svg/objects/SVGPathSegLinetoRel|SVGPathSegLinetoRel]]</code>
-*<code>[[svg/objects/SVGPathSegCurvetoCubicAbs|SVGPathSegCurvetoCubicAbs]]</code>
-*<code>[[svg/objects/SVGPathSegCurvetoCubicRel|SVGPathSegCurvetoCubicRel]]</code>
-*<code>[[svg/objects/SVGPathSegCurvetoCubicSmoothAbs|SVGPathSegCurvetoCubicSmoothAbs]]</code>
-*<code>[[svg/objects/SVGPathSegCurvetoCubicSmoothRel|SVGPathSegCurvetoCubicSmoothRel]]</code>
-*<code>[[svg/objects/SVGPathSegCurvetoQuadraticAbs|SVGPathSegCurvetoQuadraticAbs]]</code>
-*<code>[[svg/objects/SVGPathSegCurvetoQuadraticRel|SVGPathSegCurvetoQuadraticRel]]</code>
-*<code>[[svg/objects/SVGPathSegCurvetoQuadraticSmoothAbs|SVGPathSegCurvetoQuadraticSmoothAbs]]</code>
-*<code>[[svg/objects/SVGPathSegCurvetoQuadraticSmoothRel|SVGPathSegCurvetoQuadraticSmoothRel]]</code>
-*<code>[[svg/objects/SVGPathSegLinetoHorizontalAbs|SVGPathSegLinetoHorizontalAbs]]</code>
-*<code>[[svg/objects/SVGPathSegLinetoHorizontalRel|SVGPathSegLinetoHorizontalRel]]</code>
-*<code>[[svg/objects/SVGPathSegLinetoVerticalAbs|SVGPathSegLinetoVerticalAbs]]</code>
-*<code>[[svg/objects/SVGPathSegLinetoVerticalRel|SVGPathSegLinetoVerticalRel]]</code>
+
+*[[svg/objects/SVGPathSeg|'''SVGPathSeg''']]
+*[[svg/objects/SVGPathSegArcAbs|'''SVGPathSegArcAbs''']]
+*[[svg/objects/SVGPathSegArcRel|'''SVGPathSegArcRel''']]
+*[[svg/objects/SVGPathSegClosePath|'''SVGPathSegClosePath''']]
+*[[svg/objects/SVGPathSegMovetoAbs|'''SVGPathSegMovetoAbs''']]
+*[[svg/objects/SVGPathSegMovetoRel|'''SVGPathSegMovetoRel''']]
+*[[svg/objects/SVGPathSegLinetoAbs|'''SVGPathSegLinetoAbs''']]
+*[[svg/objects/SVGPathSegLinetoRel|'''SVGPathSegLinetoRel''']]
+*[[svg/objects/SVGPathSegCurvetoCubicAbs|'''SVGPathSegCurvetoCubicAbs''']]
+*[[svg/objects/SVGPathSegCurvetoCubicRel|'''SVGPathSegCurvetoCubicRel''']]
+*[[svg/objects/SVGPathSegCurvetoCubicSmoothAbs|'''SVGPathSegCurvetoCubicSmoothAbs''']]
+*[[svg/objects/SVGPathSegCurvetoCubicSmoothRel|'''SVGPathSegCurvetoCubicSmoothRel''']]
+*[[svg/objects/SVGPathSegCurvetoQuadraticAbs|'''SVGPathSegCurvetoQuadraticAbs''']]
+*[[svg/objects/SVGPathSegCurvetoQuadraticRel|'''SVGPathSegCurvetoQuadraticRel''']]
+*[[svg/objects/SVGPathSegCurvetoQuadraticSmoothAbs|'''SVGPathSegCurvetoQuadraticSmoothAbs''']]
+*[[svg/objects/SVGPathSegCurvetoQuadraticSmoothRel|'''SVGPathSegCurvetoQuadraticSmoothRel''']]
+*[[svg/objects/SVGPathSegLinetoHorizontalAbs|'''SVGPathSegLinetoHorizontalAbs''']]
+*[[svg/objects/SVGPathSegLinetoHorizontalRel|'''SVGPathSegLinetoHorizontalRel''']]
+*[[svg/objects/SVGPathSegLinetoVerticalAbs|'''SVGPathSegLinetoVerticalAbs''']]
+*[[svg/objects/SVGPathSegLinetoVerticalRel|'''SVGPathSegLinetoVerticalRel''']]
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
