@@ -4,21 +4,28 @@
 }}
 {{Standardization_Status|}}
 {{API_Name}}
+{{Topics|SVG}}
 {{Notes_Section
 |Notes=
+
 ===Remarks===
+
 Do not set the '''contentScriptType'''  property.  If you try to set this property, it causes an error. The set of valid language types is defined by [http://go.microsoft.com/fwlink/p/?linkid{{=}}203481 RFC4329: Scripting Media Types].
 |Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204733 Scalable Vector Graphics: Document Structure], Section 5.11.2
 
+===Syntax===
+
+===Standards information===
+
+*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204733 Scalable Vector Graphics: Document Structure], Section 5.11.2
 
 }}
 {{See_Also_Section
 |Manual_sections=
+
 ===Related pages (MSDN)===
-*<code>[[svg/elements/svg|SVGSVGElement]]</code>
+
+*[[svg/elements/svg|'''SVGSVGElement''']]
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
