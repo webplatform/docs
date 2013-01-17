@@ -4,19 +4,25 @@
 }}
 {{Standardization_Status|}}
 {{API_Name}}
+{{Topics|SVG}}
 {{Notes_Section
 |Import_Notes=
-===Syntax===
-HRESULT value {{=}} object.get_rootElement(ISVGSVGElement** p);
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204733 Scalable Vector Graphics: Document Structure], Section 5.11.1
 
+===Syntax===
+
+HRESULT value {{=}} object.get_rootElement(ISVGSVGElement** p);
+
+===Standards information===
+
+*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204733 Scalable Vector Graphics: Document Structure], Section 5.11.1
 
 }}
 {{See_Also_Section
 |Manual_sections=
+
 ===Related pages (MSDN)===
-*<code>[[dom/document|document]]</code>
+
+*[[dom/document|'''document''']]
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
