@@ -4,26 +4,31 @@
 }}
 {{Standardization_Status|}}
 {{API_Name}}
+{{Topics|SVG}}
 {{Notes_Section
 |Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204732 Scalable Vector Graphics: Basic Data Types and Interfaces], Section 4.5.31
 
+===Syntax===
+
+===Standards information===
+
+*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204732 Scalable Vector Graphics: Basic Data Types and Interfaces], Section 4.5.31
 
 }}
 {{See_Also_Section
 |Manual_sections=
+
 ===Related pages (MSDN)===
-*<code>[[svg/elements/patterrn|SVGPatternElement]]</code>
-*<code>[[svg/elements/use|SVGUseElement]]</code>
-*<code>[[svg/elements/image|SVGImageElement]]</code>
-*<code>[[svg/elements/gradient|SVGGradientElement]]</code>
-*<code>[[svg/elements/linearGradient|SVGLinearGradientElement]]</code>
-*<code>[[svg/elements/radialGradient|SVGRadialGradientElement]]</code>
-*<code>[[svg/elements/a|SVGAElement]]</code>
-*<code>[[svg/elements/script|SVGScriptElement]]</code>
-*<code>[[svg/elements/textPath|SVGTextPathElement]]</code>
+
+*[[svg/elements/patterrn|'''SVGPatternElement''']]
+*[[svg/elements/use|'''SVGUseElement''']]
+*[[svg/elements/image|'''SVGImageElement''']]
+*[[svg/elements/gradient|'''SVGGradientElement''']]
+*[[svg/elements/linearGradient|'''SVGLinearGradientElement''']]
+*[[svg/elements/radialGradient|'''SVGRadialGradientElement''']]
+*[[svg/elements/a|'''SVGAElement''']]
+*[[svg/elements/script|'''SVGScriptElement''']]
+*[[svg/elements/textPath|'''SVGTextPathElement''']]
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
