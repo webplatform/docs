@@ -36,7 +36,7 @@
 {{Notes_Section
 |Notes=It is an error to try to:
 *move a directory inside itself or to any child at any depth;
-*move an entry into its parent if a name different from its current one isn't provided;
+*move an Entry into its parent if a name different from its current one isn't provided;
 *move a file to a path occupied by a directory;
 *move a directory to a path occupied by a file;
 *move any element to a path occupied by a directory which is not empty.
