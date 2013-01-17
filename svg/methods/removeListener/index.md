@@ -4,18 +4,23 @@
 }}
 {{Standardization_Status|}}
 {{API_Name}}
+{{Topics|SVG}}
 {{Notes_Section
 |Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203739 Document Object Model (DOM) Level 2 Events Specification], Section 1.3.1
 
+===Syntax===
+
+===Standards information===
+
+*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203739 Document Object Model (DOM) Level 2 Events Specification], Section 1.3.1
 
 }}
 {{See_Also_Section
 |Manual_sections=
+
 ===Related pages (MSDN)===
-*<code>[[svg/objects/SVGElementInstance|SVGElementInstance]]</code>
+
+*[[svg/objects/SVGElementInstance|'''SVGElementInstance''']]
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
