@@ -10,25 +10,32 @@
 {{Topics|SVG}}
 {{Notes_Section
 |Import_Notes=
-===Syntax===
-<code>'''stop-opacity: '''opacity-value '''{{!}}''' inherit</code>
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}199811 Scalable Vector Graphics: Gradients and Patterns], Section 13.2.4
 
+===Syntax===
+
+ '''stop-opacity: '''opacity-value '''{{!}}''' inherit
+
+===Standards information===
+
+*[http://go.microsoft.com/fwlink/p/?linkid{{=}}199811 Scalable Vector Graphics: Gradients and Patterns], Section 13.2.4
 
 }}
 {{See_Also_Section
 |Manual_sections=
+
 ===Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-*<code>[[svg/elements/stop|SVGStopElement]]</code>
-*<code>Reference</code>
-*<code>[[svg/attributes/fill-opacity|fillOpacity]]</code>
-*<code>[[svg/attributes/flood-opacity|floodOpacity]]</code>
-*<code>[[svg/attributes/stroke-opacity|strokeOpacity]]</code>
-*<code>[[css/properties/opacity|opacity]]</code>
+
+*[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|'''CSSStyleDeclaration''']]
+*[[css/cssom/currentStyle|'''currentStyle''']]
+*[[css/cssom/style|'''style''']]
+*[[svg/elements/stop|'''SVGStopElement''']]
+
+===Reference===
+
+*[[svg/attributes/fill-opacity|'''fillOpacity''']]
+*[[svg/attributes/flood-opacity|'''floodOpacity''']]
+*[[svg/attributes/stroke-opacity|'''strokeOpacity''']]
+*[[css/properties/opacity|'''opacity''']]
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
