@@ -4,21 +4,28 @@
 }}
 {{Standardization_Status|}}
 {{API_Name}}
+{{Topics|SVG}}
 {{Notes_Section
 |Notes=
+
 ===Remarks===
+
 '''kernelMatrix''' contains the list of numbers that make up the kernel matrix for the convolution. Values are separated by space characters and/or a comma. The number of entries in the list must equal ''orderX'' times ''orderY'' (see [[svg/properties/orderX|'''order''']]).
 |Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}226062 Scalable Vector Graphics: Filter Effects], Section 15.25.12
 
+===Syntax===
+
+===Standards information===
+
+*[http://go.microsoft.com/fwlink/p/?linkid{{=}}226062 Scalable Vector Graphics: Filter Effects], Section 15.25.12
 
 }}
 {{See_Also_Section
 |Manual_sections=
+
 ===Related pages (MSDN)===
-*<code>[[svg/elements/feConvolveMatrix|SVGFEConvolveMatrixElement]]</code>
+
+*[[svg/elements/feConvolveMatrix|'''SVGFEConvolveMatrixElement''']]
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
