@@ -4,24 +4,31 @@
 }}
 {{Standardization_Status|}}
 {{API_Name}}
+{{Topics|SVG}}
 {{Notes_Section
 |Notes=
-===Remarks===
-The '''y2'''  property represents a ''relative'' coordinate for lowercase [[svg/elements/path|'''path''']] commands (for example, <code>q</code>  and <code>c</code>), and an ''absolute'' coordinate for uppercase '''path''' commands  <code>Q</code> and <code>C</code>.)
-|Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}190918 Scalable Vector Graphics (SVG) 1.1], Appendix M
 
+===Remarks===
+
+The '''y2'''  property represents a ''relative'' coordinate for lowercase [[svg/elements/path|'''path''']] commands (for example, '''q'''  and '''c'''), and an ''absolute'' coordinate for uppercase '''path''' commands  '''Q''' and '''C'''.)
+|Import_Notes=
+
+===Syntax===
+
+===Standards information===
+
+*[http://go.microsoft.com/fwlink/p/?linkid{{=}}190918 Scalable Vector Graphics (SVG) 1.1], Appendix M
 
 }}
 {{See_Also_Section
 |Manual_sections=
+
 ===Related pages (MSDN)===
-*<code>[[svg/objects/SVGPathSegCurvetoCubicAbs|SVGPathSegCurvetoCubicAbs]]</code>
-*<code>[[svg/objects/SVGPathSegCurvetoCubicRel|SVGPathSegCurvetoCubicRel]]</code>
-*<code>[[svg/objects/SVGPathSegCurvetoCubicSmoothAbs|SVGPathSegCurvetoCubicSmoothAbs]]</code>
-*<code>[[svg/objects/SVGPathSegCurvetoCubicSmoothRel|SVGPathSegCurvetoCubicSmoothRel]]</code>
+
+*[[svg/objects/SVGPathSegCurvetoCubicAbs|'''SVGPathSegCurvetoCubicAbs''']]
+*[[svg/objects/SVGPathSegCurvetoCubicRel|'''SVGPathSegCurvetoCubicRel''']]
+*[[svg/objects/SVGPathSegCurvetoCubicSmoothAbs|'''SVGPathSegCurvetoCubicSmoothAbs''']]
+*[[svg/objects/SVGPathSegCurvetoCubicSmoothRel|'''SVGPathSegCurvetoCubicSmoothRel''']]
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
