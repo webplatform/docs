@@ -4,12 +4,17 @@
 }}
 {{Standardization_Status|}}
 {{API_Name}}
+{{Topics|SVG}}
 {{Notes_Section
 |Notes=
+
 ===Remarks===
+
 The more octaves that are used in the calculation, the more fine-grained the texture. The default value is one.
 |Import_Notes=
+
 ===Syntax===
+
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -20,8 +25,10 @@ The more octaves that are used in the calculation, the more fine-grained the tex
 }}
 {{See_Also_Section
 |Manual_sections=
+
 ===Related pages (MSDN)===
-*<code>[[svg/elements/feTurbulence|SVGFETurbulenceElement]]</code>
+
+*[[svg/elements/feTurbulence|'''SVGFETurbulenceElement''']]
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
