@@ -5,10 +5,10 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|feComponentTransfer is a filter primitive which allows the independent manipulation of each color channel (including the alpha channel) in the input graphic. It is always a child element of a <filter > element and is the parent of child elements (feFuncR, feFuncG, feFuncB and feFuncA) that perform each color channel manipulation.}}
+{{Summary_Section|feComponentTransfer is a filter primitive which allows the independent manipulation of each color channel (including the alpha channel) in the input graphic. It is always a child element of a '''filter''' element and is the parent of child elements (feFuncR, feFuncG, feFuncB and feFuncA) that perform each color channel manipulation.}}
 {{Markup_Element
 |DOM_interface=svg/objects/SVGComponentTransferElement
-|Content=<code>feComponentTransfer</code> in combination with its child elements (feFuncR, feFuncG, feFuncB and feFuncA) allows the independent manipulation of each color channel of the input graphic. 
+|Content='''feComponentTransfer''' in combination with its child elements (feFuncR, feFuncG, feFuncB and feFuncA) allows the independent manipulation of each color channel of the input graphic.
 
 Attributes:
 
@@ -30,7 +30,7 @@ Like all filter primitives that accept an input, feComponentTransfer can accept 
 feComponentTransfer offers five types of color manipulations:
 
 * identity: sets the result pixel's color channel value equal to the input value
-* table: maps equal segments of a color channel to output ranges specified by a "tableValues" array 
+* table: maps equal segments of a color channel to output ranges specified by a "tableValues" array
 * discrete: maps equal segments of a color channel to specific output values specified by a "tableValues" array
 * linear: applies a simple linear formula (intercept + slope*input) to each input pixel's color channel value
 * gamma: applies a gamma function (offset + amplitude*(input^exponent)) to each input pixel's color channel value
@@ -57,12 +57,12 @@ Here, since there are n=4 values in the "tableValues" array, the input color cha
 Values in these ranges are then evenly mapped into the ranges specified in tableValues, which are:
 
   0.00 ... 0.70
-  0.70 ... 0.90  
+  0.70 ... 0.90
   0.90 ... 1.00
 
 For example, an input pixel whose red value is 0.5 - the midpoint of the second input range (0.33 to 0.66) - is mapped to the midpoint of the second output range (0.70 to 0.90), resulting in an output value for that pixel of 0.80.
 
-The following graphic illustrates how the input ranges are mapped to the output ranges in this example. 
+The following graphic illustrates how the input ranges are mapped to the output ranges in this example.
 
 [[File:tabletransfer.png]]
 
@@ -87,12 +87,12 @@ then it maps those input ranges onto the specific values provided by the tableVa
 
   0.00
   0.70
-  0.00  
+  0.00
   1.00
 
 For example, an input pixel whose red value is 0.375 - the midpoint of the second input range (0.25 to 0.50) - would be mapped to the second value in the output array: 0.70.
 
-The following graphic illustrates how the input segments are mapped to the output segments in a discrete transfer. 
+The following graphic illustrates how the input segments are mapped to the output segments in a discrete transfer.
 
 [[File:discretetransfer.png]]
 }}
@@ -103,50 +103,44 @@ The following graphic illustrates how the input segments are mapped to the outpu
 |Description=[[File:blue70sfilterexample.png]]
 
 Example of a table component transfer. The input ranges are mapped onto continuous output ranges.
-|Code=<svg width="640" height="550" viewBox="0 0 640 550">
- 
+|Code=
+<syntaxhighlight lang="xml">
+<svg width="640" height="550" viewBox="0 0 640 550">
 <defs>
-    <filter id="Blue70s" filterUnits="objectBoundingBox" 
-            x="0%" y="0%" width="100%" height="100%">
+    <filter id="Blue70s" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
       <feComponentTransfer in="SourceGraphic" result="A">
         <feFuncR type="table" tableValues="0 0.11 0.22 0.34 0.48 0.61 0.72 0.82 0.89 0.95 1"/>
         <feFuncG type="table" tableValues="0 0.08 0.16 0.26 0.38 0.5 0.62 0.73 0.82 0.87 0.9"/>
         <feFuncB type="table" tableValues="0.2 0.34 0.45 0.53 0.58 0.61 0.64 0.71 0.84 1 "/>
-      </feComponentTransfer>    
+      </feComponentTransfer>
 </filter>
-
   </defs>
-         
   <image x="10" y="10" width="280" height="350" preserveAspectRatio="true" xlink:href="http://upload.wikimedia.org/wikipedia/commons/8/82/Siberian-larch.jpg"/>
-         
-  <image x="310" y="10" width="280" height="350" preserveAspectRatio="true" filter="url(#Blue70s)" xlink:href="http://upload.wikimedia.org/wikipedia/commons/8/82/Siberian-larch.jpg"/>             
-                
+  <image x="310" y="10" width="280" height="350" preserveAspectRatio="true" filter="url(#Blue70s)" xlink:href="http://upload.wikimedia.org/wikipedia/commons/8/82/Siberian-larch.jpg"/>
 </svg>​
+</syntaxhighlight>
 |LiveURL=http://jsfiddle.net/jsfmullany/rtD4A/
 }}{{Single Example
 |Language=Other
 |Description=[[File:70sposter.png]]
 
 Example of a discrete component transfer. The input ranges are mapped onto specific discrete output values.
-|Code=<svg width="640" height="550" viewBox="0 0 640 550">
- 
+|Code=
+<syntaxhighlight lang="xml">
+<svg width="640" height="550" viewBox="0 0 640 550">
 <defs>
-    <filter id="Poster70s" filterUnits="objectBoundingBox" 
-            x="0%" y="0%" width="100%" height="100%">
+    <filter id="Poster70s" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
       <feComponentTransfer in="SourceGraphic" result="A">
         <feFuncR type="discrete" tableValues="0.0 1.0 1.0 1.0"/>
         <feFuncG type="discrete" tableValues="0.0 0.5 0.5 0.9"/>
         <feFuncB type="discrete" tableValues="0.0 0.6"/>
-      </feComponentTransfer>    
-</filter>
-
+      </feComponentTransfer>
+    </filter>
   </defs>
-         
   <image x="10" y="10" width="280" height="350" preserveAspectRatio="true" xlink:href="http://upload.wikimedia.org/wikipedia/commons/8/82/Siberian-larch.jpg"/>
-         
-  <image x="310" y="10" width="280" height="350" preserveAspectRatio="true" filter="url(#Poster70s)" xlink:href="http://upload.wikimedia.org/wikipedia/commons/8/82/Siberian-larch.jpg"/>             
-                
+  <image x="310" y="10" width="280" height="350" preserveAspectRatio="true" filter="url(#Poster70s)" xlink:href="http://upload.wikimedia.org/wikipedia/commons/8/82/Siberian-larch.jpg"/>
 </svg>​
+</syntaxhighlight>
 |LiveURL=http://jsfiddle.net/jsfmullany/LPnQ9/
 }}
 }}
@@ -154,43 +148,22 @@ Example of a discrete component transfer. The input ranges are mapped onto speci
 |Notes====Remarks===
 This filter primitive performs component-wise remapping of data as follows for every pixel:
 It allows operations like brightness adjustment, contrast adjustment, color balance, or thresholding.
-The <code>feFuncR</code>, <code>feFuncG</code>, <code>feFuncB</code>, and<code>feFuncA</code> elements can be children of the <code>feComponentTransfer</code> element. For more information, see [[svg/elements/feFuncR|'''SVGFEFuncRElement''']].
+The '''feFuncR''', '''feFuncG''', '''feFuncB''', and'''feFuncA''' elements can be children of the '''feComponentTransfer''' element. For more information, see [[svg/elements/feFuncR|'''SVGFEFuncRElement''']].
 The calculations are performed on non-premultiplied color values. If the input graphics consist of premultiplied color values, those values are automatically converted into non-premultiplied color values for this operation. (Note that the undoing and redoing of the premultiplication can be avoided if [[svg/elements/feFuncA|'''feFuncA''']] is the identity transform and all alpha values on the source graphic are set to 1.)
 |Import_Notes====Syntax===
 
-
-
 ===Members===
-The '''SVGFEComponentTransferElement''' object has these types of members:
-*[#properties Properties]
-
 
 ====Properties====
 The '''SVGFEComponentTransferElement''' object has these properties.
-{| class="wikitable"
-|-
-!Property
-!Description
-|-
-|[[svg/properties/height|'''height''']]
-|Gets or sets  the height of an element.
-|-
-|[[svg/properties/in1|'''in1''']]
-|Identifies input for the given filter primitive.
-|-
-|[[svg/properties/result|'''result''']]
-|Provides a reference for the output result of a filter.
-|-
-|[[svg/properties/width|'''width''']]
-|Defines the width of an element.
-|-
-|[[svg/properties/x|'''x''']]
-|Gets or sets the x-coordinate value.
-|-
-|[[svg/properties/y|'''y''']]
-|Gets or sets the y-coordinate value.
-|}
- 
+
+*[[svg/properties/height|'''height''']]: Gets or sets  the height of an element.
+*[[svg/properties/in1|'''in1''']]: Identifies input for the given filter primitive.
+*[[svg/properties/result|'''result''']]: Provides a reference for the output result of a filter.
+*[[svg/properties/width|'''width''']]: Defines the width of an element.
+*[[svg/properties/x|'''x''']]: Gets or sets the x-coordinate value.
+*[[svg/properties/y|'''y''']]: Gets or sets the y-coordinate value.
+
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -256,7 +229,7 @@ The '''SVGFEComponentTransferElement''' object has these properties.
 }}
 {{See_Also_Section
 |Manual_sections====Related pages (MSDN)===
-*<code>[[svg/elements/feFuncR|SVGFEFuncRElement]]</code>
+*[[svg/elements/feFuncR|'''SVGFEFuncRElement''']]
 }}
 {{Topics|Graphics, SVG}}
 {{External_Attribution
