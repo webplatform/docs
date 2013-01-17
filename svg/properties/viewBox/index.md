@@ -10,27 +10,31 @@
 |Description=The following code example demonstrates how to set the '''viewBox''' attribute on an SVG element.
 |LiveURL=
 |Code=
-&lt;svg width{{=}}"300px" height{{=}}"200px" version{{=}}"1.1"
-     viewBox{{=}}"0 0 1200 800" preserveAspectRatio{{=}}"none"
-     xmlns{{=}}"http://www.w3.org/2000/svg"&gt; 
+ &lt;svg width="300px" height="200px" version="1.1"
+     viewBox="0 0 1200 800" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"&gt;
 }}}}
+{{Topics|SVG}}
 {{Notes_Section
 |Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204732 Scalable Vector Graphics: Basic Data Types and Interfaces], Section 4.5.28
 
+===Syntax===
+
+===Standards information===
+
+*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204732 Scalable Vector Graphics: Basic Data Types and Interfaces], Section 4.5.28
 
 }}
 {{See_Also_Section
 |Manual_sections=
+
 ===Related pages (MSDN)===
-*<code>[[svg/elements/patterrn|SVGPatternElement]]</code>
-*<code>[[svg/elements/svg|SVGSVGElement]]</code>
-*<code>[[svg/elements/symbol|SVGSymbolElement]]</code>
-*<code>[[svg/elements/image|SVGImageElement]]</code>
-*<code>[[svg/elements/marker|SVGMarkerElement]]</code>
-*<code>[[svg/elements/view|SVGViewElement]]</code>
+
+*[[svg/elements/patterrn|'''SVGPatternElement''']]
+*[[svg/elements/svg|'''SVGSVGElement''']]
+*[[svg/elements/symbol|'''SVGSymbolElement''']]
+*[[svg/elements/image|'''SVGImageElement''']]
+*[[svg/elements/marker|'''SVGMarkerElement''']]
+*[[svg/elements/view|'''SVGViewElement''']]
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
