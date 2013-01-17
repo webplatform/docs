@@ -4,23 +4,30 @@
 }}
 {{Standardization_Status|}}
 {{API_Name}}
+{{Topics|SVG}}
 {{Notes_Section
 |Notes=
+
 ===Remarks===
+
 The '''patternContentUnits''' property uses one of the constants that are defined in the '''ISVGUnitTypes''' enumeration.
-'''Note'''  This property has no effect if you specify the [[svg/properties/viewBox|'''viewBox''']] attribute.
+'''Note:'''  This property has no effect if you specify the [[svg/properties/viewBox|'''viewBox''']] attribute.
 You can animate this property.
 |Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}199811 Scalable Vector Graphics: Gradients and Patterns], Section 13.4.5
 
+===Syntax===
+
+===Standards information===
+
+*[http://go.microsoft.com/fwlink/p/?linkid{{=}}199811 Scalable Vector Graphics: Gradients and Patterns], Section 13.4.5
 
 }}
 {{See_Also_Section
 |Manual_sections=
+
 ===Related pages (MSDN)===
-*<code>[[svg/elements/patterrn|SVGPatternElement]]</code>
+
+*[[svg/elements/patterrn|'''SVGPatternElement''']]
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
