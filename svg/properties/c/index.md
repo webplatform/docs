@@ -10,7 +10,7 @@
 
 ===Remarks===
 
-This property relates to the use of 2x3 matrices of the form:
+This property relates to the use of 2&times;3 matrices of the form:
 
              [a c e]
               [b d f]
