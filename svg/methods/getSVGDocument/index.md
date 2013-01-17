@@ -7,21 +7,26 @@
 {{Examples_Section
 |Not_required=No
 |Examples=}}
+{{Topics|SVG}}
 {{Notes_Section
 |Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204733 Scalable Vector Graphics: Document Structure], Section 5.11.13
 
+===Syntax===
+
+===Standards information===
+
+*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204733 Scalable Vector Graphics: Document Structure], Section 5.11.13
 
 }}
 {{See_Also_Section
 |Manual_sections=
+
 ===Related pages (MSDN)===
-*<code>HTMLFrameElement</code>
-*<code>HTMLIFrameElement</code>
-*<code>HTMLObjectElement</code>
-*<code>HTMLEmbedElement</code>
+
+*HTMLFrameElement
+*HTMLIFrameElement
+*HTMLObjectElement
+*HTMLEmbedElement
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
