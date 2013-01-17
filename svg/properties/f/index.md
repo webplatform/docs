@@ -4,24 +4,31 @@
 }}
 {{Standardization_Status|}}
 {{API_Name}}
+{{Topics|SVG}}
 {{Notes_Section
 |Notes=
-===Remarks===
-This property relates to the use of 2x3 matrices of the form:
- <code>
-             [a c e]            
-             [b d f]</code>
-|Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204735 Scalable Vector Graphics: Coordinate Systems, Transformations and Units], Section 7.14.3
 
+===Remarks===
+
+This property relates to the use of 2x3 matrices of the form:
+
+             [a c e]
+              [b d f]
+|Import_Notes=
+
+===Syntax===
+
+===Standards information===
+
+*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204735 Scalable Vector Graphics: Coordinate Systems, Transformations and Units], Section 7.14.3
 
 }}
 {{See_Also_Section
 |Manual_sections=
+
 ===Related pages (MSDN)===
-*<code>[[svg/objects/SVGMatrix|SVGMatrix]]</code>
+
+*[[svg/objects/SVGMatrix|'''SVGMatrix''']]
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
