@@ -4,27 +4,35 @@
 }}
 {{Standardization_Status|}}
 {{API_Name}}
+{{Topics|SVG}}
 {{Notes_Section
 |Notes=
+
 ===Remarks===
+
 The returned item is the item itself and not a copy. Any changes  that are made to the item are immediately reflected in the list.
 |Import_Notes=
-===Syntax===
-<div class{{=}}"code">ISVGTransform retVal {{=}} ''object.''getItem(index);</div>
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204732 Scalable Vector Graphics: Basic Data Types and Interfaces], Section 4.5.4
 
+===Syntax===
+
+ ISVGTransform retVal = ''object.''getItem(index);
+
+===Standards information===
+
+*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204732 Scalable Vector Graphics: Basic Data Types and Interfaces], Section 4.5.4
 
 }}
 {{See_Also_Section
 |Manual_sections=
+
 ===Related pages (MSDN)===
-*<code>[[svg/objects/SVGLengthList|SVGLengthList]]</code>
-*<code>[[svg/objects/SVGNumberList|SVGNumberList]]</code>
-*<code>[[svg/objects/SVGPathSegList|SVGPathSegList]]</code>
-*<code>[[svg/objects/SVGPointList|SVGPointList]]</code>
-*<code>[[svg/objects/SVGStringList|SVGStringList]]</code>
-*<code>[[svg/objects/SVGTransformList|SVGTransformList]]</code>
+
+*[[svg/objects/SVGLengthList|'''SVGLengthList''']]
+*[[svg/objects/SVGNumberList|'''SVGNumberList''']]
+*[[svg/objects/SVGPathSegList|'''SVGPathSegList''']]
+*[[svg/objects/SVGPointList|'''SVGPointList''']]
+*[[svg/objects/SVGStringList|'''SVGStringList''']]
+*[[svg/objects/SVGTransformList|'''SVGTransformList''']]
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
