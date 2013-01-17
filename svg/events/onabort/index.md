@@ -21,56 +21,60 @@
 |Description=The following code example shows how to  handle  the '''onabort''' event.
 |LiveURL=
 |Code=
-&lt;?xml version{{=}}"1.0" standalone{{=}}"no"?&gt;
-&lt;!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
-"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"&gt;
-&lt;svg id{{=}}"outerSvgElement"
-     width{{=}}"600px" height{{=}}"210px" version{{=}}"1.1" 
-     xmlns{{=}}"http://www.w3.org/2000/svg"
-     xmlns:xlink{{=}}"http://www.w3.org/1999/xlink"&gt; &lt;!-- Required for xlink usage. --&gt;
-   
-  &lt;script type{{=}}"application/ecmascript"&gt;
+<syntaxhighlight lang="xml">
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg id="outerSvgElement" width="600px" height="210px" version="1.1" xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"> <!-- Required for xlink usage. -->
+  <script type="application/ecmascript">
     function handleAbortEvent(evt) {
       // Handle the abort event here.
     }
-    
-    window.onload {{=}} function() {
-      var e {{=}} document.documentElement; // Root element is svg
-      
-      /* 
+
+    window.onload = function() {
+      var e = document.documentElement; // Root element is svg
+
+      /*
         For the svg element, add an event listener for the onabort event.
-        addEventListener parameters: event type, event listener pointer, 'false' {{=}} bubbling.
+        addEventListener parameters: event type, event listener pointer, 'false' = bubbling.
       */
       e.addEventListener('SVGAbort', handleAbortEvent, false);
     }
-  &lt;/script&gt;
-  
-&lt;/svg&gt;
+  </script>
+</svg>
+</syntaxhighlight>
 }}}}
 {{Notes_Section
 |Notes=
+
 ===Remarks===
+
 The '''onabort''' event occurs when page loading is stopped before an element  is  loaded  completely.
 The target of the event is the [[svg/elements/svg|'''svg''']] element.
 The designated element stops loading.
 To invoke this event, do one of the following:
 *The user presses the browser's stop button before the element  is  loaded  completely.
-
 |Import_Notes=
+
 ===Syntax===
+
 ===Standards information===
+
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}204745 Scalable Vector Graphics: Scripting], Section 18.4.3
 
-
 ===Event handler parameters===
-;''pEvt'' [in]:Type: '''<b>IDOMUIEvent'''</b>The [[dom/objects/Event|'''IDOMEvent''']] object.
+
+;''pEvt'' [in]:Type: '''IDOMUIEvent'''The [[dom/objects/Event|'''IDOMEvent''']] object.
 
 }}
 {{See_Also_Section
 |Manual_sections=
+
 ===Related pages (MSDN)===
-*<code>[[svg/elements/svg|SVGSVGElement]]</code>
-*<code>[[dom/events/abort|onabort]]</code>
+
+*[[svg/elements/svg|'''SVGSVGElement''']]
+*[[dom/events/abort|'''onabort''']]
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
