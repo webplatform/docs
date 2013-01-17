@@ -4,22 +4,30 @@
 }}
 {{Standardization_Status|}}
 {{API_Name}}
+{{Topics|SVG}}
 {{Notes_Section
 |Notes=
-===Remarks===
-One of three values that determines how to extend the input image as necessary with color values so that the matrix operations can be applied when the kernel is positioned at or near the edge of the input image.
-If attribute '''edgeMode''' is not specified, then the effect is as if a value of <code>duplicate</code> were specified.
-|Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}226062 Scalable Vector Graphics: Filter Effects], Section 15.25.12
 
+===Remarks===
+
+One of three values that determines how to extend the input image as necessary with color values so that the matrix operations can be applied when the kernel is positioned at or near the edge of the input image.
+
+If attribute '''edgeMode''' is not specified, then the effect is as if a value of '''duplicate''' were specified.
+|Import_Notes=
+
+===Syntax===
+
+===Standards information===
+
+*[http://go.microsoft.com/fwlink/p/?linkid{{=}}226062 Scalable Vector Graphics: Filter Effects], Section 15.25.12
 
 }}
 {{See_Also_Section
 |Manual_sections=
+
 ===Related pages (MSDN)===
-*<code>[[svg/elements/feConvolveMatrix|SVGFEConvolveMatrixElement]]</code>
+
+*[[svg/elements/feConvolveMatrix|'''SVGFEConvolveMatrixElement''']]
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
