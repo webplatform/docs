@@ -7,24 +7,31 @@
 {{Examples_Section
 |Not_required=No
 |Examples=}}
+{{Topics|SVG}}
 {{Notes_Section
 |Notes=
+
 ===Remarks===
+
 If provided, filterRes indicates exactly how many pixels in X and Y are
 used for computation of the intermediate offscreen bitmaps. It thus defines a particular
 resolution at which the filtering is performed. If it is not provided, the user agent picks
 a suitable resolution appropriate to the output device.
 |Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}226062 Scalable Vector Graphics: Filter Effects], Section 15.25.1
 
+===Syntax===
+
+===Standards information===
+
+*[http://go.microsoft.com/fwlink/p/?linkid{{=}}226062 Scalable Vector Graphics: Filter Effects], Section 15.25.1
 
 }}
 {{See_Also_Section
 |Manual_sections=
+
 ===Related pages (MSDN)===
-*<code>[[svg/elements/filter|SVGFilterElement]]</code>
+
+*[[svg/elements/filter|'''SVGFilterElement''']]
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
