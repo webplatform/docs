@@ -10,91 +10,43 @@
 {{Topics|DOM}}
 {{Notes_Section
 |Notes=
+
 ===Remarks===
-'''Note'''  In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
-Many SVG graphics operations use <code>2×3</code> matrices.  When you need  a matrix for matrix arithmetic, you can expand a <code>2×3</code> matrix into a <code>3×3</code> matrix equivalent by adding a third row of <code>[0 0 1]</code>.
- 
- 
-Build date: 7/24/2012
+
+'''Note:'''  In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
+
+Many SVG graphics operations use '''2&times;3''' matrices.  When you need  a matrix for matrix arithmetic, you can expand a '''2&times;3''' matrix into a '''3&times;3''' matrix equivalent by adding a third row of '''[0 0 1]'''.
+
 |Import_Notes=
+
 ===Standards information===
+
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}204735 Scalable Vector Graphics: Coordinate Systems, Transformations and Units], Section 7.14.3
 
-
 ===Members===
-The '''SVGMatrix''' object has these types of members:
-*[#methods Methods]
-*[#properties Properties]
 
+The '''SVGMatrix''' object has these methods:
 
-====Methods====
-The '''SVGMatrix''' object has these methods.
-{| class="wikitable"
-|-
-!Method
-!Description
-|-
-|[[svg/methods/flipX|'''flipX''']]
-|Returns a matrix equivalent to a flip about the x-axis.
-|-
-|[[svg/methods/flipY|'''flipY''']]
-|Returns a matrix equivalent to a flip about the y-axis.
-|-
-|[[svg/methods/inverse|'''inverse''']]
-|Returns the inverse of this matrix.
-|-
-|[[svg/methods/multiply|'''multiply''']]
-|Post-multiplies the matrix by the specified second matrix and returns the resulting matrix.
-|-
-|[[svg/methods/rotate|'''rotate''']]
-|Post-multiplies a rotation transformation on the current matrix and returns the resulting matrix.
-|-
-|[[svg/methods/rotateFromVector|'''rotateFromVector''']]
-|Post-multiplies the matrix by a specified rotation transformation and returns the resulting matrix.
-|-
-|[[svg/methods/scale|'''scale''']]
-|Post-multiplies the matrix by a uniform scale transformation and returns the resulting matrix.
-|-
-|[[svg/methods/scaleNonUniform|'''scaleNonUniform''']]
-|Post-multiplies the matrix by a non-uniform scale transformation  and returns the resulting matrix.
-|-
-|[[svg/methods/skewX|'''skewX''']]
-|Post-multiplies the matrix by a skew transformation along the x-axis and returns the resulting matrix.
-|-
-|[[svg/methods/skewY|'''skewY''']]
-|Post-multiplies the matrix by a skew transformation along the y-axis  and returns the resulting matrix.
-|-
-|[[svg/methods/translate|'''translate''']]
-|Post-multiplies the matrix by a translation transformation  and returns the resulting matrix.
-|}
- 
+*[[svg/methods/flipX|'''flipX''']]: Returns a matrix equivalent to a flip about the x-axis.
+*[[svg/methods/flipY|'''flipY''']]: Returns a matrix equivalent to a flip about the y-axis.
+*[[svg/methods/inverse|'''inverse''']]: Returns the inverse of this matrix.
+*[[svg/methods/multiply|'''multiply''']]: Post-multiplies the matrix by the specified second matrix and returns the resulting matrix.
+*[[svg/methods/rotate|'''rotate''']]: Post-multiplies a rotation transformation on the current matrix and returns the resulting matrix.
+*[[svg/methods/rotateFromVector|'''rotateFromVector''']]: Post-multiplies the matrix by a specified rotation transformation and returns the resulting matrix.
+*[[svg/methods/scale|'''scale''']]: Post-multiplies the matrix by a uniform scale transformation and returns the resulting matrix.
+*[[svg/methods/scaleNonUniform|'''scaleNonUniform''']]: Post-multiplies the matrix by a non-uniform scale transformation  and returns the resulting matrix.
+*[[svg/methods/skewX|'''skewX''']]: Post-multiplies the matrix by a skew transformation along the x-axis and returns the resulting matrix.
+*[[svg/methods/skewY|'''skewY''']]: Post-multiplies the matrix by a skew transformation along the y-axis  and returns the resulting matrix.
+*[[svg/methods/translate|'''translate''']]: Post-multiplies the matrix by a translation transformation  and returns the resulting matrix.
 
-====Properties====
-The '''SVGMatrix''' object has these properties.
-{| class="wikitable"
-|-
-!Property
-!Description
-|-
-|[[svg/properties/a|'''a''']]
-|Gets or sets the '''a'''  entry of the '''SVGMatrix'''.
-|-
-|[[svg/properties/b|'''b''']]
-|Gets or sets  the '''b'''  entry of the '''SVGMatrix'''.
-|-
-|[[svg/properties/c|'''c''']]
-|Gets or sets  the '''c'''  entry of the '''SVGMatrix'''.
-|-
-|[[svg/properties/d|'''d''']]
-|Gets or sets  the '''d'''  entry of the '''SVGMatrix'''.
-|-
-|[[svg/properties/e|'''e''']]
-|Gets or sets  the '''e'''  entry of the '''SVGMatrix'''.
-|-
-|[[svg/properties/f|'''f''']]
-|Gets or sets  the [[svg/properties/f|'''f''']]  entry of the '''SVGMatrix'''.
-|}
- 
+The '''SVGMatrix''' object has these properties:
+
+*[[svg/properties/a|'''a''']]: Gets or sets the '''a'''  entry of the '''SVGMatrix'''.
+*[[svg/properties/b|'''b''']]: Gets or sets  the '''b'''  entry of the '''SVGMatrix'''.
+*[[svg/properties/c|'''c''']]: Gets or sets  the '''c'''  entry of the '''SVGMatrix'''.
+*[[svg/properties/d|'''d''']]: Gets or sets  the '''d'''  entry of the '''SVGMatrix'''.
+*[[svg/properties/e|'''e''']]: Gets or sets  the '''e'''  entry of the '''SVGMatrix'''.
+*[[svg/properties/f|'''f''']]: Gets or sets  the [[svg/properties/f|'''f''']]  entry of the '''SVGMatrix'''.
 
 }}
 {{External_Attribution
