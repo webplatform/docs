@@ -4,19 +4,24 @@
 }}
 {{Standardization_Status|}}
 {{API_Name}}
+{{Topics|SVG}}
 {{Notes_Section
 |Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}226062 Scalable Vector Graphics: Filter Effects], Section 15.25.17
 
+===Syntax===
+
+===Standards information===
+
+*[http://go.microsoft.com/fwlink/p/?linkid{{=}}226062 Scalable Vector Graphics: Filter Effects], Section 15.25.17
 
 }}
 {{See_Also_Section
 |Manual_sections=
+
 ===Related pages (MSDN)===
-*<code>[[svg/elements/feDisplacementMap|FEDisplacementMap]]</code>
-*<code>[[svg/properties/yChannelSelector|yChannelSelector]]</code>
+
+*[[svg/elements/feDisplacementMap|'''FEDisplacementMap''']]
+*[[svg/properties/yChannelSelector|'''yChannelSelector''']]
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
