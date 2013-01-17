@@ -10,60 +10,33 @@
 {{Topics|SVG}}
 {{Notes_Section
 |Notes=
+
 ===Remarks===
+
 The resulting image is an RGBA image based on the light color. The lighting calculation follows the standard specular component of the [http://go.microsoft.com/fwlink/p/?LinkId{{=}}226233 Phong lighting model]. The resulting image depends on the light color, light position, and surface geometry of the input bump map.
- 
- 
-Build date: 7/24/2012
+
 |Import_Notes=
+
 ===Syntax===
+
 ===Standards information===
+
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}226062 Scalable Vector Graphics: Filter Effects], Section 15.25.25
 
-
 ===Members===
-The '''SVGFESpecularLightingElement''' object has these types of members:
-*[#properties Properties]
 
+The '''SVGFESpecularLightingElement''' object has these properties:
 
-====Properties====
-The '''SVGFESpecularLightingElement''' object has these properties.
-{| class="wikitable"
-|-
-!Property
-!Description
-|-
-|[[svg/properties/height|'''height''']]
-|Gets or sets  the height of an element.
-|-
-|[[svg/properties/in1|'''in1''']]
-|Identifies input for the given filter primitive.
-|-
-|[[svg/properties/kernelUnitLengthX|'''kernelUnitLengthX''']]
-|<code>kernelUnitLength</code> indicates the intended distance in current filter units for ''dx'' and ''dy'' in the surface normal calculation formulas.
-|-
-|[[svg/properties/kernelUnitLengthY|'''kernelUnitLengthY''']]
-|<code>kernelUnitLength</code> indicates the intended distance in current filter units for ''dx'' and ''dy'' in the surface normal calculation formulas.
-|-
-|[[svg/properties/result|'''result''']]
-|Provides a reference for the output result of a filter.
-|-
-|[[svg/properties/specularConstant|'''specularConstant''']]
-|Specifies the diffuse refection constant used to calculate the effects of diffusion and reflection from a light source.
-|-
-|[[svg/properties/surfaceScale|'''surfaceScale''']]
-|Specifies surface height when the alpha channel of the input image is set to 100% opacity.
-|-
-|[[svg/properties/width|'''width''']]
-|Defines the width of an element.
-|-
-|[[svg/properties/x|'''x''']]
-|Gets or sets the x-coordinate value.
-|-
-|[[svg/properties/y|'''y''']]
-|Gets or sets the y-coordinate value.
-|}
- 
+*[[svg/properties/height|'''height''']]: Gets or sets  the height of an element.
+*[[svg/properties/in1|'''in1''']]: Identifies input for the given filter primitive.
+*[[svg/properties/kernelUnitLengthX|'''kernelUnitLengthX''']]: '''kernelUnitLength''' indicates the intended distance in current filter units for ''dx'' and ''dy'' in the surface normal calculation formulas.
+*[[svg/properties/kernelUnitLengthY|'''kernelUnitLengthY''']]: '''kernelUnitLength''' indicates the intended distance in current filter units for ''dx'' and ''dy'' in the surface normal calculation formulas.
+*[[svg/properties/result|'''result''']]: Provides a reference for the output result of a filter.
+*[[svg/properties/specularConstant|'''specularConstant''']]: Specifies the diffuse refection constant used to calculate the effects of diffusion and reflection from a light source.
+*[[svg/properties/surfaceScale|'''surfaceScale''']]: Specifies surface height when the alpha channel of the input image is set to 100% opacity.
+*[[svg/properties/width|'''width''']]: Defines the width of an element.
+*[[svg/properties/x|'''x''']]: Gets or sets the x-coordinate value.
+*[[svg/properties/y|'''y''']]: Gets or sets the y-coordinate value.
 
 }}
 {{External_Attribution
