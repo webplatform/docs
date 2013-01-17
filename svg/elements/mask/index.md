@@ -13,7 +13,7 @@
 |Examples={{Single_Example
 |Description=In the following code example, an alpha mask is used to filter text. A linear gradient is defined that runs from magenta to cyan. A mask is then defined that will use the gradient to filter defined text. Alpha masking uses the image brightness to define the opacity of the final image. Magenta is less "bright" than cyan, so the resulting masked image will be less opaque on the left and more opaque on the right.
 
-Copy this sample to a text file and save it with the .html file extension. Run it in Internet Explorer 9 to see the alpha-masked text.
+Copy this sample to a text file and save it with the ''.html'' file extension. Run it in Internet Explorer 9 to see the alpha-masked text.
 
 The masked text will look like this:
 |LiveURL=
@@ -68,7 +68,6 @@ The effect is the same as if the child elements of the '''mask''' element are re
 For any graphical object that is used as a mask, the mask value at any point is computed from the color channel values and alpha channel value as follows:
 
 #Compute a linear luminance value from the color channel values. For example, convert the original image color values (potentially in the sRGB color space) to the linear RGB color space. Then, by using non-premultiplied linear RGB color values, apply the luminance-to-alpha coefficients to convert the linear RGB color values to linear luminance values.
-
 #If the graphics object also includes an alpha channel,  multiply the computed linear luminance value by the corresponding alpha value to produce the mask value.
 
 For a four-channel RGBA graphics object that is used as a mask, both the color channels and the alpha channel of the mask contribute to the masking operation. The alpha mask that is used to composite the current object into the background represents the product of the luminance of the color channels and the alpha channel from the mask.
