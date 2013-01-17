@@ -4,22 +4,30 @@
 }}
 {{Standardization_Status|}}
 {{API_Name}}
+{{Topics|SVG}}
 {{Notes_Section
 |Notes=
+
 ===Remarks===
-If the <code>xlink:href</code> attribute is being animated, the '''animatedInstanceRoot'''  property contains the current animated root of the instance tree. If the <code>xlink:href</code> attribute is not currently being animated,  '''animatedInstanceRoot'''  contains the same value as  the [[svg/properties/instanceRoot|'''instanceRoot''']] property.
+
+If the '''xlink:href''' attribute is being animated, the '''animatedInstanceRoot'''  property contains the current animated root of the instance tree. If the '''xlink:href''' attribute is not currently being animated,  '''animatedInstanceRoot'''  contains the same value as  the [[svg/properties/instanceRoot|'''instanceRoot''']] property.
+
 For more information about the instance tree, see  [[svg/objects/SVGElementInstance|'''SVGElementInstance''']].
 |Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204733 Scalable Vector Graphics: Document Structure], Section 5.11.8
 
+===Syntax===
+
+===Standards information===
+
+*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204733 Scalable Vector Graphics: Document Structure], Section 5.11.8
 
 }}
 {{See_Also_Section
 |Manual_sections=
+
 ===Related pages (MSDN)===
-*<code>[[svg/elements/use|SVGUseElement]]</code>
+
+*[[svg/elements/use|'''SVGUseElement''']]
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
