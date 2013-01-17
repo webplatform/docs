@@ -10,63 +10,32 @@
 {{Topics|DOM}}
 {{Notes_Section
 |Notes=
+
 ===Remarks===
-'''Note'''  In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
- 
- 
-Build date: 7/24/2012
+
+'''Note:'''  In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
+
 |Import_Notes=
+
 ===Standards information===
+
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}204732 Scalable Vector Graphics: Basic Data Types and Interfaces], Section 4.5.9
 
-
 ===Members===
-The '''SVGNumberList''' object has these types of members:
-*[#methods Methods]
-*[#properties Properties]
 
+The '''SVGNumberList''' object has these methods:
 
-====Methods====
-The '''SVGNumberList''' object has these methods.
-{| class="wikitable"
-|-
-!Method
-!Description
-|-
-|[[svg/methods/appendItem|'''appendItem''']]
-|Inserts a new item at the end of the list.
-|-
-|[[svg/methods/clear|'''clear''']]
-|Clears all existing items from the list, which creates  an empty list.
-|-
-|[[svg/methods/getItem|'''getItem''']]
-|Returns the specified item from a list.
-|-
-|[[svg/methods/initialize|'''initialize''']]
-|Clears current items from the list and re-initializes the list to  contain  the  specified item.
-|-
-|[[svg/methods/insertItemBefore|'''insertItemBefore''']]
-|Inserts a new item into a list at a specified position.
-|-
-|[[svg/methods/removeItem|'''removeItem''']]
-|Removes an existing item from the list.
-|-
-|[[svg/methods/replaceItem|'''replaceItem''']]
-|Replaces a specified  existing item in the list with a specified new item.
-|}
- 
+*[[svg/methods/appendItem|'''appendItem''']]: Inserts a new item at the end of the list.
+*[[svg/methods/clear|'''clear''']]: Clears all existing items from the list, which creates  an empty list.
+*[[svg/methods/getItem|'''getItem''']]: Returns the specified item from a list.
+*[[svg/methods/initialize|'''initialize''']]: Clears current items from the list and re-initializes the list to  contain  the  specified item.
+*[[svg/methods/insertItemBefore|'''insertItemBefore''']]: Inserts a new item into a list at a specified position.
+*[[svg/methods/removeItem|'''removeItem''']]: Removes an existing item from the list.
+*[[svg/methods/replaceItem|'''replaceItem''']]: Replaces a specified  existing item in the list with a specified new item.
 
-====Properties====
-The '''SVGNumberList''' object has these properties.
-{| class="wikitable"
-|-
-!Property
-!Description
-|-
-|[[svg/properties/numberOfItems|'''numberOfItems''']]
-|Gets or sets  the number of items in a list.
-|}
- 
+The '''SVGNumberList''' object has these properties:
+
+*[[svg/properties/numberOfItems|'''numberOfItems''']]: Gets or sets  the number of items in a list.
 
 }}
 {{External_Attribution
