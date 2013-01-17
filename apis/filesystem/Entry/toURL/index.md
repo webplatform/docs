@@ -13,7 +13,9 @@
 |Not_required=Yes
 |Examples=
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Notes=The URL has no specific expiration; as it describes a location on disk, it should be valid at least as long as that location exists.
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=W3C File API: Directories and System Specification
