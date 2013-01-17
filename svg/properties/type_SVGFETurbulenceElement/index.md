@@ -4,10 +4,14 @@
 }}
 {{Standardization_Status|}}
 {{API_Name}}
+{{Topics|SVG}}
 {{Notes_Section
 |Notes=
+
 ===Remarks===
-[[svg/elements/feTurbulence|'''SVGFETurbulenceElement''']] uses the '''type''' value to determine whether  the filter primitive should perform a <code>noise</code> or <code>turbulence</code> function. The default is  <code>turbulence</code> (<code>turbulence</code> is fractal-based and is considered smoother in appearance).
+
+[[svg/elements/feTurbulence|'''SVGFETurbulenceElement''']] uses the '''type''' value to determine whether  the filter primitive should perform a '''noise''' or '''turbulence''' function. The default is  '''turbulence''' ('''turbulence''' is fractal-based and is considered smoother in appearance).
+
 The following are constants associated with [[svg/elements/feTurbulence|'''SVGFETurbulenceElement''']].
 {| class="wikitable"
 |-
@@ -21,11 +25,11 @@ The following are constants associated with [[svg/elements/feTurbulence|'''SVGFE
 |-
 |SVG_TURBULENCE_TYPE_FRACTALNOISE
 |1
-|Corresponds to value <code>fractalNoise</code>.
+|Corresponds to value '''fractalNoise'''.
 |-
 |SVG_TURBULENCE_TYPE_TURBULENCE
 |2
-|Corresponds to value <code>turbulence</code>.
+|Corresponds to value '''turbulence'''.
 |-
 |SVG_STITCHTYPE_UNKNOWN
 |0
@@ -33,20 +37,23 @@ The following are constants associated with [[svg/elements/feTurbulence|'''SVGFE
 |-
 |SVG_STITCHTYPE_STITCH
 |1
-|Corresponds to value <code>stitch</code>.
+|Corresponds to value '''stitch'''.
 |-
 |SVG_STITCHTYPE_NOSTITCH
 |2
-|Corresponds to value <code>noStitch</code>.
-|}
- 
+|Corresponds to value '''noStitch'''.
+
 |Import_Notes=
+
 ===Syntax===
+
 }}
 {{See_Also_Section
 |Manual_sections=
+
 ===Related pages (MSDN)===
-*<code>[[svg/elements/feTurbulence|SVGFETurbulenceElement]]</code>
+
+*[[svg/elements/feTurbulence|'''SVGFETurbulenceElement''']]
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
