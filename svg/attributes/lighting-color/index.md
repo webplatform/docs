@@ -10,24 +10,25 @@
 {{Topics|SVG}}
 {{Notes_Section
 |Import_Notes=
-===Syntax===
-<code>'''lighting-color: '''currentColor '''{{!}}''' ''
-&lt;color&gt;
-'' '''[''' ''
-&lt;icccolor&gt;
-'' ''']''''''?''' '''{{!}}''' inherit</code>
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}226062 Scalable Vector Graphics: Filter Effects], Section 15.8.5
 
+===Syntax===
+
+ '''lighting-color: '''currentColor '''{{!}}''' ''color'' '''[''' ''icccolor'' ''']''''''?''' '''{{!}}''' inherit
+
+===Standards information===
+
+*[http://go.microsoft.com/fwlink/p/?linkid{{=}}226062 Scalable Vector Graphics: Filter Effects], Section 15.8.5
 
 }}
 {{See_Also_Section
 |Manual_sections=
+
 ===Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[svg/elements/feDistantLight|feDistantLight]]</code>
-*<code>[[svg/elements/fePointLight|fePointLight]]</code>
-*<code>[[svg/elements/feSpotlight|feSpotlightElement]]</code>
+
+*[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|'''CSSStyleDeclaration''']]
+*[[svg/elements/feDistantLight|'''feDistantLight''']]
+*[[svg/elements/fePointLight|'''fePointLight''']]
+*[[svg/elements/feSpotlight|'''feSpotlightElement''']]
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
