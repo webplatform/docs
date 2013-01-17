@@ -10,42 +10,27 @@
 {{Topics|DOM}}
 {{Notes_Section
 |Notes=
+
 ===Remarks===
-'''Note'''  In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
-The <code>L</code> object uses absolute coordinates to draw a  line from the current point to the given (x,y) coordinate, which becomes the new current point. You can specify a number of coordinates pairs  to draw a polyline. At the end of the command, the new current point is set to the final set of coordinates that are provided.
- 
- 
-Build date: 7/24/2012
+
+'''Note:'''  In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
+
+The '''L''' object uses absolute coordinates to draw a  line from the current point to the given (x,y) coordinate, which becomes the new current point. You can specify a number of coordinates pairs  to draw a polyline. At the end of the command, the new current point is set to the final set of coordinates that are provided.
+
 |Import_Notes=
+
 ===Standards information===
+
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}204736 Scalable Vector Graphics: Paths], Section 8.5.5
 
-
 ===Members===
-The '''SVGPathSegLinetoAbs''' object has these types of members:
-*[#properties Properties]
 
+The '''SVGPathSegLinetoAbs''' object has these properties:
 
-====Properties====
-The '''SVGPathSegLinetoAbs''' object has these properties.
-{| class="wikitable"
-|-
-!Property
-!Description
-|-
-|[[svg/properties/pathSegType|'''pathSegType''']]
-|Gets the type of the path segment.
-|-
-|[[svg/properties/pathSegTypeAsLetter|'''pathSegTypeAsLetter''']]
-|Gets the type of the path segment, specified by the corresponding one-character command name.
-|-
-|[[svg/properties/x|'''x''']]
-|Gets or sets the x-coordinate value.
-|-
-|[[svg/properties/y|'''y''']]
-|Gets or sets the y-coordinate value.
-|}
- 
+*[[svg/properties/pathSegType|'''pathSegType''']]: Gets the type of the path segment.
+*[[svg/properties/pathSegTypeAsLetter|'''pathSegTypeAsLetter''']]: Gets the type of the path segment, specified by the corresponding one-character command name.
+*[[svg/properties/x|'''x''']]: Gets or sets the x-coordinate value.
+*[[svg/properties/y|'''y''']]: Gets or sets the y-coordinate value.
 
 }}
 {{External_Attribution
