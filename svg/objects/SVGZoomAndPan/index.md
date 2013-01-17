@@ -10,22 +10,26 @@
 {{Topics|DOM}}
 {{Notes_Section
 |Notes=
+
 ===Remarks===
+
 ''Zooming'' is the simultaneous operation of the scale and translate actions in the [[svg/objects/SVGTransform|'''SVGTransform''']] element. ''Panning'' just uses the translate actions of '''SVGTransform''' element. '''SVGZoomAndPan''' provides two values:
+
 *magnify
 *disable
 
 The default is magnify and allows zooming and panning. Disable will disable zooming and panning.
- 
- 
-Build date: 7/24/2012
+
 |Import_Notes=
+
 ===Syntax===
+
 ===Standards information===
+
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}204732 Scalable Vector Graphics: Basic Data Types and Interfaces], Section 4.5.29
 
-
 ===Members===
+
 The '''SVGZoomAndPan''' object does not define any members.
 
 }}
