@@ -10,30 +10,35 @@
 {{Topics|SVG}}
 {{Notes_Section
 |Import_Notes=
-===Syntax===
-<code>'''fill: '''none '''{{!}}''' currentColor '''{{!}}''' funciri '''{{!}}''' inherit</code>
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}199816 Scalable Vector Graphics: Painting, Filling, Stroking and Marker Symbols], Section 11.3
 
+===Syntax===
+
+ '''fill: '''none '''{{!}}''' currentColor '''{{!}}''' funciri '''{{!}}''' inherit
+
+===Standards information===
+
+*[http://go.microsoft.com/fwlink/p/?linkid{{=}}199816 Scalable Vector Graphics: Painting, Filling, Stroking and Marker Symbols], Section 11.3
 
 }}
 {{See_Also_Section
 |Manual_sections=
+
 ===Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-*<code>[[svg/elements/tspan|SVGTSpanElement]]</code>
-*<code>[[svg/elements/textPath|SVGTextPathElement]]</code>
-*<code>[[svg/elements/text|SVGTextElement]]</code>
-*<code>[[svg/elements/path|SVGPathElement]]</code>
-*<code>[[svg/elements/rect|SVGRectElement]]</code>
-*<code>[[svg/elements/circle|SVGCircleElement]]</code>
-*<code>[[svg/elements/ellipse|SVGEllipseElement]]</code>
-*<code>[[svg/elements/line|SVGLineElement]]</code>
-*<code>[[svg/elements/polyline|SVGPolylineElement]]</code>
-*<code>[[svg/elements/polygon|SVGPolygonElement]]</code>
-*<code>[[svg/attributes/stroke|stroke]]</code>
+
+*[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|'''CSSStyleDeclaration''']]
+*[[css/cssom/currentStyle|'''currentStyle''']]
+*[[css/cssom/style|'''style''']]
+*[[svg/elements/tspan|'''SVGTSpanElement''']]
+*[[svg/elements/textPath|'''SVGTextPathElement''']]
+*[[svg/elements/text|'''SVGTextElement''']]
+*[[svg/elements/path|'''SVGPathElement''']]
+*[[svg/elements/rect|'''SVGRectElement''']]
+*[[svg/elements/circle|'''SVGCircleElement''']]
+*[[svg/elements/ellipse|'''SVGEllipseElement''']]
+*[[svg/elements/line|'''SVGLineElement''']]
+*[[svg/elements/polyline|'''SVGPolylineElement''']]
+*[[svg/elements/polygon|'''SVGPolygonElement''']]
+*[[svg/attributes/stroke|'''stroke''']]
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
