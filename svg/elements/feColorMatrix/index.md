@@ -36,8 +36,8 @@ are automatically converted into non-premultiplied color values for
 this operation.
 
 The '''type''' attribute is used to indicate the type of matrix
-operation. The keyword '''matrix''' indicates that a full 5x4 matrix
-of values will be provided. The other keywords (see
+operation. The keyword '''matrix''' indicates that a full 5&times;4
+matrix of values will be provided. The other keywords (see
 [[svg/properties/values|'''values''']]) represent convenience
 shortcuts to allow commonly used color operations to be performed
 without specifying a complete matrix. If the attribute '''type''' is
