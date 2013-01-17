@@ -7,23 +7,30 @@
 {{Examples_Section
 |Not_required=No
 |Examples=}}
+{{Topics|SVG}}
 {{Notes_Section
 |Notes=
+
 ===Remarks===
+
 For additional information, see [[svg/properties/in1|'''in''']].
 |Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}226062 Scalable Vector Graphics: Filter Effects], Section 15.7.2
 
+===Syntax===
+
+===Standards information===
+
+*[http://go.microsoft.com/fwlink/p/?linkid{{=}}226062 Scalable Vector Graphics: Filter Effects], Section 15.7.2
 
 }}
 {{See_Also_Section
 |Manual_sections=
+
 ===Related pages (MSDN)===
-*<code>[[svg/elements/feBlend|SVGFEBlendElement]]</code>
-*<code>[[svg/elements/feComposite|SVGFECompositeElement]]</code>
-*<code>[[svg/elements/feDisplacementMap|SVGFEDisplacementMapElement]]</code>
+
+*[[svg/elements/feBlend|'''SVGFEBlendElement''']]
+*[[svg/elements/feComposite|'''SVGFECompositeElement''']]
+*[[svg/elements/feDisplacementMap|'''SVGFEDisplacementMapElement''']]
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
