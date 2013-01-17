@@ -4,21 +4,28 @@
 }}
 {{Standardization_Status|}}
 {{API_Name}}
+{{Topics|SVG}}
 {{Notes_Section
 |Notes=
-===Remarks===
-If '''preserveAlpha''' is not specified, then the effect is as if a value of <code>false</code> were specified.
-|Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}226062 Scalable Vector Graphics: Filter Effects], Section 15.25.12
 
+===Remarks===
+
+If '''preserveAlpha''' is not specified, then the effect is as if a value of '''false''' were specified.
+|Import_Notes=
+
+===Syntax===
+
+===Standards information===
+
+*[http://go.microsoft.com/fwlink/p/?linkid{{=}}226062 Scalable Vector Graphics: Filter Effects], Section 15.25.12
 
 }}
 {{See_Also_Section
 |Manual_sections=
+
 ===Related pages (MSDN)===
-*<code>[[svg/elements/feConvolveMatrix|SVGFEConvolveMatrixElement]]</code>
+
+*[[svg/elements/feConvolveMatrix|'''SVGFEConvolveMatrixElement''']]
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
