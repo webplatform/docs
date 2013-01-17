@@ -4,26 +4,35 @@
 }}
 {{Standardization_Status|}}
 {{API_Name}}
+{{Topics|SVG}}
 {{Notes_Section
 |Notes=
+
 ===Remarks===
+
 For angles,  the '''value'''  property is in degrees. For lengths, the '''value'''  property is in user units.
-If you 
+If you
+
 set the '''value''' property, the  [[svg/properties/valueInSpecifiedUnits|'''valueInSpecifiedUnits''']] and [[svg/properties/valueAsString|'''valueAsString''']]  properties are updated automatically to reflect this setting.
 |Import_Notes=
-===Syntax===
-HRESULT value {{=}} object.put_value(float v);HRESULT value {{=}} object.get_value(float* p);
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204732 Scalable Vector Graphics: Basic Data Types and Interfaces], Section 4.5.11
 
+===Syntax===
+
+HRESULT value {{=}} object.put_value(float v);HRESULT value {{=}} object.get_value(float* p);
+
+===Standards information===
+
+*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204732 Scalable Vector Graphics: Basic Data Types and Interfaces], Section 4.5.11
 
 }}
 {{See_Also_Section
 |Manual_sections=
+
 ===Related pages (MSDN)===
-*<code>[[svg/objects/SVGAngle|SVGAngle]]</code>
-*<code>[[svg/objects/SVGLength|SVGLength]]</code>
-*<code>[[svg/objects/SVGNumber|SVGNumber]]</code>
+
+*[[svg/objects/SVGAngle|'''SVGAngle''']]
+*[[svg/objects/SVGLength|'''SVGLength''']]
+*[[svg/objects/SVGNumber|'''SVGNumber''']]
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
