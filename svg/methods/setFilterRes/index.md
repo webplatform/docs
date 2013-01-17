@@ -4,20 +4,25 @@
 }}
 {{Standardization_Status|}}
 {{API_Name}}
+{{Topics|SVG}}
 {{Notes_Section
 |Import_Notes=
-===Syntax===
-<div class{{=}}"code">var retval {{=}} SVGFilterElement.setFilterRes(filterResX, filterResY);
-</div>
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}226062 Scalable Vector Graphics: Filter Effects], Section 15.25.1
 
+===Syntax===
+
+ var retval = SVGFilterElement.setFilterRes(filterResX, filterResY);
+
+===Standards information===
+
+*[http://go.microsoft.com/fwlink/p/?linkid{{=}}226062 Scalable Vector Graphics: Filter Effects], Section 15.25.1
 
 }}
 {{See_Also_Section
 |Manual_sections=
+
 ===Related pages (MSDN)===
-*<code>[[svg/elements/filter|SVGFilterElement]]</code>
+
+*[[svg/elements/filter|'''SVGFilterElement''']]
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
