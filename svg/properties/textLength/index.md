@@ -4,22 +4,27 @@
 }}
 {{Standardization_Status|}}
 {{API_Name}}
+{{Topics|SVG}}
 {{Notes_Section
 |Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}199818 Scalable Vector Graphics: Text], Section 10.17.1
 
+===Syntax===
+
+===Standards information===
+
+*[http://go.microsoft.com/fwlink/p/?linkid{{=}}199818 Scalable Vector Graphics: Text], Section 10.17.1
 
 }}
 {{See_Also_Section
 |Manual_sections=
+
 ===Related pages (MSDN)===
-*<code>[[svg/elements/text|SVGTextElement]]</code>
-*<code>[[svg/elements/textPositioning|SVGTextPositioningElement]]</code>
-*<code>[[svg/elements/tspan|SVGTSpanElement]]</code>
-*<code>[[svg/elements/textPath|SVGTextPathElement]]</code>
-*<code>[[svg/elements/etextContent|SVGTextContentElement]]</code>
+
+*[[svg/elements/text|'''SVGTextElement''']]
+*[[svg/elements/textPositioning|'''SVGTextPositioningElement''']]
+*[[svg/elements/tspan|'''SVGTSpanElement''']]
+*[[svg/elements/textPath|'''SVGTextPathElement''']]
+*[[svg/elements/etextContent|'''SVGTextContentElement''']]
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
