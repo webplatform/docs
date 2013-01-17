@@ -4,26 +4,36 @@
 }}
 {{Standardization_Status|}}
 {{API_Name}}
+{{Topics|SVG}}
 {{Notes_Section
 |Notes=
-===Remarks===
-For JavaScript, the <code>kernelUnitLengthX</code> property represents ''dx''. For HTML, the <code>kernelUnitLength</code> attribute is used to set both ''dx'' and ''dy'', as described next.
-For the attribute <code>kernelUnitLength {{=}} "&lt;</code>''number optional-number''<code>&gt;"</code>, the first number is the ''dx'' value. The second number is the ''dy'' value. If the ''dy'' value is not specified, it defaults to the same value as ''dx''.
-<code>kernelUnitLength</code> indicates the intended distance in current filter units (as determined by the value of the [[svg/properties/primitiveUnits|'''primitiveUnits''']] attribute) for ''dx'' and ''dy'', respectively, in the surface normal calculation formulas. By specifying value(s) for <code>kernelUnitLength</code>, the kernel becomes defined in a scalable, abstract coordinate system. If <code>kernelUnitLength</code> is not specified, the ''dx'' and ''dy'' values should represent very small deltas relative to a given (''x'', ''y'') position.
-For some level of consistency across display media and browsers, it is necessary that a value be provided for at least one of [[svg/methods/setFilterRes|'''filterRes''']] and <code>kernelUnitLength</code>.
-|Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}226062 Scalable Vector Graphics: Filter Effects], Section 15.25.12
 
+===Remarks===
+
+For JavaScript, the '''kernelUnitLengthX''' property represents ''dx''. For HTML, the '''kernelUnitLength''' attribute is used to set both ''dx'' and ''dy'', as described next.
+
+For the attribute '''kernelUnitLength {{=}} "&lt;''' ''number optional-number'' '''&gt;"''', the first number is the ''dx'' value. The second number is the ''dy'' value. If the ''dy'' value is not specified, it defaults to the same value as ''dx''.
+
+'''kernelUnitLength''' indicates the intended distance in current filter units (as determined by the value of the [[svg/properties/primitiveUnits|'''primitiveUnits''']] attribute) for ''dx'' and ''dy'', respectively, in the surface normal calculation formulas. By specifying value(s) for '''kernelUnitLength''', the kernel becomes defined in a scalable, abstract coordinate system. If '''kernelUnitLength''' is not specified, the ''dx'' and ''dy'' values should represent very small deltas relative to a given (''x'', ''y'') position.
+
+For some level of consistency across display media and browsers, it is necessary that a value be provided for at least one of [[svg/methods/setFilterRes|'''filterRes''']] and '''kernelUnitLength'''.
+|Import_Notes=
+
+===Syntax===
+
+===Standards information===
+
+*[http://go.microsoft.com/fwlink/p/?linkid{{=}}226062 Scalable Vector Graphics: Filter Effects], Section 15.25.12
 
 }}
 {{See_Also_Section
 |Manual_sections=
+
 ===Related pages (MSDN)===
-*<code>[[svg/elements/feConvolveMatrix|SVGFEConvolveMatrixElement]]</code>
-*<code>[[svg/elements/feDiffuseLighting|SVGFEDiffuseLightingElement]]</code>
-*<code>[[svg/elements/feSpecularLighting|SVGFESpecularLightingElement]]</code>
+
+*[[svg/elements/feConvolveMatrix|'''SVGFEConvolveMatrixElement''']]
+*[[svg/elements/feDiffuseLighting|'''SVGFEDiffuseLightingElement''']]
+*[[svg/elements/feSpecularLighting|'''SVGFESpecularLightingElement''']]
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
