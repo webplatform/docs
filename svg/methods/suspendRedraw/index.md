@@ -4,27 +4,33 @@
 }}
 {{Standardization_Status|}}
 {{API_Name}}
+{{Topics|SVG}}
 {{Notes_Section
 |Notes=
+
 ===Remarks===
+
 The redrawing operation is suspended until one of the following actions occur:
 *The  [[svg/methods/unsuspendRedraw|'''unsuspendRedraw''']] method is called.
 *The  [[svg/methods/unsuspendRedrawAll|'''unsuspendRedrawAll''']]  method is called.
 *The ''maxWaitMilliseconds'' time-out interval elapses.
-
 |Import_Notes=
-===Syntax===
-<div class{{=}}"code">var retval {{=}} SVGSVGElement.suspendRedraw(maxWaitMilliseconds);
-</div>
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204733 Scalable Vector Graphics: Document Structure], Section 5.11.2
 
+===Syntax===
+
+ var retval = SVGSVGElement.suspendRedraw(maxWaitMilliseconds);
+
+===Standards information===
+
+*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204733 Scalable Vector Graphics: Document Structure], Section 5.11.2
 
 }}
 {{See_Also_Section
 |Manual_sections=
+
 ===Related pages (MSDN)===
-*<code>[[svg/elements/svg|SVGSVGElement]]</code>
+
+*[[svg/elements/svg|'''SVGSVGElement''']]
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
