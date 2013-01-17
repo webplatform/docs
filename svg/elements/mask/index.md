@@ -88,100 +88,36 @@ The effect of a mask is the same as  if there  is  no mask, but  the alpha chann
 
 ===Members===
 
+The '''SVGMaskElement''' object has these events:
 
+*[[svg/events/load|'''onload''']]: Occurs  when the browser has fully parsed the element and all of its descendants.
 
-====Events====
+The '''SVGMaskElement''' object has these methods:
 
-The '''SVGMaskElement''' object has these events.
-{| class="wikitable"
-|-
-!Event
-!Description
-|-
-|[[svg/events/load|'''onload''']]
-|Occurs  when the browser has fully parsed the element and all of its descendants.
-|}
+*[[svg/methods/hasExtension|'''hasExtension''']]: Determines if the specified extension  is supported.
 
-====Methods====
+The '''SVGMaskElement''' object has these properties:
 
-The '''SVGMaskElement''' object has these methods.
-{| class="wikitable"
-|-
-!Method
-!Description
-|-
-|[[svg/methods/hasExtension|'''hasExtension''']]
-|Determines if the specified extension  is supported.
-|}
-
-====Properties====
-
-The '''SVGMaskElement''' object has these properties.
-{| class="wikitable"
-|-
-!Property
-!Description
-|-
-|[[svg/properties/className|'''className''']]
-|Gets  the names of the classes  that are assigned to this object.
-|-
-|[[svg/properties/clipPath|'''clipPath''']]
-|Sets or retrieves a reference to the SVG graphical object that will be used as the clipping path.
-|-
-|[[svg/properties/externalResourcesRequired|'''externalResourcesRequired''']]
-|Gets a value that indicates whether referenced resources that are not in the current document are required to correctly render a given element.
-|-
-|[[svg/properties/focusable|'''focusable''']]
-|Determines if an element can acquire keyboard focus (that is, receive keyboard events) and be a target for field-to-field navigation actions (such as when  a user presses  the Tab key).
-|-
-|[[svg/properties/height|'''height''']]
-|Gets or sets  the height of an element.
-|-
-|[[svg/attributes/mask|'''mask''']]
-|Sets or retrieves a value that indicates a SVG mask.
-|-
-|[[svg/properties/maskContentUnits|'''maskContentUnits''']]
-|Gets the [[svg/properties/maskContentUnits|'''maskContentUnits''']] attribute of the '''mask''' element.
-|-
-|[[svg/properties/maskUnits|'''maskUnits''']]
-|Gets  the [[svg/properties/maskUnits|'''maskUnits''']] attribute of the  '''mask'''  element.
-|-
-|[[svg/properties/ownerSVGElement|'''ownerSVGElement''']]
-|Gets the nearest ancestor [[svg/objects/SVGElement|'''svg''']] element.
-|-
-|[[svg/properties/requiredExtensions|'''requiredExtensions''']]
-|Gets a white space-delimited list of required language extensions.
-|-
-|[[svg/properties/requiredFeatures|'''requiredFeatures''']]
-|Gets or sets a white space-delimited list of feature strings.
-|-
-|[[svg/properties/style|'''style''']]
-|Gets a [[css/cssom/style|'''style''']] object.
-|-
-|[[svg/properties/systemLanguage|'''systemLanguage''']]
-|Gets or sets a comma-separated list of language names.
-|-
-|[[svg/properties/viewportElement|'''viewportElement''']]
-|Gets the element that established the current viewport.
-|-
-|[[svg/properties/width|'''width''']]
-|Defines the width of an element.
-|-
-|[[svg/properties/x|'''x''']]
-|Gets or sets the x-coordinate value.
-|-
-|[[svg/properties/xmlbase|'''xmlbase''']]
-|Gets or sets the '''base''' attribute on the element.
-|-
-|[[svg/properties/xmllang|'''xmllang''']]
-|Gets or sets a value that specifies the language that is used in the contents and attribute values of an element.
-|-
-|[[svg/properties/xmlspace|'''xmlspace''']]
-|Gets or sets a value that indicates whether white space is preserved in character data.
-|-
-|[[svg/properties/y|'''y''']]
-|Gets or sets the y-coordinate value.
-|}
+*[[svg/properties/className|'''className''']]: Gets  the names of the classes  that are assigned to this object.
+*[[svg/properties/clipPath|'''clipPath''']]: Sets or retrieves a reference to the SVG graphical object that will be used as the clipping path.
+*[[svg/properties/externalResourcesRequired|'''externalResourcesRequired''']]: Gets a value that indicates whether referenced resources that are not in the current document are required to correctly render a given element.
+*[[svg/properties/focusable|'''focusable''']]: Determines if an element can acquire keyboard focus (that is, receive keyboard events) and be a target for field-to-field navigation actions (such as when  a user presses  the Tab key).
+*[[svg/properties/height|'''height''']]: Gets or sets  the height of an element.
+*[[svg/attributes/mask|'''mask''']]: Sets or retrieves a value that indicates a SVG mask.
+*[[svg/properties/maskContentUnits|'''maskContentUnits''']]: Gets the [[svg/properties/maskContentUnits|'''maskContentUnits''']] attribute of the '''mask''' element.
+*[[svg/properties/maskUnits|'''maskUnits''']]: Gets  the [[svg/properties/maskUnits|'''maskUnits''']] attribute of the  '''mask'''  element.
+*[[svg/properties/ownerSVGElement|'''ownerSVGElement''']]: Gets the nearest ancestor [[svg/objects/SVGElement|'''svg''']] element.
+*[[svg/properties/requiredExtensions|'''requiredExtensions''']]: Gets a white space-delimited list of required language extensions.
+*[[svg/properties/requiredFeatures|'''requiredFeatures''']]: Gets or sets a white space-delimited list of feature strings.
+*[[svg/properties/style|'''style''']]: Gets a [[css/cssom/style|'''style''']] object.
+*[[svg/properties/systemLanguage|'''systemLanguage''']]: Gets or sets a comma-separated list of language names.
+*[[svg/properties/viewportElement|'''viewportElement''']]: Gets the element that established the current viewport.
+*[[svg/properties/width|'''width''']]: Defines the width of an element.
+*[[svg/properties/x|'''x''']]: Gets or sets the x-coordinate value.
+*[[svg/properties/xmlbase|'''xmlbase''']]: Gets or sets the '''base''' attribute on the element.
+*[[svg/properties/xmllang|'''xmllang''']]: Gets or sets a value that specifies the language that is used in the contents and attribute values of an element.
+*[[svg/properties/xmlspace|'''xmlspace''']]: Gets or sets a value that indicates whether white space is preserved in character data.
+*[[svg/properties/y|'''y''']]: Gets or sets the y-coordinate value.
 
 }}
 {{External_Attribution
