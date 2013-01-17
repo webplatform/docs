@@ -4,27 +4,36 @@
 }}
 {{Standardization_Status|}}
 {{API_Name}}
+{{Topics|SVG}}
 {{Notes_Section
 |Notes=
+
 ===Remarks===
+
 If multiple glyphs are used to render the specified character and if the glyphs each have different rotations (for example, because of text-on-a-path), the '''getRotationOfChar''' method  returns an average value (that is, the rotation angle at the midpoint along the path for all glyphs that are used to render the specified  character).
+
 The rotation value represents the rotation that is supplemental to any rotation because of the [[svg/attributes/glyph-orientation-horizontal|'''glyphOrientationHorizontal''']] and [[svg/attributes/glyph-orientation-vertical|'''glyphOrientationVertical''']] properties.  Any glyph rotations because of these properties are not included in the returned rotation value.
+
 If multiple consecutive characters are rendered inseparably (for example, as a single glyph or a sequence of glyphs), each of the inseparable characters returns the same rotation value.
 |Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}199818 Scalable Vector Graphics: Text], Section 10.17.1
 
+===Syntax===
+
+===Standards information===
+
+*[http://go.microsoft.com/fwlink/p/?linkid{{=}}199818 Scalable Vector Graphics: Text], Section 10.17.1
 
 }}
 {{See_Also_Section
 |Manual_sections=
+
 ===Related pages (MSDN)===
-*<code>[[svg/elements/text|SVGTextElement]]</code>
-*<code>[[svg/elements/textPositioning|SVGTextPositioningElement]]</code>
-*<code>[[svg/elements/tspan|SVGTSpanElement]]</code>
-*<code>[[svg/elements/textPath|SVGTextPathElement]]</code>
-*<code>[[svg/elements/etextContent|SVGTextContentElement]]</code>
+
+*[[svg/elements/text|'''SVGTextElement''']]
+*[[svg/elements/textPositioning|'''SVGTextPositioningElement''']]
+*[[svg/elements/tspan|'''SVGTSpanElement''']]
+*[[svg/elements/textPath|'''SVGTextPathElement''']]
+*[[svg/elements/etextContent|'''SVGTextContentElement''']]
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
