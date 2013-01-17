@@ -4,22 +4,29 @@
 }}
 {{Standardization_Status|}}
 {{API_Name}}
+{{Topics|SVG}}
 {{Notes_Section
 |Notes=
+
 ===Remarks===
+
 With the '''pathSegList''' property, you can  access  the base (or ''static'') contents of the [[svg/properties/d|'''d''']] attribute in a form that directly matches   the SVG syntax. If the '''d''' attribute contains an "absolute moveto (M)" and an "absolute arcto (A)" command,  '''pathSegList''' contains two entries: SVG_PATHSEG_MOVETO_ABS and SVG_PATHSEG_ARC_ABS.
 |Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204736 Scalable Vector Graphics: Paths], Section 8.5.22
 
+===Syntax===
+
+===Standards information===
+
+*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204736 Scalable Vector Graphics: Paths], Section 8.5.22
 
 }}
 {{See_Also_Section
 |Manual_sections=
+
 ===Related pages (MSDN)===
-*<code>[[svg/elements/path|SVGPathElement]]</code>
-*<code>[[svg/properties/animatedPathSegList|animatedPathSegList]]</code>
+
+*[[svg/elements/path|'''SVGPathElement''']]
+*[[svg/properties/animatedPathSegList|'''animatedPathSegList''']]
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
