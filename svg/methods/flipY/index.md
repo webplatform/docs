@@ -4,24 +4,32 @@
 }}
 {{Standardization_Status|}}
 {{API_Name}}
+{{Topics|SVG}}
 {{Notes_Section
 |Notes=
+
 ===Remarks===
+
 The '''flipY''' method post-multiplies the matrix by using  the transformation [1 0 0 -1 0 0] and returns the resulting matrix.
 ''Post-multiplies'' means that other matrix operations are performed before this operation.
 |Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204735 Scalable Vector Graphics: Coordinate Systems, Transformations and Units], Section 7.14.3
 
+===Syntax===
+
+===Standards information===
+
+*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204735 Scalable Vector Graphics: Coordinate Systems, Transformations and Units], Section 7.14.3
 
 }}
 {{See_Also_Section
 |Manual_sections=
+
 ===Related pages (MSDN)===
-*<code>Reference</code>
-*<code>[[svg/objects/SVGMatrix|SVGMatrix]]</code>
-*<code>[[svg/methods/flipX|flipX]]</code>
+
+===Reference===
+
+*[[svg/objects/SVGMatrix|'''SVGMatrix''']]
+*[[svg/methods/flipX|'''flipX''']]
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
