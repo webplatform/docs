@@ -22,9 +22,9 @@ The masked text will look like this:
 <syntaxhighlight lang="xml">
 <!DOCTYPE HTML>
 <html>
-	
+
   <head></head>
-	
+
   <body>
     <svg width="400" height="400">
       <defs>
@@ -36,25 +36,22 @@ The masked text will look like this:
           <stop offset="100%" style="stop-color:cyan"/>
         </linearGradient>
         <!-- Define mask. -->
-        <mask id="myMask"
-						x{{=}}"0" y{{=}}"0" width{{=}}"400" height{{=}}"400">
-          <rect x="0" y="0" width="400" height="400"
-						fill{{=}}"url(#magenta2cyan)" />
+        <mask id="myMask" x="0" y="0" width="400" height="400">
+          <rect x="0" y="0" width="400" height="400" fill="url(#magenta2cyan)" />
         </mask>
         <!-- Define text. -->
-        <text id="myText" x="50" y="50"
-					font-family{{=}}"Verdana" font-size{{=}}"32"  >
-				SVG forever!
+        <text id="myText" x="50" y="50" font-family="Verdana" font-size="32"  >
+	     SVG forever!
         </text>
-      </defs>		
+      </defs>
       <!-- Use text with mask and gradient. -->
       <use xlink:href="#myText" fill="navy" mask="url(#myMask)" />
     </svg>
-		
+
   </body>
 </html>
 </syntaxhighlight>
-	
+
 }}}}
 {{Notes_Section
 |Notes=
