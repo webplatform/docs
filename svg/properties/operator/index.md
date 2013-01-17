@@ -4,21 +4,28 @@
 }}
 {{Standardization_Status|}}
 {{API_Name}}
+{{Topics|SVG}}
 {{Notes_Section
 |Notes=
+
 ===Remarks===
+
 If you want to thin a graphic, set the '''operator''' to '''erode'''. If you want to thicken a graphic, set the '''operator''' to '''dilate'''.
 |Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}226062 Scalable Vector Graphics: Filter Effects], Section 15.25.23
 
+===Syntax===
+
+===Standards information===
+
+*[http://go.microsoft.com/fwlink/p/?linkid{{=}}226062 Scalable Vector Graphics: Filter Effects], Section 15.25.23
 
 }}
 {{See_Also_Section
 |Manual_sections=
+
 ===Related pages (MSDN)===
-*<code>[[svg/elements/feMorphology|SVGFEMorphologyElement]]</code>
+
+*[[svg/elements/feMorphology|'''SVGFEMorphologyElement''']]
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
