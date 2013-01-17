@@ -4,20 +4,25 @@
 }}
 {{Standardization_Status|}}
 {{API_Name}}
+{{Topics|SVG}}
 {{Notes_Section
 |Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204737 Scalable Vector Graphics: Basic Shapes], Section 9.8.5
 
+===Syntax===
+
+===Standards information===
+
+*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204737 Scalable Vector Graphics: Basic Shapes], Section 9.8.5
 
 }}
 {{See_Also_Section
 |Manual_sections=
+
 ===Related pages (MSDN)===
-*<code>[[svg/elements/polygon|SVGPolygonElement]]</code>
-*<code>[[svg/elements/polyline|SVGPolylineElement]]</code>
-*<code>[[svg/properties/animatedPoints|animatedPoints]]</code>
+
+*[[svg/elements/polygon|'''SVGPolygonElement''']]
+*[[svg/elements/polyline|'''SVGPolylineElement''']]
+*[[svg/properties/animatedPoints|'''animatedPoints''']]
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
