@@ -4,21 +4,28 @@
 }}
 {{Standardization_Status|}}
 {{API_Name}}
+{{Topics|SVG}}
 {{Notes_Section
 |Notes=
-===Remarks===
-If you do not specify this property, the effect is the same as if you specify a value of <code>0</code>.
-|Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204737 Scalable Vector Graphics: Basic Shapes], Section 9.8.4
 
+===Remarks===
+
+If you do not specify this property, the effect is the same as if you specify a value of '''0'''.
+|Import_Notes=
+
+===Syntax===
+
+===Standards information===
+
+*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204737 Scalable Vector Graphics: Basic Shapes], Section 9.8.4
 
 }}
 {{See_Also_Section
 |Manual_sections=
+
 ===Related pages (MSDN)===
-*<code>[[svg/elements/line|SVGLineElement]]</code>
+
+*[[svg/elements/line|'''SVGLineElement''']]
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
