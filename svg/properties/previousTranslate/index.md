@@ -4,19 +4,25 @@
 }}
 {{Standardization_Status|}}
 {{API_Name}}
+{{Topics|SVG}}
 {{Notes_Section
 |Import_Notes=
-===Syntax===
-HRESULT value {{=}} object.get_previousTranslate(ISVGPoint** p);
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204745 Scalable Vector Graphics: Scripting], Section 18.5.2
 
+===Syntax===
+
+HRESULT value {{=}} object.get_previousTranslate(ISVGPoint** p);
+
+===Standards information===
+
+*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204745 Scalable Vector Graphics: Scripting], Section 18.5.2
 
 }}
 {{See_Also_Section
 |Manual_sections=
+
 ===Related pages (MSDN)===
-*<code>[[svg/objects/SVGZoom|SVGZoomEvent]]</code>
+
+*[[svg/objects/SVGZoom|'''SVGZoomEvent''']]
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
