@@ -10,33 +10,26 @@
 {{Topics|SVG}}
 {{Notes_Section
 |Import_Notes=
+
 ===Syntax===
+
 ===Standards information===
+
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}226062 Scalable Vector Graphics: Filter Effects], Section 15.25.22
 
-
 ===Members===
-The '''SVGFEMergeNodeElement''' object has these types of members:
-*[#properties Properties]
 
+The '''SVGFEMergeNodeElement''' object has these properties:
 
-====Properties====
-The '''SVGFEMergeNodeElement''' object has these properties.
-{| class="wikitable"
-|-
-!Property
-!Description
-|-
-|[[svg/properties/in1|'''in1''']]
-|Identifies input for the given filter primitive.
-|}
- 
+*[[svg/properties/in1|'''in1''']]: Identifies input for the given filter primitive.
 
 }}
 {{See_Also_Section
 |Manual_sections=
+
 ===Related pages (MSDN)===
-*<code>[[svg/elements/feMerge|feMerge]]</code>
+
+*[[svg/elements/feMerge|'''feMerge''']]
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
