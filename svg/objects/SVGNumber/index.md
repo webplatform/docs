@@ -10,33 +10,24 @@
 {{Topics|DOM}}
 {{Notes_Section
 |Notes=
+
 ===Remarks===
-'''Note'''  In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
+
+'''Note:'''  In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
+
 A number is represented as a '''float''', '''SVGNumber''', or [[svg/objects/SVGAnimatedNumber|'''SVGAnimatedNumber''']] value.
- 
- 
-Build date: 7/24/2012
+
 |Import_Notes=
+
 ===Standards information===
+
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}204732 Scalable Vector Graphics: Basic Data Types and Interfaces], Section 4.5.7
 
-
 ===Members===
-The '''SVGNumber''' object has these types of members:
-*[#properties Properties]
 
+The '''SVGNumber''' object has these properties:
 
-====Properties====
-The '''SVGNumber''' object has these properties.
-{| class="wikitable"
-|-
-!Property
-!Description
-|-
-|[[svg/properties/value|'''value''']]
-|Gets or sets the value of the given attribute.
-|}
- 
+*[[svg/properties/value|'''value''']]: Gets or sets the value of the given attribute.
 
 }}
 {{External_Attribution
