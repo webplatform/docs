@@ -10,36 +10,25 @@
 {{Topics|DOM}}
 {{Notes_Section
 |Notes=
+
 ===Remarks===
-'''Note'''  In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
-The object can define either moveto, line, curve (both cubic and quadratic Béziers), arc, or closepath command.
- 
- 
-Build date: 7/24/2012
+
+'''Note:'''  In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
+
+The object can define either moveto, line, curve (both cubic and quadratic B&eacute;ziers), arc, or closepath command.
+
 |Import_Notes=
+
 ===Standards information===
+
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}204736 Scalable Vector Graphics: Paths], Section 8.5.1
 
-
 ===Members===
-The '''SVGPathSeg''' object has these types of members:
-*[#properties Properties]
 
+The '''SVGPathSeg''' object has these properties:
 
-====Properties====
-The '''SVGPathSeg''' object has these properties.
-{| class="wikitable"
-|-
-!Property
-!Description
-|-
-|[[svg/properties/pathSegType|'''pathSegType''']]
-|Gets the type of the path segment.
-|-
-|[[svg/properties/pathSegTypeAsLetter|'''pathSegTypeAsLetter''']]
-|Gets the type of the path segment, specified by the corresponding one-character command name.
-|}
- 
+*[[svg/properties/pathSegType|'''pathSegType''']]: Gets the type of the path segment.
+*[[svg/properties/pathSegTypeAsLetter|'''pathSegTypeAsLetter''']]: Gets the type of the path segment, specified by the corresponding one-character command name.
 
 }}
 {{External_Attribution
