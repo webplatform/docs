@@ -92,7 +92,7 @@ The default for this property can be set for Windows Internet Explorer on the ''
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=Fonts
+|Topic_clusters=CSS Font, Fonts
 |Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
