@@ -10,57 +10,30 @@
 {{Topics|DOM}}
 {{Notes_Section
 |Notes=
+
 ===Remarks===
-'''Note'''  In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
- 
- 
-Build date: 7/24/2012
+
+'''Note:'''  In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
+
 |Import_Notes=
+
 ===Standards information===
+
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}204732 Scalable Vector Graphics: Basic Data Types and Interfaces], Section 4.5.15
 
-
 ===Members===
-The '''SVGAngle''' object has these types of members:
-*[#methods Methods]
-*[#properties Properties]
 
+The '''SVGAngle''' object has these methods:
 
-====Methods====
-The '''SVGAngle''' object has these methods.
-{| class="wikitable"
-|-
-!Method
-!Description
-|-
-|[[svg/methods/convertToSpecifiedUnits|'''convertToSpecifiedUnits''']]
-|Changes the stored unit identifier to the specified type.
-|-
-|[[svg/methods/newValueSpecifiedUnits|'''newValueSpecifiedUnits''']]
-|Resets the  specified  value as a number with the specified '''unit type''',  replacing the values for all of the attributes on the object.
-|}
- 
+*[[svg/methods/convertToSpecifiedUnits|'''convertToSpecifiedUnits''']]: Changes the stored unit identifier to the specified type.
+*[[svg/methods/newValueSpecifiedUnits|'''newValueSpecifiedUnits''']]: Resets the  specified  value as a number with the specified '''unit type''',  replacing the values for all of the attributes on the object.
 
-====Properties====
-The '''SVGAngle''' object has these properties.
-{| class="wikitable"
-|-
-!Property
-!Description
-|-
-|[[svg/properties/unitType|'''unitType''']]
-|Gets or sets a value that indicates the type of angle units.
-|-
-|[[svg/properties/value|'''value''']]
-|Gets or sets the value of the given attribute.
-|-
-|[[svg/properties/valueAsString|'''valueAsString''']]
-|Gets or sets the string form of the [[svg/properties/value|'''value''']] property, in the units that '''svgUnitTypes''' specifies.
-|-
-|[[svg/properties/valueInSpecifiedUnits|'''valueInSpecifiedUnits''']]
-|Gets or sets the length or angle value, as a floating point number, in the units that '''svgUnitTypes''' specifies.
-|}
- 
+The '''SVGAngle''' object has these properties:
+
+*[[svg/properties/unitType|'''unitType''']]: Gets or sets a value that indicates the type of angle units.
+*[[svg/properties/value|'''value''']]: Gets or sets the value of the given attribute.
+*[[svg/properties/valueAsString|'''valueAsString''']]: Gets or sets the string form of the [[svg/properties/value|'''value''']] property, in the units that '''svgUnitTypes''' specifies.
+*[[svg/properties/valueInSpecifiedUnits|'''valueInSpecifiedUnits''']]: Gets or sets the length or angle value, as a floating point number, in the units that '''svgUnitTypes''' specifies.
 
 }}
 {{External_Attribution
