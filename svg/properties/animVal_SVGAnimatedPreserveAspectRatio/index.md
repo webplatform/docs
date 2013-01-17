@@ -4,21 +4,28 @@
 }}
 {{Standardization_Status|}}
 {{API_Name}}
+{{Topics|SVG}}
 {{Notes_Section
 |Notes=
-===Remarks===
-Internet Explorer 9 supports script-based SVG animation but  it does not support declarative-based SVG animation.  As a result,  the '''animVal''' property contains the same value as the  [[svg/properties/baseVal (SVGAnimatedPreserveAspectRatio)|'''baseVal''']] property.
-|Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204735 Scalable Vector Graphics: Coordinate Systems, Transformations and Units], Section 7.15.8
 
+===Remarks===
+
+Internet Explorer 9 supports script-based SVG animation but  it does not support declarative-based SVG animation.  As a result,  the '''animVal''' property contains the same value as the  [[svg/properties/baseVal (SVGAnimatedPreserveAspectRatio)|'''baseVal''']] property.
+|Import_Notes=
+
+===Syntax===
+
+===Standards information===
+
+*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204735 Scalable Vector Graphics: Coordinate Systems, Transformations and Units], Section 7.15.8
 
 }}
 {{See_Also_Section
 |Manual_sections=
+
 ===Related pages (MSDN)===
-*<code>[[svg/objects/SVGAnimatedPreserveAspectRatio|SVGAnimatedPreserveAspectRatio]]</code>
+
+*[[svg/objects/SVGAnimatedPreserveAspectRatio|'''SVGAnimatedPreserveAspectRatio''']]
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
