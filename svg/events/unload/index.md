@@ -17,27 +17,34 @@
 {{Topics|Events}}
 {{Notes_Section
 |Notes=
+
 ===Remarks===
+
 The '''onunload''' event occurs when the DOM implementation removes a document from a window or frame. This event  applies  only  to  the outermost [[svg/elements/svg|'''svg''']] element.
+
 The object or document  is removed from the browser window.
 To invoke this event, do one of the following:
 *The DOM implementation removes a document from a window or frame.
-
 |Import_Notes=
+
 ===Syntax===
+
 ===Standards information===
+
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}204745 Scalable Vector Graphics: Scripting], Section 18.4.3
 
-
 ===Event handler parameters===
-;''pEvt'' [in]:Type: '''<b>IDOMUIEvent'''</b>The [[dom/objects/Event|'''IDOMEvent''']] object.
+
+;''pEvt'' [in]:Type: '''IDOMUIEvent'''The [[dom/objects/Event|'''IDOMEvent''']] object.
 
 }}
 {{See_Also_Section
 |Manual_sections=
+
 ===Related pages (MSDN)===
-*<code>[[svg/elements/svg|SVGSVGElement]]</code>
-*<code>[[dom/events/unload|onunload]]</code>
+
+*[[svg/elements/svg|'''SVGSVGElement''']]
+*[[dom/events/unload|'''onunload''']]
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
