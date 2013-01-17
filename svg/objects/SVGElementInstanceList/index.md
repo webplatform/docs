@@ -10,45 +10,26 @@
 {{Topics|DOM}}
 {{Notes_Section
 |Notes=
+
 ===Remarks===
-'''Note'''  In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
- 
- 
-Build date: 7/24/2012
+
+'''Note:'''  In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
+
 |Import_Notes=
+
 ===Standards information===
+
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}204733 Scalable Vector Graphics: Document Structure], Section 5.11.10
 
-
 ===Members===
-The '''SVGElementInstanceList''' object has these types of members:
-*[#methods Methods]
-*[#properties Properties]
 
+The '''SVGElementInstanceList''' object has these methods:
 
-====Methods====
-The '''SVGElementInstanceList''' object has these methods.
-{| class="wikitable"
-|-
-!Method
-!Description
-|-
-|[[svg/methods/item|'''item''']]
-|Gets the specified [[svg/objects/SVGElementInstance|'''SVGElementInstance''']] object from the collection.
-|}
- 
+*[[svg/methods/item|'''item''']]: Gets the specified [[svg/objects/SVGElementInstance|'''SVGElementInstance''']] object from the collection.
 
-====Properties====
-The '''SVGElementInstanceList''' object has these properties.
-{| class="wikitable"
-|-
-!Property
-!Description
-|-
-|[[svg/properties/length|'''length''']]
-|Gets the number of [[svg/objects/SVGElementInstance|'''SVGElementInstance''']] objects in the list.
-|}
- 
+The '''SVGElementInstanceList''' object has these properties:
+
+*[[svg/properties/length|'''length''']]: Gets the number of [[svg/objects/SVGElementInstance|'''SVGElementInstance''']] objects in the list.
 
 }}
 {{External_Attribution
