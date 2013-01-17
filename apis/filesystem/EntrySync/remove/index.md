@@ -6,7 +6,7 @@
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=apis/filesystem/EntrySync
-|Example_object_name=Entry
+|Example_object_name=EntrySync
 |Javascript_data_type=void
 }}
 {{Examples_Section
