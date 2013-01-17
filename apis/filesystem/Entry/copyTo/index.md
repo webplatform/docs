@@ -2,17 +2,17 @@
 {{Flags}}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Copy an entry to a different location on the file system.}}
+{{Summary_Section|Copy an Entry to a different location on the file system.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=parent
 |Data type=String
-|Description=The directory to which to move the entry.
+|Description=The directory to which to move the Entry.
 |Optional=No
 }}{{Method Parameter
 |Name=newName
 |Data type=String
-|Description=The new name of the entry. Defaults to the Entry's current name if unspecified.
+|Description=The new name of the Entry. Defaults to the Entry's current name if unspecified.
 |Optional=Yes
 }}{{Method Parameter
 |Name=successCallback
