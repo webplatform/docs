@@ -4,9 +4,12 @@
 }}
 {{Standardization_Status|}}
 {{API_Name}}
+{{Topics|SVG}}
 {{Notes_Section
 |Notes=
+
 ===Remarks===
+
 The following are constants associated with [[svg/elements/feColorMatrix|'''SVGFEColorMatrixElement''']].
 {| class="wikitable"
 |-
@@ -20,29 +23,32 @@ The following are constants associated with [[svg/elements/feColorMatrix|'''SVGF
 |-
 |SVG_FECOLORMATRIX_TYPE_MATRIX
 |1
-|Corresponds to value <code>matrix</code>.
+|Corresponds to value '''matrix'''.
 |-
 |SVG_FECOLORMATRIX_TYPE_SATURATE
 |2
-|Corresponds to value <code>saturate</code>.
+|Corresponds to value '''saturate'''.
 |-
 |SVG_FECOLORMATRIX_TYPE_HUEROTATE
 |3
-|Corresponds to value <code>hueRotate</code>.
+|Corresponds to value '''hueRotate'''.
 |-
 |SVG_FECOLORMATRIX_TYPE_LUMINANCETOALPHA
 |4
-|Corresponds to value <code>luminanceToAlpha</code>.
-|}
- 
+|Corresponds to value '''luminanceToAlpha'''.
+
 |Import_Notes=
+
 ===Syntax===
+
 }}
 {{See_Also_Section
 |Manual_sections=
+
 ===Related pages (MSDN)===
-*<code>[[svg/elements/feColorMatrix|SVGFEColorMatrixElement]]</code>
-*<code>[[svg/properties/values|values]]</code>
+
+*[[svg/elements/feColorMatrix|'''SVGFEColorMatrixElement''']]
+*[[svg/properties/values|'''values''']]
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
