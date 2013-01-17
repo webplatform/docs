@@ -10,33 +10,19 @@
 {{Topics|SVG}}
 {{Notes_Section
 |Import_Notes=
+
 ===Syntax===
+
 ===Standards information===
+
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}226062 Scalable Vector Graphics: Filter Effects], Section 15.25.14
 
-
 ===Members===
-The '''SVGFEDistantLightElement''' object has these types of members:
-*[#properties Properties]
 
+The '''SVGFEDistantLightElement''' object has these properties:
 
-====Properties====
-The '''SVGFEDistantLightElement''' object has these properties.
-{| class="wikitable"
-|-
-!Property
-!Description
-|-
-|[[svg/properties/azimuth|'''azimuth''']]
-|Gets the direction angle for the light source on the xy plane (clockwise).
-|-
-|[[svg/properties/elevation|'''elevation''']]
-|Gets the direction angle for the light source from the xy plane towards the z-axis.
-|}
- 
- 
- 
-Build date: 7/24/2012
+*[[svg/properties/azimuth|'''azimuth''']]: Gets the direction angle for the light source on the xy plane (clockwise).
+*[[svg/properties/elevation|'''elevation''']]: Gets the direction angle for the light source from the xy plane towards the z-axis.
 
 }}
 {{External_Attribution
