@@ -4,22 +4,29 @@
 }}
 {{Standardization_Status|}}
 {{API_Name}}
+{{Topics|SVG}}
 {{Notes_Section
 |Notes=
-===Remarks===
-Windows Internet Explorer 9 supports script-based SVG animation but it does not support declarative-based SVG animation.  As a result, the [[svg/properties/animVal (SVGAnimatedLengthList)|'''animVal''']]  property contains the same value as the '''baseVal''' property.
-|Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204732 Scalable Vector Graphics: Basic Data Types and Interfaces], Section 4.5.14
 
+===Remarks===
+
+Windows Internet Explorer 9 supports script-based SVG animation but it does not support declarative-based SVG animation.  As a result, the [[svg/properties/animVal (SVGAnimatedLengthList)|'''animVal''']]  property contains the same value as the '''baseVal''' property.
+|Import_Notes=
+
+===Syntax===
+
+===Standards information===
+
+*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204732 Scalable Vector Graphics: Basic Data Types and Interfaces], Section 4.5.14
 
 }}
 {{See_Also_Section
 |Manual_sections=
+
 ===Related pages (MSDN)===
-*<code>[[svg/objects/SVGAnimatedLengthList|SVGAnimatedLengthList]]</code>
-*<code>[[svg/properties/animVal (SVGAnimatedLengthList)|animVal]]</code>
+
+*[[svg/objects/SVGAnimatedLengthList|'''SVGAnimatedLengthList''']]
+*[[svg/properties/animVal (SVGAnimatedLengthList)|'''animVal''']]
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
