@@ -4,21 +4,28 @@
 }}
 {{Standardization_Status|}}
 {{API_Name}}
+{{Topics|SVG}}
 {{Notes_Section
 |Notes=
+
 ===Remarks===
+
 The  '''viewTarget'''  attribute is a  space-delimited list of elements in the view that are highlighted.
 |Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}199815 Scalable Vector Graphics: Linking], Section 17.4.2
 
+===Syntax===
+
+===Standards information===
+
+*[http://go.microsoft.com/fwlink/p/?linkid{{=}}199815 Scalable Vector Graphics: Linking], Section 17.4.2
 
 }}
 {{See_Also_Section
 |Manual_sections=
+
 ===Related pages (MSDN)===
-*<code>[[svg/elements/view|SVGViewElement]]</code>
+
+*[[svg/elements/view|'''SVGViewElement''']]
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
