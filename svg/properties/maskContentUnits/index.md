@@ -4,21 +4,28 @@
 }}
 {{Standardization_Status|}}
 {{API_Name}}
+{{Topics|SVG}}
 {{Notes_Section
 |Notes=
-===Remarks===
-If you do not specify the  '''maskContentUnits'''  attribute, the <code>userSpaceOnUse</code> default value is used.
-|Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}199810 Scalable Vector Graphics: Clipping, Masking and Compositing], Section 14.6.2
 
+===Remarks===
+
+If you do not specify the  '''maskContentUnits'''  attribute, the '''userSpaceOnUse''' default value is used.
+|Import_Notes=
+
+===Syntax===
+
+===Standards information===
+
+*[http://go.microsoft.com/fwlink/p/?linkid{{=}}199810 Scalable Vector Graphics: Clipping, Masking and Compositing], Section 14.6.2
 
 }}
 {{See_Also_Section
 |Manual_sections=
+
 ===Related pages (MSDN)===
-*<code>[[svg/elements/mask|SVGMaskElement]]</code>
+
+*[[svg/elements/mask|'''SVGMaskElement''']]
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
