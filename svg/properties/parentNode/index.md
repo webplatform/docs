@@ -4,21 +4,28 @@
 }}
 {{Standardization_Status|}}
 {{API_Name}}
+{{Topics|SVG}}
 {{Notes_Section
 |Notes=
+
 ===Remarks===
+
 Every [[svg/objects/SVGElementInstance|'''SVGElementInstance''']] object has a parent, except for the object that corresponds to the element that the [[svg/elements/use|'''use''']] element directly references.
 |Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204733 Scalable Vector Graphics: Document Structure], Section 5.11.9
 
+===Syntax===
+
+===Standards information===
+
+*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204733 Scalable Vector Graphics: Document Structure], Section 5.11.9
 
 }}
 {{See_Also_Section
 |Manual_sections=
+
 ===Related pages (MSDN)===
-*<code>[[svg/objects/SVGElementInstance|SVGElementInstance]]</code>
+
+*[[svg/objects/SVGElementInstance|'''SVGElementInstance''']]
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
