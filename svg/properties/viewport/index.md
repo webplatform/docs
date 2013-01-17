@@ -4,22 +4,32 @@
 }}
 {{Standardization_Status|}}
 {{API_Name}}
+{{Topics|SVG}}
 {{Notes_Section
 |Notes=
+
 ===Remarks===
+
 Often, the current viewport is the nearest ancestor [[svg/objects/SVGElement|'''svg''']] element. A value of NULL is returned if the given element is the outermost or furthest ancestor '''svg''' element.
 |Import_Notes=
+
 ===Syntax===
+
 ===Standards information===
+
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}204733 Scalable Vector Graphics: Document Structure], Section 5.11.2
+
 ===Device Support===
+
 *[https://docs.google.com/spreadsheet/lv?key=0AoUAJWmYgaHHdHZZWWpPQkx4eHpBaUxna3dyMGkzLUE Device Viewport Width Reference (maintained by Matt Stow)]
 
 }}
 {{See_Also_Section
 |Manual_sections=
+
 ===Related pages===
-*<code>[[svg/elements/svg|SVGSVGElement (MSDN)]]</code>
+
+*[[svg/elements/svg|SVGSVGElement (MSDN)]]
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
