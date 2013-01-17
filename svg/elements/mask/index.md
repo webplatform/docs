@@ -26,29 +26,29 @@ The masked text will look like this:
   <head></head>
 	
   <body>
-    <svg width{{=}}"400" height{{=}}"400">
+    <svg width="400" height="400">
       <defs>
         <!-- Define linear gradient for magenta to cyan. -->
-        <linearGradient id{{=}}"magenta2cyan" >
+        <linearGradient id="magenta2cyan" >
           <!-- First color is magenta. -->
-          <stop offset{{=}}"0%" style{{=}}"stop-color:magenta"/>
+          <stop offset="0%" style="stop-color:magenta"/>
           <!-- Second color is cyan. -->
-          <stop offset{{=}}"100%" style{{=}}"stop-color:cyan"/>
+          <stop offset="100%" style="stop-color:cyan"/>
         </linearGradient>
         <!-- Define mask. -->
-        <mask id{{=}}"myMask"
+        <mask id="myMask"
 						x{{=}}"0" y{{=}}"0" width{{=}}"400" height{{=}}"400">
-          <rect x{{=}}"0" y{{=}}"0" width{{=}}"400" height{{=}}"400"
+          <rect x="0" y="0" width="400" height="400"
 						fill{{=}}"url(#magenta2cyan)" />
         </mask>
         <!-- Define text. -->
-        <text id{{=}}"myText" x{{=}}"50" y{{=}}"50"
+        <text id="myText" x="50" y="50"
 					font-family{{=}}"Verdana" font-size{{=}}"32"  >
 				SVG forever!
         </text>
       </defs>		
       <!-- Use text with mask and gradient. -->
-      <use xlink:href{{=}}"#myText" fill{{=}}"navy" mask{{=}}"url(#myMask)" />
+      <use xlink:href="#myText" fill="navy" mask="url(#myMask)" />
     </svg>
 		
   </body>
