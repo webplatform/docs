@@ -4,21 +4,28 @@
 }}
 {{Standardization_Status|}}
 {{API_Name}}
+{{Topics|SVG}}
 {{Notes_Section
 |Notes=
+
 ===Remarks===
+
 For an example of how the major and minor axes of an ellipse are related to the [[svg/properties/rx (SVGEllipseElement)|'''rx''']] and '''ry''' properties, see the [[svg/properties/rx (SVGEllipseElement)|'''rx''']] topic.
 |Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204737 Scalable Vector Graphics: Basic Shapes], Section 9.8.3
 
+===Syntax===
+
+===Standards information===
+
+*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204737 Scalable Vector Graphics: Basic Shapes], Section 9.8.3
 
 }}
 {{See_Also_Section
 |Manual_sections=
+
 ===Related pages (MSDN)===
-*<code>[[svg/elements/ellipse|SVGEllipseElement]]</code>
+
+*[[svg/elements/ellipse|'''SVGEllipseElement''']]
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
