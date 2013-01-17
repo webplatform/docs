@@ -10,45 +10,30 @@
 {{Topics|SVG}}
 {{Notes_Section
 |Import_Notes=
+
 ===Syntax===
+
 ===Standards information===
+
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}226062 Scalable Vector Graphics: Filter Effects], Section 15.25.21
 
-
 ===Members===
-The '''SVGFEMergeElement''' object has these types of members:
-*[#properties Properties]
 
+The '''SVGFEMergeElement''' object has these properties:
 
-====Properties====
-The '''SVGFEMergeElement''' object has these properties.
-{| class="wikitable"
-|-
-!Property
-!Description
-|-
-|[[svg/properties/height|'''height''']]
-|Gets or sets  the height of an element.
-|-
-|[[svg/properties/result|'''result''']]
-|Provides a reference for the output result of a filter.
-|-
-|[[svg/properties/width|'''width''']]
-|Defines the width of an element.
-|-
-|[[svg/properties/x|'''x''']]
-|Gets or sets the x-coordinate value.
-|-
-|[[svg/properties/y|'''y''']]
-|Gets or sets the y-coordinate value.
-|}
- 
+*[[svg/properties/height|'''height''']]: Gets or sets  the height of an element.
+*[[svg/properties/result|'''result''']]: Provides a reference for the output result of a filter.
+*[[svg/properties/width|'''width''']]: Defines the width of an element.
+*[[svg/properties/x|'''x''']]: Gets or sets the x-coordinate value.
+*[[svg/properties/y|'''y''']]: Gets or sets the y-coordinate value.
 
 }}
 {{See_Also_Section
 |Manual_sections=
+
 ===Related pages (MSDN)===
-*<code>[[svg/elements/feMergeNode|feMergeNode]]</code>
+
+*[[svg/elements/feMergeNode|'''feMergeNode''']]
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
