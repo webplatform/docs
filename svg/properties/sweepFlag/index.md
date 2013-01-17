@@ -4,19 +4,24 @@
 }}
 {{Standardization_Status|}}
 {{API_Name}}
+{{Topics|SVG}}
 {{Notes_Section
 |Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204736 Scalable Vector Graphics: Paths], Section 8.5.12
 
+===Syntax===
+
+===Standards information===
+
+*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204736 Scalable Vector Graphics: Paths], Section 8.5.12
 
 }}
 {{See_Also_Section
 |Manual_sections=
+
 ===Related pages (MSDN)===
-*<code>[[svg/objects/SVGPathSegArcAbs|SVGPathSegArcAbs]]</code>
-*<code>[[svg/objects/SVGPathSegArcRel|SVGPathSegArcRel]]</code>
+
+*[[svg/objects/SVGPathSegArcAbs|'''SVGPathSegArcAbs''']]
+*[[svg/objects/SVGPathSegArcRel|'''SVGPathSegArcRel''']]
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
