@@ -4,22 +4,30 @@
 }}
 {{Standardization_Status|}}
 {{API_Name}}
+{{Topics|SVG}}
 {{Notes_Section
 |Notes=
+
 ===Remarks===
+
 For markup, you can  use '''baseFrequency''' to combine '''baseFrequencyX''' and [[svg/properties/baseFrequencyY|'''baseFrequencyY''']].
+
 The larger the base frequency number, the more quickly the colors change. The number must be positive and provides good results if the number is less than 1. If no number is provided, the value is assumed to be zero.
 |Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}226062 Scalable Vector Graphics: Filter Effects], Section 15.25.27
 
+===Syntax===
+
+===Standards information===
+
+*[http://go.microsoft.com/fwlink/p/?linkid{{=}}226062 Scalable Vector Graphics: Filter Effects], Section 15.25.27
 
 }}
 {{See_Also_Section
 |Manual_sections=
+
 ===Related pages (MSDN)===
-*<code>[[svg/elements/feTurbulence|SVGFETurbulenceElement]]</code>
+
+*[[svg/elements/feTurbulence|'''SVGFETurbulenceElement''']]
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
