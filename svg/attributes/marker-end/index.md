@@ -10,29 +10,35 @@
 {{Topics|SVG}}
 {{Notes_Section
 |Import_Notes=
-===Syntax===
-<code>'''marker-end: '''none '''{{!}}''' ''
-&lt;funciri&gt;
-'' '''{{!}}''' inherit</code>
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}199816 Scalable Vector Graphics: Painting, Filling, Stroking and Marker Symbols], Section 11.6.3
 
+===Syntax===
+
+ '''marker-end: '''none '''{{!}}''' '' funciri '' '''{{!}}'''
+ inherit
+
+===Standards information===
+
+*[http://go.microsoft.com/fwlink/p/?linkid{{=}}199816 Scalable Vector Graphics: Painting, Filling, Stroking and Marker Symbols], Section 11.6.3
 
 }}
 {{See_Also_Section
 |Manual_sections=
+
 ===Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-*<code>[[svg/elements/path|SVGPathElement]]</code>
-*<code>[[svg/elements/line|SVGLineElement]]</code>
-*<code>[[svg/elements/polyline|SVGPolylineElement]]</code>
-*<code>[[svg/elements/polygon|SVGPolygonElement]]</code>
-*<code>Reference</code>
-*<code>[[svg/attributes/marker|marker]]</code>
-*<code>[[svg/attributes/marker-start|markerStart]]</code>
-*<code>[[svg/attributes/marker-mid|markerMid]]</code>
+
+*[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|'''CSSStyleDeclaration''']]
+*[[css/cssom/currentStyle|'''currentStyle''']]
+*[[css/cssom/style|'''style''']]
+*[[svg/elements/path|'''SVGPathElement''']]
+*[[svg/elements/line|'''SVGLineElement''']]
+*[[svg/elements/polyline|'''SVGPolylineElement''']]
+*[[svg/elements/polygon|'''SVGPolygonElement''']]
+
+===Reference===
+
+*[[svg/attributes/marker|'''marker''']]
+*[[svg/attributes/marker-start|'''markerStart''']]
+*[[svg/attributes/marker-mid|'''markerMid''']]
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
