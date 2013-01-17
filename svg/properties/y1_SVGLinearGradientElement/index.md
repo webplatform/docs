@@ -27,7 +27,7 @@ If you do not specify this property, the effect is the same as if you specify a 
 
 ===Related pages (MSDN)===
 
-*[[svg/elements/linearGradient|SVGLinearGradientElement]]
+*[[svg/elements/linearGradient|'''SVGLinearGradientElement''']]
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
