@@ -10,36 +10,27 @@
 {{Topics|DOM}}
 {{Notes_Section
 |Notes=
+
 ===Remarks===
-'''Note'''  In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
-SVG declarative animation is not supported in Windows Internet Explorer 9.
- 
- 
-Build date: 7/24/2012
+
+'''Note:''' In addition to the attributes, properties, events,
+methods, and styles listed above, SVG elements also inherent core HTML
+attributes, properties, events, methods, and styles.
+
+SVG declarative animation is not supported in Windows Internet Explorer 9.
+
 |Import_Notes=
+
 ===Standards information===
+
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}204732 Scalable Vector Graphics: Basic Data Types and Interfaces], Section 4.5.16
 
-
 ===Members===
-The '''SVGAnimatedAngle''' object has these types of members:
-*[#properties Properties]
 
+The '''SVGAnimatedAngle''' object has these properties:
 
-====Properties====
-The '''SVGAnimatedAngle''' object has these properties.
-{| class="wikitable"
-|-
-!Property
-!Description
-|-
-|[[svg/properties/animVal (SVGAnimatedAngle)|'''animVal''']]
-|Contains the same value as the  [[svg/properties/baseVal (SVGAnimatedAngle)|'''baseVal''']] property.
-|-
-|[[svg/properties/baseVal (SVGAnimatedAngle)|'''baseVal''']]
-|Gets or sets the base value of the given attribute before any animations are applied.
-|}
- 
+*[[svg/properties/animVal (SVGAnimatedAngle)|'''animVal''']]: Contains the same value as the  [[svg/properties/baseVal (SVGAnimatedAngle)|'''baseVal''']] property.
+*[[svg/properties/baseVal (SVGAnimatedAngle)|'''baseVal''']]: Gets or sets the base value of the given attribute before any animations are applied.
 
 }}
 {{External_Attribution
