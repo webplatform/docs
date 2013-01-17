@@ -4,23 +4,31 @@
 }}
 {{Standardization_Status|}}
 {{API_Name}}
+{{Topics|SVG}}
 {{Notes_Section
 |Notes=
+
 ===Remarks===
+
 If you set  the  '''valueInSpecifiedUnits'''   property, the  [[svg/properties/value|'''value''']] and [[svg/properties/valueAsString|'''valueAsString''']]  properties  are  updated automatically to reflect this setting.
 |Import_Notes=
-===Syntax===
-HRESULT value {{=}} object.put_valueInSpecifiedUnits(float v);HRESULT value {{=}} object.get_valueInSpecifiedUnits(float* p);
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204732 Scalable Vector Graphics: Basic Data Types and Interfaces], Section 4.5.11
 
+===Syntax===
+
+HRESULT value {{=}} object.put_valueInSpecifiedUnits(float v);HRESULT value {{=}} object.get_valueInSpecifiedUnits(float* p);
+
+===Standards information===
+
+*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204732 Scalable Vector Graphics: Basic Data Types and Interfaces], Section 4.5.11
 
 }}
 {{See_Also_Section
 |Manual_sections=
+
 ===Related pages (MSDN)===
-*<code>[[svg/objects/SVGAngle|SVGAngle]]</code>
-*<code>[[svg/objects/SVGLength|SVGLength]]</code>
+
+*[[svg/objects/SVGAngle|'''SVGAngle''']]
+*[[svg/objects/SVGLength|'''SVGLength''']]
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
