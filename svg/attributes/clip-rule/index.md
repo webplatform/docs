@@ -10,18 +10,23 @@
 {{Topics|SVG}}
 {{Notes_Section
 |Import_Notes=
-===Syntax===
-<code>'''clip-rule: '''nonzero '''{{!}}''' evenodd '''{{!}}''' inherit</code>
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}199810 Scalable Vector Graphics: Clipping, Masking and Compositing], Section 14.3.5
 
+===Syntax===
+
+ '''clip-rule: '''nonzero '''{{!}}''' evenodd '''{{!}}''' inherit
+
+===Standards information===
+
+*[http://go.microsoft.com/fwlink/p/?linkid{{=}}199810 Scalable Vector Graphics: Clipping, Masking and Compositing], Section 14.3.5
 
 }}
 {{See_Also_Section
 |Manual_sections=
+
 ===Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[svg/attributes/fill-rule|fill-rule]]</code>
+
+*[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|'''CSSStyleDeclaration''']]
+*[[svg/attributes/fill-rule|fill-rule]]
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
