@@ -25,7 +25,7 @@ Internet Explorer 9 supports script-based SVG animation but  it does not support
 
 ===Related pages (MSDN)===
 
-*[[svg/objects/SVGAnimatedAngle|SVGAnimatedAngle]]
+*[[svg/objects/SVGAnimatedAngle|'''SVGAnimatedAngle''']]
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
