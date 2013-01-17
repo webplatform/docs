@@ -4,25 +4,32 @@
 }}
 {{Standardization_Status|}}
 {{API_Name}}
+{{Topics|SVG}}
 {{Notes_Section
 |Notes=
+
 ===Remarks===
-The  '''patternTransform''' property enables options such as skewing the 
+
+The  '''patternTransform''' property enables options such as skewing the
 pattern tiles.
-The additional transformation matrix that '''patternTransform''' gets or sets is post-multiplied to (that is, inserted to the right 
-of) any previously defined transformations, including the implicit transformation that is required to 
+The additional transformation matrix that '''patternTransform''' gets or sets is post-multiplied to (that is, inserted to the right
+of) any previously defined transformations, including the implicit transformation that is required to
 convert from object bounding box units to user space.
 |Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}199811 Scalable Vector Graphics: Gradients and Patterns], Section 13.4.5
 
+===Syntax===
+
+===Standards information===
+
+*[http://go.microsoft.com/fwlink/p/?linkid{{=}}199811 Scalable Vector Graphics: Gradients and Patterns], Section 13.4.5
 
 }}
 {{See_Also_Section
 |Manual_sections=
+
 ===Related pages (MSDN)===
-*<code>[[svg/elements/patterrn|SVGPatternElement]]</code>
+
+*[[svg/elements/patterrn|'''SVGPatternElement''']]
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
