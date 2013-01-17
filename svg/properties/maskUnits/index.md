@@ -4,22 +4,29 @@
 }}
 {{Standardization_Status|}}
 {{API_Name}}
+{{Topics|SVG}}
 {{Notes_Section
 |Notes=
+
 ===Remarks===
+
 If you do not specify the '''maskUnits''' property, the effect is  the same as if you specify a value of '''objectBoundingBox'''.
 For more information, see the [http://go.microsoft.com/fwlink/p/?linkid{{=}}203737 Scalable Vector Graphics (SVG) 1.0 Specification]  Object bounding box units section.
 |Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}199810 Scalable Vector Graphics: Clipping, Masking and Compositing], Section 14.6.2
 
+===Syntax===
+
+===Standards information===
+
+*[http://go.microsoft.com/fwlink/p/?linkid{{=}}199810 Scalable Vector Graphics: Clipping, Masking and Compositing], Section 14.6.2
 
 }}
 {{See_Also_Section
 |Manual_sections=
+
 ===Related pages (MSDN)===
-*<code>[[svg/elements/mask|SVGMaskElement]]</code>
+
+*[[svg/elements/mask|'''SVGMaskElement''']]
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
