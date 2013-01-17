@@ -48,7 +48,6 @@ The masked text will look like this:
   </body>
 </html>
 </syntaxhighlight>
-
 }}}}
 {{Notes_Section
 |Notes=
