@@ -10,63 +10,46 @@
 {{Topics|DOM}}
 {{Notes_Section
 |Notes=
+
 ===Remarks===
-'''Note'''  In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
+
+'''Note:'''  In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
+
 The following constants exist in group '''SVGException''' code:
 *'''SVGWrongTypeError'''
 is raised when an object of the wrong type is passed to an operation.
-'''Note'''  No operation is defined to raise an '''SVGException''' exception with this code in the SVG 1.1 Second Edition specification. The constant is  defined for consistency with the [http://go.microsoft.com/fwlink/p/?linkid{{=}}203737  1.1 First Edition specification].
+
+'''Note:'''  No operation is defined to raise an '''SVGException''' exception with this code in the SVG 1.1 Second Edition specification. The constant is  defined for consistency with the [http://go.microsoft.com/fwlink/p/?linkid{{=}}203737  1.1 First Edition specification].
+
 *'''SVGInvalidValueError'''
 is raised when an invalid value is passed to an operation or assigned to an attribute.
 *'''SVGMatrixNotInvertableError''' is raised when an application tries  to invert a matrix that is not invertible.
-'''Note'''  The unusual spelling of this constant is maintained for compatibility with existing content.
-
+'''Note:'''  The unusual spelling of this constant is maintained for compatibility with existing content.
 |Import_Notes=
+
 ===Standards information===
+
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}190918 Scalable Vector Graphics (SVG) 1.1], Appendix B.4
 
-
 ===Members===
-The '''SVGException''' object has these types of members:
-*[#methods Methods]
-*[#properties Properties]
 
+The '''SVGException''' object has these methods:
 
-====Methods====
-The '''SVGException''' object has these methods.
-{| class="wikitable"
-|-
-!Method
-!Description
-|-
-|[[svg/methods/toString|'''toString''']]
-|Returns a string that represents the current object.
-|}
- 
+*[[svg/methods/toString|'''toString''']]: Returns a string that represents the current object.
 
-====Properties====
-The '''SVGException''' object has these properties.
-{| class="wikitable"
-|-
-!Property
-!Description
-|-
-|[[svg/properties/code|'''code''']]
-|Gets the exception code that is raised.
-|-
-|[[svg/properties/message|'''message''']]
-|Gets a description of the exception that is raised.
-|-
-|[[svg/properties/name|'''name''']]
-|Gets the exception name that is raised.
-|}
- 
+The '''SVGException''' object has these properties:
+
+*[[svg/properties/code|'''code''']]: Gets the exception code that is raised.
+*[[svg/properties/message|'''message''']]: Gets a description of the exception that is raised.
+*[[svg/properties/name|'''name''']]: Gets the exception name that is raised.
 
 }}
 {{See_Also_Section
 |Manual_sections=
+
 ===Related pages (MSDN)===
-*<code>DOM Exception Error Codes</code>
+
+*DOM Exception Error Codes
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
