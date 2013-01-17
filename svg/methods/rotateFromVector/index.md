@@ -4,22 +4,29 @@
 }}
 {{Standardization_Status|}}
 {{API_Name}}
+{{Topics|SVG}}
 {{Notes_Section
 |Notes=
+
 ===Remarks===
+
 The rotation angle is determined by taking (+/-)arctan(y/x). The direction of the vector (x,y) determines whether the positive or negative angle value is used.
 ''Post-multiplies'' means that other matrix operations are performed before this operation.
 |Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204735 Scalable Vector Graphics: Coordinate Systems, Transformations and Units], Section 7.14.3
 
+===Syntax===
+
+===Standards information===
+
+*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204735 Scalable Vector Graphics: Coordinate Systems, Transformations and Units], Section 7.14.3
 
 }}
 {{See_Also_Section
 |Manual_sections=
+
 ===Related pages (MSDN)===
-*<code>[[svg/objects/SVGMatrix|SVGMatrix]]</code>
+
+*[[svg/objects/SVGMatrix|'''SVGMatrix''']]
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
