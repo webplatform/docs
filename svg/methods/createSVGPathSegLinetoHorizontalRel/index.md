@@ -4,21 +4,28 @@
 }}
 {{Standardization_Status|}}
 {{API_Name}}
+{{Topics|SVG}}
 {{Notes_Section
 |Notes=
+
 ===Remarks===
+
 Returns a stand-alone, parentless horizontal line that is drawn from the current point to the specified point by using the relative coordinates.
 |Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204736 Scalable Vector Graphics: Paths], Section 8.5.23
 
+===Syntax===
+
+===Standards information===
+
+*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204736 Scalable Vector Graphics: Paths], Section 8.5.23
 
 }}
 {{See_Also_Section
 |Manual_sections=
+
 ===Related pages (MSDN)===
-*<code>[[svg/elements/path|SVGPathElement]]</code>
+
+*[[svg/elements/path|'''SVGPathElement''']]
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
