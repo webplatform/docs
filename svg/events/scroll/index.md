@@ -17,27 +17,34 @@
 {{Topics|Events}}
 {{Notes_Section
 |Notes=
+
 ===Remarks===
+
 The '''onscroll''' event occurs when a document view is being  moved  through a direct user interaction or any change in the [[svg/properties/currentTranslate|'''currentTranslate''']] property  that is available on the  [[svg/elements/svg|'''svg''']] element. This event  applies  only  to the outermost '''svg''' element and is dispatched after the  movement  has taken place.
+
 The contents of an object  scroll until new portions of the object become visible.
 To invoke this event, do one of the following:
 *The user shifts the document view.
-
 |Import_Notes=
+
 ===Syntax===
+
 ===Standards information===
+
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}204745 Scalable Vector Graphics: Scripting], Section 18.4.3
 
-
 ===Event handler parameters===
-;''pEvt'' [in]:Type: '''<b>IDOMUIEvent'''</b>The [[dom/objects/Event|'''IDOMEvent''']] object.
+
+;''pEvt'' [in]:Type: '''IDOMUIEvent'''The [[dom/objects/Event|'''IDOMEvent''']] object.
 
 }}
 {{See_Also_Section
 |Manual_sections=
+
 ===Related pages (MSDN)===
-*<code>[[svg/elements/svg|SVGSVGElement]]</code>
-*<code>[[dom/events/scroll|onscroll]]</code>
+
+*[[svg/elements/svg|'''SVGSVGElement''']]
+*[[dom/events/scroll|'''onscroll''']]
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
