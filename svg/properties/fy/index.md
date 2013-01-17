@@ -4,30 +4,39 @@
 }}
 {{Standardization_Status|}}
 {{API_Name}}
+{{Topics|SVG}}
 {{Notes_Section
 |Notes=
+
 ===Remarks===
-The [[svg/properties/fx|'''fx''']] and '''fy''' properties define the focal point for the radial gradient. The 
+
+The [[svg/properties/fx|'''fx''']] and '''fy''' properties define the focal point for the radial gradient. The
 gradient is drawn such that the 0% gradient stop is mapped to the point (fx, fy).
-If you do not specify the '''fy'''  attribute, '''fy'''  coincides with the presentational 
-value of  [[svg/properties/cy (SVGRadialGradientElement)|'''cy''']]  for the element, whether the value for  '''cy'''  is inherited or not. If the 
-element references an element that specifies a value for '''fy''', the value of  '''fy'''  
+If you do not specify the '''fy'''  attribute, '''fy'''  coincides with the presentational
+value of  [[svg/properties/cy (SVGRadialGradientElement)|'''cy''']]  for the element, whether the value for  '''cy'''  is inherited or not. If the
+element references an element that specifies a value for '''fy''', the value of  '''fy'''
 is inherited from the referenced element.
 You can animate the '''fy'''  property.
 |Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}199811 Scalable Vector Graphics: Gradients and Patterns], Section 13.4.3
 
+===Syntax===
+
+===Standards information===
+
+*[http://go.microsoft.com/fwlink/p/?linkid{{=}}199811 Scalable Vector Graphics: Gradients and Patterns], Section 13.4.3
 
 }}
 {{See_Also_Section
 |Manual_sections=
+
 ===Related pages (MSDN)===
-*<code>[[svg/elements/radialGradient|SVGRadialGradientElement]]</code>
-*<code>Reference</code>
-*<code>[[svg/properties/fx|fx]]</code>
-*<code>[[svg/properties/r (SVGRadialGradientElement)|r]]</code>
+
+*[[svg/elements/radialGradient|'''SVGRadialGradientElement''']]
+
+===Reference===
+
+*[[svg/properties/fx|'''fx''']]
+*[[svg/properties/r (SVGRadialGradientElement)|'''r''']]
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
