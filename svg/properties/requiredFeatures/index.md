@@ -4,40 +4,46 @@
 }}
 {{Standardization_Status|}}
 {{API_Name}}
+{{Topics|SVG}}
 {{Notes_Section
 |Import_Notes=
-===Syntax===
-HRESULT value {{=}} object.get_requiredFeatures(ISVGStringList** pFeatureList);
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204732 Scalable Vector Graphics: Basic Data Types and Interfaces], Section 4.5.25
 
+===Syntax===
+
+HRESULT value {{=}} object.get_requiredFeatures(ISVGStringList** pFeatureList);
+
+===Standards information===
+
+*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204732 Scalable Vector Graphics: Basic Data Types and Interfaces], Section 4.5.25
 
 }}
 {{See_Also_Section
 |Manual_sections=
+
 ===Related pages (MSDN)===
-*<code>[[svg/elements/clipPath|SVGClipPathElement]]</code>
-*<code>[[svg/elements/patterrn|SVGPatternElement]]</code>
-*<code>[[svg/elements/svg|SVGSVGElement]]</code>
-*<code>[[svg/elements/use|SVGUseElement]]</code>
-*<code>[[svg/elements/circle|SVGCircleElement]]</code>
-*<code>[[svg/elements/ellipse|SVGEllipseElement]]</code>
-*<code>[[svg/elements/line|SVGLineElement]]</code>
-*<code>[[svg/elements/rect|SVGRectElement]]</code>
-*<code>[[svg/elements/polygon|SVGPolygonElement]]</code>
-*<code>[[svg/elements/polyline|SVGPolylineElement]]</code>
-*<code>[[svg/elements/g|SVGGElement]]</code>
-*<code>[[svg/elements/defs|SVGDefsElement]]</code>
-*<code>[[svg/elements/path|SVGPathElement]]</code>
-*<code>[[svg/elements/text|SVGTextElement]]</code>
-*<code>[[svg/elements/image|SVGImageElement]]</code>
-*<code>[[svg/elements/mask|SVGMaskElement]]</code>
-*<code>[[svg/elements/a|SVGAElement]]</code>
-*<code>[[svg/elements/switch|SVGSwitchElement]]</code>
-*<code>[[svg/elements/etextContent|SVGTextContentElement]]</code>
-*<code>[[svg/elements/textPositioning|SVGTextPositioningElement]]</code>
-*<code>[[svg/elements/tspan|SVGTSpanElement]]</code>
-*<code>[[svg/elements/textPath|SVGTextPathElement]]</code>
+
+*[[svg/elements/clipPath|'''SVGClipPathElement''']]
+*[[svg/elements/patterrn|'''SVGPatternElement''']]
+*[[svg/elements/svg|'''SVGSVGElement''']]
+*[[svg/elements/use|'''SVGUseElement''']]
+*[[svg/elements/circle|'''SVGCircleElement''']]
+*[[svg/elements/ellipse|'''SVGEllipseElement''']]
+*[[svg/elements/line|'''SVGLineElement''']]
+*[[svg/elements/rect|'''SVGRectElement''']]
+*[[svg/elements/polygon|'''SVGPolygonElement''']]
+*[[svg/elements/polyline|'''SVGPolylineElement''']]
+*[[svg/elements/g|'''SVGGElement''']]
+*[[svg/elements/defs|'''SVGDefsElement''']]
+*[[svg/elements/path|'''SVGPathElement''']]
+*[[svg/elements/text|'''SVGTextElement''']]
+*[[svg/elements/image|'''SVGImageElement''']]
+*[[svg/elements/mask|'''SVGMaskElement''']]
+*[[svg/elements/a|'''SVGAElement''']]
+*[[svg/elements/switch|'''SVGSwitchElement''']]
+*[[svg/elements/etextContent|'''SVGTextContentElement''']]
+*[[svg/elements/textPositioning|'''SVGTextPositioningElement''']]
+*[[svg/elements/tspan|'''SVGTSpanElement''']]
+*[[svg/elements/textPath|'''SVGTextPathElement''']]
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
