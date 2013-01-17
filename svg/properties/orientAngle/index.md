@@ -4,25 +4,33 @@
 }}
 {{Standardization_Status|}}
 {{API_Name}}
+{{Topics|SVG}}
 {{Notes_Section
 |Notes=
-===Remarks===
-If the [[svg/properties/orientType|'''orientType''']] property  is <code>SVG_MARKER_ORIENT_ANGLE</code>, this  property represents the angle value for '''orientAngle'''; otherwise, this property is set to zero.
-|Import_Notes=
-===Syntax===
-HRESULT value {{=}} object.put_orientAngle(ISVGAnimatedAngle* v);HRESULT value {{=}} object.get_orientAngle(ISVGAnimatedAngle** p);
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}199816 Scalable Vector Graphics: Painting, Filling, Stroking and Marker Symbols], Section 11.9.2
 
+===Remarks===
+
+If the [[svg/properties/orientType|'''orientType''']] property  is '''SVG_MARKER_ORIENT_ANGLE''', this  property represents the angle value for '''orientAngle'''; otherwise, this property is set to zero.
+|Import_Notes=
+
+===Syntax===
+
+HRESULT value {{=}} object.put_orientAngle(ISVGAnimatedAngle* v);HRESULT value {{=}} object.get_orientAngle(ISVGAnimatedAngle** p);
+
+===Standards information===
+
+*[http://go.microsoft.com/fwlink/p/?linkid{{=}}199816 Scalable Vector Graphics: Painting, Filling, Stroking and Marker Symbols], Section 11.9.2
 
 }}
 {{See_Also_Section
 |Manual_sections=
+
 ===Related pages (MSDN)===
-*<code>Reference</code>
-*<code>[[svg/elements/marker|SVGMarkerElement]]</code>
-*<code>SVGMarkerElement</code>
-*<code>[[svg/properties/orientType|orientType]]</code>
+
+===Reference===
+
+*[[svg/elements/marker|'''SVGMarkerElement''']]
+*[[svg/properties/orientType|'''orientType''']]
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
