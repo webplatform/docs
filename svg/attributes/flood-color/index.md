@@ -10,21 +10,22 @@
 {{Topics|SVG}}
 {{Notes_Section
 |Import_Notes=
-===Syntax===
-<code>'''flood-color: '''currentColor '''{{!}}''' ''
-&lt;color&gt;
-'' '''[''' ''
-&lt;icccolor&gt;
-'' ''']''''''?''' '''{{!}}''' inherit</code>
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}226062 Scalable Vector Graphics: Filter Effects], Section 15.16
 
+===Syntax===
+
+ '''flood-color: '''currentColor '''{{!}}''' ''color'' '''[''' ''icccolor'' ''']''''''?''' '''{{!}}''' inherit
+
+===Standards information===
+
+*[http://go.microsoft.com/fwlink/p/?linkid{{=}}226062 Scalable Vector Graphics: Filter Effects], Section 15.16
 
 }}
 {{See_Also_Section
 |Manual_sections=
+
 ===Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
+
+*[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|'''CSSStyleDeclaration''']]
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
