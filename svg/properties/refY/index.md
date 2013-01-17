@@ -4,25 +4,33 @@
 }}
 {{Standardization_Status|}}
 {{API_Name}}
+{{Topics|SVG}}
 {{Notes_Section
 |Notes=
+
 ===Remarks===
-The y-coordinate is defined in the coordinate system after application of the [[svg/properties/viewBox|'''viewBox''']]  and  [[svg/properties/preserveAspectRatio|'''preserveAspectRatio''']]  attributes. If you do not specify the '''refY''' property, the effect is the same as if you specify a value of <code>"0"</code>.
+
+The y-coordinate is defined in the coordinate system after application of the [[svg/properties/viewBox|'''viewBox''']]  and  [[svg/properties/preserveAspectRatio|'''preserveAspectRatio''']]  attributes. If you do not specify the '''refY''' property, the effect is the same as if you specify a value of '''"0"'''.
+
 The '''refY''' property  is animatable.
 |Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}199816 Scalable Vector Graphics: Painting, Filling, Stroking and Marker Symbols], Section 11.9.2
 
+===Syntax===
+
+===Standards information===
+
+*[http://go.microsoft.com/fwlink/p/?linkid{{=}}199816 Scalable Vector Graphics: Painting, Filling, Stroking and Marker Symbols], Section 11.9.2
 
 }}
 {{See_Also_Section
 |Manual_sections=
+
 ===Related pages (MSDN)===
-*<code>Reference</code>
-*<code>[[svg/elements/marker|SVGMarkerElement]]</code>
-*<code>SVGMarkerElement</code>
-*<code>[[svg/properties/refX|refX]]</code>
+
+===Reference===
+
+*[[svg/elements/marker|'''SVGMarkerElement''']]
+*[[svg/properties/refX|'''refX''']]
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
