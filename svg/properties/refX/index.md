@@ -4,25 +4,33 @@
 }}
 {{Standardization_Status|}}
 {{API_Name}}
+{{Topics|SVG}}
 {{Notes_Section
 |Notes=
-===Remarks===
-The x-coordinate is defined in the coordinate system after [[svg/properties/viewBox|'''viewBox''']] and [[svg/properties/preserveAspectRatio|'''preserveAspectRatio''']] attributes are applied to the coordinates.
-If you do not specify the  '''refX'''   property, the effect is the same as if you specify a value of <code>"0"</code>.
-|Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}199816 Scalable Vector Graphics: Painting, Filling, Stroking and Marker Symbols], Section 11.9.2
 
+===Remarks===
+
+The x-coordinate is defined in the coordinate system after [[svg/properties/viewBox|'''viewBox''']] and [[svg/properties/preserveAspectRatio|'''preserveAspectRatio''']] attributes are applied to the coordinates.
+
+If you do not specify the  '''refX'''   property, the effect is the same as if you specify a value of '''"0"'''.
+|Import_Notes=
+
+===Syntax===
+
+===Standards information===
+
+*[http://go.microsoft.com/fwlink/p/?linkid{{=}}199816 Scalable Vector Graphics: Painting, Filling, Stroking and Marker Symbols], Section 11.9.2
 
 }}
 {{See_Also_Section
 |Manual_sections=
+
 ===Related pages (MSDN)===
-*<code>Reference</code>
-*<code>[[svg/elements/marker|SVGMarkerElement]]</code>
-*<code>SVGMarkerElement</code>
-*<code>[[svg/properties/refY|refY]]</code>
+
+===Reference===
+
+*[[svg/elements/marker|'''SVGMarkerElement''']]
+*[[svg/properties/refY|'''refY''']]
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
