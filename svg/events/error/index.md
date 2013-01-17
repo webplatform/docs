@@ -17,26 +17,32 @@
 {{Topics|Events}}
 {{Notes_Section
 |Notes=
+
 ===Remarks===
+
 The browser  displays its error message when a problem occurs and runs  any error handling routines  that are associated with the event.
 To invoke this event, do one of the following:
 *A user or the system causes an error event.
-
 |Import_Notes=
+
 ===Syntax===
+
 ===Standards information===
+
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}204745 Scalable Vector Graphics: Scripting], Section 18.4.3
 
-
 ===Event handler parameters===
-;''pEvt'' [in]:Type: '''<b>IDOMUIEvent'''</b>The [[dom/objects/Event|'''IDOMEvent''']] object.
+
+;''pEvt'' [in]:Type: '''IDOMUIEvent'''The [[dom/objects/Event|'''IDOMEvent''']] object.
 
 }}
 {{See_Also_Section
 |Manual_sections=
+
 ===Related pages (MSDN)===
-*<code>[[svg/elements/svg|SVGSVGElement]]</code>
-*<code>[[svg/events/error|onerror]]</code>
+
+*[[svg/elements/svg|'''SVGSVGElement''']]
+*[[svg/events/error|'''onerror''']]
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
