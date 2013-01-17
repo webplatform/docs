@@ -10,42 +10,27 @@
 {{Topics|DOM}}
 {{Notes_Section
 |Notes=
+
 ===Remarks===
-'''Note'''  In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
-The <code>T</code> object uses absolute coordinates to draw a quadratic Bézier curve from the current point to (x,y). The control point is  the reflection of the control point on the previous command, relative to the current point. (If there is no previous command or if the previous command was not a <code>Q</code>, <code>q</code>, <code>T</code> or <code>t</code> command, assume that the control point is coincident with the current point.) At the end of the command, the new current point becomes the final (x,y) coordinate pair that is used in the polybézier.
- 
- 
-Build date: 7/24/2012
+
+'''Note:'''  In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
+
+The '''T''' object uses absolute coordinates to draw a quadratic B&eacute;zier curve from the current point to (x,y). The control point is  the reflection of the control point on the previous command, relative to the current point. (If there is no previous command or if the previous command was not a '''Q''', '''q''', '''T''' or '''t''' command, assume that the control point is coincident with the current point.) At the end of the command, the new current point becomes the final (x,y) coordinate pair that is used in the polyb&eacute;zier.
+
 |Import_Notes=
+
 ===Standards information===
+
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}204736 Scalable Vector Graphics: Paths], Section 8.5.19
 
-
 ===Members===
-The '''SVGPathSegCurvetoQuadraticSmoothAbs''' object has these types of members:
-*[#properties Properties]
 
+The '''SVGPathSegCurvetoQuadraticSmoothAbs''' object has these properties:
 
-====Properties====
-The '''SVGPathSegCurvetoQuadraticSmoothAbs''' object has these properties.
-{| class="wikitable"
-|-
-!Property
-!Description
-|-
-|[[svg/properties/pathSegType|'''pathSegType''']]
-|Gets the type of the path segment.
-|-
-|[[svg/properties/pathSegTypeAsLetter|'''pathSegTypeAsLetter''']]
-|Gets the type of the path segment, specified by the corresponding one-character command name.
-|-
-|[[svg/properties/x|'''x''']]
-|Gets or sets the x-coordinate value.
-|-
-|[[svg/properties/y|'''y''']]
-|Gets or sets the y-coordinate value.
-|}
- 
+*[[svg/properties/pathSegType|'''pathSegType''']]: Gets the type of the path segment.
+*[[svg/properties/pathSegTypeAsLetter|'''pathSegTypeAsLetter''']]: Gets the type of the path segment, specified by the corresponding one-character command name.
+*[[svg/properties/x|'''x''']]: Gets or sets the x-coordinate value.
+*[[svg/properties/y|'''y''']]: Gets or sets the y-coordinate value.
 
 }}
 {{External_Attribution
