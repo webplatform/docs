@@ -10,17 +10,21 @@
 {{Topics|DOM}}
 {{Notes_Section
 |Notes=
+
 ===Remarks===
-'''Note'''  In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
-SVG declarative animation is not supported in Windows Internet Explorer 9.
- 
- 
-Build date: 7/24/2012
+
+'''Note:'''  In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
+
+SVG declarative animation is not supported in Windows Internet Explorer 9.
+
 |Import_Notes=
+
 ===Standards information===
+
 There are no standards that apply here.
 
 ===Members===
+
 The '''SVGAnimatedStringNS''' object does not define any members.
 
 }}
