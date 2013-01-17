@@ -4,24 +4,32 @@
 }}
 {{Standardization_Status|}}
 {{API_Name}}
+{{Topics|SVG}}
 {{Notes_Section
 |Notes=
+
 ===Remarks===
+
 If the given attribute or property is being animated,  the '''animatedPoints''' property contains the current animated points. If the given attribute or property is not currently being animated,
+
 '''animatedPoints''' contains the same value as the [[svg/properties/points|'''points''']] attribute.
 |Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204737 Scalable Vector Graphics: Basic Shapes], Section 9.8.5
 
+===Syntax===
+
+===Standards information===
+
+*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204737 Scalable Vector Graphics: Basic Shapes], Section 9.8.5
 
 }}
 {{See_Also_Section
 |Manual_sections=
+
 ===Related pages (MSDN)===
-*<code>[[svg/elements/polygon|SVGPolygonElement]]</code>
-*<code>[[svg/elements/polyline|SVGPolylineElement]]</code>
-*<code>[[svg/properties/points|points]]</code>
+
+*[[svg/elements/polygon|'''SVGPolygonElement''']]
+*[[svg/elements/polyline|'''SVGPolylineElement''']]
+*[[svg/properties/points|'''points''']]
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
