@@ -4,14 +4,19 @@
 }}
 {{Standardization_Status|}}
 {{API_Name}}
+{{Topics|SVG}}
 {{Notes_Section
 |Import_Notes=
+
 ===Syntax===
+
 }}
 {{See_Also_Section
 |Manual_sections=
+
 ===Related pages (MSDN)===
-*<code>[[svg/objects/SVGException|SVGException]]</code>
+
+*[[svg/objects/SVGException|'''SVGException''']]
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
