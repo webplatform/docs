@@ -4,21 +4,28 @@
 }}
 {{Standardization_Status|}}
 {{API_Name}}
+{{Topics|SVG}}
 {{Notes_Section
 |Notes=
+
 ===Remarks===
+
 User interface (UI) events in [http://go.microsoft.com/fwlink/p/?linkid{{=}}203739 Document Object Model (DOM) Level 2 Events Specification] indicate the screen positions  where  the given event occurred. When Windows Internet Explorer knows the physical size of a "screen unit", the '''screenPixelToMillimeterY'''  attribute expresses that information.  Otherwise, Internet Explorer provides a suitable default value.
 |Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204733 Scalable Vector Graphics: Document Structure], Section 5.11.2
 
+===Syntax===
+
+===Standards information===
+
+*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204733 Scalable Vector Graphics: Document Structure], Section 5.11.2
 
 }}
 {{See_Also_Section
 |Manual_sections=
+
 ===Related pages (MSDN)===
-*<code>[[svg/elements/svg|SVGSVGElement]]</code>
+
+*[[svg/elements/svg|'''SVGSVGElement''']]
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
