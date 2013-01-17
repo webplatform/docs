@@ -4,27 +4,36 @@
 }}
 {{Standardization_Status|}}
 {{API_Name}}
+{{Topics|SVG}}
 {{Notes_Section
 |Notes=
+
 ===Remarks===
+
 The return value of the '''getComputedTextLength''' method enables Windows Internet Explorer to make reasonable assumptions about the glyph metrics for non-rendering processes.
+
 The total text advance distance includes the advance values on the glyphs (horizontal or vertical), kerning effects, letter-spacing effects, word-spacing effects,  and  adjustments  because of the [[svg/properties/dx|'''dx''']] and [[svg/properties/dy|'''dy''']] attributes on [[svg/elements/tspan|'''SVGTSpanElement''']] elements.
 |Import_Notes=
-===Syntax===
-<div class{{=}}"code">float retVal {{=}} ''object.''getComputedTextLength();</div>
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}199818 Scalable Vector Graphics: Text], Section 10.17.1
 
+===Syntax===
+
+ float retVal = ''object.''getComputedTextLength();
+
+===Standards information===
+
+*[http://go.microsoft.com/fwlink/p/?linkid{{=}}199818 Scalable Vector Graphics: Text], Section 10.17.1
 
 }}
 {{See_Also_Section
 |Manual_sections=
+
 ===Related pages (MSDN)===
-*<code>[[svg/elements/text|SVGTextElement]]</code>
-*<code>[[svg/elements/etextContent|SVGTextContentElement]]</code>
-*<code>[[svg/elements/textPositioning|SVGTextPositioningElement]]</code>
-*<code>[[svg/elements/tspan|SVGTSpanElement]]</code>
-*<code>[[svg/elements/textPath|SVGTextPathElement]]</code>
+
+*[[svg/elements/text|'''SVGTextElement''']]
+*[[svg/elements/etextContent|'''SVGTextContentElement''']]
+*[[svg/elements/textPositioning|'''SVGTextPositioningElement''']]
+*[[svg/elements/tspan|'''SVGTSpanElement''']]
+*[[svg/elements/textPath|'''SVGTextPathElement''']]
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
