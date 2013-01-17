@@ -4,21 +4,28 @@
 }}
 {{Standardization_Status|}}
 {{API_Name}}
+{{Topics|SVG}}
 {{Notes_Section
 |Notes=
+
 ===Remarks===
+
 For example, if a [[svg/elements/use|'''use''']] element references a [[svg/elements/rect|'''rect''']] element, an [[svg/objects/SVGElementInstance|'''SVGElementInstance''']] object is created and its corresponding element is the '''SVGRectElement''' object for the '''rect''' element.
 |Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204733 Scalable Vector Graphics: Document Structure], Section 5.11.9
 
+===Syntax===
+
+===Standards information===
+
+*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204733 Scalable Vector Graphics: Document Structure], Section 5.11.9
 
 }}
 {{See_Also_Section
 |Manual_sections=
+
 ===Related pages (MSDN)===
-*<code>[[svg/objects/SVGElementInstance|SVGElementInstance]]</code>
+
+*[[svg/objects/SVGElementInstance|'''SVGElementInstance''']]
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
