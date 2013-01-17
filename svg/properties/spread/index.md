@@ -4,20 +4,25 @@
 }}
 {{Standardization_Status|}}
 {{API_Name}}
+{{Topics|SVG}}
 {{Notes_Section
 |Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}199811 Scalable Vector Graphics: Gradients and Patterns], Section 13.4.1
 
+===Syntax===
+
+===Standards information===
+
+*[http://go.microsoft.com/fwlink/p/?linkid{{=}}199811 Scalable Vector Graphics: Gradients and Patterns], Section 13.4.1
 
 }}
 {{See_Also_Section
 |Manual_sections=
+
 ===Related pages (MSDN)===
-*<code>[[svg/elements/gradient|SVGGradientElement]]</code>
-*<code>[[svg/elements/linearGradient|SVGLinearGradientElement]]</code>
-*<code>[[svg/elements/radialGradient|SVGRadialGradientElement]]</code>
+
+*[[svg/elements/gradient|'''SVGGradientElement''']]
+*[[svg/elements/linearGradient|'''SVGLinearGradientElement''']]
+*[[svg/elements/radialGradient|'''SVGRadialGradientElement''']]
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
