@@ -4,26 +4,34 @@
 }}
 {{Standardization_Status|}}
 {{API_Name}}
+{{Topics|SVG}}
 {{Notes_Section
 |Notes=
+
 ===Remarks===
+
 The character's  current text position does not  consider  the effects of any inter-character adjustments to prepare for the next character, such as kerning, letter spacing,  word spacing, and adjustments because of  the  [[svg/properties/x|'''x''']], [[svg/properties/y|'''y''']], [[svg/properties/dx|'''dx''']], and [[svg/properties/dy|'''dy''']] attributes. If multiple consecutive characters are rendered inseparably (for example, as a single glyph or a sequence of glyphs), each of the inseparable characters returns the end position for the last glyph.
 |Import_Notes=
-===Syntax===
-<div class{{=}}"code">ISVGPoint retVal {{=}} ''object.''getEndPositionOfChar(charnum);</div>
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}199818 Scalable Vector Graphics: Text], Section 10.17.1
 
+===Syntax===
+
+ ISVGPoint retVal = ''object.''getEndPositionOfChar(charnum);
+
+===Standards information===
+
+*[http://go.microsoft.com/fwlink/p/?linkid{{=}}199818 Scalable Vector Graphics: Text], Section 10.17.1
 
 }}
 {{See_Also_Section
 |Manual_sections=
+
 ===Related pages (MSDN)===
-*<code>[[svg/elements/text|SVGTextElement]]</code>
-*<code>[[svg/elements/textPositioning|SVGTextPositioningElement]]</code>
-*<code>[[svg/elements/tspan|SVGTSpanElement]]</code>
-*<code>[[svg/elements/textPath|SVGTextPathElement]]</code>
-*<code>[[svg/elements/etextContent|SVGTextContentElement]]</code>
+
+*[[svg/elements/text|'''SVGTextElement''']]
+*[[svg/elements/textPositioning|'''SVGTextPositioningElement''']]
+*[[svg/elements/tspan|'''SVGTSpanElement''']]
+*[[svg/elements/textPath|'''SVGTextPathElement''']]
+*[[svg/elements/etextContent|'''SVGTextContentElement''']]
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
