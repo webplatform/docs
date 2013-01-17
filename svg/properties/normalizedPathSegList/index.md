@@ -4,27 +4,33 @@
 }}
 {{Standardization_Status|}}
 {{API_Name}}
+{{Topics|SVG}}
 {{Notes_Section
 |Notes=
+
 ===Remarks===
+
 When  the static contents are normalized, all path data commands are expressed in terms of one of the following [[svg/objects/SVGPathSeg|'''SVGPathSeg''']] types:
 *SVG_PATHSEG_MOVETO_ABS (M)
 *SVG_PATHSEG_LINETO_ABS (L)
 *SVG_PATHSEG_CURVETO_CUBIC_ABS (C)
 *SVG_PATHSEG_CLOSEPATH (z)
-
 |Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204736 Scalable Vector Graphics: Paths], Section 8.5.22
 
+===Syntax===
+
+===Standards information===
+
+*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204736 Scalable Vector Graphics: Paths], Section 8.5.22
 
 }}
 {{See_Also_Section
 |Manual_sections=
+
 ===Related pages (MSDN)===
-*<code>[[svg/elements/path|SVGPathElement]]</code>
-*<code>[[svg/properties/animatedNormalizedPathSegList|animatedNormalizedPathSegList]]</code>
+
+*[[svg/elements/path|'''SVGPathElement''']]
+*[[svg/properties/animatedNormalizedPathSegList|'''animatedNormalizedPathSegList''']]
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
