@@ -22,9 +22,7 @@ The masked text will look like this:
 <syntaxhighlight lang="xml">
 <!DOCTYPE HTML>
 <html>
-
   <head></head>
-
   <body>
     <svg width="400" height="400">
       <defs>
@@ -41,13 +39,12 @@ The masked text will look like this:
         </mask>
         <!-- Define text. -->
         <text id="myText" x="50" y="50" font-family="Verdana" font-size="32"  >
-	     SVG forever!
+         SVG forever!
         </text>
       </defs>
       <!-- Use text with mask and gradient. -->
       <use xlink:href="#myText" fill="navy" mask="url(#myMask)" />
     </svg>
-
   </body>
 </html>
 </syntaxhighlight>
