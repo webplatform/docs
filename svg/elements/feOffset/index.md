@@ -10,51 +10,25 @@
 {{Topics|SVG}}
 {{Notes_Section
 |Import_Notes=
+
 ===Syntax===
+
 ===Standards information===
+
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}226062 Scalable Vector Graphics: Filter Effects], Section 15.25.24
 
-
 ===Members===
-The '''SVGFEOffsetElement''' object has these types of members:
-*[#properties Properties]
 
+The '''SVGFEOffsetElement''' object has these properties:
 
-====Properties====
-The '''SVGFEOffsetElement''' object has these properties.
-{| class="wikitable"
-|-
-!Property
-!Description
-|-
-|[[svg/properties/dx|'''dx''']]
-|Gets the [[svg/properties/dx|'''dx''']] attribute on the given element.
-|-
-|[[svg/properties/dy|'''dy''']]
-|Gets the  [[svg/properties/dy|'''dy''']]  attribute on the given element.
-|-
-|[[svg/properties/height|'''height''']]
-|Gets or sets  the height of an element.
-|-
-|[[svg/properties/in1|'''in1''']]
-|Identifies input for the given filter primitive.
-|-
-|[[svg/properties/result|'''result''']]
-|Provides a reference for the output result of a filter.
-|-
-|[[svg/properties/width|'''width''']]
-|Defines the width of an element.
-|-
-|[[svg/properties/x|'''x''']]
-|Gets or sets the x-coordinate value.
-|-
-|[[svg/properties/y|'''y''']]
-|Gets or sets the y-coordinate value.
-|}
- 
- 
- 
-Build date: 7/24/2012
+*[[svg/properties/dx|'''dx''']]: Gets the [[svg/properties/dx|'''dx''']] attribute on the given element.
+*[[svg/properties/dy|'''dy''']]: Gets the  [[svg/properties/dy|'''dy''']]  attribute on the given element.
+*[[svg/properties/height|'''height''']]: Gets or sets  the height of an element.
+*[[svg/properties/in1|'''in1''']]: Identifies input for the given filter primitive.
+*[[svg/properties/result|'''result''']]: Provides a reference for the output result of a filter.
+*[[svg/properties/width|'''width''']]: Defines the width of an element.
+*[[svg/properties/x|'''x''']]: Gets or sets the x-coordinate value.
+*[[svg/properties/y|'''y''']]: Gets or sets the y-coordinate value.
 
 }}
 {{External_Attribution
