@@ -10,19 +10,25 @@
 {{Topics|SVG}}
 {{Notes_Section
 |Notes=
+
 ===Remarks===
 |Import_Notes=
-===Syntax===
-<code>'''color-interpolation-filters: '''auto '''{{!}}''' sRGB '''{{!}}''' linearRGB '''{{!}}''' inherit</code>
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}199816 Scalable Vector Graphics: Painting, Filling, Stroking and Marker Symbols], Section 11.71
 
+===Syntax===
+
+ '''color-interpolation-filters: '''auto '''{{!}}''' sRGB '''{{!}}''' linearRGB '''{{!}}''' inherit
+
+===Standards information===
+
+*[http://go.microsoft.com/fwlink/p/?linkid{{=}}199816 Scalable Vector Graphics: Painting, Filling, Stroking and Marker Symbols], Section 11.71
 
 }}
 {{See_Also_Section
 |Manual_sections=
+
 ===Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
+
+*[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|'''CSSStyleDeclaration''']]
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
