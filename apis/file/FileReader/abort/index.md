@@ -2,8 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Aborts a read operation.
-}}
+{{Summary_Section|Aborts a read operation.}}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=apis/file/FileReader
@@ -91,7 +90,8 @@
 {{Topics|FileAPI}}
 {{External_Attribution
 |Is_CC-BY-SA=No
+|Sources=MSDN
 |MDN_link=
-|MSDN_link=
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
 |HTML5Rocks_link=
 }}
