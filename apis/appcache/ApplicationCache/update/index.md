@@ -43,7 +43,6 @@ This method can return one of these values.
 11
 {{!}}This exception is thrown if the application cache cannot be found or the status of the cache is obsolete.
 {{!}}}
-
 }}
 {{Examples_Section
 |Not_required=Yes
@@ -128,7 +127,8 @@ The '''update'''  method is provided for convenience, but is not necessary for b
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
+|Sources=MSDN
 |MDN_link=
-|MSDN_link=
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx
 |HTML5Rocks_link=
 }}
