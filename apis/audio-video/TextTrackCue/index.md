@@ -12,7 +12,6 @@
 }}
 {{Notes_Section
 |Notes=Individual cues are returned from a [[apis/audio-video/TextTrackCueList|TextTrackCueList]] object (collection of cues). Cues can also be created and added to a track.
-
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -32,7 +31,8 @@
 {{Topics|Audio, DOM, Video}}
 {{External_Attribution
 |Is_CC-BY-SA=No
+|Sources=MSDN
 |MDN_link=
-|MSDN_link=
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
 |HTML5Rocks_link=
 }}
