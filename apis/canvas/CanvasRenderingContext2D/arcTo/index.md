@@ -49,7 +49,6 @@ This method can return one of these values.
 {{!}}IndexSizeError
 {{!}}The radius given is negative.
 {{!}}}
-
 }}
 {{Examples_Section
 |Not_required=Yes
@@ -59,7 +58,6 @@ This method can return one of these values.
 |Notes=The '''arcTo'''  method creates an arc of ''radius'' radius between two tangents. The first tangent is defined by an imaginary line that is drawn through the last point in a path and the point ''(x1, y1)''. The second tangent is defined by an imaginary line that is drawn through the point ''(x1, y1)'' and the point ''(x2, y2)''.
 
 The arc is drawn between the two tangents using ''radius'' as the radius. '''arcTo''' will draw a straight line from the last point of the path to the start of the arc which lies on the tangent that contains the last point on the path and ''x1'' and ''y1''.
-
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -133,7 +131,8 @@ The arc is drawn between the two tangents using ''radius'' as the radius. '''arc
 {{Topics|Canvas}}
 {{External_Attribution
 |Is_CC-BY-SA=No
+|Sources=MSDN
 |MDN_link=
-|MSDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
