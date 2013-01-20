@@ -52,7 +52,7 @@
 |Notes=The opacity setting is applied uniformly across the entire object. Any values outside the range 0.0 to 1.0 will be clamped to this range.
 Object or group opacity can be thought of conceptually as a postprocessing operation. Conceptually, after the object or group is rendered into an RGBA offscreen image, the object or group opacity setting specifies how to blend the offscreen image into the current background.
 
-Note that setting a less than 1 value to this property creates a new stacking context. For more information, see [http://philipwalton.com/articles/what-no-one-told-you-about-z-index/ What No One Told You About Z-Index] by Philip Walton.
+Note that setting a value smaller than 1 to this property creates a new stacking context. For more information, see [http://philipwalton.com/articles/what-no-one-told-you-about-z-index/ What No One Told You About Z-Index] by Philip Walton.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -67,25 +67,25 @@ Note that setting a less than 1 value to this property creates a new stacking co
 |Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
-|Chrome_version=4.0+
+|Chrome_version=1
 |Chrome_prefixed_supported=Unknown
 |Chrome_prefixed_version=
 |Firefox_supported=Yes
-|Firefox_version=2.0+
+|Firefox_version=1
 |Firefox_prefixed_supported=Unknown
 |Firefox_prefixed_version=
 |Internet_explorer_supported=Yes
-|Internet_explorer_version=9.0+
+|Internet_explorer_version=9
 |Internet_explorer_prefixed_supported=Unknown
 |Internet_explorer_prefixed_version=
 |Opera_supported=Yes
-|Opera_version=9.0+
+|Opera_version=9
 |Opera_prefixed_supported=Unknown
 |Opera_prefixed_version=
 |Safari_supported=Yes
-|Safari_version=3.1+
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
+|Safari_version=1.2
+|Safari_prefixed_supported=Yes
+|Safari_prefixed_version=1
 }}
 |Mobile_rows={{Compatibility Table Mobile Row
 |Android_supported=Yes
@@ -93,7 +93,7 @@ Note that setting a less than 1 value to this property creates a new stacking co
 |Android_prefixed_supported=Unknown
 |Android_prefixed_version=
 |Blackberry_supported=Yes
-|Blackberry_version=7.0
+|Blackberry_version=7
 |Blackberry_prefixed_supported=Unknown
 |Blackberry_prefixed_version=
 |Chrome_mobile_supported=Yes
@@ -113,7 +113,7 @@ Note that setting a less than 1 value to this property creates a new stacking co
 |Opera_mobile_prefixed_supported=Unknown
 |Opera_mobile_prefixed_version=
 |Opera_mini_supported=Yes
-|Opera_mini_version=5.0
+|Opera_mini_version=5
 |Opera_mini_prefixed_supported=Unknown
 |Opera_mini_prefixed_version=
 |Safari_mobile_supported=Yes
