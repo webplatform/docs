@@ -1,0 +1,48 @@
+{{Page_Title}}
+{{Flags}}
+{{Standardization_Status|W3C Working Draft}}
+{{API_Name}}
+{{Summary_Section|Deletes a directory and all of its contents, if any. In the event of an error [e.g. trying to delete a directory that contains a file that cannot be removed], some of the contents of the directory may be deleted. It is an error to attempt to delete the root directory of a filesystem.}}
+{{API_Object_Method
+|Parameters={{Method Parameter
+|Name=successCallback
+|Data type=String
+|Description=A callback that is called on success.
+|Optional=No
+}}{{Method Parameter
+|Name=errorCallback
+|Data type=String
+|Description=A callback that is called when errors happen.
+|Optional=Yes
+}}
+|Method_applies_to=apis/filesystem/DirectoryEntry
+|Example_object_name=DirectoryEntry
+|Javascript_data_type=void
+}}
+{{Examples_Section
+|Not_required=Yes
+|Examples=
+}}
+{{Notes_Section}}
+{{Related_Specifications_Section
+|Specifications={{Related Specification
+|Name=W3C File API: Directories and System Specification
+|URL=http://dev.w3.org/2009/dap/file-system/pub/FileSystem/
+|Status=W3C Working Draft
+}}
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section}}
+{{Topics|FileSystemAPI}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
+}}
