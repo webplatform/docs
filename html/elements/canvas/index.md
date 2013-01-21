@@ -82,9 +82,6 @@
 |Note=Hardware accelerated
 }}
 }}
-{{See_Also_Section
-|Manual_links=http://docs.webplatform.org/wiki/canvas
-}}
 {{Topics|Canvas, HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
