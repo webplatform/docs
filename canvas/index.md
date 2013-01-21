@@ -1,1 +1,0 @@
-#REDIRECT [[html/elements/canvas]]
