@@ -20,6 +20,7 @@ Mediaqueries is a paradigm introduced in CSS3 for adapting the layout of a page 
 *[[CSS/Mediaqueries/resolution|resolution]]
 *[[CSS/Mediaqueries/scan|scan]]
 *[[CSS/Mediaqueries/grid|grid]]
+*[[CSS/Mediaqueries/view-mode|view-mode]]
 
 
 == See also ==
