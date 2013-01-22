@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic
+|Content=Incomplete, Compatibility Incomplete
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -29,109 +29,7 @@ xhr.onreadystatechange {{=}} handler;
 xhr.send();
 }}
 }}
-{{Notes_Section
-|Import_Notes====Members===
-The '''XMLHttpRequest''' object has these types of members:
-*[[#Events|Events]]
-*[[#Methods|Methods]]
-*[[#Properties|Properties]]
-
-
-====Events====
-The '''XMLHttpRequest''' object has these events.
-{{{!}} class="wikitable"
-{{!}}-
-!Event
-!Description
-{{!}}-
-{{!}}[[apis/xhr/events/readystatechange{{!}}'''onreadystatechange''']]
-{{!}}Sets or retrieves the event handler for asynchronous requests.
-{{!}}-
-{{!}}[[apis/xhr/events/timeout{{!}}'''ontimeout''']]
-{{!}}Raised when there is an error that prevents the completion of the request.
-{{!}}}
- 
-
-====Methods====
-The '''XMLHttpRequest''' object has these methods.
-{{{!}} class="wikitable"
-{{!}}-
-!Method
-!Description
-{{!}}-
-{{!}}'''abort'''
-{{!}}Cancels the current HTTP request.
-{{!}}-
-{{!}}[[dom/methods/addEventListener{{!}}'''addEventListener''']]
-{{!}}Registers an event handler for the specified event type.
-{{!}}-
-{{!}}[[dom/methods/dispatchEvent{{!}}'''dispatchEvent''']]
-{{!}}Sends an event to the current element.
-{{!}}-
-{{!}}'''getAllResponseHeaders'''
-{{!}}Returns the complete list of response headers.
-{{!}}-
-{{!}}'''getResponseHeader'''
-{{!}}Returns the specified response header.
-{{!}}-
-{{!}}'''open'''
-{{!}}Assigns method, destination URL, and other optional attributes of a pending request.
-{{!}}-
-{{!}}[[dom/methods/removeEventListener{{!}}'''removeEventListener''']]
-{{!}}Removes an event handler that  the  [[dom/methods/addEventListener{{!}}'''addEventListener''']] method registered.
-{{!}}-
-{{!}}'''send'''
-{{!}}Sends an HTTP request to the server and receives a response.
-{{!}}-
-{{!}}'''setRequestHeader'''
-{{!}}Adds custom HTTP headers to the request.
-{{!}}}
- 
-
-====Properties====
-The '''XMLHttpRequest''' object has these properties.
-{{{!}} class="wikitable"
-{{!}}-
-!Property
-!Description
-{{!}}-
-{{!}}[[dom/properties/constructor{{!}}'''constructor''']]
-{{!}}Returns a reference to the constructor of an object.
-{{!}}-
-{{!}}'''readyState'''
-{{!}}Retrieves the current state of the request operation.
-{{!}}-
-{{!}}[[apis/xhr/properties/response{{!}}'''response''']]
-{{!}}Returns the response received from the server.
-{{!}}-
-{{!}}[[apis/xhr/properties/responseBody{{!}}'''responseBody''']]
-{{!}}Retrieves the response body as an array of unsigned bytes. 
-
-This property is not available for Metro style apps using JavaScript.
-{{!}}-
-{{!}}'''responseText'''
-{{!}}Retrieves the response body as a string.
-{{!}}-
-{{!}}[[apis/xhr/properties/responseType{{!}}'''responseType''']]
-{{!}}Describes the data type of the response associated with the request.
-{{!}}-
-{{!}}'''responseXML'''
-{{!}}Retrieves the response body as an XML DOM object.
-{{!}}-
-{{!}}'''status'''
-{{!}}Retrieves the HTTP status code of the request.
-{{!}}-
-{{!}}'''statusText'''
-{{!}}Retrieves the friendly HTTP status of the request.
-{{!}}-
-{{!}}[[apis/xhr/properties/timeout{{!}}'''timeout''']]
-{{!}}Gets or sets the time-out value.
-{{!}}-
-{{!}}[[apis/xhr/properties/withCredentials{{!}}'''withCredentials''']]
-{{!}}Indicates whether user credentials should be included with the request.
-{{!}}}
- 
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=XMLHttpRequest
