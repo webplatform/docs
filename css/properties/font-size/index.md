@@ -11,7 +11,10 @@
 |Applies to=All elements
 |Inherited=Yes
 |Media=visual
-|Animatable=No
+|Computed value=absolute size in px units
+|Animatable=Yes
+|CSS object model property=fontSize
+|CSS percentages=???
 |Values={{CSS Property Value
 |Data Type=absolute-size
 |Description=Set of keywords that indicate predefined font sizes. Named font sizes scale according to the user's font setting preferences. Possible values include the following: xx-small, x-small, small, medium, large, x-large, xx-large.
