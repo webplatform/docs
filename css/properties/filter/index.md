@@ -13,7 +13,7 @@
 |CSS object model property=filter
 |Values={{CSS Property Value
 |Data Type=&lt;functions>
-|Description=Any combination of built-in filter functions: [[css/functions/blur|'''blur()''']], [[css/functions/brightness|'''brightness()''']], [[css/functions/contrast|'''contrast()''']], [[css/functions/drop-shadow|'''drop-shadow()''']], [[css/functions/grayscale|'''grayscale()''']], [[css/functions/hue-rotate|'''hue-rotate()''']], [[css/functions/invert|'''invert()''']], [[css/functions/opacity|'''opacity()''']], [[css/functions/saturate|'''saturate()''']], and [[css/functions/sepia|'''sepia()''']]
+|Description=Any combination of built-in filter functions, executed in sequence: [[css/functions/blur|'''blur()''']], [[css/functions/brightness|'''brightness()''']], [[css/functions/contrast|'''contrast()''']], [[css/functions/drop-shadow|'''drop-shadow()''']], [[css/functions/grayscale|'''grayscale()''']], [[css/functions/hue-rotate|'''hue-rotate()''']], [[css/functions/invert|'''invert()''']], [[css/functions/opacity|'''opacity()''']], [[css/functions/saturate|'''saturate()''']], and [[css/functions/sepia|'''sepia()''']]
 }}
 }}
 {{Examples_Section
