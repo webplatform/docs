@@ -33,6 +33,7 @@ For more information about the supported length units, see the CSS Values and Un
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=CSS
 |Description=The following examples use the '''font-size''' attribute and the '''font-size''' property to change font characteristics.
 
 This example sets the font size on several paragraphs using different size values.
