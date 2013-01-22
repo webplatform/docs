@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -30,22 +30,6 @@ xhr.send();
 }}
 }}
 {{Notes_Section
-|Notes=Windows Internet Explorer earlier than version 7 does not implement the native XMLHttpRequest object. The XMLHTTP ActiveX object emulates the same functionality. While the native XMLHttpRequest object also supports the use of expandos (custom properties) and properly recognizes the 'this' notation of JavaScript, the ActiveX version does not.
-To support versions of Windows Internet Explorer prior to Internet Explorer 7, use the following function to get the '''XMLHttpRequest''' object.
- <code>function getXMLHttpRequest() 
- {
-     if (window.XMLHttpRequest) {
-         return new window.XMLHttpRequest;
-     }
-     else {
-         try {
-             return new ActiveXObject("MSXML2.XMLHTTP.3.0");
-         }
-         catch (ex) {
-             return null;
-         }
-     }
- }</code>
 |Import_Notes====Members===
 The '''XMLHttpRequest''' object has these types of members:
 *[[#Events|Events]]
@@ -158,9 +142,35 @@ This property is not available for Metro style apps using JavaScript.
 }}
 {{Compatibility_Section
 |Not_required=No
-|Desktop_rows=
+|Imported_tables=
+|Desktop_rows={{Compatibility Table Desktop Row
+|Chrome_supported=Unknown
+|Chrome_version=
+|Chrome_prefixed_supported=Unknown
+|Chrome_prefixed_version=
+|Firefox_supported=Unknown
+|Firefox_version=
+|Firefox_prefixed_supported=Unknown
+|Firefox_prefixed_version=
+|Internet_explorer_supported=Unknown
+|Internet_explorer_version=
+|Internet_explorer_prefixed_supported=Unknown
+|Internet_explorer_prefixed_version=
+|Opera_supported=Unknown
+|Opera_version=
+|Opera_prefixed_supported=Unknown
+|Opera_prefixed_version=
+|Safari_supported=Unknown
+|Safari_version=
+|Safari_prefixed_supported=Unknown
+|Safari_prefixed_version=
+}}
 |Mobile_rows=
-|Notes_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=7 and earlier
+|Note=Windows Internet Explorer earlier than version 7 does not implement the native XMLHttpRequest object. The XMLHTTP ActiveX object emulates the same functionality. While the native XMLHttpRequest object also supports the use of expandos (custom properties) and properly recognizes the 'this' notation of JavaScript, the ActiveX version does not. To support versions of Windows Internet Explorer prior to Internet Explorer 7, use the following function to get the '''XMLHttpRequest''' object.  <code>function getXMLHttpRequest()   {      if (window.XMLHttpRequest) {          return new window.XMLHttpRequest;      }      else {          try {              return new ActiveXObject("MSXML2.XMLHTTP.3.0");          }          catch (ex) {              return null;          }      }  }</code>
+}}
 }}
 {{See_Also_Section}}
 {{Topics|DOM, XHR}}
