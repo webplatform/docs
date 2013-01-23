@@ -349,7 +349,7 @@ points:
 The '''transitionend''' event allows an application to respond after a
 transition finishes executing.  The event fires on the element that is
 being transitioned, once for each property, and ''only'' if the
-specified transition actually changes content.
+specified transition actually modifies content.
 
 In this example, applying a ''display'' class makes an information
 panel appear:
