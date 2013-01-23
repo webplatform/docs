@@ -2,25 +2,15 @@
 {{Flags}}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|The geolocation API is published through a Geolocation child object within the navigator object.  If the object exists, geolocation services are available.}}
+{{Summary_Section|The Geolocation object is used by scripts to programmatically determine the location information associated with the hosting device. The location information is acquired by applying a user-agent specific algorithm, creating a Position object, and populating that object with appropriate data accordingly.}}
 {{API_Object}}
 {{Examples_Section
 |Not_required=Yes
 |Examples=
 }}
 {{Notes_Section
-|Usage=You can test for the presence of geolocation thusly:
-
-<code>
-if ("geolocation" in navigator) {
-  /* geolocation is available */
-} else {
-  alert("I'm sorry, but geolocation services are not supported by your browser.");
-}
-</code>
-|Notes=Windows Internet Explorer 9.  The '''geolocation''' object is only supported for webpages displayed in IE9 Standards mode. For more information, see Defining Document Compatibility.
-The '''geolocation object''' is not supported for applications hosting the WebBrowser Control.
-
+|Notes=Windows Internet Explorer 9.  The '''Geolocation''' object is only supported for webpages displayed in IE9 Standards mode. For more information, see Defining Document Compatibility.
+The '''Geolocation''' object is not supported for applications hosting the WebBrowser Control.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
