@@ -39,7 +39,12 @@ Filters apply to any graphic effect the element renders, such as
 borders, background images, scrollbars, letterforms, text selections,
 even videos.  Each filter also applies to the cumulative effect of
 previously declared filters. (The same function may be applied
-repeatedly.)
+repeatedly.) Both the [[css/functions/blur|'''blur()''']] and
+[[css/functions/drop-shadow|'''drop-shadow()''']]
+filters may render pixels outside the original content box.
+When paired with other CSS properties such as 
+[[css/properties/opacity|'''opacity''']], these pixels may
+become clipped.
 
 Filter effects may be specified as part of dynamic
 [[tutorials/css_transitions#advanced|transitions]] and
@@ -47,13 +52,6 @@ Filter effects may be specified as part of dynamic
 of functions in each set of style sheets must match, with no
 transitions allowed from implied default values. In addition, each
 style sheet must declare the exact same sequence of functions.
-
-Both the [[css/functions/blur|'''blur()''']] and
-[[css/functions/drop-shadow|'''drop-shadow()''']]
-filters may render pixels outside the original content box.
-When paired with other CSS properties such as 
-[[css/properties/opacity|'''opacity''']], these pixels may be
-clipped.
 
 ==Built-in filter functions==
 
