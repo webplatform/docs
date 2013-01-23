@@ -59,9 +59,10 @@ The operators <code>and</code> and <code>or</code> allows to chain the detection
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Yes
-|Chrome_version=24
+|Chrome_supported=No
+|Chrome_version=
 |Chrome_prefixed_supported=No
 |Chrome_prefixed_version=
 |Firefox_supported=Yes
