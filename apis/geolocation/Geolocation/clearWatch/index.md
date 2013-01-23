@@ -13,7 +13,7 @@
 |Method_applies_to=apis/geolocation/Geolocation
 |Example_object_name=Geolocation
 |Return_value_name=object
-|Javascript_data_type=DOM Node
+|Javascript_data_type=void
 |Return_value_description=Type: '''HRESULT'''
 
 If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRESULT''' error code.
