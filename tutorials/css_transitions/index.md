@@ -405,7 +405,7 @@ results in a cross-fade effect. Changing style sheets such as the
 following can thus drive an image gallery interface:
 
  div[data-img="4"] { background-image : url("Image04.jpg"); }
- div[data-img="5"]  { background-image : url("Image05.jpg"); }
+ div[data-img="5"] { background-image : url("Image05.jpg"); }
 
 [[Image:fade.png]]
 
