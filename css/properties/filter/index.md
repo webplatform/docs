@@ -41,8 +41,8 @@ even videos.  Each filter also applies to the cumulative effect of
 previously declared filters. (The same function may be applied
 repeatedly.) Both the [[css/functions/blur|'''blur()''']] and
 [[css/functions/drop-shadow|'''drop-shadow()''']]
-filters may render pixels outside the original content box.
-When paired with other CSS properties such as 
+filters may render pixels outside the original content box,
+and when paired with other CSS properties such as 
 [[css/properties/opacity|'''opacity''']], these pixels may
 become clipped.
 
