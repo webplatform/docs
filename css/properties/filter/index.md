@@ -48,6 +48,12 @@ of functions in each set of style sheets must match, with no
 transitions allowed from implied default values. In addition, each
 style sheet must declare the exact same sequence of functions.
 
+Both the [[css/functions/blur|'''blur()''']] and
+[[css/functions/drop-shadow|'''drop-shadow()''']]
+filters may render pixels outside the original content box.
+When paired with other CSS properties such as 
+[[css/properties/opacity]], these pixels may be clipped.
+
 ==Built-in filter functions==
 
 The following examples show the effect of each filter function applied
