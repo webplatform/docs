@@ -6,7 +6,7 @@
 {{API_Name}}
 {{Summary_Section|The CSS <code>@supports</code> at-rule lets authors detect support of CSS features directly in CSS.}}
 {{CSS_At_Rule
-|Content=The CSS at-rule <code>@supports</code> is part of the [http://dev.w3.org/csswg/css3-conditional/ CSS Conditional Rules Module Level 3] Editor's Draft. It allows authors to condition rules based on whether particular property declarations are supported in CSS.
+|Content=The CSS at-rule <code>@supports</code> is part of the [http://dev.w3.org/csswg/css3-conditional/ CSS Conditional Rules Module Level 3] Draft. It allows authors to condition rules based on whether particular property declarations are supported in CSS.
 
 In other words <code>@supports</code> lets you detect browser support of CSS features directly in CSS. [http://modernizr.com/ Modernizr] is a well known library that detects features using JavaScript.
 
@@ -87,11 +87,11 @@ The operators <code>and</code> and <code>or</code> allows to chain the detection
 }}
 {{See_Also_Section
 |Topic_clusters=Syntax
-|External_links=* [https://developer.mozilla.org/en-US/docs/CSS/@supports @supports in the MDN]
+|External_links=* [http://dev.w3.org/csswg/css3-conditional/#at-supports @supports in the CSS Conditional Rules Editor's Draft]
+* [https://developer.mozilla.org/en-US/docs/CSS/@supports @supports in the MDN]
 * [http://dabblet.com/gist/3895764 Test-case]
-* [http://dev.w3.org/csswg/css3-conditional/#at-supports @supports in the CSS Conditional Rules Editor's Draft]
 * [http://mcc.id.au/blog/2012/08/supports On Firefox' support in version 17]
-* [http://my.opera.com/desktopteam/blog/2012/10/09/flexbox-and-supports Support in Opera 12.1 (still in beta)]
+* [http://my.opera.com/desktopteam/blog/2012/10/09/flexbox-and-supports Support in Opera 12.1]
 }}
 {{Topics|CSS}}
 {{External_Attribution
