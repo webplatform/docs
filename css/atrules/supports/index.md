@@ -83,7 +83,11 @@ The operators <code>and</code> and <code>or</code> allows to chain the detection
 |Safari_prefixed_version=
 }}
 |Mobile_rows=
-|Notes_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Firefox
+|Version=17+
+|Note=It's disabled by default in the release and beta builds. 
+}}
 }}
 {{See_Also_Section
 |Topic_clusters=Syntax
