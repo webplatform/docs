@@ -52,7 +52,8 @@ Both the [[css/functions/blur|'''blur()''']] and
 [[css/functions/drop-shadow|'''drop-shadow()''']]
 filters may render pixels outside the original content box.
 When paired with other CSS properties such as 
-[[css/properties/opacity]], these pixels may be clipped.
+[[css/properties/opacity|'''opacity''']], these pixels may be
+clipped.
 
 ==Built-in filter functions==
 
