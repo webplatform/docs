@@ -297,7 +297,7 @@ response easier to visualize.  Here is the basic set of keyword values
 along with their alternate '''cubic-bezier()''' functions.  The
 animation's elapsed time and progress correspond to ''x'' and ''y''
 axes, so the more the line curves vertically along the way, the faster
-it moves:
+the animation proceeds:
 
 <div style="display:inline-block">
 [[Image:transitF_linear.png]] <br/>
@@ -440,7 +440,6 @@ Unlike [[css/properties/transform|'''transform''']] functions,
 [[css/properties/filter|'''filter''']] functions must be explictly
 declared in each style sheet in the exact same order if they are to
 transition.
-
 }}
 {{Notes_Section}}
 {{Compatibility_Section
