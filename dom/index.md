@@ -19,8 +19,6 @@ The Document Object Model (DOM) is an application programming interface (API) fo
     </div>
   
   </div>
-  
-  </div>
 
   
     <div class="short-topic">
