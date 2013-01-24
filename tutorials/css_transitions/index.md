@@ -389,7 +389,10 @@ class to revert the element back to its original state:
      e.currentTarget.classList.remove('display');
  }
 
-Note the various provisional names for the event: '''webkitTransitionEnd''' (WebKit), '''otransitionend''' (old Opera), along with the standard '''transitionend''' (Gecko, Opera 12.10+, Internet Explorer).
+Note the various provisional names for the event:
+'''webkitTransitionEnd''' (WebKit), '''otransitionend''' (old Opera),
+along with the standard '''transitionend''' (Gecko, Opera 12.10+,
+Internet Explorer).
 
 <span id="advanced"></span>
 
