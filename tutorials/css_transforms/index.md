@@ -343,9 +343,9 @@ The [[css/functions/scale3d()|'''scale3d()''']] function accepts three
 ''x'', ''y'' and ''z'' measurements, otherwise they can be specified
 separately with [[css/functions/scaleX()|'''scaleX()''']],
 [[css/functions/scaleY()|'''scaleY()''']], and
-[[css/functions/scaleZ()|'''scaleZ()''']].  (Unlike straightforward
-''x'' and ''y'' measurements, the ''z'' measurement closes the
-distance to transformed children.)
+[[css/functions/scaleZ()|'''scaleZ()''']]. Scaling along the ''z''
+axis ordinarily has no effect for flat web content, but does affect
+the sort of nested 3D objects described in the next section.
 
 The [[css/properties/transform-origin|'''transform-origin''']]
 property accepts an additional third '''z''' measurement to place the
@@ -387,10 +387,12 @@ face the other way. As described below, you can rotate the entire
 card along with its children. In this case, with the backface hidden,
 only one of the child ''face'' elements displays at a time:
 
- &lt;div class="card">
-   &lt;div class="face" id="jackheart">&lt;/div>
-   &lt;div class="face">&lt;/div>
- &lt;/div>
+<syntaxhighlight lang="xml">
+ <div class="card">
+   <div class="face" id="jackheart"></div>
+   <div class="face"></div>
+ </div>
+</syntaxhighlight>
 
 [[Image:3d_backface.png]]
 
@@ -447,18 +449,20 @@ To clarify how to use this feature, this extended example builds a
 cube representing playing dice that can spin freely. The markup
 is implemented as a series of nested elements:
 
- &lt;div class="scene">
-     &lt;div class="dice">
-         &lt;div class="centered">
-             &lt;div class="face">&lt;/div>
-             &lt;div class="face">&lt;/div>
-             &lt;div class="face">&lt;/div>
-             &lt;div class="face">&lt;/div>
-             &lt;div class="face">&lt;/div>
-             &lt;div class="face">&lt;/div>
-         &lt;/div>
-     &lt;/div>
- &lt;/div>
+<syntaxhighlight lang="xml">
+ <div class="scene">
+     <div class="dice">
+         <div class="centered">
+             <div class="face"></div>
+             <div class="face"></div>
+             <div class="face"></div>
+             <div class="face"></div>
+             <div class="face"></div>
+             <div class="face"></div>
+         </div>
+     </div>
+ </div>
+</syntaxhighlight>
 
 Global styles define absolutely positioned 100-pixel-square boxes. The
 outlines will help clarify each nested transform:
@@ -587,6 +591,16 @@ object. Here is how a script can control the spin:
  function spin() { return( Math.floor( Math.random() * 360 ) + 'deg') }
 
 [[Image:3Dnest_spin.png]]
+
+Once such a complex 3D object takes up space, the effect of the
+[[css/functions/scaleZ()|'''scaleZ()''']] or
+[[css/functions/scale3d()|'''scale3d()''']] functions becomes
+apparent.  An animated transition between '''scale3d(0,0,0)''' and
+'''scale3d(1,1,1)''' sizes the object in all three dimensions:
+
+[[Image:scaleZ.png]]
+
+
 }}
 {{Notes_Section}}
 {{Compatibility_Section
