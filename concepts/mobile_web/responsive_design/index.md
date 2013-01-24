@@ -13,7 +13,7 @@ The term was coined by Ethan Marcotte in [http://www.alistapart.com/articles/res
 
 To get a sense of what RWD means it's best to see it in action. There are lots of examples of sites using responsive design at [http://mediaqueri.es/ mediaqueri.es]: try opening these sites in a desktop browser and resizing the browser window.
 
-[[File:marcotte.jpg|alt=Ethan Marcotte's article on A List Apart]]
+[[File:marcotte.jpg|thumb|left|alt=Ethan Marcotte's article on A List Apart]]
 
 Earlier web designers had discovered the advantages of [http://csszengarden.com/ separating content from layout] as well as using [http://www.maxdesign.com.au/articles/liquid/ liquid layout] and [http://coding.smashingmagazine.com/2009/06/02/fixed-vs-fluid-vs-elastic-layout-whats-the-right-one-for-you/ hybrid techniques] as opposed to static, 'pixel perfect' attempts to mimic Photoshop and print media. As John Allsopp wrote in [http://www.alistapart.com/articles/dao/ The Dao of Web Design]: 'Now is the time for the medium of the web to outgrow its origins in the printed page.'
 
@@ -25,7 +25,7 @@ Maintaining a parallel 'mdot' website for mobile platforms -- for example, servi
 
 Even if you only have one site, but you serve different content to different devices, you always risk alienating someone. Trent Walton gives a good example of this in the [http://www.smashingmagazine.com/the-mobile-book Smashing Mobile Book]: his favourite news website removed the pollen report from its mobile version, which was the information that meant most to him. The moral of this tale is: best not to guess what content or features your users won't miss.
 
-[[File:mobile_book.png|alt=Smashing Mobile Book]]
+[[File:mobile_book.jpg|thumb|left|alt=Smashing Mobile Book]]
 
 Consistent content is king! Responsive design can be used to give all your users access to all your site's or app's content and features.
 
