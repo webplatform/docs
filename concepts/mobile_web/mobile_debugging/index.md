@@ -313,7 +313,7 @@ Resources for finding information about web development, and how to help others:
 |Specifications=
 }}
 {{See_Also_Section}}
-{{Topics|Developer Tools, Mobile}}
+{{Topics|Mobile}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
