@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page_Title|Cross browser techniques}}
 {{Flags}}
 {{Summary_Section|This pages lists article related to making web pages and applications work better across different browsers, from mobile browsers, to older browsers that we may be called upon to support.}}
 {{Basic Page}}
