@@ -221,7 +221,7 @@ makes it appear to tip over:
 
  div {
     transform          : skewX(15deg);
-    transform-origin : bottom;
+    transform-origin   : bottom;
  }
 
 [[Image:origin_skew.png]]
