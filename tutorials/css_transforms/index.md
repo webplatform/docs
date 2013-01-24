@@ -18,9 +18,7 @@ into three-dimensional space.  It ends with step-by-step instructions
 to spin a cube in space.
 }}
 {{Tutorial
-|Content=
-
-These key points serve as reference:
+|Content=These key points serve as reference:
 
 * The [[css/properties/transform|'''transform''']] property specifies a set of transform functions.
 
@@ -223,6 +221,7 @@ makes it appear to tip over:
 
  div {
     transform          : skewX(15deg);
+    transform-origin : bottom;
  }
 
 [[Image:origin_skew.png]]
