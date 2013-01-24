@@ -76,7 +76,7 @@ Our general web concepts are concept and tutorial articles covering general subj
     <div class="image icon-concept"></div>
     
     <div class="inner">
-    <h3>[[concepts/cross browser|Cross browser techniques]]</h3>
+    <h3>[[concepts/cross browser techniques|Cross browser techniques]]</h3>
     
     <p>Articles covering concepts related to making sites work better across different browsers, modern and old.</p>
     </div>
