@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Apply pixel-level image processing effects}}
+{{Summary_Section|Applies various image processing effects.}}
 {{CSS Property
 |Initial value=none
 |Applies to=All elements
