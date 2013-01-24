@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Initiates the request defined by the XMLHttpRequest, with an optional request body set as parameter.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=varBody
@@ -15,6 +15,7 @@
 }}
 |Method_applies_to=apis/xhr/objects/XMLHttpRequest
 |Example_object_name=xhr
+|Javascript_data_type=void
 |Return_value_description=This method does not return a value.
 }}
 {{Examples_Section
