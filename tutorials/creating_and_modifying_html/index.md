@@ -1,5 +1,6 @@
 {{Page_Title|Creating and modifying HTML}}
-{{Flags}}
+{{Flags
+}}
 {{Byline}}
 {{Summary_Section|when you've targetted an HTML element using JavaScript, how do modify it, and create new HTML nearby? This article shows you how.}}
 {{Tutorial
