@@ -1,6 +1,6 @@
 {{Page_Title|Manipulating content with CSS3 transforms}}
 {{Flags
-|Editorial notes=Still to do: conclusion; clarify perspective() and scaleZ() functions; possibly media queries; live samples. Contact [[User:Sierra]] and see bug [https://www.w3.org/Bugs/Public/show_bug.cgi?id=20410 #20410].
+|Editorial notes=Still to do: conclusion; clarify perspective() function; live samples. Contact [[User:Sierra]] and see bug [https://www.w3.org/Bugs/Public/show_bug.cgi?id=20410 #20410].
 }}
 {{Byline
 |Name=Mike Sierra
@@ -599,8 +599,6 @@ apparent.  An animated transition between '''scale3d(0,0,0)''' and
 '''scale3d(1,1,1)''' sizes the object in all three dimensions:
 
 [[Image:scaleZ.png]]
-
-
 }}
 {{Notes_Section}}
 {{Compatibility_Section
