@@ -2,11 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Controls whether the last ''region'' in a chain displays additional
-''overset'' content according its default
-[[css/properties/overflow|'''overflow''']] property, or	if it displays
-a fragment of content as if it were flowing into a subsequent region.
-}}
+{{Summary_Section|Controls whether the last ''region'' in a chain displays additional ''overset'' content according its default [[css/properties/overflow|'''overflow''']] property, or	if it displays a fragment of content as if it were flowing into a subsequent region.}}
 {{CSS Property
 |Initial value=auto
 |Applies to=CSS Regions
