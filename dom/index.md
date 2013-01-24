@@ -20,29 +20,6 @@ The Document Object Model (DOM) is an application programming interface (API) fo
   
   </div>
   
-  <div class="short-topic">
-  
-    <div class="image icon-dom"></div>
-    
-    <div class="inner">
-    <h3>[[dom/language basics|Language features]]</h3>
-    
-    <p>A reference guide to DOM fundamental concepts.</p>
-    </div>
-  
-  </div>
-
-  
-    <div class="short-topic">
-  
-    <div class="image icon-dom"></div>
-    
-    <div class="inner">
-    <h3>[[javascript/dom|Objects]]</h3>
-    
-    <p>A reference guide to all the core DOM objects.</p>
-    </div>
-  
   </div>
 
   
