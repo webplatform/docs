@@ -124,7 +124,7 @@ the document shuffles their order within the output region:
  <article> source #2 </article>
  <article> source #3 </article>
  <div class="region"> </div>
-</stntaxhighlight>
+</syntaxhighlight>
 
 
 ==Controlling region breaks==
