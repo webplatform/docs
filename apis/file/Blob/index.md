@@ -58,8 +58,8 @@ reading '''Blob''' data will).
 |Blackberry_version=10.0
 |Blackberry_prefixed_supported=Unknown
 |Blackberry_prefixed_version=
-|Chrome_mobile_supported=Unknown
-|Chrome_mobile_version=
+|Chrome_mobile_supported=Yes
+|Chrome_mobile_version=18
 |Chrome_mobile_prefixed_supported=Unknown
 |Chrome_mobile_prefixed_version=
 |Firefox_mobile_supported=Unknown
@@ -83,7 +83,11 @@ reading '''Blob''' data will).
 |Safari_mobile_prefixed_supported=Unknown
 |Safari_mobile_prefixed_version=
 }}
-|Notes_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Chrome on Android
+|Version=18
+|Note=while window.Blob is defined, it can't be used as a constructor; you should fallback on BlobBuilder
+}}
 }}
 {{See_Also_Section}}
 {{Topics|FileAPI}}
