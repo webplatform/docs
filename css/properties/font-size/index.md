@@ -57,16 +57,13 @@ This example sets the font size on several paragraphs using different size value
 
 While the initial '''medium''' size applies widely, browsers apply a default style sheet that modifies it for various semantic elements, boosting the size of headings, for example. Browsers also automatically resize fonts when zooming the page, stepping by values that may not correspond exactly to the zoom factor. Unless disabled using [[css/properties/text-size-adjust|'''text-size-adjust''']], fonts also resize when tipping between portrait and landscape orientations on mobile browsers. For an overview of the issue, see [[tutorials/mobile_viewport|The Mobile Viewport and Orientation]].
 
-
-
-The value of ''font-size'' also affects the value of [[css/properties/line-height|'''line-height''']] when using its default or relative measurements.
+The value of '''font-size''' also affects the value of [[css/properties/line-height|'''line-height''']] when using its default or relative measurements.
 
 Along with many other CSS properties, '''font-size''' can also be applied directly as an SVG attribute:
 
 <syntaxhighlight lang="xml">
 <text x="12px" y="12px" font-family="sans-serif" font-size="120%"/>
 </syntaxhighlight>
-
 |Notes====Remarks===
 Negative values are not allowed. Font sizes using the proportional "em" measure are based on the font size of the parent object.
 As of Microsoft Internet Explorer 6, when you use the [[html/elements/!DOCTYPE|!DOCTYPE]] declaration to specify standards-compliant mode, the default value for this property is <code>medium</code>, not <code>small</code>.
