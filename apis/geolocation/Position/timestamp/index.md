@@ -5,7 +5,7 @@
 {{Summary_Section|Represents the time when the Position object was acquired, represented as a ''DOMTimeStamp''.}}
 {{API_Object_Property
 |Property_applies_to=apis/geolocation/Position
-|Read_only=No
+|Read_only=Yes
 |Example_object_name=Position
 |Return_value_description=DOMTimeStamp
 }}
