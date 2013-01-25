@@ -5,13 +5,13 @@
 {{Concept_Page
 |Content=Responsive Web Design (RWD for short) is an approach that emphasises design which works well across a variety of devices and browsing contexts -- without serving different content for each different operating system, device, browser, display size or pixel density.
 
+[[File:marcotte.jpg|thumb|left|400px|Ethan Marcotte's article for A List Apart|alt=Ethan Marcotte's article for A List Apart]]
+
 The term was coined by Ethan Marcotte in [http://www.alistapart.com/articles/responsive-web-design/ an article on A List Apart], who suggested three methods to cope with different browser window sizes:
 
 * Fluid grids (layout that adjusts to fit the viewport)
 * Flexible images (images that [http://www.alistapart.com/articles/dao/ adjust to fit])
 * CSS [http://css-tricks.com/css-media-queries/ Media Queries]
-
-[[File:marcotte.jpg|thumb|left|400px|Ethan Marcotte's article for A List Apart|alt=Ethan Marcotte's article for A List Apart]]
 
 To get a sense of what RWD means it's best to see it in action. There are lots of examples of sites using responsive design at [http://mediaqueri.es/ mediaqueri.es]: open the sites listed on mediaqueri.es in a desktop browser and try resizing the browser window.
 
@@ -31,9 +31,9 @@ Consistent content is king! Responsive design can be used to give all your users
 
 == Workflow and process ==
 
-For RWD to work, everyone involved in the production process must collaborate, including designers, coders, writers, illustrators and business managers. Different workers have may have different skills, but good design has to be holistic.
-
 [[File:responsive_comping.jpg|thumb|left|300px|Responsive Comping article by Matt Griffin|alt=Responsive Comping article by Matt Griffin]]
+
+For RWD to work, everyone involved in the production process must collaborate, including designers, coders, writers, illustrators and business managers. Different workers have may have different skills, but good design has to be holistic.
 
 Web content is consumed via an increasing variety of software and hardware, with different display sizes, input methods and usage contexts. This means that style guides should avoid fixed sizes and positioning. Trent Walton refers to this new way of method of design as 'a network of content that can be rearranged at any screen size to best convey the message'.
 
@@ -101,9 +101,9 @@ You can use media queries to apply different stylesheets:
 
 ==== Breakpoints ====
 
-'Breakpoint' is CSS-speak for the dimensions at which a different sets of style rules should be applied. Layout are liable to 'break' at particular sizes: for example, two 350px-wide images side by side with no padding or margin might overlap horizontally when the width of the viewport goes below 700px.
-
 [[File:mediaqueri.es.png|thumb|left|400px|mediaqueri.es site|alt=mediaqueri.es site]]
+
+'Breakpoint' is CSS-speak for the dimensions at which a different sets of style rules should be applied. Layout are liable to 'break' at particular sizes: for example, two 350px-wide images side by side with no padding or margin might overlap horizontally when the width of the viewport goes below 700px.
 
 There are two ways to work out breakpoints:
 
@@ -140,9 +140,9 @@ W3C Recommendation: [http://www.w3.org/TR/css3-mediaqueries/ w3.org/TR/css3-medi
 
 == Testing ==
 
-For responsive design to work well, it is especially important to test sites and applications at different viewport sizes.
-
 [[File:responsivepx.png|thumb|left|500px|Remy Sharp's responsivepx tool|alt=Remy Sharp's responsivepx tool]]
+
+For responsive design to work well, it is especially important to test sites and applications at different viewport sizes.
 
 Remy Sharp's [http://responsivepx.com/?simpl.info#640x480&scrollbars responsivepx] makes it possible to adjust viewport width and height values, in order to find the [https://docs.google.com/a/google.com/document/d/1wciRNw81BdIbuwzJJzcGJVhzkOvm1AZwS0KgULZAiZw/edit#heading=h.umsakrrk7jlc breakpoints] at which responsive layouts need to change. 
 
