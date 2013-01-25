@@ -17,14 +17,29 @@
 |CSS percentages=???
 |Values={{CSS Property Value
 |Data Type=absolute-size
-|Description=Set of keywords that indicate predefined font sizes. Named font sizes scale according to the user's font setting preferences. Possible values include the following: xx-small, x-small, small, medium, large, x-large, xx-large.
+|Description=A set of keywords indicating predefined font sizes that scale according to font setting preferences or each browser's default values. From small to large, possible values are '''xx-small''', '''x-small''', '''small''', '''medium''', '''large''', '''x-large''', and '''xx-large'''.
+
 }}{{CSS Property Value
 |Data Type=relative-size
-|Description=Set of keywords that are interpreted as relative to the font size of the parent object. Possible values include the following: smaller, larger.
+|Description=A set of keywords interpreted relative to the parent element's '''font-size''', either '''smaller''' or '''larger'''.
+
 }}{{CSS Property Value
 |Data Type=length
-|Description=Floating-point number, followed by an absolute units designator (<code>cm</code>, <code>mm</code>, <code>in</code>, <code>pt</code>, or <code>pc</code>) or a relative units designator (<code>em</code>, <code>ex</code>, or <code>px</code>).
-For more information about the supported length units, see the CSS Values and Units Reference.
+|Description=A positive numeric value followed by a string designating absolute units ([[css/units/cm|'''cm''']],
+[[css/units/mm|'''mm''']],
+[[css/units/in|'''in''']],
+[[css/units/pt|'''pt''']],
+[[css/units/pc|'''pc''']]) or relative units ([[css/units/px|'''px''']],
+[[css/units/rem|'''rem''']],
+[[css/units/em|'''em''']],
+[[css/units/ex|'''ex''']],
+[[css/units/vw|'''vw''']],
+[[css/units/vh|'''vh''']],
+[[css/units/vmin|'''vmin''']]]). Proportional [[css/units/em|'''em''']] and [[css/units/ex|'''ex''']] measurements are based on the parent element's '''font-size''', while [[css/units/rem|'''rem''']] measurements are based on that of the root element.
+
+
+
+
 }}{{CSS Property Value
 |Data Type=percentage
 |Description=Integer, followed by a percent (%). The value is a percentage of the parent object's font size. In Internet Explorer 3.0, the value is calculated as a percentage of the default font size.
