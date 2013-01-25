@@ -30,7 +30,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Description=Redefine the typical 16px default '''medium''' value as '''10px''', then redefine other tags in proportion to the root:
+|Description=Redefine the typical '''16px''' default '''medium''' value as '''10px''', then redefine other tags in proportion to the root:
 |Code=html { font-size: 62.5%; } /* 16 * 62.5% == 10 */
 
 h1 { font-size: 3.6rem }   /* 36px */
@@ -39,7 +39,7 @@ p  { font-size: 1.4rem }   /* 14px */
 }}{{Single Example
 |Language=HTML
 |Description=The interactive utility demonstrates absolute values applied to a block of text, and relative values applied to the first sentence.
-|Code=<p>See live example above.</p>
+|Code=See live example above.
 |LiveURL=http://letmespellitoutforyou.com/x/webplatform/fontSize.html
 }}
 }}
@@ -57,7 +57,15 @@ Along with many other CSS properties, '''font-size''' can also be applied direct
 </syntaxhighlight>
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Fonts Module Level 3
+|URL=http://www.w3.org/TR/css3-fonts/#font-size-prop
+|Status=Working Draft
+}}{{Related Specification
+|Name=CSS Values and Units Module Level 3
+|URL=http://www.w3.org/TR/css3-values/
+|Status=Candidate Recommendation
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -118,7 +126,11 @@ Along with many other CSS properties, '''font-size''' can also be applied direct
 |Safari_mobile_prefixed_supported=No
 |Safari_mobile_prefixed_version=
 }}
-|Notes_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=6.0
+|Note=Requires a !DOCTYPE declaration that triggers standards mode, otherwise the initial value is small rather than medium.
+}}
 }}
 {{See_Also_Section
 |Topic_clusters=CSS Font, Fonts, Text
