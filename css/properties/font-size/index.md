@@ -55,20 +55,6 @@ Along with many other CSS properties, '''font-size''' can also be applied direct
 <syntaxhighlight lang="xml">
 <text x="12px" y="12px" font-family="sans-serif" font-size="120%"/>
 </syntaxhighlight>
-|Notes====Remarks===
-Negative values are not allowed. Font sizes using the proportional "em" measure are based on the font size of the parent object.
-As of Microsoft Internet Explorer 6, when you use the [[html/elements/!DOCTYPE|!DOCTYPE]] declaration to specify standards-compliant mode, the default value for this property is <code>medium</code>, not <code>small</code>.
-Possible length values specified in a relative measurement, using the height of the element's font (em) or the height of the letter "x" (ex), are supported in Microsoft Internet Explorer 4.0 and later.
-|Import_Notes====Syntax===
-<code>'''font-size: '''''
-&lt;absolute-size&gt;
-'' '''{{!}}''' ''
-&lt;relative-size&gt;
-'' '''{{!}}''' ''
-&lt;length&gt;
-'' '''{{!}}''' ''
-&lt;percentage&gt;
-''</code>
 }}
 {{Related_Specifications_Section
 |Specifications=
