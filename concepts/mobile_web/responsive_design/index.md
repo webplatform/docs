@@ -142,11 +142,14 @@ W3C Recommendation: [http://www.w3.org/TR/css3-mediaqueries/ w3.org/TR/css3-medi
 
 For responsive design to work well, it is especially important to test sites and applications at different viewport sizes.
 
-Remy Sharp's [http://responsivepx.com/?simpl.info#640x480&scrollbars responsivepx] makes it possible to adjust viewport width and height values, in order to find the [https://docs.google.com/a/google.com/document/d/1wciRNw81BdIbuwzJJzcGJVhzkOvm1AZwS0KgULZAiZw/edit#heading=h.umsakrrk7jlc breakpoints] at which responsive layouts need to change. Brad Frost's [http://bradfrostweb.com/demo/ish/ ish] resizer emphasises that breakpoints should be based on content rather than nominal device dimensions.
+[[File:responsivepx.png|thumb|left|500px|Remy Sharp's responsivepx tool|alt=Remy Sharp's responsivepx tool]]
 
-[[File:responsivepx.png|left|500px|Remy Sharp's responsivepx tool|alt=Remy Sharp's responsivepx tool]]
+Remy Sharp's [http://responsivepx.com/?simpl.info#640x480&scrollbars responsivepx] makes it possible to adjust viewport width and height values, in order to find the [https://docs.google.com/a/google.com/document/d/1wciRNw81BdIbuwzJJzcGJVhzkOvm1AZwS0KgULZAiZw/edit#heading=h.umsakrrk7jlc breakpoints] at which responsive layouts need to change. 
 
-[[File:ish.png|left|500px|Brad Frost's ish resizer|alt=Brad Frost's ish resizer]]
+[[File:ish.png|thumb|500px|Brad Frost's ish resizer|alt=Brad Frost's ish resizer]]
+
+Brad Frost's [http://bradfrostweb.com/demo/ish/ ish] resizer emphasises that breakpoints should be based on content rather than nominal device dimensions.
+
 
 For responsive typography, [http://www.webtypography.net/Rhythm_and_Proportion/Horizontal_Motion/2.1.2/ designers have found] that body text should generally have between 45 and 75 characters per line. A simple trick for testing layouts [http://trentwalton.com/2012/06/19/fluid-type/ suggested by Trent Walton], is to add an asterisk to lorem text after 45 and 75 characters. If both asterisks appear on the same line at a particular viewport width, the font size needs to be changed.
 
@@ -195,9 +198,9 @@ Brad Frost: list of RWD [http://bradfrost.github.com/this-is-responsive/resource
 
 === RWD opt out ===
 
-Bruce Lawson and other developers have suggested that it might be appropriate to give users the option to opt out of RWD: his [http://www.brucelawson.co.uk/2013/turning-off-responsive-web-design/ blog post] on the subject, has links to articles explaining techniques for enabling this.
+[[File:bruce_lawson.png|thumb|left|300px|Bruce Lawson blog post: opting out of RWD|alt=Bruce Lawson blog post: opting out of RWD]]
 
-[[File:bruce_lawson.png|thumb|left|Bruce Lawson blog post: opting out of RWD|alt=Bruce Lawson blog post: opting out of RWD]]
+Bruce Lawson and other developers have suggested that it might be appropriate to give users the option to opt out of RWD: his [http://www.brucelawson.co.uk/2013/turning-off-responsive-web-design/ blog post] on the subject, has links to articles explaining techniques for enabling this.
 
 == Further reading ==
 
