@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|This property is used to specify the size of text.}}
+{{Summary_Section|Specifies the size of text. Sets the font size of the element to which it is applied, and its descendants. Can size text using absolute measurements, or relative to the parent or root elements. [[guides/css_text_styling_fundamentals|CSS Text Styling Fundamentals]] provides an overview.}}
 {{CSS Property
 |Initial value=medium
 |Applies to=All elements
@@ -142,7 +142,6 @@ Possible length values specified in a relative measurement, using the height of 
 *<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
 *<code>[[css/cssom/style|style]]</code>
 *<code>[[css/properties/font|font]]</code>
-
 }}
 {{Topics|CSS}}
 {{External_Attribution
