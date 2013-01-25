@@ -11,9 +11,9 @@ The term was coined by Ethan Marcotte in [http://www.alistapart.com/articles/res
 * Flexible images (images that [http://www.alistapart.com/articles/dao/ adjust to fit])
 * CSS [http://css-tricks.com/css-media-queries/ Media Queries]
 
-[[File:marcotte.jpg|thumb|left|400px|Ethan Marcotte's article for A List Apart|alt=Ethan Marcotte's article for A List Apart]]
-
 To get a sense of what RWD means it's best to see it in action. There are lots of examples of sites using responsive design at [http://mediaqueri.es/ mediaqueri.es]: open the sites listed on mediaqueri.es in a desktop browser and try resizing the browser window.
+
+[[File:marcotte.jpg|thumb|left|400px|Ethan Marcotte's article for A List Apart|alt=Ethan Marcotte's article for A List Apart]]
 
 Earlier web designers had discovered the advantages of [http://csszengarden.com/ separating content from layout] as well as using [http://www.maxdesign.com.au/articles/liquid/ liquid layout] and [http://coding.smashingmagazine.com/2009/06/02/fixed-vs-fluid-vs-elastic-layout-whats-the-right-one-for-you/ hybrid techniques] as opposed to static, 'pixel perfect' attempts to mimic Photoshop and print media. As John Allsopp wrote in [http://www.alistapart.com/articles/dao/ The Dao of Web Design]: 'Now is the time for the medium of the web to outgrow its origins in the printed page.'
 
@@ -33,13 +33,13 @@ Consistent content is king! Responsive design can be used to give all your users
 
 For RWD to work, everyone involved in the production process must collaborate, including designers, coders, writers, illustrators and business managers. Different workers have may have different skills, but good design has to be holistic.
 
+[[File:responsive_comping.jpg|thumb|left|300px|Responsive Comping article by Matt Griffin|alt=Responsive Comping article by Matt Griffin]]
+
 Web content is consumed via an increasing variety of software and hardware, with different display sizes, input methods and usage contexts. This means that style guides should avoid fixed sizes and positioning. Trent Walton refers to this new way of method of design as 'a network of content that can be rearranged at any screen size to best convey the message'.
 
 A simple way to start on responsive design is to ensure that design begins with 'lo-fi' mockups and benefits from [http://www.useit.com/alertbox/discount-usability.html discount usability] testing. There are [http://www.netmagazine.com/features/50-fantastic-tools-responsive-web-design lots of][http://www.netmagazine.com/features/50-fantastic-tools-responsive-web-design tools] to help achieve this. (Other prototyping tools include [http://maker.github.com/ratchet/ Ratchet] and [http://foundation.zurb.com/ Foundation].) Applications such as [http://www.balsamiq.com/products/mockups Balsamiq Mockups] make it possible to quickly try out interface ideas, without producing pixel perfect printouts that would encourage static designs.
 
 Developer Brad Frost has compiled a [http://bradfrost.github.com/this-is-responsive/resources.html#process list of resources] for implementing a responsive design process.
-
-[[File:responsive_comping.jpg|thumb|left|300px|Responsive Comping article by Matt Griffin|alt=Responsive Comping article by Matt Griffin]]
 
 To make RWD possible in a commercial context, it is crucial to be able to get sign-off for responsive designs: Matt Griffin has suggestions on how to achieve this in his article about what he calls [http://www.alistapart.com/articles/responsive-comping-obtaining-signoff-with-mockups/ responsive comping].
 
@@ -99,11 +99,11 @@ You can use media queries to apply different stylesheets:
 
 [http://mediaqueri.es/ mediaqueri.es] provides examples of sites that use media queries, Mozilla Developer Network provides [https://developer.mozilla.org/en-US/docs/CSS/Media_queries a detailed reference to media queries], and more details of features that may be implemented in the future are available from the [http://www.w3.org/TR/css3-mediaqueries/ W3C Recommendation].
 
-[[File:mediaqueri.es.png|thumb|left|400px|mediaqueri.es site|alt=mediaqueri.es site]]
-
 ==== Breakpoints ====
 
 'Breakpoint' is CSS-speak for the dimensions at which a different sets of style rules should be applied. Layout are liable to 'break' at particular sizes: for example, two 350px-wide images side by side with no padding or margin might overlap horizontally when the width of the viewport goes below 700px.
+
+[[File:mediaqueri.es.png|thumb|left|400px|mediaqueri.es site|alt=mediaqueri.es site]]
 
 There are two ways to work out breakpoints:
 
