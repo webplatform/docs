@@ -143,25 +143,23 @@ Along with many other CSS properties, '''font-size''' can also be applied direct
 |Version=≤ 8.0
 |Note=Does not support [[css/units/rem|'''rem''']] values; specify other supported values as fallback properties.
 }}{{Compatibility Notes Row
-|Browser=All browsers
+|Browser=All
 |Note=Check compatibility for more recent [[css/units/vw|'''vw''']], [[css/units/vh|'''vh''']], and [[css/units/vmin|'''vmin''']] viewport unit values.
 }}
 }}
 {{See_Also_Section
 |Topic_clusters=CSS Font, Fonts, Text
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[dom/defaultSelected|defaults]]</code>
-*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-*<code>[[css/properties/font|font]]</code>
+|External_links=* Smashing: [http://www.smashingmagazine.com/2011/10/07/16-pixels-body-copy-anything-less-costly-mistake 16 Pixels: For Body Copy. Anything Less Is a Costly Mistake]
+* HTML5 Boilerplate: [https://github.com/h5bp/html5-boilerplate/issues/724 Reasoning behind default font-size and line-height]
+* CSS Tricks: [http://www.alistapart.com/articles/howtosizetextincss How to Size Text in CSS]
+* Mozilla: [http://mxr.mozilla.org/mozilla/source/layout/style/html.css default style sheet]
+* WebKit: [http://trac.webkit.org/browser/trunk/Source/WebCore/css/html.css default style sheet]
+
 }}
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
 |MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|MSDN_link=
 |HTML5Rocks_link=
 }}
