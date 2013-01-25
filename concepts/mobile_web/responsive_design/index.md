@@ -13,7 +13,7 @@ The term was coined by Ethan Marcotte in [http://www.alistapart.com/articles/res
 
 To get a sense of what RWD means it's best to see it in action. There are lots of examples of sites using responsive design at [http://mediaqueri.es/ mediaqueri.es]: open the sites listed on mediaqueri.es in a desktop browser and try resizing the browser window.
 
-[[File:marcotte.jpg|thumb|left|frame|Ethan Marcotte's article for A List Apart|alt=Ethan Marcotte's article for A List Apart]]
+[[File:marcotte.jpg|thumb|left|Ethan Marcotte's article for A List Apart|alt=Ethan Marcotte's article for A List Apart]]
 
 Earlier web designers had discovered the advantages of [http://csszengarden.com/ separating content from layout] as well as using [http://www.maxdesign.com.au/articles/liquid/ liquid layout] and [http://coding.smashingmagazine.com/2009/06/02/fixed-vs-fluid-vs-elastic-layout-whats-the-right-one-for-you/ hybrid techniques] as opposed to static, 'pixel perfect' attempts to mimic Photoshop and print media. As John Allsopp wrote in [http://www.alistapart.com/articles/dao/ The Dao of Web Design]: 'Now is the time for the medium of the web to outgrow its origins in the printed page.'
 
