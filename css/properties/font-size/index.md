@@ -39,7 +39,7 @@ p  { font-size: 1.4rem }   /* 14px */
 }}{{Single Example
 |Language=HTML
 |Description=The interactive utility demonstrates absolute values applied to a block of text, and relative values applied to the first sentence.
-|Code=<!-- See live example above -->
+|Code=<p>See live example above.</p>
 |LiveURL=http://letmespellitoutforyou.com/x/webplatform/fontSize.html
 }}
 }}
