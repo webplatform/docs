@@ -128,8 +128,23 @@ Along with many other CSS properties, '''font-size''' can also be applied direct
 }}
 |Notes_rows={{Compatibility Notes Row
 |Browser=Internet Explorer
-|Version=6.0
+|Version=≤ 6.0
 |Note=Requires a !DOCTYPE declaration that triggers standards mode, otherwise the initial value is small rather than medium.
+}}{{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=≤ 7.0
+|Note=Does not support inherit as a value.
+}}{{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=≤ 8.0
+|Note=Does not resize text specified with absolute pixel measurements when using the browser's text-resize feature, but does resize correctly when zooming the page.
+}}{{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=≤ 8.0
+|Note=Does not support rem values; specify other supported values as fallback properties.
+}}{{Compatibility Notes Row
+|Browser=All browsers
+|Note=Check compatibility for more recent [[css/units/vw|'''vw''']], [[css/units/vh|'''vh''']], and [[css/units/vmin|'''vmin''']] viewport unit values.
 }}
 }}
 {{See_Also_Section
