@@ -5,7 +5,7 @@
 {{Summary_Section|Contains a set of geographic coordinates together with their associated accuracy, as well as a set of other optional attributes such as altitude and speed.}}
 {{API_Object_Property
 |Property_applies_to=apis/geolocation/Position
-|Read_only=No
+|Read_only=Yes
 |Example_object_name=Position
 |Return_value_description=Coordinates
 }}
