@@ -28,7 +28,7 @@
 
 言語情報を指定しないと、Googleやその他の検索エンジンは、Webサイトを見つけてクロールするのが困難になったり、予想以上に時間を要することがあります。
  
-文書内の一部についても、この lang 属性を他の要素に与えることで言語情報を指定できます。たとえば、<span lang="fr">Bonjour</span> といったように書くことができます。
+文書内の一部についても、この lang 属性を他の要素に与えることで言語情報を指定できます。たとえば、&lt;span lang="fr"&gt;Bonjour&lt;/span&gt; といったように書くことができます。
  
 言語情報を指定する属性は、文書に指定した DOCTYPE によって変わります。 HTML のときは <code>lang</code> のみを、XHTML 1.0 を <code>text/html</code> で送出するときは <code>lang</code> と <code>xml:lang</code> を、XHTML を XML として扱うときは <code>xml:lang</code> のみを使います。
 
