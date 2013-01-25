@@ -141,10 +141,8 @@ Possible length values specified in a relative measurement, using the height of 
 *<code>[[dom/defaultSelected|defaults]]</code>
 *<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
 *<code>[[css/cssom/style|style]]</code>
-*<code>Reference</code>
 *<code>[[css/properties/font|font]]</code>
-*<code>Conceptual</code>
-*<code>CSS Values and Units Reference</code>
+
 }}
 {{Topics|CSS}}
 {{External_Attribution
