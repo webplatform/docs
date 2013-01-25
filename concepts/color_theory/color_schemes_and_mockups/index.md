@@ -1,5 +1,7 @@
 {{Page_Title|Color schemes and mockups}}
-{{Flags}}
+{{Flags
+|Content=Outdated, Broken Links
+}}
 {{API_Name}}
 {{Summary_Section|After a web designer presents a site’s architecture, or wireframe, to a client for approval, the next step is to determine the look and feel of the site through colour and graphics. In this [http://www.w3.org/wiki/Web_Standards_Curriculum Web Standards Curriculum] article, I’ll demonstrate how I keep this process as simple as possible, both for myself and for the client. I believe in the KISS philosophy—Keep It Simple, Sweetie. There are two reasons for the use of this tactic: First, life is complicated enough without adding more curves; secondly, a simple plan also helps to keep a site more accessible and usable for all concerned. In this article, you will:
  
