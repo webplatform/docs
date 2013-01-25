@@ -8,7 +8,7 @@
 |Applies to=All elements
 |Inherited=Yes
 |Media=visual
-|Computed value=absolute size in px units
+|Computed value=absolute size in '''px''' units
 |Animatable=Yes
 |CSS object model property=fontSize
 |CSS percentages=???
