@@ -151,10 +151,9 @@ Along with many other CSS properties, '''font-size''' can also be applied direct
 |Topic_clusters=CSS Font, Fonts, Text
 |External_links=* Smashing: [http://www.smashingmagazine.com/2011/10/07/16-pixels-body-copy-anything-less-costly-mistake 16 Pixels: For Body Copy. Anything Less Is a Costly Mistake]
 * HTML5 Boilerplate: [https://github.com/h5bp/html5-boilerplate/issues/724 Reasoning behind default font-size and line-height]
-* CSS Tricks: [http://www.alistapart.com/articles/howtosizetextincss How to Size Text in CSS]
+* A List Apart: [http://www.alistapart.com/articles/howtosizetextincss How to Size Text in CSS]
 * Mozilla: [http://mxr.mozilla.org/mozilla/source/layout/style/html.css default style sheet]
 * WebKit: [http://trac.webkit.org/browser/trunk/Source/WebCore/css/html.css default style sheet]
-
 }}
 {{Topics|CSS}}
 {{External_Attribution
