@@ -82,19 +82,20 @@ CSS media queries allow you to choose different CSS rules for different browsing
 
 You can use media queries to apply different stylesheets:
 
+ <nowiki>
 <link rel='stylesheet' media='screen and (min-width: 400px) and (max-width: 800px)' href='css/smallish.css' />
+</nowiki>
+
 ...or different rules:
 
+ <nowiki>
 @media all and (min-width: 300px) and (max-width: 600px) {
-
-header {
-
-<pre>background-image: url(bg_small.png);
-
-padding: 0.5em;</pre>
+  header {
+    background-image: url(bg_small.png);
+    padding: 0.5em;
+  }
 }
-
-}
+</nowiki>
 
 [http://mediaqueri.es/ mediaqueri.es] provides examples of sites that use media queries, Mozilla Developer Network provides [https://developer.mozilla.org/en-US/docs/CSS/Media_queries a detailed reference to media queries], and more details of features that may be implemented in the future are available from the [http://www.w3.org/TR/css3-mediaqueries/ W3C Recommendation].
 
