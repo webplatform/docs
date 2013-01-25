@@ -11,12 +11,9 @@ those elements are positioned. For that, use whatever CSS technique is
 most appropriate: floats, flexible boxes, grid layout, or absolute
 positioning. This guide shows you how to flow text, but does
 not discuss these various layout techniques.
-
 }}
 {{Tutorial
-|Content=
-
-==Arranging a layout==
+|Content===Arranging a layout==
 
 Before you flow text through a layout, you need to set up a layout.
 Here's one that demonstrates various features of CSS regions:
@@ -26,14 +23,16 @@ Here's one that demonstrates various features of CSS regions:
 The HTML markup looks like this, and contains placeholder text
 indicating how the content is supposed to flow:
 
- &lt;section class="page">
-   &lt;div id="title"> &lt;h1>Region #1&lt;/h1>         &lt;/div>
-   &lt;div id="intro"> &lt;h1>Region #2&lt;/h1>         &lt;/div>
-   &lt;div id="col1">  &lt;h1>Region #3&lt;/h1>         &lt;/div>
-   &lt;div id="col2a"> &lt;h1>Region #4&lt;/h1>         &lt;/div>
-   &lt;div id="pull">  &lt;h1>(Separate Region)&lt;/h1> &lt;/div>
-   &lt;div id="col2b"> &lt;h1>Region #5&lt;/h1>         &lt;/div>
- &lt;/section>
+<syntaxhighlight lang="xml">
+ <section class="page">
+   <div id="title"> <h1>Region #1</h1>         </div>
+   <div id="intro"> <h1>Region #2</h1>         </div>
+   <div id="col1">  <h1>Region #3</h1>         </div>
+   <div id="col2a"> <h1>Region #4</h1>         </div>
+   <div id="pull">  <h1>(Separate Region)</h1> </div>
+   <div id="col2b"> <h1>Region #5</h1>         </div>
+ </section>
+</syntaxhighlight>
 
 Here is the CSS for the layout, which for the sake of this example
 uses a lot of absolute positioning and fixed heights:
