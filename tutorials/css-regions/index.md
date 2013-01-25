@@ -115,15 +115,16 @@ they flow. The example below flows content sources #1-3 into
 the same chain of regions. Rearranging the ''article'' nodes within
 the document shuffles their order within the output region:
 
- &lt;style>
+<syntaxhighlight lang="xml">
+ <style>
    article { flow-into: articles }
    div.region { flow-from: articles }
- &lt;/style>
- &lt;article> source #1 &lt;/article>
- &lt;article> source #2 &lt;/article>
- &lt;article> source #3 &lt;/article>
- &lt;div class="region"> &lt;/div>
-
+ </style>
+ <article> source #1 </article>
+ <article> source #2 </article>
+ <article> source #3 </article>
+ <div class="region"> </div>
+</stntaxhighlight>
 
 
 ==Controlling region breaks==
@@ -180,18 +181,20 @@ moved somewhere else so that other content can flow in to take its
 place. In this example, '''aside''' tags represent ''pull-quote''
 content that needs to be diverted from the main flow:
 
- &lt;article>
-   &lt;h1>    Sample CSS Regions Layout                                      &lt;/h1>
-   &lt;p>     Riverrun, past Eve and Adam's...                               &lt;/p>
-   &lt;p>     Sir Tristram, violer d'amores...                               &lt;/p>
-   &lt;p>     The fall... of a once wallstrait oldparr...                    &lt;/p>
-   &lt;aside> The oaks of ald now they lie in peat...                        &lt;/aside>
-   &lt;p>     What clashes here of wills gen wonts...                        &lt;/p>
-   &lt;h2>    Bygmester Finnegan, of the Stuttering Hand...                  &lt;/h2>
-   &lt;p>     ...freemen's maurer, lived in the broadest way immarginable... &lt;/p>
-   &lt;p>     He addle liddle phifie Annie...                                &lt;/p>
+<syntaxhighlight lang="xml">
+ <article>
+   <h1>    Sample CSS Regions Layout                                      </h1>
+   <p>     Riverrun, past Eve and Adam's...                               </p>
+   <p>     Sir Tristram, violer d'amores...                               </p>
+   <p>     The fall... of a once wallstrait oldparr...                    </p>
+   <aside> The oaks of ald now they lie in peat...                        </aside>
+   <p>     What clashes here of wills gen wonts...                        </p>
+   <h2>    Bygmester Finnegan, of the Stuttering Hand...                  </h2>
+   <p>     ...freemen's maurer, lived in the broadest way immarginable... </p>
+   <p>     He addle liddle phifie Annie...                                </p>
    ...
- &lt;/article>
+ </article>
+</syntaxhighlight>
 
 Thankfully to address this problem, there can be more than one named
 flow in a document, and thus more than one series of regions. Defining
@@ -235,19 +238,21 @@ extracted from wherever they happen to appear within the main flow of
 content, and appear instead appended to the content, with no need to
 modify the content's semantic structure:
 
- &lt;style>
+<syntaxhighlight lang="xml">
+ <style>
    article, aside.endnote { flow-into: main }
- &lt;/style>
+ </style>
  
- &lt;article>
+ <article>
    ...
-   &lt;aside class="endnote">...&lt;/aside>
+   <aside class="endnote">...</aside>
    ...
-   &lt;aside class="endnote">...&lt;/aside>
+   <aside class="endnote">...</aside>
    ...
-   &lt;h2>Endnotes&lt;/h2>
- &lt;/article>
- &lt;!-- endnotes appear here -->
+   <h2>Endnotes</h2>
+ </article>
+ <!-- endnotes appear here -->
+</syntaxhighlight>
 
 However, descendant elements that are defined as the default
 '''flow-into:none''' cannot be prevented from flowing along with an
@@ -422,6 +427,7 @@ allows control over how content within some layout elements flows
 around others. Also familiarize yourself with the [[apis/css-regions|API
 interfaces]] that allow JavaScript applications to control how content
 flows.
+
 }}
 {{Notes_Section}}
 {{Compatibility_Section
