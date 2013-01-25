@@ -13,7 +13,7 @@ The term was coined by Ethan Marcotte in [http://www.alistapart.com/articles/res
 
 To get a sense of what RWD means it's best to see it in action. There are lots of examples of sites using responsive design at [http://mediaqueri.es/ mediaqueri.es]: open the sites listed on mediaqueri.es in a desktop browser and try resizing the browser window.
 
-[[File:marcotte.jpg|thumb|left|Ethan Marcotte's article for A List Apart|alt=Ethan Marcotte's article for A List Apart]]
+[[File:marcotte.jpg|thumb|left|400px|Ethan Marcotte's article for A List Apart|alt=Ethan Marcotte's article for A List Apart]]
 
 Earlier web designers had discovered the advantages of [http://csszengarden.com/ separating content from layout] as well as using [http://www.maxdesign.com.au/articles/liquid/ liquid layout] and [http://coding.smashingmagazine.com/2009/06/02/fixed-vs-fluid-vs-elastic-layout-whats-the-right-one-for-you/ hybrid techniques] as opposed to static, 'pixel perfect' attempts to mimic Photoshop and print media. As John Allsopp wrote in [http://www.alistapart.com/articles/dao/ The Dao of Web Design]: 'Now is the time for the medium of the web to outgrow its origins in the printed page.'
 
@@ -25,7 +25,7 @@ Maintaining a parallel 'mdot' website for mobile platforms -- for example, servi
 
 Even if you only have one site, but you serve different content to different devices, you always risk alienating someone. Trent Walton gives a good example of this in the [http://www.smashingmagazine.com/the-mobile-book Smashing Mobile Book]: his favourite news website removed the pollen report from its mobile version, which was the information that meant most to him. The moral of this tale is: best not to guess what content or features your users won't miss.
 
-[[File:mobile_book.jpg|thumb|left|alt=Smashing Mobile Book]]
+[[File:mobile_book.jpg|thumb|300px|Smashing Mobile Book|alt=Smashing Mobile Book]]
 
 Consistent content is king! Responsive design can be used to give all your users access to all your site's or app's content and features.
 
@@ -41,7 +41,7 @@ Developer Brad Frost has compiled a [http://bradfrost.github.com/this-is-respons
 
 To make RWD possible in a commercial context, it is crucial to be able to get sign-off for responsive designs: Matt Griffin has suggestions on how to achieve this in his article about what he calls [http://www.alistapart.com/articles/responsive-comping-obtaining-signoff-with-mockups/ responsive comping].
 
-[[File:responsive_comping.png|alt=Responsive Comping article by Matt Griffin]]
+[[File:responsive_comping.png|thumb|left|Responsive Comping article by Matt Griffin|alt=Responsive Comping article by Matt Griffin]]
 
 == Layout, sizing and grids ==
 
@@ -68,7 +68,7 @@ A [https://developer.mozilla.org/en-US/docs/Mobile/Viewport_meta_tag comprehensi
 
 One of the major problems with using px (pixel) units on mobile devices is that a 'CSS pixel' (the unit used in a CSS rule) may not correspond to a 'device pixel' (the actual coloured dot on the display). This number of device pixels per unit of physical width is referred to as [http://en.wikipedia.org/wiki/List_of_displays_by_pixel_density pixel density]. (To determine the appropriate resolution for an image in a given context, the browser uses the device pixel ratio, as described in Boris Smus's [http://www.html5rocks.com/en/mobile/high-dpi/#toc-calculating-dpr article about high-DPI images] explains the meaning of device pixel ratio.)
 
-[[File:device_pixel_ratio.png|alt=device pixel ratio]]
+[[File:device_pixel_ratio.png|thumb|left|A diagram showing one reference angular pixel, to help illustrate how devicePixelRatio is calculated|alt=A diagram showing one reference angular pixel, to help illustrate how devicePixelRatio is calculated.]]
 
 Browser vendors such as Apple and Mozilla found that sites displayed poorly on high-resolution devices (i.e. those with a high density of physical pixels) if browsers kept to a one-to-one ratio between CSS pixels and device pixels. As a result, this ratio varies across browsers and platforms.
 
@@ -99,7 +99,7 @@ You can use media queries to apply different stylesheets:
 
 [http://mediaqueri.es/ mediaqueri.es] provides examples of sites that use media queries, Mozilla Developer Network provides [https://developer.mozilla.org/en-US/docs/CSS/Media_queries a detailed reference to media queries], and more details of features that may be implemented in the future are available from the [http://www.w3.org/TR/css3-mediaqueries/ W3C Recommendation].
 
-[[File:mediaqueri.es.png|alt=mediaqueri.es site]]
+[[File:mediaqueri.es.png|thumb|left|mediaqueri.es site|alt=mediaqueri.es site]]
 
 ==== Breakpoints ====
 
@@ -144,9 +144,9 @@ For responsive design to work well, it is especially important to test sites and
 
 Remy Sharp's [http://responsivepx.com/?simpl.info#640x480&scrollbars responsivepx] makes it possible to adjust viewport width and height values, in order to find the [https://docs.google.com/a/google.com/document/d/1wciRNw81BdIbuwzJJzcGJVhzkOvm1AZwS0KgULZAiZw/edit#heading=h.umsakrrk7jlc breakpoints] at which responsive layouts need to change. Brad Frost's [http://bradfrostweb.com/demo/ish/ ish] resizer emphasises that breakpoints should be based on content rather than nominal device dimensions.
 
-[[File:responsivepx.png|alt=responsivepx app]]
+[[File:responsivepx.png|thumb|left|Remy Sharp's responsivepx tool|alt=Remy Sharp's responsivepx tool]]
 
-[[File:ish.png|alt=ish resizer app]]
+[[File:ish.png|thumb|left|Brad Frost's ish resizer|alt=Brad Frost's ish resizer]]
 
 For responsive typography, [http://www.webtypography.net/Rhythm_and_Proportion/Horizontal_Motion/2.1.2/ designers have found] that body text should generally have between 45 and 75 characters per line. A simple trick for testing layouts [http://trentwalton.com/2012/06/19/fluid-type/ suggested by Trent Walton], is to add an asterisk to lorem text after 45 and 75 characters. If both asterisks appear on the same line at a particular viewport width, the font size needs to be changed.
 
@@ -197,7 +197,7 @@ Brad Frost: list of RWD [http://bradfrost.github.com/this-is-responsive/resource
 
 Bruce Lawson and other developers have suggested that it might be appropriate to give users the option to opt out of RWD: his [http://www.brucelawson.co.uk/2013/turning-off-responsive-web-design/ blog post] on the subject, has links to articles explaining techniques for enabling this.
 
-[[File:bruce_lawson.png|alt=Bruce Lawson blog post: opting out of RWD]]
+[[File:bruce_lawson.png|thumb|left|Bruce Lawson blog post: opting out of RWD|alt=Bruce Lawson blog post: opting out of RWD]]
 
 == Further reading ==
 
