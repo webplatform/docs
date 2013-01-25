@@ -36,10 +36,9 @@
 h1 { font-size: 3.6rem }   /* 36px */
 h2 { font-size: 2.4rem }   /* 24px */
 p  { font-size: 1.4rem }   /* 14px */
-
 }}{{Single Example
 |Language=HTML
-|Description=This interactive utility demonstrates absolute values applied to a block of text, and relative values applied to the first sentence:
+|Description=The interactive utility demonstrates absolute values applied to a block of text, and relative values applied to the first sentence.
 |LiveURL=http://letmespellitoutforyou.com/x/webplatform/fontSize.html
 }}
 }}
