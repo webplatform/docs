@@ -11,9 +11,9 @@ The term was coined by Ethan Marcotte in [http://www.alistapart.com/articles/res
 * Flexible images (images that [http://www.alistapart.com/articles/dao/ adjust to fit])
 * CSS [http://css-tricks.com/css-media-queries/ Media Queries]
 
-To get a sense of what RWD means it's best to see it in action. There are lots of examples of sites using responsive design at [http://mediaqueri.es/ mediaqueri.es]: open the sites listed on mediaqueri.es in a desktop browser and try resizing the browser window.
-
 [[File:marcotte.jpg|thumb|left|400px|Ethan Marcotte's article for A List Apart|alt=Ethan Marcotte's article for A List Apart]]
+
+To get a sense of what RWD means it's best to see it in action. There are lots of examples of sites using responsive design at [http://mediaqueri.es/ mediaqueri.es]: open the sites listed on mediaqueri.es in a desktop browser and try resizing the browser window.
 
 Earlier web designers had discovered the advantages of [http://csszengarden.com/ separating content from layout] as well as using [http://www.maxdesign.com.au/articles/liquid/ liquid layout] and [http://coding.smashingmagazine.com/2009/06/02/fixed-vs-fluid-vs-elastic-layout-whats-the-right-one-for-you/ hybrid techniques] as opposed to static, 'pixel perfect' attempts to mimic Photoshop and print media. As John Allsopp wrote in [http://www.alistapart.com/articles/dao/ The Dao of Web Design]: 'Now is the time for the medium of the web to outgrow its origins in the printed page.'
 
@@ -21,11 +21,11 @@ Jared Ponchot points out that [http://www.lullabot.com/articles/responsive-adapt
 
 === The perils of serving different content ===
 
+[[File:mobile_book.jpg|thumb|300px|Smashing Mobile Book|alt=Smashing Mobile Book]]
+
 Maintaining a parallel 'mdot' website for mobile platforms -- for example, serving m.webplatform.org to mobile devices and www.webplatform.org to desktop browsers -- can incur significant overheads for code management, content synchronisation and hosting infrastructure.
 
 Even if you only have one site, but you serve different content to different devices, you always risk alienating someone. Trent Walton gives a good example of this in the [http://www.smashingmagazine.com/the-mobile-book Smashing Mobile Book]: his favourite news website removed the pollen report from its mobile version, which was the information that meant most to him. The moral of this tale is: best not to guess what content or features your users won't miss.
-
-[[File:mobile_book.jpg|thumb|300px|Smashing Mobile Book|alt=Smashing Mobile Book]]
 
 Consistent content is king! Responsive design can be used to give all your users access to all your site's or app's content and features.
 
@@ -39,9 +39,9 @@ A simple way to start on responsive design is to ensure that design begins with 
 
 Developer Brad Frost has compiled a [http://bradfrost.github.com/this-is-responsive/resources.html#process list of resources] for implementing a responsive design process.
 
-To make RWD possible in a commercial context, it is crucial to be able to get sign-off for responsive designs: Matt Griffin has suggestions on how to achieve this in his article about what he calls [http://www.alistapart.com/articles/responsive-comping-obtaining-signoff-with-mockups/ responsive comping].
-
 [[File:responsive_comping.jpg|thumb|left|300px|Responsive Comping article by Matt Griffin|alt=Responsive Comping article by Matt Griffin]]
+
+To make RWD possible in a commercial context, it is crucial to be able to get sign-off for responsive designs: Matt Griffin has suggestions on how to achieve this in his article about what he calls [http://www.alistapart.com/articles/responsive-comping-obtaining-signoff-with-mockups/ responsive comping].
 
 == Layout, sizing and grids ==
 
