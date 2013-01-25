@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|Denotes the accuracy level of the ''latitude'' and ''longitude'' coordinates. It is specified in meters and must be supported by all implementations.}}
+{{Summary_Section|Denotes the accuracy level of the ''latitude'' and ''longitude'' coordinates. It is specified in meters and must be supported by all implementations. The value of this attribute must be a non-negative real number.}}
 {{API_Object_Property
 |Property_applies_to=apis/geolocation/Coordinates
 |Read_only=Yes
