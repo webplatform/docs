@@ -1,8 +1,5 @@
 {{Page_Title}}
-{{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
+{{Flags}}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|Specifies the size of text. Sets the font size of the element to which it is applied, and its descendants. Can size text using absolute measurements, or relative to the parent or root elements. [[guides/css_text_styling_fundamentals|CSS Text Styling Fundamentals]] provides an overview.}}
@@ -33,23 +30,17 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Description=The following examples use the '''font-size''' attribute and the '''font-size''' property to change font characteristics.
+|Description=Redefine the typical 16px default '''medium''' value as '''10px''', then redefine other tags in proportion to the root:
+|Code=html { font-size: 62.5%; } /* 16 * 62.5% == 10 */
 
-This example sets the font size on several paragraphs using different size values.
-|Code=&lt;style&gt;
-   body {font-size: 10pt }
-   .p1 {font-size: 14pt }
-   .p2 {font-size: 75% }
-   .p3 {font-size: xx-large }
-   .p4 {font-size: larger }
-&lt;/style&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/font-size.htm
+h1 { font-size: 3.6rem }   /* 36px */
+h2 { font-size: 2.4rem }   /* 24px */
+p  { font-size: 1.4rem }   /* 14px */
+
 }}{{Single Example
-|Description=This example uses inline scripting to set the font size to <code>14pt</code> when an [[dom/events/mouseover|'''onmouseover''']] event occurs.
-|Code=&lt;div style{{=}}"font-size:12pt" onmouseover{{=}}"this.style.fontSize{{=}}'14pt'"&gt;
-:
-&lt;/div&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/fontSize.htm
+|Language=HTML
+|Description=This interactive utility demonstrates absolute values applied to a block of text, and relative values applied to the first sentence:
+|LiveURL=http://letmespellitoutforyou.com/x/webplatform/fontSize.html
 }}
 }}
 {{Notes_Section
