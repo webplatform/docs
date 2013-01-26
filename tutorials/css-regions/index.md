@@ -10,10 +10,12 @@ content from one layout element to another, but does not specify how
 those elements are positioned. For that, use whatever CSS technique is
 most appropriate: floats, flexible boxes, grid layout, or absolute
 positioning. This guide shows you how to flow text, but does
-not discuss these various layout techniques.
+not discuss these various layout techniques. See 
+[http://letmespellitoutforyou.com/samples/region_mq_sample.html this page] for the results, using one of the supporting browsers listed at the end of the article.
 }}
 {{Tutorial
-|Content===Arranging a layout==
+|Content=
+==Arranging a layout==
 
 Before you flow text through a layout, you need to set up a layout.
 Here's one that demonstrates various features of CSS regions:
@@ -413,6 +415,8 @@ This produces an alternate mobile interface:
 [[Image:region_mobile.png]]
 
 
+See  [http://letmespellitoutforyou.com/samples/region_mq_sample.html this page] for the results, using one of the supporting browsers listed below.
+
 
 ==Where to go from here==
 
@@ -427,7 +431,6 @@ allows control over how content within some layout elements flows
 around others. Also familiarize yourself with the [[apis/css-regions|API
 interfaces]] that allow JavaScript applications to control how content
 flows.
-
 }}
 {{Notes_Section}}
 {{Compatibility_Section
