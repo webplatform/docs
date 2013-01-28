@@ -34,10 +34,8 @@
     /* property values are built-in keywords */
     animation-direction: alternate;
     animation-iteration-count: infinite;
-    /* url() is a function that accepts a string value */
+    /* The url() function accepts a string value */
     background-image: url(img/icon.png);
-    /* The transform() function accepts numeric, position, and angle values */
-    transform: scale(0.8) translate(10px, 50px) rotate(20deg);
 }
 
 /* "pulse" is referenced above by animation-name property */
