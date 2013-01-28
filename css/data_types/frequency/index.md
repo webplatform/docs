@@ -6,20 +6,24 @@
 {{API_Name}}
 {{Summary_Section|Specify sound pitches}}
 {{Concept_Page
-|Content=__CONTENT__
+|Content=
+TWo units are available to specify pitch:
+
+* '''Hz''' for occurrences per second.
+* '''kHz''' corresponds to '''1000kHz'''.
+
+For example, middle C is roughly '''261Hz'''.
+
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Code=.selector {
-    /* __EXAMPLE__ */
-}
+|Code=
+/* No CSS property currently specifies pitch, either for voice or other audio */
 }}
 }}
-{{Notes_Section
-|Usage=__NOTES__
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Values and Units Module Level 3
