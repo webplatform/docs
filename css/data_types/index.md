@@ -1,7 +1,5 @@
 {{Page_Title|CSS units}}
-{{Flags
-|Editorial notes=(Stub page for css/units)
-}}
+{{Flags}}
 {{API_Name}}
 {{Summary_Section|Different types of CSS property values}}
 {{Concept_Page
