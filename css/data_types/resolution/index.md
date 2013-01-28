@@ -17,9 +17,7 @@
 }
 }}
 }}
-{{Notes_Section
-|Usage=__NOTES__
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Values and Units Module Level 3
