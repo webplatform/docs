@@ -1,8 +1,6 @@
 {{Page_Title|Resolution units}}
-{{Flags
-|High-level issues=Stub
-|Editorial notes=(Stub to populate css/units tree)
-}}
+{{Flags}}
+
 {{API_Name}}
 {{Summary_Section|Specify the display or print dot density}}
 {{Concept_Page
