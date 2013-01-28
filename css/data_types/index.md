@@ -14,10 +14,10 @@ unit allowed as property values:
 * [[css/units/color|''Color'']] values offer two different systems to specify colors, with optional opacity values.
 * [[css/units/length|''Length'']] values specify distances and coordinates in either absolute or relative terms.
 * [[css/units/angle|''Angle'']] values specify degrees of rotation.
-* [[css/units/numeric|''Numeric'']] specify integers, decimals, or percentages.
+* [[css/units/numeric|''Numeric'']] values specify integers, decimals, or percentages.
 * [[css/units/resolution|''Resolution'']] units specify display or print dot density, typically within CSS [[css/mediaqueries|media queries]]
-* [[css/units/time|''Time'']] specify units of duration.
-* [[css/units/frequency|''Frequency'']] specify sound pitches.
+* [[css/units/time|''Time'']] specify units of duration, typically for animations.
+* [[css/units/frequency|''Frequency'']] specify sound pitches. (Not currently applicable to any CSS property.)
 
 }}
 {{Examples_Section
