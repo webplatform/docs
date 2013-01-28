@@ -6,6 +6,8 @@ Hello, and welcome to the first WebPlatform.org European Doc Sprint!
 
 You are making (a small part of) history!
 
+<Play the WPD video>
+
 We first need to say a big "thank you", for coming here today and offering to lend a hand with  creating documentation, building up WebPlatform, and generally contributing great things to the web community. We want this to eventually be the definitive client-side web documentation site, and we can't do it alone.
 
 I'll keep this short so that we can get on with things. I first just want to say a few words about how to get started, what you can do, and who to go to for help. At this point, those who have used WebPlatform.org before can go off and do their thing.
