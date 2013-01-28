@@ -22,7 +22,7 @@ The following variations on the above allow you to incorporate an
 
 The recently introduced '''transparent''' color name specifies a full transparency.
 
-[http://www.w3.org/TR/2011/REC-css3-color-20110607/ color]
+
 }}
 {{Examples_Section
 |Not_required=No
