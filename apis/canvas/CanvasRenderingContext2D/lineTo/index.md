@@ -16,12 +16,8 @@
 |Optional=No
 }}
 |Method_applies_to=apis/canvas/CanvasRenderingContext2D
-|Example_object_name=object
-|Return_value_name=object
-|Javascript_data_type=DOM Node
-|Return_value_description=Type: '''HRESULT'''
-
-If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRESULT''' error code.
+|Example_object_name=context
+|Javascript_data_type=void
 }}
 {{Examples_Section
 |Not_required=Yes
