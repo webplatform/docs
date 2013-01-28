@@ -10,9 +10,17 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|Description=__EXAMPLE DESCRIPTION__
+|Code=.selector {
+    /* __EXAMPLE__ */
+}
 }}
-{{Notes_Section}}
+}}
+{{Notes_Section
+|Usage=__NOTES__
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Values and Units Module Level 3
