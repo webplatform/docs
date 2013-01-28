@@ -91,7 +91,7 @@ Web Platform Docs is a community-driven site that aims to become a comprehensive
     <div class="inner">
     <h3>[[dom|DOM]]</h3>
     
-    <p>The DOM is the tree structure that browser turn web content into, which we can then manipulate using other technologies. This section covers DOM-related features.</p>
+    <p>The DOM is the tree structure that browser turns web content into, which we can then manipulate using other technologies. This section covers DOM-related features.</p>
     </div>
   
   </div>
