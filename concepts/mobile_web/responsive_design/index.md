@@ -5,7 +5,7 @@
 {{Concept_Page
 |Content=Responsive Web Design (RWD for short) is an approach that emphasises design which works well across a variety of devices and browsing contexts -- without serving different content for each different operating system, device, browser, display size or pixel density.
 
-<div padding:2em>
+<div padding:50px>
 [[File:marcotte.jpg|thumb|left|400px|Ethan Marcotte's article for A List Apart|alt=Ethan Marcotte's article for A List Apart]]
 </div>
 
