@@ -1,10 +1,10 @@
-{{Page_Title|color units}}
+{{Page_Title|Color units}}
 {{Flags
 |High-level issues=Stub
 |Editorial notes=(Stub to populate css/units tree)
 }}
 {{API_Name}}
-{{Summary_Section|__SUMMARY__}}
+{{Summary_Section|Specify color and opacity}}
 {{Concept_Page
 |Content=__CONTENT__
 }}
@@ -12,9 +12,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Description=__EXAMPLE DESCRIPTION__
 |Code=.selector {
-    /* __EXAMPLE__ */
     /* __EXAMPLE__ */
 }
 }}
