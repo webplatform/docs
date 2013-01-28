@@ -19,8 +19,6 @@ unit allowed as property values:
 * [[css/units/resolution|''Resolution'']] units specify display or print dot density, typically within CSS [[css/mediaqueries|media queries]]
 * [[css/units/time|''Time'']] specify units of duration.
 
-
-{{Special:PrefixIndex/css/units/}}
 }}
 {{Examples_Section
 |Not_required=Yes
