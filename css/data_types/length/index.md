@@ -27,6 +27,8 @@ units are available:
 ** '''vh''' units specify a percentage of current viewport's height.
 ** '''vmax''' and '''vmin''' units specify the maximum or minimum of the viewport's width or height.
 
+Note that [[css/units/numeric|percentages]] may refer to various length units.
+
 }}
 {{Examples_Section
 |Not_required=No
