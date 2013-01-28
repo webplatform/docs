@@ -15,6 +15,7 @@
 |Description=__EXAMPLE DESCRIPTION__
 |Code=.selector {
     /* __EXAMPLE__ */
+    /* __EXAMPLE__ */
 }
 }}
 }}
