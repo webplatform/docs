@@ -7,7 +7,9 @@
 {{Summary_Section|Specify measurements using relative or absolute units}}
 {{Concept_Page
 |Content=Length units specify a distance on the display screen or
-printed output. Several different kinds of length units are available:
+printed output. Pairs of length units are typically used to specify
+''x''/''y'' screen coordinates.  Several different kinds of length
+units are available:
 
 * ''Absolute'' lengths:
 ** '''cm''' and '''mm''' specify centimeters and millimeters.
