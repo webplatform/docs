@@ -34,7 +34,7 @@
 |Examples=
 }}
 {{Notes_Section
-|Notes=The '''clearRect'''  method clears the canvas to transparent black (that is, each pixel's RGBA value is equal to zero). To clear to a specific color, use the  '''fillRect''' method.
+|Notes=The '''clearRect'''  method clears the canvas to transparent black (that is, each pixel's RGBA value is equal to zero). To clear to a specific color, use the  '''[[apis/canvas/CanvasRenderingContext2D/|fillRect]]''' method.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
