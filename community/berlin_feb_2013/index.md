@@ -26,7 +26,7 @@ So, the main focus areas we have for today are:
 
 We decided to provide two focus areas to choose from because well, some people hate CSS, and some people aren't very adept at scripting. Please choose one of these areas to focus on. Even if you are not interested in writing documentation at all, there will still be a good deal to do, in terms of testing, code example writing, and more.
 
-If you are still not convinced, and really want to do something else, perhaps write some code to fix your most hated WebPlatform bug, then please, talk to us after I've finished up this talk and go everybody moving.
+If you are still not convinced, and really want to do something else, perhaps write some code to fix your most hated WebPlatform bug, then please, talk to us after I've finished up this talk and have everybody moving.
 
 ===APIs===
 
