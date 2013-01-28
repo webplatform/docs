@@ -1,8 +1,6 @@
 {{Page_Title|Text values}}
-{{Flags
-|High-level issues=Stub
-|Editorial notes=(Stub to populate css/units tree)
-}}
+{{Flags}}
+
 {{API_Name}}
 {{Summary_Section|Specify strings, identifiers, keywords, and functions}}
 {{Concept_Page
