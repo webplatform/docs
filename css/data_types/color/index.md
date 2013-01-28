@@ -23,7 +23,6 @@ The following variations on the above allow you to incorporate an
 The recently introduced '''transparent''' color name specifies a full transparency.
 
 [http://www.w3.org/TR/2011/REC-css3-color-20110607/ color]
-
 }}
 {{Examples_Section
 |Not_required=No
@@ -43,6 +42,10 @@ The recently introduced '''transparent''' color name specifies a full transparen
 {{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
+|Name=CSS Color Module Level 3
+|URL=http://www.w3.org/TR/2011/REC-css3-color-20110607/
+|Status=Recommendation
+}}{{Related Specification
 |Name=CSS Values and Units Module Level 3
 |URL=http://www.w3.org/TR/css3-values/
 |Status=Candidate Recommendation
