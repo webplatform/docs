@@ -83,8 +83,8 @@ The interpreter goes through the code instruction by instruction, with each inst
 In English, this construct would be as follows:
  
 * Here comes something that is not HTML;
-* Define a new variable (that is the <code>var</code> keyword) called x and assign it the value 5. End of instruction.
-* Define a new variable called y and assign it the value 6. End of instruction.
+* Define a new variable (that is the <code>var</code> keyword) called x and assign it the value 5. 
+* Define a new variable called y and assign it the value 6. 
 * Define a new variable called result and assign it the result of adding x and y as its value. End of statement. (As there is a calculation in the assignment of the variable result the interpreter then checks the value of x, checks the value of y, adds the two and sets the value of result to the outcome—11).
 * Enough of this strange language—go back to HTML and tell the translator to leave again.
  
