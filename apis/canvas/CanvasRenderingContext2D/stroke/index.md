@@ -6,12 +6,8 @@
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=apis/canvas/CanvasRenderingContext2D
-|Example_object_name=object
-|Return_value_name=object
-|Javascript_data_type=DOM Node
-|Return_value_description=Type: '''HRESULT'''
-
-If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRESULT''' error code.
+|Example_object_name=context
+|Javascript_data_type=void
 }}
 {{Examples_Section
 |Not_required=Yes
@@ -21,7 +17,11 @@ If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRES
 |Notes=Use  the [[apis/canvas/CanvasRenderingContext2D/beginPath|beginPath]] method after you call the  ''stroke'' method to close the existing path and start a new one with different properties.
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=HTML Canvas 2D Context
+|URL=http://www.w3.org/TR/2dcontext/
+|Status=W3C Candidate Recommendation
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
