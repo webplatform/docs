@@ -60,6 +60,7 @@ Your main go to point for help and guidance with CSS property references is Chri
 * Janet Swisher, Mozilla
 * Jay Meissner, Adobe
 * David Kirstein (fr0zenice)
+* Scott Rowe, Google
 * Florian Scholz, MDN
 
 ===Working practice, and getting help===
