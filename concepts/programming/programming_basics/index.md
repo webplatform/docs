@@ -17,7 +17,7 @@ It will also help novice web developers to take on board some generic programmin
  
 Programming in the most basic form is issuing commands and seeing that they get executed. It is a mixture of math and linguistics: you define a lot of calculations and you need to tell machines to solve them by giving orders using the right grammar. Grammar in programming is syntax and differs a lot from language to language.
  
-For example, the following two code snippets fulfil the same task, but the former is JavaScript and the latter is PHP:
+For example, the following two code snippets fulfill the same task, but the former is JavaScript and the latter is PHP:
  
 <source lang="javascript">
 var fahrenheit = prompt('Enter temperature in Fahrenheit', 0);
@@ -321,7 +321,9 @@ if (country) {
 Try it out yourself in my [http://dev.opera.com/articles/view/programming-the-real-basics/saferweather.html Safe-weather if statement example]. Change the value of the country variable to see the different messages.
  
 Whereas the earlier example would always try to create the message regardless of country being available—and thus possibly throwing an error or stating “this is '''undefined''', the weather...” this version is more secure. If country is not defined the message will never be created.
-Furthermore you can concatenate different conditions with “or” or “and” statements, to test whether either statement is true, or both are true, respectively. In JavaScript “or” is written as <nowiki>||</nowiki> and “and” is written as &amp;&amp;. Say you want to test if the value of x is between 10 and 20—you could do that with a condition stating <code>if(x &gt; 10 &amp;&amp; x &lt; 20)</code>_ If you want to make sure that country is either “England” or “Germany” you use <code>if(country == 'England' <nowiki>||</nowiki> country == 'Germany')</code>.
+Furthermore you can concatenate different conditions with “or” or “and” statements, to test whether either statement is true, or both are true, respectively. In JavaScript “or” is written as <nowiki>
+|</nowiki> and “and” is written as &amp;&amp;_ Say you want to test if the value of x is between 10 and 20—you could do that with a condition stating <code>if(x &gt; 10 &amp;&amp; x &lt; 20)</code>_ If you want to make sure that country is either “England” or “Germany” you use <code>if(country== 'England' <nowiki>
+|</nowiki> country== 'Germany')</code>.
  
 There is also an <code>else</code> clause that will be applied every time the first condition isn’t true. This is very powerful if you want to react to any value, but single out one in particular for special treatment:
 
