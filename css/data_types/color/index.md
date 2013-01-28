@@ -32,14 +32,18 @@ The recently introduced '''transparent''' color name specifies a full transparen
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Code=.selector {
-    /* __EXAMPLE__ */
+|Code=aside {
+    color: white;              /* white letterforms */
+    text-shadow: 0 0 4px red;  /* red backlight effect */
+    background-color: #777777; /* gray background */
+}
+.semitrans {
+    /* elements behind this show through */
+    background-color: rgba(50%, 50%, 50%, 0.5); 
 }
 }}
 }}
-{{Notes_Section
-|Usage=__NOTES__
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Values and Units Module Level 3
