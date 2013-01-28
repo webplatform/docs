@@ -16,6 +16,7 @@
 * [[tutorials/inheritance and cascade|Inheritance and cascade]]
 * [[guides/css shorthand|CSS shorthand guide]]
 * [[tutorials/debugging css|Debugging CSS]]
+* [[concepts/css-images|CSS images]]
 
 ==Working with fonts and text==
 
