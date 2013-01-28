@@ -1,8 +1,6 @@
 {{Page_Title|Angle units}}
-{{Flags
-|High-level issues=Stub
-|Editorial notes=(Stub to populate css/units tree)
-}}
+{{Flags}}
+
 {{API_Name}}
 {{Summary_Section|Specify angles used to rotate elements}}
 {{Concept_Page
