@@ -3,13 +3,12 @@
 |Editorial notes=(Stub page for css/units)
 }}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Different kinds of CSS property values}}
 {{Concept_Page
 |Content={{Special:PrefixIndex/css/units/}}
-
 }}
 {{Examples_Section
-|Not_required=No
+|Not_required=Yes
 |Examples=
 }}
 {{Notes_Section}}
