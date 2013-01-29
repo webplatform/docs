@@ -1,4 +1,4 @@
-{{Page_Title|Region.regionOverset property}}
+{{Page_Title|regionOverset}}
 {{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
