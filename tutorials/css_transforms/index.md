@@ -1,7 +1,5 @@
 {{Page_Title|Manipulating content with CSS3 transforms}}
-{{Flags
-|Editorial notes=Still to do: conclusion; clarify perspective() function; live samples. Contact [[User:Sierra]] and see bug [https://www.w3.org/Bugs/Public/show_bug.cgi?id=20410 #20410].
-}}
+{{Flags}}
 {{Byline
 |Name=Mike Sierra
 }}
@@ -624,7 +622,6 @@ apparent.  An animated transition between '''scale3d(0,0,0)''' and
 [[Image:scaleZ.png]]
 
 ([http://letmespellitoutforyou.com/samples/trans_3d_nest.html View live sample])
-
 }}
 {{Notes_Section}}
 {{Compatibility_Section
