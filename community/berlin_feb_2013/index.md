@@ -16,7 +16,7 @@ Afterwards I'll also deliver a set up talk, to help those who have never used th
 
 So, find somewhere comfortable to sit, grab a drink, log on to the Wifi, and let's get going!
 
-==Planning Talk==
+==Work plan==
 
 
 So, the main focus areas we have for today are:
