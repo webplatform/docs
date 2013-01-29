@@ -1,4 +1,4 @@
-{{Page_Title|regionlayoutupdate event}}
+{{Page_Title|regionlayoutupdate}}
 {{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
