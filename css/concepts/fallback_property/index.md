@@ -4,7 +4,7 @@ cross-browser compatibility. In	the example below, the first
 image file, which all browsers are able	to render. The additional ones
 after that specify the more recent
 [[css/functions/linear-gradient|'''linear-gradient()''']] function,
-which not all browsers support.	The browser uses those values only if
+which all browsers may not support.	The browser uses those values only if
 it is able to interpret them,	otherwise reverting to the image file
 value as a fallback.
 
