@@ -192,6 +192,8 @@ collapsing the panel back down to icon size:
 
 [[Image:transit_sequence.png|900px]]
 
+([http://letmespellitoutforyou.com/samples/transit_sequence.html View live sample])
+
 Here is the relevant CSS:
 
  div {
@@ -278,7 +280,9 @@ The overall movement is staggered like this:
 
 [[Image:transit_delay.png]]
 
-<span id="timing"></span>
+([http://letmespellitoutforyou.com/samples/transit_delay.html View live sample])
+
+&lt;span id="timing">&lt;/span>
 
 ==Timing functions==
 
@@ -292,6 +296,8 @@ and move at the same speed:
 
 [[Image:transit_linear.png]]
 
+([http://letmespellitoutforyou.com/samples/transit_delay_linear.html View live sample])
+
 Browsers represent these keywords as bezier curves, which makes their
 response easier to visualize.  Here is the basic set of keyword values
 along with their alternate '''cubic-bezier()''' functions.  The
@@ -299,30 +305,30 @@ animation's elapsed time and progress correspond to ''x'' and ''y''
 axes, so the more the line curves vertically along the way, the faster
 the animation proceeds:
 
-<div style="display:inline-block">
-[[Image:transitF_linear.png]] <br/>
-'''linear''' <br/> '''cubic-bezier(0.0, 0.0, 1.0, 1.0)'''
-</div>
+&lt;div style="display:inline-block">
+[[Image:transitF_linear.png]] &lt;br/>
+'''linear''' &lt;br/> '''cubic-bezier(0.0, 0.0, 1.0, 1.0)'''
+&lt;/div>
 
-<div style="display:inline-block">
-[[Image:transitF_ease.png]] <br/>
-'''ease''' <br/> '''cubic-bezier(0.25, 0.1, 0.25, 1.0)'''
-</div>
+&lt;div style="display:inline-block">
+[[Image:transitF_ease.png]] &lt;br/>
+'''ease''' &lt;br/> '''cubic-bezier(0.25, 0.1, 0.25, 1.0)'''
+&lt;/div>
 
-<div style="display:inline-block">
-[[Image:transitF_easeinout.png]] <br/>
-'''ease-in-out''' <br/> '''cubic-bezier(0.42, 0, 0.58, 1.0)'''
-</div>
+&lt;div style="display:inline-block">
+[[Image:transitF_easeinout.png]] &lt;br/>
+'''ease-in-out''' &lt;br/> '''cubic-bezier(0.42, 0, 0.58, 1.0)'''
+&lt;/div>
 
-<div style="display:inline-block">
-[[Image:transitF_easein.png]] <br/>
-'''ease-in''' <br/> '''cubic-bezier(0.42, 0, 1.0, 1.0)'''
-</div>
+&lt;div style="display:inline-block">
+[[Image:transitF_easein.png]] &lt;br/>
+'''ease-in''' &lt;br/> '''cubic-bezier(0.42, 0, 1.0, 1.0)'''
+&lt;/div>
 
-<div style="display:inline-block">
-[[Image:transitF_easeout.png]] <br/>
-'''ease-out''' <br/> '''cubic-bezier(0, 0, 0.58, 1.0)'''
-</div>
+&lt;div style="display:inline-block">
+[[Image:transitF_easeout.png]] &lt;br/>
+'''ease-out''' &lt;br/> '''cubic-bezier(0, 0, 0.58, 1.0)'''
+&lt;/div>
 
 This useful [http://cssglue.com/cubic cubic bezier function utility]
 allows you to create your own custom curve and the see the result
@@ -355,6 +361,8 @@ In this example, applying a ''display'' class makes an information
 panel appear:
 
 [[Image:transit_end.png]]
+
+([http://letmespellitoutforyou.com/samples/transit_end.html View live sample])
 
 The [[css/properties/opacity|'''opacity''']] property makes the
 element fade in, and is the only noticable change to its appearance. A
@@ -394,7 +402,7 @@ Note the various provisional names for the event:
 along with the standard '''transitionend''' (Gecko, Opera 12.10+,
 Internet Explorer).
 
-<span id="advanced"></span>
+&lt;span id="advanced">&lt;/span>
 
 ==Advanced image transitions==
 
@@ -411,6 +419,8 @@ following can thus drive an image gallery interface:
  div[data-img="5"] { background-image : url("Image05.jpg"); }
 
 [[Image:fade.png]]
+
+([http://letmespellitoutforyou.com/samples/transit_bkimg.html View live sample])
 
 See the [[css/functions/cross-fade|cross-fade()]] function for a way
 to mix images statically.
@@ -435,6 +445,8 @@ and distorting its colors in various ways while it rotates in space:
  }
 
 [[Image:videofade.png]]
+
+([http://letmespellitoutforyou.com/samples/transit_filter_video.html View live sample])
 
 Unlike [[css/properties/transform|'''transform''']] functions,
 [[css/properties/filter|'''filter''']] functions must be explictly
