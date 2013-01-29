@@ -56,7 +56,7 @@ Bear in mind that we want to work on p0, p1 and p2 properties first of all, so p
 
 Your main go to point for help and guidance with CSS property references is Chris Mills.
 
-==Other people you can go to for help==
+===Other people you can go to for help===
 
 * Julee Burdekin, Adobe
 * Janet Swisher, Mozilla
