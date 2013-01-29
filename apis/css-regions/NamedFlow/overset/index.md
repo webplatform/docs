@@ -1,4 +1,4 @@
-{{Page_Title|NamedFlow.overset property}}
+{{Page_Title|overset}}
 {{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
