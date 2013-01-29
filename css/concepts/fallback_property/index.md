@@ -1,6 +1,6 @@
 Supplying a CSS ''fallback property'' is a common technique	to ensure
 cross-browser compatibility. In	the example below, the first
-[[css/property/background-image|'''background-image''']] specifies an
+[[css/properties/background-image|'''background-image''']] specifies an
 image file, which all browsers are able	to render. The additional ones
 after that specify the more recent
 [[css/functions/linear-gradient|'''linear-gradient()''']] function,
