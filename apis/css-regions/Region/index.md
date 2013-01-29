@@ -1,4 +1,4 @@
-{{Page_Title|Region interface}}
+{{Page_Title|Region}}
 {{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
