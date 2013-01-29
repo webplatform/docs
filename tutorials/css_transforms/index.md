@@ -67,6 +67,8 @@ default position:
 
 [[Image:transform_combo.png]]
 
+([http://letmespellitoutforyou.com/samples/trans_2d_combo.html View live sample])
+
 Transform properties were implemented recently enough that many
 browsers only support them with ''vendor prefixes'' such as
 '''-moz-''', '''-o-''', and '''-webkit-''' as shown above. Throughout
@@ -120,6 +122,8 @@ downward:
 
 [[Image:transform_translate.png]]
 
+([http://letmespellitoutforyou.com/samples/trans_2d_translate.html View live sample])
+
 The [[css/functions/translate()|'''translate()''']] function accepts
 up to two ''x'' and ''y'' values to move to the right and
 downward. These can specify any CSS measurement, including negative
@@ -150,10 +154,12 @@ pairs offer different ways to produce the effects shown below:
 
 [[Image:transform_scale.png]]
 
+([http://letmespellitoutforyou.com/samples/trans_2d_scale.html View live sample])
+
 The [[css/functions/rotate()|'''rotate()''']] function spins an
 element around its ''z'' axis.  It accepts a degree ('''deg''') or
 radian ('''rad''') measurement. (Radians are equivalent to the number
-of degrees multiplied by &pi;/180.) Radial measurements can wrap
+of degrees multiplied by &amp;pi;/180.) Radial measurements can wrap
 around, so the following values are equivalent:
 
  transform: rotate(20deg);
@@ -162,8 +168,10 @@ around, so the following values are equivalent:
 
 [[Image:transform_rotate.png]]
 
+([http://letmespellitoutforyou.com/samples/trans_2d_rotate.html View live sample])
+
 The [[css/functions/skew()|'''skew()''']] function leans an element
-over, altering its corner angle relative to the default 90&deg; and
+over, altering its corner angle relative to the default 90&amp;deg; and
 transforming the underlying rectangle into a parallelogram.  It
 accepts up to two degree ('''deg''') or radian ('''rad''')
 measurements.  The separate [[css/functions/skewX()|'''skewX()''']]
@@ -178,6 +186,8 @@ only the ''x'' axis.
  transform: skewX(10deg) skewY(-30deg); /* 3rd, alternate syntax */
 
 [[Image:transform_skew.png]]
+
+([http://letmespellitoutforyou.com/samples/trans_2d_skew.html View live sample])
 
 Note that skewing along both ''x'' and ''y'' makes the element appear to
 move into three-dimensional space, but the transformation actually
@@ -216,6 +226,8 @@ bottom right corner:
 
 [[Image:origin_rotate.png]]
 
+([http://letmespellitoutforyou.com/samples/trans_2d_origin_rotate.html View live sample])
+
 In this example, placing the origin of a skew transform at the bottom
 makes it appear to tip over:
 
@@ -225,6 +237,8 @@ makes it appear to tip over:
  }
 
 [[Image:origin_skew.png]]
+
+([http://letmespellitoutforyou.com/samples/trans_2d_origin_skew.html View live sample])
 
 The property accepts the keywords '''top''' and '''left''' for
 '''0%''', '''bottom''' and '''right''' for '''100%''', and
@@ -248,6 +262,8 @@ function:
  }
 
 [[Image:origin_scale.png]]
+
+([http://letmespellitoutforyou.com/samples/trans_2d_origin_scale.html View live sample])
 
 ==You need some perspective==
 
@@ -292,6 +308,8 @@ plane has shifted.
  }
 
 [[Image:transform_perspective.png]]
+
+([http://letmespellitoutforyou.com/samples/trans_3d_perspective.html View live sample])
 
 While [[css/properties/perspective|'''perspective''']] affects the
 perceived distance to an object along the ''z'' axis, the
@@ -358,6 +376,9 @@ is far behind them:
 
 [[Image:3d_originZ.png]]
 
+([http://letmespellitoutforyou.com/samples/trans_3d_origin.html View live sample])
+
+
  .parent {
     perspective          : 10000;
     perspective-origin-y : -3000;  /* view from above */
@@ -387,14 +408,16 @@ face the other way. As described below, you can rotate the entire
 card along with its children. In this case, with the backface hidden,
 only one of the child ''face'' elements displays at a time:
 
-<syntaxhighlight lang="xml">
- <div class="card">
-   <div class="face" id="jackheart"></div>
-   <div class="face"></div>
- </div>
-</syntaxhighlight>
+&lt;syntaxhighlight lang="xml">
+ &lt;div class="card">
+   &lt;div class="face" id="jackheart">&lt;/div>
+   &lt;div class="face">&lt;/div>
+ &lt;/div>
+&lt;/syntaxhighlight>
 
 [[Image:3d_backface.png]]
+
+([http://letmespellitoutforyou.com/samples/trans_3d_backface.html View live sample])
 
  body {
      background		: #ddd;
@@ -449,20 +472,20 @@ To clarify how to use this feature, this extended example builds a
 cube representing playing dice that can spin freely. The markup
 is implemented as a series of nested elements:
 
-<syntaxhighlight lang="xml">
- <div class="scene">
-     <div class="dice">
-         <div class="centered">
-             <div class="face"></div>
-             <div class="face"></div>
-             <div class="face"></div>
-             <div class="face"></div>
-             <div class="face"></div>
-             <div class="face"></div>
-         </div>
-     </div>
- </div>
-</syntaxhighlight>
+&lt;syntaxhighlight lang="xml">
+ &lt;div class="scene">
+     &lt;div class="dice">
+         &lt;div class="centered">
+             &lt;div class="face">&lt;/div>
+             &lt;div class="face">&lt;/div>
+             &lt;div class="face">&lt;/div>
+             &lt;div class="face">&lt;/div>
+             &lt;div class="face">&lt;/div>
+             &lt;div class="face">&lt;/div>
+         &lt;/div>
+     &lt;/div>
+ &lt;/div>
+&lt;/syntaxhighlight>
 
 Global styles define absolutely positioned 100-pixel-square boxes. The
 outlines will help clarify each nested transform:
@@ -599,6 +622,9 @@ apparent.  An animated transition between '''scale3d(0,0,0)''' and
 '''scale3d(1,1,1)''' sizes the object in all three dimensions:
 
 [[Image:scaleZ.png]]
+
+([http://letmespellitoutforyou.com/samples/trans_3d_nest.html View live sample])
+
 }}
 {{Notes_Section}}
 {{Compatibility_Section
