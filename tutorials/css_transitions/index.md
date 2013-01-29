@@ -282,7 +282,7 @@ The overall movement is staggered like this:
 
 ([http://letmespellitoutforyou.com/samples/transit_delay.html View live sample])
 
-&lt;span id="timing">&lt;/span>
+<span id="timing"></span>
 
 ==Timing functions==
 
@@ -305,30 +305,30 @@ animation's elapsed time and progress correspond to ''x'' and ''y''
 axes, so the more the line curves vertically along the way, the faster
 the animation proceeds:
 
-&lt;div style="display:inline-block">
-[[Image:transitF_linear.png]] &lt;br/>
-'''linear''' &lt;br/> '''cubic-bezier(0.0, 0.0, 1.0, 1.0)'''
-&lt;/div>
+<div style="display:inline-block">
+[[Image:transitF_linear.png]] <br/>
+'''linear''' <br/> '''cubic-bezier(0.0, 0.0, 1.0, 1.0)'''
+</div>
 
-&lt;div style="display:inline-block">
-[[Image:transitF_ease.png]] &lt;br/>
-'''ease''' &lt;br/> '''cubic-bezier(0.25, 0.1, 0.25, 1.0)'''
-&lt;/div>
+<div style="display:inline-block">
+[[Image:transitF_ease.png]] <br/>
+'''ease''' <br/> '''cubic-bezier(0.25, 0.1, 0.25, 1.0)'''
+</div>
 
-&lt;div style="display:inline-block">
-[[Image:transitF_easeinout.png]] &lt;br/>
-'''ease-in-out''' &lt;br/> '''cubic-bezier(0.42, 0, 0.58, 1.0)'''
-&lt;/div>
+<div style="display:inline-block">
+[[Image:transitF_easeinout.png]] <br/>
+'''ease-in-out''' <br/> '''cubic-bezier(0.42, 0, 0.58, 1.0)'''
+</div>
 
-&lt;div style="display:inline-block">
-[[Image:transitF_easein.png]] &lt;br/>
-'''ease-in''' &lt;br/> '''cubic-bezier(0.42, 0, 1.0, 1.0)'''
-&lt;/div>
+<div style="display:inline-block">
+[[Image:transitF_easein.png]] <br/>
+'''ease-in''' <br/> '''cubic-bezier(0.42, 0, 1.0, 1.0)'''
+</div>
 
-&lt;div style="display:inline-block">
-[[Image:transitF_easeout.png]] &lt;br/>
-'''ease-out''' &lt;br/> '''cubic-bezier(0, 0, 0.58, 1.0)'''
-&lt;/div>
+<div style="display:inline-block">
+[[Image:transitF_easeout.png]] <br/>
+'''ease-out''' <br/> '''cubic-bezier(0, 0, 0.58, 1.0)'''
+</div>
 
 This useful [http://cssglue.com/cubic cubic bezier function utility]
 allows you to create your own custom curve and the see the result
@@ -402,7 +402,7 @@ Note the various provisional names for the event:
 along with the standard '''transitionend''' (Gecko, Opera 12.10+,
 Internet Explorer).
 
-&lt;span id="advanced">&lt;/span>
+<span id="advanced"></span>
 
 ==Advanced image transitions==
 
