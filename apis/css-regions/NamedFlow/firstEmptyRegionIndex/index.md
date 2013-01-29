@@ -1,4 +1,4 @@
-{{Page_Title|NamedFlow.firstEmptyRegionIndex property}}
+{{Page_Title|firstEmptyRegionIndex}}
 {{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
@@ -23,8 +23,8 @@ function trimRegions(flowName) {
     var index = flow.firstEmptyRegionIndex;
     var regions = flow.getRegions();
     if (index == -1) return(false); // no empty regions?
-    // remove first empty region &amp; all thereafter:
-    for (var i = index; i &lt; regions.length; i++) {
+    // remove first empty region &amp;amp; all thereafter:
+    for (var i = index; i &amp;lt; regions.length; i++) {
         regions[i].parentNode.removeChild(regions[i]);
     }
     return(true);
