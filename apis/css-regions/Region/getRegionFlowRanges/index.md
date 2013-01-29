@@ -1,4 +1,4 @@
-{{Page_Title|Region.getRegionFlowRanges() method}}
+{{Page_Title|getRegionFlowRanges()}}
 {{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
