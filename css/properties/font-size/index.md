@@ -129,7 +129,7 @@ Along with many other CSS properties, '''font-size''' can also be applied direct
 |Notes_rows={{Compatibility Notes Row
 |Browser=IE
 |Version=≤ 6.0
-|Note=Requires a [[html/elements/!DOCTYPE|'''!DOCTYPE''']] declaration that triggers [[css/concepts/standards_mode|standards mode]], otherwise the initial value is '''small''' rather than '''medium'''.
+|Note=Requires a [[html/elements/!DOCTYPE|'''!DOCTYPE''']] declaration that triggers [[concepts/standards_mode|standards mode]], otherwise the initial value is '''small''' rather than '''medium'''.
 }}{{Compatibility Notes Row
 |Browser=IE
 |Version=≤ 7.0
