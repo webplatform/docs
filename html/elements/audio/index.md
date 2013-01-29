@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|The audio element is used for playing audio files and may include a minimal media player user interface.}}
+{{Summary_Section|The '''audio''' element is used for playing audio files and may include a minimal media player user interface.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLAudioElement
 |Content====Standards information===
@@ -369,6 +369,7 @@ Beginning with Internet Explorer 9, any audio or video content needs the correc
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Feature=Basic Support
 |Chrome_supported=Yes
