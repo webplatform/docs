@@ -1,4 +1,4 @@
-{{Page_Title|flow-into property}}
+{{Page_Title|flow-into}}
 {{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
@@ -32,21 +32,21 @@ section.layout > div {
 }}{{Single Example
 |Language=HTML
 |Description=...flows the article through the series of '''div''' elements, transforming them into ''regions'' and replacing the placeholder text:
-|Code=&lt;!-- CONTENT -->
+|Code=&amp;lt;!-- CONTENT -->
 
-&lt;article class="content">
+&amp;lt;article class="content">
   ...
-&lt;/article>
+&amp;lt;/article>
 
-&lt;!-- LAYOUT -->
+&amp;lt;!-- LAYOUT -->
 
-&lt;section class="layout">
-  &lt;div>Region #1&lt;/div>
-  &lt;div>Region #2&lt;/div>
-  &lt;div>Region #3&lt;/div>
-  &lt;div>Region #4&lt;/div>
-  &lt;div>Region #5&lt;/div>
-&lt;/section>
+&amp;lt;section class="layout">
+  &amp;lt;div>Region #1&amp;lt;/div>
+  &amp;lt;div>Region #2&amp;lt;/div>
+  &amp;lt;div>Region #3&amp;lt;/div>
+  &amp;lt;div>Region #4&amp;lt;/div>
+  &amp;lt;div>Region #5&amp;lt;/div>
+&amp;lt;/section>
 }}
 }}
 {{Notes_Section
