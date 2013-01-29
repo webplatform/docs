@@ -20,10 +20,10 @@
 |Description=A set of keywords interpreted relative to the parent element's '''font-size''', either '''smaller''' or '''larger'''.
 }}{{CSS Property Value
 |Data Type=length
-|Description=A positive numeric value followed by a string designating absolute units ([[css/units/cm|'''cm''']], [[css/units/mm|'''mm''']], [[css/units/in|'''in''']], [[css/units/pt|'''pt''']], [[css/units/pc|'''pc''']]) or relative units ([[css/units/px|'''px''']], [[css/units/rem|'''rem''']], [[css/units/em|'''em''']], [[css/units/ex|'''ex''']], [[css/units/vw|'''vw''']], [[css/units/vh|'''vh''']], [[css/units/vmin|'''vmin''']]). Proportional [[css/units/em|'''em''']] and [[css/units/ex|'''ex''']] measurements are based on the parent element's '''font-size''', while [[css/units/rem|'''rem''']] measurements are based on that of the root element.
+|Description=A positive numeric value followed by a string designating [[css/units/length|absolute or relative units of length]]. Proportional [[css/units/length|'''em''' and '''ex''']] measurements are based on the parent element's '''font-size''', while [[css/units/length|'''rem''']] measurements are based on that of the root element.
 }}{{CSS Property Value
 |Data Type=percentage
-|Description=A positive integer followed by a percent ([[css/units/percent|'''%''']]), indicating the proportion of the parent element's font-size.
+|Description=A positive integer followed by a percent ([[css/units/numeric|'''%''']]), indicating the proportion of the parent element's '''font-size'''.
 }}
 }}
 {{Examples_Section
@@ -141,10 +141,10 @@ Along with many other CSS properties, '''font-size''' can also be applied direct
 }}{{Compatibility Notes Row
 |Browser=IE
 |Version=≤ 8.0
-|Note=Does not support [[css/units/rem|'''rem''']] values; specify other supported values as fallback properties.
+|Note=Does not support [[css/units/length|'''rem''']] values; specify other supported values as fallback properties.
 }}{{Compatibility Notes Row
 |Browser=All
-|Note=Check compatibility for more recent [[css/units/vw|'''vw''']], [[css/units/vh|'''vh''']], and [[css/units/vmin|'''vmin''']] viewport unit values.
+|Note=Check compatibility for more recent [[css/units/length|viewport unit values]].
 }}
 }}
 {{See_Also_Section
