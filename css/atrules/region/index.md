@@ -1,4 +1,4 @@
-{{Page_Title|@region rule}}
+{{Page_Title|@region}}
 {{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
@@ -6,8 +6,8 @@
 {{CSS_At_Rule
 |Content=The basic syntax is as follows:
 
- @region &lt;region_selector> {
-     &lt;content_selector> {
+ @region &amp;lt;region_selector> {
+     &amp;lt;content_selector> {
          /* ... CSS properties ... */
      }
  }
