@@ -25,16 +25,16 @@ Here's one that demonstrates various features of CSS regions:
 The HTML markup looks like this, and contains placeholder text
 indicating how the content is supposed to flow:
 
-<syntaxhighlight lang="xml">
- <section class="page">
-   <div id="title"> <h1>Region #1</h1>         </div>
-   <div id="intro"> <h1>Region #2</h1>         </div>
-   <div id="col1">  <h1>Region #3</h1>         </div>
-   <div id="col2a"> <h1>Region #4</h1>         </div>
-   <div id="pull">  <h1>(Separate Region)</h1> </div>
-   <div id="col2b"> <h1>Region #5</h1>         </div>
- </section>
-</syntaxhighlight>
+&lt;syntaxhighlight lang="xml">
+ &lt;section class="page">
+   &lt;div id="title"> &lt;h1>Region #1&lt;/h1>         &lt;/div>
+   &lt;div id="intro"> &lt;h1>Region #2&lt;/h1>         &lt;/div>
+   &lt;div id="col1">  &lt;h1>Region #3&lt;/h1>         &lt;/div>
+   &lt;div id="col2a"> &lt;h1>Region #4&lt;/h1>         &lt;/div>
+   &lt;div id="pull">  &lt;h1>(Separate Region)&lt;/h1> &lt;/div>
+   &lt;div id="col2b"> &lt;h1>Region #5&lt;/h1>         &lt;/div>
+ &lt;/section>
+&lt;/syntaxhighlight>
 
 Here is the CSS for the layout, which for the sake of this example
 uses a lot of absolute positioning and fixed heights:
@@ -117,16 +117,16 @@ they flow. The example below flows content sources #1-3 into
 the same chain of regions. Rearranging the ''article'' nodes within
 the document shuffles their order within the output region:
 
-<syntaxhighlight lang="xml">
- <style>
+&lt;syntaxhighlight lang="xml">
+ &lt;style>
    article { flow-into: articles }
    div.region { flow-from: articles }
- </style>
- <article> source #1 </article>
- <article> source #2 </article>
- <article> source #3 </article>
- <div class="region"> </div>
-</syntaxhighlight>
+ &lt;/style>
+ &lt;article> source #1 &lt;/article>
+ &lt;article> source #2 &lt;/article>
+ &lt;article> source #3 &lt;/article>
+ &lt;div class="region"> &lt;/div>
+&lt;/syntaxhighlight>
 
 
 ==Controlling region breaks==
@@ -183,20 +183,20 @@ moved somewhere else so that other content can flow in to take its
 place. In this example, '''aside''' tags represent ''pull-quote''
 content that needs to be diverted from the main flow:
 
-<syntaxhighlight lang="xml">
- <article>
-   <h1>    Sample CSS Regions Layout                                      </h1>
-   <p>     Riverrun, past Eve and Adam's...                               </p>
-   <p>     Sir Tristram, violer d'amores...                               </p>
-   <p>     The fall... of a once wallstrait oldparr...                    </p>
-   <aside> The oaks of ald now they lie in peat...                        </aside>
-   <p>     What clashes here of wills gen wonts...                        </p>
-   <h2>    Bygmester Finnegan, of the Stuttering Hand...                  </h2>
-   <p>     ...freemen's maurer, lived in the broadest way immarginable... </p>
-   <p>     He addle liddle phifie Annie...                                </p>
+&lt;syntaxhighlight lang="xml">
+ &lt;article>
+   &lt;h1>    Sample CSS Regions Layout                                      &lt;/h1>
+   &lt;p>     Riverrun, past Eve and Adam's...                               &lt;/p>
+   &lt;p>     Sir Tristram, violer d'amores...                               &lt;/p>
+   &lt;p>     The fall... of a once wallstrait oldparr...                    &lt;/p>
+   &lt;aside> The oaks of ald now they lie in peat...                        &lt;/aside>
+   &lt;p>     What clashes here of wills gen wonts...                        &lt;/p>
+   &lt;h2>    Bygmester Finnegan, of the Stuttering Hand...                  &lt;/h2>
+   &lt;p>     ...freemen's maurer, lived in the broadest way immarginable... &lt;/p>
+   &lt;p>     He addle liddle phifie Annie...                                &lt;/p>
    ...
- </article>
-</syntaxhighlight>
+ &lt;/article>
+&lt;/syntaxhighlight>
 
 Thankfully to address this problem, there can be more than one named
 flow in a document, and thus more than one series of regions. Defining
@@ -240,21 +240,21 @@ extracted from wherever they happen to appear within the main flow of
 content, and appear instead appended to the content, with no need to
 modify the content's semantic structure:
 
-<syntaxhighlight lang="xml">
- <style>
+&lt;syntaxhighlight lang="xml">
+ &lt;style>
    article, aside.endnote { flow-into: main }
- </style>
+ &lt;/style>
  
- <article>
+ &lt;article>
    ...
-   <aside class="endnote">...</aside>
+   &lt;aside class="endnote">...&lt;/aside>
    ...
-   <aside class="endnote">...</aside>
+   &lt;aside class="endnote">...&lt;/aside>
    ...
-   <h2>Endnotes</h2>
- </article>
- <!-- endnotes appear here -->
-</syntaxhighlight>
+   &lt;h2>Endnotes&lt;/h2>
+ &lt;/article>
+ &lt;!-- endnotes appear here -->
+&lt;/syntaxhighlight>
 
 However, descendant elements that are defined as the default
 '''flow-into:none''' cannot be prevented from flowing along with an
@@ -365,7 +365,7 @@ have displayed the complex layout, and also suppressing content
 elements (such as the pull-quote) that do not need to be presented
 within the simpler layout:
 
- /* tablet &amp; desktop browsers */
+ /* tablet &amp;amp; desktop browsers */
  @media screen and (min-width: 480px){
  
      /* pour article into section */
