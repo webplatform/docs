@@ -224,7 +224,7 @@ Test!
 </body>
 </html></syntaxhighlight>
  
-It is not as easy with CSS. The <code>style</code> element does not have a <code>src</code> attribute, so you need to use the <code>link</code> element instead — it has an <code>href</code> attribute that specifies an external CSS file to import, and a <code>media</code> attribute to define if these styles should be used for screen, print etc, similar to what we saw earlier on. By putting both CSS and JavaScript into their own files you can cut down the length of the <code>head</code> immensely, as shown below ([http://dev.opera.com/articles/view/13-the-html-head-element/externalall.html externalall.html]):
+It is not as easy with CSS. The <code>style</code> element does not have a <code>src</code> attribute to point to your external file, so we can't use it to import a stylesheet. Instead, external stylesheets are loaded using the <code>link</code> element — it has an <code>href</code> attribute that specifies an external CSS file to import, a <code>rel</code> attribute to specify the external file's relationship to the current page (in this case, it is a <code>stylesheet</code>), and a <code>media</code> attribute to define if these styles should be used for screen, print etc, similar to what we saw earlier on. By putting both CSS and JavaScript into their own files you can cut down the length of the <code>head</code> immensely, as shown below ([http://dev.opera.com/articles/view/13-the-html-head-element/externalall.html externalall.html]):
  
 <syntaxhighlight lang="html5"><!DOCTYPE html>
 <html lang="en-GB">
