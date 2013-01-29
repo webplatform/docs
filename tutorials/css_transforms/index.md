@@ -1,5 +1,7 @@
 {{Page_Title|Manipulating content with CSS3 transforms}}
-{{Flags}}
+{{Flags
+|Editorial notes=Still to do: conclusion; clarify perspective() function; live samples. Contact [[User:Sierra]] and see bug [https://www.w3.org/Bugs/Public/show_bug.cgi?id=20410 #20410].
+}}
 {{Byline
 |Name=Mike Sierra
 }}
@@ -406,12 +408,12 @@ face the other way. As described below, you can rotate the entire
 card along with its children. In this case, with the backface hidden,
 only one of the child ''face'' elements displays at a time:
 
-&lt;syntaxhighlight lang="xml">
- &lt;div class="card">
-   &lt;div class="face" id="jackheart">&lt;/div>
-   &lt;div class="face">&lt;/div>
- &lt;/div>
-&lt;/syntaxhighlight>
+ <syntaxhighlight lang="xml">
+ <div class="card">
+   <div class="face" id="jackheart"></div>
+   <div class="face"></div>
+ </div>
+ </syntaxhighlight>
 
 [[Image:3d_backface.png]]
 
@@ -470,20 +472,20 @@ To clarify how to use this feature, this extended example builds a
 cube representing playing dice that can spin freely. The markup
 is implemented as a series of nested elements:
 
-&lt;syntaxhighlight lang="xml">
- &lt;div class="scene">
-     &lt;div class="dice">
-         &lt;div class="centered">
-             &lt;div class="face">&lt;/div>
-             &lt;div class="face">&lt;/div>
-             &lt;div class="face">&lt;/div>
-             &lt;div class="face">&lt;/div>
-             &lt;div class="face">&lt;/div>
-             &lt;div class="face">&lt;/div>
-         &lt;/div>
-     &lt;/div>
- &lt;/div>
-&lt;/syntaxhighlight>
+<syntaxhighlight lang="xml">
+ <div class="scene">
+     <div class="dice">
+         <div class="centered">
+             <div class="face"></div>
+             <div class="face"></div>
+             <div class="face"></div>
+             <div class="face"></div>
+             <div class="face"></div>
+             <div class="face"></div>
+         </div>
+     </div>
+ </div>
+</syntaxhighlight>
 
 Global styles define absolutely positioned 100-pixel-square boxes. The
 outlines will help clarify each nested transform:
@@ -622,6 +624,7 @@ apparent.  An animated transition between '''scale3d(0,0,0)''' and
 [[Image:scaleZ.png]]
 
 ([http://letmespellitoutforyou.com/samples/trans_3d_nest.html View live sample])
+
 }}
 {{Notes_Section}}
 {{Compatibility_Section
