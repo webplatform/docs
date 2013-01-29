@@ -58,6 +58,8 @@ example will illustrate several other features below:
 
 [[Image:anim_pulse.png]]
 
+([http://letmespellitoutforyou.com/samples/anim_pulse.html View live sample])
+
 The [[css/properties/animation|'''animation''']] CSS property
 specifies the ''name'' of an animation you will supply, '''pulse''' in
 this case, and its overall ''duration'' of 1 second. Both are
@@ -204,6 +206,8 @@ In this case, setting different durations makes the two ''fade'' and
      to   { transform : scale(0.75); }
  }
 
+([http://letmespellitoutforyou.com/samples/anim_pulse_multiple.html View live sample])
+
 Make sure that any keyframes or transitions that execute concurrently
 don't manipulate any of the same properties. This is ''not'' a problem
 for animations or transitions applied to different elements.
@@ -237,6 +241,8 @@ for a series of banner advertisements, which then continuously cycle
 horizontally and rewind to display the first:
 
 [[Image:anim_cycle.png]]
+
+([http://letmespellitoutforyou.com/samples/anim_banner.html View live sample])
 
 To achieve this effect, the
 [[css/properties/animation-delay|'''animation-delay''']] property
@@ -384,6 +390,8 @@ then hit a wall at the left edge and wobble to a stop:
 
 [[Image:animDelay.png]]
 
+([http://letmespellitoutforyou.com/samples/anim_timing.html View live sample])
+
 Setting the timing function to '''linear''' makes the shift from a
 moving to a stopped state as abrupt as possible. This occurs at the
 70% keyframe:
@@ -418,7 +426,7 @@ need to add alternative ''Webkit''-prefixed property names:
 
  window.onload = function() {
      var delay, divs = document.querySelectorAll('div');
-     for (var i = 0, l = divs.length; i &amp;lt; l; i++) {
+     for (var i = 0, l = divs.length; i &amp;amp;lt; l; i++) {
          // set delay up to 1 second:
          delay  = Math.round(Math.random() * 1000) + 'ms';
          divs[i].style.animationDelay = delay;
@@ -446,27 +454,27 @@ value. The same is true when applying the property directly to the
 element. The first button below only works once, but the second can be
 repeated because it responds to asynchronous mouse or touch input:
 
- &amp;lt;div onclick="document.querySelector('#animation').style.WebkitAnimationName = 'sequence';">
- REPLAY&amp;lt;/div>
+ &amp;amp;lt;div onclick="document.querySelector('#animation').style.WebkitAnimationName = 'sequence';">
+ REPLAY&amp;amp;lt;/div>
  
- &amp;lt;div
+ &amp;amp;lt;div
     onmousedown='document.querySelector("#animation").style.WebkitAnimationName = "";'
     onmouseup='document.querySelector("#animation").style.WebkitAnimationName = "sequence";'
- >REPLAY&amp;lt;/div>
+ >REPLAY&amp;amp;lt;/div>
 
 As a workaround, you can inject CSS into a local '''style''' region.
 Re-interpreting the CSS causes the animation to re-execute:
 
- &amp;lt;style id="customCSS">&amp;lt;/style>
+ &amp;amp;lt;style id="customCSS">&amp;amp;lt;/style>
  . . .
- &amp;lt;div onclick="replay()">REPLAY&amp;lt;/div>
+ &amp;amp;lt;div onclick="replay()">REPLAY&amp;amp;lt;/div>
  . . .
- &amp;lt;script>
+ &amp;amp;lt;script>
  function replay() {
      document.querySelector('#customCSS').textContent = 
          "div { animation-name: 'sequence'; -webkit-animation-name: 'sequence' }";
  }
- &amp;lt;/script>
+ &amp;amp;lt;/script>
 
 Applying a [[css/atrules/@keyframes|'''@keyframes''']] rule is a bit
 more complex than it is to set properties. Perhaps the easiest way is
@@ -492,7 +500,7 @@ Here is how you might change the initial color to a shade of gray:
  var sources = document.styleSheets; // from link/style tags
  var rules = sources[0].cssRules;    // list of all styles and at-rules
  var rule = rules[0];                // get first
- if( rule.type == rule.KEYFRAMES_RULE &amp;#124;&amp;#124; rule.type == rule.WEBKIT_KEYFRAMES_RULE ) {
+ if( rule.type == rule.KEYFRAMES_RULE &amp;amp;#124;&amp;amp;#124; rule.type == rule.WEBKIT_KEYFRAMES_RULE ) {
      console.log(rule.name);         // shiftColor
      console.log(rule[0].cssText);   // 0% { background-color: rgb(221, 160, 221); }
      if ( rule[0].keyText == '0%' )  // 'from' converts to '0%'
