@@ -1,4 +1,4 @@
-{{Page_Title|CSSRegionStyleRule interface}}
+{{Page_Title|CSSRegionStyleRule}}
 {{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
