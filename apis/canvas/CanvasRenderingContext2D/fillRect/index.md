@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|Paints the specified rectangular area using the ''fillStyle''.}}
+{{Summary_Section|Paints the specified rectangular area using the color (or style) defined by''[[apis/canvas/CanvasRenderingContext2D/fillStyle|fillStyle]]''.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=x
@@ -15,31 +15,25 @@
 |Description=The y-coordinate, in pixels, of the upper-left corner of the rectangle in relation to the coordinates of the canvas.
 |Optional=No
 }}{{Method Parameter
-|Name=w
+|Name=width
 |Data type=Number
-|Description=The width, in pixels, of the rectangle in relation to the coordinates of the canvas.
+|Description=The width, in pixels, of the rectangle in relation to the coordinates of the canvas. With value 0, the method has no effect.
 |Optional=No
 }}{{Method Parameter
-|Name=h
+|Name=height
 |Data type=Number
-|Description=The height, in pixels, of the rectangle in relation to the coordinates of the canvas.
+|Description=The height, in pixels, of the rectangle in relation to the coordinates of the canvas. With value 0, the method has no effect.
 |Optional=No
 }}
 |Method_applies_to=apis/canvas/CanvasRenderingContext2D
-|Example_object_name=object
-|Return_value_name=object
-|Javascript_data_type=DOM Node
-|Return_value_description=Type: '''HRESULT'''
-
-If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRESULT''' error code.
+|Example_object_name=context
+|Javascript_data_type=void
 }}
 {{Examples_Section
 |Not_required=Yes
 |Examples=
 }}
-{{Notes_Section
-|Notes=If either height (''h'') or width (''w'') are zero, this method has no effect.
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=W3C HTML Canvas 2D Specification
