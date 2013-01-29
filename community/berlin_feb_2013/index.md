@@ -36,7 +36,7 @@ To get started with APIs:
 
 * Read the API project plan at http://docs.webplatform.org/wiki/WPD:Proposals/api_docs, which includes a list of the main APIs we want to work on.
 * Read our guide to creating API pages at http://docs.webplatform.org/wiki/WPD:Creating_API_pages.
-* Choose what API you want to work on, and mark yourself in the "Assigned to" column at our tracking spreadsheet (XXXXXXXXXX ASSUMING YOU'LL HAVE SOMETHING LIKE THIS)
+* Choose what API you want to work on, and let us know — we'll track who is working on what, so that there are no overlaps.
 * Get started.
 
 Your main go to point for help and guidance with APIs is Scott Rowe.
@@ -50,7 +50,7 @@ To get started with CSS property references:
 
 * Read our guide to creating CSS property reference pages at http://docs.webplatform.org/wiki/WPD:CSS_property_guide
 * Have a look at our CSs property tracking sheets at https://docs.google.com/spreadsheet/ccc?key=0AkRs-89PKiZpdE0xdm9Sb1ZvRW1ZRzMtWEdyU0Z4OEE#gid=13
-* Choose a set of CSS properties you want to work on, and mark yourself in the "Assigned to" column at our tracking spreadsheet
+* Choose a set of CSS properties you want to work on, and let us know — we'll track who is working on what, so that there are no overlaps.
 
 Bear in mind that we want to work on p0, p1 and p2 properties first of all, so please stick to those first, and go on to lower priorities if they are all completed.
 
