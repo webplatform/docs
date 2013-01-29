@@ -1,4 +1,4 @@
-{{Page_Title|NamedFlow.name property}}
+{{Page_Title|NamedFlow.name}}
 {{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
