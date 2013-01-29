@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|bdo stands for Bi-Directional Override. It allows you to specify the direction in which text is to be rendered on the page.}}
+{{Summary_Section|'''bdo''' stands for Bi-Directional Override. It allows you to specify the direction in which text is to be rendered on the page.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
 }}
