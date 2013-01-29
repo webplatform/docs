@@ -1,4 +1,4 @@
-{{Page_Title|break-after property}}
+{{Page_Title|break-after}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
@@ -67,7 +67,7 @@ h2, h3 {
 {{Notes_Section
 |Usage=The break-after property is not supported for absolutely positioned elements.
 |Import_Notes====Syntax===
-&lt;code>'''break-after: '''auto '''{{!}}''' always '''{{!}}''' avoid '''{{!}}''' left '''{{!}}''' right '''{{!}}''' page '''{{!}}''' column '''{{!}}''' avoid-page '''{{!}}''' avoid-column&lt;/code>
+&amp;lt;code>'''break-after: '''auto '''{{!}}''' always '''{{!}}''' avoid '''{{!}}''' left '''{{!}}''' right '''{{!}}''' page '''{{!}}''' column '''{{!}}''' avoid-page '''{{!}}''' avoid-column&amp;lt;/code>
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -90,40 +90,40 @@ h2, h3 {
 * Adobe Developer's Network: [http://www.adobe.com/devnet/html5/articles/css3-regions.html CSS3 Regions: Rich page layout with HTML and CSS3]
 * [http://adobe.github.com/web-platform/samples/css-regions Sample pages]
 |Manual_sections====Related pages (MSDN)===
-*&lt;code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]&lt;/code>
-*&lt;code>[[css/cssom/currentStyle|currentStyle]]&lt;/code>
-*&lt;code>[[css/cssom/style|style]]&lt;/code>
-*&lt;code>address&lt;/code>
-*&lt;code>blockQuote&lt;/code>
-*&lt;code>div&lt;/code>
-*&lt;code>dl&lt;/code>
-*&lt;code>fieldSet&lt;/code>
-*&lt;code>form&lt;/code>
-*&lt;code>noFrames&lt;/code>
-*&lt;code>noScript&lt;/code>
-*&lt;code>ol&lt;/code>
-*&lt;code>p&lt;/code>
-*&lt;code>pre&lt;/code>
-*&lt;code>[[html/elements/table|table]]&lt;/code>
-*&lt;code>ul&lt;/code>
-*&lt;code>dd&lt;/code>
-*&lt;code>dt&lt;/code>
-*&lt;code>li&lt;/code>
-*&lt;code>tBody&lt;/code>
-*&lt;code>td&lt;/code>
-*&lt;code>tFoot&lt;/code>
-*&lt;code>th&lt;/code>
-*&lt;code>tHead&lt;/code>
-*&lt;code>tr&lt;/code>
-*&lt;code>button&lt;/code>
-*&lt;code>del&lt;/code>
-*&lt;code>ins&lt;/code>
-*&lt;code>map&lt;/code>
-*&lt;code>object&lt;/code>
-*&lt;code>script&lt;/code>
-*&lt;code>Reference&lt;/code>
-*&lt;code>[[css/properties/break-before|breakBefore]]&lt;/code>
-*&lt;code>[[css/properties/break-inside|breakInside]]&lt;/code>
+*&amp;lt;code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]&amp;lt;/code>
+*&amp;lt;code>[[css/cssom/currentStyle|currentStyle]]&amp;lt;/code>
+*&amp;lt;code>[[css/cssom/style|style]]&amp;lt;/code>
+*&amp;lt;code>address&amp;lt;/code>
+*&amp;lt;code>blockQuote&amp;lt;/code>
+*&amp;lt;code>div&amp;lt;/code>
+*&amp;lt;code>dl&amp;lt;/code>
+*&amp;lt;code>fieldSet&amp;lt;/code>
+*&amp;lt;code>form&amp;lt;/code>
+*&amp;lt;code>noFrames&amp;lt;/code>
+*&amp;lt;code>noScript&amp;lt;/code>
+*&amp;lt;code>ol&amp;lt;/code>
+*&amp;lt;code>p&amp;lt;/code>
+*&amp;lt;code>pre&amp;lt;/code>
+*&amp;lt;code>[[html/elements/table|table]]&amp;lt;/code>
+*&amp;lt;code>ul&amp;lt;/code>
+*&amp;lt;code>dd&amp;lt;/code>
+*&amp;lt;code>dt&amp;lt;/code>
+*&amp;lt;code>li&amp;lt;/code>
+*&amp;lt;code>tBody&amp;lt;/code>
+*&amp;lt;code>td&amp;lt;/code>
+*&amp;lt;code>tFoot&amp;lt;/code>
+*&amp;lt;code>th&amp;lt;/code>
+*&amp;lt;code>tHead&amp;lt;/code>
+*&amp;lt;code>tr&amp;lt;/code>
+*&amp;lt;code>button&amp;lt;/code>
+*&amp;lt;code>del&amp;lt;/code>
+*&amp;lt;code>ins&amp;lt;/code>
+*&amp;lt;code>map&amp;lt;/code>
+*&amp;lt;code>object&amp;lt;/code>
+*&amp;lt;code>script&amp;lt;/code>
+*&amp;lt;code>Reference&amp;lt;/code>
+*&amp;lt;code>[[css/properties/break-before|breakBefore]]&amp;lt;/code>
+*&amp;lt;code>[[css/properties/break-inside|breakInside]]&amp;lt;/code>
 }}
 {{Topics|CSS}}
 {{External_Attribution
