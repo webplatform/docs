@@ -59,6 +59,8 @@ navigation panel:
 
 [[Image:transit_parent.png]]
 
+([http://letmespellitoutforyou.com/samples/transit_nested_toplayer.html View live sample])
+
 To achieve this effect, a default style sheet defines most of how it
 appears. A second style sheet changes how it appears when it is
 assigned the ''expanded'' class.
@@ -166,6 +168,8 @@ CSS transforms]] for details.)  Combined, the two sets of transitions
 execute simultaneously:
 
 [[Image:transit_simple.png|280px]]
+
+([http://letmespellitoutforyou.com/samples/transit_nested.html View live sample])
 
 For an element to be transitioned, it must specify a numeric value or
 percentage, such as a measurement or set of coordinates, or values
