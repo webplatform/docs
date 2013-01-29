@@ -1,4 +1,4 @@
-{{Page_Title|Document.getNamedFlows() method}}
+{{Page_Title|getNamedFlows()}}
 {{Flags
 |Editorial notes=NamedFlowCollection not in list of return value types
 }}
@@ -24,7 +24,7 @@ flow = document.getNamedFlows().item(0);
 flow = document.getNamedFlows()[0];
 
 flows = document.getNamedFlows();
-for (var i = 0; i &lt; flows.length; i++) {
+for (var i = 0; i &amp;lt; flows.length; i++) {
     flow = flows[i];
     // do something with flow
 }
