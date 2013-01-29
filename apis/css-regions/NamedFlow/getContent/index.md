@@ -1,4 +1,4 @@
-{{Page_Title|NamedFlow.getContent() method}}
+{{Page_Title|getContent()}}
 {{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
