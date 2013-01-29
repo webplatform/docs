@@ -1,6 +1,5 @@
 {{Page_Title|Text values}}
 {{Flags}}
-
 {{API_Name}}
 {{Summary_Section|Specify strings, identifiers, keywords, and functions}}
 {{Concept_Page
@@ -10,10 +9,9 @@
 
 * An ''identifier'' referring to an object defined elsewhere, such as a [[tutorials/css_animation|keyframe animation]] or a [[tutorials/css-regions|named flow]].
 
-* A ''keyword'' value recognized by individual CSS properties. For example, the [[css/properties/text-align]] property recognizes '''center''' as a valid value. (All CSS properties accept the built-in '''inherit''' value for the parent element's value, and '''initial''' for the default value.)
+* A ''keyword'' value recognized by individual CSS properties. For example, the [[css/properties/text-align|'''text-align''']] property recognizes '''justify''' as a valid value. (All CSS properties accept the built-in '''inherit''' value for the parent element's value, and '''initial''' for the default value.)
 
 * A ''function'' accepts strings and measurements as values. For example, the [[css/functions/url|'''url()''']] function specifies a path to a file or web page.
-
 }}
 {{Examples_Section
 |Not_required=No
@@ -41,7 +39,6 @@
     from { opacity: 1   }
     to   { opacity: 0.5 }
 }
-
 }}
 }}
 {{Notes_Section}}
