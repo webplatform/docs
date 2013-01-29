@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|Paints the specified rectangular area using the color (or style) defined by''[[apis/canvas/CanvasRenderingContext2D/fillStyle|fillStyle]]''.}}
+{{Summary_Section|Paints the specified rectangular area using the color (or style) defined by ''[[apis/canvas/CanvasRenderingContext2D/fillStyle|fillStyle]]''.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=x
