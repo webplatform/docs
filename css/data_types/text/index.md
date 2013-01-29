@@ -11,9 +11,7 @@
 
 * A ''keyword'' value recognized by individual CSS properties. For example, the [[css/properties/text-align|'''text-align''']] property recognizes '''justify''' as a valid value. (All CSS properties accept the built-in '''inherit''' value for the parent element's value, and '''initial''' for the default value.)
 
-* A ''function'' accepts strings and measurements as values. For example, the [[css/functions/url|'''url()''']] function specifies a path to a file or web page. 
-
-See [[css/units/color|color units]] for information about various '''rgba()''' and '''hsla()''' functions, otherwise see [[css/functions|CSS functions]] for others.
+* A ''function'' accepts strings and measurements as values. For example, the [[css/functions/url|'''url()''']] function specifies a path to a file or web page.  See [[css/units/color|color units]] for information about various '''rgba()''' and '''hsla()''' functions, otherwise see [[css/functions|CSS functions]] for others.
 }}
 {{Examples_Section
 |Not_required=No
