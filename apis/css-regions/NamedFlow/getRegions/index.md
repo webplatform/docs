@@ -1,4 +1,4 @@
-{{Page_Title|NamedFlow.getRegions() method}}
+{{Page_Title|getRegions()}}
 {{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
