@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|Deprecated}}
 {{API_Name}}
-{{Summary_Section|The applet element is used to embed a Java applet into a web page.}}
+{{Summary_Section|The '''applet''' element is used to embed a Java applet into a web page.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLAppletElement
 |Content====HTML information===
