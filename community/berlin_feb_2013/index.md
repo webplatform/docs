@@ -19,14 +19,16 @@ So, find somewhere comfortable to sit, grab a drink, log on to the Wifi, and let
 ==Work plan==
 
 
-So, the main focus areas we have for today are:
+So, the main focus groups we have for today are:
 
-* APIs
-* CSS property references
+* The APIs group
+* The CSS property references group
 
 We decided to provide two focus areas to choose from because well, some people hate CSS, and some people aren't very adept at scripting. Please choose one of these areas to focus on. Even if you are not interested in writing documentation at all, there will still be a good deal to do, in terms of testing, code example writing, and more.
 
-If you are still not convinced, and really want to do something else, perhaps write some code to fix your most hated WebPlatform bug, then please, talk to us after I've finished up this talk and have everybody moving.
+Of course if you want to do something other than these two, you can be in the third group, which is technically titled:
+
+* The "do what you want" group ;-)
 
 ===APIs===
 
@@ -55,6 +57,18 @@ To get started with CSS property references:
 Bear in mind that we want to work on p0, p1 and p2 properties first of all, so please stick to those first, and go on to lower priorities if they are all completed.
 
 Your main go to point for help and guidance with CSS property references is Chris Mills.
+
+=== Do what you want===
+
+If you don't like the idea of working on CSS or API docs, please have a think about what else you'd like to do. You could:
+
+* Write some code to fix your most hated WebPlatform bug
+* Work on a useful extension/template mod/other addition to WebPlatform
+* Work on some different documentation than CSS and APIs (there's a lot to do)
+* Work on some graphics/styling that will improve the look of the site
+
+Please let u know what you want to work on, and we'll keep track of your progress.
+
 
 ===Other people you can go to for help===
 
