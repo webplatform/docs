@@ -1,4 +1,4 @@
-{{Page_Title|Region.getComputedRegionStyle() method}}
+{{Page_Title|getComputedRegionStyle()}}
 {{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
@@ -41,7 +41,7 @@ function regionsVaryCSS(regs, elem, prop) {
     var values = {};
     var value, style;
     var count = 0;
-    for (var i = 0; i &lt; regs.length; i++) {
+    for (var i = 0; i &amp;lt; regs.length; i++) {
         value = regs[i].getComputedRegionStyle(elem).getPropertyValue(prop);
         if (! values[value]) values[value] = 0;
         values[value]++;
