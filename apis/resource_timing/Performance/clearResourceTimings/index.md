@@ -47,7 +47,7 @@ S_OK
 |Manual_sections====Related pages (MSDN)===
 *<code>[[apis/timing/objects/performance|performance]]</code>
 }}
-{{Topics}}
+{{Topics|Resource Timing}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
