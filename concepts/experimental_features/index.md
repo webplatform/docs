@@ -59,7 +59,7 @@ emerging cross-browser web standards, especially those prefixed
 ''dom''. For example, the '''dom.event.clipboardevents.enabled'''
 option allows an application to respond to '''cut''', '''copy''', and
 '''paste''' events.  The '''dom.battery.enabled''' option allows you
-to test the Battery Status API on mobile devices.
+to test the [[apis/battery_status|Battery Status API]] on mobile devices.
 
 ===Safari Developer Menu===
 
