@@ -49,12 +49,12 @@
     14.3 Clipping paths
         14.3.1 Introduction
         14.3.2 The initial clipping path
-        14.3.3 The ‘overflow’ and ‘clip’ properties
-        14.3.4 Clip to viewport vs. clip to ‘viewBox’
-        14.3.5 Establishing a new clipping path: the ‘clipPath’ element
+        14.3.3 The 'overflow' and 'clip' properties
+        14.3.4 Clip to viewport vs. clip to 'viewBox'
+        14.3.5 Establishing a new clipping path: the 'clipPath' element
         14.3.6 Clipping paths, geometry, and pointer events
     14.4 Masking
-    14.5 Object and group opacity: the ‘opacity’ property
+    14.5 Object and group opacity: the 'opacity' property
     14.6 DOM interfaces
         14.6.1 Interface SVGClipPathElement
         14.6.2 Interface SVGMaskElement
@@ -67,15 +67,15 @@
     11.5 Controlling visibility
     11.6 Markers
         11.6.1 Introduction
-        11.6.2 The ‘marker’ element
+        11.6.2 The 'marker' element
         11.6.3 Marker properties
         11.6.4 Details on how markers are rendered
     11.7 Rendering properties
-        11.7.1 Color interpolation properties: ‘color-interpolation’ and ‘color-interpolation-filters’
-        11.7.2 The ‘color-rendering’ property
-        11.7.3 The ‘shape-rendering’ property
-        11.7.4 The ‘text-rendering’ property
-        11.7.5 The ‘image-rendering’ property
+        11.7.1 Color interpolation properties: 'color-interpolation' and 'color-interpolation-filters'
+        11.7.2 The 'color-rendering' property
+        11.7.3 The 'shape-rendering' property
+        11.7.4 The 'text-rendering' property
+        11.7.5 The 'image-rendering' property
     11.8 Inheritance of painting properties
     11.9 DOM interfaces
         11.9.1 Interface SVGPaint
@@ -83,13 +83,13 @@
 
  12 Color
     12.1 Introduction
-    12.2 The ‘color’ property
+    12.2 The 'color' property
     12.3 Color profile descriptions
         12.3.1 Overview of color profile descriptions
         12.3.2 Alternative ways of defining a color profile description
-        12.3.3 The ‘color-profile’ element
+        12.3.3 The 'color-profile' element
         12.3.4 The CSS @color-profile rule
-        12.3.5 The ‘color-profile’ property
+        12.3.5 The 'color-profile' property
     12.4 DOM interfaces
         12.4.1 Interface SVGColorProfileElement
         12.4.2 Interface SVGColorProfileRule
