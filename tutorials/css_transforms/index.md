@@ -631,6 +631,8 @@ surface of Mars:
 
 [[Image:mars.png]]
 
+View the sample to see how the viewer is positioned within the display elements:
+
 ([http://letmespellitoutforyou.com/samples/trans_3d_virtual.html	View sample here])
 
 }}
