@@ -53,6 +53,37 @@
 </html>
 }}{{Single Example
 |Language=CSS
+|Description=* The first div has a simple image file applied to it.
+* The second div has a background gradient applied to it.
+* The third div has both applied simultaneously.
+|Code=.one {
+  background-image: url(images/icon.png);
+  /* here we are applying a single background image to our first block level container element */
+  /* (could be anything, but it is a <div>in the live example. */
+}
+
+.two {
+  background-image: -webkit-linear-gradient(top,#aaa,#eee);
+  background-image: -moz-linear-gradient(top,#aaa,#eee);
+  background-image: -ms-linear-gradient(top,#aaa,#eee);
+  background-image: -o-linear-gradient(top,#aaa,#eee);
+  background-image: linear-gradient(to bottom,#aaa,#eee);
+  /* Here we are applying a linear gradient to our second block level container. */
+  /* We have included a line with each different vendor prefix type, so that all supporting */
+  /* browsers will have something they can apply. This includes a prefixless version of the */
+  /* property, which uses the latest version of the syntax for the spec. As browsers update their  */
+  /* implementations and drop their prefixes, tyhey can start to use this syntax instead, meaning */
+  /* that the code will still work. */  
+}
+
+.three {
+  background-image: url(images/icon.png), -webkit-linear-gradient(top,#aaa,#eee);
+  background-image: url(images/icon.png), -moz-linear-gradient(top,#aaa,#eee);
+  background-image: url(images/icon.png), -ms-linear-gradient(top,#aaa,#eee);
+  background-image: url(images/icon.png), -o-linear-gradient(top,#aaa,#eee);
+  background-image: url(images/icon.png), linear-gradient(to bottom,#aaa,#eee);
+  /* In this case we are applying both the background image and the gradient to our third block level container. */
+}
 }}
 }}
 {{Notes_Section
