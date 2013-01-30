@@ -84,6 +84,7 @@
   background-image: url(images/icon.png), linear-gradient(to bottom,#aaa,#eee);
   /* In this case we are applying both the background image and the gradient to our third block level container. */
 }
+|LiveURL=http://chrisdavidmills.github.com/background-image/background-image.html
 }}
 }}
 {{Notes_Section
