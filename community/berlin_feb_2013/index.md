@@ -106,3 +106,7 @@ To get started, you need to:
 * * and # for bullets and numbers
 * =x=, ==x==, etc. for heading levels
 * &#39;&#39;x&#39;&#39; and &#39;&#39;&#39;x&#39;&#39;&#39; for bold/italic
+* &#91;URL link-text&#93; for external links
+* &#91;&#91;relative-URL|link-text&#93;&#93; for internal
+* &#91;file:filename.xxx&#93; for embedding files
+* Tables are horrible
