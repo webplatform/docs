@@ -1,18 +1,19 @@
-{{Page_Title}}
+{{Page_Title|background-image}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Cleanup, Examples Best Practices
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Defines the image(s) used as background to an element}}
+{{Summary_Section|Applies background images to HTML elements.}}
 {{CSS Property
 |Initial value=none
 |Applies to=All elements
 |Inherited=No
 |Media=visual
-|Computed value=as specified, but with URIs made absolute
-|Animatable=No
+|Computed value=As specified, but with URIs made absolute
+|Animatable=Yes
+|CSS object model property=backgroundImage
 |Values={{CSS Property Value
 |Data Type=none
 |Description=Default. Color of the next parent through which the background is visible.
@@ -49,10 +50,7 @@ This example uses a call to an embedded (global) style sheet to show and hide th
 }}
 }}
 {{Notes_Section
-|Notes====Remarks===
-The URL identifies the image file. When setting a background image, you can set a background color to use when the image is unavailable. When the image is available, it overlays the background color.
-This property can be set with other background properties by using the [[css/cssom/properties/background|'''background''']] composite property.
-With CSS3 backgrounds, the background of a box can have multiple layers. The number of layers is determined by the number of comma-separated values in the '''background-image''' property. Each of the images is sized, positioned, and tiled according to the corresponding value in the other background properties ([[css/properties/background-attachment|'''background-attachment''']], [[css/properties/background-clip|'''background-clip''']], [[css/properties/background-origin|'''background-origin''']], [[css/properties/background-position|'''background-position''']], [[css/properties/background-repeat|'''background-repeat''']], and [[css/properties/background-size|'''background-size''']]). The first image in the list is the layer closest to the user, the next one is painted behind the first, and so on.
+|Notes=The background-image property allows you to apply one or more background images to an element. These can be url() paths to image files, or CSS3 linear or radial gradients. For more information, consult [[tutorials/using_css_background_images|Using CSS background images]] and [[tutorials/creating_gradients_in_css|Creating gradients in CSS]].
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -68,6 +66,7 @@ With CSS3 backgrounds, the background of a box can have multiple layers. The num
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
 |Chrome_version=1.0
