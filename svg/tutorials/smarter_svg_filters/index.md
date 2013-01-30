@@ -4,7 +4,11 @@
 |Editorial notes=[new content from Sierra to reframe SVG]
 }}
 {{Byline}}
-{{Summary_Section|__SUMMARY__}}
+{{Summary_Section|
+
+This shows you how to apply SVG's image processing filters.
+
+}}
 {{Tutorial
 |Content=__CONTENT__
 
