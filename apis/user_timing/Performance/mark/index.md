@@ -4,7 +4,7 @@
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|This method stores a timestamp with the associated name (a "mark").}}
+{{Summary_Section|Stores a timestamp with the associated name (a "mark").}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=markName
