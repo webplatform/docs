@@ -9,6 +9,10 @@
 * [[concepts/progressive_enhancement|An introduction to progressive enhancement]]
 * [[concepts/graceful degradation|Graceful degradation]]
 * [[concepts/polyfill|Polyfill]]
+
+==Working With New Features==
+* [[concepts/experimental_features|Enabling experimental features]]
+
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
