@@ -1,4 +1,4 @@
-=Talk plan for Berlin doc sprint, February 2013=
+=Plan for Berlin doc sprint, February 2013=
 
 ==Intro Talk, general==
 
@@ -109,7 +109,7 @@ To get started, you need to:
 * &#91;URL link-text&#93; for external links
 * &#91;&#91;relative-URL|link-text&#93;&#93; for internal
 * &#91;file:filename.xxx&#93; for embedding files
-* Tables are horrible
+* Tables are horrible - see http://docs.webplatform.org/wiki/WPD:Style_Guide/Gotchas
 * &#60;syntaxHighlight&#62;&#60;/syntaxHighlight&#62; for code blocks
 * &#60;code&#62;&#60;/code&#62; for inline code
 * Use &#60;div&#62; to hang style=”” off, for bespoke styling
