@@ -332,7 +332,11 @@
 |Browser=Internet Explorer
 |Version=< 9.0
 |Note=Doesn't support SVG for background-images, or multiple background images, or gradients.
-}}{{Compatibility Notes Row}}
+}}{{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=< 10.0
+|Note=Doesn't support gradients.
+}}
 }}
 {{See_Also_Section
 |Topic_clusters=Background
