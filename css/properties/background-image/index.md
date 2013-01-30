@@ -34,31 +34,33 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=The following examples use the the '''background-image''' property to specify the background's image.
+|Language=HTML
+|Description=Three simple div elements
+|Code=<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Background-image example</title>
+	<link href="background-image.css" type="text/css" rel="stylesheet">
+</head>
+<body>
 
-This example uses a call to an embedded (global) style sheet to show and hide the background image.
-|Code=&lt;style type{{=}}"text/css"&gt;
-.setUrl {
-    background-image: url(sphere.jpg);
-}
-.loseUrl {
-    background-image: url(none);
-}
-&lt;/style&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;span style{{=}}"font-size: 14px" onmouseover{{=}}"this.className{{=}}'setUrl'" onmouseout{{=}}"this.className{{=}}'loseUrl'"&gt;
-. . . &lt;/span&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/background-image.htm
+<div class="one">One</div>
+<div class="two">Two</div>
+<div class="three">Three</div>
+
+</body>
+</html>
 }}{{Single Example
 |Language=CSS
-|Description=Using a data URI to specify an encoded, inline image instead of an external asset.
-|Code=.logo {
-    background-image: url(data: iVBORw0KGgoAAAANSUhEUg.....);
-}
 }}
 }}
 {{Notes_Section
+|Usage=Background images in general have good support across browsers; there are a few things to take note of, however:
+
+* Older browsers do not support multiple background images, SVG as background images or CSS gradients, so be careful when using these options to make sure that a fallback is provided that will make content readable on older browsers, such as a simple solid colour.
+* When using multiple background images, the image at the start of the comma delimited list appears on top of ones later on. This might seem contrary to how CSS is expected to behave.
+* Because gradients are still supported in some browsers with prefixes and some not, and some with a slightly older syntax, you should use multiple background gradient properties with different syntaxes, as shown in the below examples.
 |Notes=The background-image property allows you to apply one or more background images to an element. These can be url() paths to image files, or CSS3 linear or radial gradients. For more information, consult [[tutorials/using_css_background_images|Using CSS background images]] and [[tutorials/creating_gradients_in_css|Creating gradients in CSS]].
 }}
 {{Related_Specifications_Section
