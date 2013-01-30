@@ -23,7 +23,7 @@ There is a walkthrough of the code [[#toc-simple|later in this article]].
 
 Haven't got time to read this article, or just want code?
 
-# Get an overview of WebRTC from Justin Uberti's Google I/O video:
+# Get an overview of WebRTC from [http://www.youtube.com/watch?v=E8C8ouiXHHk Justin Uberti's Google I/O video].
 # If you haven't used getUserMedia, take a look at the [http://www.html5rocks.com/en/tutorials/getusermedia/intro/ HTML5 Rocks article] on the subject, and view the source for the simple example at [http://www.simpl.info/getusermedia simpl.info/gum] and [https://plus.sandbox.google.com/118075919496626375791/posts Eric Bidelman]'s [http://html5-demos.appspot.com/static/getusermedia/photobooth.html photobooth demo].
 # Get to grips with the RTCPeerConnection API by reading through the [[#simpleRTCPeerConnectionExample|simple example below]] and the demo at [http://www.simpl.info/pc simpl.info/pc], which implements WebRTC on a single web page.
 # Learn more about how WebRTC uses servers for signaling, data communication, firewall and NAT traversal, by reading through the code and the console logs from the video chat demo at [http://apprtc.appspot.com apprtc.appspot.com].
@@ -669,7 +669,6 @@ The experimental Ericsson [[#bowser|Bowser browser]] supports MediaStream and RT
 For more detailed information about cross-platform support for APIs such as getUserMedia, see [http://caniuse.com/stream caniuse.com].
 
 **
-
 }}
 {{Examples_Section
 |Not_required=No
