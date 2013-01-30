@@ -48,9 +48,9 @@ The guiding principles of the WebRTC project are that its APIs should be open so
 
 WebRTC implements three APIs:
 
-* MediaStream/getUserMedia ([https://dvcs.w3.org/hg/audio/raw-file/tip/streams/StreamProcessing.html specs], [[apis/webrtc/MediaStream|docs]])
-* RTCPeerConnection ([http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcpeerconnection-interface specs], [[apis/webrtc/RTCPeerConnection|docs]])
-* RTCDatatChannel ([http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcdatachannel specs], [[apis/webrtc/RTCDataChannel|docs]])
+* MediaStream/getUserMedia: get access to data streams, such as from the user's camera and microphone. ([https://dvcs.w3.org/hg/audio/raw-file/tip/streams/StreamProcessing.html specs], [[apis/webrtc/MediaStream|docs]])
+* RTCPeerConnection: audio or video calling, with facilities for encryption and bandwidth management. ([http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcpeerconnection-interface specs], [[apis/webrtc/RTCPeerConnection|docs]])
+* RTCDatatChannel: peer-to-peer communication of generic data. ([http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcdatachannel specs], [[apis/webrtc/RTCDataChannel|docs]])
 
 <tt>getUserMedia</tt> is available in Chrome, Opera and Firefox Nightly/Aurora. Take a look at the cross-browser demo of <tt>getUserMedia</tt> at [http://www.simpl.info/gum simpl.info/gum] (though for Firefox you'll need to [https://hacks.mozilla.org/2012/11/progress-update-on-webrtc-for-firefox-on-desktop/comment-page-1/#comment-1851192 set preferences]). Also check out Chris Wilson's [http://webaudiodemos.appspot.com/ amazing examples] of using <tt>getUserMedia</tt> as input for Web Audio.
 
@@ -74,17 +74,9 @@ WebRTC applications need to do several things:
 
 * Get streaming audio, video or other data.
 * Get network information such as IP address and port, and exchange this with other WebRTC clients (known as ''peers'') to enable connection, even through [http://en.wikipedia.org/wiki/NAT_traversal NATs] and firewalls.
-* Coordinate signaling communication to report errors and initiate or close sessions.
+* Coordinate signaling communication to report errors and initiate or close sessions. (There is detailed discussion of the network and signaling aspects of WebRTC [[#signaling|below]].)
 * Exchange information about media and client capability, such as resolution and codecs.
 * Communicate streaming audio, video or data.
-
-To acquire and communicate streaming data, WebRTC implements the following APIs.
-
-* MediaStream: get access to data streams, such as from the user's camera and microphone. See [https://dvcs.w3.org/hg/audio/raw-file/tip/streams/StreamProcessing.html specs], [[apis/webrtc/MediaStream|docs]].
-* RTCPeerConnection: audio or video calling, with facilities for encryption and bandwidth management. See [http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcpeerconnection-interface specs], [[apis/webrtc/RTCPeerConnection|docs]].
-* RTCDataChannel: peer-to-peer communication of generic data. See [http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcdatachannel specs], [[apis/webrtc/RTCDataChannel|docs]].
-
-(There is detailed discussion of the network and signaling aspects of WebRTC [[#signaling|below]].)
 
 == MediaStream (aka getUserMedia) ==
 
@@ -109,8 +101,6 @@ Each LocalMediaStream (i.e. a MediaStream local to the browser) has a <tt>label<
 For the [http://simpl.info/getusermedia/ simpl.info/gum] example, <tt>audioTracks</tt> and <tt>videoTracks</tt> each have one member, i.e. one MediaStreamTrack. Each MediaStreamTrack has a kind ('video' or 'audio'), and a label (something like 'FaceTime HD Camera (Built-in)'), and represents one or more channels of either audio or video. In this case, there is only one audio and one video track, but it is easy to imagine use cases where there are more: for example, a chat application that enables input from front camera, rear camera a microphone, and a 'screenshared' application.
 
 In Chrome, the <tt>URL.createObjectURL()</tt> method converts a LocalMediaStream to a [http://www.html5rocks.com/tutorials/workers/basics/#toc-inlineworkers-bloburis Blob URL] which can be set as the <tt>src</tt> of a video element. (In Firefox and Opera, the <tt>src</tt> of the video can be set from the stream itself.) Since version 25, Chrome allows audio data from <tt>getUserMedia</tt> to be passed to an audio or video element (but note that by default the media element will be muted in this case.
-
-
 
 <tt>getUserMedia</tt> can also be used [http://updates.html5rocks.com/2012/09/Live-Web-Audio-Input-Enabled as an input node for the Web Audio API]:
 
