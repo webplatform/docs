@@ -18,8 +18,11 @@
 |Data Type=none
 |Description=Default. Color of the next parent through which the background is visible.
 }}{{CSS Property Value
-|Data Type=url [, url]*
-|Description=Location of the background image(s), where <code>url</code> is an absolute or relative URL.
+|Data Type=url(path/to/image.png)
+|Description=This value contains a path to an image that you want to apply to the element in question as a background image, using the CSS images syntax, as described at [[css/functions/url()|CSS images: url()]].
+}}{{CSS Property Value
+|Data Type=linear-gradient(to bottom, #f00, #aaa)
+|Description=Programmatically creates a gradient that travels from one side of the element to the other. For more on the syntax, read [[tutorials/creating_gradients_in_css|Creating gradients in CSS]].
 }}
 }}
 {{Examples_Section
