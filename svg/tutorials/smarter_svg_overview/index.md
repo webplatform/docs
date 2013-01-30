@@ -3,9 +3,12 @@
 |High-level issues=Stub
 |Editorial notes=[new content from Sierra to reframe SVG]
 }}
-{{Byline}}
+{{Byline
+|Name=Mike Sierra
+}}
 {{Summary_Section|__SUMMARY__}}
 {{Tutorial
+|Next_page=svg/tutorials/smarter_svg_basics
 |Content=__CONTENT__
 
 ==Deploying SVG==
@@ -187,7 +190,6 @@
         4.5.31 Interface SVGURIReference
         4.5.32 Interface SVGCSSRule
         4.5.33 Interface SVGRenderingIntent
-
 }}
 {{Notes_Section}}
 {{Compatibility_Section
