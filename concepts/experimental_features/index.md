@@ -53,3 +53,21 @@ Develop menu in menu bar''':
 The newly available '''Develop''' menu allows you to turn on WebGL:
 
 [[Image:safari_develop_menu.png]]
+
+===Mozilla's about:config===
+
+In Firefox, navigate to the following address:
+
+ about:config
+
+Double-click any of the items listed to	toggle them:
+
+[[Image:mozilla_about_config.png]]
+
+Most of	these options modify the browser application itself, such as
+how tabs and URL bars behave, but several allow you to try out
+emerging cross-browser web standards, especially those prefixed
+''dom''. For example, the '''dom.event.clipboardevents.enabled'''
+option allows an application to respond to '''cut''', '''copy''', and
+'''paste''' events.  The '''dom.battery.enabled''' option allows you
+to test the Battery Status API on mobile devices.
