@@ -4,12 +4,7 @@
 |Editorial notes=[new content from Sierra to reframe SVG]
 }}
 {{Byline}}
-{{Summary_Section|
-
-This shows you how deploy a SVG graphic along with HTML and CSS, and
-guides you how its coordinate space works.
-
-}}
+{{Summary_Section|This shows you how deploy a SVG graphic along with HTML and CSS, and guides you how its coordinate space works.}}
 {{Tutorial
 |Content=__CONTENT__
 
