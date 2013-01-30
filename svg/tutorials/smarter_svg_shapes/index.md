@@ -1,7 +1,7 @@
 {{Page_Title|Smarter SVG: The Basics}}
 {{Flags
 |High-level issues=Stub
-|Editorial notes=[new content from Sierra]
+|Editorial notes=[new content from Sierra to reframe SVG]
 }}
 {{Byline}}
 {{Summary_Section|___SUMMARY__}}
