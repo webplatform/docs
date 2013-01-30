@@ -59,7 +59,7 @@
 |Code=.one {
   background-image: url(images/icon.png);
   /* here we are applying a single background image to our first block level container element */
-  /* (could be anything, but it is a <div>in the live example. */
+  /* (could be anything, but it is a div in the live example. */
 }
 
 .two {
