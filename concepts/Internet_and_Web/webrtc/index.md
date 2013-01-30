@@ -48,7 +48,7 @@ The guiding principles of the WebRTC project are that its APIs should be open so
 
 WebRTC implements three APIs:
 
-* MediaStream ([https://dvcs.w3.org/hg/audio/raw-file/tip/streams/StreamProcessing.html specs], [[apis/webrtc/MediaStream|docs]])
+* MediaStream/getUserMedia ([https://dvcs.w3.org/hg/audio/raw-file/tip/streams/StreamProcessing.html specs], [[apis/webrtc/MediaStream|docs]])
 * RTCPeerConnection ([http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcpeerconnection-interface specs], [[apis/webrtc/RTCPeerConnection|docs]])
 * RTCDatatChannel ([http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcdatachannel specs], [[apis/webrtc/RTCDataChannel|docs]])
 
