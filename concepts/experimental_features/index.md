@@ -18,8 +18,11 @@ Careful: these builds may be unstable, and may feature unexpected
 security holes.
 
 Otherwise, some commercial browser releases include latent features
-that you can toggle on and off.  In Google Chrome, navigate to this
-address:
+that you can toggle on and off, as described below:
+
+===Chrome flags===
+
+In Google Chrome, navigate to this address:
 
  about:flags
 
@@ -37,6 +40,8 @@ feature to work.
 '''Note:''' Even after downloading a standalone Canary build, you may
 need to change its flags to enable the set of experimental features
 you want.
+
+===Safari Developer Menu===
 
 Apple Safari has a more limited ability to enable WebGL for complex 3D
 rendering. Under the '''Advanced''' preferences menu, choose '''Show
