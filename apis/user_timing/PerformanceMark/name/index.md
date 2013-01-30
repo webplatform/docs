@@ -7,7 +7,7 @@
 {{Summary_Section|Returns the mark's name.}}
 {{API_Object_Property
 |Property_applies_to=apis/user_timing/PerformanceMark
-|Read_only=Yes
+|Read_only=No
 |Javascript_data_type=String
 }}
 {{Examples_Section
