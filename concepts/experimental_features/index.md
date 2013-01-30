@@ -60,11 +60,12 @@ In Firefox, navigate to the following address:
 
  about:config
 
-Double-click any of the items listed to	toggle them:
+Double-click any of the items listed to toggle them, again being very
+careful to leave items alone if you don't know what they're used for:
 
 [[Image:mozilla_about_config.png]]
 
-Most of	these options modify the browser application itself, such as
+Most of these options modify the browser application itself, such as
 how tabs and URL bars behave, but several allow you to try out
 emerging cross-browser web standards, especially those prefixed
 ''dom''. For example, the '''dom.event.clipboardevents.enabled'''
