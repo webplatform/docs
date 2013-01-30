@@ -173,6 +173,28 @@
 |Safari_version=4.0
 |Safari_prefixed_supported=No
 |Safari_prefixed_version=
+}}{{Compatibility Table Desktop Row
+|Feature=Gradients
+|Chrome_supported=No
+|Chrome_version=
+|Chrome_prefixed_supported=Yes
+|Chrome_prefixed_version=8.0
+|Firefox_supported=No
+|Firefox_version=
+|Firefox_prefixed_supported=Yes
+|Firefox_prefixed_version=4.0
+|Internet_explorer_supported=No
+|Internet_explorer_version=
+|Internet_explorer_prefixed_supported=Yes
+|Internet_explorer_prefixed_version=10.0
+|Opera_supported=Yes
+|Opera_version=12.10
+|Opera_prefixed_supported=Yes
+|Opera_prefixed_version=11.0
+|Safari_supported=No
+|Safari_version=
+|Safari_prefixed_supported=Yes
+|Safari_prefixed_version=4.0
 }}
 |Mobile_rows={{Compatibility Table Mobile Row
 |Android_supported=Yes
