@@ -126,6 +126,7 @@
 |Opera_prefixed_supported=No
 |Opera_prefixed_version=
 |Safari_supported=Yes
+|Safari_version=1.0
 |Safari_prefixed_supported=No
 |Safari_prefixed_version=
 }}
