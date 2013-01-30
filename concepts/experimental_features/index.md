@@ -42,18 +42,6 @@ feature to work.
 need to change its flags to enable the set of experimental features
 you want.
 
-===Safari Developer Menu===
-
-Apple Safari has a more limited ability to enable WebGL for complex 3D
-rendering. Under the '''Advanced''' preferences menu, choose '''Show
-Develop menu in menu bar''':
-
-[[Image:safari_advanced_pref.png]]
-
-The newly available '''Develop''' menu allows you to turn on WebGL:
-
-[[Image:safari_develop_menu.png]]
-
 ===Mozilla's about:config===
 
 In Firefox, navigate to the following address:
@@ -72,3 +60,15 @@ emerging cross-browser web standards, especially those prefixed
 option allows an application to respond to '''cut''', '''copy''', and
 '''paste''' events.  The '''dom.battery.enabled''' option allows you
 to test the Battery Status API on mobile devices.
+
+===Safari Developer Menu===
+
+Apple Safari has a more limited ability to enable WebGL for complex 3D
+rendering. Under the '''Advanced''' preferences menu, choose '''Show
+Develop menu in menu bar''':
+
+[[Image:safari_advanced_pref.png]]
+
+The newly available '''Develop''' menu allows you to turn on WebGL:
+
+[[Image:safari_develop_menu.png]]
