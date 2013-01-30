@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags}}
 {{Standardization_Status|W3C Candidate Recommendation}}
-{{API_Name|User Timing}}
+{{API_Name}}
 {{Summary_Section|This API defines an interface to help web developers measure the performance of their applications by giving them access to high precision timestamps.}}
 {{API_Listing}}
 {{Concept_Listing
