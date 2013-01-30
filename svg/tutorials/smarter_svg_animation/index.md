@@ -23,11 +23,11 @@
         19.2.9 Attributes that define animation values over time
         19.2.10 Attributes that control whether animations are additive
         19.2.11 Inheritance
-        19.2.12 The ‘animate’ element
-        19.2.13 The ‘set’ element
-        19.2.14 The ‘animateMotion’ element
-        19.2.15 The ‘animateColor’ element
-        19.2.16 The ‘animateTransform’ element
+        19.2.12 The 'animate' element
+        19.2.13 The 'set' element
+        19.2.14 The 'animateMotion' element
+        19.2.15 The 'animateColor' element
+        19.2.16 The 'animateTransform' element
         19.2.17 Elements, attributes and properties that can be animated
     19.3 Animation using the SVG DOM
     19.4 DOM interfaces
