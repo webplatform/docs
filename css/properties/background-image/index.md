@@ -23,6 +23,12 @@
 }}{{CSS Property Value
 |Data Type=linear-gradient(to bottom, #f00, #aaa)
 |Description=Programmatically creates a gradient that travels from one side of the element to the other. For more on the syntax, read [[tutorials/creating_gradients_in_css|Creating gradients in CSS]].
+}}{{CSS Property Value
+|Data Type=radial-gradient(50% 50%, circle, #f00, #aaa)
+|Description=Programmatically creates a gradient that radiates outwards from a specified point on the element's background. For more on the syntax, read [[tutorials/creating_gradients_in_css|Creating gradients in CSS]].
+}}{{CSS Property Value
+|Data Type=url(path/to/image.png), url(path/to/image2.png), url(path/to/image3.png)
+|Description=You can apply multiple background images to a single element (image files, gradients, or a mixture) by including all the image references in the property value, with each one separated by a comma. Images referenced earlier in the property value appear in front of images referenced later.
 }}
 }}
 {{Examples_Section
