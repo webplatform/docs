@@ -102,7 +102,7 @@
 |Name=CSS Backgrounds and Borders Module Level 3
 |URL=http://www.w3.org/TR/css3-background/#the-background-image
 |Status=W3C Candidate Recommendation
-|Relevant_changes=Several overlaid images can be specified
+|Relevant_changes=Multiple background images can be specified on the same element
 }}
 }}
 {{Compatibility_Section
