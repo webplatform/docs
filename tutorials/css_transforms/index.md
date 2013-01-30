@@ -622,6 +622,17 @@ apparent.  An animated transition between '''scale3d(0,0,0)''' and
 [[Image:scaleZ.png]]
 
 ([http://letmespellitoutforyou.com/samples/trans_3d_nest.html View live sample])
+
+While there are	limits to what you can accomplish when transforming
+flat web content, this technique of building 3D shapes such as cubes
+may form the basis of a simple virtual reality scene, such as the
+following (suitable for a mobile browser) that pans to view the
+surface of Mars:
+
+[[Image:mars.png]]
+
+([http://letmespellitoutforyou.com/samples/trans_3d_virtual.html	View sample here])
+
 }}
 {{Notes_Section}}
 {{Compatibility_Section
