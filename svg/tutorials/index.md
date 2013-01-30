@@ -46,3 +46,5 @@
 * [[tutorials/animations in svg|Animations in SVG]]
 
 == SVG tutorials index ==
+
+{{Special:PrefixIndex/svg/tutorials/}}
