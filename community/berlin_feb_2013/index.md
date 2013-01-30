@@ -110,3 +110,7 @@ To get started, you need to:
 * &#91;&#91;relative-URL|link-text&#93;&#93; for internal
 * &#91;file:filename.xxx&#93; for embedding files
 * Tables are horrible
+&#60;syntaxHighlight&#62;&#60;/syntaxHighlight&#62; for code blocks
+&#60;code&#62;&#60;/code&#62; for inline code
+Use &#60;div&#62; to hang style=”” off, for bespoke styling
+Use proper list markup for complicated lists
