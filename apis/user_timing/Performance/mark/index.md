@@ -8,7 +8,7 @@
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=markName
-|Data type=any
+|Data type=void
 |Description=Name associated with the performance mark.
 |Optional=No
 }}
