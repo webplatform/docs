@@ -13,6 +13,7 @@
 |Optional=No
 }}
 |Method_applies_to=apis/user_timing/Performance
+|Example_object_name=object
 |Javascript_data_type=void
 }}
 {{Examples_Section
