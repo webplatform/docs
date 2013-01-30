@@ -99,3 +99,10 @@ To get started, you need to:
 * Create a new account at the W3C's Bugzilla system - this is currently where we keep track of site bugs, so you'll need this to submit problems you find.
 * Review the structure of the site, at XXXXXXXXXXXXXXX (I can't find the site map right now!), to get familiar with where things go
 * http://docs.webplatform.org/wiki/WPD:Editors_Guide contains a guide to show you how to edit and create pages on the Wiki
+
+===Media Wiki crash course===
+
+* (Almost) no tags needed
+* * and # for bullets and numbers
+* =x=, ==x==, etc. for heading levels
+* ''x'' and '''x''' for bold/italic
