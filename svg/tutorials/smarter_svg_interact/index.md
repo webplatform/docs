@@ -4,7 +4,12 @@
 |Editorial notes=[new content from Sierra to reframe SVG]
 }}
 {{Byline}}
-{{Summary_Section|__SUMMARY__}}
+{{Summary_Section|
+
+This shows you how to script interaction effects and link content for
+dynamic effects.
+
+}}
 {{Tutorial
 |Content=__CONTENT__
 
