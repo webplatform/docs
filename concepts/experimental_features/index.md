@@ -27,7 +27,7 @@ You'll see a long list of often esoteric features. If you don't see
 the feature you want to evaluate in that list, it may be included in a
 broader ''experimental WebKit features'' item:
 
-[Image:chrome_flags.png]
+[[Image:chrome_flags.png]]
 
 Enable the item you want, but pay careful attention to the wording,
 since you may actually be choosing to ''disable'' a feature that is
@@ -42,8 +42,8 @@ Apple Safari has a more limited ability to enable WebGL for complex 3D
 rendering. Under the '''Advanced''' preferences menu, choose '''Show
 Develop menu in menu bar''':
 
-[Image:safari_advanced_pref.png]
+[[Image:safari_advanced_pref.png]]
 
 The newly available '''Develop''' menu allows you to turn on WebGL:
 
-[Image:safari_develop_menu.png]
+[[Image:safari_develop_menu.png]]
