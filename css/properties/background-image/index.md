@@ -53,9 +53,7 @@
 &lt;/html&gt;
 }}{{Single Example
 |Language=CSS
-|Description=* The first div has a simple image file applied to it.
-* The second div has a background gradient applied to it.
-* The third div has both applied simultaneously.
+|Description=The first div has a simple image file applied to it, the second div has a background gradient applied to it, and the third div has both applied simultaneously.
 |Code=.one {
   background-image: url(images/icon.png);
   /* here we are applying a single background image to our first block level container element */
