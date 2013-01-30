@@ -7,31 +7,41 @@
 {{Summary_Section|___SUMMARY__}}
 {{Tutorial
 |Content=__CONTENT__
+
 ==Simple shapes==
+
 * rect
 ** x y
 * circle
 ** cx cy r
 * ellipse
 ** rx ry
-==Fill and stroke
+
+==Fill and stroke==
+
 * fill
 * stroke
 * stroke-width
 * fill-opacity
 * stroke-opacity
+
 ==Lines and polygons==
+
 * line
 ** x1 y1 x2 y2
 * polyline
 ** points
 * polygon
+
 ==More stroke options==
+
 * stroke-linecap
 * stroke-linejoin
 * stroke-miterlimit (if linejoin:miter)
 * stroke-dasharray
+
 ==Paths==
+
 * path d attr
 * m=moveto
 * l=lineto
