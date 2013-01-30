@@ -38,10 +38,7 @@
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[apis/timing/objects/performance|performance]]</code>
-}}
+{{See_Also_Section}}
 {{Topics|User Timing}}
 {{External_Attribution
 |Is_CC-BY-SA=No
