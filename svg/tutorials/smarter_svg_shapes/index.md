@@ -64,7 +64,7 @@
 
  8 Paths
     8.1 Introduction
-    8.2 The ‘path’ element
+    8.2 The 'path' element
     8.3 Path data
         8.3.1 General information about path data
         8.3.2 The "moveto" commands
@@ -103,13 +103,13 @@
 
  9 Basic Shapes
     9.1 Introduction
-    9.2 The ‘rect’ element
-    9.3 The ‘circle’ element
-    9.4 The ‘ellipse’ element
-    9.5 The ‘line’ element
-    9.6 The ‘polyline’ element
-    9.7 The ‘polygon’ element
-        9.7.1 The grammar for points specifications in ‘polyline’ and ‘polygon’ elements
+    9.2 The 'rect' element
+    9.3 The 'circle' element
+    9.4 The 'ellipse' element
+    9.5 The 'line' element
+    9.6 The 'polyline' element
+    9.7 The 'polygon' element
+        9.7.1 The grammar for points specifications in 'polyline' and 'polygon' elements
     9.8 DOM interfaces
         9.8.1 Interface SVGRectElement
         9.8.2 Interface SVGCircleElement
