@@ -1,5 +1,6 @@
 {{Page_Title|Traversing the DOM}}
-{{Flags}}
+{{Flags
+}}
 {{Byline}}
 {{Summary_Section|This article covers how to select different parts of your HTML document for manipulation via JavaScript.}}
 {{Tutorial
