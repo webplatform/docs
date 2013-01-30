@@ -36,21 +36,21 @@
 |Examples={{Single Example
 |Language=HTML
 |Description=Three simple div elements
-|Code=<!DOCTYPE HTML>
-<html lang="en-US">
-<head>
-	<meta charset="UTF-8">
-	<title>Background-image example</title>
-	<link href="background-image.css" type="text/css" rel="stylesheet">
-</head>
-<body>
+|Code=&lt;!DOCTYPE HTML&gt;
+&lt;html lang="en-US"&gt;
+&lt;head&gt;
+  &lt;meta charset="UTF-8"&gt;
+  &lt;title&gt;Background-image example&lt;/title&gt;
+  &lt;link href="background-image.css" type="text/css" rel="stylesheet"&gt;
+&lt;/head&gt;
+&lt;body&gt;
 
-<div class="one">One</div>
-<div class="two">Two</div>
-<div class="three">Three</div>
+  &lt;div class="one"&gt;One&lt;/div&gt;
+  &lt;div class="two"&gt;Two&lt;/div&gt;
+  &lt;div class="three"&gt;Three&lt;/div&gt;
 
-</body>
-</html>
+&lt;/body&gt;
+&lt;/html&gt;
 }}{{Single Example
 |Language=CSS
 |Description=* The first div has a simple image file applied to it.
