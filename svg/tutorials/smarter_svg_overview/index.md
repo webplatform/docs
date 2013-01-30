@@ -8,7 +8,7 @@
 }}
 {{Summary_Section|__SUMMARY__}}
 {{Tutorial
-|Next_page=svg/tutorials/smarter_svg_basics
+|Next_page=[[svg/tutorials/smarter_svg_basics]]
 |Content=__CONTENT__
 
 ==Deploying SVG==
