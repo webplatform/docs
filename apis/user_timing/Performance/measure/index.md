@@ -1,49 +1,57 @@
+{{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Compatibility Incomplete
 }}
-{{Standardization_Status|}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
+{{Summary_Section|Stores the DOMHighResTimeStamp duration between two marks along with the associated name (a "measure").}}
 {{API_Object_Method
-|Parameters={{Method Parameter|Name=measureName|Data type=DOMString|Description=Name associated with the performance measure.|Optional=}}
-{{Method Parameter|Name=startMarkName|Data type=DOMString|Description=Name of the first (earlier) performance mark.|Optional=}}
-{{Method Parameter|Name=endMarkName|Data type=DOMString|Description=Name of the second (later) performance mark.|Optional=}}
-|Method_applies_to=apis/timing/objects/performance
+|Parameters={{Method Parameter
+|Name=name
+|Data type=any
+|Description=Name associated with the performance measure.
+|Optional=No
+}}{{Method Parameter
+|Name=startMark
+|Data type=any
+|Description=Name of the start performance mark.
+|Optional=Yes
+}}{{Method Parameter
+|Name=endMark
+|Data type=any
+|Description=Name of the end performance mark.
+|Optional=Yes
+}}
+|Method_applies_to=apis/user_timing/Performance
 |Example_object_name=object
 |Return_value_name=object
-|Javascript_data_type=DOM Node
-|Return_value_description=Type: '''HRESULT'''
-
-This method can return one of these values.
-
-S_OK
-
-Type: '''HRESULT'''
-
-This method can return one of these values.
-
-S_OK
-
-
+|Javascript_data_type=void
 }}
-{{Topics|DOM}}
-{{Notes_Section
-|Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}248169 User Timing]
-
-
+{{Examples_Section
+|Not_required=Yes
+|Examples=
 }}
-{{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
-*<code>[[apis/timing/objects/performance|performance]]</code>
+{{Notes_Section}}
+{{Related_Specifications_Section
+|Specifications={{Related Specification
+|Name=W3C User Timing Specification
+|URL=http://www.w3.org/TR/user-timing/
+|Status=W3C Candidate Recommendation
 }}
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section}}
+{{Topics|User Timing}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
 |HTML5Rocks_link=
 }}
