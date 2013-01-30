@@ -26,7 +26,8 @@ In Google Chrome, navigate to this address:
 
  about:flags
 
-You'll see a long list of often esoteric features. If you don't see
+You'll see a long list of often esoteric features, and the same warning
+holds: they may be unstable. If you don't see
 the feature you want to evaluate in that list, it may be included in a
 broader ''experimental WebKit features'' item:
 
