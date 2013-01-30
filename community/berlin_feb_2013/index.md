@@ -105,4 +105,4 @@ To get started, you need to:
 * (Almost) no tags needed
 * * and # for bullets and numbers
 * =x=, ==x==, etc. for heading levels
-* ''x'' and '''x''' for bold/italic
+* &#39;&#39;x&#39;&#39; and &#39;&#39;&#39;x&#39;&#39;&#39; for bold/italic
