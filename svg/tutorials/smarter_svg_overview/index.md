@@ -4,7 +4,12 @@
 |Editorial notes=[new content from Sierra to reframe SVG]
 }}
 {{Byline}}
-{{Summary_Section|__SUMMARY__}}
+{{Summary_Section|
+
+This shows you how deploy a SVG graphic along with HTML and CSS, and
+guides you how its coordinate space works.
+
+}}
 {{Tutorial
 |Content=__CONTENT__
 
@@ -187,9 +192,6 @@
         4.5.31 Interface SVGURIReference
         4.5.32 Interface SVGCSSRule
         4.5.33 Interface SVGRenderingIntent
-
-
-
 
 }}
 {{Notes_Section}}
