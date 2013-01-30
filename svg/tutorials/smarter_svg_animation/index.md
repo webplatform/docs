@@ -4,12 +4,7 @@
 |Editorial notes=[new content from Sierra to reframe SVG]
 }}
 {{Byline}}
-{{Summary_Section|
-
-This guide shows you how to integrate SVG's animation features with
-other techniques available in CSS and JavaScript.
-
-}}
+{{Summary_Section|This guide shows you how to integrate SVG's animation features with other techniques available in CSS and JavaScript.}}
 {{Tutorial
 |Content=__CONTENT__
 
