@@ -48,15 +48,15 @@ The guiding principles of the WebRTC project are that its APIs should be open so
 
 WebRTC implements three APIs:
 
-* [[#toc-mediastream|<tt>MediaStream</tt>]] (aka <tt>getUserMedia</tt>)
-* <tt>RTCPeerConnection</tt>
-* [[#toc-rtcdatachannel|<tt>RTCDataChannel</tt>]]
+* MediaStream ([https://dvcs.w3.org/hg/audio/raw-file/tip/streams/StreamProcessing.html specs], [[apis/webrtc/MediaStream|docs]])
+* RTCPeerConnection ([http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcpeerconnection-interface specs], [[apis/webrtc/RTCPeerConnection|docs]])
+* RTCDatatChannel ([http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcdatachannel specs], [[apis/webrtc/RTCDataChannel|docs]])
 
 <tt>getUserMedia</tt> is available in Chrome, Opera and Firefox Nightly/Aurora. Take a look at the cross-browser demo of <tt>getUserMedia</tt> at [http://www.simpl.info/gum simpl.info/gum] (though for Firefox you'll need to [https://hacks.mozilla.org/2012/11/progress-update-on-webrtc-for-firefox-on-desktop/comment-page-1/#comment-1851192 set preferences]). Also check out Chris Wilson's [http://webaudiodemos.appspot.com/ amazing examples] of using <tt>getUserMedia</tt> as input for Web Audio.
 
 <tt>webkitRTCPeerConnection</tt> is now in Chrome stable and it's flagless. (A word of explanation about the name: after several iterations, <tt>RTCPeerConnection</tt> is currently implemented by Chrome as <tt>webkitRTCPeerConnection</tt> and by Firefox Aurora/Nightly as <tt>mozRTCPeerConnection</tt>. Other names and implementations have been deprecated. When the standards process has stabilized, the prefixes will be removed.) There's an ultra-simple demo of Chrome's RTCPeerConnection implementation at [http://www.simpl.info/peerconnection simpl.info/pc] and a great video chat application at [http://apprtc.appspot.com apprtc.appspot.com].
 
-'''<tt>RTCDataChannel</tt>''' is supported by Chrome 25 and above, but is behind a flag before Chrome 27. <tt>RTCPeerConnection</tt> and <tt>RTCDataChannel</tt> have also been [https://hacks.mozilla.org/2012/11/progress-update-on-webrtc-for-firefox-on-desktop/comment-page-1/#comment-1851192 in desktop Firefox Nightly and Aurora].
+<tt>RTCDataChannel</tt> is supported by Chrome 25 and above, but is behind a flag before Chrome 27. <tt>RTCPeerConnection</tt> and <tt>RTCDataChannel</tt> have also been [https://hacks.mozilla.org/2012/11/progress-update-on-webrtc-for-firefox-on-desktop/comment-page-1/#comment-1851192 in desktop Firefox Nightly and Aurora].
 
 WebRTC is also implemented by the [https://labs.ericsson.com/apps/bowser Ericsson Bowser browser] which runs on iOS and Android:
 
@@ -88,7 +88,7 @@ To acquire and communicate streaming data, WebRTC implements the following APIs.
 
 == MediaStream (aka getUserMedia) ==
 
-The [http://dev.w3.org/2011/webrtc/editor/getusermedia.html MediaStream API] represents synchronized streams of media. For example, a stream taken from camera and microphone input has synchronized video and audio tracks. (Don't confuse MediaStream tracks with the &lt;track&gt; element, which is something [http://www.html5rocks.com/en/tutorials/track/basics/ entirely different].)
+The MediaStream ([https://dvcs.w3.org/hg/audio/raw-file/tip/streams/StreamProcessing.html specs], [[apis/webrtc/MediaStream|docs]]) represents synchronized streams of media. For example, a stream taken from camera and microphone input has synchronized video and audio tracks. (Don't confuse MediaStream tracks with the &lt;track&gt; element, which is something [http://www.html5rocks.com/en/tutorials/track/basics/ entirely different].)
 
 Probably the easiest way to understand MediaStream is to look at it in the wild:
 
@@ -238,7 +238,7 @@ Once the signaling process has completed successfully, data can be streamed dire
 
 == RTCPeerConnection ==
 
-RTCPeerConnection is the WebRTC component that handles stable and efficient communication of streaming data between peers.
+RTCPeerConnection ([http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcpeerconnection-interface specs], [[apis/webrtc/RTCPeerConnection|docs]]) is the WebRTC component that handles stable and efficient communication of streaming data between peers.
 
 Below is a WebRTC architecture diagram showing the role of RTCPeerConnection. As you will notice, the green parts are complex!
 
@@ -524,7 +524,7 @@ Many existing WebRTC apps only demonstrate communication between web browsers, b
 
 As well as audio and video, WebRTC supports real-time communication for other types of data.
 
-The RTCDataChannel API will enable peer-to-peer exchange of arbitrary data, with low latency and high throughput.
+The RTCDataChannel API ([http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcdatachannel specs], [[apis/webrtc/RTCDataChannel|docs]]) enables peer-to-peer exchange of arbitrary data, with low latency and high throughput.
 
 There are many potential use cases for the API, including:
 
