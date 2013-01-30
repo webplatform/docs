@@ -80,9 +80,9 @@ WebRTC applications need to do several things:
 
 To acquire and communicate streaming data, WebRTC implements the following APIs.
 
-* [https://dvcs.w3.org/hg/audio/raw-file/tip/streams/StreamProcessing.html MediaStream]: get access to data streams, such as from the user's camera and microphone.
-* [http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcpeerconnection-interface RTCPeerConnection]: audio or video calling, with facilities for encryption and bandwidth management.
-* [http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcdatachannel RTCDataChannel]: peer-to-peer communication of generic data.
+* MediaStream: get access to data streams, such as from the user's camera and microphone. See [https://dvcs.w3.org/hg/audio/raw-file/tip/streams/StreamProcessing.html specs], [[apis/webrtc/MediaStream|docs]].
+* RTCPeerConnection: audio or video calling, with facilities for encryption and bandwidth management. See [http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcpeerconnection-interface specs], [[apis/webrtc/RTCPeerConnection|docs]].
+* RTCDataChannel: peer-to-peer communication of generic data. See [http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcdatachannel specs], [[apis/webrtc/RTCDataChannel|docs]].
 
 (There is detailed discussion of the network and signaling aspects of WebRTC [[#signaling|below]].)
 
