@@ -336,6 +336,9 @@
 |Browser=Internet Explorer
 |Version=< 10.0
 |Note=Doesn't support gradients.
+}}{{Compatibility Notes Row
+|Browser=Various
+|Note=Not all browsers support animation of background images. Recent -webkit- based browsers transition between background images by cross fading.
 }}
 }}
 {{See_Also_Section
