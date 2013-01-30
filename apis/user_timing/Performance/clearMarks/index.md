@@ -12,7 +12,7 @@
 |Description=Name of the mark(s) to be cleared.
 |Optional=Yes
 }}
-|Method_applies_to=apis/timing/objects/performance
+|Method_applies_to=apis/user_timing/Performance
 |Example_object_name=object
 |Return_value_name=object
 |Javascript_data_type=void
