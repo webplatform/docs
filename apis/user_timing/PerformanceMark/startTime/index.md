@@ -1,31 +1,40 @@
+{{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Compatibility Incomplete
 }}
-{{Standardization_Status|}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
+{{Summary_Section|Returns a DOMHighResTimeStamp with the mark's High Resolution Time time value.}}
 {{API_Object_Property
-|Property_applies_to=apis/timing/objects/PerformanceMark
-|Read_only=
+|Property_applies_to=apis/user_timing/PerformanceMark
+|Read_only=No
+|Return_value_description=DOMHighResTimeStamp
 }}
-{{Topics|DOM}}
-{{Notes_Section
-|Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}257685 Performance Timeline]
-
-
+{{Examples_Section
+|Not_required=Yes
+|Examples=
 }}
-{{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
-*<code>[[apis/timing/objects/PerformanceEntry|PerformanceEntry]]</code>
+{{Notes_Section}}
+{{Related_Specifications_Section
+|Specifications={{Related Specification
+|Name=W3C User Timing Specification
+|URL=http://www.w3.org/TR/user-timing/
+|Status=W3C Candidate Recommendation
 }}
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section}}
+{{Topics|User Timing}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
 |HTML5Rocks_link=
 }}
