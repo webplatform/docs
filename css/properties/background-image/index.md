@@ -343,12 +343,9 @@
 }}
 {{See_Also_Section
 |Topic_clusters=Background
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[dom/defaultSelected|defaults]]</code>
-*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
+|Manual_links=* [[tutorials/using_css_background_images|Using CSS background images]]
+* [[tutorials/creating_gradients_in_css|Creating gradients in CSS]]
+|External_links=* [http://www.netmagazine.com/tutorials/get-grips-css3-multiple-background-images Get to grips with CSS3 multiple background images], by Prisca Schmarsow
 }}
 {{Topics|CSS}}
 {{External_Attribution
