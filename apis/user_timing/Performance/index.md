@@ -1,39 +1,36 @@
+{{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Compatibility Incomplete
 }}
-{{Standardization_Status|}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{API_Object
-|Subclass_of=
-}}
-{{Topics|DOM}}
+{{Summary_Section|Exposes a high precision timestamp to developers so they can better measure the performance of their applications.}}
+{{API_Object}}
 {{Examples_Section
+|Not_required=Yes
+|Examples=
+}}
+{{Notes_Section}}
+{{Related_Specifications_Section
+|Specifications={{Related Specification
+|Name=W3C User Timing Specification
+|URL=http://www.w3.org/TR/user-timing/
+|Status=W3C Candidate Recommendation
+}}
+}}
+{{Compatibility_Section
 |Not_required=No
-|Examples=}}
-{{Notes_Section
-|Notes=
-===Remarks===
-Windows Internet Explorer 9 and later.  The '''performance''' object is supported only for documents displayed in standards mode.
-|Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}210425 Navigation Timing], Section 4.4
-
-
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
-{{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
-*<code>window</code>
-*<code>[[apis/timing/methods/now|now]]</code>
-*<code>[[apis/timing/objects/performanceNavigation|performanceNavigation]]</code>
-*<code>[[apis/timing/objects/performanceTiming|performanceTiming]]</code>
-}}
+{{See_Also_Section}}
+{{Topics|User Timing}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
 |HTML5Rocks_link=
 }}
