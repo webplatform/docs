@@ -8,19 +8,12 @@
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=markName
-|Data type=void
+|Data type=any
 |Description=Name associated with the performance mark.
 |Optional=No
 }}
 |Method_applies_to=apis/user_timing/Performance
-|Example_object_name=object
-|Return_value_name=object
-|Javascript_data_type=DOM Node
-|Return_value_description=Type: '''HRESULT'''
-
-This method can return one of these values.
-
-S_OK
+|Javascript_data_type=void
 }}
 {{Examples_Section
 |Not_required=Yes
