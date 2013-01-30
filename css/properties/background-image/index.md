@@ -330,9 +330,9 @@
 }}
 |Notes_rows={{Compatibility Notes Row
 |Browser=Internet Explorer
-|Version=3.0
-|Note=Microsoft Internet Explorer 3.0 supports the '''background-image''' attribute, but only when it's set through the [[css/cssom/properties/background|'''background''']] attribute.
-}}
+|Version=< 9.0
+|Note=Doesn't support SVG for background-images, or multiple background images, or gradients.
+}}{{Compatibility Notes Row}}
 }}
 {{See_Also_Section
 |Topic_clusters=Background
