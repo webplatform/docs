@@ -20,7 +20,7 @@ security holes.
 Otherwise, some commercial browser releases include latent features
 that you can toggle on and off, as described below:
 
-===Chrome flags===
+===Chrome's about:flags===
 
 In Google Chrome, navigate to this address:
 
