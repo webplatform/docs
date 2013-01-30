@@ -44,7 +44,3 @@
 * [[tutorials/scripting svg|Scripting SVG]]
 * [[tutorials/external content in svg|External content in SVG]]
 * [[tutorials/animations in svg|Animations in SVG]]
-
-== SVG tutorials index ==
-
-{{Special:PrefixIndex/svg/tutorials/}}
