@@ -4,7 +4,12 @@
 |Editorial notes=[new content from Sierra to reframe SVG]
 }}
 {{Byline}}
-{{Summary_Section|__SUMMARY__}}
+{{Summary_Section|
+
+This guide introduces SVG's basic graphic primitives, from simple
+lines and shapes to complex polygons and paths.
+
+}}
 {{Tutorial
 |Content=__CONTENT__
 
