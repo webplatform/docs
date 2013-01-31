@@ -18,6 +18,10 @@
         13.2.3 Radial gradients
         13.2.4 Gradient stops
 
+Gradient properties:
+* '''stop-color'''
+* '''stop-opacity'''
+
 ==Images==
 
     5.7 The 'image' element
@@ -44,8 +48,13 @@
         14.3.5 Establishing a new clipping path: the 'clipPath' element
         14.3.6 Clipping paths, geometry, and pointer events
 
+Other properties for visual media:
+* '''clip''', only applicable to outermost svg element.
+
 * '''clip-path'''
 * '''clip-rule'''
+
+* '''overflow''', only applicable to elements which establish a new viewport.
 
 ==Masking==
 
@@ -54,35 +63,8 @@
 
 * '''mask'''
 
-==OTHER==
+==Advanced rendering options==
 
-
-
-
-* fill-rule
-
-** marker property
-** marker-start
-** marker-mid
-** marker-end
-
-* color-rendering
-* shape-rendering
-* text-rendering
-* image-rendering
-
-
- 11 Painting: Filling, Stroking and Marker Symbols
-    11.1 Introduction
-    11.2 Specifying paint
-    11.3 Fill Properties
-    11.4 Stroke Properties
-    11.5 Controlling visibility
-    11.6 Markers
-        11.6.1 Introduction
-        11.6.2 The 'marker' element
-        11.6.3 Marker properties
-        11.6.4 Details on how markers are rendered
     11.7 Rendering properties
         11.7.1 Color interpolation properties: 'color-interpolation' and 'color-interpolation-filters'
         11.7.2 The 'color-rendering' property
@@ -90,6 +72,23 @@
         11.7.4 The 'text-rendering' property
         11.7.5 The 'image-rendering' property
     11.8 Inheritance of painting properties
+
+* '''image-rendering'''
+* '''shape-rendering'''
+* '''text-rendering'''
+
+Color and Painting properties:
+
+* '''color-interpolation'''
+* '''color-interpolation-filters'''
+* '''color-profile'''
+* '''color-rendering'''
+
+==OTHER==
+
+ 11 Painting: Filling, Stroking and Marker Symbols
+    11.1 Introduction
+    11.2 Specifying paint
 
  12 Color
     12.1 Introduction
