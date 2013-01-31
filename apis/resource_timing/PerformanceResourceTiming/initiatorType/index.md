@@ -8,7 +8,7 @@
 {{API_Object_Property
 |Property_applies_to=apis/resource timing/PerformanceResourceTiming
 |Read_only=Yes
-|Return_value_description=One of the following DOMStrings:
+|Return_value_description=DOMString (one of the following):
 *css: The initiator is any CSS resource downloaded via the url() syntax, such as @import url(), background: url(), etc.
 *embed: The initiator is the src attribute of the HTML <embed> element.
 *img: The initiator is the src attribute of the HTML <img> element.
