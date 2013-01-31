@@ -5,7 +5,7 @@
 {{Summary_Section|This callback is triggered when the buffer used to store the list of PerformanceResourceTiming is full.}}
 {{API_Object_Property
 |Property_applies_to=apis/resource_timing/Performance
-|Read_only=No
+|Read_only=Yes
 }}
 {{Examples_Section
 |Not_required=Yes
