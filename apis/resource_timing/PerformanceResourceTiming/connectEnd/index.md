@@ -6,7 +6,7 @@
 {{API_Name}}
 {{Summary_Section|Returns the time immediately after the user agent finishes establishing the connection to the server to retrieve the resource.}}
 {{API_Object_Property
-|Property_applies_to=apis/resource_timing/PerformanceTiming
+|Property_applies_to=apis/resource_timing/PerformanceResourceTiming
 |Read_only=Yes
 |Return_value_description=DOMHighResTimeStamp
 }}
