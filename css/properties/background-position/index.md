@@ -339,45 +339,42 @@ div div { /* all the inner divs are given the same width and height, background 
 |Feature=Four-value syntax (support for offsets from any edge)
 |Android_supported=No
 |Android_version=
-|Android_prefixed_supported=Unknown
+|Android_prefixed_supported=No
 |Android_prefixed_version=
-|Blackberry_supported=Unknown
+|Blackberry_supported=No
 |Blackberry_version=
-|Blackberry_prefixed_supported=Unknown
+|Blackberry_prefixed_supported=No
 |Blackberry_prefixed_version=
 |Chrome_mobile_supported=Yes
-|Chrome_mobile_version=25
-|Chrome_mobile_prefixed_supported=Unknown
+|Chrome_mobile_version=1.0
+|Chrome_mobile_prefixed_supported=No
 |Chrome_mobile_prefixed_version=
 |Firefox_mobile_supported=Yes
 |Firefox_mobile_version=13.0 (13.0)
-|Firefox_mobile_prefixed_supported=Unknown
+|Firefox_mobile_prefixed_supported=No
 |Firefox_mobile_prefixed_version=
 |IE_mobile_supported=Yes
 |IE_mobile_version=9.0
-|IE_mobile_prefixed_supported=Unknown
+|IE_mobile_prefixed_supported=No
 |IE_mobile_prefixed_version=
 |Opera_mobile_supported=Yes
-|Opera_mobile_prefixed_supported=Unknown
+|Opera_mobile_version=9.5
+|Opera_mobile_prefixed_supported=No
 |Opera_mobile_prefixed_version=
 |Opera_mini_supported=Yes
-|Opera_mini_prefixed_supported=Unknown
+|Opera_mini_version=5.0
+|Opera_mini_prefixed_supported=No
 |Opera_mini_prefixed_version=
 |Safari_mobile_supported=No
 |Safari_mobile_version=
-|Safari_mobile_prefixed_supported=Unknown
+|Safari_mobile_prefixed_supported=No
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=Background
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[dom/defaultSelected|defaults]]</code>
-*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
+|Topic_clusters=Background, CSS Attributes
+|Manual_links=* [[tutorials/using_css_background_images|Using CSS background images]]
 }}
 {{Topics|CSS}}
 {{External_Attribution
