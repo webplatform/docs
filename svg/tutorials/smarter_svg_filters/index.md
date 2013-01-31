@@ -8,6 +8,13 @@
 {{Tutorial
 |Content=
 
+Filter Effects properties:
+* '''enable-background'''
+* '''filter'''
+* '''flood-color'''
+* '''flood-opacity'''
+* '''lighting-color'''
+
  15 Filter Effects
     15.1 Introduction
     15.2 An example
