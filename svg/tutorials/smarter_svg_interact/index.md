@@ -78,6 +78,11 @@
  onend
  onrepeat
 
+([[smarter_svg_overview|overview]] / [[smarter_svg_shapes|shapes]] /
+[[smarter_svg_graphics|graphics]] / [[smarter_svg_text|text]] /
+[[smarter_svg_filters|filters]] / [[smarter_svg_animation|animation]]
+/ [[smarter_svg_interaction|interaction]])
+
 }}
 {{Notes_Section}}
 {{Compatibility_Section
