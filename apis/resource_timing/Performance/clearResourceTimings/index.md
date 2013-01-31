@@ -8,8 +8,6 @@
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=apis/resource_timing/Performance
-|Example_object_name=object
-|Return_value_name=object
 }}
 {{Examples_Section
 |Not_required=Yes
