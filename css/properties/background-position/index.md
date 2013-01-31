@@ -103,6 +103,7 @@
   &lt;/div&gt;
 }}{{Single Example
 |Language=CSS
+|Description=Every inner div is given the same basic styling, and has the same background image applied to it. Each individual div is then given different top and left values to position it in a different place, and a different background-position value to display a different sprite. Each sprite is 128 x 128 px, and the inners divs are set to 128 x 128 px in size, so only a single sprite will be displayed at once by each of them. You need to get the background positions right, so that a whole sprite is displayed, not	a part of two sprites.
 |Code=body > div { /* Basic styling for the outer container div */
   width: 1024px;
   height: 640px;
@@ -176,7 +177,6 @@ div div { /* all the inner divs are given the same width and height, background 
   left: 832px;
   background-position: -896px 0px;
 }
-
 |LiveURL=http://chrisdavidmills.github.com/css-sprites-example/
 }}
 }}
