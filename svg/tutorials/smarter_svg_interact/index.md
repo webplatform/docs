@@ -6,7 +6,7 @@
 {{Byline}}
 {{Summary_Section|This shows you how to script interaction effects and link content for dynamic effects.}}
 {{Tutorial
-|Content=__CONTENT__
+|Content=
 
  16 Interactivity
     16.1 Introduction
