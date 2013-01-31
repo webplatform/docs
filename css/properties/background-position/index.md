@@ -1,11 +1,8 @@
-{{Page_Title}}
-{{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
+{{Page_Title|background-position}}
+{{Flags}}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Background-position controls the placement of the background-image within the element. Background-position can be used for rendering sprites.}}
+{{Summary_Section|background-position allows you to set the placement of a <code>background-image</code> on the element it is applied to. <code>background-image</code> generally takes two values, which set the horizontal and vertical position of the background image inside the element. }}
 {{CSS Property
 |Initial value=0 0
 |Applies to=All elements
