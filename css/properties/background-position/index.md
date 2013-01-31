@@ -91,7 +91,7 @@
 }}{{Single Example
 |Language=HTML
 |Description=An outer container div with several inner divs.
-|Code=   &lt;div id="outer"&gt;
+|Code=&lt;div id="outer"&gt;
     &lt;div id="save"&gt;&lt;/div&gt;
     &lt;div id="settings"&gt;&lt;/div&gt;
     &lt;div id="people"&gt;&lt;/div&gt;
@@ -101,6 +101,83 @@
     &lt;div id="back"&gt;&lt;/div&gt;
     &lt;div id="forward"&gt;&lt;/div&gt;
   &lt;/div&gt;
+}}{{Single Example
+|Language=CSS
+|Code=body > div { /* Basic styling for the outer container div */
+  width: 1024px;
+  height: 640px;
+  margin : 5rem auto;
+  background: -webkit-linear-gradient(top right, rgba(0,0,0,0),rgba(0,0,0,0.4));
+  background: -moz-linear-gradient(top right, rgba(0,0,0,0),rgba(0,0,0,0.4));
+  background: -ms-linear-gradient(top right, rgba(0,0,0,0),rgba(0,0,0,0.4));
+  background: -o-linear-gradient(top right, rgba(0,0,0,0),rgba(0,0,0,0.4));
+  background: linear-gradient(top right, rgba(0,0,0,0),rgba(0,0,0,0.4));
+  background-color: #ccc;
+  border-radius: 64px;
+  box-shadow: 0px 0px 30px black;
+  position: relative;
+}
+	  
+div div { /* all the inner divs are given the same width and height, background image, and absolute positioning */
+  width: 128px;
+  height: 128px;
+  position: absolute;
+  background: url(sprites.png);
+}
+	  
+#save { /* each individual div is then given different top and left values to position it in a different place,
+                  and a different background-position value to display a different sprite. Each sprite is 128 x 128 px, and 
+	the inners divs are set to 128 x 128 px in size, so only a single sprite will be displayed at once by
+	each of them. You need to get the background positions right, so that a whole sprite is displayed, not
+	a part of two sprites  */
+  top: 64px;
+  left: 64px;
+  background-position: 0px 0px;
+}
+	  
+#settings {
+  top: 192px;
+  left: 192px;
+  background-position: -128px 0px;
+}
+
+#people {
+  top: 320px;
+  left: 448px;
+  background-position: -256px 0px;
+}
+
+#search {
+  top: 320px;
+  left: 64px;
+  background-position: -384px 0px;
+}
+
+#cancel {
+  top: 448px;
+  left: 576px;
+  background-position: -512px 0px;
+}
+
+#ok {
+  top: 448px;
+  left: 704px;
+  background-position: -640px 0px;
+}
+
+#back {
+  top: 192px;
+  left: 832px;
+  background-position: -768px 0px;
+}
+
+#forward {
+  top: 320px;
+  left: 832px;
+  background-position: -896px 0px;
+}
+
+|LiveURL=http://chrisdavidmills.github.com/css-sprites-example/
 }}
 }}
 {{Notes_Section
