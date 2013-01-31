@@ -1,7 +1,7 @@
 {{Page_Title|Smarter SVG: overview and scope}}
 {{Flags
 |High-level issues=Stub
-|Editorial notes=[new content from Sierra to reframe SVG]
+|Editorial notes=[new content from Sierra]
 }}
 {{Byline}}
 {{Summary_Section|This shows you how deploy SVG graphics along with HTML and CSS, and guides you how its coordinate space works.}}
@@ -79,7 +79,6 @@
     5.4 The 'desc' and 'title' elements
     5.5 The 'symbol' element
     5.6 The 'use' element
-    5.7 The 'image' element
     5.8 Conditional processing
         5.8.1 Conditional processing overview
         5.8.2 The 'switch' element
@@ -140,10 +139,13 @@
 
 [http://svg-mitchallen.blogspot.com/2005/03/morphing-shapes-in-svg.html morphing shapes in svg]
 
-([[smarter_svg_overview|overview]] / [[smarter_svg_shapes|shapes]] /
-[[smarter_svg_graphics|graphics]] / [[smarter_svg_text|text]] /
-[[smarter_svg_filters|filters]] / [[smarter_svg_animation|animation]]
-/ [[smarter_svg_interaction|interaction]])
+([[svg/tutorials/smarter_svg_overview|overview]] /
+[[svg/tutorials/smarter_svg_shapes|shapes]] /
+[[svg/tutorials/smarter_svg_graphics|graphics]] /
+[[svg/tutorials/smarter_svg_text|text]] /
+[[svg/tutorials/smarter_svg_filters|filters]] /
+[[svg/tutorials/smarter_svg_animation|animation]] /
+[[svg/tutorials/smarter_svg_interaction|interaction]])
 
 }}
 {{Notes_Section}}
