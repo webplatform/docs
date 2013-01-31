@@ -131,6 +131,13 @@
     4.3 Real number precision
     4.4 Recognized color keyword names
 
+* '''display'''
+* '''overflow''', only applicable to elements which establish a new viewport.
+* '''visibility'''
+
+
+
+
 [http://svg-mitchallen.blogspot.com/2005/03/morphing-shapes-in-svg.html morphing shapes in svg]
 
 ([[smarter_svg_overview|overview]] / [[smarter_svg_shapes|shapes]] /
