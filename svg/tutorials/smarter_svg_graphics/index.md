@@ -1,12 +1,63 @@
 {{Page_Title|Smarter SVG: special graphic effects}}
 {{Flags
 |High-level issues=Stub
-|Editorial notes=[new content from Sierra to reframe SVG]
+|Editorial notes=[new content from Sierra]
 }}
 {{Byline}}
 {{Summary_Section|This guide shows you how to embed images in SVG and apply graphics effects such as gradients, patterns, clipping, masking, and compositing.}}
 {{Tutorial
 |Content=
+
+==Gradients==
+
+ 13 Gradients and Patterns
+    13.1 Introduction
+    13.2 Gradients
+        13.2.1 Introduction
+        13.2.2 Linear gradients
+        13.2.3 Radial gradients
+        13.2.4 Gradient stops
+
+==Images==
+
+    5.7 The 'image' element
+
+==Patterns==
+
+    13.3 Patterns
+
+==Compositing==
+
+ 14 Clipping, Masking and Compositing
+    14.1 Introduction
+    14.2 Simple alpha compositing
+
+* '''opacity'''
+
+==Clipping==
+
+    14.3 Clipping paths
+        14.3.1 Introduction
+        14.3.2 The initial clipping path
+        14.3.3 The 'overflow' and 'clip' properties
+        14.3.4 Clip to viewport vs. clip to 'viewBox'
+        14.3.5 Establishing a new clipping path: the 'clipPath' element
+        14.3.6 Clipping paths, geometry, and pointer events
+
+* '''clip-path'''
+* '''clip-rule'''
+
+==Masking==
+
+    14.4 Masking
+    14.5 Object and group opacity: the 'opacity' property
+
+* '''mask'''
+
+==OTHER==
+
+
+
 
 * fill-rule
 
@@ -20,27 +71,6 @@
 * text-rendering
 * image-rendering
 
- 13 Gradients and Patterns
-    13.1 Introduction
-    13.2 Gradients
-        13.2.1 Introduction
-        13.2.2 Linear gradients
-        13.2.3 Radial gradients
-        13.2.4 Gradient stops
-    13.3 Patterns
-
- 14 Clipping, Masking and Compositing
-    14.1 Introduction
-    14.2 Simple alpha compositing
-    14.3 Clipping paths
-        14.3.1 Introduction
-        14.3.2 The initial clipping path
-        14.3.3 The 'overflow' and 'clip' properties
-        14.3.4 Clip to viewport vs. clip to 'viewBox'
-        14.3.5 Establishing a new clipping path: the 'clipPath' element
-        14.3.6 Clipping paths, geometry, and pointer events
-    14.4 Masking
-    14.5 Object and group opacity: the 'opacity' property
 
  11 Painting: Filling, Stroking and Marker Symbols
     11.1 Introduction
@@ -71,10 +101,13 @@
         12.3.4 The CSS @color-profile rule
         12.3.5 The 'color-profile' property
 
-([[smarter_svg_overview|overview]] / [[smarter_svg_shapes|shapes]] /
-[[smarter_svg_graphics|graphics]] / [[smarter_svg_text|text]] /
-[[smarter_svg_filters|filters]] / [[smarter_svg_animation|animation]]
-/ [[smarter_svg_interaction|interaction]])
+([[svg/tutorials/smarter_svg_overview|overview]] /
+[[svg/tutorials/smarter_svg_shapes|shapes]] /
+[[svg/tutorials/smarter_svg_graphics|graphics]] /
+[[svg/tutorials/smarter_svg_text|text]] /
+[[svg/tutorials/smarter_svg_filters|filters]] /
+[[svg/tutorials/smarter_svg_animation|animation]] /
+[[svg/tutorials/smarter_svg_interaction|interaction]])
 
 }}
 {{Notes_Section}}
