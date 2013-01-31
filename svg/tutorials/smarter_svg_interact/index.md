@@ -22,8 +22,6 @@
         16.8.1 Introduction to cursors
         16.8.2 The 'cursor' property
         16.8.3 The 'cursor' element
-    16.9 DOM interfaces
-        16.9.1 Interface SVGCursorElement
 
  17 Linking
     17.1 References
@@ -38,9 +36,6 @@
         17.3.2 SVG fragment identifiers
         17.3.3 Predefined views: the 'view' element
         17.3.4 Highlighting views
-    17.4 DOM interfaces
-        17.4.1 Interface SVGAElement
-        17.4.2 Interface SVGViewElement
 
  18 Scripting
     18.1 Specifying the scripting language
@@ -53,9 +48,6 @@
         18.4.2 Event attributes on graphics and container elements
         18.4.3 Document-level event attributes
         18.4.4 Animation event attributes
-    18.5 DOM interfaces
-        18.5.1 Interface SVGScriptElement
-        18.5.2 Interface SVGZoomEvent
 
  onfocusin
  onfocusout
