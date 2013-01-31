@@ -188,6 +188,13 @@
         4.5.32 Interface SVGCSSRule
         4.5.33 Interface SVGRenderingIntent
 
+[http://svg-mitchallen.blogspot.com/2005/03/morphing-shapes-in-svg.html morphing shapes in svg]
+
+([[smarter_svg_overview|overview]] / [[smarter_svg_shapes|shapes]] /
+[[smarter_svg_graphics|graphics]] / [[smarter_svg_text|text]] /
+[[smarter_svg_filters|filters]] / [[smarter_svg_animation|animation]]
+/ [[smarter_svg_interaction|interaction]])
+
 }}
 {{Notes_Section}}
 {{Compatibility_Section
