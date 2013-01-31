@@ -1,50 +1,47 @@
+{{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Not Neutral, Compatibility Incomplete
 }}
-{{Standardization_Status|}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
+{{Summary_Section|Sets the maximum number of PerformanceResourceTiming resources that may be stored in the buffer to the value of the maxSize parameter.}}
 {{API_Object_Method
-|Parameters={{Method Parameter|Name=maxSize|Data type=unsigned long|Description=An '''integer''' value representing the maximum number of objects to track.|Optional=}}
-|Method_applies_to=apis/timing/objects/performance
-|Example_object_name=object
-|Return_value_name=object
-|Javascript_data_type=DOM Node
-|Return_value_description=Type: '''HRESULT'''
-
-This method can return one of these values.
-
-S_OK
-
-Type: '''HRESULT'''
-
-This method can return one of these values.
-
-S_OK
-
-
+|Parameters={{Method Parameter
+|Name=maxSize
+|Data type=unsigned long
+|Description=The maximum number of PerformanceResourceTiming resources that will be stored in the buffer.
+|Optional=No
 }}
-{{Topics|DOM}}
+|Method_applies_to=apis/resource_timing/Performance
+|Javascript_data_type=void
+}}
+{{Examples_Section
+|Not_required=Yes
+|Examples=
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
-The '''setResourceTimingBufferSize''' does not take effect until the clearResourceTimings method is called.
-|Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}247524 Resource Timing]
-
-
+|Notes=The '''setResourceTimingBufferSize''' does not take effect until the '''clearResourceTimings''' method is called.
 }}
-{{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
-*<code>[[apis/timing/objects/performance|performance]]</code>
+{{Related_Specifications_Section
+|Specifications={{Related Specification
+|Name=W3C Resource Timing Specification
+|URL=http://www.w3.org/TR/resource-timing
+|Status=W3C Candidate Recommendation
 }}
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section}}
+{{Topics|Resource Timing}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
 |HTML5Rocks_link=
 }}
