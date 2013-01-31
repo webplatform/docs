@@ -31,29 +31,63 @@
 |Description=If you have applied multiple background images to an element, you can give each background image a different position by specifying multiple background position values delimited by commas. The values supplied will cycle so that all images are given a <code>background-position</code>, for example if four background images are specified and only two position values, position 1 will be applied to images 1 and 3, and position 2 to images 2 and 4.
 }}{{CSS Property Value
 |Data Type=bottom 10px right 15px
-|Description=CSS3 includes the new four value <code>background-position</code> syntax, which allows you to choose which sides of the element you are positioning the background image relative to (values 1 and 3), and then the distance away from those sides (values 2 and 4). So this example says that you want to position the background image 10 pixels from the bottom of the element, and 15 pixels from the right. If you miss out one of the offset values, the other is assumed to be 0. 
+|Description=CSS3 includes the new four value <code>background-position</code> syntax, which allows you to choose which sides of the element you are positioning the background image relative to (values 1 and 3), and then the distance away from those sides (values 2 and 4). So this example says that you want to position the background image 10 pixels from the bottom of the element, and 15 pixels from the right. If you miss out one of the offset values, the other is assumed to be 0.
 }}
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=The following examples use the '''background-position''' attribute and the '''background-position''' property to specify the position of a background image.
-
-This example uses a call to an embedded (global) style sheet to move the sphere.
-|Code=&lt;STYLE&gt;
-    .style1 { background-position:top center }
-    .style2 { background-position:bottom right }
-&lt;/STYLE&gt;
-&lt;/HEAD&gt;
-&lt;BODY onload{{=}}"oSpan.className{{=}}'style1'"&gt;
-&lt;SPAN STYLE{{=}}"font-size:14; width:250;" ID{{=}}"oSpan"
-    onmouseover{{=}}"this.className{{=}}'style2'" onmouseout{{=}}"this.className{{=}}'style1'"&gt;
-. . . &lt;/SPAN&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/background-position.htm
+|Language=HTML
+|Description=A simple set of five divs.
+|Code=&lt;div class="one"&gt;One&lt;/div&gt;
+&lt;div class="two"&gt;Two&lt;/div&gt;
+&lt;div class="three"&gt;Three&lt;/div&gt;
+&lt;div class="four"&gt;Four&lt;/div&gt;
+&lt;div class="five"&gt;Five&lt;/div&gt;
 }}{{Single Example
-|Description=This example uses an inline style to move the sphere.
-|Code=&lt;SPAN onmouseover{{=}}"this.style.backgroundPosition{{=}}'bottom right'"&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/backgroundPosition.htm
+|Language=CSS
+|Description=This CSS applies the same background image and basic styling to each div, but then each div is given a different background position to vary where the background image is placed.
+|Code=div {
+  background-image: url(images/icon.png);
+  background-repeat: no-repeat;
+  font-family: sans-serif;
+  font-size: 16px;
+  letter-spacing: -1px;
+  width: 200px;
+  height: 100px;
+  margin-right: 10px;
+  border: 1px solid #aaa;
+  float: left;
+  line-height: 100px;
+  text-align: center;
+  border-radius: 10px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px black;
+  box-shadow: 2px 2px 5px #ccc;
+  padding-top: 2px;
+}
+
+ 
+.one {
+  background-position: top left; /* positioned at the top left of the element */
+}
+
+.two {
+  background-position: 2rem 1rem; /* positioned 2rems from the left of the element, and 1rem from the top */
+}
+
+.three {
+  background-position: 40% 80%; /* positioned 40% of the element's width away from the left side, and 80% of the element's height down from the top */
+}
+
+.four {
+  background-position: 30px; /* positioned 30px from the left of the element, and vertically centered (the assumed value when no second value is specified) */
+}
+
+.five {
+  background-position: bottom 30px right 50px; /* positioned 30px from the bottom of the element and 50px from the right */
+}
+|LiveURL=http://chrisdavidmills.github.com/basic-background-position/
 }}
 }}
 {{Notes_Section
