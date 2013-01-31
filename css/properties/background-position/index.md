@@ -8,7 +8,9 @@
 |Applies to=All elements
 |Inherited=No
 |Media=visual
-|Animatable=No
+|Computed value=Pixel value equivalents
+|Animatable=Yes
+|CSS object model property=backgroundPosition
 |Values={{CSS Property Value
 |Data Type=length
 |Description=Floating-point number, followed by an absolute units designator (<code>cm</code>, <code>mm</code>, <code>in</code>, <code>pt</code>, or <code>pc</code>) or a relative units designator (<code>em</code>, <code>ex</code>, or <code>px</code>). For more information about the supported length units, see CSS Values and Units Reference.
