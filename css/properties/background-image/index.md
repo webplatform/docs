@@ -294,6 +294,7 @@
 |Safari_mobile_prefixed_supported=No
 |Safari_mobile_prefixed_version=
 }}{{Compatibility Table Mobile Row
+|Feature=Gradients
 |Android_supported=No
 |Android_version=
 |Android_prefixed_supported=Yes
