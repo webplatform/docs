@@ -8,6 +8,7 @@
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=apis/resource_timing/Performance
+|Javascript_data_type=void
 }}
 {{Examples_Section
 |Not_required=Yes
