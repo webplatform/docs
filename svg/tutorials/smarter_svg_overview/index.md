@@ -4,27 +4,88 @@
 |Editorial notes=[new content from Sierra to reframe SVG]
 }}
 {{Byline}}
-{{Summary_Section|This shows you how deploy a SVG graphic along with HTML and CSS, and guides you how its coordinate space works.}}
+{{Summary_Section|This shows you how deploy SVG graphics along with HTML and CSS, and guides you how its coordinate space works.}}
 {{Tutorial
-|Content=__CONTENT__
+|Content=
 
 ==Deploying SVG==
 
-==Adding Styles==
-
-==Grouping Elements==
-
-==The viewport and viewbox==
-
-==Transforms==
-
- 5 Document Structure
     5.1 Defining an SVG document fragment: the 'svg' element
         5.1.1 Overview
         5.1.2 The 'svg' element
+
+==Adding styles==
+
+ 6 Styling
+    6.1 SVG's styling properties
+    6.2 Usage scenarios for styling
+    6.3 Alternative ways to specify styling properties
+    6.4 Specifying properties using the presentation attributes
+    6.5 Styling with XSL
+    6.6 Styling with CSS
+    6.7 Case sensitivity of property names and values
+    6.8 Facilities from CSS and XSL used by SVG
+    6.9 Referencing external style sheets
+    6.10 The 'style' element
+    6.11 The 'class' attribute
+    6.12 The 'style' attribute
+    6.13 Specifying the default style sheet language
+    6.14 Property inheritance
+    6.15 The scope/range of styles
+    6.16 User agent style sheet
+    6.17 Aural style sheets
+    6.18 DOM interfaces
+        6.18.1 Interface SVGStyleElement
+
+==Grouping elements==
+
     5.2 Grouping: the 'g' element
         5.2.1 Overview
         5.2.2 The 'g' element
+
+==The viewport and viewbox==
+
+ 7 Coordinate Systems, Transformations and Units
+    7.1 Introduction
+    7.2 The initial viewport
+    7.3 The initial coordinate system
+    7.4 Coordinate system transformations
+    7.5 Nested transformations
+    7.6 The 'transform' attribute
+    7.7 The 'viewBox' attribute
+    7.8 The 'preserveAspectRatio' attribute
+    7.9 Establishing a new viewport
+    7.10 Units
+    7.11 Object bounding box units
+    7.12 Intrinsic sizing properties of the viewport of SVG content
+    7.13 Geographic coordinate systems
+    7.14 The 'svg:transform' attribute
+    7.15 DOM interfaces
+        7.15.1 Interface SVGPoint
+        7.15.2 Interface SVGPointList
+        7.15.3 Interface SVGMatrix
+        7.15.4 Interface SVGTransform
+        7.15.5 Interface SVGTransformList
+        7.15.6 Interface SVGAnimatedTransformList
+        7.15.7 Interface SVGPreserveAspectRatio
+        7.15.8 Interface SVGAnimatedPreserveAspectRatio
+
+==Transforms==
+
+==Importing content==
+
+ 23 Extensibility
+    23.1 Foreign namespaces and private data
+    23.2 Embedding foreign object types
+    23.3 The 'foreignObject' element
+    23.4 An example
+    23.5 Adding private elements and attributes to the DTD
+    23.6 DOM interfaces
+        23.6.1 Interface SVGForeignObjectElement
+
+==Other==
+
+ 5 Document Structure
     5.3 Defining content for reuse, and the 'defs' element
         5.3.1 Overview
         5.3.2 The 'defs' element
@@ -58,52 +119,6 @@
         5.11.12 Interface SVGSwitchElement
         5.11.13 Interface GetSVGDocument
 
- 6 Styling
-    6.1 SVG's styling properties
-    6.2 Usage scenarios for styling
-    6.3 Alternative ways to specify styling properties
-    6.4 Specifying properties using the presentation attributes
-    6.5 Styling with XSL
-    6.6 Styling with CSS
-    6.7 Case sensitivity of property names and values
-    6.8 Facilities from CSS and XSL used by SVG
-    6.9 Referencing external style sheets
-    6.10 The 'style' element
-    6.11 The 'class' attribute
-    6.12 The 'style' attribute
-    6.13 Specifying the default style sheet language
-    6.14 Property inheritance
-    6.15 The scope/range of styles
-    6.16 User agent style sheet
-    6.17 Aural style sheets
-    6.18 DOM interfaces
-        6.18.1 Interface SVGStyleElement
-
- 7 Coordinate Systems, Transformations and Units
-    7.1 Introduction
-    7.2 The initial viewport
-    7.3 The initial coordinate system
-    7.4 Coordinate system transformations
-    7.5 Nested transformations
-    7.6 The 'transform' attribute
-    7.7 The 'viewBox' attribute
-    7.8 The 'preserveAspectRatio' attribute
-    7.9 Establishing a new viewport
-    7.10 Units
-    7.11 Object bounding box units
-    7.12 Intrinsic sizing properties of the viewport of SVG content
-    7.13 Geographic coordinate systems
-    7.14 The 'svg:transform' attribute
-    7.15 DOM interfaces
-        7.15.1 Interface SVGPoint
-        7.15.2 Interface SVGPointList
-        7.15.3 Interface SVGMatrix
-        7.15.4 Interface SVGTransform
-        7.15.5 Interface SVGTransformList
-        7.15.6 Interface SVGAnimatedTransformList
-        7.15.7 Interface SVGPreserveAspectRatio
-        7.15.8 Interface SVGAnimatedPreserveAspectRatio
-
  21 Metadata
     21.1 Introduction
     21.2 The 'metadata' element
@@ -112,15 +127,6 @@
         21.4.1 Interface SVGMetadataElement
 
  22 Backwards Compatibility
-
- 23 Extensibility
-    23.1 Foreign namespaces and private data
-    23.2 Embedding foreign object types
-    23.3 The 'foreignObject' element
-    23.4 An example
-    23.5 Adding private elements and attributes to the DTD
-    23.6 DOM interfaces
-        23.6.1 Interface SVGForeignObjectElement
 
  1 Introduction
     1.1 About SVG
