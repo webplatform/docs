@@ -6,7 +6,7 @@
 {{Byline}}
 {{Summary_Section|This guide shows you how to integrate SVG's animation features with other techniques available in CSS and JavaScript.}}
 {{Tutorial
-|Content=__CONTENT__
+|Content=
 
  19 Animation
     19.1 Introduction
