@@ -400,6 +400,9 @@ Here is most all of what you need to know about viewports:
 * dev.opera: [http://dev.opera.com/articles/view/an-introduction-to-meta-viewport-and-viewport/ An introduction to meta viewport and @viewport]
 * quirksmode: A tale of two viewports, parts [http://www.quirksmode.org/mobile/viewports.html one (desktop)] and [http://www.quirksmode.org/mobile/viewports2.html two (mobile)]
 * W3C Editor's Draft: [http://dev.w3.org/csswg/css-device-adapt/ CSS Device Adaptation]
+* [http://generatedcontent.org/post/21279324555/viewportunits Viewport Units]
+
+
 }}
 {{Topics}}
 {{External_Attribution
