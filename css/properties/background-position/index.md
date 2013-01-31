@@ -14,7 +14,6 @@
 |Values={{CSS Property Value
 |Data Type=20px 40px
 |Description=Any standard CSS units are acceptable as <code>background-position</code> values: px, ems, rems, mm, cm etc. Note that unit values specify the distance the top left corner of the background image is away from the top left corner of the element. For more details on these units, read [[css/units/length|Length units]].
-
 }}{{CSS Property Value
 |Data Type=30% 15%
 |Description=Percentages are acceptable for <code>background-position</code> values, and specify percentages of the overall width and height of the element in question. Note that percentage values specify the distance the top left corner of the background image is away from the top left corner of the element. For more details on percentages, read [[css/units/numeric|Numeric units]].
@@ -24,6 +23,15 @@
 }}{{CSS Property Value
 |Data Type=30% top
 |Description=A combination of different types of value (in this case, percentage then keyword) is allowed.
+}}{{CSS Property Value
+|Data Type=30%
+|Description=If only a single value is included, that is taken as the horizontal value, and the vertical value is set as <code>center</code>.
+}}{{CSS Property Value
+|Data Type=30% 15%, 40% 80%, 10px 10px
+|Description=If you have applied multiple background images to an element, you can give each background image a different position by specifying multiple background position values delimited by commas. The values supplied will cycle so that all images are given a <code>background-position</code>, for example if four background images are specified and only two position values, position 1 will be applied to images 1 and 3, and position 2 to images 2 and 4.
+}}{{CSS Property Value
+|Data Type=bottom 10px right 15px
+|Description=CSS3 includes the new four value <code>background-position</code> syntax, which allows you to choose which sides of the element you are positioning the background image relative to (values 1 and 3), and then the distance away from those sides (values 2 and 4). So this example says that you want to position the background image 10 pixels from the bottom of the element, and 15 pixels from the right. If you miss out one of the offset values, the other is assumed to be 0. 
 }}
 }}
 {{Examples_Section
