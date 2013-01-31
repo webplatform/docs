@@ -28,12 +28,6 @@
         13.2.3 Radial gradients
         13.2.4 Gradient stops
     13.3 Patterns
-    13.4 DOM interfaces
-        13.4.1 Interface SVGGradientElement
-        13.4.2 Interface SVGLinearGradientElement
-        13.4.3 Interface SVGRadialGradientElement
-        13.4.4 Interface SVGStopElement
-        13.4.5 Interface SVGPatternElement
 
  14 Clipping, Masking and Compositing
     14.1 Introduction
@@ -47,9 +41,6 @@
         14.3.6 Clipping paths, geometry, and pointer events
     14.4 Masking
     14.5 Object and group opacity: the 'opacity' property
-    14.6 DOM interfaces
-        14.6.1 Interface SVGClipPathElement
-        14.6.2 Interface SVGMaskElement
 
  11 Painting: Filling, Stroking and Marker Symbols
     11.1 Introduction
@@ -69,9 +60,6 @@
         11.7.4 The 'text-rendering' property
         11.7.5 The 'image-rendering' property
     11.8 Inheritance of painting properties
-    11.9 DOM interfaces
-        11.9.1 Interface SVGPaint
-        11.9.2 Interface SVGMarkerElement
 
  12 Color
     12.1 Introduction
@@ -82,9 +70,6 @@
         12.3.3 The 'color-profile' element
         12.3.4 The CSS @color-profile rule
         12.3.5 The 'color-profile' property
-    12.4 DOM interfaces
-        12.4.1 Interface SVGColorProfileElement
-        12.4.2 Interface SVGColorProfileRule
 
 ([[smarter_svg_overview|overview]] / [[smarter_svg_shapes|shapes]] /
 [[smarter_svg_graphics|graphics]] / [[smarter_svg_text|text]] /
