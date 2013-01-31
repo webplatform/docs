@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The pointer-events property  allows you to control whether an element can be the target for the pointing device (e.g, mouse, pen) events.}}
 {{CSS Property
 |Initial value=auto
 |Applies to=all elements
@@ -11,7 +11,27 @@
 |Computed value=the specified value
 |Animatable=No
 |CSS percentages=N/A
-|Values=
+|Values={{CSS Property Value
+|Data Type=auto
+}}{{CSS Property Value
+|Data Type=none
+}}{{CSS Property Value
+|Data Type=visiblePainted
+}}{{CSS Property Value
+|Data Type=visibleFill
+}}{{CSS Property Value
+|Data Type=visibleStroke
+}}{{CSS Property Value
+|Data Type=visible
+}}{{CSS Property Value
+|Data Type=painted
+}}{{CSS Property Value
+|Data Type=fill
+}}{{CSS Property Value
+|Data Type=stroke
+}}{{CSS Property Value
+|Data Type=inherit
+}}
 }}
 {{Examples_Section
 |Not_required=No
