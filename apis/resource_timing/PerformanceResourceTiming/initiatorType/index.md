@@ -4,7 +4,7 @@
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|Returns a DOMString representing the type of object that initiated the request for the resource. See Notes.}}
+{{Summary_Section|Returns a DOMString representing the type of object that initiated the request for the resource. See Return Value.}}
 {{API_Object_Property
 |Property_applies_to=apis/resource timing/PerformanceResourceTiming
 |Read_only=Yes
