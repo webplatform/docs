@@ -6,7 +6,7 @@
 {{Byline}}
 {{Summary_Section|This guide introduces SVG's basic graphic primitives, from simple lines and shapes to complex polygons and paths.}}
 {{Tutorial
-|Content=__CONTENT__
+|Content=
 
 ==Including SVG==
 
