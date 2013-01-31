@@ -18,6 +18,9 @@
 
 ==Fill and stroke properties==
 
+    11.3 Fill Properties
+    11.4 Stroke Properties
+
 * '''fill'''
 * '''fill-opacity'''
 * '''stroke'''
@@ -31,13 +34,27 @@
     9.7 The 'polygon' element
         9.7.1 The grammar for points specifications in 'polyline' and 'polygon' elements
 
-==Other stroke properties==
+==Other properties==
 
 * '''stroke-linecap'''
 * '''stroke-linejoin'''
 * '''stroke-miterlimit''' (if linejoin:miter)
 * '''stroke-dasharray'''
 * '''stroke-dashoffset'''
+* '''fill-rule'''
+
+==Markers==
+
+    11.6 Markers
+        11.6.1 Introduction
+        11.6.2 The 'marker' element
+        11.6.3 Marker properties
+        11.6.4 Details on how markers are rendered
+
+* '''marker'''
+* '''marker-end'''
+* '''marker-mid'''
+* '''marker-start'''
 
 ==Paths==
 
