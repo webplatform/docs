@@ -12,11 +12,18 @@
 |Animatable=Yes
 |CSS object model property=backgroundPosition
 |Values={{CSS Property Value
-|Data Type=length
-|Description=Floating-point number, followed by an absolute units designator (<code>cm</code>, <code>mm</code>, <code>in</code>, <code>pt</code>, or <code>pc</code>) or a relative units designator (<code>em</code>, <code>ex</code>, or <code>px</code>). For more information about the supported length units, see CSS Values and Units Reference.
+|Data Type=20px 40px
+|Description=Any standard CSS units are acceptable as <code>background-position</code> values: px, ems, rems, mm, cm etc. Note that unit values specify the distance the top left corner of the background image is away from the top left corner of the element. For more details on these units, read [[css/units/length|Length units]].
+
 }}{{CSS Property Value
-|Data Type=percentage
-|Description=Integer, followed by a percent sign (%). The value is a percentage of the width or height of the object.
+|Data Type=30% 15%
+|Description=Percentages are acceptable for <code>background-position</code> values, and specify percentages of the overall width and height of the element in question. Note that percentage values specify the distance the top left corner of the background image is away from the top left corner of the element. For more details on percentages, read [[css/units/numeric|Numeric units]].
+}}{{CSS Property Value
+|Data Type=left top
+|Description=<code>background-position</code> can also be expressed as keywords: left top, top, right top, left, center, right, left bottom, bottom, right bottom. These values do not relate specifically to the position of the top left hand corner of the background image, but rather the overall position of the background image inside the element. So for example, a value of <code>right top</code> will make the background image site flush to the top and right sides of the element it is applied to; the top left corner ''won't'' be positioned at the top right of the element!
+}}{{CSS Property Value
+|Data Type=30% top
+|Description=A combination of different types of value (in this case, percentage then keyword) is allowed.
 }}
 }}
 {{Examples_Section
