@@ -6,7 +6,7 @@
 {{Byline}}
 {{Summary_Section|This shows you how to apply SVG's image processing filters.}}
 {{Tutorial
-|Content=__CONTENT__
+|Content=
 
  15 Filter Effects
     15.1 Introduction
