@@ -379,8 +379,7 @@ div div { /* all the inner divs are given the same width and height, background 
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
 |MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809 Windows Internet Explorer API reference]
+|MSDN_link=
 |HTML5Rocks_link=
 }}
