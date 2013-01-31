@@ -1,35 +1,42 @@
+{{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Compatibility Incomplete
 }}
-{{Standardization_Status|}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
+{{Summary_Section|Returns the time immediately before the user agent starts requesting the resource from the server, or from relevant application caches or from local resources.}}
 {{API_Object_Property
-|Property_applies_to=apis/timing/properties
-|Read_only=
+|Property_applies_to=apis/resource_timing/PerformanceResourceTiming
+|Read_only=Yes
+|Return_value_description=DOMHighResTimeStamp
 }}
-{{Topics|DOM}}
+{{Examples_Section
+|Not_required=Yes
+|Examples=
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
-The value reported by the '''requestStart''' property represents the number of milliseconds between the recorded time and midnight January 1, 1970 (UTC).
-Windows Internet Explorer 9.  This property is supported only for documents displayed in IE9 Standards mode.  For more information, see Defining Document Compatibility.
-|Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}210425 Navigation Timing], Section 4.2
-
-
+|Notes=The value reported by the '''requestStart''' property represents the number of milliseconds between the recorded time and midnight January 1, 1970 (UTC).
 }}
-{{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
-*<code>[[apis/timing/objects/performanceTiming|performanceTiming]]</code>
+{{Related_Specifications_Section
+|Specifications={{Related Specification
+|Name=W3C Resource Timing Specification
+|URL=http://www.w3.org/TR/resource-timing
+|Status=W3C Candidate Recommendation
 }}
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section}}
+{{Topics|Resource Timing}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
 |HTML5Rocks_link=
 }}
