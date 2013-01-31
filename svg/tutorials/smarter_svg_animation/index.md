@@ -1,7 +1,7 @@
 {{Page_Title|Smarter SVG: animation}}
 {{Flags
 |High-level issues=Stub
-|Editorial notes=[new content from Sierra to reframe SVG]
+|Editorial notes=[new content from Sierra]
 }}
 {{Byline}}
 {{Summary_Section|This guide shows you how to integrate SVG's animation features with other techniques available in CSS and JavaScript.}}
@@ -30,10 +30,13 @@
         19.2.16 The 'animateTransform' element
         19.2.17 Elements, attributes and properties that can be animated
 
-([[smarter_svg_overview|overview]] / [[smarter_svg_shapes|shapes]] /
-[[smarter_svg_graphics|graphics]] / [[smarter_svg_text|text]] /
-[[smarter_svg_filters|filters]] / [[smarter_svg_animation|animation]]
-/ [[smarter_svg_interaction|interaction]])
+([[svg/tutorials/smarter_svg_overview|overview]] /
+[[svg/tutorials/smarter_svg_shapes|shapes]] /
+[[svg/tutorials/smarter_svg_graphics|graphics]] /
+[[svg/tutorials/smarter_svg_text|text]] /
+[[svg/tutorials/smarter_svg_filters|filters]] /
+[[svg/tutorials/smarter_svg_animation|animation]] /
+[[svg/tutorials/smarter_svg_interaction|interaction]])
 
 }}
 {{Notes_Section}}
