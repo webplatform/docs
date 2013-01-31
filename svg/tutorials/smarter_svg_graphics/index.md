@@ -6,7 +6,7 @@
 {{Byline}}
 {{Summary_Section|This guide shows you how to embed images in SVG and apply graphics effects such as gradients, patterns, clipping, masking, and compositing.}}
 {{Tutorial
-|Content=__CONTENT__
+|Content=
 
 * fill-rule
 
