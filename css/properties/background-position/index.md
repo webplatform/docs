@@ -88,6 +88,19 @@
   background-position: bottom 30px right 50px; /* positioned 30px from the bottom of the element and 50px from the right */
 }
 |LiveURL=http://chrisdavidmills.github.com/basic-background-position/
+}}{{Single Example
+|Language=HTML
+|Description=An outer container div with several inner divs.
+|Code=   &lt;div id="outer"&gt;
+    &lt;div id="save"&gt;&lt;/div&gt;
+    &lt;div id="settings"&gt;&lt;/div&gt;
+    &lt;div id="people"&gt;&lt;/div&gt;
+    &lt;div id="search"&gt;&lt;/div&gt;
+    &lt;div id="cancel"&gt;&lt;/div&gt;
+    &lt;div id="ok"&gt;&lt;/div&gt;
+    &lt;div id="back"&gt;&lt;/div&gt;
+    &lt;div id="forward"&gt;&lt;/div&gt;
+  &lt;/div&gt;
 }}
 }}
 {{Notes_Section
