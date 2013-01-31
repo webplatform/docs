@@ -41,7 +41,7 @@
         5.2.1 Overview
         5.2.2 The 'g' element
 
-==The viewport and viewbox==
+==Transforms==
 
  7 Coordinate Systems, Transformations and Units
     7.1 Introduction
@@ -59,7 +59,7 @@
     7.13 Geographic coordinate systems
     7.14 The 'svg:transform' attribute
 
-==Transforms==
+==The viewport and viewbox==
 
 ==Importing content==
 
@@ -130,12 +130,12 @@
     4.3 Real number precision
     4.4 Recognized color keyword names
 
+    11.5 Controlling visibility
+
 * '''display'''
-* '''overflow''', only applicable to elements which establish a new viewport.
 * '''visibility'''
 
-
-
+* '''color''', used to provide a potential indirect value (currentColor) for the '''fill''', '''stroke''', '''stop-color''', '''flood-color''' and '''lighting-color''' properties. (The SVG properties which support color allow a color specification which is extended from CSS2 to accommodate color definitions in arbitrary color spaces. See Color profile descriptions.)
 
 [http://svg-mitchallen.blogspot.com/2005/03/morphing-shapes-in-svg.html morphing shapes in svg]
 
