@@ -4,8 +4,13 @@
 {{API_Name}}
 {{Summary_Section}}
 {{CSS Property
-|Inherited=No
+|Initial value=auto
+|Applies to=all elements
+|Inherited=Yes
+|Media=visual
+|Computed value=the specified value
 |Animatable=No
+|CSS percentages=N/A
 |Values=
 }}
 {{Examples_Section
