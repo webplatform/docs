@@ -29,17 +29,6 @@
         19.2.15 The 'animateColor' element
         19.2.16 The 'animateTransform' element
         19.2.17 Elements, attributes and properties that can be animated
-    19.3 Animation using the SVG DOM
-    19.4 DOM interfaces
-        19.4.1 Interface ElementTimeControl
-        19.4.2 Interface TimeEvent
-        19.4.3 Interface SVGAnimationElement
-        19.4.4 Interface SVGAnimateElement
-        19.4.5 Interface SVGSetElement
-        19.4.6 Interface SVGAnimateMotionElement
-        19.4.7 Interface SVGMPathElement
-        19.4.8 Interface SVGAnimateColorElement
-        19.4.9 Interface SVGAnimateTransformElement
 
 ([[smarter_svg_overview|overview]] / [[smarter_svg_shapes|shapes]] /
 [[smarter_svg_graphics|graphics]] / [[smarter_svg_text|text]] /
