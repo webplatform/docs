@@ -49,26 +49,31 @@
         18.4.3 Document-level event attributes
         18.4.4 Animation event attributes
 
- onfocusin
- onfocusout
- onactivate
- onclick
- onmousedown
- onmouseup
- onmouseover
- onmousemove
- onmouseout
+Interactivity properties:
+* '''pointer-events'''
+* '''cursor'''
 
- onunload
- onabort
- onerror
- onresize
- onscroll
- onzoom
+Events:
+* '''onfocusin'''
+* '''onfocusout'''
+* '''onactivate'''
+* '''onclick'''
+* '''onmousedown'''
+* '''onmouseup'''
+* '''onmouseover'''
+* '''onmousemove'''
+* '''onmouseout'''
 
- onbegin
- onend
- onrepeat
+* '''onunload'''
+* '''onabort'''
+* '''onerror'''
+* '''onresize'''
+* '''onscroll'''
+* '''onzoom'''
+
+* '''onbegin'''
+* '''onend'''
+* '''onrepeat'''
 
 ([[svg/tutorials/smarter_svg_overview|overview]] /
 [[svg/tutorials/smarter_svg_shapes|shapes]] /
