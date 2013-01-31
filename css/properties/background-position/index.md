@@ -186,7 +186,16 @@ div div { /* all the inner divs are given the same width and height, background 
 * The four value syntax is not supported very widely across browsers.
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS 2.1 Colors and Backgrounds
+|URL=http://www.w3.org/TR/CSS2/colors.html
+|Status=W3C Recommendation
+}}{{Related Specification
+|Name=CSS Backgrounds and Borders Module Level 3
+|URL=http://www.w3.org/TR/css3-background/#background-position
+|Status=W3C Candidate Recommendation
+|Relevant_changes=Can support multiple background positions, for multiple background images; CSS3 also includes new four-value background position syntax (see Values section).
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
