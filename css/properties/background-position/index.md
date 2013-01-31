@@ -181,16 +181,9 @@ div div { /* all the inner divs are given the same width and height, background 
 }}
 }}
 {{Notes_Section
-|Notes====Remarks===
-If only one value is set, that value applies to the horizontal coordinate, and the vertical is set to <code>50%</code>. If both values are set, the first value applies to the horizontal coordinate and the second value applies to the vertical.
-Setting the values to <code>0% 0%</code> (initial value) positions the [[css/properties/background-image|'''background-image''']] to the upper left corner of the element's content block, which includes the padding.
-Setting the background position using pixels positions the upper-left of the image at the specified x and y coordinates within the parent element. As the coordinates increase, the image moves to the right and down the visible area. By contrast, setting the background position with percentages uses a corresponding point on the image. At a position of <code>50% 50%</code> the image is effectively centered within the visible area.
-This property can be set with the other background properties using the [[css/cssom/properties/background|'''background''']] composite property.
-In Windows Internet Explorer 9, the background of a box can have multiple layers. The number of layers is determined by the number of comma-separated values in the [[css/properties/background-image|'''background-image''']] property. Each of the images is sized, positioned, and tiled according to the corresponding value in the other background properties ([[css/properties/background-attachment|'''background-attachment''']], [[css/properties/background-clip|'''background-clip''']], [[css/properties/background-origin|'''background-origin''']], '''background-position''', [[css/properties/background-repeat|'''background-repeat''']], and [[css/properties/background-size|'''background-size''']]). The first image in the list is the layer closest to the user, the next one is painted behind the first, and so on.
-|Import_Notes====Syntax===
-<code>'''background-position: ''''''[''' '''[''' percentage '''{{!}}''' length '''{{!}}''' left '''{{!}}''' center '''{{!}}''' right ''']''' '''[''' percentage '''{{!}}''' length '''{{!}}''' top '''{{!}}''' center '''{{!}}''' bottom ''']''''''?''' ''']''' '''{{!}}''' '''[''' '''[''' left '''{{!}}''' center '''{{!}}''' right ''']''' '''{{!}}{{!}}''' '''[''' top '''{{!}}''' center '''{{!}}''' bottom ''']''' ''']'''</code>
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 5.3.6
+|Usage=* <code>background-position</code> has good support across browsers. Be aware however that some [[css/units/length|CSS units]] are recent additions to the language and are there not supported across older browsers.
+* CSS sprites is a very common technique used to display multiple small images on a web page while cutting down on file size and HTTP requests. The images in question are all stored in a single image file which is applied to multiple different elements on the page; different parts of that file are then displayed by varying the <code>background-position</code> values. See example 2 for this in action.
+* The four value syntax is not supported very widely across browsers.
 }}
 {{Related_Specifications_Section
 |Specifications=
