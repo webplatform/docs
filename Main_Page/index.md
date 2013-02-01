@@ -15,7 +15,7 @@ Web Platform Docs is a community-driven site that aims to become a comprehensive
     <div class="inner">
     <h3>[[beginners | Beginners guide]]</h3>
     
-    <p>This section provides a light introduction to client-side web technologies, for complete beginners.</p>
+    <p>Introductory materials for those new to web development.</p>
     </div>
   
   </div>
@@ -27,7 +27,7 @@ Web Platform Docs is a community-driven site that aims to become a comprehensive
     <div class="inner">
     <h3>[[concepts | General web concepts]]</h3>
     
-    <p>General concepts is a home for documentation that isn't based around a particular subject from the other categories.</p>
+    <p>Conceptual  and tutorial articles on topics such as how the web works, information architecture, typography, and web design.</p>
     </div>
   
   </div>
@@ -39,7 +39,7 @@ Web Platform Docs is a community-driven site that aims to become a comprehensive
     <div class="inner">
     <h3>[[html|HTML]]</h3>
     
-    <p>HTML is the main markup language of the Web, which we use to structure and give meaning to our web content.</p>
+    <p>Conceptual, tutorial, and reference materials for the main markup language of the web.</p>
     </div>
   
   </div>
@@ -52,7 +52,7 @@ Web Platform Docs is a community-driven site that aims to become a comprehensive
     <div class="inner">
     <h3>[[css|CSS]]</h3>
     
-    <p>CSS is the styling language of the Web, allowing us to style, layout and provide basic behaviour to web content.</p>
+    <p>Conceptual, tutorial, and reference materials for Cascading style sheets (CSS).</p>
     </div>
   
   </div>
@@ -65,7 +65,7 @@ Web Platform Docs is a community-driven site that aims to become a comprehensive
     <div class="inner">
     <h3>[[concepts/accessibility|Accessibility]]</h3>
     
-    <p>Accessibility is the best practice of making sure web content is accessible to all, including those with disabilities such as visual and auditory impairments.</p>
+    <p>Patterns, practices and business cases for making the web work for people with a diverse range of abilities.</p>
     </div>
   
   </div>
@@ -78,7 +78,7 @@ Web Platform Docs is a community-driven site that aims to become a comprehensive
     <div class="inner">
     <h3>[[javascript|JavaScript]]</h3>
     
-    <p>JavaScript is the web's client-side scripting language, allowing us to control and add complex dynamic behaviour to web content.</p>
+    <p>Tutorial and reference materials for JavaScript, the web's client-side scripting language; Includes reference materials for 3rd party JavaScript libraries.</p>
     </div>
   
   </div>
@@ -91,7 +91,7 @@ Web Platform Docs is a community-driven site that aims to become a comprehensive
     <div class="inner">
     <h3>[[dom|DOM]]</h3>
     
-    <p>The DOM is the tree structure that browser turns web content into, which we can then manipulate using other technologies. This section covers DOM-related features.</p>
+    <p>Tutorial and reference materials for the Document Object Model (DOM) events and methods.</p>
     </div>
   
   </div>
@@ -104,7 +104,7 @@ Web Platform Docs is a community-driven site that aims to become a comprehensive
     <div class="inner">
     <h3>[[svg|SVG]]</h3>
     
-    <p>SVG is an XML-based language that allows us to define, animate and style vector graphics.</p>
+    <p>Tutorial and reference materials for Scalable Vector Graphics (SVG), an XML markup language for describing two-dimensional vector graphics.</p>
     </div>
   
   </div>
@@ -116,7 +116,7 @@ Web Platform Docs is a community-driven site that aims to become a comprehensive
     <div class="inner">
     <h3>[[apis|APIs]]</h3>
     
-    <p>JavaScript APIs allow us to easily control web standards features, and consume data and services from 3rd party sources.</p>
+    <p>Reference materials for JavaScript APIs from appcache to xhr.</p>
     </div>
   
   </div>
