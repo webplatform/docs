@@ -5,7 +5,6 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{FUBAR}}
 {{Summary_Section|SVG filter effects apply graphics operations such as blurs and color transformations to a source graphic. Filters may be applied to graphical SVG elements (<circle>, <text>) as well as to grouping elements (<g>). The '''filter''' element specifies the position, dimensions, resolution and units for a filter effect. '''filter''' elements typically have multiple child elements to specify filter primitives that combine together to create the final graphics effect.}}
 {{Markup_Element
 |DOM_interface=svg/objects/SVGFilterElement
@@ -137,8 +136,7 @@ Note: that when we use '''userSpaceOnUse''', we calculate our filter and feFlood
 |Examples={{Single Example
 |Language=Other
 |Description=Basic filter effect example
-|Code=
-<syntaxhighlight lang="xml">
+|Code=<syntaxhighlight lang="xml">
 <svg width="200px" height="200px" viewbox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" version="1.1">
 <title>A basic filter example</title>
    <defs>
@@ -157,7 +155,7 @@ Note: that when we use '''userSpaceOnUse''', we calculate our filter and feFlood
 
 Most filter attributes are animateable via animateElement, however performance in current desktop browsers (Dec 2012) is uneven.
 
-Child elements of the Filter element - filter primitives - have two optional attributes that specify the color space within which color interpolation calculations are performed: '''color-interpolation''' and '''color-interpolation-filters'''. The default for the former is sRGB, and the default for the latter is linearRGB. "Non-intuitive" results from color manipulation operations can often be corrected by setting the value of one or other of these attributes to its non-default value. Please note that according to spec, these attributes should be set on the *individual filter primitives* and not on the filter element itself.
+Child elements of the Filter element - filter primitives - have two optional attributes that specify the color space within which color interpolation calculations are performed: '''color-interpolation''' and '''color-interpolation-filters'''. The default for the former is sRGB, and the default for the latter is linearRGB. "Non-intuitive" results from color manipulation operations can often be corrected by setting the value of one or other of these attributes to its non-default value.These attributes can be set on the individual filter primitives or inherited from the filter element itself.
 
 If no other input is specified, but one is required, the first filter primitive within a filter will take a rasterized (bitmapped) version of the referring element as its input. Subsequent filter primitives that expect an input will take the output of the immediately preceding filter primitive as input.
 
@@ -227,7 +225,6 @@ The '''SVGFilterElement''' object has these properties.
 *[[svg/properties/xmllang|'''xmllang''']]: Gets or sets a value that specifies the language that is used in the contents and attribute values of an element.
 *[[svg/properties/xmlspace|'''xmlspace''']]: Gets or sets a value that indicates whether white space is preserved in character data.
 *[[svg/properties/y|'''y''']]: Gets or sets the y-coordinate value.
-
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -304,3 +301,4 @@ The '''SVGFilterElement''' object has these properties.
 |MSDN_link=
 |HTML5Rocks_link=
 }}
+{{FUBAR}}
