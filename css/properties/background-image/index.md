@@ -202,7 +202,7 @@
 |Blackberry_prefixed_supported=No
 |Blackberry_prefixed_version=
 |Chrome_mobile_supported=Yes
-|Chrome_mobile_version=1.0
+|Chrome_mobile_version=18.0
 |Chrome_mobile_prefixed_supported=No
 |Chrome_mobile_prefixed_version=
 |Firefox_mobile_supported=Yes
@@ -236,7 +236,7 @@
 |Blackberry_prefixed_supported=No
 |Blackberry_prefixed_version=
 |Chrome_mobile_supported=Yes
-|Chrome_mobile_version=1.0
+|Chrome_mobile_version=18.0
 |Chrome_mobile_prefixed_supported=No
 |Chrome_mobile_prefixed_version=
 |Firefox_mobile_supported=Yes
@@ -270,7 +270,7 @@
 |Blackberry_prefixed_supported=No
 |Blackberry_prefixed_version=
 |Chrome_mobile_supported=Yes
-|Chrome_mobile_version=1.0
+|Chrome_mobile_version=18.0
 |Chrome_mobile_prefixed_supported=No
 |Chrome_mobile_prefixed_version=
 |Firefox_mobile_supported=Unknown
@@ -306,7 +306,7 @@
 |Chrome_mobile_supported=No
 |Chrome_mobile_version=
 |Chrome_mobile_prefixed_supported=Yes
-|Chrome_mobile_prefixed_version=1.0
+|Chrome_mobile_prefixed_version=18.0
 |Firefox_mobile_supported=No
 |Firefox_mobile_version=
 |Firefox_mobile_prefixed_supported=Yes
