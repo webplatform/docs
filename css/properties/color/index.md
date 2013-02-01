@@ -59,7 +59,9 @@ In order to make it easier for users to see and hear content including separatin
 |URL=http://www.w3.org/TR/css3-color/
 |Status=W3C Recommendation
 }}{{Related Specification
-|Name=CSS3 
+|Name=CSS3 Animatable-css
+|URL=http://dev.w3.org/csswg/css3-transitions/#animatable-css
+|Status=W3C Working Draft
 }}
 }}
 {{Compatibility_Section
