@@ -172,15 +172,6 @@ rgba(0%,0%,100%,0.5)
 *CSS2 system colors (Deprecated)
 
 
-===Standards information===
-[http://www.w3.org/TR/css3-color W3C Recommendation] for
-*[http://www.w3.org/TR/css3-color/#foreground the color property]
-*[http://www.w3.org/TR/css3-color/#colorunits color units]
-[http://dev.w3.org/csswg/css3-transitions W3C Working Draft] for
-*[http://dev.w3.org/csswg/css3-transitions/#animatable-css animateable colors]
-
-
-
 <br /><hr /><br /><br /><hr /><br />
 ===More live examples===
 *[http://www.w3schools.com/cssref/tryit.asp?filename=trycss_color w3schools Tryit]
