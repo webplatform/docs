@@ -92,6 +92,7 @@ In order to make it easier for users to see and hear content including separatin
 |Android_prefixed_supported=No
 |Android_prefixed_version=
 |Blackberry_supported=Yes
+|Blackberry_version=3.8
 |Blackberry_prefixed_supported=No
 |Blackberry_prefixed_version=
 |Chrome_mobile_supported=Yes
