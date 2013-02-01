@@ -55,10 +55,11 @@ In order to make it easier for users to see and hear content including separatin
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=CSS3
+|Name=CSS3 Color Module Level 3
 |URL=http://www.w3.org/TR/css3-color/
 |Status=W3C Recommendation
-|Relevant_changes=An opacity can be specified
+}}{{Related Specification
+|Name=CSS3 
 }}
 }}
 {{Compatibility_Section
