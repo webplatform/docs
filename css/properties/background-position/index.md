@@ -278,7 +278,7 @@ div div { /* all the inner divs are given the same width and height, background 
 |Blackberry_prefixed_supported=No
 |Blackberry_prefixed_version=
 |Chrome_mobile_supported=Yes
-|Chrome_mobile_version=1.0
+|Chrome_mobile_version=18.0
 |Chrome_mobile_prefixed_supported=No
 |Chrome_mobile_prefixed_version=
 |Firefox_mobile_supported=Yes
@@ -312,7 +312,7 @@ div div { /* all the inner divs are given the same width and height, background 
 |Blackberry_prefixed_supported=No
 |Blackberry_prefixed_version=
 |Chrome_mobile_supported=Yes
-|Chrome_mobile_version=1.0
+|Chrome_mobile_version=18.0
 |Chrome_mobile_prefixed_supported=No
 |Chrome_mobile_prefixed_version=
 |Firefox_mobile_supported=Yes
@@ -346,7 +346,7 @@ div div { /* all the inner divs are given the same width and height, background 
 |Blackberry_prefixed_supported=No
 |Blackberry_prefixed_version=
 |Chrome_mobile_supported=Yes
-|Chrome_mobile_version=1.0
+|Chrome_mobile_version=25.0
 |Chrome_mobile_prefixed_supported=No
 |Chrome_mobile_prefixed_version=
 |Firefox_mobile_supported=Yes
