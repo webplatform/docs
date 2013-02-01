@@ -176,7 +176,7 @@ shorthand words (entity references).
  
 An actual ampersand has to be entered into a document as "&amp;amp;",
 which is the character entity reference, or as "&amp;#38;" which is
-the numeric reference. [http://www.evolt.org/article/A_Simple_Character_Entity_Chart/17/21234/ A full chart of character references can be found on evolt.org].
+the numeric reference. Web Platform Docs includes a [[html/entities#HTML_Entities_Table | Table of Common HTML Entities]] for reference.
 
 For more information about working with character escapes see [http://www.w3.org/International/questions/qa-escapes Using character escapes in markup and CSS].
 }}
