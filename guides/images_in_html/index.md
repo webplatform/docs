@@ -1,5 +1,9 @@
 {{Page_Title|Images in HTML}}
-{{Flags}}
+{{Flags
+|High-level issues=Unreviewed Import
+|Content=Broken Links
+|Editorial notes=Links in the page still refer to DevOpera original documentation. Redirect them to the relevant sections inside this guide, if existing.
+}}
 {{Byline}}
 {{Summary_Section|This article provides all you need to know to add images to an HTML document using the <code>&lt;img&gt;</code> tag.}}
 {{Tutorial
