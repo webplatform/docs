@@ -1,6 +1,5 @@
 {{Page_Title|HTML links}}
-{{Flags
-}}
+{{Flags}}
 {{Byline}}
 {{Summary_Section|In this article we provide a complete treatment of HTML anchors, or <code>&lt;a&gt;</code> elements, more commonly known as HTML links.}}
 {{Guide
@@ -250,13 +249,13 @@ The same applies to “more” links. You’ll find these in news sites where yo
 
 == Link styling ==
  
-We won't give this a full treatment until the [[http://www.w3.org/wiki/Web_Standards_Curriculum#CSS CSS section of the course]], but it is useful to consider at this point that the way links look is very important and there are several different link states to consider. The link states (which relate to CSS pseudo-selectors — this sounds complex, but it isn’t) are:
+We won't give this a full treatment until the [[css|CSS section of the course]], but it is useful to consider at this point that the way links look is very important and there are several different link states to consider. The link states (which relate to CSS pseudo-selectors — this sounds complex, but it isn’t) are:
  
-* <code>&lt;link&gt;</code> — the default state — it defines what links should look like in a certain part of the document. By default, unvisited links are coloured blue.
-* <code>&lt;visited&gt;</code> — the style of a link that has already been visited before (and might already be in the browser cache). By default, already visited links are coloured purple.
-* <code>&lt;hover&gt;</code> — the style of a link whilst the mouse cursor is hovering over it.
-* <code>&lt;focus&gt;</code> — the style of a link whilst it has been given focus (or highlighted) via another alternative control mechanism, most commonly the keyboard.
-* <code>&lt;active&gt;</code> — the style of the link while it is activated, ie while the connection to the other site is in progress; it is also the style of the last activated link when you arrive at the document by going back in your browser.
+* <code>:link</code> — the default state — it defines what links should look like in a certain part of the document. By default, unvisited links are coloured blue.
+* <code>:visited</code> — the style of a link that has already been visited before (and might already be in the browser cache). By default, already visited links are coloured purple.
+* <code>:hover</code> — the style of a link whilst the mouse cursor is hovering over it.
+* <code>:focus</code> — the style of a link whilst it has been given focus (or highlighted) via another alternative control mechanism, most commonly the keyboard.
+* <code>:active</code> — the style of the link while it is activated, ie while the connection to the other site is in progress; it is also the style of the last activated link when you arrive at the document by going back in your browser.
 
 == HTML5: block level linking ==
 
