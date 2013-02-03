@@ -11,7 +11,10 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Code=<video src="http://people.opera.com/shwetankd/webm/sunflower.webm"></video>
+}}
 }}
 {{Notes_Section
 |Notes=See [[concepts/internet and web/mime types|MIME types]] to find the right way to serve the media file.
