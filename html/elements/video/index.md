@@ -13,7 +13,9 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Code=<video src="http://people.opera.com/shwetankd/webm/sunflower.webm"></video>
+|Description=Desired video file should be within src attribute
+|Code=
+<video src="bee.webm"></video>
 }}
 }}
 {{Notes_Section
