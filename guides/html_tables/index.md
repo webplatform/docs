@@ -145,7 +145,7 @@ This code is rendered as:
 The new elements used here are:
  
 * <code>&lt;caption&gt;&lt;/caption&gt;</code>: The <code>&lt;caption&gt;</code> element allows you to give the table data a caption. Most browsers will center the caption and render it the same width as the table by default.
-* <code>&lt;th&gt;&lt;/th&gt;</code>: The <code>&lt;th&gt;</code> element delineates the content between the tag as the table head titles for each column.  This is useful not just to help semantically describe what the function of this content is, but it also helps render it more accurately in a variety of browsers and devices.
+* <code>&lt;th&gt;&lt;/th&gt;</code>: The <code>&lt;th&gt;</code> element delineates the content between the tag as the table head titles for each table section, which can be a column, a row or a group of cells.  This is useful not just to help semantically describe what the function of this content is, but it also helps render it more accurately in a variety of browsers and devices.
  
 == Structuring the table further ==
  
@@ -311,7 +311,7 @@ In this article we have gone through all you need to know to create effective HT
 |Notes_rows=
 }}
 {{See_Also_Section
-|Manual_links=[http://www.w3.org/TR/html-markup/table.html#table HTML: The Markup Language (an HTML language reference)] 
+|Manual_links=[http://www.w3.org/TR/html-markup/table.html#table HTML: The Markup Language (an HTML language reference)]
 }}
 {{Topics}}
 {{External_Attribution
