@@ -1,12 +1,20 @@
 {{Page_Title|Smarter SVG: filters}}
 {{Flags
 |High-level issues=Stub
-|Editorial notes=[new content from Sierra]
+|Editorial notes=[new content from Sierra -- please do not edit]
 }}
 {{Byline}}
-{{Summary_Section|This shows you how to apply SVG's image processing filters.}}
+{{Summary_Section|This shows you how to build SVG image processing filters, which you can also apply to non-SVG content using the  [[css/properties/filter|'''filter''']] CSS property.}}
 {{Tutorial
 |Content=
+
+==Chained filters==
+
+==Filter regions==
+
+==Light sources==
+
+==Blends==
 
 Filter Effects properties:
 * '''enable-background'''
