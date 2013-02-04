@@ -1,5 +1,6 @@
 {{Page_Title|HTML structural elements}}
-{{Flags}}
+{{Flags
+}}
 {{Byline}}
 {{Summary_Section|This article provides a tour through the elements available in HTML to structure and group your content, from old favourites like <code>&lt;div&gt;</code> to new HTML5 additions such as <code>&lt;article&gt;</code> and <code>&lt;aside&gt;</code>.}}
 {{Guide
