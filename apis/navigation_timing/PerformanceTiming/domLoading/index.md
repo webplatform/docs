@@ -15,7 +15,7 @@
 }}
 {{Notes_Section
 |Notes=The value of the '''domLoading''' property is controlled by the '''document''' object associated with the '''window''' object.  The value of the '''domLoading''' property is updated when the '''readyState''' property is set to <code>loading</code>.  If the document cannot be loaded, the value of the '''domLoading''' property is available after the '''onload''' event has finished executing.
-The value reported by the '''domLoading''' property represents the number of milliseconds between the recorded time and midnight January 1, 1970 (UTC).
+The value reported represents the number of milliseconds between the recorded time and midnight January 1, 1970 (UTC).
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
