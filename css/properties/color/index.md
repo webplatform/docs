@@ -48,7 +48,7 @@ element { color: hsla(120, 100%, 50%, 0.5) }
 }}
 }}
 {{Notes_Section
-|Usage=Though CSS color values are precisely defined, they may appear differently on an output device. Most of them are not calibrated, and some browsers do not support output devices' color profile. Without these, color rendering may vary a lot.
+|Usage=Though CSS color values are precisely defined, they may appear differently on an output device. Most of them are not calibrated, and some browsers do not support output devices color profile. Without these, color rendering may vary a lot.
 
 |Notes==== Separating foreground from background ===
 In order to make it easier for users to see and hear content including separating foreground from background, [[http://www.w3.org/TR/2008/REC-WCAG20-20081211/ WCAG]] indicates the following:
