@@ -6,6 +6,7 @@
 {{API_Object_Property
 |Property_applies_to=apis/navigation_timing/PerformanceTiming
 |Read_only=Yes
+|Example_object_name=PerformanceTiming
 |Javascript_data_type=unsigned long
 }}
 {{Examples_Section
