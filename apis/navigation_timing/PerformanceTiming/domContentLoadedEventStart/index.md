@@ -85,7 +85,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|DOM, Navigation Timing}}
+{{Topics|Navigation Timing}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
