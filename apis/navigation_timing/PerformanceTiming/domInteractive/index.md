@@ -85,11 +85,7 @@ The value reported represents the number of milliseconds between the recorded ti
 }}
 |Notes_rows=
 }}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[apis/timing/objects/performanceTiming|performanceTiming]]</code>
-*<code>[[apis/timing/properties/domLoading|domLoading]]</code>
-}}
+{{See_Also_Section}}
 {{Topics|Navigation Timing}}
 {{External_Attribution
 |Is_CC-BY-SA=No
