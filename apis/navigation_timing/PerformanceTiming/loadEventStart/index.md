@@ -14,7 +14,7 @@
 |Examples=
 }}
 {{Notes_Section
-|Notes=The value reported by the '''loadEventEnd''' property represents the number of milliseconds between the recorded time and midnight January 1, 1970 (UTC).
+|Notes=The value reported represents the number of milliseconds between the recorded time and midnight January 1, 1970 (UTC).
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
