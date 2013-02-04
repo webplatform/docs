@@ -1,6 +1,5 @@
 {{Page_Title|HTML forms basics}}
-{{Flags
-}}
+{{Flags}}
 {{Byline}}
 {{Summary_Section|In this article, we will covered the creation of standards compliant, best practice HTML forms!}}
 {{Guide
@@ -145,7 +144,7 @@ To improve the look of the form, we have put all the form elements into an unord
 
 === Labels for accessibility ===
 
-Last but not least in step two, we’ve labeled the form elements. It is best to give all the form elements corresponding <code>&lt;label&gt;</code> elements - these labels are tied to their respective form elements by giving the <code>&lt;input&gt;</code> and <code>&lt;textarea&gt;</code> elements <code>id</code>s that have the same value as the labels' <code>for</code> attributes. This is great because it not only gives a visual indicator of the purpose of each form field on the screen, but it also gives the form fields more meaning semantically. In addition, a visually impaired person using the page with a screen reader can now see which label goes with which form element and have more of a clue what data to fill into what input. The <code>id</code>s can also be used for targeting individual form fields with CSS styles.
+Last but not least in step two, we’ve labeled the form elements. It is best to give all the form elements corresponding <code>&lt;label&gt;</code> elements - these labels are tied to their respective form elements by giving the <code>&lt;input&gt;</code> and <code>&lt;textarea&gt;</code> elements <code>id</code>s that have the same value as the labels' <code>for</code> attributes, or by nesting the form control inside the label element itself. This is great because it not only gives a visual indicator of the purpose of each form field on the screen, but it also gives the form fields more meaning semantically. In addition, a visually impaired person using the page with a screen reader can now see which label goes with which form element and have more of a clue what data to fill into what input. The <code>id</code>s can also be used for targeting individual form fields with CSS styles.
 
 By now you are probably wondering why <code>id</code> attributes are included as identifiers in form elements as well as <code>name</code> attributes. The answer is that <code>&lt;input&gt;</code> elements without <code>name</code> attributes are not submitted to the server, so those are definitely needed. <code>id</code> attributes are needed to associate form elements with their corresponding <code>&lt;label&gt;</code> elements. You should therefore use both.
  
@@ -310,8 +309,10 @@ What does it do? The first line styles the fieldset border to not take up the wh
 
 You can see that this little bit of CSS make it look better, but there is still a lot to do before it will really look nice.
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
