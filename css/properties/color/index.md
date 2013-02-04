@@ -11,6 +11,7 @@
 |Inherited=Yes
 |Media=visual
 |Animatable=No
+|CSS object model property=color
 |Values={{CSS Property Value
 |Data Type=color
 |Description=[[css/color/value|css color value]]
@@ -47,6 +48,8 @@ element { color: hsla(120, 100%, 50%, 0.5) }
 }}
 }}
 {{Notes_Section
+|Usage=Though CSS color values are precisely defined, they may appear differently on an output device. Most of them are not calibrated, and some browsers do not support output devices' color profile. Without these, color rendering may vary a lot.
+
 |Notes==== Separating foreground from background ===
 In order to make it easier for users to see and hear content including separating foreground from background, [[http://www.w3.org/TR/2008/REC-WCAG20-20081211/ WCAG]] indicates the following:
 * color is not used as the only visual means of conveying information, indicating an action, prompting a response, or distinguishing a visual element. [[http://www.w3.org/TR/2008/REC-WCAG20-20081211/#visual-audio-contrast-without-color Guideline 1.4.1]] (Level A)
@@ -197,8 +200,8 @@ In order to make it easier for users to see and hear content including separatin
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
+|Sources=MDN, MSDN
+|MDN_link=https://developer.mozilla.org/en-US/docs/CSS/color_value
 |HTML5Rocks_link=
 }}
 ===css color value===
