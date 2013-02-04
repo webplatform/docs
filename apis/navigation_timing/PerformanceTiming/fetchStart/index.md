@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Returns the time immediately before the user agent starts checking any relevant application caches (if the resource is to be fetched using HTTP GET or equiv alent). Otherwise, returns the time when the user agent starts fetching the resource.}}
+{{Summary_Section|Returns the time immediately before the user agent starts checking any relevant application caches (if the resource is to be fetched using HTTP GET or equivalent). Otherwise, returns the time when the user agent starts fetching the resource.}}
 {{API_Object_Property
 |Property_applies_to=apis/navigation timing/PerformanceTiming
 |Read_only=Yes
