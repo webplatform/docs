@@ -27,11 +27,37 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=The following examples use the '''background-color''' attribute and the '''background-color''' property to specify the background color.
-
-This example uses an inline style sheet to set the background color to <code>lime</code>.
-|Code=&lt;span style{{=}}"font-size: 14px; background-color: lime"&gt;The background color of the text has been set inline using the &lt;b&gt;background-color&lt;/b&gt; attribute.&lt;/span&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/background-color.htm
+|Language=HTML
+|Description=The HTML for this example is a series of simple div elements. Each one has the color information applied to it written inside it for ease of reference.
+|Code=&lt;h2&gt;Keywords&lt;/h2&gt;
+  
+&lt;div id="c1"&gt;
+  &lt;p&gt;&lt;code&gt;background-color: red;&lt;/code&gt;&lt;/p&gt;
+&lt;/div&gt;
+  
+&lt;div id="c2"&gt;
+  &lt;p&gt;&lt;code&gt;background-color: green;&lt;/code&gt;&lt;/p&gt;
+&lt;/div&gt;
+  
+&lt;div id="c3"&gt;
+  &lt;p&gt;&lt;code&gt;background-color: blue;&lt;/code&gt;&lt;/p&gt;
+&lt;/div&gt;
+  
+&lt;h2&gt;Hex values&lt;/h2&gt;
+  
+&lt;div id="c4"&gt;
+  &lt;p&gt;&lt;code&gt;background-color: #ff0000;&lt;/code&gt;&lt;/p&gt;
+&lt;/div&gt;
+  
+&lt;div id="c5"&gt;
+  &lt;p&gt;&lt;code&gt;background-color: #008000;&lt;/code&gt;&lt;/p&gt;
+&lt;/div&gt;
+  
+&lt;div id="c6"&gt;
+  &lt;p&gt;&lt;code&gt;background-color: #0000ff;&lt;/code&gt;&lt;/p&gt;
+&lt;/div&gt;
+  
+  etc.
 }}{{Single Example
 |Language=CSS
 |Code=exampleOne {
