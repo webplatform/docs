@@ -60,20 +60,65 @@
   etc.
 }}{{Single Example
 |Language=CSS
-|Code=exampleOne {
-    background-color: teal;
-    color: white;
+|Description=The CSS then floats the divs next to one another and gives them the same basic look. After that, each block is given a different color value, to demonstrate how keywords, hex, RGB(a), HSL(a) and opacity affect them.
+|Code=html {
+  background: url(bg.png);
+  font-family: sans-serif;
+  font-size: 10px;
 }
- 
-.exampleTwo {
-    background-color: rgb(153,102,153);
-    color: rgb(255,255,204);
+  
+body {
+  width: 1024px;
+  margin: 0 auto;
 }
- 
-.exampleThree {
-    background-color: #777799;
-    color: #FFFFFF;
+  
+p {
+  color: white;
+  text-shadow: 0 1px 1px black;
+  padding: 10px;
+  font-size: 1.4rem;
 }
+  
+div {
+  height: 75px;
+  float: left;
+  width: 32%;
+  margin-right: 1%;
+  box-shadow: 0px 0px 10px black;
+}
+  
+h2 {
+  clear: both;
+  padding-top: 1.5rem;
+}
+  
+#c1 {
+  background-color: red;
+}
+  
+#c2 {
+  background-color: green;
+}
+  
+#c3 {
+  background-color: blue;
+}
+  
+#c4 {
+  background-color: #ff0000;
+}
+  
+#c5 {
+  background-color: #008000;
+}
+  
+#c6 {
+  background-color: #0000ff;
+}
+
+etc
+
+|LiveURL=http://chrisdavidmills.github.com/simple-background-color/
 }}
 }}
 {{Notes_Section
