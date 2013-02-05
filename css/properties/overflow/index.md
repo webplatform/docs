@@ -7,9 +7,11 @@
 {{API_Name}}
 {{Summary_Section|The overflow property controls how extra text  exceeding the bounding box of an element is rendered. The overflow property can be used in conjunction with an element that has a fixed width and height, to eliminate text-induced page distortion.}}
 {{CSS Property
-|Applies to=All elements
+|Initial value=visible
+|Applies to=non-replaced block-level elements and non-replaced ‘inline-block’ elements
 |Inherited=No
 |Media=visual
+|Computed value=as specified, but with URIs made absolute
 |Animatable=No
 |Values={{CSS Property Value
 |Data Type=visible
