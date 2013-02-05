@@ -1,34 +1,41 @@
-{{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
-}}
-{{Standardization_Status|}}
+{{Page_Title}}
+{{Flags}}
+{{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
+{{Summary_Section|This attribute is defined by the '''PerformanceNavigation''' interface.}}
 {{API_Object_Property
-|Property_applies_to=apis/timing/objects/PerformanceEntry
-|Read_only=
+|Property_applies_to=apis/navigation_timing/Performance
+|Read_only=Yes
+|Example_object_name=Performance
+|Javascript_data_type=Object
 }}
-{{Topics|DOM}}
+{{Examples_Section
+|Not_required=Yes
+|Examples=
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
-Use the [[apis/timing/properties/performance|'''performance''']] property of the '''window''' object to get the host for this object.
-|Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}210425 Navigation Timing], Section 4.4
-
-
+|Notes=Use the '''performance''' property of the '''window''' object to get the host for this object.
 }}
-{{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
-*<code>performance</code>
+{{Related_Specifications_Section
+|Specifications={{Related Specification
+|Name=W3C Navigation Timing Specification
+|URL=http://w3c-test.org/webperf/specs/NavigationTiming/
+|Status=W3C Editor's Draft
 }}
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section}}
+{{Topics|Navigation Timing}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
 |HTML5Rocks_link=
 }}
