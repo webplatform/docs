@@ -357,7 +357,7 @@ background-color: rgba(255,0,0,0.6);
 }}
 {{See_Also_Section
 |Topic_clusters=Background, CSS Attributes
-|Manual_sections=[http://dev.opera.com/articles/view/color-in-opera-10-hsl-rgb-and-alpha-transparency/ http://dev.opera.com/articles/view/color-in-opera-10-hsl-rgb-and-alpha-transparency/]
+|External_links=* [http://dev.opera.com/articles/view/color-in-opera-10-hsl-rgb-and-alpha-transparency/ http://dev.opera.com/articles/view/color-in-opera-10-hsl-rgb-and-alpha-transparency/]
 }}
 {{Topics|CSS}}
 {{External_Attribution
