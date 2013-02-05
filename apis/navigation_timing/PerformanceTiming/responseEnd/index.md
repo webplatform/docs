@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|eturn the time immediately after the user agent receives the last byte of the current document from the server, relevant application caches or from local resources, or immediately before the transport connection is closed, whichever comes first.}}
+{{Summary_Section|Returns the time immediately after the user agent receives the last byte of the current document from the server, relevant application caches or from local resources, or immediately before the transport connection is closed, whichever comes first.}}
 {{API_Object_Property
 |Property_applies_to=apis/navigation timing/PerformanceTiming
 |Read_only=Yes
