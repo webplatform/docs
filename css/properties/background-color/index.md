@@ -1,11 +1,10 @@
-{{Page_Title}}
+{{Page_Title|background-color}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Examples Best Practices
+|Content=Compatibility Incomplete
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Sets the background color of an element.}}
+{{Summary_Section|<code>background-color</code> allows you to set a color to fill up the background of an element it is applied to. This background color can use any type of CSS color values, from keywords and hex values, to RGB(a) and HSL(a).}}
 {{CSS Property
 |Initial value=transparent
 |Applies to=All elements
@@ -71,6 +70,7 @@ In Windows CE, specifying a value for the '''background-color''' property of th
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
 |Chrome_prefixed_supported=No
