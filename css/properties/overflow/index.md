@@ -37,15 +37,7 @@ Setting the '''overflow''' property to '''visible''' causes the content to clip 
 With Microsoft Internet Explorer 6 and later, when you use the [[html/elements/!DOCTYPE|!DOCTYPE]] declaration to specify standards-compliant mode, this property applies to the '''html''' object.
 }}
 {{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=CSS 2.1
-|URL=http://www.w3.org/TR/CSS2/visufx.html#overflow
-|Status=W3C Recommendation
-}}{{Related Specification
-|Name=CSS basic box model
-|URL=http://www.w3.org/TR/css3-box/#overflow0
-|Status=Working Draft
-}}
+|Specifications=
 }}
 {{Compatibility_Section
 |Not_required=No
