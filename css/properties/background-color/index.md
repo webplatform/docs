@@ -188,19 +188,13 @@ background-color: rgba(255,0,0,0.6);
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=Background
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[dom/defaultSelected|defaults]]</code>
-*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
+|Topic_clusters=Background, CSS Attributes
+|Manual_sections=[http://dev.opera.com/articles/view/color-in-opera-10-hsl-rgb-and-alpha-transparency/ http://dev.opera.com/articles/view/color-in-opera-10-hsl-rgb-and-alpha-transparency/]
 }}
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|MDN_link=https://developer.mozilla.org/en-US/docs/CSS/background-color
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|MDN_link=
+|MSDN_link=
 |HTML5Rocks_link=
 }}
