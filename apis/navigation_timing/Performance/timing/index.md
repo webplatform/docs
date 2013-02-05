@@ -6,6 +6,7 @@
 {{API_Object_Property
 |Property_applies_to=apis/navigation_timing/Performance
 |Read_only=Yes
+|Example_object_name=Performance
 |Javascript_data_type=Object
 }}
 {{Examples_Section
