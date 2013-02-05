@@ -13,6 +13,7 @@
 |Media=visual
 |Computed value=as specified, but with URIs made absolute
 |Animatable=No
+|CSS object model property=overflow
 |Values={{CSS Property Value
 |Data Type=visible
 |Description=Default. Content is not clipped and scroll bars are not added.
