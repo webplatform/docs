@@ -126,10 +126,18 @@ etc
 
 background-color: #ff0000;
 background-color: rgba(255,0,0,0.6);
-
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS2 Colors and backgrounds
+|URL=http://www.w3.org/TR/CSS2/colors.html
+|Status=W3C Recommendation
+}}{{Related Specification
+|Name=CSS Color Module level 3
+|URL=http://www.w3.org/TR/css3-color/
+|Status=W3C Recommendation
+|Relevant_changes=defines RGBa, HSL and HSLa modes, and opacity
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
