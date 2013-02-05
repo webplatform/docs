@@ -117,26 +117,16 @@ h2 {
 }
 
 etc
-
 |LiveURL=http://chrisdavidmills.github.com/simple-background-color/
 }}
 }}
 {{Notes_Section
-|Usage=*background-color: named-color
+|Usage=* A strongly contrasting combination of foreground and background color should be used to make sure your textual content is as readable as possible. To check whether your color contrast passes accessibility conformance criteria, you can use an online checker such as Juicy Studio's [http://juicystudio.com/services/luminositycontrastratio.php Luminosity Colour Contrast Ratio Analyser].
+* When using a newer color value type such as RGBa, HSL or HSLa, be aware that older browsers such as IE6-8 don't support these, so you should provide a fallback colour value so that foreground text will still be readable, either in the same stylesheet, or hidden away behind a [http://dev.opera.com/articles/view/supporting-ie-with-conditional-comments/ conditional comment]. So for example:
 
-*background-color: rgb value;
- 
-*background-color: #hex value
-|Notes====Remarks===
-This property can be set with the other background properties by using the [[css/cssom/properties/background|'''background''']] composite property.
-Microsoft Internet Explorer 3.0 supports the '''background-color''' attribute, but only when it's set by using the [[css/cssom/properties/background|'''background''']] attribute.
-In Windows CE, specifying a value for the '''background-color''' property of the '''OPTION''' element when applied through the [[css/cssom/style|'''style''']] object has no effect.
-|Import_Notes====Syntax===
-<code>'''background-color: '''''
-&lt;color&gt;
-'' '''{{!}}''' transparent</code>
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 5.3.2
+background-color: #ff0000;
+background-color: rgba(255,0,0,0.6);
+
 }}
 {{Related_Specifications_Section
 |Specifications=
