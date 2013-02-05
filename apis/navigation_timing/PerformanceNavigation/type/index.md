@@ -4,8 +4,9 @@
 {{API_Name}}
 {{Summary_Section|Returns the type of the last non-redirect navigation in the current browsing context. See Notes.}}
 {{API_Object_Property
-|Property_applies_to=apis/navigation timing/PerformanceTiming
+|Property_applies_to=apis/navigation timing/PerformanceNavigation
 |Read_only=Yes
+|Example_object_name=PerformanceNavigation
 |Javascript_data_type=unsigned short
 }}
 {{Examples_Section
