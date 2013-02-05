@@ -10,7 +10,9 @@
 |Applies to=All elements
 |Inherited=No
 |Media=visual
-|Animatable=No
+|Computed value=If the color you are setting is a solid color, the computed value will be the hex equivalent of whatever you set. If it is a translucent color, then the computed value will be the RGBa equivalent of whatever you set.
+|Animatable=Yes
+|CSS object model property=backgroundColor
 |Values={{CSS Property Value
 |Data Type=transparent
 |Description=Default. Color of the next parent object through which the background is visible.
