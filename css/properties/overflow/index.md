@@ -118,19 +118,7 @@ With Microsoft Internet Explorer 6 and later, when you use the [[html/elements/
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=Box Model, Visual Effects
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[dom/defaultSelected|defaults]]</code>
-*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-*<code>Reference</code>
-*<code>[[css/properties/overflow-x|-ms-overflow-x]]</code>
-*<code>[[css/properties/overflow-y|-ms-overflow-y]]</code>
-*<code>[[css/properties/position|position]]</code>
-*<code>Other Resources</code>
-*<code>CSS Enhancements in Internet Explorer 6</code>
+|Topic_clusters=Box Model
 }}
 {{Topics|CSS}}
 {{External_Attribution
