@@ -47,6 +47,28 @@
   &lt;p class="four"&gt;auto: Content is clipped and scrolling is added only when necessary.&lt;/p&gt;
 &lt;/body&gt;
 &lt;/html&gt;
+}}{{Single Example
+|Language=CSS
+|Code=p{
+  width: 100px;
+  height: 50px;
+  border: 1px solid #aaa;
+  float: left;
+  margin-right: 10px;
+}
+
+.one{
+  overflow: visible;
+}
+.two{
+  overflow: scroll;
+}
+.three{
+  overflow: hidden;
+}
+.four{
+  overflow: auto;
+}
 }}
 }}
 {{Notes_Section
