@@ -3,12 +3,25 @@
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Some text.}}
+{{Summary_Section|Indicates the direction of travel within a cursor.}}
 {{API_Object_Property
 |Property_applies_to=apis/indexeddb/IDBCursor
-|Read_only=No
+|Read_only=Yes
+|Example_object_name=cursor
+|Javascript_data_type=String
+|Return_value_description=A DOMString representing the direction of record traversal.  One of the following values:
+
+; next
+: The cursor is travelling in ascending order and contains all matching records, including duplicate values.
+;nextunique
+:The cursor is travelling in ascending order and contains just one instance of matching key values.
+;prev
+:The cursor is travelling in descending order and all matching records, including duplicate values.
+;prevunique
+:The cursor is travelling in descending order and contains just one instance of matching key values.
+
 }}
 {{Examples_Section
 |Not_required=No
@@ -25,7 +38,29 @@
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
-|Desktop_rows=
+|Desktop_rows={{Compatibility Table Desktop Row
+|Feature=Basic Support
+|Chrome_supported=Unknown
+|Chrome_version=
+|Chrome_prefixed_supported=Unknown
+|Chrome_prefixed_version=
+|Firefox_supported=Unknown
+|Firefox_version=
+|Firefox_prefixed_supported=Unknown
+|Firefox_prefixed_version=
+|Internet_explorer_supported=Yes
+|Internet_explorer_version=10
+|Internet_explorer_prefixed_supported=No
+|Internet_explorer_prefixed_version=
+|Opera_supported=Unknown
+|Opera_version=
+|Opera_prefixed_supported=Unknown
+|Opera_prefixed_version=
+|Safari_supported=Unknown
+|Safari_version=
+|Safari_prefixed_supported=Unknown
+|Safari_prefixed_version=
+}}
 |Mobile_rows=
 |Notes_rows=
 }}
