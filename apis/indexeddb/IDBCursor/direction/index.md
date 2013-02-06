@@ -21,7 +21,6 @@
 :The cursor is travelling in descending order and all matching records, including duplicate values.
 ;prevunique
 :The cursor is travelling in descending order and contains just one instance of matching key values.
-
 }}
 {{Examples_Section
 |Not_required=No
@@ -39,7 +38,6 @@
 |Not_required=No
 |Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
-|Feature=Basic Support
 |Chrome_supported=Unknown
 |Chrome_version=
 |Chrome_prefixed_supported=Unknown
