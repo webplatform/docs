@@ -11,7 +11,7 @@
 |Read_only=Yes
 |Example_object_name=cursor
 |Javascript_data_type=String
-|Return_value_description=A DOMString representing the direction of record traversal.  One of the following values:
+|Return_value_description=The return value describes the direction of travel and the uniqueness of data within the cursor.  It corresponds to one of the following:
 
 ; next
 : The cursor is travelling in ascending order and contains all matching records, including duplicate values.
