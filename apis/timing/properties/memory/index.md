@@ -1,7 +1,8 @@
 {{Page_Title|performance.memory}}
 {{Flags
-|High-level issues=Stub
+|High-level issues=Stub, Deletion Candidate
 |Content=Incomplete, Compatibility Incomplete
+|Editorial notes=Not part of user_timing, resource_timing, or navigation_timing interfaces.
 }}
 {{Standardization_Status|Experimental}}
 {{API_Name}}
