@@ -1,7 +1,8 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Missing Relevant Sections
+|High-level issues=Deletion Candidate, Missing Relevant Sections
 |Content=Incomplete, Compatibility Incomplete
+|Editorial notes=Not part of user_timing, resource_timing, or navigation_timing interfaces.
 }}
 {{Standardization_Status}}
 {{API_Name}}
