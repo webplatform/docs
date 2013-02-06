@@ -1,5 +1,7 @@
 {{Page_Title|pointer-events}}
-{{Flags}}
+{{Flags
+|Content=Incomplete, Compatibility Incomplete, Examples Needed
+}}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|The pointer-events property  allows you to control whether an element can be the target for the pointing device (e.g, mouse, pen) events.}}
@@ -10,7 +12,7 @@
 |Media=visual
 |Computed value=the specified value
 |Animatable=No
-|CSS percentages=N/A
+|CSS object model property=pointerEvents
 |Values={{CSS Property Value
 |Data Type=auto
 }}{{CSS Property Value
@@ -45,7 +47,7 @@
 |Not_required=No
 |Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
-|Feature=HTML/XML content
+|Feature=For HTML
 |Chrome_supported=Yes
 |Chrome_version=2.0
 |Chrome_prefixed_supported=Unknown
@@ -68,7 +70,7 @@
 |Safari_prefixed_version=
 }}
 |Mobile_rows={{Compatibility Table Mobile Row
-|Feature=HTML/XML content
+|Feature=For HTML
 |Android_supported=Yes
 |Android_version=2.1
 |Android_prefixed_supported=Unknown
@@ -103,7 +105,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics}}
+{{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
