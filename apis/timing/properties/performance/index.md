@@ -2,7 +2,7 @@
 {{Flags
 |High-level issues=Deletion Candidate, Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Editorial notes=Should be part of Window interface.
+|Editorial notes=Should be under Window interface.
 }}
 {{Standardization_Status}}
 {{API_Name}}
