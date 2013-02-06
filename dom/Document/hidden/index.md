@@ -1,9 +1,10 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
+|High-level issues=Deletion Candidate, Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Examples Best Practices
+|Editorial notes=Not part of user_timing, resource_timing, or navigation_timing interfaces.
 }}
-{{Standardization_Status|W3C Candidate Recommendation}}
+{{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section}}
 {{API_Object_Property
