@@ -41,7 +41,8 @@
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications={{Related Specification
+|Specifications=
+{{Related Specification
 |Name=Scalable Vector Graphics (SVG) 1.1 (Second Edition)
 |URL=http://www.w3.org/TR/SVG11/interact.html#PointerEventsProperty
 |Status=W3C Recommendation
