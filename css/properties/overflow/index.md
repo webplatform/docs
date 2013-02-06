@@ -33,20 +33,20 @@
 |Examples={{Single Example
 |Language=HTML
 |Description=Four simple p elements
-|Code=<!DOCTYPE HTML>
-<html lang="en-US">
-<head>
-  <meta charset="UTF-8">
-  <title>Overflow example</title>
-  <link href="overflow.css" type="text/css" rel="stylesheet">
-</head>
-<body>
-  <p class="one">visible(defult): Content is not clipped and scroll bars are not added.</p>
-  <p class="two">scroll: Content is clipped and scroll bars are added, even if the content does not exceed the dimensions of the object.</p>
-  <p class="three">hidden: Content that exceeds the dimensions of the object is not shown.</p>
-  <p class="four">auto: Content is clipped and scrolling is added only when necessary.</p>
-</body>
-</html>
+|Code=&lt;!DOCTYPE HTML&gt;
+&lt;html lang="en-US"&gt;
+&lt;head&gt;
+  &lt;meta charset="UTF-8"&gt;
+  &lt;title&gt;Overflow example&lt;/title&gt;
+  &lt;link href="overflow.css" type="text/css" rel="stylesheet"&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;p class="one"&gt;visible(defult): Content is not clipped and scroll bars are not added.&lt;/p&gt;
+  &lt;p class="two"&gt;scroll: Content is clipped and scroll bars are added, even if the content does not exceed the dimensions of the object.&lt;/p&gt;
+  &lt;p class="three"&gt;hidden: Content that exceeds the dimensions of the object is not shown.&lt;/p&gt;
+  &lt;p class="four"&gt;auto: Content is clipped and scrolling is added only when necessary.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
 }}
 }}
 {{Notes_Section
