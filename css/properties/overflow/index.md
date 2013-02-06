@@ -42,7 +42,7 @@
 </head>
 <body>
 
-  <p class="one">visible(defult): Content is not clipped and scroll bars are not added.</p>
+  &lt;p class="one"&gt;visible(defult): Content is not clipped and scroll bars are not added.</p>
   <p class="two">scroll: Content is clipped and scroll bars are added, even if the content does not exceed the dimensions of the object.</p>
   <p class="three">hidden: Content that exceeds the dimensions of the object is not shown.</p>
   <p class="four">auto: Content is clipped and scrolling is added only when necessary.</p>
