@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status|Non-Standard}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Deletion candidate.}}
 {{API_Object_Property
 |Property_applies_to=apis/timing/objects/performanceTiming
 |Read_only=No
