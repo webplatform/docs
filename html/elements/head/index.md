@@ -1,6 +1,6 @@
 {{Page_Title|The <head> element}}
 {{Flags
-|High-level issues=Needs Topics, Data Not Semantic, Unreviewed Import
+|High-level issues=Needs Topics,Data Not Semantic,Unreviewed Import
 |Content=Cleanup
 }}
 {{Standardization_Status|De Facto Standard}}
