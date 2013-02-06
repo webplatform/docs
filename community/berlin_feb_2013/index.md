@@ -97,7 +97,7 @@ To get started, you need to:
 
 * Sign up for a free account at the sign up page: http://docs.webplatform.org/w/index.php?title=Special:UserLogin&returnto=Main+Page&type=signup
 * Create a new account at the W3C's Bugzilla system - this is currently where we keep track of site bugs, so you'll need this to submit problems you find.
-* Review the structure of the site, at XXXXXXXXXXXXXXX (I can't find the site map right now!), to get familiar with where things go
+* Review the structure of the site, at our [[Meta:Editors_Guide/Topic_Hierarchy|Topic Hierarchy page]], to get familiar with where things go
 * http://docs.webplatform.org/wiki/WPD:Editors_Guide contains a guide to show you how to edit and create pages on the Wiki
 
 ===Media Wiki crash course===
