@@ -74,16 +74,35 @@ the shape:
 To apply transparencies, you can set the '''fill-opacity''' and
 '''stroke-opacity''' properties, or specify
 [[css/units/color|'''rgba()''' and '''hsla()''']] colors.  Applying
-both results in extra transparency.
+both results in extra transparency:
+
+<syntaxhighlight lang="xml">
+<rect stroke="red" fill="rgba(100%,0%,0%,0.5)" fill-opacity="0.5" stroke-opacity="0.5" stroke-width="6" x="10" y="10" width="160" height="240"/>
+</syntaxhighlight>
 
 ==Lines and polygons==
 
-<!--
-    9.5 The 'line' element                        {+ x1 y1 x2 y2 attr}
-    9.6 The 'polyline' element                    {+ points attr}
-    9.7 The 'polygon' element
-        9.7.1 The grammar for points specifications in 'polyline' and 'polygon' elements
--->
+To draw a line, specify its start and end coordinates as '''x1''',
+'''y1''', '''x2''', and '''y2''':
+
+<syntaxhighlight lang="xml">
+<line x1="0" y1="0" x2="100" y2="100"/>
+</syntaxhighlight>
+
+A '''polyline''' is a series of ''x''/''y'' coordinates listed in the
+'''points''' attribute, separated by either commas or whitespace. This
+draws an arrow:
+
+<syntaxhighlight lang="xml">
+<polyline points="100,225 100,115 130,115 70,15 70,15 10,115 40,115 40,225"/>
+</syntaxhighlight>
+
+A '''polygon''' is the same as a '''polyline''', but the last
+coordinate is joined with the first:
+
+<syntaxhighlight lang="xml">
+<polygon points="100,225 100,115 130,115 70,15 70,15 10,115 40,115 40,225"/>
+</syntaxhighlight>
 
 ==Other properties==
 
