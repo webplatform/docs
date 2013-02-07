@@ -1,21 +1,24 @@
 {{Page_Title|Smarter SVG: overview and scope}}
 {{Flags
 |High-level issues=Stub
-|Editorial notes=[new content from [[User:Sierra|Sierra]] ([[User talk:Sierra|talk]]) -- please do not edit]
+|Editorial notes=[new content from Sierra [[[User:Sierra|Sierra]] ([[User talk:Sierra|talk]])] -- please do not edit]
 }}
 {{Byline}}
-{{Summary_Section|This guide shows you how deploy SVG graphics along with HTML and CSS, and guides you how its coordinate space works.}}
+{{Summary_Section|This guide shows how deploy SVG graphics along with HTML and CSS, and guides you how its coordinate space works.}}
 {{Tutorial
 |Content=
 
 ==Deploying SVG==
 
+<!--
     5.1 Defining an SVG document fragment: the 'svg' element
         5.1.1 Overview
         5.1.2 The 'svg' element
+-->
 
 ==Adding styles==
 
+<!--
  6 Styling
     6.1 SVG's styling properties
     6.2 Usage scenarios for styling
@@ -34,15 +37,20 @@
     6.15 The scope/range of styles
     6.16 User agent style sheet
     6.17 Aural style sheets
+-->
 
 ==Grouping elements==
 
+<!--
     5.2 Grouping: the 'g' element
         5.2.1 Overview
         5.2.2 The 'g' element
+-->
 
 ==Transforms==
 
+<!--
+<!--
  7 Coordinate Systems, Transformations and Units
     7.1 Introduction
     7.2 The initial viewport
@@ -58,20 +66,25 @@
     7.12 Intrinsic sizing properties of the viewport of SVG content
     7.13 Geographic coordinate systems
     7.14 The 'svg:transform' attribute
+-->
+-->
 
 ==The viewport and viewbox==
 
 ==Importing content==
 
+<!--
  23 Extensibility
     23.1 Foreign namespaces and private data
     23.2 Embedding foreign object types
     23.3 The 'foreignObject' element
     23.4 An example
     23.5 Adding private elements and attributes to the DTD
+-->
 
 ==Other==
 
+<!--
  5 Document Structure
     5.3 Defining content for reuse, and the 'defs' element
         5.3.1 Overview
@@ -90,14 +103,20 @@
     5.10 Common attributes
         5.10.1 Attributes common to all elements: 'id' and 'xml:base'
         5.10.2 The 'xml:lang' and 'xml:space' attributes
+-->
 
+<!--
  21 Metadata
     21.1 Introduction
     21.2 The 'metadata' element
     21.3 An example
+-->
 
+<!--
  22 Backwards Compatibility
+-->
 
+<!--
  1 Introduction
     1.1 About SVG
     1.2 SVG MIME type, file name extension and Macintosh file type
@@ -105,12 +124,16 @@
     1.4 Compatibility with Other Standards Efforts
     1.5 Terminology
     1.6 Definitions
+-->
 
+<!--
  2 Concepts
     2.1 Explaining the name: SVG
     2.2 Important SVG concepts
     2.3 Options for using SVG in Web pages
+-->
 
+<!--
  3 Rendering Model
     3.1 Introduction
     3.2 The painters model
@@ -123,14 +146,19 @@
     3.7 Filtering painted regions
     3.8 Clipping, masking and object opacity
     3.9 Parent Compositing
+-->
 
+<!--
  4 Basic Data Types and Interfaces
     4.1 Syntax
     4.2 Basic data types
     4.3 Real number precision
     4.4 Recognized color keyword names
+-->
 
+<!--
     11.5 Controlling visibility
+-->
 
 * '''display'''
 * '''visibility'''
