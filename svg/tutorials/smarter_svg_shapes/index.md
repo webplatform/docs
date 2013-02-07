@@ -1,23 +1,29 @@
 {{Page_Title|Smarter SVG: shapes}}
 {{Flags
 |High-level issues=Stub
-|Editorial notes=[new content from [[User:Sierra|Sierra]] ([[User talk:Sierra|talk]]) -- please do not edit]
+|Editorial notes=[new content from Sierra [[[User:Sierra|Sierra]] ([[User talk:Sierra|talk]])] -- please do not edit]
 }}
 {{Byline}}
 {{Summary_Section|This guide introduces SVG's basic graphic primitives, from simple lines and shapes to complex polygons and paths.}}
 {{Tutorial
-|Content===Simple shapes==
+|Content=
 
+==Simple shapes==
+
+<!--
  9 Basic Shapes
     9.1 Introduction
     9.2 The 'rect' element                        {+x y attr}
     9.3 The 'circle' element                      {+cx cy r attr}
     9.4 The 'ellipse' element                     {+rx ry attr}
+-->
 
 ==Fill and stroke properties==
 
+<!--
     11.3 Fill Properties
     11.4 Stroke Properties
+-->
 
 * '''fill'''
 * '''fill-opacity'''
@@ -27,10 +33,12 @@
 
 ==Lines and polygons==
 
+<!--
     9.5 The 'line' element                        {+ x1 y1 x2 y2 attr}
     9.6 The 'polyline' element                    {+ points attr}
     9.7 The 'polygon' element
         9.7.1 The grammar for points specifications in 'polyline' and 'polygon' elements
+-->
 
 ==Other properties==
 
@@ -43,11 +51,13 @@
 
 ==Markers==
 
+<!--
     11.6 Markers
         11.6.1 Introduction
         11.6.2 The 'marker' element
         11.6.3 Marker properties
         11.6.4 Details on how markers are rendered
+-->
 
 * '''marker'''
 * '''marker-end'''
@@ -56,6 +66,7 @@
 
 ==Paths==
 
+<!--
  8 Paths
     8.1 Introduction
     8.2 The 'path' element                        {+ d attr}
@@ -70,6 +81,7 @@
         8.3.8 The elliptical arc curve commands   {+a}
         8.3.9 The grammar for path data
     8.4 Distance along a path
+-->
 
 ([[svg/tutorials/smarter_svg_overview|overview]] /
 [[svg/tutorials/smarter_svg_shapes|shapes]] /
@@ -78,6 +90,7 @@
 [[svg/tutorials/smarter_svg_filters|filters]] /
 [[svg/tutorials/smarter_svg_animation|animation]] /
 [[svg/tutorials/smarter_svg_interaction|interaction]])
+
 }}
 {{Notes_Section}}
 {{Compatibility_Section
