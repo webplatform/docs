@@ -21,7 +21,7 @@ With the '''XMLHttpRequest''' object, clients can retrieve and submit XML data d
     }
 }
 var xhr {{=}} new XMLHttpRequest();
-xhr.open("GET", "http://localhost/test.xml", true);
+xhr.open("GET", "<nowiki>http://localhost/test.xml</nowiki>", true);
 xhr.onreadystatechange {{=}} handler;
 xhr.send();
 }}
