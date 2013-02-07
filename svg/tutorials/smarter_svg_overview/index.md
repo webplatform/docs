@@ -8,6 +8,8 @@
 {{Tutorial
 |Content=
 
+
+
 ==Deploying SVG==
 
 <!--
@@ -50,7 +52,6 @@
 ==Transforms==
 
 <!--
-<!--
  7 Coordinate Systems, Transformations and Units
     7.1 Introduction
     7.2 The initial viewport
@@ -67,9 +68,12 @@
     7.13 Geographic coordinate systems
     7.14 The 'svg:transform' attribute
 -->
--->
 
 ==The viewport and viewbox==
+
+==Referencing content==
+
+
 
 ==Importing content==
 
@@ -103,20 +107,14 @@
     5.10 Common attributes
         5.10.1 Attributes common to all elements: 'id' and 'xml:base'
         5.10.2 The 'xml:lang' and 'xml:space' attributes
--->
 
-<!--
  21 Metadata
     21.1 Introduction
     21.2 The 'metadata' element
     21.3 An example
--->
 
-<!--
  22 Backwards Compatibility
--->
 
-<!--
  1 Introduction
     1.1 About SVG
     1.2 SVG MIME type, file name extension and Macintosh file type
@@ -124,16 +122,12 @@
     1.4 Compatibility with Other Standards Efforts
     1.5 Terminology
     1.6 Definitions
--->
 
-<!--
  2 Concepts
     2.1 Explaining the name: SVG
     2.2 Important SVG concepts
     2.3 Options for using SVG in Web pages
--->
 
-<!--
  3 Rendering Model
     3.1 Introduction
     3.2 The painters model
@@ -146,17 +140,13 @@
     3.7 Filtering painted regions
     3.8 Clipping, masking and object opacity
     3.9 Parent Compositing
--->
 
-<!--
  4 Basic Data Types and Interfaces
     4.1 Syntax
     4.2 Basic data types
     4.3 Real number precision
     4.4 Recognized color keyword names
--->
 
-<!--
     11.5 Controlling visibility
 -->
 
@@ -167,13 +157,13 @@
 
 [http://svg-mitchallen.blogspot.com/2005/03/morphing-shapes-in-svg.html morphing shapes in svg]
 
-([[svg/tutorials/smarter_svg_overview|overview]] /
-[[svg/tutorials/smarter_svg_shapes|shapes]] /
-[[svg/tutorials/smarter_svg_graphics|graphics]] /
-[[svg/tutorials/smarter_svg_text|text]] /
-[[svg/tutorials/smarter_svg_filters|filters]] /
-[[svg/tutorials/smarter_svg_animation|animation]] /
-[[svg/tutorials/smarter_svg_interaction|interaction]])
+([[svg/tutorials/smarter_svg_overview|Overview]] /
+[[svg/tutorials/smarter_svg_shapes|Shapes]] /
+[[svg/tutorials/smarter_svg_graphics|Graphics]] /
+[[svg/tutorials/smarter_svg_text|Text]] /
+[[svg/tutorials/smarter_svg_filters|Filters]] /
+[[svg/tutorials/smarter_svg_animation|Animation]] /
+[[svg/tutorials/smarter_svg_interaction|Interaction]])
 
 }}
 {{Notes_Section}}
