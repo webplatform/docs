@@ -6,9 +6,9 @@
 {{Byline}}
 {{Summary_Section|This guide introduces SVG's basic graphic primitives, from simple lines and shapes to complex polygons and paths.}}
 {{Tutorial
-|Content=
-
-==Simple shapes==
+|Next_page=svg/tutorials/smarter_svg_graphics
+|Prev_page=svg/tutorials/smarter_svg_overview
+|Content===Simple shapes==
 
  9 Basic Shapes
     9.1 Introduction
@@ -80,7 +80,6 @@
 [[svg/tutorials/smarter_svg_filters|filters]] /
 [[svg/tutorials/smarter_svg_animation|animation]] /
 [[svg/tutorials/smarter_svg_interaction|interaction]])
-
 }}
 {{Notes_Section}}
 {{Compatibility_Section
