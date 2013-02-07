@@ -23,9 +23,7 @@
         16.8.1 Introduction to cursors
         16.8.2 The 'cursor' property
         16.8.3 The 'cursor' element
--->
 
-<!--
  17 Linking
     17.1 References
         17.1.1 Overview
@@ -39,9 +37,7 @@
         17.3.2 SVG fragment identifiers
         17.3.3 Predefined views: the 'view' element
         17.3.4 Highlighting views
--->
 
-<!--
  18 Scripting
     18.1 Specifying the scripting language
         18.1.1 Specifying the default scripting language
@@ -81,13 +77,13 @@ Events:
 * '''onend'''
 * '''onrepeat'''
 
-([[svg/tutorials/smarter_svg_overview|overview]] /
-[[svg/tutorials/smarter_svg_shapes|shapes]] /
-[[svg/tutorials/smarter_svg_graphics|graphics]] /
-[[svg/tutorials/smarter_svg_text|text]] /
-[[svg/tutorials/smarter_svg_filters|filters]] /
-[[svg/tutorials/smarter_svg_animation|animation]] /
-[[svg/tutorials/smarter_svg_interaction|interaction]])
+([[svg/tutorials/smarter_svg_overview|Overview]] /
+[[svg/tutorials/smarter_svg_shapes|Shapes]] /
+[[svg/tutorials/smarter_svg_graphics|Graphics]] /
+[[svg/tutorials/smarter_svg_text|Text]] /
+[[svg/tutorials/smarter_svg_filters|Filters]] /
+[[svg/tutorials/smarter_svg_animation|Animation]] /
+[[svg/tutorials/smarter_svg_interaction|Interaction]])
 
 }}
 {{Notes_Section}}
