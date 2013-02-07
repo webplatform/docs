@@ -1,13 +1,14 @@
 {{Page_Title|Smarter SVG: interaction}}
 {{Flags
 |High-level issues=Stub
-|Editorial notes=[new content from [[User:Sierra|Sierra]] ([[User talk:Sierra|talk]]) -- please do not edit]
+|Editorial notes=[new content from Sierra [[[User:Sierra|Sierra]] ([[User talk:Sierra|talk]])] -- please do not edit]
 }}
 {{Byline}}
 {{Summary_Section|This guide shows you how to script interaction effects and link content for dynamic effects.}}
 {{Tutorial
 |Content=
 
+<!--
  16 Interactivity
     16.1 Introduction
     16.2 Complete list of supported events
@@ -22,7 +23,9 @@
         16.8.1 Introduction to cursors
         16.8.2 The 'cursor' property
         16.8.3 The 'cursor' element
+-->
 
+<!--
  17 Linking
     17.1 References
         17.1.1 Overview
@@ -36,7 +39,9 @@
         17.3.2 SVG fragment identifiers
         17.3.3 Predefined views: the 'view' element
         17.3.4 Highlighting views
+-->
 
+<!--
  18 Scripting
     18.1 Specifying the scripting language
         18.1.1 Specifying the default scripting language
@@ -48,6 +53,7 @@
         18.4.2 Event attributes on graphics and container elements
         18.4.3 Document-level event attributes
         18.4.4 Animation event attributes
+-->
 
 Interactivity properties:
 * '''pointer-events'''
