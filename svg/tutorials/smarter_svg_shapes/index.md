@@ -25,25 +25,56 @@ and the radius ('''r''') specifies the size:
 <circle cx="50" cy="50" r="100"></circle>
 </syntaxhighlight>
 
-Ellipses are positioned like circles, but require two '''rx''' and
-'''ry''' radius attributes:
+Ellipses are positioned like circles, but require two radius attributes:
 
 <syntaxhighlight lang="xml">
 <ellipse cx="40" cy="60" rx="40" ry="20"/>
 </syntaxhighlight>
 
+When applied to '''rect''' elements, '''rx''' and '''ry''' attributes
+provide rounded corners:
+
+<syntaxhighlight lang="xml">
+<rect x="10" y="10" width="160" height="240" rx="20" ry="20"/>
+</syntaxhighlight>
+
 ==Fill and stroke properties==
 
-<!--
-    11.3 Fill Properties
-    11.4 Stroke Properties
--->
+The '''fill''' and '''stroke''' properties specify the color of the
+background and the edge of the shape:
 
-* '''fill'''
-* '''fill-opacity'''
-* '''stroke'''
-* '''stroke-width'''
-* '''stroke-opacity'''
+<syntaxhighlight lang="xml">
+<rect x="10" y="10" width="160" height="240" fill="pink" stroke="red"/>
+</syntaxhighlight>
+
+You can assign these as attributes on SVG elements, but they are
+really CSS properties. Throughout this guide, properties that apply to
+SVG elements are shown in style sheets:
+
+ rect {
+     fill   : pink;
+     stroke : red;
+ }
+
+Properties specified via CSS clobber those specified as attributes, so
+this '''rect''' is green:
+
+<syntaxhighlight lang="xml">
+<rect fill="pink" stroke="red" style="fill:lightgreen;stroke:green" x="10" y="10" width="160" height="240"/>
+</syntaxhighlight>
+
+The '''stroke-width''' is centered over the edge of the shape, so
+increasing it bleeds the '''stroke''' color both inside and outside
+the shape:
+
+<syntaxhighlight lang="xml">
+<rect fill="pink" stroke="red" stroke-width="6" x="10" y="10" width="160" height="240"/>
+</syntaxhighlight>
+
+To apply transparencies, you can set the '''fill-opacity''' and
+'''stroke-opacity''' properties, or specify
+[[css/units/color|'''rgba()''' and '''hsla()''']] colors.  Applying
+both results in extra transparency.
 
 ==Lines and polygons==
 
