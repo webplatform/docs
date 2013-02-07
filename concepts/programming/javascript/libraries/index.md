@@ -63,7 +63,7 @@ This list showcases JavaScript libraries. They're sorted alphabetically. If you 
 | Graphics
 |EaselJS provides straight forward solutions for working with rich graphics and interactivity with HTML5 Canvas. It provides an API that is familiar to Flash developers, but embraces Javascript sensibilities. It consists of a full, hierarchical display list, a core interaction model, and helper classes to make working with Canvas much easier.
 |-
-|[http://emberjs.org EmberJS]
+|[http://emberjs.com EmberJS]
 | Framework
 |Ember is a JavaScript framework for creating ambitious web applications that eliminates boilerplate and provides a standard application architecture.
 |-
