@@ -10,13 +10,27 @@
 
 ==Simple shapes==
 
-<!--
- 9 Basic Shapes
-    9.1 Introduction
-    9.2 The 'rect' element                        {+x y attr}
-    9.3 The 'circle' element                      {+cx cy r attr}
-    9.4 The 'ellipse' element                     {+rx ry attr}
--->
+Rectangles are defined by their '''width''' and '''height'''
+attributes, while '''x''' and '''y''' offsets position the
+upper-left corner of the '''rect''' relative to its parent:
+
+<syntaxhighlight lang="xml">
+<rect x="10" y="10" width="160" height="240"/>
+</syntaxhighlight>
+
+Circles are positioned by the '''cx''' and '''cy''' center point,
+and the radius ('''r''') specifies the size:
+
+<syntaxhighlight lang="xml">
+<circle cx="50" cy="50" r="100"></circle>
+</syntaxhighlight>
+
+Ellipses are positioned like circles, but require two '''rx''' and
+'''ry''' radius attributes:
+
+<syntaxhighlight lang="xml">
+<ellipse cx="40" cy="60" rx="40" ry="20"/>
+</syntaxhighlight>
 
 ==Fill and stroke properties==
 
@@ -83,13 +97,13 @@
     8.4 Distance along a path
 -->
 
-([[svg/tutorials/smarter_svg_overview|overview]] /
-[[svg/tutorials/smarter_svg_shapes|shapes]] /
-[[svg/tutorials/smarter_svg_graphics|graphics]] /
-[[svg/tutorials/smarter_svg_text|text]] /
-[[svg/tutorials/smarter_svg_filters|filters]] /
-[[svg/tutorials/smarter_svg_animation|animation]] /
-[[svg/tutorials/smarter_svg_interaction|interaction]])
+([[svg/tutorials/smarter_svg_overview|Overview]] /
+[[svg/tutorials/smarter_svg_shapes|Shapes]] /
+[[svg/tutorials/smarter_svg_graphics|Graphics]] /
+[[svg/tutorials/smarter_svg_text|Text]] /
+[[svg/tutorials/smarter_svg_filters|Filters]] /
+[[svg/tutorials/smarter_svg_animation|Animation]] /
+[[svg/tutorials/smarter_svg_interaction|Interaction]])
 
 }}
 {{Notes_Section}}
