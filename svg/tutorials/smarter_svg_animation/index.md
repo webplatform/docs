@@ -32,13 +32,13 @@
         19.2.17 Elements, attributes and properties that can be animated
 -->
 
-([[svg/tutorials/smarter_svg_overview|overview]] /
-[[svg/tutorials/smarter_svg_shapes|shapes]] /
-[[svg/tutorials/smarter_svg_graphics|graphics]] /
-[[svg/tutorials/smarter_svg_text|text]] /
-[[svg/tutorials/smarter_svg_filters|filters]] /
-[[svg/tutorials/smarter_svg_animation|animation]] /
-[[svg/tutorials/smarter_svg_interaction|interaction]])
+([[svg/tutorials/smarter_svg_overview|Overview]] /
+[[svg/tutorials/smarter_svg_shapes|Shapes]] /
+[[svg/tutorials/smarter_svg_graphics|Graphics]] /
+[[svg/tutorials/smarter_svg_text|Text]] /
+[[svg/tutorials/smarter_svg_filters|Filters]] /
+[[svg/tutorials/smarter_svg_animation|Animation]] /
+[[svg/tutorials/smarter_svg_interaction|Interaction]])
 
 }}
 {{Notes_Section}}
