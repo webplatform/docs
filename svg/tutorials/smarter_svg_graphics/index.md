@@ -60,10 +60,8 @@ Gradient properties:
 
 Other properties for visual media:
 * '''clip''', only applicable to outermost svg element.
-
 * '''clip-path'''
 * '''clip-rule'''
-
 * '''overflow''', only applicable to elements which establish a new viewport.
 
 ==Masking==
@@ -104,9 +102,10 @@ Color and Painting properties:
  11 Painting: Filling, Stroking and Marker Symbols
     11.1 Introduction
     11.2 Specifying paint
--->
 
-<!--
+public service spots to educate us to wash our shopping bags in
+3... 2... 1...
+
  12 Color
     12.1 Introduction
     12.2 The 'color' property
@@ -118,13 +117,13 @@ Color and Painting properties:
         12.3.5 The 'color-profile' property
 -->
 
-([[svg/tutorials/smarter_svg_overview|overview]] /
-[[svg/tutorials/smarter_svg_shapes|shapes]] /
-[[svg/tutorials/smarter_svg_graphics|graphics]] /
-[[svg/tutorials/smarter_svg_text|text]] /
-[[svg/tutorials/smarter_svg_filters|filters]] /
-[[svg/tutorials/smarter_svg_animation|animation]] /
-[[svg/tutorials/smarter_svg_interaction|interaction]])
+([[svg/tutorials/smarter_svg_overview|Overview]] /
+[[svg/tutorials/smarter_svg_shapes|Shapes]] /
+[[svg/tutorials/smarter_svg_graphics|Graphics]] /
+[[svg/tutorials/smarter_svg_text|Text]] /
+[[svg/tutorials/smarter_svg_filters|Filters]] /
+[[svg/tutorials/smarter_svg_animation|Animation]] /
+[[svg/tutorials/smarter_svg_interaction|Interaction]])
 
 }}
 {{Notes_Section}}
