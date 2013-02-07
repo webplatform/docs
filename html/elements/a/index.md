@@ -92,11 +92,11 @@ Both text and images can be included within an anchor. An image that is an ancho
 |Android_supported=Yes
 |Android_prefixed_supported=Unknown
 |Android_prefixed_version=
-|Blackberry_supported=Unknown
+|Blackberry_supported=Yes
 |Blackberry_version=
 |Blackberry_prefixed_supported=Unknown
 |Blackberry_prefixed_version=
-|Chrome_mobile_supported=Unknown
+|Chrome_mobile_supported=Yes
 |Chrome_mobile_version=
 |Chrome_mobile_prefixed_supported=Unknown
 |Chrome_mobile_prefixed_version=
@@ -109,7 +109,7 @@ Both text and images can be included within an anchor. An image that is an ancho
 |Opera_mobile_supported=Yes
 |Opera_mobile_prefixed_supported=Unknown
 |Opera_mobile_prefixed_version=
-|Opera_mini_supported=Unknown
+|Opera_mini_supported=Yes
 |Opera_mini_version=
 |Opera_mini_prefixed_supported=Unknown
 |Opera_mini_prefixed_version=
@@ -123,7 +123,11 @@ Both text and images can be included within an anchor. An image that is an ancho
 |Note=A [[html/elements/table|'''table''']] object does not function properly when contained within an '''a''' tag. The value of the [[html/attributes/href|'''href''']] attribute depends on the current document compatibility mode.  Internet Explorer 8 and later. When Protected Mode is enabled and a Web page contains an '''anchor link''' with a named [[html/attributes/target|'''target''']], Windows Internet Explorer opens the target of the link in a new window when the target has a different integrity level than the Web page containing the link. For more information, see Understanding and Working in Protected Mode Internet Explorer.
 }}
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|External_links=* [http://www.w3.org/TR/html4/struct/links.html#edef-A HTML 4.01 specification]
+* [http://www.w3.org/TR/2012/CR-html5-20121217/text-level-semantics.html#the-a-element HTML 5 specification]
+* [http://www.whatwg.org/specs/web-apps/current-work/multipage/text-level-semantics.html#the-a-element WHATWG specification]
+}}
 {{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
