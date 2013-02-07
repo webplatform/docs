@@ -1,7 +1,7 @@
 {{Page_Title|Smarter SVG: filters}}
 {{Flags
 |High-level issues=Stub
-|Editorial notes=[new content from Sierra [[[User:Sierra|Sierra]] ([[User talk:Sierra|talk]])] -- please do not edit]
+|Editorial notes=[new content from Sierra ([[User:Sierra|Sierra]] ([[User talk:Sierra|talk]])); please do not edit]
 }}
 {{Byline}}
 {{Summary_Section|This guide shows you how to build SVG image processing filters, which you can also apply to non-SVG content using the  [[css/properties/filter|'''filter''']] CSS property.}}
