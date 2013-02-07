@@ -1,39 +1,42 @@
-{{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
-}}
-{{Standardization_Status|}}
+{{Page_Title}}
+{{Flags}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
+{{Summary_Section|Returns the current state of the XHR.}}
 {{API_Object_Property
-|Property_applies_to=apis/xhr/objects/XMLHttpRequest
-|Read_only=
+|Property_applies_to=apis/xhr/XMLHttpRequest
+|Read_only=Yes
+|Javascript_data_type=unsigned short
 }}
-{{Topics|DOM}}
+{{Examples_Section
+|Not_required=Yes
+|Examples=
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
-You cannot call [[apis/xhr/properties/responseBody|'''responseBody''']] and '''responseText''' properties to obtain partial results ('''readyState''' {{=}} 3). Doing so will return an error, because  the response is not fully received. You must wait until all data has been received.
-In comparison, the Microsoft XML (MSXML) version of the [[apis/xhr/properties/responseBody|'''responseBody''']] and '''responseText'''.
-In comparison, the MSXML version of the [[apis/xhr/properties/responseBody|'''responseBody''']] and '''responseText'''.
-For an example of how to use this property, see [[apis/xhr/events/readystatechange|'''onreadystatechange''']].
-'''readyState''' was introduced in Windows Internet Explorer 7.
-|Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203789 XMLHttpRequest], Section 3.5
-
+|Notes=You cannot call the '''responseText''' property to obtain partial results ('''readyState''' {{=}} 3). Doing so will return an error, because the response is not fully received. You must wait until all data has been received.
+See [[apis/xhr/XMLHttpRequest/readystatechange|'''onreadystatechange''']].
 
 }}
-{{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
-*<code>XMLHttpRequest</code>
-*<code>onreadystatechange</code>
+{{Related_Specifications_Section
+|Specifications={{Related Specification
+|Name=W3C XMLHttpRequest Specification
+|URL=http://www.w3.org/TR/XMLHttpRequest/
+|Status=W3C Working Draft
 }}
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section}}
+{{Topics|XHR}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
 |HTML5Rocks_link=
 }}
