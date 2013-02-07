@@ -12,7 +12,7 @@ With the '''XMLHttpRequest''' object, clients can retrieve and submit XML data d
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
-|Description=The following script demonstrates how to create and use the '''XMLHttpRequest''' object. For best client-side performance, the request is asynchronous and uses an [[apis/xhr/events/readystatechange|'''onreadystatechange''']] event handler to process the data returned by the call.
+|Description=The following script demonstrates how to create and use the '''XMLHttpRequest''' object. For best client-side performance, the request is asynchronous and uses an '''onreadystatechange''' event handler to process the data returned by the call.
 |Code=function handler() {
   if (xhr.readyState {{=}}{{=}}{{=}} 4 /* complete */) {
     if (xhr.status {{=}}{{=}}{{=}} 200) {
@@ -93,11 +93,7 @@ xhr.send();
 |Safari_mobile_prefixed_supported=Unknown
 |Safari_mobile_prefixed_version=
 }}
-|Notes_rows={{Compatibility Notes Row
-|Browser=Internet Explorer
-|Version=7 and earlier
-|Note=Windows Internet Explorer earlier than version 7 does not implement the native XMLHttpRequest object. The XMLHTTP ActiveX object emulates the same functionality. While the native XMLHttpRequest object also supports the use of expandos (custom properties) and properly recognizes the 'this' notation of JavaScript, the ActiveX version does not. To support versions of Windows Internet Explorer prior to Internet Explorer 7, use the following function to get the '''XMLHttpRequest''' object.  <code>function getXMLHttpRequest()   {      if (window.XMLHttpRequest) {          return new window.XMLHttpRequest;      }      else {          try {              return new ActiveXObject("MSXML2.XMLHTTP.3.0");          }          catch (ex) {              return null;          }      }  }</code>
-}}
+|Notes_rows=
 }}
 {{See_Also_Section}}
 {{Topics|XHR}}
