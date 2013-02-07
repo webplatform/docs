@@ -1,7 +1,7 @@
 {{Page_Title|Smarter SVG: animation}}
 {{Flags
 |High-level issues=Stub
-|Editorial notes=[new content from Sierra [[[User:Sierra|Sierra]] ([[User talk:Sierra|talk]])] -- please do not edit]
+|Editorial notes=[new content from Sierra ([[User:Sierra|Sierra]] ([[User talk:Sierra|talk]])); please do not edit]
 }}
 {{Byline}}
 {{Summary_Section|This guide shows you how to integrate SVG's animation features with other techniques available in CSS and JavaScript.}}
