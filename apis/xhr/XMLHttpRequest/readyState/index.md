@@ -7,6 +7,12 @@
 |Property_applies_to=apis/xhr/XMLHttpRequest
 |Read_only=Yes
 |Javascript_data_type=unsigned short
+|Return_value_description=Returns one of the following values:
+*UNSENT (0): open()has not been called yet.
+*OPENED	(1): send()has not been called yet.
+*HEADERS_RECEIVED (2): send() has been called, and headers and status are available.
+*LOADING (3): Downloading; responseText holds partial data.
+*DONE (4): The operation is complete.
 }}
 {{Examples_Section
 |Not_required=Yes
@@ -15,7 +21,6 @@
 {{Notes_Section
 |Notes=You cannot call the '''responseText''' property to obtain partial results ('''readyState''' {{=}} 3). Doing so will return an error, because the response is not fully received. You must wait until all data has been received.
 See [[apis/xhr/XMLHttpRequest/readystatechange|'''onreadystatechange''']].
-
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
