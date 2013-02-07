@@ -1,7 +1,7 @@
 {{Page_Title|Smarter SVG: overview and scope}}
 {{Flags
 |High-level issues=Stub
-|Editorial notes=[new content from Sierra [[[User:Sierra|Sierra]] ([[User talk:Sierra|talk]])] -- please do not edit]
+|Editorial notes=[new content from Sierra ([[User:Sierra|Sierra]] ([[User talk:Sierra|talk]])); please do not edit]
 }}
 {{Byline}}
 {{Summary_Section|This guide shows how deploy SVG graphics along with HTML and CSS, and guides you how its coordinate space works.}}
