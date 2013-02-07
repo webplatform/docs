@@ -5,10 +5,14 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|XMLHttpRequest (XHR) is a Javascript object that is used to send HTTP or HTTPS requests directly to a web server and load the server response data directly back into the script. }}
-{{API_Listing
-|Use_page_title=No
+{{Summary_Section|XMLHttpRequest (XHR) is a Javascript object that is used to send HTTP or HTTPS requests directly to a web server and load the server response data directly back into the script.}}
+{{API_Listing|Use_page_title=No
 |List_all_subpages=Yes
+}}
+{{Concept_Listing
+|Query=[[Category:XHR]][[Category:API_Objects]]
+|Use_page_title=No
+|List_all_subpages=No
 }}
 {{Notes_Section}}
 {{See_Also_Section}}
