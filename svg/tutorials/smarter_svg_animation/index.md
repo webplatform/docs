@@ -1,13 +1,14 @@
 {{Page_Title|Smarter SVG: animation}}
 {{Flags
 |High-level issues=Stub
-|Editorial notes=[new content from [[User:Sierra|Sierra]] ([[User talk:Sierra|talk]]) -- please do not edit]
+|Editorial notes=[new content from Sierra [[[User:Sierra|Sierra]] ([[User talk:Sierra|talk]])] -- please do not edit]
 }}
 {{Byline}}
 {{Summary_Section|This guide shows you how to integrate SVG's animation features with other techniques available in CSS and JavaScript.}}
 {{Tutorial
 |Content=
 
+<!--
  19 Animation
     19.1 Introduction
     19.2 Animation elements
@@ -29,6 +30,7 @@
         19.2.15 The 'animateColor' element
         19.2.16 The 'animateTransform' element
         19.2.17 Elements, attributes and properties that can be animated
+-->
 
 ([[svg/tutorials/smarter_svg_overview|overview]] /
 [[svg/tutorials/smarter_svg_shapes|shapes]] /
