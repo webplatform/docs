@@ -1,9 +1,6 @@
-{{Page_Title|xhr reference}}
-{{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status}}
+{{Page_Title|XMLHttpRequest (XHR) API}}
+{{Flags}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|XMLHttpRequest (XHR) is a Javascript object that is used to send HTTP or HTTPS requests directly to a web server and load the server response data directly back into the script.}}
 {{API_Listing|Use_page_title=No
@@ -16,11 +13,12 @@
 }}
 {{Notes_Section}}
 {{See_Also_Section}}
-{{Topics|JavaScript, XHR}}
+{{Topics|XHR}}
 {{External_Attribution
 |Is_CC-BY-SA=No
+|Sources=MSDN
 |MDN_link=
-|MSDN_link=
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
 |HTML5Rocks_link=
 }}
 [[Category:API_Listings]]
