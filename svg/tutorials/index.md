@@ -44,3 +44,13 @@
 * [[tutorials/scripting svg|Scripting SVG]]
 * [[tutorials/external content in svg|External content in SVG]]
 * [[tutorials/animations in svg|Animations in SVG]]
+
+== Smarter SVG ==
+
+* [[svg/tutorials/smarter_svg_overview|Overview]]
+* [[svg/tutorials/smarter_svg_shapes|Shapes]]
+* [[svg/tutorials/smarter_svg_graphics|Graphics]]
+* [[svg/tutorials/smarter_svg_text|Text]]
+* [[svg/tutorials/smarter_svg_filters|Filters]]
+* [[svg/tutorials/smarter_svg_animation|Animation]]
+* [[svg/tutorials/smarter_svg_interaction|Interaction]]
