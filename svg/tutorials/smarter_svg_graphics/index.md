@@ -1,7 +1,7 @@
 {{Page_Title|Smarter SVG: graphic effects}}
 {{Flags
 |High-level issues=Stub
-|Editorial notes=[new content from Sierra [[[User:Sierra|Sierra]] ([[User talk:Sierra|talk]])] -- please do not edit]
+|Editorial notes=[new content from Sierra ([[User:Sierra|Sierra]] ([[User talk:Sierra|talk]])); please do not edit]
 }}
 {{Byline}}
 {{Summary_Section|This guide shows you how to embed images in SVG and apply graphics effects such as gradients, patterns, clipping, masking, and compositing.}}
