@@ -1,10 +1,10 @@
 {{Page_Title|Smarter SVG: interaction}}
 {{Flags
 |High-level issues=Stub
-|Editorial notes=[new content from Sierra -- please do not edit]
+|Editorial notes=[new content from [[User:Sierra|Sierra]] ([[User talk:Sierra|talk]]) -- please do not edit]
 }}
 {{Byline}}
-{{Summary_Section|This shows you how to script interaction effects and link content for dynamic effects.}}
+{{Summary_Section|This guide shows you how to script interaction effects and link content for dynamic effects.}}
 {{Tutorial
 |Content=
 
