@@ -1,7 +1,7 @@
 {{Page_Title|Smarter SVG: shapes}}
 {{Flags
 |High-level issues=Stub
-|Editorial notes=[new content from Sierra -- please do not edit]
+|Editorial notes=[new content from [[User:Sierra|Sierra]] ([[User talk:Sierra|talk]]) -- please do not edit]
 }}
 {{Byline}}
 {{Summary_Section|This guide introduces SVG's basic graphic primitives, from simple lines and shapes to complex polygons and paths.}}
