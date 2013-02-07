@@ -12,7 +12,9 @@
 |List_all_subpages=No
 }}
 {{Notes_Section}}
-{{See_Also_Section}}
+{{See_Also_Section
+|External_links=[http://www.w3.org/TR/XMLHttpRequest/ W3C XMLHttpRequest Specification]
+}}
 {{Topics|XHR}}
 {{External_Attribution
 |Is_CC-BY-SA=No
