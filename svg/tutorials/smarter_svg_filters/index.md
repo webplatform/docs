@@ -1,7 +1,7 @@
 {{Page_Title|Smarter SVG: filters}}
 {{Flags
 |High-level issues=Stub
-|Editorial notes=[new content from [[User:Sierra|Sierra]] ([[User talk:Sierra|talk]]) -- please do not edit]
+|Editorial notes=[new content from Sierra [[[User:Sierra|Sierra]] ([[User talk:Sierra|talk]])] -- please do not edit]
 }}
 {{Byline}}
 {{Summary_Section|This guide shows you how to build SVG image processing filters, which you can also apply to non-SVG content using the  [[css/properties/filter|'''filter''']] CSS property.}}
@@ -23,6 +23,7 @@ Filter Effects properties:
 * '''flood-opacity'''
 * '''lighting-color'''
 
+<!--
  15 Filter Effects
     15.1 Introduction
     15.2 An example
@@ -56,6 +57,7 @@ Filter Effects properties:
     15.22 Filter primitive 'feSpecularLighting'
     15.23 Filter primitive 'feTile'
     15.24 Filter primitive 'feTurbulence'
+-->
 
 ([[svg/tutorials/smarter_svg_overview|overview]] /
 [[svg/tutorials/smarter_svg_shapes|shapes]] /
