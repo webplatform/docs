@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Returns the format the response will be returned in, or sets the format the response should be returned in.}}
+{{Summary_Section|Returns or sets the format the response will be returned in.}}
 {{API_Object_Property
 |Property_applies_to=apis/xhr/XMLHttpRequest
 |Read_only=No
