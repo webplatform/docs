@@ -59,10 +59,7 @@ border-bottom-left-radius: 1em 3em;
 {{Notes_Section
 |Usage=As with any shorthand property, individual inherited values are not possible, that is <code>border-radius:0 0 inherit inherit</code>, which would override existing definitions partially. In that case, the individual longhand properties have to be used.
 
-The border-radius property can be animated/transitioned in Firefox, Webkit and Opera. It does not work in IE. See this demo for a keyframe animation and a transition: http://jsfiddle.net/FPnV6/1/
-|Notes====Remarks===
-The '''border-radius''' property is a composite property that specifies up to four '''border-*-radius''' properties. If values are given before and after the slash, the values before the slash set the horizontal radius and the values after the slash set the vertical radius. If there is no slash, the values set both radii equally. The four values for each radii are given in the following order: top-left, top-right, bottom-right, bottom-left. If the bottom-left value is omitted, the value is the same as the top-right value. If the bottom-right value is omitted, the value is the same as the top-left value. If the top-right value is omitted, the value is the same as the top-left value.
-|Import_Notes====Syntax===
+===Syntax===
 The syntax of the first radius allows one to four values:<br/>
 <code>
 border-radius: radius <br/>           
@@ -76,6 +73,10 @@ border-radius: (first radius values) / radius <br/>
 border-radius: (first radius values) / top-left-and-bottom-right top-right-and-bottom-left <br/>
 border-radius: (first radius values) / top-left top-right-and-bottom-left bottom-right <br/>
 border-radius: (first radius values) / top-left top-right bottom-right bottom-left </code><br/>
+|Notes====Remarks===
+The '''border-radius''' property is a composite property that specifies up to four '''border-*-radius''' properties. If values are given before and after the slash, the values before the slash set the horizontal radius and the values after the slash set the vertical radius. If there is no slash, the values set both radii equally. The four values for each radii are given in the following order: top-left, top-right, bottom-right, bottom-left. If the bottom-left value is omitted, the value is the same as the top-right value. If the bottom-right value is omitted, the value is the same as the top-left value. If the top-right value is omitted, the value is the same as the top-left value.
+|Import_Notes====Animation Compability===
+The border-radius property can be animated/transitioned in Firefox, Webkit and Opera. It does not work in IE. See this demo for a keyframe animation and a transition: http://jsfiddle.net/FPnV6/1/
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
