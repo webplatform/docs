@@ -40,7 +40,7 @@ These key points serve as reference:
 
 * The [[css/properties/animation-timing-function|'''animation-timing-function''']] property controls the speed of progression between each keyframe, and can be altered within an animation. It uses the same set of keywords as transitions: '''ease''', '''ease-in''', '''ease-out''', '''ease-in-out''', '''linear''', or custom '''cubic-bezier()''' functions.
 
-* The [[css/properties/animation|'''animation''']] shorthand property can represent values from all other animation properties. If two time measurements are included, they are interpreted first as duration then as delay.
+* The [[css/properties/animation/animation|'''animation''']] shorthand property can represent values from all other animation properties. If two time measurements are included, they are interpreted first as duration then as delay.
 
 * Use standard property names along with ''-webkit-'' prefixes. Specify both the '''@keyframes''' rule and '''@-webkit-keyframes'''. From JavaScript, specify standard properties such as '''animationName''' along with '''WebkitAnimationName'''.
 
@@ -510,7 +510,7 @@ Here is how you might change the initial color to a shade of gray:
 
 See [[css/cssom/CSSKeyframesRule|'''CSSKeyframesRule''']], 
 [[css/cssom/CSSKeyframeRule|'''CSSKeyframeRule''']] and
-[[css/cssom/CSSRule|'''CSSRule''']] for details. 
+[[css/cssom/CSSRule|'''CSSRule''']] for details.
 }}
 {{Notes_Section}}
 {{Compatibility_Section
