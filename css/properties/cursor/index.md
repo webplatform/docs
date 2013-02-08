@@ -25,6 +25,25 @@ This example uses a call to an embedded (global) style sheet to set the cursor t
 |Code=&lt;style&gt;
     div { cursor : hand; }
 &lt;/style&gt;
+
+
+    	<style>
+    		div{
+    			height: 20px;
+    			width: 100px;
+    			background: rgba(0, 0, 0, 0.6);
+    			color: #fff;
+    			text-align: center;
+    			margin: 5px;
+    		}
+    		.help{
+    			cursor: help;    			
+    		}
+    	</style>
+        <div class="help">
+        	help
+        </div>
+  
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/cursor_h.htm
 }}{{Single Example
 |Description=This example uses inline scripting to set the cursor to '''hand''' as the cursor passes over the paragraph.
