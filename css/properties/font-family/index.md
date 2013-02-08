@@ -5,23 +5,46 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Specifies the font for an element.}}
+{{Summary_Section|This property contains a comma-separated list of font family names and/or generic family names. For each character that a user agent (browser) has to render, it iterates through the list of family names until it matches a font that contains a glyph for that character.}}
 {{CSS Property
+|Initial value=depends on user agent
 |Applies to=All elements
 |Inherited=Yes
 |Media=visual
+|Computed value=as specified
 |Animatable=No
+|CSS object model property=fontFamily
 |Values={{CSS Property Value
 |Data Type=family-name
-|Description=Any of the available font families supported by the browser. For example, <code>Times</code>, <code>Helvetica</code>, <code>Zapf-Chancery</code>, <code>Western</code>, or <code>Courier</code>.
+|Description=The name of a font family, such as <code>Courier</code> or <code>Arial</code>. Font family names containing whitespace should be quoted.
 }}{{CSS Property Value
 |Data Type=generic-family
-|Description=Any of the following font families: <code>serif</code>, <code>sans-serif</code>, <code>cursive</code>, <code>fantasy</code>, or <code>monospace</code>.
+|Description=Generic font families are used as a fallback when none of the previously specified fonts are available. It is always the last alternative in the list of font-family names. The following generic family keywords are defined: <code>serif</code>, <code>sans-serif</code>, <code>cursive</code>, <code>fantasy</code> and <code>monospace</code>.
 }}
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=CSS
+|Code=h1 { font-family: Helvetica, Arial, sans-serif; }
+p { font-family: Courier, "Times New Roman", serif }
+}}{{Single Example
+|Code=<!doctype html>
+<html lang="en-US">
+	<head>
+		<meta charset="utf-8" />
+		<title>Example hover change font-family</title>
+		<style>
+			a { font-family: Courier, serif; display: block; }
+			a:hover { font-family: Arial, sans-serif }
+		</style>
+	</head>
+	<body>
+		<p><a href="#">Hover over this link to see the font-family change from Courier to Arial.</a></p>
+	</body>
+</html>
+|LiveURL=http://dabblet.com/gist/4739756
+}}{{Single Example
 |Description=The following example shows how to use a call to an embedded style sheet to set the '''font-family''' attribute .
 |Code=&lt;HTML&gt;
 &lt;HEAD&gt;
@@ -40,6 +63,15 @@ attribute to COURIER.&lt;/P&gt;
 &lt;/HTML&gt;
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/font-family.htm
 }}{{Single Example
+|Description=The following example shows how to define a hierarchy of fonts, in this case, an embedded font and a system font. The browser goes through the list until it finds a font it can apply. This is useful when the Web author wants to use fonts that might or might not be accessible or loaded onto a user's machine.
+|Code=&lt;STYLE type{{=}}"text/css"&gt;
+   @font-face {
+      font-family: "My_font";
+      src: url(http://www.adatum.com/some_font_file.eot);
+   }
+   BODY {font-family: "My_font", Arial}
+&lt;/STYLE&gt;
+}}{{Single Example
 |Description=The following example shows how to use inline scripting to change the '''font-family''' property.
 |Code=&lt;HTML&gt;
 &lt;BODY&gt;
@@ -52,15 +84,6 @@ property to COURIER.
 &lt;/BODY&gt;
 &lt;/HTML&gt;
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/fontFamily.htm
-}}{{Single Example
-|Description=The following example shows how to define a hierarchy of fonts, in this case, an embedded font and a system font. The browser goes through the list until it finds a font it can apply. This is useful when the Web author wants to use fonts that might or might not be accessible or loaded onto a user's machine.
-|Code=&lt;STYLE type{{=}}"text/css"&gt;
-   @font-face {
-      font-family: "My_font";
-      src: url(http://www.adatum.com/some_font_file.eot);
-   }
-   BODY {font-family: "My_font", Arial}
-&lt;/STYLE&gt;
 }}
 }}
 {{Notes_Section
@@ -82,7 +105,11 @@ The default for this property can be set for Windows Internet Explorer on the ''
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 5.2.2
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS2.1, section 15.3
+|URL=http://www.w3.org/TR/CSS21/fonts.html#font-family-prop
+|Status=W3C Recommendation 07 June 2011
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
