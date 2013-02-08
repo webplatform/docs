@@ -13,7 +13,7 @@ If the property has a value different than none, a stacking context will be crea
 |Inherited=No
 |Media=visual
 |Computed value=?
-|Animatable=Yes in some browsers
+|Animatable=Yes
 |Values={{CSS Property Value
 |Data Type=none
 |Description=Specifies that no transform should be applied.}}
