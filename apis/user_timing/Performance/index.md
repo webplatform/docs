@@ -11,32 +11,40 @@
 |Examples={{Single Example
 |Language=JavaScript
 |Description=The following script shows how a developer can use the interfaces defined in this document to obtain timing data related to developer scripts.
-|Code=function init() {
-	performance.mark("startTask1");
-	doTask1(); // Some developer code
-	performance.mark("endTask1");
-				
-	performance.mark("startTask2");
-	doTask2(); // Some developer code
-	performance.mark("endTask2");
+|Code=<!doctype html>
+<html>
+  <head>
+    <title>User Timing example</title>
+  </head>
+  <body onload="init()">
+    <script>
+       function init() 
+       {
+            performance.mark("startTask1");
+            doTask1(); // Some developer code
+            performance.mark("endTask1");
+            
+            performance.mark("startTask2");
+            doTask2(); // Some developer code
+            performance.mark("endTask2");
 
-	measurePerf();
-}
+            measurePerf();
+       }
 
-function measurePerf() 
-{
-	var perfEntries = performance.getEntriesByType("mark");
-	
-	for (var i = 0; i < perfEntries.length; i++)
-   	{
-		if (window.console) console.log("Name: " + perfEntries[i].name + 
-						" Entry Type: " + perfEntries[i].entryType +
-						" Start Time: " + perfEntries[i].startTime + 
-						" Duration: "   + perfEntries[i].duration  + "\n");
-   }
-}
-
-window.addEventListener('load', init, false);
+       function measurePerf() 
+       {
+           var perfEntries = performance.getEntriesByType("mark");
+           for (var i = 0; i < perfEntries.length; i++)
+           {
+                 if (window.console) console.log("Name: "        + perfEntries[i].name      + 
+                                                 " Entry Type: " + perfEntries[i].entryType +
+                                                 " Start Time: " + perfEntries[i].startTime + 
+                                                 " Duration: "   + perfEntries[i].duration  + "\n");
+           }
+       }
+    </script>
+  </body>
+</html>
 }}
 }}
 {{Notes_Section}}
