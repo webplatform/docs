@@ -16,7 +16,9 @@
 |CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=url
-}}
+}}{{CSS Property Value
+|Data Type=auto, default, none, context-menu, help, pointer, progress
+}}{{CSS Property Value}}
 }}
 {{Examples_Section
 |Not_required=No
