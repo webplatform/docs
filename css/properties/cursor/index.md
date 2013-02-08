@@ -37,29 +37,29 @@ Check out the Examples.
 This example uses a call to an embedded (global) style sheet to set the cursor to '''hand''' as the cursor passes over all paragraphs.
 
 
-		<div style="overflow: hidden;">
+				<div style="overflow: hidden;">
 		<h3>General</h3>
 		<div style="width: 25%; float: left; background: #f4f5f7; cursor: auto; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: auto;</div>
 		<div style="width: 25%; float: left; background: #ffffff; cursor: default; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: default;</div>
 		<div style="width: 25%; float: left; background: #f4f5f7; cursor: none; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: none;</div>
-		Links & status
+		<h3>Links & status</h3>
 		<div style="width: 25%; float: left; background: #ffffff; cursor: context-menu; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: context-menu;</div>
 		<div style="width: 25%; float: left; background: #f4f5f7; cursor: help; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: help;</div>
 		<div style="width: 25%; float: left; background: #f4f5f7; cursor: pointer; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: pointer;</div>
 		<div style="width: 25%; float: left; background: #ffffff; cursor: progress; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: progress;</div>
 		<div style="width: 25%; float: left; background: #f4f5f7; cursor: wait; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: wait;</div>
-		Selection
+		<h3>Selection</h3>
 		<div style="width: 25%; float: left; background: #ffffff; cursor: cell; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: cell;</div>
 		<div style="width: 25%; float: left; background: #f4f5f7; cursor: crosshair; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: crosshair;</div>
 		<div style="width: 25%; float: left; background: #ffffff; cursor: text; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: text;</div>
 		<div style="width: 25%; float: left; background: #f4f5f7; cursor: vertical-text; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: vertical-text;</div>
-		Drag & drop
+		<h3>Drag & drop</h3>
 		<div style="width: 25%; float: left; background: #ffffff; cursor: alias; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: alias;</div>
 		<div style="width: 25%; float: left; background: #f4f5f7; cursor: copy; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: copy;</div>
 		<div style="width: 25%; float: left; background: #ffffff; cursor: move; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: move;</div>
 		<div style="width: 25%; float: left; background: #f4f5f7; cursor: no-drop; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: no-drop;</div>
 		<div style="width: 25%; float: left; background: #ffffff; cursor: not-allowed; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: not-allowed;</div>
-		Resize & scrolling
+		<h3>Resize & scrolling</h3>
 		<div style="width: 25%; float: left; background: #f4f5f7; cursor: all-scroll; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: all-scroll;</div>
 		<div style="width: 25%; float: left; background: #ffffff; cursor: col-resize; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: col-resize;</div>
 		<div style="width: 25%; float: left; background: #f4f5f7; cursor: row-resize; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: row-resize;</div>
@@ -77,6 +77,7 @@ This example uses a call to an embedded (global) style sheet to set the cursor t
 		<div style="width: 25%; float: left; background: #f4f5f7; cursor: nesw-resize; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: nesw-resize;</div>
 		<div style="width: 25%; float: left; background: #ffffff; cursor: nwse-resize; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: nwse-resize;</div>
 	</div>
+
 
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/cursor_h.htm
 }}{{Single Example
