@@ -35,7 +35,7 @@ Check out the Examples.
 |Language=CSS
 |Description=Test test
 |Code=.foo { cursor: pointer; }
-}{{Single Example
+}}{{Single Example
 |Description=The following Example shows the standard cursors. Just hover over the boxes and you see the cursors.
 
 				<div style="overflow: hidden;">
