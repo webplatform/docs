@@ -7,55 +7,76 @@
 {{API_Name}}
 {{Summary_Section|Specifies the type of list-item marker in a list.}}
 {{CSS Property
-|Applies to=All elements
+|Applies to=elements with 'display: list-item'
 |Inherited=Yes
 |Media=visual
 |Animatable=No
 |Values={{CSS Property Value
-|Data Type=disc
-|Description=Default. Solid circles.
+|Data Type=armenian	
+|Description=The marker is traditional Armenian numbering 
 }}{{CSS Property Value
-|Data Type=circle
-|Description=Outlined circles.
+|Data Type=circle	
+|Description=circle 
 }}{{CSS Property Value
-|Data Type=square
-|Description=Solid squares.
+|Data Type=cjk-ideographic	
+|Description=plain ideographic numbers 
 }}{{CSS Property Value
-|Data Type=decimal
-|Description=1, 2, 3, 4, and so on.
+|Data Type=decimal	
+|Description= number. This is default for &lt;ol&gt; 
 }}{{CSS Property Value
-|Data Type=decimal-leading-zero
-|Description=01, 02, 03, 04, and so on.
+|Data Type=decimal-leading-zero	
+|Description=number with leading zeros (01, 02, 03, etc.) 
 }}{{CSS Property Value
-|Data Type=lower-alpha
-|Description=A, b, c, d, and so on.
+|Data Type=disc	
+|Description=filled circle. This is default for &lt;ul&gt;
 }}{{CSS Property Value
-|Data Type=upper-alpha
-|Description=A, B, C, D, and so on.
+|Data Type=georgian	
+|Description=traditional Georgian numbering 
 }}{{CSS Property Value
-|Data Type=lower-roman
-|Description=I, ii, iii, iv, and so on.
+|Data Type=hebrew	
+|Description=The marker is traditional Hebrew numbering 
 }}{{CSS Property Value
-|Data Type=upper-roman
-|Description=I, II, III, IV, and so on.
+|Data Type=hiragana	
+|Description=traditional Hiragana numbering 
 }}{{CSS Property Value
-|Data Type=lower-greek
-|Description=Lowercase classical Greek: alpha, beta, gamma, and so on.
+|Data Type=hiragana-iroha	
+|Description= traditional Hiragana iroha numbering 
 }}{{CSS Property Value
-|Data Type=lower-latin
-|Description=A, b, c, d, and so on.
+|Data Type=inherit	
+|Description=The value of the listStyleType property is inherited from parent element	
 }}{{CSS Property Value
-|Data Type=upper-latin
-|Description=A, B, C, D, and so on.
+|Data Type=katakana	
+|Description=traditional Katakana numbering 
 }}{{CSS Property Value
-|Data Type=armenian
-|Description=Traditional Armenian numbering.
+|Data Type=katakana-iroha	
+|Description=traditional Katakana iroha numbering 
 }}{{CSS Property Value
-|Data Type=georgian
-|Description=Traditional Georgian numbering: an, ban, gan, don, and so on.
+|Data Type=lower-alpha	
+|Description=lower-alpha (a, b, c, d, e, etc.) 
 }}{{CSS Property Value
-|Data Type=none
-|Description=No marker is shown.
+|Data Type=lower-greek	
+|Description=lower-greek 
+}}{{CSS Property Value
+|Data Type=lower-latin	
+|Description=lower-latin (a, b, c, d, e, etc.) 
+}}{{CSS Property Value
+|Data Type=lower-roman	
+|Description=lower-roman (i, ii, iii, iv, v, etc.) 
+}}{{CSS Property Value
+|Data Type=none	
+|Description=No marker is shown 
+}}{{CSS Property Value
+|Data Type=square	
+|Description=square 
+}}{{CSS Property Value
+|Data Type=upper-alpha	
+|Description=upper-alpha (A, B, C, D, E, etc.)  
+}}{{CSS Property Value
+|Data Type=upper-latin	
+|Description=upper-latin (A, B, C, D, E, etc.) 
+}}{{CSS Property Value
+|Data Type=upper-roman	
+|Description=upper-roman (I, II, III, IV, V, etc.)
 }}
 }}
 {{Examples_Section
