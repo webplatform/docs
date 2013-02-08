@@ -30,18 +30,7 @@
 |Description=The following examples use the list-style attribute and the '''list-style''' property to set the list style.
 
 This example uses '''ul''' and <code>UL.compact</code> as selectors in an embedded (global) style sheet to define the styles of two different unordered lists.  For <code>UL.compact</code> to override the image that is set with the '''ul''' selector, you must explicitly set the '''image''' attribute to '''none'''.
-|Code=<code><style type="text/css">
-	UL 			{ list-style: outside url('/workshop/graphics/dot.gif') }
-	UL.compact 	{ list-style-image: none; list-style: inside circle }
-</style>
-<ul>
-<li>first list item comes first</li>
-<li>second list item comes second</li>
-</ul>
-<ul class="compact">
-<li>first list item comes first</li>
-<li>second list item comes second</li>
-</ul></code>
+|Code=ul { list-style: circle outside url('/workshop/graphics/dot.gif') }
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/list-style.htm
 }}
 }}
