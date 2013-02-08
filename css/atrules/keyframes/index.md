@@ -10,6 +10,8 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=CSS
+|Description=Example of prefixed/prefix-free @keyframes blocks
 |Code=/* defining the animation */
 @keyframes fadeInAnimation {
     /* starting state */
@@ -74,6 +76,39 @@ div {
     -webkit-animation: fadeInAnimation linear;
     -o-animation: fadeInAnimation linear;
 }
+|LiveURL=http://03sq.net/examples/animation.html
+}}{{Single Example
+|Language=CSS
+|Description=Example of an unprefixed @keyframes block that uses percentages to control the keyframes more exactly.
+|Code=@keyframes bounceFadeInAnimation {
+    /* starting state (same as "from") */
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 0.4;
+    15% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 0.6;
+    }
+    50% {
+        opacity: 0;
+    }
+    65% {
+        opacity: 0.8;
+    }
+    80% {
+        opacity: 0;
+    }
+    /* ending state (same as "to") */
+    100% {
+        opacity: 1;
+    }
+}
+
+|LiveURL=http://03sq.net/examples/animation2.html
 }}
 }}
 {{Notes_Section
@@ -193,7 +228,11 @@ Keyframe selectors use keyframe descriptors to specify the properties and values
 |Safari_mobile_prefixed_supported=No
 |Safari_mobile_prefixed_version=
 }}
-|Notes_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=iOS Safari
+|Version=all
+|Note=Only some properties are hardware accelerated, this is also the case with transitions. Known properties are: opacity, translate3d. There may be more, but it is hard to find documentation for this.
+}}
 }}
 {{See_Also_Section
 |Topic_clusters=Animation, Syntax
