@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|With the appearance property any element can have the style of platform-based interface elements.}}
 {{CSS Property
 |Inherited=No
 |Animatable=No
