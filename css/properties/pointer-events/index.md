@@ -49,6 +49,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
+|Description=The first a element have the pointer-events property set to none, any pointer events (i.e., mouse over, click) do not happen.
 |Code=&lt;!DOCTYPE HTML&gt;
 &lt;html lang="en-US"&gt;
 &lt;head&gt;
