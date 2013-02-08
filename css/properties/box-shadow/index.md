@@ -69,6 +69,22 @@ Given a box, the shadow style is represented as follows:
    box-shadow: 0 0 5px 10px rgba(0, 0, 0, 0.5);
 }
 |LiveURL=http://dabblet.com/gist/4739759
+}}{{Single Example
+|Language=CSS
+|Description=Negative values cause the shadow shape to contract.
+|Code=article {
+/* box-shadow: left-offset top-offset blur spread color; */
+   box-shadow: 0 20px 5px -10px rgba(0, 0, 0, 0.5);
+}
+|LiveURL=http://dabblet.com/gist/4739654
+}}{{Single Example
+|Language=CSS
+|Description=If the blur value is zero, the shadow's edge is sharp.
+|Code=article {
+/* box-shadow: left-offset top-offset blur spread color; */
+   box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.5);
+}
+|LiveURL=http://dabblet.com/gist/4739845
 }}
 }}
 {{Notes_Section
