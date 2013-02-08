@@ -7,8 +7,28 @@
 }}
 {{API_Object}}
 {{Examples_Section
-|Not_required=Yes
-|Examples=
+|Not_required=No
+|Examples={{Single Example
+|Language=JavaScript
+|Description=iterates over all the files selected by the user using an input element
+|Code=// fileInput is an HTML input element: input type="file" id="myfileinput" multiple
+var fileInput = document.getElementById("myfileinput");
+ 
+// files is a FileList object (similar to NodeList)
+var files = fileInput.files;
+var file;
+ 
+// loop trough files
+for (var i = 0; i < files.length; i++) {
+ 
+    // get item
+    file = files.item(i);
+    //or
+    file = files[i];
+ 
+    alert(file.name);
+}
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
@@ -85,8 +105,8 @@
 {{Topics|FileAPI}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
+|Sources=MDN, MSDN
+|MDN_link=https://developer.mozilla.org/en-US/docs/DOM/FileList
 |MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
 |HTML5Rocks_link=
 }}
