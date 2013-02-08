@@ -9,7 +9,18 @@
 {{API_Object}}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=Spawning and communicating with a Worker
+|Code=// create worker
+var worker = new Worker('script.js');
+// receive data from worker
+worker.onmessage = function(event) {
+ console.log("Received data from worker", event.data);
+};
+// pass data to worker
+worker.postMessage("hello worker");
+}}
 }}
 {{Notes_Section
 |Notes====Remarks===
@@ -77,6 +88,7 @@ The '''Worker''' object has these properties.
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
 |Chrome_version=4.0
