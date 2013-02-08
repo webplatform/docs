@@ -16,10 +16,7 @@
 sessionStorage['myKey'] {{=}} '...'; 
 	
 sessionStorage.myKey {{=}} '...';
-
-
 }}{{Single Example
-|Language=HTML
 |Code=<!DOCTYPE html>
 <html>
   <head>
