@@ -40,8 +40,8 @@
 |Import_Notes====Syntax===
 <code>'''animation-direction: ''''''[''' normal '''{{!}}''' alternate '''{{!}}''' reverse '''{{!}}''' alternate-reverse ''']''' '''[''' ,  '''[''' normal '''{{!}}''' alternate '''{{!}}''' reverse '''{{!}}''' alternate-reverse ''']''' ''']''' *</code>
 ===Standards information===
+*[http://www.w3.org/TR/css3-animations/#animation-duration-property|CSS Animations W3C Working Draft] Section 3.3
 *[http://go.microsoft.com/fwlink/p/?LinkID{{=}}223144 CSS Animations Module Level 3], Section 3.6
-*[http://www.w3.org/TR/css3-animations/#animation-duration-property] CSS Animations W3C Working Draft
 }}
 {{Related_Specifications_Section
 |Specifications=
