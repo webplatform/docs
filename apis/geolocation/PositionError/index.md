@@ -18,19 +18,22 @@ alert("Position found.");
 }
 
 /* Position not found*/
-function geoError(position)
+function geoError(err)
 { 
 if(err.code == 0) 
 {alert("Error: Unknown error");}
 
 else if( err.code == 2) 
-{alert("Error: Permission denied - check settings");}
+{alert("Error: Permission denied");}
 
 else if( err.code == 2) 
 {alert("Error: Position not available");}
 
 else if( err.code == 3) 
 {alert("Error: Timeout");}
+
+else
+{alert(err.message);}
 }
 }}
 }}
