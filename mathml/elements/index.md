@@ -3,7 +3,7 @@
 {{API_Name}}
 {{Summary_Section|Index page for MathML elements.}}
 {{API_Listing
-|Query=[[Category:MathML_Elements]][[Category:MathML]]
+|Query=[[Category:Markup_Elements]][[Category:MathML]]
 |Use_page_title=No
 |List_all_subpages=No
 }}
