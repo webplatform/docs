@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags}}
-{{Standardization_Status|W3C Candidate Recommendation}}
+{{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Defines the type of endings the user agent will place on the end of lines.}}
 {{API_Object_Property
@@ -15,7 +15,34 @@
 }}
 {{Examples_Section
 |Not_required=Yes
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=The following example draws three lines with the different line endings. With blue lines showing where the normal end of the line is.
+|Code=function draw() {
+  var ctx = document.getElementById('canvas').getContext('2d');
+  var lineCap = ['butt','round','square'];
+
+  //Draw guides
+  ctx.strokeStyle = '#09f';
+  ctx.beginPath();
+  ctx.moveTo(10,10);
+  ctx.lineTo(140,10);
+  ctx.moveTo(10,140);
+  ctx.lineTo(140,140);
+  ctx.stroke();
+
+  // Draw lines
+  ctx.strokeStyle = 'black';
+  for (i=0;i<lineCap.length;i++){
+    ctx.lineWidth = 15;
+    ctx.lineCap = lineCap[i];
+    ctx.beginPath();
+    ctx.moveTo(25+i*50,10);
+    ctx.lineTo(25+i*50,140);
+    ctx.stroke();
+  }
+}
+}}
 }}
 {{Notes_Section
 |Notes=The ''round'' and ''square'' styles for the ''lineCap''  property make the lines slightly longer. For round ends, the cap diameter equals the  [[apis/canvas/CanvasRenderingContext2D/lineWidth|lineWidth]] value. The ''square'' style adds a rectangle with a width of 1/2 of ''lineWidth''. Both the ''round'' and ''square'' styles add approximately 1/2 of the current ''lineWidth''  value to the end of a line. You should consider this addition if your graphics accuracy is critical.
@@ -24,7 +51,7 @@
 |Specifications={{Related Specification
 |Name=W3C HTML Canvas 2D Specification
 |URL=http://www.w3.org/TR/2012/CR-2dcontext-20121217/
-|Status=W3C Candidate Recommendation
+|Status=W3C Editor's Draft
 }}
 }}
 {{Compatibility_Section
