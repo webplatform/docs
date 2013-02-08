@@ -5,13 +5,14 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Specifies the name of the CSS property the transition effect is for.}}
+{{Summary_Section|The 'transition-property' property specifies the name of the CSS property to which the transition is applied.}}
 {{CSS Property
 |Initial value=all
 |Applies to=all elements, :before and :after pseudo elements
 |Inherited=No
 |Media=visual
-|Animatable=No
+|Animatable=Yes
+|CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=none
 |Description=No transition effect is applied (all transition properties are ignored) when a new property value is specified.
