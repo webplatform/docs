@@ -16,13 +16,16 @@ On block level elements, line-height specifies the minimal height of line boxes 
 |Animatable=No
 |Values={{CSS Property Value
 |Data Type=normal
-|Description=Default. Default height.
+|Description=Default. Default height. Depends on the user agent.
 }}{{CSS Property Value
-|Data Type=height
-|Description=Floating-point number, followed by an absolute units designator (<code>cm</code>, <code>mm</code>, <code>in</code>, <code>pt</code>, or <code>pc</code>) or a relative units designator (<code>em</code>, <code>ex</code>, or <code>px</code>). For more information about the supported length units, see CSS Values and Units Reference.
+|Data Type=<number>
+|Description=The used value of the property is this number multiplied by the element's font size. Negative values are illegal.
 }}{{CSS Property Value
-|Data Type=percentage
-|Description=Integer, followed by a percent sign (%). The value is a percentage of the height of the parent object.
+|Data Type=<length>
+|Description=The specified length is used in the calculation of the line box height. Negative values are illegal.
+}}{{CSS Property Value
+|Data Type=<percentage>
+|Description=The computed value of the property is this percentage multiplied by the element's computed font size.
 }}
 }}
 {{Examples_Section
