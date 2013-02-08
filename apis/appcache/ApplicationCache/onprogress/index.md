@@ -10,8 +10,24 @@
 |Javascript_data_type=unsigned short
 }}
 {{Examples_Section
-|Not_required=Yes
-|Examples=
+|Not_required=No
+|Examples={{Single Example
+|Language=JavaScript
+|Description=Registering an progress event handler to keep track of the number of items that need to be fetched and that are already fetched
+|Code=CACHE MANIFEST
+# Example manifest
+CACHE:
+afile.css
+anotherfile.js
+
+// keep track of the items to fetch
+var itemsFetched = 0;
+// will be called two times in total, because there are two files to fetch (afile.css, anotherfile.js)
+window.applicationCache.addEventListener('progress', function (event) {
+   itemsFetched++;
+   console.log('Item', itemsFetched, 'of', event.total, 'fetched');
+}, false);
+}}
 }}
 {{Notes_Section
 |Notes=If more than one event is triggered and the '''progress''' event is included, the next events may include '''progress''', '''error''', '''cached''', or '''updateready'''.
