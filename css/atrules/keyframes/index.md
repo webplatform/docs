@@ -3,9 +3,9 @@
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Sets the media types for a set of rules in a [[css/cssom/properties/styleSheet|styleSheet]] object.}}
+{{Summary_Section|Sets the keyframes for the CSS [[css/properties/animation/animation]] property.}}
 {{CSS_At_Rule}}
 {{Examples_Section
 |Not_required=No
@@ -196,11 +196,12 @@ Keyframe selectors use keyframe descriptors to specify the properties and values
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=Syntax
+|Topic_clusters=Animation, Syntax
 |Manual_links=*[http://caniuse.com/#feat=css-animation canIUse Compatibility Table]
 *[https://developer.mozilla.org/en-US/docs/CSS/@keyframes MDN]
 |Manual_sections====Related pages (MSDN)===
 *<code>[[css/properties/animation-name|animationName]]</code>
+*<code>[[css/properties/animation/animation]]</code>
 }}
 {{Topics|CSS}}
 {{External_Attribution
