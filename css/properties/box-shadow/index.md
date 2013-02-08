@@ -85,6 +85,16 @@ Given a box, the shadow style is represented as follows:
    box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.5);
 }
 |LiveURL=http://dabblet.com/gist/4739845
+}}{{Single Example
+|Language=CSS
+|Description=If the box has a nonzero ‘border-radius’, the shadow shape is rounded in the same way.
+|Code=article {
+/* box-shadow: left-offset top-offset blur color; */
+   box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+	
+   border-radius: 10px;
+}
+|LiveURL=http://dabblet.com/gist/4740320
 }}
 }}
 {{Notes_Section
