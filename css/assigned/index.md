@@ -25,6 +25,9 @@
 * flex - rod
 * display: flex - rod
 * flex-* - rod
+* flex-direction - rod - FINISHED, NEEDS REVIEW
+
 * Polyfill examples, filters, older browser support - christian (need examples on property pages, plus a separate polyfill section)**********
 * media queries pages - sven 
 * konstantinos - writing ux pages
+* gunnar - working on i18n pages
