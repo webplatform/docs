@@ -38,13 +38,21 @@ Given a box, the shadow style is represented as follows:
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Code=.shadow {
-  box-shadow: 3px 3px 5px 6px #ccc;
+|Description=An example of a basic Drop Shadow
+|Code=article {
+/* box-shadow: left-offset top-offset blur color; */
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+|LiveURL=http://dabblet.com/gist/4739446
 }}{{Single Example
 |Language=HTML
-|Description=From MDN
-|Code=<pre style="-moz-box-shadow: 60px -16px teal; -webkit-box-shadow: 60px -16px teal; box-shadow: 60px -16px teal; float: left; margin: 1em;">box-shadow: 60px -16px teal;</pre>
+|Code=<article style="box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); border: 1px solid #f00;">
+	<h1>Drop Shadows - Web Platform Docs Examples</h1>
+	<p>An example of a basic Drop Shadow</p>
+	<footer role="contentinfo">
+		<a href="http://docs.webplatform.org/wiki/css/properties/box-shadow">Learn more about Drop Shadows</a>
+	</footer>
+</article>
 }}
 }}
 {{Notes_Section
