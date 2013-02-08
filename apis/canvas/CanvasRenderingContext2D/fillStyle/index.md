@@ -11,8 +11,21 @@
 |Return_value_description=Default is black.
 }}
 {{Examples_Section
-|Not_required=Yes
-|Examples=
+|Not_required=No
+|Examples={{Single Example
+|Language=JavaScript
+|Description=The following example creates a square with different colored squares inside.
+|Code=function draw() {
+  var ctx = document.getElementById('canvas').getContext('2d');
+  for (i=0;i<6;i++){
+    for (j=0;j<6;j++){
+      ctx.fillStyle = 'rgb(' + Math.floor(255-42.5*i) + ',' + 
+                       Math.floor(255-42.5*j) + ',0)';
+      ctx.fillRect(j*25,i*25,25,25);
+    }
+  }
+}
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
@@ -87,8 +100,8 @@
 {{Topics|Canvas}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
+|Sources=MDN, MSDN
+|MDN_link=https://developer.mozilla.org/samples/canvas-tutorial/4_1_canvas_fillstyle.html
 |MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
 |HTML5Rocks_link=
 }}
