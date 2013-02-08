@@ -75,8 +75,6 @@ border-radius: (first radius values) / top-left top-right-and-bottom-left bottom
 border-radius: (first radius values) / top-left top-right bottom-right bottom-left </code><br/>
 |Notes====Remarks===
 The '''border-radius''' property is a composite property that specifies up to four '''border-*-radius''' properties. If values are given before and after the slash, the values before the slash set the horizontal radius and the values after the slash set the vertical radius. If there is no slash, the values set both radii equally. The four values for each radii are given in the following order: top-left, top-right, bottom-right, bottom-left. If the bottom-left value is omitted, the value is the same as the top-right value. If the bottom-right value is omitted, the value is the same as the top-left value. If the top-right value is omitted, the value is the same as the top-left value.
-|Import_Notes====Animation Compability===
-The border-radius property can be animated/transitioned in Firefox, Webkit and Opera. It does not work in IE. See this demo for a keyframe animation and a transition: http://jsfiddle.net/FPnV6/1/
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -144,7 +142,10 @@ The border-radius property can be animated/transitioned in Firefox, Webkit and O
 |Safari_mobile_prefixed_supported=No
 |Safari_mobile_prefixed_version=
 }}
-|Notes_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Internet Explorer
+|Note=The border-radius property can't be animated/transitioned in IE. See this demo for a keyframe animation and a transition: http://jsfiddle.net/FPnV6/1/
+}}
 }}
 {{See_Also_Section
 |Topic_clusters=Border
