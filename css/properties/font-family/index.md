@@ -28,30 +28,12 @@
 |Language=CSS
 |Code=h1 { font-family: Helvetica, Arial, sans-serif; }
 p { font-family: Courier, "Times New Roman", serif; }
-}}{{Single Example
-|Code=<!doctype html>
-<html lang="en-US">
-	<head>
-		<meta charset="utf-8" />
-		<title>Example hover change font-family</title>
-		<style>
-			a { font-family: Courier, serif; display: block; }
-			a:hover { font-family: Arial, sans-serif }
-		</style>
-	</head>
-	<body>
-		<p><a href="#">Hover over this link to see the font-family change from Courier to Arial.</a></p>
-	</body>
-</html>
-|LiveURL=http://dabblet.com/gist/4739756
 }}
 }}
 {{Notes_Section
 |Usage=Things to note:
 * If the font family name contains white space, it should appear in single or double quotation marks.
 * Generic font family names are values (keywords) and cannot appear in quotation marks.
-
-
 |Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 5.2.2
 }}
