@@ -27,20 +27,9 @@
 |Description=The following examples use the '''list-style-position''' attribute and the '''list-style-position''' property to set the position for markers.
 
 This example uses '''ul''' and <code>UL.compact</code> as selectors in an embedded (global) style sheet to set the position of the list-item markers.
-|Code=&lt;STYLE&gt;
-    UL	{ list-style-position:inside }
-    UL.compact { list-style-position:outside }
-&lt;/STYLE&gt;
-&lt;/HEAD&gt;
-&lt;BODY&gt;
-&lt;UL&gt;
-    &lt;LI&gt;... 
-    &lt;LI&gt;... 
-&lt;/UL&gt;
-&lt;UL CLASS{{=}}compact&gt;
-    &lt;LI&gt;... 
-    &lt;LI&gt;...
-&lt;/UL&gt;
+|Code=UL	{ list-style-position:inside }
+UL.compact { list-style-position:outside }
+
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/list-style-position.htm
 }}{{Single Example
 |Description=This example uses inline scripting to change the marker position when an [[dom/events/mouseover|'''onmouseover''']] event occurs.
