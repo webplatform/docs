@@ -45,7 +45,7 @@ Check out the Examples.
 }}{{Single Example
 |Description=The following Example shows the standard cursors. Just hover over the boxes and you see the cursors.
 |Code=
-				<div style="overflow: hidden;">
+		<div style="overflow: hidden;">
 		<h3>General</h3>
 		<div style="overflow: hidden;">
 		<div style="width: 25%; text-align: center; margin-right: 2%; float: left; background: #f4f5f7; cursor: auto; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: auto;</div>
@@ -57,7 +57,7 @@ Check out the Examples.
 		<div style="width: 25%; text-align: center; margin-right: 2%; float: left; background: #f4f5f7; cursor: help; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: help;</div>
 		<div style="width: 25%; text-align: center; margin-right: 2%; float: left; background: #ffffff; cursor: pointer; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: pointer;</div>
 		<div style="width: 25%; text-align: center; margin-right: 2%; float: left; background: #f4f5f7; cursor: progress; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: progress;</div>
-		<div style="width: 25%; text-align: center; margin-right: 2%; float: left; background: #fffffff; cursor: wait; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: wait;</div></div>
+		<div style="width: 25%; text-align: center; margin-right: 2%; float: left; background: #ffffff; cursor: wait; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: wait;</div></div>
 		<h3>Selection</h3>
 		<div style="overflow: hidden;"><div style="width: 25%; text-align: center; margin-right: 2%; float: left; background: #f4f5f7; cursor: cell; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: cell;</div>
 		<div style="width: 25%; text-align: center; margin-right: 2%; float: left; background: #ffffff; cursor: crosshair; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: crosshair;</div>
@@ -87,9 +87,14 @@ Check out the Examples.
 		<div style="width: 25%; text-align: center; margin-right: 2%; float: left; background: #ffffff; cursor: ew-resize; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: ew-resize;</div>
 		<div style="width: 25%; text-align: center; margin-right: 2%; float: left; background: #f4f5f7; cursor: ns-resize; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: ns-resize;</div>
 		<div style="width: 25%; text-align: center; margin-right: 2%; float: left; background: #ffffff; cursor: nesw-resize; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: nesw-resize;</div>
-		<div style="width: 25%; text-align: center; margin-right: 2%; float: left; background: #f4f5f7; cursor: nwse-resize; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: nwse-resize;</div></div>
+		<div style="width: 25%; text-align: center; margin-right: 2%; float: left; background: #f4f5f7; cursor: nwse-resize; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: nwse-resize;</div>
+		</div>
+		<h3>Mozilla extensions</h3>
+		<div style="overflow: hidden;">
+		<div style="width: 25%; text-align: center; margin-right: 2%; float: left; background: #ffffff; cursor: -moz-grab; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: -moz-grab;</div>
+		<div style="width: 25%; text-align: center; margin-right: 2%; float: left; background: #f4f5f7; cursor: -moz-grabbing; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: -moz-grabbing;</div>
+		</div>
 	</div>
-
 
 |LiveURL=
 }}
