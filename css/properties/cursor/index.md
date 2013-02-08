@@ -131,12 +131,10 @@ Cursors have been the subject of security bulletins and updates.  If your custom
 |Safari_prefixed_version=
 }}
 |Mobile_rows=
-|Notes_rows={{Compatibility Notes Row
-|Browser=All Mobile Browsers
-|Version=all
-|Note=not supported
+|Notes_rows=
 }}
-}}
+==Mobile Browsers==
+Mobile Browsers are not supported!
 {{See_Also_Section
 |Topic_clusters=Visual Effects
 |Manual_sections====Related pages (MSDN)===
