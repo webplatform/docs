@@ -4,7 +4,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|The text-rendering CSS property provides information to the browser about how optimize when rendering text. Options are: legibility, speed or geometric precision.}}
+{{Summary_Section|The text-rendering CSS property provides information to the browser about how to optimize when rendering text. Options are: legibility, speed or geometric precision.}}
 {{CSS Property
 |Initial value=auto
 |Applies to=text elements
