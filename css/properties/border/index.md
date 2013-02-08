@@ -51,15 +51,12 @@ This example uses a call to an embedded (global) style sheet to modify the '''bo
 }}
 {{Notes_Section
 |Notes====Remarks===
-The '''border''' property is a composite property that sets the '''width''', '''style''', and '''color''' values for all four sides of an object.
-You must specify a '''style''' when specifying a '''width''' or '''color'''; otherwise, the border does not render.
-All individual border properties not set by the composite border property are set to their default values. For example, the default value for '''width''' is '''medium'''.
-The setting '''border'''{{=}}'''thin''' is identical to '''border'''{{=}}'''thin''' '''none'''; the default value for the border color is the same as the text color if one is not initially set. So, not only does the property set '''width''' to '''thin''', it also clears any '''style''' or '''color''' values previously set.
-Setting a border to zero or omitting the attribute causes no border to be displayed. Supplying the border attribute without a value defaults to a single border.
-If a '''color''' is not specified, the text color is used.
-For more information about supported colors, see the Color Table.
-The '''border''' property also applies to '''input'''; however, it has no actual function in Windows Internet Explorer, and '''border''' has been deprecated in favor of the appropriate CSS markup (see [http://go.microsoft.com/fwlink/p/?linkid{{=}}203728 Cascading Style Sheets (CSS)]).
-As of Microsoft Internet Explorer 5.5, this property applies to inline elements.  With earlier versions of  Windows Internet Explorer, inline elements must have an '''absolute''' [[css/properties/position|'''position''']] or layout to use this property. Element layout is set by providing a value for the [[css/properties/height|'''height''']] property or the [[css/properties/width|'''width''']] property.
+The <tt>border</tt> property is a shorthand property that sets the '''width''', '''style''', and '''color''' values for all four sides of an object. All individual border properties, that are not set by the composite border property are set to their default values. 
+
+The default value for the '''border color''' is the same as the text color; for width is <tt>medium</tt>; and for style is <tt>none</tt>. Therefor you must specify a style when specifying a width or color; otherwise, the border will be invisible.
+
+By setting <tt>border</tt>, all other border properties are set to their default values; e.g. the value of border-image is reset to default value none. 
+
 }}
 {{Related_Specifications_Section
 |Specifications=
