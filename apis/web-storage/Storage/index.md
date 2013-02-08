@@ -17,6 +17,7 @@ sessionStorage['myKey'] {{=}} '...';
 	
 sessionStorage.myKey {{=}} '...';
 }}{{Single Example
+|Language=HTML
 |Code=<!DOCTYPE html>
 <html>
   <head>
@@ -101,7 +102,7 @@ sessionStorage.myKey {{=}} '...';
 }}{{Single Example
 |Language=JavaScript
 |Description=Javascript part
-|Code=  // Generate the little markup from javascript
+|Code=// Generate the little markup from javascript
       document.querySelector('#content').innerHTML =
           '<p><em>Save text locally (it will still be available after restarting your browser)</em></p>';
       var area = document.createElement('textarea');
