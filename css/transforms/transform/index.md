@@ -15,8 +15,8 @@
 |Computed value=?
 |Animatable=Yes in some browsers
 |Values={{CSS Property Value
-|Data Type=scale
-|Description=}}
+|Data Type=none
+|Description=Specifies that no transform should be applied.}}
 }}
 {{API_Object_Property
 |Property_applies_to=cssom
