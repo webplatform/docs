@@ -5,8 +5,18 @@
 {{Summary_Section|The Geolocation object is used by scripts to programmatically determine the location information associated with the hosting device. The location information is acquired by applying a user-agent specific algorithm, creating a '''Position''' object, and populating that object with appropriate data accordingly.}}
 {{API_Object}}
 {{Examples_Section
-|Not_required=Yes
-|Examples=
+|Not_required=No
+|Examples={{Single Example
+|Language=JavaScript
+|Description=The geolocation API is published through a geolocation child object within the navigator object.  If the object exists, geolocation services are available. 
+|Code=if ("geolocation" in navigator) {
+  /* geolocation is available */
+  alert("Geolocation services are supported by your browser.");
+} else {
+ /* geolocation is not available */ 
+  alert("I'm sorry, but geolocation services are not supported by your browser.");
+}
+}}
 }}
 {{Notes_Section
 |Notes=Windows Internet Explorer 9.  The '''Geolocation''' object is only supported for webpages displayed in IE9 Standards mode. For more information, see Defining Document Compatibility.
