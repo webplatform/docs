@@ -145,8 +145,8 @@ Cursors have been the subject of security bulletins and updates.  If your custom
 |Firefox_prefixed_version=
 |Internet_explorer_supported=Yes
 |Internet_explorer_version=4.0
-|Internet_explorer_prefixed_supported=Yes
-|Internet_explorer_prefixed_version=4.0
+|Internet_explorer_prefixed_supported=No
+|Internet_explorer_prefixed_version=
 |Opera_supported=No
 |Opera_version=
 |Opera_prefixed_supported=No
