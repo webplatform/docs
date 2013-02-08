@@ -171,8 +171,8 @@ The '''border-radius''' property is a composite property that specifies up to fo
 |Android_prefixed_version=2.1
 |Blackberry_supported=Yes
 |Blackberry_version=7.0
-|Blackberry_prefixed_supported=Yes
-|Blackberry_prefixed_version=7.0
+|Blackberry_prefixed_supported=Unknown
+|Blackberry_prefixed_version=
 |Chrome_mobile_supported=Yes
 |Chrome_mobile_version=18.0
 |Chrome_mobile_prefixed_supported=No
