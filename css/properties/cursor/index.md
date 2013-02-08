@@ -18,7 +18,7 @@
 }}
 
 <div style="height: 20px; width: 100px; background: rgba(0, 0, 0, 0.6); color: #fff; text-align: center;">
-        	cursor: help;
+        	cursor: help/;
 </div>
 
 {{Examples_Section
