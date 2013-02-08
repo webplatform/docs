@@ -157,10 +157,10 @@ The '''border-radius''' property is a composite property that specifies up to fo
 *<code>[[dom/defaultSelected|defaults]]</code>
 *<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
 *<code>Reference</code>
-*<code>[[css/properties/border-top-right-radius|border-top-right-radius]]</code>
-*<code>[[css/properties/border-bottom-left-radius|border-bottom-left-radius]]</code>
-*<code>[[css/properties/border-bottom-right-radius|border-bottom-right-radius]]</code>
 *<code>[[css/properties/border-top-left-radius|border-top-left-radius]]</code>
+*<code>[[css/properties/border-top-right-radius|border-top-right-radius]]</code>
+*<code>[[css/properties/border-bottom-right-radius|border-bottom-right-radius]]</code>
+*<code>[[css/properties/border-bottom-left-radius|border-bottom-left-radius]]</code>
 }}
 {{Topics|CSS}}
 {{External_Attribution
