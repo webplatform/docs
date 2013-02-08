@@ -62,7 +62,7 @@ The '''border-top-right-radius''' property specifies the horizontal and vertical
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MDN, MSDN
-|MDN_link=[https://developer.mozilla.org/es/docs/CSS/border-top-right-radius]
+|MDN_link=[https://developer.mozilla.org/es/docs/CSS/border-top-right-radius Border-top-right-radius]
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
