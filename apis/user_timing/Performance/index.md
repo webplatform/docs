@@ -10,14 +10,8 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
-|Code= <!doctype html>
-    <html>
-      <head>
-        <title>User Timing example</title>
-      </head>
-      <body onload="init()">
-        <script>
-           function init() 
+|Description=The following script shows how a developer can use the interfaces defined in this document to obtain timing data related to developer scripts.
+|Code=function init() 
            {
                 performance.mark("startTask1");
                 doTask1(); // Some developer code
@@ -41,9 +35,8 @@
                                                      " Duration: "   + perfEntries[i].duration  + "\n");
                }
            }
-        </script>
-      </body>
-    </html>
+
+window.addEventListener('load', init, false);
 }}
 }}
 {{Notes_Section}}
