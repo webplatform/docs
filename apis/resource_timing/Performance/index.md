@@ -9,28 +9,33 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=The following JavaScript shows a simple attempt to measure the time it takes to fetch a resource:
+|Description=The following script calculates the amount of time it takes to fetch every resource in the page, even those defined in markup:
 |Code=<!doctype html>
 <html>
   <head>
   </head>
   <body onload="loadResources()">
     <script>
-        function loadResources() 
-        {
-           var start = new Date().getTime();
-           var image1 = new Image();
-           image1.src = 'http://w3c-test.org/webperf/image1.png';
-           image1.onload = resourceTiming;
-
-           var resourceTiming = function() {
-               var now = new Date().getTime();
-               var latency = now - start;
-               alert("End to end resource fetch: " + latency);
-           };
-        } 
+       function loadResources() 
+       {
+          var image1 = new Image();
+          image1.src = 'http://w3c-test.org/webperf/image1.png';
+          image1.onload = resourceTiming;
+       }
+       
+       function resourceTiming() 
+       {
+           var resourceList = window.performance.getEntriesByType("resource");
+           for (i = 0; i < resourceList.length; i++)
+           {
+              if (resourceList[i].initiatorType == "img") 
+              {
+                 alert("End to end resource fetch: "+ resourceList[i].responseEnd - resourceList[i].startTime);
+              }
+           }
+       }
     </script>
-    <img src="http://w3c-test.org/webperf/image0.png">
+    <img id="image0" src="http://w3c-test.org/webperf/image0.png">
   </body>
 </html>
 }}
