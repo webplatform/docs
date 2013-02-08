@@ -1,4 +1,6 @@
-=At-a-glance list of what is doing what CSS property page=
+=At-a-glance list of what is doing what: CSS property page project=
+
+CSS properties
 
 * cursor - kevin
 * font - vivienne
@@ -26,6 +28,8 @@
 * display: flex - rod
 * flex-* - rod
 * flex-direction - rod - FINISHED, NEEDS REVIEW
+
+Other activity
 
 * Polyfill examples, filters, older browser support - christian (need examples on property pages, plus a separate polyfill section)**********
 * media queries pages - sven 
