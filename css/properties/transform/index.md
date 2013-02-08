@@ -1,5 +1,8 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|High-level issues=Merge Candidate
+|Editorial notes={{Editoral/Merge_Candidate|Other=http://docs.webplatform.org/wiki/css/transforms/transform}}
+}}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section}}
