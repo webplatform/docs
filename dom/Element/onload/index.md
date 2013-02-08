@@ -4,7 +4,7 @@
 }}
 {{Standardization_Status|}}
 {{API_Name}}
-{{Event
+{{API_Object_Property
 |Interface=apis/file/MSStream
 |Target=dom/Element
 |Default_action=
