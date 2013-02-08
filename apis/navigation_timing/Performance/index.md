@@ -8,11 +8,20 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
-|Code=function onLoad() { 
+|Code=<html>
+<head>
+<script type="text/javascript">
+function onLoad() {
   var now = new Date().getTime();
   var page_load_time = now - performance.timing.navigationStart;
-  console.log("User-perceived page loading time: " + page_load_time);
+  alert("User-perceived page loading time: " + page_load_time);
 }
+</script>
+</head>
+<body onload="onLoad()">
+<!- Main page body goes from here. -->
+</body>
+</html>
 }}
 }}
 {{Notes_Section}}
