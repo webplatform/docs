@@ -1,15 +1,22 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Merge Candidate
-|Editorial notes={{Editoral/Merge_Candidate|Other=http://docs.webplatform.org/wiki/css/transforms/transform}}
+
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The CSS transform property lets you modify the coordinate space of the CSS visual formatting model. Using it, elements can be translated, rotated, scaled, and skewed according to the values set.
+
+If the property has a value different than none, a stacking context will be created. In that case the object will act as a containing block for position: fixed elements that it contains.}}
 {{CSS Property
+|Initial value=non
+|Applies to=any transformable element
 |Inherited=No
-|Animatable=No
-|Values=
+|Media=visual
+|Computed value=?
+|Animatable=Yes in some browsers
+|Values={{CSS Property Value
+|Data Type=none
+|Description=Specifies that no transform should be applied.}}
 }}
 {{Examples_Section
 |Not_required=No
