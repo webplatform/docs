@@ -158,7 +158,7 @@ The '''border-bottom-right-radius''' property specifies the horizontal and verti
 |Notes_rows={{Compatibility Notes Row
 |Browser=Internet Explorer
 |Version=9.0
-|Note=The border-bottom-right-radius property can't be animated/transitioned in IE. See this demo for a keyframe animation and a transition: http://jsfiddle.net/FPnV6/1/
+|Note=The border-bottom-right-radius property can't be animated/transitioned in IE.
 }}
 }}
 {{See_Also_Section
