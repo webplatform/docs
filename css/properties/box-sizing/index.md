@@ -31,9 +31,9 @@ The width and height of the content are calculated by substracting padding and b
 |Examples={{Single Example
 |Language=HTML
 |Description=For the following example we assume Markup that looks like this
-|Code=<div class="parent">
-	<div class="child"></div>
-</div>
+|Code=&lt;div class="parent"&gt;
+	&lt;div class="child"&gt;&lt;/div&gt;
+&lt;/div&gt;
 }}{{Single Example
 |Language=CSS
 |Description=An element with padding that adapts half the width of its parent.
