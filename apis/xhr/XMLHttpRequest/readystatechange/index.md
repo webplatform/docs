@@ -1,13 +1,10 @@
 {{Page_Title}}
-{{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
-}}
-{{Standardization_Status}}
+{{Flags}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Fires whenever the readyState of the request changes, mostly used to determine whether the body of the response is available for handling.}}
+{{Summary_Section|Fires whenever the readyState of the request changes. Mostly used to determine whether the body of the response is available for handling.}}
 {{Event
-|Event_applies_to=apis/xhr/objects/XMLHttpRequest
+|Event_applies_to=apis/xhr/XMLHttpRequest
 |Interface=dom/objects/Event
 |Target=apis/xhr/objects/XMLHttpRequest
 |Default_action=
@@ -38,24 +35,25 @@ xhr.send();
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=W3C XMLHttpRequest Specification
+|URL=http://www.w3.org/TR/XMLHttpRequest/
+|Status=W3C Working Draft
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*[[apis/xhr/objects/XMLHttpRequest]]
-*[[apis/xhr/properties/readyState]]
-}}
-{{Topics}}
+{{See_Also_Section}}
+{{Topics|XHR}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
 |MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
 |HTML5Rocks_link=
 }}
