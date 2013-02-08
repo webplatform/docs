@@ -13,7 +13,7 @@
 |Animatable=No
 |Values={{CSS Property Value
 |Data Type=width
-|Description=Any of the range of width values available to the [[css/properties/border-width|'''border-width''']] property.
+|Description=Any of the range of width values available to the [[css/properties/border-width|'''border-width''']] property. Default value <pre>medium</pre>.
 }}{{CSS Property Value
 |Data Type=style
 |Description=Any of the range of style values available to the [[css/properties/border-style|'''border-style''']] property.
@@ -70,6 +70,7 @@ As of Microsoft Internet Explorer 5.5, this property applies to inline elements
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
 |Chrome_version=1.0
