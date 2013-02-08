@@ -94,14 +94,14 @@ This example uses '''ul''' as a selector in an embedded (global) style sheet to 
 }}
 }}
 {{Notes_Section
-|Notes====Remarks===
-The '''list-style-type''' property determines the appearance of the list-item marker if the value of the [[css/properties/list-style-image|'''list-style-image''']] attribute is set to '''none''', or if the image pointed to by the URL cannot be displayed.
-The '''list-style-type''' property can be applied to any element when [[css/properties/margin|'''margin''']] and [[css/properties/display|'''display''']]:'''list-item''' are applied. The [[css/properties/display|'''display''']]:'''list-item''' property is available starting with Microsoft Internet Explorer 6.
-If the left margin of a line item is set to 0 using one of the [[css/properties/margin|'''margin''']] properties, the list-item markers do not show. The margin should be set to a minimum of 30 points.
+|Notes====Notes===
+*The color of the marker will be the same as the computed color of the element it applies to.
 
+*Some list-style-types require a suitable font installed to display as expected.
 
-|Import_Notes====Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 5.6.3
+*The CSS specification does not define how alphabetic systems wrap at the end of the alphabet. For instance, after 26 list items, upper-alpha rendering is undefined. Firefox and other browsers will continue as AA, AB, AC,... For long lists, it is recommended that authors specify true numbers.
+
+*The list styles hebrew, cjk-ideographs, hiragana, katakana, hiragana-iroha and katakana-iroha are specified in CSS2 and removed from CSS 2.1 due to lack of implementation experience. They are expected to return in the CSS3 Lists module.
 }}
 {{Related_Specifications_Section
 |Specifications=
@@ -157,8 +157,8 @@ If the left margin of a line item is set to 0 using one of the [[css/properties/
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
+|Sources=MDN, MSDN
+|MDN_link=https://developer.mozilla.org/en-US/docs/CSS/list-style-type
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
