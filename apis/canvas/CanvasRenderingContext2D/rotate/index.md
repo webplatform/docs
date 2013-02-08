@@ -19,8 +19,49 @@
 If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRESULT''' error code.
 }}
 {{Examples_Section
-|Not_required=Yes
-|Examples=
+|Not_required=No
+|Examples={{Single Example
+|Language=JavaScript
+|Description=This basic example draws two rects, the second rotated 45°
+|Code=ctx.translate(120,120);
+ctx.fillStyle = "lime";
+ctx.fillRect(0,0,100,100);
+ctx.rotate(45);	// draws the second rect 45° rotated
+ctx.fillStyle = "rgba(255,0,0,0.5)";
+ctx.fillRect(0,0,100,100);
+}}{{Single Example
+|Language=HTML
+|Description=This full example draws two rects, the second rotated 45°
+|Code=<!DOCTYPE html>
+<html>
+<head>
+  <title>Canvas Example</title>
+  <script>
+    function draw() {
+      var canvas = document.getElementById("MyCanvas");
+      if (canvas.getContext) {  // check for support
+        var ctx = canvas.getContext("2d"); 
+        
+        // clear background
+        ctx.fillStyle = 'black';
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+        
+        ctx.translate(120,120);
+        ctx.fillStyle = "lime";
+        ctx.fillRect(0,0,100,100);
+        ctx.rotate(45);	// draws the second rect 45° rotated
+        ctx.fillStyle = "rgba(255,0,0,0.5)";
+        ctx.fillRect(0,0,100,100);
+        
+      }
+    }        
+  </script>
+</head>
+<body onload="draw();">
+  <canvas id="MyCanvas" width="600" height="500">This browser or document mode doesn't support canvas</canvas>
+</body>
+</html>
+}}
 }}
 {{Notes_Section
 |Notes=Rotation is based on the current origin.
