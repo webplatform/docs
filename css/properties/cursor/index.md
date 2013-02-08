@@ -25,6 +25,7 @@
 This example uses a call to an embedded (global) style sheet to set the cursor to '''hand''' as the cursor passes over all paragraphs.
 
 <span>Hallo</span>
+<div>Hallo</div>
 
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/cursor_h.htm
 }}{{Single Example
