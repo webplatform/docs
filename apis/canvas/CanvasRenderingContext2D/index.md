@@ -11,6 +11,9 @@
 |Description=To get this object, call getContext() on a <canvas>, supplying "2d" as the argument:
 |Code=var canvas = document.getElementById('MyCanvas');
 var ctx = canvas.getContext('2d');
+// draw a green rect
+ctx.fillStyle = "lime";
+ctx.drawRect(10, 10, 100, 100);
 }}
 }}
 {{Notes_Section}}
