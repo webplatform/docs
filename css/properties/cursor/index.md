@@ -34,7 +34,7 @@ Check out the Examples.
 |Examples={{Single Example
 |Description=The following Example shows the standard cursors. Just hover over the boxes and you see the cursors.
 
-		<div style="overflow: hidden;">
+				<div style="overflow: hidden;">
 		<h3>General</h3>
 		<div style="overflow: hidden;">
 		<div style="width: 25%; text-align: center; margin-right: 2%; float: left; background: #f4f5f7; cursor: auto; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: auto;</div>
@@ -63,7 +63,7 @@ Check out the Examples.
 		<div style="overflow: hidden;">
 		<div style="width: 25%; text-align: center; margin-right: 2%; float: left; background: #ffffff; cursor: all-scroll; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: all-scroll;</div>
 		<div style="width: 25%; text-align: center; margin-right: 2%; float: left; background: #f4f5f7; cursor: col-resize; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: col-resize;</div>
-		<div style="width: 25%; text-align: center; margin-right: 2%; float: left; background: #fffffff; cursor: row-resize; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: row-resize;</div>
+		<div style="width: 25%; text-align: center; margin-right: 2%; float: left; background: #ffffff; cursor: row-resize; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: row-resize;</div>
 		<div style="width: 25%; text-align: center; margin-right: 2%; float: left; background: #f4f5f7; cursor: n-resize; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: n-resize;</div>
 		<div style="width: 25%; text-align: center; margin-right: 2%; float: left; background: #ffffff; cursor: e-resize; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: e-resize;</div>
 		<div style="width: 25%; text-align: center; margin-right: 2%; float: left; background: #f4f5f7; cursor: s-resize; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: s-resize;</div>
