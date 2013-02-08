@@ -1,29 +1,38 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{CSS_Function
-|Content=
+{{Summary_Section}}
+{{CSS_Function}}
+{{Examples_Section
+|Not_required=No
+|Examples=
 }}
-{{Topics|CSS}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 The version of this property using a vendor prefix, '''-ms-transition-timing-function''', has been deprecated. To ensure compatibility in the future, applications using this property with a vendor prefix should be updated accordingly.
 Values are rounded up to the second decimal place.
-|Import_Notes=
-===Syntax===
+|Import_Notes====Syntax===
 <code>'''transition-timing-function: '''cubic-bezier '''{{!}}''' ease '''{{!}}''' linear '''{{!}}''' ease-in '''{{!}}''' ease-out '''{{!}}''' ease-in-out '''{{!}}''' steps '''{{!}}''' step-start '''{{!}}''' step-end '''[''' ,  cubic-bezier '''{{!}}''' ease '''{{!}}''' linear '''{{!}}''' ease-in '''{{!}}''' ease-out '''{{!}}''' ease-in-out '''{{!}}''' steps '''{{!}}''' step-start '''{{!}}''' step-end ''']''' *</code>
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}223140 CSS Transitions Module Level 3], Section 2.3
-
-
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Topic_clusters=Transistions
+|Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
 *<code>[[css/cssom/style|style]]</code>
@@ -82,12 +91,12 @@ Values are rounded up to the second decimal place.
 *<code>map</code>
 *<code>object</code>
 *<code>script</code>
-|Topic_clusters=Transistions
 }}
+{{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
