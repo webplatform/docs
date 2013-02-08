@@ -49,21 +49,36 @@ This example uses '''p''' and '''blockquote''' as selectors in an embedded (glob
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/lineHeight.htm
 }}{{Single Example
 |Language=Other
-|Description=When using a <length> value for <line-height> you can get unexpected results. This is why it is best to use unitless values.
+|Description=You can get unexpected results when using a <length> value for <line-height>. This is why it is best to use unitless values.
 
 Here is a example of what can happen when using <lenght>:
 
-[[File:lineheight-1.png]] 
+[[File:lineheight-1.png]]
 |Code=<style>
        .red   { font-size: 15px;  line-height: 1.1em;  border: solid red; }
       h1     { font-size: 30px; }
       div    { width: 19em;  display: inline-block; }
 </style>
 
-<div class=red>
+<div class="red">
  <h1>Avoid unexpected results by using unitless line-height</h1>
   length and percentage line-heights have poor inheritance behavior ...
 </div>
+|LiveURL=https://developer.mozilla.org/en-US/docs/CSS/line-height#Avoid_unexpected_results.2C_use_unitless_line-height!
+}}{{Single Example
+|Language=Other
+|Description=Here is an example of how you can re-write the same code to avoid this trap. Notice that <line-height> value is set to 1.1 instead of 1.1em in .green CSS class.
+
+[[File:lineheight-2.png]]
+|Code=<style>
+       .green   { font-size: 15px;  line-height: 1.1;  border: solid limegreen; }
+      h1     { font-size: 30px; }
+      div    { width: 19em;  display: inline-block; }
+</style>
+
+<div class="green">
+ <h1>Avoid unexpected results by using unitless line-height</h1>
+|LiveURL=https://developer.mozilla.org/en-US/docs/CSS/line-height#Avoid_unexpected_results.2C_use_unitless_line-height!
 }}
 }}
 {{Notes_Section
