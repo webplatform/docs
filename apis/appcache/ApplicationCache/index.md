@@ -2,21 +2,32 @@
 {{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Tells a browser to cache any downloaded resource (HTML, CSS, JS, images, etc…) for set amount of time. The possible benefits are faster page loads and offline viewing.}}
+{{Summary_Section|The '''Application Cache''' (AppCache) lets web-based applications run offline. Developers can  specify resources that the browser should cache and make available to offline users. They load and work correctly even if users click the refresh button when they are offline.
+
+Using an application cache gives an application the following benefits:
+
+* Offline browsing: users can navigate a site even when they are offline.
+* Speed: cached resources are local, and therefore load faster.
+* Reduced server load: the browser only downloads resources that have changed from the server.
+}}
 {{API_Object}}
 {{Examples_Section
 |Not_required=Yes
 |Examples=
 }}
 {{Notes_Section
-|Notes=In order to cache files, you must do the following:
+|Usage=In order to cache files, you must do the following:
 *Create a manifest file that lists the files and other web resources you want to cache.
 *Reference the manifest file in the header of every page you want cached.
 
+=== The manifest file ===
 The manifest file  defines which web resources are cached when a user browses to your site. The manifest file typically has the extension '''.appcache''' or '''.manifest'''. Each webpage must add a manifest attribute to the HTML element similar to this:
- <code>&lt;html manifest{{=}}"clock.appcache"&gt;</code>
+
+<code>&lt;html manifest{{=}}"example.appcache"&gt;</code>
+
 You can use an absolute or relative URL. The cache manifest file lists the files that will be cached, using the format:
- <code>CACHE MANIFEST
+
+<code>CACHE MANIFEST
  #Version 1
  
  CACHE:
@@ -35,13 +46,15 @@ You can use an absolute or relative URL. The cache manifest file lists the files
  #This will prevent other network resources from being accessed.
  images/imagename5.png
  
- </code>
+</code>
+
 The first line of the manifest must read CACHE MANIFEST and the lines that follow it list the web resources you want to cache. You can use the # symbol to make comments.
+
 Alternatively, web resources that need to be cached can be specified by adding a “CACHE:” header section before the resources (as shown previously).
-In addition, fallback resources can be defined to replace general or specific web resources when there is no network connectivity.  This is done by adding a “FALLBACK:” header section before the resources.  These resources can be wildcard to specify a catch all mechanism (as shown previously). Be aware  that there is a space after the first "images/" in the FALLBACK: section. This indicates that any files contained under the "images/" directory will fall back to a specific web resource (for example, images/imagename4.png) if they cannot be accessed from the network.
+In addition, fallback resources can be defined to replace general or specific web resources when there is no network connectivity. This is done by adding a “FALLBACK:” header section before the resources.  These resources can be wildcard to specify a catch all mechanism (as shown previously). Be aware  that there is a space after the first "images/" in the FALLBACK: section. This indicates that any files contained under the "images/" directory will fall back to a specific web resource (for example, images/imagename4.png) if they cannot be accessed from the network.
 Also, web resources can be specified to only be loaded from the network. This is done by adding a "NETWORK: " header section before the resources.  This functionality can be used to scope down the number of resources that can be accessed from the network, thus, creating an allowed only list (as shown previously).
 
-'''ApplicationCache'''  functionality is independent of HTTP caching headers.
+'''ApplicationCache''' functionality is independent of HTTP caching headers.
 The manifest file implicitly includes itself as a page to be cached. It also needs to have the same domain of origin as the page that contains it.
 }}
 {{Related_Specifications_Section
@@ -118,8 +131,8 @@ The manifest file implicitly includes itself as a page to be cached. It also nee
 {{Topics|Appcache, Connectivity, DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
+|Sources=MDN, MSDN
+|MDN_link=https://developer.mozilla.org/en-US/docs/HTML/Using_the_application_cache
 |MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx
 |HTML5Rocks_link=
 }}
