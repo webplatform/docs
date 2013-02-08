@@ -8,14 +8,18 @@
 *Personas
 *Empanthy map
 *Stakeholder map
-*UX map
+*User eXperience map
+*Journey map
 
 ===Scoping and Initial Design===
-*Collaborative design sessions
+*Collaborative design sessions (Inception deck)
 *Storyboard
 *Sketchboard
 *Flow diagram
-*Story mapping
+*Elevator pitch
+*Stories
+*Rich Visual Backlog
+*Behavior driven development
 
 ===Prototyping===
 *Sketches
@@ -25,7 +29,7 @@
 *Functional Prototype
 
 ===Development===
-*Wireframes
+*Just-in-time design
 
 ===Testing===
 *Quantitative Usability Testing
