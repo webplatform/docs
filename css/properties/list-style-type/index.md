@@ -11,6 +11,7 @@
 |Applies to=elements with 'display: list-item'
 |Inherited=Yes
 |Media=visual
+|Computed value=as specified
 |Animatable=No
 |Values={{CSS Property Value
 |Data Type=armenian
@@ -18,9 +19,6 @@
 }}{{CSS Property Value
 |Data Type=circle
 |Description=circle
-}}{{CSS Property Value
-|Data Type=cjk-ideographic
-|Description=plain ideographic numbers
 }}{{CSS Property Value
 |Data Type=decimal
 |Description=number. This is default for &lt;ol&gt;
@@ -34,23 +32,8 @@
 |Data Type=georgian
 |Description=traditional Georgian numbering
 }}{{CSS Property Value
-|Data Type=hebrew
-|Description=The marker is traditional Hebrew numbering
-}}{{CSS Property Value
-|Data Type=hiragana
-|Description=traditional Hiragana numbering
-}}{{CSS Property Value
-|Data Type=hiragana-iroha
-|Description=traditional Hiragana iroha numbering
-}}{{CSS Property Value
 |Data Type=inherit
 |Description=The value of the listStyleType property is inherited from parent element
-}}{{CSS Property Value
-|Data Type=katakana
-|Description=traditional Katakana numbering
-}}{{CSS Property Value
-|Data Type=katakana-iroha
-|Description=traditional Katakana iroha numbering
 }}{{CSS Property Value
 |Data Type=lower-alpha
 |Description=lower-alpha (a, b, c, d, e, etc.)
@@ -83,6 +66,7 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=CSS
 |Description=The following examples use the '''list-style-type''' attribute and the '''list-style-type''' property to set the markers.
 
 This example uses '''ul''' as a selector in an embedded (global) style sheet to change the marker type to '''circle'''.
@@ -90,10 +74,6 @@ This example uses '''ul''' as a selector in an embedded (global) style sheet to 
     ul { list-style-type:circle }
 &lt;/style&gt;
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/list-style-type.htm
-}}{{Single Example
-|Description=This example uses inline scripting to change the marker type on when an [[dom/events/mouseover|'''onmouseover''']] event occurs.
-|Code=&lt;UL onmouseover{{=}}"this.style.listStyleType{{=}}'circle'"&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/listStyleType.htm
 }}{{Single Example
 |Description=This example demonstrates the newer line-item markers added for Internet Explorer 8.
 |Code=&lt;style type{{=}}"text/css"&gt;
@@ -119,15 +99,8 @@ The '''list-style-type''' property determines the appearance of the list-item ma
 The '''list-style-type''' property can be applied to any element when [[css/properties/margin|'''margin''']] and [[css/properties/display|'''display''']]:'''list-item''' are applied. The [[css/properties/display|'''display''']]:'''list-item''' property is available starting with Microsoft Internet Explorer 6.
 If the left margin of a line item is set to 0 using one of the [[css/properties/margin|'''margin''']] properties, the list-item markers do not show. The margin should be set to a minimum of 30 points.
 
-===Browser Support===
-The list-style-type property is supported in all major browsers.
 
-Note: IE9 and Opera 11 do not support: cjk-ideographic, hebrew, hiragana, hiragana-iroha, katakana, and katakana-iroha.
-
-Note: IE8, and earlier, only support the property values: decimal-leading-zero, lower-greek, lower-latin, upper-latin, armenian, georgian, and inherit if a DOCTYPE is specified!
-|Import_Notes====Syntax===
-<code>'''list-style-type: '''disc '''{{!}}''' circle '''{{!}}''' square '''{{!}}''' decimal '''{{!}}''' decimal-leading-zero '''{{!}}''' lower-roman '''{{!}}''' upper-roman '''{{!}}''' lower-greek '''{{!}}''' lower-latin '''{{!}}''' upper-latin '''{{!}}''' armenian '''{{!}}''' georgian '''{{!}}''' lower-alpha '''{{!}}''' upper-alpha '''{{!}}''' none</code>
-===Standards information===
+|Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 5.6.3
 }}
 {{Related_Specifications_Section
@@ -138,23 +111,40 @@ Note: IE8, and earlier, only support the property values: decimal-leading-zero, 
 |Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
+|Chrome_version=1.0
 |Chrome_prefixed_supported=Unknown
 |Chrome_prefixed_version=
 |Firefox_supported=Yes
+|Firefox_version=1.0
 |Firefox_prefixed_supported=Unknown
 |Firefox_prefixed_version=
 |Internet_explorer_supported=Yes
+|Internet_explorer_version=4.0
 |Internet_explorer_prefixed_supported=Unknown
 |Internet_explorer_prefixed_version=
 |Opera_supported=Yes
+|Opera_version=3.5
 |Opera_prefixed_supported=Unknown
 |Opera_prefixed_version=
 |Safari_supported=Yes
+|Safari_version=1.0 (85)
 |Safari_prefixed_supported=Unknown
 |Safari_prefixed_version=
 }}
 |Mobile_rows=
-|Notes_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=9
+|Note=do not support: cjk-ideographic, hebrew, hiragana, hiragana-iroha, katakana, and katakana-iroha
+}}{{Compatibility Notes Row
+|Browser=Opera
+|Version=11
+|Note=do not support: cjk-ideographic, hebrew, hiragana, hiragana-iroha, katakana, and katakana-iroha
+}}{{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=8, and earlier
+|Note=only support the property values: decimal-leading-zero, lower-greek, lower-latin, upper-latin, armenian, georgian, and inherit if a DOCTYPE is specified.
+}}
 }}
 {{See_Also_Section
 |Topic_clusters=Generated and Replaced Content
