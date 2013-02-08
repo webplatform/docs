@@ -11,44 +11,75 @@
 |Computed value=specific value
 |Animatable=No
 |CSS percentages=N/A
-|Values={{CSS Property Value
-|Data Type=button
-|Data Type=checkbox
-|Data Type=radio
-|Data Type=push-button
-|Data Type=square-button
-|Data Type=button
-|Data Type=button-bevel
-|Data Type=listbox
-|Data Type=listitem
-|Data Type=menulist
-|Data Type=menulist-button
-|Data Type=menulist-text
-|Data Type=menulist-textfield
-|Data Type=scrollbarbutton-up
-|Data Type=scrollbarbutton-down
-|Data Type=scrollbarbutton-left
-|Data Type=scrollbarbutton-right
-|Data Type=scrollbartrack-horizontal
-|Data Type=scrollbartrack-vertical
-|Data Type=scrollbarthumb-horizontal
-|Data Type=scrollbarthumb-vertical
-|Data Type=scrollbargripper-horizontal
-|Data Type=scrollbargripper-vertical
-|Data Type=slider-horizontal
-|Data Type=slider-vertical
-|Data Type=sliderthumb-horizontal
-|Data Type=sliderthumb-vertical
-|Data Type=caret
-|Data Type=searchfield
-|Data Type=searchfield-decoration
-|Data Type=searchfield-results-decoration
-|Data Type=searchfield-results-button
-|Data Type=searchfield-cancel-button
-|Data Type=textfield
-|Data Type=textarea
-}}{{CSS Property Value}}
-}}
+|Values={{CSS Property Value|Data Type=button
+{{CSS Property Value
+|Data Type=checkbox}}
+{{CSS Property Value
+|Data Type=radio}}
+{{CSS Property Value
+|Data Type=push-button}}
+{{CSS Property Value
+|Data Type=square-button}}
+{{CSS Property Value
+|Data Type=button}}
+{{CSS Property Value
+|Data Type=button-bevel}}
+{{CSS Property Value
+|Data Type=listbox}}
+{{CSS Property Value
+|Data Type=listitem}}
+{{CSS Property Value
+|Data Type=menulist}}
+{{CSS Property Value
+|Data Type=menulist-button}}
+{{CSS Property Value
+|Data Type=menulist-text}}
+{{CSS Property Value
+|Data Type=menulist-textfield}}
+{{CSS Property Value
+|Data Type=scrollbarbutton-up}}
+{{CSS Property Value
+|Data Type=scrollbarbutton-down}}
+{{CSS Property Value
+|Data Type=scrollbarbutton-left}}
+{{CSS Property Value
+|Data Type=scrollbarbutton-right}}
+{{CSS Property Value
+|Data Type=scrollbartrack-horizontal}}
+{{CSS Property Value
+|Data Type=scrollbartrack-vertical}}
+{{CSS Property Value
+|Data Type=scrollbarthumb-horizontal}}
+{{CSS Property Value
+|Data Type=scrollbarthumb-vertical}}
+{{CSS Property Value
+|Data Type=scrollbargripper-horizontal}}
+{{CSS Property Value
+|Data Type=scrollbargripper-vertical}}
+{{CSS Property Value
+|Data Type=slider-horizontal}}
+{{CSS Property Value
+|Data Type=slider-vertical}}
+{{CSS Property Value
+|Data Type=sliderthumb-horizontal}}
+{{CSS Property Value
+|Data Type=sliderthumb-vertical}}
+{{CSS Property Value
+|Data Type=caret}}
+{{CSS Property Value
+|Data Type=searchfield}}
+{{CSS Property Value
+|Data Type=searchfield-decoration}}
+{{CSS Property Value
+|Data Type=searchfield-results-decoration}}
+{{CSS Property Value
+|Data Type=searchfield-results-button}}
+{{CSS Property Value
+|Data Type=searchfield-cancel-button}}
+{{CSS Property Value
+|Data Type=textfield}}
+{{CSS Property Value
+|Data Type=textarea}}
 {{Examples_Section
 |Not_required=No
 |Examples=
