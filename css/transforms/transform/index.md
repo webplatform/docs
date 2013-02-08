@@ -14,6 +14,9 @@
 |Media=visual
 |Computed value=?
 |Animatable=Yes in some browsers
+|Values={{CSS Property Value
+|Data Type=scale
+|Description=}}
 }}
 {{API_Object_Property
 |Property_applies_to=cssom
