@@ -7,10 +7,13 @@
 {{API_Name}}
 {{Summary_Section|Defines the shape of the border of the top-right corner.}}
 {{CSS Property
+|Initial value=0
 |Applies to=All elements
 |Inherited=No
 |Media=visual
-|Animatable=No
+|Computed value=two absolute <length> or percentages
+|Animatable=Yes
+|CSS object model property=object.style.borderTopRightRadius
 |Values={{CSS Property Value
 |Data Type=radius
 |Description=A floating-point number, followed by either an absolute units designator
