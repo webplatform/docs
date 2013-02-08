@@ -17,36 +17,35 @@ Using an application cache gives an application the following benefits:
 }}
 {{Notes_Section
 |Usage=In order to cache files, you must do the following:
-*Create a manifest file that lists the files and other web resources you want to cache.
-*Reference the manifest file in the header of every page you want cached.
+* Create a manifest file that lists the files and other web resources you want to cache.
+* Reference the manifest file in the header of every page you want cached.
 
 === The manifest file ===
 The manifest file  defines which web resources are cached when a user browses to your site. The manifest file typically has the extension '''.appcache''' or '''.manifest'''. Each webpage must add a manifest attribute to the HTML element similar to this:
 
-<code>&lt;html manifest{{=}}"example.appcache"&gt;</code>
+<pre><html manifest="example.appcache"></pre>
 
 You can use an absolute or relative URL. The cache manifest file lists the files that will be cached, using the format:
 
-<code>CACHE MANIFEST
- #Version 1
- 
- CACHE:
- script/scriptfilename1.js
- css/cssfilename.css
- images/imagename1.png
- images/imagename2.jpg
- images/imagename3.png
- 
- FALLBACK:
- #This will enable imagename4.png to be as a replacement for 
- #all resources under the images dir when there is no network connectivity.
- images/ images/imagename4.png
- 
- NETWORK:
- #This will prevent other network resources from being accessed.
- images/imagename5.png
- 
-</code>
+<pre>CACHE MANIFEST
+# Version 1
+
+CACHE:
+script/scriptfilename1.js
+css/cssfilename.css
+images/imagename1.png
+images/imagename2.jpg
+images/imagename3.png
+
+FALLBACK:
+# This will enable imagename4.png to be as a replacement for 
+# all resources under the images dir when there is no network connectivity.
+images/ images/imagename4.png
+
+NETWORK:
+# This will prevent other network resources from being accessed.
+images/imagename5.png
+</pre>
 
 The first line of the manifest must read CACHE MANIFEST and the lines that follow it list the web resources you want to cache. You can use the # symbol to make comments.
 
