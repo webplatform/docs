@@ -19,14 +19,21 @@ The main difference and advantage between the two types of libraries is that wit
 |Examples={{Single Example
 |Language=HTML
 |Description=Remy Sharp's [https://gist.github.com/350433 localStorage polyfill]. This simulates the Web Storage API so that (typically older) browsers can successfully execute code that depends on it.
-|Code=<script>
-// if browser doesn't support Web Storage, load the polyfill.
-// The polyfill file being referred to as "localStorage.js" could be this one: 
-// https://gist.github.com/remy/350433
-if (typeof window.localStorage === 'undefined') {
-    document.write('<script src="localStorage.js"><\/script>');
-}
+|Code=<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Polyfilling Web Storage</title>
 <script>
+// if browser doesn't support Web Storage, load the polyfill.
+if (!window.localStorage) {
+	document.write('<script src="localStorage.js"><\/script>');
+}
+</script>
+</head>
+<body>
+</body>
+</html>
 }}
 }}
 {{Notes_Section}}
