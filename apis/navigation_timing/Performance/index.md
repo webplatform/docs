@@ -8,6 +8,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
+|Description=The following script calculates how much time to load a page since the most recent navigation.
 |Code=<html>
 <head>
 <script type="text/javascript">
