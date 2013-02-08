@@ -37,6 +37,7 @@ Check out the Examples.
 This example uses a call to an embedded (global) style sheet to set the cursor to '''hand''' as the cursor passes over all paragraphs.
 
 
+		<div style="clear: both;">
 		General
 		<div style="width: 25%; float: left; background: #f4f5f7; cursor: auto; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: auto;</div>
 		<div style="width: 25%; float: left; background: #ffffff; cursor: default; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: default;</div>
@@ -75,6 +76,7 @@ This example uses a call to an embedded (global) style sheet to set the cursor t
 		<div style="width: 25%; float: left; background: #ffffff; cursor: ns-resize; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: ns-resize;</div>
 		<div style="width: 25%; float: left; background: #f4f5f7; cursor: nesw-resize; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: nesw-resize;</div>
 		<div style="width: 25%; float: left; background: #ffffff; cursor: nwse-resize; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: nwse-resize;</div>
+	</div>
 
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/cursor_h.htm
 }}{{Single Example
