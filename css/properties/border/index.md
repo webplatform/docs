@@ -129,7 +129,7 @@ As of Microsoft Internet Explorer 5.5, this property applies to inline elements
 |Chrome_mobile_prefixed_supported=Unknown
 |Chrome_mobile_prefixed_version=
 |Firefox_mobile_supported=Yes
-|Firefox_mobile_version=1.0 (1.9.2)
+|Firefox_mobile_version=1.0(1.9.2)
 |Firefox_mobile_prefixed_supported=No
 |Firefox_mobile_prefixed_version=
 |IE_mobile_supported=Unknown
