@@ -117,6 +117,10 @@ Values for a single animation are separated by spaces. Multiple animations can b
 |Browser=Internet Explorer
 |Version=10.0
 |Note=The -ms- prefix property is deprecated and should not be used.
+}}{{Compatibility Notes Row
+|Browser=Chrome
+|Version=All so far
+|Note=Chrome currently uses a lot of CPU resources when animations are played as the animation is hardware accelerated, however, as it moves it reports its position back to the dom many times per second. Safari doesn't seem to suffer from this problem.  This issue can be tracked here: http://code.google.com/p/chromium/issues/detail?id=130850
 }}
 }}
 {{See_Also_Section
