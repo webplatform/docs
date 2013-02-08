@@ -1,15 +1,17 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|Specifies if the list-item markers should appear inside or outside the content flow.}}
 {{CSS Property
-|Applies to=All elements
+|Initial value=outside
+|Applies to=elements with 'display: list-item'
 |Inherited=Yes
 |Media=visual
+|Computed value=as specified
 |Animatable=No
 |Values={{CSS Property Value
 |Data Type=outside
@@ -64,18 +66,22 @@ If the left margin of a list item is set to 0 using one of the [[css/properties/
 |Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
+|Chrome_version=1.0
 |Chrome_prefixed_supported=Unknown
 |Chrome_prefixed_version=
 |Firefox_supported=Yes
+|Firefox_version=1.0
 |Firefox_prefixed_supported=Unknown
 |Firefox_prefixed_version=
 |Internet_explorer_supported=Yes
+|Internet_explorer_version=4.0
 |Internet_explorer_prefixed_supported=Unknown
 |Internet_explorer_prefixed_version=
 |Opera_supported=Yes
 |Opera_prefixed_supported=Unknown
 |Opera_prefixed_version=
 |Safari_supported=Yes
+|Safari_version=1.0
 |Safari_prefixed_supported=Unknown
 |Safari_prefixed_version=
 }}
