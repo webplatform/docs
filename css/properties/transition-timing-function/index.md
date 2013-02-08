@@ -1,11 +1,11 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The 'transition-timing-function' property describes how the intermediate values used during a transition will be calculated. It allows for a transition to change speed over its duration. These effects are commonly called easing functions.}}
 {{CSS_Function}}
 {{Examples_Section
 |Not_required=No
@@ -32,65 +32,6 @@ Values are rounded up to the second decimal place.
 }}
 {{See_Also_Section
 |Topic_clusters=Transistions
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-*<code>[[html/elements/a|a]]</code>
-*<code>abbr</code>
-*<code>[[html/elements/acronym|acronym]]</code>
-*<code>b</code>
-*<code>bdo</code>
-*<code>big</code>
-*<code>br</code>
-*<code>cite</code>
-*<code>code</code>
-*<code>dfn</code>
-*<code>em</code>
-*<code>i</code>
-*<code>img</code>
-*<code>input</code>
-*<code>kbd</code>
-*<code>label</code>
-*<code>q</code>
-*<code>samp</code>
-*<code>select</code>
-*<code>small</code>
-*<code>span</code>
-*<code>strong</code>
-*<code>sub</code>
-*<code>sup</code>
-*<code>textArea</code>
-*<code>tt</code>
-*<code>var</code>
-*<code>address</code>
-*<code>blockQuote</code>
-*<code>div</code>
-*<code>dl</code>
-*<code>fieldSet</code>
-*<code>form</code>
-*<code>noFrames</code>
-*<code>noScript</code>
-*<code>ol</code>
-*<code>p</code>
-*<code>pre</code>
-*<code>[[html/elements/table|table]]</code>
-*<code>ul</code>
-*<code>dd</code>
-*<code>dt</code>
-*<code>li</code>
-*<code>tBody</code>
-*<code>td</code>
-*<code>tFoot</code>
-*<code>th</code>
-*<code>tHead</code>
-*<code>tr</code>
-*<code>button</code>
-*<code>del</code>
-*<code>ins</code>
-*<code>map</code>
-*<code>object</code>
-*<code>script</code>
 }}
 {{Topics|CSS}}
 {{External_Attribution
