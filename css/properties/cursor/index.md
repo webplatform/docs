@@ -37,7 +37,45 @@ Check out the Examples.
 This example uses a call to an embedded (global) style sheet to set the cursor to '''hand''' as the cursor passes over all paragraphs.
 
 
-<div style="background: grey; cursor: help; padding: 1em; border-radius: 4px; color: white;">cursor: help</div>
+		General
+		<div style="background: #f4f5f7; cursor: auto; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: auto;</div>
+		<div style="background: #ffffff; cursor: default; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: default;</div>
+		<div style="background: #f4f5f7; cursor: none; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: none;</div>
+		Links & status
+		<div style="background: #ffffff; cursor: context-menu; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: context-menu;</div>
+		<div style="background: #f4f5f7; cursor: help; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: help;</div>
+		<div style="background: #f4f5f7; cursor: pointer; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: pointer;</div>
+		<div style="background: #ffffff; cursor: progress; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: progress;</div>
+		<div style="background: #f4f5f7; cursor: wait; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: wait;</div>
+		Selection
+		<div style="background: #ffffff; cursor: cell; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: cell;</div>
+		<div style="background: #f4f5f7; cursor: crosshair; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: crosshair;</div>
+		<div style="background: #ffffff; cursor: text; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: text;</div>
+		<div style="background: #f4f5f7; cursor: vertical-text; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: vertical-text;</div>
+		Drag & drop
+		<div style="background: #ffffff; cursor: alias; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: alias;</div>
+		<div style="background: #f4f5f7; cursor: copy; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: copy;</div>
+		<div style="background: #ffffff; cursor: move; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: move;</div>
+		<div style="background: #f4f5f7; cursor: no-drop; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: no-drop;</div>
+		<div style="background: #ffffff; cursor: not-allowed; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: not-allowed;</div>
+		Resize & scrolling
+		<div style="background: #f4f5f7; cursor: all-scroll; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: all-scroll;</div>
+		<div style="background: #ffffff; cursor: col-resize; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: col-resize;</div>
+		<div style="background: #f4f5f7; cursor: row-resize; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: row-resize;</div>
+		<div style="background: #ffffff; cursor: n-resize; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: n-resize;</div>
+		<div style="background: #f4f5f7; cursor: e-resize; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: e-resize;</div>
+		<div style="background: #ffffff; cursor: s-resize; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: s-resize;</div>
+		<div style="background: #f4f5f7; cursor: w-resize; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: w-resize;</div>
+		<div style="background: #ffffff; cursor: ne-resize; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: ne-resize;</div>
+		<div style="background: #f4f5f7; cursor: nw-resize; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: nw-resize;</div>
+		<div style="background: #ffffff; cursor: se-resize; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: se-resize;</div>
+		<div style="background: #f4f5f7; cursor: sw-resize; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: sw-resize;</div>
+		<div style="background: #ffffff; cursor: ew-resize; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: ew-resize;</div>
+		<div style="background: #f4f5f7; cursor: ew-resize; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: ew-resize;</div>
+		<div style="background: #ffffff; cursor: ns-resize; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: ns-resize;</div>
+		<div style="background: #f4f5f7; cursor: nesw-resize; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: nesw-resize;</div>
+		<div style="background: #ffffff; cursor: nwse-resize; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: nwse-resize;</div>
+
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/cursor_h.htm
 }}{{Single Example
 |Description=This example uses inline scripting to set the cursor to '''hand''' as the cursor passes over the paragraph.
