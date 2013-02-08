@@ -13,7 +13,7 @@
 |Inherited=No
 |Media=visual
 |Computed value=?
-|Animatable=No
+|Animatable=Yes in some browsers
 }}
 {{API_Object_Property
 |Property_applies_to=cssom
