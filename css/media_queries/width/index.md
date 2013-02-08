@@ -8,7 +8,7 @@ The ‘width’ media feature describes the width of the targeted display area o
 {{CSS_Media_Feature}}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples=@media screen and (min-width: 400px) and (max-width: 700px) { … }
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
