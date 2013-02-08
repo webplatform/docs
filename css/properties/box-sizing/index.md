@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|<code>box-sizing</code> is used to alter the default CSS box model used to calculate widths and heights of elements.}}
+{{Summary_Section|The <code>box-sizing</code> property alters the CSS box model used to calculate widths and heights of elements.}}
 {{CSS Property
 |Initial value=content-box
 |Applies to=all elements that accept width or height
@@ -15,28 +15,28 @@
 |Animatable=No
 |Values={{CSS Property Value
 |Data Type=content-box
-|Description=The width and height properties (including min and max properties) are measured including only the content, but not the border, margin, or padding. This is the behaviour of width and height as specified by CSS2.1
+|Description=The width and height properties (including min and max properties) are measured, including only the content, but not the border, margin, or padding. This is the behaviour of width and height as specified by CSS2.1.
 }}{{CSS Property Value
 |Data Type=padding-box
-|Description=<code>width</code> and <code>height</code> (including the min and max properties) of an element are calculted including <code>padding</code>. The dimention properties for the content get calculated by substracting the padding widths from each side of the element. Dimention properties will be computed to 0 if the calculated value is less than 0.
-<code>border</code> and <code>margin</code> are not included in the calculation.
+|Description=<code>width</code> and <code>height</code> (including the min and max properties) of an element are calculted including <code>padding</code>. The dimension properties for the content are calculated by subtracting the padding widths from each side of the element. Dimension properties are set to 0 if the calculated value is less than 0.
+The <code>border</code> and <code>margin</code> values are not included in the calculation.
 }}{{CSS Property Value
 |Data Type=border-box
-|Description=<code>width</code> and <code>height</code> values are calculated including the <code>padding</code> and <code>border</code> properties, but not <code>margin</code>.
-The width and height of the content are calculated by substracting padding and border widths from each side of the element. Dimention properties will be computed to 0 if the calculated value is less than 0.
+|Description=The <code>width</code> and <code>height</code> values are calculated including the <code>padding</code> and <code>border</code> properties, but not <code>margin</code>.
+The width and height of the content are calculated by subtracting padding and border widths from each side of the element. Dimension properties are set to 0 if the calculated value is less than 0.
 }}
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=For the following example we assume Markup that looks like this
+|Description=The following example assumes markup that looks like this
 |Code=&lt;div class="parent"&gt;
 	&lt;div class="child"&gt;&lt;/div&gt;
 &lt;/div&gt;
 }}{{Single Example
 |Language=CSS
-|Description=An element with padding that adapts half the width of its parent.
+|Description=An element with padding that occupies half the width of its parent.
 |Code=/* Support Firefox, WebKit, Opera and IE8+ */
 .child {
 	-moz-box-sizing: border-box;
@@ -48,7 +48,7 @@ The width and height of the content are calculated by substracting padding and b
 }
 }}{{Single Example
 |Language=CSS
-|Description=Input elemets with the type of <code>search</code> get rendered as <code>border-box</code> in Safari 5 and Chrome. Normalize this behavior in all Browsers.
+|Description=Input elements with type <code>search</code> are rendered as <code>border-box</code> in Safari 5 and Chrome. Normalize this behavior in all browsers.
 |Code=input[type="search"] {
 	-webkit-box-sizing: content-box;
 	        box-sizing: content-box;
@@ -56,8 +56,8 @@ The width and height of the content are calculated by substracting padding and b
 }}
 }}
 {{Notes_Section
-|Usage=* Paul Irish wrote about [http://paulirish.com/2012/box-sizing-border-box-ftw/ applying <code>box-sizing: border-box;</code> on all elements]
-|Notes=* A [http://css-tricks.com/box-sizing/ detailed article on box-sizing] by Chris Coyier
+|Usage=* Paul Irish wrote about [http://paulirish.com/2012/box-sizing-border-box-ftw/ applying <code>box-sizing: border-box;</code> on all elements].
+|Notes=* A [http://css-tricks.com/box-sizing/ detailed article on box-sizing] by Chris Coyier.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
