@@ -7,6 +7,14 @@
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|Allows you to rotate, scale, move, skew, etc.,an elements in 2D or 3D space.}}
+{{CSS Property
+|Initial value=non
+|Applies to=any transformable element
+|Inherited=No
+|Media=visual
+|Computed value=?
+|Animatable=No
+}}
 {{API_Object_Property
 |Property_applies_to=cssom
 |Read_only=No
