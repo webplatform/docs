@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags}}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|With the appearance property any element can have the style of platform-based interface elements.}}
 {{CSS Property
