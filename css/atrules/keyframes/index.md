@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Sets the keyframes for the CSS [[css/properties/animation/animation]] property.}}
+{{Summary_Section|Sets the keyframes for the CSS [[css/properties/animation/animation|animation]] property.}}
 {{CSS_At_Rule}}
 {{Examples_Section
 |Not_required=No
