@@ -20,12 +20,9 @@ CACHE:
 afile.css
 anotherfile.js
 
-// keep track of the items to fetch
-var itemsFetched = 0;
 // will be called two times in total, because there are two files to fetch (afile.css, anotherfile.js)
 window.applicationCache.addEventListener('progress', function (event) {
-   itemsFetched++;
-   console.log('Item', itemsFetched, 'of', event.total, 'fetched');
+   console.log('Item', event.loaded, 'of', event.total, 'fetched');
 }, false);
 }}
 }}
