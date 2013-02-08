@@ -18,26 +18,6 @@ sessionStorage['myKey'] {{=}} '...';
 sessionStorage.myKey {{=}} '...';
 }}{{Single Example
 |Language=HTML
-|Code=<html>
-  <head>
-  <style>
-    <!-- include CSS -->
-  </style>
-  </head>
-  <body>
-    <header>
-      <h1>LocalStorage</h1>
-      <div class="arrow-right"></div>
-      <h2>Saving permanent textarea content</h2>
-    </header>  
-    <div id="excerpt">
-      This sample saves some text on the localStorage object and retrieves the value on load time. Use your browser developer tools to debug the values of the localStorage object.
-    </div>
-    <div id="content"></div>
-    <p id="log"></p>
-    <!-- Javscript -->
-  </body>
-</html>
 |LiveURL=http://playground.html5rocks.com/#localstorage
 }}{{Single Example
 |Language=CSS
