@@ -127,10 +127,10 @@ The manifest file implicitly includes itself as a page to be cached. It also nee
 |Notes_rows=
 }}
 {{See_Also_Section
-|External_links=[[http://alistapart.com/article/application-cache-is-a-douchebag|Application Cache is a Douchebag]]
-[[http://www.html5rocks.com/en/tutorials/appcache/beginner/|HTML5Rocks - A Beginner's Guide to Using the Application Cache]]
-[[http://appcachefacts.info/|appcachefacts.info]]
-[[http://manifest-validator.com|Cache Manifest Validator]]
+|External_links=[http://alistapart.com/article/application-cache-is-a-douchebag Application Cache is a Douchebag]
+[http://www.html5rocks.com/en/tutorials/appcache/beginner/ HTML5Rocks - A Beginner's Guide to Using the Application Cache]
+[http://appcachefacts.info/ appcachefacts.info]
+[http://manifest-validator.com Cache Manifest Validator]
 }}
 {{Topics|Appcache, Connectivity, DOM}}
 {{External_Attribution
