@@ -1,7 +1,6 @@
 {{Page_Title|Polyfills for Replicating Web APIs}}
 {{Flags
 |High-level issues=Stub
-|Content=Incomplete, Examples Needed
 }}
 {{API_Name}}
 {{Summary_Section|Polyfills replicate browser-native APIs, so that code dependent on provided endpoints can be run in browsers that don't have them.}}
