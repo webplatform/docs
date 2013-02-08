@@ -4,7 +4,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|The text-rendering CSS property provides information to the browser about what to optimize for when rendering text. Options are: optimize font rendering to legibility, speed or geometric precision.}}
+{{Summary_Section|The text-rendering CSS property provides information to the browser about how optimize when rendering text. Options are: legibility, speed or geometric precision.}}
 {{CSS Property
 |Initial value=auto
 |Applies to=text elements
@@ -16,17 +16,17 @@
 |CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=auto
-|Description=Indicates that the browser shall choose the most appropriate method between speed, legibility and geometric precision but favors legibility over speed and geometric precision.
+|Description=Indicates that the browser should choose the most appropriate method between speed, legibility and geometric precision, but favors legibility over speed and geometric precision.
 }}{{CSS Property Value
 |Data Type=optimizeSpeed
-|Description=Indicates that the browser shall favor rendering speed over legibility and geometric precision. The browser usually disables kerning and ligatures and sometimes will turn off anti-aliasing.
+|Description=Indicates that the browser should favor rendering speed over legibility and geometric precision. Browsers usually disable kerning and ligatures and sometimes turn off anti-aliasing.
 }}{{CSS Property Value
 |Data Type=optimizeLegibility
-|Description=Indicates that the browser shall favor legibility over rendering speed and geometric precision. The browser usually will apply anti-aliasing and / or font hinting to display the most legible text.
+|Description=Indicates that the browser should favor legibility over rendering speed and geometric precision. Browsers usually apply anti-aliasing or font hinting to display the most legible text.
 }}{{CSS Property Value
 |Data Type=geometricPrecision
-|Description=Indicates that the user agent shall favor the geometric precision over rendering speed and legibility. Usually, this option will cause the browser to not use hinting. Instead glyph outlines will be drawn with comparable geometric precision to the rendering of path data.
-This setting can be helpful when using Kerning which does often not scale linearly and can make text using such fonts look good.
+|Description=Indicates that the browser should favor geometric precision over rendering speed and legibility. Usually, this option causes the browser to not use hinting. Instead glyph outlines are drawn with comparable geometric precision to the rendering of path data.
+This setting can be helpful when using kerning, which does often not scale linearly and can make text using such fonts look good.
 }}
 }}
 {{Examples_Section
@@ -67,8 +67,9 @@ On Gecko 2.0 (Firefox 4 / Thunderbird 3.3 / SeaMonkey 2.1) the optimizeSpeed opt
 }}
 {{Topics|CSS, Graphics, SVG}}
 {{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
+|Is_CC-BY-SA=Yes
+|Sources=MDN
+|MDN_link=https://developer.mozilla.org/en-US/docs/css/text-rendering
 |MSDN_link=
 |HTML5Rocks_link=
 }}
