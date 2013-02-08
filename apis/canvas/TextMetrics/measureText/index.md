@@ -17,7 +17,7 @@
 |Return_value_description='''ICanvasTextMetrics''': The width of the text, in CSS pixels.
 }}
 {{Examples_Section
-|Not_required=Yes
+|Not_required=No
 |Examples={{Single Example
 |Language=HTML
 |Description=The following code draws two lines of text, the second line contains the with of the first line in pixels
