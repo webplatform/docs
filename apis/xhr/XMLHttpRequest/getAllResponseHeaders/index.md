@@ -7,10 +7,7 @@
 |Parameters=
 |Method_applies_to=apis/xhr/XMLHttpRequest
 |Example_object_name=object
-|Javascript_data_type=DOM Node
-|Return_value_description=String
-
-'''String''' that receives the response headers.
+|Javascript_data_type=String
 }}
 {{Examples_Section
 |Not_required=Yes
