@@ -53,10 +53,10 @@ The '''border-bottom-left-radius''' property specifies the horizontal and vertic
 *<code>[[dom/defaultSelected|defaults]]</code>
 *<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
 *<code>Reference</code>
-*<code>[[css/properties/border-top-right-radius|border-top-right-radius]]</code>
 *<code>[[css/properties/border-radius|border-radius]]</code>
-*<code>[[css/properties/border-bottom-right-radius|border-bottom-right-radius]]</code>
 *<code>[[css/properties/border-top-left-radius|border-top-left-radius]]</code>
+*<code>[[css/properties/border-top-right-radius|border-top-right-radius]]</code>
+*<code>[[css/properties/border-bottom-right-radius|border-bottom-right-radius]]</code>
 }}
 {{Topics|CSS}}
 {{External_Attribution
