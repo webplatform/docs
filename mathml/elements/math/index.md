@@ -127,7 +127,7 @@ In addition to the following attributes, the  '''math''' element accepts any att
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|MathML}}
+{{Topics|MathML, Markup_Elements}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MDN
