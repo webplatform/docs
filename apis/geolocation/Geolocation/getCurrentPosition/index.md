@@ -30,8 +30,13 @@ To use the ''options'' parameter without using the ''errorCallback''  parameter,
 If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRESULT''' error code.
 }}
 {{Examples_Section
-|Not_required=Yes
-|Examples=
+|Not_required=No
+|Examples={{Single Example
+|Language=JavaScript
+|Description=Obtains user current position.
+|Code=navigator.geolocation.getCurrentPosition(function(position) {  alert(position.coords.latitude,position.coords.longitude);
+});
+}}
 }}
 {{Notes_Section
 |Notes=Windows Internet Explorer 9.  This property is supported only for webpages displayed in IE9 Standards mode.  For more information, see Defining Document Compatibility.
