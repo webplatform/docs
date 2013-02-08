@@ -40,6 +40,7 @@ If fewer  '''animation-duration''' values are declared than corresponding [[css/
 &lt;time&gt;
 '' ''']''' *</code>
 ===Standards information===
+*[http://www.w3.org/TR/css3-animations/#animation-duration-property CSS Animations W3C Working Draft], Section 3.3
 *[http://go.microsoft.com/fwlink/p/?LinkID{{=}}223144 CSS Animations Module Level 3], Section 3.3
 }}
 {{Related_Specifications_Section
