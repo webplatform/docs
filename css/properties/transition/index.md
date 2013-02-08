@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Cleanup, Examples Best Practices
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic
+|Content=Incomplete, Examples Best Practices
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
@@ -12,6 +12,7 @@
 |Inherited=No
 |Media=interactive
 |Animatable=No
+|CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=transition-property
 |Description=Value of the [[css/properties/transition-property|'''transition-property''']] property.
@@ -46,15 +47,7 @@ div:hover {
 }}
 }}
 {{Notes_Section
-|Notes====Remarks===
-Some browsers have started to remove the prefix from these properties, including Internet Explorer 10.
-
-To ensure compatibility in the future, applications using this property with a vendor prefix should be updated accordingly.
-|Import_Notes====Syntax===
-<code>'''transition: ''''''[''' ''transition-property'' '''{{!}}{{!}}''' ''transition-duration'' '''{{!}}{{!}}''' ''transition-timing-function'' '''{{!}}{{!}}''' ''transition-delay'' ''']''' '''[''' ,  '''[''' ''transition-property'' '''{{!}}{{!}}''' ''transition-duration'' '''{{!}}{{!}}''' ''transition-timing-function'' '''{{!}}{{!}}''' ''transition-delay'' ''']''' ''']''' *</code>
-
-
-A list of translatable properties exists here: http://www.w3.org/TR/2009/WD-css3-transitions-20091201/#animatable-properties-
+|Import_Notes=A list of translatable properties exists here: http://www.w3.org/TR/2009/WD-css3-transitions-20091201/#animatable-properties-
 }}
 {{Related_Specifications_Section
 |Specifications=
@@ -122,65 +115,6 @@ A list of translatable properties exists here: http://www.w3.org/TR/2009/WD-css3
 }}
 {{See_Also_Section
 |Topic_clusters=Animation, Transistions
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-*<code>[[html/elements/a|a]]</code>
-*<code>abbr</code>
-*<code>[[html/elements/acronym|acronym]]</code>
-*<code>b</code>
-*<code>bdo</code>
-*<code>big</code>
-*<code>br</code>
-*<code>cite</code>
-*<code>code</code>
-*<code>dfn</code>
-*<code>em</code>
-*<code>i</code>
-*<code>img</code>
-*<code>input</code>
-*<code>kbd</code>
-*<code>label</code>
-*<code>q</code>
-*<code>samp</code>
-*<code>select</code>
-*<code>small</code>
-*<code>span</code>
-*<code>strong</code>
-*<code>sub</code>
-*<code>sup</code>
-*<code>textArea</code>
-*<code>tt</code>
-*<code>var</code>
-*<code>address</code>
-*<code>blockQuote</code>
-*<code>div</code>
-*<code>dl</code>
-*<code>fieldSet</code>
-*<code>form</code>
-*<code>noFrames</code>
-*<code>noScript</code>
-*<code>ol</code>
-*<code>p</code>
-*<code>pre</code>
-*<code>[[html/elements/table|table]]</code>
-*<code>ul</code>
-*<code>dd</code>
-*<code>dt</code>
-*<code>li</code>
-*<code>tBody</code>
-*<code>td</code>
-*<code>tFoot</code>
-*<code>th</code>
-*<code>tHead</code>
-*<code>tr</code>
-*<code>button</code>
-*<code>del</code>
-*<code>ins</code>
-*<code>map</code>
-*<code>object</code>
-*<code>script</code>
 }}
 {{Topics|CSS, Vendor Prefix}}
 {{External_Attribution
