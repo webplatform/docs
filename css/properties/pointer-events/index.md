@@ -15,6 +15,7 @@
 |CSS object model property=pointerEvents
 |Values={{CSS Property Value
 |Data Type=auto
+|Description=In HTML/XML content, this value and the value all have the same effect. In SVG content, this value and the value visiblePainted have the same effect.
 }}{{CSS Property Value
 |Data Type=none
 |Description=The element is never the target of pointer events, although pointer events may target its descendant elements if those descendants have pointer-events set to some other value.
