@@ -1,6 +1,6 @@
 {{Page_Title|Colors by Name}}
 {{Flags}}
-{{Summary_Section}}
+{{Summary_Section|This page shows all defined colors with their name, hex, rgb and hsl values and also includes an example for each color.}}
 {{Basic Page}}
 ===Related topics===
 * [[css/color/colors by hue|Colors by Hue]]
