@@ -17,9 +17,9 @@
 |CSS percentages=N/A
 }}
 
-====Syntax====
+==Syntax==
 <code>
-cursor:
+cursor: ''value'';
 </code>
 
 {{Examples_Section
