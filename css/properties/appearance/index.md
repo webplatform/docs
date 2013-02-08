@@ -7,9 +7,11 @@
 |Initial value=normal
 |Applies to=all elements
 |Inherited=No
+|Media=visual
+|Computed value=specific value
 |Animatable=No
 |CSS percentages=N/A
-|Values=
+|Values={{CSS Property Value}}
 }}
 {{Examples_Section
 |Not_required=No
