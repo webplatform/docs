@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Data Not Semantic
-|Content=Grammar/Spelling, Compatibility Incomplete
+|Content=Compatibility Incomplete
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -15,10 +15,10 @@
 |Animatable=No
 |Values={{CSS Property Value
 |Data Type=content-box
-|Description=The width and height properties (including min and max properties) are measured, including only the content, but not the border, margin, or padding. This is the behaviour of width and height as specified by CSS2.1.
+|Description=The <code>width</code> and <code>height</code> properties (including min and max properties) are measured, including only the content, but not the border, margin, or padding. This is the behaviour of width and height as specified by CSS2.1.
 }}{{CSS Property Value
 |Data Type=padding-box
-|Description=<code>width</code> and <code>height</code> (including the min and max properties) of an element are calculted including <code>padding</code>. The dimension properties for the content are calculated by subtracting the padding widths from each side of the element. Dimension properties are set to 0 if the calculated value is less than 0.
+|Description=The <code>width</code> and <code>height</code> (including the min and max properties) of an element are calculated including <code>padding</code>. The dimension properties for the content are calculated by subtracting the padding widths from each side of the element. Dimension properties are set to 0 if the calculated value is less than 0.
 The <code>border</code> and <code>margin</code> values are not included in the calculation.
 }}{{CSS Property Value
 |Data Type=border-box
