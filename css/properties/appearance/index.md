@@ -12,6 +12,24 @@
 |Animatable=No
 |CSS percentages=N/A
 |Values={{CSS Property Value
+|Data Type=button-arrow-down
+|Description=Firefox specific - but no effect in latest version
+}}{{CSS Property Value
+|Data Type=button-arrow-next
+|Description=Firefox specific - but no effect in latest version
+}}{{CSS Property Value
+|Data Type=button-arrow-previous
+|Description=Firefox specific - but no effect in latest version
+}}{{CSS Property Value
+|Data Type=button-arrow-up
+|Description=Firefox specific - but no effect in latest version
+}}{{CSS Property Value
+|Data Type=button-focus
+|Description=Firefox specific - but no effect in latest version
+}}{{CSS Property Value
+|Data Type=caret
+|Description=No clear visual effect.
+}}{{CSS Property Value
 |Data Type=none
 |Description=No special styling is applied. For Firefox note [https://bugzilla.mozilla.org/show_bug.cgi?id=649849 bug 649849] and [https://bugzilla.mozilla.org/show_bug.cgi?id=605985 bug 605985]
 }}{{CSS Property Value
@@ -19,25 +37,12 @@
 |Description=The element is drawn like a button
 }}{{CSS Property Value
 |Data Type=button-bevel
-|Description=Use button bevel theme for rendering the object. Seems to work only in mozilla based browsers}}
+|Description=Use button bevel theme for rendering the object. Seems to work only in mozilla based browsers
 }}{{CSS Property Value
-|Data Type=button-arrow-down
-|Description=Firefox specific - but no effect in latest version}}
-{{CSS Property Value
-|Data Type=button-arrow-next
-|Description=Firefox specific - but no effect in latest version}}    
-{{CSS Property Value
-|Data Type=button-arrow-previous
-|Description=Firefox specific - but no effect in latest version}}
-{{CSS Property Value
-|Data Type=button-arrow-up
-|Description=Firefox specific - but no effect in latest version}}
-{{CSS Property Value
-|Data Type=button-focus
-|Description=Firefox specific - but no effect in latest version}}
-{{CSS Property Value
-|Data Type=caret
-|Description=No clear visual effect.}}}}
+|Data Type=checkbox
+|Description=The element is drawn like a checkbox, including only the actual "checkbox" portion.
+}}
+}}
 {{Examples_Section
 |Not_required=No
 |Examples=
@@ -61,4 +66,5 @@
 |MDN_link=https://developer.mozilla.org/en-US/docs/CSS/-moz-appearance?redirectlocale=en-US&redirectslug=CSS%3A-moz-appearance
 |MSDN_link=
 |HTML5Rocks_link=
+}}
 }}
