@@ -24,7 +24,22 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|Description=One value example to use an arc of circle as the border on the top left corner.
+|Code=border-bottom-right-radius: 10px;
+
+/* is equivalent to: */
+border-bottom-right-radius: 10px 10px;
+}}{{Single Example
+|Language=CSS
+|Description=Two value example to use an arc of ellipse as the border on the top left corner.
+|Code=border-bottom-right-radius: 10px 5px;
+}}{{Single Example
+|Language=CSS
+|Description=One value percentage example on the top left corner. If the box is a square an arc of circle is used as the border, if the box is not a square an arc of ellipse is used as the border.
+|Code=border-bottom-right-radius: 30%;
+}}
 }}
 {{Notes_Section
 |Notes====Remarks===
