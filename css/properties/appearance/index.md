@@ -13,6 +13,40 @@
 |CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=button
+|Data Type=checkbox
+|Data Type=radio
+|Data Type=push-button
+|Data Type=square-button
+|Data Type=button
+|Data Type=button-bevel
+|Data Type=listbox
+|Data Type=listitem
+|Data Type=menulist
+|Data Type=menulist-button
+|Data Type=menulist-text
+|Data Type=menulist-textfield
+|Data Type=scrollbarbutton-up
+|Data Type=scrollbarbutton-down
+|Data Type=scrollbarbutton-left
+|Data Type=scrollbarbutton-right
+|Data Type=scrollbartrack-horizontal
+|Data Type=scrollbartrack-vertical
+|Data Type=scrollbarthumb-horizontal
+|Data Type=scrollbarthumb-vertical
+|Data Type=scrollbargripper-horizontal
+|Data Type=scrollbargripper-vertical
+|Data Type=slider-horizontal
+|Data Type=slider-vertical
+|Data Type=sliderthumb-horizontal
+|Data Type=sliderthumb-vertical
+|Data Type=caret
+|Data Type=searchfield
+|Data Type=searchfield-decoration
+|Data Type=searchfield-results-decoration
+|Data Type=searchfield-results-button
+|Data Type=searchfield-cancel-button
+|Data Type=textfield
+|Data Type=textarea
 }}{{CSS Property Value}}
 }}
 {{Examples_Section
