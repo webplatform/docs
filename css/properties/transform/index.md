@@ -36,7 +36,7 @@ If the property has a value different than none, a stacking context will be crea
 |Description=Specifies a scale operation using the vector [1, sy].
 }}{{CSS Property Value
 |Data Type=rotate(20deg)
-|Description=Rotates the element clockwise around its origin (as specified by the transform-origin property) by the specified angle. 
+|Description=Rotates the element clockwise around its origin (as specified by the transform-origin property) by the specified angle.
 }}{{CSS Property Value
 |Data Type=none
 |Description=Specifies that no transform should be applied.
@@ -58,7 +58,7 @@ If the property has a value different than none, a stacking context will be crea
  	height: 10em;
  	background: #eee;
  }
-|LiveURL=http://dabblet.com/gist/4740525
+|LiveURL=http://dabblet.com/gist/4740688
 }}
 }}
 {{Notes_Section}}
