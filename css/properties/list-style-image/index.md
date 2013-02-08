@@ -24,14 +24,15 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=CSS
 |Description=The following examples use the '''list-style-image''' attribute and the '''list-style-image''' property to set the image for markers.
 
 This example uses '''ul''' as a selector in an embedded (global) style sheet to set the marker to the dot.gif image.
-|Code=&lt;STYLE&gt;
-    UL { list-style-image:url(dot.gif) }
-&lt;/STYLE&gt;
+|Code=UL { list-style-image:url(dot.gif) }
+
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/list-style-image.htm
 }}{{Single Example
+|Language=JavaScript
 |Description=This example uses inline scripting to change the style of the list-item marker to an image when an [[dom/events/mouseover|'''onmouseover''']] event occurs.
 |Code=&lt;UL onmouseover{{=}}"this.style.listStyleImage{{=}}'url(dot.gif)'"&gt;
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/listStyleImage.htm
