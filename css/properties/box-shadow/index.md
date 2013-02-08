@@ -7,15 +7,19 @@
 Given a box, the shadow style is represented as follows:
 
 <pre><shadow> = inset? && [ <length>{2,4} && <color>? ]</pre>
+|The ‘box-shadow’ property attaches one or more shadows inside or outside of a box-model element_ The property is a comma-separated list of shadows, each specified by 2-4 length values, an optional color, and an optional ‘inset’ keyword_ This simple effect can be manipulated to generate complex effects_
 
+Given a box, the shadow style is represented as follows:
+
+<pre><shadow>=inset? && [ <length>{2,4} && <color>? ]</pre>
 }}
 {{CSS Property
 |Initial value=none
 |Applies to=All elements
-|Inherited=no
+|Inherited=No
 |Media=visual
 |Computed value=any <length> made absolute; any specified color computed; otherwise as specified
-|Animatable=Yes, except between inner and outer shadows (Transition to/from an absent shadow is a transition to/from ‘0 0 transparent’ or ‘0 0 transparent inset’, as appropriate.) 
+|Animatable=No
 |CSS object model property=boxShadow
 |CSS percentages=???
 |Values={{CSS Property Value
@@ -85,10 +89,7 @@ The '''box-shadow''' property can specify one or more drop shadows. The componen
 </syntaxhighlight>
 }}
 {{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=CSS Backgrounds and Borders Module Level 3
-|URL=http://www.w3.org/TR/css3-background/#box-shadow
-|Status=Candidate Recommendation
+|Specifications=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -97,21 +98,11 @@ The '''box-shadow''' property can specify one or more drop shadows. The componen
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Topic_clusters=Border
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[dom/defaultSelected|defaults]]</code>
-*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-*<code>[[css/properties/border|border]]</code>
-}}
-{{Topics|CSS}}
+{{See_Also_Section}}
+{{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
 |MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|MSDN_link=
 |HTML5Rocks_link=
 }}
