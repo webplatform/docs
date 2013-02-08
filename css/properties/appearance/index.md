@@ -55,7 +55,10 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Code=<span>Lorem</span>
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
