@@ -2,13 +2,18 @@
 {{Flags}}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|The TextMetrics object of the canvas API.}}
+{{Summary_Section|The TextMetrics object of the canvas API. TextMetrics retrieve numeric informations like the width of a text that is drawn onto the canvas with the current font style.}}
 {{API_Object}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=JavaScript
+|Description=Short example of getting the width of the text drawn on the canvas (with current font styles)
+|Code=var metrics = context.measureText("Hello World!");
+console.log(metrics.width); // returns the width of the drawn text in CSS pixels
+}}{{Single Example
 |Language=HTML
-|Description=The following code draws two lines of text, the second line contains the with of the first line in pixels
+|Description=This full example draws two lines of text, the second line contains the with of the first line in pixels
 |Code=<!DOCTYPE html>
 <html>
 <head>
