@@ -7,20 +7,20 @@ Mediaqueries is a paradigm introduced in CSS3 for adapting the layout of a page 
 
 
 == Media features ==
-*[[css/media queries/width|width]] not CSS/Mediaqueries/width|width !
-*[[CSS/Mediaqueries/height|height]]
-*[[CSS/Mediaqueries/device-width|device-width]]
-*[[CSS/Mediaqueries/device-height|device-height]]
-*[[CSS/Mediaqueries/orientation|orientation]]
-*[[CSS/Mediaqueries/aspect-ratio|aspect-ratio]]
-*[[CSS/Mediaqueries/device-aspect-ratio|device-aspect-ratio]]
-*[[CSS/Mediaqueries/color|color]]
-*[[CSS/Mediaqueries/color-index|color-index]]
-*[[CSS/Mediaqueries/monochrome|monochrome]]
-*[[CSS/Mediaqueries/resolution|resolution]]
-*[[CSS/Mediaqueries/scan|scan]]
-*[[CSS/Mediaqueries/grid|grid]]
-*[[CSS/Mediaqueries/view-mode|view-mode]]
+*[[css/media queries/width|width]]
+*[[css/media queries/height|height]]
+*[[css/media queries/device-width|device-width]]
+*[[css/media queries/device-height|device-height]]
+*[[css/media queries/orientation|orientation]]
+*[[css/media queries/aspect-ratio|aspect-ratio]]
+*[[css/media queries/device-aspect-ratio|device-aspect-ratio]]
+*[[css/media queries/color|color]]
+*[[css/media queries/color-index|color-index]]
+*[[css/media queries/monochrome|monochrome]]
+*[[css/media queries/resolution|resolution]]
+*[[css/media queries/scan|scan]]
+*[[css/media queries/grid|grid]]
+*[[css/media queries/view-mode|view-mode]]
 
 
 == See also ==
