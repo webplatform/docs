@@ -34,7 +34,12 @@ If the property has a value different than none, a stacking context will be crea
 {{CSS Property Value
 |Data Type=scale(2, 0.5)
 |Description=Specifies a 2D scaling operation described by [sx, sy]. If sy isn't specified, it is assumed to be equal to sx.}}
-
+{{CSS Property Value
+|Data Type=scaleX(3)
+|Description=Specifies a scale operation using the vector [sx, 1].}}
+{{CSS Property Value
+|Data Type=scaleY(0.5)
+|Description=Specifies a scale operation using the vector [1, sy].}}
 {{Examples_Section
 |Not_required=No
 |Examples=
