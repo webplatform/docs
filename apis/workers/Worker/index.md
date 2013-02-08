@@ -31,6 +31,13 @@ self.postMessage("ready for business");
 self.onmessage = function(event) {
    self.postMessage('Worker received ' + event.data);
 };
+}}{{Single Example
+|Language=JavaScript
+|Description=Loading additional resources from within a Worker (script.js)
+|Code=// (synchronously) load external scripts - URLs relative to the parent document's location
+importScripts('additional.js', 'another-one.js', 'as-many-as-you-like.js' /* , ... */);
+// pass data to parent, executed *after* importScripts() received all files
+self.postMessage("ready for business");
 }}
 }}
 {{Notes_Section
