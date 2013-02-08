@@ -155,7 +155,11 @@ The '''border-top-right-radius''' property specifies the horizontal and vertical
 |Safari_mobile_prefixed_supported=Yes
 |Safari_mobile_prefixed_version=3.2
 }}
-|Notes_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=9.0
+|Note=The border-top-right-radius property can't be animated/transitioned in IE.
+}}
 }}
 {{See_Also_Section
 |Topic_clusters=Border
