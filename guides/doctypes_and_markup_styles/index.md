@@ -1,5 +1,9 @@
 {{Page_Title|DOCTYPES and markup styles}}
-{{Flags}}
+{{Flags
+|Editorial notes=“Loose vs. strict syntax” refers to the difference between HTML 4.01 Transitional (has ‘loose‘ in its system identifier URI) and HTML 4.01 Strict or XHTML 1.0 Transitional and XHTML 1.0 Strict respectively.
+
+Might read “HTML vs. XHTML syntax” as well. 
+}}
 {{Byline}}
 {{Summary_Section|In this article we will explore the different doctypes you are likely to come across on your journey around the Web, as well as look at how XHTML and HTML differ.}}
 {{Guide
@@ -137,11 +141,7 @@ We wouldn't recommend that you do this however: old versions of Internet Explore
 
 Therefore you should just stick to not trying to serve documents as proper XHTML! Carry on people, nothing to see here.
 }}
-{{Notes_Section
-|Notes=“Loose vs. strict syntax” refers to the difference between HTML 4.01 Transitional (has ‘loose‘ in its system identifier URI) and HTML 4.01 Strict or XHTML 1.0 Transitional and XHTML 1.0 Strict respectively.
-
-Might read “HTML vs. XHTML syntax” as well.
-}}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
