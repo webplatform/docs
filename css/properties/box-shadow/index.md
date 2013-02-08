@@ -46,13 +46,13 @@ Given a box, the shadow style is represented as follows:
 |LiveURL=http://dabblet.com/gist/4739446
 }}{{Single Example
 |Language=HTML
-|Code=<article style="box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); border: 1px solid #f00;">
-	<h1>Drop Shadows - Web Platform Docs Examples</h1>
-	<p>An example of a basic Drop Shadow</p>
-	<footer role="contentinfo">
-		<a href="http://docs.webplatform.org/wiki/css/properties/box-shadow">Learn more about Drop Shadows</a>
-	</footer>
-</article>
+|Code=&lt;article style=&quot;box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); border: 1px solid #f00;&quot;&gt;
+	&lt;h1&gt;Drop Shadows - Web Platform Docs Examples&lt;/h1&gt;
+	&lt;p&gt;An example of a basic Drop Shadow&lt;/p&gt;
+	&lt;footer role=&quot;contentinfo&quot;&gt;
+		&lt;a href=&quot;http://docs.webplatform.org/wiki/css/properties/box-shadow&quot;&gt;Learn more about Drop Shadows&lt;/a&gt;
+	&lt;/footer&gt;
+&lt;/article&gt;
 }}
 }}
 {{Notes_Section
