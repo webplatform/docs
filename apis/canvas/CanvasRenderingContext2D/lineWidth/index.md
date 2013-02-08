@@ -11,8 +11,21 @@
 |Return_value_description=When setting, zero, negative, infinite, and NaN values are ignored. Default is 1.0.
 }}
 {{Examples_Section
-|Not_required=Yes
-|Examples=
+|Not_required=No
+|Examples={{Single Example
+|Language=JavaScript
+|Description=The following example draws 10 lines in different widths
+|Code=function draw() {
+  var ctx = document.getElementById('canvas').getContext('2d');
+  for (var i = 0; i < 10; i++){
+    ctx.lineWidth = 1+i;
+    ctx.beginPath();
+    ctx.moveTo(5+i*14,5);
+    ctx.lineTo(5+i*14,140);
+    ctx.stroke();
+  }
+}
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
@@ -87,8 +100,8 @@
 {{Topics|Canvas}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
+|Sources=MDN, MSDN
+|MDN_link=https://developer.mozilla.org/en-US/docs/HTML/Canvas/Tutorial/Applying_styles_and_colors
 |MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
 |HTML5Rocks_link=
 }}
