@@ -41,6 +41,16 @@
 }}{{CSS Property Value
 |Data Type=checkbox
 |Description=The element is drawn like a checkbox, including only the actual "checkbox" portion.
+}}{{CSS Property Value
+|Data Type=checkbox-container
+|Description=Firefox specific - but no effect in latest version
+}}{{CSS Property Value
+|Data Type=checkbox-small
+|Description=Firefox specific - but no effect in latest version
+}}{{CSS Property Value
+|Data Type=dialog
+}}{{CSS Property Value
+|Data Type=listbox
 }}
 }}
 {{Examples_Section
