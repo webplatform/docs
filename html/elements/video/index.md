@@ -14,8 +14,7 @@
 |Examples={{Single Example
 |Language=HTML
 |Description=Desired video file should be within src attribute
-|Code=
-<video src="bee.webm"></video>
+|Code=<video src="bee.webm"></video>
 }}
 }}
 {{Notes_Section
@@ -158,35 +157,35 @@
 |Feature=MP4 (H.264 + AAC)
 |Android_supported=Yes
 |Android_version=2.1
-|Android_prefixed_supported=Unknown
+|Android_prefixed_supported=No
 |Android_prefixed_version=
-|Blackberry_supported=Unknown
-|Blackberry_version=
-|Blackberry_prefixed_supported=Unknown
+|Blackberry_supported=Yes
+|Blackberry_version=4.6
+|Blackberry_prefixed_supported=No
 |Blackberry_prefixed_version=
-|Chrome_mobile_supported=Unknown
-|Chrome_mobile_version=
-|Chrome_mobile_prefixed_supported=Unknown
+|Chrome_mobile_supported=Yes
+|Chrome_mobile_version=18.0
+|Chrome_mobile_prefixed_supported=No
 |Chrome_mobile_prefixed_version=
-|Firefox_mobile_supported=Unknown
-|Firefox_mobile_version=
-|Firefox_mobile_prefixed_supported=Unknown
+|Firefox_mobile_supported=Yes
+|Firefox_mobile_version=18.0
+|Firefox_mobile_prefixed_supported=No
 |Firefox_mobile_prefixed_version=
 |IE_mobile_supported=Yes
 |IE_mobile_version=9.0
-|IE_mobile_prefixed_supported=Unknown
+|IE_mobile_prefixed_supported=No
 |IE_mobile_prefixed_version=
-|Opera_mobile_supported=Unknown
-|Opera_mobile_version=
-|Opera_mobile_prefixed_supported=Unknown
+|Opera_mobile_supported=Yes
+|Opera_mobile_version=11.5
+|Opera_mobile_prefixed_supported=No
 |Opera_mobile_prefixed_version=
-|Opera_mini_supported=Unknown
+|Opera_mini_supported=No
 |Opera_mini_version=
-|Opera_mini_prefixed_supported=Unknown
+|Opera_mini_prefixed_supported=No
 |Opera_mini_prefixed_version=
 |Safari_mobile_supported=Yes
 |Safari_mobile_version=3.2
-|Safari_mobile_prefixed_supported=Unknown
+|Safari_mobile_prefixed_supported=No
 |Safari_mobile_prefixed_version=
 }}{{Compatibility Table Mobile Row
 |Feature=Ogg (Theora + Vorbis)
