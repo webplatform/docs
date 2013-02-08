@@ -27,6 +27,10 @@
 |Code=.shadow {
   box-shadow: 3px 3px 5px 6px #ccc;
 }
+}}{{Single Example
+|Language=HTML
+|Description=From MDN
+|Code=<pre style="-moz-box-shadow: 60px -16px teal; -webkit-box-shadow: 60px -16px teal; box-shadow: 60px -16px teal; float: left; margin: 1em;">box-shadow: 60px -16px teal;</pre>
 }}
 }}
 {{Notes_Section
