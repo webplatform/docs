@@ -47,6 +47,23 @@ This example uses '''p''' and '''blockquote''' as selectors in an embedded (glob
 :
 &lt;/DIV&gt;
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/lineHeight.htm
+}}{{Single Example
+|Language=Other
+|Description=When using a <length> value for <line-height> you can get unexpected results. This is why it is best to use unitless values.
+
+Here is a example of what can happen when using <lenght>:
+
+[[File:lineheight-1.png]] 
+|Code=<style>
+       .red   { font-size: 15px;  line-height: 1.1em;  border: solid red; }
+      h1     { font-size: 30px; }
+      div    { width: 19em;  display: inline-block; }
+</style>
+
+<div class=red>
+ <h1>Avoid unexpected results by using unitless line-height</h1>
+  length and percentage line-heights have poor inheritance behavior ...
+</div>
 }}
 }}
 {{Notes_Section
