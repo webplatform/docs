@@ -29,8 +29,40 @@
 If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRESULT''' error code.
 }}
 {{Examples_Section
-|Not_required=Yes
-|Examples=
+|Not_required=No
+|Examples={{Single Example
+|Language=JavaScript
+|Description=Obtains users position and position changes for 120s.
+|Code=var watchID;
+var geoLoc;
+
+function showLocation(position) 
+{  
+alert('latitude: '+position.coords.latitude+' AND longitude: '+position.coords.longitude);
+}
+
+function errorHandler(err) {
+  if(err.code == 1) {
+    alert("Error: Access is denied!");
+  }else if( err.code == 2) {
+    alert("Error: Position is unavailable!");
+  }
+}
+function getLocationUpdate(){
+
+   if(navigator.geolocation){
+      // timeout at 120000 milliseconds (120 seconds)
+      var options = {timeout:120000};
+      geoLoc = navigator.geolocation;
+      watchID = geoLoc.watchPosition(showLocation, 
+                                     errorHandler,
+                                     options);
+   }else{
+      alert("Sorry, browser does not support geolocation!");
+   }
+}
+getLocationUpdate();
+}}
 }}
 {{Notes_Section
 |Notes=The function begins acquiring the geographic position and returns immediately. When the position is successfully obtained, the callback function provided in the ''successCallback'' parameter is called. The parameter to the ''successCallback'' function is a '''position''' object that contains the data on the current geographic location.
