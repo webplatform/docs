@@ -15,10 +15,7 @@
 }}
 {{Examples_Section
 |Not_required=Yes
-|Examples={{Single Example
-|Language=CSS
-|Code=sadgdsag
-}}
+|Examples=
 }}
 {{Notes_Section
 |Notes=The ''round'' and ''square'' styles for the ''lineCap''  property make the lines slightly longer. For round ends, the cap diameter equals the  [[apis/canvas/CanvasRenderingContext2D/lineWidth|lineWidth]] value. The ''square'' style adds a rectangle with a width of 1/2 of ''lineWidth''. Both the ''round'' and ''square'' styles add approximately 1/2 of the current ''lineWidth''  value to the end of a line. You should consider this addition if your graphics accuracy is critical.
