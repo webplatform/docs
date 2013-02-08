@@ -13,7 +13,7 @@
 *Create a manifest file that lists the files and other web resources you want to cache.
 *Reference the manifest file in the header of every page you want cached.
 
-The manifest file  defines which web resources are cached when a user browses to your site. The manifest file typically has the extension '''.appcache''' or ".manifest". Each webpage must add a manifest attribute to the HTML element similar to this:
+The manifest file  defines which web resources are cached when a user browses to your site. The manifest file typically has the extension '''.appcache''' or '''.manifest'''. Each webpage must add a manifest attribute to the HTML element similar to this:
  <code>&lt;html manifest{{=}}"clock.appcache"&gt;</code>
 You can use an absolute or relative URL. The cache manifest file lists the files that will be cached, using the format:
  <code>CACHE MANIFEST
