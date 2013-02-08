@@ -18,8 +18,7 @@ sessionStorage['myKey'] {{=}} '...';
 sessionStorage.myKey {{=}} '...';
 }}{{Single Example
 |Language=HTML
-|Code=<!DOCTYPE html>
-<html>
+|Code=<html>
   <head>
   <style>
     <!-- include CSS -->
@@ -27,7 +26,8 @@ sessionStorage.myKey {{=}} '...';
   </head>
   <body>
     <header>
-      <h1>LocalStorage</h1><div class="arrow-right"></div>
+      <h1>LocalStorage</h1>
+      <div class="arrow-right"></div>
       <h2>Saving permanent textarea content</h2>
     </header>  
     <div id="excerpt">
@@ -41,7 +41,6 @@ sessionStorage.myKey {{=}} '...';
 |LiveURL=http://playground.html5rocks.com/#localstorage
 }}{{Single Example
 |Language=CSS
-|Description=CSS part
 |Code=body {
       font: 100% "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
       margin: 0;
@@ -101,13 +100,14 @@ sessionStorage.myKey {{=}} '...';
     }
 }}{{Single Example
 |Language=JavaScript
-|Description=Javascript part
-|Code=// Generate the little markup from javascript
-      document.querySelector('#content').innerHTML =
+|Code=// Generate the little markup from javascript 
+
+document.querySelector('#content').innerHTML =
           '<p><em>Save text locally (it will still be available after restarting your browser)</em></p>';
-      var area = document.createElement('textarea');
-      area.style.width = '300px';
-      area.style.height = '150px';
+
+var area = document.createElement('textarea');
+    area.style.width = '300px';
+    area.style.height = '150px';
       document.querySelector('#content').appendChild(area);
       
       // place content from previous edit
