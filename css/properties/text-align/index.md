@@ -89,7 +89,6 @@ This example uses '''p''' as a selector and two classes to call an embedded styl
         </p>
     </body>
 </html>
-
 }}
 }}
 {{Notes_Section
@@ -102,7 +101,10 @@ The '''justify''' possible value is available as of Microsoft Internet ExplorerÂ
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 5.4.6
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS2
+|URL=http://www.w3.org/TR/CSS2/
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -157,7 +159,7 @@ The '''justify''' possible value is available as of Microsoft Internet ExplorerÂ
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=Text
+|Topic_clusters=CSS Layout, Text
 |Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
