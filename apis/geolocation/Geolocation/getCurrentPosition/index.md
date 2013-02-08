@@ -34,7 +34,9 @@ If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRES
 |Examples={{Single Example
 |Language=JavaScript
 |Description=Obtains user current position.
-|Code=navigator.geolocation.getCurrentPosition(function(position) {  alert(position.coords.latitude,position.coords.longitude);
+|Code=navigator.geolocation.getCurrentPosition(function(position)
+{  
+alert(position.coords.latitude,position.coords.longitude)
 });
 }}
 }}
