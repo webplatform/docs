@@ -17,9 +17,6 @@ This example uses a call to an embedded (global) style sheet to set the cursor t
     div { cursor : hand; }
 &lt;/style&gt;
 
-<div>
-
-</div>
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/cursor_h.htm
 }}{{Single Example
 |Description=This example uses inline scripting to set the cursor to '''hand''' as the cursor passes over the paragraph.
@@ -27,9 +24,9 @@ This example uses a call to an embedded (global) style sheet to set the cursor t
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/cursor_s.htm
 }}{{Single Example
 |Description=This example demonstrates setting a custom cursor, by using the '''url(uri)''' value.
-|Code=&lt;STYLE&gt;
+|Code=&lt;style&gt;
 oBox.style.cursor {{=}} "url(" + Some_Uniform_Resource_Identifier + ")";
-&lt;/STYLE&gt;
+&lt;/style&gt;
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/cursor_c.htm
 }}
 }}
