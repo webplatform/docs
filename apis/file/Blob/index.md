@@ -15,7 +15,7 @@ reading '''Blob''' data will).
 |Examples={{Single Example
 |Language=JavaScript
 |Code=// Blob constructor example usage
-var aFileParts = ["<a id=\"a\"><b id=\"b\">hey!<\/b><\/a>"];
+var aFileParts = ['<a id="a"><b id="b">hey!</b></a>'];
 var oMyBlob = new Blob(aFileParts, { "type" : "text\/xml" }); // the blob
 
 // Example for creating a URL to a typed array using a blob
@@ -24,7 +24,6 @@ var blob = new Blob([typedArray], {type: "application/octet-binary"}); // pass a
 var url = URL.createObjectURL(blob);
 // url will be something like: blob:d3958f5c-0777-0845-9dcf-2cb28783acaf
 // now you can use the url in any context that regular URLs can be used in, for example img.src, etc.
-
 }}
 }}
 {{Notes_Section}}
