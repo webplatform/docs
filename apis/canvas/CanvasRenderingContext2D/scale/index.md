@@ -24,8 +24,43 @@
 If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRESULT''' error code.
 }}
 {{Examples_Section
-|Not_required=Yes
-|Examples=
+|Not_required=No
+|Examples={{Single Example
+|Language=JavaScript
+|Description=This basic example draws two rects, the second scaled 1.5 times
+|Code=ctx.fillStyle = "lime";
+ctx.fillRect(0,0,100,100);
+ctx.scale(1.5, 1.5);	// draws the second rect 2.5 times larger
+ctx.fillStyle = "rgba(255,0,0,0.5)";
+ctx.fillRect(25,25,100,100);	// note the width & height are 1.5 times bigger than 100 px
+}}{{Single Example
+|Language=HTML
+|Description=This full example draws two rects, the second scaled 1.5 times
+|Code=<!DOCTYPE html>
+<html>
+<head>
+  <title>Canvas Example</title>
+  <script>
+    function draw() {
+      var canvas = document.getElementById("MyCanvas");
+      if (canvas.getContext) {  // check for support
+        var ctx = canvas.getContext("2d"); 
+        
+        ctx.fillStyle = "lime";
+        ctx.fillRect(0,0,100,100);
+        ctx.scale(1.5, 1.5);	// draws the second rect 2.5 times larger
+        ctx.fillStyle = "rgba(255,0,0,0.5)";
+        ctx.fillRect(25,25,100,100);	// note the width & height are 1.5 times bigger than 100 px
+        
+      }
+    }        
+  </script>
+</head>
+<body onload="draw();">
+  <canvas id="MyCanvas" width="600" height="500">This browser or document mode doesn't support canvas</canvas>
+</body>
+</html>
+}}
 }}
 {{Notes_Section
 |Notes=When  you create a [[apis/canvas/CanvasRenderingContext2D|CanvasRenderingContext2D]] object, it has a transformation matrix that identifies the current state.  The ''scale'' method  modifies the transformation by multiplying the matrix by the  specified  factor. 
