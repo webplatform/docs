@@ -11,8 +11,17 @@
 |Return_value_description=The font string can consist of any CSS font description and is analogous to the CSS ''font'' property. The default font is <code>10px sans-serif</code>. Values that are not CSS font values are ignored.
 }}
 {{Examples_Section
-|Not_required=Yes
-|Examples=
+|Not_required=No
+|Examples={{Single Example
+|Language=JavaScript
+|Description=The following exaple write a sample string in the canvas
+|Code=function draw() {
+  var ctx = document.getElementById('MyCanvas').getContext('2d');
+  
+  ctx.font = "16px Times New Roman";
+  ctx.fillText("Lorem ipsum", 0, 30);
+}
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
