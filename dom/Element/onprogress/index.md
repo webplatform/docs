@@ -4,7 +4,7 @@
 }}
 {{Standardization_Status|}}
 {{API_Name}}
-{{Event
+{{API_Object_Property
 |Interface=dom/objects/Event
 |Target=dom/Element
 |Default_action=
