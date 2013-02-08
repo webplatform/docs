@@ -5,8 +5,34 @@
 {{Summary_Section|The geographic coordinate reference system used by the attributes in this interface is the World Geodetic System (2d).}}
 {{API_Object}}
 {{Examples_Section
-|Not_required=Yes
-|Examples=
+|Not_required=No
+|Examples={{Single Example
+|Language=JavaScript
+|Description=Obtain user location with all available information available within to coordinates object.
+|Code=navigator.geolocation.getCurrentPosition(geoSuccess,geoError);
+
+/* Position found*/
+function geoSuccess(position)
+{  
+alert('latitude: '+position.coords.latitude+' AND longitude: '+position.coords.longitude);
+/* Denotes the accuracy level of the latitude and longitude coordinates in meters */ 
+alert(position.coords.accuracy);
+/* Denotes the accuracy level of the altitude coordinate in meters */
+alert(position.coords.alititudeAccuracy);
+/* Denotes the height of the position, specified in meters above the ellipsoid. */
+alert(position.coords.altitude);
+/* Denotes the direction of travel of the hosting device specified in degrees */
+alert(position.coords.heading);
+/* Denotes the magnitude of the horizontal component of the hosting device's current velocity specified in meters per second. */
+alert(position.coords.speed);
+}
+
+/* Position not found*/
+function geoError(position)
+{ 
+alert("No position found");
+}
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
