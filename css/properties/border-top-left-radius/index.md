@@ -15,22 +15,11 @@
 |Animatable=Yes
 |CSS object model property=object.style.borderTopLeftRadius
 |Values={{CSS Property Value
-|Data Type=radius
-|Description=A floating-point number, followed by either an absolute units designator
-(<code>cm</code>,
-<code>mm</code>,
-<code>in</code>,
-<code>pt</code>,
-or <code>pc</code>)
-or a relative units designator
-(<code>em</code>,
-<code>ex</code>,
-or <code>px</code>).
-For more information about the supported length units,
-see CSS Values and Units Reference.
+|Data Type=length
+|Description=Denotes the size of the circle radius or the semi-major and semi-minor axes of the ellipsis. It can be expressed in any unit allowed by the [[css/data_types/length|CSS <length> data types]]. Negative values are invalid.
 }}{{CSS Property Value
 |Data Type=percentage
-|Description=An integer, followed by a %. The value is a percentage of, for horizontal radii, the width of the border box, or for vertical radii, the height of the border box.
+|Description=Denotes the size of the circle radius, or the semi-major and semi-minor axes of the ellipsis, using percentage values. Percentages for the horizontal axis refer to the width of the box, percentages for the vertical axis refer to the height of the box. Negative values are invalid.
 }}
 }}
 {{Examples_Section
