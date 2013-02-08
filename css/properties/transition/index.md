@@ -51,6 +51,7 @@ Some browsers have started to remove the prefix from these properties, including
 To ensure compatibility in the future, applications using this property with a vendor prefix should be updated accordingly.
 |Import_Notes====Syntax===
 <code>'''transition: ''''''[''' ''transition-property'' '''{{!}}{{!}}''' ''transition-duration'' '''{{!}}{{!}}''' ''transition-timing-function'' '''{{!}}{{!}}''' ''transition-delay'' ''']''' '''[''' ,  '''[''' ''transition-property'' '''{{!}}{{!}}''' ''transition-duration'' '''{{!}}{{!}}''' ''transition-timing-function'' '''{{!}}{{!}}''' ''transition-delay'' ''']''' ''']''' *</code>
+A list of translatable properties exists here: http://www.w3.org/TR/2009/WD-css3-transitions-20091201/#animatable-properties-
 }}
 {{Related_Specifications_Section
 |Specifications=
