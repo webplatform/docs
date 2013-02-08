@@ -1,7 +1,9 @@
-{{Page_Title|The toplevel MathML element}}
+{{Page_Title}}
+{{Flags}}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|The top-level element in MathML is '''<math>'''. Every valid MathML instance must be wrapped in <math> tags. In addition you must not nest a second <math> element in another, but you can have an arbitrary number of other child elements in it.}}
+{{Markup_Element}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -39,27 +41,10 @@
 </html> </syntaxhighlight>
 }}
 }}
-== Attributes == 
-In addition to the following attributes, the  '''math''' element accepts any attributes of the [[mathml/elements/mstyle|mstyle]] element.
-<dl>
-  <dt id="attr-display">display</dt>
-  <dd>
-    This enumerated attribute specifies how the enclosed MathML markup should be rendered. It can have one of the following values:
-      
-* '''block''', which means that this element will be displayed outside the current span of text, as a block that can be positioned anywhere without changing the meaning of the text;
-* '''inline''', which means that this element will be displayed inside the current span of text, and cannot be moved out of it without changing the meaning of that text.
-
-  </dd>
-  <dt>
-    mode '''(depreacted)'''</dt>
-  <dd>
-    Deprecated in favor of the display attribute.<br />
-    Possible values are: '''display''' (which has the same effect as display="block") and '''inline'''.</dd>
-</dl>
 {{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=MathML 3.0 
+|Name=MathML 3.0
 |URL=http://www.w3.org/TR/MathML3/chapter2.html#interf.toplevel
 |Status=W3C Recommendation
 }}
@@ -70,7 +55,7 @@ In addition to the following attributes, the  '''math''' element accepts any att
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
 |Chrome_version=24
-|Chrome_prefixed_supported=
+|Chrome_prefixed_supported=Unknown
 |Chrome_prefixed_version=
 |Firefox_supported=Yes
 |Firefox_version=1
@@ -95,6 +80,7 @@ In addition to the following attributes, the  '''math''' element accepts any att
 |Android_prefixed_supported=Unknown
 |Android_prefixed_version=
 |Blackberry_supported=Unknown
+|Blackberry_version=
 |Blackberry_prefixed_supported=Unknown
 |Blackberry_prefixed_version=
 |Chrome_mobile_supported=Unknown
@@ -113,8 +99,8 @@ In addition to the following attributes, the  '''math''' element accepts any att
 |Opera_mobile_version=
 |Opera_mobile_prefixed_supported=Unknown
 |Opera_mobile_prefixed_version=
-|Opera_mini_supported=
-|Opera_mini_version=Unknown
+|Opera_mini_supported=Unknown
+|Opera_mini_version=
 |Opera_mini_prefixed_supported=Unknown
 |Opera_mini_prefixed_version=
 |Safari_mobile_supported=Unknown
@@ -122,8 +108,10 @@ In addition to the following attributes, the  '''math''' element accepts any att
 |Safari_mobile_prefixed_supported=Unknown
 |Safari_mobile_prefixed_version=
 }}
+|Notes_rows=
 }}
-{{Topics|MathML, Markup_Elements}}
+{{See_Also_Section}}
+{{Topics|MathML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MDN
@@ -131,3 +119,20 @@ In addition to the following attributes, the  '''math''' element accepts any att
 |MSDN_link=
 |HTML5Rocks_link=
 }}
+== Attributes == 
+In addition to the following attributes, the  '''math''' element accepts any attributes of the [[mathml/elements/mstyle|mstyle]] element.
+<dl>
+  <dt id="attr-display">display</dt>
+  <dd>
+    This enumerated attribute specifies how the enclosed MathML markup should be rendered. It can have one of the following values:
+      
+* '''block''', which means that this element will be displayed outside the current span of text, as a block that can be positioned anywhere without changing the meaning of the text;
+* '''inline''', which means that this element will be displayed inside the current span of text, and cannot be moved out of it without changing the meaning of that text.
+
+  </dd>
+  <dt>
+    mode '''(depreacted)'''</dt>
+  <dd>
+    Deprecated in favor of the display attribute.<br />
+    Possible values are: '''display''' (which has the same effect as display="block") and '''inline'''.</dd>
+</dl>
