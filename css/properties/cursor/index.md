@@ -84,15 +84,13 @@ Check out the Examples.
 		<div style="width: 25%; text-align: center; margin-right: 2%; float: left; background: #f4f5f7; cursor: -moz-grabbing; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: -moz-grabbing;</div>
 		</div>
 	</div>
-|Code=
-.foo { cursor: crosshair; }
+|Code=.foo { cursor: crosshair; }
  
 /* use prefixed-value if "zoom-in" isn't supported */
 .bar { cursor: -webkit-zoom-in;  cursor: -moz-zoom-in;  cursor: zoom-in; } 
  
 /* standard cursor value as fallback for url() must be provided (doesn't work without) */
 .baz { cursor: url(hyper.cur), auto }
-|LiveURL=
 }}
 }}
 {{Notes_Section
@@ -132,41 +130,12 @@ Cursors have been the subject of security bulletins and updates.  If your custom
 |Safari_prefixed_supported=Unknown
 |Safari_prefixed_version=
 }}
-|Mobile_rows={{Compatibility Table Mobile Row
-|Android_supported=No
-|Android_version=
-|Android_prefixed_supported=No
-|Android_prefixed_version=
-|Blackberry_supported=No
-|Blackberry_version=
-|Blackberry_prefixed_supported=No
-|Blackberry_prefixed_version=
-|Chrome_mobile_supported=No
-|Chrome_mobile_version=
-|Chrome_mobile_prefixed_supported=No
-|Chrome_mobile_prefixed_version=
-|Firefox_mobile_supported=No
-|Firefox_mobile_version=
-|Firefox_mobile_prefixed_supported=No
-|Firefox_mobile_prefixed_version=
-|IE_mobile_supported=No
-|IE_mobile_version=
-|IE_mobile_prefixed_supported=No
-|IE_mobile_prefixed_version=
-|Opera_mobile_supported=No
-|Opera_mobile_version=
-|Opera_mobile_prefixed_supported=No
-|Opera_mobile_prefixed_version=
-|Opera_mini_supported=No
-|Opera_mini_version=
-|Opera_mini_prefixed_supported=No
-|Opera_mini_prefixed_version=
-|Safari_mobile_supported=No
-|Safari_mobile_version=
-|Safari_mobile_prefixed_supported=No
-|Safari_mobile_prefixed_version=
+|Mobile_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=All Mobile Browsers
+|Version=all
+|Note=not supported
 }}
-|Notes_rows=
 }}
 {{See_Also_Section
 |Topic_clusters=Visual Effects
