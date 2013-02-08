@@ -337,6 +337,13 @@ This property is not supported for Metro style apps using JavaScript
 |Code=<audio src="http://developer.mozilla.org/@api/deki/files/2926/=AudioTest_(1).ogg" autoplay>
   Your browser does not support the <code>audio</code> element.
 </audio>
+}}{{Single Example
+|Language=HTML
+|Description=Audio element with source element
+|Code=<audio controls="controls">
+  Your browser does not support the <code>audio</code> element.
+  <source src="foo.wav" type="audio/wav">
+</audio>
 }}
 }}
 {{Notes_Section
