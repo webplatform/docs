@@ -28,27 +28,6 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=The following examples use the '''text-align''' attribute and the '''text-align''' property to align text within the object.
-
-This example uses '''p''' as a selector and two classes to call an embedded style sheet that aligns the text according to the respective rule.
-|Code=&lt;STYLE&gt;
-    P { text-align:center }
-    .align1 { text-align:right }
-    .align2 { text-align:justify }
-&lt;/STYLE&gt;
-&lt;/HEAD&gt;
-&lt;BODY&gt;
-&lt;P onclick{{=}} "this.className{{=}}'align1'" 
-    ondblclick{{=}}"this.className{{=}}'align2'"&gt;
-. . . &lt;/P&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/text-align.htm
-}}{{Single Example
-|Description=This example uses inline scripting to change the alignment of the text when an [[dom/events/mouseover|'''onmouseover''']] event occurs.
-|Code=&lt;P STYLE{{=}}"font-size:14" 
-    onmouseover{{=}}"this.style.textAlign{{=}}'center'"&gt;
-. . . &lt;/P&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/textAlign.htm
-}}{{Single Example
 |Language=HTML
 |Description=This just shows the four possible types of text-alignment.
 |Code=&lt;!doctype html&gt;
@@ -90,6 +69,27 @@ This example uses '''p''' as a selector and two classes to call an embedded styl
     &lt;/body&gt;
 &lt;/html&gt;
 |LiveURL=http://dabblet.com/gist/4739662
+}}{{Single Example
+|Description=This example uses inline scripting to change the alignment of the text when an [[dom/events/mouseover|'''onmouseover''']] event occurs.
+|Code=&lt;P STYLE{{=}}"font-size:14" 
+    onmouseover{{=}}"this.style.textAlign{{=}}'center'"&gt;
+. . . &lt;/P&gt;
+|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/textAlign.htm
+}}{{Single Example
+|Description=The following examples use the '''text-align''' attribute and the '''text-align''' property to align text within the object.
+
+This example uses '''p''' as a selector and two classes to call an embedded style sheet that aligns the text according to the respective rule.
+|Code=&lt;STYLE&gt;
+    P { text-align:center }
+    .align1 { text-align:right }
+    .align2 { text-align:justify }
+&lt;/STYLE&gt;
+&lt;/HEAD&gt;
+&lt;BODY&gt;
+&lt;P onclick{{=}} "this.className{{=}}'align1'" 
+    ondblclick{{=}}"this.className{{=}}'align2'"&gt;
+. . . &lt;/P&gt;
+|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/text-align.htm
 }}
 }}
 {{Notes_Section
