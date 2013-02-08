@@ -87,6 +87,7 @@ div {
     }
     10% {
         opacity: 0.4;
+    }
     15% {
         opacity: 0;
     }
