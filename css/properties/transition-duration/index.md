@@ -23,9 +23,7 @@
 |Examples=
 }}
 {{Notes_Section
-|Notes====Remarks===
-The version of this property using a vendor prefix, '''-ms-transition-duration''', has been deprecated. To ensure compatibility in the future, applications using this property with a vendor prefix should be updated accordingly.
-Transitions respect Cascading Style Sheets (CSS) box model constraints such as [[css/properties/min-width|'''min-width''']].
+|Notes=Transitions respect Cascading Style Sheets (CSS) box model constraints such as [[css/properties/min-width|'''min-width''']].
 For example, if an element is declared with a [[css/properties/min-width|'''min-width''']] value of <code>50px</code> then a transition to a width of <code>25px</code> is not valid. In a case such as this, the transition runs for the specified duration from the start value until a valid maximum or minimum end value, as appropriate.
 |Import_Notes====Standards information===
 *[http://www.w3.org/TR/css3-transitions/#transition-duration-property CSS Transitions Module Level 3], Section 2.2
