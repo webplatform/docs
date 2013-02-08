@@ -1,12 +1,17 @@
 {{Page_Title}}
 {{Flags}}
-{{Standardization_Status|W3C Candidate Recommendation}}
+{{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|The CanvasRenderingContext2D object of the canvas API.}}
+{{Summary_Section|The 2D rendering context for the drawing surface of a <canvas> element.}}
 {{API_Object}}
 {{Examples_Section
-|Not_required=Yes
-|Examples=
+|Not_required=No
+|Examples={{Single Example
+|Language=JavaScript
+|Description=To get this object, call getContext() on a <canvas>, supplying "2d" as the argument:
+|Code=var canvas = document.getElementById('MyCanvas');
+var ctx = canvas.getContext('2d');
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
@@ -81,8 +86,8 @@
 {{Topics|Canvas}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
+|Sources=MDN, MSDN
+|MDN_link=https://developer.mozilla.org/en-US/docs/DOM/CanvasRenderingContext2D
 |MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
 |HTML5Rocks_link=
 }}
