@@ -20,6 +20,12 @@ window.applicationCache.update();
 if (window.applicationCache.status === window.applicationCache.UPDATEREADY) {
    console.log('Cache is now ready for an update');
 }
+}}{{Single Example
+|Language=JavaScript
+|Description=Listening for updateready events
+|Code=window.applicationCache.addEventListener('updateready',function () {
+  console.log('The manifest update download has been completed successfully');
+}, false);
 }}
 }}
 {{Notes_Section
