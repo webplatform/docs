@@ -1,9 +1,9 @@
 {{Page_Title|User eXperience (UX) design techniques}}
 {{Flags}}
 {{API_Name}}
-{{Summary_Section|A draft list of techniques at product development stages that are used within the practices of User eXperience (UX) design.}}
+{{Summary_Section|A list of techniques at product development stages that are used within the practices of User eXperience (UX) design.}}
 {{Concept_Page
-|Content====Research & Analysis===
+|Content=====Research & Analysis====
 *Contextual inquiry
 *Personas
 *Empanthy map
@@ -11,7 +11,7 @@
 *User eXperience map
 *Journey map
 
-===Scoping and Initial Design===
+====Scoping and Initial Design====
 *Collaborative design sessions (Inception deck)
 *Storyboard
 *Sketchboard
@@ -21,17 +21,17 @@
 *Rich Visual Backlog
 *Behavior driven development
 
-===Prototyping===
+====Prototyping====
 *Sketches
 *Wireframes
 *Paper prototyping
 *Mockups
 *Functional Prototype
 
-===Development===
+====Development====
 *Just-in-time design
 
-===Testing===
+====Testing====
 *Quantitative Usability Testing
 *Pair testing
 *Controlled experiments
