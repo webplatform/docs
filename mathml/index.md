@@ -45,7 +45,6 @@ There are two types of MathML:
 MathML is worked on by the MathML working group [http://www.w3.org/Math/ see the WG homepage] for more details, including mailing list details for feedback and contributing. 
 
 {{Basic Page}}
-{{Special:PrefixIndex/mathml/}}
 {{Compatibility_Section
 |Not_required=No
 |Desktop_rows={{Compatibility Table Desktop Row
@@ -114,3 +113,4 @@ MathML is worked on by the MathML working group [http://www.w3.org/Math/ see the
 |MSDN_link=
 |HTML5Rocks_link=
 }}
+{{Special:PrefixIndex/mathml/}}
