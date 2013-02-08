@@ -1,79 +1,381 @@
-{{Page_Title}}
-{{Flags
-|High-level issues=Merge Candidate, Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Editorial notes={{Editorial/Merge_Candidate}}
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section|Allows you to rotate, scale, move, skew, etc.,an elements in 2D or 3D space.}}
-{{CSS Property
-|Initial value=non
-|Applies to=any transformable element
-|Inherited=No
-|Media=visual
-|Computed value=?
-|Animatable=Yes in some browsers
-|Values={{CSS Property Value
-|Data Type=none
-|Description=Specifies that no transform should be applied.}}
-}}
-{{API_Object_Property
-|Property_applies_to=cssom
-|Read_only=No
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Description=The following example is an ID selector that demonstrates the use of both the '''transform'''
-and the [[css/properties/transform-origin|'''transform-origin''']] properties. In this case, the '''transform-origin''' property
-has been set to "60% 100%", which sets the transform's origin point to 60% of the length and 100% of the height of the element to be transformed.
-The '''transform''' property first uses the '''translate''' function to move the element 200 pixels in the ''x'' direction
-and 100 pixels in the ''y'' direction. It then uses the '''scale''' function to scale the element by 75%. Finally, it uses the '''rotate''' function to rotate the element 40 degrees clockwise around the
-origin point set by the '''transform-origin''' property.
-|Code=#mytransform {
-  transform: translate(200px, 100px) scale(.75, .75) rotate(40deg);
-  transform-origin: 60% 100%;
-}
-}}
-}}
-{{Notes_Section
-|Notes====Remarks===
-The version of this property using a vendor prefix, '''-ms-transform''', has been deprecated in Internet Explorer 10 and later. To ensure compatibility in the future, applications using this property with a vendor prefix should be updated accordingly. However, be aware that '''-ms-transform''' is the only form of this property that is recognized by Windows Internet Explorer 9, which supports 2-D Cascading Style Sheets (CSS) transforms.
-3-D transforms are only supported in Internet Explorer 10 and later.
-For information about the transformation functions that are supported for use with the '''transform''' property, see Transform Functions.
-|Import_Notes====Syntax===
-<code>'''transform: '''none '''{{!}}''' ''
-&lt;transform-function&gt;
-'' '''[''' ''
-&lt;transform-function&gt;
-'' ''']''' *</code>
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?LinkID{{=}}223145 CSS Transforms Module, Level 3], Section 6
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=Transforms
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-*<code>[[css/properties/transform-origin|transform-origin]]</code>
-}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+==[[Property:API name]]==
+===Usage===
+This property is used in [[Template:API_Name_Form_Section]] / [[Template:API_Name]].
+===Type===
+No type specified
+===Description===
+Used in a template that renders out the [[Property:API_name]] property, and also allows you to print out how to call an API if the name of the API is not the name of the document (often for technical reasons). If not provided, the template uses the last titlepart of the URL.
+
+===Recommendation===
+I recommend to change the type to Text, this property is not used to link to pages.
+
+
+[[Template:API_Name]]: I recommend to delete the TODO comment as it seems to be outdated. It refers to usage of wrong casing, which seems to be fixed already.
+
+
+Hint: This property is used in some wrong templates and should only be included in API Templates. I recommend to delete it from all templates that do not refer to API pages.
+
+==[[Property:Animatable]]==
+===Usage===
+[[Template:CSS_Property]]
+===Type===
+Boolean
+===Description===
+Checkbox, describes if the CSS Property is animatable.
+===Recommendation===
+[[css/transforms/transform]] uses an improper value ("Yes in some browsers"). This value normally could not be entered, but the page has two concurring categories with different default forms. I recommend to change the page, eventually also to file a bug for the two concurring categories. 
+
+==[[Property:Applies_To]]==
+===Usage===
+===Type===
+===Description===
+===Recommendation===
+===Comments===
+==Applies to of type String (229)==
+===Usage===
+===Type===
+===Description===
+===Recommendation===
+===Comments===
+==Bubbles of type Page (127) ==
+===Usage===
+===Type===
+===Description===
+===Recommendation===
+===Comments===
+==CSS object model property of type String (14)==
+===Usage===
+===Type===
+===Description===
+===Recommendation===
+===Comments===
+==Cancelable of type Page (127) ==
+===Usage===
+===Type===
+===Description===
+===Recommendation===
+===Comments===
+==Compatibility Table of type Text (1,353)==
+===Usage===
+===Type===
+===Description===
+===Recommendation===
+===Comments===
+==Computed value of type String (29)==
+===Usage===
+===Type===
+===Description===
+===Recommendation===
+===Comments===
+==Content quality flag of type String (12,863)==
+===Usage===
+===Type===
+===Description===
+===Recommendation===
+===Comments===
+==DOM Interface of type Page (199)==
+===Usage===
+===Type===
+===Description===
+===Recommendation===
+===Comments===
+==Default action of type Page (1) ==
+===Usage===
+===Type===
+===Description===
+===Recommendation===
+===Comments===
+==Event applies to of type Page (168)==
+===Usage===
+===Type===
+===Description===
+===Recommendation===
+===Comments===
+==Example object name of type Page (1,559) ==
+===Usage===
+===Type===
+===Description===
+===Recommendation===
+===Comments===
+==Glossary Definition of type Text (70)==
+===Usage===
+===Type===
+===Description===
+===Recommendation===
+===Comments===
+==Glossary Term of type String (70)==
+===Usage===
+===Type===
+===Description===
+===Recommendation===
+===Comments===
+==Has description of type Text (29)==
+===Usage===
+===Type===
+===Description===
+===Recommendation===
+===Comments===
+==Has method type of type String (1) ==
+===Usage===
+===Type===
+===Description===
+===Recommendation===
+===Comments===
+==Has name of type String (28)==
+===Usage===
+===Type===
+===Description===
+===Recommendation===
+===Comments===
+==Has object of type Page (1) ==
+===Usage===
+===Type===
+===Description===
+===Recommendation===
+===Comments===
+==Has summary of type Text (2) ==
+===Usage===
+===Type===
+===Description===
+===Recommendation===
+===Comments===
+==Has syntax of type Text (2) ==
+===Usage===
+===Type===
+===Description===
+===Recommendation===
+===Comments===
+==High-level issue of type String (10,544)==
+===Usage===
+===Type===
+===Description===
+===Recommendation===
+===Comments===
+==Image of type Page (6) ==
+===Usage===
+===Type===
+===Description===
+===Recommendation===
+===Comments===
+==Inherited of type Boolean (232)==
+===Usage===
+===Type===
+===Description===
+===Recommendation===
+===Comments===
+==Initial value of type String (137)==
+===Usage===
+===Type===
+===Description===
+===Recommendation===
+===Comments===
+==Is CC-BY-SA of type Boolean (3,746)==
+===Usage===
+===Type===
+===Description===
+===Recommendation===
+===Comments===
+==Is parameter for of type Page (19) ==
+===Usage===
+===Type===
+===Description===
+===Recommendation===
+===Comments===
+==Is property of of type Page (1) ==
+===Usage===
+===Type===
+===Description===
+===Recommendation===
+===Comments===
+==Is return value for of type Page (8)==
+===Usage===
+===Type===
+===Description===
+===Recommendation===
+===Comments===
+==Javascript data type of type String (1,614)==
+===Usage===
+===Type===
+===Description===
+===Recommendation===
+===Comments===
+==Language of type String (1) ==
+===Usage===
+===Type===
+===Description===
+===Recommendation===
+===Comments===
+==Media of type Page (222)==
+===Usage===
+===Type===
+===Description===
+===Recommendation===
+===Comments===
+==Method applies to of type Page (599)==
+===Usage===
+===Type===
+===Description===
+===Recommendation===
+===Comments===
+==Page Title of type Page (2,056) ==
+===Usage===
+===Type===
+===Description===
+===Recommendation===
+===Comments===
+==Parameter description of type Text (929)==
+===Usage===
+===Type===
+===Description===
+===Recommendation===
+===Comments===
+==Parameter for method of type Page (998)==
+===Usage===
+===Type===
+===Description===
+===Recommendation===
+===Comments===
+==Parameter name of type String (998)==
+===Usage===
+===Type===
+===Description===
+===Recommendation===
+===Comments===
+==Parameter optional of type Boolean (658)==
+===Usage===
+===Type===
+===Description===
+===Recommendation===
+===Comments===
+==Path of type Page (2,069) ==
+===Usage===
+===Type===
+===Description===
+===Recommendation===
+===Comments===
+==Property applies to of type Page (1,066) ==
+===Usage===
+===Type===
+===Description===
+===Recommendation===
+===Comments===
+==Property value description of type Text (987)==
+===Usage===
+===Type===
+===Description===
+===Recommendation===
+===Comments===
+==Property value name of type Page (1,001)==
+===Usage===
+===Type===
+===Description===
+===Recommendation===
+===Comments===
+==Property value syntax of type String (1,018)==
+===Usage===
+===Type===
+===Description===
+===Recommendation===
+===Comments===
+==Read only of type Boolean (521)==
+===Usage===
+===Type===
+===Description===
+===Recommendation===
+===Comments===
+==Return value name of type Page (1,058) ==
+===Usage===
+===Type===
+===Description===
+===Recommendation===
+===Comments===
+==See also javascript method of type Page (3) ==
+===Usage===
+===Type===
+===Description===
+===Recommendation===
+===Comments===
+==Sources of type Page (2,973) ==
+===Usage===
+===Type===
+===Description===
+===Recommendation===
+===Comments===
+==Standardization Status of type String (1,070)==
+===Usage===
+===Type===
+===Description===
+===Recommendation===
+===Comments===
+==Subclass of of type Page (183)==
+===Usage===
+===Type===
+===Description===
+===Recommendation===
+===Comments===
+==Summary of type Text (1,657)==
+===Usage===
+===Type===
+===Description===
+===Recommendation===
+===Comments===
+==Synchronous of type Page (127) ==
+===Usage===
+===Type===
+===Description===
+===Recommendation===
+===Comments===
+==Target of type Page (153) ==
+===Usage===
+===Type===
+===Description===
+===Recommendation===
+===Comments===
+==Topic Cluster of type String (721)==
+===Usage===
+===Type===
+===Description===
+===Recommendation===
+===Comments===
+==Value for property of type Page (1,018)==
+===Usage===
+===Type===
+===Description===
+===Recommendation===
+===Comments===
+==Has improper value for (3,132)==
+===Usage===
+===Type===
+===Description===
+===Recommendation===
+===Comments===
+==Modification date of type Date (5,704)==
+===Usage===
+===Type===
+===Description===
+===Recommendation===
+===Comments===
+==Allows value (182)==
+===Usage===
+===Type===
+===Description===
+===Recommendation===
+===Comments===
+==Has default form (31)==
+===Usage===
+===Type===
+===Description===
+===Recommendation===
+===Comments===
+==Has type (63)==
+===Usage===
+===Type===
+===Description===
+===Recommendation===
+===Comments===
+==css/selectors/pseudo-elements/ of type Page (22) ==
+===Usage===
+===Type===
+===Description===
+===Recommendation===
+===Comments===
