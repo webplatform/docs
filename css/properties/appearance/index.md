@@ -4,8 +4,11 @@
 {{API_Name}}
 {{Summary_Section|With the appearance property any element can have the style of platform-based interface elements.}}
 {{CSS Property
+|Initial value=normal
+|Applies to=all elements
 |Inherited=No
 |Animatable=No
+|CSS percentages=N/A
 |Values=
 }}
 {{Examples_Section
@@ -24,10 +27,11 @@
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics}}
+{{Topics|CSS, Design}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|MDN_link=
+|Sources=MDN
+|MDN_link=https://developer.mozilla.org/en-US/docs/CSS/-moz-appearance?redirectlocale=en-US&redirectslug=CSS%3A-moz-appearance
 |MSDN_link=
 |HTML5Rocks_link=
 }}
