@@ -72,7 +72,9 @@
 }
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Notes=The pointer-events property used to be in the CSS 3 UI specification, but it has been postponed to CSS 4 due to many open issues.
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=Scalable Vector Graphics (SVG) 1.1 (Second Edition)
