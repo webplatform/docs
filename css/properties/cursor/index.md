@@ -84,6 +84,7 @@ Check out the Examples.
 		<div style="width: 25%; text-align: center; margin-right: 2%; float: left; background: #f4f5f7; cursor: -moz-grabbing; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: -moz-grabbing;</div>
 		</div>
 	</div>
+<h3>Code examples</h3>
 |Code=.foo { cursor: crosshair; }
  
 /* use prefixed-value if "zoom-in" isn't supported */
