@@ -18,6 +18,8 @@ Use language negotiation on multilingual Web sites. [http://www.w3.org/Internati
 
 Declare the language of your content with the lang attribute. This is useful for spell checkers, screen readers, automatic hyphenation, … [http://www.w3.org/International/questions/qa-lang-why Why use the language attribute?]
 
+Further reading: [http://www.w3.org/International/quicktips/Overview Internationalization Quick Tips for the Web]
+
 {{Notes_Section}}
 {{Topics|Internationalization}}
 {{External_Attribution
