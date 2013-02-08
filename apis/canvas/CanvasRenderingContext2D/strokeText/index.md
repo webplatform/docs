@@ -30,8 +30,47 @@
 |Javascript_data_type=void
 }}
 {{Examples_Section
-|Not_required=Yes
-|Examples=
+|Not_required=No
+|Examples={{Single Example
+|Language=JavaScript
+|Description=Short example of drawing an outline text
+|Code=ctx.strokeStyle = 'white';
+ctx.strokeText("Hello World!", canvas.width/2, canvas.height/2, maxWidth);
+}}{{Single Example
+|Language=HTML
+|Description=Full example of drawing an outline text
+|Code=<!DOCTYPE html>
+<html>
+<head>
+  <title>Canvas Example</title>
+  <script>
+    function draw() {
+      var canvas = document.getElementById("MyCanvas");
+      if (canvas.getContext) {  // check for support
+        var ctx = canvas.getContext("2d"); 
+        
+        // clear background
+        ctx.fillStyle = 'black';
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+        // draw text
+        var text = "Hello World!";
+        ctx.font = '3em Arial';
+        ctx.textAlign = 'center';
+        ctx.textBaseline = 'center';
+        ctx.fillStyle = 'none';
+        ctx.strokeStyle = 'white';
+        // draw Hello World
+        ctx.strokeText(text, canvas.width/2, canvas.height/2, canvas.width, canvas.height);
+        
+      }
+    }        
+  </script>
+</head>
+<body onload="draw();">
+  <canvas id="MyCanvas" width="600" height="500">This browser or document mode doesn't support canvas</canvas>
+</body>
+</html>
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
