@@ -8,7 +8,7 @@
 
 If the property has a value different than none, a stacking context will be created. In that case the object will act as a containing block for position: fixed elements that it contains.}}
 {{CSS Property
-|Initial value=non
+|Initial value=none
 |Applies to=any transformable element
 |Inherited=No
 |Media=visual
