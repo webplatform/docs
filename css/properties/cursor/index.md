@@ -16,10 +16,14 @@ This example uses a call to an embedded (global) style sheet to set the cursor t
 |Code=&lt;style&gt;
     div { cursor : hand; }
 &lt;/style&gt;
+
+<div>
+
+</div>
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/cursor_h.htm
 }}{{Single Example
 |Description=This example uses inline scripting to set the cursor to '''hand''' as the cursor passes over the paragraph.
-|Code=&lt;P onmouseover{{=}}"this.style.cursor{{=}}'hand'"&gt;
+|Code=&lt;div onmouseover{{=}}"this.style.cursor{{=}}'hand'"&gt;
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/cursor_s.htm
 }}{{Single Example
 |Description=This example demonstrates setting a custom cursor, by using the '''url(uri)''' value.
