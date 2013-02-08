@@ -41,7 +41,12 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Code=border-image-slice: 30%;           /* One-value syntax */
+border-image-slice: 10% 30%;           /* Two-value syntax */
+border-image-slice: 30 30% 45;            /* Three-value syntax */
+border-image-slice: 7 12 14 5;            /* Four-value syntax  */
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
