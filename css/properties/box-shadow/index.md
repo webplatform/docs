@@ -37,6 +37,15 @@ Given a box, the shadow style is represented as follows:
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=HTML
+|Code=&lt;article&gt;
+	&lt;h1&gt;Drop Shadows - Web Platform Docs Examples&lt;/h1&gt;
+	&lt;p&gt;Examples of Drop Shadows&lt;/p&gt;
+	&lt;footer role=&quot;contentinfo&quot;&gt;
+		&lt;a href=&quot;http://docs.webplatform.org/wiki/css/properties/box-shadow&quot;&gt;Learn more about Drop Shadows&lt;/a&gt;
+	&lt;/footer&gt;
+&lt;/article&gt;
+}}{{Single Example
 |Language=CSS
 |Description=An example of a basic Drop Shadow
 |Code=article {
@@ -45,14 +54,7 @@ Given a box, the shadow style is represented as follows:
 }
 |LiveURL=http://dabblet.com/gist/4739446
 }}{{Single Example
-|Language=HTML
-|Code=&lt;article&gt;
-	&lt;h1&gt;Drop Shadows - Web Platform Docs Examples&lt;/h1&gt;
-	&lt;p&gt;An example of a basic Drop Shadow&lt;/p&gt;
-	&lt;footer role=&quot;contentinfo&quot;&gt;
-		&lt;a href=&quot;http://docs.webplatform.org/wiki/css/properties/box-shadow&quot;&gt;Learn more about Drop Shadows&lt;/a&gt;
-	&lt;/footer&gt;
-&lt;/article&gt;
+|Language=CSS
 }}
 }}
 {{Notes_Section
