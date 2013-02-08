@@ -5,7 +5,6 @@
 {{Standardization_Status|}}
 {{API_Name}}
 {{API_Object_Property
-{{API_Object_Property
 |Property_applies_to=dom/Element
 |Read_only=
 }}
