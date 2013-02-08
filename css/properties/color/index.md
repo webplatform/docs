@@ -45,14 +45,6 @@ element { color: hsl(120, 100%, 50%) }
 /* 50% translucent */
 element { color: rgba(0, 128, 0, 0.5) } 
 element { color: hsla(120, 100%, 50%, 0.5) }
-}}{{Single Example
-|Language=HTML
-|Code=<style>
-#example-green {
-color: green;
-}
-</style>
-<p id="example-green"> This text should be green </p>
 }}
 }}
 {{Notes_Section
