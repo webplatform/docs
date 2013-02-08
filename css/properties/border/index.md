@@ -13,7 +13,7 @@
 |Animatable=No
 |Values={{CSS Property Value
 |Data Type=<width> <style> <color>
-|Description=Any of the range of width values available to the [[css/properties/border-width|'''border-width''']] property. Default value is <tt>medium</tt>.
+|Description=Width - Any of the range of width values available to the [[css/properties/border-width|'''border-width''']] property. Default value is <tt>medium</tt>.
 }}
 }}
 {{Examples_Section
