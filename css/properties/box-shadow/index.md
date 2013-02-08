@@ -46,7 +46,7 @@ Given a box, the shadow style is represented as follows:
 |LiveURL=http://dabblet.com/gist/4739446
 }}{{Single Example
 |Language=HTML
-|Code=&lt;article style=&quot;box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); border: 1px solid #f00;&quot;&gt;
+|Code=&lt;article&gt;
 	&lt;h1&gt;Drop Shadows - Web Platform Docs Examples&lt;/h1&gt;
 	&lt;p&gt;An example of a basic Drop Shadow&lt;/p&gt;
 	&lt;footer role=&quot;contentinfo&quot;&gt;
