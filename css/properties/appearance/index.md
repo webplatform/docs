@@ -4,14 +4,16 @@
 {{API_Name}}
 {{Summary_Section|With the appearance property any element can have the style of platform-based interface elements.}}
 {{CSS Property
-|Initial value=normal
+|Initial value=none
 |Applies to=all elements
 |Inherited=No
 |Media=visual
 |Computed value=specific value
 |Animatable=No
 |CSS percentages=N/A
-|Values={{CSS Property Value}}
+|Values={{CSS Property Value
+|Data Type=button
+}}{{CSS Property Value}}
 }}
 {{Examples_Section
 |Not_required=No
