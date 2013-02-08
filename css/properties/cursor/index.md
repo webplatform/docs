@@ -29,7 +29,7 @@ Check out the Examples.
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=The following Example shows the standard cursors. Just hover over the boxes and you see the cursors.
+|Description=The following Example shows the standard cursors. Just hover the boxes and you see the cursors.
 
 				<div style="overflow: hidden;">
 		<h3>General</h3>
