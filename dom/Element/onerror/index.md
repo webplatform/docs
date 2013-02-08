@@ -5,14 +5,8 @@
 {{Standardization_Status|}}
 {{API_Name}}
 {{API_Object_Property
-|Interface=apis/file/MSStream
-|Target=dom/Element
-|Default_action=
-|Content=
-|Event_applies_to=dom/Element
-|Synchronous=No
-|Bubbles=No
-|Cancelable=No
+|Property_applies_to=dom/Element
+|Read_only=
 }}
 {{Topics|Events}}
 {{Notes_Section
