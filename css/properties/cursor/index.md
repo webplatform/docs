@@ -16,8 +16,11 @@
 |CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=url
+|Description=Optional.
+A <code>url(…)</code> or a comma separated list url(…), url(…), … , pointing to an image file. More than one <uri> may be provided as fallback, in case some cursor image types are not supported. A non-URL fallback (one ore more of the other values) must be at the end of the fallback list. See Using URL values for the cursor property for more details.
 }}{{CSS Property Value
-|Data Type=auto, default, none, context-menu, help, pointer, progress, wait, cell, crosshair, text, vertical-text, alias, copy, move, no-drop, not-allowed, e-resize, n-resize, ne-resize, nw-resize, s-resize, se-resize, sw-resize, w-resize, ew-resize, ns-resize, nesw-resize, nwse-resize, col-resize, row-resize, all-scroll, zoom-in, zoom-out
+|Data Type=standard values
+|Description=Available cursors: auto, default, none, context-menu, help, pointer, progress, wait, cell, crosshair, text, vertical-text, alias, copy, move, no-drop, not-allowed, e-resize, n-resize, ne-resize, nw-resize, s-resize, se-resize, sw-resize, w-resize, ew-resize, ns-resize, nesw-resize, nwse-resize, col-resize, row-resize, all-scroll, zoom-in, zoom-out
 }}
 }}
 {{Examples_Section
