@@ -13,7 +13,7 @@
 <html>
 <head>
   <title>Canvas gradient test</title>
-  <script type="text/javascript">
+  <script>
     function draw() {
       var canvas = document.getElementById("MyCanvas");
       if (canvas.getContext) {  // check for support
