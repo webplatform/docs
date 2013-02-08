@@ -58,6 +58,13 @@
 |Examples={{Single Example
 |Language=HTML
 |Code=<span>Lorem</span>
+<style>
+span {
+-webkit-appearance: button;
+-moz-appearance: button;
+appearance: button;
+}
+</style>
 }}
 }}
 {{Notes_Section}}
