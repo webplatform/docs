@@ -11,7 +11,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
-|Description=Spawning and communicating with a Worker
+|Description=Spawning and communicating with a Worker (document.html)
 |Code=// create worker
 var worker = new Worker('script.js');
 // receive data from worker
@@ -20,6 +20,15 @@ worker.onmessage = function(event) {
 };
 // pass data to worker
 worker.postMessage("hello worker");
+}}{{Single Example
+|Language=JavaScript
+|Description=Being spawned as a worker (script.js) and communicating with parent (document.html)
+|Code=// pass data to parent
+self.postMessage("ready for business");
+// receive data from parent
+self.onmessage = function(event) {
+  self.postMessage('Worker received ' + event.data);
+};
 }}
 }}
 {{Notes_Section
