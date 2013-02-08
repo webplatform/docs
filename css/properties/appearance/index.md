@@ -10,7 +10,7 @@
 |Media=visual
 |Computed value=specific value
 |Animatable=No
-|CSS percentages=N/A
+|CSS percentages=N/A}}
 |Values={{CSS Property Value
 |Data Type=button
 }}
