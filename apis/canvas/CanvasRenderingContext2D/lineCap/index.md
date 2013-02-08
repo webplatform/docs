@@ -14,7 +14,7 @@
 * "square"
 }}
 {{Examples_Section
-|Not_required=Yes
+|Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
 |Description=The following example draws three lines with the different line endings. With blue lines showing where the normal end of the line is.
