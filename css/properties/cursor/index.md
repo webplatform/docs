@@ -32,19 +32,8 @@ Check out the Examples.
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Language=CSS
-|Description=
-|Code=
-.foo { cursor: crosshair; }
- 
-/* use prefixed-value if "zoom-in" isn't supported */
-.bar { cursor: -webkit-zoom-in;  cursor: -moz-zoom-in;  cursor: zoom-in; } 
- 
-/* standard cursor value as fallback for url() must be provided (doesn't work without) */
-.baz { cursor: url(hyper.cur), auto }
-}}{{Single Example
 |Description=The following Example shows the standard cursors. Just hover over the boxes and you see the cursors.
-|Code=
+
 		<div style="overflow: hidden;">
 		<h3>General</h3>
 		<div style="overflow: hidden;">
@@ -95,7 +84,14 @@ Check out the Examples.
 		<div style="width: 25%; text-align: center; margin-right: 2%; float: left; background: #f4f5f7; cursor: -moz-grabbing; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: -moz-grabbing;</div>
 		</div>
 	</div>
-
+|Code=
+.foo { cursor: crosshair; }
+ 
+/* use prefixed-value if "zoom-in" isn't supported */
+.bar { cursor: -webkit-zoom-in;  cursor: -moz-zoom-in;  cursor: zoom-in; } 
+ 
+/* standard cursor value as fallback for url() must be provided (doesn't work without) */
+.baz { cursor: url(hyper.cur), auto }
 |LiveURL=
 }}
 }}
