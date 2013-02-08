@@ -76,13 +76,11 @@ Check out the Examples.
 		<div style="width: 25%; margin-right: 2%; float: left; background: #f4f5f7; cursor: ew-resize; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: ew-resize;</div>
 		<div style="width: 25%; margin-right: 2%; float: left; background: #ffffff; cursor: ns-resize; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: ns-resize;</div>
 		<div style="width: 25%; margin-right: 2%; float: left; background: #f4f5f7; cursor: nesw-resize; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: nesw-resize;</div>
-		<div style="width: 25%; margin-right: 2%; float: left; background: #ffffff; cursor: nwse-resize; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: nwse-resize;</div></div>
-</div>
+		<div style="width: 25%; margin-right: 2%; float: left; background: #ffffff; cursor: nwse-resize; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: nwse-resize;</div></div></div>
 
 
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/cursor_h.htm
+|LiveURL=
 }}
-
 }}
 {{Notes_Section
 |Notes====Remarks===
