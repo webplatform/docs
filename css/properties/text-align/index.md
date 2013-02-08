@@ -6,7 +6,7 @@
 {{API_Name}}
 {{Summary_Section|The text-align property controls the horizontal alignment of text within an element.}}
 {{CSS Property
-|Initial value=depends on direction
+|Initial value=depends on <a href="direction">direction</a>
 |Applies to=All elements
 |Inherited=Yes
 |Media=visual
