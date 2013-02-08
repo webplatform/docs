@@ -45,8 +45,7 @@ The property handles a comma-separated list of cursor values. If the user agent 
 In Internet Explorer 6, The cursor property supports <code>progress, not-allowed, no-drop, vertical-text, all-scroll, col-resize, row-resize,</code> and <code>url(uri)</code> as new cursor styles.
 Cursors support many shape, color and movement combinations.  This permits you to subtitute the default cursors with your preferred design.  For instance, you may want your company logo to display as the "progress" cursor;  or your country's flag waving in the wind to display as the "wait" cursor.
 Cursors have been the subject of security bulletins and updates.  If your custom cursors are not behaving as expected, examine the security settings for your browser along with your cursors.  This is a common issue with animated cursors.  For an example, refer to [http://go.microsoft.com/fwlink/p/?linkid{{=}}203632 TechNet Security Resources] and search for "Microsoft Security Bulletin MS05-002".
-|Import_Notes====Syntax===
-<code>'''cursor: '''all-scroll '''{{!}}''' auto '''{{!}}''' col-resize '''{{!}}''' crosshair '''{{!}}''' default '''{{!}}''' hand '''{{!}}''' help '''{{!}}''' move '''{{!}}''' no-drop '''{{!}}''' not-allowed '''{{!}}''' pointer '''{{!}}''' progress '''{{!}}''' row-resize '''{{!}}''' text '''{{!}}''' url(uri) '''{{!}}''' vertical-text '''{{!}}''' wait '''{{!}}''' *-resize</code>
+|Import_Notes
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 18.1
 }}
