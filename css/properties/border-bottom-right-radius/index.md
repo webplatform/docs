@@ -44,13 +44,13 @@ border-bottom-right-radius: 10px 10px;
 {{Notes_Section
 |Notes====Remarks===
 The '''border-bottom-right-radius''' property specifies the horizontal and vertical radii of the ellipse that defines the rounded lower-right corner of a border box. If there is only one value given, that value specifies both horizontal and vertical radii of the ellipse. If there are two values given, the first value sets the horizontal radius and the second value sets the vertical radius.
-|Import_Notes====Syntax===
-<code>'''border-bottom-right-radius: '''radius '''{{!}}''' percentage</code>
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}197157 CSS Backgrounds and Borders Module Level 3], Section 4.4
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Backgrounds and Borders Module Level 3: Rounded Corners:
+|URL=http://www.w3.org/TR/css3-background/#border-bottom-right-radius
+|Status=Candidate Recommendation
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
