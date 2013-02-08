@@ -5,8 +5,9 @@
 {{Summary_Section|An opaque object of the canvas API.}}
 {{API_Object}}
 {{Examples_Section
-|Not_required=Yes
+|Not_required=No
 |Examples={{Single Example
+|Language=HTML
 |Description=The following code example creates a gradient.
 |Code=<!DOCTYPE html>
 <html>
