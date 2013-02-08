@@ -6,7 +6,7 @@
 
 Given a box, the shadow style is represented as follows:
 
-<shadow> = inset? && [ <length>{2,4} && <color>? ]
+<pre><shadow> = inset? && [ <length>{2,4} && <color>? ]</pre>
 
 }}
 {{CSS Property
