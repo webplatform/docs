@@ -1,5 +1,6 @@
 {{Page_Title|Manipulating CSS with JavaScript}}
-{{Flags}}
+{{Flags
+}}
 {{Byline}}
 {{Summary_Section|In this article we look at the basics of how to manipulate CSS styles using JavaScript.}}
 {{Tutorial
