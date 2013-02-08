@@ -45,11 +45,18 @@ element { color: hsl(120, 100%, 50%) }
 /* 50% translucent */
 element { color: rgba(0, 128, 0, 0.5) } 
 element { color: hsla(120, 100%, 50%, 0.5) }
+}}{{Single Example
+|Language=HTML
+|Code=<style>
+#example-green {
+color: green;
+}
+</style>
+<p id="example-green"> This text should be green </p>
 }}
 }}
 {{Notes_Section
 |Usage=Though CSS color values are precisely defined, they may appear differently on an output device. Most of them are not calibrated, and some browsers do not support output devices color profile. Without these, color rendering may vary a lot.
-
 |Notes==== Separating foreground from background ===
 In order to make it easier for users to see and hear content including separating foreground from background, [[http://www.w3.org/TR/2008/REC-WCAG20-20081211/ WCAG]] indicates the following:
 * color is not used as the only visual means of conveying information, indicating an action, prompting a response, or distinguishing a visual element. [[http://www.w3.org/TR/2008/REC-WCAG20-20081211/#visual-audio-contrast-without-color Guideline 1.4.1]] (Level A)
