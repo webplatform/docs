@@ -22,7 +22,7 @@
 |Description=The following examples use the '''cursor''' attribute and the '''cursor''' property to change the cursor as it passes over an object.
 
 This example uses a call to an embedded (global) style sheet to set the cursor to '''hand''' as the cursor passes over all paragraphs.
-|Code=<div style="height: 20px; width: 100px; background: rgba(0, 0, 0, 0.6); color: #fff; text-align: center;">
+<div style="height: 20px; width: 100px; background: rgba(0, 0, 0, 0.6); color: #fff; text-align: center;">
         	cursor: help;
 </div>
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/cursor_h.htm
