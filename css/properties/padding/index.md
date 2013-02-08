@@ -1,12 +1,10 @@
 {{Page_Title}}
-{{Flags
-|Content=Compatibility Incomplete, Examples Best Practices
-}}
+{{Flags}}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|The <code>padding</code> CSS property sets the required padding space on all sides of an element. The padding area is the space between the content of the element and its border. Negative values are not allowed.
 
-The <code>padding</code> property is a shorthand to avoid setting each side separately ([[css/properties/padding-top|padding-top]], [[css/properties/padding-top|padding-right]], [[css/properties/padding-top|padding-bottom]], [[css/properties/padding-top|padding-left]]).
+The <code>padding</code> property is a shorthand to avoid setting each side separately ([[css/properties/padding-top|padding-top]], [[css/properties/padding-right|padding-right]], [[css/properties/padding-bottom|padding-bottom]], [[css/properties/padding-left|padding-left]]).
 }}
 {{CSS Property
 |Initial value=0
@@ -18,7 +16,7 @@ The <code>padding</code> property is a shorthand to avoid setting each side sepa
 |CSS percentages=relative to the 'width' of the containing block
 |Values={{CSS Property Value
 |Data Type=length
-|Description=Specifies a non-negative fixed width. See <length> for details.
+|Description=Specifies a non-negative fixed width. See [[css/properties/length|length]] for details.
 }}{{CSS Property Value
 |Data Type=percentage
 |Description=With respect to the 'width' of the containing block.
@@ -32,6 +30,21 @@ The <code>padding</code> property is a shorthand to avoid setting each side sepa
 }}{{Single Example
 |Language=CSS
 |Code=padding: 10px;              /* on all sides 10px padding */
+}}{{Single Example
+|Language=CSS
+|Code=padding: 10px 20px;         /*  top and bottom 10px padding  */
+                            /*  left and right 20px padding  */
+}}{{Single Example
+|Language=CSS
+|Code=padding: 10px 3% 20px;      /*  top 10px padding          */
+                            /*  left and right 3% padding */
+                            /*  bottom 20px padding       */
+}}{{Single Example
+|Language=CSS
+|Code=padding: 1em 3px 30px 5px;  /*  top    1em  padding  */
+                            /*  right  3px  padding  */
+                            /*  bottom 30px padding  */
+                            /*  left   5px  padding  */
 }}
 }}
 {{Notes_Section
