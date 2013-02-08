@@ -12,6 +12,7 @@
 |Inherited=Yes
 |Media=visual
 |Animatable=No
+|CSS object model property=textShadow
 |Values={{CSS Property Value
 |Data Type=none
 |Description=Default. Indicates there is no shadow.
@@ -52,6 +53,7 @@ The '''text-shadow''' property can specify one or more drop shadows. The compone
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
 |Chrome_version=2.0.158.0
