@@ -107,6 +107,7 @@ Cursors have been the subject of security bulletins and updates.  If your custom
 |Not_required=No
 |Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
+|Feature=auto, crosshair, default, move, text, wait, help, n-resize, e-resize, s-resize, w-resize, ne-resize, nw-resize, se-resize, sw-resize
 |Chrome_supported=Yes
 |Chrome_version=1.0
 |Chrome_prefixed_supported=Unknown
@@ -126,6 +127,28 @@ Cursors have been the subject of security bulletins and updates.  If your custom
 |Safari_supported=Yes
 |Safari_version=1.2
 |Safari_prefixed_supported=Unknown
+|Safari_prefixed_version=
+}}{{Compatibility Table Desktop Row
+|Feature=hand (just use pointer for this purpose)
+|Chrome_supported=No
+|Chrome_version=
+|Chrome_prefixed_supported=No
+|Chrome_prefixed_version=
+|Firefox_supported=No
+|Firefox_version=
+|Firefox_prefixed_supported=No
+|Firefox_prefixed_version=
+|Internet_explorer_supported=Yes
+|Internet_explorer_version=4.0
+|Internet_explorer_prefixed_supported=Yes
+|Internet_explorer_prefixed_version=4.0
+|Opera_supported=No
+|Opera_version=
+|Opera_prefixed_supported=No
+|Opera_prefixed_version=
+|Safari_supported=No
+|Safari_version=
+|Safari_prefixed_supported=No
 |Safari_prefixed_version=
 }}
 |Mobile_rows={{Compatibility Table Mobile Row
