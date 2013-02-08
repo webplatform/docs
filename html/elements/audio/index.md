@@ -331,7 +331,13 @@ This property is not supported for Metro style apps using JavaScript
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Description=Basic usage
+|Code=<audio src="http://developer.mozilla.org/@api/deki/files/2926/=AudioTest_(1).ogg" autoplay>
+  Your browser does not support the <code>audio</code> element.
+</audio>
+}}
 }}
 {{Notes_Section
 |Notes====Remarks===
