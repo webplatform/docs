@@ -82,6 +82,7 @@
 |Status=W3C Recommendation
 }}
 }}
+Note: The pointer-events property used to be in the CSS 3 UI specification, but it has been postponed to CSS 4 due to many open issues.
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
@@ -205,4 +206,3 @@
 |MSDN_link=
 |HTML5Rocks_link=
 }}
-Note: The pointer-events property used to be in the CSS 3 UI specification, but it has been postponed to CSS 4 due to many open issues.
