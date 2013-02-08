@@ -7,75 +7,76 @@
 {{API_Name}}
 {{Summary_Section|Specifies the type of list-item marker in a list.}}
 {{CSS Property
+|Initial value=disc
 |Applies to=elements with 'display: list-item'
 |Inherited=Yes
 |Media=visual
 |Animatable=No
 |Values={{CSS Property Value
-|Data Type=armenian	
-|Description=The marker is traditional Armenian numbering 
+|Data Type=armenian
+|Description=The marker is traditional Armenian numbering
 }}{{CSS Property Value
-|Data Type=circle	
-|Description=circle 
+|Data Type=circle
+|Description=circle
 }}{{CSS Property Value
-|Data Type=cjk-ideographic	
-|Description=plain ideographic numbers 
+|Data Type=cjk-ideographic
+|Description=plain ideographic numbers
 }}{{CSS Property Value
-|Data Type=decimal	
-|Description= number. This is default for &lt;ol&gt; 
+|Data Type=decimal
+|Description=number. This is default for &lt;ol&gt;
 }}{{CSS Property Value
-|Data Type=decimal-leading-zero	
-|Description=number with leading zeros (01, 02, 03, etc.) 
+|Data Type=decimal-leading-zero
+|Description=number with leading zeros (01, 02, 03, etc.)
 }}{{CSS Property Value
-|Data Type=disc	
+|Data Type=disc
 |Description=filled circle. This is default for &lt;ul&gt;
 }}{{CSS Property Value
-|Data Type=georgian	
-|Description=traditional Georgian numbering 
+|Data Type=georgian
+|Description=traditional Georgian numbering
 }}{{CSS Property Value
-|Data Type=hebrew	
-|Description=The marker is traditional Hebrew numbering 
+|Data Type=hebrew
+|Description=The marker is traditional Hebrew numbering
 }}{{CSS Property Value
-|Data Type=hiragana	
-|Description=traditional Hiragana numbering 
+|Data Type=hiragana
+|Description=traditional Hiragana numbering
 }}{{CSS Property Value
-|Data Type=hiragana-iroha	
-|Description= traditional Hiragana iroha numbering 
+|Data Type=hiragana-iroha
+|Description=traditional Hiragana iroha numbering
 }}{{CSS Property Value
-|Data Type=inherit	
-|Description=The value of the listStyleType property is inherited from parent element	
+|Data Type=inherit
+|Description=The value of the listStyleType property is inherited from parent element
 }}{{CSS Property Value
-|Data Type=katakana	
-|Description=traditional Katakana numbering 
+|Data Type=katakana
+|Description=traditional Katakana numbering
 }}{{CSS Property Value
-|Data Type=katakana-iroha	
-|Description=traditional Katakana iroha numbering 
+|Data Type=katakana-iroha
+|Description=traditional Katakana iroha numbering
 }}{{CSS Property Value
-|Data Type=lower-alpha	
-|Description=lower-alpha (a, b, c, d, e, etc.) 
+|Data Type=lower-alpha
+|Description=lower-alpha (a, b, c, d, e, etc.)
 }}{{CSS Property Value
-|Data Type=lower-greek	
-|Description=lower-greek 
+|Data Type=lower-greek
+|Description=lower-greek
 }}{{CSS Property Value
-|Data Type=lower-latin	
-|Description=lower-latin (a, b, c, d, e, etc.) 
+|Data Type=lower-latin
+|Description=lower-latin (a, b, c, d, e, etc.)
 }}{{CSS Property Value
-|Data Type=lower-roman	
-|Description=lower-roman (i, ii, iii, iv, v, etc.) 
+|Data Type=lower-roman
+|Description=lower-roman (i, ii, iii, iv, v, etc.)
 }}{{CSS Property Value
-|Data Type=none	
-|Description=No marker is shown 
+|Data Type=none
+|Description=No marker is shown
 }}{{CSS Property Value
-|Data Type=square	
-|Description=square 
+|Data Type=square
+|Description=square
 }}{{CSS Property Value
-|Data Type=upper-alpha	
-|Description=upper-alpha (A, B, C, D, E, etc.)  
+|Data Type=upper-alpha
+|Description=upper-alpha (A, B, C, D, E, etc.)
 }}{{CSS Property Value
-|Data Type=upper-latin	
-|Description=upper-latin (A, B, C, D, E, etc.) 
+|Data Type=upper-latin
+|Description=upper-latin (A, B, C, D, E, etc.)
 }}{{CSS Property Value
-|Data Type=upper-roman	
+|Data Type=upper-roman
 |Description=upper-roman (I, II, III, IV, V, etc.)
 }}
 }}
