@@ -11,7 +11,19 @@
 |Computed value=all length made absolute, or as specified
 |Animatable=No
 |CSS percentages=Relative to the width, for horizontal effects, or the height, for vertical effects, of the border image area.
-|Values=
+|Values={{CSS Property Value
+|Data Type=<length>
+|Description=Represents the length of the image slice. It can be an absolute or relative length. This length must not be negative.
+}}{{CSS Property Value
+|Data Type=<percentage>
+|Description=Represents the percentage of the image slice relative to the height, or width, of the border image area. The percentage must not be negative.
+}}{{CSS Property Value
+|Data Type=<number>
+|Description=Represents a multiple of the computed value of the element's <code>border-width</code> property to be used as the image slice size. The number must not be negative.
+}}{{CSS Property Value
+|Data Type=auto
+|Description=Indicates that the width, or height, of the image size must be the intrinsic size of that dimension.
+}}
 }}
 {{Examples_Section
 |Not_required=No
