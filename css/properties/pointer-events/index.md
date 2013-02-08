@@ -1,6 +1,6 @@
 {{Page_Title|pointer-events}}
 {{Flags
-|Content=Incomplete, Compatibility Incomplete, Examples Needed
+|Content=Incomplete, Compatibility Incomplete
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -18,7 +18,7 @@
 |Description=In HTML/XML content, this value and the value all have the same effect. In SVG content, this value and the value visiblePainted have the same effect.
 }}{{CSS Property Value
 |Data Type=none
-|Description=The element is never the target of pointer events, although pointer events may target its descendant elements if those descendants have pointer-events set to some other value.
+|Description=The element is never the target of pointer events, although pointer events may target its descendant elements if those descendants have the <code>pointer-events</code> set to some other value.
 }}{{CSS Property Value
 |Data Type=all
 |Description=The element may be the target element for pointer events whenever the pointer is inside the CSS border edge of the element.
@@ -81,7 +81,6 @@
 |Status=W3C Recommendation
 }}
 }}
-Note: The pointer-events property used to be in the CSS 3 UI specification, but it has been postponed to CSS 4 due to many open issues.
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
@@ -198,10 +197,11 @@ Note: The pointer-events property used to be in the CSS 3 UI specification, but 
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|CSS}}
+{{Topics|CSS, SVG}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
 |MSDN_link=
 |HTML5Rocks_link=
 }}
+Note: The pointer-events property used to be in the CSS 3 UI specification, but it has been postponed to CSS 4 due to many open issues.
