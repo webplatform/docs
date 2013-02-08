@@ -11,7 +11,7 @@ On block level elements, line-height specifies the minimal height of line boxes 
 {{CSS Property
 |Initial value=normal
 |Applies to=All elements
-|Inherited=No
+|Inherited=Yes
 |Media=visual
 |Animatable=No
 |Values={{CSS Property Value
