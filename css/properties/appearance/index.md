@@ -12,7 +12,8 @@
 |Animatable=No
 |CSS percentages=N/A
 |Values={{CSS Property Value
-|Data Type=button}}
+|Data Type=button
+}}{{CSS Property Value}}
 }}
 {{Examples_Section
 |Not_required=No
