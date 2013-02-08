@@ -72,7 +72,7 @@ They are functionally the same as HTML 4.01 transitional and XHTML 1.0 transitio
 
 You may also occasionally see other doctypes on your travels, but they are not mentioned here because they are outdated. Don't use any other doctypes. Not by choice, anyway.
 
-=== Loose versus strict syntax  ===
+=== HTML versus XML syntax  ===
 
 Table 1 shows the main syntax differences between HTML and XHTML:
                           
