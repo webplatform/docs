@@ -57,6 +57,10 @@ However, when websites, web technologies, or web tools are badly designed, they 
 
 ==ARIA==
 
+<p>
+"WAI-ARIA describes how to add semantics and other metadata to HTML content in order to make user interface controls and dynamic content more accessible. For example, with WAI-ARIA it is possible to identify a list of links as a navigation menu and to state whether it is expanded or collapsed." 
+For further information please refer to [http://en.wikipedia.org/wiki/WAI-ARIA]
+</p>
 <p>For an introduction to Rich Internet Application accessibility challenges and solutions, see [http://www.w3.org/TR/wai-aria-primer/ WAI-ARIA 1.0 Primer].</p>
 
 ==The components of web accessibility==
