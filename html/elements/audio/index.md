@@ -337,6 +337,13 @@ This property is not supported for Metro style apps using JavaScript
 |Code=<audio src="http://developer.mozilla.org/@api/deki/files/2926/=AudioTest_(1).ogg" autoplay>
   Your browser does not support the <code>audio</code> element.
 </audio>
+}}{{Single Example
+|Language=HTML
+|Description=Audio element with source element
+|Code=<audio controls="controls">
+  Your browser does not support the <code>audio</code> element.
+  <source src="foo.wav" type="audio/wav">
+</audio>
 }}
 }}
 {{Notes_Section
@@ -709,8 +716,8 @@ Beginning with Internet Explorer 9, any audio or video content needs the correc
 {{Topics|Audio, HTML, Media}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
+|Sources=MDN, MSDN
+|MDN_link=https://developer.mozilla.org/en-US/docs/HTML/Element/audio
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
