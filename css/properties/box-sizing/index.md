@@ -68,6 +68,28 @@ div{
 |Safari_version=5.1
 |Safari_prefixed_supported=Yes
 |Safari_prefixed_version=3.1
+}}{{Compatibility Table Desktop Row
+|Feature=padding-box
+|Chrome_supported=No
+|Chrome_version=
+|Chrome_prefixed_supported=No
+|Chrome_prefixed_version=
+|Firefox_supported=Yes
+|Firefox_version=1
+|Firefox_prefixed_supported=No
+|Firefox_prefixed_version=
+|Internet_explorer_supported=No
+|Internet_explorer_version=
+|Internet_explorer_prefixed_supported=No
+|Internet_explorer_prefixed_version=
+|Opera_supported=No
+|Opera_version=
+|Opera_prefixed_supported=No
+|Opera_prefixed_version=
+|Safari_supported=No
+|Safari_version=
+|Safari_prefixed_supported=No
+|Safari_prefixed_version=
 }}
 |Mobile_rows={{Compatibility Table Mobile Row
 |Android_supported=Yes
@@ -102,28 +124,42 @@ div{
 |Safari_mobile_version=5.0
 |Safari_mobile_prefixed_supported=Yes
 |Safari_mobile_prefixed_version=3.2
+}}{{Compatibility Table Mobile Row
+|Feature=padding-box
+|Android_supported=No
+|Android_version=
+|Android_prefixed_supported=No
+|Android_prefixed_version=
+|Blackberry_supported=No
+|Blackberry_version=
+|Blackberry_prefixed_supported=No
+|Blackberry_prefixed_version=
+|Chrome_mobile_supported=No
+|Chrome_mobile_version=
+|Chrome_mobile_prefixed_supported=No
+|Chrome_mobile_prefixed_version=
+|Firefox_mobile_supported=No
+|Firefox_mobile_version=
+|Firefox_mobile_prefixed_supported=Yes
+|Firefox_mobile_prefixed_version=18
+|IE_mobile_supported=Unknown
+|IE_mobile_version=
+|IE_mobile_prefixed_supported=Unknown
+|IE_mobile_prefixed_version=
+|Opera_mobile_supported=No
+|Opera_mobile_version=
+|Opera_mobile_prefixed_supported=No
+|Opera_mobile_prefixed_version=
+|Opera_mini_supported=No
+|Opera_mini_version=
+|Opera_mini_prefixed_supported=No
+|Opera_mini_prefixed_version=
+|Safari_mobile_supported=No
+|Safari_mobile_version=
+|Safari_mobile_prefixed_supported=No
+|Safari_mobile_prefixed_version=
 }}
-|Notes_rows={{Compatibility Notes Row
-|Browser=Internet Explorer
-|Version=8
-|Note=This property requires Windows Internet Explorer to be in IE8 Standards mode rendering.
-}}{{Compatibility Notes Row
-|Browser=Chrome
-|Version=1+
-|Note=Chrome does not support the padding-box value.
-}}{{Compatibility Notes Row
-|Browser=Internet Explorer
-|Version=8+
-|Note=Internet Explorer does not support the padding-box value.
-}}{{Compatibility Notes Row
-|Browser=Safari
-|Version=3.1+
-|Note=Safari does not support the padding-box value.
-}}{{Compatibility Notes Row
-|Browser=Opera
-|Version=9.5+
-|Note=Opera does not support the padding-box value.
-}}
+|Notes_rows=
 }}
 {{See_Also_Section
 |Topic_clusters=Visual Effects
