@@ -17,12 +17,19 @@
 |Data Type=auto
 }}{{CSS Property Value
 |Data Type=none
+|Description=The element is never the target of pointer events, although pointer events may target its descendant elements if those descendants have pointer-events set to some other value.
+}}{{CSS Property Value
+|Data Type=all
+|Description=The element may be the target element for pointer events whenever the pointer is inside the CSS border edge of the element.
 }}{{CSS Property Value
 |Data Type=visiblePainted
+|Description=For SVG only. The element can only be the target of a pointer event when the <code>visibility</code> property is set to <span class="value">visible</span> and when the pointer is over the interior (i.e., 'fill') of the element or the perimeter (i.e., 'stroke') of the element, and the <code>fill</code>, <code>stroke</code> property is set to a value other than none.
 }}{{CSS Property Value
 |Data Type=visibleFill
+|Description=For SVG only. The element can only be the target of a pointer event when the <code>visibility</code> property is set to visible and when the pointer is over the interior (i.e., fill) of the element.
 }}{{CSS Property Value
 |Data Type=visibleStroke
+|Description=For SVG only. The element can only be the target of a pointer event when the <code>visibility</code> property is set to visible and when the pointer is over the perimeter (i.e., stroke) of the element.
 }}{{CSS Property Value
 |Data Type=visible
 }}{{CSS Property Value
@@ -31,8 +38,6 @@
 |Data Type=fill
 }}{{CSS Property Value
 |Data Type=stroke
-}}{{CSS Property Value
-|Data Type=inherit
 }}
 }}
 {{Examples_Section
