@@ -6,6 +6,7 @@
 {{API_Name}}
 {{Summary_Section|The text-align property controls the horizontal alignment of text within an element.}}
 {{CSS Property
+|Initial value=depends on direction
 |Applies to=All elements
 |Inherited=Yes
 |Media=visual
@@ -63,6 +64,7 @@ The '''justify''' possible value is available as of Microsoft Internet ExplorerÂ
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
 |Chrome_version=1.0
