@@ -14,7 +14,6 @@
 |Computed value=as specified (if a keyword)
 |Animatable=No
 |CSS percentages=N/A
-|Values=
 }}
 
 {{Examples_Section
