@@ -6,7 +6,15 @@
 {{CSS_At_Rule}}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|Code=@media screen and (max-width:400px) {
+    @-ms-viewport{
+        width:320px;
+        /* the viewport for small devices is set to 320px */
+    }
+}
+}}
 }}
 {{Notes_Section
 |Notes====Remarks===
