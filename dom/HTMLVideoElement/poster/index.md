@@ -9,6 +9,7 @@
 {{API_Object_Property
 |Property_applies_to=dom/HTMLVideoElement
 |Read_only=No
+|Javascript_data_type=String
 }}
 {{Examples_Section
 |Not_required=No
