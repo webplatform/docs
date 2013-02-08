@@ -52,11 +52,12 @@
   border-image-repeat: round;
 }
 
-/* note that round and space have quite limited browser support at the moment */
-
 .class {
   border-image-repeat: space;
 }
+
+/* Note that round and space have quite limited browser support at the moment. Where limited means non-existent  */
+
 }}
 }}
 {{Notes_Section}}
