@@ -11,7 +11,16 @@
 }}
 {{Examples_Section
 |Not_required=Yes
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=Checking fo the updateready status
+|Code=// try to trigger an application cache update
+window.applicationCache.update();
+
+if (window.applicationCache.status === window.applicationCache.UPDATEREADY) {
+   console.log('Cache is now ready for an update');
+}
+}}
 }}
 {{Notes_Section
 |Notes=If this event indicates that the resources have been redownloaded,  the script can use [[apis/appcache/ApplicationCache/swapCache|swapCache]] to switch to the new cache.
