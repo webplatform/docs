@@ -2,12 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|The ‘box-shadow’ property attaches one or more shadows inside or outside of a box-model element. The property is a comma-separated list of shadows, each specified by 2-4 length values, an optional color, and an optional ‘inset’ keyword. This simple effect can be manipulated to generate complex effects.
-
-Given a box, the shadow style is represented as follows:
-
-<pre><shadow> = inset? && [ <length>{2,4} && <color>? ]</pre>
-|The ‘box-shadow’ property attaches one or more shadows inside or outside of a box-model element_ The property is a comma-separated list of shadows, each specified by 2-4 length values, an optional color, and an optional ‘inset’ keyword_ This simple effect can be manipulated to generate complex effects_
+{{Summary_Section|The ‘box-shadow’ property attaches one or more shadows inside or outside of a box-model element_ The property is a comma-separated list of shadows, each specified by 2-4 length values, an optional color, and an optional ‘inset’ keyword_ This simple effect can be manipulated to generate complex effects_
 
 Given a box, the shadow style is represented as follows:
 
@@ -40,7 +35,7 @@ Given a box, the shadow style is represented as follows:
 }}
 }}
 {{Examples_Section
-|Not_required=Yes
+|Not_required=No
 |Examples={{Single Example
 |Language=CSS
 |Code=.shadow {
