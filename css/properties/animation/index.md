@@ -5,7 +5,8 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|The CSS3 Animation module describes a way for authors to animate CSS properties over time without the use of Javascript. Animations use keyframes to specify points of animation and timing to state when those keyframes should appear. Those keyframes exist in a separate [[css/atrules/@keyframes|'''@keyframes''']] section. The browser automatically handles the inbetween state, or tween, as it is more commonly known between each keyframe property. Animation is a shorthand property that defines all the properties of an animation in a single declaration. Animation applies to all elements. See the keyframes section linked above for a list of properties that can be animated.
+{{Summary_Section|The CSS3 Animation module describes a way for authors to animate CSS properties over time. Before the advent of CSS3, most animations were performed with the aid of Javascript, this module allows browser vendors to better support animations with hardware acceleration, especially on mobile devices. 
+Animations use keyframes to specify points of animation and timing to state when those keyframes should appear. Those keyframes exist in a separate [[css/atrules/@keyframes|'''@keyframes''']] section. The browser automatically handles the inbetween state, or tween, as it is more commonly known between each keyframe property. Animation is a shorthand property that defines all the properties of an animation in a single declaration. Animation applies to all elements. See the keyframes section linked above for a list of properties that can be animated.
 Also, see [[tutorials/css_animations|" the CSS animations tutorial"]]
 }}
 {{CSS Property
