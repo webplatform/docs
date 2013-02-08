@@ -167,8 +167,8 @@ The '''border-radius''' property is a composite property that specifies up to fo
 |Mobile_rows={{Compatibility Table Mobile Row
 |Android_supported=Yes
 |Android_version=2.2
-|Android_prefixed_supported=No
-|Android_prefixed_version=
+|Android_prefixed_supported=Yes
+|Android_prefixed_version=2.1
 |Blackberry_supported=Yes
 |Blackberry_version=7.0
 |Blackberry_prefixed_supported=Yes
@@ -195,8 +195,8 @@ The '''border-radius''' property is a composite property that specifies up to fo
 |Opera_mini_prefixed_version=
 |Safari_mobile_supported=Yes
 |Safari_mobile_version=4.0
-|Safari_mobile_prefixed_supported=No
-|Safari_mobile_prefixed_version=
+|Safari_mobile_prefixed_supported=Yes
+|Safari_mobile_prefixed_version=3.2
 }}
 |Notes_rows={{Compatibility Notes Row
 |Browser=Internet Explorer
