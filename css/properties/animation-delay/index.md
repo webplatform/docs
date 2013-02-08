@@ -20,7 +20,12 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|Description=A delay of half a second. Example shows a delay of 5 seconds.
+|Code=animation-delay: 500ms;
+|LiveURL=http://03sq.net/examples/animation-delay.html
+}}
 }}
 {{Notes_Section
 |Usage=The <code>animation-delay</code> property delays the start of an animation by the amount specified in seconds (<code>s</code>) or thousandths of a second (<code>ms</code>). If a negative value is specified, the animation starts immediately, but at the point it would have reached at the specified offset. So, if the animation is four seconds long, and the delay is set to minus two seconds, it begins halfway through.
@@ -42,6 +47,7 @@ If fewer  '''animation-delay''' values are declared than corresponding [[css/pro
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=No
 |Chrome_version=
