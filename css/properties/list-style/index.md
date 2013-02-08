@@ -3,14 +3,15 @@
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|W3C Editor's Draft}}
+{{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|Sets  list-style-type, list-style-position, list-style-image properties in one declaration.}}
 {{CSS Property
 |Initial value=disc outside none
-|Applies to=All elements
+|Applies to=elements with display: list-item
 |Inherited=Yes
 |Media=visual
+|Computed value=see individual properties
 |Animatable=No
 |Values={{CSS Property Value
 |Data Type=type
@@ -38,13 +39,19 @@ This example uses '''ul''' and <code>UL.compact</code> as selectors in an embedd
 |Notes====Remarks===
 The '''list-style''' property is a composite property. When specifying both the '''type''' and '''image''' values, the '''image''' value takes precedence, unless the '''image''' value is set to '''none''' or the image pointed to by the URL cannot display.
 The '''list-style''' property also applies to all elements on which the [[css/properties/display|'''display''']] property is set to '''list-item'''.  To make the bullet points appear, you must explicitly set the [[css/properties/margin|'''margin''']] property or set the [[css/properties/list-style-position|'''list-style-position''']] property to '''inside''' on these elements.
-|Import_Notes====Syntax===
-<code>'''list-style: ''''''[''' type '''{{!}}{{!}}''' position '''{{!}}{{!}}''' image ''']'''</code>
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 5.6.6
+|Import_Notes=
+
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Lists and Counters Module Level 3
+|URL=http://dev.w3.org/csswg/css3-lists/#list-style
+|Status=Working Draft
+}}{{Related Specification
+|Name=CSS Level 2 (Revision 1)
+|URL=http://www.w3.org/TR/CSS2/generate.html#propdef-list-style
+|Status=Recommendation
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -72,35 +79,35 @@ The '''list-style''' property also applies to all elements on which the [[css/pr
 |Safari_prefixed_version=
 }}
 |Mobile_rows={{Compatibility Table Mobile Row
-|Android_supported=Unknown
+|Android_supported=Yes
 |Android_version=
 |Android_prefixed_supported=Unknown
 |Android_prefixed_version=
-|Blackberry_supported=Unknown
+|Blackberry_supported=Yes
 |Blackberry_version=
 |Blackberry_prefixed_supported=Unknown
 |Blackberry_prefixed_version=
-|Chrome_mobile_supported=Unknown
+|Chrome_mobile_supported=Yes
 |Chrome_mobile_version=
 |Chrome_mobile_prefixed_supported=Unknown
 |Chrome_mobile_prefixed_version=
-|Firefox_mobile_supported=Unknown
+|Firefox_mobile_supported=Yes
 |Firefox_mobile_version=
 |Firefox_mobile_prefixed_supported=Unknown
 |Firefox_mobile_prefixed_version=
-|IE_mobile_supported=Unknown
+|IE_mobile_supported=Yes
 |IE_mobile_version=
 |IE_mobile_prefixed_supported=Unknown
 |IE_mobile_prefixed_version=
-|Opera_mobile_supported=Unknown
+|Opera_mobile_supported=Yes
 |Opera_mobile_version=
 |Opera_mobile_prefixed_supported=Unknown
 |Opera_mobile_prefixed_version=
-|Opera_mini_supported=Unknown
+|Opera_mini_supported=Yes
 |Opera_mini_version=
 |Opera_mini_prefixed_supported=Unknown
 |Opera_mini_prefixed_version=
-|Safari_mobile_supported=Unknown
+|Safari_mobile_supported=Yes
 |Safari_mobile_version=
 |Safari_mobile_prefixed_supported=Unknown
 |Safari_mobile_prefixed_version=
