@@ -31,7 +31,7 @@ Check out the Examples.
 |Examples={{Single Example
 |Description=The following Example shows the standard cursors. Just hover the boxes and you see the cursors.
 
-				<div style="overflow: hidden;">
+		<div style="overflow: hidden;">
 		<h3>General</h3>
 		<div style="overflow: hidden;">
 		<div style="width: 25%; text-align: center; margin-right: 2%; float: left; background: #f4f5f7; cursor: auto; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: auto;</div>
@@ -74,6 +74,11 @@ Check out the Examples.
 		<div style="width: 25%; text-align: center; margin-right: 2%; float: left; background: #f4f5f7; cursor: ns-resize; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: ns-resize;</div>
 		<div style="width: 25%; text-align: center; margin-right: 2%; float: left; background: #ffffff; cursor: nesw-resize; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: nesw-resize;</div>
 		<div style="width: 25%; text-align: center; margin-right: 2%; float: left; background: #f4f5f7; cursor: nwse-resize; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: nwse-resize;</div>
+		</div>
+		<h3>Zoom</h3>
+		<div style="overflow:hidden;">
+		<div style="width: 25%; text-align: center; margin-right: 2%; float: left; background: #ffffff; cursor: zoom-in; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: zoom-in;</div>
+		<div style="width: 25%; text-align: center; margin-right: 2%; float: left; background: #f4f5f7; cursor: zoom-out; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: zoom-out;</div>
 		</div>
 		<h3>Mozilla extensions</h3>
 		<div style="overflow: hidden;">
