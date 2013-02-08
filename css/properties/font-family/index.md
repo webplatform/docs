@@ -27,7 +27,7 @@
 |Examples={{Single Example
 |Language=CSS
 |Code=h1 { font-family: Helvetica, Arial, sans-serif; }
-p { font-family: Courier, "Times New Roman", serif }
+p { font-family: Courier, "Times New Roman", serif; }
 }}{{Single Example
 |Code=<!doctype html>
 <html lang="en-US">
