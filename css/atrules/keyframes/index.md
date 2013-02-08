@@ -108,7 +108,6 @@ div {
         opacity: 1;
     }
 }
-
 |LiveURL=http://03sq.net/examples/animation2.html
 }}
 }}
@@ -212,8 +211,8 @@ Keyframe selectors use keyframe descriptors to specify the properties and values
 |Firefox_mobile_version=
 |Firefox_mobile_prefixed_supported=No
 |Firefox_mobile_prefixed_version=
-|IE_mobile_supported=No
-|IE_mobile_version=
+|IE_mobile_supported=Yes
+|IE_mobile_version=10
 |IE_mobile_prefixed_supported=No
 |IE_mobile_prefixed_version=
 |Opera_mobile_supported=No
