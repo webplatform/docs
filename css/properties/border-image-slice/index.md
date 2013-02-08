@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The border-image-slice CSS property divides the image specified by border-image-source in nine regions: the four corners, the four edges and the middle. It does this by specifying 4 inwards offsets.}}
 {{CSS Property
 |Initial value=100%
 |Applies to=all elements, except internal table elements when <code>border-collapse</code> is set to <code>collapse</code>.
@@ -16,7 +16,6 @@
 }}{{CSS Property Value
 |Data Type=horizontal
 |Description=Is a <code><number></code> or a <code><percentage></code> of the offset for the two horizontal slicing lines, the top and the bottom ones. Note that a <code><length></code> value is not allowed, and therefore invalid. The <code><number></code> represents pixels for raster images and coordinates for vector images. Also, <percentage> values are relative to the height or width of the image, whichever is adequate. Negative values are invalid and values greater than the relevant size, height or width, are clamped to <code>100%</code>.
-
 }}{{CSS Property Value
 |Data Type=vertical
 |Description=Is a <code><number></code> or a <code><percentage></code> of the offset for the two vertical slicing lines, the right and the left ones. Note that a <length> value is not allowed, and therefore invalid. The <code><number></code> represents pixels for raster images and coordinates for vector images. Also, <code><percentage></code> values are relative to the height or width of the image, whichever is adequate. Negative values are invalid and values greater than the relevant size, height or width, are clamped to <code>100%</code>.
