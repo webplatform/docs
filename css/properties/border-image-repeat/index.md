@@ -38,7 +38,26 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|Code=.class {
+  border-image-repeat: stretch;
+}
+
+.class {
+  border-image-repeat: repeat;
+}
+
+.class {
+  border-image-repeat: round;
+}
+
+/* note that round and space have quite limited browser support at the moment */
+
+.class {
+  border-image-repeat: space;
+}
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
