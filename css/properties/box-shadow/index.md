@@ -55,6 +55,20 @@ Given a box, the shadow style is represented as follows:
 |LiveURL=http://dabblet.com/gist/4739446
 }}{{Single Example
 |Language=CSS
+|Description=An example of inner drop shadows
+|Code=article {
+/* box-shadow: left-offset top-offset blur color; */
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5) inset;
+}
+|LiveURL=http://dabblet.com/gist/4739547
+}}{{Single Example
+|Language=CSS
+|Description=An example of how a positive spread distance length value affects the drop shadow
+|Code=article {
+/* box-shadow: left-offset top-offset blur spread color; */
+   box-shadow: 0 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+|LiveURL=http://dabblet.com/gist/4739759
 }}
 }}
 {{Notes_Section
