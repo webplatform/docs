@@ -21,7 +21,12 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|Description=An animation duration of 5 seconds.
+|Code=animation-duration: 5s;
+|LiveURL=http://03sq.net/examples/animation-duration.html
+}}
 }}
 {{Notes_Section
 |Usage=The <code>animation-duration</code> property takes as its value one or more times as a comma-separated list. If multiple times are specified, they are applied to the animations in the same order as <code>animation-name</code>.
@@ -42,6 +47,7 @@ If fewer  '''animation-duration''' values are declared than corresponding [[css/
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=No
 |Chrome_version=
