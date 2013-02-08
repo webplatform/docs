@@ -15,10 +15,12 @@
 |Computed value=as specified (if a keyword)
 |Animatable=No
 |CSS percentages=N/A
-|Syntax=cursor
 }}
 
-
+====Syntax====
+<code>
+cursor:
+</code>
 
 {{Examples_Section
 |Not_required=No
