@@ -10,7 +10,9 @@
 |Applies to=All elements
 |Inherited=No
 |Media=visual
+|Computed value=see individual properties
 |Animatable=No
+|CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=<width> <style> <color>
 |Description=The <tt>border</tt> property is a shorthand property for setting the same width, color, and style for all four borders of a box.
