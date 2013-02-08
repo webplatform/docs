@@ -1,12 +1,15 @@
 {{Page_Title|web-storage reference}}
 {{Flags
-|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section}}
-{{API_Listing
+{{API_Listing|Use_page_title=No
+|List_all_subpages=Yes
+}}
+{{Concept_Listing
 |Use_page_title=No
 |List_all_subpages=Yes
 }}
