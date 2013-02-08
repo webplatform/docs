@@ -7,9 +7,11 @@
 {{API_Name}}
 {{Summary_Section|Replaces the list-item marker with an image.}}
 {{CSS Property
-|Applies to=All elements
+|Initial value=none
+|Applies to=elements with 'display: list-item'
 |Inherited=Yes
 |Media=visual
+|Computed value=absolute URI or 'none'
 |Animatable=No
 |Values={{CSS Property Value
 |Data Type=none
@@ -36,6 +38,8 @@ This example uses '''ul''' as a selector in an embedded (global) style sheet to 
 }}
 }}
 {{Notes_Section
+|Usage=The property has limited positioning options for the background image, and in some circumstances doesn’t work at all in IE. 
+So it has become a far more common practice to simply set a background image on the list items.
 |Notes====Remarks===
 The '''list-style-image''' property can be applied to any element when [[css/properties/margin|'''margin''']] and [[css/properties/display|'''display''']]:'''list-item''' are applied. The [[css/properties/display|'''display''']]: '''list-item''' property is available starting with Microsoft Internet Explorer 6.
 When the image is available, it replaces the marker that is set with the [[css/properties/list-style-type|'''list-style-type''']] marker.
