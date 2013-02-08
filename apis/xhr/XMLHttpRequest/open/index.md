@@ -121,7 +121,7 @@ World Wide Web Distributed Authoring and Versioning (WebDAV) methods are support
 {{!}}[http://go.microsoft.com/fwlink/p/?linkid{{=}}84046 WebDAV]
 {{!}}Request URI Options
 {{!}}}
- 
+
 Internet Explorer caches the results of HTTP GET requests in the Temporary Internet Files (TIF) folder. In most cases, caching improves performance for data that will not change frequently. To guarantee that the results are not cached, use POST.
 '''Security Warning:  ''' Cross-domain, cross-port, and mixed protocol requests are not allowed. The ''bstrUrl'' parameter may only specify files in the same domain, using the same port and protocol method, as that from which the page is served.
 Although this method accepts credentials passed via parameter, those credentials are not automatically sent to the server on the first request. The ''varUser'' and ''varPassword'' parameters are not transmitted unless the server challenges the client for credentials with a 401 - Access Denied response.
