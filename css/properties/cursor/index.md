@@ -33,8 +33,15 @@ Check out the Examples.
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Description=Test test
-|Code=.foo { cursor: pointer; }
+|Description=
+|Code=
+.foo { cursor: crosshair; }
+ 
+/* use prefixed-value if "zoom-in" isn't supported */
+.bar { cursor: -webkit-zoom-in;  cursor: -moz-zoom-in;  cursor: zoom-in; } 
+ 
+/* standard cursor value as fallback for url() must be provided (doesn't work without) */
+.baz { cursor: url(hyper.cur), auto }
 }}{{Single Example
 |Description=The following Example shows the standard cursors. Just hover over the boxes and you see the cursors.
 
@@ -85,6 +92,7 @@ Check out the Examples.
 
 
 |LiveURL=
+|Code=
 }}
 }}
 {{Notes_Section
