@@ -55,18 +55,7 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Code=<style>
-span {
--webkit-appearance: button;
--moz-appearance: button;
-appearance: button;
-}
-</style>
-
-<span>Lorem</span>
-}}
+|Examples=
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
