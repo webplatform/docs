@@ -11,8 +11,25 @@
 |Return_value_description=Default is 1.0.
 }}
 {{Examples_Section
-|Not_required=Yes
-|Examples=
+|Not_required=No
+|Examples={{Single Example
+|Language=JavaScript
+|Description=The following example draws a semi-transparent white circle on a green background
+|Code=function draw() {
+  var ctx = document.getElementById('canvas').getContext('2d');
+  // draw background
+  ctx.fillStyle = '#FD0';
+  ctx.fillRect(0,0,150,150)
+
+  //set transparency value
+  ctx.globalAlpha = 0.2;
+
+  //Draw a semi transparent circle
+  ctx.beginPath();
+  ctx.arc(75,75,50,0,Math.PI*2,true);
+  ctx.fill();
+}
+}}
 }}
 {{Notes_Section
 |Notes=If you set the ''globalAlpha'' property to a value outside the range (including infinity or not a number (NaN)), the previous value is preserved.
@@ -89,8 +106,8 @@
 {{Topics|Canvas}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
+|Sources=MDN, MSDN
+|MDN_link=https://developer.mozilla.org/samples/canvas-tutorial/4_3_canvas_globalalpha.html
 |MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
 |HTML5Rocks_link=
 }}
