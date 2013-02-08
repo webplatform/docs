@@ -18,7 +18,46 @@
 }}
 {{Examples_Section
 |Not_required=Yes
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Description=The following code draws two lines of text, the second line contains the with of the first line in pixels
+|Code=<!DOCTYPE html>
+<html>
+<head>
+  <title>Canvas Textmetrics</title>
+  <script>
+    function draw() {
+      var canvas = document.getElementById("MyCanvas");
+      if (canvas.getContext) {  // check for support
+        var ctx = canvas.getContext("2d"); 
+        
+        // clear background
+        ctx.fillStyle = 'black';
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+        // draw text
+        var text = "Hello World!";
+        ctx.font = '32pt Arial';
+        ctx.textAlign = 'center';
+        ctx.textBaseline = 'center';
+        ctx.fillStyle = 'white';
+        // measure the text that is to be drawn
+        var metrics = ctx.measureText(text);
+        console.log(metrics.width);
+        // draw Hello World
+        ctx.fillText(text, canvas.width/2, canvas.height/2, canvas.width, canvas.height);
+        // draw info
+        ctx.font = '12pt Arial';
+        ctx.fillText("… is " + metrics.width + "px wide", canvas.width/2, canvas.height/2+25, canvas.width, canvas.height);
+        
+      }
+    }        
+  </script>
+</head>
+<body onload="draw();">
+  <canvas id="MyCanvas" width="600" height="500">This browser or document mode doesn't support canvas</canvas>
+</body>
+</html>
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
