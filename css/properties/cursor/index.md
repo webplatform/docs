@@ -6,34 +6,14 @@
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|The cursor CSS property specifies the mouse cursor displayed when the mouse pointer is over an element.}}
-{{CSS_Selector
-|Content={|
-|Initial value: 
-|auto
-|-
-|Computed value:
-|as specified (if a keyword)
-|-
-|Inherited:
-|yes
-|-
-|Applies to:
-|all elements
-|-
-|CSS Object Model property:
-| 
-|-
-|Media:
-|visual, interactive
-|-
-|Animatable:
-|as number
-|-
-|Shorthand: 
-| 
-|}
+{{CSS Property|
+|Initial value=auto
+|Computed value=as specified (if a keyword)
+|Inherited=yes
+|Applies to=all elements
+|Media=visual, interactive
 
-==Syntax==
+
 }}
 {{Examples_Section
 |Not_required=No
