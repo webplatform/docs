@@ -54,9 +54,9 @@ The '''border-top-right-radius''' property specifies the horizontal and vertical
 *<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
 *<code>Reference</code>
 *<code>[[css/properties/border-radius|border-radius]]</code>
-*<code>[[css/properties/border-bottom-left-radius|border-bottom-left-radius]]</code>
-*<code>[[css/properties/border-bottom-right-radius|border-bottom-right-radius]]</code>
 *<code>[[css/properties/border-top-left-radius|border-top-left-radius]]</code>
+*<code>[[css/properties/border-bottom-right-radius|border-bottom-right-radius]]</code>
+*<code>[[css/properties/border-bottom-left-radius|border-bottom-left-radius]]</code>
 }}
 {{Topics|CSS}}
 {{External_Attribution
