@@ -16,7 +16,9 @@
 var worker = new Worker('script.js');
 // receive data from worker
 worker.onmessage = function(event) {
- console.log("Received data from worker", event.data);
+  console.log("Received data from worker", event.data);
+  // quit worker
+  this.terminate();
 };
 // pass data to worker
 worker.postMessage("hello worker");
@@ -27,7 +29,7 @@ worker.postMessage("hello worker");
 self.postMessage("ready for business");
 // receive data from parent
 self.onmessage = function(event) {
-  self.postMessage('Worker received ' + event.data);
+   self.postMessage('Worker received ' + event.data);
 };
 }}
 }}
