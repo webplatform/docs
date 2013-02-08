@@ -12,14 +12,8 @@
 |Media=visual
 |Animatable=No
 |Values={{CSS Property Value
-|Data Type=width
+|Data Type=<border-width> || <border-style> || <color>
 |Description=Any of the range of width values available to the [[css/properties/border-width|'''border-width''']] property. Default value is <tt>medium</tt>.
-}}{{CSS Property Value
-|Data Type=style
-|Description=Any of the range of style values available to the [[css/properties/border-style|'''border-style''']] property. Default value is <tt>none</tt>.
-}}{{CSS Property Value
-|Data Type=color
-|Description=Any of the range of color values available to the [[css/properties/border-color|'''border-color''']] property. Default value is the value of the element's [[css/properties/color|'''color''']] property - ie. text color.
 }}
 }}
 {{Examples_Section
