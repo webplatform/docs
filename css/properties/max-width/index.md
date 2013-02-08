@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|Content=Incomplete, Examples Best Practices
+|Content=Examples Best Practices
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
