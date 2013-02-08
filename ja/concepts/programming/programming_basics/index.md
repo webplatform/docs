@@ -1,6 +1,5 @@
 {{Page_Title|プログラミングの基礎}}
 {{Flags}}
-{{Languages}}
 {{Summary_Section|※ 本記事はまだ試験的に作成しているものである点にご注意願います。
 
 本記事では、JavaScriptを例として、プログラミングの基礎的な原則について述べます。
@@ -428,3 +427,4 @@ if (country) {
 |MSDN_link=
 |HTML5Rocks_link=
 }}
+{{Languages}}
