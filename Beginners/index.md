@@ -1,8 +1,11 @@
 {{Page_Title|Web development for beginners}}
-{{Languages}}
 {{Flags}}
 {{Summary_Section|This set of articles is for complete beginners to work through in confidence, building up their essential skills at the beginning of the journey to becoming a web designer or developer.}}
 {{Basic Page}}
+{{Languages}}
+
+
+
 ==Before you start==
 
 In this course, you'll be writing a lot of code, and testing it out in web browsers. Before you start, you should at least have the following installed:
@@ -32,6 +35,9 @@ Now roll your sleeves up and let's get ready to learn. [[tutorials|Browse our fu
 * [[guides/html links|HTML links]]
 * [[guides/html structural elements|HTML structural elements]]
 * [[guides/html tables|HTML tables]]
+* [[guides/html forms basics|HTML forms basics]]
+* [[guides/html5 form features|HTML5 form features]]
+* [[guides/lesser-known semantic elements|Lesser-known semantic elements]]
 
 ==CSS — styling your web content==
 
@@ -55,6 +61,11 @@ Now roll your sleeves up and let's get ready to learn. [[tutorials|Browse our fu
 * [[tutorials/creating and modifying html|Creating and modifying HTML]]
 * [[tutorials/manipulating css with javascript|Manipulating CSS with JavaScript]]
 * [[tutorials/events in javascript|Events in JavaScript]]
+
+
+==Applied techniques==
+
+* [[tutorials/creating basic navigation menus|Creating navigation menus]]
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
