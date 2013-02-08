@@ -231,7 +231,7 @@ Keyframe selectors use keyframe descriptors to specify the properties and values
 |Notes_rows={{Compatibility Notes Row
 |Browser=iOS Safari
 |Version=all
-|Note=Only some properties are hardware accelerated, this is also the case with transitions. Known properties are: opacity, translate3d. There may be more, but it is hard to find documentation for this.
+|Note=Only some properties are hardware accelerated, this is also the case with [[css/properties/transition|transitions]]. Known properties are: opacity, translate3d. There may be more, but it is hard to find documentation for this.
 }}
 }}
 {{See_Also_Section
