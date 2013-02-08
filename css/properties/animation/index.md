@@ -51,9 +51,7 @@ Also, see [[tutorials/css_animations|this CSS animations tutorial]]
 |Usage=The <code>animation</code> shorthand property combines all animation properties except <code>animation-play-state</code> in a single declaration. The name and duration of the animation are required, but all other values are optional. When two <code>&lt;time&gt;</code> values are supplied, the first is assigned to the duration, and the second to the delay.
 
 Values for a single animation are separated by spaces. Multiple animations can be assigned as a comma-separated list.
-|Import_Notes====Syntax===
-<code>'''animation: ''''''[''' ''animation-name'' '''{{!}}{{!}}''' ''animation-duration'' '''{{!}}{{!}}''' ''animation-timing-function'' '''{{!}}{{!}}''' ''animation-delay'' '''{{!}}{{!}}''' ''animation-iteration-count'' '''{{!}}{{!}}''' ''animation-direction'' '''{{!}}{{!}}''' ''animation-fill-mode'' ''']''' '''[''' ,  '''[''' ''animation-name'' '''{{!}}{{!}}''' ''animation-duration'' '''{{!}}{{!}}''' ''animation-timing-function'' '''{{!}}{{!}}''' ''animation-delay'' '''{{!}}{{!}}''' ''animation-iteration-count'' '''{{!}}{{!}}''' ''animation-direction'' '''{{!}}{{!}}''' ''animation-fill-mode'' ''']''' ''']''' *</code>
-===Standards information===
+|Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?LinkID{{=}}223144 CSS Animations Module Level 3], Section 3.9
 }}
 {{Related_Specifications_Section
