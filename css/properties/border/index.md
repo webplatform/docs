@@ -13,7 +13,7 @@
 |Animatable=No
 |Values={{CSS Property Value
 |Data Type=<width> <style> <color>
-|Description=The ‘border’ property is a shorthand property for setting the same width, color, and style for all four borders of a box.
+|Description=The <tt>border</tt> property is a shorthand property for setting the same width, color, and style for all four borders of a box.
 * Width - Any of the range of width values available to the [[css/properties/border-width|'''border-width''']] property. Default value is <tt>medium</tt>.
 * Style - Any of the range of style values available to the [[css/properties/border-style|'''border-style''']] property. Default value is <tt>none</tt>.
 * Color - Any of the range of color values available to the [[css/properties/border-color|'''border-color''']] property. Default value is the value of the element's [[css/properties/color|'''color''']] property - i.e. text color.
