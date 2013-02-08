@@ -131,11 +131,42 @@ Cursors have been the subject of security bulletins and updates.  If your custom
 |Safari_prefixed_supported=Unknown
 |Safari_prefixed_version=
 }}
-|Mobile_rows=
+|Mobile_rows={{Compatibility Table Mobile Row
+|Android_supported=No
+|Android_version=
+|Android_prefixed_supported=Unknown
+|Android_prefixed_version=
+|Blackberry_supported=No
+|Blackberry_version=
+|Blackberry_prefixed_supported=Unknown
+|Blackberry_prefixed_version=
+|Chrome_mobile_supported=No
+|Chrome_mobile_version=
+|Chrome_mobile_prefixed_supported=Unknown
+|Chrome_mobile_prefixed_version=
+|Firefox_mobile_supported=No
+|Firefox_mobile_version=
+|Firefox_mobile_prefixed_supported=Unknown
+|Firefox_mobile_prefixed_version=
+|IE_mobile_supported=No
+|IE_mobile_version=
+|IE_mobile_prefixed_supported=Unknown
+|IE_mobile_prefixed_version=
+|Opera_mobile_supported=No
+|Opera_mobile_version=
+|Opera_mobile_prefixed_supported=Unknown
+|Opera_mobile_prefixed_version=
+|Opera_mini_supported=No
+|Opera_mini_version=
+|Opera_mini_prefixed_supported=Unknown
+|Opera_mini_prefixed_version=
+|Safari_mobile_supported=No
+|Safari_mobile_version=
+|Safari_mobile_prefixed_supported=Unknown
+|Safari_mobile_prefixed_version=
+}}
 |Notes_rows=
 }}
-==Mobile Browsers==
-Mobile Browsers are not supported!
 {{See_Also_Section
 |Topic_clusters=Visual Effects
 |Manual_sections====Related pages (MSDN)===
@@ -153,3 +184,5 @@ Mobile Browsers are not supported!
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
+==Mobile Browsers==
+Mobile Browsers are not supported!
