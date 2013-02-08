@@ -18,8 +18,7 @@
 |Description=No transition effect is applied (all transition properties are ignored) when a new property value is specified.
 }}{{CSS Property Value
 |Data Type=all
-|Description=Default. 
-Each property that supports transitions has the transition effect applied when a new value for the property is specified.
+|Description=All properties that support transitions have the transition effect applied when a new value for the property is specified. (Default)
 }}{{CSS Property Value
 |Data Type=propertyname
 |Description=A list of properties, separated by commas, to which the transition effect is applied.
