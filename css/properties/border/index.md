@@ -60,10 +60,6 @@ If a '''color''' is not specified, the text color is used.
 For more information about supported colors, see the Color Table.
 The '''border''' property also applies to '''input'''; however, it has no actual function in Windows Internet Explorer, and '''border''' has been deprecated in favor of the appropriate CSS markup (see [http://go.microsoft.com/fwlink/p/?linkid{{=}}203728 Cascading Style Sheets (CSS)]).
 As of Microsoft Internet Explorer 5.5, this property applies to inline elements.  With earlier versions of  Windows Internet Explorer, inline elements must have an '''absolute''' [[css/properties/position|'''position''']] or layout to use this property. Element layout is set by providing a value for the [[css/properties/height|'''height''']] property or the [[css/properties/width|'''width''']] property.
-|Import_Notes====Syntax===
-<code>'''border: ''''''[''' width '''{{!}}{{!}}''' style '''{{!}}{{!}}''' ''
-&lt;color&gt;
-'' ''']'''</code>
 }}
 {{Related_Specifications_Section
 |Specifications=
