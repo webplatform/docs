@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|This property contains a comma-separated list of font family names and/or generic family names. For each character that a user agent (browser) has to render, it iterates through the list of family names until it matches a font that contains a glyph for that character.}}
+{{Summary_Section|This property contains a comma-separated list of font family names and/or generic family names. For each character that a user agent (browser) has to render, it iterates through the list of family names (first to last) until it matches a font that contains a glyph for that character.}}
 {{CSS Property
 |Initial value=depends on user agent
 |Applies to=All elements
@@ -44,64 +44,15 @@ p { font-family: Courier, "Times New Roman", serif; }
 	</body>
 </html>
 |LiveURL=http://dabblet.com/gist/4739756
-}}{{Single Example
-|Description=The following example shows how to use a call to an embedded style sheet to set the '''font-family''' attribute .
-|Code=&lt;HTML&gt;
-&lt;HEAD&gt;
-&lt;STYLE&gt;
-	P {font-family:"ARIAL"}
-	.other {font-family:"COURIER"}
-&lt;/STYLE&gt;
-&lt;/HEAD&gt;
-&lt;BODY&gt;
-&lt;P tabindex{{=}}"1" onkeydown{{=}}"this.className{{=}}'other'" 
-onmousedown{{=}}"this.className{{=}}'other'" onmouseup{{=}}"this.className{{=}}''" 
-onkeyup{{=}}"this.className{{=}}''"&gt;Tab to select this paragraph and press down a 
-key or just click it with the mouse to change the font-family style 
-attribute to COURIER.&lt;/P&gt;
-&lt;/BODY&gt;
-&lt;/HTML&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/font-family.htm
-}}{{Single Example
-|Description=The following example shows how to define a hierarchy of fonts, in this case, an embedded font and a system font. The browser goes through the list until it finds a font it can apply. This is useful when the Web author wants to use fonts that might or might not be accessible or loaded onto a user's machine.
-|Code=&lt;STYLE type{{=}}"text/css"&gt;
-   @font-face {
-      font-family: "My_font";
-      src: url(http://www.adatum.com/some_font_file.eot);
-   }
-   BODY {font-family: "My_font", Arial}
-&lt;/STYLE&gt;
-}}{{Single Example
-|Description=The following example shows how to use inline scripting to change the '''font-family''' property.
-|Code=&lt;HTML&gt;
-&lt;BODY&gt;
-&lt;DIV tabindex {{=}}"1" onkeydown{{=}}"this.style.fontFamily{{=}}'Courier'"
-onkeyup{{=}}"this.style.fontFamily{{=}}''" onmousedown{{=}}"this.style.fontFamily{{=}}'Courier'"
-onmouseup{{=}}"this.style.fontFamily{{=}}''"&gt;Tab to select this DIV element and press 
-down a key or just click it with the mouse to change the fontFamily style 
-property to COURIER. 
-&lt;/DIV&gt;
-&lt;/BODY&gt;
-&lt;/HTML&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/fontFamily.htm
 }}
 }}
 {{Notes_Section
-|Notes====Remarks===
-The value is a prioritized list of font family names and generic family names. List items are separated by commas to minimize confusion between multiple-word font family names. If the font family name contains white space, it should appear in single or double quotation marks; generic font family names are values and cannot appear in quotation marks.
-Because you do not know which fonts users have installed, you should provide a list of alternatives with a generic font family at the end of the list. This list can include embedded fonts. For more information about embedding fonts, see the [[css/atrules/@font-face|'''@font-face''']] rule.
-The default for this property can be set for Windows Internet Explorer on the '''General''' tab of the '''Internet Options''' menu by clicking the '''Fonts''' button.
-|Import_Notes====Syntax===
-<code>'''font-family: ''''''[''' '''[''' ''
-&lt;family-name&gt;
-'' '''{{!}}''' ''
-&lt;generic-family&gt;
-'' ''']''' '''[''' , '''{{!}}''' ''
-&lt;family-name&gt;
-'' '''{{!}}''' ''
-&lt;generic-family&gt;
-'' ''']''''''*''' ''']'''</code>
-===Standards information===
+|Usage=Things to note:
+* If the font family name contains white space, it should appear in single or double quotation marks.
+* Generic font family names are values (keywords) and cannot appear in quotation marks.
+
+
+|Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 5.2.2
 }}
 {{Related_Specifications_Section
