@@ -1,29 +1,31 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Outdated, Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Content=Incomplete, Examples Best Practices
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Sets or retrieves the maximum width for an element.}}
+{{Summary_Section|Sets the maximum width for an element. It limits the width property to be larger than the value specified in max-width.}}
 {{CSS Property
 |Initial value=none
-|Applies to=All elements
+|Applies to=all elements but non-replaced inline elements, tables, inline tables, table cells, table columns, and column groups
 |Inherited=No
 |Media=visual
-|Animatable=No
+|Computed value=the percentage as specified or the absolute length or 'none'
+|Animatable=Yes
+|CSS object model property=max-width
+|CSS percentages=refer to width of containing block
 |Values={{CSS Property Value
 |Data Type=length
-|Description=Floating-point number followed by an absolute units designator (<code>cm</code>, <code>mm</code>, <code>in</code>, <code>pt</code>, or <code>pc</code>) or a relative units designator (<code>em</code>, <code>ex</code>, or <code>px</code>). For more information about the supported length units, see CSS Values and Units Reference.
+|Description=Floating-point number followed by an absolute units designator (<code>cm</code>, <code>mm</code>, <code>in</code>, <code>pt</code>, or <code>pc</code>) or a relative units designator (<code>em</code>, <code>ex</code>, <code>ch</code>, <code>rem</code>, or <code>px</code> as well as <code>vw</code>, <code>vh</code>, <code>vmin</code>, <code>vmax</code>). For more information about the supported length units, see CSS Values and Units Reference.
 }}{{CSS Property Value
 |Data Type=percentage
-|Description=Integer followed by a % that specifies a percentage of the containing block width to use as the maximum width of the element.  If the width of the containing block is not explicitly set, then the element has no maximum width and the  '''max-width''' property is interpreted as 0%. For more information on containing blocks and how their widths are computed, see the [http://go.microsoft.com/fwlink/p/?linkid{{=}}203760 Cascading Style Sheets, Level 2.1 (CSS2.1)] specification.
+|Description=Integer followed by a % that specifies a percentage of the containing block width to use as the maximum width of the element.  If the width of the containing block is not explicitly set, then the element has no maximum width and the '''max-width''' property is interpreted as 0%. For more information on containing blocks and how their widths are computed, see the [http://go.microsoft.com/fwlink/p/?linkid{{=}}203760 Cascading Style Sheets, Level 2.1 (CSS2.1)] specification.
 }}
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=The following example shows how to constrain the width of a '''div''' element using [[css/properties/min-width|'''min-width''']] and '''max-width''' attributes. The example requires Internet Explorer 7 or later to view.
+|Description=The following example shows how to constrain the width of a '''div''' element using [[css/properties/min-width|'''min-width''']] and '''max-width''' attributes.
 |Code=&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -57,7 +59,6 @@
 }}
 {{Notes_Section
 |Notes====Remarks===
-'''max-width''' was introduced in Windows Internet Explorer 7.
 The [[css/properties/min-width|'''min-width''']]/'''max-width''' attributes apply to floating and absolutely positioned block and inline-block elements, as well as some intrinsic controls. They do not apply to non-replaced inline elements, such as table rows and row/column groups. (A "replaced" element has intrinsic dimensions, such as an '''img''' or '''textArea'''.)
 This property is enabled only under the strict [[html/elements/!DOCTYPE|!DOCTYPE]].
 |Import_Notes====Syntax===
@@ -78,7 +79,7 @@ This property is enabled only under the strict [[html/elements/!DOCTYPE|!DOCTYPE
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
 |Chrome_version=4.0
-|Chrome_prefixed_supported=Unknown
+|Chrome_prefixed_supported=No
 |Chrome_prefixed_version=
 |Firefox_supported=Yes
 |Firefox_version=2.0
@@ -134,7 +135,7 @@ This property is enabled only under the strict [[html/elements/!DOCTYPE|!DOCTYPE
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=Box Model
+|Topic_clusters=CSS Layout, Box Model
 |Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
