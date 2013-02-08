@@ -335,7 +335,7 @@ This property is not supported for Metro style apps using JavaScript
 |Language=HTML
 |Description=Basic usage
 |Code=<audio src="http://developer.mozilla.org/@api/deki/files/2926/=AudioTest_(1).ogg" autoplay>
-  Your browser does not support the &amp;lt;code&amp;gt;audio&amp;lt;/code&amp;gt; element.
+  Your browser does not support the audio element.
 </audio>
 }}
 }}
