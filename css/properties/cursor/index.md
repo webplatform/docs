@@ -181,5 +181,3 @@ Cursors have been the subject of security bulletins and updates.  If your custom
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
-==Mobile Browsers==
-Mobile Browsers are not supported!
