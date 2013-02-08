@@ -7,8 +7,33 @@
 {{Summary_Section|Provides methods for performance timing.}}
 {{API_Object}}
 {{Examples_Section
-|Not_required=Yes
-|Examples=
+|Not_required=No
+|Examples={{Single Example
+|Description=The following JavaScript shows a simple attempt to measure the time it takes to fetch a resource:
+|Code=<!doctype html>
+<html>
+  <head>
+  </head>
+  <body onload="loadResources()">
+    <script>
+        function loadResources() 
+        {
+           var start = new Date().getTime();
+           var image1 = new Image();
+           image1.src = 'http://w3c-test.org/webperf/image1.png';
+           image1.onload = resourceTiming;
+
+           var resourceTiming = function() {
+               var now = new Date().getTime();
+               var latency = now - start;
+               alert("End to end resource fetch: " + latency);
+           };
+        } 
+    </script>
+    <img src="http://w3c-test.org/webperf/image0.png">
+  </body>
+</html>
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
