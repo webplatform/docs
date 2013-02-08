@@ -123,7 +123,10 @@ Values for a single animation are separated by spaces. Multiple animations can b
 |Topic_clusters=Animation
 |Manual_links=[[tutorials/css_animations|" the CSS animations tutorial"]]
 [[css/atrules/@keyframes|'''@keyframes''']]
-|Manual_sections====Related pages (MSDN)===
+|Manual_sections====Related pages (W3C)===
+http://www.w3.org/TR/css3-animations/
+http://dev.w3.org/csswg/css3-transitions/#animatable-properties-
+===Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
 *<code>[[css/cssom/style|style]]</code>
