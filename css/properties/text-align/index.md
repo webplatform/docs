@@ -51,12 +51,12 @@ This example uses '''p''' as a selector and two classes to call an embedded styl
 }}{{Single Example
 |Language=HTML
 |Description=This just shows the four possible types of text-alignment.
-|Code=<!doctype html>
-<html>
-    <head>
-        <title> Alignment examples </title>
+|Code=&lt;!doctype html&gt;
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt; Alignment examples &lt;/title&gt;
 
-        <style>
+        &lt;style&gt;
             body{
                 padding : 10px;
             }
@@ -67,28 +67,28 @@ This example uses '''p''' as a selector and two classes to call an embedded styl
                 width: 200px; /* We limit the width in order to show the justified text */
             }
 
-        </style>
-        <style>
+        &lt;/style&gt;
+        &lt;style&gt;
             .left { text-align: left;}
             .cenetered{ text-align: center;}
             .right { text-align: right;}
             .justified { text-align: justify;}
-        </style>
-    </head>
+        &lt;/style&gt;
+    &lt;/head&gt;
 
-    <body>
-        <p class="left-aligned example"> This paragraph is aligned to the left. </p>
+    &lt;body&gt;
+        &lt;p class=&quot;left-aligned example&quot;&gt; This paragraph is aligned to the left. &lt;/p&gt;
 
-        <p class="cenetered example"> This paragraph is ceneterd. </p>
+        &lt;p class=&quot;cenetered example&quot;&gt; This paragraph is ceneterd. &lt;/p&gt;
 
-        <p class="right example"> This paragraph is aligned to the right. </p>
+        &lt;p class=&quot;right example&quot;&gt; This paragraph is aligned to the right. &lt;/p&gt;
 
-        <p class="justified example">
+        &lt;p class=&quot;justified example&quot;&gt;
             This paragraph needs to be really long in order to show how to justify text.
             It only works because we set a width for this paragraph though.
-        </p>
-    </body>
-</html>
+        &lt;/p&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
 }}
 }}
 {{Notes_Section
