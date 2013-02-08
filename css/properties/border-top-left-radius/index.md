@@ -132,7 +132,7 @@ The '''border-top-left-radius''' property specifies the horizontal and vertical 
 |Blackberry_prefixed_version=
 |Chrome_mobile_supported=Yes
 |Chrome_mobile_version=18.0
-|Chrome_mobile_prefixed_supported=Unknown
+|Chrome_mobile_prefixed_supported=No
 |Chrome_mobile_prefixed_version=
 |Firefox_mobile_supported=Yes
 |Firefox_mobile_version=15.0
@@ -146,9 +146,9 @@ The '''border-top-left-radius''' property specifies the horizontal and vertical 
 |Opera_mobile_version=11.0
 |Opera_mobile_prefixed_supported=Unknown
 |Opera_mobile_prefixed_version=
-|Opera_mini_supported=Unknown
+|Opera_mini_supported=No
 |Opera_mini_version=
-|Opera_mini_prefixed_supported=Unknown
+|Opera_mini_prefixed_supported=No
 |Opera_mini_prefixed_version=
 |Safari_mobile_supported=Yes
 |Safari_mobile_version=4.0
