@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status}}
@@ -53,7 +53,7 @@ Line height is the distance between the descender of the font and the top of the
 If a formatted line contains more than one object, the maximum line height applies. In this case, negative values are not allowed.
 Microsoft Internet Explorer 3.0 supports the '''line-height''' attribute through the [[css/properties/font|'''font''']] attribute.
 |Import_Notes====Syntax===
-<code>'''line-height: '''normal '''{{!}}''' <number> '''{{!}}''' <length> '''{{!}}''' <percentage></code>
+<code>'''line-height: '''normal '''{{!}}''' <number> '''{{!}}''' <length> ''{{!}}''' <percentage></code>
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 5.4.8
 }}
@@ -62,6 +62,7 @@ Microsoft Internet Explorer 3.0 supports the '''line-height''' attribute throug
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
