@@ -19,6 +19,8 @@ window.applicationCache.update();
 
 if (window.applicationCache.status === window.applicationCache.UPDATEREADY) {
    console.log('Cache is now ready for an update');
+   // now you can call the swapCache() method to switch to the new cache
+   window.applicationCache.swapCache();
 }
 }}{{Single Example
 |Language=JavaScript
