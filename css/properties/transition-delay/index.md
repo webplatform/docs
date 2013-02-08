@@ -1,13 +1,13 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The 'transition-delay' property defines when the transition will start. A value of ‘0s’ means the transition will execute as soon as the property is changed. Otherwise, the value specifies an offset from the moment the property is changed, and the transition will delay execution by that offset.}}
 {{CSS Property
-|Initial value=0
+|Initial value=0s
 |Applies to=all elements, :before and :after pseudo elements
 |Inherited=No
 |Media=interactive
@@ -16,7 +16,6 @@
 |Data Type=time
 |Description=Floating-point number, followed by a time units designator (<code>ms</code> or <code>s</code>). For more information about the supported time units, see '''CSS Values and Units Reference'''.
 
-This property accepts <code>s</code> and <code>ms</code> as valid units of time.
 Values are rounded up to the second decimal place.
 Each '''transition-delay''' is paired with a corresponding object property  identified in the [[css/properties/transition-property|'''transition-property''']] property.
 If more '''transition-delay''' values are declared than corresponding object properties identified in the [[css/properties/transition-property|'''transition-property''']] property, the excess '''transition-delay''' values are ignored.
