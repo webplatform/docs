@@ -32,10 +32,7 @@ Check out the Examples.
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=The following examples use the '''cursor''' attribute and the '''cursor''' property to change the cursor as it passes over an object.
-
-This example uses a call to an embedded (global) style sheet to set the cursor to '''hand''' as the cursor passes over all paragraphs.
-
+|Description=The following Example shows the standard cursors. Just hover over the boxes and you see the cursors.
 
 		<div style="overflow: hidden;">
 		<h3>General</h3>
@@ -80,21 +77,12 @@ This example uses a call to an embedded (global) style sheet to set the cursor t
 		<div style="width: 25%; margin-right: 2%; float: left; background: #ffffff; cursor: ns-resize; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: ns-resize;</div>
 		<div style="width: 25%; margin-right: 2%; float: left; background: #f4f5f7; cursor: nesw-resize; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: nesw-resize;</div>
 		<div style="width: 25%; margin-right: 2%; float: left; background: #ffffff; cursor: nwse-resize; padding: 1em; border-radius: 4px; color: #58595B; border: 1px solid #cdced0; margin-bottom: 1em;">cursor: nwse-resize;</div></div>
-	</div>
+</div>
 
 
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/cursor_h.htm
-}}{{Single Example
-|Description=This example uses inline scripting to set the cursor to '''hand''' as the cursor passes over the paragraph.
-|Code=&lt;div onmouseover{{=}}"this.style.cursor{{=}}'hand'"&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/cursor_s.htm
-}}{{Single Example
-|Description=This example demonstrates setting a custom cursor, by using the '''url(uri)''' value.
-|Code=&lt;style&gt;
-oBox.style.cursor {{=}} "url(" + Some_Uniform_Resource_Identifier + ")";
-&lt;/style&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/cursor_c.htm
 }}
+
 }}
 {{Notes_Section
 |Notes====Remarks===
