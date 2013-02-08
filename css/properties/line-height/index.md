@@ -53,7 +53,7 @@ Line height is the distance between the descender of the font and the top of the
 If a formatted line contains more than one object, the maximum line height applies. In this case, negative values are not allowed.
 Microsoft Internet Explorer 3.0 supports the '''line-height''' attribute through the [[css/properties/font|'''font''']] attribute.
 |Import_Notes====Syntax===
-<code>'''line-height: '''normal '''{{!}}''' <number> '''{{!}}''' <length> ''{{!}}''' <percentage></code>
+<code>'''line-height: '''normal '''{{!}}''' height '''{{!}}''' percentage</code>
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 5.4.8
 }}
