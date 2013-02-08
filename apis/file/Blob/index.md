@@ -11,12 +11,20 @@ synchronously (this trade-off is based on the underlying assumption that metadat
 reading '''Blob''' data will).
 }}
 {{Examples_Section
-|Not_required=Yes
+|Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
 |Description=Blob constructor example usage
 |Code=var aFileParts = ["<a id=\"a\"><b id=\"b\">hey!<\/b><\/a>"];
 var oMyBlob = new Blob(aFileParts, { "type" : "text\/xml" }); // the blob
+}}{{Single Example
+|Language=JavaScript
+|Description=Example for creating a URL to a typed array using a blob
+|Code=var typedArray = GetTheTypedArraySomehow();
+var blob = new Blob([typedArray], {type: "application/octet-binary"}); // pass a useful mime type here
+var url = URL.createObjectURL(blob);
+// url will be something like: blob:d3958f5c-0777-0845-9dcf-2cb28783acaf
+// now you can use the url in any context that regular URLs can be used in, for example img.src, etc.
 }}
 }}
 {{Notes_Section}}
