@@ -11,6 +11,7 @@
 |Inherited=Yes
 |Media=visual
 |Animatable=No
+|CSS object model property=textAlign
 |Values={{CSS Property Value
 |Data Type=left
 |Description=Default. Text is aligned to the left.
