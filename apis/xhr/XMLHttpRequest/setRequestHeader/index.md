@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Sets the value of an HTTP request header.}}
+{{Summary_Section|Sets the value of an XMLHttpRequest header.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=header
