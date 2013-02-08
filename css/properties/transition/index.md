@@ -3,7 +3,7 @@
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Cleanup, Examples Best Practices
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|The transition CSS property is a shorthand property for [[css/properties/transition-property|transition-property]], [[css/properties/transition-duration|transition-duration]], [[css/properties/transition-timing-function|transition-timing-function]], and [[css/properties/transition-delay|transition-delay]]. It allows to define the transition between two states of an element.}}
 {{CSS Property
