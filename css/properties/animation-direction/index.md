@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Defines whether an animation runs in reverse in some or all cycles}}
+{{Summary_Section|Defines an animation's direction, including whether an animation runs in reverse in some or all cycles.}}
 {{CSS Property
 |Initial value=normal
 |Applies to=all elements
@@ -29,7 +29,11 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|Code=animation-direction: alternate;
+|LiveURL=http://03sq.net/examples/animation-direction.html
+}}
 }}
 {{Notes_Section
 |Usage=The <code>animation-direction</code> property takes as its value a keyword indicating the direction of a single animation cycle. If multiple keywords are separated by commas, they are applied to each animation in the same order as specified in <code>animation-name</code>. The number of values specified for <code>animation-direction</code> doesn't need to match. If there are more values than for <code>animation-name</code>, the excess values are ignored. If there are fewer, the browser cycles through them again until each animation has been assigned a direction
@@ -43,6 +47,7 @@
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=No
 |Chrome_version=
