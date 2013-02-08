@@ -5,7 +5,8 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|The CSS3 Animation module describes a way for authors to animate CSS properties over time without the use of Javascript. Animations use keyframes to specify points of animation and timing to state when those keyframes should appear. Those keyframes exist in a separate [[/css/atrules/@keyframes]] section. The browser automatically handles the inbetween state, or tween, as it is more commonly known between each keyframe property. Animation is a shorthand property that defines all the properties of an animation in a single declaration. Animation applies to all elements. See the keyframes section linked above for a list of properties that can be animated.<ul><li>
+{{Summary_Section|The CSS3 Animation module describes a way for authors to animate CSS properties over time without the use of Javascript. Animations use keyframes to specify points of animation and timing to state when those keyframes should appear. Those keyframes exist in a separate [[css/atrules/@keyframes|'''@keyframes''']] section. The browser automatically handles the inbetween state, or tween, as it is more commonly known between each keyframe property. Animation is a shorthand property that defines all the properties of an animation in a single declaration. Animation applies to all elements. See the keyframes section linked above for a list of properties that can be animated.
+Also, see [[tutorials/css_animations|" the CSS animations tutorial"]]
 }}
 {{CSS Property
 |Initial value=(see individual properties)
@@ -54,6 +55,7 @@ Values for a single animation are separated by spaces. Multiple animations can b
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=No
 |Chrome_version=
@@ -118,6 +120,8 @@ Values for a single animation are separated by spaces. Multiple animations can b
 }}
 {{See_Also_Section
 |Topic_clusters=Animation
+|Manual_links=[[tutorials/css_animations|" the CSS animations tutorial"]]
+[[css/atrules/@keyframes|'''@keyframes''']]
 |Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
