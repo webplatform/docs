@@ -14,8 +14,26 @@
 * "miter"
 }}
 {{Examples_Section
-|Not_required=Yes
-|Examples=
+|Not_required=No
+|Examples={{Single Example
+|Language=JavaScript
+|Description=The following example shows the different lineJoin options
+|Code=function draw() {
+  var ctx = document.getElementById('canvas').getContext('2d');
+  var lineJoin = ['round','bevel','miter'];
+  ctx.lineWidth = 10;
+  for (var i=0;i<lineJoin.length;i++){
+    ctx.lineJoin = lineJoin[i];
+    ctx.beginPath();
+    ctx.moveTo(-5,5+i*40);
+    ctx.lineTo(35,45+i*40);
+    ctx.lineTo(75,5+i*40);
+    ctx.lineTo(115,45+i*40);
+    ctx.lineTo(155,5+i*40);
+    ctx.stroke();
+  }
+}
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
@@ -90,8 +108,8 @@
 {{Topics|Canvas}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
+|Sources=MDN, MSDN
+|MDN_link=https://developer.mozilla.org/en-US/docs/HTML/Canvas/Tutorial/Applying_styles_and_colors
 |MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
 |HTML5Rocks_link=
 }}
