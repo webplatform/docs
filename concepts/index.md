@@ -83,6 +83,19 @@ Our general web concepts are concept and tutorial articles covering general subj
   
   </div>
 
+  
+    <div class="long-topic">
+  
+    <div class="image icon-concept"></div>
+    
+    <div class="inner">
+    <h3>[[concepts/localisation|Localisation and internationalisation]]</h3>
+    
+    <p>Articles covering techniques and technologies used to serve an international audience that speaks multiple languages.</p>
+    </div>
+  
+  </div>
+
 </div>
 <div class="clearfixboth"></div>
 
