@@ -53,10 +53,12 @@ However, when websites, web technologies, or web tools are badly designed, they 
 
 <p><strong>To learn more about these web accessibility principles and requirements, see [http://www.w3.org/WAI/intro/people-use-web/principles Accessibility Principles].</strong></p>
 
-<p>For a short introduction to three web accessibility issues (alternative text for images, keyboard input, and transcripts), see [http://www.w3.org/standards/webdesign/accessibility#examples What: Examples of Web Accessibility].</p>
+<p>For a short introduction to three web accessibility issues (alternative text for images, keyboard input, and transcripts), see [http://www.w3.org/TR/wai-aria-primer/ WAI-ARIA 1.0 Primer].</p>
 
 ==ARIA==
-Being worked on.
+
+<p>For an introduction to Rich Internet Application accessibility challenges and solutions, see
+[http://www.w3.org/standards/webdesign/accessibility#examples What: Examples of Web Accessibility].</p>
 
 ==The components of web accessibility==
 
