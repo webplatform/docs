@@ -31,7 +31,11 @@ Check out the Examples.
 }}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single Example
+|Examples={{Single_Example
+|Description=
+|Content=<code>.foo { cursor: crosshair; }</code>
+|Live_URL=
+}}{{Single Example
 |Description=The following Example shows the standard cursors. Just hover over the boxes and you see the cursors.
 
 				<div style="overflow: hidden;">
