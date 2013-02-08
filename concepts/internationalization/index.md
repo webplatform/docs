@@ -2,6 +2,7 @@
 {{Flags}}
 {{Summary_Section|Terminology: internationalization and localization}}
 {{Basic Page}}
+==Terminology==
 '''Internationalization''' (abbreviated '''i18n''', where 18 is the number of left out characters) is about designing a system to be prepared to make localization possible and easy.
 
 '''Localization''' (abbreviated '''l10n''', where 10 is the number of left out characters) is the adaptation of a system for a specific region. This includes language related aspects (translations, different characters and scripts), cultural aspects (different units, currencies, time and date formats, meaning of colors and symbols, suitability of images), and legal requirements.
