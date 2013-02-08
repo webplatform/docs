@@ -11,7 +11,7 @@
 |Computed value=specific value
 |Animatable=No
 |CSS percentages=N/A
-|Values={{CSS Property Value|Data Type=button
+|Values={{CSS Property Value|Data Type=button}}
 {{CSS Property Value
 |Data Type=checkbox}}
 {{CSS Property Value
@@ -78,8 +78,7 @@
 |Data Type=searchfield-cancel-button}}
 {{CSS Property Value
 |Data Type=textfield}}
-{{CSS Property Value
-|Data Type=textarea}}
+{{CSS Property Value|Data Type=textarea}}
 {{Examples_Section
 |Not_required=No
 |Examples=
