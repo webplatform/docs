@@ -82,7 +82,6 @@
 |Status=W3C Recommendation
 }}
 }}
-Note: The pointer-events property used to be in the CSS 3 UI specification, but it has been postponed to CSS 4 due to many open issues.
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
@@ -142,9 +141,11 @@ Note: The pointer-events property used to be in the CSS 3 UI specification, but 
 |Blackberry_prefixed_supported=Unknown
 |Blackberry_prefixed_version=
 |Chrome_mobile_supported=Yes
+|Chrome_mobile_version=18.0
 |Chrome_mobile_prefixed_supported=Unknown
 |Chrome_mobile_prefixed_version=
 |Firefox_mobile_supported=Yes
+|Firefox_mobile_version=18.0
 |Firefox_mobile_prefixed_supported=Unknown
 |Firefox_mobile_prefixed_version=
 |IE_mobile_supported=Unknown
@@ -174,9 +175,11 @@ Note: The pointer-events property used to be in the CSS 3 UI specification, but 
 |Blackberry_prefixed_supported=Unknown
 |Blackberry_prefixed_version=
 |Chrome_mobile_supported=Yes
+|Chrome_mobile_version=18.0
 |Chrome_mobile_prefixed_supported=Unknown
 |Chrome_mobile_prefixed_version=
 |Firefox_mobile_supported=Yes
+|Firefox_mobile_version=18.0
 |Firefox_mobile_prefixed_supported=Unknown
 |Firefox_mobile_prefixed_version=
 |IE_mobile_supported=Unknown
@@ -206,3 +209,4 @@ Note: The pointer-events property used to be in the CSS 3 UI specification, but 
 |MSDN_link=
 |HTML5Rocks_link=
 }}
+Note: The pointer-events property used to be in the CSS 3 UI specification, but it has been postponed to CSS 4 due to many open issues.
