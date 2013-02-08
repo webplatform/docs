@@ -19,7 +19,7 @@
 |Description=Any of the range of style values available to the [[css/properties/border-style|'''border-style''']] property. Default value is <tt>none</tt>.
 }}{{CSS Property Value
 |Data Type=color
-|Description=Any of the range of color values available to the [[css/properties/border-color|'''border-color''']] property. Default value is the value of the element's <tt>color</tt> property - ie. text color.
+|Description=Any of the range of color values available to the [[css/properties/border-color|'''border-color''']] property. Default value is the value of the element's <tt>[[css/properties/color|'''color''']]</tt> property - ie. text color.
 }}
 }}
 {{Examples_Section
