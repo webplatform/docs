@@ -7,7 +7,7 @@ Mediaqueries is a paradigm introduced in CSS3 for adapting the layout of a page 
 
 
 == Media features ==
-*[[CSS/Mediaqueries/width|width]]
+*[[css/media queries/width|width]] not CSS/Mediaqueries/width|width !
 *[[CSS/Mediaqueries/height|height]]
 *[[CSS/Mediaqueries/device-width|device-width]]
 *[[CSS/Mediaqueries/device-height|device-height]]
