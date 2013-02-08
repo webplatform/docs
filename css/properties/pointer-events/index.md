@@ -32,12 +32,16 @@
 |Description=For SVG only. The element can only be the target of a pointer event when the <code>visibility</code> property is set to visible and when the pointer is over the perimeter (i.e., stroke) of the element.
 }}{{CSS Property Value
 |Data Type=visible
+|Description=The element may be the target of pointer events when the <code>visibility</code> property is set to visible, and the pointer is over the contents, background, or border of the element (or in SVG, over either the interior (i.e., fill) or the perimeter (i.e., stroke) of the element).
 }}{{CSS Property Value
 |Data Type=painted
+|Description=For SVG only. The element can only be the target of a pointer event when the pointer is over the interior (i.e., 'fill') of the element or the perimeter (i.e., 'stroke') of the element, and the <code>fill</code>, <code>stroke</code> property is set to a value other than none.
 }}{{CSS Property Value
 |Data Type=fill
+|Description=For SVG only. The element can only be the target of a pointer event when the pointer is over the interior (i.e., fill) of the element.
 }}{{CSS Property Value
 |Data Type=stroke
+|Description=For SVG only. The element can only be the target of a pointer event when the pointer is over the perimeter (i.e., stroke) of the element.
 }}
 }}
 {{Examples_Section
