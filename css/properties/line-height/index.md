@@ -55,7 +55,9 @@ Microsoft Internet Explorer 3.0 supports the '''line-height''' attribute throug
 |Import_Notes====Syntax===
 <code>'''line-height: '''normal '''{{!}}''' <number> '''{{!}}''' <length> '''{{!}}''' <percentage></code>
 ===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 5.4.8
+*[http://dev.w3.org/csswg/css3-transitions/#animatable-css CSS Transitions] Defines <code>line-height</code> as animatable. The status of this document is Working Draft.
+*[http://www.w3.org/TR/CSS2/visudet.html#propdef-line-height CSS 2.1]
+*[http://www.w3.org/TR/CSS1/#line-height CSS 1] Initial definition.
 }}
 {{Related_Specifications_Section
 |Specifications=
