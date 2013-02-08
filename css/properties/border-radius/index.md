@@ -144,6 +144,7 @@ The '''border-radius''' property is a composite property that specifies up to fo
 }}
 |Notes_rows={{Compatibility Notes Row
 |Browser=Internet Explorer
+|Version=9.0
 |Note=The border-radius property can't be animated/transitioned in IE. See this demo for a keyframe animation and a transition: http://jsfiddle.net/FPnV6/1/
 }}
 }}
