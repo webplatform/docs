@@ -51,6 +51,10 @@ This list showcases JavaScript libraries. They're sorted alphabetically. If you 
 ! aligh="left"| Type
 ! Description
 |-
+|[http://ajile.net ajile]
+| Modules
+|ajile is an open-source client-side module that provides JavaScript with an API for runtime namespacing, dependency management and on-demand loading and insertion of cross-domain, local, and inline JavaScript.
+|-
 |[http://angularjs.org AngularJS]
 | Framework
 |AngularJS is a toolset for building the framework most suited to your application development. It is fully extensible and works well with other libraries. Every feature can be modified or replaced to suit your unique development workflow and feature needs.
