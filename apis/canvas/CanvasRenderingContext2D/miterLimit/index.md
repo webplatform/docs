@@ -11,8 +11,39 @@
 |Return_value_description=When setting, values that are not finite values greater than zero are ignored. Default is 10.0.
 }}
 {{Examples_Section
-|Not_required=Yes
-|Examples=
+|Not_required=No
+|Examples={{Single Example
+|Language=JavaScript
+|Description=The following example shows the effect of the miterLimit
+|Code=function draw() {
+  var ctx = document.getElementById('canvas').getContext('2d');
+  
+  // Clear canvas
+  ctx.clearRect(0,0,150,150);
+  
+  // Draw guides
+  ctx.strokeStyle = '#09f';
+  ctx.lineWidth   = 2;
+  ctx.strokeRect(-5,50,160,50);
+  
+  // Set line styles
+  ctx.strokeStyle = '#000';
+  ctx.lineWidth = 10;
+  
+  // change this to see the effects
+  ctx.miterLimit = 7;
+  
+  // Draw lines
+  ctx.beginPath();
+  ctx.moveTo(0,100);
+  for (i=0;i<24;i++){
+    var dy = i%2==0 ? 25 : -25 ;
+    ctx.lineTo(Math.pow(i,1.5)*2,75+dy);
+  }
+  ctx.stroke();
+  return false;
+}
+}}
 }}
 {{Notes_Section
 |Notes=The miter length is the distance from the point where two lines meet to the point where two lines that are drawn along the outer edges of the two lines would intersect. If the ratio of these values exceeds the ''miterLimit'' value,  a [[apis/canvas/CanvasRenderingContext2D/lineJoin|lineJoin]] miter style is not drawn.
