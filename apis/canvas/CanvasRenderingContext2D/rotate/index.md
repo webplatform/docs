@@ -22,11 +22,11 @@ If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRES
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
-|Description=This basic example draws two rects, the second rotated 45°
+|Description=This basic example draws two rects, the second rotated 45°, converted to radians
 |Code=ctx.translate(120,120);
 ctx.fillStyle = "lime";
 ctx.fillRect(0,0,100,100);
-ctx.rotate(45);	// draws the second rect 45° rotated
+ctx.rotate((Math.PI/180) * 45);	// draws the second rect 45° rotated
 ctx.fillStyle = "rgba(255,0,0,0.5)";
 ctx.fillRect(0,0,100,100);
 }}{{Single Example
@@ -49,7 +49,7 @@ ctx.fillRect(0,0,100,100);
         ctx.translate(120,120);
         ctx.fillStyle = "lime";
         ctx.fillRect(0,0,100,100);
-        ctx.rotate(45);	// draws the second rect 45° rotated
+        ctx.rotate((Math.PI/180) * 45);	// draws the second rect 45° rotated
         ctx.fillStyle = "rgba(255,0,0,0.5)";
         ctx.fillRect(0,0,100,100);
         
