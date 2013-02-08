@@ -32,7 +32,7 @@
 |Notes====Remarks===
 The version of this property using a vendor prefix, '''-ms-transition-property''', has been deprecated. To ensure compatibility in the future, applications using this property with a vendor prefix should be updated accordingly.
 |Import_Notes====Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}223140 CSS Transitions Module Level 3], Section 2.1
+*[http://www.w3.org/TR/css3-transitions/#transition-property-property CSS Transitions Module Level 3], Section 2.1
 }}
 {{Related_Specifications_Section
 |Specifications=
