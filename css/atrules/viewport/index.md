@@ -11,9 +11,16 @@
 |Code=@media screen and (max-width:400px) {
     @-ms-viewport{
         width:320px;
-        /* the viewport for small devices is set to 320px */
+        /* the viewport for small devices is set to 320px  */
+    }
+    @-o-viewport {
+        width: device-width;
+    }
+    @viewport {
+        width: device-width;
     }
 }
+
 }}
 }}
 {{Notes_Section
