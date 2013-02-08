@@ -1,4 +1,4 @@
-{{Page_Title|filter: brightness(luminosity-factor)}}
+{{Page_Title|brightness(luminosity-factor)}}
 {{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
