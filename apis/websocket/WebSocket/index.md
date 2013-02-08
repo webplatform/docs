@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The WebSocket object provides the API for creating and managing a WebSocket connection to a server, as well as for sending and receiving data on the connection.}}
 {{API_Object}}
 {{Examples_Section
 |Not_required=No
