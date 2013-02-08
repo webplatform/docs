@@ -123,7 +123,7 @@ In addition to the following attributes, the  '''math''' element accepts any att
 |Safari_mobile_prefixed_version=
 }}
 }}
-{{Topics|MathML}}
+{{Topics|MathML, Markup_Elements}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MDN
