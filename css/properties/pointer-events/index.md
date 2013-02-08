@@ -1,7 +1,5 @@
 {{Page_Title|pointer-events}}
-{{Flags
-|Content=Incomplete, Compatibility Incomplete
-}}
+{{Flags}}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|The pointer-events property  allows you to control whether an element can be the target for the pointing device (e.g, mouse, pen) events.}}
