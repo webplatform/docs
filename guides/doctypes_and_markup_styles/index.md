@@ -137,7 +137,11 @@ We wouldn't recommend that you do this however: old versions of Internet Explore
 
 Therefore you should just stick to not trying to serve documents as proper XHTML! Carry on people, nothing to see here.
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Notes=“Loose vs. strict syntax” refers to the difference between HTML 4.01 Transitional (has ‘loose‘ in its system identifier URI) and HTML 4.01 Strict or XHTML 1.0 Transitional and XHTML 1.0 Strict respectively.
+
+Might read “HTML vs. XHTML syntax” as well.
+}}
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
