@@ -42,6 +42,7 @@
 div:hover {
   height: 500px;
 }
+|LiveURL=http://03sq.net/examples/transition.html
 }}
 }}
 {{Notes_Section
