@@ -6,7 +6,6 @@
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|The cursor CSS property specifies the mouse cursor displayed when the mouse pointer is over an element.}}
-
 {{CSS Property
 |Initial value=auto
 |Applies to=all elements
@@ -15,14 +14,10 @@
 |Computed value=as specified (if a keyword)
 |Animatable=No
 |CSS percentages=N/A
-|Values={{CSS Property Value}}
+|Values={{CSS Property Value
+|Data Type=url
 }}
-
-==Syntax==
-<code>
-cursor: ''value'';
-</code>
-
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -32,7 +27,6 @@ This example uses a call to an embedded (global) style sheet to set the cursor t
 
 
 <div style="background: grey; cursor: help; padding: 1em; border-radius: 4px; color: white;">cursor: help</div>
-
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/cursor_h.htm
 }}{{Single Example
 |Description=This example uses inline scripting to set the cursor to '''hand''' as the cursor passes over the paragraph.
@@ -52,8 +46,7 @@ The property handles a comma-separated list of cursor values. If the user agent 
 In Internet Explorer 6, The cursor property supports <code>progress, not-allowed, no-drop, vertical-text, all-scroll, col-resize, row-resize,</code> and <code>url(uri)</code> as new cursor styles.
 Cursors support many shape, color and movement combinations.  This permits you to subtitute the default cursors with your preferred design.  For instance, you may want your company logo to display as the "progress" cursor;  or your country's flag waving in the wind to display as the "wait" cursor.
 Cursors have been the subject of security bulletins and updates.  If your custom cursors are not behaving as expected, examine the security settings for your browser along with your cursors.  This is a common issue with animated cursors.  For an example, refer to [http://go.microsoft.com/fwlink/p/?linkid{{=}}203632 TechNet Security Resources] and search for "Microsoft Security Bulletin MS05-002".
-|Import_Notes
-===Standards information===
+|Import_Notes===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 18.1
 }}
 {{Related_Specifications_Section
@@ -137,3 +130,7 @@ Cursors have been the subject of security bulletins and updates.  If your custom
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
+==Syntax==
+<code>
+cursor: ''value'';
+</code>
