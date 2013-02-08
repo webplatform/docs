@@ -34,12 +34,10 @@ p { font-family: Courier, "Times New Roman", serif; }
 |Usage=Things to note:
 * If the font family name contains white space, it should appear in single or double quotation marks.
 * Generic font family names are values (keywords) and cannot appear in quotation marks.
-|Import_Notes====Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 5.2.2
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=CSS2.1, section 15.3
+|Name=CSS 2.1, section 15.3
 |URL=http://www.w3.org/TR/CSS21/fonts.html#font-family-prop
 |Status=W3C Recommendation 07 June 2011
 }}
