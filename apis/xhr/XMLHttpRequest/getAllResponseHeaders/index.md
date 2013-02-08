@@ -7,7 +7,6 @@
 |Parameters=
 |Method_applies_to=apis/xhr/XMLHttpRequest
 |Example_object_name=object
-|Return_value_name=object
 |Javascript_data_type=DOM Node
 |Return_value_description=String
 
