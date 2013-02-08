@@ -28,6 +28,8 @@ CSS properties
 * display: flex - rod
 * flex-* - rod
 * flex-direction - rod - FINISHED, NEEDS REVIEW
+* padding - Giuseppe
+* padding-* - Giuseppe
 
 Other activity
 
