@@ -16,6 +16,7 @@
 * animation - scott
 * animation-* - scott
 * box-sizing - hans
+* float - hans
 * text-rendering - anselm  - FINISHED, NEEDS REVIEW
 * list-style - florian
 * list-style-* - florian
