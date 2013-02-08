@@ -44,7 +44,7 @@ Check out the Examples.
 .baz { cursor: url(hyper.cur), auto }
 }}{{Single Example
 |Description=The following Example shows the standard cursors. Just hover over the boxes and you see the cursors.
-
+|Code=
 				<div style="overflow: hidden;">
 		<h3>General</h3>
 		<div style="overflow: hidden;">
@@ -92,7 +92,6 @@ Check out the Examples.
 
 
 |LiveURL=
-|Code=
 }}
 }}
 {{Notes_Section
