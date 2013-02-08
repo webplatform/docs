@@ -88,13 +88,13 @@ The '''border-radius''' property is a composite property that specifies up to fo
 |Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
-|Chrome_version=5.0
-|Chrome_prefixed_supported=No
-|Chrome_prefixed_version=
+|Chrome_version=4.0
+|Chrome_prefixed_supported=Yes
+|Chrome_prefixed_version=0.2
 |Firefox_supported=Yes
 |Firefox_version=4.0
-|Firefox_prefixed_supported=No
-|Firefox_prefixed_version=
+|Firefox_prefixed_supported=Yes
+|Firefox_prefixed_version=1.0
 |Internet_explorer_supported=Yes
 |Internet_explorer_version=9.0
 |Internet_explorer_prefixed_supported=No
@@ -105,8 +105,8 @@ The '''border-radius''' property is a composite property that specifies up to fo
 |Opera_prefixed_version=
 |Safari_supported=Yes
 |Safari_version=5.0
-|Safari_prefixed_supported=No
-|Safari_prefixed_version=
+|Safari_prefixed_supported=Yes
+|Safari_prefixed_version=3.0
 }}
 |Mobile_rows={{Compatibility Table Mobile Row
 |Android_supported=Yes
