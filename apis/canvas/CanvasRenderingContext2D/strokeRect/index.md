@@ -34,8 +34,42 @@
 If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRESULT''' error code.
 }}
 {{Examples_Section
-|Not_required=Yes
-|Examples=
+|Not_required=No
+|Examples={{Single Example
+|Language=JavaScript
+|Description=Basic example drawing a 100 x 100 px rect with a red outline
+|Code=// draw rect with red outline
+ctx.strokeStyle = 'red';
+ctx.strokeRect(10,10,100,100);
+}}{{Single Example
+|Language=HTML
+|Description=Draws a rect with a white outline onto a black canvas
+|Code=<!DOCTYPE html>
+<html>
+<head>
+  <title>Canvas Example</title>
+  <script>
+    function draw() {
+      var canvas = document.getElementById("MyCanvas");
+      if (canvas.getContext) {  // check for support
+        var ctx = canvas.getContext("2d"); 
+        
+        // clear background
+        ctx.fillStyle = 'black';
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+        // draw rect with outline
+        ctx.strokeStyle = 'white';
+        ctx.strokeRect(10,10,100,100);
+        
+      }
+    }        
+  </script>
+</head>
+<body onload="draw();">
+  <canvas id="MyCanvas" width="600" height="500">This browser or document mode doesn't support canvas</canvas>
+</body>
+</html>
+}}
 }}
 {{Notes_Section
 |Notes=The ''strokeRect''  method creates a path  that  requires the use of  the [[apis/canvas/CanvasRenderingContext2D/stroke|stroke]]  method to render the rectangle. The outline uses the current [[apis/canvas/CanvasRenderingContext2D/strokeStyle|strokeStyle]], [[apis/canvas/CanvasRenderingContext2D/lineWidth|lineWidth]], [[apis/canvas/CanvasRenderingContext2D/lineJoin|lineJoin]], and, when appropriate, [[apis/canvas/CanvasRenderingContext2D/miterLimit|miterLimit]]  properties. If  the  ''w'' or ''h''  parameter  is zero, a line is drawn. If  the  ''w''  and ''h''  parameters are zero, the rectangle is not drawn.
