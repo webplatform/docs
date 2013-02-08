@@ -55,7 +55,28 @@ The '''border-top-left-radius''' property specifies the horizontal and vertical 
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
-|Desktop_rows=
+|Desktop_rows={{Compatibility Table Desktop Row
+|Chrome_supported=Yes
+|Chrome_version=4.0
+|Chrome_prefixed_supported=Yes
+|Chrome_prefixed_version=0.2
+|Firefox_supported=Yes
+|Firefox_version=4.0 (2.0)
+|Firefox_prefixed_supported=Yes
+|Firefox_prefixed_version=1.0 (1.0)
+|Internet_explorer_supported=Yes
+|Internet_explorer_version=9.0
+|Internet_explorer_prefixed_supported=Unknown
+|Internet_explorer_prefixed_version=
+|Opera_supported=Yes
+|Opera_version=10.5
+|Opera_prefixed_supported=Unknown
+|Opera_prefixed_version=
+|Safari_supported=Yes
+|Safari_version=5.0
+|Safari_prefixed_supported=Yes
+|Safari_prefixed_version=3.0
+}}
 |Mobile_rows=
 |Notes_rows=
 }}
