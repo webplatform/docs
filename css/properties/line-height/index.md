@@ -22,7 +22,7 @@ On block level elements, line-height specifies the minimal height of line boxes 
 |Description=The used value of the property is this number multiplied by the element's font size. Negative values are illegal.
 }}{{CSS Property Value
 |Data Type=<length>
-|Description=The specified length is used in the calculation of the line box height. Negative values are illegal.
+|Description=The specified length is used in the calculation of the line box height. Negative values are illegal. Note that the <length> CSS data type denotes distance measurements: a number immediately followed by a length unit - <code>px</code>, <code>em</code>, <code>pc</code>, <code>in, <code>mm</code>.
 }}{{CSS Property Value
 |Data Type=<percentage>
 |Description=The computed value of the property is this percentage multiplied by the element's computed font size.
