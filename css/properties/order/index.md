@@ -2,11 +2,12 @@
 {{Flags}}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name|CSS Flexible Box Layout Module}}
-{{Summary_Section|The ‘order’ property controls the order in which flex items appear within their flex container, by assigning them to ordinal groups. }}
+{{Summary_Section|The ‘order’ property controls the order in which flex items appear within their flex container, by assigning them to ordinal groups.}}
 {{CSS Property
 |Initial value=0
 |Applies to=flex items
 |Inherited=No
+|Media=visual
 |Computed value=specified value
 |Animatable=Yes
 |CSS object model property=order
