@@ -39,4 +39,3 @@
 |MSDN_link=
 |HTML5Rocks_link=
 }}
-The appearance property is used to display an element using a platform-native styling based on the users' operating system's theme.
