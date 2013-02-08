@@ -37,12 +37,35 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Code=&lt;!DOCTYPE HTML&gt;
+&lt;html lang="en-US"&gt;
+&lt;head&gt;
+  &lt;meta charset="UTF-8"&gt;
+  &lt;title&gt;Pointer-events example&lt;/title&gt;
+  &lt;link href="pointer-events.css" type="text/css" rel="stylesheet"&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+  &lt;p&gt;&lt;a href="http://docs.webplatform.org" id="one"&gt;webplatform.org(none)&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;a href="http://docs.webplatform.org" id="two"&gt;webplatform.org(all)&lt;/a&gt;&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+}}{{Single Example
+|Language=CSS
+|Code=#one{
+  pointer-events: none;
+}
+#two{
+  pointer-events: all;
+}
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications=
-{{Related Specification
+|Specifications={{Related Specification
 |Name=Scalable Vector Graphics (SVG) 1.1 (Second Edition)
 |URL=http://www.w3.org/TR/SVG11/interact.html#PointerEventsProperty
 |Status=W3C Recommendation
