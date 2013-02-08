@@ -56,7 +56,7 @@ On Gecko 2.0 (Firefox 4 / Thunderbird 3.3 / SeaMonkey 2.1) the optimizeSpeed opt
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables={{Imported Compatibility Table
-|Page=https://developer.mozilla.org/en-US/docs/CSS/text-rendering
+|Page=https://developer.mozilla.org/en-US/docs/CSS/text-rendering MDN Compatibility Table
 }}
 |Desktop_rows=
 |Mobile_rows=
