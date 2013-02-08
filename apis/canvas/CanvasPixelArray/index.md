@@ -10,6 +10,7 @@
 }}
 {{Notes_Section
 |Notes=A Canvas Pixel ArrayBuffer is not, strictly speaking, an object of the canvas API. It is a regular ArrayBuffer object (see [http://www.khronos.org/registry/typedarray/specs/latest/#5 Typed Array Specification, ArrayBuffer Type]) whose data is represented in left-to-right, top-to-bottom order, starting with the top left, with each pixel's red, green, blue, and alpha components being given in that order for each pixel. Each component of each device pixel represented in this array must be in the range 0..255, representing the 8-bit value for that component. The components must be assigned consecutive indices starting with 0 for the top left pixel's red component.
+|Import_Notes=The latest HTML specification has removed CanvasPixelArray in favor of the JavaScript Uint8ClampedArray typed array. However, as of April 2012, most browsers still returns CanvasPixelArray and there are very few implementations which return Uint8ClampedArray on ImageData.data.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
