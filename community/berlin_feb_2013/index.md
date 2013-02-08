@@ -51,7 +51,8 @@ There are a huge number of CSS properties to cover in our reference pages, and w
 To get started with CSS property references:
 
 * Read our guide to creating CSS property reference pages at http://docs.webplatform.org/wiki/WPD:CSS_property_guide
-* Have a look at our CSs property tracking sheets at https://docs.google.com/spreadsheet/ccc?key=0AkRs-89PKiZpdE0xdm9Sb1ZvRW1ZRzMtWEdyU0Z4OEE#gid=13
+* Read the CSS project plan, at http://docs.webplatform.org/wiki/WPD:Tasks/CSS_Property_Milestone
+* Have a look at our CSS property tracking sheets at https://docs.google.com/spreadsheet/ccc?key=0AkRs-89PKiZpdE0xdm9Sb1ZvRW1ZRzMtWEdyU0Z4OEE#gid=13
 * Choose a set of CSS properties you want to work on, and let us know — we'll track who is working on what, so that there are no overlaps.
 
 Bear in mind that we want to work on p0, p1 and p2 properties first of all, so please stick to those first, and go on to lower priorities if they are all completed.
