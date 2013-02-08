@@ -2,11 +2,28 @@
 {{Flags}}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|A native script object used by the '''getCurrentPosition()''' and '''watchPosition()''' methods. }}
+{{Summary_Section|A native script object used by the '''getCurrentPosition()''' and '''watchPosition()''' methods.}}
 {{API_Object}}
 {{Examples_Section
-|Not_required=Yes
-|Examples=
+|Not_required=No
+|Examples={{Single Example
+|Language=JavaScript
+|Description=Obtain user position using high accuracy and a timeout if a locations cant be found within 60 seconds.
+|Code=
+navigator.geolocation.getCurrentPosition(geoSuccess,geoError, {'enableHighAccuracy':true, 'timeout':10000});
+
+/* Position found*/
+function geoSuccess(position)
+{  
+alert('latitude: '+position.coords.latitude+' AND longitude: '+position.coords.longitude);
+}
+
+/* Position not found*/
+function geoError(position)
+{ 
+alert("No position found");
+}
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
