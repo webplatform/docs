@@ -31,7 +31,10 @@ If the property has a value different than none, a stacking context will be crea
 {{CSS Property Value
 |Data Type=translateY(50px)
 |Description=Translates the element by the given amount along the Y axis.}}
-}}
+{{CSS Property Value
+|Data Type=scale(2, 0.5)
+|Description=Specifies a 2D scaling operation described by [sx, sy]. If sy isn't specified, it is assumed to be equal to sx.}}
+
 {{Examples_Section
 |Not_required=No
 |Examples=
