@@ -9,20 +9,26 @@
 |Examples={{Single Example
 |Language=JavaScript
 |Description=Using form input for selecting files
-|Code=function handleFileSelect(evt) {
-  var files = evt.target.files; // FileList object
+|Code=<input type="file" id="files" name="files[]" multiple />
+<output id="list"></output>
 
-  // files is a FileList of File objects. List some properties.
-  var output = [];
-  for (var i = 0, f; f = files[i]; i++) {
-    output.push(escape(f.name), " (", f.type, ")- ",
-                f.size, " bytes, last modified: ",
-                f.lastModifiedDate ? f.lastModifiedDate.toLocaleDateString() : "n/a");
+<script>
+  function handleFileSelect(evt) {
+    var files = evt.target.files; // FileList object
+
+    // files is a FileList of File objects. List some properties.
+    var output = [];
+    for (var i = 0, f; f = files[i]; i++) {
+      output.push('<li><strong>', escape(f.name), '</strong> (', f.type {{!}}{{!}} 'n/a', ') - ',
+                  f.size, ' bytes, last modified: ',
+                  f.lastModifiedDate ? f.lastModifiedDate.toLocaleDateString() : 'n/a',
+                  '</li>');
+    }
+    document.getElementById('list').innerHTML = '<ul>' + output.join('') + '</ul>';
   }
-  document.getElementById('list').innerHTML = output.join('');
-}
 
-document.getElementById('files').addEventListener('change', handleFileSelect, false); // files is html file input field
+  document.getElementById('files').addEventListener('change', handleFileSelect, false);
+</script>
 }}
 }}
 {{Notes_Section}}
