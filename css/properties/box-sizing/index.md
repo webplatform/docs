@@ -107,6 +107,22 @@ div{
 |Browser=Internet Explorer
 |Version=8
 |Note=This property requires Windows Internet Explorer to be in IE8 Standards mode rendering.
+}}{{Compatibility Notes Row
+|Browser=Chrome
+|Version=1+
+|Note=Chrome does not support the padding-box value.
+}}{{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=8+
+|Note=Internet Explorer does not support the padding-box value.
+}}{{Compatibility Notes Row
+|Browser=Safari
+|Version=3.1+
+|Note=Safari does not support the padding-box value.
+}}{{Compatibility Notes Row
+|Browser=Opera
+|Version=9.5+
+|Note=Opera does not support the padding-box value.
 }}
 }}
 {{See_Also_Section
