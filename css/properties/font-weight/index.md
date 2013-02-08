@@ -1,13 +1,8 @@
 {{Page_Title}}
-
 {{Flags}}
-
 {{Standardization_Status|W3C Recommendation}}
-
 {{API_Name}}
-
 {{Summary_Section|Specifies the weight or boldness of glyphs in the font (their degree of blackness or stroke thickness). However, some fonts are not available in all weights; some are available only on '''normal''' and '''bold'''.}}
-
 {{CSS Property
 |Initial value=normal
 |Applies to=All elements
@@ -17,40 +12,27 @@
 |Animatable=Yes
 |CSS object model property=fontWeight
 |CSS percentages=???
-|Values=
-
-{{CSS Property Value
+|Values={{CSS Property Value
 |Data Type=normal
 |Description=Normal font weight. Same as '''400'''.
-}}
-
-{{CSS Property Value
+}}{{CSS Property Value
 |Data Type=bold
 |Description=Bold font weight. Same as '''700'''.
-}}
-
-{{CSS Property Value
+}}{{CSS Property Value
 |Data Type=lighter
 |Description=One font weight lighter than the parent element (among the available weights of the font).
-}}
-
-{{CSS Property Value
+}}{{CSS Property Value
 |Data Type=bolder
 |Description=One font weight darker than the parent element (among the available weights of the font).
-}}
-
-{{CSS Property Value
-|Data Type= 100, 200, 300, 400, 500, 600, 700, 800, 900
+}}{{CSS Property Value
+|Data Type=100, 200, 300, 400, 500, 600, 700, 800, 900
 |Description=Numeric font weights for fonts that provide more than just normal and bold. If the exact weight given is unavailable, a face with a nearby weight is used.
 }}
-
 }}
-
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Description=
 |Code=/* Set paragraph text to be bold. */
 p { font-weight: bold; }
 
@@ -63,7 +45,6 @@ h1 { font-weight: 500; }
 span { font-weight: lighter; }
 }}
 }}
-
 {{Notes_Section
 |Usage=Quite often there are only a few weights available for a particular font family. When a weight is specified for which no face exists, a face with a nearby weight is used:<br />
 '''600-900''' use the closest available darker weight (or, if there is none, the closest available lighter weight).<br />
@@ -84,26 +65,18 @@ These values form an ordered sequence, where each number indicates a weight that
 * '''700''' - Bold
 * '''800''' - Extra Bold (Ultra Bold)
 * '''900''' - Black (Heavy)
-
 }}
-
 {{Related_Specifications_Section
-|Specifications=
-
-{{Related Specification
+|Specifications={{Related Specification
 |Name=CSS Fonts Module Level 3
 |URL=http://www.w3.org/TR/css3-fonts/#font-weight-prop
 |Status=Working Draft
-}}
-
-{{Related Specification
+}}{{Related Specification
 |Name=CSS Values and Units Module Level 3
 |URL=http://www.w3.org/TR/css3-values/
 |Status=Candidate Recommendation
 }}
-
 }}
-
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
@@ -134,13 +107,13 @@ These values form an ordered sequence, where each number indicates a weight that
 |Android_version=1.0
 |Android_prefixed_supported=No
 |Android_prefixed_version=
-|Blackberry_supported=
+|Blackberry_supported=Unknown
 |Blackberry_version=
-|Blackberry_prefixed_supported=
+|Blackberry_prefixed_supported=Unknown
 |Blackberry_prefixed_version=
-|Chrome_mobile_supported=
+|Chrome_mobile_supported=Unknown
 |Chrome_mobile_version=
-|Chrome_mobile_prefixed_supported=
+|Chrome_mobile_prefixed_supported=Unknown
 |Chrome_mobile_prefixed_version=
 |Firefox_mobile_supported=Yes
 |Firefox_mobile_version=1.0
@@ -154,17 +127,17 @@ These values form an ordered sequence, where each number indicates a weight that
 |Opera_mobile_version=6.0
 |Opera_mobile_prefixed_supported=No
 |Opera_mobile_prefixed_version=
-|Opera_mini_supported=
+|Opera_mini_supported=Unknown
 |Opera_mini_version=
-|Opera_mini_prefixed_supported=
+|Opera_mini_prefixed_supported=Unknown
 |Opera_mini_prefixed_version=
 |Safari_mobile_supported=Yes
 |Safari_mobile_version=3.1
 |Safari_mobile_prefixed_supported=No
 |Safari_mobile_prefixed_version=
 }}
+|Notes_rows=
 }}
-
 {{See_Also_Section
 |Topic_clusters=CSS Font, Fonts, Text
 |External_links=* A List Apart: [http://alistapart.com/article/say-no-to-faux-bold Say No to Faux Bold]
@@ -172,11 +145,10 @@ These values form an ordered sequence, where each number indicates a weight that
 * WebKit: [http://trac.webkit.org/browser/trunk/Source/WebCore/css/html.css default style sheet]
 * IECSS: [http://www.iecss.com/ Internet Explorer User Agent Style Sheets]
 }}
-
 {{Topics|CSS}}
-
 {{External_Attribution
 |Is_CC-BY-SA=No
+|Sources=MDN
 |MDN_link=https://developer.mozilla.org/en-US/docs/CSS/font-weight
 |MSDN_link=
 |HTML5Rocks_link=
