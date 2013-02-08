@@ -12,7 +12,20 @@ reading '''Blob''' data will).
 }}
 {{Examples_Section
 |Not_required=Yes
-|Examples={{Single Example}}
+|Examples={{Single Example
+|Language=JavaScript
+|Description=Blob constructor example usage
+|Code=var aFileParts = ["<a id=\"a\"><b id=\"b\">hey!<\/b><\/a>"];
+var oMyBlob = new Blob(aFileParts, { "type" : "text\/xml" }); // the blob
+}}{{Single Example
+|Language=JavaScript
+|Description=Example for creating a URL to a typed array using a blob
+|Code=var typedArray = GetTheTypedArraySomehow();
+var blob = new Blob([typedArray], {type: "application/octet-binary"}); // pass a useful mime type here
+var url = URL.createObjectURL(blob);
+// url will be something like: blob:d3958f5c-0777-0845-9dcf-2cb28783acaf
+// now you can use the url in any context that regular URLs can be used in, for example img.src, etc.
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
@@ -93,8 +106,8 @@ reading '''Blob''' data will).
 {{Topics|FileAPI}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
+|Sources=MDN, MSDN
+|MDN_link=https://developer.mozilla.org/en-US/docs/DOM/Blob
 |MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
 |HTML5Rocks_link=
 }}
