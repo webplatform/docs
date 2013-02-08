@@ -112,6 +112,7 @@ If fewer  '''animation-delay''' values are declared than corresponding [[css/pro
 }}
 {{See_Also_Section
 |Topic_clusters=Animation
+|External_links=http://www.w3.org/TR/css3-animations/#animation-delay-property
 |Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
