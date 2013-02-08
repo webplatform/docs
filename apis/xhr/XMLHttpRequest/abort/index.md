@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Aborts a started asynchronous request of an XMLHttpRequest instance object.}}
+{{Summary_Section|Stops an asynchronous XMLHttpRequest in progress.}}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=apis/xhr/XMLHttpRequest
@@ -13,10 +13,8 @@
 |Examples=
 }}
 {{Notes_Section
-|Notes=The '''abort''' method interrupts an asynchronous operation in progress.
-Calling '''abort''' resets the object; the '''readyState''' is changed to 0 (uninitialized).
+|Notes=Calling '''abort''' resets the object; the '''readyState''' is changed to 0 (uninitialized).
 Calling it on an already aborted request throws an exception.
-
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
