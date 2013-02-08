@@ -96,6 +96,13 @@ This example uses '''ul''' as a selector in an embedded (global) style sheet to 
 The '''list-style-type''' property determines the appearance of the list-item marker if the value of the [[css/properties/list-style-image|'''list-style-image''']] attribute is set to '''none''', or if the image pointed to by the URL cannot be displayed.
 The '''list-style-type''' property can be applied to any element when [[css/properties/margin|'''margin''']] and [[css/properties/display|'''display''']]:'''list-item''' are applied. The [[css/properties/display|'''display''']]:'''list-item''' property is available starting with Microsoft Internet Explorer 6.
 If the left margin of a line item is set to 0 using one of the [[css/properties/margin|'''margin''']] properties, the list-item markers do not show. The margin should be set to a minimum of 30 points.
+
+===Browser Support===
+The list-style-type property is supported in all major browsers.
+
+Note: IE9 and Opera 11 do not support: cjk-ideographic, hebrew, hiragana, hiragana-iroha, katakana, and katakana-iroha.
+
+Note: IE8, and earlier, only support the property values: decimal-leading-zero, lower-greek, lower-latin, upper-latin, armenian, georgian, and inherit if a DOCTYPE is specified!
 |Import_Notes====Syntax===
 <code>'''list-style-type: '''disc '''{{!}}''' circle '''{{!}}''' square '''{{!}}''' decimal '''{{!}}''' decimal-leading-zero '''{{!}}''' lower-roman '''{{!}}''' upper-roman '''{{!}}''' lower-greek '''{{!}}''' lower-latin '''{{!}}''' upper-latin '''{{!}}''' armenian '''{{!}}''' georgian '''{{!}}''' lower-alpha '''{{!}}''' upper-alpha '''{{!}}''' none</code>
 ===Standards information===
@@ -107,7 +114,23 @@ If the left margin of a line item is set to 0 using one of the [[css/properties/
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
-|Desktop_rows=
+|Desktop_rows={{Compatibility Table Desktop Row
+|Chrome_supported=Yes
+|Chrome_prefixed_supported=Unknown
+|Chrome_prefixed_version=
+|Firefox_supported=Yes
+|Firefox_prefixed_supported=Unknown
+|Firefox_prefixed_version=
+|Internet_explorer_supported=Yes
+|Internet_explorer_prefixed_supported=Unknown
+|Internet_explorer_prefixed_version=
+|Opera_supported=Yes
+|Opera_prefixed_supported=Unknown
+|Opera_prefixed_version=
+|Safari_supported=Yes
+|Safari_prefixed_supported=Unknown
+|Safari_prefixed_version=
+}}
 |Mobile_rows=
 |Notes_rows=
 }}
