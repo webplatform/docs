@@ -5,8 +5,15 @@
 {{Summary_Section|The HTML5 specification defines a Window interface, which this specification extends.}}
 {{API_Object}}
 {{Examples_Section
-|Not_required=Yes
-|Examples=
+|Not_required=No
+|Examples={{Single Example
+|Language=JavaScript
+|Code=function onLoad() { 
+  var now = new Date().getTime();
+  var page_load_time = now - performance.timing.navigationStart;
+  console.log("User-perceived page loading time: " + page_load_time);
+}
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
@@ -81,8 +88,8 @@
 {{Topics|Navigation Timing}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
+|Sources=MDN, MSDN
+|MDN_link=https://developer.mozilla.org/en-US/docs/Navigation_timing
 |MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
 |HTML5Rocks_link=
 }}
