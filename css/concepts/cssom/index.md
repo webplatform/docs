@@ -9,3 +9,4 @@ style sheets using [[concepts/vendor_prefix|vendor prefixes]] such as
 '''-webkit-font-size''' and '''-moz-font-size''', in which case
 corresponding CSSOM prefixes would be '''WebkitFontSize''' and
 '''MozFontSize'''.)
+Refer to [http://www.w3.org/TR/cssom/ http://www.w3.org/TR/cssom/] for a list of the names.
