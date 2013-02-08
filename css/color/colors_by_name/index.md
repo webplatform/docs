@@ -10,9 +10,9 @@
 
 {| class="wikitable"
 |-
-! Name !! Hex !! RGB !! HSL
+! Example !! Name !! Hex !! RGB !! HSL
 |-
-| aliceblue || #f0f8ff || rgb(94%,97%,100%) || hsl(208,100%,97%)
+| <div style="background-color: aliceblue; color: aliceblue;"> Example </div> || aliceblue || #f0f8ff || rgb(94%,97%,100%) || hsl(208,100%,97%)
 |-
 | antiquewhite || #faebd7 || rgb(98%,92%,84%) || hsl(34,78%,91%)
 |-
