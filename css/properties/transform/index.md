@@ -35,6 +35,9 @@ If the property has a value different than none, a stacking context will be crea
 |Data Type=scaleY(0.5)
 |Description=Specifies a scale operation using the vector [1, sy].
 }}{{CSS Property Value
+|Data Type=rotate(20deg)
+|Description=Rotates the element clockwise around its origin (as specified by the transform-origin property) by the specified angle. 
+}}{{CSS Property Value
 |Data Type=none
 |Description=Specifies that no transform should be applied.
 }}
