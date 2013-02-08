@@ -3,17 +3,19 @@
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|On inline elements, the line-height CSS property specifies the height that is used in the calculation of the line box height.
 On block level elements, line-height specifies the minimal height of line boxes within the element.
 }}
 {{CSS Property
 |Initial value=normal
-|Applies to=All elements
+|Applies to=all elements
 |Inherited=Yes
 |Media=visual
+|Computed value=for <length> and <percentage> the absolute value; otherwise as specified
 |Animatable=No
+|CSS percentages=refer to the font size of the element itself
 |Values={{CSS Property Value
 |Data Type=normal
 |Description=Default. Default height. Depends on the user agent.
