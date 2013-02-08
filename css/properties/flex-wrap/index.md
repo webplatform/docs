@@ -2,23 +2,24 @@
 {{Flags}}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name|CSS Flexible Box Layout Module}}
-{{Summary_Section|The ‘flex-wrap’ property controls whether the flex container is single-line or multi-line, and the direction of the cross-axis, which determines the direction new lines are stacked in. }}
+{{Summary_Section|The ‘flex-wrap’ property controls whether the flex container is single-line or multi-line, and the direction of the cross-axis, which determines the direction new lines are stacked in.}}
 {{CSS Property
 |Initial value=nowrap
 |Applies to=flex containers
 |Inherited=No
+|Media=visual
 |Computed value=specified value
 |Animatable=No
 |CSS object model property=flexWrap
 |Values={{CSS Property Value
 |Data Type=nowrap
-|Description=The flex container is single-line. The cross-start direction is equivalent to either the start or before/head direction of the current writing mode, whichever is in the cross axis, and the cross-end direction is the opposite direction of cross-start. 
+|Description=The flex container is single-line. The cross-start direction is equivalent to either the start or before/head direction of the current writing mode, whichever is in the cross axis, and the cross-end direction is the opposite direction of cross-start.
 }}{{CSS Property Value
 |Data Type=wrap
-|Description=The flex container is multi-line. The cross-start direction is equivalent to either the start or before/head direction of the current writing mode, whichever is in the cross axis, and the cross-end direction is the opposite direction of cross-start. 
+|Description=The flex container is multi-line. The cross-start direction is equivalent to either the start or before/head direction of the current writing mode, whichever is in the cross axis, and the cross-end direction is the opposite direction of cross-start.
 }}{{CSS Property Value
 |Data Type=wrap-reverse
-|Description=Same as ‘wrap’, except the cross-start and cross-end directions are swapped. 
+|Description=Same as ‘wrap’, except the cross-start and cross-end directions are swapped.
 }}
 }}
 {{Examples_Section
