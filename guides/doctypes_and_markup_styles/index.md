@@ -2,7 +2,7 @@
 {{Flags
 |Editorial notes=“Loose vs. strict syntax” refers to the difference between HTML 4.01 Transitional (has ‘loose‘ in its system identifier URI) and HTML 4.01 Strict or XHTML 1.0 Transitional and XHTML 1.0 Strict respectively.
 
-Might read “HTML vs. XHTML syntax” as well. 
+Might read “HTML vs. XHTML syntax” as well.
 }}
 {{Byline}}
 {{Summary_Section|In this article we will explore the different doctypes you are likely to come across on your journey around the Web, as well as look at how XHTML and HTML differ.}}
@@ -11,7 +11,7 @@ Might read “HTML vs. XHTML syntax” as well.
 The doctype appears just above the <code>&lt;html&gt;</code> tag, at the very start of each document you write:
 
 <pre>&lt;!DOCTYPE html&gt;
-&lt;html lang="en-GB"&gt;
+&lt;html lang="en"&gt;
 &lt;head&gt;
   &lt;meta charset="utf-8"&gt;
   &lt;title&gt;My fabulous document&lt;/title&gt;
@@ -99,7 +99,7 @@ Table 1 shows the main syntax differences between HTML and XHTML:
 {{!}}-
 {{!}}}
 
-Table 1: Differences between HTML and XHTML. (current commented out because tables won't render at the moment)
+Table 1: Differences between HTML and XHTML.
 
 In terms of what syntax style you should use, pick something you are comfortable with. We'd recommend that you start off using strict XML syntax, as it is guaranteed to work in any situation. Later on you can adjust your style to suit, when you understand what you are doing a bit better. Just remember these rules:
 
