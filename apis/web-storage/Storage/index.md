@@ -21,7 +21,27 @@ sessionStorage.myKey {{=}} '...';
 <html>
   <head>
   <style>
-    body {
+    <!-- include CSS -->
+  </style>
+  </head>
+  <body>
+    <header>
+      <h1>LocalStorage</h1><div class="arrow-right"></div>
+      <h2>Saving permanent textarea content</h2>
+    </header>  
+    <div id="excerpt">
+      This sample saves some text on the localStorage object and retrieves the value on load time. Use your browser developer tools to debug the values of the localStorage object.
+    </div>
+    <div id="content"></div>
+    <p id="log"></p>
+    <!-- Javscript -->
+  </body>
+</html>
+|LiveURL=http://playground.html5rocks.com/#localstorage
+}}{{Single Example
+|Language=CSS
+|Description=CSS part
+|Code=body {
       font: 100% "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
       margin: 0;
     }
@@ -78,20 +98,10 @@ sessionStorage.myKey {{=}} '...';
     input, textarea {
       font-size: 100%;
     }
-  </style>
-  </head>
-  <body>
-    <header>
-      <h1>LocalStorage</h1><div class="arrow-right"></div>
-      <h2>Saving permanent textarea content</h2>
-    </header>  
-    <div id="excerpt">
-      This sample saves some text on the localStorage object and retrieves the value on load time. Use your browser developer tools to debug the values of the localStorage object.
-    </div>
-    <div id="content"></div>
-    <p id="log"></p>
-    <script>
-      // Generate the little markup from javascript
+}}{{Single Example
+|Language=JavaScript
+|Description=Javascript part
+|Code=  // Generate the little markup from javascript
       document.querySelector('#content').innerHTML =
           '<p><em>Save text locally (it will still be available after restarting your browser)</em></p>';
       var area = document.createElement('textarea');
@@ -123,10 +133,6 @@ sessionStorage.myKey {{=}} '...';
           area.value = 'Type your text here...';
         }
       }
-    </script>
-  </body>
-</html>
-|LiveURL=http://playground.html5rocks.com/#localstorage
 }}
 }}
 {{Notes_Section
