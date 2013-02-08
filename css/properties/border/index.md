@@ -7,11 +7,13 @@
 {{API_Name}}
 {{Summary_Section|Shorthand property that defines all the properties of an element's border in a single declaration. It can be used to set one or more values (of those: [[css/properties/border-width|'''border-width''']], [[css/properties/border-style|'''border-style''']], [[css/properties/border-color|'''border-color''']]).}}
 {{CSS Property
+|Initial value=See individual properties
 |Applies to=All elements
 |Inherited=No
 |Media=visual
-|Computed value=see individual properties
+|Computed value=See individual properties
 |Animatable=No
+|CSS object model property=border
 |CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=<width> <style> <color>
