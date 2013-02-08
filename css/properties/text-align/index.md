@@ -48,6 +48,48 @@ This example uses '''p''' as a selector and two classes to call an embedded styl
     onmouseover{{=}}"this.style.textAlign{{=}}'center'"&gt;
 . . . &lt;/P&gt;
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/textAlign.htm
+}}{{Single Example
+|Language=HTML
+|Description=This just shows the four possible types of text-alignment.
+|Code=<!doctype html>
+<html>
+    <head>
+        <title> Alignment examples </title>
+
+        <style>
+            body{
+                padding : 10px;
+            }
+            .example{
+                border-bottom: 1px solid gray;
+            }
+            .justified{
+                width: 200px; /* We limit the width in order to show the justified text */
+            }
+
+        </style>
+        <style>
+            .left { text-align: left;}
+            .cenetered{ text-align: center;}
+            .right { text-align: right;}
+            .justified { text-align: justify;}
+        </style>
+    </head>
+
+    <body>
+        <p class="left-aligned example"> This paragraph is aligned to the left. </p>
+
+        <p class="cenetered example"> This paragraph is ceneterd. </p>
+
+        <p class="right example"> This paragraph is aligned to the right. </p>
+
+        <p class="justified example">
+            This paragraph needs to be really long in order to show how to justify text.
+            It only works because we set a width for this paragraph though.
+        </p>
+    </body>
+</html>
+
 }}
 }}
 {{Notes_Section
