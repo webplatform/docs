@@ -24,6 +24,13 @@ If the property has a value different than none, a stacking context will be crea
 {{CSS Property Value
 |Data Type=translate(12px, 50%)
 |Description=Specifies a 2D translation by the vector [tx, ty]. If ty isn't specified, its value is assumed to be zero.}}
+{{CSS Property Value
+|Data Type=translateX(2em)
+|Description=Translates the element by the given amount along the X axis.}}
+}}
+{{CSS Property Value
+|Data Type=translateY(50px)
+|Description=Translates the element by the given amount along the Y axis.}}
 }}
 {{Examples_Section
 |Not_required=No
