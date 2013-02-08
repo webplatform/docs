@@ -71,10 +71,21 @@ These values form an ordered sequence, where each number indicates a weight that
 |Name=CSS Fonts Module Level 3
 |URL=http://www.w3.org/TR/css3-fonts/#font-weight-prop
 |Status=Working Draft
+|Relevant_changes=No change.
 }}{{Related Specification
-|Name=CSS Values and Units Module Level 3
-|URL=http://www.w3.org/TR/css3-values/
-|Status=Candidate Recommendation
+|Name=CSS Transitions
+|URL=http://dev.w3.org/csswg/css3-transitions/#animatable-css
+|Status=Working Draft
+|Relevant_changes=Defines font-weight as animatable.
+}}{{Related Specification
+|Name=CSS Level 2 (Revision 1)
+|URL=http://www.w3.org/TR/CSS2/fonts.html#propdef-font-weight
+|Status=Recommendation
+|Relevant_changes=No change.
+}}{{Related Specification
+|Name=CSS Level 1
+|URL=http://www.w3.org/TR/CSS1/#font-weight
+|Status=Recommendation
 }}
 }}
 {{Compatibility_Section
