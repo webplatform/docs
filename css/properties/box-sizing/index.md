@@ -74,10 +74,10 @@ div{
 |Chrome_version=
 |Chrome_prefixed_supported=No
 |Chrome_prefixed_version=
-|Firefox_supported=Yes
-|Firefox_version=1
-|Firefox_prefixed_supported=No
-|Firefox_prefixed_version=
+|Firefox_supported=No
+|Firefox_version=
+|Firefox_prefixed_supported=Yes
+|Firefox_prefixed_version=q
 |Internet_explorer_supported=No
 |Internet_explorer_version=
 |Internet_explorer_prefixed_supported=No
