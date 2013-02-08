@@ -12,7 +12,7 @@ The ‘width’ media feature describes the width of the targeted display area o
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications=http://www.w3.org/TR/css3-mediaqueries/ 
+|Specifications=
 }}
 {{Compatibility_Section
 |Not_required=No
