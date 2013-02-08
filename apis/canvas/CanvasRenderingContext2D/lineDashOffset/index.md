@@ -8,7 +8,7 @@
 |Read_only=No
 |Example_object_name=CanvasRenderingContext2D
 |Javascript_data_type=Number
-|Return_value_description=Default is 0.0.
+|Return_value_description=Default is 0.
 }}
 {{Examples_Section
 |Not_required=Yes
