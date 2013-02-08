@@ -67,9 +67,8 @@ On Gecko 2.0 (Firefox 4 / Thunderbird 3.3 / SeaMonkey 2.1) the optimizeSpeed opt
 }}
 {{Topics|CSS, Graphics, SVG}}
 {{External_Attribution
-|Is_CC-BY-SA=Yes
-|Sources=MDN
-|MDN_link=https://developer.mozilla.org/en-US/docs/css/text-rendering
+|Is_CC-BY-SA=No
+|MDN_link=
 |MSDN_link=
 |HTML5Rocks_link=
 }}
