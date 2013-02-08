@@ -6,19 +6,18 @@
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|The 'transition-timing-function' property describes how the intermediate values used during a transition will be calculated. It allows for a transition to change speed over its duration. These effects are commonly called easing functions.}}
-{{CSS_Function}}
+{{CSS_Function
+|Content====Syntax===
+<code>'''transition-timing-function: '''cubic-bezier '''{{!}}''' ease '''{{!}}''' linear '''{{!}}''' ease-in '''{{!}}''' ease-out '''{{!}}''' ease-in-out '''{{!}}''' steps '''{{!}}''' step-start '''{{!}}''' step-end '''[''' ,  cubic-bezier '''{{!}}''' ease '''{{!}}''' linear '''{{!}}''' ease-in '''{{!}}''' ease-out '''{{!}}''' ease-in-out '''{{!}}''' steps '''{{!}}''' step-start '''{{!}}''' step-end ''']''' *</code>
+===Standards information===
+*[http://go.microsoft.com/fwlink/p/?linkid{{=}}223140 CSS Transitions Module Level 3], Section 2.3
+}}
 {{Examples_Section
 |Not_required=No
 |Examples=
 }}
 {{Notes_Section
-|Notes====Remarks===
-The version of this property using a vendor prefix, '''-ms-transition-timing-function''', has been deprecated. To ensure compatibility in the future, applications using this property with a vendor prefix should be updated accordingly.
-Values are rounded up to the second decimal place.
-|Import_Notes====Syntax===
-<code>'''transition-timing-function: '''cubic-bezier '''{{!}}''' ease '''{{!}}''' linear '''{{!}}''' ease-in '''{{!}}''' ease-out '''{{!}}''' ease-in-out '''{{!}}''' steps '''{{!}}''' step-start '''{{!}}''' step-end '''[''' ,  cubic-bezier '''{{!}}''' ease '''{{!}}''' linear '''{{!}}''' ease-in '''{{!}}''' ease-out '''{{!}}''' ease-in-out '''{{!}}''' steps '''{{!}}''' step-start '''{{!}}''' step-end ''']''' *</code>
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}223140 CSS Transitions Module Level 3], Section 2.3
+|Notes=Values are rounded up to the second decimal place.
 }}
 {{Related_Specifications_Section
 |Specifications=
