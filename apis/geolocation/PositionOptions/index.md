@@ -10,7 +10,8 @@
 |Language=JavaScript
 |Description=Obtain user position using high accuracy and a timeout if a locations cant be found within 60 seconds.
 |Code=
-navigator.geolocation.getCurrentPosition(geoSuccess,geoError, {'enableHighAccuracy':true, 'timeout':10000});
+
+navigator.geolocation.getCurrentPosition(geoSuccess,geoError, {'enableHighAccuracy':true, 'timeout':60000});
 
 /* Position found*/
 function geoSuccess(position)
