@@ -41,6 +41,7 @@ function geoSuccess(position)
 {  
 alert('latitude: '+position.coords.latitude+' AND longitude: '+position.coords.longitude);
 }
+
 /* Position not found*/
 function geoError(position)
 {  
