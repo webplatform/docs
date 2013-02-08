@@ -4,7 +4,8 @@ CSS properties
 
 * cursor - kevin
 * font - vivienne
-* font-* - vivienne (font-weight, font-variant, font-style, font-size, font-size-adjust)
+* font-* - vivienne (font-variant, font-style, font-size, font-size-adjust)
+* font-weight - pascal - DONE, NEEDS REVIEW
 * text-align - knut
 * border-image - andreas
 * border-image-* - andreas
@@ -20,6 +21,7 @@ CSS properties
 * box-sizing - hans
 * float - hans
 * text-rendering - anselm  - FINISHED, NEEDS REVIEW
+* anselm?
 * list-style - florian
 * list-style-* - florian
 * border - marcin
