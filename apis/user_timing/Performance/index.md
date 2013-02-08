@@ -29,10 +29,10 @@ function measurePerf()
 	
 	for (var i = 0; i < perfEntries.length; i++)
    	{
-		if (window.console) console.log("Name: "        + perfEntries[i].name      + 
-										 " Entry Type: " + perfEntries[i].entryType +
-										 " Start Time: " + perfEntries[i].startTime + 
-										 " Duration: "   + perfEntries[i].duration  + "\n");
+		if (window.console) console.log("Name: " + perfEntries[i].name + 
+						" Entry Type: " + perfEntries[i].entryType +
+						" Start Time: " + perfEntries[i].startTime + 
+						" Duration: "   + perfEntries[i].duration  + "\n");
    }
 }
 
