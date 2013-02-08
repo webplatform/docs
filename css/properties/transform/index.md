@@ -18,6 +18,13 @@ If the property has a value different than none, a stacking context will be crea
 |Data Type=none
 |Description=Specifies that no transform should be applied.}}
 }}
+{{CSS Property Value
+|Data Type=matrix(1.0, 2.0, 3.0, 4.0, 5.0, 6.0)
+|Description=Specifies a 2D transformation matrix comprised of the specified six values. This is the equivalent to applying the transformation matrix [a b c d tx ty].}}
+{{CSS Property Value
+|Data Type=translate(12px, 50%)
+|Description=Specifies a 2D translation by the vector [tx, ty]. If ty isn't specified, its value is assumed to be zero.}}
+}}
 {{Examples_Section
 |Not_required=No
 |Examples=
