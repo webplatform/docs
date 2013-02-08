@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Shorthand property that defines all the properties of an element's border in a single declaration}}
+{{Summary_Section|Shorthand property that defines all the properties of an element's border in a single declaration. It can be used to set one or more values (of those: [[css/properties/border-width|'''border-width''']], [[css/properties/border-style|'''border-style''']], [[css/properties/border-color|'''border-color''']]).}}
 {{CSS Property
 |Applies to=All elements
 |Inherited=No
@@ -19,7 +19,7 @@
 |Description=Any of the range of style values available to the [[css/properties/border-style|'''border-style''']] property. Default value is <tt>none</tt>.
 }}{{CSS Property Value
 |Data Type=color
-|Description=Any of the range of color values available to the [[css/properties/border-color|'''border-color''']] property. Default value is the value of the element's <tt>[[css/properties/color|'''color''']]</tt> property - ie. text color.
+|Description=Any of the range of color values available to the [[css/properties/border-color|'''border-color''']] property. Default value is the value of the element's [[css/properties/color|'''color''']] property - ie. text color.
 }}
 }}
 {{Examples_Section
