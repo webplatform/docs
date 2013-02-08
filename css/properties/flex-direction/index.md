@@ -83,7 +83,7 @@
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Flexible Box Layout Module
-|URL=http://www.w3.org/TR/css3-flexbox/#flex-direction
+|URL=http://www.w3.org/TR/css3-flexbox/#flex-direction-property
 |Status=Candidate Recommendation
 }}
 }}
@@ -98,7 +98,6 @@
 }}
 {{See_Also_Section
 |Topic_clusters=CSS Layout, Flexbox
-|Manual_links=* http://www.w3.org/TR/css3-flexbox/#flex-direction
 }}
 {{Topics|CSS}}
 {{External_Attribution
