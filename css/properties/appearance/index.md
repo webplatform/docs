@@ -57,14 +57,15 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Code=<span>Lorem</span>
-<style>
+|Code=<style>
 span {
 -webkit-appearance: button;
 -moz-appearance: button;
 appearance: button;
 }
 </style>
+
+<span>Lorem</span>
 }}
 }}
 {{Notes_Section}}
