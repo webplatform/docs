@@ -15,9 +15,12 @@
 |Animatable=No
 |CSS percentages=N/A
 |Values={{CSS Property Value
-|Data Type=url
+|Data Type=url [x, y]
 |Description=Optional.
 A <code>url(…)</code> or a comma separated list <code>url(…), url(…), …</code> , pointing to an image file. More than one <code><uri></code> may be provided as fallback, in case some cursor image types are not supported. A non-URL fallback (one ore more of the other values) must be at the end of the fallback list. See Using URL values for the cursor property for more details.
+
+==<x> <y>== Experimental
+Optional x- and y-coordinates. Two unit-less numbers.
 }}{{CSS Property Value
 |Data Type=standard values
 |Description=There are many default cursors available.
