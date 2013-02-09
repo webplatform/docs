@@ -3,10 +3,10 @@
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status}}
+{{Standardization_Status|Non-Standard}}
 {{API_Name}}
-{{Summary_Section|It's a non-standard tag which instructs the browser to load and play a sound file while the user is on that page.
-Don't use it. Use <audio> element instead.
+{{Summary_Section|The '''bgsound''' (&lt;bgsound&gt;) element instructs the browser to load and play a sound file while the user is on that page.
+Don't use it. Use the [[html/elements/audio|audio]] element instead.
 }}
 {{Markup_Element
 |DOM_interface=dom/HTMLBGSoundElement
