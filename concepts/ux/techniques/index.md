@@ -12,33 +12,33 @@
 *[[concepts/ux/techniques/journey_map|Journey map]]
 
 ===Scoping and Initial Design===
-*'''Elevator pitch:''' Shot summary used to quickly and simply define a product and its value proposition.
-*'''Collaborative design sessions (Inception deck):'''
-*'''User Stories:''' Software system requirement formulated in one or two sentences in everyday or business language that makes explicit the user's need.
-*'''Story mapping:''' Board with organized and prioritized system functionality (user stories).
-*'''Storyboard:''' Use of story telling to quickly visualize or share a solution to specific requirements making use of personas and their behaviors, stories and known constraints.
-*'''Sketchboard:''' It's like story boarding but with sketches, almost like a biomap of the system you are building or about to build.
-*'''Agile Schedule, Rich Visual Backlog or Visual Board:''' Visual project schedule or plan on butcher paper containing: Milestones, Design and layout info, User stories with due dates, Non-functional requirements, Any high-level task that needs be tracked and completed. 
-*'''Flow diagram:'''
-*'''Rich Visual Backlog:'''
-*'''Behavior driven development:'''
+*[[concepts/ux/techniques/elevator_pitch|Elevator Pitch]]
+*[[concepts/ux/techniques/inception_deck|Inception Deck]]
+*[[concepts/ux/techniques/user_stories|User Stories]]
+*[[concepts/ux/techniques/story_mapping|Story mapping]]
+*[[concepts/ux/techniques/storyboard|Storyboard]]
+*[[concepts/ux/techniques/sketchboard|Sketchboard]]
+*[[concepts/ux/techniques/visual_board|Agile Schedule, Rich Visual Backlog or Visual Board]]
+*Flow diagram
+*Rich Visual Backlog
+*Behavior driven development
 
-====Prototyping====
-*'''Sketches:'''
-*'''Wireframes:'''
-*'''Paper prototyping:'''
-*'''Mockups:'''
-*'''Functional Prototype:'''
+===Prototyping===
+*Sketches
+*Wireframes
+*Paper prototyping
+*Mockups
+*Functional Prototype
 
-====Development====
-*'''Just-in-time design:'''
+===Development===
+*Just-in-time design
 
-====Testing====
-*'''Quantitative Usability Testing:'''
-*'''Pair testing:'''
-*'''Controlled experiments:'''
-*'''Cognitive walkthrough:'''
-*'''Heuristic Evaluation:'''
+===Testing===
+*Quantitative Usability Testing
+*Pair testing
+*Controlled experiments
+*Cognitive walkthrough
+*Heuristic Evaluation
 }}
 {{Examples_Section
 |Not_required=Yes
