@@ -75,7 +75,7 @@ A browser can not allocate unlimited disk space for ressources that should be ca
 {{{!}}
 ! Browser
 ! Max. space per item
-! Max. space per page
+! Max. space per domain (including subdomains)
 {{!}}-
 {{!}} Chrome
 {{!}} 32Mb
