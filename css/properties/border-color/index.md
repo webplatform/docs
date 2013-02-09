@@ -13,11 +13,8 @@
 |Computed value=See individual properties
 |Animatable=No
 |CSS object model property=borderColor
-|CSS percentages=N/A 
+|CSS percentages=N/A
 |Values={{CSS Property Value
-|Data Type=transparent
-|Description=Border is transparent.
-}}{{CSS Property Value
 |Data Type=color
 |Description=Up to four color names or RGB values in the Color Table.
 }}
