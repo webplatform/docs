@@ -48,21 +48,14 @@ If the property has a value different than none, a stacking context will be crea
 }}{{CSS Property Value
 |Data Type=skewY(0.25turn)
 |Description=Specifies a 2D skew transformation along the Y axis by the given [[css/units/angle|angle]].
-}}
-{{CSS Property Value
+}}{{CSS Property Value
 |Data Type=rotateX(20deg)
-|Description=
-}}
-{{CSS Property Value
+}}{{CSS Property Value
 |Data Type=rotateY(20deg)
-|Description=
-}}
-{{CSS Property Value
+}}{{CSS Property Value
 |Data Type=rotateZ(20deg)
-|Description=
 }}
 }}
-[[file:transform_example.png|alt Example showing translate, scale and rotate step by step]]
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -114,7 +107,11 @@ If the property has a value different than none, a stacking context will be crea
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Transforms Module Level 3
+|URL=www.w3.org/TR/css3-transforms
+|Status=W3C Working Draft
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -182,7 +179,7 @@ If the property has a value different than none, a stacking context will be crea
 {{See_Also_Section
 |External_links=Cross Browser CSS Transforms – even in IE http://www.useragentman.com/blog/2010/03/09/cross-browser-css-transforms-even-in-ie/
 }}
-{{Topics}}
+{{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MDN
@@ -190,3 +187,4 @@ If the property has a value different than none, a stacking context will be crea
 |MSDN_link=
 |HTML5Rocks_link=
 }}
+[[file:transform_example.png|alt Example showing translate, scale and rotate step by step]]
