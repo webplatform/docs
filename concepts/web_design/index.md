@@ -4,7 +4,7 @@
 {{Basic Page}}
 * [[concepts/an_introduction_to_web_design|An introduction to web design]]
 * [[concepts/ux/user experience design|User Experience Design]]
-* [[concepts/ux/user_experience_design_techniques|User Experience Design Techniques]]
+* [[concepts/ux/techniques|User Experience Design Techniques]]
 * [[concepts/ux/what does a good web page need|What does a good Web page need?]]
 * [[concepts/color theory/color schemes and mockups|Color schemes and mockups]]
 * [[concepts/web typography|Web Typography]]
