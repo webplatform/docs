@@ -5,12 +5,11 @@
 {{Summary_Section|The resources listed in the manifest have been downloaded, and the application is now cached.}}
 {{API_Object_Property
 |Property_applies_to=apis/appcache/ApplicationCache
-|Read_only=No
+|Read_only=Yes
 |Example_object_name=window.applicationCache
-|Javascript_data_type=function
 }}
 {{Examples_Section
-|Not_required=No
+|Not_required=Yes
 |Examples=
 }}
 {{Notes_Section
