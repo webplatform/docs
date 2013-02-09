@@ -37,10 +37,11 @@ CSS properties
 * max-width - anselm - FINISHED, NEEDS REVIEW
 * list-style - florian
 * list-style-* - florian
-* border - marcin - DONE, NEEDS REVIEW
-* border-[top|right|left] - kamila
-* border-bottom - marcin
+* border - marcin,kamila - DONE, NEEDS REVIEW
+* border-[bottom|right|left] - kamila
+* border-top - marcin
 * border-style - marcin
+* border-color - kamila
 * border-radius - udo
 * flex - rod
 * display: flex - rod
