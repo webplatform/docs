@@ -158,11 +158,11 @@ Input from pointing devices, such as the mouse, does not penetrate through overl
 ===Relative===
 Setting the property to '''relative''' places the object in the natural HTML flow of the document, but offsets the position of the object based on the preceding content. The following syntax shows how to create superscript text by placing the text in a span that is positioned relative to the remaining text in the paragraph.
 
-<nowiki>
+<syntaxHighlight>
 <p>The superscript in this name 
     <span style="position: relative; top: -3px">xyz</span> 
     is &quot;xyz&quot;.</p>
-</nowiki>
+</syntaxHighlight>
 
 <p>The superscript in this name 
     <span style="position: relative; 
