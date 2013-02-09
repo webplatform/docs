@@ -184,14 +184,15 @@ See also:
 |Notes_rows={{Compatibility Notes Row
 |Browser=IE
 |Version=9.0
-|Note=Since version 5.5, Internet Explorer supports Microsoft's DropShadow and Shadow Filter. You can use this proprietary extension to cast a drop shadow (though the syntax and the effect are different from CSS3).
+|Note=In order to get box-shadow in IE9 or later, you need to set border-collapse to separate. Since version 5.5, Internet Explorer supports Microsoft's DropShadow and Shadow Filter. You can use this proprietary extension to cast a drop shadow (though the syntax and the effect are different from CSS3).
 }}{{Compatibility Notes Row
 |Browser=Chrome
-|Version=≤ 1.0
-|Note=Basic support in 1.0, inset and spread radius in 4.0
+|Version=10.0
+|Note=Basic support in 1.0 with -webkit prefix, inset and spread radius in 4.0  with -webkit prefix.
 }}{{Compatibility Notes Row
-|Browser=All
-|Note=Check compatibility for more recent [[css/units/length|viewport unit values]].
+|Browser=Firefox (Gecko)
+|Version=4.0 (2.0)
+|Note=Since Firefox 13 (Gecko 13), -moz-box-shadow prefix was dropped and only the unprefixed version is supported.
 }}
 }}
 {{See_Also_Section}}
