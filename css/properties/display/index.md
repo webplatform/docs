@@ -97,42 +97,14 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=This example shows the effect of changing the values for the '''display''' property between '''inline''', '''block''', and '''none'''.
-|Code=&lt;SPAN ID{{=}}oSpan&gt;
-This is a SPAN 
-&lt;/SPAN&gt;
-in a sentence.
-&lt;P&gt;
-&lt;INPUT TYPE{{=}}button VALUE{{=}}"Block" 
-    onclick{{=}}"oSpan.style.display{{=}}'block'"&gt;
-:
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/display.htm
-}}{{Single Example
-|Description=This example uses function calls to hide and show table rows and cells.
-|Code=&lt;SCRIPT&gt;
-function getPets()
-{
-    oRow1Cell2.style.display{{=}}"none";
-    oRow2Cell2.style.display{{=}}"block";
-    oRow3Cell2.style.display{{=}}"none";
-}
-&lt;/SCRIPT&gt;
-:
-&lt;TABLE&gt;
-&lt;TR ID{{=}}"oRow1"&gt;&lt;TD&gt;Horses&lt;/TD&gt;
-&lt;TD ID{{=}}"oRow1Cell2"&gt;Thoroughbreds&lt;/TD&gt;
-&lt;TD&gt;Fast&lt;/TD&gt;&lt;/TR&gt;
-&lt;TR ID{{=}}"oRow2"&gt;&lt;TD&gt;Dogs&lt;/TD&gt;
-&lt;TD ID{{=}}"oRow2Cell2"&gt;Greyhounds&lt;/TD&gt;
-&lt;TD&gt;Fast&lt;/TD&gt;&lt;/TR&gt;
-&lt;TR ID{{=}}"oRow3"&gt;&lt;TD&gt;Marsupials&lt;/TD&gt;
-&lt;TD ID{{=}}"oRow3Cell2"&gt;Opossums&lt;/TD&gt;
-&lt;TD&gt;Slow&lt;/TD&gt;&lt;/TR&gt;
-&lt;/TABLE&gt;
-:
-&lt;INPUT TYPE{{=}}button onclick{{=}}"getPets()" 
-    VALUE{{=}}"Show household pets"&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/tables.htm
+|Language=HTML
+|Description=Change a <code>span</code>-element from its initial display <code>inline</code> to display as block-level element.
+|Code=&lt;span&gt;Some example text&lt;/span&gt;
+&lt;style&gt;
+  span {
+    display: block;
+  }
+&lt;/style&gt;
 }}
 }}
 {{Notes_Section
