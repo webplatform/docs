@@ -1,11 +1,11 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Flags, Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Grammar/Spelling, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|The footer is an element that was introduced in HTML5 for modeling the footer sections of real-world documents. The basic motive to introduce footer tag was to eliminate the over use of div tags and creating a suitable element for the links and text that are basically located at the bottom of the webpages.}}
+{{Summary_Section|The footer element was introduced in HTML5 for modeling the footer sections of real-world documents. The basic motivation for introducing the footer element was to eliminate the overuse of div elements and creating a suitable element for the links and text that are usually located at the bottom of the webpages.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
 }}
