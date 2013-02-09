@@ -44,6 +44,7 @@ If the property has a value different than none, a stacking context will be crea
 |Description=Specifies that no transform should be applied.
 }}
 }}
+[file:transform_example.png]
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
