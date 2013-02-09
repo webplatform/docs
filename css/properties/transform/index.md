@@ -68,7 +68,28 @@ If the property has a value different than none, a stacking context will be crea
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
-|Desktop_rows=
+|Desktop_rows={{Compatibility Table Desktop Row
+|Feature=Basic Support
+|Chrome_supported=Unknown
+|Chrome_version=
+|Chrome_prefixed_supported=Yes
+|Chrome_prefixed_version=1.0
+|Firefox_supported=Yes
+|Firefox_version=16
+|Firefox_prefixed_supported=Yes
+|Firefox_prefixed_version=3.5
+|Internet_explorer_supported=Yes
+|Internet_explorer_version=10
+|Internet_explorer_prefixed_supported=Yes
+|Internet_explorer_prefixed_version=9.0
+|Opera_supported=Yes
+|Opera_version=12.1
+|Opera_prefixed_supported=Yes
+|Opera_prefixed_version=10.5
+|Safari_supported=Unknown
+|Safari_version=
+|Safari_prefixed_supported=Yes
+}}
 |Mobile_rows=
 |Notes_rows=
 }}
