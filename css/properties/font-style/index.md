@@ -28,7 +28,7 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Code=&lt;!doctype html&gt;
+|Code=&lt;!DOCTYPE html&gt;
 	&lt;head&gt;
 		&lt;meta charset=&quot;utf-8&quot; /&gt;
 		&lt;title&gt;Font-style example&lt;/title&gt;
