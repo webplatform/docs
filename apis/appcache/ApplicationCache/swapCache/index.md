@@ -46,12 +46,12 @@ if (window.applicationCache.status === window.applicationCache.UPDATEREADY) {
 }}
 }}
 {{Notes_Section
-|Usage=In order to swap an old cache out for a new one, call [[apis/appcache/methods/update|update]] first. When the status is in the '''UPDATEREADY''' state, calling '''swapCache()''' will make the swap.
+|Usage=In order to swap an old cache out for a new one, call [[apis/appcache/methods/update|update]] first. When the status is in the '''UPDATEREADY''' state, calling '''swapCache''' will make the swap.
 
-Calling '''swapCache()''' will not update any content on your page.  It will simply allow your webpage to be able to access any further dynamic content from the new cache instead of the old one.  After the page is refreshed, the newly created cache will be used for all in-page and dynamic requests.
-The '''swapCache()''' method is provided for convenience but is not necessary for basic functionality. Loading or refreshing the page is sufficient. For example, refreshing the page after an '''UpdateReady''' event will reload the page from the new cache without a call to '''swapCache'''.
+Calling '''swapCache''' will not update any content on your page.  It will simply allow your webpage to be able to access any further dynamic content from the new cache instead of the old one.  After the page is refreshed, the newly created cache will be used for all in-page and dynamic requests.
+The '''swapCache''' method is provided for convenience but is not necessary for basic functionality. Loading or refreshing the page is sufficient. For example, refreshing the page after an '''UpdateReady''' event will reload the page from the new cache without a call to '''swapCache'''.
 
-'''swapCache()''' does not cause previously-loaded resources to be reloaded; for example, images do not suddenly get reloaded, and style sheets and scripts do not get reparsed or reevaluated. The only change is that subsequent requests for cached resources will obtain the newer copies.
+'''swapCache''' does not cause previously-loaded resources to be reloaded; for example, images do not suddenly get reloaded, and style sheets and scripts do not get reparsed or reevaluated. The only change is that subsequent requests for cached resources will obtain the newer copies.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
