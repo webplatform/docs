@@ -1,8 +1,5 @@
 {{Page_Title}}
-{{Flags
-|High-level issues=Missing Relevant Sections
-|Content=Cleanup, Examples Best Practices
-}}
+{{Flags}}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|The text-overflow shorthand CSS property determines how overflowed content that is not displayed is signaled to the users. It can be clipped, display an ellipsis ('…', U+2026 HORIZONTAL ELLIPSIS) or a Web author-defined string. It covers the two long-hand properties [[css/properties/text-overflow-mode|text-overflow-mode]] and [[css/properties/text-overflow-ellipsis|text-overflow-ellipsis]]}}
@@ -28,69 +25,40 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=The following example shows how to use both '''ellipsis''' and '''clip''' values for the '''text-overflow''' property. It also demonstrates how the effect of '''text-overflow''' can be canceled out by setting the [[css/properties/overflow|'''overflow''']] to ''visible''.
-|Code=&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-
-&lt;head&gt;
-&lt;title&gt;text-overflow Attribute Sample&lt;/title&gt;
-&lt;style type{{=}}"text/css"&gt;
-div.boxed {
-	width: 200px;
-	height: 1.5em;
-	border: 1px solid blue;
-	font: 14px Times New Roman, serif;
-}
-p.caption {
-	font-size: x-small;
-	margin: 2px 0 40px;
-}
-&lt;/style&gt;
-&lt;/head&gt;
-
-&lt;body&gt;
-
-&lt;div&gt;
-  &lt;h1&gt;text-overflow Attribute Sample&lt;/h1&gt;
-  &lt;p&gt;Each box (div element) below contains the following text:&lt;/p&gt;
-  &lt;div style{{=}}"margin: .5em 0; padding: 5px; background-color: #eee;"&gt;
-    We hold these truths to be self-evident, that all people are created equal.&lt;/div&gt;
-  &lt;p&gt;Note how the STYLE settings affect the rendering of the text.&lt;/p&gt;
-  &lt;div style{{=}}"padding: 4em 2em; border: 1px solid black;"&gt;
-    &lt;div id{{=}}"box1" class{{=}}"boxed" style{{=}}"white-space: nowrap; overflow: hidden; text-overflow: clip;"&gt;
-      We hold these truths to be self-evident, that all people are created equal.
-    &lt;/div&gt;
-    &lt;p class{{=}}"caption"&gt;
-    &lt;script type{{=}}"javascript"&gt;document.write('STYLE{{=}}"' + document.getElementById('box1').style.cssText + '"');&lt;/script&gt;
-    &lt;/p&gt;
-    &lt;div id{{=}}"box2" class{{=}}"boxed" style{{=}}"white-space: nowrap; overflow: hidden; text-overflow: ellipsis;"&gt;
-      We hold these truths to be self-evident, that all people are created equal.
-    &lt;/div&gt;
-    &lt;p class{{=}}"caption"&gt;
-    &lt;script type{{=}}"javascript"&gt;document.write('STYLE{{=}}"' + document.getElementById('box2').style.cssText + '"');&lt;/script&gt;
-    &lt;/p&gt;
-    &lt;div id{{=}}"box3" class{{=}}"boxed" style{{=}}"white-space: nowrap; overflow: visible; text-overflow: ellipsis"&gt;
-      We hold these truths to be self-evident, that all people are created equal.
-    &lt;/div&gt;
-    &lt;p class{{=}}"caption"&gt;
-    &lt;script type{{=}}"javascript"&gt;document.write('STYLE{{=}}"' + document.getElementById('box3').style.cssText + '"');&lt;/script&gt;
-    &lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;/body&gt;
-
-&lt;/html&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/css/textOverflow.htm
+|Language=HTML
+|Description=The following example shows how to use '''ellipsis''', '''ellipsis-word''' and '''clip''' values for the '''text-overflow''' property.
+|Code=<!-- example showing text-overflow shorthand property -->
+<div class="overflowed overflowed-clip">
+	<p>This is an example text showing nothing interesting but the truncated content via text-overflow shorthand property.</p>
+</div>
+<div class="overflowed overflowed-ellipsis">
+	<p>This is an example text showing nothing interesting but the truncated content via text-overflow shorthand property.</p>
+</div>
+<div class="overflowed overflowed-ellipsis-word">
+	<p>This is an example text showing nothing interesting but the truncated content via text-overflow shorthand property.</p>
+</div>
+|LiveURL=http://dabblet.com/gist/4744956
 }}{{Single Example
 |Language=CSS
-|Code=p {
-  white-space: nowrap;
-  width: 100%;                   
-  overflow: hidden;        /* "overflow" value must be different from "visible" */
- 
-  text-overflow:    ellipsis;
+|Code=.overflowed > p{
+	width: 10em;
+	height: 5em;
+	white-space: nowrap; 
+	overflow: hidden;
 }
+
+.overflowed-clip {
+	text-overflow: clip;
+}
+
+.overflowed-ellipsis > p {
+	text-overflow: ellipsis;
+}
+
+.overflowed-ellipsis-word > p {
+	text-overflow: ellipsis-word;
+}
+|LiveURL=http://dabblet.com/gist/4744956
 }}
 }}
 {{Notes_Section
