@@ -61,31 +61,31 @@ Modern browsers (Opera, Firefox, Chrome, Safari, and Internet Explorer 9+) also 
 {{!}}-
 {{!}}0°
 {{!}}red
-{{!}}<div style="width:100%;height:100%;background-color:#ff0000"></div>
+{{!}}<div style="width:100%;height:20px;background-color:#ff0000"></div>
 {{!}}-
 {{!}}60
 {{!}}yellow
-{{!}}[[Image:FFFF00.png]]
+{{!}} <div style="width:100%;height:20px;background-color:#ffff00"></div>
 {{!}}-
 {{!}}120
 {{!}}lime
-{{!}}[[Image:00FF00.png]]
+{{!}} <div style="width:100%;height:20px;background-color:#00ff00"></div>
 {{!}}-
 {{!}}180
 {{!}}cyan
-{{!}}[[Image:00FFFF.png]]
+{{!}}<div style="width:100%;height:20px;background-color:#00ffff"></div>
 {{!}}-
 {{!}}240
 {{!}}blue
-{{!}}[[Image:0000FF.png]]
+{{!}}<div style="width:100%;height:20px;background-color:#0000ff"></div>
 {{!}}-
 {{!}}300
 {{!}}magenta
-{{!}}[[Image:FF00FF.png]]
+{{!}}<div style="width:100%;height:20px;background-color:#ff00ff"></div>
 {{!}}-
 {{!}}360
 {{!}}red
-{{!}}[[Image:FF0000.png]]
+{{!}}<div style="width:100%;height:20px;background-color:#ff0000"></div>
 {{!}}}
 
 * Saturation is represented as a percentage, where <code>100%</code> is full color saturation and <code>0%</code> percent is a shade of gray.
@@ -139,6 +139,9 @@ You can set the opacity of an entire element using the [[css/properties/opacity|
 {{See_Also_Section
 |Topic_clusters=Visual Effects
 }}
+
+
+
 
 
 
