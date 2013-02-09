@@ -49,7 +49,49 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|Code=.one {
+  border-style: none;
+}
+
+.two {
+  border-style: outset;
+}
+
+.three {
+  border-style: hidden;
+}
+
+.four {
+  border-style: dotted;
+}
+
+.five {
+  border-style: dashed;
+}
+
+.six {
+  border-style: solid;
+}
+
+.seven {
+  border-style: double;
+}
+
+.eight {
+  border-style: groove;
+}
+
+.nine {
+  border-style: ridge;
+}
+
+.ten {
+  border-style: inset;
+}
+|LiveURL=http://marcin-wosinek.github.com/border-style/
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
