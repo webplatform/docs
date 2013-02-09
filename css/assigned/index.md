@@ -48,6 +48,7 @@ CSS properties
 * padding-* - Giuseppe
 * position - richard
 * text-shadow - paulv
+* filter - paulv
 
 Other activity
 
