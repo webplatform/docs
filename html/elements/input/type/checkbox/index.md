@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Checkbox is a type within the HTML input element. The developer can create a checkbox on the page by setting the type attribute of the input element to 'checkbox'.}}
+{{Summary_Section|The '''checkbox''' type of the [[html/elements/input|&lt;input&gt;]] element represents a state or option that can be toggled.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLInputElement
 }}
@@ -713,6 +713,7 @@ This property is not supported for Metro style apps using JavaScript.
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
