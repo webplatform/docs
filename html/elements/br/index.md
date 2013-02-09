@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|The '''br''' (&lt;br&gt;) element forcibly breaks (ends) the current line of text, without starting a new paragraph.}}
+{{Summary_Section|The '''br''' element (&lt;br&gt;) forcibly breaks (ends) the current line of text, without starting a new paragraph.}}
 {{Markup_Element
 |DOM_interface=[[dom/HTMLBRElement|HTMLBRElement]]
 }}
