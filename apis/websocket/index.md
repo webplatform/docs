@@ -1,6 +1,12 @@
 {{Page_Title|WebSocket reference}}
 {{Flags
-|Content=Compatibility Incomplete, Examples Best Practices
+|Content=Cleanup, Compatibility Incomplete, Examples Best Practices
+|Editorial notes=The pages for WebSocket are bit messed up, someone with admin rights should set things straight. Relevant pages are:
+
+apis/websocket/objects/WebSocket
+apis/websocket/CloseEvent
+apis/websocket/MessageEvent
+
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -8,9 +14,12 @@
 
 The most recent (IETF standard) version of the WebSocket TCP protocol is supported in modern browsers such as Internet Explorer 10, Firefox 11, (Mobile) Safari, and Chrome 16. A
 }}
-{{API_Listing
-|Use_page_title=No
+{{API_Listing|Use_page_title=No
 |List_all_subpages=Yes
+}}
+{{Concept_Listing
+|Use_page_title=No
+|List_all_subpages=No
 }}
 {{Notes_Section
 |Usage=Writing a WebSocket application in JavaScript is quite simple. Simply establish a connection, and hook into the open, error, message and close events as necessary. Remember, WebSocket is subject to the same-origin policy, like AJAX. This means if you want to test your client locally, you'll need to run a web server (e.g. python -m SimpleHTTPServer or php -S localhost:8000). Here's a simple example client, which should work in newer browsers:
@@ -58,9 +67,6 @@ WebSocket URIs have the same basic format as HTTP URIs, but with a different URI
 * http://www.websocket.org/echo.html - WebSocket echo test
 * http://caniuse.com/#search=websockets - Browser support
 * http://ajf.me/websocket/ - Has a list of libraries and frameworks for most popular programming languages
-
-
-
 }}
 {{Topics|JavaScript, Performance}}
 {{External_Attribution
