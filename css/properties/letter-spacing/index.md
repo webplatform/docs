@@ -26,7 +26,6 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=The following examples use the '''letter-spacing''' attribute and the '''letter-spacing''' property to change the space between letters.
 
 <p>This is a simple paragraph with the default value for letter-spacing.</p>
 <p style="letter-spacing: .3em;">This is a simple paragraph with a altered letter-spacing value by 0.3em.</p>
@@ -35,20 +34,6 @@
 }}
 }}
 
-
-This example uses '''blockquote''' as a selector to change the spacing to -0.2 millimeters for all '''blockquote''' objects on the page.
-|Code=&lt;STYLE&gt;
-    BLOCKQUOTE { letter-spacing:-0.2mm }
-&lt;/STYLE&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/letter-spacing.htm
-}}{{Single Example
-|Description=This example uses inline scripting to set the spacing to 1 millimeter when an [[dom/events/mouseover|'''onmouseover''']] event occurs.
-|Code=&lt;DIV STYLE{{=}}"font-size:14" onmouseover{{=}}"this.style.letterSpacing{{=}}'1mm'"&gt;
-:
-&lt;/DIV&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/letterSpacing.htm
-}}
-}}
 {{Notes_Section
 |Notes====Remarks===
 When specified as a positive '''length''' value, the '''letter-spacing''' attribute adds the specified value to the default spacing between characters within an element. A negative '''length''' value decreases the space between characters. Letter spacing can be influenced by justification.
