@@ -59,6 +59,21 @@ If the property has a value different than none, a stacking context will be crea
  	background: #eee;
  }
 |LiveURL=http://dabblet.com/gist/4740688
+}}{{Single Example
+|Language=CSS
+|Description=Rotate the object by 20deg
+|Code=.rotate {
+	-ms-transform: rotate(40deg);
+	-webkit-transform: rotate(40deg);
+	-o-transform: rotate(40deg);
+	-moz-transform: rotate(40deg);
+	transform: rotate(40deg);
+	
+	width: 10em;
+	height: 10em;
+	background-color: red;
+}
+|LiveURL=http://dabblet.com/gist/4744780
 }}
 }}
 {{Notes_Section}}
