@@ -30,7 +30,7 @@ If the parameter does not match one of the allowed values, the method throws a '
 The pattern object to use as a ''fill style'' together with a ''CanvasRenderingContext2D'' object.
 }}
 {{Examples_Section
-|Not_required=Yes
+|Not_required=No
 |Examples=
 }}
 {{Notes_Section
