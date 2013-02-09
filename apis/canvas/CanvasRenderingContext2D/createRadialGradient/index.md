@@ -42,7 +42,7 @@
 |Return_value_description=A '''CanvasGradient''' object that represents the radial gradient.
 }}
 {{Examples_Section
-|Not_required=Yes
+|Not_required=No
 |Examples=
 }}
 {{Notes_Section
