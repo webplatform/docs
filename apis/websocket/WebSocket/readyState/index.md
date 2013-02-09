@@ -9,19 +9,30 @@
 {{API_Object_Property
 |Property_applies_to=apis/websocket/objects/WebSocket
 |Read_only=Yes
+|Javascript_data_type=unsigned short
 |Return_value_description=These constants are used by the readyState attribute to describe the state of the WebSocket connection.
 
-{|
-| '''Constant''' || '''Value''' || '''Description'''
-|-
-| CONNECTING || 0 || The connection is not yet open.
-|-
-| OPEN       || 1 || The connection is open and ready to communicate.
-|-
-| CLOSING    || 2 || The connection is in the process of closing.
-|-
-| CLOSED     || 3 || The connection is closed or couldn't be opened.
-|}
+{{{!}}
+! Constant
+! Value
+! Description
+{{!}}-
+{{!}} CONNECTING
+{{!}} 0 
+{{!}} The connection is not yet open.
+{{!}}-
+{{!}} OPEN       
+{{!}} 1
+{{!}} The connection is open and ready to communicate.
+{{!}}-
+{{!}} CLOSING    
+{{!}} 2 
+{{!}} The connection is in the process of closing.
+{{!}}-
+{{!}} CLOSED     
+{{!}} 3 
+{{!}} The connection is closed or couldn't be opened.
+{{!}}}
 }}
 {{Examples_Section
 |Not_required=No
