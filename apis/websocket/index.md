@@ -23,6 +23,7 @@ The most recent (IETF standard) version of the WebSocket TCP protocol is support
 {{Notes_Section
 |Usage=Writing a WebSocket application in JavaScript is quite simple. Simply establish a connection, and hook into the open, error, message and close events as necessary. Remember, WebSocket is subject to the same-origin policy, like AJAX. This means if you want to test your client locally, you'll need to run a web server (e.g. python -m SimpleHTTPServer or php -S localhost:8000). Here's a simple example client, which should work in newer browsers:
 
+<syntaxhighlight lang="javascript">
   var socket = new WebSocket('ws://localhost:8080/');
   socket.onopen = function () {
       alert('Connected!');
@@ -38,9 +39,11 @@ The most recent (IETF standard) version of the WebSocket TCP protocol is support
       alert('Error!');
   };
   socket.send('hello, world!');
+</syntaxhighlight>
 
 And to complement it, here's an example echo server in Python using Twisted:
 
+<syntaxhighlight lang="python">
   from twisted.internet import protocol, reactor
   from txws import WebSocketFactory
   
@@ -54,6 +57,7 @@ And to complement it, here's an example echo server in Python using Twisted:
   
   reactor.listenTCP(8080, WebSocketFactory(EchoFactory()))
   reactor.run()
+</syntaxhighlight>
 |Notes=Like standard HTTP, WebSocket by default uses port 80 in the clear and 443 over SSL. The WebSocket client establishes an HTTP connection and requests to switch the protocol using the HTTP Upgrade mechanism, and then follows a handshake protocol to ensure both client and server support WebSocket. Since WebSocket connections start off as HTTP, WebSocket can work through many existing proxies and firewalls, unlike some other protocols.
 
 Once the connection is established, messages are sent as "frames", either text or binary format, in both directions. These are the data strings you send and receive in JavaScript.
