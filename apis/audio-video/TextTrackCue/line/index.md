@@ -13,7 +13,7 @@
 |Return_value_description=If current value is set to auto, the string "auto" is returned.
 }}
 {{Examples_Section
-|Not_required=Yes
+|Not_required=No
 |Examples=
 }}
 {{Notes_Section}}
