@@ -5,7 +5,7 @@
 {{Summary_Section|An opaque object of the canvas API. See Notes.}}
 {{API_Object}}
 {{Examples_Section
-|Not_required=Yes
+|Not_required=No
 |Examples=
 }}
 {{Notes_Section
