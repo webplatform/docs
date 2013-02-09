@@ -38,7 +38,11 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Code=[[File:bi-outset.png|border-outset visualized]]
+
+<code>border-image-outset: 15px;</code>
+}}
 }}
 {{Notes_Section
 |Usage=border-image-outset: sides                  /* One-value syntax   */  E.g. border-image-slice: 30%; 
