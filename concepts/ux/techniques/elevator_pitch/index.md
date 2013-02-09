@@ -5,13 +5,13 @@
 {{Concept_Page
 |Content====What it is===
 Shot summary used to quickly and simply define a product and its value proposition.
-*For <target customer>
-*who <statement of the need or opportunity>
-*the <product name>
-*is a <product category>
-*that <key benefit, compelling reason to buy>.
-*Unlike <primary competitive reason alternative>
-*our product <statement of primary differentiation>.
+*For (target customer)
+*who (statement of the need or opportunity)
+*the (product name)
+*is a (product category)
+*that (key benefit, compelling reason to buy).
+*Unlike (primary competitive reason alternative)
+*our product (statement of primary differentiation).
 ===Who does it===
 The whole project team
 ===Key benefits===
