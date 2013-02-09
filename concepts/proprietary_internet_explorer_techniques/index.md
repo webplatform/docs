@@ -53,7 +53,8 @@ A handful of these filters are not just statically applied, but they also need t
             *****************************************************/
             document
             .getElementById('filtered')
-            .filters['light']
+            .filters
+            .item('light')
             .addAmbient(255, 0, 0, 100);	
         </script>
     </body>
