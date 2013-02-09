@@ -5,12 +5,14 @@
 }}
 {{Standardization_Status|Non-Standard}}
 {{API_Name}}
-{{Summary_Section|The '''basefont''' (&lt;basefont&gt;) element allows specifying a default font-color and font-size for text on the entire page. 
-To specify the overall font for your page add the &lt;basefont&gt; element at the beginning of the &lt;body&gt; section. 
-The &lt;basefont&gt; element is only supported by Internet Explorer.
+{{Summary_Section|The '''basefont''' element (&lt;basefont&gt;)  allows specifying a default font-color and font-size for text on the entire page. 
+ 
 The &lt;basefont&gt; element is not supported in HTML5. Use CSS instead.
 }}
-{{Markup_Element}}
+{{Markup_Element
+|Content=To specify the overall font for your page add the &lt;basefont&gt; element at the beginning of the &lt;body&gt; section. The &lt;basefont&gt; element is only supported by Internet Explorer.
+
+}}
 {{Examples_Section
 |Not_required=No
 |Examples=
