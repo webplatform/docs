@@ -45,6 +45,7 @@ p {
 }}
 }}
 {{Notes_Section
+|Usage=in, cm, mm, em, ex, pt, pc, px
 |Notes====Remarks===
 When specified as a positive '''length''' value, the '''letter-spacing''' attribute adds the specified value to the default spacing between characters within an element. A negative '''length''' value decreases the space between characters. Letter spacing can be influenced by justification.
 |Import_Notes====Syntax===
