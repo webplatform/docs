@@ -1,4 +1,4 @@
-{{Page_Title|User eXperience (UX) design techniques}}
+{{Page_Title|User eXperience (UX) Design Techniques}}
 {{Flags}}
 {{API_Name}}
 {{Summary_Section|A list of techniques at product development stages that are used within the practices of User eXperience (UX) design.}}
