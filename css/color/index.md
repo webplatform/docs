@@ -118,13 +118,13 @@ For a complete list of system colors, see [[css/color/user-defined system colors
 
 * You can use the <code>currentColor</code> value to set a color to the computed value of the element's <code>color</code> propety. for example, the background color of the div in the following example will be red, the same color as the <code>color</code> of it's parent element.
 
-&lt;article style="color:red"&gt;
+<syntaxHighlight>&lt;article style="color:red"&gt;
   &lt;p&gt;This is a sample article&lt;/p&gt;
   
   &lt;div style="background-color:currentColor"&gt;
     &lt;p&gt;This is some kind of highlight box.&lt;/p&gt;
   &lt;/div&gt;
-&lt;/article&gt;
+&lt;/article&gt;</syntaxHighlight>
 
 ==transparent keyword==
 
@@ -139,6 +139,9 @@ You can set the opacity of an entire element using the [[css/properties/opacity|
 {{See_Also_Section
 |Topic_clusters=Visual Effects
 }}
+
+
+
 
 
 
