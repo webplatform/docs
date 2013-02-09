@@ -108,6 +108,17 @@ In addition to the many different display box types, the value none lets you tur
     display: block;
   }
 &lt;/style&gt;
+}}{{Single Example
+|Language=HTML
+|Description='''Second example'''
+
+Do not display an element by using <code>display: none;</code>.
+|Code=&lt;div&gt;Some example text&lt;/div&gt;
+&lt;style&gt;
+  div {
+    display: none;
+  }
+&lt;/style&gt;
 }}
 }}
 {{Notes_Section
