@@ -32,11 +32,17 @@
 <p style="letter-spacing: .3em;">This is a simple paragraph with a altered letter-spacing value by 0.3em.</p>
 <p style="letter-spacing: -.1em;">This is a simple paragraph withe a altered letter-spacing value by -0.1em</p>
 <h3>Code examples</h3>
-|Code=p { letter-spacing: normal; }
+|Code=p {
+    letter-spacing: normal;
+}
+
 p {
     letter-spacing: .3em;
 }
-p { letter-spacing: -.5em; }
+
+p {
+    letter-spacing: -.5em;
+}
 }}
 }}
 
