@@ -34,6 +34,7 @@ CSS properties
 * flex-direction - rod - FINISHED, NEEDS REVIEW
 * padding - Giuseppe
 * padding-* - Giuseppe
+* position - richard
 
 Other activity
 
