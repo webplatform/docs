@@ -81,6 +81,7 @@ When specified as a positive '''length''' value, the '''letter-spacing''' attrib
 }}
 |Mobile_rows={{Compatibility Table Mobile Row
 |Android_supported=Yes
+|Android_version=4.0.4
 |Android_prefixed_supported=Unknown
 |Android_prefixed_version=
 |Blackberry_supported=Unknown
