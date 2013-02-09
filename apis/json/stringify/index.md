@@ -16,7 +16,7 @@
 |Return_value_description=A string representation of the JavaScript object.
 }}
 {{Examples_Section
-|Not_required=Yes
+|Not_required=No
 |Examples=
 }}
 {{Notes_Section}}
@@ -25,6 +25,7 @@
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
