@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The WebSocket connection close code provided by the server. See Return value description for possible values.}}
 {{API_Object_Property
 |Property_applies_to=apis/websockets/CloseEvent
 |Read_only=No
