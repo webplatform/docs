@@ -7,6 +7,7 @@
 {{API_Name}}
 {{Summary_Section|Increases or decreases the space between characters in a text.}}
 {{CSS Property
+|Initial value=normal
 |Applies to=All elements
 |Inherited=Yes
 |Media=visual
