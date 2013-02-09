@@ -1,7 +1,5 @@
 {{Page_Title}}
-{{Flags
-|Content=Compatibility Incomplete
-}}
+{{Flags}}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|The <code>padding-top</code> CSS property of an element sets the [[css/properties/padding|padding]] space required on the top of an element. The padding area is the space between the content of the element and its border. Contrary to [[css/properties/margin-top|margin-top]] values, negative values of <code>padding-top</code> are invalid.}}
@@ -25,7 +23,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Description=The following examples use the '''padding-top''' attribute and the '''padding-top''' property to change the padding of the elements.
+|Description=The following examples use the '''padding-top''' property to change the padding of the elements.
 |Code=h1 { padding-top: 5%; }
 p { padding-top: 10px; }
 }}{{Single Example
