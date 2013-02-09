@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|High-level issues=Missing Relevant Sections
+|Content=Incomplete, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -12,7 +12,7 @@
 * Outlines do not take up space, they are drawn above the content.
 * Outlines may be non-rectangular. They are rectangular in Gecko/Firefox. But e.g. Opera draws a non-rectangular shape around a construct like this:
 
-<strong style="color: orange; outline: 1px dotted;">TEXT<span style="font-size: xx-large;">TEXT</span>TEXT</strong>
+<strong style="color: green; outline: 1px dotted;">Web<span style="font-size: xx-large;">Platform</span>Docs</strong>
 }}
 {{Examples_Section
 |Not_required=No
