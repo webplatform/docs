@@ -51,7 +51,7 @@ p {
 When specified as a positive '''length''' value, the '''letter-spacing''' attribute adds the specified value to the default spacing between characters within an element. A negative '''length''' value decreases the space between characters. Letter spacing can be influenced by justification.
 |Import_Notes====Syntax===
 <code>'''letter-spacing: '''normal '''{{!}}''' ''
-&lt;length&gt;
+length '''{{!}}''' ''
 '' '''{{!}}''' inherit</code>
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 5.4.2
