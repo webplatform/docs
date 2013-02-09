@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The '''acronym''' element &lt;acronym&gt; indicates an acronym or a word formed by the initial letter or letters (or major parts) of a compound term.}}
+{{Summary_Section|The '''acronym''' element (&lt;acronym&gt;) indicates an abbreviation or a word formed by the initial letter or letters (or major parts) of a compound term.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
 |Content=The acronym element is a type of phrasing content that exists at the sub-paragraph level. It may not contain block-level elements. 
@@ -39,6 +39,7 @@ This element is '''obsolete''' in HTML5. Use the '''<code>[[html/elements/abbr|a
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
