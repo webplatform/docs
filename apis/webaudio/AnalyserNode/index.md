@@ -5,7 +5,7 @@
 {{Summary_Section|This interface represents a node which is able to provide real-time frequency and time-domain analysis information. The audio stream will be passed un-processed from input to output.}}
 {{API_Object}}
 {{Examples_Section
-|Not_required=Yes
+|Not_required=No
 |Examples=
 }}
 {{Notes_Section}}
