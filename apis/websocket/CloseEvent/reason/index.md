@@ -6,7 +6,7 @@
 {{API_Name}}
 {{Summary_Section|A string indicating the reason the server closed the connection. This is specific to the particular server and sub-protocol.}}
 {{API_Object_Property
-|Property_applies_to=apis/websockets/CloseEvent
+|Property_applies_to=apis/websocket/CloseEvent
 |Read_only=No
 |Javascript_data_type=String
 }}
