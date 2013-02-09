@@ -115,6 +115,9 @@ A non-zero blur distance indicates that the resulting shadow should be blurred, 
 Note this means for a long, straight shadow edge, the blur radius will create a visibly apparent color transition approximately the twice length of the blur radius that is perpendicular to and centered on the shadow's edge, and that ranges from the full shadow color at the endpoint inside the shadow to fully transparent at the endpoint outside it.
 
 ===Remarks===
+See also:
+* [[/css/data_types/length length]]
+* [[/css/color color]]
 
 }}
 {{Related_Specifications_Section
