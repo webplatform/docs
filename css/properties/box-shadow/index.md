@@ -33,7 +33,7 @@ Links to descriptions of length and color are in the [[#Remarks]] section, below
 |Description=The third length is a blur radius. The larger this value, the bigger the blur, so the shadow becomes bigger and lighter. Negative values are not allowed. If not specified, it is 0 (the shadow's edge is sharp).
 }}{{CSS Property Value
 |Data Type=<spread-distance>
-|Description=The fourth length is a spread distance. Positive values cause the shadow to expand and grow bigger, negative values cause the shadow to shrink. If not specified, it is 0 (the shadow is the same size as the element). For inner shadows, expanding the shadow (creating more shadow area) means contracting the shadow's perimeter shape.
+|Description=The fourth length is a spread distance. Positive values cause the shadow to expand and grow bigger, negative values cause the shadow to shrink. If not specified, it is 0 (the shadow is the same size as the element). (A zero-sized shadow shape causes the outer shadow to disappear, and the inner shadow to cover the entire padding-box.) For inner shadows, expanding the shadow (creating more shadow area) means contracting the shadow's perimeter shape.
 }}{{CSS Property Value
 |Data Type=<color>
 |Description=See color values for possible keywords and notations. If not specified, the color used depends on the browser - it is usually the value of the color property, but note that Safari currently paints a transparent shadow in this case.
@@ -59,7 +59,7 @@ Links to descriptions of length and color are in the [[#Remarks]] section, below
 }
 }}{{Single Example
 |Language=CSS
-|Description=An example of a basic Drop Shadow
+|Description=An example of a basic Drop Shadow. An outer box-shadow casts a shadow as if the border-box of the element were opaque. The shadow is drawn outside the border edge only: it is clipped inside the border-box of the element.
 |Code=article {
 /* box-shadow: left-offset top-offset blur color; */
    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -67,7 +67,7 @@ Links to descriptions of length and color are in the [[#Remarks]] section, below
 |LiveURL=http://dabblet.com/gist/4739446
 }}{{Single Example
 |Language=CSS
-|Description=An example of inner drop shadows
+|Description=An example of inner drop shadows. An inner box-shadow casts a shadow as if everything outside the padding edge were opaque. The inner shadow is drawn inside the padding edge only: it is clipped outside the padding box of the element.
 |Code=article {
 /* box-shadow: left-offset top-offset blur color; */
    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5) inset;
@@ -75,7 +75,7 @@ Links to descriptions of length and color are in the [[#Remarks]] section, below
 |LiveURL=http://dabblet.com/gist/4739547
 }}{{Single Example
 |Language=CSS
-|Description=An example of how a positive spread distance length value affects the drop shadow
+|Description=An example of how a positive spread distance length value affects the drop shadow. If a spread distance is defined, the shadow is expanded outward or contracted inward.
 |Code=article {
 /* box-shadow: left-offset top-offset blur spread color; */
    box-shadow: 0 0 5px 10px rgba(0, 0, 0, 0.5);
@@ -91,7 +91,7 @@ Links to descriptions of length and color are in the [[#Remarks]] section, below
 |LiveURL=http://dabblet.com/gist/4739654
 }}{{Single Example
 |Language=CSS
-|Description=If the blur value is zero, the shadow's edge is sharp.
+|Description=If the blur value is zero, the shadow's edge is sharp. (A non-zero blur value indicates that the resulting shadow should be blurred, such as by a Gaussian filter.)
 |Code=article {
 /* box-shadow: left-offset top-offset blur spread color; */
    box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.5);
@@ -99,7 +99,7 @@ Links to descriptions of length and color are in the [[#Remarks]] section, below
 |LiveURL=http://dabblet.com/gist/4739845
 }}{{Single Example
 |Language=CSS
-|Description=If the box has a nonzero ‘border-radius’, the shadow shape is rounded in the same way.
+|Description=If the box has a nonzero ‘border-radius’, the shadow shape is rounded in the same way. (The ‘border-image’ does not affect the shape of the box-shadow.)
 |Code=article {
 /* box-shadow: left-offset top-offset blur color; */
    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
@@ -110,17 +110,12 @@ Links to descriptions of length and color are in the [[#Remarks]] section, below
 }}
 }}
 {{Notes_Section
-|Usage=An outer box-shadow casts a shadow as if the border-box of the element were opaque. The shadow is drawn outside the border edge only: it is clipped inside the border-box of the element.
+|Usage=
 
-An inner box-shadow casts a shadow as if everything outside the padding edge were opaque. The inner shadow is drawn inside the padding edge only: it is clipped outside the padding box of the element.
 
-If the box has a nonzero ‘border-radius’, the shadow shape is rounded in the same way. The ‘border-image’ does not affect the shape of the box-shadow.
 
-If a spread distance is defined, the shadow is expanded outward or contracted inward by an operation equivalent to applying the absolute value of the spread value to a blur operation as defined below and thresholding the result such that for a positive spread distance all non-transparent pixels are given the full shadow color and for a negative spread distance all non-opaque pixels are made transparent. The UA may approximate this operation by taking an outward outset of the specified amount normal to the original shadow perimeter. Alternatively the UA may approximate the transformed shadow perimeter shape by outsetting (insetting, for inner shadows) the shadow's straight edges by the spread distance and increasing (decreasing, for inner shadows) and flooring at zero the corner radii by the same amount. (The UA may even combine these methods, using one method for outer shadows and another for inner ones.) For corners with a zero border-radius, however, the corner must remain sharp—the operation is equivalent to scaling the shadow shape. In any case, the effective width and height of the shadow shape is floored at zero. (A zero-sized shadow shape would cause an outer shadow to disappear, and an inner shadow to cover the entire padding-box.)
 
-A non-zero blur distance indicates that the resulting shadow should be blurred, such as by a Gaussian filter. The exact algorithm is not defined; however the resulting shadow must approximate (with each pixel being within 5% of its expected value) the image that would be generated by applying to the shadow a Gaussian blur with a standard deviation equal to half the blur radius
 
-Note this means for a long, straight shadow edge, the blur radius creates a visibly apparent color transition approximately the twice length of the blur radius that is perpendicular to and centered on the shadow's edge, and that ranges from the full shadow color at the endpoint inside the shadow to fully transparent at the endpoint outside it.
 
 ===Remarks===
 See also:
