@@ -14,10 +14,10 @@
 |Animatable=No
 |Values={{CSS Property Value
 |Data Type=<border-width> <border-style> <color>
-|Description=The <tt>border-bottom</tt> property is a shorthand property for setting the same width, color, and style for only one border of a box- bottom.
-* Width - Any of the range of width values available to the [[css/properties/border-bottom-width|'''border-bottom-width''']] property. It's optional. Default value is <tt>medium</tt>.
-* Style - Any of the range of style values available to the [[css/properties/border-bottom-style|'''border-bottom-style''']] property. Default value is <tt>none</tt>.
-* Color - Any of the range of color values available to the [[css/properties/border-bottom-color|'''border-bottom-color''']] property. Default value is the value of the element's [[css/properties/color|'''color''']] property - i.e. text color.
+|Description=The <tt>border-bottom</tt> property is a shorthand property for setting the same width, color, and style for only one border of a box: bottom.
+* '''Width''' - Any of the range of width values available to the [[css/properties/border-bottom-width|'''border-bottom-width''']] property. It's optional. Default value is <tt>medium</tt>.
+* '''Style''' - Any of the range of style values available to the [[css/properties/border-bottom-style|'''border-bottom-style''']] property. Default value is <tt>none</tt>.
+* '''Color''' - Any of the range of color values available to the [[css/properties/border-bottom-color|'''border-bottom-color''']] property. Default value is the value of the element's [[css/properties/color|'''color''']] property - i.e. text color.
 }}
 }}
 {{Examples_Section
