@@ -5,11 +5,12 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Specifies computer code sample.
-The tag allows for rendering text within the code block as entered with all its syntax v/s getting interpreted by the browser.
+{{Summary_Section|The '''code''' element (&lt;code&gt;) specifies a fragment of computer code.
+
 }}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
+|Content=Text within the code block is not interpreted by the browser.
 }}
 {{Examples_Section
 |Not_required=No
