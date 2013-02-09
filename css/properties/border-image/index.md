@@ -1,7 +1,6 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Missing Relevant Sections, Needs Topics
-|Content=Examples Needed
+|High-level issues=Needs Topics
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
@@ -15,23 +14,16 @@
 |Animatable=No
 |Values={{CSS Property Value
 |Data Type=none
-}}{{CSS Property Value
-|Data Type=border-image-source
-}}{{CSS Property Value
-|Data Type=border-image-slice
-}}{{CSS Property Value
-|Data Type=border-image-width
-}}{{CSS Property Value
-|Data Type=border-image-outset
-}}{{CSS Property Value
-|Data Type=border-image-repeat
 }}
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Code=border-image: url('image.png') fill auto repeat;
+|Code=[[File:background-image.png|example base graphics file]]
+<code>border-image: url("border-image.png") 30 30 repeat;</code>
+[[File:bi-repeat.png|example of a repeated background-image]]
+
 }}
 }}
 {{Notes_Section
@@ -49,6 +41,7 @@
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Unknown
 |Chrome_version=
