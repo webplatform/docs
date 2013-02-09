@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Represents self-contained content, optionally with a caption, that can be referenced as a single unit from the main content of the document.}}
+{{Summary_Section|The '''figure''' element (&lt;figure&gt;) represents self-contained content, optionally with a caption, that can be referenced as a single unit from the main content of the document.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
 }}
