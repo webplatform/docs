@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|'''dl''' element is used to define a '''definition list'''. Encloses a list of definition items which consist of two parts, a term and a description.}}
+{{Summary_Section|The '''dl''' element (&lt;dl&gt;) is used to define a ''definition list''. It encloses a list of definition items which consist of two parts, a term ([[html/elements/dt|&lt;dt&gt;]]) and a description ([[html/elements/dd|&lt;dd&gt;]]).}}
 {{Markup_Element
 |DOM_interface=dom/HTMLDListElement
 }}
@@ -769,7 +769,7 @@ This property is not supported for Metro style apps using JavaScript.
 }}
 {{See_Also_Section
 |External_links=* [https://developer.mozilla.org/en-US/docs/HTML/Element/dl Mozilla Developer Network]
-* [http://www.w3.org/TR/html4/struct/lists.html#h-10.3 W3C] 
+* [http://www.w3.org/TR/html4/struct/lists.html#h-10.3 W3C]
 }}
 {{Topics|HTML}}
 {{External_Attribution
