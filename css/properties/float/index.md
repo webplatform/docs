@@ -46,9 +46,7 @@
 }}
 }}
 {{Notes_Section
-|Usage=
-
-As float implicitly implies the use of the block layout, it modifies the computed value of the {{ cssxref("display") }} values in some cases:
+|Usage=As float implicitly implies the use of the block layout, it modifies the computed value of the {{ cssxref("display") }} values in some cases:
 
 {| class="wikitable"
 |-
@@ -87,14 +85,23 @@ __Note:__ If you're referring to this property from JavaScript as a member of th
 |Notes====Remarks===
 * Objects following a floating object move in relation to the position of the floating object.
 * The floating object is moved left or right until it reaches the border, padding, or margin of another block-level object.
-
 |Import_Notes====Syntax===
 <code>'''float: '''left '''{{!}}''' right '''{{!}}''' none '''{{!}}''' inherit</code>
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 5.5.25
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Level 2 (Revision 1)
+|URL=http://www.w3.org/TR/CSS2/visuren.html#float-position
+|Status=Recommendation
+|Relevant_changes=No change.
+}}{{Related Specification
+|Name=CSS Level 1
+|URL=http://www.w3.org/TR/CSS1/#float
+|Status=Recommendation
+|Relevant_changes=Initial definition.
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
