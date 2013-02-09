@@ -52,7 +52,7 @@ When specified as a positive '''length''' value, the '''letter-spacing''' attrib
 |Import_Notes====Syntax===
 <code>'''letter-spacing: '''normal '''{{!}}''' ''
 length '''{{!}}''' ''
-'' '''{{!}}''' inherit</code>
+inherit</code>
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 5.4.2
 }}
