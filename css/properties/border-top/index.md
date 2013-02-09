@@ -28,7 +28,25 @@ The <tt>border-top</tt> property is a shorthand property for setting the same wi
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|Code=/* When we don't set border-top-color, color of a text is used as a default */
+.one {
+  color: #6CC644;
+  border-top: medium solid;
+}
+
+/* When we don't set border-top-style, default style <none> will be used - therefor no border-top will be rendered */
+.two {
+  border-top: 1px red;
+}
+
+/* Other border-top style example */
+.three {
+  border-top: dotted 2px red;
+}
+|LiveURL=http://marcin-wosinek.github.com/border-top
+}}
 }}
 {{Notes_Section
 |Notes====Remarks===
