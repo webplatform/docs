@@ -148,14 +148,14 @@ See also:
 |Safari_prefixed_version=3.0
 }}
 |Mobile_rows={{Compatibility Table Mobile Row
-|Android_supported=Unknown
-|Android_version=
-|Android_prefixed_supported=Unknown
-|Android_prefixed_version=
-|Blackberry_supported=Unknown
-|Blackberry_version=
-|Blackberry_prefixed_supported=Unknown
-|Blackberry_prefixed_version=
+|Android_supported=Yes
+|Android_version=4.0
+|Android_prefixed_supported=Yes
+|Android_prefixed_version=2.1
+|Blackberry_supported=Yes
+|Blackberry_version=10.0
+|Blackberry_prefixed_supported=Yes
+|Blackberry_prefixed_version=7.0
 |Chrome_mobile_supported=Unknown
 |Chrome_mobile_version=
 |Chrome_mobile_prefixed_supported=Unknown
@@ -168,7 +168,7 @@ See also:
 |IE_mobile_version=
 |IE_mobile_prefixed_supported=Unknown
 |IE_mobile_prefixed_version=
-|Opera_mobile_supported=Unknown
+|Opera_mobile_supported=No
 |Opera_mobile_version=
 |Opera_mobile_prefixed_supported=Unknown
 |Opera_mobile_prefixed_version=
@@ -176,10 +176,10 @@ See also:
 |Opera_mini_version=
 |Opera_mini_prefixed_supported=Unknown
 |Opera_mini_prefixed_version=
-|Safari_mobile_supported=Unknown
-|Safari_mobile_version=
-|Safari_mobile_prefixed_supported=Unknown
-|Safari_mobile_prefixed_version=
+|Safari_mobile_supported=Yes
+|Safari_mobile_version=5.0-5.1
+|Safari_mobile_prefixed_supported=Yes
+|Safari_mobile_prefixed_version=3.2
 }}
 |Notes_rows={{Compatibility Notes Row
 |Browser=IE
