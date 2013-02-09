@@ -12,7 +12,9 @@
 |Not_required=No
 |Examples=
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=The [[apis/canvas|canvas api]] is a useful resource for working with the canvas element.
+}}
 {{Related_Specifications_Section
 |Specifications=
 }}
@@ -82,6 +84,7 @@
 |Note=Hardware accelerated
 }}
 }}
+{{See_Also_Section}}
 {{Topics|Canvas, HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
