@@ -85,6 +85,10 @@ A browser can not allocate unlimited disk space for ressources that should be ca
 {{!}} unkn.
 {{!}} 50Mb
 {{!}}-
+{{!}} Desktop Safari
+{{!}} unkn.
+{{!}} 5Mb
+{{!}}-
 {{!}} Mobile Safari
 {{!}} unkn.
 {{!}} 5Mb
