@@ -9,10 +9,10 @@
 * [[concepts/progressive_enhancement|An introduction to progressive enhancement]]
 * [[concepts/graceful degradation|Graceful degradation]]
 * [[concepts/polyfill|Polyfill]]
+* [[concepts/proprietary_internet_explorer_techniques|Proprietary Internet Explorer Techniques]]
 
 ==Working With New Features==
 * [[concepts/experimental_features|Enabling experimental features]]
-
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
