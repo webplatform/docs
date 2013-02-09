@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Indicates the defining instance of a term.}}
+{{Summary_Section|The '''dfn''' element (&lt;dfn&gt;) indicates the defining instance of a term.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
 }}
