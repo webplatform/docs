@@ -329,7 +329,7 @@ An element with a '''fixed''' position is positioned relative to the visible vie
 |Safari_mobile_prefixed_supported=Unknown
 |Safari_mobile_prefixed_version=
 }}
-|Notes_rows=
+|Notes_rows={{Compatibility Notes Row}}
 }}
 {{See_Also_Section
 |Topic_clusters=Box Model
