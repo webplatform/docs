@@ -41,7 +41,7 @@ p {
 }
 
 p {
-    letter-spacing: -.5em;
+    letter-spacing: -.1em;
 }
 }}
 }}
