@@ -163,7 +163,9 @@ The Cascading Style Sheets (CSS) table display model does not require explicit e
 }}
 {{Compatibility_Section
 |Not_required=No
-|Imported_tables=
+|Imported_tables={{Imported Compatibility Table
+|Page=https://developer.mozilla.org/en-US/docs/CSS/display
+}}
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
