@@ -4,7 +4,7 @@
 {{API_Name}}
 {{Summary_Section|The WebSocket connection close code provided by the server. See Return value description for possible values.}}
 {{API_Object_Property
-|Property_applies_to=apis/websockets/CloseEvent
+|Property_applies_to=apis/websocket/CloseEvent
 |Read_only=No
 |Javascript_data_type=unsigned long
 |Return_value_description={{{!}}
