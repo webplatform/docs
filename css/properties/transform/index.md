@@ -40,6 +40,9 @@ If the property has a value different than none, a stacking context will be crea
 |Data Type=rotate(20deg)
 |Description=Rotates the element clockwise around its origin (as specified by the transform-origin property) by the specified [[css/units/angle|angle]].
 }}{{CSS Property Value
+|Data Type=skewX(40deg)
+|Description=Specifies a 2D skew transformation along the X axis by the given angle. 
+}}{{CSS Property Value
 |Data Type=none
 |Description=Specifies that no transform should be applied.
 }}
