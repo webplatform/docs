@@ -5,7 +5,7 @@
 {{Summary_Section|Specifies each pixel within a canvas's rectangular selection, via the [[apis/canvas/ImageData|ImageData]] object's [[apis/canvas/ImageData/data|data]] property. The array uses four elements to represent each pixel's red, green, blue, and alpha channels. See Notes.}}
 {{API_Object}}
 {{Examples_Section
-|Not_required=Yes
+|Not_required=No
 |Examples=
 }}
 {{Notes_Section
