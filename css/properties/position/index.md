@@ -1,8 +1,8 @@
 {{Page_Title}}
 {{Flags
-|Content=Not Neutral, Examples Best Practices
+|Content=Examples Best Practices
 }}
-{{Standardization_Status}}
+{{Standardization_Status|De Facto Standard}}
 {{API_Name}}
 {{Summary_Section|The position property controls the type of positioning used by an element within its parent elements. The effect of the position attribute depends on a lot of factors, for example the value of position property of parent elements.}}
 {{CSS Property
@@ -106,9 +106,14 @@
 }}
 }}
 {{Notes_Section
-|Usage====Absolute===
+|Usage====Static (Default)===
+The positioned float is laid out according to normal HTML flow.
 
-Setting the property to absolute pulls the object out of the "flow" of the document and positions it regardless of the layout of surrounding objects. If other objects already occupy the given position, they do not affect the positioned object, nor does the positioned object affect them. Instead, all objects are drawn at the same place, causing the objects to overlap. (This overlap is controlled by using the z-index attribute or property.)
+
+===Absolute===
+The positioned float is laid out relative to its containing block, but the positioned float will affect the normal flow of its container. Inline content wraps around the positioned float; the positioned float is not laid out on top of inline content.
+
+Setting the property to '''absolute''' pulls the object out of the "flow" of the document and positions it regardless of the layout of surrounding objects. If other objects already occupy the given position, they do not affect the positioned object, nor does the positioned object affect them. Instead, all objects are drawn at the same place, causing the objects to overlap. (This overlap is controlled by using the z-index attribute or property.)
 
 To enable absolute positioning on an object you must specify at least one of the top, bottom, left, or right properties, in addition to setting the position property to absolute. Otherwise, these positioning properties use their default value of absolute, which causes the object to render immediately after the preceding elements, according to the layout rules of HTML.
 
@@ -139,18 +144,14 @@ Text and objects that follow a relatively positioned object occupy their own spa
 
 ===Fixed===
 An element with a '''fixed''' position is positioned relative to the visible viewport. It does not move away if the browser window is scrolled but appears to be fixed in the viewport. A common pattern and example is to use position: fixed on navigation elements that should be visible on the whole page regardless of the scrollbar position. Fixed positioning is only supported for pages using a strict <!DOCTYPE> directive.
+|Notes====Layout Float===
+'''static''' The positioned float is laid out according to normal HTML flow.
 
-===Short===
-static Default. 
-The positioned float is laid out according to normal HTML flow.
+'''absolute''' The positioned float is laid out relative to its containing block, but the positioned float will affect the normal flow of its container. Inline content wraps around the positioned float; the positioned float is not laid out on top of inline content.
 
-absolute The positioned float is laid out relative to its containing block, but the positioned float will affect the normal flow of its container. Inline content wraps around the positioned float; the positioned float is not laid out on top of inline content.
+'''relative''' The positioned float is laid out relative to where it would fall in the normal flow. The bottom, top, left, and right properties can be used to calculate an offset from the element's position in the normal flow. Content will flow around the original position of the element, and the actual positioned float will be superimposed on top of inline content.
 
-relative The positioned float is laid out relative to where it would fall in the normal flow. The bottom, top, left, and right properties can be used to calculate an offset from the element's position in the normal flow. Content will flow around the original position of the element, and the actual positioned float will be superimposed on top of inline content.
-
-fixed The positioned float is laid out relative to the initial position of the viewport, or browser window. (The positioned float's position is not updated as the viewport moves due to scrolling.)
-
-
+'''fixed''' The positioned float is laid out relative to the initial position of the viewport, or browser window. (The positioned float's position is not updated as the viewport moves due to scrolling.)
 }}
 {{Related_Specifications_Section
 |Specifications=
