@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Increases or decreases the space between characters in a text.}}
+{{Summary_Section|Specifies the spacing behavior between text characters.}}
 {{CSS Property
 |Initial value=normal
 |Applies to=All elements
@@ -14,7 +14,7 @@
 |Animatable=No
 |Values={{CSS Property Value
 |Data Type=normal
-|Description=Default. Default spacing.
+|Description=The spacing is the normal spacing for the current font.
 }}{{CSS Property Value
 |Data Type=length
 |Description=Floating-point number, followed by an absolute units designator (<code>cm</code>, <code>mm</code>, <code>in</code>, <code>pt</code>, or <code>pc</code>) or a relative units designator (<code>em</code>, <code>ex</code>, or <code>px</code>). For more information about the supported length units, see CSS Values and Units Reference.
