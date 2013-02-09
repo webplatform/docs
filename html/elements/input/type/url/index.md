@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|An input field for entering a single, absolute URL value.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLInputElement
 }}
