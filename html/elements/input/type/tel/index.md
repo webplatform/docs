@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|An input field intended for entering a telephone number; does not enforce any syntax.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLInputElement
 }}
