@@ -35,9 +35,20 @@ A handful of these filters are not just statically applied, but they also need t
 }
 </syntaxHighlight>
 
+The element is rendered in black, until we add a light to the filter via JavaScript: 
+
 <syntaxHighlight lang="javascript">
-/* Lighten the element with an ambient type of light, in a yellowish color RGB(255,240,200), with medium brightness (100) */
-document.getElementById('filtered').filters.item('DXImageTransform.Microsoft.Light').addAmbient(255, 240, 200, 100);
+/*************************************************
+Lighten the element with an ambient type of light, 
+in a yellowish color RGB(255,240,200), 
+with medium brightness (100) 
+*************************************************/
+
+document
+.getElementById('filtered')
+.filters
+.item('DXImageTransform.Microsoft.Light')
+.addAmbient(255, 240, 200, 100);
 </syntaxHighlight>
 
 Multiple filters could be chained into one property by separating them with spaces:
