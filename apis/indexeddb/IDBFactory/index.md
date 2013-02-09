@@ -8,7 +8,7 @@
 {{Summary_Section|Interface implemented by the [[apis/indexeddb/indexedDB|indexedDB]] object; provides for the creation and access of a database.}}
 {{API_Object}}
 {{Examples_Section
-|Not_required=Yes
+|Not_required=No
 |Examples=
 }}
 {{Notes_Section
