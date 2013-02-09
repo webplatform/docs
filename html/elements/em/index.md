@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Emphasizes text, usually by rendering it in italic type.}}
+{{Summary_Section|The '''em''' element (&lt;em&gt;) indicates text that should be emphasized, usually by rendering it in Italic style text.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
 }}
