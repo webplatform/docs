@@ -17,19 +17,19 @@
 |Data Type=none
 }}{{CSS Property Value
 |Data Type=border-image-source
-|Description=see [[/css/properties/border-image-source|border-image-source]] for more information;
+|Description=see [[css/properties/border-image-source|border-image-source]] for more information;
 }}{{CSS Property Value
 |Data Type=border-image-slice
-|Description=see [[/css/properties/border-image-slice|border-image-slice]] for more information;
+|Description=see [[css/properties/border-image-slice|border-image-slice]] for more information;
 }}{{CSS Property Value
 |Data Type=border-image-width
-|Description=see [[/css/properties/border-image-width|border-image-width]] for more information;
+|Description=see [[css/properties/border-image-width|border-image-width]] for more information;
 }}{{CSS Property Value
 |Data Type=border-image-outset
-|Description=see [[/css/properties/border-image-outset|border-image-outset]] for more information;
+|Description=see [[css/properties/border-image-outset|border-image-outset]] for more information;
 }}{{CSS Property Value
 |Data Type=border-image-repeat
-|Description=see [[/css/properties/border-image-outset|border-image-repeat]] for more information;
+|Description=see [[css/properties/border-image-outset|border-image-repeat]] for more information;
 }}
 }}
 {{Examples_Section
