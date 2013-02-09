@@ -17,7 +17,7 @@
 |Return_value_description='''ICanvasTextMetrics''': The width of the text, in CSS pixels.
 }}
 {{Examples_Section
-|Not_required=Yes
+|Not_required=No
 |Examples=
 }}
 {{Notes_Section
