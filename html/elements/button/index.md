@@ -5,13 +5,14 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Defines a clickable button.
-Inside a &lt;button&gt; element you can put content, like text or images.
-Always specify the type attribute for a &lt;button&gt; element. Different browsers use different default types for the &lt;button&gt; element.
+{{Summary_Section|The '''button''' (&lt;button&gt;) element defines a clickable button.
+
 |The "button" tag is one of many ways to create buttons on an HTML page_ A web developer can also use the "input" tag in conjunction with type="button" or by styling an "a" tag to achieve the same functionality. However, those may be harder and their results may not be as clean.
 }}
 {{Markup_Element
 |DOM_interface=dom/HTMLButtonElement
+|Content=Inside a &lt;button&gt; element you can put content, like text or images.
+Always specify the type attribute for a &lt;button&gt; element. Different browsers use different default types for the &lt;button&gt; element.
 }}
 {{Examples_Section
 |Not_required=No
