@@ -12,11 +12,11 @@
 |Inherited=No
 |Media=visual
 |Computed value=As specified, or none if none given
-|Animatable=Yes
+|Animatable=No
 |CSS object model property=position
 |Values={{CSS Property Value
 |Data Type=static
-|Description=Default. Object has no special positioning; it follows the layout rules of HTML.
+|Description=Default. Object has no special positioning; it follows the layout rules of HTML. Values of [[css/properties/top|'''top''']], [[css/properties/bottom|"bottom"]], [[css/properties/left|"left"]] and [[css/properties/right|"right"]] have no impact. 
 }}{{CSS Property Value
 |Data Type=absolute
 |Description=Object is positioned relative to parent element's position—or to the '''body''' object if its parent element is not positioned—using the [[css/properties/top|'''top''']] and [[css/properties/left|'''left''']] properties.
@@ -25,13 +25,16 @@
 |Description=Object is positioned according to the normal flow, and then offset by the [[css/properties/top|'''top''']] and [[css/properties/left|'''left''']] properties.
 }}{{CSS Property Value
 |Data Type=fixed
-|Description=Starting in Internet Explorer 7. Object is positioned relative to the viewport containing the content.
+|Description=Object is positioned relative to the viewport containing the content. Object stays in the viewport when scrolling. Usually used for navigation on mobile devices. Limited support.
 }}{{CSS Property Value
 |Data Type=sticky
 |Description=The lovechild of "static" and "fixed", an object with this value behaves as relative until a threshold defined by a top/bottom/left/right property is crossed, at which point it behaves as position: fixed within its positioned parent container.
 }}{{CSS Property Value
 |Data Type=page
 |Description=Internet Explorer 10. Positioned floats only. (The [[css/properties/display|'''display''']] property must be set to '''-ms-positioned'''.) Object is positioned relative to the nearest [http://go.microsoft.com/fwlink/p/?LinkId{{=}}226824 initial containing block]. This may be the browser or application window or a content container such as an '''iframe'''. The [[css/properties/bottom|'''bottom''']], [[css/properties/top|'''top''']], [[css/properties/left|'''left''']], and [[css/properties/right|'''right''']] properties are used to position the element relative to the boundaries of the viewport that the positioned float would normally be placed in (that is, if '''position:static''' was set). For more information, see Positioned Floats.
+}}{{CSS Property Value
+|Data Type=inherit
+|Description=Inherits the value of the parent element.
 }}
 }}
 {{Examples_Section
@@ -206,20 +209,16 @@ For more information, see Positioned Floats.
 |Chrome_mobile_supported=Yes
 |Chrome_mobile_prefixed_supported=Unknown
 |Chrome_mobile_prefixed_version=
-|Firefox_mobile_supported=Unknown
-|Firefox_mobile_version=
+|Firefox_mobile_supported=Yes
 |Firefox_mobile_prefixed_supported=Unknown
 |Firefox_mobile_prefixed_version=
-|IE_mobile_supported=Unknown
-|IE_mobile_version=
+|IE_mobile_supported=Yes
 |IE_mobile_prefixed_supported=Unknown
 |IE_mobile_prefixed_version=
-|Opera_mobile_supported=Unknown
-|Opera_mobile_version=
+|Opera_mobile_supported=Yes
 |Opera_mobile_prefixed_supported=Unknown
 |Opera_mobile_prefixed_version=
-|Opera_mini_supported=Unknown
-|Opera_mini_version=
+|Opera_mini_supported=Yes
 |Opera_mini_prefixed_supported=Unknown
 |Opera_mini_prefixed_version=
 |Safari_mobile_supported=Yes
