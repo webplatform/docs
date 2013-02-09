@@ -49,7 +49,15 @@ border-image-slice: 7 12 14 5;            /* Four-value syntax  */
 }}
 }}
 {{Notes_Section
-|Usage=[[File:slice.png|bla]]
+|Usage=[[File:slice.png|slicing]]
+
+When using the four-value syntax it is <code>border-image-slice: top right bottom left;</code>.
+
+When using the three-value syntax it is <code>border-image-slice: top left/right bottom;</code>.
+
+When using the two-value syntax it is <code>border-image-slice: top/bottom left/right;</code>.
+
+When using the two-value syntax it is <code>border-image-slice: top/bottom/left/right;</code>.
 }}
 {{Related_Specifications_Section
 |Specifications=
