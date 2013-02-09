@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|An input field that represents a file.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLInputElement
 }}
