@@ -75,11 +75,19 @@ A browser can not allocate unlimited disk space for ressources that should be ca
 {{{!}}
 ! Browser
 ! Max. space per item
-! max. space per page
+! Max. space per page
 {{!}}-
 {{!}} Chrome
 {{!}} 32Mb
 {{!}} 260Mb
+{{!}}-
+{{!}} Firefox
+{{!}} unkn.
+{{!}} 50Mb
+{{!}}-
+{{!}} Mobile Safari
+{{!}} unkn.
+{{!}} 5Mb
 {{!}}}
 }}
 {{Related_Specifications_Section
@@ -161,8 +169,7 @@ A browser can not allocate unlimited disk space for ressources that should be ca
 {{Topics|Appcache, Connectivity, DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MDN, MSDN
+|Sources=MDN, MSDN, HTML5Rocks
 |MDN_link=https://developer.mozilla.org/en-US/docs/HTML/Using_the_application_cache
 |MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx
-|HTML5Rocks_link=
 }}
