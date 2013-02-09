@@ -17,8 +17,8 @@ Filters present a way to apply certain visual effects either to page elements or
 A filter affecting the whole page might be a page or site enter or exit transition effect:
 
 <syntaxHighlight lang="html5">
-&lt;meta http-equiv="Page-Enter" content="blendTrans(Duration=0.3)"&gt;
-&lt;meta http-equiv="Page-Exit" content="blendTrans(Duration=0.3)"&gt;
+<meta http-equiv="Page-Enter" content="blendTrans(Duration=0.3)">
+<meta http-equiv="Page-Exit" content="blendTrans(Duration=0.3)">
 </syntaxHighlight>
 
 Effects for page elements could be for example drop-shadow or blur:
