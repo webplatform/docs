@@ -2,7 +2,7 @@
 {{Flags
 |Content=Examples Best Practices
 }}
-{{Standardization_Status|De Facto Standard}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|The position property controls the type of positioning used by an element within its parent elements. The effect of the position attribute depends on a lot of factors, for example the value of position property of parent elements.}}
 {{CSS Property
@@ -187,7 +187,11 @@ An element with a '''fixed''' position is positioned relative to the visible vie
 '''fixed''' The positioned float is laid out relative to the initial position of the viewport, or browser window. (The positioned float's position is not updated as the viewport moves due to scrolling.)
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS 2.1
+|URL=http://www.w3.org/TR/CSS2/visuren.html#choose-position
+|Status=W3C Recommendation
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
