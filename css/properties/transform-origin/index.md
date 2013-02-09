@@ -7,10 +7,11 @@
 {{API_Name}}
 {{Summary_Section|Allows you to change the position on transformed elements.}}
 {{CSS Property
-|Initial value=50% 50% 0
-|Applies to=block-level and inline-level elements
+|Initial value=50% 50%
+|Applies to=transformable elements
 |Inherited=No
 |Media=visual
+|Computed value=For <length> the absolute value, otherwise a percentage 
 |Animatable=No
 |Values={{CSS Property Value
 |Data Type=length
