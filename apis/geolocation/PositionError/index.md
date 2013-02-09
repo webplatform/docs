@@ -109,9 +109,9 @@ else
 {{See_Also_Section}}
 {{Topics|Geolocation}}
 {{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
+|Is_CC-BY-SA=Yes
+|Sources=MDN, MSDN
+|MDN_link=https://developer.mozilla.org/en-US/docs/Using_geolocation
 |MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
 |HTML5Rocks_link=
 }}
