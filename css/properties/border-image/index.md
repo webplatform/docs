@@ -29,7 +29,7 @@
 |Description=see [[css/properties/border-image-outset|border-image-outset]] for more information;
 }}{{CSS Property Value
 |Data Type=border-image-repeat
-|Description=see [[css/properties/border-image-outset|border-image-repeat]] for more information;
+|Description=see [[css/properties/border-image-repeat|border-image-repeat]] for more information;
 }}
 }}
 {{Examples_Section
