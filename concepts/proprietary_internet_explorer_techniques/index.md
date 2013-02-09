@@ -145,7 +145,7 @@ behavior: url(/scripts/redcoloredlight.htc);
 
 It is important to know that the path referenced in <code>url()</code> is not relative to the CSS file as one would think. Instead it is relative to the HTML file. The best solution to counter any problems is to use an absolute URL as shown above.
 
-That said, this would be how the referenced <code>redcoloredlight.htc</code> would look like:
+That said, this is how the referenced <code>redcoloredlight.htc</code> would look like:
 
 <syntaxHighlight lang="javascript">
 <component>
@@ -167,7 +167,7 @@ Behaviors are supported from IE 4 - 9 and were removed from IE 10. They were als
 
 =Expressions=
 
-Expressions allow you to dynamically calculate the value of a property. So for example you could do the following to teach older IEs to inherit the parent'S color:
+Expressions allow you to dynamically calculate the value of a property. So for example you could do the following to teach older IEs to inherit the parent's color:
 
 <syntaxHighlight lang="css">
 color: expression(this.parentNode.currentStyle.color);
@@ -181,10 +181,9 @@ But this only applies for when expressions are done wrong. A better way is to wr
 color: expression(this.runtimeStyle.color = this.parentNode.currentStyle.color);
 </syntaxHighlight>
 
-The only drawback now is that if you change the parent's color, this will not be reflected on its child.
+The only drawback now is that if you change the parent's color at a later point in time, this will not be reflected on the child anymore.
 
 Expressions are supported from IE 4 - 7 and were removed from IE 8.
-
 }}
 {{Examples_Section
 |Not_required=Yes
