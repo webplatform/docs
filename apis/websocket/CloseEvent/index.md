@@ -9,7 +9,15 @@
 {{API_Object}}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Code=socket.onclose = function(event) {
+  var code = event.code;
+  var reason = event.reason;
+  var wasClean = event.wasClean;
+  // handle close event
+};
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
