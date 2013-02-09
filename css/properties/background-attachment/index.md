@@ -1,4 +1,4 @@
-{{Page_Title|blah}}
+{{Page_Title|background-attachment}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Examples Best Practices
