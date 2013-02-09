@@ -5,7 +5,7 @@
 {{Summary_Section|An abstract interface representing entries in a file system, each of which may be a File or DirectoryEntry.}}
 {{API_Object}}
 {{Examples_Section
-|Not_required=Yes
+|Not_required=No
 |Examples=
 }}
 {{Notes_Section}}
