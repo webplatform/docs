@@ -2,7 +2,7 @@
 
 CSS properties
 
-* background-size - pascal
+* background-size - pascal - DONE, NEEDS REVIEW
 * cursor - kevin - FINISHED, NEEDS REVIEW
 * letter-spacing - kevin
 * font - vivienne
