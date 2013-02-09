@@ -50,6 +50,7 @@ If the property has a value different than none, a stacking context will be crea
 |Description=Specifies a 2D skew transformation along the Y axis by the given [[css/units/angle|angle]].
 }}
 }}
+[[file:transform_example.png|alt Example showing translate, scale and rotate step by step]]
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -177,4 +178,3 @@ If the property has a value different than none, a stacking context will be crea
 |MSDN_link=
 |HTML5Rocks_link=
 }}
-[[file:transform_example.png|alt Example showing translate, scale and rotate step by step]]
