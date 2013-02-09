@@ -1,8 +1,5 @@
 {{Page_Title}}
-{{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
+{{Flags}}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|Shorthand property that sets the properties of an element's right border.It can be used to set one or more values (of those: [[css/properties/border-right-width|'''border-right-width''']], [[css/properties/border-right-style|'''border-right-style''']], [[css/properties/border-right-color|'''border-right-color''']]).}}
