@@ -93,7 +93,7 @@ When the ''pseudoElementName'' is set to a value other than null, the value is i
 }}
 {{See_Also_Section
 |Topic_clusters=CSSOM
-|External_links=[Microsoft Test Drive for getComputedStyle http://ie.microsoft.com/testdrive/HTML5/getComputedStyle/]
+|External_links=Microsoft Test Drive for getComputedStyle http://ie.microsoft.com/testdrive/HTML5/getComputedStyle/
 }}
 {{Topics|DOM}}
 {{External_Attribution
