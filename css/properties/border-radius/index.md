@@ -25,14 +25,14 @@
 |Examples={{Single Example
 |Language=CSS
 |Description=One value example
-|Code=border-radius:2em;
+|Code=border-radius: 2em;
 
 /*is equivalent to:*/
 
-border-top-left-radius:2em;
-border-top-right-radius:2em;
-border-bottom-right-radius:2em;
-border-bottom-left-radius:2em;
+border-top-left-radius: 2em;
+border-top-right-radius: 2em;
+border-bottom-right-radius: 2em;
+border-bottom-left-radius: 2em;
 }}{{Single Example
 |Language=CSS
 |Description=Multi value example
@@ -47,13 +47,11 @@ border-bottom-left-radius: 1em 3em;
 }}{{Single Example
 |Language=CSS
 |Description=Valid max percentage value example
-|Code=border-radius:50%;
-/*0% - 50%*/
+|Code=border-radius: 50%; /*0% - 50%*/
 }}{{Single Example
 |Language=CSS
 |Description=Wrong max percentage value example
-|Code=border-radius:100%;
-/*larger then allowed*/
+|Code=border-radius: 100%; /* larger then allowed */
 }}
 }}
 {{Notes_Section
