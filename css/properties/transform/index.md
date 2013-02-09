@@ -49,6 +49,18 @@ If the property has a value different than none, a stacking context will be crea
 |Data Type=skewY(0.25turn)
 |Description=Specifies a 2D skew transformation along the Y axis by the given [[css/units/angle|angle]].
 }}
+{{CSS Property Value
+|Data Type=rotateX(20deg)
+|Description=
+}}
+{{CSS Property Value
+|Data Type=rotateY(20deg)
+|Description=
+}}
+{{CSS Property Value
+|Data Type=rotateZ(20deg)
+|Description=
+}}
 }}
 [[file:transform_example.png|alt Example showing translate, scale and rotate step by step]]
 {{Examples_Section
