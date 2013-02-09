@@ -56,24 +56,31 @@ Also, web resources can be specified to only be loaded from the network. This is
 {{{!}}
 ! Section
 ! Description
-! Example
 {{!}}-
 {{!}} CACHE
 {{!}} This is the default section for entries. Files listed under this header (or immediately after the CACHE MANIFEST) will be explicitly cached after they're downloaded for the first time.
-{{!}} CACHE
-/logo.png
 {{!}}-
 {{!}} NETWORK
 {{!}} Files listed under this section are white-listed resources that require a connection to the server. All requests to these resources bypass the cache, even if the user is offline. Wildcards may be used.
-{{!}} xxx
 {{!}}-
 {{!}} FALLBACK
 {{!}} An optional section specifying fallback pages if a resource is inaccessible. The first URI is the resource, the second is the fallback. Both URIs must be relative and from the same origin as the manifest file. Wildcards may be used.
-{{!}} xxx
 {{!}}}
 
 '''ApplicationCache''' functionality is independent of HTTP caching headers.
 The manifest file implicitly includes itself as a page to be cached. It also needs to have the same domain of origin as the page that contains it.
+|Notes==== Limitations ===
+A browser can not allocate unlimited disk space for ressources that should be cached. Especially when it comes down to cashing big media files like videos, you should check if the users Browser is able to store that file. There are differences in the browser implementations, as shown below: 
+
+{{{!}}
+! Browser
+! Max. space per item
+! max. space per page
+{{!}}-
+{{!}} Chrome
+{{!}} 32Mb
+{{!}} 260Mb
+{{!}}}
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
