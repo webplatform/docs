@@ -13,7 +13,7 @@ Given a box, the shadow style is represented as follows:
 |Applies to=All elements
 |Inherited=No
 |Media=visual
-|Computed value=any <length> made absolute; any specified color computed; otherwise as specified
+|Computed value=any [[css/data_types/length|length]] made absolute; any specified color computed; otherwise as specified
 |Animatable=No
 |CSS object model property=boxShadow
 |CSS percentages=???
