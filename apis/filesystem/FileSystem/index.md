@@ -5,7 +5,7 @@
 {{Summary_Section|In the File System API, a FileSystem object represents a file system. The object is the argument of a successful callback of requestFileSystem().}}
 {{API_Object}}
 {{Examples_Section
-|Not_required=Yes
+|Not_required=No
 |Examples=
 }}
 {{Notes_Section}}
