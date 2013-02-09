@@ -230,11 +230,11 @@ The W3C is one of the primary standards bodies on the internet. Their Web Access
 
 Since then, W3C WAI has developed a new set of guidelines named Web Content Accessibility Guidelines 2.0 (WCAG2.0), which was published in December 2008 and which succeeds version 1.0.
 
-WCAG 2.0 aims to be more technology-agnostic than WCAG 1.0, meaning it can be applied to any web-based technique, be it HTML, CSS, Flash, PDF, or others. Since the standard deals with concepts about accessibility rather than concrete technical details it’s important to pay attension to the surrounding documents to the standard. The [www.w3.org—WCAG20 “standard” document] of WCAG 2.0 will provide the understanding but the [www.w3.org—WCAG20-TECHS “techniques” document] provides solid implementable pieces of information for the developer. This is broken up into “general” techniques (technology ambiguous) and specifics for individual W3C technologies. The W3C doesn’t write documents for proprietary technologies so you’ll have to find techniques for technologies like Flash, PDF or Silverlight from other sources.
+WCAG 2.0 aims to be more technology-agnostic than WCAG 1.0, meaning it can be applied to any web-based technique, be it HTML, CSS, Flash, PDF, or others. Since the standard deals with concepts about accessibility rather than concrete technical details it’s important to pay attension to the surrounding documents to the standard. The [http://www.w3.org/TR/WCAG20 “standard” document] of WCAG 2.0 will provide the understanding but the [http://www.w3.org/TR/WCAG20-TECHS/ “techniques” document] provides solid implementable pieces of information for the developer. This is broken up into “general” techniques (technology ambiguous) and specifics for individual W3C technologies. The W3C doesn’t write documents for proprietary technologies but provides links to techniques for technologies like Flash, PDF or Silverlight from other sources such as Adobe and Microsoft.
 
 It’s important to note that web sites aren’t expected to fulfill all of these requirements. The technology a user has should do some of the work too. For example it is expected that a screen reader will read pages to people who need it, rather than every web site providing an audio version of the content. However, the web site is expected to provide pages that can be read using common screen reading technology in order to make this possible. This difference is important, as it’s the difference between a web site with an “accessibility widgets” (like a button to make the fonts a bit bigger) and a web page that will work in a multitude of different situations (eg varying browsers and devices that would be impossible to anticipate).
 
-This is why the WCAG standard was designed to be part of a suite of three recommendations. Another recommendation covers what is called “User Agents”: the User Agent Accessibility Guidelines – UAAG, currently at version 1 http://www.w3.org/TR/UAAG10/, but version 2 is in the making http://www.w3.org/TR/UAAG20/. UAAG describes how browsers and any extra technology people might need to use the web (like screen readers) deal with web content. The third one, the Authoring Tool Accessibility Guidelines 2.0 (ATAG 2.0 http://www.w3.org/TR/ATAG20/) covers authoring tools or content management systems—it aims to try to make these tools do more of the work of making pages accessible. Only if those three Guidelines, WCAG, UAAG, and ATAG play together, an accessible experience for people with disabilities is guaranteed.
+This is why the WCAG standard was designed to be part of a suite of three recommendations. Another recommendation covers what is called “User Agents”: the User Agent Accessibility Guidelines – UAAG, currently at [http://www.w3.org/TR/UAAG10/ version 1], but [ http://www.w3.org/TR/UAAG20/ version 2] is in the making. UAAG describes how browsers and any extra technology people might need to use the web (like screen readers) deal with web content. The third one, the Authoring Tool Accessibility Guidelines 2.0 ([http://www.w3.org/TR/ATAG20/ ATAG 2.0]) covers authoring tools or content management systems—it aims to try to make these tools do more of the work of making pages accessible. Only if those three Guidelines, WCAG, UAAG, and ATAG play together, an accessible experience for people with disabilities is guaranteed.
 
 WCAG 2.0 builds on WCAG 1.0, because the fundamental issues of web accessibility remained the same, though there are some differences in the approach and requirements between WCAG 1.0 and WCAG 2.0.
 
@@ -246,17 +246,13 @@ Probably the most important point from a developers perspective: everything in W
 
 As an example, WCAG 2.0 gives you clear guidance on how to measure sufficient contrast of your design by providing an algorithm and testable statements in form of minimum contrast ratios that can be tested against with tools which are readily available free of charge.
 
-„1.4.3 Contrast (Minimum): 
-
+<blockquote>„1.4.3 Contrast (Minimum): 
 The visual presentation of text and images of text has a contrast ratio of at least 4.5:1, except for the following: (Level AA)
-
 Large Text: Large-scale text and images of large-scale text have a contrast ratio of at least 3:1;
-
 Incidental: Text or images of text that are part of an inactive user interface component, that are pure decoration, that are not visible to anyone, or that are part of a picture that contains significant other visual content, have no contrast requirement.
+Logotypes: Text that is part of a logo or brand name has no minimum contrast requirement.“</blockquote>
 
-Logotypes: Text that is part of a logo or brand name has no minimum contrast requirement.“
-
-WCAG 2 then gives a complete picture on the intents of this particular criterion (see http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html), it provides additional information on how to design sites that meet the requirements (see http://www.w3.org/TR/2010/NOTE-WCAG20-TECHS-20101014/G18) and on how to test that the requirement is actually met (for a list of tools see http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-con trast-contrast.html#visual-audio-contrast-contrast-resourc es-head).
+WCAG 2 then gives a complete picture on the [http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html intents of this particular criterion], it provides additional [http://www.w3.org/TR/2010/NOTE-WCAG20-TECHS-20101014/G18 information on how to design sites that meet the requirements] and on how to test that the requirement is actually met ([http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-con trast-contrast.html#visual-audio-contrast-contrast-resources-head here's a list of tools]).
 
 The same structure and basic ideas are true for virtually all of WCAG 2, so let's have a look at them.
 
@@ -264,55 +260,54 @@ The same structure and basic ideas are true for virtually all of WCAG 2, so let'
 
 There are four basic Principles: Perceivable, Operable, Understandable, Robust - mnemonic POUR.
 
-Perceivable 
+<dl>
+	<dt>Perceivable </dt>
 
-Information and user interface components must be presentable to users in ways they can perceive
+		<dd>Information and user interface components must be presentable to users in ways they can perceive</dd>
 
-Operable
+	<dt>Operable</dt>
 
-User interface components and navigation must be operable
+		<dd>User interface components and navigation must be operable</dd>
 
-Understandable
+	<dt>Understandable</dt>
 
-Information and the operation of user interface must be understandable
+		<dd>Information and the operation of user interface must be understandable</dd>
 
-Robust
+	<dt>Robust</dt>
 
-Content must be robust enough that it can be interpreted reliably by a wide variety of user agents, including assistive technologies
+		<dd>Content must be robust enough that it can be interpreted reliably by a wide variety of user agents, including assistive technologies</dd>
+</dl>
 
 Every principle comes with a list of guidelines which address these principles. There are a total of 12 guidelines. These guidelines do not discuss the finer details of implementations, but only set goals that must be achieved.
 
-Perceivable (4)
+<dl>
+	<dt>Perceivable (4)</dt>
+		<dd>Provide text alternatives for non-text content.</dd>
+		<dd>Provide captions and other alternatives for multimedia.</dd>
+		<dd>Create content that can be presented in different ways without losing meaning.</dd>
+		<dd>Make it easier for users to see and hear content.</dd>
+</dl>
 
-Provide text alternatives for non-text content.
+<dl>
+	<dt>Operable (4)</dt>
 
-Provide captions and other alternatives for multimedia.
+		<dd>Make all functionality available from a keyboard.</dd>
+		<dd>Give users enough time to read and use content.</dd>
+		<dd>Do not use content that causes seizures.</dd>
+		<dd>Help users navigate and find content.</dd>
+</dl>
 
-Create content that can be presented in different ways without losing meaning.
+<dl>
+	<dt>Understandable (3)</dt>
+		<dd>Make text readable and understandable.</dd>
+		<dd>Make content appear and operate in predictable ways.</dd>
+		<dd>Help users avoid and correct mistakes.</dd>
+</dl>
 
-Make it easier for users to see and hear content.
-
-Operable (4)
-
-Make all functionality available from a keyboard.
-
-Give users enough time to read and use content.
-
-Do not use content that causes seizures.
-
-Help users navigate and find content.
-
-Understandable (3)
-
-Make text readable and understandable.
-
-Make content appear and operate in predictable ways.
-
-Help users avoid and correct mistakes.
-
-Robust (1)
-
-Maximize compatibility with current and future user tools.
+<dl>
+	<dt>Robust (1)</dt>
+		<dd>Maximize compatibility with current and future user tools.</dd>
+</dl>
 
 Then there's the success criteria. Under each of the 12 guidelines, there is a total of 61 success criteria which describe specifically what must be done in order to conform to WCAG 2 at a certain level (A, AA, AAA).
 
@@ -327,10 +322,7 @@ Principle: Perceivable
 Guideline 1. Provide equivalent alternatives to auditory and visual content.
 
 1.1 Provide a text equivalent for every non-text element.
-
-success criteria 1.1.1 Non-text Content: All non-text content that is presented to the user has a text alternative 
-
-that serves the equivalent purpose
+Success criteria 1.1.1 Non-text Content: All non-text content that is presented to the user has a text alternative that serves the equivalent purpose
 
 Technique G94: Providing short text alternative for non-text content that serves the same purpose and presents the same information as the non-text content [...] Examples: A search button uses an image of a magnifying glass. The text alternative is "search" and not "magnifying glass".
 
@@ -352,31 +344,20 @@ These documents of different / growing complexity can be then be fed into the de
 
 The Techniques (there are literally hundreds of them, see http://www.w3.org/TR/WCAG-TECHS/complete.html) are split up in sufficient techniques and advisory techniques that may or may not enhance accessibility, but did not qualify as sufficient techniques (n.b.: when there are multiple techniques connected by "AND" then all of the techniques must be used!)
 
-Sufficient & Advisory Techniques
+====== Sufficient & Advisory Techniques ======
 
-General Techniques
-
-HTML and XHTML Techniques
-
-CSS Techniques
-
-Client-side Scripting Techniques
-
-Server-side Scripting Techniques
-
-Plain Text Techniques
-
-ARIA Techniques
-
-SMIL Techniques 
-
-Flash Techniques
-
-Silverlight Techniques
-
-PDF Techniques
-
-Common Failures
+* [General Techniques http://www.w3.org/TR/WCAG20-TECHS/general.html]
+* [HTML and XHTML Techniques http://www.w3.org/TR/WCAG20-TECHS/html.html]
+* [CSS Techniques http://www.w3.org/TR/WCAG20-TECHS/css.html]
+* [Client-side Scripting Techniques http://www.w3.org/TR/WCAG20-TECHS/client-side-script.html]
+* [Server-side Scripting Techniques http://www.w3.org/TR/WCAG20-TECHS/server-side-script.html]
+* [Plain Text Techniques http://www.w3.org/TR/WCAG20-TECHS/text.html]
+* [ARIA Techniques http://www.w3.org/TR/WCAG20-TECHS/aria.html]
+* [SMIL Techniques  http://www.w3.org/TR/WCAG20-TECHS/smil.html]
+* [Flash Techniques http://www.w3.org/TR/WCAG20-TECHS/flash.html]
+* [Silverlight Techniques http://www.w3.org/TR/WCAG20-TECHS/silverlight.html]
+* [PDF Techniques http://www.w3.org/TR/WCAG20-TECHS/pdf.html]
+* [Common Failures http://www.w3.org/TR/WCAG20-TECHS/failures.html]
 
 ==== What are the differences between WCAG 1 and WCAG 2? ====
 
@@ -407,23 +388,17 @@ WCAG 1 was largely concerned with color - up to 7% of the male population of thi
 3.3.3 Error Suggestion: If an input error is automatically detected and suggestions for correction are known, then the suggestions are provided to the user, unless it would jeopardize the security or purpose of the content.
 
 3.3.4 Error Prevention (Legal, Financial, Data): For Web pages that cause legal commitments or financial transactions for the user to occur, that modify or delete user-controllable data in data storage systems, or that submit user test responses, at least one of the following is true:
-
-1. Reversible: Submissions are reversible.
-
-2. Checked: Data entered by the user is checked for input errors and the user is provided an opportunity to correct them.
-
-3. Confirmed: A mechanism is available for reviewing, confirming, and correcting information before finalizing the submission.
+# Reversible: Submissions are reversible.
+# Checked: Data entered by the user is checked for input errors and the user is provided an opportunity to correct them.
+# Confirmed: A mechanism is available for reviewing, confirming, and correcting information before finalizing the submission.
 
 ===== New Level AAA requirements in WCAG 2.0 ===== 
 
 Additionally there are various new requirements at Level AAA, most of which may be beyond the scope of a web project, as they revolve around the use of audio, video, sign language etc. On the other hand there are a few success criteria that may be easy to implement with a few lines of code or with a slightly different approach in design, such as:
 
 1.4.8 Visual Presentation: For the visual presentation of blocks of text, a mechanism is available to achieve the following: […]
-
 2. Width is no more than 80 characters or glyphs (40 if CJK).
-
 3. Text is not justified (aligned to both the left and the right margins).
-
 4. Line spacing (leading) is at least space-and-a-half within paragraphs, and paragraph spacing is at least 1.5 times larger than the line spacing.
 
 1.4.9 Images of Text (No Exception): Images of text are only used for pure decoration or where a particular presentation of text is essential to the information being conveyed.
@@ -441,7 +416,6 @@ Additionally there are various new requirements at Level AAA, most of which may 
 3.3.5 Help: Context-sensitive help is available.
 
 Other AAA criteria may be more difficult to achieve, as they could have massive implications for the backend processes of the application, but are still nevertheless desirable from a users point of view:
-
 (Please note that Level AAA conformance may only be claimed if all AAA success criterions are met, which is something the W3C itself doesn't recommend to aim at)
 
 2.2.3 No Timing: Timing is not an essential part of the event or activity presented by the content, except for non-interactive synchronized media and real-time events.
@@ -449,12 +423,9 @@ Other AAA criteria may be more difficult to achieve, as they could have massive 
 2.2.5 Re-authenticating: When an authenticated session expires, the user can continue the activity without loss of data after re-authenticating.
 
 3.3.6 Error Prevention (All): For Web pages that require the user to submit information, at least one of the following is true: (Level AAA) 
-
-Reversible: Submissions are reversible. 
-
-Checked: Data entered by the user is checked for input errors and the user is provided an opportunity to correct them. 
-
-Confirmed: A mechanism is available for reviewing, confirming, and correcting information before finalizing the submission.
+* Reversible: Submissions are reversible. 
+* Checked: Data entered by the user is checked for input errors and the user is provided an opportunity to correct them. 
+* Confirmed: A mechanism is available for reviewing, confirming, and correcting information before finalizing the submission.
 
 ===== Guidelines that didn't make it – deprecated criteria from WCAG 1.0 ===== 
 
@@ -462,9 +433,11 @@ Some outdated requirements from WCAG 1.0 are not required in WCAG 2.0 any longer
 
 One example for outdated advice is checkpoint 10.5 from WCAG 1.0, which is also no longer a requirement in WCAG 2.0: „Until user agents (including assistive technologies) render adjacent links distinctly, include non-link, printable characters (surrounded by spaces) between adjacent links."
 
-Some of the Level AAA success criteria in guideline 3.1 as well as the Advisory Techniques for guideline 3.1 aid in making content more understandable, but there is no direct equivalent to this guideline. WCAG 2 does give some guidance in 3.1.5 – Reading Level: „When text requires reading ability more advanced than the lower secondary education level after removal of proper names and titles, supplemental content, or a version that does not require reading ability more advanced than the lower secondary education level, is available.“
+Some of the Level AAA success criteria in guideline 3.1 as well as the Advisory Techniques for guideline 3.1 aid in making content more understandable, but there is no direct equivalent to this guideline. WCAG 2 does give some guidance in [http://www.w3.org/TR/UNDERSTANDING-WCAG20/meaning-supplements.html 3.1.5 – Reading Level]: 
 
-(see http://www.w3.org/TR/UNDERSTANDING-WCAG20/meaning-supplements.html) What should be the necessary reading level needs to be discussed. Generally, all of the text on any given web site (including help text, labels in forms etc.) should be checked for comprehensiveness and, if necessary edited in order to be as understandable as possible. Examples for easy to read content and further discussion of this topic can be found at http://www.plainenglish.co.uk/
+„When text requires reading ability more advanced than the lower secondary education level after removal of proper names and titles, supplemental content, or a version that does not require reading ability more advanced than the lower secondary education level, is available.“
+
+What should be the necessary reading level needs to be discussed. Generally, all of the text on any given web site (including help text, labels in forms etc.) should be checked for comprehensiveness and, if necessary edited in order to be as understandable as possible. Examples for easy to read content and further discussion of this topic can be found at [http://www.plainenglish.co.uk/ plainenglish.co.uk].
 
 === Section 508 ===
 [http://section508.gov/ Section 508] is an extension to the American Workforce Rehabilitation Act of 1973. The version of Section 508 that became law in 1998 created a process that must be followed during US Federal government procurement. This means that all government agencies in the USA that are funded by federal money must comply with the process and guidelines set down in Section 508. These guidelines cover both web accessiblity and other accessibility issues relating to computers and electronic communication. Whatever else you might have heard, there is no federal law mandating the use of Section 508 beyond the organisations described above. However, some US states and companies use Section 508 to define “accessibility” for their own procurement processes.
