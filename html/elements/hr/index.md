@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|The '''hr''' (for horizontal rule) element (&lt;hr&gt;) represents a paragraph-level thematic break in text.}}
+{{Summary_Section|The '''hr''' element (&lt;hr&gt;) represents a paragraph-level thematic break in text. ("HR" stands for "horizontal rule", but browsers are not required to use a horizontal rule to represent this element.)}}
 {{Markup_Element
 |DOM_interface=dom/HTMLHRElement
 |Content=The '''hr''' (for horizontal rule) element (&lt;hr&gt;) represents a paragraph-level thematic break in text.
@@ -52,6 +52,7 @@ However, the &lt;hr&gt;  tag may still be displayed as a horizontal rule in visu
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
 |Chrome_version=0.2
