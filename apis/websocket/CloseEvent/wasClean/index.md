@@ -6,7 +6,7 @@
 {{API_Name}}
 {{Summary_Section|Indicates whether or not the connection was cleanly closed.}}
 {{API_Object_Property
-|Property_applies_to=apis/websockets/CloseEvent
+|Property_applies_to=apis/websocket/CloseEvent
 |Read_only=No
 |Javascript_data_type=Boolean
 }}
