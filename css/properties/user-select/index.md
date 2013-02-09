@@ -1,7 +1,6 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Content=Incomplete, Compatibility Incomplete
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -41,7 +40,7 @@
 }}
 }}
 {{Notes_Section
-|Usage=Needs vendor prefixes. 
+|Usage=Needs vendor prefixes.
 |Notes=Also works on mobile devices to suppress selection by touch and hold.
 }}
 {{Related_Specifications_Section
@@ -50,7 +49,46 @@
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
-|Desktop_rows=
+|Desktop_rows={{Compatibility Table Desktop Row
+|Feature=Basic Support
+|Chrome_supported=Unknown
+|Chrome_version=
+|Chrome_prefixed_supported=Yes
+|Chrome_prefixed_version=1
+|Firefox_supported=Unknown
+|Firefox_version=
+|Firefox_prefixed_supported=Yes
+|Internet_explorer_supported=Unknown
+|Internet_explorer_version=
+|Internet_explorer_prefixed_supported=Yes
+|Opera_supported=No
+|Opera_version=
+|Opera_prefixed_supported=No
+|Opera_prefixed_version=
+|Safari_supported=Unknown
+|Safari_version=
+|Safari_prefixed_supported=Yes
+}}{{Compatibility Table Desktop Row
+|Feature=element
+|Chrome_supported=Unknown
+|Chrome_version=
+|Chrome_prefixed_supported=No
+|Chrome_prefixed_version=
+|Firefox_supported=Unknown
+|Firefox_version=
+|Firefox_prefixed_supported=Yes
+|Internet_explorer_supported=Unknown
+|Internet_explorer_version=
+|Internet_explorer_prefixed_supported=Yes
+|Opera_supported=Unknown
+|Opera_version=
+|Opera_prefixed_supported=No
+|Opera_prefixed_version=
+|Safari_supported=Unknown
+|Safari_version=
+|Safari_prefixed_supported=No
+|Safari_prefixed_version=
+}}
 |Mobile_rows=
 |Notes_rows=
 }}
