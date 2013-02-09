@@ -5,7 +5,8 @@
 {{Summary_Section|Blurs an element, for use by the
 [[css/properties/filter|'''filter''']] property.  Accepts a distance
 measurement within which pixels are randomly scattered. A value of 0
-leaves the image as is.}}
+leaves the image as is.
+}}
 {{CSS_Function
 |Content=This CSS property value is reflected in the following image:
 
@@ -20,7 +21,27 @@ possibly affecting the ability of background content to show through:
 }}
 {{Examples_Section
 |Not_required=Yes
-|Examples=
+|Examples={{Single Example
+|Description=The following example draws a blurred flag
+|Code=<!DOCTYPE html>
+<html>
+  <head>
+    <title>Blur example</title>
+    <style>
+      .foo {
+        width: 150px;
+        height: 150px;
+        background: -webkit-linear-gradient(red 50px, white 50px, white 100px, blue 100px);
+        -webkit-filter: blur(10px);
+      }
+   </style>
+  </head>
+  <body>
+    <div class="foo"></div>
+  </body>
+</html>
+|LiveURL=http://codepen.io/pverbeek/pen/yiKBv
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
