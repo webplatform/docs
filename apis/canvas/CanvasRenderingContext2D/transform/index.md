@@ -50,7 +50,122 @@ If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRES
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Description=This example shows visually how the transformation matrix works.
+|Code=
+<html>
+<head>
+	<title>Transformation Matrix Demo</title>
+
+<style>
+#sliders {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+#slA,#slB,#slC,#slD,#slE,#slF {
+	display: block;
+	position: relative;
+	top: 1em;
+	z-index: 100;
+	margin-bottom: 2em;
+}
+</style>
+</head>
+
+<body>
+<canvas id="canvas" width="800" height="600"></canvas>
+<div id="sliders">
+<div id="slA"><input type="range" id="sliderA" min="-100" max="100" value="100"></input>a:<span id="aValue">0</span></div>
+<div id="slB"><input type="range" id="sliderB" min="-100" max="100" value="0">	</input>b:<span id="bValue">0</span></div>
+<div id="slC"><input type="range" id="sliderC" min="-100" max="100" value="0">	</input>c:<span id="cValue">0</span></div>
+<div id="slD"><input type="range" id="sliderD" min="-100" max="100" value="100"></input>d:<span id="dValue">0</span></div>
+<div id="slE"><input type="range" id="sliderE" min="-100" max="100" value="0">	</input>e:<span id="eValue">0</span></div>
+<div id="slF"><input type="range" id="sliderF" min="-100" max="100" value="0">	</input>f:<span id="fValue">0</span></div>
+</div>
+
+<script type="text/javascript">
+
+var canvas = document.getElementById("canvas");
+var ctx = canvas.getContext('2d');
+
+// get the sliders
+var sliderA = document.querySelector('#sliderA');
+var sliderB = document.querySelector('#sliderB');
+var sliderC = document.querySelector('#sliderC');
+var sliderD = document.querySelector('#sliderD');
+var sliderE = document.querySelector('#sliderE');
+var sliderF = document.querySelector('#sliderF');
+
+var a, b, c, d, e, f;
+
+function mapSliderValue(v) {
+	return v / 100;
+}
+
+function sliderDidChange() {
+	// get values
+	a = mapSliderValue(sliderA.value);
+	b = mapSliderValue(sliderB.value);
+	c = mapSliderValue(sliderC.value);
+	d = mapSliderValue(sliderD.value);
+	e = sliderE.value;
+	f = sliderF.value;
+	// show values
+	document.querySelector('#aValue').innerText = a;
+	document.querySelector('#bValue').innerText = b;
+	document.querySelector('#cValue').innerText = c;
+	document.querySelector('#dValue').innerText = d;
+	document.querySelector('#eValue').innerText = e;
+	document.querySelector('#fValue').innerText = f;
+	// redraw
+	draw();
+}
+
+function draw() {
+	// save the current context
+	ctx.save();
+	// clear background
+	ctx.fillStyle = "lightsteelblue";
+	ctx.fillRect(0,0,canvas.width,canvas.height);
+	// apply transform matrix
+	ctx.setTransform(a, b, c, d, e, f);
+	// draw transformed text
+	ctx.fillStyle = "navy";
+	ctx.fillText("Hello World!", 0, 0);
+	// restore the context
+	ctx.restore();
+}
+
+function setup() {
+	ctx.font = "5em Arial";
+	// set default values for tx & ty
+	sliderE.min = 0;
+	sliderE.max = canvas.width;
+	sliderE.value = (canvas.width / 2) - (ctx.measureText("Hello World!").width / 2);
+	sliderF.min = 0;
+	sliderF.max = canvas.width;
+	sliderF.value = canvas.height / 2;
+	// add Event listeners
+	sliderA.addEventListener("change",sliderDidChange,false);
+	sliderB.addEventListener("change",sliderDidChange,false);
+	sliderC.addEventListener("change",sliderDidChange,false);
+	sliderD.addEventListener("change",sliderDidChange,false);
+	sliderE.addEventListener("change",sliderDidChange,false);
+	sliderF.addEventListener("change",sliderDidChange,false);
+	sliderDidChange();
+}
+
+setup();
+
+</script>
+
+</body>
+</html>
+
+|LiveURL=http://audiocommander.github.com/transformMatrixDemo
+}}
 }}
 {{Notes_Section
 |Notes=The parameters of ''transform'' represent a matrix. This matrix is multiplied with the transformation matrix of the current context.
