@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|The event sent by the WebSocket object when the connection closes.}}
+{{Summary_Section|When the WebSocket connection is closed, possibly cleanly, the user agent must create an [[apis/websocket/events/onclose{{!}}event]] that uses the CloseEvent interface, with the event name close, which does not bubble, is not cancelable, has no default action, whose [[apis/websocket/CloseEvent/wasClean{{!}}wasClean]] attribute is set to true if the connection closed cleanly and false otherwise, whose code attribute is set to the WebSocket connection close code, and whose [[apis/websocket/CloseEvent/reason{{!}}reason]] attribute is set to the WebSocket connection close reason; and queue a task to first change the [[apis/websocket/properties/readyState{{!}}readyState]] attribute's value to CLOSED (3), and then dispatch the event at the [[apis/websocket/objects/WebSocket{{!}}WebSocket object]].}}
 {{API_Object}}
 {{Examples_Section
 |Not_required=No
