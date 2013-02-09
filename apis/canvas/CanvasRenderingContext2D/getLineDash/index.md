@@ -12,7 +12,7 @@
 |Return_value_description=An array of integers that specifies the length of each "on" and "off" segment.
 }}
 {{Examples_Section
-|Not_required=Yes
+|Not_required=No
 |Examples=
 }}
 {{Notes_Section}}
