@@ -5,7 +5,7 @@
 {{Summary_Section|This interface represents the position and orientation of the person listening to the audio scene. All [[apis/webaudio/PannerNode|'''PannerNode''']] objects spatialize in relation to the [[apis/webaudio/AudioContext|'''AudioContext''']]'s listener.}}
 {{API_Object}}
 {{Examples_Section
-|Not_required=Yes
+|Not_required=No
 |Examples=
 }}
 {{Notes_Section}}
