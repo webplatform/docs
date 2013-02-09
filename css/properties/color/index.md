@@ -14,7 +14,7 @@
 |CSS object model property=color
 |Values={{CSS Property Value
 |Data Type=color
-|Description=[[css/color/value|css color value]]
+|Description=[[css/color|CSS color value]]
 }}
 }}
 {{Examples_Section
