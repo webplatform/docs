@@ -32,6 +32,25 @@
 |Code=&lt;img src{{=}}"sphere.jpg" style{{=}}"float: left;"&gt;
 &lt;img src{{=}}"cone.jpg" style{{=}}"float: right;"&gt;
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/float_h.htm
+}}{{Single Example
+|Language=HTML
+|Description=Let's assume the following markup.
+|Code=&lt;div class="parent"&gt;
+	&lt;div class="floated"&gt;&lt;/div&gt;
+	&lt;p&lt;…&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&lt;…&lt;/p&gt;
+
+|LiveURL=http://dabblet.com/gist/4744777
+}}{{Single Example
+|Language=CSS
+|Description=The element with the class <code>floated</code> flows to the left of the page while the content within the <code>&lt;p&gt;</code>-element flows around the floated content.
+|Code=.floated {
+	float: left;
+	width: 150px;
+	height: 170px;
+	margin-right: 20px;
+}
 }}
 }}
 {{Notes_Section
