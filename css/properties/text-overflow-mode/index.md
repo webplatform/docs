@@ -1,7 +1,5 @@
 {{Page_Title}}
-{{Flags
-|Content=Examples Needed
-}}
+{{Flags}}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|The text-overflow-mode CSS property controls the presence and position of the hint on overflowed content that is not displayed is signaled to the users. The constitution of the hint is controlled with CSS property [[css/properties/text-overflow-ellipsis|text-overflow-ellipsis]]. Shorthand property is [[css/properties/text-overflow|text-overflow]].}}
@@ -26,7 +24,41 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Code=&lt;!-- example showing text-overflow shorthand property --&gt;
+&lt;div class=&quot;overflowed overflowed-clip&quot;&gt;
+	&lt;p&gt;This is an example text showing nothing interesting but the truncated content via text-overflow shorthand property.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;overflowed overflowed-ellipsis&quot;&gt;
+	&lt;p&gt;This is an example text showing nothing interesting but the truncated content via text-overflow shorthand property.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;overflowed overflowed-ellipsis-word&quot;&gt;
+	&lt;p&gt;This is an example text showing nothing interesting but the truncated content via text-overflow shorthand property.&lt;/p&gt;
+&lt;/div&gt;
+|LiveURL=http://dabblet.com/gist/4744976
+}}{{Single Example
+|Language=CSS
+|Code=.overflowed > p{
+	width: 10em;
+	height: 5em;
+	white-space: nowrap; 
+	overflow: hidden;
+}
+
+.overflowed-clip {
+	text-overflow-mode: clip;
+}
+
+.overflowed-ellipsis > p {
+	text-overflow-mode: ellipsis;
+}
+
+.overflowed-ellipsis-word > p {
+	text-overflow-mode: ellipsis-word;
+}
+|LiveURL=http://dabblet.com/gist/4744976
+}}
 }}
 {{Notes_Section
 |Notes=This property only applies to text overflow in the inline direction (horizontal, in normal Western text). Inline overflow occurs when the text in a line overflows the available width without a breaking opportunity. To force overflow to occur and ellipses to be applied, the author must apply the nowrap value to the white-space property on the element, or wrap the content in a <NOBR> tag. If there is no breaking opportunity (for example, the width is narrow or there is a long word that does not break well), then overflow may occur without nowrap being applied. This property on the element must be set to something other than visible, the default, in order for ellipsis to be rendered. The best choice is to set overflow to hidden. Setting overflow to scroll or auto will also work, but will show scrollbars. The hidden text can be selected by selecting the ellipses. When selected, the ellipses will disappear and be replaced by the text to the extent of the layout area. This property offers an efficient alternative to building ellipses in Dynamic HTML (DHTML). As ellipses may be rendered many times on a single page, using this property can significantly speed up performance.
