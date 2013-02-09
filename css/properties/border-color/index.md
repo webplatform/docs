@@ -1,8 +1,5 @@
 {{Page_Title}}
-{{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
+{{Flags}}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|The CSS border-color property sets the color of an element's four borders. This property can have from one to four values.}}
@@ -17,7 +14,6 @@
 |Values={{CSS Property Value
 |Data Type=<color>
 |Description=Specified color is applied to all four edges
-
 }}{{CSS Property Value
 |Data Type=<horizontal> <vertical>
 |Description=When two colors are specified, they are applied to horizontal and vertical  borders respectively.
