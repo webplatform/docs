@@ -55,7 +55,9 @@ As of Microsoft Internet Explorer 5.5, this property applies to inline elements
 
 Element layout is set by providing a value for the [[css/properties/height|'''height''']] property or the [[css/properties/width|'''width''']] property.
 |Import_Notes====Syntax===
-padding:   [ <length>| <percentage>] {1,4}
+<code>
+padding: (padding-width){1,4} {{!}} inherit
+</coode>
 }}
 {{Related_Specifications_Section
 |Specifications=
@@ -68,7 +70,7 @@ padding:   [ <length>| <percentage>] {1,4}
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=CSS Layout, Box Model, Transistions
+|Topic_clusters=Box Model, Transistions
 }}
 {{Topics|CSS}}
 {{External_Attribution
