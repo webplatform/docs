@@ -9,7 +9,13 @@
 {{API_Object}}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=The following function can be used to detect WebSocket support. 
+|Code=function webSocketSupported() {
+  return "WebSocket" in window;
+}
+}}
 }}
 {{Notes_Section
 |Notes====Remarks===
