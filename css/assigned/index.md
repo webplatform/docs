@@ -4,7 +4,7 @@ CSS properties
 
 * background-size - pascal - DONE, NEEDS REVIEW
 * cursor - kevin - FINISHED, NEEDS REVIEW
-* letter-spacing - kevin
+* letter-spacing - kevin - FINISHED, NEEDS REVIEW
 * font - vivienne
 * font-* - vivienne (font-variant, font-style, font-size, font-size-adjust)
 * font-style - vivienne - DONE, NEEDS REVIEW
