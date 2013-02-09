@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The '''email''' type of the [[html/elements/input|&lt;input&gt;]] element represents field for entering an e-mail address.}}
+{{Summary_Section|The '''email''' type of the [[html/elements/input|&lt;input&gt;]] element represents a field for entering an e-mail address.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLInputElement
 }}
