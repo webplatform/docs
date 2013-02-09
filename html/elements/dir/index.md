@@ -3,11 +3,11 @@
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status}}
+{{Standardization_Status|Deprecated}}
 {{API_Name}}
-{{Summary_Section|The tag is used to list directory titles.
-The &lt;dir&gt; tag is not supported in HTML5. Use CSS instead.
-The &lt;dir&gt; element is deprecated in HTML 4.01.
+{{Summary_Section|The '''dir''' element (&lt;dir&gt;) is used to list directory titles.
+
+The &lt;dir&gt; element is deprecated in HTML 4.01, and obsolete in HTML5. Use CSS instead.
 }}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
