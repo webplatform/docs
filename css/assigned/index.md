@@ -40,9 +40,9 @@ CSS properties
 * list-style-* - florian
 * border - marcin,kamila - DONE, NEEDS REVIEW
 * border-[bottom|right|left] - kamila - DONE, NEEDS REVIEW
-* border-top - marcin
-* border-style - marcin
-* border-color - kamila
+* border-top - marcin - DONE, NEEDS REVIEW
+* border-style - marcin - DONE, NEEDS REVIEW
+* border-color - kamila - DONE, NEEDS REVIEW
 * border-radius - udo
 * flex - rod
 * display: flex - rod
