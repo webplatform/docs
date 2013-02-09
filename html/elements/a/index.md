@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Used to define a hyperlink (a link) to any content, may be another page, another section of the same page, an image/file or it may invoke a JavaScript function.}}
+{{Summary_Section|The '''a''' element (&lt;a&gt;) defines a hyperlink (a link) to any content, may be another page, another section of the same page, an image/file or it may invoke a JavaScript function.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLAnchorElement
 }}
@@ -93,11 +93,9 @@ Both text and images can be included within an anchor. An image that is an ancho
 |Android_prefixed_supported=Unknown
 |Android_prefixed_version=
 |Blackberry_supported=Yes
-|Blackberry_version=
 |Blackberry_prefixed_supported=Unknown
 |Blackberry_prefixed_version=
 |Chrome_mobile_supported=Yes
-|Chrome_mobile_version=
 |Chrome_mobile_prefixed_supported=Unknown
 |Chrome_mobile_prefixed_version=
 |Firefox_mobile_supported=Yes
@@ -110,7 +108,6 @@ Both text and images can be included within an anchor. An image that is an ancho
 |Opera_mobile_prefixed_supported=Unknown
 |Opera_mobile_prefixed_version=
 |Opera_mini_supported=Yes
-|Opera_mini_version=
 |Opera_mini_prefixed_supported=Unknown
 |Opera_mini_prefixed_version=
 |Safari_mobile_supported=Yes
