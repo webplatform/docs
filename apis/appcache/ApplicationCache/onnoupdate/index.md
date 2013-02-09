@@ -11,7 +11,13 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=If the currently-cached copy of the manifest is up-to-date, the browser sends a noupdate event to the applicationCache object, and the update process is complete. Note that if you change any cached resources on the server, you must also change the manifest file itself, so that the browser knows it needs to fetch all the resources again.
+|Code=window.applicationCache.addEventListener('noupdate',function () {
+  console.log('The manifest file is up to date');
+}, false);
+}}
 }}
 {{Notes_Section
 |Notes=If there is more than one event, the '''onupdate''' event will be the last one in the sequence.
