@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|The '''body''' (&lt;body&gt;) element represents the main content of the document.}}
+{{Summary_Section|The '''body''' element (&lt;body&gt;) represents the main content of the document.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLBodyElement
 |Content==== HTML information ===
