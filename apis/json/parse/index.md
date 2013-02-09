@@ -15,7 +15,7 @@
 |Return_value_description=A JavaScript object representing the JSON string.
 }}
 {{Examples_Section
-|Not_required=Yes
+|Not_required=No
 |Examples=
 }}
 {{Notes_Section
@@ -26,6 +26,7 @@
 }}
 {{Compatibility_Section
 |Not_required=Yes
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
