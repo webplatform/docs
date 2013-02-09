@@ -16,6 +16,9 @@ If the property has a value different than none, a stacking context will be crea
 |Computed value=?
 |Animatable=Yes
 |Values={{CSS Property Value
+|Data Type=none
+|Description=Specifies that no transform should be applied.
+}}{{CSS Property Value
 |Data Type=matrix(1.0, 2.0, 3.0, 4.0, 5.0, 6.0)
 |Description=Specifies a 2D transformation matrix comprised of the specified six values. This is the equivalent to applying the transformation matrix [a b c d tx ty].
 }}{{CSS Property Value
@@ -41,16 +44,12 @@ If the property has a value different than none, a stacking context will be crea
 |Description=Rotates the element clockwise around its origin (as specified by the transform-origin property) by the specified [[css/units/angle|angle]].
 }}{{CSS Property Value
 |Data Type=skewX(40deg)
-|Description=Specifies a 2D skew transformation along the X axis by the given [[css/units/angle|angle]]. 
+|Description=Specifies a 2D skew transformation along the X axis by the given [[css/units/angle|angle]].
 }}{{CSS Property Value
 |Data Type=skewY(0.25turn)
-|Description=Specifies a 2D skew transformation along the Y axis by the given [[css/units/angle|angle]]. 
-}}{{CSS Property Value
-|Data Type=none
-|Description=Specifies that no transform should be applied.
+|Description=Specifies a 2D skew transformation along the Y axis by the given [[css/units/angle|angle]].
 }}
 }}
-[[file:transform_example.png|alt Example showing translate, scale and rotate step by step]]
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -163,3 +162,4 @@ If the property has a value different than none, a stacking context will be crea
 |MSDN_link=
 |HTML5Rocks_link=
 }}
+[[file:transform_example.png|alt Example showing translate, scale and rotate step by step]]
