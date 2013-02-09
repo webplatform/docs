@@ -5,7 +5,7 @@
 {{Summary_Section|This interface is the callback used to create a FileWriter.}}
 {{API_Object}}
 {{Examples_Section
-|Not_required=Yes
+|Not_required=No
 |Examples=
 }}
 {{Notes_Section}}
