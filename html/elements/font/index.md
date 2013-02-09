@@ -3,11 +3,11 @@
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status}}
+{{Standardization_Status|Deprecated}}
 {{API_Name}}
-{{Summary_Section|Specifies the font face, font size, and font color of text.
-The &lt;font&gt; tag is not supported in HTML5. Use CSS instead.
-The &lt;font&gt; element is deprecated in HTML 4.01.
+{{Summary_Section|The '''font''' element (&lt;font&gt;) specifies the font face, font size, and font color of text.
+
+The &lt;font&gt; element is deprecated in HTML 4.01, and obsolete in HTML5. Use CSS instead.
 }}
 {{Markup_Element
 |DOM_interface=dom/HTMLFontElement
