@@ -126,6 +126,14 @@ Starting with Internet Explorer 8, the <code>table</code> display styles allow 
 In Windows Internet Explorer 7 and earlier, the default value of this property for [[html/elements/table|'''table''']], '''tr''', '''td''', '''col''', and '''colGroup''' elements is <code>block</code>.
 |Import_Notes====Syntax===
 <code>'''display: '''inline '''{{!}}''' block '''{{!}}''' list-item '''{{!}}''' run-in '''{{!}}''' inline-block '''{{!}}''' table '''{{!}}''' inline-table '''{{!}}''' table-row-group '''{{!}}''' table-header-group '''{{!}}''' table-footer-group '''{{!}}''' table-row '''{{!}}''' table-column-group '''{{!}}''' table-column '''{{!}}''' table-cell '''{{!}}''' table-caption '''{{!}}''' -ms-flexbox '''{{!}}''' -ms-inline-flexbox '''{{!}}''' -ms-grid '''{{!}}''' -ms-inline-grid '''{{!}}''' none</code>
+
+===Rendering for floating or absolute positioned elements===
+{{{!}}
+! Specified value !! Computed value
+{{!}} inline-table {{!}}{{!}} table
+{{!}} inline, run-in, table-row-group, table-column, table-column-group, table-header-group, table-footer-group, table-row, table-cell, table-caption, inline-block {{!}}{{!}} block
+{{!}} others {{!}}{{!}} same as specified
+{{!}}}
 }}
 {{Related_Specifications_Section
 |Specifications=
