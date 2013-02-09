@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|An input field represented by an image. The user can either use the image as a button to submit the form, or select a coordinate of the image to be submitted with the form data.}}
+{{Summary_Section|The '''image''' type of the [[html/elements/input|&lt;input&gt;]] element represents an image. The user can either use the image as a button to submit the form, or select a coordinate of the image to be submitted with the form data.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLInputElement
 }}
