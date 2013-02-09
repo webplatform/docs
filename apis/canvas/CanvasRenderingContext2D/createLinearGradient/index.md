@@ -32,7 +32,7 @@
 |Return_value_description=A '''CanvasGradient''' object that represents the new linear gradient.
 }}
 {{Examples_Section
-|Not_required=Yes
+|Not_required=No
 |Examples=
 }}
 {{Notes_Section}}
