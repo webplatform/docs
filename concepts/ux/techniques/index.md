@@ -13,7 +13,7 @@
 
 ===Scoping and Initial Design===
 *[[concepts/ux/techniques/elevator_pitch|Elevator Pitch]]
-*[[concepts/ux/techniques/inception_deck|Inception Deck]]
+*[[concepts/ux/techniques/inception_deck|Collaborative design sessions (Inception deck)]]
 *[[concepts/ux/techniques/user_stories|User Stories]]
 *[[concepts/ux/techniques/story_mapping|Story mapping]]
 *[[concepts/ux/techniques/storyboard|Storyboard]]
