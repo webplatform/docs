@@ -114,18 +114,8 @@ A non-zero blur distance indicates that the resulting shadow should be blurred, 
 
 Note this means for a long, straight shadow edge, the blur radius will create a visibly apparent color transition approximately the twice length of the blur radius that is perpendicular to and centered on the shadow's edge, and that ranges from the full shadow color at the endpoint inside the shadow to fully transparent at the endpoint outside it.
 
-====Remarks===
-The '''box-shadow''' property can specify one or more drop shadows. The components of each shadow are interpreted as follows:
-*Required: The first length is the ''horizontal offset'' of the shadow. A positive value draws a shadow that is offset to the right of the box, a negative length to the left.
-*Required: The second length is the ''vertical offset''. A positive value offsets the shadow down, a negative one up.
-*Optional: The third length is a ''blur distance''. Negative values are not allowed. If the blur value is zero, the shadow's edge is sharp. Otherwise, the larger the value, the more the shadow's edge is blurred.
-*Optional: The fourth length is a ''spread distance''. Positive values cause the shadow shape to expand in all directions by the specified radius. Negative values cause the shadow shape to contract.
-*Optional: The ''color'' is the color of the shadow.
-*Optional: An <code>inset</code> keyword, if present, changes the drop shadow from an outer shadow (one that shadows the box onto the canvas, as if it were lifted above the canvas) to an inner shadow (one that shadows the canvas onto the box, as if the box were cut out of the canvas and shifted behind it).
-|Import_Notes====Syntax===
-<code>
-''box-shadow:  ''none '''{{!}}''' ''offset-x offset-y (blur-radius) (spread-radius) (color) (inset)''
-</code>
+===Remarks===
+
 }}
 {{Related_Specifications_Section
 |Specifications=
