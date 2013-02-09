@@ -61,7 +61,7 @@ Modern browsers (Opera, Firefox, Chrome, Safari, and Internet Explorer 9+) also 
 {{!}}-
 {{!}}0°
 {{!}}red
-<div style="background-color:#ff0000">{{!}}</div>[[Image:FF0000.png]]
+{{!}}<div style="width:100%;height:100%;background-color:#ff0000"></div>
 {{!}}-
 {{!}}60
 {{!}}yellow
@@ -139,6 +139,9 @@ You can set the opacity of an entire element using the [[css/properties/opacity|
 {{See_Also_Section
 |Topic_clusters=Visual Effects
 }}
+
+
+
 
 
 
