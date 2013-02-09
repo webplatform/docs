@@ -5,30 +5,8 @@
 {{Summary_Section|This interface represents a directory on a file system.}}
 {{API_Object}}
 {{Examples_Section
-|Not_required=Yes
-|Examples={{Single Example
-|Language=JavaScript
-|Description=In the following code snippet, we create a direct called "Documents."
-|Code=// Taking care of the browser-specific prefixes.
-window.requestFileSystem  = window.requestFileSystem || window.webkitRequestFileSystem; 
-window.directoryEntry = window.directoryEntry || window.webkitDirectoryEntry;
- 
-...
- 
-function onFs(fs){
-  fs.root.getDirectory('Documents', {create:true}, function(directoryEntry){
-    //directoryEntry.isFile === false
-    //directoryEntry.isDirectory === true
-    //directoryEntry.name === 'Documents'
-    //directoryEntry.fullPath === '/Documents'
-     
-    }, onError);
- 
-  }
- 
-// Opening a file system with temporary storage
-window.requestFileSystem(TEMPORARY, 1024*1024 /*1MB*/, onFS, onError
-}}
+|Not_required=No
+|Examples=
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
@@ -105,8 +83,7 @@ window.requestFileSystem(TEMPORARY, 1024*1024 /*1MB*/, onFS, onError
 {{Topics|FileSystemAPI}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MDN
-|MDN_link=https://developer.mozilla.org/en-US/docs/DOM/File_API/File_System_API/DirectoryEntry
+|MDN_link=
 |MSDN_link=
 |HTML5Rocks_link=
 }}
