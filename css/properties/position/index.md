@@ -15,7 +15,7 @@
 |CSS object model property=position
 |Values={{CSS Property Value
 |Data Type=static
-|Description=Default. Object has no special positioning; it follows the layout rules of HTML. Values of [[css/properties/top|'''top''']], [[css/properties/bottom|"bottom"]], [[css/properties/left|"left"]] and [[css/properties/right|"right"]] have no impact.
+|Description=Default. Object has no special positioning; it follows the layout rules of HTML. Values of [[css/properties/top|top]], [[css/properties/bottom|bottom]], [[css/properties/left|left]] and [[css/properties/right|right]] have no impact.
 }}{{CSS Property Value
 |Data Type=absolute
 |Description=Object is positioned relative to parent element's position—or to the '''body''' object if its parent element is not positioned—using the [[css/properties/top|'''top''']] and [[css/properties/left|'''left''']] properties.
@@ -111,14 +111,14 @@ The positioned float is laid out according to normal HTML flow.
 
 
 ===Absolute===
-Setting the property to '''absolute''' pulls the object out of the "flow" of the document and positions it regardless of the layout of surrounding objects. If other objects already occupy the given position, they do not affect the positioned object, nor does the positioned object affect them. Instead, all objects are drawn at the same place, causing the objects to overlap. (This overlap is controlled by using the z-index attribute or property.)
+Setting the property to '''absolute''' pulls the object out of the "flow" of the document and positions it regardless of the layout of surrounding objects. If other objects already occupy the given position, they do not affect the positioned object, nor does the positioned object affect them. Instead, all objects are drawn at the same place, causing the objects to overlap. (This overlap is controlled by using the [[css/properties/z-index|z-index]] attribute or property.)
 
-To enable absolute positioning on an object you must specify at least one of the '''top''', '''bottom''', '''left''', or '''right''' properties, in addition to setting the position property to absolute. Otherwise, these positioning properties use their default value of absolute, which causes the object to render immediately after the preceding elements, according to the layout rules of HTML.
+To enable absolute positioning on an object you must specify at least one of the [[css/properties/top|top]], [[css/properties/bottom|bottom]], [[css/properties/left|left]] or [[css/properties/right|right]] properties, in addition to setting the position property to absolute. Otherwise, these positioning properties use their default value of absolute, which causes the object to render immediately after the preceding elements, according to the layout rules of HTML.
 
 Absolute positioning behaves differently dependent on the position value of the parent element. If a child element is set to position: absolute it behaves like this: 
 
-* If the parents position is '''static''' or '''default''', the position of the child element is calculated relative to the whole document based on the values in '''top''', '''bottom''', '''left''' or '''right''' attributes.
-* If the parents position is not static ('''relative''', '''absolute''' or '''fixed''') the position of the child is calculated relative to the parent element and based on '''top''', '''bottom''', '''left''' or '''right''' attributes.
+* If the parents position is '''static''' or '''default''', the position of the child element is calculated relative to the whole document based on the values in [[css/properties/top|top]], [[css/properties/bottom|bottom]], [[css/properties/left|left]] or [[css/properties/right|right]] attributes.
+* If the parents position is not static ('''relative''', '''absolute''' or '''fixed''') the position of the child is calculated relative to the parent element and based on [[css/properties/top|top]], [[css/properties/bottom|bottom]], [[css/properties/left|left]] or [[css/properties/right|right]] attributes.
 
 Absolutely positioned objects do not have '''margins''', but they do have borders and padding.
 
