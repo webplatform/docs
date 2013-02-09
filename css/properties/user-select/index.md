@@ -70,7 +70,7 @@
 |Safari_prefixed_supported=Yes
 }}{{Compatibility Table Desktop Row
 |Feature=element
-|Chrome_supported=Unknown
+|Chrome_supported=No
 |Chrome_version=
 |Chrome_prefixed_supported=No
 |Chrome_prefixed_version=
@@ -80,11 +80,11 @@
 |Internet_explorer_supported=Unknown
 |Internet_explorer_version=
 |Internet_explorer_prefixed_supported=Yes
-|Opera_supported=Unknown
+|Opera_supported=No
 |Opera_version=
 |Opera_prefixed_supported=No
 |Opera_prefixed_version=
-|Safari_supported=Unknown
+|Safari_supported=No
 |Safari_version=
 |Safari_prefixed_supported=No
 |Safari_prefixed_version=
