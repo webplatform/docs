@@ -5,21 +5,21 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The CSS border-left property sets all the left border properties of the element in one declaration. The properties that can be set, are (in order): border-left-width, border-left-style, and border-left-color.}}
+{{Summary_Section|Shorthand property that sets the properties of an element's left border.It can be used to set one or more values (of those: [[css/properties/border-left-width|'''border-left-width''']], [[css/properties/border-left-style|'''border-left-style''']], [[css/properties/border-left-color|'''border-left-color''']]).}}
 {{CSS Property
 |Applies to=All elements
 |Inherited=No
 |Media=visual
+|Computed value=See individual properties
 |Animatable=No
+|CSS object model property=borderLeft
+|CSS percentages=N/A
 |Values={{CSS Property Value
-|Data Type=width
-|Description=Any of the range of width values available to the [[css/properties/border-left-width|'''border-left-width''']] property.
-}}{{CSS Property Value
-|Data Type=style
-|Description=Any of the range of style values available to the [[css/properties/border-left-style|'''border-left-style''']] property.
-}}{{CSS Property Value
-|Data Type=color
-|Description=Any of the range of color values available to the [[css/properties/border-left-color|'''border-left-color''']] property.
+|Data Type=<border-width> <border-style> <color>
+|Description=The <tt>border-left</tt> property is a shorthand property for setting the same width, color, and style for only one border of a box: left.
+* '''Width''' - Any of the range of width values available to the [[css/properties/border-left-width|'''border-left-width''']] property. It's optional. Default value is <tt>medium</tt>.
+* '''Style''' - Any of the range of style values available to the [[css/properties/border-left-style|'''border-left-style''']] property. Default value is <tt>none</tt>.
+* '''Color''' - Any of the range of color values available to the [[css/properties/border-left-color|'''border-left-color''']] property. Default value is the value of the element's [[css/properties/color|'''color''']] property - i.e. text color.
 }}
 }}
 {{Examples_Section
@@ -53,15 +53,10 @@ This example uses a call to an embedded (global) style sheet to modify the attri
 {{Notes_Section
 |Notes====Remarks===
 The '''border-left''' property is a composite property that sets the '''width''', '''style''', and '''color''' values for the left border of an object.
-All individual border properties not set by the composite '''border-left''' property are set to their default values. For example, the default value for '''width''' is '''medium'''.
-If the <code>color</code> value is not specified, the text color is used.
-For more information about supported colors, see the Color Table.
-As of Microsoft Internet Explorer 5.5, this property applies to inline elements.  With earlier versions of  Windows Internet Explorer, inline elements must have an '''absolute''' [[css/properties/position|'''position''']] or layout to use this property. Element layout is set by providing a value for the [[css/properties/height|'''height''']] property or the [[css/properties/width|'''width''']] property.
-|Import_Notes====Syntax===
-<code>'''border-left: ''''''[''' width '''{{!}}{{!}}''' style '''{{!}}{{!}}''' ''
-&lt;color&gt;
-'' ''']'''</code>
-===Standards information===
+All individual border properties not set by the composite '''border-left''' property are set to their default values. 
+
+The default value for the [[css/properties/border-color|'''border-color''']] is the same as the text color, for [[css/properties/border-width|'''border-width''']] is <tt>medium</tt> and for [[css/properties/border-style|'''border-style''']] is <tt>none</tt>. Therefor you must specify a style when specifying a width or color; otherwise, the border will be invisible.
+|Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 5.5.21
 }}
 {{Related_Specifications_Section
