@@ -21,13 +21,24 @@ A filter affecting the whole page might be a page or site enter or exit transiti
 <meta http-equiv="Page-Exit" content="blendTrans(Duration=0.3)">
 </syntaxHighlight>
 
-Effects for page elements could be for example drop-shadow or blur:
+Effects for page elements could be for example a blur:
 
 <syntaxHighlight lang="css">
 filter: Blur(direction=235,strength=6);
 </syntaxHighlight>
 
-A handful of these filters are not just statically applied, but they also need to be initialized via JavaScript afterwards, e.g. the Light filter.
+A handful of these filters are not just statically applied, but they also need to be initialized via JavaScript afterwards, e.g. the Light filter:
+
+<syntaxHighlight lang="css">
+#filtered {
+    filter: Light();
+}
+</syntaxHighlight>
+
+<syntaxHighlight lang="javascript">
+/* Lighten the element with an ambient type of light, in a yellowish color RGB(255,240,200), with medium brightness (100) */
+document.getElementById('filtered').filters.item('DXImageTransform.Microsoft.Light').addAmbient(255, 240, 200, 100);
+</syntaxHighlight>
 
 Multiple filters could be chained into one property by separating them with spaces:
 
