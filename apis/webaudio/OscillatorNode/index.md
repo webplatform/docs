@@ -5,7 +5,7 @@
 {{Summary_Section|[[apis/webaudio/OscillatorNode|'''OscillatorNode''']] represents an audio source generating a periodic waveform. It can be set to a few commonly used waveforms. Additionally, it can be set to an arbitrary periodic waveform through the use of a [[apis/webaudio/WaveTable|'''WaveTable''']] object. Oscillators are common foundational building blocks in audio synthesis.}}
 {{API_Object}}
 {{Examples_Section
-|Not_required=Yes
+|Not_required=No
 |Examples=
 }}
 {{Notes_Section}}
