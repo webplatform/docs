@@ -15,8 +15,21 @@
 |CSS object model property=borderColor
 |CSS percentages=N/A
 |Values={{CSS Property Value
-|Data Type=color
-|Description=Up to four [[css/color|'''colors''']].
+|Data Type=<color>
+|Description=Specified color is applied to all four edges
+
+}}{{CSS Property Value
+|Data Type=<horizontal> <vertical>
+|Description=When two colors are specified, they are applied to horizontal and vertical  borders respectively.
+}}{{CSS Property Value
+|Data Type=<top> <vertical> <bottom>
+|Description=When three colors are specified, they are applied to top, vertical and bottom borders respectively.
+}}{{CSS Property Value
+|Data Type=<top> <right> <bottom> <left>
+|Description=When four colors are specified, they are applied to top, right, bottom and left borders respectively.
+}}{{CSS Property Value
+|Data Type=inherit
+|Description=Is a keyword indicating that all four values are inherited from their parent's element calculated value.
 }}
 }}
 {{Examples_Section
@@ -76,8 +89,8 @@ The '''border-color''' property does not render if the [[css/properties/border-s
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
+|Sources=MDN, MSDN
+|MDN_link=https://developer.mozilla.org/en-US/docs/CSS/border-color
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
