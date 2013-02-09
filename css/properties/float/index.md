@@ -3,13 +3,17 @@
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic
 |Content=Incomplete, Examples Best Practices
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Specifies whether or not a box (an element) should float.}}
+{{Summary_Section|Elements which get <code>float</code> applied with a value other than <code>none</code> are taken from the normal flow and get wrapped on the left or right side of the parent element. Other elements get wrapped around it.
+
+}}
 {{CSS Property
-|Applies to=All elements
+|Initial value=none
+|Applies to=all elements; but absolutely positioned, replaced elements
 |Inherited=No
 |Media=visual
+|Computed value=as specified
 |Animatable=No
 |Values={{CSS Property Value
 |Data Type=none
