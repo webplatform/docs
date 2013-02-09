@@ -53,7 +53,7 @@ CSS properties
 * position - richard
 * text-shadow - paulv
 * filter - paulv
-* font-feature-settings - giuseppe
+* outline - giuseppe
 
 Other activity
 
