@@ -7,7 +7,7 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Language=JavaScript
+|Language=HTML
 |Description=Preview an image before upload
 |Code=<!doctype html>
 <html>
