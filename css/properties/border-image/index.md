@@ -13,7 +13,12 @@
 |Computed value=based on individual properties
 |Animatable=No
 |CSS object model property=http://dev.w3.org/csswg/css3-background/#border-image
-|Values={{CSS Property Value}}
+|Values={{CSS Property Value
+|Data Type=none
+}}{{CSS Property Value
+|Data Type=border-image-source
+|Description=see [border-image-source /wiki/css/properties/border-image-source] for more information;
+}}
 }}
 {{Examples_Section
 |Not_required=No
