@@ -47,7 +47,7 @@ Let's assume the following markup.
 |LiveURL=http://dabblet.com/gist/4744777
 }}{{Single Example
 |Language=CSS
-|Description=[[File:floating-element-1.png]]
+|Description=[[File:Screen_Shot_2013-02-09_at_11.34.34.png]]
 
 The element with the class <code>floated</code> flows to the left of the page while the content within the <code>&lt;p&gt;</code>-element flows around the floated content.
 |Code=.floated {
