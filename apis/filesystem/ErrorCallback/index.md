@@ -5,7 +5,7 @@
 {{Summary_Section|When an error occurs, this callback is made.}}
 {{API_Object}}
 {{Examples_Section
-|Not_required=Yes
+|Not_required=No
 |Examples=
 }}
 {{Notes_Section}}
