@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Comments in HTML delimit parts of the source document that are not rendered by the browser. }}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
 }}
@@ -46,6 +46,7 @@ The '''HTML Comment''' object has these properties.
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
