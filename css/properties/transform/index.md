@@ -59,6 +59,7 @@ If the property has a value different than none, a stacking context will be crea
 |Data Type=rotateZ(20deg)
 }}
 }}
+[[file:transform_example.png|alt Example showing translate, scale and rotate step by step]]
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -190,4 +191,3 @@ If the property has a value different than none, a stacking context will be crea
 |MSDN_link=
 |HTML5Rocks_link=
 }}
-[[file:transform_example.png|alt Example showing translate, scale and rotate step by step]]
