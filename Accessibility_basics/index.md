@@ -230,19 +230,19 @@ The W3C is one of the primary standards bodies on the internet. Their Web Access
 
 Since then, W3C WAI has developed a new set of guidelines named Web Content Accessibility Guidelines 2.0 (WCAG2.0), which was published in December 2008 and which succeeds version 1.0.
 
-WCAG 2.0 aims to be more technology-agnostic than WCAG 1.0, meaning it can be applied to any web-based technique, be it HTML, CSS, Flash, PDF, or others. Since the standard deals with concepts about accessibility rather than concrete technical details it’s important to pay attension to the surrounding documents to the standard. The [http://www.w3.org/TR/WCAG20 “standard” document] of WCAG 2.0 will provide the understanding but the [http://www.w3.org/TR/WCAG20-TECHS/ “techniques” document] provides solid implementable pieces of information for the developer. This is broken up into “general” techniques (technology ambiguous) and specifics for individual W3C technologies. The W3C doesn’t write documents for proprietary technologies but provides links to techniques for technologies like Flash, PDF or Silverlight from other sources such as Adobe and Microsoft.
+WCAG 2.0 aims to be more technology-agnostic than WCAG 1.0, meaning it can be applied to any web-based technique, be it HTML, CSS, Flash, PDF, or others. Since the standard deals with concepts about accessibility rather than concrete technical details it’s important to pay attention to the surrounding documents to the standard. The [http://www.w3.org/TR/WCAG20 “standard” document] of WCAG 2.0 provides the understanding but the [http://www.w3.org/TR/WCAG20-TECHS/ “techniques” document] provides solid implementable pieces of information for desiners, developers, and everybody involved with the creation of web content. These techniques are broken up into “general” techniques (which are technology ambiguous) and specifics for individual W3C technologies. W3C doesn’t write documents for proprietary technologies but provides links to techniques for technologies like Flash, PDF or Silverlight from other sources such as Adobe and Microsoft.
 
-It’s important to note that web sites aren’t expected to fulfill all of these requirements. The technology a user has should do some of the work too. For example it is expected that a screen reader will read pages to people who need it, rather than every web site providing an audio version of the content. However, the web site is expected to provide pages that can be read using common screen reading technology in order to make this possible. This difference is important, as it’s the difference between a web site with an “accessibility widgets” (like a button to make the fonts a bit bigger) and a web page that will work in a multitude of different situations (eg varying browsers and devices that would be impossible to anticipate).
+It’s important to note that web sites aren’t expected to fulfill all of these requirements or employ each and every technique. The technology a user has should do some of the work, too. For example, it is expected that a screen reader will read pages to people who need it, rather than every web site providing an audio version of the content. However, the web site is expected to provide pages that ''can'' be read using common screen reading technology in order to make this possible. This difference is important, as it’s the difference between a web site with an “accessibility widget” (like a button to make the fonts a bit bigger) and a web page that will work in a multitude of different situations (e.g. varying browsers and future devices that would be impossible to anticipate).
 
-This is why the WCAG standard was designed to be part of a suite of three recommendations. Another recommendation covers what is called “User Agents”: the User Agent Accessibility Guidelines – UAAG, currently at [http://www.w3.org/TR/UAAG10/ version 1], but [ http://www.w3.org/TR/UAAG20/ version 2] is in the making. UAAG describes how browsers and any extra technology people might need to use the web (like screen readers) deal with web content. The third one, the Authoring Tool Accessibility Guidelines 2.0 ([http://www.w3.org/TR/ATAG20/ ATAG 2.0]) covers authoring tools or content management systems—it aims to try to make these tools do more of the work of making pages accessible. Only if those three Guidelines, WCAG, UAAG, and ATAG play together, an accessible experience for people with disabilities is guaranteed.
+This is why the WCAG standard was designed to be part of a suite of three recommendations. Another recommendation covers what is called “User Agents”: the User Agent Accessibility Guidelines – UAAG, currently at [http://www.w3.org/TR/UAAG10/ version 1], but [http://www.w3.org/TR/UAAG20/ version 2] is in the making. UAAG describes how browsers and any extra technology people might need to use the web (like screen readers) deal with web content. The third one, the Authoring Tool Accessibility Guidelines 2.0 ([http://www.w3.org/TR/ATAG20/ ATAG 2.0]) covers authoring tools or content management systems—it aims to try to make these tools do more of the work of making pages accessible. Only if those three guidelines, WCAG, UAAG, and ATAG play together, an accessible experience for people with disabilities is possible.
 
 WCAG 2.0 builds on WCAG 1.0, because the fundamental issues of web accessibility remained the same, though there are some differences in the approach and requirements between WCAG 1.0 and WCAG 2.0.
 
 Web content that meets WCAG 1.0 will already be a long way to fulfilling WCAG 2.0. In most cases only minimal work will be needed, and design or coding practices should not require significant changes in order to meet WCAG 2.0. However, it does take some time to understand the different approach in WCAG 2.0.
 
-WCAG 2.0 is downwards compatible with WCAG 1.0, so one can have a web site meet both WCAG 1.0 and 2.0 (however, a site that meets only WCAG 2.0 does not automatically meet WCAG 1.0, because version 2.0 is more flexible in some areas).
+WCAG 2.0 is downwards compatible with WCAG 1.0, so you can have a web site that meets both WCAG 1.0 and 2.0 (however, a site that meets only WCAG 2.0 does not automatically meet WCAG 1.0, because version 2.0 is more flexible in some areas).
 
-Probably the most important point from a developers perspective: everything in WCAG 2.0 is testable. This was one of the underlying principles in the development of the new guidelines: All success criteria must be verifyable and testable. This is important since otherwise it would not be possible to determine whether a page met or failed to meet the success criteria. The success criteria can be tested by a combination of machine and human evaluation as long as it is possible to determine whether a success criterion has been satisfied with a high level of confidence.
+Probably the most important point from a developers perspective: everything in WCAG 2.0 is testable. This was one of the underlying principles in the development of the new guidelines: all success criteria must be verifyable and testable. This is important, since otherwise it would not be possible to determine whether a page meets or fails the success criteria. The success criteria can be tested by a combination of machine and human evaluation as long as it is possible to determine whether a success criterion has been satisfied with a high level of confidence.
 
 As an example, WCAG 2.0 gives you clear guidance on how to measure sufficient contrast of your design by providing an algorithm and testable statements in form of minimum contrast ratios that can be tested against with tools which are readily available free of charge.
 
@@ -252,7 +252,7 @@ Large Text: Large-scale text and images of large-scale text have a contrast rati
 Incidental: Text or images of text that are part of an inactive user interface component, that are pure decoration, that are not visible to anyone, or that are part of a picture that contains significant other visual content, have no contrast requirement.
 Logotypes: Text that is part of a logo or brand name has no minimum contrast requirement.“</blockquote>
 
-WCAG 2 then gives a complete picture on the [http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html intents of this particular criterion], it provides additional [http://www.w3.org/TR/2010/NOTE-WCAG20-TECHS-20101014/G18 information on how to design sites that meet the requirements] and on how to test that the requirement is actually met ([http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-con trast-contrast.html#visual-audio-contrast-contrast-resources-head here's a list of tools]).
+WCAG 2 then gives a complete picture on the [http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html intents of this particular criterion], it provides additional [http://www.w3.org/TR/2010/NOTE-WCAG20-TECHS-20101014/G18 information on how to design sites that meet the requirements] and on [http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html#visual-audio-contrast-contrast-resources-head how to test] that the requirement is actually met.
 
 The same structure and basic ideas are true for virtually all of WCAG 2, so let's have a look at them.
 
@@ -281,7 +281,7 @@ There are four basic Principles: Perceivable, Operable, Understandable, Robust -
 Every principle comes with a list of guidelines which address these principles. There are a total of 12 guidelines. These guidelines do not discuss the finer details of implementations, but only set goals that must be achieved.
 
 <dl>
-	<dt>Perceivable (4)</dt>
+	<dt>Perceivable (4 in total)</dt>
 		<dd>Provide text alternatives for non-text content.</dd>
 		<dd>Provide captions and other alternatives for multimedia.</dd>
 		<dd>Create content that can be presented in different ways without losing meaning.</dd>
@@ -289,7 +289,7 @@ Every principle comes with a list of guidelines which address these principles. 
 </dl>
 
 <dl>
-	<dt>Operable (4)</dt>
+	<dt>Operable (4 in total)</dt>
 
 		<dd>Make all functionality available from a keyboard.</dd>
 		<dd>Give users enough time to read and use content.</dd>
@@ -298,7 +298,7 @@ Every principle comes with a list of guidelines which address these principles. 
 </dl>
 
 <dl>
-	<dt>Understandable (3)</dt>
+	<dt>Understandable (3 in total)</dt>
 		<dd>Make text readable and understandable.</dd>
 		<dd>Make content appear and operate in predictable ways.</dd>
 		<dd>Help users avoid and correct mistakes.</dd>
@@ -309,11 +309,11 @@ Every principle comes with a list of guidelines which address these principles. 
 		<dd>Maximize compatibility with current and future user tools.</dd>
 </dl>
 
-Then there's the success criteria. Under each of the 12 guidelines, there is a total of 61 success criteria which describe specifically what must be done in order to conform to WCAG 2 at a certain level (A, AA, AAA).
+Next, there's the success criteria. Under each of the 12 guidelines, there is a total of 61 success criteria which describe specifically what must be done in order to conform to WCAG 2 at a certain level (A, AA, AAA).
 
 Each success criterion is written as a statement that will be either true or false when web content is tested against it.
 
-Each success criterion provides Links to sufficient techniques for meeting the success criterion, optional advisory techniques, and descriptions of the intent of the success criteria, including benefits, examples, and if possible, links to commonly available test tools.
+Each success criterion provides links to sufficient techniques for meeting the success criterion, optional advisory techniques, and descriptions of the intent of the success criteria, including benefits, examples, and if possible, links to commonly available test tools.
 
 As an example, here's a success criterion that deals with textual descriptions for  non-text elements, where it comes from – the principles and guidelines – and where it leads to – the individual techniques that may be employd in order to fulfill the success criterion):
 
@@ -334,30 +334,28 @@ W3C itself recommends against always targetting full AAA compliance. Most of the
 
 ==== The rest of the WCAG 2.0 documents ==== 
 
-The central document for designers and developers is „Understanding WCAG 2.0“ http://www.w3.org/TR/UNDERSTANDING-WCAG20/ which is intended to be used as guidance throughout the whole process of developing an accessible website.
+The central document for designers and developers is [http://www.w3.org/TR/UNDERSTANDING-WCAG20/ „Understanding WCAG 2.0“] which is intended to be used as guidance throughout the whole process of developing an accessible website.
 
 Understanding WCAG 2.0 provides an extended commentary on each guideline and each success criterion to help readers better understand the intent and how the guidelines and success criteria work together. It also provides examples of techniques or combinations of techniques that are considered sufficient to meet each success criterion. Links are then provided to write-ups for each of the techniques and related resources, but also to common failures to search for during a test review.
 
-These documents of different / growing complexity can be then be fed into the design and development process and used by teams or individual team members as guidance on how to solve a certain problem.
+These documents of different and growing complexity can then be fed into the design and development process and used by team members as guidance on how to solve a certain problem.
 
 ===== Techniques =====
 
-The Techniques (there are literally hundreds of them, see http://www.w3.org/TR/WCAG-TECHS/complete.html) are split up in sufficient techniques and advisory techniques that may or may not enhance accessibility, but did not qualify as sufficient techniques (n.b.: when there are multiple techniques connected by "AND" then all of the techniques must be used!)
+The [http://www.w3.org/TR/WCAG-TECHS/complete.html Techniques] (there are literally hundreds of them) are split up in sufficient techniques and advisory techniques that may or may not enhance accessibility, but did not qualify as sufficient techniques (n.b.: when there are multiple techniques connected by "AND" then all of the techniques must be used!)
 
-====== Sufficient & Advisory Techniques ======
-
-* [General Techniques http://www.w3.org/TR/WCAG20-TECHS/general.html]
-* [HTML and XHTML Techniques http://www.w3.org/TR/WCAG20-TECHS/html.html]
-* [CSS Techniques http://www.w3.org/TR/WCAG20-TECHS/css.html]
-* [Client-side Scripting Techniques http://www.w3.org/TR/WCAG20-TECHS/client-side-script.html]
-* [Server-side Scripting Techniques http://www.w3.org/TR/WCAG20-TECHS/server-side-script.html]
-* [Plain Text Techniques http://www.w3.org/TR/WCAG20-TECHS/text.html]
-* [ARIA Techniques http://www.w3.org/TR/WCAG20-TECHS/aria.html]
-* [SMIL Techniques  http://www.w3.org/TR/WCAG20-TECHS/smil.html]
-* [Flash Techniques http://www.w3.org/TR/WCAG20-TECHS/flash.html]
-* [Silverlight Techniques http://www.w3.org/TR/WCAG20-TECHS/silverlight.html]
-* [PDF Techniques http://www.w3.org/TR/WCAG20-TECHS/pdf.html]
-* [Common Failures http://www.w3.org/TR/WCAG20-TECHS/failures.html]
+* [http://www.w3.org/TR/WCAG20-TECHS/general.html General Techniques]
+* [http://www.w3.org/TR/WCAG20-TECHS/html.html HTML and XHTML Techniques]
+* [http://www.w3.org/TR/WCAG20-TECHS/css.html CSS Techniques]
+* [http://www.w3.org/TR/WCAG20-TECHS/client-side-script.html Client-side Scripting Techniques]
+* [http://www.w3.org/TR/WCAG20-TECHS/server-side-script.html Server-side Scripting Techniques]
+* [http://www.w3.org/TR/WCAG20-TECHS/text.html Plain Text Techniques]
+* [http://www.w3.org/TR/WCAG20-TECHS/aria.html ARIA Techniques]
+* [http://www.w3.org/TR/WCAG20-TECHS/smil.html SMIL Techniques]
+* [http://www.w3.org/TR/WCAG20-TECHS/flash.html Flash Techniques]
+* [http://www.w3.org/TR/WCAG20-TECHS/silverlight.html Silverlight Techniques]
+* [http://www.w3.org/TR/WCAG20-TECHS/pdf.html PDF Techniques]
+* [http://www.w3.org/TR/WCAG20-TECHS/failures.html Common Failures]
 
 ==== What are the differences between WCAG 1 and WCAG 2? ====
 
@@ -435,7 +433,9 @@ One example for outdated advice is checkpoint 10.5 from WCAG 1.0, which is also 
 
 Some of the Level AAA success criteria in guideline 3.1 as well as the Advisory Techniques for guideline 3.1 aid in making content more understandable, but there is no direct equivalent to this guideline. WCAG 2 does give some guidance in [http://www.w3.org/TR/UNDERSTANDING-WCAG20/meaning-supplements.html 3.1.5 – Reading Level]: 
 
+<blockquote>
 „When text requires reading ability more advanced than the lower secondary education level after removal of proper names and titles, supplemental content, or a version that does not require reading ability more advanced than the lower secondary education level, is available.“
+</blockquote>
 
 What should be the necessary reading level needs to be discussed. Generally, all of the text on any given web site (including help text, labels in forms etc.) should be checked for comprehensiveness and, if necessary edited in order to be as understandable as possible. Examples for easy to read content and further discussion of this topic can be found at [http://www.plainenglish.co.uk/ plainenglish.co.uk].
 
