@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Shows a color field that when clicked, displays a color picker.}}
+{{Summary_Section|The '''color''' type of the [[html/elements/input|&lt;input&gt;]] element provides a widget for selecting a color value.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLInputElement
 }}
