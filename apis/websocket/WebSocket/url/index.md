@@ -9,10 +9,22 @@
 {{API_Object_Property
 |Property_applies_to=apis/websocket/objects/WebSocket
 |Read_only=No
+|Return_value_description=The URL specifies the following details about the connection.
+
+* Scheme ― The scheme must be “ws” or “wss”.  The “ws” scheme is insecure, while “wss” indicates a secure connection.  Pages that are served over HTTP should use “ws” WebSockets, while HTTPS pages should use “wss”.  Attempting to use a scheme other than “ws” or “wss” will cause an error.
+* Host ― The host is the name or IP address of the server.
+* Port ― This specifies the remote port to connect to.  If the port is not specified then a default is selected based on the scheme.  ”ws” connections default to port 80, while “wss” connections default to 443.
+* Resource Name ― The resource name is the path component of the URL which follows the host/port.  This includes the URL query component (the part following a question mark), if one is present.  The resource name can be omitted, in which case it defaults to a forward slash ‘/’.
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=Example URLs
+|Code=scheme://host:port/resource
+ws://localhost:8080/echo
+wss://cjihrig.com
+}}
 }}
 {{Notes_Section
 |Notes====Remarks===
