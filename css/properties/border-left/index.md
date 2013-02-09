@@ -25,29 +25,23 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=The following examples use the '''border-left''' property and the '''border-left''' attribute to specify the composite '''border-left''' properties.
+|Language=CSS
+|Code=/* When we don't set border-left-color, color of a text is used as a default */
+.one {
+  color: #6CC644;
+  border-bottom: medium solid;
+}
 
-This example uses a call to an embedded (global) style sheet to modify the attributes of the left border.
-|Code=&lt;HEAD&gt;
-&lt;STYLE&gt; 
-    TD { border-left:0.5cm solid yellow }
-    .change { border-left:0.5cm groove pink }
-&lt;/STYLE&gt;
-&lt;/HEAD&gt;
-&lt;BODY&gt; 
-&lt;TABLE&gt; 
-&lt;TR&gt; 
-    &lt;TD onmouseover{{=}}"this.className{{=}}'change'" 
-        onmouseout{{=}}"this.className{{=}}''"&gt;
-        &lt;IMG src{{=}}"sphere.jpg"&gt;
-    &lt;/TD&gt; 
-&lt;/TR&gt;
-&lt;/TABLE&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/border-left.htm
-}}{{Single Example
-|Description=This example uses inline scripting to change the properties of the left border.
-|Code=&lt;TD onmouseover{{=}}"this.style.borderLeft{{=}}'0.3cm groove yellow'"&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/borderLeft.htm
+/* When we don't set border-left-style, default style <none> will be used - therefore 
+no border will be rendered */
+.two {
+  border-bottom: 1px red;
+}
+
+/* Other border-left style example */
+.three {
+  border-bottom: dotted 2px red;
+}
 }}
 }}
 {{Notes_Section
