@@ -1,81 +1,58 @@
 {{Page_Title}}
-{{Flags
-|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status}}
+{{Flags}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The <code>padding-left</code> CSS property of an element sets the [[css/properties/padding|padding]] space required on the right side of an element. The padding area is the space between the content of the element and its border. Negative values are not allowed.}}
 {{CSS Property
 |Initial value=0
-|Applies to=All elements
+|Applies to=All elements (except table-*-group, table-row and table-column)
 |Inherited=No
 |Media=visual
-|Animatable=No
+|Computed value=the percentage as specified or the absolute length
+|Animatable=Yes
+|CSS percentages=refer to [[css/properties/width|width]] of closest block-level ancestor
 |Values={{CSS Property Value
 |Data Type=length
-|Description=Floating-point number, followed by an absolute units designator (<code>cm</code>, <code>mm</code>, <code>in</code>, <code>pt</code>, or <code>pc</code>) or a relative units designator (<code>em</code>, <code>ex</code>, or <code>px</code>). For more information about the supported length units, see CSS Values and Units Reference.
+|Description=Specifies a positive fixed width. See [[css/properties/length|length]] for details.
 }}{{CSS Property Value
 |Data Type=percentage
-|Description=Integer, followed by a percent sign (%). The value is a percentage of the width of the parent object.
+|Description=A percentage with respect to the width of the containing block.
 }}
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=The following examples use the '''padding-left''' attribute and the '''padding-left''' property to change the padding of the object.
-
-This example uses '''td''' as a selector in an embedded style sheet to set the left padding for all table cells to 1 centimeter.
-|Code=&lt;STYLE&gt;
-    TD { padding-left:1cm }
-&lt;/STYLE&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/padding-left.htm
+|Language=CSS
+|Description=The following examples use the <code>padding-left</code> property to change the [[css/properties/padding|padding]] of the elements.
+|Code=h1 { padding-right: 5%; }
+p { padding-right: 10px; } 
 }}{{Single Example
-|Description=This example uses inline scripting to set the cell's left padding to 1 centimeter when an [[dom/events/mouseover|'''onmouseover''']] event occurs.
-|Code=&lt;TD onmouseover{{=}}"this.style.paddingLeft{{=}}'1cm'"
-    onmouseout{{=}}"this.style.paddingLeft{{=}}''"&gt;
-    &lt;IMG src{{=}}"sphere.jpg"&gt;
-&lt;/TD&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/paddingLeft.htm
+|Language=HTML
+|Code=&lt;h1&gt;Hey there&lt;/h1&gt;
+&lt;p&gt;I think you are awesome!&lt;/p&gt;
 }}
 }}
 {{Notes_Section
-|Notes====Remarks===
-As of Microsoft Internet Explorer 5.5, this property applies to inline elements.  With earlier versions of  Windows Internet Explorer, inline elements must have an '''absolute''' [[css/properties/position|'''position''']] or layout to use this property. Element layout is set by providing a value for the [[css/properties/height|'''height''']] property or the [[css/properties/width|'''width''']] property.
-Negative values are not allowed.
 |Import_Notes====Syntax===
-<code>'''padding-left: '''''
-&lt;length&gt;
-'' '''{{!}}''' ''
-&lt;percentage&gt;
-''</code>
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 5.5.9
+<code>padding-left: &lt;length&gt; {{!}} &lt;percentage&gt; {{!}} inherit;</code>
 }}
 {{Related_Specifications_Section
 |Specifications=
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
 }}
 {{See_Also_Section
 |Topic_clusters=Box Model
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[dom/defaultSelected|defaults]]</code>
-*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-*<code>CSS Enhancements in Internet Explorer 6</code>
 }}
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|Sources=MDN
+|MSDN_link=
 |HTML5Rocks_link=
 }}
