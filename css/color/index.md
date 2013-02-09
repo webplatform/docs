@@ -2,9 +2,6 @@
 {{Flags}}
 {{Summary_Section|This page explains the different mechanisms available in HTML and CSS to specify colors.}}
 {{Basic Page}}
-{{Page_Title|color}}
-{{Flags}}
-{{Summary_Section|This page explains the different mechanisms available in HTML and CSS to specify colors.}}
 {{Basic Page}}
 ==Basic HTML Color keywords==
 
@@ -158,6 +155,17 @@ You can set the opacity of an entire element using the [[css/properties/opacity|
 
 
 
+
+
+
+{{Notes_Section}}
+{{Topics}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
+}}
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
@@ -165,13 +173,5 @@ You can set the opacity of an entire element using the [[css/properties/opacity|
 |Sources=MSDN
 |MDN_link=
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
-{{Notes_Section}}
-{{Topics}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
 |HTML5Rocks_link=
 }}
