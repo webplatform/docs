@@ -5,9 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The header element represents the header of a section.
-
-}}
+{{Summary_Section|The '''header''' element (&lt;header&gt;) represents the header of a section.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLHeaderElement
 }}
