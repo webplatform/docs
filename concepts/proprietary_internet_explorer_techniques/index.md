@@ -10,13 +10,13 @@
 So came that Microsoft's Internet Explorers learned a lot of techniques that admittedly were non-standard but that could still be very helpful in certain situations. Here we'll have a look at them.
 }}
 {{Concept_Page
-|Content==x=Filters=x=
+|Content==Filters=
 
 Filters present a way to apply certain visual effects either to page elements or to the page as a whole. They have nothing to do with the recently specified CSS Filter Effects although they both aim into the same direction. IE Filters are a lot older. 
 
 A filter affecting the whole page might be a page or site enter or exit transition effect:
 
-<syntaxHighlight lang="html">
+<syntaxHighlight lang="html5">
 &lt;meta http-equiv="Page-Enter" content="blendTrans(Duration=0.3)"&gt;
 &lt;meta http-equiv="Page-Exit" content="blendTrans(Duration=0.3)"&gt;
 </syntaxHighlight>
@@ -80,14 +80,12 @@ filter: progid:DXImageTransform.Microsoft.Blur(pixelradius=2);
 
 For compatibility reasons, both generations and syntaxes are still supported by the later IEs.
 
-With IE 8 came another modification to the syntax. Microsoft introduced the vendor prefixed <code>-ms-filter</code> property which apart from its name was identical to the former <code>filter</code> property. On top of that the value needed to be put into a string. The following is exactly the same:
+With IE 8 came another modification to the syntax. Microsoft introduced the vendor prefixed <code>-ms-filter</code> property which apart from its name was identical to the former <code>filter</code> property. On top of that the value needed to be put into a string. The following two declarations are identical:
 
 <syntaxHighlight lang="css">
 /* IE < 8 syntax */
 filter: progid:DXImageTransform.Microsoft.Blur(pixelradius=2); 
-</syntaxHighlight>
 
-<syntaxHighlight lang="css">
 /* IE 8+ syntax */
 -ms-filter: "progid:DXImageTransform.Microsoft.Blur(pixelradius=2)"; 
 </syntaxHighlight>
@@ -105,7 +103,7 @@ Filters are supported from IE 4 - 9 and were removed from IE 10. They were also 
 |Specifications=
 }}
 {{See_Also_Section
-|External_links=* [http://www.satzansatz.de/cssd/onhavinglayout.html On Having Layout]
+|External_links=* [http://www.satzansatz.de/cssd/onhavinglayout.html www.satzansatz.de - On Having Layout]
 }}
 {{Topics}}
 {{External_Attribution
