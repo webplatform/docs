@@ -24,7 +24,7 @@
 |Example_object_name=AudioParam
 }}
 {{Examples_Section
-|Not_required=Yes
+|Not_required=No
 |Examples=
 }}
 {{Notes_Section}}
