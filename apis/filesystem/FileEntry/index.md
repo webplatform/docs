@@ -6,7 +6,39 @@
 {{API_Object}}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=The following code creates an empty file called "log.txt" (if it doesn't exist) and fills it with the text 'Meow'. Inside the success callback, event handlers are set up for error and writeend events. The text data is written to the file by creating a blob, appending text to it, and passing the blob to FileWriter.write().
+|Code=function onInitFs(fs) {
+ 
+  fs.root.getFile('log.txt', {create: true}, function(fileEntry) {
+ 
+    // Create a FileWriter object for our FileEntry (log.txt).
+    fileEntry.createWriter(function(fileWriter) {
+ 
+      fileWriter.onwriteend = function(e) {
+        console.log('Write completed.');
+      };
+ 
+      fileWriter.onerror = function(e) {
+        console.log('Write failed: ' + e.toString());
+      };
+ 
+      // Create a new Blob and write it to log.txt.
+      var bb = new BlobBuilder(); 
+     // Note: window.WebKitBlobBuilder.
+      bb.append('Meow');
+       
+      fileWriter.write(bb.getBlob('text/plain'));
+ 
+    }, errorHandler);
+ 
+  }, errorHandler);
+ 
+}
+ 
+window.requestFileSystem(window.TEMPORARY, 1024*1024, onInitFs, errorHandler);
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
@@ -83,7 +115,8 @@
 {{Topics|FileSystemAPI}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|MDN_link=
+|Sources=MDN
+|MDN_link=https://developer.mozilla.org/en-US/docs/DOM/File_API/File_System_API/FileEntry
 |MSDN_link=
 |HTML5Rocks_link=
 }}
