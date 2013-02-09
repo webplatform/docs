@@ -4,13 +4,19 @@
 {{Summary_Section|A User eXperience (UX) design technique}}
 {{Concept_Page
 |Content====What it is===
-First hand observation of how people perform and structure their work or any other relevant tasks.
+Shot summary used to quickly and simply define a product and its value proposition.
+*For <target customer>
+*who <statement of the need or opportunity>
+*the <product name>
+*is a <product category>
+*that <key benefit, compelling reason to buy>.
+*Unlike <primary competitive reason alternative>
+*our product <statement of primary differentiation>.
 ===Who does it===
-UX person or other team member. A pair of observers is ideal.
+The whole project team
 ===Key benefits===
-*Best way to understand your users
-*Only way to know what the real work flow or process is, instead of the official one
-* Opportunity to discuss with users what they are doing and why
+*Provides Business relevance and context
+*Forces to agree on killer features
 }}
 {{Examples_Section
 |Not_required=Yes
