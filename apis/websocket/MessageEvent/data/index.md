@@ -6,7 +6,7 @@
 {{API_Name}}
 {{Summary_Section|The data from the server.}}
 {{API_Object_Property
-|Property_applies_to=apis/websocket/MessageEvent
+|Property_applies_to=apis/websockets/MessageEvent
 |Read_only=No
 |Javascript_data_type=String
 }}
@@ -29,7 +29,8 @@
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|MDN_link=
+|Sources=MDN
+|MDN_link=https://developer.mozilla.org/en-US/docs/WebSockets/WebSockets_reference/MessageEvent
 |MSDN_link=
 |HTML5Rocks_link=
 }}
