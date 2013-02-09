@@ -33,22 +33,41 @@ The secont is the vertical distance, with positive values moving the shadow down
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=HTML
+|Description=The following examples use the HTML as described below:
+|Code=<!DOCTYPE html>
+<html>
+  <head>
+    <title>Text-shadow example</title>
+  </head>
+  <body>
+    <div id="foo">bar</div>
+  </body>
+</html>
+}}{{Single Example
 |Language=CSS
-|Description=The following example applies a dark gray shadow with a small blur value slightly to the right and under the specified text:
-|Code=.myselector 
-{
-  text-shadow: 0.1em 0.1em 0.15em #333;
+|Description=The following example creates a duplicate text, a solid text-shadow, 10px to the bottom right. The color shows the default color based on the UA.
+|Code=#foo {
+  text-shadow: 10px 10px;
 }
+|LiveURL=http://codepen.io/pverbeek/pen/BkcLe
+}}{{Single Example
+|Language=CSS
+|Description=The following example creates a duplicate text, a solid text-shadow, 10px to the top right. With a greenish color.
+|Code=#foo {
+  text-shadow: 10px -10px OliveDrab;
+}
+|LiveURL=http://codepen.io/pverbeek/pen/GKIgi
+}}{{Single Example
+|Language=CSS
+|Description=The following example creates a greenish blurred text-shadow without an offset.
+|Code=#foo {
+  text-shadow: #bada55 -10px -10px 2px;
+}
+|LiveURL=http://codepen.io/pverbeek/pen/cJLlz
 }}
 }}
-{{Notes_Section
-|Notes=The '''text-shadow''' property can specify one or more drop shadows. The components of each shadow are interpreted as follows:
-*Required: The first length is the ''horizontal offset'' of the shadow. A positive value draws a shadow that is offset to the right of the box, a negative length to the left.
-*Required: The second length is the ''vertical offset''. A positive value offsets the shadow down, a negative one up.
-*Optional: The third length is a ''blur distance''. Negative values are not allowed. If the blur value is zero, the shadow's edge is sharp. Otherwise, the larger the value, the more the shadow's edge is blurred.
-*Optional: The fourth length is a ''spread distance''. Positive values cause the shadow shape to expand in all directions by the specified radius. Negative values cause the shadow shape to contract.
-*Optional: The ''color'' is the color of the shadow.
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications=
 }}
