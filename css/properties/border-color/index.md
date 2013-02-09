@@ -10,7 +10,10 @@
 |Applies to=All elements
 |Inherited=No
 |Media=visual
+|Computed value=See individual properties
 |Animatable=No
+|CSS object model property=borderColor
+|CSS percentages=N/A 
 |Values={{CSS Property Value
 |Data Type=transparent
 |Description=Border is transparent.
@@ -22,54 +25,26 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=The following examples use the '''border-color''' attribute and the '''border-color''' property to specify the border color.
+|Language=CSS
+|Code=/* When we don't set border-color, color of a text is used as a default */
+.one {
+  color: #6CC644;
+  border: medium solid;
+}
 
-This example uses a call to an embedded (global) style sheet to change the color of the border to <code>blue</code> from an initial value of <code>red</code> when the mouse moves over the image.
-|Code=&lt;head&gt;
-&lt;style type{{=}}"text/css"&gt;
-TD {
-    border-color: red;
-    border-width: 0.5cm;
+/* You can use other color on each side */
+.two {
+  border: 10px solid;
+  border-color: #6CC644 #FFC621 #DE6525 #256A84;
 }
-.blue {
-    border-color: blue;
+
+/* You can use other color for other styles */
+.three {
+  border-width: 5px;
+  border-style: ridge dashed solid;
+  border-color: #6CC644 #DE6525;
 }
-&lt;/style&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;table border{{=}}""&gt;
-    &lt;tr&gt;
-        &lt;td onmouseover{{=}}"this.className{{=}}'blue'" onmouseout{{=}}"this.className{{=}}''"&gt;
-        &lt;img alt{{=}}"sphere" src{{=}}"sphere.jpg"&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-&lt;/table&gt;
-&lt;/body&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/border-color.htm
-}}{{Single Example
-|Description=This example uses inline scripting to change the color of the border to <code>blue</code> when the mouse moves over the image.
-|Code=&lt;td onmouseover{{=}}"this.style.borderWidth{{=}}'0.5cm';
-                 this.style.borderColor{{=}}'blue';
-                 this.style.borderStyle{{=}}'solid'"&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/borderColor.htm
-}}{{Single Example
-|Description=This example uses embedded styles to change the border from a value of <code>transparent</code> to a value of <code>gold</code>.
-|Code=&lt;head&gt;
-&lt;style type{{=}}"text/css"&gt;
-a:link, a:visited {
-    border-style: solid; 
-    border-width: 10px;
-    border-color: transparent;
-}
-a:hover {
-    border-style: ridge;
-    border-width: 10px;
-    border-color: gold;
-}
-&lt;/style&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;a href{{=}}"#"&gt;Yes.&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;a href{{=}}"#"&gt;No.&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;a href{{=}}"#"&gt;Maybe so.&lt;/a&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/border-color0.htm
+|LiveURL=http://kamila-wosinek.github.com/border-color/
 }}
 }}
 {{Notes_Section
@@ -78,14 +53,7 @@ a:hover {
 Up to four different colors can be specified in the following order: top, right, bottom, left. If one color is supplied, it is used for all four sides. If two colors are supplied, the first is used for the top and bottom, and the second is used for left and right. If three colors are supplied, they are used for top, right and left, and bottom, respectively.
 The '''border-color''' property does not render if the [[css/properties/border-style|'''border-style''']] property is set to '''none'''.
 Some browsers do not recognize color names, but all browsers should recognize RGB color values and display them correctly.
-As of Microsoft Internet Explorer 5.5, this property applies to inline elements.  With earlier versions of  Windows Internet Explorer, inline elements must have an '''absolute''' [[css/properties/position|'''position''']] or layout to use this property. Element layout is set by providing a value for the [[css/properties/height|'''height''']] property or the [[css/properties/width|'''width''']] property.
-|Import_Notes====Syntax===
-<code>'''border-color: ''''''[''' ''
-&lt;color&gt;
-'' '''{{!}}''' transparent ''']''''''
-{1,4}
-'''</code>
-===Standards information===
+|Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 5.5.16
 }}
 {{Related_Specifications_Section
