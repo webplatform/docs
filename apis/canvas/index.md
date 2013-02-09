@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags}}
-{{Standardization_Status|W3C Editor's Draft}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|Allows applications to render pixel-based graphics within a '''canvas''' element using a two-dimensional graphics ''context''.}}
 {{API_Listing}}
