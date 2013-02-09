@@ -5,7 +5,7 @@
 {{Summary_Section|The container for the geolocation information returned by this API.}}
 {{API_Object}}
 {{Examples_Section
-|Not_required=Yes
+|Not_required=No
 |Examples=
 }}
 {{Notes_Section}}
