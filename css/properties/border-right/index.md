@@ -29,18 +29,18 @@
 |Code=/* When we don't set border-right-color, color of a text is used as a default */
 .one {
   color: #6CC644;
-  border-bottom: medium solid;
+  border-right: medium solid;
 }
 
 /* When we don't set border-right-style, default style <none> will be used - therefore 
 no border will be rendered */
 .two {
-  border-bottom: 1px red;
+  border-right: 1px red;
 }
 
 /* Other border-right style example */
 .three {
-  border-bottom: dotted 2px red;
+  border-right: dotted 2px red;
 }
 }}
 }}
@@ -79,8 +79,8 @@ The default value for the [[css/properties/border-color|'''border-color''']] is 
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
+|Sources=MDN, MSDN
+|MDN_link=https://developer.mozilla.org/en-US/docs/CSS/border-right
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
