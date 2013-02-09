@@ -26,7 +26,8 @@ CSS properties
 * anselm?
 * list-style - florian
 * list-style-* - florian
-* border - marcin
+* border - marcin - DONE, NEEDS REVIEW
+* border-[top|right|bottom|left] - marcin
 * border-radius - udo
 * flex - rod
 * display: flex - rod
