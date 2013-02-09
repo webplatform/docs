@@ -43,6 +43,9 @@ If the property has a value different than none, a stacking context will be crea
 |Data Type=skewX(40deg)
 |Description=Specifies a 2D skew transformation along the X axis by the given [[css/units/angle|angle]]. 
 }}{{CSS Property Value
+|Data Type=skewY(0.25turn)
+|Description=Specifies a 2D skew transformation along the Y axis by the given [[css/units/angle|angle]]. 
+}}{{CSS Property Value
 |Data Type=none
 |Description=Specifies that no transform should be applied.
 }}
