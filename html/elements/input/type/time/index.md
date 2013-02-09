@@ -4,7 +4,7 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|An input field for entering a specific time value.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLInputElement
 }}
