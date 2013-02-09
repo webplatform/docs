@@ -12,17 +12,22 @@
 |Examples={{Single Example
 |Language=JavaScript
 |Description=The following function can be used to detect WebSocket support.
-|Code=function webSocketSupported() {
+|Code=<syntaxhighlight lang="javascript">
+function webSocketSupported() {
   return "WebSocket" in window;
 }
+</syntaxhighlight>
 }}{{Single Example
 |Language=JavaScript
-|Description=WebSockets are created via the WebSocket() constructor functio
-|Code=WebSocket( url[, protocols] )
+|Description=WebSockets are created via the WebSocket() constructor function.
+|Code=<syntaxhighlight lang="javascript">
+WebSocket( url[, protocols] )
+</syntaxhighlight>
 }}{{Single Example
 |Language=JavaScript
 |Description=Complete example
-|Code=if (window["WebSocket"]) {
+|Code=<syntaxhighlight lang="javascript">
+if (window["WebSocket"]) {
         conn = new WebSocket("ws://localhost:12345/wsendpoint");
         conn.onclose = function(evt) {
             console.log("Connection closed.");
@@ -34,6 +39,7 @@
         console.log("Your browser does not support WebSockets");
     }
 });
+</syntaxhighlight>
 }}
 }}
 {{Notes_Section
@@ -102,4 +108,11 @@ The '''WebSocket''' object has these methods.
 
 
 
+
 }
+
+
+
+
+
+}}
