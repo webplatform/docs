@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The '''address''' element is used to describe contact information of the owner or the author of the document or the article.}}
+{{Summary_Section|The '''address''' (&lt;address&gt;) element to describes contact information of the owner or the author of the document or the article.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
 }}
