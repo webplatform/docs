@@ -114,7 +114,7 @@ window.requestFileSystem(window.TEMPORARY, 1024*1024, onInitFs, errorHandler);
 {{See_Also_Section}}
 {{Topics|FileSystemAPI}}
 {{External_Attribution
-|Is_CC-BY-SA=No
+|Is_CC-BY-SA=Yes
 |Sources=MDN
 |MDN_link=https://developer.mozilla.org/en-US/docs/DOM/File_API/File_System_API/FileEntry
 |MSDN_link=
