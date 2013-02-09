@@ -14,13 +14,24 @@
 }}
 |Method_applies_to=apis/websocket/objects/WebSocket
 |Example_object_name=object
-|Return_value_name=object
-|Javascript_data_type=DOM Node
-|Return_value_description=This method does not return a value.
+|Javascript_data_type=void
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Code=var data = new ArrayBuffer(10000000);
+
+// perform some operations on the ArrayBuffer
+socket.send(data);
+
+if (socket.bufferedAmount === 0) {
+  // the data sent
+}
+else {
+  // the data did not send
+}
+}}
 }}
 {{Notes_Section
 |Notes====Remarks===
