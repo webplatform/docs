@@ -5,7 +5,8 @@
 {{Summary_Section|Applies a shadow to an element's pixels, for use by
 the [[css/properties/filter|'''filter''']] property.  Accepts up to 3
 distance measurements, representing ''x''/''y'' offset and blur
-radius, along with a color value.}}
+radius, along with a color value.
+}}
 {{CSS_Function
 |Content=This CSS property value is reflected in the following images:
 
@@ -30,8 +31,39 @@ allows for more vivid shadow effects:
 [[Image:giraffe_dropshadow.png]]
 }}
 {{Examples_Section
-|Not_required=Yes
-|Examples=
+|Not_required=No
+|Examples={{Single Example
+|Description=The below example shows the difference between the CSS box-shadow property and the drop-shadow filter function. Where the box-shadow property outlines the html box and the drop-shadow outlines the element parts.
+|Code=<!DOCTYPE html>
+<html>
+  <head>
+    <title>Filter example</title>
+    <style>
+      .foo {
+        width: 100px;
+        padding: 50px 0;
+        margin: 100px;
+        text-align: center;
+        border: dashed 10px red;
+        float: left;
+      }
+
+      .bar {
+        box-shadow: 5px 5px 10px black;
+      }
+
+      .baz {
+        -webkit-filter: drop-shadow(5px 5px 10px black);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="foo bar"></div>
+    <div class="foo baz"></div>
+  </body>
+</html>
+|LiveURL=http://codepen.io/pverbeek/pen/etIyE
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
