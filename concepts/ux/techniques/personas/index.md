@@ -1,13 +1,11 @@
 {{Page_Title|Personas}}
 {{Flags}}
 {{API_Name}}
-{{Summary_Section|A User eXperience (UX) design technique}}
+{{Summary_Section|Characterization of a type of user that we want to target with our product or application.}}
 {{Concept_Page
-|Content====What it is===
-Characterization of a type of user that we want to target with our product or application.
-===Who does it===
+|Content====Who does it===
 UX team
-===Key benefits===
+===Why to do it===
 *Provide insights into who the real users are
 *Remind team of users needs, rather than of managers or buyers
 *Allow team to ground communication throughout development
