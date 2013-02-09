@@ -24,7 +24,7 @@
 * ''vendorName-operationName'' - Vendor-specific extensions to the list of composition operators should use this syntax.
 }}
 {{Examples_Section
-|Not_required=Yes
+|Not_required=No
 |Examples=
 }}
 {{Notes_Section
