@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The '''del''' (&lt;del&gt;) indicates text that has been deleted from the document. Browsers normally strike a line through deleted text.}}
+{{Summary_Section|The '''del''' element (&lt;del&gt;) indicates text that has been deleted from the document. Browsers normally strike a line through deleted text.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
 }}
