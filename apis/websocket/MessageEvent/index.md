@@ -8,7 +8,14 @@
 {{API_Object}}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Code=<syntaxhighlight lang="javascript">
+socket.onmessage = function (event) {
+  console.log(event.data);
+}
+</syntaxhighlight>
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
