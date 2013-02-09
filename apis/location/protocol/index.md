@@ -15,7 +15,7 @@ The protocol the current document was accessed via (everything preceding the "//
 For example, <code>http://example.org/</code> would return the protocol <code>http:</code>.
 }}
 {{Examples_Section
-|Not_required=Yes
+|Not_required=No
 |Examples=
 }}
 {{Notes_Section}}
@@ -24,6 +24,7 @@ For example, <code>http://example.org/</code> would return the protocol <code>ht
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
