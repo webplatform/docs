@@ -4,7 +4,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Perhaps one of the hardest properties to fully master, the position property controls the type of positioning used by an element within its parent elements. The effect of the position attribute depends on a lot of factors, for example the value of position property of parent elements.}}
+{{Summary_Section|The position property controls the type of positioning used by an element within its parent elements. The effect of the position attribute depends on a lot of factors, for example the value of position property of parent elements.}}
 {{CSS Property
 |Initial value=static
 |Applies to=All elements
@@ -106,27 +106,51 @@
 }}
 }}
 {{Notes_Section
-|Usage=Setting the property to '''absolute''' pulls the object out of the "flow" of the document and positions it regardless of the layout of surrounding objects. If other objects already occupy the given position, they do not affect the positioned object, nor does the positioned object affect them. Instead, all objects are drawn at the same place, causing the objects to overlap. This overlap is controlled by using the [[css/properties/z-index|'''z-index''']] attribute or property. Absolutely positioned objects do not have margins, but they do have borders and padding.
-To enable absolute positioning on an object you must specify at least one of the [[css/properties/top|'''top''']], [[css/properties/bottom|'''bottom''']], [[css/properties/left|'''left''']], or [[css/properties/right|'''right''']] properties, in addition to setting the '''position''' property to '''absolute'''. Otherwise, these positioning properties use their default value of '''absolute''', which causes the object to render immediately after the preceding elements, according to the layout rules of HTML
+|Usage====Absolute===
+
+Setting the property to absolute pulls the object out of the "flow" of the document and positions it regardless of the layout of surrounding objects. If other objects already occupy the given position, they do not affect the positioned object, nor does the positioned object affect them. Instead, all objects are drawn at the same place, causing the objects to overlap. (This overlap is controlled by using the z-index attribute or property.)
+
+To enable absolute positioning on an object you must specify at least one of the top, bottom, left, or right properties, in addition to setting the position property to absolute. Otherwise, these positioning properties use their default value of absolute, which causes the object to render immediately after the preceding elements, according to the layout rules of HTML.
+
+Absolute positioning behaves differently dependent on the position value of the parent element. If a child element is set to position: absolute it behaves like this: 
+
+* If the parents position is '''static''' or '''default''', the position of the child element is calculated relative to the whole document based on top, bottom, left or right attributes.
+* If the parents position is not static ('''relative''', '''absolute''' or '''fixed''') the position of the child is calculated relative to the parent element and based on '''top''', '''bottom''', '''left''' or '''right''' attributes.
+
+Absolutely positioned objects do not have '''margins''', but they do have borders and padding.
+
+====Side Note====
 Input from pointing devices, such as the mouse, does not penetrate through overlapping elements even if the elements are not visible. This is also true for positioned elements with a negative z-index unless:
-*The parent is a scrolling container (that is, its [[css/properties/overflow|'''overflow''']] property is set to '''auto''' or '''scroll''').
-*The parent is positioned (that is, its '''position''' property is set to '''absolute''' or '''relative''').
 
-Setting the property to '''relative''' places the object in the natural HTML flow of the document, but offsets the position of the object based on the preceding content. The following syntax shows how to create superscript text by placing the text in a '''span''' that is positioned relative to the remaining text in the paragraph.
- <code>&lt;p&gt;The superscript in this name 
-     &lt;span style{{=}}"position: relative; 
-     top: -3px"&gt;xyz&lt;/span&gt; is &amp;quot;xyz&amp;quot;.&lt;/p&gt;</code>
-Text and objects that follow a relatively positioned object occupy their own space and do not overlap the natural space for the positioned object. In contrast, text and objects that follow an absolutely positioned object occupy what would have been the natural space for the positioned object before it was pulled out of the flow. Placing an absolutely positioned object beyond the viewable area of the window causes a scroll bar to appear. When relatively positioned objects are placed beyond the viewable area, a scroll bar is not shown.
-The size of the content determines the size of objects with layout. For example, setting the [[css/properties/height|'''height''']] and '''position''' properties on a '''div''' object gives it layout. The content of the '''div''' determines the size. In this case, the content determines the size of the [[css/properties/width|'''width''']].
-Starting in Internet Explorer 7. Fixed positioning is only supported for pages using a strict [[dom/properties/doctype|'''&lt;!DOCTYPE&gt; directive''']].
-For an overview about how to use dynamic positioning, see About Element Positioning.
-Internet Explorer 10. Setting the '''position''' property to '''page''' requires that the [[css/properties/display|'''display''']] property be set to '''-ms-positioned'''. Furthermore, setting '''display''' to '''-ms-positioned''' makes the other values for the '''position''' property behave in the following ways:
-*'''static'''  Default. The positioned float is laid out according to normal HTML flow.
-*'''absolute'''  The positioned float is laid out relative to its containing block, but the positioned float will affect the normal flow of its container. Inline content wraps around the positioned float; the positioned float is not laid out on top of inline content.
-*'''relative'''  The positioned float is laid out relative to where it would fall in the normal flow. The [[css/properties/bottom|'''bottom''']], [[css/properties/top|'''top''']], [[css/properties/left|'''left''']], and [[css/properties/right|'''right''']] properties can be used to calculate an offset from the element's position in the normal flow. Content will flow around the original position of the element, and the actual positioned float will be superimposed on top of inline content.
-*'''fixed'''  The positioned float is laid out relative to the initial position of the viewport, or browser window. (The positioned float's position is not updated as the viewport moves due to scrolling.)
+* The parent is a scrolling container (that is, its overflow property is set to auto or scroll). 
+* The parent is positioned (that is, its position property is set to absolute or relative).
 
-For more information, see Positioned Floats.
+===Relative===
+Setting the property to '''relative''' places the object in the natural HTML flow of the document, but offsets the position of the object based on the preceding content. The following syntax shows how to create superscript text by placing the text in a span that is positioned relative to the remaining text in the paragraph.
+
+<nowiki>
+<p>The superscript in this name 
+    <span style="position: relative; 
+    top: -3px">xyz</span> is &quot;xyz&quot;.</p>
+</nowiki>
+
+Text and objects that follow a relatively positioned object occupy their own space and do not overlap the natural space for the positioned object. In contrast, text and objects that follow an absolutely positioned object occupy what would have been the natural space for the positioned object before it was pulled out of the flow. Placing an absolutely positioned object beyond the viewable area of the window causes a scroll bar to appear. When relatively positioned objects are placed beyond the viewable area, a scroll bar is not shown. The size of the content determines the size of objects with layout. For example, setting the height and position properties on a div object gives it layout. The content of the div determines the size. In this case, the content determines the size of the width. 
+
+
+===Fixed===
+An element with a '''fixed''' position is positioned relative to the visible viewport. It does not move away if the browser window is scrolled but appears to be fixed in the viewport. A common pattern and example is to use position: fixed on navigation elements that should be visible on the whole page regardless of the scrollbar position. Fixed positioning is only supported for pages using a strict <!DOCTYPE> directive.
+
+===Short===
+static Default. 
+The positioned float is laid out according to normal HTML flow.
+
+absolute The positioned float is laid out relative to its containing block, but the positioned float will affect the normal flow of its container. Inline content wraps around the positioned float; the positioned float is not laid out on top of inline content.
+
+relative The positioned float is laid out relative to where it would fall in the normal flow. The bottom, top, left, and right properties can be used to calculate an offset from the element's position in the normal flow. Content will flow around the original position of the element, and the actual positioned float will be superimposed on top of inline content.
+
+fixed The positioned float is laid out relative to the initial position of the viewport, or browser window. (The positioned float's position is not updated as the viewport moves due to scrolling.)
+
+
 }}
 {{Related_Specifications_Section
 |Specifications=
