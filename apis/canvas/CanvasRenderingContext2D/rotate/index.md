@@ -64,7 +64,7 @@ ctx.fillRect(0,0,100,100);
 }}
 }}
 {{Notes_Section
-|Notes=Rotation is based on the current origin.
+|Notes=Rotation is based on the current origin which is most of the time the upper left corner. Use rectWidth/-2 as an offsetX and rectHeight/-2 as offsetY to draw the rotated rect with a centered origin.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
