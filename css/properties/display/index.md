@@ -139,7 +139,15 @@ In Windows Internet Explorer 7 and earlier, the default value of this property 
 {{!}}}
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS basic box model, Section 4.1.
+|URL=http://www.w3.org/TR/css3-box/#the-lsquo
+|Status=Working Draft
+}}{{Related Specification
+|Name=CSS 2.1, Visual formatting model, Section 9.2.4
+|URL=http://www.w3.org/TR/CSS21/visuren.html#display-prop
+|Status=Recommendation
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
