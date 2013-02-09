@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The '''blockquote''' (&lt;blockquote&gt;) element indicates an extended quotation. }}
+{{Summary_Section|The '''blockquote'''  element (&lt;blockquote&gt;) indicates an extended quotation.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
 }}
