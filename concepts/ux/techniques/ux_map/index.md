@@ -1,10 +1,10 @@
 {{Page_Title|User eXperience map}}
 {{Flags}}
 {{API_Name}}
-{{Summary_Section|A User eXperience (UX) design technique}}
+{{Summary_Section|Visual representation of the user workflow for accomplishing a goal.}}
 {{Concept_Page
 |Content====What it is===
-Visual representation of the user workflow for accomplishing a goal. Key elements include:
+Key elements include:
 *Questions: to signal areas where more information and understanding is needed
 *Comments with known information that clarifies or lends meaning.
 *Ideas to illustrate an interesting concept that could enhance a step.
@@ -12,7 +12,7 @@ Visual representation of the user workflow for accomplishing a goal. Key element
 ===Who does it===
 The whole project team
 
-===Key benefits===
+===Why to do it===
 *Make team's lack of knowledge explicit
 *Good to figure out areas that need further user research
 }}
