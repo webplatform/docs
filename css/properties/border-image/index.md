@@ -17,7 +17,7 @@
 |Data Type=none
 }}{{CSS Property Value
 |Data Type=border-image-source
-|Description=see [border-image-source /wiki/css/properties/border-image-source] for more information;
+|Description=see [[border-image-source]] for more information;
 }}
 }}
 {{Examples_Section
@@ -25,9 +25,13 @@
 |Examples={{Single Example
 |Language=CSS
 |Code=[[File:border-image.png|border-image demo image]]
+
 Using the image above as a border-image with the following settings
+
 <code>border-image: url("border-image.png") 30 30 repeat;</code>
+
 it will result in an output like this
+
 [[File:bi-repeat.png|example of a repeated background-image]]
 }}
 }}
