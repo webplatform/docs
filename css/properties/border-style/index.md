@@ -49,45 +49,9 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single Example
-|Description=The following examples use the '''border-style''' attribute and the '''border-style''' property to specify the border style.
-
-This example uses a call to an embedded (global) style sheet to change the style of the border to '''groove''' when an [[dom/events/mouseover|'''onmouseover''']] event occurs.
-|Code=&lt;head&gt;
-&lt;style type{{=}}"text/css"&gt;
-td {
-    border-style: solid;
-    border-width: 0.5cm;
-}
-.change {
-    border-style: groove;
-}
-&lt;/style&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;table border{{=}}""&gt;
-    &lt;tr&gt;
-        &lt;td onmouseover{{=}}"this.className{{=}}'change'" onmouseout{{=}}"this.className{{=}}''"&gt;
-            &lt;img src{{=}}"sphere.jpg" alt{{=}}"sphere image"&gt; 
-        &lt;/td&gt;
-    &lt;/tr&gt;
-&lt;/table&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/border-style.htm
-}}{{Single Example
-|Description=This example uses inline scripting to change the style of the border to '''groove''' when an [[dom/events/mouseover|'''onmouseover''']] event occurs.
-|Code=&lt;td onmouseover{{=}}"this.style.borderWidth{{=}}'0.5cm';
-    this.style.borderStyle{{=}}'groove'"&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/borderStyle.htm
+|Examples=
 }}
-}}
-{{Notes_Section
-|Notes====Remarks===
-As of Internet Explorer 5.5, this property applies to inline elements.  With earlier versions of  Internet Explorer, inline elements must have an '''absolute''' [[css/properties/position|'''position''']] or layout to use this property. Element layout is set by providing a value for the [[css/properties/height|'''height''']] property or the [[css/properties/width|'''width''']] property.
-|Import_Notes====Syntax===
-<code>'''border-style: '''none '''{{!}}''' dotted '''{{!}}''' dashed '''{{!}}''' solid '''{{!}}''' double '''{{!}}''' groove '''{{!}}''' ridge '''{{!}}''' inset '''{{!}}''' outset '''{{!}}''' window-inset '''{{!}}''' hidden</code>
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 5.5.17
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications=
 }}
