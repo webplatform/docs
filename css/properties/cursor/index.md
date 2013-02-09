@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags}}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|The cursor CSS property specifies the mouse cursor displayed when the mouse pointer is over an element.}}
 {{CSS Property
@@ -10,6 +10,7 @@
 |Media=visual
 |Computed value=as specified (if a keyword)
 |Animatable=No
+|CSS object model property=cursor
 |CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=url [x, y]
@@ -174,7 +175,7 @@ Cursors have been the subject of security bulletins and updates.  If your custom
 |Opera_prefixed_supported=Unknown
 |Opera_prefixed_version=
 |Safari_supported=Yes
-|Safari_version=1.2 | 3.0
+|Safari_version=1.2
 |Safari_prefixed_supported=Unknown
 |Safari_prefixed_version=
 }}{{Compatibility Table Desktop Row
