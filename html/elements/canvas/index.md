@@ -1,10 +1,10 @@
-{{Page_Title|Canvas}}
+{{Page_Title|canvas}}
 {{Flags
 |Content=Incomplete
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|The '''canvas''' element (&lt;canvas&gt;) provides scripts with a resolution-dependent bitmap canvas, which can be used for rendering graphs, game graphics, or other visual images on the fly. The canvas element is one of the most important elements introduced in HTML5. }}
+{{Summary_Section|The '''canvas''' element (&lt;canvas&gt;) provides scripts with a resolution-dependent bitmap canvas, which can be used for rendering graphs, game graphics, or other visual images on the fly. The canvas element is one of the most important elements introduced in HTML5.}}
 {{Markup_Element
 |DOM_interface=HTMLCanvasElement
 }}
