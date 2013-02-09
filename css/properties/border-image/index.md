@@ -12,9 +12,8 @@
 |Media=visual
 |Computed value=based on individual properties
 |Animatable=No
-|Values={{CSS Property Value
-|Data Type=none
-}}
+|CSS object model property=http://dev.w3.org/csswg/css3-background/#border-image
+|Values={{CSS Property Value}}
 }}
 {{Examples_Section
 |Not_required=No
