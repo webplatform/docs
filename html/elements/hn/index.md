@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Renders text in heading style.}}
+{{Summary_Section|The '''h1''' through '''h6''' elements define levels of headings within a document.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
 }}
