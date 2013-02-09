@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Data Not Semantic
-|Content=Incomplete, Not Neutral, Examples Best Practices
+|Content=Not Neutral, Examples Best Practices
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -178,7 +178,7 @@ For more information, see Positioned Floats.
 |Safari_prefixed_supported=Yes
 |Safari_prefixed_version=Nightlies
 }}{{Compatibility Table Desktop Row
-|Feature=position: static | absolute | relative
+|Feature=position: static
 |Chrome_supported=Yes
 |Chrome_prefixed_supported=Unknown
 |Chrome_prefixed_version=
@@ -196,7 +196,7 @@ For more information, see Positioned Floats.
 |Safari_prefixed_version=
 }}
 |Mobile_rows={{Compatibility Table Mobile Row
-|Feature=position: static | absolute | relative
+|Feature=position: static
 |Android_supported=Yes
 |Android_prefixed_supported=Unknown
 |Android_prefixed_version=
