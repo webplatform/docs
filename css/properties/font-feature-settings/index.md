@@ -125,6 +125,10 @@ Whenever possible, Web authors should use the '''font-variant''' property. This 
 }}
 {{See_Also_Section
 |Topic_clusters=Fonts
+|External_links=* Mozilla: [http://hacks.mozilla.org/2010/11/firefox-4-font-feature-support/ Firefox 4: OpenType font feature support]
+* IEBlog [https://blogs.msdn.com/b/ie/archive/2012/01/09/css-corner-using-the-whole-font.aspx?Redirected=true CSS Corner: Using the Whole Font]
+* FontDeck blog [http://blog.fontdeck.com/post/15777165734/opentype-1 
+Using OpenType font features with CSS 3: Part 1]
 |Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 }}
