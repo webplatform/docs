@@ -41,7 +41,7 @@ A handful of these filters are not just statically applied, but they also need t
     }
     </style>
 </head>
-	<body>
+    <body>
         <img id="filtered" src="picture.jpg">
         <script>
             /*****************************************************
