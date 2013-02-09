@@ -70,11 +70,13 @@ In Windows Internet Explorer 9, the background of a box can have multiple layer
 '' '''{{!}}''' ''
 &lt;length&gt;
 ''</code>
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}197157 CSS Backgrounds and Borders Module Level 3], Section 3.9
 }}
 {{Related_Specifications_Section
-|Specifications={{Related Specification}}
+|Specifications={{Related Specification
+|Name=CSS Backgrounds and Borders Module Level 3
+|URL=http://www.w3.org/TR/css3-background/#the-background-size
+|Status=Candidate Recommendation
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
