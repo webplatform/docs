@@ -117,7 +117,8 @@
 {{See_Also_Section}}
 {{Topics|Canvas}}
 {{External_Attribution
-|Is_CC-BY-SA=Yes
+|Is_CC-BY-SA=No
+|Sources=MSDN
 |MDN_link=
 |MSDN_link=
 |HTML5Rocks_link=
