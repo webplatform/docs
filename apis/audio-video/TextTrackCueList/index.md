@@ -7,7 +7,7 @@
 {{Summary_Section|A TextTrackCueList object represents a dynamically updating list of text track cues in a given order.}}
 {{API_Object}}
 {{Examples_Section
-|Not_required=Yes
+|Not_required=No
 |Examples=
 }}
 {{Notes_Section}}
