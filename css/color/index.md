@@ -12,8 +12,6 @@ The [http://www.w3.org/TR/REC-html40/types.html#h-6.5 HTML 4.01 spec] defines 1
 
 <syntaxHighlight>color: red; /* color rendered pure red */</syntaxHighlight>
 
-[[Image:named_system_colors.png]]
-
 The [http://www.w3.org/TR/CSS2/syndata.html#color-units Cascading Style Sheets, Level 2 Revision 1 (CSS2.1)] specification includes "orange" (#FFA500) for a total of 17 color keywords.
 
 ==Extended Color keywords==
@@ -63,7 +61,7 @@ Modern browsers (Opera, Firefox, Chrome, Safari, and Internet Explorer 9+) also 
 {{!}}-
 {{!}}0°
 {{!}}red
-{{!}}[[Image:FF0000.png]]
+<div style="background-color:#ff0000">{{!}}</div>[[Image:FF0000.png]]
 {{!}}-
 {{!}}60
 {{!}}yellow
@@ -141,6 +139,9 @@ You can set the opacity of an entire element using the [[css/properties/opacity|
 {{See_Also_Section
 |Topic_clusters=Visual Effects
 }}
+
+
+
 
 
 
