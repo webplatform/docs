@@ -45,12 +45,12 @@
 }}
 }}
 {{Notes_Section
-|Usage=<syntaxHighlighting>
+|Usage=<syntaxHighlight>
 border-image-outset: sides                  /* One-value syntax   */  E.g. border-image-slice: 30%; 
 border-image-outset: vertical horizontal    /* Two-value syntax   */  E.g. border-image-slice: 10% 30%; 
 border-image-outset: top vertical bottom    /* Three-value syntax */  E.g. border-image-slice: 30px 30% 45px; 
 border-image-outset: top right bottom left  /* Four-value syntax  */  E.g. border-image-slice: 7px 12px 14px 5px;
-</syntaxHighlighting>
+</syntaxHighlight>
 
 border-image-outset: inherit
 }}
