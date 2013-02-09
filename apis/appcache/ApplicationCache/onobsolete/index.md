@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|The ApplicationCache object's cache host is associated with an application cache whose application cache group is marked as obsolete.}}
+{{Summary_Section|The Webpage is associated with an application cache whose group is marked as obsolete.}}
 {{API_Object_Property
 |Property_applies_to=apis/appcache/ApplicationCache
 |Read_only=No
@@ -11,7 +11,7 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example}}
 }}
 {{Notes_Section
 |Notes=If the manifest file can't be found, the cache is considered to be deleted.
