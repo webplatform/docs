@@ -20,8 +20,39 @@
 }}
 }}
 {{Examples_Section
-|Not_required=Yes
-|Examples=
+|Not_required=No
+|Examples={{Single Example
+|Description=The below example shows the difference between the CSS box-shadow property and the drop-shadow filter function. Where the box-shadow property outlines the html box and the drop-shadow outlines the element parts.
+|Code=<!DOCTYPE html>
+<html>
+  <head>
+    <title>Filter example</title>
+    <style>
+      .foo {
+        width: 100px;
+        padding: 50px 0;
+        margin: 100px;
+        text-align: center;
+        border: dashed 10px red;
+        float: left;
+      }
+
+      .bar {
+        box-shadow: 5px 5px 10px black;
+      }
+
+      .baz {
+        -webkit-filter: drop-shadow(5px 5px 10px black);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="foo bar"></div>
+    <div class="foo baz"></div>
+  </body>
+</html>
+|LiveURL=http://codepen.io/pverbeek/pen/etIyE
+}}
 }}
 {{Notes_Section
 |Usage=Filters apply any combination of image processing functions to
