@@ -5,7 +5,7 @@
 {{Summary_Section|[[apis/webaudio/DynamicsCompressorNode|'''DynamicsCompressorNode''']] is an [[apis/webaudio/AudioNode|'''AudioNode''']] processor implementing a dynamics compression effect, which lowers the volume of the loudest parts of the signal and raises the volume of the softest parts. Compression is especially important in games and musical applications where large numbers of individual sounds are played simultaneously to control the overall signal level and help avoid clipping (distorting) the audio output to the speakers.}}
 {{API_Object}}
 {{Examples_Section
-|Not_required=Yes
+|Not_required=No
 |Examples=
 }}
 {{Notes_Section}}
