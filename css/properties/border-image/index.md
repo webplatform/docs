@@ -17,7 +17,7 @@
 |Data Type=none
 }}{{CSS Property Value
 |Data Type=border-image-source
-|Description=see [[border-image-source]] for more information;
+|Description=see [[/css/properties/border-image-source|border-image-source]] for more information;
 }}
 }}
 {{Examples_Section
