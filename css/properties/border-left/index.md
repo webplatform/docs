@@ -29,18 +29,18 @@
 |Code=/* When we don't set border-left-color, color of a text is used as a default */
 .one {
   color: #6CC644;
-  border-bottom: medium solid;
+  border-left: medium solid;
 }
 
 /* When we don't set border-left-style, default style <none> will be used - therefore 
 no border will be rendered */
 .two {
-  border-bottom: 1px red;
+  border-left: 1px red;
 }
 
 /* Other border-left style example */
 .three {
-  border-bottom: dotted 2px red;
+  border-left: dotted 2px red;
 }
 |LiveURL=http://kamila-wosinek.github.com/border-left/
 }}
