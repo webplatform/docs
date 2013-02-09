@@ -12,7 +12,7 @@ Using an application cache gives an application the following benefits:
 }}
 {{API_Object}}
 {{Examples_Section
-|Not_required=Yes
+|Not_required=No
 |Examples=
 }}
 {{Notes_Section
