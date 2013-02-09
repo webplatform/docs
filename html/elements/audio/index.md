@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|The '''audio''' (&lt;audio&gt) element is used for playing audio files and may include a minimal media player user interface.}}
+{{Summary_Section|The '''audio''' (&lt;audio&gt;) element is used for playing audio files and may display a minimal media player user interface.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLAudioElement
 |Content====Standards information===
