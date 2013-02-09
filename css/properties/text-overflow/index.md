@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|The text-overflow CSS property determines how overflowed content that is not displayed is signaled to the users. It can be clipped, display an ellipsis ('…', U+2026 HORIZONTAL ELLIPSIS) or a Web author-defined string.}}
+{{Summary_Section|The text-overflow shorthand CSS property determines how overflowed content that is not displayed is signaled to the users. It can be clipped, display an ellipsis ('…', U+2026 HORIZONTAL ELLIPSIS) or a Web author-defined string. It covers the two long-hand properties [[css/properties/text-overflow-mode|text-overflow-mode]] and [[css/properties/text-overflow-ellipsis|text-overflow-ellipsis]]}}
 {{CSS Property
 |Initial value=not defined for shorthand properties
 |Applies to=block-level and inline-block elements
@@ -13,7 +13,7 @@
 |Media=visual
 |Computed value=see individual properties
 |Animatable=No
-|CSS object model property=<'text-overflow-mode'> || <'text-overflow-ellipsis'>
+|CSS object model property=<'text-overflow-mode'>
 |Values={{CSS Property Value
 |Data Type=clip
 |Description=Default. Simply clips the content and does not display ellipsis for text-overflow.
