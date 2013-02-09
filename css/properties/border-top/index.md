@@ -10,7 +10,10 @@
 |Applies to=All elements
 |Inherited=No
 |Media=visual
+|Computed value=See individual properties
 |Animatable=No
+|CSS object model property=borderTop
+|CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=<border-width> <border-style> <color>
 |Description=Any of the range of width values available to the [[css/properties/border-top-width|'''border-top-width''']] property.
