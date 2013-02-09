@@ -77,7 +77,6 @@ p { font-family: Courier, "Times New Roman", serif; }
 {{See_Also_Section
 |Topic_clusters=CSS Font, Fonts
 |External_links=* [http://mathiasbynens.be/notes/unquoted-font-family Unquoted font family names in CSS]
-* [http://www.w3schools.com/cssref/pr_font_font-family.asp CSS font-family Property}
 |Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
