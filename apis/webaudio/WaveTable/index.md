@@ -5,7 +5,7 @@
 {{Summary_Section|WaveTable represents an arbitrary periodic waveform to be used with an [[apis/webaudio/OscillatorNode|'''OscillatorNode''']].}}
 {{API_Object}}
 {{Examples_Section
-|Not_required=Yes
+|Not_required=No
 |Examples=
 }}
 {{Notes_Section}}
