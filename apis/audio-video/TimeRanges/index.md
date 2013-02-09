@@ -7,7 +7,7 @@
 {{Summary_Section|A TimeRanges object represents the collection of ranges (time periods) from the media resource that have been buffered or played. Ranges in a TimeRanges collection are sequential and not empty. Adjacent ranges are combined together to create longer ones.}}
 {{API_Object}}
 {{Examples_Section
-|Not_required=Yes
+|Not_required=No
 |Examples={{Single Example
 |Description=The following script shows how to access the list of ranges that have been played.
 |Code=var ranges {{=}} document.getElementById('myVideo').played;
@@ -43,3 +43,10 @@ for (var i{{=}}0; i&lt;ranges.length; i++)
 |MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
 |HTML5Rocks_link=
 }}
+}
+
+
+
+
+
+}
