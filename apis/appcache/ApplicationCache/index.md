@@ -70,29 +70,11 @@ Also, web resources can be specified to only be loaded from the network. This is
 '''ApplicationCache''' functionality is independent of HTTP caching headers.
 The manifest file implicitly includes itself as a page to be cached. It also needs to have the same domain of origin as the page that contains it.
 |Notes==== Limitations ===
-A browser can not allocate unlimited disk space for ressources that should be cached. Especially when it comes down to cashing big media files like videos, you should check if the users Browser is able to store that file. There are differences in the browser implementations, as shown below: 
+A browser can not allocate unlimited disk space for ressources that should be cached. Especially when it comes down to cashing big media files like videos, you should check if the user's browser is able to store that file:
 
-{{{!}}
-! Browser
-! Max. space per item
-! Max. space per domain (including subdomains)
-{{!}}-
-{{!}} Chrome
-{{!}} 32Mb
-{{!}} 260Mb
-{{!}}-
-{{!}} Firefox
-{{!}} unkn.
-{{!}} 50Mb
-{{!}}-
-{{!}} Desktop Safari
-{{!}} unkn.
-{{!}} 5Mb
-{{!}}-
-{{!}} Mobile Safari
-{{!}} unkn.
-{{!}} 5Mb
-{{!}}}
+* '''[http://www.browserscope.org/user/tests/table/agt1YS1wcm9maWxlcnINCxIEVGVzdBjwwK0RDA?v=3&layout=simple Available ApplicationCache sizes for different browser versions]'''
+* [http://www.der-schepp.de/appcache-default-size/ Run the test in your own browser]
+
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -170,10 +152,11 @@ A browser can not allocate unlimited disk space for ressources that should be ca
 *[http://appcachefacts.info/ appcachefacts.info]
 *[http://manifest-validator.com Cache Manifest Validator]
 }}
-{{Topics|Appcache, Connectivity, DOM}}
+{{Topics|Appcache}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MDN, MSDN, HTML5Rocks
+|Sources=MDN, MSDN
 |MDN_link=https://developer.mozilla.org/en-US/docs/HTML/Using_the_application_cache
 |MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx
+|HTML5Rocks_link=
 }}
