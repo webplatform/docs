@@ -53,6 +53,24 @@ Alternatively, web resources that need to be cached can be specified by adding a
 In addition, fallback resources can be defined to replace general or specific web resources when there is no network connectivity. This is done by adding a “FALLBACK:” header section before the resources.  These resources can be wildcard to specify a catch all mechanism (as shown previously). Be aware  that there is a space after the first "images/" in the FALLBACK: section. This indicates that any files contained under the "images/" directory will fall back to a specific web resource (for example, images/imagename4.png) if they cannot be accessed from the network.
 Also, web resources can be specified to only be loaded from the network. This is done by adding a "NETWORK: " header section before the resources.  This functionality can be used to scope down the number of resources that can be accessed from the network, thus, creating an allowed only list (as shown previously).
 
+{{{!}}
+! Section
+! Description
+! Example
+{{!}}-
+{{!}} CACHE
+{{!}} This is the default section for entries. Files listed under this header (or immediately after the CACHE MANIFEST) will be explicitly cached after they're downloaded for the first time.
+{{!}} xxx
+{{!}}-
+{{!}} NETWORK
+{{!}} Files listed under this section are white-listed resources that require a connection to the server. All requests to these resources bypass the cache, even if the user is offline. Wildcards may be used.
+{{!}} xxx
+{{!}}-
+{{!}} FALLBACK
+{{!}} An optional section specifying fallback pages if a resource is inaccessible. The first URI is the resource, the second is the fallback. Both URIs must be relative and from the same origin as the manifest file. Wildcards may be used.
+{{!}} xxx
+{{!}}}
+
 '''ApplicationCache''' functionality is independent of HTTP caching headers.
 The manifest file implicitly includes itself as a page to be cached. It also needs to have the same domain of origin as the page that contains it.
 }}
