@@ -5,13 +5,15 @@
 {{Summary_Section|This interface represents a directory on a file system.}}
 {{API_Object}}
 {{Examples_Section
-|Not_required=No
+|Not_required=Yes
 |Examples={{Single Example
 |Language=JavaScript
 |Description=In the following code snippet, we create a direct called "Documents."
 |Code=// Taking care of the browser-specific prefixes.
 window.requestFileSystem  = window.requestFileSystem || window.webkitRequestFileSystem; 
 window.directoryEntry = window.directoryEntry || window.webkitDirectoryEntry;
+ 
+...
  
 function onFs(fs){
   fs.root.getDirectory('Documents', {create:true}, function(directoryEntry){
