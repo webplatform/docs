@@ -41,12 +41,7 @@
 .three {
   border-bottom: dotted 2px red;
 }
-
 |LiveURL=http://kamila-wosinek.github.com/border-bottom/
-}}{{Single Example
-|Description=This example uses inline scripting to change the bottom border.
-|Code=&lt;TD onmouseover{{=}}"this.style.borderBottom{{=}}'0.3cm groove yellow'"&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/borderBottom.htm
 }}
 }}
 {{Notes_Section
