@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|The &lt;br&gt; element forcibly breaks (ends) the current line of text.}}
+{{Summary_Section|The '''br''' (&lt;br&gt;) element forcibly breaks (ends) the current line of text, without starting a new paragraph.}}
 {{Markup_Element
 |DOM_interface=[[dom/HTMLBRElement|HTMLBRElement]]
 }}
@@ -33,6 +33,7 @@ Sydney&lt;/p&gt;
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
