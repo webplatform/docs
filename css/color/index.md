@@ -1,6 +1,6 @@
-{{Page_Title|Color table}}
+{{Page_Title|color}}
 {{Flags}}
-{{Summary_Section}}
+{{Summary_Section|This page explains the different mechanisms available in HTML and CSS to specify colors.}}
 {{Basic Page}}
 ===Basic HTML Color Names===
 Only 16 color "keywords" (names) are defined by the HTML 4.01 standard. These colors can always be rendered properly, regardless of the color resolution of the user's display card.
