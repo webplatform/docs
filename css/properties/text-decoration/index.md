@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|Content=Compatibility Incomplete, Examples Needed
+|Content=Compatibility Incomplete
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -36,7 +36,29 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=HTML
+|Code=
+<p class="under">Underlined text</p>
+<p class="over">Overlined text</p>
+<p class="through">Line through text</p>
+<p class="blink">Blinking text</p>
+<p class="mixed">Mixed decoration text</p>
+
+
+
+|LiveURL=http://dabblet.com/gist/4744959
+}}{{Single Example
 |Language=CSS
+|Code=/**
+ * text-decoration property examples
+ */
+
+.under   { text-decoration: underline; }
+.over    { text-decoration: overline; }
+.through { text-decoration: line-through; }
+.blink   { text-decoration: blink; }
+.mixed   { text-decoration: underline overline line-through; }
+
 }}
 }}
 {{Notes_Section
