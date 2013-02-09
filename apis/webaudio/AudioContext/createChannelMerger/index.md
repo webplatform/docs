@@ -15,7 +15,7 @@
 |Return_value_description=Determines the number of outputs. Values of up to 32 must be supported. If not specified, then 6 will be used.
 }}
 {{Examples_Section
-|Not_required=Yes
+|Not_required=No
 |Examples=
 }}
 {{Notes_Section}}
