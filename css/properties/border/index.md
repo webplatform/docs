@@ -25,28 +25,24 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=The following examples use the '''border''' attribute and the '''border''' property to specify the composite border properties.
+|Language=CSS
+|Code=
+.one/* When we don't set border-color, color of a text is used as a default */
+.one {
+  color: blue;
+  border: medium solid;
+}
 
-This example uses a call to an embedded (global) style sheet to modify the '''border''' attribute.
-|Code=&lt;HEAD&gt;
-&lt;STYLE&gt;
-    .applyBorder { border:0.2cm groove orange }
-    .removeBorder { border:none }
-&lt;/STYLE&gt;
-&lt;/HEAD&gt;
-&lt;BODY&gt;
-&lt;TABLE BORDER&gt;
-&lt;TR&gt; 
-    &lt;TD onmouseover{{=}}"this.className{{=}}'applyBorder'"
-        onmouseout{{=}}"this.className{{=}}'removeBorder'"&gt;
-    &lt;IMG src{{=}}"sphere.jpg"&gt;&lt;/TD&gt;
-&lt;/TR&gt;
-&lt;/TABLE&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/border_h.htm
-}}{{Single Example
-|Description=This example uses inline scripting to modify the '''border''' property.
-|Code=&lt;TD onmouseover{{=}}"this.style.border{{=}}'0.2cm groove pink'"&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/border_s.htm
+/* When we don't set border-style, default style <none> will be used - therefor no border will be rendered */
+.two {
+  border: 1px red;
+}
+
+/* Other border style example */
+.three {
+  border: dotted 2px red;
+}
+|LiveURL=http://marcin-wosinek.github.com/border/
 }}
 }}
 {{Notes_Section
