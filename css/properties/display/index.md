@@ -7,10 +7,13 @@
 {{API_Name}}
 {{Summary_Section|In addition to the position property, display property tells the browser how to render the element. It can be used to completely remove the element from the page, or to specify flow and the type of rendering box for an element.}}
 {{CSS Property
+|Initial value=inline
 |Applies to=All elements
 |Inherited=No
 |Media=visual
+|Computed value=specified value; except for floats, root elements and positioned elements
 |Animatable=No
+|CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=block
 |Description=Object is rendered as a block element.
@@ -157,6 +160,7 @@ In Windows Internet Explorer 7 and earlier, the default value of this property 
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
