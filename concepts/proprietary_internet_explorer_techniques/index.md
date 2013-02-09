@@ -133,6 +133,37 @@ One thing to note is that up until IE 8, font antialiasing is being disabled for
 </syntaxHighlight>
 
 Filters are supported from IE 4 - 9 and were removed from IE 10. They were also removed from all legacy modes inside IE 10.
+
+=DHTML Behaviors=
+
+In IE you can attach so-called "behaviors" to elements via CSS. Behaviors are scripts that can watch and modify the element. One handy advantage over using traditional page scripting is that when you attach new elements to the document tree those will automatically get a script treatment, too. A good use case is the dynamic light filter that we talked about. Assigning the filter property on its own is not enough - you always need to have a script run afterwards. Instead of doing this manually, you could put the script into a behavior file and attach that along with the filter in CSS: 
+
+<syntaxHighlight lang="css">
+filter: progid:DXImageTransform.Microsoft.Light();
+behavior: url(/scripts/redcoloredlight.htc);
+</syntaxHighlight>
+
+It is important to know that the path referenced in <code>url()</code> is not relative to the CSS file as one would think. Instead it is relative to the HTML file. The best solution to counter any problems is to use an absolute URL as shown above.
+
+That said, this would be how the referenced <code>redcoloredlight.htc</code> would look like:
+
+<syntaxHighlight lang="javascript">
+<component>
+<script type="text/javascript">
+element.filters.item('DXImageTransform.Microsoft.Light').addAmbient(255, 0, 0, 100);
+</script>
+</component>
+</syntaxHighlight>
+
+Within a behavior script the HTML element it is attached to can be accessed via <code>element</code>. And if you want to access <code>document</code> you need to address <code>element.document</code>.
+
+Notice: Sometimes IE refuses to run a behavior script if the correct MIME type is not set. The correct type would be <code>text/x-component</code>. If you are on Apache you can set the MIME type yourself by adding this line to your <code>.htaccess</code>:
+
+<syntaxHighlight>
+AddType text/x-component .htc
+</syntaxHighlight>
+
+Behaviors are supported from IE 4 - 9 and were removed from IE 10. They were also removed from all legacy modes inside IE 10.
 }}
 {{Examples_Section
 |Not_required=Yes
