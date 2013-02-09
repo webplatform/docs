@@ -15,7 +15,7 @@ Links to descriptions of length and color are in the [[#Remarks]] section, below
 |Applies to=All elements
 |Inherited=No
 |Media=visual
-|Computed value=any [[css/data_types/length|length]] made absolute; any specified color computed; otherwise as specified
+|Computed value=any length made absolute; any specified color computed; otherwise as specified
 |Animatable=No
 |CSS object model property=boxShadow
 |CSS percentages=???
@@ -24,16 +24,16 @@ Links to descriptions of length and color are in the [[#Remarks]] section, below
 |Description=If not specified (default), the shadow is assumed to be a drop shadow (as if the box were raised above the content). The presence of the inset keyword changes the shadow to one inside the frame (as if the content was depressed inside the box). Inset shadows are drawn inside the border (even transparent ones), above the background, but below content.
 }}{{CSS Property Value
 |Data Type=<offset-x> <offset-y>
-|Description=These are two <length> values to set the shadow offset. <offset-x> specifies the horizontal distance. Negative values place the shadow to the left of the element. <offset-y> specifies the vertical distance. Negative values place the shadow above the element. See <length> for possible units. If both values are 0, the shadow is placed behind the element (and may generate a blur effect if <blur-radius> and/or <spread-radius> is set).
+|Description=These are two length values to set the shadow offset. <offset-x> specifies the horizontal distance. Negative values place the shadow to the left of the element. <offset-y> specifies the vertical distance. Negative values place the shadow above the element. If both values are 0, the shadow is placed behind the element (and may generate a blur effect if <blur-radius> and/or <spread-radius> is set).
 }}{{CSS Property Value
 |Data Type=<blur-radius>
-|Description=This is a third <length> value. The larger this value, the bigger the blur, so the shadow becomes bigger and lighter. Negative values are not allowed. If not specified, it will be 0 (the shadow's edge is sharp).
+|Description=This is a third length value. The larger this value, the bigger the blur, so the shadow becomes bigger and lighter. Negative values are not allowed. If not specified, it will be 0 (the shadow's edge is sharp).
 }}{{CSS Property Value
 |Data Type=<spread-distance>
-|Description=This is a fourth <length> value. Positive values will cause the shadow to expand and grow bigger, negative values will cause the shadow to shrink. If not specified, it will be 0 (the shadow will be the same size as the element). For inner shadows, expanding the shadow (creating more shadow area) means contracting the shadow's perimeter shape.
+|Description=This is a fourth length value. Positive values will cause the shadow to expand and grow bigger, negative values will cause the shadow to shrink. If not specified, it will be 0 (the shadow will be the same size as the element). For inner shadows, expanding the shadow (creating more shadow area) means contracting the shadow's perimeter shape.
 }}{{CSS Property Value
 |Data Type=<color>
-|Description=See <color> values for possible keywords and notations. If not specified, the color used depends on the browser - it is usually the value of the color property, but note that Safari currently paints a transparent shadow in this case.
+|Description=See color values for possible keywords and notations. If not specified, the color used depends on the browser - it is usually the value of the color property, but note that Safari currently paints a transparent shadow in this case.
 }}
 }}
 {{Examples_Section
