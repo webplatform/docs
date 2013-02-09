@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Specifies column properties for each column within a &lt;colgroup&gt; element in a &lt;table&gt;.}}
+{{Summary_Section|The '''col''' element (&lt;col&gt;) specifies  properties for each column within a [[html/element/colgroup|&lt;colgroup&gt;]] element in a [[html/element/table|&lt;table&gt;]].}}
 {{Markup_Element
 |DOM_interface=dom/HTMLTableColElement
 }}
