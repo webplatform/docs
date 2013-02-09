@@ -5,10 +5,11 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The URL as resolved by the constructor. This is always an absolute URL. Read only.}}
+{{Summary_Section|The URL as resolved by the constructor. This is always an absolute URL.}}
 {{API_Object_Property
 |Property_applies_to=apis/websocket/objects/WebSocket
-|Read_only=No
+|Read_only=Yes
+|Javascript_data_type=String
 |Return_value_description=The URL specifies the following details about the connection.
 
 * Scheme ― The scheme must be “ws” or “wss”.  The “ws” scheme is insecure, while “wss” indicates a secure connection.  Pages that are served over HTTP should use “ws” WebSockets, while HTTPS pages should use “wss”.  Attempting to use a scheme other than “ws” or “wss” will cause an error.
