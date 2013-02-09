@@ -1,8 +1,10 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Move Candidate, Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
+|High-level issues=Merge Candidate, Move Candidate, Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 |Editorial notes=There is no such thing as a "comment" element. Comments are a part of the HTML syntax. This page should be moved out of the html/elements tree.
+
+Also, merge with [[html/elements/html_comment_data-type]]
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
