@@ -5,7 +5,7 @@
 {{Summary_Section|In the File System API, a FileSystemSync object represents a file system.}}
 {{API_Object}}
 {{Examples_Section
-|Not_required=Yes
+|Not_required=No
 |Examples=
 }}
 {{Notes_Section}}
