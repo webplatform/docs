@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The <code>border-image-outset</code> property describes, by which amount the border image area extends beyond the border box.}}
 {{CSS Property
 |Initial value=0
 |Applies to=all elements, except internal table elements when <code>border-collapse</code> is set to <code>collapse</code>.
