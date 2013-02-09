@@ -11,6 +11,7 @@ CSS properties
 * font-family - vivienne - DONE, NEEDS REVIEW
 * font-size-adjust - vivienne - DONE, NEEDS REVIEW
 * font-weight - pascal - DONE, NEEDS REVIEW
+* font-feature-settings - pascal
 * text-align - knut
 * text-decoration - pascal - DONE, NEEDS REVIEW
 * border-image - andreas
