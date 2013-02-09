@@ -23,23 +23,23 @@ possibly affecting the ability of background content to show through:
 |Not_required=Yes
 |Examples={{Single Example
 |Description=The following example draws a blurred flag
-|Code=<!DOCTYPE html>
-<html>
-  <head>
-    <title>Blur example</title>
-    <style>
+|Code=&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;Blur example&lt;/title&gt;
+    &lt;style&gt;
       .foo {
         width: 150px;
         height: 150px;
         background: -webkit-linear-gradient(red 50px, white 50px, white 100px, blue 100px);
         -webkit-filter: blur(10px);
       }
-   </style>
-  </head>
-  <body>
-    <div class="foo"></div>
-  </body>
-</html>
+   &lt;/style&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;div class=&quot;foo&quot;&gt;&lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
 |LiveURL=http://codepen.io/pverbeek/pen/yiKBv
 }}
 }}
