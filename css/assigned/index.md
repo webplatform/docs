@@ -18,6 +18,7 @@ CSS properties
 * transform-* - michael
 * animation - scott
 * animation-* - scott
+* box-shadow- julee
 * box-sizing - hans
 * float - hans
 * text-rendering - anselm  - FINISHED, NEEDS REVIEW
