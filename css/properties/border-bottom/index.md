@@ -53,11 +53,7 @@ All individual border properties not set by the composite '''border-bottom''' pr
 If a '''color''' is not specified, the text color is used.
 For more information about supported colors, see the Color Table.
 As of Microsoft Internet Explorer 5.5, this property applies to inline elements.  With earlier versions of  Windows Internet Explorer, inline elements must have an '''absolute''' [[css/properties/position|'''position''']] or layout to use this property. Element layout is set by providing a value for the [[css/properties/height|'''height''']] property or the [[css/properties/width|'''width''']] property.
-|Import_Notes====Syntax===
-<code>'''border-bottom: '''''[''' &lt;width&gt; '''{{!}}{{!}}''' style '''{{!}}{{!}}''' ''
-&lt;color&gt;
-'' ''']'''</code>
-===Standards information===
+|Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 5.5.20
 }}
 {{Related_Specifications_Section
