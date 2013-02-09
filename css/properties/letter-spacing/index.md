@@ -30,8 +30,10 @@
 |Description=
 <p>This is a simple paragraph with the default value for letter-spacing.</p>
 <p style="letter-spacing: .3em;">This is a simple paragraph with a altered letter-spacing value by 0.3em.</p>
-
+<p style="letter-spacing -.3em;">This is a simple paragraph withe a altered letter-spacing value by -0.3em</p>
+<h3>Code examples</h3>
 |Code=p { letter-spacing: .3em;}
+p { letter-spacing: -.3em;}
 }}
 }}
 
