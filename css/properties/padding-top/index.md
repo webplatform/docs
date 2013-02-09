@@ -27,11 +27,11 @@
 |Language=CSS
 |Description=The following examples use the '''padding-top''' attribute and the '''padding-top''' property to change the padding of the elements.
 |Code=h1 { padding-top: 5%; }
-p { padding-top: 10px; } 
+p { padding-top: 10px; }
 }}{{Single Example
 |Language=HTML
-|Code=<code>&lt;h1&gt;Hey there&lt;/h1&gt;
-&lt;p&gt;I think you are awesome!&lt;/p&gt;</code>
+|Code=&lt;h1&gt;Hey there&lt;/h1&gt;
+&lt;p&gt;I think you are awesome!&lt;/p&gt;
 }}
 }}
 {{Notes_Section
