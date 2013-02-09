@@ -55,9 +55,7 @@ As of Microsoft Internet Explorer 5.5, this property applies to inline elements
 
 Element layout is set by providing a value for the [[css/properties/height|'''height''']] property or the [[css/properties/width|'''width''']] property.
 |Import_Notes====Syntax===
-<code>
-padding: (padding-width){1,4} {{!}} inherit
-</coode>
+<code>padding: &lt;padding-width&gt;{1,4} {{!}} inherit</code>
 }}
 {{Related_Specifications_Section
 |Specifications=
