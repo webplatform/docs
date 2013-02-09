@@ -5,7 +5,7 @@
 {{Summary_Section|An [[apis/webaudio/AudioNode|'''AudioNode''']] representing the final audio destination and is what the user will ultimately hear. It can be considered as an audio output device which is connected to speakers. All rendered audio to be heard will be routed to this node, a ''terminal'' node in the [[apis/webaudio/AudioContext|'''AudioContext''']]'s routing graph. There is only a single [[apis/webaudio/AudioDestinationNode|'''AudioDestinationNode''']] per [[apis/webaudio/AudioContext|'''AudioContext''']], provided through the destination attribute of [[apis/webaudio/AudioContext|'''AudioContext''']].}}
 {{API_Object}}
 {{Examples_Section
-|Not_required=Yes
+|Not_required=No
 |Examples=
 }}
 {{Notes_Section}}
