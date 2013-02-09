@@ -56,7 +56,6 @@ If the property has a value different than none, a stacking context will be crea
 |Data Type=rotateZ(20deg)
 }}
 }}
-[[file:transform_example.png|alt Example showing translate, scale and rotate step by step]]
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -119,7 +118,7 @@ If the property has a value different than none, a stacking context will be crea
 |Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Feature=Basic Support
-|Chrome_supported=Unknown
+|Chrome_supported=No
 |Chrome_version=
 |Chrome_prefixed_supported=Yes
 |Chrome_prefixed_version=1.0
@@ -135,22 +134,22 @@ If the property has a value different than none, a stacking context will be crea
 |Opera_version=12.1
 |Opera_prefixed_supported=Yes
 |Opera_prefixed_version=10.5
-|Safari_supported=Unknown
+|Safari_supported=No
 |Safari_version=
 |Safari_prefixed_supported=Yes
 |Safari_prefixed_version=3.1
 }}
 |Mobile_rows={{Compatibility Table Mobile Row
 |Feature=Basic Support
-|Android_supported=Unknown
+|Android_supported=No
 |Android_version=
 |Android_prefixed_supported=Yes
 |Android_prefixed_version=2.1
-|Blackberry_supported=Unknown
+|Blackberry_supported=No
 |Blackberry_version=
 |Blackberry_prefixed_supported=Yes
 |Blackberry_prefixed_version=7.0
-|Chrome_mobile_supported=Unknown
+|Chrome_mobile_supported=No
 |Chrome_mobile_version=
 |Chrome_mobile_prefixed_supported=Yes
 |Chrome_mobile_prefixed_version=18.0
@@ -170,7 +169,7 @@ If the property has a value different than none, a stacking context will be crea
 |Opera_mini_version=
 |Opera_mini_prefixed_supported=Unknown
 |Opera_mini_prefixed_version=
-|Safari_mobile_supported=Unknown
+|Safari_mobile_supported=No
 |Safari_mobile_version=
 |Safari_mobile_prefixed_supported=Yes
 |Safari_mobile_prefixed_version=3.1
@@ -188,3 +187,4 @@ If the property has a value different than none, a stacking context will be crea
 |MSDN_link=
 |HTML5Rocks_link=
 }}
+[[file:transform_example.png|alt Example showing translate, scale and rotate step by step]]
