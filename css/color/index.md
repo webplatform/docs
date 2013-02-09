@@ -1,23 +1,8 @@
 {{Page_Title|Color table}}
-{{Flags
-|High-level issues=Missing Relevant Sections, Needs Topics, Move Candidate, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
-|Editorial notes={{Editorial/Move_Candidate
-| color defines a CSS data type, so it should probably be moved to [[css/data types]] and be turned into the proper template
-}}
-}}
+{{Flags}}
 {{Summary_Section}}
 {{Basic Page}}
-{{Standardization_Status|}}
-{{API_Name}}
-
-
-
-{{See_Also_Section
-|Topic_clusters=Visual Effects
-}}
-{{Notes_Section
-|Import_Notes====Basic HTML Color Names===
+===Basic HTML Color Names===
 Only 16 color "keywords" (names) are defined by the HTML 4.01 standard. These colors can always be rendered properly, regardless of the color resolution of the user's display card.
 [[Image:named_colors.png]]
 The Cascading Style Sheets, Level 2 Revision 1 (CSS2.1) specification includes "orange" (#FFA500) for a total of 17 color keywords.
@@ -108,7 +93,16 @@ For a complete list of sytem colors, see [[css/color/user-defined system colors|
 ===Related topics===
 ;'''Other Resources''':CSS Enhancements in Internet Explorer 6
 ;CSS Enhancements in Internet Explorer 6:
+
+{{Standardization_Status|}}
+{{API_Name}}
+
+
+
+{{See_Also_Section
+|Topic_clusters=Visual Effects
 }}
+{{Notes_Section}}
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
