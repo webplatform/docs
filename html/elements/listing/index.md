@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|Deprecated}}
 {{API_Name}}
-{{Summary_Section|Renders text of the element (usually in monospace font) without interpreting contain HTML markup; obsoleted by <pre> and <code>.}}
+{{Summary_Section|Renders text of the element (usually in monospace font) without interpreting contain HTML markup; obsoleted by pre and code elements.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
 }}
