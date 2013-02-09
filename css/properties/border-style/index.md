@@ -7,10 +7,14 @@
 {{API_Name}}
 {{Summary_Section|Sets the style of an element's four borders. This property can have from one to four values.}}
 {{CSS Property
+|Initial value=none
 |Applies to=All elements
 |Inherited=No
 |Media=visual
+|Computed value=specified value
 |Animatable=No
+|CSS object model property=borderStyle
+|CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=none
 |Description=Default. Border is not drawn, regardless of any [[css/properties/border-width|'''border-width''']].
