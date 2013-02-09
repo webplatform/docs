@@ -20,10 +20,9 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Code=[[File:background-image.png|example base graphics file]]
+|Code=[[File:border-image.png|border-image demo image]]
 <code>border-image: url("border-image.png") 30 30 repeat;</code>
 [[File:bi-repeat.png|example of a repeated background-image]]
-
 }}
 }}
 {{Notes_Section
