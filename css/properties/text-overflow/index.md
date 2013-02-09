@@ -27,16 +27,16 @@
 |Examples={{Single Example
 |Language=HTML
 |Description=The following example shows how to use '''ellipsis''', '''ellipsis-word''' and '''clip''' values for the '''text-overflow''' property.
-|Code=<!-- example showing text-overflow shorthand property -->
-<div class="overflowed overflowed-clip">
-	<p>This is an example text showing nothing interesting but the truncated content via text-overflow shorthand property.</p>
-</div>
-<div class="overflowed overflowed-ellipsis">
-	<p>This is an example text showing nothing interesting but the truncated content via text-overflow shorthand property.</p>
-</div>
-<div class="overflowed overflowed-ellipsis-word">
-	<p>This is an example text showing nothing interesting but the truncated content via text-overflow shorthand property.</p>
-</div>
+|Code=&lt;!-- example showing text-overflow shorthand property --&gt;
+&lt;div class=&quot;overflowed overflowed-clip&quot;&gt;
+	&lt;p&gt;This is an example text showing nothing interesting but the truncated content via text-overflow shorthand property.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;overflowed overflowed-ellipsis&quot;&gt;
+	&lt;p&gt;This is an example text showing nothing interesting but the truncated content via text-overflow shorthand property.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;overflowed overflowed-ellipsis-word&quot;&gt;
+	&lt;p&gt;This is an example text showing nothing interesting but the truncated content via text-overflow shorthand property.&lt;/p&gt;
+&lt;/div&gt;
 |LiveURL=http://dabblet.com/gist/4744956
 }}{{Single Example
 |Language=CSS
