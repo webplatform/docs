@@ -27,45 +27,24 @@
 }}
 {{Notes_Section
 |Notes====Remarks===
-OpenType specification] defines many advanced typographic features that can be implemented by font designers. For instance, you can define vertical positioning for a font, substitute glyph forms with ligatures, contextual alternates, stylistic alternates, or swashes, include a set of small caps, and more.
-Each defined feature has a corresponding feature tag that identifies its function and effects. Font developers can also define their own features. A feature's tag determines what the feature does and whether to implement it. The following table lists some of the most common feature tags and their definitions.
+OpenType specification defines many advanced typographic features that can be implemented by font designers. For instance, you can define vertical positioning for a font, substitute glyph forms with ligatures, contextual alternates, stylistic alternates, or swashes, include a set of small caps, and more.<br />
+Each defined feature has a corresponding feature tag that identifies its function and effects. Font developers can also define their own features. A feature's tag determines what the feature does and whether to implement it. The following table lists some of the most common feature tags and their definitions.<br />
 For the full list of OpenType layout features, see [http://go.microsoft.com/fwlink/p/?LinkId{{=}}236359 OpenType layout feature tag registry].
 
-{| class="wikitable"
-|-
-!Tag
-!Description
-|-
-|'''kern'''
-|Kerning
-|-
-|'''smcp'''
-|Small capitals
-|-
-|'''liga'''
-|Standard ligatures
-|-
-|'''dlig'''
-|Discretionary ligatures
-|-
-|'''ss01''', '''ss02''', '''ss03''' ... '''ss20'''
-|Stylistic sets (font-specific)
-|-
-|'''swsh'''
-|Swash
-|-
-|'''tnum'''
-|Tabular figures
-|-
-|'''lnum'''
-|Lining figures
-|-
-|'''onum'''
-|Oldstyle figures
-|}
+* '''kern''' — Kerning
+* '''smcp''' — Small capitals
+* '''liga''' — Standard ligatures
+* '''dlig''' — Discretionary ligatures
+* '''ss01''', '''ss02''', '''ss03''' ... '''ss20''' — Stylistic sets (font-specific)
+* '''swsh''' — Swash
+* '''tnum''' — Tabular figures
+* '''lnum''' — Lining figures
+* '''onum''' — Oldstyle figures
 
- 
-If you are unfamiliar with the font features listed in this table, the CSS Fonts Module Level 3 specification has good explanations and visual examples of each feature in Section 6, "[http://go.microsoft.com/fwlink/?LinkID{{=}}236360 Font feature properties]." Be aware that, though the properties listed correspond to OpenType layout features that might be supported, the properties themselves ('''font-kerning''', '''font-variant-*''', and so on) are not supported.
+If you are unfamiliar with the font features listed above, the CSS Fonts Module Level 3 specification has good explanations and visual examples of each feature in Section 6, "[http://go.microsoft.com/fwlink/?LinkID{{=}}236360 Font feature properties]." Be aware that, though the properties listed correspond to OpenType layout features that might be supported, the properties themselves ('''font-kerning''', '''font-variant-*''', and so on) are not supported.
+
+===Notes===
+Whenever possible, Web authors should use the '''font-variant''' property. This property has been designed to handle special cases where no other way to enable or access an OpenType font feature does exists.
 |Import_Notes====Syntax===
 <code>'''font-feature-settings: '''normal '''{{!}}''' ''feature-tag-value'' [, ''feature-tag-value'' ]*</code>
 }}
