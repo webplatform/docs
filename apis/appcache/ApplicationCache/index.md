@@ -60,7 +60,8 @@ Also, web resources can be specified to only be loaded from the network. This is
 {{!}}-
 {{!}} CACHE
 {{!}} This is the default section for entries. Files listed under this header (or immediately after the CACHE MANIFEST) will be explicitly cached after they're downloaded for the first time.
-{{!}} xxx
+{{!}} CACHE
+/logo.png
 {{!}}-
 {{!}} NETWORK
 {{!}} Files listed under this section are white-listed resources that require a connection to the server. All requests to these resources bypass the cache, even if the user is offline. Wildcards may be used.
