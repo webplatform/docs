@@ -38,7 +38,9 @@ CSS properties
 * list-style - florian
 * list-style-* - florian
 * border - marcin - DONE, NEEDS REVIEW
-* border-[top|right|bottom|left] - marcin
+* border-[top|right|left] - kamila
+* border-bottom - marcin
+* border-style - marcin
 * border-radius - udo
 * flex - rod
 * display: flex - rod
