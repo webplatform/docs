@@ -11,7 +11,7 @@
 |Return_value_description=Uses one of the following constant values: LOWPASS (0) (default), a standard second-order resonant lowpass filter with 12dB/octave rolloff; HIGHPASS (1), a standard second-order resonant highpass filter with 12dB/octave rolloff; BANDPASS (2), a second-order bandpass filter; LOWSHELF (3), a second-order lowshelf filter; HIGHSHELF (4), a second-order highshelf filter; PEAKING (5), a boost (or attenuation) to a range of frequencies; NOTCH (6), restricting a set of frequencies; ALLPASS (7), a second-order allpass filter.
 }}
 {{Examples_Section
-|Not_required=Yes
+|Not_required=No
 |Examples=
 }}
 {{Notes_Section}}
