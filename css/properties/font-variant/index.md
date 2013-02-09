@@ -30,8 +30,7 @@
 }}
 }}
 {{Notes_Section
-|Notes===Remarks==
-In CSS 3 (CSS Fonts Module Level 3, W3C Working Draft 11 December 2012 [http://www.w3.org/TR/css3-fonts/#propdef-font-variant]) this property is extended. However, no browser seems to support these changes yet.
+|Notes=In CSS 3 ([http://www.w3.org/TR/css3-fonts/#propdef-font-variant CSS Fonts Module Level 3, W3C Working Draft 11 December 2012]) this property is extended. However, no browser seems to support these changes yet.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
