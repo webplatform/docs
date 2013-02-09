@@ -45,13 +45,39 @@ p { font-family: Courier, "Times New Roman", serif; }
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
-|Desktop_rows=
+|Desktop_rows={{Compatibility Table Desktop Row
+|Feature=Basic Support
+|Chrome_supported=Yes
+|Chrome_prefixed_supported=Unknown
+|Chrome_prefixed_version=
+|Firefox_supported=Yes
+|Firefox_prefixed_supported=Unknown
+|Firefox_prefixed_version=
+|Internet_explorer_supported=Yes
+|Internet_explorer_prefixed_supported=Unknown
+|Internet_explorer_prefixed_version=
+|Opera_supported=Yes
+|Opera_prefixed_supported=Unknown
+|Opera_prefixed_version=
+|Safari_supported=Yes
+|Safari_prefixed_supported=Unknown
+|Safari_prefixed_version=
+}}
 |Mobile_rows=
-|Notes_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=IE
+|Version=8
+|Note=IE8 requires a !DOCTYPE
+}}{{Compatibility Notes Row
+|Browser=IE
+|Version=7
+|Note=The value "inherit" is not supported in IE7 and earlier.
+}}
 }}
 {{See_Also_Section
 |Topic_clusters=CSS Font, Fonts
 |External_links=* [http://mathiasbynens.be/notes/unquoted-font-family Unquoted font family names in CSS]
+* [http://www.w3schools.com/cssref/pr_font_font-family.asp CSS font-family Property}
 |Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
