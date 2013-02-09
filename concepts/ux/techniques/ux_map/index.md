@@ -17,7 +17,7 @@ The whole project team
 *Good to figure out areas that need further user research
 }}
 {{Examples_Section
-|Not_required=No
+|Not_required=Yes
 |Examples=
 }}
 {{Notes_Section
