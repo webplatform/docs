@@ -1,4 +1,4 @@
-{{Page_Title|canvas}}
+{{Page_Title}}
 {{Flags
 |Content=Incomplete
 }}
