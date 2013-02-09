@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The '''hiddent''' type of the [[html/elements/input|&lt;input&gt;]] element represents a value that is hidden from the user, but which is sent with the form data; the value can be set programatically.}}
+{{Summary_Section|The '''hidden''' type of the [[html/elements/input|&lt;input&gt;]] element represents a value that is hidden from the user, but which is sent with the form data; the value can be set programatically.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLInputElement
 }}
