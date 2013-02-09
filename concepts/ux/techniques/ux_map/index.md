@@ -1,4 +1,4 @@
-{{Page_Title|User eXperience map}}
+{{Page_Title|User eXperience Map or Workflow}}
 {{Flags}}
 {{API_Name}}
 {{Summary_Section|Visual representation of the user workflow for accomplishing a goal.}}
