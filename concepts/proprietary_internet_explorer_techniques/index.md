@@ -29,29 +29,38 @@ filter: Blur(direction=235,strength=6);
 
 A handful of these filters are not just statically applied, but they also need to be initialized via JavaScript afterwards, e.g. the Light filter:
 
-<syntaxHighlight lang="css">
-#filtered {
-    filter: Light();
-}
+<syntaxHighlight lang="html5">
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Light Filter</title>
+    <style>
+    #filtered {
+        filter: light();
+    }
+    </style>
+</head>
+	<body>
+        <img id="filtered" src="picture.jpg">
+        <script>
+            /*****************************************************
+            At first, without assigning a light, element is black.
+            
+            Now Lighten the element with an ambient type of light, 
+            in a red color RGB(255,0,0), 
+            with medium brightness (100) 
+            *****************************************************/
+            document
+            .getElementById('filtered')
+            .filters['light']
+            .addAmbient(255, 0, 0, 100);	
+        </script>
+    </body>
+</html>
 </syntaxHighlight>
 
-The element is rendered in black, until we add a light to the filter via JavaScript: 
-
-<syntaxHighlight lang="javascript">
-/*************************************************
-Lighten the element with an ambient type of light, 
-in a yellowish color RGB(255,240,200), 
-with medium brightness (100) 
-*************************************************/
-
-document
-.getElementById('filtered')
-.filters
-.item('DXImageTransform.Microsoft.Light')
-.addAmbient(255, 240, 200, 100);
-</syntaxHighlight>
-
-Multiple filters could be chained into one property by separating them with spaces:
+Multiple filters can be chained into one property by separating them with spaces:
 
 <syntaxHighlight lang="css">
 /* Gray and blur filters applied at the same time */
