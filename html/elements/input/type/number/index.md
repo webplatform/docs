@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|An input field for entering a number.}}
+{{Summary_Section|The '''number''' type of the [[html/elements/input|&lt;input&gt;]] element represents a widget for entering a number.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLInputElement
 }}
