@@ -26,8 +26,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Code=
-.one/* When we don't set border-color, color of a text is used as a default */
+|Code=/* When we don't set border-color, color of a text is used as a default */
 .one {
   color: blue;
   border: medium solid;
