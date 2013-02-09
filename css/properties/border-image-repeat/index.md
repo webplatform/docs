@@ -39,25 +39,21 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Language=CSS
-|Code=.class {
-  border-image-repeat: stretch;
-}
+|Code=[[File:border-image.png|border-image demo image]]
 
-.class {
-  border-image-repeat: repeat;
-}
+<code>border-image-repeat: stretch;</code>
+[[File:bi-stretch.png|border-image stretch demo]]
 
-.class {
-  border-image-repeat: round;
-}
+<code>border-image-repeat: repeat;</code>
+[[File:bi-repeat.png|border-image repeat demo]]
 
-.class {
-  border-image-repeat: space;
-}
+<code>border-image-repeat: round;</code>
+[[File:bi-round.png|border-image round demo]]
 
-/* Note that round and space have quite limited browser support at the moment. Where limited means non-existent  */
+<code>border-image-repeat: space;</code>
+[[File:bi-space.png|border-image space demo]]
 
+/* Note that round and space have quite limited browser support at the moment. Where limited means basically none.  */
 }}
 }}
 {{Notes_Section}}
