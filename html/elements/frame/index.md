@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|Deprecated}}
 {{API_Name}}
-{{Summary_Section|The '''frame''' element (&lt;frame&gt;) defines one particular window (frame) within a [[html/element/frameset|&lt;frameset&gt;]].
+{{Summary_Section|The '''frame''' element (&lt;frame&gt;) defines one particular window (frame) within a [[html/elements/frameset|&lt;frameset&gt;]].
 The &lt;frame&gt; tag is obsolete in HTML5.
 }}
 {{Markup_Element
