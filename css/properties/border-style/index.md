@@ -15,18 +15,14 @@
 |Data Type=none
 |Description=Default. Border is not drawn, regardless of any [[css/properties/border-width|'''border-width''']].
 }}{{CSS Property Value
-|Data Type=dotted
-|Description=Border is a dotted line.
-
-This value is supported on the Macintosh platform, as of Internet Explorer 4.01, and on the Windows platform, as of Internet Explorer 5.5. It renders as a solid line on UNIX platforms, and on Windows systems running earlier versions of Internet Explorer.
-}}{{CSS Property Value
-|Data Type=dashed
-|Description=Border is a dashed line. 
-
-This value is supported on the Macintosh platform as of Internet Explorer 4.01 and on the Windows platform, as of Internet Explorer 5.5. It renders as a solid line on UNIX platforms, and on Windows systems running earlier versions of Internet Explorer.
-}}{{CSS Property Value
 |Data Type=solid
 |Description=Border is a solid line.
+}}{{CSS Property Value
+|Data Type=dotted
+|Description=Border is a dotted line.
+}}{{CSS Property Value
+|Data Type=dashed
+|Description=Border is a dashed line.
 }}{{CSS Property Value
 |Data Type=double
 |Description=Border is a double line drawn on top of the background of the object. The sum of the two single lines and the space between equals the [[css/properties/border-width|'''border-width''']] value. The border width must be at least 3 pixels wide to draw a double border.
