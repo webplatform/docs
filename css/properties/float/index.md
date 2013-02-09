@@ -5,9 +5,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Elements which get <code>float</code> applied with a value other than <code>none</code> are taken from the normal flow and get wrapped on the left or right side of the parent element. Other elements get wrapped around it.
-
-}}
+{{Summary_Section|Elements which get <code>float</code> applied with a value other than <code>none</code> are taken from the normal flow and get wrapped on the left or right side of the parent element. Other elements get wrapped around it.}}
 {{CSS Property
 |Initial value=none
 |Applies to=all elements; but absolutely positioned, replaced elements
@@ -17,13 +15,14 @@
 |Animatable=No
 |Values={{CSS Property Value
 |Data Type=none
-|Description=Default. Object displays where it appears in the text.
+|Description=<code>none</code> indicates that the element does not contain any float at all. This is the initial value of the <code>float</code> property.
 }}{{CSS Property Value
 |Data Type=left
-|Description=Text flows to the right of the object.
+|Description=The <code>left</code> value indicates that the element must float to the left side of its containing block.
 }}{{CSS Property Value
 |Data Type=right
-|Description=Text flows to the left of the object.
+|Description=The <code>left</code> value indicates that the element must float to the right side of its containing block.
+
 }}
 }}
 {{Examples_Section
