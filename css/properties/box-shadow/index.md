@@ -124,11 +124,6 @@ The '''box-shadow''' property can specify one or more drop shadows. The componen
 <code>
 ''box-shadow:  ''none '''{{!}}''' ''offset-x offset-y (blur-radius) (spread-radius) (color) (inset)''
 </code>
-
-
-<syntaxhighlight lang="xml">
-<text x="12px" y="12px" font-family="sans-serif" font-size="120%"/>
-</syntaxhighlight>
 }}
 {{Related_Specifications_Section
 |Specifications=
