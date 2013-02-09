@@ -4,12 +4,12 @@
 {{Summary_Section|A list of techniques at product development stages that are used within the practices of User eXperience (UX) design.}}
 {{Concept_Page
 |Content====Research & Analysis===
-*'''Contextual inquiry:''' First hand observation of how people perform and structure their work or any other relevant tasks.
-*'''Stakeholder mapping:''' A network diagram of the people involved with (or impacted by) a given system design.
-*'''User eXperience map:''' Visual representation of the user workflow for accomplishing a goal.
-*'''Personas:''' Characterization of a type of user that we want to target with our product or application.
-*'''Empanthy map:''' Explore a target user from different perspectives such as Behavior (See), Motivations (Do), Features (Say or feel).
-*'''Journey map:''' Document that visually illustrates an individual user's needs, the series of interactions that are necessary to fulfill those needs, and the resulting emotional states a user experiences throughout the process.
+*[[concepts/ux/techniques/contextual_inquiry|Contextual inquiry]]
+*[[concepts/ux/techniques/stakeholder_mapping|Stakeholder mapping]]
+*[[concepts/ux/techniques/ux_map|User eXperience map]]
+*[[concepts/ux/techniques/personas|Personas]]
+*[[concepts/ux/techniques/empathy_map|Empathy map]]
+*[[concepts/ux/techniques/journey_map|Journey map]]
 
 ===Scoping and Initial Design===
 *'''Elevator pitch:''' Shot summary used to quickly and simply define a product and its value proposition.
