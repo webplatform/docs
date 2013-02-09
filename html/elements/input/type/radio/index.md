@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|An input field that is a radio button control.}}
+{{Summary_Section|The '''radio''' type of the [[html/elements/input|&lt;input&gt;]] element represents a radio button control.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLInputElement
 }}
