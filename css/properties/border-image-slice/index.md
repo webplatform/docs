@@ -49,7 +49,7 @@ border-image-slice: 7 12 14 5;            /* Four-value syntax  */
 }}
 }}
 {{Notes_Section
-|Usage=[[File:slice.png]]
+|Usage=[[File:slice.png|bla]]
 }}
 {{Related_Specifications_Section
 |Specifications=
