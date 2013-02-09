@@ -37,7 +37,7 @@ In addition to the many different display box types, the value none lets you tur
 |Description=Object is rendered as '''tFoot'''. Table footer is always displayed after all other rows and row groups, and before any bottom captions. The footer is displayed on each document spanned by a table.
 }}{{CSS Property Value
 |Data Type=inline-block
-|Description=Object is rendered inline, but the contents of the object are rendered as a block element.  Adjacent inline elements are rendered on the same line, space permitting.
+|Description=Object is rendered inline, but the contents of the object are rendered as a block element.  Adjacent inline elements are rendered on the same line, space permitting. The difference to inline is that width, height and margin will apply
 }}{{CSS Property Value
 |Data Type=table
 |Description=Object is rendered as [[html/elements/table|'''table''']].
