@@ -14,7 +14,7 @@
 |Example_object_name=window.location
 }}
 {{Examples_Section
-|Not_required=Yes
+|Not_required=No
 |Examples={{Single Example}}
 }}
 {{Notes_Section}}
@@ -23,6 +23,7 @@
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
