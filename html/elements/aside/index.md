@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|The '''aside''' element is used to mark up content that is only tangentially related to the rest of the content.}}
+{{Summary_Section|The '''aside''' (&lt;aside&gt;) element indicates content that is only tangentially related to the rest of the content.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
 |Content====HTML information===
@@ -41,6 +41,7 @@
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Unknown
 |Chrome_version=
