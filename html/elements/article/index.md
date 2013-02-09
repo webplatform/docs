@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|The '''article''' (&lt;article&gt;) element defines a self-contained composition within a page.}}
+{{Summary_Section|The '''article''' element (&lt;article&gt;) defines a self-contained composition within a page.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
 |Content="Article" is an element, first introduced in HTML5, for the purpose of relieving "div" fatigue and overuse. An '''article''' element might represent a forum post, a magazine or newspaper article, a blog entry, a user-submitted comment, an interactive widget or gadget, or any other independent item of content.
