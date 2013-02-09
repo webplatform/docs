@@ -5,9 +5,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|The input element is a multipurpose element for representing input controls.
-
-}}
+{{Summary_Section|The '''input''' element (&lt;input&gt;) is a multipurpose element for representing form widgets. The type of widget depends on the <code>type</code> attribute of the element.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLInputElement
 |Content====HTML information===
@@ -87,7 +85,6 @@ The input element behavior varies depending on the value of its [[html/elements/
 }}
 {{See_Also_Section
 |External_links=http://www.w3.org/TR/html-markup/input.html#input
-
 }}
 {{Topics|HTML}}
 {{External_Attribution
