@@ -22,7 +22,7 @@
 }}
 }}
 {{Notes_Section
-|Usage=The constructor’s first argument is the URL that the WebSocket will connect to.  When a WebSockets is constructed, it immediately attempts to connect to the given URL.  There is no way to prevent or postpone the connection attempt.  After construction, the WebSocket’s URL is accessible via its “url” property. 
+|Usage=The constructor’s first argument is the URL that the WebSocket will connect to.  When a WebSockets is constructed, it immediately attempts to connect to the given URL.  There is no way to prevent or postpone the connection attempt.  After construction, the WebSocket’s URL is accessible via its “url” property.
 |Notes====Remarks===
 [http://dev.w3.org/html5/websockets/ The WebSocket API specification] defines two URI schemes ws:// and wss:// for unencrypted and encrypted connections, respectively. For example, you could create a new WebSocket connection with the string "ws://example.com:1234/resource". The URL specifies the host to connect to, the port, and (optionally) the protocols you want to use.
 '''Note'''  Secure connections (wss://) are recommended in most cases because they are more likely to work with proxy servers, which can buffer unencrypted traffic and close long-lived WebSocket connections without warning.
@@ -70,7 +70,9 @@ The '''WebSocket''' object has these methods.
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|External_links=* [http://cjihrig.com/blog/how-to-use-websockets/ How to Use WebSockets by Colin Ihrig]
+}}
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
