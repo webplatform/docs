@@ -39,8 +39,7 @@
 	&lt;div class="floated"&gt;&lt;/div&gt;
 	&lt;p&lt;…&lt;/p&gt;
 &lt;/div&gt;
-&lt;p&lt;…&lt;/p&gt;
-
+&lt;p&gt;…&lt;/p&gt;
 |LiveURL=http://dabblet.com/gist/4744777
 }}{{Single Example
 |Language=CSS
