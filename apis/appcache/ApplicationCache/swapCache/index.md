@@ -29,11 +29,21 @@ This method can return one of these values.
 11
 {{!}}This exception is thrown if the status of the cache is invalid.
 {{!}}}
-
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Code=// Attempt to update the user's cache.
+window.applicationCache.update(); 
+
+…
+
+if (window.applicationCache.status === window.applicationCache.UPDATEREADY) {
+  // The fetch was successful, swap in the new cache.
+  window.applicationCache.swapCache();
+}
+}}
 }}
 {{Notes_Section
 |Usage=In order to swap an old cache out for a new one, call [[apis/appcache/methods/update|update]] first. When the status is in the '''UPDATEREADY''' state, calling '''swapCache()''' will make the swap.
@@ -63,8 +73,8 @@ The '''swapCache()''' method is provided for convenience but is not necessary fo
 {{Topics|Appcache}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
+|Sources=MSDN, HTML5Rocks
 |MDN_link=
 |MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx
-|HTML5Rocks_link=
+|HTML5Rocks_link=http://www.html5rocks.com/en/tutorials/appcache/beginner/
 }}
