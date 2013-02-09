@@ -11,12 +11,14 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
-|Code=socket.onclose = function(event) {
+|Code=<syntaxhighlight lang="javascript">
+socket.onclose = function(event) {
   var code = event.code;
   var reason = event.reason;
   var wasClean = event.wasClean;
   // handle close event
 };
+</syntaxhighlight>
 }}
 }}
 {{Notes_Section}}
