@@ -123,21 +123,19 @@ Do not display an element by using <code>display: none;</code>.
 }}
 {{Notes_Section
 |Notes====Remarks===
-To render an element box's dimensions, yet have its contents be invisible, see the [[css/properties/visibility|"visibility"]] visibility property.
+To render an element box's dimensions, yet have its contents be invisible, see the [[css/properties/visibility|visibility]] property.
 
 All visible HTML '''div''' object is a block element, and a '''span''' object is an inline element. Block elements typically start a new line and can contain other block elements and inline elements. Inline elements do not typically start a new line and can contain other inline elements or data. Changing the values for the '''display''' property affects the layout of the surrounding content by:
 *Adding a new line after the element with the value '''block'''.
 *Removing a line from the element with the value '''inline'''.
 *Hiding the data for the element with the value '''none'''.
 
-In contrast to the [[css/properties/visibility|'''visibility''']] property, '''display''':'''none''' reserves no space for the object on the screen.
-The '''table-header-group''' and '''table-footer-group''' values can be used to specify that the contents of the '''tHead''' and '''tFoot''' objects are displayed on every page for a table that spans multiple pages.
-In Microsoft Internet Explorer 4.0, the '''block''', '''inline''', and '''list-item''' values are not supported explicitly, but do render the element.
-The '''block''' and '''inline''' values are supported explicitly as of Microsoft Internet Explorer 5.
-In Microsoft Internet Explorer 5.5 and earlier, the default value of this property for '''li''' elements is '''block'''.
-The '''inline-block''' value is supported  starting with Internet Explorer 5.5. You can use this value to give an object a layout without specifying the object's height or width.
-Starting with Internet Explorer 8, the <code>table</code> display styles allow elements to closely parallel the visual layout of a table. The Cascading Style Sheets (CSS) table display model does not require explicit elements to correspond with the HTML tags. For example, an element styled as '''display:table-cell''' does not need to be contained within a block that is styled '''display:table-row''' to be styled correctly. Implicit table elements are created as necessary in an attempt to make the document valid. Contrast this behavior to the traditional HTML table model, where table elements are implicitly closed early to avoid unexpected nesting.
-In Windows Internet Explorer 7 and earlier, the default value of this property for [[html/elements/table|'''table''']], '''tr''', '''td''', '''col''', and '''colGroup''' elements is <code>block</code>.
+In contrast to the [[css/properties/visibility|visibility]] property, <code>display: none</code> reserves no space for the object on the screen.
+The <code>table-header-group</code> and <code>table-footer-group</code> values can be used to specify that the contents of the <code>thead</code> and <code>tfoot</code> elements are displayed on every page for a table that spans multiple pages.
+
+You can use <code>inline-block</code> to give an object a layout without specifying the object's height or width.
+
+The Cascading Style Sheets (CSS) table display model does not require explicit elements to correspond with the HTML tags. For example, an element styled as <code>display: table-cell</code> does not need to be contained within a block that is styled <code>display: table-row</code> to be styled correctly. Implicit table elements are created as necessary in an attempt to make the document valid. Contrast this behavior to the traditional HTML table model, where table elements are implicitly closed early to avoid unexpected nesting.
 |Import_Notes====Syntax===
 <code>'''display: '''inline '''{{!}}''' block '''{{!}}''' list-item '''{{!}}''' run-in '''{{!}}''' inline-block '''{{!}}''' table '''{{!}}''' inline-table '''{{!}}''' table-row-group '''{{!}}''' table-header-group '''{{!}}''' table-footer-group '''{{!}}''' table-row '''{{!}}''' table-column-group '''{{!}}''' table-column '''{{!}}''' table-cell '''{{!}}''' table-caption '''{{!}}''' -ms-flexbox '''{{!}}''' -ms-inline-flexbox '''{{!}}''' -ms-grid '''{{!}}''' -ms-inline-grid '''{{!}}''' none</code>
 
@@ -177,7 +175,6 @@ In Windows Internet Explorer 7 and earlier, the default value of this property 
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
 *<code>[[dom/defaultSelected|defaults]]</code>
 *<code>[[css/cssom/style|style]]</code>
-*<code>CSS Enhancements in Internet Explorer 6</code>
 }}
 {{Topics|CSS}}
 {{External_Attribution
