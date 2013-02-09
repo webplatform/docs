@@ -164,6 +164,27 @@ AddType text/x-component .htc
 </syntaxHighlight>
 
 Behaviors are supported from IE 4 - 9 and were removed from IE 10. They were also removed from all legacy modes inside IE 10.
+
+=Expressions=
+
+Expressions allow you to dynamically calculate the value of a property. So for example you could do the following to teach older IEs to inherit the parent'S color:
+
+<syntaxHighlight lang="css">
+color: expression(this.parentNode.currentStyle.color);
+</syntaxHighlight>
+
+The main caveat with expressions is that they get evaluated very often, like after every event or change of the document. Since mousemove is such an event, too, expressions get evaluated a gazillion times when the user moves the mouse.
+
+But this only applies for when expressions are done wrong. A better way is to write an expression that replaces itself with a static value at its first run. This can be achieved be assigning a static value to <code>this.runtimeStyle.property</code> - <code>property</code> being the one where the expression is assigned to initially. Taking the example from above that's how you can do it better:
+
+<syntaxHighlight lang="css">
+color: expression(this.runtimeStyle.color = this.parentNode.currentStyle.color);
+</syntaxHighlight>
+
+The only drawback now is that if you change the parent's color, this will not be reflected on its child.
+
+Expressions are supported from IE 4 - 7 and were removed from IE 8.
+
 }}
 {{Examples_Section
 |Not_required=Yes
