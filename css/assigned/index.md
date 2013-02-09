@@ -3,6 +3,7 @@
 CSS properties
 
 * cursor - kevin - FINISHED, NEEDS REVIEW
+* letter-spacing - kevin
 * font - vivienne
 * font-* - vivienne (font-variant, font-style, font-size, font-size-adjust)
 * font-weight - pascal - DONE, NEEDS REVIEW
