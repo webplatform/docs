@@ -17,7 +17,6 @@
 |Values={{CSS Property Value
 |Data Type=family-name
 |Description=The name of a font family, such as <code>Courier</code> or <code>Arial</code>.
-If a font family name contains whitespaces, digits or punctuation characters (other than hyphens), it is recommended to place quotes around the font family name to avoid mistakes in escaping those characters.
 }}{{CSS Property Value
 |Data Type=generic-family
 |Description=Generic font families are used as a fallback when none of the previously specified fonts are available. It is always the last alternative in the list of font-family names. The following generic family keywords are defined: <code>serif</code>, <code>sans-serif</code>, <code>cursive</code>, <code>fantasy</code> and <code>monospace</code>.
@@ -33,7 +32,7 @@ p { font-family: Courier, "Times New Roman", serif; }
 }}
 {{Notes_Section
 |Usage=Things to note:
-* If the font family name contains white space, it should appear in single or double quotation marks.
+* If a font family name contains whitespaces, digits or punctuation characters (other than hyphens), it is recommended to place quotes around the font family name to avoid mistakes in escaping those characters.
 * Generic font family names are values (keywords) and cannot appear in quotation marks.
 }}
 {{Related_Specifications_Section
