@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|An input field that represents a file.}}
+{{Summary_Section|The '''file''' type of the [[html/elements/input|&lt;input&gt;]] element represents widget for specifying a file.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLInputElement
 }}
