@@ -13,6 +13,7 @@
 |Computed value=See individual properties
 |Animatable=No
 |CSS object model property=borderBottom
+|CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=<border-width> <border-style> <color>
 |Description=The <tt>border-bottom</tt> property is a shorthand property for setting the same width, color, and style for only one border of a box: bottom.
