@@ -16,7 +16,7 @@
 |CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=color
-|Description=Up to four color names or RGB values in the Color Table.
+|Description=Up to four [[css/color|'''colors''']].
 }}
 }}
 {{Examples_Section
@@ -48,8 +48,8 @@
 |Usage=Always declare the border-style property before the border-color property. An element must have borders before you can change the color.
 |Notes====Remarks===
 Up to four different colors can be specified in the following order: top, right, bottom, left. If one color is supplied, it is used for all four sides. If two colors are supplied, the first is used for the top and bottom, and the second is used for left and right. If three colors are supplied, they are used for top, right and left, and bottom, respectively.
+
 The '''border-color''' property does not render if the [[css/properties/border-style|'''border-style''']] property is set to '''none'''.
-Some browsers do not recognize color names, but all browsers should recognize RGB color values and display them correctly.
 |Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 5.5.16
 }}
