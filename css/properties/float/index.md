@@ -92,6 +92,10 @@ __Note:__ If you're referring to this property from JavaScript as a member of th
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
+|Name=CSS basic box model
+|URL=http://www.w3.org/TR/css3-box/#floating0
+|Status=Working Draft
+}}{{Related Specification
 |Name=CSS Level 2 (Revision 1)
 |URL=http://www.w3.org/TR/CSS2/visuren.html#float-position
 |Status=Recommendation
