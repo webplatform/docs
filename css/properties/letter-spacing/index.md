@@ -11,6 +11,7 @@
 |Applies to=All elements
 |Inherited=Yes
 |Media=visual
+|Computed value=normal or absolute length
 |Animatable=No
 |Values={{CSS Property Value
 |Data Type=normal
@@ -23,12 +24,10 @@
 |Description=Takes the same specified value as the property for the element's parent.
 }}
 }}
-
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=
-<p>This is a simple paragraph with the default value for letter-spacing.</p>
+|Description=<p>This is a simple paragraph with the default value for letter-spacing.</p>
 <p style="letter-spacing: .3em;">This is a simple paragraph with a altered letter-spacing value by 0.3em.</p>
 <p style="letter-spacing: -.1em;">This is a simple paragraph withe a altered letter-spacing value by -0.1em</p>
 <h3>Code examples</h3>
@@ -45,7 +44,6 @@ p {
 }
 }}
 }}
-
 {{Notes_Section
 |Notes====Remarks===
 When specified as a positive '''length''' value, the '''letter-spacing''' attribute adds the specified value to the default spacing between characters within an element. A negative '''length''' value decreases the space between characters. Letter spacing can be influenced by justification.
