@@ -12,7 +12,14 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Code=socket.binaryType = "blob";
+// receive some blob data
+
+socket.binaryType = "arraybuffer";
+// now receive ArrayBuffer data
+}}
 }}
 {{Notes_Section
 |Notes====Remarks===
