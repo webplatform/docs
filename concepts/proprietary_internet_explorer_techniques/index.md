@@ -77,7 +77,7 @@ To make element filters work on Internet Explorers lower than IE 8 there was one
 * height: any value other than 'auto'
 * zoom: any value other than 'normal' (e.g. zoom: 1)
 
-Best practice is to assign <code>zoom: 1</code> since that did not have any side effects. So this means that in most cases when you wanted to apply a filter to IE < 8 you would do this:
+Best practice is to assign <code>zoom: 1</code> since that does not have any side effects apart from triggering hasLAyout. So this means that in most cases when you wanted to apply a filter to IE < 8 you would do this:
  
 <syntaxHighlight lang="css">
 filter: Blur(direction=235,strength=6);
@@ -123,6 +123,14 @@ filter: progid:DXImageTransform.Microsoft.Blur(pixelradius=2);
 </syntaxHighlight>
 
 The reason for this change was that W3C's CSS validator was flagging the former filter snytax as invalid whereas it accepted the new one without moaning. If validation is not your top concern you shoulkd still stay with the old syntax since it doesn't break anything and can also be understood by IE 7 or less (whatever advantage that might be).
+
+One thing to note is that up until IE 8, font antialiasing is being disabled for all text inside a filtered element that is smaller than 18px. IE 9 does not face this problem as font rendering has been improved there. For IE 8 there is a trick for restoring font antialiasing: Wrap your text into another container which has <code>position: relative</code>, like so:
+
+<syntaxHighlight lang="html5">
+<div style="filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#26ffffff,endColorstr=#26ffffff)">
+    <div style="position: relative">Lorem ipsum dolor sit amet.</div>
+</div>
+</syntaxHighlight>
 
 Filters are supported from IE 4 - 9 and were removed from IE 10. They were also removed from all legacy modes inside IE 10.
 }}
