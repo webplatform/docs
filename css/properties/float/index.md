@@ -28,7 +28,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=== First Example ===
+|Description==== First Example ===
 
 This example shows how the <code>float</code> attribute affects the flow of the text. The sphere image floats to the left of the text, and the cone floats to the right.
 |Code=&lt;img src{{=}}"sphere.jpg" style{{=}}"float: left;"&gt;
@@ -36,7 +36,7 @@ This example shows how the <code>float</code> attribute affects the flow of the 
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/float_h.htm
 }}{{Single Example
 |Language=HTML
-|Description=== Second Example ===
+|Description==== Second Example ===
 
 Let's assume the following markup.
 |Code=&lt;div class="parent"&gt;
