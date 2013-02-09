@@ -5,46 +5,62 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Specifies the font style for a text.}}
+{{Summary_Section|This property allows italic or oblique faces to be selected within a font-family.}}
 {{CSS Property
+|Initial value=normal
 |Applies to=All elements
 |Inherited=Yes
 |Media=visual
+|Computed value=as specified
 |Animatable=No
+|CSS object model property=fontStyle
 |Values={{CSS Property Value
 |Data Type=normal
-|Description=Default. Font is normal.
+|Description=Selects a face that is classified as 'normal'.
 }}{{CSS Property Value
 |Data Type=italic
-|Description=Font is italic.
+|Description=Selects a font that is labeled as 'italic' (cursive). If no font labeled 'italic' is available, a font that is labeled as 'oblique' is selected.
 }}{{CSS Property Value
 |Data Type=oblique
-|Description=Font is italic.
+|Description=Selects a font that is labeled as 'oblique' (sloped version of the regular face).
 }}
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=The following example shows how to use '''hn''' as a selector to set the font style to '''italic''' in H3 headings.
-|Code=&lt;STYLE&gt;
-    H3 { font-style:italic }
-&lt;/STYLE&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/font-style.htm
-}}{{Single Example
-|Description=The following example shows how to use inline scripting to set the font style to '''italic''' when an [[dom/events/mousedown|'''onmousedown''']] event occurs.
-|Code=&lt;DIV onmousedown{{=}}"this.style.fontStyle{{=}}'italic'"&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/fontStyle.htm
+|Code=<!doctype html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Font-style example</title>
+		<style>
+			p { "Trebuchet MS", "Gill sans", serif; }
+			p.normal { font-style: normal; }
+			p.italic { font-style: italic; }
+			p.oblique { font-style: oblique; }
+		</style>
+	</head>
+	<body>
+		<p>Regular ol' P</p>
+		<p class="normal">Normal P, no different from the regular ol' P</p>
+		<p class="italic">Italic P, the cursive version of the font</p>
+		<p class="oblique">Oblique P, the sloped version of the font</p>
+	</body>
+</html>
+|LiveURL=http://codepen.io/anon/pen/oqLgI
 }}
 }}
 {{Notes_Section
+|Usage=According to the specs, 'oblique' is a sloped version of the regular font. The example shows that the browsers actually use the 'italic' version for the 'oblique' variant as well. In the example, the bottom of the regular 'f' aligns with the bottom of the surrounding text. In the oblique line, this should be the case as well, but instead it shows the cursive 'f' that extends below the surrounding letters.
+[file:screenshot-font-style-example.png]
 |Notes====Remarks===
 The '''oblique''' value is available as of Microsoft Internet Explorer 4.0. Internet Explorer 4.0 renders italic and oblique identically.
-While, Windows Internet Explorer is shipped with a default '''font-style''', this default can be changed by accessing Internet Options.
-|Import_Notes====Syntax===
-<code>'''font-style: '''normal '''{{!}}''' italic '''{{!}}''' oblique</code>
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Fonts Module Level 3
+|URL=http://www.w3.org/TR/css3-fonts/
+|Status=W3C Working Draft 11 December 2012
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -54,7 +70,7 @@ While, Windows Internet Explorer is shipped with a default '''font-style''', thi
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=Fonts
+|Topic_clusters=CSS Font, Fonts
 |Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
@@ -66,8 +82,8 @@ While, Windows Internet Explorer is shipped with a default '''font-style''', thi
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
+|Sources=MDN, MSDN
+|MDN_link=https://developer.mozilla.org/en-US/docs/CSS/font-style
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
