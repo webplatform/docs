@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Indicates a definition term within a definition list.}}
+{{Summary_Section|The '''dt''' element (&lt;dt&gt;) indicates a definition term within a definition list ([[html/elements/dl|&lt;dl&gt;]]).}}
 {{Markup_Element
 |DOM_interface=dom/HTMLDTElement
 }}
