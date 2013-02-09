@@ -3,10 +3,10 @@
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status}}
+{{Standardization_Status|Deprecated}}
 {{API_Name}}
-{{Summary_Section|Defines bigger text.
-&lt;big&gt; tag is not supported in HTML5. Use CSS instead.
+{{Summary_Section|The '''big''' (&lt;big&gt;) indicates that the enclosed text should be display in a larger font size than surrounding text.
+This element is not considered obsolete in HTML5. Use CSS instead.
 }}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
