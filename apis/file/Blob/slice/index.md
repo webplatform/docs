@@ -28,7 +28,7 @@ If you specify a value for start that is larger than the size of the source Blob
 |Return_value_description=A new Blob object containing the data in the specified range of bytes from the source Blob.
 }}
 {{Examples_Section
-|Not_required=Yes
+|Not_required=No
 |Examples=
 }}
 {{Notes_Section
