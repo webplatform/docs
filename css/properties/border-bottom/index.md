@@ -32,7 +32,8 @@
   border-bottom: medium solid;
 }
 
-/* When we don't set border-bottom-style, default style <none> will be used - therefore no border will be rendered */
+/* When we don't set border-bottom-style, default style <none> will be used - therefore 
+no border will be rendered */
 .two {
   border-bottom: 1px red;
 }
