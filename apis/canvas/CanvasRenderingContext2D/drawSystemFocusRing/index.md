@@ -21,7 +21,7 @@
 |Javascript_data_type=DOM Node
 }}
 {{Examples_Section
-|Not_required=Yes
+|Not_required=No
 |Examples=
 }}
 {{Notes_Section
