@@ -7,7 +7,7 @@
 {{Summary_Section|A text track cue is the unit of time-sensitive data in a text track corresponding, for instance, for subtitles and captions to the text that appear at a particular time and disappear at another time.}}
 {{API_Object}}
 {{Examples_Section
-|Not_required=Yes
+|Not_required=No
 |Examples=
 }}
 {{Notes_Section
