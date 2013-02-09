@@ -3,10 +3,9 @@
 |Content=Cleanup, Compatibility Incomplete, Examples Best Practices
 |Editorial notes=The pages for WebSocket are bit messed up, someone with admin rights should set things straight. Relevant pages are:
 
-apis/websocket/objects/WebSocket
-apis/websocket/CloseEvent
-apis/websocket/MessageEvent
-
+[[apis/websocket/objects/WebSocket]]
+[[apis/websocket/CloseEvent]]
+[[apis/websocket/MessageEvent]]
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
