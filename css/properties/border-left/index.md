@@ -1,8 +1,5 @@
 {{Page_Title}}
-{{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
+{{Flags}}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|Shorthand property that sets the properties of an element's left border.It can be used to set one or more values (of those: [[css/properties/border-left-width|'''border-left-width''']], [[css/properties/border-left-style|'''border-left-style''']], [[css/properties/border-left-color|'''border-left-color''']]).}}
