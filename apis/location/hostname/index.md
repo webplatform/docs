@@ -13,7 +13,7 @@
 For example, <code>http://example.org/</code> would return the hostname <code>example.org</code>.
 }}
 {{Examples_Section
-|Not_required=Yes
+|Not_required=No
 |Examples=
 }}
 {{Notes_Section}}
@@ -22,6 +22,7 @@ For example, <code>http://example.org/</code> would return the hostname <code>ex
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
