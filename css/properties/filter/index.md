@@ -16,7 +16,7 @@
 |Description=Any combination of built-in filter functions, executed in sequence: [[css/functions/blur|'''blur()''']], [[css/functions/brightness|'''brightness()''']], [[css/functions/contrast|'''contrast()''']], [[css/functions/drop-shadow|'''drop-shadow()''']], [[css/functions/grayscale|'''grayscale()''']], [[css/functions/hue-rotate|'''hue-rotate()''']], [[css/functions/invert|'''invert()''']], [[css/functions/opacity|'''opacity()''']], [[css/functions/saturate|'''saturate()''']], and [[css/functions/sepia|'''sepia()''']]
 }}{{CSS Property Value
 |Data Type=url(path/to/filter.svg)
-|Description=A reference to an [[svg/elements/filter|SVG <filter> element]
+|Description=A reference to an [[svg/elements/filter|SVG <filter> element]]
 }}
 }}
 {{Examples_Section
