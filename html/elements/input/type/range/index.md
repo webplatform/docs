@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|An input field for setting a number value that falls in a given range.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLInputElement
 }}
