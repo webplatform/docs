@@ -2,7 +2,7 @@
 {{Flags
 |Content=Incomplete, Compatibility Incomplete
 }}
-{{Standardization_Status}}
+{{Standardization_Status|Experimental}}
 {{API_Name}}
 {{Summary_Section|Controls the visible highlighting of selections of text and elements. It is possible to blind out selection completely or to allow the selection of text only.}}
 {{CSS Property
@@ -89,7 +89,37 @@
 |Safari_prefixed_supported=No
 |Safari_prefixed_version=
 }}
-|Mobile_rows=
+|Mobile_rows={{Compatibility Table Mobile Row
+|Android_supported=Unknown
+|Android_version=
+|Android_prefixed_supported=Yes
+|Blackberry_supported=Unknown
+|Blackberry_version=
+|Blackberry_prefixed_supported=Unknown
+|Blackberry_prefixed_version=
+|Chrome_mobile_supported=Unknown
+|Chrome_mobile_version=
+|Chrome_mobile_prefixed_supported=Yes
+|Firefox_mobile_supported=Unknown
+|Firefox_mobile_version=
+|Firefox_mobile_prefixed_supported=Unknown
+|Firefox_mobile_prefixed_version=
+|IE_mobile_supported=Unknown
+|IE_mobile_version=
+|IE_mobile_prefixed_supported=Unknown
+|IE_mobile_prefixed_version=
+|Opera_mobile_supported=Unknown
+|Opera_mobile_version=
+|Opera_mobile_prefixed_supported=Unknown
+|Opera_mobile_prefixed_version=
+|Opera_mini_supported=Unknown
+|Opera_mini_version=
+|Opera_mini_prefixed_supported=Unknown
+|Opera_mini_prefixed_version=
+|Safari_mobile_supported=Unknown
+|Safari_mobile_version=
+|Safari_mobile_prefixed_supported=Yes
+}}
 |Notes_rows=
 }}
 {{See_Also_Section
