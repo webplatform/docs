@@ -48,7 +48,9 @@ border-image-slice: 30 30% 45;            /* Three-value syntax */
 border-image-slice: 7 12 14 5;            /* Four-value syntax  */
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=[file:slice.png]
+}}
 {{Related_Specifications_Section
 |Specifications=
 }}
