@@ -5,7 +5,10 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|In addition to the position property, display property tells the browser how to render the element. It can be used to completely remove the element from the page, or to specify flow and the type of rendering box for an element.}}
+{{Summary_Section|The display CSS property specifies the type of rendering box used for an element. In HTML, default display property values are taken from behaviors described in the HTML specifications or from the browser/user default stylesheet. The default value in XML is inline.
+
+In addition to the many different display box types, the value none lets you turn off the display of an element; when you use none, all descendant elements also have their display turned off. The document is rendered as though the element doesn't exist in the document tree.
+}}
 {{CSS Property
 |Initial value=inline
 |Applies to=All elements
