@@ -23,10 +23,11 @@
 |Description=Takes the same specified value as the property for the element's parent.
 }}
 }}
+
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-
+|Description=
 <p>This is a simple paragraph with the default value for letter-spacing.</p>
 <p style="letter-spacing: .3em;">This is a simple paragraph with a altered letter-spacing value by 0.3em.</p>
 
