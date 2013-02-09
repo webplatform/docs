@@ -17,7 +17,7 @@
 |Description=The spacing is the normal spacing for the current font.
 }}{{CSS Property Value
 |Data Type=length
-|Description=Floating-point number, followed by an absolute units designator (<code>cm</code>, <code>mm</code>, <code>in</code>, <code>pt</code>, or <code>pc</code>) or a relative units designator (<code>em</code>, <code>ex</code>, or <code>px</code>). For more information about the supported length units, see CSS Values and Units Reference.
+|Description=Indicates inter-character space in addition to the default space between characters. Vakues may be negative, but there may be implementation-specific limits.
 }}{{CSS Property Value
 |Data Type=inherit
 |Description=Takes the same specified value as the property for the element's parent.
