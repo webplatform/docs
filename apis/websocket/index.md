@@ -69,7 +69,8 @@ WebSocket URIs have the same basic format as HTTP URIs, but with a different URI
 * http://www.w3.org/TR/websockets/ - W3C WebSocket API
 * http://www.websocket.org/echo.html - WebSocket echo test
 * http://caniuse.com/#search=websockets - Browser support
-* http://ajf.me/websocket/ - Has a list of libraries and frameworks for most popular programming languages
+* http://ajf.me/websocket/ - Has a list of libraries and frameworks for most popular programming languagess
+* http://www.html5rocks.com/en/tutorials/websockets/basics/ - Good tutorial by html5rocks
 }}
 {{Topics|JavaScript, Performance}}
 {{External_Attribution
