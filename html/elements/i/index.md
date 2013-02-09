@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Specifies that the text should be rendered in italic type, where available.}}
+{{Summary_Section|The '''i''' element (&lt;i&gt;) historically was used to indicate that the text should be rendered in Italic type, where available. In HTML5, it indicates that the text is in a different voice or mood, or otherwise offset, from the surrounding text, }}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
 }}
