@@ -6,6 +6,9 @@ CSS properties
 * letter-spacing - kevin
 * font - vivienne
 * font-* - vivienne (font-variant, font-style, font-size, font-size-adjust)
+* font-style - vivienne - DONE, NEEDS REVIEW
+* font-family - vivienne - DONE, NEEDS REVIEW
+* font-size-adjust - vivienne - DONE, NEEDS REVIEW
 * font-weight - pascal - DONE, NEEDS REVIEW
 * text-align - knut
 * text-decoration - pascal - DONE, NEEDS REVIEW
@@ -22,9 +25,15 @@ CSS properties
 * animation-* - scott
 * box-shadow- julee
 * box-sizing - hans
-* float - hans
+* float - hans - DONE, NEEDS CHECK
+* display - hans
+* display - hans
 * text-rendering - anselm  - FINISHED, NEEDS REVIEW
-* anselm?
+* text-overflow-ellipsis - anselm - FINISHED, NEEDS REVIEW
+* text-overflow-mode - anselm - FINISHED, NEEDS REVIEW
+* text-overflow - anselm - FINISHED, NEEDS REVIEW
+* min-width - anselm - FINISHED, NEEDS REVIEW
+* max-width - anselm - FINISHED, NEEDS REVIEW
 * list-style - florian
 * list-style-* - florian
 * border - marcin - DONE, NEEDS REVIEW
