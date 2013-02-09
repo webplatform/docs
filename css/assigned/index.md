@@ -7,7 +7,7 @@ CSS properties
 * font-* - vivienne (font-variant, font-style, font-size, font-size-adjust)
 * font-weight - pascal - DONE, NEEDS REVIEW
 * text-align - knut
-* text-decoration - pascal
+* text-decoration - pascal - DONE, NEEDS REVIEW
 * border-image - andreas
 * border-image-* - andreas
 * line-height - timm -  FINISHED, NEEDS REVIEW
