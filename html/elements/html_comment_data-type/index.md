@@ -1,11 +1,12 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
+|High-level issues=Merge Candidate, Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Editorial notes=Merge with [[html/elements/comment]] (and move out of html/elements, since comments are not elements.
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Comments in HTML delimit parts of the source document that are not rendered by the browser. }}
+{{Summary_Section|Comments in HTML delimit parts of the source document that are not rendered by the browser.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
 }}
