@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|Non-Standard}}
 {{API_Name}}
-{{Summary_Section|The '''bgsound''' (&lt;bgsound&gt;) element instructs the browser to load and play a sound file while the user is on that page.
+{{Summary_Section|The '''bgsound''' element (&lt;bgsound&gt;) instructs the browser to load and play a sound file while the user is on that page.
 Don't use it. Use the [[html/elements/audio|audio]] element instead.
 }}
 {{Markup_Element
