@@ -9,7 +9,7 @@
 |Return_value_description=XMLHttpRequestUpload. Each XMLHttpRequest object has an associated XMLHttpRequestUpload object.
 }}
 {{Examples_Section
-|Not_required=Yes
+|Not_required=No
 |Examples=
 }}
 {{Notes_Section}}
