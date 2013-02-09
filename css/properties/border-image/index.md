@@ -21,7 +21,9 @@
 |Examples={{Single Example
 |Language=CSS
 |Code=[[File:border-image.png|border-image demo image]]
+Using the image above as a border-image with the following settings
 <code>border-image: url("border-image.png") 30 30 repeat;</code>
+it will result in an output like this
 [[File:bi-repeat.png|example of a repeated background-image]]
 }}
 }}
