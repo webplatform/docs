@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|The MathML <mglyph> element is used to display non-standard symbols where existing Unicode characters are not available. It may be used within token elements.}}
+{{Summary_Section|The MathML '''mglyph''' element is used to display non-standard symbols where existing Unicode characters are not available. It may be used within token elements.}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
