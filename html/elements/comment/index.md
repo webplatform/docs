@@ -5,8 +5,8 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Indicates a comment within the code. Text within the comment tags is not displayed on the rendered page in the browser.
-Comment tag starts with &lt;!-- and ends with --&gt;.
+{{Summary_Section|The comment syntax indicates text within an HTML document that is not displayed on the rendered page in the browser.
+A comment starts with &lt;!-- and ends with --&gt;.
 }}
 {{Markup_Element
 |DOM_interface=dom/Comment
