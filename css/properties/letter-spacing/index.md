@@ -1,7 +1,5 @@
 {{Page_Title}}
-{{Flags
-|High-level issues=Needs Flags
-}}
+{{Flags}}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|Specifies the spacing behavior between text characters.}}
