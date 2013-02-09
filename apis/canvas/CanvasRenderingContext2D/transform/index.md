@@ -51,10 +51,13 @@ If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRES
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=Other
+|Description=working live example that shows visually how the transformation matrix works.
+|LiveURL=http://www.audiocommander.de/dev/HTML5/transform.html
+}}{{Single Example
 |Language=HTML
 |Description=This example shows visually how the transformation matrix works.
-|Code=
-<html>
+|Code=<html>
 <head>
 	<title>Transformation Matrix Demo</title>
 
@@ -163,7 +166,6 @@ setup();
 
 </body>
 </html>
-
 |LiveURL=http://audiocommander.github.com/transformMatrixDemo
 }}
 }}
