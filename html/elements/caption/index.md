@@ -5,8 +5,8 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Specifies a brief description for a table.
-The &lt;caption&gt; tag must be inserted immediately after the &lt;table&gt; tag.
+{{Summary_Section|The '''caption''' element (&lt;caption&gt;) specifies a brief description for a table.
+The &lt;caption&gt; element must be inserted immediately after the [[html/elements/table|&lt;table&gt;]] element.
 }}
 {{Markup_Element
 |DOM_interface=dom/HTMLTableCaptionElement
