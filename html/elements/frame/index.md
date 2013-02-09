@@ -3,10 +3,10 @@
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status}}
+{{Standardization_Status|Deprecated}}
 {{API_Name}}
-{{Summary_Section|Defines one particular window (frame) within a &lt;frameset&gt;.
-The &lt;frame&gt; tag is not supported in HTML5.
+{{Summary_Section|The '''frame''' element (&lt;frame&gt;) defines one particular window (frame) within a [[html/element/frameset|&lt;frameset&gt;]].
+The &lt;frame&gt; tag is obsolete in HTML5.
 }}
 {{Markup_Element
 |DOM_interface=dom/HTMLFrameElement
