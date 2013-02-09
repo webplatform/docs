@@ -1,11 +1,11 @@
 {{Page_Title|The <head> element}}
 {{Flags
-|High-level issues=Needs Topics,Data Not Semantic,Unreviewed Import
+|High-level issues=Needs Topics, Data Not Semantic, Unreviewed Import
 |Content=Cleanup
 }}
 {{Standardization_Status|De Facto Standard}}
 {{API_Name}}
-{{Summary_Section|The <code><head></code> element represents a collection of metadata for the document.}}
+{{Summary_Section|The '''head''' element (&lt;head&gt;) represents a collection of metadata for the document.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLHeadElement
 |Content=The <code>head</code> element provides information that does not affect the rendering of the document but could be of use to the application. 
