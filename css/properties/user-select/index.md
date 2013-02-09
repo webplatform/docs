@@ -29,7 +29,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Description=Deactivate selection of text for elements with the class '''none'''.
+|Description=Deactivate selection of text for elements with the class '''no-select'''.
 |Code=.no-select {
     -webkit-user-select: none;
     -moz-user-select: none;
