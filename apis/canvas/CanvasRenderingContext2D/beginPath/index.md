@@ -10,7 +10,7 @@
 |Javascript_data_type=void
 }}
 {{Examples_Section
-|Not_required=Yes
+|Not_required=No
 |Examples=
 }}
 {{Notes_Section
