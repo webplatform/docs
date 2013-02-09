@@ -22,7 +22,6 @@
 }}{{CSS Property Value
 |Data Type=ellipsis-word
 |Description=Display ellipsis (...) for text overflow after the last word that entirely fits into a line.
-
 }}
 }}
 {{Examples_Section
@@ -37,7 +36,9 @@
 }}
 {{Compatibility_Section
 |Not_required=No
-|Imported_tables=
+|Imported_tables={{Imported Compatibility Table
+|Page=css/properties/text-overflow
+}}
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
