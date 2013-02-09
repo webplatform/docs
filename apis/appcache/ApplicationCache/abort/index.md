@@ -6,8 +6,8 @@
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=apis/appcache/ApplicationCache
-|Example_object_name=ApplicationCache
-|Javascript_data_type=DOM Node
+|Example_object_name=window.applicationCache
+|Javascript_data_type=void
 }}
 {{Examples_Section
 |Not_required=No
