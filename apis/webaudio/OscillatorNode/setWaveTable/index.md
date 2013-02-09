@@ -2,9 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Sets an arbitrary custom periodic waveform given a [[apis/webaudio/WaveTable|'''WaveTable''']].
-
-}}
+{{Summary_Section|Sets an arbitrary custom periodic waveform given a [[apis/webaudio/WaveTable|'''WaveTable''']].}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=waveTable
@@ -15,7 +13,7 @@
 |Example_object_name=OscillatorNode
 }}
 {{Examples_Section
-|Not_required=Yes
+|Not_required=No
 |Examples=
 }}
 {{Notes_Section}}
