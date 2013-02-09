@@ -11,8 +11,8 @@
 |Applies to=transformable elements
 |Inherited=No
 |Media=visual
-|Computed value=For <length> the absolute value, otherwise a percentage 
-|Animatable=No
+|Computed value=For <length> the absolute value, otherwise a percentage
+|Animatable=Yes
 |Values={{CSS Property Value
 |Data Type=length
 |Description=A floating-point number, followed by either an absolute units designator
