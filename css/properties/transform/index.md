@@ -1,5 +1,8 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Topics, Missing Relevant Sections
+|Content=Incomplete, Compatibility Incomplete
+}}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|CSS transforms allows elements styled with CSS to be transformed in two-dimensional or three-dimensional space.
@@ -13,7 +16,7 @@ If the property has a value different than none, a stacking context will be crea
 |Applies to=any transformable element
 |Inherited=No
 |Media=visual
-|Computed value=As specified, but with relative lengths converted into absolute lengths. 
+|Computed value=As specified, but with relative lengths converted into absolute lengths.
 |Animatable=Yes
 |Values={{CSS Property Value
 |Data Type=none
@@ -56,7 +59,6 @@ If the property has a value different than none, a stacking context will be crea
 |Data Type=rotateZ(20deg)
 }}
 }}
-[[file:transform_example.png|alt Example showing translate, scale and rotate step by step]]
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -188,3 +190,4 @@ If the property has a value different than none, a stacking context will be crea
 |MSDN_link=
 |HTML5Rocks_link=
 }}
+[[file:transform_example.png|alt Example showing translate, scale and rotate step by step]]
