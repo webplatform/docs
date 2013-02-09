@@ -8,6 +8,7 @@
 {{Summary_Section}}
 {{Markup_Element
 |DOM_interface=dom/HTMLInputElement
+|Content=An input field that represents an e-mail address.
 }}
 {{Examples_Section
 |Not_required=No
@@ -115,7 +116,7 @@ The '''input type{{=}}email''' object has these properties.
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MDN, MSDN
-|MDN_link=https://developer.mozilla.org/en-US/docs/HTML/Element/Input <input> HTML | MDN
+|MDN_link=https://developer.mozilla.org/en-US/docs/HTML/Element/Input <input> HTML
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
