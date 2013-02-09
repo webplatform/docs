@@ -2,7 +2,7 @@
 
 CSS properties
 
-* cursor - kevin
+* cursor - kevin - FINISHED, NEEDS REVIEW
 * font - vivienne
 * font-* - vivienne (font-variant, font-style, font-size, font-size-adjust)
 * font-weight - pascal - DONE, NEEDS REVIEW
