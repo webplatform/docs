@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Specifies a container for rich HTML that is rendered as a button.}}
+{{Summary_Section|The '''button''' type of the [[html/elements/input|&lt;input&gt;]] element represents a button with no default behavior.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLInputElement
 }}
