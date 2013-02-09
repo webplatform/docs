@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags}}
-{{Standardization_Status|W3C Editor's Draft}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|The 2D rendering context for the drawing surface of a <canvas> element.}}
 {{API_Object}}
