@@ -5,7 +5,7 @@
 {{Summary_Section|Represents an AudioNode for combining channels from multiple audio streams into a single audio stream.}}
 {{API_Object}}
 {{Examples_Section
-|Not_required=Yes
+|Not_required=No
 |Examples=
 }}
 {{Notes_Section}}
