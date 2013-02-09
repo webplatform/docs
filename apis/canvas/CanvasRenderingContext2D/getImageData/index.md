@@ -34,7 +34,7 @@
 A ''CanvasImageData'' object with pixel information from the canvas within the specified coordinates.
 }}
 {{Examples_Section
-|Not_required=Yes
+|Not_required=No
 |Examples=
 }}
 {{Notes_Section
