@@ -15,14 +15,17 @@
 |Data Type=none
 |Description=Default. Border is not drawn, regardless of any [[css/properties/border-width|'''border-width''']].
 }}{{CSS Property Value
-|Data Type=solid
-|Description=Border is a solid line.
+|Data Type=hidden
+|Description=Internet Explorer 8. Same as <code>none</code>, except in terms of conflict resolution of collapsed borders. Any element with a <code>hidden</code> border suppresses all shared borders at that location. Borders with a style of none have the lowest priority.
 }}{{CSS Property Value
 |Data Type=dotted
 |Description=Border is a dotted line.
 }}{{CSS Property Value
 |Data Type=dashed
 |Description=Border is a dashed line.
+}}{{CSS Property Value
+|Data Type=solid
+|Description=Border is a solid line.
 }}{{CSS Property Value
 |Data Type=double
 |Description=Border is a double line drawn on top of the background of the object. The sum of the two single lines and the space between equals the [[css/properties/border-width|'''border-width''']] value. The border width must be at least 3 pixels wide to draw a double border.
@@ -38,12 +41,6 @@
 }}{{CSS Property Value
 |Data Type=outset
 |Description=3-D outset is drawn in colors based on the value.
-}}{{CSS Property Value
-|Data Type=window-inset
-|Description=Internet Explorer 6 and later. Same as <code>inset</code> with a thin outside border.
-}}{{CSS Property Value
-|Data Type=hidden
-|Description=Internet Explorer 8. Same as <code>none</code>, except in terms of conflict resolution of collapsed borders. Any element with a <code>hidden</code> border suppresses all shared borders at that location. Borders with a style of none have the lowest priority.
 }}
 }}
 {{Examples_Section
