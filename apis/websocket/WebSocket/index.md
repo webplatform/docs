@@ -19,6 +19,21 @@
 |Language=JavaScript
 |Description=WebSockets are created via the WebSocket() constructor functio
 |Code=WebSocket( url[, protocols] )
+}}{{Single Example
+|Language=JavaScript
+|Description=Complete example
+|Code= if (window["WebSocket"]) {
+        conn = new WebSocket("ws://localhost:12345/wsendpoint");
+        conn.onclose = function(evt) {
+            console.log("Connection closed.")
+        }
+        conn.onmessage = function(evt) {
+            console.log(text(evt.data))
+        }
+    } else {
+        console.log("Your browser does not support WebSockets")
+    }
+    });
 }}
 }}
 {{Notes_Section
