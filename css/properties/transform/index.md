@@ -143,7 +143,9 @@ If the property has a value different than none, a stacking context will be crea
 }}
 |Notes_rows=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|External_links=Cross Browser CSS Transforms – even in IE http://www.useragentman.com/blog/2010/03/09/cross-browser-css-transforms-even-in-ie/
+}}
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
