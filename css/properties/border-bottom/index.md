@@ -51,10 +51,9 @@ This example uses a call to an embedded (global) style sheet to change the attri
 {{Notes_Section
 |Notes====Remarks===
 The '''border-bottom''' property is a composite property that sets the '''width''', '''style''', and '''color''' values for the bottom border of an object.
-All individual border properties not set by the composite '''border-bottom''' property are set to their default values. For example, the default value for '''width''' is '''medium'''.
-If a '''color''' is not specified, the text color is used.
-For more information about supported colors, see the Color Table.
-As of Microsoft Internet Explorer 5.5, this property applies to inline elements.  With earlier versions of  Windows Internet Explorer, inline elements must have an '''absolute''' [[css/properties/position|'''position''']] or layout to use this property. Element layout is set by providing a value for the [[css/properties/height|'''height''']] property or the [[css/properties/width|'''width''']] property.
+All individual border properties not set by the composite '''border-bottom''' property are set to their default values. 
+
+The default value for the [[css/properties/border-color|'''border-color''']] is the same as the text color, for [[css/properties/border-width|'''border-width''']] is <tt>medium</tt> and for [[css/properties/border-style|'''border-style''']] is <tt>none</tt>. Therefor you must specify a style when specifying a width or color; otherwise, the border will be invisible.
 |Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 5.5.20
 }}
