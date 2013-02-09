@@ -218,8 +218,19 @@ In Windows Internet Explorer 9, the background of a box can have multiple layer
 |Notes_rows={{Compatibility Notes Row
 |Browser=Opera
 |Version=9.5
-|Note=Computation of the background positioning area is incorrect for fixed backgrounds. This version also interprets the two-value form as a horizontal scaling factor and, from appearances, a vertical clipping dimension.
-}}{{Compatibility Notes Row}}
+|Note=Opera 9.5's computation of the background positioning area is incorrect for fixed backgrounds.  Opera 9.5 also interprets the two-value form as a horizontal scaling factor and, from appearances, a vertical clipping dimension. This has been fixed in Opera 10.
+}}{{Compatibility Notes Row
+|Browser=WebKit-based browsers
+|Note=Originally implemented an older draft of CSS3 '''background-size''' in which an omitted second value is treated as duplicating the first value; this draft does not include the contain or cover keywords.
+}}{{Compatibility Notes Row
+|Browser=Konqueror
+|Version=3.5.4
+|Note=supports '''-khtml-background-size'''.
+}}{{Compatibility Notes Row
+|Browser=Firefox
+|Version=3.6
+|Note=While this property is new in Gecko 1.9.2 (Firefox 3.6), it is possible to stretch a image fully over the background in Firefox 3.5 by using '''-moz-border-image'''.
+}}
 }}
 {{See_Also_Section
 |Topic_clusters=Background
