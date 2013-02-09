@@ -208,12 +208,12 @@ in isolation. See each function for details on accepted parameters.
 |Topic_clusters=Filters
 |External_links=* [http://html.adobe.com/webstandards/csscustomfilters/cssfilterlab/ Adobe CSS FilterLab]
 * [http://html5-demos.appspot.com/static/css/filters/index.html Interactive demonstration]
+* [http://www.html5rocks.com/en/tutorials/filters/understanding-css/ HTML5 Rocks! Understanding CSS Filters article]
 }}
 {{Topics|CSS, Graphics, SVG}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=HTML5Rocks
 |MDN_link=
 |MSDN_link=
-|HTML5Rocks_link=http://www.html5rocks.com/en/tutorials/filters/understanding-css/
+|HTML5Rocks_link=
 }}
