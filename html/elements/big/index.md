@@ -5,8 +5,8 @@
 }}
 {{Standardization_Status|Deprecated}}
 {{API_Name}}
-{{Summary_Section|The '''big''' (&lt;big&gt;) indicates that the enclosed text should be display in a larger font size than surrounding text.
-This element is not considered obsolete in HTML5. Use CSS instead.
+{{Summary_Section|The '''big''' element (&lt;big&gt;) indicates that the enclosed text should be display in a larger font size than surrounding text.
+This element is considered obsolete in HTML5. Use CSS instead.
 }}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
