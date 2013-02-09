@@ -5,62 +5,52 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The CSS border-right shorthand property sets all the right border properties in one declaration. The properties that can be set, are (in order): border-right-width, border-right-style, and border-right-color.}}
+{{Summary_Section|Shorthand property that sets the properties of an element's right border.It can be used to set one or more values (of those: [[css/properties/border-right-width|'''border-right-width''']], [[css/properties/border-right-style|'''border-right-style''']], [[css/properties/border-right-color|'''border-right-color''']]).}}
 {{CSS Property
 |Applies to=All elements
 |Inherited=No
 |Media=visual
+|Computed value=See individual properties
 |Animatable=No
+|CSS object model property=borderRight
+|CSS percentages=N/A
 |Values={{CSS Property Value
-|Data Type=width
-|Description=Any of the range of width values available to the [[css/properties/border-left-width|'''border-left-width''']] property.
-}}{{CSS Property Value
-|Data Type=style
-|Description=Any of the range of style values available to the [[css/properties/border-left-style|'''border-left-style''']] property.
-}}{{CSS Property Value
-|Data Type=color
-|Description=Any of the range of color values available to the [[css/properties/border-left-color|'''border-left-color''']] property.
+|Data Type=<border-width> <border-style> <color>
+|Description=The <tt>border-right</tt> property is a shorthand property for setting the same width, color, and style for only one border of a box: right.
+* '''Width''' - Any of the range of width values available to the [[css/properties/border-right-width|'''border-right-width''']] property. It's optional. Default value is <tt>medium</tt>.
+* '''Style''' - Any of the range of style values available to the [[css/properties/border-right-style|'''border-right-style''']] property. Default value is <tt>none</tt>.
+* '''Color''' - Any of the range of color values available to the [[css/properties/border-right-color|'''border-right-color''']] property. Default value is the value of the element's [[css/properties/color|'''color''']] property - i.e. text color.
 }}
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=The following examples use the '''border-right''' property and the '''border-right''' attribute to specify the composite properties.
+|Language=CSS
+|Code=/* When we don't set border-right-color, color of a text is used as a default */
+.one {
+  color: #6CC644;
+  border-bottom: medium solid;
+}
 
-This example uses a call to an embedded (global) style sheet to change the attributes of the right border when an [[dom/events/mouseover|'''onmouseover''']] event occurs.
-|Code=&lt;HEAD&gt;
-&lt;STYLE&gt;
-    TD { border-right-style:solid; border-width:0.3cm }
-    .change { border-right-style:groove }
-&lt;/STYLE&gt;
-&lt;/HEAD&gt;
-&lt;BODY&gt; 
-&lt;TABLE&gt; 
-&lt;TR&gt; 
-    &lt;TD onmouseover{{=}}"this.className{{=}}'change'" 
-        onmouseout{{=}}"this.className{{=}}''"&gt;
-        &lt;IMG src{{=}}"sphere.jpg"&gt;&lt;/TD&gt; 
-&lt;/TR&gt;
-&lt;/TABLE&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/border-right.htm
-}}{{Single Example
-|Description=This example uses inline scripting to change the attributes of the right border when an [[dom/events/mouseover|'''onmouseover''']] event occurs.
-|Code=&lt;TD onmouseover{{=}}"this.style.borderRight{{=}}'0.3cm groove yellow'"&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/borderRight.htm
+/* When we don't set border-right-style, default style <none> will be used - therefore 
+no border will be rendered */
+.two {
+  border-bottom: 1px red;
+}
+
+/* Other border-right style example */
+.three {
+  border-bottom: dotted 2px red;
+}
 }}
 }}
 {{Notes_Section
 |Notes====Remarks===
 The '''border-right''' property is a composite property that sets the '''width''', '''style''', and '''color''' values for the right border of an object.
-All individual border properties not set by the composite '''border-right''' property are set to their default values. For example, the default value for '''width''' is '''medium'''.
-If a '''color''' is not specified, the text color is used.
-For more information about supported colors, see the Color Table.
-As of Microsoft Internet Explorer 5.5, this property applies to inline elements.  With earlier versions of  Windows Internet Explorer, inline elements must have an '''absolute''' [[css/properties/position|'''position''']] or layout to use this property. Element layout is set by providing a value for the [[css/properties/height|'''height''']] property or the [[css/properties/width|'''width''']] property.
-|Import_Notes====Syntax===
-<code>'''border-right: ''''''[''' width '''{{!}}{{!}}''' style '''{{!}}{{!}}''' ''
-&lt;color&gt;
-'' ''']'''</code>
-===Standards information===
+All individual border properties not set by the composite '''border-right''' property are set to their default values. 
+
+The default value for the [[css/properties/border-color|'''border-color''']] is the same as the text color, for [[css/properties/border-width|'''border-width''']] is <tt>medium</tt> and for [[css/properties/border-style|'''border-style''']] is <tt>none</tt>. Therefor you must specify a style when specifying a width or color; otherwise, the border will be invisible.
+|Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 5.5.19
 }}
 {{Related_Specifications_Section
