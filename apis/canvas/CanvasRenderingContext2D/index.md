@@ -88,7 +88,7 @@ ctx.drawRect(10, 10, 100, 100);
 {{See_Also_Section}}
 {{Topics|Canvas}}
 {{External_Attribution
-|Is_CC-BY-SA=No
+|Is_CC-BY-SA=Yes
 |Sources=MDN, MSDN
 |MDN_link=https://developer.mozilla.org/en-US/docs/DOM/CanvasRenderingContext2D
 |MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
