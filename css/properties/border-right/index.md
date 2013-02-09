@@ -42,6 +42,7 @@ no border will be rendered */
 .three {
   border-right: dotted 2px red;
 }
+|LiveURL=http://kamila-wosinek.github.com/border-right/
 }}
 }}
 {{Notes_Section
