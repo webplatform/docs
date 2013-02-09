@@ -5,8 +5,8 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The tag is used to group related elements in a form.
-Draws a box around the text and other elements that the field set contains.
+{{Summary_Section|The '''fieldset''' (&lt;fieldset&gt;) is used to group related elements in a form.
+Typically, the browser draws a box around the text and other elements that the field set contains.
 }}
 {{Markup_Element
 |DOM_interface=dom/HTMLFieldSetElement
