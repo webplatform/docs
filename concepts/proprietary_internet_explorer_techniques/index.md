@@ -14,7 +14,7 @@ So came that Microsoft's Internet Explorers learned a lot of techniques that adm
 
 Conditional comments come along as a HTML comments with a special syntax. They allow you to hide certain parts of your document from all browsers but from Internet Explorers. E.g.:
 
-<syntaxHighlight lang="html">
+<syntaxHighlight lang="html5">
 <!--[if IE]>
 IE can see this whereas other browsers think this is an inline comment
 <![endif]-->
@@ -22,7 +22,7 @@ IE can see this whereas other browsers think this is an inline comment
 
 You can even limit visibility certain versions of IE, like IE 8 for example:
 
-<syntaxHighlight lang="html">
+<syntaxHighlight lang="html5">
 <!--[if IE 8]>
 Only IE 8 can see this
 <![endif]-->
@@ -30,7 +30,7 @@ Only IE 8 can see this
 
 or to version ranges:
 
-<syntaxHighlight lang="html">
+<syntaxHighlight lang="html5">
 <!--[if lte IE 8]>
 All IEs up to version 8 can see this (lte = lower than, or equal)
 <![endif]-->
@@ -42,7 +42,7 @@ IEs higher than version 8 can see this (gt = greater than)
 
 Also, if you need to hide sections from IE but want to make them visible to other browsers, you can to do the following:
 
-<syntaxHighlight lang="html">
+<syntaxHighlight lang="html5">
 <!--[if !IE]> -->
 This is visible to every browser except IE
 <!-- <![endif]-->
