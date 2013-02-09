@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The tag is used to create an HTML form for user input, subsequently to be submitted to a website or service.}}
+{{Summary_Section|The '''form''' element (&lt;form&gt;) defines an HTML form for user input, subsequently to be submitted to a website or service.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLFormElement
 }}
