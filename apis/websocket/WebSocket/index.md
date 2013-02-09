@@ -22,18 +22,18 @@
 }}{{Single Example
 |Language=JavaScript
 |Description=Complete example
-|Code= if (window["WebSocket"]) {
+|Code=if (window["WebSocket"]) {
         conn = new WebSocket("ws://localhost:12345/wsendpoint");
         conn.onclose = function(evt) {
-            console.log("Connection closed.")
+            console.log("Connection closed.");
         }
         conn.onmessage = function(evt) {
-            console.log(text(evt.data))
+            console.log(evt.data);
         }
     } else {
-        console.log("Your browser does not support WebSockets")
+        console.log("Your browser does not support WebSockets");
     }
-    });
+});
 }}
 }}
 {{Notes_Section
@@ -96,3 +96,10 @@ The '''WebSocket''' object has these methods.
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
+}
+
+
+
+
+
+}
