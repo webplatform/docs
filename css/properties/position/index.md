@@ -1,7 +1,5 @@
 {{Page_Title}}
-{{Flags
-|Content=Examples Best Practices
-}}
+{{Flags}}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|The position property controls the type of positioning used by an element within its parent elements. The effect of the position attribute depends on a lot of factors, for example the value of position property of parent elements.}}
@@ -336,7 +334,7 @@ An element with a '''fixed''' position is positioned relative to the visible vie
 {{See_Also_Section
 |Topic_clusters=Box Model
 }}
-{{Topics|CSS, Design, UI}}
+{{Topics|CSS, Design}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
