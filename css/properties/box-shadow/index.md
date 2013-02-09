@@ -43,13 +43,19 @@ Links to descriptions of length and color are in the [[#Remarks]] section, below
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Code=&lt;article&gt;
-	&lt;h1&gt;Drop Shadows - Web Platform Docs Examples&lt;/h1&gt;
-	&lt;p&gt;Examples of Drop Shadows&lt;/p&gt;
-	&lt;footer role=&quot;contentinfo&quot;&gt;
-		&lt;a href=&quot;http://docs.webplatform.org/wiki/css/properties/box-shadow&quot;&gt;Learn more about Drop Shadows&lt;/a&gt;
-	&lt;/footer&gt;
-&lt;/article&gt;
+|Code=  &lt;style&gt;
+    .shadow-style {
+box-shadow: inset 30px 30px 5px green, inset -30px -30px 5px blue;
+Width: 100px;
+Height: 100px;
+Border: 10px solid yellow;
+Background-color: red;
+}
+&lt;/style&gt;
+&lt;body&gt;
+&lt;div class=&quot;shadow-style&quot;&gt;
+&lt;/div&gt;
+&lt;/body&gt;
 }}{{Single Example
 |Language=CSS
 |Description=An example of a basic Drop Shadow
