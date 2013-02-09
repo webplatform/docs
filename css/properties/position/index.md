@@ -131,15 +131,17 @@ Input from pointing devices, such as the mouse, does not penetrate through overl
 ===Relative===
 Setting the property to '''relative''' places the object in the natural HTML flow of the document, but offsets the position of the object based on the preceding content. The following syntax shows how to create superscript text by placing the text in a span that is positioned relative to the remaining text in the paragraph.
 
-<code>
+<nowiki>
 <p>The superscript in this name 
-    <span style="position: relative; 
-    top: -3px">xyz</span> is &quot;xyz&quot;.</p>
-</code>
+    <span style="position: relative; top: -3px">xyz</span> 
+    is &quot;xyz&quot;.</p>
+</nowiki>
 
 <p>The superscript in this name 
     <span style="position: relative; 
     top: -3px">xyz</span> is &quot;xyz&quot;.</p>
+
+----
 
 Text and objects that follow a relatively positioned object occupy their own space and do not overlap the natural space for the positioned object. In contrast, text and objects that follow an absolutely positioned object occupy what would have been the natural space for the positioned object before it was pulled out of the flow. Placing an absolutely positioned object beyond the viewable area of the window causes a scroll bar to appear. When relatively positioned objects are placed beyond the viewable area, a scroll bar is not shown. The size of the content determines the size of objects with layout. For example, setting the height and position properties on a div object gives it layout. The content of the div determines the size. In this case, the content determines the size of the width. 
 
