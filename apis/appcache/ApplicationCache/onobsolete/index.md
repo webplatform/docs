@@ -11,7 +11,24 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single Example}}
+|Examples={{Single Example
+|Language=JavaScript
+|Description=Checking fo the obsolete status
+|Code=// try to trigger an application cache update
+window.applicationCache.update();
+
+// Asking the server for the manifest file returned status 404 or 410
+// (results in appcache beeing deleted)
+if (window.applicationCache.status === window.applicationCache.OBSOLETE) {
+   console.log('The cache manifest is gone!');
+}
+}}{{Single Example
+|Language=JavaScript
+|Description=Listening for obsolete events
+|Code=window.applicationCache.addEventListener('obsolete',function () {
+   console.log('The cache manifest is gone!');
+}, false);
+}}
 }}
 {{Notes_Section
 |Notes=If the manifest file can't be found, the cache is considered to be deleted.
