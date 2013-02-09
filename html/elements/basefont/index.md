@@ -3,12 +3,12 @@
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status}}
+{{Standardization_Status|Non-Standard}}
 {{API_Name}}
-{{Summary_Section|Allows specifying a default font-color and font-size for text on the entire page. 
-To specify the overall font for your page add the &lt;basefont&gt; tag at the beginning of the &lt;body&gt; section. 
-The &lt;basefont&gt; tag is only supported by Internet Explorer.
-The &lt;basefont&gt; tag is not supported in HTML5. Use CSS instead.
+{{Summary_Section|The '''basefont''' (&lt;basefont&gt;) allows specifying a default font-color and font-size for text on the entire page. 
+To specify the overall font for your page add the &lt;basefont&gt; element at the beginning of the &lt;body&gt; section. 
+The &lt;basefont&gt; element is only supported by Internet Explorer.
+The &lt;basefont&gt; element is not supported in HTML5. Use CSS instead.
 }}
 {{Markup_Element}}
 {{Examples_Section
