@@ -2,41 +2,59 @@
 {{Flags}}
 {{Summary_Section|This page explains the different mechanisms available in HTML and CSS to specify colors.}}
 {{Basic Page}}
-===Basic HTML Color Names===
-Only 16 color "keywords" (names) are defined by the HTML 4.01 standard. These colors can always be rendered properly, regardless of the color resolution of the user's display card.
-[[Image:named_colors.png]]
-The Cascading Style Sheets, Level 2 Revision 1 (CSS2.1) specification includes "orange" (#FFA500) for a total of 17 color keywords.
+{{Page_Title|color}}
+{{Flags}}
+{{Summary_Section|This page explains the different mechanisms available in HTML and CSS to specify colors.}}
+{{Basic Page}}
+==Basic HTML Color keywords==
 
-====Extended Color Names====
-In addition to the colors listed above, Internet Explorer supports a wide variety of named colors. Click the links below to view tables of colors sorted in various ways. The code example provides a table that you can sort dynamically by clicking the column headers. The named colors do not represent the full color spectrum; therefore, for best results, use RGB or HSL color values. The basic and extended color keywords are defined in [http://go.microsoft.com/fwlink/p/?linkid{{=}}203761 CSS Color Module Level 3].
+The [http://www.w3.org/TR/REC-html40/types.html#h-6.5 HTML 4.01 spec] defines 16 color keywords. These colors can always be rendered properly, regardless of the color resolution of the user's display card. As an example, you can specify pure red text in CSS with the following
+
+<syntaxHighlight>color: red; /* color rendered pure red */</syntaxHighlight>
+
+[[Image:named_colors.png]]
+
+The [http://www.w3.org/TR/CSS2/syndata.html#color-units Cascading Style Sheets, Level 2 Revision 1 (CSS2.1)] specification includes "orange" (#FFA500) for a total of 17 color keywords.
+
+==Extended Color keywords==
+
+In addition to the colors listed above, most browsers support an extended list of color keywords. The links below point to tables of colors sorted in various ways. The named colors do not represent the full color spectrum; therefore, for best results, use RGB or HSL color values. The basic and extended color keywords are defined in the [http://www.w3.org/TR/css3-color/#svg-color CSS Color Module Level 3 Extended Color Keywords] section.
 
 *[[css/color/colors by name|Colors by Name]]
 *[[css/color/colors by hue|Colors by Hue]]
 *[[css/color/colors by lightness|Colors by Lightness]]
 *[[css/color/colors by saturation|Colors by Saturation]]
 
-[http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/colors/ColorTable.htm Click to view sample.]
+===Hexadecimal and RGB Notation===
 
-===RGB Notation===
-An RGB color value normally consists of a '#' immediately followed by a triad of two-digit hexadecimal numbers specifying the intensity of the corresponding color: (R)ed, (G)reen, and (B)lue. For example, the color value #FF0000 is rendered red because the red number is set to its highest value, FF (or 255, in decimal).
-Each of the following style rules refer to the same color—namely, red. The three digit short-hand form is converted into the six digit form by replicating digits (#F00 becomes #FF0000). The functional <code>rgb()</code> notation uses a comma-separated list of integer numbers from 0 to 255, or percentage values.
- <code>em { color: #f00; }              /* #rgb */
- em { color: #ff0000; }           /* #rrggbb */
- em { color: rgb(255, 0, 0); }    /* integer range 0 - 255 */
- em { color: rgb(100%, 0%, 0%); } /* float range 0.0% - 100.0% */ 
- em { color: red; }               /* color keyword */ </code>
+An RGB color value can be specified in two ways:
 
-====Standards-Compliant Mode====
-When you use the [[html/elements/!DOCTYPE|!DOCTYPE]] declaration to specify standards-compliant mode, Microsoft Internet Explorer 6 and later versions ignore style sheet declarations that do not comply with Cascading Style Sheets, Level 1 (CSS1). According to CSS1, colors specified with hexadecimal RGB values must have a leading '#' character. Values like "FFFFFF" are ignored, not treated the same as "#FFFFFF" as in previous versions of Internet Explorer. This affects all Cascading Style Sheets (CSS) attributes and properties that accept an RGB color value.
+* A '#' immediately, followed by a triad of two-digit hexadecimal numbers specifying the intensity of the three component color channels: red, green, and blue, respectively.
 
-===RGBA and HSL Notation===
-In Internet Explorer 9, the RGB color model also includes an "alpha" value that specify the opacity of a color. The format of an RGBA value in the functional notation is a comma-separated list of three numerical values (either three integer numbers or three percentage values), followed by an decimal value between 0 and 1.
- <code>em { color: rgb(255, 0, 0) }        /* integer range 0 - 255 */
- em { color: rgba(255, 0, 0, 1) }    /* the same, with explicit opacity of 1 */
- em { color: rgb(100%, 0%, 0%) }     /* float range 0.0% - 100.0% */
- em { color: rgba(100%, 0%, 0%, 1) } /* the same, with explicit opacity of 1 */ </code>
-'''Note'''  Though RGB values support hexadecimal notation, RGBA values do not.
-Internet Explorer 9 also supports numerical hue, saturation, luminosity (HSL) colors as a complement to numerical RGB colors. HSL colors are encoding as a triple (hue, saturation, lightness).
+<syntaxHighlight>color: #FF0000 /* text rendered pure red because the red channel is set to its highest value, FF.*/</syntaxHighlight>
+
+Note that most browsers support abbreviated syntax for hex colors where both numbers are the same, in each channel. So for example, the above color could be written <code>#F00</code>. However, it is safest to use the full color definition.
+
+* The RGB() function, which contains three values delimited by commas specifying the intensity of the three component color channels: red, green, and blue, respectively. The above red color can be specified by either of the following:
+
+<syntaxHighlight>color: rgb(255,0,0) /* text rendered pure red because the red channel is set to its highest integer value, 255.*/
+color: rgb(100%,0%,0%) /* text rendered pure red because the red channel is set to its highest percentage value, 100%.*/</syntaxHighlight>
+
+Why 255? modern computers use 256-bit color, which means they can display around 16.7 million different colors (256 x 256 x 256; hexadecimal numbers have 16 different values, 0-9 and then a-f — 16 x 16 = 255). And since computers count from 0, not 1, the value range is 0-255, not 1-256.
+
+==RGBA Notation==
+
+In modern browsers (Opera, Firefox, Chrome, Safari, and Internet Explorer 9+), a counterpart to the RGB color model is supported — RGBA — which can also accept an "alpha" value specifying the opacity of a color. The format of an RGBA value is the same as RGB, with the addition of a numerical value between 0 (completely transparent and therefore invisible) and 1 (completely opaque).
+
+<syntaxHighlight>color: rgba(255,0,0,0.5) /* text rendered semi-transparent red */
+color: rgba(100%,0%,0%,0.5) /* text rendered semi-transparent red */</syntaxHighlight>
+
+==HSL and HSLA notation==
+
+Modern browsers (Opera, Firefox, Chrome, Safari, and Internet Explorer 9+) also support an <acronym title="Hue Saturation Lightness">HSL</acronym> color model, which is also a function taking three values:
+
+* The hue takes a degree value in the range of 0-360, representing how far round a standard colour wheel the color sits. The table below gives you an idea of how this works.
+
 {{{!}} class="wikitable"
 {{!}}-
 !Degree
@@ -71,37 +89,68 @@ Internet Explorer 9 also supports numerical hue, saturation, luminosity (HSL) c
 {{!}}red
 {{!}}[[Image:FF0000.png]]
 {{!}}}
-*'''Saturation''' is represented as a percentage, where <code>100%</code> is full saturation and <code>0%</code> percent is a shade of gray.
-*'''Lightness''' is also represented as a percentage, where <code>50%</code> percent is normal, <code>0%</code> is black, and <code>100%</code> is white.
 
-The <code>hsl()</code> functional notation also has an <code>hsla()</code> alpha counterpart that allows you to specify opacity by using a floating point number between 1 and 0, as demonstrated in the following examples:
- <code>em { color: hsl(0, 100%, 50%) }   /* red */
- em { color: hsl(120, 100%, 50%) } /* lime green */ 
- em { color: hsl(120, 100%, 20%) } /* dark green */ 
- em { color: hsl(120, 100%, 80%) } /* light green */ 
- em { color: hsl(120, 75%, 75%) }  /* pastel green, and so on */ 
- p { color: hsla(240, 100%, 50%, 0.5) } /* semi-transparent solid blue */
- p { color: hsla(30, 100%, 50%, 0.1) }  /* very transparent solid orange */</code>
+* Saturation is represented as a percentage, where <code>100%</code> is full color saturation and <code>0%</code> percent is a shade of gray.
+* Lightness is also represented as a percentage, where <code>50%</code> percent is normal, <code>0%</code> is pure black, and <code>100%</code> is pure white.
 
-===System Colors===
-Unlike the named colors, system colors have no numeric RGB equivalent because the exact color is not known until the Web page is viewed on the user's system. In this way, system colors are user-defined because users can choose their own system color scheme from the Windows Control Panel. System colors are especially useful for UI components.
-Not all of the system colors are appropriate for a background or text color; however, some of them are intended to be used in combination. The following table demonstrates appropriate text and background colors, as they would appear on a Windows Vista system with default colors.
+HSL also has a corresponding function that accepts an alpha channel value — HSLA <code>hsla()</code> alpha counterpart that allows you to specify opacity by using a numerical value between 1 and 0.
+
+<syntaxHighlight>color: hsl(0, 100%, 50%) /* red */
+color: hsla(0, 100%, 50%, 0.5) /* semi-transparent red */
+ 
+color: hsl(120, 100%, 50%) /* lime green */ 
+color: hsl(120, 100%, 20%) /* dark green */ 
+color: hsl(120, 100%, 80%) /* light green */ 
+color: hsl(120, 75%, 75%)  /* pastel green */ </syntaxHighlight>
+
+==System Colors==
+
+It is also possible to specify system colors, so you can specify for example that you want your text to be the same color as your highlighted text; these are only supported on Windows. Unlike the named colors, system colors have no numeric RGB equivalent because the exact color is not known until the Web page is viewed on the user's system. In this way, system colors are user-defined because users can choose their own system color scheme from the Windows Control Panel. The following table demonstrates appropriate text and background colors, as they would appear on a Windows Vista system with default colors.
+
 [[Image:named_system_colors.png]]
-'''Note'''   The system color names have been deprecated in the Cascading Style Sheets, Level 3 (CSS3) recommendation.
-For a complete list of sytem colors, see [[css/color/user-defined system colors|User-Defined System Colors]].
 
-===Related topics===
-;'''Other Resources''':CSS Enhancements in Internet Explorer 6
-;CSS Enhancements in Internet Explorer 6:
+Note that the system color names have been deprecated in the http://www.w3.org/TR/css3-color/ CSS Color Module Level 3] recommendation, and since they are Windows-only, so it is advisable to not use them.
+
+For a complete list of system colors, see [[css/color/user-defined system colors|User-Defined System Colors]].
 
 {{Standardization_Status|}}
 {{API_Name}}
 
+==currentColor==
 
+* You can use the <code>currentColor</code> value to set a color to the computed value of the element's <code>color</code> propety. for example, the background color of the div in the following example will be red, the same color as the <code>color</code> of it's parent element.
+
+&lt;article style="color:red"&gt;
+  &lt;p&gt;This is a sample article&lt;/p&gt;
+  
+  &lt;div style="background-color:currentColor"&gt;
+    &lt;p&gt;This is some kind of highlight box.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/article&gt;
+
+==transparent keyword==
+
+Note that the [http://www.w3.org/TR/css3-color/ CSS Color Module Level 3] spec defines a keyword <code>transparent</code>, which is very useful for overriding previously set colors when required. It is equivalent to rgba(0,0,0,0), which is completely transparent black.
+
+This value used to only be defined as an override value for the [[css/properties/background|background]] and [[css/properties/border|border property]], until it was defined as a true value in CSS3. <code>transparent</code> is supported on all properties in al modern browsers including IE9+.
+
+==Opacity property==
+
+You can set the opacity of an entire element using the [[css/properties/opacity|opacity property]].
 
 {{See_Also_Section
 |Topic_clusters=Visual Effects
 }}
+{{Notes_Section}}
+{{Topics}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|HTML5Rocks_link=
+}}
+
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
