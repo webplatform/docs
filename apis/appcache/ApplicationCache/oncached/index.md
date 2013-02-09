@@ -5,7 +5,7 @@
 {{Summary_Section|The resources listed in the manifest have been downloaded, and the application is now cached.}}
 {{API_Object_Property
 |Property_applies_to=apis/appcache/ApplicationCache
-|Read_only=Yes
+|Read_only=No
 |Example_object_name=window.applicationCache
 }}
 {{Examples_Section
@@ -28,7 +28,7 @@ where e is the cached event.
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables={{Imported Compatibility Table
-|Page=/apis/appcache/ApplicationCache
+|Page=apis/appcache/ApplicationCache
 }}
 |Desktop_rows=
 |Mobile_rows=
