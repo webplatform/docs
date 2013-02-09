@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|The footer element was introduced in HTML5 for modeling the footer sections of real-world documents. The basic motivation for introducing the footer element was to eliminate the overuse of div elements and creating a suitable element for the links and text that are usually located at the bottom of the webpages.}}
+{{Summary_Section|The '''footer''' element (&lt;footer&gt;) was introduced in HTML5 for modeling the footer sections of real-world documents. The basic motivation for introducing the footer element was to eliminate the overuse of [[html/elements/div|&lt;div&gt;]] elements and creating a suitable element for the links and text that are usually located at the bottom of the webpages.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
 }}
