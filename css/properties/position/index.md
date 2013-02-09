@@ -103,6 +103,35 @@
     width: 160px;
     height: 160px;
 }
+}}{{Single Example
+|Language=HTML
+|Description=A typical navigation menu with '''position: fixed'''.
+|Code=<nav class="nav fixed">
+    <a href="#">Home</a>
+    <a href="#">Something</a>
+    <a href="#">Contact</a>
+</nav>
+
+<section class="long-scrollable"></section>
+|LiveURL=http://jsfiddle.net/58ybJ/
+}}{{Single Example
+|Language=CSS
+|Description=While the .long-scrollable section os scrolled down, the .nav stays fixed on top of the viewport.
+|Code=.fixed {
+    position: fixed;
+}
+
+.nav {
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    height: 40px;
+}
+
+.long-scrollable {
+    border: 2px dotted #999;
+    height: 2000px;
+}
 }}
 }}
 {{Notes_Section
