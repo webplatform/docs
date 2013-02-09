@@ -51,7 +51,7 @@
 }}
 {{Notes_Section
 |Usage=According to the specs, 'oblique' is a sloped version of the regular font. The example shows that the browsers actually use the 'italic' version for the 'oblique' variant as well. In the example, the bottom of the regular 'f' aligns with the bottom of the surrounding text. In the oblique line, this should be the case as well, but instead it shows the cursive 'f' that extends below the surrounding letters.
-[file:screenshot-font-style-example.png]
+[[file:screenshot-font-style-example.png]]
 |Notes====Remarks===
 The '''oblique''' value is available as of Microsoft Internet Explorer 4.0. Internet Explorer 4.0 renders italic and oblique identically.
 }}
