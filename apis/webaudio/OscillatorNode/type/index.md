@@ -11,7 +11,7 @@
 |Return_value_description=Uses one of the following constant values: SINE (0); SQUARE (1); SAWTOOTH (2); TRIANGLE (3); CUSTOM (4).
 }}
 {{Examples_Section
-|Not_required=Yes
+|Not_required=No
 |Examples=
 }}
 {{Notes_Section}}
