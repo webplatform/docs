@@ -48,38 +48,39 @@
 {{Notes_Section
 |Usage=As float implicitly implies the use of the block layout, it modifies the computed value of the [[display]] values in some cases:
 
-{|
-|-
+
+{{{!}}
+{{!}}-
 ! Specified value !! Computed value
-|-
-| inline || block
-|-
-| inline-block || block
-|-
-| inline-table || table
-|-
-| table-row || block
-|-
-| table-row-group || block
-|-
-| table-column || block
-|-
-| table-column-group || block
-|-
-| table-cell || block
-|-
-| table-caption || block
-|-
-| table-header-group || block
-|-
-| table-footer-group || block
-|-
-| flex || flex, but float has no effect on such elements
-|-
-| inline-flex || inline-flex, but float has no effect on such elements
-|-
-| other || unchanged
-|}
+{{!}}-
+{{!}} inline {{!}}{{!}} block
+{{!}}-
+{{!}} inline-block {{!}}{{!}} block
+{{!}}-
+{{!}} inline-table {{!}}{{!}} table
+{{!}}-
+{{!}} table-row {{!}}{{!}} block
+{{!}}-
+{{!}} table-row-group {{!}}{{!}} block
+{{!}}-
+{{!}} table-column {{!}}{{!}} block
+{{!}}-
+{{!}} table-column-group {{!}}{{!}} block
+{{!}}-
+{{!}} table-cell {{!}}{{!}} block
+{{!}}-
+{{!}} table-caption {{!}}{{!}} block
+{{!}}-
+{{!}} table-header-group {{!}}{{!}} block
+{{!}}-
+{{!}} table-footer-group {{!}}{{!}} block
+{{!}}-
+{{!}} flex {{!}}{{!}} flex, but float has no effect on such elements
+{{!}}-
+{{!}} inline-flex {{!}}{{!}} inline-flex, but float has no effect on such elements
+{{!}}-
+{{!}} other {{!}}{{!}} unchanged
+{{!}}}
 
 __Note:__ If you're referring to this property from JavaScript as a member of the element.style object, you must spell it as cssFloat. Also note that Internet Explorer versions 8 and older spelled this styleFloat. This is an exception to the rule that the name of the DOM member is the camel-case name of the dash-separated CSS name (and is due to the fact that "float" is a reserved word in JavaScript, as with the need to escape "class" as "className" and escape <label>'s "for" as "htmlFor").
 |Notes====Remarks===
