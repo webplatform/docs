@@ -9,42 +9,42 @@
 |Examples={{Single Example
 |Language=HTML
 |Description=Preview an image before upload
-|Code=<!doctype html>
-<html>
-<head>
-<meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
-<title>Image preview example</title>
-<script type="text/javascript">
+|Code=&lt;!doctype html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta content=&quot;text/html; charset=UTF-8&quot; http-equiv=&quot;Content-Type&quot; /&gt;
+&lt;title&gt;Image preview example&lt;/title&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
 oFReader = new FileReader(), rFilter = 'image/jpg';
  
 oFReader.onload = function (oFREvent) {
-  document.getElementById("uploadPreview").src = oFREvent.target.result;
+  document.getElementById(&quot;uploadPreview&quot;).src = oFREvent.target.result;
 };
  
 function loadImageFile() {
-  if (document.getElementById("uploadImage").files.length === 0) { return; }
-  var oFile = document.getElementById("uploadImage").files[0];
-  if (!rFilter.test(oFile.type)) { alert("You must select a valid image file!"); return; }
+  if (document.getElementById(&quot;uploadImage&quot;).files.length === 0) { return; }
+  var oFile = document.getElementById(&quot;uploadImage&quot;).files[0];
+  if (!rFilter.test(oFile.type)) { alert(&quot;You must select a valid image file!&quot;); return; }
   oFReader.readAsDataURL(oFile);
 }
-</script>
-</head>
+&lt;/script&gt;
+&lt;/head&gt;
  
-<body onload="loadImageFile();">
-  <form name="uploadForm">
-    <table>
-      <tbody>
-        <tr>
-          <td><img id="uploadPreview" style="width: 100px; height: 100px;" src="" alt="Image preview" /></td>
-          <td><input id="uploadImage" type="file" name="myPhoto" onchange="loadImageFile();" /></td>
-        </tr>
-      </tbody>
-    </table>
+&lt;body onload=&quot;loadImageFile();&quot;&gt;
+  &lt;form name=&quot;uploadForm&quot;&gt;
+    &lt;table&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td&gt;&lt;img id=&quot;uploadPreview&quot; style=&quot;width: 100px; height: 100px;&quot; src=&quot;&quot; alt=&quot;Image preview&quot; /&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;input id=&quot;uploadImage&quot; type=&quot;file&quot; name=&quot;myPhoto&quot; onchange=&quot;loadImageFile();&quot; /&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
  
-    <p><input type="submit" value="Send" /></p>
-  </form>
-</body>
-</html>
+    &lt;p&gt;&lt;input type=&quot;submit&quot; value=&quot;Send&quot; /&gt;&lt;/p&gt;
+  &lt;/form&gt;
+&lt;/body&gt;
+&lt;/html&gt;
 |LiveURL=https://developer.mozilla.org/files/3698/image_upload_preview.html
 }}
 }}
