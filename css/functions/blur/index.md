@@ -20,7 +20,7 @@ possibly affecting the ability of background content to show through:
 [[Image:music_blur.png]]
 }}
 {{Examples_Section
-|Not_required=Yes
+|Not_required=No
 |Examples={{Single Example
 |Description=The following example draws a blurred flag
 |Code=&lt;!DOCTYPE html&gt;
