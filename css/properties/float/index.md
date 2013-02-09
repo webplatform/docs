@@ -27,22 +27,11 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=This example shows how the '''float''' attribute affects the flow of the text. The sphere image floats to the left of the text, and the cone floats to the right.
-|Code=&lt;img src{{=}}"sphere.jpg" style{{=}}"float:left"&gt;
-&lt;img src{{=}}"cone.jpg" style{{=}}"float:right"&gt;
+|Language=HTML
+|Description=This example shows how the <code>float</code> attribute affects the flow of the text. The sphere image floats to the left of the text, and the cone floats to the right.
+|Code=&lt;img src{{=}}"sphere.jpg" style{{=}}"float: left;"&gt;
+&lt;img src{{=}}"cone.jpg" style{{=}}"float: right;"&gt;
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/float_h.htm
-}}{{Single Example
-|Description=This example uses inline scripting and the '''float'''property to swap images when the mouse moves over the button.
-|Code=&lt;IMG ID{{=}}oSphere SRC{{=}}"sphere.jpeg" STYLE{{=}}"float:left"&gt;
-&lt;IMG ID{{=}}oCone SRC{{=}}"cone.jpeg" STYLE{{=}}"float:right"&gt;
-:
-&lt;BUTTON onmouseover{{=}}"oSphere.style.styleFloat{{=}}'right'; 
-    oCone.style.styleFloat{{=}}'left'"
-    onmouseout{{=}}"oSphere.style.styleFloat{{=}}'left'; 
-    oCone.style.styleFloat{{=}}'right'"&gt;
-    Flip-flop images.
-&lt;/BUTTON&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/styleFloat.htm
 }}
 }}
 {{Notes_Section
