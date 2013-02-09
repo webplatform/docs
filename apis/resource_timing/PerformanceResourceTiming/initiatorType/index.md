@@ -21,7 +21,7 @@
 *other: The initiator is not of any type listed above.
 }}
 {{Examples_Section
-|Not_required=Yes
+|Not_required=No
 |Examples=
 }}
 {{Notes_Section}}
