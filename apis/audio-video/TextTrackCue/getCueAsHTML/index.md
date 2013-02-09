@@ -14,7 +14,7 @@
 |Return_value_description=DocumentFragment: A document fragment that represents the [[apis/audio-video/TextTrackCue|TextTrackCue]] text.
 }}
 {{Examples_Section
-|Not_required=Yes
+|Not_required=No
 |Examples=
 }}
 {{Notes_Section}}
