@@ -48,7 +48,7 @@
 {{Notes_Section
 |Usage=As float implicitly implies the use of the block layout, it modifies the computed value of the {{ cssxref("display") }} values in some cases:
 
-{| class="wikitable"
+{|
 |-
 ! Specified value !! Computed value
 |-
