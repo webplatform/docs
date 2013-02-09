@@ -28,24 +28,24 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Code=<!doctype html>
-	<head>
-		<meta charset="utf-8" />
-		<title>Font-style example</title>
-		<style>
-			p { "Trebuchet MS", "Gill sans", serif; }
+|Code=&lt;!doctype html&gt;
+	&lt;head&gt;
+		&lt;meta charset=&quot;utf-8&quot; /&gt;
+		&lt;title&gt;Font-style example&lt;/title&gt;
+		&lt;style&gt;
+			p { &quot;Trebuchet MS&quot;, &quot;Gill sans&quot;, serif; }
 			p.normal { font-style: normal; }
 			p.italic { font-style: italic; }
 			p.oblique { font-style: oblique; }
-		</style>
-	</head>
-	<body>
-		<p>Regular ol' P</p>
-		<p class="normal">Normal P, no different from the regular ol' P</p>
-		<p class="italic">Italic P, the cursive version of the font</p>
-		<p class="oblique">Oblique P, the sloped version of the font</p>
-	</body>
-</html>
+		&lt;/style&gt;
+	&lt;/head&gt;
+	&lt;body&gt;
+		&lt;p&gt;Regular ol&#39; P&lt;/p&gt;
+		&lt;p class=&quot;normal&quot;&gt;Normal P, no different from the regular ol&#39; P&lt;/p&gt;
+		&lt;p class=&quot;italic&quot;&gt;Italic P, the cursive version of the font&lt;/p&gt;
+		&lt;p class=&quot;oblique&quot;&gt;Oblique P, the sloped version of the font&lt;/p&gt;
+	&lt;/body&gt;
+&lt;/html&gt;
 |LiveURL=http://codepen.io/anon/pen/oqLgI
 }}
 }}
