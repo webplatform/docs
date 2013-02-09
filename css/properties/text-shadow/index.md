@@ -65,9 +65,29 @@ The secont is the vertical distance, with positive values moving the shadow down
   text-shadow: #bada55 -10px -10px 2px;
 }
 |LiveURL=http://codepen.io/pverbeek/pen/cJLlz
+}}{{Single Example
+|Language=CSS
+|Description=The following example shows that text-decorations will also be shown in the shadow.
+|Code=#foo {
+  text-decoration: line-through;
+  text-shadow: rgb(0,0,0) 15px 15px 2px;
+}
+|LiveURL=http://codepen.io/pverbeek/pen/kaeKD
+}}{{Single Example
+|Language=CSS
+|Description=The following example demonstrates the multiple text-shadows.
+|Code=#foo {
+  text-shadow: hsl(0,0,0) 15px 15px 2px,
+               rgba(255,0,0,.5) -15px -15px,
+               navy -15px 15px 8px,
+               #00FF00 15px -15px;
+}
+|LiveURL=http://codepen.io/pverbeek/pen/HyrfE
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Notes=Multiple shadows are applied front-to-back, with the first-specified shadow on top.
+}}
 {{Related_Specifications_Section
 |Specifications=
 }}
