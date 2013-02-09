@@ -15,7 +15,7 @@
 |Return_value_description=ByteString
 }}
 {{Examples_Section
-|Not_required=Yes
+|Not_required=No
 |Examples=
 }}
 {{Notes_Section}}
