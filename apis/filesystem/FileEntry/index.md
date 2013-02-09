@@ -5,7 +5,7 @@
 {{Summary_Section|This interface represents a file on a file system.}}
 {{API_Object}}
 {{Examples_Section
-|Not_required=Yes
+|Not_required=No
 |Examples=
 }}
 {{Notes_Section}}
