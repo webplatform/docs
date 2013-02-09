@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The '''dd''' element (&lt;dd&gt;) represents the description, definition, or value, part of a term-description group in a description list ([[html/elements/dl|dl]] element).}}
+{{Summary_Section|The '''dd''' element (&lt;dd&gt;) represents the description, definition, or value, part of a term-description group in a description list ([[html/elements/dl|&lt;dl&gt;]] element).}}
 {{Markup_Element
 |DOM_interface=dom/HTMLDDElement
 |Content====HTML information===
