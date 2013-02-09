@@ -137,41 +137,13 @@ You can set the opacity of an entire element using the [[css/properties/opacity|
 |Topic_clusters=Visual Effects
 }}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+{{Notes_Section}}
+{{Topics}}
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
 |MSDN_link=
-|HTML5Rocks_link=
-}}
-{{Notes_Section}}
-{{Topics}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
