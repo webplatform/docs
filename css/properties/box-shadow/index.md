@@ -43,19 +43,19 @@ Links to descriptions of length and color are in the [[#Remarks]] section, below
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Code=article {
-<style>
-.shadow-style {
-	box-shadow: inset 30px 30px 5px green, inset -30px -30px 5px blue;
-	Width: 100px;
-	Height: 100px;
-    Border: 10px solid yellow;
-	Background-color: red;
-}
-</style>
-<body>
-<div class="shadow-style">
-</div>
+|Code=&lt;style&gt;
+    .shadow-style {
+        box-shadow: inset 30px 30px 5px green, inset -30px -30px 5px blue;
+        Width: 100px;
+        Height: 100px;
+        Border: 10px solid yellow;
+        Background-color: red;
+    }
+&lt;/style&gt;
+&lt;body&gt;
+    &lt;div class=&quot;shadow-style&quot;&gt;
+    &lt;/div&gt;
+&lt;/body&gt;
 }
 }}{{Single Example
 |Language=CSS
