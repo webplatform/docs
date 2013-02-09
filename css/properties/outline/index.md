@@ -22,6 +22,7 @@
 |Code=a:hover { outline: 0; }
 }}{{Single Example
 |Language=CSS
+|Description=Common usage of the outline property
 |Code=:focus { outline: solid; } /* outline-width and outline-color are the default ones when nothing but the outline-style is specified */
 
 :focus { outline: dashed red; } /* outline-style and outline-color */
