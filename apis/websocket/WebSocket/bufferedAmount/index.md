@@ -12,7 +12,20 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Code=var data = new ArrayBuffer(10000000);
+
+// perform some operations on the ArrayBuffer
+socket.send(data);
+
+if (socket.bufferedAmount === 0) {
+  // the data sent
+}
+else {
+  // the data did not send
+}
+}}
 }}
 {{Notes_Section
 |Notes====Remarks===
