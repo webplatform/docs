@@ -95,7 +95,7 @@ The reason for this change was that W3C's CSS validator was flagging the former 
 Filters are supported from IE 4 - 9 and were removed from IE 10. They were also removed from all legacy modes inside IE 10.
 }}
 {{Examples_Section
-|Not_required=No
+|Not_required=Yes
 |Examples=
 }}
 {{Notes_Section}}
