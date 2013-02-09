@@ -99,7 +99,7 @@
 {{See_Also_Section}}
 {{Topics|Canvas}}
 {{External_Attribution
-|Is_CC-BY-SA=No
+|Is_CC-BY-SA=Yes
 |Sources=MDN, MSDN
 |MDN_link=https://developer.mozilla.org/samples/canvas-tutorial/4_1_canvas_fillstyle.html
 |MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
