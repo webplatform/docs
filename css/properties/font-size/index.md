@@ -72,9 +72,9 @@ Along with many other CSS properties, '''font-size''' can also be applied direct
 |Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
-|Chrome_version=1.0
-|Chrome_prefixed_supported=No
-|Chrome_prefixed_version=
+|Chrome_version=3.0
+|Chrome_prefixed_supported=Yes
+|Chrome_prefixed_version=1.0
 |Firefox_supported=Yes
 |Firefox_version=1.0
 |Firefox_prefixed_supported=No
