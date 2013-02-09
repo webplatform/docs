@@ -4,7 +4,7 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|An input field for a date-time value (year, month, day, hours, minutes, seconds, milliseconds) with no time zone information.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLInputElement
 }}
