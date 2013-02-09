@@ -5,8 +5,8 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Defines a caption or legend for a figure element.
-The &lt;figcaption&gt; tag is new in HTML5.
+{{Summary_Section|The '''figcaption''' (&lt;figcaption&gt;) defines a caption or legend for a figure element.
+This element is new in HTML5.
 }}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
