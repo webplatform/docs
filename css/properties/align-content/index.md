@@ -36,8 +36,6 @@
 |Examples=
 }}
 {{Notes_Section
-|Usage=[file:aligncontent.png]
-(Image from [http://www.w3.org/TR/css3-flexbox/#align-content-property CSS Flexible Box Layout Module])
 |Notes=Only flex containers with multiple lines ever have free space in the cross-axis for lines to be aligned in, because in a flex container with a single line the sole line automatically stretches to fill the space.
 }}
 {{Related_Specifications_Section
