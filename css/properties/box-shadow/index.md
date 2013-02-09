@@ -119,7 +119,11 @@ See also:
 
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Backgrounds and Borders Module Level 3
+|URL=http://dev.w3.org/csswg/css3-background/#box-shadow
+|Status=Editor's Draft
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
