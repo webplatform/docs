@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|DIV is a generic block-level container that has no semantic value other than the one that you give it via ID or Class. It can be used for a variety of purposes including the styling of common elements, or for grouping elements with common attributes.}}
+{{Summary_Section|The '''div''' element (&lt;div&gt;) is a generic block-level container that has no semantic value other than the one that you give it via <code>id</code> or <code>class</code> attributes. It can be used for a variety of purposes including the styling of common elements, or for grouping elements with common attributes.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLDivElement
 }}
