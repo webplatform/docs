@@ -7,6 +7,7 @@
 |Property_applies_to=apis/appcache/ApplicationCache
 |Read_only=No
 |Example_object_name=window.applicationCache
+|Javascript_data_type=null
 }}
 {{Examples_Section
 |Not_required=No
