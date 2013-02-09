@@ -37,7 +37,7 @@ In addition to the many different display box types, the value none lets you tur
 |Description=Object is rendered as '''tFoot'''. Table footer is always displayed after all other rows and row groups, and before any bottom captions. The footer is displayed on each document spanned by a table.
 }}{{CSS Property Value
 |Data Type=inline-block
-|Description=Object is rendered inline, but the contents of the object are rendered as a block element.  Adjacent inline elements are rendered on the same line, space permitting. The difference to inline is that width, height and margin will apply. 
+|Description=Object is rendered inline, but the contents of the object are rendered as a block element.  Adjacent inline elements are rendered on the same line, space permitting. The difference to inline is that width, height and margin will apply.
 }}{{CSS Property Value
 |Data Type=table
 |Description=Object is rendered as [[html/elements/table|'''table''']].
@@ -235,7 +235,7 @@ The Cascading Style Sheets (CSS) table display model does not require explicit e
 }}{{Compatibility Table Desktop Row
 |Feature=run-in
 |Chrome_supported=Yes
-|Chrome_version=1.0 Not before inline-elements | 4.0
+|Chrome_version=1.0 Not before inline-elements
 |Chrome_prefixed_supported=Unknown
 |Chrome_prefixed_version=
 |Firefox_supported=No
@@ -251,7 +251,7 @@ The Cascading Style Sheets (CSS) table display model does not require explicit e
 |Opera_prefixed_supported=Unknown
 |Opera_prefixed_version=
 |Safari_supported=Yes
-|Safari_version=1.0 (85) Not before inline-elements | 5.0 (532.5)
+|Safari_version=1.0 (85) Not before inline-elements
 |Safari_prefixed_supported=Unknown
 |Safari_prefixed_version=
 }}{{Compatibility Table Desktop Row
@@ -388,7 +388,10 @@ The Cascading Style Sheets (CSS) table display model does not require explicit e
 |Safari_prefixed_version=
 }}
 |Mobile_rows=
-|Notes_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Firefox
+|Note=Supports only single-line flexbox. To activate flexbox support, for Firefox 18 and 19, the user has to change the about:config preference "layout.css.flexbox.enabled" to true.
+}}
 }}
 {{See_Also_Section
 |Topic_clusters=Box Model, Generated and Replaced Content
