@@ -174,7 +174,8 @@ in isolation. See each function for details on accepted parameters.
 {{Topics|CSS, Graphics, SVG}}
 {{External_Attribution
 |Is_CC-BY-SA=No
+|Sources=HTML5Rocks
 |MDN_link=
 |MSDN_link=
-|HTML5Rocks_link=
+|HTML5Rocks_link=http://www.html5rocks.com/en/tutorials/filters/understanding-css/
 }}
