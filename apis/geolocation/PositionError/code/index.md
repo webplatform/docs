@@ -14,7 +14,7 @@
 *TIMEOUT (numeric value 3): The length of time specified by the ''timeout'' property has elapsed before the implementation could successfully acquire a new '''Position''' object.
 }}
 {{Examples_Section
-|Not_required=Yes
+|Not_required=No
 |Examples=
 }}
 {{Notes_Section}}
