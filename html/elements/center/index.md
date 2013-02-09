@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|Deprecated}}
 {{API_Name}}
-{{Summary_Section|The '''center''' element (&lt;center&gt;) enter-aligns text in an HTML page.
+{{Summary_Section|The '''center''' element (&lt;center&gt;) center-aligns text in an HTML page.
  
 The &lt;center&gt; element is deprecated in HTML 4.01 and obsolete in HTML5. Use CSS instead.
 }}
