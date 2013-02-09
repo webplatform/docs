@@ -106,19 +106,20 @@
 }}{{Single Example
 |Language=HTML
 |Description=A typical navigation menu with '''position: fixed'''.
-|Code=<nav class="nav fixed">
+|Code=<nav class="nav nav-fixed">
     <a href="#">Home</a>
     <a href="#">Something</a>
     <a href="#">Contact</a>
 </nav>
 
 <section class="long-scrollable"></section>
-|LiveURL=http://jsfiddle.net/58ybJ/
+|LiveURL=http://jsfiddle.net/58ybJ/1/
 }}{{Single Example
 |Language=CSS
-|Description=While the .long-scrollable section os scrolled down, the .nav stays fixed on top of the viewport.
-|Code=.fixed {
-    position: fixed;
+|Description=While the .long-scrollable section os scrolled down, the .nav-fixed stays fixed on top of the viewport.
+|Code=.long-scrollable {
+    border: 2px dotted #999;
+    height: 2000px;
 }
 
 .nav {
@@ -128,9 +129,8 @@
     height: 40px;
 }
 
-.long-scrollable {
-    border: 2px dotted #999;
-    height: 2000px;
+.nav-fixed {
+    position: fixed;
 }
 }}
 }}
