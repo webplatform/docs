@@ -5,8 +5,8 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Defines a container for an external application or interactive content (a plug-in).
-The &lt;embed&gt; tag is new in HTML5.
+{{Summary_Section|The '''embed''' element (&lt;embed&gt;) defines a container for an external application or interactive content (a plug-in).
+The &lt;embed&gt; element is new in HTML5.
 }}
 {{Markup_Element
 |DOM_interface=dom/HTMLEmbedElement
