@@ -79,28 +79,6 @@ By setting '''border''', all other border properties are set to their default va
 |Safari_version=1.0
 |Safari_prefixed_supported=No
 |Safari_prefixed_version=
-}}{{Compatibility Table Desktop Row
-|Feature=under revision by DougMay 2012-11-03
-|Chrome_supported=Unknown
-|Chrome_version=
-|Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
-|Firefox_supported=Unknown
-|Firefox_version=
-|Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Unknown
-|Internet_explorer_version=
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
-|Opera_supported=Unknown
-|Opera_version=
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
-|Safari_supported=Unknown
-|Safari_version=
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
 }}
 |Mobile_rows={{Compatibility Table Mobile Row
 |Android_supported=Unknown
@@ -140,19 +118,18 @@ By setting '''border''', all other border properties are set to their default va
 }}
 {{See_Also_Section
 |Topic_clusters=Border
-|Manual_sections====Related pages (MSDN)===
+|Manual_sections====Related pages===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
 *<code>[[dom/defaultSelected|defaults]]</code>
 *<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
 *<code>[[css/cssom/style|style]]</code>
-*<code>CSS Enhancements in Internet Explorer 6</code>
 }}
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
 |MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ms530744(v=vs.85).aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
