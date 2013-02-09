@@ -116,8 +116,8 @@ Note this means for a long, straight shadow edge, the blur radius will create a 
 
 ===Remarks===
 See also:
-* [[/css/data_types/length length]]
-* [[/css/color color]]
+* [[css/data_types/length length]]
+* [[css/color color]]
 
 }}
 {{Related_Specifications_Section
