@@ -12,14 +12,12 @@
 |Media=visual
 |Animatable=No
 |Values={{CSS Property Value
-|Data Type=border-width
+|Data Type=<width>
 |Description=Any of the range of width values available to the [[css/properties/border-top-width|'''border-top-width''']] property.
-}}{{CSS Property Value
-|Data Type=border-style
-|Description=Any of the range of style values available to the [[css/properties/border-top-style|'''border-top-style''']] property.
-}}{{CSS Property Value
-|Data Type=border-top-color
-|Description=Any of the range of color values available to the [[css/properties/border-top-color|'''border-top-color''']] property.
+The <tt>border-top</tt> property is a shorthand property for setting the same width, color, and style for top border of a box.
+* Width - Any of the range of width values available to the [[css/properties/border-width|'''border-width''']] property. Default value is <tt>medium</tt>.
+* Style - Any of the range of style values available to the [[css/properties/border-style|'''border-style''']] property. Default value is <tt>none</tt>.
+* Color - Any of the range of color values available to the [[css/properties/border-color|'''border-color''']] property. Default value is the value of the element's [[css/properties/color|'''color''']] property - i.e. text color.
 }}
 }}
 {{Examples_Section
