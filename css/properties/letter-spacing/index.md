@@ -29,7 +29,7 @@
 |Description=The following examples use the '''letter-spacing''' attribute and the '''letter-spacing''' property to change the space between letters.
 
 <p>This is a simple paragraph with the default value for letter-spacing</p>
-<p style="letter-spacing: 1em;">This is a simple paragraph with a altered letter-spacing value by 1em</p>
+<p style="letter-spacing: .5em;">This is a simple paragraph with a altered letter-spacing value by 0.5em</p>
 
 This example uses '''blockquote''' as a selector to change the spacing to -0.2 millimeters for all '''blockquote''' objects on the page.
 |Code=&lt;STYLE&gt;
