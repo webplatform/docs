@@ -46,13 +46,50 @@
 }}
 }}
 {{Notes_Section
+|Usage=
+
+As float implicitly implies the use of the block layout, it modifies the computed value of the {{ cssxref("display") }} values in some cases:
+
+{| class="wikitable"
+|-
+! Specified value !! Computed value
+|-
+| inline || block
+|-
+| inline-block || block
+|-
+| inline-table || table
+|-
+| table-row || block
+|-
+| table-row-group || block
+|-
+| table-column || block
+|-
+| table-column-group || block
+|-
+| table-cell || block
+|-
+| table-caption || block
+|-
+| table-header-group || block
+|-
+| table-footer-group || block
+|-
+| flex || flex, but float has no effect on such elements
+|-
+| inline-flex || inline-flex, but float has no effect on such elements
+|-
+| other || unchanged
+|}
+
+__Note:__ If you're referring to this property from JavaScript as a member of the element.style object, you must spell it as cssFloat. Also note that Internet Explorer versions 8 and older spelled this styleFloat. This is an exception to the rule that the name of the DOM member is the camel-case name of the dash-separated CSS name (and is due to the fact that "float" is a reserved word in JavaScript, as with the need to escape "class" as "className" and escape <label>'s "for" as "htmlFor").
 |Notes====Remarks===
-With a value of '''left''' or '''right''', the object is treated as block-level—that is, the [[css/properties/display|'''display''']] property is ignored. For example, floating paragraphs allow the paragraphs to appear side-by-side.
-Objects following a floating object move in relation to the position of the floating object.
-The floating object is moved left or right until it reaches the border, padding, or margin of another block-level object.
-The '''div''' and '''span''' objects must have a width set for the '''float''' attribute to render. In Microsoft Internet Explorer 5, '''div''' and '''span''' objects are assigned a width by default and will render if a width is not specified.
+* Objects following a floating object move in relation to the position of the floating object.
+* The floating object is moved left or right until it reaches the border, padding, or margin of another block-level object.
+
 |Import_Notes====Syntax===
-<code>'''float: '''left '''{{!}}''' right '''{{!}}''' none</code>
+<code>'''float: '''left '''{{!}}''' right '''{{!}}''' none '''{{!}}''' inherit</code>
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 5.5.25
 }}
