@@ -25,23 +25,24 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=The following examples use the '''border-bottom''' property and the '''border-bottom''' attribute to specify the various properties for the bottom border.
+|Language=CSS
+|Code=/* When we don't set border-bottom-color, color of a text is used as a default */
+.one {
+  color: #6CC644;
+  border-bottom: medium solid;
+}
 
-This example uses a call to an embedded (global) style sheet to change the attributes of the bottom border.
-|Code=&lt;HEAD&gt;
-&lt;STYLE&gt;
-    TD 	{ border-bottom:0.5cm solid yellow }
-    .change { border-bottom:0.5cm groove pink }
-&lt;/STYLE&gt;
-&lt;/HEAD&gt;
-&lt;BODY&gt;
-&lt;TABLE&gt;
-&lt;TR&gt;
-&lt;TD onmouseover{{=}}"this.className{{=}}'change'"
-    onmouseout{{=}}"this.className{{=}}''"&gt;&lt;IMG src{{=}}"sphere.jpg"&gt;&lt;/TD&gt;
-&lt;/TR&gt;
-&lt;/TABLE&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/border-bottom.htm
+/* When we don't set border-bottom-style, default style <none> will be used - therefore no border will be rendered */
+.two {
+  border-bottom: 1px red;
+}
+
+/* Other border-bottom style example */
+.three {
+  border-bottom: dotted 2px red;
+}
+
+|LiveURL=http://kamila-wosinek.github.com/border-bottom/
 }}{{Single Example
 |Description=This example uses inline scripting to change the bottom border.
 |Code=&lt;TD onmouseover{{=}}"this.style.borderBottom{{=}}'0.3cm groove yellow'"&gt;
