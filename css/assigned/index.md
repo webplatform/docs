@@ -35,6 +35,7 @@ CSS properties
 * padding - Giuseppe
 * padding-* - Giuseppe
 * position - richard
+* text-shadow - paulv
 
 Other activity
 
