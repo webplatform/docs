@@ -15,15 +15,46 @@
 |CSS object model property=text-overflow-ellipsis
 |CSS percentages=N/A
 |Values={{CSS Property Value
-|Data Type=string | uri
+|Data Type=string
 |Description=The value is defined either as a string like the default UTF-8 character 'U+2026' or a URI and represents the ellipsis of text-overflow-mode property. If the value is defined as a URI it displays the image behind the URL. You can also set both values which then means they determine the overflow visual hint at the end and the hint after the element box. The latter visual hint is only displayed if there is clipped content because of the dimension limitation on the element block.
 }}
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Code=&lt;!-- example showing text-overflow-ellipsis property --&gt;
+
+&lt;div class=&quot;overflowed overflowed-ellipsis&quot;&gt;
+	&lt;p&gt;This is an example text showing nothing interesting but the truncated content via text-overflow shorthand property.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;overflowed overflowed-ellipsis-word&quot;&gt;
+	&lt;p&gt;This is an example text showing nothing interesting but the truncated content via text-overflow shorthand property.&lt;/p&gt;
+&lt;/div&gt;
+|LiveURL=http://dabblet.com/gist/4744982
+}}{{Single Example
+|Language=CSS
+|Code=.overflowed > p{
+	width: 10em;
+	height: 5em;
+	white-space: nowrap; 
+	overflow: hidden;
+}
+
+.overflowed-ellipsis > p {
+	text-overflow-mode: ellipsis;
+	text-overflow-ellipsis: '[more]';
+}
+
+.overflowed-ellipsis-word > p {
+	text-overflow-mode: ellipsis-word;
+	text-overflow-ellipsis: '[more]';
+}
+|LiveURL=http://dabblet.com/gist/4744982
+}}
 }}
 {{Notes_Section
+|Usage=Currently it is not widely supported in any major browsers.
 |Notes=Because the initial value (U+2026) of the overflow visual hint after the element box may not be easily rendered in some situations, the user agent may replace it by a sequence of 3 FULL STOP characters (U+002E).
 }}
 {{Related_Specifications_Section
