@@ -13,7 +13,7 @@
 For example, <code>http://example.org:8080/</code> would return the host string of <code>example.org:8080</code>.
 }}
 {{Examples_Section
-|Not_required=Yes
+|Not_required=No
 |Examples=
 }}
 {{Notes_Section}}
@@ -22,6 +22,7 @@ For example, <code>http://example.org:8080/</code> would return the host string 
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
