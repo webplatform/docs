@@ -2,7 +2,9 @@
 {{Flags}}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|The CSS transform property lets you modify the coordinate space of the CSS visual formatting model. Using it, elements can be translated, rotated, scaled, and skewed according to the values set.
+{{Summary_Section|CSS transforms allows elements styled with CSS to be transformed in two-dimensional or three-dimensional space.
+
+The CSS transform property lets you modify the coordinate space of the CSS visual formatting model. Using it, elements can be translated, rotated, scaled, and skewed according to the values set.
 
 If the property has a value different than none, a stacking context will be created. In that case the object will act as a containing block for position: fixed elements that it contains.
 }}
