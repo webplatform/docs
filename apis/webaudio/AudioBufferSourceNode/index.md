@@ -5,7 +5,7 @@
 {{Summary_Section|This interface represents an audio source from an in-memory audio asset in an [[apis/webaudio/AudioBuffer|'''AudioBuffer''']]. It generally will be used for short audio assets which require a high degree of scheduling flexibility (can playback in rhythmically perfect ways).}}
 {{API_Object}}
 {{Examples_Section
-|Not_required=Yes
+|Not_required=No
 |Examples=
 }}
 {{Notes_Section}}
