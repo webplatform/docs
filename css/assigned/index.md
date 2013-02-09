@@ -39,7 +39,7 @@ CSS properties
 * list-style - florian
 * list-style-* - florian
 * border - marcin,kamila - DONE, NEEDS REVIEW
-* border-[bottom|right|left] - kamila
+* border-[bottom|right|left] - kamila - DONE, NEEDS REVIEW
 * border-top - marcin
 * border-style - marcin
 * border-color - kamila
