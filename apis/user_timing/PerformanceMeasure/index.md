@@ -7,7 +7,7 @@
 {{Summary_Section|Exposes measures created via the measure() method to the Performance Timeline.}}
 {{API_Object}}
 {{Examples_Section
-|Not_required=Yes
+|Not_required=No
 |Examples=
 }}
 {{Notes_Section}}
