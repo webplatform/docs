@@ -5,12 +5,15 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Perhaps one of the hardest properties to fully master, the position property controls the type of positioning used by an element within its parent elements. The effect of the position attribute depends on a lot of factors including the value of position property within parent elements.}}
+{{Summary_Section|Perhaps one of the hardest properties to fully master, the position property controls the type of positioning used by an element within its parent elements. The effect of the position attribute depends on a lot of factors, for example the value of position property of parent elements.}}
 {{CSS Property
+|Initial value=static
 |Applies to=All elements
 |Inherited=No
 |Media=visual
-|Animatable=No
+|Computed value=As specified, or none if none given
+|Animatable=Yes
+|CSS object model property=position
 |Values={{CSS Property Value
 |Data Type=static
 |Description=Default. Object has no special positioning; it follows the layout rules of HTML.
@@ -34,29 +37,85 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=This examples uses the '''position''' property's '''absolute''', '''static''', and '''relative''' values to change the position of the text.
-|Code=&lt;style type{{=}}"text/css"&gt;
-.pitem {
-	position: static;
+|Language=HTML
+|Description=The example shows the usage of different position values on a child dependent of the position value of its parent.
+|Code=&lt;section class="parent static"&gt;
+    &lt;div class="child absolute"&gt;
+        &lt;p&gt;absolute&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;p&gt;static&lt;/p&gt;
+&lt;/section&gt;
+
+&lt;hr&gt;
+
+&lt;section class="parent static"&gt;
+    &lt;div class="child static"&gt;
+        &lt;p&gt;static&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;p&gt;static&lt;/p&gt;
+&lt;/section&gt;
+
+&lt;hr&gt;
+    
+&lt;section class="parent static"&gt;
+    &lt;div class="child relative"&gt;
+        &lt;p&gt;relative&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;p&gt;static&lt;/p&gt;
+&lt;/section&gt;
+    
+&lt;hr&gt;
+    
+&lt;section class="parent relative"&gt;
+    &lt;div class="child absolute"&gt;
+        &lt;p&gt;absolute&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;p&gt;relative&lt;/p&gt;
+&lt;/section&gt;
+|LiveURL=http://jsfiddle.net/DqxfR/
+}}{{Single Example
+|Language=CSS
+|Description=Watch how the child positions itself within the parent, dependent on the value of position on both elements.
+|Code=.static {
+    position: static;
 }
-&lt;/style&gt;
-&lt;script type{{=}}"text/javascript"&gt;
-function fnAbsolute(){
-   oSpan.style.position{{=}}"absolute";
+
+.relative {
+    position: relative;
 }
-function fnRelative(){
-   oSpan.style.position{{=}}"relative";
+
+.absolute {
+    position: absolute;
 }
-function fnStatic(){
-   oSpan.style.position{{=}}"static";
+
+.fixed {
+    position: fixed;    
 }
-&lt;/script&gt;
-&lt;p&gt;&lt;span id{{=}}"oSpan" class{{=}}"pitem"&gt;This is a &lt;b&gt;span&lt;/b&gt; in a paragraph of text.&lt;/span&gt; 
-This is a paragraph of text.&lt;/p&gt;
-&lt;input onclick{{=}}"fnRelative()" type{{=}}"button" value{{=}}"Relative"&gt;
-&lt;input onclick{{=}}"fnAbsolute()" type{{=}}"button" value{{=}}"Absolute"&gt;
-&lt;input onclick{{=}}"fnStatic()" type{{=}}"button" value{{=}}"Static"&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/position.htm
+
+.sticky {
+    position: sticky;
+}
+
+.page {
+    position: page;
+}
+
+.child {
+    top: 30px;
+    left: 20px;
+    
+    background-color: #ff3856;
+    width: 100px;
+    height: 100px;
+}
+
+.parent {
+    
+    background-color: #6acc18;
+    margin: 80px;
+    width: 160px;
+    height: 160px;
+}
 }}
 }}
 {{Notes_Section
@@ -82,16 +141,13 @@ Internet Explorer 10. Setting the '''position''' property to '''page''' require
 *'''fixed'''  The positioned float is laid out relative to the initial position of the viewport, or browser window. (The positioned float's position is not updated as the viewport moves due to scrolling.)
 
 For more information, see Positioned Floats.
-|Import_Notes====Syntax===
-<code>'''position: '''static '''{{!}}''' relative '''{{!}}''' absolute '''{{!}}''' fixed '''{{!}}''' page</code>
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 9.3.1
 }}
 {{Related_Specifications_Section
 |Specifications=
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Feature=position: sticky
 |Chrome_supported=No
@@ -120,12 +176,6 @@ For more information, see Positioned Floats.
 }}
 {{See_Also_Section
 |Topic_clusters=Box Model
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[dom/defaultSelected|defaults]]</code>
-*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
 }}
 {{Topics|CSS}}
 {{External_Attribution
