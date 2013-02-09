@@ -82,6 +82,21 @@ If the property has a value different than none, a stacking context will be crea
 	background-color: red;
 }
 |LiveURL=http://dabblet.com/gist/4744780
+}}{{Single Example
+|Language=CSS
+|Description=Scales the element by the factor of 3 on the x axis and by the factor of 0.5 by the y axis.
+|Code=.scale {
+	-ms-transform: scale(3, 0.5);
+	-webkit-transform: scale(3, 0.5);
+	-o-transform: scale(3, 0.5);
+	-moz-transform: scale(3, 0.5);
+	transform: scale(3, 0.5);
+
+        width: 10em;
+        height: 10em;
+        background: green
+}
+|LiveURL=http://dabblet.com/gist/4745494
 }}
 }}
 {{Notes_Section}}
