@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|The ‘box-shadow’ property attaches one or more shadows inside or outside of a box-model element. The property is a comma-separated list of shadows, each specified by 2-4 length values, an optional color, and an optional ‘inset’ keyword. box-shadow is a simple style that can be manipulated to generate complex effects.
+{{Summary_Section|The ‘box-shadow’ property attaches one or more shadows inside or outside of a box-model element_ The property is a comma-separated list of shadows, each specified by 2-4 length values, an optional color, and an optional ‘inset’ keyword_ box-shadow is a simple style that can be manipulated to generate complex effects_
 
 Given a box, the shadow style is represented as follows:
 
@@ -110,18 +110,10 @@ Links to descriptions of length and color are in the [[#Remarks]] section, below
 }}
 }}
 {{Notes_Section
-|Usage=
-
-
-
-
-
-
-===Remarks===
+|Usage====Remarks===
 See also:
 * [[css/data_types/length length]]
 * [[css/color color]]
-
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -156,55 +148,47 @@ See also:
 |Safari_prefixed_version=
 }}
 |Mobile_rows={{Compatibility Table Mobile Row
-|Android_supported=Yes
-|Android_version=1.0
-|Android_prefixed_supported=No
+|Android_supported=Unknown
+|Android_version=
+|Android_prefixed_supported=Unknown
 |Android_prefixed_version=
-|Blackberry_supported=Yes
-|Blackberry_version=3.8
-|Blackberry_prefixed_supported=No
+|Blackberry_supported=Unknown
+|Blackberry_version=
+|Blackberry_prefixed_supported=Unknown
 |Blackberry_prefixed_version=
-|Chrome_mobile_supported=Yes
-|Chrome_mobile_version=1.0
-|Chrome_mobile_prefixed_supported=No
+|Chrome_mobile_supported=Unknown
+|Chrome_mobile_version=
+|Chrome_mobile_prefixed_supported=Unknown
 |Chrome_mobile_prefixed_version=
-|Firefox_mobile_supported=Yes
-|Firefox_mobile_version=1.0
-|Firefox_mobile_prefixed_supported=No
+|Firefox_mobile_supported=Unknown
+|Firefox_mobile_version=
+|Firefox_mobile_prefixed_supported=Unknown
 |Firefox_mobile_prefixed_version=
-|IE_mobile_supported=Yes
-|IE_mobile_version=6.0
-|IE_mobile_prefixed_supported=No
+|IE_mobile_supported=Unknown
+|IE_mobile_version=
+|IE_mobile_prefixed_supported=Unknown
 |IE_mobile_prefixed_version=
-|Opera_mobile_supported=Yes
-|Opera_mobile_version=6.0
-|Opera_mobile_prefixed_supported=No
+|Opera_mobile_supported=Unknown
+|Opera_mobile_version=
+|Opera_mobile_prefixed_supported=Unknown
 |Opera_mobile_prefixed_version=
-|Opera_mini_supported=Yes
-|Opera_mini_version=1.0
-|Opera_mini_prefixed_supported=No
+|Opera_mini_supported=Unknown
+|Opera_mini_version=
+|Opera_mini_prefixed_supported=Unknown
 |Opera_mini_prefixed_version=
-|Safari_mobile_supported=Yes
-|Safari_mobile_version=1.0
-|Safari_mobile_prefixed_supported=No
+|Safari_mobile_supported=Unknown
+|Safari_mobile_version=
+|Safari_mobile_prefixed_supported=Unknown
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows={{Compatibility Notes Row
 |Browser=IE
-|Version=≤ 6.0
-|Note=Requires a [[html/elements/!DOCTYPE|'''!DOCTYPE''']] declaration that triggers [[concepts/standards_mode|standards mode]], otherwise the initial value is '''small''' rather than '''medium'''.
+|Version=9.0
+|Note=Since version 5.5, Internet Explorer supports Microsoft's DropShadow and Shadow Filter. You can use this proprietary extension to cast a drop shadow (though the syntax and the effect are different from CSS3).
 }}{{Compatibility Notes Row
-|Browser=IE
-|Version=≤ 7.0
-|Note=Does not support '''inherit''' as a value.
-}}{{Compatibility Notes Row
-|Browser=IE
-|Version=≤ 8.0
-|Note=Does not resize text specified with absolute pixel measurements when using the browser's ''text-resize'' feature, but does resize correctly when zooming the page.
-}}{{Compatibility Notes Row
-|Browser=IE
-|Version=≤ 8.0
-|Note=Does not support [[css/units/length|'''rem''']] values; specify other supported values as fallback properties.
+|Browser=Chrome
+|Version=≤ 1.0
+|Note=Basic support in 1.0, inset and spread radius in 4.0
 }}{{Compatibility Notes Row
 |Browser=All
 |Note=Check compatibility for more recent [[css/units/length|viewport unit values]].
