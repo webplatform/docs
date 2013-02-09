@@ -20,6 +20,9 @@
 * Width - Any of the range of width values available to the [[css/properties/border-width|'''border-width''']] property. Default value is <tt>medium</tt>.
 * Style - Any of the range of style values available to the [[css/properties/border-style|'''border-style''']] property. Default value is <tt>none</tt>.
 * Color - Any of the range of color values available to the [[css/properties/border-color|'''border-color''']] property. Default value is the value of the element's [[css/properties/color|'''color''']] property - i.e. text color.
+}}{{CSS Property Value
+|Data Type=inherit
+|Description=When we set the value to <tt>inherit</tt>, the element will use border values set on its parent
 }}
 }}
 {{Examples_Section
@@ -128,8 +131,8 @@ By setting '''border''', all other border properties are set to their default va
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
+|Sources=MDN, MSDN
+|MDN_link=https://developer.mozilla.org/en-US/docs/CSS/border
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ms530744(v=vs.85).aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
