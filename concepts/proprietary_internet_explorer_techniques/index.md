@@ -10,7 +10,67 @@
 So came that Microsoft's Internet Explorers learned a lot of techniques that admittedly were non-standard but that could still be very helpful in certain situations. Here we'll have a look at them.
 }}
 {{Concept_Page
-|Content==Filters=
+|Content==Conditional Comments=
+
+Conditional comments come along as a HTML comments with a special syntax. They allow you to hide certain parts of your document from all browsers but from Internet Explorers. E.g.:
+
+<syntaxHighlight lang="html">
+<!--[if IE]>
+IE can see this whereas other browsers think this is an inline comment
+<![endif]-->
+</syntaxHighlight>
+
+You can even limit visibility certain versions of IE, like IE 8 for example:
+
+<syntaxHighlight lang="html">
+<!--[if IE 8]>
+Only IE 8 can see this
+<![endif]-->
+</syntaxHighlight>
+
+or to version ranges:
+
+<syntaxHighlight lang="html">
+<!--[if lte IE 8]>
+All IEs up to version 8 can see this (lte = lower than, or equal)
+<![endif]-->
+
+<!--[if gt IE 8]>
+IEs higher than version 8 can see this (gt = greater than)
+<![endif]-->
+</syntaxHighlight>
+
+Also, if you need to hide sections from IE but want to make them visible to other browsers, you can to do the following:
+
+<syntaxHighlight lang="html">
+<!--[if !IE]> -->
+This is visible to every browser except IE
+<!-- <![endif]-->
+</syntaxHighlight>
+
+(the main difference here is that you need to prevent creating a HTML comment this time)
+
+Conditional comments are supported from IE 5 - 9 and were removed from IE 10. This means that IE 10 acts as if it were not belonging to the IE family.
+
+=Conditional Compilation=
+
+Conditional compilation is similar to what conditional comments are, but for JavaScript. The following is JavaScript code marked as such an will appear as comment to non-IE browsers and will only be executed by IE:
+
+<syntaxHighlight lang="javascript">
+/*@cc_on @*/
+ /*@if (@_jscript_version >= 5.8)
+     // executed by IEs with JavaScript (aka JScript) engine >= v5.8 or higher (equals IE 8)
+     // See: http://de.wikipedia.org/wiki/JScript
+ @else @*/
+     // executed by IEs older than IE 8
+ /*@end @*/
+</syntaxHighlight>
+
+Beware that some JavaScript minifiers don't recognize conditional compilation markup and will break your code. 
+
+Conditional compilation is supported from IE 4 - 9.
+
+=Filters=
 
 Filters present a way to apply certain visual effects either to page elements or to the page as a whole. They have nothing to do with the recently specified CSS Filter Effects although they both aim into the same direction. IE Filters are a lot older. 
 
