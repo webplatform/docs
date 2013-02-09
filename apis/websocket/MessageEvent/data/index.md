@@ -6,7 +6,7 @@
 {{API_Name}}
 {{Summary_Section|The data from the server.}}
 {{API_Object_Property
-|Property_applies_to=apis/websocket/objects/MessageEvent
+|Property_applies_to=apis/websocket/MessageEvent
 |Read_only=No
 |Javascript_data_type=String
 }}
