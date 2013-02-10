@@ -157,7 +157,7 @@ pairs offer different ways to produce the effects shown below:
 The [[css/functions/rotate()|'''rotate()''']] function spins an
 element around its ''z'' axis.  It accepts a degree ('''deg''') or
 radian ('''rad''') measurement. (Radians are equivalent to the number
-of degrees multiplied by &amp;pi;/180.) Radial measurements can wrap
+of degrees multiplied by &pi;/180.) Radial measurements can wrap
 around, so the following values are equivalent:
 
  transform: rotate(20deg);
@@ -169,7 +169,7 @@ around, so the following values are equivalent:
 ([http://letmespellitoutforyou.com/samples/trans_2d_rotate.html View live sample])
 
 The [[css/functions/skew()|'''skew()''']] function leans an element
-over, altering its corner angle relative to the default 90&amp;deg; and
+over, altering its corner angle relative to the default 90&deg; and
 transforming the underlying rectangle into a parallelogram.  It
 accepts up to two degree ('''deg''') or radian ('''rad''')
 measurements.  The separate [[css/functions/skewX()|'''skewX()''']]
