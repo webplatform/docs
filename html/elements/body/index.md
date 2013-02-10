@@ -1,4 +1,4 @@
-{{Page_Title|The <body> element}}
+{{Page_Title|body}}
 {{Flags
 |High-level issues=Data Not Semantic, Unreviewed Import
 |Content=Cleanup
