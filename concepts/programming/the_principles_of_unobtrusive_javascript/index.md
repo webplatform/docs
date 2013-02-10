@@ -1,5 +1,6 @@
 {{Page_Title|The principles of unobtrusive JavaScript}}
-{{Flags}}
+{{Flags
+}}
 {{Byline}}
 {{Summary_Section|In this article, we discuss an important concept of JavaScript — unobtrusiveness, or how to write JavaScript so that it enhances a website experience, but is not vital for it to run.}}
 {{Tutorial
