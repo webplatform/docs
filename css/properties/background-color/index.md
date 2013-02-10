@@ -18,7 +18,7 @@
 |Description=The default value; you will be able to see the elements behind the element in question showing through it.
 }}{{CSS Property Value
 |Data Type=color
-|Description=<code>background-color</code> accepts a single color as its value, which can be a keyword, hex, RGB, RGBa, HSL or HSLa color value. See the [[css/value/color|CSS color values]] page for more details.
+|Description=<code>background-color</code> accepts a single color as its value, which can be a keyword, hex, RGB, RGBa, HSL or HSLa color value. See the [[css/color|CSS color values]] page for more details.
 }}{{CSS Property Value
 |Data Type=inherit
 |Description=The element's background-color is inherited from its parent element.
