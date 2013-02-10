@@ -217,8 +217,9 @@ Each transition property uses commas to delimit additional transitions
 that form the larger second-long sequence. In this case, the duration
 for each is the same: half a second. The
 [[css/properties/transition-delay|'''transition-delay''']] property
-specifies that the first executes immediately, but the second waits
-until the first is complete.
+specifies that the first executes immediately, and the second is
+delayed a half second, effectively waiting until the first transition
+has completed.
 
 This example also specifies individual property names rather than
 '''all'''. When transitioning to the ''expanded'' class, the
