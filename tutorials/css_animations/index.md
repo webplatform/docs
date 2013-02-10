@@ -426,7 +426,7 @@ need to add alternative ''Webkit''-prefixed property names:
 
  window.onload = function() {
      var delay, divs = document.querySelectorAll('div');
-     for (var i = 0, l = divs.length; i &amp;amp;lt; l; i++) {
+     for (var i = 0, l = divs.length; i &lt; l; i++) {
          // set delay up to 1 second:
          delay  = Math.round(Math.random() * 1000) + 'ms';
          divs[i].style.animationDelay = delay;
@@ -454,27 +454,31 @@ value. The same is true when applying the property directly to the
 element. The first button below only works once, but the second can be
 repeated because it responds to asynchronous mouse or touch input:
 
- &amp;amp;lt;div onclick="document.querySelector('#animation').style.WebkitAnimationName = 'sequence';">
- REPLAY&amp;amp;lt;/div>
+<syntaxhighlight lang="xml">
+ <div onclick="document.querySelector('#animation').style.WebkitAnimationName = 'sequence';">
+ REPLAY</div>
  
- &amp;amp;lt;div
+ <div
     onmousedown='document.querySelector("#animation").style.WebkitAnimationName = "";'
     onmouseup='document.querySelector("#animation").style.WebkitAnimationName = "sequence";'
- >REPLAY&amp;amp;lt;/div>
+ >REPLAY</div>
+</syntaxhighlight>
 
 As a workaround, you can inject CSS into a local '''style''' region.
 Re-interpreting the CSS causes the animation to re-execute:
 
- &amp;amp;lt;style id="customCSS">&amp;amp;lt;/style>
+<syntaxhighlight lang="xml">
+ <style id="customCSS"></style>
  . . .
- &amp;amp;lt;div onclick="replay()">REPLAY&amp;amp;lt;/div>
+ <div onclick="replay()">REPLAY</div>
  . . .
- &amp;amp;lt;script>
+ <script>
  function replay() {
      document.querySelector('#customCSS').textContent = 
          "div { animation-name: 'sequence'; -webkit-animation-name: 'sequence' }";
  }
- &amp;amp;lt;/script>
+ </script>
+</syntaxhighlight>
 
 Applying a [[css/atrules/@keyframes|'''@keyframes''']] rule is a bit
 more complex than it is to set properties. Perhaps the easiest way is
@@ -500,7 +504,7 @@ Here is how you might change the initial color to a shade of gray:
  var sources = document.styleSheets; // from link/style tags
  var rules = sources[0].cssRules;    // list of all styles and at-rules
  var rule = rules[0];                // get first
- if( rule.type == rule.KEYFRAMES_RULE &amp;amp;#124;&amp;amp;#124; rule.type == rule.WEBKIT_KEYFRAMES_RULE ) {
+ if( rule.type == rule.KEYFRAMES_RULE &#124;&#124; rule.type == rule.WEBKIT_KEYFRAMES_RULE ) {
      console.log(rule.name);         // shiftColor
      console.log(rule[0].cssText);   // 0% { background-color: rgb(221, 160, 221); }
      if ( rule[0].keyText == '0%' )  // 'from' converts to '0%'
