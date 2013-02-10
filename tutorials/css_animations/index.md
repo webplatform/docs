@@ -374,7 +374,7 @@ executes would override whatever the first animation does with the
 ==Timing functions==
 
 The same set of timing functions that apply to transitions also apply
-to animations. (For details on these functions, see
+to animations. (For details, see
 [[tutorials/css_transitions#timing|Timing Functions]].)  The
 [[css/properties/animation-timing-function|'''animation-timing-function''']]
 property allows you to control the response curve for each keyframe's
