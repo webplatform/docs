@@ -66,7 +66,7 @@ To get a sense of what people are actually consuming on the mobile web, take a l
 
 Facebook data show that [http://techcrunch.com/2012/08/03/vp-mike-schroepfer-7000-different-mobile-devices-access-facebook-every-day/ over 7000 different devices access their site every day]. Even if your site or app doesn't have this level of traffic, it's important to test web apps on multiple platforms, and to develop a strategy for prioritising which devices and browsers to test on.
 
-If you don't have access to many devices, there may be an open device lab near you, where you can use or even borrow devices for free: [http://mobile.smashingmagazine.com/2012/09/24/establishing-an-open-device-lab/ mobile.smashingmagazine.com/2012/09/24/establishing-an-open-device-lab].
+If you don't have access to many devices, there may be an open device lab near you, where you can use or even borrow devices for free: [http://www.opendevicelab.com www.opendevicelab.com].
 
 More suggestions on how to set up a device lab:<br/> [http://www.dmolsen.com/mobile-in-higher-ed/2012/06/26/how-to-build-a-device-lab-part-1/ dmolsen.com/mobile-in-higher-ed/2012/06/26/how-to-build-a-device-lab-part-1]
 
