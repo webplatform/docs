@@ -1,4 +1,4 @@
-{{Page_Title|The paragraph (p) element}}
+{{Page_Title|p}}
 {{Flags
 |Content=Compatibility Incomplete
 }}
