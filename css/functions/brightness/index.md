@@ -15,11 +15,11 @@
 |Not_required=No
 |Examples={{Single Example
 |Description=The following example shows the difference between two elements, where one has a brightness of 50%;
-|Code=<!DOCTYPE html>
-<html>
-  <head>
-    <title>Filter example</title>
-    <style>
+|Code=&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;Filter example&lt;/title&gt;
+    &lt;style&gt;
       .foo {
         width: 100px;
         padding: 50px 0;
@@ -31,13 +31,13 @@
       .bar { 
         -webkit-filter: brightness(50%);
       }
-    </style>
-  </head>
-  <body>
-    <div class="foo"></div>
-    <div class="foo bar"></div>
-  </body>
-</html>
+    &lt;/style&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;div class=&quot;foo&quot;&gt;&lt;/div&gt;
+    &lt;div class=&quot;foo bar&quot;&gt;&lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
 |LiveURL=http://codepen.io/pverbeek/pen/Aamdu
 }}
 }}
