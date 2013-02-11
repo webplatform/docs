@@ -49,6 +49,10 @@ possibly affecting the ability of background content to show through:
 |Name=Filter Effects 1.0
 |URL=https://dvcs.w3.org/hg/FXTF/raw-file/tip/filters/index.html#
 |Status=Editor's Draft
+}}{{Related Specification
+|Name=Filter Effects 1.0
+|URL=http://www.w3.org/TR/filter-effects/
+|Status=Working Draft
 }}
 }}
 {{Compatibility_Section
@@ -114,7 +118,7 @@ possibly affecting the ability of background content to show through:
 }}
 {{See_Also_Section
 |Topic_clusters=Filters
-|External_links=* W3C editor's draft: [https://dvcs.w3.org/hg/FXTF/raw-file/tip/filters/index.html# Filter Effects 1.0]
+|External_links=* [http://html.adobe.com/webstandards/csscustomfilters/cssfilterlab/ Adobe CSS FilterLab]
 * [http://html5-demos.appspot.com/static/css/filters/index.html Interactive demonstration]
 }}
 {{Topics|CSS, Graphics, SVG}}
