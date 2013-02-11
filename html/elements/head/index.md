@@ -1,4 +1,4 @@
-{{Page_Title|The <head> element}}
+{{Page_Title|head}}
 {{Flags
 |High-level issues=Needs Topics, Data Not Semantic, Unreviewed Import
 |Content=Cleanup
