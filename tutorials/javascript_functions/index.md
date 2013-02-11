@@ -98,7 +98,7 @@ This has a very important side effect. JavaScript creates a new variable inside 
 
 <syntaxhighlight lang="javascript">
 function substring( obj, start ) {
-  obj = obj.substring(8);
+  obj = obj.substring(start);
 }
 
 var myString = "This is a string!";
