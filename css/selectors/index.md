@@ -1,9 +1,6 @@
 {{Page_Title|CSS selectors}}
 {{Flags
-|High-level issues=Copyright Issue
-|Content=Cleanup
-|Editorial notes={{Editorial/Copyright_Issue
-|At least some of the text seems to be copied from the W3C selectors spec}}
+}}
 }}
 {{Summary_Section|A Selector represents a structure. This structure can be used as a condition (e.g. in a CSS rule) that determines which elements a selector matches in the document tree, or as a flat description of the HTML or XML fragment corresponding to that structure.
 
