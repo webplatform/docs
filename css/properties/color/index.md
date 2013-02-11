@@ -44,7 +44,6 @@ p { color: rgb(64,224,208,0.8) }
 
 /* Or a HSLa value */
 p { color: hsl(174,72%,56%,0.8) }
-
 }}
 }}
 {{Notes_Section
@@ -52,11 +51,16 @@ p { color: hsl(174,72%,56%,0.8) }
 |Notes==== Default color ===
 Some browsers change the default color from black to another color in their default css (user-agent stylesheet).
 
+=== RGB, HSL, RGBa and HSLa support ===
+RGB, HSL, RGBa and HSLa are not supported by older browsers, therefore if you do use such colours, you should also provide a fallback color property that uses something similar but more widely supported, like a hex value, either placed next to the modern color value but earlier in the cascade, or in a separate stylesheet hidden behind a conditional comment.
+
 === Separating foreground from background ===
 In order to make it easier for users to see and hear content including separating foreground from background, [[http://www.w3.org/TR/2008/REC-WCAG20-20081211/ WCAG]] indicates the following:
 * color is not used as the only visual means of conveying information, indicating an action, prompting a response, or distinguishing a visual element. [[http://www.w3.org/TR/2008/REC-WCAG20-20081211/#visual-audio-contrast-without-color Guideline 1.4.1]] (Level A)
 * The visual presentation of text and images of text has a minimum contrast ratio of at least 4.5:1, with some exceptions. [[http://www.w3.org/TR/2008/REC-WCAG20-20081211/#visual-audio-contrast-contrast Contrast Minimum Guideline 1.4.3]] (Level AA)
 * The visual presentation of text and images of text has an enhanced contrast ratio of at least 7:1 [[http://www.w3.org/TR/2008/REC-WCAG20-20081211/#visual-audio-contrast7 Guideline 1.4.6]] (Level AAA)
+
+
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -64,9 +68,9 @@ In order to make it easier for users to see and hear content including separatin
 |URL=http://www.w3.org/TR/css3-color/
 |Status=W3C Recommendation
 }}{{Related Specification
-|Name=CSS3 Animatable-css
-|URL=http://dev.w3.org/csswg/css3-transitions/#animatable-css
-|Status=W3C Working Draft
+|Name=Color in CSS1
+|URL=http://www.w3.org/TR/REC-CSS1/#color
+|Status=W3C Recommendation
 }}
 }}
 {{Compatibility_Section
