@@ -6,14 +6,40 @@
 {{CSS_Function
 |Content=This CSS property value is reflected in the following image:
 
- filter: brightness(140%);
- filter: brightness(1.4); /* same */
+ filter: brightness(40%);
+ filter: brightness(0.4); /* same */
 
 [[Image:f17-boatonlake2.jpg|300px]]&nbsp;[[Image:f18-boatonlake2bright.jpg|300px]]
 }}
 {{Examples_Section
 |Not_required=Yes
-|Examples=
+|Examples={{Single Example
+|Description=The following example shows the difference between two elements, where one has a brightness of 50%;
+|Code=<!DOCTYPE html>
+<html>
+  <head>
+    <title>Filter example</title>
+    <style>
+      .foo {
+        width: 100px;
+        padding: 50px 0;
+        margin: 100px;
+        background: red;
+        float: left;
+      }
+
+      .bar { 
+        -webkit-filter: brightness(50%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="foo"></div>
+    <div class="foo bar"></div>
+  </body>
+</html>
+|LiveURL=http://codepen.io/pverbeek/pen/Aamdu
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
@@ -21,6 +47,10 @@
 |Name=Filter Effects 1.0
 |URL=https://dvcs.w3.org/hg/FXTF/raw-file/tip/filters/index.html#
 |Status=Editor's Draft
+}}{{Related Specification
+|Name=Filter Effects 1.0
+|URL=http://www.w3.org/TR/filter-effects/
+|Status=Working Draft
 }}
 }}
 {{Compatibility_Section
@@ -86,7 +116,7 @@
 }}
 {{See_Also_Section
 |Topic_clusters=Filters
-|External_links=* W3C editor's draft: [https://dvcs.w3.org/hg/FXTF/raw-file/tip/filters/index.html# Filter Effects 1.0]
+|External_links=* [http://html.adobe.com/webstandards/csscustomfilters/cssfilterlab/ Adobe CSS FilterLab]
 * [http://html5-demos.appspot.com/static/css/filters/index.html Interactive demonstration]
 }}
 {{Topics|CSS, Graphics, SVG}}
