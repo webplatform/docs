@@ -1,4 +1,6 @@
-=Plan for Berlin doc sprint, February 2013=
+=Plan for Berlin Doc Sprint, February 8-9, 2013=
+
+''Note: This plan has been used at the Berlin Doc Sprint. You can also access [http://de.slideshare.net/klick_ass/webplatformorg-doc-sprint-berlin-feb-89-2013 the full slidedeck we've used here]''
 
 ==Intro Talk, general==
 
@@ -75,7 +77,7 @@ Please let u know what you want to work on, and we'll keep track of your progres
 
 * Julee Burdekin, Adobe
 * Janet Swisher, Mozilla
-* Jay Meissner, Adobe
+* Andre Jay Meissner, Adobe
 * David Kirstein (fr0zenice)
 * Scott Rowe, Google
 * Florian Scholz, MDN
