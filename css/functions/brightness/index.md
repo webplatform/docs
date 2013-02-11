@@ -12,7 +12,7 @@
 [[Image:f17-boatonlake2.jpg|300px]]&nbsp;[[Image:f18-boatonlake2bright.jpg|300px]]
 }}
 {{Examples_Section
-|Not_required=Yes
+|Not_required=No
 |Examples={{Single Example
 |Description=The following example shows the difference between two elements, where one has a brightness of 50%;
 |Code=<!DOCTYPE html>
