@@ -1,5 +1,6 @@
 {{Page_Title|JavaScript statements}}
-{{Flags}}
+{{Flags
+}}
 {{Byline}}
 {{Summary_Section|JavaScript supports a compact set of statements that you can use to incorporate a great deal of interactivity in Web pages. This chapter provides an overview of these statements.}}
 {{Tutorial
