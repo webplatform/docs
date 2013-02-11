@@ -1,4 +1,4 @@
-{{Page_Title|The &lt;acronym&gt; element}}
+{{Page_Title|acronym}}
 {{Flags
 |High-level issues=Missing Relevant Sections, Data Not Semantic
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete
