@@ -2,11 +2,11 @@
 {{Flags
 |Content=Cleanup
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|The color property describes the foreground color of an element's text content.}}
+{{Summary_Section|The color property sets the color of an element's foreground content (usually text), accepting any standard CSS color from keywords and hex values to RGB(a) and HSL(a).}}
 {{CSS Property
-|Initial value=depends on user agent
+|Initial value=black, except in a few cases (see notes)
 |Applies to=All elements
 |Inherited=Yes
 |Media=visual
@@ -49,7 +49,10 @@ element { color: hsla(120, 100%, 50%, 0.5) }
 }}
 {{Notes_Section
 |Usage=Though CSS color values are precisely defined, they may appear differently on an output device. Most of them are not calibrated, and some browsers do not support output devices color profile. Without these, color rendering may vary a lot.
-|Notes==== Separating foreground from background ===
+|Notes==== Default color ===
+Some browsers change the default color from black to another color in their default css (user-agent stylesheet).
+
+=== Separating foreground from background ===
 In order to make it easier for users to see and hear content including separating foreground from background, [[http://www.w3.org/TR/2008/REC-WCAG20-20081211/ WCAG]] indicates the following:
 * color is not used as the only visual means of conveying information, indicating an action, prompting a response, or distinguishing a visual element. [[http://www.w3.org/TR/2008/REC-WCAG20-20081211/#visual-audio-contrast-without-color Guideline 1.4.1]] (Level A)
 * The visual presentation of text and images of text has a minimum contrast ratio of at least 4.5:1, with some exceptions. [[http://www.w3.org/TR/2008/REC-WCAG20-20081211/#visual-audio-contrast-contrast Contrast Minimum Guideline 1.4.3]] (Level AA)
