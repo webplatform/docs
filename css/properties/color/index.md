@@ -59,8 +59,6 @@ In order to make it easier for users to see and hear content including separatin
 * color is not used as the only visual means of conveying information, indicating an action, prompting a response, or distinguishing a visual element. [[http://www.w3.org/TR/2008/REC-WCAG20-20081211/#visual-audio-contrast-without-color Guideline 1.4.1]] (Level A)
 * The visual presentation of text and images of text has a minimum contrast ratio of at least 4.5:1, with some exceptions. [[http://www.w3.org/TR/2008/REC-WCAG20-20081211/#visual-audio-contrast-contrast Contrast Minimum Guideline 1.4.3]] (Level AA)
 * The visual presentation of text and images of text has an enhanced contrast ratio of at least 7:1 [[http://www.w3.org/TR/2008/REC-WCAG20-20081211/#visual-audio-contrast7 Guideline 1.4.6]] (Level AAA)
-
-
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -77,6 +75,7 @@ In order to make it easier for users to see and hear content including separatin
 |Not_required=No
 |Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
+|Feature=Keywords colors
 |Chrome_supported=Yes
 |Chrome_version=1.0
 |Chrome_prefixed_supported=No
@@ -98,7 +97,7 @@ In order to make it easier for users to see and hear content including separatin
 |Safari_prefixed_supported=No
 |Safari_prefixed_version=
 }}{{Compatibility Table Desktop Row
-|Feature=Translucent color value
+|Feature=Translucent color value (RGBa, HSLa)
 |Chrome_supported=Yes
 |Chrome_version=1.0
 |Chrome_prefixed_supported=No
@@ -153,7 +152,7 @@ In order to make it easier for users to see and hear content including separatin
 |Safari_mobile_prefixed_supported=No
 |Safari_mobile_prefixed_version=
 }}{{Compatibility Table Mobile Row
-|Feature=Translucent color value
+|Feature=Translucent color value (RGBa, HSLa)
 |Android_supported=Yes
 |Android_version=2.1
 |Android_prefixed_supported=No
@@ -191,23 +190,18 @@ In order to make it easier for users to see and hear content including separatin
 |Browser=Internet Explorer
 |Version=<=7.0
 |Note=no support for the "inherit" value
-}}{{Compatibility Notes Row
-|Browser=Internet Explorer
-|Version=6 <= X <=8
-|Note=Translucent color fallbacks on solid color
 }}
 }}
 {{See_Also_Section
 |Manual_sections=*[http://www.w3.org/Style/CSS/Test/CSS3/Color/current/ W3 css3-color Conformance Test Suite]
-*[http://www.w3schools.com/cssref/pr_text_color.asp w3schools color property]
 *[https://developer.mozilla.org/en-US/docs/CSS/color MDN color property]
 *[http://msdn.microsoft.com/en-us/library/ie/ms530749(v=vs.85).aspx MSDN color property]
 }}
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|MDN_link=https://developer.mozilla.org/en-US/docs/CSS/color_value
+|MDN_link=
+|MSDN_link=
 |HTML5Rocks_link=
 }}
 ===css color value===
