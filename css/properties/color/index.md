@@ -21,31 +21,30 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Language=HTML
-|Description=The following examples use the '''color''' attribute and the '''color''' property to change the text color of an object.
-This example uses a call to an embedded (global) style sheet to change the text color to <code>red</code> when an [[dom/events/mouseover|'''onmouseover''']] event occurs.
-|Code=&lt;STYLE&gt;
-    .color1 { color:red }
-    .color2 { color: }
-&lt;/STYLE&gt;
-&lt;/HEAD&gt;
-&lt;BODY&gt;
-&lt;SPAN STYLE{{=}}"font-size:14" onmouseover{{=}}"this.className{{=}}'color1'"
-    onmouseout{{=}}"this.className{{=}}'color2'"&gt; . . .
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/color_h.htm
-}}{{Single Example
 |Language=CSS
-|Description=The following are all valid ways to display the element's text content green:
-|Code=element { color: green }
-element { color: #0f0 }
-element { color: #008000 }
-element { color: rgb(0,128,0) }
-element { color: rgb(0%, 50%, 0%) }
-element { color: hsl(120, 100%, 50%) }
- 
-/* 50% translucent */
-element { color: rgba(0, 128, 0, 0.5) } 
-element { color: hsla(120, 100%, 50%, 0.5) }
+|Code=/* Setting a paragraph color to turquoise with a name value */
+p {color:turquoise}
+
+/* Setting the same propriety with an hexadecimal value*/
+p {color:#40E0D0}
+
+/* with a RGB decimal value */
+p { color: rgb(64,224,208) }
+
+/* with a RGB percentage value */
+p { color: rgb(25.1%,87.8%,81.6%) }
+
+/* with a HSL value */
+p { color: hsl(174,72%,56%) }
+
+/* We now want our color to be 20% translucent which means a 80% opacity */
+
+/* We can set the color with a RGBa value */ 
+p { color: rgb(64,224,208,0.8) }
+
+/* Or a HSLa value */
+p { color: hsl(174,72%,56%,0.8) }
+
 }}
 }}
 {{Notes_Section
