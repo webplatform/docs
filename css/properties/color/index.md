@@ -10,7 +10,8 @@
 |Applies to=All elements
 |Inherited=Yes
 |Media=visual
-|Animatable=No
+|Computed value=If non-translucent hexadecimal equivalent is used, else it is the RGBa equivalent
+|Animatable=Yes
 |CSS object model property=color
 |Values={{CSS Property Value
 |Data Type=color
