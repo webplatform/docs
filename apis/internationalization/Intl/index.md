@@ -29,32 +29,33 @@ It is not possible to invoke the Intl object as a function.
 |Not_required=No
 |Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Full
+|Feature=Full support
+|Chrome_supported=Yes
 |Chrome_version=24
-|Chrome_prefixed_supported=Full
+|Chrome_prefixed_supported=Yes
 |Chrome_prefixed_version=22
-|Firefox_supported=Not supported
+|Firefox_supported=No
 |Firefox_version=
-|Firefox_prefixed_supported=Not supported
+|Firefox_prefixed_supported=No
 |Firefox_prefixed_version=
-|Internet_explorer_supported=Not supported
+|Internet_explorer_supported=No
 |Internet_explorer_version=
-|Internet_explorer_prefixed_supported=Not supported
+|Internet_explorer_prefixed_supported=No
 |Internet_explorer_prefixed_version=
-|Opera_supported=Not supported
+|Opera_supported=No
 |Opera_version=
-|Opera_prefixed_supported=Not supported
+|Opera_prefixed_supported=No
 |Opera_prefixed_version=
-|Safari_supported=Not supported
+|Safari_supported=No
 |Safari_version=
-|Safari_prefixed_supported=Not supported
+|Safari_prefixed_supported=No
 |Safari_prefixed_version=
 }}
 |Mobile_rows=
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics}}
+{{Topics|Internationalization, JavaScript}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
