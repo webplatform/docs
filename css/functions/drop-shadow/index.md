@@ -63,6 +63,33 @@ allows for more vivid shadow effects:
   &lt;/body&gt;
 &lt;/html&gt;
 |LiveURL=http://codepen.io/pverbeek/pen/etIyE
+}}{{Single Example
+|Description=This example shows the difference when using png images with transparency.
+|Code=&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;Filter example&lt;/title&gt;
+    &lt;style&gt;
+      .foo {
+        float: left;
+      }
+
+      .bar {
+        box-shadow: 5px 5px 10px black;
+      }
+
+      .baz {
+        -webkit-filter: drop-shadow(5px 5px 10px black);
+      }
+    &lt;/style&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;img src=&quot;http://www.webplatform.org/logo/wplogo_transparent_xlg.png&quot; class=&quot;foo&quot; /&gt;
+    &lt;img src=&quot;http://www.webplatform.org/logo/wplogo_transparent_xlg.png&quot; class=&quot;foo bar&quot; /&gt;
+  &lt;/body&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+|LiveURL=http://codepen.io/pverbeek/pen/BlFef
 }}
 }}
 {{Notes_Section}}
@@ -71,6 +98,10 @@ allows for more vivid shadow effects:
 |Name=Filter Effects 1.0
 |URL=https://dvcs.w3.org/hg/FXTF/raw-file/tip/filters/index.html#
 |Status=Editor's Draft
+}}{{Related Specification
+|Name=Filter Effects 1.0
+|URL=http://www.w3.org/TR/filter-effects/
+|Status=Working Draft
 }}
 }}
 {{Compatibility_Section
