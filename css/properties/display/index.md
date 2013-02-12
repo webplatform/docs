@@ -121,7 +121,7 @@ Note: At the time of this writing, most modern browsers do not support this prop
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=Change a <code>span</code>-element from its initial display <code>inline</code> to display as block-level element.
+|Description=Change a <code>span</code> element from its initial display <code>inline</code> to display as block-level element.
 |Code=&lt;span&gt;Some example text&lt;/span&gt;
 &lt;style&gt;
   span {
@@ -158,6 +158,22 @@ p.inherit
 {
 display:inherit; //Sets the display value to inherit its parent container's display values.
 }
+}}{{Single Example
+|Language=CSS
+|Description=Mobile-adapt a table, suppressing column headers and re-inserting text next to vertically stacked cells
+|Code=@media (max-width:400px) {
+    /* stack cells vertically... */
+    table, tr, td, th, tbody { display: block }
+    /* ...but hide column headers */
+    thead { display: none }
+    /* insert column header text next to content */
+    td::before { font-weight: bold }
+    td:nth-of-type(1)::before { content: "Column 1: " }
+    td:nth-of-type(2)::before { content: "Column 2: " }
+    td:nth-of-type(3)::before { content: "Column 3: " }
+    td:nth-of-type(4)::before { content: "Column 4: " }
+}
+
 }}
 }}
 {{Notes_Section
@@ -484,11 +500,11 @@ display:inherit; //Sets the display value to inherit its parent container's disp
 |Browser=Firefox
 |Note=Supports only single-line flexbox. To activate flexbox support, for Firefox 18 and 19, the user has to change the about:config preference "layout.css.flexbox.enabled" to true.
 }}{{Compatibility Notes Row
-|Browser=Internet Explorer 
+|Browser=Internet Explorer
 |Version=7 and earlier
 |Note=Does not support inline-block and table display.
 }}{{Compatibility Notes Row
-|Browser=Internet Explorer 
+|Browser=Internet Explorer
 |Version=7 and earlier
 |Note=Only supports the display value on elements with the display set to inline.
 }}{{Compatibility Notes Row
