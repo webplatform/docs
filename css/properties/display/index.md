@@ -130,9 +130,7 @@ Note: At the time of this writing, most modern browsers do not support this prop
 &lt;/style&gt;
 }}{{Single Example
 |Language=HTML
-|Description='''Second example'''
-
-Do not display an element by using <code>display: none;</code>.
+|Description=Do not display an element by using <code>display: none;</code>.
 |Code=&lt;div&gt;Some example text&lt;/div&gt;
 &lt;style&gt;
   div {
@@ -140,10 +138,8 @@ Do not display an element by using <code>display: none;</code>.
   }
 &lt;/style&gt;
 }}{{Single Example
-|Language=HTML
-|Description='''Third example'''
-
-Specify the rendering type as block or inline to define how the element will display. Set the element to inherit the rendering values of its parent container:
+|Language=CSS
+|Description=Specify the rendering type as block or inline to define how the element will display. Set the element to inherit the rendering values of its parent container:
 |Code=p.block 
 {
 display:block; //Sets the element to display in a box model rendering type.
@@ -173,7 +169,6 @@ display:inherit; //Sets the display value to inherit its parent container's disp
     td:nth-of-type(3)::before { content: "Column 3: " }
     td:nth-of-type(4)::before { content: "Column 4: " }
 }
-
 }}
 }}
 {{Notes_Section
