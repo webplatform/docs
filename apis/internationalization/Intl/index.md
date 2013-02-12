@@ -32,8 +32,8 @@ It is not possible to invoke the Intl object as a function.
 |Feature=Full support
 |Chrome_supported=Yes
 |Chrome_version=24
-|Chrome_prefixed_supported=Yes
-|Chrome_prefixed_version=22
+|Chrome_prefixed_supported=No
+|Chrome_prefixed_version=
 |Firefox_supported=No
 |Firefox_version=
 |Firefox_prefixed_supported=No
