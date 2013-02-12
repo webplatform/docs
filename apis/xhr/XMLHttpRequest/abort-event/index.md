@@ -1,9 +1,9 @@
-{{Page_Title}}
+{{Page_Title|abort}}
 {{Flags
 |High-level issues=Stub
 }}
 {{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
+{{API_Name|abort}}
 {{Summary_Section|When the request has been aborted. For instance, by invoking the abort() method.}}
 {{Event
 |Event_applies_to=apis/xhr/XMLHttpRequest
