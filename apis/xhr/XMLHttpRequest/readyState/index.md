@@ -6,6 +6,8 @@
 {{API_Object_Property
 |Property_applies_to=apis/xhr/XMLHttpRequest
 |Read_only=Yes
+|Example_object_name=xhr
+|Return_value_name=state
 |Javascript_data_type=unsigned short
 |Return_value_description=Returns one of the following values:
 *UNSENT (0): open() has not been called yet.
