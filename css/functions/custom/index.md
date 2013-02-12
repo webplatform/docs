@@ -81,7 +81,9 @@
 }}
 {{See_Also_Section
 |Topic_clusters=Filters
-|Manual_links=* [http://html.adobe.com/webstandards/csscustomfilters/cssfilterlab/ Adobe CSS FilterLab]
+|External_links=* [http://www.khronos.org/files/opengles_shading_language.pdf OpenGL ES Shading Language (PDF)]
+* [http://html.adobe.com/webstandards/csscustomfilters/cssfilterlab/ Adobe CSS FilterLab]
+* [http://www.adobe.com/devnet/html5/articles/css-shaders.html Introducing CSS shaders]
 }}
 {{Topics|CSS, Graphics, SVG}}
 {{External_Attribution
