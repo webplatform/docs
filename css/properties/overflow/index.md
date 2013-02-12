@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|Content=Incomplete, Cleanup, Compatibility Incomplete
+|Content=Compatibility Incomplete
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -46,6 +46,7 @@
   &lt;p class="four"&gt;auto: Content is clipped and scrolling is added only when necessary.&lt;/p&gt;
 &lt;/body&gt;
 &lt;/html&gt;
+|LiveURL=http://jsbin.com/oqinud/1
 }}{{Single Example
 |Language=CSS
 |Code=p{
