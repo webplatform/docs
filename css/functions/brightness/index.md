@@ -1,4 +1,4 @@
-{{Page_Title|brightness(luminosity-factor)}}
+{{Page_Title|brightness()}}
 {{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
@@ -14,17 +14,13 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=The following example shows the difference between two elements, where one has a brightness of 50%;
+|Description=The following example shows the difference between two images, where one has a brightness of 50%;
 |Code=&lt;!DOCTYPE html&gt;
 &lt;html&gt;
   &lt;head&gt;
     &lt;title&gt;Filter example&lt;/title&gt;
     &lt;style&gt;
       .foo {
-        width: 100px;
-        padding: 50px 0;
-        margin: 100px;
-        background: red;
         float: left;
       }
 
@@ -34,8 +30,8 @@
     &lt;/style&gt;
   &lt;/head&gt;
   &lt;body&gt;
-    &lt;div class=&quot;foo&quot;&gt;&lt;/div&gt;
-    &lt;div class=&quot;foo bar&quot;&gt;&lt;/div&gt;
+    &lt;img src=&quot;http://www.webplatform.org/logo/wplogo_transparent_xlg.png&quot; class=&quot;foo&quot; /&gt;
+    &lt;img src=&quot;http://www.webplatform.org/logo/wplogo_transparent_xlg.png&quot; class=&quot;foo bar&quot; /&gt;
   &lt;/body&gt;
 &lt;/html&gt;
 |LiveURL=http://codepen.io/pverbeek/pen/Aamdu
