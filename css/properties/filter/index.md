@@ -32,7 +32,6 @@
         width: 100px;
         padding: 50px 0;
         margin: 100px;
-        text-align: center;
         border: dashed 10px red;
         float: left;
       }
