@@ -1,13 +1,13 @@
 {{Page_Title|HTML Elements}}
-{{Flags
-|Content=Grammar/Spelling
-|Editorial notes=In the Name/Summary table, the typography for the element names should be consistent from entry to entry. In some rows, names are in bold; in others, in angle brackets; in others, in quotation marks.
-}}
+{{Flags}}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|Index page for HTML elements.}}
-{{API_Listing
-|Query=[[Category:Markup_Elements]][[Category:HTML]]
+{{API_Listing|Query=[[Category:Markup_Elements]][[Category:HTML]]
+|Use_page_title=No
+|List_all_subpages=No
+}}
+{{Concept_Listing
 |Use_page_title=No
 |List_all_subpages=No
 }}
