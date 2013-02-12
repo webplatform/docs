@@ -18,7 +18,28 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=Prints a message to the console log during each state of the request.
+|Code=function handler() {
+  if (xhr.readyState {{=}}{{=}}{{=}} xhr.UNSENT) {
+    console.log('XHR Unsent');
+  } else if (xhr.readyState {{=}}{{=}}{{=}} xhr.OPENED) {
+    console.log('XHR Opened');
+  } else if (xhr.readyState {{=}}{{=}}{{=}} xhr.HEADERS_RECEIVED) {
+    console.log('XHR Headers received');
+  } else if (xhr.readyState {{=}}{{=}}{{=}} xhr.LOADING) {
+    console.log('XHR Loading');
+  } else if (xhr.readyState {{=}}{{=}}{{=}} xhr.DONE) {
+    console.log('XHR Done');
+  }
+}
+
+var xhr {{=}} new XMLHttpRequest();
+xhr.open("GET", "<nowiki>http://localhost/test.xml</nowiki>", true);
+xhr.onreadystatechange {{=}} handler;
+xhr.send();
+}}
 }}
 {{Notes_Section
 |Notes=You cannot call the '''responseText''' property to obtain partial results ('''readyState''' {{=}} 3). Doing so will return an error, because the response is not fully received. You must wait until all data has been received.
