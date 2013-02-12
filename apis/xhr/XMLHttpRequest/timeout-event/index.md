@@ -1,9 +1,9 @@
-{{Page_Title}}
+{{Page_Title|timeout}}
 {{Flags
 |High-level issues=Stub
 }}
 {{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
+{{API_Name|timeout}}
 {{Summary_Section|When the author specified timeout has passed before the request could complete.}}
 {{Event
 |Event_applies_to=apis/xhr/XMLHttpRequest
