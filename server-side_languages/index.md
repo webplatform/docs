@@ -1,7 +1,7 @@
 {{Page_Title|Server-side languages}}
 {{Flags
 |High-level issues=Stub
-|Content=Incomplete, Broken Links
+|Content=Incomplete,Broken Links
 }}
 {{Summary_Section|Server-side languages, as opposed to client-side languages, are programming languages that perform tasks on the server, before the page is sent to the browser for rendering. This site only provides limited information on server-side languages.}}
 {{Basic Page}}
