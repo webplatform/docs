@@ -171,7 +171,7 @@ display:inherit; //Sets the display value to inherit its parent container's disp
 }
 }}{{Single Example
 |Language=CSS
-|Description=Stack generously sized links in mobile interface to make them touch-friendly:
+|Description=Stack generously sized links in mobile interface to extend the touch zone to the full width of the screen:
 |Code=@media (max-width:400px) {
     a[href] {
         display             : block;
