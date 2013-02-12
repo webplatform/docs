@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|This API defines two mechanisms for communicating between browsing contexts in HTML documents.}}
+{{Summary_Section|This API defines mechanisms for communicating between browsing contexts in HTML documents.}}
 {{API_Listing|Use_page_title=No
 |List_all_subpages=Yes
 }}
