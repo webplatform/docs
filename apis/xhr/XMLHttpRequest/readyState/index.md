@@ -10,10 +10,10 @@
 |Return_value_name=state
 |Javascript_data_type=unsigned short
 |Return_value_description=Returns one of the following values:
-*UNSENT (0): open() has not been called yet.
-*OPENED	(1): send() has not been called yet.
-*HEADERS_RECEIVED (2): send() has been called, and headers and status are available.
-*LOADING (3): Downloading; responseText holds partial data.
+*UNSENT (0): [[apis/xhr/XMLHttpRequest/open|'''open()''']] has not been called yet.
+*OPENED	(1): [[apis/xhr/XMLHttpRequest/send|'''send()''']] has not been called yet.
+*HEADERS_RECEIVED (2): [[apis/xhr/XMLHttpRequest/send|'''send()''']] has been called, and headers and status are available.
+*LOADING (3): Downloading; [[apis/xhr/XMLHttpRequest/responseText|'''responseText''']] holds partial data.
 *DONE (4): The operation is complete.
 }}
 {{Examples_Section
