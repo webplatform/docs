@@ -1,44 +1,40 @@
-{{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
-}}
-{{Standardization_Status|}}
+{{Page_Title}}
+{{Flags}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
+{{Summary_Section|Disconnects the port, so that it is no longer active.}}
 {{API_Object_Method
 |Parameters=
-|Method_applies_to=apis/web-messaging/objects/MessagePort
-|Example_object_name=object
-|Return_value_name=object
-|Javascript_data_type=DOM Node
-|Return_value_description=This method does not return a value.
-
-
+|Method_applies_to=apis/web-messaging/MessagePort
+|Javascript_data_type=void
 }}
-{{Topics|DOM}}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
-This method releases the [[apis/web-messaging/objects/MessagePort|'''MessagePort''']] from its corresponding '''MessagePort'''. After calling the '''close''' method, message events will no longer be received on this port and [[apis/web-messaging/methods/postMessage (MessagePort)|'''postMessage''']] will no longer post any messages. To continue messaging, you need to create a new [[apis/web-messaging/objects/MessageChannel|'''MessageChannel''']] and resend one of the ports to the other window or document.
-For more info, see [[apis/web-messaging/objects/MessageChannel|'''MessageChannel''']] for a working messaging demo.
-|Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}199803 HTML5 Web Messaging]
-
-
+|Notes=This method releases the '''MessagePort''' from its corresponding '''MessagePort'''. After calling the '''close''' method, message events will no longer be received on this port and '''postMessage''' will no longer post any messages. To continue messaging, you need to create a new '''MessageChannel''' and resend one of the ports to the other window or document.
 }}
-{{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
-*<code>[[apis/web-messaging/objects/MessagePort|MessagePort]]</code>
-*<code>[[apis/workers/objects/Worker|Worker]]</code>
-*<code>[[apis/web-messaging/objects/MessageChannel|MessageChannel]]</code>
-*<code>[http://go.microsoft.com/fwlink/?LinkID{{=}}254465 Web worker demo]</code>
+{{Related_Specifications_Section
+|Specifications={{Related Specification
+|Name=W3C Web Messaging Specification
+|URL=http://www.w3.org/TR/webmessaging/
+|Status=W3C Candidate Recommendation
 }}
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section}}
+{{Topics|Web Messaging}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
 |HTML5Rocks_link=
 }}
