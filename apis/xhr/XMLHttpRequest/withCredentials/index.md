@@ -13,7 +13,9 @@
 |Not_required=No
 |Examples=
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Notes=withCredentials cannot be set after the XMLHttpRequest's [[apis/xhr/XMLHttpRequest/send|'''send()''']] method is called.
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=W3C XMLHttpRequest Specification
