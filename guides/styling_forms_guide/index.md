@@ -90,7 +90,7 @@ The markup used in the previous [http://www.w3.org/wiki/HTML_forms_-_the_basics 
  
 In addition to including several new elements, a number of classes and IDs have been added to the markup that can be referenced from the stylesheet. These allow each form, field/value pair, and field to be referenced individually, regardless of context.
  
-The new identifiers also make it possible for the stylist to distinguish fields that ''must'' be filled out, from fields that don’t.
+The new identifiers also make it possible for the stylist to distinguish required fields from optional ones.
  
 Finally, there are a few new classes that provide suggestions of the amount and types of information that should be displayed by the form elements to which they are attached. These classes make it possible to apply layout details to multiple, arbitrary elements all at once.
 
@@ -945,6 +945,7 @@ Values closest to zero are on the left side of the table, and progress toward on
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
