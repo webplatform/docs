@@ -19,6 +19,10 @@
 |Name=W3C XMLHttpRequest Specification
 |URL=http://www.w3.org/TR/XMLHttpRequest/
 |Status=W3C Working Draft
+}}{{Related Specification
+|Name=Cross-Origin Resource Sharing
+|URL=http://www.w3.org/TR/cors/
+|Status=W3C Candidate Recommendation 29 January 2013
 }}
 }}
 {{Compatibility_Section
