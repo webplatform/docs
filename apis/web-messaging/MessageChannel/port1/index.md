@@ -13,7 +13,7 @@
 |Examples=
 }}
 {{Notes_Section
-|Notes=Communication channels in this mechanism are implemented as two-ways pipes, with a port at each end. Messages sent in one port are delivered at the other port, and vice versa. Messages are asynchronous, and delivered as DOM events.
+|Notes=Communication channels in this mechanism are implemented as two-way pipes, with a port at each end. Messages sent in one port are delivered at the other port, and vice versa. Messages are asynchronous, and delivered as DOM events.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
