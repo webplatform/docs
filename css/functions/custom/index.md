@@ -9,7 +9,26 @@
 {{CSS_Function}}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Description=Using shaders created by Adobe, the following example shows how to create a folded map effect with custom CSS filters.
+|Code=<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    #map {
+      width: 400px;
+      height: 400px;
+      -webkit-transform: translate3d(0px, 0px, 0px);
+      -webkit-filter: custom(url(http://html.adobe.com/webstandards/csscustomfilters/cssfilterlab/shaders/vertex/fold.vs) mix(url(http://html.adobe.com/webstandards/csscustomfilters/cssfilterlab/shaders/fragment/fold.fs) multiply source-atop), 8 50, transform perspective(1000) scale(1) rotateX(0deg) rotateY(0deg) rotateZ(0deg), t 0.5, spins 1.5, phase -0.7, shadow 1.5, mapDepth 40, mapCurve -0.3, minSpacing 0.3, useColoredBack 1, backColor 0.5 0.5 0.5 1);  
+    }
+  </style>
+</head>
+<body>
+  <img src="http://maps.googleapis.com/maps/api/staticmap?center=51.58803,4.774246&zoom=15&size=400x400&sensor=false" id="map" />
+</body>
+</html>
+|LiveURL=http://codepen.io/pverbeek/pen/piKgC
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
