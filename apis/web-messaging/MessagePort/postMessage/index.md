@@ -7,28 +7,12 @@
 |Parameters={{Method Parameter
 |Name=message
 |Data type=any
-|Description=JavaScript primitive, such as a string
-
-'''object'''
-
-Array
-
-[[canvas/objects/CanvasPixelArray|'''PixelArray''']] object
-
-[[canvas/objects/CanvasImageData|'''ImageData''']] object
-
-[[apis/file/Blob|'''Blob''']]
-
-
-[[apis/file/File|'''File''']]
-
-ArrayBuffer
+|Description=JavaScript primitive, such as a '''string''', '''PixelArray''', '''ImageData''', '''Blob''', '''File''', or '''ArrayBuffer'''.
 |Optional=No
 }}{{Method Parameter
 |Name=transfer
 |Data type=any
-|Description=Objects listed in ''transfer'' are transferred, not just cloned, meaning that they are no longer usable on the sending side.
-
+|Description=Objects listed in ''transfer'' are transferred, not just cloned, meaning that they are no longer usable on the sending side. 
 Throws a ''DataCloneError'' if ''transfer'' array contains duplicate objects or the source or target ports, or if ''message'' could not be cloned.
 |Optional=Yes
 }}
@@ -41,7 +25,6 @@ Throws a ''DataCloneError'' if ''transfer'' array contains duplicate objects or 
 }}
 {{Notes_Section
 |Notes=When you create a new '''MessageChannel''' object, it has two connected '''MessagePort''' objects that can only send and receive messages between them.  If the ''ports'' parameter is supplied but contains errors, an '''InvalidStateError''' exception is thrown. Sending a message containing an un-supported object (such as a function), a '''DataCloneError''' exception is thrown.
-
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
