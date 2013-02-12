@@ -156,7 +156,7 @@ display:inherit; //Sets the display value to inherit its parent container's disp
 }
 }}{{Single Example
 |Language=CSS
-|Description=Mobile-adapt a table, suppressing column headers and re-inserting text next to vertically stacked cells
+|Description=Mobile-adapt a table, suppressing column headers and re-inserting text next to vertically stacked cells:
 |Code=@media (max-width:400px) {
     /* stack cells vertically... */
     table, tr, td, th, tbody { display: block }
@@ -168,6 +168,22 @@ display:inherit; //Sets the display value to inherit its parent container's disp
     td:nth-of-type(2)::before { content: "Column 2: " }
     td:nth-of-type(3)::before { content: "Column 3: " }
     td:nth-of-type(4)::before { content: "Column 4: " }
+}
+}}{{Single Example
+|Language=CSS
+|Description=Stack generously sized links in mobile interface to make them touch-friendly:
+|Code=@media (max-width:400px) {
+    a[href] {
+        display             : block;
+        padding             : 12px;
+        border-radius       : 12px;
+        margin              : 6px;
+        text-decoration     : none;
+        color               : #000;
+        background-color    : #fff;
+        background-image    : url(/img/nav_icon.png);
+        background-position : 90% center;
+    }
 }
 }}
 }}
