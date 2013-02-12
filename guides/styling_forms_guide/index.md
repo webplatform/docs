@@ -1,4 +1,4 @@
-{{Page_Title|Styling forms — the ultimate guide}}
+{{Page_Title|Styling forms}}
 {{Flags}}
 {{Byline}}
 {{Summary_Section|This article provides a thoughtful grounding in form styling and layout — one of the more difficult aspects of styling web pages.}}
