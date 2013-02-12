@@ -2,11 +2,11 @@
 {{Flags}}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|XMLHttpRequest is the most basic part of AJAX. It allows a website to dynamically request more content, without loading the page.}}
+{{Summary_Section|XMLHttpRequest allows JavaScript to make HTTP requests, and is the most basic part of AJAX. It allows a website to dynamically request more content, without reloading the entire page.}}
 {{API_Object
 |Overview=The '''XMLHttpRequest''' property is available on the '''window''' object.
  <code>var xhr {{=}} new XMLHttpRequest();</code>
-With the '''XMLHttpRequest''' object, clients can retrieve and submit XML data directly to a web server without reloading the document. To convert XML data into renderable HTML content, use the client-side XML DOM or Extensible Stylesheet Language Transformations (XSLT) to compose HTML elements for presentation.
+With the '''XMLHttpRequest''' object, clients can make HTTP requests to a URL without reloading the entire page. Despite the term "XML" in the name, this object can be used to retrieve any type of data.
 }}
 {{Examples_Section
 |Not_required=No
