@@ -6,7 +6,8 @@
 colors, for use by the [[css/properties/filter|'''filter''']]
 property. A decimal value between 0 and 1 or percentage up to 100%
 controls the overall opacity, with 0 rendering the element invisible
-and background elements showing through. }}
+and background elements showing through.
+}}
 {{CSS_Function
 |Content=This CSS property value is reflected in the following image:
 
@@ -32,10 +33,61 @@ reverse order:
 [[css/properties/opacity|'''opacity''']] CSS property, transparent
 elements still receive mouse and touch events, but the
 [[css/properties/pointer-events|'''pointer-events''']] property offers
-a way to override this behavior.}}
+a way to override this behavior.
+}}
 {{Examples_Section
-|Not_required=Yes
-|Examples=
+|Not_required=No
+|Examples={{Single Example
+|Description=The following example shows the difference between two images, where one has an opacity of 50%;
+|Code=&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;Filter example&lt;/title&gt;
+    &lt;style&gt;
+      .foo {
+        float: left;
+      }
+
+      .bar { 
+        -webkit-filter: opacity(50%);
+      }
+    &lt;/style&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;img src=&quot;http://www.webplatform.org/logo/wplogo_transparent_xlg.png&quot; class=&quot;foo&quot; /&gt;
+    &lt;img src=&quot;http://www.webplatform.org/logo/wplogo_transparent_xlg.png&quot; class=&quot;foo bar&quot; /&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+|LiveURL=http://codepen.io/pverbeek/pen/qhfaD
+}}{{Single Example
+|Description=This example shows the importance of the order in which filters are applied. 
+In the first image, the opacity is only applied to the image.
+In the second, the drop-shadow is applied first, so the opacity also applies to it.
+|Code=&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;Filter example&lt;/title&gt;
+    &lt;style&gt;
+      .foo {
+        float: left;
+      }
+
+      .bar { 
+        -webkit-filter: opacity(.5) drop-shadow(1px 1px 20px black);
+      }
+
+      .baz { 
+        -webkit-filter: drop-shadow(1px 1px 20px black) opacity(.5);
+      }
+    &lt;/style&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;img src=&quot;http://www.webplatform.org/logo/wplogo_transparent_xlg.png&quot; class=&quot;foo bar&quot; /&gt;
+    &lt;img src=&quot;http://www.webplatform.org/logo/wplogo_transparent_xlg.png&quot; class=&quot;foo baz&quot; /&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+|LiveURL=http://codepen.io/pverbeek/pen/KzEHw
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
@@ -43,6 +95,10 @@ a way to override this behavior.}}
 |Name=Filter Effects 1.0
 |URL=https://dvcs.w3.org/hg/FXTF/raw-file/tip/filters/index.html#
 |Status=Editor's Draft
+}}{{Related Specification
+|Name=Filter Effects 1.0
+|URL=http://www.w3.org/TR/filter-effects/
+|Status=Working Draft
 }}
 }}
 {{Compatibility_Section
@@ -108,7 +164,7 @@ a way to override this behavior.}}
 }}
 {{See_Also_Section
 |Topic_clusters=Filters
-|External_links=* W3C editor's draft: [https://dvcs.w3.org/hg/FXTF/raw-file/tip/filters/index.html# Filter Effects 1.0]
+|External_links=* [http://html.adobe.com/webstandards/csscustomfilters/cssfilterlab/ Adobe CSS FilterLab]
 * [http://html5-demos.appspot.com/static/css/filters/index.html Interactive demonstration]
 }}
 {{Topics|CSS, Graphics, SVG}}
