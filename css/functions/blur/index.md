@@ -22,19 +22,24 @@ possibly affecting the ability of background content to show through:
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=The following example blurs an image.
+|Description=The following example shows the difference between two images, where one has a blur of 10px;
 |Code=&lt;!DOCTYPE html&gt;
 &lt;html&gt;
   &lt;head&gt;
     &lt;title&gt;Blur example&lt;/title&gt;
     &lt;style&gt;
       .foo {
+        float: left;
+      }
+
+      .bar {
         -webkit-filter: blur(10px);
       }
    &lt;/style&gt;
   &lt;/head&gt;
   &lt;body&gt;
     &lt;img src=&quot;http://www.webplatform.org/logo/wplogo_transparent_xlg.png&quot; class=&quot;foo&quot; /&gt;
+    &lt;img src=&quot;http://www.webplatform.org/logo/wplogo_transparent_xlg.png&quot; class=&quot;foo bar&quot; /&gt;
   &lt;/body&gt;
 &lt;/html&gt;
 |LiveURL=http://codepen.io/pverbeek/pen/yiKBv
