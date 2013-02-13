@@ -37,7 +37,7 @@ hues (360 &times; 3):
       }
 
       .bar { 
-        -webkit-filter: hue-rotate(180);
+        -webkit-filter: hue-rotate(180deg);
       }
     &lt;/style&gt;
   &lt;/head&gt;
