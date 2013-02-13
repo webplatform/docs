@@ -18,7 +18,7 @@ the gray effect.
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=The following example shows the difference between two images, where one has a grayscale of 75%;
+|Description=The following example shows the difference between two images, where one has a grayscale of 75%.
 |Code=&lt;!DOCTYPE html&gt;
 &lt;html&gt;
   &lt;head&gt;
