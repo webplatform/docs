@@ -270,7 +270,7 @@ This property is not supported for Metro style apps using JavaScript.
 *<code>nav</code>
 *<code>section</code>
 }}
-{{Topics|Accessibility, Design, HTML}}
+{{Topics|Design, HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN, Facebook HTML5 Resource Center
