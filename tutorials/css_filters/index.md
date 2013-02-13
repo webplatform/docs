@@ -1,7 +1,7 @@
 {{Page_Title|Understanding CSS filter effects}}
 {{Flags
 |High-level issues=Needs Flags
-|Content=Errors
+|Content=Incomplete, Errors
 }}
 {{Byline
 |Name=Alex Danilo
