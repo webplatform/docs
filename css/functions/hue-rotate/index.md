@@ -22,11 +22,32 @@ hues (360 &times; 3):
      from { filter: hue-rotate(0deg)    }
      to   { filter: hue-rotate(1080deg) }
  }
-
 }}
 {{Examples_Section
-|Not_required=Yes
-|Examples=
+|Not_required=No
+|Examples={{Single Example
+|Description=The following example shows the difference between two images, where one has a hue rotation of 180 degrees.
+|Code=&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;Filter example&lt;/title&gt;
+    &lt;style&gt;
+      .foo {
+        float: left;
+      }
+
+      .bar { 
+        -webkit-filter: hue-rotate(180);
+      }
+    &lt;/style&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;img src=&quot;http://www.webplatform.org/logo/wplogo_transparent_xlg.png&quot; class=&quot;foo&quot; /&gt;
+    &lt;img src=&quot;http://www.webplatform.org/logo/wplogo_transparent_xlg.png&quot; class=&quot;foo bar&quot; /&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+|LiveURL=http://codepen.io/pverbeek/pen/axEbp
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
@@ -34,6 +55,10 @@ hues (360 &times; 3):
 |Name=Filter Effects 1.0
 |URL=https://dvcs.w3.org/hg/FXTF/raw-file/tip/filters/index.html#
 |Status=Editor's Draft
+}}{{Related Specification
+|Name=Filter Effects 1.0
+|URL=http://www.w3.org/TR/filter-effects/
+|Status=Working Draft
 }}
 }}
 {{Compatibility_Section
@@ -99,7 +124,7 @@ hues (360 &times; 3):
 }}
 {{See_Also_Section
 |Topic_clusters=Filters
-|External_links=* W3C editor's draft: [https://dvcs.w3.org/hg/FXTF/raw-file/tip/filters/index.html# Filter Effects 1.0]
+|External_links=* [http://html.adobe.com/webstandards/csscustomfilters/cssfilterlab/ Adobe CSS FilterLab]
 * [http://html5-demos.appspot.com/static/css/filters/index.html Interactive demonstration]
 }}
 {{Topics|CSS, Graphics, SVG}}
