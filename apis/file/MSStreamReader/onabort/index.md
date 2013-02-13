@@ -8,7 +8,7 @@
 {{API_Name}}
 {{Summary_Section}}
 {{API_Object_Property
-|Property_applies_to=apis/file/msStreamReader
+|Property_applies_to=apis/file/MSStreamReader
 |Read_only=No
 |Event_applies_to=dom/Element
 |Interface=apis/file/MSStream
