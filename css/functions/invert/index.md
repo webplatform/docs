@@ -16,8 +16,30 @@ color-negative effect, with 0.5 or 50% producing gray.
 [[Image:f13-peppers.jpg|300px]]&nbsp;[[Image:f14-peppersinvert.jpg|300px]]
 }}
 {{Examples_Section
-|Not_required=Yes
-|Examples=
+|Not_required=No
+|Examples={{Single Example
+|Description=The following example shows the difference between two images, where one has a been inverted for 75%;
+|Code=&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;Filter example&lt;/title&gt;
+    &lt;style&gt;
+      .foo {
+        float: left;
+      }
+
+      .bar { 
+        -webkit-filter: invert(75%);
+      }
+    &lt;/style&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;img src=&quot;http://www.webplatform.org/logo/wplogo_transparent_xlg.png&quot; class=&quot;foo&quot; /&gt;
+    &lt;img src=&quot;http://www.webplatform.org/logo/wplogo_transparent_xlg.png&quot; class=&quot;foo bar&quot; /&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+|LiveURL=http://codepen.io/pverbeek/pen/Dlpta
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
@@ -25,6 +47,10 @@ color-negative effect, with 0.5 or 50% producing gray.
 |Name=Filter Effects 1.0
 |URL=https://dvcs.w3.org/hg/FXTF/raw-file/tip/filters/index.html#
 |Status=Editor's Draft
+}}{{Related Specification
+|Name=Filter Effects 1.0
+|URL=http://www.w3.org/TR/filter-effects/
+|Status=Working Draft
 }}
 }}
 {{Compatibility_Section
@@ -90,7 +116,7 @@ color-negative effect, with 0.5 or 50% producing gray.
 }}
 {{See_Also_Section
 |Topic_clusters=Filters
-|External_links=* W3C editor's draft: [https://dvcs.w3.org/hg/FXTF/raw-file/tip/filters/index.html# Filter Effects 1.0]
+|External_links=* [http://html.adobe.com/webstandards/csscustomfilters/cssfilterlab/ Adobe CSS FilterLab]
 * [http://html5-demos.appspot.com/static/css/filters/index.html Interactive demonstration]
 }}
 {{Topics|CSS, Graphics, SVG}}
