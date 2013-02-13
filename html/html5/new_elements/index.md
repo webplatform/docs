@@ -33,6 +33,7 @@ There are 47 new elements in HTML5:
 * '''[[html/elements/input type=url|input type=url]]:''' URL input control
 * '''[[html/elements/input type=week|input type=week]]:''' year-and-week input control
 * '''[[html/elements/keygen|keygen]]:''' key-pair generator/input control
+* '''[[html/elements/main|main]]:''' main element
 * '''[[html/elements/mark|mark]]:''' marked (highlighted) text
 * '''[[html/elements/meta charset|meta charset]]:''' document character-encoding declaration
 * '''[[html/elements/meter|meter]]:''' scalar gauge
