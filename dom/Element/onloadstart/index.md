@@ -9,7 +9,7 @@
 |Read_only=
 }}
 
-{{Topics|Events}}
+{{Topics|}}
 {{Notes_Section
 |Notes=
 ===Remarks===
