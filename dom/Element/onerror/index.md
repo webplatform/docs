@@ -8,7 +8,7 @@
 |Property_applies_to=dom/Element
 |Read_only=
 }}
-{{Topics|Events}}
+{{Topics|}}
 {{Notes_Section
 |Notes=
 ===Remarks===
