@@ -22,22 +22,19 @@ possibly affecting the ability of background content to show through:
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=The following example draws a blurred flag
+|Description=The following example blurs an image.
 |Code=&lt;!DOCTYPE html&gt;
 &lt;html&gt;
   &lt;head&gt;
     &lt;title&gt;Blur example&lt;/title&gt;
     &lt;style&gt;
       .foo {
-        width: 150px;
-        height: 150px;
-        background: -webkit-linear-gradient(red 50px, white 50px, white 100px, blue 100px);
         -webkit-filter: blur(10px);
       }
    &lt;/style&gt;
   &lt;/head&gt;
   &lt;body&gt;
-    &lt;div class=&quot;foo&quot;&gt;&lt;/div&gt;
+    &lt;img src=&quot;http://www.webplatform.org/logo/wplogo_transparent_xlg.png&quot; class=&quot;foo&quot; /&gt;
   &lt;/body&gt;
 &lt;/html&gt;
 |LiveURL=http://codepen.io/pverbeek/pen/yiKBv
