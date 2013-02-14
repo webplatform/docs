@@ -161,9 +161,9 @@ and becomes more apparent as the '''stroke-width''' increases:
 </div>
 
 Setting '''stroke-linejoin''' to '''bevel''' diagonally shaves off
-sharp protruding angles. Setting it to '''miter''' allows angles to
-protrude, but subject to the '''stroke-miterlimit''' property, which
-sets the allowed range, in pixels, before angles are beveled. 
+sharp protruding angles, and setting it to '''miter''' allows them to
+protrude.  With a value of '''miter''', the '''stroke-miterlimit'''
+property sets the allowed range, in pixels, before angles are beveled.
 Only some of the angles in this example are beveled:
 
 <div style="display:inline-block">
