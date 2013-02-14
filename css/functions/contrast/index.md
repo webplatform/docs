@@ -19,7 +19,7 @@ produces more dramatically stratified areas of light and dark.
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=The following example shows the difference between three images, the first has the default contrast, the second one a lower contrast and the third a higher;
+|Description=The following example shows the difference between three images, the first has the default contrast, the second one a lower contrast and the third a higher
 |Code=&lt;!DOCTYPE html&gt;
 &lt;html&gt;
   &lt;head&gt;
