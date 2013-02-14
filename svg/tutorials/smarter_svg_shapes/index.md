@@ -161,11 +161,12 @@ and becomes more apparent for narrower angles as the
  stroke-linejoin: miter;
 </div>
 
-Setting '''stroke-linejoin''' to '''bevel''' diagonally shaves off
-sharp protruding angles, and setting it to '''miter''' allows them to
-protrude.  With a value of '''miter''', the '''stroke-miterlimit'''
-property sets the allowed range, in pixels, before angles are beveled.
-Only some of the angles in this example are beveled:
+Setting '''stroke-linejoin''' to '''bevel''' diagonally shaves the
+points from angles, and setting it to '''miter''' allows them to
+protrude.  The '''stroke-miterlimit''' property limits how much of the
+angle is allowed to protrude, expressed relative to the
+'''stroke-width'''.  This example only bevels those angles that
+protrude twice the width:
 
 <div style="display:inline-block">
 [[Image:svg_linejoin_miterlimit.png]]
