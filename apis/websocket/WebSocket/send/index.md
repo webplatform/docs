@@ -46,7 +46,6 @@ This method can throw one of the following exceptions:
 {{!}}InvalidStateError(11)
 {{!}}The connection is not currently OPEN.
 {{!}}}
-
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
