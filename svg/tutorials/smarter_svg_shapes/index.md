@@ -123,55 +123,61 @@ coordinate is joined with the first:
 ==Other CSS properties==
 
 Additional properties provide greater control over how the ends or
-joints of line segments appear. The '''stroke-linecap''' determines
-the appearance of the end of the line. Options appear as follows, with
-both '''round''' and '''square''' extending past the end of the line:
+joints of line segments appear. The '''stroke-linecap''' property
+determines the appearance of the end of a stroke, or dashes within a
+stroke. Options appear as follows, with both '''round''' and
+'''square''' extending past the end of the line:
 
 <div style="display:inline-block">
 [[Image:svg_linecap_round.png]]
- polygon { stroke-linecap: round }
+ stroke-linecap: round;
 </div>
 <div style="display:inline-block">
 [[Image:svg_linecap_square.png]]
- polygon { stroke-linecap: square }
+ stroke-linecap: square;
 </div>
 <div style="display:inline-block">
 [[Image:svg_linecap_butt.png]]
- polygon { stroke-linecap: butt }
+ stroke-linecap: butt;
 </div>
 
-The '''stroke-linejoin''' property affects how joined segments appear:
+The '''stroke-linejoin''' property affects how joined segments appear,
+and becomes more apparent as the '''stroke-width''' increases:
 
 <div style="display:inline-block">
 [[Image:svg_linejoin_round.png]]
- polygon { stroke-linejoin: round }
+ stroke-linejoin: round;
 </div>
 <div style="display:inline-block">
 [[Image:svg_linejoin_bevel.png]]
- polygon { stroke-linejoin: bevel }
+ stroke-linejoin: bevel;
 </div>
+
 <div style="display:inline-block">
 [[Image:svg_linejoin_miter.png]]
- polygon { stroke-linejoin: miter }
+ stroke-linejoin: miter;
 </div>
 <div style="display:inline-block">
 [[Image:svg_linejoin_miterlimit.png]]
  polygon {
-   stroke-linejoin: miter;
-   stroke-miterlimit: 6;
+   stroke-linejoin   : miter;
+   stroke-miterlimit : 2;
+   stroke-width      : 10;
  }
 </div>
 
-Setting it to '''bevel''' diagonally shaves off sharp protruding
-angles. Setting it to '''miter''' allows angles to protrude, but
-subject to the '''stroke-miterlimit''' that sets the range of
-protruding pixels at which point the angle is beveled. (If
-'''stroke-miterlimit''' is unspecified, there is no beveling.)
+Setting '''stroke-linejoin''' to '''bevel''' diagonally shaves off
+sharp protruding angles. Setting it to '''miter''' allows angles to
+protrude, but subject to the '''stroke-miterlimit''' property, which
+sets the range of protruding pixels at which point the angle is
+beveled. (If '''stroke-miterlimit''' is unspecified, there is no
+beveling.)
 
 The '''stroke-dasharray''' property allows you define arbitrary dash
 patterns as a comma-separated list of pixel values. A value of
-''20,10,10,10'' draws a dash 20 pixels long, followed by a gap of 10 pixels
-before the following 10-pixel dash:
+''20,10,10,10'' draws a dash 20 pixels long, followed by a gap of 10
+pixels before the following 10-pixel dash, another gap, followed the
+same pattern repeated to the end of the shape:
 
 [[Image:svg_stroke_dasharray.png]]
 
@@ -220,7 +226,7 @@ Starting from the default ''0,0'' origin point, the following path
 defines the same shape as the one above:
 
 <syntaxhighlight lang="xml">
-<path d="m 100,225 l 0,-100 l 30,0 l -60,-100 l 0,15 l -60,100 l 30,0 l 0,100 z"/>
+<path d="m 100,225 l 0,-110 l 30,0 l -60,-100 l -60,100 l 30,0 l 0,110 z" />
 </syntaxhighlight>
 
 The '''H''' and '''V''' commands, and their '''h''' and '''v'''
