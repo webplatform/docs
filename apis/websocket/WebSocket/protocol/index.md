@@ -7,7 +7,7 @@
 |Property_applies_to=apis/websocket/WebSocket
 |Read_only=Yes
 |Javascript_data_type=String
-|Return_value_description=This will be one of the strings specified in the protocols parameter when creating the WebSocket object.
+|Return_value_description=This will be one of the strings specified in the ''protocol'' parameter when creating the '''WebSocket''' object.
 }}
 {{Examples_Section
 |Not_required=No
