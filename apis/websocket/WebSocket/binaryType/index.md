@@ -20,7 +20,7 @@ socket.binaryType = "arraybuffer";
 }}
 }}
 {{Notes_Section
-|Notes=Acceptable values are '''arrayBuffer''' and '''blob'''.
+|Notes=Acceptable values are "arrayBuffer" and "blob".
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
