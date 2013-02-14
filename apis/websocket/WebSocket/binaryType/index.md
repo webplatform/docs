@@ -1,14 +1,12 @@
 {{Page_Title}}
-{{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status}}
+{{Flags}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|A string indicating the type of binary data being transmitted by the connection. This should be either "blob" if DOM Blob objects are being used or "arraybuffer" if ArrayBuffer objects are being used.}}
+{{Summary_Section|A string indicating the type of binary data being transmitted by the connection. }}
 {{API_Object_Property
-|Property_applies_to=apis/websocket/objects/WebSocket
+|Property_applies_to=apis/websocket/WebSocket
 |Read_only=No
+|Javascript_data_type=String
 }}
 {{Examples_Section
 |Not_required=No
@@ -22,12 +20,14 @@ socket.binaryType = "arraybuffer";
 }}
 }}
 {{Notes_Section
-|Notes====Remarks===
-Values can be '''arrayBuffer''', or '''blob'''.
-|Import_Notes====Syntax===
+|Notes=Acceptable values are '''arrayBuffer''' and '''blob'''.
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=W3C WebSocket Specification
+|URL=http://www.w3.org/TR/websockets/
+|Status=W3C Candidate Recommendation
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -36,15 +36,12 @@ Values can be '''arrayBuffer''', or '''blob'''.
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[apis/websocket/objects/WebSocket|WebSocket]]</code>
-}}
-{{Topics|DOM}}
+{{See_Also_Section}}
+{{Topics|WebSocket}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MDN, MSDN
 |MDN_link=https://developer.mozilla.org/en-US/docs/WebSockets/WebSockets_reference/WebSocket
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
 |HTML5Rocks_link=
 }}
