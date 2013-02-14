@@ -100,7 +100,7 @@ The width and height of the content are calculated by subtracting padding and bo
 |Firefox_supported=No
 |Firefox_version=
 |Firefox_prefixed_supported=Yes
-|Firefox_prefixed_version=q
+|Firefox_prefixed_version=1
 |Internet_explorer_supported=No
 |Internet_explorer_version=
 |Internet_explorer_prefixed_supported=No
