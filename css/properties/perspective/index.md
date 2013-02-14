@@ -15,7 +15,7 @@
 |Animatable=No
 |Values={{CSS Property Value
 |Data Type=none
-|Description=Default. 
+|Description=Default.
 }}{{CSS Property Value
 |Data Type=[[css/data_types/length|<length>]]
 |Description=The distance the element is places on the z-axis. Lengths must be positive
@@ -23,7 +23,43 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Description=The following example shows the difference with transforms, where one has a perspective set to it.
+|Code=&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;Perspective example&lt;/title&gt;
+    &lt;style&gt;
+      .foo {
+        margin: 0 100px;
+        float: left;
+      }
+
+      .bar {
+        -webkit-perspective: 800px;
+        -moz-perspective: 800px;
+        perspective: 800px;
+      }
+
+      .foo img {
+        -webkit-transform: rotateX(-60deg);
+        -moz-transform: rotateX(-60deg);
+        transform: rotateX(-60deg);
+      }
+    &lt;/style&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;div class=&quot;foo bar&quot;&gt;
+      &lt;img src=&quot;http://www.webplatform.org/logo/wplogo_transparent_xlg.png&quot; /&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;foo baz&quot;&gt;
+      &lt;img src=&quot;http://www.webplatform.org/logo/wplogo_transparent_xlg.png&quot; /&gt;
+    &lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+|LiveURL=http://codepen.io/pverbeek/pen/rgnla
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
