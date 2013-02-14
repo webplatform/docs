@@ -122,7 +122,7 @@ coordinate is joined with the first:
 <polygon points="100,225 100,115 130,115 70,15 70,15 10,115 40,115 40,225"/>
 </syntaxhighlight>
 
-==Other CSS properties==
+==Finer control over strokes==
 
 Additional properties provide greater control over how the ends or
 joints of line segments appear. The '''stroke-linecap''' property
@@ -145,7 +145,8 @@ stroke. Options appear as follows, with both '''round''' and
 </div>
 
 The '''stroke-linejoin''' property affects how joined segments appear,
-and becomes more apparent as the '''stroke-width''' increases:
+and becomes more apparent for narrower angles as the
+'''stroke-width''' increases:
 
 <div style="display:inline-block">
 [[Image:svg_linejoin_round.png]]
