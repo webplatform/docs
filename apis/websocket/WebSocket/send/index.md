@@ -1,18 +1,20 @@
 {{Page_Title}}
-{{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status}}
+{{Flags}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|Transmits data to the server over the WebSocket connection.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=data
 |Data type=any
+|Description=Must be of one of the following types:
+*String
+*Blob
+*ArrayBuffer
+*ArrayBufferView
 |Optional=No
 }}
-|Method_applies_to=apis/websocket/objects/WebSocket
+|Method_applies_to=apis/websocket/WebSocket
 |Example_object_name=object
 |Javascript_data_type=void
 }}
@@ -34,22 +36,24 @@ else {
 }}
 }}
 {{Notes_Section
-|Notes====Remarks===
-An ArrayBufferView is a typed array view of an '''ArrayBuffer'''. An '''ArrayBuffer''' is a unformatted block of raw data that is sent in its entirety to a server. By using a typed array to define the format of the buffer, and the start and length (number of elements), you can send portions of an '''ArrayBuffer''' to a server.
+|Notes=An '''ArrayBuffer''' is a unformatted block of raw data that is sent in its entirety to a server. An ArrayBufferView is a typed array view of an '''ArrayBuffer'''. By using a typed array to define the format of the buffer, and the start and length (number of elements), you can send portions of an '''ArrayBuffer''' to a server.
 This method can throw one of the following exceptions:
-{| class="wikitable"
-|-
+{{{!}} class="wikitable"
+{{!}}-
 !Exception
 !Description
-|-
-|InvalidStateError(11)
-|The connection is not currently OPEN.
-|}
- 
-|Import_Notes====Syntax===
+{{!}}-
+{{!}}InvalidStateError(11)
+{{!}}The connection is not currently OPEN.
+{{!}}}
+
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=W3C WebSocket Specification
+|URL=http://www.w3.org/TR/websockets/
+|Status=W3C Candidate Recommendation
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -58,18 +62,12 @@ This method can throw one of the following exceptions:
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>WebSocket</code>
-*<code>[[apis/file/methods/readAsBlob|msStreamReader.readAsBlob]]</code>
-*<code>[[apis/file/methods/readAsArrayBuffer|FileReader.readAsArrayBuffer]]</code>
-*<code>readyState</code>
-}}
-{{Topics|DOM}}
+{{See_Also_Section}}
+{{Topics|WebSocket}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MDN, MSDN
 |MDN_link=https://developer.mozilla.org/en-US/docs/WebSockets/WebSockets_reference/WebSocket
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
 |HTML5Rocks_link=
 }}
