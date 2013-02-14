@@ -38,7 +38,7 @@ a way to override this behavior.
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=The following example shows the difference between two images, where one has an opacity of 50%;
+|Description=The following example shows the difference between two images, where one has an opacity of 50%
 |Code=&lt;!DOCTYPE html&gt;
 &lt;html&gt;
   &lt;head&gt;
