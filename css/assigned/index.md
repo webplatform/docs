@@ -52,7 +52,7 @@ CSS properties
 * padding-* - Giuseppe
 * position - richard
 * text-shadow - paulv - DONE, NEEDS REVIEW
-* filter - paulv
+* filter - paulv - DONE, NEEDS REVIEW
 * outline - giuseppe
 
 Other activity
