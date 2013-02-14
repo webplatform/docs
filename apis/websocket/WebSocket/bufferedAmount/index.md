@@ -1,14 +1,12 @@
 {{Page_Title}}
-{{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status}}
+{{Flags}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|The number of bytes of data that have been queued using calls to send() but not yet transmitted to the network. This value does not reset to zero when the connection is closed; if you keep calling send(), this will continue to climb. Read only.}}
+{{Summary_Section|The number of bytes of data that have been queued using calls to send() but not yet transmitted to the network. }}
 {{API_Object_Property
-|Property_applies_to=apis/websocket/objects/WebSocket
-|Read_only=No
+|Property_applies_to=apis/websocket/WebSocket
+|Read_only=Yes
+|Javascript_data_type=unsigned long
 }}
 {{Examples_Section
 |Not_required=No
@@ -28,12 +26,14 @@ else {
 }}
 }}
 {{Notes_Section
-|Notes====Remarks===
-This can be used to determine whether the network can handle the data rate you are sending.
-|Import_Notes====Syntax===
+|Notes=This can be used to determine whether the network can handle the data rate you are sending. The value does not reset to zero when the connection is closed; if you keep calling send(), this will continue to climb.
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=W3C WebSocket Specification
+|URL=http://www.w3.org/TR/websockets/
+|Status=W3C Candidate Recommendation
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -42,15 +42,12 @@ This can be used to determine whether the network can handle the data rate you a
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[apis/websocket/objects/WebSocket|WebSocket]]</code>
-}}
-{{Topics|DOM}}
+{{See_Also_Section}}
+{{Topics|WebSocket}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MDN, MSDN
 |MDN_link=https://developer.mozilla.org/en-US/docs/WebSockets/WebSockets_reference/WebSocket
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
 |HTML5Rocks_link=
 }}
