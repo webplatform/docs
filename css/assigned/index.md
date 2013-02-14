@@ -51,7 +51,7 @@ CSS properties
 * padding - Giuseppe
 * padding-* - Giuseppe
 * position - richard
-* text-shadow - paulv
+* text-shadow - paulv - DONE, NEEDS REVIEW
 * filter - paulv
 * outline - giuseppe
 
