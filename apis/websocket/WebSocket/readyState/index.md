@@ -4,7 +4,7 @@
 {{API_Name}}
 {{Summary_Section|The current state of the connection, represented as a numeric constant.}}
 {{API_Object_Property
-|Property_applies_to=apis/websocket/objects/WebSocket
+|Property_applies_to=apis/websocket/WebSocket
 |Read_only=Yes
 |Javascript_data_type=unsigned short
 |Return_value_description=These constants are used by the readyState attribute to describe the state of the WebSocket connection.
