@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|A string indicating the type of binary data being transmitted by the connection. }}
+{{Summary_Section|Indicates the type of binary data being transmitted by the connection.}}
 {{API_Object_Property
 |Property_applies_to=apis/websocket/WebSocket
 |Read_only=No
