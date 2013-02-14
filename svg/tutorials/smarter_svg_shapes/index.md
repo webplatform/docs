@@ -122,6 +122,8 @@ coordinate is joined with the first:
 <polygon points="100,225 100,115 130,115 70,15 70,15 10,115 40,115 40,225"/>
 </syntaxhighlight>
 
+[[Image:svg_polygon.png]]
+
 ==Finer control over strokes==
 
 Additional properties provide greater control over how the ends or
