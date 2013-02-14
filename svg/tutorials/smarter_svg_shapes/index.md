@@ -54,7 +54,7 @@ The '''fill''' and '''stroke''' properties specify the color of the
 background and the edge of the shape:
 
 <syntaxhighlight lang="xml">
-<rect x="10" y="10" width="160" height="240" fill="pink" stroke="red"/>
+<rect fill="pink" stroke="red" x="10" y="10" width="160" height="240"/>
 </syntaxhighlight>
 
 You can assign these as attributes on SVG elements, but they are
@@ -128,7 +128,8 @@ Additional properties provide greater control over how the ends or
 joints of line segments appear. The '''stroke-linecap''' property
 determines the appearance of the end of a stroke, or dashes within a
 stroke. Options appear as follows, with both '''round''' and
-'''square''' extending past the end of the line:
+'''square''' extending past the end of the line depending on the
+'''stroke-width'''::
 
 <div style="display:inline-block">
 [[Image:svg_linecap_round.png]]
@@ -155,6 +156,11 @@ and becomes more apparent as the '''stroke-width''' increases:
  stroke-linejoin: bevel;
 </div>
 
+Setting '''stroke-linejoin''' to '''bevel''' diagonally shaves off
+sharp protruding angles. Setting it to '''miter''' allows angles to
+protrude, but subject to the '''stroke-miterlimit''' property, which
+sets the allowed range, in pixels, before angles are beveled:
+
 <div style="display:inline-block">
 [[Image:svg_linejoin_miter.png]]
  stroke-linejoin: miter;
@@ -167,13 +173,6 @@ and becomes more apparent as the '''stroke-width''' increases:
    stroke-width      : 10;
  }
 </div>
-
-Setting '''stroke-linejoin''' to '''bevel''' diagonally shaves off
-sharp protruding angles. Setting it to '''miter''' allows angles to
-protrude, but subject to the '''stroke-miterlimit''' property, which
-sets the range of protruding pixels at which point the angle is
-beveled. (If '''stroke-miterlimit''' is unspecified, there is no
-beveling.)
 
 The '''stroke-dasharray''' property allows you define arbitrary dash
 patterns as a comma-separated list of pixel values. A value of
@@ -194,7 +193,7 @@ effects.
 Paths are complex shapes that may feature discontinuous series of
 lines and curves. The '''path''' element's '''d''' (definition)
 attribute specifies a sequence of commands referencing pairs of
-''x''/''y'' screen coordinates.
+''x''/''y'' coordinates within the drawing area.
 
 The following
 [http://letmespellitoutforyou.com/samples/svg_path.html interactive utility]
@@ -224,10 +223,10 @@ or whitespace characters. (To clarify these examples, commas separate
 each coordinate pair.)
 
 The uppercase commands above specify absolute coordinates.  For each
-one there is an alternative lowercase command that specifies
-coordinates in terms relative to the previously defined coordinate.
-Starting from the default ''0,0'' origin point, the following path
-defines the same shape as the one above:
+there is an alternative lowercase command that specifies coordinates
+in terms relative to the previously defined coordinate.  Starting from
+the default ''0,0'' origin point, the following path defines the same
+shape as the one above:
 
 <syntaxhighlight lang="xml">
 <path d="m 100,225 l 0,-110 l 30,0 l -60,-100 l -60,100 l 30,0 l 0,110 z" />
