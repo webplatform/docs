@@ -89,7 +89,11 @@ The secont is the vertical distance, with positive values moving the shadow down
 |Notes=Multiple shadows are applied front-to-back, with the first-specified shadow on top.
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Text Decoration Module Level 3
+|URL=http://www.w3.org/TR/css-text-decor-3/#text-shadow-property
+|Status=Working Draft
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -125,8 +129,7 @@ The secont is the vertical distance, with positive values moving the shadow down
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
 |MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|MSDN_link=
 |HTML5Rocks_link=
 }}
