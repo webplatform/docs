@@ -38,8 +38,9 @@ provide rounded corners:
 <rect x="10" y="10" width="160" height="240" rx="20" ry="20"/>
 </syntaxhighlight>
 
-This interactive utility allows you to manipulate various attributes
-and see how they apply to various shapes:
+This [http://letmespellitoutforyou.com/samples/svg_shapes.html
+interactive utility] allows you to manipulate various attributes and
+see how they apply to various shapes:
 
 [[Image:svg_shapes.png]]
 
@@ -194,9 +195,10 @@ lines and curves. The '''path''' element's '''d''' (definition)
 attribute specifies a sequence of commands referencing pairs of
 ''x''/''y'' screen coordinates.
 
-The following interactive utility allows you to build path definitions
-using all the commands detailed below. Choose the command you want,
-then click within the drawing area to provide coordinates:
+The following [http://letmespellitoutforyou.com/samples/svg_path.html
+interactive utility] allows you to build path definitions using all
+the commands detailed below. Choose the command you want, then click
+within the drawing area to provide each set of coordinates:
 
 [[Image:svg_path.png]]
 
