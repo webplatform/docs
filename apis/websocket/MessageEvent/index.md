@@ -3,7 +3,7 @@
 |High-level issues=Move Candidate
 |Editorial notes=Not specific to WebSocket. Probably belongs somewhere in the DOM docs.
 }}
-{{Standardization_Status|W3C Working Draft}}
+{{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|A MessageEvent is sent to clients using WebSockets when data is received from the server. This is delivered to the listener indicated by the WebSocket object's onmessage attribute.}}
 {{API_Object}}
