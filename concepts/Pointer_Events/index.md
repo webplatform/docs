@@ -22,11 +22,13 @@ Finally, Pointer Events provides additional attributes such as touch contact geo
 
 ==2. BASIC POINTER EVENTS==
 Pointer Events includes a number of basic events similar to mouse events:
+
 === 2.1 DOWN AND UP (WITH EXAMPLE)===
 Pointer Events includes basic pointer down and pointer up events.  
 * <code>pointerdown</code> is triggered when a user clicks a mouse button or touches the screen with a finger or pen.
 * <code>pointerup</code> is triggered when a user releases a mouse button or releases their finger or pen from touching the screen. 
 The below example shows how pointerdown and pointerup are similar to mousedown and mouseup:
+
 <syntaxhighlight lang="html5">
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -42,6 +44,44 @@ The below example shows how pointerdown and pointerup are similar to mousedown a
         function MouseUpResponse(event) {
             document.getElementById("dvMouseStatus").innerHTML += "Mouse Up<br />";
         }
+
+        function PointerDownResponse(event) {
+            document.getElementById("dvPointerStatus").innerHTML +=
+                "PointerId:" + event.pointerId +
+                " of pointerType:" + event.pointerType + " Down<br />";
+        }
+
+        function PointerUpResponse(event) {
+            document.getElementById("dvPointerStatus").innerHTML +=
+                "PointerId:" + event.pointerId +
+                " of pointerType:" + event.pointerType + " Up<br />";
+        }
+
+        function init() {
+            document.addEventListener("mousedown", MouseDownResponse, false);
+            document.addEventListener("mouseup", MouseUpResponse, false);
+
+            document.addEventListener("pointerdown", PointerDownResponse, false);
+            document.addEventListener("pointerup", PointerUpResponse, false);
+
+            // Support for prefixed IE10 implementation
+            document.addEventListener("MSPointerDown", PointerDownResponse, false);
+            document.addEventListener("MSPointerUp", PointerUpResponse, false);
+        }
+</syntaxhighlight>
+<syntaxhighlight lang="html5">
+    </script>
+</head>
+<body onload="init()">
+    <p>Click, touch, or tap</p>
+    <table>
+        <tr>
+            <td style="vertical-align:top; width:30%;"><div id="dvMouseStatus"></div></td>
+            <td style="vertical-align:top; width:40%;"><div id="dvPointerStatus"></div></td>
+        </tr>
+    </table>
+</body>
+</html>
 </syntaxhighlight>
 }}
 {{Examples_Section
