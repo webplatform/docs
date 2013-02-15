@@ -261,8 +261,6 @@ to define a more complex ''cubic'' B&eacute;zier curve.
 <path d="M 432,271 C 304,318 455,385 323,461"/>
 </syntaxhighlight>
 
-
-
 <!--
 (2DO: S/s T/t A )
         8.3.6 The cubic Bézier curve commands     {+c/s}
@@ -272,7 +270,6 @@ to define a more complex ''cubic'' B&eacute;zier curve.
     8.4 Distance along a path
 -->
 
-* '''fill-rule'''
 
 ==Markers==
 
@@ -336,9 +333,21 @@ specific degree values. Note in the '''marker-start''' example above
 that the initial marker may not be oriented as intended, because it
 doesn't extend an existing line.
 
+<!--
+2DO:
+
 The '''markerWidth''' and '''markerHeight''' attributes set the ...
 
 * '''markerUnits'''
+-->
+
+==Modifying Fills==
+
+<!--
+2do:
+
+* '''fill-rule'''
+-->
 
 ([[svg/tutorials/smarter_svg_overview|Overview]] /
 [[svg/tutorials/smarter_svg_shapes|Shapes]] /
