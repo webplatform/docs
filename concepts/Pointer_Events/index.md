@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page_Title|Pointer Events Primer}}
 {{Flags
 |High-level issues=Stub
 |Content=Incomplete
@@ -15,9 +15,7 @@
 {{Related_Specifications_Section
 |Specifications=
 }}
-{{See_Also_Section
-|Topic_clusters=Mobile, Responsive Web Design, Touch
-}}
+{{See_Also_Section}}
 {{Topics|DOM, DOMEvents, Touch}}
 {{External_Attribution
 |Is_CC-BY-SA=No
