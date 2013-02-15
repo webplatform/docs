@@ -13,7 +13,7 @@
 For input devices that do not support hover, a user agent must also fire a pointerout event after firing the pointerup event.
 |Interface=dom/objects/PointerEvent
 |Target=dom/Element
-|Default_action=Varies: when the pointer is primary, all default actions of the mouseup event
+|Default_action=Varies: when the pointer is primary, all default actions of the [[dom/events/mouseup|mouseup]] event
 |Synchronous=Yes
 |Bubbles=Yes
 |Cancelable=Yes
