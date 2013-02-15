@@ -21,7 +21,7 @@ When dispatching a pointer event, a pointer is considered primary if:
 * The pointer represents a mouse device.
 * The pointer represents ''primary touch input'', where its pointerdown event was dispatched when no other active pointers representing touch input existed.
 * The pointer represents ''primary pen input'', where its pointerdown event was dispatched when no other active pointers representing pen input existed.
-
+|Notes=In some platforms, the primary pointer is determined using all active pointers on the device including those not targeted at the user agent (e.g. in another application). This means it is possible for the user agent to fire pointer events in which no pointer is marked as the primary pointer. For example, if the first touch interaction is targeted outside the user agent and a secondary (multi-touch) touch interaction is targeted inside the user agent, then the user agent fires pointer events for the second contact with a value of false for isPrimary.
 }}
 {{Related_Specifications_Section
 |Specifications=
