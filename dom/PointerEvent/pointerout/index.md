@@ -12,6 +12,12 @@
 }}
 {{Event
 |Event_applies_to=dom/objects/PointerEvent
+|Interface=dom/objects/PointerEvent
+|Target=dom/Element
+|Default_action=Varies: when the pointer is primary, all default actions of the [[dom/events/mouseout|mouseout]] event
+|Synchronous=Yes
+|Bubbles=Yes
+|Cancelable=Yes
 }}
 {{Examples_Section
 |Not_required=No
