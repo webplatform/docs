@@ -26,7 +26,13 @@ xhr.onreadystatechange {{=}} handler;
 xhr.send();
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=The XMLHttpRequest object can be used to make either same-origin or cross-origin requests.
+
+Same-origin requests are subject to the browser's same-origin policy: http://en.wikipedia.org/wiki/Same_origin_policy  This basically says that an XMLHttpRequest instance can make a request to a resource that lives on the same origin as the calling page.
+
+Requests that go across origins (for example, a request from originA.com to originB.com) can also be made. But in order for them to work, the destination server must support Cross-Origin Resource Sharing (CORS,  http://www.w3.org/TR/cors/). These are a set of headers included in the response that indicate how a resource can be accessed across domains.
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=W3C XMLHttpRequest Specification
