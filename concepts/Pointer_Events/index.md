@@ -24,10 +24,26 @@ Finally, Pointer Events provides additional attributes such as touch contact geo
 Pointer Events includes a number of basic events similar to mouse events:
 === 2.1 DOWN AND UP (WITH EXAMPLE)===
 Pointer Events includes basic pointer down and pointer up events.  
-* pointerdown is triggered when a user clicks a mouse button or touches the screen with a finger or pen.
-* pointerup is triggered when a user releases a mouse button or releases their finger or pen from touching the screen. 
+* <code>pointerdown</code> is triggered when a user clicks a mouse button or touches the screen with a finger or pen.
+* <code>pointerup</code> is triggered when a user releases a mouse button or releases their finger or pen from touching the screen. 
 The below example shows how pointerdown and pointerup are similar to mousedown and mouseup:
+<syntaxhighlight lang="html5">
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script type="text/javascript">
 
+        function MouseDownResponse(event) {
+            document.getElementById("dvMouseStatus").innerHTML += "Mouse Down<br />";
+        }
+
+        function MouseUpResponse(event) {
+            document.getElementById("dvMouseStatus").innerHTML += "Mouse Up<br />";
+        }
+
+
+</syntaxhighlight>
 }}
 {{Examples_Section
 |Not_required=No
