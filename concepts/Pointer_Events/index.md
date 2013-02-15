@@ -13,7 +13,16 @@ This document should help you:
 # Take advantage of additional methods and attributes available in Pointer Events
 # Find additional resources to learn more about Pointer Events
 }}
-{{Concept_Page}}
+{{Concept_Page
+|Content===WHY POINTER EVENTS==
+===UNIFIED MODEL FOR MULTIPLE INPUT TYPES===
+In the last few years, there has been an explosion of computing devices that use mechanisms other than a mouse for end user input.  These input mechanisms include touch as on a smartphone or pen/stylus as on a slate.  All of today’s web browsers support mouse events (mouseover, mousedown, mousemove, etc.) but many users aren’t using a mouse.  Today’s user may be interacting with a web page using their fingers on a smartphone while riding public transit or using a pen on a slate/tablet while in a meeting.  Pointer Events provides a unified model for all three of these input types without requiring web developers to write unique code for each.  And Pointer Events is intended to be forward compatible covering future interaction paradigms.
+===ABILITY TO IDENTIFY DIFFERENT INPUT TYPES===
+Most modern browsers such as the latest versions of Chrome, Firefox, Internet Explorer, Opera, and Safari all map touch or pen input to mouse events.  But this makes it hard to know if a mouse event is an actual mouse event or was synthetically generated from a touch or pen input event.  Pointer Events also includes attributes to identify which mouse or pen button(s) were pressed during the event.  
+===ADDITIONAL METHODS AND ATTRIBUTES===
+Finally, Pointer Events provides additional attributes such as touch contact geometry size, pressure, and pen tilt so that web developers can take advantage of these additional inputs in building experiences for end users.  And if web developers want, they can write unique code for each input type.  
+
+}}
 {{Examples_Section
 |Not_required=No
 |Examples=
