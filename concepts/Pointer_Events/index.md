@@ -19,6 +19,15 @@ In the last few years, there has been an explosion of computing devices that use
 Most modern browsers such as the latest versions of Chrome, Firefox, Internet Explorer, Opera, and Safari all map touch or pen input to mouse events.  But this makes it hard to know if a mouse event is an actual mouse event or was synthetically generated from a touch or pen input event.  Pointer Events also includes attributes to identify which mouse or pen button(s) were pressed during the event.  
 ===1.3 ADDITIONAL METHODS AND ATTRIBUTES===
 Finally, Pointer Events provides additional attributes such as touch contact geometry size, pressure, and pen tilt so that web developers can take advantage of these additional inputs in building experiences for end users.  And if web developers want, they can write unique code for each input type.
+
+==2. BASIC POINTER EVENTS==
+Pointer Events includes a number of basic events similar to mouse events:
+=== 2.1 DOWN AND UP (WITH EXAMPLE)===
+Pointer Events includes basic pointer down and pointer up events.  
+* pointerdown is triggered when a user clicks a mouse button or touches the screen with a finger or pen.
+* pointerup is triggered when a user releases a mouse button or releases their finger or pen from touching the screen. 
+The below example shows how pointerdown and pointerup are similar to mousedown and mouseup:
+
 }}
 {{Examples_Section
 |Not_required=No
