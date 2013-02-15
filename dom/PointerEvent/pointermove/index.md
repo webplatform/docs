@@ -5,13 +5,13 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Dispatched when a pointer changes coordinates, button state, pressure, tilt, or contact geometry (e.g. width and height).}}
+{{Summary_Section|Dispatched when a pointer changes coordinates, button state, pressure, tilt, or contact geometry (e.g. [[dom/objects/PointerEvent/width|width]] and [[dom/objects/PointerEvent/height|height]]).}}
 {{Event
 |Event_applies_to=dom/objects/PointerEvent
 |Content=
 |Interface=dom/objects/PointerEvent
 |Target=dom/Element
-|Default_action=Varies: when the pointer is primary, all default actions of the mousemove event
+|Default_action=Varies: when the pointer is primary, all default actions of the [[dom/events/mousemove|mousemove]] event
 |Synchronous=Yes
 |Bubbles=Yes
 |Cancelable=Yes
