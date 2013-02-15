@@ -8,7 +8,7 @@
 {{Summary_Section|Dispatched when a pointer leaves the state of having a non-zero value for the [[dom/properties/buttons|buttons]] property.}}
 {{Event
 |Event_applies_to=dom/objects/PointerEvent
-|Content= For mouse, this is when the device transitions from at least one button depressed to no buttons depressed. For touch, this is when physical contact is removed from the digitizer. For pen, this is when the pen is removed from physical contact with the digitizer. 
+|Content=For mouse, this is when the device transitions from at least one button depressed to no buttons depressed. For touch, this is when physical contact is removed from the digitizer. For pen, this is when the pen is removed from physical contact with the digitizer. 
 
 For input devices that do not support hover, a user agent must also fire a pointerout event after firing the pointerup event.
 |Interface=dom/objects/PointerEvent
@@ -22,7 +22,11 @@ For input devices that do not support hover, a user agent must also fire a point
 |Not_required=No
 |Examples=
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Notes=Some pointer devices, such as mouse or pen, support multiple buttons. In the [http://www.w3.org/TR/DOM-Level-3-Events/ DOM Level 3 Events] Mouse Event model, each button press produces a mousedown and mouseup event.  
+
+Pointer Events do not fire overlapping pointerdown and pointerup events when an additional button is depressed while another button on the pointer device is already depressed. For detecting these cases, see [http://www.w3.org/TR/pointerevents/#chorded-button-interactions Chorded Button Interactions] in the PointerEvents specification.
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=Pointer Events
