@@ -95,9 +95,45 @@ Pointer Events also includes a basic move event.  The <code>pointermove</code> e
 Many devices with touch screens have default pan and zoom behaviors such as zooming for a double tap.  Web developers can disable these default behaviors with the <code>touch-action</code> CSS value of <code>none</code> as shown in the below example.  
 The below example shows how <code>pointermove</code> is similar to <code>mousemove</code>:
 <syntaxhighlight lang="html5">
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script type="text/javascript">
+<syntaxhighlight lang="javascript">
+        function MouseMoveResponse(event) {
+            document.getElementById("dvMouseStatus").innerHTML =
+                "Mouse position: " + event.clientX + ", " + event.clientY + "<br />";
+        }
+
+        function PointerMoveResponse(event) {
+            document.getElementById("dvPointerStatus").innerHTML =
+                "PointerId:" + event.pointerId + " of pointerType:" + event.pointerType +
+                " isPrimary:" + event.isPrimary +
+                " position: " + event.clientX + ", " + event.clientY + "<br />";
+        }
+
+        function init() {
+            document.addEventListener("mousemove", MouseMoveResponse, false);
+            document.addEventListener("pointermove", PointerMoveResponse, false);
+
+            // Support for prefixed IE10 implementation
+            document.addEventListener("MSPointerMove", PointerMoveResponse, false);
+        }
 </syntaxhighlight>
-
-
+    </script>
+</head>
+<body onload="init()" style="touch-action:none; -ms-touch-action:none;">
+    <p>Move your mouse, finger, or pen</p>
+    <table>
+        <tr>
+            <td style="vertical-align:top; width:30%;"><div id="dvMouseStatus"></div></td>
+            <td style="vertical-align:top; width:40%;"><div id="dvPointerStatus"></div></td>
+        </tr>
+    </table>
+</body>
+</html>
+</syntaxhighlight>
 }}
 {{Examples_Section
 |Not_required=No
