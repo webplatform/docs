@@ -306,12 +306,12 @@ terminate.  The '''marker''' property places the graphic at ''all''
 these points:
 
 <div style="display:inline-block">
-[[Image:svg_marker_end.png]]
- marker-end
-</div>
-<div style="display:inline-block">
 [[Image:svg_marker_start.png]]
  marker-start
+</div>
+<div style="display:inline-block">
+[[Image:svg_marker_end.png]]
+ marker-end
 </div>
 <div style="display:inline-block">
 [[Image:svg_marker_mid.png]]
@@ -331,8 +331,10 @@ center it vertically.
 
 The marker graphic also does not rotate by default to match where the
 path or line is pointing. Setting '''orient''' to '''auto''' aligns
-the graphic's horizontal ''x'' axis.  (You can also set '''orient'''
-to specific degree values.)
+the graphic's horizontal ''x'' axis.  You can also set '''orient''' to
+specific degree values. Note in the '''marker-start''' example above
+that the initial marker may not be oriented as intended, because it
+doesn't extend an existing line.
 
 The '''markerWidth''' and '''markerHeight''' attributes set the ...
 
