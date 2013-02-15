@@ -303,7 +303,24 @@ Alternately, the '''marker-start''' property places the marker at the
 path's starting point. Setting '''marker-mid''' places the marker at
 each segment point within the path, including where subpaths
 terminate.  The '''marker''' property places the graphic at ''all''
-these points.
+these points:
+
+<div style="display:inline-block">
+[[Image:svg_marker_end.png]]
+ marker-end
+</div>
+<div style="display:inline-block">
+[[Image:svg_marker_start.png]]
+ marker-start
+</div>
+<div style="display:inline-block">
+[[Image:svg_marker_mid.png]]
+ marker-mid
+</div>
+<div style="display:inline-block">
+[[Image:svg_marker.png]]
+ marker
+</div>
 
 Several '''marker''' element attributes are necessary to place the
 arrowhead correctly over the path. By default, the top left corner of
