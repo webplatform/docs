@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -68,12 +68,13 @@ Calling this method with an unknown selector (due to the browser not implementin
 |Specifications={{Related Specification
 |Name=Selectors API Level 1
 |URL=http://www.w3.org/TR/selectors-api
-|Status=Working Draft
+|Status=Proposed Recommendation
 |Relevant_changes=Section 6.1
 }}
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
 |Chrome_version=1
@@ -92,7 +93,7 @@ Calling this method with an unknown selector (due to the browser not implementin
 |Opera_prefixed_supported=Unknown
 |Opera_prefixed_version=
 |Safari_supported=Yes
-|Safari_version=3.2
+|Safari_version=3.1
 |Safari_prefixed_supported=Unknown
 |Safari_prefixed_version=
 }}
@@ -101,8 +102,8 @@ Calling this method with an unknown selector (due to the browser not implementin
 |Android_version=2.1
 |Android_prefixed_supported=Unknown
 |Android_prefixed_version=
-|Blackberry_supported=Unknown
-|Blackberry_version=
+|Blackberry_supported=Yes
+|Blackberry_version=7.0
 |Blackberry_prefixed_supported=Unknown
 |Blackberry_prefixed_version=
 |Chrome_mobile_supported=Yes
@@ -121,8 +122,8 @@ Calling this method with an unknown selector (due to the browser not implementin
 |Opera_mobile_version=10
 |Opera_mobile_prefixed_supported=Unknown
 |Opera_mobile_prefixed_version=
-|Opera_mini_supported=Unknown
-|Opera_mini_version=
+|Opera_mini_supported=Yes
+|Opera_mini_version=5.0
 |Opera_mini_prefixed_supported=Unknown
 |Opera_mini_prefixed_version=
 |Safari_mobile_supported=Yes
