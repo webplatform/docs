@@ -136,6 +136,7 @@ The below example shows how <code>pointermove</code> is similar to <code>mousemo
 </body>
 </html>
 </syntaxhighlight>
+In addition to the basic x and y coordinates, <code>pointermove</code> includes <code>pointerId</code>, <code>pointerType</code>, and other attributes.
 }}
 {{Examples_Section
 |Not_required=No
