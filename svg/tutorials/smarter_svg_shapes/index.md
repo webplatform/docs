@@ -276,18 +276,50 @@ to define a more complex ''cubic'' B&eacute;zier curve.
 
 ==Markers==
 
-<!--
-    11.6 Markers
-        11.6.1 Introduction
-        11.6.2 The 'marker' element
-        11.6.3 Marker properties
-        11.6.4 Details on how markers are rendered
--->
+You can attach arrowheads or other graphic objects to paths, lines,
+polylines, and polygon segments. A '''marker''' element encapsulates a
+graphic, and various properties reference it. Here is a typical
+arrowhead, for convenience placed within a '''defs''' region as a
+common definition:
 
-* '''marker'''
-* '''marker-end'''
-* '''marker-mid'''
-* '''marker-start'''
+<syntaxhighlight lang="xml">
+<defs>
+  <marker id="arrowhead" markerWidth="10" markerHeight="10" orient="auto" refX="2" refY="5">
+    <!-- triangle pointing right -->
+    <polygon points="0,0 10,5 0,10"/>
+  </marker>
+</defs>
+</syntaxhighlight>
+
+The '''marker''' element does not render unless it is associated with
+a path or other line element using various marker-related properties.
+This example places the arrowhead at the end of the last path segment:
+
+ path.pointer {
+     marker-end: url(#arrowhead);
+ }
+
+Alternately, the '''marker-start''' property places the marker at the
+path's starting point. Setting '''marker-mid''' places the marker at
+each segment point within the path, including where subpaths
+terminate.  The '''marker''' property places the graphic at ''all''
+these points.
+
+Several '''marker''' element attributes are necessary to place the
+arrowhead correctly over the path. By default, the top left corner of
+the marker graphic is placed over the path or line. Since the graphic
+is a 10-pixel square in this case, the '''refY''' attribute moves the
+point at which it intersects the line down by 5 pixels, in order to
+center it vertically.
+
+The marker graphic also does not rotate by default to match where the
+path or line is pointing. Setting '''orient''' to '''auto''' aligns
+the graphic's horizontal ''x'' axis.  (You can also set '''orient'''
+to specific degree values.)
+
+The '''markerWidth''' and '''markerHeight''' attributes set the ...
+
+* '''markerUnits'''
 
 ([[svg/tutorials/smarter_svg_overview|Overview]] /
 [[svg/tutorials/smarter_svg_shapes|Shapes]] /
