@@ -13,7 +13,7 @@
 For input devices that do not support hover, the user agent also fires a pointerover event preceding the pointerdown event.
 |Interface=dom/objects/PointerEvent
 |Target=dom/Element
-|Default_action=Varies: when the pointer is primary, all default actions of the mousedown event
+|Default_action=Varies: when the pointer is primary, all default actions of the [[dom/events/mousedown|mousedown]] event
 |Synchronous=Yes
 |Bubbles=Yes
 |Cancelable=Yes
