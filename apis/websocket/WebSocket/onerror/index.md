@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|An event listener to be called when an error occurs. Receives an Error event named "error".}}
+{{Summary_Section|An event listener to be called when an error occurs. Receives an event named "error".}}
 {{API_Object_Property
 |Property_applies_to=apis/websocket/WebSocket
 |Read_only=Yes
