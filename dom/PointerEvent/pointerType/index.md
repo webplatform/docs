@@ -37,6 +37,17 @@ function detectInputType(event) {
 {{Notes_Section
 |Usage=If a user agent is to fire a pointer event for a mouse, pen stylus, or touch input device, then the value of pointerType must be according to the following table:
 
+{| class="wikitable"
+|-
+! Pointer Device Type !! pointerType Value
+|-
+| Mouse || mouse
+|-
+| Pen Stylus || pen
+|-
+| Touch Contact || touch
+|}
+
 If the device type cannot be detected by the user agent, then the value must be an empty string. If a user agent supports pointer device types other than those listed above, the value of pointerType should be vendor prefixed to avoid conflicting names for different types of devices. Future specifications may provide additional normative values for other device types.
 }}
 {{Related_Specifications_Section
