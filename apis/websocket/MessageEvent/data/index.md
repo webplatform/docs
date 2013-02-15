@@ -1,6 +1,7 @@
 {{Page_Title|data}}
 {{Flags
-|High-level issues=Needs Topics
+|High-level issues=Move Candidate
+|Editorial notes=Not specific to WebSocket. Probably belongs somewhere in DOM docs.
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
