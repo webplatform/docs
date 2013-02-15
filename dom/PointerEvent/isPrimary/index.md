@@ -16,6 +16,12 @@
 }}
 {{Notes_Section
 |Usage=In a multi-pointer (e.g. multi-touch) scenario, the primary pointer is used to identify a master pointer amongst the set of active pointers. This pointer is the one that will produce compatibility mouse events. It is also useful when single-pointer interaction is desired by an author.
+
+When dispatching a pointer event, a pointer is considered primary if: 
+* The pointer represents a mouse device.
+* The pointer represents ''primary touch input'', where its pointerdown event was dispatched when no other active pointers representing touch input existed.
+* The pointer represents ''primary pen input'', where its pointerdown event was dispatched when no other active pointers representing pen input existed.
+
 }}
 {{Related_Specifications_Section
 |Specifications=
