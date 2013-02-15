@@ -90,6 +90,10 @@ This list showcases JavaScript libraries. They're sorted alphabetically. If you 
 | [http://raphaeljs.com/ Raphaël]
 | Vector Graphics
 | Raphaël is a small JavaScript library that should simplify development work with vector graphics on the web. If someone wants to create their own specific chart or image crop and rotate widget, for example, they can achieve it simply and easily with this library.
+|-
+|[http://yuilibrary.com// YUI Library]
+| JS/CSS Framework
+|YUI is a free, open source JavaScript and CSS library for building richly interactive web applications. The YUI Project is a two-way open-source project managed by the YUI engineering team at Yahoo!.
 |}
 {{Notes_Section}}
 {{Topics|JavaScript}}
