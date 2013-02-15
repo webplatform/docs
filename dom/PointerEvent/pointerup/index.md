@@ -8,8 +8,6 @@
 {{Summary_Section|Dispatched when a pointer leaves the state of having a non-zero value for the [[dom/properties/buttons|buttons]] property.}}
 {{Event
 |Event_applies_to=dom/objects/PointerEvent
-|Content={{Event
-|Event_applies_to=dom/objects/PointerEvent
 |Content= For mouse, this is when the device transitions from at least one button depressed to no buttons depressed. For touch, this is when physical contact is removed from the digitizer. For pen, this is when the pen is removed from physical contact with the digitizer. 
 
 For input devices that do not support hover, a user agent must also fire a pointerout event after firing the pointerup event.
@@ -19,7 +17,6 @@ For input devices that do not support hover, a user agent must also fire a point
 |Synchronous=Yes
 |Bubbles=Yes
 |Cancelable=Yes
-}}
 }}
 {{Examples_Section
 |Not_required=No
