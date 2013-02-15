@@ -8,7 +8,8 @@
 {{Summary_Section|Pointer Events represent events and related interfaces for handling hardware agnostic pointer input from devices like a mouse, pen, or touchscreen.}}
 {{API_Listing}}
 {{Concept_Listing
-|Use_page_title=Yes
+|Query=[[Category:PointerEvents]][[Category:API_Objects]]
+|Use_page_title=No
 |List_all_subpages=No
 }}
 {{Notes_Section}}
