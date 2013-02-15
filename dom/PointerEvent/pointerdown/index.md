@@ -7,10 +7,16 @@
 {{API_Name}}
 {{Summary_Section|Dispatched when a pointer enters the state of having a non-zero value for the buttons property. }}
 {{Event
-|Event_applies_to=dom/objects/PointerEvent
+|Interface=dom/objects/PointerEvent
+|Target=dom/Element
+|Default_action=Varies: when the pointer is primary, all default actions of the mousedown event
 |Content=For mouse, this is when the device has at least one button depressed. For touch, this is when there is physical contact with the digitizer. For pen, this is when the pen has physical contact with the digitizer.
 
 For input devices that do not support hover, the user agent also fires a pointerover event preceding the pointerdown event.
+|Event_applies_to=dom/objects/PointerEvent
+|Synchronous=Yes
+|Bubbles=Yes
+|Cancelable=Yes
 }}
 {{Examples_Section
 |Not_required=No
