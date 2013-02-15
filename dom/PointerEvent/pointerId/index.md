@@ -9,6 +9,7 @@
 {{API_Object_Property
 |Property_applies_to=dom/objects/PointerEvent
 |Read_only=Yes
+|Javascript_data_type=unsigned long
 }}
 {{Examples_Section
 |Not_required=No
@@ -18,7 +19,6 @@
 |Usage=This identifier must be unique from all other active pointers at the time. A user agent may recycle previously retired values for pointerId from previous active pointers, if necessary.
 
 If the device producing the event is a mouse, then the pointerId must be 1. Device types other than mouse must not have a pointerId of 1.
-
 }}
 {{Related_Specifications_Section
 |Specifications=
