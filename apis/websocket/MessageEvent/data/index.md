@@ -3,7 +3,7 @@
 |High-level issues=Move Candidate
 |Editorial notes=Not specific to WebSocket. Probably belongs somewhere in DOM docs.
 }}
-{{Standardization_Status|W3C Working Draft}}
+{{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|The data from the server.}}
 {{API_Object_Property
