@@ -33,7 +33,8 @@ The below example shows how pointerdown and pointerup are similar to mousedown a
 <head>
     <title></title>
     <script type="text/javascript">
-
+</syntaxhighlight>
+<syntaxhighlight lang="javascript">
         function MouseDownResponse(event) {
             document.getElementById("dvMouseStatus").innerHTML += "Mouse Down<br />";
         }
@@ -41,8 +42,6 @@ The below example shows how pointerdown and pointerup are similar to mousedown a
         function MouseUpResponse(event) {
             document.getElementById("dvMouseStatus").innerHTML += "Mouse Up<br />";
         }
-
-
 </syntaxhighlight>
 }}
 {{Examples_Section
