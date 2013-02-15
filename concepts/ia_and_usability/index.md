@@ -1,6 +1,6 @@
 {{Page_Title|IA and usability}}
 {{Flags}}
-{{Summary_Section|This page lists articles related to information architecture theory and practice.}}
+{{Summary_Section|This page lists articles related to the theory and practice of information architecture and usability.}}
 {{Basic Page}}
 ==Information Architecture==
 
