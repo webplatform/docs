@@ -96,7 +96,7 @@ The below example shows how pointerdown and pointerup are similar to mousedown a
 {{Topics|DOM, DOMEvents, Touch}}
 {{External_Attribution
 |Is_CC-BY-SA=No
+|Sources=MSDN
 |MDN_link=
-|MSDN_link=
 |HTML5Rocks_link=
 }}
