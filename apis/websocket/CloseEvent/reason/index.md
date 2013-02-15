@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|Indicates the reason the server closed the connection.}}
+{{Summary_Section|Indicates the reason the server closed the WebSocket connection.}}
 {{API_Object_Property
 |Property_applies_to=apis/websocket/CloseEvent
 |Read_only=Yes
