@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|API object for creating and managing a WebSocket connection to a server, as well as for sending and receiving data on the connection.}}
+{{Summary_Section|Object for creating and managing a WebSocket connection to a server, as well as for sending and receiving data on the connection.}}
 {{API_Object}}
 {{Examples_Section
 |Not_required=No
@@ -176,4 +176,11 @@ To open a use a WebSocket connection, you must follow this procedure:
 
 
 
-}}}}}}
+
+}
+
+
+
+
+
+}}}}}}}
