@@ -22,6 +22,9 @@ upper-left corner of the '''rect''' relative to its parent:
 <rect x="10" y="10" width="240" height="160"/>
 </syntaxhighlight>
 
+<div style="float:right">
+[[Image:svg_rect.png]]
+</div>
 
 Circles are positioned by the '''cx''' and '''cy''' center point,
 and the radius ('''r''') specifies the size:
@@ -30,11 +33,19 @@ and the radius ('''r''') specifies the size:
 <circle cx="50" cy="50" r="100"/>
 </syntaxhighlight>
 
+<div style="float:right">
+[[Image:svg_rect.png]]
+</div>
+
 Ellipses are positioned like circles, but require two radius attributes:
 
 <syntaxhighlight lang="xml">
 <ellipse cx="40" cy="60" rx="40" ry="20"/>
 </syntaxhighlight>
+
+<div style="float:right">
+[[Image:svg_rect.png]]
+</div>
 
 When applied to '''rect''' elements, '''rx''' and '''ry''' attributes
 provide rounded corners:
