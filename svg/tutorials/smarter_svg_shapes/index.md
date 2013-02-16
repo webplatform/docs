@@ -10,13 +10,20 @@
 
 ==Simple shapes==
 
+<div style="display:inline-block">
+
 Rectangles are defined by their '''width''' and '''height'''
 attributes, while '''x''' and '''y''' offsets position the
 upper-left corner of the '''rect''' relative to its parent:
 
 <syntaxhighlight lang="xml">
-<rect x="10" y="10" width="160" height="240"/>
+<rect x="10" y="10" width="240" height="160"/>
 </syntaxhighlight>
+
+</div>
+<div style="display:inline-block">
+[[Image:svg_rect.png]]
+</div>
 
 Circles are positioned by the '''cx''' and '''cy''' center point,
 and the radius ('''r''') specifies the size:
