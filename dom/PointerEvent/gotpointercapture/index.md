@@ -7,7 +7,14 @@
 {{API_Name}}
 {{Summary_Section|Dispatched prior to the dispatch of the first event after pointer capture is set for a pointer.}}
 {{Event
-|Event_applies_to=dom/objects/PointerEvent
+|Event_applies_to=dom/Element
+|Content=This event is dispatched to the element that is receiving pointer capture. Subsequent events for that pointer will be dispatched to this element. See [[dom/methods/setPointerCapture|setPointerCapture]].
+|Interface=dom/objects/PointerEvent
+|Target=dom/Element
+|Default_action=None
+|Synchronous=No
+|Bubbles=Yes
+|Cancelable=No
 }}
 {{Examples_Section
 |Not_required=No
