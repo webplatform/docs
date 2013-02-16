@@ -10,10 +10,6 @@
 
 ==Simple shapes==
 
-<div style="float:right">
-[[Image:svg_rect.png]]
-</div>
-
 Rectangles are defined by their '''width''' and '''height'''
 attributes, while '''x''' and '''y''' offsets position the
 upper-left corner of the '''rect''' relative to its parent:
@@ -22,10 +18,6 @@ upper-left corner of the '''rect''' relative to its parent:
 <rect x="10" y="10" width="240" height="160"/>
 </syntaxhighlight>
 
-<div style="float:right">
-[[Image:svg_rect.png]]
-</div>
-
 Circles are positioned by the '''cx''' and '''cy''' center point,
 and the radius ('''r''') specifies the size:
 
@@ -33,19 +25,11 @@ and the radius ('''r''') specifies the size:
 <circle cx="50" cy="50" r="100"/>
 </syntaxhighlight>
 
-<div style="float:right">
-[[Image:svg_rect.png]]
-</div>
-
 Ellipses are positioned like circles, but require two radius attributes:
 
 <syntaxhighlight lang="xml">
 <ellipse cx="40" cy="60" rx="40" ry="20"/>
 </syntaxhighlight>
-
-<div style="float:right">
-[[Image:svg_rect.png]]
-</div>
 
 When applied to '''rect''' elements, '''rx''' and '''ry''' attributes
 provide rounded corners:
@@ -54,12 +38,12 @@ provide rounded corners:
 <rect x="10" y="10" width="160" height="240" rx="20" ry="20"/>
 </syntaxhighlight>
 
+[[Image:svg_shapes.png]]
+
 This
 [http://letmespellitoutforyou.com/samples/svg_shapes.html interactive utility]
 allows you to manipulate various attributes and see how they apply to
 various shapes:
-
-[[Image:svg_shapes.png]]
 
 Use this utility to test lines, polygons, and other CSS properties
 described below.
@@ -285,7 +269,6 @@ to define a more complex ''cubic'' B&eacute;zier curve.
         8.3.9 The grammar for path data
     8.4 Distance along a path
 -->
-
 
 ==Markers==
 
