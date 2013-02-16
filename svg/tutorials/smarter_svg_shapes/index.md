@@ -95,12 +95,14 @@ To apply transparencies, you can set the '''fill-opacity''' and
 both results in additional transparency:
 
  rect {
-     stroke        : red;
-     fill          : rgba(100%,0%,0%,0.5);
-     fill-opacity  : 0.5;
+     stroke-width  : 10;
+     stroke        : rgba(100%,0%,0%,0.5);
      stroke-opacity: 0.5;
-     stroke-width  : 6;
+     fill          : pink;
+     fill-opacity  : 0.5;
  }
+
+[[Image:svg_opacity.png]]
 
 ==Lines and polygons==
 
