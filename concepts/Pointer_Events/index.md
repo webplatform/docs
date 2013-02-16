@@ -12,7 +12,9 @@
 # Find additional resources to learn more about Pointer Events
 }}
 {{Concept_Page
-|Content===1. WHY POINTER EVENTS==
+|Content=__TOC__
+
+==1. WHY POINTER EVENTS==
 
 ===1.1 UNIFIED MODEL FOR MULTIPLE INPUT TYPES===
 In the last few years, there has been an explosion of computing devices that use mechanisms other than a mouse for end user input.  These input mechanisms include touch as on a smartphone or pen/stylus as on a slate.  All of today’s web browsers support mouse events (mouseover, mousedown, mousemove, etc.) but many users aren’t using a mouse.  Today’s user may be interacting with a web page using their fingers on a smartphone while riding public transit or using a pen on a slate/tablet while in a meeting.  Pointer Events provides a unified model for all three of these input types without requiring web developers to write unique code for each.  And Pointer Events is intended to be forward compatible covering future interaction paradigms.
@@ -199,6 +201,66 @@ The below example shows how <code>pointerover</code> and <code>pointerout</code>
 </html>
 </syntaxhighlight>
 
+
+===2.4 ENTER AND LEAVE (WITH EXAMPLE)===
+Pointer Events includes basic pointer enter and pointer leave events.  Enter and leave events are similar to over and out events described in the previous section but with some exceptions including that they do not bubble.  
+* <code>pointerenter</code> is triggered when a user moves their mouse over an HTML element or touches it with their finger or pen.
+* <code>pointerleave</code> is triggered when a user moves their mouse out of an HTML element, releases a finger or pen touch, or moves their finger our out of an HTML element while still touching the screen.
+The below example shows how <code>pointerenter</code> and <code>pointerleave</code> are similar to <code>mouseenter</code> and <code>mouseleave</code>.
+<syntaxhighlight lang="html5">
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script type="text/javascript">
+</syntaxhighlight>
+<syntaxhighlight lang="javascript">
+        function MouseEnterResponse(event) {
+            document.getElementById("dvMouseStatus").innerHTML += "Mouse Enter<br />";
+        }
+
+        function MouseLeaveResponse(event) {
+            document.getElementById("dvMouseStatus").innerHTML += "Mouse Leave<br />";
+        }
+
+        function PointerEnterResponse(event) {
+            document.getElementById("dvPointerStatus").innerHTML += "Pointer Enter<br />";
+        }
+
+        function PointerLeaveResponse(event) {
+            document.getElementById("dvPointerStatus").innerHTML += "Pointer Leave<br />";
+        }
+
+        function init() {
+            var dvObject = document.getElementById("dvObject");
+
+            dvObject.addEventListener("mouseenter", MouseEnterResponse, false);
+            dvObject.addEventListener("mouseleave", MouseLeaveResponse, false);
+
+            dvObject.addEventListener("pointerenter", PointerEnterResponse, false);
+            dvObject.addEventListener("pointerleave", PointerLeaveResponse, false);
+
+            // Support for prefixed IE10 implementation
+            dvObject.addEventListener("MSPointerEnter", PointerEnterResponse, false);
+            dvObject.addEventListener("MSPointerLeave", PointerLeaveResponse, false); 
+        }
+</syntaxhighlight>
+<syntaxhighlight lang="html5">
+    </script>
+</head>
+<body onload="init()">
+    <p>Move your mouse, finger, or pen/stylus over the orange box</p>
+    <div id="dvObject" style="float:right; background-color:orange; height:100px; width:200px;">
+    </div>
+    <table>
+        <tr>
+            <td style="vertical-align:top; width:30%;"><div id="dvMouseStatus"></div></td>
+            <td style="vertical-align:top; width:40%;"><div id="dvPointerStatus"></div></td>
+        </tr>
+    </table>
+</body>
+</html>
+</syntaxhighlight>
 
 
 
