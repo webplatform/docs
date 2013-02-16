@@ -391,7 +391,7 @@ By disabling pan and zoom behaviors, you can capture Pointer Events for multiple
 ==5 DETECTING WHICH BUTTON(S) ARE PRESSED==
 Another opportunity for building new interactive experiences for your end-users is multi-button interactions.
 
-Pointer Events provides the <code>button</code> and <code>buttons</code> attributes that indicate which mouse, pen, or future pointer device button(s) were involved in an interaction.  For example:
+Pointer Events provides <code>button</code> and <code>buttons</code> that indicate which input device button(s) were involved in an interaction.  For example:
 <syntaxhighlight lang="html5">
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -422,7 +422,7 @@ Pointer Events provides the <code>button</code> and <code>buttons</code> attribu
 </html>
 </syntaxhighlight>
 
-Below is the list of potential values for button and buttons:
+Below is the list of potential values for <code>button</code> and <code>buttons</code>:
 <table>
 <tr><th>Device Button State</th><th>button</th><th>buttons</th></tr>
 <tr><td>Mouse move with no buttons pressed</td><td>-1</td><td>0</td></tr>
@@ -433,7 +433,6 @@ Below is the list of potential values for button and buttons:
 <tr><td>X2 (forward) Mouse</td><td>4</td><td>16</td></tr>
 <tr><td>Pen contact with eraser button pressed</td><td>5</td><td>32</td></tr>
 </table>
-
 }}
 {{Examples_Section
 |Not_required=Yes
