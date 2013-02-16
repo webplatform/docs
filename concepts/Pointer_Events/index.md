@@ -198,6 +198,11 @@ The below example shows how <code>pointerover</code> and <code>pointerout</code>
 </body>
 </html>
 </syntaxhighlight>
+
+
+
+
+[[File:TiltX.png|alt=Image showing positive TiltX]]
 }}
 {{Examples_Section
 |Not_required=Yes
@@ -208,6 +213,7 @@ The below example shows how <code>pointerover</code> and <code>pointerout</code>
 |Specifications={{Related Specification
 |Name=Pointer Events
 |URL=http://www.w3.org/TR/pointerevents/
+|Status=Working Draft
 }}
 }}
 {{See_Also_Section}}
