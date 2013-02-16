@@ -137,20 +137,84 @@ The below example shows how <code>pointermove</code> is similar to <code>mousemo
 </html>
 </syntaxhighlight>
 In addition to the basic x and y coordinates, <code>pointermove</code> includes <code>pointerId</code>, <code>pointerType</code>, and other attributes.
+
+
+===2.3 OVER AND OUT (WITH EXAMPLE)===
+Pointer Events includes basic pointer over and pointer out events.  
+* <code>pointerover</code> is triggered when a user moves their mouse over an HTML element or touches it with their finger or pen. 
+* <code>pointerout</code> is triggered when a user moves their mouse out of an HTML element, releases a finger or pen touch, or moves their finger our out of an HTML element while still touching the screen.
+The below example shows how <code>pointerover</code> and <code>pointerout</code> are similar to <code>mouseover</code> and <code>mouseout</code>.
+<syntaxhighlight lang="html5">
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script type="text/javascript">
+</syntaxhighlight>
+<syntaxhighlight lang="javascript">
+        function MouseOverResponse(event) {
+            document.getElementById("dvMouseStatus").innerHTML += "Mouse Over<br />";
+        }
+
+        function MouseOutResponse(event) {
+            document.getElementById("dvMouseStatus").innerHTML += "Mouse Out<br />";
+        }
+
+        function PointerOverResponse(event) {
+            document.getElementById("dvPointerStatus").innerHTML += "Pointer Over<br />";
+        }
+
+        function PointerOutResponse(event) {
+            document.getElementById("dvPointerStatus").innerHTML += "Pointer Out<br />";
+        }
+
+        function init() {
+            var dvObject = document.getElementById("dvObject");
+
+            dvObject.addEventListener("mouseover", MouseOverResponse, false);
+            dvObject.addEventListener("mouseout", MouseOutResponse, false);
+
+            dvObject.addEventListener("pointerover", PointerOverResponse, false);
+            dvObject.addEventListener("pointerout", PointerOutResponse, false);
+
+            // Support for prefixed IE10 implementation
+            dvObject.addEventListener("MSPointerOver", PointerOverResponse, false);
+            dvObject.addEventListener("MSPointerOut", PointerOutResponse, false);
+        }
+</syntaxhighlight>
+<syntaxhighlight lang="html5">
+    </script>
+</head>
+<body onload="init()">
+    <p>Move your mouse, finger, or pen/stylus over the yellow box</p>
+    <div id="dvObject" style="float:right; background-color:yellow; height:100px; width:200px;">
+    </div>
+    <table>
+        <tr>
+            <td style="vertical-align:top; width:30%;"><div id="dvMouseStatus"></div></td>
+            <td style="vertical-align:top; width:40%;"><div id="dvPointerStatus"></div></td>
+        </tr>
+    </table>
+</body>
+</html>
+</syntaxhighlight>
 }}
 {{Examples_Section
-|Not_required=No
+|Not_required=Yes
 |Examples=
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=Pointer Events
+|URL=http://www.w3.org/TR/pointerevents/
+}}
 }}
 {{See_Also_Section}}
 {{Topics|DOM, DOMEvents, Touch}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
 |MDN_link=
+|MSDN_link=
 |HTML5Rocks_link=
 }}
