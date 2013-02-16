@@ -5,13 +5,16 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Dispatched after pointer capture is released for a pointer.}}
 {{Event
-|Event_applies_to=dom/objects/PointerEvent
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example}}
+|Event_applies_to=dom/Element
+|Content=This event is dispatched prior to any subsequent events for the pointer after capture was released. This event is dispatched to the element from which pointer capture was removed. Subsequent events for that pointer follow normal hit testing mechanisms for determining the event target. See [[dom/methods/releasePointerCapture|releasePointerCapture]].
+|Interface=dom/objects/PointerEvent
+|Target=dom/Element
+|Default_action=None
+|Synchronous=No
+|Bubbles=Yes
+|Cancelable=No
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
