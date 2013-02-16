@@ -435,7 +435,7 @@ Below is the list of potential values for <code>button</code> and <code>buttons<
 </table>
 
 
-==6 TRY POINTER EVENTS TODAY WITH IMPLEMENTATIONS==
+==6 TRY POINTER EVENTS TODAY==
 You can tell if a browse supports Pointer Events by checking the <code>navigator.PointerEnabled</code> attribute:
 <syntaxhighlight lang="html5">
 <!DOCTYPE html>
@@ -504,6 +504,17 @@ Here are a few news articles about Pointer Events:
 * 2012-12-20 (NeoWin): http://www.neowin.net/news/microsoft-offers-pointer-events-specs-to-webkit-developers 
 * 2012-12-19 (Ars Technica): http://arstechnica.com/information-technology/2012/12/microsoft-offers-patches-to-webkit-to-aid-touch-compatibility/
 * 2012-09-24 (The Next Web): http://thenextweb.com/microsoft/2012/09/24/the-w3c-accepted-published-microsofts-pointer-events-submission/
+
+
+==APPENDIX: DESIGNING FOR TOUCH
+[[File:TouchGuidelines.png|frame|alt=Image showing 40px hit targets and 10px spacing]]
+There are a few key principles that web designers should keep in-mind when updating pages for modern web browsers:
+# '''There may be no hover''' – For touch-only devices like many smartphones, there is no ability to hover without invoking
+# '''Don’t make hit targets too small''' – Studies by Microsoft indicate about 40px is a good size hit target
+# '''Have spacing between targets''' – Studies also by Microsoft suggest 10px is a good size for spacing between hit targets
+
+For more information, see: http://blogs.msdn.com/b/ie/archive/2012/04/20/guidelines-for-building-touch-friendly-sites.aspx 
+
 }}
 {{Examples_Section
 |Not_required=Yes
