@@ -260,13 +260,12 @@ The below example shows how <code>pointerenter</code> and <code>pointerleave</co
 
 
 ===2.5 CANCEL===
-In the modern world of desktop PC’s with multiple monitors or smartphones and slates supporting multiple orientations, there are cases where a pointer is down and the next event should be a pointer cancel event; rather than a pointer up event.  These include:
+In the modern world of desktop PC’s with multiple monitors or smartphones and slates supporting multiple orientations, there are cases where a pointer is down and the next event should be a <code>pointercancel</code> event; rather than a <code>pointerup</code> event.  These include:
 * A user changes the position of a screen in a multi-screen configuration
 * A user changes the orientation of a screen (i.e. rotate from portrait to landscape)
 * A user exceeds the number of simultaneous contacts a device can support
 * A user locks their device or logs-off
-In all of these cases, a PointerCancel event is triggered.  This gives the developer a chance to handle the 
-More information on pointer cancel cases can be found at: http://msdn.microsoft.com/en-us/library/ie/hh846776(v=vs.85).aspx 
+In all of these cases, a <code>pointercancel</code> event is triggered.  This gives the developer a chance to handle any clean-up that is needed.  More information on <code>pointercancel</code> cases can be found at: http://msdn.microsoft.com/en-us/library/ie/hh846776(v=vs.85).aspx 
 
 
 ===2.6 COMPARISON OF MOUSE EVENTS AND POINTER EVENTS===
