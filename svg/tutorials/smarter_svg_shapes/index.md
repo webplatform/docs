@@ -264,20 +264,20 @@ control point falls:
 
 <div style="display:inline-block">
 
+[[Image:svg_quadratic.png]]
+
 <syntaxhighlight lang="xml">
 <path d="M 49,104 Q 161,22 305,123"/>
 </syntaxhighlight>
 
-[[Image:svg_quadratic.png]]
-
 </div>
 <div style="display:inline-block">
+
+[[Image:svg_cubic.png]]
 
 <syntaxhighlight lang="xml">
 <path d="M 50,120 C 130,50 250,150 280,100"/>
 </syntaxhighlight>
-
-[[Image:svg_cubic.png]]
 
 </div>
 
