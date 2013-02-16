@@ -218,7 +218,8 @@ The simplest path commands drop a pen at one coordinate and draw a
 line to another. In this example, the '''M''' (move) command places
 the drawing point at the ''100,225'' coordinate. The '''L''' (line)
 command draws a line to ''100,115'', and subsequent '''L''' commands
-draw the same arrow-shaped polygon shown above:
+draw the same arrow-shaped polygon shown above, starting from its
+bottom-left corner and drawing in a clockwise direction:
 
 <syntaxhighlight lang="xml">
 <path d="M 100,225 L 100,115 L 130,115 L 70,15 L 10,115 L 40,115 L 40,225 z"/>
@@ -229,18 +230,18 @@ draw the same arrow-shaped polygon shown above:
 The '''z''' command at the end draws a final line to the most recent
 '''M''' coordinate to close off the box. At any point along the path,
 you may use '''M''' to place the drawing point elsewhere to set off
-discontinuous segments known as ''subpaths''. Like polygons, paths can
-also be filled.
+discontinuous segments known as ''subpaths''.
 
 Coordinates and commands can be separated by any combination of commas
 or whitespace characters. (To clarify these examples, commas separate
 each coordinate pair.)
 
-The uppercase commands above specify absolute coordinates.  For each
-there is an alternative lowercase command that specifies coordinates
-in terms relative to the previously defined coordinate.  Starting from
+The uppercase '''M''' and '''L''' commands above specify absolute
+coordinates.  For all uppercase commands described in this section,
+there are alternative lowercase commands that specify coordinates in
+terms relative to the previously defined coordinate.  Starting from
 the default ''0,0'' origin point, the following path defines the same
-shape as the one above:
+shape as the one above using '''m''' and '''l''' commands:
 
 <syntaxhighlight lang="xml">
 <path d="m 100,225 l 0,-110 l 30,0 l -60,-100 l -60,100 l 30,0 l 0,110 z" />
@@ -250,25 +251,29 @@ The '''H''' and '''V''' commands, and their '''h''' and '''v'''
 alternatives, draw a horizontal or vertical line to the specified
 coordinate.
 
-The '''path''' element is distinguished from '''polygon''' and
-'''polyline''' in its ability to draw curves. B&eacute;zier curves
+Unlike polygons, paths can incorporate curves.  B&eacute;zier curves
 require additional ''control point'' coordinates that do not render
 but that influence the shape of the curve.
 
 The '''Q''' and '''q''' commands define a ''quadratic'' B&eacute;zier
 curve using one control point coordinate followed by another
-coordinate where the curve segment ends.
+coordinate where the curve segment ends. The illustration shows where
+the control point falls:
 
 <syntaxhighlight lang="xml">
-<path d="M 452,132 Q 254,309 591,396 Q 723,419 675,473"/>
+<path d="M 49,104 Q 161,22 305,123"/>
 </syntaxhighlight>
+
+[[Image:svg_quadratic.png]]
 
 The '''C''' and '''c''' commands use two intervening control points
 to define a more complex ''cubic'' B&eacute;zier curve.
 
 <syntaxhighlight lang="xml">
-<path d="M 432,271 C 304,318 455,385 323,461"/>
+<path d="M 50,120 C 130,50 250,150 280,100"/>
 </syntaxhighlight>
+
+[[Image:svg_cubic.png]]
 
 <!--
 (2DO: S/s T/t A )
