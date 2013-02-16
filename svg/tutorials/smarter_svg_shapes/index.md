@@ -10,6 +10,9 @@
 
 ==Simple shapes==
 
+Various SVG elements produce basic shapes, and attributes specify
+their dimensions.
+
 Rectangles are defined by their '''width''' and '''height'''
 attributes, while '''x''' and '''y''' offsets position the
 upper-left corner of the '''rect''' relative to its parent:
@@ -25,28 +28,28 @@ and the radius ('''r''') specifies the size:
 <circle cx="50" cy="50" r="100"/>
 </syntaxhighlight>
 
-Ellipses are positioned like circles, but require two radius attributes:
+Ellipses are positioned like circles, but require two '''rx''' and
+'''ry''' radius attributes for each axis:
 
 <syntaxhighlight lang="xml">
 <ellipse cx="40" cy="60" rx="40" ry="20"/>
 </syntaxhighlight>
 
 When applied to '''rect''' elements, '''rx''' and '''ry''' attributes
-provide rounded corners:
+produce rounded corners:
 
 <syntaxhighlight lang="xml">
 <rect x="10" y="10" width="160" height="240" rx="20" ry="20"/>
 </syntaxhighlight>
 
+This is how these examples appear:
+
 [[Image:svg_shapes.png]]
 
-This
-[http://letmespellitoutforyou.com/samples/svg_shapes.html interactive utility]
-allows you to manipulate various attributes and see how they apply to
-various shapes:
-
-Use this utility to test lines, polygons, and other CSS properties
-described below.
+This [http://letmespellitoutforyou.com/samples/svg_shapes.html
+interactive utility] allows you to manipulate various attributes and
+see how they apply to various shapes.  Use it to test lines, polygons,
+and other CSS properties described below.
 
 ==Fill and stroke properties==
 
