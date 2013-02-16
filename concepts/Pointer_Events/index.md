@@ -306,15 +306,16 @@ Two potential uses for the <code>isPrimary</code> attribute are:
 With some input types (especially touch) and screens of increasing resolution, the contact area between the pointer and the screen can be more than a single pixel.  The <code>width</code> and <code>height</code> attributes indicate the width and height of the contact between the pointer and the screen.
 The below example shows the width and height attributes:
 <syntaxhighlight lang="html5">
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title></title>
     <script type="text/javascript">
 </syntaxhighlight>
-<syntaxhighlight lang="javascript"><!DOCTYPE html>
+<syntaxhighlight lang="javascript">
         function PointerDownInfo(event) {
             document.getElementById("dvPointerStatus").innerHTML += 
-"Height:" + event.height + " Width:" + event.width + "<br />";
+                "Height:" + event.height + " Width:" + event.width + "<br />";
         }
 
         function init() {
@@ -335,8 +336,16 @@ The below example shows the width and height attributes:
 </syntaxhighlight>
 
 
-
+===3.5 PRESSURE===
+Another attribute that you can get with Pointer Events is <code>pressure</code>.  If the hardware supports it, <code>pressure</code> is a floating point value between 0 and 1 (inclusive) where 0 represents no force per area and 1 represents the maximum force per area that the hardware can detect.  If the hardware does not support detecting <code>pressure</code>, the browser might simulate values for pointer devices that do not report pressure such as 0.5 for any action.
+ 
+===3.6 PEN TILTX AND TILTY===
+Like <code>pressure</code>, if the hardware supports it, the tilt of the pen is also included on Pointer Events.  There are two measures:
+* <code>tiltX</code> measures the angle in degrees (-90 to 90) between the pen and a plane formed by the Y Axis and Z Axis as shown below:
 [[File:TiltX.png|alt=Image showing positive TiltX]]
+* <code>tiltY measures the angle in degrees (-90 to 90) between the pen and a plane formed by the X Axis and Z Axis as shown below:
+[[File:TiltX.png|alt=Image showing positive TiltY]]
+If the pen is perpendicular to the plane formed by the X Axis and Y Axis, then it’s <code>tiltX</code> and <code>tiltY</code> values will both be zero.
 }}
 {{Examples_Section
 |Not_required=Yes
