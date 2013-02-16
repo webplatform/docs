@@ -1,9 +1,5 @@
 {{Page_Title|Pointer Events Primer}}
-{{Flags
-|High-level issues=Stub
-|Content=Incomplete
-|Editorial notes=Created page as a placeholder; will be populating later this afternoon.
-}}
+{{Flags}}
 {{API_Name}}
 {{Summary_Section|This document is written for web developers who have basic familiarity with [http://docs.webplatform.org/wiki/html HTML] and [http://docs.webplatform.org/wiki/javascript JavaScript].  This document should help you:
 # Understand the end-user and web developer problems that Pointer Events address
@@ -347,6 +343,50 @@ Like <code>pressure</code>, if the hardware supports it, the tilt of the pen is 
 [[File:TiltX.png|alt=Image showing positive TiltY]]
 
 If the pen is perpendicular to the plane formed by the X Axis and Y Axis, then it’s <code>tiltX</code> and <code>tiltY</code> values will both be zero.
+
+==4 MULTIPLE POINTERS AT ONCE / MULTI-TOUCH (WITH EXAMPLE)==
+Pointer Events allows for interacting with multiple pointers at once.  However, there are some systems where two touches on a screen at once causes the screen to pan or zoom.  
+
+As the developer, you can disable pan and zoom behaviors by setting the CSS style of <code>touch-action</code> to none.  For example:
+<syntaxhighlight lang="html5">
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script type="text/javascript">
+</syntaxhighlight>
+<syntaxhighlight lang="javascript">
+        function PointerDownResponse(event) {
+            document.getElementById("dvPointerStatus").innerHTML +=
+                "PointerId:" + event.pointerId +
+                " of pointerType:" + event.pointerType + " Down<br />";
+        }
+
+        function init() {
+            document.addEventListener("pointerdown", PointerDownResponse, false);
+
+            // Support for prefixed IE10 implementation
+            document.addEventListener("MSPointerDown", PointerDownResponse, false);
+        }
+</syntaxhighlight>
+<syntaxhighlight lang="html5">
+    </script>
+</head>
+<body onload="init()">
+    <p>Try touching within each box with multiple fingers</p>
+    <div id="dvPointerStatus" style="float:left; width:200px;"></div>
+    <div style="float:left; background-color:orange; height:300px; width:300px">
+            Touches in this box will invoke default pan and zoom behaviors
+    </div>
+    <div style="float:left; background-color:blue; height:300px; width:300px; 
+        touch-action:none; -ms-touch-action:none;">
+            This box has touch-action set to none
+    </div>
+</body>
+</html>
+</syntaxhighlight>
+By disabling pan and zoom behaviors, you can capture Pointer Events for multiple pointers at the same time and build exciting multi-touch interactive experiences for your end-users.
+
 }}
 {{Examples_Section
 |Not_required=Yes
