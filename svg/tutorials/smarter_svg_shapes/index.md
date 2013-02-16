@@ -257,8 +257,12 @@ but that influence the shape of the curve.
 
 The '''Q''' and '''q''' commands define a ''quadratic'' B&eacute;zier
 curve using one control point coordinate followed by another
-coordinate where the curve segment ends. The illustration shows where
-the control point falls:
+coordinate where the curve segment ends. The '''C''' and '''c'''
+commands use two intervening control points to define a more complex
+''cubic'' B&eacute;zier curve. These examples show where each
+control point falls:
+
+<div style="display:inline-block">
 
 <syntaxhighlight lang="xml">
 <path d="M 49,104 Q 161,22 305,123"/>
@@ -266,14 +270,16 @@ the control point falls:
 
 [[Image:svg_quadratic.png]]
 
-The '''C''' and '''c''' commands use two intervening control points
-to define a more complex ''cubic'' B&eacute;zier curve.
+</div>
+<div style="display:inline-block">
 
 <syntaxhighlight lang="xml">
 <path d="M 50,120 C 130,50 250,150 280,100"/>
 </syntaxhighlight>
 
 [[Image:svg_cubic.png]]
+
+</div>
 
 <!--
 (2DO: S/s T/t A )
