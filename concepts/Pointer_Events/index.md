@@ -343,7 +343,7 @@ Another attribute that you can get with Pointer Events is <code>pressure</code>.
 Like <code>pressure</code>, if the hardware supports it, the tilt of the pen is also included on Pointer Events.  There are two measures:
 * <code>tiltX</code> measures the angle in degrees (-90 to 90) between the pen and a plane formed by the Y Axis and Z Axis as shown below:
 [[File:TiltX.png|alt=Image showing positive TiltX]]
-* <code>tiltY measures the angle in degrees (-90 to 90) between the pen and a plane formed by the X Axis and Z Axis as shown below:
+* <code>tiltY</code> measures the angle in degrees (-90 to 90) between the pen and a plane formed by the X Axis and Z Axis as shown below:
 [[File:TiltX.png|alt=Image showing positive TiltY]]
 If the pen is perpendicular to the plane formed by the X Axis and Y Axis, then it’s <code>tiltX</code> and <code>tiltY</code> values will both be zero.
 }}
