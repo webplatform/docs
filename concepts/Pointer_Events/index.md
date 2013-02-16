@@ -495,10 +495,10 @@ If you’re interested in the patch that adds Pointer Events to WebKit, see:
 * 2012-12-18 (HTML5 Labs): [http://html5labs.interoperabilitybridges.com/prototypes/pointer-events-for-webkit/pointer-events-for-webkit/info Pointer Events for WebKit]
 
 If you’re interested in some of the history and evolution of Pointer Events, visit these links from the IEBlog:
-* 2012-11-12 (IEBlog): W3C Charters Pointer Events Working Group
-* 2012-09-24 (IEBlog): Towards Interoperable Pointer Events: Evolving Input Events for Multiple Devices
-* 2012-04-20 (IEBlog): Guildelines for Building Touch-friendly Sites
-* 2011-09-20 (IEBlog): Touch Input for IE10 and Metro style Apps
+* 2012-11-12 (IEBlog): [http://blogs.msdn.com/b/ie/archive/2012/11/12/w3c-charters-pointer-events-working-group.aspx W3C Charters Pointer Events Working Group]
+* 2012-09-24 (IEBlog): [http://blogs.msdn.com/b/ie/archive/2012/09/24/towards-interoperable-pointer-events-evolving-input-events-for-multiple-devices.aspx Towards Interoperable Pointer Events: Evolving Input Events for Multiple Devices]
+* 2012-04-20 (IEBlog): [http://blogs.msdn.com/b/ie/archive/2012/04/20/guidelines-for-building-touch-friendly-sites.aspx Guildelines for Building Touch-friendly Sites]
+* 2011-09-20 (IEBlog): [http://blogs.msdn.com/b/ie/archive/2011/09/20/touch-input-for-ie10-and-metro-style-apps.aspx Touch Input for IE10 and Metro style Apps]
 
 Here are a few news articles about Pointer Events:
 * 2012-12-20 (NeoWin): http://www.neowin.net/news/microsoft-offers-pointer-events-specs-to-webkit-developers 
