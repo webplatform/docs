@@ -478,7 +478,32 @@ A version of Pointer Events was implemented in IE10 and Pointer Events are prefi
 IE10 is included with Windows 8 and Windows Server 2012.  
 
 IE10 for Windows 7 or Windows Server 2008 can be downloaded from: 
-http://windows.microsoft.com/en-US/internet-explorer/downloads/ie-10/worldwide-languages 
+http://windows.microsoft.com/en-US/internet-explorer/downloads/ie-10/worldwide-languages
+
+
+==7 FURTHER READING==
+If you’re interested in the W3C standardization process for Pointer Events, here are some useful links:
+* Specification: http://www.w3.org/TR/pointerevents/ 
+* Working Group: http://www.w3.org/2012/pointerevents/ 
+* Working Group Charter: http://www.w3.org/2012/pointerevents/charter/ 
+* Working Group Listserv: mailto:public-pointer-events@w3.org 
+* Working Group Listserv Archive: http://lists.w3.org/Archives/Public/public-pointer-events/ 
+
+If you’re interested in the patch that adds Pointer Events to WebKit, see:
+* 2013-02-11 (AppendTo Blog): Prototype Chromium build with support for MS Pointer Events
+* 2012-12-18 (Interoperability @ Microsoft): [http://appendto.com/blog/2013/02/prototype-chromium-build-with-support-for-ms-pointer-events/|Open source release from MS Open Tech: Pointer Events initial prototype for WebKit]
+* 2012-12-18 (HTML5 Labs): [http://html5labs.interoperabilitybridges.com/prototypes/pointer-events-for-webkit/pointer-events-for-webkit/info|Pointer Events for WebKit]
+
+If you’re interested in some of the history and evolution of Pointer Events, visit these links from the IEBlog:
+* 2012-11-12 (IEBlog): W3C Charters Pointer Events Working Group
+* 2012-09-24 (IEBlog): Towards Interoperable Pointer Events: Evolving Input Events for Multiple Devices
+* 2012-04-20 (IEBlog): Guildelines for Building Touch-friendly Sites
+* 2011-09-20 (IEBlog): Touch Input for IE10 and Metro style Apps
+
+Here are a few news articles about Pointer Events:
+* 2012-12-20 (NeoWin): http://www.neowin.net/news/microsoft-offers-pointer-events-specs-to-webkit-developers 
+* 2012-12-19 (Ars Technica): http://arstechnica.com/information-technology/2012/12/microsoft-offers-patches-to-webkit-to-aid-touch-compatibility/
+* 2012-09-24 (The Next Web): http://thenextweb.com/microsoft/2012/09/24/the-w3c-accepted-published-microsofts-pointer-events-submission/
 
 }}
 {{Examples_Section
