@@ -281,8 +281,17 @@ The below table lists Mouse Events and the related Pointer Events:
 <tr><td>mouseleave</td><td>pointerleave</td><td>(none)</td></tr>
 <tr><td>(none)</td><td>pointercancel</td><td>MSPointerCancel</td></tr>
 </table>
-		
-		
+
+
+== 3 POINTER EVENT ATTRIBUTES==
+Pointer Events have a number of additional attributes that enable you as a web developer to enhance your interactions:
+
+===3.1 POINTERTYPE===
+The <code>pointerType</code> attribute tells you if a pointer is a mouse, a touch, a pen, or some new future pointer type. Use of the <code>pointerType</code> attribute was shown in the earlier examples for <code>pointerdown</code>, <code>pointerup</code>, and <code>pointermove</code>.  As a best practice, if you are writing code that behaves uniquely for different <code>pointerType</code> values you should make sure to also handle a new future pointer type.  
+
+===3.2 POINTERID===
+The <code>pointerId</code> attribute tells you which pointer you’re interacting with.  The mouse always has a <code>pointerId</code> of 1, and touch and pen pointers have integer <code>pointerId</code> values that are not 1.  
+
 
 
 
