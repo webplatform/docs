@@ -292,6 +292,47 @@ The <code>pointerType</code> attribute tells you if a pointer is a mouse, a touc
 ===3.2 POINTERID===
 The <code>pointerId</code> attribute tells you which pointer you’re interacting with.  The mouse always has a <code>pointerId</code> of 1, and touch and pen pointers have integer <code>pointerId</code> values that are not 1.  
 
+===3.3 ISPRIMARY===
+The <code>isPrimary</code> attribute tells you which pointer is the “primary” pointer for that device type:
+* For mouse, there is only one pointer so it is primary for the mouse type
+* For touch, a pointer is considered primary if the user touched the screen where there were no other active touches
+* For pen, a pointer is considered primary if the user’s pen initially contacted the screen when there were no other active pens contacting the screen.
+Two potential uses for the <code>isPrimary</code> attribute are:
+* If you are intending to support only single touch (and not multi-touch) only react if the pointer <code>isPrimary</code>.
+* If you want to see which pointer will also generate Mouse Events, check the <code>isPrimary</code> attribute.
+
+
+=== 4.4 CONTACT GEOMETRY WIDTH AND HEIGHT===
+With some input types (especially touch) and screens of increasing resolution, the contact area between the pointer and the screen can be more than a single pixel.  The <code>width</code> and <code>height</code> attributes indicate the width and height of the contact between the pointer and the screen.
+The below example shows the width and height attributes:
+<syntaxhighlight lang="html5">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script type="text/javascript">
+</syntaxhighlight>
+<syntaxhighlight lang="javascript"><!DOCTYPE html>
+        function PointerDownInfo(event) {
+            document.getElementById("dvPointerStatus").innerHTML += 
+"Height:" + event.height + " Width:" + event.width + "<br />";
+        }
+
+        function init() {
+            document.addEventListener("pointerdown", PointerDownInfo, false);
+
+            // Support for legacy IE10 implementation
+            document.addEventListener("MSPointerDown", PointerDownInfo, false);
+        }
+</syntaxhighlight>
+<syntaxhighlight lang="html5">
+    </script>
+</head>
+<body onload="init()">
+    <p>Click, touch, or tap</p>
+    <div id="dvPointerStatus"></div>
+</body>
+</html>
+</syntaxhighlight>
 
 
 
