@@ -402,7 +402,7 @@ Pointer Events provides <code>button</code> and <code>buttons</code> that indica
 <syntaxhighlight lang="javascript">
         function PointerDownInfo(event) {
             document.getElementById("dvPointerStatus").innerHTML += 
-"Button: " + event.button + " Buttons: " + event.buttons + "<br />";
+                "Button: " + event.button + " Buttons: " + event.buttons + "<br />";
         }
 
         function init() {
@@ -433,6 +433,53 @@ Below is the list of potential values for <code>button</code> and <code>buttons<
 <tr><td>X2 (forward) Mouse</td><td>4</td><td>16</td></tr>
 <tr><td>Pen contact with eraser button pressed</td><td>5</td><td>32</td></tr>
 </table>
+
+
+==6 TRY POINTER EVENTS TODAY WITH IMPLEMENTATIONS==
+You can tell if a browse supports Pointer Events by checking the <code>navigator.PointerEnabled</code> attribute:
+<syntaxhighlight lang="html5">
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script type="text/javascript">
+</syntaxhighlight>
+<syntaxhighlight lang="javascript">
+        function init() {
+            if ( (navigator.pointerEnabled) || (navigator.msPointerEnabled) ) {
+                document.getElementById("dvPointerStatus").innerHTML = 
+                    "This browser supports Pointer Events :)<br />and supports " +
+                    navigator.maxTouchPoints + " simultaneous touch contacts.";
+            } else {
+                document.getElementById("dvPointerStatus").innerHTML = 
+                    "This browser does not support Pointer Events. :("
+            }
+        }
+</syntaxhighlight>
+<syntaxhighlight lang="html5">
+    </script>
+</head>
+<body onload="init()">
+    <p>Checking your browser...</p>
+    <div id="dvPointerStatus"></div>
+</body>
+</html>
+</syntaxhighlight>
+Also shown in the above example is how to use the <code>navigator.maxTouchPoints</code> attribute to check the maximum number of touch points the hardware supports.
+
+
+===6.1 WEBKIT WITH POINTER EVENTS PATCH===
+As of February 2013, builds of WebKit with the Pointer Events patch for OSX and Windows are linked from this blog post by appendTo: http://appendto.com/blog/2013/02/prototype-chromium-build-with-support-for-ms-pointer-events/
+
+
+===6.2 INTERNET EXPLORER 10===
+A version of Pointer Events was implemented in IE10 and Pointer Events are prefixed with “MS” (for Microsoft.)
+
+IE10 is included with Windows 8 and Windows Server 2012.  
+
+IE10 for Windows 7 or Windows Server 2008 can be downloaded from: 
+http://windows.microsoft.com/en-US/internet-explorer/downloads/ie-10/worldwide-languages 
+
 }}
 {{Examples_Section
 |Not_required=Yes
