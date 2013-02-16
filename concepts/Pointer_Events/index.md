@@ -387,6 +387,53 @@ As the developer, you can disable pan and zoom behaviors by setting the CSS styl
 </syntaxhighlight>
 By disabling pan and zoom behaviors, you can capture Pointer Events for multiple pointers at the same time and build exciting multi-touch interactive experiences for your end-users.
 
+
+==5 DETECTING WHICH BUTTON(S) ARE PRESSED==
+Another opportunity for building new interactive experiences for your end-users is multi-button interactions.
+
+Pointer Events provides the <code>button</code> and <code>buttons</code> attributes that indicate which mouse, pen, or future pointer device button(s) were involved in an interaction.  For example:
+<syntaxhighlight lang="html5">
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script type="text/javascript">
+</syntaxhighlight>
+<syntaxhighlight lang="javascript">
+        function PointerDownInfo(event) {
+            document.getElementById("dvPointerStatus").innerHTML += 
+"Button: " + event.button + " Buttons: " + event.buttons + "<br />";
+        }
+
+        function init() {
+            document.addEventListener("pointerdown", PointerDownInfo, false);
+
+            // Support for legacy IE10 implementation
+            document.addEventListener("MSPointerDown", PointerDownInfo, false);
+        }
+</syntaxhighlight>
+<syntaxhighlight lang="html5">
+    </script>
+</head>
+<body onload="init()">
+    <p>Click, touch, or tap</p>
+    <div id="dvPointerStatus"></div>
+</body>
+</html>
+</syntaxhighlight>
+
+Below is the list of potential values for button and buttons:
+<table>
+<tr><th>Device Button State</th><th>button</th><th>buttons</th></tr>
+<tr><td>Mouse move with no buttons pressed</td><td>-1</td><td>0</td></tr>
+<tr><td>Left Mouse, Touch Contact, Pen contact (with no modifier buttons pressed)</td><td>0</td><td>1</td></tr>
+<tr><td>Middle Mouse</td><td>1</td><td>4</td></tr>
+<tr><td>Right Mouse, Pen contact with barrel button pressed</td><td>2</td><td>2</td></tr>
+<tr><td>X1 (back) Mouse</td><td>3</td><td>8</td></tr>
+<tr><td>X2 (forward) Mouse</td><td>4</td><td>16</td></tr>
+<tr><td>Pen contact with eraser button pressed</td><td>5</td><td>32</td></tr>
+</table>
+
 }}
 {{Examples_Section
 |Not_required=Yes
