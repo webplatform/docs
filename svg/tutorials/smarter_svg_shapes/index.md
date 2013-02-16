@@ -224,10 +224,13 @@ draw the same arrow-shaped polygon shown above:
 <path d="M 100,225 L 100,115 L 130,115 L 70,15 L 10,115 L 40,115 L 40,225 z"/>
 </syntaxhighlight>
 
+[[Image:svg_linepath.png]]
+
 The '''z''' command at the end draws a final line to the most recent
 '''M''' coordinate to close off the box. At any point along the path,
 you may use '''M''' to place the drawing point elsewhere to set off
-discontinuous segments known as ''subpaths''.
+discontinuous segments known as ''subpaths''. Like polygons, paths can
+also be filled.
 
 Coordinates and commands can be separated by any combination of commas
 or whitespace characters. (To clarify these examples, commas separate
