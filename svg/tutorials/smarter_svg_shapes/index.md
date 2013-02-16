@@ -10,7 +10,7 @@
 
 ==Simple shapes==
 
-<div style="display:inline-block;width:45%">
+<div style="display:inline-block;width:70%">
 
 Rectangles are defined by their '''width''' and '''height'''
 attributes, while '''x''' and '''y''' offsets position the
@@ -21,7 +21,7 @@ upper-left corner of the '''rect''' relative to its parent:
 </syntaxhighlight>
 
 </div>
-<div style="display:inline-block;width:45%">
+<div style="display:inline-block;width:25%">
 
 [[Image:svg_rect.png]]
 
