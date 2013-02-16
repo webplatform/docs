@@ -46,10 +46,11 @@ This is how these examples appear:
 
 [[Image:svg_shapes.png]]
 
-This [http://letmespellitoutforyou.com/samples/svg_shapes.html
-interactive utility] allows you to manipulate various attributes and
-see how they apply to various shapes.  Use it to test lines, polygons,
-and other CSS properties described below.
+This
+[http://letmespellitoutforyou.com/samples/svg_shapes.html interactive utility]
+allows you to manipulate various attributes and see how they apply to
+various shapes.  Use it to test lines, polygons, and other CSS
+properties described below.
 
 ==Fill and stroke properties==
 
