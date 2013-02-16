@@ -239,10 +239,6 @@ The below example shows how <code>pointerenter</code> and <code>pointerleave</co
 
             dvObject.addEventListener("pointerenter", PointerEnterResponse, false);
             dvObject.addEventListener("pointerleave", PointerLeaveResponse, false);
-
-            // Support for prefixed IE10 implementation
-            dvObject.addEventListener("MSPointerEnter", PointerEnterResponse, false);
-            dvObject.addEventListener("MSPointerLeave", PointerLeaveResponse, false); 
         }
 </syntaxhighlight>
 <syntaxhighlight lang="html5">
