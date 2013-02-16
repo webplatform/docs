@@ -60,12 +60,12 @@ Note: If you are completely new to web development, you may want to review [[beg
 When a markup document is parsed by a browser, it converts the document in a tree structure called the document object model, or DOM. This model can then be used to access and manipulate existing elements in the document, and create new ones, an essential set of activities when creating dynamic page functionality.
 
 * First version: It was 1997 when browser vendors involved in the W3C decided to agree on a single standardised document object model, to make cross browser coding less of a nightmare.
-* Current stable version: DOM level 3 is the most stable version, the specification of which is split up into different parts, all of whom have made it to recommendation status. You can find a list of all DOM publications at [[http://www.w3.org/DOM/DOMTR|DOM technical reports]]
-* Current and future work: [[http://www.w3.org/TR/domcore/|DOM level 4]] is the current nascent version of the DOM being worked on.
+* Current stable version: DOM level 3 is the most stable version, the specification of which is split up into different parts, all of whom have made it to recommendation status. You can find a list of all DOM publications at [[http://www.w3.org/DOM/DOMTR DOM technical reports]]
+* Current and future work: [[http://www.w3.org/TR/domcore/ DOM level 4]] is the current nascent version of the DOM being worked on.
 
 ==Contributing to DOM development==
 
-The DOM is being worked on by the [[http://www.w3.org/2008/webapps/|web applications working group]]; visit their mailing lists for discussion, and contribution of ideas.
+The DOM is being worked on by the [[http://www.w3.org/2008/webapps/ Web Applications Working Group]]; visit their [[http://www.w3.org/2008/webapps/wiki/WorkMode#Participation_and_Communication mailing lists]]  for discussion, and contribution of ideas.
 
 
 == Index of all DOM topics ==
