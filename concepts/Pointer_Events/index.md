@@ -100,6 +100,7 @@ The below example shows how <code>pointermove</code> is similar to <code>mousemo
 <head>
     <title></title>
     <script type="text/javascript">
+</syntaxhighlight>
 <syntaxhighlight lang="javascript">
         function MouseMoveResponse(event) {
             document.getElementById("dvMouseStatus").innerHTML =
@@ -121,6 +122,7 @@ The below example shows how <code>pointermove</code> is similar to <code>mousemo
             document.addEventListener("MSPointerMove", PointerMoveResponse, false);
         }
 </syntaxhighlight>
+<syntaxhighlight lang="html5">
     </script>
 </head>
 <body onload="init()" style="touch-action:none; -ms-touch-action:none;">
