@@ -307,7 +307,7 @@ In these examples, the curve segments join abruptly at an angle. The
 that transition smoothly from the previous curve. They work by
 extrapolating a control point from the previous control point on the
 other side of the previous destination point, effectively mirroring
-it. The following two path definitions produce the same set of
+it. The following two path definitions produce the same sequence of
 curves. The first uses the '''T''' command to extrapolate the extra
 control point (marked red), while the second uses a second '''Q'''
 command to explicitly define it.  Both specify the same destination
@@ -319,6 +319,16 @@ point:
 </syntaxhighlight>
 
 [[Image:svg_quadratic_smooth.png]]
+
+The '''S''' and '''s''' commands perform the same kind of mirroring to
+produce smooth cubic B&eacute;zier curves. The following two path
+definitions produce the same sequence of curves, the second explicitly
+defining the extra control point, again marked red:
+
+<syntaxhighlight lang="xml">
+<path d="M 50,120 C 130,50 250,150 280,100 S        450,50 400,100"/>
+<path d="M 50,120 C 130,50 250,150 280,100 C 310,50 450,50 400,100"/>
+</syntaxhighlight>
 
 [[Image:svg_cubic_smooth.png]]
 
