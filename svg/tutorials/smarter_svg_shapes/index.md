@@ -193,6 +193,8 @@ same pattern repeated to the end of the shape:
 
 [[Image:svg_stroke_dasharray.png]]
 
+ stroke-dasharray: 20,10,10,10;
+
 The '''stroke-dashoffset''' property allows you to shift the number of
 pixels at which the pattern begins.  As the interactive utility shows,
 properties with numeric and color values can be animated and
@@ -305,12 +307,11 @@ In these examples, the curve segments join abruptly at an angle. The
 that transition smoothly from the previous curve. They work by
 extrapolating a control point from the previous control point on the
 other side of the previous destination point, effectively mirroring
-it.
-
-The following two path definitions produce the same set of curves. The
-first uses the '''T''' command to extrapolate the extra control point
-(marked red), while the second uses '''Q''' to explicitly define it.
-Both specify the same destination point:
+it. The following two path definitions produce the same set of
+curves. The first uses the '''T''' command to extrapolate the extra
+control point (marked red), while the second uses a second '''Q'''
+command to explicitly define it.  Both specify the same destination
+point:
 
 <syntaxhighlight lang="xml">
 <path d="M 50,100 Q 180,20 300,130 T         400,50"/>
@@ -318,6 +319,8 @@ Both specify the same destination point:
 </syntaxhighlight>
 
 [[Image:svg_quadratic_smooth.png]]
+
+[[Image:svg_cubic_smooth.png]]
 
 <!--
 (2DO: S/s T/t A )
