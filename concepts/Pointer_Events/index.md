@@ -481,12 +481,14 @@ http://windows.microsoft.com/en-US/internet-explorer/downloads/ie-10/worldwide-l
 
 
 ==Further Reading==
-If you’re interested in the W3C standardization process for Pointer Events, here are some useful links:
+If you’re interested in the W3C standardization process for Pointer Events, including reading the specification and providing feedback, here are some useful links:
 * Specification: http://www.w3.org/TR/pointerevents/ 
-* Working Group: http://www.w3.org/2012/pointerevents/ 
+* Pointer Events Working Group: http://www.w3.org/2012/pointerevents/ 
 * Working Group Charter: http://www.w3.org/2012/pointerevents/charter/ 
-* Working Group Listserv: mailto:public-pointer-events@w3.org 
-* Working Group Listserv Archive: http://lists.w3.org/Archives/Public/public-pointer-events/ 
+* Working Group Email List: mailto:public-pointer-events@w3.org 
+* Working Group Email List Archive: http://lists.w3.org/Archives/Public/public-pointer-events/
+
+To provide feedback to the working group, send [mailto:public-pointer-events@w3.org email to the Pointer Events WG].
 
 If you’re interested in the patch that adds Pointer Events to WebKit, see:
 * 2013-02-11 (AppendTo Blog): [http://appendto.com/blog/2013/02/prototype-chromium-build-with-support-for-ms-pointer-events/ Prototype Chromium build with support for MS Pointer Events]
