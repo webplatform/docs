@@ -1,7 +1,7 @@
 {{Page_Title|Pointer Events Primer}}
 {{Flags}}
 {{API_Name}}
-{{Summary_Section|This document is written for web developers who have basic familiarity with [http://docs.webplatform.org/wiki/html HTML] and [http://docs.webplatform.org/wiki/javascript JavaScript].  This document should help you:
+{{Summary_Section|This document is written for web developers who have basic familiarity with [[html|HTML]] and [[javascript|JavaScript]].  This document should help you:
 # Understand the end-user and web developer problems that Pointer Events address
 # Easily add Pointer Events to an existing web page
 # Take advantage of additional methods and attributes available in Pointer Events
