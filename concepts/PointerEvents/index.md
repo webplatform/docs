@@ -1,1 +1,0 @@
-#REDIRECT [[concepts/Pointer Events]]
