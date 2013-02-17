@@ -282,29 +282,23 @@ control point falls:
 </div>
 
 Adding additional sets of controls points has the same effect as
-specifying additional '''Q'''/'''q'''/'''C'''/'''c''' commands. The
-following definition pairs produce the same paths:
-
-<div style="display:inline-block">
+adding additional '''Q'''/'''q'''/'''C'''/'''c''' commands. The
+following definition pairs produce the same sequence of quadratic and
+cubic curves, but the second line leaves out the redundant command:
 
 [[Image:svg_quadratic_poly.png]]
 
 <syntaxhighlight lang="xml">
-<path d="M 50,100 Q 180,20 300,130   320,20 400,50"/>
 <path d="M 50,100 Q 180,20 300,130 Q 320,20 400,50"/>
+<path d="M 50,100 Q 180,20 300,130   320,20 400,50"/>
 </syntaxhighlight>
-
-</div>
-<div style="display:inline-block">
 
 [[Image:svg_cubic_poly.png]]
 
 <syntaxhighlight lang="xml">
-<path d="M 50,120 C 130,50 250,150 280,100   250,50 450,50 400,100"/>
 <path d="M 50,120 C 130,50 250,150 280,100 C 250,50 450,50 400,100"/>
+<path d="M 50,120 C 130,50 250,150 280,100   250,50 450,50 400,100"/>
 </syntaxhighlight>
-
-</div>
 
 <!--
 (2DO: S/s T/t A )
