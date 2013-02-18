@@ -33,7 +33,7 @@ If the specified pointerId does not match any existing pointers, a [[dom/DOMExce
 |Name=Pointer Events
 |URL=http://www.w3.org/TR/pointerevents
 |Status=Working Draft
-|Relevant_changes=Section 4
+|Relevant_changes=Sections 4 and 7
 }}
 }}
 {{Compatibility_Section
@@ -44,7 +44,7 @@ If the specified pointerId does not match any existing pointers, a [[dom/DOMExce
 |Notes_rows=
 }}
 {{See_Also_Section
-|Manual_links=* [[dom/methods/releasePointerCapture|releasePointerCapture]] 
+|Manual_links=* [[dom/methods/releasePointerCapture|releasePointerCapture]]
 }}
 {{Topics}}
 {{External_Attribution
