@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Initializes a new PointerEvent created by the createEvent method.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=type
