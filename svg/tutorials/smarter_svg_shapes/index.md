@@ -302,16 +302,16 @@ cubic curves, but the second line leaves out the redundant command:
 <path d="M 50,120 C 130,50 250,150 280,100   250,50 450,50 400,100"/>
 </syntaxhighlight>
 
-In these examples, the curve segments join abruptly at an angle. The
-'''T''' and '''t''' commands are designed to produce quadratic curves
-that transition smoothly from the previous curve. They work by
-extrapolating a control point from the previous control point on the
-other side of the previous destination point, effectively mirroring
-it. The following two path definitions produce the same sequence of
-curves. The first uses the '''T''' command to extrapolate the extra
-control point (marked red), while the second uses a second '''Q'''
-command to explicitly define it.  Both specify the same destination
-point:
+In both of these examples, the curve segments join abruptly at an
+angle. The '''T''' and '''t''' commands are designed to produce
+quadratic curves that transition smoothly from the previous curve.
+They work by extrapolating a control point from the previous control
+point on the other side of the previous destination point, effectively
+mirroring it to produce waves. The following two path definitions
+produce the same sequence of curves. The first uses the '''T'''
+command to extrapolate the extra control point (marked red), while the
+second uses a second '''Q''' command to explicitly define it.  Both
+specify the same destination point:
 
 <syntaxhighlight lang="xml">
 <path d="M 50,100 Q 180,20 300,130 T         400,50"/>
@@ -321,9 +321,13 @@ point:
 [[Image:svg_quadratic_smooth.png]]
 
 The '''S''' and '''s''' commands perform the same kind of mirroring to
-produce smooth cubic B&eacute;zier curves. The following two path
-definitions produce the same sequence of curves, the second explicitly
-defining the extra control point, again marked red:
+produce smooth cubic B&eacute;zier curves suitable for freehand
+drawing.  Since B&eacute;zier curves are defined by two control
+points, the first supplied coordinate specifies the second control
+point, and the second coordinate specifies the end point.  The
+following two path definitions produce the same sequence of curves,
+the second substituting the '''C''' command to explicitly define the
+extra control point, again marked red:
 
 <syntaxhighlight lang="xml">
 <path d="M 50,120 C 130,50 250,150 280,100 S        450,50 400,100"/>
@@ -333,9 +337,7 @@ defining the extra control point, again marked red:
 [[Image:svg_cubic_smooth.png]]
 
 <!--
-(2DO: S/s T/t A )
-        8.3.6 The cubic Bézier curve commands     {+c/s}
-        8.3.7 The quadratic Bézier curve commands {+q/t}
+(2DO: A )
         8.3.8 The elliptical arc curve commands   {+a}
         8.3.9 The grammar for path data
     8.4 Distance along a path
