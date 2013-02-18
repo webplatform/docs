@@ -359,22 +359,23 @@ The values of the arc radius, rotation, large-arc, and sweep-arc
 controls affect the appearance of the last elliptical arc in the path,
 and apply to newly created arcs.
 
-This summarizes path syntax:
+This summarizes path syntax, with coordinate pairs required for
+control and destination points:
 
 ; '''M'''/'''m''' ''destination''
-: moves to ''destination'' point
+: jumps to ''destination'' point
 ; '''L'''/'''l''' ''destination''
-: draws line to ''destination'' point
-
-* '''Q'''/'''q''' ''control'' ''destination'': draws quadratic B&eacute;zier curve to ''destination'' point, shaped by ''control''
-* '''T'''/'''t''' ''destination'': draws quadratic curve to ''destination'' point, influenced by virtual control point mirroring previous control point
-* '''C'''/'''c''' ''control1'' ''control2'' ''destination'': draws a cubic B&eacute;zier curve to ''destination'' point, shaped by two control points
-* '''S'''/'''s''' ''control2'' ''destination'': draws a cubic B&eacute;zier curve to ''destination'' point, shaped by a virtual control point mirroring the most recent control point, and by a second ''control2'' point
-* '''A'''/'''a''' ''destination''
-
-two control points.
-
-B&eacute;zier 
+: draws straight line to ''destination'' point
+; '''Q'''/'''q''' ''control'' ''destination''
+: draws quadratic B&eacute;zier curve to ''destination'' point, shaped by ''control''
+; '''T'''/'''t''' ''destination''
+: draws quadratic curve to ''destination'' point, influenced by virtual control point mirroring most recent control point
+; '''C'''/'''c''' ''control1'' ''control2'' ''destination''
+: draws a cubic B&eacute;zier curve to ''destination'' point, shaped by two control points
+; '''S'''/'''s''' ''control2'' ''destination''
+: draws a cubic B&eacute;zier curve to ''destination'' point, shaped by a virtual control point mirroring the most recent control point, and by a second ''control2'' point
+; '''A'''/'''a''' ''radiusX'',''radiusY'' ''rotationAngle'' ''large-arc-flag'' ''sweep-arc-flag'' ''destination''
+: draws an elliptical arc to ''destination'', if possible, with ellipse shaped by ''radiusX'',''radiusY'' and rotated by ''rotationAngle''. 
 
 ==Markers==
 
