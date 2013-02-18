@@ -5,14 +5,14 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Sets pointer capture for the pointer identified by the argument pointerId to the element on which this method is invoked. }}
+{{Summary_Section|Sets pointer capture for the pointer identified by the argument pointerId to the element on which this method is invoked.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=pointerID
 |Data type=Number
 |Optional=No
 }}
-|Method_applies_to=dom/methods
+|Method_applies_to=dom/Element
 |Javascript_data_type=void
 }}
 {{Examples_Section
