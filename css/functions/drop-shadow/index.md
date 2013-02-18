@@ -33,6 +33,7 @@ allows for more vivid shadow effects:
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=HTML
 |Description=The below example shows the difference between the CSS box-shadow property and the drop-shadow filter function. Where the box-shadow property outlines the html box and the drop-shadow outlines the element parts.
 |Code=&lt;!DOCTYPE html&gt;
 &lt;html&gt;
@@ -64,7 +65,10 @@ allows for more vivid shadow effects:
 &lt;/html&gt;
 |LiveURL=http://codepen.io/pverbeek/pen/etIyE
 }}{{Single Example
+|Language=HTML
 |Description=This example shows the difference when using png images with transparency.
+
+[[Image:filter_dropshadow.png|400px]]
 |Code=&lt;!DOCTYPE html&gt;
 &lt;html&gt;
   &lt;head&gt;
