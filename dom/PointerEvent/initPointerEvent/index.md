@@ -158,6 +158,7 @@ Default: 0
 }}
 |Method_applies_to=dom/objects/PointerEvent
 |Example_object_name=event
+|Javascript_data_type=void
 |Return_value_description=This method does not return a value.
 }}
 {{Examples_Section
