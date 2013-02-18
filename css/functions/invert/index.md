@@ -18,7 +18,10 @@ color-negative effect, with 0.5 or 50% producing gray.
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=The following example shows the difference between two images, where one has a been inverted for 75%
+|Language=HTML
+|Description=The following example shows the difference between two images, where one has a been inverted for 75%:
+
+[[Image:filter_invert.png|400px]]
 |Code=&lt;!DOCTYPE html&gt;
 &lt;html&gt;
   &lt;head&gt;
