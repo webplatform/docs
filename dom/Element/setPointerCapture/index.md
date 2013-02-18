@@ -43,7 +43,9 @@ If the specified pointerId does not match any existing pointers, a [[dom/DOMExce
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Manual_links=* [[dom/methods/releasePointerCapture|releasePointerCapture]] 
+}}
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
