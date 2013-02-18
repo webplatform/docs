@@ -47,9 +47,9 @@ This is how these examples appear:
 [[Image:svg_shapes.png]]
 
 This
-[http://letmespellitoutforyou.com/samples/svg_shapes.html interactive utility]
+[http://letmespellitoutforyou.com/samples/svg_shapes.html interactive shape-building tool]
 allows you to manipulate various attributes and see how they apply to
-various shapes.  Use it to test lines, polygons, and other CSS
+corresponding shapes.  Use it to test lines, polygons, and other CSS
 properties described below.
 
 ==Fill and stroke properties==
@@ -131,7 +131,7 @@ coordinate is joined with the first:
 <polygon points="100,225 100,115 130,115 70,15 70,15 10,115 40,115 40,225"/>
 </syntaxhighlight>
 
-[[Image:svg_polygon.png]]
+[[Image:svg_linepath.png]]
 
 ==More stroke properties==
 
@@ -212,10 +212,11 @@ attribute specifies a sequence of commands referencing pairs of
 ''x''/''y'' coordinates within the drawing area.
 
 The following
-[http://letmespellitoutforyou.com/samples/svg_path.html interactive utility]
-allows you to build path definitions using all the commands detailed
-below. Choose the command you want, then click within the drawing area
-to provide each set of coordinates:
+[http://letmespellitoutforyou.com/samples/svg_path.html interactive path-building utility]
+allows you to create your own path definitions using all the commands
+detailed below, and see them reflected in SVG code. Choose the command
+you want, then click within the drawing area to provide each set of
+coordinates:
 
 [[Image:svg_path.png|600px]]
 
