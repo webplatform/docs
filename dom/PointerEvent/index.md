@@ -29,7 +29,13 @@
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Manual_links=* [[dom/methods/setPointerCapture|setPointerCapture]]
+* [[dom/methods/releasePointerCapture|releasePointerCapture]]
+* [[dom/navigator/pointerEnabled|pointerEnabled]]
+* [[dom/navigator/maxTouchPoints|maxTouchPoints]]
+* [[css/properties/touch-action|touch-action]]
+}}
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
