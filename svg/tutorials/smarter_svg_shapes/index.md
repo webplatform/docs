@@ -359,6 +359,22 @@ The values of the arc radius, rotation, large-arc, and sweep-arc
 controls affect the appearance of the last elliptical arc in the path,
 and apply to newly created arcs.
 
+This summarizes path syntax:
+
+: '''M'''/'''m''' ''destination''
+; moves to ''destination'' point
+
+* '''L'''/'''l''' ''destination'': draws line to ''destination'' point
+* '''Q'''/'''q''' ''control'' ''destination'': draws quadratic B&eacute;zier curve to ''destination'' point, shaped by ''control''
+* '''T'''/'''t''' ''destination'': draws quadratic curve to ''destination'' point, influenced by virtual control point mirroring previous control point
+* '''C'''/'''c''' ''control1'' ''control2'' ''destination'': draws a cubic B&eacute;zier curve to ''destination'' point, shaped by two control points
+* '''S'''/'''s''' ''control2'' ''destination'': draws a cubic B&eacute;zier curve to ''destination'' point, shaped by a virtual control point mirroring the most recent control point, and by a second ''control2'' point
+* '''A'''/'''a''' ''destination''
+
+two control points.
+
+B&eacute;zier 
+
 ==Markers==
 
 You can attach arrowheads or other graphic objects to paths, lines,
