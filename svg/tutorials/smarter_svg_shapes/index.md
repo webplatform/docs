@@ -361,10 +361,11 @@ and apply to newly created arcs.
 
 This summarizes path syntax:
 
-: '''M'''/'''m''' ''destination''
-; moves to ''destination'' point
+; '''M'''/'''m''' ''destination''
+: moves to ''destination'' point
+; '''L'''/'''l''' ''destination''
+: draws line to ''destination'' point
 
-* '''L'''/'''l''' ''destination'': draws line to ''destination'' point
 * '''Q'''/'''q''' ''control'' ''destination'': draws quadratic B&eacute;zier curve to ''destination'' point, shaped by ''control''
 * '''T'''/'''t''' ''destination'': draws quadratic curve to ''destination'' point, influenced by virtual control point mirroring previous control point
 * '''C'''/'''c''' ''control1'' ''control2'' ''destination'': draws a cubic B&eacute;zier curve to ''destination'' point, shaped by two control points
