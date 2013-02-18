@@ -8,7 +8,8 @@
 # Find additional resources to learn more about Pointer Events
 }}
 {{Concept_Page
-|Content=__TOC__
+|Content=__FORCETOC__
+
 ==Why Pointer Events==
 
 ===Unified Model for Multiple Input Types===
