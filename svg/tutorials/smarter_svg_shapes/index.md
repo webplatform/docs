@@ -133,7 +133,7 @@ coordinate is joined with the first:
 
 [[Image:svg_polygon.png]]
 
-==Finer control over strokes==
+==More stroke properties==
 
 Additional properties provide greater control over how the ends or
 joints of line segments appear. The '''stroke-linecap''' property
@@ -204,7 +204,7 @@ properties with numeric and color values can be animated and
 transitioned with CSS, allowing for potentially distracting marquee
 effects.
 
-==Paths==
+==Simple paths==
 
 Paths are complex shapes that may feature discontinuous series of
 lines and curves. The '''path''' element's '''d''' (definition)
@@ -255,6 +255,8 @@ shape as the one above using '''m''' and '''l''' commands:
 The '''H''' and '''V''' commands, and their '''h''' and '''v'''
 alternatives, draw a horizontal or vertical line to the specified
 coordinate.
+
+==Curved paths==
 
 Unlike polygons, paths can incorporate curves.  B&eacute;zier curves
 require additional ''control point'' coordinates that do not render
