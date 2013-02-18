@@ -362,19 +362,19 @@ and apply to newly created arcs.
 This summarizes path syntax, with coordinate pairs required for
 control and destination points:
 
-; '''M'''/'''m''' ''destination''
+* '''M'''/'''m''' ''destination''
 : jumps to ''destination'' point
-; '''L'''/'''l''' ''destination''
+* '''L'''/'''l''' ''destination''
 : draws straight line to ''destination'' point
-; '''Q'''/'''q''' ''control'' ''destination''
+* '''Q'''/'''q''' ''control'' ''destination''
 : draws quadratic B&eacute;zier curve to ''destination'' point, shaped by ''control''
-; '''T'''/'''t''' ''destination''
+* '''T'''/'''t''' ''destination''
 : draws quadratic curve to ''destination'' point, influenced by virtual control point mirroring most recent control point
-; '''C'''/'''c''' ''control1'' ''control2'' ''destination''
+* '''C'''/'''c''' ''control1'' ''control2'' ''destination''
 : draws a cubic B&eacute;zier curve to ''destination'' point, shaped by two control points
-; '''S'''/'''s''' ''control2'' ''destination''
+* '''S'''/'''s''' ''control2'' ''destination''
 : draws a cubic B&eacute;zier curve to ''destination'' point, shaped by a virtual control point mirroring the most recent control point, and by a second ''control2'' point
-; '''A'''/'''a''' ''radiusX'',''radiusY'' ''rotationAngle'' ''large-arc-flag'' ''sweep-arc-flag'' ''destination''
+* '''A'''/'''a''' ''radiusX'',''radiusY'' ''rotationAngle'' ''large-arc-flag'' ''sweep-arc-flag'' ''destination''
 : draws an elliptical arc to ''destination'', if possible, with ellipse shaped by ''radiusX'',''radiusY'' and rotated by ''rotationAngle''. 
 
 ==Markers==
