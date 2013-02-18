@@ -65,7 +65,14 @@ window.addEventListener('load', function() {
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Manual_links=
+* [[dom/navigator/maxTouchPoints|maxTouchPoints]]
+* [[dom/objects/PointerEvent|PointerEvent]]
+* [[dom/methods/setPointerCapture|setPointerCapture]]
+* [[dom/methods/releasePointerCapture|releasePointerCapture]]
+* [[css/properties/touch-action|touch-action]]
+}}
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
