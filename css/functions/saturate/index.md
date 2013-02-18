@@ -19,7 +19,10 @@ amount produces more dramatically stratified hues.
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=The following example shows the difference between two images, where one has a saturation of 1000%
+|Language=HTML
+|Description=The following example shows the difference between two images, where one has a saturation of 1000%:
+
+[[Image:filter_saturate.png|400px]]
 |Code=&lt;!DOCTYPE html&gt;
 &lt;html&gt;
   &lt;head&gt;
