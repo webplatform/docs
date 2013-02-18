@@ -21,13 +21,14 @@
 |Examples=
 }}
 {{Notes_Section
-|Notes=If the specified pointerId does not match any existing pointers, a [[dom/DOMException|DOMException]] is thrown with the name ''InvalidPointerId''. 
+|Notes=If the specified pointerId does not match any existing pointers, a [[dom/DOMException|DOMException]] is thrown with the name ''InvalidPointerId''.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=Pointer Events
 |URL=http://www.w3.org/TR/pointerevents
 |Status=Working Draft
+|Relevant_changes=Sections 4 and 7
 }}
 }}
 {{Compatibility_Section
@@ -38,7 +39,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section
-|Manual_links=* [[dom/methods/setPointerCapture|setPointerCapture]] 
+|Manual_links=* [[dom/methods/setPointerCapture|setPointerCapture]]
 }}
 {{Topics}}
 {{External_Attribution
