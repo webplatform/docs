@@ -22,7 +22,8 @@ possibly affecting the ability of background content to show through:
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=The following example shows the difference between two images, where one has a blur of 10px
+|Language=HTML
+|Description=The following example shows the difference between two images, where one has a blur of 10px: [[Image|filter_blur.png]]
 |Code=&lt;!DOCTYPE html&gt;
 &lt;html&gt;
   &lt;head&gt;
