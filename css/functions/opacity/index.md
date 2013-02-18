@@ -38,7 +38,10 @@ a way to override this behavior.
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=The following example shows the difference between two images, where one has an opacity of 50%
+|Language=HTML
+|Description=The following example shows the difference between two images, where one has an opacity of 50%:
+
+[[Image:filter_opacity1.png|400px]]
 |Code=&lt;!DOCTYPE html&gt;
 &lt;html&gt;
   &lt;head&gt;
@@ -60,9 +63,12 @@ a way to override this behavior.
 &lt;/html&gt;
 |LiveURL=http://codepen.io/pverbeek/pen/qhfaD
 }}{{Single Example
+|Language=HTML
 |Description=This example shows the importance of the order in which filters are applied. 
 In the first image, the opacity is only applied to the image.
 In the second, the drop-shadow is applied first, so the opacity also applies to it.
+
+[[Image:filter_opacity2.png|400px]]
 |Code=&lt;!DOCTYPE html&gt;
 &lt;html&gt;
   &lt;head&gt;
