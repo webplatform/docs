@@ -368,7 +368,7 @@ control and destination points:
 * '''T'''/'''t''' ''destination'': draws quadratic curve to ''destination'' point, influenced by virtual control point mirroring most recent control point
 * '''C'''/'''c''' ''control1'' ''control2'' ''destination'': draws a cubic B&eacute;zier curve to ''destination'' point, shaped by two control points
 * '''S'''/'''s''' ''control2'' ''destination'': draws a cubic B&eacute;zier curve to ''destination'' point, shaped by a virtual control point mirroring the most recent control point, and by a second ''control2'' point
-* '''A'''/'''a''' ''radiusX'',''radiusY'' ''rotationAngle'' ''large-arc-flag'' ''sweep-arc-flag'' ''destination'': draws an elliptical arc to ''destination'', if possible, with overall ellipse shaped by ''radiusX'',''radiusY'' and rotated by ''rotationAngle''. The ''large-arc-flag'' prefers the widest-angle arc path, and ''sweep-arc-flag'' prefers whichever possible path is clockwise.
+* '''A'''/'''a''' ''radiusX'',''radiusY'' ''rotationAngle'' ''large-arc-flag'' ''sweep-arc-flag'' ''destination'': draws an elliptical arc to ''destination'', if possible, with overall ellipse shaped by ''radiusX'',''radiusY'' and rotated by ''rotationAngle''. The ''large-arc-flag'' prefers the widest-angle arc path, and ''sweep-arc-flag'' specifies the ellipse whose arc path is clockwise.
 
 ==Markers==
 
