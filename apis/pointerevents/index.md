@@ -13,7 +13,9 @@
 |List_all_subpages=No
 }}
 {{Notes_Section}}
-{{See_Also_Section}}
+{{See_Also_Section
+|External_links=* [/concepts/pointer events|Pointer Events Primer]
+}}
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
