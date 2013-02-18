@@ -20,7 +20,10 @@ following example:
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=HTML
 |Description=The following example shows the difference between two images, where one is fully in sepia colors.
+
+[[Image:filter_sepia.png|400px]]
 |Code=&lt;!DOCTYPE html&gt;
 &lt;html&gt;
   &lt;head&gt;
