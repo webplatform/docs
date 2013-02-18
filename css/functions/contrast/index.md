@@ -21,6 +21,7 @@ produces more dramatically stratified areas of light and dark.
 |Examples={{Single Example
 |Language=HTML
 |Description=The following example shows the difference between three images, the first has the default contrast, the second one a lower contrast and the third a higher:
+
 [[Image:filter_contrast.png|400px]]
 |Code=&lt;!DOCTYPE html&gt;
 &lt;html&gt;
