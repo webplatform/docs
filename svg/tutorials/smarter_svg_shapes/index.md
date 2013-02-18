@@ -353,11 +353,11 @@ If the ellipse's radii is insufficient or if its rotation makes it
 impossible to get to the final end point, the ellipse does not render.
 
 Experiment with the
-[http://letmespellitoutforyou.com/samples/svg_path.html interactive
-path builder] by choosing the '''A''' command and clicking to create
-new end points.  The values of the arc radius, rotation, large-arc,
-and sweep-arc controls affect the appearance of the last elliptical
-arc in the path, and apply to newly created arcs.
+[http://letmespellitoutforyou.com/samples/svg_path.html interactive path builder]
+by choosing the '''A''' command and clicking to create new end points.
+The values of the arc radius, rotation, large-arc, and sweep-arc
+controls affect the appearance of the last elliptical arc in the path,
+and apply to newly created arcs.
 
 ==Markers==
 
