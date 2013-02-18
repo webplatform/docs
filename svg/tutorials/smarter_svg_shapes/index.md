@@ -357,6 +357,8 @@ syntax specifying a surprisingly great deal of information:
 If the ellipse's radii is insufficient or if its rotation makes it
 impossible to get to the final end point, the ellipse does not render.
 
+[[Image:svg_arc.png]]
+
 Experiment with the
 [http://letmespellitoutforyou.com/samples/svg_path.html interactive path builder]
 by choosing the '''A''' command and clicking to create new end points.
@@ -434,8 +436,8 @@ The marker graphic also does not rotate by default to match where the
 path or line is pointing. Setting '''orient''' to '''auto''' aligns
 the graphic's horizontal ''x'' axis.  You can also set '''orient''' to
 specific degree values. Note in the '''marker-start''' example above
-that the initial marker may not be oriented as intended, because it
-doesn't extend an existing line.
+that the initial marker may not be oriented as intended, because it's
+not associated with an existing line.
 
 <!--
 2DO:
@@ -445,7 +447,7 @@ The '''markerWidth''' and '''markerHeight''' attributes set the ...
 * '''markerUnits'''
 -->
 
-==Modifying Fills==
+==Fill rules==
 
 Whenever lines within paths cross each other, and when subpath shapes
 appear as islands within other shapes, it is not immediately obvious
