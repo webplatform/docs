@@ -54,16 +54,17 @@ properties described below.
 
 ==Fill and stroke properties==
 
-The '''fill''' and '''stroke''' properties specify the color of the
-background and the edge of the shape:
+By default, shapes have a black fill.  The '''fill''' and '''stroke'''
+properties specify the color of the background and the edge of the
+shape:
 
 <syntaxhighlight lang="xml">
 <rect fill="pink" stroke="red" x="10" y="10" width="160" height="240"/>
 </syntaxhighlight>
 
 You can assign these as attributes on SVG elements, but they are
-really CSS properties. For the sake of clarity, this guide expresses
-SVG properties as CSS selectors:
+really CSS properties. For the sake of clarity and best practice, this
+guide expresses SVG properties as CSS selectors:
 
  rect {
      fill   : pink;
@@ -88,6 +89,8 @@ and outside the shape:
      stroke       : red;
      stroke-width : 6;
  }
+
+[[Image:svg_stroke_width.png]]
 
 To apply transparencies, you can set the '''fill-opacity''' and
 '''stroke-opacity''' properties, or specify
@@ -442,11 +445,23 @@ The '''markerWidth''' and '''markerHeight''' attributes set the ...
 
 ==Modifying Fills==
 
-<!--
-2DO:
+Whenever lines within paths cross each other, and when subpath shapes
+appear as islands within other shapes, it is not immediately obvious
+how such paths might be filled. By default, the '''fill-rule'''
+property is set to '''nonzero''', which errs on the side of filling
+regions based on the direction of each stroke, which as the example
+below shows, may not always be intuitive. Setting it to '''evenodd'''
+prevents regions bordering each other from sharing the same fill
+value.
 
-* '''fill-rule'''
--->
+<div style="display:inline-block">
+[[Image:svg_fillrule_nonzero.png]]
+ fill-rule: nonzero;
+</div>
+<div style="display:inline-block">
+[[Image:svg_fillrule_evenodd.png]]
+ fill-rule: evenodd;
+</div>
 
 ([[svg/tutorials/smarter_svg_overview|Overview]] /
 [[svg/tutorials/smarter_svg_shapes|Shapes]] /
