@@ -14,7 +14,8 @@
 }}
 {{Notes_Section}}
 {{See_Also_Section
-|External_links=* [/concepts/pointer events|Pointer Events Primer]
+|External_links=* [[http://www.w3.org/TR/PointerEvents|Pointer Events Spec]]
+* [[/concepts/pointer events|Pointer Events Primer]]
 }}
 {{Topics}}
 {{External_Attribution
