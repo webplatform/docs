@@ -336,12 +336,28 @@ extra control point, again marked red:
 
 [[Image:svg_cubic_smooth.png]]
 
-<!--
-(2DO: A )
-        8.3.8 The elliptical arc curve commands   {+a}
-        8.3.9 The grammar for path data
-    8.4 Distance along a path
--->
+The '''A''' and '''a''' commands specify an ''elliptical arc'', using
+syntax specifying a surprisingly great deal of information:
+
+* A pair of radius measurements defining the ellipse's size and shape, equivalent to the '''ellipse''' element's '''rx''' and '''ry''' attributes.
+
+* A measurement indicating the degree to which the ellipse is rotated.
+
+* A ''large-arc'' flag (''0'' or ''1'') indicating whether to travel to the destination point via the longer arc that exceeds 180&deg;.
+
+* To distinguish between the two possible arcs that mirror each other along the line to the destination point, a ''sweep-arc'' flag (''0'' or ''1'') specifies whether to prefer whichever renders in a clockwise direction.
+
+* A final set of coordinates indicates the ellipse's end point.
+
+If the ellipse's radii is insufficient or if its rotation makes it
+impossible to get to the final end point, the ellipse does not render.
+
+Experiment with the
+[http://letmespellitoutforyou.com/samples/svg_path.html interactive
+path builder] by choosing the '''A''' command and clicking to create
+new end points.  The values of the arc radius, rotation, large-arc,
+and sweep-arc controls affect the appearance of the last elliptical
+arc in the path, and apply to newly created arcs.
 
 ==Markers==
 
