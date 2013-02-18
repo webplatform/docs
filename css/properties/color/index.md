@@ -1,7 +1,5 @@
 {{Page_Title}}
-{{Flags
-|Content=Cleanup
-}}
+{{Flags}}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|The color property sets the color of an element's foreground content (usually text), accepting any standard CSS color from keywords and hex values to RGB(a) and HSL(a).}}
