@@ -169,7 +169,12 @@ Default: 0
 |Import_Notes====Syntax===
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=Pointer Events
+|URL=http://www.w3.org/TR/pointerevents
+|Status=Working Draft
+|Relevant_changes=3.1.3
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
