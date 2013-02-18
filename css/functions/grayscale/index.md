@@ -20,7 +20,7 @@ the gray effect.
 |Examples={{Single Example
 |Language=HTML
 |Description=The following example shows the difference between two images, where one has a grayscale of 75%.
-[[Image:filter_grayscale.png]]
+[[Image:filter_grayscale.png|400px]]
 |Code=&lt;!DOCTYPE html&gt;
 &lt;html&gt;
   &lt;head&gt;
