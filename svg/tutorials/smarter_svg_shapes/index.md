@@ -214,7 +214,7 @@ allows you to build path definitions using all the commands detailed
 below. Choose the command you want, then click within the drawing area
 to provide each set of coordinates:
 
-[[Image:svg_path.png]]
+[[Image:svg_path.png|400px]]
 
 The simplest path commands drop a pen at one coordinate and draw a
 line to another. In this example, the '''M''' (move) command places
