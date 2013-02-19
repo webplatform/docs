@@ -37,7 +37,7 @@
 |Firefox_prefixed_version=
 |Internet_explorer_supported=Unknown
 |Internet_explorer_version=
-|Internet_explorer_prefixed_supported=Unknown
+|Internet_explorer_prefixed_supported=No
 |Internet_explorer_prefixed_version=
 |Opera_supported=Yes
 |Opera_version=12.1
