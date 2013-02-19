@@ -65,7 +65,11 @@ If the specified pointerId does not match any existing pointers, a [[dom/DOMExce
 |Notes_rows=
 }}
 {{See_Also_Section
-|Manual_links=* [[dom/methods/releasePointerCapture|releasePointerCapture]]
+|Manual_links=* [[dom/objects/PointerEvent|PointerEvent]]
+* [[dom/methods/releasePointerCapture|releasePointerCapture]]
+* [[dom/navigator/pointerEnabled|pointerEnabled]]
+* [[dom/navigator/maxTouchPoints|maxTouchPoints]]
+* [[css/properties/touch-action|touch-action]]
 }}
 {{Topics}}
 {{External_Attribution
