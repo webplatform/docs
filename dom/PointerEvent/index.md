@@ -84,7 +84,17 @@
 |Notes_rows={{Compatibility Notes Row
 |Browser=Internet Explorer
 |Version=10
-|Note=test
+|Note=Pointer events are supported in IE10 with the following prefixes and casings:
+* MSPointerEvent
+* MSGotPointerCapture
+* MSLostPointerCapture
+* MSPointerCancel
+* MSPointerDown
+* MSPointerHover
+* MSPointerMove
+* MSPointerOut
+* MSPointerOver
+* MSPointerUp
 }}
 }}
 {{See_Also_Section
