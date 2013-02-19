@@ -14,7 +14,7 @@ APIs came into popularity on the Web a number of years ago, when open standards 
 
 These allow you to reuse media content from 3rd party sources, write feature detection detection tests very easily, write effective cross browser SVG and events, and control HTML5 video, among other things.
 
-== Explore our HTML docs ==
+== Explore our API docs ==
 
 <div class="topic-container">
 
