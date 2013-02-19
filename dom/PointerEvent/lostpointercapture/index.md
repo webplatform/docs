@@ -7,7 +7,7 @@
 {{API_Name}}
 {{Summary_Section|Dispatched after pointer capture is released for a pointer.}}
 {{Event
-|Event_applies_to=dom/Element
+|Event_applies_to=dom/objects/PointerEvent
 |Content=This event is dispatched prior to any subsequent events for the pointer after capture was released. This event is dispatched to the element from which pointer capture was removed. Subsequent events for that pointer follow normal hit testing mechanisms for determining the event target. See [[dom/methods/releasePointerCapture|releasePointerCapture]].
 |Interface=dom/objects/PointerEvent
 |Target=dom/Element
@@ -15,6 +15,10 @@
 |Synchronous=No
 |Bubbles=Yes
 |Cancelable=No
+}}
+{{Examples_Section
+|Not_required=No
+|Examples=
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
