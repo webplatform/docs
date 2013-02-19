@@ -68,6 +68,6 @@ To contribute to the development of APIs and provide feedback, you need to know 
 
 {{Concept_Listing
 |Query=[[Category:API]][[Category:API_Listings]]
-|Use_page_title=Yes
+|Use_page_title=No
 |List_all_subpages=No
 }}
