@@ -10,7 +10,7 @@
 |Property_applies_to=dom/objects/PointerEvent
 |Read_only=Yes
 |Example_object_name=event
-|Javascript_data_type=unsigned long
+|Javascript_data_type=Number
 }}
 {{Examples_Section
 |Not_required=No
