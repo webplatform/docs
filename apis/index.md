@@ -15,6 +15,51 @@ Many libraries include API functionality, so you don't have to use the raw API. 
 
 Note: If you are completely new to web development, you may want to review [[beginners|Web development for beginners]].
 
+== Explore our HTML docs ==
+
+<div class="topic-container">
+
+  <div class="short-topic">
+  
+    <div class="image icon-api"></div>
+    
+    <div class="inner">
+    <h3>[[html/apis|API topic #1]]</h3>
+    
+    <p>This is the descriptive blurb for API topic #1, to let you know what it's all about.</p>
+    </div>
+  
+  </div>
+  
+  <div class="short-topic">
+  
+    <div class="image icon-api"></div>
+    
+    <div class="inner">
+    <h3>[[html/apis|API topic #2]]</h3>
+    
+    <p>This is the descriptive blurb for API topic #2, to let you know what it's all about.</p>
+    </div>
+  
+  </div>
+  
+  <div class="short-topic">
+  
+    <div class="image icon-api"></div>
+    
+    <div class="inner">
+    <h3>[[html/apis|API topic #3]]</h3>
+    
+    <p>This is the descriptive blurb for API topic #3, to let you know what it's all about.</p>
+    </div>
+  
+  </div>
+
+
+</div>
+<div class="clearfixboth"></div>
+
+
 == List of all APIs ==
 
 {{Concept_Listing
