@@ -42,7 +42,7 @@ For an overview of CSS Regions, see [[tutorials/css-regions|Using CSS Regions to
 * Adobe Developer's Network: [http://www.adobe.com/devnet/html5/articles/css3-regions.html CSS3 Regions: Rich page layout with HTML and CSS3]
 * [http://adobe.github.com/web-platform/samples/css-regions Sample pages]
 }}
-{{Topics|CSS}}
+{{Topics|API, CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
