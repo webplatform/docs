@@ -18,7 +18,7 @@ Query=[[Category:Appcache]]
 |List_all_subpages=No
 }}
 }}
-{{Topics}}
+{{Topics|API}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
