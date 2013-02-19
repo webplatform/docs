@@ -15,7 +15,9 @@
 |Examples=
 }}
 {{Notes_Section
-|Usage=A positive tiltY is towards the user. tiltY can be used along with tiltX to represent the tilt away from the normal of a transducer with the digitzer. For devices that do not report tilt, the value must be 0. 
+|Usage=A positive tiltY is towards the user. tiltY can be used along with tiltX to represent the tilt away from the normal of a transducer with the digitzer. For devices that do not report tilt, the value must be 0.
+
+[[File:TiltY.png|caption]]
 }}
 {{Related_Specifications_Section
 |Specifications=
