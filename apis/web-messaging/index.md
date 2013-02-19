@@ -13,7 +13,7 @@
 }}
 {{Notes_Section}}
 {{See_Also_Section}}
-{{Topics|Web Messaging}}
+{{Topics|API, Web Messaging}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
