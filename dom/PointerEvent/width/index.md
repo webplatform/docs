@@ -9,6 +9,7 @@
 {{API_Object_Property
 |Property_applies_to=dom/objects/PointerEvent
 |Read_only=Yes
+|Example_object_name=event
 }}
 {{Examples_Section
 |Not_required=No
@@ -34,9 +35,33 @@ function checkPointerSize(event) {
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
-|Desktop_rows=
+|Desktop_rows={{Compatibility Table Desktop Row
+|Chrome_supported=Unknown
+|Chrome_version=
+|Chrome_prefixed_supported=Unknown
+|Chrome_prefixed_version=
+|Firefox_supported=Unknown
+|Firefox_version=
+|Firefox_prefixed_supported=Unknown
+|Firefox_prefixed_version=
+|Internet_explorer_supported=Yes
+|Internet_explorer_prefixed_supported=Unknown
+|Internet_explorer_prefixed_version=
+|Opera_supported=Unknown
+|Opera_version=
+|Opera_prefixed_supported=Unknown
+|Opera_prefixed_version=
+|Safari_supported=Unknown
+|Safari_version=
+|Safari_prefixed_supported=Unknown
+|Safari_prefixed_version=
+}}
 |Mobile_rows=
-|Notes_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=10
+|Note=Pointer events are supported with the MS prefix. In the example above, IE10 would require 'MSPointerDown rather than pointerdown. 
+}}
 }}
 {{See_Also_Section}}
 {{Topics}}
