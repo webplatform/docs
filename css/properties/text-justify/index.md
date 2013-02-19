@@ -1,11 +1,14 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status}}
+{{Standardization_Status|Mixed}}
 {{API_Name}}
-{{Summary_Section|This property changes the justification of each line of text. Changes are made for spacing between letters and words. Applies to both block and inline elements.}}
+{{Summary_Section|offers a fine level of justification control over the enclosed content, allowing for a variety of sophisticated justification models used in different language writing systems.
+
+Applies to both block and inline elements.
+}}
 {{CSS Property
 |Initial value=auto
 |Applies to=All elements
@@ -45,8 +48,6 @@
 |Not_required=No
 |Examples={{Single Example
 |Description=The following examples use the '''-ms-text-justify''' attribute and the '''-ms-text-justify''' property to align text within the object.
-
-This example uses an inline style sheet to distribute all the lines within the object.
 |Code=...
 &lt;DIV style{{=}}"text-align:justify; text-justify:distribute-all-lines;"&gt;
     This example demonstrates how to use this property. This is
@@ -84,6 +85,7 @@ This example uses an inline style sheet to distribute all the lines within the o
 }}
 }}
 {{Notes_Section
+|Usage=enables proper alignment of various languages such as chinese.
 |Notes====Remarks===
 Windows Internet Explorer 8. The '''-ms-text-justify''' attribute is an extension to CSS, and can be used as a synonym for '''text-justify''' in IE8 Standards mode.
 For this property to affect text layout, the [[css/properties/text-align|'''text-align''']] property must be set to '''justify'''.
@@ -98,12 +100,34 @@ The property applies to block elements.
 }}
 {{Compatibility_Section
 |Not_required=No
-|Desktop_rows=
+|Imported_tables=
+|Desktop_rows={{Compatibility Table Desktop Row
+|Chrome_supported=Unknown
+|Chrome_version=
+|Chrome_prefixed_supported=Unknown
+|Chrome_prefixed_version=
+|Firefox_supported=Unknown
+|Firefox_version=
+|Firefox_prefixed_supported=Unknown
+|Firefox_prefixed_version=
+|Internet_explorer_supported=Yes
+|Internet_explorer_version=5.0 +
+|Internet_explorer_prefixed_supported=Yes
+|Internet_explorer_prefixed_version=8.0 +
+|Opera_supported=Unknown
+|Opera_version=
+|Opera_prefixed_supported=Unknown
+|Opera_prefixed_version=
+|Safari_supported=Unknown
+|Safari_version=
+|Safari_prefixed_supported=Unknown
+|Safari_prefixed_version=
+}}
 |Mobile_rows=
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=Text
+|Topic_clusters=CSS Layout, CSS Attributes, Text
 |Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
