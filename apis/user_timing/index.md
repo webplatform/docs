@@ -14,8 +14,10 @@
 {{Notes_Section
 |Notes=Based on [[http://www.w3.org/TR/user-timing/ W3C User Timing Candidate Recommendation Specification]]
 }}
-{{See_Also_Section}}
-{{Topics|Timing}}
+{{See_Also_Section
+|Topic_clusters=Performance
+}}
+{{Topics|API, Timing}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
