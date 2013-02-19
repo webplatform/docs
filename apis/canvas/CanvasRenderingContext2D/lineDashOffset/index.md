@@ -34,7 +34,7 @@
 |Firefox_version=15.0
 |Firefox_prefixed_supported=Unknown
 |Firefox_prefixed_version=
-|Internet_explorer_supported=Unknown
+|Internet_explorer_supported=No
 |Internet_explorer_version=
 |Internet_explorer_prefixed_supported=Unknown
 |Internet_explorer_prefixed_version=
