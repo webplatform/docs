@@ -39,7 +39,8 @@
 |Chrome_prefixed_version=
 |Firefox_supported=Unknown
 |Firefox_version=
-|Firefox_prefixed_supported=Yes
+|Firefox_prefixed_supported=Unknown
+|Firefox_prefixed_version=
 |Internet_explorer_supported=Unknown
 |Internet_explorer_version=
 |Internet_explorer_prefixed_supported=Yes
