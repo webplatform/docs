@@ -2,7 +2,7 @@
 
 ==Summary==
 
-APIs, or Application Programming Interfaces, is a widespread and popular concept across most aspects of software development, referring to protocols that facilitate communication between software components. In the particular context of the Web, APIs generally refer to custom JavaScript objects we can use to extract data and/or make use of services from 3rd party sources, such as web applications, JavaScript libraries, or even web standards features.
+APIs, or Application Programming Interfaces, is a widespread and popular concept across most aspects of software development, referring to protocols that facilitate communication between software components. In the particular context of the Web, APIs generally refer to custom JavaScript objects you can use to extract data and/or make use of services from 3rd party sources, such as web applications, JavaScript libraries, or even web standards features.
 
 == Explore our HTML docs ==
 
