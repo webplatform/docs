@@ -34,7 +34,7 @@ Some nice things about the DataChannel API (coming soon!).
 * [http://dev.w3.org/2011/webrtc/editor/webrtc.html PeerConnection API] (includes DataChannel)
 * [http://dev.w3.org/2011/webrtc/editor/getusermedia.html Media Capture and Streams API]
 }}
-{{Topics|WebRTC}}
+{{Topics|API, WebRTC}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
