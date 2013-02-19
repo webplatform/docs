@@ -68,6 +68,6 @@ Note: If you are completely new to web development, you may want to review [[beg
 |List_all_subpages=No
 }}
 
-==Contributing to the HTML technology==
+==Contributing to API development==
 
 To contribute to the development of APIs and provide feedback, you need to know where the specification and/or source code is kept. For example, you can find out how to comment on the HTML5 APIs by consulting the [http://www.w3.org/html/ W3C HTML home page], or suggest fixes to Modernizr via the [https://github.com/Modernizr/Modernizr Modernizr Github repo].
