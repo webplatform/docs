@@ -45,10 +45,10 @@ function checkPointerSize(event) {
 |Firefox_version=
 |Firefox_prefixed_supported=Unknown
 |Firefox_prefixed_version=
-|Internet_explorer_supported=Unknown
-|Internet_explorer_version=
-|Internet_explorer_prefixed_supported=Yes
-|Internet_explorer_prefixed_version=IE10
+|Internet_explorer_supported=Yes
+|Internet_explorer_version=IE10
+|Internet_explorer_prefixed_supported=Unknown
+|Internet_explorer_prefixed_version=
 |Opera_supported=Unknown
 |Opera_version=
 |Opera_prefixed_supported=Unknown
@@ -59,11 +59,7 @@ function checkPointerSize(event) {
 |Safari_prefixed_version=
 }}
 |Mobile_rows=
-|Notes_rows={{Compatibility Notes Row
-|Browser=Internet Explorer
-|Version=10
-|Note=This property is supported by the prefixed version of PointerEvent: [http://msdn.microsoft.com/en-us/library/ie/hh772103(v=vs.85).aspx MSPointerEvent]
-}}
+|Notes_rows=
 }}
 {{See_Also_Section}}
 {{Topics}}
