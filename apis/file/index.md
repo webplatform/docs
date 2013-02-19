@@ -13,7 +13,7 @@
 {{See_Also_Section
 |Topic_clusters=Off-line Storage
 }}
-{{Topics|API}}
+{{Topics|API, FileAPI}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
