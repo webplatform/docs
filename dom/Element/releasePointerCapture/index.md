@@ -60,7 +60,11 @@
 |Notes_rows=
 }}
 {{See_Also_Section
-|Manual_links=* [[dom/methods/setPointerCapture|setPointerCapture]]
+|Manual_links=* [[dom/objects/PointerEvent|PointerEvent]]
+* [[dom/methods/setPointerCapture|setPointerCapture]]
+* [[dom/navigator/pointerEnabled|pointerEnabled]]
+* [[dom/navigator/maxTouchPoints|maxTouchPoints]]
+* [[css/properties/touch-action|touch-action]]
 }}
 {{Topics}}
 {{External_Attribution
