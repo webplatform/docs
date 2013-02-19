@@ -14,8 +14,10 @@
 
 This API is designed to be used in conjunction with other APIs and elements on the web platform, notably: [[apis/xhr/objects/XMLHttpRequest|'''XMLHttpRequest''']] (using the '''responseType''' and '''response''' attributes). For games and interactive applications, it is anticipated to be used with the canvas 2D and WebGL 3D graphics APIs.
 }}
-{{See_Also_Section}}
-{{Topics|Audio}}
+{{See_Also_Section
+|Topic_clusters=Audio
+}}
+{{Topics|API, Audio}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
