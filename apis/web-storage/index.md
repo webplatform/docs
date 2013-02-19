@@ -10,6 +10,7 @@
 |List_all_subpages=Yes
 }}
 {{Concept_Listing
+|Query=[[Category:Webstorage]][[Category:API_Objects]]
 |Use_page_title=No
 |List_all_subpages=Yes
 }}
