@@ -15,7 +15,7 @@
 {{See_Also_Section
 |External_links=[http://www.w3.org/TR/XMLHttpRequest/ W3C XMLHttpRequest Specification]
 }}
-{{Topics|XHR}}
+{{Topics|API, XHR}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
