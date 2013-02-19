@@ -64,10 +64,10 @@ These allow us to do wonderful things such as reuse media content from 3rd party
 
 To contribute to the development of APIs and provide feedback, you need to know where the specification and/or source code is kept. For example, you can find out how to comment on the HTML5 APIs by consulting the [http://www.w3.org/html/ W3C HTML home page], or suggest fixes to Modernizr via the [https://github.com/Modernizr/Modernizr Modernizr Github repo].
 
-== Index of all HTML topics ==
+== List of all APIs ==
 
 {{Concept_Listing
-|Query=[[Category:API_Listings]]
-|Use_page_title=No
-|List_all_subpages=Yes
+|Query=[[Category:API]][[Category:API_Listing]]
+|Use_page_title=Yes
+|List_all_subpages=No
 }}
