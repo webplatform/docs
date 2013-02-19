@@ -70,10 +70,21 @@
 |Safari_prefixed_version=
 }}
 |Mobile_rows=
-|Notes_rows={{Compatibility Notes Row
+|Notes_rows=
+{{Compatibility Notes Row
 |Browser=Internet Explorer
 |Version=10
-|Note=Supported as: [http://msdn.microsoft.com/en-us/library/ie/hh772044(v=vs.85).aspx -ms-touch-action]
+|Note=Supported as [http://msdn.microsoft.com/en-us/library/ie/hh772044(v=vs.85).aspx -ms-touch-action] with the following additional values:
+;pan-x
+: The element permits touch-driven panning on the horizontal axis. The touch pan is performed on the nearest ancestor with horizontally scrollable content.
+;pan-y
+: The element permits touch-driven panning on the vertical axis. The touch pan is performed on the nearest ancestor with vertically scrollable content.
+;pinch-zoom
+: The element permits pinch-zooming. The pinch-zoom is performed on the nearest ancestor with zoomable content.
+;manipulation
+: The element permits touch-driven panning and pinch-zooming. This is the shorthand equivalent of "pan-x pan-y pinch-zoom".
+;double-tap-zoom
+: The element permits double-tap-zooming. The double-tap-zoom is performed on the full page. Double-tap-zoom is not available in Windows Store apps using JavaScript.
 }}
 }}
 {{See_Also_Section
