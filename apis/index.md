@@ -25,7 +25,7 @@ Note: If you are completely new to web development, you may want to review [[beg
 
 ==Contributing to the API documentation==
 
-See the [[WPD:Proposals/api_docs]] for a description of the work being performed to develop the API reference. See [[WPD:Creating_API_pages|Creating API pages]] to learn how to document an API.
+See the [[WPD:Proposals/api_docs|API Project page]] for a description of the work being performed to develop the API reference. See [[WPD:Creating_API_pages|Creating API pages]] to learn how to document an API.
 
 ==Contributing to the HTML technology==
 
