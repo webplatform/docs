@@ -84,7 +84,9 @@
 |Note=Hardware accelerated
 }}
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Topic_clusters=Canvas
+}}
 {{Topics|Canvas, HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
