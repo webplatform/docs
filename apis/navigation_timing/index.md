@@ -10,8 +10,10 @@
 |List_all_subpages=No
 }}
 {{Notes_Section}}
-{{See_Also_Section}}
-{{Topics|Timing}}
+{{See_Also_Section
+|Topic_clusters=Performance
+}}
+{{Topics|API, Timing}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
