@@ -4,20 +4,20 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|The line-height propriety specifies the height of line within the element. The minimum height within a block level elements, the calculated one for inline elements. }}
+{{Summary_Section|The line-height propriety specifies the height of line within the element. The minimum height within a block level elements, the calculated one for replaced inline elements. It has no effect for non-replaced inline elements like buttons or other input elements.}}
 {{CSS Property
 |Initial value=normal
 |Applies to=all elements
 |Inherited=Yes
 |Media=visual
-|Computed value=for <length> and <percentage> the absolute value; otherwise as specified 
+|Computed value=for <length> and <percentage> the absolute value; otherwise as specified
 |Animatable=Yes
 |CSS object model property=lineHeight
 |CSS percentages=refer to the font size of the element itself
 |Values={{CSS Property Value
 |Data Type=normal
 |Description=Take the height fixed by the default css of the user browser. 
-In most cases, it multiplies the height of the font by 1.2. 
+In most cases, it multiplies the height of the font by 1.2.
 }}{{CSS Property Value
 |Data Type=<number>
 |Description=The used value of the property is this number multiplied by the element's font size. Negative values are illegal.
