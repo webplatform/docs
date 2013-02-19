@@ -14,7 +14,7 @@
 |Topic_clusters=Audio, Video
 |Manual_links=* http://www.w3.org/standards/webdesign/audiovideo.html
 }}
-{{Topics}}
+{{Topics|API}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
