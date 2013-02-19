@@ -52,6 +52,7 @@ The IndexedDB storage follows the same-origin policy.
 *For Google Chrome, see the [https://developers.google.com/chrome/whitepapers/storage#temporary reference on temporary storage]
 }}
 {{See_Also_Section
+|Topic_clusters=Off-line Storage
 |External_links=* [http://www.w3.org/TR/IndexedDB/ W3C IndexedDB Specification]
 |Manual_sections==== Wrappers ===
 
@@ -60,7 +61,7 @@ The IndexedDB storage follows the same-origin policy.
 
 :#Show how IDB works. The code is split up into short methods, so that it's easy to see what happens in what method.[https://github.com/jensarps/IDBWrapper]
 }}
-{{Topics|IndexedDB}}
+{{Topics|API, IndexedDB}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
