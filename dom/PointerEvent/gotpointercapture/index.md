@@ -1,13 +1,13 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Stub, Needs Flags
+|High-level issues=Needs Flags
 |Content=Incomplete, Compatibility Incomplete, Examples Needed
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Dispatched prior to the dispatch of the first event after pointer capture is set for a pointer.}}
 {{Event
-|Event_applies_to=dom/Element
+|Event_applies_to=dom/objects/PointerEvent
 |Content=This event is dispatched to the element that is receiving pointer capture. Subsequent events for that pointer will be dispatched to this element. See [[dom/methods/setPointerCapture|setPointerCapture]].
 |Interface=dom/objects/PointerEvent
 |Target=dom/Element
