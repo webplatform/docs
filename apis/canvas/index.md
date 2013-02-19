@@ -10,8 +10,10 @@
 |List_all_subpages=No
 }}
 {{Notes_Section}}
-{{See_Also_Section}}
-{{Topics|Canvas}}
+{{See_Also_Section
+|Topic_clusters=Canvas
+}}
+{{Topics|API, Canvas}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
