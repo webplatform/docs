@@ -11,30 +11,30 @@
 |Examples={{Single Example
 |Language=HTML
 |Description=The following example shows a basic usage of the <code>&lt;main&gt;</code> element
-|Code=<!DOCTYPE html>
-<html>
-<head>
-  <title>Main element example</title>
-</head>
-<body>
-  <header>
-    <h1>The main element</h1>
-  </header>
-  <main>
-    <h2>Some content on the main element</h2>
+|Code=&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Main element example&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;header&gt;
+    &lt;h1&gt;The main element&lt;/h1&gt;
+  &lt;/header&gt;
+  &lt;main&gt;
+    &lt;h2&gt;Some content on the main element&lt;/h2&gt;
 
-    <article>
+    &lt;article&gt;
       ...
-    </artice>
-    <section>
+    &lt;/artice&gt;
+    &lt;section&gt;
       ...
-    </section>
-  </main>
-  <footer>
+    &lt;/section&gt;
+  &lt;/main&gt;
+  &lt;footer&gt;
     Copyright 2013 Web Platform
-  </footer>
-</body>
-</html>
+  &lt;/footer&gt;
+&lt;/body&gt;
+&lt;/html&gt;
 }}
 }}
 {{Notes_Section
