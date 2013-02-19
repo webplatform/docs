@@ -62,7 +62,7 @@ function checkPointerSize(event) {
 |Notes_rows={{Compatibility Notes Row
 |Browser=Internet Explorer
 |Version=10
-|Note=Pointer events are supported with the MS prefix. In the example above, IE10 would recognize '''MSPointerDown'', but not ''pointerdown''.
+|Note=Pointer events are supported with the MS prefix. In the example above, IE10 would require '''MSPointerDown'' rather than ''pointerdown''.
 }}
 }}
 {{See_Also_Section}}
