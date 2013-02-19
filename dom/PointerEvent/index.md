@@ -84,6 +84,7 @@
 |Notes_rows={{Compatibility Notes Row
 |Browser=Internet Explorer
 |Version=10
+|Note=test
 }}
 }}
 {{See_Also_Section
