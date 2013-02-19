@@ -8,7 +8,34 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Description=The following example shows a basic usage of the <code>&lt;main&gt;</code> element
+|Code=<!DOCTYPE html>
+<html>
+<head>
+  <title>Main element example</title>
+</head>
+<body>
+  <header>
+    <h1>The main element</h1>
+  </header>
+  <main>
+    <h2>Some content on the main element</h2>
+
+    <article>
+      ...
+    </artice>
+    <section>
+      ...
+    </section>
+  </main>
+  <footer>
+    Copyright 2013 Web Platform
+  </footer>
+</body>
+</html>
+}}
 }}
 {{Notes_Section
 |Notes=* It is advised to use ARIA <code>role="main"</code> attribute on the main element until assistive technologies have implemented the element.
@@ -47,7 +74,40 @@
 |Safari_prefixed_supported=No
 |Safari_prefixed_version=
 }}
-|Mobile_rows=
+|Mobile_rows={{Compatibility Table Mobile Row
+|Android_supported=No
+|Android_version=
+|Android_prefixed_supported=No
+|Android_prefixed_version=
+|Blackberry_supported=No
+|Blackberry_version=
+|Blackberry_prefixed_supported=No
+|Blackberry_prefixed_version=
+|Chrome_mobile_supported=No
+|Chrome_mobile_version=
+|Chrome_mobile_prefixed_supported=No
+|Chrome_mobile_prefixed_version=
+|Firefox_mobile_supported=No
+|Firefox_mobile_version=
+|Firefox_mobile_prefixed_supported=No
+|Firefox_mobile_prefixed_version=
+|IE_mobile_supported=No
+|IE_mobile_version=
+|IE_mobile_prefixed_supported=No
+|IE_mobile_prefixed_version=
+|Opera_mobile_supported=No
+|Opera_mobile_version=
+|Opera_mobile_prefixed_supported=No
+|Opera_mobile_prefixed_version=
+|Opera_mini_supported=No
+|Opera_mini_version=
+|Opera_mini_prefixed_supported=No
+|Opera_mini_prefixed_version=
+|Safari_mobile_supported=No
+|Safari_mobile_version=
+|Safari_mobile_prefixed_supported=Unknown
+|Safari_mobile_prefixed_version=
+}}
 |Notes_rows=
 }}
 {{See_Also_Section
