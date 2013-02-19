@@ -1,5 +1,6 @@
 {{Page_Title|Storage}}
 {{Flags
+|High-level issues=Needs Topics, Missing Relevant Sections
 |Content=Incomplete
 }}
 {{Standardization_Status}}
@@ -20,5 +21,4 @@
 |Sources=HTML5Rocks
 |MDN_link=
 |MSDN_link=
-|HTML5Rocks_link=
 }}
