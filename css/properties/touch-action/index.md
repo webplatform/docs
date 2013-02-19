@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Stub, Needs Flags
-|Content=Incomplete
+|Content=Incomplete, Compatibility Incomplete
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
@@ -33,7 +33,6 @@
 |Code=canvas#fingerpainter {
   touch-action: none;
 }
-
 }}
 }}
 {{Notes_Section}}
