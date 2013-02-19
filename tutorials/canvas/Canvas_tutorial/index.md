@@ -32,11 +32,14 @@ The <code>&lt;canvas&gt;</code> element isn't supported in some older browsers, 
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Topic_clusters=Canvas
+}}
 {{Topics|Canvas}}
 {{External_Attribution
 |Is_CC-BY-SA=Yes
