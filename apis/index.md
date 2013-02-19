@@ -67,7 +67,7 @@ To contribute to the development of APIs and provide feedback, you need to know 
 == List of all APIs ==
 
 {{Concept_Listing
-|Query=[[Category:API]][[Category:API_Listing]]
+|Query=[[Category:API]][[Category:API_Listings]]
 |Use_page_title=Yes
 |List_all_subpages=No
 }}
