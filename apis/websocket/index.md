@@ -63,7 +63,7 @@ WebSocket URIs have the same basic format as HTTP URIs, but with a different URI
 * http://ajf.me/websocket/ - Has a list of libraries and frameworks for most popular programming languagess
 * http://www.html5rocks.com/en/tutorials/websockets/basics/ - Good tutorial by html5rocks
 }}
-{{Topics|WebSocket}}
+{{Topics|API, WebSocket}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
