@@ -15,58 +15,6 @@ Many libraries include API functionality, so you don't have to use the raw API. 
 
 Note: If you are completely new to web development, you may want to review [[beginners|Web development for beginners]].
 
-== Explore our API docs ==
-
-Some of the more sought-after APIs in use today include the following.
-
-<div class="topic-container">
-
-  <div class="short-topic">
-  
-    <div class="image icon-api"></div>
-    
-    <div class="inner">
-    <h3>[[apis/canvas|Canvas]]</h3>
-    
-    <p>The <code><canvas></code> element and the corresponding API are among the most-used tools in web development. This API helps you render two-dimensional pixel-based graphics, and in combination with other APIs, lets your applications perform displays of awesome artistic brilliance.</p>
-    </div>
-  
-  </div>
-  
-  <div class="short-topic">
-  
-    <div class="image icon-api"></div>
-    
-    <div class="inner">
-    <h3>[[apis/indexeddb|Indexed DB]]</h3>
-    
-    <p>Off-line storage is one of the key features of a modern web app, and the Indexed DB,  [[apis/appcache|AppCache]], [[apis/file|File]], and [[apis/filesystem|File System]] APIs provide the interfaces to the browsers storage facilities.</p>
-    </div>
-  
-  </div>
-  
-  <div class="short-topic">
-  
-    <div class="image icon-api"></div>
-    
-    <div class="inner">
-    <h3>[[apis/webrtc|Web RTC]]</h3>
-    
-    <p>Real-Time Communication, until recently only available through installed applications like Skype, is quickly becoming native browser functionality, and is poised to become one of the most disruptive technologies on the internet.</p>
-    </div>
-  
-  </div>
-
-
-
-</div>
-
-
-
-
-
-<div class="clearfixboth"></div>
-
 == List of all APIs ==
 
 {{Concept_Listing
