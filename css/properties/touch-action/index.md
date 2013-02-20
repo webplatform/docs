@@ -77,11 +77,6 @@
 }}
 }}
 {{See_Also_Section
-|Manual_links=* [[dom/objects/PointerEvent|PointerEvent]]
-* [[dom/methods/setPointerCapture|setPointerCapture]]
-* [[dom/methods/releasePointerCapture|releasePointerCapture]]
-* [[dom/navigator/pointerEnabled|pointerEnabled]]
-* [[dom/navigator/maxTouchPoints|maxTouchPoints]]
 |Manual_sections=Feature Detection
 * [[dom/navigator/pointerEnabled|pointerEnabled]]
 * [[dom/navigator/maxTouchPoints|maxTouchPoints]]
