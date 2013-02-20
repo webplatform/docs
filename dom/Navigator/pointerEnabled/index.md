@@ -93,7 +93,7 @@ window.addEventListener('load', function() {
 |Manual_sections=Feature Detection
 * [[dom/navigator/maxTouchPoints|maxTouchPoints]]
 
-Related Events
+Events
 * [[dom/events/gotpointercapture|gotpointercapture]]
 * [[dom/events/lostpointercapture|lostpointercapture]]
 * [[dom/events/pointercancel|pointercancel]]
