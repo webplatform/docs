@@ -60,7 +60,8 @@
 * [http://msdn.microsoft.com/en-us/library/ie/hh771910(v=vs.85).aspx MSPointerHover]
 * [http://msdn.microsoft.com/en-us/library/ie/hh771911(v=vs.85).aspx MSPointerMove]
 * [http://msdn.microsoft.com/en-us/library/ie/hh771912(v=vs.85).aspx MSPointerOut]
-* [http://msdn.microsoft.com/en-us/library/ie/hh771913(v=vs.85).aspx MSPointerOver]* [http://msdn.microsoft.com/en-us/library/ie/hh771914(v=vs.85).aspx MSPointerUp]
+* [http://msdn.microsoft.com/en-us/library/ie/hh771913(v=vs.85).aspx MSPointerOver]
+* [http://msdn.microsoft.com/en-us/library/ie/hh771914(v=vs.85).aspx MSPointerUp]
 }}
 }}
 {{See_Also_Section
