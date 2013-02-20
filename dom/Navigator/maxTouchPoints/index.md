@@ -97,7 +97,7 @@ For example, suppose a device has 3 touchscreens, which support 2, 5, and 10 sim
 |Manual_sections=Feature Detection
 * [[dom/navigator/pointerEnabled|pointerEnabled]]
 
-Related Events
+Events
 * [[dom/events/gotpointercapture|gotpointercapture]]
 * [[dom/events/lostpointercapture|lostpointercapture]]
 * [[dom/events/pointercancel|pointercancel]]
