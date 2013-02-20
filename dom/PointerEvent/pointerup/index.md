@@ -67,7 +67,32 @@ Pointer Events do not fire overlapping pointerdown and pointerup events when an 
 |Note=Supported as: [http://msdn.microsoft.com/en-us/library/ie/hh771914(v=vs.85).aspx MSPointerUp]
 }}
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Manual_sections=Feature Detection
+* [[dom/navigator/pointerEnabled|pointerEnabled]]
+* [[dom/navigator/maxTouchPoints|maxTouchPoints]]
+
+Events
+* [[dom/events/gotpointercapture|gotpointercapture]]
+* [[dom/events/lostpointercapture|lostpointercapture]]
+* [[dom/events/pointercancel|pointercancel]]
+* [[dom/events/pointerdown|pointerdown]]
+* [[dom/events/pointerenter|pointerenter]]
+* [[dom/events/pointerleave|pointerleave]]
+* [[dom/events/pointermove|pointermove]]
+* [[dom/events/pointerout|pointerout]]
+* [[dom/events/pointerover|pointerover]]
+
+Objects
+* [[dom/objects/PointerEvent|PointerEvent]]
+
+Methods
+* [[dom/methods/setPointerCapture|setPointerCapture]]
+* [[dom/methods/releasePointerCapture|releasePointerCapture]]
+
+CSS Properties
+* [[css/properties/touch-action|touch-action]]
+}}
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
