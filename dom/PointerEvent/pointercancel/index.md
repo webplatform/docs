@@ -68,7 +68,32 @@
 |Note=Supported as: [http://msdn.microsoft.com/en-us/library/ie/hh846776(v=vs.85).aspx MSPointerCancel]
 }}
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Manual_sections=Feature Detection
+* [[dom/navigator/pointerEnabled|pointerEnabled]]
+* [[dom/navigator/maxTouchPoints|maxTouchPoints]]
+
+Events
+* [[dom/events/gotpointercapture|gotpointercapture]]
+* [[dom/events/lostpointercapture|lostpointercapture]]
+* [[dom/events/pointerdown|pointerdown]]
+* [[dom/events/pointerenter|pointerenter]]
+* [[dom/events/pointerleave|pointerleave]]
+* [[dom/events/pointermove|pointermove]]
+* [[dom/events/pointerout|pointerout]]
+* [[dom/events/pointerover|pointerover]]
+* [[dom/events/pointerup|pointerup]]
+
+Objects
+* [[dom/objects/PointerEvent|PointerEvent]]
+
+Methods
+* [[dom/methods/setPointerCapture|setPointerCapture]]
+* [[dom/methods/releasePointerCapture|releasePointerCapture]]
+
+CSS Properties
+* [[css/properties/touch-action|touch-action]]
+}}
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
