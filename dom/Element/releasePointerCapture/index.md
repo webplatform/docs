@@ -60,10 +60,29 @@
 |Notes_rows=
 }}
 {{See_Also_Section
-|Manual_links=* [[dom/objects/PointerEvent|PointerEvent]]
-* [[dom/methods/setPointerCapture|setPointerCapture]]
+|Manual_sections=Feature Detection
 * [[dom/navigator/pointerEnabled|pointerEnabled]]
 * [[dom/navigator/maxTouchPoints|maxTouchPoints]]
+
+Events
+* [[dom/events/gotpointercapture|gotpointercapture]]
+* [[dom/events/lostpointercapture|lostpointercapture]]
+* [[dom/events/pointercancel|pointercancel]]
+* [[dom/events/pointerdown|pointerdown]]
+* [[dom/events/pointerenter|pointerenter]]
+* [[dom/events/pointerleave|pointerleave]]
+* [[dom/events/pointermove|pointermove]]
+* [[dom/events/pointerout|pointerout]]
+* [[dom/events/pointerover|pointerover]]
+* [[dom/events/pointerup|pointerup]]
+
+Objects
+* [[dom/objects/PointerEvent|PointerEvent]]
+
+Methods
+* [[dom/methods/setPointerCapture|setPointerCapture]]
+
+CSS Properties
 * [[css/properties/touch-action|touch-action]]
 }}
 {{Topics}}
