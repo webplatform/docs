@@ -12,7 +12,7 @@
 {{Concept_Listing
 |Query=[[Category:Webstorage]][[Category:API_Objects]]
 |Use_page_title=No
-|List_all_subpages=Yes
+|List_all_subpages=No
 }}
 {{Notes_Section
 |Usage=These APIs allow web apps to function offline. They are also a performance booster by storing large amounts of data locally instead of waiting for it to download. Lastly, they provide an easier programming model, with no server infrastructure required.
