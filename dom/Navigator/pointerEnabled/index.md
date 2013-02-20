@@ -90,10 +90,29 @@ window.addEventListener('load', function() {
 }}
 }}
 {{See_Also_Section
-|Manual_links=* [[dom/navigator/maxTouchPoints|maxTouchPoints]]
+|Manual_sections=Feature Detection
+* [[dom/navigator/maxTouchPoints|maxTouchPoints]]
+
+Related Events
+* [[dom/events/gotpointercapture|gotpointercapture]]
+* [[dom/events/lostpointercapture|lostpointercapture]]
+* [[dom/events/pointercancel|pointercancel]]
+* [[dom/events/pointerdown|pointerdown]]
+* [[dom/events/pointerenter|pointerenter]]
+* [[dom/events/pointerleave|pointerleave]]
+* [[dom/events/pointermove|pointermove]]
+* [[dom/events/pointerout|pointerout]]
+* [[dom/events/pointerover|pointerover]]
+* [[dom/events/pointerup|pointerup]]
+
+Objects
 * [[dom/objects/PointerEvent|PointerEvent]]
+
+Methods
 * [[dom/methods/setPointerCapture|setPointerCapture]]
 * [[dom/methods/releasePointerCapture|releasePointerCapture]]
+
+CSS Properties
 * [[css/properties/touch-action|touch-action]]
 }}
 {{Topics}}
