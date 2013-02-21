@@ -7,7 +7,7 @@
 {{API_Name}}
 {{Summary_Section|Dispatched when a pointing device is moved into the hit test boundaries of an element or one of its descendants, including as a result of a [[dom/objects/PointerEvent/pointerdown|pointerdown]] event from a device that does not support hover.}}
 {{Event
-|Event_applies_to=dom/objects/PointerEvent
+|Event_applies_to=dom/PointerEvent
 |Content=This event type is similar to [[dom/objects/PointerEvent/pointerover|pointerover]], but differs in that it does not bubble.
 |Interface=dom/objects/PointerEvent
 |Target=dom/Element
@@ -39,30 +39,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=Feature Detection
-* [[dom/navigator/pointerEnabled|pointerEnabled]]
-* [[dom/navigator/maxTouchPoints|maxTouchPoints]]
-
-Events
-* [[dom/events/gotpointercapture|gotpointercapture]]
-* [[dom/events/lostpointercapture|lostpointercapture]]
-* [[dom/events/pointercancel|pointercancel]]
-* [[dom/events/pointerdown|pointerdown]]
-* [[dom/events/pointerleave|pointerleave]]
-* [[dom/events/pointermove|pointermove]]
-* [[dom/events/pointerout|pointerout]]
-* [[dom/events/pointerover|pointerover]]
-* [[dom/events/pointerup|pointerup]]
-
-Objects
-* [[dom/objects/PointerEvent|PointerEvent]]
-
-Methods
-* [[dom/methods/setPointerCapture|setPointerCapture]]
-* [[dom/methods/releasePointerCapture|releasePointerCapture]]
-
-CSS Properties
-* [[css/properties/touch-action|touch-action]]
+|Topic_clusters=Pointer Events
 }}
 {{Topics}}
 {{External_Attribution
