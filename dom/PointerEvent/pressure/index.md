@@ -7,7 +7,7 @@
 {{API_Name}}
 {{Summary_Section|The normalized pressure of the pointer input in the range of [0,1], where 0 and 1 represent the minimum and maximum pressure the hardware is capable of detecting, respectively.}}
 {{API_Object_Property
-|Property_applies_to=dom/objects/PointerEvent
+|Property_applies_to=dom/PointerEvent
 |Read_only=Yes
 |Example_object_name=event
 }}
