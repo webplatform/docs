@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|Empties the list of subpaths in the context's current default path so that the it once again has zero subpaths.}}
+{{Summary_Section|Empties the list of subpaths in the context's current default path so that it once again has zero subpaths.}}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=apis/canvas/CanvasRenderingContext2D
