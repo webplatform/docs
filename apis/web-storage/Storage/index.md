@@ -32,13 +32,13 @@ sessionStorage.myKey {{=}} '...';
       values of the localStorage object.
     </div></nowiki>
 
-    <nowiki><div id="example-content"></div></nowiki>
+    <nowiki><div id="example-content"></div>
 
     <p id="log"></p>
 
-    <nowiki><!-- Javscript --></nowiki>
+    <!-- Javscript -->
 
-  </body>
+  </body></nowiki>
 </html>
 |LiveURL=http://playground.html5rocks.com/#localstorage
 }}{{Single Example
