@@ -1,5 +1,9 @@
 {{Page_Title}}
 {{Flags
+|High-level issues=Merge Candidate
+|Editorial notes={{Editorial/Merge_Candidate
+|Other=http://docs.webplatform.org/wiki/concepts/programming/Core_JavaScript_Objects
+}}
 }}
 {{Byline}}
 {{Summary_Section|This chapter describes the predefined objects in core JavaScript: <code>Array</code>, <code>Boolean</code>, <code>Date</code>, <code>Function</code>, <code>Math</code>, <code>Number</code>, <code>RegExp</code>, and <code>String</code>.}}
@@ -880,6 +884,7 @@ The following table summarizes the methods of <code>String</code> objects.
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
