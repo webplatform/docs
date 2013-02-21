@@ -7,7 +7,7 @@
 {{API_Name}}
 {{Summary_Section|A unique identifier for the pointer causing the event}}
 {{API_Object_Property
-|Property_applies_to=dom/objects/PointerEvent
+|Property_applies_to=dom/PointerEvent
 |Read_only=Yes
 |Example_object_name=event
 |Javascript_data_type=Number
