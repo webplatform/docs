@@ -94,6 +94,7 @@ For example, suppose a device has 3 touchscreens, which support 2, 5, and 10 sim
 }}
 }}
 {{See_Also_Section
+|Topic_clusters=Pointer Events
 |Manual_sections=Feature Detection
 * [[dom/navigator/pointerEnabled|pointerEnabled]]
 
