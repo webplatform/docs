@@ -131,8 +131,8 @@ var area = document.createElement('textarea');
         var delta = 0;
         if (window.localStorage.getItem('value')) {
           delta = ((new Date()).getTime() - 
-         (new Date()).setTime(window.localStorage.getItem
-         ('timestamp'))) / 1000;
+            (new Date()).setTime(window.localStorage.getItem
+            ('timestamp'))) / 1000;
           document.querySelector("#log").innerHTML = 'last saved: ' + delta + 's ago';
         }
         else {
