@@ -90,6 +90,7 @@ window.addEventListener('load', function() {
 }}
 }}
 {{See_Also_Section
+|Topic_clusters=Pointer Events
 |Manual_sections=Feature Detection
 * [[dom/navigator/maxTouchPoints|maxTouchPoints]]
 
