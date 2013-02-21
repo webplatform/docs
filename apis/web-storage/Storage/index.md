@@ -16,7 +16,7 @@ sessionStorage['myKey'] {{=}} '...';
 sessionStorage.myKey {{=}} '...';
 }}{{Single Example
 |Language=HTML
-|Code=<html>
+|Code=<nowiki><html>
   <head>
     <style>
     <!-- include CSS -->
@@ -26,7 +26,10 @@ sessionStorage.myKey {{=}} '...';
   <body>
       
     <nowiki><div id="example-excerpt">
-      This sample saves some text on the localStorage object and retrieves the value on load time. Use your browser developer tools to debug the values of the localStorage object.
+      This sample saves some text on the localStorage object 
+      and retrieves the value on load time. 
+      Use your browser developer tools to debug the 
+      values of the localStorage object.
     </div></nowiki>
 
     <nowiki><div id="example-content"></div></nowiki>
@@ -36,7 +39,7 @@ sessionStorage.myKey {{=}} '...';
     <!-- Javscript -->
 
   </body>
-</html>
+</html></nowiki>
 |LiveURL=http://playground.html5rocks.com/#localstorage
 }}{{Single Example
 |Language=CSS
