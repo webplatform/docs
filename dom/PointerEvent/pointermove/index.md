@@ -7,7 +7,7 @@
 {{API_Name}}
 {{Summary_Section|Dispatched when a pointer changes coordinates, button state, pressure, tilt, or contact geometry (e.g. [[dom/objects/PointerEvent/width|width]] and [[dom/objects/PointerEvent/height|height]]).}}
 {{Event
-|Event_applies_to=dom/objects/PointerEvent
+|Event_applies_to=dom/PointerEvent
 |Interface=dom/objects/PointerEvent
 |Target=dom/Element
 |Default_action=Varies: when the pointer is primary, all default actions of the [[dom/events/mousemove|mousemove]] event
@@ -61,30 +61,7 @@
 }}
 }}
 {{See_Also_Section
-|Manual_sections=Feature Detection
-* [[dom/navigator/pointerEnabled|pointerEnabled]]
-* [[dom/navigator/maxTouchPoints|maxTouchPoints]]
-
-Events
-* [[dom/events/gotpointercapture|gotpointercapture]]
-* [[dom/events/lostpointercapture|lostpointercapture]]
-* [[dom/events/pointercancel|pointercancel]]
-* [[dom/events/pointerdown|pointerdown]]
-* [[dom/events/pointerenter|pointerenter]]
-* [[dom/events/pointerleave|pointerleave]]
-* [[dom/events/pointerout|pointerout]]
-* [[dom/events/pointerover|pointerover]]
-* [[dom/events/pointerup|pointerup]]
-
-Objects
-* [[dom/objects/PointerEvent|PointerEvent]]
-
-Methods
-* [[dom/methods/setPointerCapture|setPointerCapture]]
-* [[dom/methods/releasePointerCapture|releasePointerCapture]]
-
-CSS Properties
-* [[css/properties/touch-action|touch-action]]
+|Topic_clusters=Pointer Events
 }}
 {{Topics}}
 {{External_Attribution
