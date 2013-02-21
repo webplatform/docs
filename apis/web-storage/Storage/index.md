@@ -16,7 +16,7 @@ sessionStorage['myKey'] {{=}} '...';
 sessionStorage.myKey {{=}} '...';
 }}{{Single Example
 |Language=HTML
-|Code=<nowiki><html>
+|Code=<html>
   <head>
     <style>
     <!-- include CSS -->
@@ -36,10 +36,10 @@ sessionStorage.myKey {{=}} '...';
 
     <p id="log"></p>
 
-    <!-- Javscript -->
+    <nowiki><!-- Javscript --></nowiki>
 
   </body>
-</html></nowiki>
+</html>
 |LiveURL=http://playground.html5rocks.com/#localstorage
 }}{{Single Example
 |Language=CSS
