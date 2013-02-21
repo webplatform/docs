@@ -7,7 +7,7 @@
 {{API_Name}}
 {{Summary_Section|The plane angle (in degrees, in the range of [-90,90]) between the X-Z plane and the plane containing both the transducer (e.g. pen stylus) axis and the X axis.}}
 {{API_Object_Property
-|Property_applies_to=dom/objects/PointerEvent
+|Property_applies_to=dom/PointerEvent
 |Read_only=Yes
 |Example_object_name=event
 }}
