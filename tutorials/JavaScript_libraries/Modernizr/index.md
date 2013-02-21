@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Missing Relevant Sections, Stub
+|High-level issues=Stub, Missing Relevant Sections
 |Content=Incomplete, Examples Best Practices
 }}
 {{Byline
@@ -15,28 +15,37 @@ As web grows we are getting something new every day. And obviously all new featu
 
 == How it Works? ==
 
-Modernizr runs on page load to detect the features after that it creates a JavaScript object with the result and adds classes to the html element for you to key your CSS on.
+Modernizr runs on page load to detect the support of HTML5 and CSS3 features in the current browser; after that it creates a JavaScript object with the results, and adds classes to the <code>html</code> element for you to key your CSS on.
 
 == Key Facts ==
 
-* It tests for over 40 next-generation features, all in a matter of milliseconds
+* It tests for over 150 next-generation features, all in a matter of milliseconds
 * It creates a JavaScript object (named Modernizr) that contains the results of these tests as boolean properties
 * It adds classes to the html element that explain precisely what features are and are not natively supported
 * It provides a script loader so you can pull in polyfills to backfill functionality in old browsers
 
 == Install Modernizr ==
 
-Installing the Modernizr is not the rocket engineering. It just a matter of including one JavaScript file in your head tag. Happy :)
 
-Modernizr provide feature to build our own file also. With this feature we can build our own file with limited feature detection. [http://modernizr.com/download/ Build Modernizr]
+To install Modernizr, download a copy from [http://modernizr.com/ modernizr.com]. You can choose the Development version which includes the 40+ core tests, or [http://modernizr.com/download/ build a custom download] by picking only the features you want from the 150+ available. 
 
-Once you are done with the generating your custom build or full file you just need to include that file in your head section and you are done.
+Next, you simply include the library in the <code>head</code> of your HTML page, like so:
+
+ <script src="path/to/modernizr.js"></script>
+
+The library will run automatically when the page loads, and make the results available to you via classes on the <code>html</code> element, and as properties on a global <code>Modernizr</code> JavaScript object, for example: <code>Modernizr.video; // true or false, depending on the browser's support for HTML5 video</code>
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Notes=There are some features that Modernizr cannot detect. See [https://github.com/Modernizr/Modernizr/wiki/Undetectables The Undetectables] on Modernizr’s wiki for more information.
+
+Other features may yield what are known as ''false positive'' results in some browsers: the browser claims to support a feature, but its support is actually missing, broken or incomplete. Modernizr does its best to detect these false positives and will make exceptions for those cases, to offer you the most accurate feature detection available.
+}}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
+|Chrome_version=1.0+
 |Chrome_prefixed_supported=Unknown
 |Chrome_prefixed_version=
 |Firefox_supported=Yes
@@ -87,7 +96,7 @@ Once you are done with the generating your custom build or full file you just ne
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|Modernizr, Library, JavaScript}}
+{{Topics|JavaScript, Library}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
