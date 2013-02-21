@@ -68,30 +68,7 @@ Pointer Events do not fire overlapping pointerdown and pointerup events when an 
 }}
 }}
 {{See_Also_Section
-|Manual_sections=Feature Detection
-* [[dom/navigator/pointerEnabled|pointerEnabled]]
-* [[dom/navigator/maxTouchPoints|maxTouchPoints]]
-
-Events
-* [[dom/events/gotpointercapture|gotpointercapture]]
-* [[dom/events/lostpointercapture|lostpointercapture]]
-* [[dom/events/pointercancel|pointercancel]]
-* [[dom/events/pointerdown|pointerdown]]
-* [[dom/events/pointerenter|pointerenter]]
-* [[dom/events/pointerleave|pointerleave]]
-* [[dom/events/pointermove|pointermove]]
-* [[dom/events/pointerout|pointerout]]
-* [[dom/events/pointerover|pointerover]]
-
-Objects
-* [[dom/objects/PointerEvent|PointerEvent]]
-
-Methods
-* [[dom/methods/setPointerCapture|setPointerCapture]]
-* [[dom/methods/releasePointerCapture|releasePointerCapture]]
-
-CSS Properties
-* [[css/properties/touch-action|touch-action]]
+|Topic_clusters=Pointer Events
 }}
 {{Topics}}
 {{External_Attribution
