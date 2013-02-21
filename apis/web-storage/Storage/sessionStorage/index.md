@@ -1,35 +1,41 @@
-{{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
-}}
-{{Standardization_Status|}}
+{{Page_Title}}
+{{Flags}}
+{{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
+{{Summary_Section|Represents the set of storage areas specific to the current top-level browsing context.}}
 {{API_Object_Property
-|Property_applies_to=apis/web-storage/HTMLStorage
-|Read_only=
+|Property_applies_to=apis/web-storage/Storage
+|Read_only=Yes
+|Example_object_name=object
+|Javascript_data_type=Object
 }}
-{{Topics|DOM}}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
-For more information, see Introduction to Web Storage.
-|Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}196999 Web Storage], Section 4.2
-
-
+|Notes=The '''sessionStorage''' "property" provides an instance of a  storage area object, to which the '''Storage''' object's properties and methods are applied.
 }}
-{{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
-*<code>window</code>
-*<code>Introduction to Web Storage</code>
+{{Related_Specifications_Section
+|Specifications={{Related Specification
+|Name=W3C Web Storage Specification
+|URL=http://dev.w3.org/html5/webstorage
+|Status=W3C Editor's Draft
 }}
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section}}
+{{Topics|Webstorage}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
 |HTML5Rocks_link=
 }}
