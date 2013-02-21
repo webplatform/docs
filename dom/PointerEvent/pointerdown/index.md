@@ -7,7 +7,7 @@
 {{API_Name}}
 {{Summary_Section|Dispatched when a pointer enters the state of having a non-zero value for the [[dom/properties/buttons|buttons]] property.}}
 {{Event
-|Event_applies_to=dom/objects/PointerEvent
+|Event_applies_to=dom/PointerEvent
 |Content=For mouse, this is when the device has at least one button depressed. For touch, this is when there is physical contact with the digitizer. For pen, this is when the pen has physical contact with the digitizer.
 
 For input devices that do not support hover, the user agent also fires a pointerover event preceding the pointerdown event.
@@ -68,30 +68,7 @@ Pointer Events do not fire overlapping pointerdown and pointerup events when an 
 }}
 }}
 {{See_Also_Section
-|Manual_sections=Feature Detection
-* [[dom/navigator/pointerEnabled|pointerEnabled]]
-* [[dom/navigator/maxTouchPoints|maxTouchPoints]]
-
-Events
-* [[dom/events/gotpointercapture|gotpointercapture]]
-* [[dom/events/lostpointercapture|lostpointercapture]]
-* [[dom/events/pointercancel|pointercancel]]
-* [[dom/events/pointerenter|pointerenter]]
-* [[dom/events/pointerleave|pointerleave]]
-* [[dom/events/pointermove|pointermove]]
-* [[dom/events/pointerout|pointerout]]
-* [[dom/events/pointerover|pointerover]]
-* [[dom/events/pointerup|pointerup]]
-
-Objects
-* [[dom/objects/PointerEvent|PointerEvent]]
-
-Methods
-* [[dom/methods/setPointerCapture|setPointerCapture]]
-* [[dom/methods/releasePointerCapture|releasePointerCapture]]
-
-CSS Properties
-* [[css/properties/touch-action|touch-action]]
+|Topic_clusters=Pointer Events
 }}
 {{Topics}}
 {{External_Attribution
