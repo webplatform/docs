@@ -156,7 +156,7 @@ Default: 0
 |Description=Indicates whether this is the primary pointer that is used to control the mouse position in a multi-touch scenario. Default: false
 |Optional=No
 }}
-|Method_applies_to=dom/objects/PointerEvent
+|Method_applies_to=dom/PointerEvent
 |Example_object_name=event
 |Javascript_data_type=void
 |Return_value_description=This method does not return a value.
@@ -208,7 +208,9 @@ Default: 0
 |Note=The PointerEvent object and associated events are supported with the MS prefix. E.g., [http://msdn.microsoft.com/en-us/library/ie/hh772103(v=vs.85).aspx MSPointerEvent]
 }}
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Topic_clusters=Pointer Events
+}}
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
