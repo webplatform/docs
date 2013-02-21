@@ -33,7 +33,9 @@ Next, you simply include the library in the <code>head</code> of your HTML page,
 
  <script src="path/to/modernizr.js"></script>
 
-The library will run automatically when the page loads, and make the results available to you via classes on the <code>html</code> element, and as properties on a global <code>Modernizr</code> JavaScript object, for example: <code>Modernizr.video; // true or false, depending on the browser's support for HTML5 video</code>
+The library will run automatically when the page loads, and make the results available to you via classes on the <code>html</code> element, and as properties on a global <code>Modernizr</code> JavaScript object, for example: 
+
+ Modernizr.video; ''// true or false, depending on the browser's support for HTML5 video''
 }}
 {{Notes_Section
 |Notes=There are some features that Modernizr cannot detect. See [https://github.com/Modernizr/Modernizr/wiki/Undetectables The Undetectables] on Modernizr’s wiki for more information.
@@ -45,7 +47,7 @@ Other features may yield what are known as ''false positive'' results in some br
 |Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
-|Chrome_version=1.0+
+|Chrome_version=4.0+
 |Chrome_prefixed_supported=Unknown
 |Chrome_prefixed_version=
 |Firefox_supported=Yes
