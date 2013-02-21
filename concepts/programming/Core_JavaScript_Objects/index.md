@@ -1,9 +1,12 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Merge Candidate, Split Candidate
-|Editorial notes=Currently this page handles all Core Objects. These should be split to seperate pages, with links to the individual pages from the javascript Objects page.
-{{Editorial/Merge_Candidate
+|High-level issues=Deletion Candidate, Merge Candidate
+|Content=Incomplete
+|Editorial notes={{Editorial/Merge_Candidate
 |Other=http://docs.webplatform.org/wiki/concepts/programming/javascript/core_objects
+}}
+{{Editorial/Deletion_Candidate
+| Content is incomplete, and the available content is the same as on the merge-candidate, which is complete.
 }}
 }}
 {{API_Name}}
