@@ -1,5 +1,8 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|High-level issues=Split Candidate
+|Editorial notes=Currently this page handles all Core Objects. These should be split to seperate pages, with links to the individual pages from the javascript Objects page.
+}}
 {{API_Name}}
 {{Summary_Section}}
 {{Concept_Page
