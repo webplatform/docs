@@ -25,11 +25,11 @@ sessionStorage.myKey {{=}} '...';
 
   <body>
       
-    <div id="example-excerpt">
+    <nowiki><div id="example-excerpt">
       This sample saves some text on the localStorage object and retrieves the value on load time. Use your browser developer tools to debug the values of the localStorage object.
-    </div>
+    </div></nowiki>
 
-    <div id="example-content"></div>
+    <nowiki><div id="example-content"></div></nowiki>
 
     <p id="log"></p>
 
