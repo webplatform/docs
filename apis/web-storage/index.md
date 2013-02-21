@@ -1,11 +1,8 @@
-{{Page_Title|Web Storage API}}
-{{Flags
-|High-level issues=Missing Relevant Sections
-|Content=Incomplete, Cleanup
-}}
-{{Standardization_Status}}
+{{Page_Title|web-storage API}}
+{{Flags}}
+{{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|The Web Storage APIs provide developers with JavaScript objects for storing temporary and permanent data on the client's device. These features range from simple key/value storage to a robust sandboxed filesystem.}}
+{{Summary_Section|The Web Storage API provides objects for storing temporary and permanent data on the client's device.}}
 {{API_Listing|Use_page_title=No
 |List_all_subpages=Yes
 }}
@@ -18,7 +15,7 @@
 |Usage=These APIs allow web apps to function offline. They are also a performance booster by storing large amounts of data locally instead of waiting for it to download. Lastly, they provide an easier programming model, with no server infrastructure required.
 }}
 {{See_Also_Section}}
-{{Topics|API, FileSystemAPI, IndexedDB, JavaScript, Performance, Webstorage}}
+{{Topics|Webstorage}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=HTML5Rocks
