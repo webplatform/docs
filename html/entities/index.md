@@ -1,5 +1,10 @@
-{{Flags}}{{Standardization_Status}}{{API_Name}}{{Summary_Section}}
-{{Markup_Structure|Content===Common HTML entities used for typography==
+{{Page_Title}}
+{{Flags}}
+{{Standardization_Status}}
+{{API_Name}}
+{{Summary_Section|This article looks at the different codes that can be used to represent text characters when there is a need to escape them. Included is a list containing several characters and their codes.}}
+{{Markup_Structure
+|Content===Common HTML entities used for typography==
 
 === Introduction ===
  
@@ -196,7 +201,6 @@ For the sake of portability, Unicode entity references should be reserved for us
 # <span id="note-low_quotes">Low quotes are used in several Central and Eastern European langauges in preference to the analogous English opening and closing quote characters.</span>
 # <span id="note-hellip">Since the ellipsis is a single character, the tracking of its constituent glyphs will ''not'' be affected by any value set for the <code>letter-spacing</code> or <code>text-align</code> properties.</span>
 # <span id="note-prime">Primes are used to denote minutes (of both time elapsed and arc) and feet as units of measurement; the double prime in its turn denotes seconds and inches. The use of these characters in relation to units of time elapsed has decreased in popularity in recent years, a decrease that correlates strongly with the increased availability of word processing systems (and their common use by non-specialist operators). Many fonts use prime and double prime characters indistinguishable from single and double close quotes, but for reasons of portability these entities should still be used when called for, notwithstanding the characteristics of the intended display face.</span>
- 
 }}
 {{Examples_Section
 |Not_required=Yes
@@ -208,6 +212,7 @@ For the sake of portability, Unicode entity references should be reserved for us
 }}
 {{Compatibility_Section
 |Not_required=Yes
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
