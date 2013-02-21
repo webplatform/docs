@@ -7,7 +7,7 @@
 {{API_Name}}
 {{Summary_Section|Indicates the device type that caused the event (mouse, pen, touch, etc.).}}
 {{API_Object_Property
-|Property_applies_to=dom/objects/PointerEvent
+|Property_applies_to=dom/PointerEvent
 |Read_only=Yes
 |Example_object_name=event
 |Javascript_data_type=String
