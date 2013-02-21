@@ -208,9 +208,7 @@ Default: 0
 |Note=The PointerEvent object and associated events are supported with the MS prefix. E.g., [http://msdn.microsoft.com/en-us/library/ie/hh772103(v=vs.85).aspx MSPointerEvent]
 }}
 }}
-{{See_Also_Section
-|Topic_clusters=Pointer Events
-}}
+{{See_Also_Section}}
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
