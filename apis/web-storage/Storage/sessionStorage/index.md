@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Represents the set of storage areas specific to the current top-level browsing context.}}
+{{Summary_Section|Provides a Storage object specific to the current top-level browsing context.}}
 {{API_Object_Property
 |Property_applies_to=apis/web-storage/Storage
 |Read_only=Yes
