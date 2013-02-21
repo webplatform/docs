@@ -893,7 +893,7 @@ The following table summarizes the methods of <code>String</code> objects.
 {{See_Also_Section}}
 {{Topics|JavaScript}}
 {{External_Attribution
-|Is_CC-BY-SA=No
+|Is_CC-BY-SA=Yes
 |Sources=MDN
 |MDN_link=https://developer.mozilla.org/en-US/docs/JavaScript/Guide/Predefined_Core_Objects
 |MSDN_link=
