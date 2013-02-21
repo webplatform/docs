@@ -103,9 +103,10 @@ sessionStorage.myKey {{=}} '...';
 }}{{Single Example
 |Language=JavaScript
 |Code=// Generate the little markup from javascript 
-
+<nowiki>
 document.querySelector('#content').innerHTML =
-          '<p><em>Save text locally (it will still be available after restarting your browser)</em></p>';
+          '<p><em>Save text locally (it will still be available 
+          after restarting your browser)</em></p>';
 
 var area = document.createElement('textarea');
     area.style.width = '300px';
@@ -129,13 +130,15 @@ var area = document.createElement('textarea');
       function updateLog() {
         var delta = 0;
         if (window.localStorage.getItem('value')) {
-          delta = ((new Date()).getTime() - (new Date()).setTime(window.localStorage.getItem('timestamp'))) / 1000;
+          delta = ((new Date()).getTime() - 
+         (new Date()).setTime(window.localStorage.getItem
+         ('timestamp'))) / 1000;
           document.querySelector("#log").innerHTML = 'last saved: ' + delta + 's ago';
         }
         else {
           area.value = 'Type your text here...';
         }
-      }
+      }</nowiki>
 }}
 }}
 {{Notes_Section
