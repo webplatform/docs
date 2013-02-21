@@ -7,7 +7,7 @@
 {{API_Name}}
 {{Summary_Section|Dispatched when either (1) the user agent has determined that a pointer is unlikely to continue to produce events (e.g., due to a hardware event), or (2) after having fired the [[dom/objects/PointerEvent/pointerdown|pointerdown]] event, the pointer is subsequently used to manipulate the page viewport (e.g., panning or zooming).}}
 {{Event
-|Event_applies_to=dom/objects/PointerEvent
+|Event_applies_to=dom/PointerEvent
 |Content=A user agent will also fire a [[dom/objects/PointerEvent/pointerout|pointerout]] event after firing the pointercancel event.
 |Interface=dom/objects/PointerEvent
 |Target=dom/Element
@@ -69,30 +69,7 @@
 }}
 }}
 {{See_Also_Section
-|Manual_sections=Feature Detection
-* [[dom/navigator/pointerEnabled|pointerEnabled]]
-* [[dom/navigator/maxTouchPoints|maxTouchPoints]]
-
-Events
-* [[dom/events/gotpointercapture|gotpointercapture]]
-* [[dom/events/lostpointercapture|lostpointercapture]]
-* [[dom/events/pointerdown|pointerdown]]
-* [[dom/events/pointerenter|pointerenter]]
-* [[dom/events/pointerleave|pointerleave]]
-* [[dom/events/pointermove|pointermove]]
-* [[dom/events/pointerout|pointerout]]
-* [[dom/events/pointerover|pointerover]]
-* [[dom/events/pointerup|pointerup]]
-
-Objects
-* [[dom/objects/PointerEvent|PointerEvent]]
-
-Methods
-* [[dom/methods/setPointerCapture|setPointerCapture]]
-* [[dom/methods/releasePointerCapture|releasePointerCapture]]
-
-CSS Properties
-* [[css/properties/touch-action|touch-action]]
+|Topic_clusters=Pointer Events
 }}
 {{Topics}}
 {{External_Attribution
