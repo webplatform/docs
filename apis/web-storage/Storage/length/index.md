@@ -21,14 +21,7 @@
 |Status=W3C Editor's Draft
 }}
 }}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
+eturn the number of key/value pairs currently present in the list associated with the object.{{See_Also_Section}}
 {{Topics|Webstorage}}
 {{External_Attribution
 |Is_CC-BY-SA=No
