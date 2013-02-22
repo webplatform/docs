@@ -264,18 +264,6 @@ You are all set!
 Flash MP3 player is from [[neolao production]].
 MP3 sample is '''Modal Blues''' by [[Rushus]] and
 is licensed under a [[Creative Commons Attribution License]].
-
-== Supported browsers: ==
-   Opera 
-supported
-   IE 
-unsupported
-   Safari 
-supported
-   Firefox 
-supported
-   Chrome 
-supported
 }}
 {{Notes_Section}}
 {{Compatibility_Section
