@@ -5,17 +5,10 @@
 |Name=Ernest Delgado
 |Published=Feb. 5, 2010
 }}
-{{Summary_Section}}
+{{Summary_Section|A step-by-step guide on how to implement the HTML5 audio-tag.}}
 {{Tutorial
 |Content==Implementing the HTML5 Audio Tag =  
 
-=== Table of Contents ===
- 
-* [[Step 1: Wrap your Flash object with the audio tag]]
-* [[Step 2: Add the source reference]]
-* [[Step 3: Add fallback to Flash]]
-* [[Step 4: Add the default controls to show the player]]
-* [[Examples]]
     
 == Step 1: Wrap your Flash object with the audio tag ==
  
@@ -291,7 +284,9 @@ is licensed under a [[Creative Commons Attribution License]].
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Topic_clusters=Audio
+}}
 {{Topics|Audio}}
 {{External_Attribution
 |Is_CC-BY-SA=No
