@@ -1,56 +1,46 @@
-{{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
-}}
-{{Standardization_Status|}}
+{{Page_Title}}
+{{Flags}}
+{{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
+{{Summary_Section|Causes the list associated with the object to be emptied of all key/value pairs, if there are any.}}
 {{API_Object_Method
 |Parameters=
-|Method_applies_to=apis/web-storage/HTMLStorage
+|Method_applies_to=apis/web-storage/Storage
 |Example_object_name=object
-|Return_value_name=object
-|Javascript_data_type=DOM Node
-|Return_value_description=Type: '''HRESULT'''
-
-If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRESULT''' error code.
-
-Type: '''HRESULT'''
-
-If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRESULT''' error code.
-
-
+|Javascript_data_type=void
 }}
-{{Topics|DOM}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
+|Language=JavaScript
 |Description=The following button clears the local storage area for the current domain.
-|LiveURL=
-|Code=
-&lt;button onclick{{=}}"localStorage.clear()"&gt;
-    Clear Stored Values&lt;/button&gt; 
-}}}}
+|Code=&lt;button onclick{{=}}"localStorage.clear()"&gt;
+    Clear Stored Values&lt;/button&gt;
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
-Session storage is cleared immediately. Local storage key/value pairs are removed from memory, and disk storage quota is updated.
-|Import_Notes=
-===Syntax===
-===Standards information===
-There are no standards that apply here.
-
+|Notes=sessionStorage is cleared immediately. localStorage key/value pairs are removed from memory, and disk storage quota is updated.
 }}
-{{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
-*<code>Storage</code>
-*<code>Storage Constructor</code>
-*<code>[[apis/web-storage/methods/removeItem|removeItem]]</code>
+{{Related_Specifications_Section
+|Specifications={{Related Specification
+|Name=W3C Web Storage Specification
+|URL=http://dev.w3.org/html5/webstorage
+|Status=W3C Editor's Draft
 }}
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section}}
+{{Topics|Webstorage}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
 |HTML5Rocks_link=
 }}
