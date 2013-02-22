@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Returns the name of the '''n'''th key in the list.}}
+{{Summary_Section|Returns the name of the ''n''th key in the list.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=index
