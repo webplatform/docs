@@ -112,7 +112,7 @@ To make it easier, we are using the [[SWFObject]] library to insert the Flash pl
 <syntaxhighlight lang="html5">
 <script src="http://www.google.com/jsapi"></script>
 <script>google.load("swfobject", "2.2");</script>
-</pre>
+</syntaxhighlight>
  
 == Step 4: Add the default controls to show the player ==
  
@@ -145,7 +145,7 @@ These controls are not customizable (see examples at the end). Since these defau
     }
   }
 </script>
-</pre>
+</syntaxhighlight>
  
 Alternatively, you can create your own player using JavaScript and CSS.
 
