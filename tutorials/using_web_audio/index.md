@@ -1,4 +1,11 @@
-{{Flags}}
+{{Page_Title}}
+{{Flags
+|High-level issues=Deletion Candidate
+|Editorial notes={{Editorial/Deletion_Candidate
+| Is basically the same tutorial as http://docs.webplatform.org/wiki/tutorials/implementing_html5_audio
+}}
+}}
+{{Byline}}
 {{Summary_Section}}
 {{Tutorial
 |Content==Implementing the HTML5 Audio Tag =
@@ -252,8 +259,10 @@ Flash MP3 player is from [[neolao production]].
 MP3 sample is '''Modal Blues''' by [[Rushus]] and
 is licensed under a [[Creative Commons Attribution License]].
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
