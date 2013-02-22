@@ -600,8 +600,10 @@ The big point here is to cut down on latencies while leveraging the full capabil
 <h2 id="toc-conclusion">Conclusion</h2>
 The journey down the road of mobile HTML5 apps is just beginning. Now you see the very simple and basic underpinnings of a mobile “framework” built solely around HTML5 and it’s supporting technologies. I think it’s important for developers to work with and address these features at their core and not masked by a wrapper.
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
 |Chrome_version=20
@@ -627,7 +629,9 @@ The journey down the road of mobile HTML5 apps is just beginning. Now you see th
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Topic_clusters=Performance
+}}
 {{Topics|Mobile, Performance}}
 {{External_Attribution
 |Is_CC-BY-SA=No
