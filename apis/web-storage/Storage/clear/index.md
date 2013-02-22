@@ -12,7 +12,7 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Language=JavaScript
+|Language=HTML
 |Description=The following button clears the local storage area for the current domain.
 |Code=&lt;button onclick{{=}}"localStorage.clear()"&gt;
     Clear Stored Values&lt;/button&gt;
