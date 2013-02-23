@@ -29,7 +29,7 @@ Here is a simple sample:
 </div>
 </syntaxhighlight>
 
-The “fishing” class if inside of the “mermaid” class only for demo purposes.
+The “fishing” class is inside of the “mermaid” class only for demo purposes.
 
 And here we have some CSS styles:
 <syntaxhighlight lang="html5">
