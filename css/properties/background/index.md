@@ -47,13 +47,12 @@ p { background: url("chess.png") 40% / 10em gray
     background-image: url(chess.png) }
 }}{{Single Example
 |Language=CSS
-|Description=The following example shows how a both a background color (#CCC) and a background image (url(metal.jpg)) are set. The image is rescaled to the full width of the element:
+|Description=The following example shows how both a background color (#CCC) and a background image (url(metal.jpg)) are set. The image is rescaled to the full width of the element:
 |Code=E { background: #CCC url("metal.jpg") top left / 100% auto no-repeat}
 }}{{Single Example
 |Language=CSS
 |Description=The following:
 |Code=div { background: padding-box url(paper.jpg) white center }
-
 }}{{Single Example
 |Description=becomes:
 |Code=div {
