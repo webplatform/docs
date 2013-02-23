@@ -12,7 +12,7 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=This is a full example that uses beginPath to create two stroked lines. 
+|Description=This is a full example that uses beginPath to create two stroked lines.
 |Code=<html>
 <head>
     <title>Canvas beginPath example</title>
@@ -41,7 +41,11 @@
         <canvas id="demo" width="300" height="300">This browser or document mode doesn't support canvas</canvas>
   </body>
 </html>
-
+}}{{Single Example
+|Language=JavaScript
+|Description=This snippet shows the basis syntax for beginPath() using the canvas context. 
+|Code=var ctx = canvas.getContext('2d');
+                ctx.beginPath();
 }}
 }}
 {{Notes_Section
