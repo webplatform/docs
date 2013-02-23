@@ -101,23 +101,6 @@ background-color:      white;
 The background of the root element becomes the background of the canvas and its background painting area extends to cover the entire canvas, although any images are sized and positioned relative to the root element as if they were painted for that element alone. (In other words, the background positioning area is determined as for the root element.) If the root's ‘background-color’ value is ‘transparent’, the canvas's background color is UA dependent. The root element does not paint this background again, i.e., the used value of its background is transparent.
 
 For documents whose root element is an HTML HTML element [HTML401] or an XHTML html element [XHTML11]: if the computed value of ‘background-image’ on the root element is ‘none’ and its ‘background-color’ is ‘transparent’, user agents must instead propagate the computed values of the background properties from that element's first HTML BODY or XHTML body child element. The used values of that BODY element's background properties are their initial values, and the propagated values are treated as if they were specified on the root element. It is recommended that authors of HTML documents specify the canvas background for the BODY element rather than the HTML element.
-
-According to these rules, the canvas underlying the following HTML document will have a “marble” background:
-
-|Code=<!DOCTYPE html PUBLIC '-//W3C//DTD HTML 4.0//EN'
-  >
-<html>
-  <head>
-    <title>Setting the canvas background</title>
-    <style type="text/css">
-       body { background: url("http://example.org/marble.png") }
-    </style>
-  </head>
-  <body>
-    <p>My background is marble.</p>
-  </body>
-</html>
-|Notes=The ‘::first-line’ pseudo-element is like an inline-level element for the purposes of the background (see section 5.12.1 of [CSS21]). That means, e.g., that in a left-justified first line, the background does not necessarily extend all the way to the right margin.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
