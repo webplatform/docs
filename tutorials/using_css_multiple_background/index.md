@@ -61,7 +61,8 @@ And here we have some CSS styles:
 }
 </syntaxhighlight>
 
-Result:
+This is the result:
+
 [[Image:CSSMB_Pic1.png|Example 1]] 
 
 In this sample I have three nested divs with background and one more neighbor “fish”-div. You may imagine that the fish can be animated using javascript or CSS3 transitions or animations.
@@ -99,6 +100,8 @@ And styles:
     position: absolute;
 }
 </syntaxhighlight>
+
+[[Image:CSSMB_Pic2.png|Example 2]] 
 
 To define multiple backgrounds you should use the background-image rule by enumerating your images comma-separated. You may also use other rules to set a position, repeating mode and other attributes to each of the images — just write up them also using a comma-separated list for the corresponding rule. Note the order of images: they are listed left to right starting with the uppermost one and ending with the lowest one.
 The result is 100% identical:
@@ -214,13 +217,14 @@ window.requestAnimFrame = (function() {
 })();
 </syntaxhighlight>
 
-Result (video):
- 
+Result: 
+
+[[Image:CSSMB_Pic3.png|Example 5]] 
+
 You may also use CSS3 Transitions or Animations but it is a good topic for separate discussion.
 
 === Parallax and interactivity ===
 Finally using similar technics you can easily add some parallax effects or other interaction effects for you background:
-
 
 [http://www.youtube.com/embed/AzHb82fjpR8?rel=0"]
 
