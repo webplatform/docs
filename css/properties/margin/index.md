@@ -59,8 +59,9 @@ Margins are always transparent.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=margin-bottom
-|URL=http://docs.webplatform.org/wiki/css/properties/margin-bottom
+|Name=CSS 2.1 (Section 8.3)
+|URL=http://www.w3.org/TR/CSS2/box.html#margin-properties
+|Status=W3C Recommendation
 }}
 }}
 {{Compatibility_Section
