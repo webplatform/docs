@@ -1,11 +1,11 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Covers what the click action is and what happens when it is performed.}}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=dom/HTMLElement
@@ -15,8 +15,6 @@
 |Return_value_description=Type: '''HRESULT'''
 
 If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRESULT''' error code.
-
-
 }}
 {{Examples_Section
 |Not_required=No
@@ -71,6 +69,7 @@ If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRES
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
