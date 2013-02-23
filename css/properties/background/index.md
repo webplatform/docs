@@ -16,14 +16,13 @@
 |Description=The background property is a shorthand property for setting the color, position, size, repeat, clip, origin, attachment, and/or image of the element.
 
 * color - Any of the values available to [[css/properties/background-color|'''background-color''']] property. The default value is .
-* position - Any of the values available to [[css/properties/background-position|''"background-position''']] property. The default value is .
+* position - Any of the values available to [[css/properties/background-position|'''background-position''']] property. The default value is .
 * size - Any of the values available to [[css/properties/background-size|'''background-size''']] property. The default value is .
-* repeat - Any of the values available to [[css/properties/background-repeat|''"background-repeat''']] property. The default value is .
+* repeat - Any of the values available to [[css/properties/background-repeat|'''background-repeat''']] property. The default value is .
 * clip - Any of the values available to [[css/properties/background-clip|'''background-clip''']] property. The default value is .
 * origin - Any of the values available to [[css/properties/background-origin|'''background-origin''']] property. The default value is .
-* attachment - Any of the values available to [[css/properties/background-attachment|''"background-attachment''']] property. The default value is .
-* image - Any of the values available to [[css/properties/background-image|'''background-image''']] property. The default value is 
-
+* attachment - Any of the values available to [[css/properties/background-attachment|'''background-attachment''']] property. The default value is .
+* image - Any of the values available to [[css/properties/background-image|'''background-image''']] property. The default value is
 }}
 }}
 {{Examples_Section
