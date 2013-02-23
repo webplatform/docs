@@ -48,7 +48,9 @@ The '''IDBVersionChangeEvent''' object has these properties.
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|External_links=* [http://msdn.microsoft.com/en-us/library/jj154905.aspx Creating and opening IndexedDB objects]
+}}
 {{Topics|IndexedDB}}
 {{External_Attribution
 |Is_CC-BY-SA=No
