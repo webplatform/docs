@@ -25,7 +25,10 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|LiveURL=[http://robertnyman.com/2010/05/06/css3-animations/ Robert Nyman's examples]
+}}
 }}
 {{Notes_Section
 |Usage=This property accepts non-integer values. If a non-integer value is specified, the animation terminates mid-cycle. If <code>0</code> is specified, no animation is applied. If a negative value is specifed, the value is ignored and <code>0</code> is used instead.
@@ -41,10 +44,11 @@ Multiple values separated by commas are applied to the corresponding animations 
 *[http://go.microsoft.com/fwlink/p/?LinkID{{=}}223144 CSS Animations Module Level 3], Section 3.5
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification}}
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=No
 |Chrome_version=
