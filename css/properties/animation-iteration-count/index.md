@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Examples Best Practices
+|Content=Incomplete, Cleanup, Examples Best Practices
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
