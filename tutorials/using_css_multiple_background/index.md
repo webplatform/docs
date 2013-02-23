@@ -8,18 +8,18 @@
 {{Tutorial
 |Content=Our journey to the world of CSS3 shadows continues. Today we will focus on another interesting feature — how to use multiple backgrounds with CSS3.
 
-==Backgrounds composition
+== Backgrounds composition ==
 
 There are many reasons why you may need to create a composition of multiple images to build you background. I think the most important are the following ones:
 * to reduce the bandwidth usage if the sum of sizes of separate images is less than the size of an image with merged layers (especially if your image contains repeating patterns), and
 * to provide a way for independent manipulations on different layers (for example if you are going to implement some parallax effect).
 I believe you may have other reasonable arguments.
 
-===Classic approach
+=== Classic approach ===
 So we need to build a multi-layered background by placing some images on top of others. How this problem is usually solved? It is really easy: just create a container (like a div element) for each of the images you have and add a background for it using a CSS rule. Next you insert one container into another or place them in a row and apply corresponding positioning CSS rules. 
 Here is a simple sample:
-
-<div class="sample1">
+{{!}}-
+{{!}}- <div class="sample1">
     <div class="sea">
         <div class="mermaid"><div class="fishing"></div></div>                
         <div class="fish"></div>
@@ -118,11 +118,12 @@ If you remember the CSS 2.1 it is possible to describe a background image in a o
                 url("media/sea.png") repeat-x;                
             }
 But note that you can’t easily omit arguments unless the values are equal to the default ones. Also if you would like to define the color of background you should do it in the latest layer.
-Dynamic images
+=== Dynamic images ===
 Here is what we already know: if you background is mostly static — it may depend on the container size (i.e. if you are using % length so that some layers will shift on resizing window) — than the magic of multiple backgrounds seems to be useful as it really simplifies the page structure. But what if you need to animate some of the layers using javascript (move, rotate and so on)?
 I have a real life sample — the dandelion theme on the Yandex website (Russian search provider, YNDX):
  
 If you look in to the source code (press F12 in your IE to open devtools) you will find a code like that one:
+
 <div class=b-skin-bg sizcache="272" sizset="0">
 	<div class=b-fluff-bg sizcache="272" sizset="0">
 		<div class=b-fluff__sky sizcache="272" sizset="0">
@@ -138,6 +139,7 @@ If you look in to the source code (press F12 in your IE to open devtools) you wi
 		</div>
 	</div>
 </div>
+
 The divs with classes “b-fluff-bg”, “b-fluff__cloud” и “b-fluff__item” have the CSS rules applied adding overlaying background images. The background with cloud is scrolled from left to right, and the backgrounds with dandelion seeds are flying across the screen.
 Is it possible to rewrite such composition using css3 multiple backgrounds? Actually yes, but only if 1) it is supported in all target browsers and 2) continue reading ;)
 How can we make our multiple backgrounds more dynamic? Internally the browser parses every “background” rule into separate “background-*” rules for each of the attributes. It is very useful if you need to change only one of the attributes. For example you can use “background-position” rule to shift your images. But there are some penalties while dealing with multiple backgrounds: if you are going to move only one layer you still need to rewrite this rule for all layers.
@@ -205,7 +207,6 @@ p.s. Check also this phenomenal article about the Cicada Principle by Alax Walke
 Note
 CSS properties discussed in this article are defined in the CSS3 Backgrounds and Borders module, which is currently in the Working Draft status. Meanwhile it seems to be quite stable it still can change in details. 
 
-<<<>>>
 About the Author
 Konstantin Kichinsky is a developer evangelist focusing on HTML5 and CSS3 web development at Microsoft.  Tweet him @kichinsky or read his blog.
 }}
