@@ -11,7 +11,9 @@
 |Computed value=see individual properties
 |Animatable=No
 |CSS percentages=see individual properties
-|Values=
+|Values={{CSS Property Value
+|Data Type=<background-color> <background-position> <background-size> <background-repeat> <background-clip> <background-origin> <background-attachment> <background-image>
+}}
 }}
 {{Examples_Section
 |Not_required=No
