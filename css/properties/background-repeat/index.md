@@ -58,6 +58,9 @@ this.style.backgroundRepeat{{=}}'repeat'"&gt;
 :
 &lt;/SPAN&gt;
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/backgroundRepeat.htm
+}}{{Single Example
+|Language=CSS
+|LiveURL=[https://developer.mozilla.org/en-US/docs/CSS/border-bottom-left-radius Check out MDN's examples]
 }}
 }}
 {{Notes_Section
@@ -181,8 +184,7 @@ If an element has multiple background images, the repeat pattern for each image 
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
+|Sources=MDN, MSDN
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
