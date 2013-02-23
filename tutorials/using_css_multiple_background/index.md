@@ -18,14 +18,15 @@ I believe you may have other reasonable arguments.
 === Classic approach ===
 So we need to build a multi-layered background by placing some images on top of others. How this problem is usually solved? It is really easy: just create a container (like a div element) for each of the images you have and add a background for it using a CSS rule. Next you insert one container into another or place them in a row and apply corresponding positioning CSS rules. 
 Here is a simple sample:
-{{!}}-
-{{!}}- <div class="sample1">
+<syntaxhighlight lang="html5"><p class="alert">
+
+<div class="sample1">
     <div class="sea">
         <div class="mermaid"><div class="fishing"></div></div>                
         <div class="fish"></div>
     </div>
 </div>
-
+</p></syntaxhighlight>
 The “fishing” class if inside of the “mermaid” class only for demo purposes.
 
 And here we have some CSS styles:
