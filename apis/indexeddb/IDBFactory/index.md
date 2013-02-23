@@ -6,7 +6,28 @@
 {{API_Object}}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=The following example uses feature detection to determine whether IndexedDB is supported by the current browser/device.
+|Code=function getIndexedDBHandle() {
+   var oResult = null; 
+   if ( window.indexedDB ) {
+      oResult = window.indexedDB;
+   } else if ( window.mozIndexedDB ) { 
+      oResult = window.mozIndexedDB;
+   } else if ( window.webkitIndexedDB ) {
+      oResult = window.webkitIndexedDB;
+   }
+   return oResult;
+}
+
+var ixHandle = getIndexedDBHandle();
+if ( getIndexHandle == null ) {
+   doFallback();
+} else {
+   doIndexedDBWork(};
+}
+}}
 }}
 {{Notes_Section
 |Notes====Remarks===
