@@ -5,23 +5,45 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Provides access to the IndexedDB features supported by the browser and/or device.}}
 {{API_Object_Property
 |Property_applies_to=dom/window
 |Read_only=No
+|Example_object_name=window
+|Return_value_name=ixDBHandle
+|Return_value_description=A handle to the IndexedDB "factory," which allows access to IndexedDB features on the current browser/device.
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=The following example uses feature detection to determine whether IndexedDB is supported by the current browser/device. 
+|Code=function getIndexedDBHandle() {
+   var oResult = null; 
+   if ( window.indexedDB ) {
+      oResult = window.indexedDB;
+   } else if ( window.mozIndexedDB ) { 
+      oResult = window.mozIndexedDB;
+   } else if ( window.webkitIndexedDB ) {
+      oResult = window.webkitIndexedDB;
+   }
+   return oResult;
+}
+
+var ixHandle = getIndexedDBHandle();
+if ( getIndexHandle == null ) {
+   doFallback();
+} else {
+   doIndexedDBWork(};
+}
+
+}}
 }}
 {{Notes_Section
 |Notes====Remarks===
-For security reasons, support for the [[apis/indexedDB/IDBFactory|'''indexedDB''']] property is limited to Metro style apps and to webpages loaded using the "http://" or "https://" protocols.
+For security reasons, support for the [[apis/indexedDB/IDBFactory|'''indexedDB''']] property is limited to webpages loaded using the "http://" or "https://" protocols.
 To troubleshoot webpages that incorporate IndexedDB features before uploading them to a public server, use a [ http://go.microsoft.com/fwlink/p/?LinkId{{=}}249011 local web server] to preview the pages using the loopback address (127.0.0.1).
 '''Note'''  In pre-release versions of Internet Explorer 10, the [[apis/indexedDB/IDBFactory|'''indexedDB''']] was accessed using a vendor prefix ('''msIndexedDB''').  Such use is considered obsolete; applications using the vendor prefix should be updated to ensure standards-compliance and future compatibility.
-|Import_Notes====Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?LinkId{{=}}224519 Indexed Database API]
 }}
 {{Related_Specifications_Section
 |Specifications=
@@ -89,12 +111,12 @@ To troubleshoot webpages that incorporate IndexedDB features before uploading th
 }}
 {{See_Also_Section
 |Manual_sections====Related pages (MSDN)===
-*<code>Window</code>
+*<code>[[apis/workers/objects/Window|Window]]</code>
 *<code>[[apis/workers/objects/Worker|Worker]]</code>
 *<code>[[apis/workers/objects/WorkerGlobalScope|WorkerGlobalScope]]</code>
 *<code>[[apis/indexedDB/events/onsuccess|onsuccess]]</code>
 *<code>[[apis/indexedDB/events/onerror|onerror]]</code>
-*<code>onblocked</code>
+*<code>[[apis/indexedDB/events/onblocked|onblocked]]</code>
 *<code>[[apis/indexedDB/events/onupgradeneeded|onupgradeneeded]]</code>
 }}
 {{Topics|DOM}}
