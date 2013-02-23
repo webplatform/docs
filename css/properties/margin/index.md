@@ -1,7 +1,5 @@
 {{Page_Title}}
-{{Flags
-|Content=Compatibility Incomplete
-}}
+{{Flags}}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|Sets the margin for all four sides of an element. 
@@ -60,7 +58,10 @@ Margins are always transparent.
 [http://www.w3.org/TR/CSS21/box.html#margin-properties CSS2.1 Margin properties]
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=margin-bottom
+|URL=http://docs.webplatform.org/wiki/css/properties/margin-bottom
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
