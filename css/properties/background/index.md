@@ -21,7 +21,6 @@
 |Code=body { background: red }
 p { background: url("chess.png") 40% / 10em gray
        round fixed border-box; }
-
 }}{{Single Example
 |Language=CSS
 |Description=The first rule is equivalent to:
@@ -52,10 +51,12 @@ p { background: url("chess.png") 40% / 10em gray
 |Code=E { background: #CCC url("metal.jpg") top left / 100% auto no-repeat}
 }}{{Single Example
 |Language=CSS
-|Description=Another example shows equivalence:
-
+|Description=The following:
 |Code=div { background: padding-box url(paper.jpg) white center }
-div {
+
+}}{{Single Example
+|Description=becomes:
+|Code=div {
     background-color: white;
     background-image: url(paper.jpg);
     background-repeat: repeat;
@@ -70,7 +71,6 @@ div {
 |Code=background: url(a.png) top left no-repeat,
             url(b.png) center / 100% 100% no-repeat,
             url(c.png) white;
-
 }}{{Single Example
 |Language=CSS
 |Description=is equivalent to
