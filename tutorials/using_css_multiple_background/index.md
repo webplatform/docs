@@ -62,7 +62,7 @@ And here we have some CSS styles:
 </syntaxhighlight>
 
 Result:
-INSERT IMAGE HERE!
+[[Image:repeat00.jpg|Repeat horizontally and vertically]] 
 
 In this sample I have three nested divs with background and one more neighbor “fish”-div. You may imagine that the fish can be animated using javascript or CSS3 transitions or animations.
 Note, for the “fishing” class I’m using the new background positioning syntax, also defined in CSS3. But as for now it is supported only by IE9+ and Opera 11+, but does not yet work in Firefox 10 or Chrome 16. So the users of the last two cannot catch the fish :(
@@ -261,7 +261,7 @@ Note
 CSS properties discussed in this article are defined in the CSS3 Backgrounds and Borders module, which is currently in the Working Draft status. Meanwhile it seems to be quite stable it still can change in details. 
 
 About the Author
-Konstantin Kichinsky is a developer evangelist focusing on HTML5 and CSS3 web development at Microsoft.  Tweet him @kichinsky or read his blog.
+Konstantin Kichinsky is a developer evangelist focusing on HTML5 and CSS3 web development at Microsoft.  Tweet him @kichinsky or read his blog. 
 }}
 {{Notes_Section}}
 {{Compatibility_Section
