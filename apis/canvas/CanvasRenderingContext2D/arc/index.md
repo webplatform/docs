@@ -59,7 +59,40 @@ This method can return one of these values.
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Description=The following code example shows several different arcs. 
+|Code=<html>
+<head>
+      <title>Arc example</title>
+  <script type="text/javascript">
+      function curves() {
+          var canvas = document.getElementById("canvas");
+          if (canvas.getContext) {
+              var ctx = canvas.getContext("2d");
+              for (var i = 0; i < 2; i++)                            // Step through two rows.
+              {
+                  for (var j = 0; j < 3; j++)                        // Step through three versions.    
+                  {
+                      ctx.beginPath();
+                      var x = 25 + j * 50;               // The x-coordinate.
+                      var y = 25 + i * 50;               // The y-coordinate.
+                      var radius = 20;                    // The arc radius.
+                      var startAngle = 0;                     // The starting point on the circle.
+                      var endAngle = Math.PI + (Math.PI * j) / 2; // The end point on the circle.
+                      var anticlockwise = i % 2 == 0 ? false : true; // The direction of drawing.
+                      ctx.arc(x, y, radius, startAngle, endAngle, anticlockwise); // Create the arc path.
+                      ctx.stroke();                               // Display the work.
+                  }
+              }
+          }
+      }// Curves      
+  </script>
+</head>
+<body onload="curves();">
+  <canvas id="canvas" width="300" height="300">This browser or document mode doesn't support canvas</canvas> 
+</body>
+</html>
+}}
 }}
 {{Notes_Section
 |Notes=If the ''startAngle'' and ''endAngle''  angles are equal,  the '''arc'''  method  creates a circle. To convert degrees to radians use:
