@@ -2,9 +2,13 @@
 {{Flags}}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The flex CSS property specifies ability of a flex item to alter their dimensions to fill the available space. Flex items can be stretched to use available space proportional to their flex grow factor or their flex shrink factor to prevent overflow.}}
 {{CSS Property
+|Initial value=0 1 auto
+|Applies to=flex items
 |Inherited=No
+|Media=visual
+|Computed value=See individual properties
 |Animatable=No
 |Values=
 }}
