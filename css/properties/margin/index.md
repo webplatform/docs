@@ -1,7 +1,6 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Content=Compatibility Incomplete
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -32,7 +31,7 @@ The margin property is a shorthand to avoid setting each side separately with th
 |Description=A <percentage> relative to the width of the containing block. Negative values are allowed.
 }}{{CSS Property Value
 |Data Type=auto
-|Description=auto is replaced by some suitable value, e.g. it can be used for centering of blocks.
+|Description=auto is replaced by some suitable value by the browser. For example, it can be used for centering of blocks.
 div { width:50%;  margin:0 auto; } centers the div container horizontally.
 }}{{CSS Property Value
 |Data Type=inherit
@@ -50,7 +49,7 @@ div { width:50%;  margin:0 auto; } centers the div container horizontally.
 }}
 }}
 {{Notes_Section
-|Usage=This is a shorthand property that specifies up to four width values.
+|Usage=This is a shorthand property that specifies up to four <margin-width> values.
 
 Negative margins are supported except for top and bottom margins on inline objects.
 
@@ -140,7 +139,6 @@ Margins are always transparent.
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MDN
-|MSDN_link=
+|Sources=MDN, MSDN
 |HTML5Rocks_link=
 }}
