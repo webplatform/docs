@@ -4,11 +4,13 @@
 {{API_Name}}
 {{Summary_Section|The ‘background’ property is a shorthand property for setting most background properties at the same place in the style sheet. The number of comma-separated items defines the number of background layers. Given a valid declaration, for each layer the shorthand first sets the}}
 {{CSS Property
-|Initial value=[ <bg-layer> , ]* <final-bg-layer>
-|Applies to=see individual properties
+|Initial value=see individual properties
+|Applies to=all elements
 |Inherited=No
 |Media=visual
+|Computed value=see individual properties
 |Animatable=No
+|CSS percentages=see individual properties
 |Values=
 }}
 {{Examples_Section
