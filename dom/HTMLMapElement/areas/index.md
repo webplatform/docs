@@ -1,34 +1,48 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
+{{Summary_Section|Returns an HTMLCollection of [[dom/HTMLAreaElement|area]] elements included within the element.}}
 {{API_Object_Property
 |Property_applies_to=dom/HTMLMapElement
-|Read_only=
+|Read_only=Yes
+|Example_object_name=mapElement
+|Return_value_name=areaElements
+|Javascript_data_type=Object
+|Return_value_description=An HTMLCollection of [[dom/HTMLAreaElement|area]] elements.
 }}
-{{Topics|DOM}}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
-Areas can be added to or removed from the collection. If duplicate identifiers are found, a collection of those items is returned. Collections of duplicates must be referenced subsequently by ordinal position.
-Use of the Area operator is not supported for adding areas to the collection.  Instead, use the [[dom/methods/createElement|'''createElement''']] and [[dom/methods/add|'''add''']] methods.  Alternatively, use the [[dom/methods/insertAdjacentHTML|'''insertAdjacentHTML''']] method.
- 
- 
-[mailto:wsddocfb@microsoft.com?subject{{=}}Documentation%20feedback [ie_dom_general\ie]:%20areas property%20 RELEASE:%20(7/27/2012)&amp;body{{=}}%0A%0APRIVACY STATEMENT%0A%0AThe doc team uses your feedback to improve the documentation. We don't use your email address for any other purpose. We'll remove your email address from our system after the issue that you are reporting is resolved. While we are working to resolve this issue, we may send you an email message to request more info about your feedback. After the issue is addressed, we may send you an email message to let you know that your feedback has been addressed.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx. Send comments about this topic to Microsoft]
-Build date: 7/27/2012
-|Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}196991 Document Object Model (DOM) Level 2 HTML Specification], Section 1.6.5
-
-
+|Notes=Areas can be added to or removed from the collection. If duplicate identifiers are found, a collection of those items is returned. Collections of duplicates must be referenced subsequently by ordinal position.
+To add elements to the collection, use the [[dom/methods/createElement|'''createElement''']] and [[dom/methods/add|'''add''']] methods.  Alternatively, use the [[dom/methods/insertAdjacentHTML|'''insertAdjacentHTML''']] method.
 }}
+{{Related_Specifications_Section
+|Specifications={{Related Specification
+|Name=DOM Level 2 HTML
+|URL=http://www.w3.org/TR/DOM-Level-2-HTML/
+|Status=Recommendation
+|Relevant_changes=Section 1.6.5
+}}
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section}}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
