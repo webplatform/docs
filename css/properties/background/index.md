@@ -13,6 +13,7 @@
 |CSS percentages=see individual properties
 |Values={{CSS Property Value
 |Data Type=<background-color> <background-position> <background-size> <background-repeat> <background-clip> <background-origin> <background-attachment> <background-image>
+|Description=The background property is a shorthand property for setting the color, position, size, repeat, clip, origin, attachment, and/or image on a p
 }}
 }}
 {{Examples_Section
