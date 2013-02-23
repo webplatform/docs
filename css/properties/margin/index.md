@@ -20,13 +20,10 @@ The margin property is a shorthand to avoid setting each side separately with th
 |Data Type=<margin-width>
 |Description=1-4 lengths, percentages, or the keywords '''auto''' or '''inherit'''
 
-If one value is given, it applies to all four sides.
-
-If two values are given, the first applies to the top and bottom, the second applies to the right and left.
-
-If three values are given, the first applies to the top, the second applies to the right and left sides, and the third applies to the bottom.
-
-If four values are given, they are applied in clockwise order, starting from the top (top, right, bottom, left).
+* If one value is given, it applies to all four sides.
+* If two values are given, the first applies to the top and bottom, the second applies to the right and left.
+* If three values are given, the first applies to the top, the second applies to the right and left sides, and the third applies to the bottom.
+* If four values are given, they are applied in clockwise order, starting from the top (top, right, bottom, left).
 }}
 }}
 {{Examples_Section
