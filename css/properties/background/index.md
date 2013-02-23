@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The ‘background’ property is a shorthand property for setting most background properties at the same place in the style sheet. The number of comma-separated items defines the number of background layers. Given a valid declaration, for each layer the shorthand first sets the}}
+{{Summary_Section|The ‘background’ property is a shorthand property for setting most background properties at the same place in the style sheet.}}
 {{CSS Property
 |Initial value=see individual properties
 |Applies to=all elements
@@ -105,7 +105,6 @@ According to these rules, the canvas underlying the following HTML document will
   </body>
 </html>
 The ‘::first-line’ pseudo-element is like an inline-level element for the purposes of the background (see section 5.12.1 of [CSS21]). That means, e.g., that in a left-justified first line, the background does not necessarily extend all the way to the right margin.
-
 }}
 {{Related_Specifications_Section
 |Specifications=
