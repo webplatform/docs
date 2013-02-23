@@ -16,26 +16,7 @@
 
 For more information about transaction types, see [[indexeddb/IDBTransaction/mode|IDBTransaction.mode]].
 |Notes=The [[apis/indexeddb/IDBOpenDBRequest/onUpgradeNeeded|upgradeneeded]] event fires before the [[apis/indexeddb/IDBRequest/onsuccess|success]] event, which can lead to issues when attempting to cache handles.
-|Import_Notes====Members===
-The '''IDBVersionChangeEvent''' object has these types of members:
-*[#properties Properties]
-
-
-====Properties====
-The '''IDBVersionChangeEvent''' object has these properties.
-{| class="wikitable"
-|-
-!Property
-!Description
-|-
-|[[apis/indexedDB/properties/newVersion|'''newVersion''']]
-|Returns the new version number associated with a database.
-|-
-|[[apis/indexedDB/properties/oldVersion|'''oldVersion''']]
-|Returns the old version number associated with a database.
-|}
- 
- 
+|Import_Notes=
  
 }}
 {{Related_Specifications_Section
