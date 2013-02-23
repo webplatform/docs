@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The IDBVersionChangeEvent object represents the event object passed to the [[apis/indexeddb/IDBOpenDBRequest/onupgradeneeded| upgradNeeded]] event, which fires when a database is opened using a higher version number.}}
+{{Summary_Section|The IDBVersionChangeEvent object represents the event object passed to the [[apis/indexeddb/IDBOpenDBRequest/onupgradeneeded| upgradeneeded]] event, which fires when a database is opened using a higher version number.}}
 {{API_Object}}
 {{Examples_Section
 |Not_required=No
