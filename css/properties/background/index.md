@@ -23,7 +23,7 @@ p { background: url("chess.png") 40% / 10em gray
        round fixed border-box; }
 }}{{Single Example
 |Language=CSS
-|Description=The first rule is equivalent to:
+|Description=The first rule is equivalent to
 |Code=body {
     background-color: red;
     background-position: 0% 0%;
@@ -35,7 +35,7 @@ p { background: url("chess.png") 40% / 10em gray
     background-image: none }
 }}{{Single Example
 |Language=CSS
-|Description=The second is equivalent to:
+|Description=The second is equivalent to
 |Code=p {
     background-color: gray;
     background-position: 40% 50%;
@@ -51,10 +51,10 @@ p { background: url("chess.png") 40% / 10em gray
 |Code=E { background: #CCC url("metal.jpg") top left / 100% auto no-repeat}
 }}{{Single Example
 |Language=CSS
-|Description=The following:
+|Description=The following
 |Code=div { background: padding-box url(paper.jpg) white center }
 }}{{Single Example
-|Description=becomes:
+|Description=becomes
 |Code=div {
     background-color: white;
     background-image: url(paper.jpg);
