@@ -104,7 +104,7 @@ For documents whose root element is an HTML HTML element [HTML401] or an XHTML h
 
 According to these rules, the canvas underlying the following HTML document will have a “marble” background:
 
-<!DOCTYPE html PUBLIC '-//W3C//DTD HTML 4.0//EN'
+|Code=<!DOCTYPE html PUBLIC '-//W3C//DTD HTML 4.0//EN'
   >
 <html>
   <head>
@@ -117,7 +117,7 @@ According to these rules, the canvas underlying the following HTML document will
     <p>My background is marble.</p>
   </body>
 </html>
-The ‘::first-line’ pseudo-element is like an inline-level element for the purposes of the background (see section 5.12.1 of [CSS21]). That means, e.g., that in a left-justified first line, the background does not necessarily extend all the way to the right margin.
+|Notes=The ‘::first-line’ pseudo-element is like an inline-level element for the purposes of the background (see section 5.12.1 of [CSS21]). That means, e.g., that in a left-justified first line, the background does not necessarily extend all the way to the right margin.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
