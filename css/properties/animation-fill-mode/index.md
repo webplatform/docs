@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Examples Best Practices
+|Content=Incomplete, Cleanup, Examples Best Practices
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
@@ -36,14 +36,14 @@
 |Code=h1 {
   animation-fill-mode: forwards;
 }
-|LiveURL=http://www.valhead.com/2013/01/04/tutorial-css-animation-fill-mode/
+|LiveURL=[http://www.valhead.com/2013/01/04/tutorial-css-animation-fill-mode/ Val Head]
 }}
 }}
 {{Notes_Section
 |Usage=The <code>animation-fill-mode</code> property controls the state of an element's properties before and after an animation.
 
 If multiple values are set as a comma-separated list, each value is applied to the corresponding animation specified in the <code>animation-name</code> property. If the number of values exceeds the number of animations, excess values are ignored. If there are fewer values than animations, the browser cycles through them again until each animation has been assigned a fill mode.
-|Notes=This is an experimental specification, and therefore not completely finalized. Syntax and behavior are still subject to change in future versions. 
+|Notes=This is an experimental specification, and therefore not completely finalized. Syntax and behavior are still subject to change in future versions.
 |Import_Notes====Syntax===
 <code>'''animation-fill-mode : '''none '''{{!}}''' forwards '''{{!}}''' backwards '''{{!}}''' both '''[''' ,  none '''{{!}}''' forwards '''{{!}}''' backwards '''{{!}}''' both ''']''' *</code>
 ===Standards information===
