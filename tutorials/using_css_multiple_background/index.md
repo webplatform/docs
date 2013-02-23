@@ -220,15 +220,15 @@ You may also use CSS3 Transitions or Animations but it is a good topic for separ
 
 === Parallax and interactivity ===
 Finally using similar technics you can easily add some parallax effects or other interaction effects for you background:
-Insert video player here:
 
-<iframe width="420" height="315" src="http://www.youtube.com/embed/AzHb82fjpR8?rel=0" frameborder="0" allowfullscreen></iframe>
+
+[http://www.youtube.com/embed/AzHb82fjpR8?rel=0"]
 
 Multiple backgrounds are useful in such scenarios and while we are talking only about backgrounds, not the content, using them is definitely a good way to not pollute the html-code with complex unnecessary elements. But as I said there are some penalties if you need to build a complex and dynamic background: you cannot access a separate layer by id, class or any other parameter. You should remember the order of layers in your code and to change an attribute for just one layer you will need to build a string describing this attribute for all the layers you have. To update one layer you need to update the whole composition:
 
 <syntaxhighlight lang="html5">
 sea.style.backgroundPosition = "top " + fishY + "px right " + fishX + "px, " + mermaidX + "px bottom," + fishesX + "px " + fishesY + "px, top left";
-</p></syntaxhighlight>
+</syntaxhighlight>
 
 I’m sure it is possible to build a nice and useful js-library which will virtualize all these layers and provide easy way to change attributes for a separate layer keeping clean your html-code and the DOM.
 
@@ -261,7 +261,7 @@ Note
 CSS properties discussed in this article are defined in the CSS3 Backgrounds and Borders module, which is currently in the Working Draft status. Meanwhile it seems to be quite stable it still can change in details. 
 
 About the Author
-Konstantin Kichinsky is a developer evangelist focusing on HTML5 and CSS3 web development at Microsoft.  Tweet him @kichinsky or read his blog. 
+Konstantin Kichinsky is a developer evangelist focusing on HTML5 and CSS3 web development at Microsoft.  Tweet him @kichinsky or read his blog.
 }}
 {{Notes_Section}}
 {{Compatibility_Section
