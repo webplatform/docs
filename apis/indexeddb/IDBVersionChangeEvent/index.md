@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The IDBVersionChangeEvent object represents the event object passed to the [[apis/indexeddb/IDBOpenDBRequest/onupgradeneeded| onUpgradeNeeded]] event, which fires when a database is opened using a higher version number.  }}
+{{Summary_Section|The IDBVersionChangeEvent object represents the event object passed to the [[apis/indexeddb/IDBOpenDBRequest/onupgradeneeded| upgradNeeded]] event, which fires when a database is opened using a higher version number.}}
 {{API_Object}}
 {{Examples_Section
 |Not_required=No
@@ -15,7 +15,7 @@
 |Usage=When you open a database, you include a version number.  If the supplied version number is greater than the version of the database on the user's device (if any), an [[apis/indexeddb/IDBOpenDBRequest/onUpgradeNeeded|upgradeneeded]] event is fired within the context of a version change transaction.  This context lets you create (or modify) object stores, indexes, ranges, and other database objects.
 
 For more information about transaction types, see [[indexeddb/IDBTransaction/mode|IDBTransaction.mode]].
-|Notes=The [[apis/indexeddb/IDBOpenDBRequest/onUpgradeNeeded|upgradeneeded]] event fires before the [[apis/indexeddb/IDBRequest/onsuccess|success]] event, which can lead to issues when attempting to cache handles. 
+|Notes=The [[apis/indexeddb/IDBOpenDBRequest/onUpgradeNeeded|upgradeneeded]] event fires before the [[apis/indexeddb/IDBRequest/onsuccess|success]] event, which can lead to issues when attempting to cache handles.
 |Import_Notes====Members===
 The '''IDBVersionChangeEvent''' object has these types of members:
 *[#properties Properties]
@@ -37,7 +37,6 @@ The '''IDBVersionChangeEvent''' object has these properties.
  
  
  
-
 }}
 {{Related_Specifications_Section
 |Specifications=
