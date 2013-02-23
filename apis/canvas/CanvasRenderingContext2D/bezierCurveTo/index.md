@@ -45,7 +45,51 @@ If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRES
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=The following code example draws a Bézier curve between two points. It also draws a reference line to display the deviation of the curve over a straight line between the beginning and ending points. 
+|Code=<html>
+<head>
+    <title>BezierCurveTo example</title>
+    <script type="text/javascript">
+        function beginDemo() {
+            var canvas = document.getElementById("demo")
+            if (canvas.getContext) {
+                var ctx = canvas.getContext('2d');
+                // Draw a straight reference line.
+                ctx.beginPath();
+                ctx.strokeStyle = "blue";
+                ctx.moveTo(100, 100);
+                ctx.lineTo(300, 100);
+                ctx.stroke();
+                // Draw a Bézier curve by using the same line cooridinates.
+                ctx.beginPath();
+                ctx.lineWidth = "3";
+                ctx.strokeStyle = "black";
+                ctx.moveTo(100, 100);
+                ctx.bezierCurveTo(200, 200, 200, 0, 300, 100);
+                ctx.stroke();
+            }
+        }
+     </script>
+</head>
+    <body onload="beginDemo();">
+        <canvas id="demo" width="400" height="400">This browser or document mode doesn't support canvas</canvas>
+    </body>
+</html> 
+
+
+}}{{Single Example
+|Description=The following sets up a bezierCurve using a black line with a width of 3 pixels.
+|Code=// Draw a Bézier curve by using the same line cooridinates.
+ctx.beginPath();
+ctx.lineWidth = "3";
+ctx.strokeStyle = "black";
+ctx.moveTo(100, 100);
+ctx.bezierCurveTo(200, 200, 200, 0, 300, 100);
+ctx.stroke();
+
+}}
 }}
 {{Notes_Section
 |Notes=A cubic Bézier curve  must include  three points. The first two are control points and the third is the ending point for the curve. The first point on the curve is the last point in the existing current subpath. If a path does not exist, use the ''beginPath'' and ''moveTo'' methods to create a starting point.
