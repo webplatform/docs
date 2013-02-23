@@ -2,7 +2,6 @@
 {{Flags}}
 {{Byline
 |Name=Konstantin Kichinsky
-|URL=@kichinsky
 |Published=27 February 2012
 }}
 {{Summary_Section|This article focuses on another interesting CSS feature — how to use multiple backgrounds with CSS3.}}
@@ -110,7 +109,7 @@ Note the order of images: they are listed left to right starting with the upperm
 
 The result is 100% identical:
 
-[[Image:CSSMB_Pic2.png|Example 2]] 
+[[Image:CSSMB_Pic2.png |Example 2]] 
  
 === In one rule ===
 
@@ -212,7 +211,7 @@ window.requestAnimFrame = (function() {
 </syntaxhighlight>
 
 Result: 
-[http://youtu.be/dqDDT4rHQEE|Video of the resulting animation]
+[http://youtu.be/dqDDT4rHQEE Video of the resulting animation]
 
 [[Image:CSSMB_Pic3.png|Example 5]] 
 
