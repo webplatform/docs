@@ -2,28 +2,32 @@
 {{Flags}}
 {{Byline
 |Name=Konstantin Kichinsky
-|Published=27 Februart 2012
+|Published=27 February 2012
 }}
 {{Summary_Section|This article focuses on another interesting CSS feature: how to use multiple backgrounds with CSS3.}}
 {{Tutorial
-|Content=Mastering CSS3. Multiple backgrounds
-By Konstantin Kichinsky
+|Content=Our journey to the world of CSS3 shadows continues. Today we will focus on another interesting feature — how to use multiple backgrounds with CSS3.
 
-Our journey to the world of CSS3 shadows continues. Today we will focus on another interesting feature — how to use multiple backgrounds with CSS3.
-Backgrounds composition
+==Backgrounds composition
+
 There are many reasons why you may need to create a composition of multiple images to build you background. I think the most important are the following ones:
-•	to reduce the bandwidth usage if the sum of sizes of separate images is less than the size of an image with merged layers (especially if your image contains repeating patterns), and
-•	to provide a way for independent manipulations on different layers (for example if you are going to implement some parallax effect).
-I believe you may have other reasonable arguments. :)
-Classic approach
-So we need to build a multi-layered background by placing some images on top of others. How this problem is usually solved? It is really easy: just create a container (like a div element) for each of the images you have and add a background for it using a CSS rule. Next you insert one container into another or place them in a row and apply corresponding positioning CSS rules. I have here a simple sample:
+* to reduce the bandwidth usage if the sum of sizes of separate images is less than the size of an image with merged layers (especially if your image contains repeating patterns), and
+* to provide a way for independent manipulations on different layers (for example if you are going to implement some parallax effect).
+I believe you may have other reasonable arguments.
+
+===Classic approach
+So we need to build a multi-layered background by placing some images on top of others. How this problem is usually solved? It is really easy: just create a container (like a div element) for each of the images you have and add a background for it using a CSS rule. Next you insert one container into another or place them in a row and apply corresponding positioning CSS rules. 
+Here is a simple sample:
+
 <div class="sample1">
     <div class="sea">
         <div class="mermaid"><div class="fishing"></div></div>                
         <div class="fish"></div>
     </div>
 </div>
+
 The “fishing” class if inside of the “mermaid” class only for demo purposes.
+
 And here we have some CSS styles:
 .sample1 .sea, .sample1 .mermaid, .sample1 .fishing {
     height:300px;
@@ -52,7 +56,8 @@ And here we have some CSS styles:
     background: url(media/fishing.svg) no-repeat top right 10px;
 }
 Result:
- 
+INSERT IMAGE HERE!
+
 In this sample I have three nested divs with background and one more neighbor “fish”-div. You may imagine that the fish can be animated using javascript or CSS3 transitions or animations.
 Note, for the “fishing” class I’m using the new background positioning syntax, also defined in CSS3. But as for now it is supported only by IE9+ and Opera 11+, but does not yet work in Firefox 10 or Chrome 16. So the users of the last two cannot catch the fish :(
 Let’s continue. Is it possible to simplify this composition?
@@ -203,8 +208,6 @@ CSS properties discussed in this article are defined in the CSS3 Backgrounds and
 <<<>>>
 About the Author
 Konstantin Kichinsky is a developer evangelist focusing on HTML5 and CSS3 web development at Microsoft.  Tweet him @kichinsky or read his blog.
-
-
 }}
 {{Notes_Section}}
 {{Compatibility_Section
