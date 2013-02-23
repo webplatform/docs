@@ -105,7 +105,7 @@ And styles:
 }
 </syntaxhighlight>
 
-To define multiple backgrounds you should use the background-image rule by enumerating your images comma-separated. You may also use other rules to set a position, repeating mode, and other attributes to each of the images — just write up them also using a comma-separated list for the corresponding rule. 
+To define multiple backgrounds you should use the [[background-image]] rule by enumerating your images comma-separated. You may also use other rules to set a position, repeating mode, and other attributes to each of the images — just write up them also using a comma-separated list for the corresponding rule. 
 Note the order of images: they are listed left to right starting with the uppermost one and ending with the lowest one.
 
 The result is 100% identical:
