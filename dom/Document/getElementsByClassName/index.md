@@ -1,74 +1,164 @@
-{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
 }}
-{{Standardization_Status|W3C Candidate Recommendation}}
+{{Standardization_Status|}}
 {{API_Name}}
-{{Summary_Section|Use [[css/selectors_api/querySelectorAll|<code>elementOrDocument.querySelectorAll(".class-name.other-class-name")</code>]] instead. Gets a collection of all descendant elements with given classes.}}
 {{API_Object_Method
-|Parameters={{Method Parameter
-|Name=classNames
-|Data type=String
-|Description=A space separated list of classes.
-|Optional=No
-}}
+|Parameters={{Method Parameter|Name=v|Data type=BSTR|Description=A '''String''' value that specifies the value of a [[dom/properties/className|'''CLASS''']] attribute.|Optional=}}
 |Method_applies_to=dom/HTMLElement
-|Example_object_name=element
-|Return_value_name=elements
-|Javascript_data_type=Object
-|Return_value_description=A live [[dom/HTMLCollection|HTMLCollection] of elements with the given class names.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Usage=The use of this property is discouraged. See the [[#Notes|Notes]] section for details.
-|Notes=The use of this property is discouraged, due to the performance implications (due to the live DOMCollection where any changes to the document must be reflected on the returned object immediately) and complexity (the removal of an element from the document will result in immediate changes to the collection).
+|Example_object_name=object
+|Return_value_name=object
+|Javascript_data_type=DOM Node
+|Return_value_description='''IHTMLElementCollection'''
 
-A close alternative -
-*[[css/selectors_api/querySelectorAll|<code>elementOrDocument.querySelectorAll(".class-name.other-class-name")</code>]]
+'''CLASS'''
+
+
 }}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=W3C HTML5
-|URL=http://www.w3.org/TR/html5/
-|Status=Candidate Recommendation
-|Relevant_changes=Section 3.1.1
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Yes
-|Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
-|Firefox_supported=Yes
-|Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Yes
-|Internet_explorer_version=9
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
-|Opera_supported=Unknown
-|Opera_version=
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
-|Safari_supported=Yes
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
-}}
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
 {{Topics|DOM}}
+{{Notes_Section
+|Notes=
+===Remarks===
+To search for multiple [[dom/properties/className|'''CLASS''']] attribute values, separate them with spaces in the ''v'' parameter.
+|Import_Notes=
+===Syntax===
+===Standards information===
+*[http://go.microsoft.com/fwlink/p/?linkid{{=}}221374 HTML5 A vocabulary and associated APIs for HTML and XHTML], Section 3.1.1
+
+
+}}
+{{See_Also_Section
+|Manual_sections=
+===Related pages (MSDN)===
+*<code>[[html/elements/a|a]]</code>
+*<code>abbr</code>
+*<code>[[html/elements/acronym|acronym]]</code>
+*<code>address</code>
+*<code>applet</code>
+*<code>area</code>
+*<code>article</code>
+*<code>aside</code>
+*<code>audio</code>
+*<code>b</code>
+*<code>base</code>
+*<code>baseFont</code>
+*<code>bdo</code>
+*<code>bgSound</code>
+*<code>big</code>
+*<code>blockQuote</code>
+*<code>body</code>
+*<code>br</code>
+*<code>button</code>
+*<code>[[canvas/objects/canvas|canvas]]</code>
+*<code>caption</code>
+*<code>center</code>
+*<code>cite</code>
+*<code>code</code>
+*<code>col</code>
+*<code>colGroup</code>
+*<code>comment</code>
+*<code>custom</code>
+*<code>dd</code>
+*<code>del</code>
+*<code>dfn</code>
+*<code>dir</code>
+*<code>div</code>
+*<code>dl</code>
+*<code>dt</code>
+*<code>em</code>
+*<code>embed</code>
+*<code>fieldSet</code>
+*<code>figcaption</code>
+*<code>figure</code>
+*<code>font</code>
+*<code>footer</code>
+*<code>form</code>
+*<code>frame</code>
+*<code>frameSet</code>
+*<code>head</code>
+*<code>header</code>
+*<code>hgroup</code>
+*<code>hn</code>
+*<code>hr</code>
+*<code>html</code>
+*<code>i</code>
+*<code>iframe</code>
+*<code>img</code>
+*<code>input type{{=}}button</code>
+*<code>input type{{=}}checkbox</code>
+*<code>input type{{=}}file</code>
+*<code>input type{{=}}hidden</code>
+*<code>input type{{=}}image</code>
+*<code>input type{{=}}password</code>
+*<code>input type{{=}}radio</code>
+*<code>input type{{=}}reset</code>
+*<code>input type{{=}}submit</code>
+*<code>input type{{=}}text</code>
+*<code>ins</code>
+*<code>isIndex</code>
+*<code>kbd</code>
+*<code>label</code>
+*<code>legend</code>
+*<code>li</code>
+*<code>link</code>
+*<code>listing</code>
+*<code>map</code>
+*<code>mark</code>
+*<code>marquee</code>
+*<code>[[html/elements/media|media]]</code>
+*<code>menu</code>
+*<code>meta</code>
+*<code>nav</code>
+*<code>[[html/elements/nextID|nextID]]</code>
+*<code>noBR</code>
+*<code>noFrames</code>
+*<code>noScript</code>
+*<code>object</code>
+*<code>ol</code>
+*<code>optGroup</code>
+*<code>option</code>
+*<code>p</code>
+*<code>param</code>
+*<code>plainText</code>
+*<code>pre</code>
+*<code>q</code>
+*<code>rt</code>
+*<code>ruby</code>
+*<code>s</code>
+*<code>samp</code>
+*<code>script</code>
+*<code>section</code>
+*<code>select</code>
+*<code>small</code>
+*<code>source</code>
+*<code>span</code>
+*<code>strike</code>
+*<code>strong</code>
+*<code>style</code>
+*<code>sub</code>
+*<code>sup</code>
+*<code>[[html/elements/table|table]]</code>
+*<code>tBody</code>
+*<code>td</code>
+*<code>textArea</code>
+*<code>tFoot</code>
+*<code>th</code>
+*<code>tHead</code>
+*<code>title</code>
+*<code>tr</code>
+*<code>tt</code>
+*<code>u</code>
+*<code>ul</code>
+*<code>var</code>
+*<code>video</code>
+*<code>wbr</code>
+*<code>xmp</code>
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MDN_link=
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|MDN_link=
 |HTML5Rocks_link=
 }}
