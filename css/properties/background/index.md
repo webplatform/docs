@@ -17,9 +17,9 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Code=In the first rule of the following example, only a value for ‘background-color’ has been given and the other individual properties are set to their initial values. In the second rule, many individual properties have been specified.
+|Description=In the first rule of the following example, only a value for ‘background-color’ has been given and the other individual properties are set to their initial values. In the second rule, many individual properties have been specified.
 
-body { background: red }
+|Code=body { background: red }
 p { background: url("chess.png") 40% / 10em gray
        round fixed border-box; }
 The first rule is equivalent to:
