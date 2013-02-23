@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The object type for the [[apis/indexeddb/indexedDB|indexedDB]] property;  provides access to the IndexedDB features supported by the browser and/or device.}}
+{{Summary_Section|The object type for the [[apis/indexeddb/indexedDB|indexedDB]] property, which   provides access to the IndexedDB features supported by the browser and/or device.}}
 {{API_Object}}
 {{Examples_Section
 |Not_required=No
@@ -116,3 +116,10 @@ Use the [[apis/indexedDB/properties/indexedDB|'''indexedDB''']] property to acce
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
+}
+
+
+
+
+
+}
