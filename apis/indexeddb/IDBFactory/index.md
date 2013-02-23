@@ -1,11 +1,8 @@
 {{Page_Title}}
-{{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|W3C Working Draft}}
+{{Flags}}
+{{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Interface implemented by the [[apis/indexeddb/indexedDB|indexedDB]] object; provides for the creation and access of a database.}}
+{{Summary_Section|The object type for the [[apis/indexeddb/indexedDB|indexedDB]] property;  provides access to the IndexedDB features supported by the browser and/or device.}}
 {{API_Object}}
 {{Examples_Section
 |Not_required=No
@@ -13,31 +10,9 @@
 }}
 {{Notes_Section
 |Notes====Remarks===
-Use the [[apis/indexedDB/properties/indexedDB|'''indexedDB''']] property to access IndexedDB features supported by Internet Explorer 10 and Metro style apps
-'''Important'''  For security reasons, support for the '''indexedDB''' property is limited to Metro style apps and to webpages loaded using the "http://" or "https://" protocols.
-|Import_Notes====Standards information===
-*[http://go.microsoft.com/fwlink/p/?LinkId{{=}}224519 Indexed Database API]
+Use the [[apis/indexedDB/properties/indexedDB|'''indexedDB''']] property to access IndexedDB databases.
 
-
-===Members===
-The '''IDBFactory''' object has these types of members:
-*[#methods Methods]
-
-
-====Methods====
-The '''IDBFactory''' object has these methods.
-{| class="wikitable"
-|-
-!Method
-!Description
-|-
-|'''cmp'''
-|Compares two values and indicates whether one is greater than the other.
-|-
-|[[apis/indexedDB/methods/deleteDatabase|'''deleteDatabase''']]
-|Deletes a database.
-|}
- 
+'''Important'''  For security reasons, Internet Explorer support for the '''indexedDB''' property is limited to webpages loaded using the "http://" or "https://" protocols.
 }}
 {{Related_Specifications_Section
 |Specifications=
@@ -105,11 +80,12 @@ The '''IDBFactory''' object has these methods.
 |Notes_rows={{Compatibility Notes Row}}
 }}
 {{See_Also_Section
+|External_links=*[http://msdn.microsoft.com/en-us/library/jj154908.aspx How to create a tag cloud using IndexedDB]
 |Manual_sections====Related pages (MSDN)===
 *<code>[[dom/window|window]]</code>
 *<code>[[apis/indexedDB/events/onsuccess|onsuccess]]</code>
 *<code>[[apis/indexedDB/events/onerror|onerror]]</code>
-*<code>onblocked</code>
+*<code>[[apis/indexedDB/events/onblocked|onblocked]]</code>
 }}
 {{Topics|IndexedDB}}
 {{External_Attribution
