@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Content=Incomplete, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
@@ -43,6 +43,7 @@ div {
   background-position: 0px 0px, top right;
   background-origin: padding-box, content-box;
 }
+|LiveURL=[http://www.quackit.com/css/css3/properties/css_background-origin.cfm QuackIt's live example]
 }}
 }}
 {{Notes_Section
