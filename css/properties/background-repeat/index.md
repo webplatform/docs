@@ -60,7 +60,7 @@ this.style.backgroundRepeat{{=}}'repeat'"&gt;
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/backgroundRepeat.htm
 }}{{Single Example
 |Language=CSS
-|LiveURL=[https://developer.mozilla.org/en-US/docs/CSS/border-bottom-left-radius Check out MDN's examples]
+|LiveURL=[https://developer.mozilla.org/en-US/docs/CSS/border-bottom-left-radius View MDN's examples]
 }}
 }}
 {{Notes_Section
