@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Examples Best Practices
+|Content=Incomplete, Cleanup, Examples Best Practices
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
@@ -42,7 +42,10 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|LiveURL=[https://developer.mozilla.org/en-US/docs/CSS/animation-timing-function] See MDN's CSS animation examples
+}}
 }}
 {{Notes_Section
 |Usage=The <code>animation-timing-function</code> property controls how the browser calculates intermediate values between each keyframe. It does not apply to the entire animation.
@@ -60,6 +63,7 @@ In common with other animation properties, multiple values separated by commas a
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=No
 |Chrome_version=
