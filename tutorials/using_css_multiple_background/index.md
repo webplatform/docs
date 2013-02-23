@@ -105,7 +105,7 @@ And styles:
 }
 </syntaxhighlight>
 
-To define multiple backgrounds you should use the [[background-image]] rule by enumerating your images comma-separated. You may also use other rules to set a position, repeating mode, and other attributes to each of the images — just write up them also using a comma-separated list for the corresponding rule. 
+To define multiple backgrounds you should use the [[css/properties/background-image|background-image]] property by enumerating your images comma-separated. You may also use other rules to set a position, repeating mode, and other attributes to each of the images — just write up them also using a comma-separated list for the corresponding rule. 
 Note the order of images: they are listed left to right starting with the uppermost one and ending with the lowest one.
 
 The result is 100% identical:
@@ -147,7 +147,7 @@ background-repeat: no-repeat, repeat-x, no-repeat, repeat-x;
 
 === Shorter version ===
 
-If you remember the CSS 2.1 it is possible to describe a background image in a one short “background”-rule. What about multiple backgrounds? Actually you also can use the “background”-rule for multiple backgrounds:
+If you remember the [http://www.w3.org/TR/CSS21/ CSS 2.1] it is possible to describe a background image in a one short “background”-rule. What about multiple backgrounds? Actually you also can use the “background”-rule for multiple backgrounds:
 
 <syntaxhighlight lang="html5">
 .sample4 .sea {
@@ -167,7 +167,7 @@ But note that you can’t easily omit arguments unless the values are equal to t
 
 Here is what we already know: if you background is mostly static — it may depend on the container size (i.e. if you are using % length so that some layers will shift on resizing window) — than the magic of multiple backgrounds seems to be useful as it really simplifies the page structure. But what if you need to animate some of the layers using javascript (move, rotate and so on)?
 
-How can we make our multiple backgrounds more dynamic? Internally the browser parses every “background” rule into separate “background-*” rules for each of the attributes. It is very useful if you need to change only one of the attributes. For example you can use “background-position” rule to shift your images, but there are some penalties while dealing with multiple backgrounds: if you are going to move only one layer you still need to rewrite this rule for all layers.
+How can we make our multiple backgrounds more dynamic? Internally the browser parses every “background” rule into separate “background-*” rules for each of the attributes. It is very useful if you need to change only one of the attributes. For example you can use [[css/properties/background-position|background-position]] property to shift your images, but there are some penalties while dealing with multiple backgrounds: if you are going to move only one layer you still need to rewrite this rule for all layers.
 
 To animate our sea background we can use the following js-code:
 
