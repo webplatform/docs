@@ -111,7 +111,11 @@ According to these rules, the canvas underlying the following HTML document will
 The ‘::first-line’ pseudo-element is like an inline-level element for the purposes of the background (see section 5.12.1 of [CSS21]). That means, e.g., that in a left-justified first line, the background does not necessarily extend all the way to the right margin.
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Backgrounds and Borders Module Level 3
+|URL=http://www.w3.org/TR/css3-background/
+|Status=Candidate Recommendation
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
