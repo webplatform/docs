@@ -2,6 +2,7 @@
 {{Flags}}
 {{Byline
 |Name=Konstantin Kichinsky
+|URL=http://html5insight.com/
 |Published=27 February 2012
 }}
 {{Summary_Section|This article focuses on another interesting CSS feature — how to use multiple backgrounds with CSS3.}}
