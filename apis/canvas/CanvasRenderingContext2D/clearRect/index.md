@@ -31,7 +31,48 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Description=This code example draws a filled rectangle by using fillRect and then clears the center portion by using clearRect. fillRect uses the width and height of the canvas, and clearRect uses percentages of the canvas width and height to create a frame.
+|Code=<html>
+<head>
+<title>ClearRect example</title>
+</head>
+<body onload="draw();">
+  <canvas id="MyCanvas" width="600" height="500">This browser or document mode doesn't support canvas</canvas>
+<p>
+    <button onclick="clearMe();">clear me</button>   
+    <button onclick="draw();">Reset</button>   
+</p>
+
+<script>
+    function draw() {
+        var canvas = document.getElementById("MyCanvas"); // Get the canvas element.
+        if (canvas.getContext) // Test for support.
+        {
+            var ctx = canvas.getContext("2d"); // Get the context to draw on.
+            ctx.fillStyle = "black";  // Specify black as the fill color.             
+            ctx.fillRect(0, 0, canvas.width, canvas.height);  // Create a filled rectangle.
+        }
+    }
+    function clearMe() {
+        var canvas = document.getElementById("MyCanvas");
+        if (canvas.getContext) {
+            var ctx = canvas.getContext("2d");
+            // Clear the center 80% of the canvas.
+            ctx.clearRect(canvas.width * .1, canvas.height * .1, canvas.width * .8, canvas.height * .8);
+        }
+    }
+  </script>
+
+</body>
+</html> 
+
+}}{{Single Example
+|Description=This example shows the clearRect method alone. The x,y,width, and height of the cleared rectangle are shown as percentages of the full width and height of the canvas. 
+|Code=// Clear the center 80% of the canvas.
+ctx.clearRect(canvas.width * .1, canvas.height * .1, canvas.width * .8, canvas.height * .8);
+
+}}
 }}
 {{Notes_Section
 |Notes=The '''clearRect'''  method clears the canvas to transparent black (that is, each pixel's RGBA value is equal to zero). To clear to a specific color, use the  '''[[apis/canvas/CanvasRenderingContext2D/fillRect|fillRect]]''' method.
