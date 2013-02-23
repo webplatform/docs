@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Examples Best Practices
+|Content=Incomplete, Cleanup, Examples Best Practices
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -20,7 +20,26 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|Code=h1 {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+ 
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%
+  }
+ 
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+|LiveURL=https://developer.mozilla.org/en-US/docs/CSS/Tutorials/Using_CSS_animations
+}}
 }}
 {{Notes_Section
 |Usage=The <code>animation-name</code> property accepts the name of one or more animations defined in <code>@keyframes</code> rules, and applies the animation(s) to the selected element. Multiple values should be separated by commas.
@@ -36,6 +55,7 @@ For an animation to run, you must also specify a value for <code>animation-durat
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=No
 |Chrome_version=
