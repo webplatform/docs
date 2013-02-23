@@ -17,6 +17,7 @@ The margin property is a shorthand to avoid setting each side separately with th
 |Computed value=See individual properties
 |Animatable=No
 |Values={{CSS Property Value
+|Data Type=<margin-width>
 |Description=1-4 values using length, percentage, or the keywords '''auto''' or '''inherit'''
 
 *If one value is given, it applies to all four sides.
@@ -25,7 +26,7 @@ The margin property is a shorthand to avoid setting each side separately with th
 *If four values are given, they are applied in clockwise order, starting from the top (top, right, bottom, left).
 }}{{CSS Property Value
 |Data Type=length
-|Description=Specifies a fixed width. Negative Values are allowed. See for <length> possible units.
+|Description=Specifies a fixed width. Negative Values are allowed. See [length http://docs.webplatform.org/wiki/css/units/length] for possible units.
 }}{{CSS Property Value
 |Data Type=percentage
 |Description=A <percentage> relative to the width of the containing block. Negative values are allowed.
