@@ -2,6 +2,7 @@
 {{Flags}}
 {{Byline
 |Name=Konstantin Kichinsky
+|URL=@kichinsky 
 |Published=27 February 2012
 }}
 {{Summary_Section|This article focuses on another interesting CSS feature — how to use multiple backgrounds with CSS3.}}
@@ -68,11 +69,11 @@ In this sample there are three nested divs with background and one more neighbor
 
 Note, for the “fishing” class we used the new background positioning syntax, also defined in CSS3. 
 
-Let’s continue. Is it possible to simplify this composition?
+Let’s continue. Is it possible to simplify this composition? This is when the multiple backgrounds come to the scene. 
 
 === Multiple backgrounds ===
 
-This is when the multiple backgrounds come to the scene. This feature allows you to add more than one background at once and to the same element. Here is how it looks like:
+This feature allows you to add more than one background at once and to the same element. Here is how it looks like:
 
 <syntaxhighlight lang="html5">
 <div class="sample2">
@@ -104,15 +105,16 @@ And styles:
 }
 </syntaxhighlight>
 
-To define multiple backgrounds you should use the background-image rule by enumerating your images comma-separated. You may also use other rules to set a position, repeating mode and other attributes to each of the images — just write up them also using a comma-separated list for the corresponding rule. 
+To define multiple backgrounds you should use the background-image rule by enumerating your images comma-separated. You may also use other rules to set a position, repeating mode, and other attributes to each of the images — just write up them also using a comma-separated list for the corresponding rule. 
 Note the order of images: they are listed left to right starting with the uppermost one and ending with the lowest one.
 
 The result is 100% identical:
+
 [[Image:CSSMB_Pic2.png|Example 2]] 
  
 === In one rule ===
 
-If you don’t need you fish to swim in an independent block the whole background can be written in one simple rule:
+If you don’t need your fish to swim in an independent block, the whole background can be written in one simple rule:
 
 <syntaxhighlight lang="html5">
 <div class="sample3">
@@ -133,10 +135,18 @@ Styles:
 }
 </syntaxhighlight>
 
-I’m not showing the same picture one more time but trust me — it is equal to the two images above. Looks at the styles one more time, especially on the background-repeat rule. According to the spec if a part of the list is omitted UA (browser) should repeat present list to fill the rest.
+The result is equal to the two images above, we just got there in a different way. 
+
+Let's look at the styles one more time, especially on the background-repeat rule. According to the spec if a part of the list is omitted UA (browser) should repeat present list to fill the rest.
+
 In our case it equal to the following definition:
+
+<syntaxhighlight lang="html5">
 background-repeat: no-repeat, repeat-x, no-repeat, repeat-x;
-Shorter version
+</syntaxhighlight>
+
+=== Shorter version ===
+
 If you remember the CSS 2.1 it is possible to describe a background image in a one short “background”-rule. What about multiple backgrounds? Actually you also can use the “background”-rule for multiple backgrounds:
 
 <syntaxhighlight lang="html5">
@@ -154,32 +164,11 @@ If you remember the CSS 2.1 it is possible to describe a background image in a o
 But note that you can’t easily omit arguments unless the values are equal to the default ones. Also if you would like to define the color of background you should do it in the latest layer.
 
 === Dynamic images ===
+
 Here is what we already know: if you background is mostly static — it may depend on the container size (i.e. if you are using % length so that some layers will shift on resizing window) — than the magic of multiple backgrounds seems to be useful as it really simplifies the page structure. But what if you need to animate some of the layers using javascript (move, rotate and so on)?
-I have a real life sample — the dandelion theme on the Yandex website (Russian search provider, YNDX):
- 
-If you look in to the source code (press F12 in your IE to open devtools) you will find a code like that one:
-<syntaxhighlight lang="html5">
 
-<div class=b-skin-bg sizcache="272" sizset="0">
-	<div class=b-fluff-bg sizcache="272" sizset="0">
-		<div class=b-fluff__sky sizcache="272" sizset="0">
-			<div style="background-position: 3244px 0px" class=b-fluff__cloud></div>
-			<div style="width: 1200px" class=b-max-width sizcache="214" sizset="0">
-				<div class=b-fluff__placeholder sizcache="302" sizset="0">
-					<div style="bottom: 105px; display: none; left: 940px" class="b-fluff__item b-fluff_item_3" jQuery1328289994769="30"></div>
-					<div style="bottom: 50px; display: none; left: 879px" class="b-fluff__item b-fluff_item_3" jQuery1328289994769="31"></div>
-					<div style="bottom: 105px; display: none; left: 940px" class="b-fluff__item b-fluff_item_3" jQuery1328289994769="32"></div>
-					...
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-</syntaxhighlight>
+How can we make our multiple backgrounds more dynamic? Internally the browser parses every “background” rule into separate “background-*” rules for each of the attributes. It is very useful if you need to change only one of the attributes. For example you can use “background-position” rule to shift your images, but there are some penalties while dealing with multiple backgrounds: if you are going to move only one layer you still need to rewrite this rule for all layers.
 
-The divs with classes “b-fluff-bg”, “b-fluff__cloud” и “b-fluff__item” have the CSS rules applied adding overlaying background images. The background with cloud is scrolled from left to right, and the backgrounds with dandelion seeds are flying across the screen.
-Is it possible to rewrite such composition using css3 multiple backgrounds? Actually yes, but only if 1) it is supported in all target browsers and 2) continue reading ;)
-How can we make our multiple backgrounds more dynamic? Internally the browser parses every “background” rule into separate “background-*” rules for each of the attributes. It is very useful if you need to change only one of the attributes. For example you can use “background-position” rule to shift your images. But there are some penalties while dealing with multiple backgrounds: if you are going to move only one layer you still need to rewrite this rule for all layers.
 To animate our sea background we can use the following js-code:
 
 <syntaxhighlight lang="html5">
@@ -223,6 +212,7 @@ window.requestAnimFrame = (function() {
 </syntaxhighlight>
 
 Result: 
+[http://youtu.be/dqDDT4rHQEE|Video of the resulting animation]
 
 [[Image:CSSMB_Pic3.png|Example 5]] 
 
@@ -231,7 +221,7 @@ You may also use CSS3 Transitions or Animations but it is a good topic for separ
 === Parallax and interactivity ===
 Finally using similar technics you can easily add some parallax effects or other interaction effects for you background:
 
-[http://www.youtube.com/embed/AzHb82fjpR8?rel=0"]
+[http://www.youtube.com/embed/AzHb82fjpR8?rel=0"|Video showing parallax interactivity]
 
 Multiple backgrounds are useful in such scenarios and while we are talking only about backgrounds, not the content, using them is definitely a good way to not pollute the html-code with complex unnecessary elements. But as I said there are some penalties if you need to build a complex and dynamic background: you cannot access a separate layer by id, class or any other parameter. You should remember the order of layers in your code and to change an attribute for just one layer you will need to build a string describing this attribute for all the layers you have. To update one layer you need to update the whole composition:
 
@@ -242,7 +232,8 @@ sea.style.backgroundPosition = "top " + fishY + "px right " + fishX + "px, " + m
 I’m sure it is possible to build a nice and useful js-library which will virtualize all these layers and provide easy way to change attributes for a separate layer keeping clean your html-code and the DOM.
 
 === Compatibility ===
-All modern browsers including IE10 and 9 support multiple backgrounds. You may also use some tools like Modernizr to provide some level of compatibility for older browsers, i.e. by providing alternate background. As Chris Coyier wrote in his article on the stacking order of multiple backgrounds you can use the following approach:
+All modern browsers including [http://msdn.microsoft.com/en-us/ie|IE10 and 9] support multiple backgrounds. You may also use some tools like [http://modernizr.com/|Modernizr] to provide some level of compatibility for older browsers, i.e. by providing alternate background. As Chris Coyier wrote in his [http://css-tricks.com/stacking-order-of-multiple-backgrounds/|article on the stacking order of multiple backgrounds] you can use the following approach:
+
 <syntaxhighlight lang="html5">
 .multiplebgs body {
    /* Awesome multiple BG declarations that transcend reality and impress chicks */
@@ -264,10 +255,10 @@ background url(...), url(...), url(...), #000 url(...);
 
 
 And finally if you wish to know it: yes you can use multiple backgrounds in you Windows 8 metro style apps built with html and javascript.
-p.s. Check also this phenomenal article about the Cicada Principle by Alax Walker.
+p.s. Check also this phenomenal [http://designfestival.com/the-cicada-principle-and-why-it-matters-to-web-designers/|article about the Cicada Principle] by Alex Walker.
 
 Note
-CSS properties discussed in this article are defined in the CSS3 Backgrounds and Borders module, which is currently in the Working Draft status. Meanwhile it seems to be quite stable it still can change in details. 
+CSS properties discussed in this article are defined in the [http://www.w3.org/TR/css3-background/|CSS3 Backgrounds and Borders module], which is currently in the Candidate Recommendation status.  
 
 About the Author
 Konstantin Kichinsky is a developer evangelist focusing on HTML5 and CSS3 web development at Microsoft.  Tweet him @kichinsky or read his blog.
