@@ -34,6 +34,9 @@ The margin property is a shorthand to avoid setting each side separately with th
 |Data Type=auto
 |Description=auto is replaced by some suitable value, e.g. it can be used for centering of blocks.
 div { width:50%;  margin:0 auto; } centers the div container horizontally.
+}}{{CSS Property Value
+|Data Type=inherit
+|Description=Takes the same specified value as the property for the element's parent.
 }}
 }}
 {{Examples_Section
