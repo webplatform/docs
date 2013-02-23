@@ -20,11 +20,12 @@ The margin property is a shorthand to avoid setting each side separately with th
 |Data Type=<margin-width>
 |Description=1-4 lengths, percentages, or the keywords '''auto''' or '''inherit'''
 
-Value types include:
 <length>
 Specifies a fixed width. Negative Values are allowed. See for <length> possible units.
+
 <percentage>
 A <percentage> relative to the width of the containing block. Negative values are allowed.
+
 auto
 auto is replaced by some suitable value, e.g. it can be used for centering of blocks.
 div { width:50%;  margin:0 auto; } centers the div container horizontally.
