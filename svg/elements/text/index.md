@@ -1,40 +1,37 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{Markup_Element
 |DOM_interface=svg/objects/SVGElement
 }}
-{{Topics|SVG}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Description=In the following code example, the text element is used to create a text message in olive 36-point Impact type that reads" Internet Explorer Rocks". Copy this sample to a text file and save it with the ''.html'' file extension. Run it in Internet Explorer 9 to see the text.
 
 It should look like this:
-|LiveURL=
-|Code=
-
-<syntaxhighlight lang="xml">
+|Code=<syntaxhighlight lang="xml">
 <!DOCTYPE html>
 <html>
     <head></head>
     <body>
         <svg>
             <text x="50" y="50" font-family="Impact" font-size="36" fill="olive">
-                Internet Explorer Rocks!
+                SVG Rocks!
             </text>
         </svg>
     </body>
 </html>
 </syntaxhighlight>
-}}}}
+}}
+}}
 {{Notes_Section
-|Notes=
-
-===Remarks===
+|Notes====Remarks===
 
 '''Note:'''  In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
 
@@ -45,9 +42,7 @@ Because  '''text''' elements are rendered by using the same rendering methods as
 You can  apply a gradient, pattern, clipping path, mask, or  filter to text. When  you apply one of these items to text and  you use '''objectBoundingBox'''  to specify a graphical effect relative to the object bounding box, the units for the object bounding box  are computed relative to the entire '''text''' element in all cases, even when different effects are applied to different [[svg/elements/tspan|'''tSpan''']] elements within the same '''text''' element.
 
 The '''text''' element renders its first glyph (after bidirectionality reordering) at the initial current text position, which is established by the [[svg/properties/x|'''x''']] and [[svg/properties/y|'''y''']] attributes on the '''text''' element. (The attributes might be adjusted   because of the value of the '''text-anchor''' property, the presence of a [[svg/elements/textPath|'''textPath''']] element that contains  the first character, or '''x''', '''y''', [[svg/properties/dx|'''dx''']], or [[svg/properties/dy|'''dy''']] attributes on a [[svg/elements/tspan|'''tSpan''']], '''tref''', or '''altGlyph''' element that contains the first character.) After the glyphs that corresponds  to the given character are rendered, the current text position is updated for the next character. In the simplest case, the new current text position is the previous current text position plus the glyphs' advance value (horizontal or vertical).
-|Import_Notes=
-
-===Standards information===
+|Import_Notes====Standards information===
 
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}199818 Scalable Vector Graphics: Text], Section 10.17.3
 
@@ -91,7 +86,7 @@ The '''SVGTextElement''' object has these properties:
 *[[svg/attributes/glyph-orientation-vertical|'''glyphOrientationVertical''']]: Sets or retrieves a value that alters the orientation of a sequence of characters relative to an inline-progression-direction of vertical.
 *[[svg/attributes/kerning|'''kerning''']]: Gets or sets a value that indicates whether Internet Explorer should adjust inter-glyph spacing based on kerning tables that are included in the relevant font (that is, enable auto-kerning) or instead disable auto-kerning and set inter-character spacing to a specific length (typically zero).
 
-Gets or sets a value that indicates whether Metro style app using JavaScript should adjust inter-glyph spacing based on kerning tables that are included in the relevant font (that is, enable auto-kerning) or instead disable auto-kerning and set inter-character spacing to a specific length (typically zero).
+Gets or sets a value that indicates whether the user-agent should adjust inter-glyph spacing based on kerning tables that are included in the relevant font (that is, enable auto-kerning) or instead disable auto-kerning and set inter-character spacing to a specific length (typically zero).
 *[[svg/properties/lengthAdjust|'''lengthAdjust''']]: Gets or sets the  [[svg/properties/lengthAdjust|'''lengthAdjust''']] attribute on the given element.
 *[[svg/attributes/mask|'''mask''']]: Sets or retrieves a value that indicates a SVG mask.
 *[[svg/properties/nearestViewportElement|'''nearestViewportElement''']]: Gets  a value that indicates which element established the current viewport.
@@ -118,12 +113,23 @@ Gets or sets a value that indicates whether Metro style app using JavaScript sho
 *[[svg/properties/xmllang|'''xmllang''']]: Gets or sets a value that specifies the language that is used in the contents and attribute values of an element.
 *[[svg/properties/xmlspace|'''xmlspace''']]: Gets or sets a value that indicates whether white space is preserved in character data.
 *[[svg/properties/y|'''y''']]: Gets or sets the y-coordinate value.
-
 }}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section}}
+{{Topics|SVG}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
