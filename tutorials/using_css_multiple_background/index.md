@@ -2,7 +2,7 @@
 {{Flags}}
 {{Byline
 |Name=Konstantin Kichinsky
-|URL=@kichinsky 
+|URL=@kichinsky
 |Published=27 February 2012
 }}
 {{Summary_Section|This article focuses on another interesting CSS feature — how to use multiple backgrounds with CSS3.}}
@@ -221,7 +221,7 @@ You may also use CSS3 Transitions or Animations but it is a good topic for separ
 === Parallax and interactivity ===
 Finally using similar technics you can easily add some parallax effects or other interaction effects for you background:
 
-[http://www.youtube.com/embed/AzHb82fjpR8?rel=0"|Video showing parallax interactivity]
+[http://www.youtube.com/embed/AzHb82fjpR8?rel=0 Video showing parallax interactivity]
 
 Multiple backgrounds are useful in such scenarios and while we are talking only about backgrounds, not the content, using them is definitely a good way to not pollute the html-code with complex unnecessary elements. But as I said there are some penalties if you need to build a complex and dynamic background: you cannot access a separate layer by id, class or any other parameter. You should remember the order of layers in your code and to change an attribute for just one layer you will need to build a string describing this attribute for all the layers you have. To update one layer you need to update the whole composition:
 
@@ -255,10 +255,10 @@ background url(...), url(...), url(...), #000 url(...);
 
 
 And finally if you wish to know it: yes you can use multiple backgrounds in you Windows 8 metro style apps built with html and javascript.
-p.s. Check also this phenomenal [http://designfestival.com/the-cicada-principle-and-why-it-matters-to-web-designers/|article about the Cicada Principle] by Alex Walker.
+p.s. Check also this phenomenal [http://designfestival.com/the-cicada-principle-and-why-it-matters-to-web-designers/ article about the Cicada Principle] by Alex Walker.
 
 Note
-CSS properties discussed in this article are defined in the [http://www.w3.org/TR/css3-background/|CSS3 Backgrounds and Borders module], which is currently in the Candidate Recommendation status.  
+CSS properties discussed in this article are defined in the [http://www.w3.org/TR/css3-background/ CSS3 Backgrounds and Borders module], which is currently in the Candidate Recommendation status.  
 
 About the Author
 Konstantin Kichinsky is a developer evangelist focusing on HTML5 and CSS3 web development at Microsoft.  Tweet him @kichinsky or read his blog.
