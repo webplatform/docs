@@ -5,7 +5,10 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The margin CSS property sets the margin for all four sides of an element. It is a shorthand to avoid setting each side separately with the other margin properties: margin-top, margin-right, margin-bottom and margin-left. Negative values are also allowed.}}
+{{Summary_Section|Sets the margin for all four sides of an element. 
+
+The margin property is a shorthand to avoid setting each side separately with the other margin properties: margin-top, margin-right, margin-bottom and margin-left. Negative values are also allowed.
+}}
 {{CSS Property
 |Initial value=See individual properties
 |Applies to=All elements except elements with table display types other than table-caption, table, and inline-table
