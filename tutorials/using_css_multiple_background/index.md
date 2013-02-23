@@ -6,17 +6,18 @@
 }}
 {{Summary_Section|This article focuses on another interesting CSS feature: how to use multiple backgrounds with CSS3.}}
 {{Tutorial
-|Content=Our journey to the world of CSS3 shadows continues. Today we will focus on another interesting feature — how to use multiple backgrounds with CSS3.
+|Content=This article focuses on another interesting CSS feature — how to use multiple backgrounds with CSS3.
 
 == Backgrounds composition ==
 
-There are many reasons why you may need to create a composition of multiple images to build you background. I think the most important are the following ones:
+There are many reasons why you may need to create a composition of multiple images to build you background. These are some of the most important:
 * to reduce the bandwidth usage if the sum of sizes of separate images is less than the size of an image with merged layers (especially if your image contains repeating patterns), and
 * to provide a way for independent manipulations on different layers (for example if you are going to implement some parallax effect).
-I believe you may have other reasonable arguments.
+There are other reasonable cases that call for background composition.
 
 === Classic approach ===
 So we need to build a multi-layered background by placing some images on top of others. How this problem is usually solved? It is really easy: just create a container (like a div element) for each of the images you have and add a background for it using a CSS rule. Next you insert one container into another or place them in a row and apply corresponding positioning CSS rules. 
+
 Here is a simple sample:
 
 <syntaxhighlight lang="html5">
@@ -65,10 +66,14 @@ This is the result:
 
 [[Image:CSSMB_Pic1.png|Example 1]] 
 
-In this sample I have three nested divs with background and one more neighbor “fish”-div. You may imagine that the fish can be animated using javascript or CSS3 transitions or animations.
-Note, for the “fishing” class I’m using the new background positioning syntax, also defined in CSS3. But as for now it is supported only by IE9+ and Opera 11+, but does not yet work in Firefox 10 or Chrome 16. So the users of the last two cannot catch the fish :(
+In this sample there are three nested divs with background and one more neighbor “fish”-div. You may imagine that the fish can be animated using javascript or CSS3 transitions or animations.
+
+Note, for the “fishing” class we used the new background positioning syntax, also defined in CSS3. 
+
 Let’s continue. Is it possible to simplify this composition?
-Multiple backgrounds
+
+=== Multiple backgrounds ===
+
 This is when the multiple backgrounds come to the scene. This feature allows you to add more than one background at once and to the same element. Here is how it looks like:
 
 <syntaxhighlight lang="html5">
@@ -101,12 +106,14 @@ And styles:
 }
 </syntaxhighlight>
 
-[[Image:CSSMB_Pic2.png|Example 2]] 
+To define multiple backgrounds you should use the background-image rule by enumerating your images comma-separated. You may also use other rules to set a position, repeating mode and other attributes to each of the images — just write up them also using a comma-separated list for the corresponding rule. 
+Note the order of images: they are listed left to right starting with the uppermost one and ending with the lowest one.
 
-To define multiple backgrounds you should use the background-image rule by enumerating your images comma-separated. You may also use other rules to set a position, repeating mode and other attributes to each of the images — just write up them also using a comma-separated list for the corresponding rule. Note the order of images: they are listed left to right starting with the uppermost one and ending with the lowest one.
 The result is 100% identical:
+[[Image:CSSMB_Pic2.png|Example 2]] 
  
-In one rule
+=== In one rule ===
+
 If you don’t need you fish to swim in an independent block the whole background can be written in one simple rule:
 
 <syntaxhighlight lang="html5">
