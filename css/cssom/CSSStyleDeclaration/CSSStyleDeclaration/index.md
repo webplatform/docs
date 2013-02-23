@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -378,7 +378,7 @@ a list of counters to create or reset to zero.
 {{!}}[[svg/attributes/kerning|'''kerning''']]
 {{!}}Gets or sets a value that indicates whether Internet Explorer should adjust inter-glyph spacing based on kerning tables that are included in the relevant font (that is, enable auto-kerning) or instead disable auto-kerning and set inter-character spacing to a specific length (typically zero).
 
-Gets or sets a value that indicates whether Metro style app using JavaScript should adjust inter-glyph spacing based on kerning tables that are included in the relevant font (that is, enable auto-kerning) or instead disable auto-kerning and set inter-character spacing to a specific length (typically zero).
+Gets or sets a value that indicates whether the user-agent should adjust inter-glyph spacing based on kerning tables that are included in the relevant font (that is, enable auto-kerning) or instead disable auto-kerning and set inter-character spacing to a specific length (typically zero).
 {{!}}-
 {{!}}[[css/properties/layout-flow|'''layoutFlow''']]
 {{!}}Sets or retrieves  the direction and flow of the content in the object.
@@ -834,7 +834,6 @@ object.
 {{!}}[[css/properties/text-indent|'''textIndent''']]
 {{!}}Sets or retrieves  the indentation of the first line of text in the object. 
 
-This property is not supported for Metro style apps using JavaScript.
 {{!}}-
 {{!}}[[css/properties/text-justify|'''textJustify''']]
 {{!}}Sets or retrieves  the type of alignment used to justify text in the object.
@@ -927,6 +926,7 @@ languages appear in the object.
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
