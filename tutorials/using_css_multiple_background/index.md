@@ -1,14 +1,12 @@
-{{Page_Title}}
+{{Page_Title|Using Multiple Backgrounds}}
 {{Flags}}
 {{Byline
 |Name=Konstantin Kichinsky
 |Published=27 February 2012
 }}
-{{Summary_Section|This article focuses on another interesting CSS feature: how to use multiple backgrounds with CSS3.}}
+{{Summary_Section|This article focuses on another interesting CSS feature — how to use multiple backgrounds with CSS3.}}
 {{Tutorial
-|Content=This article focuses on another interesting CSS feature — how to use multiple backgrounds with CSS3.
-
-== Backgrounds composition ==
+|Content=== Backgrounds composition ==
 
 There are many reasons why you may need to create a composition of multiple images to build you background. These are some of the most important:
 * to reduce the bandwidth usage if the sum of sizes of separate images is less than the size of an image with merged layers (especially if your image contains repeating patterns), and
