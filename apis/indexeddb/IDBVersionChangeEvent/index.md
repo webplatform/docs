@@ -5,13 +5,17 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The IDBVersionChangeEvent interface of the IndexedDB API indicates that the version of the database has changed.}}
+{{Summary_Section|The IDBVersionChangeEvent object represents the event object passed to the [[apis/indexeddb/IDBOpenDBRequest/onupgradeneeded| onUpgradeNeeded]] event, which fires when a database is opened using a higher version number.  }}
 {{API_Object}}
 {{Examples_Section
 |Not_required=No
 |Examples=
 }}
 {{Notes_Section
+|Usage=When you open a database, you include a version number.  If the supplied version number is greater than the version of the database on the user's device (if any), an [[apis/indexeddb/IDBOpenDBRequest/onUpgradeNeeded|upgradeneeded]] event is fired within the context of a version change transaction.  This context lets you create (or modify) object stores, indexes, ranges, and other database objects.
+
+For more information about transaction types, see [[indexeddb/IDBTransaction/mode|IDBTransaction.mode]].
+|Notes=The [[apis/indexeddb/IDBOpenDBRequest/onUpgradeNeeded|upgradeneeded]] event fires before the [[apis/indexeddb/IDBRequest/onsuccess|success]] event, which can lead to issues when attempting to cache handles. 
 |Import_Notes====Members===
 The '''IDBVersionChangeEvent''' object has these types of members:
 *[#properties Properties]
@@ -33,8 +37,7 @@ The '''IDBVersionChangeEvent''' object has these properties.
  
  
  
-[mailto:wsddocfb@microsoft.com?subject{{=}}Documentation%20feedback [ie_idxdb\ie]:%20IDBVersionChangeEvent object%20 RELEASE:%20(7/24/2012)&amp;body{{=}}%0A%0APRIVACY STATEMENT%0A%0AThe doc team uses your feedback to improve the documentation. We don't use your email address for any other purpose. We'll remove your email address from our system after the issue that you are reporting is resolved. While we are working to resolve this issue, we may send you an email message to request more info about your feedback. After the issue is addressed, we may send you an email message to let you know that your feedback has been addressed.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx. Send comments about this topic to Microsoft]
-Build date: 7/24/2012
+
 }}
 {{Related_Specifications_Section
 |Specifications=
