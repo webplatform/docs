@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Content=Incomplete, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
@@ -31,6 +31,7 @@
 
 /* is equivalent to: */
 border-bottom-right-radius: 10px 10px;
+|LiveURL=[https://developer.mozilla.org/en-US/docs/CSS/border-bottom-right-radius View MDN's example
 }}{{Single Example
 |Language=CSS
 |Description=Two value example to use an arc of ellipse as the border on the top left corner.
