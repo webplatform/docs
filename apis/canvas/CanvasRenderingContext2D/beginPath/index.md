@@ -11,7 +11,38 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Description=This is a full example that uses beginPath to create two stroked lines. 
+|Code=<html>
+<head>
+    <title>Canvas beginPath example</title>
+    <script>
+        function beginDemo() {
+            var canvas = document.getElementById("demo")
+            if (canvas.getContext) {
+                var ctx = canvas.getContext('2d');
+                ctx.beginPath();
+                ctx.lineWidth = "3";
+                ctx.strokeStyle = "blue";  // This path is blue.
+                ctx.moveTo(0, 0);
+                ctx.lineTo(150, 150);
+                ctx.lineTo(200, 150);
+                ctx.stroke();
+                ctx.beginPath();
+                ctx.strokeStyle = "red";   // This path is red.
+                ctx.moveTo(0, 0);
+                ctx.lineTo(50, 150);
+                ctx.stroke();           // Draw it.                      
+            }
+        }
+          </script>
+</head>
+    <body onload="beginDemo();">
+        <canvas id="demo" width="300" height="300">This browser or document mode doesn't support canvas</canvas>
+  </body>
+</html>
+
+}}
 }}
 {{Notes_Section
 |Notes=A path consists of a list of zero or more subpaths. Each subpath is a list of one or more points that are connected by straight or curved lines.  Each subpath also  contains a flag that indicates  whether the subpath is closed. If a subpath is closed, the last point of the subpath is connected to the first point by a straight line. Subpaths  that have  fewer than two points are ignored when the path is painted.
