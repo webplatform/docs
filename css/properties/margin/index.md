@@ -1,11 +1,11 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Shorthand property that sets margins on all four sides of an element in a single declaration}}
+{{Summary_Section|The margin CSS property sets the margin for all four sides of an element. It is a shorthand to avoid setting each side separately with the other margin properties: margin-top, margin-right, margin-bottom and margin-left. Negative values are also allowed.}}
 {{CSS Property
 |Initial value=See individual properties
 |Applies to=All elements except elements with table display types other than table-caption, table, and inline-table
@@ -52,6 +52,7 @@ Margins are always transparent.
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
 |Chrome_version=All
