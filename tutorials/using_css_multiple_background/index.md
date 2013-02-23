@@ -62,7 +62,7 @@ And here we have some CSS styles:
 </syntaxhighlight>
 
 Result:
-[[Image:repeat00.jpg|Repeat horizontally and vertically]] 
+[[Image:CSSMB_Pic1.jpg|Example 1]] 
 
 In this sample I have three nested divs with background and one more neighbor “fish”-div. You may imagine that the fish can be animated using javascript or CSS3 transitions or animations.
 Note, for the “fishing” class I’m using the new background positioning syntax, also defined in CSS3. But as for now it is supported only by IE9+ and Opera 11+, but does not yet work in Firefox 10 or Chrome 16. So the users of the last two cannot catch the fish :(
