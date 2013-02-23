@@ -18,13 +18,14 @@
 |Examples={{Single Example
 |Language=CSS
 |Description=In the first rule of the following example, only a value for ‘background-color’ has been given and the other individual properties are set to their initial values. In the second rule, many individual properties have been specified.
-
 |Code=body { background: red }
 p { background: url("chess.png") 40% / 10em gray
        round fixed border-box; }
-The first rule is equivalent to:
 
-body {
+}}{{Single Example
+|Language=CSS
+|Description=The first rule is equivalent to:
+|Code=body {
     background-color: red;
     background-position: 0% 0%;
     background-size: auto auto;
@@ -33,9 +34,10 @@ body {
     background-origin: padding-box;
     background-attachment: scroll;
     background-image: none }
-The second is equivalent to:
-
-p {
+}}{{Single Example
+|Language=CSS
+|Description=The second is equivalent to:
+|Code=p {
     background-color: gray;
     background-position: 40% 50%;
     background-size: 10em 10em;
@@ -46,14 +48,13 @@ p {
     background-image: url(chess.png) }
 }}{{Single Example
 |Language=CSS
-|Code=The following example shows how a both a background color (#CCC) and a background image (url(metal.jpg)) are set. The image is rescaled to the full width of the element:
-
-E { background: #CCC url("metal.jpg") top left / 100% auto no-repeat}
+|Description=The following example shows how a both a background color (#CCC) and a background image (url(metal.jpg)) are set. The image is rescaled to the full width of the element:
+|Code=E { background: #CCC url("metal.jpg") top left / 100% auto no-repeat}
 }}{{Single Example
 |Language=CSS
-|Code=Another example shows equivalence:
+|Description=Another example shows equivalence:
 
-div { background: padding-box url(paper.jpg) white center }
+|Code=div { background: padding-box url(paper.jpg) white center }
 div {
     background-color: white;
     background-image: url(paper.jpg);
@@ -65,14 +66,15 @@ div {
     background-size: auto auto }
 }}{{Single Example
 |Language=CSS
-|Code=The following declaration with multiple, comma-separated values
-
-background: url(a.png) top left no-repeat,
+|Description=The following declaration with multiple, comma-separated values
+|Code=background: url(a.png) top left no-repeat,
             url(b.png) center / 100% 100% no-repeat,
             url(c.png) white;
-is equivalent to
 
-background-image:      url(a.png),  url(b.png),          url(c.png);
+}}{{Single Example
+|Language=CSS
+|Description=is equivalent to
+|Code=background-image:      url(a.png),  url(b.png),          url(c.png);
 background-position:   top left,    center,              top left;
 background-repeat:     no-repeat,   no-repeat no-repeat, repeat;
 background-clip:       border-box,  border-box,          border-box;
