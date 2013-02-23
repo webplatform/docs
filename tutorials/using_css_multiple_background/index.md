@@ -232,7 +232,7 @@ sea.style.backgroundPosition = "top " + fishY + "px right " + fishX + "px, " + m
 I’m sure it is possible to build a nice and useful js-library which will virtualize all these layers and provide easy way to change attributes for a separate layer keeping clean your html-code and the DOM.
 
 === Compatibility ===
-All modern browsers including [http://msdn.microsoft.com/en-us/ie|IE10 and 9] support multiple backgrounds. You may also use some tools like [http://modernizr.com/|Modernizr] to provide some level of compatibility for older browsers, i.e. by providing alternate background. As Chris Coyier wrote in his [http://css-tricks.com/stacking-order-of-multiple-backgrounds/|article on the stacking order of multiple backgrounds] you can use the following approach:
+All modern browsers including [http://msdn.microsoft.com/en-us/ie IE10 and 9] support multiple backgrounds. You may also use some tools like [http://modernizr.com/ Modernizr] to provide some level of compatibility for older browsers, i.e. by providing alternate background. As Chris Coyier wrote in his [http://css-tricks.com/stacking-order-of-multiple-backgrounds/ article on the stacking order of multiple backgrounds] you can use the following approach:
 
 <syntaxhighlight lang="html5">
 .multiplebgs body {
@@ -258,10 +258,10 @@ And finally if you wish to know it: yes you can use multiple backgrounds in you 
 p.s. Check also this phenomenal [http://designfestival.com/the-cicada-principle-and-why-it-matters-to-web-designers/ article about the Cicada Principle] by Alex Walker.
 
 Note
-CSS properties discussed in this article are defined in the [http://www.w3.org/TR/css3-background/ CSS3 Backgrounds and Borders module], which is currently in the Candidate Recommendation status.  
+CSS properties discussed in this article are defined in the [http://www.w3.org/TR/css3-background/ CSS3 Backgrounds and Borders module].  
 
 About the Author
-Konstantin Kichinsky is a developer evangelist focusing on HTML5 and CSS3 web development at Microsoft.  Tweet him @kichinsky or read his blog.
+Konstantin Kichinsky is a developer evangelist focusing on HTML5 and CSS3 web development at Microsoft.  Tweet him @kichinsky or read his [http://html5insight.com/ blog].
 }}
 {{Notes_Section}}
 {{Compatibility_Section
