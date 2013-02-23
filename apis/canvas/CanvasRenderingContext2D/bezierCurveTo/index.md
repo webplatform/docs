@@ -47,11 +47,15 @@ If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRES
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
-|Description=The following code example draws a Bézier curve between two points. It also draws a reference line to display the deviation of the curve over a straight line between the beginning and ending points. 
+|Description=The following code example draws a Bézier curve between two points. It also draws a reference line to display the deviation of the curve over a straight line between the beginning and ending points.
 |Code=<html>
 <head>
     <title>BezierCurveTo example</title>
-    <script type="text/javascript">
+</head>
+    <body onload="beginDemo();">
+        <canvas id="demo" width="400" height="400">This browser or document mode doesn't support canvas</canvas>
+
+    <script>
         function beginDemo() {
             var canvas = document.getElementById("demo")
             if (canvas.getContext) {
@@ -72,13 +76,9 @@ If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRES
             }
         }
      </script>
-</head>
-    <body onload="beginDemo();">
-        <canvas id="demo" width="400" height="400">This browser or document mode doesn't support canvas</canvas>
+
     </body>
-</html> 
-
-
+</html>
 }}{{Single Example
 |Description=The following sets up a bezierCurve using a black line with a width of 3 pixels.
 |Code=// Draw a Bézier curve by using the same line cooridinates.
@@ -88,7 +88,6 @@ ctx.strokeStyle = "black";
 ctx.moveTo(100, 100);
 ctx.bezierCurveTo(200, 200, 200, 0, 300, 100);
 ctx.stroke();
-
 }}
 }}
 {{Notes_Section
