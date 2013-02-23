@@ -18,21 +18,7 @@ The margin property is a shorthand to avoid setting each side separately with th
 |Animatable=No
 |Values={{CSS Property Value
 |Data Type=<margin-width>
-|Description=Accepts one, two, three or four values of the following:
-
-<length>
-Specifies a fixed width. Negative Values are allowed. See for <length> possible units.
-<percentage>
-A <percentage> relative to the width of the containing block. Negative values are allowed.
-auto
-auto is replaced by some suitable value, e.g. it can be used for centering of blocks.
-div { width:50%;  margin:0 auto; } centers the div container horizontally.
-One single value applies to all four sides.
-Two values apply first to top and bottom, the second one to left and right.
-Three values apply first to top, second to left and right and third to bottom.
-Four values apply to top, right, bottom and left in that order (clockwise).
-
-1-4 lengths, percentages, or the keywords '''auto''' or '''inherit'''
+|Description=1-4 lengths, percentages, or the keywords '''auto''' or '''inherit'''
 
 * If one value is given, it applies to all four sides.
 * If two values are given, the first applies to the top and bottom, the second applies to the right and left.
