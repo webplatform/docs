@@ -5,7 +5,7 @@
 |URL=http://html5insight.com/
 |Published=27 February 2012
 }}
-{{Summary_Section|This article focuses on another interesting CSS feature — how to use multiple backgrounds with CSS3.}}
+{{Summary_Section|This article focuses on an interesting CSS feature — how to use multiple backgrounds with CSS3.}}
 {{Tutorial
 |Content=== Backgrounds composition ==
 
