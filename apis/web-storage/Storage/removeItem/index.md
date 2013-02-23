@@ -16,7 +16,18 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Code=// Check for support of sessionStorage
+if(window.sessionStorage) {
+  
+  // Add a key/value pair
+  sessionStorage.setItem('someKey', 'value');
+
+  // Remove the item you just added
+  sessionStorage.removeItem('someKey');
+}
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
