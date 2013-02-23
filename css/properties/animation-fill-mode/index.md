@@ -36,7 +36,7 @@
 |Code=h1 {
   animation-fill-mode: forwards;
 }
-|LiveURL=[http://www.valhead.com/2013/01/04/tutorial-css-animation-fill-mode/ Val Head]
+|LiveURL=[http://www.valhead.com/2013/01/04/tutorial-css-animation-fill-mode/ Val Head's examples with tutorial video]
 }}
 }}
 {{Notes_Section
