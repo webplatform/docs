@@ -1,6 +1,5 @@
 {{Page_Title|Creating basic navigation menus}}
-{{Flags
-}}
+{{Flags}}
 {{Byline}}
 {{Summary_Section|In this tutorial we will take you through how to create different types of basic navigation menu using HTML lists and links.}}
 {{Tutorial
@@ -8,9 +7,9 @@
  
 In this article we’ll talk about web site navigation and menus. You’ll learn about different types of menus and how to create them in HTML. We’ll also touch on the subject of menu usability and accessibility. We won’t go into styling menus yet, but this article will lay the foundations. There are [http://dev.opera.com/articles/view/23-creating-multiple-pages-with-navigat/menu_examples.zip code examples to download] to go along with this article — we will refer to these throughout the tutorial.
 
-== the HTML5 <code>&lt;nav&gt;</code> menu ==
+== the HTML5 <code>&lt;nav&gt;</code> element ==
 
-HTML5 defines a <code>&lt;nav&gt;</code> menu, which is to be used to contain the primary navigation of a web site, be it a list of links or a form element such as a search box. This is a good idea, as previous to this we would contain the navigation block inside something like <code>&lt;div id="navigation"&gt;</code>. Yes, you can identify this for styling purposes pretty well, but it is a <code>&lt;div&gt;</code>, and therefore semantically anonymous. <code>&lt;nav&gt;</code> gives us a consistent way to unambiguously define with the primary navigation is, which is good for things like search engine optimization, and for visually impaired users using a screen reader, who will be able to find the navigation much more easier if it is clearly signposted (this does depend on the screen reader they are using supporting the <code>&lt;nav&gt;</code> element, so it might be a little way off yet). So, a navigation block would look something like this:
+HTML5 defines a <code>&lt;nav&gt;</code> element, which is to be used to contain the primary navigation of a web site, be it a list of links or a form element such as a search box. This is a good idea, as previous to this we would contain the navigation block inside something like <code>&lt;div id="navigation"&gt;</code>. Yes, you can identify this for styling purposes pretty well, but it is a <code>&lt;div&gt;</code>, and therefore semantically anonymous. <code>&lt;nav&gt;</code> gives us a consistent way to unambiguously define what the primary navigation areas are, which is good for things like search engine optimization, and for visually impaired users using a screen reader, who will be able to find the navigation much more easier if it is clearly signposted (this does depend on the screen reader they are using supporting the <code>&lt;nav&gt;</code> element, so it might be a little way off yet). So, a navigation block would look something like this:
 
 <syntaxhighlight lang="html5"><nav>
   <ul>
@@ -20,7 +19,7 @@ HTML5 defines a <code>&lt;nav&gt;</code> menu, which is to be used to contain th
   </ul>
 </nav></syntaxhighlight>
 
-Bear in mind that <code>&lt;nav&gt;</code> should only be used for the main user navigation of a web page, not for advertising links down at the bottom of the page, or for a secondary navigation relating to a small part of the page.
+Bear in mind that <code>&lt;nav&gt;</code> should only be used for the main navigation elements, not for advertising links down at the bottom of the page, or for a secondary navigation relating to a small part of the page.
 
 == Your main HTML menu tools — links, anchors and lists ==
  
