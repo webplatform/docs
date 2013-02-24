@@ -250,8 +250,6 @@ The '''audio''' object has these properties.
 {{!}}-
 {{!}}[[apis/audio-video/properties/autobuffer{{!}}'''autobuffer''']]
 {{!}}The [[apis/audio-video/properties/autobuffer{{!}}'''autobuffer''']] element is not supported by Internet Explorer 9. Use the [[apis/audio-video/properties/preload{{!}}'''preload''']] element instead.
-
-This property is not supported for Metro style apps using JavaScript
 {{!}}-
 {{!}}[[apis/audio-video/properties/autoplay{{!}}'''autoplay''']]
 {{!}}Gets or sets a value that indicates whether to start playing the media automatically.
