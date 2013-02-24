@@ -118,7 +118,7 @@ This rule has no default value.
 This rule is used to specify property values at various points during an animation. The '''@keyframes''' rule specifies the property values during one cycle of an animation; the animation may iterate one or more times.
 This rule uses keyframe selectors to specify property values at various stages of the animation. Keyframe selectors can be declared as <code>from</code> (equivalent to <code>0%</code>), <code>to</code> (equivalent to <code>100%</code>), and one or more  percentages.
 Keyframe selectors use keyframe descriptors to specify the properties and values being animated. If a property cannot be animated, the specification is ignored.
-'''Important'''  Because of the preliminary status of the CSS Animations Module Level 3 Working Draft, the '''@keyframes''' rule must be used with the Microsoft-specific vendor prefix, "-ms-", to work with Internet Explorer 10 and Metro style apps using JavaScript.
+'''Important'''  Because of the preliminary status of the CSS Animations Module Level 3 Working Draft, the '''@keyframes''' rule must be used with the Microsoft-specific vendor prefix, "-ms-", to work with Internet Explorer 10.
 |Import_Notes====Syntax===
 <code>'''@keyframes '''''
 &lt;identifier&gt;
