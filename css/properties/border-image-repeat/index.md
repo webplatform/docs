@@ -49,11 +49,12 @@
 
 <code>border-image-repeat: round;</code>
 [[File:bi-round.png|border-image round demo]]
+/* Round is supported by Gecko-based browsers only, like Firefox */
 
 <code>border-image-repeat: space;</code>
 [[File:bi-space.png|border-image space demo]]
 
-/* Note that round and space have quite limited browser support at the moment. Where limited means basically none.  */
+/* Space is not supported by any browser */
 }}
 }}
 {{Notes_Section}}
