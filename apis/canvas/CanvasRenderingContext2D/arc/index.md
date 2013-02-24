@@ -40,18 +40,15 @@
 |Method_applies_to=apis/canvas/CanvasRenderingContext2D
 |Example_object_name=object
 |Return_value_name=object
-|Javascript_data_type=DOM Node
-|Return_value_description=Type: '''HRESULT'''
+|Javascript_data_type=String
+|Return_value_description=Type: '''string'''
 
-This method can return one of these values.
+This method can return the following value.
 
 {{{!}} class="wikitable"
 {{!}}-
 !Return code
 !Description
-{{!}}-
-{{!}}S_OK
-{{!}}The operation completed successfully.
 {{!}}-
 {{!}}IndexSizeError
 {{!}}The  specified radius value  is negative.
