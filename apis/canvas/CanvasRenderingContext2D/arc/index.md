@@ -60,7 +60,7 @@ This method can return one of these values.
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=The following code example shows several different arcs. 
+|Description=The following code example shows several different arcs.
 |Code=<html>
 <head>
       <title>Arc example</title>
@@ -92,6 +92,7 @@ This method can return one of these values.
   <canvas id="canvas" width="300" height="300">This browser or document mode doesn't support canvas</canvas> 
 </body>
 </html>
+|LiveURL=http://result.dabblet.com/gist/5024626/e8999ad1cd338a601a3d75c139e92d8ee68b2ca3
 }}
 }}
 {{Notes_Section
