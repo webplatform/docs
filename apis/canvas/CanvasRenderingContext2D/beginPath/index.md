@@ -42,7 +42,7 @@
         <canvas id="demo" width="300" height="300">This browser or document mode doesn't support canvas</canvas>
   </body>
 </html>
-|LiveURL=http://code.webplatform.org/gist/5022033
+|LiveURL=http://code.webplatform.org/gist/5022033/58ee0dfab60f4ee6d22c14881d9708708f45e2b2
 }}{{Single Example
 |Language=JavaScript
 |Description=This snippet shows the basis syntax for beginPath() using the canvas context.
