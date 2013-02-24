@@ -1,4 +1,4 @@
-{{Page_Title|flex}}
+{{Page_Title}}
 {{Flags}}
 {{Standardization_Status}}
 {{API_Name}}
