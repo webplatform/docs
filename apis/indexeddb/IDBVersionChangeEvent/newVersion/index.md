@@ -5,19 +5,18 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Returns the new version of the database.}}
+{{Summary_Section|Returns the new version of the database, which is the version specified by the open request.}}
 {{API_Object_Property
 |Property_applies_to=apis/indexeddb/IDBVersionChangeEvent
 |Read_only=Yes
 |Javascript_data_type=unsigned long
+|Return_value_description=A number corresponding to the value specified in the [[apis/indexeddb/IDBFactory/open|IDBFactory.open]] request.
 }}
 {{Examples_Section
 |Not_required=No
 |Examples=
 }}
-{{Notes_Section
-|Import_Notes====Syntax===
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications=
 }}
