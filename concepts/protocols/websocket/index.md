@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Stub
+|High-level issues=Needs Topics, Unreviewed Import
+|Content=Compatibility Incomplete
 }}
 {{Summary_Section|A WebSocket is a persistent, low-latency, lightweight and two-way communication channel between the server and the browser.}}
 {{Basic Page}}
@@ -81,5 +82,4 @@ Online collaborative applications
 |Sources=HTML5Rocks
 |MDN_link=
 |MSDN_link=
-|HTML5Rocks_link=
 }}
