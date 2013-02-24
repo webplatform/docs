@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Ensures there is a subpath for (x1, y1). Then, the behavior depends on the arguments and the last point in the subpath. See Notes.}}
+{{Summary_Section|Check to be sure there's a subpath for (x1, y1). Then, the behavior depends on the arguments and the last point in the subpath. See Notes.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=x1
@@ -33,27 +33,12 @@
 |Method_applies_to=apis/canvas/CanvasRenderingContext2D
 |Example_object_name=object
 |Return_value_name=object
-|Javascript_data_type=DOM Node
-|Return_value_description=Type: '''HRESULT'''
-
-This method can return one of these values.
-
-{{{!}} class="wikitable"
-{{!}}-
-!Return code
-!Description
-{{!}}-
-{{!}}S_OK
-{{!}}The operation completed successfully.
-{{!}}-
-{{!}}IndexSizeError
-{{!}}The radius given is negative.
-{{!}}}
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
+|Description=This example creates an arc 
 |Code=<html>
   <head>
     <title>ArcTo example</title>
@@ -112,7 +97,6 @@ This method can return one of these values.
 
   </body>
 </html>
-
 }}
 }}
 {{Notes_Section
