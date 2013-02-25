@@ -7,7 +7,7 @@
 {{Basic Page}}
 ==What is a WebSocket?==
 
-The web we know today is built on top of HTTP which is by design a stateless, one-off request/response based protocol to reduce the load on the servers. Fast-forward to today and now web applications are much more interactive than that thanks to [[apis/xhr/XMLHttpRequest | XMLHttpRequest]] and we even see multiplayer games, online chat applications and much more. As one might guess, some of this new type of applications require low-latency and two-way communication between the servers and the browser. The solution to this need is WebSockets: a secure socket implementation, that is a persistent two-way lightweight communication channel, on top of existing HTTP. The protocol allows cross-origin requests by means of [[tutorials/using_cors | CORS]].
+The web we know today is built on top of HTTP, which is by design a stateless, one-off request/response-based protocol to reduce server load. But web applications have become more interactive thanks to [[apis/xhr/XMLHttpRequest | XMLHttpRequest]], giving rise to multiplayer games, online chat applications and more. These new types of applications require low-latency and two-way communication between the server and the browser. Hence WebSockets: a secure socket implementation that is a persistent, two-way, lightweight communication channel, on top of existing HTTP. The protocol allows cross-origin requests by means of [[tutorials/using_cors | CORS]].
 
 ==Getting Started==
 
@@ -16,19 +16,20 @@ To create a WebSocket connection, you need to call the <code>WebSocket</code> co
 var connection = new WebSocket('ws://html5rocks.websocket.org/echo');
 </syntaxhighlight>
 
-Although WebSockets are based on top off HTTP, they require different handling due to the major depart from the one-off nature of HTTP. This is why WebSocket URL's have a different protocol: <code>ws</code> instead of <code>http</code> and <code>wss</code> instead of <code>https</code>. They also require a special handshake triggered by the [http://en.wikipedia.org/wiki/HTTP/1.1_Upgrade_header | HTTP Upgrade Header] which sometimes get stripped by certain proxies, causing the connection to fail.
+Although WebSockets are built on top of HTTP, they require different handling due to the major depart from the one-off nature of HTTP. This is why WebSocket URL's have a different protocol: <code>ws</code> instead of <code>http</code> and <code>wss</code> instead of <code>https</code>. They also require a special handshake triggered by the [http://en.wikipedia.org/wiki/HTTP/1.1_Upgrade_header | HTTP Upgrade Header] which sometimes get stripped by certain proxies, causing the connection to fail.
 
-WebSocket objects provide <code>onmessage</code> event to get the messages from the socket asynchronously and an unblocking <code>send</code> method:
+WebSocket objects provide <code>onmessage</code> event to get the messages from the socket asynchronously and a non-blocking <code>send</code> method:
 <syntaxhighlight lang="javascript">
 // Log messages from the server
 connection.onmessage = function (e) {
-  console.log('Server: ' + e.data);
+  console.log('Server says: ' + e.data);
 };
 
+// Send message to the server
 connection.send('Hello there!');
 </syntaxhighlight>
 
-A WebSocket is not usable until gets connected and the object provides three more events to get notified about these state changes and provides a <code>readyState</code> property that reflects its current state:
+A WebSocket is not usable until connected and the object provides three more events to get notified about these state changes and provides a <code>readyState</code> property that reflects its current state:
 <syntaxhighlight lang="javascript">
 connection.onopen = function () {
   console.log('WS connection established.');
@@ -46,7 +47,7 @@ connection.onclose = function () {
 
 ==Data Types and Extensions==
 
-WebSockets support sending binary messages too. To send binary data, one can use either <code>Blob</code> or <code>ArrayBuffer</code> object. Instead of calling the <code>send</code> method with string, you can simply pass an <code>ArrayBuffer</code> or a <code>Blob</code>.
+WebSockets support sending binary messages, too. To send binary data, one can use either <code>Blob</code> or <code>ArrayBuffer</code> object. Instead of calling the <code>send</code> method with string, you can simply pass an <code>ArrayBuffer</code> or a <code>Blob</code>.
 <syntaxhighlight lang="javascript">
 // Sending file as Blob
 var file = document.querySelector('input[type="file"]').files[0];
