@@ -1,6 +1,5 @@
 {{Page_Title|CSS tutorials}}
-{{Flags
-}}
+{{Flags}}
 {{Summary_Section|Cascading Stylesheets (CSS) is a language for styling markup content (such as HTML, SVG or XML.) This page lists our CSS tutorials, perfect for anyone wishing to learn the language from scratch, or dive into learning more advanced CSS techniques.}}
 {{Basic Page|Content=PAGE CONTENT GOES HERE
 }}
@@ -33,6 +32,7 @@
 * [[tutorials/css border image|Decorating fancy borders with CSS border-image]]
 * [[tutorials/css box shadow|Adding depth with CSS box-shadow]]
 * [[tutorials/css_filters|Understanding CSS filter effects]]
+* [[tutorials/using_css_multiple_background|Using multiple backgrounds]]
 
 ==CSS layout==
 
