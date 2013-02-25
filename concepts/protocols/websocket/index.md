@@ -7,7 +7,7 @@
 {{Basic Page}}
 ==What is a WebSocket?==
 
-The web we know today is built on top of HTTP protocol which is by design a stateless, one-off request/response based protocol to reduce the load on the servers. Fast-forward to today and now web applications are much more interactive than that thanks to [[apis/xhr/XMLHttpRequest | XMLHttpRequest]] and we even see multiplayer games, online chat applications and much more. As one might guess, some of this new type of applications require low-latency and two-way communication between the servers and the browser. The solution to this need is WebSockets: a secure socket implementation, that is a persistent two-way lightweight communication channel, on top of existing HTTP protocol. The protocol allows cross-origin requests by means of [[tutorials/using_cors | CORS]].
+The web we know today is built on top of HTTP which is by design a stateless, one-off request/response based protocol to reduce the load on the servers. Fast-forward to today and now web applications are much more interactive than that thanks to [[apis/xhr/XMLHttpRequest | XMLHttpRequest]] and we even see multiplayer games, online chat applications and much more. As one might guess, some of this new type of applications require low-latency and two-way communication between the servers and the browser. The solution to this need is WebSockets: a secure socket implementation, that is a persistent two-way lightweight communication channel, on top of existing HTTP. The protocol allows cross-origin requests by means of [[tutorials/using_cors | CORS]].
 
 ==Getting Started==
 
