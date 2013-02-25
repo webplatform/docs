@@ -61,7 +61,7 @@ var file = document.querySelector('input[type="file"]').files[0];
 connection.send(file);
 </syntaxhighlight>
 
-To receive data as binary <code>Blob</code> or <code>ArrayBufer</code> <code>binaryType</code> attribute of the object should be set to either <code>'blob'</code> or <code>'arraybuffer'</code>.
+To receive binary data, the <code>binaryType</code> attribute of the WebSocket object should be set to either <code>'blob'</code> or <code>'arraybuffer'</code>.
 <syntaxhighlight lang="javascript">
 // Setting binaryType to accept received binary as either 'blob' or 'arraybuffer'
 connection.binaryType = 'arraybuffer';
@@ -78,7 +78,7 @@ console.log(connection.extensions);
 
 ==Notes==
 
-WebSockets is a relatively low level API that especially aims to be a two-way communication channel so it is most appropriate to use it in applications that explicitly require two way real-time communication such as a multiplayer game, chat, or real-time text editors etc. If one needs to get real-time updates from a server but don't need to send anything back such as getting stock information in real-time, he or she should consider using [[tutorials/eventsource_basics | EventSource (Server-Sent Events)]].
+WebSockets is a relatively low level API that especially aims to be a two-way communication channel so it is most appropriate to use in applications that explicitly require two-way real-time communication, such as multiplayer games, chat, real-time text editors, etc. If one needs to get real-time updates from a server but does not need to send anything back such as getting stock information in real-time, [[tutorials/eventsource_basics | EventSource (Server-Sent Events)]] should be considered.
 {{Notes_Section
 |Usage=Online multiplayer games
 Chat applications
