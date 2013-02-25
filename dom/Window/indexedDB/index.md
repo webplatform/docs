@@ -11,13 +11,14 @@
 |Read_only=No
 |Example_object_name=window
 |Return_value_name=ixDBHandle
+|Javascript_data_type=IDBFactory
 |Return_value_description=A handle to the IndexedDB "factory," which allows access to IndexedDB features on the current browser/device.
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
-|Description=The following example uses feature detection to determine whether IndexedDB is supported by the current browser/device. 
+|Description=The following example uses feature detection to determine whether IndexedDB is supported by the current browser/device.
 |Code=function getIndexedDBHandle() {
    var oResult = null; 
    if ( window.indexedDB ) {
@@ -34,15 +35,14 @@ var ixHandle = getIndexedDBHandle();
 if ( getIndexHandle == null ) {
    doFallback();
 } else {
-   doIndexedDBWork(};
+   doIndexedDBWork();
 }
-
 }}
 }}
 {{Notes_Section
 |Notes====Remarks===
-For security reasons, support for the [[apis/indexedDB/IDBFactory|'''indexedDB''']] property is limited to webpages loaded using the "http://" or "https://" protocols.
-To troubleshoot webpages that incorporate IndexedDB features before uploading them to a public server, use a [ http://go.microsoft.com/fwlink/p/?LinkId{{=}}249011 local web server] to preview the pages using the loopback address (127.0.0.1).
+For security reasons, Internet Explorer support for the [[apis/indexedDB/IDBFactory|'''indexedDB''']] property is limited to webpages loaded using the "http://" or "https://" protocols.
+
 '''Note'''  In pre-release versions of Internet Explorer 10, the [[apis/indexedDB/IDBFactory|'''indexedDB''']] was accessed using a vendor prefix ('''msIndexedDB''').  Such use is considered obsolete; applications using the vendor prefix should be updated to ensure standards-compliance and future compatibility.
 }}
 {{Related_Specifications_Section
@@ -127,3 +127,10 @@ To troubleshoot webpages that incorporate IndexedDB features before uploading th
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
+}
+
+
+
+
+
+}
