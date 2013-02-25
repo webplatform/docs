@@ -6,7 +6,6 @@
 {{API_Object_Property
 |Property_applies_to=apis/webrtc/RTCPeerConnection
 |Read_only=No
-|Return_value_description=sdf
 }}
 {{Examples_Section
 |Not_required=No
