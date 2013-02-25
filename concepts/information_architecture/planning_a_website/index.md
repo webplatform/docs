@@ -61,7 +61,7 @@ Once your site is ready, put it on a web host and point a domain at it!  Once th
 |Specifications=
 }}
 {{See_Also_Section}}
-{{Topics}}
+{{Topics|Accessibility, UI, Usability}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
