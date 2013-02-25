@@ -21,6 +21,10 @@ como equivalente a:
 
 <syntaxhighlight lang="html5"><h3>In the beginning</h3></syntaxhighlight>
 
+El único lugar donde esto no aplica es en el elemento <code>&lt;pre&gt;</code>, el cual será discutido en detalle más adelante en este apartado.
+
+Esto puede ser una fuente de confusión para los nuevos autores de un documento HTML, quienes pueden tratar de rellenar el texto con espacios adicionales para lograr la sangría deseada, para conseguir más espacio después de un punto entre oraciones o para introducir más espacio vertical entre los párrafos. Influir en el diseño visual de vuestros documentos no es algo que se logre desde el código HTML, sino que se logra a través de CSS.
+
 == Elementos de bloque ==
 
 En este subapartado explicaremos la sintaxis y el uso de los elementos de bloque más frecuentes utilizados para formatear texto.
