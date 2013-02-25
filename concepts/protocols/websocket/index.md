@@ -14,6 +14,7 @@ The web we know today is built on top of HTTP, which is by design a stateless, o
 To create a WebSocket connection, you need to call the <code>WebSocket</code> constructor with the URL to the WebSocket service:
 <syntaxhighlight lang="javascript">
 var connection = new WebSocket('ws://html5rocks.websocket.org/echo');
+// Just creating the object is enough to get connected.
 </syntaxhighlight>
 
 Although WebSockets are built on top of HTTP, they require different handling due to the major depart from the one-off nature of HTTP. This is why WebSocket URL's have a different protocol: <code>ws</code> instead of <code>http</code> and <code>wss</code> instead of <code>https</code>. They also require a special handshake triggered by the [http://en.wikipedia.org/wiki/HTTP/1.1_Upgrade_header | HTTP Upgrade Header] which sometimes get stripped by certain proxies, causing the connection to fail.
@@ -33,15 +34,21 @@ A WebSocket is not usable until connected and the object provides three more eve
 <syntaxhighlight lang="javascript">
 connection.onopen = function () {
   console.log('WS connection established.');
+  // This means it is connected now.
+  console.log(connection.readyState); // 1 - OPEN (from 0)
 };
 
 // Log errors
 connection.onerror = function (error) {
   console.log('WebSocket connection failed:' + error);
+  // This means the connection failed.
+  console.log(connection.readyState); // 3 - CLOSED (probably from 0)
 };
 
 connection.onclose = function () {
   console.log('WS connection closed.');
+  // This means the connection closed.
+  console.log(connection.readyState); // 3 - CLOSED
 };
 </syntaxhighlight>
 
