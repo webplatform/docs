@@ -32,13 +32,12 @@
 }}
 |Method_applies_to=apis/canvas/CanvasRenderingContext2D
 |Example_object_name=object
-|Return_value_name=object
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
-|Description=This example creates an arc 
+|Description=This example creates an arc
 |Code=<html>
   <head>
     <title>ArcTo example</title>
@@ -97,6 +96,7 @@
 
   </body>
 </html>
+|LiveURL=http://code.webplatform.org/gist/5034180
 }}
 }}
 {{Notes_Section
