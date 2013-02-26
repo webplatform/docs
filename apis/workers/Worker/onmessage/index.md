@@ -4,7 +4,7 @@
 {{API_Name}}
 {{Summary_Section|An event listener to be called when a message is received from the worker.}}
 {{API_Object_Property
-|Property_applies_to=apis/worker/Worker
+|Property_applies_to=apis/workers/Worker
 |Read_only=Yes
 |Return_value_description=EventHandler
 }}
