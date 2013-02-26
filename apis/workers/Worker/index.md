@@ -51,7 +51,6 @@ You can determine the location of a worker from inside the worker by using the '
 
 You can determine which navigator objects are available to the worker by using the '''WorkerNavigator''' object.
 Shared workers are not supported in this release.
-
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
