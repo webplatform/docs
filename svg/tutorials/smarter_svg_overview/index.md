@@ -193,14 +193,6 @@ the tag's '''requiredExtensions''' attribute. If not, it uses fallback
 
 <!--
 
-<syntaxhighlight lang="xml"></syntaxhighlight>
-<syntaxhighlight lang="xml"></syntaxhighlight>
-<syntaxhighlight lang="xml"></syntaxhighlight>
-<syntaxhighlight lang="xml"></syntaxhighlight>
-<syntaxhighlight lang="xml"></syntaxhighlight>
-<syntaxhighlight lang="xml"></syntaxhighlight>
-<syntaxhighlight lang="xml"></syntaxhighlight>
-<syntaxhighlight lang="xml"></syntaxhighlight>
 
 Crap, no D&D:
 http://www.vectomatic.org/svg/support-for-native-drag-and-drop
@@ -213,8 +205,21 @@ drawing surface.
 
 ==Defining the drawing area==
 
-* viewBox
-* viewPort
+
+
+<!--
+
+<syntaxhighlight lang="xml"></syntaxhighlight>
+<syntaxhighlight lang="xml"></syntaxhighlight>
+<syntaxhighlight lang="xml"></syntaxhighlight>
+<syntaxhighlight lang="xml"></syntaxhighlight>
+<syntaxhighlight lang="xml"></syntaxhighlight>
+<syntaxhighlight lang="xml"></syntaxhighlight>
+<syntaxhighlight lang="xml"></syntaxhighlight>
+<syntaxhighlight lang="xml"></syntaxhighlight>
+
+-->
+
 
 ==Adding styles==
 
@@ -242,10 +247,12 @@ drawing surface.
     6.17 Aural style sheets
 -->
 
-==Groups and transforms==
+==Groups, transforms, and viewBoxes==
 
 * g
 * transform
+* viewBox
+* viewPort
 
 <!--
     5.2 Grouping: the 'g' element
