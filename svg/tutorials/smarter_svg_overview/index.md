@@ -211,7 +211,15 @@ drawing surface.
         5.1.2 The 'svg' element
 -->
 
+==Defining the drawing area==
+
+* viewBox
+* viewPort
+
 ==Adding styles==
+
+* attributes
+* properties
 
 <!--
  6 Styling
@@ -234,17 +242,16 @@ drawing surface.
     6.17 Aural style sheets
 -->
 
-==Grouping elements==
+==Groups and transforms==
+
+* g
+* transform
 
 <!--
     5.2 Grouping: the 'g' element
         5.2.1 Overview
         5.2.2 The 'g' element
--->
 
-==Transforms==
-
-<!--
  7 Coordinate Systems, Transformations and Units
     7.1 Introduction
     7.2 The initial viewport
@@ -262,29 +269,14 @@ drawing surface.
     7.14 The 'svg:transform' attribute
 -->
 
-==The viewport and viewbox==
-
 ==Referencing content==
 
-<!--
-
--->
-
-==How to use the use tag==
-
-==Importing content==
-
-<!--
-
- 23 Extensibility
-    23.1 Foreign namespaces and private data
-    23.2 Embedding foreign object types
-    23.3 The 'foreignObject' element
-    23.4 An example
-    23.5 Adding private elements and attributes to the DTD
--->
+* defs
+* use
 
 ==Other==
+
+* desc/title
 
 <!--
  5 Document Structure
