@@ -68,7 +68,7 @@ JavaScript may affect both HTML and SVG content:
     </svg>
   </body>
 </html>
-</syntaxhightlight>
+</syntaxhighlight>
 
 [[Image:scr_svg_css.png]]
 
