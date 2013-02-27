@@ -6,8 +6,8 @@
 {{Byline}}
 {{Summary_Section|This guide introduces SVG graphics and shows you all the basics of how to deploy them along with standard web content.}}
 {{Tutorial
-|Content=SVG is a standard XML markup format that renders ''Scalable
-Vector Graphics'' within web browsers.  Vector graphics are
+|Content=SVG is a standard XML markup format that renders
+''Scalable Vector Graphics'' within web browsers.  Vector graphics are
 implemented as pure shapes that can render crisply at any
 magnification. In contrast, ''raster'' or ''paint''-style images
 consist of a series of pixels that may not display well when zoomed at
