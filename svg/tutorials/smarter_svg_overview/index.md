@@ -45,9 +45,30 @@ can appear comfortably alongside HTML content.
 
 Until recently, SVG was fairly difficult to incorporate with other web
 content, and there are still many challenges. The HTML5 standard
-provides a way to insert ''inline'' regions of SVG into HTML files
+provides a way to insert ''inline'' regions of SVG into HTML files.
+This is the basic deployment model you'll see illustrated throughout
+this guide:
 
 [[Image:scr_svg_html.png]]
+
+It translates to this basic HTML markup structure, where CSS and
+JavaScript may affect both HTML and SVG content:
+
+<syntaxhighlight lang="xml">
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="styles/html_and_svg.css" rel="stylesheet" />
+  </head>
+  <body>
+    <script type="text/javascript" src="js/html_and_svg.js">
+    </script>
+    <svg>
+      <!-- define graphics here -->
+    </svg>
+  </body>
+</html>
+</syntaxhightlight>
 
 [[Image:scr_svg_css.png]]
 
