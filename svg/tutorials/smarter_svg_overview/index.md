@@ -53,6 +53,8 @@ provides a way to insert ''inline'' regions of SVG into HTML files
 
 [[Image:scr_svg_svg.png]]
 
+[[Image:scr_svg_svg2svg.png]]
+
 
 
 <!--
