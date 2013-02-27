@@ -3,14 +3,15 @@
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Specifies the position an element in relation to the right side of the containing element.}}
 {{CSS Property
+|Initial value=auto
 |Applies to=All elements
 |Inherited=No
 |Media=visual
-|Animatable=No
+|Animatable=Yes
 |Values={{CSS Property Value
 |Data Type=auto
 |Description=Default. Position is determined by the regular HTML layout of the page.
@@ -51,6 +52,7 @@ For more information about how to access the dimension and location of objects o
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
 |Chrome_version=1.0
@@ -88,8 +90,8 @@ For more information about how to access the dimension and location of objects o
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
+|Sources=MDN, MSDN
+|MDN_link=https://developer.mozilla.org/en-US/docs/CSS/right
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
