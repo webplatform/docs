@@ -148,35 +148,39 @@ from within an SVG file:
 </svg>
 </syntaxhighlight>
 
+From within an SVG, you can also reference components from other SVG
+files. The example that follows shows how you might import a graphic
+of a cat from another SVG file, then style it ''calico'' based on
+referenced CSS:
+
 [[Image:scr_svg_svg2svg.png]]
 
 <syntaxhighlight lang="xml">
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?xml-stylesheet href="style.css" type="text/css"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"    width="1000" height="1000">
-    <use xlink:href="another.svg#rectangle" class="blue"/>
+<?xml-stylesheet href="css/svg_styles.css" type="text/css"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1000">
+    <use xlink:href="components.svg#cat" class="calico"/>
 </svg>
 </syntaxhighlight>
+
+You may also be able to use the '''foreignObject''' tag to render live
+HTML content within an SVG graphic environment. This example uses the
+'''switch''' tag to test whether the feature works, as recognized by
+the tag's '''requiredExtensions''' attribute. If not, it uses fallback
+'''text''':
 
 [[Image:scr_svg_svg2html.png]]
 
 <syntaxhighlight lang="xml">
 <?xml version="1.0" standalone="yes"?>
 <svg width="4in" height="3in" version="1.1" xmlns = 'http://www.w3.org/2000/svg'>
-  <desc>This example uses the 'switch' element to provide a 
-        fallback graphical representation of an paragraph, if 
-        XMHTML is not supported.
-  </desc>
-
-  <!-- The 'switch' element processes the first child element whose
-  testing attributes evaluate to true.
-  -->
-
+  <desc>use 'switch' to test if foreignObject works, otherwise render fallback 'text' content</desc>
   <switch>
     <foreignObject width="100" height="50" requiredExtensions="http://example.com/SVGExtensions/EmbeddedXHTML">
       <!-- XHTML content goes here -->
       <body xmlns="http://www.w3.org/1999/xhtml">
         <p>Here is a paragraph that requires word wrap</p>
+        <iframe src="external.html">...or an iframe...</iframe>
       </body>
     </foreignObject>
     <text font-size="10" font-family="Verdana">
@@ -188,7 +192,6 @@ from within an SVG file:
 </syntaxhighlight>
 
 <!--
-
 
 <syntaxhighlight lang="xml"></syntaxhighlight>
 <syntaxhighlight lang="xml"></syntaxhighlight>
