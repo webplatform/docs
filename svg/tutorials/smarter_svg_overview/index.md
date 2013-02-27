@@ -149,11 +149,36 @@ within an SVG file:
 
 [[Image:scr_svg_svg2html.png]]
 
+<syntaxhighlight lang="xml">
+<?xml version="1.0" standalone="yes"?>
+<svg width="4in" height="3in" version="1.1" xmlns = 'http://www.w3.org/2000/svg'>
+  <desc>This example uses the 'switch' element to provide a 
+        fallback graphical representation of an paragraph, if 
+        XMHTML is not supported.
+  </desc>
 
+  <!-- The 'switch' element processes the first child element whose
+  testing attributes evaluate to true.
+  -->
+
+  <switch>
+    <foreignObject width="100" height="50" requiredExtensions="http://example.com/SVGExtensions/EmbeddedXHTML">
+      <!-- XHTML content goes here -->
+      <body xmlns="http://www.w3.org/1999/xhtml">
+        <p>Here is a paragraph that requires word wrap</p>
+      </body>
+    </foreignObject>
+    <text font-size="10" font-family="Verdana">
+      <tspan x="10" y="10">Here is a paragraph that</tspan>
+      <tspan x="10" y="20">requires word wrap.</tspan>
+    </text>
+  </switch>
+</svg>
+</syntaxhighlight>
 
 <!--
 
-<syntaxhighlight lang="xml"></syntaxhighlight>
+
 <syntaxhighlight lang="xml"></syntaxhighlight>
 <syntaxhighlight lang="xml"></syntaxhighlight>
 <syntaxhighlight lang="xml"></syntaxhighlight>
