@@ -37,9 +37,6 @@ get a feel for how SVG markup works, you'll stroll through an example
 that shows how to build a pair of eyes, and how to move them around
 and make them blink.
 
-==What is SVG?==
-
-
 ==Defining the drawing area==
 
 * embed within HTML
