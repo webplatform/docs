@@ -113,24 +113,26 @@ a custom bullet shape:
     list-style-image     : url(img/components.svg#bullet);
  }
 
-SVG files can also be viewed as standalone files, and you can navigate
-to them directly. Any SVG file or '''svg''' tag region can reference
-its own set of CSS and JavaScript, which only applies within the SVG:
+Less common in practice, SVG files can be viewed as standalone files,
+perhaps as the target of a navigation. Any SVG file or '''svg''' tag
+region can reference its own set of CSS and JavaScript, which only
+applies within the SVG:
 
 [[Image:scr_svg_svg.png]]
 
-This example shows how to embed or reference CSS or JavaScript from
-within an SVG file:
+This example shows how to embed or reference either CSS or JavaScript
+from within an SVG file:
 
 <syntaxhighlight lang="xml">
 <?xml version="1.0" standalone="no"?>
+  <!-- reference CSS here: -->
 <?xml-stylesheet href="css/styles.css" type="text/css"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="700px" height="500px" viewBox="0 0 1000 500">
   <defs>
     <style type="text/css">
         <![CDATA[
-            /* define CSS here */
+            /* embed CSS here */
         ]]>
     </style>
   </defs>
@@ -139,6 +141,7 @@ within an SVG file:
           // embed JavaScript here
       ]]>
   </script>
+  <!-- or reference JavaScript here: -->
   <script type="application/ecmascript" xlink:href="js/app.js">
   </script>
   <!-- define graphics here -->
@@ -146,6 +149,14 @@ within an SVG file:
 </syntaxhighlight>
 
 [[Image:scr_svg_svg2svg.png]]
+
+<syntaxhighlight lang="xml">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet href="style.css" type="text/css"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"    width="1000" height="1000">
+    <use xlink:href="another.svg#rectangle" class="blue"/>
+</svg>
+</syntaxhighlight>
 
 [[Image:scr_svg_svg2html.png]]
 
