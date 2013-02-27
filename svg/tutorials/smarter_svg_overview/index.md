@@ -1,18 +1,20 @@
-{{Page_Title|Smarter SVG: overview and scope}}
+{{Page_Title|Smarter SVG: Overview}}
 {{Flags
 |High-level issues=Stub
-|Editorial notes=[new content from Sierra ([[User:Sierra|Sierra]] ([[User talk:Sierra|talk]])); please do not edit]
+|Editorial notes=[new content edited offline by Sierra ([[User:Sierra|Sierra]] ([[User talk:Sierra|talk]])); please do not edit]
 }}
 {{Byline}}
 
 {{Summary_Section|This guide introduces SVG graphics and shows you how
-to deploy them along with standard web content based on HTML, CSS, and
-JavaScript, with which you should be familiar.  It highlights
-prominent differences with those standards, and provides a quick tour
-of many SVG features covered in more detail in other guides. It
-focuses on the unique way you can build complex interactive graphics
-from reusable components, and flexibly place them in various drawing
-areas.}}
+to deploy them along with standard web content -- HTML, CSS, and
+JavaScript -- with which you should already be familiar.  It
+highlights some notable differences with those standards, and provides
+a quick tour of many SVG features covered in more detail in other
+guides. It focuses on the unique way you can build complex interactive
+graphics from reusable components, and flexibly place them in various
+drawing areas. As part of a grand tour to get a feel for how SVG
+markup works, you'll stroll through an example that shows how to build
+a pair of eyes, and how to move them around and make them blink.}}
 
 {{Tutorial
 |Content=
@@ -147,7 +149,7 @@ low-margin business
 
 -->
 
-==How to use 'use'
+==How to use the use tag
 
 ==Importing content==
 
