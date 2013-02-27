@@ -1,14 +1,22 @@
 {{Page_Title|Smarter SVG: graphic effects}}
 {{Flags
 |High-level issues=Stub
-|Editorial notes=[new content from Sierra ([[User:Sierra|Sierra]] ([[User talk:Sierra|talk]])); please do not edit]
+|Editorial notes=[new content edited offline by Sierra ([[User:Sierra|Sierra]] ([[User talk:Sierra|talk]])); please do not edit]
 }}
 {{Byline}}
-{{Summary_Section|This guide shows you how to embed images in SVG and apply graphics effects such as gradients, patterns, clipping, masking, and compositing.}}
+{{Summary_Section|This guide shows you how to embed images within SVG and apply various graphics effects such as gradients, patterns, clipping, masking, and compositing.}}
 {{Tutorial
 |Content=
 
+==Images==
+
+<!--
+    5.7 The 'image' element
+-->
+
 ==Gradients==
+
+
 
 <!--
  13 Gradients and Patterns
@@ -23,12 +31,6 @@
 Gradient properties:
 * '''stop-color'''
 * '''stop-opacity'''
-
-==Images==
-
-<!--
-    5.7 The 'image' element
--->
 
 ==Patterns==
 
@@ -64,6 +66,8 @@ Other properties for visual media:
 * '''clip-rule'''
 * '''overflow''', only applicable to elements which establish a new viewport.
 
+
+
 ==Masking==
 
 <!--
@@ -73,7 +77,7 @@ Other properties for visual media:
 
 * '''mask'''
 
-==Advanced rendering options==
+==Rendering preferences==
 
 <!--
     11.7 Rendering properties
@@ -103,9 +107,6 @@ Color and Painting properties:
     11.1 Introduction
     11.2 Specifying paint
 
-public service spots to educate us to wash our shopping bags in
-3... 2... 1...
-
  12 Color
     12.1 Introduction
     12.2 The 'color' property
@@ -119,8 +120,8 @@ public service spots to educate us to wash our shopping bags in
 
 ([[svg/tutorials/smarter_svg_overview|Overview]] /
 [[svg/tutorials/smarter_svg_shapes|Shapes]] /
-[[svg/tutorials/smarter_svg_graphics|Graphics]] /
 [[svg/tutorials/smarter_svg_text|Text]] /
+[[svg/tutorials/smarter_svg_graphics|Graphics]] /
 [[svg/tutorials/smarter_svg_filters|Filters]] /
 [[svg/tutorials/smarter_svg_animation|Animation]] /
 [[svg/tutorials/smarter_svg_interaction|Interaction]])
