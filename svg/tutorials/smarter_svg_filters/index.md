@@ -1,20 +1,24 @@
 {{Page_Title|Smarter SVG: filters}}
 {{Flags
 |High-level issues=Stub
-|Editorial notes=[new content from Sierra ([[User:Sierra|Sierra]] ([[User talk:Sierra|talk]])); please do not edit]
+|Editorial notes=[new content edited offline by Sierra ([[User:Sierra|Sierra]] ([[User talk:Sierra|talk]])); please do not edit]
 }}
 {{Byline}}
-{{Summary_Section|This guide shows you how to build SVG image processing filters, which you can also apply to non-SVG content using the  [[css/properties/filter|'''filter''']] CSS property.}}
+{{Summary_Section|This guide shows you how to build SVG image processing filters to create interesting visual effects. It shows how to apply these effects within an SVG graphic, or how to apply it to non-SVG content using the [[css/properties/filter|'''filter''']] CSS property.}}
 {{Tutorial
 |Content=
 
+==Applying filters in SVG==
+
+==Applying SVG filters with CSS==
+
 ==Chained filters==
+
+==Blending channels==
 
 ==Filter regions==
 
 ==Light sources==
-
-==Blends==
 
 Filter Effects properties:
 * '''enable-background'''
@@ -61,8 +65,8 @@ Filter Effects properties:
 
 ([[svg/tutorials/smarter_svg_overview|Overview]] /
 [[svg/tutorials/smarter_svg_shapes|Shapes]] /
-[[svg/tutorials/smarter_svg_graphics|Graphics]] /
 [[svg/tutorials/smarter_svg_text|Text]] /
+[[svg/tutorials/smarter_svg_graphics|Graphics]] /
 [[svg/tutorials/smarter_svg_filters|Filters]] /
 [[svg/tutorials/smarter_svg_animation|Animation]] /
 [[svg/tutorials/smarter_svg_interaction|Interaction]])
