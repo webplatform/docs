@@ -4,12 +4,12 @@
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|Prompts the user for permission to use a media device such as a camera or microphone. If the user provides permission, the <code>successCallback</code> is invoked on the calling application with a [[apis/webrtc/objects/LocalMediaStream|LocalMediaStream]] object as its argument.}}
+{{Summary_Section|Prompts the user for permission to use a media device such as a camera or microphone. If the user provides permission, the <code>successCallback</code> is invoked on the calling application with a [[apis/webrtc/LocalMediaStream|LocalMediaStream]] object as its argument.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=constraints
 |Data type=MediaStreamConstraints
-|Description=The constraints parameter is a MediaStreamConstraints object with two Boolean members: video and audio. These describe the media types supporting the [[apis/webrtc/objects/LocalMediaStream|LocalMediaStream]] object. Either or both must be specified to validate the constraint argument. If a specified constraint is not supported by the browser, getUserMedia invokes the errorCallback with the NOT_SUPPORTED_ERROR. If the browser cannot find any media track with the specified type, getUserMedia invokes the errorCallback with the MANDATORY_UNSATISFIED_ERR.
+|Description=The constraints parameter is a MediaStreamConstraints object with two Boolean members: video and audio. These describe the media types supporting the [[apis/webrtc/LocalMediaStream|LocalMediaStream]] object. Either or both must be specified to validate the constraint argument. If a specified constraint is not supported by the browser, getUserMedia invokes the errorCallback with the NOT_SUPPORTED_ERROR. If the browser cannot find any media track with the specified type, getUserMedia invokes the errorCallback with the MANDATORY_UNSATISFIED_ERR.
 
 If the value or the member is not specified in the object, the value for the member defaults to false. The following demonstrates how to set the constraints for both audio and video:
 
@@ -18,7 +18,7 @@ If the value or the member is not specified in the object, the value for the mem
 }}{{Method Parameter
 |Name=successCallback
 |Data type=function
-|Description=The getUserMedia function will call the function specified in the successCallback with the LocalMediaStream object that contains the media stream. You may assign that object to the appropriate element and work with it, as shown in the following example:
+|Description=The getUserMedia function will call the function specified in the successCallback with the [[apis/webrtc/LocalMediaStream|LocalMediaStream]] object that contains the media stream. You may assign that object to the appropriate element and work with it, as shown in the following example:
 
  function(localMediaStream) {
     var video = document.querySelector('video');
