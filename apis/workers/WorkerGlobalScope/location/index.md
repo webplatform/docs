@@ -1,28 +1,26 @@
 {{Page_Title}}
-{{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status}}
+{{Flags}}
+{{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Returns the WorkerLocation object created for the WorkerGlobalScope object when the worker was created.}}
 {{API_Object_Property
-|Property_applies_to=apis/workers/objects/WorkerNavigator
+|Property_applies_to=apis/workers/WorkerGlobalScope
 |Read_only=Yes
+|Example_object_name=object
 |Javascript_data_type=String
-|Return_value_description=readonly attribute DOMString location;
+|Return_value_description=Represents the absolute URL of the script that was used to initialize the worker, after any redirects.
 }}
 {{Examples_Section
 |Not_required=No
 |Examples=
 }}
-{{Notes_Section
-|Notes====Remarks===
-The [[apis/workers/objects/WorkerLocation|'''WorkerLocation''']] object is created by using the '''self'''.'''location''' method inside a worker thread. The '''self''' object is a reference to the [[apis/workers/objects/WorkerGlobalScope|'''WorkerGlobalScope''']] object.
-|Import_Notes====Syntax===
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=W3C Web Workers Specification
+|URL=http://dev.w3.org/html5/workers
+|Status=W3C Editor's Draft
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -31,15 +29,12 @@ The [[apis/workers/objects/WorkerLocation|'''WorkerLocation''']] object is creat
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[apis/workers/objects/WorkerGlobalScope|WorkerGlobalScope]]</code>
-}}
-{{Topics|DOM, Webworkers}}
+{{See_Also_Section}}
+{{Topics|Webworkers}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
 |MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
 |HTML5Rocks_link=
 }}
