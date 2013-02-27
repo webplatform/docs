@@ -61,7 +61,7 @@ JavaScript may affect both HTML and SVG content:
     <link href="styles/html_and_svg.css" rel="stylesheet" />
   </head>
   <body>
-    <script type="text/javascript" src="js/html_and_svg.js">
+    <script defer type="text/javascript" src="js/html_and_svg.js">
     </script>
     <svg>
       <!-- define graphics here -->
@@ -70,7 +70,39 @@ JavaScript may affect both HTML and SVG content:
 </html>
 </syntaxhighlight>
 
+You can also reference external SVG files, and render them
+interactively within the HTML using either '''iframe''', '''embed''',
+or '''object''' tags:
+
+<syntaxhighlight lang="xml">
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="styles/html_and_svg.css" rel="stylesheet" />
+  </head>
+  <body>
+    <script defer type="text/javascript" src="js/html_and_svg.js"></script>
+    <iframe src=’graphics.svg’></iframe>
+    <embed src=’graphics.svg’></embed>    
+    <object data=’graphics.svg’ type=’image/svg+xml’></object>
+  </body>
+</html>
+</syntaxhighlight>
+
+It's also common to reference static SVG graphics from within CSS:
+
 [[Image:scr_svg_css.png]]
+
+ a[href] {
+     background-image: url(img/arrow.svg);
+     background-position: center 0 right -10px;
+     display: block;
+ }
+
+ ul > li {
+    list-style-image: url(img/ui_components.svg#bullet);
+ }
+
 
 [[Image:scr_svg_svg.png]]
 
@@ -85,26 +117,10 @@ graphics could only be accessed in separate
 
 * inline within HTML
 
-* '''background-image''' and '''list-style-image'''
+* '''background-image''' and ''''''
 
 No D&D: 
 http://www.vectomatic.org/svg/support-for-native-drag-and-drop
-
-Rule of Boston driving #73. In keeping with Rule #6, 
-
-Basic law of Boston driving: when offered two choices, _always_ pass on
-the right when driving on a highway with three or more lanes.  Choose
-this "right" approach especially when that lane is about to end, and
-especially in heavy rain conditions.
-
-SVG stands for ''''.
-
-It is a cross-browser
-standard that allows you to
-
-SVG is a standard that implements scalable ''vector'' graphics for web browsers.
-
-This section provides a basic overview of how how you can use SVG.
 
 drawing surface.
     5.1 Defining an SVG document fragment: the 'svg' element
@@ -169,23 +185,14 @@ drawing surface.
 
 <!--
 
-defs
-
-
-United Health NYSE:UNH 110,618.00 101,364.00
-
-Wellpoint NYSE:WLP 
-
-
-low-margin business
-
 -->
 
-==How to use the use tag
+==How to use the use tag==
 
 ==Importing content==
 
 <!--
+
  23 Extensibility
     23.1 Foreign namespaces and private data
     23.2 Embedding foreign object types
