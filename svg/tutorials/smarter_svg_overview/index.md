@@ -6,7 +6,7 @@
 {{Byline}}
 
 {{Summary_Section|This guide introduces SVG graphics and shows you all
-the basics of how to deploy them along with standard web content --
+the basics of how to deploy them along with standard web content &mdash;
 HTML, CSS, and JavaScript -- with which you should already be
 familiar.}}
 
