@@ -7,14 +7,15 @@
 {{Summary_Section|This guide introduces SVG graphics and shows you all the basics of how to deploy them along with standard web content.}}
 {{Tutorial
 |Content=SVG is a standard XML markup format that renders
-''Scalable Vector Graphics'' within web browsers.  Vector graphics are
-implemented as pure shapes that can render crisply at any
-magnification. In contrast, ''raster'' or ''paint''-style images
-consist of a series of pixels that may not display well when zoomed at
-high resolution.  Use SVG if you want to freely interact with portions
-of a graphic.  Since SVG renders within the browser's DOM, graphic
-components can be styled through CSS, manipulated with JavaScript
-through core APIs, and can appear comfortably alongside HTML content.
+''Scalable Vector Graphics'' within web browsers.  Vector or
+''drawing''-style graphics are implemented as pure shapes that can
+render crisply at any magnification. In contrast, ''raster'' or
+''paint''-style images consist of a series of pixels that may not
+display well when zoomed at high resolution.  Use SVG if you want to
+freely interact with portions of a graphic.  Since SVG renders within
+the browser's DOM, each graphic component can be styled through CSS,
+manipulated with JavaScript through core APIs, and can appear
+comfortably alongside HTML content.
 
 <div style="float:right;margin:12px">
 [[Image:scr_svg_eyes.png]]
