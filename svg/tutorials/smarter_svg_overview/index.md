@@ -69,9 +69,9 @@ JavaScript may affect both HTML and SVG content:
 </html>
 </syntaxhighlight>
 
-You can also reference external SVG files, and render them
-interactively within the HTML using either '''iframe''', '''embed''',
-or '''object''' tags:
+There are also other ways to do it.  You can reference external SVG
+files, and render them interactively within the HTML using either
+'''iframe''', '''embed''', or '''object''' tags:
 
 <syntaxhighlight lang="xml">
 <!DOCTYPE html>
@@ -88,9 +88,10 @@ or '''object''' tags:
 </html>
 </syntaxhighlight>
 
-It's also common to reference external SVG files to incorporate static
-graphics via CSS. The example below shows how you might place a right-aligned
-navigation arrow within a mobile interface.
+It's also common to reference external SVG files to present static SVG
+graphics via CSS. The example below shows how you might place a
+right-aligned navigation arrow within a mobile interface, rendering as
+crisply as possible on high-resolution handsets:
 
 [[Image:scr_svg_css.png]]
 
