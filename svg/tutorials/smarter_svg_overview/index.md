@@ -4,15 +4,75 @@
 |Editorial notes=[new content from Sierra ([[User:Sierra|Sierra]] ([[User talk:Sierra|talk]])); please do not edit]
 }}
 {{Byline}}
-{{Summary_Section|This guide shows how deploy SVG graphics along with HTML and CSS, and guides you how its coordinate space works.}}
+
+{{Summary_Section|This guide introduces SVG graphics and shows you how
+to deploy them along with standard web content based on HTML, CSS, and
+JavaScript, with which you should be familiar.  It highlights
+prominent differences with those standards, and provides a quick tour
+of many SVG features covered in more detail in other guides. It
+focuses on the unique way you can build complex interactive graphics
+from reusable components, and flexibly place them in various drawing
+areas.}}
+
 {{Tutorial
 |Content=
 
+==What is SVG?==
 
+SVG is a standard XML markup format that renders ''Scalable Vector
+Graphics'' within web browsers.  Vector graphics are implemented as
+pure shapes that can render crisply at any magnification. In contrast,
+''raster'' or ''paint''-style images consist of a series of pixels
+that may not display well when zoomed at high resolution.
+
+Use SVG if you want to freely interact with portions of a graphic.
+Since SVG renders within the browser's DOM, graphic components can be
+styled through CSS, manipulated with JavaScript through core APIs, and
+can appear comfortably alongside HTML content.
 
 ==Deploying SVG==
 
+Until recently, SVG was fairly difficult to incorporate with other web
+content, and there are still many challenges. The HTML5 standard
+provides a way to insert ''inline'' regions of SVG into HTML files
+
+[[Image:scr_svg_html.png]]
+
+[[Image:scr_svg_css.png]]
+
+[[Image:scr_svg_svg.png]]
+
+
+
 <!--
+
+graphics could only be accessed in separate
+''.svg'' files
+
+* inline within HTML
+
+* '''background-image''' and '''list-style-image'''
+
+No D&D: 
+http://www.vectomatic.org/svg/support-for-native-drag-and-drop
+
+Rule of Boston driving #73. In keeping with Rule #6, 
+
+Basic law of Boston driving: when offered two choices, _always_ pass on
+the right when driving on a highway with three or more lanes.  Choose
+this "right" approach especially when that lane is about to end, and
+especially in heavy rain conditions.
+
+SVG stands for ''''.
+
+It is a cross-browser
+standard that allows you to
+
+SVG is a standard that implements scalable ''vector'' graphics for web browsers.
+
+This section provides a basic overview of how how you can use SVG.
+
+drawing surface.
     5.1 Defining an SVG document fragment: the 'svg' element
         5.1.1 Overview
         5.1.2 The 'svg' element
@@ -73,7 +133,21 @@
 
 ==Referencing content==
 
+<!--
 
+defs
+
+
+United Health NYSE:UNH 110,618.00 101,364.00
+
+Wellpoint NYSE:WLP 
+
+
+low-margin business
+
+-->
+
+==How to use 'use'
 
 ==Importing content==
 
@@ -159,8 +233,8 @@
 
 ([[svg/tutorials/smarter_svg_overview|Overview]] /
 [[svg/tutorials/smarter_svg_shapes|Shapes]] /
-[[svg/tutorials/smarter_svg_graphics|Graphics]] /
 [[svg/tutorials/smarter_svg_text|Text]] /
+[[svg/tutorials/smarter_svg_graphics|Graphics]] /
 [[svg/tutorials/smarter_svg_filters|Filters]] /
 [[svg/tutorials/smarter_svg_animation|Animation]] /
 [[svg/tutorials/smarter_svg_interaction|Interaction]])
