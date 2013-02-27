@@ -22,7 +22,11 @@ areas. As part of a grand tour to get a feel for how SVG markup works,
 you'll stroll through an example that shows how to build a pair of
 eyes, and how to move them around and make them blink.
 
+<div style="float:right">
+
 [[Image:scr_svg_eyes.png]]
+
+</div>
 
 ==What is SVG?==
 
