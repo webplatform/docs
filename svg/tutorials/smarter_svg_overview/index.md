@@ -40,6 +40,84 @@ Since SVG renders within the browser's DOM, graphic components can be
 styled through CSS, manipulated with JavaScript through core APIs, and
 can appear comfortably alongside HTML content.
 
+==Defining the drawing area==
+
+
+
+<!--
+
+<syntaxhighlight lang="xml"></syntaxhighlight>
+<syntaxhighlight lang="xml"></syntaxhighlight>
+<syntaxhighlight lang="xml"></syntaxhighlight>
+<syntaxhighlight lang="xml"></syntaxhighlight>
+<syntaxhighlight lang="xml"></syntaxhighlight>
+<syntaxhighlight lang="xml"></syntaxhighlight>
+<syntaxhighlight lang="xml"></syntaxhighlight>
+<syntaxhighlight lang="xml"></syntaxhighlight>
+
+-->
+
+
+==Adding styles==
+
+* attributes
+* properties
+
+<!--
+ 6 Styling
+    6.1 SVG's styling properties
+    6.2 Usage scenarios for styling
+    6.3 Alternative ways to specify styling properties
+    6.4 Specifying properties using the presentation attributes
+    6.5 Styling with XSL
+    6.6 Styling with CSS
+    6.7 Case sensitivity of property names and values
+    6.8 Facilities from CSS and XSL used by SVG
+    6.9 Referencing external style sheets
+    6.10 The 'style' element
+    6.11 The 'class' attribute
+    6.12 The 'style' attribute
+    6.13 Specifying the default style sheet language
+    6.14 Property inheritance
+    6.15 The scope/range of styles
+    6.16 User agent style sheet
+    6.17 Aural style sheets
+-->
+
+==Groups, transforms, and viewBoxes==
+
+* g
+* transform
+* viewBox
+* viewPort
+
+<!--
+    5.2 Grouping: the 'g' element
+        5.2.1 Overview
+        5.2.2 The 'g' element
+
+ 7 Coordinate Systems, Transformations and Units
+    7.1 Introduction
+    7.2 The initial viewport
+    7.3 The initial coordinate system
+    7.4 Coordinate system transformations
+    7.5 Nested transformations
+    7.6 The 'transform' attribute
+    7.7 The 'viewBox' attribute
+    7.8 The 'preserveAspectRatio' attribute
+    7.9 Establishing a new viewport
+    7.10 Units
+    7.11 Object bounding box units
+    7.12 Intrinsic sizing properties of the viewport of SVG content
+    7.13 Geographic coordinate systems
+    7.14 The 'svg:transform' attribute
+-->
+
+==Referencing content==
+
+* defs
+* use
+
 ==Deploying SVG==
 
 Until recently, SVG was fairly difficult to incorporate with other web
@@ -202,84 +280,6 @@ drawing surface.
         5.1.1 Overview
         5.1.2 The 'svg' element
 -->
-
-==Defining the drawing area==
-
-
-
-<!--
-
-<syntaxhighlight lang="xml"></syntaxhighlight>
-<syntaxhighlight lang="xml"></syntaxhighlight>
-<syntaxhighlight lang="xml"></syntaxhighlight>
-<syntaxhighlight lang="xml"></syntaxhighlight>
-<syntaxhighlight lang="xml"></syntaxhighlight>
-<syntaxhighlight lang="xml"></syntaxhighlight>
-<syntaxhighlight lang="xml"></syntaxhighlight>
-<syntaxhighlight lang="xml"></syntaxhighlight>
-
--->
-
-
-==Adding styles==
-
-* attributes
-* properties
-
-<!--
- 6 Styling
-    6.1 SVG's styling properties
-    6.2 Usage scenarios for styling
-    6.3 Alternative ways to specify styling properties
-    6.4 Specifying properties using the presentation attributes
-    6.5 Styling with XSL
-    6.6 Styling with CSS
-    6.7 Case sensitivity of property names and values
-    6.8 Facilities from CSS and XSL used by SVG
-    6.9 Referencing external style sheets
-    6.10 The 'style' element
-    6.11 The 'class' attribute
-    6.12 The 'style' attribute
-    6.13 Specifying the default style sheet language
-    6.14 Property inheritance
-    6.15 The scope/range of styles
-    6.16 User agent style sheet
-    6.17 Aural style sheets
--->
-
-==Groups, transforms, and viewBoxes==
-
-* g
-* transform
-* viewBox
-* viewPort
-
-<!--
-    5.2 Grouping: the 'g' element
-        5.2.1 Overview
-        5.2.2 The 'g' element
-
- 7 Coordinate Systems, Transformations and Units
-    7.1 Introduction
-    7.2 The initial viewport
-    7.3 The initial coordinate system
-    7.4 Coordinate system transformations
-    7.5 Nested transformations
-    7.6 The 'transform' attribute
-    7.7 The 'viewBox' attribute
-    7.8 The 'preserveAspectRatio' attribute
-    7.9 Establishing a new viewport
-    7.10 Units
-    7.11 Object bounding box units
-    7.12 Intrinsic sizing properties of the viewport of SVG content
-    7.13 Geographic coordinate systems
-    7.14 The 'svg:transform' attribute
--->
-
-==Referencing content==
-
-* defs
-* use
 
 ==Other==
 
