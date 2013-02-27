@@ -34,15 +34,20 @@ and make them blink.
 
 ==Defining the drawing area==
 
-* embed within HTML
+There are several ways to deploy SVG, with various options outlined in
+the section at the bottom of this page. Examples used throughout this
+guide feature ''oinline'' SVG that's directly embedded within HTML,
+showing how to flexibly apply CSS and JavaScript to the SVG graphic
+and the HTML content. The basic markup looks like this, with an
+'''svg''' tag encapsulating the graphics:
 
 <syntaxhighlight lang="xml">
 <html>
 <head>
 <title>SVG grand tour demo</title>
+<link href="css/eyeballs.css" rel="stylesheet" />
 </head>
 <body>
-
 <svg width="600" height="200" viewBox="0 0 600 200">
    <title>eyeballs</title>
    <desc>interactive demo showcasing several SVG features</desc>
@@ -50,18 +55,19 @@ and make them blink.
       <!-- components -->
    </defs>
 </svg>
-
+<script src="js/eyeballs.js"></script>
 </body>
 </html>
-
 </syntaxhighlight>
 
-* viewBox
+You can add '''title''' and '''desc''' tags wherever necessary to
+comment your markup. The '''defs''' tag is more important, serving as
+a region within which to define reusable components.
 
-==Adding shapes==
+==The eyeball==
 
 <syntaxhighlight lang="xml">
-<circle id="eyeball" cx="100" cy="100" r="150" fill="url(#eyeballFill)" transform="translate(0,0)" />
+<circle id="eyeball" cx="100" cy="100" r="150" fill="url(#eyeballFill)" />
 
 <radialGradient id="eyeballFill">
   <stop id="inner"           offset="12%"  />
@@ -73,11 +79,48 @@ and make them blink.
 </radialGradient>
 </syntaxhighlight>
 
+==Eyelids==
+
+<syntaxhighlight lang="xml">
+<path/>
+<clipPath/>
+</syntaxhighlight>
+
+==Eyelashes==
+
+<syntaxhighlight lang="xml">
+<text/>
+<textPath/>
+<tref/>
+</syntaxhighlight>
+
+==Softening the eyelashes==
+
+<syntaxhighlight lang="xml">
+<feComponentTransfer/>
+<feFuncB/>
+<feFuncG/>
+<feFuncR/>
+<feGaussianBlur/>
+<filter/>
+</syntaxhighlight>
+
+==Assembly==
+
+<syntaxhighlight lang="xml">
+<g/>
+<use/>
+</syntaxhighlight>
+
+==Blinking and glancing motions==
+
+<syntaxhighlight lang="xml">
+<animate/>
+<animateTransform/>
+</syntaxhighlight>
+
 <!--
 
-
-
-<syntaxhighlight lang="xml"></syntaxhighlight>
 <syntaxhighlight lang="xml"></syntaxhighlight>
 <syntaxhighlight lang="xml"></syntaxhighlight>
 <syntaxhighlight lang="xml"></syntaxhighlight>
@@ -152,8 +195,6 @@ and make them blink.
 Until recently, SVG was fairly difficult to incorporate with other web
 content, and there are still many challenges. The HTML5 standard
 provides a way to insert ''inline'' regions of SVG into HTML files.
-This is the basic deployment model you'll see illustrated throughout
-this guide:
 
 [[Image:scr_svg_html.png]]
 
