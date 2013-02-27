@@ -14,7 +14,7 @@
 |Examples=
 }}
 {{Notes_Section
-|Notes=This method sets the worker's WorkerGlobalScope object's closing flag to true, preventing any further tasks from being queued.
+|Notes=This method sets the worker's WorkerGlobalScope object's closing flag to ''true'', preventing any further tasks from being queued.
 
 Use the '''terminate''' method if you want to stop a worker from a parent thread.
 }}
