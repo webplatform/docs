@@ -5,19 +5,24 @@
 }}
 {{Byline}}
 
-{{Summary_Section|This guide introduces SVG graphics and shows you how
-to deploy them along with standard web content -- HTML, CSS, and
-JavaScript -- with which you should already be familiar.  It
-highlights some notable differences with those standards, and provides
-a quick tour of many SVG features covered in more detail in other
-guides. It focuses on the unique way you can build complex interactive
-graphics from reusable components, and flexibly place them in various
-drawing areas. As part of a grand tour to get a feel for how SVG
-markup works, you'll stroll through an example that shows how to build
-a pair of eyes, and how to move them around and make them blink.}}
+{{Summary_Section|This guide introduces SVG graphics and shows you all
+the basics of how to deploy them along with standard web content --
+HTML, CSS, and JavaScript -- with which you should already be
+familiar.}}
 
 {{Tutorial
 |Content=
+
+This section of the guide highlights some notable differences with
+those standards, and provides a quick tour of many SVG features that
+are covered in more detail in other sections. It focuses on the unique
+way you can build complex interactive graphics from reusable
+components, and how to flexibly place them within various drawing
+areas. As part of a grand tour to get a feel for how SVG markup works,
+you'll stroll through an example that shows how to build a pair of
+eyes, and how to move them around and make them blink.
+
+[[Image:scr_svg_eyes.png]]
 
 ==What is SVG?==
 
