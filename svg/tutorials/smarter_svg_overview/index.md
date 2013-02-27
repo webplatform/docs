@@ -89,37 +89,81 @@ or '''object''' tags:
 </html>
 </syntaxhighlight>
 
-It's also common to reference static SVG graphics from within CSS:
+It's also common to reference external SVG files to incorporate static
+graphics via CSS. The example below shows how you might place a right-aligned
+navigation arrow within a mobile interface.
 
 [[Image:scr_svg_css.png]]
 
  a[href] {
-     background-image: url(img/arrow.svg);
-     background-position: center 0 right -10px;
-     display: block;
+     background-image    : url(img/nav_arrow.svg);
+     background-position : center 0 right 10px;
+     background-size     : contain;
+     display             : block;
+     min-height          : 2em;
+     border-radius       : 0.5em;
+     padding             : 0.5em;
  }
+
+As you will see, you can also use URL anchors to reference individual
+component graphics that are collected within an SVG file. This assigns
+a custom bullet shape:
 
  ul > li {
-    list-style-image: url(img/ui_components.svg#bullet);
+    list-style-image     : url(img/components.svg#bullet);
  }
 
+SVG files can also be viewed as standalone files, and you can navigate
+to them directly. Any SVG file or '''svg''' tag region can reference
+its own set of CSS and JavaScript, which only applies within the SVG:
 
 [[Image:scr_svg_svg.png]]
 
+This example shows how to embed or reference CSS or JavaScript from
+within an SVG file:
+
+<syntaxhighlight lang="xml">
+<?xml version="1.0" standalone="no"?>
+<?xml-stylesheet href="css/styles.css" type="text/css"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="700px" height="500px" viewBox="0 0 1000 500">
+  <defs>
+    <style type="text/css">
+        <![CDATA[
+            /* define CSS here */
+        ]]>
+    </style>
+  </defs>
+  <script type="application/ecmascript">
+      <![CDATA[
+          // embed JavaScript here
+      ]]>
+  </script>
+  <script type="application/ecmascript" xlink:href="js/app.js">
+  </script>
+  <!-- define graphics here -->
+</svg>
+</syntaxhighlight>
+
 [[Image:scr_svg_svg2svg.png]]
+
+[[Image:scr_svg_svg2html.png]]
 
 
 
 <!--
 
-graphics could only be accessed in separate
-''.svg'' files
+<syntaxhighlight lang="xml"></syntaxhighlight>
+<syntaxhighlight lang="xml"></syntaxhighlight>
+<syntaxhighlight lang="xml"></syntaxhighlight>
+<syntaxhighlight lang="xml"></syntaxhighlight>
+<syntaxhighlight lang="xml"></syntaxhighlight>
+<syntaxhighlight lang="xml"></syntaxhighlight>
+<syntaxhighlight lang="xml"></syntaxhighlight>
+<syntaxhighlight lang="xml"></syntaxhighlight>
+<syntaxhighlight lang="xml"></syntaxhighlight>
 
-* inline within HTML
-
-* '''background-image''' and ''''''
-
-No D&D: 
+Crap, no D&D:
 http://www.vectomatic.org/svg/support-for-native-drag-and-drop
 
 drawing surface.
@@ -263,6 +307,9 @@ drawing surface.
     4.4 Recognized color keyword names
 
     11.5 Controlling visibility
+
+
+
 -->
 
 * '''display'''
