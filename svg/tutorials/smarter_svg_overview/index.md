@@ -42,12 +42,49 @@ can appear comfortably alongside HTML content.
 
 ==Defining the drawing area==
 
+* embed within HTML
 
+<syntaxhighlight lang="xml">
+<html>
+<head>
+<title>SVG grand tour demo</title>
+</head>
+<body>
+
+<svg width="600" height="200" viewBox="0 0 600 200">
+   <title>eyeballs</title>
+   <desc>interactive demo showcasing several SVG features</desc>
+   <defs>
+      <!-- components -->
+   </defs>
+</svg>
+
+</body>
+</html>
+
+</syntaxhighlight>
+
+* viewBox
+
+==Adding shapes==
+
+<syntaxhighlight lang="xml">
+<circle id="eyeball" cx="100" cy="100" r="150" fill="url(#eyeballFill)" transform="translate(0,0)" />
+
+<radialGradient id="eyeballFill">
+  <stop id="inner"           offset="12%"  />
+  <stop id="pupil"           offset="15%"  />
+  <stop id="iris"            offset="27%"  />
+  <stop id="white"           offset="30%"  />
+  <stop id="bloodshotExtent" offset="40%"  />
+  <stop id="outer"           offset="100%" />
+</radialGradient>
+</syntaxhighlight>
 
 <!--
 
-<syntaxhighlight lang="xml"></syntaxhighlight>
-<syntaxhighlight lang="xml"></syntaxhighlight>
+
+
 <syntaxhighlight lang="xml"></syntaxhighlight>
 <syntaxhighlight lang="xml"></syntaxhighlight>
 <syntaxhighlight lang="xml"></syntaxhighlight>
@@ -251,7 +288,7 @@ the tag's '''requiredExtensions''' attribute. If not, it uses fallback
 
 <syntaxhighlight lang="xml">
 <?xml version="1.0" standalone="yes"?>
-<svg width="4in" height="3in" version="1.1" xmlns = 'http://www.w3.org/2000/svg'>
+<svg width="4in" height="3in" version="1.1" xmlns='http://www.w3.org/2000/svg'>
   <desc>use 'switch' to test if foreignObject works, otherwise render fallback 'text' content</desc>
   <switch>
     <foreignObject width="100" height="50" requiredExtensions="http://example.com/SVGExtensions/EmbeddedXHTML">
