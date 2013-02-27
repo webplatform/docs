@@ -13,6 +13,12 @@ familiar.}}
 {{Tutorial
 |Content=
 
+<div style="float:right">
+
+[[Image:scr_svg_eyes.png]]
+
+</div>
+
 This section of the guide highlights some notable differences with
 those standards, and provides a quick tour of many SVG features that
 are covered in more detail in other sections. It focuses on the unique
@@ -21,12 +27,6 @@ components, and how to flexibly place them within various drawing
 areas. As part of a grand tour to get a feel for how SVG markup works,
 you'll stroll through an example that shows how to build a pair of
 eyes, and how to move them around and make them blink.
-
-<div style="float:right">
-
-[[Image:scr_svg_eyes.png]]
-
-</div>
 
 ==What is SVG?==
 
