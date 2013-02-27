@@ -1,7 +1,7 @@
 {{Page_Title|Smarter SVG: shapes}}
 {{Flags
 |High-level issues=Stub
-|Editorial notes=[new content from Sierra ([[User:Sierra|Sierra]] ([[User talk:Sierra|talk]])); please do not edit]
+|Editorial notes=[new content edited offline by Sierra ([[User:Sierra|Sierra]] ([[User talk:Sierra|talk]])); please do not edit]
 }}
 {{Byline}}
 {{Summary_Section|This guide introduces SVG's basic graphic primitives, from simple lines and shapes to complex polygons and paths.}}
@@ -389,8 +389,7 @@ common definition:
 <syntaxhighlight lang="xml">
 <defs>
   <marker id="arrowhead" markerWidth="10" markerHeight="10" orient="auto" refX="2" refY="5">
-    <!-- triangle pointing right -->
-    <polygon points="0,0 10,5 0,10"/>
+    <polygon points="0,0 10,5 0,10"/>    <!-- triangle pointing right -->
   </marker>
 </defs>
 </syntaxhighlight>
@@ -470,8 +469,8 @@ value.
 
 ([[svg/tutorials/smarter_svg_overview|Overview]] /
 [[svg/tutorials/smarter_svg_shapes|Shapes]] /
-[[svg/tutorials/smarter_svg_graphics|Graphics]] /
 [[svg/tutorials/smarter_svg_text|Text]] /
+[[svg/tutorials/smarter_svg_graphics|Graphics]] /
 [[svg/tutorials/smarter_svg_filters|Filters]] /
 [[svg/tutorials/smarter_svg_animation|Animation]] /
 [[svg/tutorials/smarter_svg_interaction|Interaction]])
