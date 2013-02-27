@@ -13,7 +13,7 @@ familiar.}}
 {{Tutorial
 |Content=
 
-<div style="float:right">
+<div style="float:right;margin:12px">
 
 [[Image:scr_svg_eyes.png]]
 
