@@ -5,8 +5,7 @@
 }}
 {{Byline}}
 
-{{Summary_Section|This guide introduces SVG graphics and shows you all
-the basics of how to deploy them along with standard web content.}}
+{{Summary_Section|This guide introduces SVG graphics and shows you all the basics of how to deploy them along with standard web content.}}
 
 {{Tutorial
 |Content=
