@@ -271,7 +271,6 @@ the tag's '''requiredExtensions''' attribute. If not, it uses fallback
 
 <!--
 
-
 Crap, no D&D:
 http://www.vectomatic.org/svg/support-for-native-drag-and-drop
 
@@ -346,16 +345,12 @@ drawing surface.
 
     11.5 Controlling visibility
 
-
-
--->
-
 * '''display'''
 * '''visibility'''
 
 * '''color''', used to provide a potential indirect value (currentColor) for the '''fill''', '''stroke''', '''stop-color''', '''flood-color''' and '''lighting-color''' properties. (The SVG properties which support color allow a color specification which is extended from CSS2 to accommodate color definitions in arbitrary color spaces. See Color profile descriptions.)
 
-[http://svg-mitchallen.blogspot.com/2005/03/morphing-shapes-in-svg.html morphing shapes in svg]
+-->
 
 ([[svg/tutorials/smarter_svg_overview|Overview]] /
 [[svg/tutorials/smarter_svg_shapes|Shapes]] /
