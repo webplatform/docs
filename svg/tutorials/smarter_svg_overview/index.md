@@ -280,10 +280,9 @@ To draw eyelashes, there are potentially a couple of ways to attach
 objects to the ''eyelid'' path. One is to define a ''marker'', which
 wouldn't work here because the graphic would only appear at each
 corner of the eye. Another is to run text along the path, which may
-seem odd but in this case provides the illusion we want.
-
-First place many lowercase ''l'' characters within a '''text'''
-element, enough to overflow the shape:
+seem odd but in this case provides the illusion we want.  First, place
+many lowercase ''l'' characters within a '''text''' element, enough to
+overflow the ''eyelids'' shape:
 
 <syntaxhighlight lang="xml">
 <text id="eyelashContent" >
@@ -294,9 +293,9 @@ llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll
 The '''tref''' tag inserts the referenced ''eyelashContent'' text
 within a '''textPath''' wrapper that itself references the ''eyelids''
 shape along which to run the text.  The outer ''eyelashes'' wrapper is
-necessary to render the entire group of text. Various '''tref'''
-attributes slant the text, lighten it, and space it out
-
+necessary to render the entire collection of text, some of which may
+run along a path. Various '''tref''' attributes slant the text,
+lighten it, and space it out:
 
 <syntaxhighlight lang="xml" highlight="2,5">
 <text id="eyelashes">
@@ -313,22 +312,12 @@ attributes slant the text, lighten it, and space it out
 </text>
 </syntaxhighlight>
 
-<syntaxhighlight lang="xml">
-</syntaxhighlight>
-
-<syntaxhighlight lang="xml">
-</syntaxhighlight>
-
-<syntaxhighlight lang="xml">
-</syntaxhighlight>
-
-<syntaxhighlight lang="xml">
-</syntaxhighlight>
-
-<syntaxhighlight lang="xml">
-</syntaxhighlight>
+[[Image:svg_overview_eyeball_eyelashes.png]]
 
 ==Applying eyeliner==
+
+Even after lightening the eyelash color, they appear way too crisp, and
+could be softened up a
 
 <syntaxhighlight lang="xml">
 <feComponentTransfer/>
@@ -337,6 +326,21 @@ attributes slant the text, lighten it, and space it out
 <feFuncR/>
 <feGaussianBlur/>
 <filter/>
+</syntaxhighlight>
+
+<syntaxhighlight lang="xml">
+</syntaxhighlight>
+
+<syntaxhighlight lang="xml">
+</syntaxhighlight>
+
+<syntaxhighlight lang="xml">
+</syntaxhighlight>
+
+<syntaxhighlight lang="xml">
+</syntaxhighlight>
+
+<syntaxhighlight lang="xml">
 </syntaxhighlight>
 
 ==Final assembly==
