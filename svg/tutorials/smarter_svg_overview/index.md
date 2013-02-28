@@ -161,7 +161,7 @@ any transition between blue and brown:
 <tref/>
 </syntaxhighlight>
 
-==Softening the eyelashes==
+==Applying eyeliner==
 
 <syntaxhighlight lang="xml">
 <feComponentTransfer/>
