@@ -175,8 +175,46 @@ should stash away the graphic components you've already defined. Add a
 </html>
 </syntaxhighlight>
 
-==Eyelids==
+If you move the '''radialGradient''' within the '''defs''' region, the
+'''circle''' still references it as before.  If you move the
+'''circle''' there, it doesn't render. To get it to appear again later
+after you've built other components, you don't have to move it back
+out. Instead, place this line outside the '''defs''' region:
 
+<syntaxhighlight lang="xml">
+<use xlink:href="#eyeball"/>
+</syntaxhighlight>
+
+This serves as a pointer to the eyeball graphic. It's a ''deep''
+reference, not just a copy. That means any changes made to the
+'''circle''' or '''radialGradient''' within the '''defs''' appears
+dynamically. Still, the '''use''' tag allows you to add attributes or
+override those defined in the prototype component. This example
+specifies a new '''id''' and modifies the '''cx''' attribute to move
+it to the left a bit from its original position at ''100'':
+
+<syntaxhighlight lang="xml">
+<use  xlink:href="#eyeball" id="eyeballLeft" cx="80"/>
+</syntaxhighlight>
+
+The '''transform''' attribute's '''translate()''' function provides a
+more flexible way to reposition objects referenced via '''use'''. This
+moves it to the left along the ''x'' axis, and not at all along the
+''y'' axis:
+
+<syntaxhighlight lang="xml">
+<use xlink:href="#eyeball" id="eyeballLeft" transform="translate(-20,0)"/>
+</syntaxhighlight>
+
+These provide the same functionality as two-dimensional CSS
+transforms.  The '''scale()''' function accepts a decimal value to
+size the object, where ''1'' is the current size, ''0'' vanishes to a
+point, and values greater than 1 increase the size.  The
+'''rotate()''' function accepts a ''deg'' or ''rad'' measurement that
+spins the object.  The '''skewX()''' and '''skewY()''' also accepts an
+angle with which to shear the object horizontally or vertically.
+
+==Eyelids==
 
 <syntaxhighlight lang="xml">
 <path/>
