@@ -1,6 +1,6 @@
 {{Page_Title|p}}
 {{Flags
-|Content=Compatibility Incomplete
+|Content=Incomplete, Compatibility Incomplete
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -35,7 +35,7 @@
 |Status=W3C Recommendation
 }}{{Related Specification
 |Name=HTML5
-|URL=http://www.w3.org/TR/html5/the-p-element.html#the-p-element
+|URL=http://www.w3.org/html/wg/drafts/html/master/grouping-content.html#the-p-element
 |Status=W3C Working Draft
 |Relevant_changes=The align attribute is obsolete.
 }}
@@ -113,8 +113,8 @@
 {{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
+|Sources=MDN, MSDN
+|MDN_link=https://developer.mozilla.org/en-US/docs/HTML/Element/p
 |MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
 |HTML5Rocks_link=
 }}
