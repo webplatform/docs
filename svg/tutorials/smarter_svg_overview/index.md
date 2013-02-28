@@ -316,8 +316,8 @@ lighten it, and space it out:
 
 ==Applying eyeliner==
 
-Even after lightening the eyelash color, they appear way too crisp, and
-could be softened up a
+Even after lightening the color, the eyelashes appear way too crisp
+compared to the eyeball, and could be softened up a bit.
 
 <syntaxhighlight lang="xml">
 <feComponentTransfer/>
