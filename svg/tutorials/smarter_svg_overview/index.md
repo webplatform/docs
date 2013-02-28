@@ -51,9 +51,6 @@ an '''svg''' tag encapsulating the graphics:
 <svg width="600" height="200" viewBox="0 0 600 200">
    <title>eyeballs</title>
    <desc>interactive demo showcasing several SVG features</desc>
-   <defs>
-      <!-- components -->
-   </defs>
 </svg>
 <script src="js/eyeballs.js"></script>
 </body>
@@ -61,14 +58,72 @@ an '''svg''' tag encapsulating the graphics:
 </syntaxhighlight>
 
 You can add '''title''' and '''desc''' tags wherever necessary to
-comment your markup. The '''defs''' tag is more important, serving as
-a region within which to define reusable components.
+comment your markup.
 
 ==The eyeball==
+
+Adding this line within the '''svg''' region produces a circle. The
+'''cx''', '''cy''', and '''r''' attributes position and size it:
+
+<syntaxhighlight lang="xml">
+<circle id="eyeball" cx="100" cy="100" r="150"/>
+</syntaxhighlight>
+
+[[Image:svg_overview_eyeball_nofill.png]]
+
+By default, it's filled black. While you can apply a solid color, a
+more complex radial gradient happens to be the ideal way to build the
+eyeball's series of concentric rings:
 
 <syntaxhighlight lang="xml">
 <circle id="eyeball" cx="100" cy="100" r="150" fill="url(#eyeballFill)" />
 
+<radialGradient id="eyeballFill">
+  <stop id="inner"           offset="12%"  stop-color="black" />
+  <stop id="pupil"           offset="15%"  stop-color="lightblue" />
+  <stop id="iris"            offset="27%"  stop-color="lightblue" />
+  <stop id="white"           offset="30%"  stop-color="white" />
+  <stop id="bloodshotExtent" offset="40%"  stop-color="white" />
+  <stop id="outer"           offset="100%" stop-color="pink" />
+</radialGradient>
+</syntaxhighlight>
+
+[[Image:svg_overview_eyeball_fill.png]]
+
+The '''circle''' tag's '''fill''' attribute references the '''id''' of
+the '''radialGradient'''. The various '''stop''' tags define fairly
+abrupt gradations from black to blue and then to white, followed by a
+more gradual transition to pink around the edge of the circle.
+
+In this example, the '''id''' and '''offset''' are ordinary
+''attributes'', while the '''stop-color''' is known as a
+''presentation attribute''.  These are simply CSS properties expressed
+as an attribute. There are many CSS properties such as
+'''stop-color''' that apply only to SVG content. Some are similar to
+CSS properties that you apply to HTML, but are named differently. The
+'''fill''' property provides much the same capabilities in SVG as the
+'''background-color''' and '''background-image''' properties does in
+HTML.
+
+Since '''stop-color''' is CSS, You can also modify it locally via the
+'''style''' attribute. Doing so actually takes precedence over the
+value of presentation attributes, so this example changes the eye
+color to brown:
+
+<syntaxhighlight lang="xml">
+<stop id="pupil" offset="15%" stop-color="lightblue" style="stop-color:brown"/>
+</syntaxhighlight>
+
+Best practice is to consolidate CSS in style sheets, and separate it
+from markup. Placing this CSS in the ''eyeballs.css'' file referenced
+from the HTML applies it to the pared-down SVG markup that follows:
+
+ #inner { stop-color                   : black; }
+ #outer { stop-color                   : pink; }
+ #white, #bloodshotExtent { stop-color : white; }
+ #pupil, #iris { stop-color            : lightblue; }
+
+<syntaxhighlight lang="xml">
 <radialGradient id="eyeballFill">
   <stop id="inner"           offset="12%"  />
   <stop id="pupil"           offset="15%"  />
