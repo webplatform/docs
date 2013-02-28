@@ -317,34 +317,44 @@ lighten it, and space it out:
 ==Applying eyeliner==
 
 Even after lightening the color, the eyelashes appear way too crisp
-compared to the eyeball, and could be softened up a bit. SVG
-''filters'' provide many image processing tools that you can mix and
-match to produce special visual effects.
+and detailed compared to the eyeball, and could be softened up a bit.
+SVG ''filters'' provide many image processing tools that you can mix
+and match to produce such special visual effects.
+
+Add a '''filter''' element to the '''defs''' region. It serves as a
+wrapper for various ''fe''-prefixed ''filter effect'' components,
+which are applied in sequence. In this case, the '''feGaussianBlur'''
+effect scatters the pixels around, and '''feComponentTransfer'''
+darkens the result:
 
 <syntaxhighlight lang="xml">
 <filter
     id           = "soften"
-    filterUnits  = "userSpaceOnUse"
     x            = "-20"
     y            = "-20"
     width        = "250"
     height       = "250"
+    filterUnits  = "userSpaceOnUse"
 >
   <desc>soften eyelidand eyelashes</desc>
+  <feGaussianBlur stdDeviation = "1 3" />
   <feComponentTransfer>
       <feFuncR type="linear" slope="0.3"/>
       <feFuncG type="linear" slope="0.3"/>
       <feFuncB type="linear" slope="0.3"/>
   </feComponentTransfer>
-  <feGaussianBlur stdDeviation = "1 3" />
 </filter>
 </syntaxhighlight>
 
 <syntaxhighlight lang="xml">
 </syntaxhighlight>
 
+[[Image:svg_overview_eyeball_eyelash_filter.png]]
+
 <syntaxhighlight lang="xml">
 </syntaxhighlight>
+
+[[Image:svg_overview_eyeball_eyelid_filter.png]]
 
 <syntaxhighlight lang="xml">
 </syntaxhighlight>
