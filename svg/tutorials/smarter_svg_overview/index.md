@@ -234,8 +234,8 @@ whose '''d''' (''definition'') draws two curves that face each other:
 [[Image:svg_overview_eyeball_eyelid.png]]
 
 To make the shape behave as a clipping path, place a '''clipPath'''
-around the '''path'''. You will actually need to use this shape again,
-so it is best to '''use''' a reference to it:
+tag around the '''path'''. You will actually need to use this shape
+again, so it is best to '''use''' a reference to it:
 
 <syntaxhighlight lang="xml">
 <clipPath id="clipEyelid">
@@ -244,7 +244,8 @@ so it is best to '''use''' a reference to it:
 </syntaxhighlight>
 
 Now apply the '''clip-path''' attribute to the eyeball shape for the
-clipping path to take effect:
+clipping path to take effect. You can apply it to the original shape,
+or the '''use''' that references it:
 
 <syntaxhighlight lang="xml">
 <use xlink:href="#eyeball" clip-path="url(#clipEyelid)" />
@@ -252,10 +253,10 @@ clipping path to take effect:
 
 [[Image:svg_overview_eyeball_eyelid_clip.png]]
 
-The only problem is that the eyelid disappeared. Clipping paths don't
-actually render, so the solution is to draw another reference to it.
-The first '''use''' renders the eyeball within the clipping path, and
-the second renders the path:
+The only problem now is that the eyelid disappeared. Clipping paths
+don't actually render, so the solution is to draw another reference to
+it.  The first '''use''' below renders the eyeball within the clipping
+path, and the second renders the path:
 
 <syntaxhighlight lang="xml">
 <g id="eye">
@@ -266,16 +267,57 @@ the second renders the path:
 
 [[Image:svg_overview_eyeball_eyelid_both.png]]
 
-It is wise here to use the '''g''' tag to ''group'' the two graphic
-elements into a larger semantic ''eye'' object. You can then move or
-otherwise transform them as a unit.
+It becomes useful here to wrap a '''g''' tag to ''group'' the two
+graphic elements into a larger semantic ''eye'' object. You can then
+move or otherwise transform them as a unit.
 
 ==Eyelashes==
 
+There are a couple of ways to attach objects to a path. One is to
+define a ''marker'', which wouldn't work here because the graphic
+would only appear at each corner of the eye. Another is to run text
+along the path, which in this case provides the illusion we
+want. First place many lowercase ''l'' characters within a '''text'''
+element:
+
 <syntaxhighlight lang="xml">
-<text/>
-<textPath/>
-<tref/>
+<text id="eyelashContent" >
+llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll
+</text>
+</syntaxhighlight>
+
+
+<syntaxhighlight lang="xml">
+<text
+    id                 = "eyelashes"
+    data-filter        = "url(#soften)"
+>
+  <textPath xlink:href = "#eyelids">
+    <tref
+      id               = "eyelashTextRef"
+      xlink:href       = "#eyelashContent"
+      font-size        = "20"
+      letter-spacing   = "4"
+      font-style       = "italic"
+      stroke           = "#ddd"
+    />
+  </textPath>
+</text>
+</syntaxhighlight>
+
+<syntaxhighlight lang="xml">
+</syntaxhighlight>
+
+<syntaxhighlight lang="xml">
+</syntaxhighlight>
+
+<syntaxhighlight lang="xml">
+</syntaxhighlight>
+
+<syntaxhighlight lang="xml">
+</syntaxhighlight>
+
+<syntaxhighlight lang="xml">
 </syntaxhighlight>
 
 ==Applying eyeliner==
