@@ -91,21 +91,24 @@ eyeball's series of concentric rings:
 [[Image:svg_overview_eyeball_fill.png]]
 
 The '''circle''' tag's '''fill''' attribute references the '''id''' of
-the '''radialGradient'''. The various '''stop''' tags define fairly
-abrupt gradations from black to blue and then to white, followed by a
-more gradual transition to pink around the edge of the circle.
+the '''radialGradient'''. The various nested '''stop''' tags define
+fairly abrupt gradations from the center to the edge&mdash;from black
+to blue and then to white&mdash;followed by a more gradual transition
+to pink around the edge of the circle.
 
 In this example, the '''id''' and '''offset''' are ordinary
 ''attributes'', while the '''stop-color''' is known as a
-''presentation attribute''.  These are simply CSS properties expressed
-as an attribute.  Other than the tendency of CSS property names to use
-dashes between words rather than ''camelCase'' for attribute names,
-there may be no way to tell the difference by looking at them.
+''presentation attribute''.  These are simply CSS properties that are
+expressed as attributes.  Other than the tendency of CSS property
+names to use dashes-between-lowercase-words rather than ''camelCase''
+for attribute names, there may be no way to tell the difference by
+looking at them.
 
 Many CSS properties such as '''stop-color''' apply only to SVG
-content. Some are similar to CSS properties that you apply to HTML,
-but are named differently. The '''fill''' property provides much the
-same capabilities in SVG as the '''background-color''' and
+content. Some, like '''font-size''', apply to both SVG and HTML.  Some
+behave like CSS properties that you apply to HTML, but are named
+differently. The '''fill''' property provides much the same
+capabilities in SVG as the '''background-color''' and
 '''background-image''' properties does in HTML.  Since
 '''stop-color''' is CSS, You can also modify it locally via the
 '''style''' attribute. Doing so actually takes precedence over the
