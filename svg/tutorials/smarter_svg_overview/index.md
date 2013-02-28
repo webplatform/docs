@@ -98,14 +98,16 @@ more gradual transition to pink around the edge of the circle.
 In this example, the '''id''' and '''offset''' are ordinary
 ''attributes'', while the '''stop-color''' is known as a
 ''presentation attribute''.  These are simply CSS properties expressed
-as an attribute. There are many CSS properties such as
-'''stop-color''' that apply only to SVG content. Some are similar to
-CSS properties that you apply to HTML, but are named differently. The
-'''fill''' property provides much the same capabilities in SVG as the
-'''background-color''' and '''background-image''' properties does in
-HTML.
+as an attribute.  Other than the tendency of CSS property names to use
+dashes between words rather than ''camelCase'' for attribute names,
+there may be no way to tell the difference by looking at them.
 
-Since '''stop-color''' is CSS, You can also modify it locally via the
+Many CSS properties such as '''stop-color''' apply only to SVG
+content. Some are similar to CSS properties that you apply to HTML,
+but are named differently. The '''fill''' property provides much the
+same capabilities in SVG as the '''background-color''' and
+'''background-image''' properties does in HTML.  Since
+'''stop-color''' is CSS, You can also modify it locally via the
 '''style''' attribute. Doing so actually takes precedence over the
 value of presentation attributes, so this example changes the eye
 color to brown:
@@ -114,9 +116,10 @@ color to brown:
 <stop id="pupil" offset="15%" stop-color="lightblue" style="stop-color:brown"/>
 </syntaxhighlight>
 
-Best practice is to consolidate CSS in style sheets, and separate it
+It's best practice to consolidate CSS in style sheets and separate it
 from markup. Placing this CSS in the ''eyeballs.css'' file referenced
-from the HTML applies it to the pared-down SVG markup that follows:
+from the HTML applies it to the slightly pared-down SVG markup that
+follows:
 
  #inner { stop-color                   : black; }
  #outer { stop-color                   : pink; }
@@ -133,6 +136,15 @@ from the HTML applies it to the pared-down SVG markup that follows:
   <stop id="outer"           offset="100%" />
 </radialGradient>
 </syntaxhighlight>
+
+As in HTML, you can use CSS to animate many properties. This smoothes
+any transition between blue and brown:
+
+ #pupil, #iris {
+    transition         : all 5s;
+    -webkit-transition : all 5s;
+    -moz-transition    : all 5s;
+ }
 
 ==Eyelids==
 
