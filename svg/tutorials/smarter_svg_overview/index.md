@@ -6,16 +6,16 @@
 {{Byline}}
 {{Summary_Section|This guide introduces SVG graphics and shows you all the basics of how to deploy them along with standard web content.}}
 {{Tutorial
-|Content=SVG is a standard XML markup format that renders
-''Scalable Vector Graphics'' within web browsers.  Vector or
-''drawing''-style graphics are implemented as pure shapes that can
-render crisply at any magnification. In contrast, ''raster'' or
-''paint''-style images consist of a series of pixels that may not
-display well when zoomed at high resolution.  Use SVG if you want to
-freely interact with portions of a graphic.  Since SVG renders within
-the browser's DOM, each graphic component can be styled through CSS,
-manipulated with JavaScript through core APIs, and can appear
-comfortably alongside HTML content.
+|Content=SVG is a standard XML markup format that renders ''Scalable
+Vector Graphics'' within web browsers.  Vector or ''drawing''-style
+graphics are implemented as pure shapes that render crisply at any
+magnification. In contrast, ''raster'' or ''paint''-style images
+consist of a series of pixels that may not display well when zoomed at
+high resolution.  Use SVG if you want to freely interact with portions
+of a graphic.  Since SVG renders within the browser's DOM, each
+graphic component can be styled through CSS, manipulated with
+JavaScript through core APIs, and can appear comfortably alongside
+HTML content.
 
 <div style="float:right;margin:12px">
 [[Image:scr_svg_eyes.png]]
@@ -23,23 +23,23 @@ comfortably alongside HTML content.
 
 This section of the guide shows how SVG is deployed along with other
 core web standards, with which you should already be familiar.  It
-highlights some notable differences with them, and provides a quick
-tour of many SVG features that are covered in more detail in other
-sections. It focuses on the unique way you can build complex
-interactive graphics from reusable components, and how to flexibly
-place them within various drawing surfaces. As part of a grand tour to
-get a feel for how SVG markup works, you'll stroll through an example
-that shows how to build a pair of eyes, and how to move them around
-and make them blink.
+highlights some notable differences, and provides a quick tour of many
+SVG features that are covered in more detail in other sections. It
+focuses on the unique way you can build complex interactive graphics
+from reusable components, and how to flexibly resize them and place
+them within various drawing surfaces. As part of a grand tour to get a
+feel for SVG markup, you'll stroll through an example that shows how
+to build a pair of eyes, and how to move them around and make them
+blink.
 
 ==Defining the drawing area==
 
 There are several ways to deploy SVG, with various options outlined in
 the section at the bottom of this page. Examples used throughout this
-guide feature ''oinline'' SVG that's directly embedded within HTML,
-showing how to flexibly apply CSS and JavaScript to the SVG graphic
-and the HTML content. The basic markup looks like this, with an
-'''svg''' tag encapsulating the graphics:
+guide feature ''inline'' SVG that's directly embedded within HTML,
+which allows you to flexibly apply CSS and JavaScript to both the SVG
+graphic and the HTML content. The basic markup looks like this, with
+an '''svg''' tag encapsulating the graphics:
 
 <syntaxhighlight lang="xml">
 <html>
