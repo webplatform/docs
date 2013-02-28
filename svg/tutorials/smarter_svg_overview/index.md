@@ -201,9 +201,9 @@ it to the left a bit from its original position at ''100'':
 </syntaxhighlight>
 
 The '''transform''' attribute's '''translate()''' function provides a
-more flexible way to reposition objects referenced via '''use'''. This
-moves it to the left along the ''x'' axis, and not at all along the
-''y'' axis:
+more flexible way to reposition objects referenced via '''use'''. It
+uses relative measurements to move it to the left along the ''x''
+axis, and not at all along the ''y'' axis:
 
 <syntaxhighlight lang="xml">
 <use xlink:href="#eyeball" id="eyeballLeft" transform="translate(-20,0)"/>
@@ -317,15 +317,27 @@ lighten it, and space it out:
 ==Applying eyeliner==
 
 Even after lightening the color, the eyelashes appear way too crisp
-compared to the eyeball, and could be softened up a bit.
+compared to the eyeball, and could be softened up a bit. SVG
+''filters'' provide many image processing tools that you can mix and
+match to produce special visual effects.
 
 <syntaxhighlight lang="xml">
-<feComponentTransfer/>
-<feFuncB/>
-<feFuncG/>
-<feFuncR/>
-<feGaussianBlur/>
-<filter/>
+<filter
+    id           = "soften"
+    filterUnits  = "userSpaceOnUse"
+    x            = "-20"
+    y            = "-20"
+    width        = "250"
+    height       = "250"
+>
+  <desc>soften eyelidand eyelashes</desc>
+  <feComponentTransfer>
+      <feFuncR type="linear" slope="0.3"/>
+      <feFuncG type="linear" slope="0.3"/>
+      <feFuncB type="linear" slope="0.3"/>
+  </feComponentTransfer>
+  <feGaussianBlur stdDeviation = "1 3" />
+</filter>
 </syntaxhighlight>
 
 <syntaxhighlight lang="xml">
