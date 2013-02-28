@@ -243,13 +243,32 @@ so it is best to '''use''' a reference to it:
 </clipPath>
 </syntaxhighlight>
 
-Apply the '''clip-path''' attribute to the eyeball shape:
+Now apply the '''clip-path''' attribute to the eyeball shape for the
+clipping path to take effect:
 
 <syntaxhighlight lang="xml">
 <use xlink:href="#eyeball" clip-path="url(#clipEyelid)" />
 </syntaxhighlight>
 
 [[Image:svg_overview_eyeball_eyelid_clip.png]]
+
+The only problem is that the eyelid disappeared. Clipping paths don't
+actually render, so the solution is to draw another reference to it.
+The first '''use''' renders the eyeball within the clipping path, and
+the second renders the path:
+
+<syntaxhighlight lang="xml">
+<g id="eye">
+  <use xlink:href="#eyeball" clip-path="url(#clipEyelid)" />
+  <use xlink:href="#eyelids" />
+</g>
+</syntaxhighlight>
+
+[[Image:svg_overview_eyeball_eyelid_both.png]]
+
+It is wise here to use the '''g''' tag to ''group'' the two graphic
+elements into a larger semantic ''eye'' object. You can then move or
+otherwise transform them as a unit.
 
 ==Eyelashes==
 
