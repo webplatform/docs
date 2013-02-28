@@ -1,15 +1,12 @@
 {{Page_Title}}
-{{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status}}
+{{Flags}}
+{{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Returns the absolute URL that the object represents.}}
 {{API_Object_Property
-|Property_applies_to=apis/workers/objects/WorkerLocation
+|Property_applies_to=apis/workers/WorkerLocation
 |Read_only=Yes
-|Example_object_name=workerLocation
+|Example_object_name=object
 |Javascript_data_type=String
 }}
 {{Examples_Section
@@ -17,12 +14,14 @@
 |Examples=
 }}
 {{Notes_Section
-|Notes====Remarks===
-The '''href''' is the entire string of the URL.
-|Import_Notes====Syntax===
+|Notes=The '''href''' is the entire string of the URL.
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=W3C Web Workers Specification
+|URL=http://dev.w3.org/html5/workers
+|Status=W3C Editor's Draft
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -50,15 +49,12 @@ The '''href''' is the entire string of the URL.
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[apis/workers/objects/WorkerLocation|WorkerLocation]]</code>
-}}
-{{Topics|DOM, Webworkers}}
+{{See_Also_Section}}
+{{Topics|Webworkers}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
 |MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
 |HTML5Rocks_link=
 }}
