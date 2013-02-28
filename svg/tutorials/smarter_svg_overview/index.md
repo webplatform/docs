@@ -219,7 +219,7 @@ angle with which to shear the object horizontally or vertically.
 To place the eyeball within eyelids requires a ''clipping path'',
 which allows an object to render only when it appears within another
 shape. In this case, the shape is a free-form '''path''' whose '''d'''
-(''definition'') draws two curves that face each other:
+(''definition'') draws two curves that face each other.
 
 <syntaxhighlight lang="xml">
 <path
@@ -231,6 +231,7 @@ shape. In this case, the shape is a free-form '''path''' whose '''d'''
 />
 </syntaxhighlight>
 
+[[Image:svg_overview_eyeball_eyelid.png]]
 
 <syntaxhighlight lang="xml">
 <clipPath id="clipEyelid">
