@@ -346,7 +346,31 @@ darkens the result:
 </filter>
 </syntaxhighlight>
 
-<syntaxhighlight lang="xml">
+The eyelashes spill slightly outside the the left edge of the original
+drawing area. The ''filter'' tag's
+'''x'''/'''y'''/'''width'''/'''height''' attributes apply the effect
+to a wider set of dimensions. Setting '''filterUnits''' to
+'''userSpaceOnUse''' specifies to use the original coordinate system;
+otherwise values would be interpreted as percentages of the box to
+which the filter is applied.
+
+
+<syntaxhighlight lang="xml" highlight="3">
+<text
+    id     = "eyelashes"
+    filter = "url(#soften)"
+>
+  <textPath xlink:href="#eyelids">
+    <tref
+      id               = "eyelashTextRef"
+      xlink:href       = "#eyelashContent"
+      font-size        = "20"
+      letter-spacing   = "4"
+      font-style       = "italic"
+      stroke           = "#ddd"
+    />
+  </textPath>
+</text>
 </syntaxhighlight>
 
 [[Image:svg_overview_eyeball_eyelash_filter.png]]
