@@ -48,7 +48,7 @@ an '''svg''' tag encapsulating the graphics:
 <link href="css/eyeballs.css" rel="stylesheet" />
 </head>
 <body>
-<svg width="600" height="200" viewBox="0 0 600 200">
+<svg width="600" height="200">
    <title>eyeballs</title>
    <desc>interactive demo showcasing several SVG features</desc>
 </svg>
@@ -216,9 +216,29 @@ angle with which to shear the object horizontally or vertically.
 
 ==Eyelids==
 
+To place the eyeball within eyelids requires a ''clipping path'',
+which allows an object to render only when it appears within another
+shape. In this case, the shape is a free-form '''path''' whose '''d'''
+(''definition'') draws two curves that face each other:
+
 <syntaxhighlight lang="xml">
-<path/>
-<clipPath/>
+<path
+    id           = "eyelids"
+    d            = "M 200,100 Q 100,200 0,100 Q 100,0 200,100"
+    fill         = "transparent"
+    stroke       = "#ddd"
+    stroke-width = "2"
+/>
+</syntaxhighlight>
+
+
+<syntaxhighlight lang="xml">
+<clipPath id="clipEyelid">
+    <use xlink:href="#eyelids" />
+</clipPath>
+
+
+<use xlink:href="#eyeball" clip-path="url(#clipEyelid)" />
 </syntaxhighlight>
 
 ==Eyelashes==
