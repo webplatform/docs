@@ -124,29 +124,59 @@ follows:
  #inner { stop-color                   : black; }
  #outer { stop-color                   : pink; }
  #white, #bloodshotExtent { stop-color : white; }
- #pupil, #iris { stop-color            : lightblue; }
+ .blue { stop-color                    : lightblue; }
+ .brown { stop-color                   : brown; }
 
 <syntaxhighlight lang="xml">
 <radialGradient id="eyeballFill">
   <stop id="inner"           offset="12%"  />
-  <stop id="pupil"           offset="15%"  />
-  <stop id="iris"            offset="27%"  />
+  <stop id="pupil"           offset="15%"  class="blue" />
+  <stop id="iris"            offset="27%"  class="blue" />
   <stop id="white"           offset="30%"  />
   <stop id="bloodshotExtent" offset="40%"  />
   <stop id="outer"           offset="100%" />
 </radialGradient>
 </syntaxhighlight>
 
-As in HTML, you can use CSS to animate many properties. This smoothes
-any transition between blue and brown:
+As in HTML, you can use CSS to animate many properties. (SVG provides
+a much different animation mechanism described below.) This CSS
+smoothes any transition when toggling between the ''blue'' and
+''brown'' classes:
 
- #pupil, #iris {
+ stop {
     transition         : all 5s;
     -webkit-transition : all 5s;
     -moz-transition    : all 5s;
  }
 
+==Referencing graphics==
+
+The circle is much larger than the actual eyeball, because we want it
+to float behind a pair of eyelids. Before you build them, however, you
+should stash away the graphic components you've already defined. Add a
+'''defs''' region to the '''svg''':
+
+<syntaxhighlight lang="xml" highlight="10-12">
+<html>
+<head>
+<title>SVG grand tour demo</title>
+<link href="css/eyeballs.css" rel="stylesheet" />
+</head>
+<body>
+<svg width="600" height="200" viewBox="0 0 600 200">
+   <title>eyeballs</title>
+   <desc>interactive demo showcasing several SVG features</desc>
+   <defs>
+      <!-- place components here -->
+   </defs>
+</svg>
+<script src="js/eyeballs.js"></script>
+</body>
+</html>
+</syntaxhighlight>
+
 ==Eyelids==
+
 
 <syntaxhighlight lang="xml">
 <path/>
