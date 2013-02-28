@@ -280,7 +280,7 @@ corner of the eye. Another is to run text along the path, which may
 seem odd but in this case provides the illusion we want.
 
 First place many lowercase ''l'' characters within a '''text'''
-element:
+element, enough to overflow the shape:
 
 <syntaxhighlight lang="xml">
 <text id="eyelashContent" >
@@ -288,7 +288,12 @@ llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll
 </text>
 </syntaxhighlight>
 
-The text 
+The '''tref''' tag inserts the referenced ''eyelashContent'' text
+within a '''textPath''' wrapper that itself references the ''eyelids''
+shape along which to run the text.  The outer ''eyelashes'' wrapper is
+necessary to render the entire group of text. Various '''tref'''
+attributes slant the text, lighten it, and space it out
+
 
 <syntaxhighlight lang="xml" highlight="2,5">
 <text id="eyelashes">
@@ -331,14 +336,14 @@ The text
 <filter/>
 </syntaxhighlight>
 
-==Assembly==
+==Final assembly==
 
 <syntaxhighlight lang="xml">
 <g/>
 <use/>
 </syntaxhighlight>
 
-==Blinking and glancing motions==
+==Blinking and glancing==
 
 <syntaxhighlight lang="xml">
 <animate/>
@@ -353,15 +358,6 @@ The text
 <syntaxhighlight lang="xml"></syntaxhighlight>
 <syntaxhighlight lang="xml"></syntaxhighlight>
 
--->
-
-
-==Adding styles==
-
-* attributes
-* properties
-
-<!--
  6 Styling
     6.1 SVG's styling properties
     6.2 Usage scenarios for styling
@@ -381,13 +377,6 @@ The text
     6.16 User agent style sheet
     6.17 Aural style sheets
 -->
-
-==Groups, transforms, and viewBoxes==
-
-* g
-* transform
-* viewBox
-* viewPort
 
 <!--
     5.2 Grouping: the 'g' element
@@ -410,11 +399,6 @@ The text
     7.13 Geographic coordinate systems
     7.14 The 'svg:transform' attribute
 -->
-
-==Referencing content==
-
-* defs
-* use
 
 ==Deploying SVG==
 
@@ -574,13 +558,8 @@ drawing surface.
     5.1 Defining an SVG document fragment: the 'svg' element
         5.1.1 Overview
         5.1.2 The 'svg' element
--->
 
-==Other==
 
-* desc/title
-
-<!--
  5 Document Structure
     5.3 Defining content for reuse, and the 'defs' element
         5.3.1 Overview
