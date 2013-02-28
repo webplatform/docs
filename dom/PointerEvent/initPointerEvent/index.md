@@ -208,7 +208,10 @@ Default: 0
 |Note=The PointerEvent object and associated events are supported with the MS prefix. E.g., [http://msdn.microsoft.com/en-us/library/ie/hh772103(v=vs.85).aspx MSPointerEvent]
 }}
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|External_links=*[http://www.w3.org/TR/pointerevents/#pointerevent-constructor Pointer Events, Section 3.1.3: PointerEvent Constructor]
+*[http://www.w3.org/TR/pointerevents/#examples Pointer Events, Section 9: Dispatching an untrusted pointer event example]
+}}
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
