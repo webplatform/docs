@@ -273,11 +273,13 @@ move or otherwise transform them as a unit.
 
 ==Eyelashes==
 
-There are a couple of ways to attach objects to a path. One is to
-define a ''marker'', which wouldn't work here because the graphic
-would only appear at each corner of the eye. Another is to run text
-along the path, which in this case provides the illusion we
-want. First place many lowercase ''l'' characters within a '''text'''
+To draw eyelashes, there are potentially a couple of ways to attach
+objects to the ''eyelid'' path. One is to define a ''marker'', which
+wouldn't work here because the graphic would only appear at each
+corner of the eye. Another is to run text along the path, which may
+seem odd but in this case provides the illusion we want.
+
+First place many lowercase ''l'' characters within a '''text'''
 element:
 
 <syntaxhighlight lang="xml">
@@ -286,13 +288,11 @@ llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll
 </text>
 </syntaxhighlight>
 
+The text 
 
-<syntaxhighlight lang="xml">
-<text
-    id                 = "eyelashes"
-    data-filter        = "url(#soften)"
->
-  <textPath xlink:href = "#eyelids">
+<syntaxhighlight lang="xml" highlight="2,5">
+<text id="eyelashes">
+  <textPath xlink:href="#eyelids">
     <tref
       id               = "eyelashTextRef"
       xlink:href       = "#eyelashContent"
