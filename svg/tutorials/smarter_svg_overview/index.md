@@ -218,29 +218,38 @@ angle with which to shear the object horizontally or vertically.
 
 To place the eyeball within eyelids requires a ''clipping path'',
 which allows an object to render only when it appears within another
-shape. In this case, the shape is a free-form '''path''' whose '''d'''
-(''definition'') draws two curves that face each other.
+shape. In this case, the ''eyelids'' shape is a free-form '''path'''
+whose '''d''' (''definition'') draws two curves that face each other:
 
 <syntaxhighlight lang="xml">
 <path
     id           = "eyelids"
     d            = "M 200,100 Q 100,200 0,100 Q 100,0 200,100"
     fill         = "transparent"
-    stroke       = "#ddd"
+    stroke       = "black"
     stroke-width = "2"
 />
 </syntaxhighlight>
 
 [[Image:svg_overview_eyeball_eyelid.png]]
 
+To make the shape behave as a clipping path, place a '''clipPath'''
+around the '''path'''. You will actually need to use this shape again,
+so it is best to '''use''' a reference to it:
+
 <syntaxhighlight lang="xml">
 <clipPath id="clipEyelid">
     <use xlink:href="#eyelids" />
 </clipPath>
+</syntaxhighlight>
 
+Apply the '''clip-path''' attribute to the eyeball shape:
 
+<syntaxhighlight lang="xml">
 <use xlink:href="#eyeball" clip-path="url(#clipEyelid)" />
 </syntaxhighlight>
+
+[[Image:svg_overview_eyeball_eyelid_clip.png]]
 
 ==Eyelashes==
 
