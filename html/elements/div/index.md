@@ -8,6 +8,15 @@
 {{Summary_Section|The '''div''' element (&lt;div&gt;) is a generic block-level container that has no semantic value other than the one that you give it via <code>id</code> or <code>class</code> attributes. It can be used for a variety of purposes including the styling of common elements, or for grouping elements with common attributes.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLDivElement
+|Content====HTML information===
+{{{!}} class="wikitable"
+{{!}}-
+!Closing Tag
+{{!}}required
+{{!}}-
+!CSS Display
+{{!}}block
+{{!}}}
 }}
 {{Examples_Section
 |Not_required=No
@@ -800,7 +809,20 @@ This property is not supported for Metro style apps using JavaScript.
  
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=WHATWG HTML Living Standard
+|URL=http://www.whatwg.org/specs/web-apps/current-work/multipage/grouping-content.html#the-div-element
+|Status=Living standard
+}}{{Related Specification
+|Name=HTML 4.01 Specification
+|URL=http://www.w3.org/TR/html401/struct/global.html#h-7.5.4
+|Status=Recommendation
+}}{{Related Specification
+|Name=HTML 5
+|URL=http://www.w3.org/html/wg/drafts/html/master/grouping-content.html#the-div-element
+|Status=Candidate Recommendation
+|Relevant_changes=The align attribute is obsolete.
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -863,12 +885,14 @@ This property is not supported for Metro style apps using JavaScript.
 }}
 |Notes_rows=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Topic_clusters=HTML
+}}
 {{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
+|Sources=MDN, MSDN
+|MDN_link=https://developer.mozilla.org/en-US/docs/HTML/Element/div
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
