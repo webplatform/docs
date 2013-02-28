@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|An object that represents the identity and state of the user agent (the client).}}
+{{Summary_Section|An object representing the identity and state of the user agent (the client).}}
 {{API_Object}}
 {{Examples_Section
 |Not_required=No
