@@ -41,7 +41,7 @@ which allows you to flexibly apply CSS and JavaScript to both the SVG
 graphic and the HTML content. The basic markup looks like this, with
 an '''svg''' tag encapsulating the graphics:
 
-<syntaxhighlight lang="xml">
+<syntaxhighlight lang="xml" highlight="7-10">
 <html>
 <head>
 <title>SVG grand tour demo</title>
