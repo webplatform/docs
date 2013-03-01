@@ -3,7 +3,9 @@
 |High-level issues=Stub
 |Editorial notes=[new content edited offline by Sierra ([[User:Sierra|Sierra]] ([[User talk:Sierra|talk]])); please do not edit]
 }}
-{{Byline}}
+{{Byline
+|Name=Mike Sierra 
+}}
 {{Summary_Section|This guide introduces SVG graphics and shows you all the basics of how to deploy them along with standard web content.}}
 {{Tutorial
 |Content=SVG is a standard XML markup format that renders ''Scalable
@@ -835,7 +837,6 @@ the tag's '''requiredExtensions''' attribute. If not, it uses fallback
 [[svg/tutorials/smarter_svg_filters|Filters]] /
 [[svg/tutorials/smarter_svg_animation|Animation]] /
 [[svg/tutorials/smarter_svg_interaction|Interaction]])
-
 }}
 {{Notes_Section}}
 {{Compatibility_Section
