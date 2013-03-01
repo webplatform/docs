@@ -46,14 +46,14 @@ an '''svg''' tag encapsulating the graphics:
 <html>
 <head>
 <title>SVG grand tour demo</title>
-<link href = "css/eyeballs.css" rel = "stylesheet" />
+<link href="css/eyeballs.css" rel="stylesheet" />
 </head>
 <body>
-<svg width = "600" height = "200">
+<svg width="600" height="200">
    <title>eyeballs</title>
    <desc>interactive demo showcasing several SVG features</desc>
 </svg>
-<script src = "js/eyeballs.js"></script>
+<script src="js/eyeballs.js"></script>
 </body>
 </html>
 </syntaxhighlight>
@@ -67,7 +67,7 @@ Adding this line within the '''svg''' region produces a circle. The
 '''cx''', '''cy''', and '''r''' attributes position and size it:
 
 <syntaxhighlight lang="xml">
-<circle id = "eyeball" cx = "100" cy = "100" r = "150"/>
+<circle id="eyeball" cx="100" cy="100" r="150"/>
 </syntaxhighlight>
 
 [[Image:svg_overview_eyeball_nofill.png]]
@@ -77,15 +77,15 @@ more complex radial gradient happens to be the ideal way to build the
 eyeball's series of concentric rings:
 
 <syntaxhighlight lang="xml">
-<circle id = "eyeball" cx = "100" cy = "100" r = "150" fill = "url(#eyeballFill)" />
+<circle id="eyeball" cx="100" cy="100" r="150" fill="url(#eyeballFill)" />
 
-<radialGradient id = "eyeballFill">
-  <stop id = "inner"           offset = "12%"  stop-color = "black" />
-  <stop id = "pupil"           offset = "15%"  stop-color = "lightblue" />
-  <stop id = "iris"            offset = "27%"  stop-color = "lightblue" />
-  <stop id = "white"           offset = "30%"  stop-color = "white" />
-  <stop id = "bloodshotExtent" offset = "40%"  stop-color = "white" />
-  <stop id = "outer"           offset = "100%" stop-color = "pink" />
+<radialGradient id="eyeballFill">
+  <stop id="inner"           offset="12%"  stop-color="black" />
+  <stop id="pupil"           offset="15%"  stop-color="lightblue" />
+  <stop id="iris"            offset="27%"  stop-color="lightblue" />
+  <stop id="white"           offset="30%"  stop-color="white" />
+  <stop id="bloodshotExtent" offset="40%"  stop-color="white" />
+  <stop id="outer"           offset="100%" stop-color="pink" />
 </radialGradient>
 </syntaxhighlight>
 
@@ -117,7 +117,7 @@ value of presentation attributes, so this example changes the eye
 color to brown:
 
 <syntaxhighlight lang="xml">
-<stop id = "pupil" offset = "15%" stop-color = "lightblue" style = "stop-color:brown"/>
+<stop id="pupil" offset="15%" stop-color="lightblue" style="stop-color:brown"/>
 </syntaxhighlight>
 
 It's best practice to consolidate CSS in style sheets and separate it
@@ -134,13 +134,13 @@ follows:
 </syntaxhighlight>
 
 <syntaxhighlight lang="xml">
-<radialGradient id = "eyeballFill">
-  <stop id = "inner"           offset = "12%"  />
-  <stop id = "pupil"           offset = "15%"  class = "blue" />
-  <stop id = "iris"            offset = "27%"  class = "blue" />
-  <stop id = "white"           offset = "30%"  />
-  <stop id = "bloodshotExtent" offset = "40%"  />
-  <stop id = "outer"           offset = "100%" />
+<radialGradient id="eyeballFill">
+  <stop id="inner"           offset="12%"  />
+  <stop id="pupil"           offset="15%"  class="blue" />
+  <stop id="iris"            offset="27%"  class="blue" />
+  <stop id="white"           offset="30%"  />
+  <stop id="bloodshotExtent" offset="40%"  />
+  <stop id="outer"           offset="100%" />
 </radialGradient>
 </syntaxhighlight>
 
@@ -156,17 +156,17 @@ should stash away the graphic components you've already defined. Add a
 <html>
 <head>
 <title>SVG grand tour demo</title>
-<link href = "css/eyeballs.css" rel = "stylesheet" />
+<link href="css/eyeballs.css" rel="stylesheet" />
 </head>
 <body>
-<svg width = "600" height = "200" viewBox = "0 0 600 200">
+<svg width="600" height="200" viewBox="0 0 600 200">
    <title>eyeballs</title>
    <desc>interactive demo showcasing several SVG features</desc>
    <defs>
       <!-- place components here -->
    </defs>
 </svg>
-<script src = "js/eyeballs.js"></script>
+<script src="js/eyeballs.js"></script>
 </body>
 </html>
 </syntaxhighlight>
@@ -178,7 +178,7 @@ after you've built other components, you don't have to move it back
 out. Instead, place this line outside the '''defs''' region:
 
 <syntaxhighlight lang="xml">
-<use xlink:href = "#eyeball"/>
+<use xlink:href="#eyeball"/>
 </syntaxhighlight>
 
 This serves as a pointer to the eyeball graphic.  It's a ''deep''
@@ -190,7 +190,7 @@ specifies a new '''id''' and modifies the '''cx''' attribute to move
 it to the left a bit from its original position at ''100'':
 
 <syntaxhighlight lang="xml">
-<use  xlink:href = "#eyeball" id = "eyeballLeft" cx = "80"/>
+<use  xlink:href="#eyeball" id="eyeballLeft" cx="80"/>
 </syntaxhighlight>
 
 The '''transform''' attribute's '''translate()''' function provides a
@@ -199,7 +199,7 @@ uses relative measurements to move it to the left along the ''x''
 axis, and not at all along the ''y'' axis:
 
 <syntaxhighlight lang="xml">
-<use xlink:href = "#eyeball" id = "eyeballLeft" transform = "translate(-20,0)"/>
+<use xlink:href="#eyeball" id="eyeballLeft" transform="translate(-20,0)"/>
 </syntaxhighlight>
 
 These provide the same functionality as two-dimensional CSS
@@ -243,8 +243,8 @@ tag around the '''path'''. You will actually need to use this shape
 again, so it is best to '''use''' a reference to it:
 
 <syntaxhighlight lang="xml">
-<clipPath id = "clipEyelid">
-    <use xlink:href = "#eyelids" />
+<clipPath id="clipEyelid">
+    <use xlink:href="#eyelids" />
 </clipPath>
 </syntaxhighlight>
 
@@ -253,7 +253,7 @@ clipping path to take effect. You can apply it to the original shape,
 or the '''use''' that references it:
 
 <syntaxhighlight lang="xml">
-<use xlink:href = "#eyeball" clip-path = "url(#clipEyelid)" />
+<use xlink:href="#eyeball" clip-path="url(#clipEyelid)" />
 </syntaxhighlight>
 
 [[Image:svg_overview_eyeball_eyelid_clip.png]]
@@ -264,9 +264,9 @@ it.  The first '''use''' below renders the eyeball within the clipping
 path, and the second renders the path:
 
 <syntaxhighlight lang="xml">
-<g id = "eye">
-  <use xlink:href = "#eyeball" clip-path = "url(#clipEyelid)" />
-  <use xlink:href = "#eyelids" />
+<g id="eye">
+  <use xlink:href="#eyeball" clip-path="url(#clipEyelid)" />
+  <use xlink:href="#eyelids" />
 </g>
 </syntaxhighlight>
 
@@ -287,7 +287,7 @@ many lowercase ''l'' characters within a '''text''' element, enough to
 overflow the ''eyelids'' shape:
 
 <syntaxhighlight lang="xml">
-<text id = "eyelashContent" >
+<text id="eyelashContent" >
 llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll
 </text>
 </syntaxhighlight>
@@ -300,8 +300,8 @@ run along a path. Various '''tref''' attributes slant the text,
 lighten it, and space it out:
 
 <syntaxhighlight lang="xml" highlight="2,5">
-<text id = "eyelashes">
-  <textPath xlink:href = "#eyelids">
+<text id="eyelashes">
+  <textPath xlink:href="#eyelids">
     <tref
       id               = "eyelashTextRef"
       xlink:href       = "#eyelashContent"
@@ -317,10 +317,10 @@ lighten it, and space it out:
 Add the eyelashes to the consolidated ''eye'' object:
 
 <syntaxhighlight lang="xml">
-<g id = "eye">
-  <use xlink:href = "#eyeball" clip-path = "url(#clipEyelid)" />
-  <use xlink:href = "#eyelids" />
-  <use xlink:href = "#eyelashes" />
+<g id="eye">
+  <use xlink:href="#eyeball" clip-path="url(#clipEyelid)" />
+  <use xlink:href="#eyelids" />
+  <use xlink:href="#eyelashes" />
 </g>
 </syntaxhighlight>
 
@@ -348,11 +348,11 @@ pixels around, and '''feComponentTransfer''' darkens the result:
     filterUnits  = "userSpaceOnUse"
 >
   <desc>soften eyelidand eyelashes</desc>
-  <feGaussianBlur stdDeviation = "1 3" />
+  <feGaussianBlur stdDeviation="1 3" />
   <feComponentTransfer>
-      <feFuncR type = "linear" slope = "0.3"/>
-      <feFuncG type = "linear" slope = "0.3"/>
-      <feFuncB type = "linear" slope = "0.3"/>
+      <feFuncR type="linear" slope="0.3"/>
+      <feFuncG type="linear" slope="0.3"/>
+      <feFuncB type="linear" slope="0.3"/>
   </feComponentTransfer>
 </filter>
 </syntaxhighlight>
@@ -398,9 +398,9 @@ object into a higher-level ''eyes'' object, and use '''transform''' to
 space them out:
 
 <syntaxhighlight lang="xml">
-<g id = "eyes">
-  <use xlink:href = "#eye" transform = "translate(50,0)" />
-  <use xlink:href = "#eye" transform = "translate(350,0)" />
+<g id="eyes">
+  <use xlink:href="#eye" transform="translate(50,0)" />
+  <use xlink:href="#eye" transform="translate(350,0)" />
 </g>
 </syntaxhighlight>
 
