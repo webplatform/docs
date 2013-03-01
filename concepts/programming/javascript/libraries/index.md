@@ -83,6 +83,10 @@ This list showcases JavaScript libraries. They're sorted alphabetically. If you 
 | Framework & Utilities
 |Prototype is a JavaScript Framework that aims to ease development of dynamic web applications. Featuring a unique, easy-to-use toolkit for class-driven development and the nicest Ajax library around, Prototype is quickly becoming the codebase of choice for web application developers everywhere.
 |-
+|[http://sproutcore.com/ SproutCore]
+| Framework
+|SproutCore is an open-source JavaScript framework. Its goal is to allow developers to create web applications with advanced capabilities and a user experience comparable to that of desktop applications.
+|-
 |[http://underscorejs.org/ Underscore]
 | Framework
 |Underscore is a utility-belt library for JavaScript that provides a lot of the functional programming support that you would expect in Prototype.js (or Ruby), but without extending any of the built-in JavaScript objects. It's the tie to go along with jQuery's tux, and Backbone.js's suspenders.
