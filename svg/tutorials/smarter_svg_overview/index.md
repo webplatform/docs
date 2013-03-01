@@ -314,6 +314,16 @@ lighten it, and space it out:
 
 [[Image:svg_overview_eyeball_eyelashes.png]]
 
+!!!
+
+<syntaxhighlight lang="xml">
+<g id="eye">
+  <use xlink:href="#eyeball" clip-path="url(#clipEyelid)" />
+  <use xlink:href="#eyelids" />
+  <use xlink:href="#eyelashes" />
+</g>
+</syntaxhighlight>
+
 ==Applying eyeliner==
 
 Even after lightening the color, the eyelashes appear way too crisp
