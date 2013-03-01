@@ -410,6 +410,7 @@ space them out:
 
 <syntaxhighlight lang="xml">
 <animate/>
+
 <animateTransform/>
 </syntaxhighlight>
 
