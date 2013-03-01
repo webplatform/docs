@@ -225,6 +225,11 @@ whose '''d''' (''definition'') draws two curves that face each other:
 
 [[Image:svg_overview_eyeball_eyelid.png]]
 
+Part of each quadratic (''Q'') curve's definition is a ''control
+point'' that influences that shape of the curve:
+
+[[Image:svg_overview_eyeball_ctrl.png]]
+
 ...
 
 To make the shape behave as a clipping path, place a '''clipPath'''
@@ -497,8 +502,8 @@ that they look ahead:
 
 Aside from the values of '''from''' and '''to''' being inverted, note
 the '''begin''' time is expressed in terms of whenever the previous
-animation ends.  And yes, we have now seen three different ways to
-reference an SVG object:
+animation ends.  And yes, it may help to keep track of the three
+different ways we've seen so far to reference an SVG object:
 
 * the ''id.attr'' notation above.
 
@@ -510,7 +515,8 @@ As is true for CSS transitions and animations, you can animate most
 any numeric or color value. You can also animate complex series of
 coordinates used in '''path''' definitions, so long as the sequence of
 path commands match so that there are corresponding sets of points.
-This allows up to make the eyes blink.
+This allows up to make the eyes blink. Add this to the ''eyelids''
+object:
 
 <syntaxhighlight lang="xml" highlight="9-17">
 <path
@@ -532,6 +538,10 @@ This allows up to make the eyes blink.
     />
 </path>
 </syntaxhighlight>
+
+Between the '''from''' and '''to''' values, the only values that are
+modified are the positions of the two control points that affect the
+shape of the curve
 
 
 <!--
