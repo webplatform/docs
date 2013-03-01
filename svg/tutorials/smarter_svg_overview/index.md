@@ -455,9 +455,11 @@ Let's run down what each attribute does:
 
 * '''from''' and '''to''' provide the values between which the animation should transition. In this case, it moves it 50 units to the right.
 
-Now that the 
+As it appears above, the animation
 
-<syntaxhighlight lang="xml" highlight="13-22">
+Now that the
+
+<syntaxhighlight lang="xml" highlight="19-20">
 <circle id="eyeball" transform="translate(0,0)" cx="100" cy="100"
         r="150" fill="url(#eyeballFill)">
     <animateTransform
@@ -475,8 +477,8 @@ Now that the
         attributeType  = "XML"
         attributeName  = "transform"
         type           = "translate"
-        begin          = "glanceStart.end"
         dur            = "0.5s"
+        begin          = "glanceStart.end"
         from           = "50 0"
         to             = "0 0"
     />
