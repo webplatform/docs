@@ -517,7 +517,7 @@ As is true for CSS transitions and animations, you can animate most
 any numeric or color value. You can also animate complex series of
 coordinates used in '''path''' definitions, so long as the sequence of
 path commands match so that there are corresponding sets of points.
-This allows up to make the eyes blink. Add this to the ''eyelids''
+This allows us to make the eyes blink. Add this to the ''eyelids''
 object:
 
 <syntaxhighlight lang="xml" highlight="9-17">
@@ -543,8 +543,9 @@ object:
 
 Between the '''from''' and '''to''' values, the only values that are
 modified are the positions of the two control points that affect the
-shape of the curve
+shape of the curve:
 
+[[Image:svg_overview_eyeball_blink.png]]
 
 <!--
 
