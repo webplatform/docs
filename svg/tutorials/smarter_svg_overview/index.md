@@ -391,12 +391,20 @@ It needs to be applied again separately to the eyelids:
 
 [[Image:svg_overview_eyeball_eyelid_filter.png]]
 
-==Final assembly==
+To finish off the graphic, group another instance of the ''eye''
+object into a higher-level ''eyes'' object, and use '''transform''' to
+space them out:
 
 <syntaxhighlight lang="xml">
-<g/>
-<use/>
+<g id = "eyes">
+  <use xlink:href = "#eye" transform = "translate(50,0)" />
+  <use xlink:href = "#eye" transform = "translate(350,0)" />
+</g>
+...
+<use xlink:href="#eyes"/>
 </syntaxhighlight>
+
+[[Image:svg_overview_eyeballs.png]]
 
 ==Blinking and glancing==
 
