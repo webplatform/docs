@@ -417,7 +417,7 @@ A single '''use''' tag outside the '''defs''' region renders the eyes:
 [[Image:svg_overview_eyeballs.png]]
 
 The original '''svg''' tag specified that the eyes should appear
-within a 600&times;200 rectangle:
+within a 600&times;200-pixel rectangle:
 
 <syntaxhighlight lang="xml">
 <svg width="600" height="200">
@@ -443,9 +443,27 @@ svg {
 
 [[Image:svg_overview_eyeballs_viewport_small.png]]
 
-The solution is to define a box using the '''viewBox''' attribute. Doing so ...
+The solution is to define a custom box using the '''viewBox'''
+attribute.  Doing so declares a set of abstract units for use within
+the graphic, which may bear no relation to the coordinate space in
+which the graphic appears:
+
+<syntaxhighlight lang="xml">
+<svg width="300" height="100" viewBox="0 0 600 200">
+</syntaxhighlight>
 
 [[Image:svg_overview_eyeballs_viewbox.png]]
+
+Adding a '''preserveAspectRatio''' attribute controls what happens in
+cases when the '''viewBox''' doesn't match the ''viewport'' within
+which the graphic appears. In this case, '''xMidYMid''' centers it and
+shrinks it enough for the entire graphic to appear:
+
+<syntaxhighlight lang="xml">
+<svg width="100" height="100" viewBox="0 0 600 200" preserveAspectRatio="xMidYMid">
+</syntaxhighlight>
+
+[[Image:svg_overview_eyeballs_viewbox_preserve.png]]
 
 ==Blinking and glancing==
 
