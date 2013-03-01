@@ -124,11 +124,13 @@ from markup. Placing this CSS in the ''eyeballs.css'' file referenced
 from the HTML applies it to the slightly pared-down SVG markup that
 follows:
 
+<syntaxhighlight lang="css">
  #inner { stop-color                   : black; }
  #outer { stop-color                   : pink; }
  #white, #bloodshotExtent { stop-color : white; }
  .blue { stop-color                    : lightblue; }
  .brown { stop-color                   : brown; }
+</syntaxhighlight>
 
 <syntaxhighlight lang="xml">
 <radialGradient id = "eyeballFill">
@@ -550,7 +552,17 @@ like this:
 
 [[Image:svg_overview_eyeball_blink.png]]
 
+You can 
+
+
+<span onclick="app.blink.beginElement()">replay blink</span>
+<span onclick="app.glanceStart.beginElement()">replay glance</span>
+<span onclick="app.svg.setCurrentTime(0)">replay sequence of both</span>
+
+
 <!--
+
+...
 
 <syntaxhighlight lang="xml"></syntaxhighlight>
 <syntaxhighlight lang="xml"></syntaxhighlight>
