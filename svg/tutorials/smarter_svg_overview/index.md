@@ -574,7 +574,7 @@ Calling this function keeps the eyes blinking at random points between
 two and five seconds:
 
 <syntaxhighlight lang="javascript">
-function blink () {
+function blink() {
     var minDelay = 2000;
     var extraDelay = 3000;
     document.querySelector('#blink').beginElement();
