@@ -427,7 +427,8 @@ within a 600&times;200 rectangle:
 
 But what if that's much too big for the interface where you want to
 use them? If you shrink it down, using either the tag's
-'''width'''/'''height''' attributes or CSS,
+'''width'''/'''height''' attributes or CSS, the dimensions no longer
+match the various measurements specified within the graphic:
 
 <syntaxhighlight lang="xml">
 <style>
@@ -441,6 +442,8 @@ svg {
 </syntaxhighlight>
 
 [[Image:svg_overview_eyeballs_viewport_small.png]]
+
+The solution is to define a box using the '''viewBox''' attribute. Doing so ...
 
 [[Image:svg_overview_eyeballs_viewbox.png]]
 
