@@ -217,7 +217,7 @@ point, and values greater than 1 increase the size.  The
 spins the object.  The '''skewX()''' and '''skewY()''' also accepts an
 angle with which to shear the object horizontally or vertically.
 
-==Eyelids==
+==The eyelids==
 
 To place the eyeball within eyelids requires a ''clipping path'',
 which allows an object to render only when it appears within another
@@ -274,7 +274,7 @@ It becomes useful here to wrap a '''g''' tag to ''group'' the two
 graphic elements into a larger semantic ''eye'' object. You can then
 move or otherwise transform them as a unit.
 
-==Eyelashes==
+==The eyelashes==
 
 To draw eyelashes, there are potentially a couple of ways to attach
 objects to the ''eyelid'' path. One is to define a ''marker'', which
@@ -322,10 +322,9 @@ SVG ''filters'' provide many image processing tools that you can mix
 and match to produce such special visual effects.
 
 Add a '''filter''' element to the '''defs''' region. It serves as a
-wrapper for various ''fe''-prefixed ''filter effect'' components,
-which are applied in sequence. In this case, the '''feGaussianBlur'''
-effect scatters the pixels around, and '''feComponentTransfer'''
-darkens the result:
+wrapper for various ''filter effect'' components, which are applied in
+sequence. In this case, the '''feGaussianBlur''' effect scatters the
+pixels around, and '''feComponentTransfer''' darkens the result:
 
 <syntaxhighlight lang="xml">
 <filter
@@ -346,48 +345,41 @@ darkens the result:
 </filter>
 </syntaxhighlight>
 
-The eyelashes spill slightly outside the the left edge of the original
-drawing area. The ''filter'' tag's
+The eyelid renders horizontally between 0 and 200 pixels, so the
+eyelashes spill slightly outside the the left edge of the original
+drawing area.  The ''filter'' tag's
 '''x'''/'''y'''/'''width'''/'''height''' attributes apply the effect
 to a wider set of dimensions. Setting '''filterUnits''' to
 '''userSpaceOnUse''' specifies to use the original coordinate system;
 otherwise values would be interpreted as percentages of the box to
 which the filter is applied.
 
+Use the '''filter''' attribute to apply the effect, in this case to
+the eyelashes:
 
 <syntaxhighlight lang="xml" highlight="3">
 <text
     id     = "eyelashes"
     filter = "url(#soften)"
->
-  <textPath xlink:href="#eyelids">
-    <tref
-      id               = "eyelashTextRef"
-      xlink:href       = "#eyelashContent"
-      font-size        = "20"
-      letter-spacing   = "4"
-      font-style       = "italic"
-      stroke           = "#ddd"
-    />
-  </textPath>
-</text>
+/>
 </syntaxhighlight>
 
 [[Image:svg_overview_eyeball_eyelash_filter.png]]
 
+It needs to be applied again separately to the eyelids:
+
 <syntaxhighlight lang="xml">
+<path
+    filter       = "url(#soften)"
+    id           = "eyelids"
+    d            = "M 200,100 Q 100,200 0,100 Q 100,0 200,100"
+    fill         = "transparent"
+    stroke       = "#aaa"
+    stroke-width = "2"
+/>
 </syntaxhighlight>
 
 [[Image:svg_overview_eyeball_eyelid_filter.png]]
-
-<syntaxhighlight lang="xml">
-</syntaxhighlight>
-
-<syntaxhighlight lang="xml">
-</syntaxhighlight>
-
-<syntaxhighlight lang="xml">
-</syntaxhighlight>
 
 ==Final assembly==
 
