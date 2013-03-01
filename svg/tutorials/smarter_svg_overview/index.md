@@ -400,7 +400,11 @@ space them out:
   <use xlink:href = "#eye" transform = "translate(50,0)" />
   <use xlink:href = "#eye" transform = "translate(350,0)" />
 </g>
-...
+</syntaxhighlight>
+
+A single '''use''' tag outside the '''defs''' region renders the eyes:
+
+<syntaxhighlight lang="xml">
 <use xlink:href="#eyes"/>
 </syntaxhighlight>
 
