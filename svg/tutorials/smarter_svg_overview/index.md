@@ -541,9 +541,12 @@ object:
 </path>
 </syntaxhighlight>
 
-Between the '''from''' and '''to''' values, the only values that are
-modified are the positions of the two control points that affect the
-shape of the curve:
+In this case, the '''begin''' attribute specifies two different
+values, so the animation is triggered after four seconds, then once
+again after six seconds.  Between the '''from''' and '''to''' values,
+the only values that are modified are the positions of the two control
+points that affect the shape of the curve, so the animation behaves
+like this:
 
 [[Image:svg_overview_eyeball_blink.png]]
 
