@@ -225,8 +225,12 @@ whose '''d''' (''definition'') draws two curves that face each other:
 
 [[Image:svg_overview_eyeball_eyelid.png]]
 
-Part of each quadratic (''Q'') curve's definition is a ''control
-point'' that influences that shape of the curve:
+Part of each curve's definition is a ''control point'' that influences
+that shape of the curve, but do not themselves render. Starting from
+the right corner (''M'' for ''move to''), the first quadratic (''Q'')
+curve's control point is placed at the top, and the destination is the
+left corner. The second quadratic curve places its control point at
+the bottom corner and ends up at the right corner:
 
 [[Image:svg_overview_eyeball_ctrl.png]]
 
