@@ -1,4 +1,4 @@
-{{Page_Title|Smarter SVG: Overview}}
+{{Page_Title|SVG: Grand Tour}}
 {{Flags
 |High-level issues=Stub
 |Editorial notes=[new content edited offline by Sierra ([[User:Sierra|Sierra]] ([[User talk:Sierra|talk]])); please do not edit]
@@ -233,8 +233,6 @@ left corner. The second quadratic curve places its control point at
 the bottom corner and ends up at the right corner:
 
 [[Image:svg_overview_eyeball_ctrl.png]]
-
-...
 
 To make the shape behave as a clipping path, place a '''clipPath'''
 tag around the '''path'''. You will actually need to use this shape
