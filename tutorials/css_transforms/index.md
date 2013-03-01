@@ -625,7 +625,7 @@ apparent.  An animated transition between '''scale3d(0,0,0)''' and
 
 While there are	limits to what you can accomplish when transforming
 flat web content, this technique of building 3D shapes such as cubes
-may form the basis of a simple virtual reality scene, such as the
+may form the basis of simple virtual reality scenes, such as the
 following (suitable for a mobile browser) that pans to view the
 surface of Mars:
 
@@ -634,6 +634,13 @@ surface of Mars:
 View the sample to see how the viewer is positioned within the display elements:
 
 ([http://letmespellitoutforyou.com/samples/trans_3d_virtual.html	View sample here])
+
+This example places an element randomly within a coordinate space, and rotates it to face the path to get there. When viewed on WebKit nightly builds that support custom CSS filters, something amusing happens along the way:
+
+[[Image:custom_filter_random_path.png]]
+
+([http://letmespellitoutforyou.com/samples/custom_path.html View sample here])
+
 
 }}
 {{Notes_Section}}
