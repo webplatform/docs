@@ -455,7 +455,9 @@ Let's run down what each attribute does:
 
 * '''from''' and '''to''' provide the values between which the animation should transition. In this case, it moves it 50 units to the right.
 
-As it appears above, the animation
+As it appears above, the animation moves the eyes to the right:
+
+[[Image:svg_overview_eyeball_glance.png]]
 
 Now that the
 
