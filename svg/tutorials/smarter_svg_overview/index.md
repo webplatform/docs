@@ -562,23 +562,23 @@ This allows a script to blink the eyes at any point:
 function blink() {
     document.querySelector('#blink').beginElement();
 }
-
 </syntaxhighlight>
 
-<span onclick="app.blink.beginElement()">replay blink</span>
-<span onclick="app.glanceStart.beginElement()">replay glance</span>
-<span onclick="app.svg.setCurrentTime(0)">replay sequence of both</span>
+This allows a script to change where the eyes glance:
 
+<syntaxhighlight lang="javascript">
+function glanceTo(x,y) {
+    var toThere = document.querySelector('#glanceStart')
+    var andBack = document.querySelector('#glanceEnd')
+    toThere.setAttribute("to", x + " " + y);
+    andBack.setAttribute("from", x + " " + y);
+    toThere.beginElement();
+}
+</syntaxhighlight>
 
-<!--
+Enough?
 
-...
-
-
-<syntaxhighlight lang="xml"></syntaxhighlight>
-<syntaxhighlight lang="xml"></syntaxhighlight>
-
--->
+[[Image:svg_overview_eyeball_tired.png]]
 
 ==Deploying SVG==
 
