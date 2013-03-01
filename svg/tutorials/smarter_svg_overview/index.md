@@ -27,10 +27,13 @@ highlights some notable differences, and provides a quick tour of many
 SVG features that are covered in more detail in other sections. It
 focuses on the unique way you can build complex interactive graphics
 from reusable components, and how to flexibly resize them and place
-them within various drawing surfaces. As part of a grand tour to get a
-feel for SVG markup, you'll stroll through an example that shows how
-to build a pair of eyes, and how to move them around and make them
-blink.
+them within various drawing surfaces.
+
+As part of a grand tour to get a feel for SVG markup, you'll stroll
+through an example that shows how to build a pair of eyes, and how to
+move them around and make them blink.
+[http://letmespellitoutforyou.com/samples/svg_eyeball.html View the
+accompanying live demo here].
 
 ==Defining the drawing area==
 
