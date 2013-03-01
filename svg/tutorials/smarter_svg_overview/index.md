@@ -425,7 +425,7 @@ offers the most flexible way to move objects around. SVG provides an
 '''animateTransform''' tag dedicated to manipulating it. Add it within
 the ''eyeball'' object you want to move:
 
-<syntaxhighlight lang="xml" highlight="3-14">
+<syntaxhighlight lang="xml" highlight="3-12">
 <circle id="eyeball" transform="translate(0,0)" cx="100" cy="100"
         r="150" fill="url(#eyeballFill)">
     <animateTransform
