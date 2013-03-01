@@ -225,6 +225,8 @@ whose '''d''' (''definition'') draws two curves that face each other:
 
 [[Image:svg_overview_eyeball_eyelid.png]]
 
+...
+
 To make the shape behave as a clipping path, place a '''clipPath'''
 tag around the '''path'''. You will actually need to use this shape
 again, so it is best to '''use''' a reference to it:
@@ -500,13 +502,17 @@ reference an SVG object:
 
 * the ''id.attr'' notation above.
 
-* SVG's '''xlink:href''', specifying a URL, external file, or anchor.
+* SVG's '''xlink:href''', which specifies a URL, external file, or anchor.
 
-* CSS's '''url()''' function, which can be used for SVG's presentation attribute values.
+* CSS's own '''url()''' function, which can be applied to SVG's presentation attribute values.
 
+As is true for CSS transitions and animations, you can animate most
+any numeric or color value. You can also animate complex series of
+coordinates used in '''path''' definitions, so long as the sequence of
+path commands match so that there are corresponding sets of points.
+This allows up to make the eyes blink.
 
-
-<syntaxhighlight lang="xml">
+<syntaxhighlight lang="xml" highlight="9-17">
 <path
     filter       = "url(#soften)"
     id           = "eyelids"
@@ -521,7 +527,7 @@ reference an SVG object:
         attributeName = "d"
         from          = "M 200,100 Q 100,200 0,100 Q 100,0 200,100"
         to            = "M 200,100 Q 100,100 0,100 Q 100,100 200,100"
-        begin         = "4s;6s;9s;11s;14s;17s;20s"
+        begin         = "4s;6s"
         dur           = "0.1s"
     />
 </path>
