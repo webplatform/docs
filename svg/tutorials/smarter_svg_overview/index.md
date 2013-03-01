@@ -558,14 +558,6 @@ like this:
 
 You can use JavaScript to control these animations more flexibly. To
 do so, call the '''beginElement()''' method on the animation object.
-This allows a script to blink the eyes at any point:
-
-<syntaxhighlight lang="javascript">
-function blink() {
-    document.querySelector('#blink').beginElement();
-}
-</syntaxhighlight>
-
 This allows a script to change where the eyes glance:
 
 <syntaxhighlight lang="javascript">
@@ -575,6 +567,18 @@ function glanceTo(x,y) {
     toThere.setAttribute("to", x + " " + y);
     andBack.setAttribute("from", x + " " + y);
     toThere.beginElement();
+}
+</syntaxhighlight>
+
+Calling this function keeps the eyes blinking at random points between
+two and five seconds:
+
+<syntaxhighlight lang="javascript">
+function blink () {
+    var minDelay = 2000;
+    var extraDelay = 3000;
+    document.querySelector('#blink').beginElement();
+    setTimeout(blink, (Math.floor(Math.random() * extraDelay) + minDelay));
 }
 </syntaxhighlight>
 
