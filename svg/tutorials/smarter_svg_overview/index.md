@@ -467,7 +467,7 @@ gradients. Adding a '''fill''' attribute here and setting it to
 ends.  But instead, we'll add another animation to return the eyes so
 that they look ahead:
 
-<syntaxhighlight lang="xml" highlight="19-20">
+<syntaxhighlight lang="xml" highlight="4,19-20">
 <circle id="eyeball" transform="translate(0,0)" cx="100" cy="100"
         r="150" fill="url(#eyeballFill)">
     <animateTransform
@@ -502,7 +502,7 @@ reference an SVG object:
  * SVG's '''xlink:href''', specifying a URL, external file, or anchor.
  * CSS's '''url()''' function, which can be used for SVG's presentation attribute values.
 
-path...
+
 
 <syntaxhighlight lang="xml">
 <path
