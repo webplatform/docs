@@ -1,0 +1,64 @@
+Este conjunto de artículos es para que los principiantes los lean con confianza, empezando a construir sus habilidades fundamentales al principio del viaje para convertirse en un diseñador o desarrollador  web.
+
+
+
+==Antes de iniciar==
+
+En este curso vas a escribir un montón de código y ponerlo a prueba en los navegadores web. Antes de comenzar debes tener instalado por lo menos lo siguiente:
+
+* Los más nuevos navegadores que puedas instalar. Si acaso no los tienes ya, descárgalos desde las páginas de [http://www.google.com/chrome Chrome], [http://www.mozilla.org/en-US/firefox/new/ Firefox], [http://windows.microsoft.com/en-GB/internet-explorer/products/ie/home Internet Explorer], [http://www.opera.com Opera] y [http://www.apple.com/safari/ Safari].
+* Un editor de texto decente. Las razonables opciones  gratuitas son [http://notepad-plus-plus.org/ Notepad++] para Windows, [http://www.barebones.com/products/TextWrangler/ Text Wrangler] para Mac y [http://bluefish.openoffice.nl/index.html Bluefish] para Linux.
+
+Ahora, arremángate la camisa y preparémonos a aprender. [[tutorials|¡Explora nuestra lista completa de artículos didácticos]] si terminas la lista de esta página y deseas aprender más!
+
+==Fundamentos de la web==
+
+* [[concepts/internet and web/the history of the web|La Historia de la Web]]
+* [[concepts/internet and web/how does the internet work|¿Cómo funciona la Internet?]]
+* [[concepts/internet and web/the web standards model|El modelo de estándares web: HTML, CSS y JavaScript]]
+* [[tutorials/getting your content online|Colocando tu contenido en línea]]
+* [[concepts/accessibility|Accesibilidad]]
+
+==HTML — estruturando tu contenido web==
+
+* [[guides/the basics of html|Nociones básicas de HTML]]
+* [[guides/doctypes and markup styles|DOCTYPES y estilos de etiquetado]]
+* [[guides/html validation|Validación de HTML]]
+* [[guides/the html head|El &lt;head&gt; HTML]]
+* [[guides/html text|Texto HTML]]
+* [[guides/html lists|Listas HTML]]
+* [[guides/images in html|Imágenes en HTML]]
+* [[guides/html links|Enlaces HTML]]
+* [[guides/html structural elements|Elementos estructurales HTML]]
+* [[guides/html tables|Tablas HTML]]
+* [[guides/html forms basics|Fundamentos de formularios HTML]]
+* [[guides/html5 form features|Características de formularios de HTML5]]
+* [[guides/lesser-known semantic elements|Elementos semánticos menos conocidos]]
+
+==CSS — aplicando estilos a tu contendido web==
+
+* [[guides/getting started with css|Iniciándose con las CSS]]
+* [[tutorials/using selectors|Usando los selectores]]
+* [[guides/css text styling fundamentals|Fundamentos de estilos de texto]]
+* [[tutorials/using css background images|Imágenes de fondo en CSS]]
+* [[tutorials/box model|Explorando el modelo de caja de las CSS]]
+* [[tutorials/layout fundamentals|Exploring the CSS layout model]]
+* [[tutorials/making css easier to read|Making CSS easier to read]]
+* [[tutorials/media queries|Targetting styles with media queries]]
+
+==JavaScript — adding dynamic behaviour to your websites==
+
+* [[concepts/programming/programming basics|Programming basics]]
+* [[tutorials/your first look at javascript|Your first look at JavaScript]]
+* [[concepts/programming/the purpose of javascript|The purpose of JavaScript]]
+* [[tutorials/javascript functions|JavaScript functions]]
+* [[tutorials/objects in javascript|Objects in JavaScript]]
+* [[tutorials/traversing the dom|Traversing the DOM]]
+* [[tutorials/creating and modifying html|Creating and modifying HTML]]
+* [[tutorials/manipulating css with javascript|Manipulating CSS with JavaScript]]
+* [[tutorials/events in javascript|Events in JavaScript]]
+
+
+==Applied techniques==
+
+* [[tutorials/creating basic navigation menus|Creating navigation menus]]
