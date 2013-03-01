@@ -161,7 +161,7 @@ should stash away the graphic components you've already defined. Add a
 <link href="css/eyeballs.css" rel="stylesheet" />
 </head>
 <body>
-<svg width="600" height="200" viewBox="0 0 600 200">
+<svg width="600" height="200">
    <title>eyeballs</title>
    <desc>interactive demo showcasing several SVG features</desc>
    <defs>
@@ -395,6 +395,8 @@ It needs to be applied again separately to the eyelids:
 
 [[Image:svg_overview_eyeball_eyelid_filter.png]]
 
+==Coordinate spaces==
+
 To finish off the graphic, group another instance of the ''eye''
 object into a higher-level ''eyes'' object, and use '''transform''' to
 space them out:
@@ -413,6 +415,34 @@ A single '''use''' tag outside the '''defs''' region renders the eyes:
 </syntaxhighlight>
 
 [[Image:svg_overview_eyeballs.png]]
+
+The original '''svg''' tag specified that the eyes should appear
+within a 600&times;200 rectangle:
+
+<syntaxhighlight lang="xml">
+<svg width="600" height="200">
+</syntaxhighlight>
+
+[[Image:svg_overview_eyeballs_viewport_large.png]]
+
+But what if that's much too big for the interface where you want to
+use them? If you shrink it down, using either the tag's
+'''width'''/'''height''' attributes or CSS,
+
+<syntaxhighlight lang="xml">
+<style>
+svg {
+    width: 300;
+    height: 100;
+}
+</style>
+    <!-- ...or... -->
+<svg width="300" height="100">
+</syntaxhighlight>
+
+[[Image:svg_overview_eyeballs_viewport_small.png]]
+
+[[Image:svg_overview_eyeballs_viewbox.png]]
 
 ==Blinking and glancing==
 
