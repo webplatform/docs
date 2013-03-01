@@ -141,17 +141,6 @@ follows:
 </radialGradient>
 </syntaxhighlight>
 
-As in HTML, you can use CSS to animate many properties. (SVG provides
-a much different animation mechanism described below.) This CSS
-smoothes any transition when toggling between the ''blue'' and
-''brown'' classes:
-
- stop {
-    transition         : all 5s;
-    -webkit-transition : all 5s;
-    -moz-transition    : all 5s;
- }
-
 ==Referencing graphics==
 
 The circle is much larger than the actual eyeball, because we want it
@@ -412,60 +401,110 @@ A single '''use''' tag outside the '''defs''' region renders the eyes:
 
 ==Blinking and glancing==
 
-<syntaxhighlight lang="xml">
-<animate/>
+The only remaining problem is that the graphic doesn't ''do''
+anything.  We want to make the eyes to ''move''.
 
-<animateTransform/>
+In a few marginal cases, you can use CSS techniques to animate numeric
+and color properties that apply to SVG. For example, here's a way to
+gradually change the eye color, by toggling between the gradient color
+stops' ''blue'' and ''brown'' classes:
+
+ .blue  { stop-color   : lightblue; }
+ .brown { stop-color   : brown; }
+ stop {
+    transition         : all 5s;
+    -webkit-transition : all 5s;
+    -moz-transition    : all 5s;
+ }
+
+You can't use that familiar approach for SVG attributes.  SVG has its
+own mechanism (based on the ''SMIL'' standard) to animate attribute
+values. We'll use it to make the eye glance to the side. As we've
+seen, the '''transform''' attribute's '''translate()''' function
+offers the most flexible way to move objects around. SVG provides an
+'''animateTransform''' tag dedicated to manipulating it. Add it within
+the ''eyeball'' object you want to move:
+
+<syntaxhighlight lang="xml" highlight="3-14">
+<circle id="eyeball" transform="translate(0,0)" cx="100" cy="100"
+        r="150" fill="url(#eyeballFill)">
+    <animateTransform
+        id             = "glanceStart"
+        attributeType  = "XML"
+        attributeName  = "transform"
+        type           = "translate"
+        begin          = "1s"
+        dur            = "0.5s"
+        from           = "0 0"
+        to             = "50 0"
+        calcMode       = "paced"
+        restart        = "whenNotActive"
+    />
+</circle>
 </syntaxhighlight>
 
+trans2...
+
+<syntaxhighlight lang="xml">
+<circle id="eyeball" transform="translate(0,0)" cx="100" cy="100"
+        r="150" fill="url(#eyeballFill)">
+    <animateTransform
+        id             = "glanceStart"
+        attributeType  = "XML"
+        attributeName  = "transform"
+        type           = "translate"
+        begin          = "1s"
+        dur            = "0.5s"
+        from           = "0 0"
+        to             = "50 0"
+        calcMode       = "paced"
+        restart        = "whenNotActive"
+    />
+    <animateTransform
+        id             = "glanceEnd"
+        attributeType  = "XML"
+        attributeName  = "transform"
+        type           = "translate"
+        begin          = "glanceStart.end"
+        dur            = "0.5s"
+        from           = "50 0"
+        to             = "0 0"
+        calcMode       = "paced"
+        restart        = "whenNotActive"
+    />
+</circle>
+</syntaxhighlight>
+
+path...
+
+<syntaxhighlight lang="xml">
+<path
+    filter       = "url(#soften)"
+    id           = "eyelids"
+    d            = "M 200,100 Q 100,200 0,100 Q 100,0 200,100"
+    fill         = "transparent"
+    stroke       = "#aaa"
+    stroke-width = "2"
+>
+    <animate
+        id            = "blink"
+        attributeType = "XML"
+        attributeName = "d"
+        from          = "M 200,100 Q 100,200 0,100 Q 100,0 200,100"
+        to            = "M 200,100 Q 100,100 0,100 Q 100,100 200,100"
+        begin         = "4s;6s;9s;11s;14s;17s;20s"
+        dur           = "0.1s"
+    />
+</path>
+</syntaxhighlight>
+
+
 <!--
 
 <syntaxhighlight lang="xml"></syntaxhighlight>
 <syntaxhighlight lang="xml"></syntaxhighlight>
 <syntaxhighlight lang="xml"></syntaxhighlight>
-<syntaxhighlight lang="xml"></syntaxhighlight>
-<syntaxhighlight lang="xml"></syntaxhighlight>
 
- 6 Styling
-    6.1 SVG's styling properties
-    6.2 Usage scenarios for styling
-    6.3 Alternative ways to specify styling properties
-    6.4 Specifying properties using the presentation attributes
-    6.5 Styling with XSL
-    6.6 Styling with CSS
-    6.7 Case sensitivity of property names and values
-    6.8 Facilities from CSS and XSL used by SVG
-    6.9 Referencing external style sheets
-    6.10 The 'style' element
-    6.11 The 'class' attribute
-    6.12 The 'style' attribute
-    6.13 Specifying the default style sheet language
-    6.14 Property inheritance
-    6.15 The scope/range of styles
-    6.16 User agent style sheet
-    6.17 Aural style sheets
--->
-
-<!--
-    5.2 Grouping: the 'g' element
-        5.2.1 Overview
-        5.2.2 The 'g' element
-
- 7 Coordinate Systems, Transformations and Units
-    7.1 Introduction
-    7.2 The initial viewport
-    7.3 The initial coordinate system
-    7.4 Coordinate system transformations
-    7.5 Nested transformations
-    7.6 The 'transform' attribute
-    7.7 The 'viewBox' attribute
-    7.8 The 'preserveAspectRatio' attribute
-    7.9 Establishing a new viewport
-    7.10 Units
-    7.11 Object bounding box units
-    7.12 Intrinsic sizing properties of the viewport of SVG content
-    7.13 Geographic coordinate systems
-    7.14 The 'svg:transform' attribute
 -->
 
 ==Deploying SVG==
@@ -619,21 +658,25 @@ the tag's '''requiredExtensions''' attribute. If not, it uses fallback
 
 <!--
 
-Crap, no D&D:
-http://www.vectomatic.org/svg/support-for-native-drag-and-drop
+ 7 Coordinate Systems, Transformations and Units
+    7.1 Introduction
+    7.2 The initial viewport
+    7.3 The initial coordinate system
+    7.4 Coordinate system transformations
+    7.5 Nested transformations
+    7.6 The 'transform' attribute
+    7.7 The 'viewBox' attribute
+    7.8 The 'preserveAspectRatio' attribute
+    7.9 Establishing a new viewport
+    7.10 Units
+    7.11 Object bounding box units
+    7.12 Intrinsic sizing properties of the viewport of SVG content
+    7.13 Geographic coordinate systems
+    7.14 The 'svg:transform' attribute
 
-drawing surface.
-    5.1 Defining an SVG document fragment: the 'svg' element
-        5.1.1 Overview
-        5.1.2 The 'svg' element
-
-
- 5 Document Structure
-    5.3 Defining content for reuse, and the 'defs' element
-        5.3.1 Overview
-        5.3.2 The 'defs' element
-    5.4 The 'desc' and 'title' elements
     5.5 The 'symbol' element
+ 
+ 5 Document Structure
     5.6 The 'use' element
     5.8 Conditional processing
         5.8.1 Conditional processing overview
@@ -642,49 +685,7 @@ drawing surface.
         5.8.4 The 'requiredExtensions' attribute
         5.8.5 The 'systemLanguage' attribute
         5.8.6 Applicability of test attributes
-    5.9 Specifying whether external resources are required for proper rendering
-    5.10 Common attributes
-        5.10.1 Attributes common to all elements: 'id' and 'xml:base'
-        5.10.2 The 'xml:lang' and 'xml:space' attributes
-
- 21 Metadata
-    21.1 Introduction
     21.2 The 'metadata' element
-    21.3 An example
-
- 22 Backwards Compatibility
-
- 1 Introduction
-    1.1 About SVG
-    1.2 SVG MIME type, file name extension and Macintosh file type
-    1.3 SVG Namespace, Public Identifier and System Identifier
-    1.4 Compatibility with Other Standards Efforts
-    1.5 Terminology
-    1.6 Definitions
-
- 2 Concepts
-    2.1 Explaining the name: SVG
-    2.2 Important SVG concepts
-    2.3 Options for using SVG in Web pages
-
- 3 Rendering Model
-    3.1 Introduction
-    3.2 The painters model
-    3.3 Rendering Order
-    3.4 How groups are rendered
-    3.5 How elements are rendered
-    3.6 Types of graphics elements
-        3.6.1 Painting shapes and text
-        3.6.2 Painting raster images
-    3.7 Filtering painted regions
-    3.8 Clipping, masking and object opacity
-    3.9 Parent Compositing
-
- 4 Basic Data Types and Interfaces
-    4.1 Syntax
-    4.2 Basic data types
-    4.3 Real number precision
-    4.4 Recognized color keyword names
 
     11.5 Controlling visibility
 
