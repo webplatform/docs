@@ -437,15 +437,27 @@ the ''eyeball'' object you want to move:
         dur            = "0.5s"
         from           = "0 0"
         to             = "50 0"
-        calcMode       = "paced"
-        restart        = "whenNotActive"
     />
 </circle>
 </syntaxhighlight>
 
-trans2...
+Let's run down what each attribute does:
 
-<syntaxhighlight lang="xml">
+* '''attributeType''' clarifies that the value we're manipulating is an ''XML'' attribute, not a ''CSS'' property.
+
+* '''attributeName''' provides the name of the attribute to modify, ''transform'' in this case.
+
+* Since a transform can specify combinations of functions, the '''type''' attribute clarifies which function to manipulate, ''translate'' in this case.
+
+* '''begin''' specifies a delay after which the animation executes, in this case 1 second. A begin value of ''0s'' animates immediately. (If you leave out this attribute, the animation does not play by default, but you can make it play with JavaScript as described below.)
+
+* '''dur''' specifies the animation's duration, half a second in this case.
+
+* '''from''' and '''to''' provide the values between which the animation should transition. In this case, it moves it 50 units to the right.
+
+Now that the 
+
+<syntaxhighlight lang="xml" highlight="13-22">
 <circle id="eyeball" transform="translate(0,0)" cx="100" cy="100"
         r="150" fill="url(#eyeballFill)">
     <animateTransform
@@ -457,8 +469,6 @@ trans2...
         dur            = "0.5s"
         from           = "0 0"
         to             = "50 0"
-        calcMode       = "paced"
-        restart        = "whenNotActive"
     />
     <animateTransform
         id             = "glanceEnd"
@@ -469,8 +479,6 @@ trans2...
         dur            = "0.5s"
         from           = "50 0"
         to             = "0 0"
-        calcMode       = "paced"
-        restart        = "whenNotActive"
     />
 </circle>
 </syntaxhighlight>
