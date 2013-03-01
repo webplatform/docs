@@ -312,9 +312,7 @@ lighten it, and space it out:
 </text>
 </syntaxhighlight>
 
-[[Image:svg_overview_eyeball_eyelashes.png]]
-
-!!!
+Add the eyelashes to the consolidated ''eye'' object:
 
 <syntaxhighlight lang="xml">
 <g id="eye">
@@ -323,6 +321,8 @@ lighten it, and space it out:
   <use xlink:href="#eyelashes" />
 </g>
 </syntaxhighlight>
+
+[[Image:svg_overview_eyeball_eyelashes.png]]
 
 ==Applying eyeliner==
 
