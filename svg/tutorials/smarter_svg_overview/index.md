@@ -378,11 +378,11 @@ the eyelashes:
 
 It needs to be applied again separately to the eyelids:
 
-<syntaxhighlight lang="xml">
+<syntaxhighlight lang="xml" highlight="4">
 <path
-    filter       = "url(#soften)"
     id           = "eyelids"
     d            = "M 200,100 Q 100,200 0,100 Q 100,0 200,100"
+    filter       = "url(#soften)"
     fill         = "transparent"
     stroke       = "#aaa"
     stroke-width = "2"
