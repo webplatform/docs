@@ -91,7 +91,7 @@ eyeball's series of concentric rings:
 [[Image:svg_overview_eyeball_fill.png]]
 
 The '''circle''' tag's '''fill''' attribute references the '''id''' of
-the '''radialGradient'''. The various nested '''stop''' tags define
+the '''radialGradient'''.  The various nested '''stop''' tags define
 fairly abrupt gradations from the center to the edge&mdash;from black
 to blue and then to white&mdash;followed by a more gradual transition
 to pink around the edge of the circle.
@@ -177,7 +177,7 @@ out. Instead, place this line outside the '''defs''' region:
 <use xlink:href = "#eyeball"/>
 </syntaxhighlight>
 
-This serves as a pointer to the eyeball graphic. It's a ''deep''
+This serves as a pointer to the eyeball graphic.  It's a ''deep''
 reference, not just a copy. That means any changes made to the
 '''circle''' or '''radialGradient''' within the '''defs''' appears
 dynamically. Still, the '''use''' tag allows you to add attributes or
@@ -449,17 +449,23 @@ Let's run down what each attribute does:
 
 * Since a transform can specify combinations of functions, the '''type''' attribute clarifies which function to manipulate, ''translate'' in this case.
 
-* '''begin''' specifies a delay after which the animation executes, in this case 1 second. A begin value of ''0s'' animates immediately. (If you leave out this attribute, the animation does not play by default, but you can make it play with JavaScript as described below.)
+* '''begin''' specifies a delay after which the animation executes, in this case 1 second. A begin value of ''0s'' animates immediately. (If you leave out this attribute, the animation does not play by default, but you can use JavaScript to make it play as described below.)
 
 * '''dur''' specifies the animation's duration, half a second in this case.
 
 * '''from''' and '''to''' provide the values between which the animation should transition. In this case, it moves it 50 units to the right.
 
-As it appears above, the animation moves the eyes to the right:
+As it appears above, the animation moves the eyes to the right, then
+immediately snaps back:
 
 [[Image:svg_overview_eyeball_glance.png]]
 
-Now that the
+There's an attribute called '''fill''', which is unfortunately named
+the same as the '''fill''' property that applies colors and
+gradients. Adding a '''fill''' attribute here and setting it to
+'''freeze''' would keep the eyes looking right after the animation
+ends.  But instead, we'll add another animation to return the eyes so
+that they look ahead:
 
 <syntaxhighlight lang="xml" highlight="19-20">
 <circle id="eyeball" transform="translate(0,0)" cx="100" cy="100"
@@ -486,6 +492,15 @@ Now that the
     />
 </circle>
 </syntaxhighlight>
+
+Aside from the values of '''from''' and '''to''' being inverted, note
+the '''begin''' time is expressed in terms of whenever the previous
+animation ends.  And yes, we have now seen three different ways to
+reference an SVG object:
+
+ * the ''id.attr'' notation above.
+ * SVG's '''xlink:href''', specifying a URL, external file, or anchor.
+ * CSS's '''url()''' function, which can be used for SVG's presentation attribute values.
 
 path...
 
