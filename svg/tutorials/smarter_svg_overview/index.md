@@ -17,10 +17,6 @@ graphic component can be styled through CSS, manipulated with
 JavaScript through core APIs, and can appear comfortably alongside
 HTML content.
 
-<div style="float:right;margin:12px">
-[[Image:scr_svg_eyes.png]]
-</div>
-
 This section of the guide shows how SVG is deployed along with other
 core web standards, with which you should already be familiar.  It
 highlights some notable differences, and provides a quick tour of many
@@ -28,6 +24,10 @@ SVG features that are covered in more detail in other sections. It
 focuses on the unique way you can build complex interactive graphics
 from reusable components, and how to flexibly resize them and place
 them within various drawing surfaces.
+
+<div style="float:right;margin:12px">
+[[Image:scr_svg_eyes.png]]
+</div>
 
 As part of a grand tour to get a feel for SVG markup, you'll stroll
 through an example that shows how to build a pair of eyes, and how to
