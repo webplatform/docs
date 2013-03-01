@@ -32,8 +32,7 @@ them within various drawing surfaces.
 As part of a grand tour to get a feel for SVG markup, you'll stroll
 through an example that shows how to build a pair of eyes, and how to
 move them around and make them blink.
-[http://letmespellitoutforyou.com/samples/svg_eyeball.html View the
-accompanying live demo here].
+[http://letmespellitoutforyou.com/samples/svg_eyeball.html View the accompanying live demo here].
 
 ==Defining the drawing area==
 
