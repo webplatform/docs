@@ -41,7 +41,8 @@ which allows you to flexibly apply CSS and JavaScript to both the SVG
 graphic and the HTML content. The basic markup looks like this, with
 an '''svg''' tag encapsulating the graphics:
 
-<syntaxhighlight lang="xml" highlight="7-10">
+<syntaxhighlight lang="html5" highlight="8-11">
+<!DOCTYPE html>
 <html>
 <head>
 <title>SVG grand tour demo</title>
@@ -150,7 +151,8 @@ to float behind a pair of eyelids. Before you build them, however, you
 should stash away the graphic components you've already defined. Add a
 '''defs''' region to the '''svg''':
 
-<syntaxhighlight lang="xml" highlight="10-12">
+<syntaxhighlight lang="html5" highlight="11-13">
+<!DOCTYPE html>
 <html>
 <head>
 <title>SVG grand tour demo</title>
@@ -576,7 +578,7 @@ function glanceTo(x,y) {
 }
 </syntaxhighlight>
 
-Enough?
+Enough, already?
 
 [[Image:svg_overview_eyeball_tired.png]]
 
