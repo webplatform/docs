@@ -498,9 +498,11 @@ the '''begin''' time is expressed in terms of whenever the previous
 animation ends.  And yes, we have now seen three different ways to
 reference an SVG object:
 
- * the ''id.attr'' notation above.
- * SVG's '''xlink:href''', specifying a URL, external file, or anchor.
- * CSS's '''url()''' function, which can be used for SVG's presentation attribute values.
+* the ''id.attr'' notation above.
+
+* SVG's '''xlink:href''', specifying a URL, external file, or anchor.
+
+* CSS's '''url()''' function, which can be used for SVG's presentation attribute values.
 
 
 
