@@ -348,9 +348,9 @@ pixels around, and '''feComponentTransfer''' darkens the result:
   <desc>soften eyelidand eyelashes</desc>
   <feGaussianBlur stdDeviation = "1 3" />
   <feComponentTransfer>
-      <feFuncR type="linear" slope="0.3"/>
-      <feFuncG type="linear" slope="0.3"/>
-      <feFuncB type="linear" slope="0.3"/>
+      <feFuncR type = "linear" slope = "0.3"/>
+      <feFuncG type = "linear" slope = "0.3"/>
+      <feFuncB type = "linear" slope = "0.3"/>
   </feComponentTransfer>
 </filter>
 </syntaxhighlight>
