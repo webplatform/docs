@@ -1,6 +1,13 @@
 {{Page_Title|Using device orientation}}
 {{Flags
 |High-level issues=Needs Flags
+|Content=Outdated
+|Editorial notes={{Editorial|
+| Firefox has now convered to the same deviceorientation as others; there are new incompatibilities issues to document though http://lists.w3.org/Archives/Public/public-geolocation/2012Jun/0000.html
+| type=
+| High-level flags=
+| Content flags=Outdated
+}}
 }}
 {{Byline
 |Name=Pete LePage
@@ -379,8 +386,10 @@ Here are a few other resources and demos you can check out that use the HTML5 de
 
 [http://petelepage.com/scratch/pong/ Pong] An experiment to try out device orientation in gaming.
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Feature=Device orientation events
 |Chrome_supported=Yes
@@ -410,18 +419,27 @@ Here are a few other resources and demos you can check out that use the HTML5 de
 |Android_version=3.0
 |Android_prefixed_supported=Unknown
 |Android_prefixed_version=
-|Firefox_mobile_supported=Unknown
-|Firefox_mobile_version=
+|Blackberry_supported=Unknown
+|Blackberry_version=
+|Blackberry_prefixed_supported=Unknown
+|Blackberry_prefixed_version=
+|Chrome_mobile_supported=Yes
+|Chrome_mobile_prefixed_supported=Unknown
+|Chrome_mobile_prefixed_version=
+|Firefox_mobile_supported=Yes
 |Firefox_mobile_prefixed_supported=Unknown
 |Firefox_mobile_prefixed_version=
-|IE_phone_supported=Unknown
-|IE_phone_version=
-|IE_phone_prefixed_supported=Unknown
-|IE_phone_prefixed_version=
-|Opera_mobile_supported=No
-|Opera_mobile_version=
+|IE_mobile_supported=Unknown
+|IE_mobile_version=
+|IE_mobile_prefixed_supported=Unknown
+|IE_mobile_prefixed_version=
+|Opera_mobile_supported=Yes
 |Opera_mobile_prefixed_supported=Unknown
 |Opera_mobile_prefixed_version=
+|Opera_mini_supported=No
+|Opera_mini_version=
+|Opera_mini_prefixed_supported=Unknown
+|Opera_mini_prefixed_version=
 |Safari_mobile_supported=Yes
 |Safari_mobile_version=4.2
 |Safari_mobile_prefixed_supported=Unknown
@@ -430,7 +448,7 @@ Here are a few other resources and demos you can check out that use the HTML5 de
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|Mobile}}
+{{Topics|API, DOMEvents, Mobile}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=HTML5Rocks
