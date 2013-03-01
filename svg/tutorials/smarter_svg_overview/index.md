@@ -420,6 +420,7 @@ and color properties that apply to SVG. For example, here's a way to
 gradually change the eye color, by toggling between the gradient color
 stops' ''blue'' and ''brown'' classes:
 
+<syntaxhighlight lang="css">
  .blue  { stop-color   : lightblue; }
  .brown { stop-color   : brown; }
  stop {
@@ -427,6 +428,7 @@ stops' ''blue'' and ''brown'' classes:
     -webkit-transition : all 5s;
     -moz-transition    : all 5s;
  }
+</syntaxhighlight>
 
 You can't use that familiar approach for SVG attributes.  SVG has its
 own mechanism (based on the ''SMIL'' standard) to animate attribute
@@ -552,8 +554,16 @@ like this:
 
 [[Image:svg_overview_eyeball_blink.png]]
 
-You can 
+You can use JavaScript to control these animations more flexibly. To
+do so, call the '''beginElement()''' method on the animation object.
+This allows a script to blink the eyes at any point:
 
+<syntaxhighlight lang="javascript">
+function blink() {
+    document.querySelector('#blink').beginElement();
+}
+
+</syntaxhighlight>
 
 <span onclick="app.blink.beginElement()">replay blink</span>
 <span onclick="app.glanceStart.beginElement()">replay glance</span>
@@ -564,7 +574,7 @@ You can
 
 ...
 
-<syntaxhighlight lang="xml"></syntaxhighlight>
+
 <syntaxhighlight lang="xml"></syntaxhighlight>
 <syntaxhighlight lang="xml"></syntaxhighlight>
 
