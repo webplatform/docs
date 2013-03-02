@@ -3,14 +3,18 @@
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Sets or retrieves the maximum height for an element.}}
+{{Summary_Section|Sets the maximum height for an element. It limits the height property to be larger than the value specified in max-height.}}
 {{CSS Property
-|Applies to=All elements
+|Initial value=none
+|Applies to=all elements but non-replaced inline elements, table columns, and column groups
 |Inherited=No
 |Media=visual
-|Animatable=No
+|Computed value=the percentage as specified or the absolute length or 'none'
+|Animatable=Yes
+|CSS object model property=max-height
+|CSS percentages=refer to height of containing block
 |Values={{CSS Property Value
 |Data Type=length
 |Description=Floating-point number followed by an absolute units designator (<code>cm</code>, <code>mm</code>, <code>in</code>, <code>pt</code>, or <code>pc</code>) or a relative units designator (<code>em</code>, <code>ex</code>, or <code>px</code>). For more information about the supported length units, see CSS Values and Units Reference.
