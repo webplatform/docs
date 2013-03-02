@@ -32,44 +32,44 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=CSS
+|Code=/* Restrict all div elements to a max-height of 10px */
+div { max-height: 10px }
+}}{{Single Example
 |Language=HTML
-|Description=The example shows a div element with and without a max height property applied.
-|Code=&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"&gt;
-&lt;html&gt;
-&lt;head&gt;
-&lt;style&gt;
-.height {
-    float:left;
-    width:300px;
-    background:#fff;
-    margin:0 1em;
+|Description=Div elements with and without max-height applied (Only the relevant section of the page)
+|Code=<style>
+.with-max-height-percentage, .with-max-height {
+    background: cyan;
+    max-height: 50px;
 }
-#example1 { min-height:200px; }
-#example2 { max-height:100px; }
-.content {
-    border:1px solid #c00;
-    padding:5px;
+.without-max-height, .with-max-height {
+    height: 100px;
+    width: 100px;
 }
-&lt;/style&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;div class{{=}}"height" id{{=}}"example1"&gt;
-&lt;div class{{=}}"content"&gt;
-    &lt;h2&gt;{ min-height:200px }&lt;/h2&gt;
-    &lt;p&gt;The height of this div is always at least 200px.&lt;br/&gt;&lt;br/&gt;
-        The content does not fill the entire div.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class{{=}}"height" id{{=}}"example2"&gt;
-&lt;div class{{=}}"content"&gt;
-    &lt;h2&gt;{ max-height:100px }&lt;/h2&gt;
-    &lt;p&gt;This div will not grow more than 100px in height.&lt;br/&gt;&lt;br/&gt;
-        The content that does not fit in the div continues beyond it.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/minHeight7.htm
+.without-max-height-percentage, .with-max-height-percentage {
+    width: 100px;
+    height: 50%;
+}
+.parent {
+    background: #DDD;
+    width: 100px;
+    height: 200px;
+}
+.without-max-height-percentage, .without-max-height {
+    background: red;
+}
+</style>
+<div class="without-max-height">Without Max Height</div>
+<br>
+<div class="with-max-height">With Max Height.</div>
+<br>
+<div class="parent">
+    <div class="without-max-height-percentage">Without Max Height Percent</div>
+    <br>
+    <div class="with-max-height-percentage">With Max Height Percent. If the content is greater than the div, it will overflow outside the div. </div>
+</div>
+|LiveURL=http://jsfiddle.net/atishay811/DWzrW/
 }}
 }}
 {{Notes_Section
