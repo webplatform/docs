@@ -1,9 +1,9 @@
-{{Page_Title}}
+{{Page_Title|CSS max-height Property}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|Sets the maximum [[css/properties/height|height]] for an element. It prevents the height of the element to exceed the specified value. If [[css/properties/min-height|min-height]] is specified and is greater than max-height, max-height is overridden.}}
 {{CSS Property
@@ -29,7 +29,7 @@
 |Description=Takes the same specified value as the property for the element's parent.
 }}{{CSS Property Value
 |Data Type=none
-|Description=Clears the max-height value. The height property can have any value.
+|Description=Default. Clears the max-height value. The height property can have any value.
 }}{{CSS Property Value
 |Data Type=max-content
 |Description=The narrowest space a box could take while fitting around its contents if none of the soft wrap opportunities within the box were taken.(Space/Punctuation in text are examples of a soft-wrap opportunity). Requires CSS Intrinsic & Extrinsic Sizing Module support in browsers.
@@ -74,7 +74,12 @@ div { max-height: 10px }
 |LiveURL=http://code.webplatform.org/gist/5070850
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=CSS max height is well supported across most browsers. A few things to consider while usage:
+* [css/properties/min-height min-height] overrides max-height. If min-height supplied is greater than max-height, max-height does not have an impact.
+* max-content, min-content, fit-content, and fill-available are in W3C draft stage and not supported across all browsers.
+* Support for [css/functions/calc calc] is better across browsers. Vendor prefixes may be needed.
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS 2.1 (Section 10.7)
