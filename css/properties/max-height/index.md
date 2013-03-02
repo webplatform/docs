@@ -75,9 +75,9 @@ div { max-height: 10px }
 }}
 {{Notes_Section
 |Usage=CSS max height is well supported across most browsers. A few things to consider while usage:
-* [css/properties/min-height min-height] overrides max-height. If min-height supplied is greater than max-height, max-height does not have an impact.
+* [[css/properties/min-height|min-height]] overrides max-height. If min-height supplied is greater than max-height, max-height does not have an impact.
 * max-content, min-content, fit-content, and fill-available are in W3C draft stage and not supported across all browsers.
-* Support for [css/functions/calc calc] is better across browsers. Vendor prefixes may be needed.
+* Support for [[css/functions/calc|calc]] is better across browsers. Vendor prefixes may be needed.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
