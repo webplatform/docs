@@ -3,12 +3,12 @@
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|W3C Recommendation}}
+{{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Sets the maximum height for an element. It limits the height property to be larger than the value specified in max-height.}}
+{{Summary_Section|Sets the maximum height for an element. It prevents the height of the element to exceed the specified value. If min-height is specified and is greater than max-height, this value is overridden.}}
 {{CSS Property
 |Initial value=none
-|Applies to=all elements but non-replaced inline elements, table columns, and column groups
+|Applies to=All elements but non-replaced inline elements, table columns, and column groups
 |Inherited=No
 |Media=visual
 |Computed value=the percentage as specified or the absolute length or 'none'
@@ -17,10 +17,16 @@
 |CSS percentages=refer to height of containing block
 |Values={{CSS Property Value
 |Data Type=length
-|Description=Floating-point number followed by an absolute units designator (<code>cm</code>, <code>mm</code>, <code>in</code>, <code>pt</code>, or <code>pc</code>) or a relative units designator (<code>em</code>, <code>ex</code>, or <code>px</code>). For more information about the supported length units, see CSS Values and Units Reference.
+|Description=Specifies a fixed height. See [http://docs.webplatform.org/wiki/css/units/length length] for possible units.
 }}{{CSS Property Value
 |Data Type=percentage
-|Description=Integer followed by a % that specifies a percentage of the containing block height to use as the maximum height of the element.  If the height of the containing block is not explicitly set, then the element has no maximum height and the  '''max-height''' property is interpreted as 0%. For more information on containing blocks and how their heights are computed, see the [http://go.microsoft.com/fwlink/p/?linkid{{=}}203760 Cascading Style Sheets, Level 2.1 (CSS2.1)] specification.
+|Description=A <percentage> relative to the height of the containing block. If the containing block has no height explicitly set, then the element has no maximum height and the  '''max-height''' property is interpreted as 0%.
+}}{{CSS Property Value
+|Data Type=inherit
+|Description=Takes the same specified value as the property for the element's parent.
+}}{{CSS Property Value
+|Data Type=none
+|Description=Clears the max-height value. The height property can have any value.
 }}
 }}
 {{Examples_Section
