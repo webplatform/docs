@@ -76,13 +76,7 @@
 '''max-height''' was introduced in Windows Internet Explorer 7.
 The [[css/properties/min-height|'''min-height''']]/'''max-height''' attributes apply to floating and absolutely positioned block and inline-block elements, as well as some intrinsic controls. They do not apply to non-replaced inline elements, such as table columns and row/column groups. (A "replaced" element has intrinsic dimensions, such as an '''img''' or '''textArea'''.)
 This property is enabled only under the strict [[html/elements/!DOCTYPE|!DOCTYPE]].
-|Import_Notes====Syntax===
-<code>'''max-height: '''''
-&lt;length&gt;
-'' '''{{!}}''' ''
-&lt;percentage&gt;
-''</code>
-===Standards information===
+|Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 10.7
 }}
 {{Related_Specifications_Section
