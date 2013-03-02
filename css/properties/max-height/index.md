@@ -32,7 +32,8 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=The following example shows how the [[css/properties/min-height|'''min-height''']] and '''max-height''' attributes affect the layout of a '''div''' element. The example requires Internet Explorer 7 or later to view.
+|Language=HTML
+|Description=The example shows a div element with and without a max height property applied.
 |Code=&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"&gt;
 &lt;html&gt;
 &lt;head&gt;
