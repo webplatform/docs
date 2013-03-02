@@ -22,6 +22,9 @@
 |Data Type=percentage
 |Description=A <percentage> relative to the height of the containing block. If the containing block has no height explicitly set then is is treated as none. Negative values are not allowed.
 }}{{CSS Property Value
+|Data Type=calc()
+|Description=See [[css/functions/calc|CSS calc function]] for mode details.
+}}{{CSS Property Value
 |Data Type=inherit
 |Description=Takes the same specified value as the property for the element's parent.
 }}{{CSS Property Value
