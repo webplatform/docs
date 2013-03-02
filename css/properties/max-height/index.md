@@ -33,31 +33,29 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
+|Description=Use max-height with any CSS selector to apply it.
 |Code=/* Restrict all div elements to a max-height of 10px */
 div { max-height: 10px }
 }}{{Single Example
 |Language=HTML
-|Description=Div elements with and without max-height applied (Only the relevant section of the page)
-|Code=<style>
+|Description=max-height property overrides the height of an element.
+|Code=&lt;style&gt;
 /*Default width. Height is based on the content*/
 .without-max-height, .with-max-height {
     width: 100px;
 }
-
 /*Max height overrides height*/
 .with-max-height {
     background: cyan;
     max-height: 50px;
 }
-
 .without-max-height {
 	background: red;
 }
-</style>
-<div class="without-max-height">Without Max Height. Height taken from content</div>
-<br>
-<div class="with-max-height">With Max Height. Content may overflow if it goes beyond height.</div>
-<br>
+&lt;/style&gt;
+&lt;div class=&quot;without-max-height&quot;&gt;Without Max Height. Height taken from content&lt;/div&gt;
+&lt;br&gt;
+&lt;div class=&quot;with-max-height&quot;&gt;With Max Height. Content may overflow if it goes beyond height.&lt;/div&gt;
 |LiveURL=http://code.webplatform.org/gist/5070850
 }}
 }}
