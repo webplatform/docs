@@ -62,12 +62,7 @@ div { max-height: 10px }
 |LiveURL=http://code.webplatform.org/gist/5070850
 }}
 }}
-{{Notes_Section
-|Notes====Remarks===
-'''max-height''' was introduced in Windows Internet Explorer 7.
-The [[css/properties/min-height|'''min-height''']]/'''max-height''' attributes apply to floating and absolutely positioned block and inline-block elements, as well as some intrinsic controls. They do not apply to non-replaced inline elements, such as table columns and row/column groups. (A "replaced" element has intrinsic dimensions, such as an '''img''' or '''textArea'''.)
-This property is enabled only under the strict [[html/elements/!DOCTYPE|!DOCTYPE]].
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS 2.1 (Section 10.7)
@@ -176,12 +171,11 @@ This property is enabled only under the strict [[html/elements/!DOCTYPE|!DOCTYPE
 }}
 {{See_Also_Section
 |Topic_clusters=Box Model
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-*<code>Cascading Style Sheet Compatibility in Internet Explorer 7</code>
+|External_links=* [http://www.w3.org/wiki/CSS/Properties/max-height W3C Wiki]
+* [http://msdn.microsoft.com/en-in/library/ie/ms530809(v=vs.85).aspx Internet Explorer Docs]
+* [https://developer.mozilla.org/en-US/docs/CSS/max-height Firefox Docs]
+* [https://developer.apple.com/library/safari/#documentation/AppleApplications/Reference/SafariCSSRef/Articles/StandardCSSProperties.html#//apple_ref/css/property/max-height Safari Docs]
+*[http://caniuse.com/#feat=minmaxwh Can I Use]
 }}
 {{Topics|CSS}}
 {{External_Attribution
