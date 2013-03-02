@@ -4,7 +4,7 @@
 
 Nuestros conceptos web generales son artículos teóricos y tutoriales que abarcan temas generales relacionados con la web y el diseño y desarrollo web, como por ejemplo:  cómo funciona la Internet, arquitectura de la información,  tipografía y diseño web. Estos no están directamente vinculados con tecnologías y técnicas específicas tratadas en los otros temas principales del sitio, pero inevitablemente harán referencia a tales tecnologías, por ejemplo, el diseño web responsivo implica HTML, CSS, JavaScript, etc.
 
-==Explora nuestros documentos sobre conceptos web generales==
+== Explora nuestros documentos sobre conceptos web generales ==
 
 <div class="topic-container">
 
@@ -15,7 +15,7 @@ Nuestros conceptos web generales son artículos teóricos y tutoriales que abarc
     
     <div class="inner">
      <h3>[[concepts/internet and web|Internet y la Web]]</h3>
-     
+
     <p>Temas relacionados con el funcionamiento de alto nivel de la Internet y la Web, tales como fundamentos y protocolos de comunicación.</p>
     </div>
   
