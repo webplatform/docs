@@ -11,16 +11,16 @@
 |Applies to=All elements but non-replaced inline elements, table columns, and column groups
 |Inherited=No
 |Media=visual
-|Computed value=the percentage as specified or the absolute length or 'none'
+|Computed value=The percentage as specified or the absolute length or 'none'
 |Animatable=Yes
 |CSS object model property=max-height
 |CSS percentages=refer to height of containing block
 |Values={{CSS Property Value
 |Data Type=length
-|Description=Specifies a fixed height. See [http://docs.webplatform.org/wiki/css/units/length length] for possible units.
+|Description=Specifies a fixed height. Negative values are not allowed. See [http://docs.webplatform.org/wiki/css/units/length length] for possible units.
 }}{{CSS Property Value
 |Data Type=percentage
-|Description=A <percentage> relative to the height of the containing block. If the containing block has no height explicitly set, then the element has no maximum height and the  '''max-height''' property is interpreted as 0%.
+|Description=A <percentage> relative to the height of the containing block. If the containing block has no height explicitly set then is is treated as none.
 }}{{CSS Property Value
 |Data Type=inherit
 |Description=Takes the same specified value as the property for the element's parent.
