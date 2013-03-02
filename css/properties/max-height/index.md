@@ -39,37 +39,26 @@ div { max-height: 10px }
 |Language=HTML
 |Description=Div elements with and without max-height applied (Only the relevant section of the page)
 |Code=<style>
-.with-max-height-percentage, .with-max-height {
+/*Default width. Height is based on the content*/
+.without-max-height, .with-max-height {
+    width: 100px;
+}
+
+/*Max height overrides height*/
+.with-max-height {
     background: cyan;
     max-height: 50px;
 }
-.without-max-height, .with-max-height {
-    height: 100px;
-    width: 100px;
-}
-.without-max-height-percentage, .with-max-height-percentage {
-    width: 100px;
-    height: 50%;
-}
-.parent {
-    background: #DDD;
-    width: 100px;
-    height: 200px;
-}
-.without-max-height-percentage, .without-max-height {
-    background: red;
+
+.without-max-height {
+	background: red;
 }
 </style>
-<div class="without-max-height">Without Max Height</div>
+<div class="without-max-height">Without Max Height. Height taken from content</div>
 <br>
-<div class="with-max-height">With Max Height.</div>
+<div class="with-max-height">With Max Height. Content may overflow if it goes beyond height.</div>
 <br>
-<div class="parent">
-    <div class="without-max-height-percentage">Without Max Height Percent</div>
-    <br>
-    <div class="with-max-height-percentage">With Max Height Percent. If the content is greater than the div, it will overflow outside the div. </div>
-</div>
-|LiveURL=http://jsfiddle.net/atishay811/DWzrW/
+|LiveURL=http://code.webplatform.org/gist/5070850
 }}
 }}
 {{Notes_Section
