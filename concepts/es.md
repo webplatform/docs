@@ -10,8 +10,7 @@ Nuestros conceptos web generales son artículos teóricos y tutoriales que abarc
 
   <div class="long-topic">
   
-    <div class="image icon-concept"></div>
-    
+    <div class="image icon-concept"></div>    
     
     <div class="inner">
      <h3>[[concepts/internet and web|Internet y la Web]]</h3>
