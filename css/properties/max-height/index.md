@@ -1,4 +1,4 @@
-{{Page_Title|CSS max-height Property}}
+{{Page_Title}}
 {{Flags
 |Content=Compatibility Incomplete, Examples Best Practices
 }}
