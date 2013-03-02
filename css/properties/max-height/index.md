@@ -30,6 +30,18 @@
 }}{{CSS Property Value
 |Data Type=none
 |Description=Clears the max-height value. The height property can have any value.
+}}{{CSS Property Value
+|Data Type=max-content
+|Description=The narrowest space a box could take while fitting around its contents if none of the soft wrap opportunities within the box were taken.(Space/Punctuation in text are examples of a soft-wrap opportunity). Requires CSS Intrinsic & Extrinsic Sizing Module support in browsers.
+}}{{CSS Property Value
+|Data Type=min-content
+|Description=The narrowest measure a box could take that doesn't lead to inline-dimension overflow that could be avoided by choosing a larger measure. Roughly, the measure that would fit around its contents if all soft wrap opportunities within the box were taken. Requires CSS Intrinsic & Extrinsic Sizing Module support in browsers.
+}}{{CSS Property Value
+|Data Type=fill-available
+|Description=Fill the entire available space of from the containing block (Height minus horizontal margin, border and padding of the containing block). Requires CSS Intrinsic & Extrinsic Sizing Module support in browsers.
+}}{{CSS Property Value
+|Data Type=fit-content
+|Description=If the total available space is finite, equals to min(max-content, max(min-content, fill-available)). Otherwise, equal to the max-content measure. Requires CSS Intrinsic & Extrinsic Sizing Module support in browsers.
 }}
 }}
 {{Examples_Section
@@ -132,11 +144,11 @@ div { max-height: 10px }
 |Blackberry_prefixed_supported=Unknown
 |Blackberry_prefixed_version=
 |Chrome_mobile_supported=Yes
-|Chrome_mobile_version=0
+|Chrome_mobile_version=1
 |Chrome_mobile_prefixed_supported=Unknown
 |Chrome_mobile_prefixed_version=
 |Firefox_mobile_supported=Yes
-|Firefox_mobile_version=0
+|Firefox_mobile_version=1
 |Firefox_mobile_prefixed_supported=Unknown
 |Firefox_mobile_prefixed_version=
 |IE_mobile_supported=Unknown
