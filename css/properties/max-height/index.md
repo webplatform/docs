@@ -71,7 +71,16 @@ This property is enabled only under the strict [[html/elements/!DOCTYPE|!DOCTYPE
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 10.7
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS 2.1 (Section 10.7)
+|URL=http://www.w3.org/TR/CSS2/visudet.html#min-max-heights
+|Status=W3C Recommendation
+}}{{Related Specification
+|Name=CSS Intrinsic & Extrinsic Sizing Module Level 3
+|URL=http://dev.w3.org/csswg/css3-sizing/#width-height-keywords
+|Status=Working Draft
+|Relevant_changes=Adds max-content, min-content, fit-content, and fill-available.
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
