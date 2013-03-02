@@ -23,7 +23,7 @@
 |Description=A <percentage> relative to the height of the containing block. If the containing block has no height explicitly set then is is treated as none. Negative values are not allowed.
 }}{{CSS Property Value
 |Data Type=calc()
-|Description=See [[css/functions/calc|CSS calc function]] for mode details.
+|Description=See [[css/functions/calc|css calc function]] for mode details.
 }}{{CSS Property Value
 |Data Type=inherit
 |Description=Takes the same specified value as the property for the element's parent.
@@ -161,7 +161,18 @@ This property is enabled only under the strict [[html/elements/!DOCTYPE|!DOCTYPE
 |Safari_mobile_prefixed_supported=Unknown
 |Safari_mobile_prefixed_version=
 }}
-|Notes_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=7/8
+|Note='inherit' is not supported in IE7. IE8 requires strict !DOCTYPE for 'inherit'
+}}{{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=7/8
+|Note=Known bugs when used along overflow: auto/scroll.
+}}{{Compatibility Notes Row
+|Browser=Chrome/Safari
+|Note=Support intrinsic(max-content) & min-intrinsic(min-content)
+}}
 }}
 {{See_Also_Section
 |Topic_clusters=Box Model
