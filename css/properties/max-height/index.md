@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Sets the maximum height for an element. It prevents the height of the element to exceed the specified value. If min-height is specified and is greater than max-height, this value is overridden.}}
+{{Summary_Section|Sets the maximum [[css/properties/height|height]] for an element. It prevents the height of the element to exceed the specified value. If [[css/properties/min-height|min-height]] is specified and is greater than max-height, max-height is overridden.}}
 {{CSS Property
 |Initial value=none
 |Applies to=All elements but non-replaced inline elements, table columns, and column groups
@@ -17,10 +17,10 @@
 |CSS percentages=refer to height of containing block
 |Values={{CSS Property Value
 |Data Type=length
-|Description=Specifies a fixed height. Negative values are not allowed. See [http://docs.webplatform.org/wiki/css/units/length length] for possible units.
+|Description=Specifies a fixed height. Negative values are not allowed. See [[css/units/length|length]] for possible units.
 }}{{CSS Property Value
 |Data Type=percentage
-|Description=A <percentage> relative to the height of the containing block. If the containing block has no height explicitly set then is is treated as none.
+|Description=A <percentage> relative to the height of the containing block. If the containing block has no height explicitly set then is is treated as none. Negative values are not allowed.
 }}{{CSS Property Value
 |Data Type=inherit
 |Description=Takes the same specified value as the property for the element's parent.
