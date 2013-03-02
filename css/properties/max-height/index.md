@@ -67,8 +67,6 @@ div { max-height: 10px }
 '''max-height''' was introduced in Windows Internet Explorer 7.
 The [[css/properties/min-height|'''min-height''']]/'''max-height''' attributes apply to floating and absolutely positioned block and inline-block elements, as well as some intrinsic controls. They do not apply to non-replaced inline elements, such as table columns and row/column groups. (A "replaced" element has intrinsic dimensions, such as an '''img''' or '''textArea'''.)
 This property is enabled only under the strict [[html/elements/!DOCTYPE|!DOCTYPE]].
-|Import_Notes====Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 10.7
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -85,8 +83,84 @@ This property is enabled only under the strict [[html/elements/!DOCTYPE|!DOCTYPE
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
+|Desktop_rows={{Compatibility Table Desktop Row
+|Chrome_supported=Yes
+|Chrome_version=4
+|Chrome_prefixed_supported=Unknown
+|Chrome_prefixed_version=
+|Firefox_supported=Yes
+|Firefox_version=2
+|Firefox_prefixed_supported=Unknown
+|Firefox_prefixed_version=
+|Internet_explorer_supported=Yes
+|Internet_explorer_version=7
+|Internet_explorer_prefixed_supported=Unknown
+|Internet_explorer_prefixed_version=
+|Opera_supported=Yes
+|Opera_version=9
+|Opera_prefixed_supported=Unknown
+|Opera_prefixed_version=
+|Safari_supported=Yes
+|Safari_version=3.1
+|Safari_prefixed_supported=Unknown
+|Safari_prefixed_version=
+}}{{Compatibility Table Desktop Row
+|Feature=CSS Intrinsic & Extrinsic Sizing.
+|Chrome_supported=Unknown
+|Chrome_version=
+|Chrome_prefixed_supported=Unknown
+|Chrome_prefixed_version=
+|Firefox_supported=Unknown
+|Firefox_version=
+|Firefox_prefixed_supported=Yes
+|Firefox_prefixed_version=3
+|Internet_explorer_supported=Unknown
+|Internet_explorer_version=
+|Internet_explorer_prefixed_supported=Unknown
+|Internet_explorer_prefixed_version=
+|Opera_supported=Unknown
+|Opera_version=
+|Opera_prefixed_supported=Unknown
+|Opera_prefixed_version=
+|Safari_supported=Unknown
+|Safari_version=
+|Safari_prefixed_supported=Unknown
+|Safari_prefixed_version=
+}}
+|Mobile_rows={{Compatibility Table Mobile Row
+|Android_supported=Yes
+|Android_version=2
+|Android_prefixed_supported=Unknown
+|Android_prefixed_version=
+|Blackberry_supported=Yes
+|Blackberry_version=7
+|Blackberry_prefixed_supported=Unknown
+|Blackberry_prefixed_version=
+|Chrome_mobile_supported=Yes
+|Chrome_mobile_version=0
+|Chrome_mobile_prefixed_supported=Unknown
+|Chrome_mobile_prefixed_version=
+|Firefox_mobile_supported=Yes
+|Firefox_mobile_version=0
+|Firefox_mobile_prefixed_supported=Unknown
+|Firefox_mobile_prefixed_version=
+|IE_mobile_supported=Unknown
+|IE_mobile_version=
+|IE_mobile_prefixed_supported=Unknown
+|IE_mobile_prefixed_version=
+|Opera_mobile_supported=Yes
+|Opera_mobile_version=10
+|Opera_mobile_prefixed_supported=Unknown
+|Opera_mobile_prefixed_version=
+|Opera_mini_supported=Yes
+|Opera_mini_version=5
+|Opera_mini_prefixed_supported=Unknown
+|Opera_mini_prefixed_version=
+|Safari_mobile_supported=Yes
+|Safari_mobile_version=3.2
+|Safari_mobile_prefixed_supported=Unknown
+|Safari_mobile_prefixed_version=
+}}
 |Notes_rows=
 }}
 {{See_Also_Section
