@@ -636,8 +636,8 @@ View the sample to see how the viewer is positioned within the display elements:
 ([http://letmespellitoutforyou.com/samples/trans_3d_virtual.html	View sample here])
 
 This example places an element randomly within a coordinate space, and rotates it to
-face the path to get there. When viewed on WebKit nightly builds that support custom
-CSS filters, something amusing happens along the way:
+face the path to travel there. When viewed on Canary and WebKit nightly builds that
+support custom CSS filters, something amusing happens along the way:
 
 [[Image:custom_filter_random_path.png]]
 
