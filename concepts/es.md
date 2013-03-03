@@ -102,4 +102,4 @@ Nuestros conceptos web generales son artículos teóricos y tutoriales que abarc
 <div class="clearfixboth"></div>
 
 
-Nota: Si eres completamente nuevo en el desarrollo web, puede que desees revisar [[beginners|Desarrollo web para principiantes]].
+Nota: Si eres completamente nuevo en el desarrollo web, puede que desees revisar [[beginners/es|Desarrollo web para principiantes]].
