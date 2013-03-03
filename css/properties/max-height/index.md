@@ -13,7 +13,7 @@
 |Computed value=The percentage as specified or the absolute length or 'none'
 |Animatable=Yes
 |CSS object model property=max-height
-|CSS percentages=refer to height of containing block
+|CSS percentages=Of the height of containing block. If the height of the containing block depends on the content & the element does not have position as absolute, then this value becomes 'none'.
 |Values={{CSS Property Value
 |Data Type=length
 |Description=Specifies a fixed height. Negative values are not allowed. See [[css/units/length|length]] for possible units.
