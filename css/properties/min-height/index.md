@@ -3,20 +3,32 @@
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Sets or retrieves the minimum height for an element.}}
+{{Summary_Section|Sets the minimum [[css/properties/height|height]] for an element. It prevents the height of the element to exceed the specified value.
+It overrides both the height & the max-height property if any them is specified below the min-height value.
+}}
 {{CSS Property
-|Applies to=All elements
+|Initial value=auto (0 for non-flex elements)
+|Applies to=All elements but non-replaced inline elements, table columns, and column groups
 |Inherited=No
 |Media=visual
-|Animatable=No
+|Computed value=The percentage as specified or the absolute length
+|Animatable=Yes
+|CSS object model property=min-height
+|CSS percentages=Of the height of containing block. If the height of the containing block depends on the content & the element does not have position as absolute, then this value becomes 0.
 |Values={{CSS Property Value
 |Data Type=length
-|Description=Floating-point number followed by an absolute units designator (<code>cm</code>, <code>mm</code>, <code>in</code>, <code>pt</code>, or <code>pc</code>) or a relative units designator (<code>em</code>, <code>ex</code>, or <code>px</code>). For more information about the supported length units, see CSS Values and Units Reference.
+|Description=Specifies a fixed height. Negative values are not allowed. See [[css/units/length|length]] for possible units.
 }}{{CSS Property Value
 |Data Type=percentage
-|Description=Integer followed by a percent sign (%) that specifies a percentage of the containing block height to use as the minimum height of the element. If the height of the containing block is not explicitly set, then the element has no minimum height and the  '''min-height''' property is interpreted as 0%. For Internet Explorer 6, information on containing blocks and how the height is computed, see the [http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 Cascading Style Sheets, Level 2 (CSS2)] specification. For Internet Explorer 7, see the [http://go.microsoft.com/fwlink/p/?linkid{{=}}203760 Cascading Style Sheets, Level 2.1 (CSS2.1)] specification.
+|Description=A <percentage> relative to the height of the containing block. If the containing block has no height explicitly set then is is treated as 0. Negative values are not allowed
+}}{{CSS Property Value
+|Data Type=calc()
+|Description=See [[css/functions/calc|css calc function]] for mode details.
+}}{{CSS Property Value
+|Data Type=inherit
+|Description=Takes the same specified value as the property for the element's parent.
 }}
 }}
 {{Examples_Section
