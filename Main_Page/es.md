@@ -13,7 +13,7 @@
     <div class="image icon-beginners"></div>
     
     <div class="inner">
-    <h3>[[beginners|Guía para Principiantes]]</h3>
+    <h3>[[beginners/es|Guía para Principiantes]]</h3>
     
     <p>Material introductorio para aquellos que recién comienzan en el desarrollo web.</p>
     </div>
@@ -25,7 +25,7 @@
     <div class="image icon-concept"></div>
     
     <div class="inner">
-    <h3>[[concepts|Conceptos web generales]]</h3>
+    <h3>[[concepts/es|Conceptos web generales]]</h3>
     
     <p>Artículos teóricos y tutoriales sobre temas como el funcionamiento de la web, arquitectura de la información, tipografía y diseño web.</p>
     </div>
