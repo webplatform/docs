@@ -6,9 +6,7 @@
 {{Byline}}
 {{Summary_Section|This guide shows you how to embed images within SVG and apply various graphics effects such as gradients, patterns, clipping, masking, and compositing.}}
 {{Tutorial
-|Content=
-
-==Images==
+|Content===Images==
 
 <!--
     5.7 The 'image' element
@@ -31,6 +29,9 @@
 Gradient properties:
 * '''stop-color'''
 * '''stop-opacity'''
+
+[[Image:stop_color.svg]]
+
 
 ==Patterns==
 
@@ -125,7 +126,6 @@ Color and Painting properties:
 [[svg/tutorials/smarter_svg_filters|Filters]] /
 [[svg/tutorials/smarter_svg_animation|Animation]] /
 [[svg/tutorials/smarter_svg_interaction|Interaction]])
-
 }}
 {{Notes_Section}}
 {{Compatibility_Section
