@@ -52,7 +52,7 @@ Web Platform Docs es un sitio gestionado por la comunidad que aspira a convertir
     <div class="image icon-css"></div>
     
     <div class="inner">
-    <h3>[[css|CSS]]</h3>
+    <h3>[[css/es|CSS]]</h3>
     
     <p>Artículos teóricos, tutoriales y material de referencia de las Hojas de estilo en cascada o Cascading style sheets (<abbr>CSS</abbr>).</p>
     </div>
