@@ -30,9 +30,6 @@ Gradient properties:
 * '''stop-color'''
 * '''stop-opacity'''
 
-[[Image:stop_color.svg]]
-
-
 ==Patterns==
 
 <!--
