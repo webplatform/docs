@@ -94,7 +94,7 @@ Nota: Si eres completamente nuevo en el desarrollo web, puede que desees revisar
 
 == Antecedentes ==
 
-Las Hojas de estilo en cascada (CSS) es un lenguaje que le aplica características de presentación (estilos, maquetación, animación) a contenidos etiquetados (tales como HTML, XHTML, SVG o XML). Es uno de los princiales componentes de la [http://www.w3.org/wiki/Open_Web_Platform Plataforma Web Abierta].
+Las Hojas de estilo en cascada (CSS) es un lenguaje que le aplica características de presentación (estilos, maquetación, animación) a contenidos etiquetados (tales como HTML, XHTML, SVG o XML). Es uno de los principales componentes de la [http://www.w3.org/wiki/Open_Web_Platform Plataforma Web Abierta].
 
 Las CSS te permiten aplicarle estilos a tu contenido mediante un conjunto de [[css/selectors|selectores]] y [[css/properties|propiedades]].
 
