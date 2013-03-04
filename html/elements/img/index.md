@@ -18,7 +18,7 @@
 
 
 
-&lt;img src{{=}}"http://docs.webplatform.org/w/skins/webplatform/images/logo.svg" width{{=}}"420" height{{=}}"120" alt{{=}}"MyCorp Logo"&gt;
+&lt;img src{{=}}"http://docs.webplatform.org/w/skins/webplatform/images/logo.svg" width{{=}}"62" height{{=}}"62" alt{{=}}"Web Platform logo"&gt;
 |LiveURL=http://www.w3schools.com/tags/tag_img.asp
 }}
 }}
