@@ -6,7 +6,7 @@
 {{API_Name}}
 {{Summary_Section|Returns the value to which it was last set; on creation, must be initialized to the string "blob".}}
 {{API_Object_Property
-|Property_applies_to=apis/webRTC/RTCDataChannel
+|Property_applies_to=apis/webrtc/RTCDataChannel
 |Read_only=No
 |Example_object_name=object
 |Javascript_data_type=String
