@@ -4,6 +4,8 @@
 
 Web Platform Docs is a community-driven site that aims to become a comprehensive and authoritative source for web developer documentation.
 
+{{Languages}}
+
 == Explore our web development docs ==
 
 <div class="topic-container">
