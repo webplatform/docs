@@ -1,5 +1,10 @@
 {{Page_Title}}
-{{Flags|Compatibility=Incomplete
+{{Flags
+|High-level issues=Deletion Candidate
+|Editorial notes={{Editorial/Deletion_Candidate
+| Duplicate of http://docs.webplatform.org/wiki/tutorials/audio_tag
+}}
+|Compatibility=Incomplete
 }}
 {{Byline
 |Name=Ernest Delgado
