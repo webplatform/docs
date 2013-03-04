@@ -138,17 +138,17 @@ En el futuro, Web Platform Docs incluirá aún más contenido para que explores:
 
 Nos encantaría contar con tu ayuda en la mejora de Web Platform Docs. Incluso el más mínimo esfuerzo puede tener un impacto significativo sobre el sitio. Desde alertar a los colegas desarrolladores sobre errores en nuestra documentación, la corrección de estos errores, la adaptación de artículos existentes o incluso aportando contenido completamente nuevo. Para mayor información, por favor lee nuestra [[WPD:Getting_Started|Guía de Inicio]].
 
-* Para reportar errores en la webplatform, usa el [https://www.w3.org/Bugs/Public/enter_bug.cgi?product=webplatform.org Sistema de gestión de errores del W3C((.external .text nofollow))]. Lee nuestra [http://docs.webplatform.org/wiki/WPD:Filing_Bugs página sobre reportar errores((.external .text nofollow))] para mayor información.
+* Para reportar errores en la webplatform, usa el [https://www.w3.org/Bugs/Public/enter_bug.cgi?product=webplatform.org Sistema de gestión de errores del W3C]. Lee nuestra [http://docs.webplatform.org/wiki/WPD:Filing_Bugs página sobre reportar errores] para mayor información.
 * Si tienes alguna pregunta acerca de webplatform.org, por favor [[WPD:FAQ|busca primero una respuesta en las FAQ]].
 
 
 ==Mantente en contacto==
 
-* Unete a nuestras [http://talk.webplatform.org/forums/ PyR((.external .text nofollow))]
+* Unete a nuestras [http://talk.webplatform.org/forums/ PyR]
 * Conversa con otros editores en <abbr>IRC</abbr>: estamos en irc.freenode.org, el canal de la #webplatform .
-* Lee nuestro [http://blog.webplatform.org/ blog((.external .text nofollow))]
-* Síguenos en [https://twitter.com/webplatform @WebPlatform((.external .text nofollow))] en Twitter
-* Remezcla nuestro [http://webplatform.org/logo logo((.external .text nofollow))] y enlázalo de vuelta a nuestro sitio
+* Lee nuestro [http://blog.webplatform.org/ blog]
+* Síguenos en [https://twitter.com/webplatform @WebPlatform] en Twitter
+* Remezcla nuestro [http://webplatform.org/logo logo] y enlázalo de vuelta a nuestro sitio
 * Ven a nuestros [[WPD:Community/Community_Events|Eventos]] como Doc Sprints.
 
 ==Políticas del sitio==
