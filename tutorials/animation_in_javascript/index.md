@@ -1,5 +1,8 @@
 {{Page_Title|Animation in JavaScript}}
-{{Flags}}
+{{Flags
+|Content=Outdated
+|Editorial notes=Should reference requestAnimationFrame
+}}
 {{Byline}}
 {{Summary_Section|This article discusses how to make simple animations in JavaScript.}}
 {{Tutorial
@@ -185,6 +188,7 @@ This concludes our look at animating web page functionality using JavaScript - I
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
