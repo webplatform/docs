@@ -18,7 +18,7 @@ Las Hojas de estilo en cascada o <span lang="en">Cascading style sheets (CSS)</s
     <div class="inner">
     <h3>[[css/tutorials|Material didáctico de CSS]]</h3>
     
-    <p>Tutoriales y artículos didácticos para que aprendas HTML desde la base.</p>
+    <p>Tutoriales y artículos didácticos para que aprendas CSS desde la base.</p>
     </div>
   
   </div>
