@@ -427,4 +427,4 @@ if (country) {
 |MSDN_link=
 |HTML5Rocks_link=
 }}
-{{Languages}}
+{{WPDLanguages}}
