@@ -40,7 +40,7 @@ Web Platform Docs es un sitio gestionado por la comunidad que aspira a convertir
     <div class="image icon-html"></div>
     
     <div class="inner">
-    <h3>[[html|HTML]]</h3>
+    <h3>[[html/es|HTML]]</h3>
     
     <p>Artículos teóricos, tutoriales y material de referencia del principal lenguaje de etiquetado de la web.</p>
     </div>
