@@ -4,7 +4,7 @@
 
 ==Resumen==
 
-<dfn><span lang="en">Hypertext Markup Language</span> (HTML)</dfn> es el lenguaje de etiquetado para las páginas web. El [http://www.w3.org World Wide Web Consortium] mantiene el [http://www.w3.org/standards/techs/html estándar de HTML].
+<dfn><span lang="en">Hypertext Markup Language</span> (HTML)</dfn> es el lenguaje de etiquetado para las páginas web. El [http://www.w3.org World Wide Web Consortium] mantiene el [http://www.w3.org/standards/techs/html estándar del HTML].
 
 {{Languages}}
 
