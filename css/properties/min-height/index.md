@@ -140,9 +140,35 @@ In Internet Explorer 7, this property is enabled only under the strict [[html/e
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
-|Desktop_rows=
+|Desktop_rows={{Compatibility Table Desktop Row
+|Feature=length, percentage, inherit
+|Chrome_supported=Yes
+|Chrome_version=1
+|Chrome_prefixed_supported=Unknown
+|Chrome_prefixed_version=
+|Firefox_supported=Yes
+|Firefox_version=3
+|Firefox_prefixed_supported=Unknown
+|Firefox_prefixed_version=
+|Internet_explorer_supported=Yes
+|Internet_explorer_version=7
+|Internet_explorer_prefixed_supported=Unknown
+|Internet_explorer_prefixed_version=
+|Opera_supported=Yes
+|Opera_version=4
+|Opera_prefixed_supported=Unknown
+|Opera_prefixed_version=
+|Safari_supported=Yes
+|Safari_version=1
+|Safari_prefixed_supported=Unknown
+|Safari_prefixed_version=
+}}
 |Mobile_rows=
-|Notes_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Safari
+|Version=1
+|Note=Does not support min-height for positional elements. It was added in Safari 2.0.2 (416).
+}}
 }}
 {{See_Also_Section
 |Topic_clusters=Box Model
