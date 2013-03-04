@@ -19,7 +19,7 @@
 
 
 &lt;img src{{=}}"http://docs.webplatform.org/w/skins/webplatform/images/logo.svg" width{{=}}"420" height{{=}}"120" alt{{=}}"MyCorp Logo"&gt;
-|LiveURL=http://docs.webplatform.org/w/skins/webplatform/images/logo.svg
+|LiveURL=http://www.w3schools.com/tags/tag_img.asp
 }}
 }}
 {{Notes_Section
