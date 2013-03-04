@@ -1,5 +1,10 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|High-level issues=Deletion Candidate
+|Editorial notes={{Editorial/Deletion_Candidate
+| Duplicate of http://docs.webplatform.org/wiki/tutorials/web_databases
+}}
+}}
 {{Byline
 |Name=Paul Kinlan
 |Published=Feb. 17, 2010
@@ -206,8 +211,10 @@ call the html5rocks.webdb.addTodo method
 }
 </pre>
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
