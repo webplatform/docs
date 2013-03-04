@@ -1,5 +1,7 @@
 {{Page_Title|An Introduction to Geolocation API}}
-{{Flags}}
+{{Flags
+|High-level issues=Stub
+}}
 {{Byline
 |Name=Ashish Chopra
 }}
