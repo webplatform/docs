@@ -108,3 +108,8 @@ El desarrollo del HTML ha sido conducido por diversas organizaciones durante su 
 El W3C también está solicitando comentarios de revisión  sobre la [http://www.w3.org/wiki/HTML/MediaAccessibilityChecklist Lista de Comprobación de Accesibilidad de Medios]
 
 == Indice de todos los temas de HTML ==
+
+{{Special:PrefixIndex/html/}}
+
+{{Standardization_Status|}}
+{{API_Name}}
