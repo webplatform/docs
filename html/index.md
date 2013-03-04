@@ -4,6 +4,8 @@
 
 Hypertext Markup Language (HTML) is the markup language for web pages. The [http://www.w3.org World Wide Web Consortium] maintains the [http://www.w3.org/standards/techs/html HTML standard].
 
+{{Languages}}
+
 == Explore our HTML docs ==
 
 <div class="topic-container">
