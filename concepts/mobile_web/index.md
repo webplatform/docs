@@ -25,7 +25,9 @@
 {{Related_Specifications_Section
 |Specifications=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|External_links=* [http://www.w3.org/2013/02/mobile-web-app-state/ Standards for Web Applications on Mobile] on w3.org.
+}}
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
