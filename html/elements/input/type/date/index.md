@@ -55,8 +55,8 @@
 |Chrome_mobile_version=18
 |Chrome_mobile_prefixed_supported=No
 |Chrome_mobile_prefixed_version=
-|Firefox_mobile_supported=No
-|Firefox_mobile_version=
+|Firefox_mobile_supported=Yes
+|Firefox_mobile_version=19
 |Firefox_mobile_prefixed_supported=No
 |Firefox_mobile_prefixed_version=
 |IE_mobile_supported=No
