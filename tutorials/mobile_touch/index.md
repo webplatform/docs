@@ -197,6 +197,10 @@ But the following will not:
 
 iOS devices fully support multi-touch, are capable of tracking quite a few fingers and provide a very responsive touch experience in the browser.
 
+===Internet Explorer 10===
+
+Internet Explorer does not have touch events. Instead Microsoft implemented pointer events in IE10 and suggested it as a new [http://www.w3.org/TR/pointerevents/ spec] to the W3C. See [http://docs.webplatform.org/wiki/concepts/PointerEvents PointerEvents] for more info.
+
 ==Developer tools==
 
 In mobile development, it's often easier to start prototyping on the desktop and then tackle the mobile-specific parts on the devices you intend to support. Multi-touch is one of those features that's difficult to test on the PC, since most PCs don't have touch input.
@@ -241,10 +245,6 @@ If your computer does not have multi-touch input, you can simulate touch events 
 Note that your gestures might be identical to OS-level multi-touch gestures. On OS X, you can configure system-wide events by going to the Trackpad preference pane in System Preferences.
 
 As multi-touch features become more widely supported across mobile browsers, I'm very excited to see new web applications take full advantage of this rich API.
-
-===Pointer events===
-
-Internet Explorer does not have touch events. Instead Microsoft implemented pointer events in IE10 and suggested it as a new [http://www.w3.org/TR/pointerevents/ spec] to the W3C. See [http://docs.webplatform.org/wiki/concepts/PointerEvents PointerEvents] for more info.
 }}
 {{Notes_Section}}
 {{Compatibility_Section
