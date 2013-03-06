@@ -42,6 +42,10 @@ When '''article''' elements are nested, the inner article should be related to t
 |Name=HTML 5
 |URL=http://www.w3.org/TR/html5/the-article-element.html#the-article-element
 |Status=W3C Working Draft
+}}{{Related Specification
+|Name=HTML Standard
+|URL=http://whatwg.org/html/#the-article-element
+|Status=Standard
 }}
 }}
 {{Compatibility_Section
