@@ -7,7 +7,7 @@
 |DOM_interface=dom/HTMLTemplateElement
 |Content=The content of a <code><template></code> element is a hidden portion of the DOM and does not render on page load: scripts don't run, text or images don't display, audio doesn't play, and so forth. Neither are the child nodes of the <code><template></code> accessible with the JavaScript <code>getElementbyId()</code> or <code>querySelector()</code> methods.
 
-Templates can be placed anywhere inside of the <code><head></code>, <code><body></code>, and <code><frameset></code> elements; It can also be used as a child of a <code><table></code> or a <code><select></code> element.
+Templates can be placed anywhere inside of the <code><head></code>, <code><body></code>, and <code><frameset></code> elements; a template can also be used as a child of a <nowiki><code><table></code><nowiki> or a <code><select></code> element.
 }}
 {{Examples_Section
 |Not_required=No
