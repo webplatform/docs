@@ -11,7 +11,25 @@ Templates can be placed anywhere inside of the <code><head></code>, <code><body>
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Description=Basic example
+|Code=<syntaxhighlight>
+<table>
+<tr>
+  <template id="cells-to-repeat">
+    <td>some content</td>
+  </template>
+</tr>
+</table>
+</syntaxhighlight>
+}}{{Single Example
+|Language=JavaScript
+|Description=To use a template, you need to activate it. Otherwise its content will not render. The simplest way to do this is by creating a deep copy of its <code>.content </code>using <code>cloneNode()</code>. The <code>.content</code> property is read-only and references a <code>DocumentFragment</code> containing the guts of a template.
+|Code=var t = document.querySelector('#mytemplate');
+t.content.querySelector('img').src = 'logo.png'; // Populate the src at runtime.
+document.body.appendChild(t.content.cloneNode(true));
+}}
 }}
 {{Notes_Section
 |Notes=* If you're using [https://code.google.com/p/modpagespeed/ modpagespeed], be careful of this [http://code.google.com/p/modpagespeed/issues/detail?id=625 bug]. Templates that define inline <code><style scoped></code>, many be moved to the <code>head</code> with PageSpeed's CSS rewriting rules.
