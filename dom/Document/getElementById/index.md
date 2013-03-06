@@ -1,7 +1,8 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
+|High-level issues=Deletion Candidate, Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Examples Best Practices
+|Editorial notes=duplicate of dom/apis/document/getElementById
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -62,6 +63,7 @@ function getID() {
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
 |Chrome_version=1
