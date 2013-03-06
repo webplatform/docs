@@ -241,21 +241,27 @@ If your computer does not have multi-touch input, you can simulate touch events 
 Note that your gestures might be identical to OS-level multi-touch gestures. On OS X, you can configure system-wide events by going to the Trackpad preference pane in System Preferences.
 
 As multi-touch features become more widely supported across mobile browsers, I'm very excited to see new web applications take full advantage of this rich API.
+
+===Pointer events===
+
+Internet Explorer does not have touch events. Instead Microsoft implemented pointer events in IE10 and suggested it as a new [http://www.w3.org/TR/pointerevents/ spec] to the W3C. See [http://docs.webplatform.org/wiki/concepts/PointerEvents PointerEvents] for more info.
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Feature=Touch events
-|Chrome_supported=Unknown
-|Chrome_version=
+|Chrome_supported=Yes
+|Chrome_version=22
 |Chrome_prefixed_supported=Unknown
 |Chrome_prefixed_version=
 |Firefox_supported=Yes
 |Firefox_version=12.0
 |Firefox_prefixed_supported=Unknown
 |Firefox_prefixed_version=
-|Internet_explorer_supported=Yes
-|Internet_explorer_version=10.0 (partial)
+|Internet_explorer_supported=No
+|Internet_explorer_version=
 |Internet_explorer_prefixed_supported=Unknown
 |Internet_explorer_prefixed_version=
 |Opera_supported=No
@@ -272,18 +278,30 @@ As multi-touch features become more widely supported across mobile browsers, I'm
 |Android_version=2.1
 |Android_prefixed_supported=Unknown
 |Android_prefixed_version=
-|Firefox_mobile_supported=Unknown
-|Firefox_mobile_version=
+|Blackberry_supported=Unknown
+|Blackberry_version=
+|Blackberry_prefixed_supported=Unknown
+|Blackberry_prefixed_version=
+|Chrome_mobile_supported=Yes
+|Chrome_mobile_version=16
+|Chrome_mobile_prefixed_supported=Unknown
+|Chrome_mobile_prefixed_version=
+|Firefox_mobile_supported=Yes
+|Firefox_mobile_version=6
 |Firefox_mobile_prefixed_supported=Unknown
 |Firefox_mobile_prefixed_version=
-|IE_phone_supported=Unknown
-|IE_phone_version=
-|IE_phone_prefixed_supported=Unknown
-|IE_phone_prefixed_version=
-|Opera_mobile_supported=No
-|Opera_mobile_version=
+|IE_mobile_supported=Unknown
+|IE_mobile_version=
+|IE_mobile_prefixed_supported=Unknown
+|IE_mobile_prefixed_version=
+|Opera_mobile_supported=Yes
+|Opera_mobile_version=11.0
 |Opera_mobile_prefixed_supported=Unknown
 |Opera_mobile_prefixed_version=
+|Opera_mini_supported=Unknown
+|Opera_mini_version=
+|Opera_mini_prefixed_supported=Unknown
+|Opera_mini_prefixed_version=
 |Safari_mobile_supported=Yes
 |Safari_mobile_version=3.2
 |Safari_mobile_prefixed_supported=Unknown
@@ -291,7 +309,9 @@ As multi-touch features become more widely supported across mobile browsers, I'm
 }}
 |Notes_rows=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Topic_clusters=Pointer Events
+}}
 {{Topics|Mobile, Touch}}
 {{External_Attribution
 |Is_CC-BY-SA=No
