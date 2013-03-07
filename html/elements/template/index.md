@@ -13,7 +13,7 @@ Templates can be placed anywhere inside of the <code><head></code>, <code><body>
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=Basic example
+|Description====Basic example===
 |Code=<syntaxhighlight>
 <table>
 <tr>
