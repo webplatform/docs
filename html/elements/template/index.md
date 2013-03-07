@@ -29,6 +29,25 @@ Templates can be placed anywhere inside of the <code><head></code>, <code><body>
 |Code=var t = document.querySelector('#mytemplate');
 t.content.querySelector('img').src = 'logo.png'; // Populate the src at runtime.
 document.body.appendChild(t.content.cloneNode(true));
+}}{{Single Example
+|Language=HTML
+|Description====Shadow DOM example===
+But the more interesting use of the &lt;template&gt; tag is in concert with the Shadow DOM and the &lt;content&gt; tag. Use the Shadow DOM to achieve an encapsulation of the presentation (style) of the element and the &lt;content&gt; tag to provide separation of content from the element. The element (shadow host) is implemented with a &lt;template&gt; that encapsulates the styles, thereby providing a boiler plate, and a &lt;content&gt; tag, thereby providing for the reuse of the template for different content.
+|Code=<syntaxhighlight>
+<template id="nameTagTemplate">
+<style>
+  …
+</style>
+<div class="outer">
+  <div class="boilerplate">
+    Hi! My name is
+  </div>
+  <div class="name">
+    <content></content>
+  </div>
+</div>
+</template>
+</syntaxhighlight>
 }}
 }}
 {{Notes_Section
