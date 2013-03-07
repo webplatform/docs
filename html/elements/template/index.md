@@ -32,7 +32,7 @@ document.body.appendChild(t.content.cloneNode(true));
 }}{{Single Example
 |Language=HTML
 |Description====Shadow DOM example===
-But the more interesting use of the <code>&lt;template&gt;</code> tag is in concert with the Shadow DOM and the <code>&lt;content&gt;</code> tag. Use the Shadow DOM to achieve an encapsulation of the presentation (style) of the element and the <code>&lt;content&gt;</code> tag to provide separation of content from the element. The element (shadow host) is implemented with a <code>&lt;template&gt;</code> that encapsulates the styles, thereby providing a boiler plate, and a <code>&lt;content&gt;</code> tag, thereby providing for the reuse of the template for different content.
+But the more interesting use of the <code>&lt;template&gt;</code> tag is in concert with the Shadow DOM and the <code>&lt;content&gt;</code> tag. Use the Shadow DOM to achieve an encapsulation of the presentation (style) of the element and the <code>[[html/elements/content|&lt;content&gt;}</code> tag to provide separation of content from the element. The element (shadow host) is implemented with a <code>&lt;template&gt;</code> that encapsulates the styles, thereby providing a boiler plate, and a <code>[[html/elements/content|&lt;content&gt;]]</code> tag, thereby providing for the reuse of the template for different content.
 |Code=<syntaxhighlight>
 <template id="nameTagTemplate">
 <style>
@@ -50,8 +50,6 @@ But the more interesting use of the <code>&lt;template&gt;</code> tag is in conc
 
 <div id="nameTag"></div>
 </syntaxhighlight>
-
-
 }}{{Single Example
 |Language=JavaScript
 |Description=Now all you have to do to stamp out the element is run your template through the ShadowRoot.
