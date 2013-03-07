@@ -70,6 +70,7 @@ document.body.appendChild(t.content.cloneNode(true));
 {{See_Also_Section
 |Topic_clusters=Web Components
 |External_links=* [http://www.html5rocks.com/en/tutorials/webcomponents/template/ HTML's New Template Tag]
+* [http://www.html5rocks.com/en/tutorials/webcomponents/shadowdom/ Shadow DOM 101]
 }}
 {{Topics}}
 {{External_Attribution
