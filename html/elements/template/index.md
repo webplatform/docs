@@ -26,9 +26,11 @@ Templates can be placed anywhere inside of the <code><head></code>, <code><body>
 }}{{Single Example
 |Language=JavaScript
 |Description=To use a template, you need to activate it. Otherwise its content will not render. The simplest way to do this is by creating a deep copy of its <code>.content </code>using <code>cloneNode()</code>. The <code>.content</code> property is read-only and references a <code>DocumentFragment</code> containing the guts of a template.
-|Code=var t = document.querySelector('#mytemplate');
+|Code=<syntaxhighlight>
+var t = document.querySelector('#mytemplate');
 t.content.querySelector('img').src = 'logo.png'; // Populate the src at runtime.
 document.body.appendChild(t.content.cloneNode(true));
+</syntaxhighlight>
 }}{{Single Example
 |Language=HTML
 |Description====Shadow DOM example===
