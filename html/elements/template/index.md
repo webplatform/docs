@@ -47,7 +47,11 @@ But the more interesting use of the <code>&lt;template&gt;</code> tag is in conc
   </div>
 </div>
 </template>
+
+<div id="nameTag"></div>
 </syntaxhighlight>
+
+
 }}{{Single Example
 |Language=JavaScript
 |Description=Now all you have to do to stamp out the element is run your template through the ShadowRoot.
