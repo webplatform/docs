@@ -4,6 +4,7 @@
 |Content=Incomplete, Not Neutral, Cleanup, Examples Best Practices
 |Editorial notes=duplicate of dom/apis/document/getElementById
 }}
+{{Editorial/Deletion_Candidate}}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|Gets an element with a specified ID.}}
