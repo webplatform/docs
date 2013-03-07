@@ -26,11 +26,9 @@ Templates can be placed anywhere inside of the <code><head></code>, <code><body>
 }}{{Single Example
 |Language=JavaScript
 |Description=To use a template, you need to activate it. Otherwise its content will not render. The simplest way to do this is by creating a deep copy of its <code>.content </code>using <code>cloneNode()</code>. The <code>.content</code> property is read-only and references a <code>DocumentFragment</code> containing the guts of a template.
-|Code=<syntaxhighlight>
-var t = document.querySelector('#mytemplate');
+|Code=var t = document.querySelector('#mytemplate');
 t.content.querySelector('img').src = 'logo.png'; // Populate the src at runtime.
 document.body.appendChild(t.content.cloneNode(true));
-</syntaxhighlight>
 }}{{Single Example
 |Language=HTML
 |Description====Shadow DOM example===
@@ -50,6 +48,14 @@ But the more interesting use of the <code>&lt;template&gt;</code> tag is in conc
 </div>
 </template>
 </syntaxhighlight>
+}}{{Single Example
+|Language=JavaScript
+|Description=Now all you have to do to stamp out the element is run your template through the ShadowRoot.
+|Code=var shadow = document.querySelector('#nameTag').webkitCreateShadowRoot();
+var template = document.querySelector('#nameTagTemplate');
+document.querySelector('#nameTag').textContent = 'Shellie';
+shadow.appendChild(template.content);
+template.remove();
 }}
 }}
 {{Notes_Section
