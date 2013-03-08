@@ -5,7 +5,7 @@
 {{Byline}}
 {{Summary_Section|This page provides an overview of common web security threats, lists good practices for client and server-side security, and offers examples for implementing security measures for your site or application.
 
-Learning and using good Web security practices not only keep your application secure, but help keep the users of your Web sites and/or apps safe and happy. Poor security practices can tarnish an organization's reputation, can cause a business to lose revenue, or can lead to the spread of malware.
+Learning and using good Web security practices protects the integrity of your site or application, and helps keep the users safe and happy. Poor security practices can tarnish an organization's reputation, can cause a business to lose revenue, or can lead to the spread of malware.
 }}
 {{Guide
 |Content===Web security basics==
