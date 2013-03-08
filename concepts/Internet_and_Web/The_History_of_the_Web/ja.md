@@ -104,15 +104,53 @@ Web の認知は、商業的な関心をももたらしました。Mark Andreess
 (訳: 半年か一年、いや二年後には全てのサイトが、これらの Web 標準を利用してデザインされるだろう。[…] いま私達にできることは、今までのやり方が古くなるのをただ見ているか、新しい Web 標準ベースな技術を学び始めるかのどちらかだ。)
 </blockquote>
 
-この予想はすこし前向きすぎました。2008年になっても、全てのサイトが Web 標準で作られている訳ではないからです。しかし、この言葉には多くの人が耳を傾けていました。古いブラウザーはシェアを落とし、そして Wired magazine と ESPN という二つの大きなサイトが、それぞれ2002年と2003年に、Web 標準によってリデザインされたのです。彼らは Web 標準や新しい技術を支持する第一人者となりました。
+この予想はすこし前向きすぎました。2008年になっても、全てのサイトが Web 標準で作られている訳ではないからです。しかし、この言葉には多くの人が耳を傾けていました。古いブラウザーはシェアを落とし、そして Wired magazine と ESPN という2つの大きなサイトが、それぞれ2002年と2003年に、Web 標準によってリデザインされたのです。彼らは Web 標準や新しい技術を支持する第一人者となりました。
 
 さらに、2003年に Dave Shea が "CSS Zen Garden" というサイトを公開しました。何よりも Web プロフェッショナルに大きな影響を与えたのが、このサイトでした。なぜなら、CSS Zen Garden は、中身が全く同じページでも、CSS ひとつでデザイン全て変更できることを端的に表現したからです。
 
-それ以来、Web 標準は Web 開発コミュニティで当たり前の存在になりました。そしてこのコースは、Web 標準によるデザイン手法の基礎を知ることのできる、素晴らしい資料になっています。このコースを進めていけば大手サイトのように、きれいで、意味的で、アクセシブルで、そして Web 標準に準拠するWebサイトを作れるようになるのです。
+それ以来、Web 標準は Web 開発コミュニティで当たり前の存在になりました。そしてこのコースは、Web 標準によるデザイン手法の基礎を知ることのできる、素晴らしい資料になっています。このコースを進めていけば大手サイトのように、きれいで、意味がちゃんと表現されていて、アクセシブルで、そして Web 標準に準拠するWebサイトを作れるようになるのです。
+
+== 新しい Web 標準 ==
+<!-- r20148 -->
+<!-- After 2003, web standards didn't just sit still. New practices started to really come to the forefront, with many web sites being more like desktop applications than static pages. This new breed of sites is way more complicated than what the web was really intended for, and we still have to concern ourselves with making them semantic, accessible and usable!-->
+2003年以降も、Web 標準が歩みを止めることはありませんでした。多くの Web サイトが静的なページよりもデスクトップアプリケーションのようになったことで、新しい開発手法が最前線となったのです。この新しいタイプの Web サイトは、Web が意図していたものよりもずっと複雑なものでした。ですから、引き続き意味がちゃんと表現されていて、またアクセシブルで、さらに使い勝手のいい Web サイトにするための努力が続けられています。
+ 
+<!--When HTML 4 was nearing completion, the W3C decided (in a [http://www.w3.org/MarkUp/future/ workshop run in 1998]) that in terms of markup languages, the future of the Web was XML and XHTML, not HTML ([http://www.w3.org/wiki/The_web_standards_model_-_HTML_CSS_and_JavaScript#What_is_XHTML.3F comparison of XHTML and HTML]). So the W3C drew a line under HTML 4.01 and instead concentrated on the [http://www.w3.org/TR/xhtml1/ XHTML 1.0] spec, finished in early 2000. XHTML 1.0 is just the same as HTML 4.01, except that it uses the stricter markup syntax rules of XML (more on this later). [http://www.w3.org/TR/xhtml2/ XHTML 2.0] soon followed, which added a whole bunch of new powerful features, and aimed to be the next big thing on the Web.-->
+さて、話は少し前に戻ります。HTML 4 が完成に近づいた1998年、W3C は[http://www.w3.org/MarkUp/future/ ワークショップ]にて、次世代の Web マークアップ言語は HTML ではなく、XML と XHTML であると決定しました（[http://www.w3.org/wiki/The_web_standards_model_-_HTML_CSS_and_JavaScript#What_is_XHTML.3F XHTML と HTML の違い]）。そして W3C は HTML 4.01 以降の策定に見切りをつけ、[http://www.w3.org/TR/xhtml1/ XHTML 1.0] 仕様の策定に注力し、2000年の初めに完成させました。XHTML 1.0 はほとんど HTML 4.01 と同じですが、XML の厳密なマークアップ構文にもとづいています。XHTML 1.0 完成後すぐ [http://www.w3.org/TR/xhtml2/ XHTML 2.0] の策定が始まりました。XHTML 2.0 では数多くの強力な機能が追加され、Web の次なる目玉となることが期待されていました。
+
+<!--The trouble with XHTML 2.0 is that it wasn't backwards compatible with the markup already on the Web — the elements worked differently, XHTML did not work properly in Internet Explorer, which still has the majority browser market share as of the time of writing, the developer tools available weren't ready for working with XML, and it didn't reflect what web developers were REALLY doing out there in the wild wild web.-->
+しかし、XHTML 2.0 には今の Web 上にあるマークアップとの後方互換性を欠いていました。まず、要素の挙動が違っていました。また、XHTML はその頃もっとも大きなシェアを持っていた Internet Explorer で適切に動作しませんでした。開発者のためのツールは XML まだうまく扱えませんでした。そしてなにより XHTML 2.0 は、新しいタイプの Web サイトが現れる荒々しい現状の中、Web 開発者が実際にやっていることに対するアプローチを、何ら行なっていなかったのです。
+ 
+<!--In 2004, a group of like minded developers and implementers (including representatives from Opera, Mozilla and slightly later, Apple) got together and formed a breakaway spec group called the [http://www.whatwg.org/ WHATWG], with the aim of writing a better HTML markup spec that could handle authoring the new breed of web applications, without — crucially — breaking backwards compatibility.-->
+2004年、熱心な開発者と実装者（Opera, Mozilla, 後にAppleも参加）が一緒になり、[http://www.whatwg.org/ WHATWG] という新たな仕様策定グループを設立しました。WHATWG の目的は、新しいタイプの Web アプリケーションの開発を扱えつつ、そして「何より」後方互換性を壊すことのない、良い HTML マークアップ仕様を策定することです。
+ 
+<!--The result was the [http://www.whatwg.org/specs/web-apps/2005-09-01/ Web Applications 1.0 specification], which documented existing interoperable browser behaviours and features, as well as new features for the Web stack such as APIs and new DOM parsing rules. After many discussions between W3C Members, on March 7 2007 the work on HTML was restarted with a new HTML Working Group in an open participation process. In the first few days, hundreds of participants joined to continue to work on the next version of HTML. One of the first decisions of the HTML WG was to adopt the Web Applications 1.0 spec and call it HTML5.-->
+WHATWG の活動結果は [http://www.whatwg.org/specs/web-apps/2005-09-01/ Web Applications 1.0 仕様]として公開されました。Web Applications 1.0 は既存のブラウザの挙動と機能に互換な仕様と、API や DOM パース処理の仕組みなど Web スタックへの新しい機能を定義しました。そして 2007年3月7日、W3C メンバーとの間に行った数多くの議論を経て、HTML 仕様の策定が新たなHTML ワーキンググループの立ち上げと共に再開されました。新しい HTML ワーキンググループは誰もが参加できるオープンなプロセスのもと運営され、設立後数日の間に数百を超える参加者が次期バージョンの HTML 仕様を策定すべく集まりました。しばらくののち、HTML ワーキンググループは Web Applications 1.0 仕様を受け入れ、さらに仕様を HTML5 と改称すると決定しました。
+ 
+<!--HTML5 is a really good thing for web developers and designers, because it:-->
+HTML5 は Web 開発者や Web デザイナーにとてもよい仕様です。なぜなら、
+
+<!--* Is mostly backwards compatible with what's already there — you don't need to learn completely new languages to use HTML5. The new markup features work in the same way as the old ones (although the semantics of some elements have been changed — we will cover these differences in a future article), and the new APIs are based on mostly the same JavaScript/DOM that developers have been programming in for years.
+* Adds powerful new features to HTML that were previously only available on the Web using plugin technologies like Flash, or with complex JavaScript and hacks. Form validation and video are prime examples.
+* Is better suited to writing dynamic applications than previous HTML versions (HTML was originally designed for creating static documents).
+* Has a clearly defined parsing algorithm so that all browsers implementing HTML5 will create the same DOM from the same markup, regardless of validity. This is a massive win for interoperability.-->
+* HTML5 は今までのものと互換性があります。まったく新しい言語を習わずとも HTML5 は使えます。新しいマークアップ機能は古い機能と同じように動作します（ただし、いくつかの要素の意味は変わってしまいました。これは別の記事で取り上げます）。新しい API も、開発者が長年プログラムしていた JavaScript/DOM とほぼ同じです。
+* HTML5 では、これまで Flash のような Web プラグイン技術や複雑な JavaScript、ハックなどを必要としていた、強力な機能を新たに追加指定ます。フォームの検証機能やビデオがその代表例です。
+* HTML5 は以前の HTML よりも、動的なアプリケーションの開発に適しています（HTML はもともと静的な文書を作成するために作られました）。
+* HTML5 では、明示的なパースアルゴリズムを定義しました。つまり。HTML5を実装するブラウザは同じマークアップから同じ DOM を生成します（valid であるかないかにかかわらずです）。これは相互運用性の確保において、とても重要なことです。
+
+<!--The evolution of CSS is not nearly as long winded and controversial as that of HTML, but it is still very interesting, and worth a mention here. The CSS2 specification was nearing completion around 1999/2000, and although it was a powerful language with many great features, its creators knew that it had limitations. There were a number of visual/stylistic things that CSS couldn't do, and that developers had to turn to hacks, JavaScript or plugins to achieve. This includes things such as animation, dynamic layouts, and using custom fonts on pages.-->
+CSS の発展については、HTML ほど息も長く、また賛否両論あるようなものではありませんでした。しかし、とても面白いので記しておきましょう。CSS2 仕様は1999年から2000年に完成間近な状況でした。CSS2 は素晴らしい機能をいくつも備えた強力な言語になりましたが、策定者たちは、仕様に足りない機能がまだまだあると感じていました。CSS で実現できない視覚表現はたくさんあり、開発者はハックや JavaScript、プラグインを使ってそれらを実現していました。いくつか例を挙げると、アニメーション、動的なレイアウト、カスタムフォントの利用です。
+
+<!--To begin to address this, work started on CSS3 as early as 2000. The spec writers decided on a modular structure, with different pieces of distinct functionality being broken down into manageable chunks. This made it easier not only for the writers to write, but also for the browsers to implement, and the web designers/developers to learn. A lot more features have been added since the first spec version in 2000, and we didn't start to see browser support for many of the features until about 2006. At the time of writing, CSS3 has over 40 modules in various stages of completion. You can track their progress and find out more at the W3C [http://www.w3.org/Style/CSS/current-work CSS current work & how to participate] page.-->
+これら CSS2 にできないことを解決すべく、2000年初頭から CSS3 の策定作業が始まりました。仕様の策定者はモジュール構造を採用し、多様な機能を管理しやすい個々の単位に分割することにしました<!-- hmm -->。モジュール構造の採用は、策定者の作業だけではなく、ブラウザーベンダーの実装や Web デザイナー/Web 開発者の学習にも役立ちました。2000年の策定初期から、CSS3 にはとても多くの機能が追加され続けました。しかし多くのブラウザで実装され始めたのは2006年くらいになってからのことです。この記事を書いている現在、CSS3 には 40 を超えるモジュールがあります。それぞれ完成度合いが異なり、W3C の [http://www.w3.org/Style/CSS/current-work CSS current work] ページでその進行状況を伺えます。
+
+<!--You can find more out about CSS3 and HTML5 later on in the course.-->
+このコースでは、CSS3 と HTML5 についてもっと取り上げます。
 
 == まとめ ==
 
-この記事では、宇宙開発競争が現在のインターネットを生み出したこと、Tim Berners-Lee が世代を超えたハイパーテキストを定義したこと、二つの企業が商業的な関心から、歴史に残る開発者の反発を生んだことを説明しました。「Web 標準」という言葉は Web プロフェッショナルの間で広く使われていますが、W3C の中でも使われています（彼らのページにもこの単語が出ていますね）。ですので、これが私達が教えること、つまり Web サイトを構築する標準的なやり方になります。
+この記事では、宇宙開発競争が現在のインターネットを生み出したこと、Tim Berners-Lee が世代を超えたハイパーテキストを定義したこと、2つの企業が商業的な関心から、歴史に残る開発者の反発を生んだことを説明しました。「Web 標準」という言葉は Web プロフェッショナルの間で広く使われていますが、W3C の中でも使われています（彼らのページにもこの単語が出ていますね）。ですので、これが私達が教えること、つまり Web サイトを構築する標準的なやり方になります。
 }}
 {{Examples_Section
 |Not_required=Yes
