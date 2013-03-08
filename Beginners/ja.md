@@ -1,21 +1,19 @@
 {{Page_Title|はじめてのWeb開発}}
 {{Flags}}
-{{Summary_Section|ここで紹介する記事は、初心者がWebデザイナーやディベロッパーになるために不可欠なスキルを紹介するもので、完全な初心者でも自信を持って仕事ができるようにするための記事です。}}
+{{Summary_Section|このページで紹介する記事は、Web デザイナーや開発者を目指すまったくの初心者が、自信を持って仕事ができるように必要なスキルを紹介するものです。}}
 {{Basic Page}}
 {{Languages}}
 
+== はじめる前に ==
 
+このコースではたくさんのコードを書き、Web ブラウザーでの動作確認を行います。コースをはじめる前に、以下のツールをインストールしましょう。
 
-==スタートの前に==
+* 最新のブラウザー： インストールされていなければ、[http://www.google.co.jp/chrome Chrome]、[http://www.mozilla.jp/firefox Firefox]、[http://windows.microsoft.com/ja-JP/internet-explorer/download-ie Internet Explorer]、[http://www.opera.com/ja/ Opera]、[http://www.apple.com/jp/safari/ Safari]のホームページからダウンロードして下さい。
+* テキストエディター： Windows には [http://notepad-plus-plus.org/ Notepad++]、Mac OS には [http://www.barebones.com/products/TextWrangler/ Text Wrangler]、Linux には [http://bluefish.openoffice.nl/index.html Bluefish]などがあります。
 
-このコースでは、たくさんのコードを書き、Webブラウザーでの動作確認を行います。コースをスタートする前に、以下のツールをインストールする必要があります。
+では始めましょうか！このページで紹介する記事を読み終え、もっと学びたい場合は[[tutorials/ja|すべての教材リスト]]をご覧下さい。
 
-* 最新のブラウザー： インストールされていなければ、[http://www.google.co.jp/chrome Chrome]、 [http://www.mozilla.jp/firefox Firefox]、[http://windows.microsoft.com/ja-JP/internet-explorer/download-ie Internet Explorer]、[http://www.opera.com/ja/ Opera]、または [http://www.apple.com/jp/safari/ Safari]のホームページからダウンロードして下さい。
-* テキストエディター： Windows用には[http://notepad-plus-plus.org/ Notepad++]、Mac OS用には[http://www.barebones.com/products/TextWrangler/ Text Wrangler]、Linux用には[http://bluefish.openoffice.nl/index.html Bluefish]などがあります。
-
-それでは、スタートの準備をしましょう！以下のリストを読み終えた後にもっと学習をしたければ、[[tutorials/ja|すべての教材リスト]]をご覧下さい。
-
-==Webの基礎知識==
+== Web の基礎知識 ==
 
 * [[concepts/internet and web/the history of the web/ja|Webの歴史]]
 * [[concepts/internet and web/how does the internet work/ja|インターネットのしくみ]]
@@ -23,7 +21,7 @@
 * [[tutorials/getting your content online/ja|コンテンツの公開]]
 * [[concepts/accessibility/ja|アクセシビリティ]]
 
-==HTML — Webコンテンツの構造==
+== HTML — Web コンテンツの構造 ==
 
 * [[guides/the basics of html/ja|HTMLの基礎]]
 * [[guides/doctypes and markup styles/ja|DOCTYPE宣言とマークアップ方法]]
@@ -36,7 +34,7 @@
 * [[guides/html structural elements/ja|文書構造を決める要素]]
 * [[guides/html tables/ja|HTMLの表]]
 
-==CSS — Webコンテンツのスタイル==
+== CSS — Web コンテンツのスタイル ==
 
 * [[guides/getting started with css/ja|CSSの基礎]]
 * [[tutorials/using selectors/ja|セレクターの使い方]]
@@ -47,7 +45,7 @@
 * [[tutorials/making css easier to read/ja|読みやすいCSSの記述方法]]
 * [[tutorials/media queries/ja|メディアクエリーの使い方]]
 
-==JavaScript — Webサイトに動的効果を加える==
+== JavaScript — Web サイトに動的効果を加える ==
 
 * [[concepts/programming/programming basics/ja|プログラミングの基礎]]
 * [[tutorials/your first look at javascript/ja|はじめてのJavaScript]]
