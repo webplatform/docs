@@ -9,7 +9,6 @@ Learning and using good Web security practices protects the integrity of your si
 }}
 {{Guide
 |Content===Web security basics==
-Stub.
 
 Common Web Security Attacks:
 * Cross-site scripting (XSS)
@@ -29,7 +28,7 @@ Common Web Security Attacks:
 }}
 {{Notes_Section}}
 {{Compatibility_Section
-|Not_required=No
+|Not_required=Yes
 |Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
