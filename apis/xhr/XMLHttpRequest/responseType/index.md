@@ -1,5 +1,7 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|Editorial notes= 
+}}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Returns or sets the format the response will be returned in.}}
@@ -15,7 +17,24 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=The following code demonstrates to how to use the requestType property of the '''XMLHttpRequest''' object to retrieve the results of the XHR request as an '''ArrayBuffer'''.
+
+This can be used to load images, audio and other binary data with an XHR request. Once the response is received use the '''response''' property to access the ArrayBuffer. 
+|Code=function handler() {
+  if (xhr.readyState === 4 /* complete */) {
+    if (xhr.status === 200) {
+            console.log(xhr.response);
+        }
+    }
+}
+var xhr {{=}} new XMLHttpRequest();
+xhr.responseType = "arraybuffer";
+xhr.open("GET", "<nowiki>http://localhost/test.ogg</nowiki>", true);
+xhr.onreadystatechange = handler;
+xhr.send();
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
