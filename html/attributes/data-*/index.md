@@ -1,13 +1,13 @@
 {{Page_Title|dataset and data-*}}
 {{Flags
-|High-level issues=Split Candidate, Unreviewed Import
-|Content=Examples Needed
+|High-level issues=Split Candidate, Unreviewed Import, Needs Review
+|Content=Cleanup, Examples Needed
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section}}
 {{Markup_Attribute
-|Content=  <h5 id="embedding-custom-non-visible-data-with-the-data-*-attributes"><span class="secno">3.2.3.9 </span><dfn>Embedding custom non-visible data</dfn> with the <code title="attr-data-*"><a href="#attr-data-*">data-*</a></code> attributes</h5>
+|Content=<h5 id="embedding-custom-non-visible-data-with-the-data-*-attributes"><span class="secno">3.2.3.9 </span><dfn>Embedding custom non-visible data</dfn> with the <code title="attr-data-*"><a href="#attr-data-*">data-*</a></code> attributes</h5>
 
   <p>A <dfn id="custom-data-attribute">custom data attribute</dfn> is an attribute in no namespace whose name starts with the
   string "<dfn id="attr-data-*" title="attr-data-*"><code>data-</code></dfn>", has at least one character after the
@@ -191,7 +191,40 @@
 |Not_required=No
 |Imported_tables=
 |Desktop_rows=
-|Mobile_rows=
+|Mobile_rows={{Compatibility Table Mobile Row
+|Android_supported=Yes
+|Android_version=Android 3.0
+|Android_prefixed_supported=Unknown
+|Android_prefixed_version=
+|Blackberry_supported=Unknown
+|Blackberry_version=
+|Blackberry_prefixed_supported=Unknown
+|Blackberry_prefixed_version=
+|Chrome_mobile_supported=Unknown
+|Chrome_mobile_version=
+|Chrome_mobile_prefixed_supported=Unknown
+|Chrome_mobile_prefixed_version=
+|Firefox_mobile_supported=Unknown
+|Firefox_mobile_version=
+|Firefox_mobile_prefixed_supported=Unknown
+|Firefox_mobile_prefixed_version=
+|IE_mobile_supported=Unknown
+|IE_mobile_version=
+|IE_mobile_prefixed_supported=Unknown
+|IE_mobile_prefixed_version=
+|Opera_mobile_supported=Unknown
+|Opera_mobile_version=
+|Opera_mobile_prefixed_supported=Unknown
+|Opera_mobile_prefixed_version=
+|Opera_mini_supported=Unknown
+|Opera_mini_version=
+|Opera_mini_prefixed_supported=Unknown
+|Opera_mini_prefixed_version=
+|Safari_mobile_supported=Yes
+|Safari_mobile_version=iOS 5
+|Safari_mobile_prefixed_supported=Unknown
+|Safari_mobile_prefixed_version=
+}}
 |Notes_rows=
 }}
 {{See_Also_Section
