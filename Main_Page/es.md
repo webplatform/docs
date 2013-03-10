@@ -153,4 +153,4 @@ Nos encantaría contar con tu ayuda en la mejora de Web Platform Docs. Incluso e
 
 ==Políticas del sitio==
 
-El contenido del wiki Web Platform Docs está disponible bajo una [[Template:CC-by-3.0|Licencia de Reconocimiento de Creative Commons (CC-BY)]], excepto donde se indique lo contrario. Para más detalles sobre las políticas de nuestro sitio, lee nuestras políticas de [[WPD:Copyright|derecho de autor]] y [[WPD:Privacy|privacidad]], así como nuestra [[WPD:Policy|página de políticas]] general.
+El contenido del wiki Web Platform Docs está disponible bajo una [[Template:CC-by-3.0|Licencia de Reconocimiento de Creative Commons (CC-BY)]], excepto donde se indique lo contrario. Para más detalles sobre las políticas de nuestro sitio, consulta nuestras políticas de [[WPD:Copyright|derechos de autor]] y [[WPD:Privacy|privacidad]], así como nuestra [[WPD:Policy|página de políticas]] general.
