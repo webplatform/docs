@@ -40,6 +40,14 @@ Some tools to help wireframe are:
 
 This part involves quite a bit of thought to how users will see and interact with your website and/or application.
 
+This goes in the process of designing
+====Graphic Design====
+====Users Compability====
+====Available Technology====
+====Future Proofing====
+====Responsiveness====
+
+
 ===Building the front-end===
 
 Once your site is designed and you know what you want, it is time to start building it. If you have no experience in web design then you should start with our [[beginners|beginners tutorial]] to get you started.
@@ -50,7 +58,26 @@ A lot of sites use some kind of administration backend like a Content Management
 
 ===Launch!===
 
-Once your site is ready, put it on a web host and point a domain at it!  Once the DNS resolves, your site will be online for all to enjoy.
+Once your site is ready, put it on a web host and point a domain at it!  Once the DNS resolves, your site will be online for all to enjoy. 
+
+===Spreading the word===
+
+You need to make sure people hear about it, if it is a type that needs visitors. To do that. There are something things you can do:
+1. Ask bloggers, industry related magazines, newspapers and anywhere to do a review of your site.
+2. Start a Social Contest for actual prizes on Facebook, Twitter, & Google+.
+3. Advertise.
+4. Optimize for quality and thus Search Engines.
+Some tips on Seo
+Submit to search engines.
+Maintain Clear structure of the site.
+Provide Alt definitions of pictures.
+Do not spam.
+Blog about it. 
+
+
+===Maintain===
+
+Launching is half the process though. You need to fix the problems that will for sure come up. And also updating and improving site thoroughly from time to time to meet the user's needs and to not be outdone by the competition it is necessary. 
 }}
 {{Examples_Section
 |Not_required=Yes
