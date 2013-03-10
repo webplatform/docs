@@ -76,7 +76,7 @@ Web Platform Docs es un sitio gestionado por la comunidad que aspira a convertir
     <div class="image icon-js"></div>
     
     <div class="inner">
-    <h3>[[javascript|JavaScript]]</h3>
+    <h3>[[javascript/es|JavaScript]]</h3>
     
     <p>Tutoriales y material de referencia de JavaScript, el lenguaje de secuencias de comando del lado cliente. Incluye material de referencia de librerías de JavaScript de terceros.</p>
     </div>
