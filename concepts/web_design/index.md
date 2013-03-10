@@ -2,7 +2,7 @@
 {{Flags}}
 {{Summary_Section|This page lists pages that cover theory related to web design, along the lines of digital/graphic design.}}
 {{Basic Page}}
-* Comprehensive Introduction to Art
+* [[concepts/IntrotoArt|Introduction to Art & Graphic Design]]
 * [[concepts/an_introduction_to_web_design|An introduction to web design]]
 * [[concepts/ux/user experience design|User Experience Design]]
 * [[concepts/ux/techniques|User Experience Design Techniques]]
