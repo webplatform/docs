@@ -138,19 +138,17 @@ follows:
 <circle id="pupil"   cx="100" cy="100" r="12"/>
 </syntaxhighlight>
 
-== ___ ==
+As you'll see below, there are some cases where you want to avoid
+using style sheets. The examples below show CSS applied as
+presentational attributes.
 
-<syntaxhighlight lang="xml">
-<circle id="eyeball" cx="100" cy="100" r="150"/>
-</syntaxhighlight>
+== Applying a gradient ==
 
-[[Image:svg_overview_eyeball_nofill.png]]
-
-
-
-While you can apply a solid color, a more complex radial gradient
-happens to be the ideal way to build the eyeball's series of
-concentric rings:
+The concentric circles provide a great way to implement the edge of
+the iris and pupil, but are not good for the slight bloodshot color
+towards the edge of the eye. As an alternative, you can implement the
+entire eyeball as a large circle, within which a radial gradient
+builds a series of concentric rings:
 
 <syntaxhighlight lang="xml">
 <circle id="eyeball" cx="100" cy="100" r="150" fill="url(#eyeballFill)" />
@@ -171,7 +169,7 @@ The '''circle''' tag's '''fill''' attribute references the '''id''' of
 the '''radialGradient'''.  The various nested '''stop''' tags define
 fairly abrupt gradations from the center to the edge&mdash;from black
 to blue and then to white&mdash;followed by a more gradual transition
-to pink around the edge of the circle.
+to pink around the edge of the circle. 
 
 ==Referencing graphics==
 
