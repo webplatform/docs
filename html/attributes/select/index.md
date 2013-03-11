@@ -9,7 +9,7 @@
 |Content=The select tokens define the matching criteria for distributing child nodes of the shadow host. Each token must be a valid selector fragment, which consists of the following:
 * a selector that uniquely identifies the shadow host.
 * a combination selector that identifies the parent element and the element at this insertion point.
-* the following CSS3 [css/selectors|selectors]:
+* the following CSS3 [[css/selectors|selectors]]:
 ** [[css/selectors/type|type selector]].
 ** [[css/selectors/universal_selector|universal selector]].
 ** [[css/selectors/class_selector|class selector]].
