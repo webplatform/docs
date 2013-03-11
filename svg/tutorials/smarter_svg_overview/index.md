@@ -6,16 +6,16 @@
 {{Byline}}
 {{Summary_Section|This guide introduces SVG graphics and shows you all the basics of how to deploy them along with standard web content.}}
 {{Tutorial
-|Content=SVG is a standard XML markup format that renders ''Scalable
-Vector Graphics'' within web browsers.  Vector or ''drawing''-style
-graphics are implemented as pure shapes that render crisply at any
-magnification. In contrast, ''raster'' or ''paint''-style images
-consist of a series of pixels that may not display well when zoomed at
-high resolution.  Use SVG if you want to freely interact with portions
-of a graphic.  Since SVG renders within the browser's DOM, each
-graphic component can be styled through CSS, manipulated with
-JavaScript through core APIs, and can appear comfortably alongside
-HTML content.
+|Content=SVG is a standard markup format, like HTML and XML, that
+renders ''Scalable Vector Graphics'' within web browsers.  Vector or
+''drawing''-style graphics are implemented as pure shapes that render
+crisply at any magnification. In contrast, ''raster'' or
+''paint''-style images consist of a series of pixels that may not
+display well when zoomed at high resolution.  Use SVG if you want to
+freely interact with portions of a graphic.  Since SVG renders within
+the browser's DOM, each graphic component can be styled through CSS,
+manipulated with JavaScript through core APIs, and can appear
+comfortably alongside HTML content.
 
 This section of the guide shows how SVG is deployed along with other
 core web standards, with which you should already be familiar.  It
@@ -165,16 +165,21 @@ builds a series of concentric rings:
 
 [[Image:svg_overview_eyeball_fill.png]]
 
-The '''circle''' tag's '''fill''' attribute references the '''id''' of
-the '''radialGradient'''.  The various nested '''stop''' tags define
-fairly abrupt gradations from the center to the edge&mdash;from black
-to blue and then to white&mdash;followed by a more gradual transition
-to pink around the edge of the circle. 
+The '''circle''' tag's '''fill''' attribute uses CSS's '''url()'''
+syntax to reference the '''id''' of the '''radialGradient''' tag.  Its
+nested '''stop''' tags define fairly abrupt gradations from the center
+to the edge&mdash;from black to blue and then to white&mdash;followed
+by a much more gradual transition to pink around the edge of the
+circle.
+
+SVG gradients work similarly to CSS gradients available for HTML
+content, but CSS gradients are only available via the
+'''background-image''' property, which doesn't apply to SVG.
 
 ==Referencing graphics==
 
 The circle is much larger than the actual eyeball, because we want it
-to float behind a pair of eyelids. Before you build them, however, you
+to float behind a pair of eyelids. But before you build them, you
 should stash away the graphic components you've already defined. Add a
 '''defs''' region to the '''svg''':
 
@@ -199,19 +204,44 @@ should stash away the graphic components you've already defined. Add a
 </syntaxhighlight>
 
 If you move the '''radialGradient''' within the '''defs''' region, the
-'''circle''' still references it as before.  If you move the
-'''circle''' there, it doesn't render. To get it to appear again later
-after you've built other components, you don't have to move it back
-out. Instead, place this line outside the '''defs''' region:
+'''circle''' still references it as before, but if you move the
+'''circle''' there, it doesn't render.
+
+The SVG '''use''' tag allows you a way to reference graphic
+components, flexibly reusing them as many times as you want. After
+placing the '''circle''' within the '''defs''' region, pointing to it
+with a '''use''' tag placed outside the '''defs''' makes it render:
 
 <syntaxhighlight lang="xml">
 <use xlink:href="#eyeball"/>
 </syntaxhighlight>
 
-This serves as a pointer to the eyeball graphic.  It's a ''deep''
-reference, not just a copy. That means any changes made to the
+The '''use'' tag can be a bit mystifying.  It's not just a copy of the
+object, but a ''deep'' reference.  That means any changes made to the
 '''circle''' or '''radialGradient''' within the '''defs''' appears
-dynamically. Still, the '''use''' tag allows you to add attributes or
+dynamically anywhere a '''use''' tag references it.
+
+* can add presentation attr's
+* can't override attr's
+* CSS style sheets don't survive
+* can't add geometry attr
+* can't override any attr
+* can't re-apply CSS separately
+
+...more to come...
+
+<!--
+
+...
+
+And notice a couple of other things. SVG requires you to use the
+'''xlink''' namespace to qualify the standard '''href''' attribute,
+which is also available in HTML with no namespace qualifier. And
+notice that this '''xlink:href''' attribute is a different way to
+reference an object than the CSS '''url()''' syntax you saw above to
+apply the gradient.
+
+Still, the '''use''' tag allows you to add attributes or
 override those defined in the prototype component. This example
 specifies a new '''id''' and modifies the '''cx''' attribute to move
 it to the left a bit from its original position at ''100'':
@@ -236,6 +266,8 @@ point, and values greater than 1 increase the size.  The
 '''rotate()''' function accepts a ''deg'' or ''rad'' measurement that
 spins the object.  The '''skewX()''' and '''skewY()''' also accepts an
 angle with which to shear the object horizontally or vertically.
+
+-->
 
 ==The eyelids==
 
