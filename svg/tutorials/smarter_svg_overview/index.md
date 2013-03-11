@@ -99,54 +99,44 @@ or they'll hide the smaller ones:
 
 ==Styling via CSS==
 
-In this example, the '''id''' and '''offset''' are ordinary
-''attributes'', while the '''stop-color''' is known as a
-''presentation attribute''.  These are simply CSS properties that are
-expressed as attributes.  Other than the tendency of CSS property
-names to use dashes-between-lowercase-words rather than ''camelCase''
-for attribute names, there may be no way to tell the difference by
-looking at them.
+In this example, the '''id''', '''cx''', '''cy''', and '''r''' are all
+ordinary ''attributes'', while the '''fill''' and '''stroke''' are
+known as ''presentation attributes''.  These are simply CSS properties
+that happen to be expressed as attributes.  Other than the tendency of
+longer CSS property names to use ''dashes-between-lowercase-words''
+rather than ''camelCase'' for attribute names, there may be no way to
+tell the difference by looking at them.
 
-Many CSS properties such as '''stop-color''' apply only to SVG
-content. Some, like '''font-size''', apply to both SVG and HTML.  Some
-behave like CSS properties that you apply to HTML, but are named
+Many CSS properties such as '''fill''' and '''stroke''' apply only to
+SVG content. Some, like '''font-size''', apply to both SVG and HTML.
+Some behave like CSS properties that you apply to HTML, but are named
 differently. The '''fill''' property provides much the same
 capabilities in SVG as the '''background-color''' and
-'''background-image''' properties does in HTML.  Since
-'''stop-color''' is CSS, You can also modify it locally via the
-'''style''' attribute. Doing so actually takes precedence over the
-value of presentation attributes, so this example changes the eye
-color to brown:
+'''background-image''' properties do for HTML.  Since '''fill'''
+is CSS, You can also modify it locally via the '''style'''
+attribute. Doing so actually takes precedence over the value of
+presentation attributes, so this example changes the eye color to
+brown:
 
 <syntaxhighlight lang="xml">
-<stop id="pupil" offset="15%" stop-color="lightblue" style="stop-color:brown"/>
+<circle id="iris" cx="100" cy="100" r="25" fill="lightblue" style="fill:brown"/>
 </syntaxhighlight>
 
-It's best practice to consolidate CSS in style sheets and separate it
+As in HTML, you can consolidate CSS in style sheets and separate it
 from markup. Placing this CSS in the ''eyeballs.css'' file referenced
 from the HTML applies it to the slightly pared-down SVG markup that
 follows:
 
 <syntaxhighlight lang="css">
- #inner { stop-color                   : black; }
- #outer { stop-color                   : pink; }
- #white, #bloodshotExtent { stop-color : white; }
- .blue { stop-color                    : lightblue; }
- .brown { stop-color                   : brown; }
+#eyeball { fill: white; stroke: black }
+#iris { fill: lightblue }
+#pupil { fill: black }
 </syntaxhighlight>
-
 <syntaxhighlight lang="xml">
-<radialGradient id="eyeballFill">
-  <stop id="inner"           offset="12%"  />
-  <stop id="pupil"           offset="15%"  class="blue" />
-  <stop id="iris"            offset="27%"  class="blue" />
-  <stop id="white"           offset="30%"  />
-  <stop id="bloodshotExtent" offset="40%"  />
-  <stop id="outer"           offset="100%" />
-</radialGradient>
+<circle id="eyeball" cx="100" cy="100" r="50"/>
+<circle id="iris"    cx="100" cy="100" r="25"/>
+<circle id="pupil"   cx="100" cy="100" r="12"/>
 </syntaxhighlight>
-
-
 
 == ___ ==
 
