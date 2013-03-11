@@ -3,9 +3,7 @@
 |High-level issues=Stub
 |Editorial notes=[new content edited offline by Sierra ([[User:Sierra|Sierra]] ([[User talk:Sierra|talk]])); please do not edit]
 }}
-{{Byline
-|Name=Mike Sierra 
-}}
+{{Byline}}
 {{Summary_Section|This guide introduces SVG graphics and shows you all the basics of how to deploy them along with standard web content.}}
 {{Tutorial
 |Content=SVG is a standard XML markup format that renders ''Scalable
@@ -68,38 +66,38 @@ comment your markup.
 ==The eyeball==
 
 Adding this line within the '''svg''' region produces a circle. The
-'''cx''', '''cy''', and '''r''' attributes position and size it:
+'''cx''' and '''cy''' attributes position its center point, and the
+'''r''' sizes it relative to that point:
 
 <syntaxhighlight lang="xml">
-<circle id="eyeball" cx="100" cy="100" r="150"/>
+<circle id="eyeball" cx="100" cy="100" r="50"/>
 </syntaxhighlight>
 
-[[Image:svg_overview_eyeball_nofill.png]]
+[[Image:svg_overview_eyeball_circle_black.png]]
 
-By default, it's filled black. While you can apply a solid color, a
-more complex radial gradient happens to be the ideal way to build the
-eyeball's series of concentric rings:
+By default, it's filled black. Adding a '''fill''' attribute allows
+you to color the background white, and a '''stroke''' attribute helps
+clarify the edge of the shape:
 
 <syntaxhighlight lang="xml">
-<circle id="eyeball" cx="100" cy="100" r="150" fill="url(#eyeballFill)" />
-
-<radialGradient id="eyeballFill">
-  <stop id="inner"           offset="12%"  stop-color="black" />
-  <stop id="pupil"           offset="15%"  stop-color="lightblue" />
-  <stop id="iris"            offset="27%"  stop-color="lightblue" />
-  <stop id="white"           offset="30%"  stop-color="white" />
-  <stop id="bloodshotExtent" offset="40%"  stop-color="white" />
-  <stop id="outer"           offset="100%" stop-color="pink" />
-</radialGradient>
+<circle id="eyeball" cx="100" cy="100" r="50" fill="white" stroke="black"/>
 </syntaxhighlight>
 
-[[Image:svg_overview_eyeball_fill.png]]
+[[Image:svg_overview_eyeball_circle_white.png]]
 
-The '''circle''' tag's '''fill''' attribute references the '''id''' of
-the '''radialGradient'''.  The various nested '''stop''' tags define
-fairly abrupt gradations from the center to the edge&mdash;from black
-to blue and then to white&mdash;followed by a more gradual transition
-to pink around the edge of the circle.
+To add the iris and pupil, you can add more circles that specify
+different fill colors. You need to declare the larger circles first,
+or they'll hide the smaller ones:
+
+<syntaxhighlight lang="xml">
+<circle id="eyeball" cx="100" cy="100" r="50" fill="white" stroke="black"/>
+<circle id="iris"    cx="100" cy="100" r="25" fill="lightblue"/>
+<circle id="pupil"   cx="100" cy="100" r="12" fill="black"/>
+</syntaxhighlight>
+
+[[Image:svg_overview_eyeball_circles.png]]
+
+==Styling via CSS==
 
 In this example, the '''id''' and '''offset''' are ordinary
 ''attributes'', while the '''stop-color''' is known as a
@@ -147,6 +145,43 @@ follows:
   <stop id="outer"           offset="100%" />
 </radialGradient>
 </syntaxhighlight>
+
+
+
+== ___ ==
+
+<syntaxhighlight lang="xml">
+<circle id="eyeball" cx="100" cy="100" r="150"/>
+</syntaxhighlight>
+
+[[Image:svg_overview_eyeball_nofill.png]]
+
+
+
+While you can apply a solid color, a more complex radial gradient
+happens to be the ideal way to build the eyeball's series of
+concentric rings:
+
+<syntaxhighlight lang="xml">
+<circle id="eyeball" cx="100" cy="100" r="150" fill="url(#eyeballFill)" />
+
+<radialGradient id="eyeballFill">
+  <stop id="inner"           offset="12%"  stop-color="black" />
+  <stop id="pupil"           offset="15%"  stop-color="lightblue" />
+  <stop id="iris"            offset="27%"  stop-color="lightblue" />
+  <stop id="white"           offset="30%"  stop-color="white" />
+  <stop id="bloodshotExtent" offset="40%"  stop-color="white" />
+  <stop id="outer"           offset="100%" stop-color="pink" />
+</radialGradient>
+</syntaxhighlight>
+
+[[Image:svg_overview_eyeball_fill.png]]
+
+The '''circle''' tag's '''fill''' attribute references the '''id''' of
+the '''radialGradient'''.  The various nested '''stop''' tags define
+fairly abrupt gradations from the center to the edge&mdash;from black
+to blue and then to white&mdash;followed by a more gradual transition
+to pink around the edge of the circle.
 
 ==Referencing graphics==
 
@@ -446,9 +481,9 @@ svg {
 [[Image:svg_overview_eyeballs_viewport_small.png]]
 
 The solution is to define a custom box using the '''viewBox'''
-attribute.  Doing so declares a set of abstract units for use within
-the graphic, which may bear no relation to the coordinate space in
-which the graphic appears:
+attribute.  Doing so declares a set of abstract units for exclusive
+use within the graphic, which may bear no relation to the coordinate
+space in which the graphic appears:
 
 <syntaxhighlight lang="xml">
 <svg width="300" height="100" viewBox="0 0 600 200">
@@ -681,7 +716,7 @@ files, and render them interactively within the HTML using either
   <body>
     <script defer type="text/javascript" src="js/html_and_svg.js"></script>
     <iframe src=’graphics.svg’></iframe>
-    <embed src=’graphics.svg’></embed>    
+    <embed src=’graphics.svg’></embed>
     <object data=’graphics.svg’ type=’image/svg+xml’></object>
   </body>
 </html>
@@ -809,7 +844,7 @@ the tag's '''requiredExtensions''' attribute. If not, it uses fallback
     7.14 The 'svg:transform' attribute
 
     5.5 The 'symbol' element
- 
+
  5 Document Structure
     5.6 The 'use' element
     5.8 Conditional processing
@@ -828,6 +863,7 @@ the tag's '''requiredExtensions''' attribute. If not, it uses fallback
 
 * '''color''', used to provide a potential indirect value (currentColor) for the '''fill''', '''stroke''', '''stop-color''', '''flood-color''' and '''lighting-color''' properties. (The SVG properties which support color allow a color specification which is extended from CSS2 to accommodate color definitions in arbitrary color spaces. See Color profile descriptions.)
 
+
 -->
 
 ([[svg/tutorials/smarter_svg_overview|Overview]] /
@@ -837,6 +873,7 @@ the tag's '''requiredExtensions''' attribute. If not, it uses fallback
 [[svg/tutorials/smarter_svg_filters|Filters]] /
 [[svg/tutorials/smarter_svg_animation|Animation]] /
 [[svg/tutorials/smarter_svg_interaction|Interaction]])
+
 }}
 {{Notes_Section}}
 {{Compatibility_Section
