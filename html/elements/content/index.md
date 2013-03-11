@@ -17,7 +17,7 @@ In addition to the [http://www.w3.org/html/wg/drafts/html/master/dom.html#global
 ! Description
 {{!}}-
 {{!}} [[html/attributes/select|select]]
-{{!}} A set of [[http://www.whatwg.org/specs/web-apps/current-work/multipage/common-microsyntaxes.html#comma-separated-tokens comma-separated tokens]]
+{{!}} A set of [http://www.whatwg.org/specs/web-apps/current-work/multipage/common-microsyntaxes.html#comma-separated-tokens comma-separated tokens]
 {{!}} The select tokens define the matching criteria for distributing child nodes of the shadow host.
 {{!}}-
 {{!}} [html/attributes/reset-style-inheritance|reset-style-inheritance]
