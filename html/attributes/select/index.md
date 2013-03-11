@@ -14,7 +14,7 @@
 ** [[css/selectors/universal_selector|universal selector]].
 ** [[css/selectors/class_selector|class selector]].
 ** [[css/selectors/id_selector|ID selector]].
-** [[css/selectors/attribute_selector|selectors].
+** [[css/selectors/attribute_selector|selectors]].
 ** The following pseudo-class selectors: 
 *** link
 *** visited
