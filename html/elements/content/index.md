@@ -7,6 +7,23 @@
 {{Summary_Section|The &lt;content&gt; element provides an insertion point into a shadow DOM tree.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLContentElement
+|Content====Attributes===
+
+In addition to the [http://www.w3.org/html/wg/drafts/html/master/dom.html#global-attributes Global Attributes], the <code>&lt;content&gt;</code> element supports the following attributes:
+
+{{{!}}
+! Attribute
+! Type
+! Description
+{{!}}-
+{{!}} [[html/attributes/select|select]]
+{{!}} A set of [[http://www.whatwg.org/specs/web-apps/current-work/multipage/common-microsyntaxes.html#comma-separated-tokens comma-separated tokens]]
+{{!}} The select tokens define the matching criteria for distributing child nodes of the shadow host.
+{{!}}-
+{{!}} [html/attributes/reset-style-inheritance|reset-style-inheritance]
+{{!}} Read-only. Boolean.
+{{!}} Indicates whether the inheritable CSS properties are set to the initial value established at the shadow boundary.
+{{!}}}
 }}
 {{Examples_Section
 |Not_required=No
