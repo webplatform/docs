@@ -10,11 +10,11 @@
 * a selector that uniquely identifies the shadow host.
 * a combination selector that identifies the parent element and the element at this insertion point.
 * the following CSS3 [[css/selectors|selectors]]:
-** [[css/selectors/type|type selector]].
-** [[css/selectors/universal_selector|universal selector]].
-** [[css/selectors/class_selector|class selector]].
-** [[css/selectors/id_selector|ID selector]].
-** [[css/selectors/attribute_selector|selectors]].
+** [[css/selectors/type|type selector]]
+** [[css/selectors/universal_selector|universal selector]]
+** [[css/selectors/class_selector|class selector]]
+** [[css/selectors/id_selector|ID selector]]
+** [[css/selectors/attribute_selector|attribute selectors]]
 ** The following pseudo-class selectors: 
 *** link
 *** visited
