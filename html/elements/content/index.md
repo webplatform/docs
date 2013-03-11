@@ -4,7 +4,7 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|The &lt;content&gt; element provides an insertion point into a shadow DOM tree.}}
+{{Summary_Section|The <code>&lt;content&gt;</code> element provides an insertion point into a shadow DOM tree.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLContentElement
 |Content====Attributes===
