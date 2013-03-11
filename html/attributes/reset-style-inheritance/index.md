@@ -6,7 +6,7 @@
 {{Markup_Attribute
 |Applies_to=dom/HTMLContentElement
 |Property_applies_to=html/elements/content
-|Content=Read only. Indicates the state of the [[dom/apis/ShadowRoot/resetStyleInheritance resetStyleInheritance]] flag for this insertion point. If present, the value of the flag must be set to true. Otherwise, the value must be set to false. If true, the inheritable CSS properties are set to the initial value at the shadow boundary. If false (default value), the properties continue to inherit. 
+|Content=Read only. Indicates the state of the [[dom/apis/ShadowRoot/resetStyleInheritance|resetStyleInheritance]] flag for this insertion point. If present, the value of the flag must be set to true. Otherwise, the value must be set to false. If true, the inheritable CSS properties are set to the initial value at the shadow boundary. If false (default value), the properties continue to inherit.
 }}
 {{Examples_Section
 |Not_required=No
@@ -44,7 +44,9 @@
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Topic_clusters=Web Components
+}}
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
