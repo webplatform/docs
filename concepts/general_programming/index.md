@@ -55,6 +55,7 @@
 * Scope
 * Encapsulation
 * Lexical Closure
+* Explicit vs Implicit Interface
 * Lexical Function
 * Strict Typing vs Optional
 * Inheritance
