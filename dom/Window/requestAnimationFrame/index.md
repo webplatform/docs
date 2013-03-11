@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Deletion Candidate, Missing Relevant Sections
+|High-level issues=Missing Relevant Sections
 |Content=Incomplete, Compatibility Incomplete
 |Editorial notes=Not part of user_timing, resource_timing, or navigation_timing interfaces.
 }}
@@ -40,47 +40,26 @@ To cancel an animation request before the animation function is called back, use
 |Not_required=No
 |Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Unknown
-|Chrome_version=
-|Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
-|Firefox_supported=Unknown
+|Chrome_supported=Yes
+|Chrome_version=24
+|Chrome_prefixed_supported=Yes
+|Chrome_prefixed_version=21
+|Firefox_supported=No
 |Firefox_version=
-|Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Unknown
-|Internet_explorer_version=
-|Internet_explorer_prefixed_supported=Unknown
+|Firefox_prefixed_supported=Yes
+|Firefox_prefixed_version=14
+|Internet_explorer_supported=Yes
+|Internet_explorer_version=10
+|Internet_explorer_prefixed_supported=No
 |Internet_explorer_prefixed_version=
 |Opera_supported=No
 |Opera_version=
-|Opera_prefixed_supported=Unknown
+|Opera_prefixed_supported=No
 |Opera_prefixed_version=
-|Safari_supported=Unknown
+|Safari_supported=No
 |Safari_version=
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
-}}{{Compatibility Table Desktop Row
-|Chrome_supported=Unknown
-|Chrome_version=
-|Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
-|Firefox_supported=Unknown
-|Firefox_version=
-|Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Unknown
-|Internet_explorer_version=
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
-|Opera_supported=No
-|Opera_version=
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
-|Safari_supported=Unknown
-|Safari_version=
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
+|Safari_prefixed_supported=Yes
+|Safari_prefixed_version=6
 }}
 |Mobile_rows=
 |Notes_rows=
