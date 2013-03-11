@@ -2,7 +2,7 @@
 {{Flags}}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Indicates whether the element inherits its CSS properties from the values established at the shadow boundary.}}
+{{Summary_Section|Indicates whether the inheritable CSS properties are set to the initial value established at the shadow boundary.}}
 {{Markup_Attribute
 |Applies_to=dom/HTMLContentElement
 |Property_applies_to=html/elements/content
