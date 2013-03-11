@@ -9,12 +9,12 @@
 |Content=The select tokens define the matching criteria for distributing child nodes of the shadow host. Each token must be a valid selector fragment, which consists of the following:
 * a selector that uniquely identifies the shadow host.
 * a combination selector that identifies the parent element and the element at this insertion point.
-* the following [http://www.w3.org/TR/css3-selectors CSS3 selector types]:
-** [http://www.w3.org/TR/css3-selectors/#type-selectors type selector].
-** [http://www.w3.org/TR/css3-selectors/#universal-selector universal selector].
-** [http://www.w3.org/TR/css3-selectors/#class-html class selector].
-** [http://www.w3.org/TR/css3-selectors/#id-selectors ID selector].
-** [http://www.w3.org/TR/css3-selectors/#attribute-selectors attribute selector].
+* the following CSS3 [css/selectors|selectors]:
+** [[css/selectors/type|type selector]].
+** [[css/selectors/universal_selector|universal selector]].
+** [[css/selectors/class_selector|class selector]].
+** [[css/selectors/id_selector|ID selector]].
+** [[css/selectors/attribute_selector|selectors].
 ** The following pseudo-class selectors: 
 *** link
 *** visited
