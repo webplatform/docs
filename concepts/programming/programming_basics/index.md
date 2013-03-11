@@ -170,7 +170,7 @@ var surname = 'Heilmann',
     hair = 'Flickr famous',
     message = 'Hi, I am ' + name + ' ' + surname + '. ';
 
-message += 'I am ' + age + 'years old and my hair is ' + hair;
+message += 'I am ' + age + ' years old and my hair is ' + hair;
 alert(message);
 </script>
 </source>
@@ -212,7 +212,7 @@ Arrays are great for describing collections of things that have something in com
  
 ==== Objects ====
  
-If you have a collection of items that need more detailed descriptions than just a running number, then an Array won’t quite give what you need, and you’ll need to create an object. Objects are constructs in programming that represent or model real things, such a people, vehicles or tools.
+If you have a collection of items that need more detailed descriptions than just a running number, then an Array won’t quite give what you need, and you’ll need to create an object. Objects are constructs in programming that represent or model real things, such as people, vehicles or tools.
  
 Objects are a big and very clever and versatile part of programming and explaining them in detail here would be beyond the scope of this article. Let’s just say that an object is a thing that has several properties. Say for example you have a person object; you can define the different properties by appending them with a dot:
  
