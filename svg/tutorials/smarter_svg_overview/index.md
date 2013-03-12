@@ -264,10 +264,7 @@ whose '''d''' (''definition'') attribute draws two curves that face
 each other:
 
 <syntaxhighlight lang="xml">
-<path
-   id = "eyelids"
-   d  = "M 200,100 Q 100,200 0,100 Q 100,0 200,100"
-   >
+<path id="eyelids" d="M 200,100 Q 100,200 0,100 Q 100,0 200,100" />
 </syntaxhighlight>
 
 [[Image:svgGrandTour_eyeball_eyelid.png|200px]]
@@ -331,8 +328,8 @@ below that you can move them or otherwise transform them as a unit.
 
 ==The eyelashes==
 
-Drawing the eyelashes requires a bit of creativity. We need to add yet
-another reference to the eyelid shape:
+Drawing the eyelashes requires a bit of creativity. We need to add a
+third reference to the eyelid shape.
 
 <syntaxhighlight lang="xml">
 <g id="eye">
@@ -364,8 +361,9 @@ ten pixels. This has the effect of drawing individual eyelashes:
 
 [[Image:svgGrandTour_eyeball_eyelashes.png||200px]]
 
-The '''stroke-linejoin''' property prevents the stroke from rendering
-too far past the sharp corner of the eye where the eyelids meet.
+The beveled '''stroke-linejoin''' property prevents the stroke from
+rendering too far past the sharp corner of the eye where the eyelids
+meet.
 
 ==Applying eyeliner==
 
@@ -524,7 +522,7 @@ to appear:
 
 [[Image:svgGrandTour_eyeballs_viewbox_preserve.png|100px]]
 
-==Blinking and glancing==
+==Glancing==
 
 The only remaining problem is that the graphic doesn't actually ''do''
 anything.  We want to make the eyes to ''move''.
@@ -559,10 +557,10 @@ transform described above:
 
 [[Image:svgGrandTour_eyeballs_translate50.png|500px]]
 
-That didn't do what we want. That moved the entire eyeball, including
-the clipping path behind which it is supposed to render. Instead,
-modify the '''cx''' attribute, which positions the center of the
-circle:
+That certainly didn't do what we want. It moved the entire eyeball,
+including the clipping path behind which it is supposed to render.
+Instead, modify the '''cx''' attribute, which sets the position of the
+center of the circle:
 
 <syntaxhighlight lang="xml">
 <circle id="eyeball" cx="150" cy="100" r="50"/>
@@ -637,6 +635,8 @@ animation ends. And notice that in addition to the '''xlink:href'''
 and '''url()''' syntax we've seen used to reference objects, now we
 see a third form of syntax that references the ''glanceStart''
 identifier along with the value of its '''end''' attribute.
+
+==Blinking==
 
 As is true for CSS transitions and animations, you can animate most
 any numeric or color value. You can also animate complex series of
