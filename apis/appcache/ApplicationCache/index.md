@@ -153,7 +153,7 @@ A browser can not allocate unlimited disk space for resources that should be cac
 *[http://appcachefacts.info/ appcachefacts.info]
 *[http://manifest-validator.com Cache Manifest Validator]
 }}
-{{Topics|Appcache}}
+{{Topics|Appcache, API}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MDN, MSDN
