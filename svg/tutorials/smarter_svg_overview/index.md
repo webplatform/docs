@@ -570,11 +570,11 @@ circle:
 
 [[Image:svgGrandTour_eyeball_glance.png|500px]]
 
-That's better. Now return the '''cx''' to its original value.  To get
-it to move instead, place an '''animate''' tag within the ''eyeball''
-object whose attribute you want to modify:
+That's much better. Now return the '''cx''' to its original value.  To
+get it to move dynamically, place an '''animate''' tag within the
+''eyeball'' object whose attribute you want to modify:
 
-<syntaxhighlight lang="xml" highlight="2-11">
+<syntaxhighlight lang="xml" highlight="2-10">
 <circle id="eyeball" cx="100" cy="100" r="150" >
     <animate
         id             = "glanceStart"
@@ -588,7 +588,7 @@ object whose attribute you want to modify:
 </circle>
 </syntaxhighlight>
 
-Let's run down what each attribute does:
+Let's step through what each attribute does:
 
 * '''attributeType''' clarifies that the value we're manipulating is an ''XML'' attribute, not a ''CSS'' property.
 
@@ -601,16 +601,12 @@ Let's run down what each attribute does:
 * '''from''' and '''to''' provide the values between which the animation should transition. In this case, it moves the eyeball 50 units to the right.
 
 As it appears above, the animation moves the eyes to the right, then
-immediately snaps back:
-
-[[Image:svgGrandTour_eyeball_glance.png]]
-
-There's an attribute called '''fill''', which is unfortunately named
-the same as the '''fill''' property that applies colors and gradients
-to shapes. Adding a '''fill''' attribute here and setting it to
-'''freeze''' would keep the eyes looking right after the animation
-ends.  But instead, we'll add another animation to return the eyes so
-that they look ahead:
+immediately snaps back.  There's an attribute called '''fill''', which
+is unfortunately named the same as the '''fill''' property that
+applies colors and gradients to shapes. Adding a '''fill''' attribute
+here and setting it to '''freeze''' would keep the eyes looking
+rightwards after the animation ends.  But instead, we'll add another
+animation to return the eyes to their original state:
 
 <syntaxhighlight lang="xml" highlight="3,12,15,17-18">
 <circle id="eyeball" cx="100" cy="100" r="150" >
