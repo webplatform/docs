@@ -704,7 +704,7 @@ Enough, already?
 ==Deploying SVG==
 
 Until recently, SVG was fairly difficult to incorporate with other web
-content, and there are still many challenges. The HTML5 standard
+content, and there are still many challenges.  The HTML5 standard
 provides a way to insert ''inline'' regions of SVG into HTML files.
 
 [[Image:scr_svg_html.png]]
