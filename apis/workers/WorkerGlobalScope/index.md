@@ -92,7 +92,7 @@ You can create new child workers  from inside a worker. They must all run in the
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|Webworkers}}
+{{Topics|API, Webworkers}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
