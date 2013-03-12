@@ -163,7 +163,7 @@ builds a series of concentric rings:
 </radialGradient>
 </syntaxhighlight>
 
-[[Image:svgGrandTour_eyeball_fill.png]]
+[[Image:svgGrandTour_eyeball_fill.png|200px]]
 
 The '''circle''' tag's '''fill''' attribute uses CSS's '''url()'''
 function to reference the '''id''' of the '''radialGradient''' tag.
