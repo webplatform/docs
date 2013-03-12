@@ -644,7 +644,7 @@ coordinates used in '''path''' definitions, so long as the sequence of
 path commands match so that there are corresponding sets of points.
 This allows the eyes to blink. Add this to the ''eyelids'' object:
 
-<syntaxhighlight lang="xml" highlight="9-17">
+<syntaxhighlight lang="xml" highlight="2-10">
 <path id="eyelids" d="M 200,100 Q 100,200 0,100 Q 100,0 200,100">
     <animate
         id            = "blink"
