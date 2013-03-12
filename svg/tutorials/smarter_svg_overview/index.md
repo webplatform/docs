@@ -73,7 +73,7 @@ Adding this line within the '''svg''' region produces a circle. The
 <circle id="eyeball" cx="100" cy="100" r="50"/>
 </syntaxhighlight>
 
-[[Image:svgGrandTour_eyeball_circle_black.png|50px]]
+[[Image:svgGrandTour_eyeball_circle_black.png|100px]]
 
 By default, it's filled black. Adding a '''fill''' attribute allows
 you to color the background white, and a '''stroke''' attribute helps
@@ -83,7 +83,7 @@ clarify the edge of the shape:
 <circle id="eyeball" cx="100" cy="100" r="50" fill="white" stroke="black"/>
 </syntaxhighlight>
 
-[[Image:svgGrandTour_eyeball_circle_white.png|50px]]
+[[Image:svgGrandTour_eyeball_circle_white.png|100px]]
 
 To add the iris and pupil, you can add more circles that specify
 different fill colors. Declaring the larger circles first prevents
@@ -95,7 +95,7 @@ them from obscuring the smaller ones:
 <circle id="pupil"   cx="100" cy="100" r="12" fill="black"/>
 </syntaxhighlight>
 
-[[Image:svgGrandTour_eyeball_circles.png|50px]]
+[[Image:svgGrandTour_eyeball_circles.png|100px]]
 
 ==Styling via CSS==
 
