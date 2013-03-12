@@ -85,7 +85,7 @@ Calling it on an already aborted request throws an exception.
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|XHR}}
+{{Topics|API, XHR}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
