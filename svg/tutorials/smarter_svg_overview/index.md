@@ -470,7 +470,7 @@ the '''defs''' region renders them:
 <use xlink:href="#eyes"/>
 </syntaxhighlight>
 
-[[Image:svgGrandTour_eyeballs.png]]
+[[Image:svgGrandTour_eyeballs.png|500px]]
 
 When presenting the eyes with other interface elements, you may want
 to resize them.  The original '''svg''' tag specified that they should
@@ -480,7 +480,7 @@ appear within a 600&times;200-pixel rectangle:
 <svg width="600" height="200">
 </syntaxhighlight>
 
-[[Image:svgGrandTour_eyeballs_viewport_large.png]]
+[[Image:svgGrandTour_eyeballs_viewport_large.png|600px]]
 
 But what if that's much too big for the context in which they are to
 appear?  If you shrink it down, using either the tag's
