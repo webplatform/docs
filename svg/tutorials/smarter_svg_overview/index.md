@@ -522,7 +522,7 @@ to appear:
 <svg width="100" height="100" viewBox="0 0 600 200" preserveAspectRatio="xMidYMid">
 </syntaxhighlight>
 
-[[Image:svgGrandTour_eyeballs_viewbox_preserve.png]]
+[[Image:svgGrandTour_eyeballs_viewbox_preserve.png|100px]]
 
 ==Blinking and glancing==
 
