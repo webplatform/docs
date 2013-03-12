@@ -103,7 +103,7 @@ var oMyBlob = new Blob(aFileParts, { "type" : "text/xml" }); // the blob
 }}
 }}
 {{See_Also_Section}}
-{{Topics|FileAPI}}
+{{Topics|API, FileAPI}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MDN, MSDN
