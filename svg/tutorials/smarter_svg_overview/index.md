@@ -467,8 +467,9 @@ the '''defs''' region renders them:
 
 [[Image:svg_overview_eyeballs.png]]
 
-The original '''svg''' tag specified that the eyes should appear
-within a 600&times;200-pixel rectangle:
+When presenting the eyes with other interface elements, you may want
+to resize them.  The original '''svg''' tag specified that they should
+appear within a 600&times;200-pixel rectangle:
 
 <syntaxhighlight lang="xml">
 <svg width="600" height="200">
@@ -476,16 +477,16 @@ within a 600&times;200-pixel rectangle:
 
 [[Image:svg_overview_eyeballs_viewport_large.png]]
 
-But what if that's much too big for the interface where you want to
-use them? If you shrink it down, using either the tag's
-'''width'''/'''height''' attributes or CSS, the dimensions no longer
+But what if that's much too big for the context in which they are to
+appear?  If you shrink it down, using either the tag's
+'''width'''/'''height''' attributes or CSS, its dimensions no longer
 match the various measurements specified within the graphic:
 
 <syntaxhighlight lang="xml">
 <style>
 svg {
-    width: 300;
-    height: 100;
+    width  : 300;
+    height : 100;
 }
 </style>
     <!-- ...or... -->
@@ -497,7 +498,8 @@ svg {
 The solution is to define a custom box using the '''viewBox'''
 attribute.  Doing so declares a set of abstract units for exclusive
 use within the graphic, which may bear no relation to the coordinate
-space in which the graphic appears:
+space within which the graphic appears, to which the SVG's '''width'''
+and '''height''' apply:
 
 <syntaxhighlight lang="xml">
 <svg width="300" height="100" viewBox="0 0 600 200">
@@ -506,9 +508,10 @@ space in which the graphic appears:
 [[Image:svg_overview_eyeballs_viewbox.png]]
 
 Adding a '''preserveAspectRatio''' attribute controls what happens in
-cases when the '''viewBox''' doesn't match the ''viewport'' within
-which the graphic appears. In this case, '''xMidYMid''' centers it and
-shrinks it enough for the entire graphic to appear:
+cases when the shape of the '''viewBox''' doesn't match the
+''viewport'' within which the graphic appears. In this case,
+'''xMidYMid''' centers it and shrinks it enough for the entire graphic
+to appear:
 
 <syntaxhighlight lang="xml">
 <svg width="100" height="100" viewBox="0 0 600 200" preserveAspectRatio="xMidYMid">
@@ -518,7 +521,7 @@ shrinks it enough for the entire graphic to appear:
 
 ==Blinking and glancing==
 
-The only remaining problem is that the graphic doesn't ''do''
+The only remaining problem is that the graphic doesn't actually ''do''
 anything.  We want to make the eyes to ''move''.
 
 In a few marginal cases, you can use CSS techniques to animate numeric
@@ -536,26 +539,46 @@ stops' ''blue'' and ''brown'' classes:
  }
 </syntaxhighlight>
 
+[[Image:svg_overview_eyeballs_brown.png]]
+
 You can't use that familiar approach for SVG attributes.  SVG has its
 own mechanism (based on the ''SMIL'' standard) to animate attribute
-values. We'll use it to make the eye glance to the side. As we've
-seen, the '''transform''' attribute's '''translate()''' function
-offers the most flexible way to move objects around. SVG provides an
-'''animateTransform''' tag dedicated to manipulating it. Add it within
-the ''eyeball'' object you want to move:
+values. We'll use it to make the eye glance to the side.
 
-<syntaxhighlight lang="xml" highlight="3-12">
-<circle id="eyeball" transform="translate(0,0)" cx="100" cy="100"
-        r="150" fill="url(#eyeballFill)">
-    <animateTransform
+First, let's try to move the eye statically using a '''translate()'''
+transform described above:
+
+<syntaxhighlight lang="xml">
+<circle id="eyeball" cx="100" cy="100" r="50" transform="translate(50,0)"/>
+</syntaxhighlight>
+
+[[Image:svg_overview_eyeballs_translate50.png]]
+
+That didn't do what we want. That moved the entire eyeball, including
+the clipping path behind which it is supposed to render. Instead,
+modify the '''cx''' attribute, which positions the center of the
+circle:
+
+<syntaxhighlight lang="xml">
+<circle id="eyeball" cx="150" cy="100" r="50"/>
+</syntaxhighlight>
+
+[[Image:svg_overview_eyeball_glance.png]]
+
+That's better. Now return the '''cx''' to its original value.  To get
+it to move instead, place an '''animate''' tag within the ''eyeball''
+object whose attribute you want to modify:
+
+<syntaxhighlight lang="xml" highlight="2-11">
+<circle id="eyeball" cx="100" cy="100" r="150" >
+    <animate
         id             = "glanceStart"
         attributeType  = "XML"
-        attributeName  = "transform"
-        type           = "translate"
+        attributeName  = "cx"
         begin          = "1s"
         dur            = "0.5s"
-        from           = "0 0"
-        to             = "50 0"
+        from           = "100"
+        to             = "150"
     />
 </circle>
 </syntaxhighlight>
@@ -564,15 +587,13 @@ Let's run down what each attribute does:
 
 * '''attributeType''' clarifies that the value we're manipulating is an ''XML'' attribute, not a ''CSS'' property.
 
-* '''attributeName''' provides the name of the attribute to modify, ''transform'' in this case.
+* '''attributeName''' provides the name of the attribute to modify, ''cx'' in this case.
 
-* Since a transform can specify combinations of functions, the '''type''' attribute clarifies which function to manipulate, ''translate'' in this case.
-
-* '''begin''' specifies a delay after which the animation executes, in this case 1 second. A begin value of ''0s'' animates immediately. (If you leave out this attribute, the animation does not play by default, but you can use JavaScript to make it play as described below.)
+* '''begin''' specifies a delay after which the animation executes, in this case 1 second. A begin value of ''0s'' animates immediately. (If you leave out this attribute, the animation does not play by default, but you can control it with JavaScript as described below.)
 
 * '''dur''' specifies the animation's duration, half a second in this case.
 
-* '''from''' and '''to''' provide the values between which the animation should transition. In this case, it moves it 50 units to the right.
+* '''from''' and '''to''' provide the values between which the animation should transition. In this case, it moves the eyeball 50 units to the right.
 
 As it appears above, the animation moves the eyes to the right, then
 immediately snaps back:
@@ -580,96 +601,84 @@ immediately snaps back:
 [[Image:svg_overview_eyeball_glance.png]]
 
 There's an attribute called '''fill''', which is unfortunately named
-the same as the '''fill''' property that applies colors and
-gradients. Adding a '''fill''' attribute here and setting it to
+the same as the '''fill''' property that applies colors and gradients
+to shapes. Adding a '''fill''' attribute here and setting it to
 '''freeze''' would keep the eyes looking right after the animation
 ends.  But instead, we'll add another animation to return the eyes so
 that they look ahead:
 
-<syntaxhighlight lang="xml" highlight="4,19-20">
-<circle id="eyeball" transform="translate(0,0)" cx="100" cy="100"
-        r="150" fill="url(#eyeballFill)">
-    <animateTransform
+<syntaxhighlight lang="xml" highlight="3,12,15,17-18">
+<circle id="eyeball" cx="100" cy="100" r="150" >
+    <animate
         id             = "glanceStart"
         attributeType  = "XML"
-        attributeName  = "transform"
-        type           = "translate"
+        attributeName  = "cx"
         begin          = "1s"
         dur            = "0.5s"
-        from           = "0 0"
-        to             = "50 0"
+        from           = "100"
+        to             = "150"
     />
-    <animateTransform
+    <animate
         id             = "glanceEnd"
         attributeType  = "XML"
-        attributeName  = "transform"
-        type           = "translate"
-        dur            = "0.5s"
+        attributeName  = "cx"
         begin          = "glanceStart.end"
-        from           = "50 0"
-        to             = "0 0"
+        dur            = "0.5s"
+        from           = "150"
+        to             = "100"
     />
 </circle>
 </syntaxhighlight>
 
 Aside from the values of '''from''' and '''to''' being inverted, note
 the '''begin''' time is expressed in terms of whenever the previous
-animation ends.  And yes, it may help to keep track of the three
-different ways we've seen so far to reference an SVG object:
-
-* the ''id.attr'' notation above.
-
-* SVG's '''xlink:href''', which specifies a URL, external file, or anchor.
-
-* CSS's own '''url()''' function, which can be applied to SVG's presentation attribute values.
+animation ends. And notice that in addition to the '''xlink:href'''
+and '''url()''' syntax we've seen used to reference objects, now we
+see a third form of ''id.attr'' notation.
 
 As is true for CSS transitions and animations, you can animate most
 any numeric or color value. You can also animate complex series of
 coordinates used in '''path''' definitions, so long as the sequence of
 path commands match so that there are corresponding sets of points.
-This allows us to make the eyes blink. Add this to the ''eyelids''
-object:
+This allows the eyes to blink. Add this to the ''eyelids'' object:
 
 <syntaxhighlight lang="xml" highlight="9-17">
-<path
-    filter       = "url(#soften)"
-    id           = "eyelids"
-    d            = "M 200,100 Q 100,200 0,100 Q 100,0 200,100"
-    fill         = "transparent"
-    stroke       = "#aaa"
-    stroke-width = "2"
->
+<path id="eyelids" d="M 200,100 Q 100,200 0,100 Q 100,0 200,100">
     <animate
         id            = "blink"
         attributeType = "XML"
         attributeName = "d"
         from          = "M 200,100 Q 100,200 0,100 Q 100,0 200,100"
         to            = "M 200,100 Q 100,100 0,100 Q 100,100 200,100"
-        begin         = "4s;6s"
+        begin         = "4s; 6s; 8s; 9s; 11.5s; 13s"
         dur           = "0.1s"
     />
 </path>
 </syntaxhighlight>
 
-In this case, the '''begin''' attribute specifies two different
-values, so the animation is triggered after four seconds, then once
-again after six seconds.  Between the '''from''' and '''to''' values,
-the only values that are modified are the positions of the two control
-points that affect the shape of the curve, so the animation behaves
-like this:
+In this case, the '''begin''' attribute specifies half a dozen
+different values, so the animation executes several times .  Between
+the '''from''' and '''to''' values, the only values that are modified
+are the positions of the two control points that affect the shape of
+the curve, so the animation behaves like this:
 
 [[Image:svg_overview_eyeball_blink.png]]
 
 You can use JavaScript to control these animations more flexibly. To
 do so, call the '''beginElement()''' method on the animation object.
-This allows a script to change where the eyes glance:
+This example shifts the coordinates to which the eyes glance, with an
+optional duration parameter to regulate the speed:
 
 <syntaxhighlight lang="javascript">
-function glanceTo(x,y) {
-    var toThere = document.querySelector('#glanceStart')
-    var andBack = document.querySelector('#glanceEnd')
+function glanceTo(x,y,dur) {
+    var defaultDur = 0.5;
+    dur = (dur || defaultDur) + 's';
+    var toThere = document.querySelector('#glanceStart');
+    var andBack = document.querySelector('#glanceEnd');
     toThere.setAttribute("to", x + " " + y);
     andBack.setAttribute("from", x + " " + y);
+    toThere.setAttribute("dur", dur);
+    andBack.setAttribute("dur", dur);
     toThere.beginElement();
 }
 </syntaxhighlight>
@@ -680,9 +689,9 @@ two and five seconds:
 <syntaxhighlight lang="javascript">
 function blink() {
     var minDelay = 2000;
-    var extraDelay = 3000;
+    var maxExtraDelay = 3000;
     document.querySelector('#blink').beginElement();
-    setTimeout(blink, (Math.floor(Math.random() * extraDelay) + minDelay));
+    setTimeout(blink, (Math.floor(Math.random() * maxExtraDelay) + minDelay));
 }
 </syntaxhighlight>
 
