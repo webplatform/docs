@@ -28,7 +28,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|WebRTC}}
+{{Topics|API, WebRTC}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
