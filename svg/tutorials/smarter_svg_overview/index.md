@@ -86,8 +86,8 @@ clarify the edge of the shape:
 [[Image:svg_overview_eyeball_circle_white.png]]
 
 To add the iris and pupil, you can add more circles that specify
-different fill colors. You need to declare the larger circles first,
-or they'll hide the smaller ones:
+different fill colors. Declaring the larger circles first prevents
+them from obscuring the smaller ones:
 
 <syntaxhighlight lang="xml">
 <circle id="eyeball" cx="100" cy="100" r="50" fill="white" stroke="black"/>
@@ -144,8 +144,8 @@ presentational attributes.
 
 == Applying a gradient ==
 
-The concentric circles provide a great way to implement the edge of
-the iris and pupil, but are not good for the slight bloodshot color
+The concentric circles provide a good way to implement the edge of the
+iris and pupil, but are not good for the slight bloodshot color
 towards the edge of the eye. As an alternative, you can implement the
 entire eyeball as a large circle, within which a radial gradient
 builds a series of concentric rings:
@@ -166,11 +166,11 @@ builds a series of concentric rings:
 [[Image:svg_overview_eyeball_fill.png]]
 
 The '''circle''' tag's '''fill''' attribute uses CSS's '''url()'''
-syntax to reference the '''id''' of the '''radialGradient''' tag.  Its
-nested '''stop''' tags define fairly abrupt gradations from the center
-to the edge&mdash;from black to blue and then to white&mdash;followed
-by a much more gradual transition to pink around the edge of the
-circle.
+function to reference the '''id''' of the '''radialGradient''' tag.
+Its nested '''stop''' tags define fairly abrupt gradations from the
+center to the edge&mdash;from black to blue and then to
+white&mdash;followed by a more gradual transition to pink around the
+edge of the circle.
 
 SVG gradients work similarly to CSS gradients available for HTML
 content, but CSS gradients are only available via the
@@ -207,8 +207,8 @@ If you move the '''radialGradient''' within the '''defs''' region, the
 '''circle''' still references it as before, but if you move the
 '''circle''' there, it doesn't render.
 
-The SVG '''use''' tag allows you a way to reference graphic
-components, flexibly reusing them as many times as you want. After
+The SVG '''use''' tag allows you a way to reuse graphic components
+repeatedly, and to place them in differently sized areas.  After
 placing the '''circle''' within the '''defs''' region, pointing to it
 with a '''use''' tag placed outside the '''defs''' makes it render:
 
@@ -216,10 +216,10 @@ with a '''use''' tag placed outside the '''defs''' makes it render:
 <use xlink:href="#eyeball"/>
 </syntaxhighlight>
 
-The '''use'' tag can be a bit mystifying.  It's not just a copy of the
-object, but a ''deep'' reference.  That means any changes made to the
-'''circle''' or '''radialGradient''' within the '''defs''' appears
-dynamically anywhere a '''use''' tag references it.
+The '''use'' tag can be a bit mystifying.  It's not simply a copy of
+the object it points to, but a ''deep'' reference.  That means any
+changes made to the '''circle''' or '''radialGradient''' within the
+'''defs''' appears dynamically anywhere a '''use''' tag references it.
 
 * can add presentation attr's
 * can't override attr's
