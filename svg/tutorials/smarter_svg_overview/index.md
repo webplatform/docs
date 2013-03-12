@@ -568,7 +568,7 @@ circle:
 <circle id="eyeball" cx="150" cy="100" r="50"/>
 </syntaxhighlight>
 
-[[Image:svgGrandTour_eyeball_glance.png]]
+[[Image:svgGrandTour_eyeball_glance.png|500px]]
 
 That's better. Now return the '''cx''' to its original value.  To get
 it to move instead, place an '''animate''' tag within the ''eyeball''
