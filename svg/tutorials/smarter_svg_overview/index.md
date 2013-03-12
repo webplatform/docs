@@ -544,7 +544,7 @@ stops' ''blue'' and ''brown'' classes:
  }
 </syntaxhighlight>
 
-[[Image:svgGrandTour_eyeballs_brown.png]]
+[[Image:svgGrandTour_eyeballs_brown.png|500px]]
 
 You can't use that familiar approach for SVG attributes.  SVG has its
 own mechanism (based on the ''SMIL'' standard) to animate attribute
@@ -557,7 +557,7 @@ transform described above:
 <circle id="eyeball" cx="100" cy="100" r="50" transform="translate(50,0)"/>
 </syntaxhighlight>
 
-[[Image:svgGrandTour_eyeballs_translate50.png]]
+[[Image:svgGrandTour_eyeballs_translate50.png|500px]]
 
 That didn't do what we want. That moved the entire eyeball, including
 the clipping path behind which it is supposed to render. Instead,
