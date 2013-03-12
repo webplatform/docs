@@ -304,13 +304,13 @@ the eyeball shape. This example shows it assigned separately via CSS:
 <use xlink:href="#eyeball" class="eyeball" />
 </syntaxhighlight>
 
-[[Image:svgGrandTour_eyeball_eyelid_clip.png]]
+[[Image:svgGrandTour_eyeball_eyelid_clip.png|200px]]
 
-The only problem now is that the eyelid doesn't appear. Clipping paths
-don't actually render, so we need to point another reference to it.
-The first '''use''' below places the eyeball within the clipping path,
-and the second produces the path itself. The third '''use''' that
-appears outside the '''defs''' renders the entire object:
+The only problem now is that the eyelid has disappeared. Clipping
+paths don't actually render, so we need to point another reference to
+it.  The first '''use''' below places the eyeball within the clipping
+path, and the second produces the path itself. The third '''use'''
+that appears outside the '''defs''' renders the entire object:
 
 <syntaxhighlight lang="xml">
 <defs>
