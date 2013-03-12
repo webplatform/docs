@@ -370,16 +370,16 @@ too far past the sharp corner of the eye where the eyelids meet.
 ==Applying eyeliner==
 
 Even after lightening the color of the stroke, the eyelashes appear
-way too crisp and detailed compared to the eyeball, and could be
-softened up a bit.  SVG ''filters'' provide many image processing
+way too crisp and thin compared to the eyeball, and could be softened
+and thickened up a bit.  SVG ''filters'' provide many image processing
 tools that you can mix and match to produce such special visual
 effects.
 
 Add a '''filter''' element to the '''defs''' region. It serves as a
 wrapper for various ''filter effect'' components, which by default are
 applied in sequence. In this case, the '''feGaussianBlur''' effect
-scatters the pixels around randomly, and '''feComponentTransfer'''
-darkens the result:
+scatters the pixels around randomly (a bit more vertically than
+horizontally), and '''feComponentTransfer''' darkens the result:
 
 <syntaxhighlight lang="xml">
 <filter
@@ -529,10 +529,10 @@ to appear:
 The only remaining problem is that the graphic doesn't actually ''do''
 anything.  We want to make the eyes to ''move''.
 
-In a few marginal cases, you can use CSS techniques to animate numeric
-and color properties that apply to SVG. For example, here's a way to
-gradually change the eye color, by toggling between the gradient color
-stops' ''blue'' and ''brown'' classes:
+In many cases, you can use CSS techniques to animate numeric and color
+properties that apply to SVG. For example, here's a way to gradually
+change the eye color, by toggling between the gradient color stops'
+''blue'' and ''brown'' classes:
 
 <syntaxhighlight lang="css">
  .blue  { stop-color   : lightblue; }
@@ -664,7 +664,7 @@ the '''from''' and '''to''' values, the only values that are modified
 are the positions of the two control points that affect the shape of
 the curve, so the animation behaves like this:
 
-[[Image:svgGrandTour_eyeball_blink.png|600px]]
+[[Image:svgGrandTour_eyeball_blink.png]]
 
 You can use JavaScript to control these animations more flexibly. To
 do so, call the '''beginElement()''' method on the animation object.
