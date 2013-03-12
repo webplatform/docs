@@ -242,7 +242,7 @@ same style sheet based on the '''id''' of the target, and the
 <defs>
 <circle id="eyeball" cx="100" cy="100" r="150" />
 <defs>
-<use xlink:href="#eyeball" class="eyeball" id="eyeballInstance1"/>
+<use xlink:href="#eyeball" class="eyeball" id="eyeball_1"/>
 </svg>
 </syntaxhighlight>
 
@@ -266,18 +266,15 @@ each other:
 
 <syntaxhighlight lang="xml">
 <path
-    id           = "eyelids"
-    d            = "M 200,100 Q 100,200 0,100 Q 100,0 200,100"
-    fill         = "none"
-    stroke       = "black"
-    stroke-width = "2"
-/>
+   id = "eyelids"
+   d  = "M 200,100 Q 100,200 0,100 Q 100,0 200,100"
+   >
 </syntaxhighlight>
 
 [[Image:svg_overview_eyeball_eyelid.png]]
 
-Part of each curve's definition is a ''control point'' that influences
-that shape of the curve, but do not themselves render. Starting from
+Each curve's definition includes ''control points'' that influence the
+shape of the curve, but that do not themselves render. Starting from
 the right corner (''M'' for ''move to''), the first quadratic (''Q'')
 curve's control point is placed at the top, and the destination is the
 left corner. The second quadratic curve places its control point at
@@ -291,120 +288,99 @@ again, so it is best to '''use''' a reference to it:
 
 <syntaxhighlight lang="xml">
 <clipPath id="clipEyelid">
-    <use xlink:href="#eyelids" />
+    <use xlink:href="#eyelids" class="eyelids" />
 </clipPath>
 </syntaxhighlight>
 
-Now apply the '''clip-path''' attribute to the eyeball shape for the
-clipping path to take effect. You can apply it to the original shape,
-or the '''use''' that references it:
+Now apply the '''clip-path''' property to apply the clipping path to
+the eyeball shape. This example shows it assigned separately via CSS:
 
+<syntaxhighlight lang="css">
+.eyeball {
+    fill       : url(#eyeballFill);
+    clip-path  : url(#clipEyelid);
+}
+</syntaxhighlight>
 <syntaxhighlight lang="xml">
-<use xlink:href="#eyeball" clip-path="url(#clipEyelid)" />
+<use xlink:href="#eyeball" class="eyeball" />
 </syntaxhighlight>
 
 [[Image:svg_overview_eyeball_eyelid_clip.png]]
 
-The only problem now is that the eyelid disappeared. Clipping paths
-don't actually render, so the solution is to draw another reference to
-it.  The first '''use''' below renders the eyeball within the clipping
-path, and the second renders the path:
+The only problem now is that the eyelid doesn't appear. Clipping paths
+don't actually render, so we need to point another reference to it.
+The first '''use''' below places the eyeball within the clipping path,
+and the second produces the path itself. The third '''use''' that
+appears outside the '''defs''' renders the entire object:
 
 <syntaxhighlight lang="xml">
+<defs>
 <g id="eye">
-  <use xlink:href="#eyeball" clip-path="url(#clipEyelid)" />
-  <use xlink:href="#eyelids" />
+  <use xlink:href="#eyeball" class="eyeball" />
+  <use xlink:href="#eyelids" class="eyelids" />
 </g>
+</defs>
+<use xlink:href="#eye" />
 </syntaxhighlight>
 
 [[Image:svg_overview_eyeball_eyelid_both.png]]
 
-It becomes useful here to wrap a '''g''' tag to ''group'' the two
-graphic elements into a larger semantic ''eye'' object. You can then
-move or otherwise transform them as a unit.
-
-<!--
-
-The '''transform''' attribute's '''translate()''' function provides a
-more flexible way to reposition objects referenced via '''use'''. It
-uses relative measurements to move it to the left along the ''x''
-axis, and not at all along the ''y'' axis:
-
-<syntaxhighlight lang="xml">
-<use xlink:href="#eyeball" id="eyeballLeft" transform="translate(-20,0)"/>
-</syntaxhighlight>
-
-These provide the same functionality as two-dimensional CSS
-transforms.  The '''scale()''' function accepts a decimal value to
-size the object, where ''1'' is the current size, ''0'' vanishes to a
-point, and values greater than 1 increase the size.  The
-'''rotate()''' function accepts a ''deg'' or ''rad'' measurement that
-spins the object.  The '''skewX()''' and '''skewY()''' also accepts an
-angle with which to shear the object horizontally or vertically.
-
--->
+It becomes useful here to ''group'' the two graphic elements, wrapping
+a '''g''' tag around them to consolidate a larger semantic ''eye''
+object. In addition to the ability to reference them, you will see
+below that you can move them or otherwise transform them as a unit.
 
 ==The eyelashes==
 
-To draw eyelashes, there are potentially a couple of ways to attach
-objects to the ''eyelid'' path. One is to define a ''marker'', which
-wouldn't work here because the graphic would only appear at each
-corner of the eye. Another is to run text along the path, which may
-seem odd but in this case provides the illusion we want.  First, place
-many lowercase ''l'' characters within a '''text''' element, enough to
-overflow the ''eyelids'' shape:
-
-<syntaxhighlight lang="xml">
-<text id="eyelashContent" >
-llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll
-</text>
-</syntaxhighlight>
-
-The '''tref''' tag inserts the referenced ''eyelashContent'' text
-within a '''textPath''' wrapper that itself references the ''eyelids''
-shape along which to run the text.  The outer ''eyelashes'' wrapper is
-necessary to render the entire collection of text, some of which may
-run along a path. Various '''tref''' attributes slant the text,
-lighten it, and space it out:
-
-<syntaxhighlight lang="xml" highlight="2,5">
-<text id="eyelashes">
-  <textPath xlink:href="#eyelids">
-    <tref
-      id               = "eyelashTextRef"
-      xlink:href       = "#eyelashContent"
-      font-size        = "20"
-      letter-spacing   = "4"
-      font-style       = "italic"
-      stroke           = "#ddd"
-    />
-  </textPath>
-</text>
-</syntaxhighlight>
-
-Add the eyelashes to the consolidated ''eye'' object:
+Drawing the eyelashes requires a bit of creativity. We need to add yet
+another reference to the eyelid shape:
 
 <syntaxhighlight lang="xml">
 <g id="eye">
-  <use xlink:href="#eyeball" clip-path="url(#clipEyelid)" />
-  <use xlink:href="#eyelids" />
-  <use xlink:href="#eyelashes" />
+  <use xlink:href="#eyelids" class="eyelashes" />
+  <use xlink:href="#eyelids" class="eyelids"   />
+  <use xlink:href="#eyeball" class="eyeball"   />
 </g>
 </syntaxhighlight>
 
+The ''eyelashes'' class presents the underlying ''eyelids'' shape much
+differently:
+
+<syntaxhighlight lang="css">
+.eyelashes {
+    fill              : none;
+    stroke            : #ddd;
+    stroke-width      : 40;
+    stroke-dasharray  : 1,10;
+    stroke-linejoin   : bevel;
+}
+</syntaxhighlight>
+
+The '''stroke-width''' thickens the edge so that it extends both
+inside and outside the shape.  By default, the ''stroke'' is solid,
+but you can apply a ''dash'' pattern to break it into segments.
+Setting the '''stroke-dasharray''' property to ''1,10'' specifies that
+for every pixel rendered around the edge of the shape, skip another
+ten pixels. This has the effect of drawing individual eyelashes:
+
 [[Image:svg_overview_eyeball_eyelashes.png]]
+
+The '''stroke-linejoin''' property prevents the stroke from rendering
+too far past the sharp corner of the eye where the eyelids meet.
 
 ==Applying eyeliner==
 
-Even after lightening the color, the eyelashes appear way too crisp
-and detailed compared to the eyeball, and could be softened up a bit.
-SVG ''filters'' provide many image processing tools that you can mix
-and match to produce such special visual effects.
+Even after lightening the color of the stroke, the eyelashes appear
+way too crisp and detailed compared to the eyeball, and could be
+softened up a bit.  SVG ''filters'' provide many image processing
+tools that you can mix and match to produce such special visual
+effects.
 
 Add a '''filter''' element to the '''defs''' region. It serves as a
-wrapper for various ''filter effect'' components, which are applied in
-sequence. In this case, the '''feGaussianBlur''' effect scatters the
-pixels around, and '''feComponentTransfer''' darkens the result:
+wrapper for various ''filter effect'' components, which by default are
+applied in sequence. In this case, the '''feGaussianBlur''' effect
+scatters the pixels around randomly, and '''feComponentTransfer'''
+darkens the result:
 
 <syntaxhighlight lang="xml">
 <filter
@@ -415,7 +391,7 @@ pixels around, and '''feComponentTransfer''' darkens the result:
     height       = "250"
     filterUnits  = "userSpaceOnUse"
 >
-  <desc>soften eyelidand eyelashes</desc>
+  <desc>soften eyelid and eyelashes</desc>
   <feGaussianBlur stdDeviation="1 3" />
   <feComponentTransfer>
       <feFuncR type="linear" slope="0.3"/>
@@ -425,56 +401,65 @@ pixels around, and '''feComponentTransfer''' darkens the result:
 </filter>
 </syntaxhighlight>
 
-The eyelid renders horizontally between 0 and 200 pixels, so the
+Since the eyelid renders horizontally between 0 and 200 pixels, the
 eyelashes spill slightly outside the the left edge of the original
 drawing area.  The ''filter'' tag's
 '''x'''/'''y'''/'''width'''/'''height''' attributes apply the effect
 to a wider set of dimensions. Setting '''filterUnits''' to
-'''userSpaceOnUse''' specifies to use the original coordinate system;
-otherwise values would be interpreted as percentages of the box to
-which the filter is applied.
+'''userSpaceOnUse''' uses the same coordinate system as the shape to
+which the filter is applied; otherwise values would be interpreted as
+percentages of the object's bounding box.
 
-Use the '''filter''' attribute to apply the effect, in this case to
-the eyelashes:
+Use the '''filter''' property to assign the effect to the shape used
+to render the eyelids and eyelashes:
 
-<syntaxhighlight lang="xml" highlight="3">
-<text
-    id     = "eyelashes"
-    filter = "url(#soften)"
-/>
+<syntaxhighlight lang="css">
+#eyelids {
+    filter : url(#soften);
+}
 </syntaxhighlight>
 
 [[Image:svg_overview_eyeball_eyelash_filter.png]]
 
-It needs to be applied again separately to the eyelids:
-
-<syntaxhighlight lang="xml" highlight="4">
-<path
-    id           = "eyelids"
-    d            = "M 200,100 Q 100,200 0,100 Q 100,0 200,100"
-    filter       = "url(#soften)"
-    fill         = "transparent"
-    stroke       = "#aaa"
-    stroke-width = "2"
-/>
-</syntaxhighlight>
-
 [[Image:svg_overview_eyeball_eyelid_filter.png]]
 
-==Coordinate spaces==
+==Coordinate spaces and transforms==
 
 To finish off the graphic, group another instance of the ''eye''
-object into a higher-level ''eyes'' object, and use '''transform''' to
-space them out:
+object into a higher-level ''eyes'' object:
 
 <syntaxhighlight lang="xml">
 <g id="eyes">
-  <use xlink:href="#eye" transform="translate(50,0)" />
-  <use xlink:href="#eye" transform="translate(350,0)" />
+  <use xlink:href="#eye"/>
+  <use xlink:href="#eye"/>
 </g>
 </syntaxhighlight>
 
-A single '''use''' tag outside the '''defs''' region renders the eyes:
+This renders the same shape twice at the same location. To space them
+out, apply a '''transform'''. This moves the character's right eye to
+the right a bit, and the left eye 300 units further:
+
+<syntaxhighlight lang="xml">
+<g id="eyes">
+  <use xlink:href="#eye" id="eyeRight" transform="translate(50,0)"/>
+  <use xlink:href="#eye" id="eyeLeft"  transform="translate(350,0)"/>
+</g>
+</syntaxhighlight>
+
+The '''transform''' attribute's '''translate()''' function provides a
+flexible way to reposition objects referenced via '''use''', but
+transforms can be applied to most any graphic element.  SVG transforms
+provide the same functionality as two-dimensional CSS transforms.  The
+'''scale()''' function accepts a decimal value to size the object,
+where ''1'' is the current size, ''0'' vanishes to a point, and values
+greater than 1 increase the size.  The '''rotate()''' function accepts
+a ''deg'' or ''rad'' angle measurement that spins the object.  The
+'''skewX()''' and '''skewY()''' also accepts an angle with which to
+shear the object horizontally or vertically. And '''translate()'''
+shifts the object's position.
+
+Once the eyes are semantically grouped, a single '''use''' tag outside
+the '''defs''' region renders them:
 
 <syntaxhighlight lang="xml">
 <use xlink:href="#eyes"/>
@@ -704,6 +689,9 @@ function blink() {
 Enough, already?
 
 [[Image:svg_overview_eyeball_tired.png]]
+
+
+
 
 ==Deploying SVG==
 
