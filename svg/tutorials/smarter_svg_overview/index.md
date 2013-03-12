@@ -498,7 +498,7 @@ svg {
 <svg width="300" height="100">
 </syntaxhighlight>
 
-[[Image:svgGrandTour_eyeballs_viewport_small.png]]
+[[Image:svgGrandTour_eyeballs_viewport_small.png|300px]]
 
 The solution is to define a custom box using the '''viewBox'''
 attribute.  Doing so declares a set of abstract units for exclusive
@@ -510,7 +510,7 @@ and '''height''' apply:
 <svg width="300" height="100" viewBox="0 0 600 200">
 </syntaxhighlight>
 
-[[Image:svgGrandTour_eyeballs_viewbox.png]]
+[[Image:svgGrandTour_eyeballs_viewbox.png|300px]]
 
 Adding a '''preserveAspectRatio''' attribute controls what happens in
 cases when the shape of the '''viewBox''' doesn't match the
