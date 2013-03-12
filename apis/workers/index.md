@@ -13,7 +13,7 @@
 }}
 {{Notes_Section}}
 {{See_Also_Section}}
-{{Topics|Webworkers}}
+{{Topics|API, Webworkers}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MDN, MSDN
