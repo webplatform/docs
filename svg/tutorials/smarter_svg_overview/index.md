@@ -170,18 +170,17 @@ function to reference the '''id''' of the '''radialGradient''' tag.
 Its nested '''stop''' tags define fairly abrupt gradations from the
 center towards the edge&mdash;from black to blue and then to
 white&mdash;followed by a more gradual transition to pink around the
-edge of the circle.
-
-SVG gradients work similarly to CSS gradients available for HTML
-content, but CSS gradients are only available via the
-'''background-image''' property, which doesn't apply to SVG.
+edge of the circle.  SVG gradients work similarly to CSS gradients
+available for HTML content, but CSS gradients are only available via
+the '''background-image''' property, which doesn't apply to SVG.
 
 ==Referencing graphics==
 
 This new circle is much larger than the actual eyeball, because we
-want to move it around behind a smaller pair of eyelids.  But before
-you build them, you should stash away the graphic components you've
-already defined. Add a '''defs''' region to the '''svg''':
+want to move it around behind a smaller pair of eyelids. (Don't worry
+for now that the shape is too wide.) Before you build the eyelids, you
+should stash away the graphic components you've already defined. Add a
+'''defs''' region to the '''svg''':
 
 <syntaxhighlight lang="html5" highlight="11-13">
 <!DOCTYPE html>
@@ -271,7 +270,7 @@ each other:
    >
 </syntaxhighlight>
 
-[[Image:svgGrandTour_eyeball_eyelid.png]]
+[[Image:svgGrandTour_eyeball_eyelid.png|200px]]
 
 Each curve's definition includes ''control points'' that influence the
 shape of the curve, but that do not themselves render. Starting from
@@ -280,7 +279,7 @@ curve's control point is placed at the top, and the destination is the
 left corner. The second quadratic curve places its control point at
 the bottom corner and ends up at the right corner:
 
-[[Image:svgGrandTour_eyeball_ctrl.png]]
+[[Image:svgGrandTour_eyeball_ctrl.png|200px]]
 
 To make the shape behave as a clipping path, place a '''clipPath'''
 tag around the '''path'''. You will actually need to use this shape
