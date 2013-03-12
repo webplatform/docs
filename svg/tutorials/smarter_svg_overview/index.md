@@ -362,7 +362,7 @@ Setting the '''stroke-dasharray''' property to ''1,10'' specifies that
 for every pixel rendered around the edge of the shape, skip another
 ten pixels. This has the effect of drawing individual eyelashes:
 
-[[Image:svgGrandTour_eyeball_eyelashes.png]]
+[[Image:svgGrandTour_eyeball_eyelashes.png||200px]]
 
 The '''stroke-linejoin''' property prevents the stroke from rendering
 too far past the sharp corner of the eye where the eyelids meet.
