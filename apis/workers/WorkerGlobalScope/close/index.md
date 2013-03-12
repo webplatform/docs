@@ -87,7 +87,7 @@ Use the '''terminate''' method if you want to stop a worker from a parent thread
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|Webworkers}}
+{{Topics|API, Webworkers}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
