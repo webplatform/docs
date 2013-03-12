@@ -73,7 +73,7 @@ Adding this line within the '''svg''' region produces a circle. The
 <circle id="eyeball" cx="100" cy="100" r="50"/>
 </syntaxhighlight>
 
-[[Image:svg_overview_eyeball_circle_black.png]]
+[[Image:svgGrandTour_eyeball_circle_black.png]]
 
 By default, it's filled black. Adding a '''fill''' attribute allows
 you to color the background white, and a '''stroke''' attribute helps
@@ -83,7 +83,7 @@ clarify the edge of the shape:
 <circle id="eyeball" cx="100" cy="100" r="50" fill="white" stroke="black"/>
 </syntaxhighlight>
 
-[[Image:svg_overview_eyeball_circle_white.png]]
+[[Image:svgGrandTour_eyeball_circle_white.png]]
 
 To add the iris and pupil, you can add more circles that specify
 different fill colors. Declaring the larger circles first prevents
@@ -95,7 +95,7 @@ them from obscuring the smaller ones:
 <circle id="pupil"   cx="100" cy="100" r="12" fill="black"/>
 </syntaxhighlight>
 
-[[Image:svg_overview_eyeball_circles.png]]
+[[Image:svgGrandTour_eyeball_circles.png]]
 
 ==Styling via CSS==
 
@@ -163,7 +163,7 @@ builds a series of concentric rings:
 </radialGradient>
 </syntaxhighlight>
 
-[[Image:svg_overview_eyeball_fill.png]]
+[[Image:svgGrandTour_eyeball_fill.png]]
 
 The '''circle''' tag's '''fill''' attribute uses CSS's '''url()'''
 function to reference the '''id''' of the '''radialGradient''' tag.
@@ -271,7 +271,7 @@ each other:
    >
 </syntaxhighlight>
 
-[[Image:svg_overview_eyeball_eyelid.png]]
+[[Image:svgGrandTour_eyeball_eyelid.png]]
 
 Each curve's definition includes ''control points'' that influence the
 shape of the curve, but that do not themselves render. Starting from
@@ -280,7 +280,7 @@ curve's control point is placed at the top, and the destination is the
 left corner. The second quadratic curve places its control point at
 the bottom corner and ends up at the right corner:
 
-[[Image:svg_overview_eyeball_ctrl.png]]
+[[Image:svgGrandTour_eyeball_ctrl.png]]
 
 To make the shape behave as a clipping path, place a '''clipPath'''
 tag around the '''path'''. You will actually need to use this shape
@@ -305,7 +305,7 @@ the eyeball shape. This example shows it assigned separately via CSS:
 <use xlink:href="#eyeball" class="eyeball" />
 </syntaxhighlight>
 
-[[Image:svg_overview_eyeball_eyelid_clip.png]]
+[[Image:svgGrandTour_eyeball_eyelid_clip.png]]
 
 The only problem now is that the eyelid doesn't appear. Clipping paths
 don't actually render, so we need to point another reference to it.
@@ -323,7 +323,7 @@ appears outside the '''defs''' renders the entire object:
 <use xlink:href="#eye" />
 </syntaxhighlight>
 
-[[Image:svg_overview_eyeball_eyelid_both.png]]
+[[Image:svgGrandTour_eyeball_eyelid_both.png]]
 
 It becomes useful here to ''group'' the two graphic elements, wrapping
 a '''g''' tag around them to consolidate a larger semantic ''eye''
@@ -363,7 +363,7 @@ Setting the '''stroke-dasharray''' property to ''1,10'' specifies that
 for every pixel rendered around the edge of the shape, skip another
 ten pixels. This has the effect of drawing individual eyelashes:
 
-[[Image:svg_overview_eyeball_eyelashes.png]]
+[[Image:svgGrandTour_eyeball_eyelashes.png]]
 
 The '''stroke-linejoin''' property prevents the stroke from rendering
 too far past the sharp corner of the eye where the eyelids meet.
@@ -419,9 +419,9 @@ to render the eyelids and eyelashes:
 }
 </syntaxhighlight>
 
-[[Image:svg_overview_eyeball_eyelash_filter.png]]
+[[Image:svgGrandTour_eyeball_eyelash_filter.png]]
 
-[[Image:svg_overview_eyeball_eyelid_filter.png]]
+[[Image:svgGrandTour_eyeball_eyelid_filter.png]]
 
 ==Coordinate spaces and transforms==
 
@@ -465,7 +465,7 @@ the '''defs''' region renders them:
 <use xlink:href="#eyes"/>
 </syntaxhighlight>
 
-[[Image:svg_overview_eyeballs.png]]
+[[Image:svgGrandTour_eyeballs.png]]
 
 When presenting the eyes with other interface elements, you may want
 to resize them.  The original '''svg''' tag specified that they should
@@ -475,7 +475,7 @@ appear within a 600&times;200-pixel rectangle:
 <svg width="600" height="200">
 </syntaxhighlight>
 
-[[Image:svg_overview_eyeballs_viewport_large.png]]
+[[Image:svgGrandTour_eyeballs_viewport_large.png]]
 
 But what if that's much too big for the context in which they are to
 appear?  If you shrink it down, using either the tag's
@@ -493,7 +493,7 @@ svg {
 <svg width="300" height="100">
 </syntaxhighlight>
 
-[[Image:svg_overview_eyeballs_viewport_small.png]]
+[[Image:svgGrandTour_eyeballs_viewport_small.png]]
 
 The solution is to define a custom box using the '''viewBox'''
 attribute.  Doing so declares a set of abstract units for exclusive
@@ -505,7 +505,7 @@ and '''height''' apply:
 <svg width="300" height="100" viewBox="0 0 600 200">
 </syntaxhighlight>
 
-[[Image:svg_overview_eyeballs_viewbox.png]]
+[[Image:svgGrandTour_eyeballs_viewbox.png]]
 
 Adding a '''preserveAspectRatio''' attribute controls what happens in
 cases when the shape of the '''viewBox''' doesn't match the
@@ -517,7 +517,7 @@ to appear:
 <svg width="100" height="100" viewBox="0 0 600 200" preserveAspectRatio="xMidYMid">
 </syntaxhighlight>
 
-[[Image:svg_overview_eyeballs_viewbox_preserve.png]]
+[[Image:svgGrandTour_eyeballs_viewbox_preserve.png]]
 
 ==Blinking and glancing==
 
@@ -539,7 +539,7 @@ stops' ''blue'' and ''brown'' classes:
  }
 </syntaxhighlight>
 
-[[Image:svg_overview_eyeballs_brown.png]]
+[[Image:svgGrandTour_eyeballs_brown.png]]
 
 You can't use that familiar approach for SVG attributes.  SVG has its
 own mechanism (based on the ''SMIL'' standard) to animate attribute
@@ -552,7 +552,7 @@ transform described above:
 <circle id="eyeball" cx="100" cy="100" r="50" transform="translate(50,0)"/>
 </syntaxhighlight>
 
-[[Image:svg_overview_eyeballs_translate50.png]]
+[[Image:svgGrandTour_eyeballs_translate50.png]]
 
 That didn't do what we want. That moved the entire eyeball, including
 the clipping path behind which it is supposed to render. Instead,
@@ -563,7 +563,7 @@ circle:
 <circle id="eyeball" cx="150" cy="100" r="50"/>
 </syntaxhighlight>
 
-[[Image:svg_overview_eyeball_glance.png]]
+[[Image:svgGrandTour_eyeball_glance.png]]
 
 That's better. Now return the '''cx''' to its original value.  To get
 it to move instead, place an '''animate''' tag within the ''eyeball''
@@ -598,7 +598,7 @@ Let's run down what each attribute does:
 As it appears above, the animation moves the eyes to the right, then
 immediately snaps back:
 
-[[Image:svg_overview_eyeball_glance.png]]
+[[Image:svgGrandTour_eyeball_glance.png]]
 
 There's an attribute called '''fill''', which is unfortunately named
 the same as the '''fill''' property that applies colors and gradients
@@ -662,7 +662,7 @@ the '''from''' and '''to''' values, the only values that are modified
 are the positions of the two control points that affect the shape of
 the curve, so the animation behaves like this:
 
-[[Image:svg_overview_eyeball_blink.png]]
+[[Image:svgGrandTour_eyeball_blink.png]]
 
 You can use JavaScript to control these animations more flexibly. To
 do so, call the '''beginElement()''' method on the animation object.
@@ -697,7 +697,7 @@ function blink() {
 
 Enough, already?
 
-[[Image:svg_overview_eyeball_tired.png]]
+[[Image:svgGrandTour_eyeball_tired.png]]
 
 
 
