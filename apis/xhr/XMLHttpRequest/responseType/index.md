@@ -1,7 +1,5 @@
 {{Page_Title}}
-{{Flags
-|Editorial notes= 
-}}
+{{Flags}}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Returns or sets the format the response will be returned in.}}
@@ -21,7 +19,7 @@
 |Language=JavaScript
 |Description=The following code demonstrates to how to use the requestType property of the '''XMLHttpRequest''' object to retrieve the results of the XHR request as an '''ArrayBuffer'''.
 
-This can be used to load images, audio and other binary data with an XHR request. Once the response is received use the '''response''' property to access the ArrayBuffer. 
+This can be used to load images, audio and other binary data with an XHR request. Once the response is received use the '''response''' property to access the ArrayBuffer.
 |Code=function handler() {
   if (xhr.readyState === 4 /* complete */) {
     if (xhr.status === 200) {
@@ -106,7 +104,7 @@ xhr.send();
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|XHR}}
+{{Topics|API, XHR}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
