@@ -418,9 +418,12 @@ to render the eyelids and eyelashes:
 }
 </syntaxhighlight>
 
-[[Image:svgGrandTour_eyeball_eyelash_filter.png]]
+Here is how it appears, first after the blur, then after the
+subsequent darkening:
 
-[[Image:svgGrandTour_eyeball_eyelid_filter.png]]
+[[Image:svgGrandTour_eyeball_eyelash_filter_blur.png]]
+
+[[Image:svgGrandTour_eyeball_eyelid_filters.png]]
 
 ==Coordinate spaces and transforms==
 
