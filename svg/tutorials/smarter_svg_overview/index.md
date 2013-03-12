@@ -631,11 +631,12 @@ animation to return the eyes to their original state:
 </circle>
 </syntaxhighlight>
 
-Aside from the values of '''from''' and '''to''' being inverted, note
+Aside from the inversion of the '''from''' and '''to''' values, note
 the '''begin''' time is expressed in terms of whenever the previous
 animation ends. And notice that in addition to the '''xlink:href'''
 and '''url()''' syntax we've seen used to reference objects, now we
-see a third form of ''id.attr'' notation.
+see a third form of syntax that references the ''glanceStart''
+identifier along with the value of its '''end''' attribute.
 
 As is true for CSS transitions and animations, you can animate most
 any numeric or color value. You can also animate complex series of
@@ -663,7 +664,7 @@ the '''from''' and '''to''' values, the only values that are modified
 are the positions of the two control points that affect the shape of
 the curve, so the animation behaves like this:
 
-[[Image:svgGrandTour_eyeball_blink.png]]
+[[Image:svgGrandTour_eyeball_blink.png|600px]]
 
 You can use JavaScript to control these animations more flexibly. To
 do so, call the '''beginElement()''' method on the animation object.
@@ -698,10 +699,7 @@ function blink() {
 
 Enough, already?
 
-[[Image:svgGrandTour_eyeball_tired.png]]
-
-
-
+[[Image:svgGrandTour_eyeball_tired.png|600px]]
 
 ==Deploying SVG==
 
