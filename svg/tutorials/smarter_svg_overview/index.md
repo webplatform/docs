@@ -322,7 +322,7 @@ that appears outside the '''defs''' renders the entire object:
 <use xlink:href="#eye" />
 </syntaxhighlight>
 
-[[Image:svgGrandTour_eyeball_eyelid_both.png]]
+[[Image:svgGrandTour_eyeball_eyelid_both.png|200px]]
 
 It becomes useful here to ''group'' the two graphic elements, wrapping
 a '''g''' tag around them to consolidate a larger semantic ''eye''
