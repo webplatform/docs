@@ -142,7 +142,7 @@ As you'll see below, there are some cases where you want to avoid
 using style sheets. The examples below show CSS applied as
 presentational attributes.
 
-== Applying a gradient ==
+==Applying a gradient==
 
 The concentric circles provide a good way to implement the edge of the
 iris and pupil, but are not good for the slight bloodshot color
@@ -168,7 +168,7 @@ builds a series of concentric rings:
 The '''circle''' tag's '''fill''' attribute uses CSS's '''url()'''
 function to reference the '''id''' of the '''radialGradient''' tag.
 Its nested '''stop''' tags define fairly abrupt gradations from the
-center to the edge&mdash;from black to blue and then to
+center towards the edge&mdash;from black to blue and then to
 white&mdash;followed by a more gradual transition to pink around the
 edge of the circle.
 
@@ -178,10 +178,10 @@ content, but CSS gradients are only available via the
 
 ==Referencing graphics==
 
-The circle is much larger than the actual eyeball, because we want it
-to float behind a pair of eyelids. But before you build them, you
-should stash away the graphic components you've already defined. Add a
-'''defs''' region to the '''svg''':
+This new circle is much larger than the actual eyeball, because we
+want to move it around behind a smaller pair of eyelids.  But before
+you build them, you should stash away the graphic components you've
+already defined. Add a '''defs''' region to the '''svg''':
 
 <syntaxhighlight lang="html5" highlight="11-13">
 <!DOCTYPE html>
@@ -216,71 +216,59 @@ with a '''use''' tag placed outside the '''defs''' makes it render:
 <use xlink:href="#eyeball"/>
 </syntaxhighlight>
 
-The '''use'' tag can be a bit mystifying.  It's not simply a copy of
-the object it points to, but a ''deep'' reference.  That means any
-changes made to the '''circle''' or '''radialGradient''' within the
-'''defs''' appears dynamically anywhere a '''use''' tag references it.
+The '''use''' tag can be a bit mystifying at first.  It's not simply a
+copy of the object it points to, but a ''deep'' reference.  That means
+any changes made to the prototype '''circle''' or '''radialGradient'''
+components within the '''defs''' appears dynamically wherever a
+'''use''' tag references them.  Despite this flexibility, you can't
+redefine any of the referenced object's attributes. But you can add
+optional presentation attributes that aren't already defined there.
 
-* can add presentation attr's
-* can't override attr's
-* CSS style sheets don't survive
-* can't add geometry attr
-* can't override any attr
-* can't re-apply CSS separately
-
-...more to come...
-
-<!--
-
-...
-
-And notice a couple of other things. SVG requires you to use the
-'''xlink''' namespace to qualify the standard '''href''' attribute,
-which is also available in HTML with no namespace qualifier. And
-notice that this '''xlink:href''' attribute is a different way to
-reference an object than the CSS '''url()''' syntax you saw above to
-apply the gradient.
-
-Still, the '''use''' tag allows you to add attributes or
-override those defined in the prototype component. This example
-specifies a new '''id''' and modifies the '''cx''' attribute to move
-it to the left a bit from its original position at ''100'':
+Since the '''use''' and its target element are placed in different
+parts of the document tree, CSS style sheets that ordinarily apply to
+the target do not automatically cascade to the '''use'''. However, you
+can apply CSS separately to the '''use'''. This example applies the
+same style sheet based on the '''id''' of the target, and the
+'''class''' of any '''use''' that references it:
 
 <syntaxhighlight lang="xml">
-<use  xlink:href="#eyeball" id="eyeballLeft" cx="80"/>
+<style>
+#eyeball, .eyeball {
+    fill: url(#eyeballFill);
+}
+</style>
+
+<svg width="200" height="200">
+<defs>
+<circle id="eyeball" cx="100" cy="100" r="150" />
+<defs>
+<use xlink:href="#eyeball" class="eyeball" id="eyeballInstance1"/>
+</svg>
 </syntaxhighlight>
 
-The '''transform''' attribute's '''translate()''' function provides a
-more flexible way to reposition objects referenced via '''use'''. It
-uses relative measurements to move it to the left along the ''x''
-axis, and not at all along the ''y'' axis:
+Note that if the targeted '''circle''' were also to share the same
+''eyeball'' class in this example, then the '''use''' tag would not
+have the flexibility to be able to change it.
 
-<syntaxhighlight lang="xml">
-<use xlink:href="#eyeball" id="eyeballLeft" transform="translate(-20,0)"/>
-</syntaxhighlight>
-
-These provide the same functionality as two-dimensional CSS
-transforms.  The '''scale()''' function accepts a decimal value to
-size the object, where ''1'' is the current size, ''0'' vanishes to a
-point, and values greater than 1 increase the size.  The
-'''rotate()''' function accepts a ''deg'' or ''rad'' measurement that
-spins the object.  The '''skewX()''' and '''skewY()''' also accepts an
-angle with which to shear the object horizontally or vertically.
-
--->
+Notice as well that the '''use''' tag needs the '''xlink''' namespace
+to qualify the standard '''href''' attribute, which is also available
+in HTML with no namespace qualifier.  This '''xlink:href''' attribute
+offers a different way to reference an object than the CSS '''url()'''
+syntax you see in the example above.
 
 ==The eyelids==
 
 To place the eyeball within eyelids requires a ''clipping path'',
 which allows an object to render only when it appears within another
 shape. In this case, the ''eyelids'' shape is a free-form '''path'''
-whose '''d''' (''definition'') draws two curves that face each other:
+whose '''d''' (''definition'') attribute draws two curves that face
+each other:
 
 <syntaxhighlight lang="xml">
 <path
     id           = "eyelids"
     d            = "M 200,100 Q 100,200 0,100 Q 100,0 200,100"
-    fill         = "transparent"
+    fill         = "none"
     stroke       = "black"
     stroke-width = "2"
 />
@@ -334,6 +322,27 @@ path, and the second renders the path:
 It becomes useful here to wrap a '''g''' tag to ''group'' the two
 graphic elements into a larger semantic ''eye'' object. You can then
 move or otherwise transform them as a unit.
+
+<!--
+
+The '''transform''' attribute's '''translate()''' function provides a
+more flexible way to reposition objects referenced via '''use'''. It
+uses relative measurements to move it to the left along the ''x''
+axis, and not at all along the ''y'' axis:
+
+<syntaxhighlight lang="xml">
+<use xlink:href="#eyeball" id="eyeballLeft" transform="translate(-20,0)"/>
+</syntaxhighlight>
+
+These provide the same functionality as two-dimensional CSS
+transforms.  The '''scale()''' function accepts a decimal value to
+size the object, where ''1'' is the current size, ''0'' vanishes to a
+point, and values greater than 1 increase the size.  The
+'''rotate()''' function accepts a ''deg'' or ''rad'' measurement that
+spins the object.  The '''skewX()''' and '''skewY()''' also accepts an
+angle with which to shear the object horizontally or vertically.
+
+-->
 
 ==The eyelashes==
 
