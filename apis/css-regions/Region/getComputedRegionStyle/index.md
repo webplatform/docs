@@ -1,5 +1,7 @@
 {{Page_Title|getComputedRegionStyle()}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Review
+}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Returns styles calculated for an element as it appears within a region, including styles from [[css/atrules/@region|'''@region''']] rules applied to ranges within the element.}}
