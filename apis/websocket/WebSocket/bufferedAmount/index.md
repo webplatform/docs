@@ -1,8 +1,10 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Review
+}}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|The number of bytes of data that have been queued using calls to send() but not yet transmitted to the network. }}
+{{Summary_Section|The number of bytes of data that have been queued using calls to send() but not yet transmitted to the network.}}
 {{API_Object_Property
 |Property_applies_to=apis/websocket/WebSocket
 |Read_only=Yes
@@ -97,7 +99,7 @@ else {
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|WebSocket}}
+{{Topics|API, WebSocket}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MDN, MSDN
