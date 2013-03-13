@@ -1,5 +1,7 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Review
+}}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|Adds the scaling transformation described by the arguments to the transformation matrix. The ''x'' argument represents the scale factor in the horizontal direction; the ''y'' argument represents the scale factor in the vertical direction. The factors are multiples.}}
