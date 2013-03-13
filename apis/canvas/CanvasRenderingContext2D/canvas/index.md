@@ -1,5 +1,7 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Review
+}}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|A (read-only) reference to the ''canvas'' element that the CanvasRenderingContext2D object was created for.}}
