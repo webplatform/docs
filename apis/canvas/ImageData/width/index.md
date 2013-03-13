@@ -1,5 +1,7 @@
 {{Page_Title|width}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Review
+}}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|The number of physical device pixels per row in the image data.}}
