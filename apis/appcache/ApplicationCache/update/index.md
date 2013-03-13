@@ -24,7 +24,6 @@ This method can return one of these values.
 11
 {{!}}This exception is thrown if the application cache cannot be found or the status of the cache is obsolete.
 {{!}}}
-
 }}
 {{Examples_Section
 |Not_required=No
@@ -54,7 +53,7 @@ The '''update'''  method is provided for convenience, but is not necessary for b
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|Appcache}}
+{{Topics|Appcache, API}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
