@@ -1,5 +1,7 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Review
+}}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|Object for creating and managing a WebSocket connection to a server, as well as for sending and receiving data on the connection.}}
@@ -127,7 +129,7 @@ To open a use a WebSocket connection, you must follow this procedure:
 {{See_Also_Section
 |External_links=* [http://cjihrig.com/blog/how-to-use-websockets/ How to Use WebSockets by Colin Ihrig]
 }}
-{{Topics|WebSocket}}
+{{Topics|API, WebSocket}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MDN, MSDN
@@ -183,4 +185,11 @@ To open a use a WebSocket connection, you must follow this procedure:
 
 
 
-}}}}}}}
+
+}
+
+
+
+
+
+}}}}}}}}
