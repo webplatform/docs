@@ -16,7 +16,7 @@ These various libraries provide pre-written JavaScript code which makes common o
 == Benefits ==
 * '''Uniform interface for cross-browser compatible code''' - While modern browsers are becoming increasingly similar in their implementations of the language features and DOM, numerous minor differences still exist. The problem becomes substantial when compatibility with older browsers is required. Quite a few JS Libraries try to reduce the boilerplate code that developers have to write to address this issue. They provide a uniform API for development, which all compatibility handling throw browser and feature detection is handled in the background.
 
-* '''Higher Levels of Abstraction''' - Quite often it is the case that development requires implementations of features that are quite popular in the industry. Autocomplete, AJAX handling, graphics and UI elements are some examples of areas where libraries are be a big boon. Most efforts can hence be focussed on customization.
+* '''Higher Levels of Abstraction''' - Quite often it is the case that development requires implementations of features that are quite popular in the industry. Autocomplete, AJAX handling, graphics and UI elements are some examples of areas where libraries can be a big boon. Most efforts can then be focused on customization.
 
 * '''Frameworks''' - While the language itself is quite powerful and yet extremely easy to use, developing and maintaining large codebases can become challenging. There are various frameworks available as JS libraries that implement designs like MVC for writing the code in a more structured fashion.
 
