@@ -8,8 +8,8 @@
 
 An application cache provides the following benefits:
 
-* Offline browsing: users can navigate a site or use a web application although they are offline.
-* Speed: cached resources are local, and therefore load faster.
+* Offline browsing: users can navigate a site or use a web application although they are offline
+* Speed: cached resources are local, and therefore load faster
 * Reduced server load: the browser only downloads resources that have changed from the server.
 }}
 {{API_Object}}
