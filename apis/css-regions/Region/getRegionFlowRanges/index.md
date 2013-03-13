@@ -1,5 +1,7 @@
 {{Page_Title|getRegionFlowRanges()}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Review
+}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Returns a series of [[dom/apis/range|'''Range''']] objects that represent the fragments of DOM content that currently flow into the region.}}
