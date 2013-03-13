@@ -1,5 +1,7 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Review
+}}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|Paints the specified rectangular area using the color (or style) defined by ''[[apis/canvas/CanvasRenderingContext2D/fillStyle|fillStyle]]''.}}
