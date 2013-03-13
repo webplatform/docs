@@ -1,5 +1,7 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Review
+}}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|Returns a '''CanvasPattern''' object that uses the given ''image'' and repeats in the direction(s) given by the ''repetition'' argument.}}
