@@ -1,5 +1,7 @@
 {{Page_Title|code}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Review
+}}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|The WebSocket connection close code provided by the server.}}
@@ -135,7 +137,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|WebSocket}}
+{{Topics|API, WebSocket}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MDN, MSDN
