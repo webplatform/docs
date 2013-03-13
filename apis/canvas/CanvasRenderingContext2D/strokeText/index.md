@@ -1,5 +1,7 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Review
+}}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|Renders the given text at the given (x, y) coordinates, ensuring that the text isn't wider than maxWidth (if specified), using the current font, textAlign, and textBaseline values.}}
