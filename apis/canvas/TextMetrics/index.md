@@ -1,5 +1,7 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Review
+}}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|The TextMetrics object of the canvas API. TextMetrics retrieves numeric informations like the width of a text that is drawn onto the canvas with the current font style.}}
