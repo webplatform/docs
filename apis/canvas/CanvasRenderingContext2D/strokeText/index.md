@@ -142,7 +142,7 @@ ctx.strokeText("Hello World!", canvas.width/2, canvas.height/2, maxWidth);
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|Canvas}}
+{{Topics|API, Canvas}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
