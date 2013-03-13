@@ -1,5 +1,7 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Review
+}}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|Closes the WebSocket connection or connection attempt, if any.}}
@@ -102,7 +104,7 @@ If the ''reason'' parameter is longer than 123 bytes this method throws a '''Syn
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|WebSocket}}
+{{Topics|API, WebSocket}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MDN, MSDN
