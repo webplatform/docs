@@ -1,5 +1,7 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Review
+}}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|Ensures there is a subpath for (cpx, cpy), then connects the last point in the subpath to the given point (x, y) using a quadratic Bézier curve with control point (cpx, cpy), and then adds the given point (x, y) to the subpath.}}
