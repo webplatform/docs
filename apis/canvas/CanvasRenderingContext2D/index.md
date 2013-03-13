@@ -86,7 +86,7 @@ ctx.drawRect(10, 10, 100, 100);
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|Canvas}}
+{{Topics|API, Canvas}}
 {{External_Attribution
 |Is_CC-BY-SA=Yes
 |Sources=MDN, MSDN
