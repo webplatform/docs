@@ -123,7 +123,7 @@ Shared workers are not supported in this release.
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|Webworkers}}
+{{Topics|API, Webworkers}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
