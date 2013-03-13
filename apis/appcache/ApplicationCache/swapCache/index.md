@@ -70,7 +70,7 @@ The '''swapCache''' method is provided for convenience but is not necessary for 
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|Appcache}}
+{{Topics|Appcache, API}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN, HTML5Rocks
