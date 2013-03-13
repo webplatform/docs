@@ -1,5 +1,7 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Review
+}}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|Ensures there is a subpath for ''(cp1x, cp1y)'', then connects the last point in the subpath to the given point ''(x, y)'' using a cubic Bézier curve with control points ''(cp1x, cp1y)'' and ''(cp2x, cp2y)'', then adds the point ''(x, y)'' to the subpath.}}
