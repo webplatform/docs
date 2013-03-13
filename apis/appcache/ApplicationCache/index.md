@@ -1,6 +1,6 @@
 {{Page_Title|ApplicationCache}}
 {{Flags
-|Content=Grammar/Spelling
+|High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
