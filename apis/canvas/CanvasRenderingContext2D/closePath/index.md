@@ -89,7 +89,7 @@ If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRES
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|Canvas}}
+{{Topics|API, Canvas}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
