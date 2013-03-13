@@ -1,5 +1,7 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Review
+}}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|Marks the last subpath as closed, creates a new subpath whose first point is the same as the previous subpath's first point, and then adds the new subpath to the path. If the object's path has no subpaths, this method does nothing.}}
