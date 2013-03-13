@@ -1,5 +1,6 @@
 {{Page_Title}}
 {{Flags
+|High-level issues=Needs Review
 |Content=Compatibility Incomplete
 }}
 {{Standardization_Status|W3C Editor's Draft}}
@@ -15,7 +16,7 @@
 {{See_Also_Section
 |Topic_clusters=Off-line Storage
 }}
-{{Topics|Quota Management}}
+{{Topics|API, Quota Management}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
