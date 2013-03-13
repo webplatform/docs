@@ -1,5 +1,7 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Review
+}}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|The ImageData object of the canvas API.}}
