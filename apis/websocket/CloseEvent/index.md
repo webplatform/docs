@@ -1,5 +1,7 @@
 {{Page_Title|CloseEvent}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Review
+}}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|Object representing the close event for a WebSocket.}}
@@ -90,7 +92,7 @@ socket.onclose = function(event) {
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|WebSocket}}
+{{Topics|API, WebSocket}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
