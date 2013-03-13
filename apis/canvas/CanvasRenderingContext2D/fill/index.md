@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Review
+|Checked_Out=Yes
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
