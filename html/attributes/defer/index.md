@@ -16,7 +16,9 @@
 {{Notes_Section
 |Notes====Remarks===
 Using the attribute at design time can improve the download performance of a document because the client does not need to parse and execute the script and can continue downloading and parsing the document instead.
-|Import_Notes====Syntax===
+|Import_Notes====Issues===
+Don't use defer for external scripts that can depend on each other if you need IE <= 9 support. [https://github.com/h5bp/lazyweb-requests/issues/42 ref.]
+This includes combining scrips both standard and with <code>defer</code> that depend on each other. [https://github.com/zenorocha/browser-diet/issues/95#issuecomment-14852531 ref.]
 }}
 {{Related_Specifications_Section
 |Specifications=
@@ -26,7 +28,11 @@ Using the attribute at design time can improve the download performance of a doc
 |Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
-|Notes_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=9
+|Note=Deferral order ignored
+}}
 }}
 {{See_Also_Section
 |Manual_sections====Related pages (MSDN)===
