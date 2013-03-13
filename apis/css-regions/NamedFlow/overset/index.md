@@ -9,7 +9,7 @@
 |Example_object_name=flow
 |Return_value_name=exceedsRegions
 |Javascript_data_type=Boolean
-|Return_value_description=Indicates whether a flow's content exceeds available space within a region chain. Also indicates when no region chain is available in which to flow content. 
+|Return_value_description=Indicates whether a flow's content exceeds available space within a region chain. Also indicates when no region chain is available in which to flow content.
 }}
 {{Examples_Section
 |Not_required=No
@@ -113,7 +113,7 @@ appendRegion('mainFlow');
 * Adobe Developer's Network: [http://www.adobe.com/devnet/html5/articles/css3-regions.html CSS3 Regions: Rich page layout with HTML and CSS3]
 * [http://adobe.github.com/web-platform/samples/css-regions Sample pages]
 }}
-{{Topics|CSS}}
+{{Topics|API, CSS, CSS-Regions}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
