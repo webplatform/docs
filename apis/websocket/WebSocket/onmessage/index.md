@@ -1,5 +1,7 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Review
+}}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|An event listener to be called when a message is received from the server. Receives a MessageEvent named "message".}}
@@ -95,7 +97,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|WebSocket}}
+{{Topics|API, WebSocket}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
