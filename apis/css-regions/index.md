@@ -1,5 +1,7 @@
 {{Page_Title|CSS Regions API}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Review
+}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Programmatic interface to content that flows through a series of chained ''region'' elements, as specified by [[css/properties/flow-into|'''flow-into''']] and [[css/properties/flow-from|'''flow-from''']] CSS properties.}}
