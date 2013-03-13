@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Stub, Needs Flags
+|High-level issues=Stub, Needs Flags, Needs Review
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
