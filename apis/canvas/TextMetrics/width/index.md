@@ -1,5 +1,7 @@
 {{Page_Title|width}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Review
+}}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|The width of an inline text box, in CSS pixels.}}
