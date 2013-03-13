@@ -35,7 +35,7 @@ for (var i{{=}}0; i&lt;ranges.length; i++)
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|Audio, DOM, Video}}
+{{Topics|API, Audio, Video}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
@@ -49,4 +49,11 @@ for (var i{{=}}0; i&lt;ranges.length; i++)
 
 
 
+
 }
+
+
+
+
+
+}}
