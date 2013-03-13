@@ -75,7 +75,7 @@ switch (appCache.status) {
 {{See_Also_Section
 |Topic_clusters=Off-line Storage
 }}
-{{Topics|Appcache}}
+{{Topics|Appcache, API}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN, HTML5Rocks
