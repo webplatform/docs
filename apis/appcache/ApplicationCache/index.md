@@ -4,11 +4,11 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|The '''Application Cache''' (AppCache) lets web-based applications run offline. Developers can  specify resources that the browser should cache, making them available to the application when a connection cannot be made to the server. These resources load and work correctly even if users click the refresh button when they are offline.
+{{Summary_Section|The '''Application Cache''' (AppCache) lets web-based applications run offline. Developers can specify resources for the browser to cache, making them available to the application even if no connection can be made to the server. These resources load and work correctly even if users click the refresh button when they are offline.
 
 An application cache provides the following benefits:
 
-* Offline browsing: users can navigate a site or use a Web application even when they are offline.
+* Offline browsing: users can navigate a site or use a web application although they are offline.
 * Speed: cached resources are local, and therefore load faster.
 * Reduced server load: the browser only downloads resources that have changed from the server.
 }}
