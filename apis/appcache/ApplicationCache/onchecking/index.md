@@ -1,5 +1,7 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Review
+}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|The user agent is checking for an update, or attempting to download the manifest for the first time. This is always the first event in the sequence.}}
