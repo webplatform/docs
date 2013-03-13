@@ -1,5 +1,7 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Review
+}}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|The current style used to fill shapes. The style can be a [[apis/canvas/CanvasGradient|CanvasGradient]], a [[apis/canvas/CanvasPattern|CanvasPattern]], or a string containing a CSS color.}}
