@@ -1,5 +1,7 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Review
+}}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|Takes the result of tracing the path, using the CanvasRenderingContext2D object's line styles, and fills it with the strokeStyle.}}
