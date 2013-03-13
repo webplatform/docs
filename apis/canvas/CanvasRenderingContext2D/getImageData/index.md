@@ -109,7 +109,7 @@ A ''CanvasImageData'' object with pixel information from the canvas within the s
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|Canvas}}
+{{Topics|API, Canvas}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
