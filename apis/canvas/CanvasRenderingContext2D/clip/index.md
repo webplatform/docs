@@ -1,5 +1,7 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Review
+}}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|Specifies a new clipping region by calculating the intersection of the current clipping region and the area described by the intended path, using the non-zero winding number rule. The new clipping region replaces the current clipping region.}}
