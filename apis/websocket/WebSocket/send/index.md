@@ -1,5 +1,7 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Review
+}}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|Transmits data to the server over the WebSocket connection.}}
@@ -116,7 +118,7 @@ This method can throw one of the following exceptions:
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|WebSocket}}
+{{Topics|API, WebSocket}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MDN, MSDN
