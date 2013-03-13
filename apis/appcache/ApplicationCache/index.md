@@ -1,7 +1,7 @@
 {{Page_Title|ApplicationCache}}
 {{Flags
 |High-level issues=Needs Review
-|Checked_Out=Yes
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
