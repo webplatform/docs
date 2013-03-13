@@ -1,5 +1,7 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Review
+}}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|Depending on how it is called, returns either an '''ImageData''' object with the given ''sw, sh'' dimensions or an '''ImageData''' object with the same dimensions as the ''imagedata'' argument. See Notes.}}
