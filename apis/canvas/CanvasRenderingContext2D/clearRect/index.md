@@ -65,13 +65,11 @@
   </script>
 
 </body>
-</html> 
-
+</html>
 }}{{Single Example
-|Description=This example shows the clearRect method alone. The x,y,width, and height of the cleared rectangle are shown as percentages of the full width and height of the canvas. 
+|Description=This example shows the clearRect method alone. The x,y,width, and height of the cleared rectangle are shown as percentages of the full width and height of the canvas.
 |Code=// Clear the center 80% of the canvas.
 ctx.clearRect(canvas.width * .1, canvas.height * .1, canvas.width * .8, canvas.height * .8);
-
 }}
 }}
 {{Notes_Section
@@ -146,7 +144,7 @@ ctx.clearRect(canvas.width * .1, canvas.height * .1, canvas.width * .8, canvas.h
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|Canvas}}
+{{Topics|API, Canvas}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
