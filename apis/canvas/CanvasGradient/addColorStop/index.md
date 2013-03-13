@@ -1,5 +1,7 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Review
+}}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|Adds a new stop to a gradient. If ''offset'' is less than 0 or greater than 1 then an IndexSizeError exception must be thrown. If the color cannot be parsed as a CSS <color> value, then a SyntaxError exception must be thrown. Otherwise the gradient must have a new stop placed, at offset ''offset'' relative to the whole gradient, and with the color obtained by parsing ''color'' as a CSS <color> value.}}
