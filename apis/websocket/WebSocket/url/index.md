@@ -1,8 +1,10 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Review
+}}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|The absolute URL as resolved by the constructor. }}
+{{Summary_Section|The absolute URL as resolved by the constructor.}}
 {{API_Object_Property
 |Property_applies_to=apis/websocket/WebSocket
 |Read_only=Yes
@@ -96,7 +98,7 @@ wss://cjihrig.com
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|WebSocket}}
+{{Topics|API, WebSocket}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MDN, MSDN
