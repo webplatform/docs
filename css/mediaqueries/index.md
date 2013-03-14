@@ -8,7 +8,7 @@ Media queries consist of a media type and can, as of the CSS3 specification, con
 
 When a media query is true, the corresponding style sheet or style rules are applied. Selectors inside active media queries are placed into the normal cascade and do not automatically have higher precedence than those outside of active media queries. Style sheets with media queries attached to their ''<link>'' tags [http://scottjehl.github.com/CSS-Download-Tests/ will still download] even if their media queries would return false (they will not apply, however).
 
-Unless using the ''not'' or 'only'' operators, the media type is optional and the ''all'' type will be implied.
+Unless using the ''not'' or ''only'' operators, the media type is optional and the ''all'' type will be implied.
 
 === Logical Operators ===
 
