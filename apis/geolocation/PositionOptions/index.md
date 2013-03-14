@@ -1,5 +1,8 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Review
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|A native script object used by the '''getCurrentPosition()''' and '''watchPosition()''' methods.}}
@@ -94,7 +97,7 @@ alert("No position found");
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|Geolocation}}
+{{Topics|API, Geolocation}}
 {{External_Attribution
 |Is_CC-BY-SA=Yes
 |Sources=MDN, MSDN
