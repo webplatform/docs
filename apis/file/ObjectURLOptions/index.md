@@ -1,5 +1,8 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Review
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Provides the ''oneTimeOnly'' property for use with the ''createObjectURL'' method.}}
@@ -87,7 +90,7 @@ specifies whether an object created with [[apis/file/URL/createObjectURL|createO
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|DOM, FileAPI}}
+{{Topics|API, FileAPI}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
