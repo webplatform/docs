@@ -469,7 +469,6 @@ value.
 
 ([[svg/tutorials/smarter_svg_overview|Overview]] /
 [[svg/tutorials/smarter_svg_shapes|Shapes]] /
-[[svg/tutorials/smarter_svg_text|Text]] /
 [[svg/tutorials/smarter_svg_graphics|Graphics]] /
 [[svg/tutorials/smarter_svg_filters|Filters]] /
 [[svg/tutorials/smarter_svg_animation|Animation]] /
