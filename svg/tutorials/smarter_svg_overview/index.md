@@ -898,15 +898,7 @@ the tag's '''requiredExtensions''' attribute. If not, it uses fallback
 
 * '''color''', used to provide a potential indirect value (currentColor) for the '''fill''', '''stroke''', '''stop-color''', '''flood-color''' and '''lighting-color''' properties. (The SVG properties which support color allow a color specification which is extended from CSS2 to accommodate color definitions in arbitrary color spaces. See Color profile descriptions.)
 
-
 -->
-
-([[svg/tutorials/smarter_svg_overview|Overview]] /
-[[svg/tutorials/smarter_svg_shapes|Shapes]] /
-[[svg/tutorials/smarter_svg_graphics|Graphics]] /
-[[svg/tutorials/smarter_svg_filters|Filters]] /
-[[svg/tutorials/smarter_svg_animation|Animation]] /
-[[svg/tutorials/smarter_svg_interaction|Interaction]])
 
 }}
 {{Notes_Section}}
