@@ -1,5 +1,8 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Review
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Handles the [[apis/webrtc/RTCPeerConnection/icechange|icechange]] event for a change to the [[apis/webrtc/RTCPeerConnection/iceState]] property. It is called any time there is a new ICE candidate added to a previous offer or answer.}}
@@ -23,7 +26,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|WebRTC}}
+{{Topics|API, WebRTC}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
