@@ -1,5 +1,8 @@
 {{Page_Title|readAsText}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Review
+|Checked_Out=No
+}}
 {{Standardization_Status|Non-Standard}}
 {{API_Name}}
 {{Summary_Section|Returns partial Blob data representing the number of bytes currently loaded (as a fraction of the total), decoded into memory according to the encoding determination.}}
@@ -42,7 +45,7 @@ S_OK
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|FileAPI}}
+{{Topics|API, FileAPI}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
