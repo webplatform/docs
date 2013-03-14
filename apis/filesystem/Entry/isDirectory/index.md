@@ -1,5 +1,8 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Review
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|True if the Entry is a directory.}}
@@ -85,7 +88,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|FileSystemAPI}}
+{{Topics|API, FileSystemAPI}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
