@@ -83,13 +83,6 @@ Events:
 * '''onend'''
 * '''onrepeat'''
 
-([[svg/tutorials/smarter_svg_overview|Overview]] /
-[[svg/tutorials/smarter_svg_shapes|Shapes]] /
-[[svg/tutorials/smarter_svg_graphics|Graphics]] /
-[[svg/tutorials/smarter_svg_filters|Filters]] /
-[[svg/tutorials/smarter_svg_animation|Animation]] /
-[[svg/tutorials/smarter_svg_interaction|Interaction]])
-
 }}
 {{Notes_Section}}
 {{Compatibility_Section
