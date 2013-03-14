@@ -1,7 +1,8 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import, Needs Review
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 |Editorial notes=Change page template to "Property" (event = abort, property = onabort)
 }}
 {{Standardization_Status}}
@@ -51,7 +52,7 @@ The ''pEvtObj'' parameter is required for the following interfaces:
 *<code>[[apis/file/MSStreamReader|msStreamReader]]</code>
 *<code>[[dom/methods/click|click]]</code>
 }}
-{{Topics}}
+{{Topics|API, FileAPI}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
