@@ -1,5 +1,7 @@
 {{Page_Title|window.location.host}}
-{{Flags}}
+{{Flags
+|Checked_Out=No
+}}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|The host property contains the host part of the the current document URL, (hostname:port).}}
@@ -14,7 +16,19 @@ For example, <code>http://example.org:8080/</code> would return the host string 
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=The following example assumes your document has a div element with id 'hostDiv', like this.
+|Code=// Get the host from window.location
+var host = window.location.host;
+
+// Get a div element with id 'hostDiv'
+var container = document.getElementById('hostDiv');
+
+// Fill in the div element with the host
+container.innerHTML = host;
+|LiveURL=http://fiddle.jshell.net/YJEhh/4/
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
