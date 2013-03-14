@@ -1,5 +1,7 @@
 {{Page_Title|SVG: Grand Tour}}
-{{Flags}}
+{{Flags
+|Checked_Out=Yes
+}}
 {{Byline}}
 {{Summary_Section|This guide introduces SVG graphics and shows you all the basics of how to deploy them along with standard web content.}}
 {{Tutorial
@@ -899,7 +901,6 @@ the tag's '''requiredExtensions''' attribute. If not, it uses fallback
 * '''color''', used to provide a potential indirect value (currentColor) for the '''fill''', '''stroke''', '''stop-color''', '''flood-color''' and '''lighting-color''' properties. (The SVG properties which support color allow a color specification which is extended from CSS2 to accommodate color definitions in arbitrary color spaces. See Color profile descriptions.)
 
 -->
-
 }}
 {{Notes_Section}}
 {{Compatibility_Section
