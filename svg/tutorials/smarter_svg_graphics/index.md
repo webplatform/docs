@@ -8,6 +8,14 @@
 {{Tutorial
 |Content=
 
+==Patterns==
+
+[[Image:svg_gfx_pattern.png|300px]]
+
+<!--
+    13.3 Patterns
+-->
+
 ==Images==
 
 <!--
@@ -29,14 +37,6 @@ Gradient properties:
 * '''stop-color'''
 * '''stop-opacity'''
 
--->
-
-==Patterns==
-
-[[Image:svg_gfx_pattern.png|200px]]
-
-<!--
-    13.3 Patterns
 -->
 
 ==Nesting transforms==
@@ -81,6 +81,8 @@ Other properties for visual media:
 
 ==Rendering preferences==
 
+...
+
 <!--
     11.7 Rendering properties
         11.7.1 Color interpolation properties: 'color-interpolation' and 'color-interpolation-filters'
@@ -100,8 +102,6 @@ Color and Painting properties:
 * '''color-interpolation-filters'''
 * '''color-profile'''
 * '''color-rendering'''
-
-==OTHER==
 
  11 Painting: Filling, Stroking and Marker Symbols
     11.1 Introduction
