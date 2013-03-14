@@ -1,5 +1,8 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Review
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|The '''File''' object provides information about files stored on the user's computer, and access to their contents. These are generally retrieved from a [[apis/file/FileList|FileList]] object returned when a user selects files using the '''input''' element, or from a drag-and-drop operation's '''DataTransfer''' object.}}
@@ -9,7 +12,7 @@
 |Examples={{Single Example
 |Language=JavaScript
 |Description=Using form input for selecting files
-|Code=  function handleFileSelect(evt) {
+|Code=function handleFileSelect(evt) {
     var files = evt.target.files; // FileList object
 
     // files is a FileList of File objects. List some properties.
@@ -97,7 +100,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|FileAPI}}
+{{Topics|API, FileAPI}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN, HTML5Rocks
