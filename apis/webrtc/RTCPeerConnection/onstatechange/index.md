@@ -1,5 +1,8 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Review
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Handles the [[apis/webrtc/RTCPeerConnection/statechange|statechange]] event for when the [[apis/webrtc/RTCPeerConnection/readyState|readyState]] property is changed, i.e. with a call to [[apis/webrtc/RTCPeerConnection/setLocalDescription|setLocalDescription()]] or [[apis/webrtc/RTCPeerConnection/setRemoteDescription|setRemoteDescription()]]. The event does not fire when a new RTCPeerConnection object is created.}}
@@ -23,7 +26,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|WebRTC}}
+{{Topics|API, WebRTC}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
