@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -66,7 +67,7 @@ h2, h3 {
 }}
 {{Notes_Section
 |Import_Notes====Syntax===
-&amp;lt;code>'''break-before: '''auto '''{{!}}''' always '''{{!}}''' avoid '''{{!}}''' left '''{{!}}''' right '''{{!}}''' page '''{{!}}''' column '''{{!}}''' avoid-page '''{{!}}''' avoid-column&amp;lt;/code>
+<code>'''break-before: '''auto '''{{!}}''' always '''{{!}}''' avoid '''{{!}}''' left '''{{!}}''' right '''{{!}}''' page '''{{!}}''' column '''{{!}}''' avoid-page '''{{!}}''' avoid-column</code>
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -88,40 +89,40 @@ h2, h3 {
 * Adobe Developer's Network: [http://www.adobe.com/devnet/html5/articles/css3-regions.html CSS3 Regions: Rich page layout with HTML and CSS3]
 * [http://adobe.github.com/web-platform/samples/css-regions Sample pages]
 |Manual_sections====Related pages (MSDN)===
-*&amp;lt;code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]&amp;lt;/code>
-*&amp;lt;code>[[css/cssom/currentStyle|currentStyle]]&amp;lt;/code>
-*&amp;lt;code>[[css/cssom/style|style]]&amp;lt;/code>
-*&amp;lt;code>address&amp;lt;/code>
-*&amp;lt;code>blockQuote&amp;lt;/code>
-*&amp;lt;code>div&amp;lt;/code>
-*&amp;lt;code>dl&amp;lt;/code>
-*&amp;lt;code>fieldSet&amp;lt;/code>
-*&amp;lt;code>form&amp;lt;/code>
-*&amp;lt;code>noFrames&amp;lt;/code>
-*&amp;lt;code>noScript&amp;lt;/code>
-*&amp;lt;code>ol&amp;lt;/code>
-*&amp;lt;code>p&amp;lt;/code>
-*&amp;lt;code>pre&amp;lt;/code>
-*&amp;lt;code>[[html/elements/table|table]]&amp;lt;/code>
-*&amp;lt;code>ul&amp;lt;/code>
-*&amp;lt;code>dd&amp;lt;/code>
-*&amp;lt;code>dt&amp;lt;/code>
-*&amp;lt;code>li&amp;lt;/code>
-*&amp;lt;code>tBody&amp;lt;/code>
-*&amp;lt;code>td&amp;lt;/code>
-*&amp;lt;code>tFoot&amp;lt;/code>
-*&amp;lt;code>th&amp;lt;/code>
-*&amp;lt;code>tHead&amp;lt;/code>
-*&amp;lt;code>tr&amp;lt;/code>
-*&amp;lt;code>button&amp;lt;/code>
-*&amp;lt;code>del&amp;lt;/code>
-*&amp;lt;code>ins&amp;lt;/code>
-*&amp;lt;code>map&amp;lt;/code>
-*&amp;lt;code>object&amp;lt;/code>
-*&amp;lt;code>script&amp;lt;/code>
-*&amp;lt;code>Reference&amp;lt;/code>
-*&amp;lt;code>[[css/properties/break-after|breakAfter]]&amp;lt;/code>
-*&amp;lt;code>[[css/properties/break-inside|breakInside]]&amp;lt;/code>
+*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
+*<code>[[css/cssom/currentStyle|currentStyle]]</code>
+*<code>[[css/cssom/style|style]]</code>
+*<code>address</code>
+*<code>blockQuote</code>
+*<code>div</code>
+*<code>dl</code>
+*<code>fieldSet</code>
+*<code>form</code>
+*<code>noFrames</code>
+*<code>noScript</code>
+*<code>ol</code>
+*<code>p</code>
+*<code>pre</code>
+*<code>[[html/elements/table|table]]</code>
+*<code>ul</code>
+*<code>dd</code>
+*<code>dt</code>
+*<code>li</code>
+*<code>tBody</code>
+*<code>td</code>
+*<code>tFoot</code>
+*<code>th</code>
+*<code>tHead</code>
+*<code>tr</code>
+*<code>button</code>
+*<code>del</code>
+*<code>ins</code>
+*<code>map</code>
+*<code>object</code>
+*<code>script</code>
+*<code>Reference</code>
+*<code>[[css/properties/break-after|breakAfter]]</code>
+*<code>[[css/properties/break-inside|breakInside]]</code>
 }}
 {{Topics|CSS}}
 {{External_Attribution
