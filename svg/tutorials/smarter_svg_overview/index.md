@@ -2,8 +2,10 @@
 {{Flags
 |Checked_Out=Yes
 }}
-{{Byline}}
-{{Summary_Section|This guide introduces SVG graphics and shows you all the basics of how to deploy them along with standard web content.}}
+{{Byline
+|Name=Mike Sierra
+}}
+{{Summary_Section|This guide introduces SVG graphics and shows how to deploy them along with other web content. It steps through various SVG features, showing you how to build a pair of animating eyeballs.}}
 {{Tutorial
 |Content=SVG is a standard markup format, like HTML and XML, that
 renders ''Scalable Vector Graphics'' within web browsers.  Vector or
@@ -910,7 +912,9 @@ the tag's '''requiredExtensions''' attribute. If not, it uses fallback
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Topic_clusters=Animation, Filters, Gradients, Transforms
+}}
 {{Topics|SVG}}
 {{External_Attribution
 |Is_CC-BY-SA=No
