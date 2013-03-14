@@ -1,5 +1,8 @@
 {{Page_Title|Geolocation}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Review
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|The Geolocation object is used by scripts to programmatically determine the location information associated with the hosting device. The location information is acquired by applying a user-agent specific algorithm, creating a '''Position''' object, and populating that object with appropriate data accordingly.}}
@@ -19,7 +22,7 @@
 }}{{Single Example
 |Language=JavaScript
 |Description=The script checks if geolocation is supported, if possible - the script obtains your actual position using the watchPosition method.
-If something went wrong you will get a detailed error message. 
+If something went wrong you will get a detailed error message.
 |Code=// variables	  
 var watchID;
 var geoLoc;
@@ -147,7 +150,7 @@ The '''Geolocation''' object is not supported for applications hosting the WebBr
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|Geolocation}}
+{{Topics|API, Geolocation}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
