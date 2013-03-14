@@ -64,8 +64,6 @@ Other properties for visual media:
 * '''clip-rule'''
 * '''overflow''', only applicable to elements which establish a new viewport.
 
-
-
 ==Masking==
 
 <!--
@@ -115,13 +113,6 @@ Color and Painting properties:
         12.3.4 The CSS @color-profile rule
         12.3.5 The 'color-profile' property
 -->
-
-([[svg/tutorials/smarter_svg_overview|Overview]] /
-[[svg/tutorials/smarter_svg_shapes|Shapes]] /
-[[svg/tutorials/smarter_svg_graphics|Graphics]] /
-[[svg/tutorials/smarter_svg_filters|Filters]] /
-[[svg/tutorials/smarter_svg_animation|Animation]] /
-[[svg/tutorials/smarter_svg_interaction|Interaction]])
 
 }}
 {{Notes_Section}}
