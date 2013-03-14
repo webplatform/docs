@@ -1,5 +1,8 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Review
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Deletes a file or directory.}}
@@ -89,7 +92,7 @@ It is an error to attempt to delete the root directory of a filesystem.
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|FileSystemAPI}}
+{{Topics|API, FileSystemAPI}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
