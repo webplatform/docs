@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Deletion Candidate
+|High-level issues=Deletion Candidate, Needs Review
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -25,7 +26,7 @@ Obsolete per latest specification. Use [[dom/DOMError|DOMError]] instead.
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|FileAPI}}
+{{Topics|API, FileAPI}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
