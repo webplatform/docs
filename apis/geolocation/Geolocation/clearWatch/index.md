@@ -1,5 +1,8 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Review
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|Stops a specific watch process.}}
@@ -94,7 +97,7 @@ If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRES
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|DOM, Geolocation}}
+{{Topics|API, DOM, Geolocation}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
