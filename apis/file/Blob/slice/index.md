@@ -1,5 +1,8 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Review
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Returns a new Blob object with bytes ranging from its optional start parameter up to but not including its optional end parameter.}}
@@ -107,7 +110,7 @@ For a code sample of the <code>slice</code> method, see [[apis/file/Blob|'''Blob
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|FileAPI}}
+{{Topics|API, FileAPI}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
