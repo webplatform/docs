@@ -1,5 +1,8 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Review
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|Denotes the magnitude of the horizontal component of the hosting device's current velocity specified in meters per second. If the implementation cannot provide speed information, the value of this attribute must be null. Otherwise, the value of this attribute must be a non-negative real number.}}
@@ -83,7 +86,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|Geolocation}}
+{{Topics|API, Geolocation}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
