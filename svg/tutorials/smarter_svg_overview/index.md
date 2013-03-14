@@ -1,8 +1,5 @@
 {{Page_Title|SVG: Grand Tour}}
-{{Flags
-|High-level issues=Stub
-|Editorial notes=[new content edited offline by Sierra ([[User:Sierra|Sierra]] ([[User talk:Sierra|talk]])); please do not edit]
-}}
+{{Flags}}
 {{Byline}}
 {{Summary_Section|This guide introduces SVG graphics and shows you all the basics of how to deploy them along with standard web content.}}
 {{Tutorial
