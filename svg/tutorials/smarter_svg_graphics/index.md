@@ -24,17 +24,22 @@
         13.2.2 Linear gradients
         13.2.3 Radial gradients
         13.2.4 Gradient stops
--->
 
 Gradient properties:
 * '''stop-color'''
 * '''stop-opacity'''
 
+-->
+
 ==Patterns==
+
+[[Image:svg_gfx_pattern.png|200px]]
 
 <!--
     13.3 Patterns
 -->
+
+==Nesting transforms==
 
 ==Compositing==
 
@@ -42,9 +47,9 @@ Gradient properties:
  14 Clipping, Masking and Compositing
     14.1 Introduction
     14.2 Simple alpha compositing
+* '''opacity'''
 -->
 
-* '''opacity'''
 
 ==Clipping==
 
@@ -56,7 +61,6 @@ Gradient properties:
         14.3.4 Clip to viewport vs. clip to 'viewBox'
         14.3.5 Establishing a new clipping path: the 'clipPath' element
         14.3.6 Clipping paths, geometry, and pointer events
--->
 
 Other properties for visual media:
 * '''clip''', only applicable to outermost svg element.
@@ -64,14 +68,16 @@ Other properties for visual media:
 * '''clip-rule'''
 * '''overflow''', only applicable to elements which establish a new viewport.
 
+-->
+
 ==Masking==
 
 <!--
     14.4 Masking
     14.5 Object and group opacity: the 'opacity' property
--->
 
 * '''mask'''
+-->
 
 ==Rendering preferences==
 
@@ -83,7 +89,6 @@ Other properties for visual media:
         11.7.4 The 'text-rendering' property
         11.7.5 The 'image-rendering' property
     11.8 Inheritance of painting properties
--->
 
 * '''image-rendering'''
 * '''shape-rendering'''
@@ -98,7 +103,6 @@ Color and Painting properties:
 
 ==OTHER==
 
-<!--
  11 Painting: Filling, Stroking and Marker Symbols
     11.1 Introduction
     11.2 Specifying paint
