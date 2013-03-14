@@ -1,5 +1,8 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Review
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|In the File System API, a FileSystem object represents a file system. The object is the argument of a successful callback of requestFileSystem().}}
@@ -80,7 +83,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|FileSystemAPI}}
+{{Topics|API, FileSystemAPI}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
