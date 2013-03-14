@@ -1,5 +1,8 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Review
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|Returns a long value that uniquely identifies a watch operation and then asynchronously starts the watch operation.}}
@@ -141,7 +144,7 @@ Windows Internet Explorer 9.  This property is supported only for webpages disp
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|Geolocation}}
+{{Topics|API, Geolocation}}
 {{External_Attribution
 |Is_CC-BY-SA=Yes
 |Sources=MDN, MSDN
