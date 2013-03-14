@@ -1,5 +1,8 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Review
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|Indicates that the application is willing to accept a cached position whose age is no greater than the specified time (in milliseconds).}}
@@ -83,7 +86,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|Geolocation}}
+{{Topics|API, Geolocation}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
