@@ -178,9 +178,9 @@ the '''background-image''' property, which doesn't apply to SVG.
 
 This new circle is much larger than the actual eyeball, because we
 want to move it around behind a smaller pair of eyelids. (Don't worry
-for now that the shape is too wide.) Before you build the eyelids, you
-should stash away the graphic components you've already defined. Add a
-'''defs''' region to the '''svg''':
+for now that the shape is wider than the drawing area.) Before you
+build the eyelids, you should stash away the graphic components you've
+already defined. Add a '''defs''' region to the '''svg''':
 
 <syntaxhighlight lang="html5" highlight="11-13">
 <!DOCTYPE html>
@@ -216,19 +216,19 @@ with a '''use''' tag placed outside the '''defs''' makes it render:
 </syntaxhighlight>
 
 The '''use''' tag can be a bit mystifying at first.  It's not simply a
-copy of the object it points to, but a ''deep'' reference.  That means
-any changes made to the prototype '''circle''' or '''radialGradient'''
-components within the '''defs''' appears dynamically wherever a
-'''use''' tag references them.  Despite this flexibility, you can't
-redefine any of the referenced object's attributes. But you can add
-optional presentation attributes that aren't already defined there.
+copy of the object it points to, but a ''deep reference''.  Any
+changes made to the prototype '''circle''' or '''radialGradient'''
+components appears dynamically wherever a '''use''' tag references
+them.  Despite this flexibility, you can't redefine any of the
+referenced object's attributes. But you can add optional presentation
+attributes that aren't already defined there.
 
 Since the '''use''' and its target element are placed in different
 parts of the document tree, CSS style sheets that ordinarily apply to
 the target do not automatically cascade to the '''use'''. However, you
-can apply CSS separately to the '''use'''. This example applies the
-same style sheet based on the '''id''' of the target, and the
-'''class''' of any '''use''' that references it:
+can apply CSS separately to the '''use''' element. This example
+applies the same style sheet based on the '''id''' of the target, and
+the '''class''' of any '''use''' that references it:
 
 <syntaxhighlight lang="xml">
 <style>
@@ -236,7 +236,6 @@ same style sheet based on the '''id''' of the target, and the
     fill: url(#eyeballFill);
 }
 </style>
-
 <svg width="200" height="200">
 <defs>
 <circle id="eyeball" cx="100" cy="100" r="150" />
@@ -323,13 +322,13 @@ that appears outside the '''defs''' renders the entire object:
 
 It becomes useful here to ''group'' the two graphic elements, wrapping
 a '''g''' tag around them to consolidate a larger semantic ''eye''
-object. In addition to the ability to reference them, you will see
-below that you can move them or otherwise transform them as a unit.
+object. You can reference the grouped object, and you will see below,
+move or otherwise transform it as a unit.
 
 ==The eyelashes==
 
-Drawing the eyelashes requires a bit of creativity. We need to add a
-third reference to the eyelid shape.
+Drawing the eyelashes along the eyelid requires a bit of creativity.
+We need to add a third reference to the eyelid shape.
 
 <syntaxhighlight lang="xml">
 <g id="eye">
@@ -426,7 +425,7 @@ subsequent darkening:
 [[Image:svgGrandTour_eyeball_eyelid_filters.png||200px]]
 </div>
 
-==Coordinate spaces and transforms==
+==Transforms and coordinate spaces==
 
 To finish off the graphic, group another instance of the ''eye''
 object into a higher-level ''eyes'' object:
@@ -500,9 +499,9 @@ svg {
 
 The solution is to define a custom box using the '''viewBox'''
 attribute.  Doing so declares a set of abstract units for exclusive
-use within the graphic, which may bear no relation to the coordinate
-space within which the graphic appears, to which the SVG's '''width'''
-and '''height''' apply:
+use ''within'' the graphic, which may bear no relation to the outer
+coordinate space n which the graphic is presented, to which the SVG's
+'''width''' and '''height''' apply:
 
 <syntaxhighlight lang="xml">
 <svg width="300" height="100" viewBox="0 0 600 200">
@@ -602,8 +601,8 @@ As it appears above, the animation moves the eyes to the right, then
 immediately snaps back.  There's an attribute called '''fill''', which
 is unfortunately named the same as the '''fill''' property that
 applies colors and gradients to shapes. Adding a '''fill''' attribute
-here and setting it to '''freeze''' would keep the eyes looking
-rightwards after the animation ends.  But instead, we'll add another
+here and setting it to '''freeze''' would keep the eyes looking to the
+side after the animation ends.  But instead, we'll add another
 animation to return the eyes to their original state:
 
 <syntaxhighlight lang="xml" highlight="3,12,15,17-18">
@@ -630,11 +629,12 @@ animation to return the eyes to their original state:
 </syntaxhighlight>
 
 Aside from the inversion of the '''from''' and '''to''' values, note
-the '''begin''' time is expressed in terms of whenever the previous
-animation ends. And notice that in addition to the '''xlink:href'''
-and '''url()''' syntax we've seen used to reference objects, now we
-see a third form of syntax that references the ''glanceStart''
-identifier along with the value of its '''end''' attribute.
+the ''glanceEnd'' animation's '''begin''' time is expressed in terms
+of whenever the previous ''glanceStart'' animation ends. And notice
+that in addition to the '''xlink:href''' and '''url()''' syntax we've
+seen used to reference objects, now we see a third form of dot syntax
+that references the ''glanceStart'' identifier along with the value of
+its '''end''' attribute.
 
 ==Blinking==
 
@@ -668,13 +668,12 @@ the curve, so the animation behaves like this:
 
 You can use JavaScript to control these animations more flexibly. To
 do so, call the '''beginElement()''' method on the animation object.
-This example shifts the coordinates to which the eyes glance, with an
-optional duration parameter to regulate the speed:
+This example shifts the ''x''/''y'' coordinates to which the eyes
+glance, with an optional duration parameter to regulate the speed:
 
 <syntaxhighlight lang="javascript">
 function glanceTo(x,y,dur) {
-    var defaultDur = 0.5;
-    dur = (dur || defaultDur) + 's';
+    dur = (dur || 0.5) + 's'; // assign 3rd param or default
     var toThere = document.querySelector('#glanceStart');
     var andBack = document.querySelector('#glanceEnd');
     toThere.setAttribute("to", x + " " + y);
@@ -700,6 +699,20 @@ function blink() {
 Enough, already?
 
 [[Image:svgGrandTour_eyeball_tired.png|600px]]
+
+<!--
+
+==Adding text and interaction==
+
+* pointer-events
+
+* view, zoomAndPan
+
+* text
+
+* foreignObject
+
+-->
 
 ==Deploying SVG==
 
@@ -893,7 +906,6 @@ the tag's '''requiredExtensions''' attribute. If not, it uses fallback
 
 ([[svg/tutorials/smarter_svg_overview|Overview]] /
 [[svg/tutorials/smarter_svg_shapes|Shapes]] /
-[[svg/tutorials/smarter_svg_text|Text]] /
 [[svg/tutorials/smarter_svg_graphics|Graphics]] /
 [[svg/tutorials/smarter_svg_filters|Filters]] /
 [[svg/tutorials/smarter_svg_animation|Animation]] /
