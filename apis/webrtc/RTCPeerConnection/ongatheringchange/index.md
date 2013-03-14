@@ -1,5 +1,8 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Review
+|Checked_Out=No
+}}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|Handles the [[apis/webrtc/RTCPeerConnection/gatheringchange|gatheringchange]] event for a change to the [[apis/webrtc/RTCPeerConnection/iceGatheringState|iceGatheringState]] property.}}
@@ -23,7 +26,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|WebRTC}}
+{{Topics|API, WebRTC}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
