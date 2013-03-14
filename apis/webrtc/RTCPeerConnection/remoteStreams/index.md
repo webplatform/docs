@@ -1,5 +1,8 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Review
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Returns an array of [[apis/webrtc/MediaStream|MediaStream]] objects added to the connection by the remote peer. This array is updated when the [[apis/webrtc/addstream|addstream]] and [[apis/webrtc/removestream|removestream]] events are fired.}}
@@ -23,7 +26,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|WebRTC}}
+{{Topics|API, WebRTC}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
