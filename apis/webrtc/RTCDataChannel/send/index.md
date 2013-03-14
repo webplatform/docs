@@ -1,6 +1,8 @@
 {{Page_Title}}
 {{Flags
+|High-level issues=Needs Review
 |Content=Compatibility Incomplete
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
@@ -40,7 +42,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|WebRTC}}
+{{Topics|API, WebRTC}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
