@@ -1,5 +1,8 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Review
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|[[apis/webaudio/AudioNode|'''AudioNode''']]s are the building blocks of an [[apis/webaudio/AudioContext|'''AudioContext''']]. An [[apis/webaudio/AudioNode|'''AudioNode''']] represents audio sources, the audio destination, and intermediate processing modules, connected together to form processing graphs for rendering audio to the audio hardware. In general, an AudioNode processes its inputs (if it has any), and generates audio for its outputs (if it has any).}}
@@ -24,7 +27,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|Audio, WebAudio}}
+{{Topics|API, WebAudio}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
