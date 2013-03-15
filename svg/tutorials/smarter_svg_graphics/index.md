@@ -250,8 +250,8 @@ increase the pattern's tiling area to accomodate it:
 If the pattern is not sized appropriately for the shape, you do not
 have to resize the pattern's dimensions or any of the component tiles.
 The example above specifies a '''patternTransform''' attribute with a
-'''scale(1)''' transform that leaves the size unchanged, but
-increasing the value to 1.5 magnifies the pattern:
+''scale(1)'' transform that leaves the size unchanged, but increasing
+the value to 1.5 magnifies the pattern:
 
 [[Image:svg_gfx_pattern_scale.png|300px]]
 
@@ -270,16 +270,7 @@ used for the pattern:
 
 [http://letmespellitoutforyou.com/samples/img/pattern_fill.svg View the SVG file here].
 
-==Images==
-
-<!--
-    5.7 The 'image' element
--->
-
-<syntaxhighlight lang="xml">
-</syntaxhighlight>
-
-==Clipping==
+==Clipping paths==
 
 <!--
     14.3 Clipping paths
@@ -301,7 +292,16 @@ Other properties for visual media:
 <syntaxhighlight lang="xml">
 </syntaxhighlight>
 
-==Masking==
+==Adding images==
+
+<!--
+    5.7 The 'image' element
+-->
+
+<syntaxhighlight lang="xml">
+</syntaxhighlight>
+
+==Applying masks==
 
 <!--
     14.4 Masking
