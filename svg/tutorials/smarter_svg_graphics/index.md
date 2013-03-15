@@ -12,11 +12,78 @@
 
 [[Image:svg_gfx_pattern.png|300px]]
 
+[[Image:svg_gfx_pattern_scale.png|300px]]
+
+[[Image:svg_gfx_pattern_skewrot.png|300px]]
+
+[[Image:svg_gfx_pattern_wh.png|300px]]
+
 [[Image:svg_gfx_tileRect.png|100px]]
 
 [[Image:svg_gfx_tileSquare.png|100px]]
 
 [[Image:svg_gfx_tiles.png|200px]]
+
+<syntaxhighlight lang="xml">
+<rect id="tileRect" x="0.5" y="0.5" width="9.0" height="4.0" fill="#E1BC9B" />
+</syntaxhighlight>
+
+<syntaxhighlight lang="xml">
+<g id="tileSquare">
+  <use xlink:href="#tileRect" />
+  <use xlink:href="#tileRect" transform="translate(0,5)"/>
+</g>
+</syntaxhighlight>
+
+<syntaxhighlight lang="xml">
+<g id="tiles">
+  <use xlink:href="#tileSquare" />
+  <g id="shiftDown" transform="translate(10,10)">
+    <g transform="rotate(90)">
+      <use xlink:href="#tileSquare"/>
+    </g>
+  </g>
+  <g id="shiftOver" transform="translate(10,10)">
+    <g transform="rotate(-90)">
+      <use xlink:href="#tileSquare"/>
+    </g>
+  </g>
+  <g id="shiftDownAndOver" transform="translate(10,10)">
+    <use xlink:href="#tileSquare"/>
+  </g>
+</g>
+</syntaxhighlight>
+
+<syntaxhighlight lang="xml">
+<pattern
+   id                    = "kitchenFloor"
+   x                     = "0"
+   y                     = "0"
+   width                 = "20"
+   height                = "20"
+   patternContentUnits   = "userSpaceOnUse"
+   patternUnits          = "userSpaceOnUse"
+   patternTransform      = "scale(1.2)"
+   data-patternTransform = "scale(1.5) skewY(15) rotate(30)"
+>
+  <use xlink:href="#tiles" />
+</pattern>
+</syntaxhighlight>
+
+<syntaxhighlight lang="xml">
+</syntaxhighlight>
+
+<syntaxhighlight lang="xml">
+</syntaxhighlight>
+
+<syntaxhighlight lang="xml">
+</syntaxhighlight>
+
+<syntaxhighlight lang="xml">
+</syntaxhighlight>
+
+<syntaxhighlight lang="xml">
+</syntaxhighlight>
 
 <!--
     13.3 Patterns
