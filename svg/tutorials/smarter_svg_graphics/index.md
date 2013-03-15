@@ -57,9 +57,10 @@ complex '''path''' shape:
 
 [[Image:svg_gfx_pattern_rect.png|300px]]
 
-Increasing the pattern's '''height''' attribute to 6
+Increasing the pattern's '''width''' and '''height''' attributes
+allows you control over the tile's margins:
 
-[[Image:svg_gfx_pattern_rect6x10.png|300px]]
+[[Image:svg_gfx_pattern_rect_wh.png|300px]]
 
 
 ==More complex patterns==
