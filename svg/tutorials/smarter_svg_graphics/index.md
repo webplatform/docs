@@ -119,6 +119,7 @@ increase the pattern's tiling area to accomodate it:
    y                     = "0"
    width                 = "20"
    height                = "20"
+   patternTransform      = "scale(1)"
    patternContentUnits   = "userSpaceOnUse"
    patternUnits          = "userSpaceOnUse"
 >
@@ -128,43 +129,19 @@ increase the pattern's tiling area to accomodate it:
 
 [[Image:svg_gfx_pattern.png|300px]]
 
+If the pattern is not sized appropriately for the shape, you do not
+have to resize the pattern's dimensions or any of the component tiles.
+The example above specifies a '''patternTransform''' attribute with a
+'''scale(1)''' transform that leaves the size unchanged, but
+increasing the value to 1.5 magnifies the pattern:
+
 [[Image:svg_gfx_pattern_scale.png|300px]]
 
+Other transforms allow you to reorient and reshape the pattern. In
+this example, ''scale(1.5) skewY(15) rotate(30)'' boosts the pattern's
+size, shears it into a diamond shape, and spins it:
+
 [[Image:svg_gfx_pattern_skewrot.png|300px]]
-
-
-
-<syntaxhighlight lang="xml">
-<pattern
-   id                    = "tilePattern"
-   x                     = "0"
-   y                     = "0"
-   width                 = "20"
-   height                = "20"
-   patternContentUnits   = "userSpaceOnUse"
-   patternUnits          = "userSpaceOnUse"
-   patternTransform      = "scale(1.2)"
-   data-patternTransform = "scale(1.5) skewY(15) rotate(30)"
->
-  <use xlink:href="#tiles" />
-</pattern>
-</syntaxhighlight>
-
-<syntaxhighlight lang="xml">
-<g>
-  <use xlink:href="#headShape" fill="url(#tilePattern)" />
-  <use xlink:href="#shirtShape" />
-</g>
-</syntaxhighlight>
-
-
-<syntaxhighlight lang="xml">
-<path id="headShape" d="M468.054,306.428c0.118,0.623,0.557,0.974,1.042,1.325..."/>
-</syntaxhighlight>
-
-<!--
-    13.3 Patterns
--->
 
 ==Images==
 
