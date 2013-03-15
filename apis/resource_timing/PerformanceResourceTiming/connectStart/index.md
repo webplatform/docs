@@ -1,6 +1,8 @@
 {{Page_Title}}
 {{Flags
+|High-level issues=Needs Review
 |Content=Compatibility Incomplete
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
@@ -37,7 +39,7 @@ The value reported by the '''connectStart''' property represents the number of m
 *<code>[[apis/timing/objects/performanceTiming|performanceTiming]]</code>
 *<code>[[apis/timing/properties/connectEnd|connectEnd]]</code>
 }}
-{{Topics|Resource Timing}}
+{{Topics|API, Resource Timing}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
