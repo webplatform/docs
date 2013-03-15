@@ -1,7 +1,8 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import, Needs Review
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
@@ -82,7 +83,7 @@ A [[apis/indexedDB/IDBOpenRequest|'''IDBOpenRequest''']] request object that fir
 *<code>[[apis/indexedDB/properties/indexedDB|indexedDB]]</code>
 *<code>[[apis/indexedDB/IDBFactory|IDBFactory]]</code>
 }}
-{{Topics|IndexedDB}}
+{{Topics|API, IndexedDB}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
