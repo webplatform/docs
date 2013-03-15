@@ -62,14 +62,54 @@ allows you control over the tile's margins:
 
 [[Image:svg_gfx_pattern_rect_wh.png|300px]]
 
+==More complex tile patterns==
 
-==More complex patterns==
+This pattern consists of a very simple shape. You can make the
+pattern's nested set of graphics as complex and varied as you want, or
+build larger patterns from smaller components. This example shows how
+to build series of alternating rotated tiles. First, a ''tileSquare''
+object duplicates the underlying graphic and uses a '''transform''' to
+move it below the original to form a 10&times;10 square:
+
+<syntaxhighlight lang="xml">
+<g id="tileSquare">
+  <use xlink:href="#tileRect" />
+  <use xlink:href="#tileRect" transform="translate(0,5)"/>
+</g>
+</syntaxhighlight>
 
 [[Image:svg_gfx_tileSquare.png|100px]]
 
+The square is then repeated four times within a larger 20&times;20
+square:
+
+<syntaxhighlight lang="xml">
+<g id="tilePatternUnit">
+  <use xlink:href="#tileSquare" />
+  <g id="shiftDown" transform="translate(10,10) rotate(90)">
+      <use xlink:href="#tileSquare"/>
+  </g>
+  <g id="shiftOver" transform="translate(10,10) rotate(-90)">
+      <use xlink:href="#tileSquare"/>
+  </g>
+  <g id="shiftDownAndOver" transform="translate(10,10)">
+    <use xlink:href="#tileSquare"/>
+  </g>
+</g>
+</syntaxhighlight>
+
 [[Image:svg_gfx_tiles.png|200px]]
 
+All the tiles except for the first one are moved to the bottom-right
+corner of the larger square. The second and third are rotated,
+pivoting around their top-left corners so that they occupy the other
+two corners. The transform becomes clearer when rotated by only 80
+degrees:
+
 [[Image:svg_gfx_tiles_rot.png|200px]]
+
+Unlike CSS transforms, SVG transforms use an object's top-left corner
+as the transform's ''origin'' rather than the center of the object.
 
 [[Image:svg_gfx_pattern.png|300px]]
 
@@ -78,13 +118,6 @@ allows you control over the tile's margins:
 [[Image:svg_gfx_pattern_skewrot.png|300px]]
 
 [[Image:svg_gfx_pattern_wh.png|300px]]
-
-<syntaxhighlight lang="xml">
-<g id="tileSquare">
-  <use xlink:href="#tileRect" />
-  <use xlink:href="#tileRect" transform="translate(0,5)"/>
-</g>
-</syntaxhighlight>
 
 <syntaxhighlight lang="xml">
 <pattern
@@ -98,25 +131,6 @@ allows you control over the tile's margins:
 >
   <use xlink:href="#tiles" />
 </pattern>
-</syntaxhighlight>
-
-<syntaxhighlight lang="xml">
-<g id="tiles">
-  <use xlink:href="#tileSquare" />
-  <g id="shiftDown" transform="translate(10,10)">
-    <g transform="rotate(90)">
-      <use xlink:href="#tileSquare"/>
-    </g>
-  </g>
-  <g id="shiftOver" transform="translate(10,10)">
-    <g transform="rotate(-90)">
-      <use xlink:href="#tileSquare"/>
-    </g>
-  </g>
-  <g id="shiftDownAndOver" transform="translate(10,10)">
-    <use xlink:href="#tileSquare"/>
-  </g>
-</g>
 </syntaxhighlight>
 
 <syntaxhighlight lang="xml">
