@@ -66,12 +66,11 @@ graphic:
 
 [[Image:svg_gfx_gradient_linear.png|200px]]
 
-___
-
 Radial gradients emanate outwards from the center point by default,
 filling rectangular shapes elliptically. In this example, which
-generates an obscure cultural reference to Iggy Pop, the black color
-defined at the 30% mark is extrapolated towards the center at 0%:
+generates an obscure cultural reference to an Iggy Pop song, the black
+color defined at the 30% mark is extrapolated towards the center at
+0%:
 
 <syntaxhighlight lang="xml">
 <radialGradient id="tvEye">
@@ -86,8 +85,16 @@ defined at the 30% mark is extrapolated towards the center at 0%:
 
 [[Image:svg_gfx_gradient_radial.png|200px]]
 
+The '''fx''' and '''fy''' attributes specify coordinates for where the
+gradient ''focuses'', while '''cx''' and '''cy''' set the center of
+the outermost circle. Modifying the '''r''' (radius) effectively resizes
+the gradient:
+
 <syntaxhighlight lang="xml">
+<radialGradient id="tvRadial" cx="0.5" cy="0.5" fx="0.8" fy="0.5" r="0.6">
 </syntaxhighlight>
+
+[[Image:svg_gfx_gradient_radialY.png|200px]]
 
 <syntaxhighlight lang="xml">
 </syntaxhighlight>
