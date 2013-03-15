@@ -1,7 +1,8 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import, Needs Review
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -24,8 +25,7 @@
   }
 } catch( ex ) {
   handleException( ex.message );
-}   
-
+}
 }}
 }}
 {{Notes_Section
@@ -48,7 +48,7 @@ For more information about transaction types, see [[indexeddb/IDBTransaction/mod
 {{See_Also_Section
 |External_links=* [http://msdn.microsoft.com/en-us/library/jj154905.aspx Creating and opening IndexedDB objects]
 }}
-{{Topics|IndexedDB}}
+{{Topics|API, IndexedDB}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MDN, MSDN
