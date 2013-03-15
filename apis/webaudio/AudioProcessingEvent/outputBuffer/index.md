@@ -1,5 +1,8 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Review
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|An [[apis/webaudio/AudioBuffer|'''AudioBuffer''']] where the output audio data should be written. It will have a number of channels equal to the '''numberOfOutputChannels''' parameter of the [[apis/webaudio/AudioContext/createScriptProcessor|'''createScriptProcessor()''']] method. Script code within the scope of the [[apis/webaudio/ScriptProcessorNode/onaudioprocess|'''onaudioprocess''']] function is expected to modify the '''Float32Array''' arrays representing channel data in this [[apis/webaudio/AudioBuffer|'''AudioBuffer''']]. Any script modifications to this [[apis/webaudio/AudioBuffer|'''AudioBuffer''']] outside of this scope will not produce any audible effects.}}
@@ -28,7 +31,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|Audio}}
+{{Topics|API, WebAudio}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
