@@ -1,5 +1,8 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Review
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|An interface for web applications to access timing information related to navigation and elements.}}
@@ -13,7 +16,7 @@
 {{See_Also_Section
 |Topic_clusters=Performance
 }}
-{{Topics|API, Timing}}
+{{Topics|API, Navigation Timing, Timing}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
