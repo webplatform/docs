@@ -10,7 +10,34 @@
 
 ==Patterns==
 
+SVG's patterns are similar to CSS's repeating background images, but
+allow you more control over padding and reorienting the repeating pattern.
+
+<syntaxhighlight lang="xml">
+<rect id="tileRect" x="0.5" y="0.5" width="9.0" height="4.0" fill="#E1BC9B" />
+</syntaxhighlight>
+
 [[Image:svg_gfx_tileRect.png|100px]]
+
+[[Image:svg_gfx_pattern_rect.png|300px]]
+
+[[Image:svg_gfx_pattern_rect6x10.png|300px]]
+
+<syntaxhighlight lang="xml">
+<pattern
+   id                    = "tilePatternSimple"
+   x                     = "0"
+   y                     = "0"
+   width                 = "10"
+   height                = "6"
+   patternContentUnits   = "userSpaceOnUse"
+   patternUnits          = "userSpaceOnUse"
+>
+  <use xlink:href="#tileRect" />
+</pattern>
+</syntaxhighlight>
+
+==More complex patterns==
 
 [[Image:svg_gfx_tileSquare.png|100px]]
 
@@ -25,10 +52,6 @@
 [[Image:svg_gfx_pattern_skewrot.png|300px]]
 
 [[Image:svg_gfx_pattern_wh.png|300px]]
-
-<syntaxhighlight lang="xml">
-<rect id="tileRect" x="0.5" y="0.5" width="9.0" height="4.0" fill="#E1BC9B" />
-</syntaxhighlight>
 
 <syntaxhighlight lang="xml">
 <g id="tileSquare">
@@ -79,8 +102,6 @@
 </g>
 </syntaxhighlight>
 
-<syntaxhighlight lang="xml">
-</syntaxhighlight>
 
 <syntaxhighlight lang="xml">
 </syntaxhighlight>
