@@ -371,16 +371,17 @@ Color and Painting properties:
         12.3.3 The 'color-profile' element
         12.3.4 The CSS @color-profile rule
         12.3.5 The 'color-profile' property
--->
 
-==Compositing==
-
-<!--
  14 Clipping, Masking and Compositing
     14.1 Introduction
     14.2 Simple alpha compositing
 * '''opacity'''
 -->
+
+==Compositing==
+
+...
+
 
 }}
 {{Notes_Section}}
