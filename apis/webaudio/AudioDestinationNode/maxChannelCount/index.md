@@ -1,5 +1,8 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Review
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|The maximum number of channels that the [[apis/webaudio/AudioDestinationNode/numberOfChannels|'''numberOfChannels''']] attribute can be set to; that is, the maximum number of channels that this hardware is capable of supporting. A value of 0 indicates that [[apis/webaudio/AudioDestinationNode/maxNumberOfChannels|'''maxNumberOfChannels''']] may not be changed. This will be the case for an [[apis/webaudio/AudioDestinationNode|'''AudioDestinationNode''']] in an [[apis/webaudio/OfflineAudioContext|'''OfflineAudioContext''']].}}
@@ -29,7 +32,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|Audio}}
+{{Topics|API, WebAudio}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
