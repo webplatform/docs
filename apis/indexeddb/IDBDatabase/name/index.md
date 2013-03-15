@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Stub, Missing Relevant Sections
+|High-level issues=Stub, Missing Relevant Sections, Needs Review
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -25,7 +26,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|IndexedDB}}
+{{Topics|API, IndexedDB}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
