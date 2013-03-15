@@ -1,5 +1,8 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Review
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|[[apis/webaudio/BiquadFilterNode|'''BiquadFilterNode''']] is an [[apis/webaudio/AudioNode|'''AudioNode''']] processor implementing common low-order filters, which are the building blocks of basic tone controls (bass, mid, treble), graphic equalizers, and more advanced filters. Multiple [[apis/webaudio/BiquadFilterNode|'''BiquadFilterNode''']] filters can be combined to form more complex filters. Each [[apis/webaudio/BiquadFilterNode|'''BiquadFilterNode''']] can be configured as one of a number of common filter types as listed in the type property page, linked below. The default filter type is LOWPASS.}}
@@ -24,7 +27,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|Audio, WebAudio}}
+{{Topics|API, WebAudio}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
