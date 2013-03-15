@@ -16,8 +16,7 @@ elements.  The '''fill'' property references either kind using
 '''url()''' CSS syntax:
 
 <syntaxhighlight lang="xml">
-<path id="tvScreen" fill="url(#tvScreenOff)"
-d="M159.957 184.103c-21.826 13.892-102.52 17.859-122.361 0c-19.843-17.857-22.486-83.999 0-99.873c22.489-15.874 104.504-17.858 122.361 0C177.814 102.088 181.783 170.214 159.957 184.103z"/>
+<path id="tvScreen" fill="url(#tvScreenOff)" d="M159.957 184.103c-21.826 13.892-102.52 17.859-122.361 0c-19.843-17.857-22.486-83.999 0-99.873c22.489-15.874 104.504-17.858 122.361 0C177.814 102.088 181.783 170.214 159.957 184.103z"/>
 </syntaxhighlight>
 
 This example transitions from a light to a dark gray from top to
