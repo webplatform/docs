@@ -272,6 +272,25 @@ used for the pattern:
 
 ==Clipping paths==
 
+Patterns are not necessarily for tiny images. By applying generous
+'''width''' and '''height''' pattern dimensions, you can also use them
+to display a single large graphic behind an irregular shape. Another
+way to do this is to apply a ''clipping path'', which renders a
+graphic only inside the contours of another graphic.
+
+Place a '''clipPath''' element around the shape you want to clip the
+graphic with, in this case the '''path''' we saw earlierthat defines
+the television screen:
+
+<syntaxhighlight lang="xml">
+<clipPath id="screenClip">
+    <use xlink:href="#tvScreen"/>
+</clipPath>
+</syntaxhighlight>
+
+
+[[Image:svg_gfx_clip.png|200px]]
+
 <!--
     14.3 Clipping paths
         14.3.1 Introduction
@@ -288,6 +307,15 @@ Other properties for visual media:
 * '''overflow''', only applicable to elements which establish a new viewport.
 
 -->
+
+<syntaxhighlight lang="xml">
+</syntaxhighlight>
+
+<syntaxhighlight lang="xml">
+</syntaxhighlight>
+
+<syntaxhighlight lang="xml">
+</syntaxhighlight>
 
 <syntaxhighlight lang="xml">
 </syntaxhighlight>
