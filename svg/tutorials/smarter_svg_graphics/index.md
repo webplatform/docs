@@ -8,6 +8,26 @@
 {{Tutorial
 |Content=
 
+==Gradients==
+
+<!--
+ 13 Gradients and Patterns
+    13.1 Introduction
+    13.2 Gradients
+        13.2.1 Introduction
+        13.2.2 Linear gradients
+        13.2.3 Radial gradients
+        13.2.4 Gradient stops
+
+Gradient properties:
+* '''stop-color'''
+* '''stop-opacity'''
+
+-->
+
+<syntaxhighlight lang="xml">
+</syntaxhighlight>
+
 ==Patterns==
 
 SVG's patterns are similar to CSS's repeating background images, but
@@ -61,6 +81,8 @@ Increasing the pattern's '''width''' and '''height''' attributes
 allows you control over the tile's margins:
 
 [[Image:svg_gfx_pattern_rect_wh.png|300px]]
+
+[http://letmespellitoutforyou.com/samples/img/pattern_fill.svg View the completed SVG file here].
 
 ==More complex tile patterns==
 
@@ -139,7 +161,7 @@ increasing the value to 1.5 magnifies the pattern:
 
 Other transforms allow you to reorient and reshape the pattern. In
 this example, ''scale(1.5) skewY(15) rotate(30)'' boosts the pattern's
-size, shears it into a diamond shape, and spins it:
+size, shears it slightly into a diamond shape, and spins it:
 
 [[Image:svg_gfx_pattern_skewrot.png|300px]]
 
@@ -147,26 +169,6 @@ size, shears it into a diamond shape, and spins it:
 
 <!--
     5.7 The 'image' element
--->
-
-<syntaxhighlight lang="xml">
-</syntaxhighlight>
-
-==Gradients==
-
-<!--
- 13 Gradients and Patterns
-    13.1 Introduction
-    13.2 Gradients
-        13.2.1 Introduction
-        13.2.2 Linear gradients
-        13.2.3 Radial gradients
-        13.2.4 Gradient stops
-
-Gradient properties:
-* '''stop-color'''
-* '''stop-opacity'''
-
 -->
 
 <syntaxhighlight lang="xml">
