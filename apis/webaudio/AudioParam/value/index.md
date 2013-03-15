@@ -1,5 +1,8 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Review
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|The parameter's floating-point value. If a value is set outside the allowable range described by [[apis/webaudio/AudioParam/minValue|'''minValue''']] and [[apis/webaudio/AudioParam/maxValue|'''maxValue''']] no exception is thrown, because these limits are just nominal and may be exceeded. If a value is set during a time when there are any automation events scheduled then it will be ignored and no exception will be thrown.}}
@@ -31,7 +34,7 @@
 {{See_Also_Section
 |Topic_clusters=Audio
 }}
-{{Topics|Audio}}
+{{Topics|API, WebAudio}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
