@@ -47,7 +47,7 @@ Use the '''fill''' property to apply the pattern, in this case to a
 complex '''path''' shape:
 
 <syntaxhighlight lang="xml">
-<path id="headShape" d="M468.054,306.428c0.118,0.623,0.557,0.974,1.042,1.325..."/>
+<path id="headShape" d="M468.054,306.428c0.118,0.623,0.557,0.974,1.042,1.325 ... "/>
 
 <g id="graphic">
   <use xlink:href="#headShape" fill="url(#tilePattern)" />
