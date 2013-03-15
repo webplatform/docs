@@ -168,6 +168,8 @@ shape to include black around the margin:
 </g>
 </syntaxhighlight>
 
+[[Image:svg_gfx_tileRectBlack.png|100px]]
+
 A ''tileSquare'' object duplicates the underlying graphic and uses a
 '''transform''' to move it below the original to form a 10&times;10
 square:
