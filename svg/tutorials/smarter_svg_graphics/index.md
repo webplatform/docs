@@ -55,16 +55,18 @@ graphic:
    gradientUnits = "userSpaceOnUse"
 >
     <stop  offset="0"    stop-color="#F15A29" />
-    <stop  offset="0.01" stop-color="#F15F29" />
+    <stop  offset="0.05" stop-color="#F15F29" />
     <stop  offset="0.17" stop-color="#F68D24" />
     <stop  offset="0.32" stop-color="#F9AC1C" />
     <stop  offset="0.42" stop-color="#FCBF13" />
-    <stop  offset="0.49" stop-color="#FDC70C" />
+    <stop  offset="0.5"  stop-color="#FDC70C" />
     <stop  offset="1"    stop-color="#1C75BC" />
 </linearGradient>
 </syntaxhighlight>
 
 [[Image:svg_gfx_gradient_linear.png|200px]]
+
+
 
 <syntaxhighlight lang="xml">
 </syntaxhighlight>
