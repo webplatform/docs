@@ -82,8 +82,6 @@ allows you control over the tile's margins:
 
 [[Image:svg_gfx_pattern_rect_wh.png|300px]]
 
-[http://letmespellitoutforyou.com/samples/img/pattern_fill.svg View the completed SVG file here].
-
 ==More complex tile patterns==
 
 This pattern consists of a very simple shape. You can make the
@@ -165,6 +163,8 @@ size, shears it slightly into a diamond shape, and spins it:
 
 [[Image:svg_gfx_pattern_skewrot.png|300px]]
 
+[http://letmespellitoutforyou.com/samples/img/pattern_fill.svg View the completed SVG file here].
+
 ==Images==
 
 <!--
@@ -185,7 +185,6 @@ size, shears it slightly into a diamond shape, and spins it:
 
 <syntaxhighlight lang="xml">
 </syntaxhighlight>
-
 
 ==Clipping==
 
