@@ -1,7 +1,8 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Deletion Candidate, Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
+|High-level issues=Deletion Candidate, Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import, Needs Review
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 |Editorial notes=Not part of user_timing, resource_timing, or navigation_timing interfaces.
 }}
 {{Standardization_Status|Non-Standard}}
@@ -40,7 +41,7 @@ Windows Internet Explorer 9.  This property is supported only for documents dis
 *<code>[[apis/timing/objects/performanceTiming|performanceTiming]]</code>
 *<code>[[apis/timing/properties/navigationStart|navigationStart]]</code>
 }}
-{{Topics|DOM}}
+{{Topics|API, DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
