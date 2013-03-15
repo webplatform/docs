@@ -1,5 +1,8 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Review
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|This interface represents a processing node which positions / spatializes an incoming audio stream in three-dimensional space. The spatialization is in relation to the [[apis/webaudio/AudioContext|'''AudioContext''']]'s [[apis/webaudio/AudioListener|'''AudioListener''']] (listener attribute). The audio stream from the input will be either mono or stereo, depending on the connection(s) to the input. The output of this node is hard-coded to stereo (2 channels) and currently cannot be configured.}}
@@ -24,7 +27,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|Audio, WebAudio}}
+{{Topics|API, WebAudio}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
