@@ -215,7 +215,7 @@ becomes clearer when rotated by only 80 degrees:
 To apply the modified fill, reference the more complex object, and
 increase the pattern's tiling area to accomodate it:
 
-<syntaxhighlight lang="xml" highlight="5-6,10">
+<syntaxhighlight lang="xml" highlight="5-6,11">
 <pattern
    id                    = "tilePattern"
    x                     = "0"
