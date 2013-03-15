@@ -1,7 +1,8 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import, Needs Review
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
@@ -22,8 +23,6 @@
 The value of the '''key''' property depends on the [[apis/indexedDB/properties/source|'''source''']] of the [[apis/indexedDB/IDBCursor|'''cursor''']].
 
 If the cursor is opened using an index, the return value represents the value of the attribute associated with the index.  If the cursor is opened using an obejct store, the return value represents the record's primary key.  If the cursor record is iterating to a new record or is outside the range of the cursor, the return value is "undefined".
-
-
 |Import_Notes====Syntax===
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?LinkId{{=}}224519 Indexed Database API]
@@ -42,7 +41,7 @@ If the cursor is opened using an index, the return value represents the value of
 |Manual_sections====Related pages (MSDN)===
 *<code>[[apis/indexedDB/IDBCursor|IDBCursor]]</code>
 }}
-{{Topics|DOM, IndexedDB}}
+{{Topics|API, IndexedDB}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
