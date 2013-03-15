@@ -1,5 +1,8 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Review
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|This interface represents an audio source from an in-memory audio asset in an [[apis/webaudio/AudioBuffer|'''AudioBuffer''']]. It generally will be used for short audio assets which require a high degree of scheduling flexibility (can playback in rhythmically perfect ways).}}
@@ -24,7 +27,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|Audio, WebAudio}}
+{{Topics|API, WebAudio}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
