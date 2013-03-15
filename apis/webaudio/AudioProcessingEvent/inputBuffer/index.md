@@ -1,5 +1,8 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Review
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|An [[apis/webaudio/AudioBuffer|'''AudioBuffer''']] containing the input audio data. It will have a number of channels equal to the '''numberOfInputChannels''' parameter of the [[apis/webaudio/AudioContext/createScriptProcessor|'''createScriptProcessor()''']] method. This [[apis/webaudio/AudioBuffer|'''AudioBuffer''']] is only valid while in the scope of the [[apis/webaudio/ScriptProcessorNode/onaudioprocess|'''onaudioprocess''']] function. Its values will be meaningless outside of this scope.}}
@@ -28,7 +31,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|Audio}}
+{{Topics|API, WebAudio}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
