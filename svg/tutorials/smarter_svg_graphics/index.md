@@ -66,10 +66,24 @@ graphic:
 
 [[Image:svg_gfx_gradient_linear.png|200px]]
 
+___
 
+Radial gradients emanate outwards from the center point by default,
+filling rectangular shapes elliptically. In this example, the black color
+defined at the 30% mark is extrapolated towards the center at 0%:
 
 <syntaxhighlight lang="xml">
+<radialGradient id="tvEye">
+  <stop offset="30%"  stop-color="black"     />
+  <stop offset="32%"  stop-color="lightblue" />
+  <stop offset="58%"  stop-color="lightblue" />
+  <stop offset="60%"  stop-color="white"     />
+  <stop offset="80%"  stop-color="white"     />
+  <stop offset="100%" stop-color="pink"      />
+</radialGradient>
 </syntaxhighlight>
+
+[[Image:svg_gfx_gradient_radial.png|200px]]
 
 <syntaxhighlight lang="xml">
 </syntaxhighlight>
