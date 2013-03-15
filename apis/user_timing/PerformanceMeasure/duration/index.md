@@ -1,6 +1,8 @@
 {{Page_Title}}
 {{Flags
+|High-level issues=Needs Review
 |Content=Compatibility Incomplete
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
@@ -30,7 +32,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|User Timing}}
+{{Topics|API, User Timing}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
