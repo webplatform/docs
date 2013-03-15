@@ -1,5 +1,8 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Review
+|Checked_Out=No
+}}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|The object type for the [[apis/indexeddb/indexedDB|indexedDB]] property, which   provides access to the IndexedDB features supported by the browser and/or device.}}
@@ -108,7 +111,7 @@ Use the [[apis/indexedDB/properties/indexedDB|'''indexedDB''']] property to acce
 *<code>[[apis/indexedDB/events/onerror|onerror]]</code>
 *<code>[[apis/indexedDB/events/onblocked|onblocked]]</code>
 }}
-{{Topics|IndexedDB}}
+{{Topics|API, IndexedDB}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
@@ -122,4 +125,11 @@ Use the [[apis/indexedDB/properties/indexedDB|'''indexedDB''']] property to acce
 
 
 
+
 }
+
+
+
+
+
+}}
