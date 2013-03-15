@@ -10,14 +10,6 @@
 
 ==Patterns==
 
-[[Image:svg_gfx_pattern.png|300px]]
-
-[[Image:svg_gfx_pattern_scale.png|300px]]
-
-[[Image:svg_gfx_pattern_skewrot.png|300px]]
-
-[[Image:svg_gfx_pattern_wh.png|300px]]
-
 [[Image:svg_gfx_tileRect.png|100px]]
 
 [[Image:svg_gfx_tileSquare.png|100px]]
@@ -25,6 +17,14 @@
 [[Image:svg_gfx_tiles.png|200px]]
 
 [[Image:svg_gfx_tiles_rot.png|200px]]
+
+[[Image:svg_gfx_pattern.png|300px]]
+
+[[Image:svg_gfx_pattern_scale.png|300px]]
+
+[[Image:svg_gfx_pattern_skewrot.png|300px]]
+
+[[Image:svg_gfx_pattern_wh.png|300px]]
 
 <syntaxhighlight lang="xml">
 <rect id="tileRect" x="0.5" y="0.5" width="9.0" height="4.0" fill="#E1BC9B" />
