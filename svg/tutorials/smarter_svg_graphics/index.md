@@ -10,6 +10,14 @@
 
 ==Gradients==
 
+
+[[Image:svg_gfx_gradient_linear.png|300px]]
+
+[[Image:svg_gfx_gradient_linear_bw.png|300px]]
+
+
+
+
 <!--
  13 Gradients and Patterns
     13.1 Introduction
