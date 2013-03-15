@@ -1,5 +1,8 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Review
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|Creates a connection (two "entangled" ports) to enable independent pieces of code (running in different browsing contexts) to communicate directly.}}
@@ -81,7 +84,7 @@ Messages are posted between the ports using '''postMessage'''. As the ports will
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|Web Messaging}}
+{{Topics|API, Web Messaging}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
