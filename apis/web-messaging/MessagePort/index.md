@@ -1,5 +1,8 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Review
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|Exposes the available methods on the connected ports.}}
@@ -13,7 +16,6 @@
 The '''MessagePort''' object provides the '''start''' method to begin dispatching  messages received on the port, and the '''close''' method to close and disconnect the port. The '''postMessage''' method sends  messages through the port.
 In Internet Explorer 10, message ports are automatically enabled when a message event is registered with the '''onmessage''' property or  '''addEventListener''' method. This makes it unnecessary to explicitly call the '''start''' method under these conditions.
 After posting a '''MessagePort''' object using '''postMessage''', the  '''MessagePort''' object is implicitly '''close'''d.
-
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -84,7 +86,7 @@ After posting a '''MessagePort''' object using '''postMessage''', the  '''Messag
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|Web Messaging}}
+{{Topics|API, Web Messaging}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
