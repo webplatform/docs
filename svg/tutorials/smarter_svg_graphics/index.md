@@ -10,11 +10,53 @@
 
 ==Gradients==
 
+SVG's support for gradients is similar to CSS's. Two kinds of gradient
+are available: the '''linearGradient''' and '''radialGradient'''
+elements.  The '''fill'' property references either kind using
+'''url()''' CSS syntax:
+
+<syntaxhighlight lang="xml">
+<path id="tvScreen" fill="url(#tvScreenOff)"
+d="M159.957 184.103c-21.826 13.892-102.52 17.859-122.361
+0c-19.843-17.857-22.486-83.999 0-99.873c22.489-15.874 104.504-17.858
+122.361 0C177.814 102.088 181.783 170.214 159.957 184.103z"/>
+</syntaxhighlight>
+
+This example transitions from a light to a dark gray from top to
+bottom:
+
+<syntaxhighlight lang="xml">
+<linearGradient id="tvScreenOff" x1="0" y1="0" x2="0" y2="1" >
+    <stop offset="0" stop-color="#dddddd" />
+    <stop offset="1" stop-color="#444444" />
+</linearGradient>
+</syntaxhighlight>
 
 [[Image:svg_gfx_gradient_linear_bw.png|200px]]
 
+In their simplest form, gradients require at least two nested
+'''stop''' elements to transition between their '''stop-color'''
+properties. The '''offset''' attribute specifies the progression of
+colors, either in percentage or corresponding decimal terms. That
+progression follows the line defined by the '''linearGradient'''
+element's pair of ''x'' and ''y'' coordinates.
+
 [[Image:svg_gfx_gradient_linear.png|200px]]
 
+<syntaxhighlight lang="xml">
+</syntaxhighlight>
+
+<syntaxhighlight lang="xml">
+</syntaxhighlight>
+
+<syntaxhighlight lang="xml">
+</syntaxhighlight>
+
+<syntaxhighlight lang="xml">
+</syntaxhighlight>
+
+<syntaxhighlight lang="xml">
+</syntaxhighlight>
 
 
 
@@ -34,8 +76,6 @@ Gradient properties:
 
 -->
 
-<syntaxhighlight lang="xml">
-</syntaxhighlight>
 
 ==Patterns==
 
