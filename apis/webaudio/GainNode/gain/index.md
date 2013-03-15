@@ -1,5 +1,8 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Review
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Represents the amount of gain to apply. Its default value is 1 (no gain change). The nominal [[apis/webaudio/AudioParam/minValue|'''minValue''']] is 0, but may be set negative for phase inversion. The nominal [[apis/webaudio/AudioParam/maxValue|'''maxValue''']] is 1, but higher values are allowed (no exception thrown). This parameter is a-rate.}}
@@ -29,7 +32,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|Audio}}
+{{Topics|API, WebAudio}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
