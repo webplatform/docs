@@ -1,5 +1,7 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Represents the main content of the body of a document or application.}}
@@ -38,7 +40,7 @@
 }}
 }}
 {{Notes_Section
-|Notes=* It is advised to use ARIA <code>role="main"</code> attribute on the main element until assistive technologies have implemented the element.
+|Notes=* It is advised to use ARIA <code>role="main"</code> attribute on the main element until browsers have implemented the element.
 
 * There must not be more than one <code>&lt;main&gt;</code>  element in a document, and it must not be a descendent of an <code>&lt;article&gt;</code>, <code>&lt;aside&gt;</code>, <code>&lt;footer&gt;</code>, <code>&lt;header&gt;</code>, or <code>&lt;nav&gt;</code>  element.
 }}
