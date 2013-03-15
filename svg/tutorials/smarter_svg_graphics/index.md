@@ -279,7 +279,7 @@ way to do this is to apply a ''clipping path'', which renders a
 graphic only inside the contours of another graphic.
 
 Place a '''clipPath''' element around the shape you want to clip the
-graphic with, in this case the '''path''' we saw earlierthat defines
+graphic with, in this case the '''path''' we saw earlier that defines
 the television screen:
 
 <syntaxhighlight lang="xml">
@@ -290,6 +290,25 @@ the television screen:
 
 
 [[Image:svg_gfx_clip.png|200px]]
+
+<syntaxhighlight lang="xml" highlight="5">
+<g id="yeller">
+  <use xlink:href="#headShape" fill="url(#tilePattern)" />
+  <use xlink:href="#shirtShape" />
+</g>
+<use xlink:href="#yeller"  clip-path="url(#screenClip)" />
+</syntaxhighlight>
+
+<syntaxhighlight lang="xml">
+</syntaxhighlight>
+
+<syntaxhighlight lang="xml">
+</syntaxhighlight>
+
+<syntaxhighlight lang="xml">
+</syntaxhighlight>
+
+
 
 <!--
     14.3 Clipping paths
@@ -307,18 +326,6 @@ Other properties for visual media:
 * '''overflow''', only applicable to elements which establish a new viewport.
 
 -->
-
-<syntaxhighlight lang="xml">
-</syntaxhighlight>
-
-<syntaxhighlight lang="xml">
-</syntaxhighlight>
-
-<syntaxhighlight lang="xml">
-</syntaxhighlight>
-
-<syntaxhighlight lang="xml">
-</syntaxhighlight>
 
 ==Adding images==
 
