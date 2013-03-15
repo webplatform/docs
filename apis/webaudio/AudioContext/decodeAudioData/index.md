@@ -1,5 +1,8 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Review
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Asynchronously decodes the audio file data contained in the [https://developer.mozilla.org/en-US/docs/JavaScript_typed_arrays/ArrayBuffer '''ArrayBuffer''']. The ArrayBuffer can, for example, be loaded from an XMLHttpRequest with the new '''responseType''' and '''response''' attributes. Audio file data can be in any of the formats supported by the audio element.
@@ -46,7 +49,7 @@ The [[apis/webaudio/AudioContext/decodeAudioData|'''decodeAudioData()''']] metho
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|Audio, WebAudio}}
+{{Topics|API, WebAudio}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
