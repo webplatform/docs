@@ -56,7 +56,7 @@
 
 <syntaxhighlight lang="xml">
 <pattern
-   id                    = "kitchenFloor"
+   id                    = "tilePattern"
    x                     = "0"
    y                     = "0"
    width                 = "20"
@@ -71,6 +71,10 @@
 </syntaxhighlight>
 
 <syntaxhighlight lang="xml">
+<g>
+  <use xlink:href="#headShape" fill="url(#tilePattern)" />
+  <use xlink:href="#shirtShape" />
+</g>
 </syntaxhighlight>
 
 <syntaxhighlight lang="xml">
