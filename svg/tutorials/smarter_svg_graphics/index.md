@@ -11,9 +11,10 @@
 ==Gradients==
 
 
-[[Image:svg_gfx_gradient_linear.png|300px]]
+[[Image:svg_gfx_gradient_linear_bw.png|200px]]
 
-[[Image:svg_gfx_gradient_linear_bw.png|300px]]
+[[Image:svg_gfx_gradient_linear.png|200px]]
+
 
 
 
