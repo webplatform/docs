@@ -162,12 +162,6 @@ increase the pattern's tiling area to accomodate it:
 <path id="headShape" d="M468.054,306.428c0.118,0.623,0.557,0.974,1.042,1.325..."/>
 </syntaxhighlight>
 
-<syntaxhighlight lang="xml">
-</syntaxhighlight>
-
-<syntaxhighlight lang="xml">
-</syntaxhighlight>
-
 <!--
     13.3 Patterns
 -->
@@ -177,6 +171,9 @@ increase the pattern's tiling area to accomodate it:
 <!--
     5.7 The 'image' element
 -->
+
+<syntaxhighlight lang="xml">
+</syntaxhighlight>
 
 ==Gradients==
 
@@ -195,7 +192,8 @@ Gradient properties:
 
 -->
 
-==Nesting transforms==
+<syntaxhighlight lang="xml">
+</syntaxhighlight>
 
 ==Compositing==
 
@@ -205,6 +203,9 @@ Gradient properties:
     14.2 Simple alpha compositing
 * '''opacity'''
 -->
+
+<syntaxhighlight lang="xml">
+</syntaxhighlight>
 
 
 ==Clipping==
@@ -226,6 +227,9 @@ Other properties for visual media:
 
 -->
 
+<syntaxhighlight lang="xml">
+</syntaxhighlight>
+
 ==Masking==
 
 <!--
@@ -235,11 +239,13 @@ Other properties for visual media:
 * '''mask'''
 -->
 
-==Rendering preferences==
+<syntaxhighlight lang="xml">
+</syntaxhighlight>
 
-...
 
 <!--
+
+
     11.7 Rendering properties
         11.7.1 Color interpolation properties: 'color-interpolation' and 'color-interpolation-filters'
         11.7.2 The 'color-rendering' property
