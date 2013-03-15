@@ -1,5 +1,8 @@
 {{Page_Title|web-messaging API}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Review
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|This API defines mechanisms for communicating between browsing contexts in HTML documents.}}
