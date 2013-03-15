@@ -1,5 +1,8 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Review
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Returns the time immediately before the user agent sets the current document readiness to "loading".}}
@@ -86,7 +89,7 @@ The value reported represents the number of milliseconds between the recorded ti
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|Navigation Timing}}
+{{Topics|API, Navigation Timing}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
