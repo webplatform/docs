@@ -1,5 +1,8 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Review
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|Begins dispatching messages received on the port.}}
@@ -15,7 +18,6 @@
 {{Notes_Section
 |Notes=The '''start''' method is called implicitly by when an  event handler function is assigned to the '''onmessage''' property.
 In Internet Explorer 10, the start method is also called implicitly when a message event is registered using the '''addEventListener''' method.
-
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -86,7 +88,7 @@ In Internet Explorer 10, the start method is also called implicitly when a mess
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|Web Messaging}}
+{{Topics|API, Web Messaging}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
