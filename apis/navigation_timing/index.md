@@ -16,7 +16,7 @@
 {{See_Also_Section
 |Topic_clusters=Performance
 }}
-{{Topics|API, Navigation Timing, Timing}}
+{{Topics|API, Navigation Timing}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
