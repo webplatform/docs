@@ -1,5 +1,8 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Review
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|The number of channels of the destination's input. This value will default to 2, and may be set to any non-zero value less than or equal to [[apis/webaudio/AudioDestinationNode/maxNumberOfChannels|'''maxNumberOfChannels''']]. An exception will be thrown if this value is not within the valid range.}}
@@ -29,7 +32,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|Audio}}
+{{Topics|API, WebAudio}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
