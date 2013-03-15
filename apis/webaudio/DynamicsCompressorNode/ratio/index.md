@@ -1,5 +1,8 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Review
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|The amount of dB change in input for a 1 dB change in output. Its default value is 12, with a nominal range of 1 to 20. This parameter is k-rate.}}
@@ -29,7 +32,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|Audio}}
+{{Topics|API, WebAudio}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
