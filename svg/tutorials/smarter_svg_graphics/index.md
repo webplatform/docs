@@ -240,7 +240,9 @@ increasing the value to 1.5 magnifies the pattern:
 
 Other transforms allow you to reorient and reshape the pattern. In
 this example, ''scale(1.5) skewY(15) rotate(30)'' boosts the pattern's
-size, shears it slightly into a diamond shape, and spins it:
+size, shears it slightly into a diamond shape, and spins it. The
+second version performs similar transforms within the repeating tile
+used for the pattern:
 
 <div style="display:inline-block">
 [[Image:svg_gfx_pattern_skewrot.png|300px]]
