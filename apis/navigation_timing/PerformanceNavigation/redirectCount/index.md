@@ -1,5 +1,8 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Review
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Returns the number of redirects since the last non-redirect navigation under the current browsing context. If there is no redirect or there is any redirect that is not from the same origin as the destination document, returns zero.}}
@@ -83,7 +86,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|Navigation Timing}}
+{{Topics|API, Navigation Timing}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
