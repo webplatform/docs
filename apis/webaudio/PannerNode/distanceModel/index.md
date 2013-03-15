@@ -1,5 +1,8 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Review
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Determines which algorithm will be used to reduce the volume of an audio source as it moves away from the listener. See below for the available choices. The default is INVERSE_DISTANCE.}}
@@ -30,7 +33,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|Audio}}
+{{Topics|API, WebAudio}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
