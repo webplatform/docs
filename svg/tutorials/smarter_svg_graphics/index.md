@@ -69,7 +69,8 @@ graphic:
 ___
 
 Radial gradients emanate outwards from the center point by default,
-filling rectangular shapes elliptically. In this example, the black color
+filling rectangular shapes elliptically. In this example, which
+generates an obscure cultural reference to Iggy Pop, the black color
 defined at the 30% mark is extrapolated towards the center at 0%:
 
 <syntaxhighlight lang="xml">
