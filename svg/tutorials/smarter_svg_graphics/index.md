@@ -112,6 +112,7 @@ Gradient properties:
 
 -->
 
+[http://letmespellitoutforyou.com/samples/img/tv_gradient.svg View the SVG file here].
 
 ==Patterns==
 
@@ -217,12 +218,12 @@ square:
 
 [[Image:svg_gfx_tiles.png|200px]]
 
-All the tiles except for the first one are moved to the bottom-right
-corner of the larger square. The second and third are rotated,
-pivoting around their top-left corners so that they occupy the other
-two corners.  (Unlike CSS transforms, SVG transforms do not
-''originate'' around the object's center point.)  The transform
-becomes clearer when rotated by only 80 degrees:
+All the tiles except for the first one have transforms that move them
+to the bottom-right corner of the larger square. The second and third
+are rotated, pivoting around their top-left corners so that they
+occupy the other two corners.  (Unlike CSS transforms, SVG transforms
+do not ''originate'' around the object's center point.)  Rotating by
+only 80 degrees may clarify how the transform works:
 
 [[Image:svg_gfx_tiles_rot.png|200px]]
 
@@ -273,18 +274,6 @@ used for the pattern:
 
 <!--
     5.7 The 'image' element
--->
-
-<syntaxhighlight lang="xml">
-</syntaxhighlight>
-
-==Compositing==
-
-<!--
- 14 Clipping, Masking and Compositing
-    14.1 Introduction
-    14.2 Simple alpha compositing
-* '''opacity'''
 -->
 
 <syntaxhighlight lang="xml">
@@ -361,6 +350,18 @@ Color and Painting properties:
         12.3.4 The CSS @color-profile rule
         12.3.5 The 'color-profile' property
 -->
+
+==Compositing==
+
+<!--
+ 14 Clipping, Masking and Compositing
+    14.1 Introduction
+    14.2 Simple alpha compositing
+* '''opacity'''
+-->
+
+<syntaxhighlight lang="xml">
+</syntaxhighlight>
 
 }}
 {{Notes_Section}}
