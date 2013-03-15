@@ -288,25 +288,18 @@ the television screen:
 </clipPath>
 </syntaxhighlight>
 
+When rendering the graphic to clip, use the '''clip-path''' property
+to reference the '''clipPath''' element:
 
-[[Image:svg_gfx_clip.png|200px]]
-
-<syntaxhighlight lang="xml" highlight="5">
+<syntaxhighlight lang="xml" highlight="1">
+<use xlink:href="#yeller" clip-path="url(#screenClip)" />
 <g id="yeller">
   <use xlink:href="#headShape" fill="url(#tilePattern)" />
   <use xlink:href="#shirtShape" />
 </g>
-<use xlink:href="#yeller"  clip-path="url(#screenClip)" />
 </syntaxhighlight>
 
-<syntaxhighlight lang="xml">
-</syntaxhighlight>
-
-<syntaxhighlight lang="xml">
-</syntaxhighlight>
-
-<syntaxhighlight lang="xml">
-</syntaxhighlight>
+[[Image:svg_gfx_clip.png|200px]]
 
 
 
@@ -333,9 +326,6 @@ Other properties for visual media:
     5.7 The 'image' element
 -->
 
-<syntaxhighlight lang="xml">
-</syntaxhighlight>
-
 ==Applying masks==
 
 <!--
@@ -344,9 +334,6 @@ Other properties for visual media:
 
 * '''mask'''
 -->
-
-<syntaxhighlight lang="xml">
-</syntaxhighlight>
 
 
 <!--
@@ -394,9 +381,6 @@ Color and Painting properties:
     14.2 Simple alpha compositing
 * '''opacity'''
 -->
-
-<syntaxhighlight lang="xml">
-</syntaxhighlight>
 
 }}
 {{Notes_Section}}
