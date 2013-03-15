@@ -12,6 +12,12 @@
 
 [[Image:svg_gfx_pattern.png|300px]]
 
+[[Image:svg_gfx_tileRect.png]]
+
+[[Image:svg_gfx_tileSquare.png]]
+
+[[Image:svg_gfx_tiles.png]]
+
 <!--
     13.3 Patterns
 -->
