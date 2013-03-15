@@ -158,9 +158,19 @@ allows you control over the tile's margins:
 This pattern consists of a very simple shape. You can make the
 pattern's nested set of graphics as complex and varied as you want, or
 build larger patterns from smaller components. This example shows how
-to build series of alternating rotated tiles. First, a ''tileSquare''
-object duplicates the underlying graphic and uses a '''transform''' to
-move it below the original to form a 10&times;10 square:
+to build series of alternating rotated tiles. First, modify the basic
+shape to include black around the margin:
+
+<syntaxhighlight lang="xml">
+<g id="tileRect">
+  <rect id="tileRectWhite" x="0"   y="0"   width="10"  height="5"   fill="#000000" />
+  <rect id="tileRectBlack" x="0.5" y="0.5" width="9.0" height="4.0" fill="#E1BC9B" />
+</g>
+</syntaxhighlight>
+
+A ''tileSquare'' object duplicates the underlying graphic and uses a
+'''transform''' to move it below the original to form a 10&times;10
+square:
 
 <syntaxhighlight lang="xml">
 <g id="tileSquare">
@@ -232,9 +242,14 @@ Other transforms allow you to reorient and reshape the pattern. In
 this example, ''scale(1.5) skewY(15) rotate(30)'' boosts the pattern's
 size, shears it slightly into a diamond shape, and spins it:
 
+<div style="display:inline-block">
 [[Image:svg_gfx_pattern_skewrot.png|300px]]
+</div>
+<div style="display:inline-block">
+[[Image:svg_gfx_pattern_skewrot2.png|300px]]
+</div>
 
-[http://letmespellitoutforyou.com/samples/img/pattern_fill.svg View the completed SVG file here].
+[http://letmespellitoutforyou.com/samples/img/pattern_fill.svg View the SVG file here].
 
 ==Images==
 
