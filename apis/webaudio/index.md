@@ -1,11 +1,13 @@
 {{Page_Title|Web Audio API}}
-{{Flags}}
+{{Flags
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Describes a high-level JavaScript API for processing and synthesizing audio in web applications.}}
 {{API_Listing}}
 {{Concept_Listing
-|Query=[[Category:WebAudio]]
+|Query=[[Category:WebAudio]][[Category:API_Objects]]
 |Use_page_title=No
 |List_all_subpages=No
 }}
@@ -17,7 +19,7 @@ This API is designed to be used in conjunction with other APIs and elements on t
 {{See_Also_Section
 |Topic_clusters=Audio
 }}
-{{Topics|API, Audio}}
+{{Topics|API, WebAudio}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
