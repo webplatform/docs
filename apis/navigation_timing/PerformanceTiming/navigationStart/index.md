@@ -1,5 +1,8 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Review
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Returns the time immediately after the user agent finishes prompting to unload the previous document. If there is no previous document, returns the same value as fetchStart.}}
@@ -85,7 +88,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|Navigation Timing}}
+{{Topics|API, Navigation Timing}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
