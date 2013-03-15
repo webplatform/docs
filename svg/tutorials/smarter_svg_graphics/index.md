@@ -103,23 +103,16 @@ square:
 All the tiles except for the first one are moved to the bottom-right
 corner of the larger square. The second and third are rotated,
 pivoting around their top-left corners so that they occupy the other
-two corners. The transform becomes clearer when rotated by only 80
-degrees:
+two corners.  (Unlike CSS transforms, SVG transforms do not
+''originate'' around the object's center point.)  The transform
+becomes clearer when rotated by only 80 degrees:
 
 [[Image:svg_gfx_tiles_rot.png|200px]]
 
-Unlike CSS transforms, SVG transforms use an object's top-left corner
-as the transform's ''origin'' rather than the center of the object.
+To apply the modified fill, reference the more complex object, and
+increase the pattern's tiling area to accomodate it:
 
-[[Image:svg_gfx_pattern.png|300px]]
-
-[[Image:svg_gfx_pattern_scale.png|300px]]
-
-[[Image:svg_gfx_pattern_skewrot.png|300px]]
-
-[[Image:svg_gfx_pattern_wh.png|300px]]
-
-<syntaxhighlight lang="xml">
+<syntaxhighlight lang="xml" highlight="5-6,10">
 <pattern
    id                    = "tilePattern"
    x                     = "0"
@@ -129,9 +122,17 @@ as the transform's ''origin'' rather than the center of the object.
    patternContentUnits   = "userSpaceOnUse"
    patternUnits          = "userSpaceOnUse"
 >
-  <use xlink:href="#tiles" />
+  <use xlink:href="#tilePatternUnit" />
 </pattern>
 </syntaxhighlight>
+
+[[Image:svg_gfx_pattern.png|300px]]
+
+[[Image:svg_gfx_pattern_scale.png|300px]]
+
+[[Image:svg_gfx_pattern_skewrot.png|300px]]
+
+
 
 <syntaxhighlight lang="xml">
 <pattern
