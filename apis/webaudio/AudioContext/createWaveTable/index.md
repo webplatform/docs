@@ -1,5 +1,8 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Review
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Creates a [[apis/webaudio/WaveTable|'''WaveTable''']] representing a waveform containing arbitrary harmonic content. The real and imag parameters must be of type '''Float32Array''' of equal lengths greater than zero and less than or equal to 4096 or an exception will be thrown. These parameters specify the Fourier coefficients of a Fourier series representing the partials of a periodic waveform. The created [[apis/webaudio/WaveTable|'''WaveTable''']] will be used with an [[apis/webaudio/OscillatorNode|'''OscillatorNode''']] and will represent a normalized time-domain waveform having maximum absolute peak value of 1. Another way of saying this is that the generated waveform of an [[apis/webaudio/OscillatorNode|'''OscillatorNode''']] will have maximum peak value at 0dBFS. Conveniently, this corresponds to the full-range of the signal values used by the Web Audio API. Because the [[apis/webaudio/WaveTable|'''WaveTable''']] will be normalized on creation, the real and imag parameters represent relative values.}}
@@ -38,7 +41,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|Audio}}
+{{Topics|API, WebAudio}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
