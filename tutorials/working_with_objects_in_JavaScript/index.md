@@ -1,6 +1,7 @@
 {{Page_Title|Working with objects in JavaScript}}
 {{Flags
-|Content=Errors, Broken Links, Compatibility Incomplete
+|Content=Errors, Compatibility Incomplete
+|Checked_Out=No
 |Editorial notes=Is marked as needing a technical review in MDN
 
 Links need to be changed to point to the WPD JS reference, once it's created
@@ -418,7 +419,7 @@ These statements use the getter and setter in a <code>Date</code> object:
 
 ====Obsolete syntaxes====
 
-In the past, JavaScript supported several other syntaxes for defining getters and setters. None of these syntaxes were supported by other engines, and support has been removed in recent versions of JavaScript. See [http://whereswalden.com/2010/04/16/more-spidermonkey-changes-ancient-esoteric-very-rarely-used-syntax-for-creating-getters-and-setters-is-being-removed/ this dissection of the removed syntaxes] for further details on what was removed and how to adapt to those removals.
+In the past, JavaScript supported several other syntaxes for defining getters and setters. None of these syntaxes were supported by other engines, and support has been removed in recent versions of JavaScript. See [http://bugsalert.com/Jeff-Walden-SpiderMonkey-ancient-esoteric-rarely-syntax-creating-getters-setters-removed_46423.html this dissection of the removed syntaxes] for further details on what was removed and how to adapt to those removals.
 
 ====Summary====
 
