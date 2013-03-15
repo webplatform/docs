@@ -1,5 +1,8 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Review
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Creates a '''MediaStreamAudioSourceNode''' given a [[apis/webrtc/MediaStream|'''MediaStream''']]. As a consequence of calling this method, audio playback from the [[apis/webrtc/MediaStream|'''MediaStream''']] will be re-routed into the processing graph of the [[apis/webaudio/AudioContext|'''AudioContext''']].}}
@@ -28,7 +31,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|Audio}}
+{{Topics|API, WebAudio}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
