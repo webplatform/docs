@@ -11,7 +11,9 @@
 ==Patterns==
 
 SVG's patterns are similar to CSS's repeating background images, but
-allow you more control over padding and reorienting the repeating pattern.
+allow you more control over padding and reorienting patterns. To
+implement a pattern, you must first design a graphic. In this case, a
+rectangle fits within a 5&times;10 area along with a margin of 1 unit:
 
 <syntaxhighlight lang="xml">
 <rect id="tileRect" x="0.5" y="0.5" width="9.0" height="4.0" fill="#E1BC9B" />
@@ -19,23 +21,46 @@ allow you more control over padding and reorienting the repeating pattern.
 
 [[Image:svg_gfx_tileRect.png|100px]]
 
-[[Image:svg_gfx_pattern_rect.png|300px]]
-
-[[Image:svg_gfx_pattern_rect6x10.png|300px]]
+The graphic is wrapped within a '''pattern''' element. Its '''width'''
+and '''height''' correspond to the intended size of tile. The '''x'''
+and '''y''' simply specify the pattern's offset starting point.
 
 <syntaxhighlight lang="xml">
 <pattern
-   id                    = "tilePatternSimple"
+   id                    = "tilePattern"
    x                     = "0"
    y                     = "0"
    width                 = "10"
-   height                = "6"
+   height                = "5"
    patternContentUnits   = "userSpaceOnUse"
    patternUnits          = "userSpaceOnUse"
 >
   <use xlink:href="#tileRect" />
 </pattern>
 </syntaxhighlight>
+
+The units attributes maintain the same fixed coordinate system as for
+the overall graphic, so that units are not interpreted as percentages
+of the filled object's dimensions.
+
+Use the '''fill''' property to apply the pattern, in this case to a
+complex '''path''' shape:
+
+<syntaxhighlight lang="xml">
+<path id="headShape" d="M468.054,306.428c0.118,0.623,0.557,0.974,1.042,1.325..."/>
+
+<g id="graphic">
+  <use xlink:href="#headShape" fill="url(#tilePattern)" />
+  <use xlink:href="#shirtShape" />
+</g>
+</syntaxhighlight>
+
+[[Image:svg_gfx_pattern_rect.png|300px]]
+
+Increasing the pattern's '''height''' attribute to 6
+
+[[Image:svg_gfx_pattern_rect6x10.png|300px]]
+
 
 ==More complex patterns==
 
@@ -58,6 +83,20 @@ allow you more control over padding and reorienting the repeating pattern.
   <use xlink:href="#tileRect" />
   <use xlink:href="#tileRect" transform="translate(0,5)"/>
 </g>
+</syntaxhighlight>
+
+<syntaxhighlight lang="xml">
+<pattern
+   id                    = "tilePattern"
+   x                     = "0"
+   y                     = "0"
+   width                 = "20"
+   height                = "20"
+   patternContentUnits   = "userSpaceOnUse"
+   patternUnits          = "userSpaceOnUse"
+>
+  <use xlink:href="#tiles" />
+</pattern>
 </syntaxhighlight>
 
 <syntaxhighlight lang="xml">
@@ -104,6 +143,7 @@ allow you more control over padding and reorienting the repeating pattern.
 
 
 <syntaxhighlight lang="xml">
+<path id="headShape" d="M468.054,306.428c0.118,0.623,0.557,0.974,1.042,1.325..."/>
 </syntaxhighlight>
 
 <syntaxhighlight lang="xml">
