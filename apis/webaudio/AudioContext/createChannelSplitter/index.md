@@ -1,5 +1,8 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Review
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Creates a [[apis/webaudio/ChannelSplitterNode|'''ChannelSplitterNode''']] representing a channel splitter. An exception will be thrown for invalid parameter values.}}
@@ -33,7 +36,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|Audio, WebAudio}}
+{{Topics|API, WebAudio}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
