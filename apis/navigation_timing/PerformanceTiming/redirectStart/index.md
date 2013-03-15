@@ -1,5 +1,8 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Review
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Returns the starting time of the fetch that initiates the redirect, if there are HTTP redirects or equivalent when navigating and if all the redirects or equivalent are from the same origin,. Otherwise, returns zero.}}
@@ -83,7 +86,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|Navigation Timing}}
+{{Topics|API, Navigation Timing}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
