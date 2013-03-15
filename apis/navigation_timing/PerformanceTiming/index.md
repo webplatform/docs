@@ -1,5 +1,8 @@
 {{Page_Title|PerformanceTiming}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Review
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|An interface that provides Web applications with timing-related information.}}
@@ -105,7 +108,7 @@ The properties of the '''performanceTiming''' object represent the number of mil
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|DOM, Navigation Timing}}
+{{Topics|API, DOM, Navigation Timing}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
