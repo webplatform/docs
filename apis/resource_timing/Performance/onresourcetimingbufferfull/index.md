@@ -1,5 +1,8 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Review
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|This callback is triggered when the buffer used to store the list of PerformanceResourceTiming is full.}}
@@ -27,7 +30,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|Resource Timing}}
+{{Topics|API, Resource Timing}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
