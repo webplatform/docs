@@ -85,25 +85,17 @@ color defined at the 30% mark is extrapolated towards the center at
 
 [[Image:svg_gfx_gradient_radial.png|200px]]
 
-The '''fx''' and '''fy''' attributes specify coordinates for where the
-gradient ''focuses'', while '''cx''' and '''cy''' set the center of
-the outermost circle. Modifying the '''r''' (radius) effectively resizes
-the gradient:
+The '''fx''' and '''fy''' attributes specify coordinates for the
+''focus'' of the gradient, while '''cx''' and '''cy''' set the center
+of the outermost circle.  Modifying the '''r''' (radius) effectively
+resizes the gradient, in this case magnifying it relative to the
+default 0.5 value:
 
 <syntaxhighlight lang="xml">
 <radialGradient id="tvRadial" cx="0.5" cy="0.5" fx="0.8" fy="0.5" r="0.6">
 </syntaxhighlight>
 
 [[Image:svg_gfx_gradient_radialY.png|200px]]
-
-<syntaxhighlight lang="xml">
-</syntaxhighlight>
-
-<syntaxhighlight lang="xml">
-</syntaxhighlight>
-
-
-
 
 <!--
  13 Gradients and Patterns
