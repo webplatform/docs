@@ -1,5 +1,8 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Review
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Changing the gain of an audio signal is a fundamental operation in audio applications. The [[apis/webaudio/GainNode|'''GainNode''']] is one of the building blocks for creating mixers. This interface is an [[apis/webaudio/AudioNode|'''AudioNode''']] with a single input and single output, which multiplies the input audio signal by the (possibly time-varying) gain attribute, copying the result to the output.}}
@@ -24,7 +27,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|Audio, WebAudio}}
+{{Topics|API, WebAudio}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
