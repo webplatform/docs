@@ -108,7 +108,7 @@ The properties of the '''performanceTiming''' object represent the number of mil
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|API, DOM, Navigation Timing}}
+{{Topics|API, Navigation Timing}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
