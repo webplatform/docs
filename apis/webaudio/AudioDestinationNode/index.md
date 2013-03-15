@@ -1,5 +1,8 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Review
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|An [[apis/webaudio/AudioNode|'''AudioNode''']] representing the final audio destination and is what the user will ultimately hear. It can be considered as an audio output device which is connected to speakers. All rendered audio to be heard will be routed to this node, a ''terminal'' node in the [[apis/webaudio/AudioContext|'''AudioContext''']]'s routing graph. There is only a single [[apis/webaudio/AudioDestinationNode|'''AudioDestinationNode''']] per [[apis/webaudio/AudioContext|'''AudioContext''']], provided through the destination attribute of [[apis/webaudio/AudioContext|'''AudioContext''']].}}
@@ -24,7 +27,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|Audio, WebAudio}}
+{{Topics|API, WebAudio}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
