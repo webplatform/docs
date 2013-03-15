@@ -1,5 +1,8 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Review
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|The shape of the periodic waveform. It may directly be set to any of the type constant values except for CUSTOM. The [[apis/webaudio/OscillatorNode/setWaveTable|'''setWaveTable()''']] method can be used to set a custom waveform, which results in this attribute being set to CUSTOM.}}
@@ -30,7 +33,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|Audio}}
+{{Topics|API, WebAudio}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
