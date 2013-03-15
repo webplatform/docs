@@ -1,5 +1,8 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Review
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|A value from 0 to 1 where 0 represents no time averaging with the last analysis frame.}}
@@ -29,7 +32,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|Audio}}
+{{Topics|API, WebAudio}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
