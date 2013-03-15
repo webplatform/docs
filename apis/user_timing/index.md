@@ -1,6 +1,8 @@
 {{Page_Title}}
 {{Flags
+|High-level issues=Needs Review
 |Content=Compatibility Incomplete
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
@@ -17,7 +19,7 @@
 {{See_Also_Section
 |Topic_clusters=Performance
 }}
-{{Topics|API, Timing}}
+{{Topics|API, User Timing}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
