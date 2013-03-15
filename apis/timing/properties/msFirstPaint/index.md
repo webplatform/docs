@@ -41,7 +41,7 @@ Windows Internet Explorer 9.  This property is supported only for documents dis
 *<code>[[apis/timing/objects/performanceTiming|performanceTiming]]</code>
 *<code>[[apis/timing/properties/navigationStart|navigationStart]]</code>
 }}
-{{Topics|API, DOM}}
+{{Topics|API, Navigation Timing}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
