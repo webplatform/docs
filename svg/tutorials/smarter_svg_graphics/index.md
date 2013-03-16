@@ -1,14 +1,12 @@
-{{Page_Title|Smarter SVG: graphic effects}}
+{{Page_Title|SVG: graphic effects}}
 {{Flags
 |High-level issues=Stub
-|Editorial notes=[new content edited offline by Sierra ([[User:Sierra|Sierra]] ([[User talk:Sierra|talk]])); please do not edit]
+|Checked_Out=No
 }}
 {{Byline}}
 {{Summary_Section|This guide shows you how to embed images within SVG and apply various graphics effects such as gradients, patterns, clipping, masking, and compositing.}}
 {{Tutorial
-|Content=
-
-==Gradients==
+|Content===Gradients==
 
 SVG's support for gradients is similar to CSS's. Two kinds of gradient
 are available: the '''linearGradient''' and '''radialGradient'''
@@ -381,8 +379,6 @@ Color and Painting properties:
 ==Compositing==
 
 ...
-
-
 }}
 {{Notes_Section}}
 {{Compatibility_Section
