@@ -1,14 +1,12 @@
-{{Page_Title|Smarter SVG: shapes}}
+{{Page_Title|SVG: basic shapes and text}}
 {{Flags
 |High-level issues=Stub
-|Editorial notes=[new content edited offline by Sierra ([[User:Sierra|Sierra]] ([[User talk:Sierra|talk]])); please do not edit]
+|Checked_Out=No
 }}
 {{Byline}}
 {{Summary_Section|This guide introduces SVG's basic graphic primitives, from simple lines and shapes to complex polygons and paths.}}
 {{Tutorial
-|Content=
-
-==Simple shapes==
+|Content===Simple shapes==
 
 Various SVG elements produce basic shapes, and attributes specify
 their dimensions.
@@ -466,7 +464,6 @@ value.
 [[Image:svg_fillrule_evenodd.png]]
  fill-rule: evenodd;
 </div>
-
 }}
 {{Notes_Section}}
 {{Compatibility_Section
