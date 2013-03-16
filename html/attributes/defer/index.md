@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -17,9 +18,9 @@
 |Notes====Remarks===
 Using the attribute at design time can improve the download performance of a document because the client does not need to parse and execute the script and can continue downloading and parsing the document instead.
 |Import_Notes====Issues===
-Don't use defer for external scripts that can depend on each other if you need IE <= 9 support. [https://github.com/h5bp/lazyweb-requests/issues/42 ref.]
+IE<10 may interleave execution of scripts. [https://github.com/h5bp/lazyweb-requests/issues/42 Discussion on Github.]
 
-This includes combining scrips both standard and with <code>defer</code> that depend on each other. [https://github.com/zenorocha/browser-diet/issues/95#issuecomment-14852531 ref.]
+Combining scrips both standard and with <code>defer</code> that depend on each other. [https://github.com/zenorocha/browser-diet/issues/95#issuecomment-14852531 Discussion on Github.]
 }}
 {{Related_Specifications_Section
 |Specifications=
@@ -31,8 +32,8 @@ This includes combining scrips both standard and with <code>defer</code> that de
 |Mobile_rows=
 |Notes_rows={{Compatibility Notes Row
 |Browser=Internet Explorer
-|Version=<= 9
-|Note=Deferral order ignored
+|Version=< 10
+|Note=Deferral order not obeyed
 }}
 }}
 {{See_Also_Section
