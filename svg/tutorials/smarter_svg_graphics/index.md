@@ -1,12 +1,14 @@
-{{Page_Title|SVG: graphic effects}}
+{{Page_Title|Smarter SVG: graphic effects}}
 {{Flags
 |High-level issues=Stub
-|Checked_Out=No
+|Editorial notes=[new content edited offline by Sierra ([[User:Sierra|Sierra]] ([[User talk:Sierra|talk]])); please do not edit]
 }}
 {{Byline}}
 {{Summary_Section|This guide shows you how to embed images within SVG and apply various graphics effects such as gradients, patterns, clipping, masking, and compositing.}}
 {{Tutorial
-|Content===Gradients==
+|Content=
+
+==Gradients==
 
 SVG's support for gradients is similar to CSS's. Two kinds of gradient
 are available: the '''linearGradient''' and '''radialGradient'''
@@ -94,21 +96,6 @@ default 0.5 value:
 </syntaxhighlight>
 
 [[Image:svg_gfx_gradient_radialY.png|200px]]
-
-<!--
- 13 Gradients and Patterns
-    13.1 Introduction
-    13.2 Gradients
-        13.2.1 Introduction
-        13.2.2 Linear gradients
-        13.2.3 Radial gradients
-        13.2.4 Gradient stops
-
-Gradient properties:
-* '''stop-color'''
-* '''stop-opacity'''
-
--->
 
 [http://letmespellitoutforyou.com/samples/img/tv_gradient.svg View the SVG file here].
 
@@ -299,7 +286,7 @@ to reference the '''clipPath''' element:
 
 [[Image:svg_gfx_clip.png|200px]]
 
-
+[http://letmespellitoutforyou.com/samples/img/tv_clip.svg View the SVG file here].
 
 <!--
     14.3 Clipping paths
@@ -331,11 +318,8 @@ Other properties for visual media:
     14.5 Object and group opacity: the 'opacity' property
 
 * '''mask'''
--->
 
-
-<!--
-
+* '''stop-opacity'''
 
     11.7 Rendering properties
         11.7.1 Color interpolation properties: 'color-interpolation' and 'color-interpolation-filters'
@@ -371,14 +355,15 @@ Color and Painting properties:
         12.3.5 The 'color-profile' property
 
  14 Clipping, Masking and Compositing
-    14.1 Introduction
     14.2 Simple alpha compositing
 * '''opacity'''
 -->
 
-==Compositing==
+==Compositing options==
 
 ...
+
+
 }}
 {{Notes_Section}}
 {{Compatibility_Section
