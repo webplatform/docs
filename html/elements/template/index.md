@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Review
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
@@ -63,6 +64,15 @@ template.remove();
 }}
 }}
 {{Notes_Section
+|Usage=The template contents are hidden implicitly since they are not part of the document. The template element itself must be hidden through the user agent style sheet, as in the following:
+
+<syntaxhighlight lang="css">
+@namespace "http://www.w3.org/1999/xhtml";
+
+template {
+    display : none;
+}
+</syntaxhighlight>
 |Notes=* If you're using [https://code.google.com/p/modpagespeed/ modpagespeed], be careful of this [http://code.google.com/p/modpagespeed/issues/detail?id=625 bug]. Templates that define inline <code><style scoped></code>, many be moved to the <code>head</code> with PageSpeed's CSS rewriting rules.
 * There's no way to "prerender" a template, meaning you cannot preload assets, process JS, download initial CSS, etc. That goes for both server and client. The only time a template renders is when it goes live.
 * Be careful with nested templates. They don't behave as you might expect, and nested templates must be activated separately.
