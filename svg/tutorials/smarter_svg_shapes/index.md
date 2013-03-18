@@ -356,7 +356,7 @@ syntax specifying a surprisingly great deal of information:
 If the ellipse's radii is insufficient or if its rotation makes it
 impossible to get to the final end point, the ellipse does not render.
 
-[[Image:svg_arc.png]]
+[[Image:svg_arc.png|300px]]
 
 Experiment with the
 [http://letmespellitoutforyou.com/samples/svg_path.html interactive path builder]
