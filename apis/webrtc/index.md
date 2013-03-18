@@ -1,5 +1,8 @@
 {{Page_Title|WebRTC API}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Review
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Enables real-time communication across the web.}}
