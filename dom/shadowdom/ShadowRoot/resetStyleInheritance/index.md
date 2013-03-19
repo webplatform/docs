@@ -7,7 +7,7 @@
 {{API_Name}}
 {{Summary_Section|Indicates whether or not the inheritable CSS properties are set to the initial value at the shadow boundary. If false (default value), the properties continue to inherit. If true, the properties are set to initial value.}}
 {{API_Object_Property
-|Property_applies_to=dom/shadow
+|Property_applies_to=dom/shadow/ShadowRoot
 |Read_only=No
 |Javascript_data_type=Boolean
 |Return_value_description=If false (default value), the properties continue to inherit. If true, the properties are set to initial value.
