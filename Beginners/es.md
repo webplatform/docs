@@ -9,7 +9,7 @@ Este conjunto de artículos es para que los principiantes los lean con confianza
 
 ==Antes de comenzar==
 
-En este curso vas a escribir un montón de código y ponerlo a prueba en los navegadores web. Antes de comenzar debes tener instalado por lo menos lo siguiente:
+En este curso escribiras una gran cantidad de código y lo pondras a prueba en los navegadores web. Antes de comenzar debes tener instalado por lo menos lo siguiente:
 
 * Los más nuevos navegadores que puedas instalar. Si acaso no los tienes ya, descárgalos desde las páginas de [http://www.google.com/chrome Chrome], [http://www.mozilla.org/en-US/firefox/new/ Firefox], [http://windows.microsoft.com/en-GB/internet-explorer/products/ie/home Internet Explorer], [http://www.opera.com Opera] y [http://www.apple.com/safari/ Safari].
 * Un editor de texto decente. Las opciones gratuitas razonables son [http://notepad-plus-plus.org/ Notepad++] para Windows, [http://www.barebones.com/products/TextWrangler/ Text Wrangler] para Mac y [http://bluefish.openoffice.nl/index.html Bluefish] para Linux.
