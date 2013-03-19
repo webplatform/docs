@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|An identification string for the gamepad; identifies the brand or style of connected gamepad device.}}
+{{Summary_Section|A string that identifies the brand or style of connected gamepad device.}}
 {{API_Object_Property
 |Property_applies_to=apis/gamepad/Gamepad
 |Read_only=Yes
