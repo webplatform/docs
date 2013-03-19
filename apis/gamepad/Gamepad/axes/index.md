@@ -11,7 +11,7 @@
 |Property_applies_to=apis/gamepad/Gamepad
 |Read_only=Yes
 |Example_object_name=object
-|Return_value_description=Array of doubles
+|Return_value_description=array of doubles.
 }}
 {{Examples_Section
 |Not_required=No
