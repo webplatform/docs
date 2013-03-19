@@ -15,7 +15,7 @@
 }}
 {{Notes_Section}}
 {{See_Also_Section}}
-{{Topics|Gamepad}}
+{{Topics|API, Gamepad}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
