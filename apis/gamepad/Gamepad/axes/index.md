@@ -19,7 +19,11 @@
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=W3C Gamepad Specification
+|URL=https://dvcs.w3.org/hg/gamepad/raw-file/default/gamepad.html
+|Status=W3C Working Draft
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
