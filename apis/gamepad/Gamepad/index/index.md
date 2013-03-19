@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|The index of the gamepad in the Navigator.}}
+{{Summary_Section|The index of the gamepad in the '''Navigator'''.}}
 {{API_Object_Property
 |Property_applies_to=apis/gamepad/Gamepad
 |Read_only=Yes
