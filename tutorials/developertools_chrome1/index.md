@@ -1,7 +1,8 @@
 {{Page_Title|Introduction to Chrome developer tools, part one}}
 {{Flags
 |High-level issues=Needs Flags
-|Content=Biased Voice
+|Content=Not Neutral
+|Checked_Out=No
 }}
 {{Byline
 |Name=Seth Ladd
@@ -230,6 +231,7 @@ And of course, stay tuned for Part 2 of this article, along with lots of other g
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
 |Chrome_version=6.0
