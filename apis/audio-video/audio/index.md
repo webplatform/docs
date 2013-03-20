@@ -4,6 +4,7 @@
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 |Checked_Out=No
 }}
+{{Editorial/Deletion_Candidate|MS proprietary}}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section}}
