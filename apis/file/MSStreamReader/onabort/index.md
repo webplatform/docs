@@ -5,6 +5,7 @@
 |Checked_Out=No
 |Editorial notes=Change page template to "Property" (event = abort, property = onabort)
 }}
+{{Editorial/Deletion_Candidate|MS proprietary}}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section}}
