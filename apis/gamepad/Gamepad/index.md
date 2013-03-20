@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|This object defines an individual gamepad device.}}
+{{Summary_Section|This object defines an individual gamepad device. Data is retrieved via the DOM Navigator object's [[dom/methods/getGamepads|getGamepads()]] method.}}
 {{API_Object}}
 {{Examples_Section
 |Not_required=No
