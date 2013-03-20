@@ -1,5 +1,7 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|Checked_Out=No
+}}
 {{API_Name}}
 {{Summary_Section}}
 {{Concept_Page
@@ -9,7 +11,7 @@ What is beauty depends on many things, one being the observer. However, there is
 
 In short Graphic Design looks beautiful and serve a function. While Art is meant to be expression of feelings,or to convey feeling and is extraordinary, it may or may not serve any other function.
 
-Graphic Design is meant to communicate the message. And interactive apps it's suppose to deliever the experince. Experience include many things which are beyond the scope of this article such as smartness of app, customization, and more. But one rule of thumb is this. Don't make user work hard. Be a source of aid not obstacles. When designing the whole experience think of your app as a person who wants to help the user, have common sense and see what the user meant. 
+Graphic Design is meant to communicate the message. And interactive apps it's suppose to deliever the experience. Experience include many things which are beyond the scope of this article such as smartness of app, customization, and more. But one rule of thumb is this. Don't make user work hard. Be a source of aid not obstacles. When designing the whole experience think of your app as a person who wants to help the user, have common sense and see what the user meant. 
 
 In General, Graphic Design can be broken down into these elements:
 
@@ -33,7 +35,7 @@ In General, Graphic Design can be broken down into these elements:
 *proportion
 
 
-Your job as a graphic designer here is to manipulate & add/remove these elements to guide, compliment, provide, and please(i.e. make it fun) the user.  
+Your job as a graphic designer here is to manipulate & add/remove these elements to guide, compliment, provide, and please(i.e. make it fun) the user.
 }}
 {{Examples_Section
 |Not_required=No
