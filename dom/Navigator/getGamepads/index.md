@@ -11,7 +11,7 @@
 |Parameters=
 |Method_applies_to=dom/navigator
 |Example_object_name=object
-|Return_value_description=Gamepad. See the [[apis/gamepad/Gamepad Gamepad object]] for details.
+|Return_value_description=Gamepad. See the [[apis/gamepad/Gamepad|Gamepad object]] for details.
 }}
 {{Examples_Section
 |Not_required=No
