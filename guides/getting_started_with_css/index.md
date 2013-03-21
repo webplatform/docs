@@ -1,5 +1,7 @@
 {{Page_Title|Getting started with CSS}}
-{{Flags}}
+{{Flags
+|Checked_Out=No
+}}
 {{Byline}}
 {{Summary_Section|This guide covers the basic fundamentals of CSS, including CSS anatomy, selectors, comments, and how to apply it to HTML.}}
 {{Tutorial
@@ -56,7 +58,7 @@ Review this specific example:
   color: blue;
 }</syntaxhighlight>
  
-The HTML element this rule affects is <code>&lt;p&gt;</code> — every <code>&lt;p&gt;</code> in the HTML document or documents that this CSS rule is applied to will display with these styles, unless they have more specific rules also applied to them, in which case the more specific rules will overwrite this rule. The properties affected by this rule are the margins around the paragraphs, the font of the text inside the paragraph tags, and the color of that text. The margins are set to 5 pixels, the font is set as Arial, and the color of the text is set to blue.
+The HTML element this rule affects is <code>&lt;p&gt;</code> — every <code>&lt;p&gt;</code> in the HTML document or documents that this CSS rule is applied to will display with these styles, unless they have more specific rules also applied to them, in which case the more specific rules will override this rule. The properties affected by this rule are the margins around the paragraphs, the font of the text inside the paragraph tags, and the color of that text. The margins are set to 5 pixels, the font is set as Arial, and the color of the text is set to blue.
 
 All of these specifics are discussed in more detail later — the main goal of this tutorial is to cover the basics of CSS rather than describing the granular details.
  
@@ -291,51 +293,38 @@ The first question you'll be asking is "why on earth do I need another way to ap
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
 |Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
 |Firefox_supported=Yes
 |Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
 |Internet_explorer_supported=Yes
 |Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
 |Opera_supported=Yes
 |Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
 |Safari_supported=Yes
 |Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
 }}
 |Mobile_rows={{Compatibility Table Mobile Row
 |Android_supported=Yes
 |Android_version=1
 |Android_prefixed_supported=Unknown
-|Android_prefixed_version=
 |Blackberry_supported=Yes
 |Blackberry_prefixed_supported=Unknown
-|Blackberry_prefixed_version=
 |Chrome_mobile_supported=Yes
 |Chrome_mobile_version=1.8
 |Chrome_mobile_prefixed_supported=Unknown
-|Chrome_mobile_prefixed_version=
 |Firefox_mobile_supported=Yes
 |Firefox_mobile_version=1
 |Firefox_mobile_prefixed_supported=Unknown
-|Firefox_mobile_prefixed_version=
 |IE_mobile_supported=Yes
 |IE_mobile_version=6
 |IE_mobile_prefixed_supported=Unknown
-|IE_mobile_prefixed_version=
 |Opera_mobile_supported=Yes
 |Opera_mobile_prefixed_supported=Unknown
-|Opera_mobile_prefixed_version=
 |Opera_mini_supported=Yes
 |Opera_mini_version=1
 |Opera_mini_prefixed_supported=Unknown
-|Opera_mini_prefixed_version=
 |Safari_mobile_supported=Yes
 |Safari_mobile_version=1
 |Safari_mobile_prefixed_supported=Unknown
-|Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
 }}
@@ -352,7 +341,4 @@ The first question you'll be asking is "why on earth do I need another way to ap
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
