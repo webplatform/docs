@@ -14,6 +14,8 @@ HTTP will help manage an information space by defining user interactions and exp
 === History of HTTP ===
 === HTTP Basics ===
 === HTTP Methods ===
+See the list of [[http/methods|HTTP methods]]  for details.
+
 === HTTP Response Code ===
 Each '''response status code''' is a numerical code corresponding to an established meaning. For example, the response code '''404''' indicates '''file not found'''.
 
