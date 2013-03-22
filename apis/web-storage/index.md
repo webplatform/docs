@@ -22,4 +22,5 @@
 |MDN_link=
 |MSDN_link=
 }}
+[[Category:API]]
 [[Category:API_Listings]]
