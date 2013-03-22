@@ -138,7 +138,7 @@ to the user as it appears in the source, sometimes using a fixed-width
 (monospaced) font, giving the text a feeling of having come from a
 typewriter. This is an artifact of programmers using fixed width fonts for early uses of preformatted text.
 
-Note: The use of the <code>&lt;code&gt;</code> element above will be explained in the [[tutorials/lesser-known semantic elements|Lesser-known Semantic Elements]] article later on in the course.
+Note: The use of the <code>&lt;code&gt;</code> element above will be explained in the [[Lesser-known semantic elements]] article later on in the course.
 
 == Inline elements ==
  
