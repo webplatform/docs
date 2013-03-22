@@ -138,7 +138,7 @@ to the user as it appears in the source, sometimes using a fixed-width
 (monospaced) font, giving the text a feeling of having come from a
 typewriter. This is an artifact of programmers using fixed width fonts for early uses of preformatted text.
 
-Note: The use of the <code>&lt;code&gt;</code> element above will be explained in the [[Lesser-known semantic elements]] article later on in the course.
+Note: The use of the <code>&lt;code&gt;</code> element above will be explained in the [[ tutorials/lesser-known semantic elements|Lesser-known semantic elements]] article later on in the course.
 
 == Inline elements ==
  
@@ -220,7 +220,7 @@ New to HTML5, the <code>&lt;time&gt;</code> element gives you a way to unambiguo
 
 <syntaxhighlight lang="html5"><p>I was born on the <time datetime="1978-06-27">27<sup>th</sup> June 1978</time>.</p></syntaxhighlight>
 
-Because you can put whatever you want inbetween the opening and closing tags, you could write this any number of ways, while still keeping the date precise and machine readable:
+Because you can put whatever you want in between the opening and closing tags, you could write this any number of ways, while still keeping the date precise and machine readable:
 
 <syntaxhighlight lang="html5"><p><time datetime="1978-06-27">June 27 1978 - my birthday</time>.</p></syntaxhighlight>
 
