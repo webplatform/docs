@@ -1,5 +1,7 @@
 {{Page_Title|Web development for beginners}}
-{{Flags}}
+{{Flags
+|Checked_Out=No
+}}
 {{Summary_Section|This set of articles is for complete beginners to work through in confidence, building up their essential skills at the beginning of the journey to becoming a web designer or developer.}}
 {{Basic Page}}
 {{Languages}}
@@ -11,7 +13,7 @@
 In this course, you'll be writing a lot of code, and testing it out in web browsers. Before you start, you should at least have the following installed:
 
 * The newest browsers you are able to install. If you don't have them already, grab them from the homepages of [http://www.google.com/chrome Chrome], [http://www.mozilla.org/firefox Firefox], [http://microsoft.com/ie Internet Explorer], [http://www.opera.com Opera], and [http://www.apple.com/safari/ Safari].
-* A decent text editor. Reasonable free options are [http://notepad-plus-plus.org/ Notepad++] for Windows, [http://www.barebones.com/products/TextWrangler/ TextWrangler] for Mac, and [http://bluefish.openoffice.nl/index.html Bluefish] for Linux.
+* A decent text editor. Reasonable free options are [http://notepad-plus-plus.org/ Notepad++] for Windows, [http://www.barebones.com/products/TextWrangler/ TextWrangler] for Mac, [http://bluefish.openoffice.nl/index.html Bluefish] for Linux and [http://brackets.io Brackets] for Mac and Windows (Linux version coming soon).
 
 Now roll your sleeves up and let's get ready to learn. [[tutorials|Browse our full list of learning articles]] if you exhaust the list of articles here, and want to learn more!
 
