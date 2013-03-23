@@ -1,5 +1,7 @@
 {{Page_Title|Manipulating content with CSS3 transforms}}
-{{Flags}}
+{{Flags
+|Checked_Out=No
+}}
 {{Byline
 |Name=Mike Sierra
 }}
@@ -297,12 +299,12 @@ while the second shows a distance of 1000.  The ancestor element's
 plane has shifted.
 
  .parent {
-     border		: thin solid #000;
-     perspective		: 1000;
-     perspective-origin	: 50% 50%;
+     border             : thin solid #000;
+     perspective          : 1000px;
+     perspective-origin   : 50% 50%;
  }
  .child {
-     transform		: rotateY(45deg);
+     transform          : rotateY(45deg);
  }
 
 [[Image:transform_perspective.png]]
@@ -378,13 +380,13 @@ is far behind them:
 
 
  .parent {
-    perspective          : 10000;
-    perspective-origin-y : -3000;  /* view from above */
+    perspective          : 10000px;
+    perspective-origin-y : -3000px;  /* view from above */
     background-color     : #aaa;
  }
  .child {
-    transform-origin-z   : -620;
-    transform-origin     : 50% 50% -620;  /* same */
+    transform-origin-z   : -620px;
+    transform-origin     : 50% 50% -620px;  /* same */
  }
  .child:nth-of-type(1) { transform: rotateY(-50deg); }
  .child:nth-of-type(2) { transform: rotateY(-30deg); }
@@ -418,34 +420,34 @@ only one of the child ''face'' elements displays at a time:
 ([http://letmespellitoutforyou.com/samples/trans_3d_backface.html View live sample])
 
  body {
-     background		: #ddd;
-     perspective		: 1200;
+     background         : #ddd;
+     perspective          : 1200px;
  }
  div {
-     position		: absolute;
-     width		: 280;
-     height		: 400;
-     border		: thin solid #777;
-     border-radius	: 0.5em;
+     position           : absolute;
+     width                : 280px;
+     height                 : 400px;
+     border                   : thin solid #777;
+     border-radius            : 0.5em;
  }
  .card {
-     left		: 0px;
-     transform		: rotateY(45deg);    /* vary this to rotate the entire card */
-     transform-style	: preserve-3d;    /* this allows each face to rotate within the card */
+     left               : 0px;
+     transform            : rotateY(45deg);    /* vary this to rotate the entire card */
+     transform-style      : preserve-3d;    /* this allows each face to rotate within the card */
  }
  .face {
-     background-size	: 100% 100%;
-     backface-visibility	: hidden;    /* only display when facing viewer */
+     background-size    : 100% 100%;
+     backface-visibility  : hidden;    /* only display when facing viewer */
  }
  .face:first-of-type {
-     transform		: rotateY(0deg);
+     transform          : rotateY(0deg);
  }
  .face:last-of-type {
-     transform		: rotateY(180deg);
-     background-image	: url(cardBack2.jpeg);
+     transform          : rotateY(180deg);
+     background-image   : url(cardBack2.jpeg);
  }
  #jackheart {
-     background-image	: url(JackHeart.jpeg);
+     background-image   : url(JackHeart.jpeg);
  }
 
 While 2D transforms can be represented as a 6-element
@@ -501,7 +503,7 @@ outlines will help clarify each nested transform:
 The outermost ''scene'' element defines the overall perspective:
 
  .scene {
-     perspective   : 500;
+     perspective   : 500px;
      outline-color : pink;
  }
 
@@ -623,7 +625,7 @@ apparent.  An animated transition between '''scale3d(0,0,0)''' and
 
 ([http://letmespellitoutforyou.com/samples/trans_3d_nest.html View live sample])
 
-While there are	limits to what you can accomplish when transforming
+While there are                                               limits to what you can accomplish when transforming
 flat web content, this technique of building 3D shapes such as cubes
 may form the basis of simple virtual reality scenes, such as the
 following (suitable for a mobile browser) that pans to view the
@@ -633,7 +635,7 @@ surface of Mars:
 
 View the sample to see how the viewer is positioned within the display elements:
 
-([http://letmespellitoutforyou.com/samples/trans_3d_virtual.html	View sample here])
+([http://letmespellitoutforyou.com/samples/trans_3d_virtual.html       View sample here])
 
 This example places an element randomly within a coordinate space, and rotates it to
 face the path to travel there. When viewed on WebKit nightly builds that
@@ -644,6 +646,7 @@ writing, Canary requires the ''Enable CSS Shaders'' flag enabled under
 [[Image:custom_filter_random_path.png]]
 
 ([http://letmespellitoutforyou.com/samples/custom_path.html View sample here])
+
 }}
 {{Notes_Section}}
 {{Compatibility_Section
