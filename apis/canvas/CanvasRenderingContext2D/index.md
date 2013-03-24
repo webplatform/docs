@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Review
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
@@ -15,7 +16,7 @@
 var ctx = canvas.getContext('2d');
 // draw a green rect
 ctx.fillStyle = "lime";
-ctx.drawRect(10, 10, 100, 100);
+ctx.fillRect(10, 10, 100, 100);
 }}
 }}
 {{Notes_Section}}
