@@ -1,5 +1,6 @@
 {{Page_Title|HTML structural elements}}
 {{Flags
+|Checked_Out=No
 }}
 {{Byline}}
 {{Summary_Section|This article provides a tour through the elements available in HTML to structure and group your content, from old favourites like <code>&lt;div&gt;</code> to new HTML5 additions such as <code>&lt;article&gt;</code> and <code>&lt;aside&gt;</code>.}}
@@ -14,8 +15,8 @@ Before you read any further, go and have a look at 5-10 of your favourite web si
 
 * Header (or masthead) at the top of the page, usually containing the top level heading of the page, and/or a company logo. This is the big bold statement at the top of the page that says what the web site is, and who it belongs to.
 * Main content column, which holds the main content of functionality you are here to use.
-* One of more sidebars, holding tributary content that is either related to that page's main content and changes as new pages are loaded (eg. related links), or is always relevant and persists across the whole site (eg. "your basket" information on an e-commerce site).
-* Navigation menu going across the page or down the page in a column. This often put in a sidebar, or may form part of the header.
+* One or more sidebars, holding tributary content that is either related to that page's main content and changes as new pages are loaded (eg. related links), or is always relevant and persists across the whole site (eg. "your basket" information on an e-commerce site).
+* Navigation menu going across the page or down the page in a column. This is often put in a sidebar, or may form part of the header.
 * A footer that goes across the bottom of the site and contains secondary information such as copyright information and contact details.
 
 Lets visualise this a bit more with a specific example. The web site of [http://www.conquestofsteel.co.uk Conquest of Steel] (Chris Mills' band!) looks like so
@@ -254,8 +255,10 @@ You may be wondering which style of structural elements to choose, now you've ha
 
 This way, you can work with whatever is thrown at you on different projects, plus your HTML5 sites will be nicely future proofed for when browsers do start to support HTML5 structural elements.
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Feature=HTML5 structural elements
 |Chrome_supported=Yes
@@ -285,18 +288,30 @@ This way, you can work with whatever is thrown at you on different projects, plu
 |Android_version=2.2
 |Android_prefixed_supported=No
 |Android_prefixed_version=
+|Blackberry_supported=Unknown
+|Blackberry_version=
+|Blackberry_prefixed_supported=Unknown
+|Blackberry_prefixed_version=
+|Chrome_mobile_supported=Unknown
+|Chrome_mobile_version=
+|Chrome_mobile_prefixed_supported=Unknown
+|Chrome_mobile_prefixed_version=
 |Firefox_mobile_supported=Yes
 |Firefox_mobile_version=15.0
 |Firefox_mobile_prefixed_supported=No
 |Firefox_mobile_prefixed_version=
-|IE_phone_supported=Unknown
-|IE_phone_version=
-|IE_phone_prefixed_supported=Unknown
-|IE_phone_prefixed_version=
+|IE_mobile_supported=Unknown
+|IE_mobile_version=
+|IE_mobile_prefixed_supported=Unknown
+|IE_mobile_prefixed_version=
 |Opera_mobile_supported=Unknown
 |Opera_mobile_version=
 |Opera_mobile_prefixed_supported=Unknown
 |Opera_mobile_prefixed_version=
+|Opera_mini_supported=Unknown
+|Opera_mini_version=
+|Opera_mini_prefixed_supported=Unknown
+|Opera_mini_prefixed_version=
 |Safari_mobile_supported=Yes
 |Safari_mobile_version=4.0
 |Safari_mobile_prefixed_supported=Unknown
