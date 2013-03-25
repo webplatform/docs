@@ -15,7 +15,7 @@
 {{See_Also_Section
 |Topic_clusters=Web Components
 }}
-{{Topics|API, DOM}}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
