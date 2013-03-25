@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -41,7 +42,7 @@
 *<code>video object</code>
 *<code>[[apis/audio-video/properties/src|src]]</code>
 }}
-{{Topics|DOM}}
+{{Topics|API, Audio, DOM, Video}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
