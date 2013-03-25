@@ -1,5 +1,6 @@
 {{Page_Title|HTML5 form features}}
 {{Flags
+|Checked_Out=No
 }}
 {{Byline}}
 {{Summary_Section|In this tutorial we will take you through how to create different types of basic navigation menu using HTML lists and links.}}
@@ -121,7 +122,7 @@ In addition to explicit new input types, HTML5 defines a series of new attribute
  
 === placeholder ===
  
-A common usability trick in web forms is to have placeholder content in text entry fields – for instance, to give more information about the expected type of information we want the user to enter – which disappears when the form control gets focus. While this used to require some JavaScript (clearing the contents of the form field on focus and resetting it to the default text if the user left the field without entering anything), we can now simply use the <code>placeholder</code> attribute:
+A common usability trick in web forms is to have placeholder content in text entry fields – for instance, to give more information about the expected type of information we want the user to enter – which disappears when a user starts entering a value or the form control gets focus. While this used to require some JavaScript (clearing the contents of the form field on focus and resetting it to the default text if the user left the field without entering anything), we can now simply use the <code>placeholder</code> attribute:
  
 <syntaxhighlight lang="html5"><input type="text"… placeholder="John Doe"></syntaxhighlight>
  
