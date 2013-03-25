@@ -2,18 +2,20 @@
 {{Flags
 |High-level issues=Unreviewed Import
 |Content=Outdated, Broken Links
+|Checked_Out=No
 |Editorial notes=This text appears exactly as it is, i.e. coming from an external source. Try to wikify it.
 }}
 {{API_Name}}
-{{Summary_Section|After a web designer presents a site’s architecture, or wireframe, to a client for approval, the next step is to determine the look and feel of the site through colour and graphics. In this [http://www.w3.org/community/webed/wiki/Main_Page#Web_Standards_Curriculum_table_of_contents Web Standards Curriculum] article, I’ll demonstrate how I keep this process as simple as possible, both for myself and for the client. I believe in the KISS philosophy—Keep It Simple, Sweetie. There are two reasons for the use of this tactic: First, life is complicated enough without adding more curves; secondly, a simple plan also helps to keep a site more accessible and usable for all concerned. In this article, you will:
+{{Summary_Section|Developing the look and feel of a web site with fonts, colour, and graphics.}}
+{{Concept_Page
+|Content=After a web designer presents a site’s architecture, or wireframe, to a client for approval, the next step is to determine the look and feel of the site through colour and graphics. In this [http://www.w3.org/community/webed/wiki/Main_Page#Web_Standards_Curriculum_table_of_contents Web Standards Curriculum] article, I’ll demonstrate how I keep this process as simple as possible, both for myself and for the client. I believe in the KISS philosophy—Keep It Simple, Sweetie. There are two reasons for the use of this tactic: First, life is complicated enough without adding more curves; secondly, a simple plan also helps to keep a site more accessible and usable for all concerned. In this article, you will:
  
 * Determine the typeface for headings, subheads and body copy, along with any other typographical issues.
 * Plan different colour combinations for the web site.
 * Build a mock-up for the client to decide on the colour and graphics.
 * Consider how to test the web site before it goes "live".
-}}
-{{Concept_Page
-|Content=== First step: considering typography ==
+
+== First step: considering typography ==
  
 You will learn some more about the technical aspects of typography in our [http://docs.webplatform.org/wiki/concepts/web_typography typography article]; now I will look at a few aspects of it that you will find useful at this stage.
  
