@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|A TrackEvent exposes (via its ''track'' attribute) the track to which an event relates.}}
+{{Summary_Section|A TrackEvent object exposes (via its ''track'' attribute) the track to which an event relates.}}
 {{API_Object}}
 {{Examples_Section
 |Not_required=No
