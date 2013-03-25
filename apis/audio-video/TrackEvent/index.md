@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|A TrackEvent exposes (via its '''track''' attribute) the track to which an event relates.}}
+{{Summary_Section|A TrackEvent exposes (via its ''track'' attribute) the track to which an event relates.}}
 {{API_Object}}
 {{Examples_Section
 |Not_required=No
@@ -14,10 +14,8 @@
 }}
 {{Notes_Section
 |Notes=The '''onaddtrack''' event listener must be added to the '''video''' object before the video source content is loaded.
-
 |Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}221374 HTML5 A vocabulary and associated APIs for HTML and XHTML]
-
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
