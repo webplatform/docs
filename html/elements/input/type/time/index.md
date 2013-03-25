@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
 |Content=Incomplete, Compatibility Incomplete
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
@@ -80,6 +81,9 @@
 |Note=Users can't specify seconds or milliseconds.
 }}{{Compatibility Notes Row
 |Browser=Safari Mobile
+|Note=Users can't specify seconds or milliseconds.
+}}{{Compatibility Notes Row
+|Browser=Firefox Mobile
 |Note=Users can't specify seconds or milliseconds.
 }}
 }}
