@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -52,7 +53,7 @@ To invoke this event, load a media resource.
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics}}
+{{Topics|API, Audio, DOM, Video}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
