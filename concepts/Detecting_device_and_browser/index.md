@@ -1,5 +1,7 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|Checked_Out=No
+}}
 {{Byline}}
 {{Summary_Section|This article explains client and server-side techniques for detecting browser capabilities.}}
 {{Guide
@@ -35,7 +37,7 @@ Client-side detection can provide a useful fallback and can implement run-time t
 
 === Disadvantages of client-side detection ===
 
-When incorrectly implemented, client-side detection may cause a device to request content that is unsupported. In this case, a  user will be notified that the browser is not capable of rendering the content only after time and bandwidth have been wasted delivering it. Because JavaScript and CSS execute locally, an entire page may have to be downloaded before scripts can process and manipulate the Document Object Model [http://en.wikipedia.org/wiki/Document_Object_Model DOM]. In addition, JavaScript and media queries are not supported on some older devices, and their may be a time lag between page load and execution of client-side adaptation.
+When incorrectly implemented, client-side detection may cause a device to request content that is unsupported. In this case, a  user will be notified that the browser is not capable of rendering the content only after time and bandwidth have been wasted delivering it. Because JavaScript and CSS execute locally, an entire page may have to be downloaded before scripts can process and manipulate the Document Object Model [http://en.wikipedia.org/wiki/Document_Object_Model DOM]. In addition, JavaScript and media queries are not supported on some older devices, and there may be a time lag between page load and execution of client-side adaptation.
 
 == Server-side detection ==
 
@@ -64,6 +66,7 @@ Note: This material was originally published as part of the Nokia Developer Web 
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows={{Compatibility Table Mobile Row
 |Feature=Media query
