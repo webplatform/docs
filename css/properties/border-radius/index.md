@@ -70,14 +70,14 @@ border-radius: 40% 60%;
 ===Syntax===
 
 The syntax of the first radius allows one to four values, to specify different radius per corner:<br/>
-<code class="language-css">
+<code class="language-css block">
 border-radius: [radius for all corners];<br/>           
 border-radius: [radius for top left & bottom right corners] [radius for top right & bottom left corners];<br/>
 border-radius: [top left radius] [top right & bottom left radius] [bottom right radius];<br/>
 border-radius: [top left radius] [top right radius] [bottom right radius] [bottom left radius];</code>
 
 The syntax of the vertical radius also allows one to four values<br/>
-<code class="language-css">
+<code class="language-css block">
 border-radius: (horizontal radius values) / [radius for all corners];<br/>   
 border-radius: (horizontal radius values) / [radius for top left & bottom right corners] [radius for top right & bottom left corners];<br/>
 border-radius: (horizontal radius values) / [top left radius] [top right & bottom left radius] [bottom right radius];<br/>
