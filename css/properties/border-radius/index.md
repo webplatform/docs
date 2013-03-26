@@ -1,23 +1,25 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|The border-radius CSS property allows Web authors to define how rounded border corners are. The curve of each corner is defined using one or two radii, defining its shape: circle or ellipse.}}
+{{Summary_Section|The border-radius CSS property allows authors to round the corners of an element. The rounding can be different per-corner, and it could have different horizontal and vertical radii, to produce elliptical curves.}}
 {{CSS Property
 |Initial value=0
-|Applies to=all elements, except the table element when border-collapse is collapse
+|Applies to=All elements, except the table element when border-collapse is collapse
 |Inherited=No
 |Media=visual
-|Computed value=as specified by individual properties
+|Computed value=As specified by individual properties
 |Animatable=Yes
 |CSS object model property=object.style.borderRadius
-|CSS percentages=Refer to corresponding dimension of the border box.
+|CSS percentages=Refer to the corresponding dimension (width or height) of the border box.
 |Values={{CSS Property Value
 |Data Type=length
-|Description=Denotes the size of the circle radius or the semi-major and semi-minor axes of the ellipsis. It can be expressed in any unit allowed by the [[css/data_types/length|CSS <length> data types]]. Negative values are invalid.
+|Description=Denotes the size of the circle radius or the horizontal and vertical radii, for elliptical curves. It can be expressed in any unit allowed in [[css/data_types/length|CSS <length> data types]]. em units are useful for controls that scale proportionally with the font-size. Viewport-relative units (vw, vh, vmin, vmax) can be useful for controls that scale with the viewport size. Negative values are invalid.
 }}{{CSS Property Value
 |Data Type=percentage
-|Description=Denotes the size of the circle radius, or the semi-major and semi-minor axes of the ellipsis, using percentage values. Percentages for the horizontal axis refer to the width of the box, percentages for the vertical axis refer to the height of the box. Negative values are invalid.
+|Description=Denotes the size of the corner radius, in percentages of the box’s dimensions. Specifically, percentages for the horizontal axis refer to the width of the box, percentages for the vertical axis refer to the height of the box. Negative values are invalid.
 }}
 }}
 {{Examples_Section
@@ -25,60 +27,75 @@
 |Examples={{Single Example
 |Language=CSS
 |Description=One value example
-|Code=border-radius: 2em;
+|Code=border-radius: 1em;
 
-/*is equivalent to:*/
+/* is equivalent to: */
 
-border-top-left-radius: 2em;
-border-top-right-radius: 2em;
-border-bottom-right-radius: 2em;
-border-bottom-left-radius: 2em;
+border-top-left-radius: 1em;
+border-top-right-radius: 1em;
+border-bottom-right-radius: 1em;
+border-bottom-left-radius: 1em;
 }}{{Single Example
 |Language=CSS
 |Description=Multi value example
-|Code=border-radius: 2em 1em 4em / 0.5em 3em;
+|Code=border-radius: 20px 1em 1vw / 0.5em 3em;
 
 /*is equivalent to:*/
 
-border-top-left-radius: 2em 0.5em;
+border-top-left-radius: 20px 0.5em;
 border-top-right-radius: 1em 3em;
-border-bottom-right-radius: 4em 0.5em;
+border-bottom-right-radius: 1vw 0.5em;
 border-bottom-left-radius: 1em 3em;
 }}{{Single Example
 |Language=CSS
-|Description=Valid max percentage value example
-|Code=border-radius: 50%; /*0% - 50%*/
+|Description=Create an ellipse, regardless of the element’s dimensions
+|Code=border-radius: 50%;
 }}{{Single Example
 |Language=CSS
-|Description=Wrong max percentage value example
-|Code=border-radius: 100%; /* larger then allowed */
+|Description=Shrinking curves to avoid overlapping
+|Code=border-radius: 100% 150%;
+
+/* equivalent to: */
+
+border-radius: 40% 60%;
+
+/* The values shrink proportionally, all multiplied by the same factor, until there is no overlap */
 }}
 }}
 {{Notes_Section
 |Usage=As with any shorthand property, individual inherited values are not possible, that is <code>border-radius:0 0 inherit inherit</code>, which would override existing definitions partially. In that case, the individual longhand properties have to be used.
 
 ===Syntax===
-The syntax of the first radius allows one to four values:<br/>
-<code>
-border-radius: radius <br/>           
-border-radius: top-left-and-bottom-right top-right-and-bottom-left <br/>
-border-radius: top-left top-right-and-bottom-left bottom-right <br/>
-border-radius: top-left top-right bottom-right bottom-left </code><br/>
+
+The syntax of the first radius allows one to four values, to specify different radius per corner:<br/>
+<code class="language-css">
+border-radius: [radius for all corners];<br/>           
+border-radius: [radius for top left & bottom right corners] [radius for top right & bottom left corners];<br/>
+border-radius: [top left radius] [top right & bottom left radius] [bottom right radius];<br/>
+border-radius: [top left radius] [top right radius] [bottom right radius] [bottom left radius];</code><br/>
 <br/>
-The syntax of the second radius also allows one to four values<br/>
-<code>
-border-radius: (first radius values) / radius <br/>   
-border-radius: (first radius values) / top-left-and-bottom-right top-right-and-bottom-left <br/>
-border-radius: (first radius values) / top-left top-right-and-bottom-left bottom-right <br/>
-border-radius: (first radius values) / top-left top-right bottom-right bottom-left </code><br/>
+The syntax of the vertical radius also allows one to four values<br/>
+<code class="language-css">
+border-radius: (horizontal radius values) / [radius for all corners];<br/>   
+border-radius: (horizontal radius values) / [radius for top left & bottom right corners] [radius for top right & bottom left corners];<br/>
+border-radius: (horizontal radius values) / [top left radius] [top right & bottom left radius] [bottom right radius];<br/>
+border-radius: (horizontal radius values) / [top left radius] [top right radius] [bottom right radius] [bottom left radius];</code><br/>
 |Notes====Remarks===
-The '''border-radius''' property is a composite property that specifies up to four '''border-*-radius''' properties. If values are given before and after the slash, the values before the slash set the horizontal radius and the values after the slash set the vertical radius. If there is no slash, the values set both radii equally. The four values for each radii are given in the following order: top-left, top-right, bottom-right, bottom-left. If the bottom-left value is omitted, the value is the same as the top-right value. If the bottom-right value is omitted, the value is the same as the top-left value. If the top-right value is omitted, the value is the same as the top-left value.
+
+* The '''border-radius''' property is a composite property that specifies up to four '''border-*-radius''' properties. If values are given before and after the slash, the values before the slash set the horizontal radius and the values after the slash set the vertical radius. If there is no slash, the values set both radii equally. The four values for each radii are given in clockwise order, starting from the top left corner. If less than four values are provided, they are repeated until we get four values, similarly to other CSS properties, such as border-width.
+* It’s possible to end up with elliptical corners, even by specifying one radius. This occurs when you are using percentages, since they resolve to a different number for each axis (horizontally they are percentages of the border box width, vertically of the height). For a demonstration, refer to the ellipse example above (example #3)
+* Since border-radius rounds the border box of the element, the inner (padding box) corners will have smaller radii (specifically border-radius - border-width), or even no rounding, if the border is thicker than the border-radius value. Another consequence of this is that when there are different border widths on adjacent sides, the curves of the padding box will be elliptical.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Backgrounds and Borders Module Level 3: Rounded Corners:
 |URL=http://www.w3.org/TR/css3-background/#the-border-radius
 |Status=Candidate Recommendation
+}}{{Related Specification
+|Name=CSS Backgrounds and Borders Module Level 4: Rounded Corners:
+|URL=http://dev.w3.org/csswg/css4-background/#corners
+|Status=Editor’s Draft
+|Relevant_changes=Added border-corner-shape to let border-radius specify the size of a number of different corner shapes besides rounded corners.
 }}
 }}
 {{Compatibility_Section
@@ -114,6 +131,7 @@ The '''border-radius''' property is a composite property that specifies up to fo
 |Firefox_prefixed_supported=Unknown
 |Firefox_prefixed_version=
 |Internet_explorer_supported=Yes
+|Internet_explorer_version=9
 |Internet_explorer_prefixed_supported=Unknown
 |Internet_explorer_prefixed_version=
 |Opera_supported=Yes
