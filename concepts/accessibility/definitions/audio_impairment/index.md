@@ -1,6 +1,7 @@
 {{Page_Title|Audio Impairment}}
 {{Flags
-|High-level issues=Stub
+|High-level issues=Stub, Undescriptive Title
+|Checked_Out=No
 }}
 {{API_Name}}
 {{Summary_Section}}
