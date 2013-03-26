@@ -12,7 +12,7 @@
 |Media=visual
 |Computed value=As specified by individual properties
 |Animatable=Yes
-|CSS object model property=object.style.borderRadius
+|CSS object model property=element.style.borderRadius
 |CSS percentages=Refer to the corresponding dimension (width or height) of the border box.
 |Values={{CSS Property Value
 |Data Type=length
@@ -50,6 +50,8 @@ border-bottom-left-radius: 1em 3em;
 |Language=CSS
 |Description=Create an ellipse, regardless of the element’s dimensions
 |Code=border-radius: 50%;
+
+/* Will be a circle if the element’s width is equal to its height */
 }}{{Single Example
 |Language=CSS
 |Description=Shrinking curves to avoid overlapping
@@ -68,23 +70,24 @@ border-radius: 40% 60%;
 ===Syntax===
 
 The syntax of the first radius allows one to four values, to specify different radius per corner:<br/>
-<code class="language-css">
+<pre><code class="language-css">
 border-radius: [radius for all corners];<br/>           
 border-radius: [radius for top left & bottom right corners] [radius for top right & bottom left corners];<br/>
 border-radius: [top left radius] [top right & bottom left radius] [bottom right radius];<br/>
-border-radius: [top left radius] [top right radius] [bottom right radius] [bottom left radius];</code><br/>
-<br/>
+border-radius: [top left radius] [top right radius] [bottom right radius] [bottom left radius];</code></pre>
+
 The syntax of the vertical radius also allows one to four values<br/>
-<code class="language-css">
+<pre><code class="language-css">
 border-radius: (horizontal radius values) / [radius for all corners];<br/>   
 border-radius: (horizontal radius values) / [radius for top left & bottom right corners] [radius for top right & bottom left corners];<br/>
 border-radius: (horizontal radius values) / [top left radius] [top right & bottom left radius] [bottom right radius];<br/>
-border-radius: (horizontal radius values) / [top left radius] [top right radius] [bottom right radius] [bottom left radius];</code><br/>
+border-radius: (horizontal radius values) / [top left radius] [top right radius] [bottom right radius] [bottom left radius];</code></pre>
 |Notes====Remarks===
 
 * The '''border-radius''' property is a composite property that specifies up to four '''border-*-radius''' properties. If values are given before and after the slash, the values before the slash set the horizontal radius and the values after the slash set the vertical radius. If there is no slash, the values set both radii equally. The four values for each radii are given in clockwise order, starting from the top left corner. If less than four values are provided, they are repeated until we get four values, similarly to other CSS properties, such as border-width.
 * It’s possible to end up with elliptical corners, even by specifying one radius. This occurs when you are using percentages, since they resolve to a different number for each axis (horizontally they are percentages of the border box width, vertically of the height). For a demonstration, refer to the ellipse example above (example #3)
 * Since border-radius rounds the border box of the element, the inner (padding box) corners will have smaller radii (specifically border-radius - border-width), or even no rounding, if the border is thicker than the border-radius value. Another consequence of this is that when there are different border widths on adjacent sides, the curves of the padding box will be elliptical.
+* Note that although in the border-radius shorthand, there is a slash (/) to separate horizontal from vertical radii, they are space separated in the longhands.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -128,15 +131,16 @@ border-radius: (horizontal radius values) / [top left radius] [top right radius]
 |Chrome_prefixed_supported=Unknown
 |Chrome_prefixed_version=
 |Firefox_supported=Yes
+|Firefox_version=4
 |Firefox_prefixed_supported=Unknown
 |Firefox_prefixed_version=
 |Internet_explorer_supported=Yes
 |Internet_explorer_version=9
-|Internet_explorer_prefixed_supported=Unknown
+|Internet_explorer_prefixed_supported=No
 |Internet_explorer_prefixed_version=
 |Opera_supported=Yes
 |Opera_version=11.5
-|Opera_prefixed_supported=Unknown
+|Opera_prefixed_supported=No
 |Opera_prefixed_version=
 |Safari_supported=Yes
 |Safari_version=5.1
@@ -149,13 +153,13 @@ border-radius: (horizontal radius values) / [top left radius] [top right radius]
 |Chrome_prefixed_version=
 |Firefox_supported=Yes
 |Firefox_version=3.5 (1.9.1)
-|Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
+|Firefox_prefixed_supported=Yes
 |Internet_explorer_supported=Yes
-|Internet_explorer_prefixed_supported=Unknown
+|Internet_explorer_version=9
+|Internet_explorer_prefixed_supported=No
 |Internet_explorer_prefixed_version=
 |Opera_supported=Yes
-|Opera_prefixed_supported=Unknown
+|Opera_prefixed_supported=No
 |Opera_prefixed_version=
 |Safari_supported=Yes
 |Safari_prefixed_supported=Unknown
@@ -164,13 +168,12 @@ border-radius: (horizontal radius values) / [top left radius] [top right radius]
 |Feature=4 values for 4 corners
 |Chrome_supported=Yes
 |Chrome_version=4.0
-|Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
+|Chrome_prefixed_supported=Yes
 |Firefox_supported=Yes
-|Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
+|Firefox_prefixed_supported=Yes
 |Internet_explorer_supported=Yes
-|Internet_explorer_prefixed_supported=Unknown
+|Internet_explorer_version=9
+|Internet_explorer_prefixed_supported=No
 |Internet_explorer_prefixed_version=
 |Opera_supported=Yes
 |Opera_prefixed_supported=Unknown
@@ -197,8 +200,8 @@ border-radius: (horizontal radius values) / [top left radius] [top right radius]
 |Firefox_mobile_version=15.0
 |Firefox_mobile_prefixed_supported=Unknown
 |Firefox_mobile_prefixed_version=
-|IE_mobile_supported=Yes
-|IE_mobile_version=9.0
+|IE_mobile_supported=Unknown
+|IE_mobile_version=
 |IE_mobile_prefixed_supported=Unknown
 |IE_mobile_prefixed_version=
 |Opera_mobile_supported=Yes
@@ -215,9 +218,29 @@ border-radius: (horizontal radius values) / [top left radius] [top right radius]
 |Safari_mobile_prefixed_version=3.2
 }}
 |Notes_rows={{Compatibility Notes Row
-|Browser=Internet Explorer
-|Version=9.0
-|Note=The border-radius property can't be animated/transitioned in IE. See this demo for a keyframe animation and a transition: http://jsfiddle.net/FPnV6/1/
+|Browser=Firefox
+|Version=< 3.6
+|Note=Used to treat percentage values as percentages of the width, for both axes
+}}{{Compatibility Notes Row
+|Browser=Firefox
+|Version=< 3.6
+|Note=Non-standard longhand names (-moz-border-radius-topleft etc)
+}}{{Compatibility Notes Row
+|Browser=WebKit
+|Version=< 532.5
+|Note=Supports only one value in border-radius. For different radii, the longhands need to be used. don't support the slash / notation. If two values are specified, they are interpreted as horizontal and vertical radii for all four corners.
+}}{{Compatibility Notes Row
+|Browser=WebKit
+|Version=< 532.5
+|Note=When the sum of two adjacent radii exceeds the length of the side they’re on, they are reduced to 0 instead of shrinking proportionally.
+}}{{Compatibility Notes Row
+|Browser=Opera
+|Version=< 11.6
+|Note=border-radius has no effect in replaced elements (like images)
+}}{{Compatibility Notes Row
+|Browser=Opera
+|Version=< 12
+|Note=Percentages are accepted in border-radius, but are treated incorrectly.
 }}
 }}
 {{See_Also_Section
