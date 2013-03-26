@@ -1,5 +1,7 @@
 {{Page_Title|CSS tutorials}}
-{{Flags}}
+{{Flags
+|Checked_Out=No
+}}
 {{Summary_Section|Cascading Stylesheets (CSS) is a language for styling markup content (such as HTML, SVG or XML.) This page lists our CSS tutorials, perfect for anyone wishing to learn the language from scratch, or dive into learning more advanced CSS techniques.}}
 {{Basic Page|Content=PAGE CONTENT GOES HERE
 }}
@@ -63,6 +65,7 @@
 * [[tutorials/styling svg with css|Styling SVG with CSS]]
 * [[tutorials/styling xml with css|Styling XML data with CSS]]
 * [[tutorials/object fit|Manipulating replaced content with object-fit]]
+* [[tutorials/custom_filters|Reshaping content with custom CSS filters]]
 
 ==Applied styling exercises==
 
