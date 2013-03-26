@@ -1,5 +1,7 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|The ‘box-shadow’ property attaches one or more shadows inside or outside of a box-model element_ The property is a comma-separated list of shadows, each specified by 2-4 length values, an optional color, and an optional ‘inset’ keyword_ box-shadow is a simple style that can be manipulated to generate complex effects_
@@ -112,8 +114,8 @@ Links to descriptions of length and color are in the [[#Remarks]] section, below
 {{Notes_Section
 |Usage====Remarks===
 See also:
-* [[css/data_types/length length]]
-* [[css/color color]]
+* [[css/data_types/length]]
+* [[css/color]]
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
