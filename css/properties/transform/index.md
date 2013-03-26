@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections
 |Content=Incomplete, Compatibility Incomplete
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
@@ -59,7 +60,6 @@ If the property has a value different than none, a stacking context will be crea
 |Data Type=rotateZ(20deg)
 }}
 }}
-[[file:transform_example.png|alt Example showing translate, scale and rotate step by step]]
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -142,6 +142,28 @@ If the property has a value different than none, a stacking context will be crea
 |Safari_version=
 |Safari_prefixed_supported=Yes
 |Safari_prefixed_version=3.1
+}}{{Compatibility Table Desktop Row
+|Feature=3D transforms
+|Chrome_supported=No
+|Chrome_version=
+|Chrome_prefixed_supported=Yes
+|Chrome_prefixed_version=12
+|Firefox_supported=Yes
+|Firefox_version=16
+|Firefox_prefixed_supported=Yes
+|Firefox_prefixed_version=10
+|Internet_explorer_supported=Yes
+|Internet_explorer_version=10
+|Internet_explorer_prefixed_supported=No
+|Internet_explorer_prefixed_version=
+|Opera_supported=No
+|Opera_version=
+|Opera_prefixed_supported=No
+|Opera_prefixed_version=
+|Safari_supported=No
+|Safari_version=
+|Safari_prefixed_supported=Yes
+|Safari_prefixed_version=4
 }}
 |Mobile_rows={{Compatibility Table Mobile Row
 |Feature=Basic Support
@@ -191,3 +213,4 @@ If the property has a value different than none, a stacking context will be crea
 |MSDN_link=
 |HTML5Rocks_link=
 }}
+[[file:transform_example.png|alt Example showing translate, scale and rotate step by step]]
