@@ -1,5 +1,6 @@
 {{Page_Title|Manipulating content with CSS3 transforms}}
 {{Flags
+|Content=Grammar/Spelling
 |Checked_Out=No
 }}
 {{Byline
@@ -646,7 +647,6 @@ writing, Canary requires the ''Enable CSS Shaders'' flag enabled under
 [[Image:custom_filter_random_path.png]]
 
 ([http://letmespellitoutforyou.com/samples/custom_path.html View sample here])
-
 }}
 {{Notes_Section}}
 {{Compatibility_Section
