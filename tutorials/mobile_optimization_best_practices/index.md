@@ -1,5 +1,8 @@
 {{Page_Title|Mobile optimization best practices}}
-{{Flags}}
+{{Flags
+|Content=Grammar/Spelling
+|Checked_Out=No
+}}
 {{Byline}}
 {{Summary_Section|How to optimize for devices that have limited power, varying screen sizes and potentially slow or spotty network connections. This guide will walk you through the best practices to optimize your web app for mobile for in order to maintain the best possible user experience.}}
 {{Tutorial
