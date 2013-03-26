@@ -46,7 +46,7 @@ To invoke this event, load a media resource.
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|API, Audio, DOM, Video}}
+{{Topics|API, Audio, DOM, Media, Video}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
