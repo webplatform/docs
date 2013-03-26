@@ -70,18 +70,18 @@ border-radius: 40% 60%;
 ===Syntax===
 
 The syntax of the first radius allows one to four values, to specify different radius per corner:<br/>
-<pre><code class="language-css">
+<code class="language-css">
 border-radius: [radius for all corners];<br/>           
 border-radius: [radius for top left & bottom right corners] [radius for top right & bottom left corners];<br/>
 border-radius: [top left radius] [top right & bottom left radius] [bottom right radius];<br/>
-border-radius: [top left radius] [top right radius] [bottom right radius] [bottom left radius];</code></pre>
+border-radius: [top left radius] [top right radius] [bottom right radius] [bottom left radius];</code>
 
 The syntax of the vertical radius also allows one to four values<br/>
-<pre><code class="language-css">
+<code class="language-css">
 border-radius: (horizontal radius values) / [radius for all corners];<br/>   
 border-radius: (horizontal radius values) / [radius for top left & bottom right corners] [radius for top right & bottom left corners];<br/>
 border-radius: (horizontal radius values) / [top left radius] [top right & bottom left radius] [bottom right radius];<br/>
-border-radius: (horizontal radius values) / [top left radius] [top right radius] [bottom right radius] [bottom left radius];</code></pre>
+border-radius: (horizontal radius values) / [top left radius] [top right radius] [bottom right radius] [bottom left radius];</code>
 |Notes====Remarks===
 
 * The '''border-radius''' property is a composite property that specifies up to four '''border-*-radius''' properties. If values are given before and after the slash, the values before the slash set the horizontal radius and the values after the slash set the vertical radius. If there is no slash, the values set both radii equally. The four values for each radii are given in clockwise order, starting from the top left corner. If less than four values are provided, they are repeated until we get four values, similarly to other CSS properties, such as border-width.
@@ -239,7 +239,7 @@ border-radius: (horizontal radius values) / [top left radius] [top right radius]
 |Note=border-radius has no effect in replaced elements (like images)
 }}{{Compatibility Notes Row
 |Browser=Opera
-|Version=< 12
+|Version=< 11.6
 |Note=Percentages are accepted in border-radius, but are treated incorrectly.
 }}
 }}
