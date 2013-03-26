@@ -65,7 +65,6 @@
 * [[tutorials/styling svg with css|Styling SVG with CSS]]
 * [[tutorials/styling xml with css|Styling XML data with CSS]]
 * [[tutorials/object fit|Manipulating replaced content with object-fit]]
-* [[tutorials/custom_filters|Reshaping content with custom CSS filters]]
 
 ==Applied styling exercises==
 
