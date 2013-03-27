@@ -1,6 +1,7 @@
-{{Page_Title|getRegionsByContent()}}
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Review
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
@@ -43,6 +44,7 @@ if (regions.length > 1) {
 |Specifications={{Related Specification
 |Name=CSS Regions Module Level 3
 |URL=http://dev.w3.org/csswg/css3-regions/
+|Status=W3C Editor's Draft
 }}
 }}
 {{Compatibility_Section
