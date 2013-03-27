@@ -11,30 +11,35 @@
 Various SVG elements produce basic shapes, and attributes specify
 their dimensions.
 
-Rectangles are defined by their '''width''' and '''height'''
-attributes, while '''x''' and '''y''' offsets position the
-upper-left corner of the '''rect''' relative to its parent:
+Rectangles are defined by their [[svg/attributes/width|'''width''']]
+and [[svg/attributes/height|'''height''']] attributes, while
+[[svg/attributes/x|'''x''']] and [[svg/attributes/y|'''y''']] offsets
+position the upper-left corner of the [[svg/elements/rect|'''rect''']]
+relative to its parent:
 
 <syntaxhighlight lang="xml">
 <rect x="10" y="10" width="240" height="160"/>
 </syntaxhighlight>
 
-Circles are positioned by the '''cx''' and '''cy''' center point,
-and the radius ('''r''') specifies the size:
+Circles are positioned by the [[svg/attributes/cx|'''cx''']] and
+[[svg/attributes/cy|'''cy''']] center point, and the radius
+([[svg/attributes/r|'''r''']]) specifies the size:
 
 <syntaxhighlight lang="xml">
 <circle cx="50" cy="50" r="100"/>
 </syntaxhighlight>
 
-Ellipses are positioned like circles, but require two '''rx''' and
-'''ry''' radius attributes for each axis:
+Ellipses are positioned like circles, but require two
+[[svg/attributes/rx|'''rx''']] and [[svg/attributes/ry|'''ry''']]
+radius attributes for each axis:
 
 <syntaxhighlight lang="xml">
 <ellipse cx="40" cy="60" rx="40" ry="20"/>
 </syntaxhighlight>
 
-When applied to '''rect''' elements, '''rx''' and '''ry''' attributes
-produce rounded corners:
+When applied to [[svg/elements/rect|'''rect''']] elements,
+[[svg/attributes/rx|'''rx''']] and [[svg/attributes/ry|'''ry''']]
+attributes produce rounded corners:
 
 <syntaxhighlight lang="xml">
 <rect x="10" y="10" width="160" height="240" rx="20" ry="20"/>
@@ -52,9 +57,10 @@ properties described below.
 
 ==Fill and stroke properties==
 
-By default, shapes have a black fill.  The '''fill''' and '''stroke'''
-properties specify the color of the background and the edge of the
-shape:
+By default, shapes have a black fill.  The
+[[svg/properties/fill|'''fill''']] and
+[[svg/properties/stroke|'''stroke''']] properties specify the color of
+the background and the edge of the shape:
 
 <syntaxhighlight lang="xml">
 <rect fill="pink" stroke="red" x="10" y="10" width="160" height="240"/>
@@ -70,17 +76,18 @@ guide expresses SVG properties as CSS selectors:
  }
 
 Properties specified via CSS override those specified as attributes,
-so this local CSS that colors the '''rect''' green overrides the local
-attribute that colors it red:
+so this local CSS that colors the [[svg/elements/rect|'''rect''']]
+green overrides the local attribute that colors it red:
 
 <syntaxhighlight lang="xml">
 <rect fill="pink" stroke="red" style="fill:lightgreen;stroke:green"
     x="10" y="10" width="160" height="240"/>
 </syntaxhighlight>
 
-The '''stroke-width''' is centered over the edge of the shape, so
-increasing its pixel value bleeds the '''stroke''' color both inside
-and outside the shape:
+The [[svg/properties/stroke-width|'''stroke-width''']] is centered
+over the edge of the shape, so increasing its pixel value bleeds the
+[[svg/properties/stroke|'''stroke''']] color both inside and outside
+the shape:
 
  rect {
      fill         : pink;
@@ -90,10 +97,11 @@ and outside the shape:
 
 [[Image:svg_stroke_width.png]]
 
-To apply transparencies, you can set the '''fill-opacity''' and
-'''stroke-opacity''' properties, or specify
-[[css/units/color|'''rgba()''' and '''hsla()''']] colors.  Applying
-both results in additional transparency:
+To apply transparencies, you can set the
+[[svg/properties/fill-opacity|'''fill-opacity''']] and
+[[svg/properties/stroke-opacity|'''stroke-opacity''']] properties, or
+specify [[css/units/color|'''rgba()''' and '''hsla()''']] colors.
+Applying both results in additional transparency:
 
  rect {
      stroke-width  : 10;
@@ -114,16 +122,18 @@ To draw a straight line, specify its start and end coordinates as
 <line x1="0" y1="0" x2="100" y2="100"/>
 </syntaxhighlight>
 
-A '''polyline''' consists of a series of ''x''/''y'' coordinates
-specified within the '''points''' attribute, with items separated by
-either commas or whitespace.  This draws an arrow:
+A [[svg/elements/polyline|'''polyline''']] consists of a series of
+''x''/''y'' coordinates specified within the
+[[svg/attributes/points|'''points''']] attribute, with items separated
+by either commas or whitespace.  This draws an arrow:
 
 <syntaxhighlight lang="xml">
 <polyline points="100,225 100,115 130,115 70,15 70,15 10,115 40,115 40,225"/>
 </syntaxhighlight>
 
-A '''polygon''' is the same as a '''polyline''', but the final
-coordinate is joined with the first:
+A [[svg/elements/polygon|'''polygon''']] is the same as a
+[[svg/elements/polyline|'''polyline''']], but the final coordinate is
+joined with the first:
 
 <syntaxhighlight lang="xml">
 <polygon points="100,225 100,115 130,115 70,15 70,15 10,115 40,115 40,225"/>
@@ -134,11 +144,12 @@ coordinate is joined with the first:
 ==More stroke properties==
 
 Additional properties provide greater control over how the ends or
-joints of line segments appear. The '''stroke-linecap''' property
+joints of line segments appear. The
+[[svg/properties/stroke-linecap|'''stroke-linecap''']] property
 determines the appearance of the end of a stroke, or dashes within a
 stroke. Options appear as follows, with both '''round''' and
 '''square''' extending past the end of the line depending on the
-'''stroke-width'''::
+[[svg/properties/stroke-width|'''stroke-width''']]::
 
 <div style="display:inline-block">
 [[Image:svg_linecap_round.png]]
@@ -153,9 +164,10 @@ stroke. Options appear as follows, with both '''round''' and
  stroke-linecap: butt;
 </div>
 
-The '''stroke-linejoin''' property affects how joined segments appear,
-and becomes more apparent for narrower angles as the
-'''stroke-width''' increases:
+The [[svg/properties/stroke-linejoin|'''stroke-linejoin''']] property
+affects how joined segments appear, and becomes more apparent for
+narrower angles as the
+[[svg/properties/stroke-width|'''stroke-width''']] increases:
 
 <div style="display:inline-block">
 [[Image:svg_linejoin_round.png]]
@@ -170,12 +182,13 @@ and becomes more apparent for narrower angles as the
  stroke-linejoin: miter;
 </div>
 
-Setting '''stroke-linejoin''' to '''bevel''' diagonally shaves the
-points from angles, and setting it to '''miter''' allows them to
-protrude.  The '''stroke-miterlimit''' property limits how much of the
-angle is allowed to protrude, expressed relative to the
-'''stroke-width'''.  This example only bevels those angles that
-protrude twice the width:
+Setting [[svg/properties/stroke-linejoin|'''stroke-linejoin''']] to
+'''bevel''' diagonally shaves the points from angles, and setting it
+to '''miter''' allows them to protrude.  The
+[[svg/properties/stroke-miterlimit|'''stroke-miterlimit''']] property
+limits how much of the angle is allowed to protrude, expressed
+relative to the [[svg/properties/stroke-width|'''stroke-width''']].
+This example only bevels those angles that protrude twice the width:
 
 <div style="display:inline-block">
 [[Image:svg_linejoin_miterlimit.png]]
@@ -186,35 +199,36 @@ protrude twice the width:
  }
 </div>
 
-The '''stroke-dasharray''' property allows you define arbitrary dash
-patterns as a comma-separated list of pixel values. A value of
-''20,10,10,10'' draws a dash 20 pixels long, followed by a gap of 10
-pixels before the following 10-pixel dash, another gap, followed the
-same pattern repeated to the end of the shape:
+The [[svg/properties/stroke-dasharray|'''stroke-dasharray''']]
+property allows you define arbitrary dash patterns as a
+comma-separated list of pixel values. A value of ''20,10,10,10'' draws
+a dash 20 pixels long, followed by a gap of 10 pixels before the
+following 10-pixel dash, another gap, followed the same pattern
+repeated to the end of the shape:
 
 [[Image:svg_stroke_dasharray.png]]
 
  stroke-dasharray: 20,10,10,10;
 
-The '''stroke-dashoffset''' property allows you to shift the number of
-pixels at which the pattern begins.  As the interactive utility shows,
-properties with numeric and color values can be animated and
-transitioned with CSS, allowing for potentially distracting marquee
-effects.
+The [[svg/properties/stroke-dashoffset|'''stroke-dashoffset''']]
+property allows you to shift the number of pixels at which the pattern
+begins.  As the interactive utility shows, properties with numeric and
+color values can be animated and transitioned with CSS, allowing for
+potentially distracting marquee effects.
 
 ==Simple paths==
 
 Paths are complex shapes that may feature discontinuous series of
-lines and curves. The '''path''' element's '''d''' (definition)
-attribute specifies a sequence of commands referencing pairs of
-''x''/''y'' coordinates within the drawing area.
+lines and curves. The [[svg/elements/path|'''path''']] element's
+[[svg/attributes/d|'''d''']] (definition) attribute specifies a
+sequence of commands referencing pairs of ''x''/''y'' coordinates
+within the drawing area.
 
-The following
-[http://letmespellitoutforyou.com/samples/svg_path.html interactive path-building utility]
-allows you to create your own path definitions using all the commands
-detailed below, and see them reflected in SVG code. Choose the command
-you want, then click within the drawing area to provide each set of
-coordinates:
+The following [http://letmespellitoutforyou.com/samples/svg_path.html
+interactive path-building utility] allows you to create your own path
+definitions using all the commands detailed below, and see them
+reflected in SVG code. Choose the command you want, then click within
+the drawing area to provide each set of coordinates:
 
 [[Image:svg_path.png|600px]]
 
@@ -343,7 +357,7 @@ extra control point, again marked red:
 The '''A''' and '''a''' commands specify an ''elliptical arc'', using
 syntax specifying a surprisingly great deal of information:
 
-* A pair of radius measurements defining the ellipse's size and shape, equivalent to the '''ellipse''' element's '''rx''' and '''ry''' attributes.
+* A pair of radius measurements defining the ellipse's size and shape, equivalent to the [[svg/elements/ellipse|'''ellipse''']] element's [[svg/attributes/rx|'''rx''']] and [[svg/attributes/ry|'''ry''']] attributes.
 
 * A measurement indicating the degree to which the ellipse is rotated.
 
@@ -379,10 +393,11 @@ control and destination points:
 ==Markers==
 
 You can attach arrowheads or other graphic objects to paths, lines,
-polylines, and polygon segments. A '''marker''' element encapsulates a
-graphic, and various properties reference it. Here is a typical
-arrowhead, for convenience placed within a '''defs''' region as a
-common definition:
+polylines, and polygon segments. A
+[[svg/elements/marker|'''marker''']] element encapsulates a graphic,
+and various properties reference it. Here is a typical arrowhead, for
+convenience placed within a [[svg/elements/defs|'''defs''']] region as
+a common definition:
 
 <syntaxhighlight lang="xml">
 <defs>
@@ -392,7 +407,7 @@ common definition:
 </defs>
 </syntaxhighlight>
 
-The '''marker''' element does not render unless it is associated with
+The [[svg/elements/marker|'''marker''']] element does not render unless it is associated with
 a path or other line element using various marker-related properties.
 This example places the arrowhead at the end of the last path segment:
 
@@ -400,11 +415,12 @@ This example places the arrowhead at the end of the last path segment:
      marker-end: url(#arrowhead);
  }
 
-Alternately, the '''marker-start''' property places the marker at the
-path's starting point. Setting '''marker-mid''' places the marker at
+Alternately, the [[svg/properties/marker-start|'''marker-start''']]
+property places the marker at the path's starting point. Setting
+[[svg/properties/marker-mid|'''marker-mid''']] places the marker at
 each segment point within the path, including where subpaths
-terminate.  The '''marker''' property places the graphic at ''all''
-these points:
+terminate.  The [[svg/properties/marker|'''marker''']] property places
+the graphic at ''all'' these points:
 
 <div style="display:inline-block">
 [[Image:svg_marker_start.png]]
@@ -423,38 +439,42 @@ these points:
  marker
 </div>
 
-Several '''marker''' element attributes are necessary to place the
-arrowhead correctly over the path. By default, the top left corner of
-the marker graphic is placed over the path or line. Since the graphic
-is a 10-pixel square in this case, the '''refY''' attribute moves the
-point at which it intersects the line down by 5 pixels, in order to
-center it vertically.
+Several [[svg/elements/marker|'''marker''']] element attributes are
+necessary to place the arrowhead correctly over the path. By default,
+the top left corner of the marker graphic is placed over the path or
+line. Since the graphic is a 10-pixel square in this case, the
+'''refY''' attribute moves the point at which it intersects the line
+down by 5 pixels, in order to center it vertically.
 
 The marker graphic also does not rotate by default to match where the
-path or line is pointing. Setting '''orient''' to '''auto''' aligns
-the graphic's horizontal ''x'' axis.  You can also set '''orient''' to
-specific degree values. Note in the '''marker-start''' example above
-that the initial marker may not be oriented as intended, because it's
-not associated with an existing line.
+path or line is pointing. Setting
+[[svg/attributes/orient|'''orient''']] to '''auto''' aligns the
+graphic's horizontal ''x'' axis.  You can also set
+[[svg/attributes/orient|'''orient''']] to specific degree values. Note
+in the [[svg/properties/marker-start|'''marker-start''']] example
+above that the initial marker may not be oriented as intended, because
+it's not associated with an existing line.
 
 <!--
 2DO:
 
-The '''markerWidth''' and '''markerHeight''' attributes set the ...
+The [[svg/attributes/markerWidth|'''markerWidth''']] and
+[[svg/attributes/markerHeight|'''markerHeight''']] attributes set the
+...
 
-* '''markerUnits'''
+* [[svg/attributes/markerUnits|'''markerUnits''']]
 -->
 
 ==Fill rules==
 
 Whenever lines within paths cross each other, and when subpath shapes
 appear as islands within other shapes, it is not immediately obvious
-how such paths might be filled. By default, the '''fill-rule'''
-property is set to '''nonzero''', which errs on the side of filling
-regions based on the direction of each stroke, which as the example
-below shows, may not always be intuitive. Setting it to '''evenodd'''
-prevents regions bordering each other from sharing the same fill
-value.
+how such paths might be filled. By default, the
+[[svg/properties/fill-rule|'''fill-rule''']] property is set to
+'''nonzero''', which errs on the side of filling regions based on the
+direction of each stroke, which as the example below shows, may not
+always be intuitive. Setting it to '''evenodd''' prevents regions
+bordering each other from sharing the same fill value.
 
 <div style="display:inline-block">
 [[Image:svg_fillrule_nonzero.png]]
