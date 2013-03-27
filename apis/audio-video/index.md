@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|HTML5 audio-video elements. Also see "Related articles" below.}}
+{{Summary_Section|HTML5 audio-video elements used for enhancing the Web page experience with audio backgrounds, music, videos, presentations, etc. Also see "Related articles" below.}}
 {{API_Listing}}
 {{Concept_Listing
 |Query=[[Category:Video]][[Category:Audio]][[Category:API_Objects]]
