@@ -958,3 +958,23 @@ attribute. If not, it uses fallback [[svg/elements/text|'''text''']]:
 * [[svg/properties/color|'''color''']], used to provide a potential indirect value (currentColor) for the [[svg/properties/fill|'''fill''']], [[svg/properties/stroke|'''stroke''']], [[svg/properties/stop-color|'''stop-color''']], [[svg/properties/flood-color|'''flood-color''']] and [[svg/properties/lighting-color|'''lighting-color''']] properties. (The SVG properties which support color allow a color specification which is extended from CSS2 to accommodate color definitions in arbitrary color spaces. See Color profile descriptions.)
 
 -->
+
+}}
+{{Notes_Section}}
+{{Compatibility_Section
+|Not_required=Yes
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section
+|Topic_clusters=Filters
+}}
+{{Topics|SVG}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
+}}
