@@ -1,1 +1,0 @@
-#REDIRECT [[Meta:svg/tutorials/smarter svg interaction]]
