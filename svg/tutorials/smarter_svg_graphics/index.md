@@ -374,3 +374,23 @@ Color and Painting properties:
 ==Compositing options==
 
 ...
+
+}}
+{{Notes_Section}}
+{{Compatibility_Section
+|Not_required=Yes
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section
+|Topic_clusters=Filters
+}}
+{{Topics|SVG}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
+}}
