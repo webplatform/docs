@@ -1,6 +1,6 @@
 {{Page_Title|SVG: grand tour}}
 {{Flags
-|Checked_Out=No
+|Checked_Out=Yes
 }}
 {{Byline
 |Name=Mike Sierra
@@ -817,6 +817,7 @@ crisply as possible on high-resolution handsets:
 
 [[Image:scr_svg_css.png]]
 
+<syntaxhighlight lang="css">
  a[href] {
      background-image    : url(img/nav_arrow.svg);
      background-position : center 0 right 10px;
@@ -826,14 +827,17 @@ crisply as possible on high-resolution handsets:
      border-radius       : 0.5em;
      padding             : 0.5em;
  }
+</syntaxhighlight>
 
 As you will see, you can also use URL anchors to reference individual
 component graphics that are collected within an SVG file. This assigns
 a custom bullet shape:
 
+<syntaxhighlight lang="css">
  ul > li {
     list-style-image     : url(img/components.svg#bullet);
  }
+</syntaxhighlight>
 
 Less common in practice, SVG files can be viewed as standalone files,
 perhaps as the target of a navigation. Any SVG file or
@@ -954,22 +958,3 @@ attribute. If not, it uses fallback [[svg/elements/text|'''text''']]:
 * [[svg/properties/color|'''color''']], used to provide a potential indirect value (currentColor) for the [[svg/properties/fill|'''fill''']], [[svg/properties/stroke|'''stroke''']], [[svg/properties/stop-color|'''stop-color''']], [[svg/properties/flood-color|'''flood-color''']] and [[svg/properties/lighting-color|'''lighting-color''']] properties. (The SVG properties which support color allow a color specification which is extended from CSS2 to accommodate color definitions in arbitrary color spaces. See Color profile descriptions.)
 
 -->
-}}
-{{Notes_Section}}
-{{Compatibility_Section
-|Not_required=Yes
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=Animation, Filters, Gradients, Transforms
-}}
-{{Topics|SVG}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
