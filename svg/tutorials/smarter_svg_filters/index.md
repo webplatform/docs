@@ -1,14 +1,13 @@
 {{Page_Title|Smarter SVG: filters}}
 {{Flags
 |High-level issues=Stub
+|Checked_Out=Yes
 |Editorial notes=[new content edited offline by Sierra ([[User:Sierra|Sierra]] ([[User talk:Sierra|talk]])); please do not edit]
 }}
 {{Byline}}
 {{Summary_Section|This guide shows you how to build SVG image processing filters to create interesting visual effects. It shows how to apply these effects within an SVG graphic, or how to apply it to non-SVG content using the [[css/properties/filter|'''filter''']] CSS property.}}
 {{Tutorial
-|Content=
-
-==Applying filters in SVG==
+|Content===Applying filters in SVG==
 
 ==Applying SVG filters with CSS==
 
@@ -62,7 +61,6 @@ Filter Effects properties:
     15.23 Filter primitive 'feTile'
     15.24 Filter primitive 'feTurbulence'
 -->
-
 }}
 {{Notes_Section}}
 {{Compatibility_Section
@@ -72,7 +70,9 @@ Filter Effects properties:
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Topic_clusters=Filters
+}}
 {{Topics|SVG}}
 {{External_Attribution
 |Is_CC-BY-SA=No
