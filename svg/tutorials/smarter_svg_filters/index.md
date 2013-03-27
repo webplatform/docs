@@ -21,11 +21,11 @@
 ==Light sources==
 
 Filter Effects properties:
-* '''enable-background'''
+* [[svg/properties/enable-background|'''enable-background''']]
 * '''filter'''
-* '''flood-color'''
-* '''flood-opacity'''
-* '''lighting-color'''
+* [[svg/properties/flood-color|'''flood-color''']]
+* [[svg/properties/flood-opacity|'''flood-opacity''']]
+* [[svg/properties/lighting-color|'''lighting-color''']]
 
 <!--
  15 Filter Effects
