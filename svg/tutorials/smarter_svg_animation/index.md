@@ -1,14 +1,13 @@
 {{Page_Title|Smarter SVG: animation}}
 {{Flags
 |High-level issues=Stub
+|Checked_Out=Yes
 |Editorial notes=[new content edited offline by Sierra ([[User:Sierra|Sierra]] ([[User talk:Sierra|talk]])); please do not edit]
 }}
 {{Byline}}
 {{Summary_Section|This guide shows you how to integrate SVG's animation features with other techniques available in CSS and JavaScript.}}
 {{Tutorial
-|Content=
-
-<!-- waves -->
+|Content=<!-- waves -->
 
 <!--
  19 Animation
@@ -33,7 +32,6 @@
         19.2.16 The 'animateTransform' element
         19.2.17 Elements, attributes and properties that can be animated
 -->
-
 }}
 {{Notes_Section}}
 {{Compatibility_Section
@@ -43,7 +41,9 @@
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Topic_clusters=Animation
+}}
 {{Topics|SVG}}
 {{External_Attribution
 |Is_CC-BY-SA=No
