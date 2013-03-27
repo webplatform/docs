@@ -1,6 +1,7 @@
-{{Page_Title|overset}}
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Review
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
@@ -45,6 +46,7 @@ appendRegion('mainFlow');
 |Specifications={{Related Specification
 |Name=CSS Regions Module Level 3
 |URL=http://dev.w3.org/csswg/css3-regions/
+|Status=W3C Editor's Draft
 }}
 }}
 {{Compatibility_Section
@@ -115,7 +117,7 @@ appendRegion('mainFlow');
 * Adobe Developer's Network: [http://www.adobe.com/devnet/html5/articles/css3-regions.html CSS3 Regions: Rich page layout with HTML and CSS3]
 * [http://adobe.github.com/web-platform/samples/css-regions Sample pages]
 }}
-{{Topics|API, CSS, CSS-Regions}}
+{{Topics|API, CSS-Regions}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
