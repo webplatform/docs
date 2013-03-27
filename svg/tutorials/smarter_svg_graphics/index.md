@@ -9,8 +9,10 @@
 |Content===Gradients==
 
 SVG's support for gradients is similar to CSS's. Two kinds of gradient
-are available: the '''linearGradient''' and '''radialGradient'''
-elements.  The '''fill''' property uses '''url()''' syntax to
+are available: the
+[[svg/elements/linearGradient|'''linearGradient''']] and
+[[svg/elements/radialGradient|'''radialGradient''']] elements.  The
+[[svg/properties/fill|'''fill''']] property uses '''url()''' syntax to
 reference either kind:
 
 <syntaxhighlight lang="xml">
@@ -30,18 +32,19 @@ the bottom of the shape:
 [[Image:svg_gfx_gradient_linear_bw.png|200px]]
 
 In their simplest form, gradients require at least two nested
-'''stop''' elements to transition between their '''stop-color'''
-properties. The '''offset''' attribute specifies the progression of
-colors, either in percentage or corresponding decimal terms. That
-progression follows the line defined by the '''linearGradient'''
-element's pair of ''x'' and ''y'' coordinates. If '''y1''' were 1 in
-this example, the gradient would shift from the top left to the bottom
-right.
+[[svg/elements/stop|'''stop''']] elements to transition between their
+[[svg/properties/stop-color|'''stop-color''']] properties. The
+[[svg/attributes/offset|'''offset''']] attribute specifies the
+progression of colors, either in percentage or corresponding decimal
+terms. That progression follows the line defined by the
+[[svg/elements/linearGradient|'''linearGradient''']] element's pair of
+''x'' and ''y'' coordinates. If '''y1''' were 1 in this example, the
+gradient would shift from the top left to the bottom right.
 
 This example defines many more colors, progressing from bottom to top.
-Setting '''gradientUnits''' to '''userSpaceOnUse''' makes the
-''x''/''y'' coordinates correspond to specific points within the
-graphic:
+Setting [[svg/attributes/gradientUnits|'''gradientUnits''']] to
+'''userSpaceOnUse''' makes the ''x''/''y'' coordinates correspond to
+specific points within the graphic:
 
 <syntaxhighlight lang="xml">
 <linearGradient
@@ -83,9 +86,11 @@ color defined at the 30% mark is extrapolated towards the center at
 
 [[Image:svg_gfx_gradient_radial.png|200px]]
 
-The '''fx''' and '''fy''' attributes specify coordinates for the
-''focus'' of the gradient, while '''cx''' and '''cy''' set the center
-of the outermost circle.  Modifying the '''r''' (radius) effectively
+The [[svg/attributes/fx|'''fx''']] and [[svg/attributes/fy|'''fy''']]
+attributes specify coordinates for the ''focus'' of the gradient,
+while [[svg/attributes/cx|'''cx''']] and
+[[svg/attributes/cy|'''cy''']] set the center of the outermost circle.
+Modifying the [[svg/attributes/r|'''r''']] (radius) effectively
 resizes the gradient, in this case magnifying it relative to the
 default 0.5 value:
 
@@ -110,9 +115,12 @@ rectangle fits within a 5&times;10 area along with a margin of 1 unit:
 
 [[Image:svg_gfx_tileRect.png|100px]]
 
-The graphic is wrapped within a '''pattern''' element. Its '''width'''
-and '''height''' correspond to the intended size of tile. The '''x'''
-and '''y''' simply specify the pattern's offset starting point.
+The graphic is wrapped within a [[svg/elements/pattern|'''pattern''']]
+element. Its [[svg/attributes/width|'''width''']] and
+[[svg/attributes/height|'''height''']] correspond to the intended size
+of tile. The [[svg/attributes/x|'''x''']] and
+[[svg/attributes/y|'''y''']] simply specify the pattern's offset
+starting point.
 
 <syntaxhighlight lang="xml">
 <pattern
@@ -132,8 +140,9 @@ The units attributes maintain the same fixed coordinate system as for
 the overall graphic, so that units are not interpreted as percentages
 of the filled object's dimensions.
 
-Use the '''fill''' property to apply the pattern, in this case to a
-complex '''path''' shape:
+Use the [[svg/properties/fill|'''fill''']] property to apply the
+pattern, in this case to a complex [[svg/elements/path|'''path''']]
+shape:
 
 <syntaxhighlight lang="xml">
 <path id="headShape" d="M468.054,306.428c0.118,0.623,0.557,0.974,1.042,1.325 ... "/>
@@ -146,8 +155,9 @@ complex '''path''' shape:
 
 [[Image:svg_gfx_pattern_rect.png|300px]]
 
-Increasing the pattern's '''width''' and '''height''' attributes
-allows you control over the tile's margins:
+Increasing the pattern's [[svg/attributes/width|'''width''']] and
+[[svg/attributes/height|'''height''']] attributes allows you control
+over the tile's margins:
 
 [[Image:svg_gfx_pattern_rect_wh.png|300px]]
 
@@ -169,8 +179,8 @@ shape to include black around the margin:
 [[Image:svg_gfx_tileRectBlack.png|100px]]
 
 A ''tileSquare'' object duplicates the underlying graphic and uses a
-'''transform''' to move it below the original to form a 10&times;10
-square:
+[[svg/attributes/transform|'''transform''']] to move it below the
+original to form a 10&times;10 square:
 
 <syntaxhighlight lang="xml">
 <g id="tileSquare">
@@ -232,9 +242,10 @@ increase the pattern's tiling area to accomodate it:
 
 If the pattern is not sized appropriately for the shape, you do not
 have to resize the pattern's dimensions or any of the component tiles.
-The example above specifies a '''patternTransform''' attribute with a
-''scale(1)'' transform that leaves the size unchanged, but increasing
-the value to 1.5 magnifies the pattern:
+The example above specifies a
+[[svg/attributes/patternTransform|'''patternTransform''']] attribute
+with a ''scale(1)'' transform that leaves the size unchanged, but
+increasing the value to 1.5 magnifies the pattern:
 
 [[Image:svg_gfx_pattern_scale.png|300px]]
 
@@ -256,14 +267,16 @@ used for the pattern:
 ==Clipping paths==
 
 Patterns are not necessarily for tiny images. By applying generous
-'''width''' and '''height''' pattern dimensions, you can also use them
-to display a single large graphic behind an irregular shape. Another
-way to do this is to apply a ''clipping path'', which renders a
-graphic only inside the contours of another graphic.
+[[svg/attributes/width|'''width''']] and
+[[svg/attributes/height|'''height''']] pattern dimensions, you can
+also use them to display a single large graphic behind an irregular
+shape. Another way to do this is to apply a ''clipping path'', which
+renders a graphic only inside the contours of another graphic.
 
-Place a '''clipPath''' element around the shape you want to clip the
-graphic with, in this case the '''path''' we saw earlier that defines
-the television screen:
+Place a [[svg/elements/clipPath|'''clipPath''']] element around the
+shape you want to clip the graphic with, in this case the
+[[svg/elements/path|'''path''']] we saw earlier that defines the
+television screen:
 
 <syntaxhighlight lang="xml">
 <clipPath id="screenClip">
@@ -271,8 +284,9 @@ the television screen:
 </clipPath>
 </syntaxhighlight>
 
-When rendering the graphic to clip, use the '''clip-path''' property
-to reference the '''clipPath''' element:
+When rendering the graphic to clip, use the
+[[svg/properties/clip-path|'''clip-path''']] property to reference the
+[[svg/elements/clipPath|'''clipPath''']] element:
 
 <syntaxhighlight lang="xml" highlight="1">
 <use xlink:href="#yeller" clip-path="url(#screenClip)" />
@@ -296,10 +310,10 @@ to reference the '''clipPath''' element:
         14.3.6 Clipping paths, geometry, and pointer events
 
 Other properties for visual media:
-* '''clip''', only applicable to outermost svg element.
-* '''clip-path'''
-* '''clip-rule'''
-* '''overflow''', only applicable to elements which establish a new viewport.
+* [[svg/properties/clip|'''clip''']], only applicable to outermost svg element.
+* [[svg/properties/clip-path|'''clip-path''']]
+* [[svg/properties/clip-rule|'''clip-rule''']]
+* [[svg/properties/overflow|'''overflow''']], only applicable to elements which establish a new viewport.
 
 -->
 
@@ -315,9 +329,9 @@ Other properties for visual media:
     14.4 Masking
     14.5 Object and group opacity: the 'opacity' property
 
-* '''mask'''
+* [[svg/properties/mask|'''mask''']]
 
-* '''stop-opacity'''
+* [[svg/properties/stop-opacity|'''stop-opacity''']]
 
     11.7 Rendering properties
         11.7.1 Color interpolation properties: 'color-interpolation' and 'color-interpolation-filters'
@@ -327,16 +341,16 @@ Other properties for visual media:
         11.7.5 The 'image-rendering' property
     11.8 Inheritance of painting properties
 
-* '''image-rendering'''
-* '''shape-rendering'''
-* '''text-rendering'''
+* [[svg/properties/image-rendering|'''image-rendering''']]
+* [[svg/properties/shape-rendering|'''shape-rendering''']]
+* [[svg/properties/text-rendering|'''text-rendering''']]
 
 Color and Painting properties:
 
-* '''color-interpolation'''
-* '''color-interpolation-filters'''
-* '''color-profile'''
-* '''color-rendering'''
+* [[svg/properties/color-interpolation|'''color-interpolation''']]
+* [[svg/properties/color-interpolation-filters|'''color-interpolation-filters''']]
+* [[svg/properties/color-profile|'''color-profile''']]
+* [[svg/properties/color-rendering|'''color-rendering''']]
 
  11 Painting: Filling, Stroking and Marker Symbols
     11.1 Introduction
@@ -354,7 +368,7 @@ Color and Painting properties:
 
  14 Clipping, Masking and Compositing
     14.2 Simple alpha compositing
-* '''opacity'''
+* [[svg/properties/opacity|'''opacity''']]
 -->
 
 ==Compositing options==
