@@ -1,15 +1,15 @@
-{{Page_Title|SVG: basic shapes and text}}
+{{Page_Title|SVG: basic shapes}}
 {{Flags
 |High-level issues=Stub
-|Checked_Out=No
+|Checked_Out=Yes
 }}
 {{Byline}}
-{{Summary_Section|This guide introduces SVG's basic graphic primitives, from simple lines and shapes to complex polygons and paths.}}
+{{Summary_Section|This guide introduces SVG's basic graphic elements, from simple lines and shapes to complex polygons and freehand paths.}}
 {{Tutorial
 |Content===Simple shapes==
 
 Various SVG elements produce basic shapes, and attributes specify
-their dimensions.
+their dimensions. <!-- XXX -->
 
 Rectangles are defined by their [[svg/attributes/width|'''width''']]
 and [[svg/attributes/height|'''height''']] attributes, while
@@ -50,17 +50,17 @@ This is how these examples appear:
 [[Image:svg_shapes.png]]
 
 This
-[http://letmespellitoutforyou.com/samples/svg_shapes.html interactive shape-building tool]
+[http://letmespellitoutforyou.com/samples/svg_shapes.html interactive shape-building tool]!
 allows you to manipulate various attributes and see how they apply to
 corresponding shapes.  Use it to test lines, polygons, and other CSS
 properties described below.
 
 ==Fill and stroke properties==
 
-By default, shapes have a black fill.  The
+By default, shapes are filled black.  The
 [[svg/properties/fill|'''fill''']] and
 [[svg/properties/stroke|'''stroke''']] properties specify the color of
-the background and the edge of the shape:
+the background and the edge of the shape.
 
 <syntaxhighlight lang="xml">
 <rect fill="pink" stroke="red" x="10" y="10" width="160" height="240"/>
@@ -70,10 +70,12 @@ You can assign these as attributes on SVG elements, but they are
 really CSS properties. For the sake of clarity and best practice, this
 guide expresses SVG properties as CSS selectors:
 
+<syntaxhighlight lang="css">
  rect {
      fill   : pink;
      stroke : red;
  }
+</syntaxhighlight>
 
 Properties specified via CSS override those specified as attributes,
 so this local CSS that colors the [[svg/elements/rect|'''rect''']]
@@ -89,20 +91,22 @@ over the edge of the shape, so increasing its pixel value bleeds the
 [[svg/properties/stroke|'''stroke''']] color both inside and outside
 the shape:
 
+<syntaxhighlight lang="css">
  rect {
      fill         : pink;
      stroke       : red;
      stroke-width : 6;
  }
+</syntaxhighlight>
 
 [[Image:svg_stroke_width.png]]
 
 To apply transparencies, you can set the
 [[svg/properties/fill-opacity|'''fill-opacity''']] and
 [[svg/properties/stroke-opacity|'''stroke-opacity''']] properties, or
-specify [[css/units/color|'''rgba()''' and '''hsla()''']] colors.
-Applying both results in additional transparency:
+specify [[css/units/color|'''rgba()''' and '''hsla()''']] colors:
 
+<syntaxhighlight lang="css">
  rect {
      stroke-width  : 10;
      stroke        : rgba(100%,0%,0%,0.5);
@@ -110,6 +114,7 @@ Applying both results in additional transparency:
      fill          : pink;
      fill-opacity  : 0.5;
  }
+</syntaxhighlight>
 
 [[Image:svg_opacity.png]]
 
@@ -279,8 +284,8 @@ The '''Q''' and '''q''' commands define a ''quadratic'' B&eacute;zier
 curve using one control point coordinate followed by another
 coordinate where the curve segment ends. The '''C''' and '''c'''
 commands use two intervening control points to define a more complex
-''cubic'' B&eacute;zier curve. These examples show where each
-control point falls:
+''cubic'' B&eacute;zier curve. These examples show where each control
+point falls:
 
 <div style="display:inline-block">
 
@@ -373,11 +378,11 @@ impossible to get to the final end point, the ellipse does not render.
 [[Image:svg_arc.png|300px]]
 
 Experiment with the
-[http://letmespellitoutforyou.com/samples/svg_path.html interactive path builder]
-by choosing the '''A''' command and clicking to create new end points.
-The values of the arc radius, rotation, large-arc, and sweep-arc
-controls affect the appearance of the last elliptical arc in the path,
-and apply to newly created arcs.
+[http://letmespellitoutforyou.com/samples/svg_path.html interactive
+path builder] by choosing the '''A''' command and clicking to create
+new end points.  The values of the arc radius, rotation, large-arc,
+and sweep-arc controls affect the appearance of the last elliptical
+arc in the path, and apply to newly created arcs.
 
 This summarizes path syntax, with coordinate pairs required for
 control and destination points:
@@ -407,13 +412,16 @@ a common definition:
 </defs>
 </syntaxhighlight>
 
-The [[svg/elements/marker|'''marker''']] element does not render unless it is associated with
-a path or other line element using various marker-related properties.
-This example places the arrowhead at the end of the last path segment:
+The [[svg/elements/marker|'''marker''']] element does not render
+unless it is associated with a path or other line element using
+various marker-related properties.  This example places the arrowhead
+at the end of the last path segment:
 
+<syntaxhighlight lang="css">
  path.pointer {
      marker-end: url(#arrowhead);
  }
+</syntaxhighlight>
 
 Alternately, the [[svg/properties/marker-start|'''marker-start''']]
 property places the marker at the path's starting point. Setting
@@ -484,20 +492,7 @@ bordering each other from sharing the same fill value.
 [[Image:svg_fillrule_evenodd.png]]
  fill-rule: evenodd;
 </div>
-}}
-{{Notes_Section}}
-{{Compatibility_Section
-|Not_required=Yes
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|SVG}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+
+Note that while these arrows appear to be separate graphics, they are
+actually sub-paths.  The [[svg/properties/fill-rule|'''fill-rule''']]
+property only applies in this case.
