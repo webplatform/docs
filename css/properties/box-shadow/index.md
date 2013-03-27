@@ -66,7 +66,7 @@ Links to descriptions of length and color are in the [[#Remarks]] section, below
 /* box-shadow: left-offset top-offset blur color; */
    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-|LiveURL=http://dabblet.com/gist/4739446
+|LiveURL=http://code.webplatform.org/gist/5259244
 }}{{Single Example
 |Language=CSS
 |Description=An example of inner drop shadows. An inner box-shadow casts a shadow as if everything outside the padding edge were opaque. The inner shadow is drawn inside the padding edge only: it is clipped outside the padding box of the element.
