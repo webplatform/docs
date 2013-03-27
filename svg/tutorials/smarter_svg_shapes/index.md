@@ -417,6 +417,30 @@ control and destination points:
 * '''S'''/'''s''' ''control2'' ''destination'': draws a cubic B&eacute;zier curve to ''destination'' point, shaped by a virtual control point mirroring the most recent control point, and by a second explicit ''control2'' point
 * '''A'''/'''a''' ''radiusX'',''radiusY'' ''rotationAngle'' ''large-arc-flag'' ''sweep-arc-flag'' ''destination'': draws an elliptical arc to ''destination'', if possible, with overall ellipse shaped by ''radiusX'',''radiusY'' and rotated by ''rotationAngle''. The ''large-arc-flag'' prefers the widest-angle arc path, and ''sweep-arc-flag'' specifies the ellipse whose arc path travels clockwise to get to the destination point.
 
+==Fill rules==
+
+Whenever lines within paths cross each other, and when subpath shapes
+appear as islands within other shapes, it is not immediately obvious
+how such paths might be filled. By default, the
+[[svg/properties/fill-rule|'''fill-rule''']] property is set to
+'''nonzero''', which errs on the side of filling regions based on the
+direction of each stroke, which as the example below shows, may not
+always be intuitive. Setting it to '''evenodd''' prevents regions
+bordering each other from sharing the same fill value.
+
+<div style="display:inline-block">
+[[Image:svg_fillrule_nonzero.png]]
+ fill-rule: nonzero;
+</div>
+<div style="display:inline-block">
+[[Image:svg_fillrule_evenodd.png]]
+ fill-rule: evenodd;
+</div>
+
+Note that while these arrows appear to be separate graphics, they are
+actually sub-paths.  The [[svg/properties/fill-rule|'''fill-rule''']]
+property only applies in this case. 
+
 ==Markers==
 
 You can attach arrowheads or other graphic objects to paths, lines,
@@ -494,30 +518,6 @@ The [[svg/attributes/markerWidth|'''markerWidth''']] and
 
 * [[svg/attributes/markerUnits|'''markerUnits''']]
 -->
-
-==Fill rules==
-
-Whenever lines within paths cross each other, and when subpath shapes
-appear as islands within other shapes, it is not immediately obvious
-how such paths might be filled. By default, the
-[[svg/properties/fill-rule|'''fill-rule''']] property is set to
-'''nonzero''', which errs on the side of filling regions based on the
-direction of each stroke, which as the example below shows, may not
-always be intuitive. Setting it to '''evenodd''' prevents regions
-bordering each other from sharing the same fill value.
-
-<div style="display:inline-block">
-[[Image:svg_fillrule_nonzero.png]]
- fill-rule: nonzero;
-</div>
-<div style="display:inline-block">
-[[Image:svg_fillrule_evenodd.png]]
- fill-rule: evenodd;
-</div>
-
-Note that while these arrows appear to be separate graphics, they are
-actually sub-paths.  The [[svg/properties/fill-rule|'''fill-rule''']]
-property only applies in this case. 
 
 }}
 {{Notes_Section}}
