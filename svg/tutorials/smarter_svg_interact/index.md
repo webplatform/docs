@@ -1,14 +1,13 @@
 {{Page_Title|Smarter SVG: interaction}}
 {{Flags
 |High-level issues=Stub
+|Checked_Out=Yes
 |Editorial notes=[new content edited offline by Sierra ([[User:Sierra|Sierra]] ([[User talk:Sierra|talk]])); please do not edit]
 }}
 {{Byline}}
 {{Summary_Section|This guide shows you how to script interaction effects and link content for dynamic effects.}}
 {{Tutorial
-|Content=
-
-==Links==
+|Content===Links==
 
 ==Links within SVG==
 
@@ -82,7 +81,6 @@ Events:
 * '''onbegin'''
 * '''onend'''
 * '''onrepeat'''
-
 }}
 {{Notes_Section}}
 {{Compatibility_Section
