@@ -1,14 +1,13 @@
 {{Page_Title|Smarter SVG: text}}
 {{Flags
 |High-level issues=Stub
+|Checked_Out=Yes
 |Editorial notes=[new content edited offline by Sierra ([[User:Sierra|Sierra]] ([[User talk:Sierra|talk]])); please do not edit]
 }}
 {{Byline}}
 {{Summary_Section|This guide shows how to embed text in your SVG content.}}
 {{Tutorial
-|Content=
-
-==Basic Text==
+|Content===Basic Text==
 
 * x
 * y
@@ -111,7 +110,6 @@ Text properties:
 * '''kerning'''
 * '''text-anchor'''
 * '''writing-mode'''
-
 }}
 {{Notes_Section}}
 {{Compatibility_Section
