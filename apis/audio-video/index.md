@@ -1,10 +1,11 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Review
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|HTML5 audio-video elements.}}
+{{Summary_Section|HTML5 audio-video elements. Also see "Related articles" below.}}
 {{API_Listing}}
 {{Concept_Listing
 |Query=[[Category:Video]][[Category:Audio]][[Category:API_Objects]]
