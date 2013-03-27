@@ -1,6 +1,7 @@
 {{Page_Title|getRegionFlowRanges()}}
 {{Flags
 |High-level issues=Needs Review
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
@@ -49,6 +50,7 @@ Calling it on an element that is no longer a region (when its [[css/properties/f
 |Specifications={{Related Specification
 |Name=CSS Regions Module Level 3
 |URL=http://dev.w3.org/csswg/css3-regions/
+|Status=W3C Editor's Draft
 }}
 }}
 {{Compatibility_Section
