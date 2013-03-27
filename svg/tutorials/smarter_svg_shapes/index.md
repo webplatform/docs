@@ -6,10 +6,12 @@
 {{Byline}}
 {{Summary_Section|This guide introduces SVG's basic graphic elements, from simple lines and shapes to complex polygons and freehand paths.}}
 {{Tutorial
-|Content===Simple shapes==
+|Content=
+
+==Simple shapes==
 
 Various SVG elements produce basic shapes, and attributes specify
-their dimensions. <!-- XXX -->
+their dimensions.
 
 Rectangles are defined by their [[svg/attributes/width|'''width''']]
 and [[svg/attributes/height|'''height''']] attributes, while
