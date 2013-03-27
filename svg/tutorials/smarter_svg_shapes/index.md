@@ -101,24 +101,35 @@ the shape:
  }
 </syntaxhighlight>
 
-[[Image:svg_stroke_width.png]]
-
 To apply transparencies, you can set the
 [[svg/properties/fill-opacity|'''fill-opacity''']] and
-[[svg/properties/stroke-opacity|'''stroke-opacity''']] properties, or
-specify [[css/units/color|'''rgba()''' and '''hsla()''']] colors:
+[[svg/properties/stroke-opacity|'''stroke-opacity''']] properties.
 
 <syntaxhighlight lang="css">
  rect {
-     stroke-width  : 10;
-     stroke        : rgba(100%,0%,0%,0.5);
-     stroke-opacity: 0.5;
-     fill          : pink;
-     fill-opacity  : 0.5;
+     stroke-width   : 10;
+     stroke         : red;
+     stroke-opacity : 0.5;
+     fill           : red;
+     fill-opacity   : 0.25;
  }
 </syntaxhighlight>
 
 [[Image:svg_opacity.png]]
+
+Alternately, you can use [[css/units/color|'''rgba()''' and
+'''hsla()''']] CSS colors to to incorpoarate opacity as part of
+[[svg/properties/fill|'''fill''']] and
+[[svg/properties/stroke|'''stroke''']] property values. The following
+has the same effect as the example above:
+
+<syntaxhighlight lang="css">
+ rect {
+     stroke-width : 10;
+     stroke       : rgba(100%,0%,0%,0.5);
+     fill         : rgba(100%,0%,0%,0.25);
+ }
+</syntaxhighlight>
 
 ==Lines and polygons==
 
@@ -231,11 +242,12 @@ lines and curves. The [[svg/elements/path|'''path''']] element's
 sequence of commands referencing pairs of ''x''/''y'' coordinates
 within the drawing area.
 
-The following [http://letmespellitoutforyou.com/samples/svg_path.html
-interactive path-building utility] allows you to create your own path
-definitions using all the commands detailed below, and see them
-reflected in SVG code. Choose the command you want, then click within
-the drawing area to provide each set of coordinates:
+The following
+[http://letmespellitoutforyou.com/samples/svg_path.html interactive path-building utility]
+allows you to create your own path definitions using all the commands
+detailed below, and see them reflected in SVG code. Choose the command
+you want, then click within the drawing area to provide each set of
+coordinates:
 
 [[Image:svg_path.png|600px]]
 
