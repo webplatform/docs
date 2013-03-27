@@ -266,18 +266,19 @@ bottom-left corner and drawing in a clockwise direction:
 
 The '''z''' command at the end draws a final line to the most recent
 '''M''' coordinate to close off the box. At any point along the path,
-you may use '''M''' to place the drawing point elsewhere to set off
-discontinuous segments known as ''subpaths''.
+you may use '''M''' to place the drawing point elsewhere to create
+discontinuous segments known as ''subpaths'', which may appear
+to be separate objects.
 
 Coordinates and commands can be separated by any combination of commas
 or whitespace characters. (To clarify these examples, commas separate
-each coordinate pair.)
+each ''x,y'' pair.)
 
 The uppercase '''M''' and '''L''' commands above specify absolute
-coordinates.  For all uppercase commands described in this section,
-there are alternative lowercase commands that specify coordinates in
-terms relative to the previously defined coordinate.  Starting from
-the default ''0,0'' origin point, the following path defines the same
+coordinates.  For all uppercase commands described here, there are
+alternative lowercase commands that specify coordinates in terms
+relative to the previously defined coordinate.  Starting from the
+default ''0,0'' origin point, the following path defines the same
 shape as the one above using '''m''' and '''l''' commands:
 
 <syntaxhighlight lang="xml">
@@ -306,6 +307,7 @@ point falls:
 [[Image:svg_quadratic.png]]
 
 <syntaxhighlight lang="xml">
+<!-- quadratic -->
 <path d="M 50,100 Q 180,20 300,130"/>
 </syntaxhighlight>
 
@@ -315,6 +317,7 @@ point falls:
 [[Image:svg_cubic.png]]
 
 <syntaxhighlight lang="xml">
+<!-- cubic -->
 <path d="M 50,120 C 130,50 250,150 280,100"/>
 </syntaxhighlight>
 
@@ -328,6 +331,7 @@ cubic curves, but the second line leaves out the redundant command:
 [[Image:svg_quadratic_poly.png]]
 
 <syntaxhighlight lang="xml">
+<!-- quadratic, chained -->
 <path d="M 50,100 Q 180,20 300,130 Q 320,20 400,50"/>
 <path d="M 50,100 Q 180,20 300,130   320,20 400,50"/>
 </syntaxhighlight>
@@ -335,6 +339,7 @@ cubic curves, but the second line leaves out the redundant command:
 [[Image:svg_cubic_poly.png]]
 
 <syntaxhighlight lang="xml">
+<!-- cubic, chained -->
 <path d="M 50,120 C 130,50 250,150 280,100 C 250,50 450,50 400,100"/>
 <path d="M 50,120 C 130,50 250,150 280,100   250,50 450,50 400,100"/>
 </syntaxhighlight>
@@ -389,25 +394,28 @@ syntax specifying a surprisingly great deal of information:
 If the ellipse's radii is insufficient or if its rotation makes it
 impossible to get to the final end point, the ellipse does not render.
 
+Elliptical arcs are great for drawing parts of clouds and thought
+balloons:
+
 [[Image:svg_arc.png|300px]]
 
 Experiment with the
-[http://letmespellitoutforyou.com/samples/svg_path.html interactive
-path builder] by choosing the '''A''' command and clicking to create
-new end points.  The values of the arc radius, rotation, large-arc,
-and sweep-arc controls affect the appearance of the last elliptical
-arc in the path, and apply to newly created arcs.
+[http://letmespellitoutforyou.com/samples/svg_path.html interactive path builder]
+by choosing the '''A''' command and clicking to create new end points.
+The values of the arc radius, rotation, large-arc, and sweep-arc
+controls affect the appearance of the last elliptical arc in the path,
+and apply to newly created arcs.
 
 This summarizes path syntax, with coordinate pairs required for
 control and destination points:
 
 * '''M'''/'''m''' ''destination'': jumps to ''destination'' point
 * '''L'''/'''l''' ''destination'': draws straight line to ''destination'' point
-* '''Q'''/'''q''' ''control'' ''destination'': draws quadratic B&eacute;zier curve to ''destination'' point, shaped by ''control''
+* '''Q'''/'''q''' ''control'' ''destination'': draws quadratic B&eacute;zier curve to ''destination'' point, shaped by ''control'' point
 * '''T'''/'''t''' ''destination'': draws quadratic curve to ''destination'' point, influenced by virtual control point mirroring most recent control point
 * '''C'''/'''c''' ''control1'' ''control2'' ''destination'': draws a cubic B&eacute;zier curve to ''destination'' point, shaped by two control points
-* '''S'''/'''s''' ''control2'' ''destination'': draws a cubic B&eacute;zier curve to ''destination'' point, shaped by a virtual control point mirroring the most recent control point, and by a second ''control2'' point
-* '''A'''/'''a''' ''radiusX'',''radiusY'' ''rotationAngle'' ''large-arc-flag'' ''sweep-arc-flag'' ''destination'': draws an elliptical arc to ''destination'', if possible, with overall ellipse shaped by ''radiusX'',''radiusY'' and rotated by ''rotationAngle''. The ''large-arc-flag'' prefers the widest-angle arc path, and ''sweep-arc-flag'' specifies the ellipse whose arc path is clockwise.
+* '''S'''/'''s''' ''control2'' ''destination'': draws a cubic B&eacute;zier curve to ''destination'' point, shaped by a virtual control point mirroring the most recent control point, and by a second explicit ''control2'' point
+* '''A'''/'''a''' ''radiusX'',''radiusY'' ''rotationAngle'' ''large-arc-flag'' ''sweep-arc-flag'' ''destination'': draws an elliptical arc to ''destination'', if possible, with overall ellipse shaped by ''radiusX'',''radiusY'' and rotated by ''rotationAngle''. The ''large-arc-flag'' prefers the widest-angle arc path, and ''sweep-arc-flag'' specifies the ellipse whose arc path travels clockwise to get to the destination point.
 
 ==Markers==
 
@@ -509,4 +517,22 @@ bordering each other from sharing the same fill value.
 
 Note that while these arrows appear to be separate graphics, they are
 actually sub-paths.  The [[svg/properties/fill-rule|'''fill-rule''']]
-property only applies in this case.
+property only applies in this case. 
+
+}}
+{{Notes_Section}}
+{{Compatibility_Section
+|Not_required=Yes
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section}}
+{{Topics|SVG}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
+}}
