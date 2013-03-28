@@ -29,9 +29,7 @@
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Topic_clusters=Web Components
-}}
+{{See_Also_Section}}
 {{Topics|API, DOM, Shadow DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
