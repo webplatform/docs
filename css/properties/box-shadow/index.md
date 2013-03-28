@@ -48,8 +48,8 @@ Links to descriptions of length and color are in the [[#Remarks]] section, below
 |Description=An example of a multiple box-shadows. The inner shadow appears on all four sides by creating two box-shadows.
 |Code=&lt;style&gt;<br>
 &nbsp;&nbsp;&nbsp;&nbsp;.shadow-style {<br>
-&nbsp;&nbsp;&nbsp;&nbsp;Width: 100px;<br>
-&nbsp;&nbsp;&nbsp;&nbsp;Height: 100px;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;width: 100px;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;height: 100px;<br>
 &nbsp;&nbsp;&nbsp;&nbsp;box-shadow: inset 30px 30px 5px green, inset -30px -30px 5px blue;<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Border: 10px solid yellow;<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Background-color: red;<br>
