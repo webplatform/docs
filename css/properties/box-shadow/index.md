@@ -59,6 +59,7 @@ Links to descriptions of length and color are in the [[#Remarks]] section, below
 &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;shadow-style&quot;&gt;<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br>
 &lt;/body&gt;
+|LiveURL=http://code.webplatform.org/gist/5259531
 }}{{Single Example
 |Language=CSS
 |Description=An example of a basic Drop Shadow. An outer box-shadow casts a shadow as if the border-box of the element were opaque. The shadow is drawn outside the border edge only: it is clipped inside the border-box of the element.
