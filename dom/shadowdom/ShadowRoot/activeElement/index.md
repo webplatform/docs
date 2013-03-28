@@ -9,6 +9,7 @@
 {{API_Object_Property
 |Property_applies_to=dom/shadowdom/ShadowRoot
 |Read_only=Yes
+|Javascript_data_type=Element
 |Return_value_description=On getting, the attribute must return the currently focused element in the shadow tree or null, if there is none.
 }}
 {{Examples_Section
@@ -20,10 +21,8 @@
 |Specifications=
 }}
 {{Compatibility_Section
-|Not_required=No
-|Imported_tables={{Imported Compatibility Table
-|Page=dom/shadowdom/ShadowRoot
-}}
+|Not_required=Yes
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
