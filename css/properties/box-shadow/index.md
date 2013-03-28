@@ -59,7 +59,9 @@ Links to descriptions of length and color are in the [[#Remarks]] section, below
     &lt;div class=&quot;shadow-style&quot;&gt;
     &lt;/div&gt;
 &lt;/body&gt;
-}}{{Single Example
+}
+|LiveURL=http://code.webplatform.org/gist/5259531
+}{{Single Example
 |Language=CSS
 |Description=An example of a basic Drop Shadow. An outer box-shadow casts a shadow as if the border-box of the element were opaque. The shadow is drawn outside the border edge only: it is clipped inside the border-box of the element.
 |Code=article {
@@ -98,7 +100,7 @@ Links to descriptions of length and color are in the [[#Remarks]] section, below
 /* box-shadow: left-offset top-offset blur spread color; */
    box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.5);
 }
-|LiveURL=http://code.webplatform.org/gist/5259470
+|LiveURL=http://code.webplatform.org/gist/5259501
 }}{{Single Example
 |Language=CSS
 |Description=If the box has a nonzero ‘border-radius’, the shadow shape is rounded in the same way. (The ‘border-image’ does not affect the shape of the box-shadow.)
