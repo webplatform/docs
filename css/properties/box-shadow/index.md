@@ -51,8 +51,8 @@ Links to descriptions of length and color are in the [[#Remarks]] section, below
 &nbsp;&nbsp;&nbsp;&nbsp;width: 100px;<br>
 &nbsp;&nbsp;&nbsp;&nbsp;height: 100px;<br>
 &nbsp;&nbsp;&nbsp;&nbsp;box-shadow: inset 30px 30px 5px green, inset -30px -30px 5px blue;<br>
-&nbsp;&nbsp;&nbsp;&nbsp;Border: 10px solid yellow;<br>
-&nbsp;&nbsp;&nbsp;&nbsp;Background-color: red;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;border: 10px solid yellow;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;background-color: red;<br>
 }<br>
 &lt;/style&gt;<br>
 &lt;body&gt;<br>
