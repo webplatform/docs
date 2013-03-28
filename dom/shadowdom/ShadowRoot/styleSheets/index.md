@@ -9,6 +9,7 @@
 {{API_Object_Property
 |Property_applies_to=dom/shadowdom/ShadowRoot
 |Read_only=No
+|Javascript_data_type=StyleSheetList
 |Return_value_description=On getting, the attribute must return a StyleSheetList sequence containing the shadow root style sheets.
 }}
 {{Examples_Section
