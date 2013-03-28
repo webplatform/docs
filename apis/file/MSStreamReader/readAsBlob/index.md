@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
+|High-level issues=Deletion Candidate, Needs Review
 |Checked_Out=No
 }}
 {{Standardization_Status|Non-Standard}}
