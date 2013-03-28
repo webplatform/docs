@@ -1,14 +1,11 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import, Needs Review
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|High-level issues=Needs Review
 |Checked_Out=No
-|Editorial notes=Change page template to "Property" (event = abort, property = onabort)
 }}
-{{Editorial/Deletion_Candidate|MS proprietary}}
-{{Standardization_Status}}
+{{Standardization_Status|Non-Standard}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Indicates that the read has been aborted (for example, by calling '''abort()''').}}
 {{API_Object_Property
 |Property_applies_to=apis/file/MSStreamReader
 |Read_only=No
@@ -61,3 +58,4 @@ The ''pEvtObj'' parameter is required for the following interfaces:
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
+{{Editorial/Deletion_Candidate|MS proprietary}}
