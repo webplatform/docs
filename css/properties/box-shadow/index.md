@@ -46,7 +46,8 @@ Links to descriptions of length and color are in the [[#Remarks]] section, below
 |Examples={{Single Example
 |Language=HTML
 |Description=An example of a multiple box-shadows. The inner shadow appears on all four sides by creating two box-shadows.
-|Code=&lt;style&gt;
+|Code=article {
+<style>
     .shadow-style {
         Width: 100px;
         Height: 100px;
@@ -54,11 +55,11 @@ Links to descriptions of length and color are in the [[#Remarks]] section, below
         Border: 10px solid yellow;
         Background-color: red;
     }
-&lt;/style&gt;
-&lt;body&gt;
-    &lt;div class=&quot;shadow-style&quot;&gt;
-    &lt;/div&gt;
-&lt;/body&gt;
+</style>
+<body>
+    <div class="shadow-style">
+    </div>
+</body>
 }
 |LiveURL=http://code.webplatform.org/gist/5259531
 }{{Single Example
