@@ -1,5 +1,6 @@
 {{Page_Title}}
 {{Flags
+|High-level issues=Stub
 |Checked_Out=No
 }}
 {{Standardization_Status}}
