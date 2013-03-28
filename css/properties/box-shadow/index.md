@@ -74,7 +74,7 @@ Links to descriptions of length and color are in the [[#Remarks]] section, below
 /* box-shadow: left-offset top-offset blur color; */
    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5) inset;
 }
-|LiveURL=http://dabblet.com/gist/4739547
+|LiveURL=http://code.webplatform.org/gist/5259299
 }}{{Single Example
 |Language=CSS
 |Description=An example of how a positive spread distance length value affects the drop shadow. If a spread distance is defined, the shadow is expanded outward or contracted inward.
@@ -82,7 +82,7 @@ Links to descriptions of length and color are in the [[#Remarks]] section, below
 /* box-shadow: left-offset top-offset blur spread color; */
    box-shadow: 0 0 5px 10px rgba(0, 0, 0, 0.5);
 }
-|LiveURL=http://dabblet.com/gist/4739759
+|LiveURL=http://code.webplatform.org/gist/5259449
 }}{{Single Example
 |Language=CSS
 |Description=Negative values cause the shadow shape to contract.
@@ -90,7 +90,7 @@ Links to descriptions of length and color are in the [[#Remarks]] section, below
 /* box-shadow: left-offset top-offset blur spread color; */
    box-shadow: 0 20px 5px -10px rgba(0, 0, 0, 0.5);
 }
-|LiveURL=http://dabblet.com/gist/4739654
+|LiveURL=http://code.webplatform.org/gist/5259463
 }}{{Single Example
 |Language=CSS
 |Description=If the blur value is zero, the shadow's edge is sharp. (A non-zero blur value indicates that the resulting shadow should be blurred, such as by a Gaussian filter.)
@@ -98,7 +98,7 @@ Links to descriptions of length and color are in the [[#Remarks]] section, below
 /* box-shadow: left-offset top-offset blur spread color; */
    box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.5);
 }
-|LiveURL=http://dabblet.com/gist/4739845
+|LiveURL=http://code.webplatform.org/gist/5259470
 }}{{Single Example
 |Language=CSS
 |Description=If the box has a nonzero ‘border-radius’, the shadow shape is rounded in the same way. (The ‘border-image’ does not affect the shape of the box-shadow.)
@@ -108,7 +108,7 @@ Links to descriptions of length and color are in the [[#Remarks]] section, below
 	
    border-radius: 10px;
 }
-|LiveURL=http://dabblet.com/gist/4740320
+|LiveURL=http://code.webplatform.org/gist/5259470
 }}
 }}
 {{Notes_Section
