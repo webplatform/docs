@@ -1,6 +1,7 @@
 {{Page_Title|display}}
 {{Flags
 |Content=Compatibility Incomplete
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
