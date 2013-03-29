@@ -1,13 +1,15 @@
 {{Page_Title|@region}}
-{{Flags}}
+{{Flags
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Applies CSS styles to portions of content as it appears when flowing within a specified set of ''regions''.}}
 {{CSS_At_Rule
 |Content=The basic syntax is as follows:
 
- @region &amp;lt;region_selector> {
-     &amp;lt;content_selector> {
+ @region &lt;region_selector> {
+     &lt;content_selector> {
          /* ... CSS properties ... */
      }
  }
@@ -75,8 +77,6 @@ Use the [[css/cssom/CSSRegionStyleRule|'''CSSRegionStyleRule''']] interface to a
 * [[css/properties/box-shadow|'''box-shadow''']]
 * [[css/properties/box-decoration-break|'''box-decoration-break''']]
 * [[css/properties/width|'''width''']]
-
-
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
