@@ -9,7 +9,13 @@
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=pvarNS
-|Data type=String
+|Data type=VARIANT
+|Description=The namespace URI that defines the desired elements or an asterisk (*) to match all namespaces with the document.
+|Optional=No
+}}{{Method Parameter
+|Name=bstrLocalName
+|Data type=BSTR
+|Description=The name of the desired element or an asterisk (*) to match all elements with the specified namespace.
 |Optional=No
 }}
 |Method_applies_to=dom/shadowdom/ShadowRoot
@@ -32,7 +38,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics}}
+{{Topics|API, DOM, Shadow DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
