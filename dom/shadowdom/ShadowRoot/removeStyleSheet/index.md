@@ -4,7 +4,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Removes a style sheet from the ShadowRoot's shadow tree.}}
+{{Summary_Section|Removes a style sheet from the ShadowRoot.}}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=dom/shadowdom/ShadowRoot
