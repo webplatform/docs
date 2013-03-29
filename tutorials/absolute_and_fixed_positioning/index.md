@@ -1,7 +1,7 @@
 {{Page_Title|Advanced layouts with absolute and fixed positioning}}
 {{Flags
 |Content=Grammar/Spelling
-|Checked_Out=No
+|Checked_Out=Yes
 }}
 {{Byline}}
 {{Summary_Section|This article covers absolute and fixed positioning.}}
