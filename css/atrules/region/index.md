@@ -16,6 +16,7 @@
 
 The ''region_selector'' specifies a set of region elements. Within that scope, the ''content_selector'' applies to any [[/dom/apis/range|''range'']] of the selected content when it appears within each region. This example produces the following result:
 
+<syntaxhighlight lang="css">
  /* default paragraph text */
  p { color: gray: }
  
@@ -23,6 +24,7 @@ The ''region_selector'' specifies a set of region elements. Within that scope, t
  @region-style #intro {
      p { color: blue; }
  }
+</syntaxhighlight>
 
 [[File:regionRule2.jpeg]]
 }}
