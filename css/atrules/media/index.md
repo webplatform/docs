@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -62,7 +63,28 @@ A media query consists of a media type (''sMediaType'') and zero or more express
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
-|Desktop_rows=
+|Desktop_rows={{Compatibility Table Desktop Row
+|Chrome_supported=Yes
+|Chrome_version=4.0 - 28.0 
+|Chrome_prefixed_supported=Unknown
+|Chrome_prefixed_version=
+|Firefox_supported=Yes
+|Firefox_version=3.5 - 21.0
+|Firefox_prefixed_supported=Unknown
+|Firefox_prefixed_version=
+|Internet_explorer_supported=Yes
+|Internet_explorer_version=9 and 10 
+|Internet_explorer_prefixed_supported=Yes
+|Internet_explorer_prefixed_version=5.5 - 8.0 with polyfill 
+|Opera_supported=Yes
+|Opera_version=9.5 - 12.1 
+|Opera_prefixed_supported=No
+|Opera_prefixed_version=
+|Safari_supported=Yes
+|Safari_version=4.0 - 6.0 
+|Safari_prefixed_supported=Yes
+|Safari_prefixed_version=Partial support for 3.1 and 3.2 
+}}
 |Mobile_rows=
 |Notes_rows=
 }}
