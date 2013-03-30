@@ -99,6 +99,10 @@ border-radius: (horizontal radius values) / [top left] [top right] [bottom right
 |Relevant_changes=Added border-corner-shape to let border-radius specify the size of a number of different corner shapes besides rounded corners.
 }}
 }}
+
+==Can I Use==
+<compatability topic="css" type="property" feature="border-radius">temp</compatability>
+
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
