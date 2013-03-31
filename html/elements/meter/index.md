@@ -32,25 +32,25 @@
 </li>
 <li id="attribute-min"><b>min</b>
 <ul>
-<li>The minimum value of the meter.  This must be less than the <a href="#attribute-max">max</a> attribute value.  If this attribute is not present, it defaults to 0.
+<li>The minimum value of the meter.  This must be less than the [[#attribute-max|max]] attribute value.  If this attribute is not present, it defaults to 0.
 </li>
 </ul>
 </li>
 <li id="attribute-max"><b>max</b>
 <ul>
-<li>The maximum value of the meter.  This must be greater than the <a href="#attribute-min">min</a> attribute value.  If this attribute is not present, it defaults to 1.
+<li>The maximum value of the meter.  This must be greater than the [[#attribute-min|min]] attribute value.  If this attribute is not present, it defaults to 1.
 </li>
 </ul>
 </li>
 <li id="attribute-low"><b>low</b>
 <ul>
-<li>The low value is what is considered a low range for the meter.  In the example of a fundraiser, it may be near the starting value.  This must be greater than the <a href="#attribute-min">min</a> and less than the <a href="#attribute-max">max</a> and <a href="#attribute-high">high</a> values.  If unspecified, it defaults to 0.
+<li>The low value is what is considered a low range for the meter.  In the example of a fundraiser, it may be near the starting value.  This must be greater than the [[#attribute-min|min]] and less than the [[#attribute-max|max]] and [[#attribute-high|high]] values.  If unspecified, it defaults to 0.
 </li>
 </ul>
 </li>
 <li id="attribute-high"><b>high</b>
 <ul>
-<li>The high value is what is considered a high range for the meter.  In the example of a fundraiser, it may be near the goal value.  This must be less than the <a href="#attribute-max">max</a> and greater than the <a href="#attribute-min">min</a> and <a href="#attribute-low">low</a> values.  If unspecified, it defaults to 1.
+<li>The high value is what is considered a high range for the meter.  In the example of a fundraiser, it may be near the goal value.  This must be less than the [[#attribute-max|max]] and greater than the [[#attribute-min|min]] and [[#attribute-low|low]] values.  If unspecified, it defaults to 1.
 </li>
 </ul>
 </li>
