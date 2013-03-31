@@ -1,12 +1,12 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Review
-|Content=Incomplete
-|Checked_Out=Yes
+|Content=Compatibility Incomplete
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|The HTML <code>&lt;meter&gt;</code> element represents a value within a specified range.  This value can be a fraction, percentage, or any other real number.}}
+{{Summary_Section|The HTML <code>&lt;meter&gt;</code> element represents a value within a specified range.  This value can be any real number.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
 |Content=The meter element defines a value between a minimum or maximum.  This can be used for fundraisers, test results, or a number of other things.  It should not be used as a progress bar.  For that, use the [http://docs.webplatform.org/wiki/html/elements/progress progress element].  You should give a description of the meter within the tags, such as <code>&lt;meter min&#61;&quot;0&quot; max&#61;&quot;10&quot; value&#61;&quot;5&quot;&gt;5 out of 10 squares occupied&lt;&#47;meter&gt;</code>.  This meter can also have various attributes on it, such as the optimum, high and low values.
