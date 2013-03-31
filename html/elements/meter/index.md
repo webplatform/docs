@@ -10,7 +10,7 @@
 |Content=The meter element defines a value between a minimum or maximum.
 <b>Attributes:</b>
 <br>
-<small>This element supports the HTML5 <a href="http://docs.webplatform.org/wiki/html/global_attributes">global attributes</a></small>
+<small>This element supports the HTML5 [http://docs.webplatform.org/wiki/html/global_attributes global attributes]</small>
 <ul style="list-style-type: none;">
 <li id="attribute-value"><b>value</b>
 <ul>
