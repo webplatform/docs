@@ -11,16 +11,16 @@
 <b>Attributes:</b>
 <br>
 <small>This element supports the HTML5 [http://docs.webplatform.org/wiki/html/global_attributes global attributes]</small>
-<ul style="list-style-type: none;">
+<ul>
 <li id="attribute-value"><b>value</b>
 <ul>
-<li>The current value of the meter.  If there is no value specified, or if the value is incorrectly formatted, it defaults to 0.  This value must be between the <a href="#attribute-min">min</a> and <a href="#attribute-max">max</a> values of the element.  If not, it will default to the closest available value within the ranges.
+<li>The current value of the meter.  If there is no value specified, or if the value is incorrectly formatted, it defaults to 0.  This value must be between the [[#attribute-min|min]] and [[#attribute-max|max]] values of the element.  If not, it will default to the closest available value within the ranges.
 </li>
 </ul>
 </li>
 <li id="attribute-optimum"><b>optimum</b>
 <ul>
-<li>The optimum, or goal value of the meter.  For example, on a test score, this would be 100.  Or, on a fundraiser, this may be a monetary value.
+<li>The optimum, or goal value of the meter.  For example, on a test score, this would be 100.  Or, on a fundraiser, this may be a monetary value.  This must be below the [[#attribute-max|max]] value and above the [[#attribute-min|min]] value.
 </li>
 </ul>
 </li>
