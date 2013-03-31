@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -34,6 +35,7 @@
 
 &lt;!-- Invoke a JScript function. --&gt;
 &lt;a href{{=}}"javascript:window.open()"&gt;link&lt;/a&gt;
+|LiveURL=http://code.webplatform.org/gist/5281100
 }}
 }}
 {{Notes_Section
