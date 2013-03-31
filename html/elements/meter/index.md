@@ -10,6 +10,7 @@
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
 |Content=The meter element defines a value between a minimum or maximum.
+[[File:meter.png]]
 <b>Attributes:</b>
 <br>
 <small>This element supports the HTML5 [http://docs.webplatform.org/wiki/html/global_attributes global attributes]</small>
