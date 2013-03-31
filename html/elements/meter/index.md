@@ -29,7 +29,7 @@
 </li>
 <li id="attribute-form"><b>form</b>
 <ul>
-<li>This attribute associates the meter with a form.
+<li>This attribute associates the meter with a form.  It is not required, even if the meter is associated with a form.  For example, it could be used with a donation form, and attached to an [http://docs.webplatform.org/wiki/html/elements/input input] of type range or number.
 </li>
 </ul>
 </li>
