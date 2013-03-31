@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Flags, Needs Review
+|High-level issues=Needs Review
 |Content=Incomplete
 |Checked_Out=Yes
 }}
@@ -68,7 +68,7 @@
 }}{{Single Example
 |Language=HTML
 |Description=An example of the meter element using all of its attributes
-|Code=<meter min="0" max="1000" value="500" low="200" high="800" optimum="900">0 raised</meter>
+|Code=<meter min="0" max="1000" value="500" low="200" high="800" optimum="900">&#36;500 raised</meter>
 |LiveURL=http://code.webplatform.org/gist/5281393
 }}
 }}
