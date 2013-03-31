@@ -9,7 +9,7 @@
 {{Summary_Section|The HTML <code>&lt;meter&gt;</code> element represents a value within a specified range.  This value can be a fraction, percentage, or any other real number.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
-|Content=The meter element defines a value between a minimum or maximum.
+|Content=The meter element defines a value between a minimum or maximum.  This can be used for fundraisers, test results, or a number of other things.  You should give a description of the meter within the tags, such as <code>&lt;meter min&#61;&quot;0&quot; max&#61;&quot;10&quot; value&#61;&quot;5&quot;&gt;5 out of 10 squares occupied&lt;meter&gt;</code>
 <b>Attributes:</b>
 <br>
 <small>This element supports the HTML5 [http://docs.webplatform.org/wiki/html/global_attributes global attributes]</small>
