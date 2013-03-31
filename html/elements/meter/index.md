@@ -65,6 +65,11 @@
 |Description=A basic example of the meter element
 |Code=<meter min="0" max="10" value="5">5 out of 10</meter>
 |LiveURL=http://code.webplatform.org/gist/5281236
+}}{{Single Example
+|Language=HTML
+|Description=An example of the meter element using all of its attributes
+|Code=<meter min="0" max="1000" value="500" low="200" high="800" optimum="900">0 raised</meter>
+|LiveURL=http://code.webplatform.org/gist/5281393
 }}
 }}
 {{Notes_Section
