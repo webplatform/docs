@@ -8,6 +8,53 @@
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
 |Content=The meter element defines a value between a minimum or maximum.
+<b>Attributes:</b>
+<br>
+<small>This element supports the HTML5 <a href="http://docs.webplatform.org/wiki/html/global_attributes">global attributes</a></small>
+<ul style="list-style-type: none;">
+<li id="attribute-value"><b>value</b>
+<ul>
+<li>The current value of the meter.  If there is no value specified, or if the value is incorrectly formatted, it defaults to 0.  This value must be between the <a href="#attribute-min">min</a> and <a href="#attribute-max">max</a> values of the element.  If not, it will default to the closest available value within the ranges.
+</li>
+</ul>
+</li>
+<li id="attribute-optimum"><b>optimum</b>
+<ul>
+<li>The optimum, or goal value of the meter.  For example, on a test score, this would be 100.  Or, on a fundraiser, this may be a monetary value.
+</li>
+</ul>
+</li>
+<li id="attribute-form"><b>form</b>
+<ul>
+<li>This attribute associates the meter with a form.
+</li>
+</ul>
+</li>
+<li id="attribute-min"><b>min</b>
+<ul>
+<li>The minimum value of the meter.  This must be less than the <a href="#attribute-max">max</a> attribute value.  If this attribute is not present, it defaults to 0.
+</li>
+</ul>
+</li>
+<li id="attribute-max"><b>max</b>
+<ul>
+<li>The maximum value of the meter.  This must be greater than the <a href="#attribute-min">min</a> attribute value.  If this attribute is not present, it defaults to 1.
+</li>
+</ul>
+</li>
+<li id="attribute-low"><b>low</b>
+<ul>
+<li>The low value is what is considered a low range for the meter.  In the example of a fundraiser, it may be near the starting value.  This must be greater than the <a href="#attribute-min">min</a> and less than the <a href="#attribute-max">max</a> and <a href="#attribute-high">high</a> values.  If unspecified, it defaults to 0.
+</li>
+</ul>
+</li>
+<li id="attribute-high"><b>high</b>
+<ul>
+<li>The high value is what is considered a high range for the meter.  In the example of a fundraiser, it may be near the goal value.  This must be less than the <a href="#attribute-max">max</a> and greater than the <a href="#attribute-min">min</a> and <a href="#attribute-low">low</a> values.  If unspecified, it defaults to 1.
+</li>
+</ul>
+</li>
+</ul>
 }}
 {{Examples_Section
 |Not_required=No
