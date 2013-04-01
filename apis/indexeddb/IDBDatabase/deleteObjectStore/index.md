@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Destroys an object store with the given name as well as all indexes that are referencing that object store.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=name
