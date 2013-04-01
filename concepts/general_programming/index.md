@@ -2,12 +2,13 @@
 {{Flags
 |High-level issues=Needs Topics, Needs Review
 |Content=Incomplete, Examples Needed
+|Checked_Out=No
 }}
 {{Summary_Section|These articles teach basic general programming concepts.}}
 {{Basic Page}}
 * [[concepts/programming/variables in javascript|Variables in JavaScript]]
 * [[concepts/programming/style guides|Style Guides]]
-* How computer works? Gpu/Cpu/Ram/Hard Disk
+* [[concepts/programming/how do computers work|How do computers work?]]
 * What is Programming language and History?
 * Analog vs. digital
 * 
