@@ -22,12 +22,12 @@ In this article, we will cover how to use the first two of these, showing you ho
  
 In computer programming, there are generally two types of errors with code:
  
-* syntactical errors — these errors usually involve an inadvertent mistake that causes the computer to be unable to execute or compile the program properly (e.g. a missing curly brace or parenthesis).
+* syntactic errors — these errors usually involve an inadvertent mistake that causes the computer to be unable to execute or compile the program properly (e.g. a missing curly brace or parenthesis).
 * programming (or logic) errors — these errors arise when the code simply does not reflect the intent of the programmer, or doesn't do exactly what it was meant to do.
  
 With most programming languages, the first error is incredibly easy to spot — your program will just refuse to run or compile until the error is fixed. This makes finding and fixing these types of errors much easier in those general head-scratching moments of “So why isn’t it doing what I want?”
  
-HTML is a markup language rather than a programming language, but syntax errors are also common in markup languages. However, syntax errors in a web page do not commonly cause the web browser to refuse to open the page. This inherent forgiveness in web browsers is one of the biggest reasons for the rapid adoption and spread of the web.
+HTML is a markup language rather than a programming language, but syntactic errors may still exist. However, syntactic errors in a web page do not commonly cause the web browser to refuse to display the page. This inherent forgiveness in web browsers is one of the biggest reasons for the rapid adoption and spread of the web.
  
 [http://www.w3.org/People/Berners-Lee/WorldWideWeb.html The first web browser, WorldWideWeb] (written by Tim Berners-Lee) was also an editor, allowing people to create web pages without learning HTML first. This editor created invalid HTML. This could have been fixed, but it established an important precedent that exists in all web browsers to this day — that allowing people access to the content is more important than complaining about errors to people that won’t understand them or be in a position to fix them.
 
