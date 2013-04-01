@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Creates a structured clone of the value parameter.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=value
