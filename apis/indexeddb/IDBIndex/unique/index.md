@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Provides the unique flag of this index.}}
 {{API_Object_Property
 |Property_applies_to=apis/indexeddb/IDBIndex
 |Read_only=No
@@ -24,7 +24,7 @@
 |Specifications=
 }}
 {{Compatibility_Section
-|Not_required=Yes
+|Not_required=No
 |Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
