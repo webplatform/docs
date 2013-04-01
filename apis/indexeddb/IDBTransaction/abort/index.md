@@ -42,7 +42,7 @@ dbOpenRequest.onsuccess = function (event) {
 |Specifications=
 }}
 {{Compatibility_Section
-|Not_required=Yes
+|Not_required=No
 |Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
