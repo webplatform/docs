@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Returns a list of names of the object stores currently in the connected database.}}
 {{API_Object_Property
 |Property_applies_to=apis/indexeddb/IDBDatabase
 |Read_only=No
