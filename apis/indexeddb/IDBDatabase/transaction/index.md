@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Execute the steps for creating a transaction in a sychronous fashion.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=storeNames
