@@ -26,7 +26,7 @@ The value of that '''result''' property depends on the original request.  For ex
 |Specifications=
 }}
 {{Compatibility_Section
-|Not_required=Yes
+|Not_required=No
 |Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
