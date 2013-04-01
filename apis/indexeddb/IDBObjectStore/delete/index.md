@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Removes a record from the specified Object Store}}
+{{Summary_Section|Removes a record from the specified Object Store.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=key
