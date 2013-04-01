@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The database connection of which this transaction is a part.}}
 {{API_Object_Property
 |Property_applies_to=apis/indexeddb/IDBTransaction
 |Read_only=No
