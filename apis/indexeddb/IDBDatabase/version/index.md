@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Returns the version of the database when this IDBDatabaseSync instance was created.}}
 {{API_Object_Property
 |Property_applies_to=apis/indexeddb/IDBDatabase
 |Read_only=No
