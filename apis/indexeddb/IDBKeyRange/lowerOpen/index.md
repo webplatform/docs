@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Returns false if the lower-bound value is included in the key range. Returns true if the lower-bound value is excluded from the key range.}}
 {{API_Object_Property
 |Property_applies_to=apis/indexeddb/IDBKeyRange
 |Read_only=No
@@ -24,7 +24,7 @@
 |Specifications=
 }}
 {{Compatibility_Section
-|Not_required=Yes
+|Not_required=No
 |Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
