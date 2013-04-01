@@ -37,7 +37,7 @@ The cause of the error depends on the operation that triggered the error; use th
 |Specifications=
 }}
 {{Compatibility_Section
-|Not_required=Yes
+|Not_required=No
 |Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
