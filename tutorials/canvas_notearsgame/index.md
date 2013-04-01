@@ -2,7 +2,7 @@
 {{Flags
 |High-level issues=Needs Flags
 |Content=Grammar/Spelling
-|Checked_Out=No
+|Checked_Out=Yes
 }}
 {{Byline
 |Name=Daniel X Moore
@@ -125,9 +125,9 @@ By binding events, we don't have to worry specifically about key and code combin
 
 ===Player movement===
 
-Because the way JavaScript handles keyboard events is completely event driven, there is no built-in query for checking whether a key is pressed. To address this, we'll create our own query.
+Because the way JavaScript handles keyboard events is completely event-driven, there is no built-in query for checking whether a key is pressed. To address this, we'll create our own query.
 
-Pro Tip: The reason why we don't use an event-driven way of handling keys is because the keyboard repeat rate varies across systems. Since these rates are not bound to the timing of the game loop, gameplay could vary greatly from system to system. To create a consistent experience, it is important to tightly integrate the keyboard event detection with the game loop.
+Pro Tip: The reason we don't use an event-driven way of handling keys is because the keyboard repeat rate varies across systems. Since these rates are not bound to the timing of the game loop, gameplay could vary greatly from system to system. To create a consistent experience, it is important to tightly integrate the keyboard event detection with the game loop.
 
 With the source code, I've included a 16-line JavaScript wrapper called key_status.js that will make event querying available. With this wrapper, you can query the status of a key at any time. For example, you can check <code>keydown.left</code>.
 
