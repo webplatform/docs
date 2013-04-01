@@ -38,7 +38,7 @@ The number of records matching the specified value or "0" if no matches are foun
 |Specifications=
 }}
 {{Compatibility_Section
-|Not_required=Yes
+|Not_required=No
 |Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
