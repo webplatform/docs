@@ -1,12 +1,12 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Stub, Missing Relevant Sections, Needs Review
-|Content=Incomplete
+|Content=Incomplete, Compatibility Incomplete
 |Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Creates a cursor.}}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=apis/indexeddb/IDBIndex
@@ -20,7 +20,7 @@
 |Specifications=
 }}
 {{Compatibility_Section
-|Not_required=Yes
+|Not_required=No
 |Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
