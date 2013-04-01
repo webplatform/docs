@@ -22,7 +22,7 @@ In this article, we will cover how to use the first two of these, showing you ho
  
 In computer programming, there are generally two types of errors with code:
  
-* syntactical errors — these errors usually involve an inadvertent mistake in the code that causes the computer to be unable to execute or compile the program properly (e.g. a missing angle bracket).
+* syntactical errors — these errors usually involve an inadvertent mistake that causes the computer to be unable to execute or compile the program properly (e.g. a missing curly brace or parenthesis).
 * programming (or logic) errors — these errors arise when the code simply does not reflect the intent of the programmer, or doesn't do exactly what it was meant to do.
  
 With most programming languages, the first error is incredibly easy to spot — your program will just refuse to run or compile until the error is fixed. This makes finding and fixing these types of bugs much easier in those general head-scratching moments of “So why isn’t it doing what I want?”
