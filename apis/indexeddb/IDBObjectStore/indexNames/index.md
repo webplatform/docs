@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Provides a list of the names of indexes on objects in this object store.}}
 {{API_Object_Property
 |Property_applies_to=apis/indexeddb/IDBObjectStore
 |Read_only=No
@@ -22,7 +22,7 @@
 |Specifications=
 }}
 {{Compatibility_Section
-|Not_required=Yes
+|Not_required=No
 |Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
