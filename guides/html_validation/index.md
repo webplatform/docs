@@ -1,5 +1,7 @@
 {{Page_Title|HTML validation}}
-{{Flags}}
+{{Flags
+|Checked_Out=No
+}}
 {{Byline}}
 {{Summary_Section|After reading this article, you should be comfortable with the basic idea of validation, and using the online W3C validator to validate your HTML.}}
 {{Guide
@@ -18,14 +20,14 @@ In this article, we will cover how to use the first two of these, showing you ho
 
 == Errors ==
  
-In computer programming, there are broadly speaking two kinds of problems with code:
+In computer programming, there are generally two types of errors with code:
  
-* syntactical errors — these are where a mistake in the writing of the code causes the computer to be unable to execute or compile the program properly.
-* programming (or logic) errors — these are where the code does not completely reflect the intent of the programmer.
+* syntactical errors — these errors usually involve an inadvertent mistake in the code that causes the computer to be unable to execute or compile the program properly (e.g. a missing angle bracket).
+* programming (or logic) errors — these errors arise when the code simply does not reflect the intent of the programmer, or doesn't do exactly what it was meant to do.
  
 With most programming languages, the first error is incredibly easy to spot — your program will just refuse to run or compile until the error is fixed. This makes finding and fixing these types of bugs much easier in those general head-scratching moments of “So why isn’t it doing what I want?”
  
-HTML is not a programming language. Syntax errors in a web page do not commonly cause the web browser to refuse to open the page (although XHTML tends to be a lot stricter than HTML — at least when served as "[[http://www.w3.org/wiki/Doctypes_and_markup_styles#Serving_.22real.22_XML proper XML]]"). This is one of the biggest reasons for the rapid adoption and spread of the web.
+HTML is not a programming language. Syntax errors in a web page do not commonly cause the web browser to refuse to open the page. This forgiveness inherent in web browsers is one of the biggest reasons for the rapid adoption and spread of the web.
  
 [http://www.w3.org/People/Berners-Lee/WorldWideWeb.html The first web browser, WorldWideWeb] (written by Tim Berners-Lee) was also an editor, allowing people to create web pages without learning HTML first. This editor created invalid HTML. This could have been fixed, but it established an important precedent that exists in all web browsers to this day — that allowing people access to the content is more important than complaining about errors to people that won’t understand them or be in a position to fix them.
 
@@ -165,6 +167,7 @@ This is about all there is to it really. You just need to keep your wits about y
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
