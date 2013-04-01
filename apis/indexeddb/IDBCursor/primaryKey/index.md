@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Returns the cursor's current effective key. }}
 {{API_Object_Property
 |Property_applies_to=apis/indexeddb/IDBCursor
 |Read_only=No
