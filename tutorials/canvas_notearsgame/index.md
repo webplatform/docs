@@ -127,7 +127,7 @@ By binding events, we don't have to worry specifically about key and code combin
 
 Because the way JavaScript handles keyboard events is completely event-driven, there is no built-in query for checking whether a key is pressed. To address this, we'll create our own query.
 
-Pro Tip: The reason we don't use an event-driven way of handling keys is because the keyboard repeat rate varies across systems. Since these rates are not bound to the timing of the game loop, gameplay could vary greatly from system to system. To create a consistent experience, it is important to tightly integrate the keyboard event detection with the game loop.
+Pro Tip: We don't use an event-driven way of handling keys because the keyboard repeat rate varies across systems. Since these rates are not bound to the timing of the game loop, gameplay could vary greatly from system to system. To create a consistent experience, it is important to tightly integrate the keyboard event detection with the game loop.
 
 With the source code, I've included a 16-line JavaScript wrapper called key_status.js that will make event querying available. With this wrapper, you can query the status of a key at any time. For example, you can check <code>keydown.left</code>.
 
@@ -270,7 +270,7 @@ The final step is to draw the bullets:
 
 ===Enemies===
 
-Now that we have bullets, let's add enemies to interact with our players.
+Now that we have bullets, let's add enemies to interact with our player.
  
    enemies = [];
  
@@ -340,7 +340,7 @@ Now that we have bullets, let's add enemies to interact with our players.
 
 ==Loading and drawing images==
 
-Now that we have the enemy-player interaction set with box images, let's draw actual players to make this game more interesting. To avoid what is usually a painful experience with loading and drawing images on canvas, we can use a simple utility class.
+Now that we have the enemy-player interaction set with box images, let's draw actual images to make this game more interesting. To avoid what is usually a painful experience with loading and drawing images on canvas, we can use a simple utility class.
 
  
  player.sprite = Sprite("player");
@@ -405,7 +405,7 @@ To check these specific collisions, create a method to handle the collisions whi
    handleCollisions();
  }
 
-Finally, to make the interaction realistic, we'll add the explode() methods to the player and the enemies to remove the players and enemies that have been hit, and to display an explosion graphic.
+Finally, to make the interaction realistic, we'll add the explode() methods to the player and the enemies to remove those that have been hit, and to display an explosion graphic.
 
  
  function Enemy(I) {
