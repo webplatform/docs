@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Returns an IDBIndex representing an index that is part of the object store.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=name
@@ -57,7 +57,7 @@ This method can throw the following [[dom/DOMException|'''DOMException''']] exce
 |Specifications=
 }}
 {{Compatibility_Section
-|Not_required=Yes
+|Not_required=No
 |Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
