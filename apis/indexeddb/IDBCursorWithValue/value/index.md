@@ -27,7 +27,7 @@ Changes to the results of the '''value''' property are visible to the object var
 |Specifications=
 }}
 {{Compatibility_Section
-|Not_required=Yes
+|Not_required=No
 |Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
