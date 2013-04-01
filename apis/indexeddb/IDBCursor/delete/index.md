@@ -1,11 +1,12 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Stub, Needs Review
+|Content=Compatibility Incomplete
 |Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Returns an IDBRequest object, and, in a separate thread, deletes the record at the cursor's position, without changing the cursor's position. Once the record is deleted, the cursor's value is set to null.}}
+{{Summary_Section|Returns an IDBRequest object and, in a separate thread, deletes the record at the cursor's position, without changing the cursor's position. Once the record is deleted, the cursor's value is set to null.}}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=apis/indexeddb/IDBCursor
@@ -19,7 +20,7 @@
 |Specifications=
 }}
 {{Compatibility_Section
-|Not_required=Yes
+|Not_required=No
 |Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
