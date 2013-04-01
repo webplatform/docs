@@ -29,7 +29,7 @@ With most programming languages, the first error is impossible to overlook.  The
  
 HTML is a markup language rather than a programming language, but syntactic errors may still exist. However, syntactic errors in a web page do not commonly cause the web browser to refuse to display the page. This inherent forgiveness in web browsers is one of the biggest reasons for the rapid adoption and spread of the web. Even if the author of the web page forgot to close an HTML tag, the page will still display.
  
-[http://www.w3.org/People/Berners-Lee/WorldWideWeb.html The first web browser, WorldWideWeb] (written by Tim Berners-Lee) was also an editor, allowing people to create web pages without learning HTML first. This editor created invalid HTML. This could have been fixed, but it established an important precedent that exists in all web browsers to this day — that allowing people access to the content is more important than complaining about errors to people that won’t understand them or be in a position to fix them.
+[http://www.w3.org/People/Berners-Lee/WorldWideWeb.html The first web browser, WorldWideWeb] (written by Tim Berners-Lee) was also an editor, allowing people to create web pages without learning HTML first. This editor created invalid HTML, but it established an important precedent that exists in all web browsers to this day — allowing people to access the content is more important than complaining about errors to people that won’t understand them or be in a position to fix them.
 
 == What is validation? ==
  
