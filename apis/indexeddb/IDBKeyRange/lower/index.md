@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|This value is the lower-bound of the key range.}}
 {{API_Object_Property
 |Property_applies_to=apis/indexeddb/IDBKeyRange
 |Read_only=No
@@ -26,7 +26,7 @@ A key range is said to be ''open'' if the lower bound value is included in the r
 |Specifications=
 }}
 {{Compatibility_Section
-|Not_required=Yes
+|Not_required=No
 |Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
