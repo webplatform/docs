@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Stub, Missing Relevant Sections, Needs Review
-|Content=Incomplete
+|Content=Incomplete, Compatibility Incomplete
 |Checked_Out=No
 }}
 {{Standardization_Status}}
