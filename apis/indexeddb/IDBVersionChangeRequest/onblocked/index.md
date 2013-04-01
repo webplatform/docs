@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Review
+|Content=Compatibility Incomplete
 |Checked_Out=No
 }}
 {{Standardization_Status}}
@@ -20,7 +21,7 @@
 |Specifications=
 }}
 {{Compatibility_Section
-|Not_required=Yes
+|Not_required=No
 |Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
