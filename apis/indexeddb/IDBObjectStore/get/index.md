@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Runs the steps for asynchronously executing a request and returns the IDBRequest created by these steps.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=key
@@ -61,7 +61,7 @@ This method can throw the following [[dom/DOMException|'''DOMException''']] exce
 |Specifications=
 }}
 {{Compatibility_Section
-|Not_required=Yes
+|Not_required=No
 |Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
