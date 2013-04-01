@@ -8,7 +8,7 @@
 {{API_Name}}
 {{Summary_Section|The event handler for the blocked event.}}
 {{API_Object_Property
-|Property_applies_to=apis/indexedDB/IDBVersionChangeRequest
+|Property_applies_to=apis/indexeddb/IDBVersionChangeRequest
 |Read_only=No
 |Javascript_data_type=function
 }}
