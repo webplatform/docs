@@ -100,7 +100,7 @@ default 0.5 value:
 
 [[Image:svg_gfx_gradient_radialY.png|200px]]
 
-[http://letmespellitoutforyou.com/samples/img/tv_gradient.svg View the SVG file here].
+[http://letmespellitoutforyou.com/samples/svg/tv_gradient.svg View the SVG file here].
 
 ==Patterns==
 
@@ -262,7 +262,7 @@ used for the pattern:
 [[Image:svg_gfx_pattern_skewrot2.png|300px]]
 </div>
 
-[http://letmespellitoutforyou.com/samples/img/pattern_fill.svg View the SVG file here].
+[http://letmespellitoutforyou.com/samples/svg/pattern_fill.svg View the SVG file here].
 
 ==Clipping paths==
 
@@ -298,7 +298,7 @@ When rendering the graphic to clip, use the
 
 [[Image:svg_gfx_clip.png|200px]]
 
-[http://letmespellitoutforyou.com/samples/img/tv_clip.svg View the SVG file here].
+[http://letmespellitoutforyou.com/samples/svg/tv_clip.svg View the SVG file here].
 
 <!--
     14.3 Clipping paths
