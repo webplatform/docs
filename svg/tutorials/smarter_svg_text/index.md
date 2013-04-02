@@ -1,4 +1,4 @@
-{{Page_Title|Smarter SVG: text}}
+{{Page_Title|SVG text}}
 {{Flags
 |High-level issues=Stub
 |Checked_Out=Yes
