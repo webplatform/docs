@@ -1,4 +1,4 @@
-{{Page_Title|Smarter SVG: animation}}
+{{Page_Title|SVG animation}}
 {{Flags
 |High-level issues=Stub
 |Checked_Out=Yes
