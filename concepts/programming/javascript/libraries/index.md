@@ -2,7 +2,8 @@
 {{Flags
 |High-level issues=Stub, Missing Relevant Sections
 |Content=Not Neutral, Examples Best Practices
-|Editorial notes=Meteor description is not in line with the other library descriptions.
+|Checked_Out=No
+|Editorial notes=Meteor description is not in line with the other library descriptions. These library descriptions are not neutral. They should be rewritten to simply state library attributes (size, date issues, version available, number of users) and features (tempting, architecture, widgets etc.) "Ease of Use" etc. is a subjective claim that does not belong on webplatform.org
 }}
 {{Summary_Section|Introduction to JavaScript libraries}}
 {{Basic Page}}
@@ -70,6 +71,10 @@ This list showcases JavaScript libraries. They're sorted alphabetically. If you 
 |[http://emberjs.com EmberJS]
 | Framework
 |Ember is a JavaScript framework for creating ambitious web applications that eliminates boilerplate and provides a standard application architecture.
+|-
+|[http://sencha.com/products/extjs/ Ext JS]
+| Framework
+|Ext JS is a JavaScript framework for creating business application interfaces, it provides an MVC-style application architecture, a set of standard UI widgets such as grids and trees, a theming and templating system, a charting and drawing library and other utilities for creating rich data-oriented applications.
 |-
 |[http://jquery.com jQuery]
 | Tools and Utilites
