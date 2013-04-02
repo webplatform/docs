@@ -1,8 +1,9 @@
-{{Page_Title|code}}
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Review
+|Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|The WebSocket connection close code provided by the server.}}
 {{API_Object_Property
