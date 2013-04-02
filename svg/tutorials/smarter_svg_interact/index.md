@@ -1,4 +1,4 @@
-{{Page_Title|Smarter SVG: interaction}}
+{{Page_Title|SVG interaction}}
 {{Flags
 |High-level issues=Stub
 |Checked_Out=Yes
