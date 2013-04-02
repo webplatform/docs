@@ -1,4 +1,4 @@
-{{Page_Title|Smarter SVG: filters}}
+{{Page_Title|SVG filters}}
 {{Flags
 |High-level issues=Stub
 |Checked_Out=Yes
