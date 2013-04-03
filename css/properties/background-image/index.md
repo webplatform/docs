@@ -1,5 +1,6 @@
 {{Page_Title|background-image}}
 {{Flags
+|Checked_Out=Yes
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
