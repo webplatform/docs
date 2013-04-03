@@ -840,9 +840,23 @@ function zoomNav(e) {
 
 The last line applies different classes to the
 [[svg/elements/svg|'''svg''']] container, which we'll use to customize
-display of elements for different zoom levels.
+display of the text elements described below for different zoom
+levels.
 
 ==Adding Text==
+
+SVG allows you to mix text with other graphics, but these are simple
+lines of text that do not wrap within a box as in HTML. You ordinarily
+use '''x''' and '''y''' coordinate attributes to position
+[[svg/elements/text|'''text''']] elements directly within a graphic.
+
+This example uses SVG's ability to place text along a path.
+
+[[Image:svgGrandTour_eyeball_textPath.png|200px]]
+
+[[Image:svgGrandTour_eyeball_text.png|200px]]
+
+[[Image:svgGrandTour_eyeball_textRotate.png|200px]]
 
 <syntaxhighlight lang="css">
 text {
@@ -861,8 +875,6 @@ text {
 svg.zoomIn text {
     fill-opacity       : 0.25;
     stroke-opacity     : 0.25;
-    _fill-opacity      : 0.0;
-    _stroke-opacity    : 0.0;
     -webkit-transition : all 2s 2s;
     -moz-transition    : all 2s 2s;
     transition         : all 2s 2s;
@@ -877,7 +889,6 @@ svg.zoomIn text {
     -webkit-transform-origin : center;
     -moz-transform-origin    : center;
     transform-origin         : center;
-    _stroke                  : red;
 }
 
 #irisPath {
@@ -892,6 +903,8 @@ svg.zoomIn text {
     transform                : rotate(20deg);
 }
 </syntaxhighlight>
+
+...
 
 <syntaxhighlight lang="xml">
 <text id="irisLabel">Iris</text>
@@ -913,12 +926,6 @@ svg.zoomIn text {
   </text>
 </g>
 </syntaxhighlight>
-
-[[Image:svgGrandTour_eyeball_textPath.png|200px]]
-
-[[Image:svgGrandTour_eyeball_text.png|200px]]
-
-[[Image:svgGrandTour_eyeball_textRotate.png|200px]]
 
 ...
 
