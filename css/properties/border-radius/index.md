@@ -1,10 +1,10 @@
 {{Page_Title}}
-<compatability topic="css" type="property" feature="border-radius" format="list">test</compatability>
 {{Flags
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
+<compatability topic="css" type="property" feature="border-radius" format="list">test</compatability>
 {{Summary_Section|The border-radius CSS property allows authors to round the corners of an element. The rounding can be different per-corner, and it could have different horizontal and vertical radii, to produce elliptical curves.}}
 {{CSS Property
 |Initial value=0
