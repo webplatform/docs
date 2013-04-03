@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|High-level issues=Needs Review
 |Checked_Out=No
 }}
 {{Standardization_Status}}
