@@ -8,7 +8,7 @@
 {{API_Name}}
 {{Summary_Section|The text-align CSS property describes how inline content like text is aligned in its parent block element. text-align does not control the alignment of block elements itself, only their inline content.}}
 {{CSS Property
-|Initial value=start, or a nameless value that acts as left if direction is ltr, right if direction is rtl if start is not supported by the browser.
+|Initial value=start, or a nameless value that acts as left if direction is ltr, right if direction is rtl, if start is not supported by the browser.
 |Applies to=block containers
 |Inherited=Yes
 |Media=visual
@@ -41,7 +41,7 @@
 |Description=Similar to inherit with the difference that the value ''<code>start</code>'' and ''<code>end</code>'' are calculated according the parent's direction and are replaced by the adequate ''<code>left</code>'' or ''<code>right</code>'' value. '''''Experimental'''
 }}{{CSS Property Value
 |Data Type=start end
-|Description=Specifies ''<code>start</code>'' alignment of the first line and any line immediately after a forced line break; and ''<code>end</code>'' alignment of any remaining lines not affected by [[css/properties/text-align-last|'''text-align-last''']].
+|Description=Specifies ''<code>start</code>'' alignment of the first line and any line immediately after a forced line break; and ''<code>end</code>'' alignment of any remaining lines not affected by [[css/properties/text-align-last|'''text-align-last''']]. '''''Experimental'''
 }}
 }}
 {{Examples_Section
