@@ -26,8 +26,8 @@
 |Examples={{Single Example
 |Language=CSS
 |Description=The following examples use the <code>padding-left</code> property to change the [[css/properties/padding|padding]] of the elements.
-|Code=h1 { padding-right: 5%; }
-p { padding-right: 10px; }
+|Code=h1 { padding-left: 5%; }
+p { padding-left: 10px; }
 }}{{Single Example
 |Language=HTML
 |Code=&lt;h1&gt;Hey there&lt;/h1&gt;
