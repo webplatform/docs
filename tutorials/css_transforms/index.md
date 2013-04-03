@@ -24,7 +24,7 @@
 
 * Combined 3D transforms can be represented with the [[css/functions/matrix3d()|'''matrix3d()''']] function, which uses 16 parameters.
 
-* The [[css/properties/transform-origin|'''transform-origin''']] property controls which point of an element the transform appears to emanate from. Adding a pixel measurement for a third parameter, or for the alternate [[css/properties/transform-origin-z|'''transform-origin-z''']] property, moves the origin point back and forth in 3D space.
+* The [[css/properties/transform-origin|'''transform-origin''']] property controls which point of an element the transform appears to emanate from. Adding a pixel measurement for a third parameter, or for the alternate transform-origin-z property, moves the origin point back and forth in 3D space.
 
 * The [[css/properties/perspective|'''perspective''']] property situates a 3D scene relative to the viewer, with distance measured in pixels. To appear correctly, it must be applied to a transformed element's ancestor.
 
