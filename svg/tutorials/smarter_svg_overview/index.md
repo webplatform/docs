@@ -104,8 +104,9 @@ them from obscuring the smaller ones:
 
 [[Image:svgGrandTour_eyeball_circles.png|100px]]
 
-(See [[svg/tutorials/smarter_svg_shapes|'''SVG shapes''']] for
-more about basic shapes such as circles, ellipses, and rectangles.)
+(See [[svg/tutorials/smarter_svg_shapes|'''SVG shapes''']] for more
+about basic graphic elements such as circles, ellipses, rectangles,
+and polygons.)
 
 ==Styling via CSS==
 
@@ -159,6 +160,9 @@ As you'll see below, there are some cases where you want to avoid
 using style sheets. The examples below show CSS applied as
 presentational attributes.
 
+(See [[svg/tutorials/smarter_svg_deploy|'''SVG deployment''']] for
+different ways to apply CSS.)
+
 ==Applying a gradient==
 
 The concentric circles provide a good way to implement the edge of the
@@ -193,6 +197,10 @@ edge of the circle.  SVG gradients work similarly to CSS gradients
 available for HTML content, but CSS gradients are only available via
 the [[css/properties/background-image|'''background-image''']]
 property, which doesn't apply to SVG.
+
+(See [[svg/tutorials/smarter_svg_graphics|'''SVG graphics''']] for
+details about gradients, and other information on using patterns and
+images.)
 
 ==Referencing graphics==
 
@@ -358,6 +366,9 @@ a [[svg/elements/g|'''g''']] tag around them to consolidate a larger
 semantic ''eye'' object. You can reference the grouped object, and you
 will see below, move or otherwise transform it as a unit.
 
+(See [[svg/tutorials/smarter_svg_graphics|'''SVG graphics''']] for
+more details about clipping paths.)
+
 ==The eyelashes==
 
 Drawing the eyelashes along the eyelid requires a bit of creativity.
@@ -398,6 +409,9 @@ individual eyelashes:
 The beveled [[svg/properties/stroke-linejoin|'''stroke-linejoin''']]
 property prevents the stroke from rendering too far past the sharp
 corner of the eye where the eyelids meet.
+
+(See [[svg/tutorials/smarter_svg_shapes|'''SVG shapes''']] for details
+on various path commands.)
 
 ==Applying eyeliner==
 
@@ -463,6 +477,9 @@ subsequent darkening:
 <div style="display:inline-block">
 [[Image:svgGrandTour_eyeball_eyelid_filters.png||200px]]
 </div>
+
+(See [[svg/tutorials/smarter_svg_filters|'''SVG filters''']] for
+information on various ways to combine SVG's filter effects.)
 
 ==Transforms and coordinate spaces==
 
@@ -544,7 +561,7 @@ svg {
 The solution is to define a custom box using the
 [[svg/attributes/viewBox|'''viewBox''']] attribute.  Doing so declares
 a set of abstract units for exclusive use ''within'' the graphic,
-which may bear no relation to the outer coordinate space n which the
+which may bear no relation to the outer coordinate space in which the
 graphic is presented, to which the SVG's
 [[svg/attributes/width|'''width''']] and
 [[svg/attributes/height|'''height''']] apply:
@@ -688,6 +705,9 @@ we've seen used to reference objects, now we see a third form of dot
 syntax that references the ''glanceStart'' identifier along with the
 value of its [[svg/attributes/end|'''end''']] attribute.
 
+(See [[svg/tutorials/smarter_svg_filters|'''SVG animations''']] for
+details.)
+
 ==Blinking==
 
 As is true for CSS transitions and animations, you can animate most
@@ -777,6 +797,9 @@ the [[svg/elements/svg|'''svg''']] of which it is a descendant, thus
 zooming the scene:
 
 [[Image:svgGrandTour_eyeball_zoom.png|200px]]
+
+(See [[svg/tutorials/smarter_svg_filters|'''SVG interaction''']] for
+details.)
 
 ==Animated Zoom==
 
@@ -953,6 +976,9 @@ svg.zoomIn text {
     transition         : all 2s 2s;    -webkit-transition : all 2s 2s;    -moz-transition    : all 2s 2s;
 }
 </syntaxhighlight>
+
+(See [[svg/tutorials/smarter_svg_text|'''SVG text''']] for details on
+text properties.)
 
 Enough?
 
