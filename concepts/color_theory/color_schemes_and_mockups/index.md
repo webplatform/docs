@@ -2,7 +2,7 @@
 {{Flags
 |High-level issues=Unreviewed Import
 |Content=Outdated, Broken Links
-|Checked_Out=Yes
+|Checked_Out=No
 |Editorial notes=This text appears exactly as it is, i.e. coming from an external source. Try to wikify it.
 }}
 {{API_Name}}
