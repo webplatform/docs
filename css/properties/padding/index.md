@@ -1,10 +1,17 @@
 {{Page_Title}}
 {{Flags
+|Content=Broken Links, Examples Best Practices
 |Checked_Out=Yes
+|Editorial notes=for padding-* :
+ fix length reference; add percentage reference
+ create live examples from sample code
+  cut/paste samples to new dabblet
+  validate examples work; paste links below
+ remove ===Syntax=== vestige from conversion
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|The <code>padding</code> CSS property sets the required padding space on all sides of an element. The padding area is the space between the content of the element and its border. Negative values are not allowed.
+{{Summary_Section|The <code>padding</code> CSS property sets the required padding space on all sides of an element. The padding area is the space between the content of the element and its border. Negative values are not allowed.  The element size is treated as fixed, and the content shrinks toward the center as padding is increased.
 
 The <code>padding</code> property is a shorthand to avoid setting each side separately ([[css/properties/padding-top|padding-top]], [[css/properties/padding-right|padding-right]], [[css/properties/padding-bottom|padding-bottom]], [[css/properties/padding-left|padding-left]]).
 }}
@@ -70,7 +77,7 @@ Element layout is set by providing a value for the [[css/properties/height|'''he
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=Box Model, Transistions
+|Topic_clusters=CSS Layout, Box Model
 }}
 {{Topics|CSS}}
 {{External_Attribution
