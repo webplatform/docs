@@ -15,9 +15,9 @@ Note that this article does not contain code syntax examples showing how to impl
 
 When it comes to typography on web, the old adage “less is more” very much proves the point.  In general, limiting only one or two font families in a single site result in a cleaner look.  You can develop the look and feel, and styling of text and headlines by adjusting font size, thickness (bold, semi-bold, etc), italicizing, kerning and spacing instead of using variety of type faces.  An important point to remember is the organization of hierarchy of information.  For example, using larger size and bold of font style for the headline and then smaller size of same font style for subheading, then using book or regular font for the main text and so forth.  In another word, make a clean delineation of information with sizes and boldness of same typeface for consistency rather than employing different type faces.
  
-Limitations of web typography include:
+Limitations of typography on the web to consider:
 
-* A reduced selection of fonts
+* A limited selection of fonts
 * No hyphenation, making full justification look ugly when a column of text gets narrow
 * Poor control over kerning (ie, the spacing between the letters)
 * A lack of control over how the work is viewed—designers must account for a wide variety of screen sizes, resolutions and environments
