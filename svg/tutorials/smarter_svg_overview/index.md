@@ -802,7 +802,10 @@ zoom level after the animation ends:
 </a>
 </syntaxhighlight>
 
-...
+This JavaScript calls '''preventDefault()''' to disable default
+navigation for ''zoom''-classed links. Instead, it executes the
+animation modified based on the target's
+[[svg/attributes/viewBox|'''viewBox''']]:
 
 <syntaxhighlight lang="javascript">
 var animate, svg; // corresponds to SVG elements
@@ -814,7 +817,6 @@ window.onload = function() {
     animate.setAttribute('dur', duration);
     animate.setAttribute('from', svg.getAttribute('viewBox'));
     animate.setAttribute('to', svg.getAttribute('viewBox'));
-    // relies on links classed 'zoom':
     var links = document.querySelectorAll('a.zoom');
     for (var i = 0, l = links.length; i < l; i++) {
         // replace default navigation:
@@ -826,12 +828,13 @@ window.onload = function() {
 function zoomNav(e) {
     var hash = e.currentTarget.getAttribute('xlink:href');
     var tgt = document.querySelector(hash);
-    // swap to/from values
+    // swap to/from values:
     animate.setAttribute('from', animate.getAttribute('to'));
     animate.setAttribute('to', tgt.getAttribute('viewBox'));
-    // execute animation
+    // execute animation:
     animate.beginElement();
-    svg.classList.toggle(hash.replace(/#/,''));
+    // use CSS to customize display within each zoom level:
+    svg.className = hash.replace(/#/,'');
 }
 </syntaxhighlight>
 
