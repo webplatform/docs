@@ -849,14 +849,59 @@ SVG allows you to mix text with other graphics, but these are simple
 lines of text that do not wrap within a box as in HTML. You ordinarily
 use '''x''' and '''y''' coordinate attributes to position
 [[svg/elements/text|'''text''']] elements directly within a graphic.
+This example relies on SVG's characteristic ability to place text
+along a path:
 
-This example uses SVG's ability to place text along a path.
+[[Image:svgGrandTour_eyeball_textRotate.png|200px]]
+
+
+
+The path appears to be a circle
+
+<syntaxhighlight lang="xml">
+<path id="irisPath" d="M 60,100 A 40,40 0 0 1 140,100 A 40,40 0 0 1 60,100 "/>
+<path id="pupilPath" d="M 78,100 A 22,22 0 0 1 122,100 A 22,22 0 0 1 78,100"/>
+</syntaxhighlight>
 
 [[Image:svgGrandTour_eyeball_textPath.png|200px]]
 
+We'll add a reference to a ''labels'' object along with other eyeball
+components:
+
+<syntaxhighlight lang="xml">
+<g id="eye">
+  <use xlink:href="#eyelids" class="eyelashes" />
+  <use xlink:href="#eyelids" class="eyelids"   />
+  <use xlink:href="#eyeball" class="eyeball"   />
+  <use xlink:href="#labels"/>
+</g>
+</syntaxhighlight>
+
+
+
+
+<syntaxhighlight lang="xml">
+<text id="irisLabel">Iris</text>
+<text id="pupilLabel">Pupil</text>
+
+<g id="labels">
+  <text>
+    <textPath xlink:href="#irisPath">
+      <tref xlink:href="#irisLabel"/>
+    </textPath>
+  </text>
+  <text>
+    <textPath xlink:href="#pupilPath">
+      <tref xlink:href="#pupilLabel"/>
+    </textPath>
+  </text>
+</g>
+</syntaxhighlight>
+
+
+
 [[Image:svgGrandTour_eyeball_text.png|200px]]
 
-[[Image:svgGrandTour_eyeball_textRotate.png|200px]]
 
 <syntaxhighlight lang="css">
 text {
@@ -904,28 +949,8 @@ svg.zoomIn text {
 }
 </syntaxhighlight>
 
-...
 
-<syntaxhighlight lang="xml">
-<text id="irisLabel">Iris</text>
-<text id="pupilLabel">Pupil</text>
 
-<path id="irisPath" d="M 60,100 A 40,40 0 0 1 140,100 A 40,40 0 0 1 60,100 "/>
-<path id="pupilPath" d="M 78,100 A 22,22 0 0 1 122,100 A 22,22 0 0 1 78,100"/>
-
-<g id="labels">
-  <text>
-    <textPath xlink:href="#irisPath">
-      <tref xlink:href="#irisLabel"/>
-    </textPath>
-  </text>
-  <text>
-    <textPath xlink:href="#pupilPath">
-      <tref xlink:href="#pupilLabel"/>
-    </textPath>
-  </text>
-</g>
-</syntaxhighlight>
 
 ...
 
