@@ -2,14 +2,20 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|This is referred to as an adjacent selector. It will select only the element that is immediately preceded by the former element.}}
 {{CSS_Selector}}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|Description=li + li {
+  border-left: 1px solid #333;
+}
+}}
 }}
 {{Notes_Section
 |Notes====Remarks===
@@ -31,25 +37,23 @@ A selector of the form "E+F" matches element F when it immediately follows sibli
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Unknown
-|Chrome_version=
+|Chrome_supported=Yes
 |Chrome_prefixed_supported=Unknown
 |Chrome_prefixed_version=
-|Firefox_supported=Unknown
-|Firefox_version=
+|Firefox_supported=Yes
 |Firefox_prefixed_supported=Unknown
 |Firefox_prefixed_version=
-|Internet_explorer_supported=Unknown
-|Internet_explorer_version=
+|Internet_explorer_supported=Yes
+|Internet_explorer_version=7.0
 |Internet_explorer_prefixed_supported=Unknown
 |Internet_explorer_prefixed_version=
 |Opera_supported=Yes
 |Opera_version=7+
 |Opera_prefixed_supported=Unknown
 |Opera_prefixed_version=
-|Safari_supported=Unknown
-|Safari_version=
+|Safari_supported=Yes
 |Safari_prefixed_supported=Unknown
 |Safari_prefixed_version=
 }}
