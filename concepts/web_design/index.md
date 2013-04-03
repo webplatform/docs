@@ -1,5 +1,9 @@
 {{Page_Title|Web design concepts}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Flags
+|Content=Incomplete, Cleanup, Broken Links, Examples Needed, Examples Best Practices, Needs Summary
+|Checked_Out=No
+}}
 {{Summary_Section|This page lists pages that cover theory related to web design, along the lines of digital/graphic design.}}
 {{Basic Page}}
 * [[concepts/IntrotoArt|Introduction to Art & Graphic Design]]
