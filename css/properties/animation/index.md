@@ -2,10 +2,11 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Examples Best Practices
+|Checked_Out=Yes
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|The CSS3 Animation module describes a way for authors to animate CSS properties over time. }}
+{{Summary_Section|The CSS3 Animation module describes a way for authors to animate CSS properties over time.}}
 {{CSS Property
 |Initial value=(see individual properties)
 |Applies to=all elements, :before and :after pseudo elements.
