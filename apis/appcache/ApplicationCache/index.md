@@ -72,7 +72,7 @@ Also, web resources can be specified to only be loaded from the network. This is
 '''ApplicationCache''' functionality is independent of HTTP caching headers.
 The manifest file implicitly includes itself as a page to be cached. It also needs to have the same domain of origin as the page that contains it.
 |Notes==== Limitations ===
-Although the [http://www.whatwg.org/specs/web-apps/current-work/multipage/offline.html specification] does not indicate any limit on the cache size, [http://www.browserscope.org/user/tests/table/agt1YS1wcm9maWxlcnINCxIEVGVzdBjwwK0RDA?v=3&layout=simple browsers may nonetheless implement such limits].
+The [http://www.whatwg.org/specs/web-apps/current-work/multipage/offline.html specification] states that browsers "should consider applying constraints on disk usage". [http://www.browserscope.org/user/tests/table/agt1YS1wcm9maWxlcnINCxIEVGVzdBjwwK0RDA?v=3&layout=simple The disk usage constraints vary across browsers.]
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
