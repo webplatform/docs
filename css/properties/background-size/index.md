@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
@@ -45,7 +46,7 @@ background-size: 3em
 background-size: 12px
 background-size: auto
 
-/* Two-value syntax: the first value defines the width fo the image, the second its height */
+/* Two-value syntax: the first value defines the width of the image, the second its height */
 background-size: 50% auto
 background-size: 3em 25%
 background-size: auto 6px
