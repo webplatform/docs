@@ -36,7 +36,7 @@
 &lt;!-- Invoke a JScript function. --&gt;
 &lt;a href{{=}}"javascript:window.open()"&gt;link&lt;/a&gt;
 
-&lt;!-- Link to a document and use the ''rel'' element to specify that the linked document serves as the current document's license. --&gt;
+&lt;!-- Links to a document and uses the ''rel'' attribute to add semantics to the link. --&gt;
 &lt;a href{{=}}"http://creativecommons.org/licenses/by/3.0/" rel{{=}}"license"&gt;cc by 3.0&lt;/a&gt;
 |LiveURL=http://code.webplatform.org/gist/5281100
 }}
