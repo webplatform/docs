@@ -1,14 +1,11 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Merge Candidate
-|Checked_Out=No
+|Checked_Out=Yes
 |Editorial notes=http://docs.webplatform.org/wiki/concepts/accessibility/accessibility_basics
 }}
 {{Byline}}
-{{Summary_Section|"Accessibility is most often used to describe facilities or amenities to assist people with disabilities, as in "wheelchair accessible". This can extend to Braille signage, wheelchair ramps, audio signals at pedestrian crossings, walkway contours, website design, and so on."
-
-"The Web is fundamentally designed to work for all people, whatever their hardware, software, language, culture, location, or physical or mental ability. When the Web meets this goal, it is accessible to people with a diverse range of hearing, movement, sight, and cognitive ability."
-}}
+{{Summary_Section|This page refers to the inclusive practice of making websites usable by people of all abilities and disabilities.}}
 {{Tutorial}}
 {{Notes_Section}}
 {{Compatibility_Section
@@ -22,8 +19,7 @@
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MDN
-|MDN_link=https://developer.mozilla.org/en-US/docs/Accessibility
+|MDN_link=
 |MSDN_link=
 |HTML5Rocks_link=
 }}
