@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|Content=Broken Links, Compatibility Incomplete, Examples Best Practices
+|Content=Compatibility Incomplete
 |Checked_Out=No
 }}
 {{Standardization_Status|Non-Standard}}
@@ -51,7 +51,7 @@
 {{Notes_Section
 |Usage====Usage===
 * Often used to manipulate sprites (i.e. a technique of using CSS to expose small portions of a single background image, which is composed of multiple smaller images, such that HTTP requests are reduced).
-* If browser support is of utmost importance, use [[background-position]] instead.
+* If browser support is of utmost importance, use [http://docs.webplatform.org/wiki/css/properties/background-position background-position] instead.
 |Notes====Remarks===
 * Windows Internet Explorer 8. The '''-ms-background-position-x''' attribute is an extension to CSS, and can be used as a synonym for '''background-position-x''' in IE8 Standards mode.
 
@@ -93,13 +93,13 @@ There are no standards that apply here.
 }}
 {{See_Also_Section
 |Topic_clusters=Background
-|Manual_sections====Related pages (MSDN)===
+|Manual_sections====Related pages===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
 *<code>[[dom/defaultSelected|defaults]]</code>
 *<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
 *<code>[[css/cssom/style|style]]</code>
-*<code>[[css/properties/background-position-y|-ms-background-position-y]]</code>
+*<code>[[css/properties/background-position-y|background-position-y]]</code>
 }}
 {{Topics|CSS}}
 {{External_Attribution
