@@ -1,4 +1,5 @@
 {{Page_Title}}
+<compatability topic="css" type="property" feature="border-radius" format="list">test</compatability>
 {{Flags
 |Checked_Out=No
 }}
