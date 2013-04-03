@@ -11,13 +11,15 @@ Graphic design, in general, is a creative process of organizing visual and/or ty
 
 In designing for the web today, interactivity plays a large part and using an existing static design elements and new web design endeavor must take this into account.  The interactivity delivers [http://www.uxmatters.com/glossary/ user experience (UX)] which, if well designed, can enrich user's experience on the site with intuitive navigation, easy accessibility to target information, brand experience among other things.
 
-
+Some of the tools, elements and things that are used and considered in graphic designs are:
 
 
 *Typography
+*Negative space
 *Color
 *Line
 *Shape
+*Photograhy
 *Spacing
 *Positioning
 *Mass
@@ -27,13 +29,11 @@ In designing for the web today, interactivity plays a large part and using an ex
 *Consistency
 *Contrast
 *Movement
-*rhytm/toneOfmessage/Theme
-*harmony/complimentSameMessage
+*rhytm/tone Of message/Theme
 *varitey/richness
 *proportion
 
 
-Your job as a graphic designer here is to manipulate & add/remove these elements to guide, compliment, provide, and please(i.e. make it fun) the user.
 }}
 {{Examples_Section
 |Not_required=No
@@ -46,7 +46,7 @@ Your job as a graphic designer here is to manipulate & add/remove these elements
 {{See_Also_Section
 |External_links=* [http://www.aiga.org/inspiration/ American Institution of Graphic Arts (AIGA)]
 }}
-{{Topics}}
+{{Topics|UI, Usability}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
