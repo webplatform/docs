@@ -6,7 +6,7 @@
 {{Basic Page}}
 ==Fundamentals==
 * [[tutorials/web_programming_essentials|Web programming essentials]]
-* [[tutorials/information_architecture/Planning_out_a_website]]
+* [[tutorials/information_architecture/Planning_out_a_website|Planning out a website]]
 * [[tutorials/Testing_web_apps|Testing web apps]]
 * [[html/tutorials|HTML]]
 * [[css/tutorials|CSS]]
