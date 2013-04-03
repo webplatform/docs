@@ -72,10 +72,7 @@ Also, web resources can be specified to only be loaded from the network. This is
 '''ApplicationCache''' functionality is independent of HTTP caching headers.
 The manifest file implicitly includes itself as a page to be cached. It also needs to have the same domain of origin as the page that contains it.
 |Notes==== Limitations ===
-A browser can not allocate unlimited disk space for resources that should be cached. Especially when caching large files such as videos, you should check if the user's browser is able to store that file:
-
-* '''[http://www.browserscope.org/user/tests/table/agt1YS1wcm9maWxlcnINCxIEVGVzdBjwwK0RDA?v=3&layout=simple Available ApplicationCache sizes for different browser versions]'''
-* [http://www.der-schepp.de/appcache-default-size/ Run the test in your own browser]
+Although the [http://www.whatwg.org/specs/web-apps/current-work/multipage/offline.html specification] does not indicate any limit on the cache size, [http://www.browserscope.org/user/tests/table/agt1YS1wcm9maWxlcnINCxIEVGVzdBjwwK0RDA?v=3&layout=simple browsers may nonetheless implement such limits].
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
