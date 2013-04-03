@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Review
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -10,7 +11,13 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|Description=This is the CSS.
+See the [http://code.webplatform.org/ live example]
+|Code=dfadadf ad
+|LiveURL=See the [http://code.webplatform.org/ live example]
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
