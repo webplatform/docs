@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page_Title|Definition of OAuth}}
 {{Flags
 |High-level issues=Stub, Undescriptive Title, Needs Flags, Needs Topics
 |Checked_Out=Yes
