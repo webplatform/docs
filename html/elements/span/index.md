@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Unreviewed Import
-|Content=Incomplete, Cleanup, Compatibility Incomplete
+|Content=Incomplete, Cleanup
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
@@ -771,11 +771,41 @@ This property is not supported for Metro style apps using JavaScript.
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
+|Desktop_rows={{Compatibility Table Desktop Row
+|Chrome_supported=Yes
+|Chrome_prefixed_supported=Yes
+|Firefox_supported=Yes
+|Firefox_prefixed_supported=Yes
+|Internet_explorer_supported=Yes
+|Internet_explorer_prefixed_supported=Yes
+|Opera_supported=Yes
+|Opera_prefixed_supported=Yes
+|Safari_supported=Yes
+|Safari_prefixed_supported=Yes
+}}
+|Mobile_rows={{Compatibility Table Mobile Row
+|Android_supported=Yes
+|Android_prefixed_supported=Yes
+|Blackberry_supported=Yes
+|Blackberry_prefixed_supported=Yes
+|Chrome_mobile_supported=Yes
+|Chrome_mobile_prefixed_supported=Yes
+|Firefox_mobile_supported=Yes
+|Firefox_mobile_prefixed_supported=Yes
+|IE_mobile_supported=Yes
+|IE_mobile_prefixed_supported=Yes
+|Opera_mobile_supported=Yes
+|Opera_mobile_prefixed_supported=Yes
+|Opera_mini_supported=Yes
+|Opera_mini_prefixed_supported=Yes
+|Safari_mobile_supported=Yes
+|Safari_mobile_prefixed_supported=Yes
+}}
 |Notes_rows=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Topic_clusters=HTML
+}}
 {{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
