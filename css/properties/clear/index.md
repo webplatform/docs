@@ -27,6 +27,9 @@
 }}{{CSS Property Value
 |Data Type=both
 |Description=Requires that the top border edge of the box be below the bottom outer edge of any right-floating and left-floating boxes that resulted from elements earlier in the source document.
+}}{{CSS Property Value
+|Data Type=inherit
+|Description=Takes the same specified value as the property for the element's parent.
 }}
 }}
 {{Examples_Section
