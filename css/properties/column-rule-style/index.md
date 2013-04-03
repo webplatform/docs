@@ -1,9 +1,8 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|Specifies the style of the rule between columns.}}
 {{CSS Property
@@ -49,11 +48,32 @@ Border is the same as inset, but is surrounded by an additional single line, dra
 |Description=Internet Explorer 8.
 
 Same as <code>none</code>, except in terms of conflict resolution of collapsed borders. Any element with a <code>hidden</code> border suppresses all shared borders at that location. Borders with a style of <code>none</code> have the lowest priority.
-}}
+}}{{CSS Property Value}}
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Description=Uses the column-rule attribute to set multiple attributes at the same time. The column-rule attribute is a shorthand for
+
+column-rule-width = 4px
+column-rule-style = solid
+column-rule-color = green
+
+|Code=#column3 {
+  column-width: 15em;
+  column-gap: 2em;
+/*
+The column-rule attribute is a shorthand for
+
+column-rule-width = 4px
+column-rule-style = solid
+column-rule-color = green
+*/
+  column-rule: 4px solid green;
+  padding: 5px;
+}
+|LiveURL=http://code.webplatform.org/gist/5305898
+}}
 }}
 {{Notes_Section
 |Import_Notes====Syntax===
