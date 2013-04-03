@@ -4,7 +4,7 @@
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-<compatability topic="css" type="property" feature="border-radius" format="list">test</compatability>
+<compatability topic="css" type="property" feature="border-radius" format="list"></compatability>
 {{Summary_Section|The border-radius CSS property allows authors to round the corners of an element. The rounding can be different per-corner, and it could have different horizontal and vertical radii, to produce elliptical curves.}}
 {{CSS Property
 |Initial value=0
@@ -102,7 +102,7 @@ border-radius: (horizontal radius values) / [top left] [top right] [bottom right
 }}
 
 ==Can I Use==
-<compatability topic="css" type="property" feature="border-radius">temp</compatability>
+<compatability topic="css" type="property" feature="border-radius"></compatability>
 
 {{Compatibility_Section
 |Not_required=No
