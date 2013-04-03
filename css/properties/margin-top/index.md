@@ -22,7 +22,8 @@ Margin-top creates space outside the outer edge of an element (beyond the top bo
 |Description=Specifies a fixed width. Negative values are allowed.
 }}{{CSS Property Value
 |Data Type=percentage
-|Description=A percentage of the height of the containing block. Negative values are allowed.
+|Description=A percentage of the width of the containing block. Negative values are allowed.
+* Even though this is margin-top, the browser will take the percentage from the width, not the height of the containing block.
 }}{{CSS Property Value
 |Data Type=auto
 |Description=The browser calculates a top margin.
