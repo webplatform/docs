@@ -13,7 +13,7 @@ As described in the [[WPD:FAQ#Will_this_site_include_information_on_server-side_
 * [[server-side_languages/python|Python]]
 * [[server-side_languages/ruby|Ruby]]
 * [[server-side_languages/java|Java]]
-* [[server-side_languages/javascript|Java Script]]
+* [[server-side_languages/javascript|JavaScript]]
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
