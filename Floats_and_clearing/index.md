@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Merge Candidate
+|Checked_Out=Yes
 |Editorial notes={{Editorial/Merge_Candidate
 |Other=[[tutorials/Floats_and_clearing]]
 }}
@@ -8,8 +9,10 @@
 {{Byline}}
 {{Summary_Section}}
 {{Tutorial}}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
