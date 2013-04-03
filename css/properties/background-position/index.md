@@ -1,18 +1,19 @@
 {{Page_Title|background-position}}
 {{Flags
-|Checked_Out=Yes
+|Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|<code>background-position</code> allows you to set the placement of a <code>background-image</code> on the element it is applied to. <code>background-position</code> generally takes two values, which set the horizontal and vertical position of the background image inside the element.}}
 {{CSS Property
-|Initial value=0 0
+|Initial value=0% 0%
 |Applies to=All elements
 |Inherited=No
 |Media=visual
-|Computed value=Pixel value equivalents
+|Computed value=A list, each item consisting of: two keywords representing the origin and two offsets from that origin, each given as an absolute length (if given a <length>), otherwise as a percentage.
 |Animatable=Yes
 |CSS object model property=backgroundPosition
+|CSS percentages=Refer to size of background positioning area minus size of background image
 |Values={{CSS Property Value
 |Data Type=20px 40px
 |Description=Any standard CSS units are acceptable as <code>background-position</code> values: px, ems, rems, mm, cm etc. Note that unit values specify the distance the top left corner of the background image is away from the top left corner of the element. For more details on these units, read [[css/units/length|Length units]].
@@ -22,9 +23,6 @@
 }}{{CSS Property Value
 |Data Type=left top
 |Description=<code>background-position</code> can also be expressed as keywords: left top, top, right top, left, center, right, left bottom, bottom, right bottom. These values do not relate specifically to the position of the top left hand corner of the background image, but rather the overall position of the background image inside the element. So for example, a value of <code>right top</code> will make the background image site flush to the top and right sides of the element it is applied to; the top left corner ''won't'' be positioned at the top right of the element!
-}}{{CSS Property Value
-|Data Type=30% top
-|Description=A combination of different types of value (in this case, percentage then keyword) is allowed.
 }}{{CSS Property Value
 |Data Type=30%
 |Description=If only a single value is included, that is taken as the horizontal value, and the vertical value is set as <code>center</code>.
@@ -183,7 +181,7 @@ div div { /* all the inner divs are given the same width and height, background 
 }}
 }}
 {{Notes_Section
-|Usage=* <code>background-position</code> has good support across browsers. Be aware however that some [[css/units/length|CSS units]] are recent additions to the language and are there not supported across older browsers.
+|Usage=* <code>background-position</code> has good support across browsers. Be aware however that some [[css/units/length|CSS units]] are recent additions to the language and are not supported across older browsers.
 * CSS sprites is a very common technique used to display multiple small images on a web page while cutting down on file size and HTTP requests. The images in question are all stored in a single image file which is applied to multiple different elements on the page; different parts of that file are then displayed by varying the <code>background-position</code> values. See example 2 for this in action.
 * The four value syntax is not supported very widely across browsers.
 }}
