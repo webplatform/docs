@@ -1,6 +1,5 @@
 {{Page_Title}}
 {{Flags
-|Checked_Out=No
 }}
 {{Byline}}
 {{Summary_Section|Now that you've built a web app, it's important to test it so that you know users are getting the best experience possible. We've split this document into Mobile and Desktop, and provided information on some of the best tools out there to help you ensure your apps are built to the highest standards.}}
