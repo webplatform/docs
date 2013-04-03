@@ -13,6 +13,7 @@
 |Media=visual
 |Computed value=as specified
 |Animatable=No
+|CSS object model property=clear
 |CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=none
