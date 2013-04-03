@@ -857,7 +857,8 @@ along a path:
 The text appears to wrap around a [[svg/elements/circle|'''circle''']]
 element, but circles do not have start and end points, so instead you
 need to use the rather complex ''A'' path command to draw two
-elliptical arc curves that face each other:
+elliptical arc curves, each facing the other and originating at the
+left edge:
 
 <syntaxhighlight lang="xml">
 <path id="irisPath" d="M 60,100 A 40,40 0 0 1 140,100 A 40,40 0 0 1 60,100 "/>
@@ -878,28 +879,19 @@ components:
 </g>
 </syntaxhighlight>
 
-
-
+Its [[svg/elements/textPath|'''textPath''']] diverts the contents of
+the [[svg/elements/text|'''text''']] to display along the path:
 
 <syntaxhighlight lang="xml">
-<text id="irisLabel">Iris</text>
-<text id="pupilLabel">Pupil</text>
-
 <g id="labels">
   <text>
-    <textPath xlink:href="#irisPath">
-      <tref xlink:href="#irisLabel"/>
-    </textPath>
+    <textPath xlink:href="#irisPath"> Iris </textPath>
   </text>
   <text>
-    <textPath xlink:href="#pupilPath">
-      <tref xlink:href="#pupilLabel"/>
-    </textPath>
+    <textPath xlink:href="#pupilPath"> Pupil </textPath>
   </text>
 </g>
 </syntaxhighlight>
-
-
 
 [[Image:svgGrandTour_eyeball_text.png|200px]]
 
