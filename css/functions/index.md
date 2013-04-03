@@ -1,6 +1,8 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|In CSS, functions are used as values for some properties.}}
+{{Flags
+|Checked_Out=No
+}}
+{{Summary_Section|In CSS, functions can be used in values to invoke special processing or visual effects.}}
 {{Basic Page}}
 {{Special:PrefixIndex/css/functions/}}
 {{Notes_Section}}
