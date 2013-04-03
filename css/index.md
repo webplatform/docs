@@ -107,7 +107,7 @@ CSS development is handled by the CSS working group. To find out more, including
 
 ==Contributing to the CSS reference pages==
 
-[[WPD:CSS_property_guide]]
+As CSS continues to evolve, we'll continue to improve the docs. Currently, we're working on CSS properties. To join that project, see [[WPD:CSS_property_guide]].
 
 == Index of all CSS topics ==
 
