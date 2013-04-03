@@ -1,6 +1,8 @@
 {{Page_Title}}
 {{Flags
+|Content=Broken Links, Examples Best Practices
 |Checked_Out=Yes
+|Editorial notes=see padding-bottom
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -49,7 +51,7 @@ p { padding-left: 10px; }
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=Box Model
+|Topic_clusters=CSS Layout, Box Model
 }}
 {{Topics|CSS}}
 {{External_Attribution
