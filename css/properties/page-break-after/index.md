@@ -1,37 +1,38 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The page-break-after property is supported in all major browsers.}}
 {{CSS Property
 |Applies to=All elements
 |Inherited=No
 |Media=visual
 |Animatable=No
 |Values={{CSS Property Value
-|Data Type=always
-|Description=Always insert a page break after the object.
-}}{{CSS Property Value
 |Data Type=auto
-|Description=Default. Neither force nor forbid a page break after the object.
+|Description=Default. Insert a page break after the element if necessary
+}}{{CSS Property Value
+|Data Type=always
+|Description=Insert a page break after the element
 }}{{CSS Property Value
 |Data Type=avoid
-|Description=Internet Explorer 8. Forbid a page break after the object, if possible.
+|Description=Avoid inserting a page break after the element
 }}{{CSS Property Value
 |Data Type=empty string
 |Description=Behaves the same as '''auto'''.
 }}{{CSS Property Value
-|Data Type=inherit
-|Description=Internet Explorer 8. Inherit the value of the same property for the object's parent.
-}}{{CSS Property Value
 |Data Type=left
-|Description=Currently behaves the same as '''always'''.
+|Description=Insert page breaks after the element until it reaches a blank left page
 }}{{CSS Property Value
 |Data Type=right
-|Description=Currently behaves the same as '''always'''.
+|Description=Insert page breaks after the element until it reaches a blank right page
+}}{{CSS Property Value
+|Data Type=inherit
+|Description=Specifies that the value of the page-break-after property should be inherited from the parent element
 }}
 }}
 {{Examples_Section
@@ -83,6 +84,7 @@ Page breaks are not permitted inside positioned objects.
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
