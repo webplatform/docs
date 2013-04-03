@@ -2,30 +2,42 @@
 {{Flags
 |High-level issues=Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Checked_Out=Yes
-|Editorial notes=Topics have been selected.
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The text-align property controls the horizontal alignment of text within an element.}}
+{{Summary_Section|The text-align CSS property describes how inline content like text is aligned in its parent block element. text-align does not control the alignment of block elements itself, only their inline content.}}
 {{CSS Property
-|Initial value=depends on the direction property
-|Applies to=All elements
+|Initial value=start, or a nameless value that acts as left if direction is ltr, right if direction is rtl if start is not supported by the browser.
+|Applies to=block containers
 |Inherited=Yes
 |Media=visual
+|Computed value=as specified, except for the match-parent value which is calculated against its parent's direction value and results in a computed value of either left or right
 |Animatable=No
 |CSS object model property=textAlign
 |Values={{CSS Property Value
+|Data Type=start
+|Description=Experimental. The same as left if direction is left-to-right and right if direction is right-to-left.
+}}{{CSS Property Value
+|Data Type=end
+|Description=Experimental. The same as right if direction is left-to-right and left if direction is right-to-left.
+}}{{CSS Property Value
 |Data Type=left
-|Description=Default. Text is aligned to the left.
+|Description=The inline contents are aligned to the left edge of the line box.
 }}{{CSS Property Value
 |Data Type=right
-|Description=Text is aligned to the right.
+|Description=The inline contents are aligned to the right edge of the line box.
 }}{{CSS Property Value
 |Data Type=center
-|Description=Text is centered.
+|Description=The inline contents are centered within the line box.
+}}{{CSS Property Value
+|Data Type=<string>
+|Description=Experimental. The first occurrence of the one-char string is the element used for alignment. the keyword that follows or precedes it indicates how it is aligned. This allows to align numeric values on the decimal point, for instance.
 }}{{CSS Property Value
 |Data Type=justify
-|Description=Text is justified.
+|Description=The text is justified. Text should line up their left and right edges to the left and right content edges of the paragraph.
+}}{{CSS Property Value
+|Data Type=match-parent
+|Description=Experimental. Similar to inherit with the difference that the value start and end are calculated according the parent's direction and are replaced by the adequate left or right value.
 }}
 }}
 {{Examples_Section
