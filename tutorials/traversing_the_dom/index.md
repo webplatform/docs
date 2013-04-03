@@ -1,5 +1,6 @@
 {{Page_Title|Traversing the DOM}}
 {{Flags
+|Checked_Out=Yes
 }}
 {{Byline}}
 {{Summary_Section|This article covers how to select different parts of your HTML document for manipulation via JavaScript.}}
@@ -146,6 +147,7 @@ The logical next step is to start ''doing'' interesting things with the results 
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
