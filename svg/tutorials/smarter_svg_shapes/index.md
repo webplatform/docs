@@ -1,4 +1,4 @@
-{{Page_Title|SVG: basic shapes}}
+{{Page_Title|SVG basic shapes}}
 {{Flags
 |High-level issues=Stub
 |Checked_Out=Yes
