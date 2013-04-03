@@ -1,7 +1,8 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
+|High-level issues=Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -119,7 +120,7 @@ For security reasons, Internet Explorer support for the [[apis/indexedDB/IDBFact
 *<code>[[apis/indexedDB/events/onblocked|onblocked]]</code>
 *<code>[[apis/indexedDB/events/onupgradeneeded|onupgradeneeded]]</code>
 }}
-{{Topics|DOM}}
+{{Topics|API, IndexedDB}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
