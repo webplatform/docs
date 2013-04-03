@@ -1,5 +1,7 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|Checked_Out=Yes
+}}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|The position property controls the type of positioning used by an element within its parent elements. The effect of the position attribute depends on a lot of factors, for example the value of position property of parent elements.}}
@@ -8,7 +10,7 @@
 |Applies to=All elements
 |Inherited=No
 |Media=visual
-|Computed value=As specified, or none if none given
+|Computed value=As specified
 |Animatable=No
 |CSS object model property=position
 |Values={{CSS Property Value
@@ -16,7 +18,7 @@
 |Description=Default. Object has no special positioning; it follows the layout rules of HTML. Values of [[css/properties/top|top]], [[css/properties/bottom|bottom]], [[css/properties/left|left]] and [[css/properties/right|right]] have no impact.
 }}{{CSS Property Value
 |Data Type=absolute
-|Description=Object is positioned relative to parent element's position—or to the '''body''' object if its parent element is not positioned—using the [[css/properties/top|'''top''']] and [[css/properties/left|'''left''']] properties.
+|Description=Object is positioned relative to nearest positioned ancestor—or to the initial containing block if no positioned ancestor exists—using the [[css/properties/top|'''top''']] and [[css/properties/left|'''left''']] properties.
 }}{{CSS Property Value
 |Data Type=relative
 |Description=Object is positioned according to the normal flow, and then offset by the [[css/properties/top|'''top''']] and [[css/properties/left|'''left''']] properties.
@@ -24,14 +26,14 @@
 |Data Type=fixed
 |Description=Object is positioned relative to the viewport containing the content. Object stays in the viewport when scrolling. Usually used for navigation on mobile devices. Limited support.
 }}{{CSS Property Value
-|Data Type=sticky
-|Description=The lovechild of "static" and "fixed", an object with this value behaves as relative until a threshold defined by a top/bottom/left/right property is crossed, at which point it behaves as position: fixed within its positioned parent container.
-}}{{CSS Property Value
-|Data Type=page
-|Description=Internet Explorer 10. Positioned floats only. (The [[css/properties/display|'''display''']] property must be set to '''-ms-positioned'''.) Object is positioned relative to the nearest [http://go.microsoft.com/fwlink/p/?LinkId{{=}}226824 initial containing block]. This may be the browser or application window or a content container such as an '''iframe'''. The [[css/properties/bottom|'''bottom''']], [[css/properties/top|'''top''']], [[css/properties/left|'''left''']], and [[css/properties/right|'''right''']] properties are used to position the element relative to the boundaries of the viewport that the positioned float would normally be placed in (that is, if '''position:static''' was set). For more information, see Positioned Floats.
-}}{{CSS Property Value
 |Data Type=inherit
 |Description=Inherits the value of the parent element.
+}}{{CSS Property Value
+|Data Type=sticky (Webkit)
+|Description=The lovechild of "static" and "fixed", an object with this value behaves as relative until a threshold defined by a top/bottom/left/right property is crossed, at which point it behaves as position: fixed within its positioned parent container.
+}}{{CSS Property Value
+|Data Type=page (Internet Explorer 10)
+|Description=Positioned floats only. (The [[css/properties/display|'''display''']] property must be set to '''-ms-positioned'''.) Object is positioned relative to the nearest [http://go.microsoft.com/fwlink/p/?LinkId{{=}}226824 initial containing block]. This may be the browser or application window or a content container such as an '''iframe'''. The [[css/properties/bottom|'''bottom''']], [[css/properties/top|'''top''']], [[css/properties/left|'''left''']], and [[css/properties/right|'''right''']] properties are used to position the element relative to the boundaries of the viewport that the positioned float would normally be placed in (that is, if '''position:static''' was set). For more information, see Positioned Floats.
 }}
 }}
 {{Examples_Section
@@ -337,8 +339,8 @@ An element with a '''fixed''' position is positioned relative to the visible vie
 {{Topics|CSS, Design}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
+|Sources=MDN, MSDN
+|MDN_link=https://developer.mozilla.org/en-US/docs/CSS/position
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
