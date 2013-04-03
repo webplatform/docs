@@ -1,9 +1,8 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|The column-span CSS property makes it possible for an element to span across all columns when its value is set to all. An element that spans more than one column is called a spanning element.}}
 {{CSS Property
@@ -24,7 +23,24 @@ All content that is declared before the content block is shown before the conten
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|Description=Makes 4 columns and creates a span that crosses thorugh columns
+|Code=/*
+Makes 4 columns and creates a span that crosses thorugh columns
+*/
+#column5 {
+  column-count: 4;
+  column-gap: 2em;          
+  padding: 5px;
+}
+
+#span-content {
+	column-span: all;
+	border: 5px solid #000;
+}
+|LiveURL=http://code.webplatform.org/gist/5306158
+}}
 }}
 {{Notes_Section
 |Import_Notes====Syntax===
@@ -35,6 +51,7 @@ All content that is declared before the content block is shown before the conten
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Unknown
 |Chrome_version=
