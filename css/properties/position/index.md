@@ -152,7 +152,7 @@ Text and objects that follow a relatively positioned object occupy their own spa
 ===Absolute===
 Setting the property to '''absolute''' pulls the object out of the "flow" of the document and positions it regardless of the layout of surrounding objects. If other objects already occupy the given position, they do not affect the positioned object, nor does the positioned object affect them. Instead, all objects are drawn at the same place, causing the objects to overlap. (This overlap is controlled by using the [[css/properties/z-index|z-index]] property.)
 
-Absolutely positioned elements are positioned relative to their containing blocks. The containing block for an absolutely positioned element is formed by the padding edge of the element’s nearest positioned ancestor-- the closest parent element that has a position value of ‘’’relative’’’, ‘’’absolute’’’, or ‘’’fixed’’’. If no positioned ancestor exists, the containing block is the initial containing block-- the viewport or the page box.
+Absolutely positioned elements are positioned relative to their containing blocks. The containing block for an absolutely positioned element is formed by the padding edge of the element’s nearest positioned ancestor-- the closest parent element that has a position value of '''relative''', '''absolute''', or '''fixed'''. If no positioned ancestor exists, the containing block is the initial containing block-- the viewport or the page box.
 
 The edges of the element can be specified relative to the edges of the containing block by using the [[css/properties/top|top]], [[css/properties/bottom|bottom]], [[css/properties/left|left]] and [[css/properties/right|right]] properties.
 
@@ -167,7 +167,6 @@ Input from pointing devices, such as the mouse, does not penetrate through overl
 
 ===Fixed===
 An element with a '''fixed''' position is positioned relative to the visible viewport. It does not move away if the browser window is scrolled but appears to be fixed in the viewport. A common pattern and example is to use position: fixed on navigation elements that should be visible on the whole page regardless of the scrollbar position. Fixed positioning is only supported for pages using a strict <!DOCTYPE> directive.
-
 |Notes====Layout Float===
 '''static''' The positioned float is laid out according to normal HTML flow.
 
@@ -345,7 +344,7 @@ An element with a '''fixed''' position is positioned relative to the visible vie
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows={{Compatibility Notes Row
-|Browser=Internet 
+|Browser=Internet
 }}
 }}
 {{See_Also_Section
