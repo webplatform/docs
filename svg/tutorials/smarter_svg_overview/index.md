@@ -744,21 +744,30 @@ function blink() {
 }
 </syntaxhighlight>
 
-==Zooming In==
+==Interactive Zoom==
+
+Suppose you want to click on the graphic to get a closer look at it.
+Scaling the eyeball would be difficult, because there are now two of
+them.  Instead, you can alter the dimensions of the current 
+[[svg/attributes/viewBox|'''viewBox''']].
+
+Add
+
+[[svg/elements/view|'''view''']]
 
 <syntaxhighlight lang="xml">
-<view id="zoomIn" viewBox="100 50 100 100" />
-
 <a xlink:href="#zoomIn">
   <use xlink:href="#eyes"/>
 </a>
+
+<view id="zoomIn" viewBox="100 50 100 100" />
 </syntaxhighlight>
 
 [[Image:svgGrandTour_eyeball_zoom.png|200px]]
 
 ...
 
-==Animating the Zoom==
+==Animated Zoom==
 
 ...
 
@@ -767,6 +776,8 @@ function blink() {
 [[Image:svgGrandTour_eyeball_textPath.png|200px]]
 
 [[Image:svgGrandTour_eyeball_text.png|200px]]
+
+[[Image:svgGrandTour_eyeball_textRotate.png|200px]]
 
 ...
 
