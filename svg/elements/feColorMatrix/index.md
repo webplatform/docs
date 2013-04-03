@@ -43,7 +43,9 @@ By default, color-manipulation operations using feColorMatrix take place in line
 |Not_required=No
 |Examples={{Single Example
 |Language=Other
-|Description=Example of a feColorMatrix with type="saturate"
+|Description=[[File:desaturate.png]] 
+
+Example of a feColorMatrix with type="saturate"
 |Code=<syntaxhighlight lang="xml">
 <svg width="640" height="550" viewBox="0 0 640 550">
 <defs>
