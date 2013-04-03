@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|The '''clear''' CSS property specifies whether an element can be next to floating elements that precede it or must be moved down (cleared) below them.}}
+{{Summary_Section|The '''clear''' CSS property specifies whether an element can be next to [[css/properties/float|floating]] elements that precede it or must be moved down (cleared) below them.}}
 {{CSS Property
 |Initial value=none
 |Applies to=Block-level elements
@@ -64,9 +64,9 @@ function fnClear2(){
 }}
 }}
 {{Notes_Section
-|Notes=The '''clear''' property applies to both floating and non-floating elements.
+|Notes=The '''clear''' property applies to both [[css/properties/float|floating]] and non-floating elements.
 
-When applied to non-floating blocks, it moves the border edge of the element down until it is below the margin edge of all relevant floats. This movement (when it happens) causes margin collapsing not to occur.
+When applied to non-floating blocks, it moves the [[css/properties/border|border]] edge of the element down until it is below the margin edge of all relevant floats. This movement (when it happens) causes margin collapsing not to occur.
 
 When applied to floating elements, it moves the margin edge of the element below the margin edge of all relevant floats. This affects the position of later floats, since later floats cannot be positioned higher than earlier ones.
 
@@ -94,6 +94,7 @@ The floats that are relevant to be cleared are the earlier floats within the sam
 {{See_Also_Section
 |Topic_clusters=Box Model
 |Manual_links=* [[tutorials/floats_and_clearing|Tutorial: Page layout with floats and clearing]].
+* [[tutorials/box_model|Tutorial: Exploring the CSS box model]].
 |Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
