@@ -850,15 +850,14 @@ lines of text that do not wrap within a box as in HTML. You ordinarily
 use '''x''' and '''y''' coordinate attributes to position
 [[svg/elements/text|'''text''']] elements directly within a graphic.
 This example relies on SVG's characteristic ability to place text
-along a path:
+along a curved path:
 
 [[Image:svgGrandTour_eyeball_textRotate.png|200px]]
 
 The text appears to wrap around a [[svg/elements/circle|'''circle''']]
-element, but circles do not have start and end points, so instead you
-need to use the rather complex ''A'' path command to draw two
-elliptical arc curves, each facing the other and originating at the
-left edge:
+element, but since circles do not have start and end points, you need
+to use the rather complex ''A'' path command to draw two elliptical
+arc curves, each facing the other and originating at the left edge:
 
 <syntaxhighlight lang="xml">
 <path id="irisPath" d="M 60,100 A 40,40 0 0 1 140,100 A 40,40 0 0 1 60,100 "/>
@@ -879,8 +878,8 @@ components:
 </g>
 </syntaxhighlight>
 
-Its [[svg/elements/textPath|'''textPath''']] diverts the contents of
-the [[svg/elements/text|'''text''']] to display along the path:
+Its [[svg/elements/textPath|'''textPath''']] diverts a portion of the
+[[svg/elements/text|'''text''']] to display along the path:
 
 <syntaxhighlight lang="xml">
 <g id="labels">
@@ -895,6 +894,37 @@ the [[svg/elements/text|'''text''']] to display along the path:
 
 [[Image:svgGrandTour_eyeball_text.png|200px]]
 
+Ordinarily, you can increment the
+[[svg/elements/textPath|'''textPath''']]'s
+[[svg/attributes/startOffset|'''startOffset''']] attribute in
+animations to push text along the path. As an alternative here, you
+can easily use CSS transforms to rotate the entire object:
+
+<syntaxhighlight lang="css">
+#irisPath, #pupilPath {
+    fill             : none;
+    transform-origin : center         ; -webkit-transform-origin : center  ; -moz-transform-origin : center;
+}
+#irisPath {
+    transform        : rotate(120deg) ; -webkit-transform : rotate(120deg) ; -moz-transform : rotate(120deg);
+}
+#pupilPath {
+    transform        : rotate(20deg)  ; -webkit-transform : rotate(20deg)  ; -moz-transform : rotate(20deg);
+}
+</syntaxhighlight>
+
+By default, SVG transforms originate from an element's top-left
+corner, so to spin the circle properly you need to explicitly set the
+[[css/properties/transform-origin|'''transform-origin''']] property to
+CSS's own default '''50% 50%''' value.
+
+[[Image:svgGrandTour_eyeball_textRotate.png|200px]]
+
+Finally, additional CSS specifies the appearance of the text labels,
+and displays contextually within the magnified zoom level. Transitions
+on the [[svg/properties/fill-opacity|'''fill-opacity''']] and
+[[svg/properties/stroke-opacity|'''stroke-opacity''']] properties fade
+them in and out as the zoom animation executes:
 
 <syntaxhighlight lang="css">
 text {
@@ -905,68 +935,21 @@ text {
     stroke-opacity     : 0;
     fill               : red;
     fill-opacity       : 0;
-    -webkit-transition : all 2s;
-    -moz-transition    : all 2s;
-    transition         : all 2s;
+    /* transition to default zoom level lasts 2 seconds; no delay */
+    transition         : all 2s;    -webkit-transition : all 2s;    -moz-transition    : all 2s;
 }
 
 svg.zoomIn text {
     fill-opacity       : 0.25;
     stroke-opacity     : 0.25;
-    -webkit-transition : all 2s 2s;
-    -moz-transition    : all 2s 2s;
-    transition         : all 2s 2s;
+    /* transition to magnified zoom level lasts 2 seconds, with 2 second delay */
+    transition         : all 2s 2s;    -webkit-transition : all 2s 2s;    -moz-transition    : all 2s 2s;
 }
 </syntaxhighlight>
 
-...
-
-<syntaxhighlight lang="css">
-#irisPath, #pupilPath {
-    fill                     : none;
-    -webkit-transform-origin : center;
-    -moz-transform-origin    : center;
-    transform-origin         : center;
-}
-
-#irisPath {
-    -webkit-transform : rotate(120deg);
-    -moz-transform    : rotate(120deg);
-    transform         : rotate(120deg);
-}
-
-#pupilPath {
-    -webkit-transform        : rotate(20deg);
-    -moz-transform           : rotate(20deg);
-    transform                : rotate(20deg);
-}
-</syntaxhighlight>
-
-
-
-
-...
-
-==Enough?==
+Enough?
 
 [[Image:svgGrandTour_eyeball_tired.png|600px]]
-
-...
-
-<!--
-
-
-==Adding text and interaction==
-
-* pointer-events
-
-* view, zoomAndPan
-
-* text
-
-* foreignObject
-
--->
 
 ==Deploying SVG==
 
