@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Content=Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -19,7 +19,24 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|Description=Uses the column-rule attribute to set rule width, style and color
+|Code=#column3 {
+  column-width: 15em;
+  column-gap: 2em;
+/*
+The column-rule attribute is a shorthand for
+
+column-rule-width = 4px
+column-rule-style = solid
+column-rule-color = green
+*/
+  column-rule: 4px solid green;
+  padding: 5px;
+}
+|LiveURL=http://code.webplatform.org/gist/5305898
+}}
 }}
 {{Notes_Section
 |Import_Notes====Syntax===
