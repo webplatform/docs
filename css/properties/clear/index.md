@@ -35,13 +35,17 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=The following examples use the '''clear''' attribute and the '''clear''' property to specify placement of text relative to floating objects.
-
-This example uses a call to an embedded (global) style sheet to move the text below the floating objects when italic text is encountered.
-|Code=&lt;style&gt;
-    i { clear:left }
-&lt;/style&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/clear_h.htm
+|Language=CSS
+|Description=Check the live example to see how these classes are applied to headlines.
+|Code=.left {
+	border: 1px solid black;
+	clear: left;
+}
+.both {
+	border: 1px solid black;
+	clear: both;
+}
+|LiveURL=https://developer.mozilla.org/samples/cssref/clear.html
 }}{{Single Example
 |Description=This example changes the position of the paragraph relative to the floating object on its left side.
 |Code=&lt;script&gt;
