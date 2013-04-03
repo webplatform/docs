@@ -197,8 +197,8 @@ This example uses '''p''' as a selector and two classes to call an embedded styl
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MDN
+|Sources=MDN, MSDN
 |MDN_link=https://developer.mozilla.org/en-US/docs/CSS/text-align
-|MSDN_link=
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/ms531162(v=vs.85).aspx
 |HTML5Rocks_link=
 }}
