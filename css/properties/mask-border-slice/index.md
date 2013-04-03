@@ -15,14 +15,19 @@ When four values are specified, they set the offsets on the top, right, bottom a
 |Animatable=No
 |Values={{CSS Property Value
 |Data Type=length
+|Description=all <length>s made absolute, otherwise as specified
 }}{{CSS Property Value
 |Data Type=percentage
+|Description=Percentages refer to the size of the mask box image area: the width of the area for horizontal offsets, the height for vertical offsets. 
 }}{{CSS Property Value
 |Data Type=number
+|Description=Numbers represent multiples of the corresponding computed ‘border-width’.
 }}{{CSS Property Value
 |Data Type=auto
+|Description=If ‘auto’ is specified then the mask box image width is the intrinsic width or height (whichever is applicable) of the corresponding image slice (see ‘mask-box-image-slice’). If the image does not have the required intrinsic dimension then the corresponding ‘border-width’ is used instead. 
 }}{{CSS Property Value
 |Data Type=fill
+|Description=The ‘fill’ keyword, if present, causes the middle part of the mask image to be preserved. (By default it is discarded, i.e., treated as transparent black.) 
 }}
 }}
 {{Examples_Section
