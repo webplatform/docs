@@ -13,7 +13,7 @@ This article covers the underlying technologies that power the World Wide Web:
 * Web servers and web browsers
 * Static and dynamic content
  
-While most of what’s covered here won’t help you to build a better website, it will give you the proper language to use when speaking with clients and with others about the Web. It’s like a wise nun-turned-nanny once said in ''The Sound of Music'': “When we read we begin with ABC. When we sing we begin with Do Re Mi.”. In this article I will briefly look at how computers actually communicate, then go on to look at the different languages that go together to create the web pages that make up the Web.
+While most of what’s covered here won’t help you to build a better website, it will give you the proper language to use when speaking with clients and with others about the Web. It’s like a wise nun-turned-nanny once said in ''The Sound of Music'': “When we read we begin with ABC. When we sing we begin with Do Re Mi.” In this article I will briefly look at how computers actually communicate, then go on to look at the different languages that work together to create the web pages that make up the Web.
 }}
 {{Concept_Page
 |Content=== How do computers communicate via the Internet? ==
