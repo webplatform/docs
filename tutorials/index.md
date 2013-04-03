@@ -1,9 +1,12 @@
 {{Page_Title|Learn the latest in web technologies.}}
-{{Flags}}
+{{Flags
+|Checked_Out=No
+}}
 {{Summary_Section|Tutorials are hands-on lessons about implementing web technology.}}
 {{Basic Page}}
 ==Fundamentals==
 * [[tutorials/web_programming_essentials|Web programming essentials]]
+* [[tutorials/information-architecture/Planning_out_a_website]]
 * [[tutorials/Testing_web_apps|Testing web apps]]
 * [[html/tutorials|HTML]]
 * [[css/tutorials|CSS]]
