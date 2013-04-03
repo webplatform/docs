@@ -57,6 +57,9 @@ Example of a feColorMatrix with type="saturate"
   <image x="310" y="10" width="280" height="350" preserveAspectRatio="true" filter="url(#saturate)" xlink:href="http://upload.wikimedia.org/wikipedia/commons/8/82/Siberian-larch.jpg"/>
 </svg>​
 </syntaxhighlight>
+
+
+*********************************************************************************************
 |LiveURL=http://code.webplatform.org/gist/5303882
 }}{{Single Example
 |Language=Other
@@ -72,6 +75,8 @@ Example of a feColorMatrix with type="hueRotate"
   <image x="10" y="10" width="280" height="350" preserveAspectRatio="true" xlink:href="http://upload.wikimedia.org/wikipedia/commons/8/82/Siberian-larch.jpg"/>
   <image x="310" y="10" width="280" height="350" preserveAspectRatio="true" filter="url(#hueRotate)" xlink:href="http://upload.wikimedia.org/wikipedia/commons/8/82/Siberian-larch.jpg"/>
 </svg>​
+
+*********************************************************************************************
 |LiveURL=http://code.webplatform.org/gist/5303933
 }}{{Single Example
 |Language=Other
@@ -87,6 +92,8 @@ Example of a feColorMatrix with type="luminanceToAlpha"
   <image x="10" y="10" width="280" height="350" preserveAspectRatio="true" xlink:href="http://upload.wikimedia.org/wikipedia/commons/8/82/Siberian-larch.jpg"/>
   <image x="310" y="10" width="280" height="350" preserveAspectRatio="true" filter="url(#L2A)" xlink:href="http://upload.wikimedia.org/wikipedia/commons/8/82/Siberian-larch.jpg"/>
 </svg>​
+
+*********************************************************************************************
 |LiveURL=http://code.webplatform.org/gist/5303960
 }}{{Single Example
 |Language=Other
@@ -105,6 +112,8 @@ Example of a feColorMatrix with type="matrix" showing a contrast adjustment
   <image x="10" y="10" width="280" height="350" preserveAspectRatio="true" xlink:href="http://upload.wikimedia.org/wikipedia/commons/8/82/Siberian-larch.jpg"/>
   <image x="310" y="10" width="280" height="350" preserveAspectRatio="true" filter="url(#matrix-contrast)" xlink:href="http://upload.wikimedia.org/wikipedia/commons/8/82/Siberian-larch.jpg"/>
 </svg>​
+
+*********************************************************************************************
 |LiveURL=http://code.webplatform.org/gist/5304023
 }}{{Single Example
 |Language=Other
@@ -122,6 +131,8 @@ Example of a feColorMatrix with type="matrix" showing a sepia adjustment
   <image x="10" y="10" width="280" height="350" preserveAspectRatio="true" xlink:href="http://upload.wikimedia.org/wikipedia/commons/8/82/Siberian-larch.jpg"/>
   <image x="310" y="10" width="280" height="350" preserveAspectRatio="true" filter="url(#matrix-sepia)" xlink:href="http://upload.wikimedia.org/wikipedia/commons/8/82/Siberian-larch.jpg"/>
 </svg>​
+
+*********************************************************************************************
 |LiveURL=http://code.webplatform.org/gist/5304047
 }}{{Single Example
 |Language=Other
@@ -139,6 +150,8 @@ Example of a feColorMatrix with type="matrix" showing a standard greyscale adjus
   <image x="10" y="10" width="280" height="350" preserveAspectRatio="true" xlink:href="http://upload.wikimedia.org/wikipedia/commons/8/82/Siberian-larch.jpg"/>
   <image x="310" y="10" width="280" height="350" preserveAspectRatio="true" filter="url(#matrix-greyscale)" xlink:href="http://upload.wikimedia.org/wikipedia/commons/8/82/Siberian-larch.jpg"/>
 </svg>​
+
+*********************************************************************************************
 |LiveURL=http://code.webplatform.org/gist/5304064
 }}{{Single Example
 |Language=Other
@@ -156,6 +169,8 @@ Example of a feColorMatrix with type="matrix" showing a greyscale with green cha
   <image x="10" y="10" width="280" height="350" preserveAspectRatio="true" xlink:href="http://upload.wikimedia.org/wikipedia/commons/8/82/Siberian-larch.jpg"/>
   <image x="310" y="10" width="280" height="350" preserveAspectRatio="true" filter="url(#matrix-greyscale-greenboost)" xlink:href="http://upload.wikimedia.org/wikipedia/commons/8/82/Siberian-larch.jpg"/>
 </svg>​
+
+*********************************************************************************************
 |LiveURL=http://code.webplatform.org/gist/5304095
 }}{{Single Example
 |Language=Other
@@ -173,6 +188,8 @@ Example of a feColorMatrix with type="matrix" showing a a solarization effect. E
   <image x="10" y="10" width="280" height="350" preserveAspectRatio="true" xlink:href="http://upload.wikimedia.org/wikipedia/commons/8/82/Siberian-larch.jpg"/>
   <image x="310" y="10" width="280" height="350" preserveAspectRatio="true" filter="url(#matrix-solarize)" xlink:href="http://upload.wikimedia.org/wikipedia/commons/8/82/Siberian-larch.jpg"/>
 </svg>​
+
+*********************************************************************************************
 |LiveURL=http://code.webplatform.org/gist/5304157
 }}{{Single Example
 |Language=Other
@@ -190,6 +207,8 @@ Example of a feColorMatrix with type="matrix" showing an inversion
   <image x="10" y="10" width="280" height="350" preserveAspectRatio="true" xlink:href="http://upload.wikimedia.org/wikipedia/commons/8/82/Siberian-larch.jpg"/>
   <image x="310" y="10" width="280" height="350" preserveAspectRatio="true" filter="url(#matrix-invert)" xlink:href="http://upload.wikimedia.org/wikipedia/commons/8/82/Siberian-larch.jpg"/>
 </svg>​
+
+*********************************************************************************************
 |LiveURL=http://code.webplatform.org/gist/5304176
 }}
 }}
