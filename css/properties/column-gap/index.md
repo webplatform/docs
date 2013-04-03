@@ -2,8 +2,9 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|The column-gap attribute allows CSS developers to control the distance between columns in a multi-column layout.}}
 {{CSS Property
@@ -33,7 +34,7 @@ see CSS Length Units Reference.
 
 
 Negative values are not valid.
-}}
+}}{{CSS Property Value}}
 }}
 {{Examples_Section
 |Not_required=No
@@ -46,6 +47,23 @@ Negative values are not valid.
   column-gap: 0px;
   -moz-column-gap: 0px;
 }
+}}{{Single Example
+|Language=CSS
+|Description=Makes as many columns that are 15em as the browser lets
+you. Put a green line between the columns and padd the 
+content
+|Code=/*
+Makes as many columns that are 15em as the browser lets
+you. Put a green line between the columns and padd the 
+content
+*/
+#column3 {
+  column-width: 15em;
+  column-gap: 2em;          
+  column-rule: 4px solid green;
+  padding: 5px;
+}
+|LiveURL=http://code.webplatform.org/gist/5305647
 }}
 }}
 {{Notes_Section
@@ -53,10 +71,15 @@ Negative values are not valid.
 <code>'''column-gap: '''normal '''{{!}}''' ''length''</code>
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Multi-column Layout Module
+|URL=http://www.w3.org/TR/css3-multicol/
+|Status=W3C Candidate Recommendation
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
