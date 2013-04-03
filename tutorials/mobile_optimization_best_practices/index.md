@@ -1,8 +1,5 @@
 {{Page_Title|Mobile optimization best practices}}
 {{Flags
-|High-level issues=Data Not Semantic
-|Content=Grammar/Spelling, Examples Best Practices
-|Checked_Out=Yes
 }}
 {{Byline}}
 {{Summary_Section|Mobile Devices may have slow network connections, hardware specific limitations and varying screen sizes. We need standardized best practices for building web apps. The goal is to provide the best user experience optimizing the HTML5 standards.  }}
