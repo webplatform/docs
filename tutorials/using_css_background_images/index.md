@@ -1,5 +1,6 @@
 {{Page_Title|Using CSS background images}}
 {{Flags
+|Checked_Out=No
 }}
 {{Byline}}
 {{Summary_Section|This article covers CSS backgrounds in detail: background color, image, repeat, attachment, and position. Near the end, it also looks at advanced techniques such as CSS sprites.}}
@@ -371,7 +372,7 @@ The HTML that creates the list is an unordered list containing links. Note the e
     </li>
     <li id="photos">
       <a href="#"><span></span>Photos</a>
-    </li><br>
+    </li>
     <li id="links">
       <a href="#"><span></span>Links</a>
     </li>
