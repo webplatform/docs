@@ -176,7 +176,7 @@ With that, you now know pretty much everything you need to in order to begin spr
 * What are functions?  Why are they useful?
 * How do you define a function?
 * How do you pass information into a function?  Why would you want to?  Conversely, how can you get information out of a function?
-* Wouldn’t it be nice if you could pass a colour array into `setElementBackground`?  Try modifying the code to accept another argument, and use that variable inside the function to override the random background colour.
+* Wouldn’t it be nice if you could pass a color array into `setElementBackground`?  Try modifying the code to accept another argument, and use that variable inside the function to override the random background colour.
 }}
 {{Compatibility_Section
 |Not_required=Yes
