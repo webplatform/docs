@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |Content=Grammar/Spelling
-|Checked_Out=No
+|Checked_Out=Yes
 }}
 {{Standardization_Status}}
 {{API_Name}}
