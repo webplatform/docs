@@ -1,5 +1,7 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|Checked_Out=No
+}}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|The ‘background’ property is a shorthand property for setting most background properties at the same place in the style sheet.}}
@@ -16,13 +18,13 @@
 |Description=The background property is a shorthand property for setting the color, position, size, repeat, clip, origin, attachment, and/or image of the element.
 
 * color - Any of the values available to [[css/properties/background-color|'''background-color''']] property. The default value is <tt>transparent</tt>.
-* position - Any of the values available to [[css/properties/background-position|'''background-position''']] property. The default value is <tt>0 0</tt>.
+* position - Any of the values available to [[css/properties/background-position|'''background-position''']] property. The default value is <tt>0% 0%</tt>.
 * size - Any of the values available to [[css/properties/background-size|'''background-size''']] property. The default value is <tt>auto</tt>.
 * repeat - Any of the values available to [[css/properties/background-repeat|'''background-repeat''']] property. The default value is <tt>repeat</tt>.
 * clip - Any of the values available to [[css/properties/background-clip|'''background-clip''']] property. The default value is <tt>border-box</tt>.
 * origin - Any of the values available to [[css/properties/background-origin|'''background-origin''']] property. The default value is <tt>padding-box</tt>.
 * attachment - Any of the values available to [[css/properties/background-attachment|'''background-attachment''']] property. The default value is <tt>scroll</tt>.
-* image - Any of the values available to [[css/properties/background-image|'''background-image''']] property. The default value is <tt>none</tt>
+* image - Any of the values available to [[css/properties/background-image|'''background-image''']] property. The default value is <tt>none</tt>.
 }}
 }}
 {{Examples_Section
