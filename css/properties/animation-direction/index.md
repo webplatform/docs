@@ -19,7 +19,7 @@
 |Description=The animation should play forward each cycle. In other words, each time the animation cycles, the animation will reset to the beginning state and start over again. This is the default animation direction setting.
 }}{{CSS Property Value
 |Data Type=alternate
-|Description=The animation should reverse direction each cycle. When playing in reverse, the animation steps are performed backward. In addition, timing functions are also reversed; for example, an ''<code>ease-in animation</code>'' is replaced with an ''<code>ease-out</code>'' animation when played in reverse. The count to determine if it is an even or an odd iteration starts at one.
+|Description=The animation should reverse direction each cycle. When playing in reverse, the animation steps are performed backward. In addition, timing functions are also reversed; for example, an ''<code>ease-in</code>'' animation is replaced with an ''<code>ease-out</code>'' animation when played in reverse. The count to determine if it is an even or an odd iteration starts at one.
 }}{{CSS Property Value
 |Data Type=reverse
 |Description=The animation plays backward each cycle. Each time the animation cycles, the animation resets to the end state and start over again.
