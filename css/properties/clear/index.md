@@ -1,4 +1,4 @@
-{{Page_Title|clear}}
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|This property indicates which sides of an element's box(es) may not be adjacent to an earlier floating box. The '''clear''' property does not consider floats inside the element itself or in other block formatting contexts.}}
+{{Summary_Section|The '''clear''' CSS property specifies whether an element can be next to floating elements that precede it or must be moved down (cleared) below them.}}
 {{CSS Property
 |Initial value=none
 |Applies to=Block-level elements
@@ -64,8 +64,13 @@ function fnClear2(){
 }}
 }}
 {{Notes_Section
-|Notes====Remarks===
-The value of this property lists the sides where floating objects are not accepted.
+|Notes=The '''clear''' property applies to both floating and non-floating elements.
+
+When applied to non-floating blocks, it moves the border edge of the element down until it is below the margin edge of all relevant floats. This movement (when it happens) causes margin collapsing not to occur.
+
+When applied to floating elements, it moves the margin edge of the element below the margin edge of all relevant floats. This affects the position of later floats, since later floats cannot be positioned higher than earlier ones.
+
+The floats that are relevant to be cleared are the earlier floats within the same block formatting context.
 |Import_Notes====Syntax===
 <code>'''clear: '''none '''{{!}}''' left '''{{!}}''' right '''{{!}}''' both</code>
 ===Standards information===
@@ -98,8 +103,8 @@ The value of this property lists the sides where floating objects are not accept
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
+|Sources=MDN, MSDN
+|MDN_link=https://developer.mozilla.org/en-US/docs/CSS/clear
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
