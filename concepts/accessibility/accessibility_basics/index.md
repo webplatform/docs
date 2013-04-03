@@ -2,13 +2,14 @@
 {{Flags
 |High-level issues=Copyright Issue
 |Content=Outdated
+|Checked_Out=No
 }}
 {{Byline}}
-{{Summary_Section|When you create a web site, accessibility, making the web site usable by everyone, regardless of their ability or disability, should always be a central concern. In this article I’ll look at accessibility explicitly, so you can understand fully what it is, why it is important, how to ensure that sites are accessible, and what guidelines exist to define accessible sites.}}
+{{Summary_Section|When you create a website, accessibility, making the website usable by everyone, regardless of their ability or disability, should always be a central concern. In this article I’ll look at accessibility explicitly, so you can understand fully what it is, why it is important, how to ensure that sites are accessible, and what guidelines exist to define accessible sites.}}
 {{Tutorial
 |Content===Introduction==
 
-Before I look specifically at accessibility on the web, let’s start by looking at accessibility in general terms. After all, accessibility isn't just a concern associated with web sites, it is potentially a concern with every service, object or technology you’ll come across in life.
+Before I look specifically at accessibility on the web, let’s start by looking at accessibility in general terms. After all, accessibility isn't just a concern associated with websites, it is potentially a concern with every service, object or technology you’ll come across in life.
 
 Note that an associated topic to learn about is [http://www.w3.org/WAI/intro/aria WAI ARIA]—the Web Accessibility Initiative’s Accessible Rich Internet Applications initiative, which is basically a methodology to allow the creation of more accessible Ajax/JavaScript-powered applications. You can find a [http://dev.opera.com/articles/view/introduction-to-wai-aria/ great introductory article] covering ARIA on dev.opera.com. 
 
@@ -20,27 +21,27 @@ Look around. Hopefully you will see some other people; if you don’t, why not t
 
 <blockquote> Accessibility is treating everyone, no matter what their ability, the same. </blockquote>
 
-I realize that this statement is open to interpretation. Most discussions of ''accessibility'' first talk about ''disability''. This implies that people with a disability deserve special treatment. This isn’t what accessibility is about—it’s actually a symptom of the way people have traditionally built buildings, web sites, and pretty much everything else in fact.
+I realize that this statement is open to interpretation. Most discussions of ''accessibility'' first talk about ''disability''. This implies that people with a disability deserve special treatment. This isn’t what accessibility is about—it’s actually a symptom of the way people have traditionally built buildings, websites, and pretty much everything else in fact.
 
 When you build things with the assumption that everyone is the same as you, then they will always be wrong for some other people. People assume accessibility is about helping people with disabilities because retrofitted accessibility is very obvious in our societies. For example, a lot of buildings that started life with only steps have suddenly sprouted cheap ugly ramps. However, accessibility has long been a feature of military design. Why? because it is often critical for survival—at high g-forces jet fighter pilots can’t do the same things they can do on the ground. If aircraft designers didn’t take the needs of pilots in both high and low gravity environments into account then there would be a lot more plane crashes.
 
-So, what does this mean for web site developers? The short answer is that you need to try to be more aware of the needs of the entire audience that might look at your site. A longer answer might require you to learn a little about the differing levels of ability people can have, and how they use computers. By applying the techniques outlined in this curriculum and other related articles you can create sites that work with many forms of interaction. Your web sites will be usable by people whether they:
-*Are blind or severely visually impaired, and listen to web sites using a screen reader, or feel them on a braille display.
+So, what does this mean for website developers? The short answer is that you need to try to be more aware of the needs of the entire audience that might look at your site. A longer answer might require you to learn a little about the differing levels of ability people can have, and how they use computers. By applying the techniques outlined in this curriculum and other related articles you can create sites that work with many forms of interaction. Your websites will be usable by people whether they:
+*Are blind or severely visually impaired, and listen to websites using a screen reader, or feel them on a braille display.
 *Are shortsighted, and blow them up to 200% font size.
-*Have motor disabilities so can’t use their hands to manipulate a mouse, and therefore use a pointing stick to manipulate the keyboard, or an eye pointer to manipulate the web site.
+*Have motor disabilities so can’t use their hands to manipulate a mouse, and therefore use a pointing stick to manipulate the keyboard, or an eye pointer to manipulate the website.
 *Use trackballs, or other more unusual types of computer control system. 
 
 Don’t worry about the specific details of these interactions— we’ll go through those step by step next.
 
 ==Why is Accessibility important?==
 
-Accessibility is important for one big reason and a whole lot of little ones. The main one is that ''we are all different and yet we all have an equal right to use web sites'', but there are lots of other reasons why you should make accessibility considerations a part of how you build web sites:
+Accessibility is important for one big reason and a whole lot of little ones. The main one is that ''we are all different and yet we all have an equal right to use websites'', but there are lots of other reasons why you should make accessibility considerations a part of how you build websites:
 
 *In some countries it’s the law.
 *You don’t want to exclude any potential customers/visitors from using your site.
 *Accessible sites tend to rank higher on search engines.
 *You are demonstrating good ethics—something that customers will value.
-*Once you build web sites with web standards it hardly requires any extra effort to make it accessible, which gives so many benefits; there is also a lot of crossover between sites being more accessible, and sites being more compatible with mobile phone browsers—another circumstance that makes web site harder to use, although for different reasons. In fact, some work has been done on analysing the relationship between web accessibility and mobile web development best practices—see [http://www.w3.org/WAI/mobile/ the WAI "Web Content Accessibility and Mobile Web" page] for more.
+*Once you build websites with web standards it hardly requires any extra effort to make it accessible, which gives so many benefits; there is also a lot of crossover between sites being more accessible, and sites being more compatible with mobile phone browsers—another circumstance that makes website harder to use, although for different reasons. In fact, some work has been done on analysing the relationship between web accessibility and mobile web development best practices—see [http://www.w3.org/WAI/mobile/ the WAI "Web Content Accessibility and Mobile Web" page] for more.
 *Techniques that help people with disabilities benefit all users.
 
 Now I will move on to look at some of these points in more detail.
@@ -49,13 +50,13 @@ Now I will move on to look at some of these points in more detail.
 
 {{Note| It’s important to understand the basics of the legal stuff but unless you are a lawyer and really know what you are talking about, you should take extreme care giving an opinion about legal issues. }}
 
-In the UK, under the [http://www.direct.gov.uk/en/DisabledPeople/index.htm DDA], it is illegal to discriminate against disabled people when recruiting and employing people, and providing services or education. Discrimination is defined as not making “reasonable adjustments” to support everyone, regardless of (dis)ability. This applies of course to making services or education available via the medium of web sites.
+In the UK, under the [http://www.direct.gov.uk/en/DisabledPeople/index.htm DDA], it is illegal to discriminate against disabled people when recruiting and employing people, and providing services or education. Discrimination is defined as not making “reasonable adjustments” to support everyone, regardless of (dis)ability. This applies of course to making services or education available via the medium of websites.
 
-In the USA and European Union there are also requirements for Governmental web sites. In the USA, federal government (and some state government) web sites are expected to abide by [http://www.section508.gov/ Section 508]. Section 508 is a document that tries to define what the minimum requirements are to achieve accessiblity. Section 508 covers more than just web sites; it also deals with any other technology that might be used by a federal employee. In Europe the European Commission has recognised the W3C’s Web Accessibility Initiative (WAI) and recommended it for use with all member states. The [http://w3.org/WAI WAI] produces guidelines for web sites, web authoring tool manufacturers and web browsers (for example, the WCAG, which I’ll look at later on.)
+In the USA and European Union there are also requirements for Governmental websites. In the USA, federal government (and some state government) websites are expected to abide by [http://www.section508.gov/ Section 508]. Section 508 is a document that tries to define what the minimum requirements are to achieve accessiblity. Section 508 covers more than just websites; it also deals with any other technology that might be used by a federal employee. In Europe the European Commission has recognised the W3C’s Web Accessibility Initiative (WAI) and recommended it for use with all member states. The [http://w3.org/WAI WAI] produces guidelines for websites, web authoring tool manufacturers and web browsers (for example, the WCAG, which I’ll look at later on.)
 
 ===Potential Markets=== 
 
-When you only make web sites (or anything else) for one specific type of person you are excluding other types of people even if you don’t realize it, and these people can easily add up to a significant (if not a majority) market share. In 2000 the UK supermarket chain Tesco started a project to make a separate version of their online grocery site specifically targeting people with visual impairments. It was noted by Julie Howell of the RNIB that “Work undertaken by Tesco.com to make their home grocery service more accessible to blind customers has resulted in revenue in excess of £13m per annum, revenue that simply wasn’t available to the company when the web site was inaccessible to blind customers.” So if Tesco hadn’t considered people with visual impairments they would have been missing out on a market of customers that was worth at least £13 million.
+When you only make websites (or anything else) for one specific type of person you are excluding other types of people even if you don’t realize it, and these people can easily add up to a significant (if not a majority) market share. In 2000 the UK supermarket chain Tesco started a project to make a separate version of their online grocery site specifically targeting people with visual impairments. It was noted by Julie Howell of the RNIB that “Work undertaken by Tesco.com to make their home grocery service more accessible to blind customers has resulted in revenue in excess of £13m per annum, revenue that simply wasn’t available to the company when the website was inaccessible to blind customers.” So if Tesco hadn’t considered people with visual impairments they would have been missing out on a market of customers that was worth at least £13 million.
 
 {{TODO| citation }}
 
@@ -63,9 +64,9 @@ The core lesson here is that people of all abilities need the same services; gro
 
 ===Search Engines=== 
 
-Search engines are not people. Often when people build web sites they do it without considering how they are going to be found on Google, Yahoo, etc. Search engines are just computer programs, and they can only use information they can understand to index your site. This makes them much like the screen readers that a person with a visual impairment might use.
+Search engines are not people. Often when people build websites they do it without considering how they are going to be found on Google, Yahoo, etc. Search engines are just computer programs, and they can only use information they can understand to index your site. This makes them much like the screen readers that a person with a visual impairment might use.
 
-The most obvious example of how this affects web design is images. Computers display images by having a list of what color every pixel is and sending that information to the monitor. If you put an image on a web page that contains some text, for example a logo, the computer has no idea what that text says or even that the image contains text. In HTML the image element contains a way to describe in text the contents of an image, the <code>alt</code> attribute. You should provide text to describe all non-decorative images on your site, and you certainly shouldn’t represent whole paragraphs of text as images (or Flash for that matter)—blind people and search engines won’t have a clue what the text says! As a result, your search engine ranking (ie how easy it is to find your web site using search engines such as Google) will suffer and you’ll be needlessly missing out on a valuable market.
+The most obvious example of how this affects web design is images. Computers display images by having a list of what color every pixel is and sending that information to the monitor. If you put an image on a web page that contains some text, for example a logo, the computer has no idea what that text says or even that the image contains text. In HTML the image element contains a way to describe in text the contents of an image, the <code>alt</code> attribute. You should provide text to describe all non-decorative images on your site, and you certainly shouldn’t represent whole paragraphs of text as images (or Flash for that matter)—blind people and search engines won’t have a clue what the text says! As a result, your search engine ranking (ie how easy it is to find your website using search engines such as Google) will suffer and you’ll be needlessly missing out on a valuable market.
 
 ===Ethics and branding=== 
 
@@ -77,7 +78,7 @@ By making responsible choices in policy and genuinely demonstrating that you are
 
 The key to accessibility is thinking about a problem and knowing you are going to solve it for more than one kind of user. If you try to treat accessibility like something you can bolt on at the end then you will get a nasty-bolted-on-at-the-end thing. It’ll take longer, won’t work as well and look damned ugly.
 
-The best way to achieve a well-engineered solution is to design with all the requirements in mind from the start. This doesn’t mean you shouldn’t change your plan or add some things you missed, but you should try to be aware of what the complete problem you are trying to design for is. In the case of web sites this means creating a solution usable by all your users including those who may not be able to use a mouse, or a keyboard, or a monitor, etc.
+The best way to achieve a well-engineered solution is to design with all the requirements in mind from the start. This doesn’t mean you shouldn’t change your plan or add some things you missed, but you should try to be aware of what the complete problem you are trying to design for is. In the case of websites this means creating a solution usable by all your users including those who may not be able to use a mouse, or a keyboard, or a monitor, etc.
 
 ==Interoperability requirements== 
 
@@ -93,7 +94,7 @@ There also tends to be a lag between the arrival of supporting technology and it
 
 So when you aim to build websites for the public Web, you need to take some account of interoperability with a highly varying client-side user/technology combination. There are four approaches:
 
-*Progressively enhance your web site, testing for support as you go.
+*Progressively enhance your website, testing for support as you go.
 *Allow users to turn off problematic enhancements.
 *Provide alternate versions with the same content or functionality.
 *Advise your clients on what technologies they need to support and give examples of companies that do support those technologies.
@@ -107,7 +108,7 @@ For example, you might be developing an intranet training application for a larg
 Organizational IT policies may change, and the best attempts to make JavaScript functionality operable and exploit the accessibility feature-sets of plugins may fail, so even if you have a technology baseline progressive enhancement from a core HTML layer is still a good idea.
 
 ==Features of an accessible web page==
-In this section I will go through the different accessible features of a web site—that is, what an accessible web site should contain. I’ll explain each one in detail.
+In this section I will go through the different accessible features of a website—that is, what an accessible website should contain. I’ll explain each one in detail.
 
 ===Semantic structure===
 
@@ -142,7 +143,7 @@ When images are used for things other than content, such as navigation, or purel
 
 In the case of purely decorative images, images used for tracking adverts, or any other image that a user wouldn’t be expected to be interested in or interact with, you should set the <code>alt</code> attribute to be empty. This does not mean omitting the attribute but setting <code>alt=""</code>. This is because of a tactic screen readers have used to help their users cope with very inaccessible pages. When an image doesn’t have an <code>alt</code> attribute, especially when it’s part of a link, the screen reader reads the URL of the image to the user. This is so they can guess what the image is from the URL, for example if the image is named something like <code>add_to_cart.gif</code>. Therefore, you should set <code>alt=""</code> on images that you know the user won’t be interested in, so that screenreaders won’t read out ''every'' image’s URL, which could be rather frustrating for the screen reader user.
 
-Not all forms of content are as simple as an image. More complex media like Flash (Flash files can be whole web sites in themselves) or movies require more complex descriptions. The most recent versions of Flash allow you to provide text alternatives for the items within the Flash movie, just like in HTML.
+Not all forms of content are as simple as an image. More complex media like Flash (Flash files can be whole websites in themselves) or movies require more complex descriptions. The most recent versions of Flash allow you to provide text alternatives for the items within the Flash movie, just like in HTML.
 
 ===Defining interaction===
 
@@ -240,13 +241,13 @@ In this section I will review some of the standards and guidelines available tha
 
 ===Web Content Accessibility Guidelines 1.0===
 
-The W3C is one of the primary standards bodies on the internet. Their Web Accessibility Initiative (WAI) published the first version of their guidelines for making web sites accessible in May 1999. The Web Content Accessibility Guidlines (WCAG) are the most widely used standard for Accessibility on the Web. The use of WCAG 1.0 has been suggested or mandated by a number of governmental bodies including the EU and the Italian government.
+The W3C is one of the primary standards bodies on the internet. Their Web Accessibility Initiative (WAI) published the first version of their guidelines for making websites accessible in May 1999. The Web Content Accessibility Guidlines (WCAG) are the most widely used standard for Accessibility on the Web. The use of WCAG 1.0 has been suggested or mandated by a number of governmental bodies including the EU and the Italian government.
 
 WCAG 1.0 is a set of 14 Guidelines that try to encapsulate the goals necessary to achieving an accessible page. Within each guideline are a number of checkpoints, which are the real meat of the document. While the guidelines explain the concepts the authors had in mind, the checkpoints are what are used to validate conformance. Each of the checkpoints are ranked from priority 1 to priority 3, to illustrate how important they are. In order to conform to WCAG 1.0 you must complete every priority 1 checkpoint. Adhering to all of the priority 1 checkpoints gives you a conformance rating of “A”. If you meet all the priorty 2 checkpoints ''as well'' then you conform to “AA”. Should you meet all the priority 1, 2 and 3 checkpoints then you would conform to “AAA”, which is the highest rating.
 
 In reality WCAG 1.0 is a little old-fashioned. A lot of companies start by conforming to level “A” or “AA” and then adding in some common sense and real user testing. WCAG 1.0 is a good starting point, but you should be looking towards some of the newer standards, especially if you use a lot of JavaScript, or other technologies that matured after 1999, when the WCAG 1.0 was released.
 
-Another important thing to note about the WCAG 1.0 standard is it was designed to be part of a suite of 3 documents. Another one covered “User Agents”, which describes browsers (like Opera) and any extra technology people might need to use the web (like screen readers). The third covered authoring tools such as Dreamweaver or content management systems—it aims to try to make these tools do more of the work of making pages accessible. Unfortunately this vision hasn’t played out and the only standard out of the 3 to be widely adopted was WCAG 1.0. This means that often the expectations of WCAG 1.0 regarding user agents aren’t met, and very little of the burden of making web sites accessible is taken off you by authoring tools. This doesn’t mean you shouldn’t use WCAG 1.0; it simply means that it only meets part of accessiblity and is not a complete solution.
+Another important thing to note about the WCAG 1.0 standard is it was designed to be part of a suite of 3 documents. Another one covered “User Agents”, which describes browsers (like Opera) and any extra technology people might need to use the web (like screen readers). The third covered authoring tools such as Dreamweaver or content management systems—it aims to try to make these tools do more of the work of making pages accessible. Unfortunately this vision hasn’t played out and the only standard out of the 3 to be widely adopted was WCAG 1.0. This means that often the expectations of WCAG 1.0 regarding user agents aren’t met, and very little of the burden of making websites accessible is taken off you by authoring tools. This doesn’t mean you shouldn’t use WCAG 1.0; it simply means that it only meets part of accessiblity and is not a complete solution.
 
 ===Web Content Accessibility Guidelines 2.0===
 
@@ -260,7 +261,7 @@ WCAG 2.0 is slightly different in it attempts to be more technology-agnostic tha
 *'''Robust''' Any solution provided should be using widely available on different platforms or systems. This is to stop people inventing solutions that the majority of people wouldn’t be able to use because the hardware/software is restricted or prohibitively expensive.  
 
 
-It’s important to note that web sites aren’t expected to fulfill all of these requirements. The technology a user has should do some of the work too. For example it is expected that a screen reader will read pages to people who need it, rather than every web site providing an audio version of the content. However, the web site is expected to provide pages that can be read using common screen reading technology in order to make this possible. This difference is important, as it’s the difference between a web site with an “accessibility widgets” (like a button to make the fonts a bit bigger) and a web page that will work in a multitude of different situations (eg varying browsers and devices that would be impossible to anticipate).
+It’s important to note that websites aren’t expected to fulfill all of these requirements. The technology a user has should do some of the work too. For example it is expected that a screen reader will read pages to people who need it, rather than every website providing an audio version of the content. However, the website is expected to provide pages that can be read using common screen reading technology in order to make this possible. This difference is important, as it’s the difference between a website with an “accessibility widgets” (like a button to make the fonts a bit bigger) and a web page that will work in a multitude of different situations (eg varying browsers and devices that would be impossible to anticipate).
 
 WCAG 2.0 also differs from WCAG 1.0 in the approach to technology. Since the standard is more technology-agnostic and deals with concepts about accessibility rather than concrete technical details it’s important to pay attension to the surrounding documents to the standard. The [http://www.w3.org/TR/WCAG20/ WCAG 2.0 specification] provides the understanding but the [http://www.w3.org/TR/WCAG20-TECHS/ “techniques” document] provides solid implementable pieces of information for the developer. This is broken up into “general” techniques (technology ambiguous) and specifics for individual W3C technologies. The W3C doesn’t write documents for proprietary technologies so you’ll have to find techniques for technologies like Flash and Silverlight from other sources.
 
@@ -280,12 +281,12 @@ There are many other standards for web accessibility too numerous to go into muc
 
 ==Summary==
 
-Accessibility is an important topic for both economic and social reasons. It is not a feature of a web site, but a measure of the quality it was built with. If you consider your site's audience as you are building it (and before) you will build more accessible pages with all the benefits that this brings. There are a number of well-known guidelines to help you—by conforming to those guidelines you can ensure that what you have built meets expert criteria in making your pages accessible.
+Accessibility is an important topic for both economic and social reasons. It is not a feature of a website, but a measure of the quality it was built with. If you consider your site's audience as you are building it (and before) you will build more accessible pages with all the benefits that this brings. There are a number of well-known guidelines to help you—by conforming to those guidelines you can ensure that what you have built meets expert criteria in making your pages accessible.
 
 ==Exercise questions==
 
-*Give 3 reasons why it’s important to build accessible web sites.
-*Use the internet to research the accessibility laws in your country and make a list of any laws that you think would apply to your web sites. Make sure you include if they ask you to use any web standards such as WCAG or Section 508.
+*Give 3 reasons why it’s important to build accessible websites.
+*Use the internet to research the accessibility laws in your country and make a list of any laws that you think would apply to your websites. Make sure you include if they ask you to use any web standards such as WCAG or Section 508.
 *Explain how accessibility is important to search engine optimisation.
 *Create an example of an accessible use of alternative content using some of your own content, such as a photo.
 *Use the internet to research how you would make a technology like Flash or Silverlight accessible and write a comparison between making them accessible, and how you make HTML accessible.
@@ -294,6 +295,7 @@ Accessibility is an important topic for both economic and social reasons. It is 
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
