@@ -105,6 +105,10 @@ CSS allows you to style your content through a set of [[css/selectors|selectors]
 
 CSS development is handled by the CSS working group. To find out more, including how to participate, go to the [http://www.w3.org/Style/CSS/ CSS working group home page]. For providing feedback and asking questions related to contributing to specs, a good place is the [http://lists.w3.org/Archives/Public/www-style/ www-style mailing list]. Bear in mind that it is not a suitable place for "how do I use CSS to style my web page" type questions.
 
+==Contributing to the CSS reference pages==
+
+[[WPD:CSS_property_guide]]
+
 == Index of all CSS topics ==
 
 {{Special:PrefixIndex/css/}}
