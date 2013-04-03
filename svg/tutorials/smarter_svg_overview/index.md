@@ -5,9 +5,7 @@
 {{Byline
 |Name=Mike Sierra
 }}
-{{Summary_Section|This guide introduces SVG graphics, showing you how
-to build a pair of animating eyeballs, along the way stepping through
-various SVG features detailed in other tutorials.}}
+{{Summary_Section|This guide introduces SVG graphics, showing you how to build a pair of animating eyeballs, along the way stepping through various SVG features detailed in other tutorials.}}
 {{Tutorial
 |Content=SVG is a standard markup format, like HTML and XML, that
 renders ''Scalable Vector Graphics'' within web browsers.  ''Vector'' or
@@ -67,7 +65,9 @@ You can add [[svg/elements/title|'''title''']] and
 [[svg/elements/desc|'''desc''']] tags wherever necessary to comment
 your markup.
 
-[[svg/tutorials/smarter_svg_deploy|'''svg''']]
+See [[svg/tutorials/smarter_svg_deploy|'''SVG deployment''']] for
+details.
+
 
 ==The eyeball==
 
