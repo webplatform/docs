@@ -1,16 +1,17 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Not Neutral, Cleanup, Broken Links, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=Yes
+|Content=Broken Links, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|Non-Standard}}
 {{API_Name}}
 {{Summary_Section|Sets the horizontal position of a background image.}}
 {{CSS Property
+|Initial value=0%
 |Applies to=All elements
 |Inherited=No
 |Media=visual
+|Computed value=as specified
 |Animatable=No
 |Values={{CSS Property Value
 |Data Type=length
@@ -20,23 +21,48 @@
 |Description=Integer, followed by a percent sign (%). The value is a percentage of the width or height of the object.
 }}{{CSS Property Value
 |Data Type=hAlignment
-|Description=Horizontal alignment value.
+|Description=Horizontal alignment value (e.g. "left", "right", or "center").
 }}
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|Description=Moving the background image to the right by 50px.
+|Code=background-position-x: 50px;
+}}{{Single Example
+|Language=CSS
+|Description=Moving the background image to the left by 50px.
+|Code=background-position-x: -50px;
+}}{{Single Example
+|Language=CSS
+|Description=Moving the background image to the right by half the width of its element.
+|Code=background-position-x: 50%;
+}}{{Single Example
+|Language=CSS
+|Description=Moving the background image to the left by half the width of its element.
+|Code=background-position-x: -50%;
+}}{{Single Example
+|Language=CSS
+|Description=Centering a background image inside its element.
+|Code=background-position-x: center;
+}}
 }}
 {{Notes_Section
+|Usage====Usage===
+* Often used to manipulate sprites (i.e. using CSS to expose small portions of a single background image, which is composed of multiple smaller images, such that HTTP requests are reduced).
+* If browser support is of utmost importance, use [[background-position]] instead.
 |Notes====Remarks===
-Windows Internet Explorer 8. The '''-ms-background-position-x''' attribute is an extension to CSS, and can be used as a synonym for '''background-position-x''' in IE8 Standards mode.
+* Windows Internet Explorer 8. The '''-ms-background-position-x''' attribute is an extension to CSS, and can be used as a synonym for '''background-position-x''' in IE8 Standards mode.
+
+* Although background-position-x is currently non-standard, Jonathan Snook provides a case for its inclusion regarding right-to-left languages, such as Arabic or Hebrew. When using sprites, developers would be able to accomodate LTR and RTL environments with a single line of code by including the background-position-x property, rather than redeclaring every single sprite's position in their stylesheet.  [http://snook.ca/archives/html_and_css/background-position-x-y Read his blog entry on this and the background-position-y property.]
 |Import_Notes====Syntax===
-<code>'''-ms-background-position-x: '''length '''{{!}}''' percentage '''{{!}}''' hAlignment</code>
+<code>'''background-position-x: '''length '''{{!}}''' percentage '''{{!}}''' hAlignment</code>
 ===Standards information===
 There are no standards that apply here.
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -80,6 +106,6 @@ There are no standards that apply here.
 |Is_CC-BY-SA=No
 |Sources=MSDN
 |MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ff521123(v=vs.85).aspx]
 |HTML5Rocks_link=
 }}
