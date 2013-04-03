@@ -1,5 +1,6 @@
 {{Page_Title}}
 {{Flags
+|Checked_Out=No
 }}
 {{Byline}}
 {{Summary_Section|Now that you've built a web app, it's important to test it so that you know users are getting the best experience possible. We've split this document into Mobile and Desktop, and provided information on some of the best tools out there to help you ensure your apps are built to the highest standards.}}
@@ -172,7 +173,7 @@ JS TestDriver brings [http://en.wikipedia.org/wiki/Test-driven_development Test-
 Jasmine is a [http://en.wikipedia.org/wiki/Behavior_Driven_Development Behavior-driven Development] Javascript framework without any external dependencies or requirements. Like JS TestDriver, Jasmine does not operate on the DOM and is most useful for testing business logic running in the browser.
 
 === [http://developer.yahoo.com/yui/ YUI Library] ===
-YUI's test harness is a very solid unit testing tool of the xUnit family. It can be used outside of YUI Library itself. It supports asynchronous testing and and has rock solid export tools.
+YUI's test harness is a very solid unit testing tool of the xUnit family. It can be used outside of YUI Library itself. It supports asynchronous testing and has rock solid export tools.
 
 === [http://ripple.tinyhippos.com/ Ripple] ===
 Ripple is a Google Chrome browser extension that lets you test your mobile web app in multiple environments in minutes. It's a very simple and powerful tool.
