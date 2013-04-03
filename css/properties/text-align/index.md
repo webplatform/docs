@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Missing Relevant Sections, Data Not Semantic, Unreviewed Import
+|High-level issues=Missing Relevant Sections, Needs Review
+|Content=Compatibility Incomplete, Examples Needed
 |Checked_Out=Yes
 }}
 {{Standardization_Status}}
@@ -16,10 +17,10 @@
 |CSS object model property=textAlign
 |Values={{CSS Property Value
 |Data Type=start
-|Description=Experimental. The same as left if direction is left-to-right and right if direction is right-to-left.
+|Description=The same as ''<code>left</code>'' if direction is left-to-right and ''<code>right</code>'' if direction is right-to-left. '''''Experimental'''
 }}{{CSS Property Value
 |Data Type=end
-|Description=Experimental. The same as right if direction is left-to-right and left if direction is right-to-left.
+|Description=The same as ''<code>right</code>'' if direction is left-to-right and ''<code>left</code>'' if direction is right-to-left. '''''Experimental'''
 }}{{CSS Property Value
 |Data Type=left
 |Description=The inline contents are aligned to the left edge of the line box.
@@ -31,13 +32,13 @@
 |Description=The inline contents are centered within the line box.
 }}{{CSS Property Value
 |Data Type=<string>
-|Description=Experimental. The first occurrence of the one-char string is the element used for alignment. the keyword that follows or precedes it indicates how it is aligned. This allows to align numeric values on the decimal point, for instance.
+|Description=The first occurrence of the one-char string is the element used for alignment. the keyword that follows or precedes it indicates how it is aligned. This allows to align numeric values on the decimal point, for instance. '''''Experimental'''
 }}{{CSS Property Value
 |Data Type=justify
 |Description=The text is justified. Text should line up their left and right edges to the left and right content edges of the paragraph.
 }}{{CSS Property Value
 |Data Type=match-parent
-|Description=Experimental. Similar to inherit with the difference that the value start and end are calculated according the parent's direction and are replaced by the adequate left or right value.
+|Description=Similar to inherit with the difference that the value ''<code>start</code>'' and ''<code>end</code>'' are calculated according the parent's direction and are replaced by the adequate ''<code>left</code>'' or ''<code>right</code>'' value. '''''Experimental'''
 }}
 }}
 {{Examples_Section
@@ -111,10 +112,6 @@ This example uses '''p''' as a selector and two classes to call an embedded styl
 |Notes====Remarks===
 The property applies to block elements. The property is inherited by all block-level objects inside a '''div''' object. This parameter receives null if the attribute is not set.
 The '''justify''' possible value is available as of Microsoft Internet Explorer 4.0.
-|Import_Notes====Syntax===
-<code>'''text-align: '''left '''{{!}}''' right '''{{!}}''' center '''{{!}}''' justify</code>
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 5.4.6
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
