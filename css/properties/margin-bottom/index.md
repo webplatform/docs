@@ -8,64 +8,72 @@
 {{API_Name}}
 {{Summary_Section|Sets the bottom margin of an element.
 
-The margin-bottom property specifies the width between the element's bottom border and the element's outer edge.
+Margin-bottom clears an area below an element (outside the border). The margin does not have a background color, and is completely transparent.
 }}
 {{CSS Property
 |Initial value=0
-|Applies to=All elements
+|Applies to=All elements except elements with table display types other than table-caption, table, and inline-table.
 |Inherited=No
 |Media=visual
+|Computed value=The percentage as specified or the absolute length.
 |Animatable=No
 |Values={{CSS Property Value
-|Data Type=margin-width
-|Description=Default. Bottom margin is set equal to the top margin.
-
-A specific length, a percentage of the parent element's width or the keyword auto.
-}}{{CSS Property Value
 |Data Type=length
-|Description=Specifies a fixed width. Negative Values are allowed.
+|Description=Specifies a fixed width. Negative values are allowed.
 }}{{CSS Property Value
 |Data Type=percentage
-|Description=A <percentage> relative to the width of the containing block. Negative values are allowed.
+|Description=A percentage of the width of the containing block. Negative values are allowed.
 }}{{CSS Property Value
 |Data Type=auto
-|Description=auto is replaced by some suitable value by the browser.
+|Description=The browser calculates a bottom margin.
 }}{{CSS Property Value
 |Data Type=inherit
-|Description=Integer, followed by a percent sign (%). The value is a percentage of the height of the parent object.
-
-Use the same computed value as the parent element for this property.
+|Description=Inherits the parent element's specified margin-bottom width.
 }}
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=The following examples use the '''margin-bottom''' attribute and the '''margin-bottom''' property to change the margin of the object.
+|Language=CSS
+|Description=Clearing the space below an element by 2cm.
+|Code=margin-bottom: 2cm;
 
-This example uses the '''img''' object as a selector to set the bottom margin on images to 2 centimeters.
-|Code=&lt;STYLE&gt;
-    IMG { margin-bottom:2cm }
-&lt;/STYLE&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/margin-bottom.htm
 }}{{Single Example
+|Language=CSS
+|Description=Clearing the space below an element by 20% of its container's height.
+|Code=margin-bottom: 20%;
+}}{{Single Example
+|Language=CSS
+|Description=Allowing the browser to decide how much clearance to give an element below its lowest edge.
+|Code=margin-bottom: auto;
+}}{{Single Example
+|Language=CSS
+|Description=Inheriting the parent element's margin-bottom specification.
+|Code=margin-bottom: inherit;
+}}{{Single Example
+|Language=JavaScript
 |Description=This example uses inline scripting to set the bottom margin of the image to 1 centimeter when an [[dom/events/mouseover|'''onmouseover''']] event occurs.
-|Code=&lt;IMG src{{=}}"sphere.jpg"onmouseover{{=}}"this.style.marginBottom{{=}}'1cm'"&gt;
+|Code=&lt;img src{{=}}"sphere.jpg"onmouseover{{=}}"this.style.marginBottom{{=}}'1cm'"&gt;
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/marginBottom.htm
 }}
 }}
 {{Notes_Section
+|Usage====Syntax===
+id, class, or html element {
+     margin-bottom: value;
+}
+
+===Usage===
+When calculating the height and width of an element, DO NOT include the margins in your calculations (i.e. include everything else: content area, padding, and border). However, DO include margin size when calculating available space within an element's containing element.
 |Notes====Remarks===
 As of Microsoft Internet Explorer 4.0 or later, you can specify possible length values relative to the height of the element's font (<code>em</code>) or the height of the letter "x" (<code>ex</code>).
 In Microsoft Internet Explorer 3.0, the specified margin value is added to the default value of the object. In Internet Explorer 4.0 or later, the margin value is absolute. The margin properties do not work with the '''td''' and '''tr''' objects in Internet Explorer 4.0, but they do work in Internet Explorer 3.0. To set margins in the cell for Internet Explorer 4.0 or later, apply the margin to an object, such as '''div''' or '''p''', within the '''td'''.
 As of Microsoft Internet Explorer 5.5, this property applies to inline elements. With earlier versions of  Windows Internet Explorer, inline elements must have an '''absolute''' [[css/properties/position|'''position''']] or layout to use this property. Element layout is set by providing a value for the [[css/properties/height|'''height''']] property or the [[css/properties/width|'''width''']] property.
 For inline elements, the value of this property is used to compute the border area of a surrounding inline element, if present. This value does not contribute to the height of a line.
 Negative margins are supported, except for top and bottom margins on inline objects.
-|Import_Notes====Syntax===
-<code>'''margin-bottom: '''''
-&lt;margin-width&gt;
-'' '''{{!}}''' inherit</code>
+
 ===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 5.5.3
+*[http://www.w3.org/TR/CSS2/box.html#propdef-margin-bottom w3.org's recommendation]
 }}
 {{Related_Specifications_Section
 |Specifications=
@@ -139,16 +147,12 @@ Negative margins are supported, except for top and bottom margins on inline obje
 *<code>[[dom/defaultSelected|defaults]]</code>
 *<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
 *<code>[[css/cssom/style|style]]</code>
-*<code>Conceptual</code>
-*<code>CSS Values and Units Reference</code>
-*<code>Other Resources</code>
-*<code>CSS Enhancements in Internet Explorer 6</code>
 }}
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
 |MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ms530802(v=vs.85).aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
