@@ -1,5 +1,6 @@
 {{Page_Title}}
 {{Flags
+|Checked_Out=Yes
 }}
 {{Byline}}
 {{Summary_Section|In this article we discuss what JavaScript can be used for on the web, its downsides, and how to use it responsibly.}}
@@ -118,6 +119,7 @@ JavaScript is also not restricted to browsers. The speed and small memory footpr
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
