@@ -1,7 +1,8 @@
 {{Page_Title|&#58;checked}}
 {{Flags
 |High-level issues=Missing Relevant Sections
-|Content=Incomplete,Compatibility Incomplete
+|Content=Incomplete, Compatibility Incomplete
+|Checked_Out=Yes
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -9,7 +10,7 @@
 {{CSS_Selector}}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example}}
 }}
 {{Notes_Section
 |Import_Notes=*[http://go.microsoft.com/fwlink/p/?linkid{{=}}199783 Selectors Level 3], Section 6.6.4.2
@@ -24,12 +25,13 @@
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=Selectors, Pseudo-Classes
+|Topic_clusters=Pseudo-Classes, Selectors
 |Manual_sections====Related pages (MSDN)===
 *<code>Reference</code>
 *<code>[[css/selectors/pseudo-classes/:enabled|:enabled]]</code>
