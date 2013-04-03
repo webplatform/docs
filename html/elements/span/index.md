@@ -24,8 +24,8 @@
 |Notes====Remarks===
 The '''SPAN''' element is especially useful for applying cascading style sheets (CSS) styles.
 |Import_Notes====Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}196991 Document Object Model (DOM) Level 2 HTML Specification], Section 1.6.5
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 7.5.4
+*[http://www.w3.org/TR/DOM-Level-2-HTML/html#ID-58190037 Document Object Model (DOM) Level 2 HTML Specification], Section 1.6.4
+*[http://www.w3.org/TR/html401/struct/global.html#h-7.5.4 HTML 4.01 Specification], Section 7.5.4
 
 
 ===HTML information===
