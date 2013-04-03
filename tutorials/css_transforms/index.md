@@ -1,12 +1,12 @@
 {{Page_Title|Manipulating content with CSS3 transforms}}
 {{Flags
 |Content=Grammar/Spelling
-|Checked_Out=Yes
+|Checked_Out=No
 }}
 {{Byline
 |Name=Mike Sierra
 }}
-{{Summary_Section|CSS transforms allow you to dynamically manipulate the space in which content elements appear. You can move them around on the screen, shrink or expand them, rotate them, or combine all these effects to produce complex movements.  By themselves, transforms produce static visual effects, but they can be easily combined with CSS [[tutorials/css_transitions|transitions]] and [[tutorials/css_animations|keyframe animations]] to produce vibrant animated interfaces. This tutorial first introduces simple two-dimensional transforms, then shows you how to extend transforms into three-dimensional space.  It ends with step-by-step instructions to spin a cube in space.}}
+{{Summary_Section|CSS transforms allow you to dynamically manipulate the space in which content elements appear. You can move them around on the screen, shrink or expand them, rotate them, or combine all these effects to produce complex movements.  By themselves, transforms produce static visual effects, but they can be easily combined with CSS [[tutorials/css_transitions|transitions]] and [[tutorials/css_animations|keyframe animations]] to produce vibrant animated interfaces. This tutorial first introduces simple two-dimensional transforms, then shows you how to extend transforms into three-dimensional space.  It ends with step-by-step instructions on how to spin a cube in space.}}
 {{Tutorial
 |Content=These key points serve as reference:
 
@@ -24,7 +24,7 @@
 
 * Combined 3D transforms can be represented with the [[css/functions/matrix3d()|'''matrix3d()''']] function, which uses 16 parameters.
 
-* The [[css/properties/transform-origin|'''transform-origin''']] property controls what point of an element the transform appears to emanate from. Adding a pixel measurement for a third parameter, or for the alternate [[css/properties/transform-origin-z|'''transform-origin-z''']] property, moves the origin point back and forth in 3D space.
+* The [[css/properties/transform-origin|'''transform-origin''']] property controls which point of an element the transform appears to emanate from. Adding a pixel measurement for a third parameter, or for the alternate [[css/properties/transform-origin-z|'''transform-origin-z''']] property, moves the origin point back and forth in 3D space.
 
 * The [[css/properties/perspective|'''perspective''']] property situates a 3D scene relative to the viewer, with distance measured in pixels. To appear correctly, it must be applied to a transformed element's ancestor.
 
