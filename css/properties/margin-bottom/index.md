@@ -1,6 +1,5 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 |Checked_Out=No
 }}
@@ -21,7 +20,6 @@ The margin-bottom property specifies the width between the element's bottom bord
 |Description=Default. Bottom margin is set equal to the top margin.
 
 A specific length, a percentage of the parent element's width or the keyword auto.
-
 }}{{CSS Property Value
 |Data Type=inherit
 |Description=Integer, followed by a percent sign (%). The value is a percentage of the height of the parent object.
