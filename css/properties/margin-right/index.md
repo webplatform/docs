@@ -1,14 +1,12 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
-|Content=Cleanup, Examples Best Practices
 |Checked_Out=Yes
 }}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|Sets the right margin of an element.
 
-Margin-right clears an area to the right of an element (outside the border). The margin does not have a background color, and is completely transparent.
+Margin-right creates space outside the outer edge of an element (beyond the right border). Margins are transparent.
 }}
 {{CSS Property
 |Initial value=0
