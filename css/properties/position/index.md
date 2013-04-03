@@ -4,7 +4,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|The position property controls the type of positioning used by an element within its parent elements. The effect of the position attribute depends on a lot of factors, for example the value of position property of parent elements.}}
+{{Summary_Section|The position property controls the type of positioning used by an element within its parent elements. The effect of the position property depends on a lot of factors, for example the position property of parent elements.}}
 {{CSS Property
 |Initial value=static
 |Applies to=All elements
@@ -28,19 +28,13 @@
 }}{{CSS Property Value
 |Data Type=inherit
 |Description=Inherits the value of the parent element.
-}}{{CSS Property Value
-|Data Type=sticky (Webkit)
-|Description=The lovechild of "static" and "fixed", an object with this value behaves as relative until a threshold defined by a top/bottom/left/right property is crossed, at which point it behaves as position: fixed within its positioned parent container.
-}}{{CSS Property Value
-|Data Type=page (Internet Explorer 10)
-|Description=Positioned floats only. (The [[css/properties/display|'''display''']] property must be set to '''-ms-positioned'''.) Object is positioned relative to the nearest [http://go.microsoft.com/fwlink/p/?LinkId{{=}}226824 initial containing block]. This may be the browser or application window or a content container such as an '''iframe'''. The [[css/properties/bottom|'''bottom''']], [[css/properties/top|'''top''']], [[css/properties/left|'''left''']], and [[css/properties/right|'''right''']] properties are used to position the element relative to the boundaries of the viewport that the positioned float would normally be placed in (that is, if '''position:static''' was set). For more information, see Positioned Floats.
 }}
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=The example shows the usage of different position values on a child dependent of the position value of its parent.
+|Description=The example shows how a child element’s position depends on the position value of its parent, as well as its own position value.
 |Code=&lt;section class="parent static"&gt;
     &lt;div class="child absolute"&gt;
         &lt;p&gt;absolute&lt;/p&gt;
@@ -71,7 +65,7 @@
 |LiveURL=http://jsfiddle.net/DqxfR/
 }}{{Single Example
 |Language=CSS
-|Description=Watch how the child positions itself within the parent, dependent on the value of position on both elements.
+|Description=Watch how the child positions itself relative to the parent, depending on the value of position for both elements.
 |Code=.static {
     position: static;
 }
@@ -116,7 +110,7 @@
 |LiveURL=http://jsfiddle.net/58ybJ/1/
 }}{{Single Example
 |Language=CSS
-|Description=While the .long-scrollable section os scrolled down, the .nav-fixed stays fixed on top of the viewport.
+|Description=While the .long-scrollable section is scrolled down, the .nav-fixed stays fixed at the top of the viewport.
 |Code=.long-scrollable {
     border: 2px dotted #999;
     height: 2000px;
@@ -136,29 +130,10 @@
 }}
 {{Notes_Section
 |Usage====Static (Default)===
-The positioned float is laid out according to normal HTML flow.
-
-
-===Absolute===
-Setting the property to '''absolute''' pulls the object out of the "flow" of the document and positions it regardless of the layout of surrounding objects. If other objects already occupy the given position, they do not affect the positioned object, nor does the positioned object affect them. Instead, all objects are drawn at the same place, causing the objects to overlap. (This overlap is controlled by using the [[css/properties/z-index|z-index]] attribute or property.)
-
-To enable absolute positioning on an object you must specify at least one of the [[css/properties/top|top]], [[css/properties/bottom|bottom]], [[css/properties/left|left]] or [[css/properties/right|right]] properties, in addition to setting the position property to absolute. Otherwise, these positioning properties use their default value of absolute, which causes the object to render immediately after the preceding elements, according to the layout rules of HTML.
-
-Absolute positioning behaves differently dependent on the position value of the parent element. If a child element is set to position: absolute it behaves like this: 
-
-* If the parents position is '''static''' or '''default''', the position of the child element is calculated relative to the whole document based on the values in [[css/properties/top|top]], [[css/properties/bottom|bottom]], [[css/properties/left|left]] or [[css/properties/right|right]] attributes.
-* If the parents position is not static ('''relative''', '''absolute''' or '''fixed''') the position of the child is calculated relative to the parent element and based on [[css/properties/top|top]], [[css/properties/bottom|bottom]], [[css/properties/left|left]] or [[css/properties/right|right]] attributes.
-
-Absolutely positioned objects do not have '''margins''', but they do have borders and padding.
-
-====Side Note====
-Input from pointing devices, such as the mouse, does not penetrate through overlapping elements even if the elements are not visible. This is also true for positioned elements with a negative z-index unless:
-
-* The parent is a scrolling container (that is, its overflow property is set to auto or scroll). 
-* The parent is positioned (that is, its position property is set to absolute or relative).
+The element is laid out according to normal HTML flow.
 
 ===Relative===
-Setting the property to '''relative''' places the object in the natural HTML flow of the document, but offsets the position of the object based on the preceding content. The following syntax shows how to create superscript text by placing the text in a span that is positioned relative to the remaining text in the paragraph.
+Setting the property to '''relative''' places the object in the natural HTML flow of the document, but offsets the position of the object from its normal position. The following syntax shows how to create superscript text by placing the text in a span that is positioned relative to its original position. 
 
 <syntaxHighlight>
 <p>The superscript in this name 
@@ -174,9 +149,25 @@ Setting the property to '''relative''' places the object in the natural HTML flo
 
 Text and objects that follow a relatively positioned object occupy their own space and do not overlap the natural space for the positioned object. In contrast, text and objects that follow an absolutely positioned object occupy what would have been the natural space for the positioned object before it was pulled out of the flow. Placing an absolutely positioned object beyond the viewable area of the window causes a scroll bar to appear. When relatively positioned objects are placed beyond the viewable area, a scroll bar is not shown. The size of the content determines the size of objects with layout. For example, setting the height and position properties on a div object gives it layout. The content of the div determines the size. In this case, the content determines the size of the width. 
 
+===Absolute===
+Setting the property to '''absolute''' pulls the object out of the "flow" of the document and positions it regardless of the layout of surrounding objects. If other objects already occupy the given position, they do not affect the positioned object, nor does the positioned object affect them. Instead, all objects are drawn at the same place, causing the objects to overlap. (This overlap is controlled by using the [[css/properties/z-index|z-index]] property.)
+
+Absolutely positioned elements are positioned relative to their containing blocks. The containing block for an absolutely positioned element is formed by the padding edge of the element’s nearest positioned ancestor-- the closest parent element that has a position value of ‘’’relative’’’, ‘’’absolute’’’, or ‘’’fixed’’’. If no positioned ancestor exists, the containing block is the initial containing block-- the viewport or the page box.
+
+The edges of the element can be specified relative to the edges of the containing block by using the [[css/properties/top|top]], [[css/properties/bottom|bottom]], [[css/properties/left|left]] and [[css/properties/right|right]] properties.
+
+Absolutely positioned objects do not have '''margins''', but they do have borders and padding.
+
+====Side Note====
+Input from pointing devices, such as the mouse, does not penetrate through overlapping elements even if the elements are not visible. This is also true for positioned elements with a negative z-index unless:
+
+* The parent is a scrolling container (that is, its overflow property is set to auto or scroll). 
+* The parent is positioned (that is, its position property is set to absolute or relative).
+
 
 ===Fixed===
 An element with a '''fixed''' position is positioned relative to the visible viewport. It does not move away if the browser window is scrolled but appears to be fixed in the viewport. A common pattern and example is to use position: fixed on navigation elements that should be visible on the whole page regardless of the scrollbar position. Fixed positioning is only supported for pages using a strict <!DOCTYPE> directive.
+
 |Notes====Layout Float===
 '''static''' The positioned float is laid out according to normal HTML flow.
 
@@ -261,6 +252,28 @@ An element with a '''fixed''' position is positioned relative to the visible vie
 |Safari_version=
 |Safari_prefixed_supported=Yes
 |Safari_prefixed_version=Nightlies
+}}{{Compatibility Table Desktop Row
+|Feature=position: page
+|Chrome_supported=No
+|Chrome_version=
+|Chrome_prefixed_supported=No
+|Chrome_prefixed_version=
+|Firefox_supported=No
+|Firefox_version=
+|Firefox_prefixed_supported=No
+|Firefox_prefixed_version=
+|Internet_explorer_supported=Yes
+|Internet_explorer_version=10
+|Internet_explorer_prefixed_supported=No
+|Internet_explorer_prefixed_version=
+|Opera_supported=No
+|Opera_version=
+|Opera_prefixed_supported=No
+|Opera_prefixed_version=
+|Safari_supported=No
+|Safari_version=
+|Safari_prefixed_supported=No
+|Safari_prefixed_version=
 }}
 |Mobile_rows={{Compatibility Table Mobile Row
 |Feature=position: static, absolute, relative
@@ -331,7 +344,9 @@ An element with a '''fixed''' position is positioned relative to the visible vie
 |Safari_mobile_prefixed_supported=Unknown
 |Safari_mobile_prefixed_version=
 }}
-|Notes_rows={{Compatibility Notes Row}}
+|Notes_rows={{Compatibility Notes Row
+|Browser=Internet 
+}}
 }}
 {{See_Also_Section
 |Topic_clusters=Box Model
