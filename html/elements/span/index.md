@@ -1,7 +1,5 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Unreviewed Import
-|Content=Incomplete, Cleanup
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
@@ -773,33 +771,59 @@ This property is not supported for Metro style apps using JavaScript.
 |Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
+|Chrome_version=All versions
 |Chrome_prefixed_supported=Yes
+|Chrome_prefixed_version=All versions
 |Firefox_supported=Yes
+|Firefox_version=All versions
 |Firefox_prefixed_supported=Yes
+|Firefox_prefixed_version=All versions
 |Internet_explorer_supported=Yes
+|Internet_explorer_version=All versions
 |Internet_explorer_prefixed_supported=Yes
+|Internet_explorer_prefixed_version=All versions
 |Opera_supported=Yes
+|Opera_version=All versions
 |Opera_prefixed_supported=Yes
+|Opera_prefixed_version=All versions
 |Safari_supported=Yes
+|Safari_version=All versions
 |Safari_prefixed_supported=Yes
+|Safari_prefixed_version=All versions
 }}
 |Mobile_rows={{Compatibility Table Mobile Row
 |Android_supported=Yes
+|Android_version=All versions
 |Android_prefixed_supported=Yes
+|Android_prefixed_version=All versions
 |Blackberry_supported=Yes
+|Blackberry_version=All versions
 |Blackberry_prefixed_supported=Yes
+|Blackberry_prefixed_version=All versions
 |Chrome_mobile_supported=Yes
+|Chrome_mobile_version=All versions
 |Chrome_mobile_prefixed_supported=Yes
+|Chrome_mobile_prefixed_version=All versions
 |Firefox_mobile_supported=Yes
+|Firefox_mobile_version=All versions
 |Firefox_mobile_prefixed_supported=Yes
+|Firefox_mobile_prefixed_version=All versions
 |IE_mobile_supported=Yes
+|IE_mobile_version=All versions
 |IE_mobile_prefixed_supported=Yes
+|IE_mobile_prefixed_version=All versions
 |Opera_mobile_supported=Yes
+|Opera_mobile_version=All versions
 |Opera_mobile_prefixed_supported=Yes
+|Opera_mobile_prefixed_version=All versions
 |Opera_mini_supported=Yes
+|Opera_mini_version=All versions
 |Opera_mini_prefixed_supported=Yes
+|Opera_mini_prefixed_version=All versions
 |Safari_mobile_supported=Yes
+|Safari_mobile_version=All versions
 |Safari_mobile_prefixed_supported=Yes
+|Safari_mobile_prefixed_version=All versions
 }}
 |Notes_rows=
 }}
