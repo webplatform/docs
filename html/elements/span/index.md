@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Groups inline elements in a document. The span element is both style and semantics '''neutral'''; the tag does not assign any style attributes or semantic meaning on its own.}}
+{{Summary_Section|Groups inline elements in a document. The span element is both style and semantics '''neutral'''; it does not assign any style attributes or semantic meaning on its own.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLSpanElement
 }}
