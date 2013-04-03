@@ -3,7 +3,6 @@
 |High-level issues=Stub, Missing Relevant Sections
 |Content=Not Neutral, Examples Best Practices
 |Checked_Out=No
-|Editorial notes=Meteor description is not in line with the other library descriptions. These library descriptions are not neutral. They should be rewritten to simply state library attributes (size, date issues, version available, number of users) and features (tempting, architecture, widgets etc.) "Ease of Use" etc. is a subjective claim that does not belong on webplatform.org
 }}
 {{Summary_Section|Introduction to JavaScript libraries}}
 {{Basic Page}}
@@ -82,7 +81,7 @@ This list showcases JavaScript libraries. They're sorted alphabetically. If you 
 |-
 |[http://meteor.com/ Meteor]
 | Complete Stack
-|Meteor is an open-source platform for building top-quality web apps in a fraction of the time, whether you're an expert developer or just getting started.
+|Meteor is a full-stack web application development environment. It runs on Node.js and functionalities can be extended by modules called Meteorites. 
 |-
 |[http://prototypejs.org/ Prototype]
 | Framework & Utilities
