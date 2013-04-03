@@ -47,11 +47,6 @@ Margin-bottom clears an area below an element (outside the border). The margin d
 |Language=CSS
 |Description=Inheriting the parent element's margin-bottom specification (an example of inherit).
 |Code=margin-bottom: inherit;
-}}{{Single Example
-|Language=JavaScript
-|Description=This example uses inline scripting to set the bottom margin of the image to 1 centimeter when an [[dom/events/mouseover|'''onmouseover''']] event occurs.
-|Code=&lt;img src{{=}}"sphere.jpg"onmouseover{{=}}"this.style.marginBottom{{=}}'1cm'"&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/marginBottom.htm
 }}
 }}
 {{Notes_Section
