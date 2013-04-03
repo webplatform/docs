@@ -1,5 +1,6 @@
 {{Page_Title|JavaScript functions}}
 {{Flags
+|Checked_Out=Yes
 }}
 {{Byline}}
 {{Summary_Section|This article discusses JavaScript functions, or how we create reusable pockets of code that we can call over and over again as we need.}}
@@ -179,6 +180,7 @@ With that, you now know pretty much everything you need to in order to begin spr
 }}
 {{Compatibility_Section
 |Not_required=Yes
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
