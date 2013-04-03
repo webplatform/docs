@@ -754,9 +754,8 @@ to zoom into the scene.
 
 Links use the same [[svg/elements/a|'''a''']] element as in HTML, but
 as usual the '''xlink:href''' attribute needs its namespace qualified.
-When targeting an internal [[svg/elements/view|'''view''']] element,
-its [[svg/attributes/viewBox|'''viewBox''']] value overrides that of
-the [[svg/elements/svg|'''svg''']] of which it is a descendant:
+This link encapsulates the wrapper for both eyes, so clickingon either
+one activates the link:
 
 <syntaxhighlight lang="xml">
 <a xlink:href="#zoomIn">
@@ -766,11 +765,75 @@ the [[svg/elements/svg|'''svg''']] of which it is a descendant:
 <view id="zoomIn" viewBox="100 50 100 100" />
 </syntaxhighlight>
 
+When linking to an internal [[svg/elements/view|'''view''']] element,
+its [[svg/attributes/viewBox|'''viewBox''']] value overrides that of
+the [[svg/elements/svg|'''svg''']] of which it is a descendant, thus
+zooming the scene:
+
 [[Image:svgGrandTour_eyeball_zoom.png|200px]]
 
 ==Animated Zoom==
 
-There are two problems ...
+There are two problems with the anchor-zoom navigation described
+above. First, it only works within SVG files, not inline SVG within
+HTML. Second, it executes abruptly, the same way anchor navigation
+scrolls an HTML page.
+
+Both problems can be fixed by overriding the default navigation.
+First, define alternate [[svg/elements/view|'''view''']] targets along
+with an [[svg/elements/animate|'''animate''']] element to shift
+between each target's [[svg/attributes/viewBox|'''viewBox''']].
+Setting [[svg/attributes/fill|'''fill''']] to '''freeze''' retains the
+zoom level after the animation ends:
+
+<syntaxhighlight lang="xml">
+<view id="zoomOut" viewBox="0 0 600 200" />
+<view id="zoomIn" viewBox="100 50 100 100" />
+
+<animate
+   id            = "zoomNav" 
+   attributeType = "XML"
+   attributeName = "viewBox" 
+   fill          = "freeze" 
+   />
+
+<a class="zoom" xlink:href="#zoomIn">
+  <use xlink:href="#eyes"/>
+</a>
+</syntaxhighlight>
+
+...
+
+<syntaxhighlight lang="javascript">
+var animate, svg; // corresponds to SVG elements
+var duration = '3s';
+
+window.onload = function() {
+    svg = document.querySelector('svg');
+    animate = document.querySelector('#zoomNav');
+    animate.setAttribute('dur', duration);
+    animate.setAttribute('from', svg.getAttribute('viewBox'));
+    animate.setAttribute('to', svg.getAttribute('viewBox'));
+    // relies on links classed 'zoom':
+    var links = document.querySelectorAll('a.zoom');
+    for (var i = 0, l = links.length; i < l; i++) {
+        // replace default navigation:
+        links[i].setAttribute('onclick', 'event.preventDefault()');
+        links[i].addEventListener('click', zoomNav);
+    }
+};
+
+function zoomNav(e) {
+    var hash = e.currentTarget.getAttribute('xlink:href');
+    var tgt = document.querySelector(hash);
+    // swap to/from values
+    animate.setAttribute('from', animate.getAttribute('to'));
+    animate.setAttribute('to', tgt.getAttribute('viewBox'));
+    // execute animation
+    animate.beginElement();
+    svg.classList.toggle(hash.replace(/#/,''));
+}
+</syntaxhighlight>
 
 ==Adding Text==
 
