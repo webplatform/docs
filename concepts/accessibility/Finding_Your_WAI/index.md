@@ -1,4 +1,8 @@
-{{Flags}}
+{{Page_Title}}
+{{Flags
+|Checked_Out=No
+}}
+{{Summary_Section}}
 {{Basic Page}}
 ==Finding Your WAI ("way") to New Web Accessibility Resources==
   
@@ -6,7 +10,7 @@
 Presentations you can copy, business case resources, what to do when you come across an inaccessible website, and much much more are available on the [http://www.w3.org/WAI/ WAI website] for '''managers, policy makers, presenters, developers, designers, and people with disabilities'''.
 
  
-Whether you already use WAI resources or you're new to web accessibility, we encourage you to look around and find more information that is useful to you. This page explains strategies for finding what you're looking for on the WAI website. (A separate page provides [http://www.w3.org/WAI/sitehelp.html Help with the WAI Web Site], such as navigating with headings.)
+Whether you already use WAI resources or you're new to web accessibility, we encourage you to look around and find more information that is useful to you. This page explains strategies for finding what you're looking for on the WAI website. (A separate page provides [http://www.w3.org/WAI/sitehelp.html help with the WAI website], such as navigating with headings.)
 
  
 If you don't find what you're looking for or have any suggestions on what you do find, please let us know by sending e-mail to:
@@ -50,7 +54,7 @@ The WAI Site Map has the title of all the main pages. Think about what word or p
  
 == Standard Search ==
  
-We do not have an optimized general search. The information in [http://www.w3.org/WAI/search.php Searching the WAI Web Site] might help some.
+We do not have an optimized general search. The information in [http://www.w3.org/WAI/search.php Searching the WAI Website] might help some.
 
  
 == Tell Others! ==
@@ -58,6 +62,8 @@ We do not have an optimized general search. The information in [http://www.w3.or
 We would appreciate your helping spread the word about WAI resources. Here are some shortened links to help:
 * This page (Finding Your WAI) &mdash; [http://bit.ly/yourWAI http://bit.ly/yourWAI]
 * [http://www.w3.org/WAI/participation Participating in WAI] &mdash; [http://bit.ly/ComeThisWAI http://bit.ly/ComeThisWAI]
+{{Notes_Section}}
+{{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
