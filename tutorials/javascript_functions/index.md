@@ -7,21 +7,21 @@
 {{Tutorial
 |Content=== Introduction ==
  
-In this part of the [http://www.w3.org/wiki/Web_Standards_Curriculum Web Standards Curriculum], we'll discuss functions. Functions lie at the core of practically everything ''useful'' that you’ll do with JavaScript. Broadly speaking, they offer the ability to break a program into logical chunks, each implementing a specific piece of functionality. They’re a central feature of the language, and a good chunk of JavaScript’s attractiveness is due to the particular ways in which it enables you to use and create functions. If you’ve done some programming before in languages like PHP or Java, you’ll feel right at home with functions in JavaScript; if not, don’t worry. Functions are ''critical'', but they’re not hard to wrap your head around. This article explains why you’ll want to understand functions, then dives into their syntax and shows you how to create and use them.
+In this part of the [http://www.w3.org/wiki/Web_Standards_Curriculum Web Standards Curriculum], we will discuss functions. Functions lie at the core of practically everything ''useful'' that you will do with JavaScript. Broadly speaking, they offer the ability to break a program into logical chunks, each implementing a specific piece of functionality. They are a central feature of the language, and a good chunk of JavaScript’s attractiveness is due to the particular ways in which it enables you to use and create functions. If you have done some programming before in languages like PHP or Java, you will feel right at home with functions in JavaScript; if not, do not worry. Functions are ''critical'', but they are not hard to wrap your head around. This article explains why you will want to understand functions, then dives into their syntax and shows you how to create and use them.
  
 Note that the [http://dev.opera.com/articles/view/javascript-functions/functions_code.zip functions examples are available for download], as well as being linked to at appropriate places in the article below.
 
 == What and why ==
  
-You certainly don’t want to reach for your specifications to refresh your memory each time you need to perform a specific calculation; it's much better to simply code the calculation’s steps '''once''', bundle that up as a <code>calculateSomething</code> function, and then point to that implementation next time you need to perform the same activity. This simple act of bundling up a set of commands means that you can concentrate on the ''activities'' that your code implements instead of the intimate details of those activities’ internal steps. You can think of the functions you write as a layer sitting on top of JavaScript’s built-in core; you’re creating ''new commands'' that are more expressive and more understandable in the context of your particular application.
+You certainly do not want to reach for your specifications to refresh your memory each time you need to perform a specific calculation; it is much better to simply code the calculation’s steps '''once''', bundle that up as a <code>calculateSomething</code> function, and then point to that implementation next time you need to perform the same activity. This simple act of bundling up a set of commands means that you can concentrate on the ''activities'' that your code implements instead of the intimate details of those activities’ internal steps. You can think of the functions you write as a layer sitting on top of JavaScript’s built-in core; you are creating ''new commands'' that are more expressive and more understandable in the context of your particular application.
  
-With that in mind, the “why?” of functions has a very straightforward answer: they are the basic building blocks that allow you to structure your code to enhance understanding of its purpose, and to reuse the functions you’ve written to avoid writing the same bits of code in multiple places. Your program will be easier to write and test if you break it into small pieces, each with a defined task.
+With that in mind, the “why?” of functions has a very straightforward answer: they are the basic building blocks that allow you to structure your code to enhance understanding of its purpose, and to reuse the functions you have written to avoid writing the same bits of code in multiple places. Your program will be easier to write and test if you break it into small pieces, each with a defined task.
 
-Moreover, breaking your code up into well thought-out functions makes maintaining your code in the future much easier. Imagine, for example, that the rules for daylight savings time are changed again next year. If you’ve done that calculation eighty-five times throughout your project, you ''will'' introduce new bugs when you update the code in each of those locations; it’s repetitive, manual, and failure-prone. On the other hand, changing a single <code>calculateDaylightSavings</code> function allows you to cascade that single change down through the rest of your program with a single fix, much the same as the CSS cascade of style down through the page. In this way, functions make maintenance much less error prone, and easier to implement successfully.
+Moreover, breaking your code up into well thought-out functions makes maintaining your code much easier. Imagine, for example, that the rules for daylight savings time are changed again next year. If you have done that calculation eighty-five times throughout your project, you ''will'' introduce new bugs when you update the code in each of those locations; it is repetitive, manual, and failure-prone. On the other hand, changing a single <code>calculateDaylightSavings</code> function allows you to cascade that single change down through the rest of your program with a single fix, much the same as the CSS cascade of style down through the page. In this way, functions make maintenance much less error-prone, and easier to implement successfully.
  
-== A Function’s syntax ==
+== A function’s syntax ==
  
-Defining your own function is a simple task. As an example, let’s build a [http://dev.opera.com/articles/view/javascript-functions/functions_1.html function that generates a random background colour for an element] on a page:
+Defining your own function is a simple task. As an example, let’s build a [http://dev.opera.com/articles/view/javascript-functions/functions_1.html function that generates a random background color for an element] on a page:
  
 <syntaxhighlight lang="javascript">
 function setElementBackground() {
@@ -36,22 +36,22 @@ function setElementBackground() {
 }
 </syntaxhighlight>
  
-Without worrying too much about the code executed by the function, I’d like you to focus at this moment on 4 important features of the function’s syntax:
+Without worrying too much about the code executed by the function, let us focus on four important features of the function’s syntax:
  
 # A function declaration always begins with the keyword <code>function</code>, which makes sense.
-# The next bit is the function’s name, in this case <code>setElementBackground</code> (I generally use [http://en.wikipedia.org/wiki/CamelCase camelCase] for function names).  The name of the function is important, as it’s the bit you have to remember in order to use and reuse the code.  Make sure it's an accurate description of what the function does; I’m sure you’ll agree that <code>setElementBackground</code> is a '''much''' better, more descriptive function name than something like <code>coloursAreNice</code> or <code>crazySetter</code>.
-# Directly after the function’s name come a pair of parentheses.  Inside these come the functions '''argument list''', which enables you to make your functions more generic, and thus more reusable—you can apply them to more situations more easily.  This is a powerful concept, but optional, so I’ll discuss it in more detail in the next section.
-# Finally comes a pair of curly-brackets containing some code: these signify a '''block''' of code in JavaScript.  Everything inside this block  will be executed when the function is called, in order, just like any other bit of JavaScript code you’ve written.
+# The next bit is the function’s name, in this case <code>setElementBackground</code> (I generally use [http://en.wikipedia.org/wiki/CamelCase camelCase] for function names). The name of the function is important, as it is the bit you have to remember in order to use and reuse the code. Make sure it is an accurate description of what the function does; <code>setElementBackground</code> is a '''much''' better, more descriptive function name than something like <code>coloursAreNice</code> or <code>crazySetter</code>.
+# Directly after the function’s name come a pair of parentheses. Inside these come the functions '''argument list''', which enables you to make your functions more generic, and thus more reusable—you can apply them to more situations more easily. This is a powerful concept, but optional, so it will be discussed in more detail in the next section.
+# Finally comes a pair of curly-brackets containing some code: these signify a '''block''' of code in JavaScript. Everything inside this block will be executed when the function is called, in order, just like any other bit of JavaScript code you have written.
  
 === Using the function ===
  
-Now we’ve defined the function, to call it somewhere in your code you would simply write:
+Now we have defined the function, to call it somewhere in your code you would simply write:
  
 <syntaxhighlight lang="javascript">setElementBackground();</syntaxhighlight>
  
-That's all there is to it! You no longer have to concern yourself with the difficult internal details of <code>setElementBackground</code>; you’ve already written the code, so now you’re able to use it with ease wherever you like, and reap the (random) rewards of reuse.
+That is all there is to it! You no longer have to concern yourself with the difficult internal details of <code>setElementBackground</code>; you have already written the code, so now you are able to use it with ease wherever you like, and reap the (random) rewards of reuse.
  
-Now, the function I’ve just written is completely self-contained. It performs some activity, then exits; it neither needs input from the code that called it, nor does it give any information back to its caller about what happened. JavaScript, of course, allows us to write code that’s a bit more talkative and flexible than that, so let’s have a look at how we deal with information input to and output from functions.
+Now, the function above is completely self-contained. It performs some activity, then exits; it neither needs input from the code that called it, nor does it give any information back to its caller about what happened. JavaScript, of course, allows us to write code that is a bit more talkative and flexible than that, so let us have a look at how we deal with information input to and output from functions.
  
 === Arguments ===
  
