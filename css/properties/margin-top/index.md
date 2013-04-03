@@ -1,8 +1,7 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Review
-|Content=Cleanup, Examples Best Practices
-|Checked_Out=Yes
+|Content=Cleanup,Examples Best Practices
 }}
 {{Standardization_Status}}
 {{API_Name}}
