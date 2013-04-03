@@ -15,17 +15,17 @@
 |Computed value=as specified
 |Animatable=No
 |Values={{CSS Property Value
-|Data Type=single-animation-direction
-|Description=One of the following values: <code>normal, reverse, alternate, alternate-reverse</code>.
-
-;<code>normal</code>
-:Plays the animation keyframes in the order defined in the <code>@keyframes</code> rule.
-;<code>reverse</code>
-:Plays the animation keyframes in reverse order.
-;<code>alternate</code>
-:Plays odd-numbered cycles in the specified order, and even-numbered cycles in reverse.
-;<code>alternate-reverse</code>
-:Plays even-numbered cycles in reverse, and odd-numbered cycles in the specified order.
+|Data Type=normal
+|Description=The animation should play forward each cycle. In other words, each time the animation cycles, the animation will reset to the beginning state and start over again. This is the default animation direction setting.
+}}{{CSS Property Value
+|Data Type=alternate
+|Description=The animation should reverse direction each cycle. When playing in reverse, the animation steps are performed backward. In addition, timing functions are also reversed; for example, an ''<code>ease-in animation</code>'' is replaced with an ''<code>ease-out</code>'' animation when played in reverse. The count to determine if it is an even or an odd iteration starts at one.
+}}{{CSS Property Value
+|Data Type=reverse
+|Description=The animation plays backward each cycle. Each time the animation cycles, the animation resets to the end state and start over again.
+}}{{CSS Property Value
+|Data Type=alternate-reverse
+|Description=The animation plays backward on the first play-through, then forward on the next, then continues to alternate. The count to determine if it is an even or an odd iteration starts at one.
 }}
 }}
 {{Examples_Section
