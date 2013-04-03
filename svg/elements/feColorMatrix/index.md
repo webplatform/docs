@@ -50,7 +50,6 @@ By default, color-manipulation operations using feColorMatrix take place in line
     <filter id="saturate">
       <feColorMatrix in="SourceGraphic" type="saturate" values=".5" result="A"/>
    </filter>
-
   </defs>
   <image x="10" y="10" width="280" height="350" preserveAspectRatio="true" xlink:href="http://upload.wikimedia.org/wikipedia/commons/8/82/Siberian-larch.jpg"/>
   <image x="310" y="10" width="280" height="350" preserveAspectRatio="true" filter="url(#saturate)" xlink:href="http://upload.wikimedia.org/wikipedia/commons/8/82/Siberian-larch.jpg"/>
@@ -60,14 +59,11 @@ By default, color-manipulation operations using feColorMatrix take place in line
 }}{{Single Example
 |Language=Other
 |Description=Example of a feColorMatrix with type="hueRotate"
-|Code=<p>feColorMatrix Example 2: hueRotate 45 deg</p>
-
-<svg width="640" height="550" viewBox="0 0 640 550">
+|Code=<svg width="640" height="550" viewBox="0 0 640 550">
 <defs>
     <filter id="hueRotate">
       <feColorMatrix in="SourceGraphic" type="hueRotate" values="45" result="A"/>
    </filter>
-
   </defs>
   <image x="10" y="10" width="280" height="350" preserveAspectRatio="true" xlink:href="http://upload.wikimedia.org/wikipedia/commons/8/82/Siberian-larch.jpg"/>
   <image x="310" y="10" width="280" height="350" preserveAspectRatio="true" filter="url(#hueRotate)" xlink:href="http://upload.wikimedia.org/wikipedia/commons/8/82/Siberian-larch.jpg"/>
@@ -81,7 +77,6 @@ By default, color-manipulation operations using feColorMatrix take place in line
     <filter id="L2A">
       <feColorMatrix in="SourceGraphic" type="luminanceToAlpha" result="A"/>
    </filter>
-
   </defs>
   <image x="10" y="10" width="280" height="350" preserveAspectRatio="true" xlink:href="http://upload.wikimedia.org/wikipedia/commons/8/82/Siberian-larch.jpg"/>
   <image x="310" y="10" width="280" height="350" preserveAspectRatio="true" filter="url(#L2A)" xlink:href="http://upload.wikimedia.org/wikipedia/commons/8/82/Siberian-larch.jpg"/>
@@ -98,7 +93,6 @@ By default, color-manipulation operations using feColorMatrix take place in line
                                                               0 0 1.2 0 -0.2
                                                               0 0 0 1 0"/>
    </filter>
-
   </defs>
   <image x="10" y="10" width="280" height="350" preserveAspectRatio="true" xlink:href="http://upload.wikimedia.org/wikipedia/commons/8/82/Siberian-larch.jpg"/>
   <image x="310" y="10" width="280" height="350" preserveAspectRatio="true" filter="url(#matrix-contrast)" xlink:href="http://upload.wikimedia.org/wikipedia/commons/8/82/Siberian-larch.jpg"/>
@@ -107,9 +101,7 @@ By default, color-manipulation operations using feColorMatrix take place in line
 }}{{Single Example
 |Language=Other
 |Description=Example of a feColorMatrix with type="matrix" showing a sepia adjustment
-|Code=<p>feColorMatrix Example 5: Matrix-Sepia</p>
-
-<svg width="640" height="550" viewBox="0 0 640 550">
+|Code=<svg width="640" height="550" viewBox="0 0 640 550">
 <defs>
     <filter id="matrix-sepia">
       <feColorMatrix in="SourceGraphic" type="matrix" values=".35 .35 .35 0 0 
@@ -117,7 +109,6 @@ By default, color-manipulation operations using feColorMatrix take place in line
                                                               .15 .15 .15 0 0
                                                               0 0 0 1 0"/>
    </filter>
-
   </defs>
   <image x="10" y="10" width="280" height="350" preserveAspectRatio="true" xlink:href="http://upload.wikimedia.org/wikipedia/commons/8/82/Siberian-larch.jpg"/>
   <image x="310" y="10" width="280" height="350" preserveAspectRatio="true" filter="url(#matrix-sepia)" xlink:href="http://upload.wikimedia.org/wikipedia/commons/8/82/Siberian-larch.jpg"/>
@@ -134,7 +125,6 @@ By default, color-manipulation operations using feColorMatrix take place in line
                                                               .33 .33 .33 0 0
                                                               0 0 0 1 0"/>
    </filter>
-
   </defs>
   <image x="10" y="10" width="280" height="350" preserveAspectRatio="true" xlink:href="http://upload.wikimedia.org/wikipedia/commons/8/82/Siberian-larch.jpg"/>
   <image x="310" y="10" width="280" height="350" preserveAspectRatio="true" filter="url(#matrix-greyscale)" xlink:href="http://upload.wikimedia.org/wikipedia/commons/8/82/Siberian-larch.jpg"/>
@@ -151,7 +141,6 @@ By default, color-manipulation operations using feColorMatrix take place in line
                                                               .25 .5 .25 0 0
                                                               0 0 0 1 0"/>
    </filter>
-
   </defs>
   <image x="10" y="10" width="280" height="350" preserveAspectRatio="true" xlink:href="http://upload.wikimedia.org/wikipedia/commons/8/82/Siberian-larch.jpg"/>
   <image x="310" y="10" width="280" height="350" preserveAspectRatio="true" filter="url(#matrix-greyscale-greenboost)" xlink:href="http://upload.wikimedia.org/wikipedia/commons/8/82/Siberian-larch.jpg"/>
@@ -168,7 +157,6 @@ By default, color-manipulation operations using feColorMatrix take place in line
                                                               .5 .5 -1 0 0
                                                               0 0 0 1 0"/>
    </filter>
-
   </defs>
   <image x="10" y="10" width="280" height="350" preserveAspectRatio="true" xlink:href="http://upload.wikimedia.org/wikipedia/commons/8/82/Siberian-larch.jpg"/>
   <image x="310" y="10" width="280" height="350" preserveAspectRatio="true" filter="url(#matrix-solarize)" xlink:href="http://upload.wikimedia.org/wikipedia/commons/8/82/Siberian-larch.jpg"/>
@@ -185,7 +173,6 @@ By default, color-manipulation operations using feColorMatrix take place in line
                                                               0 0 -1 0 1
                                                               0 0 0 1 0"/>
    </filter>
-
   </defs>
   <image x="10" y="10" width="280" height="350" preserveAspectRatio="true" xlink:href="http://upload.wikimedia.org/wikipedia/commons/8/82/Siberian-larch.jpg"/>
   <image x="310" y="10" width="280" height="350" preserveAspectRatio="true" filter="url(#matrix-invert)" xlink:href="http://upload.wikimedia.org/wikipedia/commons/8/82/Siberian-larch.jpg"/>
