@@ -33,7 +33,10 @@
 |Examples={{Single Example
 |Language=CSS
 |Description=Redefine the typical '''16px''' default '''medium''' value as '''10px''', then redefine other tags in proportion to the root:
-|Code=html { font-size: 62.5%; } /* 16 * 62.5% == 10 */
+|Code=html { font-size: 62.5%; } 
+/* 
+16 * 62.5% == 10 
+*/
 
 h1 { font-size: 3.6rem }   /* 36px */
 h2 { font-size: 2.4rem }   /* 24px */
@@ -67,6 +70,10 @@ Along with many other CSS properties, '''font-size''' can also be applied direct
 |Name=CSS Values and Units Module Level 3
 |URL=http://www.w3.org/TR/css3-values/
 |Status=Candidate Recommendation
+}}{{Related Specification
+|Name=Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification
+|URL=http://www.w3.org/TR/CSS2/
+|Status=W3C Recommendation
 }}
 }}
 {{Compatibility_Section
