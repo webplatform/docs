@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|High-level issues=Needs Review
+|Content=Cleanup, Examples Best Practices
 |Checked_Out=No
 }}
 {{Standardization_Status}}
@@ -26,11 +26,10 @@ A specific length, a percentage of the parent element's width or the keyword aut
 |Description=Integer, followed by a percent sign (%). The value is a percentage of the width of the parent object.
 }}{{CSS Property Value
 |Data Type=length
-|Description=Specifies a fixed width. Negative Values are allowed. 
+|Description=Specifies a fixed width. Negative Values are allowed.
 }}{{CSS Property Value
 |Data Type=percentage
 |Description=A <percentage> relative to the width of the containing block. Negative values are allowed.
-
 }}{{CSS Property Value
 |Data Type=auto
 |Description=auto is replaced by some suitable value by the browser.
