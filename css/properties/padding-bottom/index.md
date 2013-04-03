@@ -1,5 +1,7 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|Checked_Out=Yes
+}}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|The <code>padding-bottom</code> CSS property of an element sets the [[css/properties/padding|padding]] space required on the right side of an element. The padding area is the space between the content of the element and its border. Negative values are not allowed.}}
@@ -25,7 +27,7 @@
 |Language=CSS
 |Description=The following examples use the <code>padding-bottom</code> property to change the [[css/properties/padding|padding]] of the elements.
 |Code=h1 { padding-right: 5%; }
-p { padding-right: 10px; } 
+p { padding-right: 10px; }
 }}{{Single Example
 |Language=HTML
 |Code=&lt;h1&gt;Hey there&lt;/h1&gt;
