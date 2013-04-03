@@ -20,7 +20,7 @@ Margin-bottom clears an area below an element (outside the border). The margin d
 |Description=Specifies a fixed width. Negative values are allowed.
 }}{{CSS Property Value
 |Data Type=percentage
-|Description=A percentage of the width of the containing block. Negative values are allowed.
+|Description=A percentage of the height of the containing block. Negative values are allowed.
 }}{{CSS Property Value
 |Data Type=auto
 |Description=The browser calculates a bottom margin.
