@@ -6,7 +6,7 @@
 {{API_Name}}
 {{Summary_Section|Sets the bottom margin of an element.
 
-Margin-bottom clears an area below an element (outside the border). The margin does not have a background color, and is completely transparent.
+Margin-bottom creates space outside the outer edge of an element (beyond the bottom border). Margins are transparent.
 }}
 {{CSS Property
 |Initial value=0
