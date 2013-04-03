@@ -1,5 +1,7 @@
 {{Page_Title|Your first look at JavaScript}}
-{{Flags}}
+{{Flags
+|Checked_Out=No
+}}
 {{Byline}}
 {{Summary_Section|Now it's time to get your hands dirty. This article provides a basic introduction to basic coding with JavaScript.}}
 {{Tutorial
@@ -12,6 +14,8 @@ In this article of the [http://www.w3.org/wiki/Web_Standards_Curriculum Web Stan
 JavaScript is a text-based language that does not need any conversion before being executed. Other languages like [http://dev.opera.com/articles/view/38-programming-the-real-basics/#interpreted Java and C++ need to be compiled to be executable] but JavaScript is executed instantly by a type of program that interprets the code called a parser (pretty much all web browsers contain a JavaScript parser).
  
 To execute JavaScript in a browser you have two options — either put it inside a <code>script</code> element anywhere inside an HTML document, or put it inside an external JavaScript file (with a .js extension) and then reference that file inside the HTML document using an empty <code>script</code> element with a <code>src</code> attribute. We’ll look at both of these methods inside this section.
+
+JavaScript doesn't have to stay inside browsers. To run JavaScript in console environment, please check out Mozilla Rhino; to run JavaScript in server environment, please check node.js.
  
 === Including your JavaScript inside your HTML document ===
  
@@ -191,6 +195,7 @@ As the environment JavaScript is being applied to is very much unknown (users ca
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
