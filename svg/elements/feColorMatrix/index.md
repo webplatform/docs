@@ -173,7 +173,7 @@ Example of a feColorMatrix with type="matrix" showing a greyscale with green cha
 |LiveURL=http://code.webplatform.org/gist/5304095
 }}{{Single Example
 |Language=Other
-|Description=[[File:solarize.png]] 
+|Description=[[File:solarize2.png]] 
 
 Example of a feColorMatrix with type="matrix" showing a a solarization effect. Each color channel is zero'd and replaced with the average of the others.
 |Code=<svg width="640" height="550" viewBox="0 0 640 550">
