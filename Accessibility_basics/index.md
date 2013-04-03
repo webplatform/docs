@@ -1,24 +1,32 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Merge Candidate
+|Checked_Out=No
 |Editorial notes=http://docs.webplatform.org/wiki/concepts/accessibility/accessibility_basics
 }}
-{{Summary_Section}}
+{{Byline}}
+{{Summary_Section|"Accessibility is most often used to describe facilities or amenities to assist people with disabilities, as in "wheelchair accessible". This can extend to Braille signage, wheelchair ramps, audio signals at pedestrian crossings, walkway contours, website design, and so on."
+
+"The Web is fundamentally designed to work for all people, whatever their hardware, software, language, culture, location, or physical or mental ability. When the Web meets this goal, it is accessible to people with a diverse range of hearing, movement, sight, and cognitive ability."
+}}
 {{Tutorial}}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
 }}
 {{See_Also_Section}}
+{{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|MDN_link=
+|Sources=MDN
+|MDN_link=https://developer.mozilla.org/en-US/docs/Accessibility
 |MSDN_link=
 |HTML5Rocks_link=
 }}
-
 == Introduction ==
 When you create a web site, accessibility—making the web site usable by everyone, regardless of their ability or disability—should always be a central concern. So far in this course accessibility has always been implicit in all the examples you’ve seen, even if you didn’t realise it; in this [http://www.w3.org/wiki/Web_Standards_Curriculum Web Standards Curriculum] article I’ll now look at accessibility explicitly, so you can understand fully what it is, why it is important, how to ensure that sites are accessible, and what guidelines exist to define accessible sites.
 
@@ -463,4 +471,3 @@ Accessibility is an important topic for both economic and social reasons. It is 
 * Explain how you would design an interaction on a web page to be accessible. Create the step by step instructions for creating a tree control (you don’t actually have to make it).
  
 Note: This material was originally published as part of the Opera Web Standards Curriculum, available as [http://dev.opera.com/articles/view/25-accessibility-basics/ 25: Accessibility basics], written by Tom Hughes-Croucher. Like the original, it is published under the [http://creativecommons.org/licenses/by-nc-sa/2.5/ Creative Commons Attribution, Non Commercial - Share Alike 2.5] license.
-{{Topics|Tutorials, WSC}}
