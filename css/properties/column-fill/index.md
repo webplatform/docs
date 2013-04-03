@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -27,7 +28,23 @@ depending on other column property values.
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|Description=Makes as many 15em columns but  restrict the heights of the columns to 400px
+
+|Code=/*
+Makes as many 15em columns but  restrict the heights of the columns to 400px
+*/
+#column4 {
+  column-width: 15em;
+  column-gap: 2em;          
+  column-rule: 4px solid green;
+  padding: 5px;
+  column-fill: balance;
+  height: 400px;
+}
+|LiveURL=http://code.webplatform.org/gist/5305740
+}}
 }}
 {{Notes_Section
 |Notes====Remarks===
@@ -36,7 +53,11 @@ Column balancing is also dependent on the values of [[css/properties/orphans|'''
 <code>'''column-fill: '''auto '''{{!}}''' balance</code>
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Multi-column Layout Module
+|URL=http://www.w3.org/TR/css3-multicol/
+|Status=W3C Candidate Recommendation
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
