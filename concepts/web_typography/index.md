@@ -1,5 +1,7 @@
 {{Page_Title|Web typography}}
-{{Flags}}
+{{Flags
+|Checked_Out=No
+}}
 {{API_Name}}
 {{Summary_Section|What is typography? Put simply, it is the art, design, and arrangement of text (referred to as type)—a concept borrowed from traditional print design. It is as much about what you ''don’t'' do with your type as what you ''do''. On the web, typography often gets very little attention, and there are certain technological limitations that can cause web typography to suffer when compared to print typography. However, with the tools available to you, there’s no reason why type cannot be presented on the web in a wide variety of stylish and beautiful forms.
  
@@ -8,9 +10,10 @@ In this [http://www.w3.org/wiki/Web_Standards_Curriculum Web Standards Curriculu
 Note that this article does not contain code syntax examples showing how to implement different fonts and text effects. These can all be found in the article [http://dev.opera.com/articles/view/29-text-styling-with-css/ Text styling with CSS]
 }}
 {{Concept_Page
-|Content=== Limitations of web typography ==
+|Content=== Design Consideration Using Typography on the Web==
  
-Traditional print designers have a huge amount of options available to them when it comes to typography, including the sheer numbers of fonts available, and options for positioning text. Typography on the web is a lot more limited, because we must design using fonts and positioning, etc that we know will be available on the computers of the users that will look at their web sites—it is no use just designing for yourself on the web!
+
+When it comes to typography on web, the old adage “less is more” very much proves the point.  In general, limiting only one or two font families in a single site result in a cleaner look.  You can develop the look and feel, and styling of text and headlines by adjusting font size, thickness (bold, semi-bold, etc), italicizing, kerning and spacing instead of using variety of type faces.  An important point to remember is the organization of hierarchy of information.  For example, using larger size and bold of font style for the headline and then smaller size of same font style for subheading, then using book or regular font for the main text and so forth.  In another word, make a clean delineation of information with sizes and boldness of same typeface for consistency rather than employing different type faces.
  
 Limitations of web typography include:
 
