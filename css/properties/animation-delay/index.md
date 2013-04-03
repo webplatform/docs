@@ -9,7 +9,7 @@
 {{Summary_Section|The animation-delay CSS property specifies when the animation should start. This lets the animation sequence begin some time after it's applied to an element.}}
 {{CSS Property
 |Initial value=0s
-|Applies to=all elements, '''::before''' and '''::after''' pseudo-elements
+|Applies to=all elements, '''before''' and '''after''' pseudo-elements
 |Inherited=No
 |Media=visual
 |Computed value=as specified
