@@ -1,6 +1,6 @@
 {{Page_Title|The purpose of JavaScript}}
 {{Flags
-|Checked_Out=Yes
+|Checked_Out=No
 }}
 {{Byline}}
 {{Summary_Section|In this article, we discuss what JavaScript can be used for on the web, its downsides, and how to use it responsibly.}}
