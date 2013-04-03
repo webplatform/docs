@@ -2,10 +2,14 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Sets the bottom margin of an element.}}
+{{Summary_Section|Sets the bottom margin of an element.
+
+The margin-bottom property specifies the width between the element's bottom border and the element's outer edge.
+}}
 {{CSS Property
 |Initial value=0
 |Applies to=All elements
@@ -15,9 +19,14 @@
 |Values={{CSS Property Value
 |Data Type=margin-width
 |Description=Default. Bottom margin is set equal to the top margin.
+
+A specific length, a percentage of the parent element's width or the keyword auto.
+
 }}{{CSS Property Value
 |Data Type=inherit
 |Description=Integer, followed by a percent sign (%). The value is a percentage of the height of the parent object.
+
+Use the same computed value as the parent element for this property.
 }}
 }}
 {{Examples_Section
