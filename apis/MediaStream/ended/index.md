@@ -16,7 +16,7 @@
 |Description=This is the CSS.
 See the [http://code.webplatform.org/ live example]
 |Code=dfadadf ad
-|LiveURL=See the [http://code.webplatform.org/ live example]
+|LiveURL=http://code.webplatform.org/
 }}
 }}
 {{Notes_Section}}
