@@ -2,8 +2,9 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Examples Needed, Examples Best Practices
+|Checked_Out=Yes
 }}
-{{Standardization_Status|W3C Working Draft}}
+{{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Defines when an animation starts}}
 {{CSS Property
@@ -156,22 +157,6 @@ If fewer  '''animation-delay''' values are declared than corresponding [[css/pro
 *<code>p</code>
 *<code>pre</code>
 *<code>[[html/elements/table|table]]</code>
-*<code>ul</code>
-*<code>dd</code>
-*<code>dt</code>
-*<code>li</code>
-*<code>tBody</code>
-*<code>td</code>
-*<code>tFoot</code>
-*<code>th</code>
-*<code>tHead</code>
-*<code>tr</code>
-*<code>button</code>
-*<code>del</code>
-*<code>ins</code>
-*<code>map</code>
-*<code>object</code>
-*<code>script</code>
 }}
 {{Topics|CSS}}
 {{External_Attribution
