@@ -5,10 +5,12 @@
 {{Byline
 |Name=Mike Sierra
 }}
-{{Summary_Section|This guide introduces SVG graphics and shows how to deploy them along with other web content. It steps through various SVG features, showing you how to build a pair of animating eyeballs.}}
+{{Summary_Section|This guide introduces SVG graphics, showing you how
+to build a pair of animating eyeballs, along the way stepping through
+various SVG features detailed in other tutorials.}}
 {{Tutorial
 |Content=SVG is a standard markup format, like HTML and XML, that
-renders ''Scalable Vector Graphics'' within web browsers.  Vector or
+renders ''Scalable Vector Graphics'' within web browsers.  ''Vector'' or
 ''drawing''-style graphics are implemented as pure shapes that render
 crisply at any magnification. In contrast, ''raster'' or
 ''paint''-style images consist of a series of pixels that may not
@@ -16,7 +18,7 @@ display well when zoomed at high resolution.  Use SVG if you want to
 freely interact with portions of a graphic.  Since SVG renders within
 the browser's DOM, each graphic component can be styled through CSS,
 manipulated with JavaScript through core APIs, and can appear
-comfortably alongside HTML content.
+comfortably within HTML pages.
 
 This section of the guide shows how SVG is deployed along with other
 core web standards, with which you should already be familiar.  It
@@ -64,6 +66,8 @@ an [[svg/elements/svg|'''svg''']] tag encapsulating the graphics:
 You can add [[svg/elements/title|'''title''']] and
 [[svg/elements/desc|'''desc''']] tags wherever necessary to comment
 your markup.
+
+[[svg/tutorials/smarter_svg_deploy|'''svg''']]
 
 ==The eyeball==
 
@@ -855,9 +859,10 @@ along a curved path:
 [[Image:svgGrandTour_eyeball_textRotate.png|200px]]
 
 The text appears to wrap around a [[svg/elements/circle|'''circle''']]
-element, but since circles do not have start and end points, you need
-to use the rather complex ''A'' path command to draw two elliptical
-arc curves, each facing the other and originating at the left edge:
+element, but since circles do not have logical start and end points,
+you need to use the rather complex ''A'' path command to draw two
+elliptical arc curves, each facing the other and originating at the
+left edge:
 
 <syntaxhighlight lang="xml">
 <path id="irisPath" d="M 60,100 A 40,40 0 0 1 140,100 A 40,40 0 0 1 60,100 "/>
@@ -897,8 +902,8 @@ Its [[svg/elements/textPath|'''textPath''']] diverts a portion of the
 Ordinarily, you can increment the
 [[svg/elements/textPath|'''textPath''']]'s
 [[svg/attributes/startOffset|'''startOffset''']] attribute in
-animations to push text along the path. As an alternative here, you
-can easily use CSS transforms to rotate the entire object:
+animations to push text along the path. As an alternative in this
+case, you can use CSS transforms to rotate the circular object:
 
 <syntaxhighlight lang="css">
 #irisPath, #pupilPath {
