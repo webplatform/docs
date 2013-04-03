@@ -39,6 +39,9 @@
 }}{{CSS Property Value
 |Data Type=match-parent
 |Description=Similar to inherit with the difference that the value ''<code>start</code>'' and ''<code>end</code>'' are calculated according the parent's direction and are replaced by the adequate ''<code>left</code>'' or ''<code>right</code>'' value. '''''Experimental'''
+}}{{CSS Property Value
+|Data Type=start end
+|Description=Specifies ''<code>start</code>'' alignment of the first line and any line immediately after a forced line break; and ''<code>end</code>'' alignment of any remaining lines not affected by [[css/properties/text-align-last|'''text-align-last''']].
 }}
 }}
 {{Examples_Section
@@ -108,15 +111,23 @@ This example uses '''p''' as a selector and two classes to call an embedded styl
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/text-align.htm
 }}
 }}
-{{Notes_Section
-|Notes====Remarks===
-The property applies to block elements. The property is inherited by all block-level objects inside a '''div''' object. This parameter receives null if the attribute is not set.
-The '''justify''' possible value is available as of Microsoft Internet Explorer 4.0.
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=CSS2
-|URL=http://www.w3.org/TR/CSS2/
+|Name=CSS Text Level 3
+|URL=http://dev.w3.org/csswg/css3-text/#text-align
+|Status=Working Draft
+|Relevant_changes=Added the <code>start</code> and <code>end</code> keyword. Changed the unnamed initial value to <code>start</code> (which it was). Added the <code><string></code> value, the <code>match-parent</code> value and the <code>start end</code> double value.
+}}{{Related Specification
+|Name=CSS Level 2 (Revision 1)
+|URL=http://www.w3.org/TR/CSS2/text.html#alignment-prop
+|Status=Recommendation
+|Relevant_changes=No Changes
+}}{{Related Specification
+|Name=CSS Level 1
+|URL=http://www.w3.org/TR/CSS1/#text-align
+|Status=Recommendation
+|Relevant_changes=Initial definition.
 }}
 }}
 {{Compatibility_Section
