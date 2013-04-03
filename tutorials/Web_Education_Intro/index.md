@@ -35,7 +35,7 @@ Note #2: Many of the links below currently point to the [http://dev.opera.com de
 
 This section won't go into any code or markup details, and will act as an introduction to the design process before you start to create any graphics or code, as well as concepts of web design such as IA, navigation, usability etc.
 
-# [[Information_Architecture_-_planning_out_a_web_site|Information Architecture - planning out a web site]]
+# [[information_architecture/Planning_out_a_website|Information Architecture - planning out a website]]
 #* [http://dev.opera.com/articles/view/6-informacios-architektura-egy-website-t/ Hungarian translation] | [http://mosaic.uoc.edu/ac/le/ca/m2/ud1/index.html Catalan translation] | [http://mosaic.uoc.edu/ac/le/es/m2/ud1/index.html Spanish translation]
 # [[What_does_a_good_web_page_need|What does a good web page need?]]
 #* [http://dev.opera.com/articles/view/7-mi-kell-egy-jo-weblaphoz/ Hungarian translation] | [http://mosaic.uoc.edu/ac/le/ca/m2/ud2/index.html Catalan translation] | [http://mosaic.uoc.edu/ac/le/es/m2/ud2/index.html Spanish translation]
