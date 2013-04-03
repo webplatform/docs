@@ -1,6 +1,8 @@
 {{Page_Title}}
 {{Flags
-|Checked_Out=No
+|Content=Broken Links, Examples Best Practices
+|Checked_Out=Yes
+|Editorial notes=see padding-bottom
 }}
 {{Standardization_Status}}
 {{API_Name}}
