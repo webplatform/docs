@@ -35,6 +35,9 @@
 
 &lt;!-- Invoke a JScript function. --&gt;
 &lt;a href{{=}}"javascript:window.open()"&gt;link&lt;/a&gt;
+
+&lt;!-- Link to a document and use the ''rel'' element to specify that the linked document serves as the current document's license. --&gt;
+&lt;a href{{=}}"http://creativecommons.org/licenses/by/3.0/" rel{{=}}"license"&gt;cc by 3.0&lt;/a&gt;
 |LiveURL=http://code.webplatform.org/gist/5281100
 }}
 }}
@@ -123,6 +126,7 @@ Both text and images can be included within an anchor. An image that is an ancho
 }}
 }}
 {{See_Also_Section
+|Topic_clusters=HTML
 |External_links=* [http://www.w3.org/TR/html4/struct/links.html#edef-A HTML 4.01 specification]
 * [http://www.w3.org/TR/2012/CR-html5-20121217/text-level-semantics.html#the-a-element HTML 5 specification]
 * [http://www.whatwg.org/specs/web-apps/current-work/multipage/text-level-semantics.html#the-a-element WHATWG specification]
