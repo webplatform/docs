@@ -2,7 +2,7 @@
 {{Flags
 |High-level issues=Needs Review
 |Content=Cleanup, Examples Best Practices
-|Checked_Out=No
+|Checked_Out=Yes
 }}
 {{Standardization_Status}}
 {{API_Name}}
