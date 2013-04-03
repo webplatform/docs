@@ -838,7 +838,81 @@ function zoomNav(e) {
 }
 </syntaxhighlight>
 
+The last line applies different classes to the
+[[svg/elements/svg|'''svg''']] container, which we'll use to customize
+display of elements for different zoom levels.
+
 ==Adding Text==
+
+<syntaxhighlight lang="css">
+text {
+    font-size          : 10px;
+    text-transform     : uppercase;
+    stroke-width       : 0.5;
+    stroke             : black;
+    stroke-opacity     : 0;
+    fill               : red;
+    fill-opacity       : 0;
+    -webkit-transition : all 2s;
+    -moz-transition    : all 2s;
+    transition         : all 2s;
+}
+
+svg.zoomIn text {
+    fill-opacity       : 0.25;
+    stroke-opacity     : 0.25;
+    _fill-opacity      : 0.0;
+    _stroke-opacity    : 0.0;
+    -webkit-transition : all 2s 2s;
+    -moz-transition    : all 2s 2s;
+    transition         : all 2s 2s;
+}
+</syntaxhighlight>
+
+...
+
+<syntaxhighlight lang="css">
+#irisPath, #pupilPath {
+    fill                     : none;
+    -webkit-transform-origin : center;
+    -moz-transform-origin    : center;
+    transform-origin         : center;
+    _stroke                  : red;
+}
+
+#irisPath {
+    -webkit-transform : rotate(120deg);
+    -moz-transform    : rotate(120deg);
+    transform         : rotate(120deg);
+}
+
+#pupilPath {
+    -webkit-transform        : rotate(20deg);
+    -moz-transform           : rotate(20deg);
+    transform                : rotate(20deg);
+}
+</syntaxhighlight>
+
+<syntaxhighlight lang="xml">
+<text id="irisLabel">Iris</text>
+<text id="pupilLabel">Pupil</text>
+
+<path id="irisPath" d="M 60,100 A 40,40 0 0 1 140,100 A 40,40 0 0 1 60,100 "/>
+<path id="pupilPath" d="M 78,100 A 22,22 0 0 1 122,100 A 22,22 0 0 1 78,100"/>
+
+<g id="labels">
+  <text>
+    <textPath xlink:href="#irisPath">
+      <tref xlink:href="#irisLabel"/>
+    </textPath>
+  </text>
+  <text>
+    <textPath xlink:href="#pupilPath">
+      <tref xlink:href="#pupilLabel"/>
+    </textPath>
+  </text>
+</g>
+</syntaxhighlight>
 
 [[Image:svgGrandTour_eyeball_textPath.png|200px]]
 
