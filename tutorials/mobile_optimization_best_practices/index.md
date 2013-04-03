@@ -1,9 +1,11 @@
 {{Page_Title|Mobile optimization best practices}}
 {{Flags
-|Content=Grammar/Spelling,Examples Best Practices
+|High-level issues=Data Not Semantic
+|Content=Grammar/Spelling, Examples Best Practices
+|Checked_Out=Yes
 }}
 {{Byline}}
-{{Summary_Section|How to optimize for devices that have limited power, varying screen sizes and potentially slow or spotty network connections. This guide will walk you through the best practices to optimize your web app for mobile in order to provide the best possible user experience.}}
+{{Summary_Section|Mobile Devices may have slow network connections, hardware specific limitations and varying screen sizes. We need standardized best practices for building web apps. The goal is to provide the best user experience optimizing the HTML5 standards.  }}
 {{Tutorial
 |Content=== Network Speed Optimizations ==
 
@@ -57,7 +59,11 @@ There is a wide range of mobile browsers, each with different screen sizes, scre
 Some mobile networks employ minification and compression techniques on data that is sent over a mobile network to a device. This only applies when the device is using a mobile data connection such as LTE, 3G or GPRS. External resources, such as scripts and images, may not be delivered to the client device as the developer intended. Large libraries can be broken by the techniques employed by carriers. Here's an article discussing this issue, which also offers a solution should you need one. * [http://stuartroebuck.blogspot.co.uk/2010/08/official-way-to-bypassing-data.html]
 
 === Viewport ===
-The viewport metadata provides the browser with information on how the content should fit on the device screen. You can use this property to disable certain browsers from being able to zoom out from your web app view. You will want to disable zooming if you have already optimized the view for that screen size.
+The viewport metadata provides the browser with information on how the content should fit on the device screen. 
+<pre><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"></pre>
+The <code>width</code> property controls the size of the viewport. It can be set to a specific number of pixels like width=600 or to the special value device-width value which is the width of the screen in CSS pixels at a scale of 100%. (There are corresponding height and device-height values, which may be useful for pages with elements that change size or position based on the viewport height.)
+
+The initial-scale property controls the zoom level when the page is first loaded. The maximum-scale, minimum-scale, and user-scalable properties control how users are allowed to zoom the page in or out.
 
 === HTML5 feature support ===
 HTML5 compatibility varies across browsers. [https://developers.facebook.com/html5/blog/post/2012/02/27/announcing-ringmark--a-mobile-browser-test-suite/ Ringmark] is an open-source test suite that allows you to see which browsers have the functionality you need to build on. A comparison of results for different mobile browsers is available on [http://www.browserscope.org/?category=ringmark&v=top-m Browserscope]. 
