@@ -1,6 +1,6 @@
 {{Page_Title|JavaScript best practices}}
 {{Flags
-|Checked_Out=Yes
+|Checked_Out=No
 }}
 {{Byline}}
 {{Summary_Section|This article discusses some best practices to follow for writing efficient, understandable JavaScript.}}
@@ -17,21 +17,21 @@ This article is a compilation of best practices and good advice amassed over the
  
 This is a no-brainer but it is scary how often you will come across variables like <code>x1</code>, <code>fe2</code> or <code>xbqne</code> in JavaScript, or — on the other end of the spectrum — variable names like <code>incrementorForMainLoopWhichSpansFromTenToTwenty</code> or <code>createNewMemberIfAgeOverTwentyOneAndMoonIsFull</code>.
  
-None of these make much sense — good variable and function names should be easy to understand and tell you what is going on — not more and not less. One trap to "avoid is marrying values and functionality in names". A function called <code>isLegalDrinkingAge()</code> makes more sense than <code>isOverEighteen()</code> as the legal drinking age varies from country to country, and there are other things than drinking to consider that are limited by age.
+None of these make much sense — good variable and function names should be easy to understand and tell you what is going on — not more and not less. One trap to avoid is marrying values and functionality in names. A function called <code>isLegalDrinkingAge()</code> makes more sense than <code>isOverEighteen()</code> as the legal drinking age varies from country to country, and there are other things than drinking to consider that are limited by age.
  
 '''Hungarian notation''' is a good variable naming scheme to adopt (there are [http://en.wikipedia.org/wiki/Identifier_naming_convention#Metadata_and_hybrid_conventions other naming schemes] to consider), the advantage being that you know what something is supposed to be and not just what it is.
  
 For example, if you have a variable called <code>familyName</code> and it is supposed to be a string, you would write it as <code>sFamilyName</code> in “Hungarian”. An object called <code>member</code> would be <code>oMember</code> and a Boolean called <code>isLegal</code> would be <code>bIsLegal</code>.It is very informative for some, but seems like extra overhead to others — it is really up to you whether you use it or not.
  
-Keeping to English is a good idea, too. Programming languages are in English, so why not keep this as a logical step for the rest of your code. Having spent some time debugging Korean and Slovenian code, I can assure you it is not much fun for a non-native speaker.
+Keeping to English is a good idea, too. Programming languages are in English, so why not keep this as a logical step for the rest of your code? Having spent some time debugging Korean and Slovenian code, I can assure you it is not much fun for a non-native speaker.
  
-See your code as a narrative. If you can read line by line and understand what is going on, well done. If you need to use a sketchpad to keep up with the flow of logic, then your code needs some work. Try reading Dostojewski if you want a comparison to the real world — I got lost on a page with 14 Russian names, 4 of which were pseudonyms. Don't write code like that — it might make it more art than product, but this is rarely a good thing.
+See your code as a narrative. If you can read line by line and understand what is going on, well done. If you need to use a sketchpad to keep up with the flow of logic, then your code needs some work. Try reading Dostoyevsky if you want a comparison to the real world — I got lost on a page with 14 Russian names, 4 of which were pseudonyms. Do not write code like that — it might make it more art than product, but this is rarely a good thing.
 
 == Avoid globals ==
  
 Global variables and function names are an incredibly bad idea. The reason is that every JavaScript file included in the page runs in the same scope. If you have global variables or functions in your code, scripts included after yours that contain the same variable and function names will overwrite your variables/functions.
  
-There are several workarounds to avoid using globals — we’ll go through them one by one now. Say you have three functions and a variable like this:
+There are several workarounds to avoid using globals — we will go through them one by one now. Say you have three functions and a variable like this:
  
 <pre>var current = null;
 function init(){...}
@@ -47,9 +47,9 @@ You can protect those from being overwritten by using an object literal:
   verify:function(){...}
 }</pre>
  
-This does the job, but there is a drawback — to call the functions or change the variable value you’ll always need to go via the name of the main object: <code>init()</code> is <code>myNameSpace.init()</code>, current is <code>myNameSpace.current</code> and so on. This can get annoying and repetitive.
+This does the job, but there is a drawback — to call the functions or change the variable value you will always need to go via the name of the main object: <code>init()</code> is <code>myNameSpace.init()</code>, current is <code>myNameSpace.current</code> and so on. This can get annoying and repetitive.
  
-It is easier to wrap the whole thing in an anonymous function and protect the scope that way. That also means you don’t have to switch syntax from <code>function name()</code> to <code>name:function()</code>. This trick is called the Module Pattern:
+It is easier to wrap the whole thing in an anonymous function and protect the scope that way. That also means you do not have to switch syntax from <code>function name()</code> to <code>name:function()</code>. This trick is called the Module Pattern:
  
 <pre>myNameSpace = function(){
   var current = null;
@@ -99,7 +99,7 @@ It also means that you can have a public alias for a function in case you want t
  
 Calling <code>myNameSpace.set()</code> will now invoke the <code>change()</code> method.
  
-If you don’t need any of your variables or functions to be available to the outside, simply wrap the whole construct in another set of parentheses to execute it without assigning any name to it:
+If you do not need any of your variables or functions to be available to the outside, simply wrap the whole construct in another set of parentheses to execute it without assigning any name to it:
  
 <pre>(function(){
   var current = null;
@@ -124,11 +124,11 @@ Valid code also means that it can be converted by scripts to other formats — h
 
 == Comment as much as needed but not more ==
  
-Comments are your messages to other developers (and yourself, if you come back to your code after several months working on something else). There’s been numerous battles raging over the years about whether to use comments at all, the main argument being that good code should explain itself.
+Comments are your messages to other developers (and yourself, if you come back to your code after several months working on something else). There have been numerous battles raging over the years about whether to use comments at all, the main argument being that good code should explain itself.
  
 What I see as a flaw in this argument is that explanations are a very subjective thing — you cannot expect every developer to understand what some code is doing from exactly the same explanation.
  
-Comments don’t hurt anybody if you do them right. We’ll come back to that in the last point of this article, but let’s say that if your comments end up in the code that end users see then something is not going right.
+Comments do not hurt anybody if you do them right. We will come back to that in the last point of this article, but let us say that if your comments end up in the code that end users see then something is not going right.
  
 Again the trick is moderation. Comment when there is an important thing to say, and if you do comment use the <code>/* */</code> notation. Single line comments using <code>//</code> can be problematic if people minify your code without stripping comments and in general are less versatile.
  
@@ -172,7 +172,7 @@ For larger applications comment documentation in [http://java.sun.com/j2se/javad
 
 == Avoid mixing with other technologies ==
  
-Whilst it is possible to create everything you need in a document using JavaScript and the DOM it is not necessarily the most effective way of doing so. The following code puts a red border around every input field when its class is “mandatory” and there’s nothing in it.
+Whilst it is possible to create everything you need in a document using JavaScript and the DOM it is not necessarily the most effective way of doing so. The following code puts a red border around every input field when its class is “mandatory” and there is nothing in it.
  
 <pre>var f = document.getElementById('mainform');
 var inputs = f.getElementsByTagName('input');
@@ -185,7 +185,7 @@ for(var i=0,j=inputs.length;i&lt;j;i++){
   }
 }</pre>
  
-This works, however it means that if you later need to make a change to these styles you need to go through the JavaScript and apply the changes there. The more complex the change is the harder it’ll be to edit this. Furthermore, not every JavaScript developer is proficient or interested in CSS, which means there’ll be a lot of back and forth until the outcome is reached. By adding a class called “error” to the element when there is an error, you can ensure that the styling information is kept inside the CSS, which is more appriate:
+This works, however it means that if you later need to make a change to these styles you need to go through the JavaScript and apply the changes there. The more complex the change is the harder it will be to edit this. Furthermore, not every JavaScript developer is proficient or interested in CSS, which means there’ll be a lot of back and forth until the outcome is reached. By adding a class called “error” to the element when there is an error, you can ensure that the styling information is kept inside the CSS, which is more appriate:
 
 <pre>var f = document.getElementById('mainform');
 var inputs = f.getElementsByTagName('input');
