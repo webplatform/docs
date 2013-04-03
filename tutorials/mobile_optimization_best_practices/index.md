@@ -54,9 +54,9 @@ There is a wide range of mobile browsers, each with different screen sizes, scre
 === Viewport ===
 The viewport metadata provides the browser with information on how the content should fit on the device screen. 
 <pre><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"></pre>
-The <code>width</code> property controls the size of the viewport. It can be set to a specific number of pixels like width=600 or to the special value device-width value which is the width of the screen in CSS pixels at a scale of 100%. (There are corresponding height and device-height values, which may be useful for pages with elements that change size or position based on the viewport height.)
+The <code>width</code> property controls the size of the viewport. It can be set to a specific number of pixels like <code>width=600</code> or to the special value device-width value which is the width of the screen in CSS pixels at a scale of 100%. (There are corresponding height and device-height values, which may be useful for pages with elements that change size or position based on the viewport height.)
 
-The initial-scale property controls the zoom level when the page is first loaded. The maximum-scale, minimum-scale, and user-scalable properties control how users are allowed to zoom the page in or out.
+The initial-scale property controls the zoom level when the page is first loaded. The <code> maximum-scale, minimum-scale, and user-scalable </code> properties control how users are allowed to zoom the page in or out.
 
 === HTML5 feature support ===
 HTML5 compatibility varies across browsers. [https://developers.facebook.com/html5/blog/post/2012/02/27/announcing-ringmark--a-mobile-browser-test-suite/ Ringmark] is an open-source test suite that allows you to see which browsers have the functionality you need to build on. A comparison of results for different mobile browsers is available on [http://www.browserscope.org/?category=ringmark&v=top-m Browserscope]. 
