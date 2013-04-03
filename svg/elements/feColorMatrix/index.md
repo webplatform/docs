@@ -90,7 +90,9 @@ Example of a feColorMatrix with type="luminanceToAlpha"
 |LiveURL=http://code.webplatform.org/gist/5303960
 }}{{Single Example
 |Language=Other
-|Description=Example of a feColorMatrix with type="matrix" showing a contrast adjustment
+|Description=[[File:contrast.png]] 
+
+Example of a feColorMatrix with type="matrix" showing a contrast adjustment
 |Code=<svg width="640" height="550" viewBox="0 0 640 550">
 <defs>
     <filter id="matrix-contrast">
@@ -106,7 +108,8 @@ Example of a feColorMatrix with type="luminanceToAlpha"
 |LiveURL=http://code.webplatform.org/gist/5304023
 }}{{Single Example
 |Language=Other
-|Description=Example of a feColorMatrix with type="matrix" showing a sepia adjustment
+|Description=[[File:sepia.png]] 
+Example of a feColorMatrix with type="matrix" showing a sepia adjustment
 |Code=<svg width="640" height="550" viewBox="0 0 640 550">
 <defs>
     <filter id="matrix-sepia">
@@ -122,7 +125,8 @@ Example of a feColorMatrix with type="luminanceToAlpha"
 |LiveURL=http://code.webplatform.org/gist/5304047
 }}{{Single Example
 |Language=Other
-|Description=Example of a feColorMatrix with type="matrix" showing a standard greyscale adjustment
+|Description=[[File:grey.png]] 
+Example of a feColorMatrix with type="matrix" showing a standard greyscale adjustment
 |Code=<svg width="640" height="550" viewBox="0 0 640 550">
 <defs>
     <filter id="matrix-greyscale">
@@ -138,7 +142,8 @@ Example of a feColorMatrix with type="luminanceToAlpha"
 |LiveURL=http://code.webplatform.org/gist/5304064
 }}{{Single Example
 |Language=Other
-|Description=Example of a feColorMatrix with type="matrix" showing a greyscale with green channel weighting
+|Description=[[File:greygreen.png]] 
+Example of a feColorMatrix with type="matrix" showing a greyscale with green channel weighting
 |Code=<svg width="640" height="550" viewBox="0 0 640 550">
 <defs>
     <filter id="matrix-greyscale-greenboost">
@@ -154,7 +159,8 @@ Example of a feColorMatrix with type="luminanceToAlpha"
 |LiveURL=http://code.webplatform.org/gist/5304095
 }}{{Single Example
 |Language=Other
-|Description=Example of a feColorMatrix with type="matrix" showing a a solarization effect. Each color channel is zero'd and replaced with the average of the others.
+|Description=[[File:solarize.png]] 
+Example of a feColorMatrix with type="matrix" showing a a solarization effect. Each color channel is zero'd and replaced with the average of the others.
 |Code=<svg width="640" height="550" viewBox="0 0 640 550">
 <defs>
     <filter id="matrix-solarize">
@@ -170,7 +176,8 @@ Example of a feColorMatrix with type="luminanceToAlpha"
 |LiveURL=http://code.webplatform.org/gist/5304157
 }}{{Single Example
 |Language=Other
-|Description=Example of a feColorMatrix with type="matrix" showing an inversion
+|Description=[[File:invert.png]] 
+Example of a feColorMatrix with type="matrix" showing an inversion
 |Code=<svg width="640" height="550" viewBox="0 0 640 550">
 <defs>
     <filter id="matrix-invert">
