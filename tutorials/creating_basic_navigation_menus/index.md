@@ -1,15 +1,17 @@
 {{Page_Title|Creating basic navigation menus}}
-{{Flags}}
+{{Flags
+|Checked_Out=No
+}}
 {{Byline}}
 {{Summary_Section|In this tutorial we will take you through how to create different types of basic navigation menu using HTML lists and links.}}
 {{Tutorial
 |Content=== Introduction ==
  
-In this article we’ll talk about web site navigation and menus. You’ll learn about different types of menus and how to create them in HTML. We’ll also touch on the subject of menu usability and accessibility. We won’t go into styling menus yet, but this article will lay the foundations. There are [http://dev.opera.com/articles/view/23-creating-multiple-pages-with-navigat/menu_examples.zip code examples to download] to go along with this article — we will refer to these throughout the tutorial.
+In this article we’ll talk about website navigation and menus. You’ll learn about different types of menus and how to create them in HTML. We’ll also touch on the subject of menu usability and accessibility. We won’t go into styling menus yet, but this article will lay the foundations. There are [http://dev.opera.com/articles/view/23-creating-multiple-pages-with-navigat/menu_examples.zip code examples to download] to go along with this article — we will refer to these throughout the tutorial.
 
 == the HTML5 <code>&lt;nav&gt;</code> element ==
 
-HTML5 defines a <code>&lt;nav&gt;</code> element, which is to be used to contain the primary navigation of a web site, be it a list of links or a form element such as a search box. This is a good idea, as previous to this we would contain the navigation block inside something like <code>&lt;div id="navigation"&gt;</code>. Yes, you can identify this for styling purposes pretty well, but it is a <code>&lt;div&gt;</code>, and therefore semantically anonymous. <code>&lt;nav&gt;</code> gives us a consistent way to unambiguously define what the primary navigation areas are, which is good for things like search engine optimization, and for visually impaired users using a screen reader, who will be able to find the navigation much more easier if it is clearly signposted (this does depend on the screen reader they are using supporting the <code>&lt;nav&gt;</code> element, so it might be a little way off yet). So, a navigation block would look something like this:
+HTML5 defines a <code>&lt;nav&gt;</code> element, which is to be used to contain the primary navigation of a website, be it a list of links or a form element such as a search box. This is a good idea, as previous to this we would contain the navigation block inside something like <code>&lt;div id="navigation"&gt;</code>. Yes, you can identify this for styling purposes pretty well, but it is a <code>&lt;div&gt;</code>, and therefore semantically anonymous. <code>&lt;nav&gt;</code> gives us a consistent way to unambiguously define what the primary navigation areas are, which is good for things like search engine optimization, and for visually impaired users using a screen reader, who will be able to find the navigation much more easier if it is clearly signposted (this does depend on the screen reader they are using supporting the <code>&lt;nav&gt;</code> element, so it might be a little way off yet). So, a navigation block would look something like this:
 
 <syntaxhighlight lang="html5"><nav>
   <ul>
@@ -50,12 +52,12 @@ The menu of a site is unlikely to stay the same for very long — sites tend to 
  
 == Different types of menu ==
  
-There are several types of menus you will be called upon to create in HTML, as you work on different web sites. Most of these can be created with lists, although sometimes interface restrictions force you to use something different (more on that later). The list-based menus you will be likely to create are as follows:
+There are several types of menus you will be called upon to create in HTML, as you work on different websites. Most of these can be created with lists, although sometimes interface restrictions force you to use something different (more on that later). The list-based menus you will be likely to create are as follows:
  
 * In-page navigation: For example a table of contents for a single page, with links pointing to the different sections on the page.
-* Site navigation: A navigation bar for your whole web site (or a subsection of it), with links pointing to different pages on the same site.
+* Site navigation: A navigation bar for your whole website (or a subsection of it), with links pointing to different pages on the same site.
 * Content-contextual navigation: A list of links that point to pages closely related to the subject of the page you’re currently on, either on the same site, or different ones.
-* Sitemaps: Large lists of links that point to all the different pages of a web site, grouped into related sublists to make them easier to make sense of.
+* Sitemaps: Large lists of links that point to all the different pages of a website, grouped into related sublists to make them easier to make sense of.
 * Pagination: Links pointing to other pages that make up further sections or parts of a whole, along with the current page, for example part 1, part 2, and part 3 of an article.
  
 === In-page navigation (table of contents) ===
@@ -110,7 +112,7 @@ There aren’t many surprises here, at least not from a pure HTML point of view 
  
 ==== Providing visitors with a “You are here” feeling ====
  
-One golden rule of web development and navigation is that the current document should never link to itself but instead be obviously different to the other entries in the menu. This is important as it gives the visitors something to hold on to and tells them where they are on their journey through your site. There are edge cases like web applications, permalinks in blogs and so called “one page” web sites but in 99% of cases a link to the document you are already looking at is redundant and confusing to the visitor.
+One golden rule of web development and navigation is that the current document should never link to itself but instead be obviously different to the other entries in the menu. This is important as it gives the visitors something to hold on to and tells them where they are on their journey through your site. There are edge cases like web applications, permalinks in blogs and so called “one page” websites but in 99% of cases a link to the document you are already looking at is redundant and confusing to the visitor.
 
 In [[HTML links - lets build a web]], we stated that a link is an agreement and a liability: you offer visitors a way to reach more information that they need, but you need to be careful — you’ll lose credibility and trust if that link doesn’t give the users what they want, and/or results in unexpected behaviour. If you offer for example a link that points to the current document, activating it will reload the document. As a user this is something you don’t expect — what purpose did clicking this link have? This results in users getting confused.
  
@@ -137,7 +139,7 @@ Figure 1: An example of a contextual menu — a news article offering related ne
  
 This is a slightly different thing to context menus in software user interfaces, which offer different options depending on where they are accessed (like the right-click or Ctrl + click menus you find in desktop applications that offer specific options depending on where your mouse pointer is at the time).
  
-Contextual menus on web sites are a great way to promote content on other parts of the site; in terms of HTML they are just another list of links.
+Contextual menus on websites are a great way to promote content on other parts of the site; in terms of HTML they are just another list of links.
  
 === Sitemaps ===
  
