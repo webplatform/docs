@@ -11,9 +11,9 @@
 {{Guide
 |Content=== Introduction ==
  
-As an experienced developer you’ll sooner or later have to face people that are just not technical and will consider whatever you do as black magic. Conversely, as a non-technical person, not knowing what someone delivering work for you is doing is a bad starting position. This [http://www.w3.org/wiki/Web_Standards_Curriculum Web Standards Curriculum] article explains in simple terms what programming is about and hopefully will help both parties involved to steer these non-conversations into more productive waters.
+As an experienced developer, you will sooner or later have to face people that are just not technical and will consider whatever you do as black magic. Conversely, as a non-technical person, not knowing what someone delivering work for you is doing is a bad starting position. This [http://www.w3.org/wiki/Web_Standards_Curriculum Web Standards Curriculum] article explains in simple terms what programming is about and hopefully will help both parties involved to steer these non-conversations into more productive waters.
  
-It will also help novice web developers to take on board some generic programming principles that are essential to understand before you start learning how to code JavaScript. It may seem boring to begin with, but trust me, your work will be a lot more robust, dynamic and creative (read: a lot more WOW factor) if you get these rudimentary principles down in the first place. Learning the basic fundamentals of programming is important before you start working in particular languages (JavaScript, in the case of this course).
+It will also help novice web developers to take on-board some generic programming principles that are essential to understand before learning JavaScript. It may seem boring to begin with, but your work will be a lot more robust, dynamic, and creative (read: a lot more WOW factor) if you get these rudimentary principles down in the first place. Learning the basic fundamentals of programming is important before you start working in particular languages (JavaScript, in the case of this course).
  
 == Order, I will have order! ==
  
@@ -35,11 +35,11 @@ echo $celsius;
  
 Try out the JavaScript [http://dev.opera.com/articles/view/programming-the-real-basics/fahrenheit.html Fahrenheit to Celsius conversion example].
  
-Programming languages are ''interpreted'' to be turned into actions or results. Some languages, such as JavaScript are interpreted by a web browser and all you need to do to make them “do stuff” is put them inside an HTML document and open this in a browser. Other programming languages need to be translated (compiled) in an extra step to become executable. Deep down, all computers only understand zeros and ones, but above that there are multiple levels of languages, each fulfilling different tasks.
+Programming languages are ''interpreted'' to be turned into actions or results. Some languages, such as JavaScript are interpreted by a web browser; all you need to do to make them “do stuff” is put them inside an HTML document and open this in a browser. Other programming languages need to be translated (compiled) in an extra step to become executable. Deep down, all computers only understand zeros and ones, but above that there are multiple levels of languages, each fulfilling different tasks.
 
 == Variables ==
  
-The first step towards understanding programming is looking back at algebra. If you remember from school, algebra starts with writing terms such as the following.
+The first step towards understanding programming is looking back at algebra. If you remember from school, algebra starts with writing terms such as the following:
  
 <pre>3 + 5 = 8</pre>
  
@@ -52,7 +52,7 @@ Shifting those around you can determine x:
 <pre>x = 8 - 3 
 -&gt; x = 5</pre>
  
-When you introduce more than one you make your term more flexible - you are using variables:
+When you introduce more than one, you make your term more flexible - you are using variables:
  
 <pre>x + y = 8</pre>
  
@@ -66,9 +66,9 @@ or
 <pre>x = 3
 y = 5</pre>
  
-The same works with programming languages—in programming, variables are containers for values that can vary. Variables can hold all kinds of values and also the results of calculations. Variables have a name and a value separated by an equals sign (=). Variable names can be any letter or word, but bear in mind that there are restrictions from language to language of what you can use, as some words are reserved for other functionality.
+The same works with programming languages -— in programming, variables are containers for values that can vary. Variables can hold all kinds of values and also the results of calculations. Variables have a name and a value separated by an equals sign (=). Variable names can be any letter or word, but bear in mind that there are restrictions from language to language of what you can use, as some words are reserved for other functionality.
 
-To keep things easy, let’s use JavaScript as an example programming language in this article (logical, since this section of the web standards curriculum is all about JavaScript programming!) The following defines two variables, calculates the result of adding the two and defines this result as a value of a third variable.
+To keep things easy, let us use JavaScript as an example programming language in this article (logical, since this section of the web standards curriculum is all about JavaScript programming!) The following defines two variables, calculates the result of adding the two and defines this result as a value of a third variable.
  
 Note: The <code>&lt;script&gt;</code> tags are there to tell the browser that the text inside is a scripting language and that it should be interpreted as such.
 
@@ -87,10 +87,10 @@ In English, this construct would be as follows:
 * Here comes something that is not HTML;
 * Define a new variable (that is the <code>var</code> keyword) called x and assign it the value 5. 
 * Define a new variable called y and assign it the value 6. 
-* Define a new variable called result and assign it the result of adding x and y as its value. End of statement. (As there is a calculation in the assignment of the variable result the interpreter then checks the value of x, checks the value of y, adds the two and sets the value of result to the outcome—11).
-* Enough of this strange language—go back to HTML and tell the translator to leave again.
+* Define a new variable called result and assign it the result of adding x and y as its value. End of statement. (As there is a calculation in the assignment of the variable result the interpreter then checks the value of x, checks the value of y, adds the two and sets the value of result to the outcome -— 11).
+* Enough of this strange language -— go back to HTML and tell the translator to leave again.
  
-You can do all kind of calculations with variables by adding operators in between them. There are the classics like adding with a plus sign operator and subtracting with a minus sign operator. For multiplication you have to use an asterisk (*) and for dividing, a slash (/). The following example shows some calculations that are possible. Notice the texts preceded by a double slash //—these are JavaScript comments. When a JavaScript interpreter encounters these in a script it will not try to execute what follows on that line, and skips it—these are comments made for humans and not to be interpreted by the browser.
+You can do all kinds of calculations with variables by adding operators in between them. There are the classics like adding with a plus sign operator and subtracting with a minus sign operator. For multiplication you have to use an asterisk (*) and for division, a slash (/). The following example shows some calculations that are possible. Notice the texts preceded by a double slash // —- these are JavaScript comments. When a JavaScript interpreter encounters these in a script it will not try to execute what follows on that line, and skips it: these are comments made for humans and not to be interpreted by the browser.
  
 <source lang="javascript">
 <script>
@@ -109,20 +109,20 @@ var half = (y + z) / 2;
 </script>
 </source>
  
-As you can see you can mix and match any variable, and also use variables along with fixed values in calculations; you can also group them with parenthesis to override the natural order of operators (parentheses first, then multiplication or dividing, then adding or subtracting and all those Math lesson classics).
+As you can see, you can mix and match any variable, and also use variables along with fixed values in calculations; you can also group them with parentheses to override the natural order of operators (parentheses first, then multiplication or division, then adding or subtracting and all those Math lesson classics).
  
 === Variable types ===
  
-However, this would be boring as we can do all that with a simple calculator (after we typed 5318008, then turned it around and giggled, of course). Computers are more sophisticated and can make use of more complex variables. This is where variable types come in. Variables come in several types and different languages support different ones. The most common ones are:
+However, this would be boring, as we can do all that with a simple calculator (after we typed 5318008, then turned it around and giggled, of course). Computers are more sophisticated and can make use of more complex variables. This is where variable types come in. Variables come in several types and different languages support different ones. The most common ones are:
  
 * Float: a number, like <code>1.21323</code>, <code>4</code>, <code>100004</code> or <code>0.123</code>
 * Integer: a natural number like <code>1</code>, <code>12</code>, <code>33</code>, <code>140</code> but not <code>1.233</code>
 * String: a line of text like "<code>boat</code>", "<code>elephant</code>" or "<code>damn, you are tall!</code>"
 * Boolean: either <code>true</code> or <code>false</code>, but nothing else
 * Arrays: a collection of values like <code>1,2,3,4,'I am bored now'</code>
-* Objects: a representation of an object. Objects are constructs that try to model instances of objects in the real world by having properties and methods. For example you could model a cat as an object and define that it has four legs, one tail and that it is ginger. You can also define that it has a way of purring by defining a <code>purr()</code> method and that it might demand a cheeseburger with a <code>getCheeseBurger()</code> method. You can also re-use the <code>cat</code> object and define another cat with all the properties of the original one but a grey colour.
+* Objects: a representation of an object. Objects are constructs that try to model instances of objects in the real world by having properties and methods. For example, you could model a cat as an object and define that it has four legs, one tail, and that it is ginger. You can also define that it has a way of purring by defining a <code>purr()</code> method and that it might demand a cheeseburger with a <code>getCheeseBurger()</code> method. You can also re-use the <code>cat</code> object and define another cat with all the properties of the original one but a gray color.
  
-JavaScript is a “loosely typed” language, which means that you don't have to explicitly declare what type of data the variables are. You just need to use the <code>var</code> keyword to indicate that you are declaring a variable, and the browser will work out what data type you are using from the context, and use of quotes.
+JavaScript is a “loosely typed” language, which means that you do not have to explicitly declare what type of data the variables are. You just need to use the <code>var</code> keyword to indicate that you are declaring a variable, and the browser will work out what data type you are using from the context and use of quotes.
  
 ==== Floats and integers ====
  
@@ -162,7 +162,7 @@ var surname = 'Heilmann',
 </script>
 </source>
  
-You can concatenate (a technical term that means “join together”) strings using the + operator but you cannot subtract strings from one another. For string modification you need to use functions the language provides you with. Simple concatenation on the other hand is as easy as this:
+You can concatenate (a technical term that means “join together”) strings using the + operator but you cannot subtract strings from one another. For string modification you need to use functions the language provides you with. Simple concatenation, on the other hand, is as easy as this:
  
 <source lang="javascript">
 <script>
@@ -183,7 +183,7 @@ The += operator is a shortcut for "message = message +". The product of this scr
  
 There is a catch to remember when using concatenation versus adding values. If you want to add two values you need to make sure that both are numbers, not strings. The [http://dev.opera.com/articles/view/programming-the-real-basics/concatvsadd.html concatenation versus addition] example shows the difference between the two. “5”+“3” is 53 and not 8! The easiest way to convert a string to a number is by prepending it with a "+", as shown in the example.
  
-Most languages will not care if you use single or double quotes to enclose the string, as long as you don’t mix them. To stop the JavaScript interpreter from becoming confused about where the end of the string is, you need to comment out quotes contained in the string with a backslash:
+Most languages will not care if you use single or double quotes to enclose the string, as long as you do not mix them. To stop the JavaScript interpreter from becoming confused about where the end of the string is, you need to comment out quotes contained in the string with a backslash:
  
 <source lang="javascript">
 <script>
@@ -206,7 +206,7 @@ var pets = new Array('Boomer','Polly','Mr.Frisky');
 </script>
 </source>
  
-You can access each of the values with the '''array''' counter, which is the index number in the array—think of it as being like looking up chapters in a book. The syntax is <code>arrayname[index]</code>. So for example <code>pets[1]</code> would give you the string “Polly”. But wait! I hear you ask—shouldn’t it be <code>pets[2]</code> for Polly, given that it is the '''second''' value in the array? '''No'''—the counter is not 2, as computers start counting at 0, not at 1! This is a very common cause of confusion and errors.
+You can access each of the values with the '''array''' counter, which is the index number in the array -— think of it as being like looking up chapters in a book. The syntax is <code>arrayname[index]</code>. So for example <code>pets[1]</code> would give you the string “Polly”. But wait! I hear you ask—shouldn’t it be <code>pets[2]</code> for Polly, given that it is the '''second''' value in the array? '''No'''—the counter is not 2, as computers start counting at 0, not at 1! This is a very common cause of confusion and errors.
  
 Arrays automatically get a special information source for you: <code>length</code>. If you check the value of <code>pets.length</code> you will get 3 as there are 3 items in this array.
  
@@ -214,7 +214,7 @@ Arrays are great for describing collections of things that have something in com
  
 ==== Objects ====
  
-If you have a collection of items that need more detailed descriptions than just a running number, then an Array won’t quite give what you need, and you’ll need to create an object. Objects are constructs in programming that represent or model real things, such as people, vehicles or tools.
+If you have a collection of items that need more detailed descriptions than just a running number, then an Array will not quite give what you need, and you will need to create an object. Objects are constructs in programming that represent or model real things, such as people, vehicles or tools.
  
 Objects are a big and very clever and versatile part of programming and explaining them in detail here would be beyond the scope of this article. Let’s just say that an object is a thing that has several properties. Say for example you have a person object; you can define the different properties by appending them with a dot:
  
@@ -236,7 +236,7 @@ That is about the short and long of what value types variables can be. Another b
  
 A condition is a test for something. Conditions are very important for programming, in several ways:
  
-First of all conditions can be used to ensure that your program works, regardless of what data you throw at it for processing. If you blindly trust data, you’ll get into trouble and your programs will fail. If you test that the thing you want to do is possible and has all the required information in the right format, that won’t happen, and your program will be a lot more stable. Taking such precautions is also known as programming defensively.
+First of all, conditions can be used to ensure that your program works, regardless of what data you throw at it for processing. If you blindly trust data, you will get into trouble and your programs will fail. If you test that the thing you want to do is possible and has all the required information in the right format, that will not happen, and your program will be a lot more stable. Taking such precautions is also known as programming defensively.
  
 The other thing conditions can do for you is allow for branching. You might have encountered branching diagrams before, for example when filling out a form. Basically, this refers to executing different “branches” (parts) of code, depending on if the condition is met or not.
  
