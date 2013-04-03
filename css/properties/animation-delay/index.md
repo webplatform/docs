@@ -4,7 +4,7 @@
 |Content=Incomplete, Not Neutral, Cleanup, Examples Needed, Examples Best Practices
 |Checked_Out=Yes
 }}
-{{Standardization_Status|W3C Editor's Draft}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Defines when an animation starts}}
 {{CSS Property
@@ -44,7 +44,11 @@ If fewer  '''animation-delay''' values are declared than corresponding [[css/pro
 *[http://go.microsoft.com/fwlink/p/?LinkID{{=}}223144 CSS Animations Module Level 3], Section 3.8
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Animations
+|URL=http://www.w3.org/TR/css3-animations/#animation-delay-property
+|Status=Working Draft
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
