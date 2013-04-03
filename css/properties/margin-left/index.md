@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|Checked_Out=Yes
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -33,20 +33,28 @@ Margin-left creates space outside the outer edge of an element (beyond the left 
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Description=Clearing the space to the left of an element by 2cm (an example of length).
-|Code=margin-left: 2cm;
+|Description=Clearing the space to the left of a paragraph element by 2cm (an example of length).
+|Code=p {
+     margin-left: 2cm;
+}
 }}{{Single Example
 |Language=CSS
-|Description=Clearing the space to the left of an element by 20% of its container's width (an example of percentage).
-|Code=margin-left: 20%;
+|Description=Clearing the space to the left of a paragraph element by 20% of its container's width (an example of percentage).
+|Code=p {
+     margin-left: 20%;
+}
 }}{{Single Example
 |Language=CSS
-|Description=Allowing the browser to decide how much clearance to give an element to the left of its left edge (an example of auto).
-|Code=margin-left: auto;
+|Description=Allowing the browser to decide how much clearance to give a paragraph element to the left of its left edge (an example of auto).
+|Code=p {
+     margin-left: auto;
+}
 }}{{Single Example
 |Language=CSS
-|Description=Inheriting the parent element's margin-left specification (an example of inherit).
-|Code=margin-left: inherit;
+|Description=Inheriting the paragraph's parent element's margin-left specification (an example of inherit).
+|Code=p {
+     margin-left: inherit;
+}
 }}
 }}
 {{Notes_Section
@@ -55,8 +63,7 @@ Margin-left creates space outside the outer edge of an element (beyond the left 
 
 ===Best Practices===
 * When possible, use [http://docs.webplatform.org/wiki/css/properties/margin margin] shorthand (i.e. {margin: 10px 15px 20px 15px;}) to specify margin-widths rather than writing out each margin's specifications as this clutters code and makes it difficult to read. Use margin-bottom if there is a specific reason to call attention to it (e.g. one element has a different left margin than the rest in its class, etc.).
-|Notes====Remarks===
-You can specify possible length values relative to the height of the element's font (<code>em</code>) or the height of the letter "x" (<code>ex</code>).
+|Notes=You can specify possible length values relative to the height of the element's font (<code>em</code>) or the height of the letter "x" (<code>ex</code>).
 In Microsoft Internet Explorer 3.0, the specified margin value is added to the default value of the object. In Microsoft Internet Explorer 4.0 and later, the margin value is absolute. The margin properties do not work with the '''td''' and '''tr''' objects in Internet Explorer 4.0, but they do work in Internet Explorer 3.0. To set margins in the cell for Internet Explorer 4.0 and later, apply the margin to an object, such as '''div''' or '''p''', within the '''td'''.
 This property applies to inline elements, starting with Microsoft Internet Explorer 5.5.  With earlier versions of  Windows Internet Explorer, inline elements must have an '''absolute''' [[css/properties/position|'''position''']] or layout to use this property. Element layout is set by providing a value for the [[css/properties/height|'''height''']] property or the [[css/properties/width|'''width''']] property.
 Negative margins are supported, except for top and bottom margins on inline objects.
