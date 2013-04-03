@@ -2,7 +2,7 @@
 {{Flags
 |High-level issues=Needs Review
 |Content=Cleanup, Examples Best Practices
-|Checked_Out=No
+|Checked_Out=Yes
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -25,10 +25,9 @@ The margin-right property specifies the width between the element's right border
 }}{{CSS Property Value
 |Data Type=percentage
 |Description=A <percentage> relative to the width of the containing block. Negative values are allowed.
-
 }}{{CSS Property Value
 |Data Type=auto
-|Description=auto is replaced by some suitable value by the browser. 
+|Description=auto is replaced by some suitable value by the browser.
 }}{{CSS Property Value
 |Data Type=inherit
 |Description=Integer, followed by a percent sign (%). The value is a percentage of the width of the parent object.
