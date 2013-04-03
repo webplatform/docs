@@ -1,23 +1,29 @@
 {{Page_Title|Information architecture}}
-{{Flags}}
+{{Flags
+|Checked_Out=No
+}}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Traditionally, the planning stage of a web site (or any project) can be a little stressful. Everyone has an opinion about how a web site should be built, and often their opinions will conflict with one another. Your number one goal on any web site should be to build something that’s useful for the people who will be using it. It really doesn’t matter what your boss says, what that guy down the hall with a doctorate in software engineering says, or even what your personal preferences are; at the end of the day, if you’re building a web site for a particular group of people, their opinion is the only one that matters.
+{{Summary_Section|Traditionally, the planning stage of a website (or any project) can be a little stressful. Everyone has an opinion about how a website should be built, and often their opinions will conflict with one another. Your number one goal on any website should be to build something that’s useful for the people who will be using it. It really doesn’t matter what your boss says, what that guy down the hall with a doctorate in software engineering says, or even what your personal preferences are; at the end of the day, if you’re building a website for a particular group of people, their opinion is the only one that matters.
  
-This [http://www.w3.org/wiki/Web_Standards_Curriculum Web Standards Curriculum Table of contents] article is going to look at the early stages of planning out a web site, and a discipline that is commonly referred to as Information architecture, or IA. This involves thinking about who your target audience will be, what information and services they need from a web site, and how you should structure it to provide that for them. You’ll look at the entire body of information that needs to go on the site and think about how to break that down into chunks, and how those chunks should relate to one another.
+This [http://www.w3.org/wiki/Web_Standards_Curriculum Web Standards Curriculum Table of contents] article is going to look at the early stages of planning out a website, and a discipline that is commonly referred to as Information architecture, or IA. This involves thinking about who your target audience will be, what information and services they need from a website, and how you should structure it to provide that for them. You’ll look at the entire body of information that needs to go on the site and think about how to break that down into chunks, and how those chunks should relate to one another.
 }}
-{{API_Listing
-|Query=[[Category:Information Architecture]]
+{{API_Listing|Query=[[Category:Information Architecture]]
 }}
+{{Concept_Listing
+|Use_page_title=No
+|List_all_subpages=No
+}}
+{{Notes_Section}}
 {{See_Also_Section
 |Manual_sections==== Exercise questions ===
  
-* Look back at Figure 1 and try to develop a similar brainstorm for a web site about a car (pick any current or imaginary car).
-** What will visitors to the web site want to know?
-** Is there anything at existing car web sites that you see as essential?  Frivolous?
+* Look back at Figure 1 and try to develop a similar brainstorm for a website about a car (pick any current or imaginary car).
+** What will visitors to the website want to know?
+** Is there anything at existing car websites that you see as essential?  Frivolous?
 * Take your brainstorm and try to organise the information.  What page groupings make sense?
-* Another activity that is sometimes useful when planning out a web site is to check out the competition.  Do a search for band web sites (bonus points for tribute bands), and take a look at what they’re offering.  Did we miss anything?
-* Take a look at Figure 4 and try to develop similar figures for the other pages I’ve identified on the web site.
+* Another activity that is sometimes useful when planning out a website is to check out the competition.  Do a search for band websites (bonus points for tribute bands), and take a look at what they’re offering.  Did we miss anything?
+* Take a look at Figure 4 and try to develop similar figures for the other pages I’ve identified on the website.
 }}
 {{Topics}}
 {{External_Attribution
@@ -107,7 +113,7 @@ This article has looked at the web site as a whole, and how you should think abo
 |Not_required=Yes
 |Examples=
 }}
-{{Notes_Section}}
+
 {{Related_Specifications_Section
 |Specifications=
 }}
