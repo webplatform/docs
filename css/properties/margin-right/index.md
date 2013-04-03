@@ -52,13 +52,7 @@ Margin-right clears an area to the right of an element (outside the border). The
 }}
 }}
 {{Notes_Section
-|Usage====Syntax===
-id, class, or html element {
-
-    margin-right: value;
-}
-
-===Usage===
+|Usage====Usage===
 * When calculating the height and width of an element, DO NOT include the margins in your calculations (i.e. include everything else: content area, padding, and border). However, DO include margin size when calculating available space within an element's containing element.
 
 ===Best Practices===
