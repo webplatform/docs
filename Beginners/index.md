@@ -52,7 +52,7 @@ Now roll your sleeves up and get ready to learn. [[tutorials|Browse our full lis
 * [[tutorials/making css easier to read|Making CSS easier to read]]
 * [[tutorials/media queries|Targetting styles with media queries]]
 
-==JavaScript — adding dynamic behaviour to your websites==
+==JavaScript — adding dynamic behavior to your websites==
 
 * [[concepts/programming/programming basics|Programming basics]]
 * [[tutorials/your first look at javascript|Your first look at JavaScript]]
