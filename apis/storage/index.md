@@ -1,7 +1,8 @@
 {{Page_Title|Storage}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections
+|High-level issues=Missing Relevant Sections
 |Content=Incomplete
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -15,7 +16,7 @@
 |Usage=These APIs allow web apps to function offline. They are also a performance booster by storing large amounts of data locally instead of waiting for it to download. Lastly, they provide an easier programming model, with no server infrastructure required.
 }}
 {{See_Also_Section}}
-{{Topics|FileSystemAPI, IndexedDB, JavaScript, Performance, Webstorage}}
+{{Topics|API, Webstorage}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=HTML5Rocks
