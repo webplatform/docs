@@ -15,6 +15,11 @@
 |Examples={{Single Example
 |Description=This example uses the '''SPAN''' element to create an inline text container that changes the color of a word to blue.
 |Code=&lt;P&gt;This paragraph contains a single &lt;SPAN STYLE{{=}}"color: blue"&gt;blue&lt;/SPAN&gt; word.
+}}{{Single Example
+|Language=HTML
+|Description=This example uses the '''SPAN''' element to add a simple [http://microformats.org/wiki/microformats2 Microformats2 h-card] to a person's name.
+
+|Code=&lt;SPAN CLASS{{=}}"h-card vcard"&gt; Pius Uzamere &lt;/SPAN&gt;
 }}
 }}
 {{Notes_Section
