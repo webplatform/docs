@@ -7,9 +7,10 @@
 {{Concept_Page
 |Content=It is hard to define what is art without over simplifying.   In most simple and general attempt at definition, it can be described as creative expressions of emotions and imagination, typically in visual form such as painting or sculpture. 
 
-Graphic design, in general, is a creative process of organizing visual and/or typographic elements to create communication materials or objects that effectively deliver subject matter at hand to the viewer or target audience.  A well designed material should be not only aesthetically pleasing and compelling, but must deliver effective communication as its function.  
+Graphic design, in general, is a creative process of organizing visual and/or typographic elements to create communication materials or objects that effectively deliver subject matter at hand to the viewer or target audience.  A well-designed material should be not only aesthetically pleasing and compelling, but must deliver effective communication as its function.  
 
-In designing for the web today, interactivity plays a large part and an existing static design elements  and new design endeavor must take this into account.  The interactivity delivers [http://www.uxmatters.com/glossary/ user experience (UX)] which 
+In designing for the web today, interactivity plays a large part and using an existing static design elements and new web design endeavor must take this into account.  The interactivity delivers [http://www.uxmatters.com/glossary/ user experience (UX)] which, if well designed, can enrich user's experience on the site with intuitive navigation, easy accessibility to target information, brand experience among other things.
+
 
 
 
