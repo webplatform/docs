@@ -6,10 +6,10 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Defines when an animation starts}}
+{{Summary_Section|The animation-delay CSS property specifies when the animation should start. This lets the animation sequence begin some time after it's applied to an element.}}
 {{CSS Property
 |Initial value=0s
-|Applies to=block-level and inline-level elements
+|Applies to=all elements, '''::before''' and '''::after''' pseudo-elements
 |Inherited=No
 |Media=visual
 |Computed value=as specified
