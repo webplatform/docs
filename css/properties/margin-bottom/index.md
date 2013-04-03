@@ -1,8 +1,6 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
-|Content=Cleanup, Examples Best Practices
-|Checked_Out=Yes
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -35,20 +33,19 @@ Margin-bottom clears an area below an element (outside the border). The margin d
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Description=Clearing the space below an element by 2cm.
+|Description=Clearing the space below an element by 2cm (an example of length).
 |Code=margin-bottom: 2cm;
-
 }}{{Single Example
 |Language=CSS
-|Description=Clearing the space below an element by 20% of its container's height.
+|Description=Clearing the space below an element by 20% of its container's height (an example of percentage).
 |Code=margin-bottom: 20%;
 }}{{Single Example
 |Language=CSS
-|Description=Allowing the browser to decide how much clearance to give an element below its lowest edge.
+|Description=Allowing the browser to decide how much clearance to give an element below its lowest edge (an example of auto).
 |Code=margin-bottom: auto;
 }}{{Single Example
 |Language=CSS
-|Description=Inheriting the parent element's margin-bottom specification.
+|Description=Inheriting the parent element's margin-bottom specification (an example of inherit).
 |Code=margin-bottom: inherit;
 }}{{Single Example
 |Language=JavaScript
@@ -64,7 +61,10 @@ id, class, or html element {
 }
 
 ===Usage===
-When calculating the height and width of an element, DO NOT include the margins in your calculations (i.e. include everything else: content area, padding, and border). However, DO include margin size when calculating available space within an element's containing element.
+* When calculating the height and width of an element, DO NOT include the margins in your calculations (i.e. include everything else: content area, padding, and border). However, DO include margin size when calculating available space within an element's containing element.
+
+===Best Practices===
+* When possible, use [http://docs.webplatform.org/wiki/css/properties/margin margin] shorthand (i.e. {margin: 10px 15px 20px 15px;}) to specify margin-widths rather than writing out each margin's specifications as this clutters code and makes it difficult to read. Use margin-bottom if there is a specific reason to call attention to it (e.g. one element has a different bottom margin than the rest in its class, etc.).
 |Notes====Remarks===
 As of Microsoft Internet Explorer 4.0 or later, you can specify possible length values relative to the height of the element's font (<code>em</code>) or the height of the letter "x" (<code>ex</code>).
 In Microsoft Internet Explorer 3.0, the specified margin value is added to the default value of the object. In Internet Explorer 4.0 or later, the margin value is absolute. The margin properties do not work with the '''td''' and '''tr''' objects in Internet Explorer 4.0, but they do work in Internet Explorer 3.0. To set margins in the cell for Internet Explorer 4.0 or later, apply the margin to an object, such as '''div''' or '''p''', within the '''td'''.
