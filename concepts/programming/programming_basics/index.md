@@ -1,5 +1,7 @@
 {{Page_Title|Programming basics}}
-{{Flags}}
+{{Flags
+|Checked_Out=Yes
+}}
 {{Byline
 |Name=Chris Heilmann
 |URL=http://wait-till-i.com/
