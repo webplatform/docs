@@ -1,6 +1,6 @@
 {{Page_Title|Programming basics}}
 {{Flags
-|Checked_Out=Yes
+|Checked_Out=No
 }}
 {{Byline
 |Name=Chris Heilmann
