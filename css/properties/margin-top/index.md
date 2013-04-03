@@ -1,7 +1,6 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
-|Content=Cleanup,Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -27,27 +26,35 @@ Margin-top creates space outside the outer edge of an element (beyond the top bo
 |Description=The browser calculates a top margin.
 }}{{CSS Property Value
 |Data Type=inherit
-|Description=Inherits the parent element's specified margin-bottom width.
+|Description=Inherits the parent element's specified margin-top width.
 }}
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Description=Clearing the space below an element by 2cm (an example of length).
-|Code=margin-top: 2cm;
+|Description=Clearing the space above a paragraph element by 2cm (an example of length).
+|Code=p {
+     margin-top: 2cm;
+}
 }}{{Single Example
 |Language=CSS
-|Description=Clearing the space below an element by 20% of its container's height (an example of percentage).
-|Code=margin-top: 20%;
+|Description=Clearing the space above a paragraph element by 20% of its container's height (an example of percentage).
+|Code=p {
+     margin-top: 20%;
+}
 }}{{Single Example
 |Language=CSS
-|Description=Allowing the browser to decide how much clearance to give an element above its top edge (an example of auto).
-|Code=margin-top: auto;
+|Description=Allowing the browser to decide how much clearance to give a paragraph element above its top edge (an example of auto).
+|Code=p {
+     margin-top: auto;
+}
 }}{{Single Example
 |Language=CSS
-|Description=Inheriting the parent element's margin-bottom specification (an example of inherit).
-|Code=margin-top: inherit;
+|Description=Inheriting the paragraph's parent element's margin-top specification (an example of inherit).
+|Code=p {
+     margin-top: inherit;
+}
 }}
 }}
 {{Notes_Section
@@ -55,9 +62,8 @@ Margin-top creates space outside the outer edge of an element (beyond the top bo
 * When calculating the height and width of an element, DO NOT include the margins in your calculations (i.e. include everything else: content area, padding, and border). However, DO include margin size when calculating available space within an element's containing element.
 
 ===Best Practices===
-* When possible, use [http://docs.webplatform.org/wiki/css/properties/margin margin] shorthand (i.e. {margin: 10px 15px 20px 15px;}) to specify margin-widths rather than writing out each margin's specifications as this clutters code and makes it difficult to read. Use margin-bottom if there is a specific reason to call attention to it (e.g. one element has a different bottom margin than the rest in its class, etc.).
-|Notes====Remarks===
-As of Microsoft Internet Explorer 4.0 or later, you can specify possible length values relative to the height of the element's font (<code>em</code>) or the height of the letter "x" (<code>ex</code>).
+* When possible, use [http://docs.webplatform.org/wiki/css/properties/margin margin] shorthand (i.e. {margin: 10px 15px 20px 15px;}) to specify margin-widths rather than writing out each margin's specifications as this clutters code and makes it difficult to read. Use margin-top if there is a specific reason to call attention to it (e.g. one element has a different top margin than the rest in its class, etc.).
+|Notes=As of Microsoft Internet Explorer 4.0 or later, you can specify possible length values relative to the height of the element's font (<code>em</code>) or the height of the letter "x" (<code>ex</code>).
 In Microsoft Internet Explorer 3.0, the specified margin value is added to the default value of the object. In Internet Explorer 4.0 or later, the margin value is absolute. The margin properties do not work with the '''td''' and '''tr''' objects in Internet Explorer 4.0, but they do work in Internet Explorer 3.0. To set margins in the cell for Internet Explorer 4.0 or later, apply the margin to an object, such as '''div''' or '''p''', within the '''td'''.
 As of Microsoft Internet Explorer 5.5, this property applies to inline elements. With earlier versions of Windows Internet Explorer, inline elements must have an '''absolute''' [[css/properties/position|'''position''']] or layout to use this property. Element layout is set by providing a value for the [[css/properties/height|'''height''']] property or the [[css/properties/width|'''width''']] property.
 For inline elements, the value of this property is used to compute the border area of a surrounding inline element, if present.  This value does not contribute to the height of a line.
