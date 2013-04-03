@@ -11,19 +11,19 @@ Now we've gotten to grips with the very basics of HTML, what is contained inside
 
 == A typical page structure ==
 
-Before you read any further, go and have a look at 5-10 of your favourite web sites. They will have vastly differing content, functionality, and look and feel, but they will all have common elements. There are very few sites that don't at least loosely follow the pattern of:
+Before you read any further, go and have a look at 5-10 of your favourite websites. They will have vastly differing content, functionality, and look and feel, but they will all have common elements. There are very few sites that don't at least loosely follow the pattern of:
 
-* Header (or masthead) at the top of the page, usually containing the top level heading of the page, and/or a company logo. This is the big bold statement at the top of the page that says what the web site is, and who it belongs to.
+* Header (or masthead) at the top of the page, usually containing the top level heading of the page, and/or a company logo. This is the big bold statement at the top of the page that says what the website is, and who it belongs to.
 * Main content column, which holds the main content of functionality you are here to use.
 * One or more sidebars, holding tributary content that is either related to that page's main content and changes as new pages are loaded (eg. related links), or is always relevant and persists across the whole site (eg. "your basket" information on an e-commerce site).
 * Navigation menu going across the page or down the page in a column. This is often put in a sidebar, or may form part of the header.
 * A footer that goes across the bottom of the site and contains secondary information such as copyright information and contact details.
 
-Lets visualise this a bit more with a specific example. The web site of [http://www.conquestofsteel.co.uk Conquest of Steel] (Chris Mills' band!) looks like so
+Lets visualise this a bit more with a specific example. The website of [http://www.conquestofsteel.co.uk Conquest of Steel] (Chris Mills' band!) looks like so
 
 [[File:htmlstructure1.jpg]]
 
-Figure 1: A typical example web site.
+Figure 1: A typical example website.
 
 We could break this up into the sections we have just discussed, like so:
 
@@ -87,9 +87,9 @@ It's that simple really. Of course, it is not going to look like a properly laid
 The HTML4 way of doing things is all well and good, but semantically it could be so much better:
  
 * Humans can tell the different content apart, but machines can't — the browser doesn't see the different divs as header, footer, etc. It sees them as different divs. Wouldn't it be more useful if browsers and screen readers were able to explicitly identify say, the navigation menu so a visually impaired user could find it more easily, or the different news items on a bunch of blogs so they could be easily syndicated in an RSS feed without any extra programming?
-* Even if you do use extra code to solve some of these problems, you can still only do it reliably for your web sites, as different web developers will use different class and ID names, especially when you consider the international audience — different web developers in different countries will use different languages to write their class and id names.
+* Even if you do use extra code to solve some of these problems, you can still only do it reliably for your websites, as different web developers will use different class and ID names, especially when you consider the international audience — different web developers in different countries will use different languages to write their class and id names.
  
-It therefore makes a lot of sense to define a consistent set of elements for everyone to use for the common structural blocks that appear on so many web sites, and this is exactly what is defined in HTML5.
+It therefore makes a lot of sense to define a consistent set of elements for everyone to use for the common structural blocks that appear on so many websites, and this is exactly what is defined in HTML5.
 
 The new HTML5 elements we will cover in this article are:
  
