@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Merge Candidate, Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
+|High-level issues=Merge Candidate, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 |Checked_Out=No
 |Editorial notes=Duplicate info of that in apis/audio-video/TextTrack
@@ -85,7 +85,7 @@ The '''track''' object has these properties.
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|DOM}}
+{{Topics|API, Audio, Video}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
