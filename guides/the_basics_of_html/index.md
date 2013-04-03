@@ -1,5 +1,7 @@
 {{Page_Title|The basics of HTML}}
-{{Flags}}
+{{Flags
+|Checked_Out=No
+}}
 {{Byline}}
 {{Summary_Section|In this article, you will learn the basics of HTML in order to gain some insight into the structure and content of an HTML
 document.
@@ -49,7 +51,7 @@ tag, closing tag and everything in between is called an “element”. The <code
 Many people use the terms element and tag interchangeably however, which is not strictly correct. 
  
 In most browsers there is a “Source” or “View Source” option, commonly under
-the “View” menu. Try this now - go to your favourite web site, choose this option, and spend some time looking at the HTML that makes up the structure of the page.
+the “View” menu. Try this now - go to your favorite website, choose this option, and spend some time looking at the HTML that makes up the structure of the page.
 
 == The structure of an HTML document ==
  
