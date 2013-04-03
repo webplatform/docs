@@ -4,7 +4,6 @@
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-<compatability topic="css" type="property" feature="border-radius" format="list"></compatability>
 {{Summary_Section|The border-radius CSS property allows authors to round the corners of an element. The rounding can be different per-corner, and it could have different horizontal and vertical radii, to produce elliptical curves.}}
 {{CSS Property
 |Initial value=0
@@ -100,10 +99,6 @@ border-radius: (horizontal radius values) / [top left] [top right] [bottom right
 |Relevant_changes=Added border-corner-shape to let border-radius specify the size of a number of different corner shapes besides rounded corners.
 }}
 }}
-
-==Can I Use==
-<compatability topic="css" type="property" feature="border-radius"></compatability>
-
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
@@ -268,3 +263,12 @@ border-radius: (horizontal radius values) / [top left] [top right] [bottom right
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
+<compatability topic="css" type="property" feature="border-radius" format="list"></compatability>
+
+
+
+
+
+
+==Can I Use==
+<compatability topic="css" type="property" feature="border-radius"></compatability>
