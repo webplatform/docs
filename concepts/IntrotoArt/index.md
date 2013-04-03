@@ -5,13 +5,12 @@
 {{API_Name}}
 {{Summary_Section}}
 {{Concept_Page
-|Content=What is beauty depends on many things, one being the observer. However, there is commonness in what we like as human beings and dislike, genetics? Perhaps. When it comes to Graphic Design not only the object/concept has to look cute but serve its purpose. This sometimes is refereed to as functionality vs aesthetics. Creativity lies in finding the best and better technique that requires the minimum compromise. 
+|Content=It is hard to define what is art without over simplifying.   In most simple and general attempt at definition, it can be described as creative expressions of emotions and imagination, typically in visual form such as painting or sculpture. 
 
-In short Graphic Design looks beautiful and serve a function. While Art is meant to be expression of feelings,or to convey feeling and is extraordinary, it may or may not serve any other function.
+Graphic design, in general, is a creative process of organizing visual and/or typographic elements to create communication materials or objects that effectively deliver subject matter at hand to the viewer or target audience.  A well designed material should be not only aesthetically pleasing and compelling, but must deliver effective communication as its function.  
 
-Graphic Design is meant to communicate the message. And interactive apps it's suppose to deliever the experience. Experience include many things which are beyond the scope of this article such as smartness of app, customization, and more. But one rule of thumb is this. Don't make user work hard. Be a source of aid not obstacles. When designing the whole experience think of your app as a person who wants to help the user, have common sense and see what the user meant. 
+In designing for the web today, interactivity plays a large part and an existing static design elements  and new design endeavor must take this into account.  The interactivity delivers user experience which 
 
-In General, Graphic Design can be broken down into these elements:
 
 
 *Typography
