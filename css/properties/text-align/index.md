@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Missing Relevant Sections, Needs Review
+|High-level issues=Needs Review
 |Content=Compatibility Incomplete, Examples Needed
 |Checked_Out=Yes
 }}
@@ -111,7 +111,10 @@ This example uses '''p''' as a selector and two classes to call an embedded styl
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/text-align.htm
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Notes=The standard-compatible way to center a block itself without centering its inline content is setting the left and right <code>margin</code> to auto, e.g.:
+<code>margin:auto;</code> or <code>margin:0 auto;</code> or  <code>margin-left:auto; margin-right:auto;</code>
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Text Level 3
