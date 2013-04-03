@@ -90,6 +90,3 @@ This article has looked at the website as a whole, and how you should think abou
 * Take a look at Figure 4 and try to develop similar figures for the other pages I’ve identified on the website.
 
 Note: This material was originally published as part of the Opera Web Standards Curriculum, available as [http://dev.opera.com/articles/view/6-information-architecture-planning-o/ 6: Information Architecture - Planning out a website], written by Jon Lane. Like the original, it is published under the [http://creativecommons.org/licenses/by-nc-sa/2.5/ Creative Commons Attribution, Non Commercial - Share Alike 2.5] license.
-
-[[Category:Tutorials]]
-[[Category:WSC]]
