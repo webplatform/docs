@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -24,6 +25,7 @@ The number of columns is determined by the values of other property values of th
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=CSS
 |Description=This example shows how to render text within the section.newspaper element in three columns.
 |Code=section.newspaper {
   display: block;
@@ -31,6 +33,18 @@ The number of columns is determined by the values of other property values of th
   -moz-column-count: 3;
   -webkit-column-count: 3;
 }
+}}{{Single Example
+|Language=CSS
+|Description=We will always display 3 columns adjusting the width of the columns as needed
+|Code=/* 
+3 columns, doesn't matter the width of the content,
+we will always display 3 columns
+*/
+#column1 {
+border: 2px solid #000;  
+column-count: 3;}
+
+|LiveURL=http://code.webplatform.org/gist/5305530
 }}
 }}
 {{Notes_Section
@@ -41,14 +55,18 @@ To ensure the specified value is used, all length property values of the multi-c
 <code>'''column-count: '''''count'' '''{{!}}''' auto</code>
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Multi-column Layout Module
+|URL=http://www.w3.org/TR/css3-multicol/
+|Status=W3C Candidate Recommendation
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
-|Notes_rows=
+|Notes_rows={{Compatibility Notes Row}}
 }}
 {{See_Also_Section
 |Topic_clusters=Multi-Column
