@@ -1,5 +1,7 @@
 {{Page_Title}}
 {{Flags
+|High-level issues=Undescriptive Title, Needs Topics, Missing Relevant Sections
+|Content=Incomplete, Grammar/Spelling, Cleanup, Compatibility Incomplete, Examples Needed, Needs Summary
 |Checked_Out=No
 }}
 {{Standardization_Status}}
