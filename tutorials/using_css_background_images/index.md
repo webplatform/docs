@@ -1,5 +1,6 @@
 {{Page_Title|Using CSS background images}}
 {{Flags
+|Checked_Out=No
 }}
 {{Byline}}
 {{Summary_Section|This article covers CSS backgrounds in detail: background color, image, repeat, attachment, and position. Near the end, it also looks at advanced techniques such as CSS sprites.}}
@@ -377,13 +378,7 @@ The HTML that creates the list is an unordered list containing links. Note the e
     </li>
   </ul>
 </syntaxhighlight>
- 
-The CSS utilizes both background images. First, take a look at the gradient background image. There are three interesting things to notice:
- 
-# The image repeats horizontally (<code>repeat-x</code>.)  This tiling enables you to make such a small image spread across the entire list.
-# The image is centered vertically. You want the round bit of the image to appear in the middle of the list item, so you should use a background position of <code>left center</code>.
-# In the CSS, I’ve applied a background color that is the same gray as the gray in the gradient image. This ensures, if the element grows, it will not look broken. For more information about this kind of technique, I recommend reading [http://www.simplebits.com/publications/bulletproof/ Bulletproof Web Design] by Dan Cederholm.
- 
+
 Add the following CSS to a new CSS file, and link it to the HTML document:
  
 <syntaxhighlight lang="css">
@@ -398,7 +393,7 @@ Add the following CSS to a new CSS file, and link it to the HTML document:
 }
 
 .navigation li a {
-  background: '''#E2E2E2''' url(sprite_gradient_bkg.jpg) '''repeat-x''' left center; 
+  background: #E2E2E2 url(sprite_gradient_bkg.jpg) repeat-x left center; 
   padding:20px; 
   display:block ;
   font-family: Arial, Helvetica, sans-serif;
@@ -409,11 +404,17 @@ Add the following CSS to a new CSS file, and link it to the HTML document:
 
 /* hover effects */
 
-.navigation li a:hover,, .navigation li a:focus {
-  '''background: transparent none;'''
+.navigation li a:hover, .navigation li a:focus {
+  background: transparent none;
 }
 </syntaxhighlight>
  
+The CSS utilizes both background images. First, take a look at the gradient background image. There are three interesting things to notice:
+ 
+# The image repeats horizontally (<code>repeat-x</code>.)  This tiling enables you to make such a small image spread across the entire list.
+# The image is centered vertically. You want the round bit of the image to appear in the middle of the list item, so you should use a background position of <code>left center</code>.
+# In the CSS, I’ve applied a background color that is the same gray as the gray in the gradient image. This ensures, if the element grows, it will not look broken. For more information about this kind of technique, I recommend reading [http://www.simplebits.com/publications/bulletproof/ Bulletproof Web Design] by Dan Cederholm.
+
 The last line means that the element should not display a background color or image when the visitor hovers their cursor over it, or focuses on the element using the keyboard. You may be wondering why I applied the background properties to the link rather than the list item. The answer is that Internet Explorer 6 and earlier do not support pseudo classes like <code>hover</code> on elements other than links. I’ve made the adjustment in the code to accommodate this constraint.
  
 Next you can create the CSS for the little logos. As usual, you can start by defining the most general case for all <code>span</code> elements within your navigation module. It is here that you define the image to be used by all spans, the repeat setting, and the background position (each is different, so you can use the first one). You can use shorthand for this rule. Note that CSS comments divide the sections of our code into manageable chunks. Add the following code to the bottom of the CSS file:
