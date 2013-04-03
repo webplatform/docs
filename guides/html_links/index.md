@@ -1,18 +1,19 @@
 {{Page_Title|HTML links}}
 {{Flags
+|Checked_Out=No
 }}
 {{Byline}}
 {{Summary_Section|In this article we provide a complete treatment of HTML anchors, or <code>&lt;a&gt;</code> elements, more commonly known as HTML links.}}
 {{Guide
 |Content=== Introduction ==
  
-In this article you’ll learn all about one of the most ground-breaking inventions in the history of the Web — links. Links allow the reader of a document to follow them to another document and jump from server to server without having to disconnect and connect all over again. A lot has happened since they were first invented but one thing stayed the same: links are a very important part of the web experience and you can make accessing your content and functionality easy or hard for your web site’s visitors, depending on how you use them.
+In this article you’ll learn all about one of the most ground-breaking inventions in the history of the Web — links. Links allow the reader of a document to follow them to another document and jump from server to server without having to disconnect and connect all over again. A lot has happened since they were first invented but one thing stayed the same: links are a very important part of the web experience and you can make accessing your content and functionality easy or hard for your website’s visitors, depending on how you use them.
  
 After you’ve gone through this article you’ll know how to create links that are easy to understand and function in any environment. Furthermore you’ll learn how linking affects your search engine popularity and you’ll get some tips about wording links. As usual, [http://dev.opera.com/articles/view/18-html-links-let-s-build-a-web/links_code.zip there is an accompanying zip file to this tutorial], which contains several files we’ll refer to as we go along.
 
 == What are links? ==
  
-Links are parts of a web site that point to other resources — other HTML documents, text files, PDFs, etc. There are links that are followed automatically by the browser, created using <code>&lt;link&gt;</code> elements (you’ve already encountered some of those in earlier articles—they were used to import CSS files into an HTML document) and then there are links that are optional for the user to activate. These are called '''anchors''' and you can add them to the document using the <code>&lt;a&gt;</code> element.
+Links are parts of a website that point to other resources — other HTML documents, text files, PDFs, etc. There are links that are followed automatically by the browser, created using <code>&lt;link&gt;</code> elements (you’ve already encountered some of those in earlier articles—they were used to import CSS files into an HTML document) and then there are links that are optional for the user to activate. These are called '''anchors''' and you can add them to the document using the <code>&lt;a&gt;</code> element.
  
 == The anatomy of an anchor link ==
  
@@ -174,7 +175,7 @@ Crucial information might be:
 
 === Linking to non-HTML resources — don’t make people guess ===
  
-It can be very annoying when you click on a link and your browser does not know what to do with the content the link points to. It is unfortunately all too common to see web sites link to images, PDF documents and videos without warning their visitors to be prepared. Videos especially are very often a cause for browser crashes. Furthermore, the resource might be on the larger side (20MB PDF anyone?), which means that visitors might prefer to download it rather than opening it inside the browser, or just not access it at all.
+It can be very annoying when you click on a link and your browser does not know what to do with the content the link points to. It is unfortunately all too common to see websites link to images, PDF documents and videos without warning their visitors to be prepared. Videos especially are very often a cause for browser crashes. Furthermore, the resource might be on the larger side (20MB PDF anyone?), which means that visitors might prefer to download it rather than opening it inside the browser, or just not access it at all.
  
 One of the biggest success factors of a web product is not keeping people guessing what happens when they perform an action and instead tell them flat out what effects their action will have. In the case of links all you need to do to prevent a lot of frustration is to tell your visitors what the linked resource is. Here are some examples ([http://dev.opera.com/articles/view/18-html-links-let-s-build-a-web/linkingnonhtml.html linkingnonhtml.html]):
  
@@ -207,7 +208,7 @@ By providing such information about linked files and their nature you leave the 
 
 === External vs. internal links ===
  
-One of the biggest fears of business decision makers when it comes to their company’s web sites is people leaving prematurely. This is often the reason for never offering third party links (unless the third parties pay money for the privilege of having web traffic directed towards them). We’ll come back to this error in judgment later on; for now let’s talk about what people do to avoid visitors leaving their site and how these measures affect the site’s success.
+One of the biggest fears of business decision makers when it comes to their company’s websites is people leaving prematurely. This is often the reason for never offering third party links (unless the third parties pay money for the privilege of having web traffic directed towards them). We’ll come back to this error in judgment later on; for now let’s talk about what people do to avoid visitors leaving their site and how these measures affect the site’s success.
  
 == Frames and popups — just say no ==
  
@@ -218,7 +219,7 @@ Using HTML frames means you separate the page shown in the browser into several 
 * Search engines can never index a whole page but instead might show up parts of a page in search results that don’t make sense out of context.
 * Visitors cannot bookmark the page — the next time they open their bookmark they’ll get the initial state of the frameset and not the page as they left it.
 * Visitors dependent on assistive technology have a very hard time navigating around framesets.
-* Third party sites might not like to be shown inside a frameset and use “framebreaker” scripts that replace framesets with the real URL when you try to embed them. This is to stop criminals luring Internet users into entering for example credit card information into a web site that seemingly looks like a bank (so called “phishing”).
+* Third party sites might not like to be shown inside a frameset and use “framebreaker” scripts that replace framesets with the real URL when you try to embed them. This is to stop criminals luring Internet users into entering for example credit card information into a website that seemingly looks like a bank (so called “phishing”).
  
 Links inside a frameset use the <code>target</code> attribute of the anchor to target the correct frame. Each frame in a frameset gets a certain name and activating the link would open the document defined in the <code>href</code> attribute in that frame. If the frameset is not available (for example when a visitor found the document with the links via a search engine) each link opens in a new browser instance.
  
@@ -242,7 +243,7 @@ The relevant keywords bring us to another very important part of creating good l
  
 I’ve covered this partly in the section about linking to non-HTML resources, but it is good to remind ourselves that links are not only part of the page copy but also interactive elements in the document.
  
-Some assistive technologies will offer a list of links instead of the whole document to allow visitors to quickly navigate their way through it and find the link they want, which means that your link text needs to make sense out of context as well as in context. You can easily check this in Opera by opening any web site and choosing Tools &gt; Links from the menu or pressing Ctrl + Shift + L. You’ll get a new tab that shows all the links in the document and where they point to.
+Some assistive technologies will offer a list of links instead of the whole document to allow visitors to quickly navigate their way through it and find the link they want, which means that your link text needs to make sense out of context as well as in context. You can easily check this in Opera by opening any website and choosing Tools &gt; Links from the menu or pressing Ctrl + Shift + L. You’ll get a new tab that shows all the links in the document and where they point to.
  
 You should also make sure that there are not links that have the same wording but point to different resources. The classic mistake here is “click here” links, worded for example like “To download the latest version of our tool '''click here'''”. It is much better to use a link text that explains what it points to — in the case of “You can download the latest version of our tool and try it out for yourself”, turn the words "download the latest version of our tool" into a link.
  
