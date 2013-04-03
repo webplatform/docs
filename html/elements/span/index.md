@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Groups inline elements in a document in order to apply styles. Does not assign any style attributes on its own.}}
+{{Summary_Section|Groups inline elements in a document. The span element is both style and semantics '''neutral'''; the tag does not assign any style attributes or semantic meaning on its own.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLSpanElement
 }}
@@ -18,7 +18,7 @@
 |Code=&lt;p&gt;This paragraph contains a single &lt;span style{{=}}"color: blue"&gt;blue&lt;/span&gt; word.
 }}{{Single Example
 |Language=HTML
-|Description=This example uses the '''span''' element to add a simple [http://microformats.org/wiki/microformats2 Microformats2 h-card] to a person's name.
+|Description=This example uses the '''span''' element to add a simple [http://microformats.org/wiki/microformats2#h-card Microformats2 h-card] to a person's name.
 |Code=&lt;span class{{=}}"h-card vcard"&gt;Pius Uzamere&lt;/span&gt;
 }}
 }}
