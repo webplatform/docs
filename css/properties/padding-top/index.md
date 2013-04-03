@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
 |Checked_Out=Yes
+|Editorial notes=see padding-bottom
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
