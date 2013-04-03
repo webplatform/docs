@@ -46,8 +46,7 @@ By default, color-manipulation operations using feColorMatrix take place in line
 |Description=[[File:desaturate.png]] 
 
 Example of a feColorMatrix with type="saturate"
-|Code=<syntaxhighlight lang="xml">
-<svg width="640" height="550" viewBox="0 0 640 550">
+|Code=<svg width="640" height="550" viewBox="0 0 640 550">
 <defs>
     <filter id="saturate">
       <feColorMatrix in="SourceGraphic" type="saturate" values=".5" result="A"/>
@@ -56,10 +55,7 @@ Example of a feColorMatrix with type="saturate"
   <image x="10" y="10" width="280" height="350" preserveAspectRatio="true" xlink:href="http://upload.wikimedia.org/wikipedia/commons/8/82/Siberian-larch.jpg"/>
   <image x="310" y="10" width="280" height="350" preserveAspectRatio="true" filter="url(#saturate)" xlink:href="http://upload.wikimedia.org/wikipedia/commons/8/82/Siberian-larch.jpg"/>
 </svg>​
-</syntaxhighlight>
 
-
-***
 |LiveURL=http://code.webplatform.org/gist/5303882
 }}{{Single Example
 |Language=Other
@@ -118,6 +114,7 @@ Example of a feColorMatrix with type="matrix" showing a contrast adjustment
 }}{{Single Example
 |Language=Other
 |Description=[[File:sepia.png]] 
+
 Example of a feColorMatrix with type="matrix" showing a sepia adjustment
 |Code=<svg width="640" height="550" viewBox="0 0 640 550">
 <defs>
@@ -137,6 +134,7 @@ Example of a feColorMatrix with type="matrix" showing a sepia adjustment
 }}{{Single Example
 |Language=Other
 |Description=[[File:grey.png]] 
+
 Example of a feColorMatrix with type="matrix" showing a standard greyscale adjustment
 |Code=<svg width="640" height="550" viewBox="0 0 640 550">
 <defs>
@@ -156,6 +154,7 @@ Example of a feColorMatrix with type="matrix" showing a standard greyscale adjus
 }}{{Single Example
 |Language=Other
 |Description=[[File:greygreen.png]] 
+
 Example of a feColorMatrix with type="matrix" showing a greyscale with green channel weighting
 |Code=<svg width="640" height="550" viewBox="0 0 640 550">
 <defs>
@@ -175,6 +174,7 @@ Example of a feColorMatrix with type="matrix" showing a greyscale with green cha
 }}{{Single Example
 |Language=Other
 |Description=[[File:solarize.png]] 
+
 Example of a feColorMatrix with type="matrix" showing a a solarization effect. Each color channel is zero'd and replaced with the average of the others.
 |Code=<svg width="640" height="550" viewBox="0 0 640 550">
 <defs>
@@ -194,6 +194,7 @@ Example of a feColorMatrix with type="matrix" showing a a solarization effect. E
 }}{{Single Example
 |Language=Other
 |Description=[[File:invert.png]] 
+
 Example of a feColorMatrix with type="matrix" showing an inversion
 |Code=<svg width="640" height="550" viewBox="0 0 640 550">
 <defs>
