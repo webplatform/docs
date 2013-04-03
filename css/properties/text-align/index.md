@@ -1,6 +1,8 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
+|High-level issues=Missing Relevant Sections, Data Not Semantic, Unreviewed Import
+|Checked_Out=Yes
+|Editorial notes=Topics have been selected.
 }}
 {{Standardization_Status}}
 {{API_Name}}
