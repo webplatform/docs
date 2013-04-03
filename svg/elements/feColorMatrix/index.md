@@ -43,9 +43,7 @@ By default, color-manipulation operations using feColorMatrix take place in line
 |Not_required=No
 |Examples={{Single Example
 |Language=Other
-|Description=[[File:blue70sfilterexample.png]]
-
-Example of a table component transfer. The input ranges are mapped onto continuous output ranges.
+|Description=Example of a feColorMatrix with type="saturate"
 |Code=<syntaxhighlight lang="xml">
 <svg width="640" height="550" viewBox="0 0 640 550">
 <defs>
@@ -58,6 +56,141 @@ Example of a table component transfer. The input ranges are mapped onto continuo
   <image x="310" y="10" width="280" height="350" preserveAspectRatio="true" filter="url(#saturate)" xlink:href="http://upload.wikimedia.org/wikipedia/commons/8/82/Siberian-larch.jpg"/>
 </svg>​
 </syntaxhighlight>
+|LiveURL=http://code.webplatform.org/gist/5303882
+}}{{Single Example
+|Language=Other
+|Description=Example of a feColorMatrix with type="hueRotate"
+|Code=<p>feColorMatrix Example 2: hueRotate 45 deg</p>
+
+<svg width="640" height="550" viewBox="0 0 640 550">
+<defs>
+    <filter id="hueRotate">
+      <feColorMatrix in="SourceGraphic" type="hueRotate" values="45" result="A"/>
+   </filter>
+
+  </defs>
+  <image x="10" y="10" width="280" height="350" preserveAspectRatio="true" xlink:href="http://upload.wikimedia.org/wikipedia/commons/8/82/Siberian-larch.jpg"/>
+  <image x="310" y="10" width="280" height="350" preserveAspectRatio="true" filter="url(#hueRotate)" xlink:href="http://upload.wikimedia.org/wikipedia/commons/8/82/Siberian-larch.jpg"/>
+</svg>​
+|LiveURL=http://code.webplatform.org/gist/5303933
+}}{{Single Example
+|Language=Other
+|Description=Example of a feColorMatrix with type="luminanceToAlpha"
+|Code=<svg width="640" height="550" viewBox="0 0 640 550">
+<defs>
+    <filter id="L2A">
+      <feColorMatrix in="SourceGraphic" type="luminanceToAlpha" result="A"/>
+   </filter>
+
+  </defs>
+  <image x="10" y="10" width="280" height="350" preserveAspectRatio="true" xlink:href="http://upload.wikimedia.org/wikipedia/commons/8/82/Siberian-larch.jpg"/>
+  <image x="310" y="10" width="280" height="350" preserveAspectRatio="true" filter="url(#L2A)" xlink:href="http://upload.wikimedia.org/wikipedia/commons/8/82/Siberian-larch.jpg"/>
+</svg>​
+|LiveURL=http://code.webplatform.org/gist/5303960
+}}{{Single Example
+|Language=Other
+|Description=Example of a feColorMatrix with type="matrix" showing a contrast adjustment
+|Code=<svg width="640" height="550" viewBox="0 0 640 550">
+<defs>
+    <filter id="matrix-contrast">
+      <feColorMatrix in="SourceGraphic" type="matrix" values="1.2 0 0 0 -0.2 
+                                                              0 1.2 0 0 -0.2 
+                                                              0 0 1.2 0 -0.2
+                                                              0 0 0 1 0"/>
+   </filter>
+
+  </defs>
+  <image x="10" y="10" width="280" height="350" preserveAspectRatio="true" xlink:href="http://upload.wikimedia.org/wikipedia/commons/8/82/Siberian-larch.jpg"/>
+  <image x="310" y="10" width="280" height="350" preserveAspectRatio="true" filter="url(#matrix-contrast)" xlink:href="http://upload.wikimedia.org/wikipedia/commons/8/82/Siberian-larch.jpg"/>
+</svg>​
+|LiveURL=http://code.webplatform.org/gist/5304023
+}}{{Single Example
+|Language=Other
+|Description=Example of a feColorMatrix with type="matrix" showing a sepia adjustment
+|Code=<p>feColorMatrix Example 5: Matrix-Sepia</p>
+
+<svg width="640" height="550" viewBox="0 0 640 550">
+<defs>
+    <filter id="matrix-sepia">
+      <feColorMatrix in="SourceGraphic" type="matrix" values=".35 .35 .35 0 0 
+                                                              .25 .25 .25 0 0 
+                                                              .15 .15 .15 0 0
+                                                              0 0 0 1 0"/>
+   </filter>
+
+  </defs>
+  <image x="10" y="10" width="280" height="350" preserveAspectRatio="true" xlink:href="http://upload.wikimedia.org/wikipedia/commons/8/82/Siberian-larch.jpg"/>
+  <image x="310" y="10" width="280" height="350" preserveAspectRatio="true" filter="url(#matrix-sepia)" xlink:href="http://upload.wikimedia.org/wikipedia/commons/8/82/Siberian-larch.jpg"/>
+</svg>​
+|LiveURL=http://code.webplatform.org/gist/5304047
+}}{{Single Example
+|Language=Other
+|Description=Example of a feColorMatrix with type="matrix" showing a standard greyscale adjustment
+|Code=<svg width="640" height="550" viewBox="0 0 640 550">
+<defs>
+    <filter id="matrix-greyscale">
+      <feColorMatrix in="SourceGraphic" type="matrix" values=".33 .33 .33 0 0 
+                                                              .33 .33 .33 0 0 
+                                                              .33 .33 .33 0 0
+                                                              0 0 0 1 0"/>
+   </filter>
+
+  </defs>
+  <image x="10" y="10" width="280" height="350" preserveAspectRatio="true" xlink:href="http://upload.wikimedia.org/wikipedia/commons/8/82/Siberian-larch.jpg"/>
+  <image x="310" y="10" width="280" height="350" preserveAspectRatio="true" filter="url(#matrix-greyscale)" xlink:href="http://upload.wikimedia.org/wikipedia/commons/8/82/Siberian-larch.jpg"/>
+</svg>​
+|LiveURL=http://code.webplatform.org/gist/5304064
+}}{{Single Example
+|Language=Other
+|Description=Example of a feColorMatrix with type="matrix" showing a greyscale with green channel weighting
+|Code=<svg width="640" height="550" viewBox="0 0 640 550">
+<defs>
+    <filter id="matrix-greyscale-greenboost">
+      <feColorMatrix in="SourceGraphic" type="matrix" values=".25 .5 .25 0 0 
+                                                              .25 .5 .25 0 0 
+                                                              .25 .5 .25 0 0
+                                                              0 0 0 1 0"/>
+   </filter>
+
+  </defs>
+  <image x="10" y="10" width="280" height="350" preserveAspectRatio="true" xlink:href="http://upload.wikimedia.org/wikipedia/commons/8/82/Siberian-larch.jpg"/>
+  <image x="310" y="10" width="280" height="350" preserveAspectRatio="true" filter="url(#matrix-greyscale-greenboost)" xlink:href="http://upload.wikimedia.org/wikipedia/commons/8/82/Siberian-larch.jpg"/>
+</svg>​
+|LiveURL=http://code.webplatform.org/gist/5304095
+}}{{Single Example
+|Language=Other
+|Description=Example of a feColorMatrix with type="matrix" showing a a solarization effect. Each color channel is zero'd and replaced with the average of the others.
+|Code=<svg width="640" height="550" viewBox="0 0 640 550">
+<defs>
+    <filter id="matrix-solarize">
+      <feColorMatrix in="SourceGraphic" type="matrix" values="-1 .5 .5 0 0 
+                                                              .5 -1 .5 0 0 
+                                                              .5 .5 -1 0 0
+                                                              0 0 0 1 0"/>
+   </filter>
+
+  </defs>
+  <image x="10" y="10" width="280" height="350" preserveAspectRatio="true" xlink:href="http://upload.wikimedia.org/wikipedia/commons/8/82/Siberian-larch.jpg"/>
+  <image x="310" y="10" width="280" height="350" preserveAspectRatio="true" filter="url(#matrix-solarize)" xlink:href="http://upload.wikimedia.org/wikipedia/commons/8/82/Siberian-larch.jpg"/>
+</svg>​
+|LiveURL=http://code.webplatform.org/gist/5304157
+}}{{Single Example
+|Language=Other
+|Description=Example of a feColorMatrix with type="matrix" showing an inversion
+|Code=<svg width="640" height="550" viewBox="0 0 640 550">
+<defs>
+    <filter id="matrix-invert">
+      <feColorMatrix in="SourceGraphic" type="matrix" values="-1 0 0 0 1 
+                                                              0 -1 0 0 1 
+                                                              0 0 -1 0 1
+                                                              0 0 0 1 0"/>
+   </filter>
+
+  </defs>
+  <image x="10" y="10" width="280" height="350" preserveAspectRatio="true" xlink:href="http://upload.wikimedia.org/wikipedia/commons/8/82/Siberian-larch.jpg"/>
+  <image x="310" y="10" width="280" height="350" preserveAspectRatio="true" filter="url(#matrix-invert)" xlink:href="http://upload.wikimedia.org/wikipedia/commons/8/82/Siberian-larch.jpg"/>
+</svg>​
+|LiveURL=http://code.webplatform.org/gist/5304176
 }}
 }}
 {{Notes_Section
@@ -79,8 +212,6 @@ The calculations are performed on non-premultiplied color values. If
 the input graphics consist of premultiplied color values, those values
 are automatically converted into non-premultiplied color values for
 this operation.
-
-
 |Import_Notes====Syntax===
 
 ===Standards information===
