@@ -1,13 +1,13 @@
 {{Page_Title|Length units}}
 {{Flags
-|Checked_Out=No
+|Checked_Out=Yes
 }}
 {{API_Name}}
 {{Summary_Section|Specify measurements using relative or absolute units}}
 {{Concept_Page
 |Content=Length units specify a distance on the display screen or
 printed output. Pairs of length units are typically used to specify
-''x''/''y'' screen coordinates.  Several different kinds of length
+''x''/''y'' screen coordinates or offsets.  Several different kinds of length
 units are available:
 
 * ''Absolute'' lengths:
@@ -17,10 +17,10 @@ units are available:
 ** '''pt''' units specify points, 72 per inch.
 ** '''px''' units specify pixels, 96 per inch. These are often referred to as ''CSS pixels'', and do not necessarily correspond to the device's resolution.
 * ''Relative font'' lengths:
-** '''em''' units specify the height of the letter "M" in the current font
-** '''rem''' specify the height of the letter "M" for the document root (usually '''html''')
-** '''ex''' units specify the height of the letter "x" in current font, the general height of lowercase letters without ascenders
-** '''ch''' units specify the width of the numeral "0" in the current font, which is roughly the average for most text
+** '''em''' units equal the point size (nominal height) of the current font.  This is historically based on the mechanical typeset width of the (square) letter "M".
+** '''rem''' units equal the ''em'' size for the document root (usually '''html''')
+** '''ex''' units specify the height of the letter "x" in the current font, the general height of lowercase letters without ascenders.
+** '''ch''' units specify the width of the numeral "0" in the current font, which is roughly the average for most text characters.
 * ''Relative viewport' lengths:
 ** '''vw''' units specify a percentage of the width of the current viewport, e.g., the window.
 ** '''vh''' units specify a percentage of current viewport's height.
