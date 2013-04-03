@@ -1,7 +1,9 @@
 {{Page_Title|What does a good web page need?}}
-{{Flags}}
+{{Flags
+|Checked_Out=No
+}}
 {{API_Name}}
-{{Summary_Section|Continuing on from [http://www.w3.org/wiki/Information_Architecture_-_planning_out_a_web_site the previous article], here we will look at the content of The Dung Beatles’ web site to give you a flavour of what good web sites and pages need to contain.
+{{Summary_Section|Continuing on from [http://www.w3.org/wiki/Information_Architecture_-_planning_out_a_web_site the previous article], here we will look at the content of The Dung Beatles’ website to give you a flavour of what good websites and pages need to contain.
  
 You won’t be looking into the actual underlying code yet; instead you’ll just 
 start to examine the different pages, thinking about what items should appear on them,
