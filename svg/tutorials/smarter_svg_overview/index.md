@@ -748,12 +748,15 @@ function blink() {
 
 Suppose you want to click on the graphic to get a closer look at it.
 Scaling the eyeball would be difficult, because there are now two of
-them.  Instead, you can alter the dimensions of the current 
-[[svg/attributes/viewBox|'''viewBox''']].
+them, and they would collide with each other.  Instead, you can alter
+the dimensions of the current [[svg/attributes/viewBox|'''viewBox''']]
+to zoom into the scene.
 
-Add
-
-[[svg/elements/view|'''view''']]
+Links use the same [[svg/elements/a|'''a''']] element as in HTML, but
+as usual the '''xlink:href''' attribute needs its namespace qualified.
+When targeting an internal [[svg/elements/view|'''view''']] element,
+its [[svg/attributes/viewBox|'''viewBox''']] value overrides that of
+the [[svg/elements/svg|'''svg''']] of which it is a descendant:
 
 <syntaxhighlight lang="xml">
 <a xlink:href="#zoomIn">
@@ -765,11 +768,9 @@ Add
 
 [[Image:svgGrandTour_eyeball_zoom.png|200px]]
 
-...
-
 ==Animated Zoom==
 
-...
+There are two problems ...
 
 ==Adding Text==
 
