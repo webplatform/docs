@@ -8,61 +8,69 @@
 {{API_Name}}
 {{Summary_Section|Sets the left margin of an element.
 
-The margin-left property specifies the width between the element's left border and the element's outer edge.
+Margin-bottom clears an area below an element (outside the border). The margin does not have a background color, and is completely transparent.
 }}
 {{CSS Property
 |Initial value=0
 |Applies to=All elements
 |Inherited=No
 |Media=visual
+|Computed value=The percentage as specified or the absolute length.
 |Animatable=No
 |Values={{CSS Property Value
-|Data Type=margin-width
-|Description=Default. Left margin is set equal to the right margin.
-
-A specific length, a percentage of the parent element's width or the keyword auto.
-}}{{CSS Property Value
-|Data Type=inherit
-|Description=Integer, followed by a percent sign (%). The value is a percentage of the width of the parent object.
-}}{{CSS Property Value
 |Data Type=length
-|Description=Specifies a fixed width. Negative Values are allowed.
+|Description=Specifies a fixed width. Negative values are allowed.
 }}{{CSS Property Value
 |Data Type=percentage
-|Description=A <percentage> relative to the width of the containing block. Negative values are allowed.
+|Description=A percentage of the width of the containing block. Negative values are allowed.
 }}{{CSS Property Value
 |Data Type=auto
-|Description=auto is replaced by some suitable value by the browser.
+|Description=The browser calculates a bottom margin.
+}}{{CSS Property Value
+|Data Type=inherit
+|Description=Inherits the parent element's specified margin-bottom width.
 }}
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=The following examples use the '''margin-left''' attribute and the '''marginLeft''' property to change the margin of the object.
-
-This example uses the '''img''' object as a selector to set the left margin to 2 centimeters for all images.
-|Code=&lt;STYLE&gt;
-    IMG { margin-left:2cm }
-&lt;/STYLE&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/margin-left.htm
+|Language=CSS
+|Description=Clearing the space to the left of an element by 2cm (an example of length).
+|Code=margin-left: 2cm;
 }}{{Single Example
-|Description=This example uses inline scripting to set the left margin of the image to 1 centimeter when an [[dom/events/click|'''onclick''']] event occurs.
-|Code=&lt;IMG src{{=}}"sphere.jpg" onclick{{=}}"this.style.marginLeft{{=}}'1cm'"&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/marginLeft.htm
+|Language=CSS
+|Description=Clearing the space to the left of an element by 20% of its container's width (an example of percentage).
+|Code=margin-left: 20%;
+}}{{Single Example
+|Language=CSS
+|Description=Allowing the browser to decide how much clearance to give an element to the left of its left edge (an example of auto).
+|Code=margin-left: auto;
+}}{{Single Example
+|Language=CSS
+|Description=Inheriting the parent element's margin-left specification (an example of inherit).
+|Code=margin-left: inherit;
 }}
 }}
 {{Notes_Section
+|Usage====Syntax===
+id, class, or html element {
+
+    margin-left: value;
+}
+
+===Usage===
+* When calculating the height and width of an element, DO NOT include the margins in your calculations (i.e. include everything else: content area, padding, and border). However, DO include margin size when calculating available space within an element's containing element.
+
+===Best Practices===
+* When possible, use [http://docs.webplatform.org/wiki/css/properties/margin margin] shorthand (i.e. {margin: 10px 15px 20px 15px;}) to specify margin-widths rather than writing out each margin's specifications as this clutters code and makes it difficult to read. Use margin-bottom if there is a specific reason to call attention to it (e.g. one element has a different left margin than the rest in its class, etc.).
 |Notes====Remarks===
 You can specify possible length values relative to the height of the element's font (<code>em</code>) or the height of the letter "x" (<code>ex</code>).
 In Microsoft Internet Explorer 3.0, the specified margin value is added to the default value of the object. In Microsoft Internet Explorer 4.0 and later, the margin value is absolute. The margin properties do not work with the '''td''' and '''tr''' objects in Internet Explorer 4.0, but they do work in Internet Explorer 3.0. To set margins in the cell for Internet Explorer 4.0 and later, apply the margin to an object, such as '''div''' or '''p''', within the '''td'''.
 This property applies to inline elements, starting with Microsoft Internet Explorer 5.5.  With earlier versions of  Windows Internet Explorer, inline elements must have an '''absolute''' [[css/properties/position|'''position''']] or layout to use this property. Element layout is set by providing a value for the [[css/properties/height|'''height''']] property or the [[css/properties/width|'''width''']] property.
 Negative margins are supported, except for top and bottom margins on inline objects.
-|Import_Notes====Syntax===
-<code>'''margin-left: '''''
-&lt;margin-width&gt;
-'' '''{{!}}''' inherit</code>
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 5.5.4
+
+===Standards Information===
+[http://www.w3.org/TR/CSS2/box.html#propdef-margin-left w3.org]
 }}
 {{Related_Specifications_Section
 |Specifications=
@@ -136,10 +144,6 @@ Negative margins are supported, except for top and bottom margins on inline obje
 *<code>[[dom/defaultSelected|defaults]]</code>
 *<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
 *<code>[[css/cssom/style|style]]</code>
-*<code>Conceptual</code>
-*<code>CSS Values and Units Reference</code>
-*<code>Other Resources</code>
-*<code>CSS Enhancements in Internet Explorer 6</code>
 }}
 {{Topics|CSS}}
 {{External_Attribution
