@@ -1,6 +1,6 @@
 {{Page_Title|JavaScript functions}}
 {{Flags
-|Checked_Out=Yes
+|Checked_Out=No
 }}
 {{Byline}}
 {{Summary_Section|This article discusses JavaScript functions, or how we create reusable pockets of code that we can call over and over again as we need.}}
@@ -55,9 +55,9 @@ Now, the function above is completely self-contained. It performs some activity,
  
 === Arguments ===
  
-Passing information into a function in order to influence its behavior is a great way to make it more flexible and useful in a variety of situations. For example, I’ve hard-coded the <code>id</code> of the element whose background is changed inside <code>setElementBackground</code>; it would be nice to be able to specify different elements on the page whenever I call the function so that I could ''reuse'' this function for different elements, instead of duplicating all that code. '''Arguments''' are the solution.
+Passing information into a function in order to influence its behavior is a great way to make it more flexible and useful in a variety of situations. For example, I have hard-coded the <code>id</code> of the element whose background is changed inside <code>setElementBackground</code>; it would be nice to be able to specify different elements on the page whenever I call the function so that I could ''reuse'' this function for different elements, instead of duplicating all that code. '''Arguments''' are the solution.
  
-Earlier, I noted that the function’s definition contains a set of parentheses directly after the function’s name. This is the function’s '''argument list'''. To accept input from the caller, just specify a comma-separated list of variables that your function would like to receive. You can specify as many or as few as you’d like, and the names you use in the argument list can be referenced inside the function’s body just like with any other variable. The updated <code>setElementBackground</code> function looks like so ([http://dev.opera.com/articles/view/javascript-functions/functions_2.html check out the first example improvement] live):
+Earlier, I noted that the function’s definition contains a set of parentheses directly after the function’s name. This is the function’s '''argument list'''. To accept input from the caller, just specify a comma-separated list of variables that your function would like to receive. You can specify as many or as few as you like, and the names you use in the argument list can be referenced inside the function’s body just like with any other variable. The updated <code>setElementBackground</code> function looks like so ([http://dev.opera.com/articles/view/javascript-functions/functions_2.html check out the first example improvement] live):
  
 <syntaxhighlight lang="javascript">
 function setElementBackground( elementID ) {
@@ -95,7 +95,7 @@ setElementBackground( 'element_to_change' );
 alert( elementID ); // Alerts "No change!";
 </syntaxhighlight>
  
-This has a very important side effect. JavaScript creates a new variable inside the function, meaning that any changes it makes to its internal argument has ''no effect'' on any variable passed in. I’ll talk a bit more about this concept (called '''scope''') in the [http://dev.opera.com/articles/view/objects-in-javascript/ Objects] and [http://www.w3.org/wiki/JavaScript_best_practices JavaScript best practices] articles, but for now, let’s look at a quick example. I’ll define a <code>substring</code> function accepting a string and a starting point:
+This has a very important side effect. JavaScript creates a new variable inside the function, meaning that any changes it makes to its internal argument has ''no effect'' on any variable passed in. This concept (called '''scope''') will be discussed further in the [http://dev.opera.com/articles/view/objects-in-javascript/ Objects] and [http://www.w3.org/wiki/JavaScript_best_practices JavaScript best practices] articles, but for now, here is a quick example. This is a <code>substring</code> function accepting a string and a starting point:
 
 <syntaxhighlight lang="javascript">
 function substring( obj, start ) {
@@ -107,13 +107,13 @@ substring(myString, 8);
 alert(myString); // Alerts "This is a string!"
 </syntaxhighlight>
  
-Even though the <code>obj</code> variable is reassigned inside the function to the result of the built-in <code>substring</code> method, <code>myString</code> isn’t affected at all; only the ''copy'' of <code>myString</code> sitting inside <code>substring</code> was changed. The external variable has no idea at all that anything has happened.
+Even though the <code>obj</code> variable is reassigned inside the function to the result of the built-in <code>substring</code> method, <code>myString</code> is not affected at all; only the ''copy'' of <code>myString</code> sitting inside <code>substring</code> was changed. The external variable has no idea at all that anything has happened.
  
-This raises the question of communication: if changing arguments’ values has no effect outside the function, how do you pass information back from a function to it’s caller? Let's look at this now.
+This raises the question of communication: if changing arguments’ values has no effect outside the function, how do you pass information back from a function to its caller? Let's look at this now.
 
 === Return values ===
  
-It’s very common indeed for a function to do some calculation, and give the result of that work back to its caller to be used elsewhere. It might be useful, for example, for our <code>setElementBackground</code> function to ''return'' an array of the colour values for use elsewhere. That’s a simple matter of using the <code>return</code> keyword JavaScript provides, as shown here:
+It is very common for a function to do some calculation, and give the result of that work back to its caller to be used elsewhere. It might be useful, for example, for our <code>setElementBackground</code> function to ''return'' an array of the color values for use elsewhere. That is a simple matter of using the <code>return</code> keyword JavaScript provides, as shown here:
  
 <syntaxhighlight lang="javascript">
 function setElementBackground( elementID ) {
@@ -130,13 +130,13 @@ function setElementBackground( elementID ) {
 }
 </syntaxhighlight>
  
-[http://dev.opera.com/articles/view/javascript-functions/functions_3.html check out the second example improvement] in action.
+[http://dev.opera.com/articles/view/javascript-functions/functions_3.html Check out the second example improvement] in action.
  
 That simple addition means that you can now call the function in such a way as to capture its result in a variable:
  
 <syntaxhighlight lang="javascript">var my_result = setElementBackground('element_to_change');</syntaxhighlight>
  
-Even if your function doesn’t need to return a value, or has no real value to return, it’s good practice to indicate success or failure by returning <code>true</code> or <code>false</code>, respectively. With that in mind, I’ll change <code>setElementBackground</code> to return <code>false</code> if the <code>elementID</code> that was passed in doesn’t actually exist:
+Even if your function does not need to return a value, or has no real value to return, it is good practice to indicate success or failure by returning <code>true</code> or <code>false</code>, respectively. With that in mind, I will change <code>setElementBackground</code> to return <code>false</code> if the <code>elementID</code> that was passed in does not actually exist:
  
 <syntaxhighlight lang="javascript">
 function setElementBackground( elementID ) {
@@ -154,7 +154,7 @@ function setElementBackground( elementID ) {
 }
 </syntaxhighlight>
  
-[http://dev.opera.com/articles/view/javascript-functions/functions_4.html check out the third example improvement] in action.
+[http://dev.opera.com/articles/view/javascript-functions/functions_4.html Check out the third example improvement] in action.
  
 This allows you to check that the code executed properly by testing its return value, for example:
  
@@ -164,11 +164,11 @@ if ( !setElementBackground('element_does_not_exist') ) {
 }
 </syntaxhighlight>
  
-Additionally, please note that the <code>return</code> keyword actually ends execution of your function right when it’s called, ''returning'' execution to the place at which your function was called. Code sitting below the call to <code>return</code> is not executed — it’s simply ignored.
+Additionally, please note that the <code>return</code> keyword actually ends execution of your function right when it is called, ''returning'' execution to the place at which your function was called. Code sitting below the call to <code>return</code> is not executed — it’s simply ignored.
 
 == Summary ==
  
-With that, you now know pretty much everything you need to in order to begin sprinkling your code full of functions. They’re a foundational part of good JavaScript code and your programs will be better organized, clearer and more readable, and easier to comprehend if you take the opportunity to wrap code up in well-named functions for reuse.
+With that, you now know pretty much everything you need to in order to begin sprinkling your code full of functions. They are a foundation of good JavaScript code and your programs will be better organized, clearer, more readable, and easier to comprehend if you take the opportunity to wrap code up in well-named functions for reuse.
 }}
 {{Notes_Section
 |Import_Notes==== Exercise questions ===
