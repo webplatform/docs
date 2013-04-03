@@ -1,5 +1,6 @@
 {{Page_Title|HTML text}}
 {{Flags
+|Checked_Out=No
 }}
 {{Byline}}
 {{Summary_Section|This article talks about some of the most common elements used when marking up textual content using HTML.}}
@@ -110,7 +111,7 @@ specification:</p>
 <blockquote cite="http://www.w3.org/TR/html401/">
 <p>This document obsoletes previous versions of HTML 4.0,
 although W3C will continue to make those specifications and
-their DTDs available at the W3C Web site.</p>
+their DTDs available at the W3C website.</p>
 </blockquote></syntaxhighlight>
 
 The <code>cite</code> attribute does not really do anything on its own, although it is useful to keep a record of where the quotes are taken from. 
@@ -232,7 +233,7 @@ You can just specify the time if you want
 
 <syntaxhighlight lang="html5"><p><time datetime="21:00">9pm</time>.</p></syntaxhighlight>
 
-Although note that you cannot currently specify a non-specific date, such as "August 2011" or "2011" - this is a bit limiting for say, museum web sites.
+Although note that you cannot currently specify a non-specific date, such as "August 2011" or "2011" - this is a bit limiting for say, museum websites.
 
 You can also add a number of seconds (after another colon), milliseconds (after a period) and a time zone offset (after a dash) after the time value. Check out the following:
 
