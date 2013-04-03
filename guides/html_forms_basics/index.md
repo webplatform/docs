@@ -1,5 +1,6 @@
 {{Page_Title|HTML forms basics}}
 {{Flags
+|Checked_Out=No
 }}
 {{Byline}}
 {{Summary_Section|In this article, we will covered the creation of standards compliant, best practice HTML forms!}}
@@ -8,13 +9,13 @@
  
 Everyone has seen a form. Everyone has used one. But have you coded one?
  
-Most areas where you can input information into web pages are created using HTML forms, for example entering text or numbers into a text box, checking a tick box, causing a radio button to “fill in”, or selecting an option from a list. The form is then usually submitted to the web site when you submit the form, and the data is used in some way, for example customer details being stored in a database for later use, or a web site being instantly updated after a buyer chooses a product to look at or comments on a blog post.
+Most areas where you can input information into web pages are created using HTML forms, for example entering text or numbers into a text box, checking a tick box, causing a radio button to “fill in”, or selecting an option from a list. The form is then usually submitted to the website when you submit the form, and the data is used in some way, for example customer details being stored in a database for later use, or a website being instantly updated after a buyer chooses a product to look at or comments on a blog post.
   
 It is easy to create a form, but what about a usable form that your users can fill in painless, rather than getting frustrated and fed up? In this article we’ll cover all the basics you need to know to create elegant, accessible form structures with HTML, starting with the real basics, and working up to some more complex features. We'll then look at the new form features in HTML5 separately in the next article: [[HTML5 form additions]]. We have done it like this because it is useful to see where the distinction is, plus as of the time of this writing (18th August 2011), HTML5 form support is not quite there across all browsers.
 
 == Step one: The basic code ==
  
-Let’s start building up a comment form, the sort of form you would use on a web site to allow people to give you feedback on something such as an article you’ve written, or a product you've sold. We'll start it off really basic:
+Let’s start building up a comment form, the sort of form you would use on a website to allow people to give you feedback on something such as an article you’ve written, or a product you've sold. We'll start it off really basic:
  
 <syntaxhighlight lang="html5"><form>
   Name: <input type="text" name="name" id="name" value="" />
