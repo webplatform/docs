@@ -8,7 +8,7 @@
 {{API_Name}}
 {{Summary_Section|Sets the right margin of an element.
 
-Margin-bottom clears an area below an element (outside the border). The margin does not have a background color, and is completely transparent.
+Margin-right clears an area to the right of an element (outside the border). The margin does not have a background color, and is completely transparent.
 }}
 {{CSS Property
 |Initial value=0
