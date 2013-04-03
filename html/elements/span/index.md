@@ -4,7 +4,7 @@
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 |Checked_Out=Yes
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|Groups inline elements in a document in order to apply styles. Does not assign any style attributes on its own.}}
 {{Markup_Element
@@ -13,13 +13,13 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=This example uses the '''SPAN''' element to create an inline text container that changes the color of a word to blue.
-|Code=&lt;P&gt;This paragraph contains a single &lt;SPAN STYLE{{=}}"color: blue"&gt;blue&lt;/SPAN&gt; word.
+|Language=HTML
+|Description=This example uses the '''span''' element to create an inline text container that changes the color of a word to blue.
+|Code=&lt;p&gt;This paragraph contains a single &lt;span style{{=}}"color: blue"&gt;blue&lt;/span&gt; word.
 }}{{Single Example
 |Language=HTML
-|Description=This example uses the '''SPAN''' element to add a simple [http://microformats.org/wiki/microformats2 Microformats2 h-card] to a person's name.
-
-|Code=&lt;SPAN CLASS{{=}}"h-card vcard"&gt; Pius Uzamere &lt;/SPAN&gt;
+|Description=This example uses the '''span''' element to add a simple [http://microformats.org/wiki/microformats2 Microformats2 h-card] to a person's name.
+|Code=&lt;span class{{=}}"h-card vcard"&gt;Pius Uzamere&lt;/span&gt;
 }}
 }}
 {{Notes_Section
