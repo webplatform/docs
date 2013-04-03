@@ -27,13 +27,13 @@
 |Not_required=No
 |Examples=
 }}
-{{Notes_Section
-|Import_Notes====Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?LinkId{{=}}224519 Indexed Database API]
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=Indexed Database API
+|URL=http://www.w3.org/TR/IndexedDB/
+|Status=Working Draft
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -64,8 +64,8 @@
 |Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[apis/indexedDB/IDBCursor|IDBCursor]]</code>
+|Manual_sections====Related pages===
+*[[apis/indexedDB/IDBCursor|IDBCursor]]
 }}
 {{Topics|API, IndexedDB}}
 {{External_Attribution
