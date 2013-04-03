@@ -1,5 +1,7 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|Checked_Out=Yes
+}}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|The <code>padding-top</code> CSS property of an element sets the [[css/properties/padding|padding]] space required on the top of an element. The padding area is the space between the content of the element and its border. Contrary to [[css/properties/margin-top|margin-top]] values, negative values of <code>padding-top</code> are invalid.}}
@@ -13,10 +15,10 @@
 |CSS percentages=refer to [[css/properties/width|width]] of closest block-level ancestor
 |Values={{CSS Property Value
 |Data Type=length
-|Description=Specifies a positive fixed width. See [[css/properties/length|length]] for details.
+|Description=Specifies a positive fixed distance. See [[css/properties/length|length]] for details.
 }}{{CSS Property Value
 |Data Type=percentage
-|Description=A percentage with respect to the width of the containing block.
+|Description=A percentage with respect to the height of the containing block.
 }}
 }}
 {{Examples_Section
