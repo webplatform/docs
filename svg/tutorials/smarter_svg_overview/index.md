@@ -746,6 +746,14 @@ function blink() {
 
 ==Zooming In==
 
+<syntaxhighlight lang="xml">
+<view id="zoomIn" viewBox="100 50 100 100" />
+
+<a xlink:href="#zoomIn">
+  <use xlink:href="#eyes"/>
+</a>
+</syntaxhighlight>
+
 [[Image:svgGrandTour_eyeball_zoom.png|200px]]
 
 ...
