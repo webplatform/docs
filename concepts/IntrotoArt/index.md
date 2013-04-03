@@ -1,6 +1,5 @@
 {{Page_Title}}
 {{Flags
-|Checked_Out=No
 }}
 {{API_Name}}
 {{Summary_Section}}
