@@ -1,5 +1,6 @@
 {{Page_Title|JavaScript best practices}}
 {{Flags
+|Checked_Out=Yes
 }}
 {{Byline}}
 {{Summary_Section|This article discusses some best practices to follow for writing efficient, understandable JavaScript.}}
@@ -271,7 +272,7 @@ Another common situation in JavaScript is providing a preset value for a variabl
 The shortcut notation for this is the double pipe character:
  
 <pre>var x = v
-||10;</pre>
+|10;</pre>
  
 This will automatically give <code>x</code> a value of <code>10</code> if <code>v</code> is not defined — simple as that_== Modularize — one function per task ==
  
@@ -656,6 +657,7 @@ JavaScript development has mutated from a fringe knowledge area to an absolute n
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
