@@ -1,6 +1,7 @@
 {{Page_Title|Web development for beginners}}
 {{Flags
-|Checked_Out=No
+|Content=Grammar/Spelling
+|Checked_Out=Yes
 }}
 {{Summary_Section|This set of articles is for complete beginners to work through in confidence, building up their essential skills at the beginning of the journey to becoming a web designer or developer.}}
 {{Basic Page}}
