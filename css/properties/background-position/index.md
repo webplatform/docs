@@ -1,5 +1,7 @@
 {{Page_Title|background-position}}
-{{Flags}}
+{{Flags
+|Checked_Out=Yes
+}}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|<code>background-position</code> allows you to set the placement of a <code>background-image</code> on the element it is applied to. <code>background-position</code> generally takes two values, which set the horizontal and vertical position of the background image inside the element.}}
