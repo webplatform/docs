@@ -47,6 +47,7 @@
 }
 |LiveURL=https://developer.mozilla.org/samples/cssref/clear.html
 }}{{Single Example
+|Language=HTML
 |Description=This example changes the position of the paragraph relative to the floating object on its left side.
 |Code=&lt;script&gt;
 function fnClear(){
