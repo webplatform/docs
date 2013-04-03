@@ -1,4 +1,4 @@
-{{Page_Title|SVG: grand tour}}
+{{Page_Title|SVG grand tour}}
 {{Flags
 |Checked_Out=Yes
 }}
@@ -42,7 +42,7 @@ the section at the bottom of this page. Examples used throughout this
 guide feature ''inline'' SVG that's directly embedded within HTML,
 which allows you to flexibly apply CSS and JavaScript to both the SVG
 graphic and the HTML content. The basic markup looks like this, with
-an [[svg/elements/svg|'''svg''']] tag encapsulating the graphics:
+an [[svg/elements/svg|'''svg''']] element encapsulating the graphics:
 
 <syntaxhighlight lang="html5" highlight="8-11">
 <!DOCTYPE html>
@@ -62,8 +62,8 @@ an [[svg/elements/svg|'''svg''']] tag encapsulating the graphics:
 </syntaxhighlight>
 
 You can add [[svg/elements/title|'''title''']] and
-[[svg/elements/desc|'''desc''']] tags wherever necessary to comment
-your markup.
+[[svg/elements/desc|'''desc''']] elements wherever necessary to
+comment your markup.
 
 (See [[svg/tutorials/smarter_svg_deploy|'''SVG deployment''']] for
 different ways to render SVG content.)
@@ -114,12 +114,13 @@ In this example, the [[svg/attributes/id|'''id''']],
 [[svg/attributes/cx|'''cx''']], [[svg/attributes/cy|'''cy''']], and
 [[svg/attributes/r|'''r''']] are all ordinary ''attributes'', while
 the [[svg/properties/fill|'''fill''']] and
-[[svg/properties/stroke|'''stroke''']] are known as ''presentation
-attributes''.  These are simply CSS properties that happen to be
-expressed as attributes.  Other than the tendency of longer CSS
-property names to use ''dashes-between-lowercase-words'' rather than
-''camelCase'' for attribute names, there may be no way to tell the
-difference by looking at them.
+[[svg/properties/stroke|'''stroke''']] are known as
+''presentation attributes''.
+These are simply CSS properties that happen to be expressed as
+attributes.  Other than the tendency of longer CSS property names to
+use ''dashes-between-lowercase-words'' rather than ''camelCase'' for
+attribute names, there may be no way to tell the difference by looking
+at them.
 
 Many CSS properties such as [[svg/properties/fill|'''fill''']] and
 [[svg/properties/stroke|'''stroke''']] apply only to SVG
@@ -130,11 +131,11 @@ apply to HTML, but are named differently. The
 capabilities in SVG as the
 [[css/properties/background-color|'''background-color''']] and
 [[css/properties/background-image|'''background-image''']] properties
-do for HTML.  Since [[svg/properties/fill|'''fill''']] is CSS, You can
-also modify it locally via the [[svg/attributes/style|'''style''']]
-attribute. Doing so actually takes precedence over the value of
-presentation attributes, so this example changes the eye color to
-brown:
+do for HTML.  Since [[svg/properties/fill|'''fill''']] is a CSS
+property, You can also modify it locally via the
+[[svg/attributes/style|'''style''']] attribute. Doing so actually
+takes precedence over the value of presentation attributes, so this
+example changes the eye color to brown:
 
 <syntaxhighlight lang="xml">
 <circle id="iris" cx="100" cy="100" r="25" fill="lightblue" style="fill:brown"/>
@@ -157,8 +158,7 @@ follows:
 </syntaxhighlight>
 
 As you'll see below, there are some cases where you want to avoid
-using style sheets. The examples below show CSS applied as
-presentational attributes.
+using style sheets.
 
 (See [[svg/tutorials/smarter_svg_deploy|'''SVG deployment''']] for
 different ways to apply CSS.)
@@ -186,11 +186,11 @@ builds a series of concentric rings:
 
 [[Image:svgGrandTour_eyeball_fill.png|200px]]
 
-The [[svg/elements/circle|'''circle''']] tag's
+The [[svg/elements/circle|'''circle''']] element's
 [[svg/properties/fill|'''fill''']] attribute uses CSS's '''url()'''
 function to reference the [[svg/attributes/id|'''id''']] of the
-[[svg/elements/radialGradient|'''radialGradient''']] tag.  Its nested
-[[svg/elements/stop|'''stop''']] tags define fairly abrupt gradations
+[[svg/elements/radialGradient|'''radialGradient''']] element.  Its nested
+[[svg/elements/stop|'''stop''']] elements define fairly abrupt gradations
 from the center towards the edge&mdash;from black to blue and then to
 white&mdash;followed by a more gradual transition to pink around the
 edge of the circle.  SVG gradients work similarly to CSS gradients
@@ -237,23 +237,23 @@ within the [[svg/elements/defs|'''defs''']] region, the
 but if you move the [[svg/elements/circle|'''circle''']] there, it
 doesn't render.
 
-The SVG [[svg/elements/use|'''use''']] tag allows you a way to reuse
+The SVG [[svg/elements/use|'''use''']] element allows you a way to reuse
 graphic components repeatedly, and to place them in differently sized
 areas.  After placing the [[svg/elements/circle|'''circle''']] within
 the [[svg/elements/defs|'''defs''']] region, pointing to it with a
-[[svg/elements/use|'''use''']] tag placed outside the
+[[svg/elements/use|'''use''']] element placed outside the
 [[svg/elements/defs|'''defs''']] makes it render:
 
 <syntaxhighlight lang="xml">
 <use xlink:href="#eyeball"/>
 </syntaxhighlight>
 
-The [[svg/elements/use|'''use''']] tag can be a bit mystifying at
+The [[svg/elements/use|'''use''']] element can be a bit mystifying at
 first.  It's not simply a copy of the object it points to, but a
 ''deep reference''.  Any changes made to the prototype
 [[svg/elements/circle|'''circle''']] or
 [[svg/elements/radialGradient|'''radialGradient''']] components
-appears dynamically wherever a [[svg/elements/use|'''use''']] tag
+appears dynamically wherever a [[svg/elements/use|'''use''']] element
 references them.  Despite this flexibility, you can't redefine any of
 the referenced object's attributes. But you can add optional
 presentation attributes that aren't already defined there.
@@ -283,10 +283,10 @@ the target, and the [[svg/attributes/class|'''class''']] of any
 
 Note that if the targeted [[svg/elements/circle|'''circle''']] were
 also to share the same ''eyeball'' class in this example, then the
-[[svg/elements/use|'''use''']] tag would not have the flexibility to
+[[svg/elements/use|'''use''']] element would not have the flexibility to
 be able to change it.
 
-Notice as well that the [[svg/elements/use|'''use''']] tag needs the
+Notice as well that the [[svg/elements/use|'''use''']] element needs the
 '''xlink''' namespace to qualify the standard
 '''href''' attribute, which is also available in HTML
 with no namespace qualifier.  This '''xlink:href''' attribute offers a
@@ -317,7 +317,7 @@ the bottom corner and ends up at the right corner:
 [[Image:svgGrandTour_eyeball_ctrl.png|200px]]
 
 To make the shape behave as a clipping path, place a
-[[svg/elements/clipPath|'''clipPath''']] tag around the
+[[svg/elements/clipPath|'''clipPath''']] element around the
 [[svg/elements/path|'''path''']]. You will actually need to use this shape
 again, so it is best to [[svg/elements/use|'''use''']] a reference to it:
 
@@ -362,7 +362,7 @@ third [[svg/elements/use|'''use''']] that appears outside the
 [[Image:svgGrandTour_eyeball_eyelid_both.png|200px]]
 
 It becomes useful here to ''group'' the two graphic elements, wrapping
-a [[svg/elements/g|'''g''']] tag around them to consolidate a larger
+a [[svg/elements/g|'''g''']] element around them to consolidate a larger
 semantic ''eye'' object. You can reference the grouped object, and you
 will see below, move or otherwise transform it as a unit.
 
@@ -453,7 +453,7 @@ darkens the result:
 
 Since the eyelid renders horizontally between 0 and 200 pixels, the
 eyelashes spill slightly outside the the left edge of the original
-drawing area.  The ''filter'' tag's
+drawing area.  The ''filter'' element's
 [[svg/attributes/x|'''x''']]/[[svg/attributes/y|'''y''']]/[[svg/attributes/width|'''width''']]/[[svg/attributes/height|'''height''']]
 attributes apply the effect to a wider set of dimensions. Setting
 [[svg/attributes/filterUnits|'''filterUnits''']] to
@@ -521,7 +521,7 @@ shear the object horizontally or vertically. And '''translate()'''
 shifts the object's position.
 
 Once the eyes are semantically grouped, a single
-[[svg/elements/use|'''use''']] tag outside the
+[[svg/elements/use|'''use''']] element outside the
 [[svg/elements/defs|'''defs''']] region renders them:
 
 <syntaxhighlight lang="xml">
@@ -531,7 +531,7 @@ Once the eyes are semantically grouped, a single
 [[Image:svgGrandTour_eyeballs.png|500px]]
 
 When presenting the eyes with other interface elements, you may want
-to resize them.  The original [[svg/elements/svg|'''svg''']] tag
+to resize them.  The original [[svg/elements/svg|'''svg''']] element
 specified that they should appear within a 600&times;200-pixel
 rectangle:
 
@@ -542,7 +542,7 @@ rectangle:
 [[Image:svgGrandTour_eyeballs_viewport_large.png|600px]]
 
 But what if that's much too big for the context in which they are to
-appear?  If you shrink it down, using either the tag's
+appear?  If you shrink it down, using either
 [[svg/attributes/width|'''width''']]/[[svg/attributes/height|'''height''']]
 attributes or CSS, its dimensions no longer match the various
 measurements specified within the graphic:
@@ -550,8 +550,8 @@ measurements specified within the graphic:
 <syntaxhighlight lang="xml">
 <style>
 svg {
-    width  : 300;
-    height : 100;
+    width  : 300px;
+    height : 100px;
 }
 </style>
     <!-- ...or... -->
@@ -636,7 +636,7 @@ sets the position of the center of the circle:
 
 That's much better. Now return the [[svg/attributes/cx|'''cx''']] to
 its original value.  To get it to move dynamically, place an
-[[svg/elements/animate|'''animate''']] tag within the ''eyeball''
+[[svg/elements/animate|'''animate''']] element within the ''eyeball''
 object whose attribute you want to modify:
 
 <syntaxhighlight lang="xml" highlight="2-10">
