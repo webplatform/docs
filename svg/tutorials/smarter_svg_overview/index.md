@@ -5,13 +5,7 @@
 {{Byline
 |Name=Mike Sierra
 }}
-
-{{Summary_Section|This guide introduces SVG graphics, showing you how to build a pair of animating eyeballs, along the way stepping through various SVG features detailed in other tutorials. It 
-
-shows how to maintain a set of reusable graphic components, and 
-provides essential context on SVG transforms and coordinate spaces.
-
-}}
+{{Summary_Section|This guide shows you how to build a pair of animating eyeballs, along the way stepping through various SVG features detailed in other tutorials. It shows how to maintain a set of reusable graphic components, and  provides essential context on SVG transforms and coordinate spaces.}}
 {{Tutorial
 |Content=SVG is a standard markup format, like HTML and XML, that
 renders ''Scalable Vector Graphics'' within web browsers.  ''Vector'' or
@@ -146,7 +140,7 @@ brown:
 <circle id="iris" cx="100" cy="100" r="25" fill="lightblue" style="fill:brown"/>
 </syntaxhighlight>
 
-As in HTML, you can consolidate CSS in style sheets and separate it
+As in HTML, you can consolidate CSS within style sheets to separate it
 from markup. Placing this CSS in the ''eyeballs.css'' file referenced
 from the HTML applies it to the slightly pared-down SVG markup that
 follows:
@@ -778,6 +772,9 @@ function blink() {
 }
 </syntaxhighlight>
 
+(See [[svg/tutorials/smarter_svg_filters|'''SVG animations''']] for
+details.)
+
 ==Interactive Zoom==
 
 Suppose you want to click on the graphic to get a closer look at it.
@@ -870,7 +867,7 @@ function zoomNav(e) {
     animate.setAttribute('to', tgt.getAttribute('viewBox'));
     // execute animation:
     animate.beginElement();
-    // use CSS to customize display within each zoom level:
+    // apply CSS class to help customize display within each zoom level:
     svg.className = hash.replace(/#/,'');
 }
 </syntaxhighlight>
@@ -883,8 +880,8 @@ levels.
 ==Adding Text==
 
 SVG allows you to mix text with other graphics, but these are simple
-lines of text that do not wrap within a box as in HTML. You ordinarily
-use '''x''' and '''y''' coordinate attributes to position
+lines of text that do not wrap within a box as in HTML.  You
+ordinarily use '''x''' and '''y''' coordinate attributes to position
 [[svg/elements/text|'''text''']] elements directly within a graphic.
 This example relies on SVG's characteristic ability to place text
 along a curved path:
@@ -985,14 +982,15 @@ svg.zoomIn text {
 }
 </syntaxhighlight>
 
+Text letterforms behave just like paths, so the various and fill and
+stroke properties work the same way.
+
 (See [[svg/tutorials/smarter_svg_text|'''SVG text''']] for details on
 text properties.)
 
-Enough?
+Had enough?
 
 [[Image:svgGrandTour_eyeball_tired.png|600px]]
-
-Yes.
 
 }}
 {{Notes_Section}}
