@@ -1,6 +1,5 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
 |Content=Compatibility Incomplete, Examples Best Practices
 |Checked_Out=No
 }}
