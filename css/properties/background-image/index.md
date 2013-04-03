@@ -1,6 +1,6 @@
 {{Page_Title|background-image}}
 {{Flags
-|Checked_Out=Yes
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -11,7 +11,7 @@
 |Inherited=No
 |Media=visual
 |Computed value=As specified, but with URIs made absolute
-|Animatable=Yes
+|Animatable=No
 |CSS object model property=backgroundImage
 |Values={{CSS Property Value
 |Data Type=none
