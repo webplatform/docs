@@ -4,7 +4,7 @@
 |Checked_Out=Yes
 |Editorial notes=[new content edited offline by Sierra ([[User:Sierra|Sierra]] ([[User talk:Sierra|talk]])); please do not edit] 
 
-PLEASE SPECIFY A CHECKOUT AND CHECKIN DATE - OTHERWISE THIS PAGE WILL ROT [APRIL 3, 2012 - SF DOC SPRINT]
+PLEASE SPECIFY A CHECKOUT AND CHECKIN DATE - OTHERWISE THIS PAGE WILL ROT [APRIL 3, 2013 - SF DOC SPRINT]
 }}
 {{Byline}}
 {{Summary_Section|This guide shows you how to build SVG image processing filters to create interesting visual effects. It shows how to apply these effects within an SVG graphic, or how to apply it to non-SVG content using the [[css/properties/filter|'''filter''']] CSS property.}}
