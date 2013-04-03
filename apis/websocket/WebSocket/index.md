@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
+|High-level issues=Undescriptive Title, Needs Review
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
@@ -27,7 +28,7 @@ WebSocket( url[, protocols] )
 |Description=Complete example
 |Code=<syntaxhighlight lang="javascript">
 if (window["WebSocket"]) {
-        conn = new WebSocket("ws://localhost:12345/wsendpoint");
+        conn = new WebSocket("ws://localhost:12345/wsendpoint", "myProtocol");
         conn.onclose = function(evt) {
             console.log("Connection closed.");
         }
@@ -42,10 +43,14 @@ if (window["WebSocket"]) {
 }}
 }}
 {{Notes_Section
-|Usage=The constructor’s first argument is the URL that the WebSocket will connect to.  When a WebSocket is constructed, it immediately attempts to connect to the given URL.  There is no way to prevent or postpone the connection attempt.  After construction, the WebSocket’s URL is accessible via its ''url'' property.
+|Usage=Use the WebSocket API to interface with the WebSocket protocol (RFC 6455). When you create a WebSocket connection, you upgrade the HTTP protocol to the WebSocket protocol during the initial handshake between the client and the server. You can use the WebSocket API to program your client to initiate the WebSocket handshake.
+
+The first argument in the WebSocket constructor is the URL of the server to which you want to connect your client; the second argument is an optional argument where you can specify a subprotocol you want your client to use over WebSocket, when communicating with the server. The server must be WebSocket-enabled. When the client sends the WebSocket connection request to the server, the server acknowledges that it can speak WebSocket, and chooses the one (and only one) subprotocol to use on top of WebSocket. For example, a chat client might use XMPP over WebSocket, and therefore choose XMPP as the subprotocol.
+
+ When a WebSocket is constructed, it immediately attempts to connect to the given URL. There is no way to prevent or postpone the connection attempt. After construction, the WebSocket’s URL is accessible via its ''url'' property.
 |Notes=The WebSocket API specification defines two URI schemes, ws:// and wss://, for unencrypted and encrypted connections, respectively. For example, you could create a new WebSocket connection with the string "ws://example.com:1234/resource". The URL specifies the host to connect to, the port, and (optionally) the protocols you want to use.
 
-'''Note'''  Secure connections (wss://) are recommended in most cases because they are more likely to work with proxy servers, which can buffer unencrypted traffic and close long-lived WebSocket connections without warning.
+'''Note'''  Secure connections (wss://) use WebSocket with TLS, and are recommended in most cases because they are more likely to work with proxy servers, which can buffer unencrypted traffic and close long-lived WebSocket connections without warning.
 WebSocket connections are bidirectional; communication can flow in either direction without specific requests and responses. Data can be text or binary.
 
 To open a use a WebSocket connection, you must follow this procedure:
@@ -137,3 +142,10 @@ To open a use a WebSocket connection, you must follow this procedure:
 |MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
 |HTML5Rocks_link=
 }}
+}
+
+
+
+
+
+}
