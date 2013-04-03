@@ -1,8 +1,11 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|Content=Outdated, Errors
+|Checked_Out=No
+}}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Created by mistake.  Please delete it.}}
 {{CSS Property
 |Inherited=No
 |Animatable=No
