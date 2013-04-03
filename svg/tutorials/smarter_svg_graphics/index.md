@@ -1,12 +1,16 @@
-{{Page_Title|SVG: graphic effects}}
+{{Page_Title|SVG graphic effects}}
 {{Flags
 |High-level issues=Stub
 |Checked_Out=Yes
 }}
 {{Byline}}
-{{Summary_Section|This guide shows you how to embed images within SVG and apply various graphics effects such as gradients, patterns, clipping, masking, and compositing.}}
+{{Summary_Section|This guide shows you how to embed images within SVG and apply various graphics effects such as gradients, patterns, clipping paths, and masks.}}
 {{Tutorial
-|Content===Gradients==
+|Content=
+
+
+
+==Gradients==
 
 SVG's support for gradients is similar to CSS's. Two kinds of gradient
 are available: the
