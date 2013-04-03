@@ -60,7 +60,9 @@ Example of a feColorMatrix with type="saturate"
 |LiveURL=http://code.webplatform.org/gist/5303882
 }}{{Single Example
 |Language=Other
-|Description=Example of a feColorMatrix with type="hueRotate"
+|Description=[[File:huerotate.png]] 
+
+Example of a feColorMatrix with type="hueRotate"
 |Code=<svg width="640" height="550" viewBox="0 0 640 550">
 <defs>
     <filter id="hueRotate">
@@ -73,7 +75,9 @@ Example of a feColorMatrix with type="saturate"
 |LiveURL=http://code.webplatform.org/gist/5303933
 }}{{Single Example
 |Language=Other
-|Description=Example of a feColorMatrix with type="luminanceToAlpha"
+|Description=[[File:luminancetoalpha.png]] 
+
+Example of a feColorMatrix with type="luminanceToAlpha"
 |Code=<svg width="640" height="550" viewBox="0 0 640 550">
 <defs>
     <filter id="L2A">
