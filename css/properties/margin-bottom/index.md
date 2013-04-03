@@ -63,7 +63,7 @@ For inline elements, the value of this property is used to compute the border ar
 Negative margins are supported, except for top and bottom margins on inline objects.
 
 ===Standards information===
-*[http://www.w3.org/TR/CSS2/box.html#propdef-margin-bottom w3.org's recommendation]
+*[http://www.w3.org/TR/CSS2/box.html#propdef-margin-bottom w3.org]
 }}
 {{Related_Specifications_Section
 |Specifications=
