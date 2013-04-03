@@ -25,10 +25,10 @@ Margin-right clears an area to the right of an element (outside the border). The
 |Description=A percentage of the width of the containing block. Negative values are allowed.
 }}{{CSS Property Value
 |Data Type=auto
-|Description=The browser calculates a bottom margin.
+|Description=The browser calculates a right margin.
 }}{{CSS Property Value
 |Data Type=inherit
-|Description=Inherits the parent element's specified margin-bottom width.
+|Description=Inherits the parent element's specified margin-right width.
 }}
 }}
 {{Examples_Section
