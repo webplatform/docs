@@ -1,5 +1,6 @@
 {{Page_Title}}
 {{Flags
+|Checked_Out=No
 }}
 {{Byline}}
 {{Summary_Section|Now that you've built a web app, it's important to test it so that you know users are getting the best experience possible. We've split this document into Mobile and Desktop, and provided information on some of the best tools out there to help you ensure your apps are built to the highest standards.}}
@@ -60,7 +61,7 @@ RIM provide simulators for every phone they've ever produced. Browse the full li
 
 ==== Opera ====
 
-Opera has two distinct [http://www.opera.com/mobile/new/ mobile browsers] - Opera Mini and Opera Mobile. Opera Mini is is a free browser that requests web pages via Operas servers, which reformat and compress the response (fpr example, images) for a faster download speed and more suitable output. Opera Mini can be run on a very wide range of feature and smart phones as well as tablets and other devices. 
+Opera has two distinct [http://www.opera.com/mobile/new/ mobile browsers] - Opera Mini and Opera Mobile. Opera Mini is a free browser that requests web pages via Operas servers, which reformat and compress the response (for example, images) for a faster download speed and more suitable output. Opera Mini can be run on a very wide range of feature and smart phones as well as tablets and other devices. 
 
 Opera Mobile is a browser that includes intelligent on-device reformatting technology. Opera Mobile also includes remote debugging of your mobile devices via [http://dev.opera.com/articles/view/remote-debugging-with-opera-dragonfly/ Dragonfly].  Debug output from your mobile device can be viewed and modified on a desktop computer.
 
