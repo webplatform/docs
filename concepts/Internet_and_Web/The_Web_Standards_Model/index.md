@@ -1,9 +1,10 @@
 {{Page_Title|The web standards model — HTML CSS and JavaScript}}
 {{Flags
 |High-level issues=Missing Relevant Sections
+|Checked_Out=No
 }}
 {{API_Name}}
-{{Summary_Section|Continuing with our course, the [[How does the Internet work|basic building blocks of the Web]] — [[html|HTML]], [[css|CSS]] and [http://www.w3.org/community/webed/wiki/What_can_you_do_with_JavaScript JavaScript] have been introduced. Now it’s time to dig a little deeper and to look at each of these — what they do, and how the three interact with each other to create a web site.|== Introduction ==
+{{Summary_Section|Continuing with our course, the [[How does the Internet work|basic building blocks of the Web]] — [[html|HTML]], [[css|CSS]] and [http://www.w3.org/community/webed/wiki/What_can_you_do_with_JavaScript JavaScript] have been introduced. Now it’s time to dig a little deeper and to look at each of these — what they do, and how the three interact with each other to create a website.|== Introduction ==
  
 Continuing with our course, the [[How does the Internet work|basic building blocks of the Web]] — [[html|HTML]], [[css|CSS]] and [http://www.w3.org/community/webed/wiki/What_can_you_do_with_JavaScript JavaScript] have been introduced. Now it’s time to dig a little deeper and to look at each of these — what they do, and how the three interact with each other to create a web site.
 }}
@@ -12,7 +13,7 @@ Continuing with our course, the [[How does the Internet work|basic building bloc
  
 That’s usually the first question that gets asked about web standards. You can accomplish content, styling and layout just using HTML — font elements for style and HTML tables for layout, so why should we bother with this XHTML/CSS stuff? Tables for layout, etc. is how it used to be done in the bad old days of web design, and many people still do it like this (although you really shouldn’t), which is one of the reasons why we created this course in the first place. We won’t be covering such methods in this course. Here are the most compelling reasons for using CSS and HTML over outdated methods:
  
-# '''Efficiency of code''':  The larger your files are, the longer they will take to download, and the more they will cost some people to view (some people still pay for downloads by the megabyte.) You therefore don’t want to waste your bandwidth on large pages cluttered up with styling and layout information in every HTML file. A much better alternative is to make the HTML files stripped down and neat, and include the styling and layout information just once in a separate CSS file. To see an actual case of this in action, check out [http://www.alistapart.com/articles/slashdot/ the A List Apart Slashdot rewrite article]  where the author took a very popular web site and re-wrote it in XHTML/CSS.
+# '''Efficiency of code''':  The larger your files are, the longer they will take to download, and the more they will cost some people to view (some people still pay for downloads by the megabyte.) You therefore don’t want to waste your bandwidth on large pages cluttered up with styling and layout information in every HTML file. A much better alternative is to make the HTML files stripped down and neat, and include the styling and layout information just once in a separate CSS file. To see an actual case of this in action, check out [http://www.alistapart.com/articles/slashdot/ the A List Apart Slashdot rewrite article]  where the author took a very popular website and re-wrote it in XHTML/CSS.
 # '''Ease of maintenance''':  Following on from the last point, if your styling and layout information is only specified in one place, it means you only have to make updates in one place if you want to change your site’s appearance. Would you prefer to update this information on every page of your site? I didn’t think so.
 # '''Accessibility''': Web users who are visually impaired can use a piece of software known as a “screen reader” to access the information through sound rather than sight — it literally reads the page out to them, and it can do a much better job of helping people to find their way around your web page if it has a proper semantic structure, such as headings and paragraphs. In addition keyboard controls on web pages (important for those with mobility impairments that can't use a mouse) work much better if they are built using best practices. As a final example,  screen readers can’t access text locked away in images, and find some uses of JavaScript confusing.  Make sure that your critical content is available to everyone.
 # '''Device compatibility''':  Because your HTML/XHTML page is just plain markup, with no style information, it can be reformatted for different devices with vastly differing attributes (eg. screen size) by simply applying an alternative style sheet — you can do this in a few different ways (look at the [[http://dev.opera.com/articles/mobile/ mobile articles on dev.opera.com]] for resources on this).  CSS also natively allows you to specify different style sheets for different presentation methods/media types (eg. viewing on the screen, printing out, viewing on a mobile device.)
@@ -109,7 +110,7 @@ The example I present below is a references page, which you could use to cite re
   <div id="references">
     <cite class="article">Adams, J. R. (2008). The Benefits of Valid Markup: A Post-Modernistic
     Approach to Developing
-    Web Sites. <em>The Journal of Awesome Web Standards, 15:7,</em> 57-62.</cite>
+    Websites. <em>The Journal of Awesome Web Standards, 15:7,</em> 57-62.</cite>
     <cite class="book">Baker, S. (2006). <em>Validate Your Pages.... Or Else!.</em>
     Detroit, MI: Are you out of your mind publishers.</cite>
     <cite class="article">Lane, J. C. (2007). Dude, HTML 4, that's like so 2000. <em>The
@@ -208,7 +209,7 @@ h1 {
  
 I went a little overboard with styling up this page, adding some neat background effects in order to show you some of the things that can be accomplished using CSS.
  
-Line 1 sets some defaults for the document such as text and background color, width of border to add around the text, etc. Some people won’t bother to explicitly state defaults like these, and most modern browsers will apply their own defaults, but it is a good idea, as it allows you more control over how your web site will look across different browsers.
+Line 1 sets some defaults for the document such as text and background color, width of border to add around the text, etc. Some people won’t bother to explicitly state defaults like these, and most modern browsers will apply their own defaults, but it is a good idea, as it allows you more control over how your website will look across different browsers.
  
 On the next line I’ve set the page to be 800 pixels wide (although I could have specified a percentage here to have the page expand/contract based on the size of the browser window). The margin setting I’ve used here will ensure that the page content stays centered in the window.
  
@@ -224,9 +225,9 @@ Figure 3: The finished example with styles applied.
 
 == The reality of it all ==
 
-Something you should bear in mind when learning web standards is that what we are working towards here is an ideal. It would be so much easier if all web designers and developers used modern web standards and best practices to build web sites, and all browsers in use today supported web standards perfectly. Unfortunately, neither is true - for a start, the web professionals making web sites today have learned how to do so in many different ways, and at many different times. Some are still making web sites using bad practices like tables and spacer gifs, which is what most of us used to do back in the late nineties. Most web professionals taught themselves, and even those of us who did do an official qualification of some kind did not necessarily get taught "the right way" to do things. Many of the university and college courses out there are ...shall we say... behind the times.
+Something you should bear in mind when learning web standards is that what we are working towards here is an ideal. It would be so much easier if all web designers and developers used modern web standards and best practices to build websites, and all browsers in use today supported web standards perfectly. Unfortunately, neither is true - for a start, the web professionals making websites today have learned how to do so in many different ways, and at many different times. Some are still making websites using bad practices like tables and spacer gifs, which is what most of us used to do back in the late nineties. Most web professionals taught themselves, and even those of us who did do an official qualification of some kind did not necessarily get taught "the right way" to do things. Many of the university and college courses out there are ...shall we say... behind the times.
 
-If you talked to many of those who do things using the old methods about updating their skill set, they would probably say "why bother - my way works, and I don't have time to learn new skills, so I'm just sticking to what I know." You can understand this argument, but if they could just take the time to update their skills, I'm sure they would find creating cross browser web sites and maintaining their code a lot easier. They would also get better accessibility and SEO thrown into the bargain. For now, I'd advise those of you learning to do things right from the start with courses like this to carry on doing what you are doing! Also, if you get the chance to pass on some of these modern best practices to others, then you will be doing the Web a favour.
+If you talked to many of those who do things using the old methods about updating their skill set, they would probably say "why bother - my way works, and I don't have time to learn new skills, so I'm just sticking to what I know." You can understand this argument, but if they could just take the time to update their skills, I'm sure they would find creating cross browser websites and maintaining their code a lot easier. They would also get better accessibility and SEO thrown into the bargain. For now, I'd advise those of you learning to do things right from the start with courses like this to carry on doing what you are doing! Also, if you get the chance to pass on some of these modern best practices to others, then you will be doing the Web a favour.
 
 And in terms of web browser support, all modern browsers now support HTML, CSS and JavaScript really well. The problem lies in legacy support for old versions of Internet Explorer - IE 6, 7 and 8 still have significant usage figures, so you may still be called upon to support these in web projects. You can work around lack of support for various features, and sometimes lack of support will mean a lesser (eg. it may not look as nice) experience that still works ok, rather than the site not working at all. This may still be fine, depending on your particular situation.
 
@@ -250,7 +251,7 @@ Aside from getting the satisfaction of a job well done, web standards developmen
 |Manual_sections==== Exercise questions ===
  
 * What’s the difference between a class and an ID?
-* What role do XHTML, CSS and JavaScript each play on a web site?
+* What role do XHTML, CSS and JavaScript each play on a website?
 * Take the index.html file from the example provided, and change the formatting using the CSS alone (I'd suggest editing the file using a text editor such as Notepad or Text Wrangler).  Do not make any changes to the HTML.
 ** Add an icon for each of the different reference types (a different icon for articles, books and web resources). Create your own icons for this purpose, and make them appear alongside the different reference types using CSS alone.
 ** Hide the copyright notice at the bottom of the page.
