@@ -93,6 +93,7 @@ The floats that are relevant to be cleared are the earlier floats within the sam
 }}
 {{See_Also_Section
 |Topic_clusters=Box Model
+|Manual_links=* [[tutorials/floats_and_clearing|Tutorial: Page layout with floats and clearing]].
 |Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
