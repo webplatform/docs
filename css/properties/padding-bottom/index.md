@@ -1,6 +1,8 @@
 {{Page_Title}}
 {{Flags
+|Content=Broken Links, Examples Best Practices
 |Checked_Out=Yes
+|Editorial notes=see padding; also verify and then fix "initial value" to "browser-dependent" on padding-*
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -34,10 +36,7 @@ p { padding-bottom: 10px; }
 &lt;p&gt;I think you are awesome!&lt;/p&gt;
 }}
 }}
-{{Notes_Section
-|Import_Notes====Syntax===
-<code>padding-bottom: &lt;length&gt; {{!}} &lt;percentage&gt; {{!}} inherit;</code>
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications=
 }}
@@ -49,7 +48,7 @@ p { padding-bottom: 10px; }
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=Box Model
+|Topic_clusters=CSS Layout, Box Model
 }}
 {{Topics|CSS}}
 {{External_Attribution
