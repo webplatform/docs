@@ -1,5 +1,7 @@
 {{Page_Title|Introduction to MIME types}}
-{{Flags}}
+{{Flags
+|Checked_Out=No
+}}
 {{API_Name}}
 {{Summary_Section|MIME types enable browsers to recognize the filetype of a file which has been sent via HTTP by the webserver. As a result the browser is able to choose a suitable displaying method. Common MIME types are for example text/html for html-files or image/jpeg for jpeg-files.}}
 {{Concept_Page
@@ -58,7 +60,7 @@ Apart from violating the HTTP specification, it is a bad strategy for browsers t
 If the browser ignores the reported MIME type, web administrators and authors no longer have control over how their content is to 
 be processed.
 
-For example, a web site oriented for web developers might wish to send certain example HTML documents as either 
+For example, a website oriented for web developers might wish to send certain example HTML documents as either 
 <code>text/html</code> or <code>text/plain</code> in order to have the documents either processed and displayed as HTML or as 
 source code. If the browser guesses the MIME type, this option is no longer available to the author.
 
