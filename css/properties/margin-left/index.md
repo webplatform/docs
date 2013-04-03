@@ -53,10 +53,9 @@ Margin-left clears an area to the left of an element (outside the border). The m
 }}
 {{Notes_Section
 |Usage====Syntax===
-id, class, or html element {
-
+<code>id, class, or html element {
     margin-left: value;
-}
+}</code>
 
 ===Usage===
 * When calculating the height and width of an element, DO NOT include the margins in your calculations (i.e. include everything else: content area, padding, and border). However, DO include margin size when calculating available space within an element's containing element.
