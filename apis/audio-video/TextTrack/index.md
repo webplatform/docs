@@ -2,7 +2,7 @@
 {{Flags
 |High-level issues=Needs Review
 |Content=Compatibility Incomplete
-|Checked_Out=Yes
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
