@@ -1,4 +1,4 @@
-{{Page_Title|SVG: grand tour}}
+{{Page_Title|SVG deployment}}
 {{Flags
 |Checked_Out=Yes
 }}
