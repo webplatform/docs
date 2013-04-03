@@ -1,5 +1,6 @@
 {{Page_Title}}
 {{Flags
+|Content=Examples Needed
 |Checked_Out=No
 }}
 {{Standardization_Status}}
