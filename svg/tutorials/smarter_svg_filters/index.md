@@ -2,14 +2,40 @@
 {{Flags
 |High-level issues=Stub
 |Checked_Out=Yes
-|Editorial notes=[new content edited offline by Sierra ([[User:Sierra|Sierra]] ([[User talk:Sierra|talk]])); please do not edit] 
-
-PLEASE SPECIFY A CHECKOUT AND CHECKIN DATE - OTHERWISE THIS PAGE WILL ROT [APRIL 3, 2013 - SF DOC SPRINT]
+|Editorial notes=[new content edited offline by Sierra ([[User:Sierra|Sierra]] ([[User talk:Sierra|talk]])); please do not edit]
 }}
 {{Byline}}
 {{Summary_Section|This guide shows you how to build SVG image processing filters to create interesting visual effects. It shows how to apply these effects within an SVG graphic, or how to apply it to non-SVG content using the [[css/properties/filter|'''filter''']] CSS property.}}
 {{Tutorial
 |Content===Applying filters in SVG==
+
+* feImage: places an image
+* feBlend
+* feOffset
+* feTile
+* feFlood: applies fill color
+
+* feGaussianBlur: motion blur
+
+* feMorphology [http://www.cs.auckland.ac.nz/courses/compsci773s1c/lectures/ImageProcessing-html/topic4.htm]
+* feTurbulence
+* feDisplacementMap
+* feComposite
+* feColorMatrix
+* feConvolveMatrix
+* feComponentTransfer
+    feFuncR
+    feFuncG
+    feFuncB
+    feFuncA
+* feDiffuseLighting
+    light source
+* feSpecularLighting
+    light source
+* feMerge
+    feMergeNode
+    feMergeNode
+
 
 ==Applying SVG filters with CSS==
 
