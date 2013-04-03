@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Deletion Candidate, Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
+|High-level issues=Deletion Candidate, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Examples Best Practices
 |Checked_Out=No
 }}
@@ -288,7 +288,7 @@ This property is not supported for Metro style apps using JavaScript
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|DOM}}
+{{Topics|API, Audio}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
