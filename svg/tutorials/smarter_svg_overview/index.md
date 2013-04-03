@@ -5,7 +5,8 @@
 {{Byline
 |Name=Mike Sierra
 }}
-{{Summary_Section|This guide shows you how to build a pair of animating eyeballs, along the way stepping through various SVG features detailed in other tutorials. It shows how to maintain a set of reusable graphic components, and  provides essential context on SVG transforms and coordinate spaces.}}
+{{Summary_Section|
+This guide shows you how to build a pair of animating eyeballs, providing a comprehensive tour of SVG features detailed in other tutorials. It shows how to maintain a set of reusable graphic components, and provides essential context on SVG transforms and coordinate spaces.}}
 {{Tutorial
 |Content=SVG is a standard markup format, like HTML and XML, that
 renders ''Scalable Vector Graphics'' within web browsers.  ''Vector'' or
@@ -890,9 +891,9 @@ along a curved path:
 
 The text appears to wrap around a [[svg/elements/circle|'''circle''']]
 element, but since circles do not have logical start and end points,
-you need to use the rather complex ''A'' path command to draw two
-elliptical arc curves, each facing the other and originating at the
-left edge:
+you need to use the [[svg/tutorials/smarter_svg_shapes|rather complex]]
+''A'' path command to draw two elliptical arc curves, each facing the
+other, originating and terminating at the left edge:
 
 <syntaxhighlight lang="xml">
 <path id="irisPath" d="M 60,100 A 40,40 0 0 1 140,100 A 40,40 0 0 1 60,100 "/>
@@ -983,7 +984,7 @@ svg.zoomIn text {
 </syntaxhighlight>
 
 Text letterforms behave just like paths, so the various and fill and
-stroke properties work the same way.
+stroke properties work the same way as for other shapes.
 
 (See [[svg/tutorials/smarter_svg_text|'''SVG text''']] for details on
 text properties.)
