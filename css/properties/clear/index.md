@@ -1,7 +1,8 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=Yes
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -19,13 +20,13 @@
 |Description=No constraint on the box's position with respect to floats.
 }}{{CSS Property Value
 |Data Type=left
-|Description=Requires that the top border edge of the box be below the bottom outer edge of any left-floating boxes that resulted from elements earlier in the source document. 
+|Description=Requires that the top border edge of the box be below the bottom outer edge of any left-floating boxes that resulted from elements earlier in the source document.
 }}{{CSS Property Value
 |Data Type=right
 |Description=Requires that the top border edge of the box be below the bottom outer edge of any right-floating boxes that resulted from elements earlier in the source document.
 }}{{CSS Property Value
 |Data Type=both
-|Description=Requires that the top border edge of the box be below the bottom outer edge of any right-floating and left-floating boxes that resulted from elements earlier in the source document. 
+|Description=Requires that the top border edge of the box be below the bottom outer edge of any right-floating and left-floating boxes that resulted from elements earlier in the source document.
 }}
 }}
 {{Examples_Section
@@ -77,6 +78,7 @@ The value of this property lists the sides where floating objects are not accept
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
