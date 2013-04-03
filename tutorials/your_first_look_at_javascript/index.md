@@ -30,7 +30,7 @@ The most basic inclusion of JavaScript inside your HTML page would look somethin
  
 You could put this anywhere inside your document and it would execute, but some places are definitely better than others — see the [http://www.w3.org/wiki/Your_first_look_at_JavaScript#Where_to_put_JavaScript Where to put JavaScript] section for guidance on this.
  
-As there might be several different types of script available to use on web pages in the future it makes sense to add the name of the script you are using as a MIME type:
+As there might be several different types of script available to use on web pages in the future, it makes sense to add the name of the script you are using as a MIME type:
  
 <syntaxhighlight lang="html5">
 <script type="text/javascript">
@@ -41,7 +41,7 @@ As there might be several different types of script available to use on web page
  
 '''Note:''' You will find script examples on the web that have a <code>language="javascript"</code> attribute. This is not part of any standard and is utterly useless; delete this where you can. This is a throwback to the bad old days, when VBScript was also in popular use on web pages. VBScript usage died however, as it only works in IE.
 
-In the past there was a need to comment out JavaScript with an HTML comment to prevent browsers from showing the code as HTML. As this only applies to very old browsers you don’t need to bother with that any longer. If you are using strict XHTML as your DOCTYPE however you need to enclose any JavaScript in a CDATA block to make it validate (don't worry about why - it is not really important at this stage in your learning):
+In the past there was a need to comment out JavaScript with an HTML comment to prevent browsers from showing the code as HTML. As this only applies to very old browsers you do not need to bother with that any longer. However, if you are using strict XHTML as your DOCTYPE, you need to enclose any JavaScript in a CDATA block to make it validate (do not worry about why - it is not really important at this stage in your learning):
  
 <syntaxhighlight lang="html5">
 <script type="text/javascript">
@@ -52,7 +52,7 @@ In the past there was a need to comment out JavaScript with an HTML comment to p
 </script>
 </syntaxhighlight>
  
-However, for strict XHTML documents it is much more sensible not to embed any JavaScript but instead keep it in an external document.
+However, for strict XHTML documents, it is much more sensible not to embed any JavaScript but instead keep it in an external document.
 
 === Linking to an external JavaScript file ===
  
@@ -62,26 +62,26 @@ In order to link to an external JavaScript (either on the same server or anywher
 <script type="text/javascript" src="myscript.js"></script>
 </syntaxhighlight>
  
-Upon meeting this element in a page, browsers will then load the file <code>myscript.js</code> and execute it. Any content inside the <code>script</code> element itself will be skipped when you provide a <code>src</code> attribute. The following example will load the file <code>myscript.js</code> and execute the code in it but will not execute the alert inside the <code>script</code> element at all.
+Upon meeting this element in a page, browsers will then load the file <code>myscript.js</code> and execute it. Any content inside the <code>script</code> element itself will be skipped when you provide a <code>src</code> attribute. The following example will load the file <code>myscript.js</code> and execute the code in it, but will not execute the alert inside the <code>script</code> element at all.
 
 <syntaxhighlight lang="html5">
 <script type="text/javascript" src="myscript.js">
-  alert('I am pointless as I won\'t be executed');
+  alert('I am pointless as I will not be executed');
 </script>
 </syntaxhighlight>
  
-Keeping your code in an external JavaScript file makes a lot of sense, as:
+Keeping your code in an external JavaScript file makes a lot of sense:
  
 * You can apply the same JavaScript functionality to several HTML documents and still keep maintenance easy: if there is a desired change in functionality all you need to do is change one single file.
-* Your JavaScript will be cached by browsers. Caching means that browsers will take a copy of your JavaScript and store it on the computer of the visitors surfing on your site. The next time this user loads the same script it will not be taken from your server but their own computers — thus loading much faster.
+* Your JavaScript will be cached by browsers. Caching means that browsers will take a copy of your JavaScript and store it on the computer of the visitors surfing on your site. The next time this user loads the same script it will not be taken from your server but from their own computers — thus loading much faster.
 * You can easily find your script if you need to modify it, avoiding the need to scan through long HTML documents to find the place to fix a problem.
 * Fixing errors becomes easier as a debugging tool or error console will tell you which file contains the error and reliably report the line number.
  
-You can add as many JavaScript files as you want to a document but there are several considerations to make before going down that route.
+You can add as many JavaScript files as you want to a document, but there are several considerations to make before going down that route.
 
 == JavaScript and browser performance ==
  
-Cutting up a lot of JavaScript into different files, each dealing with one task at a time, is a great idea to keep your functionality easy to maintain and allow for quick bug-fixing. For example you could have several script blocks like these:
+Cutting up a lot of JavaScript into different files, each dealing with one task at a time, is a great idea to keep your functionality easy to maintain and allow for quick bug-fixing. For example, you could have several script blocks like these:
  
 <syntaxhighlight lang="html5">
 <script type="text/javascript" src="config.js"></script>
@@ -91,7 +91,7 @@ Cutting up a lot of JavaScript into different files, each dealing with one task 
 <script type="text/javascript" src="widgets.js"></script>
 </syntaxhighlight>
  
-The development benefits of this are however diminished by the effect this has on the performance of your document. This differs slightly from browser to browser but the worst case scenario (which is sadly enough still the most used browser) does the following:
+However, the development benefits of this are diminished by the effect this has on the performance of your document. This differs slightly from browser to browser but the worst-case scenario (which is sadly enough still the most-used browser) does the following:
  
 * Every time the browser encounters a <code>script</code> element, it will pause rendering (displaying) the document.
 * It will then load the JavaScript file defined in the <code>src</code> attribute (if you use a script on another server you also have to wait until the browser finds that server).
@@ -99,7 +99,7 @@ The development benefits of this are however diminished by the effect this has o
  
 All of this means that the display of your web site is slowed down until all of these steps happen for all the scripts you include. This can become annoying for your visitors.
  
-One way around this is to use a backend script to create a single file from all the files you use. That way you have the benefit of keeping maintenance easy while at the same time cutting down on delays to your web page display. There are several scripts like this on the web — one of them is written in PHP and [http://http://www.ejeliot.com/blog/73 available from Ed Eliot].
+One way around this is to use a backend script to create a single file from all the files you use. That way you have the benefit of keeping maintenance easy while simultaneously cutting down on delays to your web page display. There are several scripts like this on the web — one of them is written in PHP and [http://http://www.ejeliot.com/blog/73 available from Ed Eliot].
  
 The delay in display also defines where you want to put your JavaScript in the document.
 
@@ -146,9 +146,9 @@ Performance specialists have started to advocate placing your JavaScript at the 
  
 This benefits your JavaScript by not delaying the display of the HTML and also means that any HTML you want to alter with JavaScript is already available.
  
-One of the drawbacks are that this practice is not quite common yet, and you might confuse developers who maintain your code. Another — more problematic — drawback is that the HTML becomes available before your JavaScript is loaded. While this is exactly what you want to achieve, it also means that visitors will start interacting with your interface before you get the chance to change it. Say for example you want to validate a form with JavaScript before it is submitted to the server — the form might get submitted before the script has been loaded. If you write your script as a mere enhancement (rather than relying on it) that is not a problem though — just an annoyance.
+You might confuse developers who maintain your code because this practice is not common yet. Another — more problematic — drawback is that the HTML becomes available before your JavaScript is loaded. While this is exactly what you want to achieve, it also means that visitors will start interacting with your interface before you get the chance to change it. Say for example you want to validate a form with JavaScript before it is submitted to the server — the form might get submitted before the script has been loaded. If you write your script as a mere enhancement (rather than relying on it) that is not a problem though — just an annoyance.
  
-It is up to you to choose what fits the purpose of your web site; you could even choose to do a mixture of both — put the scripts with very important functionality in the <code>head</code>, and call them in conjunction with the “nice-to-have” scripts at the end of the document.
+It is up to you to choose what fits the purpose of your website; you could even choose to do a mixture of both — put the scripts with very important functionality in the <code>head</code>, and call them in conjunction with the “nice-to-have” scripts at the end of the document.
  
 <syntaxhighlight lang="html5">
 <!DOCTYPE html>
@@ -169,23 +169,23 @@ Whatever you do, make sure that the order of your scripts is right, as browsers 
 
 == JavaScript security and the lack thereof ==
  
-We cannot stress this enough. JavaScript is a wonderful language and can help you to build highly responsive and beautifully interactive web sites and applications, but where it falls down terribly is security. In short, there is no security model in JavaScript and you should not protect, encrypt, secure or store anything vital or secret with it.
+We cannot stress this enough. JavaScript is a wonderful language and can help you to build highly responsive and beautifully interactive web sites and applications, but where it falls down terribly is security. In short, there is no security model in JavaScript and you should not protect, encrypt, secure, or store anything vital or secret with it.
  
-Every script on the page has the same rights — all of them can access each other, read out variables, access functions and also override each other. If you have a function called <code>init()</code> in your first included script, and another one in your last included script, the original one will be overridden. We will come back to this problem in the [http://dev.opera.com/articles/view/javascript-best-practices/ best practices article] of this course.
+Every script on the page has the same rights — all of them can access each other, read out variables, access functions, and also override each other. If you have a function called <code>init()</code> in your first included script, and another one in your last included script, the original one will be overridden. We will come back to this problem in the [http://dev.opera.com/articles/view/javascript-best-practices/ best practices article] of this course.
  
-All of this wouldn’t be much of an issue if you never used other people’s scripts. However, seeing that most online advertising and statistics tracking is done with JavaScript this will not be the case — you will use third party scripts all the time.
+All of this would not be much of an issue if you never used other people’s scripts. However, seeing that most online advertising and statistics-tracking is done with JavaScript this will not be the case — you will use third party scripts all the time.
  
-Scripts can also read cookies and using the <code>prototype</code> of a function you can override any native JavaScript function. Lastly, JavaScript can easily be turned off so you can forget about JavaScript protection being a good security measure.
+Scripts can also read cookies; using the <code>prototype</code> of a function you can override any native JavaScript function. Lastly, JavaScript can easily be turned off so you can forget about JavaScript protection being a good security measure.
  
-JavaScript is always readily available for reading and analyzing by other developers. Of course you can pack (remove all unnecessary whitespace) and obfuscate (use random variable and function names) your scripts, but even those can be reverse engineered; in this case the only person you stop from using your code easily is yourself. The availability of the source code and the ability to read and analyze it is possibility the main factor for the success of JavaScript - for years we learnt by peeking at other people’s solutions. Nowadays this is luckily over as there are good books and tutorials available.
+JavaScript is always readily available for reading and analyzing by other developers. Of course you can pack (remove all unnecessary whitespace) and obfuscate (use random variable and function names) your scripts, but even those can be reverse-engineered; in this case the only person you stop from using your code easily is yourself. The availability of the source code and the ability to read and analyze it is possibility the main factor for the success of JavaScript - for years we learned by peeking at other people’s solutions. Nowadays this is luckily over as there are good books and tutorials available.
  
-Whereas packing and obfuscation are useless as security measures, they are often done on medium and large scripts before the code is put live on the web as part of the publication process. This helps to cut down on the amount of bandwidth required to serve the site to it's users. A saving of a few bytes here and there may not seem significant on your blog about kittens, but it can add up to massive savings when you are dealing with a site with usage figures like those of google.com.
+Whereas packing and obfuscation are useless as security measures, they are often done on medium and large scripts before the code is put live on the web as part of the publication process. This helps to cut down on the amount of bandwidth required to serve the site to its users. Saving a few bytes here and there may not seem significant on your blog about kittens, but it can add up to massive savings when you are dealing with a site with usage figures like those of google.com.
 
 == Techniques to avoid ==
  
 The biggest problem with learning JavaScript is that there is a massive amount of outdated and possibly dangerous information out there. This is especially frustrating as a lot of this information is very well presented and gives a lot of beginners a “quick win” feeling of knowing JavaScript by copying and pasting some ready-made code.
  
-As the environment JavaScript is being applied to is very much unknown (users can have any setup) and we don’t know what decisions led to code we find on the web being created in a particular way, we shouldn’t point fingers at solutions. However, the following ideas are a thing of the past and you should only use them as a very last resort if you need them to support really old, bad browsers.
+As the environment JavaScript is being applied to is very much unknown (users can have any setup) and we do not know what decisions led to code we find on the web being created in a particular way, we should not point fingers at solutions. However, the following ideas are a thing of the past and you should only use them as a very last resort if you need them to support really old, bad browsers:
  
 * <code>document.write()</code> — you can write out content to the document using <code>document.write()</code> but there are several issues with this: you mix HTML and scripting and you need to add a script node exactly where you want the content to appear, which slows down your page. It is a very cool way of easily showing (for example in a tutorial or when testing/debugging your code) what the result of some piece of code is, but it is a bad example to show people, as you should never have to use it in live code.
 * <code>&lt;noscript&gt;&lt;/noscript&gt;</code> — as its name implies, the <code>noscript</code> element is the opposite to the <code>script</code> element. The content inside it will be shown to users that have JavaScript disabled. The main reason to use <code>noscript</code> is to provide alternative content for users who do not have JavaScript available in their browser. Users that have no JavaScript don’t do that to make your life harder — they might do it because of a security policy, or because the browser they are using does not support JavaScript. But what you can provide inside <code>noscript</code> is limited, and you shouldn’t use it provide a note telling users to enable JavaScript in their browser — for some users this is not possible.
