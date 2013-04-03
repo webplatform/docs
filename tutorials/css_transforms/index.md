@@ -1,7 +1,7 @@
 {{Page_Title|Manipulating content with CSS3 transforms}}
 {{Flags
 |Content=Grammar/Spelling
-|Checked_Out=No
+|Checked_Out=Yes
 }}
 {{Byline
 |Name=Mike Sierra
