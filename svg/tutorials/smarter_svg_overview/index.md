@@ -5,7 +5,13 @@
 {{Byline
 |Name=Mike Sierra
 }}
-{{Summary_Section|This guide introduces SVG graphics, showing you how to build a pair of animating eyeballs, along the way stepping through various SVG features detailed in other tutorials.}}
+
+{{Summary_Section|This guide introduces SVG graphics, showing you how to build a pair of animating eyeballs, along the way stepping through various SVG features detailed in other tutorials. It 
+
+shows how to maintain a set of reusable graphic components, and 
+provides essential context on SVG transforms and coordinate spaces.
+
+}}
 {{Tutorial
 |Content=SVG is a standard markup format, like HTML and XML, that
 renders ''Scalable Vector Graphics'' within web browsers.  ''Vector'' or
@@ -366,8 +372,10 @@ a [[svg/elements/g|'''g''']] tag around them to consolidate a larger
 semantic ''eye'' object. You can reference the grouped object, and you
 will see below, move or otherwise transform it as a unit.
 
-(See [[svg/tutorials/smarter_svg_graphics|'''SVG graphics''']] for
-more details about clipping paths.)
+(See [[svg/tutorials/smarter_svg_shapes|'''SVG shapes''']] for details
+on path commands, and
+[[svg/tutorials/smarter_svg_graphics|'''SVG graphics''']] for clipping
+paths.)
 
 ==The eyelashes==
 
@@ -411,7 +419,7 @@ property prevents the stroke from rendering too far past the sharp
 corner of the eye where the eyelids meet.
 
 (See [[svg/tutorials/smarter_svg_shapes|'''SVG shapes''']] for details
-on various path commands.)
+on various stroke properties.)
 
 ==Applying eyeliner==
 
