@@ -9,7 +9,7 @@
 
 Graphic design, in general, is a creative process of organizing visual and/or typographic elements to create communication materials or objects that effectively deliver subject matter at hand to the viewer or target audience.  A well designed material should be not only aesthetically pleasing and compelling, but must deliver effective communication as its function.  
 
-In designing for the web today, interactivity plays a large part and an existing static design elements  and new design endeavor must take this into account.  The interactivity delivers user experience which 
+In designing for the web today, interactivity plays a large part and an existing static design elements  and new design endeavor must take this into account.  The interactivity delivers [http://www.uxmatters.com/glossary/ user experience (UX)] which 
 
 
 
