@@ -1,6 +1,6 @@
 =CSS=
 
-==Sommaire==
+==Résumé==
 
 Le CSS (pour ''Cascading style sheets'') est le langage de présentation pour le contenu sur le web. C'est le [http://www.w3.org World Wide Web Consortium] qui assure le maintien du [http://www.w3.org/standards/techs/css standard CSS].
 
