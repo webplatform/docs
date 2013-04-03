@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Not Neutral, Cleanup, Broken Links, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=Yes
 }}
 {{Standardization_Status|Non-Standard}}
 {{API_Name}}
