@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -34,7 +35,20 @@ The optimal column width is determined through other property values of the mult
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|Description=Makes as many columns that are 15em as there is space 
+in the browser.
+|Code=/*
+Makes as many columns that are 15em as there is space 
+in the browser.
+*/
+#column2{
+border: 2px solid #000;
+column-width: 15em;
+}
+|LiveURL=http://code.webplatform.org/gist/5305475
+}}
 }}
 {{Notes_Section
 |Notes====Remarks===
