@@ -744,11 +744,32 @@ function blink() {
 }
 </syntaxhighlight>
 
-Enough, already?
+==Zooming In==
+
+[[Image:svgGrandTour_eyeball_zoom.png|200px]]
+
+...
+
+==Animating the Zoom==
+
+...
+
+==Adding Text==
+
+[[Image:svgGrandTour_eyeball_textPath.png|200px]]
+
+[[Image:svgGrandTour_eyeball_text.png|200px]]
+
+...
+
+==Enough?==
 
 [[Image:svgGrandTour_eyeball_tired.png|600px]]
 
+...
+
 <!--
+
 
 ==Adding text and interaction==
 
