@@ -1,6 +1,5 @@
 {{Page_Title|Advanced layouts with absolute and fixed positioning}}
 {{Flags
-|Content=Grammar/Spelling
 |Checked_Out=No
 }}
 {{Byline}}
