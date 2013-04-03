@@ -71,9 +71,6 @@ When applied to non-floating blocks, it moves the [[css/properties/border|border
 When applied to floating elements, it moves the margin edge of the element below the margin edge of all relevant floats. This affects the position of later floats, since later floats cannot be positioned higher than earlier ones.
 
 The floats that are relevant to be cleared are the earlier floats within the same block formatting context.
-|Import_Notes====Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 5.5.26
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}161725 Document Object Model (DOM) Level 1 Specification], Section 2.5.5
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
