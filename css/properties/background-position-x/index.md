@@ -50,7 +50,7 @@
 }}
 {{Notes_Section
 |Usage====Usage===
-* Often used to manipulate sprites (i.e. using CSS to expose small portions of a single background image, which is composed of multiple smaller images, such that HTTP requests are reduced).
+* Often used to manipulate sprites (i.e. a technique of using CSS to expose small portions of a single background image, which is composed of multiple smaller images, such that HTTP requests are reduced).
 * If browser support is of utmost importance, use [[background-position]] instead.
 |Notes====Remarks===
 * Windows Internet Explorer 8. The '''-ms-background-position-x''' attribute is an extension to CSS, and can be used as a synonym for '''background-position-x''' in IE8 Standards mode.
