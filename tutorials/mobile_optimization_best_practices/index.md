@@ -51,10 +51,6 @@ Instead, make use of AJAX to load only the views that are changing. Where possib
 
 There is a wide range of mobile browsers, each with different screen sizes, screen resolutions, and support for different HTML features. Based on your target audience, you will want to optimize the user experience based on device features.
 
-== Network Operators / Carriers  ==
-
-Some mobile networks employ minification and compression techniques on data that is sent over a mobile network to a device. This only applies when the device is using a mobile data connection such as LTE, 3G or GPRS. External resources, such as scripts and images, may not be delivered to the client device as the developer intended. Large libraries can be broken by the techniques employed by carriers. Here's an article discussing this issue, which also offers a solution should you need one. * [http://stuartroebuck.blogspot.co.uk/2010/08/official-way-to-bypassing-data.html]
-
 === Viewport ===
 The viewport metadata provides the browser with information on how the content should fit on the device screen. 
 <pre><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"></pre>
@@ -93,6 +89,10 @@ You can provide shortcuts for your web apps that can be place in the devices' ho
  &lt;link rel="apple-touch-icon-precomposed" href="/icons/android_icon.png" />
 
 You can also upsell the user to this functionality by using the open source [http://code.google.com/p/mobile-bookmark-bubble/ Bookmark Bubble].
+
+== Mobile Carriers  ==
+
+Some mobile networks employ minification and compression techniques on data that is sent over a mobile network to a device. This only applies when the device is using a mobile data connection such as LTE, 3G or GPRS. External resources, such as scripts and images, may not be delivered to the client device as the developer intended. Large libraries can be broken by the techniques employed by carriers. Here's an article discussing this issue, which also offers a solution should you need one. * [http://stuartroebuck.blogspot.co.uk/2010/08/official-way-to-bypassing-data.html]
 
 == Additional Resources ==
 
