@@ -43,11 +43,7 @@
 {{!}}video/webm
 {{!}}}
  
-|Import_Notes====Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}221374 HTML5 A vocabulary and associated APIs for HTML and XHTML], Section 4.8.7
-
-
-===Members===
+|Import_Notes====Members===
 The '''audio''' object has these types of members:
 *[[#Events{{!}}Events]]
 *[[#Methods{{!}}Methods]]
@@ -222,7 +218,10 @@ This property is not supported for Metro style apps using JavaScript
  
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=A vocabulary and associated APIs for HTML and XHTML
+|URL=http://www.w3.org/TR/html5/embedded-content-0.html#the-audio-element
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
