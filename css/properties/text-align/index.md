@@ -1,8 +1,9 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
+|High-level issues=Missing Relevant Sections, Needs Review
 |Content=Compatibility Incomplete, Examples Needed
-|Checked_Out=Yes
+|Checked_Out=No
+|Editorial notes=Needs information in the Usage section.
 }}
 {{Standardization_Status}}
 {{API_Name}}
