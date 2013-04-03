@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|Checked_Out=Yes
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -33,20 +33,28 @@ Margin-right creates space outside the outer edge of an element (beyond the righ
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Description=Clearing the space to the right of an element by 2cm (an example of length).
-|Code=margin-right: 2cm;
+|Description=Clearing the space to the right of a paragraph element by 2cm (an example of length).
+|Code=p {
+     margin-right: 2cm;
+}
 }}{{Single Example
 |Language=CSS
-|Description=Clearing the space to the right of an element by 20% of its container's width (an example of percentage).
-|Code=margin-right: 20%;
+|Description=Clearing the space to the right of a paragraph element by 20% of its container's width (an example of percentage).
+|Code=p {
+     margin-right: 20%;
+}
 }}{{Single Example
 |Language=CSS
-|Description=Allowing the browser to decide how much clearance to give an element to the right its right edge (an example of auto).
-|Code=margin-right: auto;
+|Description=Allowing the browser to decide how much clearance to give a paragraph element to the right its right edge (an example of auto).
+|Code=p { 
+     margin-right: auto;
+}
 }}{{Single Example
 |Language=CSS
-|Description=Inheriting the parent element's margin-right specification (an example of inherit).
-|Code=margin-right: inherit;
+|Description=Inheriting the paragraph's parent element's margin-right specification (an example of inherit).
+|Code=p {
+     margin-right: inherit;
+}
 }}
 }}
 {{Notes_Section
