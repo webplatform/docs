@@ -85,6 +85,12 @@ function makeCorsRequest() {
 Same-origin requests are subject to the browser's same-origin policy: http://en.wikipedia.org/wiki/Same_origin_policy  This basically says that an XMLHttpRequest instance can make a request to a resource that lives on the same origin as the calling page.
 
 Requests that go across origins (for example, a request from originA.com to originB.com) can also be made. But in order for them to work, the destination server must support Cross-Origin Resource Sharing (CORS,  http://www.w3.org/TR/cors/). These are a set of headers included in the response that indicate how a resource can be accessed across domains.
+|Notes=JQuery's $.ajax() method can be used to make both regular XHR and CORS requests. A few notes about JQuery's implementation:
+
+JQuery's CORS implementation doesn't support IE's XDomainRequest object. But there are JQuery plugins that enable this. See http://bugs.jquery.com/ticket/8283 for details.
+The $.support.cors boolean will be set to true if the browser supports CORS (This returns false in IE, see bullet above). This can be a quick way to check for CORS support.
+
+Other frameworks also abstracts away using XMLHTTPRequests. Some offer more than a wrapper around XHR. For example, in Meteor's Meteor.http.call, or Node.js it allows this to be called through the API. 
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -162,8 +168,8 @@ Requests that go across origins (for example, a request from originA.com to orig
 {{Topics|XHR}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
+|Sources=MSDN, HTML5Rocks
 |MDN_link=
 |MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
-|HTML5Rocks_link=
+|HTML5Rocks_link=http://www.html5rocks.com/en/tutorials/cors/
 }}
