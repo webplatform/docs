@@ -5,8 +5,7 @@
 {{API_Name}}
 {{Summary_Section}}
 {{Concept_Page
-|Content=
-What is beauty depends on many things, one being the observer. However, there is commonness in what we like as human beings and dislike, genetics? Perhaps. When it comes to Graphic Design not only the object/concept has to look cute but serve its purpose. This sometimes is refereed to as functionality vs aesthetics. Creativity lies in finding the best and better technique that requires the minimum compromise. 
+|Content=What is beauty depends on many things, one being the observer. However, there is commonness in what we like as human beings and dislike, genetics? Perhaps. When it comes to Graphic Design not only the object/concept has to look cute but serve its purpose. This sometimes is refereed to as functionality vs aesthetics. Creativity lies in finding the best and better technique that requires the minimum compromise. 
 
 In short Graphic Design looks beautiful and serve a function. While Art is meant to be expression of feelings,or to convey feeling and is extraordinary, it may or may not serve any other function.
 
@@ -45,7 +44,7 @@ Your job as a graphic designer here is to manipulate & add/remove these elements
 |Specifications=
 }}
 {{See_Also_Section
-|External_links=[http://www.aiga.org/inspiration/ American Institution of Graphic Arts (AIGA)]
+|External_links=* [http://www.aiga.org/inspiration/ American Institution of Graphic Arts (AIGA)]
 }}
 {{Topics}}
 {{External_Attribution
