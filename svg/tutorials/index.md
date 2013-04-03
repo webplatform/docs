@@ -48,10 +48,10 @@
 == More SVG ==
 
 * [[svg/tutorials/smarter_svg_overview|SVG grand tour]]
+* [[svg/tutorials/smarter_svg_shapes|SVG shapes]]
+* [[svg/tutorials/smarter_svg_graphics|SVG graphics]]
+* [[svg/tutorials/smarter_svg_text|SVG text]]
+* [[svg/tutorials/smarter_svg_filters|SVG filters]]
+* [[svg/tutorials/smarter_svg_animation|SVG animation]]
+* [[svg/tutorials/smarter_svg_interaction|SVG interaction]]
 * [[svg/tutorials/smarter_svg_deploy|SVG deployment]]
-* [[svg/tutorials/smarter_svg_shapes|SVG Shapes]]
-* [[svg/tutorials/smarter_svg_graphics|SVG Graphics]]
-* [[svg/tutorials/smarter_svg_text|SVG Text]]
-* [[svg/tutorials/smarter_svg_filters|SVG Filters]]
-* [[svg/tutorials/smarter_svg_animation|SVG Animation]]
-* [[svg/tutorials/smarter_svg_interaction|SVG Interaction]]
