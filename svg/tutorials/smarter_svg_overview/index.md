@@ -854,9 +854,10 @@ along a path:
 
 [[Image:svgGrandTour_eyeball_textRotate.png|200px]]
 
-
-
-The path appears to be a circle
+The text appears to wrap around a [[svg/elements/circle|'''circle''']]
+element, but circles do not have start and end points, so instead you
+need to use the rather complex ''A'' path command to draw two
+elliptical arc curves that face each other:
 
 <syntaxhighlight lang="xml">
 <path id="irisPath" d="M 60,100 A 40,40 0 0 1 140,100 A 40,40 0 0 1 60,100 "/>
