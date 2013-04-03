@@ -65,9 +65,8 @@ You can add [[svg/elements/title|'''title''']] and
 [[svg/elements/desc|'''desc''']] tags wherever necessary to comment
 your markup.
 
-See [[svg/tutorials/smarter_svg_deploy|'''SVG deployment''']] for
-details.
-
+(See [[svg/tutorials/smarter_svg_deploy|'''SVG deployment''']] for
+different ways to render SVG content.)
 
 ==The eyeball==
 
@@ -104,6 +103,9 @@ them from obscuring the smaller ones:
 </syntaxhighlight>
 
 [[Image:svgGrandTour_eyeball_circles.png|100px]]
+
+(See [[svg/tutorials/smarter_svg_shapes|'''SVG shapes''']] for
+more about basic shapes such as circles, ellipses, and rectangles.)
 
 ==Styling via CSS==
 
