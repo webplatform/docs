@@ -51,7 +51,7 @@ Margin-bottom creates space outside the outer edge of an element (beyond the bot
 }
 }}{{Single Example
 |Language=CSS
-|Description=Inheriting the parent paragraph element's margin-bottom specification (an example of inherit).
+|Description=Inheriting the paragraph's parent element's margin-bottom specification (an example of inherit).
 |Code=p {
      margin-bottom: inherit;
 }
