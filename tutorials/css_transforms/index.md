@@ -6,18 +6,7 @@
 {{Byline
 |Name=Mike Sierra
 }}
-{{Summary_Section|CSS transforms allow you to dynamically manipulate
-the space in which content elements appear. You can move them around
-on the screen, shrink or expand them, rotate them, or combine all
-these effects to produce complex movements.  By themselves, transforms
-produce static visual effects, but they can be easily combined with
-CSS [[tutorials/css_transitions|transitions]] and
-[[tutorials/css_animations|keyframe animations]] to produce vibrant
-animated interfaces. This tutorial first introduces simple
-two-dimensional transforms, then shows you how to extend transforms
-into three-dimensional space.  It ends with step-by-step instructions
-to spin a cube in space.
-}}
+{{Summary_Section|CSS transforms allow you to dynamically manipulate the space in which content elements appear. You can move them around on the screen, shrink or expand them, rotate them, or combine all these effects to produce complex movements.  By themselves, transforms produce static visual effects, but they can be easily combined with CSS [[tutorials/css_transitions|transitions]] and [[tutorials/css_animations|keyframe animations]] to produce vibrant animated interfaces. This tutorial first introduces simple two-dimensional transforms, then shows you how to extend transforms into three-dimensional space.  It ends with step-by-step instructions to spin a cube in space.}}
 {{Tutorial
 |Content=These key points serve as reference:
 
