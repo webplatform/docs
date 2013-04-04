@@ -15,7 +15,8 @@ A filter is a little machine that takes graphic input, changes it in
 some way, and causes the output to render differently. Filters contain
 one or more component ''filter effects'', some of which do intuitively
 obvious things (such as blur the image), and some of which only make
-sense when combined with other effects.
+sense when combined with other effects. (SVG filter effect elements
+are all prefixed ''fe''.)
 
 Filter effects are often chained together so that one effect's output
 becomes another effect's input. Filter effects may also operate on
@@ -33,27 +34,152 @@ different meanings.  CSS filters currently come in two flavors:
 This guide does not discuss these more recent CSS custom filters, but
 does show you how to customize your own SVG filters for use in HTML.
 
-
-
-==Applying SVG filters within SVG==
+==Applying a simple filter (feGaussianBlur)==
 
 <syntaxhightlight lang="xml">
 <filter id="blur">
-<feGaussianBlur stdDeviation="[radius radius]">
+<feGaussianBlur stdDeviation="10">
 </filter>
 </syntaxhightlight>
 
-==Applying SVG filters to HTML==
-
 <syntaxhightlight lang="css">
-.blur {
-    -webkit-filter: url(filters.svg#blur);
+.sidewaysBlur {
+    -webkit-filter : url(filters.svg#blur);
+    filter         : url(filters.svg#blur);
 }
 </syntaxhightlight>
+
+==feColorMatrix==
+
+<syntaxhightlight lang="xml">
+<filter id="sepia" >
+  <feColorMatrix type="matrix" values=".343 .669 .119 0 0 .249 .626 .130 0 0 .172 .334 .111 0 0 .000 .000 .000 1 0" />
+</filter>
+</syntaxhightlight>
+
+<syntaxhightlight lang="xml">
+<filter id="saturate">
+<feColorMatrix type="saturate"
+values="(1 - [amount])"/>
+</filter>
+</syntaxhightlight>
+
+<syntaxhightlight lang="xml">
+<filter id="hue-rotate">
+<feColorMatrix type="hueRotate"
+values="[angle]"/>
+</filter>
+</syntaxhightlight>
+
+<syntaxhightlight lang="xml">
+<filter id="grayscale">
+<feColorMatrix type="matrix"
+values="(0.2126 + 0.7874 * [1 - amount]) (0.7152 - 0.7152 * [1 - amount]) (0.0722 - 0.0722 * [1 - amount]) 0 0
+(0.2126 - 0.2126 * [1 - amount]) (0.7152 + 0.2848 * [1 - amount]) (0.0722 - 0.0722 * [1 - amount]) 0 0
+(0.2126 - 0.2126 * [1 - amount]) (0.7152 - 0.7152 * [1 - amount]) (0.0722 + 0.9278 * [1 - amount]) 0 0
+0 0 0 1 0"/>
+</filter>
+</syntaxhightlight>
+
+==Modifying pixel components (feComponentTransfer)==
+
+
+
+<syntaxhightlight lang="xml">
+<filter id="invert">
+<feComponentTransfer>
+<feFuncR type="table" tableValues="[amount] (1 - [amount])"/>
+<feFuncG type="table" tableValues="[amount] (1 - [amount])"/>
+<feFuncB type="table" tableValues="[amount] (1 - [amount])"/>
+</feComponentTransfer>
+</filter>
+</syntaxhightlight>
+
+
+
+<syntaxhightlight lang="xml">
+<filter id="opacity">
+<feComponentTransfer>
+<feFuncA type="table" tableValues="0 [amount]"/>
+</feComponentTransfer>
+</filter>
+</syntaxhightlight>
+
+
+
+<syntaxhightlight lang="xml">
+<filter id="brightness">
+<feComponentTransfer>
+<feFuncR type="linear" slope="[amount]"/>
+<feFuncG type="linear" slope="[amount]"/>
+<feFuncB type="linear" slope="[amount]"/>
+</feComponentTransfer>
+</filter>
+</syntaxhightlight>
+
+
+
+<syntaxhightlight lang="xml">
+<filter id="contrast">
+<feComponentTransfer>
+<feFuncR type="linear" slope="[amount]" intercept="-(0.5 * [amount] + 0.5)"/>
+<feFuncG type="linear" slope="[amount]" intercept="-(0.5 * [amount] + 0.5)"/>
+<feFuncB type="linear" slope="[amount]" intercept="-(0.5 * [amount] + 0.5)"/>
+</feComponentTransfer>
+</filter>
+</syntaxhightlight>
+
+==Drop shadow (feOffset, feMerge, feComposite)==
+
+<syntaxhightlight lang="xml">
+<filter id="drop-shadow">
+<feGaussianBlur in="[alpha-channel-of-input]" stdDeviation="[radius]"/>
+<feOffset dx="[offset-x]" dy="[offset-y]" result="offsetblur"/>
+<feFlood flood-color="[color]"/>
+<feComposite in2="offsetblur" operator="in"/>
+<feMerge>
+<feMergeNode/>
+<feMergeNode in="[input-image]"/>
+</feMerge>
+</filter>
+</syntaxhightlight>
+
+==Applying turbulence (feTurbulence, feDisplacementMap, feComposite)==
+
+<syntaxhightlight lang="xml">
+<filter id="textFilter" >
+  <feTurbulence type="fractalNoise" baseFrequency="0.015" numOctaves="2" result="turbulence_3" data-filterId="3" />
+  <feDisplacementMap xChannelSelector="R" yChannelSelector="G" in="SourceGraphic" in2="turbulence_3" scale="45" />
+  <feGaussianBlur stdDeviation="10" />
+  <feSpecularLighting specularExponent="20" surfaceScale="5">
+    <feDistantLight elevation="28" azimuth="220" />
+  </feSpecularLighting>
+  <feComposite operator="in" in2="inputB" />
+  <feComposite operator="arithmetic" k2="1" k3="1" in2="inputB" />
+</filter>
+
+==Bevel effects (feSpecularLighting)==
+
+==(feDiffuseLighting, feDistantLight)==
+
+<syntaxhightlight lang="xml">
+<filter id="pictureFilter" >
+  <feColorMatrix type="luminanceToAlpha" />
+<feDiffuseLighting diffuseConstant="1" surfaceScale="10" result="diffuse3">
+<feDistantLight elevation="28" azimuth="45" /></feDiffuseLighting>
+<feComposite operator="in" in2="inputTo_3" />
+</filter>
+
 
 ___
 
 <!--
+
+!!!
+
+http://www.svgbasics.com/filters1.html
+
+http://docs.gimp.org/en/plug-in-convmatrix.html
 
 
 [[css/functions/blur|'''blur()''']],
@@ -100,25 +226,30 @@ SVG filters are collections of ''filter effects''
 
 ==Applying filters in SVG==
 
-* feImage: places an image
-* feBlend
-* feOffset
-* feTile
-* feFlood: applies fill color
-
 * feGaussianBlur: motion blur
 
-* feMorphology [http://www.cs.auckland.ac.nz/courses/compsci773s1c/lectures/ImageProcessing-html/topic4.htm]
-* feTurbulence
-* feDisplacementMap
-* feComposite
-* feColorMatrix
-* feConvolveMatrix
 * feComponentTransfer
     feFuncR
     feFuncG
     feFuncB
     feFuncA
+
+o feImage: places an image
+o feTile
+
+o feBlend
+
+* feOffset
+* feFlood: applies fill color
+
+o feMorphology [http://www.cs.auckland.ac.nz/courses/compsci773s1c/lectures/ImageProcessing-html/topic4.htm]
+
+* feTurbulence
+* feDisplacementMap
+* feComposite
+* feColorMatrix
+o feConvolveMatrix
+
 * feDiffuseLighting
     light source
 * feSpecularLighting
@@ -150,109 +281,15 @@ Filter Effects properties:
 
 37.1. grayscale
 
-<syntaxhightlight lang="xml">
-<filter id="grayscale">
-<feColorMatrix type="matrix"
-values="(0.2126 + 0.7874 * [1 - amount]) (0.7152 - 0.7152 * [1 - amount]) (0.0722 - 0.0722 * [1 - amount]) 0 0
-(0.2126 - 0.2126 * [1 - amount]) (0.7152 + 0.2848 * [1 - amount]) (0.0722 - 0.0722 * [1 - amount]) 0 0
-(0.2126 - 0.2126 * [1 - amount]) (0.7152 - 0.7152 * [1 - amount]) (0.0722 + 0.9278 * [1 - amount]) 0 0
-0 0 0 1 0"/>
-</filter>
-</syntaxhightlight>
 
 37.2. sepia
 
-<syntaxhightlight lang="xml">
-<filter id="sepia">
-<feColorMatrix type="matrix"
-values="(0.393 + 0.607 * [1 - amount]) (0.769 - 0.769 * [1 - amount]) (0.189 - 0.189 * [1 - amount]) 0 0
-(0.349 - 0.349 * [1 - amount]) (0.686 + 0.314 * [1 - amount]) (0.168 - 0.168 * [1 - amount]) 0 0
-(0.272 - 0.272 * [1 - amount]) (0.534 - 0.534 * [1 - amount]) (0.131 + 0.869 * [1 - amount]) 0 0
-0 0 0 1 0"/>
-</filter>
-</syntaxhightlight>
-
 37.3. saturate
-
-<syntaxhightlight lang="xml">
-<filter id="saturate">
-<feColorMatrix type="saturate"
-values="(1 - [amount])"/>
-</filter>
-</syntaxhightlight>
-
-37.4. hue-rotate
-
-<syntaxhightlight lang="xml">
-<filter id="hue-rotate">
-<feColorMatrix type="hueRotate"
-values="[angle]"/>
-</filter>
-</syntaxhightlight>
-
-37.5. invert
-
-<syntaxhightlight lang="xml">
-<filter id="invert">
-<feComponentTransfer>
-<feFuncR type="table" tableValues="[amount] (1 - [amount])"/>
-<feFuncG type="table" tableValues="[amount] (1 - [amount])"/>
-<feFuncB type="table" tableValues="[amount] (1 - [amount])"/>
-</feComponentTransfer>
-</filter>
-</syntaxhightlight>
-
-37.6. opacity
-
-<syntaxhightlight lang="xml">
-<filter id="opacity">
-<feComponentTransfer>
-<feFuncA type="table" tableValues="0 [amount]"/>
-</feComponentTransfer>
-</filter>
-</syntaxhightlight>
-
-37.7. brightness
-
-<syntaxhightlight lang="xml">
-<filter id="brightness">
-<feComponentTransfer>
-<feFuncR type="linear" slope="[amount]"/>
-<feFuncG type="linear" slope="[amount]"/>
-<feFuncB type="linear" slope="[amount]"/>
-</feComponentTransfer>
-</filter>
-</syntaxhightlight>
-
-37.8. contrast
-
-<syntaxhightlight lang="xml">
-<filter id="contrast">
-<feComponentTransfer>
-<feFuncR type="linear" slope="[amount]" intercept="-(0.5 * [amount] + 0.5)"/>
-<feFuncG type="linear" slope="[amount]" intercept="-(0.5 * [amount] + 0.5)"/>
-<feFuncB type="linear" slope="[amount]" intercept="-(0.5 * [amount] + 0.5)"/>
-</feComponentTransfer>
-</filter>
-</syntaxhightlight>
 
 37.9. blur
 
 
 37.10. drop-shadow
-
-<syntaxhightlight lang="xml">
-<filter id="drop-shadow">
-<feGaussianBlur in="[alpha-channel-of-input]" stdDeviation="[radius]"/>
-<feOffset dx="[offset-x]" dy="[offset-y]" result="offsetblur"/>
-<feFlood flood-color="[color]"/>
-<feComposite in2="offsetblur" operator="in"/>
-<feMerge>
-<feMergeNode/>
-<feMergeNode in="[input-image]"/>
-</feMerge>
-</filter>
-</syntaxhightlight>
 
 15 Filter Effects
 15.1 Introduction
