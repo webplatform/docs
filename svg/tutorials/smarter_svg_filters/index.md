@@ -186,7 +186,14 @@ simply reduces green and blue tones:
 
 <syntaxhighlight lang="xml">
 <filter id="sepia">
-  <feColorMatrix type="matrix" values=".343 .669 .119 0 0 .249 .626 .130 0 0 .172 .334 .111 0 0 .000 .000 .000 1 0" />
+  <feColorMatrix 
+    type="matrix" 
+    values="
+      .343 .669 .119 0 0 
+      .249 .626 .130 0 0
+      .172 .334 .111 0 0
+      .000 .000 .000 1 0
+      "/>
 </filter>
 </syntaxhighlight>
 
@@ -198,7 +205,14 @@ simply reduces green and blue tones:
 
 <syntaxhighlight lang="xml">
 <filter id="sunset">
-  <feColorMatrix type="matrix" values="1 0 0 0 0 0 0.2 0 0 0 0 0 0.2 0 0 0 0 0 1 0" />
+  <feColorMatrix 
+    type="matrix" 
+    values="
+      1.0 0   0   0   0
+      0   0.2 0   0   0 
+      0   0   0.2 0   0 
+      0   0   0   1.0 0
+  " />
 </filter>
 </syntaxhighlight>
 
