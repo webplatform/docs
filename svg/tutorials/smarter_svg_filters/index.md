@@ -5,7 +5,7 @@
 |Editorial notes=[new content edited offline by Sierra ([[User:Sierra|Sierra]] ([[User talk:Sierra|talk]])); please do not edit]
 }}
 {{Byline}}
-{{Summary_Section|This guide shows you how to build SVG image processing filters to create interesting visual effects. It shows how to apply these effects within an SVG graphic, and how to apply them to HTML content using the [[css/properties/filter|'''filter''']] CSS property. It shows how many pre-built CSS filter functions work, and provides some ideas for other effects you can build yourself in SVG.}}
+{{Summary_Section|This guide shows you how to build SVG image processing filters to create interesting visual effects. It shows how to apply these effects within an SVG graphic, and how to apply them to HTML content using the [[css/properties/filter|'''filter''']] CSS property.}}
 {{Tutorial
 |Content=
 
@@ -13,19 +13,20 @@
 
 A filter is a little machine that takes graphic input, changes it in
 some way, and causes the output to render differently. Filters contain
-one or more component ''filter effects'', some of which do intuitively
-obvious things (such as blur the image), and some of which only make
-sense when combined with other effects. (SVG filter effect elements
-are all prefixed ''fe''.)
+one or more component ''filter effect'' elements, some of which do
+intuitively obvious things (such as blur the image), and some of which
+only make sense when combined with other effects. (SVG filter effect
+elements are all prefixed ''fe''.)
 
 Filter effects are often chained together so that one effect's output
 becomes another effect's input. Filter effects may also operate on
 different inputs that are modified independently of each other, then
 combined.
 
-The idea of applying filters to web content originated in SVG, but has
-recently been extended to CSS, and it helps to clarify the word's
-different meanings.  CSS filters currently come in two flavors:
+While the idea of applying filters to web content originated in SVG,
+it has recently been extended to CSS, so it helps to clarify what
+''filter'' means in these different contexts.  CSS filters currently
+come in two flavors:
 
 * Built-in ''filter functions'' provide a series of fairly standard pre-built image processing effects, such as [[css/functions/blur|'''blur()''']] and [[css/functions/grayscale|'''grayscale()''']]. These CSS functions can be chained together to form larger effects, but each one can be represented as an SVG filter.
 
@@ -36,9 +37,11 @@ does show you how to customize your own SVG filters for use in HTML.
 
 ==Applying a simple filter (feGaussianBlur)==
 
+
+
 <syntaxhighlight lang="xml">
 <filter id="blur">
-<feGaussianBlur stdDeviation="10">
+  <feGaussianBlur stdDeviation="12 0">
 </filter>
 </syntaxhighlight>
 
@@ -48,6 +51,15 @@ does show you how to customize your own SVG filters for use in HTML.
     filter         : url(filters.svg#blur);
 }
 </syntaxhighlight>
+
+<syntaxhighlight lang="css">
+.sidewaysBlur {
+    -webkit-filter : url(filters.svg#blur);
+    filter         : url(filters.svg#blur);
+}
+</syntaxhighlight>
+
+<!--
 
 ==feColorMatrix==
 
@@ -142,7 +154,7 @@ does show you how to customize your own SVG filters for use in HTML.
 </filter>
 </syntaxhighlight>
 
-==Applying turbulence (feTurbulence, feDisplacementMap, feComposite)==
+==A warp effect (feTurbulence, feDisplacementMap, feComposite)==
 
 <syntaxhighlight lang="xml">
 <filter id="textFilter" >
@@ -173,7 +185,6 @@ does show you how to customize your own SVG filters for use in HTML.
 
 ___
 
-<!--
 
 !!!
 
