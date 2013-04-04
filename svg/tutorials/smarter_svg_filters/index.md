@@ -28,10 +28,10 @@ different meanings.  CSS filters currently come in two flavors:
 
 * Built-in ''filter functions'' provide a series of fairly standard pre-built image processing effects, such as [[css/functions/blur|'''blur()''']] and [[css/functions/grayscale|'''grayscale()''']]. These CSS functions can be chained together to form larger effects, but each one can be represented as an SVG filter.
 
-* In addition to standard two-dimensional image processing features, CSS ''custom filters'' allow you to warp the surface of an element in three dimensions.
+* In addition to standard two-dimensional image processing features, CSS ''custom filters'' allow you to warp the surface of an element in three dimensions. Custom filters are also known as ''shaders'', either ''vertex'' shaders to warp the surface, or ''fragment'' shaders to modify its pixels.
 
-This guide does not discuss custom filters, but does show you how to
-customize your own filters for use in HTML.
+This guide does not discuss these more recent CSS custom filters, but
+does show you how to customize your own SVG filters for use in HTML.
 
 ==Applying SVG filters within SVG==
 
