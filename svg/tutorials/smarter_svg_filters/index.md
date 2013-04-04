@@ -36,42 +36,42 @@ does show you how to customize your own SVG filters for use in HTML.
 
 ==Applying a simple filter (feGaussianBlur)==
 
-<syntaxhightlight lang="xml">
+<syntaxhighlight lang="xml">
 <filter id="blur">
 <feGaussianBlur stdDeviation="10">
 </filter>
-</syntaxhightlight>
+</syntaxhighlight>
 
-<syntaxhightlight lang="css">
+<syntaxhighlight lang="css">
 .sidewaysBlur {
     -webkit-filter : url(filters.svg#blur);
     filter         : url(filters.svg#blur);
 }
-</syntaxhightlight>
+</syntaxhighlight>
 
 ==feColorMatrix==
 
-<syntaxhightlight lang="xml">
+<syntaxhighlight lang="xml">
 <filter id="sepia" >
   <feColorMatrix type="matrix" values=".343 .669 .119 0 0 .249 .626 .130 0 0 .172 .334 .111 0 0 .000 .000 .000 1 0" />
 </filter>
-</syntaxhightlight>
+</syntaxhighlight>
 
-<syntaxhightlight lang="xml">
+<syntaxhighlight lang="xml">
 <filter id="saturate">
 <feColorMatrix type="saturate"
 values="(1 - [amount])"/>
 </filter>
-</syntaxhightlight>
+</syntaxhighlight>
 
-<syntaxhightlight lang="xml">
+<syntaxhighlight lang="xml">
 <filter id="hue-rotate">
 <feColorMatrix type="hueRotate"
 values="[angle]"/>
 </filter>
-</syntaxhightlight>
+</syntaxhighlight>
 
-<syntaxhightlight lang="xml">
+<syntaxhighlight lang="xml">
 <filter id="grayscale">
 <feColorMatrix type="matrix"
 values="(0.2126 + 0.7874 * [1 - amount]) (0.7152 - 0.7152 * [1 - amount]) (0.0722 - 0.0722 * [1 - amount]) 0 0
@@ -79,13 +79,13 @@ values="(0.2126 + 0.7874 * [1 - amount]) (0.7152 - 0.7152 * [1 - amount]) (0.072
 (0.2126 - 0.2126 * [1 - amount]) (0.7152 - 0.7152 * [1 - amount]) (0.0722 + 0.9278 * [1 - amount]) 0 0
 0 0 0 1 0"/>
 </filter>
-</syntaxhightlight>
+</syntaxhighlight>
 
 ==Modifying pixel components (feComponentTransfer)==
 
 
 
-<syntaxhightlight lang="xml">
+<syntaxhighlight lang="xml">
 <filter id="invert">
 <feComponentTransfer>
 <feFuncR type="table" tableValues="[amount] (1 - [amount])"/>
@@ -93,21 +93,21 @@ values="(0.2126 + 0.7874 * [1 - amount]) (0.7152 - 0.7152 * [1 - amount]) (0.072
 <feFuncB type="table" tableValues="[amount] (1 - [amount])"/>
 </feComponentTransfer>
 </filter>
-</syntaxhightlight>
+</syntaxhighlight>
 
 
 
-<syntaxhightlight lang="xml">
+<syntaxhighlight lang="xml">
 <filter id="opacity">
 <feComponentTransfer>
 <feFuncA type="table" tableValues="0 [amount]"/>
 </feComponentTransfer>
 </filter>
-</syntaxhightlight>
+</syntaxhighlight>
 
 
 
-<syntaxhightlight lang="xml">
+<syntaxhighlight lang="xml">
 <filter id="brightness">
 <feComponentTransfer>
 <feFuncR type="linear" slope="[amount]"/>
@@ -115,11 +115,11 @@ values="(0.2126 + 0.7874 * [1 - amount]) (0.7152 - 0.7152 * [1 - amount]) (0.072
 <feFuncB type="linear" slope="[amount]"/>
 </feComponentTransfer>
 </filter>
-</syntaxhightlight>
+</syntaxhighlight>
 
 
 
-<syntaxhightlight lang="xml">
+<syntaxhighlight lang="xml">
 <filter id="contrast">
 <feComponentTransfer>
 <feFuncR type="linear" slope="[amount]" intercept="-(0.5 * [amount] + 0.5)"/>
@@ -127,11 +127,11 @@ values="(0.2126 + 0.7874 * [1 - amount]) (0.7152 - 0.7152 * [1 - amount]) (0.072
 <feFuncB type="linear" slope="[amount]" intercept="-(0.5 * [amount] + 0.5)"/>
 </feComponentTransfer>
 </filter>
-</syntaxhightlight>
+</syntaxhighlight>
 
 ==Drop shadow (feOffset, feMerge, feComposite)==
 
-<syntaxhightlight lang="xml">
+<syntaxhighlight lang="xml">
 <filter id="drop-shadow">
 <feGaussianBlur in="[alpha-channel-of-input]" stdDeviation="[radius]"/>
 <feOffset dx="[offset-x]" dy="[offset-y]" result="offsetblur"/>
@@ -142,11 +142,11 @@ values="(0.2126 + 0.7874 * [1 - amount]) (0.7152 - 0.7152 * [1 - amount]) (0.072
 <feMergeNode in="[input-image]"/>
 </feMerge>
 </filter>
-</syntaxhightlight>
+</syntaxhighlight>
 
 ==Applying turbulence (feTurbulence, feDisplacementMap, feComposite)==
 
-<syntaxhightlight lang="xml">
+<syntaxhighlight lang="xml">
 <filter id="textFilter" >
   <feTurbulence type="fractalNoise" baseFrequency="0.015" numOctaves="2" result="turbulence_3" data-filterId="3" />
   <feDisplacementMap xChannelSelector="R" yChannelSelector="G" in="SourceGraphic" in2="turbulence_3" scale="45" />
@@ -157,18 +157,20 @@ values="(0.2126 + 0.7874 * [1 - amount]) (0.7152 - 0.7152 * [1 - amount]) (0.072
   <feComposite operator="in" in2="inputB" />
   <feComposite operator="arithmetic" k2="1" k3="1" in2="inputB" />
 </filter>
+</syntaxhighlight>
 
 ==Bevel effects (feSpecularLighting)==
 
 ==(feDiffuseLighting, feDistantLight)==
 
-<syntaxhightlight lang="xml">
+<syntaxhighlight lang="xml">
 <filter id="pictureFilter" >
   <feColorMatrix type="luminanceToAlpha" />
 <feDiffuseLighting diffuseConstant="1" surfaceScale="10" result="diffuse3">
 <feDistantLight elevation="28" azimuth="45" /></feDiffuseLighting>
 <feComposite operator="in" in2="inputTo_3" />
 </filter>
+</syntaxhighlight>
 
 
 ___
