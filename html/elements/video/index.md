@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
 |Content=Incomplete
+|Checked_Out=No
 |Editorial notes=Needs information on codec support.
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -15,6 +16,47 @@
 |Language=HTML
 |Description=Desired video file should be within src attribute
 |Code=<video src="bee.webm"></video>
+}}{{Single Example
+|Language=HTML
+|Description=HTML5 Video Tag can support different encodings
+|Code=<video>
+            <source src="video.mp4" type="video/mp4" />
+            <source src="video.webm" type="video/webm" />
+            <source src="video.ogg" type="video/ogg" />
+            Your browser does not support the <code>video</code> element. 
+            You can download it <a href="video.webm">here</a>.
+</video>
+
+|LiveURL=http://code.webplatform.org/gist/5314736
+}}{{Single Example
+|Language=Other
+|Description=Apache Server - http.conf
+|Code=AddType video/ogg .ogv
+AddType video/mp4 .mp4
+AddType video/webm .webm
+}}{{Single Example
+|Language=Other
+|Description=IIS Server - configuration file
+|Code=<configuration>
+  <system.webServer>
+    <staticContent>
+      <!-- Video -->
+      <mimeMap fileExtension=".mp4" mimeType="video/mp4"/>
+      <mimeMap fileExtension=".webm" mimeType="video/webm"/>
+    </staticContent>
+  </system.webServer>
+    <system.web>
+        <compilation debug="true" targetFramework="4.0" />
+    </system.web>
+
+</configuration>
+}}{{Single Example
+|Language=Other
+|Description=Google App Engine
+|Code=- url: /(.*\.ogv)
+  static_files: videos_folder/
+  mime_type: video/ogg
+  upload: videos_folder/(.*\.ogv)
 }}
 }}
 {{Notes_Section
