@@ -14,7 +14,7 @@
 
 ==The Fun Part==
 
-As we said in the introduction, the main advantage of the video tag being a member of the HTML5 family is its integration with the other layers of web development stack. In the following examples we'll give you an overview of what's possible to do with it.
+The main advantage of the video tag being a member of the HTML5 family is its integration with the other layers of web development stack. In the following examples we'll give you an overview of what's possible to do with it.
 
 ===Video + other HTML===
 
