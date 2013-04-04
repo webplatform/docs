@@ -104,6 +104,14 @@ using the same [[css/functions/url|'''url()''']] function:
 
 ==Modifying colors (feColorMatrix)==
 
+[[svg/element/feColorMatrix|'''feColorMatrix''']] element provides
+several useful ways to modify an image's color. With its
+[[svg/attribute/type|'''type''']] set to '''saturate''', reducing the
+[[svg/attribute/values|'''values''']] from 1 produces a grayscale,
+while increasing it makes the image more vivid, just like the
+[[css/functions/saturate|'''saturate()''']] and
+[[css/functions/grayscale|'''grayscale()''']] CSS functions:
+
 <div style="display:inline-block">
 
 <syntaxhighlight lang="xml">
@@ -128,7 +136,12 @@ using the same [[css/functions/url|'''url()''']] function:
 
 </div>
 
-___
+Setting the [[svg/attribute/type|'''type''']] to '''hueRotate'''
+alters the angle along the color wheel, just like the
+[[css/functions/hue-rotate|'''hue-rotate()''']] CSS function.  Setting
+'''luminanceToAlpha''' (no '''values''' necessary) produces an alpha
+channel from bright pixels, useful in producing image masks and other
+effects described below.
 
 <div style="display:inline-block">
 
@@ -151,6 +164,45 @@ ___
 </syntaxhighlight>
 
 [[Image:svgf_CMXluminanceToAlpha.png|400px]]
+
+</div>
+
+As the name of the [[svg/element/feColorMatrix|'''feColorMatrix''']]
+suggests, setting the [[svg/attribute/type|'''type''']] to
+'''matrix''' allows you to transform colors yourself. It specifies a
+20-element transform whose rows correspond to red, green, blue, and
+alpha channels. This transform leaves the image unchanged:
+
+ 1 0 0 0 0
+ 0 1 0 0 0
+ 0 0 1 0 0
+ 0 0 0 1 0  
+
+The first example below reproduces the effect of the CSS
+[[css/functions/sepia|'''sepia()''']] function, while the second
+simply reduces green and blue tones:
+
+<div style="display:inline-block">
+
+<syntaxhighlight lang="xml">
+<filter id="sepia">
+  <feColorMatrix type="matrix" values=".343 .669 .119 0 0 .249 .626 .130 0 0 .172 .334 .111 0 0 .000 .000 .000 1 0" />
+</filter>
+</syntaxhighlight>
+
+[[Image:svgf_CMXsepia.png|400px]]
+
+</div>
+
+<div style="display:inline-block">
+
+<syntaxhighlight lang="xml">
+<filter id="sunset">
+  <feColorMatrix type="matrix" values="1 0 0 0 0 0 0.2 0 0 0 0 0 0.2 0 0 0 0 0 1 0" />
+</filter>
+</syntaxhighlight>
+
+[[Image:svgf_CMXsunset.png|400px]]
 
 </div>
 
@@ -373,19 +425,6 @@ Filter Effects properties:
 * [[svg/properties/flood-color|'''flood-color''']]
 * [[svg/properties/flood-opacity|'''flood-opacity''']]
 * [[svg/properties/lighting-color|'''lighting-color''']]
-
-
-
-
-37.1. grayscale
-
-
-37.2. sepia
-
-37.3. saturate
-
-37.9. blur
-
 
 37.10. drop-shadow
 
