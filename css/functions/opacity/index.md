@@ -1,5 +1,7 @@
 {{Page_Title|opacity()}}
-{{Flags}}
+{{Flags
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Applies a transparency effect to an element's
@@ -95,7 +97,19 @@ In the second, the drop-shadow is applied first, so the opacity also applies to 
 |LiveURL=http://codepen.io/pverbeek/pen/KzEHw
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Notes=The CSS filter corresponds to this SVG filter definition, based on a
+variable ''amount'' passed to the function:
+
+<syntaxhighlight lang="xml">
+<filter id="opacity">
+  <feComponentTransfer>
+    <feFuncA type="table" tableValues="0 [amount]"/>
+  </feComponentTransfer>
+</filter>
+</syntaxhighlight>
+
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=Filter Effects 1.0
