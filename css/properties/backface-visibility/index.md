@@ -4,38 +4,40 @@
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 |Checked_Out=Yes
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|This property determines whether or not the back face of the element is visible when facing the user}}
+{{Summary_Section|This property property determines whether or not the "back" side of a transformed element is visible when facing the viewer.}}
 {{CSS Property
 |Initial value=visible
-|Applies to=block-level and inline-level elements
+|Applies to=transformable elements
 |Inherited=No
 |Media=visual
-|Animatable=No
+|Computed value=Same as specified value.
+|Animatable=Yes
+|CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=visible
-|Description=The back face is visible. The back face of an element is always a transparent background, when visible, a mirror image of the front face is displayed
+|Description=The back face of an element always is a transparent background, letting, when visible, a mirror image of the front face be displayed.
 }}{{CSS Property Value
 |Data Type=hidden
-|Description=The back face is not visible.
+|Description=There are cases when we do not want the front face of an element to be visible through the back face, like when doing a flipping card effect (setting two elements side-to-side). In this case, the property should be set to hidden to make the back face of the element opaque.
 }}
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|Code=backface-visibility: visible;
+|LiveURL=http://code.webplatform.org/gist/5306741
+}}{{Single Example
+|Language=CSS
+|Code=backface-visibility: hidden;
+|LiveURL=http://code.webplatform.org/gist/5306757
 }}
-{{Notes_Section
-|Notes====Remarks===
-The version of this property using a vendor prefix, '''-ms-backface-visibility''', has been deprecated. To ensure compatibility in the future, applications using this property with a vendor prefix should be updated accordingly.
-This property is applied to objects that have a [[css/transforms/transform|'''transform''']] (such as a rotation about the ''x'' or ''y''-axis) specified.
-|Import_Notes====Syntax===
-<code>'''backface-visibility: '''visible '''{{!}}''' hidden</code>
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?LinkID{{=}}223145 CSS Transforms Module, Level 3], Section 12
 }}
+{{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -96,7 +98,7 @@ This property is applied to objects that have a [[css/transforms/transform|'''tr
 |Safari_mobile_prefixed_supported=Yes
 |Safari_mobile_prefixed_version=4.0
 }}
-|Notes_rows=
+|Notes_rows={{Compatibility Notes Row}}
 }}
 {{See_Also_Section
 |Topic_clusters=Transforms
