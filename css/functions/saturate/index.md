@@ -1,5 +1,7 @@
 {{Page_Title|saturate()}}
-{{Flags}}
+{{Flags
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Applies a saturation effect to an element's color,
@@ -45,7 +47,18 @@ amount produces more dramatically stratified hues.
 |LiveURL=http://codepen.io/pverbeek/pen/xCfbu
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Notes=The CSS filter corresponds to this SVG filter definition, based on a
+variable ''amount'' passed to the function:
+
+<syntaxhighlight lang="xml">
+<filter id="saturate">
+  <feColorMatrix type="saturate" values="(1 - [amount])"/>
+</filter>
+</syntaxhighlight>
+
+
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=Filter Effects 1.0
