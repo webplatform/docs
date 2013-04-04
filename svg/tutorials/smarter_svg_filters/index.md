@@ -5,26 +5,43 @@
 |Editorial notes=[new content edited offline by Sierra ([[User:Sierra|Sierra]] ([[User talk:Sierra|talk]])); please do not edit]
 }}
 {{Byline}}
-{{Summary_Section|This guide shows you how to build SVG image processing filters to create interesting visual effects. It shows how to apply these effects within an SVG graphic, and how to apply them to HTML content using the [[css/properties/filter|'''filter''']] CSS property.}}
+{{Summary_Section|This guide shows you how to build SVG image processing filters to create interesting visual effects. It shows how to apply these effects within an SVG graphic, and how to apply them to HTML content using the [[css/properties/filter|'''filter''']] CSS property. It shows how many pre-built CSS filter functions work, and provides some ideas for other effects you can build yourself in SVG.}}
 {{Tutorial
 |Content=
 
 ==What are filters?==
 
-...
+A filter is a little machine that takes graphic input, changes it in
+some way, and causes the output to render differently. Filters contain
+one or more component ''filter effects'', some of which do intuitively
+obvious things (such as blur the image), and some of which only make
+sense when combined with other effects.
+
+Filter effects are often chained together so that one effect's output
+becomes another effect's input. Filter effects may also operate on
+different inputs that are modified independently of each other, then
+combined.
+
+The idea of applying filters to web content originated in SVG, but has
+recently been extended to CSS, and it helps to clarify the word's
+different meanings.  CSS filters currently come in two flavors:
+
+* Built-in ''filter functions'' provide a series of fairly standard pre-built image processing effects, such as [[css/functions/blur|'''blur()''']] and [[css/functions/grayscale|'''grayscale()''']]. These CSS functions can be chained together to form larger effects, but each one can be represented as an SVG filter.
+
+* In addition to standard two-dimensional image processing features, CSS ''custom filters'' allow you to warp the surface of an element in three dimensions.
+
+This guide does not discuss custom filters, but does show you how to
+customize your own filters for use in HTML.
+
+==Applying SVG filters within SVG==
+
+==Applying SVG filters to HTML==
+
+___
 
 <!--
 
-The idea of applying filters to web content originated in SVG, but has
-recently been extended to CSS, and it helps to clarify recent developments.
 
-SVG filters collect sequences of image processing ''effects'', some of
-which perform low-level operations that are useful only when combined
-with other effects.
-
-CSS filters currently come in two flavors. Built-in ''filter
-functions'' provide a series of fairly standard pre-built visual
-effects:
 [[css/functions/blur|'''blur()''']],
 [[css/functions/brightness|'''brightness()''']],
 [[css/functions/contrast|'''contrast()''']],
