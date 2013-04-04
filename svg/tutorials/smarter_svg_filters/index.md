@@ -104,7 +104,7 @@ using the same [[css/functions/url|'''url()''']] function:
 
 ==Modifying colors (feColorMatrix)==
 
-[[svg/element/feColorMatrix|'''feColorMatrix''']] element provides
+The [[svg/element/feColorMatrix|'''feColorMatrix''']] element provides
 several useful ways to modify an image's color. With its
 [[svg/attribute/type|'''type''']] set to '''saturate''', reducing the
 [[svg/attribute/values|'''values''']] from 1 produces a grayscale,
@@ -173,10 +173,12 @@ suggests, setting the [[svg/attribute/type|'''type''']] to
 20-element transform whose rows correspond to red, green, blue, and
 alpha channels. This transform leaves the image unchanged:
 
+<div style="display:inline-block">
  1 0 0 0 0
  0 1 0 0 0
  0 0 1 0 0
  0 0 0 1 0  
+</div>
 
 The first example below reproduces the effect of the CSS
 [[css/functions/sepia|'''sepia()''']] function, while the second
@@ -204,7 +206,7 @@ simply reduces green and blue tones:
 <div style="display:inline-block">
 
 <syntaxhighlight lang="xml">
-<filter id="sunset">
+<filter id="dusk">
   <feColorMatrix 
     type="matrix" 
     values="
@@ -212,7 +214,7 @@ simply reduces green and blue tones:
       0   0.2 0   0   0 
       0   0   0.2 0   0 
       0   0   0   1.0 0
-  " />
+     "/>
 </filter>
 </syntaxhighlight>
 
