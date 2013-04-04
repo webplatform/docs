@@ -112,7 +112,9 @@ using the same [[css/functions/url|'''url()''']] function:
 </filter>
 </syntaxhighlight>
 
-<div>
+[[Image:svgf_CMXsaturate10.png]]
+
+</div>
 
 <div style="display:inline-block">
 
@@ -121,6 +123,8 @@ using the same [[css/functions/url|'''url()''']] function:
   <feColorMatrix type="saturate" values="0"/>
 </filter>
 </syntaxhighlight>
+
+[[Image:svgf_CMXsaturate0.png]]
 
 </div>
 
@@ -134,15 +138,19 @@ ___
 </filter>
 </syntaxhighlight>
 
+[[Image:svgf_CMXhurRotate180.png]]
+
 </div>
 
 <div style="display:inline-block">
 
-><syntaxhighlight lang="xml">
+<syntaxhighlight lang="xml">
 <filter id="hue-rotate">
   <feColorMatrix type="luminanceToAlpha"/>
 </filter>
 </syntaxhighlight>
+
+[[Image:svgf_CMXluminanceToAlpha.png]]
 
 </div>
 
