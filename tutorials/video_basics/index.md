@@ -1,13 +1,8 @@
 {{Page_Title|HTML5 Video Basics}}
 {{Flags
 |High-level issues=Needs Review
-|Content=Grammar/Spelling
 |Checked_Out=No
-|Editorial notes=I've done editing work. Please review for content and grammar/spelling. 
-
-I'm particularly interested in finding out if the type attribute of source must include the code as this may be too hard for a beginner's tutorial
-
-
+|Editorial notes=I'm particularly interested in finding out if the type attribute of source must include the code as this may be too hard for a beginner's tutorial
 }}
 {{Byline
 |Name=Ernest Delgado
@@ -61,7 +56,7 @@ If your app is being served in a Google App Engine app then you would need to ad
 
 In order to improve the client side performance it's important to remember to specify the <code>type</code> attribute in the <code>source</code> tags when dealing with multiple formats. This way, the browser can decide which format it can download and play. In other words, it won't download the ones it can't play, in order to increase the performance of the site.
 
-==2. Video Formats==
+==Video Formats==
 
 Think of a <span style="color:green">video format</span> as a zip file that contains the encoded <span style="color:blue">video stream</span> and an <span style="color:red">audio stream</span>. The three formats you should care about for the web are mp4, ogv, and webm:
 
@@ -102,7 +97,7 @@ Another issue with the .mp4 format is that the <code>type</code> attribute needs
 
 Even though Microsoft announced the support of the video tag, as well as other HTML5 elements, its user migration rate to newer versions is typically slower than the other major browsers. Hence the following section:
 
-==3. What happens with IE versions that don't support the video tag?==
+==What happens with IE versions that don't support the video tag?==
 
 There are two plugins that can be used as possible solutions:
 
