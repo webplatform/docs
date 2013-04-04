@@ -16,7 +16,7 @@ Yep! No Flash. The video formats is made up by a <code>video stream</code> + <co
 .ogg = Theora + Vorbis
 .webm = VP8 + Vorbis
 
-All modern browsers support the <code><video></code> tag, but not all support all 3 encodings. The <a href="http://www.webmproject.org/">WebM</a> project is one open-source effort that Chrome and Firefox supports. 
+All modern browsers support the <code><video></code> tag, but not all support all 3 encodings. The WebM project is one open-source effort that Chrome and Firefox supports. 
 
 == Server MIME Types ==
 
