@@ -182,7 +182,8 @@ alpha channels. This transform leaves the image unchanged:
 
 The first example below reproduces the effect of the CSS
 [[css/functions/sepia|'''sepia()''']] function, while the second
-simply reduces green and blue tones:
+simply reduces green and blue tones. (The
+[[svg/attribute/values|'''values''']] are stacked here only in the 
 
 <div style="display:inline-block">
 
@@ -190,12 +191,10 @@ simply reduces green and blue tones:
 <filter id="sepia">
   <feColorMatrix 
     type="matrix" 
-    values="
-      .343 .669 .119 0 0 
-      .249 .626 .130 0 0
-      .172 .334 .111 0 0
-      .000 .000 .000 1 0
-      "/>
+    values=".343 .669 .119 0 0 
+            .249 .626 .130 0 0
+            .172 .334 .111 0 0
+            .000 .000 .000 1 0 "/>
 </filter>
 </syntaxhighlight>
 
@@ -209,12 +208,10 @@ simply reduces green and blue tones:
 <filter id="dusk">
   <feColorMatrix 
     type="matrix" 
-    values="
-      1.0 0   0   0   0
-      0   0.2 0   0   0 
-      0   0   0.2 0   0 
-      0   0   0   1.0 0
-     "/>
+    values="1.0 0   0   0   0
+            0   0.2 0   0   0 
+            0   0   0.2 0   0 
+            0   0   0   1.0 0 "/>
 </filter>
 </syntaxhighlight>
 
