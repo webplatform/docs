@@ -112,7 +112,7 @@ using the same [[css/functions/url|'''url()''']] function:
 </filter>
 </syntaxhighlight>
 
-[[Image:svgf_CMXsaturate10.png|200px]]
+[[Image:svgf_CMXsaturate10.png|400px]]
 
 </div>
 
@@ -124,7 +124,7 @@ using the same [[css/functions/url|'''url()''']] function:
 </filter>
 </syntaxhighlight>
 
-[[Image:svgf_CMXsaturate0.png|200px]]
+[[Image:svgf_CMXsaturate0.png|400px]]
 
 </div>
 
@@ -138,7 +138,7 @@ ___
 </filter>
 </syntaxhighlight>
 
-[[Image:svgf_CMXhurRotate180.png|200px]]
+[[Image:svgf_CMXhurRotate180.png|400px]]
 
 </div>
 
@@ -150,7 +150,7 @@ ___
 </filter>
 </syntaxhighlight>
 
-[[Image:svgf_CMXluminanceToAlpha.png|200px]]
+[[Image:svgf_CMXluminanceToAlpha.png|400px]]
 
 </div>
 
