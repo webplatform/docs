@@ -1,5 +1,7 @@
 {{Page_Title|invert()}}
-{{Flags}}
+{{Flags
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Flips an element's colors, for use by the
@@ -44,7 +46,23 @@ color-negative effect, with 0.5 or 50% producing gray.
 |LiveURL=http://codepen.io/pverbeek/pen/Dlpta
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Notes=37.5. invert
+
+The CSS filter corresponds to this SVG filter definition, based on a
+variable ''amount'' passed to the function:
+
+<syntaxhighlight lang="xml">
+<filter id="invert">
+  <feComponentTransfer>
+    <feFuncR type="table" tableValues="[amount] (1 - [amount])"/>
+    <feFuncG type="table" tableValues="[amount] (1 - [amount])"/>
+    <feFuncB type="table" tableValues="[amount] (1 - [amount])"/>
+  </feComponentTransfer>
+</filter>
+</syntaxhighlight>
+
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=Filter Effects 1.0
