@@ -4,11 +4,11 @@
 |Checked_Out=No
 }}
 {{Byline
-|Name=carlos.araya@gmail.com
+|Name=Carlos Araya
 |URL=http://carlos.rivendellweb.net/
 |Published=April 4, 2013
 }}
-{{Summary_Section|How does HTML5 Video interact with other web standards and technologies}}
+{{Summary_Section|Overview about HTML5 Video interaction with other web standards and technologies}}
 {{Tutorial
 |Content==Video and Other Standards
 
@@ -128,7 +128,6 @@ SVG provides a programmatic way to render and manipulate vector graphics, but it
 </pre>
 
 One more example can be found in [http://www.html5rocks.com/en/tutorials/video/basics/ the HTML5Rocks! article]. Click the video to toggle the blur filter.
-
 }}
 {{Notes_Section}}
 {{Compatibility_Section
