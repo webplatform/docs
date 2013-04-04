@@ -1,5 +1,7 @@
 {{Page_Title|drop-shadow()}}
-{{Flags}}
+{{Flags
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Applies a shadow to an element's pixels, for use by
@@ -96,7 +98,24 @@ allows for more vivid shadow effects:
 |LiveURL=http://codepen.io/pverbeek/pen/BlFef
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Notes=The CSS filter corresponds to this SVG filter definition, based on
+variable ''offset-x'', ''offset-y'', blur ''radius'', and ''color'' values passed to the function:
+
+<syntaxhighlight lang="xml">
+<filter id="drop-shadow">
+  <feGaussianBlur in="[alpha-channel-of-input]" stdDeviation="[radius]"/>
+  <feOffset dx="[offset-x]" dy="[offset-y]" result="offsetblur"/>
+  <feFlood flood-color="[color]"/>
+  <feComposite in2="offsetblur" operator="in"/>
+  <feMerge>
+    <feMergeNode/>
+    <feMergeNode in="[input-image]"/>
+  </feMerge>
+</filter>
+</syntaxhighlight>
+
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=Filter Effects 1.0
