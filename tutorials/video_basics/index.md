@@ -2,7 +2,7 @@
 {{Flags
 |High-level issues=Needs Review
 |Checked_Out=No
-|Editorial notes=I'm particularly interested in finding out if the type attribute of source must include the code as this may be too hard for a beginner's tutorial
+|Editorial notes=I'm particularly interested in finding out if the type attribute of source must include the code as this may be too hard for a beginner's tutorial (assuming this is a beginner's tutorial)
 }}
 {{Byline
 |Name=Ernest Delgado
@@ -11,7 +11,6 @@
 }}
 {{Summary_Section|An introduction to the HTML5 video tag.}}
 {{Tutorial
-|Next_page=Video Accessibility
 |Content===Introduction==
 
 The video tag is one of those HTML5 features that gets a lot of attention. Often presented in the media as an alternative to Flash, the video tag actually goes beyond that. Although it's recently joined the rest of the ubiquitous HTML tags, its capabilities and support across browsers have increased at an amazing speed. As you will see in this tutorial, its main advantage is the natural integration with the other layers of the web development stack such as CSS and JavaScript, as well as with the other HTML tags.
