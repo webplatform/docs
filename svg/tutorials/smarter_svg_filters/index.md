@@ -5,9 +5,65 @@
 |Editorial notes=[new content edited offline by Sierra ([[User:Sierra|Sierra]] ([[User talk:Sierra|talk]])); please do not edit]
 }}
 {{Byline}}
-{{Summary_Section|This guide shows you how to build SVG image processing filters to create interesting visual effects. It shows how to apply these effects within an SVG graphic, or how to apply it to non-SVG content using the [[css/properties/filter|'''filter''']] CSS property.}}
+{{Summary_Section|This guide shows you how to build SVG image processing filters to create interesting visual effects. It shows how to apply these effects within an SVG graphic, and how to apply them to HTML content using the [[css/properties/filter|'''filter''']] CSS property.}}
 {{Tutorial
-|Content===Applying filters in SVG==
+|Content=
+
+<!--
+
+The idea of applying filters to web content originated in SVG, but has
+recently been extended to CSS, and it helps to clarify recent developments.
+
+SVG filters collect sequences of image processing ''effects'', some of
+which perform low-level operations that are useful only when combined
+with other effects.
+
+CSS filters currently come in two flavors. Built-in ''filter
+functions'' provide a series of fairly standard pre-built visual
+effects:
+[[css/functions/blur|'''blur()''']],
+[[css/functions/brightness|'''brightness()''']],
+[[css/functions/contrast|'''contrast()''']],
+[[css/functions/drop-shadow|'''drop-shadow()''']],
+[[css/functions/grayscale|'''grayscale()''']],
+[[css/functions/hue-rotate|'''hue-rotate()''']],
+[[css/functions/invert|'''invert()''']],
+[[css/functions/opacity|'''opacity()''']],
+[[css/functions/saturate|'''saturate()''']], and
+[[css/functions/sepia|'''sepia()''']].  All of these CSS effects can
+be defined as SVG filters.
+
+CSS
+
+SVG filters
+
+CSS filters
+
+it may help to distinguish ''SVG filters'' from more recent ''CSS
+filters''.
+
+Before focusing on SVG filters, it may help to understand how they compare to
+
+Several kinds of ''filter'' are now available:
+
+* SVG
+
+Applying a filter to a graphic element changes how it renders. Filters
+typically
+
+The word ''filter'' has come to
+
+
+You can use filters to blur images,
+
+
+Filters
+
+SVG filters are collections of ''filter effects''
+
+==Applying SVG filters in HTML==
+
+==Applying filters in SVG==
 
 * feImage: places an image
 * feBlend
@@ -54,7 +110,120 @@ Filter Effects properties:
 * [[svg/properties/flood-opacity|'''flood-opacity''']]
 * [[svg/properties/lighting-color|'''lighting-color''']]
 
-<!--
+
+
+
+37.1. grayscale
+
+<syntaxhightlight lang="xml">
+<filter id="grayscale">
+<feColorMatrix type="matrix"
+values="(0.2126 + 0.7874 * [1 - amount]) (0.7152 - 0.7152 * [1 - amount]) (0.0722 - 0.0722 * [1 - amount]) 0 0
+(0.2126 - 0.2126 * [1 - amount]) (0.7152 + 0.2848 * [1 - amount]) (0.0722 - 0.0722 * [1 - amount]) 0 0
+(0.2126 - 0.2126 * [1 - amount]) (0.7152 - 0.7152 * [1 - amount]) (0.0722 + 0.9278 * [1 - amount]) 0 0
+0 0 0 1 0"/>
+</filter>
+</syntaxhightlight>
+
+37.2. sepia
+
+<syntaxhightlight lang="xml">
+<filter id="sepia">
+<feColorMatrix type="matrix"
+values="(0.393 + 0.607 * [1 - amount]) (0.769 - 0.769 * [1 - amount]) (0.189 - 0.189 * [1 - amount]) 0 0
+(0.349 - 0.349 * [1 - amount]) (0.686 + 0.314 * [1 - amount]) (0.168 - 0.168 * [1 - amount]) 0 0
+(0.272 - 0.272 * [1 - amount]) (0.534 - 0.534 * [1 - amount]) (0.131 + 0.869 * [1 - amount]) 0 0
+0 0 0 1 0"/>
+</filter>
+</syntaxhightlight>
+
+37.3. saturate
+
+<syntaxhightlight lang="xml">
+<filter id="saturate">
+<feColorMatrix type="saturate"
+values="(1 - [amount])"/>
+</filter>
+</syntaxhightlight>
+
+37.4. hue-rotate
+
+<syntaxhightlight lang="xml">
+<filter id="hue-rotate">
+<feColorMatrix type="hueRotate"
+values="[angle]"/>
+</filter>
+</syntaxhightlight>
+
+37.5. invert
+
+<syntaxhightlight lang="xml">
+<filter id="invert">
+<feComponentTransfer>
+<feFuncR type="table" tableValues="[amount] (1 - [amount])"/>
+<feFuncG type="table" tableValues="[amount] (1 - [amount])"/>
+<feFuncB type="table" tableValues="[amount] (1 - [amount])"/>
+</feComponentTransfer>
+</filter>
+</syntaxhightlight>
+
+37.6. opacity
+
+<syntaxhightlight lang="xml">
+<filter id="opacity">
+<feComponentTransfer>
+<feFuncA type="table" tableValues="0 [amount]"/>
+</feComponentTransfer>
+</filter>
+</syntaxhightlight>
+
+37.7. brightness
+
+<syntaxhightlight lang="xml">
+<filter id="brightness">
+<feComponentTransfer>
+<feFuncR type="linear" slope="[amount]"/>
+<feFuncG type="linear" slope="[amount]"/>
+<feFuncB type="linear" slope="[amount]"/>
+</feComponentTransfer>
+</filter>
+</syntaxhightlight>
+
+37.8. contrast
+
+<syntaxhightlight lang="xml">
+<filter id="contrast">
+<feComponentTransfer>
+<feFuncR type="linear" slope="[amount]" intercept="-(0.5 * [amount] + 0.5)"/>
+<feFuncG type="linear" slope="[amount]" intercept="-(0.5 * [amount] + 0.5)"/>
+<feFuncB type="linear" slope="[amount]" intercept="-(0.5 * [amount] + 0.5)"/>
+</feComponentTransfer>
+</filter>
+</syntaxhightlight>
+
+37.9. blur
+
+<syntaxhightlight lang="xml">
+<filter id="blur">
+<feGaussianBlur stdDeviation="[radius radius]">
+</filter>
+</syntaxhightlight>
+
+37.10. drop-shadow
+
+<syntaxhightlight lang="xml">
+<filter id="drop-shadow">
+<feGaussianBlur in="[alpha-channel-of-input]" stdDeviation="[radius]"/>
+<feOffset dx="[offset-x]" dy="[offset-y]" result="offsetblur"/>
+<feFlood flood-color="[color]"/>
+<feComposite in2="offsetblur" operator="in"/>
+<feMerge>
+<feMergeNode/>
+<feMergeNode in="[input-image]"/>
+</feMerge>
+</filter>
+</syntaxhightlight>
+
 15 Filter Effects
 15.1 Introduction
 15.2 An example
@@ -89,6 +258,7 @@ Filter Effects properties:
 15.23 Filter primitive 'feTile'
 15.24 Filter primitive 'feTurbulence'
 -->
+
 }}
 {{Notes_Section}}
 {{Compatibility_Section
