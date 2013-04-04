@@ -46,7 +46,7 @@ the gray effect.
 }}
 }}
 {{Notes_Section
-|Notes=The CSS filter corresponds to this SVG filter definition, based on a variable ''amount' passed to the function':
+|Notes=The CSS filter corresponds to this SVG filter definition, based on a variable ''amount'' passed to the function:
 
 <syntaxhighlight lang="xml">
  <filter id="grayscale">
