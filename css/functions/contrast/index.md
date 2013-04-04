@@ -1,5 +1,7 @@
 {{Page_Title|contrast()}}
-{{Flags}}
+{{Flags
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Adjusts the difference between light and dark
@@ -50,7 +52,21 @@ produces more dramatically stratified areas of light and dark.
 |LiveURL=http://codepen.io/pverbeek/pen/xzBlg
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Notes=The CSS filter corresponds to this SVG filter definition, based on a
+variable ''amount'' passed to the function:
+
+<syntaxhighlight lang="xml">
+<filter id="contrast">
+  <feComponentTransfer>
+    <feFuncR type="linear" slope="[amount]" intercept="-(0.5 * [amount] + 0.5)"/>
+    <feFuncG type="linear" slope="[amount]" intercept="-(0.5 * [amount] + 0.5)"/>
+    <feFuncB type="linear" slope="[amount]" intercept="-(0.5 * [amount] + 0.5)"/>
+  </feComponentTransfer>
+</filter>
+</syntaxhighlight>
+
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=Filter Effects 1.0
