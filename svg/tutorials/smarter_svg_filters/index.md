@@ -33,9 +33,23 @@ different meanings.  CSS filters currently come in two flavors:
 This guide does not discuss these more recent CSS custom filters, but
 does show you how to customize your own SVG filters for use in HTML.
 
+==
+
 ==Applying SVG filters within SVG==
 
+<syntaxhightlight lang="xml">
+<filter id="blur">
+<feGaussianBlur stdDeviation="[radius radius]">
+</filter>
+</syntaxhightlight>
+
 ==Applying SVG filters to HTML==
+
+<syntaxhightlight lang="css">
+.blur {
+    -webkit-filter: url(filters.svg#blur);
+}
+</syntaxhightlight>
 
 ___
 
@@ -224,11 +238,6 @@ values="[angle]"/>
 
 37.9. blur
 
-<syntaxhightlight lang="xml">
-<filter id="blur">
-<feGaussianBlur stdDeviation="[radius radius]">
-</filter>
-</syntaxhightlight>
 
 37.10. drop-shadow
 
