@@ -10,13 +10,13 @@
 }}
 {{Summary_Section|Overview about HTML5 Video interaction with other web standards and technologies}}
 {{Tutorial
-|Content==Video and Other Standards
+|Content==HTML5 Video and Other Recommendations=
 
 ==The Fun Part==
 
 As we said in the introduction, the main advantage of the video tag being a member of the HTML5 family is its integration with the other layers of web development stack. In the following examples we'll give you an overview of what's possible to do with it.
 
-===5.1. Video + other HTML===
+===Video + other HTML===
 
 All the common HTML attributes can now be used in the video player. For instance, in the following snippet we are using <code>tabindex</code> to make the player keyboard accessible. There are new attributes that can be used in the video tag that are also common to the audio tag such as <code>loop</code> and <code>autoplay</code>, both self-explanatory. The attribute <code>poster</code> indicates what image will be shown while the video is initially loading and, finally, <code>controls</code> is used to indicate that instead of building our custom controls we want the browser to render ones automatically for us. There's also a <code>preload</code> attribute we can use to download the video in the background as soon as the page loads, even if it hasn't started playing.
 
