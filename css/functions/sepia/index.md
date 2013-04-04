@@ -1,5 +1,7 @@
 {{Page_Title|sepia()}}
-{{Flags}}
+{{Flags
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Apply a sepia tinge to an element's color, typical
@@ -46,7 +48,21 @@ following example:
 |LiveURL=http://codepen.io/pverbeek/pen/jKioA
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Notes=The CSS filter corresponds to this SVG filter definition, based on a
+variable ''amount'' passed to the function:
+
+<syntaxhighlight lang="xml">
+<filter id="sepia">
+  <feColorMatrix type="matrix"
+    values="(0.393 + 0.607 * [1 - amount]) (0.769 - 0.769 * [1 - amount]) (0.189 - 0.189 * [1 - amount]) 0 0
+            (0.349 - 0.349 * [1 - amount]) (0.686 + 0.314 * [1 - amount]) (0.168 - 0.168 * [1 - amount]) 0 0
+            (0.272 - 0.272 * [1 - amount]) (0.534 - 0.534 * [1 - amount]) (0.131 + 0.869 * [1 - amount]) 0 0
+             0 0 0 1 0"/>
+</filter>
+</syntaxhighlight>
+
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=Filter Effects 1.0
