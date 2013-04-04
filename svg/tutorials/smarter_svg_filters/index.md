@@ -102,10 +102,25 @@ using the same [[css/functions/url|'''url()''']] function:
 }
 </syntaxhighlight>
 
-==Modifying colors (feColorMatrix)==
+<!--
+
+==Modifying colors with feComponentTransfer==
+
+The [[svg/element/feComponentTransfer|'''feComponentTransfer''']]
+element allows you to run different functions to modify each RGBA
+''component'' each pixel represents
+
+[[svg/element/feFuncR|'''feFuncR''']]
+[[svg/element/feFuncG|'''feFuncG''']]
+[[svg/element/feFuncB|'''feFuncB''']]
+[[svg/element/feFuncA|'''feFuncA''']]
+
+-->
+
+==Transforming colors with feColorMatrix==
 
 The [[svg/element/feColorMatrix|'''feColorMatrix''']] element provides
-several useful ways to modify an image's color. With its
+other useful ways to modify an image's color. With its
 [[svg/attribute/type|'''type''']] set to '''saturate''', reducing the
 [[svg/attribute/values|'''values''']] from 1 produces a grayscale,
 while increasing it makes the image more vivid, just like the
@@ -183,7 +198,8 @@ alpha channels. This transform leaves the image unchanged:
 The first example below reproduces the effect of the CSS
 [[css/functions/sepia|'''sepia()''']] function, while the second
 simply reduces green and blue tones. (The
-[[svg/attribute/values|'''values''']] are stacked here only in the 
+[[svg/attribute/values|'''values''']] are stacked into a table only in
+the interest of clarity.)
 
 <div style="display:inline-block">
 
@@ -227,21 +243,6 @@ ___
 
 
 
-<syntaxhighlight lang="xml">
-<filter id="sepia" >
-  <feColorMatrix type="matrix" values=".343 .669 .119 0 0 .249 .626 .130 0 0 .172 .334 .111 0 0 .000 .000 .000 1 0" />
-</filter>
-</syntaxhighlight>
-
-<syntaxhighlight lang="xml">
-<filter id="grayscale">
-<feColorMatrix type="matrix"
-  values="(0.2126 + 0.7874 * [1 - amount]) (0.7152 - 0.7152 * [1 - amount]) (0.0722 - 0.0722 * [1 - amount]) 0 0
-          (0.2126 - 0.2126 * [1 - amount]) (0.7152 + 0.2848 * [1 - amount]) (0.0722 - 0.0722 * [1 - amount]) 0 0
-          (0.2126 - 0.2126 * [1 - amount]) (0.7152 - 0.7152 * [1 - amount]) (0.0722 + 0.9278 * [1 - amount]) 0 0
-          0 0 0 1 0"/>
-</filter>
-</syntaxhighlight>
 
 ==Modifying pixel components (feComponentTransfer)==
 
@@ -250,9 +251,9 @@ ___
 <syntaxhighlight lang="xml">
 <filter id="invert">
 <feComponentTransfer>
-<feFuncR type="table" tableValues="[amount] (1 - [amount])"/>
-<feFuncG type="table" tableValues="[amount] (1 - [amount])"/>
-<feFuncB type="table" tableValues="[amount] (1 - [amount])"/>
+  <feFuncR type="table" tableValues="1 0"/>
+  <feFuncG type="table" tableValues="1 0"/>
+  <feFuncB type="table" tableValues="1 0"/>
 </feComponentTransfer>
 </filter>
 </syntaxhighlight>
