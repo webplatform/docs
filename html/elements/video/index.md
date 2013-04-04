@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|The <code>video</code> tag allows a developer to embed a video in a document. It is new to HTML5.}}
+{{Summary_Section|The <code>video</code> tag allows a developer to embed a video in a document. It is new to HTML5. Different browsers have various encoding support}}
 {{Markup_Element
 |DOM_interface=dom/HTMLVideoElement
 }}
@@ -15,7 +15,7 @@
 |Examples={{Single Example
 |Language=HTML
 |Description=Desired video file should be within src attribute
-|Code=<video src="bee.webm"></video>
+|Code=<video src="video.webm"></video>
 }}{{Single Example
 |Language=HTML
 |Description=HTML5 Video Tag can support different encodings
