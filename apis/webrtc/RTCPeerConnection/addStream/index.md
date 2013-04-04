@@ -24,11 +24,13 @@
 var connection, constraints, peerconnection; // Peerconnection related
 var success, error; //Callback functions
 
-connection = { iceServers: [{url: '...', credential: [...]} ,{...}] };
+connection = { iceServers: [{url: '...', credential: '...'} ,{...}] };
 constraints = { optional: [...] };
 peerconnection = RTCPeerConnection(connection, constraints);
 
 success = function(stream){
+  //Attach the stream to the connection. 
+  //Sidenote: This will trigger 'negotiationneeded' event
   peerconnection.addStream(stream);
 };
 
