@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|Content=Incomplete
+|Content=Incomplete, Examples Needed
 |Checked_Out=No
 |Editorial notes=Needs information on codec support.
 }}
@@ -9,6 +9,38 @@
 {{Summary_Section|The <code>video</code> tag allows a developer to embed a video in a document. It is new to HTML5. Different browsers have various encoding support}}
 {{Markup_Element
 |DOM_interface=dom/HTMLVideoElement
+|Content=== Really? No Flash ==
+Yep! No Flash. The video formats is made up by a <code>video stream</code> + <code>audio stream</code>
+
+.mp4 = H.264 + AAC
+.ogg = Theora + Vorbis
+.webm = VP8 + Vorbis
+
+All modern browsers support the <code><video></code> tag, but not all support all 3 encodings. The <a href="http://www.webmproject.org/">WebM</a> project is one open-source effort that Chrome and Firefox supports. 
+
+== Server MIME Types ==
+
+Addition to declaring multiple encodings, the web server also needs to be instructed on what to do with various MIME types. 
+
+== What about old browsers? ==
+
+Flash fallback
+
+You can also use flash as a fallback case. Depending on the format of your video you might need to encode it again to a compatible format for the flash player. The good news is that Adobe has committed to support the webm format in their flash player although that time timeline is still not clear. The biggest drawback of this solution compared to the Chrome Frame plugin is that you will get the flash player as the degraded version of what ever custom UI or enhanced features you have built for your video tag. The details of this technique can be seen in the Quick Guide to Implementing the HTML5 Audio tutorial.
+
+<pre>
+<video width="320" height="240" controls>
+  <source src="movie.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+  <source src="movie.webm" type="video/webm">
+  <object data="movie.mp4" width="320" height="240">
+    <embed src="movie.swf" width="320" height="240">
+  </object> 
+</video>
+</pre>
+
+== Attributes == 
+The attributs go inside <code><video></code> tag to change the behavior of the embeded video.
 }}
 {{Examples_Section
 |Not_required=No
@@ -26,7 +58,6 @@
             Your browser does not support the <code>video</code> element. 
             You can download it <a href="video.webm">here</a>.
 </video>
-
 |LiveURL=http://code.webplatform.org/gist/5314736
 }}{{Single Example
 |Language=Other
