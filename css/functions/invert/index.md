@@ -47,9 +47,7 @@ color-negative effect, with 0.5 or 50% producing gray.
 }}
 }}
 {{Notes_Section
-|Notes=37.5. invert
-
-The CSS filter corresponds to this SVG filter definition, based on a
+|Notes=The CSS filter corresponds to this SVG filter definition, based on a
 variable ''amount'' passed to the function:
 
 <syntaxhighlight lang="xml">
@@ -61,7 +59,6 @@ variable ''amount'' passed to the function:
   </feComponentTransfer>
 </filter>
 </syntaxhighlight>
-
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
