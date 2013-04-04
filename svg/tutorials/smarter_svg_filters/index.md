@@ -76,8 +76,11 @@ an attribute or via CSS:
 
 [[Image:svgf_blurBoth.png]]
 
-Unlike the CSS function, you can specify separate ''x'' and ''y''
-'''stdDeviation''' values to produce a sideways motion effect:
+The filter takes each pixel and moves it around randomly from its
+original location by a radius specified by the '''stdDeviation'''
+value.  Unlike the built-in CSS function, you can specify separate
+''x'' and ''y'' values to produce a sideways motion effect that in
+this case is a bit more legible:
 
 <syntaxhighlight lang="xml">
 <filter id="blur">
