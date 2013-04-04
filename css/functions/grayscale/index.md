@@ -1,5 +1,7 @@
 {{Page_Title|grayscale()}}
-{{Flags}}
+{{Flags
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Converts an element's color to a shade of gray, for
@@ -43,7 +45,19 @@ the gray effect.
 |LiveURL=http://codepen.io/pverbeek/pen/iLyCE
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Notes=The CSS filter corresponds to this SVG filter definition, using a variable ''amount'':
+
+<syntaxhighlight lang="xml">
+ <filter id="grayscale">
+    <feColorMatrix type="matrix"
+               values="(0.2126 + 0.7874 * [1 - amount]) (0.7152 - 0.7152 * [1 - amount]) (0.0722 - 0.0722 * [1 - amount]) 0 0
+                       (0.2126 - 0.2126 * [1 - amount]) (0.7152 + 0.2848 * [1 - amount]) (0.0722 - 0.0722 * [1 - amount]) 0 0
+                       (0.2126 - 0.2126 * [1 - amount]) (0.7152 - 0.7152 * [1 - amount]) (0.0722 + 0.9278 * [1 - amount]) 0 0
+                       0 0 0 1 0"/>
+  </filter> 
+</syntaxhighlight>
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=Filter Effects 1.0
