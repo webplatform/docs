@@ -1,5 +1,7 @@
 {{Page_Title|blur()}}
-{{Flags}}
+{{Flags
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Blurs an element, for use by the
@@ -46,7 +48,17 @@ possibly affecting the ability of background content to show through:
 |LiveURL=http://codepen.io/pverbeek/pen/yiKBv
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Notes=The CSS filter corresponds to this SVG filter definition, based on a
+variable ''radius'' passed to the function:
+
+<syntaxhighlight lang="xml">
+<filter id="blur">
+  <feGaussianBlur stdDeviation="[radius radius]">
+</filter>
+</syntaxhighlight>
+
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=Filter Effects 1.0
