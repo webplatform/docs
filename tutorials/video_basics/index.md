@@ -1,12 +1,11 @@
-{{Page_Title|Overview of HTML5 video}}
+{{Page_Title|HTML5 Video Basics}}
 {{Flags
 |High-level issues=Needs Review
 |Content=Grammar/Spelling
-|Checked_Out=Yes
+|Checked_Out=No
 |Editorial notes=I've done editing work. Please review for content and grammar/spelling. 
 
 I'm particularly interested in finding out if the type attribute of source must include the code as this may be too hard for a beginner's tutorial
-
 }}
 {{Byline
 |Name=Ernest Delgado
