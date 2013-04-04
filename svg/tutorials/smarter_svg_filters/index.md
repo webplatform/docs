@@ -91,7 +91,7 @@ this case is a bit more legible:
 [[Image:svgf_blur.png]]
 
 If you want to apply this customized SVG filter to HTML content, place
-it in an external SVG file and use the
+it in an external SVG file and use the corresponding
 [[css/properties/filter|'''filter''']] CSS property to reference it
 using the same [[css/functions/url|'''url()''']] function:
 
@@ -102,28 +102,61 @@ using the same [[css/functions/url|'''url()''']] function:
 }
 </syntaxhighlight>
 
+==Modifying colors (feColorMatrix)==
 
+<div style="display:inline-block">
 
+<syntaxhighlight lang="xml">
+<filter id="saturate">
+  <feColorMatrix type="saturate" values="10"/>
+</filter>
+</syntaxhighlight>
+
+<div>
+
+<div style="display:inline-block">
+
+<syntaxhighlight lang="xml">
+<filter id="saturate">
+  <feColorMatrix type="saturate" values="0"/>
+</filter>
+</syntaxhighlight>
+
+</div>
+
+___
+
+<div style="display:inline-block">
+
+<syntaxhighlight lang="xml">
+<filter id="hue-rotate">
+  <feColorMatrix type="hueRotate" values="180"/>
+</filter>
+</syntaxhighlight>
+
+</div>
+
+<div style="display:inline-block">
+
+><syntaxhighlight lang="xml">
+<filter id="hue-rotate">
+  <feColorMatrix type="luminanceToAlpha"/>
+</filter>
+</syntaxhighlight>
+
+</div>
+
+___
 
 <!--
 
-==feColorMatrix==
+====
+
+
 
 <syntaxhighlight lang="xml">
 <filter id="sepia" >
   <feColorMatrix type="matrix" values=".343 .669 .119 0 0 .249 .626 .130 0 0 .172 .334 .111 0 0 .000 .000 .000 1 0" />
-</filter>
-</syntaxhighlight>
-
-<syntaxhighlight lang="xml">
-<filter id="saturate">
-<feColorMatrix type="saturate" values="(1 - [amount])"/>
-</filter>
-</syntaxhighlight>
-
-<syntaxhighlight lang="xml">
-<filter id="hue-rotate">
-<feColorMatrix type="hueRotate" values="[angle]"/>
 </filter>
 </syntaxhighlight>
 
