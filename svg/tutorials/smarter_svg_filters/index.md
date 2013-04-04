@@ -59,25 +59,23 @@ does show you how to customize your own SVG filters for use in HTML.
 
 <syntaxhighlight lang="xml">
 <filter id="saturate">
-<feColorMatrix type="saturate"
-values="(1 - [amount])"/>
+<feColorMatrix type="saturate" values="(1 - [amount])"/>
 </filter>
 </syntaxhighlight>
 
 <syntaxhighlight lang="xml">
 <filter id="hue-rotate">
-<feColorMatrix type="hueRotate"
-values="[angle]"/>
+<feColorMatrix type="hueRotate" values="[angle]"/>
 </filter>
 </syntaxhighlight>
 
 <syntaxhighlight lang="xml">
 <filter id="grayscale">
 <feColorMatrix type="matrix"
-values="(0.2126 + 0.7874 * [1 - amount]) (0.7152 - 0.7152 * [1 - amount]) (0.0722 - 0.0722 * [1 - amount]) 0 0
-(0.2126 - 0.2126 * [1 - amount]) (0.7152 + 0.2848 * [1 - amount]) (0.0722 - 0.0722 * [1 - amount]) 0 0
-(0.2126 - 0.2126 * [1 - amount]) (0.7152 - 0.7152 * [1 - amount]) (0.0722 + 0.9278 * [1 - amount]) 0 0
-0 0 0 1 0"/>
+  values="(0.2126 + 0.7874 * [1 - amount]) (0.7152 - 0.7152 * [1 - amount]) (0.0722 - 0.0722 * [1 - amount]) 0 0
+          (0.2126 - 0.2126 * [1 - amount]) (0.7152 + 0.2848 * [1 - amount]) (0.0722 - 0.0722 * [1 - amount]) 0 0
+          (0.2126 - 0.2126 * [1 - amount]) (0.7152 - 0.7152 * [1 - amount]) (0.0722 + 0.9278 * [1 - amount]) 0 0
+          0 0 0 1 0"/>
 </filter>
 </syntaxhighlight>
 
