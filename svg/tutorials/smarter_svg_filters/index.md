@@ -33,7 +33,7 @@ different meanings.  CSS filters currently come in two flavors:
 This guide does not discuss these more recent CSS custom filters, but
 does show you how to customize your own SVG filters for use in HTML.
 
-==
+
 
 ==Applying SVG filters within SVG==
 
