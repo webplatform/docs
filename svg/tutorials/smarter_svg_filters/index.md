@@ -37,27 +37,70 @@ does show you how to customize your own SVG filters for use in HTML.
 
 ==Applying a simple filter (feGaussianBlur)==
 
+Start by placing some text within an SVG graphic:
 
+<syntaxhighlight lang="xml">
+<text class="blurred" x="30" y="100">An SVG Filter</text>
+</syntaxhighlight>
+
+[[Image:svgf_none.png]]
+
+Place a [[svg/element/filter|'''filter''']] element within the SVG's
+[[svg/element/defs|'''defs''']] region. The
+[[svg/element/feGaussianBlur|'''feGaussianBlur''']] element produces a
+blurring effect, which matches effect of the
+[[css/functions/blur|'''blur()''']] CSS filter function:
 
 <syntaxhighlight lang="xml">
 <filter id="blur">
-  <feGaussianBlur stdDeviation="12 0">
+  <feGaussianBlur stdDeviation="10">
 </filter>
 </syntaxhighlight>
 
-<syntaxhighlight lang="css">
-.sidewaysBlur {
-    -webkit-filter : url(filters.svg#blur);
-    filter         : url(filters.svg#blur);
-}
+To apply the filter, reference it with the
+[[svg/properties/filter|'''filter''']] property, expressed either as
+an attribute or via CSS:
+
+<syntaxhighlight lang="xml">
+<text class="blurred" filter="url(#blur)" x="30" y="100">An SVG Filter</text>
 </syntaxhighlight>
 
 <syntaxhighlight lang="css">
-.sidewaysBlur {
-    -webkit-filter : url(filters.svg#blur);
-    filter         : url(filters.svg#blur);
+.blurred {
+    filter      : url(#blur);
+    font-family : sans-serif;
+    font-size   : 70px;
+    fill        : red;
 }
 </syntaxhighlight>
+
+[[Image:svgf_blurBoth.png]]
+
+Unlike the CSS function, you can specify separate ''x'' and ''y''
+'''stdDeviation''' values to produce a sideways motion effect:
+
+<syntaxhighlight lang="xml">
+<filter id="blur">
+  <feGaussianBlur stdDeviation="10 1">
+</filter>
+</syntaxhighlight>
+
+[[Image:svgf_blur.png]]
+
+If you want to apply this customized SVG filter to HTML content, place
+it in an external SVG file and use the
+[[css/properties/filter|'''filter''']] CSS property to reference it
+using the same [[css/functions/url|'''url()''']] function:
+
+<syntaxhighlight lang="css">
+.sidewaysBlur {
+    filter         : url(filters.svg#blur);
+    -webkit-filter : url(filters.svg#blur); /* it's a new feature */
+}
+</syntaxhighlight>
+
+
+
 
 <!--
 
