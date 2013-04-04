@@ -10,6 +10,7 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=JavaScript
 |Code=/*
  * This examples assumes that the browser supports WebRTC API and
  * attaches to the peerconnection the stream that gets from the 
