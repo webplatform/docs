@@ -13,7 +13,31 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Code=/*
+ * This examples assumes that the browser supports WebRTC API and
+ * attaches to the peerconnection the stream that gets from the 
+ * user's media interfaces
+ */
+
+var connection, constraints, peerconnection; // Peerconnection related
+var success, error; //Callback functions
+
+connection = { iceServers: [{url: '...', credential: [...]} ,{...}] };
+constraints = { optional: [...] };
+peerconnection = RTCPeerConnection(connection, constraints);
+
+success = function(stream){
+  peerconnection.addStream(stream);
+};
+
+error = function(err){
+  console.log(err);
+};
+
+navigator.getUserMedia({audio: true, video: true}, success, error);
+}}
 }}
 {{Notes_Section
 |Usage=If the RTCPeerConnection object's [[apis/webrtc/RTCPeerConnection/readyState|readyState]] is <code>closed</code>, throws an <code>INVALID_STATE</code> exception.
