@@ -1,5 +1,7 @@
 {{Page_Title|hue-rotate()}}
-{{Flags}}
+{{Flags
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Shifts an element's relative hue, for use by the
@@ -52,7 +54,17 @@ hues (360 &times; 3):
 |LiveURL=http://codepen.io/pverbeek/pen/axEbp
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Notes=The CSS filter corresponds to this SVG filter definition, based on a
+variable ''angle'' passed to the function:
+
+<syntaxhighlight lang="xml">
+<filter id="hue-rotate">
+  <feColorMatrix type="hueRotate" values="[angle]"/>
+</filter>
+</syntaxhighlight>
+
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=Filter Effects 1.0
