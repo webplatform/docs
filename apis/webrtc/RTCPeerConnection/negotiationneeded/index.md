@@ -7,7 +7,7 @@
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|The browser anticipates a session negotiation is required.
-It is triggered whenever a stream is added or removed from [[apis/webrtc/RTCPeerConnection|RTCPeerConnection]] object through the object's [[apis/webrtc/RTCPeerConnection/addStream|addStream]] or [[apis/webrtc/RTCPeerConnection/removeStream|removeStream]] methods.
+It is triggered whenever a stream is added or removed from [[apis/webrtc/RTCPeerConnection|RTCPeerConnection]] object through the object's [[apis/webrtc/RTCPeerConnection/addStream|addStream]], [[apis/webrtc/RTCPeerConnection/removeStream|removeStream]] or [[apis/webrtc/RTCPeerConnection/setIdentityProvider|setIdentityProvider]] methods.
 }}
 {{Event
 |Event_applies_to=apis/webrtc/RTCPeerConnection
