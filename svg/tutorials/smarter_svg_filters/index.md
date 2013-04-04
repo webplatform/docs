@@ -9,6 +9,8 @@
 {{Tutorial
 |Content=
 
+==What are filters?==
+
 <!--
 
 The idea of applying filters to web content originated in SVG, but has
