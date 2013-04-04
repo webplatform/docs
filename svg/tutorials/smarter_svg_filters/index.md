@@ -108,11 +108,11 @@ using the same [[css/functions/url|'''url()''']] function:
 
 <syntaxhighlight lang="xml">
 <filter id="saturate">
-  <feColorMatrix type="saturate" values="10"/>
+  <feColorMatrix type="saturate" values="0"/>
 </filter>
 </syntaxhighlight>
 
-[[Image:svgf_CMXsaturate10.png|400px]]
+[[Image:svgf_CMXsaturate0.png|400px]]
 
 </div>
 
@@ -120,11 +120,11 @@ using the same [[css/functions/url|'''url()''']] function:
 
 <syntaxhighlight lang="xml">
 <filter id="saturate">
-  <feColorMatrix type="saturate" values="0"/>
+  <feColorMatrix type="saturate" values="10"/>
 </filter>
 </syntaxhighlight>
 
-[[Image:svgf_CMXsaturate0.png|400px]]
+[[Image:svgf_CMXsaturate10.png|400px]]
 
 </div>
 
