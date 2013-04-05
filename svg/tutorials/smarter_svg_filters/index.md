@@ -55,7 +55,7 @@ blurring effect, which matches the effect of the
 [[css/functions/blur|'''blur()''']] CSS filter function:
 
 <syntaxhighlight lang="xml">
-<filter id="blur">
+<filter id="css_blur">
   <feGaussianBlur stdDeviation="10"/>
 </filter>
 </syntaxhighlight>
@@ -70,7 +70,7 @@ an attribute or via CSS:
 <syntaxhighlight lang="xml" highlight="3">
 <text 
   class  = "blurred" 
-  filter = "url(#blur)" 
+  filter = "url(#css_blur)" 
   x      = "30" 
   y      = "100"
 >An SVG Filter</text>
@@ -94,7 +94,7 @@ value.  Unlike the built-in CSS function, you can specify separate
 this case is a bit more legible:
 
 <syntaxhighlight lang="xml">
-<filter id="blur">
+<filter id="sideways_blur">
   <feGaussianBlur stdDeviation="10 1"/>
 </filter>
 </syntaxhighlight>
@@ -108,12 +108,10 @@ using the same [[css/functions/url|'''url()''']] function:
 
 <syntaxhighlight lang="css">
 .sidewaysBlur {
-    filter         : url(filters.svg#blur);
-    -webkit-filter : url(filters.svg#blur); /* it's a new feature */
+    filter         : url(filters.svg#sideways_blur);
+    -webkit-filter : url(filters.svg#sideways_blur); /* it's a new feature */
 }
 </syntaxhighlight>
-
-
 
 ==Modifying colors with feComponentTransfer==
 
@@ -178,12 +176,12 @@ The first example reproduces the effect of the CSS
 [[css/functions/brightness|'''brightness()''']] function, flattening
 the slope to darken the image. The second increases the slope to
 brighten the image, but then drops all values by the same amount,
-zeroing out many:
+zeroing out many of them:
 
 <div style="display:inline-block">
 
 <syntaxhighlight lang="xml">
-<filter id="brightness">
+<filter id="css_brightness">
 <feComponentTransfer>
  <feFuncR type="linear" slope="0.5"/>
  <feFuncG type="linear" slope="0.5"/>
@@ -199,7 +197,7 @@ zeroing out many:
 <div style="display:inline-block">
 
 <syntaxhighlight lang="xml">
-<filter id="bottom_threshold">
+<filter id="thresholded_brightness">
 <feComponentTransfer>
  <feFuncR type="linear" slope="1.5" intercept="-0.3"/>
  <feFuncG type="linear" slope="1.5" intercept="-0.3"/>
@@ -211,6 +209,55 @@ zeroing out many:
 [[Image:svgf_CTlinearIntercept.png|400px]]
 
 </div>
+
+Setting the [[svg/attribute/type|'''type''']] to '''table'''
+[[svg/attribute/tableValues|'''tableValues''']] is another way to
+specify a linear slope.  The first example behaves like the CSS
+[[css/functions/opacity|'''opacity()''']] function.  The second,
+specifying a negative slope from 1 to 0, behaves like the CSS
+[[css/functions/invert|'''invert()''']] function:
+
+<div style="display:inline-block">
+
+<syntaxhighlight lang="xml">
+<filter id="css_opacity">
+<feComponentTransfer>
+<feFuncA type="table" tableValues="0 0.5"/>
+</feComponentTransfer>
+</filter>
+</syntaxhighlight>
+
+[[Image:svgf_CTopacity.png|400px]]
+
+</div>
+
+<div style="display:inline-block">
+
+<syntaxhighlight lang="xml">
+<filter id="css_invert">
+<feComponentTransfer>
+  <feFuncR type="table" tableValues="1 0"/>
+  <feFuncG type="table" tableValues="1 0"/>
+  <feFuncB type="table" tableValues="1 0"/>
+</feComponentTransfer>
+</filter>
+</syntaxhighlight>
+
+[[Image:svgf_CTinvert.png|400px]]
+
+</div>
+
+<!--
+<div style="display:inline-block">
+
+<syntaxhighlight lang="xml">
+</syntaxhighlight>
+
+[[Image:svgf_CT_.png|400px]]
+
+</div>
+
+-->
 
 ==Transforming colors with feColorMatrix==
 
@@ -225,7 +272,7 @@ while increasing it makes the image more vivid, just like the
 <div style="display:inline-block">
 
 <syntaxhighlight lang="xml">
-<filter id="grayscale">
+<filter id="css_grayscale">
   <feColorMatrix type="saturate" values="0"/>
 </filter>
 </syntaxhighlight>
@@ -237,7 +284,7 @@ while increasing it makes the image more vivid, just like the
 <div style="display:inline-block">
 
 <syntaxhighlight lang="xml">
-<filter id="saturate">
+<filter id="css_saturate">
   <feColorMatrix type="saturate" values="10"/>
 </filter>
 </syntaxhighlight>
@@ -256,7 +303,7 @@ effects described below.
 <div style="display:inline-block">
 
 <syntaxhighlight lang="xml">
-<filter id="hue-rotate">
+<filter id="css_hue_rotate">
   <feColorMatrix type="hueRotate" values="180"/>
 </filter>
 </syntaxhighlight>
@@ -268,7 +315,7 @@ effects described below.
 <div style="display:inline-block">
 
 <syntaxhighlight lang="xml">
-<filter id="hue-rotate">
+<filter id="luminance_mask">
   <feColorMatrix type="luminanceToAlpha"/>
 </filter>
 </syntaxhighlight>
@@ -299,7 +346,7 @@ the interest of clarity.)
 <div style="display:inline-block">
 
 <syntaxhighlight lang="xml">
-<filter id="sepia">
+<filter id="css_sepia">
   <feColorMatrix 
     type="matrix" 
     values=".343 .669 .119 0 0 
@@ -342,35 +389,11 @@ ___
 
 ==Modifying pixel components (feComponentTransfer)==
 
-    <feFuncR type="table" tableValues="[amount] (1 - [amount])"/>
-    <feFuncG type="table" tableValues="[amount] (1 - [amount])"/>
-    <feFuncB type="table" tableValues="[amount] (1 - [amount])"/>
-
-
-<syntaxhighlight lang="xml">
-<filter id="invert">
-<feComponentTransfer>
-  <feFuncR type="table" tableValues="1 0"/>
-  <feFuncG type="table" tableValues="1 0"/>
-  <feFuncB type="table" tableValues="1 0"/>
-</feComponentTransfer>
-</filter>
-</syntaxhighlight>
 
 
 
 <syntaxhighlight lang="xml">
-<filter id="opacity">
-<feComponentTransfer>
-<feFuncA type="table" tableValues="0 [amount]"/>
-</feComponentTransfer>
-</filter>
-</syntaxhighlight>
-
-
-
-<syntaxhighlight lang="xml">
-<filter id="brightness">
+<filter id="css_brightness">
 <feComponentTransfer>
 <feFuncR type="linear" slope="[amount]"/>
 <feFuncG type="linear" slope="[amount]"/>
@@ -382,7 +405,7 @@ ___
 
 
 <syntaxhighlight lang="xml">
-<filter id="contrast">
+<filter id="css_contrast">
 <feComponentTransfer>
 <feFuncR type="linear" slope="[amount]" intercept="-(0.5 * [amount] + 0.5)"/>
 <feFuncG type="linear" slope="[amount]" intercept="-(0.5 * [amount] + 0.5)"/>
@@ -394,7 +417,7 @@ ___
 ==Drop shadow (feOffset, feMerge, feComposite)==
 
 <syntaxhighlight lang="xml">
-<filter id="drop-shadow">
+<filter id="css_drop-shadow">
 <feGaussianBlur in="[alpha-channel-of-input]" stdDeviation="[radius]"/>
 <feOffset dx="[offset-x]" dy="[offset-y]" result="offsetblur"/>
 <feFlood flood-color="[color]"/>
