@@ -430,19 +430,26 @@ complex effects:
 </filter>
 </syntaxhighlight>
 
+<div style="display:inline-block;width="33%"">
+
 First we start with an image transparency:
 
 [[Image:svgf_dropNoop.png|192px]]
+
+</div><div style="display:inline-block;width="33%"">
 
 We've already seen the
 [[svg/elements/feGaussianBlur|'''feGaussianBlur''']] effect in action,
 but in this case it behaves differently.  The optional
 [[svg/attribute/in|'''in''']] specifies the '''SourceAlpha''', or all
-of its non-transparent pixels. The result of that effect is passed to
-the [[svg/elements/feOffset|'''feOffset''']] effect, which simply
-moves it down and over:
+of its non-transparent pixels. The result of that effect, which is
+colored black, is passed to the next
+[[svg/elements/feOffset|'''feOffset''']] effect, which simply moves it
+down and over:
 
 [[Image:svgf_dropOffsetBlur.png|192px]]
+
+</div><div style="display:inline-block;width="33%"">
 
 The [[svg/elements/feFlood|'''feFlood''']] effect's
 [[svg/properties/flood-color|'''flood-color''']] property simply
@@ -452,16 +459,28 @@ on:
 
 [[Image:svgf_dropFlood.png|192px]]
 
+</div><div style="display:inline-block;width="33%"">
+
 By default, the [[svg/attribute/result|'''result''']] of the flood
 becomes the next effect's [[svg/attribute/in|'''in''']] value, so
-neither of these attributes needs to be explicitly declared.  The
+neither of these attributes needs to be explicitly declared here.  The
 [[svg/elements/feComposite|'''feComposite''']] effect applies the
 '''in''' composite operation on the portion of the gray fill that
 falls within the dropped shadow:
 
 [[Image:svgf_dropComposite.png|192px]]
 
+</div><div style="display:inline-block;width="33%"">
+
+Finally, the [[svg/elements/feMerge|'''feMerge''']] effect combines
+the modified version of the graphic with the the original. The first
+[[svg/elements/feMergeNode|'''feMergeNode''']] accepts the composite
+result by default, and the second specifies the '''SourceGraphic''',
+which renders over it for the final effect:
+
 [[Image:svgf_dropMerge.png|192px]]
+
+</div>
 
 <!--
 <div style="display:inline-block">
