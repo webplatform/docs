@@ -56,7 +56,7 @@ blurring effect, which matches the effect of the
 
 <syntaxhighlight lang="xml">
 <filter id="blur">
-  <feGaussianBlur stdDeviation="10">
+  <feGaussianBlur stdDeviation="10"/>
 </filter>
 </syntaxhighlight>
 
@@ -95,7 +95,7 @@ this case is a bit more legible:
 
 <syntaxhighlight lang="xml">
 <filter id="blur">
-  <feGaussianBlur stdDeviation="10 1">
+  <feGaussianBlur stdDeviation="10 1"/>
 </filter>
 </syntaxhighlight>
 
@@ -123,12 +123,26 @@ each pixel. Within the element, nest any combination of
 [[svg/element/feFuncR|'''feFuncR''']],
 [[svg/element/feFuncG|'''feFuncG''']],
 [[svg/element/feFuncB|'''feFuncB''']], and
-[[svg/element/feFuncA|'''feFuncA''']] function elements to modify each
-pixel component.
-
-
+[[svg/element/feFuncA|'''feFuncA''']] elements to run different types
+of function over each pixel component value. 
 
 Setting the [[svg/attribute/type|'''type''']] of function to
+'''identity''' is equivalent to leaving out the function element
+altogether, leaving the image unchanged:
+
+<syntaxhighlight lang="xml">
+<filter id="no_op">
+<feComponentTransfer>
+  <feFuncR type="identity"/>
+  <feFuncG type="identity"/>
+  <feFuncB type="identity"/>
+  <feFuncA type="identity"/>
+</feComponentTransfer>
+</filter>
+</syntaxhighlight>
+
+[[Image:svgf_CTnoop.png|400px]]
+
 '''discrete''' allows you to posterize an image, clustering gradual
 color shifts into solid bands:
 
