@@ -26,7 +26,7 @@ Addition to declaring multiple encodings, the web server also needs to be instru
 
 Flash fallback
 
-You can also use flash as a fallback case. Depending on the format of your video you might need to encode it again to a compatible format for the flash player. The good news is that Adobe has committed to support the webm format in their flash player although that time timeline is still not clear. The biggest drawback of this solution compared to the Chrome Frame plugin is that you will get the flash player as the degraded version of what ever custom UI or enhanced features you have built for your video tag. The details of this technique can be seen in the Quick Guide to Implementing the HTML5 Audio tutorial.
+You can also use flash as a fallback for when the browser does not support any of the provided formats. Flash supports H264 and Adobe has committed to support the webm format in their flash player although that time timeline is still not clear. The biggest drawback using Flash as opposed to the Chrome Frame plugin is that you will get the flash player interface instead of  whatever UI you built for your video tag. The details of this technique can be seen in the Quick Guide to Implementing the HTML5 Audio tutorial.
 
 <pre>
 <video width="320" height="240" controls>
