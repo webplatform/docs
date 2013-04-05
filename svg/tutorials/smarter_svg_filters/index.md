@@ -482,27 +482,44 @@ which renders over it for the final effect:
 
 ==A warp effect (feMorphology, feTurbulence, feDisplacementMap)==
 
+The next example shows how to combine several filter effects to create
+a strange warping effect:
+
 <syntaxhighlight lang="xml">
 <filter id="warp" >
   <feMorphology radius="3" operator="dilate" result="text"/>
-  <feTurbulence type="fractalNoise" baseFrequency="0.015" numOctaves="1" result="warp" />
+  <feTurbulence type="fractalNoise" baseFrequency="0.017" numOctaves="1" result="warp" />
   <feDisplacementMap xChannelSelector="R" yChannelSelector="G" in="text" in2="warp" scale="60" />
   <feGaussianBlur stdDeviation="1 2" />
 </filter>
 </syntaxhighlight>
 
+Start with a bit of text:
 
 [[Image:svgf_warpStart.png]]
 
+The [[svg/elements/feMorphology|'''feMorphology''']] effect specifies
+a [[svg/attribute/dilate|'''dilate''']] factor to thicken the
+graphic. (Alternately, [[svg/attribute/erode|'''erode''']] would erode
+it.)
+
 [[Image:svgf_warpMorph.png]]
+
+[[svg/elements/feFoo|'''feFoo''']] 
 
 [[Image:svgf_warpTurbulence.png]]
 
+[[svg/elements/feFoo|'''feFoo''']] 
+
 [[Image:svgf_warpDisplace.png]]
+
+[[svg/elements/feFoo|'''feFoo''']] 
 
 [[Image:svgf_warpBlur.png]]
 
 ==___==
+
+...
 
 <!--
 <div style="display:inline-block">
