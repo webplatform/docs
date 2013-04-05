@@ -210,12 +210,12 @@ zeroing out many of them:
 
 </div>
 
-Setting the [[svg/attribute/type|'''type''']] to '''table'''
-[[svg/attribute/tableValues|'''tableValues''']] is another way to
-specify a linear slope.  The first example behaves like the CSS
-[[css/functions/opacity|'''opacity()''']] function.  The second,
-specifying a negative slope from 1 to 0, behaves like the CSS
-[[css/functions/invert|'''invert()''']] function:
+Setting the [[svg/attribute/type|'''type''']] to '''table''' lets you
+specify your own linear slope based on two
+[[svg/attribute/tableValues|'''tableValues''']].  The first example
+behaves like the CSS [[css/functions/opacity|'''opacity()''']]
+function.  The second, specifying a negative slope from 1 to 0,
+behaves like the CSS [[css/functions/invert|'''invert()''']] function:
 
 <div style="display:inline-block">
 
@@ -248,6 +248,19 @@ specifying a negative slope from 1 to 0, behaves like the CSS
 </div>
 
 <!--
+
+Setting the [[svg/attribute/type|'''type''']] to '''gamma''' can be
+used for ''gamma correction'' to bring up dark values.
+
+((''amplitude'' &times; ''value''<sup>''exponent''</sup>) + ''offset'')
+
+
+
+2DO: any obvious use case for "gamma" correction?
+
+-->
+
+<!--
 <div style="display:inline-block">
 
 <syntaxhighlight lang="xml">
@@ -256,7 +269,6 @@ specifying a negative slope from 1 to 0, behaves like the CSS
 [[Image:svgf_CT_.png|400px]]
 
 </div>
-
 -->
 
 ==Transforming colors with feColorMatrix==
