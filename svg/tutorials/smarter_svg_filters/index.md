@@ -128,7 +128,12 @@ of function over each pixel component value.
 
 Setting the [[svg/attribute/type|'''type''']] of function to
 '''identity''' is equivalent to leaving out the function element
-altogether, leaving the image unchanged:
+altogether, leaving the image on the left unchanged.  Setting it to
+'''discrete''' allows you to posterize an image, clustering gradual
+color shifts into solid bands based on the step values specified in
+[[svg/attribute/tableValues|'''tableValues''']]:
+
+<div style="display:inline-block">
 
 <syntaxhighlight lang="xml">
 <filter id="no_op">
@@ -143,11 +148,12 @@ altogether, leaving the image unchanged:
 
 [[Image:svgf_CTnoop.png|400px]]
 
-'''discrete''' allows you to posterize an image, clustering gradual
-color shifts into solid bands:
+</div>
+
+<div style="display:inline-block">
 
 <syntaxhighlight lang="xml">
-<filter id="saturate">
+<filter id="posterize">
   <feComponentTransfer>
     <feFuncR type="discrete" tableValues="0 0.2 0.4 0.6 0.8 1"/>
     <feFuncG type="discrete" tableValues="0 0.2 0.4 0.6 0.8 1"/>
@@ -158,8 +164,6 @@ color shifts into solid bands:
 
 [[Image:svgf_CTband.png|400px]]
 
-<div style="display:inline-block">
-___
 </div>
 
 ==Transforming colors with feColorMatrix==
