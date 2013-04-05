@@ -430,20 +430,34 @@ complex effects:
 </filter>
 </syntaxhighlight>
 
-First we start with an image transparency, to help clarify how the
-shadow applies more widely than CSS's
-[[css/properties/box-shadow|'''box-shadow''']],
-[[css/properties/text-shadow|'''text-shadow''']] properties:
+First we start with an image transparency:
 
 [[Image:svgf_dropNoop.png]]
 
-<!--
-The [[svg/elements/feGaussianBlur|'''feGaussianBlur''']], 
--->
+We've already seen the
+[[svg/elements/feGaussianBlur|'''feGaussianBlur''']] effect in action,
+but in this case it behaves differently.  The optional
+[[svg/attribute/in|'''in''']] specifies the '''SourceAlpha''', or all
+of its non-transparent pixels. The result of that effect is passed to
+the [[svg/elements/feOffset|'''feOffset''']] effect, which simply
+moves it down and over:
 
 [[Image:svgf_dropOffsetBlur.png]]
 
+The [[svg/elements/feFlood|'''feFlood''']] effect's
+[[svg/properties/flood-color|'''flood-color''']] property simply
+produces a gray color that's independent of the graphic we've produced
+so far, so it renders within the full rectangle the filter operates
+on:
+
 [[Image:svgf_dropFlood.png]]
+
+By default, the [[svg/attribute/result|'''result''']] of the flood
+becomes the next effect's [[svg/attribute/in|'''in''']] value, so
+neither of these attributes needs to be explicitly declared.  The
+[[svg/elements/feComposite|'''feComposite''']] effect applies the
+'''in''' composite operation on the portion of the gray fill that
+falls within the dropped shadow:
 
 [[Image:svgf_dropComposite.png]]
 
