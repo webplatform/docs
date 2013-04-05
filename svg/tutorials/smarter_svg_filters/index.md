@@ -430,13 +430,13 @@ complex effects:
 </filter>
 </syntaxhighlight>
 
-<div style="display:inline-block;width="33%">
+<div style="display:inline-block;max-width="200px">
 
 First we start with an image transparency:
 
 [[Image:svgf_dropNoop.png|192px]]
 
-</div><div style="display:inline-block;width="33%">
+</div><div style="display:inline-block;max-width="200px">
 
 We've already seen the
 [[svg/elements/feGaussianBlur|'''feGaussianBlur''']] effect in action,
@@ -449,7 +449,7 @@ down and over:
 
 [[Image:svgf_dropOffsetBlur.png|192px]]
 
-</div><div style="display:inline-block;width="33%">
+</div><div style="display:inline-block;max-width="200px">
 
 The [[svg/elements/feFlood|'''feFlood''']] effect's
 [[svg/properties/flood-color|'''flood-color''']] property simply
@@ -459,7 +459,7 @@ on:
 
 [[Image:svgf_dropFlood.png|192px]]
 
-</div><div style="display:inline-block;width="33%">
+</div><div style="display:inline-block;max-width="200px">
 
 By default, the [[svg/attribute/result|'''result''']] of the flood
 becomes the next effect's [[svg/attribute/in|'''in''']] value, so
@@ -470,7 +470,7 @@ falls within the dropped shadow:
 
 [[Image:svgf_dropComposite.png|192px]]
 
-</div><div style="display:inline-block;width="33%">
+</div><div style="display:inline-block;max-width="200px">
 
 Finally, the [[svg/elements/feMerge|'''feMerge''']] effect combines
 the modified version of the graphic with the the original. The first
