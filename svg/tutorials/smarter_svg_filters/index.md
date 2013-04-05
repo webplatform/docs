@@ -501,36 +501,53 @@ a strange warping effect:
 </filter>
 </syntaxhighlight>
 
+<div style="display:inline-block;max-width:280px;padding:12px">
+
 Start with a bit of text:
 
-[[Image:svgf_warpStart.png]]
+[[Image:svgf_warpStart.png|250px]]
+
+</div><div style="display:inline-block;max-width:280px;padding:12px">
 
 The [[svg/elements/feMorphology|'''feMorphology''']] effect specifies
 a [[svg/attribute/dilate|'''dilate''']] factor to thicken the
 graphic. (Alternately, [[svg/attribute/erode|'''erode''']] would erode
 it.)
 
-[[Image:svgf_warpMorph.png]]
+[[Image:svgf_warpMorph.png|250px]]
+
+</div><div style="display:inline-block;max-width:280px;padding:12px">
 
 [[svg/elements/feFoo|'''feFoo''']] 
 
-[[Image:svgf_warpColoredOutline.png]]
+[[Image:svgf_warpColoredOutline.png|250px]]
+
+</div><div style="display:inline-block;max-width:280px;padding:12px">
 
 [[svg/elements/feFoo|'''feFoo''']] 
 
-[[Image:svgf_warpCombinedOutline.png]]
+[[Image:svgf_warpCombinedOutline.png|250px]]
+
+</div><div style="display:inline-block;max-width:280px;padding:12px">
 
 [[svg/elements/feFoo|'''feFoo''']] 
 
-[[Image:svgf_warpTurbulence.png]]
+[[Image:svgf_warpTurbulence.png|250px]]
+
+</div><div style="display:inline-block;max-width:280px;padding:12px">
 
 [[svg/elements/feFoo|'''feFoo''']] 
 
-[[Image:svgf_warpDisplace.png]]
+[[Image:svgf_warpDisplace.png|250px]]
+
+</div><div style="display:inline-block;max-width:280px;padding:12px">
 
 [[svg/elements/feFoo|'''feFoo''']] 
 
-[[Image:svgf_warpBlur.png]]
+[[Image:svgf_warpBlur.png|250px]]
+
+</div>
+
 
 ==___==
 
