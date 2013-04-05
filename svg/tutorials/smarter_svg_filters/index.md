@@ -492,15 +492,15 @@ which renders over it for the final effect:
 </syntaxhighlight>
 
 
-[[Image:svgf_warpStart.png|192px]]
+[[Image:svgf_warpStart.png]]
 
-[[Image:svgf_warpMorph.png|192px]]
+[[Image:svgf_warpMorph.png]]
 
-[[Image:svgf_warpTurbulence.png|192px]]
+[[Image:svgf_warpTurbulence.png]]
 
-[[Image:svgf_warpDisplace.png|192px]]
+[[Image:svgf_warpDisplace.png]]
 
-[[Image:svgf_warpBlur.png|192px]]
+[[Image:svgf_warpBlur.png]]
 
 ==___==
 
