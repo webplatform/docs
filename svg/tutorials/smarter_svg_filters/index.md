@@ -10,8 +10,11 @@
 |Content=
 
 The power of SVG filters is matched by the depth and complexity of
-available options. This guide will only scratch the surface of how you
-can use them.
+available options. It takes a good deal of practice to master the many
+filter effects that are available to you, but hopefully this will help
+you understand what's possible.  It starts by showing how modify color
+values in ways that often correspond to built-in CSS filter functions.
+Then it shows you how to split and merge independent channels
 
 ==What are filters?==
 
@@ -19,7 +22,7 @@ A filter is a little machine that takes graphic input, changes it in
 some way, and causes the output to render differently. Filters contain
 one or more component ''filter effect'' elements, some of which do
 intuitively obvious things (such as blur the graphic), and some of
-which only make sense when combined with other effects. 
+which only make sense when combined with other effects.
 
 Filter effects are often chained together so that one effect's output
 becomes another effect's input. Filter effects may also operate on
@@ -48,9 +51,9 @@ Start by placing some text within an SVG graphic:
 
 [[Image:svgf_none.png]]
 
-Place a [[svg/element/filter|'''filter''']] element within the SVG's
-[[svg/element/defs|'''defs''']] region.  The
-[[svg/element/feGaussianBlur|'''feGaussianBlur''']] element produces a
+Place a [[svg/elements/filter|'''filter''']] element within the SVG's
+[[svg/elements/defs|'''defs''']] region.  The
+[[svg/elements/feGaussianBlur|'''feGaussianBlur''']] element produces a
 blurring effect, which matches the effect of the
 [[css/functions/blur|'''blur()''']] CSS filter function:
 
@@ -61,7 +64,7 @@ blurring effect, which matches the effect of the
 </syntaxhighlight>
 
 (SVG filter effect elements are all prefixed ''fe'', and cannot be
-placed outside a [[svg/element/filter|'''filter''']].)
+placed outside a [[svg/elements/filter|'''filter''']].)
 
 To apply the filter, reference it with the
 [[svg/properties/filter|'''filter''']] property, expressed either as
@@ -115,13 +118,13 @@ using the same [[css/functions/url|'''url()''']] function:
 
 ==Modifying colors with feComponentTransfer==
 
-The [[svg/element/feComponentTransfer|'''feComponentTransfer''']]
+The [[svg/elements/feComponentTransfer|'''feComponentTransfer''']]
 element allows you to modify each RGBA ''component'' represented in
 each pixel. Within the element, nest any combination of
-[[svg/element/feFuncR|'''feFuncR''']],
-[[svg/element/feFuncG|'''feFuncG''']],
-[[svg/element/feFuncB|'''feFuncB''']], and
-[[svg/element/feFuncA|'''feFuncA''']] elements to run different types
+[[svg/elements/feFuncR|'''feFuncR''']],
+[[svg/elements/feFuncG|'''feFuncG''']],
+[[svg/elements/feFuncB|'''feFuncB''']], and
+[[svg/elements/feFuncA|'''feFuncA''']] elements to run different types
 of function over each pixel component value. 
 
 Setting the [[svg/attribute/type|'''type''']] of function to
@@ -273,7 +276,7 @@ for the '''linear''' type):
 <div style="display:inline-block">
 
 <syntaxhighlight lang="xml">
-<filter id="gamma_correct">
+<filter id="gamma_correct2">
 <feComponentTransfer>
  <feFuncG type="gamma" amplitude="1" exponent="0.5"
           offset="-0.1"/>
@@ -285,24 +288,9 @@ for the '''linear''' type):
 
 </div>
 
-<!--
-2DO: Could use a better "gamma" correction example
--->
-
-<!--
-<div style="display:inline-block">
-
-<syntaxhighlight lang="xml">
-</syntaxhighlight>
-
-[[Image:svgf_CT_.png|400px]]
-
-</div>
--->
-
 ==Transforming colors with feColorMatrix==
 
-The [[svg/element/feColorMatrix|'''feColorMatrix''']] element provides
+The [[svg/elements/feColorMatrix|'''feColorMatrix''']] element provides
 other useful ways to modify an image's color. With its
 [[svg/attribute/type|'''type''']] set to '''saturate''', reducing the
 [[svg/attribute/values|'''values''']] from 1 produces a grayscale,
@@ -365,7 +353,7 @@ effects described below.
 
 </div>
 
-As the name of the [[svg/element/feColorMatrix|'''feColorMatrix''']]
+As the name of the [[svg/elements/feColorMatrix|'''feColorMatrix''']]
 suggests, setting the [[svg/attribute/type|'''type''']] to
 '''matrix''' allows you to transform colors yourself. It specifies a
 20-element transform whose rows correspond to red, green, blue, and
@@ -421,54 +409,58 @@ the interest of clarity.)
 ___
 
 
+==Splitting and merging: building a drop shadow with feOffset, feFlood, feComposite, and feMerge==
+
+Filters allow you to accept various graphic inputs, modify them
+independently, then combine them. This example reproduces the effect
+produced by the CSS [[css/functions/drop-shadow|'''drop-shadow()''']]
+function. Stepping through each line helps may help you build far more
+complex effects:
+
+<syntaxhighlight lang="xml">
+<filter id="css_drop_shadow">
+  <feGaussianBlur stdDeviation="2"  in="SourceAlpha" />
+  <feOffset dx="4" dy="6"           result="offsetblur"/>
+  <feFlood flood-color="#777"/>
+  <feComposite operator="in"        in2="offsetblur"/>
+  <feMerge>
+    <feMergeNode/>
+    <feMergeNode                    in="SourceGraphic"/>
+  </feMerge>
+</filter>
+</syntaxhighlight>
+
+First we start with an image transparency, to help clarify how the
+shadow applies more widely than CSS's
+[[css/properties/box-shadow|'''box-shadow''']],
+[[css/properties/text-shadow|'''text-shadow''']] properties:
+
+[[Image:svgf_dropNoop.png]]
+
 <!--
+The [[svg/elements/feGaussianBlur|'''feGaussianBlur''']], 
+-->
 
-====
+[[Image:svgf_dropOffsetBlur.png]]
 
+[[Image:svgf_dropFlood.png]]
 
+[[Image:svgf_dropComposite.png]]
 
+[[Image:svgf_dropMerge.png]]
 
-==Modifying pixel components (feComponentTransfer)==
-
-
-
-
-<syntaxhighlight lang="xml">
-<filter id="css_brightness">
-<feComponentTransfer>
-<feFuncR type="linear" slope="[amount]"/>
-<feFuncG type="linear" slope="[amount]"/>
-<feFuncB type="linear" slope="[amount]"/>
-</feComponentTransfer>
-</filter>
-</syntaxhighlight>
-
-
+<!--
+<div style="display:inline-block">
 
 <syntaxhighlight lang="xml">
-<filter id="css_contrast">
-<feComponentTransfer>
-<feFuncR type="linear" slope="[amount]" intercept="-(0.5 * [amount] + 0.5)"/>
-<feFuncG type="linear" slope="[amount]" intercept="-(0.5 * [amount] + 0.5)"/>
-<feFuncB type="linear" slope="[amount]" intercept="-(0.5 * [amount] + 0.5)"/>
-</feComponentTransfer>
-</filter>
 </syntaxhighlight>
 
-==Drop shadow (feOffset, feMerge, feComposite)==
+[[Image:svgf_CT_.png|400px]]
 
-<syntaxhighlight lang="xml">
-<filter id="css_drop-shadow">
-<feGaussianBlur in="[alpha-channel-of-input]" stdDeviation="[radius]"/>
-<feOffset dx="[offset-x]" dy="[offset-y]" result="offsetblur"/>
-<feFlood flood-color="[color]"/>
-<feComposite in2="offsetblur" operator="in"/>
-<feMerge>
-<feMergeNode/>
-<feMergeNode in="[input-image]"/>
-</feMerge>
-</filter>
-</syntaxhighlight>
+</div>
+-->
+
+<!--
 
 ==A warp effect (feTurbulence, feDisplacementMap, feComposite)==
 
