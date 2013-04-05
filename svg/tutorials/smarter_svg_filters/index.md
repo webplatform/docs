@@ -432,7 +432,7 @@ complex effects:
 
 First we start with an image transparency:
 
-[[Image:svgf_dropNoop.png|100px]]
+[[Image:svgf_dropNoop.png|192px]]
 
 We've already seen the
 [[svg/elements/feGaussianBlur|'''feGaussianBlur''']] effect in action,
@@ -442,7 +442,7 @@ of its non-transparent pixels. The result of that effect is passed to
 the [[svg/elements/feOffset|'''feOffset''']] effect, which simply
 moves it down and over:
 
-[[Image:svgf_dropOffsetBlur.png|100px]]
+[[Image:svgf_dropOffsetBlur.png|192px]]
 
 The [[svg/elements/feFlood|'''feFlood''']] effect's
 [[svg/properties/flood-color|'''flood-color''']] property simply
@@ -450,7 +450,7 @@ produces a gray color that's independent of the graphic we've produced
 so far, so it renders within the full rectangle the filter operates
 on:
 
-[[Image:svgf_dropFlood.png|100px]]
+[[Image:svgf_dropFlood.png|192px]]
 
 By default, the [[svg/attribute/result|'''result''']] of the flood
 becomes the next effect's [[svg/attribute/in|'''in''']] value, so
@@ -459,9 +459,9 @@ neither of these attributes needs to be explicitly declared.  The
 '''in''' composite operation on the portion of the gray fill that
 falls within the dropped shadow:
 
-[[Image:svgf_dropComposite.png|100px]]
+[[Image:svgf_dropComposite.png|192px]]
 
-[[Image:svgf_dropMerge.png|100px]]
+[[Image:svgf_dropMerge.png|192px]]
 
 <!--
 <div style="display:inline-block">
