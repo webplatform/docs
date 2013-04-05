@@ -211,7 +211,7 @@ zeroing out many:
 </filter>
 </syntaxhighlight>
 
-[[Image:svgf_CTlinear.png|400px]]
+[[Image:svgf_CTlinearIntercept.png|400px]]
 
 </div>
 
