@@ -249,22 +249,41 @@ behaves like the CSS [[css/functions/invert|'''invert()''']] function:
 
 Setting the [[svg/attribute/type|'''type''']] to '''gamma''' allows
 you to perform ''gamma correction'', typically to bring up dark
-values. The function applies this formula to produce a curve:
+values. The function applies the following formula to produce a curve:
 ((''amplitude'' &times; ''value''<sup>''exponent''</sup>) +
-''offset''). In this image with a modified green value, the
-[[svg/attribute/offset|'''offset''']] drops the final value (the same
-that [[svg/attribute/intercept|'''intercept''']] does for the
-'''linear''' type).
+''offset''). The first example brightens the green, and the second
+uses [[svg/attribute/offset|'''offset''']] to bring down the final
+result (the same that [[svg/attribute/intercept|'''intercept''']] does
+for the '''linear''' type):
+
+<div style="display:inline-block">
 
 <syntaxhighlight lang="xml">
 <filter id="gamma_correct">
 <feComponentTransfer>
- <feFuncG type="gamma" amplitude="1" exponent="0.5" offset="-0.1"/>
+ <feFuncG type="gamma" amplitude="1" exponent="0.5"/>
+</feComponentTransfer>
+</filter>
+</syntaxhighlight>
+
+[[Image:svgf_CTgammaOffset0.png|400px]]
+
+</div>
+
+<div style="display:inline-block">
+
+<syntaxhighlight lang="xml">
+<filter id="gamma_correct">
+<feComponentTransfer>
+ <feFuncG type="gamma" amplitude="1" exponent="0.5"
+          offset="-0.1"/>
 </feComponentTransfer>
 </filter>
 </syntaxhighlight>
 
 [[Image:svgf_CTgamma.png|400px]]
+
+</div>
 
 <!--
 2DO: Could use a better "gamma" correction example
