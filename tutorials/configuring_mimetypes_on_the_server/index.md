@@ -46,6 +46,78 @@ AddType video/webm .webm</pre>
 There may be times when you don't have access to edit the global configuration file or may want to make an exception by changing the global settings. In this instances Apache will allow you to create a special file (.htaccess) in the directory and add configuration directives that will apply only to that directory tree.
 
 The sample below is a part of the [[https://raw.github.com/h5bp/html5-boilerplate/|HTML5 Boilerplate]]
+
+<pre>Sample Apache .htaccess mime type section, taken from the HTML5 Boilerplate
+
+  # Audio
+    AddType audio/mp4                                   m4a f4a f4b
+    AddType audio/ogg                                   oga ogg
+
+  # JavaScript
+    # Normalize to standard type (it's sniffed in IE anyways):
+    # http://tools.ietf.org/html/rfc4329#section-7.2
+    AddType application/javascript                      js jsonp
+    AddType application/json                            json
+
+  # Video
+    AddType video/mp4                                   mp4 m4v f4v f4p
+    AddType video/ogg                                   ogv
+    AddType video/webm                                  webm
+    AddType video/x-flv                                 flv
+
+  # Web fonts
+    AddType application/font-woff                       woff
+    AddType application/vnd.ms-fontobject               eot
+
+    # Browsers usually ignore the font MIME types and sniff the content,
+    # however, Chrome shows a warning if other MIME types are used for the
+    # following fonts.
+    AddType application/x-font-ttf                      ttc ttf
+    AddType font/opentype                               otf
+
+    # Make SVGZ fonts work on iPad:
+    # https://twitter.com/FontSquirrel/status/14855840545
+    AddType     image/svg+xml                           svg svgz
+    AddEncoding gzip                                    svgz</pre>
+
+==NGINX==
+
+To change this, you need to update the mime.types file in the conf directory. Depending on how you set up NGINX it could be located under /etc/nginx or /opt/nginx.
+
+After opening the file, you should see something like this:
+
+
+types {
+  text/html      html htm shtml;
+  text/css      css;
+  text/xml      xml;
+  ...
+}
+
+
+==IIS==
+
+<pre><pre><configuration>
+  <system.webServer>
+    <staticContent>
+      <!-- Video -->
+      <mimeMap fileExtension=".mp4" mimeType="video/mp4"/>
+      <mimeMap fileExtension=".webm" mimeType="video/webm"/>
+    </staticContent>
+  </system.webServer>
+    <system.web>
+        <compilation debug="true" targetFramework="4.0" />
+    </system.web>
+</configuration></pre>
+
+
+==Google App Engine==
+
+<pre>- url: /(.*\.ogv)
+  static_files: videos_folder/
+  mime_type: video/ogg
+  upload: videos_folder/(.*\.ogv)</pre>
+
 }}
 {{Notes_Section}}
 {{Compatibility_Section
