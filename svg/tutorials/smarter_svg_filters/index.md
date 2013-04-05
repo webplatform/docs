@@ -155,9 +155,12 @@ color shifts into solid bands based on the step values specified in
 <syntaxhighlight lang="xml">
 <filter id="posterize">
   <feComponentTransfer>
-    <feFuncR type="discrete" tableValues="0 0.2 0.4 0.6 0.8 1"/>
-    <feFuncG type="discrete" tableValues="0 0.2 0.4 0.6 0.8 1"/>
-    <feFuncB type="discrete" tableValues="0 0.2 0.4 0.6 0.8 1"/>
+    <feFuncR type="discrete" 
+        tableValues="0 0.2 0.4 0.6 0.8 1"/>
+    <feFuncG type="discrete" 
+        tableValues="0 0.2 0.4 0.6 0.8 1"/>
+    <feFuncB type="discrete" 
+        tableValues="0 0.2 0.4 0.6 0.8 1"/>
   </feComponentTransfer>
 </filter>
 </syntaxhighlight>
