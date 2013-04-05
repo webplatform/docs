@@ -201,12 +201,9 @@ zeroing out many:
 <syntaxhighlight lang="xml">
 <filter id="bottom_threshold">
 <feComponentTransfer>
- <feFuncR type="linear" slope="1.5" 
-          intercept="-0.3"/>
- <feFuncG type="linear" slope="1.5" 
-          intercept="-0.3"/>
- <feFuncB type="linear" slope="1.5" 
-          intercept="-0.3"/>
+ <feFuncR type="linear" slope="1.5" intercept="-0.3"/>
+ <feFuncG type="linear" slope="1.5" intercept="-0.3"/>
+ <feFuncB type="linear" slope="1.5" intercept="-0.3"/>
 </feComponentTransfer>
 </filter>
 </syntaxhighlight>
