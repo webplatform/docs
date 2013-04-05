@@ -24,18 +24,27 @@ All modern browsers support the <code><video></code> tag, but not all support al
 
 == Server MIME Types ==
 
-Addition to declaring multiple encodings, the web server also needs to be instructed on what to do with various MIME types. 
+Addition to declaring multiple encodings, the web server also needs to be instructed on the association between MIME types and co
 
 See [[concepts/internet and web/mime types|MIME types]] to find more information about MIME types and [[tutorials/video_and_audio_mime_type|Setting up MIME types on your server]] for more information regarding server setup to deliver HTML5 audio and video content. 
 
+== Attributes == 
+The attributes (controls, preload, loop) go inside <code><video></code> tag to change the behavior of the embeded video.
+
 == What about old browsers? ==
 
-Flash fallback
+There are several techniques to ensure that people will be able to access the content we've created. I will cover two of them in this article: Chrome Frame and Flash Fallback
+
+
+===Chrome Frame===
+
+
+===Flash fallback===
 
 You can also use flash as a fallback for when the browser does not support any of the provided formats. Flash supports H264 and Adobe has committed to support the WebM format in their flash player although that time timeline is still not clear. The biggest drawback using Flash as opposed to the Chrome Frame plugin is that you will get the flash player interface instead of  whatever UI you built for your video tag. The details of this technique can be seen in the Quick Guide to Implementing the HTML5 Audio tutorial.
 
 <pre>
-<video width="320" height="240" controls>
+<video width="320" height="240" controls="controls" preload="none">
   <source src="movie.mp4" type="video/mp4">
   <source src="movie.ogg" type="video/ogg">
   <source src="movie.webm" type="video/webm">
@@ -45,8 +54,6 @@ You can also use flash as a fallback for when the browser does not support any o
 </video>
 </pre>
 
-== Attributes == 
-The attributs go inside <code><video></code> tag to change the behavior of the embeded video.
 }}
 {{Examples_Section
 |Not_required=No
