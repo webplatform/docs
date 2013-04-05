@@ -9,14 +9,17 @@
 {{Tutorial
 |Content=
 
+The power of SVG filters is matched by the depth and complexity of
+available options. This guide will only scratch the surface of how you
+can use them.
+
 ==What are filters?==
 
 A filter is a little machine that takes graphic input, changes it in
 some way, and causes the output to render differently. Filters contain
 one or more component ''filter effect'' elements, some of which do
-intuitively obvious things (such as blur the image), and some of which
-only make sense when combined with other effects. (SVG filter effect
-elements are all prefixed ''fe''.)
+intuitively obvious things (such as blur the graphic), and some of
+which only make sense when combined with other effects. 
 
 Filter effects are often chained together so that one effect's output
 becomes another effect's input. Filter effects may also operate on
@@ -46,9 +49,9 @@ Start by placing some text within an SVG graphic:
 [[Image:svgf_none.png]]
 
 Place a [[svg/element/filter|'''filter''']] element within the SVG's
-[[svg/element/defs|'''defs''']] region. The
+[[svg/element/defs|'''defs''']] region.  The
 [[svg/element/feGaussianBlur|'''feGaussianBlur''']] element produces a
-blurring effect, which matches effect of the
+blurring effect, which matches the effect of the
 [[css/functions/blur|'''blur()''']] CSS filter function:
 
 <syntaxhighlight lang="xml">
@@ -57,15 +60,23 @@ blurring effect, which matches effect of the
 </filter>
 </syntaxhighlight>
 
+(SVG filter effect elements are all prefixed ''fe'', and cannot be
+placed outside a [[svg/element/filter|'''filter''']].)
+
 To apply the filter, reference it with the
 [[svg/properties/filter|'''filter''']] property, expressed either as
 an attribute or via CSS:
 
-<syntaxhighlight lang="xml">
-<text class="blurred" filter="url(#blur)" x="30" y="100">An SVG Filter</text>
+<syntaxhighlight lang="xml" highlight="3">
+<text 
+  class  = "blurred" 
+  filter = "url(#blur)" 
+  x      = "30" 
+  y      = "100"
+>An SVG Filter</text>
 </syntaxhighlight>
 
-<syntaxhighlight lang="css">
+<syntaxhighlight lang="css" highlight="2">
 .blurred {
     filter      : url(#blur);
     font-family : sans-serif;
@@ -102,20 +113,40 @@ using the same [[css/functions/url|'''url()''']] function:
 }
 </syntaxhighlight>
 
-<!--
+
 
 ==Modifying colors with feComponentTransfer==
 
 The [[svg/element/feComponentTransfer|'''feComponentTransfer''']]
-element allows you to run different functions to modify each RGBA
-''component'' each pixel represents
+element allows you to modify each RGBA ''component'' represented in
+each pixel. Within the element, nest any combination of
+[[svg/element/feFuncR|'''feFuncR''']],
+[[svg/element/feFuncG|'''feFuncG''']],
+[[svg/element/feFuncB|'''feFuncB''']], and
+[[svg/element/feFuncA|'''feFuncA''']] function elements to modify each
+pixel component.
 
-[[svg/element/feFuncR|'''feFuncR''']]
-[[svg/element/feFuncG|'''feFuncG''']]
-[[svg/element/feFuncB|'''feFuncB''']]
-[[svg/element/feFuncA|'''feFuncA''']]
 
--->
+
+Setting the [[svg/attribute/type|'''type''']] of function to
+'''discrete''' allows you to posterize an image, clustering gradual
+color shifts into solid bands:
+
+<syntaxhighlight lang="xml">
+<filter id="saturate">
+  <feComponentTransfer>
+    <feFuncR type="discrete" tableValues="0 0.2 0.4 0.6 0.8 1"/>
+    <feFuncG type="discrete" tableValues="0 0.2 0.4 0.6 0.8 1"/>
+    <feFuncB type="discrete" tableValues="0 0.2 0.4 0.6 0.8 1"/>
+  </feComponentTransfer>
+</filter>
+</syntaxhighlight>
+
+[[Image:svgf_CTband.png|400px]]
+
+<div style="display:inline-block">
+___
+</div>
 
 ==Transforming colors with feColorMatrix==
 
@@ -124,8 +155,8 @@ other useful ways to modify an image's color. With its
 [[svg/attribute/type|'''type''']] set to '''saturate''', reducing the
 [[svg/attribute/values|'''values''']] from 1 produces a grayscale,
 while increasing it makes the image more vivid, just like the
-[[css/functions/saturate|'''saturate()''']] and
-[[css/functions/grayscale|'''grayscale()''']] CSS functions:
+[[css/functions/grayscale|'''grayscale()''']] and
+[[css/functions/saturate|'''saturate()''']] CSS functions:
 
 <div style="display:inline-block">
 
@@ -246,6 +277,9 @@ ___
 
 ==Modifying pixel components (feComponentTransfer)==
 
+    <feFuncR type="table" tableValues="[amount] (1 - [amount])"/>
+    <feFuncG type="table" tableValues="[amount] (1 - [amount])"/>
+    <feFuncB type="table" tableValues="[amount] (1 - [amount])"/>
 
 
 <syntaxhighlight lang="xml">
