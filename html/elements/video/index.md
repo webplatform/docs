@@ -27,7 +27,7 @@ The three main formats for HTML5 video are: MP4, WebM and OGG Vorbis.
 
 Addition to declaring multiple encodings, the web server also needs to be instructed on the association between MIME types and co
 
-See [[concepts/internet and web/mime types|MIME types]] to find more information about MIME types and [[tutorials/video_and_audio_mime_type|Setting up MIME types on your server]] for more information regarding server setup to deliver HTML5 audio and video content. 
+See [[concepts/internet and web/mime types|MIME types]] to find more information about MIME types and [[tutorials/configuring_mimetypes_on_the_server|Setting up MIME types on your server]] for more information regarding server setup to deliver HTML5 audio and video content. 
 
 == Attributes == 
 The attributes (controls, preload, loop) go inside <code><video></code> tag to change the behavior of the embeded video.
