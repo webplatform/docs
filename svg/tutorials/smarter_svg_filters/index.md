@@ -247,17 +247,27 @@ behaves like the CSS [[css/functions/invert|'''invert()''']] function:
 
 </div>
 
+Setting the [[svg/attribute/type|'''type''']] to '''gamma''' allows
+you to perform ''gamma correction'', typically to bring up dark
+values. The function applies this formula to produce a curve:
+((''amplitude'' &times; ''value''<sup>''exponent''</sup>) +
+''offset''). In this image with a modified green value, the
+[[svg/attribute/offset|'''offset''']] drops the final value (the same
+that [[svg/attribute/intercept|'''intercept''']] does for the
+'''linear''' type).
 
-Setting the [[svg/attribute/type|'''type''']] to '''gamma''' can be
-used for ''gamma correction'' to bring up dark values.
+<syntaxhighlight lang="xml">
+<filter id="gamma_correct">
+<feComponentTransfer>
+ <feFuncG type="gamma" amplitude="1" exponent="0.5" offset="-0.1"/>
+</feComponentTransfer>
+</filter>
+</syntaxhighlight>
 
-((''amplitude'' &times; ''value''<sup>''exponent''</sup>) + ''offset'')
-
+[[Image:svgf_CTgamma.png|400px]]
 
 <!--
-
-2DO: any obvious use case for "gamma" correction?
-
+2DO: Could use a better "gamma" correction example
 -->
 
 <!--
