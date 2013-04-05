@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |Content=Incomplete, Examples Needed
-|Checked_Out=No
+|Checked_Out=Yes
 |Editorial notes=Needs information on codec support.
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -10,23 +10,29 @@
 {{Markup_Element
 |DOM_interface=dom/HTMLVideoElement
 |Content=== Really? No Flash ==
-Yep! No Flash. The video formats is made up by a <code>video stream</code> + <code>audio stream</code>
+Yep! No Flash.  Browsers that support HTML5 video will play the media without the need for external plugings
 
+The video formats is made up by a <code>video stream</code> + <code>audio stream</code>
+
+<pre>
 .mp4 = H.264 + AAC
 .ogg = Theora + Vorbis
 .webm = VP8 + Vorbis
+</pre>
 
-All modern browsers support the <code><video></code> tag, but not all support all 3 encodings. The WebM project is one open-source effort that Chrome and Firefox supports. 
+All modern browsers support the <code><video></code> tag, but not all support all 3 formats. 
 
 == Server MIME Types ==
 
 Addition to declaring multiple encodings, the web server also needs to be instructed on what to do with various MIME types. 
 
+See [[concepts/internet and web/mime types|MIME types]] to find more information about MIME types and [[tutorials/video_and_audio_mime_type|Setting up MIME types on your server]] for more information regarding server setup to deliver HTML5 audio and video content. 
+
 == What about old browsers? ==
 
 Flash fallback
 
-You can also use flash as a fallback for when the browser does not support any of the provided formats. Flash supports H264 and Adobe has committed to support the webm format in their flash player although that time timeline is still not clear. The biggest drawback using Flash as opposed to the Chrome Frame plugin is that you will get the flash player interface instead of  whatever UI you built for your video tag. The details of this technique can be seen in the Quick Guide to Implementing the HTML5 Audio tutorial.
+You can also use flash as a fallback for when the browser does not support any of the provided formats. Flash supports H264 and Adobe has committed to support the WebM format in their flash player although that time timeline is still not clear. The biggest drawback using Flash as opposed to the Chrome Frame plugin is that you will get the flash player interface instead of  whatever UI you built for your video tag. The details of this technique can be seen in the Quick Guide to Implementing the HTML5 Audio tutorial.
 
 <pre>
 <video width="320" height="240" controls>
@@ -46,8 +52,8 @@ The attributs go inside <code><video></code> tag to change the behavior of the e
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=Desired video file should be within src attribute
-|Code=<video src="video.webm"></video>
+|Description=Desired video file should be within src attribute. As a best practice you should also include the controls attribute to show playback and volume controls
+|Code=<video src="video.webm" controls="controls"></video>
 }}{{Single Example
 |Language=HTML
 |Description=HTML5 Video Tag can support different encodings
@@ -59,39 +65,9 @@ The attributs go inside <code><video></code> tag to change the behavior of the e
             You can download it <a href="video.webm">here</a>.
 </video>
 |LiveURL=http://code.webplatform.org/gist/5314736
-}}{{Single Example
-|Language=Other
-|Description=Apache Server - http.conf
-|Code=AddType video/ogg .ogv
-AddType video/mp4 .mp4
-AddType video/webm .webm
-}}{{Single Example
-|Language=Other
-|Description=IIS Server - configuration file
-|Code=<configuration>
-  <system.webServer>
-    <staticContent>
-      <!-- Video -->
-      <mimeMap fileExtension=".mp4" mimeType="video/mp4"/>
-      <mimeMap fileExtension=".webm" mimeType="video/webm"/>
-    </staticContent>
-  </system.webServer>
-    <system.web>
-        <compilation debug="true" targetFramework="4.0" />
-    </system.web>
-
-</configuration>
-}}{{Single Example
-|Language=Other
-|Description=Google App Engine
-|Code=- url: /(.*\.ogv)
-  static_files: videos_folder/
-  mime_type: video/ogg
-  upload: videos_folder/(.*\.ogv)
 }}
 }}
 {{Notes_Section
-|Notes=See [[concepts/internet and web/mime types|MIME types]] to find the right way to serve the media file.
 |Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}221374 HTML5 A vocabulary and associated APIs for HTML and XHTML], Section 4.8.6
 }}
@@ -264,11 +240,11 @@ AddType video/webm .webm
 |Feature=Ogg (Theora + Vorbis)
 |Android_supported=No
 |Android_version=
-|Android_prefixed_supported=Unknown
+|Android_prefixed_supported=No
 |Android_prefixed_version=
-|Blackberry_supported=Unknown
+|Blackberry_supported=No
 |Blackberry_version=
-|Blackberry_prefixed_supported=Unknown
+|Blackberry_prefixed_supported=No
 |Blackberry_prefixed_version=
 |Chrome_mobile_supported=Unknown
 |Chrome_mobile_version=
@@ -347,6 +323,7 @@ AddType video/webm .webm
 }}
 {{See_Also_Section
 |Topic_clusters=Video
+|External_links=* [[http://diveintohtml5.info/video.html| Video Chapter]] from Dive into HTML5
 }}
 {{Topics|HTML, Video}}
 {{External_Attribution
