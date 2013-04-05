@@ -496,7 +496,7 @@ a strange warping effect:
     <feMergeNode in="SourceGraphic"/>
   </feMerge>
   <feTurbulence type="fractalNoise" baseFrequency="0.017" numOctaves="1" result="warp" />
-  <feDisplacementMap xChannelSelector="R" yChannelSelector="G" in="text" in2="warp" scale="60" />
+  <feDisplacementMap xChannelSelector="R" yChannelSelector="G" scale="60" in="text" in2="warp"  />
   <feGaussianBlur stdDeviation="1 2" />
 </filter>
 </syntaxhighlight>
@@ -542,13 +542,19 @@ graphic noise patterns in which colors form clusters:
 The [[svg/elements/feDisplacementMap|'''feDisplacementMap''']] effect
 does the heavy lifting. It moves the text's pixels
 ([[svg/attribute/in|'''in''']]) based on the pixel values of the noise
-pattern ([[svg/attribute/in2|'''in2''']]).
+pattern ([[svg/attribute/in2|'''in2''']]).  The
+[[svg/attribute/xChannelSelector|'''xChannelSelector''']] and
+[[svg/attribute/yChannelSelector|'''yChannelSelector''']] specify
+which color component's value ('''R''', '''G''', '''B''', '''A''') to
+push the pixels along each axis, while the
+[[svg/attribute/scale|'''scale''']] sets the distance.
 
 [[Image:svgf_warpDisplace.png|250px]]
 
 </div><div style="display:inline-block;max-width:280px;padding:12px">
 
-[[svg/elements/feFoo|'''feFoo''']] 
+Finally, [[svg/elements/feGaussianBlur|'''feGaussianBlur''']] smoothes
+sharp edges:
 
 [[Image:svgf_warpBlur.png|250px]]
 
