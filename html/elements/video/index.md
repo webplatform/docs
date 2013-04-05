@@ -1,18 +1,20 @@
 {{Page_Title}}
 {{Flags
 |Content=Incomplete, Examples Needed
-|Checked_Out=Yes
+|Checked_Out=No
 |Editorial notes=Needs information on codec support.
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|The <code>video</code> tag allows a developer to embed a video in a document. It is new to HTML5. Different browsers have various encoding support}}
+{{Summary_Section|The <code>video</code> tag allows a developer to embed a video in a document. It is new to HTML5. Different browsers have various format support}}
 {{Markup_Element
 |DOM_interface=dom/HTMLVideoElement
-|Content=== Really? No Flash ==
-Yep! No Flash.  Browsers that support HTML5 video will play the media without the need for external plugings
+|Content=== Native video playback without plugins ==
+Browsers that support HTML5 video will play the media without the need for external plugins. We no longer need to have Flash installed in order to play video on browsers that support HTML5 video. 
 
-The video formats is made up by a <code>video stream</code> + <code>audio stream</code>
+The video formats is made up by a <code>video stream</code> + <code>audio stream.</code>
+
+The three main formats for HTML5 video are: MP4, WebM and OGG Vorbis. 
 
 <pre>
 .mp4 = H.264 + AAC
@@ -20,7 +22,6 @@ The video formats is made up by a <code>video stream</code> + <code>audio stream
 .webm = VP8 + Vorbis
 </pre>
 
-All modern browsers support the <code><video></code> tag, but not all support all 3 formats. 
 
 == Server MIME Types ==
 
@@ -38,6 +39,7 @@ There are several techniques to ensure that people will be able to access the co
 
 ===Chrome Frame===
 
+[[http://www.google.com/chromeframe?prefersystemlevel=true|Chrome Frame]] is a plugin for Internet Explorer (up to version 8) that will allow the older browsers to work with HTML5 content (not just video and audio) as if it supported the features natively. 
 
 ===Flash fallback===
 
@@ -53,7 +55,6 @@ You can also use flash as a fallback for when the browser does not support any o
   </object> 
 </video>
 </pre>
-
 }}
 {{Examples_Section
 |Not_required=No
