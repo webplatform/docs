@@ -128,7 +128,7 @@ of function over each pixel component value.
 
 Setting the [[svg/attribute/type|'''type''']] of function to
 '''identity''' is equivalent to leaving out the function element
-altogether, leaving the image on the left unchanged.  Setting it to
+altogether, keeping the image on the left unchanged.  Setting it to
 '''discrete''' allows you to posterize an image, clustering gradual
 color shifts into solid bands based on the step values specified in
 [[svg/attribute/tableValues|'''tableValues''']]:
@@ -169,6 +169,49 @@ color shifts into solid bands based on the step values specified in
 
 </div>
 
+Setting the [[svg/attribute/type|'''type''']] to '''linear'''
+multiples the value [[svg/attribute/slope|'''slope''']] value
+(relative to the default '''1'''), then adding an
+[[svg/attribute/intercept|'''intercept''']] value if present.
+
+The first example reproduces the effect of the CSS
+[[css/functions/brightness|'''brightness()''']] function, flattening
+the slope to darken the image. The second increases the slope to
+brighten the image, but then drops all values by the same amount,
+zeroing out many:
+
+<div style="display:inline-block">
+
+<syntaxhighlight lang="xml">
+<filter id="brightness">
+<feComponentTransfer>
+ <feFuncR type="linear" slope="0.5"/>
+ <feFuncG type="linear" slope="0.5"/>
+ <feFuncB type="linear" slope="0.5"/>
+</feComponentTransfer>
+</filter>
+</syntaxhighlight>
+
+[[Image:svgf_CTlinear.png|400px]]
+
+</div>
+
+<div style="display:inline-block">
+
+<syntaxhighlight lang="xml">
+<filter id="bottom_threshold">
+<feComponentTransfer>
+ <feFuncR type="linear" slope="1.5" intercept="-0.3"/>
+ <feFuncG type="linear" slope="1.5" intercept="-0.3"/>
+ <feFuncB type="linear" slope="1.5" intercept="-0.3"/>
+</feComponentTransfer>
+</filter>
+</syntaxhighlight>
+
+[[Image:svgf_CTlinear.png|400px]]
+
+</div>
+
 ==Transforming colors with feColorMatrix==
 
 The [[svg/element/feColorMatrix|'''feColorMatrix''']] element provides
@@ -182,7 +225,7 @@ while increasing it makes the image more vivid, just like the
 <div style="display:inline-block">
 
 <syntaxhighlight lang="xml">
-<filter id="saturate">
+<filter id="grayscale">
   <feColorMatrix type="saturate" values="0"/>
 </filter>
 </syntaxhighlight>
@@ -288,6 +331,7 @@ the interest of clarity.)
 </div>
 
 ___
+
 
 <!--
 
