@@ -518,19 +518,22 @@ it.)
 
 </div><div style="display:inline-block;max-width:280px;padding:12px">
 
-[[svg/elements/feFoo|'''feFoo''']] 
+The [[svg/elements/feComponentTransfer|'''feComponentTransfer''']]
+modifies the color, as described in a previous section:
 
 [[Image:svgf_warpColoredOutline.png|250px]]
 
 </div><div style="display:inline-block;max-width:280px;padding:12px">
 
-[[svg/elements/feFoo|'''feFoo''']] 
+The [[svg/elements/feMerge|'''feMerge''']] combines the modified
+outline with the original letterform:
 
 [[Image:svgf_warpCombinedOutline.png|250px]]
 
 </div><div style="display:inline-block;max-width:280px;padding:12px">
 
-[[svg/elements/feFoo|'''feFoo''']] 
+The [[svg/elements/feTurbulence|'''feTurbulence''']] effect produces
+graphic noise patterns featuring in which colors form clusters:
 
 [[Image:svgf_warpTurbulence.png|250px]]
 
