@@ -1,15 +1,13 @@
-{{Page_Title|Intro to Art and Graphic Design}}
+{{Page_Title|Introduction to Graphic Design}}
 {{Flags
 |Checked_Out=No
 }}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|This article will introduce you to graphic design in broad strokes and more in depth discussion on designing for web, as well as some graphic design tools and concept to consider.}}
 {{Concept_Page
-|Content=It is hard to define what is art without over simplifying.   In most simple and general attempt at definition, it can be described as creative expressions of emotions and imagination, typically in visual form such as painting or sculpture. 
+|Content=Graphic design, in general, is a creative process of organizing visual and/or typographic elements to create communication materials or objects that effectively deliver subject matter at hand to the viewer or target audience.  A well-designed material should be not only aesthetically pleasing and compelling, but must deliver effective communication as its function.  
 
-Graphic design, in general, is a creative process of organizing visual and/or typographic elements to create communication materials or objects that effectively deliver subject matter at hand to the viewer or target audience.  A well-designed material should be not only aesthetically pleasing and compelling, but must deliver effective communication as its function.  
-
-In today's increasingly digital oriented world, much of the graphic design is about designing for the web and other mobile devices.  In designing for the web today, interactivity plays a large part and using an existing static design elements and new web design endeavor must take this into account.  The interactivity delivers [http://www.uxmatters.com/glossary/ user experience (UX)] which, if well designed, can enrich user's experience on the site with intuitive navigation, easy accessibility to target information, brand experience among other things.
+In today's increasingly digitally oriented world, much of the graphic design is about designing for the web and other mobile devices.  In designing for the web today, interactivity plays a large part and using an existing static design elements and new web design endeavor must take this into account.  The interactivity delivers [http://www.uxmatters.com/glossary/ user experience (UX)] which, if well designed, can enrich user's experience on the site with intuitive navigation, easy accessibility to target information, and brand experience among other things.
 
 Some of the tools, elements and things that are used and considered in graphic designs are:
 
