@@ -487,7 +487,14 @@ a strange warping effect:
 
 <syntaxhighlight lang="xml">
 <filter id="warp" >
-  <feMorphology radius="3" operator="dilate" result="text"/>
+  <feMorphology radius="3" operator="dilate"/>
+  <feComponentTransfer>
+    <feFuncR type="table" tableValues="1 0.5"/>
+  </feComponentTransfer>
+  <feMerge result="text">
+    <feMergeNode/>
+    <feMergeNode in="SourceGraphic"/>
+  </feMerge>
   <feTurbulence type="fractalNoise" baseFrequency="0.017" numOctaves="1" result="warp" />
   <feDisplacementMap xChannelSelector="R" yChannelSelector="G" in="text" in2="warp" scale="60" />
   <feGaussianBlur stdDeviation="1 2" />
@@ -504,6 +511,14 @@ graphic. (Alternately, [[svg/attribute/erode|'''erode''']] would erode
 it.)
 
 [[Image:svgf_warpMorph.png]]
+
+[[svg/elements/feFoo|'''feFoo''']] 
+
+[[Image:svgf_warpColoredOutline.png]]
+
+[[svg/elements/feFoo|'''feFoo''']] 
+
+[[Image:svgf_warpCombinedOutline.png]]
 
 [[svg/elements/feFoo|'''feFoo''']] 
 
