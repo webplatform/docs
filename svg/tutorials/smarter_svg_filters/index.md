@@ -247,7 +247,6 @@ behaves like the CSS [[css/functions/invert|'''invert()''']] function:
 
 </div>
 
-<!--
 
 Setting the [[svg/attribute/type|'''type''']] to '''gamma''' can be
 used for ''gamma correction'' to bring up dark values.
@@ -255,6 +254,7 @@ used for ''gamma correction'' to bring up dark values.
 ((''amplitude'' &times; ''value''<sup>''exponent''</sup>) + ''offset'')
 
 
+<!--
 
 2DO: any obvious use case for "gamma" correction?
 
