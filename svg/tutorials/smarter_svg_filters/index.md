@@ -544,10 +544,10 @@ does the heavy lifting. It moves the text's pixels
 ([[svg/attribute/in|'''in''']]) based on the pixel values of the noise
 pattern ([[svg/attribute/in2|'''in2''']]).  The
 [[svg/attribute/xChannelSelector|'''xChannelSelector''']] and
-[[svg/attribute/yChannelSelector|'''yChannelSelector''']] specify
-which color component's value ('''R''', '''G''', '''B''', '''A''') to
-push the pixels along each axis, while the
-[[svg/attribute/scale|'''scale''']] sets the distance.
+[[svg/attribute/yChannelSelector|'''yChannelSelector''']] specify, for
+each axis, which color component's value ('''R''', '''G''', '''B''',
+'''A''') to use to push the pixels. The
+[[svg/attribute/scale|'''scale''']] sets the overall range of movement.
 
 [[Image:svgf_warpDisplace.png|250px]]
 
