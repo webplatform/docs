@@ -45,7 +45,7 @@ AddType video/webm .webm</pre>
 
 There may be times when you don't have access to edit the global configuration file or may want to make an exception by changing the global settings. In this instances Apache will allow you to create a special file (.htaccess) in the directory and add configuration directives that will apply only to that directory tree.
 
-The sample below is a part of the [[https://raw.github.com/h5bp/html5-boilerplate/master/.htaccess|.htaccess]] file for HTML5 Boilerplate 
+The sample below is a part of the [[https://raw.github.com/h5bp/html5-boilerplate/|HTML5 Boilerplate]]
 }}
 {{Notes_Section}}
 {{Compatibility_Section
