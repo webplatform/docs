@@ -648,7 +648,7 @@ pattern ([[svg/attribute/in2|'''in2''']]).  The
 [[svg/attribute/xChannelSelector|'''xChannelSelector''']] and
 [[svg/attribute/yChannelSelector|'''yChannelSelector''']] specify, for
 each axis, which color component's value ('''R''', '''G''', '''B''',
-'''A''') to use to push the pixels. The
+or '''A''') to use to push the pixels. The
 [[svg/attribute/scale|'''scale''']] sets the overall range of movement.
 
 [[Image:svgf_warpDisplace.png|250px]]
@@ -662,21 +662,69 @@ sharp edges:
 
 </div>
 
-
 <!--
-<div style="display:inline-block">
+
+==Textures (feTurbulence)==
+
+The [[svg/elements/feTurbulence|'''feTurbulence''']] effect is
+indispensible for creating grain and weave textures. Step through the
+following example:
 
 <syntaxhighlight lang="xml">
+<filter id="weave">
+ <feTurbulence baseFrequency=".25,.03" numOctaves="3" seed="1"/>
+ <feComponentTransfer result="grain">
+   <feFuncR type="linear" slope="3"/>
+ </feComponentTransfer>
+ <feFlood flood-color="brown"/>
+ <feMerge>
+   <feMergeNode/>
+   <feMergeNode in="grain"/>
+ </feMerge>
+<!--
+ <feTurbulence baseFrequency=".03" numOctaves="3" seed="1"/>
+-->
+</filter>
 </syntaxhighlight>
 
-[[Image:svgf_CT_.png|400px]]
+<div style="display:inline-block">
+
+___
+
+[[Image:svgf_TBturb.png|200px]]
 
 </div>
--->
+
+<div style="display:inline-block">
+
+___
+
+[[Image:svgf_TBcomp.png|200px]]
+
+</div>
+
+<div style="display:inline-block">
+
+___
+
+[[Image:svgf_TBflood.png|200px]]
+
+</div>
+
+<div style="display:inline-block">
+
+___
+
+[[Image:svgf_TBmerge.png|200px]]
+
+</div>
+
+
 
 <!--
+-->
 
-==Bevel effects (feSpecularLighting)==
+==Beveled text with lighting effects (feSpecularLighting)==
 
 ==(feDiffuseLighting, feDistantLight)==
 
@@ -700,8 +748,6 @@ o feTile
 
 o feBlend
 
-o feConvolveMatrix
-
 * feDiffuseLighting
 
 * feSpecularLighting
@@ -712,9 +758,7 @@ o feConvolveMatrix
 
 15.8 Light source elements and properties
 
-15.13 'feConvolveMatrix'
 15.14 'feDiffuseLighting'
-15.15 'feDisplacementMap'
 
 15.18 'feImage'
 15.23 'feTile'
