@@ -33,25 +33,10 @@ This snippet uses the <code>&lt;source&gt;</code> tag which lets you include mul
 You can also use a single video format which makes the syntax very similar to the image tag. This syntax will be the most used one in the near future when all browsers support one common video format.
 
 <pre>
- &lt;video src="movie.webm"&gt;&lt;/video&gt;
+ &lt;video src="movie.webm" controls="controls"&gt;&lt;/video&gt;
 </pre>
 
-For now, we'll focus on the former case which is currently more common. ''The most important thing to remember'' is to make sure your server is serving video files with the correct MIME type, specified in the <code>Content-Type</code> header. If not, videos might not work properly, even if they are working on a local copy of your site. In an Apache httpd.conf it's enough by adding these lines:
-
-<pre>
- AddType video/ogg .ogv
- AddType video/mp4 .mp4
- AddType video/webm .webm
-</pre>
-
-If your app is being served in a Google App Engine app then you would need to add something like the following to app.yaml (one for each format):
-
-<pre>
- - url: /(.*\.ogv)
-   static_files: videos_folder/\1
-   mime_type: video/ogg
-   upload: videos_folder/(.*\.ogv)
-</pre>
+For now, we'll focus on the former case which is currently more common. ''The most important thing to remember'' is to make sure your server is serving video files with the correct MIME type, specified in the <code>Content-Type</code> header. If not, videos might not work properly, even if they are working on a local copy of your site. See [[tutorials/configuring_mimetypes_on_the_server| Configuring Mime Types on the server]] for more information on configuring your server with new Mime Types
 
 In order to improve the client side performance it's important to remember to specify the <code>type</code> attribute in the <code>source</code> tags when dealing with multiple formats. This way, the browser can decide which format it can download and play. In other words, it won't download the ones it can't play, in order to increase the performance of the site.
 
