@@ -453,7 +453,7 @@ higher-contrast edges shown at the right:
 </div>
 
 Getting convolve filters to behave predictably takes some practice.
-The example on the left sharpens the image more dramatically, while
+The example on the left sharpens the detail more dramatically, while
 the one on the right embosses it diagonally:
 
 <div style="display:inline-block">
@@ -468,9 +468,9 @@ the one on the right embosses it diagonally:
 
 <div style="display:inline-block">
 
- 4  0  0
+ 9  0  0
  0  1  0
- 0  0 -4
+ 0  0 -9
 
 [[Image:svgf_CVemboss.png|400px]]
 
