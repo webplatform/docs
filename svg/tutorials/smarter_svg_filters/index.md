@@ -477,9 +477,10 @@ the one on the right embosses it diagonally:
 </div>
 
 Convolution filters can also highlight moats around high-contrast
-edges.  The more dramatic texture on the right uses an
-[[svg/attribute/order|'''order''']] of 5, which extends the range of
-the calculation to each adjacent neighbor's farthest neighbor:
+edges.  The more dramatic texture on the right forms moats throughout
+the image.  It uses an [[svg/attribute/order|'''order''']] of 5, which
+extends the range of the calculation to each adjacent neighbor's
+farthest neighbor:
 
 <div style="display:inline-block">
 
