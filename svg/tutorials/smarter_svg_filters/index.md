@@ -682,7 +682,7 @@ following example:
 </filter>
 </syntaxhighlight>
 
-<div style="display:inline-block">
+<div style="display:inline-block;max-width:280px;padding:12px">
 
 ___
 
@@ -690,7 +690,7 @@ ___
 
 </div>
 
-<div style="display:inline-block">
+<div style="display:inline-block;max-width:280px;padding:12px">
 
 ___
 
@@ -698,7 +698,7 @@ ___
 
 </div>
 
-<div style="display:inline-block">
+<div style="display:inline-block;max-width:280px;padding:12px">
 
 ___
 
@@ -706,7 +706,7 @@ ___
 
 </div>
 
-<div style="display:inline-block">
+<div style="display:inline-block;max-width:280px;padding:12px">
 
 ___
 
