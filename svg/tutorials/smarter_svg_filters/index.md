@@ -508,7 +508,7 @@ above, and the effect-chaining technique described below.)
 
 </div>
 
-==Splitting and merging: building a drop shadow with feOffset, feFlood, feComposite, and feMerge==
+==Chaining, splitting and merging effects: building a drop shadow with feOffset, feFlood, feComposite, and feMerge==
 
 Filters allow you to accept various graphic inputs, modify them
 independently, then combine them. This example reproduces the effect
