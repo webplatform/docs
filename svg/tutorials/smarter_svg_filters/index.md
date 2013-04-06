@@ -662,8 +662,6 @@ sharp edges:
 
 </div>
 
-<!--
-
 ==Textures (feTurbulence)==
 
 The [[svg/elements/feTurbulence|'''feTurbulence''']] effect is
@@ -719,10 +717,7 @@ ___
 
 </div>
 
-
-
 <!--
--->
 
 ==Beveled text with lighting effects (feSpecularLighting)==
 
