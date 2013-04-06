@@ -452,8 +452,32 @@ higher-contrast edges shown at the right:
 
 </div>
 
-Convolution filters can also highlight moats around edges. The more
-dramatic texture on the right uses an
+Getting convolve filters to behave predictably takes some practice.
+The example on the left sharpens the image more dramatically, while
+the one on the right embosses it diagonally:
+
+<div style="display:inline-block">
+
+  1  -1    1
+ -1  -0.1 -1 
+  1  -1    1
+
+[[Image:svgf_CVsuperSharp.png|400px]]
+
+</div>
+
+<div style="display:inline-block">
+
+ 4  0  0
+ 0  1  0
+ 0  0 -4
+
+[[Image:svgf_CVemboss.png|400px]]
+
+</div>
+
+Convolution filters can also highlight moats around high-contrast
+edges.  The more dramatic texture on the right uses an
 [[svg/attribute/order|'''order''']] of 5, which extends the range of
 the calculation to each adjacent neighbor's farthest neighbor:
 
