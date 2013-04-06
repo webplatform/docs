@@ -432,11 +432,9 @@ The relative weight of the neighbors helps calculate the pixel's new
 value.  (In this case it's 0 times each adjacent pixel's value, summed
 together along with 1 times the value of the pixel, divided by the sum
 of all the pixel values.) So this initial example has no effect on the
-image.
-
-As you can see on the left, the image starts out blurred. Applying a
-sharpen filter nudges pixels for the higher-contrast edges shown at
-the right:
+image.  As you can see on the left, the image starts out somewhat
+blurred.  Applying a sharpen filter nudges pixels for the
+higher-contrast edges shown at the right:
 
   1  -1  1 
  -1  -1 -1 
@@ -451,6 +449,33 @@ the right:
 <div style="display:inline-block">
 
 [[Image:svgf_CVsharpen.png|400px]]
+
+</div>
+
+Convolution filters can also highlight moats around edges. The more
+dramatic texture on the right uses an
+[[svg/attribute/order|'''order''']] of 5, which extends the range of
+the calculation to each adjacent neighbor's farthest neighbor:
+
+<div style="display:inline-block">
+
+ -1 -1 -1
+ -1  7 -1
+ -1 -1 -1
+
+[[Image:svgf_CVedge.png|400px]]
+
+</div>
+
+<div style="display:inline-block">
+
+ 1   1   1   1  1 
+ 1  -2  -2  -2  1 
+ 1  -2  .01 -2  1 
+ 1  -2  -2  -2  1 
+ 1   1   1   1  1
+
+[[Image:svgf_CVsuperEdge.png|400px]]
 
 </div>
 
