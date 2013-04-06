@@ -679,9 +679,6 @@ following example:
    <feMergeNode/>
    <feMergeNode in="grain"/>
  </feMerge>
-<!--
- <feTurbulence baseFrequency=".03" numOctaves="3" seed="1"/>
--->
 </filter>
 </syntaxhighlight>
 
