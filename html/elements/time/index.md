@@ -2,8 +2,9 @@
 {{Flags
 |High-level issues=Stub, Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Examples Needed
+|Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|The <code>time</code> tag defines either a time (24 hour clock), or a date in the Gregorian calendar, optionally with a time and a time-zone offset. It does not render differently in any of the major browsers.
 
@@ -32,11 +33,10 @@ More in the [https://developer.mozilla.org/en-US/docs/HTML/HTML_Elements/time ti
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Topic_clusters=HTML
+}}
 {{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
