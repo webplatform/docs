@@ -429,12 +429,30 @@ its immediate neighbors:
  0 0 0
 
 The relative weight of the neighbors helps calculate the pixel's new
-value.  (In this case it's 0 times each adjacent pixel's value,
-summed together along with 1 times the value of the pixel, divided by
-the sum of all the pixel values.)  So this initial example has no
-effect on the image, which starts out blurred:
+value.  (In this case it's 0 times each adjacent pixel's value, summed
+together along with 1 times the value of the pixel, divided by the sum
+of all the pixel values.) So this initial example has no effect on the
+image.
 
-[[Image:svgf_CVnoop.png]]
+As you can see on the left, the image starts out blurred. Applying a
+sharpen filter nudges pixels for the higher-contrast edges shown at
+the right:
+
+  1  -1  1 
+ -1  -1 -1 
+  1  -1  1
+
+<div style="display:inline-block">
+
+[[Image:svgf_CVnoop.png|400px]]
+
+</div>
+
+<div style="display:inline-block">
+
+[[Image:svgf_CVsharpen.png|400px]]
+
+</div>
 
 ==Splitting and merging: building a drop shadow with feOffset, feFlood, feComposite, and feMerge==
 
