@@ -406,6 +406,36 @@ the interest of clarity.)
 
 </div>
 
+==Sharpening images with feConvolveMatrix==
+
+The [[svg/elements/feConvolveMatrix|'''feConvolveMatrix''']] effect
+allows you to modify pixels based on the values of their neighbors,
+useful in sharpening details.  In its simplest form, the
+[[svg/attribute/order|'''order''']] attribute declares a 3&times;3
+box, which defines a matrix of 9 table values that must be reflected
+in the [[svg/attribute/kernelMatrix|'''kernelMatrix''']] attribute:
+
+<syntaxhighlight lang="xml">
+<filter id="no_op">
+  <feConvolveMatrix order="3" kernelMatrix="0 0 0 0 1 0 0 0 0"/>
+</filter>
+</syntaxhighlight>
+
+The middle value is the pixel to modify, and the others form a map of
+its immediate neighbors:
+
+ 0 0 0
+ 0 1 0
+ 0 0 0
+
+The relative weight of the neighbors helps calculate the pixel's new
+value.  (In this case it's 0 times each adjacent pixel's value,
+summed together along with 1 times the value of the pixel, divided by
+the sum of all the pixel values.)  So this initial example has no
+effect on the image, which starts out blurred:
+
+[[Image:svgf_CVnoop.png]]
+
 ==Splitting and merging: building a drop shadow with feOffset, feFlood, feComposite, and feMerge==
 
 Filters allow you to accept various graphic inputs, modify them
@@ -533,7 +563,7 @@ outline with the original letterform:
 </div><div style="display:inline-block;max-width:280px;padding:12px">
 
 The [[svg/elements/feTurbulence|'''feTurbulence''']] effect produces
-graphic noise patterns in which colors form clusters:
+graphic noise patterns within which colors form clusters:
 
 [[Image:svgf_warpTurbulence.png|250px]]
 
@@ -560,10 +590,6 @@ sharp edges:
 
 </div>
 
-
-==___==
-
-...
 
 <!--
 <div style="display:inline-block">
@@ -602,16 +628,11 @@ o feTile
 
 o feBlend
 
-o feMorphology [http://www.cs.auckland.ac.nz/courses/compsci773s1c/lectures/ImageProcessing-html/topic4.htm]
-
-* feTurbulence
-* feDisplacementMap
 o feConvolveMatrix
 
 * feDiffuseLighting
 
 * feSpecularLighting
-
 
 15.5 Filter effects region
 
@@ -619,26 +640,45 @@ o feConvolveMatrix
 
 15.8 Light source elements and properties
 
-15.8.1 Introduction
+15.13 'feConvolveMatrix'
+15.14 'feDiffuseLighting'
+15.15 'feDisplacementMap'
+
+15.18 'feImage'
+15.23 'feTile'
+
+15.22 'feSpecularLighting'
+
+<filter id="pictureFilter" >
+  <feColorMatrix type="luminanceToAlpha" />
+<feDiffuseLighting diffuseConstant="1" surfaceScale="10" result="diffuse3">
+<feDistantLight elevation="28" azimuth="180" /></feDiffuseLighting>
+<feComposite operator="in" in2="inputTo_3" />
+<filter />
 
 
+<filter id="filtersText">
+<feComposite operator="arithmetic" k1="0" k2="1" k3="0" k4="0" in="SourceGraphic" in2="SourceGraphic" result="inputTo_2">
+</feComposite>
+<feTurbulence type="fractalNoise" baseFrequency="0.015" numOctaves="2" result="turbulence_2" data-filterId="2">
+</feTurbulence>
+<feDisplacementMap xChannelSelector="R" yChannelSelector="G"
+  in="inputTo_2" in2="turbulence_2" id="filter_2" scale="65"
+  data-filterId="2" result="inputTo_3">
+</feDisplacementMap>
+<feGaussianBlur stdDeviation="10" data-filterId="3">
+</feGaussianBlur>
+<feSpecularLighting specularExponent="20" surfaceScale="5" data-filterId="3">
+<feDistantLight elevation="28" id="filter_3" azimuth="90">
+</feDistantLight>
+</feSpecularLighting>
+<feComposite operator="in" in2="inputTo_3" data-filterId="3">
+</feComposite>
+<feComposite operator="arithmetic" k2="1" k3="1" in2="inputTo_3" data-filterId="3">
+</feComposite>
+</filter>
 
-15.9 Filter primitive 'feBlend'
-15.10 Filter primitive 'feColorMatrix'
-15.11 Filter primitive 'feComponentTransfer'
-15.12 Filter primitive 'feComposite'
-15.13 Filter primitive 'feConvolveMatrix'
-15.14 Filter primitive 'feDiffuseLighting'
-15.15 Filter primitive 'feDisplacementMap'
-15.16 Filter primitive 'feFlood'
-15.17 Filter primitive 'feGaussianBlur'
-15.18 Filter primitive 'feImage'
-15.19 Filter primitive 'feMerge'
-15.20 Filter primitive 'feMorphology'
-15.21 Filter primitive 'feOffset'
-15.22 Filter primitive 'feSpecularLighting'
-15.23 Filter primitive 'feTile'
-15.24 Filter primitive 'feTurbulence'
+
 -->
 
 }}
