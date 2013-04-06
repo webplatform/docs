@@ -14,7 +14,8 @@ available options. It takes a good deal of practice to master the many
 filter effects that are available to you, but hopefully this will help
 you understand what's possible.  It starts by showing how modify color
 values in ways that often correspond to built-in CSS filter functions.
-Then it shows you how to split and merge independent channels
+Then it shows you how to split and merge independent channels to take
+advantage of some of SVG's more unusual filter effects.
 
 ==What are filters?==
 
@@ -478,9 +479,12 @@ the one on the right embosses it diagonally:
 
 Convolution filters can also highlight moats around high-contrast
 edges.  The more dramatic texture on the right forms moats throughout
-the image.  It uses an [[svg/attribute/order|'''order''']] of 5, which
-extends the range of the calculation to each adjacent neighbor's
-farthest neighbor:
+the image.  It requires an [[svg/attribute/order|'''order''']] of 5,
+which extends the range of the calculation to each adjacent neighbor's
+farthest neighbor.  (As shown here, it is converted to a grayscale
+using the '''luminanceToAlpha'''
+[[svg/elements/feColorMatrix|'''feColorMatrix''']] type discussed
+above, and the effect-chaining technique described below.)
 
 <div style="display:inline-block">
 
