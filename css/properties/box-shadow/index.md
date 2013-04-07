@@ -4,7 +4,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|The ‘box-shadow’ property attaches one or more shadows inside or outside of a box-model element_ The property is a comma-separated list of shadows, each specified by 2-4 length values, an optional color, and an optional ‘inset’ keyword_ box-shadow is a simple style that can be manipulated to generate complex effects_
+{{Summary_Section|The ‘box-shadow’ property attaches one or more shadows inside or outside of a box-model element. The property is a comma-separated list of shadows, each specified by 2-4 length values, an optional color, and an optional ‘inset’ keyword. box-shadow is a simple style that can be manipulated to generate complex effects.|The ‘box-shadow’ property attaches one or more shadows inside or outside of a box-model element_ The property is a comma-separated list of shadows, each specified by 2-4 length values, an optional color, and an optional ‘inset’ keyword_ box-shadow is a simple style that can be manipulated to generate complex effects_
 
 Given a box, the shadow style is represented as follows:
 
@@ -140,11 +140,9 @@ See also:
 |Internet_explorer_supported=Yes
 |Internet_explorer_version=9.0
 |Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
 |Opera_supported=Yes
 |Opera_version=10.5
 |Opera_prefixed_supported=No
-|Opera_prefixed_version=
 |Safari_supported=Yes
 |Safari_version=5.1
 |Safari_prefixed_supported=Yes
@@ -160,25 +158,15 @@ See also:
 |Blackberry_prefixed_supported=Yes
 |Blackberry_prefixed_version=7.0
 |Chrome_mobile_supported=Unknown
-|Chrome_mobile_version=
 |Chrome_mobile_prefixed_supported=Unknown
-|Chrome_mobile_prefixed_version=
 |Firefox_mobile_supported=Unknown
-|Firefox_mobile_version=
 |Firefox_mobile_prefixed_supported=Unknown
-|Firefox_mobile_prefixed_version=
 |IE_mobile_supported=Unknown
-|IE_mobile_version=
 |IE_mobile_prefixed_supported=Unknown
-|IE_mobile_prefixed_version=
 |Opera_mobile_supported=No
-|Opera_mobile_version=
 |Opera_mobile_prefixed_supported=Unknown
-|Opera_mobile_prefixed_version=
 |Opera_mini_supported=Unknown
-|Opera_mini_version=
 |Opera_mini_prefixed_supported=Unknown
-|Opera_mini_prefixed_version=
 |Safari_mobile_supported=Yes
 |Safari_mobile_version=5.0-5.1
 |Safari_mobile_prefixed_supported=Yes
@@ -202,7 +190,4 @@ See also:
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
