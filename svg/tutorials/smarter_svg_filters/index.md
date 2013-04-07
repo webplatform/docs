@@ -684,7 +684,9 @@ following example:
 
 <div style="display:inline-block;max-width:280px;padding:12px">
 
-___
+Supplying the [[svg/elements/feTurbulence|'''feTurbulence''']] effect
+with two [[svg/attribute/baseFrequency|'''baseFrequency''']] values
+creates a striped effect:
 
 [[Image:svgf_TBturb.png|200px]]
 
@@ -692,7 +694,8 @@ ___
 
 <div style="display:inline-block;max-width:280px;padding:12px">
 
-___
+An [[svg/elements/feComponentTransfer|'''feComponentTransfer''']]
+boosts the red values:
 
 [[Image:svgf_TBcomp.png|200px]]
 
@@ -700,7 +703,7 @@ ___
 
 <div style="display:inline-block;max-width:280px;padding:12px">
 
-___
+An [[svg/elements/feFlood|'''feFlood''']] provides a background color:
 
 [[Image:svgf_TBflood.png|200px]]
 
@@ -708,7 +711,7 @@ ___
 
 <div style="display:inline-block;max-width:280px;padding:12px">
 
-___
+The final [[svg/elements/feMerge|'''feMerge''']] overlays the pattern:
 
 [[Image:svgf_TBmerge.png|200px]]
 
