@@ -682,7 +682,7 @@ following example:
 </filter>
 </syntaxhighlight>
 
-<div style="display:inline-block;max-width:280px;padding:12px">
+<div style="display:inline-block;max-width:240px;padding:12px">
 
 Supplying the [[svg/elements/feTurbulence|'''feTurbulence''']] effect
 with two [[svg/attribute/baseFrequency|'''baseFrequency''']] values
@@ -692,7 +692,7 @@ creates a striped effect:
 
 </div>
 
-<div style="display:inline-block;max-width:280px;padding:12px">
+<div style="display:inline-block;max-width:240px;padding:12px">
 
 An [[svg/elements/feComponentTransfer|'''feComponentTransfer''']]
 boosts the red values:
@@ -701,7 +701,7 @@ boosts the red values:
 
 </div>
 
-<div style="display:inline-block;max-width:280px;padding:12px">
+<div style="display:inline-block;max-width:240px;padding:12px">
 
 An [[svg/elements/feFlood|'''feFlood''']] provides a background color:
 
@@ -709,7 +709,7 @@ An [[svg/elements/feFlood|'''feFlood''']] provides a background color:
 
 </div>
 
-<div style="display:inline-block;max-width:280px;padding:12px">
+<div style="display:inline-block;max-width:240px;padding:12px">
 
 The final [[svg/elements/feMerge|'''feMerge''']] overlays the pattern:
 
