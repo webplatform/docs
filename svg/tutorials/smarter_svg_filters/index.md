@@ -647,9 +647,9 @@ produces the final effect:
 
 </div>
 
-The displacement effect moves the text's pixels
-([[svg/attribute/in|'''in''']]) based on the pixel values of the noise
-pattern ([[svg/attribute/in2|'''in2''']]).  The
+The displacement effect moves the text's pixels (specified by
+[[svg/attribute/in|'''in''']]) based on the pixel values of the noise
+pattern (specified by [[svg/attribute/in2|'''in2''']]).  The
 [[svg/attribute/xChannelSelector|'''xChannelSelector''']] and
 [[svg/attribute/yChannelSelector|'''yChannelSelector''']] specify, for
 each axis, which color component's value ('''R''', '''G''', '''B''',
