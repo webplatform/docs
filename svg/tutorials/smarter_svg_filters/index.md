@@ -640,19 +640,22 @@ graphic noise patterns within which colors form clusters:
 
 </div><div style="display:inline-block;max-width:280px;padding:12px">
 
-The [[svg/elements/feDisplacementMap|'''feDisplacementMap''']] effect
-does the heavy lifting. It moves the text's pixels
+The [[svg/elements/feDisplacementMap|'''feDisplacementMap''']]
+produces the final effect:
+
+[[Image:svgf_warpDisplace.png|250px]]
+
+</div>
+
+The displacement effect moves the text's pixels
 ([[svg/attribute/in|'''in''']]) based on the pixel values of the noise
 pattern ([[svg/attribute/in2|'''in2''']]).  The
 [[svg/attribute/xChannelSelector|'''xChannelSelector''']] and
 [[svg/attribute/yChannelSelector|'''yChannelSelector''']] specify, for
 each axis, which color component's value ('''R''', '''G''', '''B''',
 or '''A''') to use to push the pixels. The
-[[svg/attribute/scale|'''scale''']] sets the overall range of movement.
-
-[[Image:svgf_warpDisplace.png|250px]]
-
-</div>
+[[svg/attribute/scale|'''scale''']] sets the overall range of
+movement.
 
 ==Textures (feTurbulence)==
 
