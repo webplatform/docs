@@ -599,7 +599,6 @@ a strange warping effect:
   </feMerge>
   <feTurbulence type="fractalNoise" baseFrequency="0.017" numOctaves="1" result="warp" />
   <feDisplacementMap xChannelSelector="R" yChannelSelector="G" scale="60" in="text" in2="warp"  />
-  <feGaussianBlur stdDeviation="1 2" />
 </filter>
 </syntaxhighlight>
 
@@ -653,19 +652,12 @@ or '''A''') to use to push the pixels. The
 
 [[Image:svgf_warpDisplace.png|250px]]
 
-</div><div style="display:inline-block;max-width:280px;padding:12px">
-
-Finally, [[svg/elements/feGaussianBlur|'''feGaussianBlur''']] smoothes
-sharp edges:
-
-[[Image:svgf_warpBlur.png|250px]]
-
 </div>
 
 ==Textures (feTurbulence)==
 
-Turbulence is indispensible for creating grain and weave textures for
-use in background patterns.  Step through the following example:
+Turbulence is indispensible for grain and weave textures used in
+background patterns.  Step through the following example:
 
 <syntaxhighlight lang="xml">
 <filter id="weave">
@@ -716,13 +708,11 @@ The final [[svg/elements/feMerge|'''feMerge''']] overlays the pattern:
 
 </div>
 
+==Beveling with lighting effects (feSpecularLighting, feDiffuseLighting)==
+
 <!--
 
-==Beveled text with lighting effects (feSpecularLighting)==
-
-==(feDiffuseLighting, feDistantLight)==
-
-fePointLight, feSpotLight, lighting-color
+feDistantLight, fePointLight, feSpotLight, lighting-color
 
 <syntaxhighlight lang="xml">
 <filter id="pictureFilter" >
