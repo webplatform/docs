@@ -682,38 +682,38 @@ following example:
 </filter>
 </syntaxhighlight>
 
-<div style="display:inline-block;max-width:220px;padding:12px">
+<div style="display:inline-block;max-width:200px;padding:12px">
 
 Supplying the [[svg/elements/feTurbulence|'''feTurbulence''']] effect
 with two [[svg/attribute/baseFrequency|'''baseFrequency''']] values
 creates a striped effect:
 
-[[Image:svgf_TBturb.png|200px]]
+[[Image:svgf_TBturb.png|180px]]
 
 </div>
 
-<div style="display:inline-block;max-width:220px;padding:12px">
+<div style="display:inline-block;max-width:200px;padding:12px">
 
 An [[svg/elements/feComponentTransfer|'''feComponentTransfer''']]
 boosts the red values:
 
-[[Image:svgf_TBcomp.png|200px]]
+[[Image:svgf_TBcomp.png|180px]]
 
 </div>
 
-<div style="display:inline-block;max-width:220px;padding:12px">
+<div style="display:inline-block;max-width:200px;padding:12px">
 
 An [[svg/elements/feFlood|'''feFlood''']] provides a background color:
 
-[[Image:svgf_TBflood.png|200px]]
+[[Image:svgf_TBflood.png|180px]]
 
 </div>
 
-<div style="display:inline-block;max-width:220px;padding:12px">
+<div style="display:inline-block;max-width:200px;padding:12px">
 
 The final [[svg/elements/feMerge|'''feMerge''']] overlays the pattern:
 
-[[Image:svgf_TBmerge.png|200px]]
+[[Image:svgf_TBmerge.png|180px]]
 
 </div>
 
