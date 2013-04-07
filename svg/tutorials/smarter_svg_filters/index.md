@@ -433,9 +433,9 @@ The relative weight of the neighbors helps calculate the pixel's new
 value.  (In this case it's 0 times each adjacent pixel's value, summed
 together along with 1 times the value of the pixel, divided by the sum
 of all the pixel values.) So this initial example has no effect on the
-image.  As you can see on the left, the image starts out somewhat
-blurred.  Applying a sharpen filter nudges pixels for the
-higher-contrast edges shown at the right:
+image.  The image on the left starts out somewhat blurred.  Applying a
+sharpen filter nudges pixels for the higher-contrast edges shown at
+the right:
 
   1  -1  1 
  -1  -1 -1 
@@ -627,8 +627,8 @@ modifies the color, as described in a previous section:
 
 </div><div style="display:inline-block;max-width:280px;padding:12px">
 
-The [[svg/elements/feMerge|'''feMerge''']] combines the modified
-outline with the original letterform:
+The [[svg/elements/feMerge|'''feMerge''']] places the modified
+outline behind the original letterform:
 
 [[Image:svgf_warpCombinedOutline.png|250px]]
 
@@ -664,9 +664,8 @@ sharp edges:
 
 ==Textures (feTurbulence)==
 
-The [[svg/elements/feTurbulence|'''feTurbulence''']] effect is
-indispensible for creating grain and weave textures. Step through the
-following example:
+Turbulence is indispensible for creating grain and weave textures for
+use in background patterns.  Step through the following example:
 
 <syntaxhighlight lang="xml">
 <filter id="weave">
