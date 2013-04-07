@@ -710,6 +710,8 @@ The final [[svg/elements/feMerge|'''feMerge''']] overlays the pattern:
 
 ==Beveling with lighting effects (feSpecularLighting, feDiffuseLighting)==
 
+.
+
 <!--
 
 feDistantLight, fePointLight, feSpotLight, lighting-color
