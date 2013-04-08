@@ -634,7 +634,7 @@ outline behind the original letterform:
 </div><div style="display:inline-block;max-width:280px;padding:12px">
 
 The [[svg/elements/feTurbulence|'''feTurbulence''']] effect produces
-graphic noise patterns within which colors form clusters:
+its own graphic noise within which colors form cloud-like patterns:
 
 [[Image:svgf_warpTurbulence.png|250px]]
 
@@ -711,11 +711,28 @@ The final [[svg/elements/feMerge|'''feMerge''']] overlays the pattern:
 
 </div>
 
-==Beveling with lighting effects (feSpecularLighting, feDiffuseLighting)==
+==Lighting Effects==
 
+<div style="display:inline-block;max-width:3200px;padding:12px">
+
+[[Image:svgf_TERRturb1.png|300px]]
+
+</div><div style="display:inline-block;max-width:3200px;padding:12px">
+
+[[Image:svgf_TERRturb2.png|300px]]
+
+</div><div style="display:inline-block;max-width:3200px;padding:12px">
+
+[[Image:svgf_TERRturb3.png|300px]]
+
+</div>
 .
 
 <!--
+
+==Beveling (feSpecularLighting)==
+
+==Beveling (feSpecularLighting)==
 
 feDistantLight, fePointLight, feSpotLight, lighting-color
 
