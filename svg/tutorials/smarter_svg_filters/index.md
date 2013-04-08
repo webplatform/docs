@@ -713,17 +713,17 @@ The final [[svg/elements/feMerge|'''feMerge''']] overlays the pattern:
 
 ==Lighting Effects==
 
-<div style="display:inline-block;max-width:3200px;padding:12px">
+<div style="display:inline-block;max-width:300px;padding:12px">
 
-[[Image:svgf_TERRturb1.png|300px]]
+[[Image:svgf_TERRturb1.png|280px]]
 
-</div><div style="display:inline-block;max-width:3200px;padding:12px">
+</div><div style="display:inline-block;max-width:300px;padding:12px">
 
-[[Image:svgf_TERRturb2.png|300px]]
+[[Image:svgf_TERRturb2.png|280px]]
 
-</div><div style="display:inline-block;max-width:3200px;padding:12px">
+</div><div style="display:inline-block;max-width:300px;padding:12px">
 
-[[Image:svgf_TERRturb3.png|300px]]
+[[Image:svgf_TERRturb3.png|280px]]
 
 </div>
 .
