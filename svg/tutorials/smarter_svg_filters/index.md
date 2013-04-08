@@ -711,28 +711,30 @@ The final [[svg/elements/feMerge|'''feMerge''']] overlays the pattern:
 
 </div>
 
-==Understanding lighting effects==
+==Lighting effects==
 
 Shining a light on a graphic gives it additional depth and texture.  A
 graphic's alpha channel forms a ''bump map'' that responds to light.
 Transparent values remain flat, while opaque values rise to form peaks
-that can be illuminated more prominently more from an angle.
+that can be illuminated more prominently from an angle.
 
-You need several things to create a lighting effect:
+To create a lighting effect, you need to specify three things:
+
+* A light ''color'', specified by the [[svg/properties/lighting-color|'''lighting-color''']] property
 
 * A light ''source'', of which there are three kinds:
-** foo
-** bar
-** barfu
 
-To light a graphic, you need to specify a light source, the color of
-the light, and a filter effect denoting one of two basic kinds of
-light:
+** a ''distant'' light ([[svg/elements/feDistantLight|'''feDistantLight''']]) is arbirtarily far away, and so is specified in terms of its angle from the target. This is the most appropriate way to represent sunlight.
 
-* The [[svg/elements/feDiffuseLighting|'''feDiffuseLighting''']] element specifies indirect light from an outside source.
+** a ''point'' light ([[svg/elements/fePointLight|'''fePointLight''']]) emanates from a specific point that is represented as a three-dimensional ''x''/''y''/''z'' coordinate. This is more appropriate when you need perspective, such as relative to a room light.
 
-* The [[svg/elements/feSpecularLighting|'''feSpecularLighting''']] element specifies secondary light from reflective surfaces.
+** a ''spot'' light ([[svg/elements/feSpotLight|'''feSpotLight''']]) behaves much like a point light, but its beam can be narrowed to a cone, and the light can pivot to other targets.
 
+* A basic ''type'' of light, of which two are available:
+
+** ''diffuse'' light ([[svg/elements/feDiffuseLighting|'''feDiffuseLighting''']]) indicates indirect light from an outside source.
+
+** ''specular'' light ([[svg/elements/feSpecularLighting|'''feSpecularLighting''']]) specifies secondary light from reflective surfaces.
 
 
 
