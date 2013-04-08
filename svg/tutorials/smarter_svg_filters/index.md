@@ -713,11 +713,7 @@ The final [[svg/elements/feMerge|'''feMerge''']] overlays the pattern:
 
 ==Lighting effects==
 
-Shining a light on a graphic gives it additional depth and texture.  A
-graphic's alpha channel forms a ''bump map'' that responds to light.
-Transparent values remain flat, while opaque values rise to form peaks
-that can be illuminated more prominently from an angle.
-
+Shining a light on a graphic provides additional depth and texture.
 To create a lighting effect, you need to specify three things:
 
 * A light ''color'', specified by the [[svg/properties/lighting-color|'''lighting-color''']] property
@@ -734,9 +730,12 @@ To create a lighting effect, you need to specify three things:
 
 ** ''diffuse'' light ([[svg/elements/feDiffuseLighting|'''feDiffuseLighting''']]) indicates indirect light from an outside source.
 
-** ''specular'' light ([[svg/elements/feSpecularLighting|'''feSpecularLighting''']]) specifies secondary light from reflective surfaces.
+** ''specular'' light ([[svg/elements/feSpecularLighting|'''feSpecularLighting''']]) specifies secondary light that bounced from reflective surfaces.
 
-
+A graphic's alpha channel forms a ''bump map'' that responds to light.
+Transparent values remain flat, while opaque values rise to form peaks
+that are illuminated more prominently.  To illustrate how lighting
+works, this example generates a hilly terrain:
 
 <syntaxhighlight lang="xml">
 <filter id="terrain" x="0" y="0" width="100%" height="100%">
@@ -745,21 +744,22 @@ To create a lighting effect, you need to specify three things:
 <feComponentTransfer>
  <feFuncA type="table" tableValues="1 0"/>
 </feComponentTransfer>
+</filter>
 </syntaxhighlight>
 
 <div style="display:inline-block;max-width:280px;padding:12px">
 
 The [[svg/elements/feTurbulence|'''feTurbulence''']] provides a noise
-pattern.  The darker clusters will form hilltops, and the surrounding
-white areas will be valleys:
+pattern.  The darker clusters will become hilltops, and the
+surrounding white areas will be valleys:
 
 [[Image:svgf_TERRturb1.png|260px]]
 
 </div><div style="display:inline-block;max-width:280px;padding:12px">
 
 The [[svg/elements/feColorMatrix|'''feColorMatrix''']] element's
-'''luminanceToAlpha''' type converts the bright colors in the valleys
-to higher alpha values:
+'''luminanceToAlpha''' type converts the brighter colors in the
+valleys to higher alpha values:
 
 [[Image:svgf_TERRturb2.png|260px]]
 
@@ -773,6 +773,27 @@ valleys have lower values:
 
 </div>
 
+To specify the lighting effect, nest the light source element
+([[svg/elements/feDistantLight|'''feDistantLight''']],
+[[svg/elements/fePointLight|'''fePointLight''']],
+[[svg/elements/feSpotLight|'''feSpotLight''']]) within the lighting
+type ([[svg/elements/feDiffuseLighting|'''feDiffuseLighting''']],
+[[svg/elements/feSpecularLighting|'''feSpecularLighting''']]).  This
+specifies a distant light:
+
+<syntaxhighlight lang="xml">
+<feDiffuseLighting lighting-color="brown" surfaceScale="100" diffuseConstant="1.0">
+  <feDistantLight azimuth="0" elevation="20"/>
+</feDiffuseLighting>
+</syntaxhighlight>
+
+[[Image:svgf_TERRdiff.png]]
+
+
+
+[[Image:svgf_TERRspec.png]]
+
+[[Image:svgf_TERRboth.png]]
 
 <!--
 
