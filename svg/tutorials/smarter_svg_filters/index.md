@@ -736,29 +736,29 @@ SVG provides two different kinds of light:
 </feComponentTransfer>
 </syntaxhighlight>
 
-<div style="display:inline-block;max-width:300px;padding:12px">
+<div style="display:inline-block;max-width:280px;padding:12px">
 
 The [[svg/elements/feTurbulence|'''feTurbulence''']] provides a noise
-pattern.  The darker clusters will be the hilltops, and the
-surrounding white areas will be the valleys:
+pattern.  The darker clusters will form hilltops, and the surrounding
+white areas will be valleys:
 
-[[Image:svgf_TERRturb1.png|280px]]
+[[Image:svgf_TERRturb1.png|260px]]
 
-</div><div style="display:inline-block;max-width:300px;padding:12px">
+</div><div style="display:inline-block;max-width:280px;padding:12px">
 
 The [[svg/elements/feColorMatrix|'''feColorMatrix''']] element's
-'''luminanceToAlpha''' type converts the bright colors in the vallets
-to higher alpha values.
+'''luminanceToAlpha''' type converts the bright colors in the valleys
+to higher alpha values:
 
-[[Image:svgf_TERRturb2.png|280px]]
+[[Image:svgf_TERRturb2.png|260px]]
 
-</div><div style="display:inline-block;max-width:300px;padding:12px">
+</div><div style="display:inline-block;max-width:280px;padding:12px">
 
 The [[svg/elements/feComponentTransfer|'''feComponentTransfer''']]
 inverts the alpha channel, so that peaks have higher values and
 valleys have lower values:
 
-[[Image:svgf_TERRturb3.png|280px]]
+[[Image:svgf_TERRturb3.png|260px]]
 
 </div>
 
