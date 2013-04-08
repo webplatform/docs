@@ -711,13 +711,40 @@ The final [[svg/elements/feMerge|'''feMerge''']] overlays the pattern:
 
 </div>
 
-==Lighting Effects==
+==Understanding lighting effects==
+
+Shining a light on a graphic gives it additional depth and texture.
+
+<!--
+alpha channel
+-->
+
+SVG provides two different kinds of light:
+
+* ''Diffuse'' light
+
+* ''Specular'' light
+
+
+
+<syntaxhighlight lang="xml">
+<filter id="terrain" x="0" y="0" width="100%" height="100%">
+<feTurbulence baseFrequency=".01" numOctaves="2" seed="10" type="turbulence"/>
+<feColorMatrix type="luminanceToAlpha"/>
+<feComponentTransfer>
+ <feFuncA type="table" tableValues="1 0"/>
+</feComponentTransfer>
+</syntaxhighlight>
 
 <div style="display:inline-block;max-width:300px;padding:12px">
+
+The [[svg/elements/feTurbulence|'''feTurbulence''']] provides a noise pattern.
 
 [[Image:svgf_TERRturb1.png|280px]]
 
 </div><div style="display:inline-block;max-width:300px;padding:12px">
+
+The [[svg/elements/feTurbulence|'''feTurbulence''']] provides a noise pattern.
 
 [[Image:svgf_TERRturb2.png|280px]]
 
