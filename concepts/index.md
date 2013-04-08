@@ -98,6 +98,18 @@ Our general web concepts are concept and tutorial articles covering general subj
   
   </div>
 
+    <div class="long-topic">
+  
+    <div class="image icon-concept"></div>
+    
+    <div class="inner">
+    <h3>[[concepts/performance|Optimizing Performance]]</h3>
+    
+    <p>Programming and monitoring techniques that make the most of bandwidth and performance .</p>
+    </div>
+  
+  </div>
+
 </div>
 <div class="clearfixboth"></div>
 
