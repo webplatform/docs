@@ -713,17 +713,26 @@ The final [[svg/elements/feMerge|'''feMerge''']] overlays the pattern:
 
 ==Understanding lighting effects==
 
-Shining a light on a graphic gives it additional depth and texture.
+Shining a light on a graphic gives it additional depth and texture.  A
+graphic's alpha channel forms a ''bump map'' that responds to light.
+Transparent values remain flat, while opaque values rise to form peaks
+that can be illuminated more prominently more from an angle.
 
-<!--
-alpha channel
--->
+You need several things to create a lighting effect:
 
-SVG provides two different kinds of light:
+* A light ''source'', of which there are three kinds:
+ * foo
+ * bar
+ * barfu
 
-* ''Diffuse'' light
+To light a graphic, you need to specify a light source, the color of
+the light, and a filter effect denoting one of two basic kinds of
+light:
 
-* ''Specular'' light
+* The [[svg/elements/feDiffuseLighting|'''feDiffuseLighting''']] element specifies indirect light from an outside source.
+
+* The [[svg/elements/feSpecularLighting|'''feSpecularLighting''']] element specifies secondary light from reflective surfaces.
+
 
 
 
