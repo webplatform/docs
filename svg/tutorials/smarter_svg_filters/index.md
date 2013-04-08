@@ -721,9 +721,9 @@ that can be illuminated more prominently more from an angle.
 You need several things to create a lighting effect:
 
 * A light ''source'', of which there are three kinds:
- * foo
- * bar
- * barfu
+** foo
+** bar
+** barfu
 
 To light a graphic, you need to specify a light source, the color of
 the light, and a filter effect denoting one of two basic kinds of
