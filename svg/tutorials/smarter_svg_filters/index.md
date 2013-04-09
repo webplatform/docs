@@ -582,6 +582,10 @@ which renders over it for the final effect:
 
 </div>
 
+<!--
+==Other merge options: feBlend, feComposite==
+-->
+
 ==A warp effect (feMorphology, feTurbulence, feDisplacementMap)==
 
 The next example shows how to combine several filter effects to create
@@ -712,6 +716,8 @@ The final [[svg/elements/feMerge|'''feMerge''']] overlays the pattern:
 </div>
 
 <!--
+
+The filter region
 
 -->
 
