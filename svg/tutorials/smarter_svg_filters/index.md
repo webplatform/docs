@@ -894,6 +894,10 @@ allows you to tightly focus the beam:
 
 [[Image:svgf_TERRspot.png]]
 
+See this
+[http://letmespellitoutforyou.com/samples/svg/filter_terrain.svg animated SVG]
+that repositions the light sources in these examples.
+
 ==Beveling (feSpecularLighting)==
 
 Using lighting effects to bevel graphics adds a greater sense of depth
