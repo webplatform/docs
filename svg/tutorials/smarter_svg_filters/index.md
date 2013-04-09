@@ -864,8 +864,6 @@ relative percentages, otherwise the default '''userSpaceOnUse''' value
 references the coordinate system in effect when the filter was
 applied.
 
-<div style="display:inline-block;max-width:280px;padding:12px">
-
 A point light allows you to place light sources closer to the scene.
 This makes the light appear to hover directly over the graphic:
 
@@ -874,8 +872,6 @@ This makes the light appear to hover directly over the graphic:
 </syntaxhighlight>
 
 [[Image:svgf_TERRpoint.png]]
-
-</div><div style="display:inline-block;max-width:280px;padding:12px">
 
 A spot light can direct a beam from the light source to a different
 target defined by the [[svg/attributes/pointsAtX|'''pointsAtX''']],
@@ -890,9 +886,6 @@ allows you to tightly focus the beam:
 </syntaxhighlight>
 
 [[Image:svgf_TERRspot.png]]
-
-</div>
-
 
 <!--
 
@@ -950,7 +943,6 @@ o feBlend
 <feComposite operator="in" in2="inputTo_3" />
 <filter />
 
-
 <filter id="filtersText">
 <feComposite operator="arithmetic" k1="0" k2="1" k3="0" k4="0" in="SourceGraphic" in2="SourceGraphic" result="inputTo_2">
 </feComposite>
@@ -971,7 +963,6 @@ o feBlend
 <feComposite operator="arithmetic" k2="1" k3="1" in2="inputTo_3" data-filterId="3">
 </feComposite>
 </filter>
-
 
 -->
 
