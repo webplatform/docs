@@ -890,8 +890,9 @@ allows you to tightly focus the beam:
 
 ==Beveling (feSpecularLighting)==
 
-Step through this example to see how to make existing graphics appear
-beveled:
+Using lighting effects to bevel graphics adds a greater sense of depth
+to the drop-shadow effect seen above.  Step through this example to
+build the effect:
 
 <syntaxhighlight lang="xml">
 <filter id="bevel" filterUnits="userSpaceOnUse">
@@ -912,25 +913,25 @@ beveled:
 </filter>
 </syntaxhighlight>
 
-<div style="display:inline-block;max-width:280px;padding:12px">
+<div style="display:inline-block;max-width:420px;padding:12px">
 
-[[Image:svgf_bevelOrig.png|260px]]
+[[Image:svgf_bevelOrig.png]]
 
-</div><div style="display:inline-block;max-width:280px;padding:12px">
+</div><div style="display:inline-block;max-width:420px;padding:12px">
 
-[[Image:svgf_bevelBlur.png|260px]]
+[[Image:svgf_bevelBlur.png]]
 
-</div><div style="display:inline-block;max-width:280px;padding:12px">
+</div><div style="display:inline-block;max-width:420px;padding:12px">
 
-[[Image:svgf_bevelSpec.png|260px]]
+[[Image:svgf_bevelSpec.png]]
 
-</div><div style="display:inline-block;max-width:280px;padding:12px">
+</div><div style="display:inline-block;max-width:420px;padding:12px">
 
-[[Image:svgf_bevelCompAlpha.png|260px]]
+[[Image:svgf_bevelCompAlpha.png]]
 
-</div><div style="display:inline-block;max-width:280px;padding:12px">
+</div><div style="display:inline-block;max-width:420px;padding:12px">
 
-[[Image:svgf_bevelCompImg.png|260px]]
+[[Image:svgf_bevelCompImg.png]]
 
 </div>
 
