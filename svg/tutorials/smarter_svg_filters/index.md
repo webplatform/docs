@@ -128,12 +128,12 @@ each pixel. Within the element, nest any combination of
 [[svg/elements/feFuncA|'''feFuncA''']] elements to run different types
 of function over each pixel component value. 
 
-Setting the [[svg/attribute/type|'''type''']] of function to
+Setting the [[svg/attributes/type|'''type''']] of function to
 '''identity''' is equivalent to leaving out the function element
 altogether, keeping the image on the left unchanged.  Setting it to
 '''discrete''' allows you to posterize an image, clustering gradual
 color shifts into solid bands based on the step values specified in
-[[svg/attribute/tableValues|'''tableValues''']]:
+[[svg/attributes/tableValues|'''tableValues''']]:
 
 <div style="display:inline-block">
 
@@ -171,10 +171,10 @@ color shifts into solid bands based on the step values specified in
 
 </div>
 
-Setting the [[svg/attribute/type|'''type''']] to '''linear'''
-multiples the value [[svg/attribute/slope|'''slope''']] value
+Setting the [[svg/attributes/type|'''type''']] to '''linear'''
+multiples the value [[svg/attributes/slope|'''slope''']] value
 (relative to the default '''1'''), then adding an
-[[svg/attribute/intercept|'''intercept''']] value if present.
+[[svg/attributes/intercept|'''intercept''']] value if present.
 
 The first example reproduces the effect of the CSS
 [[css/functions/brightness|'''brightness()''']] function, flattening
@@ -214,9 +214,9 @@ zeroing out many of them:
 
 </div>
 
-Setting the [[svg/attribute/type|'''type''']] to '''table''' lets you
+Setting the [[svg/attributes/type|'''type''']] to '''table''' lets you
 specify your own linear slope based on two
-[[svg/attribute/tableValues|'''tableValues''']].  The first example
+[[svg/attributes/tableValues|'''tableValues''']].  The first example
 behaves like the CSS [[css/functions/opacity|'''opacity()''']]
 function.  The second, specifying a negative slope from 1 to 0,
 behaves like the CSS [[css/functions/invert|'''invert()''']] function:
@@ -251,13 +251,13 @@ behaves like the CSS [[css/functions/invert|'''invert()''']] function:
 
 </div>
 
-Setting the [[svg/attribute/type|'''type''']] to '''gamma''' allows
+Setting the [[svg/attributes/type|'''type''']] to '''gamma''' allows
 you to perform ''gamma correction'', typically to bring up dark
 values. The function applies the following formula to produce a curve:
 ((''amplitude'' &times; ''value''<sup>''exponent''</sup>) +
 ''offset''). The first example brightens the green, and the second
-uses [[svg/attribute/offset|'''offset''']] to bring down the final
-result (the same that [[svg/attribute/intercept|'''intercept''']] does
+uses [[svg/attributes/offset|'''offset''']] to bring down the final
+result (the same that [[svg/attributes/intercept|'''intercept''']] does
 for the '''linear''' type):
 
 <div style="display:inline-block">
@@ -293,8 +293,8 @@ for the '''linear''' type):
 
 The [[svg/elements/feColorMatrix|'''feColorMatrix''']] element provides
 other useful ways to modify an image's color. With its
-[[svg/attribute/type|'''type''']] set to '''saturate''', reducing the
-[[svg/attribute/values|'''values''']] from 1 produces a grayscale,
+[[svg/attributes/type|'''type''']] set to '''saturate''', reducing the
+[[svg/attributes/values|'''values''']] from 1 produces a grayscale,
 while increasing it makes the image more vivid, just like the
 [[css/functions/grayscale|'''grayscale()''']] and
 [[css/functions/saturate|'''saturate()''']] CSS functions:
@@ -323,7 +323,7 @@ while increasing it makes the image more vivid, just like the
 
 </div>
 
-Setting the [[svg/attribute/type|'''type''']] to '''hueRotate'''
+Setting the [[svg/attributes/type|'''type''']] to '''hueRotate'''
 alters the angle along the color wheel, just like the
 [[css/functions/hue-rotate|'''hue-rotate()''']] CSS function.  Setting
 '''luminanceToAlpha''' (no '''values''' necessary) produces an alpha
@@ -355,7 +355,7 @@ effects described below.
 </div>
 
 As the name of the [[svg/elements/feColorMatrix|'''feColorMatrix''']]
-suggests, setting the [[svg/attribute/type|'''type''']] to
+suggests, setting the [[svg/attributes/type|'''type''']] to
 '''matrix''' allows you to transform colors yourself. It specifies a
 20-element transform whose rows correspond to red, green, blue, and
 alpha channels. This transform leaves the image unchanged:
@@ -370,7 +370,7 @@ alpha channels. This transform leaves the image unchanged:
 The first example below reproduces the effect of the CSS
 [[css/functions/sepia|'''sepia()''']] function, while the second
 simply reduces green and blue tones. (The
-[[svg/attribute/values|'''values''']] are stacked into a table only in
+[[svg/attributes/values|'''values''']] are stacked into a table only in
 the interest of clarity.)
 
 <div style="display:inline-block">
@@ -412,9 +412,9 @@ the interest of clarity.)
 The [[svg/elements/feConvolveMatrix|'''feConvolveMatrix''']] effect
 allows you to modify pixels based on the values of their neighbors,
 useful in sharpening details.  In its simplest form, the
-[[svg/attribute/order|'''order''']] attribute declares a 3&times;3
+[[svg/attributes/order|'''order''']] attribute declares a 3&times;3
 box, which defines a matrix of 9 table values that must be reflected
-in the [[svg/attribute/kernelMatrix|'''kernelMatrix''']] attribute:
+in the [[svg/attributes/kernelMatrix|'''kernelMatrix''']] attribute:
 
 <syntaxhighlight lang="xml">
 <filter id="no_op">
@@ -479,7 +479,7 @@ the one on the right embosses it diagonally:
 
 Convolution filters can also highlight moats around high-contrast
 edges.  The more dramatic texture on the right forms moats throughout
-the image.  It requires an [[svg/attribute/order|'''order''']] of 5,
+the image.  It requires an [[svg/attributes/order|'''order''']] of 5,
 which extends the range of the calculation to each adjacent neighbor's
 farthest neighbor.  (As shown here, it is converted to a grayscale
 using the '''luminanceToAlpha'''
@@ -540,7 +540,7 @@ First we start with an image transparency:
 We've already seen the
 [[svg/elements/feGaussianBlur|'''feGaussianBlur''']] effect in action,
 but in this case it behaves differently.  The optional
-[[svg/attribute/in|'''in''']] specifies the '''SourceAlpha''', or all
+[[svg/attributes/in|'''in''']] specifies the '''SourceAlpha''', or all
 of its non-transparent pixels. The result of that effect, which is
 colored black, is passed to the next
 [[svg/elements/feOffset|'''feOffset''']] effect, which simply moves it
@@ -561,8 +561,8 @@ region:
 
 </div><div style="display:inline-block;max-width:280px;padding:12px">
 
-By default, the [[svg/attribute/result|'''result''']] of the flood
-becomes the next effect's [[svg/attribute/in|'''in''']] value, so
+By default, the [[svg/attributes/result|'''result''']] of the flood
+becomes the next effect's [[svg/attributes/in|'''in''']] value, so
 neither of these attributes needs to be explicitly declared here.  The
 [[svg/elements/feComposite|'''feComposite''']] effect applies the
 '''in''' composite operation on the portion of the gray fill that
@@ -611,8 +611,8 @@ Start with a bit of text:
 </div><div style="display:inline-block;max-width:280px;padding:12px">
 
 The [[svg/elements/feMorphology|'''feMorphology''']] effect specifies
-a [[svg/attribute/dilate|'''dilate''']] factor to thicken the
-graphic. (Alternately, [[svg/attribute/erode|'''erode''']] would erode
+a [[svg/attributes/dilate|'''dilate''']] factor to thicken the
+graphic. (Alternately, [[svg/attributes/erode|'''erode''']] would erode
 it.)
 
 [[Image:svgf_warpMorph.png|250px]]
@@ -648,13 +648,13 @@ produces the final effect:
 </div>
 
 The displacement effect moves the text's pixels (specified by
-[[svg/attribute/in|'''in''']]) based on the pixel values of the noise
-pattern (specified by [[svg/attribute/in2|'''in2''']]).  The
-[[svg/attribute/xChannelSelector|'''xChannelSelector''']] and
-[[svg/attribute/yChannelSelector|'''yChannelSelector''']] specify, for
+[[svg/attributes/in|'''in''']]) based on the pixel values of the noise
+pattern (specified by [[svg/attributes/in2|'''in2''']]).  The
+[[svg/attributes/xChannelSelector|'''xChannelSelector''']] and
+[[svg/attributes/yChannelSelector|'''yChannelSelector''']] specify, for
 each axis, which color component's value ('''R''', '''G''', '''B''',
 or '''A''') to use to push the pixels. The
-[[svg/attribute/scale|'''scale''']] sets the overall range of
+[[svg/attributes/scale|'''scale''']] sets the overall range of
 movement.
 
 ==Textures (feTurbulence)==
@@ -679,7 +679,7 @@ background patterns.  Step through the following example:
 <div style="display:inline-block;max-width:200px;padding:12px">
 
 Supplying the [[svg/elements/feTurbulence|'''feTurbulence''']] effect
-with two [[svg/attribute/baseFrequency|'''baseFrequency''']] values
+with two [[svg/attributes/baseFrequency|'''baseFrequency''']] values
 creates a striped effect:
 
 [[Image:svgf_TBturb.png|180px]]
@@ -778,24 +778,73 @@ To specify the lighting effect, nest the light source element
 [[svg/elements/fePointLight|'''fePointLight''']],
 [[svg/elements/feSpotLight|'''feSpotLight''']]) within the lighting
 type ([[svg/elements/feDiffuseLighting|'''feDiffuseLighting''']],
-[[svg/elements/feSpecularLighting|'''feSpecularLighting''']]).  This
-specifies a distant light:
+[[svg/elements/feSpecularLighting|'''feSpecularLighting''']]).
+This example specifies a distant light:
 
 <syntaxhighlight lang="xml">
-<feDiffuseLighting lighting-color="brown" surfaceScale="100" diffuseConstant="1.0">
+<feDiffuseLighting lighting-color="brown" surfaceScale="100" diffuseConstant="1">
   <feDistantLight azimuth="0" elevation="20"/>
 </feDiffuseLighting>
 </syntaxhighlight>
 
 [[Image:svgf_TERRdiff.png]]
 
+The distant light source's [[svg/attributes/azimuth|'''azimuth''']]
+corresponds to a compass angle along the horizon, which lies along the
+plane of the display screen.  The
+[[svg/attributes/elevation|'''elevation''']] specifies the angle from
+the horizon, with 90&deg; facing straight up, or out from the screen.
 
+The diffuse lighting effect's
+[[svg/attributes/surfaceScale|'''surfaceScale''']] sets the maximum
+height of the hilltops. The
+[[svg/attributes/diffuseConstant|'''diffuseConstant''']] sets the
+light's saturation, so increasing it from its default value of 1
+produces sunlight that's brighter than usual.
+
+The corresponding specular lighting effect only produces highlights,
+which can be overlaid on the original scene:
+
+<syntaxhighlight lang="xml">
+<feSpecularLighting lighting-color="brown" surfaceScale="100" specularConstant="1">
+  <feDistantLight azimuth="0" elevation="20" />
+</feSpecularLighting>
+</syntaxhighlight>
 
 [[Image:svgf_TERRspec.png]]
+
+This shows the two effects used in combination, with the
+[[svg/properties/lighting-color|'''lighting-color''']] property
+specified separately in a style sheet:
+
+<syntaxhighlight lang="css">
+.feDiffuseLighting, .feSpecularLighting { lighting-color: brown }
+</syntaxhighlight>
+
+<syntaxhighlight lang="xml">
+<feTurbulence baseFrequency=".01" numOctaves="2" seed="1" type="turbulence"/>
+<feColorMatrix type="luminanceToAlpha"/>
+<feComponentTransfer result="terrain">
+ <feFuncA type="table" tableValues="1 0"/>
+</feComponentTransfer>
+<feDiffuseLighting surfaceScale="100" in="terrain" result="scene">
+  <feDistantLight azimuth="0" elevation="20"/>
+</feDiffuseLighting>
+<feSpecularLighting surfaceScale="100" in="terrain" result="highlights">
+  <feDistantLight azimuth="90" elevation="20" />
+</feSpecularLighting>
+<feComposite in="scene" in2="highlights" operator="xor"/>
+</syntaxhighlight>
 
 [[Image:svgf_TERRboth.png]]
 
 <!--
+
+[[svg/attributes/foo|'''foo''']]
+[[svg/attributes/foo|'''foo''']]
+[[svg/attributes/foo|'''foo''']]
+[[svg/attributes/foo|'''foo''']]
+[[svg/attributes/foo|'''foo''']]
 
 ==Beveling (feSpecularLighting)==
 
