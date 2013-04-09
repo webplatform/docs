@@ -829,7 +829,9 @@ which can be overlaid on the original scene:
 
 This shows the two effects used in combination, with the
 [[svg/properties/lighting-color|'''lighting-color''']] property
-specified separately in a style sheet:
+specified separately in a style sheet. The two lighting effects take
+the same ''terrain'' input, then later composite the ''scene'' and its
+''highlights'':
 
 <syntaxhighlight lang="css">
 .feDiffuseLighting,
@@ -881,8 +883,7 @@ target defined by the [[svg/attributes/pointsAtX|'''pointsAtX''']],
 allows you to tightly focus the beam:
 
 <syntaxhighlight lang="xml">
-<feSpotLight x="0" y="100" z="150" pointsAtX="200" pointsAtY="100"
-             pointsAtZ="0" limitingConeAngle="30"/>
+<feSpotLight x="0" y="100" z="150" pointsAtX="200" pointsAtY="100" pointsAtZ="0" limitingConeAngle="30"/>
 </syntaxhighlight>
 
 [[Image:svgf_TERRspot.png]]
