@@ -932,11 +932,10 @@ beveled:
 
 [[Image:svgf_bevelCompImg.png|260px]]
 
-</div><div style="display:inline-block;max-width:280px;padding:12px">
-
-[[Image:svgf_bevelFinal.png|260px]]
-
 </div>
+
+[[Image:svgf_bevelFinal.png]]
+
 
 <!--
 
