@@ -818,10 +818,14 @@ This shows the two effects used in combination, with the
 specified separately in a style sheet:
 
 <syntaxhighlight lang="css">
-.feDiffuseLighting, .feSpecularLighting { lighting-color: brown }
+.feDiffuseLighting,
+.feSpecularLighting {
+    lighting-color: brown;
+}
 </syntaxhighlight>
 
 <syntaxhighlight lang="xml">
+<filter x="0" y="0" width="100%" height="100%" id="shadow_terrain" primitiveUnits="objectBoundingBox">
 <feTurbulence baseFrequency=".01" numOctaves="2" seed="1" type="turbulence"/>
 <feColorMatrix type="luminanceToAlpha"/>
 <feComponentTransfer result="terrain">
@@ -834,6 +838,7 @@ specified separately in a style sheet:
   <feDistantLight azimuth="90" elevation="20" />
 </feSpecularLighting>
 <feComposite in="scene" in2="highlights" operator="xor"/>
+</filter>
 </syntaxhighlight>
 
 [[Image:svgf_TERRboth.png]]
