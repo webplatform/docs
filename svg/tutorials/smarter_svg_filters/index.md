@@ -888,6 +888,56 @@ allows you to tightly focus the beam:
 
 [[Image:svgf_TERRspot.png]]
 
+==Beveling (feSpecularLighting)==
+
+Step through this example to see how to make existing graphics appear
+beveled:
+
+<syntaxhighlight lang="xml">
+<filter id="bevel" filterUnits="userSpaceOnUse">
+  <feGaussianBlur in="SourceAlpha" stdDeviation="4" result="blur"/>
+  <feOffset in="blur" dx="4" dy="4" result="offsetBlur"/>
+  <feSpecularLighting surfaceScale="5" specularConstant=".75"
+      specularExponent="20" lighting-color="#bbbbbb" in="blur"
+      result="specOut">
+    <fePointLight x="-5000" y="-10000" z="20000"/>
+  </feSpecularLighting>
+  <feComposite in="specOut" in2="SourceAlpha" operator="in" result="specOut"/>
+  <feComposite in="SourceGraphic" in2="specOut" operator="arithmetic"
+               k1="0" k2="1" k3="1" k4="0" result="highlightText"/>
+  <feMerge>
+    <feMergeNode in="offsetBlur"/>
+    <feMergeNode in="highlightText"/>
+  </feMerge>
+</filter>
+</syntaxhighlight>
+
+<div style="display:inline-block;max-width:280px;padding:12px">
+
+[[Image:svgf_bevelOrig.png|260px]]
+
+</div><div style="display:inline-block;max-width:280px;padding:12px">
+
+[[Image:svgf_bevelBlur.png|260px]]
+
+</div><div style="display:inline-block;max-width:280px;padding:12px">
+
+[[Image:svgf_bevelSpec.png|260px]]
+
+</div><div style="display:inline-block;max-width:280px;padding:12px">
+
+[[Image:svgf_bevelCompAlpha.png|260px]]
+
+</div><div style="display:inline-block;max-width:280px;padding:12px">
+
+[[Image:svgf_bevelCompImg.png|260px]]
+
+</div><div style="display:inline-block;max-width:280px;padding:12px">
+
+[[Image:svgf_bevelFinal.png|260px]]
+
+</div>
+
 <!--
 
 [[svg/attributes/foo|'''foo''']]
@@ -895,8 +945,6 @@ allows you to tightly focus the beam:
 [[svg/attributes/foo|'''foo''']]
 [[svg/attributes/foo|'''foo''']]
 [[svg/attributes/foo|'''foo''']]
-
-==Beveling (feSpecularLighting)==
 
 ==Beveling (feSpecularLighting)==
 
