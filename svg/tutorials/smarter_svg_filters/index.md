@@ -715,11 +715,15 @@ The final [[svg/elements/feMerge|'''feMerge''']] overlays the pattern:
 
 </div>
 
-<!--
-
-The filter region
-
--->
+Note the [[svg/elements/filter|'''filter''']] element in the example
+above uses [[svg/attributes/x|'''x''']], [[svg/attributes/y|'''y''']],
+[[svg/attributes/width|'''width''']], and
+[[svg/attributes/height|'''height''']] attributes to specify
+dimensions.  By default, filters operate on a ''region'' that's
+somewhat wider than elements they are applied to, to account for
+offset effects such as the shadow shown above, which extends past the
+graphic's original dimensions. In this example, the weave pattern only
+appears within the graphic's original dimensions.
 
 ==Lighting effects==
 
@@ -852,6 +856,43 @@ specified separately in a style sheet:
 </syntaxhighlight>
 
 [[Image:svgf_TERRboth.png]]
+
+Setting the filter's
+[[svg/attributes/primitiveUnits|'''primitiveUnits''']] to
+'''objectBoundingBox''' allows you to specify light sources as
+relative percentages, otherwise the default '''userSpaceOnUse''' value
+references the coordinate system in effect when the filter was
+applied.
+
+<div style="display:inline-block;max-width:280px;padding:12px">
+
+A point light allows you to place light sources closer to the scene.
+This makes the light appear to hover directly over the graphic:
+
+<syntaxhighlight lang="xml">
+<fePointLight x="50%" y="50%" z="200">
+</syntaxhighlight>
+
+[[Image:svgf_TERRpoint.png]]
+
+</div><div style="display:inline-block;max-width:280px;padding:12px">
+
+A spot light can direct a beam from the light source to a different
+target defined by the [[svg/attributes/pointsAtX|'''pointsAtX''']],
+[[svg/attributes/pointsAtY|'''pointsAtY''']], and
+[[svg/attributes/pointsAtZ|'''pointsAtZ''']] coordinates.  The
+[[svg/attributes/limitingConeAngle|'''limitingConeAngle''']] attribute
+allows you to tightly focus the beam:
+
+<syntaxhighlight lang="xml">
+<feSpotLight x="0" y="100" z="150" pointsAtX="200" pointsAtY="100"
+             pointsAtZ="0" limitingConeAngle="30"/>
+</syntaxhighlight>
+
+[[Image:svgf_TERRspot.png]]
+
+</div>
+
 
 <!--
 
