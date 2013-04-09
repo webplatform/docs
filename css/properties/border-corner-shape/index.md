@@ -33,10 +33,10 @@
 |Examples={{Single Example
 |Language=CSS
 |Description=Create a diamond (rhombus) shape
-
 |Code=border-corner-shape: bevel;
 border-radius: 50%;
 }}{{Single Example
+|Language=CSS
 |Description=Create a trapezoid
 |Code=border-corner-shape: bevel;
 border-radius: 25% / 100% 100% 0 0;
