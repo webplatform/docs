@@ -663,7 +663,7 @@ Turbulence is indispensible for grain and weave textures used in
 background patterns.  Step through the following example:
 
 <syntaxhighlight lang="xml">
-<filter id="weave">
+<filter id="weave" x="0" y="0" width="100%" height="100%">
  <feTurbulence baseFrequency=".25,.03" numOctaves="3" seed="1"/>
  <feComponentTransfer result="grain">
    <feFuncR type="linear" slope="3"/>
@@ -710,6 +710,10 @@ The final [[svg/elements/feMerge|'''feMerge''']] overlays the pattern:
 [[Image:svgf_TBmerge.png|180px]]
 
 </div>
+
+<!--
+
+-->
 
 ==Lighting effects==
 
@@ -824,7 +828,7 @@ specified separately in a style sheet:
 }
 </syntaxhighlight>
 
-<syntaxhighlight lang="xml">
+<syntaxhighlight lang="xml" highlight="4,7,10,13">
 <filter x="0" y="0" width="100%" height="100%" id="shadow_terrain" primitiveUnits="objectBoundingBox">
 <feTurbulence baseFrequency=".01" numOctaves="2" seed="1" type="turbulence"/>
 <feColorMatrix type="luminanceToAlpha"/>
