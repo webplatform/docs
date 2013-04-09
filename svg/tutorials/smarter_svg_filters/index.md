@@ -112,8 +112,8 @@ using the same [[css/functions/url|'''url()''']] function:
 
 <syntaxhighlight lang="css">
 .sidewaysBlur {
-    filter         : url(filters.svg#sideways_blur);
-    -webkit-filter : url(filters.svg#sideways_blur); /* it's a new feature */
+    -webkit-filter : url(filters.svg#sideways_blur);
+    filter         : url(filters.svg#sideways_blur); /* standard in Mozilla */
 }
 </syntaxhighlight>
 
