@@ -932,19 +932,29 @@ the lighting effect:
 </div><div style="display:inline-block;max-width:420px;padding:12px">
 
 The blur not only scatters pixels, but distributes their alpha values
-to form a round surface, which the lighting effect highlights:
+to form a rounded surface, which the lighting effect highlights:
 
 [[Image:svgf_bevelSpec.png]]
 
 </div><div style="display:inline-block;max-width:420px;padding:12px">
 
+The first [[svg/elements/feComposite|'''feComposite''']] clips the
+blurred edges that fall outside the graphic's original contours,
+available as its '''SourceAlpha''':
+
 [[Image:svgf_bevelCompAlpha.png]]
 
 </div><div style="display:inline-block;max-width:420px;padding:12px">
 
+The second [[svg/elements/feComposite|'''feComposite''']] overlays the
+highlight with the original '''SourceGraphic''':
+
 [[Image:svgf_bevelCompImg.png]]
 
 </div><div style="display:inline-block;max-width:420px;padding:12px">
+
+Finally, the ''offsetBlur'' buffer is merged in to provide a drop
+shadow for additional depth:
 
 [[Image:svgf_bevelFinal.png]]
 
@@ -953,6 +963,8 @@ to form a round surface, which the lighting effect highlights:
 <!--
 
 [[svg/elements/feFoo|'''feFoo''']]
+
+
 
 [[svg/attributes/foo|'''foo''']]
 [[svg/attributes/foo|'''foo''']]
