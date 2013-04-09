@@ -42,7 +42,7 @@ come in two flavors:
 This guide does not discuss these more recent CSS custom filters, but
 does show you how to customize your own SVG filters for use in HTML.
 
-==Applying a simple filter (feGaussianBlur)==
+==Applying a simple filter in SVG and HTML (feGaussianBlur)==
 
 Start by placing some text within an SVG graphic:
 
@@ -588,8 +588,11 @@ which renders over it for the final effect:
 
 </div>
 
-<!--
 ==Other merge options: feBlend, feComposite, feImage, feTile==
+
+.
+
+<!--
 -->
 
 ==A warp effect (feMorphology, feTurbulence, feDisplacementMap)==
@@ -962,72 +965,6 @@ shadow for additional depth and legibility:
 [[Image:svgf_bevelFinal.png]]
 
 </div>
-
-<!--
-
-[[svg/elements/feFoo|'''feFoo''']]
-
-
-
-[[svg/attributes/foo|'''foo''']]
-[[svg/attributes/foo|'''foo''']]
-[[svg/attributes/foo|'''foo''']]
-[[svg/attributes/foo|'''foo''']]
-[[svg/attributes/foo|'''foo''']]
-
-http://www.svgbasics.com/filters1.html
-
-http://docs.gimp.org/en/plug-in-convmatrix.html
-
-o feImage: places an image
-o feTile
-
-o feBlend
-
-
-
-15.5 Filter effects region
-
-15.6 Accessing the background image
-
-15.8 Light source elements and properties
-
-15.14 'feDiffuseLighting'
-
-15.18 'feImage'
-15.23 'feTile'
-
-15.22 'feSpecularLighting'
-
-<filter id="pictureFilter" >
-  <feColorMatrix type="luminanceToAlpha" />
-<feDiffuseLighting diffuseConstant="1" surfaceScale="10" result="diffuse3">
-<feDistantLight elevation="28" azimuth="180" /></feDiffuseLighting>
-<feComposite operator="in" in2="inputTo_3" />
-<filter />
-
-<filter id="filtersText">
-<feComposite operator="arithmetic" k1="0" k2="1" k3="0" k4="0" in="SourceGraphic" in2="SourceGraphic" result="inputTo_2">
-</feComposite>
-<feTurbulence type="fractalNoise" baseFrequency="0.015" numOctaves="2" result="turbulence_2" data-filterId="2">
-</feTurbulence>
-<feDisplacementMap xChannelSelector="R" yChannelSelector="G"
-  in="inputTo_2" in2="turbulence_2" id="filter_2" scale="65"
-  data-filterId="2" result="inputTo_3">
-</feDisplacementMap>
-<feGaussianBlur stdDeviation="10" data-filterId="3">
-</feGaussianBlur>
-<feSpecularLighting specularExponent="20" surfaceScale="5" data-filterId="3">
-<feDistantLight elevation="28" id="filter_3" azimuth="90">
-</feDistantLight>
-</feSpecularLighting>
-<feComposite operator="in" in2="inputTo_3" data-filterId="3">
-</feComposite>
-<feComposite operator="arithmetic" k2="1" k3="1" in2="inputTo_3" data-filterId="3">
-</feComposite>
-</filter>
-
--->
 
 }}
 {{Notes_Section}}
