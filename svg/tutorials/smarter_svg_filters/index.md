@@ -179,7 +179,7 @@ multiples the value [[svg/attributes/slope|'''slope''']] value
 The first example reproduces the effect of the CSS
 [[css/functions/brightness|'''brightness()''']] function, flattening
 the slope to darken the image. The second increases the slope to
-brighten the image, but then drops all values by the same amount,
+brighten the image, but then drops all values by a fixed amount,
 zeroing out many of them:
 
 <div style="display:inline-block">
@@ -256,9 +256,10 @@ you to perform ''gamma correction'', typically to bring up dark
 values. The function applies the following formula to produce a curve:
 ((''amplitude'' &times; ''value''<sup>''exponent''</sup>) +
 ''offset''). The first example brightens the green, and the second
-uses [[svg/attributes/offset|'''offset''']] to bring down the final
-result (the same that [[svg/attributes/intercept|'''intercept''']] does
-for the '''linear''' type):
+uses [[svg/attributes/offset|'''offset''']] to reduce the final result
+across the board (the same that
+[[svg/attributes/intercept|'''intercept''']] does for the '''linear'''
+type):
 
 <div style="display:inline-block">
 
@@ -327,8 +328,8 @@ Setting the [[svg/attributes/type|'''type''']] to '''hueRotate'''
 alters the angle along the color wheel, just like the
 [[css/functions/hue-rotate|'''hue-rotate()''']] CSS function.  Setting
 '''luminanceToAlpha''' (no '''values''' necessary) produces an alpha
-channel from bright pixels, useful in producing image masks and other
-effects described below.
+channel from bright pixels, useful to produce image masks as described
+below.
 
 <div style="display:inline-block">
 
@@ -358,7 +359,7 @@ As the name of the [[svg/elements/feColorMatrix|'''feColorMatrix''']]
 suggests, setting the [[svg/attributes/type|'''type''']] to
 '''matrix''' allows you to transform colors yourself. It specifies a
 20-element transform whose rows correspond to red, green, blue, and
-alpha channels. This transform leaves the image unchanged:
+alpha channels. This initial transform leaves the image unchanged:
 
 <div style="display:inline-block">
  1 0 0 0 0
@@ -369,9 +370,9 @@ alpha channels. This transform leaves the image unchanged:
 
 The first example below reproduces the effect of the CSS
 [[css/functions/sepia|'''sepia()''']] function, while the second
-simply reduces green and blue tones. (The
-[[svg/attributes/values|'''values''']] are stacked into a table only in
-the interest of clarity.)
+simply reduces green and blue tones. (In these examples, the
+[[svg/attributes/values|'''values''']] appear stacked into a table
+only in the interest of clarity.)
 
 <div style="display:inline-block">
 
@@ -430,10 +431,12 @@ its immediate neighbors:
  0 0 0
 
 The relative weight of the neighbors helps calculate the pixel's new
-value.  (In this case it's 0 times each adjacent pixel's value, summed
+value.  In this case it's 0 times each adjacent pixel's value, summed
 together along with 1 times the value of the pixel, divided by the sum
-of all the pixel values.) So this initial example has no effect on the
-image.  The image on the left starts out somewhat blurred.  Applying a
+of all the pixel values. So this initial example has no effect on the
+image.
+
+The original image shown on the left is somewhat blurred.  Applying a
 sharpen filter nudges pixels for the higher-contrast edges shown at
 the right:
 
@@ -453,9 +456,9 @@ the right:
 
 </div>
 
-Getting convolve filters to behave predictably takes some practice.
-The example on the left sharpens the detail more dramatically, while
-the one on the right embosses it diagonally:
+Getting convolve filters to behave predictably takes a bit of
+practice.  The example on the left sharpens the detail more
+dramatically, while the one on the right embosses it diagonally:
 
 <div style="display:inline-block">
 
@@ -478,11 +481,12 @@ the one on the right embosses it diagonally:
 </div>
 
 Convolution filters can also highlight moats around high-contrast
-edges.  The more dramatic texture on the right forms moats throughout
-the image.  It requires an [[svg/attributes/order|'''order''']] of 5,
-which extends the range of the calculation to each adjacent neighbor's
-farthest neighbor.  (As shown here, it is converted to a grayscale
-using the '''luminanceToAlpha'''
+edges.  The more dramatic texture shown below on the right forms moats
+throughout the image.  It requires an
+[[svg/attributes/order|'''order''']] of 5, which extends the range of
+the calculation to each adjacent neighbor's farthest neighbor.  (As
+shown here, it is converted to a grayscale using the
+'''luminanceToAlpha'''
 [[svg/elements/feColorMatrix|'''feColorMatrix''']] type discussed
 above, and the effect-chaining technique described below.)
 
@@ -511,10 +515,12 @@ above, and the effect-chaining technique described below.)
 ==Chaining, splitting and merging effects: building a drop shadow with feOffset, feFlood, feComposite, and feMerge==
 
 Filters allow you to accept various graphic inputs, modify them
-independently, then combine them. This example reproduces the effect
-produced by the CSS [[css/functions/drop-shadow|'''drop-shadow()''']]
-function. Stepping through each line and seeing the results as you go
-may help you build far more complex effects:
+independently of each other, then recombine them. This example
+reproduces the effect produced by the CSS
+[[css/functions/drop-shadow|'''drop-shadow()''']] function. Stepping
+through each line and seeing the results as you go helps you to build
+far more interesting overall results than each effect supplies
+individually:
 
 <syntaxhighlight lang="xml">
 <filter id="css_drop_shadow">
@@ -553,9 +559,9 @@ down and over:
 The [[svg/elements/feFlood|'''feFlood''']] effect simply produces a
 color, specified by its
 [[svg/properties/flood-color|'''flood-color''']] property.  The effect
-is independent of the graphic we've produced so far, doesn't take any
-input from the offset effect, so it renders within the filter's entire
-region:
+is independent of the graphic we've produced so far, and doesn't take
+any input from the offset effect, so it renders within the filter's
+entire region:
 
 [[Image:svgf_dropFlood.png|192px]]
 
@@ -583,7 +589,7 @@ which renders over it for the final effect:
 </div>
 
 <!--
-==Other merge options: feBlend, feComposite==
+==Other merge options: feBlend, feComposite, feImage, feTile==
 -->
 
 ==A warp effect (feMorphology, feTurbulence, feDisplacementMap)==
@@ -663,7 +669,7 @@ movement.
 
 ==Textures (feTurbulence)==
 
-Turbulence is indispensible for grain and weave textures used in
+Turbulence is indispensible for grain and weave textures, useful for
 background patterns.  Step through the following example:
 
 <syntaxhighlight lang="xml">
@@ -724,6 +730,8 @@ somewhat wider than elements they are applied to, to account for
 offset effects such as the shadow shown above, which extends past the
 graphic's original dimensions. In this example, the weave pattern only
 appears within the graphic's original dimensions.
+
+<div id="light_effect"></div>
 
 ==Lighting effects==
 
@@ -954,7 +962,7 @@ highlight with the original '''SourceGraphic''':
 </div><div style="display:inline-block;max-width:420px;padding:12px">
 
 Finally, the ''offsetBlur'' buffer is merged in to provide a drop
-shadow for additional depth:
+shadow for additional depth and legibility:
 
 [[Image:svgf_bevelFinal.png]]
 
@@ -972,19 +980,6 @@ shadow for additional depth:
 [[svg/attributes/foo|'''foo''']]
 [[svg/attributes/foo|'''foo''']]
 
-==Beveling (feSpecularLighting)==
-
-feDistantLight, fePointLight, feSpotLight, lighting-color
-
-<syntaxhighlight lang="xml">
-<filter id="pictureFilter" >
-  <feColorMatrix type="luminanceToAlpha" />
-<feDiffuseLighting diffuseConstant="1" surfaceScale="10" result="diffuse3">
-<feDistantLight elevation="28" azimuth="45" /></feDiffuseLighting>
-<feComposite operator="in" in2="inputTo_3" />
-</filter>
-</syntaxhighlight>
-
 http://www.svgbasics.com/filters1.html
 
 http://docs.gimp.org/en/plug-in-convmatrix.html
@@ -994,9 +989,7 @@ o feTile
 
 o feBlend
 
-* feDiffuseLighting
 
-* feSpecularLighting
 
 15.5 Filter effects region
 
