@@ -900,11 +900,11 @@ build the effect:
   <feOffset in="blur" dx="4" dy="4" result="offsetBlur"/>
   <feSpecularLighting surfaceScale="5" specularConstant=".75"
       specularExponent="20" lighting-color="#bbbbbb" in="blur"
-      result="specOut">
+      result="highlight">
     <fePointLight x="-5000" y="-10000" z="20000"/>
   </feSpecularLighting>
-  <feComposite in="specOut" in2="SourceAlpha" operator="in" result="specOut"/>
-  <feComposite in="SourceGraphic" in2="specOut" operator="arithmetic"
+  <feComposite in="highlight" in2="SourceAlpha" operator="in" result="highlight"/>
+  <feComposite in="SourceGraphic" in2="highlight" operator="arithmetic"
                k1="0" k2="1" k3="1" k4="0" result="highlightText"/>
   <feMerge>
     <feMergeNode in="offsetBlur"/>
@@ -915,13 +915,24 @@ build the effect:
 
 <div style="display:inline-block;max-width:420px;padding:12px">
 
+Start with some text that appears fairly indistinguishable against a
+filled background:
+
 [[Image:svgf_bevelOrig.png]]
 
 </div><div style="display:inline-block;max-width:420px;padding:12px">
 
+The blur pattern is piped to the
+[[svg/elements/feOffset|'''feOffset''']] and stored in ''offsetBlur''
+for use as the drop shadow. It's also stored in ''blur'' for use by
+the lighting effect:
+
 [[Image:svgf_bevelBlur.png]]
 
 </div><div style="display:inline-block;max-width:420px;padding:12px">
+
+The blur not only scatters pixels, but distributes their alpha values
+to form a round surface, which the lighting effect highlights:
 
 [[Image:svgf_bevelSpec.png]]
 
@@ -933,12 +944,15 @@ build the effect:
 
 [[Image:svgf_bevelCompImg.png]]
 
-</div>
+</div><div style="display:inline-block;max-width:420px;padding:12px">
 
 [[Image:svgf_bevelFinal.png]]
 
+</div>
 
 <!--
+
+[[svg/elements/feFoo|'''feFoo''']]
 
 [[svg/attributes/foo|'''foo''']]
 [[svg/attributes/foo|'''foo''']]
