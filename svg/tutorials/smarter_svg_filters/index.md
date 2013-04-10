@@ -681,15 +681,13 @@ Here are how its operators compare:
 </div>
 
 Setting the [[svg/attributes/operator|'''operator''']] to
-'''arithmetic''' allows you to supply your own table values to produce
-composite blends.
-
-For example, set [[svg/attributes/k1|'''k1''']] and
-[[svg/attributes/k4|'''k4''']]) to 0, then decrease
-([[svg/attributes/k2|'''k2''']] from 1 while increasing
-[[svg/attributes/k3|'''k3''']] results in a cross-fade effect.  The
-[[svg/attributes/in2|'''in2''']] graphic is more visible in this
-example:
+'''arithmetic''' allows you to supply your own '''k1'''-'''k4''' table
+values to produce composite blends.  For example, set
+[[svg/attributes/k1|'''k1''']] and [[svg/attributes/k4|'''k4''']]) to
+0, then decrease ([[svg/attributes/k2|'''k2''']] from 1 while
+increasing [[svg/attributes/k3|'''k3''']] results in a cross-fade
+effect.  The [[svg/attributes/in2|'''in2''']] graphic is more visible
+in this example:
 
 <syntaxhighlight lang="xml">
 <feComposite in="graphicA" in2="graphicB" operator="arithmetic"
