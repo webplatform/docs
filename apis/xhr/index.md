@@ -1,6 +1,7 @@
 {{Page_Title|XMLHttpRequest (XHR) API}}
 {{Flags
 |High-level issues=Needs Review
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
@@ -15,6 +16,7 @@
 }}
 {{Notes_Section}}
 {{See_Also_Section
+|Topic_clusters=XHR
 |External_links=[http://www.w3.org/TR/XMLHttpRequest/ W3C XMLHttpRequest Specification]
 }}
 {{Topics|API, XHR}}
