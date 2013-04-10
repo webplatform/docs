@@ -42,7 +42,7 @@ come in two flavors:
 This guide does not discuss these more recent CSS custom filters, but
 does show you how to customize your own SVG filters for use in HTML.
 
-==Applying a simple filter in SVG and HTML (feGaussianBlur)==
+==Applying a simple filter (feGaussianBlur)==
 
 Start by placing some text within an SVG graphic:
 
@@ -53,9 +53,10 @@ Start by placing some text within an SVG graphic:
 [[Image:svgf_none.png]]
 
 Place a [[svg/elements/filter|'''filter''']] element within the SVG's
-[[svg/elements/defs|'''defs''']] region.  The
-[[svg/elements/feGaussianBlur|'''feGaussianBlur''']] element produces a
-blurring effect, which matches the effect of the
+[[svg/elements/defs|'''defs''']] region.  Filters contain series of
+filter effect elements, all prefixed ''fe''.  In this example, a
+[[svg/elements/feGaussianBlur|'''feGaussianBlur''']] element produces
+a blurring effect, which matches the effect of the
 [[css/functions/blur|'''blur()''']] CSS filter function:
 
 <syntaxhighlight lang="xml">
@@ -63,9 +64,6 @@ blurring effect, which matches the effect of the
   <feGaussianBlur stdDeviation="10"/>
 </filter>
 </syntaxhighlight>
-
-(SVG filter effect elements are all prefixed ''fe'', and cannot be
-placed outside a [[svg/elements/filter|'''filter''']].)
 
 To apply the filter, reference it with the
 [[svg/properties/filter|'''filter''']] property, expressed either as
@@ -91,11 +89,11 @@ an attribute or via CSS:
 
 [[Image:svgf_blurBoth.png]]
 
-The filter takes each pixel and moves it around randomly from its
+The effect takes each pixel and moves it around randomly from its
 original location by a radius specified by the '''stdDeviation'''
-value.  Unlike the built-in CSS function, you can specify separate
-''x'' and ''y'' values to produce a sideways motion effect that in
-this case is a bit more legible:
+value.  Unlike the built-in CSS function, in SVG you can specify
+separate ''x'' and ''y'' values to produce a sideways motion effect
+that in this case is a bit more legible:
 
 <syntaxhighlight lang="xml">
 <filter id="sideways_blur">
@@ -105,8 +103,10 @@ this case is a bit more legible:
 
 [[Image:svgf_blur.png]]
 
+==Applying SVG filters to HTML==
+
 If you want to apply this customized SVG filter to HTML content, place
-it in an external SVG file and use the corresponding
+it in an SVG file and use the corresponding
 [[css/properties/filter|'''filter''']] CSS property to reference it
 using the same [[css/functions/url|'''url()''']] function:
 
@@ -116,6 +116,12 @@ using the same [[css/functions/url|'''url()''']] function:
     filter         : url(filters.svg#sideways_blur); /* standard in Mozilla */
 }
 </syntaxhighlight>
+
+As of this writing, not all browsers allow you to apply SVG filters to
+HTML content. Mozilla Firefox fully supports the feature.  WebKit
+Safari's support is limited to filters that use basic image processing
+effects described below: '''feComponentTransfer''',
+'''feColorMatrix''', and '''feConvolveMatrix'''.
 
 ==Modifying colors with feComponentTransfer==
 
@@ -514,13 +520,12 @@ above, and the effect-chaining technique described below.)
 
 ==Chaining, splitting and merging effects: building a drop shadow with feOffset, feFlood, and feMerge==
 
-Filters allow you to accept various graphic inputs, modify them
-independently of each other, then recombine them. This example
-reproduces the effect produced by the CSS
+Much of the power of SVG filters comes from their ability to accept
+various graphic inputs, modify them independently of each other, then
+recombine them. This example reproduces the effect produced by the CSS
 [[css/functions/drop-shadow|'''drop-shadow()''']] function. Stepping
 through each line and seeing the results as you go helps you to build
-far more interesting overall results than each effect supplies
-individually:
+far more interesting filters:
 
 <syntaxhighlight lang="xml">
 <filter id="css_drop_shadow">
@@ -588,7 +593,7 @@ which renders over it for the final effect:
 
 </div>
 
-==Other merge and input options: feBlend, feComposite, feImage, feTile==
+==Other input and merging options: feBlend, feComposite, feImage, feTile==
 
 The [[svg/elements/feMerge|'''feMerge''']] element shown above simply
 places one graphic over another to produce a new filter channel. As an
