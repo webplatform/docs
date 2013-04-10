@@ -590,15 +590,15 @@ which renders over it for the final effect:
 
 ==Other merge options: feBlend, feComposite==
 
-[[svg/elements/feMerge|'''feMerge''']] element shown above simply
+The [[svg/elements/feMerge|'''feMerge''']] element shown above simply
 places one graphic over another to produce a new filter channel. As an
 alternative, you can use [[svg/elements/feBlend|'''feBlend''']] with
-the [[svg/attributes/mode|'''mode''']] set to '''normal''' for the
-same effect.  It combines the [[svg/attributes/in|'''in''']] and
-[[svg/attributes/in2|'''in2''']] channels.
+the [[svg/attributes/mode|'''mode''']] set to '''normal'''.  It
+combines the [[svg/attributes/in|'''in''']] and
+[[svg/attributes/in2|'''in2''']] channels:
 
 <syntaxhighlight lang="xml">
-  <feBlend in="SourceGraphic" in2="offsetBlur" mode="normal" />
+<feBlend in="SourceGraphic" in2="offsetBlur" mode="normal" />
 </syntaxhighlight>
 
 Here are how [[svg/elements/feBlend|'''feBlend''']]'s other modes
@@ -643,10 +643,10 @@ Setting the [[svg/elements/feComposite|'''feComposite''']] element's
 same default overlay as [[svg/elements/feMerge|'''feMerge''']]:
 
 <syntaxhighlight lang="xml">
-  <feComposite in="SourceGraphic" in2="offsetBlur" operator="over" />
+<feComposite in="SourceGraphic" in2="offsetBlur" operator="over" />
 </syntaxhighlight>
 
-Here are how its operators behave:
+Here are how its operators compare:
 
 <div style="display:inline-block;max-width:200px;padding:10px">
 
@@ -680,8 +680,23 @@ Here are how its operators behave:
 
 </div>
 
+Setting the [[svg/attributes/operator|'''operator''']] to
+'''arithmetic''' allows you to supply your own table values to produce
+composite blends.
 
+For example, set [[svg/attributes/k1|'''k1''']] and
+[[svg/attributes/k4|'''k4''']]) to 0, then decrease
+([[svg/attributes/k2|'''k2''']] from 1 while increasing
+[[svg/attributes/k3|'''k3''']] results in a cross-fade effect.  The
+[[svg/attributes/in2|'''in2''']] graphic is more visible in this
+example:
 
+<syntaxhighlight lang="xml">
+<feComposite in="graphicA" in2="graphicB" operator="arithmetic"
+             k1="0" k2="0.3" k3="0.7" k4="0"/>
+</syntaxhighlight>
+
+[[Image:svgf_compArithmetic.png|150px]]
 
 ==A warp effect (feMorphology, feTurbulence, feDisplacementMap)==
 
