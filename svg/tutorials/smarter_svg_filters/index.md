@@ -590,7 +590,27 @@ which renders over it for the final effect:
 
 ==Other merge options: feBlend, feComposite, feImage, feTile==
 
-.
+<div style="display:inline-block;max-width:200px;padding:10px">
+
+[[Image:svgf_blendNormal.png|100px]]
+
+</div><div style="display:inline-block;max-width:200px;padding:10px">
+
+[[Image:svgf_blendMultiply.png|100px]]
+
+</div><div style="display:inline-block;max-width:200px;padding:10px">
+
+[[Image:svgf_blendScreen.png|100px]]
+
+</div><div style="display:inline-block;max-width:200px;padding:10px">
+
+[[Image:svgf_blendLighten.png|100px]]
+
+</div><div style="display:inline-block;max-width:200px;padding:10px">
+
+[[Image:svgf_blendDarken.png|100px]]
+
+</div>
 
 <!--
 -->
