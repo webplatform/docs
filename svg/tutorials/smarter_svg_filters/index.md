@@ -103,7 +103,7 @@ that in this case is a bit more legible:
 
 [[Image:svgf_blur.png]]
 
-==Applying SVG filters to HTML==
+===Applying SVG filters to HTML===
 
 If you want to apply this customized SVG filter to HTML content, place
 it in an SVG file and use the corresponding
@@ -794,7 +794,7 @@ for each axis, which color component's value ('''R''', '''G''',
 [[svg/attributes/scale|'''scale''']] sets the overall range of
 movement.
 
-==Textures (feTurbulence)==
+==Creating textures (feTurbulence)==
 
 Turbulence is indispensible for grain and weave textures, useful for
 background patterns.  Step through the following example:
@@ -1094,9 +1094,6 @@ shadow for additional depth and legibility:
 
 </div>
 
-==Adding graphics (feImage, feTile)==
-
-.
 
 }}
 {{Notes_Section}}
