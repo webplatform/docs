@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Missing Relevant Sections, Data Not Semantic
 |Content=Not Neutral, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -103,8 +104,7 @@ The following graphic illustrates how the input segments are mapped to the outpu
 |Description=[[File:blue70sfilterexample.png]]
 
 Example of a table component transfer. The input ranges are mapped onto continuous output ranges.
-|Code=
-<syntaxhighlight lang="xml">
+|Code=<syntaxhighlight lang="xml">
 <svg width="640" height="550" viewBox="0 0 640 550">
 <defs>
     <filter id="Blue70s" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -125,8 +125,7 @@ Example of a table component transfer. The input ranges are mapped onto continuo
 |Description=[[File:70sposter.png]]
 
 Example of a discrete component transfer. The input ranges are mapped onto specific discrete output values.
-|Code=
-<syntaxhighlight lang="xml">
+|Code=<syntaxhighlight lang="xml">
 <svg width="640" height="550" viewBox="0 0 640 550">
 <defs>
     <filter id="Poster70s" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -163,7 +162,6 @@ The '''SVGFEComponentTransferElement''' object has these properties.
 *[[svg/properties/width|'''width''']]: Defines the width of an element.
 *[[svg/properties/x|'''x''']]: Gets or sets the x-coordinate value.
 *[[svg/properties/y|'''y''']]: Gets or sets the y-coordinate value.
-
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -228,6 +226,7 @@ The '''SVGFEComponentTransferElement''' object has these properties.
 |Notes_rows=
 }}
 {{See_Also_Section
+|Topic_clusters=Filters
 |Manual_sections====Related pages (MSDN)===
 *[[svg/elements/feFuncR|'''SVGFEFuncRElement''']]
 }}
