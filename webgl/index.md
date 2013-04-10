@@ -1,12 +1,14 @@
 {{Page_Title|WebGL}}
-{{Flags}}
+{{Flags
+|Checked_Out=No
+}}
 {{API_Name}}
 {{Summary_Section}}
 {{Concept_Page
 |Content=== Summary ==
 
 
-WebGL is a standard that allows you to create real 3D content and render it in a web browser. WebGL is the web implementation of OpenGL ES2 (Embedded Systems 2), and therefore allows us to run real 3D across any system with a browser that supports it and the graphics capabilities to handle such visually rich content. WebGL is maintained by [http://www.khronos.org/webgl/ the Khronos Group] for 3D graphics on the Web.  In web technology terms, WebGL is the 3D drawing context of the HTML5 <canvas> element and can be used through the [[html|HTML5]] [[canvas|Canvas]] element with a Javascript API.
+WebGL is a standard that allows you to create real 3D content and render it in a web browser. WebGL is the web binding to the OpenGL ES 2.0 graphics API, and therefore allows us to run real 3D across any system with a browser that supports it and the graphics capabilities to handle such visually rich content. WebGL is maintained by [http://www.khronos.org/webgl/ the Khronos Group] for 3D graphics on the Web.  In web technology terms, WebGL is the 3D drawing context of the HTML5 <canvas> element and can be used through the [[html|HTML5]] [[canvas|Canvas]] element with a Javascript API.
 
 == WebGL educational material ==
 
