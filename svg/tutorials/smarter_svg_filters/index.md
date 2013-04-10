@@ -1,15 +1,13 @@
 {{Page_Title|SVG filters}}
 {{Flags
-|High-level issues=Stub
-|Checked_Out=Yes
-|Editorial notes=[new content edited offline by Sierra ([[User:Sierra|Sierra]] ([[User talk:Sierra|talk]])); please do not edit]
+|Checked_Out=No
 }}
-{{Byline}}
+{{Byline
+|Name=Mike Sierra
+}}
 {{Summary_Section|This guide shows you how to build SVG image processing filters to create interesting visual effects. It shows how to apply these effects within an SVG graphic, and how to apply them to HTML content using the [[css/properties/filter|'''filter''']] CSS property.}}
 {{Tutorial
-|Content=
-
-The power of SVG filters is matched by the depth and complexity of
+|Content=The power of SVG filters is matched by the depth and complexity of
 available options. It takes a good deal of practice to master the many
 filter effects and understand how to combine them. This guide covers a
 wide range of examples.  It starts by showing how to modify color
@@ -1120,7 +1118,6 @@ the surface, which results in a subtle rounded highlight:
 </syntaxhighlight>
 
 [[Image:svgf_eyeShine.png]]
-
 }}
 {{Notes_Section}}
 {{Compatibility_Section
