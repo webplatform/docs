@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -92,7 +93,6 @@ The '''SVGFEFuncGElement''' object has these properties.
 *[[svg/properties/slope|'''slope''']]: Indicates the slope of the linear function.
 *[[svg/properties/tableValues|'''tableValues''']]: Define the lookup table.
 *[[svg/properties/type (SVGComponentTransferFunctionElement)|'''type''']]: The type of component transfer function. The function type determines the applicability of the other attributes.
-
 }}
 {{Related_Specifications_Section
 |Specifications=
@@ -105,6 +105,7 @@ The '''SVGFEFuncGElement''' object has these properties.
 |Notes_rows=
 }}
 {{See_Also_Section
+|Topic_clusters=Filters
 |Manual_sections====Related pages (MSDN)===
 *[[svg/elements/feComponentTransfer|'''SVGFEComponentTransferElement''']]
 *[[svg/elements/feFuncR|'''SVGFEFuncRElement''']]
