@@ -592,23 +592,23 @@ which renders over it for the final effect:
 
 <div style="display:inline-block;max-width:200px;padding:10px">
 
-[[Image:svgf_blendNormal.png|180px]]
+[[Image:svgf_blendNormal.png|150px]]
 
 </div><div style="display:inline-block;max-width:200px;padding:10px">
 
-[[Image:svgf_blendMultiply.png|180px]]
+[[Image:svgf_blendMultiply.png|150px]]
 
 </div><div style="display:inline-block;max-width:200px;padding:10px">
 
-[[Image:svgf_blendScreen.png|180px]]
+[[Image:svgf_blendScreen.png|150px]]
 
 </div><div style="display:inline-block;max-width:200px;padding:10px">
 
-[[Image:svgf_blendLighten.png|180px]]
+[[Image:svgf_blendLighten.png|150px]]
 
 </div><div style="display:inline-block;max-width:200px;padding:10px">
 
-[[Image:svgf_blendDarken.png|180px]]
+[[Image:svgf_blendDarken.png|150px]]
 
 </div>
 
