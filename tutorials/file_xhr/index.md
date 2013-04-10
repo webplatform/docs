@@ -1,7 +1,9 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Flags
+|Checked_Out=No
 }}
+{{Byline}}
 {{Summary_Section|An introduction to XMLHttpRequest2.}}
 {{Tutorial
 |Content==New Tricks in XMLHttpRequest2=
@@ -398,15 +400,18 @@ What is not shown here is the code to reconstruct the file on the server.
 * [http://dev.w3.org/2006/waf/access-control/ Cross Origin Resource Sharing (CORS)] specification
 * [http://www.w3.org/TR/file-upload/ File API] specification
 * [http://dev.w3.org/2009/dap/file-system/pub/FileSystem/ FileSystem API] specification
-
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Topic_clusters=XHR
+}}
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
@@ -414,4 +419,9 @@ What is not shown here is the code to reconstruct the file on the server.
 |MSDN_link=
 |HTML5Rocks_link=
 }}
+}
+
+
+
+
 [[Category:Tutorials]]
