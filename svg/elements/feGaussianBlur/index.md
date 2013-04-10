@@ -1,17 +1,21 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{Markup_Element
 |DOM_interface=svg/objects/SVGElement
 }}
-{{Topics|SVG}}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
 {{Notes_Section
-|Notes=
-
-===Remarks===
+|Notes====Remarks===
 
 The Gaussian blur kernel is an approximation of the normalized convolution
 
@@ -26,10 +30,7 @@ and
 I(y) {{=}} exp(-y<sup>2</sup>/ (2t<sup>2</sup>)) / sqrt(2* pi*t<sup>2</sup>)
 
 with 's' being the standard deviation in the x direction and 't' being the standard deviation in the y direction, as specified by the [[svg/properties/stdDeviationX|'''stdDeviationX''']] and [[svg/properties/stdDeviationY|'''stdDeviationY''']] properties.
-
-|Import_Notes=
-
-===Syntax===
+|Import_Notes====Syntax===
 
 ===Standards information===
 
@@ -51,12 +52,25 @@ The '''SVGFEGaussianBlurElement''' object has these properties:
 *[[svg/properties/width|'''width''']]: Defines the width of an element.
 *[[svg/properties/x|'''x''']]: Gets or sets the x-coordinate value.
 *[[svg/properties/y|'''y''']]: Gets or sets the y-coordinate value.
-
 }}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section
+|Topic_clusters=Filters
+}}
+{{Topics|SVG}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
