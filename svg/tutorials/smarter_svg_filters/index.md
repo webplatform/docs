@@ -600,15 +600,15 @@ which renders over it for the final effect:
 
 </div><div style="display:inline-block;max-width:200px;padding:10px">
 
-'''multiply'''
-
-[[Image:svgf_blendMultiply.png|150px]]
-
-</div><div style="display:inline-block;max-width:200px;padding:10px">
-
 '''screen'''
 
 [[Image:svgf_blendScreen.png|150px]]
+
+</div><div style="display:inline-block;max-width:200px;padding:10px">
+
+'''multiply'''
+
+[[Image:svgf_blendMultiply.png|150px]]
 
 </div><div style="display:inline-block;max-width:200px;padding:10px">
 
