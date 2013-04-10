@@ -412,13 +412,19 @@ What is not shown here is the code to reconstruct the file on the server.
 {{See_Also_Section
 |Topic_clusters=XHR
 }}
-{{Topics}}
+{{Topics|XHR}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
 |MSDN_link=
 |HTML5Rocks_link=
 }}
+}
+
+
+
+
+
 }
 
 
