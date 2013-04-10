@@ -121,7 +121,7 @@ If you want to work directly with a [https://developer.mozilla.org/en/DOM/Blob <
  };
  
  xhr.send();
-<pre>
+</pre>
 
 A <code>Blob</code> can be used in a number of places, including writing it to the HTML5 [[tutorials/file_filesystem|File System]], or [[tutorials/workers_basics#BlobURLs|creating a Blob URL]], as seen in this example.
 
