@@ -90,7 +90,7 @@ Requests that go across origins (for example, a request from originA.com to orig
 JQuery's CORS implementation doesn't support IE's XDomainRequest object. But there are JQuery plugins that enable this. See http://bugs.jquery.com/ticket/8283 for details.
 The $.support.cors boolean will be set to true if the browser supports CORS (This returns false in IE, see bullet above). This can be a quick way to check for CORS support.
 
-Other frameworks also abstracts away using XMLHTTPRequests. Some offer more than a wrapper around XHR. For example, in Meteor's Meteor.http.call, or Node.js it allows this to be called through the API. 
+Other frameworks also abstracts away using XMLHTTPRequests. Some offer more than a wrapper around XHR. For example, in Meteor's Meteor.http.call, or Node.js it allows this to be called through the API.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -164,7 +164,9 @@ Other frameworks also abstracts away using XMLHTTPRequests. Some offer more than
 }}
 |Notes_rows=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Topic_clusters=XHR
+}}
 {{Topics|XHR}}
 {{External_Attribution
 |Is_CC-BY-SA=No
