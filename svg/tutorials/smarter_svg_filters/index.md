@@ -695,9 +695,9 @@ visible:
 
 [[Image:svgf_compArithmetic.png|150px]]
 
-To import graphics into filter effects as in the examples above, use
-the [[svg/elements/feImage|'''feImage''']] element. It allows you to
-import not only raster images as with the
+Use the [[svg/elements/feImage|'''feImage''']] element to import
+graphics into filter effects as in the examples above and below. It
+allows you to import not only raster images as with the
 [[svg/elements/image|'''image''']] element, but any other SVG graphic
 as well. By default, graphics are placed in the center of the filter
 region.  Otherwise, use [[svg/attributes/x|'''x''']],
@@ -707,17 +707,17 @@ and resize them:
 
 <syntaxhighlight lang="xml">
 <feImage xlink:href="img/icon.png" x="100" y="50" width="20%" height="20%" result="icon"/>
-<feTile/>
 <feImage xlink:href="#gradient" result="gradient"/>
+<feTile/>
 </syntaxhighlight>
 
 The [[svg/elements/feTile|'''feTile''']] element simply allows you to
 repeat imported graphics as a pattern.
 
-==A warp effect (feMorphology, feTurbulence, feDisplacementMap)==
+==Warping effects (feMorphology, feTurbulence, feDisplacementMap)==
 
-The next example shows how to combine several filter effects to create
-a strange warping effect:
+The next example shows how to combine several filter effects to warp
+text:
 
 <syntaxhighlight lang="xml">
 <filter id="warp" >
@@ -779,13 +779,13 @@ produces the final effect:
 
 </div>
 
-The displacement effect moves the text's pixels (specified by
+The displacement effect moves the pixels of the text (specified by
 [[svg/attributes/in|'''in''']]) based on the pixel values of the noise
 pattern (specified by [[svg/attributes/in2|'''in2''']]).  The
 [[svg/attributes/xChannelSelector|'''xChannelSelector''']] and
-[[svg/attributes/yChannelSelector|'''yChannelSelector''']] specify, for
-each axis, which color component's value ('''R''', '''G''', '''B''',
-or '''A''') to use to push the pixels. The
+[[svg/attributes/yChannelSelector|'''yChannelSelector''']] specify,
+for each axis, which color component's value ('''R''', '''G''',
+'''B''', or '''A''') to use to push the pixels, and the
 [[svg/attributes/scale|'''scale''']] sets the overall range of
 movement.
 
