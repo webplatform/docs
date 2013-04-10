@@ -1,5 +1,7 @@
 {{Page_Title|filter}}
-{{Flags}}
+{{Flags
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Applies various image processing effects.}}
@@ -15,7 +17,7 @@
 |Data Type=<function>
 |Description=Any combination of built-in filter functions: [[css/functions/blur|'''blur()''']], [[css/functions/brightness|'''brightness()''']], [[css/functions/contrast|'''contrast()''']], [[css/functions/custom|'''custom()''']], [[css/functions/drop-shadow|'''drop-shadow()''']], [[css/functions/grayscale|'''grayscale()''']], [[css/functions/hue-rotate|'''hue-rotate()''']], [[css/functions/invert|'''invert()''']], [[css/functions/opacity|'''opacity()''']], [[css/functions/saturate|'''saturate()''']], and [[css/functions/sepia|'''sepia()''']]
 }}{{CSS Property Value
-|Data Type=url(path/to/filter.svg)
+|Data Type=url(path/to/filter.svg#filterID)
 |Description=A reference to an [[svg/elements/filter|SVG <filter> element]]
 }}
 }}
