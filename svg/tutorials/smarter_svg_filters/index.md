@@ -588,7 +588,7 @@ which renders over it for the final effect:
 
 </div>
 
-==Other merge options: feBlend, feComposite, feImage, feTile==
+==Other merge options: feBlend, feComposite==
 
 '''feBlend'''
 
@@ -597,18 +597,6 @@ which renders over it for the final effect:
 '''normal'''
 
 [[Image:svgf_blendNormal.png|150px]]
-
-</div><div style="display:inline-block;max-width:200px;padding:10px">
-
-'''screen'''
-
-[[Image:svgf_blendScreen.png|150px]]
-
-</div><div style="display:inline-block;max-width:200px;padding:10px">
-
-'''multiply'''
-
-[[Image:svgf_blendMultiply.png|150px]]
 
 </div><div style="display:inline-block;max-width:200px;padding:10px">
 
@@ -621,6 +609,18 @@ which renders over it for the final effect:
 '''darken'''
 
 [[Image:svgf_blendDarken.png|150px]]
+
+</div><div style="display:inline-block;max-width:200px;padding:10px">
+
+'''screen'''
+
+[[Image:svgf_blendScreen.png|150px]]
+
+</div><div style="display:inline-block;max-width:200px;padding:10px">
+
+'''multiply'''
+
+[[Image:svgf_blendMultiply.png|150px]]
 
 </div>
 
@@ -661,8 +661,6 @@ which renders over it for the final effect:
 
 
 
-<!--
--->
 
 ==A warp effect (feMorphology, feTurbulence, feDisplacementMap)==
 
@@ -1038,6 +1036,10 @@ shadow for additional depth and legibility:
 [[Image:svgf_bevelFinal.png]]
 
 </div>
+
+==Adding graphics (feImage, feTile)==
+
+.
 
 }}
 {{Notes_Section}}
