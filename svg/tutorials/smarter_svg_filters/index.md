@@ -1129,6 +1129,10 @@ the surface, which results in a subtle rounded highlight:
 }}
 {{See_Also_Section
 |Topic_clusters=Filters
+|External_links=* [http://commons.oreilly.com/wiki/index.php/SVG_Essentials/Filters SVG Essentials: Filters], by J. David Eisenberg
+* [http://www.w3.org/Graphics/SVG/IG/resources/svgprimer.html#filters An SVG Primer for Today's Browsers], by David Dailey
+* [http://www.w3.org/TR/SVG/filters.html Scalable Vector Graphics 1.1, Second Edition]
+* [http://ie.microsoft.com/testdrive/graphics/hands-on-css3/hands-on_svg-filter-effects.htm Hands On: SVG Filter Effects]
 }}
 {{Topics|SVG}}
 {{External_Attribution
