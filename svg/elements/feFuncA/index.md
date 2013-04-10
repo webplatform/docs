@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Merge Candidate, Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 |Editorial notes=feFuncA is a child element of feComponentTransfer and should be merged back into that article. I should note that large sections of this MSDN article have simply been lifted directly from the text of SVG 1.1 spec.
 }}
 {{Standardization_Status}}
@@ -93,7 +94,6 @@ The '''SVGFEFuncAElement''' object has these properties.
 *[[svg/properties/slope|'''slope''']]: Indicates the slope of the linear function.
 *[[svg/properties/tableValues|'''tableValues''']]: Define the lookup table.
 *[[svg/properties/type (SVGComponentTransferFunctionElement)|'''type''']]: The type of component transfer function. The function type determines the applicability of the other attributes.
-
 }}
 {{Related_Specifications_Section
 |Specifications=
@@ -106,6 +106,7 @@ The '''SVGFEFuncAElement''' object has these properties.
 |Notes_rows=
 }}
 {{See_Also_Section
+|Topic_clusters=Filters
 |Manual_sections====Related pages (MSDN)===
 *[[svg/elements/feComponentTransfer|'''SVGFEComponentTransferElement''']]
 *[[svg/elements/feFuncR|'''SVGFEFuncRElement''']]
