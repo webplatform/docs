@@ -54,10 +54,13 @@ If the property has a value different than none, a stacking context will be crea
 |Description=Specifies a 2D skew transformation along the Y axis by the given [[css/units/angle|angle]].
 }}{{CSS Property Value
 |Data Type=rotateX(20deg)
+|Description=Specifies a 3D rotation of the element around the X axis at its origin (as specified by the transform-origin property) by the specified [[css/units/angle|angle]].
 }}{{CSS Property Value
 |Data Type=rotateY(20deg)
+|Description=Specifies a 3D rotation of the element around the Y axis at its origin (as specified by the transform-origin property) by the specified [[css/units/angle|angle]].
 }}{{CSS Property Value
 |Data Type=rotateZ(20deg)
+|Description=Specifies a 3D rotation of the element around the Z axis at its origin (as specified by the transform-origin property) by the specified [[css/units/angle|angle]].
 }}
 }}
 {{Examples_Section
@@ -79,7 +82,7 @@ If the property has a value different than none, a stacking context will be crea
 |LiveURL=http://dabblet.com/gist/4740688
 }}{{Single Example
 |Language=CSS
-|Description=Rotate the object by 20deg
+|Description=Rotate the object by 40deg
 |Code=.rotate {
 	-ms-transform: rotate(40deg);
 	-webkit-transform: rotate(40deg);
@@ -107,6 +110,20 @@ If the property has a value different than none, a stacking context will be crea
         background: green
 }
 |LiveURL=http://dabblet.com/gist/4745494
+}}{{Single Example
+|Language=CSS
+|Description=Rotate the object by 40deg along the X axis
+|Code=.rotateX {
+	-ms-transform: rotateX(40deg);
+	-webkit-transform: rotateX(40deg);
+	-o-transform: rotateX(40deg);
+	-moz-transform: rotateX(40deg);
+	transform: rotateX(40deg);
+	
+	width: 10em;
+	height: 10em;
+	background-color: blue;
+}
 }}
 }}
 {{Notes_Section}}
@@ -181,8 +198,7 @@ If the property has a value different than none, a stacking context will be crea
 |Chrome_mobile_prefixed_version=18.0
 |Firefox_mobile_supported=Yes
 |Firefox_mobile_version=16
-|Firefox_mobile_prefixed_supported=Unknown
-|Firefox_mobile_prefixed_version=
+|Firefox_mobile_prefixed_supported=Yes
 |IE_mobile_supported=Unknown
 |IE_mobile_version=
 |IE_mobile_prefixed_supported=Unknown
