@@ -512,7 +512,7 @@ above, and the effect-chaining technique described below.)
 
 </div>
 
-==Chaining, splitting and merging effects: building a drop shadow with feOffset, feFlood, feComposite, and feMerge==
+==Chaining, splitting and merging effects: building a drop shadow with feOffset, feFlood, and feMerge==
 
 Filters allow you to accept various graphic inputs, modify them
 independently of each other, then recombine them. This example
@@ -590,7 +590,21 @@ which renders over it for the final effect:
 
 ==Other merge options: feBlend, feComposite==
 
-'''feBlend'''
+[[svg/elements/feMerge|'''feMerge''']] element shown above simply
+places one graphic over another to produce a new filter channel. As an
+alternative, you can use [[svg/elements/feBlend|'''feBlend''']] with
+the [[svg/attributes/mode|'''mode''']] set to '''normal''' for the
+same effect.  It combines the [[svg/attributes/in|'''in''']] and
+[[svg/attributes/in2|'''in2''']] channels.
+
+<syntaxhighlight lang="xml">
+  <feBlend in="SourceGraphic" in2="offsetBlur" mode="normal" />
+</syntaxhighlight>
+
+Here are how [[svg/elements/feBlend|'''feBlend''']]'s other modes
+affect graphics that overlay each other. The '''lighten''' and
+'''darken''' modes simply take the lighter or darker of the two
+pixels:
 
 <div style="display:inline-block;max-width:200px;padding:10px">
 
@@ -624,8 +638,15 @@ which renders over it for the final effect:
 
 </div>
 
-'''feComposite'''
+Setting the [[svg/elements/feComposite|'''feComposite''']] element's
+[[svg/attributes/operator|'''operator''']] to '''over''' produces the
+same default overlay as [[svg/elements/feMerge|'''feMerge''']]:
 
+<syntaxhighlight lang="xml">
+  <feComposite in="SourceGraphic" in2="offsetBlur" operator="over" />
+</syntaxhighlight>
+
+Here are how its operators behave:
 
 <div style="display:inline-block;max-width:200px;padding:10px">
 
