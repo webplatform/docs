@@ -1,16 +1,17 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Data Not Semantic
-|Content=Compatibility Incomplete, Examples Needed, Examples Best Practices
+|High-level issues=Data Not Semantic
+|Content=Cleanup, Compatibility Incomplete
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|SVG filter effects apply graphics operations such as blurs and color transformations to a source graphic. Filters may be applied to graphical SVG elements (<circle>, <text>) as well as to grouping elements (<g>). The '''filter''' element specifies the position, dimensions, resolution and units for a filter effect. '''filter''' elements typically have multiple child elements to specify filter primitives that combine together to create the final graphics effect.}}
+{{Summary_Section|SVG filter effects apply graphics operations such as blurs and color transformations to a source graphic. Filters may be applied to graphical SVG elements (<circle>, <text>) as well as to grouping elements (<g>). The '''filter''' element specifies the position, dimensions, resolution and units for a filter effect. '''filter''' elements typically have multiple child elements (filter primitives) that combine together to create the final graphics effect.}}
 {{Markup_Element
 |DOM_interface=svg/objects/SVGFilterElement
-|Content=An SVG filter applies a graphics effect to an SVG element. In SVG 1.1, the range of available graphics effects includes blurs, convolutions, color curve manipulation, cross-component color transfers, erosion effects, blending, compositing and more.  The '''filter''' element declares a filter effect and is usually included in the '''defs''' section of an SVG XML document. The filter element contains a set of child elements that specify the individual graphics operations or "filter primitives" that comprise that filter operation. Filter effects are applied to an SVG element by adding a '''filter''' property, set to the id of the desired filter element.
+|Content=An SVG filter applies a graphics effect to an SVG element. In SVG 1.1, the range of available graphics effects includes blurs, convolutions, color curve manipulation, cross-channel color effects, erosion effects, blending, compositing and more.  The '''filter''' element declares a filter effect and is usually included in the '''defs''' section of an SVG XML document or within an inline SVG element in a HTML5 document. The filter element contains a set of child elements that specify the individual graphics operations or "filter primitives" that comprise that filter operation. Filter effects are applied to an SVG element by adding a '''filter''' property, set to the id of the desired filter element. 
 
-Below is a basic example of an SVG Filter that shows a gaussian blur applied to an SVG rectangle element. In this example, we first declare a filter whose id is "gblur". Within this filter element, we declare a filter primitive ('''feGausssianBlur''') with a standard deviation of 5. After closing our tags, we draw a rectangle with the SVG '''rect''' element.  We apply the filter to the element by adding a filter property that references its id.
+Below is a basic example of an SVG Filter that shows a gaussian blur applied to an SVG rectangle element. In this example, we first declare a filter whose id is "gblur". Within this filter element, we declare a filter primitive ('''feGausssianBlur''') with a standard deviation of 5. After closing our tags, we draw a rectangle with the SVG '''rect''' element.  We apply the filter to the element by adding a filter property that references its id, '''gblur'''.
 
 <syntaxhighlight lang="xml">
 <svg width="200px" height="200px" viewbox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" version="1.1">
@@ -53,9 +54,9 @@ This has the effect that, by default, the output of a filter paints onto the scr
 [[Image:BasicSVGFilterExampleWithClipRegion.png|alt=image showing the result of specifying a custom filter effects region]]
 
 ===Filter Resolution===
-By default, the browser decides what resolution to use when performing operations on filter inputs, but it is possible to define a resolution by explicitly setting the '''filterRes''' property. Choosing a filter resolution significantly lower than the display default will result in visible pixelation but filters will execute faster. Choosing a filter resolution significantly higher than the default will cause slow filter performance. Filter resolution may be separately specified in both the [[svg/properties/filterResX|'''X''']] and [[svg/properties/filterResY|'''Y''']] dimension.
+By default, the browser decides what resolution to use when performing operations on filter inputs, but it is possible to set this resolution by explicitly setting the '''filterRes''' property. Choosing a filter resolution significantly lower than the display default will result in visible pixelation but filters will execute faster. Choosing a filter resolution significantly higher than the default will cause slow filter performance. Filter resolution may be separately specified in both the [[svg/properties/filterResX|'''X''']] and [[svg/properties/filterResY|'''Y''']] dimension.
 
-Below we show an example of blurs with low values of filterRes. The first example shows a filterRes with a single value which is applied to both the X and Y dimensions. The second example shows a filterRes with two values - one for X and one for the Y dimension - which results in a low resolution blur in just the Y dimension. Setting a very low resolution results in visible pixelation.
+Below we show an example of blurs with low values of filterRes. The first example shows a filterRes with a single low value which is applied to both the X and Y dimensions. The second example shows a filterRes with two values - a high value for X and a low value for the Y dimension - which results in a low resolution blur in just the Y dimension. Setting a very low resolution results in visible pixelation.
 
 <syntaxhighlight lang="xml">
 <svg width="450px" height="300px" viewbox="0 0 450 300" xmlns="http://www.w3.org/2000/svg" version="1.1">
@@ -78,12 +79,12 @@ Below we show an example of blurs with low values of filterRes. The first exampl
 
 ===Units and Coordinates for Filter Effects===
 ====filterUnits====
-By default, the units and coodinate system for the filter effects region (x,y,width,height) of a filter element is set relative to the element referencing the filter. In SVG terms, this is called the "objectBoundingBox". When we write '''x="50%"''' it means "set the starting x position of the filter region at the left side of the referencing element + 50% of the width of the element".
+By default, the units and coordinate system for the filter effects region (x,y,width,height) of a filter element are set relative to the bounding box of the element referencing the filter. In SVG terms, this is called the "objectBoundingBox". When we write '''x="50%"''' it means "set the starting x position of the filter region at the left side of the bounding box of the referencing element + 50% of the width of the element".
 
-But you may also specify the units and coordinates by setting the '''filterUnits''' property. The two alternatives are "objectBoundingBox" (the default which we're just described) or "userSpaceOnUse". userSpaceOnUse sets the filter units and the coordinate system to the canvas of the referencing element, or in SVG terms, the "userSpaceOnUse".
+But you may also specify the units and coordinates explicitly by setting the '''filterUnits''' property. The two alternatives are "objectBoundingBox" (the default which we're just described) or "userSpaceOnUse". userSpaceOnUse sets the filter units and the coordinate system to the canvas of the referencing element, or in SVG terms, the "userSpaceOnUse".
 
 ====primitiveUnits====
-In addition to the unit system for the filter itself, you may also specify the unit system that the filter's child filter primitives will use. Once again, the choice is between userSpaceOnUse and objectBoundingBox. These effect the 0,0 coordinates and the unit values for the filter primitives in the same way as for filterUnits.
+In addition to the unit system for the filter itself, you may also specify the unit system that the filter's child filter primitives will use. Once again, the choice is between userSpaceOnUse and objectBoundingBox. These affect the 0,0 coordinates and the unit values for the filter primitives in the same way as for filterUnits.
 
 In the example below, we set the unit systems of both the filter and filter primitives to the four combinations possible for userSpaceOnUse and objectBoundingBox, while achieving the same filter effect. Here, we use an '''<[[feFlood]]>''' primitive to generate a rectangular color field that is offset from its referencing element. Then we use '''<[[feMerge]]>''' to combine the feFlood with the original element (the '''SourceGraphic''').
 
@@ -153,20 +154,20 @@ Note: that when we use '''userSpaceOnUse''', we calculate our filter and feFlood
 {{Notes_Section
 |Usage=Within the enclosing filter element, a filter effect is defined by taking inputs, applying transformation operations and feeding the results of those transformations into further operations. Advanced filters typically contain 10 or more individual filter elements in an input/output chain. Filters are also capable of inheriting from other filters via the xlink:href attribute, however, this is not widely supported in current browsers (Dec 2012).
 
-Most filter attributes are animateable via animateElement, however performance in current desktop browsers (Dec 2012) is uneven.
+Most filter attributes are animateable via the animate element, however animation performance for complex filters in current desktop browsers (Dec 2012) is uneven.
 
-Child elements of the Filter element - filter primitives - have two optional attributes that specify the color space within which color interpolation calculations are performed: '''color-interpolation''' and '''color-interpolation-filters'''. The default for the former is sRGB, and the default for the latter is linearRGB. "Non-intuitive" results from color manipulation operations can often be corrected by setting the value of one or other of these attributes to its non-default value.These attributes can be set on the individual filter primitives or inherited from the filter element itself.
+Child elements of the Filter element - filter primitives - have two optional attributes that specify the color space within which color interpolation calculations are performed: '''color-interpolation''' and '''color-interpolation-filters'''. The default for the former is sRGB, and the default for the latter is linearRGB. Manipulations that invert the color space (through feColorMatrix or feComponentTransfer) can result in "non-intuitive" results. For example, a color inversion of a greyscale image in linearRGB will result in a pronounced shift toward whiter tones. This can be corrected by setting the value of the primitive to sRGB. These attributes can be set on the individual filter primitives or inherited from the filter element itself.
 
-If no other input is specified, but one is required, the first filter primitive within a filter will take a rasterized (bitmapped) version of the referring element as its input. Subsequent filter primitives that expect an input will take the output of the immediately preceding filter primitive as input.
+If no other input is specified, but one is required, the first filter primitive within a filter will take a rasterized (bitmapped) version of the referring element as its input. Subsequent filter primitives that expect an input will take the result of the immediately preceding filter primitive as input.
 
 In complex filters, it can become difficult to keep track (and debug) inputs and outputs if they are left implicit; and it is good practice to explicitly declare inputs and outputs for each primitive.
 
-SVG filter primitives can be divided into inputs, transformations, lighting effects and combinations.
+SVG filter primitives can be colloquially divided into inputs, transformations, lighting effects and combinations.
 
 Inputs:
 * feFlood: generates a color field
-* feTubulence: generates a wide variety of noise effects
-* feImage: generates an image from an external image reference
+* feTurbulence: generates a wide variety of noise effects
+* feImage: generates an image from an external image reference (or object reference, but this is not widely supported in current browsers Dec '12)
 
 Transformations:
 *feColorMatrix: transforms the input values of an RBGA pixel into output values
@@ -174,29 +175,29 @@ Transformations:
 *feConvolveMatrix: replaces each pixel with a new pixel calculated from pixel values in an area relative to the the current pixel)
 *feGaussianBlur: replaces the current pixel with a weighted average of pixels in an area around the pixel
 *feDisplacementMap: moves each pixel from its current position based on the R,G or B values from another input graphic.
-*feMorphology: replaces each pixel with a new pixel calculated from the maximum value of all pixels in an area around that pixel.
+*feMorphology: replaces each pixel with a new pixel calculated from the maximum or minimum value of all pixels in a rectangular area around that pixel.
 *feOffset: moves the input from its current position
 
 Lighting Effects:
 *feSpecularLighting: provides a "shiny" 2D or pseudo-3D lighting effect
 *feDiffuseLighting: provides a "matte" 2D or pseudo-3D lighting effect
 *feDistantLight: provides a distant light source for specular or diffuse lighting
-*feSpotLight: provides a conic light source for specular or diffuse lighting
+*feSpotLight: provides a conic section light source for specular or diffuse lighting
 *fePointLight: provides a point light source for specular or diffuse lighting
 
 Combinations:
-*feMerge: creates a simple overlya composite from multiple inputs (including previous filter inputs)
-*feBlend: blends multiple inputs using color rules
-*feComposite: blends multiple inputs using alpha values
-*feTile: tiles input to output a pattern
+*feMerge: creates a simple '''over''' composite from multiple inputs (including previous filter inputs)
+*feBlend: blends multiple inputs using mixing rules
+*feComposite: combines multiple inputs using set combination rules, taking into account alpha values.
+*feTile: tiles input to create a repeating pattern
 |Notes====Remarks===
-Although SVG is a vector graphics technology, it is important to emphasize that SVG Filters perform *pixel-level* operations on all inputs (including SVG shapes) and produce rasterized (bitmapped) outputs at a specified level of resolution. Applying a 10x scale transform (for example) on an plain SVG curve that has been filtered at normal screen resolution will produce pixelated edges since the anti-aliasing of the original graphic has been converted to pixels by the filter and scaled up.
+Although SVG is a vector graphics technology, it is important to emphasize that SVG Filters perform *pixel-level* operations on all inputs (including SVG shapes) and produce rasterized (bitmapped) outputs at a specified level of resolution. Applying a 10x scale transform (for example) on an plain SVG curve that has been filtered at normal screen resolution will produce pixelated edges since the anti-aliasing of the original graphic has been converted to pixels by the filter and scaled up. (It is unclear whether this is spec compliant or just a limitation of current implementations)
 
 Remember that you are writing XML when you write filters, so *don't forget to close all those tags* and don't omit required attributes or the filter won't execute at all.
 
-A filter element is never rendered directly. It is only referenced using the filter property on the element to which the filter is applied. Note that the [[css/properties/display|'''display''']] property does not apply to the '''filter''' element and  elements are not directly rendered even if the '''display''' property is set to a value other than "none".   Conversely, '''filter''' elements are available for referencing even when the'''display''' property on the '''filter'''element or any of its ancestors is set to "none".
+A filter element is never rendered directly. It is only referenced using the filter property on the element to which the filter is applied. Note that the [[css/properties/display|'''display''']] property does not apply to the '''filter''' element and elements are not directly rendered even if the '''display''' property is set to a value other than "none".   Conversely, '''filter''' elements are available for referencing even when the'''display''' property on the '''filter'''element or any of its ancestors is set to "none".
 
-It is currently (Fall 2012) contemplated that in the future, SVG filters can be referenced via a [[CSS Filter]] and used to apply advanced effects to HTML elements.
+It is currently (Fall 2012) contemplated that in the future, SVG filters can be referenced via a [[CSS Filter]] and used to apply advanced effects to HTML elements. (Firefox currently (Dec '12) allows this through a different mechanism.)
 |Import_Notes====Syntax===
 ===Standards information===
 * http://www.w3.org/TR/SVG/filters.html#FilterElement
@@ -213,7 +214,7 @@ The '''SVGFilterElement''' object has these properties.
 
 *[[svg/properties/className|'''className''']]: Gets  the names of the classes  that are assigned to this object.
 *[[svg/properties/externalResourcesRequired|'''externalResourcesRequired''']]: Gets a value that indicates whether referenced resources that are not in the current document are required to correctly render a given element.
-*[[svg/properties/filter|'''filter''']]: The [[svg/properties/filter|'''filter''']] property is generally used to apply a previously define '''filter''' to an applicable element.
+*[[svg/properties/filter|'''filter''']]: The [[svg/properties/filter|'''filter''']] property is generally used to apply a previously defined '''filter''' to an applicable element.
 *[[svg/properties/filterResX|'''filterResX''']]: Corresponds to the X component of the attribute filterRes on the given filter element.
 *[[svg/properties/filterResY|'''filterResY''']]: Corresponds to the Y component of the attribute filterRes on the given filter element.
 *[[svg/properties/filterUnits|'''filterUnits''']]: Defines the coordinate system for the filter attributes.
