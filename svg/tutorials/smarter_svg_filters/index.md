@@ -590,6 +590,8 @@ which renders over it for the final effect:
 
 ==Other merge options: feBlend, feComposite, feImage, feTile==
 
+'''feBlend'''
+
 <div style="display:inline-block;max-width:200px;padding:10px">
 
 '''normal'''
@@ -621,6 +623,43 @@ which renders over it for the final effect:
 [[Image:svgf_blendDarken.png|150px]]
 
 </div>
+
+'''feComposite'''
+
+
+<div style="display:inline-block;max-width:200px;padding:10px">
+
+'''over'''
+
+[[Image:svgf_compOver.png|150px]]
+
+</div><div style="display:inline-block;max-width:200px;padding:10px">
+
+'''out'''
+
+[[Image:svgf_compOut.png|150px]]
+
+</div><div style="display:inline-block;max-width:200px;padding:10px">
+
+'''in'''
+
+[[Image:svgf_compIn.png|150px]]
+
+</div><div style="display:inline-block;max-width:200px;padding:10px">
+
+'''atop'''
+
+[[Image:svgf_compAtop.png|150px]]
+
+</div><div style="display:inline-block;max-width:200px;padding:10px">
+
+'''xor'''
+
+[[Image:svgf_compXor.png|150px]]
+
+</div>
+
+
 
 <!--
 -->
