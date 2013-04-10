@@ -1,17 +1,21 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{Markup_Element
 |DOM_interface=svg/objects/SVGElement
 }}
-{{Topics|SVG}}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
 {{Notes_Section
-|Notes=
-
-===Remarks===
+|Notes====Remarks===
 
 '''feConvolveMatrix''' applies a matrix convolution filter effect. A convolution combines pixels in the input image with neighboring pixels to produce a resulting image. A wide variety of imaging operations can be achieved through convolutions, including blurring, edge detection, sharpening, embossing, and beveling.
 
@@ -20,10 +24,7 @@ A matrix convolution is based on an ''n''-by-''m'' matrix (the convolution kerne
 Because they operate on pixels, matrix convolutions are inherently resolution-dependent. To make '''feConvolveMatrix''' produce resolution-independent results, an explicit value should be provided for either the [[svg/methods/setFilterRes|'''filterRes''']] attribute on the [[svg/elements/filter|'''filter''']] element and/or attribute [[svg/properties/kernelUnitLengthX|'''kernelUnitLength''']].
 
 [[svg/properties/kernelUnitLengthX|'''kernelUnitLength''']], in combination with the other attributes, defines an implicit pixel grid in the filter effects coordinate system (that is, the coordinate system established by the [[svg/properties/primitiveUnits|'''primitiveUnits''']] attribute). If the pixel grid established by '''kernelUnitLength''' is not scaled to match the pixel grid established by attribute [[svg/methods/setFilterRes|'''filterRes''']] (implicitly or explicitly), then the input image will be temporarily rescaled to match its pixels with '''kernelUnitLength'''. The convolution happens on the resampled image. After applying the convolution, the image is resampled back to the original resolution.
-
-|Import_Notes=
-
-===Syntax===
+|Import_Notes====Syntax===
 
 ===Standards information===
 
@@ -50,12 +51,25 @@ The '''SVGFEConvolveMatrixElement''' object has these properties:
 *[[svg/properties/width|'''width''']]: Defines the width of an element.
 *[[svg/properties/x|'''x''']]: Gets or sets the x-coordinate value.
 *[[svg/properties/y|'''y''']]: Gets or sets the y-coordinate value.
-
 }}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section
+|Topic_clusters=Filters
+}}
+{{Topics|SVG}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
