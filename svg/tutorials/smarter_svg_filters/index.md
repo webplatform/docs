@@ -34,7 +34,7 @@ has recently been extended to CSS, so it helps to clarify what
 ''filter'' means in that context.  CSS filters currently come in two
 flavors:
 
-* Built-in ''filter functions'' provide a series of fairly standard pre-built image processing effects, such as the [[css/functions/blur|'''blur()''']] and [[css/functions/grayscale|'''grayscale()''']] functions specified by the [[css/properties/filter|'''filter''']] property. These CSS functions can be chained together to form larger effects. (Each is actually implemented as an SVG filter.)
+* Built-in ''filter functions'' provide a series of fairly standard pre-built image processing effects, such as the [[css/functions/blur|'''blur()''']] and [[css/functions/grayscale|'''grayscale()''']] functions specified by the [[css/properties/filter|'''filter''']] property. These CSS functions can be chained together to form larger effects. (Each is actually implemented as an SVG filter.) See [[tutorials/css_filters|Understanding CSS filter effects]] for a guide.
 
 * In addition to standard two-dimensional image processing features, CSS ''custom filters'' allow you to warp the surface of an element in three dimensions. Custom filters are also known as ''shaders'', either ''vertex'' shaders that warp a surface, or ''fragment'' shaders that modify the pixels that cover the resulting surface.
 
@@ -119,8 +119,8 @@ using the same [[css/functions/url|'''url()''']] function:
 As of this writing, not all browsers allow you to apply SVG filters to
 HTML content. Mozilla Firefox fully supports the feature.  WebKit
 Safari's support is limited to filters that use the blur described
-above, and basic image processing effects described below:
-'''feComponentTransfer''', '''feColorMatrix''', and
+above, and basic image processing effects described in the first half
+of this guide: '''feComponentTransfer''', '''feColorMatrix''', and
 '''feConvolveMatrix'''.
 
 ==Modifying colors with feComponentTransfer==
@@ -1093,6 +1093,34 @@ shadow for additional depth and legibility:
 
 </div>
 
+Use the same technique to add depth to surfaces, such as this example
+that defines a radial gradient that fades to transparent values:
+
+<syntaxhighlight lang="xml">
+<circle id="cornea" cx="100" cy="100" r="50" fill="url(#corneaSurface)"/>
+<radialGradient id="corneaSurface">
+  <stop offset="0%"   stop-color="black" stop-opacity="1"/>
+  <stop offset="100%" stop-color="black" stop-opacity="0"/>
+</radialGradient>
+</syntaxhighlight>
+
+[[Image:svgf_eyeCornea.png]]
+
+The filter uses [[svg/elements/feImage|'''feImage''']] to import an
+graphic filled with the gradient, then shines a spot light on the
+surface, which results in a rounded highlight:
+
+<syntaxhighlight lang="xml">
+<filter id="corneaShine" primitiveUnits="objectBoundingBox" >
+  <feImage xlink:href="#cornea"/>
+  <feSpecularLighting lighting-color="#ffffff" surfaceScale="170" specularConstant="2" result="shine">
+    <feSpotLight x="200" y="-100" z="200" pointsAtX="120" pointsAtY="80" pointsAtZ="50" limitingConeAngle="7"/>
+  </feSpecularLighting>
+  <feComposite in="shine" in2="SourceGraphic" operator="over"/>
+</filter>
+</syntaxhighlight>
+
+[[Image:svgf_eyeShine.png]]
 
 }}
 {{Notes_Section}}
