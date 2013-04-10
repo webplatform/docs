@@ -11,33 +11,32 @@
 
 The power of SVG filters is matched by the depth and complexity of
 available options. It takes a good deal of practice to master the many
-filter effects that are available to you, but hopefully this will help
-you understand what's possible.  It starts by showing how modify color
+filter effects and understand how to combine them. This guide covers a
+wide range of examples.  It starts by showing how to modify color
 values in ways that often correspond to built-in CSS filter functions.
 Then it shows you how to split and merge independent channels to take
-advantage of some of SVG's more unusual filter effects.
+advantage of some of SVG's more unusual filter effects. Finally, it
+shows you how to apply three-dimensional lighting effects.
 
 ==What are filters?==
 
 A filter is a little machine that takes graphic input, changes it in
-some way, and causes the output to render differently. Filters contain
-one or more component ''filter effect'' elements, some of which do
-intuitively obvious things (such as blur the graphic), and some of
-which only make sense when combined with other effects.
+some way, and causes the output to render differently. Filters
+comprise ''filter effect'' elements, some of which do intuitively
+obvious things (such as blur the graphic), and some of which only make
+sense when combined with other effects.  Filter effects are often
+chained together so that one effect's output becomes another effect's
+input. Filter effects may also operate on different inputs that are
+modified independently of each other, then combined.
 
-Filter effects are often chained together so that one effect's output
-becomes another effect's input. Filter effects may also operate on
-different inputs that are modified independently of each other, then
-combined.
+The idea of applying filters to web content originated in SVG, but it
+has recently been extended to CSS, so it helps to clarify what
+''filter'' means in that context.  CSS filters currently come in two
+flavors:
 
-While the idea of applying filters to web content originated in SVG,
-it has recently been extended to CSS, so it helps to clarify what
-''filter'' means in these different contexts.  CSS filters currently
-come in two flavors:
+* Built-in ''filter functions'' provide a series of fairly standard pre-built image processing effects, such as the [[css/functions/blur|'''blur()''']] and [[css/functions/grayscale|'''grayscale()''']] functions specified by the [[css/properties/filter|'''filter''']] property. These CSS functions can be chained together to form larger effects. (Each is actually implemented as an SVG filter.)
 
-* Built-in ''filter functions'' provide a series of fairly standard pre-built image processing effects, such as [[css/functions/blur|'''blur()''']] and [[css/functions/grayscale|'''grayscale()''']]. These CSS functions can be chained together to form larger effects, but each one can be represented as an SVG filter.
-
-* In addition to standard two-dimensional image processing features, CSS ''custom filters'' allow you to warp the surface of an element in three dimensions. Custom filters are also known as ''shaders'', either ''vertex'' shaders to warp the surface, or ''fragment'' shaders to modify its pixels.
+* In addition to standard two-dimensional image processing features, CSS ''custom filters'' allow you to warp the surface of an element in three dimensions. Custom filters are also known as ''shaders'', either ''vertex'' shaders that warp a surface, or ''fragment'' shaders that modify the pixels that cover the resulting surface.
 
 This guide does not discuss these more recent CSS custom filters, but
 does show you how to customize your own SVG filters for use in HTML.
@@ -119,9 +118,10 @@ using the same [[css/functions/url|'''url()''']] function:
 
 As of this writing, not all browsers allow you to apply SVG filters to
 HTML content. Mozilla Firefox fully supports the feature.  WebKit
-Safari's support is limited to filters that use basic image processing
-effects described below: '''feComponentTransfer''',
-'''feColorMatrix''', and '''feConvolveMatrix'''.
+Safari's support is limited to filters that use the blur described
+above, and basic image processing effects described below:
+'''feComponentTransfer''', '''feColorMatrix''', and
+'''feConvolveMatrix'''.
 
 ==Modifying colors with feComponentTransfer==
 
@@ -178,11 +178,10 @@ color shifts into solid bands based on the step values specified in
 </div>
 
 Setting the [[svg/attributes/type|'''type''']] to '''linear'''
-multiples the value [[svg/attributes/slope|'''slope''']] value
-(relative to the default '''1'''), then adding an
-[[svg/attributes/intercept|'''intercept''']] value if present.
-
-The first example reproduces the effect of the CSS
+multiplies the [[svg/attributes/slope|'''slope''']] value (relative to
+the default '''1'''), then adds an
+[[svg/attributes/intercept|'''intercept''']] value if present.  The
+first example below reproduces the effect of the CSS
 [[css/functions/brightness|'''brightness()''']] function, flattening
 the slope to darken the image. The second increases the slope to
 brighten the image, but then drops all values by a fixed amount,
@@ -207,7 +206,7 @@ zeroing out many of them:
 <div style="display:inline-block">
 
 <syntaxhighlight lang="xml">
-<filter id="thresholded_brightness">
+<filter id="brightness_threshold">
 <feComponentTransfer>
  <feFuncR type="linear" slope="1.5" intercept="-0.3"/>
  <feFuncG type="linear" slope="1.5" intercept="-0.3"/>
@@ -258,12 +257,12 @@ behaves like the CSS [[css/functions/invert|'''invert()''']] function:
 </div>
 
 Setting the [[svg/attributes/type|'''type''']] to '''gamma''' allows
-you to perform ''gamma correction'', typically to bring up dark
+you to perform ''gamma correction'', a useful way to increase dark
 values. The function applies the following formula to produce a curve:
 ((''amplitude'' &times; ''value''<sup>''exponent''</sup>) +
-''offset''). The first example brightens the green, and the second
-uses [[svg/attributes/offset|'''offset''']] to reduce the final result
-across the board (the same that
+''offset''). The first example heightens the darkers greens, and the
+second uses [[svg/attributes/offset|'''offset''']] to reduce the
+overall green level (the same way that
 [[svg/attributes/intercept|'''intercept''']] does for the '''linear'''
 type):
 
@@ -367,12 +366,10 @@ suggests, setting the [[svg/attributes/type|'''type''']] to
 20-element transform whose rows correspond to red, green, blue, and
 alpha channels. This initial transform leaves the image unchanged:
 
-<div style="display:inline-block">
  1 0 0 0 0
  0 1 0 0 0
  0 0 1 0 0
  0 0 0 1 0  
-</div>
 
 The first example below reproduces the effect of the CSS
 [[css/functions/sepia|'''sepia()''']] function, while the second
@@ -437,12 +434,12 @@ its immediate neighbors:
  0 0 0
 
 The relative weight of the neighbors helps calculate the pixel's new
-value.  In this case it's 0 times each adjacent pixel's value, summed
+value.  (In this case it's 0 times each adjacent pixel's value, summed
 together along with 1 times the value of the pixel, divided by the sum
-of all the pixel values. So this initial example has no effect on the
+of all the pixel values.) This initial example has no effect on the
 image.
 
-The original image shown on the left is somewhat blurred.  Applying a
+The original image shown on the left is slightly blurred.  Applying a
 sharpen filter nudges pixels for the higher-contrast edges shown at
 the right:
 
@@ -463,7 +460,7 @@ the right:
 </div>
 
 Getting convolve filters to behave predictably takes a bit of
-practice.  The example on the left sharpens the detail more
+practice.  The example on the left below sharpens the detail more
 dramatically, while the one on the right embosses it diagonally:
 
 <div style="display:inline-block">
@@ -493,8 +490,8 @@ throughout the image.  It requires an
 the calculation to each adjacent neighbor's farthest neighbor.  (As
 shown here, it is converted to a grayscale using the
 '''luminanceToAlpha'''
-[[svg/elements/feColorMatrix|'''feColorMatrix''']] type discussed
-above, and the effect-chaining technique described below.)
+[[svg/elements/feColorMatrix|'''feColorMatrix''']] type shown above,
+and the effect-chaining technique described below.)
 
 <div style="display:inline-block">
 
@@ -584,7 +581,7 @@ falls within the dropped shadow:
 </div><div style="display:inline-block;max-width:280px;padding:12px">
 
 Finally, the [[svg/elements/feMerge|'''feMerge''']] effect combines
-the modified version of the graphic with the the original. The first
+the modified version of the graphic with the original. The first
 [[svg/elements/feMergeNode|'''feMergeNode''']] accepts the composite
 result by default, and the second specifies the '''SourceGraphic''',
 which renders over it for the final effect:
@@ -651,7 +648,9 @@ same default overlay as [[svg/elements/feMerge|'''feMerge''']]:
 <feComposite in="SourceGraphic" in2="offsetBlur" operator="over" />
 </syntaxhighlight>
 
-The following shows how its operators behave:
+The following shows how its operators behave. The drop-shadow example
+above uses the '''in''' operator to fill a color within another
+graphic.
 
 <div style="display:inline-block;max-width:200px;padding:10px">
 
