@@ -588,12 +588,12 @@ which renders over it for the final effect:
 
 </div>
 
-==Other merge options: feBlend, feComposite==
+==Other merge and input options: feBlend, feComposite, feImage, feTile==
 
 The [[svg/elements/feMerge|'''feMerge''']] element shown above simply
 places one graphic over another to produce a new filter channel. As an
 alternative, you can use [[svg/elements/feBlend|'''feBlend''']] with
-the [[svg/attributes/mode|'''mode''']] set to '''normal'''.  It
+its [[svg/attributes/mode|'''mode''']] set to '''normal''', which
 combines the [[svg/attributes/in|'''in''']] and
 [[svg/attributes/in2|'''in2''']] channels:
 
@@ -601,8 +601,8 @@ combines the [[svg/attributes/in|'''in''']] and
 <feBlend in="SourceGraphic" in2="offsetBlur" mode="normal" />
 </syntaxhighlight>
 
-Here are how [[svg/elements/feBlend|'''feBlend''']]'s other modes
-affect graphics that overlay each other. The '''lighten''' and
+The following shows how [[svg/elements/feBlend|'''feBlend''']]'s other
+modes affect graphics that overlay each other. The '''lighten''' and
 '''darken''' modes simply take the lighter or darker of the two
 pixels:
 
@@ -646,7 +646,7 @@ same default overlay as [[svg/elements/feMerge|'''feMerge''']]:
 <feComposite in="SourceGraphic" in2="offsetBlur" operator="over" />
 </syntaxhighlight>
 
-Here are how its operators compare:
+The following shows how its operators behave:
 
 <div style="display:inline-block;max-width:200px;padding:10px">
 
@@ -683,18 +683,36 @@ Here are how its operators compare:
 Setting the [[svg/attributes/operator|'''operator''']] to
 '''arithmetic''' allows you to supply your own '''k1'''-'''k4''' table
 values to produce composite blends.  For example, set
-[[svg/attributes/k1|'''k1''']] and [[svg/attributes/k4|'''k4''']]) to
-0, then decrease ([[svg/attributes/k2|'''k2''']] from 1 while
-increasing [[svg/attributes/k3|'''k3''']] results in a cross-fade
-effect.  The [[svg/attributes/in2|'''in2''']] graphic is more visible
-in this example:
+[[svg/attributes/k1|'''k1''']] and [[svg/attributes/k4|'''k4''']] to
+0, then decrease [[svg/attributes/k2|'''k2''']] from 1 while
+increasing [[svg/attributes/k3|'''k3''']] for a cross-fade effect.
+This example makes the [[svg/attributes/in2|'''in2''']] graphic more
+visible:
 
 <syntaxhighlight lang="xml">
-<feComposite in="graphicA" in2="graphicB" operator="arithmetic"
-             k1="0" k2="0.3" k3="0.7" k4="0"/>
+<feComposite in="graphicA" in2="graphicB" operator="arithmetic" k1="0" k2="0.3" k3="0.7" k4="0"/>
 </syntaxhighlight>
 
 [[Image:svgf_compArithmetic.png|150px]]
+
+To import graphics into filter effects as in the examples above, use
+the [[svg/elements/feImage|'''feImage''']] element. It allows you to
+import not only raster images as with the
+[[svg/elements/image|'''image''']] element, but any other SVG graphic
+as well. By default, graphics are placed in the center of the filter
+region.  Otherwise, use [[svg/attributes/x|'''x''']],
+[[svg/attributes/y|'''y''']], [[svg/attributes/width|'''width''']],
+and [[svg/attributes/height|'''height''']] attributes to reposition
+and resize them:
+
+<syntaxhighlight lang="xml">
+<feImage xlink:href="img/icon.png" x="100" y="50" width="20%" height="20%" result="icon"/>
+<feTile/>
+<feImage xlink:href="#gradient" result="gradient"/>
+</syntaxhighlight>
+
+The [[svg/elements/feTile|'''feTile''']] element simply allows you to
+repeat imported graphics as a pattern.
 
 ==A warp effect (feMorphology, feTurbulence, feDisplacementMap)==
 
