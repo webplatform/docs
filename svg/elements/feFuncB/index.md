@@ -1,16 +1,21 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{Markup_Element
 |DOM_interface=svg/objects/SVGElement
 }}
-{{Topics|SVG}}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 This topic describes the '''feFuncR''', '''feFuncG''', '''feFuncB''', and '''feFuncA''' elements. These four elements are typically children of [[svg/elements/feComponentTransfer|'''feComponentTransferelement''']] and specify the transfer functions for the four channels, as follows:
 *'''feFuncR''' — transfer function for the red component of the input graphic
 *'''feFuncG''' — transfer function for the green component of the input graphic
@@ -73,9 +78,7 @@ If the attribute is not specified, then the effect is as if a value of 1 were sp
 
 When '''type{{=}}"gamma"''', '''offset''' indicates the offset of the gamma function.
 If the attribute is not specified, then the effect is as if a value of 0 were specified
-
-|Import_Notes=
-===Syntax===
+|Import_Notes====Syntax===
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}226062 Scalable Vector Graphics: Filter Effects], Section 15.25.9
 
@@ -90,20 +93,30 @@ The '''SVGFEFuncBElement''' object has these properties.
 *[[svg/properties/slope|'''slope''']]: Indicates the slope of the linear function.
 *[[svg/properties/tableValues|'''tableValues''']]: Define the lookup table.
 *[[svg/properties/type (SVGComponentTransferFunctionElement)|'''type''']]: The type of component transfer function. The function type determines the applicability of the other attributes.
-
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Topic_clusters=Filters
+|Manual_sections====Related pages (MSDN)===
 *[[svg/elements/feComponentTransfer|'''SVGFEComponentTransferElement''']]
 *[[svg/elements/feFuncR|'''SVGFEFuncRElement''']]
 *[[svg/elements/feFuncGelement|'''SVGFEFuncGElement''']]
 *[[svg/elements/feFuncA|'''SVGFEFuncAElement''']]
 }}
+{{Topics|SVG}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
