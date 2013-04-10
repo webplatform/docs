@@ -1,22 +1,22 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{Markup_Element
 |DOM_interface=svg/objects/SVGElement
 }}
-{{Topics|SVG}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Description=This example shows a simple turbulence filter with a '''baseFrequency''' value of 0.1 and a [[svg/properties/numOctaves|'''numOctaves''']] value of 2.
 
 The image will look like this.
-|LiveURL=
-|Code=
-<syntaxhighlight lang="xml">
+|Code=<syntaxhighlight lang="xml">
 <!DOCTYPE HTML>
 <html>
     <head></head>
@@ -33,11 +33,10 @@ The image will look like this.
     </body>
 </html>
 </syntaxhighlight>
-}}}}
+}}
+}}
 {{Notes_Section
-|Notes=
-
-===Remarks===
+|Notes====Remarks===
 
 Ken Perlin is the author of a set of formulas that provide a way to display turbulence noise. At the time of this writing, an excellent summary is available at [http://freespace.virgin.net/hugo.elias/models/m_perlin.htm http://freespace.virgin.net/hugo.elias/models/m_perlin.htm].
 
@@ -48,9 +47,7 @@ The '''SVGFETurbulenceElement''' provides the following properties:
 *[[svg/properties/seed|'''seed''']]
 *[[svg/properties/stitchTiles|'''stitchTiles''']]
 *[[svg/properties/type (SVGFETurbulenceElement)|'''type''']]
-|Import_Notes=
-
-===Syntax===
+|Import_Notes====Syntax===
 
 ===Standards information===
 
@@ -71,12 +68,25 @@ The '''SVGFETurbulenceElement''' object has these properties:
 *[[svg/properties/width|'''width''']]: Defines the width of an element.
 *[[svg/properties/x|'''x''']]: Gets or sets the x-coordinate value.
 *[[svg/properties/y|'''y''']]: Gets or sets the y-coordinate value.
-
 }}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section
+|Topic_clusters=Filters
+}}
+{{Topics|SVG}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
