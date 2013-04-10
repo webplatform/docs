@@ -1,5 +1,7 @@
 {{Page_Title|The history of the Web}}
-{{Flags}}
+{{Flags
+|Checked_Out=No
+}}
 {{API_Name}}
 {{Summary_Section|<blockquote> 
 Where shall I begin, please your Majesty?
@@ -30,7 +32,7 @@ If any terms are unfamiliar to you, don’t worry: if they’re important for le
 {{Concept_Page
 |Content=This article is also translated into [http://science.webhostinggeeks.com/istorija-web Serbo-Croatian]. Translation by Jovana Milutinovich from [http://webhostinggeeks.com/ Webhostinggeeks.com].
 
-== The Internet’s origins ==
+== The Internet’s Origins ==
  
 On the fourth of October in 1957 an event occurred that would change the world. The Soviet Union successfully launched the first satellite into Earth’s orbit. Called Sputnik 1, it shocked the world — especially the United States of America, who had their own program of satellite launches underway, but had yet to launch.
  
@@ -46,7 +48,7 @@ This proliferation of different networking protocols soon became a problem, when
  
 This specification reduced the role of the network and moved the responsibility of maintaining transmission integrity to the host computer. The result was that it became possible to easily join almost all networks together. ARPA funded development of the software, and in 1977 a successful demonstration of three different networks communicating was conducted. By 1981, the specification was finalised, published and adopted; and in 1982 the ARPANET connections outside of the US were converted to use the new [http://en.wikipedia.org/wiki/TCP/IP TCP/IP] protocol. The Internet as we know it had arrived.
 
-== The creation of World Wide Web ==
+== The Creation of World Wide Web ==
  
 [http://en.wikipedia.org/wiki/Gopher Gopher] was an information retrieval system used in the early 1990s, providing a method of delivering menus of links to files, computer resources and other menus. These menus could cross the boundaries of the current computer and use the Internet to fetch menus from other systems. It was very popular with universities looking to provide campus-wide information and large organizations looking to centralize document storage and management.
  
@@ -54,13 +56,13 @@ Gopher was created by the University of Minnesota. In February, 1993, they annou
  
 The European Council for Nuclear Research ([http://en.wikipedia.org/wiki/CERN CERN]) in Switzerland had such an alternative. [http://en.wikipedia.org/wiki/Tim_Berners-Lee Tim Berners-Lee] had been working on an information management system, in which text could contain links and references to other works, allowing the reader to quickly jump from document to document. He had created a server for publishing this style of document (called [http://en.wikipedia.org/wiki/Hypertext hypertext]) as well as a program for reading them, which he had called WorldWideWeb. This software had first been released in 1991, however, it took two events to cause an explosion in popularity and the eventual replacement of Gopher.
  
-On the thirtieth of April 1993 CERN released the source code of WorldWideWeb into the public domain, so anyone could use or build upon the software without charge.
+On April 13th, 1993 CERN released the source code of World Wide Web into the public domain, so anyone could use or build upon the software without charge.
  
-Then, later in the same year, the [http://en.wikipedia.org/wiki/National_Center_for_Supercomputing_Applications NCSA] released a program that was a combined web browser and Gopher client, called [http://en.wikipedia.org/wiki/NCSA_Mosaic Mosaic]. This was originally only available on Unix machines and in source code form, but in December 1993 Mosaic provided a new version with installers for both Apple Macintosh and Microsoft Windows. Mosaic rapidly increased in popularity, and with it the Web.
+Then, later in the same year, the [http://en.wikipedia.org/wiki/National_Center_for_Supercomputing_Applications NCSA] released a program that was a combined web browser and Gopher client, called [http://en.wikipedia.org/wiki/NCSA_Mosaic Mosaic]. This was originally only available on Unix machines and in source code form, but in December 1993 Mosaic provided a new version with installers for both Apple Macintosh and Microsoft Windows. Mosaic rapidly increased in popularity, and with it the web.
  
-The number of available web browsers increased dramatically, many created by research projects at universities and corporations, such as Telenor (a Norwegian communications company), which created the first version of the Opera browser in 1994.
+The number of available web browsers increased dramatically, many created by research projects at universities and corporations, such as Telenor (a Norwegian communications company), which created the first version of the Opera Browser in 1994.
  
-=== The browser wars ===
+=== The Browser Wars ===
  
 The popularization of the web brought commercial interests. [http://en.wikipedia.org/wiki/Marc_Andreessen Marc Andreessen] left NCSA and together with [http://en.wikipedia.org/wiki/James_H._Clark Jim Clark] founded Mosaic Communications, later renamed to Netscape Communications Corporation, and started work on what was to become Netscape Navigator. Version 1.0 of the software was released in December 1994.
  
@@ -84,9 +86,9 @@ However, the W3C did not (and still do not) enforce their recommendations. Manuf
 
 === The Web Standards Project ===
  
-In 1998, the browser market was dominated by Internet Explorer 4 and Netscape Navigator 4. A beta version of Internet Explorer 5 was then released, and it implemented a new and proprietary dynamic HTML, which meant that professional web developers needed to know five ''different'' ways of writing JavaScript.
+In 1998, the browser market was dominated by Internet Explorer 4 and Netscape Navigator 4. A beta version of Internet Explorer 5 was released. It implemented new and proprietary dynamic HTML, which meant that professional web developers needed to know five ''different'' ways of writing JavaScript.
  
-As a result, a group of professional web developers and designers banded together. This group called themselves the [http://www.webstandards.org/ Web Standards Project (WaSP)]. The idea was that by calling the W3C documents standards rather than recommendations, they might be able to convince Microsoft and Netscape to support them.
+As a result, a group of professional web developers and designers banded together. They called themselves the [http://www.webstandards.org/ Web Standards Project (WaSP)]. By calling the W3C documents standards rather than recommendations, they thought they might be able to convince Microsoft and Netscape to support them.
  
 The early method of spreading the call to action was to use a traditional advertising technique called a roadblock, where a company would take out an advert on all broadcast channels at the same time, so no matter how a viewer would flick between channels, they would get exactly the same message. The WaSP published an article simultaneously on various web development focused sites including builder.com, Wired online, and some popular mailing lists.
  
