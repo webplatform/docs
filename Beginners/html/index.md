@@ -1,4 +1,4 @@
-{{Page_Title|PArt 4: Structuring our content with HTML}}
+{{Page_Title|Part 4: Structuring our content with HTML}}
 {{Flags
 |Checked_Out=No
 }}
@@ -17,7 +17,7 @@
 ** footer - include license notice, accessibility statement, contact details?
 ** navigation - include 5 items, do horizontal nav as it is better for learning
 ** main content - have this as the main recipe details; use it as an opportunity to demonstrate some good typography
-** sidebar - have this as an image gallery of images from the recipe 
+** sidebar - have this as an image gallery of images from the recipe
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
