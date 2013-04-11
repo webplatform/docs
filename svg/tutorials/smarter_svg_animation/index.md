@@ -75,7 +75,7 @@ to a single element, so there's no real difference:
 ==Delaying the animation==
 
 Increasing the [[svg/attributes/begin|'''begin''']] attribute's time
-value delays the animation:
+value from '''0s''' to '''1s''' delays the animation:
 
 <syntaxhighlight lang="xml" highlight="1,7,9">
 <text x="1000" y="100">
@@ -91,22 +91,22 @@ value delays the animation:
 </text>
 </syntaxhighlight>
 
-But notice this version fixes a problem.  The outer text element's
-'''x''' attribute is now set to '''1000'''. If you kept it at '''0''',
-the text would display for a second, then awkwardly disappear once the
-animation starts to execute, slide in from the right, then reposition
-itself at its initial location.
+But notice there's a problem, and the fix is highlighted.  The outer
+text element's '''x''' attribute is now set to '''1000'''. If you kept
+it at '''0''', the text would display for a second, then awkwardly
+disappear once the animation starts to execute, slide in from the
+right, and reposition itself at its initial location.
 
-But fixing that problem causes another problem. Once the animation
-completes, the value of '''x''' reverts to its initial value,
-'''1000''', thus making it disappear. Setting the
-[[svg/attributes/fill|'''fill''']] attribute to '''freeze''' maintains
-the attribute's value after the animation completes, overriding
-whatever the text element specifies.  (The
-[[svg/attributes/fill|'''fill''']] ''attribute'' is unfortunately
+Fixing that problem causes another problem, whose solution is also
+highlighted. Once the animation completes, the value of '''x'''
+reverts to its initial value, '''1000''', thus making it disappear.
+Setting the [[svg/attributes/fill|'''fill''']] attribute to
+'''freeze''' maintains the attribute's value after the animation
+completes, effectively overriding whatever the text element specifies.
+(The [[svg/attributes/fill|'''fill''']] ''attribute'' is unfortunately
 named the same as SVG's [[svg/properties/fill|'''fill''']]
 ''property'', which specifies background colors and images. Do not
-confuse the two.)
+get the two mixed up.)
 
 ==A sequence of values==
 
