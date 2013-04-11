@@ -152,6 +152,17 @@ the five values.  The number of
 [[svg/attributes/values|'''values''']], or the animation does not
 work.
 
+==Animation sequences==
+
+<!-
+(transforms)
+
+* begin = id.event
+* begin = id.event+timeValue
+* circle-anim.repeat(1) + 2.5s
+* prev.begin
+-->
+
 ==Setting the pace==
 
 Instead of bouncing the text off the wall, this variation brings it to
@@ -232,13 +243,6 @@ animation, ignoring any [[svg/attributes/keyTimes|'''keyTimes''']] or
 <!--
 
 [[svg/attributes/foo|'''foo''']]
-
-==Syncronization==
-
-* begin = id.event
-* begin = id.event+timeValue
-* circle-anim.repeat(1) + 2.5s
-* prev.begin
 
 ==Repetition, Repetition
 
