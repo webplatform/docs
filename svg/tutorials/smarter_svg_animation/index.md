@@ -60,9 +60,10 @@ Setting the [[svg/attributes/begin|'''begin''']] to '''0s''' makes it
 execute immediately, and the [[svg/attributes/dur|'''dur''']] sets a
 half-second duration over which the animation executes.
 
-Instead of nesting the animation, you can also link the element you
-want to animate indirectly. However, the animation can only be applied
-to a single element, so there's no real difference:
+Instead of nesting the animation, you can also indirectly link the
+element you want to animate. However, the animation can ''only'' be
+applied to a single element, so this represents only a superficial
+difference:
 
 <syntaxhighlight lang="xml">
 <defs>
