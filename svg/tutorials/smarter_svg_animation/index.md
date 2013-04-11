@@ -172,12 +172,12 @@ a more gradual stop:
 
 By default, the [[svg/attributes/calcMode|'''calcMode''']] is
 '''linear''', which makes the action proceed in a straight line.
-Setting it to '''spline''' makes it respond to a curve.
-
-The following show how these bezier curves behave. The ''x'' axis
+Setting it to '''spline''' makes it respond to a bezier curve, defined
+by [[svg/attributes/keySplines|'''keySplines''']].  The following
+examples show how these response curves behave.  The ''x'' axis
 represents the animation's elapsed time, and the ''y'' axis represents
 its progress, so the more the line curves vertically along the way,
-the faster the animation proceeds.
+the faster the animation proceeds at that point.
 
 <div style="display:inline-block;max-width:170px">
  0.42 0 1 1
@@ -209,29 +209,25 @@ the faster the animation proceeds.
 [[Image:transitF_linear.png]]
 </div>
 
-These examples compare keyword values commonly used by the
+These examples compare common
 [[css/properties/transition-timing-function|'''transition-timing-function''']]
 and
 [[css/properties/animation-timing-function|'''animation-timing-function''']]
-CSS properties, along with their
+CSS property keywords with their
 [[css/functions/cubic-bezier|'''cubic-bezier()''']] CSS function
 equivalents.
 
+If [[svg/attributes/calcMode|'''calcMode''']] is set to
+'''discrete''', the animation jumps abruptly from each frame defined
+in [[svg/attributes/values|'''values''']] to the next, just like CSS's
+[[css/functions/steps|'''steps()''']] function. If it's set to
+'''paced''', it proceeds at a constant rate over the course of the
+animation, ignoring any [[svg/attributes/keyTimes|'''keyTimes''']] or
+[[svg/attributes/keySplines|'''keySplines''']].
+
 <!--
 
-
-
-
 [[svg/attributes/foo|'''foo''']]
-
-(swipe + bounce)
-
-* calcMode = discrete: like CSS step()
-* calcMode = linear (default) between values
-* calcMode = paced (linear over entire animation; ignoring intermedite values)
-* calcMode = spline
-
-* "keySplines" == CSS cubic-bezier()
 
 ==Syncronization==
 
@@ -247,8 +243,6 @@ equivalents.
 * fill = freeze (like fill-mode)
 
 ==Building progressions==
-
-
 
 * from/by???
 * additive="sum" == relative "from" values
