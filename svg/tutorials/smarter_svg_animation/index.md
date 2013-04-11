@@ -67,7 +67,7 @@ difference:
 
 <syntaxhighlight lang="xml">
 <defs>
-<animate id="swipeAnim" xlink:href="#swipeText" attributeName="x"
+<animate id="swipe" xlink:href="#swipeText" attributeName="x"
          from="1000" to="0" begin="0s" dur="0.5s" />
 </defs>
 <text id="swipeText" x="0" y="100">An SVG Animation</text>
@@ -116,7 +116,7 @@ natural-looking variation bounces the text a bit off the left wall:
 
 <syntaxhighlight lang="xml" highlight="9-10">
 <animate
-    id            = "swipe"
+    id            = "bounce"
     attributeName = "x"
     from          = "1000"
     to            = "0"
@@ -128,18 +128,19 @@ natural-looking variation bounces the text a bit off the left wall:
 />
 </syntaxhighlight>
 
-The [[svg/attributes/values|'''values''']] attribute uses semicolons
-to specify a series of intermediate values between the animation's
-[[svg/attributes/begin|'''begin''']] and
+The highlighted [[svg/attributes/values|'''values''']] attribute uses
+semicolons to specify a series of intermediate values between the
+animation's [[svg/attributes/begin|'''begin''']] and
 [[svg/attributes/end|'''end''']] points. Starting at '''1000''', the
 animation proceeds to the '''0''' point that represents the left wall,
 then goes a bit further to '''-20''', then back to '''10''' before
 finally settling at '''0'''.
 
-Without the accompaying [[svg/attributes/keyTimes|'''keyTimes''']],
-the animation still looks awkward. The initial transition between
+The [[svg/attributes/values|'''values''']] specification by itself
+would still an awkward result. The initial transition between
 '''1000''' and '''0''' executes ''very'' quickly, after which the
-subsequent transitions seem too slow. The fixes this by
+subsequent transitions seem much too slow. The
+[[svg/attributes/keyTimes|'''keyTimes''']], fixes this by
 [[svg/attributes/keyTimes|'''keyTimes''']] specifying the share of
 time, between 0 and 1, each segment should take to execute. In this
 case, the initial transition that slides the text in takes 80% of the
@@ -149,11 +150,79 @@ the five values.  The number of
 [[svg/attributes/values|'''values''']], or the animation does not
 work.
 
+==Setting the pace==
+
+Instead of bouncing the text off the wall, this variation brings it to
+a more gradual stop:
+
+<syntaxhighlight lang="xml" highlight="9-10">
+<animate
+    id            = "ease_in"
+    attributeName = "x"
+    from          = "1000"
+    to            = "0"
+    begin         = "1s"
+    dur           = "0.5s"
+    fill          = "freeze"
+    calcMode      = "spline"
+    keySplines    = "0 0.75 0.25 1"
+    keyTimes      = "0;1"
+/>
+</syntaxhighlight>
+
+By default, the [[svg/attributes/calcMode|'''calcMode''']] is
+'''linear''', which makes the action proceed in a straight line.
+Setting it to '''spline''' makes it respond to a curve.
+
+The following show how these bezier curves behave. The ''x'' axis
+represents the animation's elapsed time, and the ''y'' axis represents
+its progress, so the more the line curves vertically along the way,
+the faster the animation proceeds.
+
+<div style="display:inline-block;max-width:200px">
+ 0 0 1 1
+ linear
+[[Image:transitF_linear.png]]
+</div>
+
+<div style="display:inline-block;max-width:200px">
+ 0.42 0 1 1
+ ease-in
+[[Image:transitF_easein.png]]
+</div>
+
+<div style="display:inline-block;max-width:200px">
+ 0 0 0.58 1
+ease-out
+[[Image:transitF_easeout.png]]
+</div>
+
+<div style="display:inline-block;max-width:200px">
+ 0.25 0.1 0.25 1
+ ease
+[[Image:transitF_ease.png]]
+</div>
+
+<div style="display:inline-block;max-width:200px">
+ 0.42 0 0.58 1
+ ease-in-out
+[[Image:transitF_easeinout.png]]
+</div>
+
+These examples compare keyword values commonly used by the
+[[css/properties/transition-timing-function|'''transition-timing-function''']]
+and
+[[css/properties/animation-timing-function|'''animation-timing-function''']]
+CSS properties, along with their
+[[css/functions/cubic-bezier|'''cubic-bezier()''']] CSS function
+equivalents.
+
 <!--
 
-[[svg/attributes/foo|'''foo''']]
 
-==Setting the pace==
+
+
+[[svg/attributes/foo|'''foo''']]
 
 (swipe + bounce)
 
