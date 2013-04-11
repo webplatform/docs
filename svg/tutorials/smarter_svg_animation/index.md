@@ -40,7 +40,7 @@ following:
         from          = "1000"
         to            = "0"
         begin         = "0s"
-        dur           = "1s"
+        dur           = "0.5s"
     />
 </text>
 </syntaxhighlight>
@@ -58,7 +58,7 @@ set what the values of that attribute should be at the beginning and
 end of the animation.
 Setting the [[svg/attributes/begin|'''begin''']] to '''0s''' makes it
 execute immediately, and the [[svg/attributes/dur|'''dur''']] sets a
-one-second duration over which the animation executes.
+half-second duration over which the animation executes.
 
 Instead of nesting the animation, you can also link the element you
 want to animate indirectly. However, the animation can only be applied
@@ -67,7 +67,7 @@ to a single element, so there's no real difference:
 <syntaxhighlight lang="xml">
 <defs>
 <animate id="swipeAnim" xlink:href="#swipeText" attributeName="x"
-         from="1000" to="0" begin="0s" dur="1s" />
+         from="1000" to="0" begin="0s" dur="0.5s" />
 </defs>
 <text id="swipeText" x="0" y="100">An SVG Animation</text>
 </syntaxhighlight>
@@ -77,7 +77,7 @@ to a single element, so there's no real difference:
 Increasing the [[svg/attributes/begin|'''begin''']] attribute's time
 value delays the animation:
 
-<syntaxhighlight lang="xml" highlight="1,7">
+<syntaxhighlight lang="xml" highlight="1,7,9">
 <text x="1000" y="100">
     An SVG Animation
     <animate
@@ -85,27 +85,55 @@ value delays the animation:
         from          = "1000"
         to            = "0"
         begin         = "1s"
-        dur           = "1s"
+        dur           = "0.5s"
+        fill          = "freeze"
     />
 </text>
 </syntaxhighlight>
 
-Notice that the text's '''x''' attribute is now set to '''1000'''. If
-you kept it at '''0''', the element would display for a second, then
-disappear, slide in from the right, then reposition itself at its
-initial location.
+But notice this version fixes a problem.  The outer text element's
+'''x''' attribute is now set to '''1000'''. If you kept it at '''0''',
+the text would display for a second, then awkwardly disappear once the
+animation starts to execute, slide in from the right, then reposition
+itself at its initial location.
+
+But fixing that problem causes another problem. Once the animation
+completes, the value of '''x''' reverts to its initial value,
+'''1000''', thus making it disappear. Setting the
+[[svg/attributes/fill|'''fill''']] attribute to '''freeze''' maintains
+the attribute's value after the animation completes, overriding
+whatever the text element specifies.  (The
+[[svg/attributes/fill|'''fill''']] ''attribute'' is unfortunately
+named the same as SVG's [[svg/properties/fill|'''fill''']]
+''property'', which specifies background colors and images. Do not
+confuse the two.)
+
+==A sequence of values==
+
+This animation swipes in, but then comes to an abrupt stop.  This
+variation bounces the text a bit off the left wall:
+
+<syntaxhighlight lang="xml" highlight="9-10">
+<animate
+    id            = "swipe"
+    attributeName = "x"
+    from          = "1000"
+    to            = "0"
+    begin         = "0s"
+    dur           = "0.5s"
+    fill          = "freeze"
+    values        = "1000;0;-20;10;0"
+    keyTimes      = "0;0.8;0.85;0.9;1"
+/>
+</syntaxhighlight>
 
 
 
 <!--
 
-* begin = timecount (s/ms)
-
-* attributeName="???"
-* attributeType="xml"
 
 
-==Sequences==
+
 
 (e.g. oscillating blur)
 
@@ -175,6 +203,12 @@ pause
 ==The 'set' shorthand==
 
 * discrete values
+
+===___===
+
+* begin = timecount (s/ms)
+
+* attributeType="xml"
 
 -->
 
