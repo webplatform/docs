@@ -154,13 +154,15 @@ work.
 
 ==Animation sequences==
 
-<!-
+<!--
+
 (transforms)
 
 * begin = id.event
 * begin = id.event+timeValue
 * circle-anim.repeat(1) + 2.5s
 * prev.begin
+
 -->
 
 ==Setting the pace==
