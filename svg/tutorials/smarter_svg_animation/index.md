@@ -23,7 +23,33 @@ dynamically modify any attribute values that can't be animated.
 
 ==A simple animation==
 
-[[Image:svga_simpleSwipe.png]]
+Start with a simple element that you'd like to animate:
+
+<syntaxhighlight lang="xml">
+<text x="0" y="100">An SVG Animation</text>
+</syntaxhighlight>
+
+Nest an [[svg/elements/animate|'''animate''']] element such as the
+following:
+
+<syntaxhighlight lang="xml">
+<text x="0" y="100">
+    An SVG Animation
+    <animate
+        attributeType = "XML"
+        attributeName = "x"
+        begin         = "0s"
+        dur           = "1s"
+        from          = "1000"
+        to            = "0"
+    />
+</text>
+</syntaxhighlight>
+
+When you load the SVG, the resulting animation swipes in some text
+from the right side of the screen:
+
+[[Image:svga_simpleSwipe.png|400px]]
 
 <!--
 
@@ -37,22 +63,7 @@ dynamically modify any attribute values that can't be animated.
 * attributeName="???"
 * attributeType="xml"
 
-<syntaxhighlight lang="xml">
-<text id="TXT" x="0" y="100"> An SVG Animation
-    <animate
-        id            = "swipe"
-        attributeType = "XML"
-        attributeName = "x"
-        calcMode      = "discrete"
-        keyTimes      = "0;0.2;0.4;0.6;0.8;1"
-        values        = "1000;800;600;400;200;0"
-        begin         = "0s;TXT.click"
-        dur           = "10s"
-        from          = "1000"
-        to            = "0"
-    />
-</text>
-</syntaxhighlight>
+==Adding a delay==
 
 ==Sequences==
 
