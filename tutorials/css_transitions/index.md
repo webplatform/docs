@@ -1,5 +1,7 @@
 {{Page_Title|Dynamic visual effects with CSS3 transitions}}
-{{Flags}}
+{{Flags
+|Checked_Out=No
+}}
 {{Byline
 |Name=Mike Sierra
 }}
@@ -41,7 +43,7 @@ These key points serve as reference:
 
 * Use comma-delimited values to apply more than one transition to an element, useful in building sequences.  Transitions can also execute concurrently when applied to different elements.
 
-* The [[css/properties/transition-timing-function|'''transition-timing-function''']] property allows you to control a transitions's speed of progress.  It accepts keywords: '''ease''', '''ease-in''', '''ease-out''', '''ease-in-out''', '''linear''', or custom '''cubic-bezier()''' response curves.
+* The [[css/properties/transition-timing-function|'''transition-timing-function''']] property allows you to control a transitions's speed of progress.  It accepts keywords: '''ease''', '''ease-in''', '''ease-out''', '''ease-in-out''', '''linear''', or custom [[css/functions/cubic-bezier|'''cubic-bezier()''']] response curves.
 
 * The [[css/properties/transition|'''transition''']] shorthand property can represent values from all other transition properties. If two time measurements are included, they are interpreted first as duration then as delay.
 
@@ -305,7 +307,7 @@ and move at the same speed:
 
 Browsers represent these keywords as bezier curves, which makes their
 response easier to visualize.  Here is the basic set of keyword values
-along with their alternate '''cubic-bezier()''' functions.  The
+along with their alternate [[css/functions/cubic-bezier|'''cubic-bezier()''']] functions.  The
 animation's elapsed time and progress correspond to ''x'' and ''y''
 axes, so the more the line curves vertically along the way, the faster
 the animation proceeds:
