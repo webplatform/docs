@@ -60,19 +60,50 @@ Setting the [[svg/attributes/begin|'''begin''']] to '''0s''' makes it
 execute immediately, and the [[svg/attributes/dur|'''dur''']] sets a
 one-second duration for which the animation executes.
 
+Instead of nesting the animation, you can also link the element you
+want to animate indirectly. However, the animation can only be applied
+to a single element, so there's no real difference:
+
+<syntaxhighlight lang="xml">
+<defs>
+<animate id="swipeAnim" xlink:href="#swipeText" attributeName="x"
+         from="1000" to="0" begin="0s" dur="1s" />
+</defs>
+<text id="swipeText" x="0" y="100">An SVG Animation</text>
+</syntaxhighlight>
+
+==Delaying the animation==
+
+Increasing the [[svg/attributes/begin|'''begin''']] attribute's time
+value delays the animation:
+
+<syntaxhighlight lang="xml" hightlight="1,7">
+<text x="1000" y="100">
+    An SVG Animation
+    <animate
+        attributeName = "x"
+        from          = "1000"
+        to            = "0"
+        begin         = "1s"
+        dur           = "1s"
+    />
+</text>
+</syntaxhighlight>
+
+Notice that the text's '''x''' attribute is now set to '''1000'''. If
+you kept it at '''0''', the element would display for a second, then
+disappear, slide in from the right, then reposition itself at its
+initial location.
+
+
+
 <!--
 
-(e.g. swipe effect)
-
 * begin = timecount (s/ms)
-* dur
-* from
-* to
 
 * attributeName="???"
 * attributeType="xml"
 
-==Adding a delay==
 
 ==Sequences==
 
