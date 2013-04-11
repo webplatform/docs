@@ -1,6 +1,5 @@
 {{Page_Title|Your first look at JavaScript}}
 {{Flags
-|Content=Broken Links
 |Checked_Out=No
 }}
 {{Byline}}
