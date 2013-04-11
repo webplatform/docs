@@ -36,20 +36,29 @@ following:
 <text x="0" y="100">
     An SVG Animation
     <animate
-        attributeType = "XML"
         attributeName = "x"
-        begin         = "0s"
-        dur           = "1s"
         from          = "1000"
         to            = "0"
+        begin         = "0s"
+        dur           = "1s"
     />
 </text>
 </syntaxhighlight>
 
-When you load the SVG, the resulting animation swipes in some text
-from the right side of the screen:
+When you load the SVG, the resulting animation quickly swipes in some
+text from the right side of the screen:
 
 [[Image:svga_simpleSwipe.png|400px]]
+
+Each animation element can only modify the value of one attribute at a
+time, specified by the
+[[svg/attributes/attributeName|'''attributeName''']]. The
+[[svg/attributes/from|'''from''']] and [[svg/attributes/to|'''to''']]
+set what the values of that attribute should be at the beginning and
+end of the animation.
+Setting the [[svg/attributes/begin|'''begin''']] to '''0s''' makes it
+execute immediately, and the [[svg/attributes/dur|'''dur''']] sets a
+one-second duration for which the animation executes.
 
 <!--
 
