@@ -32,7 +32,7 @@ Start with a simple element that you'd like to animate:
 Nest an [[svg/elements/animate|'''animate''']] element such as the
 following:
 
-<syntaxhighlight lang="xml">
+<syntaxhighlight lang="xml" highlight="3-9">
 <text x="0" y="100">
     An SVG Animation
     <animate
