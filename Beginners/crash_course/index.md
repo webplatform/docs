@@ -4,8 +4,7 @@
 }}
 {{Summary_Section|This part of our beginners course aims to provide you with a very quick and dirty introduction to coding a web page, so you can get comfortable with what it takes.}}
 {{Basic Page}}
-
-This part provides a very quick "hands dirty" session on HTML, CSS and JavaScript. We're not giving all the information - we are just trying to get the reader comfortable and give him/her a sense of achievement to begin with, before they get bored by all the details ;-)
+Note to authors: this part provides a very quick "hands dirty" session on HTML, CSS and JavaScript. We're not giving all the information - we are just trying to get the reader comfortable and give him/her a sense of achievement to begin with, before they get bored by all the details ;-)
 
 * Explain what HTML, CSS, and JavaScript are, show how to create some really trivially simple examples
 * Show what a simple site structure might look like
