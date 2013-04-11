@@ -108,7 +108,7 @@ named the same as SVG's [[svg/properties/fill|'''fill''']]
 ''property'', which specifies background colors and images. Do not
 get the two mixed up.)
 
-==A sequence of values==
+==A sequence of frames==
 
 This animation swipes in, but then comes to an abrupt stop.  This more
 natural-looking variation bounces the text a bit off the left wall:
@@ -141,9 +141,9 @@ the animation still looks awkward. The initial transition between
 subsequent transitions seem too slow. The fixes this by
 [[svg/attributes/keyTimes|'''keyTimes''']] specifying the share of
 time, between 0 and 1, each segment should take to execute. In this
-case, the initial transition that slides in the text takes 80% of the
-total duration. (Otherwise, with five values the default would be a
-far more brisk 25%.) The number of
+case, the initial transition that slides the text in takes 80% of the
+total duration, rather than the more brisk 25% default range between
+the five values.  The number of
 [[svg/attributes/keyTimes|'''keyTimes''']] must match the number of
 [[svg/attributes/values|'''values''']], or the animation does not
 work.
