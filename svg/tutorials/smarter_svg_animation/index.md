@@ -41,6 +41,7 @@ following:
         to            = "0"
         begin         = "0s"
         dur           = "0.5s"
+        id            = "swipe"
     />
 </text>
 </syntaxhighlight>
@@ -88,6 +89,7 @@ value from '''0s''' to '''1s''' delays the animation:
         begin         = "1s"
         dur           = "0.5s"
         fill          = "freeze"
+        id            = "delayed_swipe"
     />
 </text>
 </syntaxhighlight>
@@ -173,11 +175,13 @@ a more gradual stop:
 By default, the [[svg/attributes/calcMode|'''calcMode''']] is
 '''linear''', which makes the action proceed in a straight line.
 Setting it to '''spline''' makes it respond to a bezier curve, defined
-by [[svg/attributes/keySplines|'''keySplines''']].  The following
-examples show how these response curves behave.  The ''x'' axis
-represents the animation's elapsed time, and the ''y'' axis represents
-its progress, so the more the line curves vertically along the way,
-the faster the animation proceeds at that point.
+by [[svg/attributes/keySplines|'''keySplines''']]. You can use
+semicolons to specify as many curves as there are frames.
+
+The following examples show how these response curves behave.  The
+''x'' axis represents the animation's elapsed time, and the ''y'' axis
+represents its progress, so the more the line curves vertically along
+the way, the faster the animation proceeds at that point.
 
 <div style="display:inline-block;max-width:170px">
  0.42 0 1 1
