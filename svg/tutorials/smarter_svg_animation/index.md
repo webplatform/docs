@@ -179,34 +179,34 @@ represents the animation's elapsed time, and the ''y'' axis represents
 its progress, so the more the line curves vertically along the way,
 the faster the animation proceeds.
 
-<div style="display:inline-block;max-width:200px">
- 0 0 1 1
- linear
-[[Image:transitF_linear.png]]
-</div>
-
-<div style="display:inline-block;max-width:200px">
+<div style="display:inline-block;max-width:180px">
  0.42 0 1 1
  ease-in
 [[Image:transitF_easein.png]]
 </div>
 
-<div style="display:inline-block;max-width:200px">
+<div style="display:inline-block;max-width:180px">
  0 0 0.58 1
-ease-out
+ ease-out
 [[Image:transitF_easeout.png]]
 </div>
 
-<div style="display:inline-block;max-width:200px">
+<div style="display:inline-block;max-width:180px">
  0.25 0.1 0.25 1
  ease
 [[Image:transitF_ease.png]]
 </div>
 
-<div style="display:inline-block;max-width:200px">
+<div style="display:inline-block;max-width:180px">
  0.42 0 0.58 1
  ease-in-out
 [[Image:transitF_easeinout.png]]
+</div>
+
+<div style="display:inline-block;max-width:180px">
+ 0 0 1 1
+ linear
+[[Image:transitF_linear.png]]
 </div>
 
 These examples compare keyword values commonly used by the
