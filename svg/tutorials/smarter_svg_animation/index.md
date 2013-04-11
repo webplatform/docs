@@ -58,7 +58,7 @@ set what the values of that attribute should be at the beginning and
 end of the animation.
 Setting the [[svg/attributes/begin|'''begin''']] to '''0s''' makes it
 execute immediately, and the [[svg/attributes/dur|'''dur''']] sets a
-one-second duration for which the animation executes.
+one-second duration over which the animation executes.
 
 Instead of nesting the animation, you can also link the element you
 want to animate indirectly. However, the animation can only be applied
@@ -77,7 +77,7 @@ to a single element, so there's no real difference:
 Increasing the [[svg/attributes/begin|'''begin''']] attribute's time
 value delays the animation:
 
-<syntaxhighlight lang="xml" hightlight="1,7">
+<syntaxhighlight lang="xml" highlight="1,7">
 <text x="1000" y="100">
     An SVG Animation
     <animate
