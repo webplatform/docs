@@ -110,8 +110,8 @@ get the two mixed up.)
 
 ==A sequence of values==
 
-This animation swipes in, but then comes to an abrupt stop.  This
-variation bounces the text a bit off the left wall:
+This animation swipes in, but then comes to an abrupt stop.  This more
+natural-looking variation bounces the text a bit off the left wall:
 
 <syntaxhighlight lang="xml" highlight="9-10">
 <animate
@@ -127,21 +127,30 @@ variation bounces the text a bit off the left wall:
 />
 </syntaxhighlight>
 
+The [[svg/attributes/values|'''values''']] attribute uses semicolons
+to specify a series of intermediate values between the animation's
+[[svg/attributes/begin|'''begin''']] and
+[[svg/attributes/end|'''end''']] points. Starting at '''1000''', the
+animation proceeds to the '''0''' point that represents the left wall,
+then goes a bit further to '''-20''', then back to '''10''' before
+finally settling at '''0'''.
 
+Without the accompaying [[svg/attributes/keyTimes|'''keyTimes''']],
+the animation still looks awkward. The initial transition between
+'''1000''' and '''0''' executes ''very'' quickly, after which the
+subsequent transitions seem too slow. The fixes this by
+[[svg/attributes/keyTimes|'''keyTimes''']] specifying the share of
+time, between 0 and 1, each segment should take to execute. In this
+case, the initial transition that slides in the text takes 80% of the
+total duration. (Otherwise, with five values the default would be a
+far more brisk 25%.) The number of
+[[svg/attributes/keyTimes|'''keyTimes''']] must match the number of
+[[svg/attributes/values|'''values''']], or the animation does not
+work.
 
 <!--
 
-
-
-
-
-(e.g. oscillating blur)
-
-* values (abs)
-* values (%)
-
-* "values" along the way; e.g. oscillation
-* "keyTimes" matches "values"
+[[svg/attributes/foo|'''foo''']]
 
 ==Setting the pace==
 
