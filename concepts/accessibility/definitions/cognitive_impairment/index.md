@@ -6,12 +6,12 @@ A cognitive impairment is a person's reduced ability to perform cognitive functi
 {{Concept_Page}}
 A cognitive impairment tends to mean that a person has more difficulty performing tasks that require thought than someone who does not have a cognitive impairment. Cognitive impairments manifest themselves in a multitude of ways.
 ==Processing Verbal Language==
-This person does not have an [[concepts/accessibility/definitions/audio_impairment|audio impairment]], but still has a reduced ability to process spoken or verbal language. This means that the person can hear you speaking perfectly, but what you say makes no sense.
+This person does not necessarily have an [[concepts/accessibility/definitions/audio_impairment|audio impairment]], but still has a reduced ability to process spoken or verbal language. This means that the person can hear you speaking perfectly, but what you say makes no sense.
 ===Accommodations===
 * Some people with a reduced ability to process verbal language can process written language. Provide captioning as you would for someone with an audio impairment.
 * Some people with a reduced ability to process verbal language cannot process written language, either. Provide alternative means of communication, such as gestures, diagrams or other pictures, to facilitate understanding.
 ==Processing Written Language==
-This person does not have a [[concepts/accessibility/definitions/visual_impairment|visual impairment]], but still has a reduced ability to process written language. This means that the person can see the written words, but the words as written do not make sense. This is not equivalent to a lack of education resulting in illiteracy.
+This person does not necessarily have a [[concepts/accessibility/definitions/visual_impairment|visual impairment]], but still has a reduced ability to process written language. This means that the person can see the written words, but the words as written do not make sense. This is not equivalent to a lack of education resulting in illiteracy.
 ===Accommodations===
 * Some people with a reduced ability to process written language can process verbal language. Provide audio output as you would for someone with a visual impairment.
 * Some people with a reduced ability to process written language cannot process verbal language, either. Provide alternative means of communication, such as gestures, diagrams, or other pictures, to facilitate understanding.
@@ -47,6 +47,8 @@ This person has trouble dealing with anything other than absolutes. The person i
 ===Accommodations===
 * Avoid ambiguity where possible. Clearly explain any necessary ambiguity.
 * Include absolute, time-independent, unambiguous options for security questions, such as, "What high school did you graduate from?" or, "What was your maternal grandmother's maiden name?" These questions could be ambiguous (thus problematic) if they are not phrased specifically enough. "What high school did you attend?" can be ambiguous becase some people have attended multiple high schools. "What was your grandmother's maiden name?" can be ambiguous because most people have at least two grandmothers.
+==Remember==
+Disabilities are not mutually exclusive. Someone with a cognitive impairment may also have audio, mobility, and visual impairments.
 {{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications=
