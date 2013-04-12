@@ -332,7 +332,7 @@ You can also use flash as a fallback for when the browser does not support any o
 {{See_Also_Section
 |Topic_clusters=Video
 |External_links=* [[http://diveintohtml5.info/video.html| Video Chapter]] from Dive into HTML5
-* [[http://www.elstel.org/html5video/FlashVersusHtml5Video.html.en#ffmpeg]] convert videos into HTML5 format using ffmpeg or a GUI-frontend
+* [[http://www.elstel.org/html5video/FlashVersusHtml5Video.html.en#ffmpeg Videos for the Web with HTML5 - an Introduction]] convert videos into HTML5 format using ffmpeg or a GUI-frontend
 }}
 {{Topics|HTML, Video}}
 {{External_Attribution
