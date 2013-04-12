@@ -403,20 +403,28 @@ In all of these examples, the [[svg/attributes/from|'''from''']] and
 [[svg/attributes/to|'''to''']] are fixed at specific values. Sometimes
 it's useful to build on a value that results from a previous
 animation.  Here's an example that moves a piece across an checker
-board. The board is defined as an 800&times;800 square, and the piece
-is positioned over one of those squares. The accompanying animation
-moves the piece over three squares to the right:
-
-
+board.
 
 <syntaxhighlight lang="xml" highlight="">
 <rect id="board" x="0" y="0" width="800" height="800" stroke="#000" stroke-width="6" fill="url(#chessBoard)"/>
 <circle id="piece" fill="red" cx="150" cy="550" r="40"/>
 </syntaxhighlight>
 
-[[Image:svga_checkerStart.png|200px]]
+The board is defined as an 800&times;800 square, and the piece is
+positioned over one of those squares. The accompanying animation moves
+the piece over three squares to the right:
 
-[[Image:svga_checkerEnd.png|200px]]
+<div style="display:inline-block;max-width:45%">
+
+[[Image:svga_checkerStart.png|400px]]
+
+</div>
+
+<div style="display:inline-block;max-width:45%">
+
+[[Image:svga_checkerEnd.png|400px]]
+
+</div>
 
 <syntaxhighlight lang="xml" highlight="4,5,8,11-13">
 <animate
