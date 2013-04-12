@@ -310,7 +310,7 @@ of the animation, but unlike '''linear''', it ignores any progress
 points [[svg/attributes/keyTimes|'''keyTimes''']] may define along the
 way.
 
-==Repetition, repetition, repet...
+==Repetition, repetition, repet...==
 
 The examples above all execute once, but this example animates
 continuously.
