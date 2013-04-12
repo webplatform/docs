@@ -333,7 +333,7 @@ that shines a light on a beveled surface:
 
 [[Image:svga_bevel.png]]
 
-<div style="inline-block;max-width:45%">
+<div style="display:inline-block;max-width:45%">
 
 The first animation highlights different sides of the element by
 rotating the light source around it. Its
@@ -356,7 +356,7 @@ degrees, it restarts invisibly at '''0'''.
 
 </div>
 
-<div style="inline-block;max-width:45%">
+<div style="display:inline-block;max-width:45%">
 
 The second animation raises and lowers how much the element appears
 beveled. Unlike the previous animation, the
