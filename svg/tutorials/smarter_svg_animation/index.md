@@ -314,7 +314,7 @@ way.
 ==Repetition, repetition, repet...==
 
 The examples above all execute once, but this example uses
-[[svg/attributes/repeatCount|'''repeatCount''']] to animate
+[[svg/attributes/repeatCount|'''repeatCount''']] to run an animation
 continuously.  It modifies a more complex filter effect (explained in
 greater detail in [[svg/tutorials/smarter_svg_filters|SVG Filters]])
 that shines a light on a beveled surface:
@@ -387,6 +387,10 @@ animation repeats.)
 
 </div>
 
+Yet another animation synchronizes with the first, moving the position
+of the shadow set by [[svg/elements/feOffset|'''feOffset''']] to match
+the angle of the light source.
+
 ::'''Note:''' As of this writing, Firefox displays these animations in HTML content via the [[css/properties/filter|'''filter''']] CSS property along with the [[css/functions/url|'''url()''']] function.  See [[svg/tutorials/smarter_svg_filters|SVG Filters]] for more information on how to do this. However, there is no clear way to restart these animations when re-applying the filter in the HTML, so it is more appropriate for animations that execute continuously. As a workaround within SVG, toggle CSS classes to apply filters, then use a DOM mutation event such as '''begin = "0s;targetID.DOMAttrModified"''' to restart the animation.
 
 You can set [[svg/attributes/repeatCount|'''repeatCount''']] to any
@@ -398,7 +402,7 @@ the first time the animation repeats:
  begin = "otherAnim.repeat"
  begin = "otherAnim.repeat(1)"
 
-<div style="float:right">
+<div style="float:right;margin:10px">
 
 [[Image:scr_svg_eyes.png]]
 
@@ -461,8 +465,8 @@ the piece over three squares to the right:
 
 When you set the [[svg/attributes/additive|'''additive''']] attribute
 to '''sum''', the [[svg/attributes/from|'''from''']] and
-[[svg/attributes/to|'''to''']] values are interpreted relative to the
-element's original value. In this case, the circle's
+[[svg/attributes/to|'''to''']] values are interpreted in terms
+relative to the element's original value. In this case, the circle's
 [[svg/attributes/cx|'''cx''']] is 150, so the animation starts there
 and ends at that value plus 100, or 250.
 
