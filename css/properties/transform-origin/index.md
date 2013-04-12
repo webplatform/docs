@@ -45,12 +45,13 @@ The values <code>left</code>, <code>center</code>, and <code>right</code> are va
 |Notes====Remarks===
 The origin may be moved along all three axes with this single property by specifying the relative position of each axis in the following order: <code>x-axis y-axis z-axis</code>. The grid complies with the right-hand rule for Cartesian coordinate systems. The x-axis increases from left to right; the y-axis increases from top to bottom; and the z-axis increases away from the user (higher z-values are more distant).
 
-The version of this property using a vendor prefix, '''-ms-transform-origin''', has been deprecated in Internet Explorer 10 and later. To ensure compatibility in the future, applications using this property with a vendor prefix should be updated accordingly. However, be aware that '''-ms-transform-origin''' is the only form of this property that is recognized by Windows Internet Explorer 9, which supports 2-D Cascading Style Sheets (CSS) transforms.
+Microsoft deprecated <code>-ms-transform-origin</code>, the vendor-prefixed version of this property, with the release of Internet Explorer 10. It should only be included for compatibility with earlier versions.
 
-If the '''transform-origin''' property is not set, the transform begins in the center (equal to a '''transform-origin''' value of <code>50% 50%</code>).
-If only one value is specified, the second value is assumed to be <code>center</code>.
+If the <code>transform-origin</code> property is not set, the transform begins in the center at screen level (equal to a <code>transform-origin</code> value of <code>50% 50% 0</code>).
+* If fewer than three values are provided, the third value (z-axis) is assumed to be <code>0</code> (screen level).
+* If only one value is specified, the second value (y-axis) is assumed to be <code>50%</code>.
 
-3-D transforms are only supported in Internet Explorer 10 and later.
+The versions specified in the Compatibility Table indicate compatibility for 2-dimensional implementations of this property. To see compatibility for 3-dimensional implementations of this property, please refer to the Compatibility Table for <code>[[css/transforms/transform-origin-z | transform-origin-z]]</code>.
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?LinkID{{=}}223145 CSS Transforms Module, Level 3], Section 8
 }}
@@ -63,24 +64,24 @@ If only one value is specified, the second value is assumed to be <code>center</
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=No
 |Chrome_version=
-|Chrome_prefixed_supported=Yes (-webkit)
-|Chrome_prefixed_version=2.0 (17.0 for 3D)
+|Chrome_prefixed_supported=Yes
+|Chrome_prefixed_version=2.0
 |Firefox_supported=Yes
 |Firefox_version=16.0
-|Firefox_prefixed_supported=Yes (-moz)
-|Firefox_prefixed_version=3.5 (10.0 for 3D)
+|Firefox_prefixed_supported=Yes
+|Firefox_prefixed_version=3.5
 |Internet_explorer_supported=Yes
 |Internet_explorer_version=10.0
-|Internet_explorer_prefixed_supported=Yes (-ms)
-|Internet_explorer_prefixed_version=9.0 (10.0 for 3D)
+|Internet_explorer_prefixed_supported=Yes
+|Internet_explorer_prefixed_version=9.0
 |Opera_supported=Yes
 |Opera_version=12.10
-|Opera_prefixed_supported=Yes (-o)
-|Opera_prefixed_version=10.5 (no support for 3D)
+|Opera_prefixed_supported=Yes
+|Opera_prefixed_version=10.5
 |Safari_supported=No
 |Safari_version=
-|Safari_prefixed_supported=Yes (-webkit)
-|Safari_prefixed_version=3.1 (4.0 for 3D)
+|Safari_prefixed_supported=Yes
+|Safari_prefixed_version=3.1
 }}
 |Mobile_rows=
 |Notes_rows=
