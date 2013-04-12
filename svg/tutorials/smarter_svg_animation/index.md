@@ -333,6 +333,36 @@ that shines a light on a beveled surface:
 
 [[Image:svga_bevel.png]]
 
+<div style="inline-block;max-width:500px">
+
+The first animation highlights different sides of the element by
+rotating the light source around it. Its
+[[svg/attributes/repeatCount|'''repeatCount''']] is set to
+'''indefinite''', so after it proceeds from '''0''' to '''360'''
+degrees, it restarts invisibly at '''0'''.
+
+<syntaxhighlight lang="xml" highlight="8">
+<animate
+    id            = "lightAngleAnim"
+    attributeName = "azimuth"
+    from          = "0"
+    to            = "360"
+    begin         = "0s"
+    dur           = "7s"
+    repeatCount   = "indefinite"
+    xlink:href    = "#lightAngleEffect"
+/>
+</syntaxhighlight>
+
+</div>
+
+<div style="inline-block;max-width:500px">
+
+<syntaxhighlight lang="xml" highlight="">
+</syntaxhighlight>
+
+</div>
+
 <!--
 
 [[svg/attributes/foo|'''foo''']]
@@ -344,11 +374,6 @@ that shines a light on a beveled surface:
 * circle-anim.repeat(1) + 2.5s
 
 
-<syntaxhighlight lang="xml" highlight="">
-</syntaxhighlight>
-
-<syntaxhighlight lang="xml" highlight="">
-</syntaxhighlight>
 
 <syntaxhighlight lang="xml" highlight="">
 </syntaxhighlight>
