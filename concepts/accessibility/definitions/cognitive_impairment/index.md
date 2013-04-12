@@ -1,7 +1,4 @@
 {{Page_Title|Cognitive Impairment}}
-{{Flags
-|High-level issues=Stub
-}}
 {{API_Name}}
 {{Summary_Section|
 A cognitive impairment is a person's reduced ability to perform cognitive functions, such as understanding verbal or written language, solving mathematical problems, matching patterns, or making choices.
@@ -50,11 +47,13 @@ This person has trouble dealing with anything other than absolutes. The person i
 ===Accommodations===
 * Avoid ambiguity where possible. Clearly explain any necessary ambiguity.
 * Include absolute, time-independent, unambiguous options for security questions, such as, "What high school did you graduate from?" or, "What was your maternal grandmother's maiden name?" These questions could be ambiguous (thus problematic) if they are not phrased specifically enough. "What high school did you attend?" can be ambiguous becase some people have attended multiple high schools. "What was your grandmother's maiden name?" can be ambiguous because most people have at least two grandmothers.
-{Notes_Section}}
+{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications=
 }}
-{{See_Also_Section}}
+{{See_Also_Section|
+External_links=http://www.access-board.gov/sec508/guide/
+}}
 {{Topics|Accessibility}}
 {{External_Attribution
 |Is_CC-BY-SA=No
