@@ -404,16 +404,19 @@ In all of these examples, the [[svg/attributes/from|'''from''']] and
 it's useful to build on a value that results from a previous
 animation.  Here's an example that moves a piece across an checker
 board. The board is defined as an 800&times;800 square, and the piece
-is positioned over one of those squares:
+is positioned over one of those squares. The accompanying animation
+moves the piece over three squares to the right:
+
+
 
 <syntaxhighlight lang="xml" highlight="">
 <rect id="board" x="0" y="0" width="800" height="800" stroke="#000" stroke-width="6" fill="url(#chessBoard)"/>
 <circle id="piece" fill="red" cx="150" cy="550" r="40"/>
 </syntaxhighlight>
 
-[[Image:svga_checkerStart.png|400px]]
+[[Image:svga_checkerStart.png|200px]]
 
-The animation
+[[Image:svga_checkerEnd.png|200px]]
 
 <syntaxhighlight lang="xml" highlight="4,5,8,11-13">
 <animate
@@ -432,8 +435,6 @@ The animation
     xlink:href    = "#piece"
 />
 </syntaxhighlight>
-
-[[Image:svga_checkerEnd.png]]
 
 
 <!--
