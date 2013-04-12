@@ -74,7 +74,7 @@ difference:
 <text id="swipeText" x="0" y="100">An SVG Animation</text>
 </syntaxhighlight>
 
-==Delaying the animation==
+==Delaying an animation==
 
 Increasing the [[svg/attributes/begin|'''begin''']] attribute's time
 value from '''0s''' to '''1s''' delays the animation:
@@ -152,7 +152,7 @@ the five values.  The number of
 [[svg/attributes/values|'''values''']], or the animation does not
 work.
 
-==Animation sequences==
+==Synchronizing animations==
 
 The example above simply manipulates a single attribute that positions
 an element.  Animations become far more interesting when applied to
@@ -475,16 +475,6 @@ piece. SVG supports basic mouse, focus, and DOM mutation events.
 
 [[svg/attributes/foo|'''foo''']]
 
-
-* begin (>1) re-fires (eyeballs)
-* repeatCount = "indefinite"/###
-
-
-
-
-
-<syntaxhighlight lang="xml" highlight="">
-</syntaxhighlight>
 
 ==Scripting animations==
 
