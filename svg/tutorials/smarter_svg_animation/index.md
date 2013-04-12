@@ -333,7 +333,7 @@ that shines a light on a beveled surface:
 
 [[Image:svga_bevel.png]]
 
-<div style="inline-block;max-width:50%">
+<div style="inline-block;max-width:45%">
 
 The first animation highlights different sides of the element by
 rotating the light source around it. Its
@@ -356,9 +356,29 @@ degrees, it restarts invisibly at '''0'''.
 
 </div>
 
-<div style="inline-block;max-width:500px">
+<div style="inline-block;max-width:45%">
 
-<syntaxhighlight lang="xml" highlight="">
+The second animation raises and lowers how much the element appears
+beveled. Unlike the previous animation, the
+[[svg/attributes/from|'''from''']] and [[svg/attributes/to|'''to''']]
+values match, and only vary as intervening frames defined by
+[[svg/attributes/values|'''values''']]. (Unlike
+[[tutorials/css_animations|CSS keyframe animations]], SVG does not
+allow you to oscillate between the start and end values each time the
+animation repeats.)
+
+<syntaxhighlight lang="xml" highlight="4-5,8-9">
+<animate
+    id            = "elevationAnim"
+    attributeName = "surfaceScale"
+    from          = "5"
+    to            = "5"
+    begin         = "0s"
+    dur           = "5s"
+    values        = "5;20;5"
+    repeatCount   = "indefinite"
+    xlink:href    = "#elevationEffect"
+/>
 </syntaxhighlight>
 
 </div>
