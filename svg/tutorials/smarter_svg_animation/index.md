@@ -426,9 +426,21 @@ the piece over three squares to the right:
 
 </div>
 
+When you set the [[svg/attributes/additive|'''additive''']] attribute
+to '''sum''', the [[svg/attributes/from|'''from''']] and
+[[svg/attributes/to|'''to''']] values are interpreted relative to the
+element's original value. In this case, the circle's
+[[svg/attributes/cx|'''cx''']] is 150, so the animation starts there
+and ends at that value plus 100, or 250.
+
+When you set the [[svg/attributes/accumulate|'''accumulate''']]
+attribute to '''sum''', each of the animation's repetitions build upon
+the previous value. In this case, it proceeds from 150 to 250, 350,
+then 450.
+
 <syntaxhighlight lang="xml" highlight="4,5,8,11-13">
 <animate
-    id            = "animX"
+    id            = "moveRight"
     attributeName = "cx"
     from          = "0"
     to            = "100"
