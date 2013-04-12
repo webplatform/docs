@@ -313,11 +313,9 @@ way.
 ==Repetition, repetition, repet...==
 
 The examples above all execute once, but this example animates
-continuously.
-
-It modifies a more complex filter effect (explained in greater detail
-in [[svg/tutorials/smarter_svg_filters|SVG Filters]]) that shines a
-light on a beveled surface:
+continuously.  It modifies a more complex filter effect (explained in
+greater detail in [[svg/tutorials/smarter_svg_filters|SVG Filters]])
+that shines a light on a beveled surface:
 
 <syntaxhighlight lang="xml" highlight="4,6">
 <filter id="bevel" filterUnits="userSpaceOnUse">
@@ -333,7 +331,7 @@ light on a beveled surface:
 </filter>
 </syntaxhighlight>
 
-[[Image:svga_bevel.png|400px]]
+[[Image:svga_bevel.png]]
 
 <!--
 
