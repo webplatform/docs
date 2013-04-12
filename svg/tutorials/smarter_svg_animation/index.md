@@ -383,6 +383,15 @@ animation repeats.)
 
 </div>
 
+As of this writing, Firefox displays these animations in HTML content
+via the [[css/properties/filter|'''filter''']] CSS property, using the
+[[css/functions/url|'''url()''']] function to specify the SVG filter.
+See [[svg/tutorials/smarter_svg_filters|SVG Filters]] for more
+information on how to do this. However, there is no clear way to
+restart these animations when applying the filter in the HTML, so it
+is more appropriate for animations that execute continuously.
+
+
 <!--
 
 [[svg/attributes/foo|'''foo''']]
