@@ -398,6 +398,12 @@ the first time the animation repeats:
  begin = "otherAnim.repeat"
  begin = "otherAnim.repeat(1)"
 
+<div style="float:right">
+
+[[Image:scr_svg_eyes.png]]
+
+</div>
+
 Each animation defines a potentially expansive length of time, over
 which you can repeat an animation using a series of
 [[svg/attributes/begin|'''begin''']] values. For example, the eyeballs
@@ -405,12 +411,6 @@ discussed in the [[svg/tutorials/smarter_svg_overview|SVG grand tour]]
 blink several times in a row:
 
  begin = "4s;6s;8s;9s;11.5s;13s"
-
-<div style="float:right">
-
-[[Image:scr_svg_eyes.png]]
-
-</div>
 
 ==Building progressions==
 
