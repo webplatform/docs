@@ -387,7 +387,7 @@ animation repeats.)
 
 </div>
 
-::'''Note:''' As of this writing, Firefox displays these animations in HTML content via the [[css/properties/filter|'''filter''']] CSS property along with the [[css/functions/url|'''url()''']] function to specify the SVG filter.  See [[svg/tutorials/smarter_svg_filters|SVG Filters]] for more information on how to do this. However, there is no clear way to restart these animations when re-applying the filter in the HTML, so it is more appropriate for animations that execute continuously. As a workaround within SVG, toggle CSS classes to apply filters, then use a DOM mutation event such as '''begin = "0s;targetID.DOMAttrModified"''' to restart the animation.
+::'''Note:''' As of this writing, Firefox displays these animations in HTML content via the [[css/properties/filter|'''filter''']] CSS property along with the [[css/functions/url|'''url()''']] function.  See [[svg/tutorials/smarter_svg_filters|SVG Filters]] for more information on how to do this. However, there is no clear way to restart these animations when re-applying the filter in the HTML, so it is more appropriate for animations that execute continuously. As a workaround within SVG, toggle CSS classes to apply filters, then use a DOM mutation event such as '''begin = "0s;targetID.DOMAttrModified"''' to restart the animation.
 
 You can set [[svg/attributes/repeatCount|'''repeatCount''']] to any
 positive integer.  Each time an animation repeats, it produces a
@@ -406,7 +406,7 @@ blink several times in a row:
 
  begin = "4s;6s;8s;9s;11.5s;13s"
 
-[[Image:scr_svg_eyes.png:400px]]
+[[Image:scr_svg_eyes.png]]
 
 ==Building progressions==
 
@@ -474,8 +474,26 @@ piece. SVG supports basic mouse, focus, and DOM mutation events.
 
 <!--
 
-[[svg/attributes/foo|'''foo''']]
+==Specialized animation types==
 
+* animateTransform (brain)
+
+* animateMotion (move along moving path?)
+** rotate="auto" (default)
+** rotate="auto-reverse" invert
+** path="data" vs mpath
+
+==Animating properties==
+
+* animateColor
+
+* instead of via CSS?
+
+pause
+
+==The 'set' shorthand==
+
+* discrete values
 
 ==Scripting animations==
 
@@ -485,32 +503,13 @@ piece. SVG supports basic mouse, focus, and DOM mutation events.
 * beginElement()
 * beginElementAt(tv)
 
-pause
-
-==Animating properties==
-
-* instead of via CSS?
-
-==Specialized animation types==
-
-* animateMotion (move along moving path?)
-** rotate="auto" (default)
-** rotate="auto-reverse" invert
-** path="data" vs mpath
-
-* animateColor
-
-* animateTransform (brain)
-
-==The 'set' shorthand==
-
-* discrete values
-
 ===___===
 
 * begin = timecount (s/ms)
 
 * attributeType="xml"
+
+[[svg/attributes/foo|'''foo''']]
 
 -->
 
