@@ -1,9 +1,9 @@
-{{Page_Title|Accommodating Audio Impairments}}
+{{Page_Title|Audio Impairments}}
 {{Flags
 |Checked_Out=No
 }}
 {{API_Name}}
-{{Summary_Section|An audio impairment is a person's reduced ability to hear sounds, whether due to a reduced sensitivity or reduced clarity, particularly as it applies to human speech.}}
+{{Summary_Section|An audio impairment is a person's reduced ability to hear sounds, whether due to reduced sensitivity or reduced clarity, particularly as it applies to human speech.}}
 {{Concept_Page}}
 An audio impairment tends to mean that a person cannot understand human speech as well as someone who does not have an audio impairment. Audio impairments can mean reduced sensitivity to sound, like turning down the volume on everything that person hears, or reduced clarity, like garbling everything that person hears.
 
