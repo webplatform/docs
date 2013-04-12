@@ -312,7 +312,8 @@ way.
 
 ==Repetition, repetition, repet...==
 
-The examples above all execute once, but this example animates
+The examples above all execute once, but this example uses
+[[svg/attributes/repeatCount|'''repeatCount''']] to animate
 continuously.  It modifies a more complex filter effect (explained in
 greater detail in [[svg/tutorials/smarter_svg_filters|SVG Filters]])
 that shines a light on a beveled surface:
@@ -326,7 +327,8 @@ that shines a light on a beveled surface:
     <feDistantLight id="lightAngleEffect" azimuth="0" elevation="30" />
   </feSpecularLighting>
   <feComposite in="specOut" in2="SourceAlpha" operator="in" result="specOut"/>
-  <feComposite in="SourceGraphic" in2="specOut" operator="arithmetic" result="litPaint" k1="0" k2="1" k3="1" k4="0" />
+  <feComposite in="SourceGraphic" in2="specOut" operator="arithmetic" result="litPaint"
+        k1="0" k2="1" k3="1" k4="0" />
   <feComposite in="litPaint" in2="offsetBlur" operator="over"/>
 </filter>
 </syntaxhighlight>
@@ -335,8 +337,8 @@ that shines a light on a beveled surface:
 
 <div style="display:inline-block;max-width:45%">
 
-The first animation highlights different sides of the element by
-rotating the light source around it. Its
+One animation highlights different sides of the element by rotating
+the light source around it. Its
 [[svg/attributes/repeatCount|'''repeatCount''']] is set to
 '''indefinite''', so after it proceeds from '''0''' to '''360'''
 degrees, it restarts invisibly at '''0'''.
@@ -358,10 +360,11 @@ degrees, it restarts invisibly at '''0'''.
 
 <div style="display:inline-block;max-width:45%">
 
-The second animation raises and lowers how much the element appears
-beveled. Unlike the previous animation, the
-[[svg/attributes/from|'''from''']] and [[svg/attributes/to|'''to''']]
-values match. The oscillation is set by intervening frames within the
+A second un-synchronized animation raises and lowers the rounded
+surface that makes the element appear beveled. Unlike the previous
+animation, the [[svg/attributes/from|'''from''']] and
+[[svg/attributes/to|'''to''']] values match, and the oscillation
+occurs within the intervening frames defined in the
 [[svg/attributes/values|'''values''']] attribute. (Unlike
 [[tutorials/css_animations|CSS keyframe animations]], SVG does not
 allow you to oscillate between the start and end values each time the
@@ -383,14 +386,7 @@ animation repeats.)
 
 </div>
 
-As of this writing, Firefox displays these animations in HTML content
-via the [[css/properties/filter|'''filter''']] CSS property, using the
-[[css/functions/url|'''url()''']] function to specify the SVG filter.
-See [[svg/tutorials/smarter_svg_filters|SVG Filters]] for more
-information on how to do this. However, there is no clear way to
-restart these animations when applying the filter in the HTML, so it
-is more appropriate for animations that execute continuously.
-
+::'''Note:''' As of this writing, Firefox displays these animations in HTML content via the [[css/properties/filter|'''filter''']] CSS property, using the [[css/functions/url|'''url()''']] function to specify the SVG filter.  See [[svg/tutorials/smarter_svg_filters|SVG Filters]] for more information on how to do this. However, there is no clear way to restart these animations when applying the filter in the HTML, so it is more appropriate for animations that execute continuously. 
 
 <!--
 
