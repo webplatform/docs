@@ -154,13 +154,86 @@ work.
 
 ==Animation sequences==
 
+The example above simply manipulates the position of the element.
+Animations become far more interesting when applied to complex filter
+effects. This variation synchronizes two different animations, swiping
+horizontally blurred text into view, then removing the blur once it
+has stopped:
+
+[[Image:svga_xBlur.png|400px]]
+
+It is based on the following filter:
+
+<syntaxhighlight lang="xml">
+<filter id="slidingBlur">
+  <feOffset       id="slideEffect" dx="1000" dy="0" />
+  <feGaussianBlur id="blurEffect" stdDeviation="20,1" />
+</filter>
+</syntaxhighlight>
+
+The [[svg/elements/feOffset|'''feOffset''']] effect's
+[[svg/attributes/dx|'''dx''']] value reproduces the slide effect using
+the techniques discussed above, moving the element horizontally within
+the filtered region.
+
+<syntaxhighlight lang="xml" highlight="2,3">
+<animate
+    id            = "slideAnim"
+    attributeName = "dx"
+    from          = "1000"
+    to            = "0"
+    begin         = "0s"
+    dur           = "0.5s"
+    fill          = "freeze"
+    values        = "1000;0;-20;10;0"
+    keyTimes      = "0;0.8;0.85;0.9;1"
+    xlink:href    = "#slideEffect"
+/>
+</syntaxhighlight>
+
+The [[svg/elements/feGaussianBlur|'''feGaussianBlur''']] effect uses
+its [[svg/attributes/stdDeviation|'''stdDeviation''']] to control the
+degree of blur, and the animation reduces it primarily along the ''x''
+axis. But note the animation's [[svg/attributes/begin|'''begin''']]
+attribute no longer specifies a time value. Instead, this animation
+begins when the previous one ends:
+
+<syntaxhighlight lang="xml" highlight="6">
+<animate
+    id            = "blurAnim"
+    attributeName = "stdDeviation"
+    from          = "20,1"
+    to            = "0,0"
+    begin         = "slideAnim.end"
+    dur           = "0.2s"
+    fill          = "freeze"
+    xlink:href    = "#blurEffect"
+/>
+</syntaxhighlight>
+
+The ''slideAnim'' identifies the previous animation, and the ''.end''
+refers to the [[dom/events/end|'''end''']] event the animation
+produces. Referencing the corresponding
+[[dom/events/begin|'''begin''']] event likewise allows you to execute
+different animations concurrently, without having to keep overall
+track of how long each one takes to keep them synchronized.
+
+To calculate when to start the second animation, SVG actually looks
+ahead to see when the [[dom/events/end|'''end''']] event is supposed
+to occur. You can subtract or add time values to start it before or
+after that point. For example, this variation overlaps the two
+animations by a fifth of a second:
+
+ begin = "slideAnim.end-200ms"
+
+
+
 <!--
 
 (transforms)
 
 * begin = id.event
 * begin = id.event+timeValue
-* circle-anim.repeat(1) + 2.5s
 * prev.begin
 
 -->
@@ -250,7 +323,7 @@ animation, ignoring any [[svg/attributes/keyTimes|'''keyTimes''']] or
 
 * begin (>1) re-fires (eyeballs)
 * repeatCount = "indefinite"/###
-* fill = freeze (like fill-mode)
+* circle-anim.repeat(1) + 2.5s
 
 ==Building progressions==
 
