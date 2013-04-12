@@ -175,18 +175,23 @@ The '''SVGFEComponentTransferElement''' object has these properties.
 |Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
+|Chrome_version=10+ (earlier?)
 |Chrome_prefixed_supported=No
 |Chrome_prefixed_version=
 |Firefox_supported=Yes
+|Firefox_version=3+
 |Firefox_prefixed_supported=No
 |Firefox_prefixed_version=
 |Internet_explorer_supported=Yes
+|Internet_explorer_version=10+
 |Internet_explorer_prefixed_supported=No
 |Internet_explorer_prefixed_version=
 |Opera_supported=Yes
+|Opera_version=9.5+
 |Opera_prefixed_supported=No
 |Opera_prefixed_version=
 |Safari_supported=Yes
+|Safari_version=6+
 |Safari_prefixed_supported=Unknown
 |Safari_prefixed_version=
 }}
@@ -196,10 +201,10 @@ The '''SVGFEComponentTransferElement''' object has these properties.
 |Android_prefixed_supported=No
 |Android_prefixed_version=
 |Blackberry_supported=Yes
+|Blackberry_version=RIM OS1, BBOS 7
 |Blackberry_prefixed_supported=No
 |Blackberry_prefixed_version=
-|Chrome_mobile_supported=Unknown
-|Chrome_mobile_version=
+|Chrome_mobile_supported=Yes
 |Chrome_mobile_prefixed_supported=No
 |Chrome_mobile_prefixed_version=
 |Firefox_mobile_supported=Unknown
@@ -223,7 +228,10 @@ The '''SVGFEComponentTransferElement''' object has these properties.
 |Safari_mobile_prefixed_supported=No
 |Safari_mobile_prefixed_version=
 }}
-|Notes_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Safari
+|Version=6
+}}
 }}
 {{See_Also_Section
 |Topic_clusters=Filters
