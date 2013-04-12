@@ -397,6 +397,16 @@ the first time the animation repeats:
  begin = "otherAnim.repeat"
  begin = "otherAnim.repeat(1)"
 
+Each animation defines a potentially expansive length of time, over
+which you can repeat an animation using a series of
+[[svg/attributes/begin|'''begin''']] values. For example, the eyeballs
+discussed in the [[svg/tutorials/smarter_svg_overview|SVG grand tour]]
+blink several times in a row:
+
+ begin = "4s;6s;8s;9s;11.5s;13s"
+
+[[Image:scr_svg_eyes.png:400px]]
+
 ==Building progressions==
 
 In all of these examples, the [[svg/attributes/from|'''from''']] and
@@ -426,18 +436,6 @@ the piece over three squares to the right:
 
 </div>
 
-When you set the [[svg/attributes/additive|'''additive''']] attribute
-to '''sum''', the [[svg/attributes/from|'''from''']] and
-[[svg/attributes/to|'''to''']] values are interpreted relative to the
-element's original value. In this case, the circle's
-[[svg/attributes/cx|'''cx''']] is 150, so the animation starts there
-and ends at that value plus 100, or 250.
-
-When you set the [[svg/attributes/accumulate|'''accumulate''']]
-attribute to '''sum''', each of the animation's repetitions build upon
-the previous value. In this case, it proceeds from 150 to 250, 350,
-then 450.
-
 <syntaxhighlight lang="xml" highlight="4,5,8,11-13">
 <animate
     id            = "moveRight"
@@ -456,17 +454,26 @@ then 450.
 />
 </syntaxhighlight>
 
+When you set the [[svg/attributes/additive|'''additive''']] attribute
+to '''sum''', the [[svg/attributes/from|'''from''']] and
+[[svg/attributes/to|'''to''']] values are interpreted relative to the
+element's original value. In this case, the circle's
+[[svg/attributes/cx|'''cx''']] is 150, so the animation starts there
+and ends at that value plus 100, or 250.
+
+When you set the [[svg/attributes/accumulate|'''accumulate''']]
+attribute to '''sum''', each of the animation's repetitions build upon
+the previous value. In this case, it proceeds from 150 to 250, 350,
+then 450.
+
+Notice also that the [[svg/attributes/begin|'''begin''']] does not
+specify a time value, but instead responds when users click on the
+piece. SVG supports basic mouse, focus, and DOM mutation events.
+
 
 <!--
 
-* from/by???
-* additive="sum" == relative "from" values
-* accumulate="sum" == build on prior values
-
 [[svg/attributes/foo|'''foo''']]
-[[svg/tutorials/smarter_svg_overview|SVG grand tour]]
-
-[[Image:scr_svg_eyes.png]]
 
 
 * begin (>1) re-fires (eyeballs)
