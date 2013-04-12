@@ -174,7 +174,7 @@ It is based on the following filter:
 The [[svg/elements/feOffset|'''feOffset''']] effect's
 [[svg/attributes/dx|'''dx''']] value reproduces the slide effect using
 the techniques discussed above, moving the element horizontally within
-the filtered region.
+the filtered region:
 
 <syntaxhighlight lang="xml" highlight="2,3">
 <animate
@@ -196,7 +196,7 @@ its [[svg/attributes/stdDeviation|'''stdDeviation''']] to control the
 degree of blur, and the animation reduces it primarily along the ''x''
 axis. But note the animation's [[svg/attributes/begin|'''begin''']]
 attribute no longer specifies a time value. Instead, this animation
-begins when the previous one ends:
+begins whenever the previous one ends:
 
 <syntaxhighlight lang="xml" highlight="6">
 <animate
@@ -212,11 +212,11 @@ begins when the previous one ends:
 </syntaxhighlight>
 
 The ''slideAnim'' identifies the previous animation, and the ''.end''
-refers to the [[dom/events/end|'''end''']] event the animation
+refers to the [[dom/events/end|'''end''']] DOM event the animation
 produces. Referencing the corresponding
 [[dom/events/begin|'''begin''']] event likewise allows you to execute
 different animations concurrently, without having to keep overall
-track of how long each one takes to keep them synchronized.
+track of how long each one takes to keep them all synchronized.
 
 To calculate when to start the second animation, SVG actually looks
 ahead to see when the [[dom/events/end|'''end''']] event is supposed
@@ -226,17 +226,10 @@ animations by a fifth of a second:
 
  begin = "slideAnim.end-200ms"
 
+To maintain long chains of animations, you can also use the '''prev'''
+keyword, which refers to the previously defined animation:
 
-
-<!--
-
-(transforms)
-
-* begin = id.event
-* begin = id.event+timeValue
-* prev.begin
-
--->
+ begin = "prev.end"
 
 ==Setting the pace==
 
