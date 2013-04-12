@@ -414,15 +414,15 @@ The board is defined as an 800&times;800 square, and the piece is
 positioned over one of those squares. The accompanying animation moves
 the piece over three squares to the right:
 
-<div style="display:inline-block;max-width:45%">
+<div style="display:inline-block;width:45%">
 
-[[Image:svga_checkerStart.png|400px]]
+[[Image:svga_checkerStart.png|300px]]
 
 </div>
 
-<div style="display:inline-block;max-width:45%">
+<div style="display:inline-block;width:45%">
 
-[[Image:svga_checkerEnd.png|400px]]
+[[Image:svga_checkerEnd.png|300px]]
 
 </div>
 
@@ -437,9 +437,9 @@ the piece over three squares to the right:
     begin         = "piece.click"
     dur           = "0.5s"
     fill          = "freeze"
+    repeatCount   = "3"
     additive      = "sum"
     accumulate    = "sum"
-    repeatCount   = "3"
     xlink:href    = "#piece"
 />
 </syntaxhighlight>
