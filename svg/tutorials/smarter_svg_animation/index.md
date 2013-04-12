@@ -254,10 +254,11 @@ a more gradual stop:
 By default, the [[svg/attributes/calcMode|'''calcMode''']] is
 '''linear''', which makes the action proceed in a straight line.
 Setting it to '''spline''' makes it respond to a bezier curve, defined
-by [[svg/attributes/keySplines|'''keySplines''']]. You can use
-semicolons to specify as many curves as there are frames.
+by the value of [[svg/attributes/keySplines|'''keySplines''']]. You
+can use semicolons to specify as many curves as there are frames in
+your animation.
 
-The following examples show how these response curves behave.  The
+The following examples show how these response curves behave.  Each
 ''x'' axis represents the animation's elapsed time, and the ''y'' axis
 represents its progress, so the more the line curves vertically along
 the way, the faster the animation proceeds at that point.
@@ -304,19 +305,58 @@ If [[svg/attributes/calcMode|'''calcMode''']] is set to
 '''discrete''', the animation jumps abruptly from each frame defined
 in [[svg/attributes/values|'''values''']] to the next, just like CSS's
 [[css/functions/steps|'''steps()''']] function. If it's set to
-'''paced''', it proceeds at a constant rate over the course of the
-animation, ignoring any [[svg/attributes/keyTimes|'''keyTimes''']] or
-[[svg/attributes/keySplines|'''keySplines''']].
+'''paced''', it progresses at a constant rate over the entire course
+of the animation, but unlike '''linear''', it ignores any progress
+points [[svg/attributes/keyTimes|'''keyTimes''']] may define along the
+way.
+
+==Repetition, repetition, repet...
+
+The examples above all execute once, but this example animates
+continuously.
+
+It modifies a more complex filter effect (explained in greater detail
+in [[svg/tutorials/smarter_svg_filters|SVG Filters]]) that shines a
+light on a beveled surface:
+
+<syntaxhighlight lang="xml" highlight="4,6">
+<filter id="bevel" filterUnits="userSpaceOnUse">
+  <feGaussianBlur in="SourceAlpha" stdDeviation="4" result="blur"/>
+  <feOffset in="blur" dx="4" dy="4" result="offsetBlur"/>
+  <feSpecularLighting id="elevationEffect" surfaceScale="20" specularConstant=".75"
+        in="blur" result="specOut" specularExponent="20" lighting-color="#bbbbbb" >
+    <feDistantLight id="lightAngleEffect" azimuth="0" elevation="30" />
+  </feSpecularLighting>
+  <feComposite in="specOut" in2="SourceAlpha" operator="in" result="specOut"/>
+  <feComposite in="SourceGraphic" in2="specOut" operator="arithmetic" result="litPaint" k1="0" k2="1" k3="1" k4="0" />
+  <feComposite in="litPaint" in2="offsetBlur" operator="over"/>
+</filter>
+</syntaxhighlight>
+
+[[Image:svga_bevel.png|400px]]
 
 <!--
 
 [[svg/attributes/foo|'''foo''']]
 
-==Repetition, Repetition
+* oscillate
 
 * begin (>1) re-fires (eyeballs)
 * repeatCount = "indefinite"/###
 * circle-anim.repeat(1) + 2.5s
+
+
+<syntaxhighlight lang="xml" highlight="">
+</syntaxhighlight>
+
+<syntaxhighlight lang="xml" highlight="">
+</syntaxhighlight>
+
+<syntaxhighlight lang="xml" highlight="">
+</syntaxhighlight>
+
+<syntaxhighlight lang="xml" highlight="">
+</syntaxhighlight>
 
 ==Building progressions==
 
