@@ -154,17 +154,17 @@ work.
 
 ==Animation sequences==
 
-The example above simply manipulates the position of the element.
-Animations become far more interesting when applied to complex filter
-effects. This variation synchronizes two different animations, swiping
-horizontally blurred text into view, then removing the blur once it
-has stopped:
+The example above simply manipulates a single attribute that positions
+an element.  Animations become far more interesting when applied to
+complex filter effects. This variation synchronizes two different
+animations, swiping horizontally blurred text into view, then removing
+the blur once it has stopped:
 
 [[Image:svga_xBlur.png|400px]]
 
 It is based on the following filter:
 
-<syntaxhighlight lang="xml">
+<syntaxhighlight lang="xml" highlight="2,3">
 <filter id="slidingBlur">
   <feOffset       id="slideEffect" dx="1000" dy="0" />
   <feGaussianBlur id="blurEffect" stdDeviation="20,1" />
@@ -386,31 +386,45 @@ animation repeats.)
 
 </div>
 
-::'''Note:''' As of this writing, Firefox displays these animations in HTML content via the [[css/properties/filter|'''filter''']] CSS property, using the [[css/functions/url|'''url()''']] function to specify the SVG filter.  See [[svg/tutorials/smarter_svg_filters|SVG Filters]] for more information on how to do this. However, there is no clear way to restart these animations when applying the filter in the HTML, so it is more appropriate for animations that execute continuously. 
+::'''Note:''' As of this writing, Firefox displays these animations in HTML content via the [[css/properties/filter|'''filter''']] CSS property along with the [[css/functions/url|'''url()''']] function to specify the SVG filter.  See [[svg/tutorials/smarter_svg_filters|SVG Filters]] for more information on how to do this. However, there is no clear way to restart these animations when re-applying the filter in the HTML, so it is more appropriate for animations that execute continuously. 
 
-<!--
+You can set [[svg/attributes/repeatCount|'''repeatCount''']] to any
+positive integer.  Each time an animation repeats, it produces a
+[[dom/events/repeat|'''repeat''']] event, which you can also use to
+synchronize other animations. The second example below runs it only
+the first time the animation repeats:
 
-[[svg/attributes/foo|'''foo''']]
-
-* oscillate
-
-* begin (>1) re-fires (eyeballs)
-* repeatCount = "indefinite"/###
-* circle-anim.repeat(1) + 2.5s
-
-
-
-<syntaxhighlight lang="xml" highlight="">
-</syntaxhighlight>
-
-<syntaxhighlight lang="xml" highlight="">
-</syntaxhighlight>
+ begin = "otherAnim.repeat"
+ begin = "otherAnim.repeat(1)"
 
 ==Building progressions==
+
+.
+
+
+<!--
 
 * from/by???
 * additive="sum" == relative "from" values
 * accumulate="sum" == build on prior values
+
+[[svg/attributes/foo|'''foo''']]
+[[svg/tutorials/smarter_svg_overview|SVG grand tour]]
+
+[[Image:scr_svg_eyes.png]]
+
+
+* begin (>1) re-fires (eyeballs)
+* repeatCount = "indefinite"/###
+
+
+
+
+<syntaxhighlight lang="xml" highlight="">
+</syntaxhighlight>
+
+<syntaxhighlight lang="xml" highlight="">
+</syntaxhighlight>
 
 ==Scripting animations==
 
