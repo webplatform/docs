@@ -361,8 +361,8 @@ degrees, it restarts invisibly at '''0'''.
 The second animation raises and lowers how much the element appears
 beveled. Unlike the previous animation, the
 [[svg/attributes/from|'''from''']] and [[svg/attributes/to|'''to''']]
-values match, and only vary as intervening frames defined by
-[[svg/attributes/values|'''values''']]. (Unlike
+values match. The oscillation is set by intervening frames within the
+[[svg/attributes/values|'''values''']] attribute. (Unlike
 [[tutorials/css_animations|CSS keyframe animations]], SVG does not
 allow you to oscillate between the start and end values each time the
 animation repeats.)
