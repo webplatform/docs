@@ -194,9 +194,9 @@ the filtered region:
 The [[svg/elements/feGaussianBlur|'''feGaussianBlur''']] effect uses
 its [[svg/attributes/stdDeviation|'''stdDeviation''']] to control the
 degree of blur, and the animation reduces it primarily along the ''x''
-axis. But note the animation's [[svg/attributes/begin|'''begin''']]
-attribute no longer specifies a time value. Instead, this animation
-begins whenever the previous one ends:
+axis. But note its [[svg/attributes/begin|'''begin''']] attribute no
+longer specifies a time value. Instead, this animation begins whenever
+the previous one ends:
 
 <syntaxhighlight lang="xml" highlight="6">
 <animate
@@ -258,10 +258,11 @@ by the value of [[svg/attributes/keySplines|'''keySplines''']]. You
 can use semicolons to specify as many curves as there are frames in
 your animation.
 
-The following examples show how these response curves behave.  Each
-''x'' axis represents the animation's elapsed time, and the ''y'' axis
-represents its progress, so the more the line curves vertically along
-the way, the faster the animation proceeds at that point.
+The following examples show how these response curves behave, usually
+by slowing the start and end points.  Each ''x'' axis represents the
+animation's elapsed time, and the ''y'' axis represents its progress,
+so the more the line curves vertically along the way, the faster the
+animation proceeds at that point.
 
 <div style="display:inline-block;max-width:170px">
  0.42 0 1 1
@@ -386,7 +387,7 @@ animation repeats.)
 
 </div>
 
-::'''Note:''' As of this writing, Firefox displays these animations in HTML content via the [[css/properties/filter|'''filter''']] CSS property along with the [[css/functions/url|'''url()''']] function to specify the SVG filter.  See [[svg/tutorials/smarter_svg_filters|SVG Filters]] for more information on how to do this. However, there is no clear way to restart these animations when re-applying the filter in the HTML, so it is more appropriate for animations that execute continuously. 
+::'''Note:''' As of this writing, Firefox displays these animations in HTML content via the [[css/properties/filter|'''filter''']] CSS property along with the [[css/functions/url|'''url()''']] function to specify the SVG filter.  See [[svg/tutorials/smarter_svg_filters|SVG Filters]] for more information on how to do this. However, there is no clear way to restart these animations when re-applying the filter in the HTML, so it is more appropriate for animations that execute continuously. As a workaround within SVG, toggle CSS classes to apply filters, then use a DOM mutation event such as '''begin = "0s;targetID.DOMAttrModified"''' to restart the animation.
 
 You can set [[svg/attributes/repeatCount|'''repeatCount''']] to any
 positive integer.  Each time an animation repeats, it produces a
