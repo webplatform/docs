@@ -399,7 +399,41 @@ the first time the animation repeats:
 
 ==Building progressions==
 
-.
+In all of these examples, the [[svg/attributes/from|'''from''']] and
+[[svg/attributes/to|'''to''']] are fixed at specific values. Sometimes
+it's useful to build on a value that results from a previous
+animation.  Here's an example that moves a piece across an checker
+board. The board is defined as an 800&times;800 square, and the piece
+is positioned over one of those squares:
+
+<syntaxhighlight lang="xml" highlight="">
+<rect id="board" x="0" y="0" width="800" height="800" stroke="#000" stroke-width="6" fill="url(#chessBoard)"/>
+<circle id="piece" fill="red" cx="150" cy="550" r="40"/>
+</syntaxhighlight>
+
+[[Image:svga_checkerStart.png|400px]]
+
+The animation
+
+<syntaxhighlight lang="xml" highlight="4,5,8,11-13">
+<animate
+    id            = "animX"
+    attributeName = "cx"
+    from          = "0"
+    to            = "100"
+    values        = "0;100;100"
+    keyTimes      = "0;.7;1"
+    begin         = "piece.click"
+    dur           = "0.5s"
+    fill          = "freeze"
+    additive      = "sum"
+    accumulate    = "sum"
+    repeatCount   = "3"
+    xlink:href    = "#piece"
+/>
+</syntaxhighlight>
+
+[[Image:svga_checkerEnd.png]]
 
 
 <!--
@@ -420,8 +454,6 @@ the first time the animation repeats:
 
 
 
-<syntaxhighlight lang="xml" highlight="">
-</syntaxhighlight>
 
 <syntaxhighlight lang="xml" highlight="">
 </syntaxhighlight>
