@@ -406,7 +406,11 @@ blink several times in a row:
 
  begin = "4s;6s;8s;9s;11.5s;13s"
 
+<div style="float:right">
+
 [[Image:scr_svg_eyes.png]]
+
+</div>
 
 ==Building progressions==
 
