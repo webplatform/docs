@@ -231,7 +231,9 @@ keyword, which refers to the previously defined animation:
 
  begin = "prev.end"
 
-==Animating complex values==
+==Manipulating complex values==
+
+___
 
 ==Setting the pace==
 
@@ -478,7 +480,7 @@ then 450.
 
 Notice also that the [[svg/attributes/begin|'''begin''']] does not
 specify a time value, but instead responds when users click on the
-piece. SVG supports basic mouse, focus, and DOM mutation events.
+piece. SVG supports interactive mouse, focus, and DOM mutation events.
 
 
 <!--
@@ -498,7 +500,7 @@ piece. SVG supports basic mouse, focus, and DOM mutation events.
 
 * instead of via CSS?
 
-pause
+* attributeType="CSS"
 
 ==The 'set' shorthand==
 
@@ -514,9 +516,8 @@ pause
 
 ===___===
 
-* begin = timecount (s/ms)
 
-* attributeType="xml"
+
 
 [[svg/attributes/foo|'''foo''']]
 
