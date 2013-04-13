@@ -5,7 +5,7 @@
 |Editorial notes=[new content edited offline by Sierra ([[User:Sierra|Sierra]] ([[User talk:Sierra|talk]])); please do not edit]
 }}
 {{Byline}}
-{{Summary_Section|This guide shows you how to use SVG animation, comparing it with CSS techniques. It shows how to control SVG animations from JavaScript, and details other interaction features native to SVG.}}
+{{Summary_Section|This guide shows you how to animate SVG graphics. While you can animate some SVG properties via CSS, this guide focuses on SMIL-based markup you need to animate SVG attributes. It also shows how to control animations from JavaScript.}}
 {{Tutorial
 |Content=
 
@@ -502,7 +502,7 @@ ___
 ** path="data" vs mpath
 -->
 
-==Animating colors and properties==
+==Animating color and other properties==
 
 ___
 
