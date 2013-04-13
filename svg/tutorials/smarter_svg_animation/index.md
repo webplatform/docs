@@ -231,10 +231,12 @@ keyword, which refers to the previously defined animation:
 
  begin = "prev.end"
 
+==Animating complex values==
+
 ==Setting the pace==
 
-Instead of bouncing the text off the wall, this variation brings it to
-a more gradual stop:
+This variation on the swipe animation doesn't bounce it against the
+wall, but instead brings the text to a more gradual stop:
 
 <syntaxhighlight lang="xml" highlight="9-10">
 <animate
@@ -251,12 +253,11 @@ a more gradual stop:
 />
 </syntaxhighlight>
 
-By default, the [[svg/attributes/calcMode|'''calcMode''']] is
-'''linear''', which makes the action proceed in a straight line.
-Setting it to '''spline''' makes it respond to a bezier curve, defined
-by the value of [[svg/attributes/keySplines|'''keySplines''']]. You
-can use semicolons to specify as many curves as there are frames in
-your animation.
+By default, animations progress as a constant rate.  Setting the
+[[svg/attributes/calcMode|'''calcMode''']] to '''spline''' makes it
+respond to a bezier curve, defined by the value of
+[[svg/attributes/keySplines|'''keySplines''']]. You can use semicolons
+to specify as many curves as there are frames in your animation.
 
 The following examples show how these response curves behave, usually
 by slowing the start and end points.  Each ''x'' axis represents the
@@ -387,9 +388,9 @@ animation repeats.)
 
 </div>
 
-Yet another animation synchronizes with the first, moving the position
-of the shadow set by [[svg/elements/feOffset|'''feOffset''']] to match
-the angle of the light source.
+Yet another animation synchronizes with the first, repositioning the
+shadow set by [[svg/elements/feOffset|'''feOffset''']] to match the
+angle of the light source.
 
 ::'''Note:''' As of this writing, Firefox displays these animations in HTML content via the [[css/properties/filter|'''filter''']] CSS property along with the [[css/functions/url|'''url()''']] function.  See [[svg/tutorials/smarter_svg_filters|SVG Filters]] for more information on how to do this. However, there is no clear way to restart these animations when re-applying the filter in the HTML, so it is more appropriate for animations that execute continuously. As a workaround within SVG, toggle CSS classes to apply filters, then use a DOM mutation event such as '''begin = "0s;targetID.DOMAttrModified"''' to restart the animation.
 
@@ -491,7 +492,7 @@ piece. SVG supports basic mouse, focus, and DOM mutation events.
 ** rotate="auto-reverse" invert
 ** path="data" vs mpath
 
-==Animating properties==
+==Animating properties and colors==
 
 * animateColor
 
