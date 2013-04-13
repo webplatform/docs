@@ -314,7 +314,7 @@ of the animation, but unlike '''linear''', it ignores any progress
 points [[svg/attributes/keyTimes|'''keyTimes''']] may define along the
 way.
 
-==Repetition, repetition, repet...==
+==Repetition==
 
 The examples above all execute once, but this example uses
 [[svg/attributes/repeatCount|'''repeatCount''']] to run an animation
@@ -415,7 +415,8 @@ Each animation defines a potentially expansive length of time, over
 which you can repeat an animation using a series of
 [[svg/attributes/begin|'''begin''']] values. For example, the eyeballs
 discussed in the [[svg/tutorials/smarter_svg_overview|SVG grand tour]]
-blink several times in a row:
+blink several times in a row, leaving long pauses between each
+iteration:
 
  begin = "4s;6s;8s;9s;11.5s;13s"
 
@@ -482,45 +483,45 @@ Notice also that the [[svg/attributes/begin|'''begin''']] does not
 specify a time value, but instead responds when users click on the
 piece. SVG supports interactive mouse, focus, and DOM mutation events.
 
+==Animating transforms==
+
+___
 
 <!--
+brain example
+-->
 
-==Specialized animation types==
+==Motion along a path==
 
-* animateTransform (brain)
+___
 
-* animateMotion (move along moving path?)
+
+<!--
 ** rotate="auto" (default)
 ** rotate="auto-reverse" invert
 ** path="data" vs mpath
+-->
 
-==Animating properties and colors==
+==Animating colors and properties==
 
+___
+
+<!--
 * animateColor
-
 * instead of via CSS?
-
 * attributeType="CSS"
-
-==The 'set' shorthand==
-
-* discrete values
+* "set" discrete values
+-->
 
 ==Scripting animations==
 
-* restart = whenNotActive
-* begin/repeat/end events
+___
 
+
+<!--
 * beginElement()
 * beginElementAt(tv)
-
-===___===
-
-
-
-
-[[svg/attributes/foo|'''foo''']]
-
+* restart = whenNotActive
 -->
 
 }}
