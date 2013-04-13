@@ -86,7 +86,7 @@ em {
 }
 </syntaxhighlight>
 
-Your fonts (especially your headings) are one of the biggest contributors to the overall personality of your site, so choose them carefully to fit. This may sound difficult to begin with, but you will soon get the hang of it. As a rule, Times new roman is good for corporate sites, whereas a serif like Arial might be better for a less formal site. Cursive fonts need to be used sparingly &mdash; for example comic sans is hated by many designers, but it is suitable in some cases. For example, you can use comic sans to create a chalk on blackboard effect on a children's site.
+Your fonts (especially your headings) are one of the biggest contributors to the overall personality of your site, so choose them carefully to fit. This may sound difficult to begin with, but you will soon get the hang of it. As a rule, Times new roman is good for corporate sites, whereas a sans-serif like Arial might be better for a less formal site. Cursive fonts need to be used sparingly &mdash; for example comic sans is hated by many designers, but it is suitable in some cases. For example, you can use comic sans to create a chalk on blackboard effect on a children's site.
 
 Headings used to be difficult to deal with. Given that the only web safe fantasy font seems to be Impact (not bad, but imagine if all sites had to use it) and you do not want to be stuck with a default system font, such as the dreadful Papyrus, designers used to use various image techniques for their headings. As you should know by now, using images for text on a web site is really bad because images cannot be read by screen readers or search engines. In the next section, you will find some solutions to resolve this problem.
 
