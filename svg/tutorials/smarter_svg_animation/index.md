@@ -231,7 +231,7 @@ keyword, which refers to the previously defined animation:
 
  begin = "prev.end"
 
-==Manipulating complex values==
+==Morphing shapes==
 
 ___
 
@@ -491,7 +491,7 @@ ___
 brain example
 -->
 
-==Motion along a path==
+==Curved motions==
 
 ___
 
@@ -502,7 +502,7 @@ ___
 ** path="data" vs mpath
 -->
 
-==Animating color and other properties==
+==Color and other properties==
 
 ___
 
