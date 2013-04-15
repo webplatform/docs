@@ -531,12 +531,13 @@ piece. SVG supports interactive mouse, focus, and DOM mutation events.
 
 The example above moves the game piece in a straight line, but instead
 you can move it along the curve of a path. SVG provides an alternative
-[[svg/elements/animateMotion|'''animateMotion''']] element that
-references the graphic that is to be moved.  Its
+[[svg/elements/animateMotion|'''animateMotion''']] whose
 [[svg/attributes/path|'''path''']] attribute specifies the movement
-relative to its current position. This example moves the piece along
-the highlighted series of arcs, exactly as shown, relying on the ''A''
-path command:
+relative to its current position. The animation also specifies the the
+graphic that is to be moved along that path.  This example moves the
+game piece along the highlighted series of arcs, ''exactly'' as shown.
+It relies on the ''A'' path command to define curves to destination
+points up and to the right.
 
 <syntaxhighlight lang="xml" highlight="4,8">
 <defs>
@@ -560,22 +561,35 @@ path command:
 [[Image:svga_motionChessAfter.png|300px]]
 </div>
 
-.
+As an alternative, nesting an [[svg/elements/mpath|'''mpath''']]
+element within the [[svg/elements/animateMotion|'''animateMotion''']]
+makes the graphic travel along any path it references. This example
+makes an icon travel continuously around an irregularly curved shape:
+
+<syntaxhighlight lang="xml">
+<defs>
+<animateMotion xlink:href="#icon" rotate="auto" start="0s" dur="10s" repeatCount="indefinite">
+    <mpath xlink:href="#shape"/>
+</animateMotion>
+</defs>
+<image id="icon" x="0" y="0" width="50" height="50" xlink:href="html5icon5.png"/>
+<path id="shape" d="M 115,169 S 149,424 460,555 S 608,367 568,157 S 438,108 174,57 S 97,90 115,169"/>
+</syntaxhighlight>
 
 <div style="display:inline-block">
+ rotate="0" (default)
 [[Image:svga_motionZero.png|300px]]
 </div>
 <div style="display:inline-block">
+ rotate="auto"
 [[Image:svga_motionAuto.png|300px]]
 </div>
 <div style="display:inline-block">
+ rotate="auto-reverse"
 [[Image:svga_motionAutoReverse.png|300px]]
 </div>
 
 
-<syntaxhighlight lang="xml">
-___
-</syntaxhighlight>
 <syntaxhighlight lang="xml">
 ___
 </syntaxhighlight>
