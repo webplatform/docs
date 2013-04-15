@@ -5,10 +5,7 @@
 |Editorial notes=[new content edited offline by Sierra ([[User:Sierra|Sierra]] ([[User talk:Sierra|talk]])); please do not edit]
 }}
 {{Byline}}
-
-{{Summary_Section|This guide shows you how to animate SVG
-graphics using SMIL-based markup.}}
-
+{Summary_Section|This guide shows you how to animate SVG graphics using SMIL-based markup. Along with standard animation techniques, you will learn how to morph shapes, move graphics along a curve, animate complex filter effects, and control animations from JavaScript.}}
 {{Tutorial
 |Content=
 
