@@ -531,10 +531,12 @@ piece. SVG supports interactive mouse, focus, and DOM mutation events.
 
 The example above moves the game piece in a straight line, but instead
 you can move it along the curve of a path. SVG provides an alternative
-[[svg/elements/animateMotion|'''animateMotion''']] element, whose
-[[svg/attributes/path|'''path''']] attribute specifies an element's
-movement relative to its current position. This example moves the
-piece along the highlighted series of arcs, exactly as shown:
+[[svg/elements/animateMotion|'''animateMotion''']] element that
+references the graphic that is to be moved.  Its
+[[svg/attributes/path|'''path''']] attribute specifies the movement
+relative to its current position. This example moves the piece along
+the highlighted series of arcs, exactly as shown, relying on the ''A''
+path command:
 
 <syntaxhighlight lang="xml" highlight="4,8">
 <defs>
