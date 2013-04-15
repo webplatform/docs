@@ -5,7 +5,10 @@
 |Editorial notes=[new content edited offline by Sierra ([[User:Sierra|Sierra]] ([[User talk:Sierra|talk]])); please do not edit]
 }}
 {{Byline}}
-{{Summary_Section|This guide shows you how to animate SVG graphics. While you can animate some SVG properties via CSS, this guide focuses on SMIL-based markup you need to animate SVG attributes. It also shows how to control animations from JavaScript.}}
+
+{{Summary_Section|This guide shows you how to animate SVG
+graphics using SMIL-based markup.}}
+
 {{Tutorial
 |Content=
 
@@ -111,7 +114,7 @@ named the same as SVG's [[svg/properties/fill|'''fill''']]
 ''property'', which specifies background colors and images. Do not
 get the two mixed up.)
 
-==A sequence of frames==
+==Sequences of frames==
 
 This animation swipes in, but then comes to an abrupt stop.  This more
 natural-looking variation bounces the text a bit off the left wall:
