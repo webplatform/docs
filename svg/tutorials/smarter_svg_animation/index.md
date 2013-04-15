@@ -540,13 +540,13 @@ piece. SVG supports interactive mouse, focus, and DOM mutation events.
 .
 
 <div style="display:inline-block">
-[[Image:svga_motionZero.png|200px]]
+[[Image:svga_motionZero.png|300px]]
 </div>
 <div style="display:inline-block">
-[[Image:svga_motionAuto.png|200px]]
+[[Image:svga_motionAuto.png|300px]]
 </div>
 <div style="display:inline-block">
-[[Image:svga_motionAutoReverse.png|200px]]
+[[Image:svga_motionAutoReverse.png|300px]]
 </div>
 
 
