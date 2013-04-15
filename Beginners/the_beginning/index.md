@@ -22,12 +22,12 @@ Find more about the web's history and origins in [[the_history_of_the_web|The hi
 
 The main components of the Web are as follows:
 
-1. A web server: this is a computer where web sites are stored, ready for delivery to those who want to look at them
-2. Client computers: these are computers with an available internet connection and a web browser installed upon them. Users of these computers can use a web browser to '''request''' a web site from a server, at which point it will be sent (a '''response''') to the user's computer and displayed inside the web browser. 
-3. A web browser: As indicated above, this is a program installed on your computer that accesses and displays web sites for you, allowing you to interact with the Web.
-4. A means of transporting data around the Web: this is generally referred to as a '''transmission protocol''', a system that handles transporting data around the Web.
-5. A Domain Name Server: this is basically like an address book for the Web. The real locations that web sites live at, on web servers, are represented by complicated strings of numbers called '''IP addresses'''. Domain Name Servers associate these addresses with domain names, so they are easier to handle for humans. So for example, the IP address of google.co.uk is 173.194.66.94 — try typing it in and you'll see we're right — but google.co.uk is far easier to remember!
-6. Web standards: these are the different types of code that web developers use to create web sites. When a web site is requested from a server by a web browser, the data that is sent back to the web browser will consist of a series of files containing various information such as the text you want to show on the web page, the styles that text should have, etc. This is then read by the web browser, which assembles the files into a complete web page. 
+# A web server: this is a computer where web sites are stored, ready for delivery to those who want to look at them
+# Client computers: these are computers with an available internet connection and a web browser installed upon them. Users of these computers can use a web browser to '''request''' a web site from a server, at which point it will be sent (a '''response''') to the user's computer and displayed inside the web browser. 
+# A web browser: As indicated above, this is a program installed on your computer that accesses and displays web sites for you, allowing you to interact with the Web.
+# A means of transporting data around the Web: this is generally referred to as a '''transmission protocol''', a system that handles transporting data around the Web.
+# A Domain Name Server: this is basically like an address book for the Web. The real locations that web sites live at, on web servers, are represented by complicated strings of numbers called '''IP addresses'''. Domain Name Servers associate these addresses with domain names, so they are easier to handle for humans. So for example, the IP address of google.co.uk is 173.194.66.94 — try typing it in and you'll see we're right — but google.co.uk is far easier to remember!
+# Web standards: these are the different types of code that web developers use to create web sites. When a web site is requested from a server by a web browser, the data that is sent back to the web browser will consist of a series of files containing various information such as the text you want to show on the web page, the styles that text should have, etc. This is then read by the web browser, which assembles the files into a complete web page. 
 
 [INSERT IMAGE OF TOWN AND CITY CONNECTED BY ROAD, WITH DELIVERY VAN GOING ALONG ROAD TOWARDS TOWN] 
 
@@ -39,12 +39,12 @@ Read [how_does_the_internet_work|How does the Internet work?] for more informati
 
 The Web is a wonderful thing for you to learn more about, not only in terms of using it for information, communication, entertainment, etc. but also in terms of developing new content and services for others to use. Here are just a few reasons:
 
-1. The Web is free to use, and develop, in terms of both monetary cost and freedom. Yes, some web sites charge for viewing content, some governments try to limit the content their countries view and broadcast, some software you can use to write web site code might cost money to buy, and Wifi providers tend to charge for their services. But the underlying technologies that the web is built on are free for anyone to use and contribute to. But it is possible to access the web for free, and publish your own content on the Web without spending any money, or for minimal costs.
-2. Web code is quite easy to learn in comparison to other programming environments, so it is easy to get started as a web developer.
-3. No one company controls the Web, and the development of web technologies, so it is unlikely that the web will die out as a result of a single company's financial or political issues.
-4. The web is pretty popular. Billions of people use the web, so on publishing a web site you have an instant global market.
-5. The web community is very passionate and friendly, and they like giving away ideas and code for free. It is easy to get help if you are stuck, meet like-minded people to discuss ideas with, and find code to help speed up your work and learn from.
-6. The web is designed with universal access in mind - to be accessible by as wide an audience as possible, regardless of circumstances, any disabilities they may have, etc.
+# The Web is free to use, and develop, in terms of both monetary cost and freedom. Yes, some web sites charge for viewing content, some governments try to limit the content their countries view and broadcast, some software you can use to write web site code might cost money to buy, and Wifi providers tend to charge for their services. But the underlying technologies that the web is built on are free for anyone to use and contribute to. But it is possible to access the web for free, and publish your own content on the Web without spending any money, or for minimal costs.
+# Web code is quite easy to learn in comparison to other programming environments, so it is easy to get started as a web developer.
+# No one company controls the Web, and the development of web technologies, so it is unlikely that the web will die out as a result of a single company's financial or political issues.
+# The web is pretty popular. Billions of people use the web, so on publishing a web site you have an instant global market.
+# The web community is very passionate and friendly, and they like giving away ideas and code for free. It is easy to get help if you are stuck, meet like-minded people to discuss ideas with, and find code to help speed up your work and learn from.
+# The web is designed with universal access in mind - to be accessible by as wide an audience as possible, regardless of circumstances, any disabilities they may have, etc.
 
 ==What are web standards?==
 
@@ -85,8 +85,8 @@ Download and install these for now; we'll cover them in more detail in later Par
 
 When you want to get content up online, you'll need to buy some web hosting space, and a domain name. These are as follows:
 
-1. When you buy web hosting, you basically buy some space on a web server set up and run by a third part company (you could also run your own web server, but this is not for a beginner's course!) This is done by going to a web hosting company and choosing an option to purchase.
-2. When you buy a domain name, you basically buy an address for your web content to live at on the Web, so for example google.com, apple.com, etc. You can choose a domain name by going to a domain name registrar such as [http://godaddy.com/ GoDaddy] and following the instructions.
+# When you buy web hosting, you basically buy some space on a web server set up and run by a third part company (you could also run your own web server, but this is not for a beginner's course!) This is done by going to a web hosting company and choosing an option to purchase.
+# When you buy a domain name, you basically buy an address for your web content to live at on the Web, so for example google.com, apple.com, etc. You can choose a domain name by going to a domain name registrar such as [http://godaddy.com/ GoDaddy] and following the instructions.
 
 Note that most domain name purchases will come with free hosting, so you'll probably only need to make one purchase. For your early web experiments, you don't need anything very expensive or complicated. In fact, until you want to start putting content online, you can just test your web code files locally, on your own web browser installation.
 {{Notes_Section}}
