@@ -4,9 +4,12 @@
 |Content=Incomplete, Errors, Grammar/Spelling, Cleanup, Examples Needed, Examples Best Practices, Needs Summary
 |Checked_Out=Yes
 }}
-{{Summary_Section|For most people, the Web is not a command prompt, nor is it simply text. The Web has become all things to all people: a newspaper, a community discussion board, a photo gallery, a gaming venue. How can you attract people to your website and keep them coming back for more?}}
+{{Summary_Section|The web, in its infancy, was proposed by Tim Berners-Lee as a "WorldWideWeb" designed to create an interconnected digital corpus of documents related to CERN for the benefit of their particle physicists.  Early web pages were simple, text-based documents with hyperlinks embedded in them referencing other related texts.  
+Although conceived as a means of linking scholarly texts in 1989, the Web has evolved dramatically since its initial implementation.  The Web is not simply text any longer.  It has expanded into something greater: newspapers, community discussion boards, photo galleries, financial management tools, multiplayer gaming.  
+With all the competing content now on the web, how do you make your offering attractive to people and keep them coming back for more?}}
 {{Basic Page}}
-For a website to attract attention and keep it, the website must be a balance of functionality and usability. A website that looks wonderful and does nothing will attract attention, but likely will not keep it. A website that works well and looks like a command prompt may have a cult following, but will attract little attention outside of that. The following pages intend to help you make a website with that balance of functionality and usability.
+For a website to attract attention and keep it, it must be a balance of design, functionality and usability. A website that looks wonderful and does nothing will garner interest, but likely will not keep it.  On the other hand, a website that works well and looks like a command prompt may have a cult following, but will be challenged to elicit interest outside of that group.  Hit one out of the park on design and functionality but make it hard for users to use and you'll strike out nonetheless.
+The following pages intend to help you make a website with a balanced blend of design, functionality and usability.
 * [[concepts/IntrotoArt|Introduction to Art & Graphic Design]]
 * [[concepts/an_introduction_to_web_design|An Introduction to Web Design]]
 * [[concepts/ux/user experience design|User Experience Design]]
