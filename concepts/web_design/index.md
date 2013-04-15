@@ -1,8 +1,9 @@
 {{Page_Title|Web design concepts}}
 {{Flags
 |High-level issues=Needs Flags
-|Content=Incomplete, Examples Needed, Examples Best Practices
-|Checked_Out=Yes
+|Content=Incomplete
+|Checked_Out=No
+|Editorial notes=The summary content on this page is complete but it is not known by this contributor whether the original author feels the links to content provided are complete.  I have not reviewed them for completeness.
 }}
 {{Summary_Section|The web, in its infancy, was proposed by Tim Berners-Lee as a "WorldWideWeb" designed to create an interconnected digital corpus of documents related to CERN for the benefit of their particle physicists.  Early web pages were simple, text-based documents with hyperlinks embedded in them referencing other related texts.  
 Although conceived as a means of linking scholarly texts in 1989, the Web has evolved dramatically since its initial implementation.  The Web is not simply text any longer.  It has expanded into something greater: newspapers, community discussion boards, photo galleries, financial management tools, multiplayer gaming.  
