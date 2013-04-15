@@ -73,6 +73,9 @@ difference:
 <text id="swipeText" x="0" y="100">An SVG Animation</text>
 </syntaxhighlight>
 
+([http://letmespellitoutforyou.com/samples/svg/anim_swipe.svg See this
+animation in action].)
+
 ==Delaying an animation==
 
 Increasing the [[svg/attributes/begin|'''begin''']] attribute's time
@@ -604,7 +607,7 @@ the text's starting point relative to the start of the path.
 Ordinarily you can specify percentages as values, but this example
 specifies units relative to an arbitrary
 [[svg/attributes/pathLength|'''pathLength''']] you supply for the
-path:
+path, which helps to pace the animation:
 
 <syntaxhighlight lang="xml" highlight="4-6,13,20">
 <defs>
