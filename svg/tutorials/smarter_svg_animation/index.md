@@ -563,8 +563,11 @@ points up and to the right.
 
 As an alternative, nesting an [[svg/elements/mpath|'''mpath''']]
 element within the [[svg/elements/animateMotion|'''animateMotion''']]
-makes the graphic travel along any path it references. This example
-makes an icon travel continuously around an irregularly curved shape:
+makes the graphic travel along the contours of any referenced path.
+This example makes an icon travel continuously in a around an
+irregularly curved shape. The direction of movement depends on the
+sequence of path commands, which in this case results in a
+counter-clockwise motion:
 
 <syntaxhighlight lang="xml">
 <defs>
