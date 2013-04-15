@@ -248,6 +248,9 @@ morphing effects:
 <div style="display:inline-block">
 [[Image:svga_morph3.png|200px]]
 </div>
+<div style="display:inline-block">
+[[Image:svga_morph4.png|200px]]
+</div>
 
 For the animation to work, the [[svg/attributes/from|'''from''']] and
 [[svg/attributes/to|'''to''']] values, as well as any frames specified
