@@ -621,11 +621,12 @@ To move text along a path, you need to use the
 [[svg/elements/animate|'''animate''']] element, modifying the
 [[svg/elements/textPath|'''textPath''']]'s
 [[svg/attributes/startOffset|'''startOffset''']] attribute, which sets
-the text's starting point relative to the start of the path.
-Ordinarily you can specify percentages as values, but this example
-specifies units relative to an arbitrary
-[[svg/attributes/pathLength|'''pathLength''']] you supply for the
-path, which helps to pace the animation:
+the text's starting point relative to the start of the path.  In this
+example, both offsets place the text out of view.  Ordinarily you can
+specify percentages as offset values, but this example specifies units
+relative to an arbitrary
+[[svg/attributes/pathLength|'''pathLength''']] value, which helps to
+pace the animation regardless of the path's actual length:
 
 <syntaxhighlight lang="xml" highlight="4-6,13,20">
 <defs>
