@@ -73,8 +73,7 @@ difference:
 <text id="swipeText" x="0" y="100">An SVG Animation</text>
 </syntaxhighlight>
 
-([http://letmespellitoutforyou.com/samples/svg/anim_swipe.svg See this
-animation in action].)
+([http://letmespellitoutforyou.com/samples/svg/anim_swipe.svg View this animation].)
 
 ==Delaying an animation==
 
