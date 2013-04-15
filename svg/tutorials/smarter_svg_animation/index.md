@@ -437,11 +437,11 @@ animation repeats.)
 />
 </syntaxhighlight>
 
-[http://letmespellitoutforyou.com/samples/svg/filter_bevel.svg View this animation]
-
 (Yet another animation synchronizes with the first, repositioning the
 shadow set by [[svg/elements/feOffset|'''feOffset''']] to match the
 angle of the light source.)
+
+[http://letmespellitoutforyou.com/samples/svg/filter_bevel.svg View this animation]
 
 ::'''Note:''' As of this writing, Firefox displays these animations in HTML content via the [[css/properties/filter|'''filter''']] CSS property along with the [[css/functions/url|'''url()''']] function.  See [[svg/tutorials/smarter_svg_filters|SVG Filters]] for more information on how to do this. However, there is no clear way to restart these animations when re-applying the filter in the HTML, so it is more appropriate for animations that execute continuously. As a workaround within SVG, toggle CSS classes to apply filters, then use a DOM mutation event such as '''begin = "0s;targetID.DOMAttrModified"''' to restart the animation.
 
@@ -614,8 +614,8 @@ the path.
 [[Image:svga_motionAutoReverse.png|300px]]
 </div>
 
-[http://letmespellitoutforyou.com/samples/svg/anim_motion.svg View this animation],
-which additionally morphs the shape along which the icon travels.
+[http://letmespellitoutforyou.com/samples/svg/anim_motion.svg View this animation].
+It additionally morphs the shape along which the icon travels.
 
 To move text along a path, you need to use the
 [[svg/elements/animate|'''animate''']] element, modifying the
