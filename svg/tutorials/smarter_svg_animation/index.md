@@ -73,7 +73,7 @@ difference:
 <text id="swipeText" x="0" y="100">An SVG Animation</text>
 </syntaxhighlight>
 
-[http://letmespellitoutforyou.com/samples/svg/anim_swipe.svg View this animation].
+[http://letmespellitoutforyou.com/samples/svg/anim_swipe.svg View this animation]
 
 ==Delaying an animation==
 
@@ -111,6 +111,8 @@ completes, effectively overriding whatever the text element specifies.
 named the same as SVG's [[svg/properties/fill|'''fill''']]
 ''property'', which specifies background colors and images. Do not
 get the two mixed up.)
+
+[http://letmespellitoutforyou.com/samples/svg/anim_swipeDelay.svg View this animation]
 
 ==Sequences of frames==
 
@@ -152,6 +154,8 @@ the five values.  The number of
 [[svg/attributes/keyTimes|'''keyTimes''']] must match the number of
 [[svg/attributes/values|'''values''']], or the animation does not
 work.
+
+[http://letmespellitoutforyou.com/samples/svg/anim_swipeFrames.svg View this animation]
 
 ==Synchronizing animations==
 
@@ -232,6 +236,8 @@ keyword, which refers to the previously defined animation:
 
  begin = "prev.end"
 
+[http://letmespellitoutforyou.com/samples/svg/anim_swipeBlur.svg View this animation]
+
 ==Morphing shapes==
 
 The motion animation shown above animates a single value at a time,
@@ -279,6 +285,8 @@ commands going through a series of eight frames:
 />
 </path>
 </syntaxhighlight>
+
+[http://letmespellitoutforyou.com/samples/svg/anim_morph.svg View this animation]
 
 ==Setting the pace==
 
@@ -359,6 +367,8 @@ of the animation, but unlike '''linear''', it ignores any progress
 points [[svg/attributes/keyTimes|'''keyTimes''']] may define along the
 way.
 
+[http://letmespellitoutforyou.com/samples/svg/anim_swipeTimed.svg View this animation]
+
 ==Repetition==
 
 The examples above all execute once, but this example uses
@@ -426,6 +436,8 @@ animation repeats.)
     xlink:href    = "#elevationEffect"
 />
 </syntaxhighlight>
+
+[http://letmespellitoutforyou.com/samples/svg/filter_bevel.svg View this animation]
 
 (Yet another animation synchronizes with the first, repositioning the
 shadow set by [[svg/elements/feOffset|'''feOffset''']] to match the
@@ -520,6 +532,8 @@ Notice also that the [[svg/attributes/begin|'''begin''']] does not
 specify a time value, but instead responds when users click on the
 piece. SVG supports interactive mouse, focus, and DOM mutation events.
 
+[http://letmespellitoutforyou.com/samples/svg/anim_chess.svg View this animation]
+
 ==Curved motions==
 
 The example above moves the game piece in a straight line, but instead
@@ -553,6 +567,8 @@ points up and to the right.
 <div style="display:inline-block">
 [[Image:svga_motionChessAfter.png|300px]]
 </div>
+
+[http://letmespellitoutforyou.com/samples/svg/anim_chessMotion.svg View this animation]
 
 As an alternative, nesting an [[svg/elements/mpath|'''mpath''']]
 element within the [[svg/elements/animateMotion|'''animateMotion''']]
@@ -598,6 +614,9 @@ the path.
 [[Image:svga_motionAutoReverse.png|300px]]
 </div>
 
+[http://letmespellitoutforyou.com/samples/svg/anim_motion.svg View this example],
+which additionally morphs the shape along which the icon travels.
+
 To move text along a path, you need to use the
 [[svg/elements/animate|'''animate''']] element, modifying the
 [[svg/elements/textPath|'''textPath''']]'s
@@ -633,6 +652,8 @@ path, which helps to pace the animation:
 </syntaxhighlight>
 
 [[Image:svga_motionText.png]]
+
+[http://letmespellitoutforyou.com/samples/svg/anim_motionText.svg View this example]
 
 ==Animating transforms==
 
