@@ -13,13 +13,13 @@ Interfaces become more vibrant once you add animation effects.  This
 guide focuses on SVG's built-in animation features, which derive from
 SMIL, the ''Synchronized Multimedia Integration Language''.  As
 discussed in the [[svg/tutorials/smarter_svg_overview|SVG grand
-tour]], some SVG element attributes are actually implemented as CSS
+tour]], many SVG attributes are actually implemented as CSS
 ''properties'', and thus respond to CSS
 [[tutorials/css_transitions|transitions]] and
 [[tutorials/css_animations|keyframe animations]]. The techniques
-described here offer the only way to animate SVG ''attributes'', but
-they can be used for ''properties'' as well. You'll also learn how to
-dynamically modify any attribute values that can't be animated.
+described here offer a way to animate SVG ''attributes'', but can be
+used for ''properties'' as well. You'll also learn how to dynamically
+modify any attribute values that can't be animated.
 
 ==A simple animation==
 
@@ -483,14 +483,6 @@ Notice also that the [[svg/attributes/begin|'''begin''']] does not
 specify a time value, but instead responds when users click on the
 piece. SVG supports interactive mouse, focus, and DOM mutation events.
 
-==Animating transforms==
-
-___
-
-<!--
-brain example
--->
-
 ==Curved motions==
 
 ___
@@ -500,6 +492,14 @@ ___
 ** rotate="auto" (default)
 ** rotate="auto-reverse" invert
 ** path="data" vs mpath
+-->
+
+==Animating transforms==
+
+___
+
+<!--
+brain example
 -->
 
 ==Color and other properties==
