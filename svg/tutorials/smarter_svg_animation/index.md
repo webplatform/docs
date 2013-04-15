@@ -569,15 +569,28 @@ irregularly curved shape. The direction of movement depends on the
 sequence of path commands, which in this case results in a
 counter-clockwise motion:
 
-<syntaxhighlight lang="xml">
+<syntaxhighlight lang="xml" highlight="3,4,9">
 <defs>
-<animateMotion xlink:href="#icon" rotate="auto" start="0s" dur="10s" repeatCount="indefinite">
+<animateMotion
+    xlink:href  = "#icon"
+    rotate      = "auto"
+    start       = "0s"
+    dur         = "10s"
+    repeatCount = "indefinite"
+>
     <mpath xlink:href="#shape"/>
 </animateMotion>
 </defs>
-<image id="icon" x="0" y="0" width="50" height="50" xlink:href="html5icon5.png"/>
+<image id="icon" x="0" y="0" width="50" height="50" xlink:href="icon.png"/>
 <path id="shape" d="M 115,169 S 149,424 460,555 S 608,367 568,157 S 438,108 174,57 S 97,90 115,169"/>
 </syntaxhighlight>
+
+By default, the graphic retains its original orientation, as shown
+below on the left where the icon points right. Specifying a
+[[svg/attributes/rotate|'''rotate''']] attribute of '''auto''' keeps
+it pointed in the direction of travel. A value of '''auto-reverse'''
+makes the left side of graphic face forwards, and on the other side of
+the path.
 
 <div style="display:inline-block">
  rotate="0" (default)
