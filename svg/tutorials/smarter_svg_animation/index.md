@@ -233,9 +233,29 @@ keyword, which refers to the previously defined animation:
 
 ==Morphing shapes==
 
-___
+The motion animation above animates a single value at a time, but the
+blur animation animates two, representing a pair of coordinates. SVG
+also allows you to animate series of coordinates that comprise
+[[svg/elements/path|'''path''']] definitions, resulting in curved
+morphing effects:
 
+<div style="display:inline-block">
+[[Image:svga_morph1.png|200px]]
+</div>
+<div style="display:inline-block">
+[[Image:svga_morph2.png|200px]]
+</div>
+<div style="display:inline-block">
+[[Image:svga_morph3.png|200px]]
+</div>
 
+For the animation to work, the [[svg/attributes/from|'''from''']] and
+[[svg/attributes/to|'''to''']] values, as well as any frames specified
+in [[svg/attributes/values|'''values''']], must feature the same
+number of path commands, all arranged in the exact same sequence. Only
+their numeric values may vary.  This example shows a path consisting
+of one ''M'' positioning command and four ''S'' curve commands going
+through a series of eight frames:
 
 <syntaxhighlight lang="xml">
 <path id = "shape" d = "M 115,169 S 149,424 460,555 S 608,367 568,157 S 438,108 174,57 S 97,90 115,169" >
@@ -243,18 +263,17 @@ ___
   from = "M 115,169 S 149,424 460,555 S 608,367 568,157 S 438,108 174,57 S 97,90 115,169"
   to = "M 115,169 S 149,424 460,555 S 608,367 568,157 S 438,108 174,57 S 97,90 115,169"
   values = "M 115,169 S 149,424 460,555 S 608,367 568,157 S 438,108
-            174,57 S 97,90 115,169;M 284,81 S 117,248 91 ,478 S
-            240,595 547,608 S 608,349 588,140 S 420,48 284,81;M
-            360,313 S 413,253 475,308 S 491,422 464,508 S 293,511
-            217,424 S 254,297 360,313;M 381,643 S 574,490 580,225 S
-            468,133 297,38 S 103,144 62,382 S 172,641 381,643;M 456,56
-            S 579,221 603,479 S 449,59 5 196,636 S 64,367 96,111 S
-            371,28 456,56;M 552,89 S 326,83 111,219 S 66,407 104,623 S
-            426,653 605,503 S 655,263 552,89;M 628,3 55 S 563,183
-            397,79 S 199,79 65,270 S 65,464 258,650 S 467,623
-            628,355;M 84,239 S 223,528 336,620 S 516,606 630,347 S
-            587,153 3 25,70 S 76,87 84,239;M 115,169 S 149,424 460,555
-            S 608,367 568,157 S 438,108 174,57 S 97,90 115,169" 
+    174,57 S 97,90 115,169;M 284,81 S 117,248 91 ,478 S 240,595
+    547,608 S 608,349 588,140 S 420,48 284,81;M 360,313 S 413,253
+    475,308 S 491,422 464,508 S 293,511 217,424 S 254,297 360,313;M
+    381,643 S 574,490 580,225 S 468,133 297,38 S 103,144 62,382 S
+    172,641 381,643;M 456,56 S 579,221 603,479 S 449,59 5 196,636 S
+    64,367 96,111 S 371,28 456,56;M 552,89 S 326,83 111,219 S 66,407
+    104,623 S 426,653 605,503 S 655,263 552,89;M 628,3 55 S 563,183
+    397,79 S 199,79 65,270 S 65,464 258,650 S 467,623 628,355;M 84,239
+    S 223,528 336,620 S 516,606 630,347 S 587,153 3 25,70 S 76,87
+    84,239;M 115,169 S 149,424 460,555 S 608,367 568,157 S 438,108
+    174,57 S 97,90 115,169"
 />
 </path>
 </syntaxhighlight>
