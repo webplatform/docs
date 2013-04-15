@@ -1,7 +1,7 @@
 {{Page_Title|Setting up Mime Types on your server}}
 {{Flags
 |High-level issues=Needs Review
-|Checked_Out=Yes
+|Checked_Out=No
 |Editorial notes=Initial creation. Will definitely need reviews
 }}
 {{Byline
@@ -117,7 +117,6 @@ types {
   static_files: videos_folder/
   mime_type: video/ogg
   upload: videos_folder/(.*\.ogv)</pre>
-
 }}
 {{Notes_Section}}
 {{Compatibility_Section
