@@ -614,7 +614,7 @@ the path.
 [[Image:svga_motionAutoReverse.png|300px]]
 </div>
 
-[http://letmespellitoutforyou.com/samples/svg/anim_motion.svg View this example],
+[http://letmespellitoutforyou.com/samples/svg/anim_motion.svg View this animation],
 which additionally morphs the shape along which the icon travels.
 
 To move text along a path, you need to use the
@@ -653,7 +653,7 @@ path, which helps to pace the animation:
 
 [[Image:svga_motionText.png]]
 
-[http://letmespellitoutforyou.com/samples/svg/anim_motionText.svg View this example]
+[http://letmespellitoutforyou.com/samples/svg/anim_motionText.svg View this animation]
 
 ==Animating transforms==
 
