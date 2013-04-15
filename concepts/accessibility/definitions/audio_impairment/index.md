@@ -1,4 +1,4 @@
-{{Page_Title|Audio Impairments}}
+{{Page_Title|Audio Impairment}}
 {{Flags
 |Checked_Out=No
 }}
