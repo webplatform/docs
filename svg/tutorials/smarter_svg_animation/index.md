@@ -233,9 +233,9 @@ keyword, which refers to the previously defined animation:
 
 ==Morphing shapes==
 
-The motion animation above animates a single value at a time, but the
-blur animation animates two, representing a pair of coordinates. SVG
-also allows you to animate series of coordinates that comprise
+The motion animation shown above animates a single value at a time,
+but the blur animation animates two, a pair of coordinates. SVG also
+allows you to animate long series of coordinates that make up
 [[svg/elements/path|'''path''']] definitions, resulting in curved
 morphing effects:
 
@@ -254,17 +254,20 @@ morphing effects:
 
 For the animation to work, the [[svg/attributes/from|'''from''']] and
 [[svg/attributes/to|'''to''']] values, as well as any frames specified
-in [[svg/attributes/values|'''values''']], must feature the same
-number of path commands, all arranged in the exact same sequence. Only
-their numeric values may vary.  This example shows a path consisting
-of one ''M'' positioning command and four ''S'' curve commands going
-through a series of eight frames:
+along the way in [[svg/attributes/values|'''values''']], must feature
+the exact same number of path commands, all arranged in the same
+sequence. Only their numeric values may vary.  This example shows a
+path consisting of one ''M'' positioning command and four ''S'' curve
+commands going through a series of eight frames:
 
 <syntaxhighlight lang="xml">
-<path id = "shape" d = "M 115,169 S 149,424 460,555 S 608,367 568,157 S 438,108 174,57 S 97,90 115,169" >
+<path id = "shape" d = "M 115,169 S 149,424 460,555 S 608,367 568,157
+      S 438,108 174,57 S 97,90 115,169" >
 <animate attributeName = "d" begin = "0s" dur = "20s"
-  from = "M 115,169 S 149,424 460,555 S 608,367 568,157 S 438,108 174,57 S 97,90 115,169"
-  to = "M 115,169 S 149,424 460,555 S 608,367 568,157 S 438,108 174,57 S 97,90 115,169"
+  from = "M 115,169 S 149,424 460,555 S 608,367 568,157 S 438,108
+    174,57 S 97,90 115,169"
+  to = "M 115,169 S 149,424 460,555 S 608,367 568,157 S 438,108 174,57
+    S 97,90 115,169"
   values = "M 115,169 S 149,424 460,555 S 608,367 568,157 S 438,108
     174,57 S 97,90 115,169;M 284,81 S 117,248 91 ,478 S 240,595
     547,608 S 608,349 588,140 S 420,48 284,81;M 360,313 S 413,253
