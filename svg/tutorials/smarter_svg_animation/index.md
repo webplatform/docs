@@ -3,18 +3,18 @@
 |High-level issues=Stub
 |Checked_Out=Yes
 }}
-{{Byline}}
+{{Byline
+|Name=Mike Sierra
+}}
 {{Summary_Section|This guide shows you how to animate SVG graphics using SMIL-based markup. Along with standard animation techniques, you will learn how to morph shapes, move graphics along a curve, animate complex filter effects, and control animations from JavaScript.}}
 {{Tutorial
-|Content=
-
-Interfaces become more vibrant once you add animation effects.  This
-guide focuses on SVG's built-in animation features, which derive from
-SMIL, the ''Synchronized Multimedia Integration Language''.  As
-discussed in the [[svg/tutorials/smarter_svg_overview|SVG grand
-tour]], many SVG attributes are actually implemented as CSS
-''properties'', and thus respond to CSS
-[[tutorials/css_transitions|transitions]] and
+|Content=Interfaces become more vibrant once you add animation
+effects.  This guide focuses on SVG's built-in animation features,
+which derive from SMIL, the ''Synchronized Multimedia Integration
+Language''.  As discussed in the
+[[svg/tutorials/smarter_svg_overview|SVG grand tour]], many SVG
+attributes are actually implemented as CSS ''properties'', and thus
+respond to CSS [[tutorials/css_transitions|transitions]] and
 [[tutorials/css_animations|keyframe animations]]. The techniques
 described here offer a way to animate SVG ''attributes'', but can be
 used for ''properties'' as well. You'll also learn how to dynamically
