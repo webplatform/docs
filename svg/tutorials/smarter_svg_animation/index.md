@@ -655,11 +655,12 @@ path, which helps to pace the animation:
 
 [http://letmespellitoutforyou.com/samples/svg/anim_motionText.svg View this animation]
 
+<!--
+
 ==Animating transforms==
 
 ___
 
-<!--
 <syntaxhighlight lang="xml">
 ___
 </syntaxhighlight>
@@ -668,24 +669,20 @@ ___
 </syntaxhighlight>
 
 brain example
--->
 
 ==Color and other properties==
 
 ___
 
-<!--
 * animateColor
 * instead of via CSS?
 * attributeType="CSS"
 * "set" discrete values
--->
 
 ==Scripting animations==
 
 ___
 
-<!--
 * beginElement()
 * beginElementAt(tv)
 * restart = whenNotActive
