@@ -2,7 +2,7 @@
 {{Flags
 |High-level issues=Needs Flags
 |Content=Incomplete, Errors, Grammar/Spelling, Cleanup, Examples Needed, Examples Best Practices, Needs Summary
-|Checked_Out=No
+|Checked_Out=Yes
 }}
 {{Summary_Section|For most people, the Web is not a command prompt, nor is it simply text. The Web has become all things to all people: a newspaper, a community discussion board, a photo gallery, a gaming venue. How can you attract people to your website and keep them coming back for more?}}
 {{Basic Page}}
