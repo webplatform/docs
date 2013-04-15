@@ -605,29 +605,54 @@ the path.
 [[Image:svga_motionAutoReverse.png|300px]]
 </div>
 
+To move text along a path, you need to use the
+[[svg/elements/animate|'''animate''']] element, modifying the
+[[svg/elements/textPath|'''textPath''']]'s
+[[svg/attributes/startOffset|'''startOffset''']] attribute, which sets
+the text's starting point relative to the start of the path.
+Ordinarily you can specify percentages as values, but this example
+specifies units relative to an arbitrary
+[[svg/attributes/pathLength|'''pathLength''']] you supply for the
+path:
 
-<syntaxhighlight lang="xml">
-___
-</syntaxhighlight>
-<syntaxhighlight lang="xml">
-___
-</syntaxhighlight>
-<syntaxhighlight lang="xml">
-___
+<syntaxhighlight lang="xml" highlight="4-6,13,20">
+<defs>
+<animate
+   xlink:href    = "#txtPath"
+   attributeName = "startOffset"
+   from          = "1000"
+   to            = "-1000"
+   start         = "0s"
+   dur           = "8s"
+   repeatCount   = "indefinite"
+/>
+</defs>
+<text id="txt">
+  <textPath id="txtPath" xlink:href="#shape" startOffset="0">
+    Moving text along a path
+  </textPath>
+</text>
+<path
+   id         = "shape"
+   d          = "M 100,300 A 1,1 0 0 1 500,300"
+   pathLength = "1000"
+   />
 </syntaxhighlight>
 
-
-<!--
-** rotate="auto" (default)
-** rotate="auto-reverse" invert
-** path="data" vs mpath
--->
+[[Image:svga_motionText.png]]
 
 ==Animating transforms==
 
 ___
 
 <!--
+<syntaxhighlight lang="xml">
+___
+</syntaxhighlight>
+<syntaxhighlight lang="xml">
+___
+</syntaxhighlight>
+
 brain example
 -->
 
