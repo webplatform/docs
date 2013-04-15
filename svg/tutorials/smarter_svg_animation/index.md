@@ -382,8 +382,6 @@ that shines a light on a beveled surface:
 
 [[Image:svga_bevel.png]]
 
-<div style="display:inline-block;max-width:45%">
-
 One animation highlights different sides of the element by rotating
 the light source around it. Its
 [[svg/attributes/repeatCount|'''repeatCount''']] is set to
@@ -402,10 +400,6 @@ degrees, it restarts invisibly at '''0'''.
     xlink:href    = "#lightAngleEffect"
 />
 </syntaxhighlight>
-
-</div>
-
-<div style="display:inline-block;max-width:45%">
 
 A second un-synchronized animation raises and lowers the rounded
 surface that makes the element appear beveled. Unlike the previous
@@ -431,11 +425,9 @@ animation repeats.)
 />
 </syntaxhighlight>
 
-</div>
-
-Yet another animation synchronizes with the first, repositioning the
+(Yet another animation synchronizes with the first, repositioning the
 shadow set by [[svg/elements/feOffset|'''feOffset''']] to match the
-angle of the light source.
+angle of the light source.)
 
 ::'''Note:''' As of this writing, Firefox displays these animations in HTML content via the [[css/properties/filter|'''filter''']] CSS property along with the [[css/functions/url|'''url()''']] function.  See [[svg/tutorials/smarter_svg_filters|SVG Filters]] for more information on how to do this. However, there is no clear way to restart these animations when re-applying the filter in the HTML, so it is more appropriate for animations that execute continuously. As a workaround within SVG, toggle CSS classes to apply filters, then use a DOM mutation event such as '''begin = "0s;targetID.DOMAttrModified"''' to restart the animation.
 
@@ -669,7 +661,6 @@ ___
 ==Scripting animations==
 
 ___
-
 
 <!--
 * beginElement()
