@@ -529,6 +529,27 @@ piece. SVG supports interactive mouse, focus, and DOM mutation events.
 
 ==Curved motions==
 
+The example above moves the game piece in a straight line, but instead
+you can move it along the curve of a path. SVG provides an alternative
+[[svg/elements/animateMotion|'''animateMotion''']] element, whose
+[[svg/attributes/path|'''path''']] attribute specifies an element's
+movement relative to its current position. This example moves the
+piece along the highlighted series of arcs, exactly as shown:
+
+<syntaxhighlight lang="xml" highlight="4,8">
+<defs>
+<animateMotion
+    id         = "animDiag"
+    xlink:href = "#piece"
+    begin      = "piece.click"
+    fill       = "freeze"
+    dur        = "3s"
+    path       = "M 0,0 A 1,1 0 0 1 100,-100 A 1,1 0 0 1 200,-200 A 1,1 0 0 1 300,-300"
+/>
+</defs>
+<rect id="board" x="0" y="0" width="800" height="800" stroke="#000" stroke-width="6" fill="url(#chessBoard)"/>
+<circle id="piece" fill="red" cx="150" cy="550" r="40"/>
+</syntaxhighlight>
 
 <div style="display:inline-block">
 [[Image:svga_motionChessBefore.png|300px]]
@@ -550,7 +571,18 @@ piece. SVG supports interactive mouse, focus, and DOM mutation events.
 </div>
 
 
+<syntaxhighlight lang="xml">
 ___
+</syntaxhighlight>
+<syntaxhighlight lang="xml">
+___
+</syntaxhighlight>
+<syntaxhighlight lang="xml">
+___
+</syntaxhighlight>
+<syntaxhighlight lang="xml">
+___
+</syntaxhighlight>
 
 
 <!--
