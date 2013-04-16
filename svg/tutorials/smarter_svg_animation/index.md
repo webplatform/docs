@@ -629,8 +629,8 @@ relative to an arbitrary
 [[svg/attributes/pathLength|'''pathLength''']] value, which helps to
 pace the animation regardless of the path's actual length:
 
-<div style="float:right">
 [[Image:svga_motionText.png:200px]]
+<div style="float:right">
 </div>
 
 <syntaxhighlight lang="xml" highlight="4-6,13,20">
