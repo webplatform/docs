@@ -22,12 +22,14 @@ Find more about the web's history and origins in [[the_history_of_the_web|The hi
 
 The main components of the Web are as follows:
 
-# A web server: This is a computer where web sites are stored, ready for delivery to those who want to look at them
-# Client computers: Users of these computers can use a web browser to '''request''' a web site from a server, at which point it will be sent (a '''response''') to the user's computer and displayed inside the web browser. 
-# A web browser: As indicated above, this is a program installed on your computer that accesses and displays web sites for you, allowing you to interact with the Web.
-# A means of transporting data around the Web: this is generally referred to as a '''transmission protocol''', a system that handles transporting data around the Web.
-# A DNS (Domain Name Server): this is basically like an address book for the Web. The real locations that web sites live at, on web servers, are represented by complicated strings of numbers called '''IP addresses'''. Domain Name Servers associate these addresses with domain names, so they are easier to handle for humans. So for example, the IP address of google.co.uk is 173.194.66.94 — try typing it in and you'll see we're right — but google.co.uk is far easier to remember!
-# Web standards: these are the different types of code that web developers use to create web sites. When a web site is requested from a server by a web browser, the data that is sent back to the web browser will consist of a series of files containing various information such as the text you want to show on the web page, the styles that text should have, etc. This is then read by the web browser, which assembles the files into a complete web page. 
+<ul>
+<li><p>A web server: This is a computer where web sites are stored, ready for delivery to those who want to look at them.</p></li>
+<li><p>Client computers: Users of these computers can use a web browser to '''request''' a web site from a server, at which point it will be sent (a '''response''') to the user's computer and displayed inside the web browser. </p></li>
+<li><p>A web browser: As indicated above, this is a program installed on your computer that accesses and displays web sites for you, allowing you to interact with the Web.</p></li>
+<li><p>A means of transporting data around the Web: this is generally referred to as a '''transmission protocol''', a system that handles transporting data around the Web.</p></li>
+<li><p>A DNS (Domain Name Server): this is basically like an address book for the Web. The real locations that web sites live at, on web servers, are represented by complicated strings of numbers called '''IP addresses'''. Domain Name Servers associate these addresses with domain names, so they are easier to handle for humans. So for example, the IP address of google.co.uk is 173.194.66.94 — try typing it in and you'll see we're right — but google.co.uk is far easier to remember!</p></li>
+<li><p>Web standards: these are the different types of code that web developers use to create web sites. When a web site is requested from a server by a web browser, the data that is sent back to the web browser will consist of a series of files containing various information such as the text you want to show on the web page, the styles that text should have, etc. This is then read by the web browser, which assembles the files into a complete web page. </p></li>
+</ul>
 
 [INSERT IMAGE OF TOWN AND CITY CONNECTED BY ROAD, WITH DELIVERY VAN GOING ALONG ROAD TOWARDS TOWN] 
 
@@ -41,9 +43,10 @@ Read [how_does_the_internet_work|How does the Internet work?] for more informati
 
 Web standards are the technologies that we use to build web pages; there are a number of different ones, but in this short article series we will only really be talking about three:
 
-* Hypertext Markup Language (HTML): This language is used to structure your data and give it meaning. For example, if you wanted to break your content into three paragraphs and a bulleted list. Consider an architectural analogy — if a web page were like a building, then HTML would be like the foundations, brickwork and roof. Having a solid structure is essential to both web pages and buildings.
+<ul>
+<li><p>'''Hypertext Markup Language (HTML)''': This language is used to structure your data and give it meaning. For example, if you wanted to break your content into three paragraphs and a bulleted list. Consider an architectural analogy — if a web page were like a building, then HTML would be like the foundations, brickwork and roof. Having a solid structure is essential to both web pages and buildings.</p>
 
-[INSERT IMAGE OF HTML ELEMENTS AND WHAT THEY CREATE ON THE RENDERED PAGE, SOMETHING LIKE I'VE SHOWN BELOW. ALSO INCLUDE HOUSE OR WALL JUST SHOWING THE BARE ROOF AND BRICKWORK] 
+<p>[INSERT IMAGE OF HTML ELEMENTS AND WHAT THEY CREATE ON THE RENDERED PAGE, SOMETHING LIKE I'VE SHOWN BELOW. ALSO INCLUDE HOUSE OR WALL JUST SHOWING THE BARE ROOF AND BRICKWORK] </p>
 
 <pre>HTML:
 
@@ -54,17 +57,37 @@ Somewhere, an owl hooted.&lt;/p&gt;</pre>
 renders as
 
 =The title of my story=
-It was a dark and stormy night. Somewhere, and owl hooted.
+<p>It was a dark and stormy night. Somewhere, and owl hooted.</p>
+
+<./li>
 
 
+<li><p>'''Cascading Style Sheets (CSS)''': This language is used to style your content and position it on the page. For example, if you wanted to  make the text of your paragraphs red, and move them all downwards by 2 centimeters. In our building analogy, CSS would be like the decorations using to make the building look nice — the plaster, paint, wallpaper, doorhandles and coving.</p>
 
-* Cascading Style Sheets (CSS): This language is used to style your content and position it on the page. For example, if you wanted to  make the text of your paragraphs red, and move them all downwards by 2 centimeters. In our building analogy, CSS would be like the decorations using to make the building look nice — the plaster, paint, wallpaper, doorhandles and coving.
+<p>[INSERT IMAGE OF CSS AND HTML BEING ADDED TOGETHER TO PRODUCE SOME STYLED TEXT, SOMETHING LIKE I'VE SHOWN BELOW. ALSO INCLUDE HOUSE IMAGE THAT BUILDS ON THE LAST ONE, SHOWING THE HOUSE NOW DECORATED WITH PAIN AND NICE COLOURED TILES?] </p>
 
-[INSERT IMAGE OF CSS AND HTML BEING ADDED TOGETHER TO PRODUCE SOME STYLED TEXT, SOMETHING LIKE I'VE SHOWN BELOW. ALSO INCLUDE HOUSE IMAGE THAT BUILDS ON THE LAST ONE, SHOWING THE HOUSE NOW DECORATED WITH PAIN AND NICE COLOURED TILES?] 
+=The title of my story=
+<p>It was a dark and stormy night. Somewhere, and owl hooted.</p>
 
-* JavaScript: This language is used to add dynamic functionality to your web page. So for example, if you wanted to make it so that when you click on each paragraph using the mouse, a pop-up dialog box appears, telling you how many letters each paragraph contains. In our building analogy, JavaScript would be like cool functionality you have inside the house, like the cooker, flatscreen TV, power shower, robot butler...
+<p>+</p>
 
-[INSERT IMAGE OF CSS AND HTML AND JAVASCRIPT BEING ADDED TOGETHER TO PRODUCE SOME STYLED TEXT WITH SOME FUNCTIONALITY, LIKE A POPUP WINDOW OVER THE TOP OF THE PARAGRAPH SHOWING HOW MANY CHARACTERS THE PARAGRAPH CONTAINS. ALSO INCLUDE HOUSE IMAGE THAT BUILDS ON THE LAST ONE, SHOWING THE DECORATED HOUSE WITH SOME COOL FUNCTIONALITY ADDED. HOW ABOUT A SATELLITE DISH ON THE ROOF, AND A WALL MOUNTED TV SEEN THROUGH THE WINDOW?] 
+<pre>CSS:
+
+h1 { color: blue; }
+p { color: red; }</pre>
+
+<p>results in</p>
+
+<h1 style="color: blue">The title of my story</h1>
+<p style="color: red">It was a dark and stormy night. Somewhere, and owl hooted.</p>
+
+</li>
+
+<li><p>'''JavaScript''': This language is used to add dynamic functionality to your web page. So for example, if you wanted to make it so that when you click on each paragraph using the mouse, a pop-up dialog box appears, telling you how many letters each paragraph contains. In our building analogy, JavaScript would be like cool functionality you have inside the house, like the cooker, flatscreen TV, power shower, robot butler...</p></li>
+
+<p>[INSERT IMAGE OF CSS AND HTML AND JAVASCRIPT BEING ADDED TOGETHER TO PRODUCE SOME STYLED TEXT WITH SOME FUNCTIONALITY, LIKE A POPUP WINDOW OVER THE TOP OF THE PARAGRAPH SHOWING HOW MANY CHARACTERS THE PARAGRAPH CONTAINS. ALSO INCLUDE HOUSE IMAGE THAT BUILDS ON THE LAST ONE, SHOWING THE DECORATED HOUSE WITH SOME COOL FUNCTIONALITY ADDED. HOW ABOUT A SATELLITE DISH ON THE ROOF, AND A WALL MOUNTED TV SEEN THROUGH THE WINDOW?] </p>
+</li>
+</ul>
 
 We will expand on these in the next article and get you started with some coding!
 
