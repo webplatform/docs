@@ -727,6 +727,10 @@ example, its [[svg/attributes/attributeType|'''attributeType''']] may
 help clarify that the animation is modifying a '''CSS''' property,
 rather than an '''XML''' attribute assumed as the default:
 
+<div style="float:right">
+[[Image:svga_color.png|200px]]
+</div>
+
 <syntaxhighlight lang="xml" highlight="3-5">
 <animateColor
    attributeName = "fill"
@@ -740,8 +744,6 @@ rather than an '''XML''' attribute assumed as the default:
    id            = "animSkinColor"
 />
 </syntaxhighlight>
-
-[[Image:svga_color.png|200px]]
 
 However, note that SVG color values are implemented as CSS properties,
 which may be animated more easily using CSS-based animation
