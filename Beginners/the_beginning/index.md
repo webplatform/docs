@@ -51,9 +51,9 @@ Web standards are the technologies that we use to build web pages; there are a n
 Somewhere, an owl hooted.&lt;/p&gt;
     |
     | renders as
-    |</pre>
-<p style="font-size: 30px">The title of my story</p>
-<p>It was a dark and stormy night. Somewhere, and owl hooted.</p>
+    |
+<div style="font-size: 30px">The title of my story</div>
+<div>It was a dark and stormy night. Somewhere, and owl hooted.</div></pre>
 
 
 
