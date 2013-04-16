@@ -1,5 +1,6 @@
 {{Page_Title|How does the Internet work?}}
 {{Flags
+|Checked_Out=No
 }}
 {{API_Name}}
 {{Summary_Section|Every so often, you get offered a behind-the-scenes look at the cogs and fan belts behind the action. Today’s your lucky day. In this article we'll usher you behind the scenes of one of the hottest technologies that you might already be familiar with: the World Wide Web. Cue theme music.
@@ -89,6 +90,7 @@ We won’t be covering dynamic languages any further in this course, but I have 
 * [http://www.rubyonrails.org/screencasts Rails screencasts]
 * PHP: Powers, David (2006), PHP Solutions: Dynamic web development made easy, friends of ED.
 * [http://www.php.net/docs.php PHP Online documentation]
+* [http://www.remotestaff.com.au/rs/candidates/web_development/php_developers/ Hire PHP Developers]
 * ASP.NET: Lorenz, Patrick. (2003). ASP.NET 2.0 Revealed.  Apress.
 * ASP.NET: [[http://asp.net online ASP.NET documentation and tutorials.]]
 
