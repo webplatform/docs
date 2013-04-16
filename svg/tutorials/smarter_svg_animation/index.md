@@ -661,6 +661,10 @@ pace the animation regardless of the path's actual length:
 
 ==Animating transforms==
 
+<div style="float:right">
+[[Image:svga_transform.png|200px]]
+</div>
+
 Transforms specify not just a single value, but a combination of
 functional values. To animate them, use the specialized
 [[svg/elements/animateTransform|'''animateTransform''']] element,
@@ -669,10 +673,6 @@ just like the [[svg/elements/animate|'''animate''']] element, but the
 additional [[svg/attributes/type|'''type''']] attribute specifies the
 transform function to be animated.  This example moves a graphic
 diagonally:
-
-<div style="float:right">
-[[Image:svga_transform.png|200px]]
-</div>
 
 <syntaxhighlight lang="xml" highlight="3">
 <animateTransform
