@@ -800,10 +800,8 @@ often control them via JavaScript.
 <syntaxhighlight lang="javascript">
 function togglePlay() {
     var root = document.querySelector('svg');
-    root.animationsPaused()
-        ? root.unpauseAnimations()
-        : root.pauseAnimations()
-};
+    root.animationsPaused() ? root.unpauseAnimations() : root.pauseAnimations();
+}
 </syntaxhighlight>
 
 <!--
