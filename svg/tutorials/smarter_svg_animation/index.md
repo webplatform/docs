@@ -710,11 +710,7 @@ writing, animating transforms on entire patterns
 ([[svg/attributes/patternTransform|'''patternTransform''']])
 does not work reliably in many browsers.
 
-<div style="float:right">
-
 [[Image:svga_transform.png|200px]]
-
-</div>
 
 <!--
 
