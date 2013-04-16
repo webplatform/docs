@@ -2,7 +2,12 @@
 {{Flags
 |Checked_Out=No
 }}
-{{Summary_Section|The very first part of our beginner's material gives you some important background on how everything works, and gets you set up and ready to go with web site building.}}
+{{Summary_Section|The very first part of our beginner's material:
+
+* Explains what the Web is and how it works
+* Describes what web standards are, and which web technologies you'll be learning about in this course
+* Points you to the software you'll need to download in order to complete the rest of the course
+}}
 {{Basic Page}}
 ==Who is this course for?==
 
