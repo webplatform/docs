@@ -1,7 +1,7 @@
 {{Page_Title|OAuth: an open standard for authentication}}
 {{Flags
-|High-level issues=Stub, Undescriptive Title, Needs Flags, Needs Topics
-|Checked_Out=Yes
+|High-level issues=Stub, Needs Flags, Needs Topics
+|Checked_Out=No
 }}
 {{API_Name}}
 {{Summary_Section}}
@@ -14,7 +14,9 @@
 {{Related_Specifications_Section
 |Specifications=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Topic_clusters=Security
+}}
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
