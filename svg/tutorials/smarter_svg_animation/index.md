@@ -499,7 +499,7 @@ the piece three squares over to the right:
 
 </div>
 
-<syntaxhighlight lang="xml" highlight="4,5,8,11-13">
+<syntaxhighlight lang="xml" highlight="4,5,8,11-13,15">
 <animate
     id            = "moveRight"
     attributeName = "cx"
@@ -514,6 +514,7 @@ the piece three squares over to the right:
     additive      = "sum"
     accumulate    = "sum"
     xlink:href    = "#piece"
+    restart       = "whenNotActive"
 />
 </syntaxhighlight>
 
@@ -532,6 +533,10 @@ upon the previous value. In this case, it proceeds from 150 to 250,
 Notice also that the [[svg/attributes/begin|'''begin''']] does not
 specify a time value, but instead responds when users click on the
 piece. SVG supports interactive mouse, focus, and DOM mutation events.
+To prevent problems resulting from such interaction, setting the
+animation's [[svg/attributes/restart|'''restart''']] attribute to
+'''whenNotActive''' prevents it from restarting if it is already
+executing.
 
 [http://letmespellitoutforyou.com/samples/svg/anim_chess.svg View this animation]
 
@@ -794,10 +799,11 @@ different text once a separate animation has completed:
 ==Scripting animations==
 
 This guide shows various ways to control SVG animations, and suggests
-opportunities to pair them with CSS animations, but applications must
-often control them via JavaScript. For an application to play back an
-animation, call [[svg/methods/beginElement|'''beginElement()''']] on
-the relevant animation element:
+opportunities to pair them with CSS animations. To wrap up, this
+section shows how an application might control them with
+JavaScript. To play back an animation, call
+[[svg/methods/beginElement|'''beginElement()''']] on the relevant
+animation element:
 
 <syntaxhighlight lang="javascript">
 function play() {
@@ -817,17 +823,12 @@ Calling [[svg/methods/endElement|'''endElement()''']] stops a
 currently running animation, returning the graphic back to its
 original position, or halting it if the animation's
 [[svg/attributes/fill|'''fill''']] attribute is set to '''freeze'''.
-
 Both of these methods are equivalent to running
 [[svg/methods/beginElementAt|'''beginElementAt(0)''']] or
 [[svg/methods/endElementAt|'''endElementAt(0)''']]. Any other time
 value specifies a delay: '''beginElementAt(2)''' starts an animation
 after two seconds, and '''endElementAt(2)''' waits the same amount of
 time before stopping it.
-
-Setting the animation's [[svg/attributes/restart|'''restart''']]
-attribute to '''whenNotActive''' prevents it from restarting
-while it is in the middle of execution.
 
 SVG also provides a mechanism to pause and resume playback, but it
 applies to all animations that are currently running. The following
