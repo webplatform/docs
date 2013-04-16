@@ -677,8 +677,8 @@ function to be animated.  This example moves a graphic diagonally:
 />
 </syntaxhighlight>
 
-The element to be animated must also not specify other transforms.  If
-you want to animate the rotation in the example on the left below, you
+The element to be animated must not specify other transforms.  If you
+want to animate the rotation in the example on the left below, you
 need to split out the translation into a different element as shown on
 the right:
 
@@ -710,7 +710,11 @@ writing, animating transforms on entire patterns
 ([[svg/attributes/patternTransform|'''patternTransform''']])
 does not work reliably in many browsers.
 
-[[Image:svga_transform.png]]
+<div style="float:right">
+
+[[Image:svga_transform.png|200px]]
+
+</div>
 
 <!--
 
