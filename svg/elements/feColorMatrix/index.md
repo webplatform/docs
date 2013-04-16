@@ -2,7 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic
 |Content=Incomplete, Cleanup, Compatibility Incomplete, Examples Needed, Examples Best Practices
-|Checked_Out=Yes
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -55,7 +55,6 @@ Example of a feColorMatrix with type="saturate"
   <image x="10" y="10" width="280" height="350" preserveAspectRatio="true" xlink:href="http://upload.wikimedia.org/wikipedia/commons/8/82/Siberian-larch.jpg"/>
   <image x="310" y="10" width="280" height="350" preserveAspectRatio="true" filter="url(#saturate)" xlink:href="http://upload.wikimedia.org/wikipedia/commons/8/82/Siberian-larch.jpg"/>
 </svg>​
-
 |LiveURL=http://code.webplatform.org/gist/5303882
 }}{{Single Example
 |Language=Other
@@ -171,26 +170,6 @@ Example of a feColorMatrix with type="matrix" showing a greyscale with green cha
 
 ***
 |LiveURL=http://code.webplatform.org/gist/5304095
-}}{{Single Example
-|Language=Other
-|Description=[[File:solarize2.png]] 
-
-Example of a feColorMatrix with type="matrix" showing a a solarization effect. Each color channel is zero'd and replaced with the average of the others.
-|Code=<svg width="640" height="550" viewBox="0 0 640 550">
-<defs>
-    <filter id="matrix-solarize">
-      <feColorMatrix in="SourceGraphic" type="matrix" values="-1 .5 .5 0 0 
-                                                              .5 -1 .5 0 0 
-                                                              .5 .5 -1 0 0
-                                                              0 0 0 1 0"/>
-   </filter>
-  </defs>
-  <image x="10" y="10" width="280" height="350" preserveAspectRatio="true" xlink:href="http://upload.wikimedia.org/wikipedia/commons/8/82/Siberian-larch.jpg"/>
-  <image x="310" y="10" width="280" height="350" preserveAspectRatio="true" filter="url(#matrix-solarize)" xlink:href="http://upload.wikimedia.org/wikipedia/commons/8/82/Siberian-larch.jpg"/>
-</svg>​
-
-***
-|LiveURL=http://code.webplatform.org/gist/5304157
 }}{{Single Example
 |Language=Other
 |Description=[[File:invert.png]] 
