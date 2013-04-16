@@ -45,14 +45,14 @@ Web standards are the technologies that we use to build web pages; there are a n
 
 [INSERT IMAGE OF HTML ELEMENTS AND WHAT THEY CREATE ON THE RENDERED PAGE, SOMETHING LIKE I'VE SHOWN BELOW. ALSO INCLUDE HOUSE OR WALL JUST SHOWING THE BARE ROOF AND BRICKWORK] 
 
-HTML:
+<pre>HTML:
 
 &lt;h1&gt;The title of my story&lt;/h1&gt;
 &lt;p&gt;It was a dark and stormy night.
-Somewhere, an owl hooted.&lt;/p&gt;
-|
-| renders as
-|
+Somewhere, an owl hooted.&lt;/p&gt;</pre>
+
+renders as
+
 =The title of my story=
 It was a dark and stormy night. Somewhere, and owl hooted.
 
