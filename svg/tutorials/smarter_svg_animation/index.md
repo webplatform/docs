@@ -715,16 +715,74 @@ work reliably in many browsers.
 
 [[Image:svga_transform.png|200px]]
 
-<!--
-
 ==Color and other properties==
 
-___
+To animate color values, SVG provides another specialized
+[[svg/elements/animateColor|'''animateColor''']] element. In this
+example, its [[svg/attributes/attributeType|'''attributeType''']] may
+help clarify that the animation is modifying a '''CSS''' property,
+rather than the default '''XML''' attribute:
 
-* animateColor
-* instead of via CSS?
-* attributeType="CSS"
-* "set" discrete values
+<syntaxhighlight lang="xml" highlight="3">
+<animateColor
+   attributeName = "fill"
+   attributeType = "CSS"
+   from          = "#E1BC9B"
+   to            = "#996600"
+   fill          = "freeze"
+   begin         = "0s"
+   dur           = "5s"
+   xlink:href    = "#tileRectSkin"
+   id            = "animSkinColor"
+/>
+</syntaxhighlight>
+
+[[Image:svga_color.png|200px]]
+
+However, note that SVG color values are implemented as CSS properties,
+which may be animated more easily using CSS-based animation
+techniques.  For example, toggling classes might transition the skin
+color in the example above:
+
+<syntaxhighlight lang="css">
+body {
+    transition         : all 1s;
+    -webkit-transition : all 1s;
+    -moz-transition    : all 1s;
+}
+.white { fill: #E1BC9B }
+.black { fill: #996600 }
+</syntaxhighlight>
+
+Many SVG attributes and properties that specify arbitrary string
+values cannot be animated, but you can still dynamically modify them
+using SVG's [[svg/elements/set|'''set''']] element. It's a shorthand
+that can be triggered like any animation, but executes immediately on
+any value. In this example, a [[svg/elements/tref|'''tref''']] element
+draws in text from a ''label1'' object, which the
+[[svg/elements/set|'''set''']] replaces with ''label2'' to display
+different text once a separate animation has completed:
+
+<syntaxhighlight lang="xml" highlight="3,5,12">
+<defs>
+<set
+   attributeName = "xlink:href"
+   xlink:href    = "#label"
+   to            = "#label2"
+   begin         = "animSkinColor.end"
+/>
+<text id="label1">Animation in progress...</text>
+<text id="label2">Animation complete!</text>
+</defs>
+<text x="10" y="10" transform="translate(170,10) rotate(50)">
+  <tref id="label" xlink:href="#label1"/>
+</text>
+</syntaxhighlight>
+
+[http://letmespellitoutforyou.com/samples/svg/anim_color.svg View these combined animations]
+
+
+<!--
 
 ==Scripting animations==
 
