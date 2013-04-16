@@ -658,7 +658,12 @@ pace the animation regardless of the path's actual length:
 
 ==Animating transforms==
 
-SVG features a 
+Since transform values can specify a combination of functions, you
+need to use the alternative
+[[svg/elements/animateTransform|'''animateTransform''']] element to
+clarify what is being animated. The additional
+[[svg/attributes/type|'''type''']] attribute specifies the transform
+function to be animated.  This example moves a graphic diagonally:
 
 <syntaxhighlight lang="xml" highlight="3">
 <animateTransform
@@ -672,13 +677,42 @@ SVG features a
 />
 </syntaxhighlight>
 
+The element to be animated must also not specify other transforms.  If
+you want to animate the rotation in the example on the left below, you
+need to split out the translation into a different element as shown on
+the right:
+
+<div style="display:inline-block">
+
+<syntaxhighlight lang="xml">
+<g transform="translate(10,10) rotate(-90)">
+  <use xlink:href="#tileSquare" />
+</g>
+</syntaxhighlight>
+
+</div>
+
+<div style="display:inline-block">
+
+<syntaxhighlight lang="xml">
+<g transform="translate(10,10)">
+  <g id="pivot" transform="rotate(-90)">
+    <use xlink:href="#tileSquare" />
+  </g>
+</g>
+</syntaxhighlight>
+
+</div>
+
+[http://letmespellitoutforyou.com/samples/svg/anim_transform.svg View this animation]
+for an example of transforms on elements within a pattern. As of this
+writing, animating transforms on entire patterns
+([[svg/attributes/patternTransform|'''patternTransform''']])
+does not work reliably in many browsers.
+
 [[Image:svga_transform.png]]
 
 <!--
-
-<syntaxhighlight lang="xml">
-___
-</syntaxhighlight>
 
 brain example
 
