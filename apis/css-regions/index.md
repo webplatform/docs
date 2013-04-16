@@ -5,10 +5,7 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Programmatic interface to content that flows through a series of chained ''region'' elements, as specified by 
-[[css/properties/flow-into|'''flow-into''']] and 
-[[css/properties/flow-from|'''flow-from''']] CSS properties.
-}}
+{{Summary_Section|Programmatic interface to content that flows through a series of chained ''region'' elements, as specified by  [[css/properties/flow-into|'''flow-into''']] and [[css/properties/flow-from|'''flow-from''']] CSS properties.}}
 {{API_Listing|Query=[[Category:CSS-Regions]][[Category:API_Objects]]
 |Use_page_title=Yes
 |List_all_subpages=No
