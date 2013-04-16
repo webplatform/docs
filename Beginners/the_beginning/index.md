@@ -18,7 +18,7 @@ The Web is a global network of computers on which content can be stored, and acc
   
 The technology that the Web runs on top of has its roots in an old US military project from the 1960s called ARPANET, but the Web really came into existance when Tim Berners-Lee, generally credited as being the creator of the Web, created a document management system in the early 90s in which you could put links between documents and add other features besides. It also included a central computer (known as a server) for serving the documents to other computers in the network, and a program for displaying the documents to the system's users (which was in effect the world's first Web browser — called WorldWideWeb).
 
-Find more about the web's history and origins in [[the_history_of_the_web|The history of the Web]]
+Find more about the web's history and origins in [[concepts/the history of the web|The history of the Web]]
 
 The main components of the Web are as follows:
 
@@ -37,7 +37,7 @@ Let's look at an analogy, to make this easier. Imagine the Web as being like a s
 
 This may sound complicated, but most of this is done transparently, without you having to worry about it. As a beginning web developer, the only part you have to worry about is the Web standards.
 
-Read [how_does_the_internet_work|How does the Internet work?] for more information.
+Read [[concepts/how does the internet work|How does the Internet work?]] for more information.
 
 ==What are web standards?==
 
@@ -109,7 +109,7 @@ paragraph.onclick = function() {
 
 We will expand on these in the next article and get you started with some coding!
 
-Read [the_web_standards_model|The web standards model] for more details on the why and what of web standards.
+Read [[concepts/the web standards model|The web standards model]] for more details on the why and what of web standards.
 
 
 ==The tools of the trade==
