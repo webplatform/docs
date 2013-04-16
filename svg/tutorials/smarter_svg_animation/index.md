@@ -795,30 +795,52 @@ different text once a separate animation has completed:
 
 This guide shows various ways to control SVG animations, and suggests
 opportunities to pair them with CSS animations, but applications must
-often control them via JavaScript.
+often control them via JavaScript. For an application to play back an
+animation, call [[svg/methods/beginElement|'''beginElement()''']] on
+the relevant animation element:
 
 <syntaxhighlight lang="javascript">
-function togglePlay() {
-    var root = document.querySelector('svg');
-    root.animationsPaused() ? root.unpauseAnimations() : root.pauseAnimations();
+function play() {
+    document.querySelector('animate').beginElement();
 }
 </syntaxhighlight>
 
-<!--
+SVG documents keep track of the number of seconds they have been
+running, available via the root [[svg/elements/svg|'''svg''']]
+element's [[svg/methods/getCurrentTime|'''getCurrentTime()''']]
+method. If an animation is set to begin at '''0s''', it executes when
+the SVG loads. Calling
+[[svg/methods/beginElement|'''beginElement()''']] restarts the clock
+for the specified animation.
 
+Calling [[svg/methods/endElement|'''endElement()''']] stops a
+currently running animation, returning the graphic back to its
+original position, or halting it if the animation's
+[[svg/attributes/fill|'''fill''']] attribute is set to '''freeze'''.
 
-___
+Both of these methods are equivalent to running
+[[svg/methods/beginElementAt|'''beginElementAt(0)''']] or
+[[svg/methods/endElementAt|'''endElementAt(0)''']]. Any other time
+value specifies a delay: '''beginElementAt(2)''' starts an animation
+after two seconds, and '''endElementAt(2)''' waits the same amount of
+time before stopping it.
 
-* beginElement()
-* beginElementAt(tv)
+Setting the animation's [[svg/attributes/restart|'''restart''']]
+attribute to '''whenNotActive''' prevents it from restarting
+while it is in the middle of execution.
 
-* getCurrentTime()
-* getCurrentTime()
+SVG also provides a mechanism to pause and resume playback, but it
+applies to all animations that are currently running. The following
+toggles playback:
 
-* restart = whenNotActive
-
-
--->
+<syntaxhighlight lang="javascript">
+function pausePlayAll() {
+    var root = document.querySelector('svg');
+    root.animationsPaused() 
+        ? root.unpauseAnimations() 
+        : root.pauseAnimations();
+}
+</syntaxhighlight>
 
 }}
 {{Notes_Section}}
