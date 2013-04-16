@@ -57,7 +57,7 @@ Somewhere, an owl hooted.&lt;/p&gt;</pre>
 renders as
 
 =The title of my story=
-<p>It was a dark and stormy night. Somewhere, and owl hooted.</p>
+<p>It was a dark and stormy night. Somewhere, an owl hooted.</p>
 
 <./li>
 
@@ -67,7 +67,7 @@ renders as
 <p>[INSERT IMAGE OF CSS AND HTML BEING ADDED TOGETHER TO PRODUCE SOME STYLED TEXT, SOMETHING LIKE I'VE SHOWN BELOW. ALSO INCLUDE HOUSE IMAGE THAT BUILDS ON THE LAST ONE, SHOWING THE HOUSE NOW DECORATED WITH PAIN AND NICE COLOURED TILES?] </p>
 
 =The title of my story=
-<p>It was a dark and stormy night. Somewhere, and owl hooted.</p>
+<p>It was a dark and stormy night. Somewhere, an owl hooted.</p>
 
 <p>+</p>
 
@@ -79,13 +79,31 @@ p { color: red; }</pre>
 <p>results in</p>
 
 <h1 style="color: blue">The title of my story</h1>
-<p style="color: red">It was a dark and stormy night. Somewhere, and owl hooted.</p>
+<p style="color: red">It was a dark and stormy night. Somewhere, an owl hooted.</p>
 
 </li>
 
 <li><p>'''JavaScript''': This language is used to add dynamic functionality to your web page. So for example, if you wanted to make it so that when you click on each paragraph using the mouse, a pop-up dialog box appears, telling you how many letters each paragraph contains. In our building analogy, JavaScript would be like cool functionality you have inside the house, like the cooker, flatscreen TV, power shower, robot butler...</p></li>
 
 <p>[INSERT IMAGE OF CSS AND HTML AND JAVASCRIPT BEING ADDED TOGETHER TO PRODUCE SOME STYLED TEXT WITH SOME FUNCTIONALITY, LIKE A POPUP WINDOW OVER THE TOP OF THE PARAGRAPH SHOWING HOW MANY CHARACTERS THE PARAGRAPH CONTAINS. ALSO INCLUDE HOUSE IMAGE THAT BUILDS ON THE LAST ONE, SHOWING THE DECORATED HOUSE WITH SOME COOL FUNCTIONALITY ADDED. HOW ABOUT A SATELLITE DISH ON THE ROOF, AND A WALL MOUNTED TV SEEN THROUGH THE WINDOW?] </p>
+
+<h1 style="color: blue">The title of my story</h1>
+<p style="color: red">It was a dark and stormy night. Somewhere, an owl hooted.</p>
+
+<p>+</p>
+
+<pre>JavaScript:
+
+var paragraph = document.getElementsByTagName('p')[0];
+paragraph.onclick = function() {
+  alert("The length of this paragraph is " + paragraph.innerHTML.length + " characters.");
+}</pre>
+
+<p>results in</p>
+
+<h1 style="color: blue">The title of my story</h1>
+<p style="color: red" onclick="alert("The length of this paragraph is " + this.innerHTML.length + " characters.");">It was a dark and stormy night. Somewhere, an owl hooted.</p>
+
 </li>
 </ul>
 
