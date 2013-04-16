@@ -629,6 +629,10 @@ relative to an arbitrary
 [[svg/attributes/pathLength|'''pathLength''']] value, which helps to
 pace the animation regardless of the path's actual length:
 
+<div style="float:right">
+[[Image:svga_motionText.png:200px]]
+</div>
+
 <syntaxhighlight lang="xml" highlight="4-6,13,20">
 <defs>
 <animate
@@ -652,8 +656,6 @@ pace the animation regardless of the path's actual length:
    pathLength = "1000"
    />
 </syntaxhighlight>
-
-[[Image:svga_motionText.png]]
 
 [http://letmespellitoutforyou.com/samples/svg/anim_motionText.svg View this animation]
 
@@ -715,15 +717,15 @@ work reliably in many browsers.
 
 [[Image:svga_transform.png|200px]]
 
-==Color and other properties==
+==Color properties and other values==
 
 To animate color values, SVG provides another specialized
 [[svg/elements/animateColor|'''animateColor''']] element. In this
 example, its [[svg/attributes/attributeType|'''attributeType''']] may
 help clarify that the animation is modifying a '''CSS''' property,
-rather than the default '''XML''' attribute:
+rather than an '''XML''' attribute assumed as the default:
 
-<syntaxhighlight lang="xml" highlight="3">
+<syntaxhighlight lang="xml" highlight="3-5">
 <animateColor
    attributeName = "fill"
    attributeType = "CSS"
@@ -754,11 +756,15 @@ body {
 .black { fill: #996600 }
 </syntaxhighlight>
 
+(The [[svg/tutorials/smarter_svg_overview|SVG grand tour]] discusses
+how to apply CSS properties to [[svg/elements/use|'''use''']]
+instances, which are necessary for more complex graphics.)
+
 Many SVG attributes and properties that specify arbitrary string
-values cannot be animated, but you can still dynamically modify them
-using SVG's [[svg/elements/set|'''set''']] element. It's a shorthand
-that can be triggered like any animation, but executes immediately on
-any value. In this example, a [[svg/elements/tref|'''tref''']] element
+values cannot be animated at all, but you can still dynamically modify
+them using the [[svg/elements/set|'''set''']] shorthand element. It
+can be triggered like any animation, but executes immediately on any
+value. In this example, a [[svg/elements/tref|'''tref''']] element
 draws in text from a ''label1'' object, which the
 [[svg/elements/set|'''set''']] replaces with ''label2'' to display
 different text once a separate animation has completed:
