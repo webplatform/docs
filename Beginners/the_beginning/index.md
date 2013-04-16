@@ -52,8 +52,8 @@ Somewhere, an owl hooted.&lt;/p&gt;
     |
     | renders as
     |
-<p style="font-size: 30px">The title of my story</p>
-<p>It was a dark and stormy night. Somewhere, and owl hooted.</p></pre>
+=The title of my story=
+It was a dark and stormy night. Somewhere, and owl hooted.</pre>
 
 
 
