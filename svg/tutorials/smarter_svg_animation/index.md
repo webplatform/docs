@@ -791,16 +791,35 @@ different text once a separate animation has completed:
 
 [http://letmespellitoutforyou.com/samples/svg/anim_color.svg View these combined animations]
 
+==Scripting animations==
+
+This guide shows various ways to control SVG animations, and suggests
+opportunities to pair them with CSS animations, but applications must
+often control them via JavaScript.
+
+<syntaxhighlight lang="javascript">
+function togglePlay() {
+    var root = document.querySelector('svg');
+    root.animationsPaused()
+        ? root.unpauseAnimations()
+        : root.pauseAnimations()
+};
+</syntaxhighlight>
 
 <!--
 
-==Scripting animations==
 
 ___
 
 * beginElement()
 * beginElementAt(tv)
+
+* getCurrentTime()
+* getCurrentTime()
+
 * restart = whenNotActive
+
+
 -->
 
 }}
