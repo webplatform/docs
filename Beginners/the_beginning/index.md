@@ -50,9 +50,9 @@ HTML:
 &lt;h1&gt;The title of my story&lt;/h1&gt;
 &lt;p&gt;It was a dark and stormy night.
 Somewhere, an owl hooted.&lt;/p&gt;
-    |
-    | renders as
-    |
+|
+| renders as
+|
 =The title of my story=
 It was a dark and stormy night. Somewhere, and owl hooted.
 
