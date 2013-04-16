@@ -659,12 +659,14 @@ pace the animation regardless of the path's actual length:
 
 ==Animating transforms==
 
-Since transform values can specify a combination of functions, you
-need to use the alternative
-[[svg/elements/animateTransform|'''animateTransform''']] element to
-clarify which function is being animated. The additional
-[[svg/attributes/type|'''type''']] attribute specifies the transform
-function to be animated.  This example moves a graphic diagonally:
+Transforms specify not just a single value, but a combination of
+functional values. To animate them, use the specialized
+[[svg/elements/animateTransform|'''animateTransform''']] element,
+which clarifies which transform function you want to animate. It works
+just like the [[svg/elements/animate|'''animate''']] element, but the
+additional [[svg/attributes/type|'''type''']] attribute specifies the
+transform function to be animated.  This example moves a graphic
+diagonally:
 
 <syntaxhighlight lang="xml" highlight="3">
 <animateTransform
@@ -678,9 +680,9 @@ function to be animated.  This example moves a graphic diagonally:
 />
 </syntaxhighlight>
 
-The element to be animated must not specify other transforms.  If you
-want to animate the rotation in the example on the left below, you
-need to place the translation in a different element as shown on
+The element to be animated must not specify other transforms.  For
+example, if you want to animate the rotation shown on the left below,
+you need to place the translation in a different element as shown on
 the right:
 
 <div style="display:inline-block">
@@ -707,8 +709,8 @@ the right:
 
 [http://letmespellitoutforyou.com/samples/svg/anim_transform.svg View this animation]
 for an example of transforms within a pattern tile. As of this
-writing, animating transforms on entire patterns
-([[svg/attributes/patternTransform|'''patternTransform''']]) does not
+writing, animating transforms on entire patterns (using
+[[svg/attributes/patternTransform|'''patternTransform''']]) does not
 work reliably in many browsers.
 
 [[Image:svga_transform.png|200px]]
