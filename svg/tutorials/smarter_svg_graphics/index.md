@@ -6,11 +6,7 @@
 {{Byline}}
 {{Summary_Section|This guide shows you how to embed images within SVG and apply various graphics effects such as gradients, patterns, clipping paths, and masks.}}
 {{Tutorial
-|Content=
-
-
-
-==Gradients==
+|Content===Gradients==
 
 SVG's support for gradients is similar to CSS's. Two kinds of gradient
 are available: the
@@ -255,16 +251,9 @@ increasing the value to 1.5 magnifies the pattern:
 
 Other transforms allow you to reorient and reshape the pattern. In
 this example, ''scale(1.5) skewY(15) rotate(30)'' boosts the pattern's
-size, shears it slightly into a diamond shape, and spins it. The
-second version performs similar transforms within the repeating tile
-used for the pattern:
+size, shears it slightly into a diamond shape, and spins it:
 
-<div style="display:inline-block">
 [[Image:svg_gfx_pattern_skewrot.png|300px]]
-</div>
-<div style="display:inline-block">
-[[Image:svg_gfx_pattern_skewrot2.png|300px]]
-</div>
 
 [http://letmespellitoutforyou.com/samples/svg/pattern_fill.svg View the SVG file here].
 
@@ -378,7 +367,6 @@ Color and Painting properties:
 ==Compositing options==
 
 ...
-
 }}
 {{Notes_Section}}
 {{Compatibility_Section
