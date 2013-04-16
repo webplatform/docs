@@ -10,9 +10,9 @@
 {{Tutorial
 |Content=Interfaces become more vibrant once you add animation
 effects.  This guide focuses on SVG's built-in animation features,
-which derive from the SMIL web standard (''Synchronized Multimedia
-Integration Language'').  As discussed in the
-[[svg/tutorials/smarter_svg_overview|SVG grand tour]], many SVG
+which derive from the SMIL web standard
+(''Synchronized Multimedia Integration Language'').  As discussed in
+the [[svg/tutorials/smarter_svg_overview|SVG grand tour]], many SVG
 attributes are actually implemented as CSS ''properties'', and thus
 respond to CSS [[tutorials/css_transitions|transitions]] and
 [[tutorials/css_animations|keyframe animations]]. The techniques
@@ -144,7 +144,7 @@ By itself, the [[svg/attributes/values|'''values''']] specification
 would still result in an awkward-looking animation. The initial
 transition between '''1000''' and '''0''' executes ''very'' quickly,
 compared to which the subsequent transitions seem much too slow. The
-[[svg/attributes/keyTimes|'''keyTimes''']], fixes this by specifying
+[[svg/attributes/keyTimes|'''keyTimes''']] fixes this by specifying
 milestones between 0 and 1 at which each frame appears. In this case,
 the initial transition that slides the text in takes 80% of the total
 duration, rather than the more brisk 25% default range between the
@@ -442,7 +442,7 @@ angle of the light source.)
 
 [http://letmespellitoutforyou.com/samples/svg/filter_bevel.svg View this animation]
 
-::'''Note:''' As of this writing, only Firefox displays these animations in HTML content via the [[css/properties/filter|'''filter''']] CSS property.  See [[svg/tutorials/smarter_svg_filters|SVG Filters]] for more information on how to do this. However, there is no clear way to restart these animations when re-applying the filter in the HTML, so it is more appropriate for animations that execute continuously. As a workaround within SVG, toggle CSS classes to apply filters, then use a DOM mutation event such as '''begin = "0s;targetID.DOMAttrModified"''' to restart the animation.
+::'''Note:''' As of this writing, only Firefox displays these animations in HTML content via the [[css/properties/filter|'''filter''']] CSS property.  See [[svg/tutorials/smarter_svg_filters|SVG Filters]] for more information on how to do this. However, there is no clear way to restart these animations when re-applying the filter in the HTML, so it is more appropriate for animations that execute continuously. As a workaround within SVG, toggle CSS classes to apply filters, then use a DOM mutation event such as '''begin = "targetID.DOMAttrModified"''' to restart the animation.
 
 You can set [[svg/attributes/repeatCount|'''repeatCount''']] to any
 positive integer.  Each time an animation repeats, it produces a
