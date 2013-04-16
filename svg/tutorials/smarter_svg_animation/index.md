@@ -656,15 +656,26 @@ pace the animation regardless of the path's actual length:
 
 [http://letmespellitoutforyou.com/samples/svg/anim_motionText.svg View this animation]
 
-<!--
-
 ==Animating transforms==
 
-___
+SVG features a 
 
-<syntaxhighlight lang="xml">
-___
+<syntaxhighlight lang="xml" highlight="3">
+<animateTransform
+   attributeName = "transform"
+   type          = "translate"
+   from          = "0,0"
+   to            = "10,10"
+   begin         = "0s"
+   dur           = "1s"
+   xlink:href    = "#shiftDiagonal"
+/>
 </syntaxhighlight>
+
+[[Image:svga_transform.png]]
+
+<!--
+
 <syntaxhighlight lang="xml">
 ___
 </syntaxhighlight>
