@@ -562,10 +562,10 @@ semicircle curves to destination points up and to the right.
 <circle id="piece" fill="red" cx="150" cy="550" r="40"/>
 </syntaxhighlight>
 
-<div style="display:inline-block">
+<div style="display:inline-block;width:45%">
 [[Image:svga_motionChessBefore.png|300px]]
 </div>
-<div style="display:inline-block">
+<div style="display:inline-block;width:45%">
 [[Image:svga_motionChessAfter.png|300px]]
 </div>
 
@@ -670,6 +670,10 @@ additional [[svg/attributes/type|'''type''']] attribute specifies the
 transform function to be animated.  This example moves a graphic
 diagonally:
 
+<div style="float:right">
+[[Image:svga_transform.png|200px]]
+</div>
+
 <syntaxhighlight lang="xml" highlight="3">
 <animateTransform
    attributeName = "transform"
@@ -714,8 +718,6 @@ for an example of transforms within a pattern tile. As of this
 writing, animating transforms on entire patterns (using
 [[svg/attributes/patternTransform|'''patternTransform''']]) does not
 work reliably in many browsers.
-
-[[Image:svga_transform.png|200px]]
 
 ==Color properties and other values==
 
