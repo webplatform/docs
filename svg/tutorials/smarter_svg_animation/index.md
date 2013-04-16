@@ -687,9 +687,9 @@ diagonally:
 </syntaxhighlight>
 
 The element to be animated must not specify other transforms.  For
-example, if you want to animate the rotation shown on the left below,
-you need to place the translation in a different element as shown on
-the right:
+example, if you want to animate the '''rotate()''' function shown on
+the left below, you need to place the accompanying '''translate()'''
+in a different element as shown on the right:
 
 <div style="display:inline-block">
 
