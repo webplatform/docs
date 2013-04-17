@@ -550,22 +550,25 @@ inline font changes:
 </text>
 </syntaxhighlight>
 <syntaxhighlight lang="css">
-.emphasis { font-style: italic }
+.emphasis {
+    font-style      : italic;
+    text-decoration : underline;
+}
 </syntaxhighlight>
 
 [[Image:svg_textSpan.png|300px]]
 
-You can [[svg/attributes/rotate|'''rotate''']] each character of text,
-or displace them with [[svg/attributes/dx|'''dx''']] and
-[[svg/attributes/dy|'''dy''']] attributes. This example uses
-[[svg/attributes/dy|'''dy''']] to move text up to a superscript
-position, then back down to its original baseline:
+This example uses the [[svg/attributes/dy|'''dy''']] attribute to move
+text upward to a superscript position and then back down to its
+original baseline, and [[svg/attributes/rotate|'''rotate''']] to spin
+each character of text.  (Applying [[svg/attributes/dx|'''dx''']]
+likewise would displace text horizontally.)
 
 <syntaxhighlight lang="xml">
 <text x="100" y="50">The quick brown fox</text>
 <text x="100" y="80">
   jumped
-  <tspan rotate="-20" dy="-5" class="emphasis">over</tspan>
+  <tspan rotate="-20" dy="-5">over</tspan>
   <tspan dy="5">the lazy dog.</tspan>
 </text>
 </syntaxhighlight>
