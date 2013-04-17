@@ -1,9 +1,8 @@
 {{Page_Title|SVG basic shapes and text}}
-{{Flags
-|High-level issues=Stub
-|Checked_Out=Yes
+{{Flags}}
+{{Byline
+|Name=Mike Sierra
 }}
-{{Byline}}
 {{Summary_Section|This guide introduces SVG's basic graphic elements, from simple lines and shapes to complex polygons and freehand paths. It also shows how to place lines of text and wrap it around curved paths.}}
 {{Tutorial
 |Content=
