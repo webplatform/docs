@@ -1,6 +1,5 @@
 {{Page_Title|SVG animation}}
 {{Flags
-|High-level issues=Stub
 |Checked_Out=Yes
 }}
 {{Byline
@@ -842,7 +841,6 @@ function pausePlayAll() {
         : root.pauseAnimations();
 }
 </syntaxhighlight>
-
 }}
 {{Notes_Section}}
 {{Compatibility_Section
