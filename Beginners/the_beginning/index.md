@@ -64,7 +64,7 @@ renders as
 =The title of my story=
 <p>It was a dark and stormy night. Somewhere, an owl hooted.</p>
 
-<./li>
+</li>
 
 
 <li><p>'''Cascading Style Sheets (CSS)''': This language is used to style your content and position it on the page. For example, if you wanted to  make the text of your paragraphs red, and move them all downwards by 2 centimeters. In our building analogy, CSS would be like the decorations using to make the building look nice — the plaster, paint, wallpaper, doorhandles and coving.</p>
