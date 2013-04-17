@@ -1,17 +1,17 @@
-{{Page_Title|SVG basic shapes}}
+{{Page_Title|SVG basic shapes and text}}
 {{Flags
 |High-level issues=Stub
 |Checked_Out=Yes
 }}
 {{Byline}}
-{{Summary_Section|This guide introduces SVG's basic graphic elements, from simple lines and shapes to complex polygons and freehand paths.}}
+{{Summary_Section|This guide introduces SVG's basic graphic elements, from simple lines and shapes to complex polygons and freehand paths. It also shows how to place lines of text and wrap it around curved paths.}}
 {{Tutorial
 |Content=
 
 ==Simple shapes==
 
-Various SVG elements produce basic shapes, and attributes specify
-their dimensions.
+Various SVG elements produce basic shapes, and their attributes
+specify their dimensions.
 
 Rectangles are defined by their [[svg/attributes/width|'''width''']]
 and [[svg/attributes/height|'''height''']] attributes, while
@@ -50,12 +50,6 @@ attributes produce rounded corners:
 This is how these examples appear:
 
 [[Image:svg_shapes.png]]
-
-This
-[http://letmespellitoutforyou.com/samples/svg_shapes.html interactive shape-building tool]!
-allows you to manipulate various attributes and see how they apply to
-corresponding shapes.  Use it to test lines, polygons, and other CSS
-properties described below.
 
 ==Fill and stroke properties==
 
@@ -229,10 +223,8 @@ repeated to the end of the shape:
  stroke-dasharray: 20,10,10,10;
 
 The [[svg/properties/stroke-dashoffset|'''stroke-dashoffset''']]
-property allows you to shift the number of pixels at which the pattern
-begins.  As the interactive utility shows, properties with numeric and
-color values can be animated and transitioned with CSS, allowing for
-potentially distracting marquee effects.
+property allows you to shift the number of pixels at which the dash
+pattern begins.
 
 ==Simple paths==
 
@@ -246,8 +238,8 @@ The following
 [http://letmespellitoutforyou.com/samples/svg_path.html interactive path-building utility]
 allows you to create your own path definitions using all the commands
 detailed below, and see them reflected in SVG code. Choose the command
-you want, then click within the drawing area to provide each set of
-coordinates:
+you want, then click within the drawing area to provide each command
+with a set of coordinates:
 
 [[Image:svg_path.png|600px]]
 
@@ -307,7 +299,7 @@ point falls:
 [[Image:svg_quadratic.png]]
 
 <syntaxhighlight lang="xml">
-<!-- quadratic -->
+  <!-- quadratic -->
 <path d="M 50,100 Q 180,20 300,130"/>
 </syntaxhighlight>
 
@@ -317,7 +309,7 @@ point falls:
 [[Image:svg_cubic.png]]
 
 <syntaxhighlight lang="xml">
-<!-- cubic -->
+  <!-- cubic -->
 <path d="M 50,120 C 130,50 250,150 280,100"/>
 </syntaxhighlight>
 
@@ -331,7 +323,7 @@ cubic curves, but the second line leaves out the redundant command:
 [[Image:svg_quadratic_poly.png]]
 
 <syntaxhighlight lang="xml">
-<!-- quadratic, chained -->
+  <!-- quadratic, chained -->
 <path d="M 50,100 Q 180,20 300,130 Q 320,20 400,50"/>
 <path d="M 50,100 Q 180,20 300,130   320,20 400,50"/>
 </syntaxhighlight>
@@ -339,7 +331,7 @@ cubic curves, but the second line leaves out the redundant command:
 [[Image:svg_cubic_poly.png]]
 
 <syntaxhighlight lang="xml">
-<!-- cubic, chained -->
+  <!-- cubic, chained -->
 <path d="M 50,120 C 130,50 250,150 280,100 C 250,50 450,50 400,100"/>
 <path d="M 50,120 C 130,50 250,150 280,100   250,50 450,50 400,100"/>
 </syntaxhighlight>
@@ -509,15 +501,111 @@ in the [[svg/properties/marker-start|'''marker-start''']] example
 above that the initial marker may not be oriented as intended, because
 it's not associated with an existing line.
 
-<!--
-2DO:
+==Text==
 
-The [[svg/attributes/markerWidth|'''markerWidth''']] and
-[[svg/attributes/markerHeight|'''markerHeight''']] attributes set the
-...
+Text behaves much like any other SVG graphic. You can mix text with
+other graphics, but you can't automatically break lines into blocks of
+text as in HTML, so you have to set each line independently.  Use each
+[[svg/elements/text|'''text''']] element's
+[[svg/attributes/x|'''x''']] and [[svg/attributes/y|'''y''']]
+attributes to position its baseline:
 
-* [[svg/attributes/markerUnits|'''markerUnits''']]
--->
+<syntaxhighlight lang="xml">
+<text x="100" y="50">The quick brown fox</text>
+<text x="100" y="80">jumped over the lazy dog.</text>
+</syntaxhighlight>
+
+[[Image:svg_text.png|300px]]
+
+You can apply standard CSS font properties, along with the
+[[css/properties/text-anchor|'''text-anchor''']] property to center
+the text from the specified coordinates. You can also control apply
+[[svg/properties/fill|'''fill''']] and
+[[svg/properties/stroke|'''stroke''']] properties just like any other
+shape:
+
+<syntaxhighlight lang="css">
+text {
+    font-family  : Tahoma, sans-serif;
+    font-size    : smaller; 
+    font-weight  : bold; 
+    text-anchor  : middle; 
+    fill         : red; 
+    stroke       : #777; 
+    stroke-width : 0.5;
+}
+</syntaxhighlight>
+
+[[Image:svg_textFormatted.png|300px]]
+
+Use the [[svg/elements/tspan|'''tspan''']] element to mark and style
+inline font changes:
+
+<syntaxhighlight lang="xml">
+<text x="100" y="50">The quick brown fox</text>
+<text x="100" y="80">
+  jumped
+     <tspan class="emphasis">over</tspan>
+  the lazy dog.
+</text>
+</syntaxhighlight>
+<syntaxhighlight lang="css">
+.emphasis { font-style: italic }
+</syntaxhighlight>
+
+[[Image:svg_textSpan.png|300px]]
+
+You can [[svg/attributes/rotate|'''rotate''']] each character of text,
+or displace them with [[svg/attributes/dx|'''dx''']] and
+[[svg/attributes/dy|'''dy''']] attributes. This example uses
+[[svg/attributes/dy|'''dy''']] to move text up to a superscript
+position, then back down to its original baseline:
+
+<syntaxhighlight lang="xml">
+<text x="100" y="50">The quick brown fox</text>
+<text x="100" y="80">
+  jumped
+  <tspan rotate="-20" dy="-5" class="emphasis">over</tspan>
+  <tspan dy="5">the lazy dog.</tspan>
+</text>
+</syntaxhighlight>
+
+[[Image:svg_textRotate.png|300px]]
+
+SVG also allows you to place text along the curve of a path.  The
+[[svg/elements/textPath|'''textPath''']] element diverts any nested
+text to render along the path it references:
+
+<syntaxhighlight lang="xml">
+<defs>
+<path id="curve" d="M 100,300 A 1,1 0 0 1 500,300" />
+<text id="textContent">The quick brown fox jumped over the lazy dog.</text>
+</defs>
+<text>
+  <textPath xlink:href="#curve" startOffset="20%">
+    <tref xlink:href="#textContent" />
+  </textPath>
+</text>
+</syntaxhighlight>
+
+The [[svg/elements/tref|'''tref''']] element allows you to separately
+pull in text from a referenced [[svg/elements/text|'''text''']]
+element.
+
+The [[svg/elements/textPath|'''textPath''']]'s
+[[svg/attributes/startOffset|'''startOffset''']] pushes text from the
+start of the path, disappearing as the path ends. Below the text
+appears before and after applying the offset:
+
+<div style="display:inline-block;width:45%">
+[[Image:svg_textPath.png|300px]]
+</div>
+<div style="display:inline-block;width:45%">
+[[Image:svg_textPathOffset.png|300px]]
+</div>
+
+See [[tutorials/svg_fonts|SVG Fonts]] for information on SVG's support
+for creating font glyphs.
 
 }}
 {{Notes_Section}}
