@@ -1,8 +1,7 @@
 {{Page_Title|SVG text}}
 {{Flags
-|High-level issues=Stub
-|Checked_Out=Yes
-|Editorial notes=[new content edited offline by Sierra ([[User:Sierra|Sierra]] ([[User talk:Sierra|talk]])); please do not edit]
+|High-level issues=Deletion Candidate
+|Checked_Out=No
 }}
 {{Byline}}
 {{Summary_Section|This guide contains nothing, and should be deleted.}}
@@ -10,7 +9,6 @@
 |Content===Basic Text==
 
 <!-- CROAK THIS PAGE -->
-
 }}
 {{Notes_Section}}
 {{Compatibility_Section
