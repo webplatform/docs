@@ -515,7 +515,7 @@ attributes to position its baseline:
 <text x="100" y="80">jumped over the lazy dog.</text>
 </syntaxhighlight>
 
-[[Image:svg_text.png|300px]]
+[[Image:svg_text.png|400px]]
 
 You can apply standard CSS font properties, along with the
 [[css/properties/text-anchor|'''text-anchor''']] property to center
@@ -536,7 +536,7 @@ text {
 }
 </syntaxhighlight>
 
-[[Image:svg_textFormatted.png|300px]]
+[[Image:svg_textFormatted.png|400px]]
 
 Use the [[svg/elements/tspan|'''tspan''']] element to mark and style
 inline font changes:
@@ -556,7 +556,7 @@ inline font changes:
 }
 </syntaxhighlight>
 
-[[Image:svg_textSpan.png|300px]]
+[[Image:svg_textSpan.png|400px]]
 
 This example uses the [[svg/attributes/dy|'''dy''']] attribute to move
 text upward to a superscript position and then back down to its
@@ -573,7 +573,7 @@ likewise would displace text horizontally.)
 </text>
 </syntaxhighlight>
 
-[[Image:svg_textRotate.png|300px]]
+[[Image:svg_textRotate.png|400px]]
 
 SVG also allows you to place text along the curve of a path.  The
 [[svg/elements/textPath|'''textPath''']] element diverts any nested
@@ -601,10 +601,10 @@ start of the path, disappearing as the path ends. Below the text
 appears before and after applying the offset:
 
 <div style="display:inline-block;width:45%">
-[[Image:svg_textPath.png|300px]]
+[[Image:svg_textPath.png|400px]]
 </div>
 <div style="display:inline-block;width:45%">
-[[Image:svg_textPathOffset.png|300px]]
+[[Image:svg_textPathOffset.png|400px]]
 </div>
 
 See [[tutorials/svg_fonts|SVG Fonts]] for information on SVG's support
