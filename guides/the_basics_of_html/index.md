@@ -1,6 +1,5 @@
 {{Page_Title|The basics of HTML}}
 {{Flags
-|Checked_Out=No
 }}
 {{Byline}}
 {{Summary_Section|In this article, you will learn the basics of HTML in order to gain some insight into the structure and content of an HTML
