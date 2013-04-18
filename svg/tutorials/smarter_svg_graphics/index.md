@@ -294,79 +294,22 @@ When rendering the graphic to clip, use the
 [http://letmespellitoutforyou.com/samples/svg/tv_clip.svg View the SVG file here].
 
 <!--
-    14.3 Clipping paths
-        14.3.1 Introduction
-        14.3.2 The initial clipping path
-        14.3.3 The 'overflow' and 'clip' properties
-        14.3.4 Clip to viewport vs. clip to 'viewBox'
-        14.3.5 Establishing a new clipping path: the 'clipPath' element
-        14.3.6 Clipping paths, geometry, and pointer events
-
-Other properties for visual media:
-* [[svg/properties/clip|'''clip''']], only applicable to outermost svg element.
-* [[svg/properties/clip-path|'''clip-path''']]
-* [[svg/properties/clip-rule|'''clip-rule''']]
-* [[svg/properties/overflow|'''overflow''']], only applicable to elements which establish a new viewport.
-
--->
 
 ==Adding images==
 
-<!--
     5.7 The 'image' element
--->
+
+* raster
+* importing external SVGs
+** can you <use> an external image?
+* externalResourcesRequired
 
 ==Applying masks==
 
-<!--
-    14.4 Masking
-    14.5 Object and group opacity: the 'opacity' property
-
 * [[svg/properties/mask|'''mask''']]
 
-* [[svg/properties/stop-opacity|'''stop-opacity''']]
-
-    11.7 Rendering properties
-        11.7.1 Color interpolation properties: 'color-interpolation' and 'color-interpolation-filters'
-        11.7.2 The 'color-rendering' property
-        11.7.3 The 'shape-rendering' property
-        11.7.4 The 'text-rendering' property
-        11.7.5 The 'image-rendering' property
-    11.8 Inheritance of painting properties
-
-* [[svg/properties/image-rendering|'''image-rendering''']]
-* [[svg/properties/shape-rendering|'''shape-rendering''']]
-* [[svg/properties/text-rendering|'''text-rendering''']]
-
-Color and Painting properties:
-
-* [[svg/properties/color-interpolation|'''color-interpolation''']]
-* [[svg/properties/color-interpolation-filters|'''color-interpolation-filters''']]
-* [[svg/properties/color-profile|'''color-profile''']]
-* [[svg/properties/color-rendering|'''color-rendering''']]
-
- 11 Painting: Filling, Stroking and Marker Symbols
-    11.1 Introduction
-    11.2 Specifying paint
-
- 12 Color
-    12.1 Introduction
-    12.2 The 'color' property
-    12.3 Color profile descriptions
-        12.3.1 Overview of color profile descriptions
-        12.3.2 Alternative ways of defining a color profile description
-        12.3.3 The 'color-profile' element
-        12.3.4 The CSS @color-profile rule
-        12.3.5 The 'color-profile' property
-
- 14 Clipping, Masking and Compositing
-    14.2 Simple alpha compositing
-* [[svg/properties/opacity|'''opacity''']]
 -->
 
-==Compositing options==
-
-...
 }}
 {{Notes_Section}}
 {{Compatibility_Section
