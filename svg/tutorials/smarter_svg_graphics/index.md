@@ -1,9 +1,8 @@
 {{Page_Title|SVG graphic effects}}
-{{Flags
-|High-level issues=Stub
-|Checked_Out=Yes
+{{Flags}}
+{{Byline
+|Name=Mike Sierra
 }}
-{{Byline}}
 {{Summary_Section|This guide shows you how to embed images within SVG and apply various graphics effects such as gradients, patterns, clipping paths, and masks.}}
 {{Tutorial
 |Content===Gradients==
@@ -364,8 +363,8 @@ import SVG graphics:
 
 [[Image:svg_image_import_svg.png]]
 
-These externally referenced SVGs may animate, but do not preserve any
-interactive features.
+These externally referenced SVG components may animate, but they do
+not preserve any interactive features.
 
 <!--
 
