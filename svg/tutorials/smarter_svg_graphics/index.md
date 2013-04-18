@@ -309,7 +309,8 @@ attributes to position an image. Unlike HTML, you need to specify a
 
 If the supplied dimensions don't match the underlying data, various
 [[svg/attributes/preserveAspectRatio|'''preserveAspectRatio''']]
-options affect the image's placement:
+options affect the image's placement. Here are various ways to place a
+tall graphic in a wide image container:
 
 <div style="display:inline-block">
  xMinYMin meet
@@ -341,20 +342,19 @@ options affect the image's placement:
 [[Image:xMaxYMax_slice.png|300px]]
 </div>
 
-The '''meet''' keyword fits the
-entire image, while '''slice''' clips it. To position the image, you
-can specify any combination of ''Min'', ''Mid'', and ''Max'', which in
-the examples below match for each axis, but which you can mix
-arbitrarily. For example, '''xMidYMin''' aligns the image at the top,
-and centers it horizontally.
+The '''meet''' keyword fits the entire image, while '''slice''' clips
+it. To position the image, you can specify any combination of ''Min'',
+''Mid'', and ''Max'', which in the examples below match for each axis,
+but which you can mix arbitrarily. For example, '''xMidYMin''' aligns
+the image at the top, and centers it horizontally.
 
 Images scale depending on the current
 [[svg/attributes/viewBox|'''viewBox''']]. For example, if the SVG
 importing the image appears within a ''viewport'' of 500&times;500
 pixels (as specified by its own [[svg/attributes/width|'''width''']]
 and [[svg/attributes/height|'''height''']]), but its
-[[svg/attributes/viewBox|'''viewBox''']] attribute specifies '''0 0
-1000 1000''', then the image appears much smaller.
+[[svg/attributes/viewBox|'''viewBox''']] attribute specifies
+'''0 0 1000 1000''', then the image appears much smaller.
 
 <!--
 
