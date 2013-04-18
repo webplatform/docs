@@ -1,7 +1,5 @@
 {{Page_Title|SVG deployment}}
-{{Flags
-|Checked_Out=Yes
-}}
+{{Flags}}
 {{Byline
 |Name=Mike Sierra
 }}
@@ -162,46 +160,6 @@ attribute. If not, it uses fallback [[svg/elements/text|'''text''']]:
   </switch>
 </svg>
 </syntaxhighlight>
-
-<!--
-
- 7 Coordinate Systems, Transformations and Units
-    7.1 Introduction
-    7.2 The initial viewport
-    7.3 The initial coordinate system
-    7.4 Coordinate system transformations
-    7.5 Nested transformations
-    7.6 The 'transform' attribute
-    7.7 The 'viewBox' attribute
-    7.8 The 'preserveAspectRatio' attribute
-    7.9 Establishing a new viewport
-    7.10 Units
-    7.11 Object bounding box units
-    7.12 Intrinsic sizing properties of the viewport of SVG content
-    7.13 Geographic coordinate systems
-    7.14 The 'svg:transform' attribute
-
-    5.5 The 'symbol' element
-
- 5 Document Structure
-    5.6 The 'use' element
-    5.8 Conditional processing
-        5.8.1 Conditional processing overview
-        5.8.2 The 'switch' element
-        5.8.3 The 'requiredFeatures' attribute
-        5.8.4 The 'requiredExtensions' attribute
-        5.8.5 The 'systemLanguage' attribute
-        5.8.6 Applicability of test attributes
-    21.2 The 'metadata' element
-
-    11.5 Controlling visibility
-
-* [[svg/properties/display|'''display''']]
-* [[svg/properties/visibility|'''visibility''']]
-
-* [[svg/properties/color|'''color''']], used to provide a potential indirect value (currentColor) for the [[svg/properties/fill|'''fill''']], [[svg/properties/stroke|'''stroke''']], [[svg/properties/stop-color|'''stop-color''']], [[svg/properties/flood-color|'''flood-color''']] and [[svg/properties/lighting-color|'''lighting-color''']] properties. (The SVG properties which support color allow a color specification which is extended from CSS2 to accommodate color definitions in arbitrary color spaces. See Color profile descriptions.)
-
--->
 
 }}
 {{Notes_Section}}
