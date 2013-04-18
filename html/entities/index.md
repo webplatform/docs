@@ -1,5 +1,6 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+}}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|This article looks at the different codes that can be used to represent text characters when there is a need to escape them. Included is a list containing several characters and their codes.}}
