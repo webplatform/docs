@@ -293,15 +293,76 @@ When rendering the graphic to clip, use the
 
 [http://letmespellitoutforyou.com/samples/svg/tv_clip.svg View the SVG file here].
 
+==Adding images==
+
+While SVG is designed for vector graphics, it can freely incorporate
+raster graphics via the [[svg/elements/image|'''image''']] element.
+Use [[svg/attributes/x|'''x''']] and [[svg/attributes/y|'''y''']]
+attributes to position an image. Unlike HTML, you need to specify a
+[[svg/attributes/width|'''width''']] and
+[[svg/attributes/height|'''height''']] for an image to appear:
+
+<syntaxhighlight lang="xml" highlight="1">
+<image x="10" y="10" xlink:href="giraffe.png" width="270" height="297"
+       preserveAspectRatio="xMidYMid meet"/>
+</syntaxhighlight>
+
+If the supplied dimensions don't match the underlying data, various
+[[svg/attributes/preserveAspectRatio|'''preserveAspectRatio''']]
+options affect the image's placement:
+
+<div style="display:inline-block">
+ xMinYMin meet
+[[Image:xMinYMin_meet.png|300px]]
+</div>
+
+<div style="display:inline-block">
+ xMidYMid meet
+[[Image:xMidYMid_meet.png|300px]]
+</div>
+
+<div style="display:inline-block">
+ xMaxYMax meet
+[[Image:xMaxYMax_meet.png|300px]]
+</div>
+
+<div style="display:inline-block">
+ xMinYMin slice
+[[Image:xMinYMin_slice.png|300px]]
+</div>
+
+<div style="display:inline-block">
+ xMidYMid slice
+[[Image:xMidYMid_slice.png|300px]]
+</div>
+
+<div style="display:inline-block">
+ xMaxYMax slice
+[[Image:xMaxYMax_slice.png|300px]]
+</div>
+
+The '''meet''' keyword fits the
+entire image, while '''slice''' clips it. To position the image, you
+can specify any combination of ''Min'', ''Mid'', and ''Max'', which in
+the examples below match for each axis, but which you can mix
+arbitrarily. For example, '''xMidYMin''' aligns the image at the top,
+and centers it horizontally.
+
+Images scale depending on the current
+[[svg/attributes/viewBox|'''viewBox''']]. For example, if the SVG
+importing the image appears within a ''viewport'' of 500&times;500
+pixels (as specified by its own [[svg/attributes/width|'''width''']]
+and [[svg/attributes/height|'''height''']]), but its
+[[svg/attributes/viewBox|'''viewBox''']] attribute specifies '''0 0
+1000 1000''', then the image appears much smaller.
+
 <!--
 
-==Adding images==
 
     5.7 The 'image' element
 
 * raster
 * importing external SVGs
-** can you <use> an external image?
 * externalResourcesRequired
 
 ==Applying masks==
