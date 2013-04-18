@@ -1,5 +1,7 @@
 {{Page_Title|What is CSS?}}
-{{Flags}}
+{{Flags
+|Checked_Out=No
+}}
 {{Byline}}
 {{Summary_Section|The article introduces you to Cascading Style Sheets, or CSS, defining what they are, and what they are used for on the Web.}}
 {{Tutorial
@@ -49,7 +51,7 @@ For some formal definitions of terminology relating to CSS, see [[Definitions]] 
 
 === Action: Creating a document ===
  
-# Use your computer to create a new directory and a new text file there. The file will contain your document.
+# Create a new directory and open a text editor. 
 # Copy and paste the HTML shown below. Save the file using the name <code>doc1.html</code>
 
 <syntaxhighlight lang="html5"><!DOCTYPE html>
