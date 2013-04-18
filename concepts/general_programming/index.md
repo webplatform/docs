@@ -1,10 +1,10 @@
-{{Page_Title|General programming concepts}}
+{{Page_Title|General Programming Concepts}}
 {{Flags
 |High-level issues=Needs Topics, Needs Review
-|Content=Incomplete, Examples Needed
-|Checked_Out=No
+|Content=Incomplete, Grammar/Spelling, Examples Needed
+|Checked_Out=Yes
 }}
-{{Summary_Section|These articles teach basic general programming concepts.}}
+{{Summary_Section|These articles introduce you to computers, computer programming, computer networking, and programming for the Web specifically.}}
 {{Basic Page}}
 * [[concepts/programming/variables in javascript|Variables in JavaScript]]
 * [[concepts/programming/style guides|Style Guides]]
@@ -85,7 +85,7 @@
 *Digital media, images, sounds, video, compression
 *
 {{Notes_Section}}
-{{Topics}}
+{{Topics|CSS, HTML, JavaScript}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
