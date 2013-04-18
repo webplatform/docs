@@ -1,7 +1,5 @@
 {{Page_Title|SVG grand tour}}
-{{Flags
-|Checked_Out=Yes
-}}
+{{Flags}}
 {{Byline
 |Name=Mike Sierra
 }}
@@ -785,17 +783,19 @@ the dimensions of the current [[svg/attributes/viewBox|'''viewBox''']]
 to zoom into the scene.
 
 Links use the same [[svg/elements/a|'''a''']] element as in HTML, but
-as usual the '''xlink:href''' attribute needs its namespace qualified.
-This link encapsulates the wrapper for both eyes, so clickingon either
-one activates the link:
+as usual the '''xlink:href''' attribute needs its namespace qualified,
+and it needs to wrap other SVG elements rather than plain text.  This
+link encapsulates the wrapper for both eyes, so clicking on either one
+activates the link:
 
 <syntaxhighlight lang="xml">
 <a xlink:href="#zoomIn">
   <use xlink:href="#eyes"/>
 </a>
-
 <view id="zoomIn" viewBox="100 50 100 100" />
 </syntaxhighlight>
+
+
 
 When linking to an internal [[svg/elements/view|'''view''']] element,
 its [[svg/attributes/viewBox|'''viewBox''']] value overrides that of
@@ -804,8 +804,29 @@ zooming the scene:
 
 [[Image:svgGrandTour_eyeball_zoom.png|200px]]
 
-(See [[svg/tutorials/smarter_svg_filters|'''SVG interaction''']] for
-details.)
+The entire eyeball is active by default, but this can be
+configured. In HTML content, the
+[[css/properties/pointer-events|'''pointer-events''']] property allows
+you to control whether an element's mouse and touch event handlers
+execute, useful in layered interfaces. SVG allows you to target the
+active area to the '''visibleStroke''' or '''visibleFill''' portion of
+a graphic (or '''visiblePainted''' for both). These become active when
+a graphic's [[css/properties/visibility|'''visibility''']] is enabled
+('''visible'''), and when [[svg/properties/fill|'''fill''']] and
+[[svg/properties/stroke|'''stroke''']] values are defined.
+(Unlike [[css/properties/visibility|'''visibility:hidden''']], setting
+[[css/properties/display|'''display:none''']] entirely suppresses an
+element's rendering.)
+
+As in HTML, the [[css/properties/cursor|'''cursor''']] property allows
+you to highlight active areas, but unlike HTML, ''any'' graphic
+element can be styled separately with the ''':hover''' pseudoclass,
+not just links:
+
+<syntaxhighlight lang="css">
+#eyelid:hover, .eyelids:hover { cursor: pointer; }
+#eyelid, .eyelids { pointer-events: visiblePainted; }
+</syntaxhighlight>
 
 ==Animated Zoom==
 
@@ -952,7 +973,8 @@ case, you can use CSS transforms to rotate the circular object:
 By default, SVG transforms originate from an element's top-left
 corner, so to spin the circle properly you need to explicitly set the
 [[css/properties/transform-origin|'''transform-origin''']] property to
-CSS's own default '''50% 50%''' value.
+CSS's own default '''50% 50%''' value. And be careful when mixing
+transforms, since SVG's get clobbered by CSS's.
 
 [[Image:svgGrandTour_eyeball_textRotate.png|200px]]
 
