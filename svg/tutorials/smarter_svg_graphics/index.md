@@ -362,7 +362,7 @@ import SVG graphics:
 <image xlink:href="face_components.svg#eyes" x="10" y="10" width="300" height="100"/>
 </syntaxhighlight>
 
-[[Image:svg_image_import_svg.png|300px]]
+[[Image:svg_image_import_svg.png]]
 
 These externally referenced SVGs may animate, but do not preserve any
 interactive features.
