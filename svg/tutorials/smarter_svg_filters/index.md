@@ -1,7 +1,5 @@
 {{Page_Title|SVG filters}}
-{{Flags
-|Checked_Out=No
-}}
+{{Flags}}
 {{Byline
 |Name=Mike Sierra
 }}
