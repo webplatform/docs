@@ -1,7 +1,5 @@
 {{Page_Title|SVG animation}}
-{{Flags
-|Checked_Out=Yes
-}}
+{{Flags}}
 {{Byline
 |Name=Mike Sierra
 }}
@@ -841,6 +839,7 @@ function pausePlayAll() {
         : root.pauseAnimations();
 }
 </syntaxhighlight>
+
 }}
 {{Notes_Section}}
 {{Compatibility_Section
