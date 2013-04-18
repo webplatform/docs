@@ -2,8 +2,9 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
-{{Standardization_Status|Non-Standard}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Non standard. Proprietary. Retrieves the information from the clipboard as part of clipboard operation events.}}
 {{API_Object}}
@@ -109,18 +110,21 @@ The '''clipboardData''' object has these methods.
  
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=Clipboard API and Events
+|URL=http://www.w3.org/TR/clipboard-apis/
+|Status=W3C Working Draft
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Unknown
-|Chrome_version=
+|Chrome_supported=Yes
 |Chrome_prefixed_supported=Unknown
 |Chrome_prefixed_version=
-|Firefox_supported=Unknown
-|Firefox_version=
+|Firefox_supported=Yes
+|Firefox_version=21
 |Firefox_prefixed_supported=Unknown
 |Firefox_prefixed_version=
 |Internet_explorer_supported=Yes
