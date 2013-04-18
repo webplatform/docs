@@ -1,10 +1,11 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Stub
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|A media query consists of a media type and at least one expression that limits the style sheets' scope by using media features, such as width, height, and color. Added in CSS3, media queries let the presentation of content be tailored to a specific range of output devices without having to change the content itself.}}
 {{API_Listing|Use_page_title=No
 |List_all_subpages=Yes
 }}
