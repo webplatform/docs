@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Non standard. Proprietary. Retrieves the information from the clipboard as part of clipboard operation events.}}
+{{Summary_Section|Retrieves the information from the clipboard as part of clipboard operation events.}}
 {{API_Object}}
 {{Examples_Section
 |Not_required=No
