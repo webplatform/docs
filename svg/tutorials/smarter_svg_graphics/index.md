@@ -309,8 +309,13 @@ attributes to position an image. Unlike HTML, you need to specify a
 
 If the supplied dimensions don't match the underlying data, various
 [[svg/attributes/preserveAspectRatio|'''preserveAspectRatio''']]
-options affect the image's placement. Here are various ways to place a
-tall graphic in a wide image container:
+options affect the image's placement.  The '''meet''' keyword fits the
+entire image, while '''slice''' clips it. To position the image, you
+can specify any combination of ''Min'', ''Mid'', and ''Max'', which in
+the examples below match for each axis, but which you can mix
+arbitrarily. For example, '''xMidYMin''' aligns the image at the top,
+and centers it horizontally.  Here are various ways to place a tall
+graphic in a wide image container:
 
 <div style="display:inline-block">
  xMinYMin meet
@@ -342,12 +347,6 @@ tall graphic in a wide image container:
 [[Image:xMaxYMax_slice.png|300px]]
 </div>
 
-The '''meet''' keyword fits the entire image, while '''slice''' clips
-it. To position the image, you can specify any combination of ''Min'',
-''Mid'', and ''Max'', which in the examples below match for each axis,
-but which you can mix arbitrarily. For example, '''xMidYMin''' aligns
-the image at the top, and centers it horizontally.
-
 Images scale depending on the current
 [[svg/attributes/viewBox|'''viewBox''']]. For example, if the SVG
 importing the image appears within a ''viewport'' of 500&times;500
@@ -356,14 +355,19 @@ and [[svg/attributes/height|'''height''']]), but its
 [[svg/attributes/viewBox|'''viewBox''']] attribute specifies
 '''0 0 1000 1000''', then the image appears much smaller.
 
+You can also use the [[svg/elements/image|'''image''']] element to
+import SVG graphics:
+
+<syntaxhighlight lang="xml" highlight="1">
+<image xlink:href="face_components.svg#eyes" x="10" y="10" width="300" height="100"/>
+</syntaxhighlight>
+
+[[Image:svg_image_import_svg.png|300px]]
+
+These externally referenced SVGs may animate, but do not preserve any
+interactive features.
+
 <!--
-
-
-    5.7 The 'image' element
-
-* raster
-* importing external SVGs
-* externalResourcesRequired
 
 ==Applying masks==
 
