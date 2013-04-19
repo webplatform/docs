@@ -1,0 +1,1 @@
+#REDIRECT [[Main Page/zh]]
