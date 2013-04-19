@@ -91,7 +91,7 @@
     <div class="inner">
     <h3>[[dom|DOM]]</h3>
     
-    <p>文档对象模型（DOM）事件和方法教程和参考材料。 (<abbr>DOM</abbr>).</p>
+    <p>文档对象模型(<abbr>DOM</abbr>)事件和方法教程和参考材料。 </p>
     </div>
   
   </div>
