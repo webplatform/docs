@@ -16,7 +16,7 @@
 [http://microsoft.com/ IE]，
 [http://www.opera.com/ 欧朋]，和
 [http://www.apple.com/safari/ 猞猁]。
-*一个体面的文本编辑器。推荐的选择有[http://notepad-plus-plus.org/记事本+ +]为Windows，[http://www.sublimetext.com/2 Sublime Text] 为Mac，[http://bluefish.openoffice.nl/index.html Bluefish] Linux和 [http://brackets.io Brackets] 用于Mac和Windows（Linux版本即将推出）。
+*一个体面的文本编辑器。推荐的选择有[http://notepad-plus-plus.org/ Notepad++]Windows，[http://www.sublimetext.com/2 Sublime Text] 为Mac，[http://bluefish.openoffice.nl/index.html Bluefish] Linux和 [http://brackets.io Brackets] 用于Mac和Windows（Linux版本即将推出）。
 现在你的袖子卷起来，并准备学习。 [[tutorials|Browse our full list of learning articles]]如果你耗尽的文章列表，在这里，想了解更多！
 
 ==网络基本面==
