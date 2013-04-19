@@ -79,7 +79,7 @@
 未來，<b>Web Platform</b> 文庫將為你開拓豐富更多內容：最新實例代碼、教育資源和更多。為加快發展腳步，我們誠意邀請你加入我們的行列，貢獻你的知識。
 ==完善 <b>Web Plaftorm</b> 文庫==
 我們很樂意對您有幫助改善<b>Web Platform</b> 文庫。哪怕是一丁點的努力，可以在網站上有顯著的影響，提醒有關錯誤修復這些錯誤，移植現有的物品，甚至貢獻完全新的內容在我們的文檔，同開發商。要了解更多信息，請仔細閱讀我們的[[WPD:Getting_Started|編輯入門指南]]。
-* 要向<b>Web Platform</b> 提交錯誤信息 (<abbr>Bug</abbr>), 請使用[https://www.w3.org/Bugs/Public/enter_bug.cgi?product=webplatform .org W3C“項目管理”頁面]。有關更多信息，請閱讀我們的[http://docs.webplatform.org/wiki/WPD:Filing_Bugs 申報錯誤頁面]。
+* 要向<b>Web Platform</b> 提交錯誤信息 (<abbr>Bugs</abbr>), 請使用[https://www.w3.org/Bugs/Public/enter_bug.cgi?product=webplatform .org W3C“項目管理”頁面]。有關更多信息，請閱讀我們的[http://docs.webplatform.org/wiki/WPD:Filing_Bugs 申報錯誤頁面]。
 * 如果你在​​<b>Web Platform</b> 文庫有任何疑問，請先參照[[WPD:FAQ|常見問題]]裡的提示。
 
 ==保持聯繫==
