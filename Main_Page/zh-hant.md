@@ -5,7 +5,7 @@
 ==總結==
 <b>Web platform</b> 文庫是一個交互式網站，旨在成為Web開發人員的一個綜合性和權威性文庫。
 
-{{Languages​​}}
+{{Languages}}
 
 ==探索我們的網站開發文檔==
 <div class="topic-container">
