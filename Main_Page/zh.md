@@ -3,7 +3,7 @@
 {{Flags}}
 
 ==总结==
-<b>Web platform</b> 文库是一个社区驱动的网站，旨在成为一个综合性和权威性，为Web开发人员文档。
+<b>Web platform</b> 文库是一个交互式网站，旨在成为Web开发人员的一个综合性和权威性文库。
 
 {{Languages}}
 
