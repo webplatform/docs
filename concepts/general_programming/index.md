@@ -13,10 +13,6 @@ As the first-level pages are written to cover the second-level topics, remove th
 {{Basic Page}}
 ==Computer Organization and Architecture==
 * [[concepts/general_programming/What_is_in_a_Computer|What is in a computer?]]
-** Start with the visible, then work inside
-** Computer case, monitor, input devices, other peripherals
-** CPU, BUS, volatile memory
-** Primary and secondary storage devices (HDD vs. CD-ROM, flash drives, etc.)
 * How does a computer work?
 ** Decimal, binary, and hexadecimal
 ** Clock ticks, basic logic (AND, OR, XOR, NOT), transistors
