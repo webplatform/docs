@@ -17,7 +17,7 @@
     <div class="image icon-beginners"></div>
     
     <div class="inner">
-    <h3>[[beginners/zh-hans|初学者指南]]</h3>
+    <h3>[[beginners/zh|初学者指南]]</h3>
     
     <p>针对Web开发的入门教材。</p>
     </div>
@@ -29,7 +29,7 @@
     <div class="image icon-concept"></div>
     
     <div class="inner">
-    <h3>[[concepts/zh-hans|一般网络概念]]</h3>
+    <h3>[[concepts/zh|一般网络概念]]</h3>
     
     <p>概念和教程文章主题，如网络工程，信息架构，排版和网页设计。</p>
     </div>
@@ -41,7 +41,7 @@
     <div class="image icon-html"></div>
     
     <div class="inner">
-    <h3>[[html/zh-hans|HTML]]</h3>
+    <h3>[[html/zh|HTML]]</h3>
     
     <p>概念，教程和网页的主要标记语言的参考材料。</p>
     </div>
@@ -53,7 +53,7 @@
     <div class="image icon-css"></div>
     
     <div class="inner">
-    <h3>[[css/zh-hans|CSS]]</h3>
+    <h3>[[css/zh|CSS]]</h3>
     
     <p>概念，教程和参考材料层叠样式表(<abbr>CSS</abbr>).</p>
     </div>
@@ -77,7 +77,7 @@
     <div class="image icon-js"></div>
     
     <div class="inner">
-    <h3>[[javascript/zh-hans|JavaScript]]</h3>
+    <h3>[[javascript/zh|JavaScript]]</h3>
     
     <p>教程和参考材料为JavaScript网页的客户端脚本语言;包括第三方JavaScript库的参考材料。</p>
     </div>
