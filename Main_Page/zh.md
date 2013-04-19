@@ -140,7 +140,7 @@
 
 我们很乐意对您有帮助改善 <b>Web Platform</b> 文库。哪怕是一丁点的努力，可以在网站上有显着的影响，提醒有关错误修复这些错误，移植现有的物品，甚至贡献完全新的内容在我们的文档，同开发商。要了解更多信息，请仔细阅读我们的[[WPD:Getting_Started|编辑入门指南]]。
 
-* 要向 <b>Web Platform</b> 提交错误信息（<abbr>BUG</abbr>）, 请使用 [https://www.w3.org/Bugs/Public/enter_bug.cgi?product=webplatform.org W3C“项目管理”页面]。 有关更多信息，请阅读我们的[http://docs.webplatform.org/wiki/WPD:Filing_Bugs 申报错误页面]。 
+* 要向 <b>Web Platform</b> 提交错误信息（<abbr>Bugs</abbr>）, 请使用 [https://www.w3.org/Bugs/Public/enter_bug.cgi?product=webplatform.org W3C“项目管理”页面]。 有关更多信息，请阅读我们的[http://docs.webplatform.org/wiki/WPD:Filing_Bugs 申报错误页面]。 
 * 如果你在 <b>Web Platform</b> 文库有任何疑问，请先参照 [[WPD:FAQ|常见问题]]里的提示。
 
 
