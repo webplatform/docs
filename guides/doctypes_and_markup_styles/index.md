@@ -41,7 +41,7 @@ The HTML 4.01 strict doctype validates against the HTML 4.01 spec, although it d
 === The HTML 4.01 transitional doctype ===
 
 <pre>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-"http://www.w3.org/TR/html4/loose.dtd&gt;</pre>
+"http://www.w3.org/TR/html4/loose.dtd"&gt;</pre>
 
 The HTML 4.01 transitional doctype validates against the HTML 4.01 spec. It allows some presentational markup and deprecated elements (such as <code>&lt;font&gt;</code> elements) but not framesets. Again, it validates loose HTML style markup.
 
