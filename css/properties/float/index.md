@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic
 |Content=Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -21,7 +22,7 @@
 |Description=The <code>left</code> value indicates that the element must float to the left side of its containing block.
 }}{{CSS Property Value
 |Data Type=right
-|Description=The <code>left</code> value indicates that the element must float to the right side of its containing block.
+|Description=The <code>right</code> value indicates that the element must float to the right side of its containing block.
 }}
 }}
 {{Examples_Section
