@@ -1,5 +1,7 @@
-{{Page_Title}}
-{{Flags}}
+{{Page_Title|Functions}}
+{{Flags
+|Checked_Out=No
+}}
 {{Byline}}
 {{Summary_Section|Functions are one of the fundamental building blocks in JavaScript. A function is a JavaScript procedure—a set of statements that performs a task or calculates a value. To use a function, you must define it somewhere in the scope from which you wish to call it.}}
 {{Tutorial
@@ -419,6 +421,7 @@ These functions are used primarily with server-side JavaScript to encode and dec
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
