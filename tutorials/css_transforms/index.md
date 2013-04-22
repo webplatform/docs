@@ -1,6 +1,6 @@
 {{Page_Title|Manipulating content with CSS3 transforms}}
 {{Flags
-|Content=Grammar/Spelling, Broken Links
+|Content=Grammar/Spelling
 |Checked_Out=No
 }}
 {{Byline
