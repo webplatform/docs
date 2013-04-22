@@ -2,13 +2,14 @@
 {{Flags
 |High-level issues=Stub, Needs Topics
 |Content=Incomplete
+|Checked_Out=No
 }}
 {{API_Name}}
 {{Summary_Section|Common steps to planning a website before you start coding.}}
 {{Concept_Page
 |Content=The normal process behind planning a website is:
 # Have an idea for the sites content.  Sorry, but we can't help here.
-# Wireframe the sites layout
+# Wireframe the site's layout
 # Start designing the site
 # Build the sites front-end
 # Give the site a backend if-needed.
@@ -77,7 +78,7 @@ Blog about it.
 
 ===Maintain===
 
-Launching is half the process though. You need to fix the problems that will for sure come up. And also updating and improving site thoroughly from time to time to meet the user's needs and to not be outdone by the competition it is necessary. 
+Launching is half the process though. You need to fix the problems that will for sure come up. And also updating and improving site thoroughly from time to time to meet the user's needs and to not be outdone by the competition it is necessary.
 }}
 {{Examples_Section
 |Not_required=Yes
