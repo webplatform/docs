@@ -65,9 +65,9 @@
     <div class="image icon-css"></div>
     
     <div class="inner">
-    <h3>[[css/atrules|@규칙]]</h3>
+    <h3>[[css/atrules|@규칙(앳룰)]]</h3>
     
-    <p>사용 가능한 CSS @(앳)규칙에 대한 다른 유형의 참고서</p>
+    <p>사용 가능한 CSS @규칙(앳룰)에 대한 다른 유형의 참고서</p>
     </div>
   
   </div>
