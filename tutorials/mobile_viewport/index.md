@@ -1,5 +1,6 @@
 {{Page_Title|The Mobile Viewport and Orientation}}
-{{Flags}}
+{{Flags
+}}
 {{Byline
 |Name=Mike Sierra
 }}
