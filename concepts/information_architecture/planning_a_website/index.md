@@ -11,7 +11,7 @@
 # Have an idea for the sites content.  Sorry, but we can't help here.
 # Wireframe the site's layout
 # Start designing the site
-# Build the sites front-end
+# Build the site's front-end
 # Give the site a backend if-needed.
 # Launch!
 
