@@ -1,5 +1,6 @@
 {{Page_Title|HTML Elements}}
-{{Flags}}
+{{Flags
+}}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|Index page for HTML elements.}}
