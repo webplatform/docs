@@ -315,7 +315,7 @@
 |Topic_clusters=Visual Effects
 }}
 {{Notes_Section}}
-{{Topics}}
+{{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
