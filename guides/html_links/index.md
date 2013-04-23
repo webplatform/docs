@@ -1,6 +1,5 @@
 {{Page_Title|HTML links}}
 {{Flags
-|Checked_Out=No
 }}
 {{Byline}}
 {{Summary_Section|In this article we provide a complete treatment of HTML anchors, or <code>&lt;a&gt;</code> elements, more commonly known as HTML links.}}
