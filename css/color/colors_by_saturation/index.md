@@ -1,5 +1,8 @@
 {{Page_Title|Colors by Saturation}}
-{{Flags}}
+{{Flags
+|Checked_Out=No
+|Editorial notes=A list of CSS color names, sorted by Saturation.
+}}
 {{Summary_Section}}
 {{Basic Page}}
 {{Standardization_Status|}}
