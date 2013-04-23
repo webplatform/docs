@@ -1,5 +1,6 @@
 {{Page_Title}}
 {{Flags
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -181,7 +182,7 @@ For the sake of portability, Unicode entity references should be reserved for us
 !Less/greater than
 {{!}}&lt; &gt;
 {{!}}<code>&amp;lt; &amp;gt;</code>
-{{!}}<code>&amp;#062; &amp;#060;</code>
+{{!}}<code>&amp;#060; &amp;#062;</code>
 {{!}} 
 {{!}}} 
 
