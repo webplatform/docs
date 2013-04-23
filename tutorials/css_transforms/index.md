@@ -1,6 +1,5 @@
 {{Page_Title|Manipulating content with CSS3 transforms}}
 {{Flags
-|Content=Grammar/Spelling
 |Checked_Out=No
 }}
 {{Byline
@@ -515,7 +514,7 @@ space. Otherwise the default '''flat''' value would make them appear
 on the ''dice'' element's surface as if on a display screen.
 
 In this case, the nested ''centered'' element is there simply as a
-convenience to drop the cube back to accomodate its full volume:
+convenience to drop the cube back to accommodate its full volume:
 
  .centered {
      transform       : translateZ(-50px);
