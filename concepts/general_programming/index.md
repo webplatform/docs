@@ -1,7 +1,7 @@
 {{Page_Title|General Programming Concepts}}
 {{Flags
 |High-level issues=Needs Topics, Needs Review
-|Content=Incomplete, Grammar/Spelling, Examples Needed
+|Content=Incomplete, Examples Needed
 |Checked_Out=No
 |Editorial notes=This article may need to be a topic all its own. However it started, it seems now to be an attempt to provide the reader a compressed version of a four-year software development degree. I have tried to provide a syllabus, but there may be plenty more to add.
 
