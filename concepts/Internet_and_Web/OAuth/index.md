@@ -1,10 +1,10 @@
 {{Page_Title|OAuth: an open standard for authentication}}
 {{Flags
-|High-level issues=Stub, Needs Flags, Needs Topics
+|High-level issues=Stub, Needs Review
 |Checked_Out=No
 }}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Description of the OAuth standard.}}
 {{Concept_Page}}
 {{Examples_Section
 |Not_required=No
@@ -17,7 +17,7 @@
 {{See_Also_Section
 |Topic_clusters=Security
 }}
-{{Topics}}
+{{Topics|Security}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
