@@ -18,7 +18,8 @@ The drawback of images on the web is that not everybody who surfs the web can se
 * People surfing on mobile devices might still have images turned off because of small screens and the cost of downloading data.
 * Visitors of your site might be blind or visually impaired to such a degree that they cannot see your images properly or at all.
 * Other visitors might be from a different culture and not understand the icons or diagrams you use.
-* Search engines only index text — they don’t analyze images (yet), which means that information stored in images cannot be found and indexed.
+* Search engines only index text — they don’t analyze images (yet), which means that information stored in images cannot be found and indexed.***
+(***Updates needed - See this section's comments or try searching: "image indexing" or "search by image" for additional information regarding the latest on image indexing.)
  
 It is therefore very important to choose images wisely and only use them when appropriate. It is even more important to make sure you always offer a fallback for those who cannot see your images. There is more on the problems of wrongly used icons and images in the [[Creating multiple pages with navigation menus]] tutorial later on in the series. For now, let’s see what technologies are available to add images to an HTML document.
 
