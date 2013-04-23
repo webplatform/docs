@@ -13,8 +13,8 @@
 # Start designing the site
 # Build the site's front-end
 # Give the site a backend if-needed.
+# Test the application
 # Launch!
-
 ==Wireframing==
 
 ===What is wireframing?===
@@ -57,8 +57,11 @@ Once your site is designed and you know what you want, it is time to start build
 
 A lot of sites use some kind of administration backend like a Content Management System.  If your site needs one of these, then you should put your design into their template style and use one.  Otherwise, your site should be ready to go.
 
-===Launch!===
+===Test the application===
 
+One of the important tasks post development is to test the application. Testing helps confirm that the end product meets requirement we set out with. Often during the process of development we have to make adjustments which deviate the end product from what was originally intended. In addition, there are errors, bugs etc. that creep-in during the development process and these need to be corrected in order to have a useful product. Testing especially very useful in critical software products like those used by your stock trading company, medical research, airline operations etc. where lives are at stake (or huge amount of money!).
+
+===Launch!===
 Once your site is ready, put it on a web host and point a domain at it!  Once the DNS resolves, your site will be online for all to enjoy. 
 
 ===Spreading the word===
