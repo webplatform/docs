@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Flags, Needs Review
+|High-level issues=Stub, Missing Relevant Sections, Needs Review
+|Content=Incomplete
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
