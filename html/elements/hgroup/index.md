@@ -2,8 +2,9 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|Deprecated}}
 {{API_Name}}
 {{Summary_Section|The '''hgroup''' element (&lt;hgroup&gt;) is typically used to group a set of one or more h1-h6 elements — to group, for example, a section title and an accompanying subtitle.}}
 {{Markup_Element
