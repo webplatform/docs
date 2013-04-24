@@ -13,10 +13,7 @@ As the first-level pages are written to cover the second-level topics, remove th
 {{Basic Page}}
 ==Computer Organization and Architecture==
 * [[concepts/general_programming/What_is_in_a_Computer|What is in a computer?]]
-* How does a computer work?
-** Decimal, binary, and hexadecimal
-** Clock ticks, basic logic (AND, OR, XOR, NOT), transistors
-** Maybe include Moore's Law?
+* [[concepts/general_programming/How_does_a_computer_work|How does a computer work?]]
 * How does a computer run applications?
 ** Machine code [http://en.wikipedia.org/wiki/Machine_code]
 ** Registers, instruction address, heap, stack
