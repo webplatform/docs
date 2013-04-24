@@ -1,6 +1,7 @@
 {{Page_Title|Images in HTML}}
 {{Flags
 |High-level issues=Move Candidate
+|Checked_Out=No
 }}
 {{Byline}}
 {{Summary_Section|This article provides all you need to know to add images to an HTML document using the <code>&lt;img&gt;</code> tag.}}
@@ -238,7 +239,7 @@ Figure 4: Backgrounds with CSS.
  
 The different boxes are actually styled <code>&lt;h2&gt;</code> heading elements with some padding and borders applied through CSS to give us enough space to show the background image. If you check out the HTML file, you’ll see that each <code>&lt;h2&gt;</code> element has a unique <code>id</code> so each one can have a different CSS rule applied to it. The CSS for the first example is the following:
  
-<syntaxhighlight lang="css">background-image:url (ball.gif);</syntaxhighlight>
+<syntaxhighlight lang="css">background-image:url(ball.gif);</syntaxhighlight>
  
 You add the image with the <code>background-image</code> property and give it a URL in parenthesis to specify the image to be included. By default, background images will be repeated both horizontally and vertically to fill up the whole element space. You can however define a different repetition with the <code>background-repeat</code> property:
  
