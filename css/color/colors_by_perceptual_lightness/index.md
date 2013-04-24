@@ -1,3 +1,9 @@
+{{Page_Title}}
+{{Flags
+|Checked_Out=No
+}}
+{{Summary_Section|A list of CSS color names, sorted by perceptual lightness.}}
+{{Basic Page}}
 ===Related topics===
 * [[css/color/colors by name|Colors by Name]]
 * [[css/color/colors by hue|Colors by Hue]]
@@ -306,6 +312,11 @@ There are much better measures of "perceptual" lightness which take into account
 |-
 | black || hsl(0,0%,0%) || #000000 || 0%
 |}
-
-{{Basic Page}}
+{{Notes_Section}}
 {{Topics|CSS}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
+}}
