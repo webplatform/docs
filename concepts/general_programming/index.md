@@ -11,6 +11,7 @@ As the first-level pages are written to cover the second-level topics, remove th
 }}
 {{Summary_Section|These articles introduce you to computers, computer programming, computer networking, and programming for the Web specifically.}}
 {{Basic Page}}
+__TOC__
 ==Computer Organization and Architecture==
 * [[concepts/general_programming/What_is_in_a_Computer|What is in a computer?]]
 * How does a computer work?
