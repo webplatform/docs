@@ -91,13 +91,13 @@ Note: If you are completely new to web development, you may want to review [[beg
 
 SVG was first worked on in 1998, in an attempt to create a standardised vector graphics markup language for browsers to follow (proprietary technologies at the time included Microsoft's VML and Sun/Adobe's PGML.)
 
-* First version: The first version to be standardised was SVG 1.0. The [[http://www.w3.org/TR/SVG10/|SVG 1.0 recommendation]] was published in 2001.
-* Current stable version: [[http://www.w3.org/TR/SVG/|SVG 1.1]] is the current stable implementation supported across modern browsers, first published in 2003. There are also some SVG offshoots with different purposes, such as [[http://www.w3.org/TR/SVGTiny12/|SVG Tiny 1.2]], but for reference you should stick to SVG 1.1. 
-* Current and future work: SVG 1.2 development has been dropped in favour of the upcoming [[http://www.w3.org/TR/SVG2/|SVG 2.0]] specification.
+* First version: The first version to be standardised was SVG 1.0. The [http://www.w3.org/TR/SVG10/|SVG 1.0 recommendation] was published in 2001.
+* Current stable version: [http://www.w3.org/TR/SVG/|SVG 1.1] is the current stable implementation supported across modern browsers, first published in 2003. There are also some SVG offshoots with different purposes, such as [http://www.w3.org/TR/SVGTiny12/|SVG Tiny 1.2], but for reference you should stick to SVG 1.1. 
+* Current and future work: SVG 1.2 development has been dropped in favour of the upcoming [http://www.w3.org/TR/SVG2/|SVG 2.0] specification.
 
 ==Contributing to SVG development==
 
-SVG is worked on by the SVG working group — see the [[http://www.w3.org/Graphics/SVG/|SVG WG homepage]] for more details, including mailing list details for feedback and contributing.
+SVG is worked on by the SVG working group — see the [http://www.w3.org/Graphics/SVG/|SVG WG homepage] for more details, including mailing list details for feedback and contributing.
 
 
 == Index of all SVG topics ==
