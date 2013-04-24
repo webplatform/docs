@@ -12,7 +12,7 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=The following code example uses the '''THEAD''' element and the [[html/elements/table|'''TABLE''']], '''TBODY''', '''TD''', and '''TR''' elements to create a table that includes the first row in the table header and the second row in the table body.
+|Description=The following code example uses the ''thead''' element and the [[html/elements/table|'''table''']], '''tbody''', '''td''', and '''tr''' elements to create a table that includes the first row in the table header and the second row in the table body.
 |Code=&lt;table&gt;
 &lt;thead&gt;
   &lt;tr&gt;
@@ -30,13 +30,12 @@
 {{Notes_Section
 |Notes====Remarks===
 Valid tags within the '''THEAD''' element include:
-*'''TD'''
-*'''TH'''
-*'''TR'''
+*'''td'''
+*'''th'''
+*'''tr'''
 
-You can specify only one '''tHead''' object specified for any given [[html/elements/table|'''table''']] object.
-The [[html/elements/table|'''table''']] object and its associated elements have a separate table object model, which uses different methods than the general object model.  For more information about the table object model, see Building Tables Dynamically.
-Windows Internet Explorer 8 renders only tables up to 1000 columns. To force Windows Internet Explorer 7 rendering mode, see How Do I Take Advantage of the New Features in Internet Explorer 8.
+You can specify only one '''thead''' object specified for any given [[html/elements/table|'''table''']] object.
+The [[html/elements/table|'''table''']] object and its associated elements have a separate table object model, which uses different methods than the general object model.  
 |Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}196991 Document Object Model (DOM) Level 2 HTML Specification], Section 1.6.5
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 11.2.3
