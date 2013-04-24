@@ -1,5 +1,6 @@
 {{Page_Title|HTML links}}
 {{Flags
+|Checked_Out=No
 }}
 {{Byline}}
 {{Summary_Section|In this article we provide a complete treatment of HTML anchors, or <code>&lt;a&gt;</code> elements, more commonly known as HTML links.}}
@@ -85,7 +86,7 @@ The following HTML has examples of all the different types of links in it ([http
 
   <h2>Example of in-page navigation with fragment identifiers, links and anchors</h2>
   <div id="nav">
-    <ul id="toc">
+    <ul id="toc">  <!Table of Contents>
       <li><a href="#sec1">Section One</a></li>
       <li><a href="#sec2">Section Two</a></li>
       <li><a href="#sec3">Section Three</a></li>
