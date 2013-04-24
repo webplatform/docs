@@ -761,8 +761,7 @@ This property is not supported for Metro style apps using JavaScript.
 |Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>Building Tables Dynamically</code>
+|Manual_sections
 }}
 {{Topics|HTML}}
 {{External_Attribution
