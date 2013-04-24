@@ -42,14 +42,14 @@ The [[html/elements/table|'''table''']] object and its associated elements have 
 
 
 ===Members===
-The '''tHead''' object has these types of members:
+The '''thead''' object has these types of members:
 *[#events Events]
 *[#methods Methods]
 *[#properties Properties]
 
 
 ====Events====
-The '''tHead''' object has these events.
+The '''thead''' object has these events.
 {| class="wikitable"
 |-
 !Event
