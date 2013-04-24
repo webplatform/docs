@@ -1,7 +1,8 @@
 {{Page_Title|Pointer Events}}
 {{Flags
-|High-level issues=Stub, Needs Flags, Missing Relevant Sections
+|High-level issues=Stub, Needs Topics, Missing Relevant Sections
 |Content=Incomplete, Cleanup, Compatibility Incomplete, Examples Needed
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
@@ -16,7 +17,6 @@
 {{See_Also_Section
 |Manual_links=* [[concepts/PointerEvents|Pointer Events Primer]]
 |External_links=* [http://www.w3.org/TR/PointerEvents/ Pointer Events Spec]
-
 }}
 {{Topics}}
 {{External_Attribution
