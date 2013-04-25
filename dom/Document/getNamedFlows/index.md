@@ -1,5 +1,6 @@
 {{Page_Title|getNamedFlows()}}
 {{Flags
+|Checked_Out=No
 |Editorial notes=NamedFlowCollection not in list of return value types
 }}
 {{Standardization_Status|W3C Editor's Draft}}
@@ -24,7 +25,7 @@ flow = document.getNamedFlows().item(0);
 flow = document.getNamedFlows()[0];
 
 flows = document.getNamedFlows();
-for (var i = 0; i &amp;lt; flows.length; i++) {
+for (var i = 0; i &lt; flows.length; i++) {
     flow = flows[i];
     // do something with flow
 }
