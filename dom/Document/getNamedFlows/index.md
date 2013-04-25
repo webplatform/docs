@@ -8,7 +8,7 @@
 {{Summary_Section|Gathers [[apis/css-regions/NamedFlow|'''NamedFlow''']] objects, each representing a set of content that flows through various layout regions.}}
 {{API_Object_Method
 |Parameters=
-|Method_applies_to=dom/apis/document
+|Method_applies_to=dom/Document
 |Example_object_name=document
 |Return_value_name=flows
 |Javascript_data_type=DOM Node
