@@ -1,6 +1,6 @@
 {{Page_Title|Desenvolvimento web para inciantes}}
 {{Flags
-|Checked_Out=Yes
+|Checked_Out=No
 |Editorial notes=Este conjunto de artigos é para que os inciantes possam adquirir confiança, construindo suas habilidades essenciais no início da jornada para se tornar um web designer ou desenvolvedor.
 }}
 {{Summary_Section}}
@@ -42,32 +42,32 @@ Agora arregace as mangas e prepare-se para aprender. [[tutorials|Consulte a noss
 * [[guides/html5 form features|Recursos para formulários utilizando HTML5]]
 * [[guides/lesser-known semantic elements|Elementos semânticos menos conhecidos]]
 
-==CSS — styling your web content==
+==CSS — estilizando o seu conteúdo web==
 
-* [[guides/getting started with css|Getting started with CSS]]
-* [[tutorials/using selectors|Using selectors]]
-* [[guides/css text styling fundamentals|Text styling fundamentals]]
-* [[tutorials/using css background images|CSS background images]]
-* [[tutorials/box model|Exploring the CSS box model]]
-* [[tutorials/layout fundamentals|Exploring the CSS layout model]]
-* [[tutorials/making css easier to read|Making CSS easier to read]]
-* [[tutorials/media queries|Targetting styles with media queries]]
+* [[guides/getting started with css|Introdução ao CSS]]
+* [[tutorials/using selectors|Usando seletores]]
+* [[guides/css text styling fundamentals|Noções básicas de estilização de texto]]
+* [[tutorials/using css background images|Imagens de fundo CSS]]
+* [[tutorials/box model|Explorando o CSS box model]]
+* [[tutorials/layout fundamentals|Explorando o CSS layout model]]
+* [[tutorials/making css easier to read|Tornando a leitura do CSS mais fácil]]
+* [[tutorials/media queries|Direcionando estilos com media queries]]
 
-==JavaScript — adding dynamic behavior to your websites==
+==JavaScript — adicionando comportamentos dinâmico para seu website==
 
-* [[concepts/programming/programming basics|Programming basics]]
-* [[tutorials/your first look at javascript|Your first look at JavaScript]]
-* [[concepts/programming/the purpose of javascript|The purpose of JavaScript]]
-* [[tutorials/javascript functions|JavaScript functions]]
-* [[tutorials/objects in javascript|Objects in JavaScript]]
-* [[tutorials/traversing the dom|Traversing the DOM]]
-* [[tutorials/creating and modifying html|Creating and modifying HTML]]
-* [[tutorials/manipulating css with javascript|Manipulating CSS with JavaScript]]
-* [[tutorials/events in javascript|Events in JavaScript]]
+* [[concepts/programming/programming basics|Noções básicas de programação]]
+* [[tutorials/your first look at javascript|Seu primeiro olhar para o JavaScript]]
+* [[concepts/programming/the purpose of javascript|O objetivo do JavaScript]]
+* [[tutorials/javascript functions|Funções JavaScript]]
+* [[tutorials/objects in javascript|Objetos em JavaScript]]
+* [[tutorials/traversing the dom|Atravessando o DOM]]
+* [[tutorials/creating and modifying html|Criando e modificando o HTML]]
+* [[tutorials/manipulating css with javascript|Manipulando CSS com JavaScript]]
+* [[tutorials/events in javascript|Eventos em JavaScript]]
 
-==Applied techniques==
+==Técnicas aplicadas==
 
-* [[tutorials/creating basic navigation menus|Creating navigation menus]]
+* [[tutorials/creating basic navigation menus|Criando menus de navegação]]
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
