@@ -71,7 +71,4 @@ Agora arregace as mangas e prepare-se para aprender. [[tutorials|Consulte a noss
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
