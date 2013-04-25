@@ -2,15 +2,16 @@
 {{Flags
 |Checked_Out=No
 }}
-{{Summary_Section|Este conjunto de artigos é para que os inciantes possam adquirir confiança, construindo suas habilidades essenciais no início da jornada para se tornar um web designer ou desenvolvedor.}}
+{{Summary_Section}}
 {{Basic Page}}
-{{Languages}}
+{{Summary Section| Este conjunto de artigos é para que os inciantes possam adquirir confiança, construindo suas habilidades essenciais no início da jornada para se tornar um web designer ou desenvolvedor.}}
 
+{{Languages}}
 {{Flags}}
 
 ==Antes de você começar==
 
-Neste curso, você vai escrever um monte de código, e testá-lo em navegadores web. Antes de começar, você deve instalar pelo menos o seguinte:
+Neste curso, você vai escrever uma grande quantidade de código, e poderá testá-lo em navegadores web. Antes de começar, você deve instalar pelo menos o seguinte:
 
 * Um navegador para web atualizado. Se você ainda não tem, encontre-os nas páginas oficiais do [http://www.google.com/chrome Chrome], [http://www.mozilla.org/firefox Firefox], [http://microsoft.com/ie Internet Explorer], [http://www.opera.com Opera], e [http://www.apple.com/safari/ Safari].
 * Um bom editor de texto. Algumas opções gratuitas interessantes são o [http://notepad-plus-plus.org/ Notepad++] para Windows, [http://www.sublimetext.com/2 Sublime Text] para Mac, [http://bluefish.openoffice.nl/index.html Bluefish] para Linux e [http://brackets.io Brackets] para ambos Mac e Windows (versão para Linux em breve).
@@ -71,4 +72,7 @@ Agora arregace as mangas e prepare-se para aprender. [[tutorials|Consulte a noss
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
 }}
