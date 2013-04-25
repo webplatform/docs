@@ -161,71 +161,122 @@ Do you remember how I said that octal and hexadecimal are used because they have
 ! Binary
 ! Octal
 ! Hexadecimal
+! Binary
+! Octal
+! Hexadecimal
 |-
-| 0000
+| 0000 0000
 | 00
-| 0
-|-
-| 0001
-| 01
-| 1
-|-
-| 0010
-| 02
-| 2
-|-
-| 0011
-| 03
-| 3
-|-
-| 0100
-| 04
-| 4
-|-
-| 0101
-| 05
-| 5
-|-
-| 0110
-| 06
-| 6
-|-
-| 0111
-| 07
-| 7
-|-
-| 1000
+| 00
+| 0001 0000
+| 20
 | 10
-| 8
 |-
-| 1001
+| 0000 0001
+| 01
+| 01
+| 0001 0001
+| 21
 | 11
-| 9
 |-
-| 1010
+| 0000 0010
+| 02
+| 02
+| 0001 0010
+| 22
 | 12
-| A
 |-
-| 1011
+| 0000 0011
+| 03
+| 03
+| 0001 0011
+| 23
 | 13
-| B
 |-
-| 1100
+| 0000 0100
+| 04
+| 04
+| 0001 0100
+| 24
 | 14
-| C
 |-
-| 1101
+| 0000 0101
+| 05
+| 05
+| 0001 0101
+| 25
 | 15
-| D
 |-
-| 1110
+| 0000 0110
+| 06
+| 06
+| 0001 0110
+| 26
 | 16
-| E
 |-
-| 1111
+| 0000 0111
+| 07
+| 07
+| 0001 0111
+| 27
 | 17
-| F
+|-
+| 0000 1000
+| 10
+| 08
+| 0001 1000
+| 30
+| 18
+|-
+| 0000 1001
+| 11
+| 09
+| 0001 1001
+| 31
+| 19
+|-
+| 0000 1010
+| 12
+| 0A
+| 0001 1010
+| 32
+| 1A
+|-
+| 0000 1011
+| 13
+| 0B
+| 0001 1011
+| 33
+| 1B
+|-
+| 0000 1100
+| 14
+| 0C
+| 0001 1100
+| 34
+| 1C
+|-
+| 0000 1101
+| 15
+| 0D
+| 0001 1101
+| 35
+| 1D
+|-
+| 0000 1110
+| 16
+| 0E
+| 0001 1110
+| 36
+| 1E
+|-
+| 0000 1111
+| 17
+| 0F
+| 0001 1111
+| 37
+| 1F
 |}
-If you compare the binary and the octal, you will notice that the right-most octal digit cycles twice from 0 to 7 and each matches perfectly with the same three right-most digits in the binary column. Because of the 1:3 ratio between octal and binary and the 1:4 ratio between hexadecimal and binary, you can use a lookup table like this to switch between the three. If I write BD<sub>16</sub> (189<sub>10</sub>), we can use the table to translate that to 1011 1101<sub>2</sub>, move the spaces around (10 111 101<sub>2</sub>), and translate that to 275<sub>8</sub>. Do you see how that works? Try this exercise with some other numbers.
+If you compare the binary and the octal, you will notice that the right-most octal digit cycles four times from 0 to 7 and each matches perfectly with the same three right-most digits in the binary column. Because of the 1:3 ratio between octal and binary and the 1:4 ratio between hexadecimal and binary, you can use a lookup table like this to switch between the three. If I write BD<sub>16</sub> (189<sub>10</sub>), we can use the table to translate that to 1011 1101<sub>2</sub>, move the spaces around (10 111 101<sub>2</sub>), and translate that to 275<sub>8</sub>. Do you see how that works? Try this exercise with some other numbers.
 ===How does understanding hexadecimal help me?===
 {{TODO|nibbles and bytes &rarr; color codes and other uses}}
