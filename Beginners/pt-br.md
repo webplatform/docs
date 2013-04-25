@@ -1,13 +1,12 @@
 {{Page_Title|Desenvolvimento web para inciantes}}
 {{Flags
 |Checked_Out=No
-|Editorial notes=Este conjunto de artigos é para que os inciantes possam adquirir confiança, construindo suas habilidades essenciais no início da jornada para se tornar um web designer ou desenvolvedor.
 }}
-{{Summary_Section}}
+{{Summary_Section|Este conjunto de artigos é para que os inciantes possam adquirir confiança, construindo suas habilidades essenciais no início da jornada para se tornar um web designer ou desenvolvedor.}}
 {{Basic Page}}
 {{Languages}}
 
-
+{{Flags}}
 
 ==Antes de você começar==
 
@@ -53,7 +52,7 @@ Agora arregace as mangas e prepare-se para aprender. [[tutorials|Consulte a noss
 * [[tutorials/making css easier to read|Tornando a leitura do CSS mais fácil]]
 * [[tutorials/media queries|Direcionando estilos com media queries]]
 
-==JavaScript — adicionando comportamentos dinâmico para seu website==
+==JavaScript — adicionando comportamento dinâmico para seu website==
 
 * [[concepts/programming/programming basics|Noções básicas de programação]]
 * [[tutorials/your first look at javascript|Seu primeiro olhar para o JavaScript]]
