@@ -1,5 +1,7 @@
 {{Page_Title|はじめてのWeb開発}}
-{{Flags}}
+{{Flags
+|Checked_Out=No
+}}
 {{Summary_Section|このページで紹介する記事は、Web デザイナーや開発者を目指すまったくの初心者が、自信を持って仕事ができるように必要なスキルを紹介するものです。}}
 {{Basic Page}}
 {{Languages}}
@@ -33,6 +35,9 @@
 * [[guides/html links/ja|リンクの貼り方]]
 * [[guides/html structural elements/ja|文書構造を決める要素]]
 * [[guides/html tables/ja|HTMLの表]]
+* [[guides/html forms basics/ja|HTMLフォームの基礎]]
+* [[guides/html5 form features/ja|HTML5のフォーム機能]]
+* [[guides/lesser-known semantic elements/ja|あまり知られていない意味を記す要素]]
 
 == CSS — Web コンテンツのスタイル ==
 
