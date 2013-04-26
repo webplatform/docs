@@ -1,7 +1,6 @@
 {{Page_Title|General Programming Concepts}}
 {{Flags
 |High-level issues=Needs Topics, Needs Review
-|Content=Incomplete
 |Checked_Out=No
 }}
 {{Summary_Section|So, you think your computer is smart? It can do math faster than most people, even complex physics and acocunting algorithms. How does it do that?}}
@@ -317,6 +316,14 @@ To add to the confusion even more, metric prefixes will sometimes be applied to 
 
 Network speeds do tend to use the decimal version of the metric prefixes, but notice that they are multiplied by bits. Most memory is measured in bytes, but data speeds are measured in bits. So, when you see that your computer has a 100 mega<u>bit</u> network connection, remember that it is only transmitting about 12 mega<u>bytes</u> per second.
 ==How does it help to know about memory sizes and hexadecimal?==
-So, a bit is actually an abbreviation for a "binary digit", meaning that it is either a zero or a one. A byte is eight bits, eight binary digits. Since byte and bite are homophones, half a byte (four bits) make a nibble. Remember how a hexadecimal digit exactly represent four binary digits? A nibble equates to a hexadecimal digit, so it is often represented that way. A byte, being two nibbles, is often represented by two hexadecimal digits.
+So, a bit is actually an abbreviation for a "binary digit", meaning that it is either a zero or a one. A byte is eight bits, eight binary digits. Since byte and bite are homophones, half a byte is a nibble (four bits). Remember how a hexadecimal digit exactly represents four binary digits? A nibble equates to a hexadecimal digit, so it is often represented that way. A byte, being two nibbles, is often represented by two hexadecimal digits.
 
 One of the primary uses of hexadecimal in web development is color codes. Though this is not the place to delve deeply into color in web development, I will introduce the use of hexadecimal. Historically, web browsers have accepted 24-bit color codes, eight bits for each of the three primary colors of light: red, green, and blue. (This is why these are also known as RGB codes.) These color codes would be represented in hexadecimal, each color ranging from 00 to FF. Since the absence of light is black, black was represented by #000000. Since the presence of all light is white, white was represented by #FFFFFF. Along similar lines, #FF0000 was bright red ("red"), #00FF00 was bright green ("lime"), and #0000FF was bright blue ("blue"). You could also provide darker colors by using lower numbers: #800000 ("maroon"), #008000 ("green"), and #000080 ("navy").
+{{Notes_Section}}
+{{Topics}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
+}}
