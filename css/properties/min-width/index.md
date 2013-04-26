@@ -1,12 +1,11 @@
 {{Page_Title}}
 {{Flags
 |Content=Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Sets the minimum width of an element. It limits the width property to be not smaller than the value specified in min-width.
-
-}}
+{{Summary_Section|Sets the minimum width of an element. It limits the width property to be not smaller than the value specified in min-width.}}
 {{CSS Property
 |Initial value=0
 |Applies to=all elements but non-replaced inline elements, tables, inline tables, table cells, table columns, and column groups
