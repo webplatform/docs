@@ -17,9 +17,9 @@ Modern computers can quickly handle large amounts of discrete numbers because, a
 ===How does the computer use ones and zeros?===
 In the late 19th century, George Boole defined a system of logical algebra. Essentially, Boole made it possible to represent logic problems in terms of mathematics, defining algebraic ways to represent "and", "or", and "exclusive-or" (or "disjoint union"). With regard to his contributions, these mathematical functions are known as Boolean logic functions (or operations).
 
-There are four simple Boolean logic operations: <code>NOT</code>, <code>OR</code>, <code>AND</code>, and <code>XOR</code>. Each of these operations has an associated "truth table", a table that defines when, based on the input given it, the operation will result in a true value (and, conversely, a false value). <code>NOT A</code> returns the opposite of A: if A is true, the result is false; if A is false, the result is true. <code>A AND B</code> returns true only if <code>A</code> is true _and_ <code>B</code> is true. <code>A OR B</code> returns true if at least <code>A</code> is true _or_ <code>B</code> is true. <code>A XOR B</code> returns true only if <code>A</code> is true _or_ <code>B</code> is true, but not if both are true.
+There are four simple Boolean logic operations: <code>NOT</code>, <code>OR</code>, <code>AND</code>, and <code>XOR</code>. Each of these operations has an associated "truth table", a table that defines when, based on the input given it, the operation will result in a true value (and, conversely, a false value). <code>NOT A</code> returns the opposite of A: if A is true, the result is false; if A is false, the result is true. <code>A AND B</code> returns true only if <code>A</code> is true <u>and</u> <code>B</code> is true. <code>A OR B</code> returns true if at least <code>A</code> is true <u>or</u> <code>B</code> is true. <code>A XOR B</code> returns true only if <code>A</code> is true <u>or</u> <code>B</code> is true, but not if both are true.
 
-The last paragraph described the results of these operations. However, would it be called a truth table if it didn't look like a table? Here is a truth table for the <code>NOT</code> operation. The <code>NOT</code> operation is known as a unary operation because it only takes one input (thus the un- prefix).
+The last paragraph described the results of these operations. However, would it be called a truth table if it failed to look like a table? Here is a truth table for the <code>NOT</code> operation. The <code>NOT</code> operation is known as a unary operation because it only takes one input (thus the un- prefix).
 {| summary="Truth table for NOT operation" style="white-space: nowrap; width: 1%"
 |+ <code>NOT</code> Truth Table
 |-
@@ -33,7 +33,7 @@ The last paragraph described the results of these operations. However, would it 
 |}
 How do I read this truth table? Across the top, you have the value of <code>A</code>. Underneath each value of <code>A</code>, you have the corresponding result. If the value of <code>A</code> is <code>False</code>, the result is <code>True</code>; if the value of <code>A</code> is <code>True</code>, the result is <code>False</code>.
 
-That should be pretty understandable, but the computer deals in ones and zeros, right? Let's translate that same truth table into ones and zeros.
+That should be pretty understandable, but the computer deals in ones and zeros, right? Now we translate that same truth table into ones and zeros.
 {| summary="Truth table for NOT operation" style="white-space: nowrap; width: 1%"
 |+ <code>NOT</code> Truth Table
 |-
@@ -45,7 +45,7 @@ That should be pretty understandable, but the computer deals in ones and zeros, 
 | 1
 | 0
 |}
-Pretty simple, yes? Let's look at the other truth tables. Notice that they take two inputs, <code>A</code> and <code>B</code>. The remaining operations are known as binary operations because they take two inputs (thus the bi- prefix). Notice that we now have a grid of results because we have two inputs and the axes are labeled across the top and down the left. Look at each value in the grid and see what value of <code>A</code> and what value of <code>B</code> produced that result. Does the truth table reflect the logic of the operation? If <code>A</code> is <code>1</code> <code>AND</code> <code>B</code> is <code>1</code>, is the result <code>1</code>?
+Pretty simple, yes? Take a look at the other truth tables. Notice that they take two inputs, <code>A</code> and <code>B</code>. The remaining operations are known as binary operations because they take two inputs (thus the bi- prefix). Notice that we now have a grid of results because we have two inputs and the axes are labeled across the top and down the left. Look at each value in the grid and see what value of <code>A</code> and what value of <code>B</code> produced that result. Does the truth table reflect the logic of the operation? If <code>A</code> is <code>1</code> <code>AND</code> <code>B</code> is <code>1</code>, is the result <code>1</code>?
 {| summary="Truth table for AND operation" style="white-space: nowrap; width: 1%"
 |+ <code>AND</code> Truth Table
 |-
@@ -91,7 +91,7 @@ Pretty simple, yes? Let's look at the other truth tables. Notice that they take 
 | 1
 | 0
 |}
-So, those are the basic logic operations. Of course, Boole developed logic algebra, so we can't leave it at simple operations, can we? However, everything else can be represented as a combination of these simple operations. Just as multiplication can be derived from addition and exponents can be derived from multiplication, so more complex Boolean logic operations can be derived from simple logic operations. Here are some slightly more complex logic operations: <code>NAND</code>, <code>NOR</code>, and <code>XNOR</code>. All of these operations are the result of a simple operation passed through the <code>NOT</code> operation, i.e., inverted.
+So, those are the basic logic operations. Of course, Boole developed logic algebra, so we cannot leave it at simple operations, can we? However, everything else can be represented as a combination of these simple operations. Just as multiplication can be derived from addition and exponents can be derived from multiplication, so more complex Boolean logic operations can be derived from simple logic operations. Here are some slightly more complex logic operations: <code>NAND</code>, <code>NOR</code>, and <code>XNOR</code>. All of these operations are the result of a simple operation passed through the <code>NOT</code> operation, i.e., inverted.
 {| summary="Truth table for NAND operation" style="white-space: nowrap; width: 1%"
 |+ <code>NAND</code> Truth Table
 |-
@@ -137,7 +137,7 @@ So, those are the basic logic operations. Of course, Boole developed logic algeb
 | 0
 | 1
 |}
-Do you see how these truth tables are exactly the opposite of the respective truth tables above? We simply negated the results, turning <code>0</code> to <code>1</code> and <code>1</code> to <code>0</code>. Believe me, just as algebra can get pretty complex, so Boolean algebra can get pretty complex. We won't delve into more of the complexity here.
+Do you see how these truth tables are exactly the opposite of the respective truth tables above? We simply negated the results, turning <code>0</code> to <code>1</code> and <code>1</code> to <code>0</code>. Believe me, just as algebra can get pretty complex, so Boolean algebra can get pretty complex, but we will not delve into more of the complexity here.
 ==How does my computer use logic operations?==
 Computers use transistors to store information and perform various operations. The logic operations above are implemented physically with transistors that make up logic "gates", so you can find logic gates for all of the logic operations listed above, including the inverted operations. Processors use logic gates to perform many tasks, including mathematics and memory access. The internal workings of a process are incredibly complex and the result of decades of innovation.
 
@@ -278,5 +278,45 @@ Do you remember how I said that octal and hexadecimal are used because they have
 | 1F
 |}
 If you compare the binary and the octal, you will notice that the right-most octal digit cycles four times from 0 to 7 and each matches perfectly with the same three right-most digits in the binary column. Because of the 1:3 ratio between octal and binary and the 1:4 ratio between hexadecimal and binary, you can use a lookup table like this to switch between the three. If I write BD<sub>16</sub> (189<sub>10</sub>), we can use the table to translate that to 1011 1101<sub>2</sub>, move the spaces around (10 111 101<sub>2</sub>), and translate that to 275<sub>8</sub>. Do you see how that works? Try this exercise with some other numbers.
-===How does understanding hexadecimal help me?===
-{{TODO|nibbles and bytes &rarr; color codes and other uses}}
+==How is data measured?==
+Data and memory are measured in bits, nibbles, bytes, and pseudo-metric extensions of bits and bytes. A bit is stored with a single switch and its value can be represented by exactly one binary digit. A nibble is four bits and its value can be represented by exactly one hexadecimal digit. A byte is eight bits (two nibbles) and its value can be represented by two hexadecimal digits.
+===Measuring bytes===
+What do I mean by pseudo-metric extensions of bits and bytes? A kilometer is 1,000 meters, right? When first measuring large amounts of memory, metric prefixes were used to represent powers of two approximately equal to the corresponding metric prefix. Thus, a kilobyte was 1,024 (2<sup>10</sup>) bytes, not 1,000 bytes. A megabyte was 1,024 kilobytes, not 1,000 kilobytes. Even though the <abbr title="International Electrotechnical Commission">IEC</abbr> has recommended the use of modified prefixes (kibi-, mebi-, gibi-, etc.), many people still use the standard metric prefixes.
+{| style="white-space: nowrap; width: 1%" summary="Metric prefixes used for memory quantities and their equivalents"
+|+ Metric prefixes for memory
+! Unit
+! Exponent
+! Number of bytes
+|-
+| kibibyte, KiB
+| 2<sup>10</sup>
+| 1 024
+|-
+| mebibyte, MiB
+| 2<sup>20</sup>
+| 1 048 576
+|-
+| gibibyte, GiB
+| 2<sup>30</sup>
+| 1 073 741 824
+|-
+| tebibyte, TiB
+| 2<sup>40</sup>
+| 1 099 511 627 776
+|-
+| pebibyte, PiB
+| 2<sup>50</sup>
+| 1 125 899 906 842 624
+|-
+| exbibyte, EiB
+| 2<sup>60</sup>
+| 1 152 921 504 606 846 976
+|}
+===Measuring bits===
+To add to the confusion even more, metric prefixes will sometimes be applied to bit as well, particularly in reference to network speeds. Network speeds have always been measured in bits per second because that was the equivalent for computers to the baud rate (named for Émile Baudot), a standard measure for telegraph and telephone transmission. Computers still transmit information over telephone wires (credit card machines, dial-up internet connections) and coaxial cable (broadband cable internet) as they did when connecting at 300 bps (bits per second), but technology has advanced to the point that many dial-up connections are capable of at least 33.6 Kbps and broadband connections are capable of several Mbps.
+
+Network speeds do tend to use the decimal version of the metric prefixes, but notice that they are multiplied by bits. Most memory is measured in bytes, but data speeds are measured in bits. So, when you see that your computer has a 100 mega<u>bit</u> network connection, remember that it is only transmitting about 12 mega<u>bytes</u> per second.
+==How does it help to know about memory sizes and hexadecimal?==
+So, a bit is actually an abbreviation for a "binary digit", meaning that it is either a zero or a one. A byte is eight bits, eight binary digits. Since byte and bite are homophones, half a byte (four bits) make a nibble. Remember how a hexadecimal digit exactly represent four binary digits? A nibble equates to a hexadecimal digit, so it is often represented that way. A byte, being two nibbles, is often represented by two hexadecimal digits.
+
+One of the primary uses of hexadecimal in web development is color codes. Though this is not the place to delve deeply into color in web development, I will introduce the use of hexadecimal. Historically, web browsers have accepted 24-bit color codes, eight bits for each of the three primary colors of light: red, green, and blue. (This is why these are also known as RGB codes.) These color codes would be represented in hexadecimal, each color ranging from 00 to FF. Since the absence of light is black, black was represented by #000000. Since the presence of all light is white, white was represented by #FFFFFF. Along similar lines, #FF0000 was bright red ("red"), #00FF00 was bright green ("lime"), and #0000FF was bright blue ("blue"). You could also provide darker colors by using lower numbers: #800000 ("maroon"), #008000 ("green"), and #000080 ("navy").
