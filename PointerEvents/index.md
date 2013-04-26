@@ -30,7 +30,7 @@
 	    <p>Try out Pointer Events demos.</p>
 * [http://touch.azurewebsites.net/touchtest.html Touch Tracker Marker]
 * [http://ie.microsoft.com/testdrive/Graphics/TouchEffects/ Touch Effects]
-* [html5labs.interoperabilitybridges.com/prototypes/pointer-events-for-webkit/pointer-events-for-webkit/info Pointer Events for Webkit]
+* [http://msopentech.com/opentech-projects/pointer-events-prototype-for-webkit/ Pointer Events for Webkit]
 * [http://www.developer.nokia.com/Blogs/Code/2013/04/02/touchy-feely-with-dom-events-rethinking-cross-device-user-interaction/ Cross device interaction]
 	</div>
     </div>
