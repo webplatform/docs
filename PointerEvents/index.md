@@ -2,7 +2,7 @@
 
 <div class="topic-container">
 
-    <div class="long-topic">
+    <div class="topic">
 
 	<div class="image icon-beginners"></div>
 
