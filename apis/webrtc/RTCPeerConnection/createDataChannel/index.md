@@ -20,6 +20,7 @@
 |Optional=Yes
 }}
 |Method_applies_to=apis/webrtc/RTCPeerConnection
+|Example_object_name=peerconnection
 }}
 {{Examples_Section
 |Not_required=No
