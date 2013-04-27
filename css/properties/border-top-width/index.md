@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -13,7 +14,7 @@
 |Animatable=No
 |Values={{CSS Property Value
 |Data Type=medium
-|Description=Default.  
+|Description=Default.
 }}{{CSS Property Value
 |Data Type=thin
 |Description=Less than the default width.
