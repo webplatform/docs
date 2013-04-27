@@ -4,11 +4,21 @@
 |Content=Incomplete
 |Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|Experimental}}
 {{API_Name}}
 {{Summary_Section|Creates an [[apis/webrtc/RTCDataChannel|RTCDataChannel]] object with the given label.}}
 {{API_Object_Method
-|Parameters=
+|Parameters={{Method Parameter
+|Name=Label
+|Data type=String
+|Description=The label of the data channel.
+|Optional=No
+}}{{Method Parameter
+|Name=Options
+|Data type=Object
+|Description=Currently the only available option is a Boolean property named "reliable" (e.g. {reliable: false})
+|Optional=Yes
+}}
 |Method_applies_to=apis/webrtc/RTCPeerConnection
 }}
 {{Examples_Section
