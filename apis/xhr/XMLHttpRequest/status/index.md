@@ -1,6 +1,8 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
+|High-level issues=Missing Relevant Sections, Needs Review
+|Checked_Out=No
+|Editorial notes=Needs a list of HTTP return codes: 200, 301, 404, 500, etc.
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
