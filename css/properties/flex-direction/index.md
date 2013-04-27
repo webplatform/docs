@@ -1,8 +1,10 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name|CSS Flexible Box Layout Module}}
-{{Summary_Section|The ‘flex-direction’ property specifies how flex items are placed in the flex container, by setting the direction of the flex container's main axis. This determines the direction that flex items are laid out in.}}
+{{Summary_Section|The 'flex-direction' property specifies how flex items are placed in the flex container, by setting the direction of the flex container's main axis. This determines the direction that flex items are laid out in.}}
 {{CSS Property
 |Initial value=row
 |Applies to=flex containers
@@ -16,13 +18,13 @@
 |Description=The flex container's main axis has the same orientation as the inline axis of the current writing mode. The main-start and main-end directions are equivalent to the start and end directions, respectively, of the current writing mode.
 }}{{CSS Property Value
 |Data Type=row-reverse
-|Description=Same as ‘row’, except the main-start and main-end directions are swapped.
+|Description=Same as 'row', except the main-start and main-end directions are swapped.
 }}{{CSS Property Value
 |Data Type=column
 |Description=The flex container's main axis has the same orientation as the block axis of the current writing mode. The main-start and main-end directions are equivalent to the before/head and after/foot directions, respectively, of the current writing mode.
 }}{{CSS Property Value
 |Data Type=column-reverse
-|Description=Same as ‘column’, except the main-start and main-end directions are swapped.
+|Description=Same as 'column', except the main-start and main-end directions are swapped.
 }}
 }}
 {{Examples_Section
