@@ -9,18 +9,18 @@
 {{Summary_Section|Creates an [[apis/webrtc/RTCDataChannel|RTCDataChannel]] object with the given label.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
-|Name=Label
+|Name=label
 |Data type=String
 |Description=The label of the data channel.
 |Optional=No
 }}{{Method Parameter
-|Name=Options
+|Name=options
 |Data type=Object
 |Description=Currently the only available option is a Boolean property named "reliable" (e.g. {reliable: false})
 |Optional=Yes
 }}
 |Method_applies_to=apis/webrtc/RTCPeerConnection
-|Example_object_name=peerconnection
+|Example_object_name=peerConnection
 }}
 {{Examples_Section
 |Not_required=No
