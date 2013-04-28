@@ -41,7 +41,7 @@ El Modelo de Objetos de Documento (Document Object Model o DOM) es una interfaz 
     <div class="inner">
     <h3>[[dom/methods|Métodos]]</h3>
     
-    <p>Una guía de referencia de los métodos disponibles para la manipulación del DOM.</p>
+    <p>Una guía de referencia de los métodos para la manipulación del DOM disponibles.</p>
     </div>
   
   </div>
@@ -59,7 +59,7 @@ Cuando un documento etiquetado es analizado por el navegador, éste convierte el
 * Primera versión: Publicada en 1997 cuando los fabricantes de navegadores que participan en el W3C decidieron ponerse de acuerdo en un solo modelo de objetos de documento estandarizado para hacer la creación de código multi-navegador menos que una pesadilla.
 
 
-* Versión estable actual: El DOM nivel 3 es la versión más estable y cuya especificación está dividida en diferentes partes, todas las cuales han alcanzado al estado de  recomendación. Puedes encontrar una lista de todas las publicaciones del DOM en [http://www.w3.org/DOM/DOMTR Informes técnicos del DOM].
+* Versión estable actual: El DOM nivel 3 es la versión más estable y cuya especificación está dividida en diferentes partes, todas las cuales han alcanzado el estado de  recomendación. Puedes encontrar una lista de todas las publicaciones del DOM en [http://www.w3.org/DOM/DOMTR Informes técnicos del DOM].
 
 * Trabajo actual y futuro: El [http://www.w3.org/TR/domcore/ DOM nivel 4] es la versión naciente del DOM en la que se está trabajando actualmente.
 
