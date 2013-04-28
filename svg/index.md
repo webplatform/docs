@@ -4,6 +4,8 @@
 
 Scalable Vector Graphics (SVG) is an XML markup language for structurally describing two-dimensional vector graphics. In essence, SVG is to graphics what [[html|HTML]] is to text. SVG is a [http://www.w3.org/Graphics/SVG/ W3C recommendation] and is explicitly designed to work with other W3C standards such as [[html|HTML]], [[css|CSS]] or [[dom|DOM]].
 
+{{Languages}}
+
 ==Explore our SVG docs==
 
 <div class="topic-container">
