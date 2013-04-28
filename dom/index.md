@@ -4,6 +4,8 @@
 
 The Document Object Model (DOM) is an application programming interface (API) for markup documents, like HTML, SVG, MathML, and XML. The DOM provides a logically structured representation of a document, and a set of Objects and Methods for manipulating that structure.
 
+{{Languages}}
+
 ==Explore our DOM docs==
 
 <div class="topic-container">
