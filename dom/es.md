@@ -51,7 +51,7 @@ El Modelo de Objetos de Documento (Document Object Model o DOM) es una interfaz 
 <div class="clearfixboth"></div>
 
 
-Nota: Si eres completamente nuevo en el desarrollo web, puede que desees revisar [[beginners|Desarrollo web para principiantes]].
+Nota: Si eres completamente nuevo en el desarrollo web, puede que desees revisar [[beginners/es|Desarrollo web para principiantes]].
 
 == Antecedentes ==
 
