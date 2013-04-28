@@ -4,6 +4,7 @@
 
 El Modelo de Objetos de Documento (Document Object Model o DOM) es una interfaz de programación de aplicaciones (API) para documentos con sintáxis de etiquetas como el HTML, SVG, MathML y XML. El DOM proporciona una representación de un documento estructurada lógicamente y un conjunto de Objetos y Métodos para la manipulación de esa estructura.
 
+{{Languages}}
 
 ==Explora nuestros documentos sobre el DOM==
 
