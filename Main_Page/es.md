@@ -88,7 +88,7 @@ Web Platform Docs es un sitio gestionado por la comunidad que aspira a convertir
     <div class="image icon-dom"></div>
     
     <div class="inner">
-    <h3>[[dom|DOM]]</h3>
+    <h3>[[dom/es|DOM]]</h3>
     
     <p>Tutoriales y material de referencia de los eventos y métodos del Document Object Model (<abbr>DOM</abbr>).</p>
     </div>
@@ -100,7 +100,7 @@ Web Platform Docs es un sitio gestionado por la comunidad que aspira a convertir
     <div class="image icon-svg"></div>
     
     <div class="inner">
-    <h3>[[svg|SVG]]</h3>
+    <h3>[[svg/es|SVG]]</h3>
     
     <p>Tutoriales y material de referencia de Scalable Vector Graphics (<abbr>SVG</abbr>), un lenguaje de etiqueado <abbr>XML</abbr> para describir imágenes vectoriales de dos dimensiones.</p>
     </div>
