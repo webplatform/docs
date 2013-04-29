@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status|Deprecated}}
 {{API_Name}}
-{{Summary_Section|The '''hgroup''' element (&lt;hgroup&gt;) is typically used to group a set of one or more h1-h6 elements — to group, for example, a section title and an accompanying subtitle. The (&lt;hgroup&gt;) element is obsolete in HTML5. }}
+{{Summary_Section|The '''hgroup''' element (&lt;hgroup&gt;) is typically used to group a set of one or more h1-h6 elements — to group, for example, a section title and an accompanying subtitle. The '''hgroup''' element (&lt;hgroup&gt;) element is obsolete in HTML5. }}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
 }}
