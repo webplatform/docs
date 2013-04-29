@@ -38,7 +38,7 @@ Links to descriptions of length and color are in the [[#Remarks]] section, below
 |Description=The fourth length is a spread distance. Positive values cause the shadow to expand and grow bigger, negative values cause the shadow to shrink. If not specified, it is 0 (the shadow is the same size as the element). (A zero-sized shadow shape causes the outer shadow to disappear, and the inner shadow to cover the entire padding-box.) For inner shadows, expanding the shadow (creating more shadow area) means contracting the shadow's perimeter shape.
 }}{{CSS Property Value
 |Data Type=<color>
-|Description=See color values for possible keywords and notations. If not specified, the color used depends on the browser - it is usually the value of the color property, but note that Safari currently paints a transparent shadow in this case.
+|Description=See color values for possible keywords and notations. If not specified, the color used depends on the browser -- it is usually the value of the color property, but note that Safari currently paints a transparent shadow in this case.
 }}
 }}
 {{Examples_Section
