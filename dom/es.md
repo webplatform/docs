@@ -51,11 +51,11 @@ El Modelo de Objetos de Documento (Document Object Model o DOM) es una interfaz 
 <div class="clearfixboth"></div>
 
 
-Nota: Si eres completamente nuevo en el desarrollo web, puede que desees revisar [[beginners/es|Desarrollo web para principiantes]].
+Nota: Si eres completamente nuevo en el desarrollo web, puede que quieras revisar [[beginners/es|Desarrollo web para principiantes]].
 
 == Antecedentes ==
 
-Cuando un documento etiquetado es analizado por el navegador, éste convierte el documento en una estructura de árbol llamada el modelo de objetos del documento o DOM. Dicho modelo puede ser utilizado para acceder y manipular los elementos existentes en el documento o crear otros elementos nuevos, un conjunto de actividades esenciales para crear funcionalidades dinámicas en la página.
+Cuando el navegador analiza un documento etiquetado, éste lo convierte en una estructura de árbol llamada el modelo de objetos del documento o DOM. Dicho modelo puede ser utilizado para acceder y manipular los elementos existentes en el documento o crear otros elementos nuevos, un conjunto de actividades esenciales para crear funcionalidades dinámicas en la página.
 
 * Primera versión: Publicada en 1997 cuando los fabricantes de navegadores que participan en el W3C decidieron ponerse de acuerdo en un solo modelo de objetos de documento estandarizado para hacer la creación de código multi-navegador menos que una pesadilla.
 
