@@ -112,7 +112,7 @@ Web Platform Docs es un sitio gestionado por la comunidad que aspira a convertir
     <div class="image icon-api"></div>
     
     <div class="inner">
-    <h3>[[apis|APIs]]</h3>
+    <h3>[[apis/es|APIs]]</h3>
     
     <p>Material de referencia de las <abbr>API</abbr>s de JavaScript desde appcache hasta xhr.</p>
     </div>
