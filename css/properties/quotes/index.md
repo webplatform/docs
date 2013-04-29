@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -12,7 +13,7 @@
 |Media=visual
 |Animatable=No
 |Values={{CSS Property Value
-|Data Type=&lt;string&gt;
+|Data Type=<string>
 |Description=The "open-quote" and "close-quote" values are taken from the specified list of pairs of quotation marks.
 }}{{CSS Property Value
 |Data Type=none
