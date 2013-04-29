@@ -1,4 +1,4 @@
-'''CAUTION!''' In translation process! 
+<span style="padding: 1em; background-color: #E54E27; color: #FFFFFF ">'''CAUTION!'''  In translation process! </span>
 
 
 {{Page_Title|Fundamentos de accesibilidad web}}
