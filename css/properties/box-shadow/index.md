@@ -22,7 +22,7 @@ Links to descriptions of length and color are in the [[#Remarks]] section, below
 |CSS object model property=boxShadow
 |CSS percentages=???
 |Values={{CSS Property Value
-|Data Type=inset
+|Data Type=<inset>
 |Description=If not specified (default), the shadow is assumed to be a drop shadow (as if the box were raised above the content). The presence of the inset keyword changes the shadow to one inside the frame (as if the content was depressed inside the box). Inset shadows are drawn inside the border (even transparent ones), above the background, but below content.
 }}{{CSS Property Value
 |Data Type=<offset-x>
