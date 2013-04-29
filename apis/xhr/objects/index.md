@@ -1,13 +1,20 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|Checked_Out=No
+}}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section}}
-{{API_Listing
-|Use_page_title=No
+{{API_Listing|Use_page_title=No
 |List_all_subpages=Yes
 }}
-{{Notes_Section}}
+{{Concept_Listing
+|Use_page_title=No
+|List_all_subpages=No
+}}
+{{Notes_Section
+|Usage=<subpages />
+}}
 {{See_Also_Section}}
 {{Topics}}
 {{External_Attribution
