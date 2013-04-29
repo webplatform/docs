@@ -87,7 +87,7 @@ Imágenes vectoriales escalables o Scalable Vector Graphics (SVG) es un lenguaje
 <div class="clearfixboth"></div>
 
 
-Nota: Si eres completamente nuevo en el desarrollo web, puede que desees revisar [[beginners/es|Desarrollo web para principiantes]].
+Nota: Si eres completamente nuevo en el desarrollo web, puede que quieras revisar [[beginners/es|Desarrollo web para principiantes]].
 
 == Antecedentes ==
 
