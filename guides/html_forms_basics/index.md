@@ -115,7 +115,7 @@ This form looks like Figure 2 when rendered in a browser:
  
 Figure 2: The second form example — looking better.
  
-You can [http://dev.opera.com/articles/view/20-html-forms-the-basics/step-2-form.html play with the improved form on a separate page by clicking here].
+You can [http://dev.opera.com/articles/view/20-html-forms-the-basics/step-2-form.html play with the improved form on a separate page by clicking here]. Please note that when you try to submit this example form, you will get a 404 error — this is because the <code>script.php</code> file the <code>action</code> attribute points to does not actually exist; it is just there to give you the idea of what happens upon form submission. Read the section covering the <code>action</code> attribute, below, for more information.
  
 Here I have made a few additions to the basic, simple form. Let’s break it down so you know what I did:
 
