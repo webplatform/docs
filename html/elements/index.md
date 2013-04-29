@@ -70,6 +70,7 @@ This is the list of HTML and related Elements from the past to the present.
 * [[html/elements/figure|figure]]
 * [[html/elements/figcaption|figcaption]]
 * [[html/elements/div|div]]
+* [[html/elements/main|main]]
 * [[html/elements/center|center]]
 
 == Text-level semantics ==
