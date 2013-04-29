@@ -20,7 +20,7 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Language=JavaScript
+|Language=HTML
 |Description=This example uses the '''event''' object to gain information about the origin of the click. In addition, it cancels the default action to prevent navigation of [[html/elements/a|'''anchor''']] elements, unless the SHIFT key is pressed. Normally a Shift+Click opens the target of a link in a new window; however, the script replaces the current document by setting the [[dom/location|'''location''']] of the '''window''' object.
 |Code=&lt;script type{{=}}"text/javascript"&gt;
 /* This code cancels the event. If the click occurs in an anchor
@@ -45,7 +45,7 @@ function clickIt()
 &lt;/body&gt;
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/onclickEX.htm
 }}{{Single Example
-|Language=JavaScript
+|Language=HTML
 |Description=This example shows how to bind the '''onclick''' event to grouped controls.
 |Code=&lt;head&gt;
 &lt;script type{{=}}"text/javascript"&gt;
