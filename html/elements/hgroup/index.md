@@ -270,7 +270,7 @@ This property is not supported for Metro style apps using JavaScript.
 |Notes_rows=
 }}
 {{See_Also_Section
-|External_links=http://www.w3.org/TR/html-markup/hgroup.html
+|External_links=http://www.w3.org/html/wg/drafts/html/CR/obsolete.html#hgroup
 |Manual_sections====Related pages (MSDN)===
 *<code>Reference</code>
 *<code>article</code>
