@@ -64,7 +64,7 @@ Web Platform Docs es un sitio gestionado por la comunidad que aspira a convertir
     <div class="image icon-accessibility"></div>
     
     <div class="inner">
-    <h3>[[concepts/accessibility|Accesibilidad]]</h3>
+    <h3>[[concepts/accessibility/es|Accesibilidad]]</h3>
     
     <p>Modelos, prácticas y casos de estudio dirigidas a hacer que la web funcione para las personas de un diverso rango de capacidades.</p>
     </div>
