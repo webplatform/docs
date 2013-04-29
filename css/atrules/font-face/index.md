@@ -6,27 +6,36 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The <code>@font-face</code> CSS at-rule allows authors to specify online fonts to display text on their web pages. By allowing authors to provide their own fonts, <code>@font-face</code> eliminates the need to depend on the limited number of fonts users have installed on their computers. }}
+{{Summary_Section|The <code>@font-face</code> CSS at-rule allows authors to specify online fonts to display text on their web pages. By allowing authors to provide their own fonts, <code>@font-face</code> eliminates the need to depend on the limited number of fonts users have installed on their computers.}}
 {{CSS_At_Rule}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=The following example embeds a font in an HTML document by pointing to the font source, which is located at another site.
-|Code=&lt;html&gt;
-&lt;head&gt;
-&lt;style type{{=}}"text/css"&gt;
+|Language=CSS
+|Description=The following example uses the Open Sans font to style the paragraph element.
+|Code=/* Declare the font using @font-face. */
 @font-face {
-      font-family:comic;
-      src:url(http://valid_url/some_font_file.eot);
-   }
-&lt;/style&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;p style{{=}}"font-family: comic; font-size: 18pt"&gt;This paragraph uses the font-face 
-rule defined in the above style element. The rule embeds an OpenType file for the 
-Comic Sans font. &lt;/p&gt;
-&lt;/body&gt;
-&lt;/html&gt;
+  font-family: "Open Sans";
+  src: local("Open Sans"), /* Prefer a locally installed version of the font. */
+       local("OpenSans"),
+       /* URL requires a valid path to the respective font file.
+          Same origin policy is applicable here.
+       */
+       url("/path/to/OpenSans.eot?#iefix") format("embedded-opentype"),
+       url("/path/to/OpenSans.woff") format("woff"),
+       url("/path/to/OpenSans.ttf") format("truetype"),
+       url("/path/to/OpenSans.svg#OpenSans") format("svg");
+  src: url("/path/to/OpenSans.eot");
+
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Use the font in your CSS as follows. */
+p {
+  font-family: "Open Sans", sans-serif;
+}
+|LiveURL=http://code.webplatform.org/gist/5481068
 }}
 }}
 {{Notes_Section
