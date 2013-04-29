@@ -22,7 +22,7 @@ Links to descriptions of length and color are in the [[#Remarks]] section, below
 |CSS object model property=boxShadow
 |CSS percentages=???
 |Values={{CSS Property Value
-|Data Type=[[css/properties/border-style#inset|'''inset''']]
+|Data Type=inset
 |Description=If not specified (default), the shadow is assumed to be a drop shadow (as if the box were raised above the content). The presence of the inset keyword changes the shadow to one inside the frame (as if the content was depressed inside the box). Inset shadows are drawn inside the border (even transparent ones), above the background, but below content.
 }}{{CSS Property Value
 |Data Type=<offset-x>
@@ -140,9 +140,11 @@ See also:
 |Internet_explorer_supported=Yes
 |Internet_explorer_version=9.0
 |Internet_explorer_prefixed_supported=Unknown
+|Internet_explorer_prefixed_version=
 |Opera_supported=Yes
 |Opera_version=10.5
 |Opera_prefixed_supported=No
+|Opera_prefixed_version=
 |Safari_supported=Yes
 |Safari_version=5.1
 |Safari_prefixed_supported=Yes
@@ -158,15 +160,25 @@ See also:
 |Blackberry_prefixed_supported=Yes
 |Blackberry_prefixed_version=7.0
 |Chrome_mobile_supported=Unknown
+|Chrome_mobile_version=
 |Chrome_mobile_prefixed_supported=Unknown
+|Chrome_mobile_prefixed_version=
 |Firefox_mobile_supported=Unknown
+|Firefox_mobile_version=
 |Firefox_mobile_prefixed_supported=Unknown
+|Firefox_mobile_prefixed_version=
 |IE_mobile_supported=Unknown
+|IE_mobile_version=
 |IE_mobile_prefixed_supported=Unknown
+|IE_mobile_prefixed_version=
 |Opera_mobile_supported=No
+|Opera_mobile_version=
 |Opera_mobile_prefixed_supported=Unknown
+|Opera_mobile_prefixed_version=
 |Opera_mini_supported=Unknown
+|Opera_mini_version=
 |Opera_mini_prefixed_supported=Unknown
+|Opera_mini_prefixed_version=
 |Safari_mobile_supported=Yes
 |Safari_mobile_version=5.0-5.1
 |Safari_mobile_prefixed_supported=Yes
@@ -190,4 +202,7 @@ See also:
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
 }}
