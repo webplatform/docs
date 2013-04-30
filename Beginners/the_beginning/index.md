@@ -25,16 +25,16 @@ The technology that the Web runs on top of has its roots in an old US military p
 
 Find more about the web's history and origins in [[concepts/internet and web/the history of the web|The history of the Web]]
 
-The main components of the Web are as follows:
+The main components which allow us to access the Web are:
 
 <ul>
-<li><p>Web servers: This is a computer where web sites are stored, ready for delivery to those who want to look at them.</p></li>
-<li><p>Client computers: Such as your laptop, mobile phone or other web-enabled device. You can use your web browser to '''request''' a web site from a server, at which point it send a '''response''' back, which includes all the information needed for your web browser to display the web site</p></li>
-<li><p>A web browser: As indicated above, this is a program installed on your computer that accesses and displays web sites for you, allowing you to interact with the Web.</p></li>
-<li><p>A means of networking computers together: these are generally referred to as '''networking protocols''', and they join all the computers on the Web together, allowing them to talk to each other.</li></p>
-<li><p>transporting data around the Web: this is generally referred to as a '''transmission protocol''', a system that handles transporting data around the Web.</p></li>
-<li><p>A DNS (Domain Name Server): this is basically like an address book for the Web. The real locations that web sites live at, on web servers, are represented by complicated strings of numbers called '''IP addresses'''. Domain Name Servers associate these addresses with domain names, so they are easier to handle for humans. So for example, the IP address of google.co.uk is 173.194.66.94 — try typing it in and you'll see we're right — but google.co.uk is far easier to remember!</p></li>
-<li><p>Web technologies: these are the different types of code that web developers use to create web sites. When a web site is requested from a server by a web browser, the data that is sent back to the web browser will consist of a series of files containing various information such as the text you want to show on the web page, the styles that text should have, etc. This is then read by the web browser, which assembles the files into a complete web page. </p></li>
+<li><p>Web servers: The computers on which web sites are stored, ready for delivery to those who want to look at them.</p></li>
+<li><p>Client: Any computing device, such as your laptop or mobile phone, that can be used to connect to and draw content from the web. Your device uses a web browser to '''request''' a web site from a server, which sends back a '''response''', which includes all the information needed for your web browser to display the web site</p></li>
+<li><p>Web Browser: A program installed on a Client allowing it to access and display web sites, thereby allowing you to interact with the Web.</p></li>
+<li><p>Networking Protocols: Agreed upon methods by which computers communicate with each other on a network, allowing the many different types of computers on the Web to talk to each other.  The term HTTP, for instance, means Hyper Text Transfer Protocol and tells your browser how to interface with the network to access information stored on the Web..</p></li>
+<li><p>Transmission Protocols: The various agreed upon methods for transporting data around the Web, the most common being FTP, File Transfer Protocol.</p></li>
+<li><p> DNS (Domain Name Server): This is essentially an address book for the Web that links common names to the numerical addresses at which all Web sites are stored. All Web sites are actually located at numerical addresses of the form ###.###.###.### called '''IP addresses'''. Domain Name Servers associate these addresses with domain names, so they are easier to handle for humans. So for example, the IP address of google.co.uk is 173.194.66.94 — try typing it in and you'll see we're right — but google.co.uk is far easier to remember!</p></li>
+<li><p>Web Technologies: these are the different types of code that web developers use to create web sites. When a web site is requested from a server by a web browser, the data that is sent back to the web browser will consist of a series of files containing various information such as the text you want to show on the web page, the styles that text should have, etc. This is then read by the web browser, which assembles the files into a complete web page. </p></li>
 </ul>
 
 [INSERT IMAGE OF TOWN AND CITY CONNECTED BY ROAD, WITH DELIVERY VAN GOING ALONG ROAD TOWARDS TOWN. I'D LIKE IT TO EXPRESS SOMETHING LIKE THE FOLLOWING: Imagine the Web as being like a series of towns and cities connected by roads. One town (the client computer) wants to get a supply of chocolate (web site) from the awesome chocolatier in the city. So the town's mayor (web browser) writes a letter (web request) to send to the chocolatier in the city. The town's mayor has the address of the chocolatier (domain name), but is not sure how to actually get there, so she gives it to the postman, and he takes it there (this is basically what the Domain Name Server does when it is given a domain name). The city is happy to give the town some of its chocolate supply from the chocolatier, so it sends a delivery van full over right away (the code files, written using web standards), travelling by the main road (the transmission protocol). Once it gets to the town, the mayor distributes the chocolate to all her townsfolk (displays the web page), and everyone is happy (users are easy to please).]
@@ -45,10 +45,10 @@ Read [[concepts/internet and web/how does the internet work|How does the Interne
 
 ==What are web standards?==
 
-Web standards are the technologies that we use to build web pages; there are a number of different ones, but in this short article series we will only really be talking about three:
+Web standards are the technologies that we use to build web pages; there are a number of different ones, but this material will address only three:
 
 <ul>
-<li><p>'''Hypertext Markup Language (HTML)''': This language is used to structure your data and give it meaning. For example, if you wanted to break your content into three paragraphs and a bulleted list. Consider an architectural analogy — if a web page were like a building, then HTML would be like the foundations, brickwork and roof. Having a solid structure is essential to both web pages and buildings.</p>
+<li><p>'''Hypertext Markup Language (HTML)''': This language is used to structure your data and give it meaning. Just like a school paper — with a cover page, table of contents, introduction, body, conclusion and bibliography — HTML code is used to separate blocks of information (such as a heading, paragraph, bulleted list, table, or definition) that can be manipulated and formated (via CSS, Cascading Style Sheets) in their own particular manner.  Probably the most important part of this is the Hypertext of HTML.  HTML defines how links operate, both within documents and to any other place accessible on the Web.</p>
 
 <p>[INSERT IMAGE OF HTML ELEMENTS AND WHAT THEY CREATE ON THE RENDERED PAGE, SOMETHING LIKE I'VE SHOWN BELOW. ALSO INCLUDE HOUSE OR WALL JUST SHOWING THE BARE ROOF AND BRICKWORK] </p>
 
@@ -66,7 +66,7 @@ renders as
 </li>
 
 
-<li><p>'''Cascading Style Sheets (CSS)''': This language is used to style your content and position it on the page. For example, if you wanted to  make the text of your paragraphs red, and move them all downwards by 2 centimeters. In our building analogy, CSS would be like the decorations using to make the building look nice — the plaster, paint, wallpaper, doorhandles and coving.</p>
+<li><p>'''Cascading Style Sheets (CSS)''': This language is used to style your content and position it on the page. For example, if you wanted to  make the text of your paragraphs red, and move them all downwards by 2 centimeters on a background of skulls and a border that looked like a cemetery fence, you would do that with CSS. In our paper analogy, CSS provides the instructions to make the paper look nice — centering the title, making the headings bold and so forth.</p>
 
 <p>[INSERT IMAGE OF CSS AND HTML BEING ADDED TOGETHER TO PRODUCE SOME STYLED TEXT, SOMETHING LIKE I'VE SHOWN BELOW. ALSO INCLUDE HOUSE IMAGE THAT BUILDS ON THE LAST ONE, SHOWING THE HOUSE NOW DECORATED WITH PAIN AND NICE COLOURED TILES?] </p>
 
@@ -87,7 +87,7 @@ p { color: red; }</pre>
 
 </li>
 
-<li><p>'''JavaScript''': This language is used to add dynamic functionality to your web page. So for example, if you wanted to make it so that when you click on each paragraph using the mouse, a pop-up dialog box appears, telling you how many letters each paragraph contains. In our building analogy, JavaScript would be like cool functionality you have inside the house, like the cooker, flatscreen TV, power shower, robot butler...</p></li>
+<li><p>'''JavaScript''': This language is used to add dynamic functionality to your web page. This is actually another computer language called by HTML code to provide further functionality.  For example, Javascript could help you make a pop-up dialog box appear when you click on a paragraph to tell you how many letters it contains.  Going back to the paper, it could help you render your data as a graph or pie chart.</p></li>
 
 <p>[INSERT IMAGE OF CSS AND HTML AND JAVASCRIPT BEING ADDED TOGETHER TO PRODUCE SOME STYLED TEXT WITH SOME FUNCTIONALITY, LIKE A POPUP WINDOW OVER THE TOP OF THE PARAGRAPH SHOWING HOW MANY CHARACTERS THE PARAGRAPH CONTAINS. ALSO INCLUDE HOUSE IMAGE THAT BUILDS ON THE LAST ONE, SHOWING THE DECORATED HOUSE WITH SOME COOL FUNCTIONALITY ADDED. HOW ABOUT A SATELLITE DISH ON THE ROOF, AND A WALL MOUNTED TV SEEN THROUGH THE WINDOW?] </p>
 
@@ -137,7 +137,7 @@ A decent text editor, to write your code in. Reasonable free options include:
 
 Go ahead, download and install these now. We'll wait right here.
 {{Notes_Section}}
-{{Topics}}
+{{Topics|CSS, HTML, JavaScript}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
