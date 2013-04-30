@@ -24,7 +24,7 @@
 
     <div class="long-topic">
 
-	<div class="image icon-api"></div>
+	<div class="image icon-css"></div>
 	<div class="inner">
 	    <h3>Try</h3>
 	    <p>Try out Pointer Events demos.</p>
@@ -37,7 +37,7 @@
 
     <div class="long-topic">
 
-	<div class="image icon-beginners"></div>
+	<div class="image icon-api"></div>
 	<div class="inner">
 	    <h3>Test</h3>
 	    <p>Test and validate Pointer Events implementations.</p>
