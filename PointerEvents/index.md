@@ -34,7 +34,6 @@
 	    <h3>Test</h3>
 * [http://html5labs.interoperabilitybridges.com/prototypes/pointer-events-for-webkit/pointer-events-for-webkit/info Pointer Events for Webkit on HTML5Labs]
 * [http://handjs.codeplex.com/ Hand.js project on CodePlex]
-* [http://appendto.com/blog/2013/02/prototype-chromium-build-with-support-for-ms-pointer-events/ Prototype Chromium build]
 * [http://www.w3.org/wiki/PointerEvents/TestAssertions Test Assertions for Pointer Events]
 	</div>
     </div>
