@@ -9,7 +9,7 @@
 	<div class="inner">
 	    <h3>Learn</h3>
 
-	    <p>Concepts and tutorials related to Pointer Events.</p>
+	    <p>Concepts related to Pointer Events.</p>
 * [http://docs.webplatform.org/wiki/concepts/Pointer_Events Pointer Events Primer]
 * [http://blogs.msdn.com/b/eternalcoding/archive/2013/01/16/hand-js-a-polyfill-for-supporting-pointer-events-on-every-browser.aspx Hand.js Pointer Events Polyfill]
 * [http://www.youtube.com/watch?v=SCfVn4JY5yk Jacob Rossi ‘Pointing Forward’ at W3Conf 2013]
