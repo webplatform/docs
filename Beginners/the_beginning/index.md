@@ -29,7 +29,7 @@ The main components which allow us to access the Web are:
 
 <ul>
 <li><p>Web servers: The computers on which web sites are stored, ready for delivery to those who want to look at them.</p></li>
-<li><p>Client: Any computing device, such as your laptop or mobile phone, that can be used to connect to and draw content from the web. Your device uses a web browser to '''request''' a web site from a server, which sends back a '''response''', which includes all the information needed for your web browser to display the web site</p></li>
+<li><p>Client: Any computing device, such as your laptop or mobile phone, that can be used to connect to and draw content from the web. Your device uses an application (usually a web browser) to '''request''' a web site/other data from a server; the server then sends back a '''response''', which includes all the information needed for your application to display the web site or other data you requested.</p></li>
 <li><p>Web Browser: A program installed on a Client allowing it to access and display web sites, thereby allowing you to interact with the Web.</p></li>
 <li><p>Networking Protocols: Agreed upon methods by which computers communicate with each other on a network, allowing the many different types of computers on the Web to talk to each other.  The term HTTP, for instance, means Hyper Text Transfer Protocol and tells your browser how to interface with the network to access information stored on the Web..</p></li>
 <li><p>Transmission Protocols: The various agreed upon methods for transporting data around the Web, the most common being FTP, File Transfer Protocol.</p></li>
