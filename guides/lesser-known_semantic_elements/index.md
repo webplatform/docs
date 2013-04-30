@@ -310,7 +310,7 @@ which is the accepted way of marking the boundaries between document
 sections.
  
 The <code>&lt;hr&gt;</code> element has no uncommon attributes and should be styled
-using CSS if the default appearance in unsatisfactory.
+using CSS if the default appearance is unsatisfactory.
  
 Also, like the line break, if you are writing XHTML style syntax and not HTML,
 use the self-closing form — &lt;hr /&gt;.
