@@ -1,5 +1,7 @@
 {{Page_Title|DOCTYPES and markup styles}}
 {{Flags
+|High-level issues=Needs Review
+|Content=Outdated,Incomplete,Errors
 }}
 {{Byline}}
 {{Summary_Section|In this article we will explore the different doctypes you are likely to come across on your journey around the Web, as well as look at how XHTML and HTML differ.}}
