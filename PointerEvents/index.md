@@ -11,7 +11,7 @@
 * [http://docs.webplatform.org/wiki/concepts/Pointer_Events Pointer Events Primer]
 * [http://blogs.msdn.com/b/eternalcoding/archive/2013/01/16/hand-js-a-polyfill-for-supporting-pointer-events-on-every-browser.aspx Hand.js Pointer Events Polyfill]
 * [http://www.youtube.com/watch?v=SCfVn4JY5yk Jacob Rossi ‘Pointing Forward’ at W3Conf 2013]
-* [http://blogs.msdn.com/b/davrous/archive/2013/02/20/handling-touch-in-your-html5-apps-thanks-to-the-pointer-events-of-ie10-and-windows-8.aspx Unifying Touch and Mouse with Pointer Events]
+* [http://blogs.msdn.com/b/davrous/archive/2013/02/20/handling-touch-in-your-html5-apps-thanks-to-the-pointer-events-of-ie10-and-windows-8.aspx Unifying Touch and Mouse]
 	</div>
     </div>
 
@@ -34,7 +34,7 @@
 	    <h3>Test</h3>
 * [http://html5labs.interoperabilitybridges.com/prototypes/pointer-events-for-webkit/pointer-events-for-webkit/info Pointer Events for Webkit on HTML5Labs]
 * [http://handjs.codeplex.com/ Hand.js project on CodePlex]
-* [http://appendto.com/blog/2013/02/prototype-chromium-build-with-support-for-ms-pointer-events/ Prototype Chromium build with support for MS Pointer Events]
+* [http://appendto.com/blog/2013/02/prototype-chromium-build-with-support-for-ms-pointer-events/ Prototype Chromium build]
 * [http://www.w3.org/wiki/PointerEvents/TestAssertions Test Assertions for Pointer Events]
 	</div>
     </div>
