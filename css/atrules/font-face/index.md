@@ -3,7 +3,6 @@
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete
 |Checked_Out=No
-|Editorial notes=Removed "Examples Best Practices" flag as I have added two examples.
 }}
 {{Standardization_Status}}
 {{API_Name}}
