@@ -79,7 +79,7 @@ Calling this function with an element ID passed in as an argument is straightfor
 If you accidentally call the function without passing in an argument, it takes the value <code>undefined</code>. You can test for this inside your function body to provide a bit of defense against unintentional misuse:
  
 <syntaxhighlight lang="javascript">
-if ( elementID == undefined) {
+if ( typeof elementID === 'undefined") {
   // This will evaluate to `true` if the `elementID`
   // variable wasn't provided by the caller.
   // You can then write some code inside this
