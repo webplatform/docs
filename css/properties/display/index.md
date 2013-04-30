@@ -85,7 +85,7 @@ Note: At the time of this writing, most modern browsers do not support this prop
 
 * If the run-in box contains a block box, same as block.
 * If a block box follows the run-in box, the run-in box becomes the first inline box of the block box.
-* If a inline box follows, the run-in box becomes a block box. .
+* If an inline box follows, the run-in box becomes a block box. .
 }}{{CSS Property Value
 |Data Type=block
 |Description=Generates a block element box. This is a basic value in CSS 1.
