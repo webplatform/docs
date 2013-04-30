@@ -1,7 +1,8 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -16,7 +17,7 @@
 |Description=Pseudo element is not generated
 }}{{CSS Property Value
 |Data Type=normal
-|Description=Sets the content, if specified, to normal, which default is "none" (which is nothing)
+|Description=Equivalent to "none" for :before and :after pseudo-elements, which are the only places the content property currently applies.
 }}{{CSS Property Value
 |Data Type=string
 |Description=Text content, in either double quotation marks (") or single quotation marks (').
@@ -24,7 +25,7 @@
 |Data Type=counter
 |Description=Possible values include the following:
 }}{{CSS Property Value
-|Data Type=open-quote 
+|Data Type=open-quote
 |Description=Sets the content to be the appropriate string from the quotes property.
 }}{{CSS Property Value
 |Data Type=close-quote
@@ -94,12 +95,13 @@ to be in IE8 Standards mode rendering.
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=Multi-Column, Generated and Replaced Content
+|Topic_clusters=Generated and Replaced Content, Multi-Column
 |Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
