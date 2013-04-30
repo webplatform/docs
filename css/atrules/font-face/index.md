@@ -118,7 +118,7 @@ Dynamic HTML (DHTML) expressions can be used instead of the preceding value(s). 
 |Safari_mobile_prefixed_supported=Unknown
 |Safari_mobile_prefixed_version=
 }}{{Compatibility Table Mobile Row
-|Feature=TTF/OTF - TrueType and OpenType font support
+|Feature=TTF/OTF - TrueType and OpenType Font
 |Android_supported=Yes
 |Android_version=2.3
 |Android_prefixed_supported=Unknown
@@ -186,7 +186,7 @@ Dynamic HTML (DHTML) expressions can be used instead of the preceding value(s). 
 |Safari_mobile_prefixed_supported=Unknown
 |Safari_mobile_prefixed_version=
 }}{{Compatibility Table Mobile Row
-|Feature=EOT - Embedded OpenType fonts
+|Feature=EOT - Embedded OpenType font
 |Android_supported=No
 |Android_version=
 |Android_prefixed_supported=Unknown
@@ -223,7 +223,7 @@ Dynamic HTML (DHTML) expressions can be used instead of the preceding value(s). 
 |Notes_rows={{Compatibility Notes Row
 |Browser=Internet Explorer
 |Version=5.5 - 9.0
-|Note=Only supporting EOT fonts
+|Note=Supports EOT fonts only
 }}{{Compatibility Notes Row
 |Browser=Android
 |Version=2.2 - 3.0
@@ -231,7 +231,7 @@ Dynamic HTML (DHTML) expressions can be used instead of the preceding value(s). 
 }}{{Compatibility Notes Row
 |Browser=Safari Mobile
 |Version=3.2 - 4.1
-|Note=Only supports SVG fonts
+|Note=Supports SVG fonts only
 }}
 }}
 {{See_Also_Section
@@ -242,6 +242,6 @@ Dynamic HTML (DHTML) expressions can be used instead of the preceding value(s). 
 |Is_CC-BY-SA=No
 |Sources=MDN, MSDN
 |MDN_link=https://developer.mozilla.org/en-US/docs/CSS/@font-face
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/ms530757(v=vs.85).aspx
 |HTML5Rocks_link=
 }}
