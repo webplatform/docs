@@ -1,5 +1,7 @@
 {{Page_Title|border-image-source}}
-{{Flags}}
+{{Flags
+|Checked_Out=No
+}}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|The property <code>border-image-source</code> is used to set the image to be used instead of the border style. If this is set to <code>none</code> the <code>border-style</code> is used instead.}}
@@ -14,7 +16,7 @@
 |Description=Default. <code>border-style</code> is used instead.
 }}{{CSS Property Value
 |Data Type=url(path/to/image.png)
-|Description=This value contains a path to an image that you want to apply to the element in question as a background image, using the CSS images syntax, as described at ["CSS images: url()" http://docs.webplatform.org/wiki/css/functions/url()].
+|Description=This value contains a path to an image that you want to apply to the element in question as a background image, using the CSS images syntax, as described at [[css/functions/url()|"CSS images: url()"]].
 }}
 }}
 {{Examples_Section
