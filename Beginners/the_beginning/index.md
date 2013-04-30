@@ -137,7 +137,7 @@ A decent text editor, to write your code in. Reasonable free options include:
 
 Go ahead, download and install these now. We'll wait right here.
 {{Notes_Section}}
-{{Topics|CSS, HTML, JavaScript}}
+{{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
