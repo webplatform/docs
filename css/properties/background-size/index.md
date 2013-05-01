@@ -36,6 +36,7 @@ For more information about the supported length units, see the CSS Values and Un
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
+|Description=Basic list of syntax examples for background-size.
 |Code=/* Keywords syntax */
 background-size: cover
 background-size: contain
@@ -58,6 +59,70 @@ background-size: 50%, 25%, 25%
 background-size: 6px, auto, contain
 
 background-size: inherit
+}}{{Single Example
+|Language=HTML
+|Description=HTML structure of a series of <div>s that are identical except that they have different background-size values applied to the background image.
+|Code=<p>Original image is 273 x 286 px, and has a transparent area around the outside of roughly 45px.</p>
+
+<div class="one"><code>background-size: auto auto;</code></div>
+<div class="two"><code>background-size: contain;</code></div>
+<div class="three"><code>background-size: cover;</code></div>
+<div class="four"><code>background-size: 20% 25%;</code></div>
+<div class="five"><code>background-size: 100px 400px;</code></div>
+<div class="six"><code>background-size: 100% 250px;</code></div>
+<div class="seven"><code>background-size: 100% 250px, 20% 25%;</code></div>
+}}{{Single Example
+|Language=CSS
+|Description=CSS applied to the HTML example sen above.
+|Code=div {
+   width: 17%;
+   height: 200px;
+   padding: 10px;
+   border-radius: 20px;
+   box-shadow: 2px 2px 10px rgba(0,0,0,0.75);
+   float: left;
+   margin-right: 20px;
+   background-color: rgba(0,0,0,0.25);
+   background-image: url(http://www.webplatform.org/logo/wplogo_transparent_xlg.png);
+ }
+ 
+ code {
+   background-color: rgba(255,255,255,0.7);
+   padding: 2px;
+   border-radius: 5px
+ }
+
+.one {
+  background-size: auto auto;
+}
+
+.two {
+  background-size: contain;
+}
+
+.three {
+  background-size: cover;
+}
+
+.four {
+  background-size: 20% 25%;
+}
+
+.five {
+  background-size: 100px 400px;
+}
+
+.six {
+  background-size: 100% 250px;
+}
+
+.seven {
+  background-image: url(http://www.webplatform.org/logo/wplogo_transparent_xlg.png), url(http://www.webplatform.org/logo/wplogo_transparent_xlg.png);
+  background-size: 100% 250px, 20% 25%;
+}
+
+
+|LiveURL=http://code.webplatform.org/
 }}
 }}
 {{Notes_Section
