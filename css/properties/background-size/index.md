@@ -62,15 +62,15 @@ background-size: inherit
 }}{{Single Example
 |Language=HTML
 |Description=HTML structure of a series of <code>&lt;div&gt;</code>s that are identical except that they have different <code>background-size</code> values applied to the background image.
-|Code=<p>Original image is 273 x 286 px, and has a transparent area around the outside of roughly 45px.</p>
+|Code=&lt;p&gt;Original image is 273 x 286 px, and has a transparent area around the outside of roughly 45px.&lt;/p&gt;
 
-<div class="one"><code>background-size: auto auto;</code></div>
-<div class="two"><code>background-size: contain;</code></div>
-<div class="three"><code>background-size: cover;</code></div>
-<div class="four"><code>background-size: 20% 25%;</code></div>
-<div class="five"><code>background-size: 100px 400px;</code></div>
-<div class="six"><code>background-size: 100% 250px;</code></div>
-<div class="seven"><code>background-size: 100% 250px, 20% 25%;</code></div>
+&lt;div class="one"&gt;&lt;code&gt;background-size: auto auto;&lt;/code&gt;&lt;/div&gt;
+&lt;div class="two"&gt;&lt;code&gt;background-size: contain;&lt;/code&gt;&lt;/div&gt;
+&lt;div class="three"&gt;&lt;code&gt;background-size: cover;&lt;/code&gt;&lt;/div&gt;
+&lt;div class="four"&gt;&lt;code&gt;background-size: 20% 25%;&lt;/code&gt;&lt;/div&gt;
+&lt;div class="five"&gt;&lt;code&gt;background-size: 100px 400px;&lt;/code&gt;&lt;/div&gt;
+&lt;div class="six"&gt;&lt;code&gt;background-size: 100% 250px;&lt;/code&gt;&lt;/div&gt;
+&lt;div class="seven"&gt;&lt;code&gt;background-size: 100% 250px, 20% 25%;&lt;/code&gt;&lt;/div&gt;
 }}{{Single Example
 |Language=CSS
 |Description=CSS applied to the HTML example seen above.
