@@ -30,22 +30,33 @@ The dimensions of the content alone are thus calculated by subtracting the paddi
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=The following example assumes markup that looks like this
+|Description=The following examples assume markup that looks like this.
 |Code=&lt;div class="parent"&gt;
 	&lt;div class="child"&gt;&lt;/div&gt;
 &lt;/div&gt;
 }}{{Single Example
 |Language=CSS
-|Description=An element with padding that occupies half the width of its parent.
+|Description=This CSS makes it so that the child <code>&lt;div&gt;</code> will always An element with padding that occupies half the width of its parent. This works because it has <code>box-sizing: border-box</code> set on it, so the total width will always be content plus padding plus border. As the border and padding get thicker, the element doesn't get larger. Instead, the content gets smaller to make way for the change. 
 |Code=/* Support Firefox, WebKit, Opera and IE8+ */
-.child {
-	-moz-box-sizing: border-box;
-	     box-sizing: border-box;
 
-	float: left;
-	padding: 2rem;
-	width: 50%
-}
+.parent {
+   width: 50%;
+   height: 200px;
+   background: red;
+ }
+ 
+ .child {   
+   border: 30px solid rgba(0,0,0,0.5); 
+   float: left;
+   padding: 3rem;
+   background: blue;
+   width: 50%;
+   height: 100px;
+
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+ }
+|LiveURL=http://code.webplatform.org/gist/5496267
 }}{{Single Example
 |Language=CSS
 |Description=Input elements with type <code>search</code> are rendered as <code>border-box</code> in Safari 5 and Chrome. Normalize this behavior in all browsers.
