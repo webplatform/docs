@@ -16,10 +16,16 @@
 |CSS percentages=Refer to the corresponding dimension (width or height) of the border box.
 |Values={{CSS Property Value
 |Data Type=length
-|Description=Denotes the size of the circle radius or the horizontal and vertical radii, for elliptical curves. It can be expressed in any unit allowed in [[css/data_types/length|CSS <length> data types]]. em units are useful for controls that scale proportionally with the font-size. Viewport-relative units (vw, vh, vmin, vmax) can be useful for controls that scale with the viewport size. Negative values are invalid.
+|Description=Denotes the size of the circle radius or the horizontal and vertical radii, for elliptical curves. It can be expressed in any unit allowed in [[css/data_types/length|CSS <length> data types]]. em units are useful for controls that scale proportionally with the font-size. Viewport-relative units (vw, vh, vmin, vmax) can be useful for controls that scale with the viewport size. Negative values are invalid. You can specify a single length for all four corners, or two, three or four lengths to specify different lengths for different corners: see remarks for more details.
 }}{{CSS Property Value
 |Data Type=percentage
-|Description=Denotes the size of the corner radius, in percentages of the box’s dimensions. Specifically, percentages for the horizontal axis refer to the width of the box, percentages for the vertical axis refer to the height of the box. Negative values are invalid.
+|Description=Denotes the size of the corner radius, in percentages of the box’s dimensions. Specifically, percentages for the horizontal axis refer to the width of the box, percentages for the vertical axis refer to the height of the box. Negative values are invalid. You can specify a single percentage for all four corners, or two, three or four percentages to specify different percentages for different corners: see remarks for more details.
+}}{{CSS Property Value
+|Data Type=length / length
+|Description=Specifying two sets of length values separated by a forward slash equates to specifying separate lengths for the X and Y radii of the corners, resulting in elliptical corners if the X and Y radii have different lengths. Each set can consist of one, two, three or four values.
+}}{{CSS Property Value
+|Data Type=percentage / percentage
+|Description=Specifying two sets of percentage values separated by a forward slash equates to specifying separate percentages for the X and Y radii of the corners, resulting in elliptical corners if the X and Y radii have different percentages. Each set can consist of one, two, three or four values.
 }}
 }}
 {{Examples_Section
