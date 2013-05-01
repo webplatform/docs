@@ -2,10 +2,11 @@
 {{Flags
 |High-level issues=Data Not Semantic
 |Content=Compatibility Incomplete
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The <code>box-sizing</code> property alters the CSS box model used to calculate widths and heights of elements.}}
+{{Summary_Section|The <code>box-sizing</code> property alters the CSS box model used to calculate widths and heights of elements, so that they can be equal to the width and height of the content-, padding- or border-box.}}
 {{CSS Property
 |Initial value=content-box
 |Applies to=all elements that accept width or height
@@ -15,15 +16,15 @@
 |Animatable=No
 |Values={{CSS Property Value
 |Data Type=content-box
-|Description=The <code>width</code> and <code>height</code> properties (including min and max properties) are measured, including only the content, but not the border, margin, or padding. This is the behaviour of width and height as specified by CSS2.1.
+|Description=The <code>width</code> and <code>height</code> properties (also including <code>min-width</code>, <code>max-width</code>, <code>min-height</code> and <code>max-height</code> properties) are calculated as the width/height of the content, but not the border, margin, or padding. This is the traditional behaviour of width and height as specified by CSS2.1.
 }}{{CSS Property Value
 |Data Type=padding-box
-|Description=The <code>width</code> and <code>height</code> (including the min and max properties) of an element are calculated including <code>padding</code>. The dimension properties for the content are calculated by subtracting the padding widths from each side of the element. Dimension properties are set to 0 if the calculated value is less than 0.
+|Description=The <code>width</code> and <code>height</code> (also including <code>min-width</code>, <code>max-width</code>, <code>min-height</code> and <code>max-height</code> properties) of an element are calculated as the width/height of the content plus the <code>padding</code>. The dimensions of the content alone are thus calculated by subtracting the padding widths from each side of the element. Dimension properties are set to 0 if the calculated value is less than 0.
 The <code>border</code> and <code>margin</code> values are not included in the calculation.
 }}{{CSS Property Value
 |Data Type=border-box
-|Description=The <code>width</code> and <code>height</code> values are calculated including the <code>padding</code> and <code>border</code> properties, but not <code>margin</code>.
-The width and height of the content are calculated by subtracting padding and border widths from each side of the element. Dimension properties are set to 0 if the calculated value is less than 0.
+|Description=The <code>width</code> and <code>height</code> (also including <code>min-width</code>, <code>max-width</code>, <code>min-height</code> and <code>max-height</code> properties) of an element are calculated as the width/height of the content plus the <code>padding</code> and <code>border</code>.
+The dimensions of the content alone are thus calculated by subtracting the padding and border widths from each side of the element. Dimension properties are set to 0 if the calculated value is less than 0.
 }}
 }}
 {{Examples_Section
@@ -56,8 +57,8 @@ The width and height of the content are calculated by subtracting padding and bo
 }}
 }}
 {{Notes_Section
-|Usage=* Paul Irish wrote about [http://paulirish.com/2012/box-sizing-border-box-ftw/ applying <code>box-sizing: border-box;</code> on all elements].
 |Notes=* A [http://css-tricks.com/box-sizing/ detailed article on box-sizing] by Chris Coyier.
+* Paul Irish wrote about [http://paulirish.com/2012/box-sizing-border-box-ftw/ applying <code>box-sizing: border-box;</code> on all elements].
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
