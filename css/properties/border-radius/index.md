@@ -41,6 +41,7 @@ border-top-left-radius: 1em;
 border-top-right-radius: 1em;
 border-bottom-right-radius: 1em;
 border-bottom-left-radius: 1em;
+|LiveURL=http://code.webplatform.org/gist/5495188
 }}{{Single Example
 |Language=CSS
 |Description=Multi value example
@@ -52,12 +53,14 @@ border-top-left-radius: 20px 0.5em;
 border-top-right-radius: 1em 3em;
 border-bottom-right-radius: 1vw 0.5em;
 border-bottom-left-radius: 1em 3em;
+|LiveURL=http://code.webplatform.org/gist/5495188
 }}{{Single Example
 |Language=CSS
-|Description=Create an ellipse, regardless of the element’s dimensions
+|Description=Create an ellipse, unless the 
 |Code=border-radius: 50%;
 
 /* Will be a circle if the element’s width is equal to its height */
+|LiveURL=http://code.webplatform.org/gist/5495188
 }}{{Single Example
 |Language=CSS
 |Description=Shrinking curves to avoid overlapping
@@ -68,6 +71,7 @@ border-bottom-left-radius: 1em 3em;
 border-radius: 40% 60%;
 
 /* The values shrink proportionally, all multiplied by the same factor, until there is no overlap */
+|LiveURL=http://code.webplatform.org/gist/5495188
 }}
 }}
 {{Notes_Section
