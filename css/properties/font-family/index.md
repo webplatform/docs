@@ -15,7 +15,7 @@
 |CSS object model property=fontFamily
 |Values={{CSS Property Value
 |Data Type=family-name
-|Description=The name of a font family, such as <code>Courier</code> or <code>Arial</code>. You can reference the common fonts available on the system, or external fonts imported using [[css/atrules/%40font-face|@font-face]]. When the family name contains more than one word, it needs to be enclosed in quotes, for example <code>'Comic Sans'</code>. 
+|Description=The name of a font family, such as <code>Courier</code> or <code>Arial</code>. You can reference the common fonts available on the system, or external fonts imported using [[css/atrules/%40font-face|@font-face]]. When the family name contains more than one word, it should be enclosed in quotes, for example <code>'Comic Sans'</code>.
 }}{{CSS Property Value
 |Data Type=generic-family
 |Description=generic families are not specific fonts, but a reference to fallback fonts of a general type that can be used when specific fonts are not available. The actual fonts used for each fallback type may differ between operating systems. The following generic family keywords are defined: <code>serif</code>, <code>sans-serif</code>, <code>cursive</code>, <code>fantasy</code> and <code>monospace</code>.
@@ -28,12 +28,12 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Description=Define built-in fonts to use in your CSS content.
+|Description=It is simple to define built-in fonts to use in your CSS content.
 |Code=h1 { font-family: Helvetica, Arial, sans-serif; }
-p { font-family: Courier, "Times New Roman", serif; }
+p { font-family: "Times New Roman", serif; }
 }}{{Single Example
 |Language=CSS
-|Description=Adds a web font using @font-face and then assigns it to an element using font-family
+|Description=The following example imports a web font into your CSS using <code>@font-face</code> and then assigns it to an element using font-family
 |Code=/*
 Defines the font and its location. font-family in this case assigns a name to the font
 */
@@ -60,10 +60,9 @@ h1 {
 }}
 }}
 {{Notes_Section
-|Usage=Things to note:
-* If a font family name contains whitespaces, digits or punctuation characters (other than hyphens), it is recommended to place quotes around the font family name to avoid mistakes in escaping those characters
+|Usage=* If a font family name contains whitespace, digits or punctuation characters (other than hyphens), you should place quotes around the font family name to avoid mistakes in escaping those characters
 * Generic font family names are values (keywords) and cannot appear in quotation marks
-* You can use font-family together with @font-face to declare and use external web fonts
+* You can use <code>font-family</code> together with <code>@font-face</code> to import and use external web fonts
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
