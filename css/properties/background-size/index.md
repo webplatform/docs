@@ -81,7 +81,7 @@ background-size: inherit
    border-radius: 20px;
    box-shadow: 2px 2px 10px rgba(0,0,0,0.75);
    float: left;
-   margin-right: 20px;
+   margin: 0 20px 20px 0;
    background-color: rgba(0,0,0,0.25);
    background-image: url(http://www.webplatform.org/logo/wplogo_transparent_xlg.png);
  }
@@ -120,7 +120,7 @@ background-size: inherit
   background-image: url(http://www.webplatform.org/logo/wplogo_transparent_xlg.png), url(http://www.webplatform.org/logo/wplogo_transparent_xlg.png);
   background-size: 100% 250px, 20% 25%;
 }
-|LiveURL=http://code.webplatform.org/
+|LiveURL=http://jsbin.com/ejulex/2/edit
 }}
 }}
 {{Notes_Section
