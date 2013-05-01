@@ -25,7 +25,7 @@
 |Description=Specifying two sets of length values separated by a forward slash equates to specifying separate lengths for the X and Y radii of the corners, resulting in elliptical corners if the X and Y radii have different lengths. Each set can consist of one, two, three or four values.
 }}{{CSS Property Value
 |Data Type=percentage / percentage
-|Description=Specifying two sets of percentage values separated by a forward slash equates to specifying separate percentages for the X and Y radii of the corners, resulting in elliptical corners if the X and Y radii have different percentages. Each set can consist of one, two, three or four values.
+|Description=Specifying two sets of percentage values separated by a forward slash equates to specifying separate percentages for the X and Y radii of the corners, resulting in elliptical corners if the X and Y radii have percentages resulting in different computed values (depending on the width and height of the element, different percentages might result in the same computed values; see the remarks section for more). Each set can consist of one, two, three or four values.
 }}
 }}
 {{Examples_Section
@@ -92,6 +92,11 @@ border-radius: (horizontal radius values) / [top left] [top right] [bottom right
 * It’s possible to end up with elliptical corners, even by specifying one radius. This occurs when you are using percentages, since they resolve to a different number for each axis (horizontally they are percentages of the border box width, vertically of the height). For a demonstration, refer to the ellipse example above (example #3)
 * Since border-radius rounds the border box of the element, the inner (padding box) corners will have smaller radii (specifically border-radius - border-width), or even no rounding, if the border is thicker than the border-radius value. Another consequence of this is that when there are different border widths on adjacent sides, the curves of the padding box will be elliptical.
 * Note that although in the border-radius shorthand, there is a slash (/) to separate horizontal from vertical radii, they are space separated in the longhands.
+* <code>border-radius</code> can take between one and four values:
+** one value will be applied to all four corners
+** two values will be applied to top-left + bottom-right, and top-right + bottom-left
+** three values will be applied to ...
+** four values will be applied to the four corners separately, in the order of top-left, top-right, bottom-right, bottom-left
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
