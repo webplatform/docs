@@ -15,13 +15,13 @@
 |CSS object model property=fontFamily
 |Values={{CSS Property Value
 |Data Type=family-name
-|Description=The name of a font family, such as <code>Courier</code> or <code>Arial</code>. You can reference the common fonts available on the system, or external fonts imported using [[css/atrules/%40font-face|@font-face]].
+|Description=The name of a font family, such as <code>Courier</code> or <code>Arial</code>. You can reference the common fonts available on the system, or external fonts imported using [[css/atrules/%40font-face|@font-face]]. When the family name contains more than one word, it needs to be enclosed in quotes, for example <code>'Comic Sans'</code>. 
 }}{{CSS Property Value
 |Data Type=generic-family
 |Description=generic families are not specific fonts, but a reference to fallback fonts of a general type that can be used when specific fonts are not available. The actual fonts used for each fallback type may differ between operating systems. The following generic family keywords are defined: <code>serif</code>, <code>sans-serif</code>, <code>cursive</code>, <code>fantasy</code> and <code>monospace</code>.
 }}{{CSS Property Value
 |Data Type=family-name, family-name, generic-family
-|Description=You can specify a comma-separated list of multiple font family names and/or generic family names, although it rarely makes sense to specify more than one generic family. This list is called a '''font-stack'''. The browser goes down the list and uses the first available font that it can find available on the system. Generic font families are used as a fallback when none of the fonts specified in the stack are available. It is always the last alternative in the list of font family names. 
+|Description=You can specify a comma-separated list of multiple font family names and/or generic family names, although it rarely makes sense to specify more than one generic family. This list is called a '''font-stack'''. The browser goes down the list and uses the first available font that it can find available on the system. Generic font families are used as a fallback when none of the fonts specified in the stack are available. It is always the last alternative in the list of font family names.
 }}
 }}
 {{Examples_Section
