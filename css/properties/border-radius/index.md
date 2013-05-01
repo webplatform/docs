@@ -19,7 +19,7 @@
 |Description=Denotes the size of the circle radius or the horizontal and vertical radii, for elliptical curves. It can be expressed in any unit allowed in [[css/data_types/length|CSS <length> data types]]. em units are useful for controls that scale proportionally with the font-size. Viewport-relative units (vw, vh, vmin, vmax) can be useful for controls that scale with the viewport size. Negative values are invalid. You can specify a single length for all four corners, or two, three or four lengths to specify different lengths for different corners: see remarks for more details.
 }}{{CSS Property Value
 |Data Type=percentage
-|Description=Denotes the size of the corner radius, in percentages of the box’s dimensions. Specifically, percentages for the horizontal axis refer to the width of the box, percentages for the vertical axis refer to the height of the box. Negative values are invalid. You can specify a single percentage for all four corners, or two, three or four percentages to specify different percentages for different corners: see remarks for more details.
+|Description=Denotes the size of the corner radius, in percentages of the box’s border-box dimensions. Specifically, percentages for the horizontal axis refer to the width of the border-box, percentages for the vertical axis refer to the height of the border-box. Negative values are invalid. You can specify a single percentage for all four corners, or two, three or four percentages to specify different percentages for different corners: see remarks for more details.
 }}{{CSS Property Value
 |Data Type=length / length
 |Description=Specifying two sets of length values separated by a forward slash equates to specifying separate lengths for the X and Y radii of the corners, resulting in elliptical corners if the X and Y radii have different lengths. Each set can consist of one, two, three or four values.
@@ -56,7 +56,7 @@ border-bottom-left-radius: 1em 3em;
 |LiveURL=http://code.webplatform.org/gist/5495188
 }}{{Single Example
 |Language=CSS
-|Description=Create an ellipse, unless the 
+|Description=Create an ellipse, unless the
 |Code=border-radius: 50%;
 
 /* Will be a circle if the element’s width is equal to its height */
@@ -79,28 +79,26 @@ border-radius: 40% 60%;
 
 ===Syntax===
 
-The syntax of the first radius allows one to four values, to specify different radius per corner:<br/>
-<code class="language-css block">border-radius: [radius for all corners];<br/>           
-border-radius: [radius for top left & bottom right corners] [radius for top right & bottom left corners];<br/>
-border-radius: [top left radius] [top right & bottom left radius] [bottom right radius];<br/>
-border-radius: [top left radius] [top right radius] [bottom right radius] [bottom left radius];</code>
+The syntax of the first radius allows one to four values, to specify different radius per corner:
 
-The syntax of the vertical radius also allows one to four values<br/>
-<code class="language-css block">border-radius: (horizontal radius values) / [radius for all corners];<br/>   
-border-radius: (horizontal radius values) / [top left & bottom radius] [top right & bottom left radius];<br/>
-border-radius: (horizontal radius values) / [top left radius] [top right & bottom left radius] [bottom right radius];<br/>
-border-radius: (horizontal radius values) / [top left] [top right] [bottom right] [bottom left];</code>
+* <code>border-radius</code> can take between one and four values:
+** one value will be applied to all four corners
+** two values will be applied to top-left + bottom-right, and top-right + bottom-left, respectively
+** three values will be applied to top-left, top-right + bottom-left, and bottom-right, respectively 
+** four values will be applied to the four corners separately, in the order of top-left, top-right, bottom-right, bottom-left
+
+The syntax of the vertical radius also allows one to four values
+
+* <code class="language-css block">border-radius: (horizontal radius values) / [radius for all corners];<br/>   
+* border-radius: (horizontal radius values) / [top left & bottom radius] [top right & bottom left radius];<br/>
+* border-radius: (horizontal radius values) / [top left radius] [top right & bottom left radius] [bottom right radius];<br/>
+* border-radius: (horizontal radius values) / [top left] [top right] [bottom right] [bottom left];</code>
 |Notes====Remarks===
 
 * The '''border-radius''' property is a composite property that specifies up to four '''border-*-radius''' properties. If values are given before and after the slash, the values before the slash set the horizontal radius and the values after the slash set the vertical radius. If there is no slash, the values set both radii equally. The four values for each radii are given in clockwise order, starting from the top left corner. If less than four values are provided, they are repeated until we get four values, similarly to other CSS properties, such as border-width.
 * It’s possible to end up with elliptical corners, even by specifying one radius. This occurs when you are using percentages, since they resolve to a different number for each axis (horizontally they are percentages of the border box width, vertically of the height). For a demonstration, refer to the ellipse example above (example #3)
 * Since border-radius rounds the border box of the element, the inner (padding box) corners will have smaller radii (specifically border-radius - border-width), or even no rounding, if the border is thicker than the border-radius value. Another consequence of this is that when there are different border widths on adjacent sides, the curves of the padding box will be elliptical.
 * Note that although in the border-radius shorthand, there is a slash (/) to separate horizontal from vertical radii, they are space separated in the longhands.
-* <code>border-radius</code> can take between one and four values:
-** one value will be applied to all four corners
-** two values will be applied to top-left + bottom-right, and top-right + bottom-left, respectively
-** three values will be applied to top-left, top-right + bottom-left, and bottom-right, respectively 
-** four values will be applied to the four corners separately, in the order of top-left, top-right, bottom-right, bottom-left
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
