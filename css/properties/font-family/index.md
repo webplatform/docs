@@ -31,6 +31,7 @@
 |Description=It is simple to define built-in fonts to use in your CSS content.
 |Code=h1 { font-family: Helvetica, Arial, sans-serif; }
 p { font-family: "Times New Roman", serif; }
+|LiveURL=http://code.webplatform.org/gist/5496591
 }}{{Single Example
 |Language=CSS
 |Description=The following example imports a web font into your CSS using <code>@font-face</code> and then assigns it to an element using font-family
