@@ -61,7 +61,7 @@ background-size: 6px, auto, contain
 background-size: inherit
 }}{{Single Example
 |Language=HTML
-|Description=HTML structure of a series of <div>s that are identical except that they have different background-size values applied to the background image.
+|Description=HTML structure of a series of <code>&lt;div&gt;</code>s that are identical except that they have different <code>background-size</code> values applied to the background image.
 |Code=<p>Original image is 273 x 286 px, and has a transparent area around the outside of roughly 45px.</p>
 
 <div class="one"><code>background-size: auto auto;</code></div>
@@ -73,7 +73,7 @@ background-size: inherit
 <div class="seven"><code>background-size: 100% 250px, 20% 25%;</code></div>
 }}{{Single Example
 |Language=CSS
-|Description=CSS applied to the HTML example sen above.
+|Description=CSS applied to the HTML example seen above.
 |Code=div {
    width: 17%;
    height: 200px;
@@ -120,8 +120,6 @@ background-size: inherit
   background-image: url(http://www.webplatform.org/logo/wplogo_transparent_xlg.png), url(http://www.webplatform.org/logo/wplogo_transparent_xlg.png);
   background-size: 100% 250px, 20% 25%;
 }
-
-
 |LiveURL=http://code.webplatform.org/
 }}
 }}
