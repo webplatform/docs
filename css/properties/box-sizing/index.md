@@ -20,7 +20,6 @@
 }}{{CSS Property Value
 |Data Type=padding-box
 |Description=The <code>width</code> and <code>height</code> (also including <code>min-width</code>, <code>max-width</code>, <code>min-height</code> and <code>max-height</code> properties) of an element are calculated as the width/height of the content plus the <code>padding</code>. The dimensions of the content alone are thus calculated by subtracting the padding widths from each side of the element. Dimension properties are set to 0 if the calculated value is less than 0.
-The <code>border</code> and <code>margin</code> values are not included in the calculation.
 }}{{CSS Property Value
 |Data Type=border-box
 |Description=The <code>width</code> and <code>height</code> (also including <code>min-width</code>, <code>max-width</code>, <code>min-height</code> and <code>max-height</code> properties) of an element are calculated as the width/height of the content plus the <code>padding</code> and <code>border</code>.
