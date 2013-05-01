@@ -94,8 +94,8 @@ border-radius: (horizontal radius values) / [top left] [top right] [bottom right
 * Note that although in the border-radius shorthand, there is a slash (/) to separate horizontal from vertical radii, they are space separated in the longhands.
 * <code>border-radius</code> can take between one and four values:
 ** one value will be applied to all four corners
-** two values will be applied to top-left + bottom-right, and top-right + bottom-left
-** three values will be applied to ...
+** two values will be applied to top-left + bottom-right, and top-right + bottom-left, respectively
+** three values will be applied to top-left, top-right + bottom-left, and bottom-right, respectively 
 ** four values will be applied to the four corners separately, in the order of top-left, top-right, bottom-right, bottom-left
 }}
 {{Related_Specifications_Section
