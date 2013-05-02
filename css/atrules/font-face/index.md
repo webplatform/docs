@@ -12,7 +12,7 @@
 
 <blockquote>'''Note:''' ''This is an experimental technology'' Because this technology's specification has not stabilized, check the compatibility table below for the proper prefixes to use in various browsers. Also note that the syntax and behavior of an experimental technology is subject to change in future versions of browsers as the spec changes.</blockquote>
 
-===Syntax===
+==Syntax==
 <syntaxhighlight lang="css">
 @font-face {
   [font-family: <family-name>;]?
@@ -26,7 +26,7 @@
 }
 </syntaxhighlight>
 
-====Values====
+===Values===
 ;<code>&lt;family-name&gt;</code>
 :Specifies a font name that will be used as font face value for font properties.
 ;<code>&lt;uri&gt;</code>
@@ -39,6 +39,8 @@
 :A font weight value.
 ;<code>&lt;style&gt;</code>
 :A font style value.
+
+You can specify a font on the user's local computer by name using the <code>local()</code> syntax. If that font is not found, other sources will be tried until one is found.
 }}
 {{Examples_Section
 |Not_required=No
