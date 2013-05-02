@@ -10,7 +10,7 @@
 {{CSS_At_Rule
 |Content=The <code>@font-face</code> at-rule may be used not only at the top level of a CSS, but also inside any CSS conditional-group at-rule.
 
-<blockquote>'''Note:''' ''This is an experimental technology'' Because this technology's specification has not stabilized, check the compatibility table below for the proper prefixes to use in various browsers. Also note that the syntax and behavior of an experimental technology is subject to change in future versions of browsers as the spec changes.</blockquote>
+<blockquote>'''This is an experimental technology''' because this technology's specification has not stabilized, check the compatibility table below for the proper prefixes to use in various browsers. Also note that the syntax and behavior of an experimental technology is subject to change in future versions of browsers as the spec changes.</blockquote>
 
 ==Syntax==
 <syntaxhighlight lang="css">
