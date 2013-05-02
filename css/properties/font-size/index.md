@@ -4,7 +4,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Specifies the size of text. Sets the font size of the element to which it is applied, and its descendants. Can size text using absolute measurements, or relative to the parent or root elements. [[guides/css_text_styling_fundamentals|CSS Text Styling Fundamentals]] provides an overview.}}
+{{Summary_Section|<code>font-size</code> sets the font size of the element to which it is applied, and that of its descendants. You can size text using absolute measurements, or measurements relative to the affected element's parent or root elements. [[guides/css_text_styling_fundamentals|CSS Text Styling Fundamentals]] provides an overview.}}
 {{CSS Property
 |Initial value=medium
 |Applies to=All elements
@@ -19,13 +19,13 @@
 |Description=A set of keywords indicating predefined font sizes that scale according to font setting preferences or each browser's default values. From small to large, possible values are '''xx-small''', '''x-small''', '''small''', '''medium''', '''large''', '''x-large''', and '''xx-large'''.
 }}{{CSS Property Value
 |Data Type=relative-size
-|Description=A set of keywords interpreted relative to the parent element's '''font-size''', either '''smaller''' or '''larger'''.
+|Description=A set of keywords interpreted relative to the parent element's '''font-size''' — either '''smaller''' or '''larger'''.
 }}{{CSS Property Value
 |Data Type=length
 |Description=A positive numeric value followed by a string designating [[css/units/length|absolute or relative units of length]]. Proportional [[css/units/length|'''em''' and '''ex''']] measurements are based on the parent element's '''font-size''', while [[css/units/length|'''rem''']] measurements are based on that of the root element.
 }}{{CSS Property Value
 |Data Type=percentage
-|Description=A positive integer followed by a percent ([[css/units/numeric|'''%''']]), indicating the proportion of the parent element's '''font-size'''.
+|Description=A positive integer followed by a percent ([[css/units/numeric|'''%''']]), indicating a percentage of the parent element's '''font-size'''.
 }}
 }}
 {{Examples_Section
