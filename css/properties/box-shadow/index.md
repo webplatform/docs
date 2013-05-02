@@ -4,7 +4,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|The ‘box-shadow’ property attaches one or more shadows inside or outside of a box-model element. The property is a comma-separated list of shadows, each specified by 2-4 length values, an optional color, and an optional ‘inset’ keyword. box-shadow is a simple style that can be manipulated to generate complex effects.|The ‘box-shadow’ property attaches one or more shadows inside or outside of a box-model element_ The property is a comma-separated list of shadows, each specified by 2-4 length values, an optional color, and an optional ‘inset’ keyword_ box-shadow is a simple style that can be manipulated to generate complex effects_
+{{Summary_Section|The <code>box-shadow</code> property programmatically creates one or more shadows on the inside or outside of a block level element. |The ‘box-shadow’ property attaches one or more shadows inside or outside of a box-model element_ The property is a comma-separated list of shadows, each specified by 2-4 length values, an optional color, and an optional ‘inset’ keyword_ box-shadow is a simple style that can be manipulated to generate complex effects_
 
 Given a box, the shadow style is represented as follows:
 
@@ -20,15 +20,14 @@ Links to descriptions of length and color are in the [[#Remarks]] section, below
 |Computed value=any length made absolute; any specified color computed; otherwise as specified
 |Animatable=No
 |CSS object model property=boxShadow
-|CSS percentages=???
 |Values={{CSS Property Value
-|Data Type=<inset>
+|Data Type=inset
 |Description=If not specified (default), the shadow is assumed to be a drop shadow (as if the box were raised above the content). The presence of the inset keyword changes the shadow to one inside the frame (as if the content was depressed inside the box). Inset shadows are drawn inside the border (even transparent ones), above the background, but below content.
 }}{{CSS Property Value
-|Data Type=<offset-x>
+|Data Type=offset-x
 |Description=The first length is the horizontal offset of the shadow. <offset-x> specifies the horizontal distance. Negative values place the shadow to the left of the element. If both <offset-x> and <offset-y> values are 0, the shadow is placed behind the element (and may generate a blur effect if <blur-radius> and/or <spread-radius> is set).
 }}{{CSS Property Value
-|Data Type=<offset-y>
+|Data Type=offset-y
 |Description=The second length is the vertical offset of the shadow. <offset-y> specifies the vertical distance. Negative values place the shadow above the element. If both <offset-x> and <offset-y> values are 0, the shadow is placed behind the element (and may generate a blur effect if <blur-radius> and/or <spread-radius> is set).
 }}{{CSS Property Value
 |Data Type=<blur-radius>
@@ -39,6 +38,9 @@ Links to descriptions of length and color are in the [[#Remarks]] section, below
 }}{{CSS Property Value
 |Data Type=<color>
 |Description=See color values for possible keywords and notations. If not specified, the color used depends on the browser -- it is usually the value of the color property, but note that Safari currently paints a transparent shadow in this case.
+}}{{CSS Property Value
+|Data Type=inset offset-x offset-y blur-radius spread-distance color
+|Description=Shows the order the components specified above should be declared in when writing a <code>box-shadow</code> declaration.
 }}
 }}
 {{Examples_Section
