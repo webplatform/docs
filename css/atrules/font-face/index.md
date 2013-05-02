@@ -15,19 +15,19 @@
 ===Syntax===
 <syntaxhighlight lang="css">
 @font-face {
-  [font-family: <family-name>]?
-  [src: [ <uri&gt [format(<string>#)]? | <font-face-name> ]#;]?
+  [font-family: <family-name>;]?
+  [src: [ <uri> [format(<string>#)]? | <font-face-name> ]#;]?
   [unicode-range: <urange>#;]?
-  [font-variant: <font-variant>]?
+  [font-variant: <font-variant>;]?
   [font-feature-settings: normal|<feature-tag-value>#;]?
-  [font-stretch: <font-stretch>]?
+  [font-stretch: <font-stretch>;]?
   [font-weight: <weight>];
   [font-style: <style>];
 }
 </syntaxhighlight>
 
 ====Values====
-;<nowiki>&lt;</nowiki>family-name<nowiki>&gt;</nowiki>
+;<code>&lt;family-name&gt;</code>
 :Specifies a font name that will be used as font face value for font properties.
 ;<nowiki>&lt;</nowiki>uri<nowiki>&gt;</nowiki>
 :URL for the remote font file location, or the name of a font on the user's computer in the form local("Font Name").
