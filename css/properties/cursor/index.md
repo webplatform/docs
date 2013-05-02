@@ -1,5 +1,7 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|The cursor CSS property specifies the mouse cursor displayed when the mouse pointer is over an element.}}
@@ -13,18 +15,51 @@
 |CSS object model property=cursor
 |CSS percentages=N/A
 |Values={{CSS Property Value
+|Data Type=standard values
+|Description=There are many standard cursors available:
+ 
+* <code>auto</code>
+* <code>default</code>
+* <code>none</code>
+* <code>context-menu</code>
+* <code>help</code>
+* <code>pointer</code>
+* <code>progress</code>
+* <code>wait</code>
+* <code>cell</code>
+* <code>crosshair</code>
+* <code>text</code>
+* <code>vertical-text</code>
+* <code>alias</code>
+* <code>copy</code>
+* <code>move</code>
+* <code>no-drop</code>
+* <code>not-allowed</code>
+* <code>e-resize</code>
+* <code>n-resize</code>
+* <code>ne-resize</code>
+* <code>nw-resize</code>
+* <code>s-resize</code>
+* <code>se-resize</code>
+* <code>sw-resize</code>
+* <code>w-resize</code>
+* <code>ew-resize</code>
+* <code>ns-resize</code>
+* <code>nesw-resize</code>
+* <code>nwse-resize</code>
+* <code>col-resize</code>
+* <code>row-resize</code>
+* <code>all-scroll</code>
+* <code>zoom-in</code>
+* <code>zoom-out</code>
+
+These have varying support across different browsers — see the support section. The examples below feature different boxes with different cursor values set on them, so you can get an idea of what the different ones look like.
+}}{{CSS Property Value
 |Data Type=url [x, y]
 |Description=Optional.
 A <code>url(…)</code> or a comma separated list <code>url(…), url(…), …</code> , pointing to an image file. More than one <code><uri></code> may be provided as fallback, in case some cursor image types are not supported. A non-URL fallback (one ore more of the other values) must be at the end of the fallback list. See Using URL values for the cursor property for more details.
 
 The <x>, <y> values are optional and experimental. Two unit-less numbers.
-}}{{CSS Property Value
-|Data Type=standard values
-|Description=There are many standard cursors available.
-'''Available standard cursors''': 
-auto, default, none, context-menu, help, pointer, progress, wait, cell, crosshair, text, vertical-text, alias, copy, move, no-drop, not-allowed, e-resize, n-resize, ne-resize, nw-resize, s-resize, se-resize, sw-resize, w-resize, ew-resize, ns-resize, nesw-resize, nwse-resize, col-resize, row-resize, all-scroll, zoom-in, zoom-out
-
-Check out the Examples.
 }}
 }}
 {{Examples_Section
