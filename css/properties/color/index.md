@@ -1,5 +1,7 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|The color property sets the color of an element's foreground content (usually text), accepting any standard CSS color from keywords and hex values to RGB(a) and HSL(a).}}
@@ -32,25 +34,25 @@ p { color: rgb(64,224,208) }
 /* with a RGB percentage value */
 p { color: rgb(25.1%,87.8%,81.6%) }
 
-/* with a HSL value */
+/* with an HSL value */
 p { color: hsl(174,72%,56%) }
 
 /* We now want our color to be 20% translucent which means a 80% opacity */
 
-/* We can set the color with a RGBa value */ 
-p { color: rgb(64,224,208,0.8) }
+/* We can achieve this with an RGBa value */ 
+p { color: rgba(64,224,208,0.8) }
 
-/* Or a HSLa value */
-p { color: hsl(174,72%,56%,0.8) }
+/* Or an HSLa value */
+p { color: hsla(174,72%,56%,0.8) }
 }}
 }}
 {{Notes_Section
-|Usage=Though CSS color values are precisely defined, they may appear differently on an output device. Most of them are not calibrated, and some browsers do not support output devices color profile. Without these, color rendering may vary a lot.
+|Usage=Though CSS color values are precisely defined, they may appear differently between different output devices. Most of them are not calibrated, and some browsers do not support output device color profiles. Without these, color rendering may vary significantly.
 |Notes==== Default color ===
 Some browsers change the default color from black to another color in their default css (user-agent stylesheet).
 
 === RGB, HSL, RGBa and HSLa support ===
-RGB, HSL, RGBa and HSLa are not supported by older browsers, therefore if you do use such colours, you should also provide a fallback color property that uses something similar but more widely supported, like a hex value, either placed next to the modern color value but earlier in the cascade, or in a separate stylesheet hidden behind a conditional comment.
+HSL, RGBa and HSLa are not supported by older browsers (IE6-8), therefore if you do use such colours you should also provide a fallback color property that uses something similar but more widely supported, like a hex value. This should be placed either next to the modern color value but earlier in the cascade, or in a separate stylesheet hidden behind a conditional comment.
 
 === Separating foreground from background ===
 In order to make it easier for users to see and hear content including separating foreground from background, [[http://www.w3.org/TR/2008/REC-WCAG20-20081211/ WCAG]] indicates the following:
