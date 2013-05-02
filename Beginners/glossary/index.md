@@ -28,7 +28,7 @@ Transmission Protocols:</dt>
 <dt>Web Browser:</dt>
 <dd> See Browser </dd>
 <dt>Web Servers:</dt>
-<dd>See Server/dd>
+<dd>See Server</dd>
 <dt>
 Web Technologies:</dt>
 <dd> these are the different types of code that web developers use to create web sites, which define things such as the text you want to show on the web page, the styles that text should have, etc. The web browser receives such code from a server and assembles it into a complete web page.
