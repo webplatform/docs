@@ -43,7 +43,6 @@ we will always display 3 columns
 #column1 {
 border: 2px solid #000;  
 column-count: 3;}
-
 |LiveURL=http://code.webplatform.org/gist/5305530
 }}
 }}
@@ -64,7 +63,24 @@ To ensure the specified value is used, all length property values of the multi-c
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
-|Desktop_rows=
+|Desktop_rows={{Compatibility Table Desktop Row
+|Chrome_supported=Unknown
+|Chrome_version=
+|Chrome_prefixed_supported=Yes
+|Firefox_supported=Unknown
+|Firefox_version=
+|Firefox_prefixed_supported=Yes
+|Internet_explorer_supported=Unknown
+|Internet_explorer_version=
+|Internet_explorer_prefixed_supported=Unknown
+|Internet_explorer_prefixed_version=
+|Opera_supported=Yes
+|Opera_prefixed_supported=Unknown
+|Opera_prefixed_version=
+|Safari_supported=Unknown
+|Safari_version=
+|Safari_prefixed_supported=Yes
+}}
 |Mobile_rows=
 |Notes_rows={{Compatibility Notes Row}}
 }}
