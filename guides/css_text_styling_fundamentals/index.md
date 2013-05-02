@@ -277,7 +277,7 @@ For this example, add the following rule to highlight the first lines below each
 
 And then save the page, reload the browser window, and review the results.
 
-Note: <code>bold</code> is equivalent to <code>600</code>.
+Note: <code>bold</code> is equivalent to <code>700</code>.
 
 ==== Setting font-style ====
 
