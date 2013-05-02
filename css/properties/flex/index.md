@@ -28,7 +28,7 @@
 |Description=Equivalent '''0 1 auto''''
 * The flex item does not grow with the other flex items to fit a larger container.
 * The flex item shrinks proportional to the other flex items to fit a smaller container.
-* The flex item's initial main size is determined by the size of its contents. 
+* The flex item's initial main size is determined by the size of its contents.
 }}{{CSS Property Value
 |Data Type=3 1 60%
 |Description=* The flex item grows three times as much as the other flex items to fit a larger container.
