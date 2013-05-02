@@ -56,14 +56,14 @@
 These have varying support across different browsers — see the support section. The examples below feature different boxes with different cursor values set on them, so you can get an idea of what the different ones look like.
 }}{{CSS Property Value
 |Data Type=url(), keyword
-|Description=Instead of specifying a standard pointer type, you can specify a <code>url()</code> function pointing to a custom graphic to use as a cursor, which must be followed by a fallback keyword to use as a pointer if the image is not available, which can be auto or a standard value. For example, <code>cursor: url(), auto;</code>
+|Description=Instead of specifying a standard pointer type, you can specify a <code>url()</code> function pointing to a custom graphic to use as a cursor, which in Gecko must be followed by a fallback keyword to use as a pointer if the image is not available (this can be <code>auto</code> or a standard value). For example, <code>cursor: url(), auto;</code>
 
 You can supply multiple <code>url()</code> functions separated by commas (<code>url(), url(), auto</code> for example), and the browser will use the earliest appropriate image it can find. Limitations include:
 
 * Cursor size: if the cursor image is over a certain size it will be ignored (in Gecko for example the limit is 128×128px). You should limit yourself about 32×32px anyway, for maximum compatibility with operating systems and platforms.
-* Browser: On some browsers, for example Opera, the custom cursors are just ignored, and the keywords are used instead.
+* Browser: In Opera, the custom cursors are just ignored, and the keywords are used instead.
 * Transparency: Translucent cursors are not supported on Windows releases earlier than XP. This is a limitation of the operating system. Transparency works on all platforms.
-* Image format: Most browsers support a wide variety of image formats, but you should stick to something common and web-optimizable, such as JPG, PNG or CUR. Animateds PNGs and GIFs will only produce static cursors.
+* Image format: Most browsers support a wide variety of image formats, but you should stick to something common and web-optimizable for the most part, such as JPG or PNG. You'll also need to include a CUR format image, as they are required by IE. Animateds PNGs and GIFs will only produce static cursors.
 }}{{CSS Property Value
 |Data Type=url() hotspot-x hotspot-y, pointer;
 |Description=CSS3 allows you to specify a custom cusor image along with an X and Y value for the pointer hotspot, for example <code>cursor:  url(cursor2.png) 2 2, auto;</code>. If not specified, the hotspot position defaults to the top left corner of the cursor image, or may be read from the meta data inside the image file, in the case of CUR and XBM format files.
@@ -147,17 +147,18 @@ You can supply multiple <code>url()</code> functions separated by commas (<code>
 |LiveURL=http://code.webplatform.org/gist/5503046
 }}
 }}
-{{Notes_Section
-|Notes====Remarks===
-The property handles a comma-separated list of cursor values. If the user agent does not understand or cannot find the first cursor specified, it looks at the next cursor in the comma-separated list and continues until it finds a usable cursor. If the user agent does not understand any of the cursors that are listed, the cursor does not change.
-In Internet Explorer 6, The cursor property supports <code>progress, not-allowed, no-drop, vertical-text, all-scroll, col-resize, row-resize,</code> and <code>url(uri)</code> as new cursor styles.
-Cursors support many shape, color and movement combinations.  This permits you to subtitute the default cursors with your preferred design.  For instance, you may want your company logo to display as the "progress" cursor;  or your country's flag waving in the wind to display as the "wait" cursor.
-Cursors have been the subject of security bulletins and updates.  If your custom cursors are not behaving as expected, examine the security settings for your browser along with your cursors.  This is a common issue with animated cursors.  For an example, refer to [http://go.microsoft.com/fwlink/p/?linkid{{=}}203632 TechNet Security Resources] and search for "Microsoft Security Bulletin MS05-002".
-|Import_Notes===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 18.1
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS2 UI section (18.1)
+|URL=http://www.w3.org/TR/CSS2/ui.html
+|Status=W3C recommendation
+}}{{Related Specification
+|Name=CSS Basic User Interface module level 3
+|URL=http://www.w3.org/TR/css3-ui/
+|Status=Working Draft
+|Relevant_changes=New cursor types added, and the ability to set the hotspot position.
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -421,6 +422,7 @@ Cursors have been the subject of security bulletins and updates.  If your custom
 }}
 {{See_Also_Section
 |Topic_clusters=Visual Effects
+|External_links=* [http://www.sitepoint.com/css3-cursor-styles/ Introducing the New Cursor Styles in CSS3]
 |Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
