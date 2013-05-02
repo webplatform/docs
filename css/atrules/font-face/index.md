@@ -15,29 +15,29 @@
 ===Syntax===
 <syntaxhighlight lang="css">
 @font-face {
-  [font-family: &ltfamily-name&gt;]?
-  [src: [ &lturi&gt [format(&ltstring&gt#)]? | &ltfont-face-name&gt ]#;]?
-  [unicode-range: &lturange&gt#;]?
-  [font-variant: &ltfont-variant&gt;]?
-  [font-feature-settings: normal|&ltfeature-tag-value&gt#;]?
-  [font-stretch: &ltfont-stretch&gt;]?
-  [font-weight: &ltweight&gt];
-  [font-style: &ltstyle&gt];
+  [font-family: <nowiki>&lt;</nowiki>family-name<nowiki>&gt;</nowiki>]?
+  [src: [ <nowiki>&lt;</nowiki>uri&gt [format(<nowiki>&lt;</nowiki>string&gt#)]? | <nowiki>&lt;</nowiki>font-face-name&gt ]#;]?
+  [unicode-range: <nowiki>&lt;</nowiki>urange&gt#;]?
+  [font-variant: <nowiki>&lt;</nowiki>font-variant<nowiki>&gt;</nowiki>]?
+  [font-feature-settings: normal|<nowiki>&lt;</nowiki>feature-tag-value&gt#;]?
+  [font-stretch: <nowiki>&lt;</nowiki>font-stretch<nowiki>&gt;</nowiki>]?
+  [font-weight: <nowiki>&lt;</nowiki>weight&gt];
+  [font-style: <nowiki>&lt;</nowiki>style&gt];
 }
 </syntaxhighlight>
 
 ====Values====
-;&ltfamily-name&gt
+;<nowiki>&lt;</nowiki>family-name<nowiki>&gt;</nowiki>
 :Specifies a font name that will be used as font face value for font properties.
-;&lturi&gt
+;<nowiki>&lt;</nowiki>uri<nowiki>&gt;</nowiki>
 :URL for the remote font file location, or the name of a font on the user's computer in the form local("Font Name").
-;&ltfont-variant&gt
+;<nowiki>&lt;</nowiki>font-variant<nowiki>&gt;</nowiki>
 :A font-variant value.
-;&ltfont-stretch&gt
+;<nowiki>&lt;</nowiki>font-stretch<nowiki>&gt;</nowiki>
 :A font-stretch value.
-;&ltweight&gt
+;<nowiki>&lt;</nowiki>weight<nowiki>&gt;</nowiki>
 :A font weight value.
-;&ltstyle&gt
+;<nowiki>&lt;</nowiki>style<nowiki>&gt;</nowiki>
 :A font style value.
 }}
 {{Examples_Section
