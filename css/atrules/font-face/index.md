@@ -7,7 +7,11 @@
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|The <code>@font-face</code> CSS at-rule allows authors to specify online fonts to display text on their web pages. By allowing authors to provide their own fonts, <code>@font-face</code> eliminates the need to depend on the limited number of fonts users have installed on their computers.}}
-{{CSS_At_Rule}}
+{{CSS_At_Rule
+|Content=The <code>@font-face</code> at-rule may be used not only at the top level of a CSS, but also inside any CSS conditional-group at-rule.
+
+<blockquote>'''Note:''' ''This is an experimental technology'' Because this technology's specification has not stabilized, check the compatibility table below for the proper prefixes to use in various browsers. Also note that the syntax and behavior of an experimental technology is subject to change in future versions of browsers as the spec changes.</blockquote>
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
