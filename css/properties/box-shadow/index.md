@@ -4,7 +4,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|The <code>box-shadow</code> property programmatically creates one or more shadows on the inside or outside of a block level element. |The ‘box-shadow’ property attaches one or more shadows inside or outside of a box-model element_ The property is a comma-separated list of shadows, each specified by 2-4 length values, an optional color, and an optional ‘inset’ keyword_ box-shadow is a simple style that can be manipulated to generate complex effects_
+{{Summary_Section|The <code>box-shadow</code> property programmatically creates one or more shadows on the inside or outside of a block level element.|The ‘box-shadow’ property attaches one or more shadows inside or outside of a box-model element_ The property is a comma-separated list of shadows, each specified by 2-4 length values, an optional color, and an optional ‘inset’ keyword_ box-shadow is a simple style that can be manipulated to generate complex effects_
 
 Given a box, the shadow style is represented as follows:
 
@@ -30,17 +30,20 @@ Links to descriptions of length and color are in the [[#Remarks]] section, below
 |Data Type=offset-y
 |Description=The second length is the vertical offset of the shadow. <offset-y> specifies the vertical distance. Negative values place the shadow above the element. If both <offset-x> and <offset-y> values are 0, the shadow is placed behind the element (and may generate a blur effect if <blur-radius> and/or <spread-radius> is set).
 }}{{CSS Property Value
-|Data Type=<blur-radius>
+|Data Type=blur-radius
 |Description=The third length is a blur radius. The larger this value, the bigger the blur, so the shadow becomes bigger and lighter. Negative values are not allowed. If not specified, it is 0 (the shadow's edge is sharp).
 }}{{CSS Property Value
-|Data Type=<spread-distance>
+|Data Type=spread-distance
 |Description=The fourth length is a spread distance. Positive values cause the shadow to expand and grow bigger, negative values cause the shadow to shrink. If not specified, it is 0 (the shadow is the same size as the element). (A zero-sized shadow shape causes the outer shadow to disappear, and the inner shadow to cover the entire padding-box.) For inner shadows, expanding the shadow (creating more shadow area) means contracting the shadow's perimeter shape.
 }}{{CSS Property Value
-|Data Type=<color>
+|Data Type=color
 |Description=See color values for possible keywords and notations. If not specified, the color used depends on the browser -- it is usually the value of the color property, but note that Safari currently paints a transparent shadow in this case.
 }}{{CSS Property Value
 |Data Type=inset offset-x offset-y blur-radius spread-distance color
-|Description=Shows the order the components specified above should be declared in when writing a <code>box-shadow</code> declaration.
+|Description=Shows the order the components specified above should be declared in when writing a complete <code>box-shadow</code> declaration that includes all possible components..
+}}{{CSS Property Value
+|Data Type=offset-x offset-y blur-radius color, offset-x offset-y blur-radius color 
+|Description=To apply multiple shadows to one element, write the <code>box-shadow</code> values out one after another, separated by commas. 
 }}
 }}
 {{Examples_Section
