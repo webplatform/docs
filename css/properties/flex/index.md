@@ -224,10 +224,10 @@
 {{See_Also_Section
 |Topic_clusters=Flexbox
 |External_links=Also, check out the following live demo sites:
-* [http://demo.agektmr.com/flexbox/ Flexbox Playgroun]
+* [http://demo.agektmr.com/flexbox/ Flexbox Playground]
 * [http://the-echoplex.net/flexyboxes Flexy Boxes]
 }}
-{{Topics}}
+{{Topics|Flexbox}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
