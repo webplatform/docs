@@ -55,8 +55,8 @@
 
 These have varying support across different browsers — see the support section. The examples below feature different boxes with different cursor values set on them, so you can get an idea of what the different ones look like.
 }}{{CSS Property Value
-|Data Type=url(), auto/standard value
-|Description=Instead of specifying a standard pointer type, you can specify a <code>url()</code> function pointing to a custom graphic to use as a cursor, which must be followed by a fallback keyword to use as a pointer if the image is not available, which can be auto or a standard value, as shown above.
+|Data Type=url(), keyword
+|Description=Instead of specifying a standard pointer type, you can specify a <code>url()</code> function pointing to a custom graphic to use as a cursor, which must be followed by a fallback keyword to use as a pointer if the image is not available, which can be auto or a standard value. For example, <code>cursor: url(), auto;</code>
 
 You can supply multiple <code>url()</code> functions separated by commas (<code>url(), url(), auto</code> for example), and the browser will use the earliest appropriate image it can find. Limitations include:
 
@@ -64,11 +64,15 @@ You can supply multiple <code>url()</code> functions separated by commas (<code>
 * Browser: On some browsers, for example Opera, the custom cursors are just ignored, and the keywords are used instead.
 * Transparency: Translucent cursors are not supported on Windows releases earlier than XP. This is a limitation of the operating system. Transparency works on all platforms.
 * Image format: Most browsers support a wide variety of image formats, but you should stick to something common and web-optimizable, such as JPG, PNG or CUR. Animateds PNGs and GIFs will only produce static cursors.
+}}{{CSS Property Value
+|Data Type=url() hotspot-x hotspot-y, pointer;
+|Description=CSS3 allows you to specify a custom cusor image along with an X and Y value for the pointer hotspot, for example <code>cursor:  url(cursor2.png) 2 2, auto;</code>. If not specified, the hotspot position defaults to the top left corner of the cursor image, or may be read from the meta data inside the image file, in the case of CUR and XBM format files.
 }}
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=CSS
 |Description=The following Example shows the standard cursors. Just hover the boxes and you see the cursors.
 
 		<div style="overflow: hidden;">
@@ -134,6 +138,13 @@ You can supply multiple <code>url()</code> functions separated by commas (<code>
  
 /* standard cursor value as fallback for url() must be provided (doesn't work without) */
 .baz { cursor: url(hyper.cur), auto }
+}}{{Single Example
+|Language=CSS
+|Description=This example shows a custom cursor image being used.
+|Code=html {
+  cursor: url(http://www.webplatform.org/logo/wplogo_transparent.png), auto;
+}
+|LiveURL=http://code.webplatform.org/gist/5503046
 }}
 }}
 {{Notes_Section
