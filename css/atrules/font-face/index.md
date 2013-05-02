@@ -11,6 +11,34 @@
 |Content=The <code>@font-face</code> at-rule may be used not only at the top level of a CSS, but also inside any CSS conditional-group at-rule.
 
 <blockquote>'''Note:''' ''This is an experimental technology'' Because this technology's specification has not stabilized, check the compatibility table below for the proper prefixes to use in various browsers. Also note that the syntax and behavior of an experimental technology is subject to change in future versions of browsers as the spec changes.</blockquote>
+
+===Syntax===
+<syntaxhighlight lang="css">
+@font-face {
+  [font-family: &ltfamily-name&gt;]?
+  [src: [ &lturi&gt [format(&ltstring&gt#)]? | &ltfont-face-name&gt ]#;]?
+  [unicode-range: &lturange&gt#;]?
+  [font-variant: &ltfont-variant&gt;]?
+  [font-feature-settings: normal|&ltfeature-tag-value&gt#;]?
+  [font-stretch: &ltfont-stretch&gt;]?
+  [font-weight: &ltweight&gt];
+  [font-style: &ltstyle&gt];
+}
+</syntaxhighlight>
+
+====Values====
+;&ltfamily-name&gt
+:Specifies a font name that will be used as font face value for font properties.
+;&lturi&gt
+:URL for the remote font file location, or the name of a font on the user's computer in the form local("Font Name").
+;&ltfont-variant&gt
+:A font-variant value.
+;&ltfont-stretch&gt
+:A font-stretch value.
+;&ltweight&gt
+:A font weight value.
+;&ltstyle&gt
+:A font style value.
 }}
 {{Examples_Section
 |Not_required=No
