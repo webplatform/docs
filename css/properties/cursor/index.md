@@ -55,11 +55,15 @@
 
 These have varying support across different browsers — see the support section. The examples below feature different boxes with different cursor values set on them, so you can get an idea of what the different ones look like.
 }}{{CSS Property Value
-|Data Type=url [x, y]
-|Description=Optional.
-A <code>url(…)</code> or a comma separated list <code>url(…), url(…), …</code> , pointing to an image file. More than one <code><uri></code> may be provided as fallback, in case some cursor image types are not supported. A non-URL fallback (one ore more of the other values) must be at the end of the fallback list. See Using URL values for the cursor property for more details.
+|Data Type=url(), auto/standard value
+|Description=Instead of specifying a standard pointer type, you can specify a <code>url()</code> function pointing to a custom graphic to use as a cursor, which must be followed by a fallback keyword to use as a pointer if the image is not available, which can be auto or a standard value, as shown above.
 
-The <x>, <y> values are optional and experimental. Two unit-less numbers.
+You can supply multiple <code>url()</code> functions separated by commas (<code>url(), url(), auto</code> for example), and the browser will use the earliest appropriate image it can find. Limitations include:
+
+* Cursor size: if the cursor image is over a certain size it will be ignored (in Gecko for example the limit is 128×128px). You should limit yourself about 32×32px anyway, for maximum compatibility with operating systems and platforms.
+* Browser: On some browsers, for example Opera, the custom cursors are just ignored, and the keywords are used instead.
+* Transparency: Translucent cursors are not supported on Windows releases earlier than XP. This is a limitation of the operating system. Transparency works on all platforms.
+* Image format: Most browsers support a wide variety of image formats, but you should stick to something common and web-optimizable, such as JPG, PNG or CUR. Animateds PNGs and GIFs will only produce static cursors.
 }}
 }}
 {{Examples_Section
