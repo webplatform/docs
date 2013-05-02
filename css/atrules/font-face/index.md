@@ -28,21 +28,21 @@
 
 ===Values===
 ;'''&lt;family-name&gt;'''
-:Specifies a [[css/properties/font-family|'''font-family''']] name that will be used as font face value for font properties.
-;<code>&lt;uri&gt;</code>
-:The location of a font file to use (either an external reference with an optional hint or a local reference). To specify an external reference, use ''url(sURL)'', where ''sURL'' is an absolute or relative URL. In Internet Explorer 8 and earlier versions, only one URL value is supported.To specify specific font formats (only for externally referenced font files), use a ''format'' hint (''format(fontFormat)'') where ''fontFormat'' is a comma-separated list of format strings that denote supported font formats. Possible ''fontFormat'' values are <code>"woff"</code>, <code>"truetype"</code>, <code>"opentype"</code>, and <code>"embedded-opentype"</code>. The ''format'' hint is optional starting in Internet Explorer 9. (''format'' hints are not supported in Internet Explorer 8 and earlier versions and are ignored.)To specify a local reference, use ''local(sFontName)'', where ''sFontName'' is the name of the locally-installed font to use.
-;<code>&lt;urange&gt;</code>
-:A list of Unicode character ranges, where ''urange'' is a comma-separated list of Unicode range values.
-;<code>&lt;font-variant&gt;</code>
-:A [[css/properties/font-variant|'''font-variant''']] value.
-;<code>&lt;font-stretch&gt;</code>
-:A valid [[css/properties/font-stretch|'''font-stretch''']] property value.
-;<code>&lt;weight&gt;</code>
-:A valid [[css/properties/font-weight|'''font-weight''']] property value (except for the relative values, <code>bolder</code> and <code>lighter</code>).
-;<code>&lt;style&gt;</code>
-:A valid [[css/properties/font-style|'''font-style''']] property value.
+:''Specifies a [[css/properties/font-family|'''font-family''']] name that will be used as font face value for font properties.''
+;'''<code>'''&lt;uri&gt;'''
+:''The location of a font file to use (either an external reference with an optional hint or a local reference). To specify an external reference, use '''url(sURL)''', where '''sURL''' is an absolute or relative URL. In Internet Explorer 8 and earlier versions, only one URL value is supported. To specify specific font formats (only for externally referenced font files), use a '''format''' hint ('''format(fontFormat)''') where '''fontFormat''' is a comma-separated list of format strings that denote supported font formats. Possible '''fontFormat''' values are <code>woff</code>, <code>truetype</code>, <code>opentype</code>, and <code>embedded-opentype</code>. The '''format''' hint is optional starting in Internet Explorer 9. ('''format''' hints are not supported in Internet Explorer 8 and earlier versions and are ignored.)
 
-You can specify a font on the user's local computer by name using the <code>local()</code> syntax. If that font is not found, other sources will be tried until one is found.
+To specify a local reference, use <code>local(sFontName)</code>, where '''sFontName''' is the name of the locally-installed font to use.  If that font is not found, other sources will be tried until one is found.''
+;'''<code>'''&lt;urange&gt;'''
+:''A list of Unicode character ranges, where ''urange'' is a comma-separated list of Unicode range values.''
+;'''<code>'''&lt;font-variant&gt;'''
+:''A [[css/properties/font-variant|'''font-variant''']] value.''
+;'''<code>'''&lt;font-stretch&gt;'''
+:''A valid [[css/properties/font-stretch|'''font-stretch''']] property value.''
+;'''<code>'''&lt;weight&gt;'''
+:''A valid [[css/properties/font-weight|'''font-weight''']] property value (except for the relative values, <code>bolder</code> and <code>lighter</code>).''
+;'''<code>'''&lt;style&gt;'''
+:''A valid [[css/properties/font-style|'''font-style''']] property value.''
 }}
 {{Examples_Section
 |Not_required=No
