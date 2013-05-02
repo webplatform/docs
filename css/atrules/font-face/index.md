@@ -15,14 +15,14 @@
 ===Syntax===
 <syntaxhighlight lang="css">
 @font-face {
-  [font-family: <nowiki>&lt;</nowiki>family-name<nowiki>&gt;</nowiki>]?
-  [src: [ <nowiki>&lt;</nowiki>uri&gt [format(<nowiki>&lt;</nowiki>string&gt#)]? | <nowiki>&lt;</nowiki>font-face-name&gt ]#;]?
-  [unicode-range: <nowiki>&lt;</nowiki>urange&gt#;]?
-  [font-variant: <nowiki>&lt;</nowiki>font-variant<nowiki>&gt;</nowiki>]?
-  [font-feature-settings: normal|<nowiki>&lt;</nowiki>feature-tag-value&gt#;]?
-  [font-stretch: <nowiki>&lt;</nowiki>font-stretch<nowiki>&gt;</nowiki>]?
-  [font-weight: <nowiki>&lt;</nowiki>weight&gt];
-  [font-style: <nowiki>&lt;</nowiki>style&gt];
+  [font-family: <family-name>]?
+  [src: [ <uri&gt [format(<string>#)]? | <font-face-name> ]#;]?
+  [unicode-range: <urange>#;]?
+  [font-variant: <font-variant>]?
+  [font-feature-settings: normal|<feature-tag-value>#;]?
+  [font-stretch: <font-stretch>]?
+  [font-weight: <weight>];
+  [font-style: <style>];
 }
 </syntaxhighlight>
 
