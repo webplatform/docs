@@ -223,6 +223,9 @@
 }}
 {{See_Also_Section
 |Topic_clusters=Flexbox
+|External_links=Also, check out the following live demo sites:
+* [http://demo.agektmr.com/flexbox/ Flexbox Playgroun]
+* [http://the-echoplex.net/flexyboxes Flexy Boxes]
 }}
 {{Topics}}
 {{External_Attribution
