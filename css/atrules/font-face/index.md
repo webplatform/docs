@@ -29,15 +29,15 @@
 ====Values====
 ;<code>&lt;family-name&gt;</code>
 :Specifies a font name that will be used as font face value for font properties.
-;<nowiki>&lt;</nowiki>uri<nowiki>&gt;</nowiki>
+;<code>&lt;uri&gt;</code>
 :URL for the remote font file location, or the name of a font on the user's computer in the form local("Font Name").
-;<nowiki>&lt;</nowiki>font-variant<nowiki>&gt;</nowiki>
+;<code>&lt;font-variant&gt;</code>
 :A font-variant value.
-;<nowiki>&lt;</nowiki>font-stretch<nowiki>&gt;</nowiki>
+;<code>&lt;font-stretch&gt;</code>
 :A font-stretch value.
-;<nowiki>&lt;</nowiki>weight<nowiki>&gt;</nowiki>
+;<code>&lt;weight&gt;</code>
 :A font weight value.
-;<nowiki>&lt;</nowiki>style<nowiki>&gt;</nowiki>
+;<code>&lt;style&gt;</code>
 :A font style value.
 }}
 {{Examples_Section
