@@ -1,13 +1,12 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|Non-Standard}}
 {{API_Name}}
-{{Summary_Section|Gets or sets a value that specifies how a flexbox's lines align within the flexbox when there is extra space along the axis that is perpendicular to the axis defined by the -ms-flex-direction property.
-
-}}
+{{Summary_Section|Gets or sets a value that specifies how a flexbox's lines align within the flexbox when there is extra space along the axis that is perpendicular to the axis defined by the -ms-flex-direction property.}}
 {{CSS Property
 |Initial value=stretch
 |Applies to=flexbox elements
@@ -50,12 +49,12 @@
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=Flexbox
 |Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 }}
