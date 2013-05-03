@@ -54,9 +54,9 @@
    display: -webkit-flex;
    display: -moz-flex;
    display:         flex;
-   -webkit-flex-direction: row;
-      -moz-flex-direction: row;
-           flex-direction: row;
+   -webkit-flex-flow: row;
+      -moz-flex-flow: row;
+           flex-flow: row;
    }
   
   #main > article {
@@ -115,9 +115,9 @@
   @media all and (max-width: 640px) {
    
    #main, #page {
-    -webkit-flex-direction: column;
-       -moz-flex-direction: column;
-            flex-direction: column;
+    -webkit-flex-flow: column;
+       -moz-flex-flow: column;
+            flex-flow: column;
    }
  
    #main > article, #main > nav, #main > aside {
