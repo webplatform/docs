@@ -874,7 +874,7 @@ To create a lighting effect, you need to specify three things:
 
 * A light ''source'', of which there are three kinds:
 ** a ''distant'' light ([[svg/elements/feDistantLight|'''feDistantLight''']]) is arbirtarily far away, and so is specified in terms of its angle from the target. This is the most appropriate way to represent sunlight.
-** a ''point'' light ([[svg/elements/fePointLight|'''fePointLight''']]) emanates from a specific point that is represented as a three-dimensional ''x''/''y''/''z'' coordinate. This is more appropriate when you need perspective, such as relative to a room light.
+** a ''point'' light ([[svg/elements/fePointLight|'''fePointLight''']]) emanates from a specific point that is represented as a three-dimensional ''x''/''y''/''z'' coordinate. This is more appropriate when you need the perspective necessary to place a room light within a scene.
 ** a ''spot'' light ([[svg/elements/feSpotLight|'''feSpotLight''']]) behaves much like a point light, but its beam can be narrowed to a cone, and the light can pivot to other targets.
 
 * A basic ''type'' of light, of which two are available:
