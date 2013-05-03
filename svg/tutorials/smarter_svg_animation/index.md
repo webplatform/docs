@@ -842,7 +842,7 @@ function pausePlayAll() {
 }
 </syntaxhighlight>
 
-Note that [[svg/methods/animationsPaused|'''animationsPaused()''']] is a method call just like [[svg/methods/pauseAnimations|'''pauseAnimations()''']] and [[svg/methods/unpauseAnimations|'''unpauseAnimations()''']], not a simple attribute as you might expect.
+Note that [[svg/methods/animationsPaused|'''animationsPaused()''']] is a method call just like [[svg/methods/pauseAnimations|'''pauseAnimations()''']] and [[svg/methods/unpauseAnimations|'''unpauseAnimations()''']], not a simple object property as you might expect.
 }}
 {{Notes_Section}}
 {{Compatibility_Section
