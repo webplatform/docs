@@ -149,7 +149,7 @@
 * The flex shrink factor is multiplied by the flex basis when distributing negative space.
 |Notes=* The initial values of [[css/properties/flex-grow|flex-grow]] and  [[css/properties/flex-basis|flex-basis]] are different from their values when omitted in the '''flex''' shorthand.
 ** '''flex-grow''' value when omitted: '''1'''
-** '''flex-basis''' value when omitted: '''0''''
+** '''flex-basis''' value when omitted: '''0'''
 * When specifying only the flex-basis, a unitless zero not preceded by two flex factor values, for example, '''&nbsp;&nbsp;0''' will be interpreted as a flex factor (probably flex-grow). If you wish to specify only the flex-basis, you must include a unit, for example, a percentage, as in '''0%'''.
 }}
 {{Related_Specifications_Section
