@@ -2,31 +2,49 @@
 {{Flags
 |Checked_Out=Yes
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The '''flex-grow''' CSS property specifies how much a flex item will enlarge with respect to the other items in the flex container to fill an expanded container. }}
 {{CSS Property
+|Initial value=0
+|Applies to=flex items
 |Inherited=No
-|Animatable=No
-|Values=
+|Media=visual
+|Computed value=as specified
+|Animatable=Yes
+|Values={{CSS Property Value
+|Data Type=number
+|Description=The flex grow factor, which describes the proportion by which the flex item will grow relative to the other flex items in the container. Negative numbers are invalid.
+}}
 }}
 {{Examples_Section
 |Not_required=No
 |Examples=
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=The best practice is to use (instead of this property) the [[css/properties/flex|flex]] shorthand property, as it correctly resets any unspecified flex components to accomodate common uses.
+|Notes=This property is animatable only for values of 1 or greater.
+}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Flexible Box Layout Model
+|URL=http://dev.w3.org/csswg/css-flexbox/#flex-grow
+|Status=Candidate Recommendation
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
-|Imported_tables=
+|Imported_tables={{Imported Compatibility Table
+|Page=http://docs.webplatform.org/wiki/css/properties/flex
+}}
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section}}
-{{Topics}}
+{{See_Also_Section
+|Topic_clusters=Flexbox
+}}
+{{Topics|Flexbox}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
