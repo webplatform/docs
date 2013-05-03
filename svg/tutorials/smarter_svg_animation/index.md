@@ -1,5 +1,7 @@
 {{Page_Title|SVG animation}}
-{{Flags}}
+{{Flags
+|Checked_Out=No
+}}
 {{Byline
 |Name=Mike Sierra
 }}
@@ -218,10 +220,10 @@ concurrently, without having to keep track of how long each one takes
 to keep them all synchronized.
 
 To calculate when to start the second animation, SVG actually looks
-ahead to see when the [[dom/events/end|'''end''']] event is supposed
-to occur. You can subtract or add time values to start it before or
-after that point. For example, this variation overlaps the two
-animations by a fifth of a second:
+ahead to see when the [[dom/events/end|'''end''']] event is ''supposed''
+to occur, based on the specified duration. You can subtract or add time
+values to start it before or after that point. For example, this variation
+overlaps the two animations by a fifth of a second:
 
  begin = "slideAnim.end-200ms"
 
@@ -839,7 +841,6 @@ function pausePlayAll() {
         : root.pauseAnimations();
 }
 </syntaxhighlight>
-
 }}
 {{Notes_Section}}
 {{Compatibility_Section
