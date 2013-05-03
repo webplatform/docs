@@ -20,7 +20,9 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=CSS
 |Description=See [[css/properties/flex#Examples|flex examples]] for the use of this property in an example.
+|Code=flex-grow: 3;
 }}
 }}
 {{Notes_Section
