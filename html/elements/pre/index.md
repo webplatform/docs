@@ -2,12 +2,11 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The pre tag defines preformatted text. Text in a pre element is displayed in a fixed-width font and preserves both spaces and line breaks.
-
-}}
+{{Summary_Section|The pre tag defines preformatted text. Text in a pre element is displayed in a fixed-width font and preserves both spaces and line breaks.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLPreElement
 }}
@@ -26,6 +25,7 @@ This text is formatted
 }}
 }}
 {{Notes_Section
+|Usage=To cater for international users see: [http://www.w3.org/International/techniques/authoring-html#form-dir Managing text direction in form controls]
 |Notes====Remarks===
 Text within the '''PRE''' element is formatted. Spaces and carriage returns are preserved.
 |Import_Notes====Standards information===
