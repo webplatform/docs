@@ -4,11 +4,12 @@
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 |Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Global attribute. Specifies the element’s text directionality.}}
 {{Markup_Attribute
 |Property_applies_to=dom/HTMLElement
+|Content=dir = "ltr" or "rtl" or "auto"
 }}
 {{Examples_Section
 |Not_required=No
