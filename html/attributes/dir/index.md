@@ -19,8 +19,8 @@
 <head>
 ...
 }}{{Single Example
-|Description=<p>The title is "<span dir="rtl" lang="ar" xml:lang="ar">مفتاح معايير الويب!</span>" in Arabic.</p>
-|Code=<p>The title is "<span dir="rtl" lang="ar" xml:lang="ar">مفتاح معايير الويب!</span>" in Arabic.</p>
+|Language=HTML
+|Code=&lt;p&gt;The title is &quot;&lt;span dir=&quot;rtl&quot; lang=&quot;ar&quot; xml:lang=&quot;ar&quot;&gt;مفتاح معايير الويب!&lt;/span&gt;&quot; in Arabic.&lt;/p&gt;
 |LiveURL=http://www.w3.org/International/php/examples/generate?data=bidi&test=18
 }}
 }}
