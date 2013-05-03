@@ -164,12 +164,12 @@
 |Not_required=No
 |Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Yes
-|Chrome_version=25
+|Chrome_supported=No
+|Chrome_version=
 |Chrome_prefixed_supported=Yes
 |Chrome_prefixed_version=21
-|Firefox_supported=Yes
-|Firefox_version=20
+|Firefox_supported=No
+|Firefox_version=
 |Firefox_prefixed_supported=Yes
 |Firefox_prefixed_version=18
 |Internet_explorer_supported=No
