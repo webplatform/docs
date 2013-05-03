@@ -14,12 +14,14 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
+|Description=For pages in Arabic, Hebrew, Persian, Thaana, Urdu, etc. set the default direction of the page to right-to-left by including dir in the html tag.
 |Code=<!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
 ...
 }}{{Single Example
 |Language=HTML
+|Description=To make the exclamation mark appear to the left of the citation, surround the citation with markup and add a dir attribute.
 |Code=&lt;p&gt;The title is &quot;&lt;span dir=&quot;rtl&quot; lang=&quot;ar&quot; xml:lang=&quot;ar&quot;&gt;مفتاح معايير الويب!&lt;/span&gt;&quot; in Arabic.&lt;/p&gt;
 |LiveURL=http://www.w3.org/International/php/examples/generate?data=bidi&test=18
 }}
