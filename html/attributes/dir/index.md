@@ -1,7 +1,8 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -17,6 +18,14 @@
 |Notes====Remarks===
 Unless explicitly set, the '''dir''' property has no return value when accessed in script.
 The property does not affect alphanumeric characters in Latin documents. These characters always render '''ltr'''.  However, the property does affect punctuation characters in Latin documents. For example, punctuation marks such as periods and question marks render to the left of a sentence when the [[dom/properties/dir (Document object)|'''dir''']] property is set to '''rtl'''. The real benefit of this attribute is when using '''rtl''' languages such as Arabic and Hebrew. These can be some of the most challenging languages to write '''HTML''' with especially because html in itself is a left-to-right programming language.
+
+For more information see the following links:
+* [http://www.w3.org/International/techniques/authoring-html#direction Text direction]
+* [http://www.w3.org/International/techniques/authoring-html#using Setting up a right-to-left page ]
+* [http://www.w3.org/International/techniques/authoring-html#blocks Changing the direction of a block element]
+* [http://www.w3.org/International/techniques/authoring-html#inline Mixing text direction inline]
+* [http://www.w3.org/International/techniques/authoring-html#mirrored Handling parentheses and other mirrored characters]
+
 |Import_Notes====Syntax===
 }}
 {{Related_Specifications_Section
@@ -24,6 +33,7 @@ The property does not affect alphanumeric characters in Latin documents. These c
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
