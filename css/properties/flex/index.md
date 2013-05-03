@@ -230,7 +230,8 @@
 {{Topics|Flexbox}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|MDN_link=
+|Sources=MDN
+|MDN_link=https://developer.mozilla.org/en-US/docs/CSS/Tutorials/Using_CSS_flexible_boxes
 |MSDN_link=
 |HTML5Rocks_link=
 }}
