@@ -695,7 +695,7 @@ Setting the [[svg/attributes/operator|'''operator''']] to
 values to produce composite blends.  For example, set
 [[svg/attributes/k1|'''k1''']] and [[svg/attributes/k4|'''k4''']] to
 0, then decrease [[svg/attributes/k2|'''k2''']] from 1 while
-increasing [[svg/attributes/k3|'''k3''']] for a cross-fade effect.
+increasing [[svg/attributes/k3|'''k3''']] from 0 for a cross-fade effect.
 This example makes the [[svg/attributes/in2|'''in2''']] graphic more
 visible:
 
