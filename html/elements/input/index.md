@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics
 |Content=Incomplete, Compatibility Incomplete
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -67,6 +68,7 @@ The input element behavior varies depending on the value of its [[html/elements/
 }}
 }}
 {{Notes_Section
+|Usage=To cater for international users see: [http://www.w3.org/International/techniques/authoring-html#form-dir Managing text direction in form controls]
 |Notes=For code samples, see [http://go.microsoft.com/fwlink/p/?LinkID{{=}}251128 Form controls part 1] and [http://go.microsoft.com/fwlink/p/?LinkID{{=}}251131 Form controls part 2: validation] on the Windows Internet Explorer sample site.
 }}
 {{Related_Specifications_Section
