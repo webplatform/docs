@@ -22,10 +22,9 @@ The property does not affect alphanumeric characters in Latin documents. These c
 For more information see the following links:
 * [http://www.w3.org/International/techniques/authoring-html#direction Text direction]
 * [http://www.w3.org/International/techniques/authoring-html#using Setting up a right-to-left page ]
-* [http://www.w3.org/International/techniques/authoring-html#blocks Changing the direction of a block element]
+* [http://www.w3.org/International/techniques/authoring-html#blocks Setting direction on block elements]
 * [http://www.w3.org/International/techniques/authoring-html#inline Mixing text direction inline]
 * [http://www.w3.org/International/techniques/authoring-html#mirrored Handling parentheses and other mirrored characters]
-
 |Import_Notes====Syntax===
 }}
 {{Related_Specifications_Section
