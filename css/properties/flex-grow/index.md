@@ -39,7 +39,7 @@
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables={{Imported Compatibility Table
-|Page=http://docs.webplatform.org/wiki/css/properties/flex
+|Page=css/properties/flex
 }}
 |Desktop_rows=
 |Mobile_rows=
