@@ -486,11 +486,7 @@ Convolution filters can also highlight moats around high-contrast
 edges.  The more dramatic texture shown below on the right forms moats
 throughout the image.  It requires an
 [[svg/attributes/order|'''order''']] of 5, which extends the range of
-the calculation to each adjacent neighbor's farthest neighbor.  (As
-shown here, it is converted to a grayscale using the
-'''luminanceToAlpha'''
-[[svg/elements/feColorMatrix|'''feColorMatrix''']] type shown above,
-and the effect-chaining technique described below.)
+the calculation to each adjacent neighbor's farthest neighbor. 
 
 <div style="display:inline-block">
 
@@ -513,6 +509,17 @@ and the effect-chaining technique described below.)
 [[Image:svgf_CVsuperEdge.png|400px]]
 
 </div>
+
+As shown below, the example on the right is also converted to a grayscale using the '''luminanceToAlpha'''
+[[svg/elements/feColorMatrix|'''feColorMatrix''']] effect described above,
+and the effect-chaining technique described in the following section.
+
+<syntaxhighlight lang="xml">
+<filter id="extremeEffect">
+  <feConvolveMatrix order="5" kernelMatrix="1 1 1 1 1 1 -2 -2 -2 1 1  -2 .01 -2 1 1 -2 -2 -2 1 1 1 1 1 1"/>
+  <feColorMatrix type="luminanceToAlpha"/>
+</filter>
+</syntaxhighlight>
 
 ==Chaining, splitting and merging effects: building a drop shadow with feOffset, feFlood, and feMerge==
 
