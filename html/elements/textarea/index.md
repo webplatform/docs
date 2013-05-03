@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -23,10 +24,11 @@ A text area can hold an unlimited number of characters, and the text renders in 
 }}
 }}
 {{Notes_Section
+|Usage=To cater for international users see: [http://www.w3.org/International/techniques/authoring-html#form-dir Managing text direction in form controls]
 |Notes====Remarks===
 The default font is fixed pitch.
 
-'''Security Warning:  '''Using this object incorrectly can compromise the security of your application. When submitting text through <code>textarea</code> over an intranet or the Internet, validating the text string is recommended. For instance, you might validate the string for a restricted set of known, good values (such as  letters and numbers) and ignore the rest. 
+'''Security Warning:  '''Using this object incorrectly can compromise the security of your application. When submitting text through <code>textarea</code> over an intranet or the Internet, validating the text string is recommended. For instance, you might validate the string for a restricted set of known, good values (such as  letters and numbers) and ignore the rest.
 |Import_Notes====Standards information===
 *[http://www.w3.org/TR/html401/interact/forms.html#h-17.7 HTML 4.01 Specification, Section 17.7]
 
