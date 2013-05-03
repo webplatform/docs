@@ -147,7 +147,7 @@
 {{Notes_Section
 |Usage=* Best practice is to always specify a unit for the flex-basis value, i.e. 30em or 60%.
 |Notes=* The initial values of [[css/properties/flex-grow|flex-grow]] and  [[css/properties/flex-basis|flex-basis]] are different from their defaults when omitted in the '''flex''' shorthand.
-* When specifying only the flex-basis, a unitless zero not preceded by two flex factor values, for example, '''0&nbsp;&nbsp;''' will be interpreted as a flex factor (probably flex-grow). If you wish to specify only the flex-basis, you must include a unit, for example, a percentage, as in '''0%'''.
+* When specifying only the flex-basis, a unitless zero not preceded by two flex factor values, for example, '''&nbsp;&nbsp;0''' will be interpreted as a flex factor (probably flex-grow). If you wish to specify only the flex-basis, you must include a unit, for example, a percentage, as in '''0%'''.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
