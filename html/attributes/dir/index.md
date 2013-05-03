@@ -19,6 +19,7 @@
 <head>
 ...
 }}{{Single Example
+|Description=<p>The title is "<span dir="rtl" lang="ar" xml:lang="ar">مفتاح معايير الويب!</span>" in Arabic.</p>
 |Code=<p>The title is "<span dir="rtl" lang="ar" xml:lang="ar">مفتاح معايير الويب!</span>" in Arabic.</p>
 |LiveURL=http://www.w3.org/International/php/examples/generate?data=bidi&test=18
 }}
