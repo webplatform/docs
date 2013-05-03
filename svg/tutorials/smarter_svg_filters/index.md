@@ -754,8 +754,8 @@ Start with a bit of text:
 
 The [[svg/elements/feMorphology|'''feMorphology''']] effect specifies
 a [[svg/attributes/dilate|'''dilate''']] factor to thicken the
-graphic. (Alternately, [[svg/attributes/erode|'''erode''']] would erode
-it.)
+graphic. (Alternately, [[svg/attributes/erode|'''erode''']] would make
+it thinner.)
 
 [[Image:svgf_warpMorph.png|250px]]
 
