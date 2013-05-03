@@ -1,5 +1,7 @@
 {{Page_Title|SVG filters}}
-{{Flags}}
+{{Flags
+|Checked_Out=No
+}}
 {{Byline
 |Name=Mike Sierra
 }}
@@ -75,7 +77,7 @@ an attribute or via CSS:
 
 <syntaxhighlight lang="css" highlight="2">
 .blurred {
-    filter      : url(#blur);
+    filter      : url(#css_blur);
     font-family : sans-serif;
     font-size   : 70px;
     fill        : red;
