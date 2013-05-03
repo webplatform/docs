@@ -52,8 +52,10 @@
    margin: 0px;
    padding: 0px;
    display: -webkit-flex;
+   display: -moz-flex;
    display:         flex;
    -webkit-flex-flow: row;
+   -moz-flex-flow: row;
            flex-flow: row;
    }
   
@@ -64,8 +66,10 @@
    border-radius: 7pt;
    background: #dddd88;
    -webkit-flex: 3 1 60%;
+   -moz-flex: 3 1 60%;
            flex: 3 1 60%;
    -webkit-order: 2;
+   -moz-order: 2;
            order: 2;
    }
    
@@ -76,8 +80,10 @@
    border-radius: 7pt;
    background: #ccccff;
    -webkit-flex: 1 6 20%;
+   -moz-flex: 1 6 20%;
            flex: 1 6 20%;
    -webkit-order: 1;
+   -moz-order: 1;
            order: 1;
    }
    
@@ -88,8 +94,10 @@
    border-radius: 7pt;
    background: #ccccff;
    -webkit-flex: 1 6 20%;
+   -moz-flex: 1 6 20%;
            flex: 1 6 20%;
    -webkit-order: 3;
+   -moz-order: 3;
            order: 3;
    }
   
@@ -108,12 +116,14 @@
    
    #main, #page {
     -webkit-flex-flow: column;
+    -moz-flex-flow: column;
             flex-flow: column;
    }
  
    #main > article, #main > nav, #main > aside {
     /* Return them to document order */
     -webkit-order: 0;
+    -moz-order: 0;
             order: 0;
    }
    
