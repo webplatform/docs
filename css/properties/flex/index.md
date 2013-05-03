@@ -17,19 +17,19 @@
 |Data Type=none
 |Description=Equivalent to '''0 0 auto'''
 * The flex item does not adjust its size to fit the container.
-* The flex item's initial main size is determined by the size of its contents.
+* The flex item's initial main size is determined by either the [[css/properties/width|width]] or [[css/properties/height|height]] property, whichever is in the main dimension, as determined by the [[css/properties/flex-flow|flex-direction]] property.
 }}{{CSS Property Value
 |Data Type=auto
 |Description=Equivalent to '''1 1 auto'''
 * The flex item grows exactly proportional to all of the other flex items to fit a larger container.
 * The flex item shrinks exactly proportional to all of the other flex items to fit a smaller container.
-* The flex item's initial main size is determined by the size of its contents.
+* The flex item's initial main size is determined by either the [[css/properties/width|width]] or [[css/properties/height|height]] property, whichever is in the main dimension, as determined by the [[css/properties/flex-flow|flex-direction]] property.
 }}{{CSS Property Value
 |Data Type=initial
 |Description=Equivalent '''0 1 auto''''
 * The flex item does not grow with the other flex items to fit a larger container.
 * The flex item shrinks proportional to the other flex items to fit a smaller container.
-* The flex item's initial main size is determined by the size of its contents.
+* The flex item's initial main size is determined by either the [[css/properties/width|width]] or [[css/properties/height|height]] property, whichever is in the main dimension, as determined by the [[css/properties/flex-flow|flex-direction]] property.
 }}{{CSS Property Value
 |Data Type=3 1 60%
 |Description=* The flex item grows three times as much as the other flex items to fit a larger container.
