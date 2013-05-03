@@ -12,7 +12,16 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Code=<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+...
+}}{{Single Example
+|Code=<p>The title is "<span dir="rtl" lang="ar" xml:lang="ar">مفتاح معايير الويب!</span>" in Arabic.</p>
+|LiveURL=http://www.w3.org/International/php/examples/generate?data=bidi&test=18
+}}
 }}
 {{Notes_Section
 |Notes====Remarks===
