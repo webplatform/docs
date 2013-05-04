@@ -97,9 +97,8 @@ El problema con XHTML 2.0 es que no era compatible con el marcado que ya exitía
  
 En el 2004, un grupo de desarrolladores y implementadores (incluyendo representantes de Opera, Mozilla y slightly y luego Aple) se reunieron y formaron un grupo llamado la[http://www.whatwg.org/ WHATWG], con el objetivo de escribir una mejor especificación que podría manejar la creación de aplicaciones web, sin romper la compatibilidad con lo anterior.
 
-El resultado fue la 
-The result was the [http://www.whatwg.org/specs/web-apps/2005-09-01/ Especificación de aplicaciones web 1.0], 
-which documented existing interoperable browser behaviours and features, as well as new features for the Web stack such as APIs and new DOM parsing rules. After many discussions between W3C Members, on March 7 2007 the work on HTML was restarted with a new HTML Working Group in an open participation process. In the first few days, hundreds of participants joined to continue to work on the next version of HTML. One of the first decisions of the HTML WG was to adopt the Web Applications 1.0 spec and call it HTML5.
+El resultado fue la [http://www.whatwg.org/specs/web-apps/2005-09-01/ Especificación de aplicaciones web 1.0], que documentó  interoperabilidad de los navegadores existente, así como comportamiento y características. Así como características de la Web como Apis y las nuevas reglas del analisis del DOM. Después de muchas discusiones entre los miembros de la W3C, el 7 Marzo del 2007 el trabajo en HTML fue renovado con el nuevo Equipo de trabajo de HTML en un proceso de participación abierta. En los primeros día, cientos de participaciones ingresaron y continuaron trabajando en la siguiente version de HTML. Una de las primeras deciones de la HTML WG fue adoptar la Especificación de aplicaciones web 1.0 y llamarla HTML5.
+
  
 HTML5 is a really good thing for web developers and designers, because it:
  
