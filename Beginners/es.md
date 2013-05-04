@@ -11,8 +11,8 @@ Este conjunto de artículos es para que los principiantes los lean con confianza
 
 En este curso escribirás una gran cantidad de código y lo pondrás a prueba en los navegadores web. Antes de comenzar debes tener instalado por lo menos lo siguiente:
 
-* Los más recientes navegadores que puedas instalar. Si acaso no los tienes ya, descárgalos desde las páginas de [http://www.google.com/chrome Chrome], [http://www.mozilla.org/en-US/firefox/new/ Firefox], [http://windows.microsoft.com/en-GB/internet-explorer/products/ie/home Internet Explorer], [http://www.opera.com Opera] y [http://www.apple.com/safari/ Safari].
-* Un editor de texto decente. Las opciones gratuitas razonables son [http://notepad-plus-plus.org/ Notepad++] para Windows, [http://www.barebones.com/products/TextWrangler/ Text Wrangler] para Mac y [http://bluefish.openoffice.nl/index.html Bluefish] para Linux.
+* Los más nuevos navegadores que puedas instalar. Si acaso no los tienes ya, descárgalos desde las páginas de [http://www.google.com/chrome Chrome], [http://www.mozilla.org/en-US/firefox/new/ Firefox], [http://windows.microsoft.com/en-GB/internet-explorer/products/ie/home Internet Explorer], [http://www.opera.com Opera] y [http://www.apple.com/safari/ Safari].
+* Un editor de texto decente. Las opciones gratuitas razonables son [http://notepad-plus-plus.org/ Notepad++] para Windows, [http://www.barebones.com/products/TextWrangler/ Text Wrangler] para Mac, [http://bluefish.openoffice.nl/index.html Bluefish] para Linux o [[http://www.sublimetext.com/ Sublime Text 2]] para Windows, linux y mac.
 
 Ahora, arremángate la camisa y preparémonos a aprender. [[tutorials|¡Explora nuestra lista completa de artículos didácticos]] si terminas la lista de esta página y deseas aprender aún más!
 
