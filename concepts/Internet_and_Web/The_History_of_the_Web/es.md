@@ -99,13 +99,12 @@ En el 2004, un grupo de desarrolladores y implementadores (incluyendo representa
 
 El resultado fue la [http://www.whatwg.org/specs/web-apps/2005-09-01/ Especificación de aplicaciones web 1.0], que documentó  interoperabilidad de los navegadores existente, así como comportamiento y características. Así como características de la Web como Apis y las nuevas reglas del analisis del DOM. Después de muchas discusiones entre los miembros de la W3C, el 7 Marzo del 2007 el trabajo en HTML fue renovado con el nuevo Equipo de trabajo de HTML en un proceso de participación abierta. En los primeros día, cientos de participaciones ingresaron y continuaron trabajando en la siguiente version de HTML. Una de las primeras deciones de la HTML WG fue adoptar la Especificación de aplicaciones web 1.0 y llamarla HTML5.
 
- 
-HTML5 is a really good thing for web developers and designers, because it:
- 
-* Is mostly backwards compatible with what's already there — you don't need to learn completely new languages to use HTML5. The new markup features work in the same way as the old ones (although the semantics of some elements have been changed — we will cover these differences in a future article), and the new APIs are based on mostly the same JavaScript/DOM that developers have been programming in for years.
-* Adds powerful new features to HTML that were previously only available on the Web using plugin technologies like Flash, or with complex JavaScript and hacks. Form validation and video are prime examples.
-* Is better suited to writing dynamic applications than previous HTML versions (HTML was originally designed for creating static documents).
-* Has a clearly defined parsing algorithm so that all browsers implementing HTML5 will create the same DOM from the same markup, regardless of validity. This is a massive win for interoperability.
+HTML5 es algo realmente bueno para los diseñadores y dersarrolladores  web porque: 
+*Es compatible con lo que ya estaba ahí — No necesitas aprender completamente nuevos lenguajes para usar HTM5. Las nuevas características del marcado funciona de la misma manera que los anteriores(Aunque la semántica y otros elementos han cambiado — Vamos a cubrir estas diferencias en artículos futuros), y las nuevas APIs están basada en lo mismo que llos desarrolladores han estado programando por años(JavaScript/DOM).
+*Agrega nuevas características poderosas a HTML que antes sólo estaban disponibles en la web usando complementos como Flash, JavaScript complejo o hacks. Validación de formularios y vídeo son los ejemplos principales.
+*Es más adecuado para escribir aplicaciones dinámicas que las versiones anteriores de HTML(HTML fue originalmente diseñado para crear documentos estáticos).
+*Tienen un algoritmo de análisis claramente definido para que todos los navegadores que implementaran HTML5 crearan el mismo DOM desde la mismo marcado, independientemente de la validez. Esta es una enorme victoria para la interoperabilidad.
+
 
 The evolution of CSS is not nearly as long winded and controversial as that of HTML, but it is still very interesting, and worth a mention here. The CSS2 specification was nearing completion around 1999/2000, and although it was a powerful language with many great features, its creators knew that it had limitations. There were a number of visual/stylistic things that CSS couldn't do, and that developers had to turn to hacks, JavaScript or plugins to achieve. This includes things such as animation, dynamic layouts, and using custom fonts on pages.
 
