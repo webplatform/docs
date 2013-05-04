@@ -55,7 +55,7 @@
     <div class="inner">
     <h3>[[css/zh|CSS]]</h3>
     
-    <p>概念，教程和参考材料层叠样式表(<abbr>CSS</abbr>).</p>
+    <p>概念，教程和参考材料层叠样式表(<abbr title="Cascading style sheets" >CSS</abbr>).</p>
     </div>
   
   </div>
