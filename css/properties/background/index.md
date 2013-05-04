@@ -1,5 +1,6 @@
 {{Page_Title}}
 {{Flags
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -67,6 +68,7 @@ p { background: url("chess.png") 40% / 10em gray
 |Description=The following
 |Code=div { background: padding-box url(paper.jpg) white center }
 }}{{Single Example
+|Language=CSS
 |Description=becomes
 |Code=div {
     background-color: white;
