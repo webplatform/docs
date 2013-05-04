@@ -2,19 +2,26 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|Specifies the width of an element.}}
 {{CSS Property
 |Initial value=auto
-|Applies to=All elements
+|Applies to=All elements except inline, non-replaced elements, table rows, and row groups.
 |Inherited=No
 |Media=visual
 |Animatable=Yes
 |Values={{CSS Property Value
 |Data Type=auto
-|Description=Default. Default width of the object.
+|Description=Default. Default width of the element, which varies based on the element's type.
+* Block-level, non-replaced elements are given a width such that the element's margins, borders, padding, and width add up to the width of the containing element. For example, if the containing element's width is <code>200px</code> and our element has, on both sides, <code>10px</code> margins, <code>1px</code> borders, and <code>5px</code> padding, a width of <code>auto</code> would effectively be 200 - (10 * 2) - (1 * 2) - (5 * 2) = 168px. If any of these conditions were to change, the effective width would change accordingly.
+* Inline-block, non-replaced elements are given a "shrink-to-fit" width: the element will be as narrow as the content allows, and no wider than the containing element allows.
+* Floating, non-replaced elements are also given a "shrink-to-fit" width.
+* Absolutely position, non-replaced elements are like block-level, non-replaced elements, but with the addition of <code>left</code> and <code>right</code> properties: our element's left value, right value, margins, borders, padding, and width will add up to the containing element's width.
+* Replaced elements (whether inline, block, inline-block, floating, or absolutely positioned) are tricky because their <code>auto</code> widths are calculated in relation to their heights. If our element has an intrinsic width (for example, an image), and the height is also <code>auto</code>, it maintains its intrinsic width. If our element's height is specified (not <code>auto</code>) and the element has an intrinsic ratio, it will be given a width of (used height) * (intrinsic ratio).
+
 }}{{CSS Property Value
 |Data Type=width
 |Description=Floating-point number, followed by an absolute units designator (<code>cm</code>, <code>mm</code>, <code>in</code>, <code>pt</code>, or <code>pc</code>) or a relative units designator (<code>em</code>, <code>ex</code>, or <code>px</code>). For more information about the supported length units, see CSS Values and Units Reference.
