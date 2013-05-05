@@ -268,12 +268,3 @@ border-radius: 40% 60%;
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
-<compatability topic="css" type="property" feature="border-radius" format="list"></compatability>
-
-
-
-
-
-
-==Can I Use==
-<compatability topic="css" type="property" feature="border-radius"></compatability>
