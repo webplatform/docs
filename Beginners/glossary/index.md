@@ -8,12 +8,13 @@
 <dt>API (Application Program Interface):</dt>
 <dd>A set of commands, functions, and protocols which can be used to build websites. APIs are predefined functions that web site authors can call to perform certain tasks instead of writing code from scratch to perform them.</dd>
 <dt>Browser:</dt>
-<dd> A program installed on a Client allowing it to access and display web sites, thereby allowing you to interact with the Web.</dd>
+<dd>A program installed on a Client allowing it to access and display web sites, thereby allowing you to interact with the Web.</dd>
+<dt>Cascading Style Sheets (CSS):</dt>
+<dd>A language for specifying how documents are presented to users. A document is a collection of information that is structured using a markup language.</dd>
+<dt>Client:</dt>
+<dd>Any computing device, such as your laptop or mobile phone, that can be used to connect to and draw content from the web. Your device uses an application (usually a web browser) to request a web site/other data from a server; the server then sends back a response, which includes all the information needed for your application to display the web site or other data you requested.</dd>
 <dt>
-Client:</dt>
-<dd> Any computing device, such as your laptop or mobile phone, that can be used to connect to and draw content from the web. Your device uses an application (usually a web browser) to request a web site/other data from a server; the server then sends back a response, which includes all the information needed for your application to display the web site or other data you requested.</dd>
-<dt>
- DNS (Domain Name Server):</dt>
+Domain Name Server  (DNS):</dt>
 <dd> This is essentially an address book for the Web that links common names to the numerical addresses at which all Web sites are stored. All Web sites are actually located at numerical addresses of the form ###.###.###.### called IP addresses. Domain Name Servers associate these addresses with domain names, so they are easier to handle for humans. So for example, the IP address of google.co.uk is 173.194.66.94 — try typing it in and you'll see we're right — but google.co.uk is far easier to remember!</dd>
 <dt>FTP (File Transfer Protocol):</dt>
 <dd>A protocol that defines the manner in which files can be loaded to or from Servers such that there is a standard method that can be used by any of the many disparate devices that can connect to the Web.</dd>
